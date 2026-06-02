@@ -11242,6 +11242,402 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["things to do in cassis", "cassis", "travel", "city guide", "provence"],
   },
   {
+    slug: "things-to-do-in-arles-2026",
+    title: "Things to do in Arles: Roman stones and Van Gogh's light",
+    metaTitle: "Things to Do in Arles (2026) — Roman Arena, Van Gogh & the Camargue",
+    metaDesc:
+      "Arles's Roman amphitheatre, the Van Gogh trail, the world-class photography festival and the wild Camargue on its doorstep.",
+    category: "city-guide",
+    emoji: "🏛️",
+    readMinutes: 6,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Arles is a small Provençal city carrying an outsized history: a Roman arena still in use, a clutch of UNESCO-listed antiquities, the streets Van Gogh painted in a feverish year, and the gateway to the Camargue wetlands. It's compact enough for a day but rewards two. Here's what's worth your time.",
+    sections: [
+      {
+        heading: "The Roman monuments",
+        body: "The Arènes, a 1st-century amphitheatre that once held 20,000 spectators, still hosts events and is the centrepiece of the old town; climb the towers for a view over the rooftops to the Rhône. A short walk away, the Roman theatre, the underground cryptoporticus galleries and the Thermes de Constantin baths round out the antique circuit. A combined ticket (the Pass Liberté) covers the main sites and is worth it if you plan to see several.",
+      },
+      {
+        heading: "On the Van Gogh trail",
+        body: "Van Gogh painted some 300 works here in 1888–89, and a marked walking route links the spots he set up his easel: the Café Terrace at Night on the Place du Forum, the courtyard of the old hospital (Espace Van Gogh), and the Rhône embankment of Starry Night. None of the originals are in Arles, but the Fondation Van Gogh stages strong contemporary shows in dialogue with his work.",
+      },
+      {
+        heading: "Photography and the Rencontres",
+        body: "Arles is a photography capital. The Rencontres d'Arles, every summer from July, fills the city's historic buildings with major exhibitions and draws curators from around the world. Year-round, the striking Luma tower, a Frank Gehry-designed arts centre on a former rail yard, is free to enter and worth the walk out from the centre for the architecture alone.",
+      },
+      {
+        heading: "Markets and the old town",
+        body: "The Saturday market along the Boulevard des Lices is one of the best in Provence, a long ribbon of produce, olives, sausage and fabric. Otherwise, Arles is for wandering: the place du Forum for an evening drink, the narrow streets of the Roquette quarter, and the riverside. It feels lived-in rather than polished, which is part of the appeal.",
+      },
+      {
+        heading: "Into the Camargue",
+        body: "South of the city the land flattens into the Camargue, a vast delta of marsh, rice fields and salt pans famous for pink flamingos, white horses and black bulls. The Pont de Gau ornithological park is the easy introduction; Saintes-Maries-de-la-Mer on the coast is the main town. A car helps, but guided jeep and horseback trips run from Arles.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Arles is a stop on the train line between Avignon, Nîmes and Marseille, so it's easy to reach without a car (you'll want one for the Camargue). Summer is hot and the festival season packs the hotels, so book ahead. Spring and autumn are gentler and the light, the thing that drew Van Gogh, is at its best in the low sun of late afternoon.",
+      },
+    ],
+    relatedCities: ["arles", "nimes", "avignon"],
+    tags: ["things to do in arles", "arles", "travel", "city guide", "provence"],
+  },
+  {
+    slug: "things-to-do-in-nimes-2026",
+    title: "Things to do in Nîmes: the best-preserved Roman city in France",
+    metaTitle: "Things to Do in Nîmes (2026) — Roman Arena, Maison Carrée & Pont du Gard",
+    metaDesc:
+      "Nîmes's astonishing Roman amphitheatre and temple, the modern Musée de la Romanité, the gardens, and the Pont du Gard nearby.",
+    category: "city-guide",
+    emoji: "🏟️",
+    readMinutes: 6,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Nîmes has the best-preserved Roman amphitheatre and one of the best-preserved Roman temples in the world, both standing in the middle of a working southern French city. Add a striking modern museum, leafy 18th-century gardens and the Pont du Gard half an hour away, and you have a place that takes Rome seriously without feeling like a museum town. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Arena",
+        body: "The Arènes de Nîmes, built around 70 AD, is the most complete Roman amphitheatre anywhere, two tiers of arches wrapping an oval that still seats crowds for concerts and (controversially) bullfights during the férias. The audioguide walks you through the structure and the gladiatorial history; go early or late to have the upper tiers to yourself.",
+      },
+      {
+        heading: "The Maison Carrée and the Musée de la Romanité",
+        body: "The Maison Carrée, a near-perfect Roman temple from the 1st century, sits a few minutes' walk away and is one of the best-preserved in the entire Roman world, now UNESCO-listed. Facing it, the Musée de la Romanité (a modern building wrapped in a shimmering glass mosaic) tells the wider story with mosaics and artefacts, and its rooftop terrace gives you the arena and the temple in one sweep.",
+      },
+      {
+        heading: "Gardens and the Tour Magne",
+        body: "The Jardins de la Fontaine, laid out in the 18th century around a Roman spring, are among the oldest public gardens in Europe, with balustrades, statues and a climb up to the Tour Magne, a Roman tower with the best panorama over the city. It's a free, green counterpoint to the stone monuments and a lovely place to end an afternoon.",
+      },
+      {
+        heading: "The old town and denim",
+        body: "The Écusson, the old town between the arena and the Maison Carrée, is a tangle of lanes, squares and cafés good for an aimless wander. Trivia worth knowing: 'denim' is a corruption of 'de Nîmes', the sturdy serge cloth the city exported, so the jeans you're wearing trace their name here. A few local shops lean into the heritage.",
+      },
+      {
+        heading: "The Pont du Gard",
+        body: "Half an hour from Nîmes, the Pont du Gard is the tallest surviving Roman aqueduct bridge, three tiers of honey-coloured arches spanning the Gardon river, and a UNESCO site you can swim beneath in summer. The visitor centre is good; come early or near closing to beat the coach tours, and bring swimming things if it's warm.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Nîmes is on the TGV line and an easy day from Avignon, Arles or Montpellier, all close by. The férias (around Pentecost and in September) transform the city into a wall-to-wall party but pack the hotels; if that's not your scene, avoid those dates. Summers are very hot, so plan the gardens and the aqueduct for the cooler ends of the day.",
+      },
+    ],
+    relatedCities: ["nimes", "arles", "montpellier"],
+    tags: ["things to do in nimes", "nimes", "travel", "city guide", "occitanie"],
+  },
+  {
+    slug: "things-to-do-in-bayeux-2026",
+    title: "Things to do in Bayeux: the Tapestry and the D-Day beaches",
+    metaTitle: "Things to Do in Bayeux (2026) — The Tapestry, Cathedral & D-Day Beaches",
+    metaDesc:
+      "Bayeux's medieval tapestry, its soaring cathedral, the spared old town, and the D-Day landing beaches and cemeteries on its doorstep.",
+    category: "city-guide",
+    emoji: "🧵",
+    readMinutes: 6,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Bayeux is a small Normandy town with two very different claims on history: an 11th-century embroidery telling the story of the Norman conquest of England, and its position as the natural base for visiting the 1944 D-Day landing beaches. The first town liberated after D-Day, it escaped the bombing that flattened so much of Normandy, so its medieval centre is intact. Here's how to spend the time.",
+    sections: [
+      {
+        heading: "The Bayeux Tapestry",
+        body: "The Tapestry is a 70-metre embroidered cloth from the 1070s narrating William the Conqueror's invasion of England and the Battle of Hastings, complete with Halley's Comet and a great deal of incidental medieval life in the borders. The included audioguide moves you along at a steady pace; it's genuinely gripping. Go first thing or late to avoid the coach crowds, and note the museum periodically closes for conservation, so check ahead.",
+      },
+      {
+        heading: "The cathedral and old town",
+        body: "Notre-Dame de Bayeux, the soaring Norman-Gothic cathedral that originally housed the Tapestry, dominates the skyline and is free to enter; the crypt and the carved capitals are worth the look up. Around it, the old town is a pleasure of timber-framed houses, a water mill on the Aure river and good restaurants. It's small and walkable in an afternoon.",
+      },
+      {
+        heading: "The D-Day landing beaches",
+        body: "Bayeux is the best base for the landing beaches. Omaha Beach and the moving American cemetery at Colleville-sur-Mer, the German battery at Longues-sur-Mer, the artificial harbour remains at Arromanches, and Pointe du Hoc are all within a short drive. Gold Beach is the closest. Many visitors take a half- or full-day guided minibus tour from Bayeux, which handles the driving and adds the context the sites deserve.",
+      },
+      {
+        heading: "The memorials and museums",
+        body: "The Mémorial de Bayeux and the nearby Bayeux War Cemetery (the largest Commonwealth cemetery of the Normandy campaign) anchor the war history in the town itself. Out at the beaches, the Overlord Museum and the Arromanches 360 cinema add depth. If you only have time for one beach-side stop, the cliff-top American cemetery above Omaha is the one that stays with people.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Bayeux is about 20 minutes by train from Caen and reachable from Paris in around two and a half hours, so it works as a long day trip, though staying overnight lets you do the beaches properly. You need a car or a tour for the landing sites; the town itself is walkable. The week around 6 June brings commemorations and crowds, meaningful but busy.",
+      },
+    ],
+    relatedCities: ["bayeux", "caen", "cherbourg"],
+    tags: ["things to do in bayeux", "bayeux", "travel", "city guide", "normandy"],
+  },
+  {
+    slug: "things-to-do-in-caen-2026",
+    title: "Things to do in Caen: William's castle and the Memorial",
+    metaTitle: "Things to Do in Caen (2026) — Castle, Abbeys & the Mémorial",
+    metaDesc:
+      "Caen's huge medieval castle, William the Conqueror's two abbeys, the powerful Mémorial peace museum and the D-Day coast nearby.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Caen, the historic capital of Lower Normandy, was largely rebuilt after the 1944 battle that nearly destroyed it, but its great medieval monuments survived: William the Conqueror's castle and his two abbeys. Add one of France's most thoughtful war museums and an easy reach to the D-Day coast, and Caen earns a day. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Château de Caen",
+        body: "One of the largest medieval fortresses in Europe, William the Conqueror's castle sits right in the centre, its ramparts free to walk for views over the city. Inside the walls you'll find the Musée des Beaux-Arts (a strong fine-arts collection) and the Musée de Normandie, plus the old keep and church, making the castle grounds a half-day in themselves.",
+      },
+      {
+        heading: "The two abbeys",
+        body: "William and his wife Matilda founded two great Romanesque abbeys here to settle a dispute with the Church over their marriage: the Abbaye aux Hommes (with William's tomb and a church now flanking the town hall) and the Abbaye aux Dames (Matilda's, at the other end of town). Both are free to visit, and the Abbaye aux Hommes offers guided tours of its elegant 18th-century convent buildings.",
+      },
+      {
+        heading: "The Mémorial de Caen",
+        body: "On the city's northern edge, the Mémorial is one of the best museums in France on the Second World War, the D-Day landings and the wider 20th century of conflict and reconciliation. Allow at least half a day; it's substantial and moving. The museum also runs well-regarded guided tours out to the landing beaches, which makes it a practical springboard for the coast.",
+      },
+      {
+        heading: "The coast and the centre",
+        body: "Caen sits a short drive or bus ride from the seaside resorts of Ouistreham and the Côte de Nacre, and within easy reach of the eastern D-Day beaches (Sword and Juno). Back in town, the rebuilt centre has a pleasant pedestrian core, the Saint-Pierre church and a small marina at the end of the canal, good for an unhurried evening.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Caen is about two hours from Paris by train and a 20-minute hop from Bayeux, and there's a ferry to Portsmouth from Ouistreham. The city makes a sensible base for the whole Normandy battlefield region. It's a working city rather than a chocolate-box town, so set expectations toward history and museums over postcard prettiness.",
+      },
+    ],
+    relatedCities: ["caen", "bayeux", "cherbourg"],
+    tags: ["things to do in caen", "caen", "travel", "city guide", "normandy"],
+  },
+  {
+    slug: "things-to-do-in-tours-2026",
+    title: "Things to do in Tours: the gateway to the Loire châteaux",
+    metaTitle: "Things to Do in Tours (2026) — Old Town, Cathedral & Loire Châteaux",
+    metaDesc:
+      "Tours's handsome old town and cathedral, its lively student energy and food scene, and the great Loire Valley châteaux on its doorstep.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 6,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Tours is the practical capital of the Loire Valley: a lively university city with a beautiful old quarter, good food and fast trains, and the perfect base for the châteaux that make this region famous. You come for the castles, but the city itself is worth a day. Here's how to balance both.",
+    sections: [
+      {
+        heading: "The old town and Place Plumereau",
+        body: "Vieux Tours is a compact grid of timber-framed houses centred on the Place Plumereau, a postcard square ringed with cafés that fills with students in the evening. The lanes around it are made for wandering, with the Tour Charlemagne and Tour de l'Horloge marking the remains of the old basilica. It's one of the prettiest restored medieval centres in central France.",
+      },
+      {
+        heading: "The cathedral and museums",
+        body: "The Cathédrale Saint-Gatien is a Gothic showpiece whose stained glass and twin towers reward a slow look; the cloister next door is a quiet pause. The Musée des Beaux-Arts, in the former archbishop's palace with a famous cedar tree in its courtyard, holds a respectable collection. Tours also has a small but charming compagnonnage museum dedicated to the craft guilds.",
+      },
+      {
+        heading: "Food and the riverbanks",
+        body: "Tours takes its food seriously: rillettes, rillons, goat cheeses (Sainte-Maure), and the wines of Vouvray and Chinon nearby. The covered market (Les Halles) is the place to graze, and the city sits between two rivers, the Loire and the Cher, with walkable banks. It's a genuinely good eating-and-drinking town, not just a base.",
+      },
+      {
+        heading: "The châteaux: pick two or three",
+        body: "This is why most people come. Villandry (the Renaissance gardens), Chenonceau (arched across the Cher, the most beautiful of all), Amboise (with Leonardo da Vinci's final home at Clos Lucé), Chambord (the vast royal hunting lodge) and Azay-le-Rideau are all within reach. Don't try to do more than two or three in a day; the gardens and the drives are half the pleasure.",
+      },
+      {
+        heading: "Getting to the castles",
+        body: "Some châteaux (Amboise, Blois, Chenonceau) are reachable by train, but the loveliest, Villandry, Azay-le-Rideau, Chambord, really want a car or an organised minibus tour, several of which leave from Tours daily. Cycling the Loire à Vélo route between châteaux is a wonderful flat-country option in good weather. Spring and early autumn are ideal; the gardens peak in June.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Tours is about an hour from Paris on the TGV, which makes even a day trip plausible, though the châteaux deserve an overnight or two. The city is flat and walkable with a tram line. Base here rather than in a single château town if you want both the Loire castles and a real city in the evenings.",
+      },
+    ],
+    relatedCities: ["tours", "amboise", "blois"],
+    tags: ["things to do in tours", "tours", "travel", "city guide", "loire valley"],
+  },
+  {
+    slug: "things-to-do-in-beaune-2026",
+    title: "Things to do in Beaune: the capital of Burgundy wine",
+    metaTitle: "Things to Do in Beaune (2026) — Hospices, Wine Cellars & the Côte d'Or",
+    metaDesc:
+      "Beaune's glittering Hospices, the cellars beneath the ramparts, the Côte de Beaune vineyards and the grand cru villages all around.",
+    category: "city-guide",
+    emoji: "🍷",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Beaune is the wine capital of Burgundy: a walled town surrounded by some of the most valuable vineyards on earth, with cellars under its streets and a famous medieval hospital at its heart. It's small, prosperous and built for tasting your way through the Côte d'Or. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Hospices de Beaune",
+        body: "The Hôtel-Dieu, a 15th-century charity hospital with a dazzling polychrome-tiled roof, is the must-see: the great hall of beds, the apothecary and Rogier van der Weyden's Last Judgement altarpiece are extraordinary. The Hospices still owns prized vineyards, and its charity wine auction each November is one of the events of the wine calendar. Go early before the tour groups arrive.",
+      },
+      {
+        heading: "The cellars and tasting",
+        body: "Beaune sits on a labyrinth of cellars. Several historic houses, the Marché aux Vins in a former church, Patriarche, Bouchard, open their tunnels for tastings where you walk down among the barrels. For a first orientation to Burgundy's bewildering hierarchy of appellations, a guided cellar tasting is money well spent before you head into the vineyards.",
+      },
+      {
+        heading: "The ramparts and old town",
+        body: "Beaune is still ringed by its ramparts, and a walk (or cycle) around them shows off the bastions, gardens and the cellars built into the walls. Inside, the old town is compact and handsome: the Collégiale Notre-Dame with its tapestries, the cobbled squares, and wine shops at every turn. It's an easy, pleasant place to spend the gaps between tastings.",
+      },
+      {
+        heading: "The Côte de Beaune vineyards",
+        body: "The reason Beaune exists spreads out on the slopes around it: Pommard, Volnay, Meursault, Puligny- and Chassagne-Montrachet, names that command extraordinary prices. The Route des Grands Crus threads the legendary villages between Beaune and Dijon. Hire a bike, join a half-day wine tour, or simply drive the back roads past the stone-walled climats, the individually named plots that are UNESCO-listed.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Beaune is on the train line between Dijon and Lyon, about two hours from Paris via Dijon. A car or an organised tour opens up the vineyard villages, most of which have no public transport. Tastings can add up, so pace yourself and consider buying a few bottles directly rather than tasting everything. Autumn around the harvest and the November auction is the most atmospheric, and the busiest.",
+      },
+    ],
+    relatedCities: ["beaune", "dijon"],
+    tags: ["things to do in beaune", "beaune", "travel", "city guide", "burgundy"],
+  },
+  {
+    slug: "things-to-do-in-sarlat-la-caneda-2026",
+    title: "Things to do in Sarlat: the golden capital of the Dordogne",
+    metaTitle: "Things to Do in Sarlat (2026) — Medieval Town, Markets & the Dordogne",
+    metaDesc:
+      "Sarlat's honey-stone medieval centre, its famous markets and foie gras, and the castles, caves and river valleys of the Périgord around it.",
+    category: "city-guide",
+    emoji: "🦆",
+    readMinutes: 6,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Sarlat-la-Canéda has one of the best-preserved medieval centres in France, a warren of honey-coloured stone houses that turns golden at dusk, and it sits at the heart of the Périgord Noir, a region of castles, prehistoric caves, walnut and foie gras. It's a touristy town that earns the attention. Here's how to spend the time.",
+    sections: [
+      {
+        heading: "The old town",
+        body: "Sarlat's medieval and Renaissance centre is a film set come to life (and often is one), with its Lanterne des Morts, the Maison de La Boétie, narrow alleys and a striking glass-and-steel lift inside a deconsecrated church by Jean Nouvel, who was born here. It's small; the pleasure is wandering and looking up. Come early or stay overnight to see it without the day-trip crowds.",
+      },
+      {
+        heading: "The markets and the food",
+        body: "Sarlat is a food town. The Saturday market is one of the great markets of the southwest, heaped with walnuts, cep mushrooms, truffles in winter, duck and goose in every form, and foie gras. There's a daily covered market in the old church too. Eat the local specialities, confit duck, pommes sarladaises fried in duck fat, walnut cake, at least once; this is rich, unapologetic country cooking.",
+      },
+      {
+        heading: "The castles of the Dordogne",
+        body: "The valleys around Sarlat bristle with castles perched over the river. Beynac and Castelnaud face each other across the Dordogne (the two were rivals in the Hundred Years' War), the gardens of Marqueyssac offer clipped boxwood and clifftop views, and the village of La Roque-Gageac clings to the rock below a cliff. Several of the 'most beautiful villages of France' are within a short drive.",
+      },
+      {
+        heading: "Prehistoric caves",
+        body: "This is one of the richest prehistoric regions on earth. Lascaux IV, a meticulous facsimile of the painted caves (the original is closed to protect it), is the headline; the Vézère valley nearby holds Font-de-Gaume (genuine prehistoric paintings, by limited ticket) and the cliff shelters of Les Eyzies. Book Lascaux IV ahead in summer.",
+      },
+      {
+        heading: "On the river",
+        body: "The Dordogne river itself is a draw: rent a canoe and paddle past the castles and cliffs on a calm summer day, one of the best half-days in the region, or take a gabarre, a traditional flat-bottomed boat, from La Roque-Gageac or Beynac for the lazy version.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Sarlat has a train station but the region really needs a car; the castles, caves and villages are scattered across the countryside with little public transport. Summer is busy and hot, with the town at its most crowded; late spring and early autumn are ideal. Book caves and the better restaurants ahead in peak season.",
+      },
+    ],
+    relatedCities: ["sarlat-la-caneda", "perigueux", "bordeaux"],
+    tags: ["things to do in sarlat", "sarlat", "travel", "city guide", "dordogne"],
+  },
+  {
+    slug: "things-to-do-in-saint-tropez-2026",
+    title: "Things to do in Saint-Tropez: beyond the yachts",
+    metaTitle: "Things to Do in Saint-Tropez (2026) — Old Town, Beaches & Art",
+    metaDesc:
+      "Saint-Tropez's old fishing village, the Annonciade art museum, the Pampelonne beaches and the markets, past the superyacht clichés.",
+    category: "city-guide",
+    emoji: "⛵",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Saint-Tropez is shorthand for superyachts and celebrity, but underneath the glitz is a small, genuinely pretty fishing village with a serious art history and some of the best beaches on the Riviera. You don't need a megayacht budget to enjoy it, you just need to know where to look. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The old town and the port",
+        body: "Behind the line of yachts, the old town climbs in ochre and pastel lanes to the Citadelle, whose ramparts and maritime museum give the best view over the gulf. La Ponche, the original fishing quarter, is all narrow streets and small squares, far quieter than the quay. Early morning, before the day crowds, is when Saint-Tropez feels like the village it once was.",
+      },
+      {
+        heading: "The Annonciade museum",
+        body: "The Musée de l'Annonciade, in a deconsecrated chapel by the port, is a real surprise: a small but outstanding collection of Pointillist and Fauvist painting, Signac, Matisse, Bonnard, by the artists who worked here when this was a painters' colony, not a playground. It's the cultural anchor of the town and rarely crowded.",
+      },
+      {
+        heading: "The beaches",
+        body: "The famous sand is at Pampelonne, a long stretch a few kilometres south, lined with both the legendary beach clubs and plenty of free public sections. You don't have to pay for a daybed to enjoy it. Closer to town, the Plage des Graniers is an easy walk from the Citadelle. The coastal path (sentier du littoral) around the peninsula is a lovely free walk past coves.",
+      },
+      {
+        heading: "Markets and villages",
+        body: "The Place des Lices market (Tuesday and Saturday) is the heart of local life, plane trees, produce, antiques and the famous tarte tropézienne cream cake. Inland, the perched villages of Ramatuelle and Gassin (one of the 'most beautiful villages of France') give you the Provençal hill-town experience minutes from the glamour, with views over the whole coast.",
+      },
+      {
+        heading: "Practical notes",
+        body: "There's no train to Saint-Tropez; you arrive by car (expect serious summer traffic and parking pain), by bus, or, best of all, by the seasonal ferry from Sainte-Maxime or Saint-Raphaël, which skips the gridlock. July and August are eye-wateringly busy and expensive; May, June and September are far more pleasant and still warm. Spend on one nice thing rather than trying to keep up with the yacht crowd.",
+      },
+    ],
+    relatedCities: ["saint-tropez", "saint-raphael", "frejus"],
+    tags: ["things to do in saint-tropez", "saint-tropez", "travel", "city guide", "french riviera"],
+  },
+  {
+    slug: "things-to-do-in-saint-paul-de-vence-2026",
+    title: "Things to do in Saint-Paul-de-Vence: an art village above the coast",
+    metaTitle: "Things to Do in Saint-Paul-de-Vence (2026) — Ramparts, Galleries & the Maeght",
+    metaDesc:
+      "Saint-Paul-de-Vence's ramparts and galleries, the world-class Fondation Maeght, the artists' legacy and nearby Vence and the coast.",
+    category: "city-guide",
+    emoji: "🎨",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Saint-Paul-de-Vence is a walled hilltop village in the hills behind Nice that became one of the great gathering places of 20th-century art, Chagall, Matisse and Picasso all passed through, and it now packs more galleries per square metre than almost anywhere. It's small and very popular, so it pays to be deliberate. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The village and ramparts",
+        body: "The whole village is the attraction: a single main street, the Rue Grande, climbing between stone houses to the church, with a complete circuit of 16th-century ramparts giving views over the surrounding hills and down to the sea. Chagall is buried in the village cemetery at the top. Come early or late; midday brings coach tours that fill the narrow lanes.",
+      },
+      {
+        heading: "The Fondation Maeght",
+        body: "Just outside the village, the Fondation Maeght is one of the finest private modern-art museums in Europe, purpose-built among pines with a Giacometti courtyard, a Miró labyrinth of sculptures and ceramics, and changing exhibitions. The building and gardens are as much the point as the collection. It's the single best reason to come and deserves a couple of unhurried hours.",
+      },
+      {
+        heading: "Galleries and the artists' legacy",
+        body: "The Rue Grande is lined with galleries and studios, of wildly varying quality, but worth a browse. The legendary auberge La Colombe d'Or, at the village entrance, took paintings from struggling artists in lieu of payment and now has a private collection of Picasso, Léger and Miró on its walls (you'll need a reservation to dine and see it). The whole place trades, fairly, on its creative past.",
+      },
+      {
+        heading: "Nearby Vence",
+        body: "A few minutes up the road, the larger town of Vence has its own walled old town and, crucially, Matisse's Chapelle du Rosaire, which he designed in full, stained glass, murals and all, as what he considered his masterpiece. It's only open limited days and hours, so check before you go. Vence is less precious and more lived-in than Saint-Paul.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Saint-Paul-de-Vence is about 30–40 minutes from Nice by car or bus (line 655); there's no train. It's tiny and gets very crowded in summer and at midday, so aim for first thing or the evening, when the light is best and the day-trippers have gone. Combine it with the Fondation Maeght and Vence for a full, art-rich day in the hills.",
+      },
+    ],
+    relatedCities: ["saint-paul-de-vence", "nice", "cagnes-sur-mer"],
+    tags: ["things to do in saint-paul-de-vence", "saint-paul-de-vence", "travel", "city guide", "french riviera"],
+  },
+  {
+    slug: "things-to-do-in-ajaccio-2026",
+    title: "Things to do in Ajaccio: Napoleon's city on the Corsican coast",
+    metaTitle: "Things to Do in Ajaccio (2026) — Napoleon, Beaches & the Sanguinaires",
+    metaDesc:
+      "Ajaccio's Napoleon heritage, its old town and market, the golden beaches and the boat trip out to the Sanguinaire islands.",
+    category: "city-guide",
+    emoji: "🌅",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Ajaccio, the capital of Corsica and Napoleon's birthplace, is a warm, easygoing port city that mixes Italianate streets with palm-lined seafront, a good market and beaches within the city limits. It's the gateway to the wilder south of the island, but it's a fine destination in its own right. Here's the shortlist.",
+    sections: [
+      {
+        heading: "On the Napoleon trail",
+        body: "Ajaccio leans hard into its most famous son. The Maison Bonaparte, the family home where Napoleon was born in 1769, is now a national museum; the Salon Napoléonien in the town hall and the statues around the Place Foch and Place d'Austerlitz fill in the cult. Even if you're not a history buff, the house gives a real sense of 18th-century Corsican life.",
+      },
+      {
+        heading: "The old town and market",
+        body: "The old town between the citadel and the cathedral is the most atmospheric part: ochre houses, washing lines, the baroque cathedral where Napoleon was baptised, and a daily morning market on the Place Foch piling up Corsican cheese, charcuterie (figatellu, coppa), honey and clementines. Graze your way through it; the island's food is a highlight.",
+      },
+      {
+        heading: "The Fesch museum",
+        body: "The Musée Fesch holds one of the most important collections of Italian painting in France outside the Louvre, assembled by Napoleon's uncle, Cardinal Fesch, with Botticelli, Titian and Bellini among them. It's an unexpected treasure for a city this size and a cool, quiet refuge on a hot afternoon.",
+      },
+      {
+        heading: "Beaches and the Sanguinaires",
+        body: "Ajaccio has sandy beaches within reach of the centre and a string of better ones along the road west toward the Pointe de la Parata. From there, the view (and the boat trips) take in the Îles Sanguinaires, the rust-red islands that glow at sunset, the classic Ajaccio postcard. An evening boat trip out to them is the thing to do on a clear day.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Ajaccio has an airport and ferry links to the mainland (Marseille, Nice, Toulon). The city is walkable, but a car opens up the rest of Corsica, the calanques of Piana, the mountains, the beaches of the south. Summer is hot and busy; late spring and September are gentler and the sea is still warm. Corsican distances are slow, the mountain roads are winding, so don't over-plan day trips.",
+      },
+    ],
+    relatedCities: ["ajaccio", "bastia"],
+    tags: ["things to do in ajaccio", "ajaccio", "travel", "city guide", "corsica"],
+  },
+  {
     slug: "one-week-in-provence-itinerary-2026",
     title: "One week in Provence: a route that actually works",
     metaTitle: "One Week in Provence Itinerary (2026) — A Practical Route",
