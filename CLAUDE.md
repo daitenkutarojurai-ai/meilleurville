@@ -190,6 +190,11 @@ Hosting is **Cloudflare** (Workers + `wrangler.toml`), not Vercel.
 - [x] **Host disclosure** — `mentions-légales` / `legal-notice` / privacy pages corrected Vercel → Cloudflare (Cloudflare, Inc.); dates bumped 31 mai 2026.
 - [ ] **`app/cgu`** date: bump "Dernière mise à jour" after legal review (currently 25 mai 2026). `confidentialite` already current (Cloudflare + D1 disclosure).
 
+### Audit-derived roadmap (2026-06-02)
+
+- [ ] **Region & Department score pages** (§7) — `/regions/[slug]` + `/departements/[slug]` (FR) and `/regions`, `/departments` (EN) showing an aggregate score = weighted average of the region/department's cities via the existing model. Add a region/department heatmap layer on the map and a region/department filter on the city listing. *(Region/department index + per-page already exist; this adds an aggregate SCORE + heatmap, not just listings — verify overlap before building.)*
+- [ ] **Guide hero images** (§4a — deferred 2026-06-02) — guides are intentionally text-only today. A real image layer needs a static, build-time pipeline: licensed/owned assets in `/public`, pre-optimized (sharp/squoosh) since `output:"export"` disables next/image optimization. Do NOT hotlink `source.unsplash.com` (shut down) or any external host. Scope ≈170 tourism (or ~960 all) assets — treat as its own project.
+
 ---
 
 ## Pending work
