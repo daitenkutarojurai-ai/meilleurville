@@ -13886,6 +13886,366 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["things to do in vienne", "vienne", "travel", "city guide", "rhone-alpes"],
   },
   {
+    slug: "things-to-do-in-epernay-2026",
+    title: "Things to do in Épernay: the capital of champagne",
+    metaTitle: "Things to Do in Épernay (2026) — Avenue de Champagne, Cellars & Vineyards",
+    metaDesc:
+      "Épernay's grand Avenue de Champagne and its great houses, the kilometres of cellars, tastings, and the vineyards of the Marne valley.",
+    category: "city-guide",
+    emoji: "🍾",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Épernay is, with Reims, the capital of champagne — a small town sitting on a labyrinth of cellars holding hundreds of millions of bottles, lined up along one of the most prestigious streets in France. If you've come for the wine, this is the place. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Avenue de Champagne",
+        body: "The Avenue de Champagne is a grand boulevard of mansions and great champagne houses — Moët & Chandon, Perrier-Jouët, Pol Roger and more — beneath which run over 100 kilometres of chalk cellars. Said to be 'the world's most drinkable address', it's the heart of any visit. Strolling it, even without a tasting, gives a sense of the wealth the wine built.",
+      },
+      {
+        heading: "Cellar tours and tastings",
+        body: "The big houses offer tours of their cool, cathedral-like chalk cellars, ending in a tasting — Moët & Chandon (the largest) and Mercier (with a quirky underground train ride) are the most set up for visitors. Smaller houses and tasting bars in town offer a more personal experience. Book ahead, especially in season.",
+      },
+      {
+        heading: "The vineyards around",
+        body: "Épernay sits among the Grand Cru vineyards. The slopes of the Côte des Blancs (Chardonnay villages like Cramant and Avize) to the south and the Montagne de Reims to the north are beautiful to drive or cycle, dotted with growers offering tastings far cheaper than the famous brands. Hautvillers, where the monk Dom Pérignon worked, is a short, scenic drive.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Épernay is a short train ride from Reims and about 1h15 from Paris (Gare de l'Est). The Avenue de Champagne and town cellars are walkable; the vineyards need a car, bike or a guided wine tour. Tastings involve alcohol — plan a driver. Spring to autumn is best; harvest in September is atmospheric but busy.",
+      },
+    ],
+    relatedCities: ["epernay", "reims", "chalons-en-champagne"],
+    tags: ["things to do in epernay", "epernay", "travel", "city guide", "champagne"],
+  },
+  {
+    slug: "things-to-do-in-arras-2026",
+    title: "Things to do in Arras: Flemish squares and a great belfry",
+    metaTitle: "Things to Do in Arras (2026) — Grand-Place, Belfry & WWI Sites",
+    metaDesc:
+      "Arras's two arcaded Flemish squares, the UNESCO belfry, the underground tunnels, and the WWI battlefields and memorials nearby.",
+    category: "city-guide",
+    emoji: "🏛️",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Arras, in the far north, has two of the most beautiful squares in France — vast cobbled spaces ringed by arcaded Flemish-Baroque façades — plus a soaring belfry, underground wartime tunnels, and the great battlefields and memorials of the First World War on its doorstep. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Grand-Place and Place des Héros",
+        body: "Arras's twin squares, lined with row upon row of gabled 17th- and 18th-century houses above stone arcades, are a stunning ensemble (carefully rebuilt after WWI damage). The smaller Place des Héros holds the town hall and belfry; the vast Grand-Place is one of the largest in Europe. Markets, cafés and the arcades make them a delight to linger in.",
+      },
+      {
+        heading: "The belfry and town hall",
+        body: "The UNESCO-listed belfry above the town hall can be climbed (or taken by lift) for a panorama over the squares and the surrounding plain — these northern belfries were medieval symbols of civic pride. The town hall itself is worth a look for its grand halls.",
+      },
+      {
+        heading: "The Boves and Carrière Wellington",
+        body: "Beneath Arras runs a network of medieval chalk tunnels (the Boves). During WWI these were vastly extended, and the Carrière Wellington museum takes you down into the tunnels where thousands of soldiers sheltered before the 1917 Battle of Arras — a powerful, moving underground experience.",
+      },
+      {
+        heading: "WWI battlefields",
+        body: "Arras is the base for the Western Front: the Canadian memorial and preserved trenches at Vimy Ridge, the Notre-Dame-de-Lorette necropolis with its vast 'Ring of Remembrance', and countless cemeteries are within a short drive. For anyone interested in the First World War, this is essential ground.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Arras is about 50 minutes from Paris by TGV (and close to Lille). The squares, belfry and tunnels are all walkable in the centre; a car or tour helps for the battlefields. Spring to autumn is pleasant; the squares host a big Christmas market in December.",
+      },
+    ],
+    relatedCities: ["arras", "lens", "lille"],
+    tags: ["things to do in arras", "arras", "travel", "city guide", "hauts-de-france"],
+  },
+  {
+    slug: "things-to-do-in-boulogne-sur-mer-2026",
+    title: "Things to do in Boulogne-sur-Mer: a walled town and a great aquarium",
+    metaTitle: "Things to Do in Boulogne-sur-Mer (2026) — Nausicaá, Old Town & the Coast",
+    metaDesc:
+      "Boulogne's huge Nausicaá sea-life centre, the walled upper town and basilica, the fishing port, and the cliffs of the Opal Coast nearby.",
+    category: "city-guide",
+    emoji: "🐠",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Boulogne-sur-Mer is France's biggest fishing port and home to one of Europe's largest sea-life centres, topped by a walled medieval upper town with a great domed basilica. Add the cliffs and beaches of the Opal Coast nearby, and it's a strong stop on the northern shore. Here's the shortlist.",
+    sections: [
+      {
+        heading: "Nausicaá",
+        body: "Nausicaá is one of the largest aquariums in Europe — a national sea centre whose vast 'high seas' tank, viewed through a giant window and a tunnel, surrounds you with sharks, rays and shoals of fish. It's a genuinely impressive half-day, with a strong ocean-conservation message, and the headline reason many people come.",
+      },
+      {
+        heading: "The walled upper town",
+        body: "Above the modern port, the Ville Haute is a complete walled medieval town — you can walk the full circuit of ramparts for views over the city and sea. Inside are cobbled streets, the castle (now an excellent and eclectic museum), the belfry, and the Basilique Notre-Dame with its huge dome and an atmospheric crypt. It's a lovely, quieter counterpoint to the aquarium.",
+      },
+      {
+        heading: "The port and seafront",
+        body: "Boulogne is a serious working fishing port, and the quayside fish stalls and seafood restaurants are the place to eat. The seafront and the Nausicaá area have been smartened up, with a beach and views across the Channel. On a clear day you can see England.",
+      },
+      {
+        heading: "The Opal Coast",
+        body: "Just south and north, the Côte d'Opale is a beautiful stretch of high chalk cliffs and wide beaches — the dramatic Cap Gris-Nez and Cap Blanc-Nez (the closest points to England, with WWII remains) are a short drive, as are the resort of Le Touquet and the seal-rich Baie de la Somme further down.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Boulogne-sur-Mer is reachable by train (about 2h30 from Paris, via Étaples or direct) and close to the Channel ports. The aquarium is by the port; the walled town is a short uphill walk. A car opens up the Opal Coast capes. Spring to autumn is best for the coast.",
+      },
+    ],
+    relatedCities: ["boulogne-sur-mer", "calais", "dunkerque"],
+    tags: ["things to do in boulogne-sur-mer", "boulogne-sur-mer", "travel", "city guide", "hauts-de-france"],
+  },
+  {
+    slug: "things-to-do-in-calais-2026",
+    title: "Things to do in Calais: Rodin's burghers, lace and the Channel",
+    metaTitle: "Things to Do in Calais (2026) — The Burghers, Lace Museum & the Coast",
+    metaDesc:
+      "Calais's Rodin 'Burghers' sculpture, the lace and fashion museum, the dragon machine, the beach and lighthouse, and the Opal Coast.",
+    category: "city-guide",
+    emoji: "🐉",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Calais is best known as a ferry and tunnel gateway, but it's worth more than a dash-through: a famous Rodin sculpture, a lace-making heritage with a striking museum, a giant walking mechanical dragon, and a long beach facing England. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Burghers of Calais",
+        body: "In front of the town hall stands one of Rodin's greatest works, 'The Burghers of Calais' — six citizens who, in 1347, offered their lives to save the besieged town. The bronze, raw with emotion, is a landmark of modern sculpture and free to see. The town hall behind it, with its tall belfry, is UNESCO-listed.",
+      },
+      {
+        heading: "The Cité de la Dentelle",
+        body: "Calais was a capital of machine-made lace, and the Cité de la Dentelle et de la Mode (lace and fashion museum), in a former lace factory, runs the huge looms and traces the craft's link to fashion. It's a surprisingly absorbing visit and the city's cultural highlight.",
+      },
+      {
+        heading: "The dragon and the seafront",
+        body: "A giant mechanical dragon — a walking, fire-breathing, passenger-carrying machine (cousin to the famous Nantes elephant) — patrols the seafront, a hit with families. The long beach, the lighthouse (climbable for Channel views), and the lively harbour give Calais a breezy seaside side beyond the ferries.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Calais is the Channel gateway — ferries to Dover, the Eurotunnel terminal, and trains (about 1h30 from Paris). The Burghers, lace museum and seafront are walkable or a short hop apart. It pairs well with Boulogne and the Opal Coast capes just down the shore. An easy first or last stop in France.",
+      },
+    ],
+    relatedCities: ["calais", "boulogne-sur-mer", "dunkerque"],
+    tags: ["things to do in calais", "calais", "travel", "city guide", "hauts-de-france"],
+  },
+  {
+    slug: "things-to-do-in-dunkerque-2026",
+    title: "Things to do in Dunkirk: beaches, carnival and 1940",
+    metaTitle: "Things to Do in Dunkerque (2026) — Beaches, Carnival & the 1940 Operation",
+    metaDesc:
+      "Dunkirk's long beach at Malo-les-Bains, the Operation Dynamo war museum, the wild carnival, the port museum and the Flemish coast.",
+    category: "city-guide",
+    emoji: "🏖️",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Dunkirk (Dunkerque), France's northernmost city on the Belgian border, is forever tied to the 1940 evacuation — but it's also a lively port town with a long sandy beach, a famously wild carnival, and a Flemish character all its own. Here's the shortlist.",
+    sections: [
+      {
+        heading: "Operation Dynamo and 1940",
+        body: "The Dynamo museum tells the story of the 1940 'miracle of Dunkirk', when hundreds of thousands of Allied troops were evacuated from these beaches under fire by a flotilla of ships and 'little boats'. Set in fortifications by the harbour, with the long beach itself stretching beyond, it's a moving way to understand the events the Christopher Nolan film dramatised.",
+      },
+      {
+        heading: "Malo-les-Bains beach",
+        body: "The resort suburb of Malo-les-Bains has a wide, flat sandy beach backed by a belle-époque promenade and brightly coloured villas — busy and cheerful in summer, atmospheric in any season. It's a proper seaside, and a reminder that these evacuation beaches are, in peacetime, a holiday shore.",
+      },
+      {
+        heading: "The carnival",
+        body: "Dunkirk's carnival, spread across weeks in late winter, is one of the most exuberant and singular festivals in France — costumed crowds, umbrellas, brass bands, herring thrown from the town hall balcony, and a fierce local spirit. If you can catch it, it's an unforgettable, very local spectacle.",
+      },
+      {
+        heading: "The port and around",
+        body: "The Musée Portuaire and the tall ship Duchesse Anne explore the city's maritime life, and the FRAC contemporary-art centre adds a modern note on the waterfront. The Flemish hinterland, with its bell-towered towns, and the dunes of the Belgian-border coast are close by.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Dunkirk is reachable by train (close to Lille and the Belgian border). The beach is a tram or bus ride from the centre. The carnival runs roughly January–March; summer is best for the beach. A free city bus network makes getting around easy.",
+      },
+    ],
+    relatedCities: ["dunkerque", "calais", "lille"],
+    tags: ["things to do in dunkerque", "dunkerque", "travel", "city guide", "hauts-de-france"],
+  },
+  {
+    slug: "things-to-do-in-cagnes-sur-mer-2026",
+    title: "Things to do in Cagnes-sur-Mer: Renoir's home and a hilltop village",
+    metaTitle: "Things to Do in Cagnes-sur-Mer (2026) — Renoir Museum, Haut-de-Cagnes & the Beach",
+    metaDesc:
+      "Cagnes-sur-Mer's Renoir house and museum, the medieval hill village of Haut-de-Cagnes and its castle, and the Riviera beaches.",
+    category: "city-guide",
+    emoji: "🎨",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Cagnes-sur-Mer, between Nice and Antibes, has three sides: the medieval hill village of Haut-de-Cagnes crowned by a castle, the house where Renoir spent his last years, and a stretch of Riviera beach. It's a quieter, more authentic slice of the coast. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Renoir Museum",
+        body: "Renoir spent the last twelve years of his life at Les Collettes, a house among olive trees above Cagnes, painting despite crippling arthritis. The house is now a museum, kept much as he left it — his studio, his wheelchair, original paintings and sculptures, and the silvery garden that he painted. It's an intimate, moving visit and the highlight of the town.",
+      },
+      {
+        heading: "Haut-de-Cagnes",
+        body: "The medieval hill village of Haut-de-Cagnes is one of the loveliest on the Riviera — steep cobbled lanes, vaulted passages and flower-draped houses climbing to the Château Grimaldi, a fortress-palace with a frescoed great hall and a museum (including a Mediterranean art collection and great views). Quiet and picturesque, it's a delight to wander.",
+      },
+      {
+        heading: "The beach and racecourse",
+        body: "Down on the coast, Cros-de-Cagnes keeps a fishing-village feel with a pebble beach, seafood restaurants and the Riviera's main racecourse (Hippodrome de la Côte d'Azur) alongside. It's a more relaxed, local beach scene than the glamour spots nearby.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Cagnes-sur-Mer is on the train line between Nice and Antibes (about 15 minutes from Nice). The beach and station are by the coast; a bus or steep walk reaches Haut-de-Cagnes and the Renoir museum. It makes an easy, lower-key Riviera base or day trip. Spring and autumn are ideal.",
+      },
+    ],
+    relatedCities: ["cagnes-sur-mer", "nice", "antibes"],
+    tags: ["things to do in cagnes-sur-mer", "cagnes-sur-mer", "travel", "city guide", "french riviera"],
+  },
+  {
+    slug: "things-to-do-in-saint-raphael-2026",
+    title: "Things to do in Saint-Raphaël: a Riviera resort beneath red hills",
+    metaTitle: "Things to Do in Saint-Raphaël (2026) — Beaches, Old Town & the Estérel",
+    metaDesc:
+      "Saint-Raphaël's beaches and seafront, the old town and basilica, boat trips to Saint-Tropez, and the red Estérel coast for hiking and diving.",
+    category: "city-guide",
+    emoji: "🌊",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Saint-Raphaël is a relaxed, family-friendly Riviera resort beneath the fiery red rocks of the Estérel, with good beaches, a pleasant old town and easy boat links along the coast. Paired with neighbouring Fréjus, it makes a well-placed base on the western Côte d'Azur. Here's the shortlist.",
+    sections: [
+      {
+        heading: "Beaches and seafront",
+        body: "Saint-Raphaël has a string of beaches, from the sandy town beach to small coves tucked along the corniche toward the Estérel. The palm-lined seafront promenade, the marina and the casino give it a classic resort feel. It's calmer and more affordable than the eastern Riviera glamour towns, which is its appeal.",
+      },
+      {
+        heading: "The old town",
+        body: "The compact old town has the curious neo-Byzantine Basilique Notre-Dame-de-la-Victoire, the older Romanesque church and a small archaeology museum with amphorae from ancient shipwrecks (this was a Roman port). It's a pleasant wander between beach and boat.",
+      },
+      {
+        heading: "Boat trips and the coast",
+        body: "Saint-Raphaël is a hub for seasonal boat excursions — across the bay to glamorous Saint-Tropez (skipping the notorious road traffic), along the red Estérel coast, and to the Îles de Lérins. The crossing to Saint-Tropez is one of the best ways to visit it.",
+      },
+      {
+        heading: "The Estérel",
+        body: "Right behind town, the Massif de l'Estérel is a wild range of blood-red volcanic rock dropping into a turquoise sea — superb for driving the coastal corniche, hiking to viewpoints like the Pic du Cap Roux, swimming in hidden calanques, and snorkelling or diving. It's the scenic highlight of the area.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Saint-Raphaël shares a station with Fréjus on the coastal railway, well connected along the Riviera (about an hour from Nice). The town and beaches are walkable; a car helps for the Estérel. Summer is busy; spring and autumn give you the red rocks and warm sea in calm.",
+      },
+    ],
+    relatedCities: ["saint-raphael", "frejus", "cannes"],
+    tags: ["things to do in saint-raphael", "saint-raphael", "travel", "city guide", "french riviera"],
+  },
+  {
+    slug: "things-to-do-in-martigues-2026",
+    title: "Things to do in Martigues: the 'Venice of Provence'",
+    metaTitle: "Things to Do in Martigues (2026) — Canals, Old Town & the Côte Bleue",
+    metaDesc:
+      "Martigues's colourful canals and the painters' corner, the old town on its islands, the étang de Berre, and the Côte Bleue creeks nearby.",
+    category: "city-guide",
+    emoji: "🎨",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Martigues, west of Marseille, is a fishing town built across canals and islands between the Mediterranean and the vast Étang de Berre — earning it the nickname 'the Venice of Provence'. Painted by Corot, Ziem and others, it's a colourful, low-key spot away from the Riviera crowds. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The canals and the Miroir aux Oiseaux",
+        body: "The heart of Martigues is the Île Brescon, where pastel fishermen's houses line the canals and small boats bob below. The corner known as the 'Miroir aux Oiseaux' (mirror of birds) is the famous view that drew generations of painters — a perfect little scene of reflections, colour and quiet. Wandering the canalside lanes is the main pleasure.",
+      },
+      {
+        heading: "The old town",
+        body: "Martigues spreads across three old quarters linked by bridges, with the baroque Église de la Madeleine, small squares, markets and seafood restaurants. The Musée Ziem holds works by the Provençal and Orientalist painters who loved the town's light, plus local archaeology. It's an unpretentious, lived-in place.",
+      },
+      {
+        heading: "The Côte Bleue",
+        body: "South of town, the Côte Bleue is a stretch of coast of little creeks (calanques) and fishing harbours — Carry-le-Rouet, Sausset, the wild coves reached by a scenic clifftop train line from Marseille. It's a quieter alternative to the famous Marseille calanques, good for swimming and seafood.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Martigues is reachable by train and bus from Marseille (about 45 minutes), an easy day trip. The canals and old town are walkable; a car or the coastal train opens up the Côte Bleue. Spring through autumn is best; the canalside is especially lovely in evening light, as the painters knew.",
+      },
+    ],
+    relatedCities: ["martigues", "marseille", "aix-en-provence"],
+    tags: ["things to do in martigues", "martigues", "travel", "city guide", "provence"],
+  },
+  {
+    slug: "things-to-do-in-macon-2026",
+    title: "Things to do in Mâcon: the Saône, Lamartine and southern Burgundy wine",
+    metaTitle: "Things to Do in Mâcon (2026) — Riverside, Wine & the Rock of Solutré",
+    metaDesc:
+      "Mâcon's Saône-side quays, the Lamartine heritage, the white wines of Pouilly-Fuissé, and the dramatic Rock of Solutré nearby.",
+    category: "city-guide",
+    emoji: "🍷",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Mâcon, where Burgundy meets the south on the banks of the Saône, is a sunny, easygoing wine town — gateway to the celebrated white wines of the Mâconnais and the Pouilly-Fuissé villages beneath the dramatic Rock of Solutré. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The riverside and old town",
+        body: "Mâcon strings along the wide Saône, and its tree-lined quays, bridge and the colourful timber-framed 'Maison de Bois' make for a pleasant riverside stroll. The covered market, the old hospital and the Saturday market give the town a relaxed, southern feel — the first hint of the Midi as you head down the valley.",
+      },
+      {
+        heading: "Lamartine's Mâcon",
+        body: "The Romantic poet Alphonse de Lamartine was born here, and the town celebrates him with a heritage trail, his statue, and museums and châteaux in the surrounding countryside linked to his life and verse. It's a gentle literary thread through a visit, especially for Francophiles.",
+      },
+      {
+        heading: "Wine and the Rock of Solutré",
+        body: "The Mâconnais produces some of Burgundy's best-value whites, crowned by Pouilly-Fuissé. The vineyard villages spread west of town beneath the Roche de Solutré — a dramatic limestone escarpment, a major prehistoric site, climbable for sweeping views over the vines. Tastings at the growers here are excellent and unpretentious.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Mâcon is a TGV stop (about 1h40 from Paris, close to Lyon and Beaune). The riverside and old town are walkable; the vineyards and Solutré need a car or bike. Spring through autumn is best; the wine villages and the Rock are the real draw beyond the pleasant town.",
+      },
+    ],
+    relatedCities: ["macon", "bourg-en-bresse", "beaune"],
+    tags: ["things to do in macon", "macon", "travel", "city guide", "burgundy"],
+  },
+  {
+    slug: "things-to-do-in-beziers-2026",
+    title: "Things to do in Béziers: a cathedral over the vines and the Canal du Midi",
+    metaTitle: "Things to Do in Béziers (2026) — Cathedral, Canal du Midi & Fonseranes Locks",
+    metaDesc:
+      "Béziers's hilltop cathedral over the Orb, the Canal du Midi and the staircase of Fonseranes locks, the old town, and the Languedoc wine country.",
+    category: "city-guide",
+    emoji: "⛪",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Béziers, one of the oldest cities in France, rises above the Orb river crowned by a fortress-cathedral, with the UNESCO-listed Canal du Midi threading through and a famous staircase of locks on its edge. It's the capital of Languedoc wine country and a lively southern town. Here's the shortlist.",
+    sections: [
+      {
+        heading: "Saint-Nazaire cathedral",
+        body: "The Cathédrale Saint-Nazaire stands on a height above the Orb, a fortress-like Gothic church rebuilt after the city was brutally sacked in the 1209 Cathar crusade. Its terrace gives a sweeping view over the river, the old bridge and the plain of vines. The climb up through the old town to reach it is part of the experience.",
+      },
+      {
+        heading: "The Canal du Midi and Fonseranes locks",
+        body: "The 17th-century Canal du Midi, UNESCO-listed, passes through Béziers, and its showpiece is the Neuf Écluses de Fonseranes — a staircase of locks that lifts boats up the hillside, designed by the canal's creator Pierre-Paul Riquet (a Béziers native). Watching boats work through, and the nearby canal-over-river aqueduct, is a fine, free spectacle.",
+      },
+      {
+        heading: "The old town and the Feria",
+        body: "Béziers's old town has the Allées Paul Riquet (a grand plane-tree boulevard with a market), the Halles, and a Spanish-tinged southern energy that peaks at the August Feria — a huge festival with bulls, music and crowds. The town is the heart of a region proud of its wine and rugby.",
+      },
+      {
+        heading: "Wine and around",
+        body: "Béziers sits amid the vast Languedoc vineyards, the largest wine region in France, with growers and cooperatives all around producing characterful, good-value reds and whites. The Mediterranean beaches, Sète and the Canal du Midi's plane-shaded reaches are all close.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Béziers is on the Mediterranean train line (close to Montpellier and Narbonne) and has a small airport. The old town is walkable but hilly up to the cathedral; the Fonseranes locks are a short way out. Spring and autumn are pleasant; avoid the Feria week unless you want the full, boisterous party.",
+      },
+    ],
+    relatedCities: ["beziers", "narbonne", "sete"],
+    tags: ["things to do in beziers", "beziers", "travel", "city guide", "occitanie"],
+  },
+  {
     slug: "one-week-in-provence-itinerary-2026",
     title: "One week in Provence: a route that actually works",
     metaTitle: "One Week in Provence Itinerary (2026) — A Practical Route",
