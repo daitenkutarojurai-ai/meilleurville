@@ -26,6 +26,7 @@ import { computePublicServices } from "@/lib/public-services";
 import { computeSportLeisure } from "@/lib/sport-leisure";
 import { housingTensionFor } from "@/lib/housing-tension";
 import { internetScore, internetLabel } from "@/lib/internet-score";
+import { fiscalityForCity } from "@/lib/fiscalite";
 import { sunshineDays } from "@/lib/utils";
 
 // Tag patterns that signal a strong seasonal/touristic vocation. Matched on
@@ -849,6 +850,65 @@ function rankPauvreEnSport(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
 }
 
+// --- THEME 23 — Fiscalité immobilière lourde ---
+// Cible : villes des départements en tier fiscal `elevee`, `tres-elevee` ou
+// `particulier` (Paris) selon `lib/fiscalite` (DGFiP / OFL 2024). On amplifie
+// par le prix d'achat médian au m² (DVF / Meilleurs Agents) — un taux élevé
+// sur une base cadastrale faible reste supportable, c'est la combinaison
+// « taux élevé + base élevée » qui plombe vraiment le primo-accédant et le
+// propriétaire occupant. Bonus quand la commune est en zone tendue (THRS
+// majoration jusqu'à +60 % autorisée depuis 2023), bonus quand la population
+// dépasse 100 000 hab. (densité urbaine = bases cadastrales tirées vers le
+// haut). Indicateur dédié aux acheteurs qui se posent la vraie question :
+// « combien va peser la taxe foncière + THRS éventuelle dans mon budget
+// mensuel une fois le crédit signé ? ».
+const FISCAL_TIER_BASE: Record<string, number> = {
+  faible: 0,
+  moderee: 2,
+  elevee: 6,
+  "tres-elevee": 8,
+  particulier: 7.5,
+};
+
+function rankFiscaliteLourde(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    const dept = city.department;
+    const region = city.region;
+    if (!dept || !region) continue;
+
+    const fisc = fiscalityForCity({ department: dept, region });
+    const tierBase = FISCAL_TIER_BASE[fisc.tier] ?? 0;
+    if (tierBase < 6) continue; // hors-cible : tier faible ou modérée
+
+    const price = HOUSING[city.slug]?.avgBuyPriceM2;
+    const pop = city.population ?? 0;
+
+    // Bonus prix : 3 000 €/m² → 0, 6 000 €/m² → 2,0 (le tier inclut déjà
+    // l'effet base cadastrale ; on évite de double-compter en plafonnant bas).
+    const priceBonus = price != null
+      ? Math.max(0, Math.min(2.0, (price - 3000) / 1500))
+      : 0;
+    // Bonus zone tendue : THRS majoration disponible (jusqu'à +60 %).
+    const zoneBonus = fisc.zoneTendue ? 0.8 : 0;
+    // Bonus densité urbaine : 100k → 0,2 ; 500k → 0,9 ; Paris (2,1 M) → ~1,5.
+    const popBonus = pop > 50_000
+      ? Math.max(0, Math.min(1.5, Math.log10(pop / 50_000) * 1.05))
+      : 0;
+
+    const severity = Math.min(10, tierBase + priceBonus + zoneBonus + popBonus);
+    if (severity < 6.5) continue;
+
+    const priceLabel = price != null
+      ? `${Math.round(price).toLocaleString("fr-FR")} €/m²`
+      : "base cadastrale dept élevée";
+    const zoneLabel = fisc.zoneTendue ? " · zone tendue (THRS jusqu'à +60 %)" : "";
+    const reason = `${fisc.tierLabel} · ${priceLabel} · taxe foncière estimée ${fisc.taxeFonciereT3}${zoneLabel}`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -1179,6 +1239,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Severity = (5 − composite) × 2 + 1,2 si équipements ET clubs ≤ 4 + 0,4 si outdoor ≤ 4, clampé à 10/10. Pondération du composite : équipements 35 % · cadre outdoor 30 % · vie associative 20 % · climat 15 %. Sources sous-jacentes : RES INJEP (Recensement des Équipements Sportifs, sports.gouv.fr) pour piscines / stades / gymnases, DRAJES/DDETSPP pour le maillage clubs et licenciés, IGN + Météo-France pour relief et climatologie 1991-2020, FFRandonnée pour la densité GR/PR. Caveat : un nouvel équipement intercommunal mis en service après 2024 peut faire bouger la note d'une commune sans changer la moyenne départementale du seed.",
     rank: rankPauvreEnSport,
+  },
+  {
+    slug: "villes-fiscalite-lourde",
+    title: "Villes à la fiscalité immobilière la plus lourde",
+    metaTitle: "Fiscalité lourde 2026 — Villes au foncier le plus pesant",
+    metaDescription:
+      "Classement 2026 des villes françaises où la fiscalité immobilière pèse le plus : taxe foncière élevée, zone tendue (THRS), base cadastrale tirée par le prix au m². Source DGFiP / OFL.",
+    emoji: "🧾",
+    intro:
+      "L'annonce vante le quartier qui monte, le bien rare, le prix au m² « encore raisonnable ». Personne ne sort le dernier avis de taxe foncière du vendeur, ni ne mentionne que la commune est en zone tendue (THRS majoration jusqu'à +60 % depuis 2023), ni que les DMTO ajouteront près de 6 % au prix d'achat le jour de la signature. La fiscalité immobilière ne se voit pas sur la plaquette — elle se découvre sur le premier appel de taxe foncière, six mois après l'emménagement.",
+    reality:
+      "On classe les villes dont le département figure en tier `élevée` ou `très élevée` selon `lib/fiscalité` (DGFiP / Observatoire des finances locales 2024), Paris incluse comme cas particulier. On amplifie par le prix d'achat médian au m² (DVF / observatoires loyer 2024) — un taux élevé sur une base cadastrale faible reste supportable, c'est la combinaison « taux élevé + base élevée » qui plombe vraiment le primo-accédant. Bonus de gravité quand la commune est en zone tendue (THRS majoration disponible) et quand la densité urbaine tire les bases cadastrales vers le haut. Toutes les villes affichées dépassent 6,5/10 de severity composite.",
+    methodology:
+      "Severity = base tier (`élevée` 6 / `très élevée` 8 / Paris 7,5) + bonus prix (3 000 €/m² → 0, 6 000 €/m² → +2) + 0,8 si zone tendue + max(0 ; log₁₀(pop/50 000) × 1,05) plafonné à +1,5. Clampé à 10/10, filtré à severity ≥ 6,5. Sources : DGFiP cahiers OFL 2024 (taux moyens taxe foncière par dépt), décrets zone tendue 2023 (THRS), DVF + observatoires loyer 2024 (prix au m²), INSEE (population). Caveat : la taxe foncière communale varie de ±30 % autour de la moyenne dépt — vérifier impérativement l'avis du vendeur.",
+    rank: rankFiscaliteLourde,
   },
 ];
 
