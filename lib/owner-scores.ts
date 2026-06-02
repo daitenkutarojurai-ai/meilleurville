@@ -139,8 +139,11 @@ type SeedCity = (typeof CITIES_SEED)[number];
 // Anchor: avgTempJuly. 30°C+ → low; ≤22°C → high.
 function canicule(city: SeedCity): OwnerScore {
   const t = city.avgTempJuly ?? 23;
-  // Linear: 22→9, 26→6, 30→3, 33→1.5
-  const value = clamp(9 - (t - 22) * 0.9);
+  // Linear, anchored on the cool end so northern/Atlantic/mountain cities aren't
+  // a flat ~190-way tie at 10: 18→9.7, 20→8.3, 22→6.9, 26→4.1, 30→1.3.
+  // Monotonic in temperature, so the ranking order is unchanged — only the
+  // previously-clamped top now spreads out (e.g. Brest > Marseille).
+  const value = clamp(9.7 - (t - 18) * 0.7);
   return {
     key: "score_canicule",
     label: "Résistance canicule",
@@ -179,13 +182,17 @@ function solitude(city: SeedCity): OwnerScore {
 // No CBS data yet — proxy on population density.
 function bruit(city: SeedCity): OwnerScore {
   const pop = city.population ?? 50000;
-  let value = 8.5;
-  if (pop > 300000) value -= 2.0;
-  else if (pop > 150000) value -= 1.2;
-  else if (pop > 60000) value -= 0.5;
+  // Base raised so genuinely quiet villages can reach the 9-10 band instead of
+  // capping at 8.5; penalties keep dense metros differentiated. Monotonic in
+  // population → ranking order unchanged, top end just opens up.
+  let value = 9.6;
+  if (pop > 300000) value -= 2.8;
+  else if (pop > 150000) value -= 1.7;
+  else if (pop > 60000) value -= 0.8;
+  else if (pop < 20000) value += 0.2;
   // Île-de-France penalty (Bruitparif maps show ≥ 60 dB(A) Lden in most
   // communes around Paris)
-  if (city.region === "Île-de-France" && city.slug !== "fontainebleau") value -= 1.0;
+  if (city.region === "Île-de-France" && city.slug !== "fontainebleau") value -= 1.2;
   return {
     key: "score_bruit",
     label: "Calme sonore",

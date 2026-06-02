@@ -4,7 +4,8 @@
  * Static pages live in Cloudflare Workers Static Assets (out/, served directly
  * by the edge). This Worker is only invoked for non-asset paths — the dynamic
  * API surface that used to be Next.js route handlers — plus the two cron
- * triggers. Auth is fully client-side (Supabase JS), so no cookies here.
+ * triggers. Auth is Worker-native magic-link (D1 + HS256 JWT in localStorage,
+ * see lib/auth-*.ts) — no Supabase, no cookies here.
  *
  * Env vars (wrangler [vars] + secrets) are exposed to the shared lib code via
  * process.env (nodejs_compat populates it); the D1 binding is injected with

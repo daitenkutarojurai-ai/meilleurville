@@ -245,7 +245,7 @@ export function FranceHeatmap({ locale = "fr" }: { locale?: "fr" | "en" } = {}) 
           {(locale === "en"
             ? [
                 { color: "#A855F7", label: "≥ 7.5 Exceptional" },
-                { color: "#22C55E", label: "≥ 7.0 Excellent" },
+                { color: "#16A34A", label: "≥ 7.0 Excellent" },
                 { color: "#84CC16", label: "≥ 6.0 Good" },
                 { color: "#F59E0B", label: "≥ 5.0 Average" },
                 { color: "#F97316", label: "≥ 4.0 Below par" },
@@ -253,7 +253,7 @@ export function FranceHeatmap({ locale = "fr" }: { locale?: "fr" | "en" } = {}) 
               ]
             : [
                 { color: "#A855F7", label: "≥ 7,5 Exceptionnel" },
-                { color: "#22C55E", label: "≥ 7,0 Excellent" },
+                { color: "#16A34A", label: "≥ 7,0 Excellent" },
                 { color: "#84CC16", label: "≥ 6,0 Bon" },
                 { color: "#F59E0B", label: "≥ 5,0 Moyen" },
                 { color: "#F97316", label: "≥ 4,0 En dessous" },

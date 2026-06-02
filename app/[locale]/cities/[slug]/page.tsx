@@ -6,7 +6,8 @@ import { CityProfile } from "@/app/villes/[slug]/CityProfile";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getCityTitle, getCityDescription, ORIGIN_BY_LOCALE } from "@/lib/i18n";
 
-// ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
+// Pure static export (output:"export" on Cloudflare) — fully prebuilt at build
+// time; no ISR/runtime revalidation exists to tune.
 export const revalidate = false;
 export const dynamicParams = false;
 
