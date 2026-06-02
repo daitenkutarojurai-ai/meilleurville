@@ -792,6 +792,12 @@ function enStaticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/data-sources`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.55 },
     { url: `${BASE_URL}/property-calendar`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE_URL}/moving-from`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    ...commonOriginSlugs(24).map((slug) => ({
+      url: `${BASE_URL}/leaving/${slug}`,
+      lastModified: STATIC_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
     { url: `${BASE_URL}/climate-2040-timelapse`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/community-profiles`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/search`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.6 },

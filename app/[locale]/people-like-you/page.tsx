@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { PeopleLikeYouClient } from "@/app/people-like-you/PeopleLikeYouClient";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { CITIES_SEED } from "@/data/cities-seed";
+import { commonOriginSlugs } from "@/lib/people-like-you";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -53,6 +56,28 @@ export default function EnPeopleLikeYouPage() {
       <div className="mx-auto max-w-5xl px-4 sm:px-6 py-10">
         <PeopleLikeYouClient locale="en" />
       </div>
+
+      {/* SSG landing pages per departure city — readable without JS, indexable */}
+      <section className="mx-auto max-w-5xl px-4 sm:px-6 pb-14">
+        <h2 className="text-sm font-semibold text-[var(--text-primary)] mb-3">
+          Per-city &quot;leaving X&quot; landing pages
+        </h2>
+        <div className="flex flex-wrap gap-2">
+          {commonOriginSlugs(24).map((slug) => {
+            const c = CITIES_SEED.find((x) => x.slug === slug);
+            if (!c) return null;
+            return (
+              <Link
+                key={slug}
+                href={`/leaving/${slug}`}
+                className="rounded-full border border-[var(--border)] px-3 py-1 text-xs font-medium text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:text-[var(--accent)] transition-all"
+              >
+                Leaving {c.name}
+              </Link>
+            );
+          })}
+        </div>
+      </section>
 
       <Footer />
     </main>
