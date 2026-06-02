@@ -12014,6 +12014,382 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["things to do in gordes", "gordes", "travel", "city guide", "provence"],
   },
   {
+    slug: "things-to-do-in-metz-2026",
+    title: "Things to do in Metz: golden stone, glass and a Pompidou",
+    metaTitle: "Things to Do in Metz (2026) — Cathedral, Centre Pompidou & Old Town",
+    metaDesc:
+      "Metz's luminous Gothic cathedral, the Centre Pompidou-Metz, the German Imperial quarter and the gardens along the Moselle.",
+    category: "city-guide",
+    emoji: "🏛️",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Metz is an underrated city in Lorraine, built from a warm honey-coloured stone, with one of the most luminous Gothic cathedrals in France, a striking outpost of the Centre Pompidou, and a German Imperial quarter that sets it apart from anywhere else in the country. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The cathedral",
+        body: "Saint-Étienne de Metz has one of the largest expanses of stained glass of any cathedral in the world — nearly 6,500 square metres — which has earned it the nickname 'the Good Lord's lantern'. The interior glows; look for the modern windows designed by Marc Chagall. The pale stone and the soaring nave make it the must-see.",
+      },
+      {
+        heading: "Centre Pompidou-Metz",
+        body: "The first regional offshoot of Paris's Pompidou, this striking museum under a swooping wood-lattice roof shows major modern and contemporary art exhibitions drawn from the national collection. The building itself is worth the visit, and it anchors a redeveloped quarter near the station. Check what's on — the temporary shows are the draw.",
+      },
+      {
+        heading: "The Imperial quarter and the station",
+        body: "Metz spent decades as part of the German Empire, and the Quartier Impérial around the station is a remarkable ensemble of grand early-20th-century German architecture, unlike anything elsewhere in France and now UNESCO-listed. The railway station itself, monumental and Romanesque, is regularly voted France's most beautiful.",
+      },
+      {
+        heading: "Old town and the water",
+        body: "The old town's golden façades, the covered market (one of the best in France for Lorraine specialities — quiche, mirabelle plums), and the Place Saint-Louis with its arcades reward a wander. The Moselle and its canals thread through, with riverside gardens, the island temple and boat trips in summer.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Metz is about 1h20 from Paris by TGV and close to Luxembourg and the German border. The centre is compact and walkable. It's pleasant year-round; the mirabelle festival in late summer and the Christmas market are the standout seasonal draws.",
+      },
+    ],
+    relatedCities: ["metz", "nancy", "strasbourg"],
+    tags: ["things to do in metz", "metz", "travel", "city guide", "grand est"],
+  },
+  {
+    slug: "things-to-do-in-nancy-2026",
+    title: "Things to do in Nancy: a royal square and Art Nouveau",
+    metaTitle: "Things to Do in Nancy (2026) — Place Stanislas, Art Nouveau & Old Town",
+    metaDesc:
+      "Nancy's golden Place Stanislas, the Art Nouveau of the École de Nancy, the medieval old town and the ducal palace.",
+    category: "city-guide",
+    emoji: "✨",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Nancy, the historic capital of Lorraine, has one of the most beautiful squares in Europe and was a birthplace of Art Nouveau. It's an elegant, walkable city that rewards a day or two. Here's the shortlist.",
+    sections: [
+      {
+        heading: "Place Stanislas",
+        body: "The 18th-century Place Stanislas is the reason most people come — a perfectly proportioned royal square ringed by golden façades, framed by gilded wrought-iron gates and fountains, and UNESCO-listed. By day it's grand; on summer evenings a free sound-and-light show is projected onto the buildings. The Musée des Beaux-Arts on the square is excellent.",
+      },
+      {
+        heading: "Art Nouveau and the École de Nancy",
+        body: "Around 1900 Nancy was a centre of Art Nouveau, led by glassmaker Émile Gallé and the École de Nancy. The Musée de l'École de Nancy gathers the sinuous furniture, glass and ceramics in a period villa, and the streets of the Saurupt and Parc quarters are dotted with Art Nouveau houses, shopfronts and the famous Brasserie Excelsior. A self-guided trail links the best façades.",
+      },
+      {
+        heading: "The old town and ducal palace",
+        body: "North of Place Stanislas, the medieval Ville-Vieille has a different character: the Porte de la Craffe gateway, cobbled streets, and the Palais des Ducs de Lorraine with its ornate doorway, now the Lorraine history museum. The Parc de la Pépinière behind the square is a lovely green break.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Nancy is about 1h30 from Paris by TGV and a short hop from Metz, so the two pair well. The centre is flat and walkable. It's good year-round; summer evenings bring the Place Stanislas light show, and the macarons and bergamotes (citrus sweets) are the edible souvenirs.",
+      },
+    ],
+    relatedCities: ["nancy", "metz", "strasbourg"],
+    tags: ["things to do in nancy", "nancy", "travel", "city guide", "grand est"],
+  },
+  {
+    slug: "things-to-do-in-le-havre-2026",
+    title: "Things to do in Le Havre: concrete, light and the sea",
+    metaTitle: "Things to Do in Le Havre (2026) — Perret's City, MuMa & the Beach",
+    metaDesc:
+      "Le Havre's UNESCO-listed Perret architecture, the light-filled MuMa museum of Impressionism, Niemeyer's Volcano, and the seafront.",
+    category: "city-guide",
+    emoji: "🌊",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Le Havre surprises people. Flattened in 1944 and rebuilt by Auguste Perret in bold reinforced concrete, the city centre is now a UNESCO World Heritage Site — a coherent piece of 20th-century town planning that's far more beautiful than 'concrete port' suggests. Add an Impressionism museum bathed in sea light and a working beach, and it earns a day. Here's the shortlist.",
+    sections: [
+      {
+        heading: "Perret's rebuilt city",
+        body: "Auguste Perret's post-war reconstruction is the attraction: airy boulevards, the vast Place de l'Hôtel de Ville, and the astonishing Église Saint-Joseph, whose 107-metre concrete tower is lined inside with thousands of coloured glass panes that turn it into a lantern. The 'Appartement Témoin', a show flat furnished in 1950s style, lets you step inside the vision. It's modern heritage done with real conviction.",
+      },
+      {
+        heading: "MuMa and Impressionism",
+        body: "The Musée d'art moderne André Malraux (MuMa), a glass box on the seafront, holds one of France's best collections of Impressionism outside Paris — Monet, Boudin, Dufy — fittingly, since Monet's 'Impression, Sunrise', which named the movement, was painted of this very harbour. The light flooding the galleries is part of the experience.",
+      },
+      {
+        heading: "Niemeyer's Volcano and the docks",
+        body: "Oscar Niemeyer's gleaming white 'Volcan' cultural centre and library is the city's sculptural centrepiece. Nearby, the regenerated docks (Docks Vauban) and the Bassin du Commerce with its footbridge make a pleasant waterside walk past the port that still defines the city.",
+      },
+      {
+        heading: "The beach and around",
+        body: "Le Havre has a long pebble-and-sand beach right by the centre, lined with beach huts and the striking 'UP#3' container sculpture. Across the spectacular Pont de Normandie lies Honfleur, and the rest of the Normandy coast — the chalk cliffs of Étretat are a short drive north.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Le Havre is about two hours from Paris by direct train and a ferry port for England. The centre is flat and walkable. Come with an open mind — this is a city for people curious about architecture and light, not chocolate-box quaintness, and it repays that curiosity.",
+      },
+    ],
+    relatedCities: ["le-havre", "honfleur", "rouen"],
+    tags: ["things to do in le-havre", "le havre", "travel", "city guide", "normandy"],
+  },
+  {
+    slug: "things-to-do-in-arcachon-2026",
+    title: "Things to do in Arcachon: oysters, dunes and the bay",
+    metaTitle: "Things to Do in Arcachon (2026) — Dune du Pilat, Oysters & the Bay",
+    metaDesc:
+      "Arcachon's belle-époque villas, the towering Dune du Pilat, the oyster ports of the bay, and boat trips to the Île aux Oiseaux.",
+    category: "city-guide",
+    emoji: "🦪",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Arcachon is the seaside escape for nearby Bordeaux: a belle-époque resort on a sheltered tidal bay, famous for oysters, backed by the tallest sand dune in Europe. It mixes elegant villas, calm beaches and a working oyster culture. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Dune du Pilat",
+        body: "A few kilometres south of town, the Dune du Pilat is the tallest sand dune in Europe — over 100 metres high, a vast pale wave between the forest and the sea. Climb it (there's a staircase in season, or the sand the rest of the year) for a sweeping view over the Atlantic, the Banc d'Arguin sandbank and the pine forest. Sunset is spectacular. It's the regional must-see.",
+      },
+      {
+        heading: "The town and the Ville d'Hiver",
+        body: "Arcachon's seafront has a casino, a pier and a long beach, but the gem is the Ville d'Hiver ('Winter Town') on the hill behind — a quarter of extravagant 19th-century villas built among the pines as a health retreat, each more fanciful than the last. A stroll through it is free and lovely.",
+      },
+      {
+        heading: "Oysters and the bay",
+        body: "The Bassin d'Arcachon is oyster country. Around the bay, picturesque oyster ports like Cap Ferret and the colourful huts of L'Herbe serve oysters straight from the producer with a glass of white wine and a view of the water — one of the best simple meals in France. Even if you don't eat oysters, the ports are charming.",
+      },
+      {
+        heading: "On the water",
+        body: "Boat trips cross the bay to the Île aux Oiseaux with its iconic stilt cabins (cabanes tchanquées), and to the wild Banc d'Arguin sandbar. The peninsula of Cap Ferret, reached by a quick ferry, has surf beaches on its ocean side and calm water on the bay side, plus a lighthouse to climb.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Arcachon is about an hour from Bordeaux by direct train, making it an easy day trip or a relaxed base. A car or the bay ferries help to reach the dune, Cap Ferret and the oyster ports. July and August are busy and hot; June and September are ideal, with warm water and fewer crowds.",
+      },
+    ],
+    relatedCities: ["arcachon", "bordeaux", "libourne"],
+    tags: ["things to do in arcachon", "arcachon", "travel", "city guide", "atlantic coast"],
+  },
+  {
+    slug: "things-to-do-in-collioure-2026",
+    title: "Things to do in Collioure: the Catalan harbour that inspired Fauvism",
+    metaTitle: "Things to Do in Collioure (2026) — Harbour, Castle & the Fauvist Trail",
+    metaDesc:
+      "Collioure's bell-tower harbour, the royal castle, the Fauvism trail of Matisse and Derain, the anchovies, and the Vermilion Coast.",
+    category: "city-guide",
+    emoji: "🎨",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Collioure is a small Catalan port near the Spanish border where Matisse and Derain invented Fauvism, dazzled by its light and colour. With a bell tower rising from the water, a royal castle on the harbour and a backdrop of vineyard hills, it's one of the most beautiful spots on the French Mediterranean. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The harbour and bell tower",
+        body: "The signature image of Collioure is the church of Notre-Dame-des-Anges, whose round bell tower (a former lighthouse) rises straight from the seafront beside a little pebble beach and brightly painted boats. The harbour, ringed by ochre and pink houses, is the heart of the town — best at golden hour, exactly when the painters loved it.",
+      },
+      {
+        heading: "The Château Royal",
+        body: "The Château Royal de Collioure, a sturdy medieval fortress of the kings of Majorca and later of Spain, juts into the bay between the two beaches. You can tour its ramparts and courtyards, and the views over the harbour and coast are excellent. Vauban later reinforced the town's defences on the hill above.",
+      },
+      {
+        heading: "The Fauvism trail",
+        body: "In 1905 Matisse and Derain spent a summer here and changed painting. A marked 'Chemin du Fauvisme' around town places reproductions of their canvases on the exact spots where they were painted, so you can compare the wild colour to the real view. It's a free, charming way to see the town through their eyes.",
+      },
+      {
+        heading: "Anchovies, wine and the coast",
+        body: "Collioure is famous for salted anchovies (you can visit the last traditional salting houses) and for its sweet Banyuls and dry Collioure wines, grown on the steep terraced vineyards behind town. The Vermilion Coast (Côte Vermeille) road south toward Banyuls and the Spanish border is a stunning drive past coves and vineyards.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Collioure has a train station on the Perpignan line and is an easy day trip, though it's lovely to stay overnight once the day-trippers leave. It's small and steep; park outside and walk in summer, when it gets very busy. May, June and September give you the colour and light without the peak crowds.",
+      },
+    ],
+    relatedCities: ["collioure", "perpignan"],
+    tags: ["things to do in collioure", "collioure", "travel", "city guide", "occitanie"],
+  },
+  {
+    slug: "things-to-do-in-pau-2026",
+    title: "Things to do in Pau: a Pyrenean balcony and a royal castle",
+    metaTitle: "Things to Do in Pau (2026) — Château, Boulevard des Pyrénées & Funicular",
+    metaDesc:
+      "Pau's royal castle birthplace of Henri IV, the mountain-view Boulevard des Pyrénées, the English-era parks and the gateway to the Pyrenees.",
+    category: "city-guide",
+    emoji: "🏔️",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Pau sits on a terrace above the gave river with the Pyrenees lined up on the horizon — on a clear day one of the great urban views in France. A royal château, a legacy of elegant English winter visitors, and the mountains within reach make it a relaxed, handsome base. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Boulevard des Pyrénées",
+        body: "This kilometre-long terrace promenade, laid out on Napoleon's suggestion, runs along the edge of the old town with the whole chain of the Pyrenees spread out below — peaks named on a viewing table. It's free, and on a clear morning it's reason enough to come. A vintage funicular climbs up from the station to reach it.",
+      },
+      {
+        heading: "The Château de Pau",
+        body: "The château is the birthplace of King Henri IV (his cradle, famously made from a giant turtle shell, is on display). Restored in the 19th century, it's furnished with fine tapestries and gives a real sense of Renaissance and royal France, with gardens and a park below. It anchors the old town.",
+      },
+      {
+        heading: "The old town and the English legacy",
+        body: "Pau became a fashionable winter resort for British and American visitors in the 1800s, who left parks, villas, France's first golf course and a taste for sport. The old quarter around the château has cobbled streets, the Rue du Hédas ravine, and good restaurants. The Musée des Beaux-Arts holds a notable Degas.",
+      },
+      {
+        heading: "Gateway to the Pyrenees",
+        body: "Pau is the launch pad for the Pyrenees: the valleys of Ossau and Aspe, the spa town of Eaux-Bonnes, ski resorts in winter, and the legendary Col d'Aubisque cycling pass are all within an hour or so. The mountains you admire from the boulevard are genuinely reachable for a day in the wild.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Pau has a TGV station (about four hours from Paris) and an airport, and works as a base for both the mountains and the Basque Country (Bayonne is an hour away). The centre is walkable, with the funicular linking the station and the boulevard. Clear winter and spring days give the sharpest mountain views.",
+      },
+    ],
+    relatedCities: ["pau", "bayonne", "lourdes"],
+    tags: ["things to do in pau", "pau", "travel", "city guide", "pyrenees"],
+  },
+  {
+    slug: "things-to-do-in-brest-2026",
+    title: "Things to do in Brest: a great harbour at the edge of France",
+    metaTitle: "Things to Do in Brest (2026) — Océanopolis, Castle & the Harbour",
+    metaDesc:
+      "Brest's Océanopolis aquarium, the castle and maritime museum, the cable car over the harbour, and the wild tip of Brittany beyond.",
+    category: "city-guide",
+    emoji: "⚓",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Brest is a major naval port at the far western tip of Brittany, rebuilt after near-total destruction in 1944, so it trades on maritime energy and a spectacular natural harbour rather than old-town quaintness. It's the gateway to the wild Finistère coast and home to one of Europe's best aquariums. Here's the shortlist.",
+    sections: [
+      {
+        heading: "Océanopolis",
+        body: "Brest's headline attraction is Océanopolis, a large and genuinely excellent aquarium organised into polar, tropical and temperate pavilions, with penguins, sharks and a kelp forest. It's a great half-day, especially with children or on a wet Breton afternoon, and it reflects the city's role as a centre of marine science.",
+      },
+      {
+        heading: "The castle and maritime museum",
+        body: "The Château de Brest, a fortress guarding the harbour mouth since Roman times, survived the war and now houses the national maritime museum — fitting for a city that lives by the sea. Beside it, the Tour Tanguy tells the story of old Brest before the bombs. The views over the roadstead are the reward.",
+      },
+      {
+        heading: "The harbour and cable car",
+        body: "Brest's vast natural harbour (the rade) is the city's defining feature. The Téléphérique, an urban cable car, glides across the Penfeld river to the regenerated Ateliers des Capucins — a huge former naval workshop now a covered public space with shops, a library and events. Boat trips explore the roadstead and the naval port.",
+      },
+      {
+        heading: "The wild west beyond",
+        body: "Brest is the base for the dramatic tip of Brittany: the Crozon peninsula with its cliffs and beaches, the Pointe Saint-Mathieu lighthouse and abbey ruins, and boat trips to the island of Ouessant. This is some of the most rugged, weather-beaten coast in France, and Brest is the way in.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Brest is the western end of the TGV line (about 4 hours from Paris) and has an airport. The city is workmanlike rather than pretty — come for the harbour, the aquarium and the coast beyond, not for medieval lanes. The weather is famously changeable, so plan flexible indoor/outdoor days.",
+      },
+    ],
+    relatedCities: ["brest", "quimper"],
+    tags: ["things to do in brest", "brest", "travel", "city guide", "brittany"],
+  },
+  {
+    slug: "things-to-do-in-royan-2026",
+    title: "Things to do in Royan: 1950s seaside modernism and Atlantic beaches",
+    metaTitle: "Things to Do in Royan (2026) — Beaches, Modernist Architecture & the Estuary",
+    metaDesc:
+      "Royan's curved 1950s architecture, the concrete Notre-Dame church, the sandy conches, and the Gironde estuary and Zoo de la Palmyre nearby.",
+    category: "city-guide",
+    emoji: "🏖️",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Royan is an Atlantic resort at the mouth of the Gironde estuary with an unusual story: bombed flat in 1945, it was rebuilt in the 1950s as a showcase of optimistic modernist architecture, all curves and concrete and seaside light. Add a string of sandy bays and it's a distinctive beach town. Here's the shortlist.",
+    sections: [
+      {
+        heading: "1950s architecture",
+        body: "Royan's reconstruction is its signature: sweeping concrete façades, the curved seafront 'Front de Mer', the mushroom-pillared market hall (a soaring concrete dome), and the casino. It's a coherent and now-protected ensemble of mid-century modernism — a fascinating walk for anyone interested in architecture, and free.",
+      },
+      {
+        heading: "Notre-Dame de Royan",
+        body: "The church of Notre-Dame, completed in 1958, is the boldest statement of the rebuilt town — a towering, ribbed reinforced-concrete structure that soars upward, its walls of coloured glass throwing light across the interior. Whatever you think of concrete, it's a genuinely striking piece of modern sacred architecture.",
+      },
+      {
+        heading: "The beaches",
+        body: "Royan is built around a series of sandy bays called 'conches', from the big Grande Conche in town to smaller, sheltered coves backed by low cliffs and pines. The seafront promenade links them. The bathing is gentle and family-friendly, a contrast to the wilder surf beaches further up the coast.",
+      },
+      {
+        heading: "Around Royan",
+        body: "The Gironde estuary, the largest in Western Europe, is on the doorstep — boat trips run out to the Cordouan lighthouse, a UNESCO-listed 'king of lighthouses' standing offshore. Nearby, the Zoo de la Palmyre is one of France's best, and the oyster village of La Tremblade and the pine-backed beaches of the Côte Sauvage stretch north.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Royan is reachable by train (often via Saintes) and a ferry crosses the estuary to the Médoc wine country. A car helps for the zoo and the beaches up the coast. Summer is the lively season; spring and autumn are quieter, with the architecture and estuary just as rewarding.",
+      },
+    ],
+    relatedCities: ["royan", "saintes", "bordeaux"],
+    tags: ["things to do in royan", "royan", "travel", "city guide", "atlantic coast"],
+  },
+  {
+    slug: "things-to-do-in-bastia-2026",
+    title: "Things to do in Bastia: Corsica's working capital with an Italian soul",
+    metaTitle: "Things to Do in Bastia (2026) — Old Port, Citadel & Cap Corse",
+    metaDesc:
+      "Bastia's old port and baroque churches, the citadel of Terra Nova, the grand Place Saint-Nicolas, and the wild Cap Corse beyond.",
+    category: "city-guide",
+    emoji: "⛵",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Bastia is the workaday capital of northern Corsica, less polished than Ajaccio but with more soul: a tumbledown old port ringed by tall ochre houses, baroque churches, and a citadel, all steeped in the island's Genoese, Italian-flavoured past. It's the gateway to wild Cap Corse. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The old port (Vieux-Port)",
+        body: "Bastia's horseshoe-shaped old port is the heart of the city — fishing boats and yachts below tall, faded, shuttered houses, with cafés and seafood restaurants around the quay and the twin bell towers of the Saint-Jean-Baptiste church rising behind. It's at its best in the evening light, with a glass of Corsican wine.",
+      },
+      {
+        heading: "The citadel and Terra Nova",
+        body: "Above the port, the Genoese citadel encloses the Terra Nova quarter — quiet lanes, the governors' palace (now the Bastia history museum), and the Sainte-Marie cathedral with its remarkable silver statue. It's a calm, atmospheric contrast to the bustle below, with views over the port and the sea toward Italy.",
+      },
+      {
+        heading: "Place Saint-Nicolas and baroque churches",
+        body: "The vast, palm-lined Place Saint-Nicolas, one of the largest squares in France, opens onto the sea and fills with locals, markets and cafés. Bastia is also rich in baroque interiors — the Saint-Jean-Baptiste church and the ornate Oratoire de l'Immaculée Conception reward a look inside for their gilt and marble.",
+      },
+      {
+        heading: "Cap Corse and around",
+        body: "North of the city, the Cap Corse peninsula is the wild 'finger' of Corsica — a spectacular coastal drive past fishing hamlets, Genoese towers, vineyards (Patrimonio wine) and the marine reserve. South lies the lagoon and beaches of the Étang de Biguglia. A car turns Bastia into the base for some of Corsica's most dramatic scenery.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Bastia has an airport and ferries from the mainland and Italy, making it a common entry point to Corsica. The centre is walkable; a car is essential for Cap Corse and the rest of the island. Late spring and September are ideal — hot, but with calmer roads than peak August.",
+      },
+    ],
+    relatedCities: ["bastia", "ajaccio", "calvi"],
+    tags: ["things to do in bastia", "bastia", "travel", "city guide", "corsica"],
+  },
+  {
+    slug: "things-to-do-in-calvi-2026",
+    title: "Things to do in Calvi: a citadel, a curving beach and the mountains",
+    metaTitle: "Things to Do in Calvi (2026) — Citadel, Beach & the Balagne",
+    metaDesc:
+      "Calvi's Genoese citadel over the bay, the long pine-backed beach, the marina, and the hill villages of the Balagne behind.",
+    category: "city-guide",
+    emoji: "🏖️",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Calvi is the most postcard-perfect resort in northern Corsica: a mighty Genoese citadel standing over a curving bay, a long sandy beach backed by pines, and the snow-streaked mountains rising behind. It's glamorous in summer but keeps its old-town soul. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The citadel",
+        body: "Calvi's 13th-century Genoese citadel sits on a rocky promontory above the marina, its ramparts enclosing steep lanes, the cathedral, the old governors' palace and a house that (locals insist) was the birthplace of Christopher Columbus. Walking the walls at sunset, with the bay below and the mountains catching the last light, is the highlight.",
+      },
+      {
+        heading: "The beach and bay",
+        body: "Calvi's beach is one of the best on the island — a long, gently shelving crescent of pale sand backed by umbrella pines, curving away from the town with the citadel as a backdrop. The water is clear and calm, and beach bars line the sand in season. It's an easy walk from the centre.",
+      },
+      {
+        heading: "The marina and town",
+        body: "Below the citadel, the marina and the Quai Landry are the social heart of Calvi — a line of restaurants and cafés along the waterfront, busy with yachts in summer. The town is small and walkable, made for an evening stroll between a swim and dinner.",
+      },
+      {
+        heading: "The Balagne and around",
+        body: "Behind Calvi, the Balagne region is a string of perched hill villages — Sant'Antonino, Pigna, Corbara — known for crafts, olive groves and music, reached on a lovely drive (or the little tourist train that trundles along the coast to Île-Rousse). The red rocks and coves toward Galéria and the Scandola reserve are within reach by boat.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Calvi has an airport with seasonal flights, ferries from the mainland, and a scenic coastal train to Île-Rousse and Ponte-Leccia. The town is walkable but a car opens up the Balagne villages. It's busiest in July and August; June and September give you the beach and the citadel in warm calm.",
+      },
+    ],
+    relatedCities: ["calvi", "bastia", "ajaccio"],
+    tags: ["things to do in calvi", "calvi", "travel", "city guide", "corsica"],
+  },
+  {
     slug: "one-week-in-provence-itinerary-2026",
     title: "One week in Provence: a route that actually works",
     metaTitle: "One Week in Provence Itinerary (2026) — A Practical Route",
