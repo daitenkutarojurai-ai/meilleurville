@@ -3,7 +3,8 @@ import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
-import { scoreHex, scoreColor } from "@/lib/utils";
+import { scoreColor } from "@/lib/utils";
+import { FranceHeatmap } from "@/components/FranceHeatmap";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { CITIES_COUNT } from "@/lib/site-stats";
 
@@ -18,22 +19,6 @@ export const metadata: Metadata = {
 // Metropolitan bounding box — same as components/FranceHeatmap.tsx.
 // DROM cities fall outside this box and are listed separately below.
 const LNG_MIN = -6, LNG_MAX = 10, LAT_MIN = 40, LAT_MAX = 52;
-const W = 720, H = 760;
-
-function project(lng: number, lat: number): { x: number; y: number } {
-  const x = ((lng - LNG_MIN) / (LNG_MAX - LNG_MIN)) * W;
-  const y = H - ((lat - LAT_MIN) / (LAT_MAX - LAT_MIN)) * H;
-  return { x, y };
-}
-
-const LEGEND = [
-  { color: "#A855F7", label: "≥ 7.5 Exceptional" },
-  { color: "#22C55E", label: "≥ 7.0 Excellent" },
-  { color: "#84CC16", label: "≥ 6.0 Good" },
-  { color: "#F59E0B", label: "≥ 5.0 Average" },
-  { color: "#F97316", label: "≥ 4.0 Below average" },
-  { color: "#EF4444", label: "< 4.0 Weak" },
-];
 
 export default function EnMapPage() {
   const metro = CITIES_SEED.filter(
@@ -60,35 +45,9 @@ export default function EnMapPage() {
       </section>
 
       <section className="mx-auto max-w-6xl px-4 sm:px-6 py-10">
-        <div className="flex flex-wrap gap-x-5 gap-y-2 mb-6">
-          {LEGEND.map((l) => (
-            <span key={l.label} className="inline-flex items-center gap-1.5 text-xs text-[var(--text-secondary)]">
-              <span className="h-3 w-3 rounded-full" style={{ background: l.color }} aria-hidden />
-              {l.label}
-            </span>
-          ))}
-        </div>
-
-        <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4">
-          <svg
-            viewBox={`0 0 ${W} ${H}`}
-            className="w-full h-auto"
-            role="img"
-            aria-label="Map of French cities scored by quality of life"
-          >
-            {metro.map((c) => {
-              const { x, y } = project(c.longitude!, c.latitude!);
-              const r = 3 + (c.scores.global / 10) * 5;
-              return (
-                <a key={c.slug} href={`/cities/${c.slug}`} aria-label={`${c.name} — score ${c.scores.global.toFixed(1)}/10`}>
-                  <circle cx={x} cy={y} r={r} fill={scoreHex(c.scores.global)} fillOpacity={0.82} stroke="#fff" strokeWidth={0.6}>
-                    <title>{c.name} — {c.scores.global.toFixed(1)}/10</title>
-                  </circle>
-                </a>
-              );
-            })}
-          </svg>
-        </div>
+        {/* Full locale-aware heatmap: France mainland + Corsica outline, aurora
+            backdrop, score legend and per-axis filters, EN /cities links. */}
+        <FranceHeatmap locale="en" />
 
         {drom.length > 0 && (
           <div className="mt-8">

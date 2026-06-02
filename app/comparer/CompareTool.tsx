@@ -8,17 +8,18 @@ import { cn, scoreColor } from "@/lib/utils";
 import Link from "next/link";
 
 type CitySeed = (typeof CITIES_SEED)[number];
+type Locale = "fr" | "en";
 
-const SCORE_ROWS: Array<{ key: keyof CitySeed["scores"]; label: string; emoji: string }> = [
-  { key: "global", label: "Score global", emoji: "⭐" },
-  { key: "life", label: "Qualité de vie", emoji: "🏡" },
-  { key: "transport", label: "Transport", emoji: "🚆" },
-  { key: "nature", label: "Nature", emoji: "🌿" },
-  { key: "cost", label: "Coût de vie", emoji: "💰" },
-  { key: "safety", label: "Sécurité", emoji: "🛡️" },
-  { key: "culture", label: "Culture", emoji: "🎭" },
-  { key: "remoteWork", label: "Télétravail", emoji: "💻" },
-  { key: "schools", label: "Écoles", emoji: "🏫" },
+const SCORE_ROWS: Array<{ key: keyof CitySeed["scores"]; label: string; labelEn: string; emoji: string }> = [
+  { key: "global", label: "Score global", labelEn: "Overall score", emoji: "⭐" },
+  { key: "life", label: "Qualité de vie", labelEn: "Quality of life", emoji: "🏡" },
+  { key: "transport", label: "Transport", labelEn: "Transport", emoji: "🚆" },
+  { key: "nature", label: "Nature", labelEn: "Nature", emoji: "🌿" },
+  { key: "cost", label: "Coût de vie", labelEn: "Cost of living", emoji: "💰" },
+  { key: "safety", label: "Sécurité", labelEn: "Safety", emoji: "🛡️" },
+  { key: "culture", label: "Culture", labelEn: "Culture", emoji: "🎭" },
+  { key: "remoteWork", label: "Télétravail", labelEn: "Remote work", emoji: "💻" },
+  { key: "schools", label: "Écoles", labelEn: "Schools", emoji: "🏫" },
 ];
 
 const CITY_COLORS = ["text-blue-600", "text-violet-400", "text-amber-400"];
@@ -29,12 +30,15 @@ function CityPicker({
   onSelect,
   exclude,
   colorClass,
+  locale,
 }: {
   selected: CitySeed | null;
   onSelect: (c: CitySeed | null) => void;
   exclude: string[];
   colorClass: string;
+  locale: Locale;
 }) {
+  const t = (fr: string, en: string) => (locale === "en" ? en : fr);
   const [query, setQuery] = useState("");
   const [open, setOpen] = useState(false);
   const wrapRef = useRef<HTMLDivElement | null>(null);
@@ -95,8 +99,8 @@ function CityPicker({
           value={query}
           onChange={(e) => { setQuery(e.target.value); setOpen(true); }}
           onFocus={() => setOpen(true)}
-          placeholder="Rechercher une ville..."
-          aria-label="Rechercher une ville à comparer"
+          placeholder={t("Rechercher une ville...", "Search a city...")}
+          aria-label={t("Rechercher une ville à comparer", "Search a city to compare")}
           aria-autocomplete="list"
           aria-controls="city-picker-options"
           className="flex-1 bg-transparent text-sm text-[var(--text-primary)] placeholder:text-[var(--text-secondary)] outline-none"
@@ -127,7 +131,9 @@ function CityPicker({
   );
 }
 
-export function CompareTool() {
+export function CompareTool({ locale = "fr" }: { locale?: Locale } = {}) {
+  const t = (fr: string, en: string) => (locale === "en" ? en : fr);
+  const cityHref = (slug: string) => (locale === "en" ? `/cities/${slug}` : `/villes/${slug}`);
   const [cities, setCities] = useState<Array<CitySeed | null>>([null, null]);
 
   const selected = cities.filter(Boolean) as CitySeed[];
@@ -154,12 +160,15 @@ export function CompareTool() {
     <div className="mx-auto max-w-6xl px-4 sm:px-6 py-12">
       {/* Header */}
       <div className="mb-10">
-        <Badge variant="accent" className="mb-3">Comparateur</Badge>
+        <Badge variant="accent" className="mb-3">{t("Comparateur", "Compare")}</Badge>
         <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] mb-2">
-          Comparez les villes côte à côte
+          {t("Comparez les villes côte à côte", "Compare cities side by side")}
         </h1>
         <p className="text-[var(--text-secondary)]">
-          Sélectionnez 2 ou 3 villes pour comparer tous leurs scores en détail.
+          {t(
+            "Sélectionnez 2 ou 3 villes pour comparer tous leurs scores en détail.",
+            "Pick 2 or 3 cities to compare every score in detail."
+          )}
         </p>
       </div>
 
@@ -172,6 +181,7 @@ export function CompareTool() {
               onSelect={(c) => setCity(i, c)}
               exclude={exclude.filter((s) => city?.slug !== s)}
               colorClass={CITY_COLORS[i]}
+              locale={locale}
             />
             {cities.length > 2 && (
               <button
@@ -189,7 +199,7 @@ export function CompareTool() {
             className="flex flex-col items-center justify-center gap-2 rounded-2xl border border-dashed border-[var(--border)] p-6 text-[var(--text-secondary)] transition-colors hover:border-[var(--accent)]/40 hover:text-[var(--text-primary)] cursor-pointer"
           >
             <Plus className="h-6 w-6" />
-            <span className="text-sm">Ajouter une ville</span>
+            <span className="text-sm">{t("Ajouter une ville", "Add a city")}</span>
           </button>
         )}
       </div>
@@ -203,7 +213,7 @@ export function CompareTool() {
               <thead>
                 <tr className="border-b border-[var(--border)] bg-[var(--bg-surface)]">
                   <th className="px-6 py-4 text-left text-xs font-semibold text-[var(--text-secondary)]">
-                    Critère
+                    {t("Critère", "Metric")}
                   </th>
                   {cities.map((city, i) =>
                     city ? (
@@ -214,13 +224,13 @@ export function CompareTool() {
                   )}
                   {selected.length >= 2 && (
                     <th className="px-6 py-4 text-right text-xs font-semibold text-[var(--text-secondary)]">
-                      Meilleur
+                      {t("Meilleur", "Best")}
                     </th>
                   )}
                 </tr>
               </thead>
               <tbody>
-                {SCORE_ROWS.map(({ key, label, emoji }, rowIdx) => {
+                {SCORE_ROWS.map(({ key, label, labelEn, emoji }, rowIdx) => {
                   const vals = selected.map((c) => c.scores[key]);
                   const maxVal = Math.max(...vals);
                   const minVal = Math.min(...vals);
@@ -235,7 +245,7 @@ export function CompareTool() {
                     >
                       <td className="px-6 py-4 text-sm text-[var(--text-secondary)]">
                         <span className="mr-2">{emoji}</span>
-                        {label}
+                        {locale === "en" ? labelEn : label}
                       </td>
                       {cities.map((city) =>
                         city ? (
@@ -313,7 +323,10 @@ export function CompareTool() {
                       <span className="text-2xl font-bold font-mono-data text-[var(--text-primary)]">
                         {wins}
                       </span>
-                      {" "}critère{wins > 1 ? "s" : ""} remporté{wins > 1 ? "s" : ""}
+                      {" "}
+                      {locale === "en"
+                        ? `win${wins > 1 ? "s" : ""}`
+                        : `critère${wins > 1 ? "s" : ""} remporté${wins > 1 ? "s" : ""}`}
                     </div>
                     {wins === Math.max(...selected.map((c) =>
                       SCORE_ROWS.filter(({ key }) => {
@@ -321,14 +334,14 @@ export function CompareTool() {
                         return c.scores[key] === Math.max(...vals);
                       }).length
                     )) && (
-                      <Badge variant="success" className="text-xs">Recommandé</Badge>
+                      <Badge variant="success" className="text-xs">{t("Recommandé", "Recommended")}</Badge>
                     )}
                     <div className="mt-3">
                       <Link
-                        href={`/villes/${city.slug}`}
+                        href={cityHref(city.slug)}
                         className="text-xs text-[var(--accent)] hover:underline"
                       >
-                        Voir le profil complet →
+                        {t("Voir le profil complet →", "See full profile →")}
                       </Link>
                     </div>
                   </div>
@@ -340,11 +353,14 @@ export function CompareTool() {
           {/* Quiz CTA */}
           <div className="rounded-2xl border border-[var(--accent)]/20 bg-[var(--accent)]/5 p-6 text-center">
             <p className="text-[var(--text-secondary)] mb-3">
-              Vous hésitez encore ? Notre IA peut analyser votre profil exact.
+              {t(
+                "Vous hésitez encore ? Notre IA peut analyser votre profil exact.",
+                "Still unsure? Our AI can analyse your exact profile."
+              )}
             </p>
             <Link href="/city-match">
               <Button className="gap-2">
-                ✨ Lancer le quiz de matching
+                {t("✨ Lancer le quiz de matching", "✨ Start the matching quiz")}
               </Button>
             </Link>
           </div>
@@ -354,7 +370,12 @@ export function CompareTool() {
       {selected.length === 0 && (
         <div className="py-20 text-center text-[var(--text-secondary)]">
           <div className="text-5xl mb-4">🏙️</div>
-          <p className="text-lg">Sélectionnez au moins une ville pour commencer la comparaison.</p>
+          <p className="text-lg">
+            {t(
+              "Sélectionnez au moins une ville pour commencer la comparaison.",
+              "Pick at least one city to start comparing."
+            )}
+          </p>
         </div>
       )}
     </div>

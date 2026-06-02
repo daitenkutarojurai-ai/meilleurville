@@ -5,6 +5,7 @@ import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { SEO_PAIRS } from "@/lib/comparer-pairs";
+import { CompareTool } from "@/app/comparer/CompareTool";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -31,16 +32,12 @@ export default function EnCompareIndex() {
   return (
     <main id="main-content" className="min-h-screen">
       <Navbar />
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 pt-20 pb-8 text-center">
-        <h1 className="text-4xl sm:text-6xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.05]">
-          Compare French cities
-        </h1>
-        <p className="text-[var(--text-secondary)] text-lg max-w-2xl mx-auto">
-          Two cities, side by side: every score, housing costs, and a verdict for families, remote workers, retirees and students.
-        </p>
+      {/* Interactive picker (parity with FR /comparer) — provides the page h1. */}
+      <CompareTool locale="en" />
+      <section className="mx-auto max-w-5xl px-4 sm:px-6 pb-4 text-center">
         <Link
           href="/compare-regions"
-          className="mt-5 inline-flex items-center gap-2 rounded-full border border-[var(--accent)]/30 bg-[var(--accent)]/5 px-5 py-2.5 text-sm font-semibold text-[var(--accent)] transition-colors hover:border-[var(--accent)] hover:bg-[var(--accent)]/10"
+          className="inline-flex items-center gap-2 rounded-full border border-[var(--accent)]/30 bg-[var(--accent)]/5 px-5 py-2.5 text-sm font-semibold text-[var(--accent)] transition-colors hover:border-[var(--accent)] hover:bg-[var(--accent)]/10"
         >
           🗺️ Or compare entire regions
         </Link>
