@@ -13138,6 +13138,382 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["things to do in valence", "valence", "travel", "city guide", "drome"],
   },
   {
+    slug: "things-to-do-in-besancon-2026",
+    title: "Things to do in Besançon: a Vauban citadel in a river loop",
+    metaTitle: "Things to Do in Besançon (2026) — Citadel, Old Town & Victor Hugo",
+    metaDesc:
+      "Besançon's UNESCO Vauban citadel, the old town in a loop of the Doubs, Victor Hugo's birthplace, the astronomical clock and the green hills.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Besançon, capital of Franche-Comté, sits inside a near-perfect loop of the Doubs river, crowned by one of Vauban's masterpiece citadels. Green, historic and walkable, it's the birthplace of Victor Hugo and the Lumière brothers, and one of the most pleasant mid-sized cities in France. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Citadelle",
+        body: "Vauban's 17th-century citadel, perched on the neck of the river loop, is the must-see — UNESCO-listed, with ramparts giving spectacular views over the old town and the Doubs, and now home to several museums (including a moving Resistance and Deportation museum) and a small zoo. Allow a few hours; the walk up and the views are worth it.",
+      },
+      {
+        heading: "The old town",
+        body: "The old town, wrapped in the river loop below the citadel, is built of pale Comté stone, with the grand Grande Rue (a Roman road), Renaissance palaces like the Palais Granvelle, fountains and the birthplace of Victor Hugo. It's elegant and easy to wander, with the river never far away.",
+      },
+      {
+        heading: "The astronomical clock and cathedral",
+        body: "The Saint-Jean cathedral holds the extraordinary 19th-century astronomical clock — a mechanism of some 30,000 parts driving 70 dials showing planetary positions, tides and saints' days, demonstrated on guided visits. Besançon was a watchmaking capital, and the Musée du Temps in the Palais Granvelle continues that horological theme.",
+      },
+      {
+        heading: "The river and hills",
+        body: "Boat trips loop the river and pass through the tunnel beneath the citadel. The green hills around the city are laced with walking trails, and the source of the Loue and the dramatic Doubs valley waterfalls and gorges are within easy reach — Franche-Comté is wonderful, underrated walking country.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Besançon is on the TGV line (about 2h20 from Paris, close to Dijon). The old town and citadel are walkable, though the citadel climb is steep (a little tourist train helps). It's pleasant year-round; late spring and autumn show off the green setting at its best.",
+      },
+    ],
+    relatedCities: ["besancon", "dijon", "pontarlier"],
+    tags: ["things to do in besancon", "besancon", "travel", "city guide", "franche-comte"],
+  },
+  {
+    slug: "things-to-do-in-le-puy-en-velay-2026",
+    title: "Things to do in Le Puy-en-Velay: chapels on volcanic pinnacles",
+    metaTitle: "Things to Do in Le Puy-en-Velay (2026) — Cathedral, Rocks & the Camino",
+    metaDesc:
+      "Le Puy's cathedral and rock-top chapel, the giant red statue, the start of the Camino pilgrim route, the lace and green lentils.",
+    category: "city-guide",
+    emoji: "🌋",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Le Puy-en-Velay is one of the most dramatic small cities in France: a place where ancient volcanic plugs spike out of the old town, each crowned with a chapel, a giant statue or a cathedral. It's a major pilgrimage start point and the home of green lentils and lace. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The cathedral and Camino",
+        body: "The Cathédrale Notre-Dame, a striped Romanesque church reached by a long flight of steps up through the old town, is UNESCO-listed and the historic starting point of the 'Via Podiensis' — one of the great pilgrim routes to Santiago de Compostela. Pilgrims still set off from here each morning. The cathedral's Black Madonna and cloister are highlights.",
+      },
+      {
+        heading: "Rocher Corneille and the red statue",
+        body: "Above the cathedral, the Rocher Corneille is topped by an enormous 19th-century red statue of the Virgin and Child, cast from melted-down cannons and climbable inside for a panorama over the city and its volcanic landscape. It's the city's most photographed landmark.",
+      },
+      {
+        heading: "Saint-Michel d'Aiguilhe",
+        body: "The single most striking sight is the chapel of Saint-Michel d'Aiguilhe, a tiny 10th-century church perched atop a slender 85-metre volcanic needle, reached by 268 steps cut into the rock. The climb and the improbable setting are unforgettable — a genuine 'how did they build that' moment.",
+      },
+      {
+        heading: "Lace, lentils and the old town",
+        body: "Le Puy is famous for two products: delicate hand-made bobbin lace (with a museum and workshops) and AOC green lentils, the prized 'caviar du Puy'. The old town's stepped lanes, the Thursday market and the local verveine liqueur round out a visit. The wider Velay and Ardèche volcanic country is superb for hiking and driving.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Le Puy-en-Velay is reachable by train (via Saint-Étienne or Clermont-Ferrand), though the scenic mountain roads reward a car. The old town is steep — comfortable shoes are essential for the rock climbs. Spring to autumn is best; the Camino pilgrim atmosphere is strongest in summer.",
+      },
+    ],
+    relatedCities: ["le-puy-en-velay", "clermont-ferrand", "aurillac"],
+    tags: ["things to do in le-puy-en-velay", "le puy-en-velay", "travel", "city guide", "auvergne"],
+  },
+  {
+    slug: "things-to-do-in-millau-2026",
+    title: "Things to do in Millau: the great viaduct and the Tarn gorges",
+    metaTitle: "Things to Do in Millau (2026) — Viaduct, Gorges du Tarn & Roquefort",
+    metaDesc:
+      "Millau's record-breaking viaduct, the Tarn and Jonte gorges, outdoor sports, the glove-making heritage, and Roquefort cheese caves nearby.",
+    category: "city-guide",
+    emoji: "🌉",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Millau is framed by one of the engineering wonders of modern France — the Millau Viaduct, the tallest bridge in the world — and surrounded by the dramatic limestone gorges of the Tarn. It's an outdoor-sports hub with a long glove-making history and the Roquefort cheese caves on its doorstep. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Millau Viaduct",
+        body: "The Viaduc de Millau, designed by Norman Foster, soars across the Tarn valley on masts taller than the Eiffel Tower — the tallest bridge in the world and a genuinely breathtaking sight, especially when its top floats above morning mist. The visitor centre below explains the engineering, and viewpoints around the valley let you photograph it. Driving across it is a thrill in itself.",
+      },
+      {
+        heading: "The Gorges du Tarn and Jonte",
+        body: "North of Millau, the Gorges du Tarn cut a spectacular canyon through the limestone causses — perfect for canoeing on the green river, driving the cliffside road, and spotting griffon vultures (reintroduced in the neighbouring Gorges de la Jonte). It's some of the most beautiful scenery in southern France.",
+      },
+      {
+        heading: "Outdoor sports and the old town",
+        body: "Millau is a capital of outdoor sport — paragliding off the causses (the thermals here are world-class), caving, climbing, and water sports on the rivers. The compact old town has a fine belfry, arcaded square and the Maison de la Peau et du Gant celebrating the city's long tradition of fine leather gloves.",
+      },
+      {
+        heading: "Roquefort and the causses",
+        body: "A short drive away, the village of Roquefort-sur-Soulzon is where the famous blue cheese is aged in natural limestone caves — the cellars are open to visit and taste. The vast, empty limestone plateaus (causses) and the Templar villages of the Larzac add to a region that's wild, high and atmospheric.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Millau is reachable by train (via Béziers or Clermont) but a car is really needed for the gorges, the viaduct viewpoints and Roquefort. It's a summer outdoor hub; spring and autumn are quieter with the same scenery. Bring layers — the causses are high and can be cool even in summer.",
+      },
+    ],
+    relatedCities: ["millau", "rodez", "montpellier"],
+    tags: ["things to do in millau", "millau", "travel", "city guide", "occitanie"],
+  },
+  {
+    slug: "things-to-do-in-rodez-2026",
+    title: "Things to do in Rodez: a red cathedral and the Soulages museum",
+    metaTitle: "Things to Do in Rodez (2026) — Cathedral, Musée Soulages & Old Town",
+    metaDesc:
+      "Rodez's towering red sandstone cathedral, the striking Soulages museum of abstract art, the old town, and the Aveyron countryside.",
+    category: "city-guide",
+    emoji: "🎨",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Rodez, capital of the Aveyron, sits on a hill crowned by a vast cathedral of pink-red sandstone, and has put itself on the map with a world-class modern-art museum dedicated to the painter Pierre Soulages, who was born here. It's a compact, characterful gateway to one of rural France's most beautiful departments. Here's the shortlist.",
+    sections: [
+      {
+        heading: "Notre-Dame cathedral",
+        body: "The Cathédrale Notre-Dame de Rodez is built of warm pink-red sandstone, with a fortress-like west front and an exuberant 87-metre bell tower that's a masterpiece of late Gothic carving — visible for miles. The austere exterior gives way to a soaring interior. It dominates the old town and the skyline.",
+      },
+      {
+        heading: "The Musée Soulages",
+        body: "The headline draw is the Musée Soulages, a striking building of rusted steel cubes set in a park, dedicated to Pierre Soulages — the master of 'outrenoir' (beyond black) and one of France's greatest abstract painters. He donated a huge body of work to his home town. Even for non-fans of abstract art, the building and the story are compelling, and the museum restaurant is excellent.",
+      },
+      {
+        heading: "The old town",
+        body: "Around the cathedral, Rodez's old town has handsome Renaissance mansions, the Place du Bourg, and ramparts with views over the surrounding hills. It's small and walkable, easily combined with the museum in a relaxed day.",
+      },
+      {
+        heading: "The Aveyron around",
+        body: "Rodez is the springboard for the Aveyron, one of France's most beautiful and least-touristed departments: the 'most beautiful villages' of Conques (a great pilgrimage church and Soulages's stained glass), Estaing and Belcastel, the Lot valley, and the high Aubrac plateau with its cheese and wide-open landscapes.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Rodez has a train station (via Toulouse, about 2h30) and a small airport. The cathedral, old town and Soulages museum are all walkable from the centre. A car is needed for Conques and the Aveyron villages. Spring through autumn is best; the countryside is the real reason to linger.",
+      },
+    ],
+    relatedCities: ["rodez", "millau", "cahors"],
+    tags: ["things to do in rodez", "rodez", "travel", "city guide", "aveyron"],
+  },
+  {
+    slug: "things-to-do-in-saintes-2026",
+    title: "Things to do in Saintes: a Roman town on the Charente",
+    metaTitle: "Things to Do in Saintes (2026) — Roman Arena, Arch & the Abbaye aux Dames",
+    metaDesc:
+      "Saintes's Roman amphitheatre and triumphal arch, the Abbaye aux Dames, the riverside old town, and the Charente countryside.",
+    category: "city-guide",
+    emoji: "🏛️",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Saintes, on the Charente river, was an important Roman city, and its remains — an amphitheatre and a riverside triumphal arch — sit alongside two great Romanesque churches and a pleasant old town. It's a calm, historic stop between the coast and Cognac. Here's the shortlist.",
+    sections: [
+      {
+        heading: "Roman Saintes",
+        body: "The Arch of Germanicus, a 1st-century Roman triumphal arch, stands right on the riverbank (moved here when the old bridge was demolished). On the edge of town, the Gallo-Roman amphitheatre — one of the oldest in the Roman world — is set in a green hollow and atmospheric to wander. The Archaeological Museum gathers the rest of the Roman finds.",
+      },
+      {
+        heading: "The two great churches",
+        body: "Saintes has two outstanding Romanesque churches. The Abbaye aux Dames, a former women's abbey, has a richly carved doorway and now hosts a music academy and concerts. Across the river, the Église Saint-Eutrope has a remarkable double church with a vast crypt — both are UNESCO-listed stops on the Santiago pilgrim route.",
+      },
+      {
+        heading: "The old town and river",
+        body: "The old town's pedestrian streets, the covered market and the riverside quays make for an easy stroll, and boat trips and walks follow the gentle Charente. It's an unhurried place, good for a slow afternoon between the monuments.",
+      },
+      {
+        heading: "Around Saintes",
+        body: "Cognac and its brandy houses are a short drive upriver, the Romanesque churches of the Saintonge dot the countryside, and the Atlantic beaches of Royan and the Île d'Oléron are within reach. Saintes makes a quiet, central base for this corner of Charente-Maritime.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Saintes is a rail junction (reachable from Bordeaux and La Rochelle, about an hour or so). The compact centre is walkable. Spring and autumn are pleasant; summer pairs well with the nearby coast. An easy, low-key history stop rather than a blockbuster.",
+      },
+    ],
+    relatedCities: ["saintes", "cognac", "royan"],
+    tags: ["things to do in saintes", "saintes", "travel", "city guide", "nouvelle-aquitaine"],
+  },
+  {
+    slug: "things-to-do-in-cognac-2026",
+    title: "Things to do in Cognac: brandy houses on the Charente",
+    metaTitle: "Things to Do in Cognac (2026) — Brandy Houses, Old Town & the River",
+    metaDesc:
+      "Cognac's great brandy houses and cellar tours, the old town and castle, the 'angels' share' atmosphere, and the Charente vineyards.",
+    category: "city-guide",
+    emoji: "🥃",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Cognac is a small Charente town with a globally famous name: the great houses here turn local white wine into the world's most prestigious brandy. Cellar tours, a riverside old town stained black by the 'angels' share', and surrounding vineyards make it a focused, atmospheric stop. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The brandy houses",
+        body: "The big maisons — Hennessy, Martell, Rémy Martin, Camus, Baron Otard (in the château) — all offer tours of their cellars and the distillation process, ending in a tasting. Hennessy's includes a boat trip across the Charente to its warehouses. Booking ahead is wise. Even a single tour gives a real sense of how this spirit is made and aged.",
+      },
+      {
+        heading: "The blackened town",
+        body: "Look up in the old town and you'll notice the walls and roofs are stained black — a harmless fungus that feeds on the alcohol vapour (the 'part des anges', the angels' share) evaporating from the thousands of ageing barrels. It's a strange, evocative signature found only in brandy towns, and it tells you exactly where you are.",
+      },
+      {
+        heading: "The old town and château",
+        body: "Cognac's old quarter slopes down to the Charente in cobbled lanes, with the Château de Cognac (birthplace of King François I, now the Otard cellars) on the riverbank and a leafy public garden behind. It's small and pleasant, easily walked between tastings.",
+      },
+      {
+        heading: "Around Cognac",
+        body: "The surrounding Charente vineyards (the crus of Grande and Petite Champagne) are gentle, green countryside dotted with distilleries and Romanesque churches. Saintes, Angoulême and the Atlantic coast are all within easy reach for a wider trip.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Cognac has a train station (via Angoulême or Saintes). The town and the main brandy houses are walkable along the river. Tastings involve alcohol, so plan a designated driver if you're touring by car. Spring through autumn is best; some houses limit winter tours, so check ahead.",
+      },
+    ],
+    relatedCities: ["cognac", "saintes", "angouleme"],
+    tags: ["things to do in cognac", "cognac", "travel", "city guide", "nouvelle-aquitaine"],
+  },
+  {
+    slug: "things-to-do-in-bourg-en-bresse-2026",
+    title: "Things to do in Bourg-en-Bresse: a flamboyant monastery and famous chicken",
+    metaTitle: "Things to Do in Bourg-en-Bresse (2026) — Brou Monastery, Old Town & Bresse Chicken",
+    metaDesc:
+      "Bourg-en-Bresse's masterpiece monastery of Brou, the old town's timbered houses, the famous AOC Bresse chicken, and the Dombes lakes nearby.",
+    category: "city-guide",
+    emoji: "🐔",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Bourg-en-Bresse is worth a stop for one extraordinary building — the Royal Monastery of Brou, a flamboyant Gothic masterpiece — and for the region's famous blue-footed chicken, France's most prized poultry. Add a timber-framed old town and the bird-rich Dombes lakes nearby, and it's a rewarding pause. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Royal Monastery of Brou",
+        body: "The Monastère Royal de Brou, built in the early 1500s by Margaret of Austria in memory of her husband, is a jewel of flamboyant Gothic — an intricately carved church with three royal tombs of astonishing delicacy, a glazed-tile roof, and three serene cloisters. It's one of the finest buildings of its kind in France and the unmissable reason to come.",
+      },
+      {
+        heading: "The old town",
+        body: "Bourg-en-Bresse's centre has a cluster of well-preserved half-timbered houses around the Co-cathedral of Notre-Dame, with pedestrian streets, markets and good restaurants. It's compact and easily combined with Brou (a short walk or bus from the centre) in a half-day.",
+      },
+      {
+        heading: "Bresse chicken",
+        body: "The Bresse region produces the only poultry in the world with its own AOC protection — the white-feathered, blue-legged, red-combed 'poulet de Bresse' (the colours of the French flag, fittingly). It's a genuine gastronomic treat; eat it at least once here, ideally the classic 'volaille de Bresse à la crème'. The Glorieuses poultry contests each December are an event.",
+      },
+      {
+        heading: "The Dombes lakes",
+        body: "South of the city, the Dombes is a flat landscape of a thousand man-made fishing ponds, rich in birdlife — the Parc des Oiseaux at Villars-les-Dombes is one of Europe's best bird parks. It's an easy, family-friendly excursion, and the medieval town of Pérouges (a 'most beautiful village') is also close.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Bourg-en-Bresse is on the train line between Lyon and the Jura (about 45 minutes from Lyon). The centre and Brou are walkable. It's an easy year-round stop; the chicken and the monastery are the draws whatever the season.",
+      },
+    ],
+    relatedCities: ["bourg-en-bresse", "macon", "lyon"],
+    tags: ["things to do in bourg-en-bresse", "bourg-en-bresse", "travel", "city guide", "ain"],
+  },
+  {
+    slug: "things-to-do-in-vichy-2026",
+    title: "Things to do in Vichy: a belle-époque spa town",
+    metaTitle: "Things to Do in Vichy (2026) — Spa Heritage, Parks & the Lake",
+    metaDesc:
+      "Vichy's belle-époque spa architecture, the Halle des Sources and opera, the riverside lake and parks, and the famous waters and pastilles.",
+    category: "city-guide",
+    emoji: "💧",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Vichy is the grandest of France's spa towns — a belle-époque resort of opulent villas, covered promenades and thermal springs that drew high society from across Europe. (It also lends its name to the WWII French regime, a heavier history the town now acknowledges.) Today it's an elegant, green riverside town. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The spa heritage",
+        body: "Vichy's golden age left a remarkable ensemble: the cast-iron Halle des Sources where you can still taste the (famously not-delicious) thermal waters, the covered shopping galleries, the grand Thermes, and an opera house in an extravagant art-nouveau Palais des Congrès. A self-guided walk through it all is the best way to feel the belle-époque atmosphere.",
+      },
+      {
+        heading: "Architecture and the eclectic villas",
+        body: "Napoleon III made Vichy fashionable, and the building boom that followed produced a riot of eclectic villas — neo-Gothic, Moorish, chalet, Venetian — especially in the streets around the parks. A walk past them is like flipping through a 19th-century architectural pattern book. The Église Saint-Blaise pairs an old church with a striking art-deco one.",
+      },
+      {
+        heading: "Parks and the lake",
+        body: "The Parcs des Sources and the riverside Parc Napoléon III are lush, elegant green spaces laid out for promenading 'curistes'. The Allier river has been dammed into a large lake right by the centre, with beaches, water sports and walks — a pleasant, active counterpoint to the spa town's stately air.",
+      },
+      {
+        heading: "Water, pastilles and around",
+        body: "Vichy's name is on water bottles and the little octagonal Vichy pastilles (digestive sweets) sold all over town. The cosmetics brand was born here too. The Auvergne volcanoes and the Bourbonnais countryside, with castles and the spa village of Bourbon-l'Archambault, are within easy reach.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Vichy is on the train line between Clermont-Ferrand and Paris (about 3 hours from Paris). The spa quarter, parks and lake are all walkable. It's pleasant spring through autumn, when the parks and lakeside are at their best. The town engages thoughtfully with its 1940–44 history at several marked sites.",
+      },
+    ],
+    relatedCities: ["vichy", "moulins", "clermont-ferrand"],
+    tags: ["things to do in vichy", "vichy", "travel", "city guide", "auvergne"],
+  },
+  {
+    slug: "things-to-do-in-compiegne-2026",
+    title: "Things to do in Compiègne: an imperial palace and an armistice clearing",
+    metaTitle: "Things to Do in Compiègne (2026) — Imperial Palace, Forest & the Armistice",
+    metaDesc:
+      "Compiègne's vast imperial palace, the great forest, the Armistice clearing where both world wars' truces were signed, and the old town.",
+    category: "city-guide",
+    emoji: "👑",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Compiègne, north of Paris, pairs a vast royal-and-imperial palace — a favourite of Napoleon III — with one of the great forests of France and a clearing of enormous historical weight, where the armistices of both world wars were signed. It's a rewarding day from the capital. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Imperial Palace",
+        body: "The Château de Compiègne is one of the three great royal seats (with Versailles and Fontainebleau), rebuilt for Louis XV and beloved by Napoleon I and especially Napoleon III, whose lavish Second Empire apartments are the highlight. It also houses museums of the Second Empire and of historic carriages and cars. The formal gardens stretch back toward the forest.",
+      },
+      {
+        heading: "The Forest of Compiègne",
+        body: "Behind the palace, the Forêt de Compiègne is a magnificent 14,000-hectare oak and beech forest laced with straight rides laid out for royal hunts — superb for walking and cycling, and dotted with the fairytale château of Pierrefonds (a 19th-century medieval fantasy restored by Viollet-le-Duc) on its edge.",
+      },
+      {
+        heading: "The Armistice Clearing",
+        body: "In a forest clearing east of town, the Clairière de l'Armistice marks the spot where the railway carriage stood for the signing of the 1918 armistice that ended the First World War — and where Hitler forced France to sign its surrender in the same carriage in 1940. A replica wagon and a memorial museum make it a sobering, significant stop.",
+      },
+      {
+        heading: "The old town",
+        body: "Compiègne's centre has a flamboyant Gothic town hall with a famous carillon and jacquemart figures, the old town gates, and pleasant streets and riverside along the Oise. Joan of Arc was captured here in 1430, commemorated by a statue. It's a pleasant base for the palace and forest.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Compiègne is about 45 minutes from Paris (Gare du Nord) by frequent trains, an easy day trip. The palace and old town are walkable; a car or bike helps for the forest, Pierrefonds and the Armistice clearing. Spring and autumn show the forest at its finest.",
+      },
+    ],
+    relatedCities: ["compiegne", "beauvais", "paris"],
+    tags: ["things to do in compiegne", "compiegne", "travel", "city guide", "hauts-de-france"],
+  },
+  {
+    slug: "things-to-do-in-beauvais-2026",
+    title: "Things to do in Beauvais: the tallest Gothic choir ever built",
+    metaTitle: "Things to Do in Beauvais (2026) — Cathedral, Astronomical Clock & Tapestry",
+    metaDesc:
+      "Beauvais's audacious unfinished cathedral with the tallest Gothic choir, its astronomical clock, the tapestry heritage, and an easy hop from Paris.",
+    category: "city-guide",
+    emoji: "⛪",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Beauvais is home to one of the most audacious buildings in the history of architecture: a cathedral whose builders reached for the sky, achieved the tallest Gothic choir ever raised — and saw it collapse, twice. The result is a thrilling, unfinished fragment. Add an astronomical clock and a tapestry tradition, and the often-overlooked town earns a stop. Here's the shortlist.",
+    sections: [
+      {
+        heading: "Saint-Pierre cathedral",
+        body: "The Cathédrale Saint-Pierre has the tallest Gothic choir in the world — a dizzying 48 metres inside — built in a medieval race to reach ever higher. It overreached: the choir vaults collapsed, and a later spire (briefly the tallest structure on earth) fell too, so the nave was never built. What stands is a soaring, slightly precarious masterpiece-in-fragment, breathtaking and unique.",
+      },
+      {
+        heading: "The astronomical clock",
+        body: "Inside the cathedral, the 19th-century astronomical clock is a marvel — a towering cabinet of around 90,000 parts with dozens of dials and 68 automated figures that animate in a little spectacle (shown at set times). Together with the older medieval clock nearby, it makes Beauvais a surprising horological stop.",
+      },
+      {
+        heading: "Tapestry heritage",
+        body: "Beauvais was one of France's great royal tapestry-weaving centres, and the Galerie Nationale de la Tapisserie and the MUDO (the regional art museum, in the former bishop's palace) display fine examples of the craft and regional art. It's a quieter dimension to the town beyond the cathedral.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Beauvais is about 1h15 from Paris by train and has a busy budget airport, so many travellers pass through without realising the cathedral is there. The centre is compact and walkable. It makes an easy half-day or a stop en route; the cathedral alone justifies the detour for anyone interested in architecture.",
+      },
+    ],
+    relatedCities: ["beauvais", "compiegne", "amiens"],
+    tags: ["things to do in beauvais", "beauvais", "travel", "city guide", "hauts-de-france"],
+  },
+  {
     slug: "one-week-in-provence-itinerary-2026",
     title: "One week in Provence: a route that actually works",
     metaTitle: "One Week in Provence Itinerary (2026) — A Practical Route",
