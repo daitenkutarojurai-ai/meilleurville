@@ -177,7 +177,7 @@ All planned series are complete (Climat 2040 ×15, Quitter X ×18, Comparaisons 
 
 ### Pending guide work
 - **Editorial rewrite (R7.8) — DONE.** Main pass ran 2026-05-30 (all guides → prose voice). Fragment-tail cleanup ran 2026-06-03: the 23 budget/acheter/investment guides the first pass missed (numbered `(N) **Label** : value` scaffolding, detected via `boldColon>=40`) rewritten into flowing prose, 228 strings, figure-integrity verified. Method: extract verbatim bodies → parallel read-only agents → single-writer exact-match apply (see `[[parallel-agents-single-file]]`). Only `intro`/`sections[].body` touched.
-  - *Separate, NOT done:* ~33 tourism guides (`10-choses-a-faire-*`) have ascii-stripped text (`decoupe`, `a 57 m`, `28,30 EUR`, `m2`, `360 deg`) — restore accents + `é/à/€/°/m²`. Distinct defect from R7.8 prose voice; deferred this session (user scoped to fragment-tail only).
+  - *Accent restoration — DONE 2026-06-03.* 58 tourism guides (`10-choses-a-faire-*`, incl. Paris/Bordeaux) had been saved ascii-stripped (`decoupe`, `a 57 m`, `28,30 EUR`, `m2`, `360 deg`); diacritics + `€/°/m²/m³` restored across 638 strings, word-skeleton integrity verified. Detected by accent-density < 0.09 (the earlier "~33" estimate undercounted). Legit currency-code `EUR` (EUR/USD context) left intact.
 
 Vivre sans voiture +5, Acheter à [ville] +5, and the "Lire ensuite" reading list (via `lib/guide-suggestions.ts` + auto-block on each guide page) are shipped.
 
