@@ -505,6 +505,12 @@ function citySubSection(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.65,
     },
+    {
+      url: `${BASE_URL}/villes/${city.slug}/vibe`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.55,
+    },
   ]);
 }
 
