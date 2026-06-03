@@ -18077,6 +18077,486 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["dijon","lyon"],
     tags: ["car-free dijon","living in dijon without a car","public transport","cycling","bourgogne-franche-comte"],
   },
+  {
+    slug: "living-in-the-dordogne-2026",
+    title: "Living in the Dordogne: An Honest 2026 Expat Guide",
+    metaTitle: "Living in the Dordogne (Périgord): Expat Guide 2026",
+    metaDesc: "What it's really like to live in the Dordogne in 2026: the four Périgords, property prices, the British community, climate, transport and the honest trade-offs.",
+    category: "moving",
+    emoji: "🌻",
+    readMinutes: 7,
+    publishedAt: "2026-06-03",
+    updatedAt: "2026-06-03",
+    intro: "The Dordogne, known in French as the Périgord, is one of the most photogenic corners of rural France: medieval châteaux, limestone cliffs, the Vézère and Dordogne rivers, oak forests, and listed villages like Beynac, La Roque-Gageac and Rocamadour. It is also one of the few places left where a stone house with a garden still changes hands for well under the price of a city flat. That combination has made it the single biggest draw for British and other expats in rural France for forty years. This guide walks through where to base yourself, what your money buys, and the trade-offs nobody puts on the postcard.",
+    sections: [
+      {
+        heading: "What and where the Dordogne is",
+        body: "The Dordogne is a large rural département in the Nouvelle-Aquitaine region of southwest France, sitting inland between Bordeaux and the Massif Central. Locals and the tourist trade both call it the Périgord, and it is traditionally split into four colour-coded zones that are worth learning early. The Périgord Noir around Sarlat is the postcard country: dense oak woods, golden-stone villages, châteaux above the Dordogne river, and the famous black truffle. The Périgord Blanc around Périgueux, the prefecture, is the administrative and limestone heartland. The Périgord Vert in the north, around Brantôme, is greener, quieter and less touristy. The Périgord Pourpre around Bergerac is wine country, with the AOC Bergerac vineyards. The character throughout is slow, deeply agricultural and proud of its food. Rocamadour, often associated with the area, actually sits just over the border in the neighbouring Lot. This is a place of forests, rivers and small market towns rather than any single big city, and that shapes everything about daily life here.",
+      },
+      {
+        heading: "Where to base yourself",
+        body: "Périgueux, the prefecture, is the practical centre of gravity. With around 30,000 residents it has the full set of administrations, a reasonable hospital, and a train station linking Bordeaux in about 1h20 and Paris in roughly 3h45. If you want services on your doorstep, base here. Bergerac (around 25,000) is the second town, oriented towards farming, wine and its international airport with low-cost flights to the UK. Sarlat-la-Canéda is the medieval tourist capital: only about 10,000 residents but close to a million visitors a year, so it is lovely to live in out of season and overrun in July and August. The weekly markets in Sarlat, Périgueux and Bergerac are genuine institutions, not tourist set-pieces. For most newcomers the best compromise is a village between Périgueux and Sarlat: you keep reasonable access to services while living in exceptional countryside. Choose the village before you fall for the house, because the address dictates your commute, your broadband and your nearest doctor.",
+      },
+      {
+        heading: "Property and cost of living",
+        body: "This is the headline that brings people here. The Périgord Noir around Sarlat, Belvès and Domme is the most expensive corner: stone houses with gardens run roughly 180,000 € to 280,000 €, and renovated farmhouses climb past 350,000 €. The Périgord Blanc around Périgueux is far more affordable, with houses and land in the 80,000 € to 130,000 € range. The Périgord Vert in the north offers similar prices in a less touristy setting. Old longères and bastide houses needing renovation can still be found under 80,000 € in the non-touristy sectors. Compared with a city, your budget simply buys far more space, land and stone. For British buyers, post-Brexit paperwork has added complexity to purchases and residency, but the flow of incomers stays positive and the English-speaking market is still active, often handled through agencies that specialise in French-British transactions. Everyday living is cheaper than in Bordeaux: a 1,800 €/month pension that would feel tight in the city is comfortable here.",
+      },
+      {
+        heading: "Climate and daily life",
+        body: "The Dordogne has a mild, oceanic-leaning climate softened by its inland position. Summers are warm and long, ideal for the rivers, markets and outdoor eating the region is built around; winters are cool and damp rather than harsh, with real seasons and proper autumn colour in the oak forests. Life moves to the rhythm of the markets and the table. The Périgord is one of the cradles of French gastronomy: duck in every form (confit, magret, foie gras), black truffles from the Périgord Noir in season from December to March, walnuts, and strawberries around Périgueux. The December marchés au gras in Périgueux and Sarlat are an experience in themselves. The region also has France's greatest density of decorated prehistoric caves, from Lascaux IV and Font-de-Gaume to Combarelles and Rouffignac, so there is real depth here for anyone who loves history. Daily life means short drives to a bakery, a slower pace, and seasons that genuinely change what is on your plate. Out of high season, it is calm to the point of sleepy.",
+      },
+      {
+        heading: "Getting there and around",
+        body: "Bergerac airport handles low-cost flights to and from the UK, which is a big part of why the British community settled here in the first place, and it makes the back-and-forth manageable. Périgueux puts you on the rail network: Bordeaux in about 1h20 and Paris in around 3h45, with Bordeaux itself offering wider connections and TGV links onward. The A89 motorway between Bordeaux and Clermont-Ferrand crosses the département, but once you leave it the secondary road network is winding and slow. The single most important practical fact about the Dordogne is this: without a car, life here is close to impossible. Public transport between villages is thin, services are spread out, and the nearest doctor, supermarket or station is usually a drive away rather than a walk. Factor a reliable car (ideally two for a couple) and the running costs into your budget from day one. This is a place you arrive in by car and live in by car.",
+      },
+      {
+        heading: "Who it suits, and the honest downsides",
+        body: "The Dordogne suits retirees with a decent budget, full-remote workers who can secure fibre broadband in one of the larger towns (Périgueux, Bergerac, Terrasson, Montpon), artists and makers chasing a cheap studio, and families happy to swap a city centre for exceptional nature. The British community of roughly 15,000 to 20,000 people is the largest rural expat concentration in France: a real asset for landing softly, but also a social bubble that can quietly slow your integration if you let it. Now the honest downsides. The département is among the hardest hit by France's medical desertification, with about 78 GPs per 100,000 residents in 2026 against a national average near 103, so appointments can take two to five weeks. The job market is thin, built on farming, construction, tourism and local trade, with no major industry. Broadband is patchy, fibre reaches the towns but isolated hamlets still rely on shaky 4G. It is a poor fit if you need salaried work, fast medical access, or urban stimulation.",
+      },
+    ],
+    relatedCities: ["perigueux","sarlat-la-caneda"],
+    tags: ["living in the dordogne","dordogne expat","moving to france","perigord","nouvelle-aquitaine"],
+  },
+  {
+    slug: "living-in-the-french-basque-country-2026",
+    title: "Living in the French Basque Country: An Expat's Guide for 2026",
+    metaTitle: "Living in the French Basque Country: Expat Guide 2026",
+    metaDesc: "Moving to the French Basque Country in 2026? Honest guide to Bayonne, Biarritz, Anglet, prices, climate, surf and the steep coastal premium.",
+    category: "moving",
+    emoji: "🌊",
+    readMinutes: 7,
+    publishedAt: "2026-06-03",
+    updatedAt: "2026-06-03",
+    intro: "The French Basque Country has quietly become one of the most coveted, and most expensive, corners of France. Atlantic surf, green mountains, a fiercely distinct Basque culture, and some of the best food in the country have pulled in wave after wave of Parisians, remote workers and foreign buyers, and the property market has been reshaped in the process. Prices have climbed 80 to 120 percent over the past decade depending on the sector. This guide is written for people actually thinking about moving here, and it tries to be honest about who can still afford it, what daily life is really like, and where the cheaper alternatives are.",
+    sections: [
+      {
+        heading: "What and where the French Basque Country is",
+        body: "The French Basque Country (Pays Basque) sits in the far south-west corner of France, in the Pyrénées-Atlantiques department of the Nouvelle-Aquitaine region, pressed up against the Spanish border and the Atlantic. It splits cleanly into two worlds. The coast is the part everyone pictures: Bayonne, Anglet, Biarritz and Saint-Jean-de-Luz, a near-continuous strip of beaches, surf and Belle Époque seafront that runs down to Hendaye and the Spanish frontier. The interior is something else entirely, a rolling country of green hills, fronton courts and farming villages in the Soule and Basse-Navarre, where the Basque identity is least diluted by tourism. What binds it together is that identity itself. Basque (euskara) is a living language with no relation to French or Spanish, and it shows up everywhere, on road signs, at festivals, on the front of the town hall. The flag, the food, the pelota and the village fêtes are not folklore here, they are ordinary life, and that cultural confidence is a big part of what makes the region feel different from the rest of France.",
+      },
+      {
+        heading: "Where to base yourself",
+        body: "Bayonne is the most practical landing spot. It is the working capital of the region, a real city with a hospital, proper shops, urban buses and an authentic neighbourhood life around the Grand and Petit Bayonne. It is also the most urban and least touristy of the coastal towns, which keeps it grounded. Anglet, wedged between Bayonne and Biarritz, is the family-and-surf compromise, with long beaches and easier square-metre prices than its glossy neighbour. Biarritz is the postcard town, world-class surf breaks five minutes on foot, Belle Époque architecture and the superb covered market, but you pay for the myth. Saint-Jean-de-Luz is the elegant resort option, a sheltered bay and a pretty old centre, priced accordingly. Hendaye, the last French town before Spain, is the value play on the coast and puts San Sebastián 20 minutes away. If the coast is out of reach, the interior villages — Cambo-les-Bains, Hasparren, Mauléon-Licharre, Tardets — offer the full Basque experience for a fraction of the price.",
+      },
+      {
+        heading: "Property and cost of living",
+        body: "The coastal premium is the defining fact of life here. In 2026, central Biarritz runs €7,000–10,000/m²; Saint-Jean-de-Luz €6,500–9,000/m²; Anglet €5,500–7,000/m²; and Bayonne, the most affordable of the four, €4,500–5,500/m². A renovated three-room flat in Petit-Bayonne or Saint-Esprit trades around €350,000–420,000, while in Biarritz a comparable place rarely dips below €550,000 and a two-bed rental tops €1,200/month before charges. These numbers have effectively priced out local first-time buyers on a median income, which is a genuine social tension the area is grappling with. The escape valves are real, though. Hendaye sits near €4,500/m², roughly half of Saint-Jean-de-Luz, and many buyers there shop and eat across the border in Spain where groceries and restaurants run 20–30 percent cheaper. Inland, Cambo-les-Bains is around €3,500/m² and Hasparren near €2,800/m² — a different planet, 30 km from Bayonne.",
+      },
+      {
+        heading: "Climate and daily life",
+        body: "The Basque coast has a mild, green, distinctly wet climate, and that greenness is not free. Winters are gentle and the sea keeps temperatures comfortable, but the region catches more rain than the Mediterranean south, which is exactly why the hills stay so lush. Locals shrug at it; if you come from a sunnier idea of southern France, the grey, drizzly spells are the adjustment most people underestimate. Life is organised around the ocean. Surf is woven into the everyday — dawn sessions before work, boards on roof racks, kids in surf schools — and the beaches at Biarritz and Anglet are within walking or cycling distance for anyone who bases there. Food is the other daily pleasure, with Bayonne's covered market among the best in the country for Basque produce: ham, sheep's cheese, peppers, chocolate. Add the festival calendar and the cross-border pull of Spain, and daily life leans outdoor, social and food-centred in a way that suits people who want to live in their surroundings, not just look at them.",
+      },
+      {
+        heading: "Getting there and around",
+        body: "Access is one of the region's quiet strengths. Biarritz has its own airport (Biarritz–Pays Basque) on the edge of Anglet, with direct links to Paris, London and a handful of European cities, so a long weekend with family back home is genuinely doable. The TGV reaches Bayonne and Biarritz from Paris, making the region far less remote than its corner-of-the-map position suggests. Locally, the coastal towns are connected by buses and a coastal train line, and Bayonne–Anglet–Biarritz functions as a single conurbation you can move around without a car. Then there is Spain. San Sebastián (Donostia) is about 20 minutes from Hendaye, the broader Spanish Basque coast is fully open, and many residents treat the border as a shopping and dining advantage. The big caveat is the interior: public transport thins out fast the moment you leave the coast, so an inland village almost always means depending on a car for everything.",
+      },
+      {
+        heading: "Who it suits, and the honest downsides",
+        body: "The French Basque Country suits people who genuinely want an outdoor, ocean-led life and either earn well remotely, are buying with capital, or are happy to trade the coast for the interior or the Spanish border to make the numbers work. Surfers, food lovers and anyone drawn to a strong local culture will feel at home. The downsides are real and worth stating plainly. Coastal prices are brutal and have outrun local incomes, so unless your budget is serious you should look at Bayonne, Hendaye or inland rather than Biarritz. The year-round rental market is painfully tight because owners often prefer more lucrative seasonal lets — arriving in June to find a flat for September is a losing strategy, so start hunting in January. The community is close-knit and informal networks matter, so knowing locals speeds everything up. And the Basque identity, language included, is present and valued; ignoring it reads as disrespect, while a little curiosity opens doors. Finally, expect rain. Plan around all of this and it can be one of the best places to live in France.",
+      },
+    ],
+    relatedCities: ["bayonne","biarritz"],
+    tags: ["living in the basque country","pays basque expat","moving to france","biarritz","nouvelle-aquitaine"],
+  },
+  {
+    slug: "living-on-the-french-riviera-2026",
+    title: "Living on the French Riviera: An Honest Expat Guide",
+    metaTitle: "Living on the French Riviera (Côte d'Azur): Expat Guide 2026",
+    metaDesc: "What it's really like to live on the French Riviera in 2026: where to base yourself, property prices, climate, getting around, and exactly who it suits.",
+    category: "moving",
+    emoji: "☀️",
+    readMinutes: 7,
+    publishedAt: "2026-06-03",
+    updatedAt: "2026-06-03",
+    intro: "The Côte d'Azur is the sunniest stretch of coast in France and the most expensive place to live outside Paris. It draws a very specific crowd: comfortable retirees from France and abroad, Monaco cross-border workers, returning expats, and a smaller number of remote workers funded from elsewhere. If you arrive expecting a cheap corner of France with sunshine thrown in, you'll be disappointed. If you understand what you're buying into, it's hard to beat. Here's the honest picture for anyone thinking of moving here.",
+    sections: [
+      {
+        heading: "What and where the Riviera actually is",
+        body: "The French Riviera, or Côte d'Azur, is the strip of Mediterranean coast in the southeast corner of France, running roughly from Cannes in the west to Menton on the Italian border in the east, with Nice as its anchor city. It sits inside the Provence-Alpes-Côte d'Azur region. Most of what people picture as the Riviera is a thin coastal band only a few kilometres deep, packed with towns that almost run into one another: Cannes, Antibes, Nice, then Monaco and Menton. Behind that coast, the land rises fast into hilly hinterland (the arrière-pays), where perched villages like Mougins, Valbonne and the area around Grasse sit 20 to 30 minutes from the sea. The geography matters for a practical reason. Everything desirable is squeezed against the water, which is exactly why property is so expensive and why traffic along the coast is relentless. Menton, the last French town before Italy, is only about 10 km from the border, so northern Italy is genuinely part of daily life here, not a distant neighbour.",
+      },
+      {
+        heading: "Where to base yourself",
+        body: "Nice is the obvious starting point: around 350,000 people, the most socially mixed town on the coast, and the only one with a real economy of its own (a university, business tourism, the Sophia Antipolis tech park 20 km away, and an international airport). It's where you go if you want city life rather than a resort. Antibes and Juan-les-Pins are cheaper than Nice for property, quieter, and built around sailing and boating, which suits active retirees and families with children in the lycée system. Cannes is famous for its festival, but living there year-round is a different proposition from visiting; off-season is fine, but the town leans heavily on business tourism. Menton, on the Italian border, is the cheapest and warmest of the coastal towns thanks to an exceptional micro-climate, but it has an ageing population, limited cultural life, and is hard to manage without a car, which makes it ideal for well-off retirees who want calm. Inland, Grasse, Valbonne and Mougins trade a sea view for slightly lower prices and a 20 to 30 minute drive to the beach.",
+      },
+      {
+        heading: "Property and cost of living",
+        body: "The Riviera runs on an international-buyer premium: prices are set by wealthy French and foreign buyers, Monaco workers, and second-home owners, not by local salaries. Buying a two-room flat in central Nice runs roughly €4,200 to €6,500/m²; Antibes is gentler at €3,800 to €5,500/m²; Cannes climbs to €4,500 to €7,500/m² for a sea view; Menton is the most affordable at €3,500 to €5,000/m². Renting follows the same logic: a two-room flat in Nice (outside the historic centre and Promenade, normal quality) costs €900 to €1,300/month, a sea-view equivalent in Cannes €1,400 to €2,500, and Menton a more reasonable €700 to €1,000. Day-to-day costs carry a 'permanent tourism' surcharge: groceries run 15 to 25% above the French big-city average, and a non-touristy lunch is €16 to €22. None of this is hidden, but it adds up. Budget realistically and assume your housing cost will be the single biggest line by some distance.",
+      },
+      {
+        heading: "Climate and daily life",
+        body: "The Riviera is the sunniest coast in France, with Nice recording around 2,700 hours of sunshine a year. That's the headline reason people come, and it delivers: long, dry, warm summers, mild winters, and a Mediterranean rhythm of outdoor living, markets, and beach time that genuinely shapes daily life. Menton's micro-climate is the warmest of all, which is why it has long attracted retirees and gardeners. The trade-off is seasonality. From roughly June to September the coast fills with tourists, traffic thickens, parking vanishes, beaches and restaurants are packed, and prices in resort towns climb. Locals adapt by treating high summer as the season to endure rather than enjoy, doing their swimming early in the morning and their errands off-peak. The shoulder seasons (spring and autumn) are the real reward: warm, calm, and uncrowded. If you're moving here, picture both versions of the place, the serene October coast and the heaving August one, because you'll live through both every year.",
+      },
+      {
+        heading: "Getting there and around",
+        body: "Nice Côte d'Azur is France's second-busiest airport after Paris, which is the single biggest practical advantage of living here: direct flights across Europe and beyond make trips home, and visitors arriving, genuinely easy. Along the coast, a frequent regional train line links Cannes, Antibes, Nice, Monaco and Menton, and it's the sane way to avoid coastal gridlock for those journeys. Monaco is about 20 km from Nice (roughly 30 minutes by train) and 10 km from Menton, and northern Italy is right next door past Menton. Beyond the train line, though, the coast is built for cars. The Lignes d'Azur network is fine within Nice but thin for travelling between towns, so a car is close to essential if you want to move freely between Cannes, Antibes, Nice and Menton, or to reach the perched villages inland. Factor in fuel, the A8 motorway tolls (Nice to Cannes is around €8 return), and parking, and the monthly car budget becomes a real, recurring cost rather than an afterthought.",
+      },
+      {
+        heading: "Who it suits, and the honest downsides",
+        body: "The Riviera works beautifully for a specific profile: retirees with a solid pension or savings (comfortably above €2,500 to €3,000/month net), Monaco cross-border workers, remote workers earning international big-city salaries, and returning expats arriving with capital built up elsewhere. It's much harder for first-time buyers on local wages, larger families hoping to buy, and young professionals starting out unless they're in tech (Sophia Antipolis) or working in Monaco. The honest downsides are consistent: the cost of everything, the summer crush and the traffic that comes with it, the car dependence outside Nice, and the structural reliance on tourism that makes some towns feel half-empty out of season. Be honest with yourself about which group you fall into. The Riviera is a relatively luxurious region, not an affordable corner of France with sunshine as a bonus, and the people who thrive here are the ones who arrived with that clear from the start.",
+      },
+    ],
+    relatedCities: ["nice","cannes"],
+    tags: ["living on the french riviera","cote d'azur expat","moving to france","nice","provence-alpes-cote-d-azur"],
+  },
+  {
+    slug: "living-in-the-var-2026",
+    title: "Living in the Var: An Expat Guide to Provence's Coast and Green Interior (2026)",
+    metaTitle: "Living in the Var 2026: Expat Guide to Toulon, Hyères & Provence",
+    metaDesc: "Moving to the Var in 2026? An honest expat guide to the pricey coast vs affordable interior, property prices, climate, fire risk, transport and who it suits.",
+    category: "moving",
+    emoji: "🌿",
+    readMinutes: 7,
+    publishedAt: "2026-06-03",
+    updatedAt: "2026-06-03",
+    intro: "The Var is the most underrated stretch of the French Riviera. Most people only know its two famous bookends, Toulon and Saint-Tropez, and assume the rest is either a naval port or a billionaire's playground. The reality is far more varied. This is a department of contrasts: a pricey coastline, an affordable green interior, vast forested hills, and the quiet Provence villages around Brignoles. If you are weighing up a move to southern France and want the Mediterranean light without Côte d'Azur price tags, the Var deserves a proper look. Here is the honest panorama, what it costs, what it feels like day to day, and the one risk you cannot ignore.",
+    sections: [
+      {
+        heading: "What and where the Var actually is",
+        body: "The Var sits between Marseille to the west and the glossy eastern Riviera (Nice, Cannes) further along the coast. Think of it as the bridge between true Provence and the Côte d'Azur. It splits cleanly into distinct worlds. There is the littoral, the coastline running from Toulon east through Hyères and Fréjus up to Saint-Tropez, which is where the money and the crowds concentrate. Behind it lie the great forested massifs, beautiful but the reason fire risk is a real concern here. Then comes the Var intérieur, the inland half most outsiders never see: the historic prefecture of Draguignan, and the rolling 'Provence verte' around Brignoles, all bauxite-red soil, vineyards and stone villages. The further you move from the sea, the cheaper, quieter and more rural life becomes. Understanding this coast-versus-interior divide is the single most useful thing to grasp before you start house-hunting, because it dictates everything: price, pace, and whether you can manage without a car.",
+      },
+      {
+        heading: "Where to base yourself",
+        body: "Toulon is the department's main city, home to France's national naval base, with a military and services-driven economy and the best amenities in the Var. Prices have risen but stay reachable by Riviera standards, roughly 1,800 to 5,200 €/m² depending on the neighbourhood, and quality of life varies a lot block by block. Hyères is the calmer alternative just east: the oldest seaside resort on the Côte d'Azur, slightly warmer than Toulon thanks to its full-south exposure, with fine-sand beaches near l'Almanarre and the Golden Isles (Porquerolles, Port-Cros) a 20-30 minute ferry away. Fréjus, further east toward the Estérel, gives you Roman heritage and beaches in a self-sufficient town. For affordable Provence, look inland: Draguignan (around 40,000 residents), a garrison and farming town, and Brignoles in the green interior, an easy motorway hop between Toulon and Aix. The pricey coast, especially Saint-Tropez and its peninsula, is gorgeous but a different financial universe.",
+      },
+      {
+        heading: "Property and cost of living",
+        body: "The Var's defining feature is a steep price gradient from the sea inland. On the coast you pay a premium for the Mediterranean. In Toulon, apartments run roughly 1,800 to 5,200 €/m² depending on the quartier. In Hyères, expect a two-bed (T2) at around 3,000 to 5,000 €/m², with the higher end tied to beach proximity. Move inland and the maths changes completely. Draguignan sits at about 1,600 to 2,500 €/m² for a T2, among the most affordable prices anywhere in Provence. Brignoles is cheaper still, roughly 1,400 to 2,200 €/m² for flats, and village houses turn up between 100,000 and 200,000 € total. That spread means a budget that buys a small coastal flat could buy a whole stone village house an hour back from the water. Day-to-day costs (groceries, eating out, services) follow the same logic: touristy and seasonal near the sea, far more grounded inland. For remote workers on outside income, the green interior is the value sweet spot.",
+      },
+      {
+        heading: "Climate and daily life",
+        body: "This is one of the sunniest corners of France, and that is the main reason people come. The Var delivers the classic Mediterranean rhythm: long, hot, dry summers and mild winters, with life lived outdoors for much of the year. Hyères runs slightly warmer than Toulon thanks to its southern aspect. Markets, terraces, olive oil, truffles and the sea set the pace, and the lifestyle is genuinely relaxed once you adapt to it. But the summers come with a serious caveat you must build into any decision: fire risk. The Var is the French department most affected by forest fires, and climate change is making the episodes worse and more frequent, from the historic summer of 2003 to the 2021 Gonfaron fire that burned 7,000 hectares and the 2022 blaze near La Garde-Freinet. Before you buy or rent, check the commune's PPRIF fire-risk classification, the legally required 50 m vegetation clearance around buildings, evacuation access, and home insurance, since some zones have become hard to insure or carry steep surcharges. It is a factor to manage, not a reason to stay away.",
+      },
+      {
+        heading: "Getting there and around",
+        body: "Toulon-Hyères airport sits about 5 km from Hyères and is small but useful, with flights to Paris, Brest, Strasbourg and a handful of European destinations. For wider international links you will lean on Marseille or Nice airports, both within driving range. Rail is solid on the coastal spine: the TGV serves Toulon with direct high-speed links to Paris and Marseille, and the regional TER line threads the seafront towns, which makes a car-light life plausible if you base yourself on the coast near a station. The interior is a different story. Public transport thins out fast once you head toward Draguignan or Brignoles, and the villages of the green Provence are effectively car-dependent. The motorway network (the A8 and A57) ties the department together and makes the Toulon-Aix-Brignoles triangle an easy commute, but you will be driving it. Plan honestly: coast plus station means you can manage without a car; anywhere inland, a car is not optional.",
+      },
+      {
+        heading: "Who it suits, and the honest downsides",
+        body: "The Var works well for several profiles. Active retirees who want Provence without Côte d'Azur prices are well served by Draguignan and Brignoles. Remote workers on outside income get an exceptional setting at reasonable cost in the interior. Anyone working in Toulon's military or services economy has the city on their doorstep, and families wanting sea, sunshine and Provence (rather than a Paris commuter belt) find a lot to like. The honest downsides are real, though. The local job market is thin and undiversified outside Toulon, so if you need a dense, varied employment market, look carefully before committing. Fire risk is a genuine factor that some people will not want to live with, and it shapes insurance and peace of mind. And the inland Var is firmly car-dependent: if you cannot or will not drive, the green interior is not for you. Match your situation to the right half of the department and the Var rewards you; ignore the trade-offs and it will frustrate you.",
+      },
+    ],
+    relatedCities: ["toulon","frejus"],
+    tags: ["living in the var","var provence expat","moving to france","toulon","provence-alpes-cote-d-azur"],
+  },
+  {
+    slug: "living-in-alsace-2026",
+    title: "Living in Alsace: An Expat's Guide for 2026",
+    metaTitle: "Living in Alsace 2026: Expat Relocation Guide",
+    metaDesc: "Moving to Alsace? An honest 2026 expat guide to Strasbourg, Colmar and Mulhouse — property prices, cross-border work, climate and who the region suits.",
+    category: "moving",
+    emoji: "🍇",
+    readMinutes: 7,
+    publishedAt: "2026-06-03",
+    updatedAt: "2026-06-03",
+    intro: "Alsace sits in France's far north-east, pressed against the Rhine and the German border, and it feels different from anywhere else in the country. The architecture, the food, the place names and even a slice of the local law are visibly Germanic, yet the region is unmistakably French. For an expat that combination is the draw: you get France's healthcare, schools and lifestyle, plus genuine cross-border access to higher-paying jobs in Germany and Switzerland. This guide walks through where Alsace actually is, the three cities you'd realistically base yourself in, what property and daily life cost, and the trade-offs nobody mentions on the postcards.",
+    sections: [
+      {
+        heading: "What and where Alsace is",
+        body: "Alsace is a narrow strip of land between the Vosges mountains to the west and the Rhine — which forms the German border — to the east. Today it's the eastern part of the larger Grand Est region, but its identity is its own. The flat Rhine plain runs the length of it, sheltered from Atlantic weather by the Vosges, while the foothills hold the famous vineyards. What makes Alsace unusual is how deeply German influence is woven in: half-timbered houses, hearty cuisine, and a distinct local law (the droit alsacien-mosellan) that still governs things like public holidays and the relationship between church and state, a leftover from the decades when this land was part of Germany. The two anchor cities are Strasbourg, the capital and seat of the European Parliament, and Colmar, the picture-postcard wine town. For newcomers, the practical headline is location: you're within a short drive of both Germany and Switzerland, which shapes everything from job options to weekend plans.",
+      },
+      {
+        heading: "Where to base yourself",
+        body: "Strasbourg (around 280,000 people) is the obvious choice if you work in the European institutions, the university, or the hospital sector. It's one of France's most cosmopolitan cities — home to the European Parliament, the Council of Europe and the European Court of Human Rights — and the University of Strasbourg has the largest international student body in the country, with roughly 55,000 students. The catch is cost, which we'll come to. Colmar (about 70,000, in the Haut-Rhin) is the most genuinely liveable choice for many: human-scale, beautiful, with a working covered market and real neighbourhood life, and it sits 40 minutes from both Basel and Freiburg. Mulhouse (around 110,000) is the underrated option — a post-industrial city, less charming at first glance but by far the cheapest, and just 25 minutes from the Swiss frontier. Beyond the cities, the Wine Route villages — Obernai, Ribeauvillé, Riquewihr, Sélestat — offer a quality of life that's hard to match anywhere in France for the money, provided you're happy to drive.",
+      },
+      {
+        heading: "Property and cost of living",
+        body: "Alsace spans a wide price range, and where you land matters enormously. Strasbourg is the expensive end: renting a one-bedroom in the centre runs €800–1,000 a month and a two-bedroom €1,100–1,400, while buying costs roughly €3,500–4,200/m² in sought-after districts like Krutenau, Petite France and the Neustadt. That's broadly on a par with Lyon. Colmar is markedly gentler — €2,400–2,900/m² to buy in the centre, €2,000–2,400/m² on the edges, with one-bedroom rentals around €600–720 a month. Mulhouse is the cheapest in the region by a clear margin: €1,600–2,000/m² to buy and one-bedrooms at €520–620 a month. The bigger picture: Alsace is not a bargain region like rural central France, but compared with the sunny south — the Riviera, Provence, the Mediterranean coast — you generally get more space for your money here, with the important exception of central Strasbourg. For a couple where one partner earns Swiss wages, Mulhouse or Colmar are financially hard to argue with.",
+      },
+      {
+        heading: "Climate and daily life",
+        body: "Be honest with yourself about the weather. Alsace has a continental climate: cold winters and genuinely warm, often hot summers, with far less of the grey Atlantic drizzle than western France. The downside of the sheltered Rhine plain is persistent winter fog, and a biting north-easterly wind that can make November to March feel raw. The upside is that the region knows how to make winter worth it — the Christmas markets in Strasbourg, Colmar and Kaysersberg are the busiest in France, drawing more than two million visitors each December, and they're a real fixture of local life, not just a tourist show. The rest of the year is built around the outdoors and the table: the 170 km Wine Route between Thann and Marlenheim produces Riesling, Gewurztraminer and Pinot Gris, and Alsatian cooking — tarte flambée, choucroute, baeckeoffe — is everyday food, not a novelty. The Petite France quarter in Strasbourg and the UNESCO-listed Neustadt give the regional capital a daily backdrop most cities would envy.",
+      },
+      {
+        heading: "Getting there and around",
+        body: "Alsace is well connected for a region this far from Paris. Strasbourg has a TGV link that puts the capital within easy reach, plus its own airport, while the EuroAirport at Basel-Mulhouse-Freiburg — shared with Switzerland and Germany — handles a wide range of European routes from the south of the region. The standout feature, though, is cross-border living. Roughly 70,000 Alsatians commute daily into Germany or Switzerland, and the maths is compelling: an engineer in Basel can earn 4,500–6,000 CHF net a month, well above local French salaries. German fluency is a genuine differentiator on the regional job market, and bilingual FR/DE roles consistently pay more. Inside the cities, Strasbourg is one of France's best places to live car-free, with a six-line tram network and strong cycling infrastructure. Colmar and Mulhouse are walkable at their cores and sit minutes from the border. The Wine Route villages, by contrast, really do need a car — public transport thins out fast once you leave the main towns.",
+      },
+      {
+        heading: "Who it suits — and honest downsides",
+        body: "Alsace suits a specific profile especially well: cross-border workers chasing German or Swiss salaries while keeping French living costs, EU-institution staff and diplomats in Strasbourg, and anyone who genuinely prefers a crisp continental climate and a Germanic sense of order to Mediterranean heat. Families do well here too, with the cross-border economy and a strong industrial base around Mulhouse and the chemical and pharma firms across the region. But the trade-offs are real. The winters are cold and the Rhine-plain fog is persistent — if grey, raw months sap you, factor that in. Strasbourg's prices jumped more than 35% between 2018 and 2024, eroding the value gap with Lyon. Car-free life is only easy in the cities, not the vineyard villages. And the local Alsace-Moselle law is a quirk that's mostly a practical perk but can catch newcomers off guard. If you want sun and the sea, look south. If you want France with a German edge and a foot in two foreign job markets, few regions compete.",
+      },
+    ],
+    relatedCities: ["strasbourg","colmar"],
+    tags: ["living in alsace","alsace expat","moving to france","strasbourg","grand-est"],
+  },
+  {
+    slug: "living-in-brittany-2026",
+    title: "Living in Brittany: An Expat's Guide to France's Celtic Coast",
+    metaTitle: "Living in Brittany 2026: Expat Relocation Guide to Bretagne",
+    metaDesc: "Moving to Brittany? Honest 2026 guide to Rennes, the coast, property prices in €/m², the famous wet weather, ferries to the UK, and who it suits.",
+    category: "moving",
+    emoji: "⚓",
+    readMinutes: 7,
+    publishedAt: "2026-06-03",
+    updatedAt: "2026-06-03",
+    intro: "Brittany is the region French people most often name without prompting when asked where the quality of life is best. The sea is everywhere, the regional identity runs deep, and there is a real sense of belonging here that you do not find in many parts of France. For an English-speaking newcomer it has an extra pull: the ferry links to Plymouth and Portsmouth, a long-established British presence in the rural interior, and house prices that, away from the hot coastal spots, remain among the most affordable in the country. The trade-off is honest and well known: it rains, the far west is genuinely remote, and outside Rennes the qualified job market is thin. This guide walks through where Brittany is, where to base yourself, what property actually costs, and who the region really suits.",
+    sections: [
+      {
+        heading: "What and where Brittany is",
+        body: "Brittany (Bretagne) is the peninsula at France's north-western tip, a fist of granite and bocage farmland reaching out into the Atlantic. It has the longest coastline in France — roughly 2,730 km of cliffs, estuaries, oyster beds and surf beaches — which is the single fact that shapes daily life here. From almost any town in the region the sea is rarely more than 45 minutes away. Geographically and culturally the peninsula splits in two. There is the Armor, the coastal belt, where most people live, the tourism happens and the property is expensive; and the Argoat, the wooded inland interior, greener, quieter and far cheaper. Layered over the map is a Celtic identity that sets Brittany apart from the rest of France: the Breton language survives, fest-noz dances and religious pardons still fill village calendars, and crêperies, cider and the black-and-white Gwenn-ha-Du flag are everywhere. For an incomer it is one of the easier French regions to feel part of, because the local pride is open rather than closed.",
+      },
+      {
+        heading: "Where to base yourself",
+        body: "Rennes (around 225,000 people) is the obvious landing pad if you need a career and city life. It is one of France's most dynamic metropolitan areas, with a dense tech and digital scene, two large universities and roughly 60,000 students, an authentic timber-and-slate old town, and the fastest TGV link to Paris in the region at about 1h27. On the coast, each city has its own character. Saint-Malo (47,000), the walled corsair town with Dinard across the estuary, is beautiful but tightly squeezed by Parisian second homes and remote workers. Vannes (55,000), on the sheltered Gulf of Morbihan, leans on tourism and services. Quimper (65,000), in southern Finistère, offers a Gothic cathedral, faience pottery and quick beach access. Brest (145,000), at the far west, is a naval and oceanography hub with a vast natural harbour and a university. Lorient (57,000), home of the Interceltic Festival, is a working fishing port and one of the better-value coastal options. If budget matters most, look inland.",
+      },
+      {
+        heading: "Property and cost of living",
+        body: "Brittany came under heavy property pressure from 2020, driven by Parisians leaving the capital and the rise of remote work; rural houses with a garden near a Breton town rose roughly 25–40% between 2019 and 2024. Where you buy now makes an enormous difference. The tight coastal markets are the priciest: Saint-Malo runs about 2,800–5,000 €/m² and the Gulf of Morbihan is similarly stretched. The cities are more reasonable — Rennes sits around 3,000–4,500 €/m², still below Lyon or Bordeaux; Quimper is roughly 1,700–2,600 €/m², Brest around 1,800–2,800 €/m², Vannes 2,200–3,500 €/m², and Lorient 1,600–2,800 €/m². The real bargains are inland, in the Argoat: the interior of Finistère and Côtes-d'Armor, around Loudéac, Pontivy and Guingamp, where a rural house can still cost 800–1,600 €/m². This inland belt is among the cheapest and greenest parts of France, which is exactly why so many British buyers settled there in the first place. Everyday costs are moderate, with farmers' markets and local produce keeping food spending sensible.",
+      },
+      {
+        heading: "Climate and daily life",
+        body: "Brittany's weather is the thing people warn you about, and it is fair to be honest: this is one of the least sunny regions in France, and it can be wet and windy from October through March. The flip side is a genuinely gentle Atlantic climate — no real heatwaves, with summers typically sitting around 18–22°C, and no hard winter cold either. Showers blow through quickly and the light between them is famous among painters. Daily life is built around the coast and the calendar of local culture. People sail, surf the Atlantic-facing beaches, walk the GR34 coastal path, and shop the producers' markets. The food is firmly rooted in the terroir: cider, Cancale oysters, salted-butter caramel, kouign-amann and far breton, and a crêperie in every town. Festivals like the fest-noz nights and summer pardons give the year a rhythm and make it easy for a newcomer to meet people. It is an outdoor, sociable, weather-tolerant kind of life rather than a sun-lounger one.",
+      },
+      {
+        heading: "Getting there and around",
+        body: "Brittany is unusually well connected for the English-speaking arrival, which is part of its appeal. Rennes runs a TGV to Paris in about 1h27, and a high-speed LGV link towards Nantes is on the horizon, so the eastern half of the region is firmly within reach of the capital. The standout, though, is the sea link to Britain: ferries cross from Saint-Malo and Roscoff to Plymouth, Portsmouth and Cork, which makes coming and going from the UK or Ireland straightforward, car and all. Brest, Rennes, Nantes (just outside the region) and a handful of smaller airports cover air travel. Within Brittany, a car is close to essential once you leave the cities — the interior and the smaller coastal towns have limited public transport, and the further west you go, the more distance there is between things. Inside Rennes and the larger towns you can manage without one, but rural Brittany is built for drivers.",
+      },
+      {
+        heading: "Who it suits — and the honest downsides",
+        body: "Brittany is close to ideal if you love the sea and wild open space, if you work in tech with a job in Rennes or remotely, if you are a family looking for safety and a strong sense of place, or if you are retiring and want a mild coastal climate at a moderate cost of living — especially inland. It rewards people who want to belong somewhere with a real identity rather than just rent a view. Now the honest downsides. If you are chasing heat and reliable sunshine, this is the wrong region; Brittany is among the least sunny in France and the rain is not a myth. The qualified private-sector job market is thin outside Rennes, so unless you are remote or self-employed, factor that in carefully. The far west — the Finistère coast and the deep interior — is genuinely remote, which is the point for some and a dealbreaker for others. And if you want mountains, you will not find them here. Go in with eyes open and Brittany delivers.",
+      },
+    ],
+    relatedCities: ["rennes","brest"],
+    tags: ["living in brittany","brittany expat","moving to france","bretagne","ferry to uk"],
+  },
+  {
+    slug: "living-in-normandy-2026",
+    title: "Living in Normandy: An Expat's Guide for 2026",
+    metaTitle: "Living in Normandy 2026: Expat & Relocation Guide",
+    metaDesc: "Moving to Normandy? Rouen, Caen, the chic coast and cheap bocage interior, property prices, ferries to the UK and what daily life is really like.",
+    category: "moving",
+    emoji: "🐄",
+    readMinutes: 7,
+    publishedAt: "2026-06-03",
+    updatedAt: "2026-06-03",
+    intro: "Normandy is the closest French region to Paris and, oddly, one of the least understood. Rouen sits about 1h20 from Paris-Saint-Lazare, Caen around 2h, Le Havre near 2h10. You get roughly 600 km of coastline, the chalk cliffs of Étretat, the D-Day beaches, camembert and cider country, and some of the most affordable property of any region within easy reach of Paris. For anyone who wants the sea, space and a genuine change of pace without moving to the other end of France, Normandy is quietly one of the best-kept secrets going.",
+    sections: [
+      {
+        heading: "What and where Normandy is",
+        body: "Normandy spreads across the northwest corner of France, fronting the English Channel for around 600 km. It was, until the 2016 reform, two separate regions — Haute-Normandie in the east around Rouen and Le Havre, and Basse-Normandie in the west around Caen — now stitched back into one. The geography is split between coast and interior. Up north you have working ports, the chalk cliffs of Étretat, and the bourgeois seaside towns of the Côte Fleurie. Inland is the bocage: a patchwork of hedged green fields, apple orchards, dairy farms and small market towns, the landscape that produces the cider, calvados and cheese the region is famous for. This is dairy country on a national scale — Normandy accounts for roughly 25% of France's milk production. The two halves give you a real choice of lifestyle: salt air and ferries on one side, deep rural quiet on the other, all within a couple of hours of Paris.",
+      },
+      {
+        heading: "Where to base yourself",
+        body: "Rouen (around 115,000 people) is the regional capital and the obvious landing spot — a Gothic cathedral, a half-timbered old town on the Seine, world-class museums, and a diversified economy spanning pharma, logistics and the port. Train to Paris-Saint-Lazare runs about 1h20, and flats sit at roughly 2,000–3,500 €/m². Caen (around 100,000) is the western anchor: the WWII Memorial, the Abbaye aux Hommes, a 25,000-strong student population, and the Côte Fleurie (Deauville, Cabourg) about 30 km away. Trains to Paris take roughly 2h, with property at 1,800–3,000 €/m². Le Havre (around 165,000) is the big working port, with UNESCO-listed Le Corbusier architecture, a shingle beach and the Seine estuary; Paris is about 2h10, and it is the cheapest of the three at 1,400–2,500 €/m². The trade-off is stark: the chic coast (Deauville, Étretat, Honfleur) commands a premium, while the bocage interior is among the cheapest housing in mainland France.",
+      },
+      {
+        heading: "Property and cost of living",
+        body: "Normandy is one of the few French regions where you can still buy a house with a garden within 5 km of the sea for under 200,000 €. That combination — Paris access, proximity to the coast, and a realistic price — is genuinely hard to match anywhere else in the country. Coastal towns such as Fécamp, Lisieux and Bayeux run roughly 1,500–2,800 €/m². Push inland into the bocage — Flers, Vire, Argentan — and prices drop to about 800–1,500 €/m², some of the lowest figures in mainland France. Even Deauville, with its luxury reputation, stays reachable away from the seafront, around 2,500–4,000 €/m². For Paris-based remote workers in particular, the maths is compelling: you trade a small apartment in the capital for a proper house near the Channel and still keep a manageable commute when you need the office. Day-to-day costs sit below the Paris average, with the usual French upsides of cheap healthcare and good local markets.",
+      },
+      {
+        heading: "Climate and daily life",
+        body: "The weather is temperate Atlantic — not the Mediterranean south, but not the grey, sodden north either. Rouen gets around 700 mm of rain a year, broadly comparable to Paris, and the popular image of permanent drizzle is overdone. Summers are cool rather than hot: July and August typically sit between 17 and 22°C, pleasant for walking the cliffs but rarely beach-baking weather. What you get in return is greenery, mild winters and a coast that never feels crowded. Daily life leans into the produce: this is cider, calvados and camembert country, with Sunday markets full of cheese, seafood and orchard fruit. The pace is slower than Paris, the towns are walkable, and the sea is always close. If you like cool, fresh, green and seasonal over hot and sun-drenched, Normandy delivers it consistently.",
+      },
+      {
+        heading: "Getting there and around",
+        body: "Normandy's headline advantage is Paris proximity. Rouen is roughly 1h20 from Paris-Saint-Lazare, Caen about 2h, Le Havre near 2h10 — close enough for a regular commute or a weekly office day. One honest caveat: there is no high-speed TGV line into Normandy. Trains are conventional Intercités and TER services, so the journeys above are the real travel times, not 45-minute bullet-train hops. The region's other strength is its sea links: ferries run from Caen-Ouistreham, Cherbourg and Le Havre across to Portsmouth and Poole, making this the most natural French base for anyone with ongoing ties to the UK — handy for British expats and for car trips home. Within the region, a car is close to essential once you leave the main cities. Public transport between towns is patchy, and the rural bocage is built around driving. Buses and TER cover the bigger axes, but for the countryside lifestyle that draws many people here, plan on owning a car.",
+      },
+      {
+        heading: "Who it suits — and the honest downsides",
+        body: "Normandy fits Paris commuters who want the sea within two hours, families chasing a house and garden at a sane price, retirees drawn to the history and coast, and industrial-sector professionals — the economy leans on agri-food (Danone, Lactalis), the Le Havre container port, refining, and engineering. British expats get an extra bonus in the cross-Channel ferries and the deep D-Day and wartime ties that keep an Anglo-French connection alive. Now the downsides. The weather is cool and Atlantic — never reliably hot, so sun-seekers should look south. The tech and digital scene is modest; Rouen's is growing but limited, so anyone without a remote job or an industrial profile may struggle locally. There is no high-speed rail, and public transport thins out fast outside the cities, making a car all but mandatory in the countryside. Go in clear-eyed about the grey skies and the patchy transport, and the value on offer is hard to beat.",
+      },
+    ],
+    relatedCities: ["rouen","caen"],
+    tags: ["living in normandy","normandy expat","moving to france","normandie","ferry to uk"],
+  },
+  {
+    slug: "living-in-charente-maritime-2026",
+    title: "Living in Charente-Maritime: An Expat Guide to France's Sunniest Atlantic Coast",
+    metaTitle: "Living in Charente-Maritime 2026: La Rochelle, Royan & Île de Ré Guide",
+    metaDesc: "Moving to Charente-Maritime? Real 2026 property prices, climate, La Rochelle vs Royan, the Île de Ré premium, and who this Atlantic coast suits.",
+    category: "moving",
+    emoji: "🦪",
+    readMinutes: 7,
+    publishedAt: "2026-06-03",
+    updatedAt: "2026-06-03",
+    intro: "Charente-Maritime (department 17) is one of the better-value stretches of French coastline for foreigners who want the Atlantic without paying Riviera prices. La Rochelle, the main city of around 80,000 people, is its centre of gravity: a sailing town, a university town, and one of the most photogenic ports in France. Royan and Rochefort sit a little inland or down the coast as cheaper alternatives, each with a distinct character. The Île de Ré and Île d'Oléron, both connected to the mainland by bridge, deliver island life at very different price points. This guide gives you the real numbers, not the postcard.",
+    sections: [
+      {
+        heading: "What and where Charente-Maritime is",
+        body: "Charente-Maritime is the southern half of France's central Atlantic coast, part of the Nouvelle-Aquitaine region, sitting roughly between the Loire estuary to the north and the Gironde to the south. It is best known for two things: a long, low coastline of about 450 km, and an amount of sunshine that surprises most people. La Rochelle records around 2,250 hours of sun a year, almost as much as Perpignan on the Mediterranean and far more than Normandy or Brittany further up the same coast. That combination, sea plus sun without Mediterranean prices, is the whole pitch. The department's two islands, Ré and Oléron, both reachable by road bridge, give it a holiday reputation, but they are a small slice of a wider area of working towns, oyster beds, vineyards, and salt marsh. Saintes (around 25,000) and Cognac (around 20,000) anchor the inland half. For expats, the upside is variety: you can pick a busy university port, a quiet former arsenal town, a postwar seaside resort, or an island, all within an hour of each other.",
+      },
+      {
+        heading: "Where to base yourself",
+        body: "La Rochelle is the obvious first choice and the hardest to fault. The medieval Vieux-Port, the arcaded streets, the well-developed Yélo cycle network, and the University of La Rochelle (around 9,000 students) give it a young, walkable, genuinely lived-in feel rather than a seasonal one. Rochefort, 30 minutes south, is the underrated pick: a former royal arsenal built under Vauban, with remarkable architecture (the Corderie Royale, the frigate Hermione) and an authentic out-of-season atmosphere, all at a fraction of La Rochelle's cost. Royan, further south at the Gironde mouth, is a higher-end seaside resort rebuilt in distinctive 1950s style after the war, with the Grande Conche beach in the centre of town and a population that swells past 100,000 in summer. Saintes, the prefecture, is the most ordinary of the towns but has a fine Gallo-Roman old quarter. The islands, Ré especially, are a lifestyle and a budget category of their own, covered below.",
+      },
+      {
+        heading: "Property and cost of living",
+        body: "La Rochelle is the priciest part of the mainland and has risen sharply since 2020, when Parisians moved out post-pandemic. Expect roughly 2,800–3,400 €/m² in the centre and the coastal districts, dropping to 2,200–2,600 €/m² in outer areas like Laleu and La Pallice. A two-room rental (T2) runs about 680–820 € a month. Rochefort is one of the cheapest spots on the whole Atlantic coast at around 1,600–2,000 €/m², with a T2 letting for 530–620 €, roughly 30% below La Rochelle for access to the same coastline. Royan sits in between at 2,500–3,500 €/m². The Île de Ré is in another universe: in 2026 the median price exceeds 7,500–9,000 €/m² in the sought-after villages of Saint-Martin-de-Ré, La Flotte and Ars-en-Ré, and year-round rentals are rare and expensive. The Île d'Oléron is far more reachable at 4,000–6,000 €/m² depending on the village, with annual T2 rentals around 650–800 €. The mainland-versus-island gap is the single biggest budgeting decision you will make here.",
+      },
+      {
+        heading: "Climate and daily life",
+        body: "The headline is sun. The Atlantic light here is closer to the Mediterranean than to the grey coast people imagine, and the 2,250-odd hours a year at La Rochelle shape daily life: long sailing seasons, market mornings, terrace lunches well into autumn. The sea is central. This is one of France's leading oyster-producing areas, and the Marennes-Oléron basin turns out the IGP-protected Marennes-Oléron oysters, finished in shallow claires that give them their characteristic green tint from the local algae. Bought straight from the producer they run about 6–9 € a dozen. The wider Charentais table leans on the sea and the land in equal measure: mussels from the Anse de l'Aiguillon, Pineau des Charentes as an aperitif, the prized Charentes-Poitou butter. Inland at Cognac, 40 km up the river, the great houses (Hennessy, Martell, Courvoisier, Rémy Martin) distil one of the most profitable vineyards in France. Day to day, you trade nightlife and big-city services for an outdoor, water-facing, slightly slower rhythm.",
+      },
+      {
+        heading: "Getting there and around",
+        body: "Connectivity is solid without being world-class. La Rochelle has its own airport (La Rochelle–Île de Ré) with seasonal links to several UK and Northern European cities, useful if family will visit. By rail, the TGV reaches Paris Montparnasse in around 3 hours, fine for occasional trips but not as fast as some rival relocation regions, so plan around it rather than commuting on it. By road the motorway network is good: the A10 and A837 put Bordeaux within about 1h30 and Paris at roughly 3h30–4h. Locally, distances are short, La Rochelle, Rochefort and Royan are all within an hour, and La Rochelle itself is among the most cycle-friendly cities in France thanks to coastal paths and the Yélo network. Both islands are reached by bridge, so there is no real ferry-dependency, but the single road on and off Ré in particular becomes a serious chokepoint in peak summer. A car remains the default for anyone living outside La Rochelle's centre.",
+      },
+      {
+        heading: "Who it suits, and the honest downsides",
+        body: "Charente-Maritime is one of the best sun-to-sea-to-price ratios in France, which makes it a strong fit for two groups. Retirees do well: Rochefort or Saintes let you live comfortably on a 1,500–1,800 € monthly pension in a way Nice or Cannes simply do not allow, with the sea and the sun thrown in. Full-remote workers are the other natural fit, and La Rochelle wins on every criterion, active coworking spaces, well-deployed fibre, a French Tech label and a real community of remote workers and startups, with Rochefort as the rational cheaper alternative 40 km south. The downsides are real. Summer tourism is intense: Royan and the islands are transformed, traffic clogs, and prices and crowds spike. Island property, Ré above all, is effectively closed to ordinary buyers. Hospital care is decent in La Rochelle (the CH has around 750 beds) but rural medical desertification is a genuine concern. And the TGV, while fine, is not fast enough to treat Paris as a day trip.",
+      },
+    ],
+    relatedCities: ["la-rochelle","royan"],
+    tags: ["living in charente-maritime","la rochelle expat","moving to france","ile de re","nouvelle-aquitaine"],
+  },
+  {
+    slug: "living-in-haute-savoie-2026",
+    title: "Living in Haute-Savoie: An Expat Guide to the French Alps (2026)",
+    metaTitle: "Living in Haute-Savoie 2026: Expat & Relocation Guide",
+    metaDesc: "Moving to Haute-Savoie? Annecy, Chamonix and the Lake Geneva towns, French Alps property prices, the Swiss frontalier commute and who it really suits.",
+    category: "moving",
+    emoji: "🏔️",
+    readMinutes: 7,
+    publishedAt: "2026-06-03",
+    updatedAt: "2026-06-03",
+    intro: "Haute-Savoie is the corner of France that fills postcards: Mont Blanc on the skyline, Lake Annecy and Lake Geneva in the valleys, and the Swiss border a short drive away. For decades it has pulled in people chasing mountains, clean air and outdoor life, plus a large share who come for one specific reason: access to high-paying jobs in Geneva. The trade-off is blunt. Property here rivals Paris in the most sought-after areas, the quality of life is genuinely high, and getting around without a car is a real challenge. If you are weighing a move from abroad, here is the honest picture.",
+    sections: [
+      {
+        heading: "What and where Haute-Savoie is",
+        body: "Haute-Savoie sits in the far east of France, in the Auvergne-Rhône-Alpes region, wedged between the high Alps and the Swiss border. Mont Blanc, western Europe's tallest peak, anchors the southeast above Chamonix. Two big bodies of water shape daily life: Lake Annecy, often called the cleanest large lake in Europe, and Lake Geneva (Lac Léman), shared with Switzerland along the northern edge. The département wraps around the Canton of Geneva on three sides, which is the single biggest fact about living here. Within an hour's drive you can be on a ski slope, beside an alpine lake, or across the border in a Swiss city. The terrain is dramatic and vertical: deep valleys like the Arve cut between high massifs, so where you settle determines your sunlight, your commute and your weather as much as your budget does. It is compact, scenic and well connected for somewhere so mountainous, but space is finite, which keeps demand and prices intense almost everywhere worth living.",
+      },
+      {
+        heading: "Where to base yourself",
+        body: "Annecy is the headline town and the département capital: high scores for nature, safety and overall quality of life, but very expensive. Expect roughly €3,500-6,000/m² to buy and €850-1,300/month to rent a one-bedroom, in a tight market where rental supply simply does not meet demand. It suits high earners or owners far better than newcomers on a local wage. On Lake Geneva, Thonon-les-Bains is the cheaper headline alternative at around €3,000-4,500/m² to buy, roughly 30 km from Geneva, though it leans heavily on the cross-border job market. Annemasse, right on Geneva's doorstep, has the tightest market in the département, helped by the Léman Express cross-border tram and train. In the Arve valley, Cluses is the most affordable mainstream option (about €2,200-3,000/m²) with solid industrial jobs in precision engineering, but it sits in a steep, enclosed valley with limited winter sun. The ski resorts (Chamonix, Morzine, Megève, La Clusaz) carry resort-town premiums and seasonal rhythms of their own.",
+      },
+      {
+        heading: "Property and cost of living",
+        body: "Haute-Savoie is among the most expensive places to live in France, and the reason is structural. The proximity of Geneva and Lausanne means more than 90,000 cross-border workers (frontaliers) commute into Switzerland daily, earning Swiss salaries while paying tax in France. That doubles average incomes locally and supports property demand far above what local-only wages could justify. The knock-on effect for everyone else is prices pushed structurally higher by an unusually well-funded pool of buyers. If you are not a frontalier, treat Haute-Savoie as a quality-of-life choice rather than a pure financial play: net rental yields are thin, around 3-4%. Day-to-day costs follow the same pattern. Groceries, restaurants and services run roughly 15-25% above the national average in tourist zones and greater Annecy. Property tax (taxe foncière) sits in the upper range for alpine départements; rates in Annecy and Thonon are moderate, but high cadastral values still produce large bills. Local farmers' markets in Annecy and Thonon are the reliable way to eat well for less.",
+      },
+      {
+        heading: "Climate and daily life",
+        body: "This is an alpine climate, so winter is long: November to March in the valleys, and longer at altitude. For skiers and snow-sport people that is the whole point. Morzine, Les Gets, Chamonix and La Clusaz sit 45 minutes to about an hour and a half from the main residential basins, which is close by mountain standards. For non-skiers, or anyone sensitive to grey skies, the deep valleys are the catch. Towns like Cluses and Bonneville lose a lot of winter sun, and thermal inversions can trap cold, hazy air on the valley floor for days, which also dents air quality in midwinter. Lakeside and higher, better-exposed spots fare far better. Summer, by contrast, is exceptional: mild temperatures, abundant outdoor life (hiking, cycling, swimming in the lakes) and a lively but not overwhelming tourist season. The clean lakes and easy access to the mountains are what make the region feel like a permanent holiday once the snow clears.",
+      },
+      {
+        heading: "Getting there and around",
+        body: "Geneva Airport is the region's great logistical advantage. It sits essentially next door, a short drive from Annemasse, Thonon and much of the Lake Geneva shore, and it is a major international hub, which makes flying home or hosting visitors easy in a way most rural French regions cannot match. Internally, the Léman Express tram-train network links Annemasse and the border towns to Geneva, and is the rare commute here that works without a car. The frontalier commute itself is the defining daily ritual for tens of thousands: roads toward the border clog at peak hours, and how close you live to a Léman Express stop materially affects your quality of life. Beyond those corridors, a car is close to essential. Valleys are spread out, public transport between mountain towns is thin, ski resorts need driving to, and winter conditions demand proper tyres. Budget for a vehicle, parking and the realities of alpine roads in your planning.",
+      },
+      {
+        heading: "Who it suits, and the honest downsides",
+        body: "Haute-Savoie is a strong fit for frontaliers working in Geneva or Lausanne who want French quality of life on a Swiss salary; for mountain-loving families who can afford to buy or rent comfortably; for remote workers on Paris-level or foreign incomes seeking exceptional access to nature; and for well-off, active retirees, often funded by selling property elsewhere. It is a poor fit for first-time buyers on local wages, where the effort-to-price ratio is brutal, and for anyone who dislikes long alpine winters or enclosed, sunless valleys. The honest downsides are consistent: the cost of living and buying is unrelenting and frontalier demand keeps it that way; winter is genuinely long and the valley-floor grey wears on some people; and the tourist seasons bring crowds and price spikes to the most scenic towns. Culturally, Annecy has a decent offer but stays limited next to Lyon or Paris. Come for the lakes, the mountains and the air, with clear eyes about the budget and the weather, and it delivers.",
+      },
+    ],
+    relatedCities: ["annecy","thonon-les-bains"],
+    tags: ["living in haute-savoie","french alps expat","moving to france","annecy","auvergne-rhone-alpes"],
+  },
+  {
+    slug: "living-in-occitanie-2026",
+    title: "Living in Occitanie: An Expat Guide to the Sunny South (2026)",
+    metaTitle: "Living in Occitanie 2026: Expat & Relocation Guide to South France",
+    metaDesc: "Moving to Occitanie? An honest expat guide to Toulouse, Montpellier, the Med coast and the Pyrenees — sunshine, property prices, costs and downsides.",
+    category: "moving",
+    emoji: "☀️",
+    readMinutes: 7,
+    publishedAt: "2026-06-03",
+    updatedAt: "2026-06-03",
+    intro: "If you picture the south of France as sunshine, vineyards, mountains and the Mediterranean within an hour's drive, you're picturing Occitanie. It's mainland France's largest region by area — 72,724 km² stretching from Toulouse out to both the Pyrenees and the Med — and the sunniest, with roughly 300 days of sun a year. It also has the strongest positive net migration of any French region since 2015: people keep moving here, and for good reasons. This guide walks through where to base yourself, what property and daily life actually cost, and the honest trade-offs an expat should weigh before committing to the deep south.",
+    sections: [
+      {
+        heading: "What and where Occitanie is",
+        body: "Occitanie is the big one. At 72,724 km² it's the largest region in mainland France, spanning 13 departments from the foothills of the Atlantic side across to the Mediterranean shore and up into the Pyrenees on the Spanish border. The defining feature for most newcomers is the climate: this is the sunniest mainland region in France, with around 2,500 to 2,800 hours of sun a year — set that against roughly 1,600 in Paris and the difference is life-changing. Beyond the weather, Occitanie has a strong cultural identity of its own: the Occitan language, a deep rugby tradition, pastis on the terrace, and a serious food culture. Two big metropolitan areas anchor the region — Toulouse in the centre-west and Montpellier near the coast — but a huge amount of the territory is rural, mountainous or coastal. It's the kind of place where you can ski in the morning and reach the sea the same day, and the population reflects the appeal: the region adds around 50,000 residents a year.",
+      },
+      {
+        heading: "Where to base yourself",
+        body: "Toulouse is the regional capital, with around 800,000 people in its urban area and an economy built on aerospace — Airbus alone accounts for roughly 40,000 direct jobs — plus the CNES space agency and heavy industry. It has a deep job market and a real-city feel. Montpellier (about 400,000) is the Mediterranean metropolis: the sea sits 12 km away, the region hosts around 300,000 students, and health and pharma drive record population growth. The mid-sized cities each have a distinct character: Nîmes (150,000) with its Roman arena and Maison Carrée, 50 km from Montpellier; Perpignan (120,000), the gateway to French Catalonia, with the Pyrenees 50 km off and the sea 15 km away; Narbonne (55,000), set between the two on the old Via Domitia among coastal lagoons; and Carcassonne (45,000), built around an exceptional UNESCO-listed medieval citadel. Beyond the towns lie the genuinely rural draws — the Lot and Aveyron, all stone villages and gorges — and the Pyrenees for anyone who wants the mountains as a backyard rather than a holiday.",
+      },
+      {
+        heading: "Property and cost of living",
+        body: "Occitanie covers a wide price spread, which is exactly why it suits so many budgets. Toulouse sits around €2,500 to €4,000/m² — climbing, but still cheaper than Paris or Lyon for a comparable life. Montpellier runs higher, roughly €2,800 to €4,500/m², a touch more expensive than Toulouse for equivalent services, which is the trade-off for living a short hop from the beach. Step out to the mid-sized cities and prices ease sharply: Nîmes is around €2,000 to €3,200/m², Perpignan €1,600 to €2,800/m² (about the cheapest you'll find for a French Mediterranean city), Narbonne €1,500 to €2,500/m², and Carcassonne as low as €1,200 to €2,200/m². The further you get from the coast and the two metros — into the rural Lot or Aveyron — the further your money stretches. The honest caveat: cheap property in the small towns usually means a thinner local job market, so price and employment pull in opposite directions.",
+      },
+      {
+        heading: "Climate and daily life",
+        body: "The sunshine is the headline and it delivers — only the Côte d'Azur beats Occitanie for sun and heat in France. That shapes everyday life: long terrace seasons, markets, outdoor sport, and a Mediterranean rhythm where eating and socialising happen outside for much of the year. The geography backs it up. The Pyrenees are an hour to two hours from Toulouse, with ski resorts at Font-Romeu, Ax-les-Thermes, Piau-Engaly, Cauterets and Luchon. The Mediterranean — Sète, Cap d'Agde, Leucate, Canet — sits 10 to 45 minutes from Montpellier or Narbonne. The UNESCO-listed Canal du Midi threads the whole region, Toulouse to the sea. The real caveat is heat and water. Summers are hot (35–40°C in July and August) and long, running June through September. Whether that reads as a feature or a problem depends entirely on your tolerance — and the region's water stress in high summer is a growing, practical concern, not just a comfort one.",
+      },
+      {
+        heading: "Getting there and around",
+        body: "Occitanie is well connected for a region this large. Toulouse-Blagnac and Montpellier-Méditerranée airports both run domestic and European routes, so reaching the UK, Spain or the rest of Europe is straightforward without routing through Paris. On rail, the TGV puts Paris around 4h10 from Toulouse today — dropping to roughly 3h15 once the high-speed line south of Bordeaux opens after 2032 — and 3h15 from Montpellier. Within the region, the spread that makes Occitanie attractive also makes a car close to essential outside the two big cities: the Lot, Aveyron and most of the Pyrenees are not places you commute from by train. In Toulouse and Montpellier you can live car-free, but plan on driving for the rural and coastal lifestyle that draws many people here in the first place.",
+      },
+      {
+        heading: "Who it suits — and the honest downsides",
+        body: "Occitanie is a strong fit for aerospace and space engineers and technicians around Toulouse; for health, pharma and research professionals in Montpellier; for remote workers chasing sun and sea on a moderate budget (anywhere but central Montpellier); for active retirees drawn to the outdoors, mountains and coast; and for families wanting more space than they'd get for the money in neighbouring Provence-Alpes-Côte d'Azur. It's a weaker fit if you need a diversified private job market outside aerospace and health — beyond the two metros the economy thins out fast, leaning on agriculture, tourism and public services. And the climate cuts both ways: if you don't cope well with long, intense summer heat, or you want a major national cultural capital on your doorstep, this may not be your region. The honest summary: pick your base carefully, expect the coast and high season to be busy and touristy, and plan for the heat — get those right and few regions in France give you more for the money.",
+      },
+    ],
+    relatedCities: ["toulouse","montpellier"],
+    tags: ["living in occitanie","occitanie expat","moving to france","south of france","toulouse"],
+  },
+  {
+    slug: "living-in-roussillon-2026",
+    title: "Living in Roussillon: A Relocation Guide to French Catalonia (2026)",
+    metaTitle: "Living in Roussillon 2026: Expat Guide to Pyrénées-Orientales",
+    metaDesc: "Moving to Roussillon in 2026: Perpignan, the Côte Vermeille and Collioure, € property levels, France's sunniest mild winters, plus the honest downsides.",
+    category: "moving",
+    emoji: "🌅",
+    readMinutes: 7,
+    publishedAt: "2026-06-03",
+    updatedAt: "2026-06-03",
+    intro: "Roussillon is the French Catalan strip wedged between the Mediterranean, the Pyrenees and the Spanish border — roughly the département of the Pyrénées-Orientales. It is the sunniest corner of France, with around 3,000 hours of sunshine a year (more than Nice), one of the cheapest stretches of the Midi, and one of the most overlooked by relocation guides. This is a clear-eyed look at what it is actually like to live here in 2026 — where to base yourself, what property costs, and what no one warns you about before you sign.",
+    sections: [
+      {
+        heading: "What and where Roussillon is",
+        body: "Roussillon is the southernmost slice of mainland France, the part of historic Catalonia that ended up on the French side of the border. Geographically it packs a remarkable amount into a small space: a warm Mediterranean coast, a flat coastal plain of orchards and vineyards, and the Pyrenees rising fast behind it toward the Spanish frontier. You can be on a beach in the morning and at 2,000 m of altitude by afternoon. The defining feature, though, is the light. With roughly 3,000 hours of sunshine a year, this is the brightest part of France — and crucially, the winters are the mildest, so the sun keeps coming when the rest of the country turns grey. For an incoming expat the practical headline is simple: you get a genuine Mediterranean climate and a strong regional identity, but at prices well below the Côte d'Azur or Provence. The trade-off is that Roussillon is also one of France's more economically fragile regions, which shapes daily life in ways worth understanding before you commit.",
+      },
+      {
+        heading: "Where to base yourself",
+        body: "Three very different bases, depending on what you want. Perpignan is the Catalan capital of France and the only real city — the Castillet, the Palais des Rois de Majorque, busy markets and a deep Catalan culture make it authentic and distinctive. Property runs around €1,900/m², so a three-room flat is roughly €130,000, and the rental market is among the least squeezed in the Midi. The Côte Vermeille is the coastal stretch from Argelès-sur-Mer to the border: rocky coves, painted villages and the Banyuls and Collioure wine appellations. Collioure itself is gorgeous — Matisse and Derain painted here, and it sits on the official \"most beautiful villages\" list — but prices have climbed to roughly €4,000–5,000/m², so check the market before falling in love. Nearby Banyuls-sur-Mer and Port-Vendres are gentler at around €3,000/m² and still ten minutes from the coves. Inland, the Pyrenean towns offer a third option: Céret (a fine modern-art museum, around €2,800/m²), Prades (the Conflent gateway, near €1,800/m²) and Font-Romeu, a ski resort at 2,000 m near €1,600/m² — one of the cheapest mountain settings in France.",
+      },
+      {
+        heading: "Property and cost of living",
+        body: "By Mediterranean standards, Roussillon is genuinely affordable, and that is its single biggest draw. Perpignan sits around €1,900/m², which buys a three-room apartment for roughly €130,000 — a figure that would barely cover a studio in Nice or Antibes. The rental market is one of the least tense in the south of France, so you are unlikely to face the bidding-war scramble that defines the Côte d'Azur. Prices climb sharply only where the scenery and reputation do: Collioure at €4,000–5,000/m² is the clear outlier, while Banyuls-sur-Mer and Port-Vendres at around €3,000/m² are far more reasonable for coastal living. Inland is cheaper still — Prades near €1,800/m² and Font-Romeu near €1,600/m². There is also a quiet day-to-day saving most newcomers discover fast: the Spanish border is porous, and locals routinely shop across it, where alcohol, groceries and fuel run roughly 20–30% cheaper. Budget on running a car, too, since the coves, the inland Pyrenean towns and the ski stations all need one. For a remote worker optimising the sun-to-cost-to-sea ratio, Perpignan is arguably the most aggressive value play in France.",
+      },
+      {
+        heading: "Climate, the Tramontane, and Catalan culture",
+        body: "The climate is the reason most people come and the reason most stay. Around 3,000 hours of sunshine a year — more than Nice — combined with the mildest winters in France means the outdoor season barely closes. The catch has a name: the Tramontane, a strong, dry north-westerly wind that funnels down off the Pyrenees and can blow hard for days. It scrubs the sky a brilliant blue, but it is relentless, and it is the local feature most newcomers underestimate. Culturally, the Catalan identity is real but understated — quieter than Corsica's. The Catalan language is taught in bilingual school streams and still spoken in the back-country villages; sardana dances are performed in Céret and Amélie-les-Bains; and the rhythm of life leans Mediterranean and unhurried. The Spanish border is part of daily life rather than a frontier — Perpignan residents cross regularly for cheaper shopping, and the whole area has the relaxed feel of a cross-border culture that never fully picked a side.",
+      },
+      {
+        heading: "Getting there and around",
+        body: "Roussillon is better connected than its end-of-the-line reputation suggests. Perpignan has its own airport for domestic and seasonal European routes, and the city sits on the TGV line, putting it within high-speed reach of Paris and the rest of the country. The standout link, though, is southward: Barcelona is roughly two hours away by TGV, which changes the equation entirely for an international household — it means a major global city, its airport and its job market are a comfortable day-trip away. Toulouse is around one hour forty-five by rail. Within the region, a car remains the practical default for reaching the coves of the Côte Vermeille, the inland Pyrenean towns and the ski resorts, even if the coastal towns and Perpignan itself are walkable. The border crossings at Le Perthus, Portbou and Puigcerdà are easy and routine. In short, you are not isolated here — you are two hours from Barcelona and a TGV ride from Paris, which is a stronger position than most of the rural south.",
+      },
+      {
+        heading: "Who it suits — and the honest downsides",
+        body: "Roussillon rewards a specific profile. Remote workers chasing maximum sun at minimum cost will struggle to beat Perpignan. Artists and creatives inherit a deep painting tradition (Matisse, Derain and Picasso all worked on this coast), cheap studio space and active residencies. Active retirees get Pyrenean hiking, via ferrata, coves and the thermal baths at Vernet-les-Bains. And cross-border couples value being two hours from Barcelona. The honest downsides are structural and worth taking seriously. First, the private job market is thin: the local economy leans on summer tourism, cross-border trade and agriculture, while qualified roles in tech, finance or industry concentrate in Barcelona and Toulouse — outside the public sector, the département is simply too small to build a career in locally. Second, the social precarity is visible: Perpignan carries one of the highest poverty rates among France's larger cities, with structural unemployment around 17%, and the contrast between affluent tourists and struggling residents is part of everyday life. Come for the climate, the value and the lifestyle — not for the local labour market.",
+      },
+    ],
+    relatedCities: ["perpignan","collioure"],
+    tags: ["living in roussillon","perpignan expat","moving to france","pyrenees-orientales","occitanie"],
+  },
+  {
+    slug: "living-in-hauts-de-france-2026",
+    title: "Living in Hauts-de-France: The Honest Expat Guide",
+    metaTitle: "Living in Hauts-de-France in 2026: Expat Relocation Guide",
+    metaDesc: "Lille, Amiens, Arras and the Opal Coast. Cheap property, unbeatable UK and Belgium links, and the grey-sky truth before you move to the north of France.",
+    category: "moving",
+    emoji: "🌾",
+    readMinutes: 7,
+    publishedAt: "2026-06-03",
+    updatedAt: "2026-06-03",
+    intro: "Hauts-de-France carries a reputation it never quite shakes off: grey skies, post-industrial towns, a hard-luck story. Some of that is fair, because pockets of real deprivation exist. Most of it is dated. This is the closest French region to the UK and Belgium, with property prices among the cheapest in the country and a capital, Lille, that behaves more like a small European metropolis than a provincial city. If your budget is modest, your job is in London or Brussels, or you simply want a house with a garden you can actually afford, the north deserves an honest look. Here is what it is really like to live here in 2026.",
+    sections: [
+      {
+        heading: "What and where Hauts-de-France is",
+        body: "Hauts-de-France is the northernmost mainland region, pressed up against the Belgian border and the English Channel. It is the closest part of France to Britain, which shapes everything about life here. The region splits into three distinct worlds. First, the Lille metropolis (the MEL, around 1.2 million people), a genuine European hub with a diversified economy, a young population and the cultural pull of a much bigger city. Second, the flat agricultural plains of Picardy and the old mining basin, where towns like Amiens, Arras, Lens and Valenciennes sit among open fields and a famously low cost of living. Third, the Opal Coast, a string of cliffs, dunes and seaside towns running south from Calais and Boulogne-sur-Mer to Le Touquet. The landscape is wide, low and quietly beautiful in a cold, northern way. It is not the postcard France of lavender and red-tiled roofs, and that honesty is part of its charm.",
+      },
+      {
+        heading: "Where to base yourself",
+        body: "Lille is the obvious starting point. It is the only city in France that is 1 hour from Paris, 35 minutes from Brussels and roughly 1h20 from London by train, and that connectivity is unmatched anywhere else in the country. The historic Vieux-Lille is the priciest district; the lived-in neighbourhoods of Wazemmes, Fives and Moulins run noticeably cheaper. Amiens, an hour and ten minutes from Paris by TGV, is the underrated option: a Gothic cathedral larger in volume than Notre-Dame de Paris, the medieval floating gardens of the hortillonnages, a busy university of around 27,000 students, and prices roughly half of Lille's. Arras is the quiet winner for remote workers, with two superb Flemish-Baroque squares, markets three times a week, and Paris just 50 minutes away by train. On the coast, Le Touquet is the chic, slightly pricey resort, while Boulogne-sur-Mer is a working fishing port with cliffs, surf and far more affordable housing.",
+      },
+      {
+        heading: "Property and cost of living",
+        body: "This is the region's strongest argument. Property here is among the cheapest in France, which matters enormously if you are buying. Central Lille is the exception: the Vieux-Lille can push towards €4,200/m², though the surrounding districts sit about 30% lower. Step outside the capital and prices fall fast. Amiens runs around €2,100/m², roughly half of Lille. Arras sits near €1,900/m². The old industrial towns, Lens, Douai and Valenciennes, are cheaper still, around €1,400 to €1,600/m², among the lowest of any mid-sized French city. That puts a house with a garden, and even space for a vegetable plot, within reach for under €150,000, a budget that buys almost nothing in the south or west. Everyday costs follow the same logic: groceries, dining and services are markedly cheaper than in Paris or the Mediterranean coast. For a household stretched thin elsewhere in France, the north makes ownership genuinely possible.",
+      },
+      {
+        heading: "Climate and daily life",
+        body: "Let's be straight about the weather, because it is the single biggest thing people get wrong, in both directions. The cliché is right that the north is cool and grey: between November and March, Lille sees roughly a hundred more rainy days a year than Nantes, and the winter light can be flat and short. If you are moving to France chasing sunshine, this is not where to find it. But the cliché is also lazy. Summers are mild and pleasant, the coast gets real sea breezes and bright days, and the regional reputation has shifted hard over the past decade as Lille's cultural scene, food, beer culture and street life have come into their own. Daily life here is sociable and unpretentious; the warmth of the welcome (the famous ch'ti friendliness) is not a marketing line. You adapt to the sky and you get the affordability, the space and the community in return.",
+      },
+      {
+        heading: "Getting there and around",
+        body: "Connectivity is the region's superpower. From Lille Europe station, Brussels is about 35 minutes, Paris around 1 hour, and London roughly 1h20 to 1h25 by Eurostar, all without setting foot in an airport. For a UK-linked household, that is transformational: a London office and a northern French home are genuinely compatible. Cross-Channel options stack up at Calais, with both the ferries to Dover and the Channel Tunnel shuttle for cars, so taking your own vehicle to Britain is quick and routine. Within the region, the TGV ties the main towns together: Arras to Paris in 50 minutes, Arras to Lille in around 35. Lille's metro and tram network is solid for a city its size. Beyond the rail spine, a car is useful for reaching the coast and the countryside, but the dense, flat geography keeps drives short, and the natural escapes of the Opal Coast and the Baie de Somme are under 1h30 from most towns.",
+      },
+      {
+        heading: "Who it suits, and the honest downsides",
+        body: "Hauts-de-France fits three profiles especially well. First, anyone tied to Belgium or to a big Lille-area employer (Decathlon, Kiabi and Leroy Merlin are all headquartered in the metropolis) who wants a metropolitan job with affordable housing. Second, remote workers who value the Paris-in-1-hour, London-in-1h20 rail links and want to actually buy a house without bleeding their savings; Arras and Amiens are made for this. Third, families who want space, gardens and the region's deep equestrian tradition. The honest downsides are real. The winter greyness is not for sun-seekers, full stop. Some post-industrial areas still carry the scars of plant closures and visible social hardship, and a few towns lean heavily on the public sector rather than a diversified private economy. Go in with clear eyes: you trade dazzling weather for unmatched connectivity, low prices and a genuinely welcoming culture.",
+      },
+    ],
+    relatedCities: ["lille","amiens"],
+    tags: ["living in hauts-de-france","lille expat","moving to france","opal coast","eurostar"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed
