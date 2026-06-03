@@ -20,7 +20,8 @@ export type ExpatCountry =
   | "allemagne"
   | "etats-unis"
   | "espagne"
-  | "portugal";
+  | "portugal"
+  | "pays-bas";
 
 export interface ExpatCountryProfile {
   slug: ExpatCountry;
@@ -320,6 +321,43 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
       "Loyers portugais en hausse : si vous avez gardé un T3 à Lisbonne ou Porto au tarif d'il y a cinq ans, la revente ou la résiliation peut être plus complexe que prévu. Anticipez le préavis de 30 à 90 jours selon le bail et conservez les justificatifs.",
       "Pension portugaise : les trimestres cotisés à la Segurança Social sont totalisés au niveau européen avec ceux de l'Assurance retraite française — conservez tous vos relevés de carrière (carreira contributiva) et bulletins de salaire.",
       "Compte bancaire portugais : garder le compte ouvert 6 à 12 mois après le départ facilite les régularisations IRS, le remboursement de la caution de location et le versement d'éventuels arriérés d'allocations.",
+    ],
+  },
+  {
+    slug: "pays-bas",
+    name: "Pays-Bas",
+    flag: "🇳🇱",
+    depuisLabel: "les",
+    auLabel: "Aux",
+    currency: "EUR",
+    currencyToEurApprox: 1.0,
+    netConversionFactor: 0.95, // 100 € nets aux Pays-Bas valent environ 95 € de pouvoir d'achat en France hors Paris — niveau de vie globalement comparable, logement plus cher côté NL, alimentaire légèrement moins cher
+    bestSuitedCities: ["lille", "roubaix", "tourcoing", "dunkerque", "calais", "valenciennes", "paris", "strasbourg", "reims"],
+    intro:
+      "Le retour des Pays-Bas n'a pas de choc de change (zone euro) et l'écart de niveau de vie reste mesuré pour la plupart des profils : salaires comparables aux métropoles françaises hors Paris, fiscalité néerlandaise un peu plus lourde sur les hauts revenus, logement structurellement plus cher côté NL. Le vrai sujet, c'est la fin du dispositif fiscal 30 %-régime (déjà raboté en 2024-2026) qui rendait l'expatriation très favorable aux cadres internationaux d'Amsterdam, Eindhoven ou La Haye — sans lui, l'arbitrage fiscal s'inverse fréquemment au profit de la France. Côté ancrage géographique, l'arc Hauts-de-France (Lille, Roubaix, Tourcoing, Valenciennes, Dunkerque, Calais) est connecté à Amsterdam et Rotterdam par Thalys/Eurostar en 3-4 h ; Paris reste l'option télétravail pour conserver un employeur néerlandais à distance.",
+    hadVsWillHave: [
+      { topic: "Salaire net", had: "3 000-4 500 € net cadre (Amsterdam / Eindhoven / La Haye, hors 30 %-régime)", willHave: "Équivalent ~2 800-3 800 € net en France après charges" },
+      { topic: "Loyer T3", had: "1 800-2 800 € (Amsterdam, Utrecht), 1 400-2 000 € (Rotterdam, La Haye, Eindhoven)", willHave: "650-1 200 € (Lille, Reims, Strasbourg), 1 600-2 400 € (Paris)" },
+      { topic: "Santé", had: "Zorgverzekering privée obligatoire 140-170 €/mois + franchise 385 €/an", willHave: "Sécu + mutuelle 80-200 €/mois, accès médecin de famille structuré" },
+      { topic: "Fiscalité revenu", had: "~36-37 % box 1 jusqu'à 75 k€, 49,5 % au-delà + box 3 sur l'épargne", willHave: "~25-35 % effectif (TMI + CSG + prélèvements sociaux)" },
+      { topic: "TVA", had: "21 % standard / 9 % réduit", willHave: "20 % standard / 5,5 % alimentaire" },
+      { topic: "Voiture", had: "Carburant ~2,05-2,15 €/L, taxe BPM à l'immatriculation, péages limités", willHave: "Carburant 1,65-1,85 €/L, pas de BPM, péages autoroutiers fréquents" },
+      { topic: "Vélo & transports", had: "Réseau cyclable et NS train denses, voiture souvent superflue", willHave: "TER + métro métropoles, dépendance voiture en zone périurbaine" },
+      { topic: "Garde d'enfants", had: "Kinderopvang 8-9 €/h avec kinderopvangtoeslag, plafond élevé", willHave: "Crèche FR 150-400 €/mois après CAF/CMG, maternelle gratuite dès 3 ans" },
+    ],
+    adminPriorities: [
+      { step: "Déclarer le retour au consulat & radier", detail: "Avant le départ : se radier du registre des Français établis hors de France et conserver l'attestation, indispensable pour la CAF et la CPAM.", officialUrl: "https://www.service-public.gouv.fr/particuliers/vosdroits/R43251" },
+      { step: "Uitschrijving BRP", detail: "Faire la déclaration de départ (uitschrijving) à la gemeente au moins 5 jours avant le départ effectif : sans elle, vous restez résident fiscal néerlandais et la zorgverzekering continue de courir, déclenchant des relances de la Belastingdienst." },
+      { step: "Sécurité sociale", detail: "Demander le formulaire S1 à la Sociale Verzekeringsbank (SVB) avant le départ pour le transmettre à la CPAM. Résilier la zorgverzekering avec la date exacte d'uitschrijving — sinon double prélèvement.", officialUrl: "https://www.service-public.gouv.fr/particuliers/vosdroits/F32824" },
+      { step: "Fiscalité revenu", detail: "Convention fiscale FR-NL (1973, avenant 2022) : résidence fiscale française à compter du jour J. Déclaration fractionnée l'année du retour côté français + dernière aangifte inkomstenbelasting comme résident côté néerlandais (M-formulier pour année partielle)." },
+      { step: "Permis & scolarité", detail: "Permis néerlandais reconnu de droit en France (UE), pas d'échange obligatoire mais demande utile en cas de perte. Pour les enfants, inscription en mairie + entretien d'équivalence (le système basisschool / VMBO / HAVO / VWO diffère du collège-lycée français)." },
+    ],
+    warnings: [
+      "Fin du 30 %-régime : depuis 2024 la facilité fiscale a été plafonnée puis dégressive (30 % → 20 % → 10 % sur cinq ans), et resserrée en 2025-2026 vers ~27 %. Si vous en bénéficiez encore, anticipez la bascule vers le barème néerlandais standard avant le départ — l'écart de net peut être significatif et brouille la comparaison avec la France.",
+      "Box 3 (épargne et placements) : les Pays-Bas appliquent une imposition forfaitaire sur les rendements supposés de l'épargne et des placements, contestée depuis l'arrêt Hoge Raad de 2021. Si vous avez réclamé un trop-perçu, le dossier peut courir après le départ — gardez l'accès au DigiD le temps de la régularisation.",
+      "Hypotheek et résidence principale : la déductibilité des intérêts d'emprunt (hypotheekrenteaftrek) prend fin avec la perte du statut résident. Si vous gardez le bien aux Pays-Bas en location, le revenu locatif bascule en box 3 et la fiscalité change — consulter un fiscaliste avant le départ.",
+      "Pension AOW et complémentaire : les trimestres cotisés à la Sociale Verzekeringsbank sont totalisés au niveau européen avec ceux de l'Assurance retraite française. Les complémentaires (pensioenfonds : ABP, PFZW, PME, PMT) restent acquises mais les conditions de sortie anticipée diffèrent — conservez tous les pensioenoverzicht annuels.",
+      "Logement français en zone tendue : si vous ciblez Lille, Paris ou Strasbourg, anticipez 2-3 mois pour décrocher un T3 avec dossier d'expat (employeur étranger sortant, pas de fiches de paie FR récentes). Prévoir un garant Visale ou un employeur français déjà signé avant l'arrivée.",
     ],
   },
 ];
