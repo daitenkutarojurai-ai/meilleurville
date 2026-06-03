@@ -6,6 +6,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { HOUSING } from "@/data/housing";
 import { DromStrip } from "@/components/DromStrip";
 import { scoreHex as scoreColor } from "@/lib/utils";
+import { regionToSlug } from "@/lib/regions";
 import { leanBySlug, leanOptions, BLOC_LABEL, BLOC_COLORS } from "@/lib/political-lean";
 
 const LEAN_MAP = leanBySlug();
@@ -101,6 +102,7 @@ export function CarteClient() {
   const [hover, setHover] = useState<HoverState | null>(null);
   const [mounted, setMounted] = useState(false);
   const [is3D, setIs3D] = useState(false);
+  const [view, setView] = useState<"villes" | "regions">("villes");
   const [leanFilter, setLeanFilter] = useState<string>("");
   const mapRef = useRef<HTMLDivElement | null>(null);
 
@@ -155,6 +157,27 @@ export function CarteClient() {
         }),
     [scoreKey, is3D, leanFilter]
   );
+
+  // Region aggregate layer — one bubble per metropolitan region, coloured by
+  // the average of its cities' current-metric score (weighted average via mean).
+  const regionAgg = useMemo(() => {
+    const groups: Record<string, { sumLng: number; sumLat: number; sumScore: number; n: number }> = {};
+    for (const c of CITIES_SEED) {
+      if (!isMetropolitan(c.longitude, c.latitude) || !passLean(c.slug)) continue;
+      const g = (groups[c.region] ??= { sumLng: 0, sumLat: 0, sumScore: 0, n: 0 });
+      g.sumLng += c.longitude;
+      g.sumLat += c.latitude;
+      g.sumScore += c.scores[scoreKey];
+      g.n += 1;
+    }
+    return Object.entries(groups)
+      .map(([region, g]) => {
+        const avg = g.sumScore / g.n;
+        const [x, y] = project(g.sumLng / g.n, g.sumLat / g.n);
+        return { region, slug: regionToSlug(region), avg, n: g.n, x, y, color: scoreColor(avg), r: 16 + Math.sqrt(g.n) * 2.6 };
+      })
+      .sort((a, b) => b.r - a.r); // largest first so smaller bubbles stay clickable on top
+  }, [scoreKey, leanFilter]);
 
   const hovered = hover ? CITIES_SEED.find((c) => c.slug === hover.slug) : null;
   const housing = hovered ? HOUSING[hovered.slug] : null;
@@ -248,9 +271,26 @@ export function CarteClient() {
           <div className="relative">
             <div className="mb-2 flex items-center justify-between gap-3">
               <div className="text-[11px] uppercase tracking-widest text-[#84CC16]/80 font-semibold">
-                {currentLabel} · {sorted.length} villes
+                {currentLabel} · {view === "regions" ? `${regionAgg.length} régions` : `${sorted.length} villes`}
               </div>
               <div className="flex items-center gap-2">
+                {/* Villes / Régions layer toggle */}
+                <div className="inline-flex rounded-full border border-[#84CC16]/20 bg-white/5 p-0.5 text-[10px] font-bold uppercase tracking-widest">
+                  {(["villes", "regions"] as const).map((v) => (
+                    <button
+                      key={v}
+                      onClick={() => { setView(v); setHover(null); }}
+                      className={
+                        "rounded-full px-2.5 py-1 transition-all " +
+                        (view === v ? "bg-[#84CC16]/25 text-[#BEF264]" : "text-[#84CC16]/60 hover:text-[#84CC16]")
+                      }
+                      aria-pressed={view === v}
+                    >
+                      {v === "villes" ? "Villes" : "Régions"}
+                    </button>
+                  ))}
+                </div>
+                {view === "villes" && (
                 <button
                   onClick={() => setIs3D((v) => !v)}
                   className={
@@ -263,6 +303,7 @@ export function CarteClient() {
                 >
                   {is3D ? "▲ 3D" : "◉ 2D"}
                 </button>
+                )}
                 <div
                   key={scoreKey}
                   className="inline-flex items-center gap-1.5 rounded-full bg-[#84CC16]/15 px-2.5 py-1 text-[10px] font-bold uppercase tracking-widest text-[#BEF264] ring-1 ring-[#84CC16]/30"
@@ -341,6 +382,7 @@ export function CarteClient() {
               <rect width={W} height={H} fill="url(#cGrid)" />
 
               {/* Heat layer (top cities for current metric) */}
+              {view === "villes" && (
               <g clipPath="url(#cFranceClip)" opacity="0.55" style={{ mixBlendMode: "screen" }}>
                 {[...CITIES_SEED]
                   .filter((c) => isMetropolitan(c.longitude, c.latitude) && c.scores[scoreKey] >= 7.5 && passLean(c.slug))
@@ -377,6 +419,7 @@ export function CarteClient() {
                     );
                   })}
               </g>
+              )}
 
               {/* France shape */}
               <path
@@ -427,7 +470,7 @@ export function CarteClient() {
               />
 
               {/* Pulsing rings for top tier */}
-              {dots
+              {view === "villes" && dots
                 .filter((d) => d.score >= 7.5)
                 .map((d, i) => (
                   <g key={`r-${d.slug}`} pointerEvents="none">
@@ -449,7 +492,43 @@ export function CarteClient() {
                 .carte-bar rect { transition: fill 0.35s ease-out; }
               `}</style>
 
-              {is3D
+              {view === "regions"
+                ? /* Region aggregate bubbles */
+                  regionAgg.map((rg) => (
+                    <a
+                      key={rg.region}
+                      href={`/regions/${rg.slug}`}
+                      aria-label={`Région ${rg.region} — score moyen ${rg.avg.toFixed(1)} sur 10 (${rg.n} villes)`}
+                      className="cursor-pointer carte-dot"
+                      style={{ opacity: mounted ? 1 : 0, transition: "opacity 0.5s ease" }}
+                    >
+                      <circle cx={rg.x} cy={rg.y} r={rg.r * 1.7} fill={rg.color} opacity="0.18" filter="url(#cDotGlow)" />
+                      <circle cx={rg.x} cy={rg.y} r={rg.r} fill={rg.color} opacity="0.85" stroke="white" strokeWidth="1.5" />
+                      <text
+                        x={rg.x}
+                        y={rg.y + 4}
+                        textAnchor="middle"
+                        fontSize="13"
+                        fontWeight="800"
+                        fill="white"
+                        style={{ paintOrder: "stroke", stroke: "#0B1E14", strokeWidth: 3, strokeLinejoin: "round" }}
+                      >
+                        {rg.avg.toFixed(1)}
+                      </text>
+                      <text
+                        x={rg.x}
+                        y={rg.y + rg.r + 13}
+                        textAnchor="middle"
+                        fontSize="10"
+                        fontWeight="700"
+                        fill="#DCFCE7"
+                        style={{ paintOrder: "stroke", stroke: "#0B1E14", strokeWidth: 3.5, strokeLinejoin: "round" }}
+                      >
+                        {rg.region}
+                      </text>
+                    </a>
+                  ))
+                : is3D
                 ? /* 3D column bars */
                   dots.map((d) => {
                     const barH = Math.max(8, d.score * 32);
@@ -565,7 +644,9 @@ export function CarteClient() {
               </span>
             ))}
             <span className="ml-auto text-[#A8C4A8]">
-              {is3D
+              {view === "regions"
+                ? "Vue régions — bulle = score moyen · cliquez pour ouvrir la région"
+                : is3D
                 ? "Vue 3D — hauteur = score · cliquez pour ouvrir la fiche"
                 : "Cliquez sur un point pour ouvrir la fiche"}
             </span>
