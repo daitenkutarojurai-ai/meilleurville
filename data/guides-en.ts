@@ -16665,6 +16665,406 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["paris", "versailles"],
     tags: ["paris itinerary", "3 days in paris", "travel", "itinerary", "ile-de-france"],
   },
+  {
+    slug: "cost-of-living-paris-2026",
+    title: "Cost of living in Paris: the real monthly budget",
+    metaTitle: "Cost of Living in Paris 2026: Real Monthly Budget",
+    metaDesc: "What Paris actually costs in 2026: rent €900-2,200, Navigo €86.40/mo, groceries €300-650. A single comfortable life runs €2,500-3,000/month.",
+    category: "budget",
+    emoji: "💸",
+    readMinutes: 7,
+    publishedAt: "2026-06-03",
+    updatedAt: "2026-06-03",
+    intro: "Paris gets called one of the most expensive cities on earth, and that's only half true. It can be brutal or merely steep depending on your arrondissement, your habits and how much you cook at home. Here's what a normal urban life actually costs in 2026: a comfortable single budget lands around €2,500-3,000 a month, most of it rent.",
+    sections: [
+      {
+        heading: "Rent: what your money actually gets",
+        body: "Housing eats 40-55% of a Paris budget, so this is the number that decides everything. In 2026, a studio of 20-25 m² in the central arrondissements (1st-4th) runs €900-1,200/month. A one-bedroom (T2, ~40 m²) in the inner ring (5th-11th) is €1,200-1,700. A two-bedroom (T3, ~65 m²) in the outer arrondissements (18th-20th) is €1,500-2,200. Flatshares are how most newcomers start: a room in a four-bed apartment is €650-900/month all-in. The smart-money arrondissements right now are the 19th and 20th, still 20-25% cheaper than the centre for the same square metres. Budget €50-150/month on top for charges (water, bin collection, shared-building upkeep), which French listings quote separately from the rent. One thing worth knowing: CAF, the family-benefits agency, pays a housing subsidy called APL to lower-income renters including students and many new arrivals; it can knock €100-200 off a modest rent, so apply once you have a lease. Note Paris rents are legally capped (encadrement des loyers) but enforcement is patchy, so check the listing against the cap.",
+      },
+      {
+        heading: "Transport: the Navigo, and why you won't need a car",
+        body: "A monthly Navigo pass covering every zone (metro, RER suburban trains and buses across the whole Île-de-France region) costs €86.40/month. That is genuinely one of the best public-transport deals of any major world city, and it's flat-rate regardless of how far you ride. Vélib', the bike-share scheme, is €9/month and covers most short hops the metro doesn't. There is no real case for owning a car inside Paris: parking is scarce and pricey, the city is dense, and the network is relentless. Ride-hailing (Uber, Bolt, Heetch) runs €15-30 for a typical cross-town trip, so it's an occasional thing, not a daily one. If you work from home a few days a week, your transport line item can be almost nothing beyond the Navigo. Realistically, budget €87-130/month all in. For newcomers used to car-dependent cities, this is one of the genuine financial reliefs of moving here: no insurance, no fuel, no parking, no depreciation.",
+      },
+      {
+        heading: "Groceries and eating out",
+        body: "Self-catering for one person runs €300-400/month if you lean on Lidl, Aldi, neighbourhood markets and corner épiceries. A relaxed mid-range basket is €400-500. Go full organic/farmers'-market/fresh and you're at €500-650. Eating out is where Paris quietly drains a budget. A weekday lunch formule (set menu) at a neighbourhood bistro is €14-18; a brasserie dinner is €25-40 per head. Two restaurant meals a week adds up to €180-250/month. The daily terrace coffee is basically unavoidable and runs about €2 a cup, call it €40/month for twenty. A realistic food budget for someone who cooks at home but eats out twice a week is €500-700/month. The lever you control is the restaurant habit, not the groceries; cooking five nights a week is the single biggest saving available to a Paris resident, easily €200-300/month versus eating out regularly.",
+      },
+      {
+        heading: "Going out, culture and everything else",
+        body: "The recurring stuff is predictable. Mobile plan (50-100 GB): €20-35/month. Home fibre internet: €25-40. Gym (Basic Fit, Neoness): €30-50. Streaming and subscriptions (Netflix, Spotify and the rest): €30-50. A cinema pass (UGC, MK2) is around €22/month for unlimited films, which pays for itself fast in a city this film-obsessed. Culture is the area where Paris quietly beats every comparable capital: national museums are free for under-26 EU residents, and on the first Sunday of the month many are free for everyone. Exhibitions, concerts and theatre are as expensive as you let them be, but the free-and-cheap tier is deep. Budget €150-300/month for the social-and-fun category and you'll have a full life; the difference between €150 and €300 is mostly how often you sit on a terrace ordering rounds rather than anything structural.",
+      },
+      {
+        heading: "What you need to earn",
+        body: "Work backwards from rent. With housing at 40-55% of outgoings, a single person renting a one-bedroom for €1,300 needs roughly €2,500-3,000 net per month to live comfortably without counting every euro. Note French salaries are usually discussed in brut (gross); net (what hits your account after social charges) is around 78% of gross, so a €38,000 gross salary is roughly €2,470 net/month. The French minimum wage (SMIC) is about €1,450 net/month in 2026: in Paris that covers survival, not a full life, and effectively only works via a flatshare. Landlords here are strict on this and will ask for proof of income at three to four times the rent, plus often a French guarantor or the state-backed Visale guarantee scheme; budget that gatekeeping into your timeline. The honest threshold: aim for €2,500 net to live alone with breathing room, €1,600-1,800 net if you're sharing a flat and watching costs.",
+      },
+      {
+        heading: "Bottom line: honest monthly totals",
+        body: "Single, lean (flatshare €700, Navigo €87, modest food €500, sundries €100): €1,400-1,600/month. Single, comfortable (T2 around €1,300, transport €130, food €600, going out €300, sundries €200): €2,500-3,000/month. Single, well-off (central T3 around €2,000, food and restaurants €900, travel and extras €500): €3,500-4,500/month. A couple sharing a two-bedroom (T3 around €1,800) and living decently should plan for €4,000-5,000/month combined, though per-person it's cheaper than going solo because rent splits. The takeaways for anyone moving here: rent is the whole game, a flatshare changes the maths entirely, the Navigo makes transport a non-issue, and the restaurant habit is the budget lever you actually control. Paris isn't uniformly expensive; it's expensive in exactly one category and reasonable in most of the rest. Apply for APL, check the rent cap, and the city is more livable on a normal salary than its reputation suggests.",
+      },
+    ],
+    relatedCities: ["paris","lyon"],
+    tags: ["cost of living","paris","budget","moving to france","ile-de-france"],
+  },
+  {
+    slug: "cost-of-living-lyon-2026",
+    title: "Cost of Living in Lyon: What It Really Costs to Move Here (2026)",
+    metaTitle: "Cost of Living in Lyon 2026: Rent, Transport & Real Budgets",
+    metaDesc: "What Lyon actually costs in 2026: rent by neighbourhood, the TCL pass, groceries, eating out and honest single/couple monthly budgets for expats.",
+    category: "budget",
+    emoji: "💸",
+    readMinutes: 7,
+    publishedAt: "2026-06-03",
+    updatedAt: "2026-06-03",
+    intro: "Lyon gets sold as the sweet spot between Paris (too expensive) and the rest of France (too far from everything). It's mostly true, but the averages hide a split: the central districts now hit near-Paris rents, while Villeurbanne and the outer arrondissements stay genuinely affordable. The upside Lyon delivers that Paris doesn't is food — better quality for less money, consistently. Here's what your euros actually buy in 2026, the French-specific things newcomers trip over (the CAF housing aid, the TCL pass), and honest monthly totals for one person and for a couple.",
+    sections: [
+      {
+        heading: "Rent: what your money gets, by neighbourhood",
+        body: "Where you live changes everything in Lyon. A 25 m² studio in the Presqu'île (the central peninsula) or bohemian Croix-Rousse runs €650–900/month. A 40 m² one-bedroom (a T2 in French listings) in the smart Brotteaux district or the Cité Internationale is €850–1,200. The same money goes much further in Villeurbanne, the dense city next door: a 65 m² T3 around Charpennes or Gratte-Ciel is €850–1,150, and you keep a direct metro line. The 8e and 9e arrondissements of Lyon proper sit a touch higher for that size, €950–1,300. A room in a shared flat (colocation) is €500–700. Budget benchmarks: average T1 ~€720, T2 ~€1,000, T3 ~€1,380; buying is around €5,000/m². The practical lesson — live in Villeurbanne if you want transport without Presqu'île prices; you get 20–30% more space for the money. One newcomer note: most rentals want a French guarantor or a Visale guarantee, and CAF housing aid (APL) can knock €50–200 off your rent once you're registered, depending on income.",
+      },
+      {
+        heading: "Transport: the TCL pass beats owning a car",
+        body: "Lyon's public network is run by TCL (Transports en Commun Lyonnais), and a monthly adult pass is €65. For that you get four metro lines, eight tram lines, the bus network and two funiculars up to Fourvière — coverage across Lyon and Villeurbanne is genuinely good. If you work at Part-Dieu (the business district) or La Confluence, you'll never need a car. Cycling is the cheap hack: a Vélo'v bike-share annual subscription is €25/year, roughly €2/month, and Lyon is one of France's most bike-friendly cities — the riverside paths along the Saône are European-grade. A car is more liability than asset here: parking is scarce and paid, and the centre has a low-emission zone (ZFE) phasing out older vehicles. Most people moving to Lyon skip the car entirely and split their travel between the TCL pass and a Vélo'v subscription, which together cost less than €70/month.",
+      },
+      {
+        heading: "Groceries and eating out: the Lyon bonus",
+        body: "This is where Lyon quietly wins. It's the one big French city where eating well doesn't require a Paris budget. Lunch in a bouchon — the traditional Lyonnais bistro — is €15–22 for two courses; a weekday formule (set menu) in an ordinary bistro is €12–16. For groceries, the Croix-Rousse market (Tuesdays and Fridays) and the daily Halles Paul Bocuse food hall give you real quality at sane prices. Plan on €350–500/month for one person who eats well: supermarket shopping plus a couple of restaurant meals a week. That's roughly what you'd spend in Paris, for noticeably better food. Supermarket staples track the national level — expect the usual French chains (Carrefour, Monoprix, Lidl, the cheaper Aldi) — so the savings come from the restaurant and market side, not the trolley.",
+      },
+      {
+        heading: "Going out, culture and the rest",
+        body: "The fixed monthly bits are predictable: a mobile plan is €20–35, home fibre internet €25–35, a gym membership €25–45. Lyon's culture is unusually generous on the wallet because so much of it is built into city life rather than ticketed à la carte — the Opéra de Lyon, the Musée des Beaux-Arts, the striking Musée des Confluences, the summer Nuits de Fourvière festival, and the famous Fête des Lumières every December, which is free and turns the whole city into a light show. A cinema subscription (Pathé or UGC unlimited) is around €22/month. Realistically, budget €200–300/month for going out, drinks, the odd concert and weekend trips — Lyon sits on the TGV line, so Paris is two hours and the Alps are even closer for skiing or hiking.",
+      },
+      {
+        heading: "What you need to earn",
+        body: "French salaries are usually quoted net of social charges, and that's the number to anchor on. To live comfortably solo in Lyon, aim for roughly €2,200–2,800 net/month: that covers a T2 around €900, the TCL pass, good food and a decent social life without counting coins. You can do it on less — €1,800–2,000 net works if you take a Villeurbanne studio and cook more — but it's tighter. The standard French rule still applies: landlords typically want your net income to be about three times the rent, so a €900 flat assumes ~€2,700/month on paper. If you're below that threshold, a guarantor or the state-backed Visale guarantee is what gets you the lease. Couples have it easier per head — two incomes against one rent — which is why a couple in a Villeurbanne T3 lives well on a combined €3,500–4,000 net.",
+      },
+      {
+        heading: "Bottom line: honest monthly totals",
+        body: "For a comfortable single person: rent (T2) €900, transport €65, food €500, going out and miscellaneous €250, subscriptions €100 — about €1,800–2,000/month all in. The same lifestyle in Paris runs €2,500–3,000, so Lyon comes in 25–35% cheaper for an honestly comparable, arguably better, quality of life. For a couple in a Villeurbanne T3 (€950 rent) living well: €3,000–3,500/month combined. Trim where it helps — a Villeurbanne studio instead of central Lyon, cooking from the markets, swapping the car for Vélo'v — and a single person can land closer to €1,500. The verdict: among France's major cities, Lyon offers the best quality-of-life-to-budget ratio going. That's not boosterism; the numbers back it.",
+      },
+    ],
+    relatedCities: ["lyon","paris"],
+    tags: ["cost of living","lyon","budget","moving to france","auvergne-rhone-alpes"],
+  },
+  {
+    slug: "cost-of-living-bordeaux-2026",
+    title: "Cost of Living in Bordeaux: What Expats Actually Spend (2026)",
+    metaTitle: "Cost of Living in Bordeaux 2026: Rent, Transport & Budget Guide",
+    metaDesc: "Real 2026 numbers for living in Bordeaux: rent by neighbourhood, the 57 €/month TBM pass, groceries, wine and the monthly budgets singles and couples need.",
+    category: "budget",
+    emoji: "💸",
+    readMinutes: 7,
+    publishedAt: "2026-06-03",
+    updatedAt: "2026-06-03",
+    intro: "Bordeaux used to be France's great value play. Then the TGV arrived in 2017, cut the trip to Paris to roughly two hours, and prices took off. Five years on, the city is no longer the bargain it was for first-time buyers, but it stays clearly cheaper than Paris while throwing in food, wine and Atlantic beaches that Paris can't match. Here are the real 2026 numbers you'll plan an expat budget around, all in euros, with the French context that actually changes what you pay.",
+    sections: [
+      {
+        heading: "Rent by neighbourhood",
+        body: "Rent is the line that the TGV inflated most, so expect Lyon-adjacent prices rather than the cheap southwest you may have read about. A 22 m² studio in the Triangle d'Or or the trendy Chartrons runs 600–850 €/month. A 40 m² one-bedroom (a T2, in French listings) in Chartrons or Saint-Michel is 800–1,100 €/month. For a 65 m² T3 two-bedroom, La Bastide on the right bank or Bordeaux-Lac sits at 850–1,200 €/month, while Caudéran (think houses with gardens) climbs to 950–1,350 €/month. La Bastide is the rising bet: cheaper than the left bank but well connected by tram. Sharing a flat helps a lot, a room in a four-bed shared T4 costs 500–680 €/month. Two things to budget for as a newcomer: French landlords usually want a guarantor (a garant) or a paid service like Garantme, and most rents are quoted charges comprises or not, so check whether building charges are included. Once you're settled and on a French address, CAF housing aid (APL) can knock 100–250 €/month off the rent for lower incomes, students included. Apply online at caf.fr after you move in; it's not automatic.",
+      },
+      {
+        heading: "Getting around: tram, bike, car",
+        body: "Bordeaux's network is run by TBM (Transports Bordeaux Métropole), and the monthly pass is 57 €. That single ticket covers tram, bus and the river shuttle across the whole metro area. The four-line tramway is one of the most extensive in France and reaches almost everywhere you'd realistically live, which is why a car is far less essential here than it was a decade ago. For short hops, the Vcub public bike scheme is the cheap option at 30 €/year for the annual subscription, and Bordeaux is genuinely bike-friendly: flat, with protected lanes along the quays. Where a car still earns its keep is weekends, the Médoc vineyards and the Arcachon basin are an easy drive, and not all of it is well served by transit. If you can live car-free during the week and rent or borrow for trips, you'll save a few hundred euros a month versus running and parking a car in the centre, where space is tight and tightly regulated.",
+      },
+      {
+        heading: "Groceries and eating out",
+        body: "Food is where Bordeaux quietly rewards you. The Marché des Capucins, the covered central market open every day except Monday, is the best quality-for-money spot in the city for produce, fish and cheese. Budget 300–420 €/month on groceries for one person eating mostly at home, a bit less if you lean on discounters like Lidl or Aldi, more if you shop entirely at the market. Eating out is reasonable by big-city standards: a weekday lunch at a neighbourhood bistro is 13–18 €, often as a plat du jour, and a comfortable dinner runs 25–40 € per person before wine. And then there's the wine, the real Bordeaux advantage. A solid regional bordeaux from a wine shop (caviste) is 6–12 €, and a basic-appellation Saint-Émilion is 12–20 €, prices you simply won't see in Paris or abroad. Factor it into the social budget rather than the treat budget.",
+      },
+      {
+        heading: "Going out, culture and downtime",
+        body: "Bordeaux runs a respectable cultural calendar without the saturation of Lyon or Paris. The Opéra National de Bordeaux, the CAPC contemporary art museum and the headline-grabbing Cité du Vin are the anchors, and most have affordable entry or under-26 discounts. The defining social ritual here is the apéro: rosé or a regional white, gougères and charcuterie on a terrace, which is less a night out than a near-mandatory weekly expense, so build it in rather than fighting it. The other big leisure line is the Atlantic. Arcachon, Lacanau and Hourtin beaches are 45–60 minutes away by car or by TER regional train, and in summer that becomes an almost weekly habit, so allow for train tickets or fuel. Add a gym at 25–45 €/month if you want one. Bordeaux can't offer mountains the way Grenoble or Annecy do, but the ocean does a lot to make up for it.",
+      },
+      {
+        heading: "What you need to earn",
+        body: "France's net minimum wage (SMIC) is around 1,430 €/month in 2026, which in Bordeaux covers a shared flat and basics but not a place of your own with any margin. To rent a T2 on your own and live comfortably, aim for roughly 2,200–2,600 € net per month, since landlords typically want your rent to be about a third of your income and will ask for payslips to prove it. A couple sharing costs needs less per person. Remember that advertised French salaries are usually gross (brut); the net you actually bank is roughly 75–78% of that, with social charges deducted at source, and income tax now withheld monthly too. Health cover is the offsetting upside: once you're affiliated to the French system, the state reimburses most healthcare and a mutuelle top-up (often 20–50 €/month, frequently part-funded by employers) covers most of the rest, so medical costs barely dent the budget below.",
+      },
+      {
+        heading: "Bottom line: monthly totals",
+        body: "For a comfortable single person: a T2 around 900 €, the 57 € TBM pass, 500 € on food, 200 € on wine and going out, and roughly 150 € on phone, internet and odds and ends. Monthly subscriptions (mobile, broadband, streaming) realistically land at 70–110 €. That totals about 1,800–2,100 €/month. For a couple sharing a 65 m² T3 in La Bastide at around 950 €, the all-in figure is closer to 3,000–3,600 €/month. Put in perspective, Bordeaux runs roughly 15–20% cheaper than Lyon for an equivalent lifestyle, and 30–40% cheaper than Paris, though housing has narrowed those gaps since the TGV. APL aid, flat-sharing and going car-free are the three levers that move the number most. For the money, you get wine country, a walkable tram-served city and the Atlantic on the doorstep, which is a strong trade against the post-2017 rents.",
+      },
+    ],
+    relatedCities: ["bordeaux","toulouse"],
+    tags: ["cost of living","bordeaux","budget","moving to france","nouvelle-aquitaine"],
+  },
+  {
+    slug: "cost-of-living-toulouse-2026",
+    title: "The Cost of Living in Toulouse: An Expat's Real Budget (2026)",
+    metaTitle: "Cost of Living in Toulouse 2026: Real Monthly Budget for Expats",
+    metaDesc: "What living in Toulouse actually costs in 2026: rent by neighbourhood, the Tisséo pass, CAF aid, groceries, and aerospace salaries. Real euro figures.",
+    category: "budget",
+    emoji: "💸",
+    readMinutes: 7,
+    publishedAt: "2026-06-03",
+    updatedAt: "2026-06-03",
+    intro: "Toulouse is the French city most people end up rating on its rapport qualité-prix: sun, jobs, and rents that still sit below Lyon or Bordeaux. The \"Pink City\" runs on aerospace (Airbus and its supply chain) plus a big tech and student population, which keeps the rental market churning and the cassoulet flowing. If you're moving here for an Airbus contract or a tech job, here's what a month actually costs in 2026, in euros, with the French quirks (CAF housing aid, the Tisséo pass) explained as you go.",
+    sections: [
+      {
+        heading: "Rent by neighbourhood",
+        body: "Toulouse is still affordable by big-French-city standards, but the gap is closing. A 22 m² studio in the centre (Capitole or the Carmes quarter) runs €550–800/month. A one-bedroom (T2, ~40 m²) in Saint-Cyprien or Compans-Caffarelli is €700–1,000. A two-bedroom (T3, ~65 m²) in residential Côte Pavée or Lardenne sits at €850–1,200; the same size in Blagnac, right next to Airbus and well-connected, is €800–1,100. Citywide benchmarks land around €620 for a studio, €850 for a T2 and €1,150 for a T3, with buying at roughly €4,000/m². Sharing a room in a four-bed flatshare (colocation) is €420–620 — Toulouse is one of France's most active student-share markets, so this is a normal adult option, not just a student one. One thing to know: most French landlords want a guarantor (garant) earning 3x the rent, or you use a free state guarantee called Visale. Budget tip: Blagnac and Colomiers are the first close-in suburbs and the best value if you work at Airbus.",
+      },
+      {
+        heading: "Transport: Tisséo, metro and the car question",
+        body: "Tisséo is the local transport authority. The monthly pass (metro + tram + bus) is €63 — that's the all-you-can-ride season ticket; buy it once and you stop thinking about fares. The network has two metro lines, two tram lines and buses: solid in the centre, thinner on the edges than Lyon or Bordeaux. The T2 tram line now reaches the Blagnac/Colomiers industrial belt, so Airbus commuters are better served than they used to be. Cycling is pleasant along the Garonne and the Canal du Midi, and Vélô'Toulouse (the public bike scheme) costs about €15/year — but the cycle-lane network is patchy. The honest catch: Toulouse is more car-dependent than its peers, especially for the industrial communes (Blagnac, Colomiers, Labège). Running a car (depreciation, insurance, fuel, maintenance) costs €250–450/month and can quietly erase Toulouse's price advantage over Lyon. Resident parking, at least, is cheaper here. If you can live and work along a metro or tram line, skip the car and pocket the difference.",
+      },
+      {
+        heading: "Groceries and eating out",
+        body: "Toulouse is the capital of cassoulet, duck confit, foie gras and violet-flavoured everything, but the day-to-day reality is the covered Victor Hugo market — a daily institution and a good gauge of food prices. Expect €280–400/month on groceries for one person, depending on how much you cook versus how often the duck confit wins. The saucisse de Toulouse (the local sausage, not to be confused with ordinary saucisson) and regional Gascon products are reasonably priced at specialist grocers and on the markets. Eating out is where Toulouse stays generous: a lunch at a neighbourhood bistro runs €12–18, typically a plat or a formula menu. Discount chains (Lidl, Aldi) and the bigger Leclerc/Carrefour hypermarkets on the ring road trim the grocery bill if you're watching it; the markets are for quality and weekend ritual rather than the cheapest basket.",
+      },
+      {
+        heading: "Going out, culture and downtime",
+        body: "Budget roughly €150–250/month for going out if you have any social life at all. A pint in the centre is around €6–8, a glass of wine €4–6, and a cinema ticket about €11 (cheaper with the loyalty cards the chains push). The big cultural line item here is rugby: following Stade Toulousain in the Top 14 is practically a civic duty, and matchday tickets, a club shirt and the post-game beers add up — treat it as a lifestyle cost, not an extravagance. Beyond that, Toulouse leans on free assets: walking the Canal du Midi, the riverbanks, the Saturday markets, and day trips. The Pyrenees are the real bonus — skiing at Ax-les-Thermes or Cauterets is 1.5–2 hours away, and the Mediterranean coast and Spain are both within easy reach for a weekend. None of that shows up as a fixed monthly cost, but it's why people put up with the car dependence.",
+      },
+      {
+        heading: "What you need to earn",
+        body: "Toulouse's salaries are propped up by aerospace and tech. An engineer at Airbus or one of the supply-chain firms (Thales, Safran, the equipementiers) typically earns €38,000–55,000 gross for a few years' experience, and senior roles or scarce specialisms push past €65,000. Note French salaries are usually quoted gross annual (brut); take-home is roughly 75–78% after social charges. A junior dev or non-engineering office job is more like €28,000–38,000. To rent a T2 alone and live comfortably, you want around €2,000–2,300 net/month; the centre's better flats expect that guarantor earning 3x rent. Two French aids cut the cost for lower earners and students: APL is a housing benefit paid by the CAF (the family-allowance fund) based on income and rent — many tenants under a certain threshold get €100–250/month knocked off, and you apply online at caf.fr once you have a lease and a French bank account. Don't bank on it for an Airbus-level salary; it's means-tested and phases out fast.",
+      },
+      {
+        heading: "The bottom line",
+        body: "A comfortable single person in a T2 (€800 rent, €63 Tisséo, €350–450 food, €200 going out, ~€150 misc) lands at €1,650–1,950/month before any car. Add a car and you're closer to €2,000–2,300. A couple in a central T3 around the Capitole–Carmes (€1,000 rent) runs €2,800–3,300/month all-in. Roughly, Toulouse is about 10–15% cheaper than Bordeaux for an equivalent lifestyle and 25–35% cheaper than Paris. The catch worth repeating: if your job is out in the Blagnac/Colomiers belt and you need a car, that €250–450/month is the variable that decides whether Toulouse is genuinely cheaper than Lyon or just sunnier. Live near a metro line and the maths is firmly in your favour.",
+      },
+    ],
+    relatedCities: ["toulouse","bordeaux"],
+    tags: ["cost of living","toulouse","budget","moving to france","occitanie"],
+  },
+  {
+    slug: "cost-of-living-montpellier-2026",
+    title: "Cost of Living in Montpellier in 2026: An Expat's Budget Guide",
+    metaTitle: "Cost of Living in Montpellier 2026 — Real Budgets for Expats",
+    metaDesc: "What it really costs to live in Montpellier in 2026: rent by neighbourhood, the TaM tram pass, groceries, and monthly budgets for singles and couples in euros.",
+    category: "budget",
+    emoji: "💸",
+    readMinutes: 7,
+    publishedAt: "2026-06-03",
+    updatedAt: "2026-06-03",
+    intro: "Montpellier is the most affordable of France's big Mediterranean cities. It's cheaper than Nice, roughly on par with Marseille but seen as safer, and a notch below Bordeaux — all with the sea 12 km away and over 300 days of sun a year. That combination is why it's growing so fast: around 350,000 people today, with projections near 500,000 by 2040. This guide lays out what it actually costs to live here in 2026, in real euros, for an expat working out whether the numbers add up. Two things to flag up front: this is a young, student-heavy city, and the local job market is tighter than the lifestyle would suggest.",
+    sections: [
+      {
+        heading: "Rent by neighbourhood",
+        body: "Rents are under pressure as the city grows, but they're still reasonable by Mediterranean standards. A 22 m² studio in the Écusson (the historic centre) or Antigone runs €550–780/month. A 40 m² one-bedroom (a French \"T2\") in Port-Marianne or Beaux-Arts costs €720–980. A 65 m² two-bedroom (\"T3\") in Castelnau-le-Lez, near the tram, sits at €800–1,100; the same size in Montpellier Nord (Cévennes, Croix d'Argent) is cheaper at €700–950. Citywide averages land around €620 for a studio, €850 for a one-bed and €1,150 for a two-bed. Because this is such a student city, flat-sharing (\"colocation\") is culturally normal: a room in a shared four-bed goes for €430–600/month, the cheapest realistic way in. Mosson and La Paillade have the lowest prices (one-beds at €550–700) but also the most documented safety issues — worth a daytime visit before signing. Two French points: landlords expect a guarantor or a Visale guarantee, and CAF housing aid (APL) can knock €100–250 off your rent depending on income — apply online as soon as you have a lease.",
+      },
+      {
+        heading: "Transport: five tram lines",
+        body: "Montpellier runs one of the best tram networks in France — five lines, still being extended — and it's a genuine alternative to a car for maybe 80% of trips inside the metro area. The operator is TaM (Transports de l'agglomération de Montpellier), and a monthly adult pass is €55. Trams are frequent, the lines are colour-coded with that famous swallow-and-flower livery, and most central neighbourhoods are a short walk from a stop. The city is flat, so cycling is genuinely practical: Vélomagg, the public bike scheme, costs just €25 for an annual subscription. Where a car earns its keep is the coast — Palavas-les-Flots is 12 km away and awkward to reach by tram, so beach trips are easier by car. If you skip the car entirely (very doable), budget the €55 TaM pass plus the odd carshare or rental for sea days. If you keep one, factor in parking, which is restricted and metered across the centre.",
+      },
+      {
+        heading: "Groceries and eating out",
+        body: "For fresh food, the Halles Laissac (open daily) and the weekend Marché du Lez are the local favourites, alongside the usual supermarket chains. A realistic grocery budget for one person is €270–380/month depending on how much you cook versus buy ready-made. Montpellier sits in the heart of the Languedoc wine triangle — Pic Saint-Loup is 25 km up the road, with Saint-Chinian, Faugères and Clairette de Bellegarde nearby — so a glass of decent local wine at a cave (wine bar) is only €5–10, and bottles are cheap by any standard. The dominant social format here is sharing: Mediterranean tapas and mezze, picked at over a long evening. Eating out is affordable by big-city standards — a casual two-course lunch menu runs €15–20, and you can put together a respectable tapas evening for €25–35 a head with drinks. The summer Mediterranean heat (32–38°C, June to September) does add costs most northern expats forget: a small air-conditioning unit is €150–200 to buy and adds €30–50 to your summer electricity bill.",
+      },
+      {
+        heading: "Going out, culture and the sea",
+        body: "The sea is the headline argument for Montpellier, and it holds up. Palavas-les-Flots (12 km), Carnon-Plage (16 km) and La Grande-Motte (20 km) are all reachable on tram line 3 to Pérols plus a connection, or about 15 minutes by car. The beach itself is free, but kitting out for southern summer life is a real line item — sun protection, beach gear, and the air-con noted above. Culturally, Montpellier punches above its size for a city this affordable: a big student population keeps nightlife, live music and festivals (like the Festival de Radio France and the Montpellier Danse) busy and cheap. A cinema ticket is around €11, a museum entry €6–10 (many are free on the first Sunday of the month), and a night out built around tapas and €5–10 glasses of wine doesn't break the bank. Set aside €150–250/month for going out, culture and sea trips combined and you'll live well — the lifestyle here is more outdoor and social than expensive.",
+      },
+      {
+        heading: "What you need to earn",
+        body: "Here's the honest caveat. Montpellier offers a lot of lifestyle for the money, which is precisely why it attracts more people than its economy can comfortably employ. The local job market is softer than the sunshine suggests: unemployment runs above the national average, and outside health, biotech, tech and higher education, salaried openings are competitive. Many expats arrive on a remote contract, a transfer, or self-employment (auto-entrepreneur) rather than expecting to walk into a local job — that's the safest route. To cover a comfortable single budget you want net take-home of roughly €1,900–2,200/month; for a couple sharing rent, combined net income of €3,200–3,800 gives breathing room. If you're job-hunting locally, build in a buffer of several months' expenses, because finding the right role here typically takes longer than in Paris or Lyon. Don't let the relaxed Mediterranean pace fool you into under-budgeting the search.",
+      },
+      {
+        heading: "The bottom line",
+        body: "A comfortable single's budget looks like: a one-bedroom at €850, the €55 TaM pass, €420 for food, €200 for going out and the sea, and €150 for miscellaneous — total €1,680–1,950/month. A couple in a two-bedroom in Port-Marianne (€1,000 rent) lands at €2,900–3,400/month all in. Both figures fall before any CAF/APL housing aid, which can shave €100–250 off rent for lower incomes. The verdict: Montpellier offers one of the best sun-plus-sea-plus-budget ratios in France — slightly cheaper than Bordeaux, clearly cheaper than Nice for comparable Mediterranean quality of life. The one thing to plan around is income: line up your work before you move, lean on the excellent tram network to skip a car, and apply for APL the moment your lease is signed. A working couple on two solid net salaries lives comfortably here with money left for travel; a single person on a remote contract has the easiest path of all, since you sidestep the soft local job market entirely while still banking the sun, the sea and the lower rents. Budget conservatively for the first year, and Montpellier rewards you.",
+      },
+    ],
+    relatedCities: ["montpellier","nice"],
+    tags: ["cost of living","montpellier","budget","moving to france","occitanie"],
+  },
+  {
+    slug: "cost-of-living-nice-2026",
+    title: "The Cost of Living in Nice in 2026: An Expat's Real Budget",
+    metaTitle: "Cost of Living in Nice 2026: Real Monthly Budget (€)",
+    metaDesc: "Real 2026 costs of living in Nice: rent by neighbourhood, the €17 Lignes d'Azur pass, groceries, going out, and what a single or couple needs to earn.",
+    category: "budget",
+    emoji: "💸",
+    readMinutes: 7,
+    publishedAt: "2026-06-03",
+    updatedAt: "2026-06-03",
+    intro: "Nice is one of the most expensive cities in France, roughly third behind Paris and its immediate satellites. The Riviera charges a premium, and you pay it whether you want to or not. What you get in return is hard to argue with: the Promenade des Anglais, the old town, around 2,800 hours of sun a year, Monaco 22 minutes away by train and Italy just past Ventimiglia. The catch is that the local economy leans hard on tourism, which means wages are lower than you'd expect for a city this pricey. That gap between high rent and modest pay is the thing every expat needs to plan around. Here are the real 2026 numbers for living in Nice.",
+    sections: [
+      {
+        heading: "Rent by neighbourhood: the Riviera premium",
+        body: "Rent is where the Riviera premium bites hardest. A 20–25 m² studio in Vieux-Nice (the old town) or near the Promenade runs €700–1,100/month. A 40 m² one-bedroom (a T2) up in the northern districts like Libération or Cimiez is €900–1,300. Mid-range areas such as Musiciens or Gambetta land around €850–1,150 for a 45 m² T2. A 65 m² two-bedroom (T3) in the east or north sits at €1,100–1,600. Citywide averages from our data: roughly €780 for a studio, €1,100 for a one-bedroom, €1,500 for a two-bedroom. A room in a shared flat goes for €600–850. Student studios in Nice Nord drop to about €600. Nice is clearly dearer than Bordeaux or Toulouse for the same square metres, but still sits 20–30% below comparable Paris arrondissements. One thing that genuinely softens the blow: the CAF housing benefit (APL), a means-tested monthly subsidy paid by the family-allowance fund. Lower earners and students can claw back €100–250/month. Apply online at caf.fr as soon as your lease starts; it is not backdated.",
+      },
+      {
+        heading: "Transport: the tram and Lignes d'Azur",
+        body: "Here is the rare bargain in Nice. The Lignes d'Azur network (two tram lines plus buses) sells a monthly pass, the Abonnement Liberté, for €17 — one of the cheapest urban passes in France, and the network is genuinely good. For most expats living in the city, that €17 covers daily life and there is little reason to own a car. Regional trains are cheap and fast: Monaco is 22 minutes for about €4 each way, Cannes 40 minutes for around €7. A car earns its keep only for the backcountry — Vence, Saint-Paul-de-Vence, Entrevaux — where there's real reward. In town it's a liability: parking runs €1.5–3/hour and the coastal roads jam constantly. If you do bring a car, budget for insurance, fuel and the near-certainty of paying to park. Most people get by with the €17 pass, the occasional train ticket, and a scooter or bike for the hills.",
+      },
+      {
+        heading: "Groceries and eating out",
+        body: "Plan on €320–450/month for groceries for one person — slightly above the French average, in line with a city that imports a lot and serves a lot of tourists. The Cours Saleya market in the old town (Tuesday to Sunday mornings) is the emblematic spot: socca, courgette flowers, olives, local fish. It's atmospheric rather than cheap, so treat it as a top-up, not your main shop; chains like Lidl, Carrefour and Auchan in the northern districts do the heavy lifting on price. The street-food culture is a real budget saver here. Socca (a chickpea pancake) goes for €3, a slice of pissaladière around €2.50 — both beat the price of a sit-down lunch. A brasserie meal in Vieux-Nice runs €18–28. The local dishes — daube niçoise, salade niçoise, pan bagnat — show up at fair prices in the old-town trattorias if you avoid the seafront tourist traps.",
+      },
+      {
+        heading: "Going out, culture and downtime",
+        body: "This is where the Riviera quietly drains your account. Drinks and dinner in Vieux-Nice or along the seafront run 20–30% more than the equivalent in Toulouse — you are paying for the postcode and the view. Reckon €350/month for a single person's social life if you go out regularly. Then there's the day-trip budget that Nice almost forces on you: Cannes, Saint-Tropez, Monaco, the Esterel calanques are all close and all tempting, and each outing brings its own scooter rental, parking and seafront-restaurant tab. Factor in roughly €40–80 a month on your EDF electricity bill for air conditioning in July and August, when it hits 32–38°C and AC stops being optional. The flip side is that a lot of the best of Nice is free: the beach, the Promenade, the old town, the hike up Colline du Château. Lean on those and the going-out line stays manageable.",
+      },
+      {
+        heading: "What you need to earn",
+        body: "This is the part that catches people out. Nice has near-Lyon prices but a tourism-and-services economy that pays less than the big inland metros. Hospitality, retail and seasonal work dominate, and many roles cluster near the French minimum wage (the SMIC, about €1,430 net/month in 2026). That makes the rent-to-wage math tight: a €1,000 one-bedroom can swallow most of a single SMIC salary. To live comfortably solo you realistically want €2,400–2,800 net/month. Couples sharing rent have it far easier per head. The expats who do best in Nice usually aren't on a local salary at all — remote workers paid from Paris, London or further afield, cross-border commuters into Monaco (higher wages, 22 minutes away), or retirees on a fixed income. If you're job-hunting locally, treat the advertised salary, not the lifestyle photos, as the real constraint. And remember APL: at lower incomes the CAF subsidy can be the difference between tight and unworkable.",
+      },
+      {
+        heading: "The bottom line: monthly totals",
+        body: "For a comfortable single person: a one-bedroom at €1,000, the €17 transport pass, €480 on food, €350 going out and €200 miscellaneous comes to roughly €2,050–2,400/month, before factoring in any APL rebate. A couple in a two-bedroom in a mid-range area like Musiciens (around €1,300 rent) lands at €3,500–4,200/month all in. That puts Nice about 10–15% above Lyon for a comparable lifestyle. Whether it's worth it comes down to one question: how much do you value the specific thing Nice offers and nowhere else in urban France can — the Promenade des Anglais, the Riviera on your doorstep, and a genuinely mild Mediterranean winter. If the answer is 'a lot', the premium reads as fair. If you're chasing maximum value per euro, an inland city will stretch your money further. Just go in clear-eyed about the wage-versus-rent gap, sort your CAF claim early, and ride the €17 tram pass for all it's worth.",
+      },
+    ],
+    relatedCities: ["nice","montpellier"],
+    tags: ["cost of living","nice","budget","moving to france","provence-alpes-cote-d-azur"],
+  },
+  {
+    slug: "cost-of-living-nantes-2026",
+    title: "Cost of Living in Nantes (2026): A Realistic Budget for Expats",
+    metaTitle: "Cost of Living in Nantes 2026: Rent, Transport & Budget Guide",
+    metaDesc: "Real 2026 costs for living in Nantes: rent by neighbourhood, TAN tram pass, groceries, CAF aid and full monthly budgets for singles and couples.",
+    category: "budget",
+    emoji: "💸",
+    readMinutes: 7,
+    publishedAt: "2026-06-03",
+    updatedAt: "2026-06-03",
+    intro: "Nantes is the cheapest of the big Atlantic-coast cities, and it knows it. Sitting on the Loire about 50 km from the ocean, it is less polished than Bordeaux and less student-dominated than Rennes, but bigger and economically broader than either. For expats that combination is the whole pitch: a real metropolis with tram lines, an airport and tech employers, priced well below Paris or Lyon, with beaches an hour away. This guide lays out the actual euro figures you need to budget a life here in 2026, plus the French quirks that catch newcomers out, like the housing aid you can claim and how the transport pass works.",
+    sections: [
+      {
+        heading: "Rent by neighbourhood",
+        body: "Rent is where Nantes still feels like a bargain compared to its neighbours. A 22 m2 studio in a central spot like the Ile de Nantes or place Graslin runs €560–780 a month. A 40 m2 one-bedroom (a French T2) in the well-liked Zola or Canclaux districts costs €720–980. For more space, a 65 m2 two-bedroom (T3) in the southern riverside suburbs of Reze or Vertou is €800–1,100, while the western suburbs of Saint-Herblain or Orvault come in slightly cheaper at €750–1,000. A room in a shared flat (colocation) is €450–640. The Ile de Nantes is the city's big regeneration zone: contemporary buildings, rising rents, lots of buzz. If you want to buy, expect roughly €4,200 per m2 in the city; houses with a garden in eastern commuter towns like Sainte-Luce-sur-Loire or Thouare sell for €220,000–320,000. One thing worth claiming: most renters, including foreigners on a legal residence permit, can apply to CAF (the family-benefits agency) for APL housing aid. Depending on income it can knock €100–250 a month off the rent, so factor it in once your lease is signed.",
+      },
+      {
+        heading: "Getting around: tram, bus and bikes",
+        body: "Nantes runs one of France's better public transport networks under the TAN brand (Transports de l'Agglomeration Nantaise), now also marketed as Naolib. A full-fare monthly pass is €60, covering three tram lines, the Chronobus rapid routes and the free river shuttles across the Loire. If you are under 26 or on a low income, reduced tariffs cut that figure significantly, so ask at a TAN agency with proof of status. Day-to-day, many residents skip the car entirely: Nantes has invested heavily in cycle paths since 2010 and is consistently rated among the most bike-friendly cities in the country. The Bicloo bike-share scheme is just €30 a year. A car is genuinely optional in the centre, though useful for weekend coast trips. For travel beyond the metro area, the TGV reaches Paris Montparnasse in 2h10, and the airport (NTE) handles plenty of European routes. Most expats here treat the €60 TAN pass plus the €30 Bicloo subscription as their entire transport budget.",
+      },
+      {
+        heading: "Groceries and eating out",
+        body: "A single person's grocery budget lands around €280–390 a month at supermarkets like Leclerc, Super U or Lidl. The local institution is the covered Talensac market near the centre, open daily and the go-to for fresh produce, fish and cheese; prices are fair for the quality. Nantes sits in its own wine appellation, and Muscadet de Sevre et Maine, a crisp dry Loire white, is one of the best-value quality whites in France at €5–9 from a wine shop. The regional cooking is underrated rather than expensive: beurre blanc sauce, Loire pike-perch (sandre) and the rum-laced gateau nantais are local specialities. Eating out is reasonable by big-city standards. A lunchtime formule (starter-plus-main or main-plus-dessert) runs €14–18, a casual dinner for two with wine €50–70, and a coffee at a counter €1.80–2.50. Stick to neighbourhood bistros over the tourist-facing places around the chateau and your restaurant spend stays comfortably under control.",
+      },
+      {
+        heading: "Going out, culture and downtime",
+        body: "Nantes has a strong creative reputation that outstrips its size, anchored by the Machines de l'Ile (the giant mechanical elephant) and the summer-long Voyage a Nantes art trail through the city. Cinema tickets run €8–12, and a gym membership is typically €25–40 a month. The bar scene around Bouffay and the old town is lively and not overpriced: a pint of beer is €5–7, a glass of Muscadet €4–5. Concert and theatre tickets sit in the €20–45 range. The geography itself is the cheapest entertainment of all. Saint-Nazaire and direct Atlantic access is 60 km away (about 50 minutes by car or TER train), and the sandy resorts of La Baule, Pornichet and Le Croisic are 90 km out, roughly an hour. The Loire estuary leads to the island of Noirmoutier (two hours) and ferries to the Ile d'Yeu. A realistic going-out and leisure budget is €150–250 a month, before you add the petrol or train fares for those coast weekends.",
+      },
+      {
+        heading: "What you need to earn",
+        body: "To live comfortably alone in Nantes, budget for take-home pay (net, after France's social charges) of roughly €1,800–2,000 a month. That covers a one-bedroom flat at around €800, the €60 transport pass, €420 of groceries, €200 of going out and €150 of miscellaneous spending. You can live on less in a shared flat or a studio, closer to €1,400. Two important French points temper the headline rent figures. First, advertised salaries are usually gross (brut); the net you actually receive is about 22–25% lower, so a €2,400 gross job pays roughly €1,850 in hand. Second, the APL housing aid from CAF mentioned earlier can offset €100–250 of rent for lower and middle incomes, which materially changes the maths for students, junior hires and single earners. A dual-income couple will find Nantes very manageable; one solid local salary plus the housing aid is enough for a single person to live well rather than just get by.",
+      },
+      {
+        heading: "Bottom line: monthly totals",
+        body: "For a single person, a comfortable Nantes budget looks like this: a one-bedroom at €800, transport €60, groceries €420, going out €200 and €150 of extras, for a total of €1,630–1,950 a month before any APL aid. A couple sharing a two-bedroom in Zola at around €900 should plan on €2,800–3,300 all in. Across the board Nantes comes in slightly cheaper than Bordeaux for a comparable quality of life. The Atlantic here is less glamorous than Bordeaux's Arcachon-and-Medoc coastline, but it is just as close and far less crowded with second-home money. For families specifically, the combination of a genuine metropolis, room to breathe, the sea within an hour and moderate prices makes Nantes one of the strongest value choices in France. Compared with Rennes, its closest rival on price and lifestyle, Nantes offers more jobs and a bigger city feel for only a small premium.",
+      },
+    ],
+    relatedCities: ["nantes","rennes"],
+    tags: ["cost of living","nantes","budget","moving to france","pays-de-la-loire"],
+  },
+  {
+    slug: "cost-of-living-rennes-2026",
+    title: "Cost of Living in Rennes: An Expat's 2026 Budget Guide",
+    metaTitle: "Cost of Living in Rennes 2026: Real Monthly Budget for Expats",
+    metaDesc: "Real 2026 monthly budgets for living in Rennes: rent by neighbourhood, the STAR transport pass, groceries, tech salaries and single vs couple totals.",
+    category: "budget",
+    emoji: "💸",
+    readMinutes: 7,
+    publishedAt: "2026-06-03",
+    updatedAt: "2026-06-03",
+    intro: "Rennes is the capital of Brittany and quietly one of the best value-for-money cities in France. It has a genuine tech scene, 60,000 students, and a direct TGV that puts you in central Paris in 1h27 — one of the best provincial rail links in the country. Prices crept up after 2020 as Paris professionals discovered they could keep their jobs and move west, but Rennes is still far cheaper than the capital, and the quality of life (markets, cycling, the Breton coast an hour away) is hard to beat. Here is what it actually costs to live here in 2026, in euros, with no padding.",
+    sections: [
+      {
+        heading: "Rent by neighbourhood",
+        body: "Rennes is compact, so where you live is more about vibe than commute time. A 22 m² studio in the historic centre or near the Parc du Thabor runs 600–860 €/month — you pay for charm and being able to walk everywhere. A 40 m² one-bedroom (a \"T2\") in Beaulieu, the campus-and-tech district, or in Saint-Martin costs 750–1,050 €/month. For a 65 m² two-bedroom (\"T3\"), expect 850–1,150 €/month in Villejean or Cleunay — close-in suburbs that are well connected by metro and bus — or 900–1,200 €/month in Cesson-Sévigné to the east, the suburb where many of the tech firms sit. Citywide averages land around 590 € for a small studio, 820 € for a one-bed and 1,100 € for a two-bed. Because Rennes is so student-heavy, flatshares are the norm under 30: a room in a shared four-bedroom flat goes for 450–650 €/month. Useful to know: most renters here qualify for APL, a housing benefit paid by the CAF (the family-allowance agency). It is means-tested and can knock 100–200 € off your rent, but you apply only once you have a signed lease and a French bank account.",
+      },
+      {
+        heading: "Getting around",
+        body: "The local network is called STAR, and it is genuinely good for a city this size. A monthly pass is 58 €, covering the VAL metro (two automated lines) plus the bus network — that is your main transport line item. The bike-share scheme, STAR Vélo, is almost free at 25 €/year, and Rennes is one of France's better cycling cities: it has several separated bike paths and the Ille-et-Rance canal towpath, a flat car-free route you can ride all the way toward Saint-Malo. Most expats here do not need a car day to day. Where the car (or the train) earns its keep is escaping at the weekend. The headline link, though, is the TGV from Rennes to Paris Montparnasse: 1h27 direct, one of the fastest provincial connections in France and a big reason people moved here after 2020. Book ahead and a Paris round trip is very doable.",
+      },
+      {
+        heading: "Groceries and eating out",
+        body: "Food is where Rennes shines on value. The covered Halles Centrales run a daily market and are the place for fresh produce, Breton butter, seafood and cheese. Budget 280–390 €/month on groceries for one person, depending on how much you shop the market versus the supermarket. Eating out is where Brittany earns its reputation: the crêperie is the local social institution, and a full dinner of a savoury galette, a sweet crêpe and a bowl of cider comes to just 15–22 € — one of the best-value restaurant meals in France. Breton cider (look for Guillevic or Kerisac) is the natural pairing and costs 3–6 € a bottle from a grocer. You can eat very well in Rennes without spending much, which is a large part of why people who move here tend to stay.",
+      },
+      {
+        heading: "Going out and the weekend",
+        body: "Rennes is young and it shows. The student population keeps bars, gig venues and the nightlife around Place Sainte-Anne and the Rue Saint-Michel (locally nicknamed \"the street of thirst\") busy and cheap. A pint is typically 5–7 €, cinema tickets run 8–12 €, and the city's cultural calendar — anchored by the Trans Musicales festival each December — punches well above its size. The real luxury, though, is Brittany itself, and most of it is nearly free. Saint-Malo and the Côte d'Émeraude are 55–70 km away; a weekend there costs the price of a tank of fuel or a TER regional train ticket (13–18 € return Rennes–Saint-Malo). The Rennes forest, 4,000 hectares of it, sits ten minutes from the centre — a rare thing for a city this size — and inland Brittany (the Brocéliande forest, the Monts d'Arrée) is about an hour out. Allow 150–200 €/month for going out and weekends and you will live well.",
+      },
+      {
+        heading: "What you need to earn",
+        body: "Rennes has a real tech and engineering economy, not just a university — telecoms, cybersecurity, software and automotive R&D all have a presence, much of it clustered out in Cesson-Sévigné and around the Beaulieu campus. A junior developer typically earns 32,000–40,000 € gross a year; a mid-level engineer 42,000–55,000 €; and senior or lead roles push past 60,000 €. Remember that French gross-to-net is roughly 22–25% of social contributions, so a 45,000 € gross salary nets you around 2,800–2,950 €/month before income tax (which is withheld at source). Salaries are a notch below Paris, but so is everything you spend money on, and the trade is widely considered worth it. For digital and engineering profiles who want Brittany without giving up the job market, Rennes is the answer — it offers a deeper tech labour pool than most provincial cities its size.",
+      },
+      {
+        heading: "The bottom line",
+        body: "A comfortable single person renting a one-bedroom flat: rent ~900 €, STAR pass 58 €, groceries ~430 €, crêperies and going out ~200 €, plus ~150 € for everything else (phone, utilities, the odd extra) — call it 1,740–2,000 €/month all in. A couple sharing a two-bedroom flat in Beaulieu (~1,000 € rent) lands around 2,900–3,400 €/month. Rennes runs slightly more expensive than Nantes, its rival down the road, but it offers a deeper tech job market and the best Paris rail link in provincial France (tied with Tours). Factor in APL if you qualify, lean on the market and the crêperies, and let the bike and the TGV do the rest — Rennes delivers a genuine French city with the Breton coast on the doorstep, for noticeably less than Paris.",
+      },
+    ],
+    relatedCities: ["rennes","nantes"],
+    tags: ["cost of living","rennes","budget","moving to france","bretagne"],
+  },
+  {
+    slug: "cost-of-living-strasbourg-2026",
+    title: "Cost of Living in Strasbourg in 2026: An Expat's Budget Guide",
+    metaTitle: "Cost of Living in Strasbourg 2026 — Expat Budget Guide",
+    metaDesc: "Real 2026 costs for Strasbourg: rent by district, the CTS tram pass, groceries, EU-institution salaries and cross-border work in Germany. Honest euro figures.",
+    category: "budget",
+    emoji: "💸",
+    readMinutes: 7,
+    publishedAt: "2026-06-03",
+    updatedAt: "2026-06-03",
+    intro: "Strasbourg is the one French city where \"European\" isn't a slogan. The European Parliament, the Council of Europe and the European Court of Human Rights all sit here, which gives the place a genuinely cosmopolitan, multilingual feel and a rental market that stays tight year-round. For an expat, that cuts two ways: salaries in the EU orbit are good, and Germany is a two-kilometre tram ride away, but the institutional demand props up rents in the smarter districts. The upside is that Strasbourg is still noticeably cheaper than Lyon or Bordeaux, roughly on par with Rennes, and you get one of the best tram networks and the best cycling infrastructure in France thrown in. Here's what it actually costs to live here in 2026, in real euros, with the French admin you'll need to navigate explained as you go.",
+    sections: [
+      {
+        heading: "Rent by neighbourhood",
+        body: "Rents carry a clear \"European premium\" near the institutions. A 22 m² studio in the Neustadt or on the Grande Île runs €600–870/month. A one-bedroom (T2, ~40 m²) in lively Krutenau or leafy Orangerie sits at €780–1,100. A two-bedroom (T3, ~65 m²) in Neudorf or Hautepierre is €850–1,200; the same in the close suburbs of Schiltigheim or Ostwald is €800–1,100 and worth a look since the tram reaches both. The Orangerie district, right by the European quarter, commands a 10–20% premium over comparable residential areas. A room in a shared flat (colocation) is €480–660. Citywide averages land around €580 for a studio, €800 for a one-bed and €1,080 for a two-bed. Two things every newcomer should know: French landlords usually expect a guarantor (garant) or a Visale guarantee from Action Logement, and once you're in, you can claim APL housing aid from the CAF (Caisse d'Allocations Familiales). For a single tenant on a modest income, APL can knock €100–200/month off the rent. Apply online at caf.fr as soon as your lease starts; it isn't backdated.",
+      },
+      {
+        heading: "Getting around",
+        body: "Public transport is run by the CTS (Compagnie des Transports Strasbourgeois), and a monthly pass is €68 for the standard adult fare, with steep discounts for under-26s and reduced rates for low incomes. The six-line tram network is one of the densest in France and a genuine European model for modern light rail, so most residents don't bother owning a car for daily life. Strasbourg is also, plainly, the cycling capital of France: over 600 km of bike lanes and a cycling culture that's rare on this side of the Rhine. A Vélhop city-bike or secure bike-parking subscription costs around €10/year, and many people commute entirely by bike. If you do keep a car, budget for paid street parking and the usual fuel and insurance, but you genuinely won't need one in the centre. For travel beyond the city, the TGV reaches Paris Montparnasse in 1h48, and German rail connections via Kehl are immediate. Day to day, plan on the €68 CTS pass as your baseline mobility cost, or close to nothing if you cycle.",
+      },
+      {
+        heading: "Groceries and eating out",
+        body: "A single person spends roughly €280–390/month on groceries. The covered Marché des Halles trades daily in the centre, and open-air markets fill Place Broglie and Place de la Mésange on set days, which is where the produce is freshest and the prices fairest. Discount chains (Lidl, Aldi, the German brands) keep the weekly shop down, and you can do plenty of it at the standard French supermarkets. Eating out is where Alsace earns its reputation: the winstub, the regional bistro format, serves choucroute, tarte flambée, baeckeoffe and kougelhopf, and a full main plate runs €15–22. Local beer is part of daily life here, Kronenbourg, Meteor and Licorne all brew nearby, and a draught (pression) in a winstub starts around €3.50. A casual sit-down meal for one with a drink lands around €20–25; a proper restaurant dinner more like €35–45. Coffee in a café is €2–3. None of this is Paris pricing, and the regional cuisine means even budget eating out feels like a treat rather than a compromise.",
+      },
+      {
+        heading: "Going out, culture and downtime",
+        body: "Strasbourg punches above its weight culturally for a city its size, helped by a large student and international population. A cinema ticket is around €10–12, often less with a loyalty card. Museum entry runs €6–8, and the city's museum pass and the under-26 free-entry rules across French national museums keep culture genuinely affordable. The Opéra national du Rhin and the Orchestre philharmonique offer student and last-minute rates well under €20. A gym membership is €25–40/month depending on the chain. Nightlife clusters around Krutenau and the Grande Île: a beer in a bar is €5–7, a cocktail €9–12. The Christmas market (Christkindelmärik) is free to wander and famous across Europe, and the riverside parks, the Orangerie park and the canals cost nothing at all. A realistic \"going out and leisure\" line for a single person is €200–250/month if you eat out a couple of times a week and keep a gym or a hobby. Cross the border to Germany and a night out in Kehl or Offenburg is often a little cheaper still.",
+      },
+      {
+        heading: "What you need to earn",
+        body: "Two employment realities make Strasbourg unusual. First, the EU institutions, the European Parliament, the Council of Europe, the Court of Human Rights, plus the contractors, NGOs and law firms in their orbit, pay well and hire multilingual staff, often in English. EU-institution roles run on their own pay scales, generally comfortably above the French median, which is part of why the rental market stays tight. Second, the German border is a live option: thousands of Strasbourg residents work as cross-border commuters (frontaliers) in Kehl, Offenburg and across the Ortenau, earning in a stronger regional labour market while keeping French rents and French daily costs. Frontalier status has its own tax and social-security rules (you generally pay tax where the cross-border agreement directs and keep French healthcare via specific arrangements), so it's worth a session with a frontalier advice centre before you sign anything. For a single person renting a one-bed, a net salary of around €2,000–2,400/month gives genuine comfort. A couple sharing a two-bed should aim for €3,200–3,800 net combined to live well with savings.",
+      },
+      {
+        heading: "The bottom line",
+        body: "Here's the monthly maths in real euros. A comfortable single person: a one-bedroom at ~€900, the €68 CTS pass, €400 groceries, €220 for winstubs and going out, and €150 for everything else (phone, utilities top-up, odds and ends) comes to roughly €1,740–2,000/month before APL. Claim housing aid and that drops meaningfully. A couple in a Neudorf two-bedroom at ~€950 lands around €2,900–3,400/month all-in. One Strasbourg-specific saving: regular cross-border grocery runs to Kehl (2 km, five minutes by tram) or Offenburg (30 km) can shave €30–60/month off food, since German meat, dairy and alcohol often run 10–20% cheaper. Overall, Strasbourg costs about the same as Rennes, with the European premium pushing rents up only in the premium districts. If you're working in or around the EU institutions, or commuting across the Rhine, it isn't just a good option, it's effectively the only one that makes sense, and a very livable one at that.",
+      },
+    ],
+    relatedCities: ["strasbourg","lille"],
+    tags: ["cost of living","strasbourg","budget","moving to france","grand-est"],
+  },
+  {
+    slug: "cost-of-living-lille-2026",
+    title: "The Cost of Living in Lille in 2026: A Practical Guide for Expats",
+    metaTitle: "Cost of Living in Lille 2026: Rent, Transport & Budgets",
+    metaDesc: "What it really costs to live in Lille in 2026: rent by neighbourhood, the Ilevia pass, groceries, going out and the salary you need. Real euro figures.",
+    category: "budget",
+    emoji: "💸",
+    readMinutes: 7,
+    publishedAt: "2026-06-03",
+    updatedAt: "2026-06-03",
+    intro: "Lille is the quiet bargain of French cities. You get a genuine European metropolis at roughly 40% below Paris prices, with the rare advantage of being able to reach Paris, Brussels and London by train in under two hours. It is young, student-heavy and famously sociable, which keeps rents reasonable and nightlife cheap. This guide lays out the real 2026 euro figures so you can work out whether your salary stretches here, and where the money actually goes.",
+    sections: [
+      {
+        heading: "Rent by neighbourhood",
+        body: "Lille's rental market is shaped by its enormous student population, which means plenty of small flats and a healthy flatshare scene. A 22 m² studio in the desirable Vieux-Lille (the cobbled old town) or the République area runs €550-800 a month. A one-bedroom (T2, around 40 m²) in lively, multicultural Wazemmes or in Moulins costs €620-900. For a two-bedroom (T3, ~65 m²) in working-class-turned-trendy Fives or Hellemmes, budget €700-1,000; the same in Villeneuve-d'Ascq, near the universities and well connected by metro, runs €720-1,000. Citywide averages land around €580 for a T1, 800 for a T2 and 1,080 for a T3. A room in a four-person flatshare is €420-600 and is how most under-30s live here. If you want the lowest rent and don't mind a commute, Roubaix and Tourcoing, the immediate suburbs on the metro line, drop to €400-600 for a T2; both are slowly gentrifying. First-time renters take note: CAF, the family-benefits agency, pays a housing subsidy called APL to most lower-income tenants, including students and newcomers. You apply online at caf.fr once you have a lease, and it can knock €100-200 off your effective rent.",
+      },
+      {
+        heading: "Getting around",
+        body: "Lille barely needs a car. It runs the VAL, a fully automated, driverless metro across two lines, plus two tram lines and an extensive bus network; for a city its size, it is one of the best systems in Europe. The whole thing is operated under the Ilevia brand (you may still see the old Transpole name). A monthly all-modes pass is €67 for adults, with cheaper student and youth fares, and it covers metro, tram and bus across the metropolitan area. That single pass is the only transport cost most residents have. Where Lille really earns its keep is rail: it is the only major European rail hub in France outside Paris. The TGV reaches Paris-Nord in about 1 hour; Eurostar to Brussels takes roughly 35 minutes; and Eurostar to London St Pancras is 1h20, with one-way fares between 80 and €200 depending on how early you book. If you do keep a car, factor in €30-100 a month for a parking spot in the centre plus fuel, but for daily life in Lille it is genuinely optional.",
+      },
+      {
+        heading: "Groceries and eating out",
+        body: "Food is one of Lille's real pleasures and it is not expensive. A single person spends €270-380 a month on groceries, with the lower end very doable if you shop at discounters (Lidl, Aldi) and the Sunday morning Wazemmes market, one of the largest in France and a Lille institution. Eating out leans cheap and characterful rather than precious. The estaminets, traditional Flemish-style brasseries, serve regional plates like welsh (cheese-and-beer-soaked toast), carbonade flamande (beef braised in beer) and waterzooi for modest prices, with a Maroilles cheese course on the side. A sit-down main typically runs €12-18. And then there are the friteries: the chip stands are a genuine cultural fixture of the Nord, and a portion of fries goes for €3-5. Lille locals will tell you, not entirely as a joke, that they are the best in France. A pint of local beer in a bar sits around €5-7.",
+      },
+      {
+        heading: "Going out, culture and downtime",
+        body: "For nightlife and culture per euro, Lille punches well above its weight. A realistic going-out and leisure budget is around €200 a month, and it buys a lot here because the city is young and the scene is dense. The live-music circuit (the Aeronef, La Malterie, the Biplan) is among the most active in France outside Paris, with gig tickets often in the 10-25 euro range. The Palais des Beaux-Arts is one of the richest provincial art museums in the country. Football anchors a lot of social life: LOSC plays in Ligue 1 at the 50,000-seat Stade Pierre-Mauroy. And once a year, on the first weekend of September, the Braderie de Lille turns the whole city into the largest flea market in Europe, 200 km of stalls and two million visitors, the spiritual centre of Lille identity. A gym membership runs €25-40 a month, a cinema ticket about €10-12, and the city is compact enough that most evenings out cost little more than your round of drinks.",
+      },
+      {
+        heading: "What you need to earn",
+        body: "Lille is forgiving on salary compared with Paris, but the local job market is the catch. Net pay tends to be lower than in the capital, so the value comes from costs being lower still. A single person renting a one-bedroom can live comfortably on a net income of around €1,800-2,100 a month, which leaves room to save. To rent on your own, most landlords want to see net monthly income of roughly three times the rent, so for an 800-euro T2 that means about €2,400 net, or a French guarantor (or the state-backed Visale guarantee scheme, which expats and newcomers can use in place of one). The strongest local sectors are large-scale retail and distribution (the Mulliez family empire, Auchan, Decathlon, Leroy Merlin all sit nearby) and logistics, plus a growing tech and services base. The real superpower, though, is geography: if your work straddles Paris, Brussels or London, Lille lets you keep a metropolitan job and a provincial cost base at the same time.",
+      },
+      {
+        heading: "The bottom line",
+        body: "A comfortable single-person budget in Lille comes to roughly €1,550-1,800 a month: a T2 around €750, the 67-euro Ilevia pass, €380 of groceries, €200 for going out and about €150 of miscellaneous spending. A couple sharing a T3 in Wazemmes (around €800 rent) should plan on €2,600-3,100 a month all in. Both figures land well below the Paris equivalent, and that is the whole point. On the balance of salary, cost and quality of life, Lille is one of the best-value cities in France, especially for anyone whose work connects Paris, Brussels or London, or who lands in the Nord's retail and logistics economy. Remember to claim APL through CAF once your lease is signed, and lean on the metro instead of a car; do both and your real monthly outlay drops further still.",
+      },
+    ],
+    relatedCities: ["lille","paris"],
+    tags: ["cost of living","lille","budget","moving to france","hauts-de-france"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
