@@ -909,6 +909,64 @@ function rankFiscaliteLourde(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
 }
 
+// --- THEME 24 — Désert culturel ---
+// Cible : villes ≥ 15 000 hab. dont le score culture du seed tombe ≤ 4,5/10 —
+// c'est-à-dire les communes où l'offre culturelle structurelle (musées,
+// scènes labellisées, cinémas indépendants, scène musicale, librairies)
+// reste maigre malgré une taille où l'on s'attendrait normalement à un
+// minimum. On amplifie quand la médiathèque municipale est elle aussi
+// fragile (score library ≥ 5/10 dans `computePublicServices`, convention
+// 10 = pire) — combo signalétique d'un investissement public culturel
+// faible. Bonus quand aucun tag character culturel (culturel / culture /
+// patrimoine / bohème) n'apparaît dans le seed (signal de vocation
+// non-culturelle assumée). Bonus quand la ville cumule un score
+// transport faible (sortir hors ville coûte du temps et de l'argent).
+// Indicateur dédié aux profils urbains (étudiants, cadres trentenaires,
+// retraités actifs culturels) qui se posent la vraie question : « est-ce
+// que j'aurai assez à voir, écouter, lire sur place sans devoir partir
+// chaque samedi à 80 km ? ».
+function rankDesertCulturel(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    const pop = city.population ?? 0;
+    if (pop < 15_000) continue; // exclut les communes rurales où la déficience est attendue
+    const cultureScore = city.scores.culture;
+    if (cultureScore > 4.5) continue;
+
+    const services = computePublicServices(city);
+    const libraryScore = services.library.score; // convention : 10 = pire
+    const tags = (city.characterTags ?? []).join(" ").toLowerCase();
+    const hasCulturalTag = /culturel|culture|patrimoine|bohème|étudiant|historique|festival/.test(tags);
+
+    // Base : (5 − culture) × 2 — 0 à culture=5, 8 à culture=1.
+    let severity = (5 - cultureScore) * 2;
+    // Bonus médiathèque fragile : library ≥ 5 = +0,8, library ≥ 7 = +1,4 (cumul).
+    if (libraryScore >= 7) severity += 1.4;
+    else if (libraryScore >= 5) severity += 0.8;
+    // Bonus pas de tag culturel : la ville n'a même pas la vocation affichée.
+    if (!hasCulturalTag) severity += 0.5;
+    // Bonus isolement : transport seed ≤ 4 (sortir hors ville reste coûteux).
+    if (city.scores.transport <= 4) severity += 0.6;
+    // Bonus taille : 30k à 80k hab. = +0,5 (taille où l'on s'attend à un cinéma
+    // d'art et essai + une scène labellisée minimum ; au-delà, les grandes
+    // métropoles ont presque toujours une offre).
+    if (pop >= 30_000 && pop <= 80_000) severity += 0.5;
+
+    severity = Math.min(10, severity);
+    if (severity < 6) continue;
+
+    const libNote = libraryScore >= 7
+      ? "médiathèque tendue"
+      : libraryScore >= 5
+        ? "médiathèque limite"
+        : "médiathèque correcte";
+    const tagNote = hasCulturalTag ? "" : " · pas de vocation culturelle affichée";
+    const reason = `Culture ${cultureScore.toFixed(1)}/10 · ${libNote}${tagNote}`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -1254,6 +1312,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Severity = base tier (`élevée` 6 / `très élevée` 8 / Paris 7,5) + bonus prix (3 000 €/m² → 0, 6 000 €/m² → +2) + 0,8 si zone tendue + max(0 ; log₁₀(pop/50 000) × 1,05) plafonné à +1,5. Clampé à 10/10, filtré à severity ≥ 6,5. Sources : DGFiP cahiers OFL 2024 (taux moyens taxe foncière par dépt), décrets zone tendue 2023 (THRS), DVF + observatoires loyer 2024 (prix au m²), INSEE (population). Caveat : la taxe foncière communale varie de ±30 % autour de la moyenne dépt — vérifier impérativement l'avis du vendeur.",
     rank: rankFiscaliteLourde,
+  },
+  {
+    slug: "villes-desert-culturel",
+    title: "Villes où l'offre culturelle reste maigre",
+    metaTitle: "Désert culturel 2026 — Villes à l'offre limitée",
+    metaDescription:
+      "Classement 2026 des villes ≥ 15 000 hab. au score culture ≤ 4,5/10 : peu de scènes labellisées, cinémas d'art et essai rares, médiathèque municipale tendue. Sources DEPS-MC + BNF.",
+    emoji: "🎭",
+    intro:
+      "Sur la plaquette, on parle de « centre-ville vivant » et d'une photo de festival annuel. Dans la réalité du quotidien, le même contour donne : un seul cinéma multiplexe qui programme la même affiche que partout, pas de scène nationale labellisée, une médiathèque ouverte quatre jours par semaine, et la programmation culturelle estivale réduite à deux concerts gratuits sur la place du marché. Pour le profil urbain qui aime sortir, lire, voir une exposition un dimanche pluvieux, la ville devient rapidement un déplacement obligatoire à 80 kilomètres de chez soi.",
+    reality:
+      "On classe les villes ≥ 15 000 hab. dont le score culture du seed tombe ≤ 4,5/10. La convention est positive : 10 = excellent pour l'offre culturelle, donc faible = pire. On amplifie le score quand la médiathèque municipale (via `computePublicServices`, convention 10 = pire) est elle-même fragile — combo bloquant où ni la scène culturelle ni l'investissement public lecture ne tiennent. Bonus quand aucun character-tag culturel (culturel, patrimoine, étudiant, festival, bohème, historique) ne ressort du seed : la commune n'affiche même pas la culture comme vocation. Bonus supplémentaire quand le score transport est lui aussi ≤ 4 (sortir hors ville coûte du temps et de l'argent — l'isolement culturel se cumule avec l'isolement modal). On retrouve massivement les sous-préfectures industrielles en reconversion, les villes péri-urbaines satellites sans politique culturelle propre, et les communes côtières qui vivent la saison touristique mais pas le reste de l'année.",
+    methodology:
+      "Severity = (5 − culture seed) × 2 + 1,4 si médiathèque ≥ 7/10 (ou +0,8 si médiathèque ≥ 5/10) + 0,5 si aucun tag culturel (culturel / patrimoine / étudiant / festival / bohème / historique) + 0,6 si transport seed ≤ 4 + 0,5 si population 30 000-80 000 hab. (taille où une scène labellisée et un cinéma indépendant deviennent attendus). Clampé à 10/10, filtré à severity ≥ 6. Sources sous-jacentes : DEPS-MC (Département des études, de la prospective et des statistiques du ministère de la Culture) pour les labels scènes nationales / SMAC / centres dramatiques, BNF observatoire 2024 pour les médiathèques, CNC pour le maillage cinéma art et essai, character-tags du seed propriétaire (vocations affichées). Caveat : la culture associative (MJC, ciné-clubs, festivals citoyens) ne remonte pas systématiquement dans les nomenclatures — une ville en saisie peut avoir une vraie scène alternative non labellisée.",
+    rank: rankDesertCulturel,
   },
 ];
 
