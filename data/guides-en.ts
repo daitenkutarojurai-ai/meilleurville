@@ -4408,78 +4408,6 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["toulouse vs bordeaux 2026", "which city france", "bordeaux or toulouse", "southwest france relocation", "moving to toulouse or bordeaux"],
   },
   {
-    slug: "strasbourg-living-guide-for-expats-2026",
-    title: "Living in Strasbourg: Europe at your doorstep — an honest guide",
-    metaTitle: "Living in Strasbourg 2026 — Expat Guide: Cost, Culture, Pros & Cons",
-    metaDesc: "Strasbourg: EU institutions, Germany 20 minutes away, exceptional cycling, world-class Christmas market, very affordable housing. What life really looks like here.",
-    category: "city-guide",
-    emoji: "🏰",
-    readMinutes: 8,
-    publishedAt: "2026-05-24",
-    updatedAt: "2026-05-24",
-    intro: "Strasbourg sits at the crossroads of France and Germany in a way that is more than geographic. It is the seat of the European Parliament, the Council of Europe, and the European Court of Human Rights, which means a genuinely cosmopolitan professional environment, a large international community, and a level of English proficiency well above average for a French city. It is also, for its size and quality of life, remarkably affordable. Here is what living here actually looks like.",
-    sections: [
-      {
-        heading: "Housing and cost of living",
-        body: "Strasbourg is one of the most underpriced large French cities relative to its quality of life. An average T2 (50m², 2-room flat) in the city centre rents for €800-1,100/month. Purchase prices run €3,200-4,500/m² in the centre and €2,500-3,400/m² in the peripheral neighbourhoods. For comparison, Lyon (which is broadly comparable in size and quality of life) runs €4,500-6,500/m² in the centre. The explanation is partly geographic: Strasbourg is not on the TGV main line to Paris in the same way as Bordeaux or Lyon (the TGV takes 1h47 to Paris via the LGV Est, which is excellent but less commercially celebrated), and its proximity to Germany creates a different dynamic than Atlantic or Mediterranean cities with their lifestyle premiums. The result for the resident is a genuinely beautiful city at provincial prices.",
-      },
-      {
-        heading: "The German proximity: practical implications",
-        body: "Kehl, the German town across the Rhine, is 15 minutes by tram from the Strasbourg centre. This matters practically. Large German supermarkets (ALDI, Kaufland, Rewe) are popular with Strasbourg residents for grocery shopping, since the price difference on packaged goods, meat, and beer can be 15-30%. Many Strasbourg residents also use the German healthcare system for some services (shorter waiting times for specialists in some areas), and the cross-border labour market creates employment options on both sides. If you work in Germany (Kehl, Offenburg, or further into Baden-Württemberg), you can live in Strasbourg, pay French housing prices, and earn German salaries, a significant financial advantage. German-speaking capability is not required in Strasbourg but it opens meaningful professional and social doors.",
-      },
-      {
-        heading: "The cycling city",
-        body: "Strasbourg consistently ranks as one of France's top cycling cities, competing with Lyon and Strasbourg in surveys of infrastructure quality. The Véloparc network provides over 600 km of cycling routes, and the modal share of cycling in Strasbourg (roughly 15% of trips) is among the highest of any French city. The city is largely flat (it sits on the Rhine plain), which helps enormously. The tram network (6 lines) is excellent: fast, frequent, reliable. This combination makes car-free living particularly practical. If you live in the city centre and work anywhere on a tram line, a car is genuinely optional.",
-      },
-      {
-        heading: "The cultural and social life",
-        body: "The Christmas market (Marché de Noël, late November to Christmas Eve) is among the oldest and largest in Europe. It is beautiful and worth experiencing once, though residents quickly tire of the tourist crowds. The Alsatian food culture is exceptional: winstubs (wine-serving restaurants with Alsatian specialities), an outstanding local wine tradition (Riesling, Pinot Gris, Gewurztraminer from the Alsatian wine route just south of the city), and German-influenced cooking that includes hearty dishes not found elsewhere in France. The EU community gives Strasbourg a cosmopolitan edge: you'll encounter more English, German, and a range of Eastern European languages in daily life than in comparably sized French cities. The Cour européenne des droits de l'homme and the EU institutions employ several thousand people, creating a significant professional international community.",
-      },
-      {
-        heading: "What Strasbourg lacks",
-        body: "The main criticisms from residents start with the weather: winters are cold and grey (Strasbourg is much more continental than Atlantic cities, with January temperatures regularly going below 0°C and snowfall that is not unusual). Summers are warm and sunny (the Alsatian wine route is stunning in summer), but the grey winter period from November to February is long. The rental market is tight due to the student population (Université de Strasbourg is one of the largest French universities with 50,000+ students), so finding accommodation can be competitive. The city can feel small for those used to the scale and diversity of Paris or Lyon. The nightlife is livelier than its image suggests but does not compare with Lyon or Paris in breadth.",
-      },
-    ],
-    relatedCities: ["strasbourg", "colmar", "mulhouse"],
-    tags: ["living in strasbourg 2026", "strasbourg expat guide", "alsace relocation", "eu institutions strasbourg", "strasbourg housing cost 2026"],
-  },
-  {
-    slug: "rennes-living-guide-for-expats-2026",
-    title: "Living in Rennes: Brittany's tech capital — an honest expat guide",
-    metaTitle: "Living in Rennes 2026 — Expat Guide: Cost, Tech Jobs, Cycling, Quality of Life",
-    metaDesc: "Rennes: France's best cycling city, strong tech sector, affordable housing, 2h10 from Paris by TGV. The honest guide to living in Brittany's capital.",
-    category: "city-guide",
-    emoji: "🚲",
-    readMinutes: 7,
-    publishedAt: "2026-05-24",
-    updatedAt: "2026-05-24",
-    intro: "Rennes appears in almost every French quality-of-life ranking, and the reputation is deserved, but not for the reasons you might assume. It is not particularly beautiful. It is not sunny. It is not cheap by small-city standards. What it is: extremely well-run, exceptionally well-connected, home to a strong tech and research economy, and one of the most liveable cities in France at the practical level of daily life. Here is the honest picture.",
-    sections: [
-      {
-        heading: "Housing and cost of living in 2026",
-        body: "Rennes has become more expensive over the past decade as demand caught up with quality of life. A T2 (50m²) in the centre rents for €850-1,100/month. Purchase prices in the historic centre (Arsenal, Thabor) run €4,000-5,200/m². Peripheral zones (Villejean, Maurepas) are €2,600-3,400/m², and the first suburban ring (Cesson-Sévigné, Saint-Grégoire) €3,000-4,200/m². For context, this is significantly cheaper than Bordeaux or Lyon in the centre, but more expensive than most French mid-size cities. The city centre is 20-25% cheaper than Bordeaux on housing, which matters if budget is a constraint. Rennes is not the 'affordable escape from Paris' it was 10 years ago, but relative to what it offers, the value is still real.",
-      },
-      {
-        heading: "The cycling infrastructure",
-        body: "Rennes has the best cycling infrastructure per capita of any French city, by most independent assessments. The network combines dedicated bike paths, shared bus-bike lanes on major axes, a 700+ km network of routes, and the Star Vélo electric bike-share system. The city is largely flat (except the Thabor hill, which is manageable). The cycling modal share is around 12-15% and rising. What this means in practice: if you work anywhere reachable by bike in the city centre or inner suburbs, you will not miss a car on a daily basis. The tram network (Lines A and B, with Line C projected for the 2030s) covers the main axes, and the bus network fills the gaps.",
-      },
-      {
-        heading: "Jobs and the tech economy",
-        body: "Rennes is often described as Brittany's Silicon Valley, which is exaggerated but contains truth. The city has a genuine tech cluster anchored by Orange (historically established here, with a major R&D centre), Thales (defence and digital), a growing cybersecurity ecosystem (Rennes is the French capital of cybersecurity research, home to CentraleSupélec Rennes, INRIA, and several key defence-adjacent cybersecurity firms), and a biotech sector around the CHU de Rennes. The Rennes tech scene is more embedded in research and institutional collaboration than the startup-driven scenes of Paris or Lyon. Salaries are 10-20% below Paris equivalents, but housing savings typically more than compensate for remote workers or professionals willing to relocate.",
-      },
-      {
-        heading: "The weather: clear-eyed",
-        body: "Brittany has an oceanic climate and Rennes is not on the coast, which means it gets the grey and the rain without the dramatic seafront. Annual sunshine is around 1,750 hours, comparable to Nantes, significantly below Bordeaux and about 30-35% below Nice or Montpellier. Winters are mild but wet and overcast from November to March. If you need regular sunshine, Rennes is not your city. The flip side is that summer in Rennes is often genuinely pleasant, warm without being brutal, and the surrounding countryside (Côtes-d'Armor, Morbihan coast) is accessible for weekend escapes. Many Rennes residents keep a healthy perspective on the weather by getting to the Breton coast (Dinard, Saint-Malo, Quiberon, Belle-Île) regularly.",
-      },
-      {
-        heading: "The Paris connection: the key underrated advantage",
-        body: "Rennes to Paris Montparnasse takes 1h27 by TGV (on the LGV Bretagne-Pays de la Loire, inaugurated 2017). This is genuinely transformative for Rennes as a professional base. You can work remotely from Rennes and be in Paris for a morning meeting, returning the same evening, or commute 2-3 times per month. The fare ranges from €30-80 depending on timing and booking advance, competitive with Paris commuter costs. Rennes to Nantes is 1h10 by train, and Rennes to Saint-Malo 40 minutes. The TGV connection puts Rennes in a rare category of French cities that genuinely expand Parisian professional options without requiring Parisian housing costs.",
-      },
-    ],
-    relatedCities: ["rennes", "cesson-sevigne", "saint-malo", "nantes"],
-    tags: ["living in rennes 2026", "rennes expat guide", "brittany tech city", "rennes cycling city", "rennes housing cost 2026"],
-  },
-  {
     slug: "france-rental-market-expats-guide-2026",
     title: "Renting in France: what expats need to know before signing",
     metaTitle: "Renting in France 2026 — Expat Guide: Guarantees, Deposits, Tenant Rights",
@@ -9382,42 +9310,6 @@ export const EN_GUIDES: EnGuide[] = [
     ],
     relatedCities: ["montpellier", "bordeaux", "toulouse", "biarritz", "marseille"],
     tags: ["digital nomads France 2026", "best cities digital nomads France", "Montpellier Bordeaux Toulouse nomad", "France nomad visa 2026", "co-working France digital nomad cost"],
-  },
-  {
-    slug: "french-school-system-expat-guide-2026",
-    title: "The French school system explained for expat families (2026)",
-    metaTitle: "French School System for Expats 2026: Complete Guide for Families",
-    metaDesc: "French schools explained for expat families: maternelle to lycée, bilingual options, international schools, bac, fees. How to navigate the French education system in 2026.",
-    category: "family",
-    emoji: "🏫",
-    readMinutes: 9,
-    publishedAt: "2026-05-26",
-    updatedAt: "2026-05-26",
-    intro: "France has a centralised, rigorous, and largely free public education system that delivers consistently good results, but it operates on rules and rhythms that are unfamiliar to most non-French families. Children of foreign residents are legally entitled to a place in the local public school system regardless of residency status. Understanding how the system is structured, what the options are, and how to navigate enrolment makes the difference between a smooth transition and months of confusion.",
-    sections: [
-      {
-        heading: "Structure: how French schooling is organised",
-        body: "French schooling proceeds through five stages: Maternelle (nursery school, ages 3–6, compulsory since 2019); École primaire (primary, ages 6–11, CP through CM2); Collège (lower secondary, ages 11–15, 6ème through 3ème); Lycée (upper secondary, ages 15–18, Seconde through Terminale); and Enseignement supérieur (higher education). School years are labelled descending: a child entering French school at 11 is in 6ème (6th grade equivalent) and counts down to Terminale. The Baccalauréat (Bac) at age 17–18 is the secondary school leaving qualification and university entrance examination combined. It is taken seriously: the national Bac rate is around 95%, but the 'mention très bien' (highest grade) is genuinely competitive.",
-      },
-      {
-        heading: "Public schools: free and legally accessible",
-        body: "Public school (école publique) is free for all children legally residing in France, including the children of foreign nationals without long-stay visas (though the school may ask for an address). Enrolment is through the local mairie for primary school and the académie (regional education authority) for secondary. You bring: proof of address (within 3 months), identity documents for child and parents, vaccination record (carnet de santé), and any previous school records (translated if non-French). The school assigns a class based on age; assessment for appropriate level placement in the class is common for children coming from foreign school systems. Language support: many public schools in cities with significant expat populations offer FLS (Français Langue Seconde) support, so ask explicitly at enrolment.",
-      },
-      {
-        heading: "Bilingual and international public options",
-        body: "The best-kept secret of French public education is the réseau FLAM (Français LAngue Maternelle) and the sections internationales. Sections internationales exist in selected public lycées and collèges and offer a bilingual education track (typically French + one of: English, German, Spanish, Italian, Portuguese, Chinese, Japanese, Dutch). Pupils follow most subjects in French but have additional teaching in the international language. The international Baccalaureate option (OIB — Option Internationale du Baccalauréat) offers a diploma variant recognised internationally. Key section internationale institutions: Lycée International de Saint-Germain-en-Laye (Paris region), Lycée International de Lyon, Cité Scolaire Internationale de Lyon, Lycée Honoré de Balzac Mitry-Mory. Free (public), but competitive entry for the international tracks.",
-      },
-      {
-        heading: "Private and international schools",
-        body: "Private schools in France fall into two categories: sous contrat (under contract with the state, where the curriculum follows national standards, teachers are state-employed, and fees are very low: €100–500/year) and hors contrat (independent, with their own curriculum, no state involvement, and commercial fees: €3,000–15,000/year). International schools following foreign curricula (British, American, IB) are hors contrat or fully private: Académie International de Paris (IB), American School of Paris, British School of Paris, International School of Nice, ISL (International School of Lyon), IST (International School of Toulouse). Fees typically run €10,000–25,000/year. These are appropriate for short-term expats, families with highly mobile careers, or parents who cannot commit to full French-language immersion for their children.",
-      },
-      {
-        heading: "Practical tips for the transition",
-        body: "Age equivalences create confusion: French CE2 ≈ UK Year 4 ≈ US Grade 3. Always convert by birth year, not grade level name. Calendar: the French school year runs September to July, with two-week holidays every 6 weeks (Toussaint, Noël, Février, Pâques) and a zone system (A/B/C) that staggers holiday dates to reduce infrastructure overload. Lunch: the school canteen (cantine) is not included in fees, so subscribe at the mairie or school administration; typical cost €3–5/day. Wednesday afternoons are traditionally school-free in France, and many French families use this slot for extracurricular activities (sport clubs, music schools). After-school care: the garderie/périscolaire is provided by the mairie in most communes until 18:30, with income-adjusted fees.",
-      },
-    ],
-    relatedCities: ["paris", "lyon", "bordeaux", "toulouse", "montpellier"],
-    tags: ["French school system expat 2026", "French schools children expat guide", "section internationale France expat", "international schools France 2026", "expat family France education system"],
   },
   {
     slug: "france-vs-spain-vs-portugal-expat-comparison-2026",
