@@ -23199,23 +23199,23 @@ export const GUIDES: Guide[] = [
     readMinutes: 7,
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
-    intro: "Paris ne se resume pas a la tour Eiffel, meme si elle vaut le coup. Voici 10 experiences concretes, du musee gratuit au quartier qu'on oublie toujours, pour une ville qui se vit a pied.",
+    intro: "Paris ne se résume pas à la tour Eiffel, même si elle vaut le coup. Voici 10 expériences concrètes, du musée gratuit au quartier qu'on oublie toujours, pour une ville qui se vit à pied.",
     sections: [
       {
         heading: "1. Flâner au marché d'Aligre un dimanche matin",
-        body: "Du haut de ses 324 m, la tour Eiffel se decoupe en trois niveaux : le 1er a 57 m, le 2e a 115 m et le sommet a 276 m. Comptez 11,80 EUR pour rejoindre le 2e etage par l'escalier, et 28,30 EUR pour grimper jusqu'au sommet en ascenseur. Reservez en ligne : les creneaux horaires vous evitent 1-2 h de queue. La vue porte a 360 deg et, par temps clair, vous voyez jusqu'a 70 km. La nuit, la tour scintille toutes les heures pendant 5 min, du coucher du soleil a 1 h du matin.",
+        body: "Du haut de ses 324 m, la tour Eiffel se découpe en trois niveaux : le 1er à 57 m, le 2e à 115 m et le sommet à 276 m. Comptez 11,80 € pour rejoindre le 2e étage par l'escalier, et 28,30 € pour grimper jusqu'au sommet en ascenseur. Réservez en ligne : les créneaux horaires vous évitent 1-2 h de queue. La vue porte à 360° et, par temps clair, vous voyez jusqu'à 70 km. La nuit, la tour scintille toutes les heures pendant 5 min, du coucher du soleil à 1 h du matin.",
       },
       {
         heading: "2. Traverser Paris à vélo via les berges de Seine",
-        body: "Plus grand musee du monde, le Louvre expose 35 000 oeuvres sur 73 000 m2 de galeries. On y croise la Joconde (salle 711, foule garantie), la Venus de Milo et les antiquites egyptiennes. Le billet coute 22 EUR, gratuit pour les moins de 18 ans et pour tous le 1er vendredi du mois apres 18 h. Tout voir en une visite est impossible, alors choisissez 1-2 ailes. Pour limiter l'attente, entrez par la pyramide ou par le passage Richelieu, souvent moins encombre.",
+        body: "Plus grand musée du monde, le Louvre expose 35 000 œuvres sur 73 000 m² de galeries. On y croise la Joconde (salle 711, foule garantie), la Vénus de Milo et les antiquités égyptiennes. Le billet coûte 22 €, gratuit pour les moins de 18 ans et pour tous le 1er vendredi du mois après 18 h. Tout voir en une visite est impossible, alors choisissez 1-2 ailes. Pour limiter l'attente, entrez par la pyramide ou par le passage Richelieu, souvent moins encombré.",
       },
       {
         heading: "3. Explorer la Coulée verte (Promenade plantée)",
-        body: "C'est sans doute le quartier le plus vivant de Paris, avec ses hotels particuliers du XVIIe, ses boutiques de createurs et ses falafels rue des Rosiers, qui font la file d'attente le dimanche. La place des Vosges, datee de 1612, reste la plus ancienne place de Paris. Cote musees, vous avez le musee Picasso et le musee Carnavalet, consacre a l'histoire de Paris et gratuit. Le dimanche apres-midi, tout est ouvert, ce qui reste rare a Paris.",
+        body: "C'est sans doute le quartier le plus vivant de Paris, avec ses hôtels particuliers du XVIIe, ses boutiques de créateurs et ses falafels rue des Rosiers, qui font la file d'attente le dimanche. La place des Vosges, datée de 1612, reste la plus ancienne place de Paris. Côté musées, vous avez le musée Picasso et le musée Carnavalet, consacré à l'histoire de Paris et gratuit. Le dimanche après-midi, tout est ouvert, ce qui reste rare à Paris.",
       },
       {
         heading: "4. Passer une soirée au Grand Rex ou au Louxor",
-        body: "Rouverte fin 2024 apres l'incendie de 2019, Notre-Dame se visite gratuitement, la reservation en ligne etant conseillee. La fleche a ete reconstruite et les vitraux nettoyes. Juste a cote, la Sainte-Chapelle aligne ses vitraux du XIIIe (11,50 EUR) et la Conciergerie complete la visite. En contrebas, les berges de Seine se pretent au pique-nique au coucher du soleil.",
+        body: "Rouverte fin 2024 après l'incendie de 2019, Notre-Dame se visite gratuitement, la réservation en ligne étant conseillée. La flèche a été reconstruite et les vitraux nettoyés. Juste à côté, la Sainte-Chapelle aligne ses vitraux du XIIIe (11,50 €) et la Conciergerie complète la visite. En contrebas, les berges de Seine se prêtent au pique-nique au coucher du soleil.",
       },
       {
         heading: "5. Déjeuner dans un bouillon parisien",
@@ -23319,19 +23319,19 @@ export const GUIDES: Guide[] = [
     readMinutes: 7,
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
-    intro: "Bordeaux, ce n'est pas que le vin, meme si le vin compte. Pierre blonde, fleuve, plages a 1 h : voici 10 choses concretes a y faire.",
+    intro: "Bordeaux, ce n'est pas que le vin, même si le vin compte. Pierre blonde, fleuve, plages à 1 h : voici 10 choses concrètes à y faire.",
     sections: [
       {
         heading: "1. Promenade matinale sur les quais de Garonne",
-        body: "Place de la Bourse trone le plus grand miroir d'eau du monde, avec ses 3 450 m2. Une lame d'eau de 2 cm court sur le granit et alterne brouillard et reflet toutes les 23 min. L'acces est libre et gratuit. L'ete, les enfants y barbotent, et au coucher du soleil, la facade XVIIIe s'y reflete : c'est la photo de Bordeaux.",
+        body: "Place de la Bourse trône le plus grand miroir d'eau du monde, avec ses 3 450 m². Une lame d'eau de 2 cm court sur le granit et alterne brouillard et reflet toutes les 23 min. L'accès est libre et gratuit. L'été, les enfants y barbotent, et au coucher du soleil, la façade XVIIIe s'y reflète : c'est la photo de Bordeaux.",
       },
       {
         heading: "2. Traverser le miroir d'eau un soir d'été",
-        body: "C'est la plus haute fleche du sud de la France, a 114 m. Il faut gravir 228 marches jusqu'a la plateforme, par un escalier etroit, pour decouvrir la vue sur les toits, le fleuve et les Landes au loin. L'entree coute 8 EUR. En bas, la basilique est classee UNESCO au titre des chemins de Compostelle.",
+        body: "C'est la plus haute flèche du sud de la France, à 114 m. Il faut gravir 228 marches jusqu'à la plateforme, par un escalier étroit, pour découvrir la vue sur les toits, le fleuve et les Landes au loin. L'entrée coûte 8 €. En bas, la basilique est classée UNESCO au titre des chemins de Compostelle.",
       },
       {
         heading: "3. Explorer la base sous-marine et Darwin Ecosystème",
-        body: "Ce musee du vin deploie 13 500 m2 dans une architecture en forme de carafe. Le parcours sensoriel inclut une degustation dans le billet a 22 EUR, et le belvedere du 8e etage offre une vue panoramique. Comptez 2-3 h sur place. La Cite du Vin est a 20 min a pied du centre, ou accessible en tram B.",
+        body: "Ce musée du vin déploie 13 500 m² dans une architecture en forme de carafe. Le parcours sensoriel inclut une dégustation dans le billet à 22 €, et le belvédère du 8e étage offre une vue panoramique. Comptez 2-3 h sur place. La Cité du Vin est à 20 min à pied du centre, ou accessible en tram B.",
       },
       {
         heading: "4. Visiter la Cité du Vin (ou juste le bar panoramique)",
@@ -24039,47 +24039,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
-    intro: "Metz la lorraine se pare de pierre de Jaumont doree, d'une cathedrale aux vitraux de Chagall, du Centre Pompidou-Metz et d'un quartier imperial allemand. Verte et fluviale, posee sur la Moselle et la Seille, elle reste souvent sous-estimee. Voici 10 choses a faire.",
+    intro: "Metz la lorraine se pare de pierre de Jaumont dorée, d'une cathédrale aux vitraux de Chagall, du Centre Pompidou-Metz et d'un quartier impérial allemand. Verte et fluviale, posée sur la Moselle et la Seille, elle reste souvent sous-estimée. Voici 10 choses à faire.",
     sections: [
       {
         heading: "1. Cathédrale Saint-Étienne — les vitraux de Chagall",
-        body: "Surnommee « la lanterne du Bon Dieu », la cathedrale Saint-Etienne possede la plus grande surface de vitraux gothiques de France (6 500 m²), entre verrieres de Chagall (XXe siecle) et vitraux medievaux. Batie en pierre de Jaumont doree, elle offre la 3e plus haute nef de France. L'entree est gratuite.",
+        body: "Surnommée « la lanterne du Bon Dieu », la cathédrale Saint-Étienne possède la plus grande surface de vitraux gothiques de France (6 500 m²), entre verrières de Chagall (XXe siècle) et vitraux médiévaux. Bâtie en pierre de Jaumont dorée, elle offre la 3e plus haute nef de France. L'entrée est gratuite.",
       },
       {
         heading: "2. Centre Pompidou-Metz",
-        body: "Le Centre Pompidou-Metz est l'antenne mosellane du Centre Pompidou, inauguree en 2010 et signee de l'architecte Shigeru Ban. Sa toiture spectaculaire evoque un chapeau chinois et l'on y voit de l'art moderne et contemporain de premier plan. L'entree coute environ 12 EUR, juste a cote de la gare : l'architecture vaut deja le deplacement.",
+        body: "Le Centre Pompidou-Metz est l'antenne mosellane du Centre Pompidou, inaugurée en 2010 et signée de l'architecte Shigeru Ban. Sa toiture spectaculaire évoque un chapeau chinois et l'on y voit de l'art moderne et contemporain de premier plan. L'entrée coûte environ 12 €, juste à côté de la gare : l'architecture vaut déjà le déplacement.",
       },
       {
         heading: "3. Promenade sur les bords de Moselle et l'Île du Saulcy",
-        body: "Le quartier imperial allemand est l'heritage de l'annexion (1871-1918). Sa gare monumentale, l'une des plus belles de France, voisine avec des avenues et des villas eclectiques, pour une architecture germanique unique en France. La balade y est gratuite.",
+        body: "Le quartier impérial allemand est l'héritage de l'annexion (1871-1918). Sa gare monumentale, l'une des plus belles de France, voisine avec des avenues et des villas éclectiques, pour une architecture germanique unique en France. La balade y est gratuite.",
       },
       {
         heading: "4. Quartier impérial (Nouveau Quartier)",
-        body: "La place Saint-Louis est une place medievale a arcades, ou se tenaient changeurs et banquiers au Moyen Age, bordee de maisons italianisantes. Terrasses et marche de Noel l'animent : c'est l'une des plus belles places de Metz, pleine de charme medieval. C'est gratuit.",
+        body: "La place Saint-Louis est une place médiévale à arcades, où se tenaient changeurs et banquiers au Moyen Âge, bordée de maisons italianisantes. Terrasses et marché de Noël l'animent : c'est l'une des plus belles places de Metz, pleine de charme médiéval. C'est gratuit.",
       },
       {
         heading: "5. Marché couvert les Halles de Metz",
-        body: "L'Esplanade deroule des jardins a la francaise face au mont Saint-Quentin. Son plan d'eau (pedalos et lac) et l'ile du Saulcy se pretent a la detente, au jogging et au pique-nique, sans oublier le temple neo-roman. Tres vert et gratuit.",
+        body: "L'Esplanade déroule des jardins à la française face au mont Saint-Quentin. Son plan d'eau (pédalos et lac) et l'île du Saulcy se prêtent à la détente, au jogging et au pique-nique, sans oublier le temple néo-roman. Très vert et gratuit.",
       },
       {
         heading: "6. Soirée dans le quartier Saint-Jacques",
-        body: "La Porte des Allemands est un pont fortifie medieval (XIIIe-XVe siecle), unique en France, enjambant la Seille. Symbole de Metz, elle accueille des expositions a l'interieur, souvent gratuites, et ses remparts se parcourent a pied. Tres photogenique.",
+        body: "La Porte des Allemands est un pont fortifié médiéval (XIIIe-XVe siècle), unique en France, enjambant la Seille. Symbole de Metz, elle accueille des expositions à l'intérieur, souvent gratuites, et ses remparts se parcourent à pied. Très photogénique.",
       },
       {
         heading: "7. Plan d'eau de la Moselle et kayak",
-        body: "Le marche couvert, installe dans un ancien palais episcopal, compte parmi les plus beaux de France, juste a cote de la cathedrale. On y trouve des produits lorrains : quiche, mirabelle, pate lorrain et fromages. C'est le ventre de Metz, parfait pour manger local.",
+        body: "Le marché couvert, installé dans un ancien palais épiscopal, compte parmi les plus beaux de France, juste à côté de la cathédrale. On y trouve des produits lorrains : quiche, mirabelle, pâté lorrain et fromages. C'est le ventre de Metz, parfait pour manger local.",
       },
       {
         heading: "8. Musée de la Cour d'Or",
-        body: "Le quartier Outre-Seille est le coin bobo-historique de la ville : ruelles, ateliers d'artistes, bars, restos et boutiques independantes. L'eglise Saint-Maximin y devoile des vitraux de Cocteau. Avec son ambiance village, c'est le Metz qui monte, et c'est gratuit.",
+        body: "Le quartier Outre-Seille est le coin bobo-historique de la ville : ruelles, ateliers d'artistes, bars, restos et boutiques indépendantes. L'église Saint-Maximin y dévoile des vitraux de Cocteau. Avec son ambiance village, c'est le Metz qui monte, et c'est gratuit.",
       },
       {
         heading: "9. Journée à Verdun",
-        body: "La gastronomie lorraine, c'est la vraie quiche lorraine, le pate lorrain, la mirabelle (en tarte ou en eau-de-vie), la madeleine de Commercy et les dragees de Verdun, a denicher au marche couvert et dans les restos du centre. Comptez 15-25 EUR par plat, pour un terroir genereux.",
+        body: "La gastronomie lorraine, c'est la vraie quiche lorraine, le pâté lorrain, la mirabelle (en tarte ou en eau-de-vie), la madeleine de Commercy et les dragées de Verdun, à dénicher au marché couvert et dans les restos du centre. Comptez 15-25 € par plat, pour un terroir généreux.",
       },
       {
         heading: "10. Mirabelles et quiche au marché de plein air",
-        body: "Le mont Saint-Quentin est une colline qui domine Metz, coiffee d'un fort militaire. La vue panoramique embrasse la ville et la Moselle, tandis que les sentiers de rando et le vignoble messin, en pleine renaissance, completent le tableau. A 15 min, c'est un poumon vert gratuit.",
+        body: "Le mont Saint-Quentin est une colline qui domine Metz, coiffée d'un fort militaire. La vue panoramique embrasse la ville et la Moselle, tandis que les sentiers de rando et le vignoble messin, en pleine renaissance, complètent le tableau. À 15 min, c'est un poumon vert gratuit.",
       },
     ],
     relatedCities: ["metz"],
@@ -24099,47 +24099,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
-    intro: "Angers l'angevine, capitale de l'Anjou, conjugue chateau medieval et tapisserie de l'Apocalypse, douceur angevine et schiste ardoise qui lui vaut le surnom de « ville noire et blanche », le tout sur l'itineraire de la Loire a velo. Son cadre de vie est regulierement classe parmi les meilleurs de France. Voici 10 choses a faire.",
+    intro: "Angers l'angevine, capitale de l'Anjou, conjugue château médiéval et tapisserie de l'Apocalypse, douceur angevine et schiste ardoise qui lui vaut le surnom de « ville noire et blanche », le tout sur l'itinéraire de la Loire à vélo. Son cadre de vie est régulièrement classé parmi les meilleurs de France. Voici 10 choses à faire.",
     sections: [
       {
         heading: "1. Château d'Angers et la Tapisserie de l'Apocalypse",
-        body: "Le chateau d'Angers est une forteresse medievale de 17 tours, aux courtines de schiste et de tuffeau. Il abrite la tapisserie de l'Apocalypse (XIVe siecle, 100 m de long), la plus grande tapisserie medievale au monde. Comptez environ 9,50 EUR : c'est un incontournable absolu.",
+        body: "Le château d'Angers est une forteresse médiévale de 17 tours, aux courtines de schiste et de tuffeau. Il abrite la tapisserie de l'Apocalypse (XIVe siècle, 100 m de long), la plus grande tapisserie médiévale au monde. Comptez environ 9,50 € : c'est un incontournable absolu.",
       },
       {
         heading: "2. Quartier de la Doutre et bords de Maine",
-        body: "Le centre historique du vieil Angers se parcourt entre ruelles et maisons a pans de bois. La Maison d'Adam (XVe siecle), l'une des plus belles maisons a colombages de France pour ses sculptures, en est le clou, tout pres de la place Sainte-Croix. Flanez : c'est gratuit.",
+        body: "Le centre historique du vieil Angers se parcourt entre ruelles et maisons à pans de bois. La Maison d'Adam (XVe siècle), l'une des plus belles maisons à colombages de France pour ses sculptures, en est le clou, tout près de la place Sainte-Croix. Flânez : c'est gratuit.",
       },
       {
         heading: "3. Marché de la Place du Ralliement",
-        body: "La cathedrale Saint-Maurice illustre le gothique angevin, dit Plantagenet, avec sa facade a trois fleches et ses vitraux des XIIe et XIIIe siecles. Un escalier monumental descend vers la Maine et des tapisseries ornent l'interieur. L'entree est gratuite, au coeur de la vieille ville.",
+        body: "La cathédrale Saint-Maurice illustre le gothique angevin, dit Plantagenet, avec sa façade à trois flèches et ses vitraux des XIIe et XIIIe siècles. Un escalier monumental descend vers la Maine et des tapisseries ornent l'intérieur. L'entrée est gratuite, au cœur de la vieille ville.",
       },
       {
         heading: "4. Vélo sur les bords de Loire vers Saumur",
-        body: "La galerie David d'Angers presente les sculptures de David d'Angers, sculpteur du XIXe siecle et enfant du pays, dans une ancienne abbatiale coiffee d'une verriere moderne. La lumiere y est magnifique. L'entree coute environ 6 EUR : un lieu unique et apaisant.",
+        body: "La galerie David d'Angers présente les sculptures de David d'Angers, sculpteur du XIXe siècle et enfant du pays, dans une ancienne abbatiale coiffée d'une verrière moderne. La lumière y est magnifique. L'entrée coûte environ 6 € : un lieu unique et apaisant.",
       },
       {
         heading: "5. Dégustation de Muscadet d'Anjou chez un vigneron",
-        body: "Le musee des Beaux-Arts occupe le logis Barrault (XVe siecle) et raconte autant les beaux-arts que l'histoire d'Angers. L'entree coute environ 6 EUR, dans un espace bien amenage depuis sa renovation de 2004, avec un jardin agreable. Comptez 1h30 a 2h, en plein centre.",
+        body: "Le musée des Beaux-Arts occupe le logis Barrault (XVe siècle) et raconte autant les beaux-arts que l'histoire d'Angers. L'entrée coûte environ 6 €, dans un espace bien aménagé depuis sa rénovation de 2004, avec un jardin agréable. Comptez 1h30 à 2h, en plein centre.",
       },
       {
         heading: "6. Musée des Beaux-Arts d'Angers",
-        body: "Terra Botanica est un parc a theme consacre au vegetal, unique en Europe, entre serres, jardins et attractions familiales. Le billet adulte coute environ 19,50 EUR, en peripherie. Ideal en famille au printemps et en ete, dans une ville qui se veut la capitale du vegetal.",
+        body: "Terra Botanica est un parc à thème consacré au végétal, unique en Europe, entre serres, jardins et attractions familiales. Le billet adulte coûte environ 19,50 €, en périphérie. Idéal en famille au printemps et en été, dans une ville qui se veut la capitale du végétal.",
       },
       {
         heading: "7. Soirée dans le quartier Saint-Michel",
-        body: "La Maine traverse la ville, et ses quais reamenages (promenade, cale de la Savatte, evenements) offrent une belle vue sur le chateau. On y court, on s'y detend, et le lac de Maine, base de loisirs, se trouve a proximite. C'est gratuit.",
+        body: "La Maine traverse la ville, et ses quais réaménagés (promenade, cale de la Savatte, événements) offrent une belle vue sur le château. On y court, on s'y détend, et le lac de Maine, base de loisirs, se trouve à proximité. C'est gratuit.",
       },
       {
         heading: "8. Jardins du Château et parc Balzac",
-        body: "La liqueur Cointreau est nee a Angers en 1875. La distillerie se visite au Carre Cointreau, a Saint-Barthelemy-d'Anjou, pour en decouvrir l'histoire, les alambics et une degustation. Comptez environ 12 EUR : le souvenir angevin par excellence.",
+        body: "La liqueur Cointreau est née à Angers en 1875. La distillerie se visite au Carré Cointreau, à Saint-Barthélemy-d'Anjou, pour en découvrir l'histoire, les alambics et une dégustation. Comptez environ 12 € : le souvenir angevin par excellence.",
       },
       {
         heading: "9. Abbaye de Fontevraud (30 minutes)",
-        body: "Angers se trouve sur l'itineraire de la Loire a velo. Les vignobles d'Anjou (Savennieres, coteaux du Layon, rose d'Anjou) proposent des degustations a proximite, et le velo file a plat le long de la Loire. A faire en voiture ou a velo.",
+        body: "Angers se trouve sur l'itinéraire de la Loire à vélo. Les vignobles d'Anjou (Savennières, coteaux du Layon, rosé d'Anjou) proposent des dégustations à proximité, et le vélo file à plat le long de la Loire. À faire en voiture ou à vélo.",
       },
       {
         heading: "10. Festival Premiers Plans (janvier) ou Trans-Musicales d'Angers",
-        body: "Pour une excursion dans la vallee de la Loire, plusieurs chateaux sont a portee : Brissac, le plus haut de France, a 40 min, Saumur a 40 min aussi, Angers faisant office de porte de la vallee des rois, classee a l'UNESCO. Vignobles et troglodytes complete le tableau. La voiture est conseillee.",
+        body: "Pour une excursion dans la vallée de la Loire, plusieurs châteaux sont à portée : Brissac, le plus haut de France, à 40 min, Saumur à 40 min aussi, Angers faisant office de porte de la vallée des rois, classée à l'UNESCO. Vignobles et troglodytes complète le tableau. La voiture est conseillée.",
       },
     ],
     relatedCities: ["angers"],
@@ -25339,7 +25339,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "10. Soirée dans le Mourillon et le Vieux-Toulon",
-        body: "Le quartier du Mourillon, avec sa plage urbaine et ses restaurants de poissons, est le secteur le plus animé de Toulon le soir. Le Vieux-Toulon, autour du Cours Lafayette et de la Place Puget, concentre les bars et les brasseries locales. La bouillabaisse toulonnaise, moins codifiée que la marseillaise, se mange dans les restaurants du port à 20-30 EUR.",
+        body: "Le quartier du Mourillon, avec sa plage urbaine et ses restaurants de poissons, est le secteur le plus animé de Toulon le soir. Le Vieux-Toulon, autour du Cours Lafayette et de la Place Puget, concentre les bars et les brasseries locales. La bouillabaisse toulonnaise, moins codifiée que la marseillaise, se mange dans les restaurants du port à 20-30 €.",
       },
     ],
     relatedCities: ["toulon"],
@@ -25363,7 +25363,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "1. Maison Pic et gastronomie valentinoise",
-        body: "La Maison Pic est l'une des tables les plus étoilées de France : 3 étoiles Michelin depuis 1934, aujourd'hui dirigée par Anne-Sophie Pic, seule femme à détenir 3 étoiles en France. Le restaurant gastronomique reste inaccessible côté prix, mais le Bistrot voisin (même complexe) propose une cuisine de qualité à 35-55 EUR. Le marché central de Valence, le samedi notamment, reflète la richesse du terroir drômois.",
+        body: "La Maison Pic est l'une des tables les plus étoilées de France : 3 étoiles Michelin depuis 1934, aujourd'hui dirigée par Anne-Sophie Pic, seule femme à détenir 3 étoiles en France. Le restaurant gastronomique reste inaccessible côté prix, mais le Bistrot voisin (même complexe) propose une cuisine de qualité à 35-55 €. Le marché central de Valence, le samedi notamment, reflète la richesse du terroir drômois.",
       },
       {
         heading: "2. Vercors — la forteresse naturelle",
@@ -25387,7 +25387,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "7. Chabeuil et vignoble de Crozes-Hermitage",
-        body: "Valence est au cœur de la Vallée du Rhône viticole. Crozes-Hermitage (syrah en rouge, roussanne et marsanne en blanc) est l'appellation la plus étendue de la région, avec les domaines Cave de Tain, Delas et Chapoutier à 20-30 min. Hermitage, la colline la plus célèbre de la viticulture mondiale (vins à plus de 300 EUR la bouteille), est visible depuis Valence.",
+        body: "Valence est au cœur de la Vallée du Rhône viticole. Crozes-Hermitage (syrah en rouge, roussanne et marsanne en blanc) est l'appellation la plus étendue de la région, avec les domaines Cave de Tain, Delas et Chapoutier à 20-30 min. Hermitage, la colline la plus célèbre de la viticulture mondiale (vins à plus de 300 € la bouteille), est visible depuis Valence.",
       },
       {
         heading: "8. Marché du samedi et produits drômois",
@@ -25567,7 +25567,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "7. Gastronomie alsacienne — les vraies winstubs",
-        body: "La winstub alsacienne est un restaurant populaire de bois sombre, aux tables serrées et aux nappes à carreaux. On y mange la choucroute garnie (charcuteries fumées, Riesling, porc local), le baeckeoffe (ragoût de viandes marinées au vin blanc), la flammekueche (tarte flambée), le kugelhopf (brioche aux amandes), ou encore le munster AOP fondu. Comptez 15 à 25 EUR pour un repas complet avec un verre de vin.",
+        body: "La winstub alsacienne est un restaurant populaire de bois sombre, aux tables serrées et aux nappes à carreaux. On y mange la choucroute garnie (charcuteries fumées, Riesling, porc local), le baeckeoffe (ragoût de viandes marinées au vin blanc), la flammekueche (tarte flambée), le kugelhopf (brioche aux amandes), ou encore le munster AOP fondu. Comptez 15 à 25 € pour un repas complet avec un verre de vin.",
       },
       {
         heading: "8. Turckheim et les villages fortifiés",
@@ -25668,7 +25668,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "2. Festival d'Avignon — le plus grand festival de théâtre du monde",
-        body: "Le festival d'Avignon (juillet, depuis 1947) rassemble 150 000 spectateurs pour 1 500 spectacles en trois semaines, dans 130 lieux dont la Cour d'honneur du Palais des Papes. Le festival IN (sélection officielle) coexiste avec le festival OFF (plus de 600 compagnies libres, tickets à 10-15 EUR). Jean Vilar l'a fondé sur le principe d'un « théâtre populaire accessible à tous ».",
+        body: "Le festival d'Avignon (juillet, depuis 1947) rassemble 150 000 spectateurs pour 1 500 spectacles en trois semaines, dans 130 lieux dont la Cour d'honneur du Palais des Papes. Le festival IN (sélection officielle) coexiste avec le festival OFF (plus de 600 compagnies libres, tickets à 10-15 €). Jean Vilar l'a fondé sur le principe d'un « théâtre populaire accessible à tous ».",
       },
       {
         heading: "3. Le pont Saint-Bénezet — sur le pont d'Avignon",
@@ -26143,47 +26143,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
-    intro: "Montauban, c'est la brique rose (avant Toulouse), le peintre Ingres et une bastide du XIIe siecle posee sur le Tarn. Cette ville moyenne de 60 000 habitants est souvent zappee entre Toulouse et le Sud-Ouest, et c'est a tort. Voici 10 choses concretes a faire.",
+    intro: "Montauban, c'est la brique rose (avant Toulouse), le peintre Ingres et une bastide du XIIe siècle posée sur le Tarn. Cette ville moyenne de 60 000 habitants est souvent zappée entre Toulouse et le Sud-Ouest, et c'est à tort. Voici 10 choses concrètes à faire.",
     sections: [
       {
         heading: "1. Place Nationale — les arcades de brique rose",
-        body: "La place Nationale est le coeur de la bastide : une place carree du XVIIe siecle, avec sa double rangee d'arcades en brique rose, parfaitement homogene. Deux incendies, en 1614 et 1649, l'ont reconstruite d'un coup, d'ou cette unite. On y trouve des terrasses de cafe et un marche le samedi matin. C'est la plus belle place a arcades du Sud-Ouest avec celle de Mirepoix, et elle devient photogenique a la lumiere du soir.",
+        body: "La place Nationale est le cœur de la bastide : une place carrée du XVIIe siècle, avec sa double rangée d'arcades en brique rose, parfaitement homogène. Deux incendies, en 1614 et 1649, l'ont reconstruite d'un coup, d'où cette unité. On y trouve des terrasses de café et un marché le samedi matin. C'est la plus belle place à arcades du Sud-Ouest avec celle de Mirepoix, et elle devient photogénique à la lumière du soir.",
       },
       {
         heading: "2. Musée Ingres-Bourdelle — deux génies en une collection",
-        body: "Le musee Ingres Bourdelle a rouvert en 2019 apres 4 ans de travaux et une renovation a 13 M EUR. Installe dans l'ancien palais episcopal au bord du Tarn, il rassemble 4 500 dessins d'Ingres, enfant du pays, ainsi que des sculptures de Bourdelle, autre Montalbanais. Le billet coute 8 EUR. Le clou, c'est la salle du Prince Noir, un sous-sol medieval voute. Comptez 1h30.",
+        body: "Le musée Ingres Bourdelle a rouvert en 2019 après 4 ans de travaux et une rénovation à 13 M €. Installé dans l'ancien palais épiscopal au bord du Tarn, il rassemble 4 500 dessins d'Ingres, enfant du pays, ainsi que des sculptures de Bourdelle, autre Montalbanais. Le billet coûte 8 €. Le clou, c'est la salle du Prince Noir, un sous-sol médiéval voûté. Comptez 1h30.",
       },
       {
         heading: "3. Pont Vieux — le pont médiéval du XIVe siècle",
-        body: "Le pont Vieux est un pont en brique du XIVe siecle (1304-1335) : 205 m, sept arches, construit pour resister aux crues du Tarn. Il a traverse 700 ans de crues. Il offre une vue sur le musee Ingres et les quais, et reste en usage. La perspective est belle depuis la rive opposee, surtout au coucher du soleil quand la brique rougit.",
+        body: "Le pont Vieux est un pont en brique du XIVe siècle (1304-1335) : 205 m, sept arches, construit pour résister aux crues du Tarn. Il a traversé 700 ans de crues. Il offre une vue sur le musée Ingres et les quais, et reste en usage. La perspective est belle depuis la rive opposée, surtout au coucher du soleil quand la brique rougit.",
       },
       {
         heading: "4. Les gorges de l'Aveyron — canoë et villages troglodytes",
-        body: "Sur la place Nationale et autour, le marche du samedi est l'un des bons marches du Sud-Ouest. On y trouve les produits du Tarn-et-Garonne : fruits (chasselas de Moissac AOP a l'automne, melons, prunes), ail, foie gras et fromages, de 7h a 13h. L'ambiance bastide sous les arcades vaut le detour. Allez-y tot le matin pour eviter la foule.",
+        body: "Sur la place Nationale et autour, le marché du samedi est l'un des bons marchés du Sud-Ouest. On y trouve les produits du Tarn-et-Garonne : fruits (chasselas de Moissac AOP à l'automne, melons, prunes), ail, foie gras et fromages, de 7h à 13h. L'ambiance bastide sous les arcades vaut le détour. Allez-y tôt le matin pour éviter la foule.",
       },
       {
         heading: "5. Moissac — l'abbatiale romane et son cloître",
-        body: "Le musee d'Histoire naturelle Victor Brun est un petit musee gratuit, avec ses collections d'oiseaux naturalises, ses fossiles et ses mineraux. Vieillot mais charmant, il est parfait avec des enfants ou par temps de pluie. Pres du centre, il ne prend qu'une heure. L'entree libre est suffisamment rare pour etre signalee.",
+        body: "Le musée d'Histoire naturelle Victor Brun est un petit musée gratuit, avec ses collections d'oiseaux naturalisés, ses fossiles et ses minéraux. Vieillot mais charmant, il est parfait avec des enfants ou par temps de pluie. Près du centre, il ne prend qu'une heure. L'entrée libre est suffisamment rare pour être signalée.",
       },
       {
         heading: "6. Lauzerte — le plus beau village de Quercy blanc",
-        body: "Une promenade amenagee longe le fleuve, sous le pont Vieux. On y trouve une base de loisirs et la location de canoe l'ete, avec vue sur la vieille ville perchee. Le jardin des plantes, cote sud, offre une pause verte et le pique-nique est possible. L'endroit est plus calme que le centre.",
+        body: "Une promenade aménagée longe le fleuve, sous le pont Vieux. On y trouve une base de loisirs et la location de canoë l'été, avec vue sur la vieille ville perchée. Le jardin des plantes, côté sud, offre une pause verte et le pique-nique est possible. L'endroit est plus calme que le centre.",
       },
       {
         heading: "7. Foie gras et cassoulet du Tarn-et-Garonne",
-        body: "L'eglise Saint-Jacques est une eglise gothique meridional en brique (XIIIe-XIVe siecle), avec son clocher octogonal toulousain. Elle se trouve sur le chemin de Compostelle, la voie du Puy. Sa facade reste criblee d'impacts de boulets du siege de 1621 : pendant les guerres de religion, Montauban etait une place forte protestante. L'entree est libre et l'interieur sobre.",
+        body: "L'église Saint-Jacques est une église gothique méridional en brique (XIIIe-XIVe siècle), avec son clocher octogonal toulousain. Elle se trouve sur le chemin de Compostelle, la voie du Puy. Sa façade reste criblée d'impacts de boulets du siège de 1621 : pendant les guerres de religion, Montauban était une place forte protestante. L'entrée est libre et l'intérieur sobre.",
       },
       {
         heading: "8. Canal de Garonne — véloroute et bastides",
-        body: "De l'autre cote du pont Vieux, le quartier Villebourbon est un ancien faubourg a l'ambiance plus populaire et boheme. On y trouve des cafes, des petits restos et des ateliers d'artistes, ainsi que la gare. Le quartier monte doucement en gamme. C'est un bon plan pour un verre loin des terrasses touristiques de la place Nationale.",
+        body: "De l'autre côté du pont Vieux, le quartier Villebourbon est un ancien faubourg à l'ambiance plus populaire et bohème. On y trouve des cafés, des petits restos et des ateliers d'artistes, ainsi que la gare. Le quartier monte doucement en gamme. C'est un bon plan pour un verre loin des terrasses touristiques de la place Nationale.",
       },
       {
         heading: "9. Négrepelisse et la forêt de Grésigne",
-        body: "A 30 km (30 min), l'abbaye Saint-Pierre de Moissac est un chef-d'oeuvre roman classe UNESCO : le tympan du portail (l'Apocalypse, XIIe siecle) et le cloitre aux 76 chapiteaux sculptes, le plus complet de France. Si vous ne deviez faire qu'une excursion depuis Montauban, ce serait celle-la. Moissac est aussi la capitale du chasselas.",
+        body: "À 30 km (30 min), l'abbaye Saint-Pierre de Moissac est un chef-d'œuvre roman classé UNESCO : le tympan du portail (l'Apocalypse, XIIe siècle) et le cloître aux 76 chapiteaux sculptés, le plus complet de France. Si vous ne deviez faire qu'une excursion depuis Montauban, ce serait celle-là. Moissac est aussi la capitale du chasselas.",
       },
       {
         heading: "10. Festival Jazz à Montauban",
-        body: "Au menu, la cuisine du Sud-Ouest : foie gras, magret, confit et cassoulet, ici plus proche de Toulouse que de Castelnaudary. En dessert ou en accompagnement, le chasselas de Moissac AOP s'impose. Les restos autour de la place Nationale, sous les arcades, sont nombreux : choisissez ceux que frequentent les locaux. Les vins de Fronton, a base de negrette, figurent a la carte.",
+        body: "Au menu, la cuisine du Sud-Ouest : foie gras, magret, confit et cassoulet, ici plus proche de Toulouse que de Castelnaudary. En dessert ou en accompagnement, le chasselas de Moissac AOP s'impose. Les restos autour de la place Nationale, sous les arcades, sont nombreux : choisissez ceux que fréquentent les locaux. Les vins de Fronton, à base de négrette, figurent à la carte.",
       },
     ],
     relatedCities: ["montauban"],
@@ -26203,47 +26203,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
-    intro: "Albi, c'est la plus grande cathedrale de brique du monde, le peintre Toulouse-Lautrec, ne ici, et une vieille ville entierement classee UNESCO, la Cite episcopale. Cette ville moyenne de 50 000 habitants posee sur le Tarn est ultra-concentree. Voici 10 choses concretes a faire.",
+    intro: "Albi, c'est la plus grande cathédrale de brique du monde, le peintre Toulouse-Lautrec, né ici, et une vieille ville entièrement classée UNESCO, la Cité épiscopale. Cette ville moyenne de 50 000 habitants posée sur le Tarn est ultra-concentrée. Voici 10 choses concrètes à faire.",
     sections: [
       {
         heading: "1. Cathédrale Sainte-Cécile — la cathédrale-forteresse de brique",
-        body: "La cathedrale Sainte-Cecile est la plus grande cathedrale de brique au monde : 113 m de long, construite de 1282 a 1480 apres la croisade des Albigeois, comme une forteresse, l'Eglise affirmant alors sa puissance face aux cathares. L'exterieur est austere, mais l'interieur explose : fresques Renaissance italiennes (18 000 m2, le plus grand ensemble de France), Jugement dernier monumental, jube en dentelle de pierre. La nef est gratuite, le choeur coute 5 EUR. Le contraste entre le dehors et le dedans est le vrai choc.",
+        body: "La cathédrale Sainte-Cécile est la plus grande cathédrale de brique au monde : 113 m de long, construite de 1282 à 1480 après la croisade des Albigeois, comme une forteresse, l'Église affirmant alors sa puissance face aux cathares. L'extérieur est austère, mais l'intérieur explose : fresques Renaissance italiennes (18 000 m², le plus grand ensemble de France), Jugement dernier monumental, jubé en dentelle de pierre. La nef est gratuite, le chœur coûte 5 €. Le contraste entre le dehors et le dedans est le vrai choc.",
       },
       {
         heading: "2. Musée Toulouse-Lautrec — le plus grand musée dédié à l'artiste",
-        body: "Installe dans le Palais de la Berbie, ancien palais episcopal et forteresse du XIIIe siecle, le musee Toulouse-Lautrec abrite la plus grande collection au monde du peintre, ne a Albi en 1864 : plus de 1 000 oeuvres et 31 affiches mythiques (le Moulin Rouge). Le billet coute 12 EUR. Les jardins du palais sont gratuits et donnent sur le Tarn. Comptez 2h.",
+        body: "Installé dans le Palais de la Berbie, ancien palais épiscopal et forteresse du XIIIe siècle, le musée Toulouse-Lautrec abrite la plus grande collection au monde du peintre, né à Albi en 1864 : plus de 1 000 œuvres et 31 affiches mythiques (le Moulin Rouge). Le billet coûte 12 €. Les jardins du palais sont gratuits et donnent sur le Tarn. Comptez 2h.",
       },
       {
         heading: "3. La vieille ville en brique — les ruelles médiévales",
-        body: "Les jardins du Palais de la Berbie sont des jardins a la francaise suspendus au-dessus du Tarn, gratuits et accessibles sans billet de musee. La terrasse panoramique domine la riviere, le Pont Vieux et le quartier. C'est le meilleur point de vue d'Albi pour zero euro. Allez-y au coucher du soleil quand la brique rougit. On y trouve des buis tailles et une roseraie.",
+        body: "Les jardins du Palais de la Berbie sont des jardins à la française suspendus au-dessus du Tarn, gratuits et accessibles sans billet de musée. La terrasse panoramique domine la rivière, le Pont Vieux et le quartier. C'est le meilleur point de vue d'Albi pour zéro euro. Allez-y au coucher du soleil quand la brique rougit. On y trouve des buis taillés et une roseraie.",
       },
       {
         heading: "4. Cordes-sur-Ciel — la bastide médiévale dans les nuages",
-        body: "Le Pont Vieux est l'un des plus vieux ponts de France encore en service : datant de 1035, en brique sur soubassement de pierre, 151 m, huit arches. Il a survecu a presque mille ans de crues. Il offre une vue iconique sur la cathedrale et le Palais de la Berbie depuis l'autre rive, le quartier de la Madeleine. Photographiez-le au lever du soleil.",
+        body: "Le Pont Vieux est l'un des plus vieux ponts de France encore en service : datant de 1035, en brique sur soubassement de pierre, 151 m, huit arches. Il a survécu à presque mille ans de crues. Il offre une vue iconique sur la cathédrale et le Palais de la Berbie depuis l'autre rive, le quartier de la Madeleine. Photographiez-le au lever du soleil.",
       },
       {
         heading: "5. Les gorges du Tarn — canoë et causse méjean",
-        body: "Le centre medieval, c'est un dedale de ruelles, d'hotels particuliers de pastel (le commerce du bleu a enrichi Albi aux XVe-XVIe siecles) et de maisons a colombages. Ne manquez pas la Maison du Vieil Alby, gratuite, la rue Toulouse-Lautrec et la place Savene. Tout se fait a pied en 1h a 2h. Le pastel a fait la fortune de la ville avant l'indigo.",
+        body: "Le centre médiéval, c'est un dédale de ruelles, d'hôtels particuliers de pastel (le commerce du bleu a enrichi Albi aux XVe-XVIe siècles) et de maisons à colombages. Ne manquez pas la Maison du Vieil Alby, gratuite, la rue Toulouse-Lautrec et la place Savène. Tout se fait à pied en 1h à 2h. Le pastel a fait la fortune de la ville avant l'indigo.",
       },
       {
         heading: "6. Gaillac — le vignoble le plus ancien de France",
-        body: "La collegiale Saint-Salvi est une eglise romane et gothique (XIe-XIIIe siecle) en plein centre, souvent zappee au profit de la cathedrale. Son cloitre paisible (XIIIe siecle) revele un melange roman et gothique visible dans la pierre et la brique. L'entree est libre. C'est une pause calme a deux pas de l'agitation.",
+        body: "La collégiale Saint-Salvi est une église romane et gothique (XIe-XIIIe siècle) en plein centre, souvent zappée au profit de la cathédrale. Son cloître paisible (XIIIe siècle) révèle un mélange roman et gothique visible dans la pierre et la brique. L'entrée est libre. C'est une pause calme à deux pas de l'agitation.",
       },
       {
         heading: "7. Le Sidobre — chaos granitique des Monts de Lacaune",
-        body: "Le marche couvert occupe une halle du XIXe siecle, a la structure metallique type Baltard, ouverte du mardi au dimanche matin. On y trouve les produits du Tarn : ail rose de Lautrec AOP, charcuterie, fromages, vins de Gaillac. Un bar a huitres s'y installe le week-end. Le samedi, un marche de plein air s'ajoute autour. Bonne adresse pour dejeuner sur le pouce.",
+        body: "Le marché couvert occupe une halle du XIXe siècle, à la structure métallique type Baltard, ouverte du mardi au dimanche matin. On y trouve les produits du Tarn : ail rose de Lautrec AOP, charcuterie, fromages, vins de Gaillac. Un bar à huîtres s'y installe le week-end. Le samedi, un marché de plein air s'ajoute autour. Bonne adresse pour déjeuner sur le pouce.",
       },
       {
         heading: "8. Castres — le musée Goya hors du commun",
-        body: "A 25 km (30 min), Cordes-sur-Ciel est une cite medievale perchee (1222), classee parmi les plus beaux villages, avec ses ruelles pavees en forte pente et ses maisons gothiques sculptees. La vue depuis le sommet est imprenable. C'est touristique, mais justifie. Combinez avec Albi sur un week-end. Evitez le plein ete, entre la foule et la montee raide sous le soleil.",
+        body: "À 25 km (30 min), Cordes-sur-Ciel est une cité médiévale perchée (1222), classée parmi les plus beaux villages, avec ses ruelles pavées en forte pente et ses maisons gothiques sculptées. La vue depuis le sommet est imprenable. C'est touristique, mais justifié. Combinez avec Albi sur un week-end. Évitez le plein été, entre la foule et la montée raide sous le soleil.",
       },
       {
         heading: "9. Le pastel de Cocagne — l'or bleu du Lauragais",
-        body: "Sur les bords du Tarn, une promenade longe les berges avec vue sur la Cite episcopale. L'ete, une croisiere en gabarre, le bateau traditionnel, permet de voir la cathedrale depuis l'eau en 30 min. La base de loisirs de Pratgraussals se prete au pique-nique. La berge cote Madeleine offre la meilleure photo de la cathedrale.",
+        body: "Sur les bords du Tarn, une promenade longe les berges avec vue sur la Cité épiscopale. L'été, une croisière en gabarre, le bateau traditionnel, permet de voir la cathédrale depuis l'eau en 30 min. La base de loisirs de Pratgraussals se prête au pique-nique. La berge côté Madeleine offre la meilleure photo de la cathédrale.",
       },
       {
         heading: "10. Marché bio et produits du Tarn",
-        body: "Au menu, les specialites du Tarn : ail rose de Lautrec AOP, gaillac (vins rouges et blancs, l'un des plus vieux vignobles de France), navets de Lautrec et fouace, une brioche. Les restos de la vieille ville autour de la cathedrale sont nombreux : evitez les terrasses les plus touristiques. En aperitif, le gaillac perle, legerement petillant, s'impose.",
+        body: "Au menu, les spécialités du Tarn : ail rose de Lautrec AOP, gaillac (vins rouges et blancs, l'un des plus vieux vignobles de France), navets de Lautrec et fouace, une brioche. Les restos de la vieille ville autour de la cathédrale sont nombreux : évitez les terrasses les plus touristiques. En apéritif, le gaillac perlé, légèrement pétillant, s'impose.",
       },
     ],
     relatedCities: ["albi"],
@@ -26263,47 +26263,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
-    intro: "Tarbes, c'est la porte des Pyrenees, le jardin Massey et le cheval anglo-arabe. Cette prefecture des Hautes-Pyrenees de 40 000 habitants est souvent traversee en route vers Lourdes ou les stations, mais elle a de quoi retenir une journee. Voici 10 choses concretes a faire.",
+    intro: "Tarbes, c'est la porte des Pyrénées, le jardin Massey et le cheval anglo-arabe. Cette préfecture des Hautes-Pyrénées de 40 000 habitants est souvent traversée en route vers Lourdes ou les stations, mais elle a de quoi retenir une journée. Voici 10 choses concrètes à faire.",
     sections: [
       {
         heading: "1. Le Jardin Massey — l'un des plus beaux jardins du Sud-Ouest",
-        body: "Le jardin Massey est le joyau de Tarbes : un parc a l'anglaise de 11 ha cree au XIXe siecle par le botaniste Placide Massey. On y trouve des arbres rares (sequoias, ginkgos), un cloitre medieval remonte pierre par pierre, une orangerie et des paons en liberte. L'entree est gratuite. Le musee Massey, qui rassemble les Beaux-Arts et le musee des Hussards, est a l'interieur. C'est le meilleur endroit de la ville, point.",
+        body: "Le jardin Massey est le joyau de Tarbes : un parc à l'anglaise de 11 ha créé au XIXe siècle par le botaniste Placide Massey. On y trouve des arbres rares (séquoias, ginkgos), un cloître médiéval remonté pierre par pierre, une orangerie et des paons en liberté. L'entrée est gratuite. Le musée Massey, qui rassemble les Beaux-Arts et le musée des Hussards, est à l'intérieur. C'est le meilleur endroit de la ville, point.",
       },
       {
         heading: "2. Maison natale du maréchal Foch",
-        body: "Installe dans le jardin Massey, le musee des Hussards est unique en Europe sur l'histoire de la cavalerie legere : uniformes, sabres, peintures. Tarbes etait une ville de garnison. Le billet, combine avec les Beaux-Arts, coute environ 5 EUR. Il est plus interessant qu'il n'y parait, meme sans passion militaire. Comptez 1h.",
+        body: "Installé dans le jardin Massey, le musée des Hussards est unique en Europe sur l'histoire de la cavalerie légère : uniformes, sabres, peintures. Tarbes était une ville de garnison. Le billet, combiné avec les Beaux-Arts, coûte environ 5 €. Il est plus intéressant qu'il n'y paraît, même sans passion militaire. Comptez 1h.",
       },
       {
         heading: "3. Haras national de Tarbes — le cheval tarbais",
-        body: "C'est la maison ou est ne Ferdinand Foch en 1851, commandant en chef allie en 1918 et artisan de la victoire. Le musee est gratuit, avec un interieur bourgeois XIXe d'epoque et des souvenirs militaires. Petit mais soigne, il aide a comprendre le personnage et son epoque. Il se trouve au centre-ville.",
+        body: "C'est la maison où est né Ferdinand Foch en 1851, commandant en chef allié en 1918 et artisan de la victoire. Le musée est gratuit, avec un intérieur bourgeois XIXe d'époque et des souvenirs militaires. Petit mais soigné, il aide à comprendre le personnage et son époque. Il se trouve au centre-ville.",
       },
       {
         heading: "4. Lourdes — le sanctuaire marial le plus visité du monde",
-        body: "Le Haras de Tarbes est un haras national fonde en 1806 par Napoleon, berceau du cheval anglo-arabe, un croisement local devenu race a part entiere. La visite guidee fait decouvrir les ecuries, le manege et la sellerie, avec des spectacles equestres l'ete. Le billet coute environ 7 EUR. Le haras s'etend sur 9 ha en pleine ville. Reservez la visite guidee, seul moyen de tout voir.",
+        body: "Le Haras de Tarbes est un haras national fondé en 1806 par Napoléon, berceau du cheval anglo-arabe, un croisement local devenu race à part entière. La visite guidée fait découvrir les écuries, le manège et la sellerie, avec des spectacles équestres l'été. Le billet coûte environ 7 €. Le haras s'étend sur 9 ha en pleine ville. Réservez la visite guidée, seul moyen de tout voir.",
       },
       {
         heading: "5. Gavarnie — le cirque et la brèche de Roland",
-        body: "La cathedrale Notre-Dame-de-la-Sede, romane et gothique (XIIe-XIVe siecle), melange la brique et les galets du Gave. Discrete, elle est souvent fermee hors offices. Sa coupole est interessante. L'entree est libre quand elle est ouverte. Ce n'est pas le clou de la ville, mais elle se trouve sur le chemin du centre historique.",
+        body: "La cathédrale Notre-Dame-de-la-Sède, romane et gothique (XIIe-XIVe siècle), mélange la brique et les galets du Gave. Discrète, elle est souvent fermée hors offices. Sa coupole est intéressante. L'entrée est libre quand elle est ouverte. Ce n'est pas le clou de la ville, mais elle se trouve sur le chemin du centre historique.",
       },
       {
         heading: "6. Pic du Midi de Bigorre — l'observatoire astronomique au sommet",
-        body: "La place Marcadieu est la grande place du centre, avec sa fontaine des Quatre-Vallees (XIXe siecle, allegories des vallees pyreneennes). Un marche s'y tient le jeudi et le samedi matin, l'un des plus grands du Sud-Ouest. On y trouve des terrasses et la halle Marcadieu (XIXe, metallique) pour les produits frais. C'est le coeur commercant de Tarbes.",
+        body: "La place Marcadieu est la grande place du centre, avec sa fontaine des Quatre-Vallées (XIXe siècle, allégories des vallées pyrénéennes). Un marché s'y tient le jeudi et le samedi matin, l'un des plus grands du Sud-Ouest. On y trouve des terrasses et la halle Marcadieu (XIXe, métallique) pour les produits frais. C'est le cœur commerçant de Tarbes.",
       },
       {
         heading: "7. Cauterets — ski et thermalisme pyrénéen",
-        body: "Le marche du samedi, place Marcadieu, est l'un des plus grands du Sud-Ouest. On y trouve les produits des Hautes-Pyrenees : haricot tarbais AOC, oignon de Trebons, mouton de Bareges-Gavarnie AOP, fromages d'estive, gateau a la broche, de 7h a 13h. La halle s'ajoute au plein air. Venez surtout pour le haricot tarbais, la star locale.",
+        body: "Le marché du samedi, place Marcadieu, est l'un des plus grands du Sud-Ouest. On y trouve les produits des Hautes-Pyrénées : haricot tarbais AOC, oignon de Trébons, mouton de Barèges-Gavarnie AOP, fromages d'estive, gâteau à la broche, de 7h à 13h. La halle s'ajoute au plein air. Venez surtout pour le haricot tarbais, la star locale.",
       },
       {
         heading: "8. Saint-Bertrand-de-Comminges — la cathédrale et la cité gallo-romaine",
-        body: "Le quartier de l'Arsenal, autour du Pari, est un ancien arsenal militaire reconverti : une scene culturelle, la salle de spectacle Le Pari, une friche creative. Tarbes garde une forte empreinte militaire, liee a l'artillerie. La programmation melange concerts et arts vivants. Verifiez l'agenda. C'est le cote vivant et actuel de la ville.",
+        body: "Le quartier de l'Arsenal, autour du Pari, est un ancien arsenal militaire reconverti : une scène culturelle, la salle de spectacle Le Pari, une friche créative. Tarbes garde une forte empreinte militaire, liée à l'artillerie. La programmation mélange concerts et arts vivants. Vérifiez l'agenda. C'est le côté vivant et actuel de la ville.",
       },
       {
         heading: "9. Randonnée GR10 — la traversée des Pyrénées",
-        body: "A 20 km (20 min), Lourdes abrite le sanctuaire (2e ville hoteliere de France apres Paris, avec 6 M de pelerins par an), la grotte de Massabielle et le chateau fort. Que vous soyez croyant ou non, le phenomene vaut le coup d'oeil. Un train direct relie Tarbes a Lourdes, et l'excursion tient en une demi-journee.",
+        body: "À 20 km (20 min), Lourdes abrite le sanctuaire (2e ville hôtelière de France après Paris, avec 6 M de pèlerins par an), la grotte de Massabielle et le château fort. Que vous soyez croyant ou non, le phénomène vaut le coup d'œil. Un train direct relie Tarbes à Lourdes, et l'excursion tient en une demi-journée.",
       },
       {
         heading: "10. Marché et gastronomie des Hautes-Pyrénées",
-        body: "Au menu, les specialites des Hautes-Pyrenees : haricot tarbais (en garbure, en cassoulet), mouton de Bareges-Gavarnie AOP, garbure (une soupe-repas montagnarde), gateau a la broche, fromages d'estive de brebis. Les restos se concentrent au centre et autour de la place Marcadieu. L'hiver, la garbure est copieuse et pas chere. Les vins de Madiran sont a cote.",
+        body: "Au menu, les spécialités des Hautes-Pyrénées : haricot tarbais (en garbure, en cassoulet), mouton de Barèges-Gavarnie AOP, garbure (une soupe-repas montagnarde), gâteau à la broche, fromages d'estive de brebis. Les restos se concentrent au centre et autour de la place Marcadieu. L'hiver, la garbure est copieuse et pas chère. Les vins de Madiran sont à côté.",
       },
     ],
     relatedCities: ["tarbes"],
@@ -26323,47 +26323,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
-    intro: "Niort, c'est le donjon de Richard Coeur de Lion, la porte du Marais poitevin et la capitale des mutuelles. Cette prefecture des Deux-Sevres de 60 000 habitants est souvent reduite a son role administratif, mais le Marais en fait une vraie base verte. Voici 10 choses concretes a faire.",
+    intro: "Niort, c'est le donjon de Richard Cœur de Lion, la porte du Marais poitevin et la capitale des mutuelles. Cette préfecture des Deux-Sèvres de 60 000 habitants est souvent réduite à son rôle administratif, mais le Marais en fait une vraie base verte. Voici 10 choses concrètes à faire.",
     sections: [
       {
         heading: "1. Marais poitevin — la Venise verte en barque",
-        body: "Le Donjon de Niort est une forteresse romane du XIIe siecle commencee par Henri II Plantagenet et Richard Coeur de Lion : deux tours jumelles massives, l'un des plus grands donjons romans d'Europe. Il abrite un musee d'archeologie et d'ethnographie. Le billet coute environ 4 EUR. Montez en haut pour la vue sur la Sevre Niortaise et les toits. C'est le symbole de la ville.",
+        body: "Le Donjon de Niort est une forteresse romane du XIIe siècle commencée par Henri II Plantagenêt et Richard Cœur de Lion : deux tours jumelles massives, l'un des plus grands donjons romans d'Europe. Il abrite un musée d'archéologie et d'ethnographie. Le billet coûte environ 4 €. Montez en haut pour la vue sur la Sèvre Niortaise et les toits. C'est le symbole de la ville.",
       },
       {
         heading: "2. Coulon — la capitale du Marais mouillé",
-        body: "A 10 km a l'ouest, le Marais poitevin couvre 100 000 ha, dont la Venise verte : un reseau de canaux sous une voute d'arbres, l'eau couverte de lentilles vertes. La promenade en barque, avec ou sans guide-batelier, part de Coulon, le village principal, ou de Magne. Comptez 1h a 2h. C'est l'experience signature de la region. Reservez l'ete.",
+        body: "À 10 km à l'ouest, le Marais poitevin couvre 100 000 ha, dont la Venise verte : un réseau de canaux sous une voûte d'arbres, l'eau couverte de lentilles vertes. La promenade en barque, avec ou sans guide-batelier, part de Coulon, le village principal, ou de Magné. Comptez 1h à 2h. C'est l'expérience signature de la région. Réservez l'été.",
       },
       {
         heading: "3. Donjon de Niort — la forteresse Plantagenêt",
-        body: "A 11 km, Coulon est le plus joli village du Marais poitevin : maisons basses blanches au bord de la Sevre, embarcaderes pour les barques, Maison du Marais poitevin (centre d'interpretation). On y loue des barques, des canoes et des velos. Les restos au bord de l'eau proposent anguilles et escargots. C'est la base ideale pour explorer la Venise verte.",
+        body: "À 11 km, Coulon est le plus joli village du Marais poitevin : maisons basses blanches au bord de la Sèvre, embarcadères pour les barques, Maison du Marais poitevin (centre d'interprétation). On y loue des barques, des canoës et des vélos. Les restos au bord de l'eau proposent anguilles et escargots. C'est la base idéale pour explorer la Venise verte.",
       },
       {
         heading: "4. Le marché de Niort et les produits du Poitou",
-        body: "Les Halles de Niort forment un marche couvert Belle Epoque (1869, structure metallique type Baltard), l'un des plus beaux de la region. Il est ouvert plusieurs matins par semaine, le plus grand etant le samedi. On y trouve les produits des Deux-Sevres : angelique de Niort (plante confite, specialite unique), tourteau fromager, mojhettes (haricots), chevre. C'est le coeur gourmand de la ville.",
+        body: "Les Halles de Niort forment un marché couvert Belle Époque (1869, structure métallique type Baltard), l'un des plus beaux de la région. Il est ouvert plusieurs matins par semaine, le plus grand étant le samedi. On y trouve les produits des Deux-Sèvres : angélique de Niort (plante confite, spécialité unique), tourteau fromager, mojhettes (haricots), chèvre. C'est le cœur gourmand de la ville.",
       },
       {
         heading: "5. Melle — les mines d'argent carolingiennes",
-        body: "Le Pilori, l'ancien hotel de ville (XVIe siecle, Renaissance), trone au coeur des rues medievales. On y arpente des ruelles commercantes, des maisons anciennes et la rue Saint-Jean. Le centre est compact et tout se fait a pied. Moins spectaculaire que le donjon, il reste agreable. Le Pilori accueille parfois des expositions temporaires.",
+        body: "Le Pilori, l'ancien hôtel de ville (XVIe siècle, Renaissance), trône au cœur des rues médiévales. On y arpente des ruelles commerçantes, des maisons anciennes et la rue Saint-Jean. Le centre est compact et tout se fait à pied. Moins spectaculaire que le donjon, il reste agréable. Le Pilori accueille parfois des expositions temporaires.",
       },
       {
         heading: "6. Fontenay-le-Comte — la ville de Rabelais",
-        body: "Une promenade amenagee longe la Sevre Niortaise en plein centre : la Coulee verte, ses jardins et ses passerelles. On peut louer un canoe pour descendre vers le Marais. Le parc de la Breche, reamenage, forme une vaste esplanade. C'est un poumon vert urbain et gratuit, qui se prolonge a pied ou a velo jusqu'au Marais.",
+        body: "Une promenade aménagée longe la Sèvre Niortaise en plein centre : la Coulée verte, ses jardins et ses passerelles. On peut louer un canoë pour descendre vers le Marais. Le parc de la Brèche, réaménagé, forme une vaste esplanade. C'est un poumon vert urbain et gratuit, qui se prolonge à pied ou à vélo jusqu'au Marais.",
       },
       {
         heading: "7. Abbaye de Saint-Maixent-l'École",
-        body: "Le musee Bernard d'Agesci est un musee municipal (Beaux-Arts, histoire naturelle, ethnographie) installe dans un ancien lycee de jeunes filles. Les collections sont eclectiques, dont une horlogerie monumentale. L'entree est gratuite ou presque. Vieillot mais riche, il est parfait pour un jour de pluie. Il se trouve au centre-ville.",
+        body: "Le musée Bernard d'Agesci est un musée municipal (Beaux-Arts, histoire naturelle, ethnographie) installé dans un ancien lycée de jeunes filles. Les collections sont éclectiques, dont une horlogerie monumentale. L'entrée est gratuite ou presque. Vieillot mais riche, il est parfait pour un jour de pluie. Il se trouve au centre-ville.",
       },
       {
         heading: "8. Parthenay — la cité médiévale de la Gâtine",
-        body: "Le Marais se prete au velo : des pistes plates longent les canaux, entre Niort, Coulon et les villages. La location se fait a Coulon ou a Niort. Le reseau est balise et l'ombre quasi continue sous les frenes. C'est une alternative ou un complement a la barque, une demi-journee facile dans un paysage unique en France.",
+        body: "Le Marais se prête au vélo : des pistes plates longent les canaux, entre Niort, Coulon et les villages. La location se fait à Coulon ou à Niort. Le réseau est balisé et l'ombre quasi continue sous les frênes. C'est une alternative ou un complément à la barque, une demi-journée facile dans un paysage unique en France.",
       },
       {
         heading: "9. Vélo dans le Marais — la piste cyclable des Deux-Sèvres",
-        body: "La Rochelle est a 65 km (50 min), avec le Vieux-Port, les tours et l'ocean. Le Puy du Fou, parc historique elu meilleur parc du monde plusieurs fois, est a 90 km au nord. Niort est bien placee, sur l'autoroute A10 et avec une gare TGV. De quoi prolonger le sejour au-dela du Marais.",
+        body: "La Rochelle est à 65 km (50 min), avec le Vieux-Port, les tours et l'océan. Le Puy du Fou, parc historique élu meilleur parc du monde plusieurs fois, est à 90 km au nord. Niort est bien placée, sur l'autoroute A10 et avec une gare TGV. De quoi prolonger le séjour au-delà du Marais.",
       },
       {
         heading: "10. La Rochelle — l'Atlantique à 60 km",
-        body: "Au menu, les specialites des Deux-Sevres et du Marais : angelique de Niort (confite, en liqueur, en gateau, quasi unique au monde), tourteau fromager (un gateau au fromage de chevre, dome noir), mojhettes (haricots blancs locaux), anguilles et escargots, les lumas, du Marais, beurre Charentes-Poitou AOP. Les restos se trouvent au centre et a Coulon, au bord de l'eau.",
+        body: "Au menu, les spécialités des Deux-Sèvres et du Marais : angélique de Niort (confite, en liqueur, en gâteau, quasi unique au monde), tourteau fromager (un gâteau au fromage de chèvre, dôme noir), mojhettes (haricots blancs locaux), anguilles et escargots, les lumas, du Marais, beurre Charentes-Poitou AOP. Les restos se trouvent au centre et à Coulon, au bord de l'eau.",
       },
     ],
     relatedCities: ["niort"],
@@ -26382,47 +26382,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
-    intro: "Angouleme, c'est la BD (capitale mondiale, avec son festival en janvier), une ville haute ceinte de remparts et des murs peints geants. Cette prefecture de la Charente de 40 000 habitants est posee sur un plateau au-dessus de la Charente. Voici 10 choses concretes a faire.",
+    intro: "Angoulême, c'est la BD (capitale mondiale, avec son festival en janvier), une ville haute ceinte de remparts et des murs peints géants. Cette préfecture de la Charente de 40 000 habitants est posée sur un plateau au-dessus de la Charente. Voici 10 choses concrètes à faire.",
     sections: [
       {
         heading: "1. Festival International de la BD — le plus grand festival BD du monde",
-        body: "La Cite internationale de la BD et de l'image est le temple de la bande dessinee : d'anciens chais reconvertis au bord de la Charente, signes de l'architecte Roland Castro. On y trouve le musee de la BD (planches originales, histoire du 9e art), une bibliotheque, un cinema d'art et essai et une librairie. Le billet du musee coute environ 7 EUR. C'est le pelerinage obligatoire pour tout amateur de BD. Comptez 2h.",
+        body: "La Cité internationale de la BD et de l'image est le temple de la bande dessinée : d'anciens chais reconvertis au bord de la Charente, signés de l'architecte Roland Castro. On y trouve le musée de la BD (planches originales, histoire du 9e art), une bibliothèque, un cinéma d'art et essai et une librairie. Le billet du musée coûte environ 7 €. C'est le pèlerinage obligatoire pour tout amateur de BD. Comptez 2h.",
       },
       {
         heading: "2. La Cité internationale de la BD et de l'image — le musée permanent",
-        body: "Plus de 25 fresques murales geantes ornent la ville, avec des heros de BD sur les facades : Corto Maltese, Lucky Luke, Titeuf... Le parcours est libre et gratuit, et le plan se recupere a l'office de tourisme. Comptez 1h30 a 2h a pied. La ville entiere est une galerie a ciel ouvert. C'est le truc le plus sympa a faire gratuitement.",
+        body: "Plus de 25 fresques murales géantes ornent la ville, avec des héros de BD sur les façades : Corto Maltese, Lucky Luke, Titeuf... Le parcours est libre et gratuit, et le plan se récupère à l'office de tourisme. Comptez 1h30 à 2h à pied. La ville entière est une galerie à ciel ouvert. C'est le truc le plus sympa à faire gratuitement.",
       },
       {
         heading: "3. Les remparts et la cathédrale Saint-Pierre",
-        body: "Angouleme la haute est ceinte de remparts medievaux et classiques sur son plateau : le tour de ville se fait a pied, avec un panorama sur la vallee de la Charente. La promenade des remparts en fait le tour, gratuitement. La vue est degagee, surtout cote ouest au coucher du soleil. Le plan d'urbanisme historique se lit d'en haut.",
+        body: "Angoulême la haute est ceinte de remparts médiévaux et classiques sur son plateau : le tour de ville se fait à pied, avec un panorama sur la vallée de la Charente. La promenade des remparts en fait le tour, gratuitement. La vue est dégagée, surtout côté ouest au coucher du soleil. Le plan d'urbanisme historique se lit d'en haut.",
       },
       {
         heading: "4. La vallée de la Charente — Cognac et les chais",
-        body: "La cathedrale Saint-Pierre est une cathedrale romane (XIIe siecle) a la facade exceptionnelle : plus de 70 personnages sculptes (l'Ascension, le Jugement dernier), l'un des chefs-d'oeuvre de l'art roman saintongeais. Elle a ete restauree au XIXe par Abadie, futur architecte du Sacre-Coeur. L'entree est libre. La facade est le clou : levez les yeux et prenez le temps.",
+        body: "La cathédrale Saint-Pierre est une cathédrale romane (XIIe siècle) à la façade exceptionnelle : plus de 70 personnages sculptés (l'Ascension, le Jugement dernier), l'un des chefs-d'œuvre de l'art roman saintongeais. Elle a été restaurée au XIXe par Abadie, futur architecte du Sacré-Cœur. L'entrée est libre. La façade est le clou : levez les yeux et prenez le temps.",
       },
       {
         heading: "5. Circuit automobile d'Angoulême — la Rempart",
-        body: "Fin janvier, sur 4 jours, se tient le premier festival de BD d'Europe : 200 000 visiteurs, dedicaces, expositions et prix, dont le Fauve d'or. Toute la ville vit BD. Si vous venez pour ca, reservez l'hebergement des l'ete precedent, car tout est plein. Hors festival, l'ambiance BD reste palpable toute l'annee.",
+        body: "Fin janvier, sur 4 jours, se tient le premier festival de BD d'Europe : 200 000 visiteurs, dédicaces, expositions et prix, dont le Fauve d'or. Toute la ville vit BD. Si vous venez pour ça, réservez l'hébergement dès l'été précédent, car tout est plein. Hors festival, l'ambiance BD reste palpable toute l'année.",
       },
       {
         heading: "6. La papeterie de Puymoyen — le papier Charentais",
-        body: "Le Musee du papier occupe une ancienne papeterie au bord de la Charente, car la Charente fut un grand centre papetier : le papier d'Angouleme s'exportait dans toute l'Europe. On y decouvre l'histoire industrielle, les machines et la fabrication. L'entree est gratuite. Petit mais instructif, il occupe un joli batiment au fil de l'eau. C'est l'endroit pour comprendre l'economie ancienne de la ville.",
+        body: "Le Musée du papier occupe une ancienne papeterie au bord de la Charente, car la Charente fut un grand centre papetier : le papier d'Angoulême s'exportait dans toute l'Europe. On y découvre l'histoire industrielle, les machines et la fabrication. L'entrée est gratuite. Petit mais instructif, il occupe un joli bâtiment au fil de l'eau. C'est l'endroit pour comprendre l'économie ancienne de la ville.",
       },
       {
         heading: "7. Jarnac — le vignoble de l'armagnac charentais",
-        body: "En contrebas de la ville haute, une promenade longe le fleuve, avec une base nautique et la location de canoes et de bateaux electriques sans permis. La coulee verte relie les sites. C'est plus frais que la ville haute l'ete, parfait pour le pique-nique, le jogging ou le velo. Le contraste entre la ville perchee et la riviere paisible est saisissant.",
+        body: "En contrebas de la ville haute, une promenade longe le fleuve, avec une base nautique et la location de canoës et de bateaux électriques sans permis. La coulée verte relie les sites. C'est plus frais que la ville haute l'été, parfait pour le pique-nique, le jogging ou le vélo. Le contraste entre la ville perchée et la rivière paisible est saisissant.",
       },
       {
         heading: "8. Saintes et les arènes gallo-romaines",
-        body: "Le quartier de l'Houmeau est l'ancien quartier portuaire, en bas au bord de la Charente, d'ou partaient les gabarres chargees de papier et d'eau-de-vie. Aujourd'hui, la Cite de la BD y est installee. On y trouve des cafes et une ambiance differente de la ville haute. C'est le lien historique entre Angouleme et son fleuve.",
+        body: "Le quartier de l'Houmeau est l'ancien quartier portuaire, en bas au bord de la Charente, d'où partaient les gabarres chargées de papier et d'eau-de-vie. Aujourd'hui, la Cité de la BD y est installée. On y trouve des cafés et une ambiance différente de la ville haute. C'est le lien historique entre Angoulême et son fleuve.",
       },
       {
         heading: "9. Marché et gastronomie charentaise",
-        body: "A 45 km (40 min), Cognac est la capitale du cognac, avec ses maisons de negoce (Hennessy, Martell, Remy Martin), ses visites de chais et degustations, et le vieux Cognac au bord de la Charente. C'est une demi-journee facile depuis Angouleme, l'occasion de comprendre l'eau-de-vie qui a enrichi la region. Reservez les visites de maisons.",
+        body: "À 45 km (40 min), Cognac est la capitale du cognac, avec ses maisons de négoce (Hennessy, Martell, Rémy Martin), ses visites de chais et dégustations, et le vieux Cognac au bord de la Charente. C'est une demi-journée facile depuis Angoulême, l'occasion de comprendre l'eau-de-vie qui a enrichi la région. Réservez les visites de maisons.",
       },
       {
         heading: "10. Les Eyzies — la préhistoire en Périgord",
-        body: "Au menu, les specialites de Charente : cagouilles (escargots petit-gris a la charentaise), beurre Charentes-Poitou AOP, Pineau des Charentes (un aperitif, jus de raisin et cognac), cognac, galette charentaise au beurre. Les restos se trouvent dans la ville haute et vers l'Houmeau. Le Pineau en aperitif, blanc ou rose, est la signature locale.",
+        body: "Au menu, les spécialités de Charente : cagouilles (escargots petit-gris à la charentaise), beurre Charentes-Poitou AOP, Pineau des Charentes (un apéritif, jus de raisin et cognac), cognac, galette charentaise au beurre. Les restos se trouvent dans la ville haute et vers l'Houmeau. Le Pineau en apéritif, blanc ou rosé, est la signature locale.",
       },
     ],
     relatedCities: ["angouleme"],
@@ -26441,47 +26441,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
-    intro: "Saintes, c'est l'arc de Germanicus, l'amphitheatre romain et la Charente paisible. Cette sous-prefecture de la Charente-Maritime de 25 000 habitants, ancienne capitale de la Saintonge, est riche en vestiges gallo-romains. Voici 10 choses concretes a faire.",
+    intro: "Saintes, c'est l'arc de Germanicus, l'amphithéâtre romain et la Charente paisible. Cette sous-préfecture de la Charente-Maritime de 25 000 habitants, ancienne capitale de la Saintonge, est riche en vestiges gallo-romains. Voici 10 choses concrètes à faire.",
     sections: [
       {
         heading: "1. Arènes d'Agrippa — l'amphithéâtre romain du Ier siècle",
-        body: "L'arc de Germanicus est un arc romain de l'an 18-19 apr. J.-C. (regne de Tibere), dedie a Germanicus. Au bord de la Charente, il a ete deplace pierre par pierre au XIXe siecle pour le sauver, car il enjambait le pont romain detruit. Il est gratuit et visible en permanence. C'est le symbole de Saintes, illumine le soir. Il se dresse sur la rive droite, face a la vieille ville.",
+        body: "L'arc de Germanicus est un arc romain de l'an 18-19 apr. J.-C. (règne de Tibère), dédié à Germanicus. Au bord de la Charente, il a été déplacé pierre par pierre au XIXe siècle pour le sauver, car il enjambait le pont romain détruit. Il est gratuit et visible en permanence. C'est le symbole de Saintes, illuminé le soir. Il se dresse sur la rive droite, face à la vieille ville.",
       },
       {
         heading: "2. Arc de Germanicus — le mieux conservé de France",
-        body: "L'amphitheatre gallo-romain est l'un des plus anciens du monde romain (vers 40 apr. J.-C., regne de Claude) : 20 000 places a l'epoque, encaisse dans un vallon. Il reste tres lisible, avec ses gradins, son arene et ses vomitoires. Le billet coute environ 4 EUR. Il est a 10 min a pied du centre, et accueille des spectacles l'ete. Moins connu que Nimes ou Arles, donc tranquille.",
+        body: "L'amphithéâtre gallo-romain est l'un des plus anciens du monde romain (vers 40 apr. J.-C., règne de Claude) : 20 000 places à l'époque, encaissé dans un vallon. Il reste très lisible, avec ses gradins, son arène et ses vomitoires. Le billet coûte environ 4 €. Il est à 10 min à pied du centre, et accueille des spectacles l'été. Moins connu que Nîmes ou Arles, donc tranquille.",
       },
       {
         heading: "3. Abbaye aux Dames — la collégiale romane et ses concerts",
-        body: "L'abbaye aux Dames est une abbaye romane (XIe-XIIe siecle), la premiere abbaye de femmes de Saintonge, a la facade sculptee remarquable et au clocher en pomme de pin. C'est aujourd'hui une cite musicale, avec son academie, ses concerts et le Festival de Saintes en juillet, dedie a la musique baroque. Le billet donne acces a l'abbaye, les concerts s'ajoutant. C'est le joyau roman de la rive droite.",
+        body: "L'abbaye aux Dames est une abbaye romane (XIe-XIIe siècle), la première abbaye de femmes de Saintonge, à la façade sculptée remarquable et au clocher en pomme de pin. C'est aujourd'hui une cité musicale, avec son académie, ses concerts et le Festival de Saintes en juillet, dédié à la musique baroque. Le billet donne accès à l'abbaye, les concerts s'ajoutant. C'est le joyau roman de la rive droite.",
       },
       {
         heading: "4. Cathédrale Saint-Pierre et le vieux Saintes",
-        body: "La basilique Saint-Eutrope est une eglise romane et gothique (XIe-XVe siecle), etape sur le chemin de Compostelle et classee UNESCO a ce titre. Sa crypte monumentale du XIe siecle abrite le tombeau de saint Eutrope, l'une des plus belles cryptes romanes de France. L'entree est libre. Ne ratez pas la crypte en bas, le clou de la visite.",
+        body: "La basilique Saint-Eutrope est une église romane et gothique (XIe-XVe siècle), étape sur le chemin de Compostelle et classée UNESCO à ce titre. Sa crypte monumentale du XIe siècle abrite le tombeau de saint Eutrope, l'une des plus belles cryptes romanes de France. L'entrée est libre. Ne ratez pas la crypte en bas, le clou de la visite.",
       },
       {
         heading: "5. Royan et les plages de la Côte de Beauté",
-        body: "La cathedrale Saint-Pierre est une cathedrale gothique (XVe-XVIe siecle) au clocher massif et tronque : la fleche prevue n'a jamais ete achevee, a cause des guerres de religion. Elle se dresse en plein centre, rive gauche, et l'entree est libre. L'interieur est vaste. Le clocher domine la vieille ville et sert de repere visuel. L'orgue est notable.",
+        body: "La cathédrale Saint-Pierre est une cathédrale gothique (XVe-XVIe siècle) au clocher massif et tronqué : la flèche prévue n'a jamais été achevée, à cause des guerres de religion. Elle se dresse en plein centre, rive gauche, et l'entrée est libre. L'intérieur est vaste. Le clocher domine la vieille ville et sert de repère visuel. L'orgue est notable.",
       },
       {
         heading: "6. Île de Oléron — la plus grande île française de l'Atlantique",
-        body: "Le vieux Saintes, rive gauche, est un quartier medieval et classique : rues pietonnes, maisons anciennes, hotels particuliers et marche couvert. Tout se fait a pied. L'ambiance est celle d'une petite ville de province authentique, peu touristique hors saison. On y trouve des terrasses et des boutiques. C'est le centre commercant et historique.",
+        body: "Le vieux Saintes, rive gauche, est un quartier médiéval et classique : rues piétonnes, maisons anciennes, hôtels particuliers et marché couvert. Tout se fait à pied. L'ambiance est celle d'une petite ville de province authentique, peu touristique hors saison. On y trouve des terrasses et des boutiques. C'est le centre commerçant et historique.",
       },
       {
         heading: "7. Cognac et le pineau des Charentes",
-        body: "Le fleuve traverse la ville : une promenade amenagee longe les deux rives, avec des croisieres en bateau (le Bernard Palissy III, 1h30 a 2h) et la location de canoe. Le pont relie les deux rives et leurs monuments. C'est plus calme et vert que les villes plus touristiques, ideal pour pique-niquer au bord de l'eau.",
+        body: "Le fleuve traverse la ville : une promenade aménagée longe les deux rives, avec des croisières en bateau (le Bernard Palissy III, 1h30 à 2h) et la location de canoë. Le pont relie les deux rives et leurs monuments. C'est plus calme et vert que les villes plus touristiques, idéal pour pique-niquer au bord de l'eau.",
       },
       {
         heading: "8. Marais de la Seudre et la pêche à pied",
-        body: "L'Echevinage (Beaux-Arts, peintures) et le musee archeologique (lapidaire gallo-romain, riche collection de pierres sculptees issues des remparts) sont deux petits musees municipaux, gratuits ou presque. Ils prolongent la decouverte romaine. Le lapidaire complete bien l'amphitheatre et l'arc.",
+        body: "L'Échevinage (Beaux-Arts, peintures) et le musée archéologique (lapidaire gallo-romain, riche collection de pierres sculptées issues des remparts) sont deux petits musées municipaux, gratuits ou presque. Ils prolongent la découverte romaine. Le lapidaire complète bien l'amphithéâtre et l'arc.",
       },
       {
         heading: "9. Abbaye de Fontdouce — le trésor de la Saintonge",
-        body: "Cognac est a 27 km (25 min), avec ses chais et degustations. Royan et l'ocean sont a 40 km (40 min), avec leurs plages et l'estuaire de la Gironde. Rochefort, et sa Corderie royale et l'Hermione, est aussi a 40 km. Saintes est au centre de la Charente-Maritime, bien placee pour rayonner, avec une gare sur la ligne Paris-Royan.",
+        body: "Cognac est à 27 km (25 min), avec ses chais et dégustations. Royan et l'océan sont à 40 km (40 min), avec leurs plages et l'estuaire de la Gironde. Rochefort, et sa Corderie royale et l'Hermione, est aussi à 40 km. Saintes est au centre de la Charente-Maritime, bien placée pour rayonner, avec une gare sur la ligne Paris-Royan.",
       },
       {
         heading: "10. Talmont-sur-Gironde — le village dans la Gironde",
-        body: "Au menu, les specialites de Saintonge : cagouilles (escargots a la charentaise), mojettes (haricots blancs), beurre Charentes-Poitou AOP, Pineau des Charentes, cognac, galette charentaise, et les huitres Marennes-Oleron a cote. Les restos se trouvent dans le vieux Saintes et au bord de la Charente. Le Pineau en aperitif reste l'incontournable local.",
+        body: "Au menu, les spécialités de Saintonge : cagouilles (escargots à la charentaise), mojettes (haricots blancs), beurre Charentes-Poitou AOP, Pineau des Charentes, cognac, galette charentaise, et les huîtres Marennes-Oléron à côté. Les restos se trouvent dans le vieux Saintes et au bord de la Charente. Le Pineau en apéritif reste l'incontournable local.",
       },
     ],
     relatedCities: ["saintes"],
@@ -26561,47 +26561,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
-    intro: "Lorient n'est pas vraiment une carte postale. C'est un port de commerce, des bunkers de base sous-marine et du beton de reconstruction d'apres 1945. Pourtant la ville cache quelque chose de bien vivant : le Festival Interceltique qui attire 800 000 visiteurs sur 10 jours en aout, la rade, et les iles juste en face (Groix est a 45 min de bateau). Voici 10 choses concretes a faire, sans filtre.",
+    intro: "Lorient n'est pas vraiment une carte postale. C'est un port de commerce, des bunkers de base sous-marine et du béton de reconstruction d'après 1945. Pourtant la ville cache quelque chose de bien vivant : le Festival Interceltique qui attire 800 000 visiteurs sur 10 jours en août, la rade, et les îles juste en face (Groix est à 45 min de bateau). Voici 10 choses concrètes à faire, sans filtre.",
     sections: [
       {
         heading: "1. Festival Interceltique — le plus grand rassemblement celtique du monde",
-        body: "Ce bunker de beton a ete construit par les Allemands entre 1941 et 1943 pour abriter les U-boots. Trois blocs gigantesques, des murs de 3 a 7 m d'epaisseur, parfaitement indestructibles : les bombardements allies ont rase la ville mais pas la base. Aujourd'hui, on y trouve un musee sous-marin (le Flore, un vrai sous-marin visitable) et la Cite de la Voile Eric Tabarly juste a cote. Comptez 2 a 3h. Le contraste entre le beton militaire et la voile sportive est saisissant.",
+        body: "Ce bunker de béton a été construit par les Allemands entre 1941 et 1943 pour abriter les U-boots. Trois blocs gigantesques, des murs de 3 à 7 m d'épaisseur, parfaitement indestructibles : les bombardements alliés ont rasé la ville mais pas la base. Aujourd'hui, on y trouve un musée sous-marin (le Flore, un vrai sous-marin visitable) et la Cité de la Voile Éric Tabarly juste à côté. Comptez 2 à 3h. Le contraste entre le béton militaire et la voile sportive est saisissant.",
       },
       {
         heading: "2. La base de sous-marins de Keroman — la plus grande d'Europe",
-        body: "Pendant 10 jours debut aout, 800 000 visiteurs et 4 500 artistes font de Lorient le plus gros rassemblement celtique au monde. Bagadou (bagads), cornemuses, danses, biere, foule dense : l'ambiance est totale. La Grande Parade du premier dimanche reunit 3 500 musiciens dans les rues. Reservez votre hebergement 6 mois a l'avance, ou dormez a 30 km. Hors festival, Lorient est calme : c'est l'evenement qui fait la ville.",
+        body: "Pendant 10 jours début août, 800 000 visiteurs et 4 500 artistes font de Lorient le plus gros rassemblement celtique au monde. Bagadou (bagads), cornemuses, danses, bière, foule dense : l'ambiance est totale. La Grande Parade du premier dimanche réunit 3 500 musiciens dans les rues. Réservez votre hébergement 6 mois à l'avance, ou dormez à 30 km. Hors festival, Lorient est calme : c'est l'événement qui fait la ville.",
       },
       {
         heading: "3. Île de Groix — l'île aux plages de galets multicolores",
-        body: "Comptez 45 min de bateau depuis Lorient avec la compagnie Oceane, pour environ 18€ l'aller-retour. L'ile fait 15 km2 et reserve la plage des Grands Sables, seule plage convexe d'Europe (le sable bouge), ainsi que des criques et un sentier cotier (le GR340 boucle le tour de l'ile en 1 jour). Le velo est recommande, avec location au port. Groix est beaucoup moins touristique que Belle-Ile : c'est le bon plan.",
+        body: "Comptez 45 min de bateau depuis Lorient avec la compagnie Océane, pour environ 18€ l'aller-retour. L'île fait 15 km² et réserve la plage des Grands Sables, seule plage convexe d'Europe (le sable bouge), ainsi que des criques et un sentier côtier (le GR340 boucle le tour de l'île en 1 jour). Le vélo est recommandé, avec location au port. Groix est beaucoup moins touristique que Belle-Île : c'est le bon plan.",
       },
       {
         heading: "4. Presqu'île de Quiberon — la Côte Sauvage atlantique",
-        body: "Keroman est le 2e port de peche francais en valeur, avec une criee active des 4h du matin. Une visite guidee est possible sur reservation aupres de l'Office de Tourisme. Les restos de poisson du port servent de l'ultra-frais. L'odeur, les caisses, les bateaux qui rentrent : c'est le vrai Lorient, pas la version touristique.",
+        body: "Keroman est le 2e port de pêche français en valeur, avec une criée active dès 4h du matin. Une visite guidée est possible sur réservation auprès de l'Office de Tourisme. Les restos de poisson du port servent de l'ultra-frais. L'odeur, les caisses, les bateaux qui rentrent : c'est le vrai Lorient, pas la version touristique.",
       },
       {
         heading: "5. Citadelle de Port-Louis — la forteresse du XVIe siècle",
-        body: "Les bateaux-bus de la compagnie Oceane relient Lorient, Port-Louis, Locmiquelic et Gavres pour moins de 5€, ce qui est aussi pratique que joli. La rade est immense et bien protegee, et l'on apercoit la citadelle de Port-Louis depuis l'eau. Le bateau-bus reste le moyen le moins cher de decouvrir la rade.",
+        body: "Les bateaux-bus de la compagnie Océane relient Lorient, Port-Louis, Locmiquélic et Gâvres pour moins de 5€, ce qui est aussi pratique que joli. La rade est immense et bien protégée, et l'on aperçoit la citadelle de Port-Louis depuis l'eau. Le bateau-bus reste le moyen le moins cher de découvrir la rade.",
       },
       {
         heading: "6. Hennebont — les remparts médiévaux et la haras",
-        body: "De l'autre cote de la rade, a 10 min de bateau-bus, la citadelle du XVIIe abrite le Musee de la Compagnie des Indes, consacre a l'histoire du commerce colonial breton (Lorient vient de L'Orient, le port de la Compagnie). On y trouve des remparts, une vue sur la rade et un musee bien fait. Comptez 2h. Combine avec le bateau-bus, cela fait une belle demi-journee.",
+        body: "De l'autre côté de la rade, à 10 min de bateau-bus, la citadelle du XVIIe abrite le Musée de la Compagnie des Indes, consacré à l'histoire du commerce colonial breton (Lorient vient de L'Orient, le port de la Compagnie). On y trouve des remparts, une vue sur la rade et un musée bien fait. Comptez 2h. Combiné avec le bateau-bus, cela fait une belle demi-journée.",
       },
       {
         heading: "7. Carnac et les alignements depuis Lorient",
-        body: "Lorient a ete rasee a 90% en 1943 par les bombardements allies visant la base sous-marine. Reconstruite dans les annees 1950, elle aligne le beton, les lignes droites et un urbanisme fonctionnel. Ce n'est pas joli au sens classique, mais c'est un temoignage. L'eglise Notre-Dame-de-Victoire (en beton, 1955) vaut le coup d'oeil.",
+        body: "Lorient a été rasée à 90% en 1943 par les bombardements alliés visant la base sous-marine. Reconstruite dans les années 1950, elle aligne le béton, les lignes droites et un urbanisme fonctionnel. Ce n'est pas joli au sens classique, mais c'est un témoignage. L'église Notre-Dame-de-Victoire (en béton, 1955) vaut le coup d'œil.",
       },
       {
         heading: "8. Marché des Halles de Lorient et la sardine bretonne",
-        body: "Dans la banlieue sud de Lorient, Larmor-Plage aligne des plages de sable face a Groix. Toulhars, Port-Maria et Locqueltas sont accessibles en bus depuis Lorient. L'eau est correcte l'ete, la vue sur les iles agreable, et l'on y est moins serre que dans le Morbihan touristique. C'est la plage des Lorientais.",
+        body: "Dans la banlieue sud de Lorient, Larmor-Plage aligne des plages de sable face à Groix. Toulhars, Port-Maria et Locqueltas sont accessibles en bus depuis Lorient. L'eau est correcte l'été, la vue sur les îles agréable, et l'on y est moins serré que dans le Morbihan touristique. C'est la plage des Lorientais.",
       },
       {
         heading: "9. Écomusée de Saint-Dégan — le hameau breton reconstitué",
-        body: "Hors Interceltique, Lorient mene une vraie vie culturelle : le Grand Theatre, la salle de musiques actuelles (Hydrophone) et le centre d'art contemporain tournent toute l'annee. C'est aussi une ville etudiante (universite Bretagne-Sud), donc on y trouve des bars et des concerts. Ce n'est pas Rennes, mais ce n'est pas mort non plus.",
+        body: "Hors Interceltique, Lorient mène une vraie vie culturelle : le Grand Théâtre, la salle de musiques actuelles (Hydrophone) et le centre d'art contemporain tournent toute l'année. C'est aussi une ville étudiante (université Bretagne-Sud), donc on y trouve des bars et des concerts. Ce n'est pas Rennes, mais ce n'est pas mort non plus.",
       },
       {
         heading: "10. Navigation en rade de Lorient",
-        body: "Le poisson est ultra-frais (port de peche oblige), les crepes et galettes sont partout, et le kig ha farz (le pot-au-feu breton, un plat d'hiver) tient au corps. Le cidre est local. Le marche se tient le mercredi et le samedi aux Halles de Merville. Pour le poisson, les restos du port de peche offrent le meilleur rapport qualite-prix.",
+        body: "Le poisson est ultra-frais (port de pêche oblige), les crêpes et galettes sont partout, et le kig ha farz (le pot-au-feu breton, un plat d'hiver) tient au corps. Le cidre est local. Le marché se tient le mercredi et le samedi aux Halles de Merville. Pour le poisson, les restos du port de pêche offrent le meilleur rapport qualité-prix.",
       },
     ],
     relatedCities: ["lorient"],
@@ -26622,47 +26622,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
-    intro: "Chartres, c'est avant tout la cathedrale, l'une des plus belles de France, avec ses vitraux du XIIe quasi intacts et son classement UNESCO. Mais la ville vaut bien plus que ca : une vieille ville medievale, Chartres en Lumieres (les illuminations d'avril a octobre) et les bords de l'Eure. Le tout a 1h de Paris en train. Voici 10 choses concretes a faire.",
+    intro: "Chartres, c'est avant tout la cathédrale, l'une des plus belles de France, avec ses vitraux du XIIe quasi intacts et son classement UNESCO. Mais la ville vaut bien plus que ça : une vieille ville médiévale, Chartres en Lumières (les illuminations d'avril à octobre) et les bords de l'Eure. Le tout à 1h de Paris en train. Voici 10 choses concrètes à faire.",
     sections: [
       {
         heading: "1. Cathédrale Notre-Dame de Chartres — le chef-d'œuvre du gothique",
-        body: "Ce chef-d'oeuvre gothique (1194-1220) est classe UNESCO et conserve 176 vitraux d'origine (XIIe-XIIIe), dont le fameux bleu de Chartres, une couleur introuvable ailleurs. Ses deux fleches sont dissymetriques (une romane, une gothique flamboyant) et le labyrinthe au sol retrace un parcours de pelerinage. L'entree est gratuite. Montez a la fleche nord (300 marches) pour une vue sur la Beauce.",
+        body: "Ce chef-d'œuvre gothique (1194-1220) est classé UNESCO et conserve 176 vitraux d'origine (XIIe-XIIIe), dont le fameux bleu de Chartres, une couleur introuvable ailleurs. Ses deux flèches sont dissymétriques (une romane, une gothique flamboyant) et le labyrinthe au sol retrace un parcours de pèlerinage. L'entrée est gratuite. Montez à la flèche nord (300 marches) pour une vue sur la Beauce.",
       },
       {
         heading: "2. Les vitraux médiévaux — la plus grande surface au monde",
-        body: "D'avril a octobre, chaque soir a la tombee de la nuit, 23 sites de la ville s'illuminent : mapping video sur la cathedrale, les eglises et les ponts. C'est gratuit, en exterieur et franchement magique. Le parcours fait 5 a 6 km a pied. C'est devenu l'attraction numero 1 apres la cathedrale, alors ne ratez pas ca si vous venez en saison.",
+        body: "D'avril à octobre, chaque soir à la tombée de la nuit, 23 sites de la ville s'illuminent : mapping vidéo sur la cathédrale, les églises et les ponts. C'est gratuit, en extérieur et franchement magique. Le parcours fait 5 à 6 km à pied. C'est devenu l'attraction numéro 1 après la cathédrale, alors ne ratez pas ça si vous venez en saison.",
       },
       {
         heading: "3. Chartres en Lumières — le festival annuel d'illuminations",
-        body: "Les ruelles medievales descendent en pente vers l'Eure, entre maisons a colombages et escaliers comme le Tertre Saint-Nicolas. Le quartier Saint-Andre, ancien quartier des tanneurs, longe l'eau avec ses lavoirs, ses ponts et ses moulins. C'est tres photogenique, surtout en fin de journee.",
+        body: "Les ruelles médiévales descendent en pente vers l'Eure, entre maisons à colombages et escaliers comme le Tertre Saint-Nicolas. Le quartier Saint-André, ancien quartier des tanneurs, longe l'eau avec ses lavoirs, ses ponts et ses moulins. C'est très photogénique, surtout en fin de journée.",
       },
       {
         heading: "4. Le pèlerinage de Chartres — la marche Paris-Chartres",
-        body: "La riviere traverse la basse ville, entre chemins de halage, lavoirs restaures et ponts fleuris. La balade a pied le long de l'eau offre une vue sur la cathedrale en surplomb. C'est le coin le plus paisible de Chartres, parfait pour un pique-nique.",
+        body: "La rivière traverse la basse ville, entre chemins de halage, lavoirs restaurés et ponts fleuris. La balade à pied le long de l'eau offre une vue sur la cathédrale en surplomb. C'est le coin le plus paisible de Chartres, parfait pour un pique-nique.",
       },
       {
         heading: "5. La vieille ville de Chartres — les ruelles médiévales",
-        body: "Installe dans l'ancien Cellier de Loens (une cave gothique du XIIIe), ce musee est dedie au vitrail, l'art emblematique de Chartres. Expositions et demonstrations aident a comprendre la technique, ce qui est logique vu le patrimoine de vitraux de la ville. Comptez 1h.",
+        body: "Installé dans l'ancien Cellier de Loens (une cave gothique du XIIIe), ce musée est dédié au vitrail, l'art emblématique de Chartres. Expositions et démonstrations aident à comprendre la technique, ce qui est logique vu le patrimoine de vitraux de la ville. Comptez 1h.",
       },
       {
         heading: "6. Musée des Beaux-Arts de Chartres",
-        body: "Cette maison est entierement recouverte de mosaiques de vaisselle cassee, une oeuvre brute realisee par un balayeur, Raymond Isidore, de 1938 a 1964. Murs, sol, meubles, jardin : tout est en eclats de faience. C'est un art naif, obsessionnel et unique. Un peu excentre, mais ca vaut le detour.",
+        body: "Cette maison est entièrement recouverte de mosaïques de vaisselle cassée, une œuvre brute réalisée par un balayeur, Raymond Isidore, de 1938 à 1964. Murs, sol, meubles, jardin : tout est en éclats de faïence. C'est un art naïf, obsessionnel et unique. Un peu excentré, mais ça vaut le détour.",
       },
       {
         heading: "7. Maintenon — le château de Mme de Maintenon",
-        body: "Installe dans l'ancien palais episcopal, a cote de la cathedrale, le musee reunit des peintures (XVIe-XXe), des emaux de Limoges et des clavecins. Ses jardins en terrasse offrent une vue sur la basse ville. Ce n'est pas immense, mais c'est bien situe et agreable.",
+        body: "Installé dans l'ancien palais épiscopal, à côté de la cathédrale, le musée réunit des peintures (XVIe-XXe), des émaux de Limoges et des clavecins. Ses jardins en terrasse offrent une vue sur la basse ville. Ce n'est pas immense, mais c'est bien situé et agréable.",
       },
       {
         heading: "8. La Beauce — les greniers à blé de la France",
-        body: "Le marche couvert de la place Billard se tient le samedi matin, avec ses legumes et ses fleurs. On y trouve les produits de la Beauce, le grenier a ble de la France. C'est un bon endroit pour gouter le terroir local, dans une ambiance authentique et pas touristique.",
+        body: "Le marché couvert de la place Billard se tient le samedi matin, avec ses légumes et ses fleurs. On y trouve les produits de la Beauce, le grenier à blé de la France. C'est un bon endroit pour goûter le terroir local, dans une ambiance authentique et pas touristique.",
       },
       {
         heading: "9. Dreux — la chapelle royale des Orléans",
-        body: "Cette maison a colombages du XVIe (place de la Poissonnerie) porte des sculptures de saumon et d'anges sur sa facade. C'est l'une des plus belles maisons medievales de la ville. Le centre regorge de facades anciennes, alors levez les yeux.",
+        body: "Cette maison à colombages du XVIe (place de la Poissonnerie) porte des sculptures de saumon et d'anges sur sa façade. C'est l'une des plus belles maisons médiévales de la ville. Le centre regorge de façades anciennes, alors levez les yeux.",
       },
       {
         heading: "10. Anet — le château de Diane de Poitiers",
-        body: "Chartres est la capitale de la Beauce, une plaine cerealiere a perte de vue, le grenier a ble de la France. Champs immenses, silos, horizon plat : c'est austere mais ca a son charme, surtout au coucher du soleil quand les champs se dorent. La cathedrale se voit a 20 km de distance.",
+        body: "Chartres est la capitale de la Beauce, une plaine céréalière à perte de vue, le grenier à blé de la France. Champs immenses, silos, horizon plat : c'est austère mais ça a son charme, surtout au coucher du soleil quand les champs se dorent. La cathédrale se voit à 20 km de distance.",
       },
     ],
     relatedCities: ["chartres"],
@@ -26683,47 +26683,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
-    intro: "Blois, c'est le chateau royal qui reunit 4 styles d'architecture dans un seul batiment, avec son escalier Francois Ier, au coeur des chateaux de la Loire. C'est aussi la ville etape ideale : centrale (entre Chambord et Chenonceau), avec une vieille ville en pente sur la Loire, et moins courue que Tours ou Amboise. Voici 10 choses concretes a faire.",
+    intro: "Blois, c'est le château royal qui réunit 4 styles d'architecture dans un seul bâtiment, avec son escalier François Ier, au cœur des châteaux de la Loire. C'est aussi la ville étape idéale : centrale (entre Chambord et Chenonceau), avec une vieille ville en pente sur la Loire, et moins courue que Tours ou Amboise. Voici 10 choses concrètes à faire.",
     sections: [
       {
         heading: "1. Château royal de Blois — quatre styles architecturaux en un",
-        body: "Quatre ailes pour quatre epoques : medievale (XIIIe), gothique flamboyant (Louis XII), Renaissance (Francois Ier et son fameux escalier en spirale exterieur) et classique (Gaston d'Orleans, XVIIe). Le chateau fut la residence de 7 rois et 10 reines, et l'assassinat du duc de Guise (1588) s'y est joue. Il y a un son et lumiere l'ete. Comptez 2h.",
+        body: "Quatre ailes pour quatre époques : médiévale (XIIIe), gothique flamboyant (Louis XII), Renaissance (François Ier et son fameux escalier en spirale extérieur) et classique (Gaston d'Orléans, XVIIe). Le château fut la résidence de 7 rois et 10 reines, et l'assassinat du duc de Guise (1588) s'y est joué. Il y a un son et lumière l'été. Comptez 2h.",
       },
       {
         heading: "2. Chambord — le château le plus grand du Val de Loire",
-        body: "En face du chateau, ce musee est dedie a Robert-Houdin, Blesois et pere de la magie moderne, celui dont Houdini a pris le nom. Des dragons mecaniques sortent des fenetres a heures fixes, et l'on y assiste a des spectacles de magie et des illusions. C'est unique en Europe, et parfait avec des enfants. Comptez 1h30.",
+        body: "En face du château, ce musée est dédié à Robert-Houdin, Blésois et père de la magie moderne, celui dont Houdini a pris le nom. Des dragons mécaniques sortent des fenêtres à heures fixes, et l'on y assiste à des spectacles de magie et des illusions. C'est unique en Europe, et parfait avec des enfants. Comptez 1h30.",
       },
       {
         heading: "3. Cheverny — le château habité et les chiens de chasse",
-        body: "La ville devale en pente raide vers la Loire, avec l'escalier monumental Denis Papin (a son sommet trone la statue de l'inventeur de la machine a vapeur, lui aussi Blesois). On y croise des ruelles medievales, des maisons a colombages et l'hotel de ville. Le centre se fait a pied, et ca grimpe.",
+        body: "La ville dévale en pente raide vers la Loire, avec l'escalier monumental Denis Papin (à son sommet trône la statue de l'inventeur de la machine à vapeur, lui aussi Blésois). On y croise des ruelles médiévales, des maisons à colombages et l'hôtel de ville. Le centre se fait à pied, et ça grimpe.",
       },
       {
         heading: "4. Son et Lumière de Chambord",
-        body: "La cathedrale a ete reconstruite au XVIIe apres un ouragan, mais sa crypte est plus ancienne. Derriere s'etendent les jardins de l'eveche, une terrasse qui offre la plus belle vue sur la Loire et les toits de Blois. C'est gratuit, paisible, et la vue est imprenable.",
+        body: "La cathédrale a été reconstruite au XVIIe après un ouragan, mais sa crypte est plus ancienne. Derrière s'étendent les jardins de l'évêché, une terrasse qui offre la plus belle vue sur la Loire et les toits de Blois. C'est gratuit, paisible, et la vue est imprenable.",
       },
       {
         heading: "5. Chaumont-sur-Loire — le Festival des Jardins",
-        body: "C'est le plus grand des chateaux de la Loire : 440 pieces, l'escalier a double revolution attribue a Leonard de Vinci, et un domaine de 5 440 hectares (foret, faune sauvage, plus grand parc clos d'Europe). Francois Ier l'a fait construire comme pavillon de chasse. Incontournable. Comptez une demi-journee. Un bus relie Blois l'ete.",
+        body: "C'est le plus grand des châteaux de la Loire : 440 pièces, l'escalier à double révolution attribué à Léonard de Vinci, et un domaine de 5 440 hectares (forêt, faune sauvage, plus grand parc clos d'Europe). François Ier l'a fait construire comme pavillon de chasse. Incontournable. Comptez une demi-journée. Un bus relie Blois l'été.",
       },
       {
         heading: "6. La vieille ville de Blois — les escaliers et les maisons de vignerons",
-        body: "Ce chateau est habite par la meme famille depuis 6 siecles et a servi de modele au chateau de Moulinsart dans Tintin. Ses interieurs meubles et habites sont rares, et l'on y trouve une meute de 100 chiens de chasse et des jardins. C'est plus intime que Chambord, avec une expo Tintin permanente. Comptez 2h.",
+        body: "Ce château est habité par la même famille depuis 6 siècles et a servi de modèle au château de Moulinsart dans Tintin. Ses intérieurs meublés et habités sont rares, et l'on y trouve une meute de 100 chiens de chasse et des jardins. C'est plus intime que Chambord, avec une expo Tintin permanente. Comptez 2h.",
       },
       {
         heading: "7. Beauregard — le cabinet des portraits royaux",
-        body: "Blois se trouve sur l'itineraire de la Loire a Velo (900 km de Cuffy a Saint-Brevin). On y enjambe le pont Jacques-Gabriel (XVIIIe), on longe les quais et l'ile de la Loire. La location de velos permet de rejoindre Chambord par la foret, soit environ 20 km. Le fleuve reste sauvage : c'est la derniere riviere non domestiquee de France.",
+        body: "Blois se trouve sur l'itinéraire de la Loire à Vélo (900 km de Cuffy à Saint-Brevin). On y enjambe le pont Jacques-Gabriel (XVIIIe), on longe les quais et l'île de la Loire. La location de vélos permet de rejoindre Chambord par la forêt, soit environ 20 km. Le fleuve reste sauvage : c'est la dernière rivière non domestiquée de France.",
       },
       {
         heading: "8. La Loire à vélo — de Blois à Amboise",
-        body: "Ce musee d'art contemporain (mouvement Fluxus, Ben) se veut decale, ludique et provocateur, avec son cafe Fluxus et sa cour aux ardoises a messages. Le contraste avec les chateaux est total. C'est pour ceux qui veulent autre chose que la Renaissance. Comptez 1h.",
+        body: "Ce musée d'art contemporain (mouvement Fluxus, Ben) se veut décalé, ludique et provocateur, avec son café Fluxus et sa cour aux ardoises à messages. Le contraste avec les châteaux est total. C'est pour ceux qui veulent autre chose que la Renaissance. Comptez 1h.",
       },
       {
         heading: "9. Caves troglodytiques et vins de Touraine",
-        body: "L'AOC Cheverny donne des blancs vifs et des rouges legers, et l'AOC Touraine est juste a cote. Les caves et domaines autour de Blois proposent des degustations. Le Cour-Cheverny repose sur le cepage romorantin, unique au monde, plante par Francois Ier. A marier avec un fromage de Selles-sur-Cher (AOC chevre).",
+        body: "L'AOC Cheverny donne des blancs vifs et des rouges légers, et l'AOC Touraine est juste à côté. Les caves et domaines autour de Blois proposent des dégustations. Le Cour-Cheverny repose sur le cépage romorantin, unique au monde, planté par François Ier. À marier avec un fromage de Selles-sur-Cher (AOC chèvre).",
       },
       {
         heading: "10. Amboise — le château et Léonard de Vinci",
-        body: "Le marche se tient le samedi matin place Louis XII, au pied du chateau, ainsi que le mardi et le dimanche. On y trouve les produits de la Sologne et du Val de Loire : gibier, asperges, fraises de Sologne, fromages de chevre. De quoi composer un beau pique-nique au bord de Loire.",
+        body: "Le marché se tient le samedi matin place Louis XII, au pied du château, ainsi que le mardi et le dimanche. On y trouve les produits de la Sologne et du Val de Loire : gibier, asperges, fraises de Sologne, fromages de chèvre. De quoi composer un beau pique-nique au bord de Loire.",
       },
     ],
     relatedCities: ["blois"],
@@ -26744,47 +26744,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
-    intro: "Auxerre est une vieille ville bourguignonne posee sur l'Yonne : l'abbaye Saint-Germain et ses cryptes carolingiennes a fresques rares, une cathedrale gothique, et les vignobles de Chablis a 20 km. Moins connue que Dijon ou Beaune, elle reste authentique et pas chere. Le tout a 1h45 de Paris. Voici 10 choses concretes a faire.",
+    intro: "Auxerre est une vieille ville bourguignonne posée sur l'Yonne : l'abbaye Saint-Germain et ses cryptes carolingiennes à fresques rares, une cathédrale gothique, et les vignobles de Chablis à 20 km. Moins connue que Dijon ou Beaune, elle reste authentique et pas chère. Le tout à 1h45 de Paris. Voici 10 choses concrètes à faire.",
     sections: [
       {
         heading: "1. Cathédrale Saint-Étienne — les vitraux du XIIIe siècle",
-        body: "Fondee au Ve siecle, l'abbaye abrite dans ses cryptes carolingiennes (IXe) des fresques parmi les plus anciennes de France (840 apres J.-C.), avec des scenes rares pour cette epoque. Au-dessus, une eglise gothique, un cloitre et un musee completent la visite. Ces fresques carolingiennes sont le tresor cache d'Auxerre. Comptez 1h30.",
+        body: "Fondée au Ve siècle, l'abbaye abrite dans ses cryptes carolingiennes (IXe) des fresques parmi les plus anciennes de France (840 après J.-C.), avec des scènes rares pour cette époque. Au-dessus, une église gothique, un cloître et un musée complètent la visite. Ces fresques carolingiennes sont le trésor caché d'Auxerre. Comptez 1h30.",
       },
       {
         heading: "2. Abbaye Saint-Germain — les cryptes carolingiennes du IXe siècle",
-        body: "Cette cathedrale gothique (XIIIe-XVIe) presente une facade sculptee, des vitraux du XIIIe (avec de rares medaillons en grisaille) et une crypte romane ornee d'une fresque du Christ a cheval, unique en Europe. On y trouve aussi un tresor et une montee a la tour. La crypte et sa fresque equestre valent a elles seules la visite. Comptez 1h.",
+        body: "Cette cathédrale gothique (XIIIe-XVIe) présente une façade sculptée, des vitraux du XIIIe (avec de rares médaillons en grisaille) et une crypte romane ornée d'une fresque du Christ à cheval, unique en Europe. On y trouve aussi un trésor et une montée à la tour. La crypte et sa fresque équestre valent à elles seules la visite. Comptez 1h.",
       },
       {
         heading: "3. Chablis — le premier cru de Bourgogne",
-        body: "Le centre medieval est bien conserve : maisons a pans de bois (XVe-XVIe), tour de l'Horloge (un beffroi du XVe) et ruelles pietonnes. On flane place Charles-Surugue et place de l'Hotel-de-Ville. C'est tres agreable a pied, avec ses commerces et ses terrasses. Le coeur historique se fait en 1 a 2h.",
+        body: "Le centre médiéval est bien conservé : maisons à pans de bois (XVe-XVIe), tour de l'Horloge (un beffroi du XVe) et ruelles piétonnes. On flâne place Charles-Surugue et place de l'Hôtel-de-Ville. C'est très agréable à pied, avec ses commerces et ses terrasses. Le cœur historique se fait en 1 à 2h.",
       },
       {
         heading: "4. Le canal de Bourgogne — navigation et haltes fluviales",
-        body: "La riviere borde la vieille ville, avec ses quais amenages et, depuis l'autre rive, une vue sur les clochers (cathedrale, Saint-Germain et Saint-Pierre). On y enjambe le pont Paul-Bert. Au coucher du soleil, les clochers se refletent dans l'eau : c'est la carte postale d'Auxerre.",
+        body: "La rivière borde la vieille ville, avec ses quais aménagés et, depuis l'autre rive, une vue sur les clochers (cathédrale, Saint-Germain et Saint-Pierre). On y enjambe le pont Paul-Bert. Au coucher du soleil, les clochers se reflètent dans l'eau : c'est la carte postale d'Auxerre.",
       },
       {
         heading: "5. Vézelay — la basilique romane et le chemin de Compostelle",
-        body: "Capitale du vin blanc de Bourgogne, Chablis cultive le chardonnay sur des sols kimmeridgiens, un calcaire a petites huitres fossiles qui donne cette minéralité. On y compte 7 grands crus et 40 premiers crus, avec caves et degustations dans le village. Le Chablis est mondialement connu, mais le village reste petit et authentique, a 20 min en voiture.",
+        body: "Capitale du vin blanc de Bourgogne, Chablis cultive le chardonnay sur des sols kimméridgiens, un calcaire à petites huîtres fossiles qui donne cette minéralité. On y compte 7 grands crus et 40 premiers crus, avec caves et dégustations dans le village. Le Chablis est mondialement connu, mais le village reste petit et authentique, à 20 min en voiture.",
       },
       {
         heading: "6. Tonnerre — l'Hôtel-Dieu médiéval et le vignoble Épineuil",
-        body: "Des croisieres fluviales partent d'Auxerre sur l'Yonne et le canal du Nivernais : peniche-promenade, ecluses et paysages verts. On peut aussi louer un bateau sans permis pour quelques jours sur le canal. C'est une maniere paisible de decouvrir la Bourgogne fluviale.",
+        body: "Des croisières fluviales partent d'Auxerre sur l'Yonne et le canal du Nivernais : péniche-promenade, écluses et paysages verts. On peut aussi louer un bateau sans permis pour quelques jours sur le canal. C'est une manière paisible de découvrir la Bourgogne fluviale.",
       },
       {
         heading: "7. Sens — la première cathédrale gothique de France",
-        body: "C'est la plus grande eglise cistercienne de France (XIIe), avec toute la sobriete cistercienne, une nef immense de 108 m et une acoustique exceptionnelle. Thomas Becket s'y est refugie en exil, et des concerts s'y tiennent l'ete. Le contraste avec le gothique flamboyant d'Auxerre est saisissant : ici regne le depouillement total. A 25 min.",
+        body: "C'est la plus grande église cistercienne de France (XIIe), avec toute la sobriété cistercienne, une nef immense de 108 m et une acoustique exceptionnelle. Thomas Becket s'y est réfugié en exil, et des concerts s'y tiennent l'été. Le contraste avec le gothique flamboyant d'Auxerre est saisissant : ici règne le dépouillement total. À 25 min.",
       },
       {
         heading: "8. Irancy — le seul vin rouge de l'Yonne",
-        body: "Ancien quartier des mariniers (l'Yonne etait une voie commerciale), il aligne des maisons modestes et l'eglise Saint-Pierre (Renaissance, au portail sculpte). Moins touristique et plus populaire, c'est l'endroit ideal pour sentir l'Auxerre d'avant le tourisme.",
+        body: "Ancien quartier des mariniers (l'Yonne était une voie commerciale), il aligne des maisons modestes et l'église Saint-Pierre (Renaissance, au portail sculpté). Moins touristique et plus populaire, c'est l'endroit idéal pour sentir l'Auxerre d'avant le tourisme.",
       },
       {
         heading: "9. Forêt d'Othe — les plateaux boisés entre Seine et Yonne",
-        body: "Au-dela de Chablis, le vignoble de l'Auxerrois reserve quelques surprises : Irancy (un rouge de pinot noir, rare en Bourgogne nord), Saint-Bris (seul AOC sauvignon de Bourgogne) et Coulanges-la-Vineuse. Ces villages vignerons, a 15-20 km, proposent des degustations moins courues que Chablis. Pour les amateurs qui veulent sortir des sentiers battus.",
+        body: "Au-delà de Chablis, le vignoble de l'Auxerrois réserve quelques surprises : Irancy (un rouge de pinot noir, rare en Bourgogne nord), Saint-Bris (seul AOC sauvignon de Bourgogne) et Coulanges-la-Vineuse. Ces villages vignerons, à 15-20 km, proposent des dégustations moins courues que Chablis. Pour les amateurs qui veulent sortir des sentiers battus.",
       },
       {
         heading: "10. L'Yonne en kayak — de Clamecy à Auxerre",
-        body: "Au menu : gougeres (des choux au fromage, specialite bourguignonne nee dans l'Yonne), jambon a la chablisienne, escargots et andouillette (Chablis en fait une reputee). Le tout arrose de Chablis ou d'Irancy. Le marche se tient le mardi, le vendredi et le dimanche. Les bistrots du centre servent une cuisine bourguignonne sans chichi.",
+        body: "Au menu : gougères (des choux au fromage, spécialité bourguignonne née dans l'Yonne), jambon à la chablisienne, escargots et andouillette (Chablis en fait une réputée). Le tout arrosé de Chablis ou d'Irancy. Le marché se tient le mardi, le vendredi et le dimanche. Les bistrots du centre servent une cuisine bourguignonne sans chichi.",
       },
     ],
     relatedCities: ["auxerre"],
@@ -26804,47 +26804,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
-    intro: "Belfort, c'est le Lion : une sculpture monumentale de Bartholdi (le createur de la Statue de la Liberte) taillee dans le gres rose, au pied de la citadelle de Vauban. Ville-forteresse entre Vosges et Jura, elle garde la porte de la trouee de Belfort. Industrielle mais verte, elle accueille le festival des Eurockeennes l'ete. Voici 10 choses concretes a faire.",
+    intro: "Belfort, c'est le Lion : une sculpture monumentale de Bartholdi (le créateur de la Statue de la Liberté) taillée dans le grès rose, au pied de la citadelle de Vauban. Ville-forteresse entre Vosges et Jura, elle garde la porte de la trouée de Belfort. Industrielle mais verte, elle accueille le festival des Eurockéennes l'été. Voici 10 choses concrètes à faire.",
     sections: [
       {
         heading: "1. Le Lion de Belfort — le colosse de Bartholdi",
-        body: "Cette sculpture monumentale de Bartholdi (1880) mesure 22 m de long et 11 m de haut, taillee dans le gres rose des Vosges et adossee a la falaise sous la citadelle. Elle symbolise la resistance de Belfort au siege prussien de 1870-1871, qui dura 103 jours. Une copie en bronze trone place Denfert-Rochereau a Paris. L'acces au pied est gratuit, la plateforme payante.",
+        body: "Cette sculpture monumentale de Bartholdi (1880) mesure 22 m de long et 11 m de haut, taillée dans le grès rose des Vosges et adossée à la falaise sous la citadelle. Elle symbolise la résistance de Belfort au siège prussien de 1870-1871, qui dura 103 jours. Une copie en bronze trône place Denfert-Rochereau à Paris. L'accès au pied est gratuit, la plateforme payante.",
       },
       {
         heading: "2. Citadelle de Vauban — le château sur le rocher",
-        body: "Perchee et remaniee par Vauban au XVIIe, la citadelle deploie ses terrasses, ses souterrains et une vue a 360° sur la ville, les Vosges et le Jura. Elle abrite la Cour d'Honneur et le musee d'Histoire. L'acces aux terrasses est libre. C'est le meilleur point de vue sur Belfort, avec le Lion vu d'en haut.",
+        body: "Perchée et remaniée par Vauban au XVIIe, la citadelle déploie ses terrasses, ses souterrains et une vue à 360° sur la ville, les Vosges et le Jura. Elle abrite la Cour d'Honneur et le musée d'Histoire. L'accès aux terrasses est libre. C'est le meilleur point de vue sur Belfort, avec le Lion vu d'en haut.",
       },
       {
         heading: "3. Festival des Eurockéennes — le plus grand festival de rock de l'Est",
-        body: "Le centre historique aligne des facades roses et ocres autour de la place d'Armes (marche, terrasses), de la cathedrale Saint-Christophe (en gres rose, XVIIIe) et de ses rues pietonnes. Petite mais agreable, la vieille ville doit sa couleur chaude unique au gres rose. Elle se fait a pied en 1h.",
+        body: "Le centre historique aligne des façades roses et ocres autour de la place d'Armes (marché, terrasses), de la cathédrale Saint-Christophe (en grès rose, XVIIIe) et de ses rues piétonnes. Petite mais agréable, la vieille ville doit sa couleur chaude unique au grès rose. Elle se fait à pied en 1h.",
       },
       {
         heading: "4. La vieille ville de Belfort — la place d'Armes et les remparts",
-        body: "C'est l'un des plus gros festivals rock de France : debut juillet, sur la presqu'ile du Malsaucy (au bord du lac, a 8 km de Belfort), avec 130 000 spectateurs sur 4 jours et une affiche internationale. Reservez tot. Hors festival, le Malsaucy reste un beau site naturel ou l'on se baigne et se balade.",
+        body: "C'est l'un des plus gros festivals rock de France : début juillet, sur la presqu'île du Malsaucy (au bord du lac, à 8 km de Belfort), avec 130 000 spectateurs sur 4 jours et une affiche internationale. Réservez tôt. Hors festival, le Malsaucy reste un beau site naturel où l'on se baigne et se balade.",
       },
       {
         heading: "5. Ballon d'Alsace — le premier col routier de France",
-        body: "Cette base de loisirs a 8 km offre un lac, une plage, une baignade surveillee l'ete, des sentiers et la Maison de l'Environnement. C'est le poumon vert des Belfortains et le site des Eurockeennes. On peut y venir a velo depuis Belfort. C'est gratuit et familial.",
+        body: "Cette base de loisirs à 8 km offre un lac, une plage, une baignade surveillée l'été, des sentiers et la Maison de l'Environnement. C'est le poumon vert des Belfortains et le site des Eurockéennes. On peut y venir à vélo depuis Belfort. C'est gratuit et familial.",
       },
       {
         heading: "6. Montbéliard — la ville de Peugeot et Cuvier",
-        body: "Le musee d'Histoire, installe dans la citadelle, retrace le passe militaire et le siege de 1870. A cote, le musee d'Art moderne Donation Maurice Jardot presente une collection remarquable (Picasso, Leger, dessins de Le Corbusier), don d'un Belfortais. C'est surprenant pour une ville de cette taille. Comptez 1 a 2h pour les deux.",
+        body: "Le musée d'Histoire, installé dans la citadelle, retrace le passé militaire et le siège de 1870. À côté, le musée d'Art moderne Donation Maurice Jardot présente une collection remarquable (Picasso, Léger, dessins de Le Corbusier), don d'un Belfortais. C'est surprenant pour une ville de cette taille. Comptez 1 à 2h pour les deux.",
       },
       {
         heading: "7. Giromagny et le pays sous-vosgien",
-        body: "Sommet des Vosges du Sud a 1 247 m, le ballon d'Alsace offre des randonnees, une vue sur les Alpes par temps clair et du ski l'hiver : ce fut la premiere station de ski francaise en 1907. Route des cretes, nature, air pur, le tout a 40 min en voiture. C'est le grand bol d'air des environs.",
+        body: "Sommet des Vosges du Sud à 1 247 m, le ballon d'Alsace offre des randonnées, une vue sur les Alpes par temps clair et du ski l'hiver : ce fut la première station de ski française en 1907. Route des crêtes, nature, air pur, le tout à 40 min en voiture. C'est le grand bol d'air des environs.",
       },
       {
         heading: "8. Ronchamp — la chapelle Le Corbusier",
-        body: "Belfort garde la trouee de Belfort, ce passage naturel entre Vosges et Jura, couloir strategique de tout temps pour les invasions, le commerce et le rail. Le territoire de Belfort est d'ailleurs le plus petit departement de France metropolitaine. Paysage de collines, forets et etangs : de quoi bien comprendre la geographie du lieu.",
+        body: "Belfort garde la trouée de Belfort, ce passage naturel entre Vosges et Jura, couloir stratégique de tout temps pour les invasions, le commerce et le rail. Le territoire de Belfort est d'ailleurs le plus petit département de France métropolitaine. Paysage de collines, forêts et étangs : de quoi bien comprendre la géographie du lieu.",
       },
       {
         heading: "9. Héricourt et le train des Vosges",
-        body: "Belfort est une ville industrielle (Alstom, General Electric, TGV, turbines), et ce passe ouvrier la marque profondement. Des visites du patrimoine industriel sont possibles. Ce n'est pas du tourisme classique, mais ca explique l'ame de Belfort : une ville qui fabrique.",
+        body: "Belfort est une ville industrielle (Alstom, General Electric, TGV, turbines), et ce passé ouvrier la marque profondément. Des visites du patrimoine industriel sont possibles. Ce n'est pas du tourisme classique, mais ça explique l'âme de Belfort : une ville qui fabrique.",
       },
       {
         heading: "10. La Cité musicale de Belfort et le FIMU",
-        body: "La cuisine melange influences franc-comtoise et alsacienne : saucisse de Montbeliard, cancoillotte (un fromage coulant), comte, et vins du Jura juste a cote. Le marche se tient en semaine place d'Armes. La vieille ville aligne brasseries et bistrots. C'est une cuisine de montagne, roborative.",
+        body: "La cuisine mélange influences franc-comtoise et alsacienne : saucisse de Montbéliard, cancoillotte (un fromage coulant), comté, et vins du Jura juste à côté. Le marché se tient en semaine place d'Armes. La vieille ville aligne brasseries et bistrots. C'est une cuisine de montagne, roborative.",
       },
     ],
     relatedCities: ["belfort"],
@@ -26864,47 +26864,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
-    intro: "Epinal, c'est l'imagerie : la celebre Imagerie d'Epinal produit des estampes populaires depuis 1796 et tourne encore aujourd'hui. Posee dans les Vosges sur la Moselle, la ville reunit une basilique romane, une vieille ville et la foret tout autour. C'est la porte d'entree du massif vosgien. Voici 10 choses concretes a faire.",
+    intro: "Épinal, c'est l'imagerie : la célèbre Imagerie d'Épinal produit des estampes populaires depuis 1796 et tourne encore aujourd'hui. Posée dans les Vosges sur la Moselle, la ville réunit une basilique romane, une vieille ville et la forêt tout autour. C'est la porte d'entrée du massif vosgien. Voici 10 choses concrètes à faire.",
     sections: [
       {
         heading: "1. Imagerie d'Épinal — le musée de l'estampe populaire",
-        body: "Cette manufacture d'images populaires, fondee en 1796, est toujours en activite : c'est la derniere imagerie traditionnelle de France. Ses estampes colorees (soldats, contes, scenes religieuses) ont donne l'expression « image d'Epinal », cette vision idealisee. On visite les ateliers et les presses anciennes, avec une boutique a la fin. Comptez 1h30. C'est l'identite meme de la ville.",
+        body: "Cette manufacture d'images populaires, fondée en 1796, est toujours en activité : c'est la dernière imagerie traditionnelle de France. Ses estampes colorées (soldats, contes, scènes religieuses) ont donné l'expression « image d'Épinal », cette vision idéalisée. On visite les ateliers et les presses anciennes, avec une boutique à la fin. Comptez 1h30. C'est l'identité même de la ville.",
       },
       {
         heading: "2. Basilique Saint-Maurice — le joyau gothique vosgien",
-        body: "Cette eglise des XIe-XIIIe mele roman et gothique, avec son portail des Bourgeois et ses chapiteaux sculptes. Elle se dresse au coeur de la vieille ville. Sobre et belle. Comptez 30 min.",
+        body: "Cette église des XIe-XIIIe mêle roman et gothique, avec son portail des Bourgeois et ses chapiteaux sculptés. Elle se dresse au cœur de la vieille ville. Sobre et belle. Comptez 30 min.",
       },
       {
         heading: "3. Parc international d'art — sculptures en plein air",
-        body: "Voisin de l'Imagerie, ce musee est dedie a l'image populaire imprimee : collection d'estampes du monde entier, expositions temporaires et approche moderne. C'est un complement intelligent a la visite de l'Imagerie. Comptez 1h.",
+        body: "Voisin de l'Imagerie, ce musée est dédié à l'image populaire imprimée : collection d'estampes du monde entier, expositions temporaires et approche moderne. C'est un complément intelligent à la visite de l'Imagerie. Comptez 1h.",
       },
       {
         heading: "4. Lac de Gérardmer — la perle des Vosges",
-        body: "Ce grand parc en bord de Moselle deploie ses arbres centenaires, ses allees et son kiosque, le long de la riviere qui traverse la ville. La balade y est agreable : c'est le poumon vert d'Epinal. Gratuit et familial.",
+        body: "Ce grand parc en bord de Moselle déploie ses arbres centenaires, ses allées et son kiosque, le long de la rivière qui traverse la ville. La balade y est agréable : c'est le poumon vert d'Épinal. Gratuit et familial.",
       },
       {
         heading: "5. La route des crêtes des Vosges",
-        body: "Sur la colline, les ruines du chateau medieval s'inscrivent dans un parc boise qui offre une vue sur la ville et les vestiges des fortifications. Un petit parc animalier gratuit (cerfs, chevres) complete la visite. La montee se fait a pied depuis le centre. Vue et nature, parfait pour une pause.",
+        body: "Sur la colline, les ruines du château médiéval s'inscrivent dans un parc boisé qui offre une vue sur la ville et les vestiges des fortifications. Un petit parc animalier gratuit (cerfs, chèvres) complète la visite. La montée se fait à pied depuis le centre. Vue et nature, parfait pour une pause.",
       },
       {
         heading: "6. Remiremont — les chanoinesses et la ville abbatiale",
-        body: "La place des Vosges, la vraie, l'originale d'Epinal, aligne ses arcades, ses maisons anciennes et ses terrasses. Tout autour, des rues pietonnes et des commerces animent le coeur historique, petit mais charmant. Ca se fait a pied.",
+        body: "La place des Vosges, la vraie, l'originale d'Épinal, aligne ses arcades, ses maisons anciennes et ses terrasses. Tout autour, des rues piétonnes et des commerces animent le cœur historique, petit mais charmant. Ça se fait à pied.",
       },
       {
         heading: "7. Plombières-les-Bains — les thermes napoléoniens",
-        body: "Sur une ile de la Moselle, ce musee couvre tout, de l'archeologie gallo-romaine a l'art contemporain, en passant par Rembrandt, Georges de La Tour et Rabelais. C'est surprenant pour une ville de cette taille. Comptez 1 a 2h.",
+        body: "Sur une île de la Moselle, ce musée couvre tout, de l'archéologie gallo-romaine à l'art contemporain, en passant par Rembrandt, Georges de La Tour et Rabelais. C'est surprenant pour une ville de cette taille. Comptez 1 à 2h.",
       },
       {
         heading: "8. Forêt vosgienne et randonnée au col de la Schlucht",
-        body: "Epinal est entouree de forets, avec des sentiers de rando directement depuis la ville et le massif des Vosges a portee de main. La planche des Belles Filles, ce col cycliste celebre du Tour, est a 40 min, tout comme Gerardmer et les lacs. C'est la porte du massif.",
+        body: "Épinal est entourée de forêts, avec des sentiers de rando directement depuis la ville et le massif des Vosges à portée de main. La planche des Belles Filles, ce col cycliste célèbre du Tour, est à 40 min, tout comme Gérardmer et les lacs. C'est la porte du massif.",
       },
       {
         heading: "9. Festival International de l'Image d'Épinal",
-        body: "Surnommee la « perle des Vosges », Gerardmer s'organise autour de son lac, le plus grand lac naturel des Vosges, ou l'on se baigne, fait du pedalo ou du ski l'hiver. Les lacs de Longemer et de Retournemer sont juste a cote, avec cascades, forets et fromages. C'est l'excursion nature classique depuis Epinal. Comptez une journee.",
+        body: "Surnommée la « perle des Vosges », Gérardmer s'organise autour de son lac, le plus grand lac naturel des Vosges, où l'on se baigne, fait du pédalo ou du ski l'hiver. Les lacs de Longemer et de Retournemer sont juste à côté, avec cascades, forêts et fromages. C'est l'excursion nature classique depuis Épinal. Comptez une journée.",
       },
       {
         heading: "10. Gastronomie vosgienne — quiche et munster",
-        body: "Place aux specialites vosgiennes : tofailles (pommes de terre et lard), rapée (galette de pomme de terre), munster, miel et confitures de myrtille, sans oublier les bonbons des Vosges. Le marche se tient le samedi. Pour la vraie cuisine vosgienne, direction les fermes-auberges du massif. Roborative et montagnarde.",
+        body: "Place aux spécialités vosgiennes : tofailles (pommes de terre et lard), râpée (galette de pomme de terre), munster, miel et confitures de myrtille, sans oublier les bonbons des Vosges. Le marché se tient le samedi. Pour la vraie cuisine vosgienne, direction les fermes-auberges du massif. Roborative et montagnarde.",
       },
     ],
     relatedCities: ["epinal"],
@@ -26923,47 +26923,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
-    intro: "Roanne, c'est la gastronomie : la maison Troisgros, 3 etoiles depuis 1968 et l'une des plus anciennes de France, a fait la reputation de la ville. Posee sur la Loire, entre Lyon et l'Auvergne, c'est une ville industrielle (textile) en reconversion. Pas touristique pour un sou, mais une vraie etape gourmande. Voici 10 choses concretes a faire.",
+    intro: "Roanne, c'est la gastronomie : la maison Troisgros, 3 étoiles depuis 1968 et l'une des plus anciennes de France, a fait la réputation de la ville. Posée sur la Loire, entre Lyon et l'Auvergne, c'est une ville industrielle (textile) en reconversion. Pas touristique pour un sou, mais une vraie étape gourmande. Voici 10 choses concrètes à faire.",
     sections: [
       {
         heading: "1. Maison Troisgros — la cuisine de la Nouvelle Vague",
-        body: "Trois etoiles Michelin depuis 1968 : c'est l'une des plus longues lignees etoilees de France et une institution de la nouvelle cuisine. La maison s'est deplacee en 2017 a Ouches, a 8 km, dans un ecrin de nature. Le tarif est eleve (menus a 350€ et plus) et la reservation se prend des semaines a l'avance. Pour les budgets plus serres, les autres tables de Roanne profitent de l'aura gastronomique de la ville.",
+        body: "Trois étoiles Michelin depuis 1968 : c'est l'une des plus longues lignées étoilées de France et une institution de la nouvelle cuisine. La maison s'est déplacée en 2017 à Ouches, à 8 km, dans un écrin de nature. Le tarif est élevé (menus à 350€ et plus) et la réservation se prend des semaines à l'avance. Pour les budgets plus serrés, les autres tables de Roanne profitent de l'aura gastronomique de la ville.",
       },
       {
         heading: "2. Gorges de la Loire — le canyon avant les plaines",
-        body: "Ce port de plaisance sur la Loire aligne ses quais, ses peniches et invite a la balade au bord du fleuve. C'est le point de depart du canal de Roanne a Digoin. La Loire est encore jeune ici, proche de sa source. C'est agreable pour une promenade, avec des restos sur les quais.",
+        body: "Ce port de plaisance sur la Loire aligne ses quais, ses péniches et invite à la balade au bord du fleuve. C'est le point de départ du canal de Roanne à Digoin. La Loire est encore jeune ici, proche de sa source. C'est agréable pour une promenade, avec des restos sur les quais.",
       },
       {
         heading: "3. Charlieu — l'abbaye bénédictine et le prieuré",
-        body: "Installe dans un hotel particulier, ce musee des beaux-arts et d'archeologie reunit les faiences de Roanne (une tradition locale), de l'archeologie gauloise (Dechelette etait un grand archeologue roannais) et des beaux-arts. C'est bien fait, et gratuit certains jours. Comptez 1h.",
+        body: "Installé dans un hôtel particulier, ce musée des beaux-arts et d'archéologie réunit les faïences de Roanne (une tradition locale), de l'archéologie gauloise (Déchelette était un grand archéologue roannais) et des beaux-arts. C'est bien fait, et gratuit certains jours. Comptez 1h.",
       },
       {
         heading: "4. Musée Joseph-Déchelette — l'archéologie de la Loire",
-        body: "L'AOC Cote Roannaise cultive le gamay sur des coteaux granitiques, donnant des rouges fruites et legers. Les villages vignerons s'accrochent aux collines de l'ouest, comme Ambierle et Saint-Haon, avec degustations et caves. C'est moins connu que le Beaujolais voisin, donc moins cher et plus authentique, a 15-20 min.",
+        body: "L'AOC Côte Roannaise cultive le gamay sur des coteaux granitiques, donnant des rouges fruités et légers. Les villages vignerons s'accrochent aux collines de l'ouest, comme Ambierle et Saint-Haon, avec dégustations et caves. C'est moins connu que le Beaujolais voisin, donc moins cher et plus authentique, à 15-20 min.",
       },
       {
         heading: "5. Côte Roannaise — les vins du berceau de la Loire",
-        body: "Ce village de caractere reunit un prieure clunisien, une eglise gothique flamboyant au toit de tuiles vernissees bourguignonnes (polychromes) et un retable flamand du XVe. C'est l'un des plus beaux villages du Roannais, avec le musee Alice-Taverne consacre aux arts et traditions populaires. Comptez une demi-journee avec la cote roannaise.",
+        body: "Ce village de caractère réunit un prieuré clunisien, une église gothique flamboyant au toit de tuiles vernissées bourguignonnes (polychromes) et un retable flamand du XVe. C'est l'un des plus beaux villages du Roannais, avec le musée Alice-Taverne consacré aux arts et traditions populaires. Comptez une demi-journée avec la côte roannaise.",
       },
       {
         heading: "6. Ambierle — le retable flamand et le musée Alice-Taverne",
-        body: "A 10 km, le barrage sur la Loire forme un lac de retenue et des gorges sauvages : base de loisirs, baignade, sports nautiques et belvederes. Le chateau de la Roche, perche sur un eperon dans le lac, est tres photogenique. Nature et detente a deux pas de la ville.",
+        body: "À 10 km, le barrage sur la Loire forme un lac de retenue et des gorges sauvages : base de loisirs, baignade, sports nautiques et belvédères. Le château de la Roche, perché sur un éperon dans le lac, est très photogénique. Nature et détente à deux pas de la ville.",
       },
       {
         heading: "7. Le Forez — la plaine entre Loire et monts",
-        body: "Ce canal du XIXe (56 km) offre un chemin de halage pour le velo et la marche, avec ses ecluses et ses peniches. L'itineraire cyclable est agreable et plat, le long de l'eau, et l'on peut louer un bateau sans permis. Bon plan nature et patrimoine industriel fluvial.",
+        body: "Ce canal du XIXe (56 km) offre un chemin de halage pour le vélo et la marche, avec ses écluses et ses péniches. L'itinéraire cyclable est agréable et plat, le long de l'eau, et l'on peut louer un bateau sans permis. Bon plan nature et patrimoine industriel fluvial.",
       },
       {
         heading: "8. Monts du Forez et Pierre-sur-Haute",
-        body: "Roanne fut la capitale du textile (bonneterie, tissage) au XXe : usines et magasins d'usine (Devernois, entre autres, encore actifs) y rythment encore la vie. Le centre-ville commercant garde cette tradition, ce qui en fait un bon endroit pour le shopping textile a prix d'usine. C'est l'ADN industriel de la ville.",
+        body: "Roanne fut la capitale du textile (bonneterie, tissage) au XXe : usines et magasins d'usine (Devernois, entre autres, encore actifs) y rythment encore la vie. Le centre-ville commerçant garde cette tradition, ce qui en fait un bon endroit pour le shopping textile à prix d'usine. C'est l'ADN industriel de la ville.",
       },
       {
         heading: "9. Thiers — la coutellerie capitale de France",
-        body: "Une voie verte longe le canal et la Loire, avec des itineraires plats et faciles, parfaits en famille. Le Roannais se decouvre bien a velo, entre vignoble, fleuve et villages. La location se fait en ville. Pour ceux qui veulent bouger sans denivele.",
+        body: "Une voie verte longe le canal et la Loire, avec des itinéraires plats et faciles, parfaits en famille. Le Roannais se découvre bien à vélo, entre vignoble, fleuve et villages. La location se fait en ville. Pour ceux qui veulent bouger sans dénivelé.",
       },
       {
         heading: "10. Gastronomie roannaise — volaille et fromages du Forez",
-        body: "Roanne vit dans l'ombre gourmande de Troisgros, mais la ville compte plein de bonnes tables a prix raisonnable : bistrots, cuisine lyonnaise (proximite oblige), andouille de Charlieu, fourme et vins de la cote roannaise. Le marche se tient en semaine. La gastronomie est dans l'ADN local, a tous les prix.",
+        body: "Roanne vit dans l'ombre gourmande de Troisgros, mais la ville compte plein de bonnes tables à prix raisonnable : bistrots, cuisine lyonnaise (proximité oblige), andouille de Charlieu, fourme et vins de la côte roannaise. Le marché se tient en semaine. La gastronomie est dans l'ADN local, à tous les prix.",
       },
     ],
     relatedCities: ["roanne"],
@@ -27042,47 +27042,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
-    intro: "Saint-Etienne est ville UNESCO du design depuis 2010, la seule en France. Ancienne cite miniere et manufacture d'armes, elle s'est reconvertie en capitale du design, avec un centre compact, des prix bas et un art contemporain de premier plan. Voici 10 choses concretes a faire.",
+    intro: "Saint-Étienne est ville UNESCO du design depuis 2010, la seule en France. Ancienne cité minière et manufacture d'armes, elle s'est reconvertie en capitale du design, avec un centre compact, des prix bas et un art contemporain de premier plan. Voici 10 choses concrètes à faire.",
     sections: [
       {
         heading: "1. Cité du Design — l'ancienne manufacture d'armes reconvertie",
-        body: "Installee dans l'ancienne Manufacture d'armes reconvertie, la Cite du design occupe un site a l'architecture remarquable, reconnaissable a sa platine noire. On y trouve des expos design, des ateliers et la biennale internationale du design, dont la prochaine edition tombe en 2026. Comptez environ 5 a 8 EUR pour l'entree des expos, et il y a un cafe sur place. C'est le coeur de l'identite stephanoise.",
+        body: "Installée dans l'ancienne Manufacture d'armes reconvertie, la Cité du design occupe un site à l'architecture remarquable, reconnaissable à sa platine noire. On y trouve des expos design, des ateliers et la biennale internationale du design, dont la prochaine édition tombe en 2026. Comptez environ 5 à 8 € pour l'entrée des expos, et il y a un café sur place. C'est le cœur de l'identité stéphanoise.",
       },
       {
         heading: "2. Musée d'Art Moderne et Contemporain — une collection de rang mondial",
-        body: "Le Musee d'Art Moderne et Contemporain, le MAMC+, abrite l'une des plus grandes collections d'art contemporain de France, avec 20 000 oeuvres. Andy Warhol, Frank Stella et le design industriel y cotoient le reste de la collection. Il se trouve a Saint-Priest-en-Jarez, desservi par le tram T1. L'entree coute environ 7 EUR, et c'est gratuit le premier dimanche du mois. Comptez 2h.",
+        body: "Le Musée d'Art Moderne et Contemporain, le MAMC+, abrite l'une des plus grandes collections d'art contemporain de France, avec 20 000 œuvres. Andy Warhol, Frank Stella et le design industriel y côtoient le reste de la collection. Il se trouve à Saint-Priest-en-Jarez, desservi par le tram T1. L'entrée coûte environ 7 €, et c'est gratuit le premier dimanche du mois. Comptez 2h.",
       },
       {
         heading: "3. Le Vieux Saint-Étienne — le quartier Crêt-de-Roc",
-        body: "Le Puits Couriot, ancien puits de mine ferme en 1973, vous fait descendre dans des galeries reconstituees, sous un chevalement devenu emblematique. La lampisterie, la salle des pendus et la vie des mineurs y sont racontees. L'entree est d'environ 7 EUR. La visite, a la fois emouvante et pedagogique, dure 1h30 a 2h.",
+        body: "Le Puits Couriot, ancien puits de mine fermé en 1973, vous fait descendre dans des galeries reconstituées, sous un chevalement devenu emblématique. La lampisterie, la salle des pendus et la vie des mineurs y sont racontées. L'entrée est d'environ 7 €. La visite, à la fois émouvante et pédagogique, dure 1h30 à 2h.",
       },
       {
         heading: "4. Parc Naturel Régional du Pilat — à 20 min du centre",
-        body: "Le stade Geoffroy-Guichard, surnomme le Chaudron, est le stade mythique de l'ASSE, les Verts de Sainte, avec une ambiance legendaire les soirs de match. Une visite guidee et le musee des Verts sont possibles, dans une enceinte d'environ 42 000 places. Si un match a domicile est programme, l'experience vaut le detour, alors verifiez le calendrier.",
+        body: "Le stade Geoffroy-Guichard, surnommé le Chaudron, est le stade mythique de l'ASSE, les Verts de Sainté, avec une ambiance légendaire les soirs de match. Une visite guidée et le musée des Verts sont possibles, dans une enceinte d'environ 42 000 places. Si un match à domicile est programmé, l'expérience vaut le détour, alors vérifiez le calendrier.",
       },
       {
         heading: "5. Le musée de la Mine — descendre au fond du puits",
-        body: "Le quartier Saint-Jacques et le centre forment un coeur de ville pieton, avec la place du Peuple et la place Jean-Jaures, la plus grande. On y trouve commerces, cafes et marche, dans une architecture du XIXe siecle. Compact et accessible a pied, c'est un bon point de depart.",
+        body: "Le quartier Saint-Jacques et le centre forment un cœur de ville piéton, avec la place du Peuple et la place Jean-Jaurès, la plus grande. On y trouve commerces, cafés et marché, dans une architecture du XIXe siècle. Compact et accessible à pied, c'est un bon point de départ.",
       },
       {
         heading: "6. Les gorges de la Loire — sauvages et proches",
-        body: "Autour du Puits Couriot, le parc-musee de la mine en plein air offre un espace exterieur ou les terrils restent visibles, temoins du patrimoine industriel. La promenade est libre et gratuite. C'est le complement naturel de la visite du musee.",
+        body: "Autour du Puits Couriot, le parc-musée de la mine en plein air offre un espace extérieur où les terrils restent visibles, témoins du patrimoine industriel. La promenade est libre et gratuite. C'est le complément naturel de la visite du musée.",
       },
       {
         heading: "7. La Manufacture de Saint-Étienne — armes et cycles",
-        body: "La colline Sainte-Barbe et les autres points hauts de la ville donnent un panorama sur Saint-Etienne et, au loin, sur les monts du Pilat. La ville est entouree de collines, et les vues sont particulierement belles au coucher du soleil.",
+        body: "La colline Sainte-Barbe et les autres points hauts de la ville donnent un panorama sur Saint-Étienne et, au loin, sur les monts du Pilat. La ville est entourée de collines, et les vues sont particulièrement belles au coucher du soleil.",
       },
       {
         heading: "8. Annonay — le berceau de l'aviation et des frères Montgolfier",
-        body: "Pour le marche et la gastronomie locale, direction le marche du cours Fauriel et les halles. Parmi les specialites : la rapee, une galette de pomme de terre, le saucisson de Lyon tout proche et le sarasson. Les bistrots stephanois restent abordables, avec des prix doux compares a Lyon.",
+        body: "Pour le marché et la gastronomie locale, direction le marché du cours Fauriel et les halles. Parmi les spécialités : la râpée, une galette de pomme de terre, le saucisson de Lyon tout proche et le sarasson. Les bistrots stéphanois restent abordables, avec des prix doux comparés à Lyon.",
       },
       {
         heading: "9. Vienne — les vestiges romains et le festival de jazz",
-        body: "Le parc naturel regional du Pilat sert de porte d'entree vers la nature, juste au sud, a 15-20 min. Randonnee, Crêt de la Perdrix qui culmine a 1432 m et villages y attendent les visiteurs. Cette nature accessible depuis la ville est ideale pour un week-end.",
+        body: "Le parc naturel régional du Pilat sert de porte d'entrée vers la nature, juste au sud, à 15-20 min. Randonnée, Crêt de la Perdrix qui culmine à 1432 m et villages y attendent les visiteurs. Cette nature accessible depuis la ville est idéale pour un week-end.",
       },
       {
         heading: "10. Gastronomie stéphanoise — la table du mineur",
-        body: "Saint-Etienne mise sur le design partout, et cela se voit dans la rue : parcours street art, mobilier urbain design herite de la Cite du design, fresques. La balade est libre et gratuite.",
+        body: "Saint-Étienne mise sur le design partout, et cela se voit dans la rue : parcours street art, mobilier urbain design hérité de la Cité du design, fresques. La balade est libre et gratuite.",
       },
     ],
     relatedCities: ["saint-etienne"],
@@ -27103,47 +27103,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
-    intro: "Frejus est une ville romaine de la Cote d'Azur, dans le Var. Elle conserve des vestiges antiques majeurs, comme les arenes et l'aqueduc, ainsi que des plages de sable et une cathedrale medievale. Moins clinquante que Saint-Tropez, sa voisine, elle se montre plus authentique. Voici 10 choses concretes a faire.",
+    intro: "Fréjus est une ville romaine de la Côte d'Azur, dans le Var. Elle conserve des vestiges antiques majeurs, comme les arènes et l'aqueduc, ainsi que des plages de sable et une cathédrale médiévale. Moins clinquante que Saint-Tropez, sa voisine, elle se montre plus authentique. Voici 10 choses concrètes à faire.",
     sections: [
       {
         heading: "1. L'amphithéâtre romain — l'arène du Ier siècle",
-        body: "Les arenes de Frejus forment un amphitheatre romain du Ier siecle, qui pouvait accueillir environ 10 000 spectateurs a l'epoque. Restaure, il accueille concerts et spectacles l'ete. L'entree reste moderee. C'est un vestige majeur de Forum Julii, le nom romain de Frejus.",
+        body: "Les arènes de Fréjus forment un amphithéâtre romain du Ier siècle, qui pouvait accueillir environ 10 000 spectateurs à l'époque. Restauré, il accueille concerts et spectacles l'été. L'entrée reste modérée. C'est un vestige majeur de Forum Julii, le nom romain de Fréjus.",
       },
       {
         heading: "2. Groupe épiscopal de Fréjus — la cathédrale et son baptistère",
-        body: "Le groupe episcopal reunit une cathedrale medievale des Xe-XIIe siecles, un baptistere paleochretien du Ve siecle, l'un des plus vieux de France, et un cloitre a plafond peint dont les poutres sont ornees. L'entree du cloitre coute environ 6 EUR. C'est un ensemble remarquable.",
+        body: "Le groupe épiscopal réunit une cathédrale médiévale des Xe-XIIe siècles, un baptistère paléochrétien du Ve siècle, l'un des plus vieux de France, et un cloître à plafond peint dont les poutres sont ornées. L'entrée du cloître coûte environ 6 €. C'est un ensemble remarquable.",
       },
       {
         heading: "3. Le théâtre romain et les thermes d'Agrippa",
-        body: "Frejus-Plage deroule une longue plage de sable, une base nautique et une promenade animee, le tout tres familial. L'eau atteint environ 20 a 25 degres l'ete. Le front de mer aligne restos et glaciers, et l'acces est plus facile que celui des criques voisines.",
+        body: "Fréjus-Plage déroule une longue plage de sable, une base nautique et une promenade animée, le tout très familial. L'eau atteint environ 20 à 25 degrés l'été. Le front de mer aligne restos et glaciers, et l'accès est plus facile que celui des criques voisines.",
       },
       {
         heading: "4. Le massif de l'Estérel depuis Fréjus",
-        body: "L'aqueduc romain a l'origine long de 40 km alimentait la ville, et ses vestiges en gardent la trace. Des arches restent visibles le long de la route. La visite est gratuite et en exterieur. C'est un beau temoignage de l'ingenierie romaine.",
+        body: "L'aqueduc romain à l'origine long de 40 km alimentait la ville, et ses vestiges en gardent la trace. Des arches restent visibles le long de la route. La visite est gratuite et en extérieur. C'est un beau témoignage de l'ingénierie romaine.",
       },
       {
         heading: "5. Saint-Raphaël — la station Belle Époque voisine",
-        body: "La base nature Francois Leotard est un grand parc cotier de 135 hectares, avec pistes cyclables, sports et la plage de la Base. Cet ancien terrain d'aviation reconverti est gratuit, familial et sportif.",
+        body: "La base nature François Léotard est un grand parc côtier de 135 hectares, avec pistes cyclables, sports et la plage de la Base. Cet ancien terrain d'aviation reconverti est gratuit, familial et sportif.",
       },
       {
         heading: "6. La pagode bouddhiste Hong Hien — l'Indochine en Provence",
-        body: "La vieille ville de Frejus, c'est un centre historique fait de ruelles, avec la place Formige et son marche provencal. Cafes et commerces y entretiennent une ambiance varoise authentique. La balade a pied y est agreable.",
+        body: "La vieille ville de Fréjus, c'est un centre historique fait de ruelles, avec la place Formigé et son marché provençal. Cafés et commerces y entretiennent une ambiance varoise authentique. La balade à pied y est agréable.",
       },
       {
         heading: "7. Les gorges du Verdon depuis Fréjus",
-        body: "Port-Frejus est une marina moderne bordee de restaurants et de bateaux, ou l'on se promene au bord du port. Des balades en mer peuvent en partir. Le quartier s'anime le soir.",
+        body: "Port-Fréjus est une marina moderne bordée de restaurants et de bateaux, où l'on se promène au bord du port. Des balades en mer peuvent en partir. Le quartier s'anime le soir.",
       },
       {
         heading: "8. Napoléon à Fréjus — le golfe de débarquement",
-        body: "La chapelle Notre-Dame-de-Jerusalem a ete dessinee par Jean Cocteau dans les annees 1960, et achevee apres sa mort. Les fresques et les vitraux sont signes de l'artiste. L'ensemble est original, et l'entree reste moderee.",
+        body: "La chapelle Notre-Dame-de-Jérusalem a été dessinée par Jean Cocteau dans les années 1960, et achevée après sa mort. Les fresques et les vitraux sont signés de l'artiste. L'ensemble est original, et l'entrée reste modérée.",
       },
       {
         heading: "9. Les plages de Fréjus-Plage et du Dramont",
-        body: "Le massif de l'Esterel sert de porte d'entree a l'est, avec son relief rouge volcanique ou la roche rouge tranche sur la mer bleue. Randonnee, criques sauvages et panoramas y abondent. Accessible depuis Frejus, il est spectaculaire au coucher du soleil.",
+        body: "Le massif de l'Estérel sert de porte d'entrée à l'est, avec son relief rouge volcanique où la roche rouge tranche sur la mer bleue. Randonnée, criques sauvages et panoramas y abondent. Accessible depuis Fréjus, il est spectaculaire au coucher du soleil.",
       },
       {
         heading: "10. Marché de Fréjus et gastronomie varoise",
-        body: "Le marche provencal typique se tient le mercredi et le samedi, avec ses produits du Var, ses olives, ses fromages et ses fleurs, dans une ambiance provencale. Il se tient en centre-ville, le matin.",
+        body: "Le marché provençal typique se tient le mercredi et le samedi, avec ses produits du Var, ses olives, ses fromages et ses fleurs, dans une ambiance provençale. Il se tient en centre-ville, le matin.",
       },
     ],
     relatedCities: ["frejus"],
@@ -27163,47 +27163,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
-    intro: "Arras est la capitale de l'Artois, dans le Pas-de-Calais. Elle possede deux places baroques flamandes uniques, un beffroi classe UNESCO et les carrieres souterraines de la Premiere Guerre. Sous-estimee, elle est magnifique. Voici 10 choses concretes a faire.",
+    intro: "Arras est la capitale de l'Artois, dans le Pas-de-Calais. Elle possède deux places baroques flamandes uniques, un beffroi classé UNESCO et les carrières souterraines de la Première Guerre. Sous-estimée, elle est magnifique. Voici 10 choses concrètes à faire.",
     sections: [
       {
         heading: "1. Grand-Place et place des Héros — les façades flamandes baroques",
-        body: "La Grand-Place et la Place des Heros forment deux places baroques flamandes exceptionnelles, avec leurs 155 facades a arcades des XVIIe-XVIIIe siecles. Uniques en France, elles ont ete reconstruites a l'identique apres 1918. Les cafes y installent leurs terrasses. C'est le coeur d'Arras, et c'est gratuit.",
+        body: "La Grand-Place et la Place des Héros forment deux places baroques flamandes exceptionnelles, avec leurs 155 façades à arcades des XVIIe-XVIIIe siècles. Uniques en France, elles ont été reconstruites à l'identique après 1918. Les cafés y installent leurs terrasses. C'est le cœur d'Arras, et c'est gratuit.",
       },
       {
         heading: "2. Les Boves — les souterrains médiévaux",
-        body: "Le beffroi de l'hotel de ville, haut de 75 m et de style gothique flamboyant, est classe UNESCO. La montee est possible, par ascenseur puis a pied, pour decouvrir le panorama. L'entree coute environ 3 a 4 EUR, carillon compris. C'est le symbole de la ville.",
+        body: "Le beffroi de l'hôtel de ville, haut de 75 m et de style gothique flamboyant, est classé UNESCO. La montée est possible, par ascenseur puis à pied, pour découvrir le panorama. L'entrée coûte environ 3 à 4 €, carillon compris. C'est le symbole de la ville.",
       },
       {
         heading: "3. Mémorial de Vimy — le sacrifice canadien",
-        body: "La Carriere Wellington, memorial de 1917, occupe des carrieres souterraines creusees par les Neo-Zelandais pendant la Premiere Guerre, a 20 m sous terre. La visite guidee, emouvante, raconte la bataille d'Arras de 1917. L'entree coute environ 7 EUR, casque fourni. Comptez 1h15.",
+        body: "La Carrière Wellington, mémorial de 1917, occupe des carrières souterraines creusées par les Néo-Zélandais pendant la Première Guerre, à 20 m sous terre. La visite guidée, émouvante, raconte la bataille d'Arras de 1917. L'entrée coûte environ 7 €, casque fourni. Comptez 1h15.",
       },
       {
         heading: "4. L'Anneau de la Mémoire de Notre-Dame-de-Lorette",
-        body: "La citadelle de Vauban, du XVIIe siecle, est classee UNESCO. On s'y promene dans les remparts et le parc. Le Mur des Fusilles, memorial de la Resistance, se trouve a proximite. La visite en exterieur est gratuite, et la balade agreable.",
+        body: "La citadelle de Vauban, du XVIIe siècle, est classée UNESCO. On s'y promène dans les remparts et le parc. Le Mur des Fusillés, mémorial de la Résistance, se trouve à proximité. La visite en extérieur est gratuite, et la balade agréable.",
       },
       {
         heading: "5. Beffroi d'Arras — vue sur les toits flamands",
-        body: "L'ancienne abbaye benedictine Saint-Vaast, du XVIIIe siecle et de style classique, jouxte la cathedrale. Elle abrite le musee des Beaux-Arts. Son architecture est imposante, et l'entree du musee reste moderee.",
+        body: "L'ancienne abbaye bénédictine Saint-Vaast, du XVIIIe siècle et de style classique, jouxte la cathédrale. Elle abrite le musée des Beaux-Arts. Son architecture est imposante, et l'entrée du musée reste modérée.",
       },
       {
         heading: "6. Lens et le Louvre-Lens",
-        body: "Le grand marche d'Arras se deploie sur les places le mercredi et le samedi matin : c'est l'un des plus grands du Nord. Produits locaux et ambiance s'y melent. C'est gratuit, et c'est une tradition bien vivante.",
+        body: "Le grand marché d'Arras se déploie sur les places le mercredi et le samedi matin : c'est l'un des plus grands du Nord. Produits locaux et ambiance s'y mêlent. C'est gratuit, et c'est une tradition bien vivante.",
       },
       {
         heading: "7. Vallée de la Scarpe — la nature à 10 min",
-        body: "Les boves forment un reseau de galeries souterraines medievales creusees dans la craie sous la ville. Des visites guidees vous y emmenent, sur les traces de l'histoire d'Arras sous terre. L'entree reste moderee. C'est frais et insolite.",
+        body: "Les boves forment un réseau de galeries souterraines médiévales creusées dans la craie sous la ville. Des visites guidées vous y emmènent, sur les traces de l'histoire d'Arras sous terre. L'entrée reste modérée. C'est frais et insolite.",
       },
       {
         heading: "8. Le musée des Beaux-Arts — la collection flamande",
-        body: "Le memorial canadien de Vimy, a 10 km, conserve des tranchees preservees autour d'un monument blanc imposant, dedie a la Premiere Guerre. L'acces est gratuit. C'est un lieu de memoire majeur, pour lequel la voiture est conseillee.",
+        body: "Le mémorial canadien de Vimy, à 10 km, conserve des tranchées préservées autour d'un monument blanc imposant, dédié à la Première Guerre. L'accès est gratuit. C'est un lieu de mémoire majeur, pour lequel la voiture est conseillée.",
       },
       {
         heading: "9. Hénin-Beaumont et le bassin minier UNESCO",
-        body: "Cote gastronomie de l'Artois, on trouve l'andouillette d'Arras, le coeur d'Arras qui est un fromage, la biere du Nord et les estaminets. La cuisine ch'ti est genereuse, et les restos restent abordables autour des places.",
+        body: "Côté gastronomie de l'Artois, on trouve l'andouillette d'Arras, le cœur d'Arras qui est un fromage, la bière du Nord et les estaminets. La cuisine ch'ti est généreuse, et les restos restent abordables autour des places.",
       },
       {
         heading: "10. Gastronomie du Pas-de-Calais — maroilles et carbonnade",
-        body: "Arras est bien connectee : le TGV rejoint Paris en environ 50 min, et Lille est proche, a environ 40 min de train. C'est une bonne base pour explorer le Nord, depuis la gare centrale.",
+        body: "Arras est bien connectée : le TGV rejoint Paris en environ 50 min, et Lille est proche, à environ 40 min de train. C'est une bonne base pour explorer le Nord, depuis la gare centrale.",
       },
     ],
     relatedCities: ["arras"],
@@ -27223,47 +27223,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
-    intro: "Lens est une ancienne cite miniere du Pas-de-Calais, transformee par le Louvre-Lens. Le bassin minier est classe UNESCO, le football y est une passion avec le RC Lens, et la reconversion culturelle est reussie. La ville est authentique et attachante. Voici 10 choses concretes a faire.",
+    intro: "Lens est une ancienne cité minière du Pas-de-Calais, transformée par le Louvre-Lens. Le bassin minier est classé UNESCO, le football y est une passion avec le RC Lens, et la reconversion culturelle est réussie. La ville est authentique et attachante. Voici 10 choses concrètes à faire.",
     sections: [
       {
         heading: "1. Louvre-Lens — le musée du Louvre dans le bassin minier",
-        body: "Le Louvre-Lens, antenne du Louvre ouverte en 2012, est un batiment de verre pose dans un parc. La Galerie du Temps reunit des chefs-d'oeuvre du Louvre dans un seul espace, a cote des expos temporaires. L'entree de la Galerie du Temps est GRATUITE, et les expos coutent environ 10 EUR. C'est incontournable : comptez 2h.",
+        body: "Le Louvre-Lens, antenne du Louvre ouverte en 2012, est un bâtiment de verre posé dans un parc. La Galerie du Temps réunit des chefs-d'œuvre du Louvre dans un seul espace, à côté des expos temporaires. L'entrée de la Galerie du Temps est GRATUITE, et les expos coûtent environ 10 €. C'est incontournable : comptez 2h.",
       },
       {
         heading: "2. Les terrils jumeaux de Loos-en-Gohelle",
-        body: "Le stade Bollaert-Delelis, mythique avec ses quelque 38 000 places, en compte plus que la ville n'a d'habitants. La ferveur y est exceptionnelle les soirs de match : ici, le RC Lens, c'est une religion. Si un match a domicile est prevu, l'ambiance est unique en France, alors verifiez le calendrier.",
+        body: "Le stade Bollaert-Delelis, mythique avec ses quelque 38 000 places, en compte plus que la ville n'a d'habitants. La ferveur y est exceptionnelle les soirs de match : ici, le RC Lens, c'est une religion. Si un match à domicile est prévu, l'ambiance est unique en France, alors vérifiez le calendrier.",
       },
       {
         heading: "3. Stade Bollaert-Delelis — le temple du RC Lens",
-        body: "Le bassin minier est un paysage classe UNESCO, fait de terrils, de corons et de chevalements. L'heritage de la mine se lit partout. Les terrils jumeaux de Loos-en-Gohelle, tout proches, sont les plus hauts d'Europe, avec leurs 180 m. La randonnee y est possible.",
+        body: "Le bassin minier est un paysage classé UNESCO, fait de terrils, de corons et de chevalements. L'héritage de la mine se lit partout. Les terrils jumeaux de Loos-en-Gohelle, tout proches, sont les plus hauts d'Europe, avec leurs 180 m. La randonnée y est possible.",
       },
       {
         heading: "4. La cité des Électriciens de Bruay — la vie des mineurs",
-        body: "Les terrils jumeaux de Loos-en-Gohelle sont les deux terrils les plus hauts d'Europe, a 180 m, juste a cote de Lens. La montee a pied est raide, mais le panorama embrasse tout le bassin minier. C'est gratuit. La nature a reconquis l'industrie, et la vue est imprenable.",
+        body: "Les terrils jumeaux de Loos-en-Gohelle sont les deux terrils les plus hauts d'Europe, à 180 m, juste à côté de Lens. La montée à pied est raide, mais le panorama embrasse tout le bassin minier. C'est gratuit. La nature a reconquis l'industrie, et la vue est imprenable.",
       },
       {
         heading: "5. Le musée des Beaux-Arts de Valenciennes",
-        body: "Le parc du Louvre-Lens, parc paysager de 20 hectares amenage autour du musee, occupe un ancien carreau de mine reconverti. La promenade y est libre et gratuite. L'integration entre nature et culture est reussie, et le lieu reste agreable toute l'annee.",
+        body: "Le parc du Louvre-Lens, parc paysager de 20 hectares aménagé autour du musée, occupe un ancien carreau de mine reconverti. La promenade y est libre et gratuite. L'intégration entre nature et culture est réussie, et le lieu reste agréable toute l'année.",
       },
       {
         heading: "6. Douai — le beffroi et le carnaval des Gayants",
-        body: "Les quartiers de corons, ces maisons de mineurs en briques, temoignent de la vie ouvriere et de la memoire miniere. La balade dans les cites minieres est authentique et gratuite. L'histoire sociale y est forte.",
+        body: "Les quartiers de corons, ces maisons de mineurs en briques, témoignent de la vie ouvrière et de la mémoire minière. La balade dans les cités minières est authentique et gratuite. L'histoire sociale y est forte.",
       },
       {
         heading: "7. Hénin-Beaumont et le bassin minier paysager",
-        body: "La gastronomie ch'ti reunit la carbonade flamande, le welsh, les frites, la biere et le maroilles, dans des estaminets chaleureux. La cuisine du Nord est genereuse et abordable. La convivialite est garantie.",
+        body: "La gastronomie ch'ti réunit la carbonade flamande, le welsh, les frites, la bière et le maroilles, dans des estaminets chaleureux. La cuisine du Nord est généreuse et abordable. La convivialité est garantie.",
       },
       {
         heading: "8. Béthune — la Grand-Place et la tour Saint-Barthélemy",
-        body: "Le memorial canadien de Vimy et la necropole de Notre-Dame-de-Lorette, tous deux proches, sont dedies a la Premiere Guerre. Ce sont des lieux de memoire majeurs, gratuits et emouvants, pour lesquels la voiture est conseillee.",
+        body: "Le mémorial canadien de Vimy et la nécropole de Notre-Dame-de-Lorette, tous deux proches, sont dédiés à la Première Guerre. Ce sont des lieux de mémoire majeurs, gratuits et émouvants, pour lesquels la voiture est conseillée.",
       },
       {
         heading: "9. Le carnaval de Dunkerque depuis Lens",
-        body: "Le marche de Lens est un marche local aux produits du Nord, a l'ambiance populaire, qui se tient en centre-ville. C'est gratuit. C'est une tradition vivante du bassin minier.",
+        body: "Le marché de Lens est un marché local aux produits du Nord, à l'ambiance populaire, qui se tient en centre-ville. C'est gratuit. C'est une tradition vivante du bassin minier.",
       },
       {
         heading: "10. Gastronomie minière — estaminet et welsh",
-        body: "Arras est a 20 min, en train ou en voiture, avec ses places baroques magnifiques. C'est une excellente excursion d'une demi-journee, le complement parfait a Lens. Voir le guide Arras.",
+        body: "Arras est à 20 min, en train ou en voiture, avec ses places baroques magnifiques. C'est une excellente excursion d'une demi-journée, le complément parfait à Lens. Voir le guide Arras.",
       },
     ],
     relatedCities: ["lens"],
@@ -27283,47 +27283,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
-    intro: "Calais est la porte de l'Angleterre, dans le Pas-de-Calais. On y trouve la dentelle de luxe, Rodin avec les Bourgeois de Calais, des plages immenses et les falaises toutes proches du cap Blanc-Nez. La ville est plus riche qu'on ne le croit. Voici 10 choses concretes a faire.",
+    intro: "Calais est la porte de l'Angleterre, dans le Pas-de-Calais. On y trouve la dentelle de luxe, Rodin avec les Bourgeois de Calais, des plages immenses et les falaises toutes proches du cap Blanc-Nez. La ville est plus riche qu'on ne le croit. Voici 10 choses concrètes à faire.",
     sections: [
       {
         heading: "1. Musée de la Dentelle et de la Mode — la capitale mondiale",
-        body: "La Cite de la Dentelle et de la Mode est le musee de la dentelle de Calais, capitale mondiale de la dentelle mecanique. On y voit des metiers Leavers en action et des collections de mode, dans une ancienne usine. L'entree coute environ 7 EUR. C'est fascinant et unique. Comptez 1h30.",
+        body: "La Cité de la Dentelle et de la Mode est le musée de la dentelle de Calais, capitale mondiale de la dentelle mécanique. On y voit des métiers Leavers en action et des collections de mode, dans une ancienne usine. L'entrée coûte environ 7 €. C'est fascinant et unique. Comptez 1h30.",
       },
       {
         heading: "2. Les Bourgeois de Calais — Rodin sur la place",
-        body: "Les Bourgeois de Calais sont une sculpture monumentale de Rodin, installee devant l'hotel de ville. Ce chef-d'oeuvre de 1889 represente six bourgeois pendant la guerre de Cent Ans. C'est gratuit et en exterieur. Iconique, c'est a voir absolument.",
+        body: "Les Bourgeois de Calais sont une sculpture monumentale de Rodin, installée devant l'hôtel de ville. Ce chef-d'œuvre de 1889 représente six bourgeois pendant la guerre de Cent Ans. C'est gratuit et en extérieur. Iconique, c'est à voir absolument.",
       },
       {
         heading: "3. Cap Blanc-Nez — les falaises de craie face à Douvres",
-        body: "Le cap Blanc-Nez deploie ses falaises blanches spectaculaires, proches de Calais, avec vue sur l'Angleterre par temps clair et le GR du littoral. Ce site naturel est grandiose et gratuit. Entre randonnee et panoramas, il est spectaculaire.",
+        body: "Le cap Blanc-Nez déploie ses falaises blanches spectaculaires, proches de Calais, avec vue sur l'Angleterre par temps clair et le GR du littoral. Ce site naturel est grandiose et gratuit. Entre randonnée et panoramas, il est spectaculaire.",
       },
       {
         heading: "4. Cité Europe et le tunnel sous la Manche",
-        body: "Le phare de Calais, du XIXe siecle, compte 271 marches qui menent a un panorama sur la ville, le port et la mer. L'entree coute environ 5 EUR. La vue porte jusqu'a l'Angleterre par beau temps. L'effort est recompense.",
+        body: "Le phare de Calais, du XIXe siècle, compte 271 marches qui mènent à un panorama sur la ville, le port et la mer. L'entrée coûte environ 5 €. La vue porte jusqu'à l'Angleterre par beau temps. L'effort est récompensé.",
       },
       {
         heading: "5. Le musée des Beaux-Arts et de la Dentelle",
-        body: "La plage de Calais offre une grande etendue de sable, une digue, des cabines colorees et une vue sur les ferries. Familiale, elle connait un vent frequent qui en fait un spot de char a voile et de kitesurf. C'est gratuit. La promenade y est vivifiante.",
+        body: "La plage de Calais offre une grande étendue de sable, une digue, des cabines colorées et une vue sur les ferries. Familiale, elle connaît un vent fréquent qui en fait un spot de char à voile et de kitesurf. C'est gratuit. La promenade y est vivifiante.",
       },
       {
         heading: "6. La plage de Calais et le front de mer",
-        body: "Le Dragon de Calais est une machine geante articulee, du type des machines de Nantes, sur le dos de laquelle on se promene le long du front de mer. Spectaculaire pour petits et grands, le billet reste modere. C'est original.",
+        body: "Le Dragon de Calais est une machine géante articulée, du type des machines de Nantes, sur le dos de laquelle on se promène le long du front de mer. Spectaculaire pour petits et grands, le billet reste modéré. C'est original.",
       },
       {
         heading: "7. Gravelines — la citadelle de Vauban",
-        body: "L'hotel de ville flamand, du debut du XXe siecle et fait de brique et de pierre, est surmonte d'un beffroi classe UNESCO, haut de 74 m. La montee est possible. L'architecture est remarquable, et devant se dressent les Bourgeois de Calais.",
+        body: "L'hôtel de ville flamand, du début du XXe siècle et fait de brique et de pierre, est surmonté d'un beffroi classé UNESCO, haut de 74 m. La montée est possible. L'architecture est remarquable, et devant se dressent les Bourgeois de Calais.",
       },
       {
         heading: "8. Saint-Omer — la cathédrale et le marais audomarois",
-        body: "Le cap Gris-Nez est le point le plus proche de l'Angleterre, a 28 km, avec ses falaises, son phare et ses sentiers. Avec le cap Blanc-Nez, il forme les Deux Caps, un Grand Site de France. C'est gratuit, dans une nature preservee.",
+        body: "Le cap Gris-Nez est le point le plus proche de l'Angleterre, à 28 km, avec ses falaises, son phare et ses sentiers. Avec le cap Blanc-Nez, il forme les Deux Caps, un Grand Site de France. C'est gratuit, dans une nature préservée.",
       },
       {
         heading: "9. Boulogne-sur-Mer — le plus grand aquarium de France",
-        body: "Le parc Saint-Pierre est un parc urbain face a l'hotel de ville, avec ses espaces verts et son memorial. La promenade s'y fait en ville. C'est gratuit. C'est le poumon vert du centre.",
+        body: "Le parc Saint-Pierre est un parc urbain face à l'hôtel de ville, avec ses espaces verts et son mémorial. La promenade s'y fait en ville. C'est gratuit. C'est le poumon vert du centre.",
       },
       {
         heading: "10. Gastronomie du Calaisis — hareng et moules",
-        body: "Le front de mer aligne digue, promenade et activites nautiques : char a voile, kitesurf, et une plage immense a maree basse. Le vent y est constant, et les sensations garanties. Des locations sont disponibles sur place.",
+        body: "Le front de mer aligne digue, promenade et activités nautiques : char à voile, kitesurf, et une plage immense à marée basse. Le vent y est constant, et les sensations garanties. Des locations sont disponibles sur place.",
       },
     ],
     relatedCities: ["calais"],
@@ -27343,47 +27343,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
-    intro: "Boulogne-sur-Mer est le premier port de peche de France, dans le Pas-de-Calais. On y trouve Nausicaa, le plus grand aquarium d'Europe, une ville haute fortifiee medievale et une crypte exceptionnelle. Riche et meconnue, la ville merite le detour. Voici 10 choses concretes a faire.",
+    intro: "Boulogne-sur-Mer est le premier port de pêche de France, dans le Pas-de-Calais. On y trouve Nausicaa, le plus grand aquarium d'Europe, une ville haute fortifiée médiévale et une crypte exceptionnelle. Riche et méconnue, la ville mérite le détour. Voici 10 choses concrètes à faire.",
     sections: [
       {
         heading: "1. Nausicaá — la plus grande exposition marine de France",
-        body: "Nausicaa, le Centre National de la Mer, est le plus grand aquarium d'Europe depuis son extension de 2018. Son bassin geant de 10 000 m3 abrite requins et raies, au fil d'un parcours immersif sur l'ocean. L'entree coute environ 28 a 30 EUR. C'est incontournable : comptez 3 a 4h, et reservez en ligne.",
+        body: "Nausicaa, le Centre National de la Mer, est le plus grand aquarium d'Europe depuis son extension de 2018. Son bassin géant de 10 000 m³ abrite requins et raies, au fil d'un parcours immersif sur l'océan. L'entrée coûte environ 28 à 30 €. C'est incontournable : comptez 3 à 4h, et réservez en ligne.",
       },
       {
         heading: "2. La ville haute médiévale — les remparts du XIIIe siècle",
-        body: "La ville haute fortifiee est une cite medievale ceinte de remparts du XIIIe siecle, restes intacts, avec ses ruelles pavees, son beffroi et son chateau-musee. La promenade sur les remparts est gratuite, sur 1,5 km. C'est l'un des plus beaux ensembles du Nord, plein de charme.",
+        body: "La ville haute fortifiée est une cité médiévale ceinte de remparts du XIIIe siècle, restés intacts, avec ses ruelles pavées, son beffroi et son château-musée. La promenade sur les remparts est gratuite, sur 1,5 km. C'est l'un des plus beaux ensembles du Nord, plein de charme.",
       },
       {
         heading: "3. Cap Gris-Nez — le point le plus proche de l'Angleterre",
-        body: "La basilique Notre-Dame, coiffee d'un dome imposant du XIXe siecle, recele la plus grande crypte de France, avec ses salles romanes et medievales sous l'eglise. L'entree de la crypte reste moderee. C'est surprenant et magnifique, a ne pas manquer.",
+        body: "La basilique Notre-Dame, coiffée d'un dôme imposant du XIXe siècle, recèle la plus grande crypte de France, avec ses salles romanes et médiévales sous l'église. L'entrée de la crypte reste modérée. C'est surprenant et magnifique, à ne pas manquer.",
       },
       {
         heading: "4. Le port de pêche — la criée en direct",
-        body: "Le chateau comtal du XIIIe siecle, dans la ville haute, est devenu un chateau-musee aux collections variees : Egypte, masques d'Alaska, art. Il a conserve ses douves. L'entree reste moderee. Varie et interessant, il occupe environ 1h30.",
+        body: "Le château comtal du XIIIe siècle, dans la ville haute, est devenu un château-musée aux collections variées : Égypte, masques d'Alaska, art. Il a conservé ses douves. L'entrée reste modérée. Varié et intéressant, il occupe environ 1h30.",
       },
       {
         heading: "5. Le château-musée médiéval",
-        body: "Le port de peche, premier de France, abrite la criee, les bateaux et la halle a maree. Les poissonneries fraiches s'alignent sur le quai Gambetta, ou les vendeurs sont en direct. C'est authentique, et l'achat est possible.",
+        body: "Le port de pêche, premier de France, abrite la criée, les bateaux et la halle à marée. Les poissonneries fraîches s'alignent sur le quai Gambetta, où les vendeurs sont en direct. C'est authentique, et l'achat est possible.",
       },
       {
         heading: "6. Wimereux — la station balnéaire des Boulonnais",
-        body: "La colonne de la Grande Armee, haute de 53 m et proche de Boulogne, a ete erigee pour le camp de Boulogne, le projet d'invasion de l'Angleterre. La montee est possible, pour un panorama charge d'histoire napoleonienne.",
+        body: "La colonne de la Grande Armée, haute de 53 m et proche de Boulogne, a été érigée pour le camp de Boulogne, le projet d'invasion de l'Angleterre. La montée est possible, pour un panorama chargé d'histoire napoléonienne.",
       },
       {
         heading: "7. Le Portel et Ambleteuse — les forts napoléoniens",
-        body: "La plage de Boulogne et son front de mer offrent du sable, une digue et une promenade, dans un cadre familial. La vue donne sur la Manche et le port. C'est gratuit, avec des restos de fruits de mer a proximite. C'est agreable.",
+        body: "La plage de Boulogne et son front de mer offrent du sable, une digue et une promenade, dans un cadre familial. La vue donne sur la Manche et le port. C'est gratuit, avec des restos de fruits de mer à proximité. C'est agréable.",
       },
       {
         heading: "8. Le Touquet-Paris-Plage — la station britannique",
-        body: "Le cap Gris-Nez et le cap Blanc-Nez forment les Deux Caps, un Grand Site de France au nord, avec leurs falaises spectaculaires et la vue sur l'Angleterre. La randonnee y est belle et gratuite, dans une nature grandiose. La voiture est conseillee.",
+        body: "Le cap Gris-Nez et le cap Blanc-Nez forment les Deux Caps, un Grand Site de France au nord, avec leurs falaises spectaculaires et la vue sur l'Angleterre. La randonnée y est belle et gratuite, dans une nature grandiose. La voiture est conseillée.",
       },
       {
         heading: "9. Montreuil-sur-Mer — la citadelle et Victor Hugo",
-        body: "La vieille ville gastronomique aligne les restos de poisson et de fruits de mer, port de peche oblige, avec des specialites de la mer ultra-fraiches, du welsh et des moules. La qualite est au rendez-vous a des prix corrects. Mangez local.",
+        body: "La vieille ville gastronomique aligne les restos de poisson et de fruits de mer, port de pêche oblige, avec des spécialités de la mer ultra-fraîches, du welsh et des moules. La qualité est au rendez-vous à des prix corrects. Mangez local.",
       },
       {
         heading: "10. Gastronomie boulonnaise — hareng saur et moules",
-        body: "Le marche de Boulogne se tient le mercredi et le samedi, avec ses poissons, ses produits du Nord et son ambiance. Il s'installe en centre-ville et place Dalton. C'est gratuit. C'est une tradition maritime.",
+        body: "Le marché de Boulogne se tient le mercredi et le samedi, avec ses poissons, ses produits du Nord et son ambiance. Il s'installe en centre-ville et place Dalton. C'est gratuit. C'est une tradition maritime.",
       },
     ],
     relatedCities: ["boulogne-sur-mer"],
@@ -28001,47 +28001,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Saint-Nazaire surprend. Reconstruite apres 1945, alors qu'elle avait ete detruite a 85% (la poche de resistance allemande a tenu jusqu'en mai 1945), elle ne joue pas la carte de la carte postale. Mais elle a les chantiers navals, les Chantiers de l'Atlantique, les plus grands d'Europe, la base sous-marine et cinq plages. Industrielle, brute, photogenique a sa facon. Voici 10 choses a faire.",
+    intro: "Saint-Nazaire surprend. Reconstruite après 1945, alors qu'elle avait été détruite à 85% (la poche de résistance allemande a tenu jusqu'en mai 1945), elle ne joue pas la carte de la carte postale. Mais elle a les chantiers navals, les Chantiers de l'Atlantique, les plus grands d'Europe, la base sous-marine et cinq plages. Industrielle, brute, photogénique à sa façon. Voici 10 choses à faire.",
     sections: [
       {
         heading: "1. Les Chantiers de l'Atlantique — le berceau des paquebots",
-        body: "Ce musee du paquebot est installe dans la base sous-marine et reconstitue l'experience d'un transatlantique, des cabines a la passerelle jusqu'a la salle des machines. Immersif et tres bien fait, il faut compter 1h30 pour le parcourir. Un billet combine est possible avec la visite des Chantiers.",
+        body: "Ce musée du paquebot est installé dans la base sous-marine et reconstitue l'expérience d'un transatlantique, des cabines à la passerelle jusqu'à la salle des machines. Immersif et très bien fait, il faut compter 1h30 pour le parcourir. Un billet combiné est possible avec la visite des Chantiers.",
       },
       {
         heading: "2. La base sous-marine et Escal'Atlantic",
-        body: "Vous partez ici pour la visite guidee du plus grand chantier naval d'Europe, celui ou sont nes des paquebots geants comme le Symphony of the Seas et l'Harmony of the Seas. La reservation est obligatoire et il faut une piece d'identite (le site est securise). On circule en bus sur le site pendant environ 2h, et c'est spectaculaire. C'est LE truc a faire a Saint-Nazaire.",
+        body: "Vous partez ici pour la visite guidée du plus grand chantier naval d'Europe, celui où sont nés des paquebots géants comme le Symphony of the Seas et l'Harmony of the Seas. La réservation est obligatoire et il faut une pièce d'identité (le site est sécurisé). On circule en bus sur le site pendant environ 2h, et c'est spectaculaire. C'est LE truc à faire à Saint-Nazaire.",
       },
       {
         heading: "3. La plage de Monsieur Hulot — Jacques Tati à Saint-Marc",
-        body: "Ce bunker de beton est monumental : 300 m de long, un toit de 8 m d'epaisseur qui le rendait invulnerable aux bombes. Construit par les Allemands entre 1941 et 1943, il a ete reconverti, avec un toit-terrasse accessible offrant la vue sur le port, des expos, et le sous-marin Espadon juste a cote. C'est un symbole de la ville.",
+        body: "Ce bunker de béton est monumental : 300 m de long, un toit de 8 m d'épaisseur qui le rendait invulnérable aux bombes. Construit par les Allemands entre 1941 et 1943, il a été reconverti, avec un toit-terrasse accessible offrant la vue sur le port, des expos, et le sous-marin Espadon juste à côté. C'est un symbole de la ville.",
       },
       {
         heading: "4. Le parc naturel régional de Brière — les chaumières",
-        body: "Ce vrai sous-marin de 1957 se visite, amarre dans l'ecluse fortifiee. Etroit et immersif, il fait comprendre la vie a bord, entre les couchettes minuscules et les torpilles. Comptez 1h pour le tour. Il se trouve juste a cote de la base sous-marine.",
+        body: "Ce vrai sous-marin de 1957 se visite, amarré dans l'écluse fortifiée. Étroit et immersif, il fait comprendre la vie à bord, entre les couchettes minuscules et les torpilles. Comptez 1h pour le tour. Il se trouve juste à côté de la base sous-marine.",
       },
       {
         heading: "5. Le pont de Saint-Nazaire — l'un des plus longs de France",
-        body: "Ce pont a haubans est l'un des plus longs de France avec ses 3356 m, et il enjambe la Loire vers Saint-Brevin. L'acces est gratuit et la vue depuis le tablier, perche a 61 m de haut, est spectaculaire et tres photogenique. Cote Saint-Brevin, ne manquez pas Les Serpents d'Ocean, un squelette geant pose sur la plage et signe par l'operation Estuaire.",
+        body: "Ce pont à haubans est l'un des plus longs de France avec ses 3356 m, et il enjambe la Loire vers Saint-Brevin. L'accès est gratuit et la vue depuis le tablier, perché à 61 m de haut, est spectaculaire et très photogénique. Côté Saint-Brevin, ne manquez pas Les Serpents d'Océan, un squelette géant posé sur la plage et signé par l'opération Estuaire.",
       },
       {
         heading: "6. Le sous-marin Espadon — visite à quai",
-        body: "La cote compte cinq plages : Villes-Martin, celle de Monsieur Hulot a Saint-Marc (la plage du film de Tati), ou encore le Grand Traict. Du sable, des criques et un sentier cotier vous attendent. C'est a Saint-Marc que Mr Hulot a ete tourne, en 1953, ce qui ajoute un vrai charme retro.",
+        body: "La côte compte cinq plages : Villes-Martin, celle de Monsieur Hulot à Saint-Marc (la plage du film de Tati), ou encore le Grand Traict. Du sable, des criques et un sentier côtier vous attendent. C'est à Saint-Marc que Mr Hulot a été tourné, en 1953, ce qui ajoute un vrai charme rétro.",
       },
       {
         heading: "7. Pornichet et la Baule — la côte d'Amour",
-        body: "Le boulevard du front de mer a ete reconstruit dans les annees 50, avec une architecture de la Reconstruction faite de beton et de lignes epurees. La promenade est agreable, avec le sous-marin et la base au bout du parcours. Le coucher de soleil sur l'estuaire vaut le detour.",
+        body: "Le boulevard du front de mer a été reconstruit dans les années 50, avec une architecture de la Reconstruction faite de béton et de lignes épurées. La promenade est agréable, avec le sous-marin et la base au bout du parcours. Le coucher de soleil sur l'estuaire vaut le détour.",
       },
       {
         heading: "8. Le centre-ville reconstruit — l'urbanisme moderne",
-        body: "Cette station balneaire, commune associee, est celle ou Jacques Tati a tourne Les Vacances de Monsieur Hulot en 1953. Une statue de Hulot trone sur la plage, le charme y est suranne, avec ses criques et l'hotel de la Plage (celui du film). Un vrai pelerinage pour les cinephiles.",
+        body: "Cette station balnéaire, commune associée, est celle où Jacques Tati a tourné Les Vacances de Monsieur Hulot en 1953. Une statue de Hulot trône sur la plage, le charme y est suranné, avec ses criques et l'hôtel de la Plage (celui du film). Un vrai pèlerinage pour les cinéphiles.",
       },
       {
         heading: "9. La voie verte de l'estuaire — vélo le long de la Loire",
-        body: "Le grand port industriel s'etend sur la Loire, avec son terminal methanier et la raffinerie Total de Donges juste a cote. Ce n'est pas joli au sens classique du terme, mais c'est fascinant, et des sorties en bateau sur l'estuaire sont possibles. L'ambiance industrialo-portuaire est ici pleinement assumee.",
+        body: "Le grand port industriel s'étend sur la Loire, avec son terminal méthanier et la raffinerie Total de Donges juste à côté. Ce n'est pas joli au sens classique du terme, mais c'est fascinant, et des sorties en bateau sur l'estuaire sont possibles. L'ambiance industrialo-portuaire est ici pleinement assumée.",
       },
       {
         heading: "10. Gastronomie de l'estuaire — civelle et muscadet",
-        body: "Les Escales, festival de musiques du monde, anime le mois d'aout avec de gros noms a l'affiche. Le Voyage a Nantes passe aussi par l'estuaire, dont les oeuvres d'Estuaire jalonnent la Loire jusqu'a Nantes. Saint-Nazaire fait office de porte d'entree de cet estuaire artistique.",
+        body: "Les Escales, festival de musiques du monde, anime le mois d'août avec de gros noms à l'affiche. Le Voyage à Nantes passe aussi par l'estuaire, dont les œuvres d'Estuaire jalonnent la Loire jusqu'à Nantes. Saint-Nazaire fait office de porte d'entrée de cet estuaire artistique.",
       },
     ],
     relatedCities: ["saint-nazaire"],
@@ -28060,47 +28060,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Cholet, capitale du mouchoir et du textile, se niche au coeur des Mauges, en Maine-et-Loire. Cette ville de 54 000 habitants reste marquee par les guerres de Vendee, avec la bataille de Cholet de 1793. Industrieuse, verte autour du lac de Ribou, pas touristique pour un sou mais attachante. Voici 10 choses a faire.",
+    intro: "Cholet, capitale du mouchoir et du textile, se niche au cœur des Mauges, en Maine-et-Loire. Cette ville de 54 000 habitants reste marquée par les guerres de Vendée, avec la bataille de Cholet de 1793. Industrieuse, verte autour du lac de Ribou, pas touristique pour un sou mais attachante. Voici 10 choses à faire.",
     sections: [
       {
         heading: "1. Le musée d'Art et d'Histoire — la guerre de Vendée",
-        body: "Le musee propose deux parcours : l'un en beaux-arts (peinture), l'autre en histoire, avec une section forte sur les guerres de Vendee, car Cholet fut un epicentre du soulevement de 1793. Bien fait et pedagogique, il est gratuit le 1er dimanche du mois.",
+        body: "Le musée propose deux parcours : l'un en beaux-arts (peinture), l'autre en histoire, avec une section forte sur les guerres de Vendée, car Cholet fut un épicentre du soulèvement de 1793. Bien fait et pédagogique, il est gratuit le 1er dimanche du mois.",
       },
       {
         heading: "2. Le mouchoir de Cholet — l'atelier textile",
-        body: "Installe dans une ancienne blanchisserie reconnaissable a sa cheminee de 65 m, ce musee raconte l'histoire du mouchoir de Cholet, le fameux rouge, et celle du tissage. Des machines sont presentees en demonstration. Le mouchoir rouge de Cholet, symbole de la ville, est ne d'une chanson.",
+        body: "Installé dans une ancienne blanchisserie reconnaissable à sa cheminée de 65 m, ce musée raconte l'histoire du mouchoir de Cholet, le fameux rouge, et celle du tissage. Des machines sont présentées en démonstration. Le mouchoir rouge de Cholet, symbole de la ville, est né d'une chanson.",
       },
       {
         heading: "3. Le Puy du Fou — le grand parc à thème à 30 km",
-        body: "Cette base de loisirs s'etend au sud, autour d'un lac artificiel. On y trouve baignade, voile, paddle, accrobranche, golf et camping. C'est le poumon vert de Cholet, tres frequente l'ete, avec des sentiers tout autour. Le spot detente des locaux.",
+        body: "Cette base de loisirs s'étend au sud, autour d'un lac artificiel. On y trouve baignade, voile, paddle, accrobranche, golf et camping. C'est le poumon vert de Cholet, très fréquenté l'été, avec des sentiers tout autour. Le spot détente des locaux.",
       },
       {
         heading: "4. Le lac de Ribou — baignade et base de loisirs",
-        body: "Plus grand que Ribou et plus sauvage, ce lac abrite une reserve ornithologique. On y vient pour la peche, la randonnee et l'observation des oiseaux. Moins amenage et plus nature, il jouxte Ribou : les deux lacs forment ensemble le poumon vert du sud de la ville.",
+        body: "Plus grand que Ribou et plus sauvage, ce lac abrite une réserve ornithologique. On y vient pour la pêche, la randonnée et l'observation des oiseaux. Moins aménagé et plus nature, il jouxte Ribou : les deux lacs forment ensemble le poumon vert du sud de la ville.",
       },
       {
         heading: "5. Les vignobles du Layon — Coteaux du Layon AOC",
-        body: "La place Travot, coeur de Cholet, a ete recemment reamenagee avec ses fontaines et ses terrasses, et porte la statue du general Travot. Les rues commercantes l'entourent. Le centre a ete largement reconstruit, d'abord apres les guerres de Vendee, puis apres 39-45 : ce n'est pas une vieille ville medievale, mais l'ensemble est agreable.",
+        body: "La place Travot, cœur de Cholet, a été récemment réaménagée avec ses fontaines et ses terrasses, et porte la statue du général Travot. Les rues commerçantes l'entourent. Le centre a été largement reconstruit, d'abord après les guerres de Vendée, puis après 39-45 : ce n'est pas une vieille ville médiévale, mais l'ensemble est agréable.",
       },
       {
         heading: "6. Le bocage des Mauges et les villages chouans",
-        body: "Ce parc urbain longe la riviere Moine, avec sa verdure, ses jeux et ses allees de promenade. Situe en plein centre, il est agreable pour souffler. La Moine traverse Cholet.",
+        body: "Ce parc urbain longe la rivière Moine, avec sa verdure, ses jeux et ses allées de promenade. Situé en plein centre, il est agréable pour souffler. La Moine traverse Cholet.",
       },
       {
         heading: "7. L'église Notre-Dame — l'art religieux contemporain",
-        body: "Cholet est un haut lieu de la guerre de Vendee de 1793. La bataille de Cholet, le 17 octobre 1793, marque une defaite vendeenne, suivie de la Viree de Galerne. Le Musee d'Art et d'Histoire raconte tout cela, et la memoire reste vive dans les Mauges.",
+        body: "Cholet est un haut lieu de la guerre de Vendée de 1793. La bataille de Cholet, le 17 octobre 1793, marque une défaite vendéenne, suivie de la Virée de Galerne. Le Musée d'Art et d'Histoire raconte tout cela, et la mémoire reste vive dans les Mauges.",
       },
       {
         heading: "8. Le parc oriental de Maulévrier — le jardin japonais",
-        body: "Cette region bocagere autour de Cholet aligne collines, haies et fermes. Authentique, verte et agricole, elle compte des villages comme Beaupreau ou Saint-Florent-le-Vieil, ou mourut Cathelineau. Le Puy du Fou n'est pas loin, a 45 min. C'est un terroir vendeen-angevin.",
+        body: "Cette région bocagère autour de Cholet aligne collines, haies et fermes. Authentique, verte et agricole, elle compte des villages comme Beaupréau ou Saint-Florent-le-Vieil, où mourut Cathelineau. Le Puy du Fou n'est pas loin, à 45 min. C'est un terroir vendéen-angevin.",
       },
       {
         heading: "9. Le musée du Textile et de la Mode (M.T.M.)",
-        body: "A 45 min, aux Epesses en Vendee, le parc historique numero 1 deploie sa Cinescenie et ses spectacles grandioses. Il n'est pas a Cholet meme, mais c'est l'excursion phare du coin. Pensez a reserver tres en avance l'ete.",
+        body: "À 45 min, aux Épesses en Vendée, le parc historique numéro 1 déploie sa Cinéscénie et ses spectacles grandioses. Il n'est pas à Cholet même, mais c'est l'excursion phare du coin. Pensez à réserver très en avance l'été.",
       },
       {
         heading: "10. Gastronomie angevine — fouée et crémet d'Anjou",
-        body: "Le marche de Cholet se tient le samedi matin, sous les halles, avec les produits des Mauges. Cote specialites, goutez le pate aux prunes et les fouaces : Cholet est une terre de bonne chere rurale. Les restos du centre sont corrects.",
+        body: "Le marché de Cholet se tient le samedi matin, sous les halles, avec les produits des Mauges. Côté spécialités, goûtez le pâté aux prunes et les fouaces : Cholet est une terre de bonne chère rurale. Les restos du centre sont corrects.",
       },
     ],
     relatedCities: ["cholet"],
@@ -28119,47 +28119,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "La Roche-sur-Yon est la ville napoleonienne par excellence. Creee ex nihilo par Napoleon en 1804, avec son plan en pentagone et sa place centrale immense (la plus grande de France), elle est la prefecture de Vendee et une etape vers les plages, Les Sables-d'Olonne se trouvant a 35 km. Atypique, geometrique et meconnue. Voici 10 choses a faire.",
+    intro: "La Roche-sur-Yon est la ville napoléonienne par excellence. Créée ex nihilo par Napoléon en 1804, avec son plan en pentagone et sa place centrale immense (la plus grande de France), elle est la préfecture de Vendée et une étape vers les plages, Les Sables-d'Olonne se trouvant à 35 km. Atypique, géométrique et méconnue. Voici 10 choses à faire.",
     sections: [
       {
         heading: "1. La place Napoléon — la plus grande place de France",
-        body: "Cette place centrale gigantesque compte parmi les plus grandes places de France. Elle porte la statue equestre de Napoleon et des animaux mecaniques (girafe, ours, crocodiles) qui animent un spectacle d'eau et de lumiere l'ete, gratuit. C'est le coeur de la ville pentagonale.",
+        body: "Cette place centrale gigantesque compte parmi les plus grandes places de France. Elle porte la statue équestre de Napoléon et des animaux mécaniques (girafe, ours, crocodiles) qui animent un spectacle d'eau et de lumière l'été, gratuit. C'est le cœur de la ville pentagonale.",
       },
       {
         heading: "2. Le Haras de la Vendée — chevaux de trait",
-        body: "Le plan en etoile, ou pentagone, a ete voulu par Napoleon en 1804, avec ses rues en damier et ses perspectives. Cette ville nouvelle du XIXe a ete pensee comme une caserne-prefecture, ce qui la rend atypique en France. Baladez-vous pour en saisir la geometrie.",
+        body: "Le plan en étoile, ou pentagone, a été voulu par Napoléon en 1804, avec ses rues en damier et ses perspectives. Cette ville nouvelle du XIXe a été pensée comme une caserne-préfecture, ce qui la rend atypique en France. Baladez-vous pour en saisir la géométrie.",
       },
       {
         heading: "3. Le Puy du Fou — à 50 km en Vendée bocagère",
-        body: "Ce spectacle d'animaux mecaniques (girafe geante, ours blanc, crocodiles, oiseaux) prend vie au rythme de l'eau et de la musique. Gratuit, il se donne l'ete en soiree et reste tres populaire en famille. C'est la signature de la Roche moderne.",
+        body: "Ce spectacle d'animaux mécaniques (girafe géante, ours blanc, crocodiles, oiseaux) prend vie au rythme de l'eau et de la musique. Gratuit, il se donne l'été en soirée et reste très populaire en famille. C'est la signature de la Roche moderne.",
       },
       {
         heading: "4. Les Sables-d'Olonne et le Vendée Globe",
-        body: "A 15 min, aux Lucs-sur-Boulogne, ce grand musee retrace l'histoire de la Vendee, de la prehistoire a aujourd'hui, avec un focus sur les guerres de Vendee. Son architecture contemporaine s'inscrit dans la nature, et l'ensemble est tres complet. Le memorial des Lucs se trouve juste a cote.",
+        body: "À 15 min, aux Lucs-sur-Boulogne, ce grand musée retrace l'histoire de la Vendée, de la préhistoire à aujourd'hui, avec un focus sur les guerres de Vendée. Son architecture contemporaine s'inscrit dans la nature, et l'ensemble est très complet. Le mémorial des Lucs se trouve juste à côté.",
       },
       {
         heading: "5. La forêt et le lac de Mervent",
-        body: "Cet ancien haras national se tient en centre-ville, avec ses chevaux et ses ecuries du XIXe. On y propose des visites et des spectacles equestres l'ete, dans un espace vert agreable. Un beau temoignage du patrimoine equestre vendeen.",
+        body: "Cet ancien haras national se tient en centre-ville, avec ses chevaux et ses écuries du XIXe. On y propose des visites et des spectacles équestres l'été, dans un espace vert agréable. Un beau témoignage du patrimoine équestre vendéen.",
       },
       {
         heading: "6. Le Marais poitevin — la Venise verte",
-        body: "Les halles centrales abritent un marche couvert ou l'on trouve les produits vendeens : brioche, jambon, fruits de mer, car la cote n'est pas loin. L'ambiance y est tres locale. C'est le ventre de la ville.",
+        body: "Les halles centrales abritent un marché couvert où l'on trouve les produits vendéens : brioche, jambon, fruits de mer, car la côte n'est pas loin. L'ambiance y est très locale. C'est le ventre de la ville.",
       },
       {
         heading: "7. Tiffauges — le château de Gilles de Rais (Barbe Bleue)",
-        body: "La ville compte plusieurs parcs, comme le jardin de la mairie ou le parc des Oudairies. Verte malgre son cote mineral, elle se prete bien aux promenades. La Yon, riviere, la traverse au sud.",
+        body: "La ville compte plusieurs parcs, comme le jardin de la mairie ou le parc des Oudairies. Verte malgré son côté minéral, elle se prête bien aux promenades. La Yon, rivière, la traverse au sud.",
       },
       {
         heading: "8. Le musée municipal — Paul Baudry",
-        body: "A 35 km, c'est LA station balneaire vendeenne, avec sa grande plage, son remblai et son port, d'ou part le Vendee Globe tous les 4 ans. C'est l'excursion mer incontournable depuis La Roche, a 30 min en voiture.",
+        body: "À 35 km, c'est LA station balnéaire vendéenne, avec sa grande plage, son remblai et son port, d'où part le Vendée Globe tous les 4 ans. C'est l'excursion mer incontournable depuis La Roche, à 30 min en voiture.",
       },
       {
         heading: "9. La vallée de l'Yon — promenades vertes",
-        body: "La Roche est la prefecture du departement qui vit au rythme du Vendee Globe, cette course autour du monde en solitaire qui part des Sables-d'Olonne tous les 4 ans, la prochaine etant prevue en 2028. La ferveur maritime se ressent dans tout le 85.",
+        body: "La Roche est la préfecture du département qui vit au rythme du Vendée Globe, cette course autour du monde en solitaire qui part des Sables-d'Olonne tous les 4 ans, la prochaine étant prévue en 2028. La ferveur maritime se ressent dans tout le 85.",
       },
       {
         heading: "10. Gastronomie vendéenne — préfou et brioche",
-        body: "A 50 min, aux Epesses, ce parc historique majeur propose des spectacles grandioses et la Cinescenie. C'est l'excursion famille phare de Vendee. Pensez a reserver tres en avance.",
+        body: "À 50 min, aux Épesses, ce parc historique majeur propose des spectacles grandioses et la Cinéscénie. C'est l'excursion famille phare de Vendée. Pensez à réserver très en avance.",
       },
     ],
     relatedCities: ["la-roche-sur-yon"],
@@ -28178,47 +28178,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Chatellerault, sur la Vienne, est une ancienne ville d'armes, qui abrita la Manufacture d'armes royale puis nationale. Elle est la patrie de Clement Ader, pionnier de l'aviation, et de Rodolphe Salis, fondateur du Chat Noir. Son patrimoine industriel et fluvial se deploie sur la route Paris-Bordeaux. Discrete mais riche. Voici 10 choses a faire.",
+    intro: "Châtellerault, sur la Vienne, est une ancienne ville d'armes, qui abrita la Manufacture d'armes royale puis nationale. Elle est la patrie de Clément Ader, pionnier de l'aviation, et de Rodolphe Salis, fondateur du Chat Noir. Son patrimoine industriel et fluvial se déploie sur la route Paris-Bordeaux. Discrète mais riche. Voici 10 choses à faire.",
     sections: [
       {
         heading: "1. Auto Moto Vélo — le musée des transports",
-        body: "Ce magnifique pont du XVIIe, voulu par Henri IV et acheve en 1611, franchit la Vienne avec ses deux tours-pavillons a l'entree. Emblematique et pieton, il offre une belle vue sur la Vienne et la ville. C'est l'un des plus beaux ponts anciens de la region.",
+        body: "Ce magnifique pont du XVIIe, voulu par Henri IV et achevé en 1611, franchit la Vienne avec ses deux tours-pavillons à l'entrée. Emblématique et piéton, il offre une belle vue sur la Vienne et la ville. C'est l'un des plus beaux ponts anciens de la région.",
       },
       {
         heading: "2. Le pont Henri-IV — l'ouvrage Renaissance",
-        body: "Cette ancienne Manufacture d'armes a fonctionne de 1819 a 1968 : un immense site industriel au bord de la Vienne, aujourd'hui reconverti en musee Auto Moto Velo, en logements et en ecole. Cheminees et halles ponctuent ce patrimoine industriel majeur. Le musee Auto Moto Velo s'y trouve.",
+        body: "Cette ancienne Manufacture d'armes a fonctionné de 1819 à 1968 : un immense site industriel au bord de la Vienne, aujourd'hui reconverti en musée Auto Moto Vélo, en logements et en école. Cheminées et halles ponctuent ce patrimoine industriel majeur. Le musée Auto Moto Vélo s'y trouve.",
       },
       {
         heading: "3. Le Futuroscope — le parc à thèmes audiovisuels",
-        body: "Installe dans la Manufacture, ce musee presente une belle collection de vehicules anciens, autos, motos et velos, en lien avec l'industrie locale. Ludique et bien presente, il plaira autant aux amateurs qu'aux familles. Il rappelle le passe industriel de Chatellerault.",
+        body: "Installé dans la Manufacture, ce musée présente une belle collection de véhicules anciens, autos, motos et vélos, en lien avec l'industrie locale. Ludique et bien présenté, il plaira autant aux amateurs qu'aux familles. Il rappelle le passé industriel de Châtellerault.",
       },
       {
         heading: "4. L'abbaye de Saint-Savin — fresques UNESCO",
-        body: "Le centre ancien deroule ses rues medievales et Renaissance autour de l'eglise Saint-Jacques, une etape de Compostelle. On y voit des maisons a pans de bois, des hotels particuliers et la maison de Descartes, ou il vecut enfant. Tout cela s'explore a pied.",
+        body: "Le centre ancien déroule ses rues médiévales et Renaissance autour de l'église Saint-Jacques, une étape de Compostelle. On y voit des maisons à pans de bois, des hôtels particuliers et la maison de Descartes, où il vécut enfant. Tout cela s'explore à pied.",
       },
       {
         heading: "5. La vieille ville et la rue Bourbon",
-        body: "Cette eglise se dresse sur le chemin de Compostelle, la Via Turonensis. Son carillon est renomme, avec 52 cloches, et son architecture composite va du roman au neogothique. Etape jacquaire, elle se situe au coeur du centre ancien.",
+        body: "Cette église se dresse sur le chemin de Compostelle, la Via Turonensis. Son carillon est renommé, avec 52 cloches, et son architecture composite va du roman au néogothique. Étape jacquaire, elle se situe au cœur du centre ancien.",
       },
       {
         heading: "6. Le parc Naturel régional du Pinail — les fosses à meules",
-        body: "Chatellerault honore Clement Ader, pionnier de l'aviation et premier homme a decoller dans un engin motorise, en 1890, avec l'Eole. Le lien avec l'histoire aeronautique est fort, et le musee evoque ces pionniers.",
+        body: "Châtellerault honore Clément Ader, pionnier de l'aviation et premier homme à décoller dans un engin motorisé, en 1890, avec l'Éole. Le lien avec l'histoire aéronautique est fort, et le musée évoque ces pionniers.",
       },
       {
         heading: "7. Le château d'Oiron — Renaissance et art contemporain",
-        body: "La promenade longe la Vienne, entre verdure, ponts, coins de peche et descentes en canoe. Le pont Henri IV en est le point d'orgue. C'est agreable pour flaner, et la Vienne fait l'identite de la ville.",
+        body: "La promenade longe la Vienne, entre verdure, ponts, coins de pêche et descentes en canoë. Le pont Henri IV en est le point d'orgue. C'est agréable pour flâner, et la Vienne fait l'identité de la ville.",
       },
       {
         heading: "8. La Vienne en canoë — descente sportive",
-        body: "A 20 min, a Chasseneuil-du-Poitou, ce parc d'attractions du futur enchaine cinemas, attractions immersives et spectacle nocturne. C'est l'excursion famille majeure, et Chatellerault sert de base pratique pour le Futuroscope. Pensez a reserver.",
+        body: "À 20 min, à Chasseneuil-du-Poitou, ce parc d'attractions du futur enchaîne cinémas, attractions immersives et spectacle nocturne. C'est l'excursion famille majeure, et Châtellerault sert de base pratique pour le Futuroscope. Pensez à réserver.",
       },
       {
         heading: "9. Poitiers — la capitale du Poitou à 30 km",
-        body: "Ce joli theatre a l'italienne, datant du XIXe, propose une programmation culturelle. Il fait partie du patrimoine architectural du centre et temoigne du Chatellerault prospere du XIXe industriel.",
+        body: "Ce joli théâtre à l'italienne, datant du XIXe, propose une programmation culturelle. Il fait partie du patrimoine architectural du centre et témoigne du Châtellerault prospère du XIXe industriel.",
       },
       {
         heading: "10. Gastronomie poitevine — chabichou et farci",
-        body: "Le marche de Chatellerault met a l'honneur les produits du Poitou : chevre, macarons de Montmorillon (juste a cote), vins. Les restos du centre completent l'offre. Un terroir poitevin authentique.",
+        body: "Le marché de Châtellerault met à l'honneur les produits du Poitou : chèvre, macarons de Montmorillon (juste à côté), vins. Les restos du centre complètent l'offre. Un terroir poitevin authentique.",
       },
     ],
     relatedCities: ["chatellerault"],
@@ -28533,47 +28533,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Aix-les-Bains est une station thermale posee au bord du lac du Bourget, le plus grand lac naturel de France avec ses 18 km de long. On y trouve des thermes romains, un casino Belle Epoque et le ponton de l'Esplanade. Voici 10 choses concretes a faire, sans remplissage.",
+    intro: "Aix-les-Bains est une station thermale posée au bord du lac du Bourget, le plus grand lac naturel de France avec ses 18 km de long. On y trouve des thermes romains, un casino Belle Époque et le ponton de l'Esplanade. Voici 10 choses concrètes à faire, sans remplissage.",
     sections: [
       {
         heading: "1. Le lac du Bourget — le plus grand lac de France",
-        body: "Le lac du Bourget est le plus grand lac naturel de France, avec 44 km² et 18 km de long. Plusieurs plages amenagees (Petit Port, Memard) sont surveillees l'ete. Au Grand Port, vous pouvez louer des bateaux electriques, sans permis. Pour une sortie plus longue, la compagnie des Bateaux du Lac du Bourget propose une croisiere vers l'abbaye de Hautecombe, comptez 40 min en bateau.",
+        body: "Le lac du Bourget est le plus grand lac naturel de France, avec 44 km² et 18 km de long. Plusieurs plages aménagées (Petit Port, Mémard) sont surveillées l'été. Au Grand Port, vous pouvez louer des bateaux électriques, sans permis. Pour une sortie plus longue, la compagnie des Bateaux du Lac du Bourget propose une croisière vers l'abbaye de Hautecombe, comptez 40 min en bateau.",
       },
       {
         heading: "2. Les Thermes nationaux — Aquæ Allobrogum",
-        body: "Cette abbaye cistercienne du XIIe siecle se dresse sur la rive ouest et abrite la necropole des princes de Savoie. On y accede par bateau depuis le Grand Port, ou en voiture en 30 min. La visite de l'eglise abbatiale est gratuite, avec audio-guide. Lors de certains offices, vous pourrez entendre les chants des moines de la communaute du Chemin Neuf.",
+        body: "Cette abbaye cistercienne du XIIe siècle se dresse sur la rive ouest et abrite la nécropole des princes de Savoie. On y accède par bateau depuis le Grand Port, ou en voiture en 30 min. La visite de l'église abbatiale est gratuite, avec audio-guide. Lors de certains offices, vous pourrez entendre les chants des moines de la communauté du Chemin Neuf.",
       },
       {
         heading: "3. L'Abbaye royale de Hautecombe — nécropole de la Maison de Savoie",
-        body: "Les thermes Chevalley sont les thermes nationaux, alimentes par une eau soufree a 45°C. Le spa thermal Valvital est ouvert au public, avec un acces a la journee autour de 25 €. La cure thermale, en rhumatologie ou voies respiratoires, se fait sur prescription. Quant aux anciens thermes romains, leurs vestiges se visitent sous l'hotel de ville.",
+        body: "Les thermes Chevalley sont les thermes nationaux, alimentés par une eau soufrée à 45°C. Le spa thermal Valvital est ouvert au public, avec un accès à la journée autour de 25 €. La cure thermale, en rhumatologie ou voies respiratoires, se fait sur prescription. Quant aux anciens thermes romains, leurs vestiges se visitent sous l'hôtel de ville.",
       },
       {
         heading: "4. Le Mont Revard — le balcon des Alpes",
-        body: "Le Grand Port est une marina bordee de restaurants, d'ou partent les croisieres. L'Esplanade du lac, une grande pelouse face a l'eau, est ideale pour un pique-nique au coucher du soleil. Une promenade-ponton longe le rivage et offre une vue sur la Dent du Chat, la montagne emblematique qui culmine a 1390 m.",
+        body: "Le Grand Port est une marina bordée de restaurants, d'où partent les croisières. L'Esplanade du lac, une grande pelouse face à l'eau, est idéale pour un pique-nique au coucher du soleil. Une promenade-ponton longe le rivage et offre une vue sur la Dent du Chat, la montagne emblématique qui culmine à 1390 m.",
       },
       {
         heading: "5. Le casino Grand Cercle — Belle Époque",
-        body: "Le plateau du Revard culmine a 1538 m, a 30 min en voiture. La vue panoramique embrasse le Mont Blanc et le lac. En hiver, c'est une station de ski familiale, renommee pour son ski de fond. L'ete, les sentiers de randonnee prennent le relais, et un belvedere amenage couronne le tout.",
+        body: "Le plateau du Revard culmine à 1538 m, à 30 min en voiture. La vue panoramique embrasse le Mont Blanc et le lac. En hiver, c'est une station de ski familiale, renommée pour son ski de fond. L'été, les sentiers de randonnée prennent le relais, et un belvédère aménagé couronne le tout.",
       },
       {
         heading: "6. La Villa Chevalley et le musée Faure",
-        body: "Le musee Faure abrite une collection impressionniste (Rodin, Degas, Cezanne, Sisley) installee dans une villa genoise: l'une des plus belles collections privees de la region. Depuis les jardins, on profite de la vue sur le lac. L'entree coute environ 5 €.",
+        body: "Le musée Faure abrite une collection impressionniste (Rodin, Degas, Cézanne, Sisley) installée dans une villa génoise: l'une des plus belles collections privées de la région. Depuis les jardins, on profite de la vue sur le lac. L'entrée coûte environ 5 €.",
       },
       {
         heading: "7. Chambéry et le château des ducs de Savoie",
-        body: "Le casino Grand Cercle, ouvert en 1849, est un pur produit de la Belle Epoque. Sa salle de jeux deploie des plafonds a mosaiques classes Monuments historiques, et le batiment abrite aussi le Theatre du Casino. L'architecture vaut le detour, meme sans jouer.",
+        body: "Le casino Grand Cercle, ouvert en 1849, est un pur produit de la Belle Époque. Sa salle de jeux déploie des plafonds à mosaïques classés Monuments historiques, et le bâtiment abrite aussi le Théâtre du Casino. L'architecture vaut le détour, même sans jouer.",
       },
       {
         heading: "8. La voie verte Aix-Annecy — vélo en bord de lac",
-        body: "Le parc des Thermes aligne arbres centenaires, kiosque a musique et roseraie, le tout gratuit. Situe au coeur de la ville, entre les thermes et le centre, il offre une pause ombragee bienvenue l'ete.",
+        body: "Le parc des Thermes aligne arbres centenaires, kiosque à musique et roseraie, le tout gratuit. Situé au cœur de la ville, entre les thermes et le centre, il offre une pause ombragée bienvenue l'été.",
       },
       {
         heading: "9. La réserve naturelle des Marais de Lavours",
-        body: "Les specialites locales tournent autour des poissons du lac: fera, omble chevalier et lavaret, a deguster dans les restaurants du Grand Port. L'hiver venu, place a la fondue, la raclette et la tartiflette. Cote vins, la Savoie propose ses Chignin et Apremont, avec une cave cooperative a proximite.",
+        body: "Les spécialités locales tournent autour des poissons du lac: féra, omble chevalier et lavaret, à déguster dans les restaurants du Grand Port. L'hiver venu, place à la fondue, la raclette et la tartiflette. Côté vins, la Savoie propose ses Chignin et Apremont, avec une cave coopérative à proximité.",
       },
       {
         heading: "10. Gastronomie savoyarde — fondue et reblochon",
-        body: "Chambery se rejoint en 15 min en train: vieille ville, fontaine des Elephants et chateau des ducs de Savoie. A 25 min, le lac d'Aiguebelette seduit avec son eau turquoise, l'un des plus chauds de France pour la baignade. Les deux se combinent facilement sur une journee.",
+        body: "Chambéry se rejoint en 15 min en train: vieille ville, fontaine des Éléphants et château des ducs de Savoie. À 25 min, le lac d'Aiguebelette séduit avec son eau turquoise, l'un des plus chauds de France pour la baignade. Les deux se combinent facilement sur une journée.",
       },
     ],
     relatedCities: ["aix-les-bains"],
@@ -28592,47 +28592,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Evian-les-Bains est une ville thermale chic posee au bord du Leman, le lac de Geneve, cote francais. On la connait dans le monde entier pour son eau minerale, sa source Cachat, ses jardins fleuris et son funiculaire Belle Epoque. Voici 10 choses concretes a faire.",
+    intro: "Évian-les-Bains est une ville thermale chic posée au bord du Léman, le lac de Genève, côté français. On la connaît dans le monde entier pour son eau minérale, sa source Cachat, ses jardins fleuris et son funiculaire Belle Époque. Voici 10 choses concrètes à faire.",
     sections: [
       {
         heading: "1. La source Cachat et la buvette gratuite",
-        body: "Une promenade amenagee longe le lac sur la rive francaise du Leman, avec vue sur Lausanne et les Alpes suisses, juste en face. Vous y trouverez les jardins de l'eau du Pre Curieux, accessibles en bateau, ainsi qu'un port de plaisance. Les embarcaderes de la CGN (Compagnie Generale de Navigation) assurent les liaisons vers la Suisse.",
+        body: "Une promenade aménagée longe le lac sur la rive française du Léman, avec vue sur Lausanne et les Alpes suisses, juste en face. Vous y trouverez les jardins de l'eau du Pré Curieux, accessibles en bateau, ainsi qu'un port de plaisance. Les embarcadères de la CGN (Compagnie Générale de Navigation) assurent les liaisons vers la Suisse.",
       },
       {
         heading: "2. Le Palais Lumière — centre culturel Belle Époque",
-        body: "La source Cachat est la source originelle de l'eau d'Evian: une fontaine publique gratuite ou chacun remplit ses bouteilles, en plein centre-ville. C'est elle qui a fait la reputation de la ville, depuis sa decouverte en 1789 par le marquis de Lessert.",
+        body: "La source Cachat est la source originelle de l'eau d'Évian: une fontaine publique gratuite où chacun remplit ses bouteilles, en plein centre-ville. C'est elle qui a fait la réputation de la ville, depuis sa découverte en 1789 par le marquis de Lessert.",
       },
       {
         heading: "3. Le Léman en bateau — Lausanne et Genève",
-        body: "Le bateau de la CGN rejoint Lausanne en 35 min: la Suisse vous attend en face, avec Ouchy, le quartier lacustre de Lausanne, et son musee olympique. L'aller-retour se fait dans la journee. Pensez aux francs suisses, ou a la carte bancaire.",
+        body: "Le bateau de la CGN rejoint Lausanne en 35 min: la Suisse vous attend en face, avec Ouchy, le quartier lacustre de Lausanne, et son musée olympique. L'aller-retour se fait dans la journée. Pensez aux francs suisses, ou à la carte bancaire.",
       },
       {
         heading: "4. Les jardins d'Évian — promenade Belle Époque",
-        body: "Les jardins de l'eau du Pre Curieux entourent une villa Belle Epoque de jardins pedagogiques consacres a l'eau et aux zones humides. On y accede uniquement par bateau electrique, depuis le quai, et la visite est guidee. Le site est ouvert d'avril a septembre.",
+        body: "Les jardins de l'eau du Pré Curieux entourent une villa Belle Époque de jardins pédagogiques consacrés à l'eau et aux zones humides. On y accède uniquement par bateau électrique, depuis le quai, et la visite est guidée. Le site est ouvert d'avril à septembre.",
       },
       {
         heading: "5. L'abbaye d'Abondance — UNESCO et fresques",
-        body: "Le funiculaire Belle Epoque, gratuit, relie les quais aux hauteurs de la ville et aux quartiers thermaux. Restaure et classe, il offre une vue sur le lac pendant la montee et dessert plusieurs stations.",
+        body: "Le funiculaire Belle Époque, gratuit, relie les quais aux hauteurs de la ville et aux quartiers thermaux. Restauré et classé, il offre une vue sur le lac pendant la montée et dessert plusieurs stations.",
       },
       {
         heading: "6. Le téléphérique de Thollon et les Mémises",
-        body: "L'architecture thermale d'Evian se decouvre a travers la buvette Cachat, de style Art nouveau et classee, l'ancien etablissement thermal et le Palais Lumiere, centre culturel et lieu d'expositions installe lui aussi dans un ancien etablissement thermal. Les villas Belle Epoque completent cet heritage de la grande epoque thermale.",
+        body: "L'architecture thermale d'Évian se découvre à travers la buvette Cachat, de style Art nouveau et classée, l'ancien établissement thermal et le Palais Lumière, centre culturel et lieu d'expositions installé lui aussi dans un ancien établissement thermal. Les villas Belle Époque complètent cet héritage de la grande époque thermale.",
       },
       {
         heading: "7. Le Pré Curieux — la villa d'eau",
-        body: "Evian dispose de son casino et de l'Evian Resort Golf Club, un parcours 18 trous qui a accueilli l'Evian Championship, un majeur du golf feminin. La vue sur le lac est au rendez-vous, et la reservation est conseillee.",
+        body: "Évian dispose de son casino et de l'Évian Resort Golf Club, un parcours 18 trous qui a accueilli l'Évian Championship, un majeur du golf féminin. La vue sur le lac est au rendez-vous, et la réservation est conseillée.",
       },
       {
         heading: "8. La fortification de Larringes et la Châtellenie",
-        body: "Les thermes Evian forment un spa thermal alimente par l'eau d'Evian, avec soins et piscines. L'etablissement est ouvert au public, avec un acces a la journee, et propose des cures thermales sur prescription. Le cadre Belle Epoque a ete renove.",
+        body: "Les thermes Évian forment un spa thermal alimenté par l'eau d'Évian, avec soins et piscines. L'établissement est ouvert au public, avec un accès à la journée, et propose des cures thermales sur prescription. Le cadre Belle Époque a été rénové.",
       },
       {
         heading: "9. Yvoire — la perle du Léman à 30 km",
-        body: "Yvoire, a 20 min, est l'un des Plus Beaux Villages de France: une cite medievale fleurie au bord du lac, ou se cache le Jardin des Cinq Sens. Thonon-les-Bains est a 15 min. Le tout se combine sur une journee.",
+        body: "Yvoire, à 20 min, est l'un des Plus Beaux Villages de France: une cité médiévale fleurie au bord du lac, où se cache le Jardin des Cinq Sens. Thonon-les-Bains est à 15 min. Le tout se combine sur une journée.",
       },
       {
         heading: "10. Gastronomie chablaisienne — féra et fromages",
-        body: "Les poissons du Leman (perche, omble, fera) se savourent dans les restaurants des quais, accompagnes de vins de Savoie et de fromages comme l'abondance ou la tomme. Le marche couvert vaut le detour, et les terrasses face au lac font le reste l'ete.",
+        body: "Les poissons du Léman (perche, omble, féra) se savourent dans les restaurants des quais, accompagnés de vins de Savoie et de fromages comme l'abondance ou la tomme. Le marché couvert vaut le détour, et les terrasses face au lac font le reste l'été.",
       },
     ],
     relatedCities: ["evian-les-bains"],
@@ -29005,47 +29005,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Auch est la capitale historique de la Gascogne, dans le Gers, et la ville de D'Artagnan, dont la statue monumentale veille sur le grand escalier. Sa cathedrale Sainte-Marie, classee a l'UNESCO au titre des chemins de Compostelle, abrite des stalles et des vitraux exceptionnels. Le centre-ville s'accroche a un piton, parcouru de pousterles, ces ruelles medievales en pente. C'est aussi une terre de gastronomie, ou l'on savoure foie gras, armagnac et floc.",
+    intro: "Auch est la capitale historique de la Gascogne, dans le Gers, et la ville de D'Artagnan, dont la statue monumentale veille sur le grand escalier. Sa cathédrale Sainte-Marie, classée à l'UNESCO au titre des chemins de Compostelle, abrite des stalles et des vitraux exceptionnels. Le centre-ville s'accroche à un piton, parcouru de pousterles, ces ruelles médiévales en pente. C'est aussi une terre de gastronomie, où l'on savoure foie gras, armagnac et floc.",
     sections: [
       {
         heading: "1. La cathédrale Sainte-Marie — UNESCO et vitraux Arnaut de Moles",
-        body: "La cathedrale Sainte-Marie est un chef-d'oeuvre gothique flamboyant eleve entre le XVe et le XVIIe siecle. Elle conserve 113 stalles en chene sculpte, peuplees de 1,500 personnages qui ont demande un siecle de travail. Les vitraux d'Arnaut de Moles, datant de la Renaissance, comptent parmi les plus beaux de France. L'edifice est classe a l'UNESCO au titre des chemins de Compostelle et possede le grand orgue de Jean de Joyeuse. L'acces aux stalles est payant, comptez environ 2 EUR.",
+        body: "La cathédrale Sainte-Marie est un chef-d'œuvre gothique flamboyant élevé entre le XVe et le XVIIe siècle. Elle conserve 113 stalles en chêne sculpté, peuplées de 1,500 personnages qui ont demandé un siècle de travail. Les vitraux d'Arnaut de Moles, datant de la Renaissance, comptent parmi les plus beaux de France. L'édifice est classé à l'UNESCO au titre des chemins de Compostelle et possède le grand orgue de Jean de Joyeuse. L'accès aux stalles est payant, comptez environ 2 €.",
       },
       {
         heading: "2. L'escalier monumental et la statue de d'Artagnan",
-        body: "L'escalier monumental compte 374 marches qui relient la ville haute a la ville basse, le long du Gers. Sur l'un des paliers se dresse la statue de D'Artagnan, le mousquetaire gascon ne pres d'Auch sous le nom de Charles de Batz. La vue s'etend sur la cathedrale et, par temps clair, jusqu'aux Pyrenees. L'amenagement paysager rend la montee agreable, et le site est gratuit et en plein air.",
+        body: "L'escalier monumental compte 374 marches qui relient la ville haute à la ville basse, le long du Gers. Sur l'un des paliers se dresse la statue de D'Artagnan, le mousquetaire gascon né près d'Auch sous le nom de Charles de Batz. La vue s'étend sur la cathédrale et, par temps clair, jusqu'aux Pyrénées. L'aménagement paysager rend la montée agréable, et le site est gratuit et en plein air.",
       },
       {
         heading: "3. La tour d'Armagnac — le donjon du XIVe siècle",
-        body: "La tour d'Armagnac est un donjon du XIVe siecle, haut de 40 m, qui servit autrefois de prison de l'officialite. Elle se dresse juste a cote de la cathedrale. Elle ne se visite pas toujours, cela depend de la saison, mais sa silhouette reste emblematique du skyline d'Auch. L'exterieur se decouvre gratuitement.",
+        body: "La tour d'Armagnac est un donjon du XIVe siècle, haut de 40 m, qui servit autrefois de prison de l'officialité. Elle se dresse juste à côté de la cathédrale. Elle ne se visite pas toujours, cela dépend de la saison, mais sa silhouette reste emblématique du skyline d'Auch. L'extérieur se découvre gratuitement.",
       },
       {
         heading: "4. Marciac — le festival de jazz d'août",
-        body: "Les pousterles sont ces ruelles medievales en escalier qui relient la ville haute a la ville basse. Pavees, pentues et pittoresques, elles bordent des maisons a colombages. La plus connue est la pousterle des Couloumats. La flanerie y est gratuite, mais des chaussures correctes sont recommandees.",
+        body: "Les pousterles sont ces ruelles médiévales en escalier qui relient la ville haute à la ville basse. Pavées, pentues et pittoresques, elles bordent des maisons à colombages. La plus connue est la pousterle des Couloumats. La flânerie y est gratuite, mais des chaussures correctes sont recommandées.",
       },
       {
         heading: "5. Les caves d'Armagnac — la plus ancienne eau-de-vie de France",
-        body: "La place de la Liberation est le coeur de la ville haute. On y trouve l'hotel de ville du XVIIIe siecle et un theatre a l'italienne, le tout anime par les terrasses de cafes. Le marche s'y tient le jeudi et le samedi matin, avec les produits du Gers. C'est le centre de la vie auscitaine.",
+        body: "La place de la Libération est le cœur de la ville haute. On y trouve l'hôtel de ville du XVIIIe siècle et un théâtre à l'italienne, le tout animé par les terrasses de cafés. Le marché s'y tient le jeudi et le samedi matin, avec les produits du Gers. C'est le centre de la vie auscitaine.",
       },
       {
         heading: "6. Lupiac — le château natal de d'Artagnan",
-        body: "Le musee des Ameriques presente une collection d'art precolombien, la deuxieme de France apres celle du quai Branly : masques, ceramiques et textiles s'y cotoient. On y decouvre aussi de l'art sacre et le patrimoine local. Situe en centre-ville, il demande une entree payante d'environ 3 a 5 EUR. Une belle surprise pour une ville de cette taille.",
+        body: "Le musée des Amériques présente une collection d'art précolombien, la deuxième de France après celle du quai Branly : masques, céramiques et textiles s'y côtoient. On y découvre aussi de l'art sacré et le patrimoine local. Situé en centre-ville, il demande une entrée payante d'environ 3 à 5 €. Une belle surprise pour une ville de cette taille.",
       },
       {
         heading: "7. Le musée des Jacobins — Amérique précolombienne",
-        body: "La gastronomie gersoise tourne autour du foie gras, du magret et du confit, car le Gers est la capitale du canard. On y produit aussi l'armagnac, la plus vieille eau-de-vie de France, et le floc de Gascogne servi en aperitif. Marches et restaurants du centre, comme Le Pousterle ou les tables gastronomiques, vous attendent. Pensez a reserver en saison.",
+        body: "La gastronomie gersoise tourne autour du foie gras, du magret et du confit, car le Gers est la capitale du canard. On y produit aussi l'armagnac, la plus vieille eau-de-vie de France, et le floc de Gascogne servi en apéritif. Marchés et restaurants du centre, comme Le Pousterle ou les tables gastronomiques, vous attendent. Pensez à réserver en saison.",
       },
       {
         heading: "8. Les villages perchés du Gers — Lavardens et Larressingle",
-        body: "Marciac se trouve a environ 35 km et accueille le festival Jazz in Marciac, en juillet et aout, l'un des plus grands d'Europe. La bastide medievale vaut le detour, et hors festival on peut visiter le musee Territoires du jazz. C'est une excursion incontournable l'ete, a condition de reserver tot.",
+        body: "Marciac se trouve à environ 35 km et accueille le festival Jazz in Marciac, en juillet et août, l'un des plus grands d'Europe. La bastide médiévale vaut le détour, et hors festival on peut visiter le musée Territoires du jazz. C'est une excursion incontournable l'été, à condition de réserver tôt.",
       },
       {
         heading: "9. Le château de Lavardens et la vallée de l'Auch",
-        body: "Les bastides du Gers se decouvrent a 30 ou 45 minutes : Fources et sa forme circulaire, Montreal-du-Gers, et Larressingle, la plus petite cite fortifiee de France. Ces villages classes sont entoures de vignobles d'armagnac. Une boucle en voiture sur une journee permet de les enchainer.",
+        body: "Les bastides du Gers se découvrent à 30 ou 45 minutes : Fourcès et sa forme circulaire, Montréal-du-Gers, et Larressingle, la plus petite cité fortifiée de France. Ces villages classés sont entourés de vignobles d'armagnac. Une boucle en voiture sur une journée permet de les enchaîner.",
       },
       {
         heading: "10. Gastronomie gasconne — foie gras et garbure",
-        body: "Auch se trouve a 1h15 de Toulouse, mais sans gare TGV directe : on y arrive en train ou en voiture via Toulouse. La voiture est recommandee pour rayonner dans le Gers. Le centre-ville se parcourt a pied, meme si ca grimpe. C'est une etape sur le chemin de Compostelle au depart du Puy. L'office de tourisme se situe place de la cathedrale.",
+        body: "Auch se trouve à 1h15 de Toulouse, mais sans gare TGV directe : on y arrive en train ou en voiture via Toulouse. La voiture est recommandée pour rayonner dans le Gers. Le centre-ville se parcourt à pied, même si ça grimpe. C'est une étape sur le chemin de Compostelle au départ du Puy. L'office de tourisme se situe place de la cathédrale.",
       },
     ],
     relatedCities: ["auch"],
@@ -29899,47 +29899,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Laon est la prefecture de l'Aisne et compte 25 000 habitants. C'est l'une des plus belles cites medievales de France, perchee sur un eperon calcaire a 180 m au-dessus de la plaine picarde, ce qui lui vaut son surnom de « montagne couronnee ». Capitale franque sous les derniers Carolingiens au Xe siecle (Louis IV, Lothaire), Laon a garde un ensemble exceptionnel : 7 km de remparts medievaux intacts, un palais episcopal du XIIe siecle et la cathedrale Notre-Dame, l'une des cinq grandes cathedrales du gothique primitif en France.",
+    intro: "Laon est la préfecture de l'Aisne et compte 25 000 habitants. C'est l'une des plus belles cités médiévales de France, perchée sur un éperon calcaire à 180 m au-dessus de la plaine picarde, ce qui lui vaut son surnom de « montagne couronnée ». Capitale franque sous les derniers Carolingiens au Xe siècle (Louis IV, Lothaire), Laon a gardé un ensemble exceptionnel : 7 km de remparts médiévaux intacts, un palais épiscopal du XIIe siècle et la cathédrale Notre-Dame, l'une des cinq grandes cathédrales du gothique primitif en France.",
     sections: [
       {
         heading: "1. La cathédrale Notre-Dame — gothique primitif",
-        body: "La cathedrale Notre-Dame de Laon (1155-1230) est l'une des cinq grandes cathedrales du gothique primitif en France, avec Sens, Senlis, Noyon et Soissons. Sa facade a trois tours-portails servit de modele a Notre-Dame de Paris et a Reims, et elle compte 5 tours-clochers au lieu des 2 habituels. Sa particularite : 16 boeufs sculptes sur les tours, en hommage aux betes qui ont monte les pierres au sommet de la colline. La legende veut que les architectes aient ete aides par des boeufs miraculeux. Les vitraux datent du XIIIe siecle.",
+        body: "La cathédrale Notre-Dame de Laon (1155-1230) est l'une des cinq grandes cathédrales du gothique primitif en France, avec Sens, Senlis, Noyon et Soissons. Sa façade à trois tours-portails servit de modèle à Notre-Dame de Paris et à Reims, et elle compte 5 tours-clochers au lieu des 2 habituels. Sa particularité : 16 bœufs sculptés sur les tours, en hommage aux bêtes qui ont monté les pierres au sommet de la colline. La légende veut que les architectes aient été aidés par des bœufs miraculeux. Les vitraux datent du XIIIe siècle.",
       },
       {
         heading: "2. Les remparts médiévaux — 7 km intacts",
-        body: "Les remparts de Laon (XIIIe-XIVe siecles) forment l'un des ensembles fortifies medievaux les plus complets de France : 7 km d'enceinte, 12 portes dont la Porte d'Ardon, la Porte de Soissons et la Porte des Chenizelles encore intactes, le tout ponctue de tours rondes et carrees. Un sentier longe les remparts (la Promenade des Remparts, 4 km) et fait le tour de la Ville Haute. La vue panoramique s'ouvre sur la plaine picarde et la Champagne, a 30 km.",
+        body: "Les remparts de Laon (XIIIe-XIVe siècles) forment l'un des ensembles fortifiés médiévaux les plus complets de France : 7 km d'enceinte, 12 portes dont la Porte d'Ardon, la Porte de Soissons et la Porte des Chenizelles encore intactes, le tout ponctué de tours rondes et carrées. Un sentier longe les remparts (la Promenade des Remparts, 4 km) et fait le tour de la Ville Haute. La vue panoramique s'ouvre sur la plaine picarde et la Champagne, à 30 km.",
       },
       {
         heading: "3. Le palais épiscopal et la cour de justice médiévale",
-        body: "Le palais episcopal de Laon (XIIe-XVIIe siecles), voisin de la cathedrale, est l'un des plus anciens palais episcopaux de France encore debout. On y trouve la chapelle des Eveques (XIIe siecle, romane), une salle synodale et un jardin medieval. Il abrite aujourd'hui la Cour d'appel de Laon, rare exemple de cour de justice installee dans un palais medieval toujours en activite. La visite exterieure est libre.",
+        body: "Le palais épiscopal de Laon (XIIe-XVIIe siècles), voisin de la cathédrale, est l'un des plus anciens palais épiscopaux de France encore debout. On y trouve la chapelle des Évêques (XIIe siècle, romane), une salle synodale et un jardin médiéval. Il abrite aujourd'hui la Cour d'appel de Laon, rare exemple de cour de justice installée dans un palais médiéval toujours en activité. La visite extérieure est libre.",
       },
       {
         heading: "4. Le Chemin des Dames — la mémoire de 14-18",
-        body: "Le Chemin des Dames, a 25 km au sud-ouest de Laon et long de 30 km, est l'un des principaux champs de bataille de la Premiere Guerre mondiale. L'offensive du 16 avril 1917 (general Nivelle) y fit 270 000 morts francais en 10 jours et declencha les mutineries qui suivirent. A voir : la Caverne du Dragon (musee moderne amenage dans une ancienne carriere souterraine occupee tour a tour par les Francais et les Allemands), le monument de la Malmaison, le memorial des Chars d'assaut et le plateau de Vauclair, ou les chars furent employes pour la premiere fois en France.",
+        body: "Le Chemin des Dames, à 25 km au sud-ouest de Laon et long de 30 km, est l'un des principaux champs de bataille de la Première Guerre mondiale. L'offensive du 16 avril 1917 (général Nivelle) y fit 270 000 morts français en 10 jours et déclencha les mutineries qui suivirent. À voir : la Caverne du Dragon (musée moderne aménagé dans une ancienne carrière souterraine occupée tour à tour par les Français et les Allemands), le monument de la Malmaison, le mémorial des Chars d'assaut et le plateau de Vauclair, où les chars furent employés pour la première fois en France.",
       },
       {
         heading: "5. La Champagne et les caves à 50 km",
-        body: "Reims, a 50 km au sud-est de Laon, est la capitale du Champagne : 5 millions de bouteilles produites par an dans la region champenoise, classee a l'UNESCO depuis 2015. On y visite les grandes maisons (Veuve Clicquot, Pommery, Taittinger, Mumm) et leurs caves de craie du XIVe siecle creusees sous la ville, avec degustations guidees. La cathedrale Notre-Dame de Reims (XIIIe siecle, lieu du sacre des rois de France et classee UNESCO) complete une journee Reims-Champagne au depart de Laon.",
+        body: "Reims, à 50 km au sud-est de Laon, est la capitale du Champagne : 5 millions de bouteilles produites par an dans la région champenoise, classée à l'UNESCO depuis 2015. On y visite les grandes maisons (Veuve Clicquot, Pommery, Taittinger, Mumm) et leurs caves de craie du XIVe siècle creusées sous la ville, avec dégustations guidées. La cathédrale Notre-Dame de Reims (XIIIe siècle, lieu du sacre des rois de France et classée UNESCO) complète une journée Reims-Champagne au départ de Laon.",
       },
       {
         heading: "6. L'abbaye de Saint-Martin — gothique de Picardie",
-        body: "L'abbaye de Saint-Martin (XIIe-XIIIe siecles), dans la Ville Basse de Laon, est un ancien monastere premontre et un chef-d'oeuvre du gothique de Picardie. On y trouve l'eglise abbatiale Saint-Martin et un cloitre du XIIIe siecle, l'un des plus anciens cloitres premontres de France. Une partie des batiments conventuels abrite aujourd'hui la bibliotheque municipale. La visite est gratuite.",
+        body: "L'abbaye de Saint-Martin (XIIe-XIIIe siècles), dans la Ville Basse de Laon, est un ancien monastère prémontré et un chef-d'œuvre du gothique de Picardie. On y trouve l'église abbatiale Saint-Martin et un cloître du XIIIe siècle, l'un des plus anciens cloîtres prémontrés de France. Une partie des bâtiments conventuels abrite aujourd'hui la bibliothèque municipale. La visite est gratuite.",
       },
       {
         heading: "7. La famille des arbalétriers et le métier d'armes",
-        body: "La compagnie des arbaletriers de Laon, creee en 1431, est l'une des plus anciennes compagnies d'arbaletriers de France encore en activite. Elle organise des demonstrations de tir a l'arbalete medievale en saison estivale. On peut aussi visiter le musee du Tir (4 rue Serurier), avec sa collection d'arbaletes des XVIIe-XIXe siecles. Une activite originale pour qui veut comprendre cette arme medievale, longtemps plus efficace que l'arquebuse.",
+        body: "La compagnie des arbalétriers de Laon, créée en 1431, est l'une des plus anciennes compagnies d'arbalétriers de France encore en activité. Elle organise des démonstrations de tir à l'arbalète médiévale en saison estivale. On peut aussi visiter le musée du Tir (4 rue Sérurier), avec sa collection d'arbalètes des XVIIe-XIXe siècles. Une activité originale pour qui veut comprendre cette arme médiévale, longtemps plus efficace que l'arquebuse.",
       },
       {
         heading: "8. Le POMA — le funiculaire automatique",
-        body: "Le POMA 2000 de Laon (1989) fut le premier transport public urbain automatique francais et il est encore en activite. Il relie la Ville Basse a la Ville Haute en 6 min, sans conducteur, en desservant 5 stations (Ville Basse SNCF, Carmes, Vaux, Hotel-de-Ville, Place de la Mairie). Le tarif est celui d'un bus normal, soit 1,40 EUR. Unique en France, le systeme POMA permet de gravir 100 m de denivele en pleine ville, avec une vue spectaculaire sur la plaine pendant l'ascension.",
+        body: "Le POMA 2000 de Laon (1989) fut le premier transport public urbain automatique français et il est encore en activité. Il relie la Ville Basse à la Ville Haute en 6 min, sans conducteur, en desservant 5 stations (Ville Basse SNCF, Carmes, Vaux, Hôtel-de-Ville, Place de la Mairie). Le tarif est celui d'un bus normal, soit 1,40 €. Unique en France, le système POMA permet de gravir 100 m de dénivelé en pleine ville, avec une vue spectaculaire sur la plaine pendant l'ascension.",
       },
       {
         heading: "9. La forêt de Saint-Gobain et le Familistère de Guise",
-        body: "La foret de Saint-Gobain, a 25 km a l'ouest de Laon et grande de 6 200 ha, est l'une des plus belles forets de l'Aisne, faite de chenes, de hetres et de sentiers balises. Le Familistere de Guise, a 50 km au nord-est, fut cree en 1859 par Jean-Baptiste Godin, pionnier de l'utopie sociale et inventeur des poeles Godin. Ce palais ouvrier socialiste logeait 2 000 ouvriers dans des conditions exceptionnelles pour l'epoque. La visite se fait avec audioguide.",
+        body: "La forêt de Saint-Gobain, à 25 km à l'ouest de Laon et grande de 6 200 ha, est l'une des plus belles forêts de l'Aisne, faite de chênes, de hêtres et de sentiers balisés. Le Familistère de Guise, à 50 km au nord-est, fut créé en 1859 par Jean-Baptiste Godin, pionnier de l'utopie sociale et inventeur des poêles Godin. Ce palais ouvrier socialiste logeait 2 000 ouvriers dans des conditions exceptionnelles pour l'époque. La visite se fait avec audioguide.",
       },
       {
         heading: "10. Gastronomie axonaise — maroilles et flamiche",
-        body: "La cuisine axonaise (Aisne) est typique du nord : robuste et fromagere. On y goute la flamiche aux poireaux (une tarte salee), la ficelle picarde (une crepe roulee a la bechamel), le maroilles au four (fromage AOP, le plus odorant de France, produit dans l'Avesnois a 80 km) et les bieres du Nord. Cote sucre, la tarte au libouli est un gateau picard a la creme patissiere sur pate feuilletee. Cote vins, on retrouve le Champagne (a 50 km) et les Coteaux Champenois, un rouge tranquille.",
+        body: "La cuisine axonaise (Aisne) est typique du nord : robuste et fromagère. On y goûte la flamiche aux poireaux (une tarte salée), la ficelle picarde (une crêpe roulée à la béchamel), le maroilles au four (fromage AOP, le plus odorant de France, produit dans l'Avesnois à 80 km) et les bières du Nord. Côté sucre, la tarte au libouli est un gâteau picard à la crème pâtissière sur pâte feuilletée. Côté vins, on retrouve le Champagne (à 50 km) et les Coteaux Champenois, un rouge tranquille.",
       },
     ],
     relatedCities: ["laon"],
@@ -29958,47 +29958,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Charleville-Mezieres est la prefecture des Ardennes, 47 000 habitants au confluent de la Meuse et de la Vence. C'est en realite deux villes en une : Charleville, creee en 1606 par Charles de Gonzague autour de la place ducale Louis XIII (l'une des plus belles places de France, soeur jumelle de la place des Vosges a Paris), et Mezieres, cite medievale fortifiee. C'est la patrie d'Arthur Rimbaud (1854-1891), poete de genie du Bateau ivre et des Illuminations, mais aussi la capitale mondiale de la marionnette grace a son festival international biennal.",
+    intro: "Charleville-Mézières est la préfecture des Ardennes, 47 000 habitants au confluent de la Meuse et de la Vence. C'est en réalité deux villes en une : Charleville, créée en 1606 par Charles de Gonzague autour de la place ducale Louis XIII (l'une des plus belles places de France, sœur jumelle de la place des Vosges à Paris), et Mézières, cité médiévale fortifiée. C'est la patrie d'Arthur Rimbaud (1854-1891), poète de génie du Bateau ivre et des Illuminations, mais aussi la capitale mondiale de la marionnette grâce à son festival international biennal.",
     sections: [
       {
         heading: "1. La place ducale — sœur de la place des Vosges",
-        body: "La place ducale (1606-1620) fut concue par Clement Metezeau, frere de Louis Metezeau qui dessina la place des Vosges a Paris pour Henri IV. C'est l'une des plus belles places de France : un rectangle de 130 m sur 80 m entierement borde d'arcades et de facades en briques roses et pierre blanche, dans le style Louis XIII typique. L'Hotel de Ville (XVIIIe siecle) en occupe le centre. Sous les arcades, les terrasses sont ombragees, et le marche s'y tient le jeudi et le samedi matin.",
+        body: "La place ducale (1606-1620) fut conçue par Clément Métezeau, frère de Louis Métezeau qui dessina la place des Vosges à Paris pour Henri IV. C'est l'une des plus belles places de France : un rectangle de 130 m sur 80 m entièrement bordé d'arcades et de façades en briques roses et pierre blanche, dans le style Louis XIII typique. L'Hôtel de Ville (XVIIIe siècle) en occupe le centre. Sous les arcades, les terrasses sont ombragées, et le marché s'y tient le jeudi et le samedi matin.",
       },
       {
         heading: "2. Le musée Rimbaud — la maison natale du poète",
-        body: "Le musee Arthur-Rimbaud, installe quai Arthur-Rimbaud dans un ancien moulin du XVIIe siecle au bord de la Meuse, retrace la vie et l'oeuvre du poete ne a Charleville en 1854. On y trouve des manuscrits autographes (« Voyelles », « Bateau ivre »), des photographies et des lettres a Verlaine. A 200 m, la Maison des Ailleurs (ancienne maison Rimbaud, rue Pierre-Beregovoy) propose une scenographie immersive contemporaine. La tombe de Rimbaud, une modeste stele blanche, se trouve au cimetiere municipal. Une promenade « sur les pas de Rimbaud » permet de tout relier a pied.",
+        body: "Le musée Arthur-Rimbaud, installé quai Arthur-Rimbaud dans un ancien moulin du XVIIe siècle au bord de la Meuse, retrace la vie et l'œuvre du poète né à Charleville en 1854. On y trouve des manuscrits autographes (« Voyelles », « Bateau ivre »), des photographies et des lettres à Verlaine. À 200 m, la Maison des Ailleurs (ancienne maison Rimbaud, rue Pierre-Bérégovoy) propose une scénographie immersive contemporaine. La tombe de Rimbaud, une modeste stèle blanche, se trouve au cimetière municipal. Une promenade « sur les pas de Rimbaud » permet de tout relier à pied.",
       },
       {
         heading: "3. Le Festival mondial des Théâtres de Marionnettes",
-        body: "Le Festival mondial des Theatres de Marionnettes de Charleville-Mezieres, cree en 1961 et organise tous les deux ans (les annees impaires, en septembre, pendant 10 jours), est le plus grand festival de marionnettes au monde : 200 compagnies internationales et 100 000 spectateurs. Les spectacles investissent toute la ville (salles, place ducale, rues). Charleville est la capitale mondiale de la marionnette, et son Institut International de la Marionnette (ecole et conservatoire) est unique au monde.",
+        body: "Le Festival mondial des Théâtres de Marionnettes de Charleville-Mézières, créé en 1961 et organisé tous les deux ans (les années impaires, en septembre, pendant 10 jours), est le plus grand festival de marionnettes au monde : 200 compagnies internationales et 100 000 spectateurs. Les spectacles investissent toute la ville (salles, place ducale, rues). Charleville est la capitale mondiale de la marionnette, et son Institut International de la Marionnette (école et conservatoire) est unique au monde.",
       },
       {
         heading: "4. Le Grand Marionnettiste — la sculpture animée",
-        body: "Le Grand Marionnettiste, sculpture animee installee place Winston-Churchill et signee Jacques Monestier en 1991, est l'attraction urbaine emblematique de Charleville-Mezieres. Cet automate de 8,50 m de hauteur anime des marionnettes dans un theatre miniature toutes les heures de 10h a 21h, soit 12 spectacles par jour d'une duree de 3 min, autour de la legende des Quatre Fils Aymon. C'est gratuit, et c'est la sculpture animee la plus haute d'Europe.",
+        body: "Le Grand Marionnettiste, sculpture animée installée place Winston-Churchill et signée Jacques Monestier en 1991, est l'attraction urbaine emblématique de Charleville-Mézières. Cet automate de 8,50 m de hauteur anime des marionnettes dans un théâtre miniature toutes les heures de 10h à 21h, soit 12 spectacles par jour d'une durée de 3 min, autour de la légende des Quatre Fils Aymon. C'est gratuit, et c'est la sculpture animée la plus haute d'Europe.",
       },
       {
         heading: "5. La basilique Notre-Dame-d'Espérance",
-        body: "La basilique Notre-Dame-d'Esperance de Mezieres (XVe-XVIe siecles, gothique flamboyant) est l'un des derniers monuments medievaux conserves malgre les destructions. Elle abrite des vitraux contemporains du XXe siecle, signes Rene Durrbach : 60 vitraux abstraits acheves en 1979, l'un des plus beaux ensembles contemporains d'art religieux en France. C'est aussi un lieu de pelerinage marial regional, et Charles IX y epousa Elisabeth d'Autriche en 1570.",
+        body: "La basilique Notre-Dame-d'Espérance de Mézières (XVe-XVIe siècles, gothique flamboyant) est l'un des derniers monuments médiévaux conservés malgré les destructions. Elle abrite des vitraux contemporains du XXe siècle, signés René Durrbach : 60 vitraux abstraits achevés en 1979, l'un des plus beaux ensembles contemporains d'art religieux en France. C'est aussi un lieu de pèlerinage marial régional, et Charles IX y épousa Élisabeth d'Autriche en 1570.",
       },
       {
         heading: "6. La vallée de la Meuse et la voie verte",
-        body: "La vallee de la Meuse, en aval de Charleville vers la Belgique sur 50 km, est l'une des plus belles vallees encaissees du nord de la France : falaises ardoisieres, meandres serres et forets ardennaises. Une voie verte cyclable la longe (60 km, plate et ombragee, le long de l'ancien chemin de halage). Trois villes valent l'arret : Montherme, au confluent de la Semoy (village ardennais perche), Bogny-sur-Meuse et son Roc de la Tour, et Givet, forteresse de Charlemont frontaliere avec la Belgique.",
+        body: "La vallée de la Meuse, en aval de Charleville vers la Belgique sur 50 km, est l'une des plus belles vallées encaissées du nord de la France : falaises ardoisières, méandres serrés et forêts ardennaises. Une voie verte cyclable la longe (60 km, plate et ombragée, le long de l'ancien chemin de halage). Trois villes valent l'arrêt : Monthermé, au confluent de la Semoy (village ardennais perché), Bogny-sur-Meuse et son Roc de la Tour, et Givet, forteresse de Charlemont frontalière avec la Belgique.",
       },
       {
         heading: "7. Le château fort de Sedan — le plus grand d'Europe",
-        body: "Le chateau fort de Sedan, a 20 km a l'est de Charleville-Mezieres (XVe-XVIIIe siecles), est le plus grand chateau fort d'Europe en superficie : 35 000 m2, plus que Carcassonne. Il deploie sept etages de salles voutees, un donjon et une salle des Princes (XVIe siecle). Sedan fut le lieu de la defaite de Napoleon III contre les Prussiens en 1870, une capitulation francaise qui mit fin au Second Empire. A combiner avec une journee a Charleville.",
+        body: "Le château fort de Sedan, à 20 km à l'est de Charleville-Mézières (XVe-XVIIIe siècles), est le plus grand château fort d'Europe en superficie : 35 000 m², plus que Carcassonne. Il déploie sept étages de salles voûtées, un donjon et une salle des Princes (XVIe siècle). Sedan fut le lieu de la défaite de Napoléon III contre les Prussiens en 1870, une capitulation française qui mit fin au Second Empire. À combiner avec une journée à Charleville.",
       },
       {
         heading: "8. Le parc Saint-Hubert et les forêts ardennaises",
-        body: "Le Parc Saint-Hubert, au coeur de la foret ardennaise a 30 km au sud-est de Charleville, est un parc animalier semi-naturel : 800 animaux europeens en semi-liberte sur 60 ha (sangliers, cerfs, biches, daims, mouflons). Un spectacle de fauconnerie y presente des rapaces en vol libre de juin a aout. Le massif des Ardennes, avec ses 300 km2 de forets denses, est l'un des derniers massifs forestiers sauvages de France, sillonne de sentiers balises et de randonnees en boucle.",
+        body: "Le Parc Saint-Hubert, au cœur de la forêt ardennaise à 30 km au sud-est de Charleville, est un parc animalier semi-naturel : 800 animaux européens en semi-liberté sur 60 ha (sangliers, cerfs, biches, daims, mouflons). Un spectacle de fauconnerie y présente des rapaces en vol libre de juin à août. Le massif des Ardennes, avec ses 300 km² de forêts denses, est l'un des derniers massifs forestiers sauvages de France, sillonné de sentiers balisés et de randonnées en boucle.",
       },
       {
         heading: "9. Le musée de l'Ardenne — le département en 4 étages",
-        body: "Le Musee de l'Ardenne, place Ducale dans un ancien hotel particulier du XVIIe siecle, presente l'histoire et le patrimoine du departement sur 4 etages chronologiques, de la prehistoire au XXe siecle. On y trouve une section ardoise (carrieres de Rimogne, exploitees jusqu'aux annees 1970), une section industrielle (metallurgie ardennaise, manufactures d'armes de Mezieres) et une section beaux-arts (peintures ardennaises). L'entree est gratuite le premier dimanche.",
+        body: "Le Musée de l'Ardenne, place Ducale dans un ancien hôtel particulier du XVIIe siècle, présente l'histoire et le patrimoine du département sur 4 étages chronologiques, de la préhistoire au XXe siècle. On y trouve une section ardoise (carrières de Rimogne, exploitées jusqu'aux années 1970), une section industrielle (métallurgie ardennaise, manufactures d'armes de Mézières) et une section beaux-arts (peintures ardennaises). L'entrée est gratuite le premier dimanche.",
       },
       {
         heading: "10. Gastronomie ardennaise — cacasse et boulets",
-        body: "La cuisine ardennaise est rustique et fromagere. On y goute la cacasse a cul nu (pommes de terre cuites en cocotte avec lard et oignons), les boulets liegeois (boulettes de viande a la sauce sirop, heritage de la cuisine wallonne, Liege etant a 50 km) et la salade ardennaise (jambon d'Ardenne, gesiers, lardons et pommes de terre tiedes). Le jambon d'Ardenne IGP est seche 9 mois a l'air ardennais. Cote fromages : Maroilles AOP (a 100 km) et Trappe d'Echourgnac. Cote bieres : Choulette, Chti et Orval (a 25 km en Belgique). En dessert, la tarte au sucre.",
+        body: "La cuisine ardennaise est rustique et fromagère. On y goûte la cacasse à cul nu (pommes de terre cuites en cocotte avec lard et oignons), les boulets liégeois (boulettes de viande à la sauce sirop, héritage de la cuisine wallonne, Liège étant à 50 km) et la salade ardennaise (jambon d'Ardenne, gésiers, lardons et pommes de terre tièdes). Le jambon d'Ardenne IGP est séché 9 mois à l'air ardennais. Côté fromages : Maroilles AOP (à 100 km) et Trappe d'Échourgnac. Côté bières : Choulette, Chti et Orval (à 25 km en Belgique). En dessert, la tarte au sucre.",
       },
     ],
     relatedCities: ["charleville-mezieres"],
@@ -30017,47 +30017,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Saint-Die-des-Vosges est une sous-prefecture des Vosges, 19 000 habitants au coeur du massif vosgien, a 350 m d'altitude. La ville est mondialement connue pour avoir « baptise l'Amerique » en 1507 : c'est a l'imprimerie locale (les Gymnastes de Vosges) que parut la Cosmographiae Introductio de Martin Waldseemuller, premier texte a employer le nom « America » pour le Nouveau Monde. Saint-Die organise aussi le Festival international de Geographie (FIG), premier festival geographique au monde.",
+    intro: "Saint-Dié-des-Vosges est une sous-préfecture des Vosges, 19 000 habitants au cœur du massif vosgien, à 350 m d'altitude. La ville est mondialement connue pour avoir « baptisé l'Amérique » en 1507 : c'est à l'imprimerie locale (les Gymnastes de Vosges) que parut la Cosmographiae Introductio de Martin Waldseemüller, premier texte à employer le nom « America » pour le Nouveau Monde. Saint-Dié organise aussi le Festival international de Géographie (FIG), premier festival géographique au monde.",
     sections: [
       {
         heading: "1. Le baptême de l'Amérique — la Cosmographiae Introductio",
-        body: "En 1507, a l'imprimerie des Gymnastes de Saint-Die ou s'etaient reunis Martin Waldseemuller, Mathias Ringmann et le duc Rene II de Lorraine, parut la Cosmographiae Introductio, premier texte a employer le nom « America » pour les terres decouvertes par Amerigo Vespucci. C'est donc a Saint-Die que l'Amerique a ete « baptisee ». La bibliotheque municipale en conserve un exemplaire, l'un des cinq au monde, les 4 autres etant aux Etats-Unis. Une salle « bapteme de l'Amerique » est amenagee a la mairie.",
+        body: "En 1507, à l'imprimerie des Gymnastes de Saint-Dié où s'étaient réunis Martin Waldseemüller, Mathias Ringmann et le duc René II de Lorraine, parut la Cosmographiae Introductio, premier texte à employer le nom « America » pour les terres découvertes par Amerigo Vespucci. C'est donc à Saint-Dié que l'Amérique a été « baptisée ». La bibliothèque municipale en conserve un exemplaire, l'un des cinq au monde, les 4 autres étant aux États-Unis. Une salle « baptême de l'Amérique » est aménagée à la mairie.",
       },
       {
         heading: "2. La cathédrale Saint-Dié et la cloître roman",
-        body: "La cathedrale Saint-Die (XIe-XVe siecles) est romane a l'est et gothique a l'ouest, un assemblage roman-gothique unique en France et l'un des plus beaux ensembles ecclesiaux des Vosges. Ses vitraux sont contemporains, du XXe siecle. Le cloitre roman du XIIe siecle compte parmi les plus beaux de l'Est. La cathedrale fut reconstruite apres la destruction nazie du 8 novembre 1944, quand Saint-Die fut incendiee a 80 % par les Allemands en retraite. Le cloitre attenant accueille des concerts en ete.",
+        body: "La cathédrale Saint-Dié (XIe-XVe siècles) est romane à l'est et gothique à l'ouest, un assemblage roman-gothique unique en France et l'un des plus beaux ensembles ecclésiaux des Vosges. Ses vitraux sont contemporains, du XXe siècle. Le cloître roman du XIIe siècle compte parmi les plus beaux de l'Est. La cathédrale fut reconstruite après la destruction nazie du 8 novembre 1944, quand Saint-Dié fut incendiée à 80 % par les Allemands en retraite. Le cloître attenant accueille des concerts en été.",
       },
       {
         heading: "3. Le FIG — Festival international de Géographie",
-        body: "Le Festival international de Geographie de Saint-Die-des-Vosges, cree en 1990 par Christian Pierret, est le premier festival geographique au monde : 30 000 visiteurs et 200 conferences. Il se tient le premier week-end d'octobre et s'organise autour de trois themes : un pays invite, un continent et un sujet transversal (climat, migrations, energies). Les conferences sont gratuites et animees par des universitaires (Sylvain Tesson, Yves Lacoste). Le Salon international du Livre de Geographie, le seul au monde du genre, y est imperdable pour les passionnes.",
+        body: "Le Festival international de Géographie de Saint-Dié-des-Vosges, créé en 1990 par Christian Pierret, est le premier festival géographique au monde : 30 000 visiteurs et 200 conférences. Il se tient le premier week-end d'octobre et s'organise autour de trois thèmes : un pays invité, un continent et un sujet transversal (climat, migrations, énergies). Les conférences sont gratuites et animées par des universitaires (Sylvain Tesson, Yves Lacoste). Le Salon international du Livre de Géographie, le seul au monde du genre, y est imperdable pour les passionnés.",
       },
       {
         heading: "4. Gérardmer — la « Perle des Vosges »",
-        body: "Gerardmer, a 25 km au sud-ouest de Saint-Die, borde le plus grand lac naturel des Vosges (116 ha a 666 m d'altitude) et reste la grande station balneaire et de ski du massif. L'ete, on s'y baigne (plages amenagees, eau a 22degC), on fait du pedalo et de la planche a voile. L'hiver, la station La Mauselaine offre 40 km de pistes, du ski de fond et des raquettes. Le Festival International du Film fantastique de Gerardmer, fin janvier, est le premier festival fantastique francais, equivalent du Sitges espagnol.",
+        body: "Gérardmer, à 25 km au sud-ouest de Saint-Dié, borde le plus grand lac naturel des Vosges (116 ha à 666 m d'altitude) et reste la grande station balnéaire et de ski du massif. L'été, on s'y baigne (plages aménagées, eau à 22°C), on fait du pédalo et de la planche à voile. L'hiver, la station La Mauselaine offre 40 km de pistes, du ski de fond et des raquettes. Le Festival International du Film fantastique de Gérardmer, fin janvier, est le premier festival fantastique français, équivalent du Sitges espagnol.",
       },
       {
         heading: "5. La route des Crêtes et le Hohneck",
-        body: "La route des Cretes (D430) court sur 73 km le long de la ligne de crete vosgienne, de Cernay a Sainte-Marie-aux-Mines. C'est l'une des plus belles routes panoramiques de France, creee en 1914 pour des raisons militaires. Son etape phare est Le Markstein-Hohneck (1 363 m), l'un des plus hauts sommets vosgiens, avec vue a 360deg sur la Foret-Noire et les Alpes par temps clair. Le Grand Ballon (1 424 m) est le point culminant des Vosges. Chaumes (prairies d'altitude) et fermes-auberges traditionnelles jalonnent le parcours.",
+        body: "La route des Crêtes (D430) court sur 73 km le long de la ligne de crête vosgienne, de Cernay à Sainte-Marie-aux-Mines. C'est l'une des plus belles routes panoramiques de France, créée en 1914 pour des raisons militaires. Son étape phare est Le Markstein-Hohneck (1 363 m), l'un des plus hauts sommets vosgiens, avec vue à 360° sur la Forêt-Noire et les Alpes par temps clair. Le Grand Ballon (1 424 m) est le point culminant des Vosges. Chaumes (prairies d'altitude) et fermes-auberges traditionnelles jalonnent le parcours.",
       },
       {
         heading: "6. La Roche du Diable et le rocher de la Pierre d'Appel",
-        body: "Le rocher de la Pierre d'Appel, a 5 km au nord de Saint-Die (480 m d'altitude), est un eperon greseux qui domine la vallee de la Meurthe. C'est un site prehistorique celtique (occupation a l'Age du Fer, oppidum gallo-romain) offrant une vue panoramique sur les Vosges, accessible a pied en 30 min depuis le parking. A 15 km vers Gerardmer, la Roche du Diable (800 m d'altitude) est une formation rocheuse mysterieuse, l'un des hauts lieux legendaires des Vosges ou « le diable se serait pose ».",
+        body: "Le rocher de la Pierre d'Appel, à 5 km au nord de Saint-Dié (480 m d'altitude), est un éperon gréseux qui domine la vallée de la Meurthe. C'est un site préhistorique celtique (occupation à l'Âge du Fer, oppidum gallo-romain) offrant une vue panoramique sur les Vosges, accessible à pied en 30 min depuis le parking. À 15 km vers Gérardmer, la Roche du Diable (800 m d'altitude) est une formation rocheuse mystérieuse, l'un des hauts lieux légendaires des Vosges où « le diable se serait posé ».",
       },
       {
         heading: "7. La déportation et le camp du Struthof",
-        body: "Le camp de concentration de Natzweiler-Struthof, a 50 km au sud de Saint-Die sur la commune de Natzwiller dans le Bas-Rhin, est le seul camp de concentration nazi situe sur le sol de la France actuelle (l'Alsace etant annexee de 1940 a 1944). On y trouve un memorial national, un musee et des baraquements preserves. 22 000 personnes y moururent entre 1941 et 1944. La visite est gratuite. A combiner avec Schirmeck et le Memorial de l'Alsace-Moselle.",
+        body: "Le camp de concentration de Natzweiler-Struthof, à 50 km au sud de Saint-Dié sur la commune de Natzwiller dans le Bas-Rhin, est le seul camp de concentration nazi situé sur le sol de la France actuelle (l'Alsace étant annexée de 1940 à 1944). On y trouve un mémorial national, un musée et des baraquements préservés. 22 000 personnes y moururent entre 1941 et 1944. La visite est gratuite. À combiner avec Schirmeck et le Mémorial de l'Alsace-Moselle.",
       },
       {
         heading: "8. La promenade des Trois-Massifs et le Camp celtique de la Bure",
-        body: "Le Camp celtique de la Bure, a 8 km au nord de Saint-Die (580 m d'altitude), est l'un des plus beaux oppidums celtiques fouilles en France, avec des habitations gauloises reconstituees sur le site d'origine. Les vestiges sont visibles en place et accompagnes de panneaux d'interpretation. Un sentier de 4 km en boucle, accessible a pied depuis le parking de la Pierre d'Appel, offre une vue sur les massifs du Donon (a l'est) et de Sainte-Odile (au nord). L'acces est gratuit.",
+        body: "Le Camp celtique de la Bure, à 8 km au nord de Saint-Dié (580 m d'altitude), est l'un des plus beaux oppidums celtiques fouillés en France, avec des habitations gauloises reconstituées sur le site d'origine. Les vestiges sont visibles en place et accompagnés de panneaux d'interprétation. Un sentier de 4 km en boucle, accessible à pied depuis le parking de la Pierre d'Appel, offre une vue sur les massifs du Donon (à l'est) et de Sainte-Odile (au nord). L'accès est gratuit.",
       },
       {
         heading: "9. La Bresse — station de ski et tourisme nature",
-        body: "La Bresse, a 30 km au sud-ouest de Saint-Die, est la premiere station de ski des Vosges : 40 km de pistes et 30 remontees mecaniques, l'une des trois plus grandes stations vosgiennes avec Gerardmer et Metabief. L'ete, place au VTT (200 km de pistes balisees), aux randonnees (sentier des Roches), a la via ferrata et au parapente. Le marche du jeudi reunit les produits vosgiens : myrtilles, miel, fromages et bieres artisanales.",
+        body: "La Bresse, à 30 km au sud-ouest de Saint-Dié, est la première station de ski des Vosges : 40 km de pistes et 30 remontées mécaniques, l'une des trois plus grandes stations vosgiennes avec Gérardmer et Métabief. L'été, place au VTT (200 km de pistes balisées), aux randonnées (sentier des Roches), à la via ferrata et au parapente. Le marché du jeudi réunit les produits vosgiens : myrtilles, miel, fromages et bières artisanales.",
       },
       {
         heading: "10. Gastronomie vosgienne — munster et myrtilles",
-        body: "La cuisine vosgienne est une cuisine de moyenne montagne genereuse. Cote fromages AOP, le Munster (pate molle au lait cru produit dans les chaumes) se decline aussi en version au cumin. On goute les tofailles (gratin de pommes de terre au lard et au munster), les tartes flambees (flammekueche, heritage alsacien a 50 km) et la choucroute. Cote sucre : la tarte aux myrtilles des Vosges (myrtilles sauvages cueillies en altitude en aout), le Confit de Bonbon des Vosges et l'eau-de-vie de mirabelle de Lorraine. Cote vins : Cotes de Toul et Cremant d'Alsace (a 80 km).",
+        body: "La cuisine vosgienne est une cuisine de moyenne montagne généreuse. Côté fromages AOP, le Munster (pâte molle au lait cru produit dans les chaumes) se décline aussi en version au cumin. On goûte les tofailles (gratin de pommes de terre au lard et au munster), les tartes flambées (flammekueche, héritage alsacien à 50 km) et la choucroute. Côté sucre : la tarte aux myrtilles des Vosges (myrtilles sauvages cueillies en altitude en août), le Confit de Bonbon des Vosges et l'eau-de-vie de mirabelle de Lorraine. Côté vins : Côtes de Toul et Crémant d'Alsace (à 80 km).",
       },
     ],
     relatedCities: ["saint-die-des-vosges"],
@@ -30076,47 +30076,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Pontarlier est la sous-prefecture du Haut-Doubs, 17 000 habitants a 837 m d'altitude, ce qui en fait la deuxieme ville la plus haute de France apres Briancon. C'est la capitale historique de l'absinthe (la « Fee verte »), interdite en France de 1915 a 2011 et c'est ici que la liqueur reprend vie. Aux portes du parc naturel regional du Haut-Jura, a 15 km de la Suisse, Pontarlier est la porte du fromage Comte AOP, des montagnes du Jura et du « Pays Horloger ».",
+    intro: "Pontarlier est la sous-préfecture du Haut-Doubs, 17 000 habitants à 837 m d'altitude, ce qui en fait la deuxième ville la plus haute de France après Briançon. C'est la capitale historique de l'absinthe (la « Fée verte »), interdite en France de 1915 à 2011 et c'est ici que la liqueur reprend vie. Aux portes du parc naturel régional du Haut-Jura, à 15 km de la Suisse, Pontarlier est la porte du fromage Comté AOP, des montagnes du Jura et du « Pays Horloger ».",
     sections: [
       {
         heading: "1. L'absinthe — la « Fée verte » retrouvée",
-        body: "Pontarlier fut la capitale mondiale de l'absinthe a la Belle Epoque, avec jusqu'a 25 distilleries en 1900 (Pernod, Premier Fils, Edouard Pernod et Cusenier produisaient ici). L'absinthe fut interdite en France de 1915 a 2011, accusee de rendre fou, alors que Verlaine, Rimbaud et Toulouse-Lautrec en abusaient. Aujourd'hui, 5 distilleries d'absinthe sont ouvertes au public, dont la Distillerie Emile Pernot (a Doubs, fondee en 1890) et la Distillerie La Compagnie des Spiritueux. Un Musee de l'Absinthe se trouve a 30 min en Suisse, au Val-de-Travers.",
+        body: "Pontarlier fut la capitale mondiale de l'absinthe à la Belle Époque, avec jusqu'à 25 distilleries en 1900 (Pernod, Premier Fils, Edouard Pernod et Cusenier produisaient ici). L'absinthe fut interdite en France de 1915 à 2011, accusée de rendre fou, alors que Verlaine, Rimbaud et Toulouse-Lautrec en abusaient. Aujourd'hui, 5 distilleries d'absinthe sont ouvertes au public, dont la Distillerie Emile Pernot (à Doubs, fondée en 1890) et la Distillerie La Compagnie des Spiritueux. Un Musée de l'Absinthe se trouve à 30 min en Suisse, au Val-de-Travers.",
       },
       {
         heading: "2. Le musée du Pays du Haut-Doubs",
-        body: "Le musee du Pays du Haut-Doubs, au coeur de Pontarlier dans l'ancienne eglise des Annonciades (XVIIe siecle), est le centre d'interpretation regional. Sa section absinthe est la plus complete au monde : histoire de la fee verte et tout son paraphernalia (verres a absinthe, fontaines a eau, cuilleres perforees). On y trouve aussi une section ethnographie comtoise (la vie paysanne du Haut-Doubs) et une section horlogerie. L'entree est gratuite, et la visite indispensable pour comprendre la culture regionale.",
+        body: "Le musée du Pays du Haut-Doubs, au cœur de Pontarlier dans l'ancienne église des Annonciades (XVIIe siècle), est le centre d'interprétation régional. Sa section absinthe est la plus complète au monde : histoire de la fée verte et tout son paraphernalia (verres à absinthe, fontaines à eau, cuillères perforées). On y trouve aussi une section ethnographie comtoise (la vie paysanne du Haut-Doubs) et une section horlogerie. L'entrée est gratuite, et la visite indispensable pour comprendre la culture régionale.",
       },
       {
         heading: "3. Le lac Saint-Point — le plus grand lac naturel de Franche-Comté",
-        body: "Le lac Saint-Point, a 10 km au sud-est de Pontarlier, est le 4e plus grand lac naturel de France metropolitaine apres le Leman, le Bourget et Annecy : 8 km de long et 850 ha. C'est le lac emblematique du Haut-Doubs. On s'y baigne en juillet-aout (eau a 20degC), et l'on y pratique la voile et le paddle. Un sentier cyclable de 24 km en fait le tour. A noter : le lac gele chaque hiver et l'on y pratique alors le patinage et le char a voile sur glace.",
+        body: "Le lac Saint-Point, à 10 km au sud-est de Pontarlier, est le 4e plus grand lac naturel de France métropolitaine après le Léman, le Bourget et Annecy : 8 km de long et 850 ha. C'est le lac emblématique du Haut-Doubs. On s'y baigne en juillet-août (eau à 20°C), et l'on y pratique la voile et le paddle. Un sentier cyclable de 24 km en fait le tour. À noter : le lac gèle chaque hiver et l'on y pratique alors le patinage et le char à voile sur glace.",
       },
       {
         heading: "4. Le château de Joux — la forteresse Vauban",
-        body: "Le chateau de Joux, a 5 km au sud de Pontarlier (XIe-XIXe siecles, fortifie par Vauban en 1690), est l'un des plus impressionnants chateaux forts de France, perche a 950 m d'altitude sur un eperon rocheux qui surplombe la cluse de Pontarlier, le « passage de la Suisse ». Il compte 5 enceintes successives. Toussaint Louverture, le « Spartacus noir » et chef de la revolution haitienne, y mourut en captivite en 1803. Mirabeau et Heinrich von Kleist y furent aussi enfermes.",
+        body: "Le château de Joux, à 5 km au sud de Pontarlier (XIe-XIXe siècles, fortifié par Vauban en 1690), est l'un des plus impressionnants châteaux forts de France, perché à 950 m d'altitude sur un éperon rocheux qui surplombe la cluse de Pontarlier, le « passage de la Suisse ». Il compte 5 enceintes successives. Toussaint Louverture, le « Spartacus noir » et chef de la révolution haïtienne, y mourut en captivité en 1803. Mirabeau et Heinrich von Kleist y furent aussi enfermés.",
       },
       {
         heading: "5. Le fromage Comté AOP et les fruitières",
-        body: "Le Comte AOP est le plus vendu des fromages AOP francais (70 000 tonnes par an) et la fierte du Haut-Doubs. La zone Comte (Doubs, Jura, Ain) compte 150 fruitieres, ces cooperatives villageoises de production. La Maison du Comte se trouve a Poligny (a 50 km a l'ouest, capitale du Comte). Pontarlier compte plusieurs fruitieres visitables, comme la Fruitiere de Doubs et la Fruitiere de Verrieres-de-Joux. L'affinage dure 4 mois minimum, et jusqu'a 36 mois pour les « Vieux Comte ». La visite est gratuite.",
+        body: "Le Comté AOP est le plus vendu des fromages AOP français (70 000 tonnes par an) et la fierté du Haut-Doubs. La zone Comté (Doubs, Jura, Ain) compte 150 fruitières, ces coopératives villageoises de production. La Maison du Comté se trouve à Poligny (à 50 km à l'ouest, capitale du Comté). Pontarlier compte plusieurs fruitières visitables, comme la Fruitière de Doubs et la Fruitière de Verrières-de-Joux. L'affinage dure 4 mois minimum, et jusqu'à 36 mois pour les « Vieux Comté ». La visite est gratuite.",
       },
       {
         heading: "6. La cascade du Saut du Doubs — frontière franco-suisse",
-        body: "La cascade du Saut du Doubs, a 30 km au sud-est de Pontarlier sur la frontiere franco-suisse, est l'une des plus belles cascades de France : une chute de 27 m du Doubs entre des falaises de 200 m. On y accede par bateau touristique au depart du lac de Chaillexon (Villers-le-Lac, une demi-journee) ou par un sentier pedestre de 4 km au depart de Villers. Les bassins du Doubs forment un chapelet de lacs le long de la frontiere. Le site est classe Grand Site de France depuis 2008.",
+        body: "La cascade du Saut du Doubs, à 30 km au sud-est de Pontarlier sur la frontière franco-suisse, est l'une des plus belles cascades de France : une chute de 27 m du Doubs entre des falaises de 200 m. On y accède par bateau touristique au départ du lac de Chaillexon (Villers-le-Lac, une demi-journée) ou par un sentier pédestre de 4 km au départ de Villers. Les bassins du Doubs forment un chapelet de lacs le long de la frontière. Le site est classé Grand Site de France depuis 2008.",
       },
       {
         heading: "7. La cluse de Pontarlier et le Mont d'Or",
-        body: "La cluse de Pontarlier est un passage naturel entre les massifs jurassiens, voie historique entre la France et la Suisse, empruntee par les Romains, les contrebandiers et les passeurs de la guerre. Elle est dominee a l'ouest par le Mont d'Or (1 463 m), point culminant du Doubs avec vue a 360deg, accessible en voiture ou a pied par un sentier de 3h aller. C'est aussi le nom du fromage Mont d'Or AOP, un vacherin du Haut-Doubs au lait cru et a pate molle, ceinture d'ecorce d'epicea et produit uniquement d'aout a mars.",
+        body: "La cluse de Pontarlier est un passage naturel entre les massifs jurassiens, voie historique entre la France et la Suisse, empruntée par les Romains, les contrebandiers et les passeurs de la guerre. Elle est dominée à l'ouest par le Mont d'Or (1 463 m), point culminant du Doubs avec vue à 360°, accessible en voiture ou à pied par un sentier de 3h aller. C'est aussi le nom du fromage Mont d'Or AOP, un vacherin du Haut-Doubs au lait cru et à pâte molle, ceinturé d'écorce d'épicéa et produit uniquement d'août à mars.",
       },
       {
         heading: "8. La porte Saint-Pierre et la vieille ville",
-        body: "La vieille ville de Pontarlier, incendiee a plusieurs reprises au cours de son histoire (detruite en 1736 par un incendie), fut reconstruite en pierre au XVIIIe siecle dans un style classique. La Porte Saint-Pierre (1771, neo-classique), a l'entree de la rue de la Republique, est l'embleme de cette reconstruction. Le boulevard de la Hocquette aligne les terrasses, et le marche se tient le jeudi matin place Saint-Pierre. L'eglise Saint-Benigne (XVe siecle, reconstruite apres incendies) a conserve son choeur d'origine.",
+        body: "La vieille ville de Pontarlier, incendiée à plusieurs reprises au cours de son histoire (détruite en 1736 par un incendie), fut reconstruite en pierre au XVIIIe siècle dans un style classique. La Porte Saint-Pierre (1771, néo-classique), à l'entrée de la rue de la République, est l'emblème de cette reconstruction. Le boulevard de la Hocquette aligne les terrasses, et le marché se tient le jeudi matin place Saint-Pierre. L'église Saint-Bénigne (XVe siècle, reconstruite après incendies) a conservé son chœur d'origine.",
       },
       {
         heading: "9. Métabief — la station de ski transfrontalière",
-        body: "Metabief, a 15 km au sud de Pontarlier (a 1 000 m d'altitude), est la plus grande station de ski alpin du Doubs : 35 km de pistes alpines et 90 km de pistes de ski de fond, une discipline ou Metabief est renommee au point d'accueillir la Coupe du monde. L'ete, place au VTT de descente sur l'une des plus grandes pistes d'enduro de France (Coupe de France), au bike park et a la randonnee. Le Mont d'Or et le belvedere des Quatre-Lacs sont accessibles depuis la station.",
+        body: "Métabief, à 15 km au sud de Pontarlier (à 1 000 m d'altitude), est la plus grande station de ski alpin du Doubs : 35 km de pistes alpines et 90 km de pistes de ski de fond, une discipline où Métabief est renommée au point d'accueillir la Coupe du monde. L'été, place au VTT de descente sur l'une des plus grandes pistes d'enduro de France (Coupe de France), au bike park et à la randonnée. Le Mont d'Or et le belvédère des Quatre-Lacs sont accessibles depuis la station.",
       },
       {
         heading: "10. Gastronomie franc-comtoise — saucisse de Morteau et Mont d'Or",
-        body: "La cuisine du Haut-Doubs est riche en produits charcutiers et fromagers : saucisse de Morteau IGP (fumee au bois d'epicea, de taille demesuree, la plus emblematique du Doubs), saucisse de Montbeliard IGP, jambon fume du Haut-Doubs et bresi (le boeuf seche jurassien, cousin de la viande des Grisons). Cote fromages AOP : le Comte (le roi) et le Mont d'Or (vacherin du Haut-Doubs ceinture d'ecorce, produit uniquement d'aout a mars et fondu facon « boite chaude »). On goute aussi le Morbier AOP (a 50 km). Cote vins : Arbois (jaune, AOC a 50 km) et Vin de Paille.",
+        body: "La cuisine du Haut-Doubs est riche en produits charcutiers et fromagers : saucisse de Morteau IGP (fumée au bois d'épicéa, de taille démesurée, la plus emblématique du Doubs), saucisse de Montbéliard IGP, jambon fumé du Haut-Doubs et bresi (le bœuf séché jurassien, cousin de la viande des Grisons). Côté fromages AOP : le Comté (le roi) et le Mont d'Or (vacherin du Haut-Doubs ceinturé d'écorce, produit uniquement d'août à mars et fondu façon « boîte chaude »). On goûte aussi le Morbier AOP (à 50 km). Côté vins : Arbois (jaune, AOC à 50 km) et Vin de Paille.",
       },
     ],
     relatedCities: ["pontarlier"],
@@ -30136,47 +30136,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Saint-Omer est une sous-prefecture du Pas-de-Calais, 14 000 habitants a 50 km au sud-est de Calais. La ville est celebre pour son marais audomarois (10 000 ha de canaux, seul marais maraicher cultive de France avec ses 3 000 parcelles de jardins flottants), pour sa cathedrale Notre-Dame (XIIIe-XVIe siecles, l'une des plus grandes du nord) et pour son patrimoine industriel cristallier d'Arques (Cristal d'Arques, premier verrier de France, a 5 km).",
+    intro: "Saint-Omer est une sous-préfecture du Pas-de-Calais, 14 000 habitants à 50 km au sud-est de Calais. La ville est célèbre pour son marais audomarois (10 000 ha de canaux, seul marais maraîcher cultivé de France avec ses 3 000 parcelles de jardins flottants), pour sa cathédrale Notre-Dame (XIIIe-XVIe siècles, l'une des plus grandes du nord) et pour son patrimoine industriel cristallier d'Arques (Cristal d'Arques, premier verrier de France, à 5 km).",
     sections: [
       {
         heading: "1. Le marais audomarois — UNESCO Géopark",
-        body: "Le marais audomarois (10 000 ha a l'est de Saint-Omer), cree par le creusement medieval des moines de Saint-Bertin, est unique en France : seul marais maraicher encore cultive, avec ses 3 600 parcelles de jardins flottants ou poussent choux-fleurs, chicons et salades. Il est classe Reserve de biosphere UNESCO depuis 2013. On le decouvre en barque traditionnelle « escute » (location a La Maison du Marais a Saint-Martin-lez-Tatinghem, en guide ou en autonomie, de 1h a 3h) sur 700 km de canaux navigables.",
+        body: "Le marais audomarois (10 000 ha à l'est de Saint-Omer), créé par le creusement médiéval des moines de Saint-Bertin, est unique en France : seul marais maraîcher encore cultivé, avec ses 3 600 parcelles de jardins flottants où poussent choux-fleurs, chicons et salades. Il est classé Réserve de biosphère UNESCO depuis 2013. On le découvre en barque traditionnelle « escute » (location à La Maison du Marais à Saint-Martin-lez-Tatinghem, en guide ou en autonomie, de 1h à 3h) sur 700 km de canaux navigables.",
       },
       {
         heading: "2. La cathédrale Notre-Dame — gothique flamboyant",
-        body: "La cathedrale Notre-Dame de Saint-Omer (XIIIe-XVIe siecles, gothique flamboyant a la fin) est l'une des plus grandes du nord de la France : 105 m de long pour 5 600 m2. Elle abrite un orgue Cavaille-Coll (l'un des plus grands de France, 4 claviers et 60 jeux) et une tour-clocher culminant a 50 m. On y trouve aussi le mausolee d'Eustache de Croy (XVe siecle, sculpture funeraire renommee). L'Hotel-Dieu attenant date du XVIIe siecle. La visite est gratuite.",
+        body: "La cathédrale Notre-Dame de Saint-Omer (XIIIe-XVIe siècles, gothique flamboyant à la fin) est l'une des plus grandes du nord de la France : 105 m de long pour 5 600 m². Elle abrite un orgue Cavaillé-Coll (l'un des plus grands de France, 4 claviers et 60 jeux) et une tour-clocher culminant à 50 m. On y trouve aussi le mausolée d'Eustache de Croy (XVe siècle, sculpture funéraire renommée). L'Hôtel-Dieu attenant date du XVIIe siècle. La visite est gratuite.",
       },
       {
         heading: "3. Les ruines de l'abbaye Saint-Bertin — romantiques",
-        body: "Les ruines de l'abbaye Saint-Bertin (VIIe-XVIIIe siecles), fondee en 660 par Saint-Bertin et l'une des plus puissantes abbayes medievales du nord, sont les vestiges romantiques de ce qui fut l'une des plus grandes abbayes benedictines d'Europe, avec une eglise gothique de 100 m de long, equivalente a une cathedrale. Detruite en 1830 lorsque les habitants en pillerent les pierres, il en reste la tour Saint-Bertin (50 m, isolee dans un parc), embleme de la ville. L'acces est libre et le site gere par la ville.",
+        body: "Les ruines de l'abbaye Saint-Bertin (VIIe-XVIIIe siècles), fondée en 660 par Saint-Bertin et l'une des plus puissantes abbayes médiévales du nord, sont les vestiges romantiques de ce qui fut l'une des plus grandes abbayes bénédictines d'Europe, avec une église gothique de 100 m de long, équivalente à une cathédrale. Détruite en 1830 lorsque les habitants en pillèrent les pierres, il en reste la tour Saint-Bertin (50 m, isolée dans un parc), emblème de la ville. L'accès est libre et le site géré par la ville.",
       },
       {
         heading: "4. La distillerie Persyn — Cuvée Or et gin Houlle",
-        body: "La distillerie Persyn, a 5 km de Saint-Omer a Houlle, fonctionne depuis 1812 et reste la derniere distillerie de genievre encore en activite en France. Elle produit le celebre genievre de Houlle, une eau-de-vie de cereale aux baies de genevrier, traditionnellement bue apres le cafe (le « pousse-cafe du Nord »). La visite est gratuite sur rendez-vous, avec demonstration de distillation a l'alambic en cuivre, boutique et degustation. Le genievre flamand est l'ancetre du gin britannique.",
+        body: "La distillerie Persyn, à 5 km de Saint-Omer à Houlle, fonctionne depuis 1812 et reste la dernière distillerie de genièvre encore en activité en France. Elle produit le célèbre genièvre de Houlle, une eau-de-vie de céréale aux baies de genévrier, traditionnellement bue après le café (le « pousse-café du Nord »). La visite est gratuite sur rendez-vous, avec démonstration de distillation à l'alambic en cuivre, boutique et dégustation. Le genièvre flamand est l'ancêtre du gin britannique.",
       },
       {
         heading: "5. Le musée Sandelin — collection extraordinaire",
-        body: "Le musee Sandelin de Saint-Omer, installe dans un hotel particulier du XVIIIe siecle, est l'un des musees de France les plus sous-cotes. Il reunit des peintures flamandes des XVe-XVIIe siecles (Brueghel, Rubens, Van Dyck) et une collection d'objets d'art decoratifs : faience de Saint-Omer et ivoires anglo-saxons medievaux, l'une des plus belles collections d'Europe. Il comporte aussi une section archeologie. L'entree est gratuite le premier dimanche. Le musee a rouvert apres renovation en 2017.",
+        body: "Le musée Sandelin de Saint-Omer, installé dans un hôtel particulier du XVIIIe siècle, est l'un des musées de France les plus sous-cotés. Il réunit des peintures flamandes des XVe-XVIIe siècles (Brueghel, Rubens, Van Dyck) et une collection d'objets d'art décoratifs : faïence de Saint-Omer et ivoires anglo-saxons médiévaux, l'une des plus belles collections d'Europe. Il comporte aussi une section archéologie. L'entrée est gratuite le premier dimanche. Le musée a rouvert après rénovation en 2017.",
       },
       {
         heading: "6. La coupole d'Helfaut — base V-2 nazie",
-        body: "La Coupole d'Helfaut, a 8 km au sud-ouest de Saint-Omer, est l'une des plus impressionnantes constructions militaires nazies : une base souterraine de lancement de fusees V-2 contre Londres, jamais achevee a cause des bombardements allies. Sa coupole de beton mesure 71 m de diametre pour 5 m d'epaisseur. Elle abrite aujourd'hui un musee de la Seconde Guerre mondiale et de la Conquete spatiale, qui mene du V-2 a Saturn V puis a la fusee Ariane. Un planetarium y est attenant.",
+        body: "La Coupole d'Helfaut, à 8 km au sud-ouest de Saint-Omer, est l'une des plus impressionnantes constructions militaires nazies : une base souterraine de lancement de fusées V-2 contre Londres, jamais achevée à cause des bombardements alliés. Sa coupole de béton mesure 71 m de diamètre pour 5 m d'épaisseur. Elle abrite aujourd'hui un musée de la Seconde Guerre mondiale et de la Conquête spatiale, qui mène du V-2 à Saturn V puis à la fusée Ariane. Un planétarium y est attenant.",
       },
       {
         heading: "7. La verrerie d'Arques — la cristallerie",
-        body: "Arques, a 5 km a l'est de Saint-Omer, est le siege de la cristallerie d'Arques (« Arc International »), premier verrier de France, qui comptait 10 000 employes au pic des annees 1980 et en garde 4 000 aujourd'hui. On peut visiter les ateliers de fabrication du verre sur reservation, avec demonstration de souffleurs de verre et un magasin d'usine ou trouver verres et carafes a prix d'usine. On y produit des marques mondialement connues comme Luminarc et Cristal d'Arques.",
+        body: "Arques, à 5 km à l'est de Saint-Omer, est le siège de la cristallerie d'Arques (« Arc International »), premier verrier de France, qui comptait 10 000 employés au pic des années 1980 et en garde 4 000 aujourd'hui. On peut visiter les ateliers de fabrication du verre sur réservation, avec démonstration de souffleurs de verre et un magasin d'usine où trouver verres et carafes à prix d'usine. On y produit des marques mondialement connues comme Luminarc et Cristal d'Arques.",
       },
       {
         heading: "8. Les jardins de la Coupole et le jardin public",
-        body: "Le jardin public de Saint-Omer, cree au XIXe siecle, est l'un des plus beaux jardins urbains du Pas-de-Calais : 8 ha recompenses du label Quatre Fleurs, ou se deploient roseraies, parterres XIXe siecle, etangs et sculptures. A proximite de la cathedrale, un jardin medieval reconstitue presente les plantes utilisees au Moyen Age : medicinales, condimentaires et tinctoriales. La saison fleurie va d'avril a octobre et l'acces est gratuit.",
+        body: "Le jardin public de Saint-Omer, créé au XIXe siècle, est l'un des plus beaux jardins urbains du Pas-de-Calais : 8 ha récompensés du label Quatre Fleurs, où se déploient roseraies, parterres XIXe siècle, étangs et sculptures. À proximité de la cathédrale, un jardin médiéval reconstitué présente les plantes utilisées au Moyen Âge : médicinales, condimentaires et tinctoriales. La saison fleurie va d'avril à octobre et l'accès est gratuit.",
       },
       {
         heading: "9. La Côte d'Opale — Calais et le Cap Blanc-Nez",
-        body: "La Cote d'Opale, cote du Pas-de-Calais a 30 km de Saint-Omer, est l'une des plus belles cotes du Nord. On y admire les falaises blanches du Cap Blanc-Nez (134 m de hauteur, avec vue sur l'Angleterre a 32 km par temps clair) et le Cap Gris-Nez (45 m, le point le plus proche de l'Angleterre). Boulogne-sur-Mer, a 50 km, est le premier port de peche francais et garde une vieille ville fortifiee. Calais, a 50 km egalement, abrite la Cite de la Dentelle et de la Mode.",
+        body: "La Côte d'Opale, côte du Pas-de-Calais à 30 km de Saint-Omer, est l'une des plus belles côtes du Nord. On y admire les falaises blanches du Cap Blanc-Nez (134 m de hauteur, avec vue sur l'Angleterre à 32 km par temps clair) et le Cap Gris-Nez (45 m, le point le plus proche de l'Angleterre). Boulogne-sur-Mer, à 50 km, est le premier port de pêche français et garde une vieille ville fortifiée. Calais, à 50 km également, abrite la Cité de la Dentelle et de la Mode.",
       },
       {
         heading: "10. Gastronomie nord — chicons et Maroilles",
-        body: "La cuisine du Nord-Pas-de-Calais mele la Flandre et la Picardie : chicons au gratin (endives a la bechamel et au jambon, plat populaire), waterzoi (de poule ou de poisson, heritage flamand), carbonade flamande (boeuf a la biere brune) et ficelle picarde (crepe roulee). La specialite audomaroise reste le chou-fleur du marais, recolte en mai-juin, produit embleme des jardins flottants. Cote fromages : Maroilles AOP (le plus odorant de France, a 100 km) et Mimolette de Lille. Cote bieres du Nord : Chti, 3 Monts et Saint-Sylvestre.",
+        body: "La cuisine du Nord-Pas-de-Calais mêle la Flandre et la Picardie : chicons au gratin (endives à la béchamel et au jambon, plat populaire), waterzoï (de poule ou de poisson, héritage flamand), carbonade flamande (bœuf à la bière brune) et ficelle picarde (crêpe roulée). La spécialité audomaroise reste le chou-fleur du marais, récolté en mai-juin, produit emblème des jardins flottants. Côté fromages : Maroilles AOP (le plus odorant de France, à 100 km) et Mimolette de Lille. Côté bières du Nord : Chti, 3 Monts et Saint-Sylvestre.",
       },
     ],
     relatedCities: ["saint-omer"],
@@ -30195,47 +30195,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Chateauroux est la prefecture de l'Indre, 43 000 habitants au coeur du Berry. La ville est dominee par le chateau Raoul (XIVe siecle, ancienne residence des seigneurs de Chateauroux, aujourd'hui prefecture). A 30 km du Parc naturel regional de la Brenne (le « Pays des mille etangs ») et a 30 km de Nohant (la maison de George Sand), Chateauroux est la porte d'entree du Berry central, terre d'eau et de lentilles vertes du Berry.",
+    intro: "Châteauroux est la préfecture de l'Indre, 43 000 habitants au cœur du Berry. La ville est dominée par le château Raoul (XIVe siècle, ancienne résidence des seigneurs de Châteauroux, aujourd'hui préfecture). À 30 km du Parc naturel régional de la Brenne (le « Pays des mille étangs ») et à 30 km de Nohant (la maison de George Sand), Châteauroux est la porte d'entrée du Berry central, terre d'eau et de lentilles vertes du Berry.",
     sections: [
       {
         heading: "1. Le couvent des Cordeliers — la nef gothique",
-        body: "Le couvent des Cordeliers (XIIIe-XVe siecles), ancien couvent franciscain et l'un des plus anciens monasteres mendiants conserves en France, est aujourd'hui un centre culturel. L'ancienne eglise gothique accueille des expositions temporaires d'art contemporain et le cloitre attenant des concerts l'ete. Son architecture sobre et puissante est typique de l'art mendiant medieval. La visite est gratuite. A cote court la rue Saint-Sebastien, axe commercant principal.",
+        body: "Le couvent des Cordeliers (XIIIe-XVe siècles), ancien couvent franciscain et l'un des plus anciens monastères mendiants conservés en France, est aujourd'hui un centre culturel. L'ancienne église gothique accueille des expositions temporaires d'art contemporain et le cloître attenant des concerts l'été. Son architecture sobre et puissante est typique de l'art mendiant médiéval. La visite est gratuite. À côté court la rue Saint-Sébastien, axe commerçant principal.",
       },
       {
         heading: "2. Le château Raoul — la préfecture",
-        body: "Le chateau Raoul (XIVe siecle, agrandi au XVIIe siecle), sur les hauteurs de Chateauroux, fut l'ancienne residence des seigneurs de Chateauroux : propriete depuis 1500 de la Maison de Lorraine puis des Bourbon-Conde. Il abrite aujourd'hui la prefecture de l'Indre, cas rare de prefecture installee dans un chateau medieval. La visite exterieure est libre, et les interieurs s'ouvrent lors des Journees du Patrimoine en septembre. La vue panoramique s'etend sur la vallee de l'Indre.",
+        body: "Le château Raoul (XIVe siècle, agrandi au XVIIe siècle), sur les hauteurs de Châteauroux, fut l'ancienne résidence des seigneurs de Châteauroux : propriété depuis 1500 de la Maison de Lorraine puis des Bourbon-Condé. Il abrite aujourd'hui la préfecture de l'Indre, cas rare de préfecture installée dans un château médiéval. La visite extérieure est libre, et les intérieurs s'ouvrent lors des Journées du Patrimoine en septembre. La vue panoramique s'étend sur la vallée de l'Indre.",
       },
       {
         heading: "3. Le parc naturel régional de la Brenne — « Pays des mille étangs »",
-        body: "Le PNR de la Brenne, a 30 km a l'ouest de Chateauroux (166 000 ha), est l'une des plus importantes zones humides de France : 2 000 etangs creuses du Moyen Age au XVIIIe siecle pour l'elevage de carpes. C'est aujourd'hui une reserve ornithologique de premier ordre, avec 280 especes d'oiseaux dont 16 especes de herons, des cigognes noires et des busards. La Maison du Parc au Bouchet est gratuite, et l'on y trouve observatoires d'oiseaux et sentier des etangs. La specialite locale est la carpe a la Brenne, farcie aux champignons.",
+        body: "Le PNR de la Brenne, à 30 km à l'ouest de Châteauroux (166 000 ha), est l'une des plus importantes zones humides de France : 2 000 étangs creusés du Moyen Âge au XVIIIe siècle pour l'élevage de carpes. C'est aujourd'hui une réserve ornithologique de premier ordre, avec 280 espèces d'oiseaux dont 16 espèces de hérons, des cigognes noires et des busards. La Maison du Parc au Bouchet est gratuite, et l'on y trouve observatoires d'oiseaux et sentier des étangs. La spécialité locale est la carpe à la Brenne, farcie aux champignons.",
       },
       {
         heading: "4. Nohant — la maison de George Sand",
-        body: "Nohant-Vic, a 30 km au sud-est de Chateauroux, est le village de George Sand (Aurore Dupin, 1804-1876), l'une des plus grandes romancieres francaises du XIXe siecle (la Mare au Diable, Francois le Champi, la Petite Fadette). Le chateau de Nohant, modeste manoir ou elle vecut et recut Chopin, Liszt, Delacroix, Balzac et Flaubert, est ouvert au public avec son mobilier d'origine. Sa tombe se trouve dans le jardin. Un festival de musique romantique (« Chopin a Nohant ») s'y tient en juillet, avec des concerts dans la maison meme.",
+        body: "Nohant-Vic, à 30 km au sud-est de Châteauroux, est le village de George Sand (Aurore Dupin, 1804-1876), l'une des plus grandes romancières françaises du XIXe siècle (la Mare au Diable, François le Champi, la Petite Fadette). Le château de Nohant, modeste manoir où elle vécut et reçut Chopin, Liszt, Delacroix, Balzac et Flaubert, est ouvert au public avec son mobilier d'origine. Sa tombe se trouve dans le jardin. Un festival de musique romantique (« Chopin à Nohant ») s'y tient en juillet, avec des concerts dans la maison même.",
       },
       {
         heading: "5. Le parc Balsan — patrimoine industriel",
-        body: "Le parc Balsan, a Chateauroux, occupe l'ancienne manufacture de drap militaire d'Auguste Balsan, fournisseur des armees imperiales et coloniales au XIXe siecle, qui epousa en 1908 Consuelo Vanderbilt, fille du milliardaire americain. Les halles industrielles du XIXe siecle ont ete reconverties en centre culturel : mediatheque, ecole de musique et salles d'exposition. L'architecture industrielle y est d'une rare elegance, dans un parc paysager de 5 ha. A noter : Consuelo Vanderbilt-Balsan vecut au chateau de Loches.",
+        body: "Le parc Balsan, à Châteauroux, occupe l'ancienne manufacture de drap militaire d'Auguste Balsan, fournisseur des armées impériales et coloniales au XIXe siècle, qui épousa en 1908 Consuelo Vanderbilt, fille du milliardaire américain. Les halles industrielles du XIXe siècle ont été reconverties en centre culturel : médiathèque, école de musique et salles d'exposition. L'architecture industrielle y est d'une rare élégance, dans un parc paysager de 5 ha. À noter : Consuelo Vanderbilt-Balsan vécut au château de Loches.",
       },
       {
         heading: "6. Le musée Bertrand — Napoléon et Saint-Hélène",
-        body: "Le Musee Bertrand de Chateauroux, dans un hotel particulier du XVIIIe siecle, est dedie au general Henri-Gatien Bertrand (1773-1844), grand marechal du palais sous Napoleon, qui suivit l'Empereur en exil a Sainte-Helene. Il abrite une collection unique en France : des objets rapportes de Sainte-Helene par Bertrand apres la mort de Napoleon (meche de cheveux, masque mortuaire, l'un des trois conserves au monde, vetements et mobilier). Il comporte aussi une section beaux-arts des XVIIe-XIXe siecles.",
+        body: "Le Musée Bertrand de Châteauroux, dans un hôtel particulier du XVIIIe siècle, est dédié au général Henri-Gatien Bertrand (1773-1844), grand maréchal du palais sous Napoléon, qui suivit l'Empereur en exil à Sainte-Hélène. Il abrite une collection unique en France : des objets rapportés de Sainte-Hélène par Bertrand après la mort de Napoléon (mèche de cheveux, masque mortuaire, l'un des trois conservés au monde, vêtements et mobilier). Il comporte aussi une section beaux-arts des XVIIe-XIXe siècles.",
       },
       {
         heading: "7. Issoudun et le centre Saint-Roch",
-        body: "Issoudun, a 30 km au nord-est de Chateauroux, est la deuxieme ville de l'Indre. Le Centre Saint-Roch (ancien hopital des XIIe-XIIIe siecles) est l'un des plus rares ensembles hospitaliers medievaux conserves en France. A voir aussi : la Tour Blanche (XIIe siecle, donjon de Richard Coeur de Lion, 27 m), le beffroi du XVe siecle et des hotels particuliers Renaissance. Issoudun est aussi celebre pour ses pates de pommes de terre et pour son festival de musique baroque en juillet.",
+        body: "Issoudun, à 30 km au nord-est de Châteauroux, est la deuxième ville de l'Indre. Le Centre Saint-Roch (ancien hôpital des XIIe-XIIIe siècles) est l'un des plus rares ensembles hospitaliers médiévaux conservés en France. À voir aussi : la Tour Blanche (XIIe siècle, donjon de Richard Cœur de Lion, 27 m), le beffroi du XVe siècle et des hôtels particuliers Renaissance. Issoudun est aussi célèbre pour ses pâtés de pommes de terre et pour son festival de musique baroque en juillet.",
       },
       {
         heading: "8. La forêt de Châteauroux — chênaie domaniale",
-        body: "La foret domaniale de Chateauroux (5 200 ha a l'est de la ville) est l'une des plus belles chenaies de Centre-Val de Loire. Elle deploie 45 km de sentiers balises, l'etang du Gabriau (peche autorisee) et des allees royales. La faune compte cerfs, biches, chevreuils et sangliers, et l'automne se prete a la cueillette des champignons (cepes, girolles, trompettes). A noter : la foret servit de terrain d'entrainement a la base americaine de Chateauroux-Deols (1951-1967, OTAN), ou residaient alors 8 000 GIs.",
+        body: "La forêt domaniale de Châteauroux (5 200 ha à l'est de la ville) est l'une des plus belles chênaies de Centre-Val de Loire. Elle déploie 45 km de sentiers balisés, l'étang du Gabriau (pêche autorisée) et des allées royales. La faune compte cerfs, biches, chevreuils et sangliers, et l'automne se prête à la cueillette des champignons (cèpes, girolles, trompettes). À noter : la forêt servit de terrain d'entraînement à la base américaine de Châteauroux-Déols (1951-1967, OTAN), où résidaient alors 8 000 GIs.",
       },
       {
         heading: "9. Saint-Marcel et le théâtre gallo-romain",
-        body: "Saint-Marcel, a 35 km a l'ouest de Chateauroux sur la commune d'Argentomagus, est l'un des plus importants sites archeologiques gallo-romains de France : Argentomagus etait une cite de 6 000 habitants au IIe siecle, capitale des Bituriges Cubes meridionaux. On y voit un theatre romain (60 m de diametre, restaure), des villas, des thermes et une fontaine monumentale. Le musee d'Argentomagus rassemble une collection de mobilier antique. Le site archeologique est gratuit.",
+        body: "Saint-Marcel, à 35 km à l'ouest de Châteauroux sur la commune d'Argentomagus, est l'un des plus importants sites archéologiques gallo-romains de France : Argentomagus était une cité de 6 000 habitants au IIe siècle, capitale des Bituriges Cubes méridionaux. On y voit un théâtre romain (60 m de diamètre, restauré), des villas, des thermes et une fontaine monumentale. Le musée d'Argentomagus rassemble une collection de mobilier antique. Le site archéologique est gratuit.",
       },
       {
         heading: "10. Gastronomie berrichonne — galette aux pommes de terre et lentille",
-        body: "La cuisine berrichonne est paysanne et go-uteuse : pate berrichon (terrine de porc aux herbes), galette aux pommes de terre (doree au four ou a la poele, parfois aux oeufs), poulet en barbouille (saute a la sauce sang, heritage de la cuisine de chasse) et pochouse berrichonne (ragout de poissons d'etangs de la Brenne : carpe, brochet, sandre). Cote specialites : lentille verte du Berry (cousine de celle du Puy), Pouligny-Saint-Pierre AOP (chevre pyramidal) et Valencay AOP (chevre tronc a la pointe). Cote vins : Reuilly (AOC blanc et rose, a 35 km) et Quincy (blanc).",
+        body: "La cuisine berrichonne est paysanne et goûteuse : pâté berrichon (terrine de porc aux herbes), galette aux pommes de terre (dorée au four ou à la poêle, parfois aux œufs), poulet en barbouille (sauté à la sauce sang, héritage de la cuisine de chasse) et pochouse berrichonne (ragoût de poissons d'étangs de la Brenne : carpe, brochet, sandre). Côté spécialités : lentille verte du Berry (cousine de celle du Puy), Pouligny-Saint-Pierre AOP (chèvre pyramidal) et Valençay AOP (chèvre tronc à la pointe). Côté vins : Reuilly (AOC blanc et rosé, à 35 km) et Quincy (blanc).",
       },
     ],
     relatedCities: ["chateauroux"],
@@ -30254,47 +30254,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Nevers est la prefecture de la Nievre, 32 000 habitants au confluent de la Loire et de la Nievre. La ville est celebre pour trois choses : sa faience (la « faience de Nevers », qui comptait 17 manufactures au XVIIe siecle, l'une des plus belles traditions ceramiques europeennes), sainte Bernadette (Bernadette Soubirous, voyante de Lourdes, morte au couvent Saint-Gildard de Nevers en 1879, dont le corps incorrompu est conserve dans la chapelle, lieu de pelerinage) et le circuit de Magny-Cours (a 15 km, ancien circuit du Grand Prix de France de F1 jusqu'en 2008).",
+    intro: "Nevers est la préfecture de la Nièvre, 32 000 habitants au confluent de la Loire et de la Nièvre. La ville est célèbre pour trois choses : sa faïence (la « faïence de Nevers », qui comptait 17 manufactures au XVIIe siècle, l'une des plus belles traditions céramiques européennes), sainte Bernadette (Bernadette Soubirous, voyante de Lourdes, morte au couvent Saint-Gildard de Nevers en 1879, dont le corps incorrompu est conservé dans la chapelle, lieu de pèlerinage) et le circuit de Magny-Cours (à 15 km, ancien circuit du Grand Prix de France de F1 jusqu'en 2008).",
     sections: [
       {
         heading: "1. La cathédrale Saint-Cyr-et-Sainte-Julitte — deux églises en une",
-        body: "La cathedrale Saint-Cyr-et-Sainte-Julitte (Xe-XVIe siecles) est unique en France : elle possede deux absides, l'une a l'est romane (XIe siecle), l'autre a l'ouest gothique (XIVe siecle), resultat de la fusion de deux eglises au XIe siecle. Ses vitraux sont contemporains, du XXe siecle, car elle fut reconstruite apres les bombardements allies de 1944. Situee sur les hauteurs de Nevers, elle offre la vue sur la Loire. La visite est gratuite.",
+        body: "La cathédrale Saint-Cyr-et-Sainte-Julitte (Xe-XVIe siècles) est unique en France : elle possède deux absides, l'une à l'est romane (XIe siècle), l'autre à l'ouest gothique (XIVe siècle), résultat de la fusion de deux églises au XIe siècle. Ses vitraux sont contemporains, du XXe siècle, car elle fut reconstruite après les bombardements alliés de 1944. Située sur les hauteurs de Nevers, elle offre la vue sur la Loire. La visite est gratuite.",
       },
       {
         heading: "2. Le palais ducal — Renaissance et faïence",
-        body: "Le palais ducal de Nevers (XVe-XVIe siecles), ancien palais des ducs de Nevers (les Cleves puis les Mantoue-Gonzague italiens), est l'un des plus beaux palais Renaissance du nord de la France : facade sculptee d'une rare elegance, tour octogonale, balustres et chapiteaux Renaissance. Il abrite aujourd'hui l'hotel de ville et l'office de tourisme, ainsi que le musee municipal, dont la collection de faiences de Nevers est la plus importante au monde, avec des expositions d'art contemporain. L'entree est gratuite.",
+        body: "Le palais ducal de Nevers (XVe-XVIe siècles), ancien palais des ducs de Nevers (les Clèves puis les Mantoue-Gonzague italiens), est l'un des plus beaux palais Renaissance du nord de la France : façade sculptée d'une rare élégance, tour octogonale, balustres et chapiteaux Renaissance. Il abrite aujourd'hui l'hôtel de ville et l'office de tourisme, ainsi que le musée municipal, dont la collection de faïences de Nevers est la plus importante au monde, avec des expositions d'art contemporain. L'entrée est gratuite.",
       },
       {
         heading: "3. La faïence de Nevers — quatre siècles de tradition",
-        body: "La faience de Nevers, produite depuis 1568 (importee d'Italie par les ducs de Mantoue-Gonzague, soit 4 siecles de tradition), est l'une des plus belles traditions ceramiques europeennes. Elle se reconnait a ses decors « patronymiques » (paysages et scenes mythologiques sur fond blanc) et a ses « bleus de Nevers » (camaieu bleu cobalt). Quatre manufactures restent actives a Nevers, dont la Manufacture Montagnon (creee en 1875, la plus ancienne encore en activite). La visite des ateliers est gratuite, avec boutique, et le Musee de la Faience occupe le palais ducal.",
+        body: "La faïence de Nevers, produite depuis 1568 (importée d'Italie par les ducs de Mantoue-Gonzague, soit 4 siècles de tradition), est l'une des plus belles traditions céramiques européennes. Elle se reconnaît à ses décors « patronymiques » (paysages et scènes mythologiques sur fond blanc) et à ses « bleus de Nevers » (camaïeu bleu cobalt). Quatre manufactures restent actives à Nevers, dont la Manufacture Montagnon (créée en 1875, la plus ancienne encore en activité). La visite des ateliers est gratuite, avec boutique, et le Musée de la Faïence occupe le palais ducal.",
       },
       {
         heading: "4. Le couvent Saint-Gildard et sainte Bernadette",
-        body: "Le couvent Saint-Gildard, au coeur de Nevers (couvent des Soeurs de la Charite), abrite le corps incorrompu de sainte Bernadette Soubirous (1844-1879), voyante de Lourdes morte a 35 ans a Nevers. Elle est exposee dans une chasse de verre depuis sa canonisation en 1933 : le corps est reste intact malgre 4 exhumations, un phenomene d'incorruption inexplique scientifiquement. C'est un lieu de pelerinage (300 000 visiteurs par an). La visite est gratuite (le silence est demande) et la cellule de Bernadette y est reconstituee.",
+        body: "Le couvent Saint-Gildard, au cœur de Nevers (couvent des Sœurs de la Charité), abrite le corps incorrompu de sainte Bernadette Soubirous (1844-1879), voyante de Lourdes morte à 35 ans à Nevers. Elle est exposée dans une châsse de verre depuis sa canonisation en 1933 : le corps est resté intact malgré 4 exhumations, un phénomène d'incorruption inexpliqué scientifiquement. C'est un lieu de pèlerinage (300 000 visiteurs par an). La visite est gratuite (le silence est demandé) et la cellule de Bernadette y est reconstituée.",
       },
       {
         heading: "5. Le circuit de Magny-Cours — la F1 et le karting",
-        body: "Le circuit de Magny-Cours, a 15 km au sud de Nevers dans la Nievre (cree en 1961), fut le circuit du Grand Prix de France de Formule 1 de 1991 a 2008, avant sa sortie du calendrier en 2009. Il accueille aujourd'hui le Bol d'Or moto, le championnat de France de F4 et le karting (l'une des meilleures pistes de karting de France). Les stands se visitent le mercredi matin. Un incontournable pour les passionnes de motorsport.",
+        body: "Le circuit de Magny-Cours, à 15 km au sud de Nevers dans la Nièvre (créé en 1961), fut le circuit du Grand Prix de France de Formule 1 de 1991 à 2008, avant sa sortie du calendrier en 2009. Il accueille aujourd'hui le Bol d'Or moto, le championnat de France de F4 et le karting (l'une des meilleures pistes de karting de France). Les stands se visitent le mercredi matin. Un incontournable pour les passionnés de motorsport.",
       },
       {
         heading: "6. La Loire et le pont sur la Loire",
-        body: "La Loire a Nevers, entre la Loire « royale » et la Loire « sauvage », compose l'un des plus beaux paysages fluviaux de France. Le pont de la Loire (XVIIIe siecle, reconstruit) offre une vue panoramique sur la rive sauvage, et la Promenade des Bords de Loire se parcourt a pied ou a velo. Le Loiret, a 90 km a l'ouest, marque la transition vers la Loire majestueuse. A noter : Nevers est sur la Loire a Velo (V6, 800 km de pistes cyclables le long du fleuve, de Cuffy a Saint-Nazaire), l'une des plus belles voies vertes d'Europe.",
+        body: "La Loire à Nevers, entre la Loire « royale » et la Loire « sauvage », compose l'un des plus beaux paysages fluviaux de France. Le pont de la Loire (XVIIIe siècle, reconstruit) offre une vue panoramique sur la rive sauvage, et la Promenade des Bords de Loire se parcourt à pied ou à vélo. Le Loiret, à 90 km à l'ouest, marque la transition vers la Loire majestueuse. À noter : Nevers est sur la Loire à Vélo (V6, 800 km de pistes cyclables le long du fleuve, de Cuffy à Saint-Nazaire), l'une des plus belles voies vertes d'Europe.",
       },
       {
         heading: "7. La porte du Croux — le donjon médiéval",
-        body: "La porte du Croux (XIIIe siecle), a l'entree de la vieille ville, est l'un des derniers vestiges de l'enceinte medievale de Nevers : un batiment massif en pierre, porte fortifiee a machicoulis qui defendait l'entree orientale de la ville. Elle abrite aujourd'hui un musee archeologique consacre aux vestiges gallo-romains de Nevers, l'antique Noviodunum, capitale celtique des Eduens. L'entree est gratuite.",
+        body: "La porte du Croux (XIIIe siècle), à l'entrée de la vieille ville, est l'un des derniers vestiges de l'enceinte médiévale de Nevers : un bâtiment massif en pierre, porte fortifiée à machicoulis qui défendait l'entrée orientale de la ville. Elle abrite aujourd'hui un musée archéologique consacré aux vestiges gallo-romains de Nevers, l'antique Noviodunum, capitale celtique des Éduens. L'entrée est gratuite.",
       },
       {
         heading: "8. La basilique romane de Saint-Étienne",
-        body: "La basilique Saint-Etienne de Nevers (XIe siecle, romane bourguignonne) est l'une des plus pures basiliques romanes de France, anterieure a la cathedrale et restee intacte : tour-clocher romane, chevet a deambulatoire et chapiteaux sculptes. Cette eglise benedictine fut fondee vers 1063 par Mathilde de Bourgogne, et son tresor conserve les reliques de saint Etienne. La visite est gratuite. Elle se situe dans le quartier commercant des Ardilliers, a 10 min a pied du palais ducal.",
+        body: "La basilique Saint-Étienne de Nevers (XIe siècle, romane bourguignonne) est l'une des plus pures basiliques romanes de France, antérieure à la cathédrale et restée intacte : tour-clocher romane, chevet à déambulatoire et chapiteaux sculptés. Cette église bénédictine fut fondée vers 1063 par Mathilde de Bourgogne, et son trésor conserve les reliques de saint Étienne. La visite est gratuite. Elle se situe dans le quartier commerçant des Ardilliers, à 10 min à pied du palais ducal.",
       },
       {
         heading: "9. Bourges et la cathédrale UNESCO — à 70 km",
-        body: "Bourges, a 70 km a l'ouest de Nevers dans le Cher, est l'autre grande cite du Berry. Sa cathedrale Saint-Etienne (XIIe-XIIIe siecles, gothique rayonnant, classee UNESCO en 1992) est la soeur jumelle de Notre-Dame de Paris, dont elle reprend la technique architecturale en plus large (41 m de hauteur sous voute). Ses vitraux du XIIIe siecle comptent parmi les plus complets de France. Le palais Jacques-Coeur (XVe siecle, gothique flamboyant) est l'une des plus belles demeures civiles du Moyen Age en France.",
+        body: "Bourges, à 70 km à l'ouest de Nevers dans le Cher, est l'autre grande cité du Berry. Sa cathédrale Saint-Étienne (XIIe-XIIIe siècles, gothique rayonnant, classée UNESCO en 1992) est la sœur jumelle de Notre-Dame de Paris, dont elle reprend la technique architecturale en plus large (41 m de hauteur sous voûte). Ses vitraux du XIIIe siècle comptent parmi les plus complets de France. Le palais Jacques-Cœur (XVe siècle, gothique flamboyant) est l'une des plus belles demeures civiles du Moyen Âge en France.",
       },
       {
         heading: "10. Gastronomie nivernaise — Crottin de Chavignol et bœuf charolais",
-        body: "La cuisine du Berry et du Nivernais est paysanne et fromagere : galette aux pommes de terre (doree), poulet en barbouille (a la sauce sang, heritage de chasse), entrecote charolaise (le boeuf charolais, race emblematique de la Saone-et-Loire a 60 km a l'est, eleve dans les paturages d'embouche) et poissons de Loire sauvage (sandre, brochet, anguille). Cote fromages AOP : Crottin de Chavignol (a 80 km a l'ouest, chevre rond), Pouligny-Saint-Pierre et Valencay. Cote vins : Pouilly-Fume (AOC sauvignon blanc a 50 km a l'ouest, l'un des plus grands blancs du Centre) et Sancerre (a 70 km).",
+        body: "La cuisine du Berry et du Nivernais est paysanne et fromagère : galette aux pommes de terre (dorée), poulet en barbouille (à la sauce sang, héritage de chasse), entrecôte charolaise (le bœuf charolais, race emblématique de la Saône-et-Loire à 60 km à l'est, élevé dans les pâturages d'embouche) et poissons de Loire sauvage (sandre, brochet, anguille). Côté fromages AOP : Crottin de Chavignol (à 80 km à l'ouest, chèvre rond), Pouligny-Saint-Pierre et Valençay. Côté vins : Pouilly-Fumé (AOC sauvignon blanc à 50 km à l'ouest, l'un des plus grands blancs du Centre) et Sancerre (à 70 km).",
       },
     ],
     relatedCities: ["nevers"],
@@ -30313,47 +30313,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Vesoul est la prefecture de la Haute-Saone et compte 15 000 habitants. La ville fut immortalisee par la chanson de Jacques Brel en 1968, « Vesoul », un petit succes qui raconte un voyage d'amour finissant dans cette ville meconnue. Posee au pied de la Motte, une colline calcaire de 378 m couronnee d'une chapelle, et au bord du lac de Vesoul, le plus grand lac artificiel de Franche-Comte, elle est la porte du plateau des Mille Etangs, ou se nichent 200 lacs de cirque glaciaire, et du Ballon des Vosges.",
+    intro: "Vesoul est la préfecture de la Haute-Saône et compte 15 000 habitants. La ville fut immortalisée par la chanson de Jacques Brel en 1968, « Vesoul », un petit succès qui raconte un voyage d'amour finissant dans cette ville méconnue. Posée au pied de la Motte, une colline calcaire de 378 m couronnée d'une chapelle, et au bord du lac de Vesoul, le plus grand lac artificiel de Franche-Comté, elle est la porte du plateau des Mille Étangs, où se nichent 200 lacs de cirque glaciaire, et du Ballon des Vosges.",
     sections: [
       {
         heading: "1. Le lac de Vesoul-Vaivre — la base de loisirs",
-        body: "Le lac de Vesoul-Vaivre, a 3 km du centre, s'etend sur 90 ha. Cree en 1972 par un barrage, c'est la grande base de loisirs de Vesoul. On y trouve une plage de sable amenagee, avec baignade surveillee en juillet et aout et une eau a 22 degres, une ecole de voile et de paddle, la location de pedalos et de l'accrobranche dans la foret environnante. Un sentier de 4 km en fait le tour. Le site est classe Natura 2000 pour ses oiseaux migrateurs, et l'acces est gratuit.",
+        body: "Le lac de Vesoul-Vaivre, à 3 km du centre, s'étend sur 90 ha. Créé en 1972 par un barrage, c'est la grande base de loisirs de Vesoul. On y trouve une plage de sable aménagée, avec baignade surveillée en juillet et août et une eau à 22 degrés, une école de voile et de paddle, la location de pédalos et de l'accrobranche dans la forêt environnante. Un sentier de 4 km en fait le tour. Le site est classé Natura 2000 pour ses oiseaux migrateurs, et l'accès est gratuit.",
       },
       {
         heading: "2. La colline de la Motte et la chapelle",
-        body: "La colline de la Motte, a 378 m et a 2 km au sud de Vesoul, est l'eminence calcaire qui domine la ville. A son sommet se dresse la chapelle Notre-Dame-de-la-Motte, neo-gothique du XIXe siecle, construite en ex-voto par les habitants apres l'epidemie de cholera de 1854. Le panorama embrasse Vesoul et la vallee de la Saone, et par temps clair les Vosges au nord. Un sentier balise mene au sommet en 1h aller-retour. C'est le but de la promenade dominicale des Vesuliens.",
+        body: "La colline de la Motte, à 378 m et à 2 km au sud de Vesoul, est l'éminence calcaire qui domine la ville. À son sommet se dresse la chapelle Notre-Dame-de-la-Motte, néo-gothique du XIXe siècle, construite en ex-voto par les habitants après l'épidémie de choléra de 1854. Le panorama embrasse Vesoul et la vallée de la Saône, et par temps clair les Vosges au nord. Un sentier balisé mène au sommet en 1h aller-retour. C'est le but de la promenade dominicale des Vésuliens.",
       },
       {
         heading: "3. Ronchamp — la chapelle Le Corbusier UNESCO",
-        body: "Notre-Dame-du-Haut de Ronchamp, a 30 km au nord-est de Vesoul, est une chapelle signee Le Corbusier en 1955, et l'un des chefs-d'oeuvre de l'architecture du XXe siecle. Elle est classee UNESCO depuis 2016 au titre de l'oeuvre architecturale de Le Corbusier. Cette chapelle de pelerinage aux formes organiques et expressionnistes affiche un toit incurve en beton et des murs blancs sculptes. A cote, le couvent Sainte-Claire, signe Renzo Piano en 2011, complete le site spirituel et architectural. A ne pas manquer, meme si l'on n'est pas amateur d'architecture moderne.",
+        body: "Notre-Dame-du-Haut de Ronchamp, à 30 km au nord-est de Vesoul, est une chapelle signée Le Corbusier en 1955, et l'un des chefs-d'œuvre de l'architecture du XXe siècle. Elle est classée UNESCO depuis 2016 au titre de l'œuvre architecturale de Le Corbusier. Cette chapelle de pèlerinage aux formes organiques et expressionnistes affiche un toit incurvé en béton et des murs blancs sculptés. À côté, le couvent Sainte-Claire, signé Renzo Piano en 2011, complète le site spirituel et architectural. À ne pas manquer, même si l'on n'est pas amateur d'architecture moderne.",
       },
       {
         heading: "4. Le plateau des Mille Étangs — Vosges saônoises",
-        body: "Le plateau des Mille Etangs s'etend a 30 km au nord de Vesoul, dans les Vosges saonoises, entre Melisey, Faucogney et Servance, a 700 m d'altitude. C'est un paysage unique en France, ou 200 lacs creuses par les glaciers du Quaternaire parsement un plateau granitique de forets, de prairies et de tourbieres. On le surnomme « la Petite Finlande francaise ». Le sentier des Mille Etangs deroule 40 km a parcourir en 3 ou 4 jours, avec ses gites d'etape, et la baignade est libre dans plusieurs etangs.",
+        body: "Le plateau des Mille Étangs s'étend à 30 km au nord de Vesoul, dans les Vosges saônoises, entre Mélisey, Faucogney et Servance, à 700 m d'altitude. C'est un paysage unique en France, où 200 lacs creusés par les glaciers du Quaternaire parsèment un plateau granitique de forêts, de prairies et de tourbières. On le surnomme « la Petite Finlande française ». Le sentier des Mille Étangs déroule 40 km à parcourir en 3 ou 4 jours, avec ses gîtes d'étape, et la baignade est libre dans plusieurs étangs.",
       },
       {
         heading: "5. Le Ballon de Servance — sommet vosgien",
-        body: "Le Ballon de Servance culmine a 1 216 m, a 40 km au nord de Vesoul. C'est le point culminant de la Haute-Saone et le troisieme sommet vosgien, apres les Ballons d'Alsace et le Grand Ballon. La vue panoramique y porte a 360 degres : le massif du Jura au sud, les Vosges au nord, et les Alpes par temps clair. On y accede en voiture jusqu'au pied, suivis de 15 min de marche, ou par sentier depuis Servance en 3h aller. Le site est classe Natura 2000, peuple de chamois et de lynx.",
+        body: "Le Ballon de Servance culmine à 1 216 m, à 40 km au nord de Vesoul. C'est le point culminant de la Haute-Saône et le troisième sommet vosgien, après les Ballons d'Alsace et le Grand Ballon. La vue panoramique y porte à 360° : le massif du Jura au sud, les Vosges au nord, et les Alpes par temps clair. On y accède en voiture jusqu'au pied, suivis de 15 min de marche, ou par sentier depuis Servance en 3h aller. Le site est classé Natura 2000, peuplé de chamois et de lynx.",
       },
       {
         heading: "6. Le château de la Motte et l'abbaye de Faverney",
-        body: "Le chateau de Filain, a 15 km au nord-ouest de Vesoul, est l'un des plus beaux chateaux Renaissance de Haute-Saone, datant du XVIe siecle : facades sculptees, mobilier d'epoque et jardin a la francaise. La visite est payante. L'abbaye de Faverney, a 20 km au nord-est, est un ancien monastere benedictin des XIIe au XVIIIe siecles, dote d'un cloitre Renaissance. C'est aussi un lieu de pelerinage marial, autour de Notre-Dame-de-Faverney et de sa statue miraculeuse.",
+        body: "Le château de Filain, à 15 km au nord-ouest de Vesoul, est l'un des plus beaux châteaux Renaissance de Haute-Saône, datant du XVIe siècle : façades sculptées, mobilier d'époque et jardin à la française. La visite est payante. L'abbaye de Faverney, à 20 km au nord-est, est un ancien monastère bénédictin des XIIe au XVIIIe siècles, doté d'un cloître Renaissance. C'est aussi un lieu de pèlerinage marial, autour de Notre-Dame-de-Faverney et de sa statue miraculeuse.",
       },
       {
         heading: "7. Le musée Georges-Garret — peinture et archéologie",
-        body: "Le Musee Georges-Garret de Vesoul, musee municipal installe dans un hotel particulier du XVIIIe siecle restaure, possede une riche collection de peinture du XVIe au XIXe siecle, avec Brueghel, Courbet et Gericault, natifs de la region, ainsi que des sculptures et de l'art religieux. Une section presente l'archeologie gallo-romaine, avec les vestiges de la Vesoul antique. L'entree est gratuite le premier dimanche du mois.",
+        body: "Le Musée Georges-Garret de Vesoul, musée municipal installé dans un hôtel particulier du XVIIIe siècle restauré, possède une riche collection de peinture du XVIe au XIXe siècle, avec Brueghel, Courbet et Géricault, natifs de la région, ainsi que des sculptures et de l'art religieux. Une section présente l'archéologie gallo-romaine, avec les vestiges de la Vesoul antique. L'entrée est gratuite le premier dimanche du mois.",
       },
       {
         heading: "8. Luxeuil-les-Bains — la station thermale",
-        body: "Luxeuil-les-Bains, a 35 km au nord-est de Vesoul, est l'une des plus anciennes stations thermales de France : on y exploite des thermes gallo-romains depuis le Ier siecle, du temps d'Aquae Luxovii. C'est aujourd'hui un centre thermal actif, oriente vers les cures rhumatologiques. L'abbaye Saint-Pierre de Luxeuil, du VIIe siecle, fut fondee par saint Colomban, moine irlandais ; c'est l'une des premieres grandes abbayes de l'Est de la France. Les hotels particuliers Renaissance jalonnent la rue Carnot.",
+        body: "Luxeuil-les-Bains, à 35 km au nord-est de Vesoul, est l'une des plus anciennes stations thermales de France : on y exploite des thermes gallo-romains depuis le Ier siècle, du temps d'Aquae Luxovii. C'est aujourd'hui un centre thermal actif, orienté vers les cures rhumatologiques. L'abbaye Saint-Pierre de Luxeuil, du VIIe siècle, fut fondée par saint Colomban, moine irlandais ; c'est l'une des premières grandes abbayes de l'Est de la France. Les hôtels particuliers Renaissance jalonnent la rue Carnot.",
       },
       {
         heading: "9. La vallée de la Saône — voie verte cyclable",
-        body: "La Saone, qui passe a 20 km au sud de Vesoul, offre l'une des plus belles voies vertes fluviales de France, un chemin de halage cyclable et plat le long du fleuve. L'etape Gray-Pesmes, de 15 km, deroule de beaux paysages de bocage saonois. Gray, a 60 km au sud-ouest de Vesoul sur la Saone, est une cite gallo-romaine dont le musee Baron-Martin abrite une collection de peintures du XIXe siecle, avec Gericault, Delacroix et Renoir. On peut aussi y faire des croisieres fluviales sur la Saone.",
+        body: "La Saône, qui passe à 20 km au sud de Vesoul, offre l'une des plus belles voies vertes fluviales de France, un chemin de halage cyclable et plat le long du fleuve. L'étape Gray-Pesmes, de 15 km, déroule de beaux paysages de bocage saônois. Gray, à 60 km au sud-ouest de Vesoul sur la Saône, est une cité gallo-romaine dont le musée Baron-Martin abrite une collection de peintures du XIXe siècle, avec Géricault, Delacroix et Renoir. On peut aussi y faire des croisières fluviales sur la Saône.",
       },
       {
         heading: "10. Gastronomie franc-comtoise — saucisse de Morteau et Comté",
-        body: "La cuisine de Haute-Saone est une cuisine franc-comtoise classique : saucisse de Morteau IGP, jambon fume du Haut-Doubs, bresi, ce boeuf seche a la facon des Grisons, et truite au bleu, cuite au court-bouillon a la saonoise. Cote fromages AOP, on trouve le Comte tres repandu, le Munster a 50 km et la Cancoillotte, ce fromage liquide propre au Doubs et a la Haute-Saone, fondu et a etaler sur le pain. Cote sucre, le gateau de menage, une brioche fromagere, et le pain d'epices de Vesoul. Pour les vins, l'Arbois jaune et de paille, a 80 km, en AOC du Jura.",
+        body: "La cuisine de Haute-Saône est une cuisine franc-comtoise classique : saucisse de Morteau IGP, jambon fumé du Haut-Doubs, brési, ce bœuf séché à la façon des Grisons, et truite au bleu, cuite au court-bouillon à la saônoise. Côté fromages AOP, on trouve le Comté très répandu, le Munster à 50 km et la Cancoillotte, ce fromage liquide propre au Doubs et à la Haute-Saône, fondu et à étaler sur le pain. Côté sucré, le gâteau de ménage, une brioche fromagère, et le pain d'épices de Vesoul. Pour les vins, l'Arbois jaune et de paille, à 80 km, en AOC du Jura.",
       },
     ],
     relatedCities: ["vesoul"],
@@ -30372,47 +30372,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Lons-le-Saunier est la prefecture du Jura, 17 000 habitants a 256 m d'altitude. C'est une ville d'eau, avec sa cure thermale aux eaux chlorurees-sodiques, et de sel, puisque « Lons » vient du celtique « ledo », le sel. La ville est le berceau de Rouget de Lisle (1760-1836), ne dans la maison qui domine la place de la Liberte, auteur du Chant de guerre de l'Armee du Rhin devenu La Marseillaise. C'est aussi la capitale historique du Jura viticole : vin jaune, Chateau-Chalon, Arbois.",
+    intro: "Lons-le-Saunier est la préfecture du Jura, 17 000 habitants à 256 m d'altitude. C'est une ville d'eau, avec sa cure thermale aux eaux chlorurées-sodiques, et de sel, puisque « Lons » vient du celtique « ledo », le sel. La ville est le berceau de Rouget de Lisle (1760-1836), né dans la maison qui domine la place de la Liberté, auteur du Chant de guerre de l'Armée du Rhin devenu La Marseillaise. C'est aussi la capitale historique du Jura viticole : vin jaune, Château-Chalon, Arbois.",
     sections: [
       {
         heading: "1. La place de la Liberté et Rouget de Lisle",
-        body: "La place de la Liberte de Lons-le-Saunier est l'une des plus belles places XVIIIe siecle de Franche-Comte, bordee de 96 arcades du XVIIe siecle. Sa statue de Rouget de Lisle est due au sculpteur Bartholdi, l'auteur de la statue de la Liberte a New York : c'est sa premiere oeuvre en France, en 1882. La maison natale de Rouget de Lisle, auteur de La Marseillaise, donne sur la place. Le carillon de l'horloge sonne La Marseillaise toutes les heures.",
+        body: "La place de la Liberté de Lons-le-Saunier est l'une des plus belles places XVIIIe siècle de Franche-Comté, bordée de 96 arcades du XVIIe siècle. Sa statue de Rouget de Lisle est due au sculpteur Bartholdi, l'auteur de la statue de la Liberté à New York : c'est sa première œuvre en France, en 1882. La maison natale de Rouget de Lisle, auteur de La Marseillaise, donne sur la place. Le carillon de l'horloge sonne La Marseillaise toutes les heures.",
       },
       {
         heading: "2. Le vignoble du Jura et le vin jaune",
-        body: "Le vignoble du Jura, autour de Lons et d'Arbois, s'etend sur 1 950 ha. C'est l'un des plus petits vignobles AOC de France, mais l'un des plus uniques au monde. Il produit le vin jaune, issu du cepage savagnin, vieilli 6 ans et 3 mois sous voile de levures dans des futs non ouilles, un vin de garde de 100 ans. On visite des domaines : la Maison du Vigneron a Pupillin, le Domaine Macle a Chateau-Chalon, le Domaine Tissot a Arbois, en biodynamie. Le clavelin de 62 cl est la bouteille unique du vin jaune. La Percee du Vin Jaune, le premier week-end de fevrier, est la fete viticole emblematique du Jura.",
+        body: "Le vignoble du Jura, autour de Lons et d'Arbois, s'étend sur 1 950 ha. C'est l'un des plus petits vignobles AOC de France, mais l'un des plus uniques au monde. Il produit le vin jaune, issu du cépage savagnin, vieilli 6 ans et 3 mois sous voile de levures dans des fûts non ouillés, un vin de garde de 100 ans. On visite des domaines : la Maison du Vigneron à Pupillin, le Domaine Macle à Château-Chalon, le Domaine Tissot à Arbois, en biodynamie. Le clavelin de 62 cl est la bouteille unique du vin jaune. La Percée du Vin Jaune, le premier week-end de février, est la fête viticole emblématique du Jura.",
       },
       {
         heading: "3. Château-Chalon — vin jaune et plus beau village",
-        body: "Chateau-Chalon, a 20 km au nord-est de Lons et classe plus beau village de France, est le berceau du vin jaune : un village perche sur un piton calcaire a 460 m d'altitude qui produit le plus prestigieux vin jaune du Jura, en AOC depuis 1936. On y flane parmi les maisons en pierre claire, les ruelles pavees, le donjon ruine et l'eglise romane Saint-Pierre. Le Domaine Macle, icone de l'AOC, et d'autres caves se visitent. La vue porte a 360 degres sur les Reculees de Baume, l'un des plus beaux paysages du Jura.",
+        body: "Château-Chalon, à 20 km au nord-est de Lons et classé plus beau village de France, est le berceau du vin jaune : un village perché sur un piton calcaire à 460 m d'altitude qui produit le plus prestigieux vin jaune du Jura, en AOC depuis 1936. On y flâne parmi les maisons en pierre claire, les ruelles pavées, le donjon ruiné et l'église romane Saint-Pierre. Le Domaine Macle, icône de l'AOC, et d'autres caves se visitent. La vue porte à 360° sur les Reculées de Baume, l'un des plus beaux paysages du Jura.",
       },
       {
         heading: "4. Les cascades du Hérisson — sept chutes successives",
-        body: "Les cascades du Herisson, a 30 km au sud-est de Lons dans le massif jurassien, comptent parmi les plus beaux sites naturels de Franche-Comte : 7 cascades successives sur 4 km de descente du Herisson. On y admire l'Eventail, la plus grande avec ses 65 m, le Grand Saut de 60 m, le Saut de la Forge et le Gour Bleu. Un sentier balise de 2 km en boucle part de la Maison des Cascades a Menetrux-en-Joux. Le site est classe Grand Site de France, et reste accessible toute l'annee.",
+        body: "Les cascades du Hérisson, à 30 km au sud-est de Lons dans le massif jurassien, comptent parmi les plus beaux sites naturels de Franche-Comté : 7 cascades successives sur 4 km de descente du Hérisson. On y admire l'Éventail, la plus grande avec ses 65 m, le Grand Saut de 60 m, le Saut de la Forge et le Gour Bleu. Un sentier balisé de 2 km en boucle part de la Maison des Cascades à Ménétrux-en-Joux. Le site est classé Grand Site de France, et reste accessible toute l'année.",
       },
       {
         heading: "5. Le Plateau des Sept Lacs — Bonlieu, Ilay et Narlay",
-        body: "Le Plateau des Sept Lacs, a 35 km a l'est de Lons sur la zone des Reculees, regroupe sept lacs glaciaires : Bonlieu, Ilay, Narlay, Petit-Maclu, Grand-Maclu, Vernois et Val. Le belvedere des Quatre Lacs, un point de vue unique a 800 m d'altitude, domine 4 lacs a la fois ; c'est l'un des plus photographies du Jura. La baignade est possible en juillet et aout a Ilay et Bonlieu, sur leurs plages amenagees. Le sentier des Sept Lacs deroule 45 km a parcourir en 3 jours, avec gites d'etape.",
+        body: "Le Plateau des Sept Lacs, à 35 km à l'est de Lons sur la zone des Reculées, regroupe sept lacs glaciaires : Bonlieu, Ilay, Narlay, Petit-Maclu, Grand-Maclu, Vernois et Val. Le belvédère des Quatre Lacs, un point de vue unique à 800 m d'altitude, domine 4 lacs à la fois ; c'est l'un des plus photographiés du Jura. La baignade est possible en juillet et août à Ilay et Bonlieu, sur leurs plages aménagées. Le sentier des Sept Lacs déroule 45 km à parcourir en 3 jours, avec gîtes d'étape.",
       },
       {
         heading: "6. Le musée des Beaux-Arts — Courbet et le réalisme",
-        body: "Le Musee des Beaux-Arts de Lons-le-Saunier, place Philibert-de-Chalon, possede une belle collection de peintures du XVIIe au XIXe siecle : Gustave Courbet, natif d'Ornans a 80 km et bien represente, Pissarro, Boudin et l'ecole jurassienne du XIXe siecle. Une section presente l'archeologie gallo-romaine du Jura. L'entree est gratuite le premier dimanche.",
+        body: "Le Musée des Beaux-Arts de Lons-le-Saunier, place Philibert-de-Chalon, possède une belle collection de peintures du XVIIe au XIXe siècle : Gustave Courbet, natif d'Ornans à 80 km et bien représenté, Pissarro, Boudin et l'école jurassienne du XIXe siècle. Une section présente l'archéologie gallo-romaine du Jura. L'entrée est gratuite le premier dimanche.",
       },
       {
         heading: "7. Le théâtre municipal — style italien",
-        body: "Le theatre municipal de Lons-le-Saunier, de 1847, est l'un des plus beaux theatres a l'italienne de Franche-Comte : une salle des XVIIIe et XIXe siecles de 600 places, aux balcons rouges et au plafond peint. La programmation lyrique et theatrale court d'octobre a mai. Une visite guidee gratuite est proposee a certaines occasions, comme les Journees du Patrimoine. A deux pas, la rue Saint-Desire est l'axe commercant principal, avec ses boutiques jurassiennes : Comte, saucisses de Morteau, vins du Jura.",
+        body: "Le théâtre municipal de Lons-le-Saunier, de 1847, est l'un des plus beaux théâtres à l'italienne de Franche-Comté : une salle des XVIIIe et XIXe siècles de 600 places, aux balcons rouges et au plafond peint. La programmation lyrique et théâtrale court d'octobre à mai. Une visite guidée gratuite est proposée à certaines occasions, comme les Journées du Patrimoine. À deux pas, la rue Saint-Désiré est l'axe commerçant principal, avec ses boutiques jurassiennes : Comté, saucisses de Morteau, vins du Jura.",
       },
       {
         heading: "8. Baume-les-Messieurs — l'abbaye et la reculée",
-        body: "Baume-les-Messieurs, a 12 km au nord de Lons et classe plus beau village de France, est un village blotti au fond d'une reculee jurassienne spectaculaire. On y trouve une abbaye benedictine fondee au VIe siecle, l'une des plus anciennes de France, anterieure a Cluny, ainsi que les grottes de Baume, que l'on visite en bateau sur la riviere souterraine, et la resurgence du Dard, surnommee « le bout du monde ». La cascade des Tufs jaillit au pied de la reculee. Le site est classe Grand Site de France.",
+        body: "Baume-les-Messieurs, à 12 km au nord de Lons et classé plus beau village de France, est un village blotti au fond d'une reculée jurassienne spectaculaire. On y trouve une abbaye bénédictine fondée au VIe siècle, l'une des plus anciennes de France, antérieure à Cluny, ainsi que les grottes de Baume, que l'on visite en bateau sur la rivière souterraine, et la résurgence du Dard, surnommée « le bout du monde ». La cascade des Tufs jaillit au pied de la reculée. Le site est classé Grand Site de France.",
       },
       {
         heading: "9. La maison de la vache qui rit — patrimoine fromagier",
-        body: "La Maison de La Vache qui Rit, au centre de Lons-le-Saunier, occupe le lieu ou Leon Bel inventa le fromage portion en 1921 : c'est un musee interactif retracant l'histoire de ce fromage iconique mondial. On y trouve une exposition interactive avec un parcours pour enfants, un atelier de design pour creer sa propre etiquette Vache qui Rit, et des espaces ludiques, ainsi qu'une boutique de produits derives. Lons-le-Saunier reste le siege mondial du groupe Bel, qui detient Babybel, Mini Babybel, Boursin et Kiri.",
+        body: "La Maison de La Vache qui Rit, au centre de Lons-le-Saunier, occupe le lieu où Léon Bel inventa le fromage portion en 1921 : c'est un musée interactif retraçant l'histoire de ce fromage iconique mondial. On y trouve une exposition interactive avec un parcours pour enfants, un atelier de design pour créer sa propre étiquette Vache qui Rit, et des espaces ludiques, ainsi qu'une boutique de produits dérivés. Lons-le-Saunier reste le siège mondial du groupe Bel, qui détient Babybel, Mini Babybel, Boursin et Kiri.",
       },
       {
         heading: "10. Gastronomie jurassienne — Comté et coq au vin jaune",
-        body: "La cuisine jurassienne est riche en fromages et en plats au vin jaune. Le coq au vin jaune et morilles est LE plat emblematique du Jura, avec son coq de Bresse, son vin jaune et ses morilles fraiches. On y deguste aussi la saucisse de Morteau IGP, le jambon fume du Haut-Doubs, le bresi et la fondue jurassienne, au Comte et au vin du Jura, differente de la savoyarde. Cote fromages AOP : le Comte en roi, le Morbier, le Mont d'Or vacherin et le Bleu de Gex. Cote sucre, la galette comtoise, une brioche aux raisins, et le pain d'epices d'Arbois. Pour les vins, les Cotes du Jura en rouge leger, le vin jaune et le vin de paille, un vin doux unique.",
+        body: "La cuisine jurassienne est riche en fromages et en plats au vin jaune. Le coq au vin jaune et morilles est LE plat emblématique du Jura, avec son coq de Bresse, son vin jaune et ses morilles fraîches. On y déguste aussi la saucisse de Morteau IGP, le jambon fumé du Haut-Doubs, le brési et la fondue jurassienne, au Comté et au vin du Jura, différente de la savoyarde. Côté fromages AOP : le Comté en roi, le Morbier, le Mont d'Or vacherin et le Bleu de Gex. Côté sucré, la galette comtoise, une brioche aux raisins, et le pain d'épices d'Arbois. Pour les vins, les Côtes du Jura en rouge léger, le vin jaune et le vin de paille, un vin doux unique.",
       },
     ],
     relatedCities: ["lons-le-saunier"],
@@ -30432,47 +30432,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Foix est la prefecture de l'Ariege, 10 000 habitants. C'est l'une des plus petites prefectures de France ; seule Tulle est plus petite, a 14 500. Dominee par son chateau des comtes de Foix (XIe-XIVe siecles), perche sur un piton calcaire et qui resista a Simon de Montfort pendant la croisade albigeoise, la ville est la porte d'entree des Pyrenees ariegeoises, du pays cathare et des plus belles grottes ornees de France, Niaux et le Mas-d'Azil.",
+    intro: "Foix est la préfecture de l'Ariège, 10 000 habitants. C'est l'une des plus petites préfectures de France ; seule Tulle est plus petite, à 14 500. Dominée par son château des comtes de Foix (XIe-XIVe siècles), perché sur un piton calcaire et qui résista à Simon de Montfort pendant la croisade albigeoise, la ville est la porte d'entrée des Pyrénées ariégeoises, du pays cathare et des plus belles grottes ornées de France, Niaux et le Mas-d'Azil.",
     sections: [
       {
         heading: "1. Le château de Foix — la forteresse cathare",
-        body: "Le chateau des comtes de Foix (XIe-XIVe siecles), avec ses trois tours posees sur un piton calcaire de 60 m de haut, est l'un des derniers chateaux medievaux a n'avoir jamais ete pris par siege : Simon de Montfort y renonca pendant la croisade albigeoise. On visite ses trois tours, la tour ronde, la tour carree et la tour de Foix, la plus haute, d'ou la vue porte a 360 degres. Des spectacles medievaux animent l'ete, avec chevaliers et fauconnerie. Le chateau est devenu musee d'histoire ariegeoise.",
+        body: "Le château des comtes de Foix (XIe-XIVe siècles), avec ses trois tours posées sur un piton calcaire de 60 m de haut, est l'un des derniers châteaux médiévaux à n'avoir jamais été pris par siège : Simon de Montfort y renonça pendant la croisade albigeoise. On visite ses trois tours, la tour ronde, la tour carrée et la tour de Foix, la plus haute, d'où la vue porte à 360°. Des spectacles médiévaux animent l'été, avec chevaliers et fauconnerie. Le château est devenu musée d'histoire ariégeoise.",
       },
       {
         heading: "2. La grotte de Niaux — peintures pariétales magdaléniennes",
-        body: "La grotte de Niaux, a 17 km au sud de Foix, est l'une des deux dernieres grottes ornees au monde encore ouvertes au public, avec Font-de-Gaume en Dordogne. On y admire des peintures parietales magdaleniennes datant de 13 000 av. J.-C. Le « Salon Noir » presente 80 figures noires de bisons, chevaux et bouquetins d'une qualite exceptionnelle. La visite guidee dure 1h30, avec reservation obligatoire des semaines a l'avance et des groupes de 20 personnes maximum. La lampe a acetylene sert a preserver l'art. Une visite inoubliable.",
+        body: "La grotte de Niaux, à 17 km au sud de Foix, est l'une des deux dernières grottes ornées au monde encore ouvertes au public, avec Font-de-Gaume en Dordogne. On y admire des peintures pariétales magdaléniennes datant de 13 000 av. J.-C. Le « Salon Noir » présente 80 figures noires de bisons, chevaux et bouquetins d'une qualité exceptionnelle. La visite guidée dure 1h30, avec réservation obligatoire des semaines à l'avance et des groupes de 20 personnes maximum. La lampe à acétylène sert à préserver l'art. Une visite inoubliable.",
       },
       {
         heading: "3. Montségur — la dernière forteresse cathare",
-        body: "Montsegur, a 30 km a l'est de Foix et perche a 1 207 m sur un piton calcaire, est le symbole de la resistance cathare. Lors du siege de mars 1244, 220 cathares, parfaits et croyants, y furent brules vifs sur un bucher apres 10 mois de resistance. Les ruines du chateau s'atteignent a pied, par une ascension de 30 min depuis le parking. Le site est classe Grand Site de France et l'emotion y est garantie. Il se trouve a 30 min en voiture de Foix.",
+        body: "Montségur, à 30 km à l'est de Foix et perché à 1 207 m sur un piton calcaire, est le symbole de la résistance cathare. Lors du siège de mars 1244, 220 cathares, parfaits et croyants, y furent brûlés vifs sur un bûcher après 10 mois de résistance. Les ruines du château s'atteignent à pied, par une ascension de 30 min depuis le parking. Le site est classé Grand Site de France et l'émotion y est garantie. Il se trouve à 30 min en voiture de Foix.",
       },
       {
         heading: "4. La rivière souterraine de Labouiche",
-        body: "La riviere souterraine de Labouiche, a 6 km au nord-ouest de Foix, est la plus longue riviere souterraine navigable d'Europe ouverte au public : 1,5 km de galeries en barque a fond plat. La visite dure 1h15 et passe sous des voutes calcaires et devant une cascade souterraine. Le site fut decouvert en 1908. C'est ideal pour les enfants, avec un tarif reduit a 8 EUR. Reservation conseillee en haute saison.",
+        body: "La rivière souterraine de Labouiche, à 6 km au nord-ouest de Foix, est la plus longue rivière souterraine navigable d'Europe ouverte au public : 1,5 km de galeries en barque à fond plat. La visite dure 1h15 et passe sous des voûtes calcaires et devant une cascade souterraine. Le site fut découvert en 1908. C'est idéal pour les enfants, avec un tarif réduit à 8 €. Réservation conseillée en haute saison.",
       },
       {
         heading: "5. La grotte du Mas-d'Azil — l'art pariétal et le tunnel naturel",
-        body: "Le Mas-d'Azil, a 40 km au nord-ouest de Foix, est l'unique village de France traverse par une grotte naturelle : la route nationale passe a l'interieur d'un tunnel naturel de 420 m de long. A l'interieur de la grotte prehistorique, site eponyme de la periode Azilienne, entre Magdalenien et Neolithique, se decouvrent des peintures et des gravures parietales magdaleniennes. Un musee de la Prehistoire surplombe le village. A combiner avec une visite a Carla-Bayle, village paisible classe parmi les plus beaux villages d'Ariege.",
+        body: "Le Mas-d'Azil, à 40 km au nord-ouest de Foix, est l'unique village de France traversé par une grotte naturelle : la route nationale passe à l'intérieur d'un tunnel naturel de 420 m de long. À l'intérieur de la grotte préhistorique, site éponyme de la période Azilienne, entre Magdalénien et Néolithique, se découvrent des peintures et des gravures pariétales magdaléniennes. Un musée de la Préhistoire surplombe le village. À combiner avec une visite à Carla-Bayle, village paisible classé parmi les plus beaux villages d'Ariège.",
       },
       {
         heading: "6. Mirepoix — la bastide médiévale",
-        body: "Mirepoix, a 30 km au nord-est de Foix, est l'une des plus belles bastides medievales de France, fondee en 1289. Sa place centrale est entouree d'arcades en bois sculpte, les couverts, du XIVe siecle, et la cathedrale Saint-Maurice deploie la deuxieme plus large nef gothique de France apres Gerone, soit 22 m de largeur. Le marche du lundi matin est l'un des plus beaux du Sud-Ouest, riche en produits cathares et ariegeois. Le Festival des Marionnettes et des Arts de la Parole s'y tient en aout.",
+        body: "Mirepoix, à 30 km au nord-est de Foix, est l'une des plus belles bastides médiévales de France, fondée en 1289. Sa place centrale est entourée d'arcades en bois sculpté, les couverts, du XIVe siècle, et la cathédrale Saint-Maurice déploie la deuxième plus large nef gothique de France après Gérone, soit 22 m de largeur. Le marché du lundi matin est l'un des plus beaux du Sud-Ouest, riche en produits cathares et ariégeois. Le Festival des Marionnettes et des Arts de la Parole s'y tient en août.",
       },
       {
         heading: "7. Les châteaux cathares — Roquefixade et Montaillou",
-        body: "L'Ariege est jalonnee de chateaux cathares, ces bastions de la resistance contre Simon de Montfort. Roquefixade, a 15 km a l'est de Foix, est un chateau perche du XIIIe siecle, plus accessible que Montsegur. Montaillou, a 40 km au sud-est de Foix, est ce village rendu celebre par le livre d'Emmanuel Le Roy Ladurie, « Montaillou, village occitan », qui decrit minutieusement la vie des derniers cathares grace aux interrogatoires de l'inquisiteur Jacques Fournier. La « Route des Chateaux Cathares », longue de 250 km, traverse l'Ariege.",
+        body: "L'Ariège est jalonnée de châteaux cathares, ces bastions de la résistance contre Simon de Montfort. Roquefixade, à 15 km à l'est de Foix, est un château perché du XIIIe siècle, plus accessible que Montségur. Montaillou, à 40 km au sud-est de Foix, est ce village rendu célèbre par le livre d'Emmanuel Le Roy Ladurie, « Montaillou, village occitan », qui décrit minutieusement la vie des derniers cathares grâce aux interrogatoires de l'inquisiteur Jacques Fournier. La « Route des Châteaux Cathares », longue de 250 km, traverse l'Ariège.",
       },
       {
         heading: "8. Le pic du Saint-Barthélemy et les sentiers pyrénéens",
-        body: "Le Pic du Saint-Barthelemy, a 2 348 m et a 30 km au sud de Foix dans la chaine du Tabe, est l'un des plus accessibles sommets ariegeois. L'ascension a pied prend 5h aller-retour depuis le col du Tougourry. La vue panoramique embrasse les Pyrenees, avec l'Aneto a 100 km, la plaine du Languedoc et la Mediterranee par temps clair. Des stations de ski sont proches : Ax-3-Domaines, a 30 km, station moderne, et le Plateau de Bonascre, a 25 km.",
+        body: "Le Pic du Saint-Barthélemy, à 2 348 m et à 30 km au sud de Foix dans la chaîne du Tabe, est l'un des plus accessibles sommets ariégeois. L'ascension à pied prend 5h aller-retour depuis le col du Tougourry. La vue panoramique embrasse les Pyrénées, avec l'Aneto à 100 km, la plaine du Languedoc et la Méditerranée par temps clair. Des stations de ski sont proches : Ax-3-Domaines, à 30 km, station moderne, et le Plateau de Bonascre, à 25 km.",
       },
       {
         heading: "9. La forteresse de Roquefixade et la Route des Cathares",
-        body: "Roquefixade, du « roca fixada », le rocher fixe en occitan, a 15 km a l'est de Foix, est l'un des plus emblematiques chateaux cathares : perche sur un piton calcaire de 100 m, il offre une vue panoramique a 360 degres sur le pays cathare. L'ascension prend 30 min depuis le village. Pour memoire, la « Route des Chateaux Cathares », 250 km balises a travers l'Aude et l'Ariege, relie Foix, Roquefixade, Montsegur, Lordat, Queribus, Peyrepertuse et Aguilar.",
+        body: "Roquefixade, du « roca fixada », le rocher fixe en occitan, à 15 km à l'est de Foix, est l'un des plus emblématiques châteaux cathares : perché sur un piton calcaire de 100 m, il offre une vue panoramique à 360° sur le pays cathare. L'ascension prend 30 min depuis le village. Pour mémoire, la « Route des Châteaux Cathares », 250 km balisés à travers l'Aude et l'Ariège, relie Foix, Roquefixade, Montségur, Lordat, Quéribus, Peyrepertuse et Aguilar.",
       },
       {
         heading: "10. Gastronomie ariégeoise — azinat et magret",
-        body: "La cuisine ariegeoise est une cuisine pyreneenne paysanne : azinat, la potee ariegeoise au chou, lard, saucisses et jambon, ce plat dominical, millas, une galette de farine de mais grillee heritee de Gascogne, confit et magret de canard tres repandus, boudins blancs et noirs des Hautes-Pyrenees. Cote fromages, le Bethmale, vache a pate pressee, et le Rogallais. Cote sucre, la croustade ariegeoise, un feuillete pommes-armagnac. Pour les vins, les Cotes-du-Roussillon a 100 km et le Limoux a 50 km, dont la methode champenoise fut inventee en 1531.",
+        body: "La cuisine ariégeoise est une cuisine pyrénéenne paysanne : azinat, la potée ariégeoise au chou, lard, saucisses et jambon, ce plat dominical, millas, une galette de farine de maïs grillée héritée de Gascogne, confit et magret de canard très répandus, boudins blancs et noirs des Hautes-Pyrénées. Côté fromages, le Bethmale, vache à pâte pressée, et le Rogallais. Côté sucré, la croustade ariégeoise, un feuilleté pommes-armagnac. Pour les vins, les Côtes-du-Roussillon à 100 km et le Limoux à 50 km, dont la méthode champenoise fut inventée en 1531.",
       },
     ],
     relatedCities: ["foix"],
@@ -30492,47 +30492,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Gap est la prefecture des Hautes-Alpes, 41 000 habitants a 750 m d'altitude. C'est l'une des prefectures les plus hautes de France, apres Briancon a 1 326 m. Au pied des Ecrins, du Devoluy et du Champsaur, Gap est la porte d'entree des grandes vallees alpines du sud : Buech, Champsaur, Embrunais, Queyras. Traversee par la Luye, la ville se trouve a 30 km du lac de Serre-Poncon, l'un des plus grands lacs artificiels d'Europe.",
+    intro: "Gap est la préfecture des Hautes-Alpes, 41 000 habitants à 750 m d'altitude. C'est l'une des préfectures les plus hautes de France, après Briançon à 1 326 m. Au pied des Écrins, du Dévoluy et du Champsaur, Gap est la porte d'entrée des grandes vallées alpines du sud : Buëch, Champsaur, Embrunais, Queyras. Traversée par la Luye, la ville se trouve à 30 km du lac de Serre-Ponçon, l'un des plus grands lacs artificiels d'Europe.",
     sections: [
       {
         heading: "1. Le domaine de Charance — le belvédère gapençais",
-        body: "Le domaine de Charance, a 4 km au nord de Gap, s'etend sur 220 ha a 1 100 m d'altitude. C'est l'ancien domaine episcopal : un chateau du XVIIe siecle, une ferme et des terrasses paysageres dessinees par Le Notre. Il appartient aujourd'hui au Conservatoire botanique national alpin de Gap-Charance, voue a la conservation des fleurs alpines. Sa roseraie compte 1 200 varietes, en floraison en juin. La vue panoramique embrasse Gap et les sommets des Ecrins, a 4 102 m. Le site est classe Espace Naturel Sensible.",
+        body: "Le domaine de Charance, à 4 km au nord de Gap, s'étend sur 220 ha à 1 100 m d'altitude. C'est l'ancien domaine épiscopal : un château du XVIIe siècle, une ferme et des terrasses paysagères dessinées par Le Nôtre. Il appartient aujourd'hui au Conservatoire botanique national alpin de Gap-Charance, voué à la conservation des fleurs alpines. Sa roseraie compte 1 200 variétés, en floraison en juin. La vue panoramique embrasse Gap et les sommets des Écrins, à 4 102 m. Le site est classé Espace Naturel Sensible.",
       },
       {
         heading: "2. Le lac de Serre-Ponçon — la « mer des Alpes »",
-        body: "Le lac de Serre-Poncon, a 30 km a l'est de Gap, s'etend sur 2 800 ha. C'est le 3eme plus grand lac artificiel d'Europe occidentale, cree en 1961 par EDF, surnomme la « mer des Alpes ». On y trouve des plages amenagees a Savines-le-Lac, Embrun, Crots et Sauze-du-Lac, une ecole de voile et de paddle, et des croisieres en bateau. L'eau y est turquoise, propice a la baignade en ete, a 22 degres. Pour memoire, le village englouti de Savines, anterieur au barrage, reapparait a maree basse en juillet et aout.",
+        body: "Le lac de Serre-Ponçon, à 30 km à l'est de Gap, s'étend sur 2 800 ha. C'est le 3eme plus grand lac artificiel d'Europe occidentale, créé en 1961 par EDF, surnommé la « mer des Alpes ». On y trouve des plages aménagées à Savines-le-Lac, Embrun, Crots et Sauze-du-Lac, une école de voile et de paddle, et des croisières en bateau. L'eau y est turquoise, propice à la baignade en été, à 22 degrés. Pour mémoire, le village englouti de Savines, antérieur au barrage, réapparaît à marée basse en juillet et août.",
       },
       {
         heading: "3. Le Devoluy et la Tête de l'Obiou",
-        body: "Le Devoluy, a 30 km au nord-ouest de Gap, est un massif des Alpes calcaires aux paysages geologiques parmi les plus impressionnants des Alpes : un plateau d'altitude perfore de gouffres et de pots-tubes, domine par le sommet de l'Obiou a 2 789 m. La station de ski SuperDevoluy/La Joue du Loup aligne 100 km de pistes, l'une des plus grandes stations des Alpes du Sud. En ete, place aux randonnees sur le plateau, a l'escalade dans les falaises et au parapente a Saint-Etienne-en-Devoluy.",
+        body: "Le Dévoluy, à 30 km au nord-ouest de Gap, est un massif des Alpes calcaires aux paysages géologiques parmi les plus impressionnants des Alpes : un plateau d'altitude perforé de gouffres et de pots-tubes, dominé par le sommet de l'Obiou à 2 789 m. La station de ski SuperDévoluy/La Joue du Loup aligne 100 km de pistes, l'une des plus grandes stations des Alpes du Sud. En été, place aux randonnées sur le plateau, à l'escalade dans les falaises et au parapente à Saint-Étienne-en-Dévoluy.",
       },
       {
         heading: "4. La vallée du Champsaur et le Vieux Chaillol",
-        body: "La vallee du Champsaur, au nord de Gap, est une vallee verdoyante au coeur des Ecrins, terre d'elevage et de randonnee. Saint-Bonnet-en-Champsaur est un village historique, cure pour les randonneurs, et Orcieres-Merlette une station de ski et station VTT en ete, l'une des plus grandes stations VTT d'Europe. Le Vieux Chaillol, a 3 163 m en limite du Parc national des Ecrins, en est l'un des sommets emblematiques. Les marmottes abondent sur les chemins.",
+        body: "La vallée du Champsaur, au nord de Gap, est une vallée verdoyante au cœur des Écrins, terre d'élevage et de randonnée. Saint-Bonnet-en-Champsaur est un village historique, curé pour les randonneurs, et Orcières-Merlette une station de ski et station VTT en été, l'une des plus grandes stations VTT d'Europe. Le Vieux Chaillol, à 3 163 m en limite du Parc national des Écrins, en est l'un des sommets emblématiques. Les marmottes abondent sur les chemins.",
       },
       {
         heading: "5. La cathédrale Notre-Dame-et-Saint-Arnoux",
-        body: "La cathedrale Notre-Dame-et-Saint-Arnoux de Gap, du XIXe siecle et de style neo-gothique-byzantin, est l'une des plus singulieres cathedrales du sud-est : sa facade polychrome alterne la pierre rose et la pierre grise, et sa tour-clocher est coiffee d'une coupole. Elle fut batie a la place d'une cathedrale medievale detruite a la Revolution. La visite est gratuite. A cote, le musee departemental presente une collection prehistorique, l'ethnographie alpine et des peintures.",
+        body: "La cathédrale Notre-Dame-et-Saint-Arnoux de Gap, du XIXe siècle et de style néo-gothique-byzantin, est l'une des plus singulières cathédrales du sud-est : sa façade polychrome alterne la pierre rose et la pierre grise, et sa tour-clocher est coiffée d'une coupole. Elle fut bâtie à la place d'une cathédrale médiévale détruite à la Révolution. La visite est gratuite. À côté, le musée départemental présente une collection préhistorique, l'ethnographie alpine et des peintures.",
       },
       {
         heading: "6. Embrun — la cathédrale et le « tibet français »",
-        body: "Embrun, a 40 km a l'est de Gap, sur les hauteurs du lac de Serre-Poncon, est une ancienne cite episcopale surnommee le « tibet francais » pour son climat sec, son ciel pur et son ensoleillement record de 300 jours par an. Sa cathedrale Notre-Dame-du-Real (XIIe siecle, romane lombarde) est l'une des plus belles eglises romanes des Alpes. La Tour Brune est le donjon du palais episcopal. La vue y est spectaculaire sur le lac de Serre-Poncon et les Ecrins.",
+        body: "Embrun, à 40 km à l'est de Gap, sur les hauteurs du lac de Serre-Ponçon, est une ancienne cité épiscopale surnommée le « tibet français » pour son climat sec, son ciel pur et son ensoleillement record de 300 jours par an. Sa cathédrale Notre-Dame-du-Réal (XIIe siècle, romane lombarde) est l'une des plus belles églises romanes des Alpes. La Tour Brune est le donjon du palais épiscopal. La vue y est spectaculaire sur le lac de Serre-Ponçon et les Écrins.",
       },
       {
         heading: "7. Briançon — la cité Vauban UNESCO",
-        body: "Briancon, a 80 km au nord-est de Gap, est la ville la plus haute de France, a 1 326 m d'altitude, dans les Hautes-Alpes. Cite fortifiee par Vauban, avec sa citadelle et ses remparts en etoile, elle est classee UNESCO depuis 2008. Sa vieille ville medievale deroule la Grande Rue et la collegiale Notre-Dame, entouree de forts d'altitude : Salettes, Trois-Tetes, Dauphin. Briancon est aussi une station de ski, Serre Chevalier, avec 250 km de pistes, l'une des plus grandes des Alpes du Sud.",
+        body: "Briançon, à 80 km au nord-est de Gap, est la ville la plus haute de France, à 1 326 m d'altitude, dans les Hautes-Alpes. Cité fortifiée par Vauban, avec sa citadelle et ses remparts en étoile, elle est classée UNESCO depuis 2008. Sa vieille ville médiévale déroule la Grande Rue et la collégiale Notre-Dame, entourée de forts d'altitude : Salettes, Trois-Têtes, Dauphin. Briançon est aussi une station de ski, Serre Chevalier, avec 250 km de pistes, l'une des plus grandes des Alpes du Sud.",
       },
       {
         heading: "8. Le parc national des Écrins — Vallouise et la Bérarde",
-        body: "Le Parc national des Ecrins, cree en 1973 et large de 270 000 ha, est l'un des 11 parcs nationaux francais, a 30 km au nord-est de Gap. Ses sommets comptent la Barre des Ecrins, a 4 102 m le plus haut, et la Meije, a 3 983 m, l'un des sommets mythiques des Alpes, dont la premiere ascension date de 1877. Ses vallees emblematiques sont le Valgaudemar, la Vallouise, la Berarde et le Champsaur, sillonnees de 700 km de sentiers balises. Des centres d'interpretation du parc se trouvent a Vallouise, La Berarde et dans le Champsaur.",
+        body: "Le Parc national des Écrins, créé en 1973 et large de 270 000 ha, est l'un des 11 parcs nationaux français, à 30 km au nord-est de Gap. Ses sommets comptent la Barre des Écrins, à 4 102 m le plus haut, et la Meije, à 3 983 m, l'un des sommets mythiques des Alpes, dont la première ascension date de 1877. Ses vallées emblématiques sont le Valgaudemar, la Vallouise, la Bérarde et le Champsaur, sillonnées de 700 km de sentiers balisés. Des centres d'interprétation du parc se trouvent à Vallouise, La Bérarde et dans le Champsaur.",
       },
       {
         heading: "9. Le Buëch et les villages perchés du sud",
-        body: "La vallee du Buech, au sud de Gap vers Sisteron, est l'une des vallees les plus mediterraneennes des Hautes-Alpes : climat doux, lavandes, oliviers, vignobles. Saint-Geniez, a 25 km de Gap, est le plus beau village des Hautes-Alpes ; Veynes fut l'ancienne capitale du Buech, avec sa gare de chemin de fer historique ; Serres est une cite medievale fortifiee. Le sentier de grande randonnee GR94 relie Gap a Sisteron.",
+        body: "La vallée du Buëch, au sud de Gap vers Sisteron, est l'une des vallées les plus méditerranéennes des Hautes-Alpes : climat doux, lavandes, oliviers, vignobles. Saint-Geniez, à 25 km de Gap, est le plus beau village des Hautes-Alpes ; Veynes fut l'ancienne capitale du Buëch, avec sa gare de chemin de fer historique ; Serres est une cité médiévale fortifiée. Le sentier de grande randonnée GR94 relie Gap à Sisteron.",
       },
       {
         heading: "10. Gastronomie haut-alpine — tourtons et fromages",
-        body: "La cuisine haut-alpine est une cuisine de moyenne montagne et d'alpages : tourtons du Champsaur, ces beignets carres farcis aux pommes de terre, aux blettes ou a la confiture, qui en sont la specialite emblematique, oreilles d'ane, un gratin de blettes au lait a la saveur alpine, et ravioles du Champsaur, des pates farcies a la viande servies en bouillon. Cote fromages : Bleu du Queyras, Tomme du Champsaur, Brique du Forez. Cote charcuteries : saucisson d'ane, specialite haut-alpine, et boudin de Briancon. Pour les vins, les Cotes-du-Rhone, a 80 km au sud, et les vins de Savoie, a 200 km.",
+        body: "La cuisine haut-alpine est une cuisine de moyenne montagne et d'alpages : tourtons du Champsaur, ces beignets carrés farcis aux pommes de terre, aux blettes ou à la confiture, qui en sont la spécialité emblématique, oreilles d'âne, un gratin de blettes au lait à la saveur alpine, et ravioles du Champsaur, des pâtes farcies à la viande servies en bouillon. Côté fromages : Bleu du Queyras, Tomme du Champsaur, Brique du Forez. Côté charcuteries : saucisson d'âne, spécialité haut-alpine, et boudin de Briançon. Pour les vins, les Côtes-du-Rhône, à 80 km au sud, et les vins de Savoie, à 200 km.",
       },
     ],
     relatedCities: ["gap", "embrun", "briancon"],
@@ -30551,47 +30551,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Digne-les-Bains est la prefecture des Alpes-de-Haute-Provence, 16 000 habitants a 600 m d'altitude. C'est une station thermale gallo-romaine dans la vallee de la Bleone, au coeur de la Reserve geologique de Haute-Provence, la plus grande georeserve d'Europe, classee UNESCO Geopark. A mi-chemin entre Provence et Alpes, Digne est la porte d'entree du plateau de Valensole, capitale francaise de la lavande, du Verdon, a 50 km, et des routes de transhumance.",
+    intro: "Digne-les-Bains est la préfecture des Alpes-de-Haute-Provence, 16 000 habitants à 600 m d'altitude. C'est une station thermale gallo-romaine dans la vallée de la Bléone, au cœur de la Réserve géologique de Haute-Provence, la plus grande géoréserve d'Europe, classée UNESCO Géopark. À mi-chemin entre Provence et Alpes, Digne est la porte d'entrée du plateau de Valensole, capitale française de la lavande, du Verdon, à 50 km, et des routes de transhumance.",
     sections: [
       {
         heading: "1. Les thermes de Digne — eau gallo-romaine",
-        body: "Les Thermes de Digne, utilises depuis l'epoque gallo-romaine avec des vestiges du Ier siecle, ont ete reconstruits en station thermale moderne en 2007. Ils exploitent 8 sources d'eau chaude, de 38 a 50 degres, aux eaux sulfatees-calciques indiquees en rhumatologie et pour les voies respiratoires. Le centre thermo-ludique est ouvert au public, avec bassins thermaux, hammams et sauna, a 25 EUR la journee. Il se trouve a 4 km du centre, dans un parc paysager.",
+        body: "Les Thermes de Digne, utilisés depuis l'époque gallo-romaine avec des vestiges du Ier siècle, ont été reconstruits en station thermale moderne en 2007. Ils exploitent 8 sources d'eau chaude, de 38 à 50 degrés, aux eaux sulfatées-calciques indiquées en rhumatologie et pour les voies respiratoires. Le centre thermo-ludique est ouvert au public, avec bassins thermaux, hammams et sauna, à 25 € la journée. Il se trouve à 4 km du centre, dans un parc paysager.",
       },
       {
         heading: "2. La Réserve géologique de Haute-Provence — UNESCO Géopark",
-        body: "La Reserve geologique de Haute-Provence, creee en 1984 et large de 230 000 ha, est la plus grande georeserve d'Europe, classee UNESCO Geopark en 2000 : un site unique en France. Parmi ses sites majeurs, la dalle aux ammonites, 40 m2 de dalle calcaire couverte de 1 506 ammonites fossiles datant de 200 millions d'annees, en acces libre et gratuit a Saint-Benoit, la Bleone, une vallee fossile, et le site de l'ichtyosaure, le squelette fossile en place d'un dinosaure marin de 200 millions d'annees. Un centre d'interpretation, le musee de la geologie, est a Digne.",
+        body: "La Réserve géologique de Haute-Provence, créée en 1984 et large de 230 000 ha, est la plus grande géoréserve d'Europe, classée UNESCO Géopark en 2000 : un site unique en France. Parmi ses sites majeurs, la dalle aux ammonites, 40 m² de dalle calcaire couverte de 1 506 ammonites fossiles datant de 200 millions d'années, en accès libre et gratuit à Saint-Benoît, la Bléone, une vallée fossile, et le site de l'ichtyosaure, le squelette fossile en place d'un dinosaure marin de 200 millions d'années. Un centre d'interprétation, le musée de la géologie, est à Digne.",
       },
       {
         heading: "3. La route des Lavandes et le plateau de Valensole",
-        body: "Le plateau de Valensole, a 30 km au sud-ouest de Digne, est le plus grand plateau lavandier de France : 800 km2 de cultures de lavandin dont la floraison, de fin juin a fin juillet, compose l'un des plus beaux paysages d'Europe. La Fete de la Lavande se tient a Valensole le 3e dimanche de juillet, et des distilleries se visitent : le Mas des Bouteillons, la distillerie de Senas, la distillerie 1860. Pour photographier sans foule, venez avant 8h ou apres 18h. La D6, de Digne a Valensole, est l'une des plus belles routes panoramiques.",
+        body: "Le plateau de Valensole, à 30 km au sud-ouest de Digne, est le plus grand plateau lavandier de France : 800 km² de cultures de lavandin dont la floraison, de fin juin à fin juillet, compose l'un des plus beaux paysages d'Europe. La Fête de la Lavande se tient à Valensole le 3e dimanche de juillet, et des distilleries se visitent : le Mas des Bouteillons, la distillerie de Sénas, la distillerie 1860. Pour photographier sans foule, venez avant 8h ou après 18h. La D6, de Digne à Valensole, est l'une des plus belles routes panoramiques.",
       },
       {
         heading: "4. Le train des Pignes — ligne ferroviaire pittoresque",
-        body: "Le Train des Pignes, ligne ferroviaire historique de Nice a Digne, ouverte en 1911, deroule 151 km de voie unique a voie metrique : c'est l'un des plus beaux trajets ferroviaires de France. Les 151 km se parcourent en 3h30, par 27 tunnels et 16 viaducs, en passant par les gorges du Var et les vallees prealpines. Un train historique a vapeur circule en juillet et aout, sur reservation obligatoire, et un train regulier roule toute l'annee. Ideal pour combiner Cote d'Azur et arriere-pays.",
+        body: "Le Train des Pignes, ligne ferroviaire historique de Nice à Digne, ouverte en 1911, déroule 151 km de voie unique à voie métrique : c'est l'un des plus beaux trajets ferroviaires de France. Les 151 km se parcourent en 3h30, par 27 tunnels et 16 viaducs, en passant par les gorges du Var et les vallées préalpines. Un train historique à vapeur circule en juillet et août, sur réservation obligatoire, et un train régulier roule toute l'année. Idéal pour combiner Côte d'Azur et arrière-pays.",
       },
       {
         heading: "5. Le gouffre de Pra-Sec et les grottes",
-        body: "Le gouffre de Pra-Sec, a 15 km au nord de Digne dans le massif des Trois Eveches, est un site geologique remarquable : un gouffre de 130 m de profondeur, parcouru par une riviere souterraine. La visite speleologique se fait sur reservation, avec un guide professionnel, pour les amateurs de speleologie. D'autres grottes sont accessibles : la grotte de Saint-Marcellin, par un sentier d'interpretation gratuit, et la grotte Saint-Vincent, aux peintures rupestres prehistoriques, a l'acces limite.",
+        body: "Le gouffre de Pra-Sec, à 15 km au nord de Digne dans le massif des Trois Évêchés, est un site géologique remarquable : un gouffre de 130 m de profondeur, parcouru par une rivière souterraine. La visite spéléologique se fait sur réservation, avec un guide professionnel, pour les amateurs de spéléologie. D'autres grottes sont accessibles : la grotte de Saint-Marcellin, par un sentier d'interprétation gratuit, et la grotte Saint-Vincent, aux peintures rupestres préhistoriques, à l'accès limité.",
       },
       {
         heading: "6. La vieille ville de Digne et la cathédrale Saint-Jérôme",
-        body: "La vieille ville de Digne, autour de la place du Tampinet, garde son trace medieval, fait de ruelles pavees et d'hotels particuliers du XVIIIe siecle. La cathedrale Saint-Jerome, du XVe siecle et de style gothique tardif, devint cathedrale en 1480. A 1 km, la cathedrale Notre-Dame-du-Bourg (XIIe-XIIIe siecles, romane lombarde) est l'une des plus belles eglises romanes des Alpes du Sud, devenue concathedrale. Un marche se tient le mercredi et le samedi matin sur la place du Tampinet.",
+        body: "La vieille ville de Digne, autour de la place du Tampinet, garde son tracé médiéval, fait de ruelles pavées et d'hôtels particuliers du XVIIIe siècle. La cathédrale Saint-Jérôme, du XVe siècle et de style gothique tardif, devint cathédrale en 1480. À 1 km, la cathédrale Notre-Dame-du-Bourg (XIIe-XIIIe siècles, romane lombarde) est l'une des plus belles églises romanes des Alpes du Sud, devenue concathédrale. Un marché se tient le mercredi et le samedi matin sur la place du Tampinet.",
       },
       {
         heading: "7. Le centre Alexandra-David-Neel — la voyageuse",
-        body: "Le Centre Alexandra-David-Neel occupe la maison Samten Dzong, « la forteresse de la meditation », ou la voyageuse vecut ses 40 dernieres annees, de 1928 a 1969 : c'est un musee consacre a cette exploratrice francaise du Tibet (1868-1969), premiere Occidentale a penetrer dans Lhassa interdite en 1924. La maison-musee rassemble ses objets personnels, manuscrits et photographies, et sa tombe se trouve dans le jardin. Un lieu unique en France, en acces gratuit.",
+        body: "Le Centre Alexandra-David-Néel occupe la maison Samten Dzong, « la forteresse de la méditation », où la voyageuse vécut ses 40 dernières années, de 1928 à 1969 : c'est un musée consacré à cette exploratrice française du Tibet (1868-1969), première Occidentale à pénétrer dans Lhassa interdite en 1924. La maison-musée rassemble ses objets personnels, manuscrits et photographies, et sa tombe se trouve dans le jardin. Un lieu unique en France, en accès gratuit.",
       },
       {
         heading: "8. Les villages des Mées et leurs Pénitents",
-        body: "Les Mees, a 35 km au sud-ouest de Digne, sont celebres pour les Rochers des Mees, une formation rocheuse de 100 colonnes calcaires de 100 m de hauteur surnommees « les Penitents ». Une legende y voit des moines petrifies en penitence pour avoir convoite de jeunes Sarrasines. Le site est classe Natura 2000, parcouru d'un sentier balise a son pied. Le village des Mees, plante contre les Penitents, garde son architecture provencale traditionnelle.",
+        body: "Les Mées, à 35 km au sud-ouest de Digne, sont célèbres pour les Rochers des Mées, une formation rocheuse de 100 colonnes calcaires de 100 m de hauteur surnommées « les Pénitents ». Une légende y voit des moines pétrifiés en pénitence pour avoir convoité de jeunes Sarrasines. Le site est classé Natura 2000, parcouru d'un sentier balisé à son pied. Le village des Mées, planté contre les Pénitents, garde son architecture provençale traditionnelle.",
       },
       {
         heading: "9. Les gorges du Verdon — à 50 km",
-        body: "Les gorges du Verdon, a 50 km au sud-ouest de Digne par la route des Gorges, forment le plus grand canyon d'Europe : 25 km de long, 700 m de profondeur, une eau turquoise. Cinq belvederes majeurs s'y succedent, dont les balcons de la Mescla, la Falaise des Cavaliers et le Point Sublime. Le lac de Sainte-Croix en aval et Moustiers-Sainte-Marie, plus beau village de France perche entre deux falaises, completent la journee. Le site est a 1h30 en voiture.",
+        body: "Les gorges du Verdon, à 50 km au sud-ouest de Digne par la route des Gorges, forment le plus grand canyon d'Europe : 25 km de long, 700 m de profondeur, une eau turquoise. Cinq belvédères majeurs s'y succèdent, dont les balcons de la Mescla, la Falaise des Cavaliers et le Point Sublime. Le lac de Sainte-Croix en aval et Moustiers-Sainte-Marie, plus beau village de France perché entre deux falaises, complètent la journée. Le site est à 1h30 en voiture.",
       },
       {
         heading: "10. Gastronomie haut-provençale — agneau et miel",
-        body: "La cuisine de Digne est une cuisine de haute Provence, entre Mediterranee et Alpes : agneau de Sisteron IGP, le plus prestigieux agneau francais, eleve en bergeries d'alpage et a la chair claire, pieds-paquets, ces tripes d'agneau farcies heritees de Marseille, et soupe au pistou. Parmi les specialites, le miel de Provence (lavande, romarin) en IGP, et l'huile d'olive de Haute-Provence AOP. Cote fromages : Banon AOP, chevre fermier en feuille de chataignier, a 50 km a l'ouest, et Bleu de Sassenage. Pour les vins, les Coteaux de Pierrevert, AOC de haute altitude a 50 km a l'ouest, et les Cotes du Luberon.",
+        body: "La cuisine de Digne est une cuisine de haute Provence, entre Méditerranée et Alpes : agneau de Sisteron IGP, le plus prestigieux agneau français, élevé en bergeries d'alpage et à la chair claire, pieds-paquets, ces tripes d'agneau farcies héritées de Marseille, et soupe au pistou. Parmi les spécialités, le miel de Provence (lavande, romarin) en IGP, et l'huile d'olive de Haute-Provence AOP. Côté fromages : Banon AOP, chèvre fermier en feuille de châtaignier, à 50 km à l'ouest, et Bleu de Sassenage. Pour les vins, les Coteaux de Pierrevert, AOC de haute altitude à 50 km à l'ouest, et les Côtes du Luberon.",
       },
     ],
     relatedCities: ["digne-les-bains"],
@@ -30610,47 +30610,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Mont-de-Marsan est la prefecture des Landes, 31 000 habitants, au confluent du Midou et de la Douze. La ville est celebre pour la course landaise, ce sport traditionnel fait de sauts et d'ecarts devant la vache landaise, sans mise a mort contrairement a la corrida, pour son festival des Fetes de la Madeleine, mi-juillet, qui attire 600 000 spectateurs et figure parmi les plus grandes ferias francaises, et pour ses musees, dont le Despiau-Wlerick, le plus grand musee francais consacre a la sculpture du XXe siecle.",
+    intro: "Mont-de-Marsan est la préfecture des Landes, 31 000 habitants, au confluent du Midou et de la Douze. La ville est célèbre pour la course landaise, ce sport traditionnel fait de sauts et d'écarts devant la vache landaise, sans mise à mort contrairement à la corrida, pour son festival des Fêtes de la Madeleine, mi-juillet, qui attire 600 000 spectateurs et figure parmi les plus grandes ferias françaises, et pour ses musées, dont le Despiau-Wlérick, le plus grand musée français consacré à la sculpture du XXe siècle.",
     sections: [
       {
         heading: "1. Le musée Despiau-Wlérick — sculpture du XXe",
-        body: "Le Musee Despiau-Wlerick, au coeur de Mont-de-Marsan dans le Donjon Lacataye du XIVe siecle restaure, est l'un des plus complets musees de sculpture du XXe siecle en France. Sa collection rassemble 1 500 sculptures : Charles Despiau et Robert Wlerick, deux sculpteurs montois de l'ecole francaise des annees 1920-1940, du neoclassicisme moderne, Bourdelle, Maillol et Rodin pour l'ecole francaise, Brancusi, Lipchitz et Zadkine pour les sculpteurs internationaux. L'entree est gratuite le premier dimanche.",
+        body: "Le Musée Despiau-Wlérick, au cœur de Mont-de-Marsan dans le Donjon Lacataye du XIVe siècle restauré, est l'un des plus complets musées de sculpture du XXe siècle en France. Sa collection rassemble 1 500 sculptures : Charles Despiau et Robert Wlérick, deux sculpteurs montois de l'école française des années 1920-1940, du néoclassicisme moderne, Bourdelle, Maillol et Rodin pour l'école française, Brancusi, Lipchitz et Zadkine pour les sculpteurs internationaux. L'entrée est gratuite le premier dimanche.",
       },
       {
         heading: "2. Les Fêtes de la Madeleine — la feria landaise",
-        body: "Les Fetes de la Madeleine, 5 jours mi-juillet, dans leur forme actuelle depuis 1880, sont l'une des plus grandes ferias francaises : 600 000 spectateurs en 5 jours. Au programme, des corridas dans les arenes du Plumacon, de 1933 et de 8 500 places, des encierros (lachers de taureaux dans la ville a 8h), des penas (orchestres de rue), des bandas et des courses landaises. La tenue blanche et rouge est obligatoire. L'atmosphere iberique y est unique en France. La reservation des corridas se fait des mois a l'avance.",
+        body: "Les Fêtes de la Madeleine, 5 jours mi-juillet, dans leur forme actuelle depuis 1880, sont l'une des plus grandes ferias françaises : 600 000 spectateurs en 5 jours. Au programme, des corridas dans les arènes du Plumaçon, de 1933 et de 8 500 places, des encierros (lâchers de taureaux dans la ville à 8h), des peñas (orchestres de rue), des bandas et des courses landaises. La tenue blanche et rouge est obligatoire. L'atmosphère ibérique y est unique en France. La réservation des corridas se fait des mois à l'avance.",
       },
       {
         heading: "3. La course landaise — sport traditionnel",
-        body: "La course landaise est le sport traditionnel landais : pas de corrida ni de mise a mort, seulement l'agilite du tireur et de l'ecarteur face a la vache landaise, une race coursiere selectionnee. Elle se pratique dans toutes les arenes des Landes. La saison court d'avril a octobre, les meilleurs spectacles ayant lieu aux Fetes de la Madeleine de Mont-de-Marsan et dans les villages le 14 juillet. Les meilleurs sauteurs, les « ecarteurs », sont des celebrites locales. Elle differe radicalement de la corrida sur tous les plans.",
+        body: "La course landaise est le sport traditionnel landais : pas de corrida ni de mise à mort, seulement l'agilité du tireur et de l'écarteur face à la vache landaise, une race coursière sélectionnée. Elle se pratique dans toutes les arènes des Landes. La saison court d'avril à octobre, les meilleurs spectacles ayant lieu aux Fêtes de la Madeleine de Mont-de-Marsan et dans les villages le 14 juillet. Les meilleurs sauteurs, les « écarteurs », sont des célébrités locales. Elle diffère radicalement de la corrida sur tous les plans.",
       },
       {
         heading: "4. Le plage de Capbreton et la côte landaise",
-        body: "La cote landaise, a 75 km a l'ouest de Mont-de-Marsan, est l'une des plus belles cotes sauvages d'Europe : 100 km de plages de sable fin et de dunes pouvant atteindre 100 m de hauteur, les plus hautes dunes d'Europe a la Dune du Pilat, a 50 km au sud-ouest. On y trouve Capbreton, port de peche traditionnel, Hossegor, capitale francaise du surf avec le Quiksilver Pro France en octobre, l'une des etapes du WCT, ainsi que Mimizan et Biscarrosse. L'eau y est a 18-22 degres en ete.",
+        body: "La côte landaise, à 75 km à l'ouest de Mont-de-Marsan, est l'une des plus belles côtes sauvages d'Europe : 100 km de plages de sable fin et de dunes pouvant atteindre 100 m de hauteur, les plus hautes dunes d'Europe à la Dune du Pilat, à 50 km au sud-ouest. On y trouve Capbreton, port de pêche traditionnel, Hossegor, capitale française du surf avec le Quiksilver Pro France en octobre, l'une des étapes du WCT, ainsi que Mimizan et Biscarrosse. L'eau y est à 18-22 degrés en été.",
       },
       {
         heading: "5. La forêt des Landes — la plus grande d'Europe",
-        body: "La foret des Landes de Gascogne, 1 million d'hectares de pins maritimes, est la plus grande foret artificielle d'Europe occidentale, creee au XIXe siecle pour assainir les marais et fixer les dunes. Elle entoure Mont-de-Marsan, sillonnee de sentiers de randonnee et de 300 km de pistes cyclables amenagees. Ses etangs comptent Leon et Soustons, l'un des plus grands etangs naturels de France. Sa faune rassemble sangliers, chevreuils et cerfs.",
+        body: "La forêt des Landes de Gascogne, 1 million d'hectares de pins maritimes, est la plus grande forêt artificielle d'Europe occidentale, créée au XIXe siècle pour assainir les marais et fixer les dunes. Elle entoure Mont-de-Marsan, sillonnée de sentiers de randonnée et de 300 km de pistes cyclables aménagées. Ses étangs comptent Léon et Soustons, l'un des plus grands étangs naturels de France. Sa faune rassemble sangliers, chevreuils et cerfs.",
       },
       {
         heading: "6. La cité administrative et la place Saint-Roch",
-        body: "Mont-de-Marsan a ete reconstruite apres les inondations de 1933, lorsque la Midou et la Douze detruisirent une partie de la vieille ville, d'ou son architecture des annees 1930. La place Saint-Roch, coeur de la ville, est entouree d'arcades et de terrasses, avec un marche tous les matins. A voir aussi, la cathedrale Saint-Vincent-de-Paul du XIXe siecle et la chapelle expiatoire du Plumacon, memorial aux taureaux morts dans les arenes, unique en France.",
+        body: "Mont-de-Marsan a été reconstruite après les inondations de 1933, lorsque la Midou et la Douze détruisirent une partie de la vieille ville, d'où son architecture des années 1930. La place Saint-Roch, cœur de la ville, est entourée d'arcades et de terrasses, avec un marché tous les matins. À voir aussi, la cathédrale Saint-Vincent-de-Paul du XIXe siècle et la chapelle expiatoire du Plumaçon, mémorial aux taureaux morts dans les arènes, unique en France.",
       },
       {
         heading: "7. Saint-Sever et l'abbatiale Saint-Sever",
-        body: "Saint-Sever, a 18 km au sud de Mont-de-Marsan, abrite l'une des plus belles abbayes romanes du Sud-Ouest : l'abbatiale Saint-Sever (Xe-XIIe siecles), classee UNESCO comme etape sur le chemin de Saint-Jacques de Compostelle. Le Beatus de Saint-Sever, manuscrit enlumine du XIe siecle aujourd'hui expose a la BNF, l'un des chefs-d'oeuvre de l'art mozarabe en France, y fut copie. La visite est gratuite.",
+        body: "Saint-Sever, à 18 km au sud de Mont-de-Marsan, abrite l'une des plus belles abbayes romanes du Sud-Ouest : l'abbatiale Saint-Sever (Xe-XIIe siècles), classée UNESCO comme étape sur le chemin de Saint-Jacques de Compostelle. Le Beatus de Saint-Sever, manuscrit enluminé du XIe siècle aujourd'hui exposé à la BNF, l'un des chefs-d'œuvre de l'art mozarabe en France, y fut copié. La visite est gratuite.",
       },
       {
         heading: "8. Les ganaderias landaises et l'élevage",
-        body: "La Chalosse et le Tursan, ces regions landaises autour de Mont-de-Marsan, sont le pays de l'elevage : ganaderias landaises, ces elevages de vaches landaises pour la course, elevages de canards, qui font de la zone la capitale francaise du foie gras avec 40 pour cent de la production nationale, et poulet des Landes IGP, une volaille fermiere de premier ordre. Les ganaderias et les fermes se visitent, ouvertes en saison sur rendez-vous via l'office de tourisme.",
+        body: "La Chalosse et le Tursan, ces régions landaises autour de Mont-de-Marsan, sont le pays de l'élevage : ganaderias landaises, ces élevages de vaches landaises pour la course, élevages de canards, qui font de la zone la capitale française du foie gras avec 40 pour cent de la production nationale, et poulet des Landes IGP, une volaille fermière de premier ordre. Les ganaderias et les fermes se visitent, ouvertes en saison sur rendez-vous via l'office de tourisme.",
       },
       {
         heading: "9. Le château de Ravignan et le vignoble du Tursan",
-        body: "Le chateau de Ravignan, a 35 km au sud-est de Mont-de-Marsan et de style classique du XVIIe siecle, et l'AOC Tursan, a 30 km au sud, l'un des plus petits vignobles AOC de France, produisent les vins blancs du Sud-Ouest landais, issus du cepage Baroque, blanc et unique au monde. Plus connu encore, l'Armagnac, a 60 km a l'est, est l'eau-de-vie la plus ancienne de France, anterieure au Cognac de 300 ans. Des caves se visitent : le Domaine de Cazaubon, le domaine Dartigalongue.",
+        body: "Le château de Ravignan, à 35 km au sud-est de Mont-de-Marsan et de style classique du XVIIe siècle, et l'AOC Tursan, à 30 km au sud, l'un des plus petits vignobles AOC de France, produisent les vins blancs du Sud-Ouest landais, issus du cépage Baroque, blanc et unique au monde. Plus connu encore, l'Armagnac, à 60 km à l'est, est l'eau-de-vie la plus ancienne de France, antérieure au Cognac de 300 ans. Des caves se visitent : le Domaine de Cazaubon, le domaine Dartigalongue.",
       },
       {
         heading: "10. Gastronomie landaise — foie gras et garbure",
-        body: "La cuisine landaise est l'une des plus genereuses de France : foie gras d'oie ou de canard, le departement etant le premier producteur francais, magret de canard, invente dans le Gers voisin, confit de canard, garbure, cette soupe paysanne au chou, haricots tarbais, jambon et confit, et tourtiere landaise, un feuillete pommes-armagnac. Le poulet fermier des Landes IGP, le « jaune », est la volaille la plus appreciee des gastronomes. Pour les vins, le Tursan en rouge et blanc local, le Madiran a 50 km au sud, et l'Armagnac a 60 km a l'est.",
+        body: "La cuisine landaise est l'une des plus généreuses de France : foie gras d'oie ou de canard, le département étant le premier producteur français, magret de canard, inventé dans le Gers voisin, confit de canard, garbure, cette soupe paysanne au chou, haricots tarbais, jambon et confit, et tourtière landaise, un feuilleté pommes-armagnac. Le poulet fermier des Landes IGP, le « jaune », est la volaille la plus appréciée des gastronomes. Pour les vins, le Tursan en rouge et blanc local, le Madiran à 50 km au sud, et l'Armagnac à 60 km à l'est.",
       },
     ],
     relatedCities: ["mont-de-marsan"],
@@ -30670,47 +30670,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Tulle est la prefecture de la Correze, 14 000 habitants, et la plus petite prefecture francaise, devancee seulement par Mende. Allongee dans la vallee encaissee de la Correze, la ville garde sa cathedrale gothique (XIIe-XIVe siecles), ses ateliers historiques de manufacture d'armes devenus un pole industriel reconverti, et son patrimoine accordeon : Tulle est la capitale francaise de l'accordeon, avec la manufacture Maugein, en activite depuis 1919, la derniere en France. Elle se trouve a la porte du plateau de Millevaches.",
+    intro: "Tulle est la préfecture de la Corrèze, 14 000 habitants, et la plus petite préfecture française, devancée seulement par Mende. Allongée dans la vallée encaissée de la Corrèze, la ville garde sa cathédrale gothique (XIIe-XIVe siècles), ses ateliers historiques de manufacture d'armes devenus un pôle industriel reconverti, et son patrimoine accordéon : Tulle est la capitale française de l'accordéon, avec la manufacture Maugein, en activité depuis 1919, la dernière en France. Elle se trouve à la porte du plateau de Millevaches.",
     sections: [
       {
         heading: "1. La cathédrale Notre-Dame — la cité gothique",
-        body: "La cathedrale Notre-Dame de Tulle (XIIe-XIVe siecles, gothique limousin) domine la ville depuis sa terrasse en contre-haut de la riviere. Sa tour-clocher de 75 m est l'une des plus hautes du Limousin, coiffee d'une fleche pyramidale gothique. Le cloitre attenant, du XIIIe siecle, est l'un des plus complets cloitres romans-gothiques de la region. Le tresor de la cathedrale presente de l'orfevrerie medievale. La visite est gratuite.",
+        body: "La cathédrale Notre-Dame de Tulle (XIIe-XIVe siècles, gothique limousin) domine la ville depuis sa terrasse en contre-haut de la rivière. Sa tour-clocher de 75 m est l'une des plus hautes du Limousin, coiffée d'une flèche pyramidale gothique. Le cloître attenant, du XIIIe siècle, est l'un des plus complets cloîtres romans-gothiques de la région. Le trésor de la cathédrale présente de l'orfèvrerie médiévale. La visite est gratuite.",
       },
       {
         heading: "2. La manufacture d'accordéons Maugein — la dernière de France",
-        body: "La Manufacture Maugein, creee en 1919 dans l'usine historique de la rue Vidal-Naquet, est la derniere manufacture d'accordeons francaise en activite : elle produit 5 000 accordeons par an, soit 50 pour cent de la production francaise restante. La visite des ateliers, sur rendez-vous le mardi et le jeudi, devoile la fabrication artisanale : assemblage du soufflet, des bandoneons et des touches. Une boutique d'usine complete la visite. Les Maugein equipent les plus grands musiciens francais : Yvette Horner, Vincent Peirani, Richard Galliano.",
+        body: "La Manufacture Maugein, créée en 1919 dans l'usine historique de la rue Vidal-Naquet, est la dernière manufacture d'accordéons française en activité : elle produit 5 000 accordéons par an, soit 50 pour cent de la production française restante. La visite des ateliers, sur rendez-vous le mardi et le jeudi, dévoile la fabrication artisanale : assemblage du soufflet, des bandonéons et des touches. Une boutique d'usine complète la visite. Les Maugein équipent les plus grands musiciens français : Yvette Horner, Vincent Peirani, Richard Galliano.",
       },
       {
         heading: "3. Le plateau de Millevaches en Limousin",
-        body: "Le PNR de Millevaches en Limousin, cree en 2004 et large de 314 000 ha, couvre l'est de la Correze. C'est un plateau granitique a 700-1 000 m d'altitude, surnomme la « Montagne limousine ». Ses paysages melent forets pour 40 pour cent, tourbieres, prairies et hetraies. Le Mont Bessou, a 977 m, en est le point culminant, et le Suc-au-May, a 915 m, offre un observatoire panoramique. Le ciel etoile y est exceptionnel, grace a une faible pollution lumineuse, sous une reserve internationale. Des sentiers de randonnee sont balises, a 35 km a l'est de Tulle.",
+        body: "Le PNR de Millevaches en Limousin, créé en 2004 et large de 314 000 ha, couvre l'est de la Corrèze. C'est un plateau granitique à 700-1 000 m d'altitude, surnommé la « Montagne limousine ». Ses paysages mêlent forêts pour 40 pour cent, tourbières, prairies et hêtraies. Le Mont Bessou, à 977 m, en est le point culminant, et le Suc-au-May, à 915 m, offre un observatoire panoramique. Le ciel étoilé y est exceptionnel, grâce à une faible pollution lumineuse, sous une réserve internationale. Des sentiers de randonnée sont balisés, à 35 km à l'est de Tulle.",
       },
       {
         heading: "4. Brive-la-Gaillarde — la cité gourmande",
-        body: "Brive-la-Gaillarde, a 30 km au sud-ouest de Tulle, est la « gourmande » de Correze, sa capitale gastronomique. La Foire du Livre de Brive, le premier week-end de novembre, est l'une des trois plus grandes foires aux livres francaises. Le marche de Brive, le samedi matin, est le plus anime de Correze, avec foie gras de canard, truffes, noix du Perigord et chataignes. Sa vieille ville medievale deroule la collegiale Saint-Martin et la rue Toulzac.",
+        body: "Brive-la-Gaillarde, à 30 km au sud-ouest de Tulle, est la « gourmande » de Corrèze, sa capitale gastronomique. La Foire du Livre de Brive, le premier week-end de novembre, est l'une des trois plus grandes foires aux livres françaises. Le marché de Brive, le samedi matin, est le plus animé de Corrèze, avec foie gras de canard, truffes, noix du Périgord et châtaignes. Sa vieille ville médiévale déroule la collégiale Saint-Martin et la rue Toulzac.",
       },
       {
         heading: "5. Le gouffre de la Fage — galeries souterraines",
-        body: "Le Gouffre de la Fage, a 25 km au sud de Tulle sur la commune de Noailles, est l'une des plus belles grottes du Limousin : un gouffre de 50 m de profondeur, aux galeries karstiques de 800 m. On y admire stalactites, stalagmites et fistuleuses, ces concretions fines en forme de paille. La visite guidee dure 1h, a 12 EUR. Pour memoire, le site abrite aussi une colonie de chauves-souris, ce qui limite les visites en hiver pour preserver l'hibernation.",
+        body: "Le Gouffre de la Fage, à 25 km au sud de Tulle sur la commune de Noailles, est l'une des plus belles grottes du Limousin : un gouffre de 50 m de profondeur, aux galeries karstiques de 800 m. On y admire stalactites, stalagmites et fistuleuses, ces concrétions fines en forme de paille. La visite guidée dure 1h, à 12 €. Pour mémoire, le site abrite aussi une colonie de chauves-souris, ce qui limite les visites en hiver pour préserver l'hibernation.",
       },
       {
         heading: "6. Collonges-la-Rouge — plus beau village de France",
-        body: "Collonges-la-Rouge, a 35 km au sud-ouest de Tulle et classee plus beau village de France, est le village qui a donne son nom a l'association « Les Plus Beaux Villages de France », creee en 1981 dans son auberge : c'est l'une des plus belles cites medievales du Sud-Ouest. Ses maisons sont entierement construites en gres rouge vif, avec tourelles et hotels particuliers, autour de l'eglise Saint-Pierre (XIIe siecle, romane). Le marche se tient le jeudi matin. Tres touristique en ete, le village se visite tot ou hors saison.",
+        body: "Collonges-la-Rouge, à 35 km au sud-ouest de Tulle et classée plus beau village de France, est le village qui a donné son nom à l'association « Les Plus Beaux Villages de France », créée en 1981 dans son auberge : c'est l'une des plus belles cités médiévales du Sud-Ouest. Ses maisons sont entièrement construites en grès rouge vif, avec tourelles et hôtels particuliers, autour de l'église Saint-Pierre (XIIe siècle, romane). Le marché se tient le jeudi matin. Très touristique en été, le village se visite tôt ou hors saison.",
       },
       {
         heading: "7. Turenne — la cité vicomtale",
-        body: "Turenne, a 25 km au sud de Tulle et classee plus beau village de France, est l'ancienne capitale de la vicomte de Turenne, l'une des plus puissantes vicomtes medievales, quasi-independante du royaume de France jusqu'en 1738. Le chateau de Turenne (XIIe-XVe siecles), avec ses vestiges et son donjon, couronne un piton calcaire. La vieille ville medievale est batie en gres rouge. Le marechal de Turenne, Henri de la Tour d'Auvergne, l'un des plus grands strateges francais du XVIIe siecle, est issu de cette famille.",
+        body: "Turenne, à 25 km au sud de Tulle et classée plus beau village de France, est l'ancienne capitale de la vicomté de Turenne, l'une des plus puissantes vicomtés médiévales, quasi-indépendante du royaume de France jusqu'en 1738. Le château de Turenne (XIIe-XVe siècles), avec ses vestiges et son donjon, couronne un piton calcaire. La vieille ville médiévale est bâtie en grès rouge. Le maréchal de Turenne, Henri de la Tour d'Auvergne, l'un des plus grands stratèges français du XVIIe siècle, est issu de cette famille.",
       },
       {
         heading: "8. L'abbaye d'Aubazine — Coco Chanel",
-        body: "L'abbaye d'Aubazine, a 15 km a l'ouest de Tulle et cistercienne du XIIe siecle, fondee par saint Etienne d'Obazine en 1142, est l'une des plus rares abbayes cisterciennes du Sud-Ouest. Coco Chanel y passa son enfance dans l'orphelinat religieux qui occupait les batiments conventuels au XIXe siecle, de 1895 a 1900, des l'age de 12 ans : c'est ici qu'elle s'inspira pour le logo du double C de la maison Chanel, repris du motif des mosaiques medievales de l'eglise abbatiale. On visite l'eglise, le cloitre et la salle capitulaire.",
+        body: "L'abbaye d'Aubazine, à 15 km à l'ouest de Tulle et cistercienne du XIIe siècle, fondée par saint Étienne d'Obazine en 1142, est l'une des plus rares abbayes cisterciennes du Sud-Ouest. Coco Chanel y passa son enfance dans l'orphelinat religieux qui occupait les bâtiments conventuels au XIXe siècle, de 1895 à 1900, dès l'âge de 12 ans : c'est ici qu'elle s'inspira pour le logo du double C de la maison Chanel, repris du motif des mosaïques médiévales de l'église abbatiale. On visite l'église, le cloître et la salle capitulaire.",
       },
       {
         heading: "9. Les Pans de Travassac — anciennes ardoisières",
-        body: "Les Pans de Travassac, a 25 km au nord-est de Tulle, a Donzenac, sont d'anciennes ardoisieres exploitees du XVIe au XXe siecle, decoupees dans le schiste sur plus de 90 m de hauteur, vues en cathedrale. C'est aujourd'hui un musee du patrimoine ardoisier : on visite les galeries souterraines et l'on assiste a une demonstration de fente d'ardoise a la main. Le site est impressionnant, avec ses galeries ouvertes vers le ciel et ses falaises verticales artificielles.",
+        body: "Les Pans de Travassac, à 25 km au nord-est de Tulle, à Donzenac, sont d'anciennes ardoisières exploitées du XVIe au XXe siècle, découpées dans le schiste sur plus de 90 m de hauteur, vues en cathédrale. C'est aujourd'hui un musée du patrimoine ardoisier : on visite les galeries souterraines et l'on assiste à une démonstration de fente d'ardoise à la main. Le site est impressionnant, avec ses galeries ouvertes vers le ciel et ses falaises verticales artificielles.",
       },
       {
         heading: "10. Gastronomie corrézienne — farcidure et clafoutis",
-        body: "La cuisine de Correze mele Limousin et Perigord : farcidure, un chausson de farine de seigle farci aux herbes, cette galette paysanne ancienne, brejaude, une soupe paysanne au chou et lard, pate de pomme de terre limousin, et mique levee, un gros boudin de pate au levain cuit en pot-au-feu. Parmi les specialites, la noix du Perigord AOP, a 50 km au sud-ouest, et les chataignes correziennes. Cote sucre, le clafoutis aux cerises, que la Correze revendique aussi, en concurrence avec la Creuse, avec ses cerises entieres non denoyautees. Pour les vins, le Cahors AOC, a 100 km au sud, et le Bergerac.",
+        body: "La cuisine de Corrèze mêle Limousin et Périgord : farcidure, un chausson de farine de seigle farci aux herbes, cette galette paysanne ancienne, brejaude, une soupe paysanne au chou et lard, pâté de pomme de terre limousin, et mique levée, un gros boudin de pâte au levain cuit en pot-au-feu. Parmi les spécialités, la noix du Périgord AOP, à 50 km au sud-ouest, et les châtaignes corréziennes. Côté sucré, le clafoutis aux cerises, que la Corrèze revendique aussi, en concurrence avec la Creuse, avec ses cerises entières non dénoyautées. Pour les vins, le Cahors AOC, à 100 km au sud, et le Bergerac.",
       },
     ],
     relatedCities: ["tulle"],
@@ -31146,47 +31146,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Bastia est la prefecture de la Haute-Corse et le principal port de l'ile, avec 45 000 habitants : c'est l'autre capitale de la Corse. La cite fut fondee en 1380 par les Genois autour de la « Bastiglia », la citadelle Terra Nova restee intacte. Berceau historique de la resistance corse a Genes (1729-1769) puis a Paris (de 1769 a aujourd'hui), Bastia donne acces au Cap Corse, ce « Doigt de la Corse » qui forme une peninsule de 40 km au nord, ainsi qu'a Saint-Florent, surnommee le « Saint-Tropez corse », et au desert des Agriates, un desert montagneux unique au monde.",
+    intro: "Bastia est la préfecture de la Haute-Corse et le principal port de l'île, avec 45 000 habitants : c'est l'autre capitale de la Corse. La cité fut fondée en 1380 par les Génois autour de la « Bastiglia », la citadelle Terra Nova restée intacte. Berceau historique de la résistance corse à Gênes (1729-1769) puis à Paris (de 1769 à aujourd'hui), Bastia donne accès au Cap Corse, ce « Doigt de la Corse » qui forme une péninsule de 40 km au nord, ainsi qu'à Saint-Florent, surnommée le « Saint-Tropez corse », et au désert des Agriates, un désert montagneux unique au monde.",
     sections: [
       {
         heading: "1. Le Vieux Port et les terrasses",
-        body: "Le Vieux Port de Bastia, creuse dans la pierre par les Genois au XIIIe siecle, abrite encore 200 bateaux de peche et de plaisance, et reste le coeur historique de la ville. Les facades colorees, jaunes, roses, ocre, des hautes maisons de 6 a 7 etages sont typiques des ports mediterraneens italianisants. La place Saint-Nicolas, coeur de Bastia, deroule 300 m de long, ce qui en fait l'une des plus grandes places de France, avec sa statue de Napoleon en empereur romain. Les terrasses de cafes s'animent tous les soirs.",
+        body: "Le Vieux Port de Bastia, creusé dans la pierre par les Génois au XIIIe siècle, abrite encore 200 bateaux de pêche et de plaisance, et reste le cœur historique de la ville. Les façades colorées, jaunes, roses, ocre, des hautes maisons de 6 à 7 étages sont typiques des ports méditerranéens italianisants. La place Saint-Nicolas, cœur de Bastia, déroule 300 m de long, ce qui en fait l'une des plus grandes places de France, avec sa statue de Napoléon en empereur romain. Les terrasses de cafés s'animent tous les soirs.",
       },
       {
         heading: "2. La citadelle Terra Nova — Bastiglia",
-        body: "La citadelle de Bastia, dite Terra Nova et datant du XIVe siecle, est l'ensemble fortifie genois a l'origine de la ville. Les murs sont intacts, les ruelles pavees, et le palais des gouverneurs genois du XVIe siecle abrite aujourd'hui le musee de Bastia, gratuit. La cathedrale Sainte-Marie, baroque genois du XVIIe siecle, voisine avec la chapelle Sainte-Croix, egalement du XVIIe siecle, qui conserve le Christ Noir des Miracles, une statue de bois decouverte en mer en 1428. Comptez 1h pour la visite a pied.",
+        body: "La citadelle de Bastia, dite Terra Nova et datant du XIVe siècle, est l'ensemble fortifié génois à l'origine de la ville. Les murs sont intacts, les ruelles pavées, et le palais des gouverneurs génois du XVIe siècle abrite aujourd'hui le musée de Bastia, gratuit. La cathédrale Sainte-Marie, baroque génois du XVIIe siècle, voisine avec la chapelle Sainte-Croix, également du XVIIe siècle, qui conserve le Christ Noir des Miracles, une statue de bois découverte en mer en 1428. Comptez 1h pour la visite à pied.",
       },
       {
         heading: "3. Le Cap Corse — la Doigts de l'île",
-        body: "Le Cap Corse, peninsule de 40 km au nord de Bastia surnommee le « Doigt de la Corse », offre l'une des plus belles routes panoramiques de France. La D80 epouse la corniche autour de la presqu'ile, ses falaises plongeant dans la mer, et dessert des villages perches comme Erbalunga, Macinaggio ou Centuri, ce village de pecheurs a langoustes qui est le plus petit port de Corse. Une tour genoise apparait tous les 5 km, edifiees au XVIe siecle contre les pirates barbaresques. La plage de Macinaggio offre un beau sable fin.",
+        body: "Le Cap Corse, péninsule de 40 km au nord de Bastia surnommée le « Doigt de la Corse », offre l'une des plus belles routes panoramiques de France. La D80 épouse la corniche autour de la presqu'île, ses falaises plongeant dans la mer, et dessert des villages perchés comme Erbalunga, Macinaggio ou Centuri, ce village de pêcheurs à langoustes qui est le plus petit port de Corse. Une tour génoise apparaît tous les 5 km, édifiées au XVIe siècle contre les pirates barbaresques. La plage de Macinaggio offre un beau sable fin.",
       },
       {
         heading: "4. Saint-Florent — la « Saint-Tropez corse »",
-        body: "Saint-Florent, a 25 km a l'ouest de Bastia dans le golfe du meme nom, porte le surnom de « Saint-Tropez corse » et compte parmi les plus belles stations de Haute-Corse. On y trouve un port de plaisance, une citadelle genoise de 1440 et les plages de Saleccia et Lotu, accessibles uniquement en bateau ou a pied a travers les 12 km du desert des Agriates : ce sont les Caraibes corses, a l'eau turquoise translucide. Les vignobles AOC Patrimonio, a 5 km, comptent parmi les plus prestigieux de Corse.",
+        body: "Saint-Florent, à 25 km à l'ouest de Bastia dans le golfe du même nom, porte le surnom de « Saint-Tropez corse » et compte parmi les plus belles stations de Haute-Corse. On y trouve un port de plaisance, une citadelle génoise de 1440 et les plages de Saleccia et Lotu, accessibles uniquement en bateau ou à pied à travers les 12 km du désert des Agriates : ce sont les Caraïbes corses, à l'eau turquoise translucide. Les vignobles AOC Patrimonio, à 5 km, comptent parmi les plus prestigieux de Corse.",
       },
       {
         heading: "5. Le désert des Agriates — unique au monde",
-        body: "Le desert des Agriates, au nord-ouest de Bastia entre Saint-Florent et l'Ile-Rousse, couvre 38 000 ha et constitue l'unique « desert » cotier d'Europe. Le paysage melange un maquis dense, fait de cistes dont le ciste de Montpellier, l'arbuste embleme, et un relief granitique calcine par le soleil. Ses plages paradisiaques ne sont accessibles qu'a pied ou en 4x4 par les pistes : Saleccia demande 1h30 de piste depuis Saint-Florent, mais c'est l'une des plus belles plages de Mediterranee. Le sentier des Douaniers longe la cote sur 30 km, soit 2 a 3 jours en bivouac.",
+        body: "Le désert des Agriates, au nord-ouest de Bastia entre Saint-Florent et l'Île-Rousse, couvre 38 000 ha et constitue l'unique « désert » côtier d'Europe. Le paysage mélange un maquis dense, fait de cistes dont le ciste de Montpellier, l'arbuste emblème, et un relief granitique calciné par le soleil. Ses plages paradisiaques ne sont accessibles qu'à pied ou en 4x4 par les pistes : Saleccia demande 1h30 de piste depuis Saint-Florent, mais c'est l'une des plus belles plages de Méditerranée. Le sentier des Douaniers longe la côte sur 30 km, soit 2 à 3 jours en bivouac.",
       },
       {
         heading: "6. L'Île-Rousse — la « Pietra Rossa »",
-        body: "L'Ile-Rousse, a 70 km a l'ouest de Bastia en Balagne, est l'une des stations balneaires les plus authentiques de Corse. Fondee en 1758 par Pasquale Paoli, le heros corse de l'independance, elle s'organise en damier autour de la place Paoli et de son marche couvert. L'ile de la Pietra, a 200 m de la plage et reliee par une jetee, doit son nom a son granit rouge. La plage de la Marinella offre un sable fin en plein centre, et le « Petit Train de Balagne », cotier, rejoint Calvi.",
+        body: "L'Île-Rousse, à 70 km à l'ouest de Bastia en Balagne, est l'une des stations balnéaires les plus authentiques de Corse. Fondée en 1758 par Pasquale Paoli, le héros corse de l'indépendance, elle s'organise en damier autour de la place Paoli et de son marché couvert. L'île de la Pietra, à 200 m de la plage et reliée par une jetée, doit son nom à son granit rouge. La plage de la Marinella offre un sable fin en plein centre, et le « Petit Train de Balagne », côtier, rejoint Calvi.",
       },
       {
         heading: "7. Calvi et la cité génoise — à 90 km",
-        body: "Calvi, a 90 km a l'ouest de Bastia en Balagne, est la troisieme cite historique de Corse. Sa citadelle genoise plantee sur un promontoire est, selon de nombreux historiens, la plus belle de Corse, et domine une vieille ville fortifiee, un port de plaisance et une plage de 5 km de sable fin. La legende veut que Christophe Colomb soit ne a Calvi, mais c'est conteste, les Italiens revendiquant Genes. En juillet, le festival Calvi on the Rocks est l'un des grands rendez-vous francais de musique electronique.",
+        body: "Calvi, à 90 km à l'ouest de Bastia en Balagne, est la troisième cité historique de Corse. Sa citadelle génoise plantée sur un promontoire est, selon de nombreux historiens, la plus belle de Corse, et domine une vieille ville fortifiée, un port de plaisance et une plage de 5 km de sable fin. La légende veut que Christophe Colomb soit né à Calvi, mais c'est contesté, les Italiens revendiquant Gênes. En juillet, le festival Calvi on the Rocks est l'un des grands rendez-vous français de musique électronique.",
       },
       {
         heading: "8. Le vignoble de Patrimonio — AOC corse",
-        body: "L'AOC Patrimonio, a 5 km au nord-ouest de Bastia, couvre 415 ha. Premier AOC de Corse, cree en 1968, c'est l'un des vignobles les plus prestigieux de l'ile. Cote cepages, le Nielluccio donne les rouges (c'est le parent toscan du Sangiovese, d'ou la couleur des Patrimonio rouges) et le Vermentinu les blancs, un cepage italien. Plusieurs caves se visitent : le Domaine Antoine Arena, reference en biodynamie, le Domaine Yves Leccia ou le Domaine Orenga de Gaffory. En juillet, le festival des Nuits du Patrimonio met la musique acoustique a l'honneur.",
+        body: "L'AOC Patrimonio, à 5 km au nord-ouest de Bastia, couvre 415 ha. Premier AOC de Corse, créé en 1968, c'est l'un des vignobles les plus prestigieux de l'île. Côté cépages, le Nielluccio donne les rouges (c'est le parent toscan du Sangiovese, d'où la couleur des Patrimonio rouges) et le Vermentinu les blancs, un cépage italien. Plusieurs caves se visitent : le Domaine Antoine Arena, référence en biodynamie, le Domaine Yves Leccia ou le Domaine Orenga de Gaffory. En juillet, le festival des Nuits du Patrimonio met la musique acoustique à l'honneur.",
       },
       {
         heading: "9. Le mont San Petrone et l'arrière-pays",
-        body: "Le mont San Petrone, a 1 767 m et a 40 km a l'ouest de Bastia, est le plus haut sommet du nord de la Corse hors massif central, et l'un des plus beaux accessibles depuis la ville. Un sentier balise mene au sommet en 4h aller depuis le col de Prato. La Castagniccia, a 30 km a l'ouest, est la region des chataigniers, ou Felce et Bustanico furent les villages historiques de la resistance corse a Paoli. Le couvent d'Orezza, du XVe siecle, offre de belles ruines romantiques.",
+        body: "Le mont San Petrone, à 1 767 m et à 40 km à l'ouest de Bastia, est le plus haut sommet du nord de la Corse hors massif central, et l'un des plus beaux accessibles depuis la ville. Un sentier balisé mène au sommet en 4h aller depuis le col de Prato. La Castagniccia, à 30 km à l'ouest, est la région des châtaigniers, où Felce et Bustanico furent les villages historiques de la résistance corse à Paoli. Le couvent d'Orezza, du XVe siècle, offre de belles ruines romantiques.",
       },
       {
         heading: "10. Gastronomie corse — figatellu et brocciu",
-        body: "La cuisine corse de Bastia est a la fois marine et continentale. Cote charcuterie d'hiver, le figatellu, saucisse de foie de porc fumee, en est l'embleme, aux cotes du lonzu (filet mignon seche), de la coppa et du prisuttu (jambon corse). Le brocciu AOP, fromage frais de brebis ou de chevre, est l'autre embleme, avec l'agneau corse et le sanglier. Parmi les specialites : storzapreti (boulettes de brocciu et de bettes), beignets au brocciu, pulenda (galette de farine de chataignes) et fiadone, le gateau au brocciu qui fait office de dessert national. Cote vins, on trouve l'AOC Patrimonio (rouge Nielluccio, blanc Vermentinu), le Muscat du Cap Corse (vin doux) et le Cap Corse, un aperitif amer et aromatique.",
+        body: "La cuisine corse de Bastia est à la fois marine et continentale. Côté charcuterie d'hiver, le figatellu, saucisse de foie de porc fumée, en est l'emblème, aux côtés du lonzu (filet mignon séché), de la coppa et du prisuttu (jambon corse). Le brocciu AOP, fromage frais de brebis ou de chèvre, est l'autre emblème, avec l'agneau corse et le sanglier. Parmi les spécialités : storzapreti (boulettes de brocciu et de bettes), beignets au brocciu, pulenda (galette de farine de châtaignes) et fiadone, le gâteau au brocciu qui fait office de dessert national. Côté vins, on trouve l'AOC Patrimonio (rouge Nielluccio, blanc Vermentinu), le Muscat du Cap Corse (vin doux) et le Cap Corse, un apéritif amer et aromatique.",
       },
     ],
     relatedCities: ["bastia", "ajaccio"],
@@ -31206,47 +31206,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Cassis est un village de peche provencal de 7 500 habitants, a 23 km a l'est de Marseille, et l'un des plus visites du sud de la France. La ville est encadree par les Calanques, parc national depuis 2012, avec ses falaises calcaires de 300 m et ses criques sauvages d'une beaute absolue a l'ouest, et par le Cap Canaille, qui culmine a 399 m et constitue la plus haute falaise maritime de France, a l'est. Le vignoble AOC Cassis, premier AOC francais en 1936, y produit un vin blanc mineral et sec.",
+    intro: "Cassis est un village de pêche provençal de 7 500 habitants, à 23 km à l'est de Marseille, et l'un des plus visités du sud de la France. La ville est encadrée par les Calanques, parc national depuis 2012, avec ses falaises calcaires de 300 m et ses criques sauvages d'une beauté absolue à l'ouest, et par le Cap Canaille, qui culmine à 399 m et constitue la plus haute falaise maritime de France, à l'est. Le vignoble AOC Cassis, premier AOC français en 1936, y produit un vin blanc minéral et sec.",
     sections: [
       {
         heading: "1. Les calanques de Cassis — parc national",
-        body: "Les Calanques, parc national depuis 2012 sur 80 000 ha entre Marseille et Cassis, forment une suite de criques sauvages encadrees par des falaises calcaires verticales. Au depart de Cassis, trois calanques sont accessibles a pied : Port-Miou, Port-Pin et En-Vau, la plus belle, atteinte en 1h30 aller-retour. Des bateaux-taxis desservent les calanques inaccessibles a pied comme Sormiou, Sugiton ou Morgiou. L'eau est turquoise, le fond rocheux, et la baignade au rendez-vous. En ete, l'acces est regule pour la protection du site, et le mistral comme la tramontane peuvent rendre la mer dangereuse.",
+        body: "Les Calanques, parc national depuis 2012 sur 80 000 ha entre Marseille et Cassis, forment une suite de criques sauvages encadrées par des falaises calcaires verticales. Au départ de Cassis, trois calanques sont accessibles à pied : Port-Miou, Port-Pin et En-Vau, la plus belle, atteinte en 1h30 aller-retour. Des bateaux-taxis desservent les calanques inaccessibles à pied comme Sormiou, Sugiton ou Morgiou. L'eau est turquoise, le fond rocheux, et la baignade au rendez-vous. En été, l'accès est régulé pour la protection du site, et le mistral comme la tramontane peuvent rendre la mer dangereuse.",
       },
       {
         heading: "2. Le Cap Canaille — la plus haute falaise de France",
-        body: "Le Cap Canaille, a 399 m et a 5 km a l'est de Cassis, est la plus haute falaise maritime de France et l'une des plus hautes d'Europe : il offre la vue la plus spectaculaire de la cote. La Route des Cretes, 15 km panoramiques entre Cassis et La Ciotat, est l'une des plus belles de France, ponctuee par les belvederes de la Grande Tete, du Cap Cable et de la Grande Candelle. Le coucher de soleil sur Marseille et les calanques y est exceptionnel. A voir absolument.",
+        body: "Le Cap Canaille, à 399 m et à 5 km à l'est de Cassis, est la plus haute falaise maritime de France et l'une des plus hautes d'Europe : il offre la vue la plus spectaculaire de la côte. La Route des Crêtes, 15 km panoramiques entre Cassis et La Ciotat, est l'une des plus belles de France, ponctuée par les belvédères de la Grande Tête, du Cap Cable et de la Grande Candelle. Le coucher de soleil sur Marseille et les calanques y est exceptionnel. À voir absolument.",
       },
       {
         heading: "3. Le port de Cassis et la place Baragnon",
-        body: "Le port de Cassis, a la fois port de peche et de plaisance, est encadre de hautes facades pastel : c'est l'image classique du village provencal. Un marche aux poissons s'y tient chaque jour, les pecheurs vendant directement leur peche au retour, et l'on peut y acheter de quoi faire une bouillabaisse sur place. La place Baragnon est le coeur du village et ses terrasses, tandis que la rue de la Republique en est l'axe commercant, jalonne de boutiques de produits provencaux comme les huiles d'olive ou les savons de Marseille.",
+        body: "Le port de Cassis, à la fois port de pêche et de plaisance, est encadré de hautes façades pastel : c'est l'image classique du village provençal. Un marché aux poissons s'y tient chaque jour, les pêcheurs vendant directement leur pêche au retour, et l'on peut y acheter de quoi faire une bouillabaisse sur place. La place Baragnon est le cœur du village et ses terrasses, tandis que la rue de la République en est l'axe commerçant, jalonné de boutiques de produits provençaux comme les huiles d'olive ou les savons de Marseille.",
       },
       {
         heading: "4. L'AOC Cassis — premier AOC français",
-        body: "L'AOC Cassis, cree en 1936, est l'un des premiers AOC francais et, avec 215 ha, le plus petit vignoble AOC. Il produit principalement un vin blanc sec et mineral, a base de clairette, marsanne et ugni blanc. Plusieurs domaines se visitent : le Clos Sainte-Magdeleine, le plus iconique avec son vignoble en terrasse au bord de la mer, le Domaine du Bagnol et le Domaine de la Ferme Blanche. Les caveaux ouvrent en saison, d'avril a octobre. Le rose de Cassis, moins courant, existe tout de meme.",
+        body: "L'AOC Cassis, créé en 1936, est l'un des premiers AOC français et, avec 215 ha, le plus petit vignoble AOC. Il produit principalement un vin blanc sec et minéral, à base de clairette, marsanne et ugni blanc. Plusieurs domaines se visitent : le Clos Sainte-Magdeleine, le plus iconique avec son vignoble en terrasse au bord de la mer, le Domaine du Bagnol et le Domaine de la Ferme Blanche. Les caveaux ouvrent en saison, d'avril à octobre. Le rosé de Cassis, moins courant, existe tout de même.",
       },
       {
         heading: "5. La calanque d'En-Vau — la plus belle",
-        body: "La calanque d'En-Vau, a 6 km a l'ouest de Cassis et accessible en 1h30 de marche depuis le parking de Port-Miou, est regulierement classee parmi les plus belles calanques de Mediterranee, avec ses falaises verticales de 200 m, sa plage de galets blancs et son eau turquoise translucide. On peut aussi y venir en bateau, le taxi-boat depuis Cassis prenant 30 min. L'aiguille d'En-Vau, ce rocher en equilibre, en est l'embleme. L'acces est restreint en juillet et aout, parc national oblige.",
+        body: "La calanque d'En-Vau, à 6 km à l'ouest de Cassis et accessible en 1h30 de marche depuis le parking de Port-Miou, est régulièrement classée parmi les plus belles calanques de Méditerranée, avec ses falaises verticales de 200 m, sa plage de galets blancs et son eau turquoise translucide. On peut aussi y venir en bateau, le taxi-boat depuis Cassis prenant 30 min. L'aiguille d'En-Vau, ce rocher en équilibre, en est l'emblème. L'accès est restreint en juillet et août, parc national oblige.",
       },
       {
         heading: "6. La plage de l'Arène et la plage Bestouan",
-        body: "La plage de l'Arene, a 200 m du port, urbaine, melange sable et galets : c'est la plus accessible de Cassis. La plage Bestouan, a 500 m, plus authentique et faite de galets, se niche entre les Mauvaises Hauteurs et leurs criques rocheuses. L'eau atteint 22 a 24°C en ete. Toutes deux sont tres frequentees de mi-juillet a mi-aout, mieux vaut donc y aller tot le matin ou hors saison.",
+        body: "La plage de l'Arène, à 200 m du port, urbaine, mélange sable et galets : c'est la plus accessible de Cassis. La plage Bestouan, à 500 m, plus authentique et faite de galets, se niche entre les Mauvaises Hauteurs et leurs criques rocheuses. L'eau atteint 22 à 24°C en été. Toutes deux sont très fréquentées de mi-juillet à mi-août, mieux vaut donc y aller tôt le matin ou hors saison.",
       },
       {
         heading: "7. La Ciotat — la ville natale du cinéma",
-        body: "La Ciotat, a 8 km a l'est de Cassis, est la ville natale du cinema : les freres Lumiere y ont tourne en 1895 « L'Arrivee d'un train en gare de La Ciotat ». L'Eden Theatre, de 1899 et classe monument historique, est la plus ancienne salle de cinema au monde encore en activite. La Ciotat est aussi le berceau de la petanque, inventee ici en 1910 par Jules Lenoir. On y trouve des plages, un port et une vieille ville.",
+        body: "La Ciotat, à 8 km à l'est de Cassis, est la ville natale du cinéma : les frères Lumière y ont tourné en 1895 « L'Arrivée d'un train en gare de La Ciotat ». L'Eden Théâtre, de 1899 et classé monument historique, est la plus ancienne salle de cinéma au monde encore en activité. La Ciotat est aussi le berceau de la pétanque, inventée ici en 1910 par Jules Lenoir. On y trouve des plages, un port et une vieille ville.",
       },
       {
         heading: "8. La randonnée du sentier des Douaniers",
-        body: "Le sentier des Douaniers, le GR98, longe le littoral du parc national des Calanques sur 30 km de Cassis a Marseille. L'etape Cassis-Calanque de Sugiton (15 km, 5h) est l'une des plus belles randonnees cotieres francaises, comparable au sentier des Douaniers en Bretagne mais sous le soleil. L'eau est a proximite, et la baignade possible dans plusieurs criques. Attention en juillet et aout : le sentier ferme en cas de risque incendie.",
+        body: "Le sentier des Douaniers, le GR98, longe le littoral du parc national des Calanques sur 30 km de Cassis à Marseille. L'étape Cassis-Calanque de Sugiton (15 km, 5h) est l'une des plus belles randonnées côtières françaises, comparable au sentier des Douaniers en Bretagne mais sous le soleil. L'eau est à proximité, et la baignade possible dans plusieurs criques. Attention en juillet et août : le sentier ferme en cas de risque incendie.",
       },
       {
         heading: "9. Marseille et la Bonne Mère — à 23 km",
-        body: "Marseille, a 23 km a l'ouest de Cassis, est la grande metropole mediterraneenne. Notre-Dame-de-la-Garde, « la Bonne Mere », neo-byzantine du XIXe siecle et plantee sur sa colline, offre une vue a 360° sur la ville et la mer. On y visite aussi le Vieux Port, Le Panier (la vieille ville medievale coloree) et le MUCEM, le Musee des Civilisations de la Mediterranee, dont l'architecture moderne signee Rudy Ricciotti date de 2013. Comptez une journee complete au depart de Cassis.",
+        body: "Marseille, à 23 km à l'ouest de Cassis, est la grande métropole méditerranéenne. Notre-Dame-de-la-Garde, « la Bonne Mère », néo-byzantine du XIXe siècle et plantée sur sa colline, offre une vue à 360° sur la ville et la mer. On y visite aussi le Vieux Port, Le Panier (la vieille ville médiévale colorée) et le MUCEM, le Musée des Civilisations de la Méditerranée, dont l'architecture moderne signée Rudy Ricciotti date de 2013. Comptez une journée complète au départ de Cassis.",
       },
       {
         heading: "10. Gastronomie cassidaine — bouillabaisse et oursins",
-        body: "La cuisine de Cassis est une cuisine marine provencale. La bouillabaisse marseillaise suit la charte codifiee a Marseille (rascasse, vive, congre, baudroie, safran, aioli, croutons), tandis que la bourride, soupe de baudroie a l'aioli, en est une variante moins riche. Les oursins, peches a Cassis et degustes en hiver, sont le « caviar de la Mediterranee », aux cotes du poulpe a la provencale et de l'anchoiade. Cote specialites, la tielle setoise (a 50 km, heritage italien) cotoie la navette de Marseille (a 20 km), un petit gateau biscuite et parfume a la fleur d'oranger. Les vins : AOC Cassis (blanc), Bandol (a 25 km, rouge) et Cotes-de-Provence rose.",
+        body: "La cuisine de Cassis est une cuisine marine provençale. La bouillabaisse marseillaise suit la charte codifiée à Marseille (rascasse, vive, congre, baudroie, safran, aïoli, croûtons), tandis que la bourride, soupe de baudroie à l'aïoli, en est une variante moins riche. Les oursins, pêchés à Cassis et dégustés en hiver, sont le « caviar de la Méditerranée », aux côtés du poulpe à la provençale et de l'anchoïade. Côté spécialités, la tielle sétoise (à 50 km, héritage italien) côtoie la navette de Marseille (à 20 km), un petit gâteau biscuité et parfumé à la fleur d'oranger. Les vins : AOC Cassis (blanc), Bandol (à 25 km, rouge) et Côtes-de-Provence rosé.",
       },
     ],
     relatedCities: ["cassis"],
@@ -31265,47 +31265,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Collioure est un village de peche catalan de 3 000 habitants, a 25 km au sud de Perpignan, et l'une des perles de la Cote Vermeille, cette cote rocheuse entre les Pyrenees et la Mediterranee. C'est le berceau de la peinture fauve : Matisse et Derain y peignirent l'ete 1905, signant le manifeste fauviste expose des l'automne au Salon d'Automne de Paris. Capitale francaise de l'anchois, avec une production artisanale depuis le Moyen Age (Maison Roque, Maison Desclaux), Collioure est aussi la porte d'entree des vignobles Banyuls et Collioure AOC.",
+    intro: "Collioure est un village de pêche catalan de 3 000 habitants, à 25 km au sud de Perpignan, et l'une des perles de la Côte Vermeille, cette côte rocheuse entre les Pyrénées et la Méditerranée. C'est le berceau de la peinture fauve : Matisse et Derain y peignirent l'été 1905, signant le manifeste fauviste exposé dès l'automne au Salon d'Automne de Paris. Capitale française de l'anchois, avec une production artisanale depuis le Moyen Âge (Maison Roque, Maison Desclaux), Collioure est aussi la porte d'entrée des vignobles Banyuls et Collioure AOC.",
     sections: [
       {
         heading: "1. L'église Notre-Dame-des-Anges — la pointe au phare",
-        body: "L'eglise Notre-Dame-des-Anges, baroque catalan du XVIIe siecle, est l'image emblematique de Collioure. Erigee a la place d'un phare medieval, sa tour-clocher du XIVe siecle, une ancienne tour-fanal, plonge directement dans la Mediterranee. Son retable baroque en bois dore du XVIIe siecle, de l'ecole catalane, est l'un des plus beaux du Roussillon. Depuis l'esplanade, la vue sur la baie de Collioure est spectaculaire.",
+        body: "L'église Notre-Dame-des-Anges, baroque catalan du XVIIe siècle, est l'image emblématique de Collioure. Érigée à la place d'un phare médiéval, sa tour-clocher du XIVe siècle, une ancienne tour-fanal, plonge directement dans la Méditerranée. Son retable baroque en bois doré du XVIIe siècle, de l'école catalane, est l'un des plus beaux du Roussillon. Depuis l'esplanade, la vue sur la baie de Collioure est spectaculaire.",
       },
       {
         heading: "2. Le château royal de Collioure",
-        body: "Le chateau royal de Collioure, des XIIIe au XVIIe siecles, fut le chateau des rois de Majorque puis des rois de France apres le rattachement du Roussillon en 1659 par le Traite des Pyrenees, et domine le port. Vauban en a remanie les fortifications. La visite mene des salles royales au donjon, jusqu'a un panorama sur la baie. Aujourd'hui propriete du Departement des Pyrenees-Orientales, l'entree coute 4 EUR.",
+        body: "Le château royal de Collioure, des XIIIe au XVIIe siècles, fut le château des rois de Majorque puis des rois de France après le rattachement du Roussillon en 1659 par le Traité des Pyrénées, et domine le port. Vauban en a remanié les fortifications. La visite mène des salles royales au donjon, jusqu'à un panorama sur la baie. Aujourd'hui propriété du Département des Pyrénées-Orientales, l'entrée coûte 4 €.",
       },
       {
         heading: "3. Le Chemin du Fauvisme — Matisse et Derain",
-        body: "Le Chemin du Fauvisme, sentier balise en boucle dans Collioure, dispose 20 reproductions d'oeuvres la ou elles ont ete peintes en 1905 et raconte le « voyage a Collioure » de Henri Matisse et Andre Derain, qui y inventerent la peinture fauve cet ete-la. On y retrouve les reproductions de Toits rouges, Vue de Collioure ou La Mediterranee. Gratuit et accessible jour et nuit, c'est l'ideal pour les amateurs d'art moderne : l'episode fondateur de la peinture du XXe siecle.",
+        body: "Le Chemin du Fauvisme, sentier balisé en boucle dans Collioure, dispose 20 reproductions d'œuvres là où elles ont été peintes en 1905 et raconte le « voyage à Collioure » de Henri Matisse et André Derain, qui y inventèrent la peinture fauve cet été-là. On y retrouve les reproductions de Toits rouges, Vue de Collioure ou La Méditerranée. Gratuit et accessible jour et nuit, c'est l'idéal pour les amateurs d'art moderne : l'épisode fondateur de la peinture du XXe siècle.",
       },
       {
         heading: "4. Les anchois de Collioure — la spécialité millénaire",
-        body: "Collioure est la capitale francaise de l'anchois, peche et sale a la main depuis le Moyen Age. Deux maisons historiques ouvrent au public : la Maison Roque (depuis 1870, visite gratuite des saloirs ou les anchois entiers sont sales a la main dans des saloirs en bois, avec une IGP en cours) et la Maison Desclaux (depuis 1903). On y rapporte des conserves : anchois a l'huile, a l'ail ou au piment d'Espelette. Le tapas catalan classique reste le pa amb tomaquet (pain a la tomate) accompagne d'anchois.",
+        body: "Collioure est la capitale française de l'anchois, pêché et salé à la main depuis le Moyen Âge. Deux maisons historiques ouvrent au public : la Maison Roque (depuis 1870, visite gratuite des saloirs où les anchois entiers sont salés à la main dans des saloirs en bois, avec une IGP en cours) et la Maison Desclaux (depuis 1903). On y rapporte des conserves : anchois à l'huile, à l'ail ou au piment d'Espelette. Le tapas catalan classique reste le pa amb tomàquet (pain à la tomate) accompagné d'anchois.",
       },
       {
         heading: "5. Le vignoble Banyuls et Collioure AOC",
-        body: "Les AOC Banyuls (vin doux naturel cree en 1936) et Collioure (vins rouges secs depuis 1971) couvrent les vignobles en terrasses de la Cote Vermeille : 1 200 ha cultives a la pioche sur des terrasses seculaires, car le travail a la machine y est impossible. Cote cepages, on trouve le Grenache noir et gris pour le Banyuls, le Mourvedre et le Carignan pour le Collioure rouge. Plusieurs domaines se visitent : Domaine du Mas Blanc, Domaine de la Rectorie, Domaine la Tour Vieille et Cave Cellier des Templiers.",
+        body: "Les AOC Banyuls (vin doux naturel créé en 1936) et Collioure (vins rouges secs depuis 1971) couvrent les vignobles en terrasses de la Côte Vermeille : 1 200 ha cultivés à la pioche sur des terrasses séculaires, car le travail à la machine y est impossible. Côté cépages, on trouve le Grenache noir et gris pour le Banyuls, le Mourvèdre et le Carignan pour le Collioure rouge. Plusieurs domaines se visitent : Domaine du Mas Blanc, Domaine de la Rectorie, Domaine la Tour Vieille et Cave Cellier des Templiers.",
       },
       {
         heading: "6. La Côte Vermeille — Port-Vendres et Banyuls-sur-Mer",
-        body: "La Cote Vermeille, de Collioure a Cerbere sur 25 km le long des Alberes jusqu'a la frontiere espagnole, est la cote rocheuse francaise la plus meridionale. Port-Vendres, a 3 km au sud de Collioure, est le port de peche principal du Roussillon, ou se tient la criee au retour des chalutiers. Banyuls-sur-Mer, a 12 km, est une station balneaire et un port de plaisance, dote de la reserve marine de Cerbere-Banyuls, l'une des plus anciennes de Mediterranee, ideale pour la plongee et le sentier sous-marin.",
+        body: "La Côte Vermeille, de Collioure à Cerbère sur 25 km le long des Albères jusqu'à la frontière espagnole, est la côte rocheuse française la plus méridionale. Port-Vendres, à 3 km au sud de Collioure, est le port de pêche principal du Roussillon, où se tient la criée au retour des chalutiers. Banyuls-sur-Mer, à 12 km, est une station balnéaire et un port de plaisance, doté de la réserve marine de Cerbère-Banyuls, l'une des plus anciennes de Méditerranée, idéale pour la plongée et le sentier sous-marin.",
       },
       {
         heading: "7. Le sentier des Douaniers et Cap Béar",
-        body: "Le sentier des Douaniers, GR10 maritime et ancien chemin de surveillance douaniere entre la France et l'Espagne, longe la Cote Vermeille de Collioure au Cap Cerbere (15 km, 6h). Rocailleux, il suit des criques sauvages. Le Cap Bear, a 6 km au sud de Collioure, abrite un phare et un belvedere. L'anse de Paulilles, ancienne dynamiterie Nobel reconvertie en site naturel, est l'une des plus belles plages de la cote. L'ensemble est classe Grand Site de France.",
+        body: "Le sentier des Douaniers, GR10 maritime et ancien chemin de surveillance douanière entre la France et l'Espagne, longe la Côte Vermeille de Collioure au Cap Cerbère (15 km, 6h). Rocailleux, il suit des criques sauvages. Le Cap Béar, à 6 km au sud de Collioure, abrite un phare et un belvédère. L'anse de Paulilles, ancienne dynamiterie Nobel reconvertie en site naturel, est l'une des plus belles plages de la côte. L'ensemble est classé Grand Site de France.",
       },
       {
         heading: "8. Les fortifications de Vauban — Mont-Louis et Villefranche",
-        body: "Le Roussillon est riche en fortifications Vauban, classees a l'UNESCO depuis 2008. Mont-Louis, a 80 km a l'ouest de Collioure dans les Pyrenees catalanes a 1 600 m d'altitude, est la plus haute citadelle Vauban. Villefranche-de-Conflent, a 90 km et a 410 m, est une cite fortifiee medievale renforcee par Vauban. A combiner avec le train jaune, le « Petit Train Jaune des Pyrenees », ligne SNCF historique a voie unique reliant Villefranche a Latour-de-Carol.",
+        body: "Le Roussillon est riche en fortifications Vauban, classées à l'UNESCO depuis 2008. Mont-Louis, à 80 km à l'ouest de Collioure dans les Pyrénées catalanes à 1 600 m d'altitude, est la plus haute citadelle Vauban. Villefranche-de-Conflent, à 90 km et à 410 m, est une cité fortifiée médiévale renforcée par Vauban. À combiner avec le train jaune, le « Petit Train Jaune des Pyrénées », ligne SNCF historique à voie unique reliant Villefranche à Latour-de-Carol.",
       },
       {
         heading: "9. Le musée d'Art Moderne et le château de Cadaqués",
-        body: "Le musee d'Art Moderne de Ceret, a 30 km a l'ouest de Collioure dans le Vallespir, abrite l'une des plus belles collections francaises consacrees aux peintres qui ont sejourne en Catalogne : Picasso, Soutine, Chagall, Matisse, Dali. Pour information, Cadaques, a 40 km au sud en Espagne, est le village ou Salvador Dali a vecu, avec sa Maison-musee Dali a Port Lligat, une demeure a l'architecture barree et classee monument. La frontiere est a Cerbere, a 5 km.",
+        body: "Le musée d'Art Moderne de Céret, à 30 km à l'ouest de Collioure dans le Vallespir, abrite l'une des plus belles collections françaises consacrées aux peintres qui ont séjourné en Catalogne : Picasso, Soutine, Chagall, Matisse, Dalí. Pour information, Cadaqués, à 40 km au sud en Espagne, est le village où Salvador Dalí a vécu, avec sa Maison-musée Dalí à Port Lligat, une demeure à l'architecture barrée et classée monument. La frontière est à Cerbère, à 5 km.",
       },
       {
         heading: "10. Gastronomie catalane — anchois et tapas",
-        body: "La cuisine catalane est l'une des plus colorees de France. Les anchois de Collioure (IGP en cours) se declinent a l'huile d'olive, sales ou en vinaigrette catalane, aux cotes de la bouillinade, soupe de poissons catalane a la pomme de terre, differente de la bouillabaisse. On y deguste aussi les boles de Picolat (boulettes de viande a la catalane), l'escalivada (legumes grilles a l'huile d'olive) et le pa amb tomaquet (pain frotte de tomate). Cote sucre, la creme catalane (creme brulee catalane) et les rousquilles. Les vins : Banyuls (vin doux), Collioure (rouge) et Maury (a 50 km, vin doux naturel).",
+        body: "La cuisine catalane est l'une des plus colorées de France. Les anchois de Collioure (IGP en cours) se déclinent à l'huile d'olive, salés ou en vinaigrette catalane, aux côtés de la bouillinade, soupe de poissons catalane à la pomme de terre, différente de la bouillabaisse. On y déguste aussi les boles de Picolat (boulettes de viande à la catalane), l'escalivada (légumes grillés à l'huile d'olive) et le pa amb tomàquet (pain frotté de tomate). Côté sucré, la crème catalane (crème brûlée catalane) et les rousquilles. Les vins : Banyuls (vin doux), Collioure (rouge) et Maury (à 50 km, vin doux naturel).",
       },
     ],
     relatedCities: ["collioure"],
@@ -31325,47 +31325,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Saint-Tropez est une commune varoise de 4 000 habitants permanents, et jusqu'a 100 000 en ete, l'une des stations balneaires les plus connues au monde. Ce port de peche medieval fut decouvert par les artistes au XIXe siecle (Signac y resida en 1892, le premier a en lancer la « mode ») puis definitivement glamourise par Brigitte Bardot dans Et Dieu crea la femme (1956, Roger Vadim), qui en fit le symbole du jet set. La ville melange aujourd'hui port traditionnel, plages de Pampelonne et arriere-pays viticole.",
+    intro: "Saint-Tropez est une commune varoise de 4 000 habitants permanents, et jusqu'à 100 000 en été, l'une des stations balnéaires les plus connues au monde. Ce port de pêche médiéval fut découvert par les artistes au XIXe siècle (Signac y résida en 1892, le premier à en lancer la « mode ») puis définitivement glamourisé par Brigitte Bardot dans Et Dieu créa la femme (1956, Roger Vadim), qui en fit le symbole du jet set. La ville mélange aujourd'hui port traditionnel, plages de Pampelonne et arrière-pays viticole.",
     sections: [
       {
         heading: "1. Le Vieux Port et le quai Jean-Jaurès",
-        body: "Le Vieux Port de Saint-Tropez, port de peche medieval transforme en port de plaisance, est l'epicentre de la vie tropezienne. Le quai Jean-Jaures est borde de hautes facades pastel refletees dans l'eau, et des yachts geants mouillent au port, qui accueille les plus grands yachts prives du monde (proprietaires Roman Abramovich, Bernard Arnault, Lakshmi Mittal). Les cafes mythiques s'y succedent : Senequier depuis 1887, Le Cafe depuis 1989, l'ex-Cafe des Arts.",
+        body: "Le Vieux Port de Saint-Tropez, port de pêche médiéval transformé en port de plaisance, est l'épicentre de la vie tropézienne. Le quai Jean-Jaurès est bordé de hautes façades pastel reflétées dans l'eau, et des yachts géants mouillent au port, qui accueille les plus grands yachts privés du monde (propriétaires Roman Abramovich, Bernard Arnault, Lakshmi Mittal). Les cafés mythiques s'y succèdent : Sénéquier depuis 1887, Le Café depuis 1989, l'ex-Café des Arts.",
       },
       {
         heading: "2. La plage de Pampelonne — la mythique",
-        body: "La plage de Pampelonne, a 5 km au sud-est du centre de Saint-Tropez sur 5 km de sable fin, est l'une des plus belles plages de la Cote d'Azur, a l'eau turquoise et au sable blanc. Les plages privees y sont legendaires : le Club 55 (depuis 1955, fonde par Patrice de Colmont, le plus iconique, frequente par toutes les stars), Bagatelle, Nikki Beach, Verde ou La Cabane Bambou. Pour information, les plages publiques comme Le Capon ou Tahiti Beach restent accessibles gratuitement. L'eau atteint 24°C en juillet et aout.",
+        body: "La plage de Pampelonne, à 5 km au sud-est du centre de Saint-Tropez sur 5 km de sable fin, est l'une des plus belles plages de la Côte d'Azur, à l'eau turquoise et au sable blanc. Les plages privées y sont légendaires : le Club 55 (depuis 1955, fondé par Patrice de Colmont, le plus iconique, fréquenté par toutes les stars), Bagatelle, Nikki Beach, Verde ou La Cabane Bambou. Pour information, les plages publiques comme Le Capon ou Tahiti Beach restent accessibles gratuitement. L'eau atteint 24°C en juillet et août.",
       },
       {
         heading: "3. La citadelle et le musée maritime",
-        body: "La citadelle de Saint-Tropez, fortification francaise du XVIIe siecle construite apres le rattachement de la Provence au royaume en 1481, domine le village depuis sa colline. A l'interieur, le musee maritime retrace l'histoire navale du village. La vue panoramique a 360° embrasse la baie de Saint-Tropez (le golfe de Saint-Tropez), la presqu'ile, les Maures et, au loin, les Salins-d'Hyeres.",
+        body: "La citadelle de Saint-Tropez, fortification française du XVIIe siècle construite après le rattachement de la Provence au royaume en 1481, domine le village depuis sa colline. À l'intérieur, le musée maritime retrace l'histoire navale du village. La vue panoramique à 360° embrasse la baie de Saint-Tropez (le golfe de Saint-Tropez), la presqu'île, les Maures et, au loin, les Salins-d'Hyères.",
       },
       {
         heading: "4. Le musée de l'Annonciade — peintres modernes",
-        body: "Le Musee de l'Annonciade, installe dans une ancienne chapelle des Penitents du XVIe siecle a 200 m du Vieux Port, est l'un des plus beaux musees du XXe siecle francais. Il rassemble des peintures pointillistes (Signac, Cross, Seurat), fauves (Matisse, Derain) et nabis (Bonnard, Vuillard), tous ces peintres ayant sejourne a Saint-Tropez. La collection est petite mais d'une qualite exceptionnelle, et gratuite le premier dimanche.",
+        body: "Le Musée de l'Annonciade, installé dans une ancienne chapelle des Pénitents du XVIe siècle à 200 m du Vieux Port, est l'un des plus beaux musées du XXe siècle français. Il rassemble des peintures pointillistes (Signac, Cross, Seurat), fauves (Matisse, Derain) et nabis (Bonnard, Vuillard), tous ces peintres ayant séjourné à Saint-Tropez. La collection est petite mais d'une qualité exceptionnelle, et gratuite le premier dimanche.",
       },
       {
         heading: "5. Le sentier du Littoral — Cap Saint-Pierre",
-        body: "Le sentier du Littoral, le GR51, fait 35 km autour de la presqu'ile de Saint-Tropez : c'est l'une des plus belles randonnees cotieres francaises. L'etape recommandee va de Saint-Tropez a la plage de Pampelonne via le Cap Camarat (12 km en boucle, 4h), entre criques sauvages, calanques rocheuses et vues sur la baie. Le sentier se fait a pied uniquement. Des loueurs de velos sont disponibles en ville si l'on prefere la route.",
+        body: "Le sentier du Littoral, le GR51, fait 35 km autour de la presqu'île de Saint-Tropez : c'est l'une des plus belles randonnées côtières françaises. L'étape recommandée va de Saint-Tropez à la plage de Pampelonne via le Cap Camarat (12 km en boucle, 4h), entre criques sauvages, calanques rocheuses et vues sur la baie. Le sentier se fait à pied uniquement. Des loueurs de vélos sont disponibles en ville si l'on préfère la route.",
       },
       {
         heading: "6. Les villages perchés — Gassin, Ramatuelle, Grimaud",
-        body: "L'arriere-pays de Saint-Tropez compte les plus beaux villages perches du Var. Gassin, a 6 km au sud-ouest, est classe plus beau village de France : 200 habitants, place du Barri sur la falaise et vue panoramique sur le golfe. Ramatuelle, a 9 km au sud, est un village circulaire concentrique unique en Provence. Grimaud, a 15 km au nord-ouest, garde le chateau ruine des seigneurs de Grimaldi, ancetres des princes de Monaco, avec vue sur le golfe. L'ideal pour une journee hors-foule.",
+        body: "L'arrière-pays de Saint-Tropez compte les plus beaux villages perchés du Var. Gassin, à 6 km au sud-ouest, est classé plus beau village de France : 200 habitants, place du Barri sur la falaise et vue panoramique sur le golfe. Ramatuelle, à 9 km au sud, est un village circulaire concentrique unique en Provence. Grimaud, à 15 km au nord-ouest, garde le château ruiné des seigneurs de Grimaldi, ancêtres des princes de Monaco, avec vue sur le golfe. L'idéal pour une journée hors-foule.",
       },
       {
         heading: "7. La presqu'île de Saint-Tropez — calanques sauvages",
-        body: "La presqu'ile de Saint-Tropez, au sud du golfe jusqu'au Cap Camarat, garde une dimension sauvage. Les plages des Salins melent sable et galets a l'ombre, la plage de la Bouillabaisse (a 1 km du centre) est familiale, la plage de Tahiti fut le point de depart historique de Pampelonne (Bardot s'y baignait) et la plage de l'Escalet, dans les Maures, reste la plus sauvage. Un sentier rocheux relie les criques.",
+        body: "La presqu'île de Saint-Tropez, au sud du golfe jusqu'au Cap Camarat, garde une dimension sauvage. Les plages des Salins mêlent sable et galets à l'ombre, la plage de la Bouillabaisse (à 1 km du centre) est familiale, la plage de Tahiti fut le point de départ historique de Pampelonne (Bardot s'y baignait) et la plage de l'Escalet, dans les Maures, reste la plus sauvage. Un sentier rocheux relie les criques.",
       },
       {
         heading: "8. Les vignobles AOC Côtes-de-Provence",
-        body: "L'arriere-pays de Saint-Tropez, la Plaine des Maures en AOC Cotes-de-Provence (premier vignoble rose d'AOC au monde), compte des domaines de reference : le Chateau Minuty, icone du rose a Gassin (a 6 km), le Domaine des Lauriers a Ramatuelle, le Chateau Romanin et le Chateau Saint-Maur. Les caveaux ouvrent d'avril a octobre. Le rose de Provence se boit jeune, au millesime de l'annee, frappe a 8°C : l'aperitif ideal sur les plages.",
+        body: "L'arrière-pays de Saint-Tropez, la Plaine des Maures en AOC Côtes-de-Provence (premier vignoble rosé d'AOC au monde), compte des domaines de référence : le Château Minuty, icône du rosé à Gassin (à 6 km), le Domaine des Lauriers à Ramatuelle, le Château Romanin et le Château Saint-Maur. Les caveaux ouvrent d'avril à octobre. Le rosé de Provence se boit jeune, au millésime de l'année, frappé à 8°C : l'apéritif idéal sur les plages.",
       },
       {
         heading: "9. Le port-Grimaud — la « Venise provençale »",
-        body: "Port-Grimaud, a 8 km au nord-ouest de Saint-Tropez et cree en 1966 par l'architecte Francois Spoerry, est l'une des stations balneaires modernes les plus reussies. Ce village lacustre aligne 2 500 maisons construites les pieds dans l'eau, accessibles par canaux et bateaux a fond plat, les « coches d'eau ». L'architecture est neo-provencale. Le marche se tient le jeudi et le dimanche matin, et les plages de Grimaud Port sont juste a cote.",
+        body: "Port-Grimaud, à 8 km au nord-ouest de Saint-Tropez et créé en 1966 par l'architecte François Spoerry, est l'une des stations balnéaires modernes les plus réussies. Ce village lacustre aligne 2 500 maisons construites les pieds dans l'eau, accessibles par canaux et bateaux à fond plat, les « coches d'eau ». L'architecture est néo-provençale. Le marché se tient le jeudi et le dimanche matin, et les plages de Grimaud Port sont juste à côté.",
       },
       {
         heading: "10. Gastronomie tropézienne — tarte et bouillabaisse",
-        body: "La cuisine tropezienne mele Provence et glamour. La tarte tropezienne fut creee en 1955 par le patissier polonais Alexandre Micka : une brioche fendue garnie de creme patissiere et de sucre cassonade, devenue celebre grace a Brigitte Bardot pendant le tournage de Et Dieu crea la femme. On y trouve aussi la bouillabaisse provencale (rascasse, vive, baudroie, congre, recette codifiee par la charte marseillaise), la brandade de morue et la soupe au pistou. Cote vins : Cotes-de-Provence rose et Bandol (a 50 km, rouge mourvedre).",
+        body: "La cuisine tropézienne mêle Provence et glamour. La tarte tropézienne fut créée en 1955 par le pâtissier polonais Alexandre Micka : une brioche fendue garnie de crème pâtissière et de sucre cassonade, devenue célèbre grâce à Brigitte Bardot pendant le tournage de Et Dieu créa la femme. On y trouve aussi la bouillabaisse provençale (rascasse, vive, baudroie, congre, recette codifiée par la charte marseillaise), la brandade de morue et la soupe au pistou. Côté vins : Côtes-de-Provence rosé et Bandol (à 50 km, rouge mourvèdre).",
       },
     ],
     relatedCities: ["saint-tropez"],
@@ -31385,47 +31385,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Menton est une station balneaire des Alpes-Maritimes de 29 000 habitants, a la frontiere italienne. Surnommee la « Perle de la France » par les Anglais qui en firent leur villegiature au XIXe siecle, la ville beneficie du climat le plus doux de France (28°C en juillet, 14°C en janvier) : c'est l'une des seules villes francaises ou les agrumes produisent en abondance, citrons, oranges, cedrats et kumquats. Elle est reputee pour sa Fete du Citron (fevrier-mars) et sa vieille ville baroque italienne.",
+    intro: "Menton est une station balnéaire des Alpes-Maritimes de 29 000 habitants, à la frontière italienne. Surnommée la « Perle de la France » par les Anglais qui en firent leur villégiature au XIXe siècle, la ville bénéficie du climat le plus doux de France (28°C en juillet, 14°C en janvier) : c'est l'une des seules villes françaises où les agrumes produisent en abondance, citrons, oranges, cédrats et kumquats. Elle est réputée pour sa Fête du Citron (février-mars) et sa vieille ville baroque italienne.",
     sections: [
       {
         heading: "1. La Fête du Citron — février-mars",
-        body: "La Fete du Citron de Menton (15 jours en fevrier-mars, depuis 1934, 250 000 visiteurs par an) est l'un des trois plus grands carnavals francais, avec Nice et Dunkerque. Sa particularite : 145 tonnes d'agrumes sont utilisees chaque annee pour fabriquer 15 chars geants, sculptures monumentales en oranges et citrons, et 8 jardins thematiques aux jardins Bioves. Des defiles nocturnes ont lieu les week-ends, sur un theme renouvele chaque annee. Reservez votre hotel 6 mois a l'avance.",
+        body: "La Fête du Citron de Menton (15 jours en février-mars, depuis 1934, 250 000 visiteurs par an) est l'un des trois plus grands carnavals français, avec Nice et Dunkerque. Sa particularité : 145 tonnes d'agrumes sont utilisées chaque année pour fabriquer 15 chars géants, sculptures monumentales en oranges et citrons, et 8 jardins thématiques aux jardins Biovès. Des défilés nocturnes ont lieu les week-ends, sur un thème renouvelé chaque année. Réservez votre hôtel 6 mois à l'avance.",
       },
       {
         heading: "2. La vieille ville baroque et la rampe Saint-Michel",
-        body: "La vieille ville de Menton, autour de la basilique Saint-Michel-Archange, est l'une des plus belles cites baroques de France, heritage du rattachement de Menton a la Maison de Monaco puis au royaume sarde italien (1848-1860, avant le rattachement a la France). On y admire des facades pastel italiennes, des ruelles pavees, la basilique Saint-Michel (baroque italien du XVIIe siecle, la plus grande eglise baroque du sud-est) et la chapelle des Penitents Blancs, du XVIIe siecle.",
+        body: "La vieille ville de Menton, autour de la basilique Saint-Michel-Archange, est l'une des plus belles cités baroques de France, héritage du rattachement de Menton à la Maison de Monaco puis au royaume sarde italien (1848-1860, avant le rattachement à la France). On y admire des façades pastel italiennes, des ruelles pavées, la basilique Saint-Michel (baroque italien du XVIIe siècle, la plus grande église baroque du sud-est) et la chapelle des Pénitents Blancs, du XVIIe siècle.",
       },
       {
         heading: "3. Les jardins exotiques — Serre de la Madone et Val Rahmeh",
-        body: "Menton compte plusieurs jardins exotiques exceptionnels grace a son climat. Le Val Rahmeh, a 1 km du centre et gere par le Museum national d'Histoire naturelle, presente plantes tropicales et subtropicales : c'est l'un des plus riches conservatoires de France. La Serre de la Madone, a 2 km, fut creee par Lawrence Johnston en 1924, un jardin paysager d'inspiration anglaise de 7 ha. Le Jardin Maria Serena est un jardin botanique dans un parc du XIXe siecle. L'ideal en hiver, en pleine floraison.",
+        body: "Menton compte plusieurs jardins exotiques exceptionnels grâce à son climat. Le Val Rahmeh, à 1 km du centre et géré par le Muséum national d'Histoire naturelle, présente plantes tropicales et subtropicales : c'est l'un des plus riches conservatoires de France. La Serre de la Madone, à 2 km, fut créée par Lawrence Johnston en 1924, un jardin paysager d'inspiration anglaise de 7 ha. Le Jardin Maria Serena est un jardin botanique dans un parc du XIXe siècle. L'idéal en hiver, en pleine floraison.",
       },
       {
         heading: "4. Le musée Jean Cocteau et le Bastion",
-        body: "Le Musee Jean-Cocteau de Menton, reparti sur deux sites (le Bastion du XVIIe siecle restaure et le musee principal Severin-Wunderman), abrite la plus grande collection mondiale d'oeuvres de Jean Cocteau : 1 800 oeuvres, dessins, manuscrits, films et costumes de ballet. Cocteau a aussi decore la salle des mariages de l'hotel de ville de Menton (fresques de 1957, visite payante a 4 EUR). Le Bastion, du XVIIe siecle, conserve son decor interieur signe Cocteau en 1957.",
+        body: "Le Musée Jean-Cocteau de Menton, réparti sur deux sites (le Bastion du XVIIe siècle restauré et le musée principal Séverin-Wunderman), abrite la plus grande collection mondiale d'œuvres de Jean Cocteau : 1 800 œuvres, dessins, manuscrits, films et costumes de ballet. Cocteau a aussi décoré la salle des mariages de l'hôtel de ville de Menton (fresques de 1957, visite payante à 4 €). Le Bastion, du XVIIe siècle, conserve son décor intérieur signé Cocteau en 1957.",
       },
       {
         heading: "5. Le Cap-Martin et la villa E-1027",
-        body: "Le Cap-Martin, a 3 km au sud-ouest de Menton, presqu'ile boisee du Domaine du Cap-Martin, est l'un des plus beaux promontoires de la Cote d'Azur. Le sentier du Cap-Martin, dit sentier de Le Corbusier (8 km en boucle), rappelle que le grand architecte y vecut et y mourut noye en 1965. La villa E-1027, signee Eileen Gray en 1929, est un chef-d'oeuvre du Mouvement Moderne qui se visite. Le Cabanon Le Corbusier, sa cabane minimaliste de 15 m2, etait son reve d'habitat.",
+        body: "Le Cap-Martin, à 3 km au sud-ouest de Menton, presqu'île boisée du Domaine du Cap-Martin, est l'un des plus beaux promontoires de la Côte d'Azur. Le sentier du Cap-Martin, dit sentier de Le Corbusier (8 km en boucle), rappelle que le grand architecte y vécut et y mourut noyé en 1965. La villa E-1027, signée Eileen Gray en 1929, est un chef-d'œuvre du Mouvement Moderne qui se visite. Le Cabanon Le Corbusier, sa cabane minimaliste de 15 m², était son rêve d'habitat.",
       },
       {
         heading: "6. Sospel et la vallée de la Roya",
-        body: "Sospel, a 25 km au nord de Menton dans l'arriere-pays mentonnais, est une cite medievale meconnue : pont medieval a peage (XIIIe siecle, l'un des derniers ponts a tour de France en activite jusqu'au XIXe siecle), vieille ville baroque et cathedrale Saint-Michel du XVIIe siecle. La vallee de la Roya, italienne historiquement et rattachee a la France en 1947, est la « vallee des merveilles », avec ses gravures rupestres prehistoriques et ses paysages alpins mediterraneens uniques.",
+        body: "Sospel, à 25 km au nord de Menton dans l'arrière-pays mentonnais, est une cité médiévale méconnue : pont médiéval à péage (XIIIe siècle, l'un des derniers ponts à tour de France en activité jusqu'au XIXe siècle), vieille ville baroque et cathédrale Saint-Michel du XVIIe siècle. La vallée de la Roya, italienne historiquement et rattachée à la France en 1947, est la « vallée des merveilles », avec ses gravures rupestres préhistoriques et ses paysages alpins méditerranéens uniques.",
       },
       {
         heading: "7. La vallée de la Bévéra et la Brigue",
-        body: "La vallee de la Bevera, au nord de Menton vers le col de Castillon, est la vallee du « pays vert mentonnais », aux paysages alpestres a 30 km de la mer. La Brigue, a 50 km au nord dans la vallee de la Roya, est l'un des plus beaux villages medievaux des Alpes-Maritimes, avec sa vieille ville en pierre. La vallee des Merveilles toute proche est inscrite au Patrimoine UNESCO pour ses gravures rupestres de l'Age du bronze, au coeur du parc national du Mercantour.",
+        body: "La vallée de la Bévéra, au nord de Menton vers le col de Castillon, est la vallée du « pays vert mentonnais », aux paysages alpestres à 30 km de la mer. La Brigue, à 50 km au nord dans la vallée de la Roya, est l'un des plus beaux villages médiévaux des Alpes-Maritimes, avec sa vieille ville en pierre. La vallée des Merveilles toute proche est inscrite au Patrimoine UNESCO pour ses gravures rupestres de l'Âge du bronze, au cœur du parc national du Mercantour.",
       },
       {
         heading: "8. Le « train des merveilles » — la ligne Tende-Nice",
-        body: "La ligne ferroviaire Tende-Nice, le « train des merveilles », traverse l'arriere-pays mentonnais et nicois : c'est l'une des plus belles lignes de France, ouverte en 1928, qui mele viaducs et tunnels alpins. L'etape Menton-Sospel-Tende-Nice prend 4h aller-retour. Cette ligne historique permet aussi de rejoindre l'Italie, Cuneo et Turin. Un must pour les amateurs de paysages ferroviaires.",
+        body: "La ligne ferroviaire Tende-Nice, le « train des merveilles », traverse l'arrière-pays mentonnais et niçois : c'est l'une des plus belles lignes de France, ouverte en 1928, qui mêle viaducs et tunnels alpins. L'étape Menton-Sospel-Tende-Nice prend 4h aller-retour. Cette ligne historique permet aussi de rejoindre l'Italie, Cuneo et Turin. Un must pour les amateurs de paysages ferroviaires.",
       },
       {
         heading: "9. Monaco et Monte-Carlo — à 10 km",
-        body: "Monaco, a 10 km a l'ouest de Menton, est un micro-Etat independant de 38 000 habitants : la principaute la plus peuplee du monde. A voir : le Casino de Monte-Carlo (palais Belle Epoque de 1863), le palais princier (releve de la garde tous les jours a 11h55), le musee oceanographique (cree en 1910 par le prince Albert Ier, l'un des plus beaux aquariums du monde) et le Grand Prix de Monaco fin mai. Accessible en train depuis Menton (10 min, 2 EUR).",
+        body: "Monaco, à 10 km à l'ouest de Menton, est un micro-État indépendant de 38 000 habitants : la principauté la plus peuplée du monde. À voir : le Casino de Monte-Carlo (palais Belle Époque de 1863), le palais princier (relève de la garde tous les jours à 11h55), le musée océanographique (créé en 1910 par le prince Albert Ier, l'un des plus beaux aquariums du monde) et le Grand Prix de Monaco fin mai. Accessible en train depuis Menton (10 min, 2 €).",
       },
       {
         heading: "10. Gastronomie mentonnaise — pichade et citron",
-        body: "La cuisine de Menton melange Provence et Italie. La pichade mentonnaise (tarte a la tomate, oignons et anchois) est la version locale de la pissaladiere nicoise, aux cotes des barbajuans (raviolis sucres frits, mentonnais), de la socca (galette de farine de pois chiches partagee avec Nice) et de la tielle, d'heritage italien. Cote sucre, les tartes au citron de Menton (IGP depuis 2015, le plus prestigieux citron francais), la confiture de citron et le limoncello mentonnais. Cote vins : le Bellet (a 15 km a l'ouest), un AOC nicois unique.",
+        body: "La cuisine de Menton mélange Provence et Italie. La pichade mentonnaise (tarte à la tomate, oignons et anchois) est la version locale de la pissaladière niçoise, aux côtés des barbajuans (raviolis sucrés frits, mentonnais), de la socca (galette de farine de pois chiches partagée avec Nice) et de la tielle, d'héritage italien. Côté sucre, les tartes au citron de Menton (IGP depuis 2015, le plus prestigieux citron français), la confiture de citron et le limoncello mentonnais. Côté vins : le Bellet (à 15 km à l'ouest), un AOC niçois unique.",
       },
     ],
     relatedCities: ["menton"],
@@ -31445,47 +31445,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Epernay est une commune de la Marne de 23 000 habitants, surnommee la « Capitale du Champagne » : elle est le siege des plus grandes maisons, Moet & Chandon, Mercier, Perrier-Jouet, De Castellane et Pol Roger. Situee a 30 km au sud-ouest de Reims, au confluent de la Marne et du Cubry, elle est au coeur de l'AOC Champagne (33 000 ha sur la Marne, l'Aube, l'Aisne et la Seine-et-Marne). L'Avenue de Champagne, 1,5 km de palais des maisons de Champagne des XVIIIe au XXe siecles, est classee UNESCO depuis 2015.",
+    intro: "Épernay est une commune de la Marne de 23 000 habitants, surnommée la « Capitale du Champagne » : elle est le siège des plus grandes maisons, Moët & Chandon, Mercier, Perrier-Jouët, De Castellane et Pol Roger. Située à 30 km au sud-ouest de Reims, au confluent de la Marne et du Cubry, elle est au cœur de l'AOC Champagne (33 000 ha sur la Marne, l'Aube, l'Aisne et la Seine-et-Marne). L'Avenue de Champagne, 1,5 km de palais des maisons de Champagne des XVIIIe au XXe siècles, est classée UNESCO depuis 2015.",
     sections: [
       {
         heading: "1. L'Avenue de Champagne — UNESCO depuis 2015",
-        body: "L'Avenue de Champagne d'Epernay (1,5 km, classee UNESCO depuis 2015 au titre des « Coteaux, Maisons et Caves de Champagne ») est surnommee la « plus chere avenue du monde ». Sous chaque metre de pave, 200 000 bouteilles vieillissent dans les caves, celles de Moet courant sur 28 km a 30 m de profondeur. On y aligne les palais des grandes maisons : Moet & Chandon (le Chateau Trianon, du XIXe siecle), Pol Roger (palais Renaissance), De Castellane et Perrier-Jouet. Comptez 1h a pied en boucle.",
+        body: "L'Avenue de Champagne d'Épernay (1,5 km, classée UNESCO depuis 2015 au titre des « Coteaux, Maisons et Caves de Champagne ») est surnommée la « plus chère avenue du monde ». Sous chaque mètre de pavé, 200 000 bouteilles vieillissent dans les caves, celles de Moët courant sur 28 km à 30 m de profondeur. On y aligne les palais des grandes maisons : Moët & Chandon (le Château Trianon, du XIXe siècle), Pol Roger (palais Renaissance), De Castellane et Perrier-Jouët. Comptez 1h à pied en boucle.",
       },
       {
         heading: "2. Moët & Chandon — la plus grande maison de Champagne",
-        body: "Moet & Chandon, fondee en 1743 par Claude Moet, est la plus grande maison de Champagne au monde (28 millions de bouteilles par an, propriete de LVMH depuis 1987) et propose la visite la plus emblematique. Le parcours descend dans les caves souterraines a 30 m de profondeur (28 km de galeries, la plus grande cave de champagne au monde), retrace l'histoire de la maison et se conclut par la degustation de 2 cuvees, le Brut Imperial et le Rose Imperial. Comptez 1h pour 35 EUR, sur reservation obligatoire des semaines a l'avance.",
+        body: "Moët & Chandon, fondée en 1743 par Claude Moët, est la plus grande maison de Champagne au monde (28 millions de bouteilles par an, propriété de LVMH depuis 1987) et propose la visite la plus emblématique. Le parcours descend dans les caves souterraines à 30 m de profondeur (28 km de galeries, la plus grande cave de champagne au monde), retrace l'histoire de la maison et se conclut par la dégustation de 2 cuvées, le Brut Impérial et le Rosé Impérial. Comptez 1h pour 35 €, sur réservation obligatoire des semaines à l'avance.",
       },
       {
         heading: "3. Mercier — la cave avec le train",
-        body: "La Maison Mercier, fondee en 1858 par Eugene Mercier (le premier a pratiquer le « champagne du peuple » a prix democratique, avec 100 millions de bouteilles vendues entre 1858 et 1900), est connue pour son audace marketing du XIXe siecle. On visite ses caves souterraines (18 km a 30 m de profondeur) en petit train electrique : c'est la visite la plus ludique des grandes maisons. Le foudre Mercier, le plus grand tonneau du monde (200 000 litres), fut fabrique en 1875 pour l'Exposition universelle. Comptez 1h pour 25 EUR.",
+        body: "La Maison Mercier, fondée en 1858 par Eugène Mercier (le premier à pratiquer le « champagne du peuple » à prix démocratique, avec 100 millions de bouteilles vendues entre 1858 et 1900), est connue pour son audace marketing du XIXe siècle. On visite ses caves souterraines (18 km à 30 m de profondeur) en petit train électrique : c'est la visite la plus ludique des grandes maisons. Le foudre Mercier, le plus grand tonneau du monde (200 000 litres), fut fabriqué en 1875 pour l'Exposition universelle. Comptez 1h pour 25 €.",
       },
       {
         heading: "4. Hautvillers — Dom Pérignon",
-        body: "Hautvillers, a 6 km au nord-ouest d'Epernay et plus beau village de Champagne, est le village ou Dom Pierre Perignon a vecu et est enterre. Ce moine benedictin de l'abbaye Saint-Pierre (1638-1715), le « pere du champagne », a invente la methode champenoise et l'assemblage des cepages. L'abbaye Saint-Pierre d'Hautvillers (du XIIe siecle, propriete Moet & Chandon) abrite sa tombe. La visite du village se fait a pied, ponctuee de panneaux d'interpretation, avec une vue panoramique sur les vignobles.",
+        body: "Hautvillers, à 6 km au nord-ouest d'Épernay et plus beau village de Champagne, est le village où Dom Pierre Pérignon a vécu et est enterré. Ce moine bénédictin de l'abbaye Saint-Pierre (1638-1715), le « père du champagne », a inventé la méthode champenoise et l'assemblage des cépages. L'abbaye Saint-Pierre d'Hautvillers (du XIIe siècle, propriété Moët & Chandon) abrite sa tombe. La visite du village se fait à pied, ponctuée de panneaux d'interprétation, avec une vue panoramique sur les vignobles.",
       },
       {
         heading: "5. La route du Champagne — vignobles AOC",
-        body: "La route touristique du Champagne (700 km de routes balisees a travers la Marne, l'Aube, l'Aisne et la Seine-et-Marne) est l'une des plus belles routes oenologiques de France. Au depart d'Epernay : la Vallee de la Marne, la Montagne de Reims et la Cote des Blancs. Des caveaux ouvrent dans les villages de Cumieres, Ay, Bouzy ou Avize. Les vendanges ont lieu en septembre, et sont manuelles : c'est l'une des seules vendanges manuelles obligatoires en France.",
+        body: "La route touristique du Champagne (700 km de routes balisées à travers la Marne, l'Aube, l'Aisne et la Seine-et-Marne) est l'une des plus belles routes œnologiques de France. Au départ d'Épernay : la Vallée de la Marne, la Montagne de Reims et la Côte des Blancs. Des caveaux ouvrent dans les villages de Cumières, Aÿ, Bouzy ou Avize. Les vendanges ont lieu en septembre, et sont manuelles : c'est l'une des seules vendanges manuelles obligatoires en France.",
       },
       {
         heading: "6. Reims — la cathédrale UNESCO à 30 km",
-        body: "Reims, a 30 km au nord-est d'Epernay, est la capitale historique du Champagne. Sa cathedrale Notre-Dame, gothique du XIIIe siecle, fut le lieu du sacre des rois de France et est classee UNESCO. On y visite les grandes maisons (Veuve Clicquot, Pommery, Taittinger et Ruinart, la plus ancienne, fondee en 1729, dont les cellules de craie sont creusees sous la ville a 30 m de profondeur). Pour un panorama complet de la Champagne, bouclez Reims-Epernay-Ay-Bouzy en 60 km.",
+        body: "Reims, à 30 km au nord-est d'Épernay, est la capitale historique du Champagne. Sa cathédrale Notre-Dame, gothique du XIIIe siècle, fut le lieu du sacre des rois de France et est classée UNESCO. On y visite les grandes maisons (Veuve Clicquot, Pommery, Taittinger et Ruinart, la plus ancienne, fondée en 1729, dont les cellules de craie sont creusées sous la ville à 30 m de profondeur). Pour un panorama complet de la Champagne, bouclez Reims-Épernay-Aÿ-Bouzy en 60 km.",
       },
       {
         heading: "7. Le Manège — théâtre Belle Époque",
-        body: "Le Manege d'Epernay (1853) est l'une des plus belles salles du XIXe siecle de Champagne, avec son fer forge, sa charpente metallique et ses fauteuils en velours rouge. La programmation, theatre, concerts et conferences, court toute l'annee. A cote, la Maison du Champagne d'Epernay, musee regional du vin, presente l'histoire des cepages et de la production champenoise. C'est gratuit.",
+        body: "Le Manège d'Épernay (1853) est l'une des plus belles salles du XIXe siècle de Champagne, avec son fer forgé, sa charpente métallique et ses fauteuils en velours rouge. La programmation, théâtre, concerts et conférences, court toute l'année. À côté, la Maison du Champagne d'Épernay, musée régional du vin, présente l'histoire des cépages et de la production champenoise. C'est gratuit.",
       },
       {
         heading: "8. La Côte des Blancs — Avize et Cramant",
-        body: "La Cote des Blancs, a l'est d'Epernay sur 20 km (Cramant, Avize, Oger, Le Mesnil-sur-Oger), est l'une des sous-regions les plus prestigieuses de l'AOC Champagne, exclusivement plantee en chardonnay (le « vin de blanc »). On y trouve des domaines de reference : le Domaine Krug (a Mesnil-sur-Oger), le Domaine Pol Roger et le Domaine Salon (a Mesnil), l'un des champagnes les plus chers du monde. Un sentier balise parcourt la Cote des Blancs sur 12 km.",
+        body: "La Côte des Blancs, à l'est d'Épernay sur 20 km (Cramant, Avize, Oger, Le Mesnil-sur-Oger), est l'une des sous-régions les plus prestigieuses de l'AOC Champagne, exclusivement plantée en chardonnay (le « vin de blanc »). On y trouve des domaines de référence : le Domaine Krug (à Mesnil-sur-Oger), le Domaine Pol Roger et le Domaine Salon (à Mesnil), l'un des champagnes les plus chers du monde. Un sentier balisé parcourt la Côte des Blancs sur 12 km.",
       },
       {
         heading: "9. Châlons-en-Champagne — la cathédrale UNESCO",
-        body: "Chalons-en-Champagne, a 30 km a l'est d'Epernay, est la prefecture de la Marne. La cathedrale Saint-Etienne, gothique champenois du XIIIe siecle, est classee UNESCO comme etape de Saint-Jacques, tout comme la collegiale Notre-Dame-en-Vaux, romane du XIIe siecle. Capitale administrative de la Champagne historique, la ville est moins glamour qu'Epernay mais plus authentique.",
+        body: "Châlons-en-Champagne, à 30 km à l'est d'Épernay, est la préfecture de la Marne. La cathédrale Saint-Étienne, gothique champenois du XIIIe siècle, est classée UNESCO comme étape de Saint-Jacques, tout comme la collégiale Notre-Dame-en-Vaux, romane du XIIe siècle. Capitale administrative de la Champagne historique, la ville est moins glamour qu'Épernay mais plus authentique.",
       },
       {
         heading: "10. Gastronomie champenoise — pieds de cochon et biscuit rose",
-        body: "La cuisine de Champagne est rustique. Les pieds de cochon Sainte-Menehould (a 50 km a l'est) suivent une recette inventee par Louis XV de passage en 1730, des pieds de cochon panes et grilles, aux cotes de l'andouillette de Troyes AAAAA (a 90 km au sud), de la potee champenoise (chou, lard, saucisses) et du boudin blanc de Rethel (a 100 km au nord). Cote sucre, les biscuits roses de Reims, les plus anciens biscuits francais (recette de 1690), se trempent dans le champagne. Les vins : le Champagne evidemment, le Coteaux Champenois (rouge tranquille) et le Rose des Riceys, l'un des roses AOC les plus rares de France.",
+        body: "La cuisine de Champagne est rustique. Les pieds de cochon Sainte-Menehould (à 50 km à l'est) suivent une recette inventée par Louis XV de passage en 1730, des pieds de cochon panés et grillés, aux côtés de l'andouillette de Troyes AAAAA (à 90 km au sud), de la potée champenoise (chou, lard, saucisses) et du boudin blanc de Rethel (à 100 km au nord). Côté sucre, les biscuits roses de Reims, les plus anciens biscuits français (recette de 1690), se trempent dans le champagne. Les vins : le Champagne évidemment, le Coteaux Champenois (rouge tranquille) et le Rosé des Riceys, l'un des rosés AOC les plus rares de France.",
       },
     ],
     relatedCities: ["epernay", "chalons-en-champagne"],
@@ -31505,47 +31505,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Provins est une cite medievale du sud de la Seine-et-Marne, 12 000 habitants, et l'une des cites medievales les mieux preservees de France, classee patrimoine mondial UNESCO depuis 2001. Capitale des Foires de Champagne au Moyen Age (XIIe-XIIIe siecles, les plus grandes foires commerciales d'Europe avec Lagny, Bar-sur-Aube et Troyes), Provins fut l'une des plus riches cites du royaume, d'ou ses 27 hectares de remparts intacts, ses souterrains et ses spectacles medievaux en saison.",
+    intro: "Provins est une cité médiévale du sud de la Seine-et-Marne, 12 000 habitants, et l'une des cités médiévales les mieux préservées de France, classée patrimoine mondial UNESCO depuis 2001. Capitale des Foires de Champagne au Moyen Âge (XIIe-XIIIe siècles, les plus grandes foires commerciales d'Europe avec Lagny, Bar-sur-Aube et Troyes), Provins fut l'une des plus riches cités du royaume, d'où ses 27 hectares de remparts intacts, ses souterrains et ses spectacles médiévaux en saison.",
     sections: [
       {
         heading: "1. La cité médiévale — UNESCO",
-        body: "La cite medievale de Provins, classee patrimoine mondial UNESCO depuis 2001 comme « cite des Foires de Champagne », est l'une des plus completes d'Europe. Elle aligne 27 ha de remparts intacts (XIIe-XIIIe siecles, 22 tours debout), une Ville Haute et une Ville Basse separees, et des souterrains medievaux qui forment une extension parallele de la ville, soit 10 km de galeries au total. L'architecture militaire et civile medievale y est exceptionnelle.",
+        body: "La cité médiévale de Provins, classée patrimoine mondial UNESCO depuis 2001 comme « cité des Foires de Champagne », est l'une des plus complètes d'Europe. Elle aligne 27 ha de remparts intacts (XIIe-XIIIe siècles, 22 tours debout), une Ville Haute et une Ville Basse séparées, et des souterrains médiévaux qui forment une extension parallèle de la ville, soit 10 km de galeries au total. L'architecture militaire et civile médiévale y est exceptionnelle.",
       },
       {
         heading: "2. La tour César — le donjon emblématique",
-        body: "La Tour Cesar, du XIIe siecle et haute de 44 m, est l'un des plus impressionnants donjons medievaux francais et l'icone de Provins. Ce donjon octogonal a 4 niveaux se gravit par un escalier en colimacon, jusqu'a une vue panoramique a 360° sur la ville et la campagne briarde. Il servit de prison a Jean le Bon, roi de France capture par les Anglais en 1356 a la bataille de Poitiers. La visite est payante, incluse dans le pass Provins.",
+        body: "La Tour César, du XIIe siècle et haute de 44 m, est l'un des plus impressionnants donjons médiévaux français et l'icône de Provins. Ce donjon octogonal à 4 niveaux se gravit par un escalier en colimaçon, jusqu'à une vue panoramique à 360° sur la ville et la campagne briarde. Il servit de prison à Jean le Bon, roi de France capturé par les Anglais en 1356 à la bataille de Poitiers. La visite est payante, incluse dans le pass Provins.",
       },
       {
         heading: "3. Les souterrains médiévaux — 10 km",
-        body: "Les souterrains de Provins (galeries creusees du XIIe au XVIe siecle, 10 km au total, avec 200 caves medievales encore intactes dans la Ville Haute) sont uniques en Europe. Les visites guidees couvrent une centaine de metres, sur 4 m de hauteur, a 10°C constant, sous des voutes en pierre. Ces galeries servaient probablement a stocker des marchandises pendant les Foires de Champagne. La visite est incluse dans le pass Provins.",
+        body: "Les souterrains de Provins (galeries creusées du XIIe au XVIe siècle, 10 km au total, avec 200 caves médiévales encore intactes dans la Ville Haute) sont uniques en Europe. Les visites guidées couvrent une centaine de mètres, sur 4 m de hauteur, à 10°C constant, sous des voûtes en pierre. Ces galeries servaient probablement à stocker des marchandises pendant les Foires de Champagne. La visite est incluse dans le pass Provins.",
       },
       {
         heading: "4. Les spectacles médiévaux — La Légende des Chevaliers",
-        body: "Provins propose 4 grands spectacles medievaux en saison (avril-octobre) qui font sa reputation : « La Legende des Chevaliers » (equestre, joutes, demonstrations d'armes), « Aigles des Remparts » (fauconnerie sur les remparts), « Au Temps des Remparts » (assaut medieval a la catapulte et au trebuchet) et « La Geste des Chevaliers Errants » (theatre medieval). Le Festival des Medievales (un week-end de juin) est une fete medievale grandeur nature. Reservation conseillee.",
+        body: "Provins propose 4 grands spectacles médiévaux en saison (avril-octobre) qui font sa réputation : « La Légende des Chevaliers » (équestre, joutes, démonstrations d'armes), « Aigles des Remparts » (fauconnerie sur les remparts), « Au Temps des Remparts » (assaut médiéval à la catapulte et au trébuchet) et « La Geste des Chevaliers Errants » (théâtre médiéval). Le Festival des Médiévales (un week-end de juin) est une fête médiévale grandeur nature. Réservation conseillée.",
       },
       {
         heading: "5. La Grange aux Dîmes — cellier médiéval",
-        body: "La Grange aux Dimes, du XIIIe siecle, ancien cellier de stockage des marchandises des Foires de Champagne, abrite aujourd'hui une scenographie immersive sur ces memes foires, avec la reconstitution d'un marche medieval (12 personnages animes, mise en scene par Stephanie Beghain). Pedagogique, c'est l'ideal pour les enfants. La visite est incluse dans le pass Provins.",
+        body: "La Grange aux Dîmes, du XIIIe siècle, ancien cellier de stockage des marchandises des Foires de Champagne, abrite aujourd'hui une scénographie immersive sur ces mêmes foires, avec la reconstitution d'un marché médiéval (12 personnages animés, mise en scène par Stéphanie Béghain). Pédagogique, c'est l'idéal pour les enfants. La visite est incluse dans le pass Provins.",
       },
       {
         heading: "6. La rose de Provins — la fleur héraldique",
-        body: "La Rose de Provins, la « rose des roseraies de Provins », est une rose medicinale medievale rapportee des Croisades par Thibaut IV de Champagne en 1240. C'est elle qui a donne la fameuse rose des York-Lancastre des guerres anglaises, emportee en Angleterre par Edmond de Lancastre, fils du roi Henri III. La roseraie de Provins, sur les remparts et gratuite, est l'une des plus belles de France, avec une floraison en juin.",
+        body: "La Rose de Provins, la « rose des roseraies de Provins », est une rose médicinale médiévale rapportée des Croisades par Thibaut IV de Champagne en 1240. C'est elle qui a donné la fameuse rose des York-Lancastre des guerres anglaises, emportée en Angleterre par Edmond de Lancastre, fils du roi Henri III. La roseraie de Provins, sur les remparts et gratuite, est l'une des plus belles de France, avec une floraison en juin.",
       },
       {
         heading: "7. Disneyland Paris — à 45 km",
-        body: "Disneyland Paris, a 45 km au nord-ouest de Provins a Marne-la-Vallee, est le premier parc d'attractions d'Europe (15 millions de visiteurs par an) et se rejoint depuis Provins en 1h. Il reunit le parc Disneyland et le parc Walt Disney Studios. Parmi les attractions emblematiques : Big Thunder Mountain, Phantom Manor, Pirates des Caraibes, Tower of Terror et le Chateau de la Belle au Bois Dormant, l'embleme du parc europeen. Comptez une a deux journees pleines pour tout voir.",
+        body: "Disneyland Paris, à 45 km au nord-ouest de Provins à Marne-la-Vallée, est le premier parc d'attractions d'Europe (15 millions de visiteurs par an) et se rejoint depuis Provins en 1h. Il réunit le parc Disneyland et le parc Walt Disney Studios. Parmi les attractions emblématiques : Big Thunder Mountain, Phantom Manor, Pirates des Caraïbes, Tower of Terror et le Château de la Belle au Bois Dormant, l'emblème du parc européen. Comptez une à deux journées pleines pour tout voir.",
       },
       {
         heading: "8. Le château de Vaux-le-Vicomte — à 50 km",
-        body: "Vaux-le-Vicomte, a 50 km a l'ouest de Provins et classique du XVIIe siecle, est le chateau qui inspira Louis XIV pour Versailles. Construit en 5 ans (1656-1661) par Nicolas Fouquet, surintendant des Finances de Louis XIV (son ascension provoqua la jalousie du roi, qui le fit emprisonner a vie en 1661), il marie l'architecture de Louis Le Vau, les jardins d'Andre Le Notre et le decor interieur de Charles Le Brun. Les Soirees aux Chandelles (juillet-aout) illuminent parc et chateau a la lueur de 2 000 bougies.",
+        body: "Vaux-le-Vicomte, à 50 km à l'ouest de Provins et classique du XVIIe siècle, est le château qui inspira Louis XIV pour Versailles. Construit en 5 ans (1656-1661) par Nicolas Fouquet, surintendant des Finances de Louis XIV (son ascension provoqua la jalousie du roi, qui le fit emprisonner à vie en 1661), il marie l'architecture de Louis Le Vau, les jardins d'André Le Nôtre et le décor intérieur de Charles Le Brun. Les Soirées aux Chandelles (juillet-août) illuminent parc et château à la lueur de 2 000 bougies.",
       },
       {
         heading: "9. Fontainebleau — le château royal UNESCO",
-        body: "Fontainebleau, a 50 km au sud-ouest de Provins, abrite le chateau royal de Fontainebleau (XIIe-XIXe siecles, classe UNESCO), residence de 30 rois et 2 empereurs de Francois Ier a Napoleon III. On y compte 1 500 pieces et 130 ha de parc. La galerie Francois Ier (1530) fut le premier salon Renaissance italianisant en France, completee par les appartements imperiaux et la Cour des Adieux. A combiner avec la foret de Fontainebleau (25 000 ha), prisee pour l'escalade de bloc et ses sentiers.",
+        body: "Fontainebleau, à 50 km au sud-ouest de Provins, abrite le château royal de Fontainebleau (XIIe-XIXe siècles, classé UNESCO), résidence de 30 rois et 2 empereurs de François Ier à Napoléon III. On y compte 1 500 pièces et 130 ha de parc. La galerie François Ier (1530) fut le premier salon Renaissance italianisant en France, complétée par les appartements impériaux et la Cour des Adieux. À combiner avec la forêt de Fontainebleau (25 000 ha), prisée pour l'escalade de bloc et ses sentiers.",
       },
       {
         heading: "10. Gastronomie briarde — Brie et fontainebleau",
-        body: "La cuisine de Provins et de la Brie est rurale et fromagere. Le Brie de Meaux AOP (a 60 km au nord) est le « roi des fromages », aux cotes du Brie de Melun AOP (a 35 km au nord, plus rare et plus puissant) et du Coulommiers (a 50 km, soeur du Brie, sans AOP). Specialite d'origine : le Fontainebleau, fromage frais battu avec creme montee, cree a Fontainebleau au XIXe siecle et servi avec un coulis de fruits rouges. On y trouve aussi des pates et terrines briards. Cote vins : le Champagne, a 80 km a l'est.",
+        body: "La cuisine de Provins et de la Brie est rurale et fromagère. Le Brie de Meaux AOP (à 60 km au nord) est le « roi des fromages », aux côtés du Brie de Melun AOP (à 35 km au nord, plus rare et plus puissant) et du Coulommiers (à 50 km, sœur du Brie, sans AOP). Spécialité d'origine : le Fontainebleau, fromage frais battu avec crème montée, créé à Fontainebleau au XIXe siècle et servi avec un coulis de fruits rouges. On y trouve aussi des pâtés et terrines briards. Côté vins : le Champagne, à 80 km à l'est.",
       },
     ],
     relatedCities: ["provins", "fontainebleau"],
@@ -31978,47 +31978,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Amboise est une commune d'Indre-et-Loire de 13 000 habitants, posee au bord de la Loire. C'est une ancienne residence royale : Charles VIII y a passe son enfance et Francois Ier y a fait construire le Clos Luce pour Leonard de Vinci, qui y a vecu ses 3 dernieres annees et y est enterre. Au coeur du Val de Loire classe a l'UNESCO, a 25 km a l'est de Tours, Amboise est la porte d'entree des plus beaux chateaux Renaissance de France : Chenonceau, Chambord, Blois et Cheverny.",
+    intro: "Amboise est une commune d'Indre-et-Loire de 13 000 habitants, posée au bord de la Loire. C'est une ancienne résidence royale : Charles VIII y a passé son enfance et François Ier y a fait construire le Clos Lucé pour Léonard de Vinci, qui y a vécu ses 3 dernières années et y est enterré. Au cœur du Val de Loire classé à l'UNESCO, à 25 km à l'est de Tours, Amboise est la porte d'entrée des plus beaux châteaux Renaissance de France : Chenonceau, Chambord, Blois et Cheverny.",
     sections: [
       {
         heading: "1. Le château royal d'Amboise — résidence royale",
-        body: "Le chateau royal d'Amboise (XIIe-XVe siecles, ancienne residence royale de Charles VIII et Francois Ier, classe a l'UNESCO comme element du Val de Loire) domine la ville depuis sa terrasse en surplomb de la Loire. Charles VIII le fit reconstruire apres son retour d'Italie en 1495 : c'est le premier chateau francais a integrer l'architecture italienne, avec son escalier en colimacon et ses motifs antiques. Vous y verrez le logis royal, la Tour des Minimes et la chapelle Saint-Hubert, ou Leonard de Vinci est enterre. La vue panoramique sur la Loire depuis les terrasses vaut a elle seule la visite.",
+        body: "Le château royal d'Amboise (XIIe-XVe siècles, ancienne résidence royale de Charles VIII et François Ier, classé à l'UNESCO comme élément du Val de Loire) domine la ville depuis sa terrasse en surplomb de la Loire. Charles VIII le fit reconstruire après son retour d'Italie en 1495 : c'est le premier château français à intégrer l'architecture italienne, avec son escalier en colimaçon et ses motifs antiques. Vous y verrez le logis royal, la Tour des Minimes et la chapelle Saint-Hubert, où Léonard de Vinci est enterré. La vue panoramique sur la Loire depuis les terrasses vaut à elle seule la visite.",
       },
       {
         heading: "2. Le Clos Lucé — la maison de Léonard de Vinci",
-        body: "A 500 m du chateau royal, le Clos Luce est un ancien manoir du XVe siecle que Francois Ier offrit a Leonard de Vinci en 1516. C'est le lieu ou le maitre italien (1452-1519) a vecu ses 3 dernieres annees, invite par le jeune roi alors qu'il avait 64 ans. On y decouvre le mobilier d'epoque, la chambre ou il est mort et ses ateliers reconstitues. Le parc Leonardo da Vinci abrite 40 machines fonctionnelles construites d'apres ses croquis (char d'assaut, vis aerienne et autres), dans l'une des meilleures scenographies pedagogiques de France.",
+        body: "À 500 m du château royal, le Clos Lucé est un ancien manoir du XVe siècle que François Ier offrit à Léonard de Vinci en 1516. C'est le lieu où le maître italien (1452-1519) a vécu ses 3 dernières années, invité par le jeune roi alors qu'il avait 64 ans. On y découvre le mobilier d'époque, la chambre où il est mort et ses ateliers reconstitués. Le parc Leonardo da Vinci abrite 40 machines fonctionnelles construites d'après ses croquis (char d'assaut, vis aérienne et autres), dans l'une des meilleures scénographies pédagogiques de France.",
       },
       {
         heading: "3. Chenonceau — le château des Dames",
-        body: "Le chateau de Chenonceau (a 12 km au sud-est d'Amboise, XVIe siecle Renaissance) est l'un des plus visites de France apres Versailles, avec 800 000 visiteurs par an. On le surnomme le chateau des Dames, car six femmes ont marque son histoire : Catherine Bricconnet qui le fit construire, Diane de Poitiers maitresse d'Henri II, Catherine de Medicis et Louise de Lorraine. Son pont-galerie sur le Cher, long de 60 m, est unique en France. On y admire le jardin de Diane de Poitiers, celui de Catherine de Medicis et un mobilier d'origine.",
+        body: "Le château de Chenonceau (à 12 km au sud-est d'Amboise, XVIe siècle Renaissance) est l'un des plus visités de France après Versailles, avec 800 000 visiteurs par an. On le surnomme le château des Dames, car six femmes ont marqué son histoire : Catherine Briçonnet qui le fit construire, Diane de Poitiers maîtresse d'Henri II, Catherine de Médicis et Louise de Lorraine. Son pont-galerie sur le Cher, long de 60 m, est unique en France. On y admire le jardin de Diane de Poitiers, celui de Catherine de Médicis et un mobilier d'origine.",
       },
       {
         heading: "4. Chambord — le plus grand château Renaissance",
-        body: "Le chateau de Chambord (a 35 km au nord-est d'Amboise, 1519-1547, Francois Ier) est le plus grand chateau Renaissance du monde et l'icone absolue du Val de Loire. Il aligne 156 m de facade, 426 pieces, 282 cheminees et 77 escaliers, dont le celebre escalier a double revolution attribue a Leonard de Vinci. Ses 5 000 ha de foret et son parc clos forment le plus grand parc clos d'Europe, ceint de 32 km de mur. Le coucher de soleil sur la facade y est particulierement photogenique.",
+        body: "Le château de Chambord (à 35 km au nord-est d'Amboise, 1519-1547, François Ier) est le plus grand château Renaissance du monde et l'icône absolue du Val de Loire. Il aligne 156 m de façade, 426 pièces, 282 cheminées et 77 escaliers, dont le célèbre escalier à double révolution attribué à Léonard de Vinci. Ses 5 000 ha de forêt et son parc clos forment le plus grand parc clos d'Europe, ceint de 32 km de mur. Le coucher de soleil sur la façade y est particulièrement photogénique.",
       },
       {
         heading: "5. Blois — le château royal des Bourbons",
-        body: "A 35 km au nord-est d'Amboise, Blois abrite le chateau royal de Blois, l'un des plus complets chateaux francais. Ses 4 ailes representent 4 epoques : Louis XII gothique, Francois Ier Renaissance, Gaston d'Orleans classique du XVIIe et le medieval des XIIIe-XIVe siecles. C'est ici que le duc de Guise fut assassine par Henri III en 1588, episode majeur des guerres de Religion. Ne manquez pas l'aile Francois Ier et son escalier en colimacon octogonal sculpte.",
+        body: "À 35 km au nord-est d'Amboise, Blois abrite le château royal de Blois, l'un des plus complets châteaux français. Ses 4 ailes représentent 4 époques : Louis XII gothique, François Ier Renaissance, Gaston d'Orléans classique du XVIIe et le médiéval des XIIIe-XIVe siècles. C'est ici que le duc de Guise fut assassiné par Henri III en 1588, épisode majeur des guerres de Religion. Ne manquez pas l'aile François Ier et son escalier en colimaçon octogonal sculpté.",
       },
       {
         heading: "6. Cheverny — le modèle de Moulinsart",
-        body: "Le chateau de Cheverny (a 50 km au nord-est d'Amboise, XVIIe siecle classique) est le plus authentique chateau de la Loire encore habite, par la famille Hurault depuis 6 siecles. Herge s'en est inspire pour Moulinsart, le chateau du Capitaine Haddock dans Tintin. Vous y verrez la facade Louis XIII en pierre de Bourre, cette pierre tendre qui durcit a l'air, et un mobilier d'origine. La meute de chasse a courre compte 90 chiens (demonstration de la soupe a 17h), et une exposition permanente est consacree a Tintin et l'aventure de Moulinsart.",
+        body: "Le château de Cheverny (à 50 km au nord-est d'Amboise, XVIIe siècle classique) est le plus authentique château de la Loire encore habité, par la famille Hurault depuis 6 siècles. Hergé s'en est inspiré pour Moulinsart, le château du Capitaine Haddock dans Tintin. Vous y verrez la façade Louis XIII en pierre de Bourré, cette pierre tendre qui durcit à l'air, et un mobilier d'origine. La meute de chasse à courre compte 90 chiens (démonstration de la soupe à 17h), et une exposition permanente est consacrée à Tintin et l'aventure de Moulinsart.",
       },
       {
         heading: "7. La Loire à vélo — voie verte UNESCO",
-        body: "La Loire a Velo (EuroVelo 6, soit 800 km de pistes cyclables le long de la Loire, l'une des plus belles voies vertes d'Europe) passe a Amboise. L'etape Amboise-Tours (25 km, plate et ombragee) compte parmi les plus belles, tandis que l'etape Amboise-Chenonceau ne fait que 12 km par la voie verte. Vous trouverez des loueurs de velos a Amboise. Le festival Loire a Velo, en juin, propose des animations tout le long du parcours.",
+        body: "La Loire à Vélo (EuroVelo 6, soit 800 km de pistes cyclables le long de la Loire, l'une des plus belles voies vertes d'Europe) passe à Amboise. L'étape Amboise-Tours (25 km, plate et ombragée) compte parmi les plus belles, tandis que l'étape Amboise-Chenonceau ne fait que 12 km par la voie verte. Vous trouverez des loueurs de vélos à Amboise. Le festival Loire à Vélo, en juin, propose des animations tout le long du parcours.",
       },
       {
         heading: "8. Le vignoble AOC Vouvray et Montlouis",
-        body: "L'AOC Vouvray (a 15 km a l'ouest d'Amboise, 2 200 ha) est l'une des plus prestigieuses appellations de Loire, exclusivement en cepage chenin blanc : vins blancs secs, demi-secs, moelleux et effervescents en methode traditionnelle. C'est l'une des plus belles routes oenologiques de la region. On y visite des caves troglodytiques creusees dans le tuffeau, cette pierre calcaire blanche de Touraine, notamment au Domaine Huet et au Domaine Francois Pinon. L'AOC Montlouis-sur-Loire, sur la rive opposee, donne des vins similaires.",
+        body: "L'AOC Vouvray (à 15 km à l'ouest d'Amboise, 2 200 ha) est l'une des plus prestigieuses appellations de Loire, exclusivement en cépage chenin blanc : vins blancs secs, demi-secs, moelleux et effervescents en méthode traditionnelle. C'est l'une des plus belles routes œnologiques de la région. On y visite des caves troglodytiques creusées dans le tuffeau, cette pierre calcaire blanche de Touraine, notamment au Domaine Huet et au Domaine François Pinon. L'AOC Montlouis-sur-Loire, sur la rive opposée, donne des vins similaires.",
       },
       {
         heading: "9. La pagode de Chanteloup",
-        body: "La Pagode de Chanteloup (a 2 km au sud d'Amboise) est le seul vestige de l'ancien chateau des ducs de Penthievre, detruit en 1823. C'est un edifice singulier de style chinois, construit en 1775 par le duc de Choiseul, ministre de Louis XV exile sur ses terres apres sa disgrace. Haute de 44 m sur 7 etages decroissants, elle offre depuis son sommet une vue panoramique sur la foret d'Amboise. Le site est classe Monument Historique.",
+        body: "La Pagode de Chanteloup (à 2 km au sud d'Amboise) est le seul vestige de l'ancien château des ducs de Penthièvre, détruit en 1823. C'est un édifice singulier de style chinois, construit en 1775 par le duc de Choiseul, ministre de Louis XV exilé sur ses terres après sa disgrâce. Haute de 44 m sur 7 étages décroissants, elle offre depuis son sommet une vue panoramique sur la forêt d'Amboise. Le site est classé Monument Historique.",
       },
       {
         heading: "10. Gastronomie tourangelle — rillettes et Vouvray",
-        body: "La cuisine de Touraine est a la fois paysanne et raffinee : rillettes de Tours (charcuterie cuite longuement au saindoux, sous IGP), geline de Touraine IGP (poule fermiere de race ancienne, a la chair fine), tarte Tatin (inventee a 80 km au sud-est, a Lamotte-Beuvron, par les soeurs Tatin) et poisson de Loire comme le sandre, le brochet ou l'anguille. Cote fromages, on goute le Sainte-Maure-de-Touraine AOP (chevre cendre en buchette) et le Selles-sur-Cher AOP. En sucre, le nougat de Tours. En vins, le Vouvray et le Montlouis (blancs), le Bourgueil et le Chinon (rouges, a 50 km a l'ouest).",
+        body: "La cuisine de Touraine est à la fois paysanne et raffinée : rillettes de Tours (charcuterie cuite longuement au saindoux, sous IGP), géline de Touraine IGP (poule fermière de race ancienne, à la chair fine), tarte Tatin (inventée à 80 km au sud-est, à Lamotte-Beuvron, par les sœurs Tatin) et poisson de Loire comme le sandre, le brochet ou l'anguille. Côté fromages, on goûte le Sainte-Maure-de-Touraine AOP (chèvre cendré en bûchette) et le Selles-sur-Cher AOP. En sucre, le nougat de Tours. En vins, le Vouvray et le Montlouis (blancs), le Bourgueil et le Chinon (rouges, à 50 km à l'ouest).",
       },
     ],
     relatedCities: ["amboise"],
@@ -32037,47 +32037,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Saumur est une commune du Maine-et-Loire de 28 000 habitants, au confluent de la Loire et du Thouet, et l'une des plus belles cites du Val de Loire classe a l'UNESCO. Capitale historique de l'equitation francaise (le Cadre Noir et l'Ecole nationale d'equitation depuis 1825), elle garde son chateau ducal des XIVe-XVe siecles, immortalise par les Tres Riches Heures du Duc de Berry, et un patrimoine troglodytique exceptionnel : des carrieres de tuffeau reconverties en caves et en habitations.",
+    intro: "Saumur est une commune du Maine-et-Loire de 28 000 habitants, au confluent de la Loire et du Thouet, et l'une des plus belles cités du Val de Loire classé à l'UNESCO. Capitale historique de l'équitation française (le Cadre Noir et l'École nationale d'équitation depuis 1825), elle garde son château ducal des XIVe-XVe siècles, immortalisé par les Très Riches Heures du Duc de Berry, et un patrimoine troglodytique exceptionnel : des carrières de tuffeau reconverties en caves et en habitations.",
     sections: [
       {
         heading: "1. Le château de Saumur — la silhouette emblématique",
-        body: "Le chateau de Saumur (XIVe-XVe siecles, des ducs d'Anjou Louis Ier d'Anjou et Rene Ier) domine la Loire depuis sa terrasse et dessine l'une des silhouettes les plus emblematiques du Val de Loire. Il figure dans les Tres Riches Heures du Duc de Berry (1413), l'une des plus celebres enluminures du Moyen Age. C'est aujourd'hui un musee : collection d'arts decoratifs, faiences de Saumur des XVIIe-XVIIIe siecles et une section equestre liee au Cadre Noir. La visite est payante.",
+        body: "Le château de Saumur (XIVe-XVe siècles, des ducs d'Anjou Louis Ier d'Anjou et René Ier) domine la Loire depuis sa terrasse et dessine l'une des silhouettes les plus emblématiques du Val de Loire. Il figure dans les Très Riches Heures du Duc de Berry (1413), l'une des plus célèbres enluminures du Moyen Âge. C'est aujourd'hui un musée : collection d'arts décoratifs, faïences de Saumur des XVIIe-XVIIIe siècles et une section équestre liée au Cadre Noir. La visite est payante.",
       },
       {
         heading: "2. Le Cadre Noir et l'École nationale d'équitation",
-        body: "Le Cadre Noir de Saumur, cree en 1825 et d'origine militaire, est l'ecole d'equitation francaise la plus prestigieuse au monde ; il abrite l'Ecole nationale d'equitation. Des spectacles equestres ont lieu en saison (du mardi au jeudi en haute saison), avec 30 ecuyers et 70 chevaux qui executent les airs releves : pirouettes, courbettes, levades, croupades et cabrioles, soit l'art equestre francais classique. La reservation est obligatoire, et la visite des ecuries est possible.",
+        body: "Le Cadre Noir de Saumur, créé en 1825 et d'origine militaire, est l'école d'équitation française la plus prestigieuse au monde ; il abrite l'École nationale d'équitation. Des spectacles équestres ont lieu en saison (du mardi au jeudi en haute saison), avec 30 écuyers et 70 chevaux qui exécutent les airs relevés : pirouettes, courbettes, levades, croupades et cabrioles, soit l'art équestre français classique. La réservation est obligatoire, et la visite des écuries est possible.",
       },
       {
         heading: "3. L'abbaye royale de Fontevraud — nécropole Plantagenêt",
-        body: "L'abbaye royale de Fontevraud (a 15 km au sud-est de Saumur, XIIe siecle romane, classee a l'UNESCO) est l'un des plus grands ensembles monastiques medievaux d'Europe et la necropole des Plantagenet. On y voit quatre gisants polychromes medievaux : Henri II d'Angleterre, Alienor d'Aquitaine sa femme (la femme la plus puissante du Moyen Age), Richard Coeur de Lion leur fils et Isabelle d'Angouleme, femme de Jean sans Terre. L'eglise abbatiale, le cloitre, la salle capitulaire et les cuisines romanes uniques en Europe completent la visite.",
+        body: "L'abbaye royale de Fontevraud (à 15 km au sud-est de Saumur, XIIe siècle romane, classée à l'UNESCO) est l'un des plus grands ensembles monastiques médiévaux d'Europe et la nécropole des Plantagenêt. On y voit quatre gisants polychromes médiévaux : Henri II d'Angleterre, Aliénor d'Aquitaine sa femme (la femme la plus puissante du Moyen Âge), Richard Cœur de Lion leur fils et Isabelle d'Angoulême, femme de Jean sans Terre. L'église abbatiale, le cloître, la salle capitulaire et les cuisines romanes uniques en Europe complètent la visite.",
       },
       {
         heading: "4. L'AOC Saumur-Champigny — le rouge tourangeau",
-        body: "L'AOC Saumur-Champigny (1 600 ha sur 9 communes au sud-est de Saumur, cepage cabernet franc) est l'une des plus prestigieuses appellations rouges de Loire. Parmi les domaines : le Clos Rougeard, icone du vin rouge nature des freres Foucault, vendu tres cher, le Domaine Filliatreau et le Chateau de Targe. Des caveaux ouvrent dans les villages de Champigny, Souzay-Champigny, Varrains et Chace. A combiner avec les AOC voisines Saumur (effervescents en methode traditionnelle, blancs) et Coteaux de Saumur (liquoreux).",
+        body: "L'AOC Saumur-Champigny (1 600 ha sur 9 communes au sud-est de Saumur, cépage cabernet franc) est l'une des plus prestigieuses appellations rouges de Loire. Parmi les domaines : le Clos Rougeard, icône du vin rouge nature des frères Foucault, vendu très cher, le Domaine Filliatreau et le Château de Targé. Des caveaux ouvrent dans les villages de Champigny, Souzay-Champigny, Varrains et Chacé. À combiner avec les AOC voisines Saumur (effervescents en méthode traditionnelle, blancs) et Coteaux de Saumur (liquoreux).",
       },
       {
         heading: "5. Les caves troglodytiques — Bouvet-Ladubay et Ackerman",
-        body: "Saumur compte 1 200 km de galeries troglodytiques creusees dans le tuffeau, cette pierre calcaire blanche utilisee pour les chateaux de la Loire : c'est l'un des plus grands reseaux souterrains civils d'Europe. Bouvet-Ladubay (1851, vins effervescents) propose une visite des caves et une degustation gratuite, sur 8 km de galeries. Ackerman (1811) est le plus ancien producteur de vins effervescents de Loire : la methode traditionnelle y a ete developpee en 1811 par Jean-Baptiste Ackerman. La visite est payante.",
+        body: "Saumur compte 1 200 km de galeries troglodytiques creusées dans le tuffeau, cette pierre calcaire blanche utilisée pour les châteaux de la Loire : c'est l'un des plus grands réseaux souterrains civils d'Europe. Bouvet-Ladubay (1851, vins effervescents) propose une visite des caves et une dégustation gratuite, sur 8 km de galeries. Ackerman (1811) est le plus ancien producteur de vins effervescents de Loire : la méthode traditionnelle y a été développée en 1811 par Jean-Baptiste Ackerman. La visite est payante.",
       },
       {
         heading: "6. Les villages troglodytes — Rochemenier et Forges",
-        body: "Le village troglodytique de Rochemenier (a 15 km au sud-est de Saumur) est un ecomusee creuse dans le tuffeau : 250 habitations souterraines, abandonnees au debut du XXe siecle puis restaurees. On y voit une ferme troglodytique reconstituee, une chapelle souterraine et une ecole troglodytique. C'est l'endroit ideal pour comprendre la vie paysanne souterraine des XIXe et debut XXe siecles. Le village voisin de Forges, a 5 km, garde lui aussi des habitations souterraines encore en activite.",
+        body: "Le village troglodytique de Rochemenier (à 15 km au sud-est de Saumur) est un écomusée creusé dans le tuffeau : 250 habitations souterraines, abandonnées au début du XXe siècle puis restaurées. On y voit une ferme troglodytique reconstituée, une chapelle souterraine et une école troglodytique. C'est l'endroit idéal pour comprendre la vie paysanne souterraine des XIXe et début XXe siècles. Le village voisin de Forges, à 5 km, garde lui aussi des habitations souterraines encore en activité.",
       },
       {
         heading: "7. Le musée de la Cavalerie et des Blindés",
-        body: "Le Musee des Blindes de Saumur (cree en 1949, sur le site de l'Ecole de Cavalerie) abrite la deuxieme plus grande collection mondiale de chars d'assaut : 200 vehicules historiques en etat de marche, des Renault FT-17 de 1917 aux Leclerc modernes. Une section pedagogique retrace l'evolution de la guerre blindee. Vu de l'exterieur, c'est un simple hangar industriel, mais l'interieur est fascinant pour les amateurs.",
+        body: "Le Musée des Blindés de Saumur (créé en 1949, sur le site de l'École de Cavalerie) abrite la deuxième plus grande collection mondiale de chars d'assaut : 200 véhicules historiques en état de marche, des Renault FT-17 de 1917 aux Leclerc modernes. Une section pédagogique retrace l'évolution de la guerre blindée. Vu de l'extérieur, c'est un simple hangar industriel, mais l'intérieur est fascinant pour les amateurs.",
       },
       {
         heading: "8. La Loire à vélo et le port Saumur",
-        body: "La Loire a Velo (EuroVelo 6) passe a Saumur. L'etape Saumur-Angers (50 km, plate et ombragee) compte parmi les plus belles du parcours, avec ses vues sur les chateaux et les vignobles. L'etape Saumur-Chinon (35 km a l'est) passe par Fontevraud et la vallee de la Vienne. Des loueurs de velos sont installes a la gare. Le port de Saumur, sur la Loire, propose des bateaux promenade et une descente en gabare d'1h.",
+        body: "La Loire à Vélo (EuroVelo 6) passe à Saumur. L'étape Saumur-Angers (50 km, plate et ombragée) compte parmi les plus belles du parcours, avec ses vues sur les châteaux et les vignobles. L'étape Saumur-Chinon (35 km à l'est) passe par Fontevraud et la vallée de la Vienne. Des loueurs de vélos sont installés à la gare. Le port de Saumur, sur la Loire, propose des bateaux promenade et une descente en gabare d'1h.",
       },
       {
         heading: "9. Le Mushroom de la Magdeleine",
-        body: "Saumur est la capitale francaise de la production de champignons (l'Agaricus bisporus, le champignon de Paris, dit champignon de Saumur dans la region), avec 75 % de la production francaise, cultive dans les caves troglodytes qui maintiennent une temperature constante de 14 degres. On peut visiter les champignonnieres a Saint-Hilaire-Saint-Florent et a La Magdeleine, sur reservation, avant de passer en boutique. Le marche des Halles, le samedi matin, vend des champignons frais a prix producteur.",
+        body: "Saumur est la capitale française de la production de champignons (l'Agaricus bisporus, le champignon de Paris, dit champignon de Saumur dans la région), avec 75 % de la production française, cultivé dans les caves troglodytes qui maintiennent une température constante de 14 degrés. On peut visiter les champignonnières à Saint-Hilaire-Saint-Florent et à La Magdeleine, sur réservation, avant de passer en boutique. Le marché des Halles, le samedi matin, vend des champignons frais à prix producteur.",
       },
       {
         heading: "10. Gastronomie angevine — fouée et tarte Tatin",
-        body: "La cuisine de Saumur est tourangelle et angevine : fouee (petit pain creux servi tiede avec du beurre, des rillauds, ce confit de porc tendre, ou du jambon, un classique des auberges angevines), rillauds d'Anjou, geline de Touraine IGP (poule fermiere) et poisson de Loire comme le sandre, le brochet ou l'anguille. Les champignons de Saumur viennent en accompagnement. En sucre, on goute le cremet d'Anjou (fromage blanc battu monte en chantilly, servi avec un coulis de fruits rouges), la gache vendeenne (une brioche) et la tarte Tatin (a 100 km a l'est, inventee a Lamotte-Beuvron par les soeurs Tatin). En vins, le Saumur-Champigny (rouge), le Saumur (blanc et effervescent) et les Coteaux de Saumur (liquoreux).",
+        body: "La cuisine de Saumur est tourangelle et angevine : fouée (petit pain creux servi tiède avec du beurre, des rillauds, ce confit de porc tendre, ou du jambon, un classique des auberges angevines), rillauds d'Anjou, géline de Touraine IGP (poule fermière) et poisson de Loire comme le sandre, le brochet ou l'anguille. Les champignons de Saumur viennent en accompagnement. En sucre, on goûte le crémet d'Anjou (fromage blanc battu monté en chantilly, servi avec un coulis de fruits rouges), la gâche vendéenne (une brioche) et la tarte Tatin (à 100 km à l'est, inventée à Lamotte-Beuvron par les sœurs Tatin). En vins, le Saumur-Champigny (rouge), le Saumur (blanc et effervescent) et les Coteaux de Saumur (liquoreux).",
       },
     ],
     relatedCities: ["saumur"],
@@ -32096,47 +32096,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Chantilly est une commune de l'Oise de 11 000 habitants, a 40 km au nord de Paris, et l'une des plus prestigieuses cites d'Ile-de-France. La ville est dominee par le chateau de Chantilly (XVIe-XIXe siecles, ancienne propriete des Princes de Conde puis du duc d'Aumale, fils du roi Louis-Philippe), qui abrite le Musee Conde, deuxieme collection francaise de peintures anciennes apres le Louvre. C'est aussi la capitale francaise du cheval, avec son hippodrome de reference et ses Grandes Ecuries du XVIIIe siecle.",
+    intro: "Chantilly est une commune de l'Oise de 11 000 habitants, à 40 km au nord de Paris, et l'une des plus prestigieuses cités d'Île-de-France. La ville est dominée par le château de Chantilly (XVIe-XIXe siècles, ancienne propriété des Princes de Condé puis du duc d'Aumale, fils du roi Louis-Philippe), qui abrite le Musée Condé, deuxième collection française de peintures anciennes après le Louvre. C'est aussi la capitale française du cheval, avec son hippodrome de référence et ses Grandes Écuries du XVIIIe siècle.",
     sections: [
       {
         heading: "1. Le château de Chantilly — Renaissance et XIXe",
-        body: "Le chateau de Chantilly (XVIe-XIXe siecles, propriete successive des Montmorency, des Conde puis du duc d'Aumale, fils du roi Louis-Philippe) est l'un des plus beaux chateaux de France. Le Petit Chateau date du XVIe siecle Renaissance et reste l'original conserve, tandis que le Grand Chateau est une reconstruction neo-Renaissance du XIXe siecle, menee par le duc d'Aumale apres les destructions revolutionnaires. Ses jardins a la francaise ont ete dessines par Andre Le Notre. Le domaine comprend un hippodrome, des etangs et un parc paysager, avec des soirees aux Chandelles en ete.",
+        body: "Le château de Chantilly (XVIe-XIXe siècles, propriété successive des Montmorency, des Condé puis du duc d'Aumale, fils du roi Louis-Philippe) est l'un des plus beaux châteaux de France. Le Petit Château date du XVIe siècle Renaissance et reste l'original conservé, tandis que le Grand Château est une reconstruction néo-Renaissance du XIXe siècle, menée par le duc d'Aumale après les destructions révolutionnaires. Ses jardins à la française ont été dessinés par André Le Nôtre. Le domaine comprend un hippodrome, des étangs et un parc paysager, avec des soirées aux Chandelles en été.",
       },
       {
         heading: "2. Le Musée Condé — la 2e collection française",
-        body: "Le Musee Conde, a l'interieur du Grand Chateau, abrite la deuxieme collection francaise de peintures anciennes apres le Louvre : Raphael (3 tableaux), Watteau, Fra Angelico, Poussin, Boucher, Filippo Lippi et Pieter Brueghel le Jeune. Sa bibliotheque conserve Les Tres Riches Heures du Duc de Berry, le manuscrit enlumine le plus celebre du Moyen Age, qui est gardé ici. On y trouve aussi la galerie de Psyche (44 vitraux Renaissance) et le Cabinet des Livres. La visite est incluse dans le pass chateau.",
+        body: "Le Musée Condé, à l'intérieur du Grand Château, abrite la deuxième collection française de peintures anciennes après le Louvre : Raphaël (3 tableaux), Watteau, Fra Angelico, Poussin, Boucher, Filippo Lippi et Pieter Brueghel le Jeune. Sa bibliothèque conserve Les Très Riches Heures du Duc de Berry, le manuscrit enluminé le plus célèbre du Moyen Âge, qui est gardé ici. On y trouve aussi la galerie de Psyché (44 vitraux Renaissance) et le Cabinet des Livres. La visite est incluse dans le pass château.",
       },
       {
         heading: "3. Les Grandes Écuries — le Musée Vivant du Cheval",
-        body: "Les Grandes Ecuries de Chantilly (1719-1735, palais concu par Jean Aubert pour le duc Louis-Henri de Bourbon-Conde) sont surnommees le palais des chevaux et comptent parmi les plus grands palais d'ecuries d'Europe : un chef-d'oeuvre architectural Louis XV. Elles abritaient 240 chevaux a l'origine, 90 aujourd'hui. Le Musee Vivant du Cheval, installe a l'interieur, est l'un des plus complets musees equestres au monde et retrace l'histoire du cheval (mythologie, courses, gravures de Stubbs, sculptures equestres). Des demonstrations equestres ont lieu en saison.",
+        body: "Les Grandes Écuries de Chantilly (1719-1735, palais conçu par Jean Aubert pour le duc Louis-Henri de Bourbon-Condé) sont surnommées le palais des chevaux et comptent parmi les plus grands palais d'écuries d'Europe : un chef-d'œuvre architectural Louis XV. Elles abritaient 240 chevaux à l'origine, 90 aujourd'hui. Le Musée Vivant du Cheval, installé à l'intérieur, est l'un des plus complets musées équestres au monde et retrace l'histoire du cheval (mythologie, courses, gravures de Stubbs, sculptures équestres). Des démonstrations équestres ont lieu en saison.",
       },
       {
         heading: "4. L'hippodrome — courses prestigieuses",
-        body: "L'hippodrome de Chantilly (cree en 1834 par le duc d'Orleans) est l'un des plus prestigieux hippodromes francais, en plat et en obstacles. Il accueille deux des plus prestigieuses courses du calendrier hippique francais : le Prix du Jockey-Club (premier dimanche de juin, dotation de 1,5 M EUR) et le Prix de Diane (dernier dimanche de juin, dotation de 1 M EUR, la course des pouliches). C'est le principal centre d'entrainement de France, avec 3 000 chevaux en activite, et sa tribune Belle Epoque a ete restauree.",
+        body: "L'hippodrome de Chantilly (créé en 1834 par le duc d'Orléans) est l'un des plus prestigieux hippodromes français, en plat et en obstacles. Il accueille deux des plus prestigieuses courses du calendrier hippique français : le Prix du Jockey-Club (premier dimanche de juin, dotation de 1,5 M €) et le Prix de Diane (dernier dimanche de juin, dotation de 1 M €, la course des pouliches). C'est le principal centre d'entraînement de France, avec 3 000 chevaux en activité, et sa tribune Belle Époque a été restaurée.",
       },
       {
         heading: "5. Senlis — la cité royale médiévale à 10 km",
-        body: "Senlis (a 10 km a l'est de Chantilly) est l'une des plus belles cites medievales d'Ile-de-France et la premiere residence des premiers Capetiens : Hugues Capet y fut elu roi en 987. On y voit la cathedrale Notre-Dame (XIIe siecle, gothique primitif, l'une des plus belles facades romanes de France), une enceinte gallo-romaine et medievale intacte sur 800 m, des ruelles pavees et des hotels particuliers Renaissance. Le centre-ville est pieton et se combine facilement a Chantilly en une journee.",
+        body: "Senlis (à 10 km à l'est de Chantilly) est l'une des plus belles cités médiévales d'Île-de-France et la première résidence des premiers Capétiens : Hugues Capet y fut élu roi en 987. On y voit la cathédrale Notre-Dame (XIIe siècle, gothique primitif, l'une des plus belles façades romanes de France), une enceinte gallo-romaine et médiévale intacte sur 800 m, des ruelles pavées et des hôtels particuliers Renaissance. Le centre-ville est piéton et se combine facilement à Chantilly en une journée.",
       },
       {
         heading: "6. La crème Chantilly — l'invention culinaire",
-        body: "La Creme Chantilly (creme fouettee sucree) est l'une des plus celebres preparations culinaires francaises, inventee a Chantilly au XVIIe siecle, en 1671, par Francois Vatel, maitre d'hotel du Grand Conde. Vatel se serait suicide d'humiliation apres que le poisson commande pour le banquet royal de Louis XIV ne soit pas arrive a temps. La recette traditionnelle (300 g de creme, 30 g de sucre, vanille bourbon) est servie dans les restaurants de Chantilly, accompagnee de fruits rouges ou d'une tarte.",
+        body: "La Crème Chantilly (crème fouettée sucrée) est l'une des plus célèbres préparations culinaires françaises, inventée à Chantilly au XVIIe siècle, en 1671, par François Vatel, maître d'hôtel du Grand Condé. Vatel se serait suicidé d'humiliation après que le poisson commandé pour le banquet royal de Louis XIV ne soit pas arrivé à temps. La recette traditionnelle (300 g de crème, 30 g de sucre, vanille bourbon) est servie dans les restaurants de Chantilly, accompagnée de fruits rouges ou d'une tarte.",
       },
       {
         heading: "7. Les jardins de Chantilly — Le Nôtre",
-        body: "Les jardins de Chantilly (130 ha) sont l'oeuvre cumulee de trois siecles. Les jardins a la francaise ont ete dessines par Andre Le Notre en 1660, oeuvre la plus emblematique du grand jardinier de Versailles, avec ses parterres en broderie, son grand canal et ses perspectives infinies. S'y ajoutent le Jardin Anglo-Chinois (XVIIIe siecle, romantique) et le Hameau de la Princesse (XVIIIe siecle), qui servit de modele a celui de Marie-Antoinette a Versailles. La visite est gratuite avec le chateau.",
+        body: "Les jardins de Chantilly (130 ha) sont l'œuvre cumulée de trois siècles. Les jardins à la française ont été dessinés par André Le Nôtre en 1660, œuvre la plus emblématique du grand jardinier de Versailles, avec ses parterres en broderie, son grand canal et ses perspectives infinies. S'y ajoutent le Jardin Anglo-Chinois (XVIIIe siècle, romantique) et le Hameau de la Princesse (XVIIIe siècle), qui servit de modèle à celui de Marie-Antoinette à Versailles. La visite est gratuite avec le château.",
       },
       {
         heading: "8. La forêt domaniale de Chantilly",
-        body: "La foret domaniale de Chantilly (6 300 ha autour du chateau, hetraie centenaire) est l'une des plus belles forets d'Ile-de-France. On y trouve des allees royales creees pour les chasses a courre, des etangs et des sentiers balises, le tout classe site Natura 2000. La chasse a courre (venerie) y est encore pratiquee par l'equipage Picard-de-Chantilly, qui chasse le cerf. La foret reste preservee du tourisme de masse et peu frequentee en semaine.",
+        body: "La forêt domaniale de Chantilly (6 300 ha autour du château, hêtraie centenaire) est l'une des plus belles forêts d'Île-de-France. On y trouve des allées royales créées pour les chasses à courre, des étangs et des sentiers balisés, le tout classé site Natura 2000. La chasse à courre (vénerie) y est encore pratiquée par l'équipage Picard-de-Chantilly, qui chasse le cerf. La forêt reste préservée du tourisme de masse et peu fréquentée en semaine.",
       },
       {
         heading: "9. L'abbaye de Royaumont — UNESCO contemporaine",
-        body: "L'Abbaye de Royaumont (a 5 km au sud de Chantilly, XIIIe siecle cistercienne, fondee par Saint Louis en 1228) est l'une des plus grandes abbayes cisterciennes medievales preservees de France. C'est aujourd'hui la Fondation Royaumont (depuis 1964), un centre culturel international qui accueille des residences d'artistes, des concerts et des seminaires. On y decouvre une eglise en ruines romantiques, un cloitre intact et une salle capitulaire, avec un festival musical en septembre. A combiner avec Chantilly.",
+        body: "L'Abbaye de Royaumont (à 5 km au sud de Chantilly, XIIIe siècle cistercienne, fondée par Saint Louis en 1228) est l'une des plus grandes abbayes cisterciennes médiévales préservées de France. C'est aujourd'hui la Fondation Royaumont (depuis 1964), un centre culturel international qui accueille des résidences d'artistes, des concerts et des séminaires. On y découvre une église en ruines romantiques, un cloître intact et une salle capitulaire, avec un festival musical en septembre. À combiner avec Chantilly.",
       },
       {
         heading: "10. Gastronomie picarde — flamiche et brie",
-        body: "La cuisine de Chantilly et de l'Oise mele les traditions picardes et franciliennes : flamiche aux poireaux (tarte salee picarde, l'une des plus anciennes recettes francaises), ficelle picarde (crepe roulee garnie de jambon et de champignons, gratinee) et pate de canard d'Amiens (a 60 km au nord). Cote fromages, le Brie de Meaux AOP (a 60 km a l'est), le Coulommiers (a 50 km) et le Maroilles AOP (a 100 km, le plus odorant). La specialite d'origine reste la creme Chantilly, servie avec des fruits rouges ou des tartes, sans oublier la tarte au sucre de Picardie.",
+        body: "La cuisine de Chantilly et de l'Oise mêle les traditions picardes et franciliennes : flamiche aux poireaux (tarte salée picarde, l'une des plus anciennes recettes françaises), ficelle picarde (crêpe roulée garnie de jambon et de champignons, gratinée) et pâté de canard d'Amiens (à 60 km au nord). Côté fromages, le Brie de Meaux AOP (à 60 km à l'est), le Coulommiers (à 50 km) et le Maroilles AOP (à 100 km, le plus odorant). La spécialité d'origine reste la crème Chantilly, servie avec des fruits rouges ou des tartes, sans oublier la tarte au sucre de Picardie.",
       },
     ],
     relatedCities: ["chantilly"],
@@ -32156,47 +32156,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Grasse est une commune des Alpes-Maritimes de 51 000 habitants, capitale mondiale du parfum depuis le XVIIe siecle. Sur les hauteurs de la Cote d'Azur (a 350 m d'altitude, a 17 km au nord de Cannes), la ville a fait fortune avec la tannerie au Moyen Age, puis avec les gants parfumes des cours royales europeennes au XVIIe siecle. Aujourd'hui, Grasse produit 50 % des aromes du monde et compte 60 entreprises de la parfumerie. Trois grandes maisons, Fragonard, Galimard et Molinard, sont ouvertes au public.",
+    intro: "Grasse est une commune des Alpes-Maritimes de 51 000 habitants, capitale mondiale du parfum depuis le XVIIe siècle. Sur les hauteurs de la Côte d'Azur (à 350 m d'altitude, à 17 km au nord de Cannes), la ville a fait fortune avec la tannerie au Moyen Âge, puis avec les gants parfumés des cours royales européennes au XVIIe siècle. Aujourd'hui, Grasse produit 50 % des arômes du monde et compte 60 entreprises de la parfumerie. Trois grandes maisons, Fragonard, Galimard et Molinard, sont ouvertes au public.",
     sections: [
       {
         heading: "1. La parfumerie Fragonard — musée gratuit",
-        body: "La Maison Fragonard (1782, rue Jean-Ossola, dans la vieille ville) est la plus ancienne parfumerie de Grasse encore en activite. La visite, gratuite et guidee, dure 30 min et montre les methodes traditionnelles : enfleurage a froid, distillation a la vapeur, extraction au solvant. La boutique propose des parfums a prix d'usine ; c'est l'une des rares a vendre des eaux de parfum sans intermediaire. Ses 4 musees (Parfum, Mode et Bijou, Costume, Provencal) sont gratuits.",
+        body: "La Maison Fragonard (1782, rue Jean-Ossola, dans la vieille ville) est la plus ancienne parfumerie de Grasse encore en activité. La visite, gratuite et guidée, dure 30 min et montre les méthodes traditionnelles : enfleurage à froid, distillation à la vapeur, extraction au solvant. La boutique propose des parfums à prix d'usine ; c'est l'une des rares à vendre des eaux de parfum sans intermédiaire. Ses 4 musées (Parfum, Mode et Bijou, Costume, Provençal) sont gratuits.",
       },
       {
         heading: "2. Galimard et l'atelier de création de parfums",
-        body: "La Maison Galimard (fondee en 1747, l'une des plus anciennes parfumeries au monde et fournisseur de la cour de Louis XV) propose l'experience unique de l'Atelier du Parfumeur (reservation obligatoire, 2h, 65 EUR) : creer son propre parfum sous la direction d'un nez professionnel, parmi 127 essences, jusqu'a la mise en flacon avec un nom personnalise. La recette reste archivee dans le livre des parfums de Galimard, ce qui permet de la recommander a vie.",
+        body: "La Maison Galimard (fondée en 1747, l'une des plus anciennes parfumeries au monde et fournisseur de la cour de Louis XV) propose l'expérience unique de l'Atelier du Parfumeur (réservation obligatoire, 2h, 65 €) : créer son propre parfum sous la direction d'un nez professionnel, parmi 127 essences, jusqu'à la mise en flacon avec un nom personnalisé. La recette reste archivée dans le livre des parfums de Galimard, ce qui permet de la recommander à vie.",
       },
       {
         heading: "3. Molinard et la collection patrimoniale",
-        body: "La Maison Molinard (1849, route de Cannes) est la troisieme grande maison ouverte au public. La visite est gratuite, avec les ateliers du Studio des Fragrances pour creer ses eaux de toilette personnalisees (49 EUR). On y voit une collection patrimoniale de flacons Lalique des annees 1920 : Rene Lalique fut l'un des plus grands designers de flacons a parfum, et il a dessine les flacons originaux de Coty. Le Conservatoire des senteurs presente un jardin de plantes a parfum (rose centifolia de Grasse, lavande, jasmin, tubereuse).",
+        body: "La Maison Molinard (1849, route de Cannes) est la troisième grande maison ouverte au public. La visite est gratuite, avec les ateliers du Studio des Fragrances pour créer ses eaux de toilette personnalisées (49 €). On y voit une collection patrimoniale de flacons Lalique des années 1920 : René Lalique fut l'un des plus grands designers de flacons à parfum, et il a dessiné les flacons originaux de Coty. Le Conservatoire des senteurs présente un jardin de plantes à parfum (rose centifolia de Grasse, lavande, jasmin, tubéreuse).",
       },
       {
         heading: "4. Le Musée international de la Parfumerie (MIP)",
-        body: "Le Musee international de la Parfumerie (MIP, ouvert en 1989, le seul au monde dedie au parfum) est l'incontournable. Sa collection rassemble 6 000 objets (flacons antiques egyptiens, romains, medievaux et art deco, dont les pieces Lalique, Galimard, Molinard et Fragonard), avec un parcours olfactif interactif pour tester 18 senteurs et un atelier de fabrication. Les Jardins du MIP, a Mouans-Sartoux (a 5 km), deploient 2 ha de plantes a parfum cultivees en biodynamie, gratuitement, avec vue sur la baie de Cannes.",
+        body: "Le Musée international de la Parfumerie (MIP, ouvert en 1989, le seul au monde dédié au parfum) est l'incontournable. Sa collection rassemble 6 000 objets (flacons antiques égyptiens, romains, médiévaux et art déco, dont les pièces Lalique, Galimard, Molinard et Fragonard), avec un parcours olfactif interactif pour tester 18 senteurs et un atelier de fabrication. Les Jardins du MIP, à Mouans-Sartoux (à 5 km), déploient 2 ha de plantes à parfum cultivées en biodynamie, gratuitement, avec vue sur la baie de Cannes.",
       },
       {
         heading: "5. Cabris et l'arrière-pays grassois",
-        body: "Cabris (a 5 km au nord-ouest de Grasse) est un village perche de 1 600 habitants surnomme le balcon de la Cote d'Azur : a 545 m d'altitude, il offre une vue a 180 degres de la Mediterranee aux Alpes du Mercantour. Antoine de Saint-Exupery y a sejourne, chez son amie d'enfance Yvonne de Lestrange. A voir aussi : Saint-Cezaire-sur-Siagne (a 12 km, village perche et grottes karstiques visitables) et Gourdon (a 15 km a l'est, plus beau village de France a 760 m).",
+        body: "Cabris (à 5 km au nord-ouest de Grasse) est un village perché de 1 600 habitants surnommé le balcon de la Côte d'Azur : à 545 m d'altitude, il offre une vue à 180 degrés de la Méditerranée aux Alpes du Mercantour. Antoine de Saint-Exupéry y a séjourné, chez son amie d'enfance Yvonne de Lestrange. À voir aussi : Saint-Cézaire-sur-Siagne (à 12 km, village perché et grottes karstiques visitables) et Gourdon (à 15 km à l'est, plus beau village de France à 760 m).",
       },
       {
         heading: "6. La vieille ville de Grasse — médiévale et XVIIIe",
-        body: "La vieille ville de Grasse, autour de la place aux Aires, est l'un des plus complets centres medievaux de la Cote d'Azur. On y voit des maisons hautes de 5 a 6 etages avec arcades, typiques des cites cosmopolites du XVIIe siecle, et des ruelles pavees etroites. La cathedrale Notre-Dame du Puy (XIIe-XIIIe siecles, romane) abrite 3 toiles de Rubens : le Couronnement d'epines, la Crucifixion et le Saint Honorat. L'hotel de Pontevès-Bargemon (XVIIIe siecle) sert de mairie, et un marche aux fleurs et primeurs se tient tous les matins place aux Aires.",
+        body: "La vieille ville de Grasse, autour de la place aux Aires, est l'un des plus complets centres médiévaux de la Côte d'Azur. On y voit des maisons hautes de 5 à 6 étages avec arcades, typiques des cités cosmopolites du XVIIe siècle, et des ruelles pavées étroites. La cathédrale Notre-Dame du Puy (XIIe-XIIIe siècles, romane) abrite 3 toiles de Rubens : le Couronnement d'épines, la Crucifixion et le Saint Honorat. L'hôtel de Pontevès-Bargemon (XVIIIe siècle) sert de mairie, et un marché aux fleurs et primeurs se tient tous les matins place aux Aires.",
       },
       {
         heading: "7. La villa-musée Fragonard",
-        body: "La Villa-musee Jean-Honore Fragonard rend hommage au peintre grassois (1732-1806), l'un des plus grands peintres rococo francais, auteur des Hasards heureux de l'escarpolette et des Progres de l'Amour. C'est une bastide provencale du XVIIe siecle. Quatre des cinq panneaux de la serie Les Progres de l'Amour dans le coeur d'une jeune fille y sont reproduits : commandes par Madame du Barry, refuses par elle, ils furent rachetes par les Fragonard et installes au salon. L'entree est gratuite le premier dimanche.",
+        body: "La Villa-musée Jean-Honoré Fragonard rend hommage au peintre grassois (1732-1806), l'un des plus grands peintres rococo français, auteur des Hasards heureux de l'escarpolette et des Progrès de l'Amour. C'est une bastide provençale du XVIIe siècle. Quatre des cinq panneaux de la série Les Progrès de l'Amour dans le cœur d'une jeune fille y sont reproduits : commandés par Madame du Barry, refusés par elle, ils furent rachetés par les Fragonard et installés au salon. L'entrée est gratuite le premier dimanche.",
       },
       {
         heading: "8. La Napoule et le château-musée",
-        body: "Mandelieu-La Napoule (a 25 km au sud-est de Grasse, au bord de la baie de Cannes) abrite le chateau-musee de la Napoule (1387, restaure de 1918 a 1937 par Henry et Marie Clews, artistes americains qui en firent un sanctuaire d'art eclectique peuple de leurs sculptures monumentales). On y trouve un jardin botanique mediterraneen et la plage de la Napoule, au sable fin. A combiner avec Cannes, sa Croisette et son Palais des Festivals, a 5 km.",
+        body: "Mandelieu-La Napoule (à 25 km au sud-est de Grasse, au bord de la baie de Cannes) abrite le château-musée de la Napoule (1387, restauré de 1918 à 1937 par Henry et Marie Clews, artistes américains qui en firent un sanctuaire d'art éclectique peuplé de leurs sculptures monumentales). On y trouve un jardin botanique méditerranéen et la plage de la Napoule, au sable fin. À combiner avec Cannes, sa Croisette et son Palais des Festivals, à 5 km.",
       },
       {
         heading: "9. Les champs de roses et de jasmin",
-        body: "Les champs de fleurs a parfum (rose centifolia de Grasse, jasmin grandiflorum, tubereuse, mimosa, fleur d'oranger) fournissent la matiere premiere de la parfumerie grassoise. La rose se recolte a la main en mai : il reste 3 ha en culture autour de Grasse, dont la production est exclusivement reservee a Chanel N°5 et a Dior J'adore. Le jasmin se recolte en aout. On peut visiter les champs en saison, sur reservation, a la Maison Mul (Joseph Mul), fournisseur exclusif de Chanel et l'un des derniers paysans-fleuristes de Grasse.",
+        body: "Les champs de fleurs à parfum (rose centifolia de Grasse, jasmin grandiflorum, tubéreuse, mimosa, fleur d'oranger) fournissent la matière première de la parfumerie grassoise. La rose se récolte à la main en mai : il reste 3 ha en culture autour de Grasse, dont la production est exclusivement réservée à Chanel N°5 et à Dior J'adore. Le jasmin se récolte en août. On peut visiter les champs en saison, sur réservation, à la Maison Mul (Joseph Mul), fournisseur exclusif de Chanel et l'un des derniers paysans-fleuristes de Grasse.",
       },
       {
         heading: "10. Gastronomie provençale — fougasse et calissons",
-        body: "La cuisine de Grasse est provencale mediterraneenne : fougasse aux olives noires, panisse (galette de farine de pois chiches cuite a l'huile d'olive, la cousine de la socca nicoise), tian de legumes, ratatouille et agneau de Sisteron IGP (a 100 km au nord, eleve en bergeries d'alpage). En sucre, les calissons d'Aix (a 90 km a l'ouest, pate d'amande aux fruits confits sur pain azyme) et la tarte tropezienne (a 100 km, brioche fendue). On y trouve aussi des confitures aux petales de rose (Grasse) et du miel de Provence (lavande, romarin). En vins, le Bellet (a 25 km, AOC nicois unique) et le Cotes-de-Provence rose.",
+        body: "La cuisine de Grasse est provençale méditerranéenne : fougasse aux olives noires, panisse (galette de farine de pois chiches cuite à l'huile d'olive, la cousine de la socca niçoise), tian de légumes, ratatouille et agneau de Sisteron IGP (à 100 km au nord, élevé en bergeries d'alpage). En sucré, les calissons d'Aix (à 90 km à l'ouest, pâte d'amande aux fruits confits sur pain azyme) et la tarte tropézienne (à 100 km, brioche fendue). On y trouve aussi des confitures aux pétales de rose (Grasse) et du miel de Provence (lavande, romarin). En vins, le Bellet (à 25 km, AOC niçois unique) et le Côtes-de-Provence rosé.",
       },
     ],
     relatedCities: ["grasse"],
@@ -32216,47 +32216,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Antibes est une commune des Alpes-Maritimes de 75 000 habitants, a 20 km au sud-ouest de Nice, et l'une des plus belles cites de la Cote d'Azur. Cite phoceenne antique (Antipolis), conquise par les Romains, fortifiee par Vauban, elle est devenue station mondaine au XIXe siecle. Elle combine aujourd'hui le Vieil Antibes medieval, le Port Vauban (l'un des plus grands ports de plaisance d'Europe, avec ses yachts geants), le Cap d'Antibes (presqu'ile luxueuse : Eden-Roc, Villa Eilenroc) et le quartier balneaire de Juan-les-Pins.",
+    intro: "Antibes est une commune des Alpes-Maritimes de 75 000 habitants, à 20 km au sud-ouest de Nice, et l'une des plus belles cités de la Côte d'Azur. Cité phocéenne antique (Antipolis), conquise par les Romains, fortifiée par Vauban, elle est devenue station mondaine au XIXe siècle. Elle combine aujourd'hui le Vieil Antibes médiéval, le Port Vauban (l'un des plus grands ports de plaisance d'Europe, avec ses yachts géants), le Cap d'Antibes (presqu'île luxueuse : Eden-Roc, Villa Eilenroc) et le quartier balnéaire de Juan-les-Pins.",
     sections: [
       {
         heading: "1. Le Vieil Antibes — la cité médiévale",
-        body: "Le Vieil Antibes, cite fortifiee medievale renovee par Vauban au XVIIe siecle, est l'un des plus beaux centres historiques de la Cote d'Azur. On y flane parmi les ruelles pavees (rue Aubernon, rue Sade ou vecut le marquis) et les maisons aux facades pastel, jusqu'a la place du Safranier, quartier autoproclame Commune Libre du Safranier (avec sa fete en juillet). Les remparts sont intacts au front de mer (vue panoramique), et le marche provencal couvert de la place Massena, l'un des plus beaux de la Cote d'Azur, se tient tous les matins sauf le lundi.",
+        body: "Le Vieil Antibes, cité fortifiée médiévale rénovée par Vauban au XVIIe siècle, est l'un des plus beaux centres historiques de la Côte d'Azur. On y flâne parmi les ruelles pavées (rue Aubernon, rue Sade où vécut le marquis) et les maisons aux façades pastel, jusqu'à la place du Safranier, quartier autoproclamé Commune Libre du Safranier (avec sa fête en juillet). Les remparts sont intacts au front de mer (vue panoramique), et le marché provençal couvert de la place Masséna, l'un des plus beaux de la Côte d'Azur, se tient tous les matins sauf le lundi.",
       },
       {
         heading: "2. Le musée Picasso — Château Grimaldi",
-        body: "Le Musee Picasso est installe dans le Chateau Grimaldi (XIIIe-XVIe siecles), qui hebergea Pablo Picasso pendant 2 mois en 1946 : c'est l'un des principaux musees Picasso au monde. Le peintre, alors age de 65 ans et en couple avec Francoise Gilot, y peignit 23 toiles et 44 dessins en 2 mois, qu'il laissa au chateau en remerciement de l'accueil, formant la collection actuelle (la Joie de vivre, Ulysse et les sirenes). La vue sur la Mediterranee est superbe.",
+        body: "Le Musée Picasso est installé dans le Château Grimaldi (XIIIe-XVIe siècles), qui hébergea Pablo Picasso pendant 2 mois en 1946 : c'est l'un des principaux musées Picasso au monde. Le peintre, alors âgé de 65 ans et en couple avec Françoise Gilot, y peignit 23 toiles et 44 dessins en 2 mois, qu'il laissa au château en remerciement de l'accueil, formant la collection actuelle (la Joie de vivre, Ulysse et les sirènes). La vue sur la Méditerranée est superbe.",
       },
       {
         heading: "3. Le Cap d'Antibes — la presqu'île luxueuse",
-        body: "Le Cap d'Antibes, presqu'ile de 5 km au sud d'Antibes, est l'une des zones les plus luxueuses de France, avec ses villas historiques (Eden-Roc, Villa Eilenroc, Villa La Fiorentina) et l'hotel du Cap-Eden-Roc, palace iconique depuis 1870 qui n'acceptait que les especes jusqu'en 2006. Le sentier du Tirepoil (a pied, 5 km en boucle, gratuit) longe la cote rocheuse : c'est l'une des plus belles promenades de la Cote d'Azur. On y trouve aussi la plage de la Garoupe et le phare de la Garoupe, qui offre une vue a 360 degres.",
+        body: "Le Cap d'Antibes, presqu'île de 5 km au sud d'Antibes, est l'une des zones les plus luxueuses de France, avec ses villas historiques (Eden-Roc, Villa Eilenroc, Villa La Fiorentina) et l'hôtel du Cap-Eden-Roc, palace iconique depuis 1870 qui n'acceptait que les espèces jusqu'en 2006. Le sentier du Tirepoil (à pied, 5 km en boucle, gratuit) longe la côte rocheuse : c'est l'une des plus belles promenades de la Côte d'Azur. On y trouve aussi la plage de la Garoupe et le phare de la Garoupe, qui offre une vue à 360°.",
       },
       {
         heading: "4. Le Port Vauban — yachts géants",
-        body: "Le Port Vauban d'Antibes est le plus grand port de plaisance d'Europe (2 500 anneaux) et accueille les plus grands yachts prives du monde, dont ceux de Roman Abramovich, Lakshmi Mittal et David Geffen : c'est l'un des sites les plus impressionnants de la cote. Le Quai des Milliardaires voit mouiller les plus grands yachts du monde, jusqu'a 180 m de long. La promenade y est libre, et la cite fortifiee Vauban domine le port.",
+        body: "Le Port Vauban d'Antibes est le plus grand port de plaisance d'Europe (2 500 anneaux) et accueille les plus grands yachts privés du monde, dont ceux de Roman Abramovich, Lakshmi Mittal et David Geffen : c'est l'un des sites les plus impressionnants de la côte. Le Quai des Milliardaires voit mouiller les plus grands yachts du monde, jusqu'à 180 m de long. La promenade y est libre, et la cité fortifiée Vauban domine le port.",
       },
       {
         heading: "5. Juan-les-Pins — le Jazz à Juan",
-        body: "Juan-les-Pins (a 2 km au sud-ouest d'Antibes), station balneaire creee dans les annees 1920, est mondialement connue pour son Festival Jazz a Juan (depuis 1960, mi-juillet), l'un des plus anciens festivals de jazz au monde : Miles Davis, Louis Armstrong, Bob Marley et Ray Charles y ont joue. On y trouve une plage de sable fin urbaine, un casino Belle Epoque et le palace Belles-Rives, ou vecut Scott Fitzgerald.",
+        body: "Juan-les-Pins (à 2 km au sud-ouest d'Antibes), station balnéaire créée dans les années 1920, est mondialement connue pour son Festival Jazz à Juan (depuis 1960, mi-juillet), l'un des plus anciens festivals de jazz au monde : Miles Davis, Louis Armstrong, Bob Marley et Ray Charles y ont joué. On y trouve une plage de sable fin urbaine, un casino Belle Époque et le palace Belles-Rives, où vécut Scott Fitzgerald.",
       },
       {
         heading: "6. Le marché provençal couvert",
-        body: "Le Marche provencal couvert d'Antibes se tient place Massena, dans le Vieil Antibes, sous une halle metallique de la fin du XIXe siecle, tous les matins sauf le lundi. C'est l'un des plus beaux marches de la Cote d'Azur : primeurs locaux, fromages provencaux, charcuteries, fruits de mer et fleurs. A savoir : le marche aux fleurs se tient uniquement le matin, et le marche aux brocantes le samedi apres-midi.",
+        body: "Le Marché provençal couvert d'Antibes se tient place Masséna, dans le Vieil Antibes, sous une halle métallique de la fin du XIXe siècle, tous les matins sauf le lundi. C'est l'un des plus beaux marchés de la Côte d'Azur : primeurs locaux, fromages provençaux, charcuteries, fruits de mer et fleurs. À savoir : le marché aux fleurs se tient uniquement le matin, et le marché aux brocantes le samedi après-midi.",
       },
       {
         heading: "7. La Villa Eilenroc et les jardins",
-        body: "La Villa Eilenroc (1860, neo-palladienne, a la pointe du Cap d'Antibes, propriete du baron Hugues Beaumont qui l'a leguee a la ville en 1980) est l'une des plus belles villas Belle Epoque de la Cote d'Azur. Son architecture est signee Charles Garnier, l'architecte de l'Opera de Paris. Son parc paysager (11 ha) est l'un des plus beaux jardins de la Cote d'Azur, gratuit et ouvert 2 jours par semaine. La visite interieure est payante, sur reservation.",
+        body: "La Villa Eilenroc (1860, néo-palladienne, à la pointe du Cap d'Antibes, propriété du baron Hugues Beaumont qui l'a léguée à la ville en 1980) est l'une des plus belles villas Belle Époque de la Côte d'Azur. Son architecture est signée Charles Garnier, l'architecte de l'Opéra de Paris. Son parc paysager (11 ha) est l'un des plus beaux jardins de la Côte d'Azur, gratuit et ouvert 2 jours par semaine. La visite intérieure est payante, sur réservation.",
       },
       {
         heading: "8. La Marineland — le parc à thème marin",
-        body: "Marineland Antibes (a 5 km a l'ouest) est le plus grand parc a theme marin d'Europe, consacre aux mammiferes marins : dauphins, orques (uniques en France hors zoos), otaries et manchots, avec des spectacles quotidiens. A savoir : une controverse animaliste, depuis les annees 2010, porte sur le bien-etre des orques en captivite, et celles-ci ont ete retirees du programme en 2024. Le parc comprend aussi un aquarium (8 millions de litres) et un restaurant sous-marin.",
+        body: "Marineland Antibes (à 5 km à l'ouest) est le plus grand parc à thème marin d'Europe, consacré aux mammifères marins : dauphins, orques (uniques en France hors zoos), otaries et manchots, avec des spectacles quotidiens. À savoir : une controverse animaliste, depuis les années 2010, porte sur le bien-être des orques en captivité, et celles-ci ont été retirées du programme en 2024. Le parc comprend aussi un aquarium (8 millions de litres) et un restaurant sous-marin.",
       },
       {
         heading: "9. Le Fort Carré — la forteresse Vauban",
-        body: "Le Fort Carre d'Antibes (XVIe-XVIIe siecles, fortifie par Vauban en 1680) est l'un des plus impressionnants ouvrages militaires francais de la Cote d'Azur : une fortification en etoile a 4 bastions, posee sur un eperon rocheux face au port Vauban. Il offre une vue panoramique sur Antibes, Nice et le Cap d'Antibes. La visite est payante (1h30). C'est un spot photo emblematique d'Antibes.",
+        body: "Le Fort Carré d'Antibes (XVIe-XVIIe siècles, fortifié par Vauban en 1680) est l'un des plus impressionnants ouvrages militaires français de la Côte d'Azur : une fortification en étoile à 4 bastions, posée sur un éperon rocheux face au port Vauban. Il offre une vue panoramique sur Antibes, Nice et le Cap d'Antibes. La visite est payante (1h30). C'est un spot photo emblématique d'Antibes.",
       },
       {
         heading: "10. Gastronomie niçoise — socca et pissaladière",
-        body: "La cuisine antiboise est nicoise mediterraneenne : socca (galette de farine de pois chiches cuite au four a bois, apero emblematique), pissaladiere (tarte a l'oignon, anchois et olives noires, la cousine nicoise de la pizza italienne), salade nicoise (tomates, oeufs, anchois, olives noires, sans pommes de terre dans la version originale) et pan-bagnat (sandwich nicois). La specialite antiboise est la tarte de blettes sucree (avec raisins secs, pignons et fromage rape), unique en France. En vins, le Bellet (a 15 km, AOC nicois unique) et le Cotes-de-Provence rose.",
+        body: "La cuisine antiboise est niçoise méditerranéenne : socca (galette de farine de pois chiches cuite au four à bois, apéro emblématique), pissaladière (tarte à l'oignon, anchois et olives noires, la cousine niçoise de la pizza italienne), salade niçoise (tomates, œufs, anchois, olives noires, sans pommes de terre dans la version originale) et pan-bagnat (sandwich niçois). La spécialité antiboise est la tarte de blettes sucrée (avec raisins secs, pignons et fromage râpé), unique en France. En vins, le Bellet (à 15 km, AOC niçois unique) et le Côtes-de-Provence rosé.",
       },
     ],
     relatedCities: ["antibes"],
@@ -32276,47 +32276,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Cagnes-sur-Mer est une commune des Alpes-Maritimes de 53 000 habitants, entre Nice et Antibes : trois villes en une, avec le Cros-de-Cagnes (port de peche traditionnel), le centre-ville commercant et le Haut-de-Cagnes (cite medievale perchee, l'une des plus authentiques de la Cote d'Azur). Pierre-Auguste Renoir y a vecu ses 12 dernieres annees (1907-1919, au Domaine des Collettes). C'est aussi le siege de l'Hippodrome de la Cote d'Azur, l'un des principaux hippodromes francais.",
+    intro: "Cagnes-sur-Mer est une commune des Alpes-Maritimes de 53 000 habitants, entre Nice et Antibes : trois villes en une, avec le Cros-de-Cagnes (port de pêche traditionnel), le centre-ville commerçant et le Haut-de-Cagnes (cité médiévale perchée, l'une des plus authentiques de la Côte d'Azur). Pierre-Auguste Renoir y a vécu ses 12 dernières années (1907-1919, au Domaine des Collettes). C'est aussi le siège de l'Hippodrome de la Côte d'Azur, l'un des principaux hippodromes français.",
     sections: [
       {
         heading: "1. Le musée Renoir — Domaine des Collettes",
-        body: "Le Musee Renoir, installe au Domaine des Collettes ou Pierre-Auguste Renoir vecut de 1907 a sa mort en 1919, est l'un des plus emouvants musees d'artistes francais : mobilier d'origine, ateliers de peinture intacts, fauteuil roulant (Renoir souffrait d'une polyarthrite deformante terrible et peignait le pinceau attache a la main) et olivier centenaire. La vue porte sur le Haut-de-Cagnes et la Mediterranee. On y voit 11 toiles originales de Renoir et des sculptures qu'il a realisees avec son fils Pierre, lequel guidait sa main.",
+        body: "Le Musée Renoir, installé au Domaine des Collettes où Pierre-Auguste Renoir vécut de 1907 à sa mort en 1919, est l'un des plus émouvants musées d'artistes français : mobilier d'origine, ateliers de peinture intacts, fauteuil roulant (Renoir souffrait d'une polyarthrite déformante terrible et peignait le pinceau attaché à la main) et olivier centenaire. La vue porte sur le Haut-de-Cagnes et la Méditerranée. On y voit 11 toiles originales de Renoir et des sculptures qu'il a réalisées avec son fils Pierre, lequel guidait sa main.",
       },
       {
         heading: "2. Le Haut-de-Cagnes — cité médiévale",
-        body: "Le Haut-de-Cagnes, village medieval perche a 100 m et centre historique de la commune, est l'une des plus authentiques cites medievales de la Cote d'Azur. On y trouve le Chateau-Musee Grimaldi (XIVe-XVIIe siecles), residence des anciens seigneurs Grimaldi, ancetres des princes de Monaco, ainsi que des maisons a toits de tuiles et des ruelles pavees en pente. C'est bien moins touristique que Saint-Paul-de-Vence (a 10 km), pour une atmosphere provencale authentique.",
+        body: "Le Haut-de-Cagnes, village médiéval perché à 100 m et centre historique de la commune, est l'une des plus authentiques cités médiévales de la Côte d'Azur. On y trouve le Château-Musée Grimaldi (XIVe-XVIIe siècles), résidence des anciens seigneurs Grimaldi, ancêtres des princes de Monaco, ainsi que des maisons à toits de tuiles et des ruelles pavées en pente. C'est bien moins touristique que Saint-Paul-de-Vence (à 10 km), pour une atmosphère provençale authentique.",
       },
       {
         heading: "3. Le château-musée Grimaldi",
-        body: "Le Chateau-Musee Grimaldi (XIVe siecle, ancien chateau fort des seigneurs Grimaldi de Cagnes, differents des Grimaldi de Monaco mais cousins) est le centre culturel du Haut-de-Cagnes. Il abrite le musee de l'Olivier au rez-de-chaussee, l'olivier etant l'arbre emblematique de Provence, et le musee Suzy Solidor a l'etage : la collection des 244 portraits de la chanteuse de cabaret par les artistes du XXe siecle (Picasso, Cocteau, Foujita, Van Dongen, Marquet). La Salle des Fetes du XVIIe siecle presente un plafond peint en trompe-l'oeil.",
+        body: "Le Château-Musée Grimaldi (XIVe siècle, ancien château fort des seigneurs Grimaldi de Cagnes, différents des Grimaldi de Monaco mais cousins) est le centre culturel du Haut-de-Cagnes. Il abrite le musée de l'Olivier au rez-de-chaussée, l'olivier étant l'arbre emblématique de Provence, et le musée Suzy Solidor à l'étage : la collection des 244 portraits de la chanteuse de cabaret par les artistes du XXe siècle (Picasso, Cocteau, Foujita, Van Dongen, Marquet). La Salle des Fêtes du XVIIe siècle présente un plafond peint en trompe-l'œil.",
       },
       {
         heading: "4. L'hippodrome de la Côte d'Azur",
-        body: "L'Hippodrome de Cagnes-sur-Mer (cree en 1952) est le premier hippodrome de la Cote d'Azur en termes de frequentation. Il accueille des courses prestigieuses en hiver, de decembre a mars, la saison cagnoise, en plat et en obstacles, devant des tribunes modernes. La piste est si spacieuse qu'elle accueille parfois aussi du polo. Les visites sont libres en dehors des courses (acces libre au parc, a proximite de la plage du Cros). Un festival Pop Up des courses a lieu en avril.",
+        body: "L'Hippodrome de Cagnes-sur-Mer (créé en 1952) est le premier hippodrome de la Côte d'Azur en termes de fréquentation. Il accueille des courses prestigieuses en hiver, de décembre à mars, la saison cagnoise, en plat et en obstacles, devant des tribunes modernes. La piste est si spacieuse qu'elle accueille parfois aussi du polo. Les visites sont libres en dehors des courses (accès libre au parc, à proximité de la plage du Cros). Un festival Pop Up des courses a lieu en avril.",
       },
       {
         heading: "5. Vence et la chapelle Matisse — à 8 km",
-        body: "Vence (a 8 km au nord de Cagnes-sur-Mer) abrite la Chapelle du Rosaire de Vence (1951), oeuvre testamentaire d'Henri Matisse, qu'il considerait comme son chef-d'oeuvre absolu : vitraux bleus, verts et jaunes, et dessins muraux en ceramique noire. L'ouverture est limitee (mardi et jeudi). A voir aussi : la vieille ville fortifiee de Vence et sa cathedrale.",
+        body: "Vence (à 8 km au nord de Cagnes-sur-Mer) abrite la Chapelle du Rosaire de Vence (1951), œuvre testamentaire d'Henri Matisse, qu'il considérait comme son chef-d'œuvre absolu : vitraux bleus, verts et jaunes, et dessins muraux en céramique noire. L'ouverture est limitée (mardi et jeudi). À voir aussi : la vieille ville fortifiée de Vence et sa cathédrale.",
       },
       {
         heading: "6. Saint-Paul-de-Vence — la cité des artistes",
-        body: "Saint-Paul-de-Vence (a 10 km au nord-ouest de Cagnes-sur-Mer) est l'une des plus belles cites perchees de la Cote d'Azur, fortifiee par Francois Ier au XVIe siecle. On y trouve la Fondation Marguerite-et-Aime-Maeght (1964), l'un des plus importants centres d'art contemporain en France (Chagall, Miro, Calder, Leger), la Colombe d'Or, auberge mythique des artistes, et la tombe de Marc Chagall, au cimetiere du village.",
+        body: "Saint-Paul-de-Vence (à 10 km au nord-ouest de Cagnes-sur-Mer) est l'une des plus belles cités perchées de la Côte d'Azur, fortifiée par François Ier au XVIe siècle. On y trouve la Fondation Marguerite-et-Aimé-Maeght (1964), l'un des plus importants centres d'art contemporain en France (Chagall, Miró, Calder, Léger), la Colombe d'Or, auberge mythique des artistes, et la tombe de Marc Chagall, au cimetière du village.",
       },
       {
         heading: "7. Nice et la promenade des Anglais",
-        body: "Nice (a 15 km a l'est de Cagnes-sur-Mer) est la grande metropole de la Cote d'Azur, 5e ville francaise. On y parcourt la Promenade des Anglais (7 km de front de mer), la Vieille Ville et son Cours Saleya (marche aux fleurs et primeurs), le quartier romain de Cimiez (arenes de Cimiez, musee Matisse, musee Marc Chagall) et la colline du Chateau (vue a 360 degres sur la baie des Anges). Le Carnaval de Nice se tient en fevrier.",
+        body: "Nice (à 15 km à l'est de Cagnes-sur-Mer) est la grande métropole de la Côte d'Azur, 5e ville française. On y parcourt la Promenade des Anglais (7 km de front de mer), la Vieille Ville et son Cours Saleya (marché aux fleurs et primeurs), le quartier romain de Cimiez (arènes de Cimiez, musée Matisse, musée Marc Chagall) et la colline du Château (vue à 360° sur la baie des Anges). Le Carnaval de Nice se tient en février.",
       },
       {
         heading: "8. Le Cros-de-Cagnes — village de pêcheurs",
-        body: "Le Cros-de-Cagnes (a 2 km au sud du centre, ancien village de pecheurs) est l'un des derniers ports authentiques de la Cote d'Azur. On y profite de la promenade en bord de mer, des restaurants de poissons et du petit port aux barques colorees. La plage du Cros (galets, surveillee de juin a aout) est toute proche, et l'on rejoint l'hippodrome a pied.",
+        body: "Le Cros-de-Cagnes (à 2 km au sud du centre, ancien village de pêcheurs) est l'un des derniers ports authentiques de la Côte d'Azur. On y profite de la promenade en bord de mer, des restaurants de poissons et du petit port aux barques colorées. La plage du Cros (galets, surveillée de juin à août) est toute proche, et l'on rejoint l'hippodrome à pied.",
       },
       {
         heading: "9. La promenade littorale et la véloroute",
-        body: "La Promenade Littorale (boulevard de la Plage) de Cagnes-sur-Mer court sur 3 km le long de la mer, entre l'embouchure du Var et l'hippodrome, amenagee pour les pietons et les velos. La Veloroute Mediterranee (EuroVelo 8, projet en cours) traverse la commune. Cagnes-sur-Mer est desservie par la ligne TER Nice-Marseille, a 15 min de Nice et 6 min d'Antibes.",
+        body: "La Promenade Littorale (boulevard de la Plage) de Cagnes-sur-Mer court sur 3 km le long de la mer, entre l'embouchure du Var et l'hippodrome, aménagée pour les piétons et les vélos. La Véloroute Méditerranée (EuroVelo 8, projet en cours) traverse la commune. Cagnes-sur-Mer est desservie par la ligne TER Nice-Marseille, à 15 min de Nice et 6 min d'Antibes.",
       },
       {
         heading: "10. Gastronomie niçoise — socca et pissaladière",
-        body: "La cuisine cagnoise est nicoise mediterraneenne : socca (galette de farine de pois chiches), pissaladiere (tarte a l'oignon, anchois et olives noires, version nicoise), salade nicoise traditionnelle (sans pommes de terre) et pan-bagnat (sandwich nicois). Parmi les specialites : la poutine de Nice (alevins de sardines, peche reglementee de fevrier a mars) et les oursins en hiver. Cote fromages, la tomme de l'arriere-pays. En vins, l'AOC Bellet (a 15 km, micro-AOC unique a Nice, cepages folle noire et braquet en rouge, rolle en blanc) et le Cotes-de-Provence rose (a 30 km a l'ouest).",
+        body: "La cuisine cagnoise est niçoise méditerranéenne : socca (galette de farine de pois chiches), pissaladière (tarte à l'oignon, anchois et olives noires, version niçoise), salade niçoise traditionnelle (sans pommes de terre) et pan-bagnat (sandwich niçois). Parmi les spécialités : la poutine de Nice (alevins de sardines, pêche réglementée de février à mars) et les oursins en hiver. Côté fromages, la tomme de l'arrière-pays. En vins, l'AOC Bellet (à 15 km, micro-AOC unique à Nice, cépages folle noire et braquet en rouge, rolle en blanc) et le Côtes-de-Provence rosé (à 30 km à l'ouest).",
       },
     ],
     relatedCities: ["cagnes-sur-mer"],
@@ -32336,47 +32336,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Saint-Raphael est une station balneaire du Var de 35 000 habitants, la capitale de la Cote d'Azur varoise. Au pied du massif rouge de l'Esterel (volcanisme tardif, granite porphyrique rouge, un paysage unique en Mediterranee), la commune compte 36 km de littoral et 6 ports de plaisance. La station est nee sous Napoleon III, puis popularisee par Alphonse Karr, le pere du Saint-Raphael touristique dans les annees 1860, ou Dumas, Gounod et Maupassant se retrouvaient.",
+    intro: "Saint-Raphaël est une station balnéaire du Var de 35 000 habitants, la capitale de la Côte d'Azur varoise. Au pied du massif rouge de l'Estérel (volcanisme tardif, granite porphyrique rouge, un paysage unique en Méditerranée), la commune compte 36 km de littoral et 6 ports de plaisance. La station est née sous Napoléon III, puis popularisée par Alphonse Karr, le père du Saint-Raphaël touristique dans les années 1860, où Dumas, Gounod et Maupassant se retrouvaient.",
     sections: [
       {
         heading: "1. Le massif de l'Estérel — granite rouge",
-        body: "Le Massif de l'Esterel (a 5 km au nord de Saint-Raphael, 32 000 ha de granite porphyrique rouge, un paysage unique en Mediterranee occidentale) est l'un des plus spectaculaires paysages cotiers de France. On y gravit le Pic du Cap Roux (453 m, plus haut sommet, vue a 360 degres) et le Pic de l'Ours (492 m), et l'on emprunte le Sentier du Littoral (GR51, 30 km de Saint-Raphael a Theoule-sur-Mer) ou les falaises rouges plongent dans la mer. A pied ou en VTT. Le massif a connu beaucoup d'incendies au fil de l'histoire et se trouve souvent en cours de regeneration.",
+        body: "Le Massif de l'Estérel (à 5 km au nord de Saint-Raphaël, 32 000 ha de granite porphyrique rouge, un paysage unique en Méditerranée occidentale) est l'un des plus spectaculaires paysages côtiers de France. On y gravit le Pic du Cap Roux (453 m, plus haut sommet, vue à 360°) et le Pic de l'Ours (492 m), et l'on emprunte le Sentier du Littoral (GR51, 30 km de Saint-Raphaël à Théoule-sur-Mer) où les falaises rouges plongent dans la mer. À pied ou en VTT. Le massif a connu beaucoup d'incendies au fil de l'histoire et se trouve souvent en cours de régénération.",
       },
       {
         heading: "2. La baie d'Agay — emblématique",
-        body: "La baie d'Agay (a 8 km a l'est de Saint-Raphael, sur la Corniche d'Or, la D559) est l'une des plus belles baies de Mediterranee occidentale : plage de sable rouge orange (une couleur unique en France, due aux roches de l'Esterel) et eau turquoise. Antoine de Saint-Exupery y a ete retrouve en 1944, son P-38 Lightning ayant ete identifie au fond de la baie en 2003. Le restaurant Tahiti Plage est tres repute, et le Sentier du Littoral se parcourt a pied.",
+        body: "La baie d'Agay (à 8 km à l'est de Saint-Raphaël, sur la Corniche d'Or, la D559) est l'une des plus belles baies de Méditerranée occidentale : plage de sable rouge orange (une couleur unique en France, due aux roches de l'Estérel) et eau turquoise. Antoine de Saint-Exupéry y a été retrouvé en 1944, son P-38 Lightning ayant été identifié au fond de la baie en 2003. Le restaurant Tahiti Plage est très réputé, et le Sentier du Littoral se parcourt à pied.",
       },
       {
         heading: "3. La Corniche d'Or — la route panoramique",
-        body: "La Corniche d'Or (D559, 30 km de Saint-Raphael a Mandelieu-La Napoule, creee en 1903) est l'une des plus belles routes panoramiques de France, entre les rochers rouges de l'Esterel et la mer : calanques inaccessibles, criques sauvages et plages secretes. On la parcourt en voiture ou a velo (loueurs a Saint-Raphael). Le coucher de soleil sur les rochers rouges y est exceptionnel, avec vue sur les iles de Lerins, Sainte-Marguerite et Saint-Honorat.",
+        body: "La Corniche d'Or (D559, 30 km de Saint-Raphaël à Mandelieu-La Napoule, créée en 1903) est l'une des plus belles routes panoramiques de France, entre les rochers rouges de l'Estérel et la mer : calanques inaccessibles, criques sauvages et plages secrètes. On la parcourt en voiture ou à vélo (loueurs à Saint-Raphaël). Le coucher de soleil sur les rochers rouges y est exceptionnel, avec vue sur les îles de Lérins, Sainte-Marguerite et Saint-Honorat.",
       },
       {
         heading: "4. Fréjus — la cité gallo-romaine",
-        body: "Frejus (a 3 km a l'ouest de Saint-Raphael) est l'une des plus anciennes cites gallo-romaines de France : Forum Julii, fondee par Jules Cesar en 49 av. J.-C. Parmi les vestiges majeurs, les arenes (Ier siecle, 10 000 places, parmi les plus anciennes de France), le theatre romain, l'aqueduc et le port creuse sous Auguste. La cathedrale Saint-Leonce (Ve-XIe siecles) abrite l'un des plus anciens baptisteres chretiens de France encore en service, avec un cloitre attenant du XIIe siecle.",
+        body: "Fréjus (à 3 km à l'ouest de Saint-Raphaël) est l'une des plus anciennes cités gallo-romaines de France : Forum Julii, fondée par Jules César en 49 av. J.-C. Parmi les vestiges majeurs, les arènes (Ier siècle, 10 000 places, parmi les plus anciennes de France), le théâtre romain, l'aqueduc et le port creusé sous Auguste. La cathédrale Saint-Léonce (Ve-XIe siècles) abrite l'un des plus anciens baptistères chrétiens de France encore en service, avec un cloître attenant du XIIe siècle.",
       },
       {
         heading: "5. Cannes et la Croisette — à 30 km",
-        body: "Cannes (a 30 km a l'est de Saint-Raphael) est la capitale mondiale du cinema, avec son Festival de Cannes en mai (depuis 1946, le plus prestigieux festival cinematographique au monde). On y voit le Palais des Festivals, la Croisette (3 km de promenade en bord de mer) et les palaces emblematiques (Carlton, Majestic, Martinez). La plage publique de la Croisette est faite de sable importe de Bormes-les-Mimosas, et le marche Forville (le matin, sauf le lundi) est l'un des plus beaux de la Cote d'Azur.",
+        body: "Cannes (à 30 km à l'est de Saint-Raphaël) est la capitale mondiale du cinéma, avec son Festival de Cannes en mai (depuis 1946, le plus prestigieux festival cinématographique au monde). On y voit le Palais des Festivals, la Croisette (3 km de promenade en bord de mer) et les palaces emblématiques (Carlton, Majestic, Martinez). La plage publique de la Croisette est faite de sable importé de Bormes-les-Mimosas, et le marché Forville (le matin, sauf le lundi) est l'un des plus beaux de la Côte d'Azur.",
       },
       {
         heading: "6. Les Îles de Lérins — Sainte-Marguerite et Saint-Honorat",
-        body: "Les Iles de Lerins, au large de Cannes et accessibles en 20 min de bateau, comptent deux iles principales. Sainte-Marguerite (3 km de long) abrite le fort Royal, ou le Masque de Fer fut emprisonne de 1687 a 1698, avec un musee de la Mer gratuit installe dans le fort. Saint-Honorat (1,5 km) abrite l'abbaye de Lerins, monastere cistercien en activite depuis le Ve siecle, dont les moines produisent vins et liqueurs (visite payante, atmosphere silencieuse). Aucune voiture sur les iles.",
+        body: "Les Îles de Lérins, au large de Cannes et accessibles en 20 min de bateau, comptent deux îles principales. Sainte-Marguerite (3 km de long) abrite le fort Royal, où le Masque de Fer fut emprisonné de 1687 à 1698, avec un musée de la Mer gratuit installé dans le fort. Saint-Honorat (1,5 km) abrite l'abbaye de Lérins, monastère cistercien en activité depuis le Ve siècle, dont les moines produisent vins et liqueurs (visite payante, atmosphère silencieuse). Aucune voiture sur les îles.",
       },
       {
         heading: "7. La basilique Notre-Dame-de-la-Victoire",
-        body: "La basilique Notre-Dame-de-la-Victoire de Saint-Raphael (XIXe siecle, neo-byzantine, un style en vogue a la Belle Epoque comme au Sacre-Coeur de Paris) est l'embleme de la ville, avec sa coupole centrale et ses mosaiques dorees. Elle fut construite de 1881 a 1885 sur les plans de Pierre Auble. A cote, l'eglise romane Saint-Pierre-des-Templiers (XIIe siecle), anterieure de 7 siecles a la basilique, rappelle la presence des Templiers.",
+        body: "La basilique Notre-Dame-de-la-Victoire de Saint-Raphaël (XIXe siècle, néo-byzantine, un style en vogue à la Belle Époque comme au Sacré-Cœur de Paris) est l'emblème de la ville, avec sa coupole centrale et ses mosaïques dorées. Elle fut construite de 1881 à 1885 sur les plans de Pierre Aublé. À côté, l'église romane Saint-Pierre-des-Templiers (XIIe siècle), antérieure de 7 siècles à la basilique, rappelle la présence des Templiers.",
       },
       {
         heading: "8. Le port de plaisance et les bateaux",
-        body: "Saint-Raphael possede 6 ports de plaisance (1 750 anneaux au total), l'un des plus grands reseaux portuaires de plaisance de la Cote d'Azur, dont le port de Santa-Lucia (1 500 anneaux, le principal). Les activites nautiques y abondent : voile, paddle et plongee sur le massif sous-marin de l'Esterel, avec ses sites d'epave et ses tombants rocheux, l'un des plus beaux spots de Mediterranee. La ville dispose aussi de son ecole de voile.",
+        body: "Saint-Raphaël possède 6 ports de plaisance (1 750 anneaux au total), l'un des plus grands réseaux portuaires de plaisance de la Côte d'Azur, dont le port de Santa-Lucia (1 500 anneaux, le principal). Les activités nautiques y abondent : voile, paddle et plongée sur le massif sous-marin de l'Estérel, avec ses sites d'épave et ses tombants rocheux, l'un des plus beaux spots de Méditerranée. La ville dispose aussi de son école de voile.",
       },
       {
         heading: "9. Le musée archéologique — Henri de Lorraine",
-        body: "Le Musee archeologique de Saint-Raphael (cree en 1912) est l'un des plus anciens musees d'archeologie sous-marine de France. Il presente les fouilles des epaves antiques retrouvees au large de Saint-Raphael et de Frejus : amphores romaines et navires de commerce du Ier siecle av. J.-C. au IVe siecle ap. J.-C. On y voit notamment le Vase de Saint-Raphael (Ier siecle ap. J.-C.), en parfait etat. L'entree est gratuite le premier dimanche.",
+        body: "Le Musée archéologique de Saint-Raphaël (créé en 1912) est l'un des plus anciens musées d'archéologie sous-marine de France. Il présente les fouilles des épaves antiques retrouvées au large de Saint-Raphaël et de Fréjus : amphores romaines et navires de commerce du Ier siècle av. J.-C. au IVe siècle ap. J.-C. On y voit notamment le Vase de Saint-Raphaël (Ier siècle ap. J.-C.), en parfait état. L'entrée est gratuite le premier dimanche.",
       },
       {
         heading: "10. Gastronomie provençale — soupe au pistou et rosé",
-        body: "La cuisine de Saint-Raphael est provencale mediterraneenne : soupe au pistou (soupe de legumes au pistou, soit basilic, ail, huile d'olive et parmesan), bouillabaisse (rascasse, vive, baudroie, recette codifiee par la charte marseillaise), aioli (sauce a l'ail et a l'huile d'olive, servie avec morue et legumes vapeur), tian de legumes et ratatouille. La specialite locale reste le poisson de la baie d'Agay (bar de ligne, dorade, loup). Cote fromages, le Banon (a 80 km au nord, AOP chevre fermier en feuille de chataignier). En vins, l'AOC Cotes-de-Provence rose (a 10 km a l'ouest, capitale du rose) et le Bandol (a 80 km, rouge de mourvedre).",
+        body: "La cuisine de Saint-Raphaël est provençale méditerranéenne : soupe au pistou (soupe de légumes au pistou, soit basilic, ail, huile d'olive et parmesan), bouillabaisse (rascasse, vive, baudroie, recette codifiée par la charte marseillaise), aïoli (sauce à l'ail et à l'huile d'olive, servie avec morue et légumes vapeur), tian de légumes et ratatouille. La spécialité locale reste le poisson de la baie d'Agay (bar de ligne, dorade, loup). Côté fromages, le Banon (à 80 km au nord, AOP chèvre fermier en feuille de châtaignier). En vins, l'AOC Côtes-de-Provence rosé (à 10 km à l'ouest, capitale du rosé) et le Bandol (à 80 km, rouge de mourvèdre).",
       },
     ],
     relatedCities: ["saint-raphael"],
