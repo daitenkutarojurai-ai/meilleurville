@@ -22337,47 +22337,6 @@ export const GUIDES: Guide[] = [
     tags: ["quitter Orléans 2026", "alternatives à Orléans Loire", "Orléans navetteur Paris alternatives", "partir d'Orléans où aller", "Orléans vs Tours vs Nantes 2026"],
   },
   {
-    slug: "vivre-en-centre-val-de-loire-guide-2026",
-    title: "Vivre en Centre-Val de Loire en 2026 : guide complet de la région",
-    metaTitle: "Vivre en Centre-Val de Loire 2026 — Guide complet, villes, qualité de vie",
-    metaDesc: "Tout sur vivre en Centre-Val de Loire : villes, immobilier, emploi, Loire, châteaux, qualité de vie. Guide complet pour s'installer dans la région en 2026.",
-    category: "region",
-    emoji: "🏰",
-    readMinutes: 9,
-    publishedAt: "2026-05-01",
-    updatedAt: "2026-05-26",
-    intro: "Le Centre-Val de Loire est la région des contradictions positives : riche en patrimoine mondial (châteaux de la Loire, cathédrales, vignobles), accessible depuis Paris en moins de 1h15 par TGV, et pourtant l'une des moins chères de France en termes d'immobilier. Tours, Orléans, Blois, Chartres, Bourges : cinq villes de caractère à moins de 130 km de Paris. Pour les télétravailleurs, retraités ou familles cherchant l'espace et le calme sans s'exiler à 500 km, cette région est un secret bien gardé.",
-    sections: [
-      {
-        heading: "Les villes à connaître",
-        body: "Tours (145 000 hab.) est la métropole ligérienne par excellence, TGV Paris en 1h00, économie pharma et nucléaire solide, université (30 000 étudiants), vieille ville dynamique, 2 200–3 500 €/m². Orléans (115 000 hab.) est plus proche de Paris (1h05 TGV) mais moins autonome, 2 500–3 800 €/m². Blois (45 000 hab.) est la ville de la Loire classique, château royal, vieille ville médiévale, Loire en centre-ville, 1 500–2 300 €/m²; idéal pour les télétravailleurs. Chartres (40 000 hab.) est la ville cathédrale, 1h08 de Paris-Montparnasse, 2 000–3 200 €/m². Bourges (65 000 hab.) est la capitale du Berry. Cathédrale UNESCO, prix parmi les plus bas de la région (1 400–2 200 €/m²), calme provincial.",
-      },
-      {
-        heading: "Immobilier : parmi les moins chers près de Paris",
-        body: "Le Centre-Val de Loire offre les prix immobiliers les plus bas de France pour une région avec un accès TGV vers Paris. Les villes moyennes (Vierzon, Dreux, Vendôme, Romorantin-Lanthenay) descendent à 800–1 600 €/m². Pour un pavillon 100 m² avec jardin dans un bourg proche d'une ville TGV, comptez 150 000–220 000 €. La région souffre d'une démographie vieillissante et d'une pression immobilière limitée: ce qui profite aux acheteurs. Mais attention : une démographie atone signifie aussi moins de dynamisme économique local.",
-      },
-      {
-        heading: "Emploi et économie",
-        body: "L'économie régionale est diversifiée mais de taille modeste. Secteurs clés : pharmaceutique et cosmétique (Cosmétic Valley entre Paris, Chartres et Tours: premier cluster cosmétique mondial en termes d'emplois), énergie nucléaire (centrale de Saint-Laurent-Nouan, Dampierre, Belleville), agriculture et viticulture (Vouvray, Chinon, Sancerre), et les services publics dans les villes préfectures. Pour les profils tech ou finance, Tours est le seul bassin d'emploi local significatif. Orléans et Chartres restent dans l'orbite Paris. Télétravail : la région est l'une des premières bénéficiaires du travail à distance, beaucoup de cadres parisiens y ont acheté depuis 2020.",
-      },
-      {
-        heading: "Qualité de vie : la Loire et les châteaux au quotidien",
-        body: "Le patrimoine est la ressource qualitative principale de la région : 42 châteaux inscrits au Patrimoine Mondial UNESCO (Chambord, Chenonceau, Villandry...) à moins de 1h de voiture depuis n'importe quelle ville de la région. La Loire, fleuve sauvage, non canalisé, classé par l'UNESCO, est une ressource de loisirs exceptionnelle : vélo (la Loire à Vélo, 800 km de pistes), canoë, pêche. Le vignoble ligérien (Vouvray, Chinon, Sancerre, Pouilly-Fumé, Muscadet) est l'un des plus diversifiés de France. Le réseau de marchés locaux et de producteurs directs est dense, qualité alimentaire élevée à prix raisonnables.",
-      },
-      {
-        heading: "Pour quel profil ?",
-        body: "Le Centre-Val de Loire est particulièrement adapté aux : télétravailleurs parisiens qui veulent l'espace et le patrimoine sans l'éloignement ; retraités cherchant un environnement culturellement riche à budget modéré ; familles cherchant un pavillon avec jardin à moins de 200 000 € à moins de 1h30 de Paris ; profils pharma/cosmétique (Cosmétic Valley). Moins adapté pour : les jeunes actifs ambitieux sans emploi à distance (les marchés locaux sont étroits), les amateurs de grandes villes dynamiques (aucune métropole majeure dans la région), ou les personnes dépendantes d'une offre culturelle urbaine dense.",
-      },
-    ],
-    relatedCities: ["tours", "orleans", "blois", "chartres", "bourges"],
-    relatedGuides: [
-      "acheter-a-tours-quel-quartier-budget-2026",
-      "acheter-a-orleans-quel-quartier-budget-2026",
-      "acheter-a-chartres-quel-quartier-budget-2026",
-    ],
-    tags: ["vivre en Centre-Val de Loire 2026", "s'installer Centre-Val de Loire guide", "immobilier Centre-Val de Loire prix", "Tours Orléans Blois Chartres vivre", "région Loire châteaux qualité de vie 2026"],
-  },
-  {
     slug: "vivre-en-normandie-guide-2026",
     title: "Vivre en Normandie en 2026 : guide complet de la région",
     metaTitle: "Vivre en Normandie 2026 — Guide complet, villes, qualité de vie",
@@ -22417,47 +22376,6 @@ export const GUIDES: Guide[] = [
       "teletravailler-depuis-normandie-guide-2026",
     ],
     tags: ["vivre en Normandie 2026", "s'installer Normandie guide complet", "immobilier Normandie prix falaises mer", "Rouen Caen Le Havre vivre", "Normandie qualité de vie navetteur Paris 2026"],
-  },
-  {
-    slug: "vivre-en-hauts-de-france-guide-2026",
-    title: "Vivre en Hauts-de-France en 2026 : guide complet de la région",
-    metaTitle: "Vivre en Hauts-de-France 2026 — Guide complet, villes, qualité de vie",
-    metaDesc: "Tout sur vivre en Hauts-de-France : Lille, Amiens, Reims, Dunkerque, immobilier, emploi, culture. Guide complet pour s'installer dans la région en 2026.",
-    category: "region",
-    emoji: "🍺",
-    readMinutes: 9,
-    publishedAt: "2026-05-01",
-    updatedAt: "2026-05-26",
-    intro: "Les Hauts-de-France forment la région la moins connue et la plus injustement caricaturée de France. Entre Lille, métropole européenne de 1,2 million d'habitants à la vitalité culturelle exceptionnelle, et Amiens, Reims, Dunkerque ou la Côte d'Opale, la région offre des prix immobiliers parmi les plus bas de France, un accès exceptionnel à Paris (Lille à 1h, à 220 €/m² en moyenne) et à Londres (Eurostar en 1h20), et une culture flamande et picarde unique. Le cliché de la « région triste et pauvre » ignore Lille et toute la dynamique de reconversion industrielle en cours.",
-    sections: [
-      {
-        heading: "Lille : la métropole qui défie les clichés",
-        body: "Lille (230 000 hab., 1,2 million dans l'aire urbaine incluant Roubaix-Tourcoing) est l'une des villes françaises les plus dynamiques, et les plus jeunes. Premier pôle universitaire de France hors Paris (110 000 étudiants), centre européen grâce à Euralille et l'Eurostar, marché de l'emploi profond (grande distribution Auchan/Décathlon/La Redoute, services financiers, santé, numérique). Vieille ville flamande (Grand'Place, Vieux-Lille) parmi les plus belles de France. Et des prix défiant toute logique : 2 200–4 000 €/m² selon le quartier, Paris à l'envers. La jeunesse, la bière, la braderie (plus grande brocante d'Europe), et le stade Pierre-Mauroy (LOSC, Daft Punk) font le reste.",
-      },
-      {
-        heading: "Les autres villes de la région",
-        body: "Amiens (135 000 hab.) est la préfecture de la Somme, cathédrale Notre-Dame (la plus grande de France, UNESCO), Hortillonnages (jardins flottants en centre-ville), économie pharmaceutique (GSK, Baxter). Prix : 1 500–2 500 €/m². Reims (185 000 hab.) est à 45 min de Paris par TGV, champagne, cathédrale du Sacré Couronnement, Cave Mumm. Prix : 1 800–3 000 €/m². Dunkerque (90 000 hab.) est en pleine renaissance : grande zone industrielle (ArcelorMittal, Dunkerque LNG, futur méga-projet industriel avec 13 Mds d'investissements annoncés), plages de la mer du Nord, port. Prix ultra-bas : 1 200–2 000 €/m². Saint-Quentin, Valenciennes, Douai complètent le tissu urbain régional.",
-      },
-      {
-        heading: "Immobilier : les prix les plus bas de la France du nord",
-        body: "Hors Lille centre, les Hauts-de-France offrent certains des prix immobiliers les plus bas de France métropolitaine. Roubaix : 700–1 500 €/m² (l'une des villes les moins chères de l'arc nord-européen). Tourcoing : 1 000–2 000 €/m². Amiens périphérie : 1 200–2 000 €/m². Dunkerque : 1 200–2 000 €/m². Ces prix bas reflètent une démographie fragile et des défis économiques réels, ce ne sont pas des aubaines sans contrepartie. Mais pour les primo-accédants ou les investisseurs à budget limité, la région offre des opportunités que les autres régions françaises n'ont plus.",
-      },
-      {
-        heading: "Economie en mutation : déclin et reconversion",
-        body: "Les Hauts-de-France portent l'héritage du déclin industriel (charbon, textile, sidérurgie) mais aussi une reconversion réelle. La 'Vallée de la Batterie' autour de Dunkerque attire des gigafactories de batteries (Verkor, Envision AESC, ACC, 10 Mds d'euros d'investissements, 10 000 emplois directs attendus d'ici 2030). Toyota à Onnaing, Renault électrique à Douai, Amazon à Brétigny et Lauwin-Planque, le tissu industriel se réinvente. Lille concentre les emplois tertiaires, la finance, et le commerce. La reconversion industrielle du bassin minier est lente mais réelle.",
-      },
-      {
-        heading: "Pour quel profil ?",
-        body: "Hauts-de-France idéale pour : les Lillois (qui connaissent déjà leur chance) ; les personnes cherchant la meilleure connexion Paris + coût bas en France (Reims : 45 min pour 1 800 €/m²) ; les profils industrie/logistique/grande distribution ; les amateurs de culture flamande, de bières artisanales, de frites et de concerts (Lille a la scène musicale la plus active de France hors Paris). Moins idéale pour : les amateurs de soleil et de chaleur (la météo est franchement nordique), les personnes cherchant la nature montagnarde ou méditerranéenne.",
-      },
-    ],
-    relatedCities: ["lille", "amiens", "reims", "dunkerque", "valenciennes"],
-    relatedGuides: [
-      "acheter-a-lille-quel-quartier-budget-2026",
-      "acheter-a-amiens-quel-quartier-budget-2026",
-      "acheter-a-reims-quel-quartier-budget-2026",
-    ],
-    tags: ["vivre en Hauts-de-France 2026", "s'installer Hauts-de-France guide", "immobilier Hauts-de-France prix", "Lille Amiens Reims Dunkerque vivre", "Hauts-de-France qualité de vie emploi 2026"],
   },
   {
     slug: "vivre-en-bretagne-guide-2026",
@@ -28465,65 +28383,6 @@ export const GUIDES: Guide[] = [
     tags: ["10 choses à faire à Carcassonne", "activités Carcassonne 2026", "sorties Carcassonne", "que faire à Carcassonne", "Cité médiévale UNESCO cathare canal Midi Corbières cassoulet"],
   },
   {
-    slug: "10-choses-a-faire-a-clermont-l-herault-2026",
-    title: "10 choses à faire à Clermont-l'Hérault (le lac du Salagou et les ruffes rouges)",
-    metaTitle: "10 choses à faire à Clermont-l'Hérault 2026 — activités et sorties locales",
-    metaDesc: "Lac du Salagou, cirque de Mourèze, Saint-Guilhem-le-Désert et Terrasses du Larzac : 10 activités à Clermont-l'Hérault aux portes du Languedoc volcanique.",
-    category: "tourisme",
-    emoji: "🌋",
-    readMinutes: 6,
-    publishedAt: "2026-05-27",
-    updatedAt: "2026-05-27",
-    intro: "Clermont-l'Hérault est une sous-préfecture de l'Hérault, 8 000 habitants au cœur d'un paysage géologique unique en France : les ruffes (terres rouges permiennes vieilles de 250 millions d'années) du Salagou, les dolomies calcaires de Mourèze, les coulées basaltiques du Mont Saint-Baudille. La ville est la porte d'entrée du Cœur d'Hérault, terroir viticole de premier ordre (Terrasses du Larzac, AOC).",
-    sections: [
-      {
-        heading: "1. Le lac du Salagou — la mer rouge intérieure",
-        body: "Le lac du Salagou (750 ha, créé en 1969 par un barrage destiné à l'irrigation) est un lac artificiel posé sur les ruffes rouges du Permien (250 millions d'années : formation antérieure aux dinosaures). Le contraste entre l'eau turquoise et la terre rouge brique est unique en Europe. Six plages de baignade libre (Les Vailhès, Le Sauvage, Vailhès basse), école de voile et de planche, possibilité de pédalo et paddle. La route du tour du lac (28 km) est l'une des plus belles de l'Hérault à vélo.",
-      },
-      {
-        heading: "2. Le cirque de Mourèze — la dolomie sculptée",
-        body: "Le cirque de Mourèze (à 6 km de Clermont) est un chaos rocheux de 340 ha où l'érosion karstique a sculpté des centaines de pinacles de dolomie calcaire : paysage proche des dolomites italiennes en miniature. Trois sentiers balisés (1h, 2h, 4h) traversent le labyrinthe. Le village médiéval de Mourèze (200 habitants, château ruiné du XIIIe siècle) est blotti dans le cirque. Site classé Natura 2000.",
-      },
-      {
-        heading: "3. Le Mont Saint-Baudille — le belvédère du Languedoc",
-        body: "Le Mont Saint-Baudille (848 m, à 20 km de Clermont) est le sommet de la montagne de la Séranne et offre la vue la plus large sur le Languedoc : Méditerranée (Cap d'Agde, étang de Thau), Pyrénées (Canigou par temps clair), Cévennes (Mont Aigoual), Larzac. Coulées basaltiques du Causse de l'Escandorgue (volcanisme tardif du Massif central, -1 million d'années). Accessible en voiture ou à pied depuis Saint-Jean-de-Buèges (3h aller).",
-      },
-      {
-        heading: "4. Les Terrasses du Larzac — l'AOC viticole montante",
-        body: "Les Terrasses du Larzac (AOC 2014, 1 800 ha sur 32 communes autour de Clermont) sont l'appellation la plus dynamique du Languedoc, syrah, grenache, mourvèdre, carignan. Domaines de référence : Mas Jullien (Olivier Jullien, l'un des pionniers), domaine de la Sauvageonne, domaine d'Aupilhac (Sylvain Fadat). Les rouges (grands vins de garde, structure tannique) sont vendus 20-60€ la bouteille. Caveaux ouverts au public sur RDV.",
-      },
-      {
-        heading: "5. L'abbaye de Saint-Guilhem-le-Désert",
-        body: "Saint-Guilhem-le-Désert (à 15 km de Clermont) est classé parmi les plus beaux villages de France et inscrit au patrimoine mondial de l'UNESCO (chemins de Saint-Jacques). L'abbaye de Gellone (804, fondée par Guilhem cousin de Charlemagne) est l'un des plus beaux exemples de roman languedocien. Le cloître a été démantelé en 1846 et remonté au Cloisters Museum de New York, il reste l'église, la salle capitulaire et le pont du Diable (XIe siècle) sur l'Hérault.",
-      },
-      {
-        heading: "6. La grotte de Clamouse — les cristaux d'aragonite",
-        body: "La grotte de Clamouse (à 18 km de Clermont, à côté de Saint-Guilhem) est l'une des plus belles grottes de France pour la diversité de ses concrétions : stalactites en disques, draperies, cristaux d'aragonite blancs comme des fleurs de glace, gours profonds. Visite guidée d'1h. Le réseau spéléologique (15 km de galeries) abrite encore des secteurs en exploration. Spectacle son et lumière en été.",
-      },
-      {
-        heading: "7. Lodève — la cité des évêques et la Savonnerie",
-        body: "Lodève (à 12 km de Clermont, 7 000 habitants) est l'ancienne cité des évêques du Lodévois. La cathédrale Saint-Fulcran (XIIIe-XIVe siècles, gothique méridional) et le palais épiscopal fortifié dominent la vieille ville. Lodève abrite la seule succursale de la Manufacture nationale de la Savonnerie hors Paris (tapis et tapisseries pour les palais nationaux). Musée Fleury (musée de France, archéologie + beaux-arts) gratuit le premier dimanche.",
-      },
-      {
-        heading: "8. Le Cirque de Navacelles — le canyon du Larzac",
-        body: "Le Cirque de Navacelles (à 50 km de Clermont, sur le Larzac) est l'un des plus grands cirques karstiques d'Europe (300 m de profondeur, 1,5 km de diamètre) : un méandre abandonné de la Vis. Classé Grand Site de France et Patrimoine mondial UNESCO (Causses et Cévennes). Le village de Navacelles (12 habitants permanents au fond du cirque) est accessible par une route en lacets. Belvédère de la Baume-Auriol pour la vue panoramique.",
-      },
-      {
-        heading: "9. Le marché provençal du mercredi à Clermont",
-        body: "Le marché de Clermont-l'Hérault (mercredi matin, place Jean-Jaurès) est l'un des plus animés du Cœur d'Hérault : oléiculteurs (huile de l'AOC Lucques du Languedoc, olive verte locale), maraîchers (asperges du Pic Saint-Loup), charcuteries (saucisson aux herbes), fromages (Pélardon AOP, Roquefort à 60 km, tomes du Larzac). Le marché de Pézenas (samedi matin, à 22 km) est complémentaire et plus touristique.",
-      },
-      {
-        heading: "10. Gastronomie languedocienne — tielle et fougasse",
-        body: "La cuisine du Cœur d'Hérault mélange Méditerranée et Cévennes : tielle sétoise (tourte au poulpe et tomate, spécialité de Sète à 50 km), fougasse aux gratons (brioche salée aux résidus de canard), brandade de morue nîmoise (purée de morue à l'huile d'olive et à l'ail). Charcuteries cévenoles (saucisse aux herbes, jambon de pays). Vins : Terrasses du Larzac (rouge), Picpoul de Pinet (blanc sec sur fruits de mer), Muscat de Frontignan (vin doux naturel).",
-      },
-    ],
-    relatedCities: ["clermont-herault", "sete"],
-    relatedGuides: [
-      "vivre-en-occitanie-guide-2025",
-    ],
-    tags: ["10 choses à faire à Clermont-l'Hérault", "activités Clermont-l'Hérault 2026", "sorties Clermont-l'Hérault", "que faire à Clermont-l'Hérault", "lac Salagou Mourèze Terrasses du Larzac Saint-Guilhem"],
-  },
-  {
     slug: "10-choses-a-faire-a-aix-les-bains-2026",
     title: "10 choses à faire à Aix-les-Bains (la Riviera des Alpes et le lac du Bourget)",
     metaTitle: "10 choses à faire à Aix-les-Bains 2026 — activités et sorties locales",
@@ -33521,7 +33380,9 @@ export const GUIDES: Guide[] = [
 // missing — catches the class of bug that fixed AUDIT-2026-05-12 (23 ghost
 // city slugs silently filtered).
 import { CITIES_SEED } from "@/data/cities-seed";
-import { assertKnownSlugs } from "@/lib/data-integrity";
+import { assertKnownSlugs, assertUniqueSlugs } from "@/lib/data-integrity";
+
+assertUniqueSlugs({ contextLabel: "guides.slug", slugs: GUIDES.map((g) => g.slug) });
 
 const KNOWN_CITY_SLUGS = new Set(CITIES_SEED.map((c) => c.slug));
 const KNOWN_GUIDE_SLUGS = new Set(GUIDES.map((g) => g.slug));

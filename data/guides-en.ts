@@ -16959,6 +16959,11 @@ export const EN_GUIDES: EnGuide[] = [
   },
 ];
 
+// Build-time guard: a duplicate slug makes the later guide dead/shadowed
+// (getEnGuide's .find() returns the first) + a duplicate sitemap URL.
+import { assertUniqueSlugs } from "@/lib/data-integrity";
+assertUniqueSlugs({ contextLabel: "guides-en.slug", slugs: EN_GUIDES.map((g) => g.slug) });
+
 export function getEnGuide(slug: string): EnGuide | undefined {
   return EN_GUIDES.find((g) => g.slug === slug);
 }
