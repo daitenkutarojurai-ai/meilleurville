@@ -4,6 +4,7 @@ import Link from "next/link";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { DromStrip } from "@/components/DromStrip";
 import { scoreHex } from "@/lib/utils";
+import { regionToSlug } from "@/lib/regions";
 
 // Hand-traced French border (lng, lat) — closed polygon
 const BORDER: Array<[number, number]> = [
@@ -102,12 +103,13 @@ const SCORE_OPTIONS: Array<{ key: ScoreKey; label: string; labelEn: string; emoj
   { key: "schools", label: "Écoles", labelEn: "Schools", emoji: "🎓" },
 ];
 
-export function FranceHeatmap({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
+export function FranceHeatmap({ locale = "fr", showRegionToggle = false }: { locale?: "fr" | "en"; showRegionToggle?: boolean } = {}) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const optionLabel = (o: { label: string; labelEn: string }) => (locale === "en" ? o.labelEn : o.label);
   const cityHref = (slug: string) => (locale === "en" ? `/cities/${slug}` : `/villes/${slug}`);
   const [hover, setHover] = useState<HoverState | null>(null);
   const [scoreKey, setScoreKey] = useState<ScoreKey>("global");
+  const [view, setView] = useState<"cities" | "regions">("cities");
   const [mounted, setMounted] = useState(false);
   const mapRef = useRef<HTMLDivElement | null>(null);
   const svgRef = useRef<SVGSVGElement | null>(null);
@@ -153,6 +155,27 @@ export function FranceHeatmap({ locale = "fr" }: { locale?: "fr" | "en" } = {}) 
           scores: c.scores,
         };
       });
+  }, [scoreKey]);
+
+  // Region aggregate layer — one bubble per metropolitan region at its city
+  // centroid, coloured by the average of its cities' current-axis score.
+  const regionAgg = useMemo(() => {
+    const groups: Record<string, { sumLng: number; sumLat: number; sumScore: number; n: number }> = {};
+    for (const c of CITIES_SEED) {
+      if (!(c.longitude >= -6 && c.longitude <= 10 && c.latitude >= 40 && c.latitude <= 52)) continue;
+      const g = (groups[c.region] ??= { sumLng: 0, sumLat: 0, sumScore: 0, n: 0 });
+      g.sumLng += c.longitude;
+      g.sumLat += c.latitude;
+      g.sumScore += c.scores[scoreKey];
+      g.n += 1;
+    }
+    return Object.entries(groups)
+      .map(([region, g]) => {
+        const avg = g.sumScore / g.n;
+        const [x, y] = project(g.sumLng / g.n, g.sumLat / g.n);
+        return { region, slug: regionToSlug(region), avg, n: g.n, x, y, color: scoreColor(avg), r: 16 + Math.sqrt(g.n) * 2.6 };
+      })
+      .sort((a, b) => b.r - a.r);
   }, [scoreKey]);
 
   const top3 = useMemo(
@@ -220,6 +243,29 @@ export function FranceHeatmap({ locale = "fr" }: { locale?: "fr" | "en" } = {}) 
             );
           })}
         </div>
+
+        {/* Villes / Régions layer toggle (opt-in via showRegionToggle) */}
+        {showRegionToggle && (
+          <div className="mb-3 flex justify-center">
+            <div className="inline-flex rounded-full border border-[var(--border)] bg-white/70 backdrop-blur p-0.5 text-xs font-semibold">
+              {(["cities", "regions"] as const).map((v) => (
+                <button
+                  key={v}
+                  onClick={() => { setView(v); setHover(null); }}
+                  aria-pressed={view === v}
+                  className={
+                    "rounded-full px-4 py-1.5 transition-all " +
+                    (view === v
+                      ? "bg-[var(--accent)] text-white shadow-md shadow-[var(--accent)]/30"
+                      : "text-[var(--text-secondary)] hover:text-[var(--text-primary)]")
+                  }
+                >
+                  {v === "cities" ? L("Villes", "Cities") : L("Régions", "Regions")}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* Current colouring badge — pops on filter change */}
         <div className="mb-4 flex justify-center">
@@ -368,6 +414,7 @@ export function FranceHeatmap({ locale = "fr" }: { locale?: "fr" | "en" } = {}) 
               />
 
               {/* Heat layer — radial gradients per top city for current axis */}
+              {view === "cities" && (
               <g clipPath="url(#franceClip)" opacity="0.55" style={{ mixBlendMode: "screen" }}>
                 {[...CITIES_SEED]
                   .filter((c) => c.scores[scoreKey] >= 6.0)
@@ -404,6 +451,7 @@ export function FranceHeatmap({ locale = "fr" }: { locale?: "fr" | "en" } = {}) 
                     );
                   })}
               </g>
+              )}
 
               {/* France filled shape — animated draw on mount */}
               <path
@@ -548,7 +596,7 @@ export function FranceHeatmap({ locale = "fr" }: { locale?: "fr" | "en" } = {}) 
               </g>
 
               {/* Top-tier expanding rings for cities ≥ 7.5 */}
-              {dots
+              {view === "cities" && dots
                 .filter((d) => d.score >= 7.5)
                 .map((d, i) => (
                   <g key={`r-${d.slug}`} pointerEvents="none">
@@ -574,7 +622,7 @@ export function FranceHeatmap({ locale = "fr" }: { locale?: "fr" | "en" } = {}) 
               `}</style>
 
               {/* City dots — staggered fade-in, click to open city */}
-              {dots.map((d) => {
+              {view === "cities" && dots.map((d) => {
                 const hoverPayload = {
                   slug: d.slug,
                   name: d.name,
@@ -613,6 +661,30 @@ export function FranceHeatmap({ locale = "fr" }: { locale?: "fr" | "en" } = {}) 
                   </a>
                 );
               })}
+
+              {/* Region aggregate bubbles — one per metropolitan region */}
+              {view === "regions" && regionAgg.map((rg) => (
+                <a
+                  key={rg.region}
+                  href={`/regions/${rg.slug}`}
+                  aria-label={
+                    locale === "en"
+                      ? `${rg.region} — average score ${rg.avg.toFixed(1)} out of 10 (${rg.n} cities)`
+                      : `${rg.region} — score moyen ${rg.avg.toFixed(1)} sur 10 (${rg.n} villes)`
+                  }
+                  className="cursor-pointer fh-dot outline-none focus-visible:[outline:2px_solid_white] focus-visible:[outline-offset:2px]"
+                  style={{ opacity: mounted ? 1 : 0, transition: "opacity 0.5s ease" }}
+                >
+                  <circle cx={rg.x} cy={rg.y} r={rg.r * 1.7} fill={rg.color} opacity="0.18" filter="url(#dotGlow)" />
+                  <circle cx={rg.x} cy={rg.y} r={rg.r} fill={rg.color} opacity="0.85" stroke="white" strokeWidth="1.5" />
+                  <text x={rg.x} y={rg.y + 4} textAnchor="middle" fontSize="13" fontWeight="800" fill="white" style={{ paintOrder: "stroke", stroke: "#0B1E14", strokeWidth: 3, strokeLinejoin: "round" }}>
+                    {rg.avg.toFixed(1)}
+                  </text>
+                  <text x={rg.x} y={rg.y + rg.r + 13} textAnchor="middle" fontSize="10" fontWeight="700" fill="#E5E7EB" style={{ paintOrder: "stroke", stroke: "#0B1E14", strokeWidth: 3.5, strokeLinejoin: "round" }}>
+                    {rg.region}
+                  </text>
+                </a>
+              ))}
 
               {/* Hover ring */}
               {hover && (

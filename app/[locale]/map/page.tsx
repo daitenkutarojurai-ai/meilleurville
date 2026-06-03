@@ -47,7 +47,7 @@ export default function EnMapPage() {
       <section className="mx-auto max-w-6xl px-4 sm:px-6 py-10">
         {/* Full locale-aware heatmap: France mainland + Corsica outline, aurora
             backdrop, score legend and per-axis filters, EN /cities links. */}
-        <FranceHeatmap locale="en" />
+        <FranceHeatmap locale="en" showRegionToggle />
 
         {drom.length > 0 && (
           <div className="mt-8">
