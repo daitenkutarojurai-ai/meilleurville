@@ -1044,7 +1044,7 @@ export const EN_GUIDES: EnGuide[] = [
         body: "The areas with the largest established British communities — and therefore the most practical infrastructure for newcomers — are: Dordogne and the wider Lot (established second-home communities, many long-term residents), the Charente and Charente-Maritime (La Rochelle has become particularly popular), Brittany (Finistère and Côtes-d'Armor have many British residents), and parts of Languedoc and Provence. For those who need or want city infrastructure, Lyon and Bordeaux have active anglophone communities. Paris has a large English-speaking community but the cost and density often don't suit the lifestyle newcomers are looking for. The south is culturally tempting but increasingly hot — take the climate projections seriously if you're planning to be there in 2035.",
       },
     ],
-    relatedCities: ["bordeaux", "toulouse", "montpellier", "dordogne", "la-rochelle"],
+    relatedCities: ["bordeaux", "toulouse", "montpellier", "la-rochelle"],
     tags: ["brexit", "uk expats", "visa", "moving to france", "relocation"],
   },
   {
@@ -1504,7 +1504,7 @@ export const EN_GUIDES: EnGuide[] = [
         body: "Nice has a geographic and social split that matters for anyone choosing where to live. The coastal strip, the Old Town (Vieux-Nice), the Promenade des Anglais and the bourgeois western arrondissements are well-maintained, expensive, heavily touristed in summer, and feel like a different city from the northern arrondissements (Ariane, Pasteur, Les Moulins) which have higher unemployment and social tension indicators. The middle ground — Libération, Saint-Roch, the area around the MAMAC museum — offers a more normal Niçois residential experience at prices that are still high but somewhat more accessible. Most newcomers end up in this middle belt.",
       },
     ],
-    relatedCities: ["nice", "antibes", "cannes", "menton", "monaco"],
+    relatedCities: ["nice", "antibes", "cannes", "menton"],
     tags: ["nice", "living in nice", "cote d'azur", "french riviera", "expat"],
   },
   {
@@ -2454,7 +2454,7 @@ export const EN_GUIDES: EnGuide[] = [
         body: "Many French mountain towns are actually ski resorts that hollow out in spring and summer — Val d'Isère, Courchevel, Méribel, Morzine. These are fine for winter seasons but thin on year-round services, schools, and social infrastructure. A resort town of 2,000 people with 80% of its economy in three winter months is not a city in the sense of year-round liveability. The test: what's the school situation, what are the September jobs, what's the healthcare access? If the answers are 'limited, seasonal, and 45 minutes away,' factor that in honestly before committing to a property purchase.",
       },
     ],
-    relatedCities: ["grenoble", "annecy", "chambery", "briançon", "gap"],
+    relatedCities: ["grenoble", "annecy", "chambery", "briancon", "gap"],
     tags: ["mountain towns france", "alpes", "annecy", "grenoble", "mountain living"],
   },
   {
@@ -2898,7 +2898,7 @@ export const EN_GUIDES: EnGuide[] = [
         body: "Metz suits: professionals working in Luxembourg, people who prioritise financial optimisation (Luxembourg salary, French cost of living), those who want newer housing stock and a more pragmatic city character. Nancy suits: people who value heritage and aesthetics, students and academics, cultural professionals, anyone for whom the art nouveau district or the Place Stanislas is a meaningful daily backdrop. Remote workers: both are equally viable — both have excellent fibre coverage and adequate coworking scenes. Families: both have comparable school provision and child services. If neither Luxembourg employment nor Nancy's heritage is your primary driver, the price difference between the two is small enough not to be determinative.",
       },
     ],
-    relatedCities: ["metz", "nancy", "thionville", "strasbourg", "luxembourg-city"],
+    relatedCities: ["metz", "nancy", "thionville", "strasbourg"],
     tags: ["metz", "nancy", "lorraine", "grand est", "luxembourg commute"],
   },
   {
@@ -4348,7 +4348,7 @@ export const EN_GUIDES: EnGuide[] = [
         body: "Vieux-Lille is the undisputed first choice: beautiful Flemish architecture, cobblestones, excellent restaurants and bars, and walkable daily life. It is expensive for Lille, though not expensive by French standards. Wazemmes is the market neighbourhood, lively and diverse, with a Sunday market that is the social centre of the area. It has slightly rougher edges but a strong community feel, and is popular with young professionals and artists. Gambetta and République offer quieter residential life, close to the centre, with good schools. Villeneuve-d'Ascq is ideal for families who want a house with garden: larger spaces, the university campus, parks, and reasonable prices, though you need public transport or a bike to reach central Lille.",
       },
     ],
-    relatedCities: ["lille", "villeneuve-d-ascq", "roubaix", "tourcoing"],
+    relatedCities: ["lille", "roubaix", "tourcoing"],
     tags: ["living in lille 2026", "lille expat guide", "lille housing cost", "lille vs paris cost", "expat northern france 2026"],
   },
   {
@@ -4420,7 +4420,7 @@ export const EN_GUIDES: EnGuide[] = [
         body: "Montpellier has diversified beyond its historic reliance on the university and healthcare. The hospital cluster (CHU de Montpellier, oncology, clinical research) is one of the largest in southern France. IT and digital services have grown significantly (IBM, Ubisoft, Cap Gemini have presence). Agronomics and water management research (INRAE, Cirad, IRD) make it a world centre for Mediterranean environmental sciences. Tourism and hospitality generate jobs but largely seasonal and low-paid. The challenge is that the prestige of living in Montpellier attracts more candidates than the local market can absorb in many specialisations. Senior roles, finance, and specialised consulting are thin. Salaries are below Paris by 20-30% for equivalent roles. Remote work has made this less of a blocker for people keeping Paris salaries.",
       },
     ],
-    relatedCities: ["montpellier", "palavas-les-flots", "castelnau-le-lez", "grabels"],
+    relatedCities: ["montpellier"],
     tags: ["living in montpellier 2026", "montpellier expat guide", "montpellier housing cost", "montpellier mediterranean city", "expat south of france 2026"],
   },
   {
@@ -4492,7 +4492,7 @@ export const EN_GUIDES: EnGuide[] = [
         body: "Championnet, Victor Hugo, and Préfecture are the classic central choice. They are walkable, well-served by trams, full of cafés and restaurants, with good schools nearby. This is also the most expensive central option. Île Verte, north of the centre, is leafy and quieter, next to the Parc Paul Mistral (large urban park), well connected by tram and excellent for families. Saint-Martin-d'Hères is adjacent to the university campus, cheaper, with a large student population, good for researchers and academics who want proximity to their institution. The Village Olympique (built for the 1968 Winter Olympics) has aged into a pleasant residential neighbourhood: quirky architecture, affordable, well connected.",
       },
     ],
-    relatedCities: ["grenoble", "echirolles", "saint-martin-d-heres", "gieres"],
+    relatedCities: ["grenoble", "echirolles", "saint-martin-d-heres"],
     tags: ["living in grenoble 2026", "grenoble expat guide", "grenoble alps access", "grenoble research city expat", "grenoble housing cost 2026"],
   },
   {
@@ -4528,7 +4528,7 @@ export const EN_GUIDES: EnGuide[] = [
         body: "Clermont-Ferrand has a permanent international community driven by Michelin rotations, university partnerships, and Limagrain's global operations. English is used professionally in the industrial and research sectors at a higher rate than in most provincial cities of this size. The Université Clermont Auvergne has active Erasmus exchanges and attracts international students. If you are moving for a Michelin or Limagrain position, the company provides relocation support and there is an established expat network for practical setup questions.",
       },
     ],
-    relatedCities: ["clermont-ferrand", "royat", "beaumont", "issoire"],
+    relatedCities: ["clermont-ferrand", "issoire"],
     tags: ["living in clermont-ferrand 2026", "clermont expat guide", "clermont-ferrand michelin expat", "clermont affordable city france", "auvergne expat guide 2026"],
   },
   {
@@ -5528,7 +5528,7 @@ export const EN_GUIDES: EnGuide[] = [
         body: "**Active family with school-age children**: Annecy or Chamonix valley. Genuine cities/large towns with international schools, world-class skiing 30-90 minutes away, year-round outdoor culture, established expat community. **Remote-working couple, no kids, ski-focused**: Bourg-Saint-Maurice (Paradiski door), Sallanches (Mont Blanc area), Tignes (in-resort). Real community plus skiing. **Retired enthusiasts**: Chamonix, Megève, or a quiet Pyrenean valley town. Lifestyle over service density. **Career professional wanting weekend skiing**: Grenoble or Chambéry. Real city economy with skiing 1-1.5h away. Pau for Pyrenean access. **Pure ski instructor / industry**: live in the resort itself for the season, base in a valley town off-season. **For all profiles**: visit in October. A ski village in October — empty, closed, grey — is the honest picture of half the year. If you would still want to live there in October, the place is right for you.",
       },
     ],
-    relatedCities: ["annecy", "chambery", "grenoble", "chamonix-mont-blanc", "pau"],
+    relatedCities: ["annecy", "chambery", "grenoble", "pau"],
     tags: ["france ski expat 2026", "living in french alps expat", "winter france expat guide", "chamonix expat living", "best french ski towns to live in"],
   },
   {
@@ -5872,7 +5872,7 @@ export const EN_GUIDES: EnGuide[] = [
         body: "Lille works best for career professionals needing European connectivity (Eurostar to London, easy access to Brussels, Paris in an hour), families with school-age children (international school options, family infrastructure, parks), remote workers seeking a real French city without Paris pricing, British expats wanting a familiar Northern European feel within France, and students and young professionals (the student-driven energy is real). It is less ideal for sun-seekers (the grey winters are a significant lifestyle factor, so if you are escaping a grey climate, Lille will not be the solution), rural retirees (Lille is unambiguously urban), those who value Mediterranean or Provençal cultural references (Lille's culture is Northern European-flavoured), and anyone preferring a smaller city scale (Lille's 1.2M metropolitan area is bigger than it feels).",
       },
     ],
-    relatedCities: ["lille", "tourcoing", "roubaix", "villeneuve-d-ascq"],
+    relatedCities: ["lille", "tourcoing", "roubaix"],
     tags: ["living in lille expat 2026", "lille expat guide", "lille eurostar paris brussels", "hauts de france expat", "ch ti lille flemish culture"],
   },
   {
@@ -6000,7 +6000,7 @@ export const EN_GUIDES: EnGuide[] = [
         body: "Perpignan works for retirees seeking Mediterranean sun at affordable prices (this is the dominant Perpignan-mover profile), remote workers wanting maximum cost arbitrage, surfers and beach-lovers content with smaller waves, wine enthusiasts (Roussillon is one of France's most undervalued wine regions), those drawn to Catalan culture and Spain proximity, and budget-constrained early retirees. It does not work for career-focused under-40s in non-remote roles (the local job market is genuinely thin), those who need world-class hospitals (Perpignan's hospital is solid but specialised care often routes to Montpellier or Toulouse), families seeking strong international schools (limited), anyone allergic to wind (the tramontane is real), and environmentalists concerned by climate change (Perpignan is the front line of French drought and water stress).",
       },
     ],
-    relatedCities: ["perpignan", "narbonne", "argeles-sur-mer", "canet-en-roussillon"],
+    relatedCities: ["perpignan", "narbonne"],
     tags: ["living in perpignan expat 2026", "perpignan expat guide", "french catalan coast expat", "cheap mediterranean france expat", "roussillon living guide"],
   },
   {
@@ -6044,7 +6044,7 @@ export const EN_GUIDES: EnGuide[] = [
         body: "Works best for: retirees with substantial time and energy to invest, capable of overseeing renovations and learning rural living skills; couples where at least one partner has serious construction/handyman skills; people genuinely drawn to French rural community life and willing to invest in language and integration for 5+ years before feeling at home; remote workers with established income and lifestyle flexibility; those with realistic renovation budgets and timelines. Does not work for: anyone expecting it to be a 'cheap French dream' (it's cheap to buy, expensive to renovate); families with school-age children needing daily-life services (services thin out fast in rural France); those without French language ability (rural French is monolingual; managing contractors and integrating into the community without French is genuinely difficult); anyone who needs frequent international travel (rural France is far from airports and TGV stations); investors hoping for capital appreciation (rural property values are flat to declining in many areas; you're buying for use, not investment).",
       },
     ],
-    relatedCities: ["limoges", "guéret", "aurillac", "mende"],
+    relatedCities: ["limoges", "gueret", "aurillac", "mende"],
     tags: ["buying rural property france 2026", "french farmhouse expat", "rural france real estate guide", "renovation france expat", "creuse limousin property expat"],
   },
   {
@@ -6600,7 +6600,7 @@ export const EN_GUIDES: EnGuide[] = [
         body: "Vannes works best for families seeking real coastal lifestyle with manageable scale and good schools; for retirees who want Atlantic coast life at reasonable prices (Vannes is significantly cheaper than La Rochelle or Bayonne); for sailors and water-sports enthusiasts (the Gulf is among Europe's premier sailing waters); for remote workers with stable incomes who appreciate Breton culture; and for couples in their 30s-50s seeking quality-of-life downsizing from Paris or Lyon. It is less ideal for career-focused under-40s in tech and finance roles (the local job market is thin, and Rennes is the regional career hub, 1h away); for families needing strong international schools (Rennes or Nantes are needed); for those who need frequent international travel (Nantes airport is solid but not a major hub); and for those allergic to Atlantic grey winters (winters are mild but cloudy).",
       },
     ],
-    relatedCities: ["vannes", "lorient", "auray", "quimper"],
+    relatedCities: ["vannes", "lorient", "quimper"],
     tags: ["living in vannes expat 2026", "vannes expat guide", "morbihan gulf living", "brittany coast expat", "vannes cost of living"],
   },
   {
@@ -6884,7 +6884,7 @@ export const EN_GUIDES: EnGuide[] = [
         body: "**Corsica works for** retirees with mainland-level pensions who want Mediterranean beauty without the Côte d'Azur intensity. It works for remote workers with no need for in-person professional networks, outdoor-active couples and families, writers, artists, and people with established creative practices, and people with mainland family ties (regular ferry or flight visits home). **It does not work for** career-driven expats needing a deep job market (it is thin outside tourism, public sector, and small-scale services), families seeking elite or international schools (limited, with an international section in Ajaccio, but most options force trade-offs), those who fear or dislike isolation (winter is genuinely quiet), and anyone unwilling to accept that island logistics (deliveries, healthcare specialists, big-city services) work less smoothly than on the mainland. **A useful test**: spend a full off-season month (November or February) in your target town before buying. If that month felt long, buy somewhere with more year-round life (or don't buy at all). Many expats live in Corsica part-time and keep a mainland base, a sustainable compromise.",
       },
     ],
-    relatedCities: ["ajaccio", "bastia", "porto-vecchio", "calvi", "bonifacio"],
+    relatedCities: ["ajaccio", "bastia", "porto-vecchio", "calvi"],
     tags: ["living in corsica expat 2026", "corsica expat guide", "moving to corsica", "ajaccio bastia expat life", "corsica vs french riviera"],
   },
   {
@@ -7244,7 +7244,7 @@ export const EN_GUIDES: EnGuide[] = [
         body: "Serious all-rounder (skiing plus climbing plus hiking plus lake): Annecy is the obvious winner if budget allows; Chambéry is the value choice. Skier above all: Briançon, Bourg-Saint-Maurice, Chamonix, or commute from Albertville. Tech professional plus mountains: Grenoble. Family with children plus mountains plus good schools: Annecy or Grenoble, or Annemasse and Geneva-commuter towns for Swiss income arbitrage. Retiree wanting mild climate plus mountains: Pau (Pyrenees) or Annecy (Alps). British expat with an established community: Pau (Pyrenees) or the Dordogne mountains (low-altitude Massif Central foothills). Trail runner or mountain biker: Chamonix, Annecy, Grenoble (Vercors). Long-term mountaineer: Chamonix, Briançon, Bagnères-de-Luchon. Affordable mountain retreat: smaller Pyrenees towns, Massif Central, and Vosges or Jura small towns. Don't expect the Alps for cheap; supply is genuinely constrained and demand is high.",
       },
     ],
-    relatedCities: ["annecy", "grenoble", "chambery", "pau", "chamonix", "briancon"],
+    relatedCities: ["annecy", "grenoble", "chambery", "pau", "briancon"],
     tags: ["best french cities mountain lovers 2026", "alps expat cities", "pyrenees expat life", "skiing expats france", "mountain living france"],
   },
   {
@@ -15688,7 +15688,7 @@ export const EN_GUIDES: EnGuide[] = [
         body: "Clermont-l'Hérault is reached by bus or car from Montpellier (about 45 minutes). A car is best for the lake, Mourèze and the villages. Spring to autumn is ideal — the lake for swimming in summer, the red landscape glorious in low light year-round. Bring water and sun protection for the exposed trails.",
       },
     ],
-    relatedCities: ["clermont-l-herault", "montpellier", "beziers"],
+    relatedCities: ["montpellier", "beziers"],
     tags: ["things to do in clermont-l-herault", "clermont-l'herault", "travel", "city guide", "occitanie"],
   },
   {
