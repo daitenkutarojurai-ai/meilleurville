@@ -39,7 +39,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       languages: {
         "fr-FR": `${FR_BASE}/villes/${slug}`,
         "en-US": `${EN_BASE}/cities/${slug}`,
-        "x-default": `${EN_BASE}/cities/${slug}`,
+        // x-default must agree cluster-wide; site convention is the FR URL
+        // (matches the FR city page, langPair() and the root layout).
+        "x-default": `${FR_BASE}/villes/${slug}`,
       },
     },
     openGraph: {
