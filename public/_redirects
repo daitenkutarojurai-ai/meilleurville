@@ -38,3 +38,8 @@
 /guides/meilleures-villes-seniors-actifs-france-2025 /guides/meilleures-villes-seniors-actifs-france-2026 301
 /guides/teletravailler-depuis-alsace-guide-2025 /guides/teletravailler-depuis-alsace-guide-2026 301
 /guides/metz-vs-nancy-comparatif-2025 /guides/metz-vs-nancy-comparatif-2026 301
+# FR orphan 'guide-immobilier-[city]' series duplicated the canonical acheter-a-[city]
+# series (identical "Acheter à [city]…" guides); 301 to the richer acheter versions.
+/guides/guide-immobilier-bordeaux-prix-quartiers-2026 /guides/acheter-a-bordeaux-quel-quartier-budget-2026 301
+/guides/guide-immobilier-nantes-prix-quartiers-2026 /guides/acheter-a-nantes-quel-quartier-budget-2026 301
+/guides/guide-immobilier-rennes-prix-quartiers-2026 /guides/acheter-a-rennes-quel-quartier-budget-2026 301
