@@ -512,6 +512,12 @@ function citySubSection(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.55,
     },
+    {
+      url: `${BASE_URL}/villes/${city.slug}/cout-de-la-vie`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    },
   ]);
 }
 

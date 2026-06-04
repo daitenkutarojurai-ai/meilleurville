@@ -798,6 +798,20 @@ export function CityProfile({ city, locale = "fr" }: { city: CitySeed & { review
                   <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
                 </a>
                 <a
+                  href={sub("cout-de-la-vie", "cost-of-living")}
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                >
+                  <div className="min-w-0">
+                    <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                      {L("🪙 Coût de la vie", "🪙 Cost of living")}
+                    </div>
+                    <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
+                      {L("Loyers, achat, budget mensuel réaliste", "Rents, purchase, realistic monthly budget")}
+                    </div>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
+                </a>
+                <a
                   href={locale === "en" ? `/household-cost/${city.slug}` : `/cout-menage/${city.slug}`}
                   className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
                 >
