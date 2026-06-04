@@ -121,37 +121,3 @@ export function hreflangLanguagesEn(enPath: string): Record<string, string> | un
   if (!frHead) return undefined;
   return langPair("/" + [frHead, ...segs.slice(1)].join("/"), enPath);
 }
-
-// Map a FR route path to its EN equivalent (for hreflang cross-link).
-// Returns null if the path has no English counterpart.
-export function frToEnPath(frPath: string): string | null {
-  if (frPath === "/" || frPath === "") return "/";
-  // Top-level FR segment → EN segment
-  const segmentMap: Record<string, string> = {
-    villes: "cities",
-    classements: "rankings",
-    quiz: "quiz",
-  };
-  const segments = frPath.replace(/^\//, "").split("/");
-  const head = segments[0];
-  const mapped = segmentMap[head];
-  if (!mapped) return null;
-  segments[0] = mapped;
-  return "/" + segments.join("/");
-}
-
-// Same in reverse — used on the EN side to advertise the FR canonical.
-export function enToFrPath(enPath: string): string | null {
-  if (enPath === "/" || enPath === "") return "/";
-  const segmentMap: Record<string, string> = {
-    cities: "villes",
-    rankings: "classements",
-    quiz: "quiz",
-  };
-  const segments = enPath.replace(/^\//, "").split("/");
-  const head = segments[0];
-  const mapped = segmentMap[head];
-  if (!mapped) return null;
-  segments[0] = mapped;
-  return "/" + segments.join("/");
-}
