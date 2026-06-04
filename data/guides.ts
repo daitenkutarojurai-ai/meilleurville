@@ -584,53 +584,6 @@ export const GUIDES: Guide[] = [
     tags: ["sans voiture", "vélo", "transport", "tramway", "mobilité douce"],
   },
   {
-    slug: "vivre-en-alsace-guide-2025",
-    title: "Vivre en Alsace en 2025 : Strasbourg, Colmar, Mulhouse — Guide complet",
-    metaTitle: "Vivre en Alsace 2025 — Guide Strasbourg, Colmar, Mulhouse",
-    metaDesc:
-      "Qualité de vie, emploi, gastronomie, culture : notre guide complet pour s'installer en Alsace. Comparaison Strasbourg vs Colmar vs Mulhouse avec données réelles.",
-    category: "region",
-    emoji: "🥨",
-    readMinutes: 8,
-    publishedAt: "2025-04-10",
-    updatedAt: "2026-02-14",
-    intro:
-      "L'Alsace est la région française la plus singulière : culturellement entre France et Allemagne, gastronomiquement incomparable, géographiquement entre Rhin et Vosges. S'y installer est un choix de vie fort. Ce guide compare les trois villes principales et vous aide à décider.",
-    sections: [
-      {
-        heading: "Strasbourg : la capitale européenne",
-        body: "Score global MeilleurVille : 8.2/10. Strasbourg est unique en France : siège du Parlement européen et du Conseil de l'Europe, elle concentre les institutions supranationales et attire profils internationaux et fonctionnaires européens. Son architecture renaissance et son centre médiéval (Grande Île classée UNESCO) en font l'une des plus belles villes de France. Le réseau de tramway est le meilleur de France. Seul bémol : les loyers ont augmenté (+30% en 5 ans) avec l'attractivité.",
-      },
-      {
-        heading: "Colmar : le charme sans les inconvénients de la grande ville",
-        body: "Score global : 7.9/10. Colmar est la «petite Venise d'Alsace» : ses maisons à colombages sont parmi les plus photographiées de France. La ville de 70 000 habitants a la taille idéale, car tout est accessible à pied ou à vélo, sans les embouteillages et l'agitation de Strasbourg. Les loyers sont significativement plus bas (T2 médian : 620€ vs 850€ à Strasbourg). La Route des Vins débute à ses portes. Bémol : bassin d'emploi limité, préférez le remote ou les pendulaires vers Strasbourg (20 min de TER).",
-      },
-      {
-        heading: "Mulhouse : la valeur confidentielle",
-        body: "Score global : 6.8/10. Mulhouse est la plus incomprise des villes alsaciennes. Son passé industriel a laissé des quartiers populaires mais aussi des musées uniques (Cité de l'Automobile, Musée du Chemin de Fer). La ville est la moins chère d'Alsace (T2 médian : 540€) et bénéficie d'une position stratégique : 25 min de Bâle (Suisse) et ses salaires suisses, 45 min de Fribourg-en-Brisgau. Pour les travailleurs frontaliers, c'est une base remarquable.",
-      },
-      {
-        heading: "L'identité alsacienne : ce qu'on ne vous dit pas",
-        body: "L'Alsace a une identité culturelle forte et parfois fermée. Les Alsaciens de souche (environ 50% de la population régionale) peuvent sembler froids aux nouveaux arrivants. Mais ceux qui s'y établissent décrivent une intégration progressive chaleureuse, particulièrement si vous vous intéressez à la culture locale (marché de Noël, Winstubs, Bredele). La frontière culturelle franco-allemande crée aussi une richesse linguistique et gastronomique sans équivalent.",
-      },
-      {
-        heading: "L'avantage frontalier",
-        body: "Mulhouse et le Bas-Rhin sont à proximité de la Suisse et de l'Allemagne. Travailler à Bâle en habitant à Mulhouse (salaire suisse, loyer français) est un calcul financier redoutable : salaires 40-60% supérieurs en CHF, loyers 2x moins chers qu'à Bâle. 80 000 frontaliers font ce choix chaque jour. Pour les profils santé, ingénierie et finance, c'est un avantage compétitif majeur.",
-      },
-      {
-        heading: "Gastronomie et qualité de vie",
-        body: "L'Alsace est régulièrement classée première région de France pour la gastronomie. La densité de restaurants étoilés Michelin par habitant est la plus haute de France. Le vin d'Alsace (Riesling, Gewurztraminer, Pinot Gris) est produit à 20 minutes en voiture. Les marchés de Noël de Colmar et Strasbourg sont les plus beaux d'Europe. Pour la qualité de vie culinaire et culturelle, la région n'a pas d'équivalent.",
-      },
-    ],
-    relatedCities: ["strasbourg", "colmar", "mulhouse"],
-    relatedGuides: [
-      "budget-vivre-en-france-comparatif",
-      "vivre-sans-voiture-france-guide-2025",
-      "quitter-paris-guide-2025",
-    ],
-    tags: ["Alsace", "Strasbourg", "Colmar", "Mulhouse", "Grand Est", "frontalier"],
-  },
-  {
     slug: "paris-province-guide-demenagement-2025",
     title: "Quitter Paris pour la province : le guide complet 2025",
     metaTitle: "Quitter Paris : guide demenagement province 2025 — Choisir sa ville",
@@ -924,51 +877,6 @@ export const GUIDES: Guide[] = [
     tags: ["retraite", "soleil", "santé", "sécurité", "Provence", "Bretagne"],
   },
   {
-    slug: "vivre-en-occitanie-guide-2025",
-    title: "Vivre en Occitanie : Toulouse, Montpellier, Perpignan, Sète — Guide 2025",
-    metaTitle: "Vivre en Occitanie 2025 — Toulouse, Montpellier, Perpignan : guide complet",
-    metaDesc: "Soleil, emploi, immobilier, qualité de vie : notre guide pour choisir où s'installer en Occitanie entre Toulouse, Montpellier, Perpignan et Sète. Analyse honnête.",
-    category: "region",
-    emoji: "🌻",
-    readMinutes: 9,
-    publishedAt: "2025-04-01",
-    updatedAt: "2026-05-10",
-    intro: "L'Occitanie est la région la plus ensoleillée de France continentale. Mais entre Toulouse et Perpignan, les réalités sont radicalement différentes. Ce guide démêle les clichés du soleil et de la douceur de vivre pour vous aider à choisir la bonne ville occitane selon votre profil.",
-    sections: [
-      {
-        heading: "Toulouse : la métropole ambitieuse",
-        body: "Score MeilleurVille : 8.0/10. Toulouse est la 4e ville de France et la capitale mondiale de l'aéronautique (Airbus, ATR, Safran). Son bassin d'emploi est l'un des plus dynamiques de France en dehors de Paris. Le loyer T2 médian est de 800€, et la ville investit massivement dans son réseau de transport (3e ligne de métro en cours). Idéale pour les carrières tech, ingénierie et aéronautique. Bémol : la croissance a tendu l'immobilier et la ville souffre d'embouteillages chroniques.",
-      },
-      {
-        heading: "Montpellier : la ville des possibles",
-        body: "Score MeilleurVille : 8.1/10. Montpellier est la ville française qui a le plus changé en 20 ans. Université d'excellence (classée 150e mondiale), CHU de référence, French Tech active, tramway dense : la ville a tout d'une grande métropole sans les inconvénients de Paris. Son accès à la mer (Palavas à 15 min), ses 300 jours de soleil et une communauté internationale importante en font la destination préférée des expats français de retour. Loyer T2 médian : 780€.",
-      },
-      {
-        heading: "Perpignan : le soleil à prix doux",
-        body: "Score MeilleurVille : 6.6/10. Perpignan est la ville la moins chère du Midi avec le meilleur ensoleillement de France (2 800h/an). Un T2 se loue 550€ en moyenne. La ville est à 30 min de la frontière espagnole (Barcelone en 1h de TGV), ce qui ouvre un marché de l'emploi transfrontalier. Mais son économie locale est fragile et son taux de chômage parmi les plus élevés de France. Idéale pour les retraités et télétravailleurs, pas pour les salariés locaux.",
-      },
-      {
-        heading: "Sète : l'anti-ville parfaite",
-        body: "Score MeilleurVille : 7.1/10. Sète est surnommée la «Venise du Languedoc» et attire de plus en plus de familles et télétavailleurs qui fuient les grandes villes. Ses 45 000 habitants lui donnent la taille d'une ville vivable, sa position entre mer et étang est unique, et ses loyers sont encore raisonnables (T2 médian 680€). L'identité culturelle forte (carnaval, joutes nautiques) crée une cohésion sociale rare. Limite : la connectivité internet et l'offre d'emploi local.",
-      },
-      {
-        heading: "Nîmes et Alès : les alternatives oubliées",
-        body: "Nîmes (7.0/10) est la ville des arènes romaines et du sud authentique. 2 600h de soleil/an, T2 médian 640€, et un accès TGV vers Paris en 2h45. Alès (6.2/10) offre quant à elle le rapport qualité/prix le plus attractif du Gard : T2 médian 520€, nature Cévénole à 10 minutes, et une économie locale en reconversion. Pour les familles cherchant un cadre de vie occitan sans la pression immobilière de Montpellier, ces deux villes méritent une vraie attention.",
-      },
-      {
-        heading: "Le verdict : pour qui ?",
-        body: "Carrière ambitieuse / industrie : Toulouse. Lifestyle / soleil / équilibre : Montpellier. Retraite / budget serré / soleil max : Perpignan. Télétravail / authenticité / mer : Sète. Famille / budget / nature cévenole : Alès. Il n'y a pas de mauvais choix en Occitanie — il y a des choix qui correspondent à votre profil.",
-      },
-    ],
-    relatedCities: ["toulouse", "montpellier", "perpignan", "sete", "nimes", "ales"],
-    relatedGuides: [
-      "vivre-dans-le-sud-france-guide-2025",
-      "budget-vivre-en-france-comparatif",
-      "retraite-france-meilleures-villes-2025",
-    ],
-    tags: ["Occitanie", "Toulouse", "Montpellier", "Perpignan", "Sète", "Sud de la France"],
-  },
-  {
     slug: "vivre-dans-le-sud-france-guide-2025",
     title: "Vivre dans le Sud de la France : le guide complet 2025",
     metaTitle: "Vivre dans le Sud de la France 2025 — PACA, Occitanie : guide complet",
@@ -1008,7 +916,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["marseille", "nice", "aix-en-provence", "montpellier", "toulon", "perpignan"],
     relatedGuides: [
       "retraite-france-meilleures-villes-2025",
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
       "budget-vivre-en-france-comparatif",
     ],
     tags: ["Sud de la France", "PACA", "Provence", "Méditerranée", "Marseille", "Nice"],
@@ -1057,100 +965,6 @@ export const GUIDES: Guide[] = [
       "quitter-paris-guide-2025",
     ],
     tags: ["Hauts-de-France", "Lille", "Arras", "Amiens", "Nord", "Flandres"],
-  },
-  {
-    slug: "vivre-en-normandie-guide-2025",
-    title: "Vivre en Normandie en 2025 : Caen, Rouen, Le Havre, Bayeux — le guide complet",
-    metaTitle: "Vivre en Normandie 2025 : Caen, Rouen, Le Havre, Bayeux — Guide",
-    metaDesc:
-      "Qualité de vie, loyers, emploi, transports : notre guide complet pour s'installer en Normandie. Comparatif Caen vs Rouen vs Le Havre + avis d'habitants.",
-    category: "region",
-    emoji: "🏰",
-    readMinutes: 9,
-    publishedAt: "2025-03-10",
-    updatedAt: "2026-05-04",
-    intro:
-      "La Normandie est l'une des régions les plus sous-estimées de France pour s'y installer. À deux heures de Paris, avec une façade maritime de 600 km, des villes accessibles, une gastronomie incomparable et un patrimoine historique exceptionnel, elle attire de plus en plus de familles et de télétravailleurs. Ce guide vous aide à choisir entre Caen, Rouen, Le Havre, Bayeux et Alençon.",
-    sections: [
-      {
-        heading: "Caen : la capitale dynamique de la Basse-Normandie",
-        body: "Caen (score MeilleurVille : 7.2/10) est la ville qui cumule le mieux les avantages normands. Université de 30 000 étudiants, centre commercial restructuré, et une connexion Paris en 2h par le train. Le mémorial de Caen est un moteur touristique unique qui dynamise toute l'économie locale. Loyer médian T2 : 650€/mois, soit 40% moins cher qu'à Paris pour une ville qui offre réellement tout. Son point faible : un peu gris en hiver, et un tissu économique encore dépendant du secteur public.",
-      },
-      {
-        heading: "Rouen : l'alternative accessible à Paris",
-        body: "Rouen (7.0/10) est pour beaucoup de Parisiens la découverte qui change la vie. À 1h15 de Saint-Lazare, avec des loyers moitié prix et une vieille ville médiévale splendide (la place du Vieux-Marché, les colombages, la cathédrale), elle est l'une des villes françaises les plus photogéniques. Sa scène gastronomique est solide et sa vie culturelle active (Armada, Festival Normandie Impressionniste). Le revers : la pollution atmosphérique (vallée de la Seine industrielle) et des quartiers périphériques socialement contrastés.",
-      },
-      {
-        heading: "Le Havre : la surprise architecturale",
-        body: "Le Havre est classé au patrimoine UNESCO pour son centre reconstruit par Auguste Perret après-guerre, une architecture brutaliste lumineuse que beaucoup apprennent à aimer. C'est aussi le 2ème port de France, ce qui signifie des emplois industriels et logistiques solides. Le Havre (6.8/10) est l'une des villes françaises où le mètre carré reste le plus accessible pour une ville de cette taille. La plage de galets est à 10 min du centre, et Étretat à 25 min.",
-      },
-      {
-        heading: "Bayeux : la qualité de vie à taille humaine",
-        body: "Bayeux (7.5/10) est le secret le mieux gardé de la Normandie. Cette petite ville de 13 000 habitants autour de sa cathédrale et sa tapisserie offre une qualité de vie exceptionnelle : centre-ville piéton préservé, marché hebdomadaire vivant, et une campagne normande à portée de vélo. Idéale pour les télétravailleurs et les retraités fuyant les grandes villes. Les loyers y sont imbattables (T2 médian 500€) et l'immobilier abordable.",
-      },
-      {
-        heading: "Transport : comment se déplacer en Normandie",
-        body: "L'axe Paris-Caen-Cherbourg (2h20) et Paris-Rouen-Le Havre (2h) sont bien dotés en trains Intercités. La nouvelle ligne Normandie (projet LNPN) devrait rapprocher ces villes à terme. En revanche, les liaisons entre villes normandes sont souvent lentes : Caen-Rouen prend 2h en train avec correspondance, ce qui pousse beaucoup de Normands à utiliser la voiture. Le réseau Nomad (transport en commun régional) est honnête mais ne remplace pas un réseau TER dense.",
-      },
-      {
-        heading: "Gastronomie et art de vivre normand",
-        body: "La Normandie est une des régions où l'on mange le mieux en France : cidre, calvados, fromages (camembert, livarot, pont-l'évêque, neufchâtel), beurre AOP, moules, coquilles Saint-Jacques. Les marchés hebdomadaires sont parmi les plus riches de France. Côté nature : les falaises d'Étretat, le marais du Cotentin, la Suisse normande et le haras national du Pin offrent des possibilités de plein air variées qui surprennent les nouveaux arrivants.",
-      },
-    ],
-    relatedCities: ["caen", "rouen", "le-havre", "bayeux", "alencon"],
-    relatedGuides: [
-      "quitter-paris-guide-2025",
-      "budget-vivre-en-france-comparatif",
-      "vivre-sans-voiture-france-guide-2025",
-    ],
-    tags: ["Normandie", "Caen", "Rouen", "Le Havre", "Bayeux", "Alençon"],
-  },
-  {
-    slug: "vivre-en-bretagne-guide-2025",
-    title: "Vivre en Bretagne en 2025 : Rennes, Brest, Quimper, Saint-Malo — le guide",
-    metaTitle: "Vivre en Bretagne 2025 : Rennes, Brest, Quimper, Saint-Malo — Guide",
-    metaDesc:
-      "S'installer en Bretagne : qualité de vie, loyers, emploi, culture. Comparatif Rennes vs Brest vs Quimper vs Saint-Malo + conseils d'habitants.",
-    category: "region",
-    emoji: "⚓",
-    readMinutes: 9,
-    publishedAt: "2025-03-20",
-    updatedAt: "2026-04-19",
-    intro:
-      "La Bretagne est devenue l'une des destinations préférées des Français qui quittent les grandes métropoles. Entre sa façade atlantique spectaculaire, ses villes universitaires dynamiques, sa culture forte et ses prix immobiliers encore abordables (hors côte et grandes villes), la région offre un cadre de vie difficile à égaler. Ce guide vous aide à choisir votre ville bretonne.",
-    sections: [
-      {
-        heading: "Rennes : la star bretonne qui ne déçoit pas",
-        body: "Rennes (8.1/10) est régulièrement élue meilleure ville de France pour la qualité de vie, et elle mérite son titre. On y compte 70 000 étudiants, une scène startup et tech parmi les plus dynamiques de France (Rennes est la 3ème ville française en densité de startups), des transports en commun exemplaires (métro, BHNS) et une connexion TGV à Paris en 1h25. Le loyer médian T2 est à 760€, ce qui reste raisonnable pour une ville de cette qualité. Son seul défaut, c'est qu'elle est victime de son succès et que les prix montent.",
-      },
-      {
-        heading: "Brest : la ville maritime au caractère unique",
-        body: "Brest (6.9/10) est l'anti-marketing de la Bretagne : grise, venteuse, construite dans la précipitation après sa destruction totale en 1944, et pourtant attachante. C'est l'une des villes françaises avec la plus forte identité locale. Son port militaire est le premier de France. L'université de Bretagne Occidentale maintient une vie étudiante animée. Les loyers sont parmi les plus bas des villes universitaires (T2 médian 650€). Et la mer est partout, littéralement à 10 minutes de n'importe quel point de la ville.",
-      },
-      {
-        heading: "Quimper : la Bretagne profonde à taille humaine",
-        body: "Quimper (7.2/10) est l'âme de la Bretagne. Sa cathédrale gothique, ses maisons à colombages, son festival de Cornouaille, ses marchés colorés : tout ici respire l'identité bretonne. C'est une ville à taille humaine (60 000 hab.) qui offre tous les services d'une grande ville dans un cadre préservé. Idéale pour les familles et les retraités. L'aéroport de Quimper dessert Paris CDG en 1h, ce qui en fait un choix très sérieux pour les télétravailleurs fréquents.",
-      },
-      {
-        heading: "Saint-Malo : quand la mer devient un mode de vie",
-        body: "Saint-Malo (7.7/10) est la ville corsaire, l'intra-muros, les remparts, les grandes marées. C'est aussi une ville qui se dualise de plus en plus : cité touristique premium l'été, ville bretonne authentique le reste du temps. Les prix ont monté avec l'afflux de résidences secondaires, mais l'immobilier reste accessible comparé à la Côte d'Azur. Le lien TGV Paris-Saint-Malo (3h) s'est renforcé ces dernières années.",
-      },
-      {
-        heading: "La question du climat breton",
-        body: "Soyons honnêtes : la Bretagne reçoit plus de précipitations que la moyenne française (800-1200mm/an selon les zones). Mais « il pleut tout le temps en Bretagne » est un mythe. Brest reçoit environ 1200mm/an, mais répartis sur 165 jours de pluie, ce qui signifie aussi des ciels mouvants, des lumières uniques et une végétation luxuriante que les climaphiles apprécient. Les Bretons de souche ont d'ailleurs un mot pour ça : « une belle averse bretonne ».",
-      },
-      {
-        heading: "Culture et identité : vivre «breton»",
-        body: "La Bretagne a une identité culturelle forte qui transcende les générations : la langue bretonne (60 000 locuteurs), le fest-noz (danse traditionnelle, classé UNESCO), les pardons, les fest-deiz. Cette culture n'est pas folklorique, elle est vivante, revendiquée par les jeunes, et elle crée un sentiment d'appartenance rare. Les Bretons sont réputés pour leur solidarité locale, ce qui se traduit concrètement par des associations actives et une vie de quartier réelle.",
-      },
-    ],
-    relatedCities: ["rennes", "brest", "quimper", "saint-malo", "saint-brieuc", "lorient", "vannes"],
-    relatedGuides: [
-      "quitter-paris-guide-2025",
-      "vivre-en-france-teletravail-guide-2025",
-      "budget-vivre-en-france-comparatif",
-    ],
-    tags: ["Bretagne", "Rennes", "Brest", "Quimper", "Saint-Malo", "Vannes"],
   },
   {
     slug: "centre-val-de-loire-tours-orleans-guide-2025",
@@ -1424,7 +1238,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["nantes", "angers", "le-mans", "laval", "saint-nazaire", "cholet"],
     relatedGuides: [
-      "vivre-en-bretagne-guide-2025",
+      "vivre-en-bretagne-guide-2026",
       "quitter-paris-guide-2025",
       "budget-vivre-en-france-comparatif",
     ],
@@ -1561,54 +1375,9 @@ export const GUIDES: Guide[] = [
     relatedGuides: [
       "budget-vivre-en-france-comparatif",
       "vivre-dans-le-sud-france-guide-2025",
-      "vivre-en-normandie-guide-2025",
+      "vivre-en-normandie-guide-2026",
     ],
     tags: ["retraite", "séniors", "soleil", "patrimoine", "santé", "qualité de vie", "thermales"],
-  },
-  {
-    slug: "meilleures-villes-etudiantes-france-2025",
-    title: "Meilleures villes étudiantes en France 2025 — Logement, vie nocturne, emploi",
-    emoji: "🎓",
-    category: "lifestyle",
-    metaTitle: "Meilleures villes étudiantes France 2025 — Logement, Vie, Emploi | MeilleurVille",
-    metaDesc: "Quelles villes choisir pour ses études en France ? Notre classement 2025 des meilleures villes étudiantes selon le logement, la vie nocturne, les universités, le coût de la vie et les débouchés.",
-    intro: "Choisir sa ville d'études, c'est s'engager pour plusieurs années, et souvent forger son réseau professionnel pour la vie. Budget serré, vie sociale intense, transports efficaces et logement abordable : voici les villes qui cochent vraiment ces cases.",
-    readMinutes: 7,
-    publishedAt: "2025-10-01",
-    updatedAt: "2026-02-19",
-    sections: [
-      {
-        heading: "Les critères d'une ville étudiante idéale",
-        body: "Un étudiant n'optimise pas les mêmes variables qu'un actif ou un retraité. Loyers bas et colocation facile passent en priorité, avec un T1 ou une chambre en coloc sous les 450 €. La vie nocturne et culturelle contribue directement au bien-être. La qualité et la diversité des établissements (universités, grandes écoles, IUT) conditionnent les débouchés. Et surtout, il faut pouvoir se déplacer sans voiture : tramway, vélo en libre-service, bus nocturne, le tout opérationnel.",
-      },
-      {
-        heading: "Le Top 3 confirmé : Rennes, Montpellier, Toulouse",
-        body: "Rennes truste régulièrement la tête des palmarès étudiants : deuxième ville la plus étudiante de France en proportion avec 60 000 étudiants pour 220 000 habitants, loyers modérés, campus très actif, vie bretonne authentique. Montpellier reste la surprise permanente des classements : soleil, plage à 15 minutes, 90 000 étudiants et des loyers plus doux que Nice ou Marseille. Toulouse, c'est la « ville rose » avec INSA, ISAE-SUPAERO, ENVT, soit une concentration de grandes écoles unique en France.",
-      },
-      {
-        heading: "Les bonnes surprises : Grenoble, Dijon, Poitiers",
-        body: "Grenoble est le paradis des ingénieurs et chercheurs : UGA, Grenoble INP, ENSIMAG, CEA à deux pas. L'économie technologique garantit stages et emplois. En revanche, les loyers sont plus salés qu'on ne l'imagine, le T1 oscillant entre 450 et 600 €. Dijon est sous-estimée par les étudiants parisiens mais coche les cases : loyers très bas, université active, vie culturelle dense, gastronomie bourguignonne. Poitiers tient le budget plancher avec une ville jeune et une accessibilité Paris-Nantes-Bordeaux pratique.",
-      },
-      {
-        heading: "Paris et les grandes villes : attention au budget",
-        body: "Paris concentre les meilleures grandes écoles et universités, mais au prix fort. Un T1 y vaut 900 à 1 200 € hors charges. L'astuce pour rester dans la capitale sans le tarif, c'est de viser Versailles, Saint-Denis, Aubervilliers ou Ivry, où les loyers chutent de 30 à 50 % pour le même accès au RER et au métro. Bordeaux, Lyon et Nantes ont subi la même pression : un loyer étudiant y dépasse souvent le budget CROUS + APL combinés.",
-      },
-      {
-        heading: "Les villes sous-estimées : Reims, Le Mans, Besançon",
-        body: "Reims est à 45 minutes de Paris en TGV, parfait pour décrocher stages et premiers postes en Île-de-France tout en vivant à coût parisien divisé par deux. L'URCA tient solidement la route en droit, médecine et sciences. Le Mans aligne des loyers plancher (T1 à 380 €), un campus actif et une desserte ferroviaire idéale. Besançon, enfin, offre une qualité de vie universitaire remarquable entre campus verdoyant, Doubs et citadelle, avec les horlogers suisses qui recrutent à 40 km.",
-      },
-      {
-        heading: "Ce que vous ne saviez peut-être pas",
-        body: "Les APL peuvent couvrir jusqu'à 250 € par mois selon les revenus parentaux et la ville. Un T1 à Grenoble à 550 € peut tomber à 300 € net APL incluse. La colocation est beaucoup plus développée dans les villes à forte proportion étudiante comme Rennes ou Montpellier, où le prix par chambre peut descendre à 250-350 €. Et on n'oublie pas les résidences CROUS : 300 à 400 € en chambre simple, 500 à 600 € en studio. La file d'attente en vaut très largement la peine.",
-      },
-    ],
-    relatedCities: ["rennes", "montpellier", "toulouse", "grenoble", "dijon", "poitiers", "reims", "besancon"],
-    relatedGuides: [
-      "budget-vivre-en-france-comparatif",
-      "vivre-en-france-teletravail-guide-2025",
-      "quitter-paris-guide-2025",
-    ],
-    tags: ["étudiant", "université", "logement étudiant", "vie nocturne", "budget", "CROUS"],
   },
   {
     slug: "meilleures-villes-bord-de-mer-france-2025",
@@ -1649,8 +1418,8 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["la-rochelle", "brest", "sete", "toulon", "caen", "lorient", "vannes", "saint-nazaire"],
     relatedGuides: [
-      "vivre-en-bretagne-guide-2025",
-      "vivre-en-normandie-guide-2025",
+      "vivre-en-bretagne-guide-2026",
+      "vivre-en-normandie-guide-2026",
       "vivre-en-provence-paca-guide-2025",
     ],
     tags: ["bord de mer", "côtier", "Atlantique", "Méditerranée", "Manche", "Bretagne", "Normandie", "PACA"],
@@ -1762,51 +1531,6 @@ export const GUIDES: Guide[] = [
     tags: ["Île-de-France", "banlieue parisienne", "quitter Paris", "TGV", "télétravail", "famille"],
   },
   {
-    slug: "meilleures-villes-freelances-independants-france-2025",
-    title: "Meilleures villes pour les freelances et indépendants en France — 2025",
-    emoji: "🚀",
-    category: "teletravail",
-    metaTitle: "Meilleures villes françaises pour freelances et indépendants 2025 | MeilleurVille",
-    metaDesc: "Où s'installer en France quand on est freelance ? Guide 2025 des meilleures villes pour les travailleurs indépendants : coworking, communauté, coût de la vie, fiscalité, connexion.",
-    intro: "Le freelancing en France offre une liberté de localisation assez unique. Ce guide aide les indépendants, développeurs, designers, consultants ou créateurs, à choisir la ville qui maximise vraiment la qualité de vie, le réseau professionnel et l'efficacité économique.",
-    readMinutes: 8,
-    publishedAt: "2025-12-01",
-    updatedAt: "2026-05-07",
-    sections: [
-      {
-        heading: "Ce qui compte vraiment pour un freelance",
-        body: "Un freelance n'optimise pas les mêmes variables qu'un salarié. La qualité de l'infrastructure numérique (fibre FTTH, 4G/5G stable) est non négociable. La densité et la qualité des espaces de coworking conditionnent la vie sociale et professionnelle hors domicile. Le coût de la vie détermine directement le chiffre d'affaires minimal pour bien vivre. Et le réseau local compte : dans certaines villes, la communauté freelance et startup est suffisamment dense pour générer ses propres opportunités clients.",
-      },
-      {
-        heading: "Le Top 5 freelance 2025 : Rennes, Nantes, Bordeaux, Toulouse, Montpellier",
-        body: "Ces cinq villes cumulent les meilleures conditions : coworking dense, communautés tech actives, loyers encore inférieurs à Paris, TGV vers la capitale en cas de besoin. Rennes est particulièrement remarquable, vrai tech hub et Silicon Valley de l'Ouest avec des coûts maîtrisés. Montpellier affiche la densité startup la plus élevée par habitant hors Île-de-France, ce qui se traduit en opportunités concrètes.",
-      },
-      {
-        heading: "Grenoble et Lyon : pour les tech freelances",
-        body: "Grenoble est l'un des rares endroits en France où un développeur freelance peut facturer des taux parisiens, parce que les entreprises tech locales paient aux standards mondiaux. Le bassin d'emploi est exceptionnellement dense en ingénieurs et startups deeptech. Lyon offre une profondeur de marché supérieure entre e-commerce, fintech et santé numérique, avec une scène freelance déjà mature.",
-      },
-      {
-        heading: "Les villes « qualité de vie maximale » pour freelances établis",
-        body: "Une fois le portefeuille clients stable, principalement en remote, la priorité bascule sur la qualité de vie. Émergent alors Annecy (nature, qualité de vie, accès Lyon), Bayonne / Biarritz (surf, communauté créative, Espagne à portée), Aix-en-Provence (soleil, gastronomie, accès Marseille) et La Rochelle (mer, vélo, dynamisme). Ces villes ont toutes des espaces de coworking corrects, mais des communautés freelance plus limitées, compensées par une qualité de vie exceptionnelle.",
-      },
-      {
-        heading: "Les villes émergentes pour freelances : Metz, Dijon, Clermont",
-        body: "Tendance de fond, les freelances s'installent dans des villes de taille intermédiaire avec une infrastructure coworking en nette progression. Metz a sa Brilliant Factory General Electric et une scène startup qui décolle. Dijon dispose d'un tissu coworking dense entre iXblue et Digital Bourgogne. Clermont-Ferrand bénéficie de l'effet Michelin / Limagrain avec ingénieurs et consultants bien rémunérés. Loyers bas, qualité de vie réelle, communauté en croissance.",
-      },
-      {
-        heading: "Les erreurs à éviter",
-        body: "Première erreur, s'isoler dans une petite ville sans communauté pro locale : la visio ne remplace pas un café en face à face. Deuxième, choisir une ville uniquement sur les prix sans vérifier la qualité réelle du coworking. Troisième, sous-estimer l'impact de la météo sur la productivité, car les villes grises et déprimantes en hiver (Épinal, Brest en novembre) entament durablement l'énergie. Quatrième, négliger l'accès à Paris : même en full remote, on monte en réunion 4 à 5 fois par an, donc le TGV compte vraiment.",
-      },
-    ],
-    relatedCities: ["rennes", "nantes", "bordeaux", "toulouse", "montpellier", "grenoble", "lyon", "annecy"],
-    relatedGuides: [
-      "vivre-en-france-teletravail-guide-2025",
-      "quitter-paris-guide-2025",
-      "meilleures-villes-etudiantes-france-2025",
-    ],
-    tags: ["freelance", "indépendant", "coworking", "télétravail", "startup", "digital nomade"],
-  },
-  {
     slug: "meilleures-villes-familles-ecoles-securite-france-2025",
     title: "Meilleures villes françaises pour élever ses enfants — Écoles, Sécurité, Espaces verts",
     emoji: "👨‍👩‍👧‍👦",
@@ -1894,7 +1618,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["bordeaux", "nantes", "rennes", "montpellier", "toulouse", "angers", "tours", "la-rochelle", "dijon", "clermont-ferrand"],
     relatedGuides: [
-      "meilleures-villes-freelances-independants-france-2025",
+      "meilleures-villes-freelances-independants-france-2026",
       "alternatives-ile-de-france-banlieue-parisienne-guide-2025",
       "budget-vivre-en-france-comparatif",
     ],
@@ -1940,8 +1664,8 @@ export const GUIDES: Guide[] = [
     relatedCities: ["rennes", "nantes", "toulouse", "bordeaux", "montpellier", "grenoble", "dijon", "clermont-ferrand", "metz", "strasbourg"],
     relatedGuides: [
       "quitter-paris-guide-pratique-2025",
-      "meilleures-villes-freelances-independants-france-2025",
-      "meilleures-villes-etudiantes-france-2025",
+      "meilleures-villes-freelances-independants-france-2026",
+      "meilleures-villes-etudiantes-france-2026",
     ],
     tags: ["jeunes actifs", "25-35 ans", "emploi", "logement", "vie sociale", "carrière", "réseau professionnel"],
   },
@@ -2126,51 +1850,6 @@ export const GUIDES: Guide[] = [
     tags: ["expatriés", "s'installer en France", "international", "anglophone", "immigration", "visa", "communauté"],
   },
   {
-    slug: "meilleures-villes-seniors-actifs-france-2025",
-    title: "Meilleures villes françaises pour les seniors actifs 2025 — Santé, nature et convivialité",
-    emoji: "🌿",
-    category: "lifestyle",
-    metaTitle: "Meilleures villes pour seniors actifs 2025 — Santé, nature, convivialité | MeilleurVille",
-    metaDesc: "Quelle ville choisir pour sa retraite active en France ? Guide 2025 des meilleures villes pour les seniors de 55-70 ans : accès médical, nature, vie associative, accessibilité et tarifs.",
-    intro: "Les seniors actifs de 55-70 ans ont des critères très différents des retraités « classiques » : ils veulent bouger, créer des liens sociaux, accéder à la nature, et maintenir un accès aux soins de qualité sans dépendre d'une voiture. Ce guide classe les villes selon ces critères spécifiques.",
-    readMinutes: 8,
-    publishedAt: "2026-03-20",
-    updatedAt: "2026-02-07",
-    sections: [
-      {
-        heading: "Seniors actifs : des besoins spécifiques et souvent sous-estimés",
-        body: "Un senior actif de 65 ans en 2025 fait du vélo, voyage, suit des formations, et participe à la vie associative. Il n'a pas besoin d'un EHPAD mais d'une ville qui lui offre : des médecins généralistes accessibles sans attente de 6 mois, un tissu associatif riche (randonnée, chorale, arts), une architecture piétonne agréable (trottoirs, bancs), une culture locale vivante hors-tourisme. Ces critères éliminent beaucoup de villes côtières touristiques qui ferment hors-saison, et avantagent les villes universitaires actives à l'année.",
-      },
-      {
-        heading: "Le Top 5 seniors actifs : Pau, Annecy, Bayonne, Tours, Clermont-Ferrand",
-        body: "Pau domine ce classement pour les seniors actifs : Pyrénées à 45 min, ensoleillement (2 200h), médecins disponibles, tissu associatif dense (clubs de randonnée, tennis, voile sur le Gave), et une communauté de retraités actifs reconnue. Annecy est chère mais incomparable pour les randonneurs et cyclistes. Bayonne et Biarritz offrent l'Atlantique, la culture basque et une vie associative intense. Tours dispose d'un patrimoine UNESCO, d'une ville à échelle humaine, d'un accès Paris en TGV 1h10 et de médecins disponibles. Clermont-Ferrand combine montagne immédiate, vie universitaire à l'année et coût de la vie très raisonnable.",
-      },
-      {
-        heading: "L'accès aux soins : le critère décisif souvent négligé",
-        body: "La France traverse une crise des déserts médicaux qui touche même des villes de 50 000 habitants. Avant de s'installer, vérifier : le délai moyen pour obtenir un rendez-vous chez un généraliste, la présence d'un hôpital public avec service urgences dans un rayon de 30 min, et la disponibilité de spécialistes (cardiologue, ophtalmologue) en moins de 3 mois. Les villes universitaires médicales (Lyon, Bordeaux, Toulouse, Montpellier, Rennes) offrent systématiquement le meilleur accès aux soins. Les villes thermales (Vichy, Aix-les-Bains) ont souvent une offre médicale de qualité liée à leur histoire.",
-      },
-      {
-        heading: "Les villes thermales : la retraite active à prix doux",
-        body: "Les villes thermales françaises ont été conçues pour les soins et le bien-être, et offrent aujourd'hui souvent d'excellentes conditions pour les seniors actifs : Vichy (parcs, thermes modernes, médecins nombreux, prix très accessibles), Aix-les-Bains (lac, thermes, animations culturelles, train vers Chambéry), Évian-les-Bains (lac Léman, calme, soins), Bagnères-de-Bigorre (Pyrénées, calme, communauté de randonneurs). Ces villes ont conservé leur infrastructure médicale thermale, souvent de bon niveau.",
-      },
-      {
-        heading: "Vie sociale et associations : l'élément souvent décisif",
-        body: "L'isolement est la première cause de dépression chez les personnes âgées. Avant de choisir une ville, investiguez le tissu associatif : nombre de clubs de randonnée, associations sportives seniors, universités du temps libre (UTL), chorales, groupes de jardinage. Les villes avec des UTL actives (Montpellier, Tours, Bordeaux, Nantes) offrent un accès à des formations et des conférences qui stimulent intellectuellement. Le service France Bénévolat est une bonne fenêtre pour évaluer le tissu associatif d'une ville.",
-      },
-      {
-        heading: "Notre sélection de surprises : Rodez, Vichy, Saintes, Aurillac",
-        body: "Les villes qui surperforment pour les seniors actifs mais restent hors des radars : Rodez (sécurité maximale, musée Soulages d'envergure internationale, Aveyron et Grands Causses à portée, prix imbattables), Vichy (parcs Belle Époque immenses, opéra, thermes, coût de la vie très bas), Saintes (arènes romaines, Charente, patrimoine, Île de Ré accessible en 1h, grande tradition associative), Aurillac (volcans, festival de rue réputé, sécurité maximale, prix les plus bas de France pour ce niveau de services). Ces quatre villes méritent sérieusement d'être explorées avant de se ruer sur Bordeaux ou Nice.",
-      },
-    ],
-    relatedCities: ["pau", "annecy", "bayonne", "tours", "clermont-ferrand", "vichy", "rodez", "saintes", "aix-les-bains", "aurillac"],
-    relatedGuides: [
-      "meilleures-villes-pour-retraite-france-2025",
-      "villes-france-bord-de-mer-budget-accessible-2025",
-      "quitter-paris-guide-pratique-2025",
-    ],
-    tags: ["seniors actifs", "retraite active", "55-70 ans", "santé", "associations", "thermes", "randonnée"],
-  },
-  {
     slug: "meilleures-villes-creer-entreprise-startup-france-2025",
     title: "Meilleures villes françaises pour créer son entreprise en 2025 — Écosystème startup et TPE/PME",
     emoji: "🚀",
@@ -2209,7 +1888,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["paris", "lyon", "bordeaux", "nantes", "toulouse", "rennes", "grenoble", "strasbourg", "montpellier", "metz"],
     relatedGuides: [
-      "meilleures-villes-freelances-independants-france-2025",
+      "meilleures-villes-freelances-independants-france-2026",
       "meilleures-villes-jeunes-actifs-france-2025",
       "quitter-paris-guide-pratique-2025",
     ],
@@ -2299,8 +1978,8 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["rennes", "brest", "nantes", "caen", "rouen", "quimper", "saint-malo", "lorient", "le-havre", "vannes"],
     relatedGuides: [
-      "vivre-en-bretagne-guide-2025",
-      "vivre-en-normandie-guide-2025",
+      "vivre-en-bretagne-guide-2026",
+      "vivre-en-normandie-guide-2026",
       "quitter-paris-guide-pratique-2025",
     ],
     tags: ["Normandie", "Bretagne", "comparatif régions", "s'installer", "Atlantic", "bord de mer", "Rennes", "Caen"],
@@ -2389,7 +2068,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["paris", "lyon", "nantes", "bordeaux", "toulouse", "grenoble", "rennes", "lannion"],
     relatedGuides: [
-      "meilleures-villes-freelances-independants-france-2025",
+      "meilleures-villes-freelances-independants-france-2026",
       "meilleures-villes-creer-entreprise-startup-france-2025",
       "vivre-en-france-teletravail-guide-2025",
     ],
@@ -2486,96 +2165,6 @@ export const GUIDES: Guide[] = [
     tags: ["Paris", "province", "comparatif", "qualité de vie", "coût de la vie", "salaire", "déménagement"],
   },
   {
-    slug: "meilleures-villes-artistes-creatifs-france-2025",
-    title: "Meilleures villes françaises pour les artistes et créatifs en 2025",
-    emoji: "🎨",
-    category: "lifestyle",
-    metaTitle: "Villes pour artistes et créatifs France 2025 — ateliers, scène, communauté | MeilleurVille",
-    metaDesc: "Où vivre en France comme artiste, designer, musicien ou créatif en 2025 ? Montreuil, Marseille, Nantes, Bordeaux, Rennes, Montpellier — scènes, ateliers, coûts.",
-    intro: "La France bénéficie d'un réseau de soutien à la création artistique unique en Europe (intermittents du spectacle, IRCAM, résidences régionales). Mais toutes les villes ne sont pas égales pour les créatifs.",
-    readMinutes: 8,
-    publishedAt: "2026-04-22",
-    updatedAt: "2026-02-20",
-    sections: [
-      {
-        heading: "Montreuil : le Bushwick parisien",
-        body: "Montreuil est devenue la ville des artistes en banlieue parisienne : artistes plasticiens, designers, musiciens et architectes y ont afflué depuis les années 2000, attirés par les ateliers dans d'anciennes usines reconverties. Le Bas Montreuil concentre la majorité des ateliers et galeries émergentes. Les Portes Ouvertes des Ateliers de Montreuil rassemblent chaque année des centaines de créatifs. Bonne connexion métro vers Paris (lignes 9 et 11).",
-      },
-      {
-        heading: "Marseille : la ville créative la plus sous-estimée",
-        body: "Marseille est la grande surprise de la scène créative française. La Friche la Belle de Mai est l'un des centres d'art contemporain les plus actifs de France. Le Cours Julien est animé d'une scène musicale diverse (rap, électro, world music), de galeries sauvages et de studios à prix inégalés. Les loyers d'atelier y sont parmi les plus bas de toute grande ville française.",
-      },
-      {
-        heading: "Nantes : ville des arts vivants",
-        body: "Nantes a investi massivement dans la culture depuis 2000 (Voyage à Nantes, machines de l'île, Royal de Luxe) et est devenue une référence pour les arts de rue et le spectacle. La scène indépendante (musique électro, jazz, rock) est solide autour du Pannonica et du Lieu Unique. Les artistes bénéficient de nombreuses résidences et d'aides régionales.",
-      },
-      {
-        heading: "Bordeaux et Montpellier : les montantes de la scène créative",
-        body: "Bordeaux a connu une explosion créative post-2010 avec le CAPC, Darwin (espace créatif alternatif) et une scène musicale en plein essor. Montpellier est particulièrement forte sur les arts performatifs (danse contemporaine : festival Montpellier Danse, CNSMD). Les deux villes attirent des profils créatifs venant de Paris pour des raisons de coût.",
-      },
-      {
-        heading: "Rennes : la capitale de la musique bretonne",
-        body: "Rennes est incontournable pour les musiciens : les Transmusicales (festival de découverte musicale de référence internationale) et le Jardin Moderne symbolisent une scène musicale parmi les plus vivantes de France. Coût de vie modéré, tissu associatif actif et communauté créative soudée. Idéal pour les musiciens, artistes sonores et intermittents du spectacle.",
-      },
-      {
-        heading: "Conseils pratiques pour les créatifs en mobilité",
-        body: "Avant de choisir une ville, vérifiez : la présence d'un CAC ou d'un FRAC, la densité de compagnies et théâtres agréés, l'existence d'associations de mise à disposition d'ateliers à prix social, et la communauté locale sur Instagram/Facebook. Le statut d'intermittent du spectacle est géré nationalement mais certaines villes ont plus de structures employeurs que d'autres, ce qui influe sur le renouvellement des droits.",
-      },
-    ],
-    relatedCities: ["montreuil", "marseille", "nantes", "bordeaux", "rennes", "montpellier", "paris"],
-    relatedGuides: [
-      "meilleures-villes-jeunes-actifs-france-2025",
-      "vivre-en-ile-de-france-guide-2025",
-      "vivre-en-provence-paca-guide-2025",
-    ],
-    tags: ["artistes", "créatifs", "ateliers", "scène culturelle", "intermittents", "musique", "arts visuels"],
-  },
-  {
-    slug: "vivre-en-corse-guide-2025",
-    title: "Vivre en Corse en 2025 — le guide complet pour s'installer sur l'Île de Beauté",
-    emoji: "🏝️",
-    category: "region",
-    metaTitle: "Vivre en Corse 2025 — guide installation Ajaccio, Bastia, Porto-Vecchio | MeilleurVille",
-    metaDesc: "Vivre en Corse : logement, emploi, télétravail, coût de la vie, transports, vie pratique. Notre guide honnête pour s'installer à Ajaccio, Bastia ou ailleurs sur l'île.",
-    intro: "La Corse fait rêver : montagne, mer, maquis et soleil quasi méditerranéen. Mais vivre en Corse ne s'improvise pas. Le marché immobilier est l'un des plus tendus de France, le marché de l'emploi est limité, et la vie sur l'île nécessite une adaptation réelle.",
-    readMinutes: 9,
-    publishedAt: "2026-04-24",
-    updatedAt: "2026-01-30",
-    sections: [
-      {
-        heading: "Ajaccio vs Bastia : les deux capitales",
-        body: "Ajaccio (70 000 hab.) est la préfecture et la capitale politique de l'île. Ville plus ensoleillée (plus de 2 800 heures/an), tournée vers le tourisme et les services. Bastia (45 000 hab.) est le pôle économique avec un port commercial actif et une vie de quartier plus dense. Les insulaires eux-mêmes sont partagés : Ajaccio est la ville de la Costa del Sud, Bastia est la ville qui vit vraiment. Pour les arrivants continentaux, Bastia est souvent la meilleure porte d'entrée.",
-      },
-      {
-        heading: "Le logement : attention au piège",
-        body: "La Corse a un marché immobilier paradoxal : théoriquement moins cher que la Côte d'Azur, mais très tendu en pratique. Les résidences secondaires (40% du parc) appauvrissent le marché locatif principal. Un T2 à Ajaccio se loue 700-900€/mois. L'achat est compliqué par des prix qui ont explosé post-Covid (Ajaccio : 3 500-5 000€/m²). Les zones littorales populaires (Bonifacio, Porto-Vecchio) sont hors de prix pour une résidence permanente.",
-      },
-      {
-        heading: "L'emploi : la vraie contrainte",
-        body: "L'emploi en Corse est la contrainte principale pour les arrivants. L'économie insulaire est dominée par le tourisme saisonnier, le BTP, l'administration publique et les services. Les profils tech, finance ou marketing ont peu de débouchés locaux hors télétravail. Le taux de chômage (12-15% selon les années) est nettement supérieur à la moyenne nationale. La solution pour la majorité des nouveaux arrivants : le full remote, les métiers de l'artisanat ou l'enseignement.",
-      },
-      {
-        heading: "Le télétravail en Corse : l'option réaliste",
-        body: "Pour les profils full remote, la Corse offre un cadre de vie exceptionnel. La fibre est déployée dans les principales villes. Le grand obstacle reste l'accès au continent : vol Ajaccio-Paris aller-retour compte 150-250€, et les vols sont saturés l'été. Si votre emploi nécessite des déplacements réguliers en France continentale, le coût et la contrainte logistique peuvent devenir fatigants.",
-      },
-      {
-        heading: "La vie pratique : les surprises",
-        body: "Plusieurs aspects surprennent les arrivants : les prix des supermarchés sont 10-20% plus élevés qu'en France continentale, les files d'attente administratives sont longues, et certains artisans exigent des recommandations locales. L'été (juin-septembre) transforme la Corse en destination touristique — certains services locaux ferment pour servir les touristes. La vie hors saison (octobre-mai) est beaucoup plus paisible et donne accès à la vraie Corse.",
-      },
-      {
-        heading: "Verdict : pour qui est la Corse ?",
-        body: "La Corse est idéale pour : les profils full remote cherchant une qualité de vie méditerranéenne exceptionnelle, les amoureux de la nature, les métiers de l'artisanat ou du tourisme, et les familles qui valorisent un environnement naturel préservé. Elle est déconseillée pour : les profils en recherche active d'emploi salarié, ceux qui ont besoin d'un accès fréquent au continent, ou les personnes qui ont du mal à s'intégrer dans une culture locale forte.",
-      },
-    ],
-    relatedCities: ["ajaccio"],
-    relatedGuides: [
-      "vivre-bord-mer-france-guide",
-      "meilleures-villes-bord-de-mer-france-2025",
-      "vivre-en-france-teletravail-guide-2025",
-    ],
-    tags: ["Corse", "Ajaccio", "Bastia", "île", "Méditerranée", "télétravail", "logement", "installation"],
-  },
-  {
     slug: "lyon-vs-bordeaux-comparatif-2025",
     title: "Lyon vs Bordeaux 2025 — Quelle ville choisir pour s'installer ?",
     emoji: "⚖️",
@@ -2659,7 +2248,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["nantes", "rennes", "saint-malo", "angers", "lorient", "vannes"],
     relatedGuides: [
-      "vivre-en-bretagne-guide-2025",
+      "vivre-en-bretagne-guide-2026",
       "vivre-en-pays-de-la-loire-guide-2025",
       "normandie-vs-bretagne-comparatif-2025",
     ],
@@ -2705,7 +2294,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["marseille", "toulouse", "montpellier", "nice", "bordeaux", "aix-en-provence"],
     relatedGuides: [
       "vivre-en-provence-paca-guide-2025",
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
       "vivre-dans-le-sud-france-guide-2025",
     ],
     tags: ["Marseille", "Toulouse", "comparatif", "Sud de la France", "emploi", "immobilier", "sécurité"],
@@ -2795,7 +2384,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["annecy", "vannes", "biarritz", "la-rochelle", "quimper", "brest", "rennes", "strasbourg"],
     relatedGuides: [
       "villes-nature-plein-air-france",
-      "vivre-en-bretagne-guide-2025",
+      "vivre-en-bretagne-guide-2026",
       "vivre-en-montagne-villes-alpes-pyrenees-france-2025",
     ],
     tags: ["qualité de l'air", "nature", "verdure", "espaces verts", "Annecy", "Bretagne", "littoral", "santé"],
@@ -2840,7 +2429,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["montpellier", "aix-en-provence", "la-rochelle", "biarritz", "vannes", "sete", "manosque", "dax"],
     relatedGuides: [
       "meilleures-villes-qualite-air-nature-france-2025",
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
       "soleil-france-guide",
     ],
     tags: ["retraite", "seniors", "soleil", "santé", "qualité de vie", "Montpellier", "Provence", "Atlantique"],
@@ -3065,7 +2654,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["grasse", "la-ciotat", "cassis", "nice", "cannes", "antibes", "manosque", "menton"],
     relatedGuides: [
       "vivre-en-provence-paca-guide-2025",
-      "meilleures-villes-seniors-actifs-france-2025",
+      "meilleures-villes-seniors-actifs-france-2026",
       "investissement-immobilier-villes-rentables-france-2025",
     ],
     tags: ["Côte d'Azur", "arrière-pays", "Grasse", "La Ciotat", "Vence", "Manosque", "PACA", "abordable"],
@@ -3156,7 +2745,7 @@ export const GUIDES: Guide[] = [
     relatedGuides: [
       "vivre-en-france-teletravail-guide-2025",
       "meilleures-villes-tech-numerique-france-2025",
-      "meilleures-villes-freelances-independants-france-2025",
+      "meilleures-villes-freelances-independants-france-2026",
     ],
     tags: ["nomades numériques", "télétravail", "freelance", "coworking", "Montpellier", "Biarritz", "Lyon", "vie mobile"],
   },
@@ -3246,7 +2835,7 @@ export const GUIDES: Guide[] = [
     relatedGuides: [
       "cote-basque-landes-vivre-atlantique-2025",
       "vivre-en-nouvelle-aquitaine-guide-2025",
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
     ],
     tags: ["Pyrénées", "Pau", "Bayonne", "Tarbes", "Foix", "piémont", "montagne", "mer"],
   },
@@ -3336,7 +2925,7 @@ export const GUIDES: Guide[] = [
     relatedGuides: [
       "vivre-en-provence-paca-guide-2025",
       "cote-azur-abordable-arriere-pays-paca-2025",
-      "meilleures-villes-seniors-actifs-france-2025",
+      "meilleures-villes-seniors-actifs-france-2026",
     ],
     tags: ["Var", "Toulon", "Hyères", "Saint-Raphaël", "Sanary-sur-Mer", "Estérel", "Provence", "Méditerranée"],
   },
@@ -3379,7 +2968,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["vannes", "lorient", "quimper", "saint-malo", "rennes"],
     relatedGuides: [
-      "vivre-en-bretagne-guide-2025",
+      "vivre-en-bretagne-guide-2026",
       "teletravail-bretagne-guide",
       "meilleures-villes-qualite-air-nature-france-2025",
     ],
@@ -3552,7 +3141,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["strasbourg", "colmar", "mulhouse"],
     relatedGuides: [
       "vivre-en-grand-est-alsace-moselle-guide-2025",
-      "vivre-en-alsace-guide-2025",
+      "vivre-en-alsace-guide-2026",
       "investissement-immobilier-villes-rentables-france-2025",
     ],
     tags: ["Alsace", "Strasbourg", "Colmar", "Mulhouse", "Grand Est", "frontalier", "Allemagne", "Suisse"],
@@ -3785,7 +3374,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["saint-malo", "dinard", "morlaix", "brest", "dinan"],
     relatedGuides: [
-      "vivre-en-bretagne-guide-2025",
+      "vivre-en-bretagne-guide-2026",
       "teletravail-bretagne-guide",
       "normandie-vs-bretagne-comparatif-2025",
     ],
@@ -3826,7 +3415,7 @@ export const GUIDES: Guide[] = [
     relatedGuides: [
       "retraite-france-guide",
       "villes-seniors-retraite-france",
-      "meilleures-villes-seniors-actifs-france-2025",
+      "meilleures-villes-seniors-actifs-france-2026",
     ],
     tags: ["retraite", "budget", "1 500€", "soleil", "qualité de vie", "santé", "nature", "accessibilité"],
   },
@@ -3865,7 +3454,7 @@ export const GUIDES: Guide[] = [
     relatedGuides: [
       "vivre-en-alsace-strasbourg-colmar-mulhouse-2025",
       "vivre-en-grand-est-alsace-moselle-guide-2025",
-      "vivre-en-alsace-guide-2025",
+      "vivre-en-alsace-guide-2026",
     ],
     tags: ["Alsace", "Route des Vins", "Obernai", "Ribeauvillé", "Riquewihr", "Kaysersberg", "colombages", "tourisme"],
   },
@@ -3906,7 +3495,7 @@ export const GUIDES: Guide[] = [
     relatedGuides: [
       "toulouse-montpellier-quelle-ville-choisir",
       "vivre-en-nouvelle-aquitaine-guide-2025",
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
     ],
     tags: ["Toulouse", "Bordeaux", "comparatif", "immobilier", "emploi", "qualité de vie", "métropole", "sud-ouest"],
   },
@@ -4232,7 +3821,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["nimes", "ales", "montpellier"],
     relatedGuides: [
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
       "vivre-dans-le-sud-france-guide-2025",
       "meilleures-villes-budget-moins-700-euros-t2-2025",
     ],
@@ -4315,7 +3904,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["rodez", "millau", "cahors", "figeac"],
     relatedGuides: [
       "vivre-en-dordogne-quercy-perigord-guide-2025",
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
       "meilleures-villes-retraites-budget-moins-1500-euros-2025",
     ],
     tags: ["Aveyron", "Lot", "Rodez", "Millau", "Cahors", "Figeac", "causses", "patrimoine", "abordable"],
@@ -4396,7 +3985,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["albi", "castres"],
     relatedGuides: [
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
       "vivre-dans-le-sud-france-guide-2025",
       "toulouse-vs-bordeaux-comparatif-2025",
     ],
@@ -4716,7 +4305,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["auch", "condom"],
     relatedGuides: [
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
       "vivre-en-dordogne-quercy-perigord-guide-2025",
       "retraite-soleil-meilleures-villes-france-2025",
     ],
@@ -4921,48 +4510,11 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["angers", "limoges", "tours", "rennes", "clermont-ferrand"],
     relatedGuides: [
-      "meilleures-villes-seniors-actifs-france-2025",
+      "meilleures-villes-seniors-actifs-france-2026",
       "meilleures-villes-pour-retraite-france-2025",
       "meilleure-ville-famille-france",
     ],
     tags: ["santé", "hôpital", "CHU", "médecins", "désert médical", "famille", "retraite", "soins", "sécurité sociale", "médecin généraliste"],
-  },
-  {
-    slug: "vivre-en-normandie-interieure-guide-2025",
-    title: "Vivre en Normandie intérieure en 2025 : bocage, pommes et douceur de vivre",
-    metaTitle: "Vivre en Normandie intérieure 2025 — Guide | MeilleurVille",
-    metaDesc: "Lisieux, Vire, Flers, Les Andelys, Bernay : s'installer dans la Normandie intérieure loin du littoral. Nature, patrimoine et prix accessibles. Guide 2025.",
-    category: "region",
-    emoji: "🍎",
-    readMinutes: 9,
-    publishedAt: "2026-03-15",
-    updatedAt: "2026-03-27",
-    intro: "La Normandie intérieure, faite de bocage, de forêts de hêtres et de vallées encaissées de la Seine et de l'Orne, est la face cachée de la région. Moins spectaculaire que le Mont-Saint-Michel ou les falaises d'Étretat, elle offre une qualité de vie authentique, des prix immobiliers très accessibles, et une nature préservée que le littoral commence à perdre.",
-    sections: [
-      {
-        heading: "Le bocage normand : Flers, Vire et la Normandie profonde",
-        body: "Le bocage normand du Calvados et de l'Orne est un paysage de haies, de vergers à cidre, de prairies à vaches et de villages de granit. Flers (Orne) et Vire-Normandie (Calvados) en sont les villes-centres. Prix : 1 000-1 500€/m². Accès à Caen et Alençon en moins d'une heure. Une vraie normalité provinciale, sans les foules des côtes normandes en été.",
-      },
-      {
-        heading: "Les Andelys et la vallée de la Seine : Monet en prime",
-        body: "La boucle de la Seine entre Vernon et Les Andelys est celle que Monet observait depuis Giverny. Les Andelys, sous le regard du Château-Gaillard (Richard Cœur de Lion), offre un cadre medieval-fluvial exceptionnel. À 100 km de Paris en voiture, 1h20 en car ou en voiture. Prix : 1 500-2 000€/m². Pour les Parisiens en quête du paysage impressionniste habitable.",
-      },
-      {
-        heading: "Bernay et l'Eure : les bourgs d'affaires discrets",
-        body: "Bernay, dans l'Eure, est une sous-préfecture active avec une belle abbatiale romane, un marché du samedi vivant, et une situation au carrefour de la Normandie. Prix : 1 300-1 800€/m². Bonne base pour travailler sur les zones d'activités d'Évreux-Rouen-Caen sans les prix de ces villes. Lisieux (pèlerinage, sainte Thérèse) est plus touristique mais garde un charme victorien.",
-      },
-      {
-        heading: "Tourisme vert et activités outdoor en Normandie intérieure",
-        body: "La Suisse Normande (Clécy, Pont-d'Ouilly) est un micro-relief de gorges et de cascades imprévu pour cette région plate. Escalade, canoe, randonnée pédestre, VTT : un terrain de jeu outdoor complet à 30 min de Caen. La forêt d'Écouves (50 000 ha, la plus grande forêt du Massif armoricain) est un poumon vert entre Alençon et Argentan.",
-      },
-    ],
-    relatedCities: ["flers", "les-andelys", "evreux", "caen", "alencon"],
-    relatedGuides: [
-      "vivre-en-normandie-guide-2025",
-      "normandie-vs-bretagne-comparatif-2025",
-      "meilleures-villes-maison-jardin-moins-200000-euros-2025",
-    ],
-    tags: ["Normandie", "bocage", "Flers", "Les Andelys", "Bernay", "cidre", "Orne", "Eure", "nature", "abordable", "Monet"],
   },
   {
     slug: "vivre-en-quercy-lot-perigord-guide-2025",
@@ -5038,7 +4590,7 @@ export const GUIDES: Guide[] = [
     relatedGuides: [
       "investissement-immobilier-villes-rentables-france-2025",
       "acheter-immobilier-france-meilleures-villes-2025",
-      "meilleures-villes-etudiantes-france-2025",
+      "meilleures-villes-etudiantes-france-2026",
     ],
     tags: ["investissement", "locatif", "colocation", "rendement", "étudiant", "Limoges", "Tours", "Villefranche", "meublé", "Airbnb"],
   },
@@ -5415,51 +4967,6 @@ export const GUIDES: Guide[] = [
     tags: ["Alsace", "Strasbourg", "Mulhouse", "comparatif", "Haut-Rhin", "frontalier", "Bas-Rhin"],
   },
   {
-    slug: "metz-vs-nancy-comparatif-2025",
-    title: "Metz vs Nancy : quelle ville de Lorraine choisir ?",
-    metaTitle: "Metz vs Nancy — Comparatif complet 2025 | MeilleurVille",
-    metaDesc: "Metz ou Nancy pour s'installer en Lorraine ? Loyers, qualité de vie, emploi, culture : notre comparatif complet des deux capitales lorraines.",
-    category: "comparaison",
-    emoji: "⚜️",
-    readMinutes: 8,
-    publishedAt: "2025-04-15",
-    updatedAt: "2026-03-08",
-    intro: "La Lorraine a deux capitales historiques qui se livrent une concurrence amicale : Metz, la romaine, et Nancy, la baroque. Ces deux villes séparées de seulement 55 km par l'autoroute sont souvent mises en opposition, alors qu'elles se complètent parfaitement. Mais si vous devez en choisir une, laquelle vous correspond ?",
-    sections: [
-      {
-        heading: "Deux villes, deux héritages",
-        body: "Metz (118 000 hab.) est la plus ancienne : cité gallo-romaine, cathédrale gothique parmi les plus lumineuses de France, Centre Pompidou-Metz ouvert en 2010. Elle est aussi le siège du commandement militaire du nord-est de la France. Nancy (103 000 hab.) est baroque, et sa place Stanislas, chef-d'œuvre classé UNESCO, reste l'une des plus belles places d'Europe. Capitale historique du duché de Lorraine, elle a développé l'École de Nancy (art nouveau) et reste un centre culturel reconnu.",
-      },
-      {
-        heading: "Loyers et immobilier : un équilibre presque parfait",
-        body: "Metz et Nancy sont dans la même fourchette de prix, légèrement en faveur de Nancy sur les loyers : T2 entre 600 et 750€ à Metz, 580 et 720€ à Nancy. L'achat est légèrement plus élevé à Metz (2 200–2 800€/m² en centre) qu'à Nancy (2 000–2 600€/m²). Les deux restent très abordables par rapport aux métropoles de l'Ouest.",
-      },
-      {
-        heading: "Emploi : Metz administration, Nancy université",
-        body: "Metz a un profil plus administratif et militaire : préfecture régionale, nombreux fonctionnaires, présence du ministère de l'Intérieur décentralisé, logistique (à proximité de l'A31 axe Europe). Nancy est plus universitaire : Université de Lorraine (premier employeur, 60 000 étudiants), grandes écoles (Mines Nancy, ENSEM, ICN Business School), tissu PME innovantes dans la pharmacie et les sciences du vivant.",
-      },
-      {
-        heading: "Culture et vie urbaine",
-        body: "Metz a investi massivement depuis 2010 avec le Centre Pompidou-Metz (1,5 million de visiteurs cumulés) qui a repositionné la ville culturellement. Les quais de la Moselle réaménagés, le Marché couvert et la cathédrale Saint-Étienne complètent un tableau exceptionnel. Nancy a la place Stanislas illuminée le soir, le Musée des Beaux-Arts, les hôtels particuliers art nouveau et un opéra national actif. La vie nocturne est légèrement plus animée à Nancy (population étudiante plus forte).",
-      },
-      {
-        heading: "Transports : avantage Metz sur le TGV",
-        body: "Metz est sur l'axe TGV Paris-Strasbourg, avec Paris en 1h25 et Strasbourg en 1h15. C'est un avantage décisif pour les pendulaires vers Paris. Nancy est à 10 minutes de Metz en TGV et à 1h35 de Paris, donc légèrement moins bien positionnée. En revanche, Nancy dispose d'un tramway plus étendu, et la ligne Metz-Nancy est fréquente (30 trains par jour).",
-      },
-      {
-        heading: "Notre verdict",
-        body: "Metz est le choix pour les familles et professionnels qui voyagent souvent vers Paris ou Strasbourg, et pour ceux qui apprécient une ville plus centrale et administrative. Nancy est le choix pour les étudiants, les enseignants-chercheurs, les familles qui valorisent la densité culturelle et l'atmosphère baroque. Les deux villes méritent une visite d'une semaine avant de décider.",
-      },
-    ],
-    relatedCities: ["metz", "nancy"],
-    relatedGuides: [
-      "strasbourg-vs-mulhouse-comparatif-2025",
-      "vivre-frontalier-france-belgique-luxembourg-suisse-2025",
-      "lyon-vs-bordeaux-comparatif-2025",
-    ],
-    tags: ["Lorraine", "Metz", "Nancy", "comparatif", "Grand Est", "culture", "TGV"],
-  },
-  {
     slug: "dijon-vs-besancon-comparatif-2025",
     title: "Dijon vs Besançon : laquelle choisir pour s'installer en Bourgogne-Franche-Comté ?",
     metaTitle: "Dijon vs Besançon — Comparatif 2025 | MeilleurVille",
@@ -5499,7 +5006,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["dijon", "besancon"],
     relatedGuides: [
       "strasbourg-vs-mulhouse-comparatif-2025",
-      "metz-vs-nancy-comparatif-2025",
+      "metz-vs-nancy-comparatif-2026",
       "grenoble-vs-chambery-comparatif-2025",
     ],
     tags: ["Bourgogne", "Franche-Comté", "Dijon", "Besançon", "comparatif", "vignoble", "montagnes"],
@@ -5838,47 +5345,6 @@ export const GUIDES: Guide[] = [
       "vivre-en-quercy-lot-perigord-guide-2025",
     ],
     tags: ["gastronomie", "lifestyle", "marché", "bistrots", "cuisine régionale", "budget", "terroir"],
-  },
-  {
-    slug: "teletravailler-depuis-alsace-guide-2025",
-    title: "Télétravailler depuis l'Alsace : Strasbourg, Colmar, Mulhouse",
-    metaTitle: "Télétravailler depuis l'Alsace 2025 — Strasbourg, Colmar, Mulhouse",
-    metaDesc: "Guide complet pour télétravailler depuis l'Alsace : fibre, coût de la vie, cadre de vie, mobilité. Strasbourg, Colmar, Mulhouse et villages alsaciens comparés.",
-    emoji: "🥨",
-    category: "teletravail",
-    readMinutes: 10,
-    publishedAt: "2025-04-01",
-    updatedAt: "2026-01-27",
-    intro: "L'Alsace conjugue efficacité allemande, art de vivre français et paysages vinicoles uniques. Pour les télétravailleurs, c'est une région d'élite : fibre généralisée, trains TGV vers Paris (1h50), loyers bien inférieurs à la capitale et qualité de vie remarquable entre Vosges et Rhin. Strasbourg est la grande ville euro-compatible, Colmar est la carte postale, et Mulhouse est le choix malin à budget serré.",
-    sections: [
-      {
-        heading: "Strasbourg : la capitale européenne du télétravail de qualité",
-        body: "Strasbourg cumule les atouts : TGV Paris en 1h47, tramway dense, fibre FTTH couvrant plus de 90 % de la ville, deux universités et un bassin d'emploi tech en expansion. Le centre historique (Grande Île, classée UNESCO) est à vélo de tout. Loyer moyen T2 : 750–850€ en Petite-France, 600–700€ en Cronenbourg ou Hautepierre. Pour les digital nomads qui veulent une métropole avec charme, Strasbourg surpasse Bordeaux ou Lyon sur le rapport qualité-prix.",
-      },
-      {
-        heading: "Colmar : le télétravail dans un décor de conte",
-        body: "Colmar est la ville la plus photographiée d'Alsace, et pour cause : ses façades à colombages, canaux et géraniums débordants font oublier qu'on est en train de travailler. La fibre est disponible dans le centre et les lotissements, les transports vers Strasbourg (TER 30 min) ou Bâle sont fréquents. Loyer T2 : 600–750€ en centre-ville. La vie quotidienne reste accessible : marchés producteurs, vins locaux à 5€ la bouteille, restaurants alsaciens entre 12 et 18€ le midi.",
-      },
-      {
-        heading: "Mulhouse : le choix efficace à prix réduit",
-        body: "Mulhouse est sous-côtée. Son dynamisme industriel (Musée de l'Automobile, pôle chimie) masque une ville qui se réinvente : quartiers rénovés, coworking, tissu associatif culturel, accès direct à Bâle (15 min TGV) et ses emplois pharma. Loyers parmi les plus bas d'Alsace : T2 entre 450 et 580€. Idéal pour les télétravailleurs qui veulent maximiser le pouvoir d'achat sans s'éloigner d'une métropole fonctionnelle.",
-      },
-      {
-        heading: "Villages alsaciens : l'option teletravail rural de luxe",
-        body: "Obernai, Ribeauvillé, Kaysersberg, Eguisheim : les villages du vignoble alsacien sont raccordés à la fibre depuis 2022 pour la plupart. Maisons à colombages avec jardin entre 180 000€ et 350 000€. Vie de village intense entre sorties vélo sur la Route des Vins, marchés de producteurs et caves viticoles. Le revers : voiture indispensable pour tout déplacement, et les villages classés peuvent être envahis de touristes d'avril à novembre.",
-      },
-      {
-        heading: "Ce que les télétravailleurs doivent savoir sur l'Alsace",
-        body: "Hivers froids et humides (de novembre à mars, le brouillard sur la plaine du Rhin est réel). Été chaud et ensoleillé, parfois caniculaire. La frontière allemande (Kehl, Offenburg) offre des supermarchés de qualité à prix réduits : beaucoup d'Alsaciens font leurs courses en Allemagne. L'Alsace souffre d'une légère pénurie de logements abordables dans les zones les plus prisées. Prévoyez d'anticiper votre recherche de 2 à 3 mois.",
-      },
-    ],
-    relatedCities: ["strasbourg", "colmar", "mulhouse"],
-    relatedGuides: [
-      "strasbourg-vs-mulhouse-comparatif-2025",
-      "vivre-en-alsace-guide-2025",
-      "teletravail-rythme-hybride-quelle-ville-choisir-2025",
-    ],
-    tags: ["télétravail", "Alsace", "Strasbourg", "Colmar", "Mulhouse", "fibre", "Europe"],
   },
   {
     slug: "teletravailler-depuis-occitanie-toulouse-montpellier-guide-2025",
@@ -6253,7 +5719,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["metz", "nancy", "thionville", "epinal"],
     relatedGuides: [
-      "metz-vs-nancy-comparatif-2025",
+      "metz-vs-nancy-comparatif-2026",
       "vivre-en-grand-est-alsace-moselle-guide-2025",
       "vivre-frontalier-france-belgique-luxembourg-suisse-2025",
       "quitter-paris-province-teletravail-guide-complet-2025",
@@ -6450,7 +5916,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["albi", "montauban", "pau", "bordeaux", "montpellier", "carcassonne"],
     relatedGuides: [
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
       "toulouse-montpellier-quelle-ville-choisir",
       "vivre-dans-le-sud-france-guide-2025",
     ],
@@ -6616,7 +6082,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["angers", "la-rochelle", "rennes", "vannes", "saint-nazaire", "le-mans"],
     relatedGuides: [
       "vivre-en-pays-de-la-loire-guide-2025",
-      "vivre-en-bretagne-guide-2025",
+      "vivre-en-bretagne-guide-2026",
       "quitter-paris-guide-2025",
     ],
     tags: ["Nantes", "quitter Nantes", "Angers", "La Rochelle", "Rennes", "Vannes", "déménagement", "Pays de la Loire", "Bretagne"],
@@ -6662,7 +6128,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["brest", "lorient", "vannes", "saint-brieuc", "quimper", "le-mans", "angers"],
     relatedGuides: [
-      "vivre-en-bretagne-guide-2025",
+      "vivre-en-bretagne-guide-2026",
       "vivre-en-bretagne-nord-guide-2025",
       "quitter-nantes-guide-2026",
     ],
@@ -6709,7 +6175,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["sete", "beziers", "nimes", "perpignan", "montpellier"],
     relatedGuides: [
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
       "vivre-dans-le-gard-guide-2025",
       "quitter-marseille-guide-2026",
     ],
@@ -6757,7 +6223,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["nice", "montpellier", "antibes", "cannes", "sete", "nimes"],
     relatedGuides: [
       "vivre-en-provence-paca-guide-2025",
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
       "quitter-montpellier-guide-2026",
     ],
     tags: ["Nice", "Montpellier", "comparatif", "Méditerranée", "PACA", "Occitanie", "soleil", "immobilier", "qualité de vie"],
@@ -6804,7 +6270,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["lille", "amiens", "arras", "valenciennes", "lens", "boulogne-sur-mer"],
     relatedGuides: [
       "vivre-en-grand-est-alsace-moselle-guide-2025",
-      "vivre-en-normandie-guide-2025",
+      "vivre-en-normandie-guide-2026",
       "quitter-paris-guide-2025",
     ],
     tags: ["Hauts-de-France", "Lille", "Amiens", "Arras", "Valenciennes", "Nord", "Pas-de-Calais", "Picardie", "s'installer", "télétravail"],
@@ -6851,7 +6317,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["tours", "orleans", "blois", "bourges", "amboise", "chinon"],
     relatedGuides: [
       "vivre-en-touraine-guide-2025",
-      "vivre-en-normandie-interieure-guide-2025",
+      "vivre-en-normandie-interieure-guide-2026",
       "quitter-paris-guide-2025",
     ],
     tags: ["Centre-Val de Loire", "Tours", "Orléans", "Blois", "Bourges", "Loire", "châteaux", "télétravail", "s'installer", "quitter Paris"],
@@ -6952,7 +6418,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["rennes", "brest", "lorient", "vannes", "quimper", "saint-brieuc"],
     relatedGuides: [
-      "vivre-en-bretagne-guide-2025",
+      "vivre-en-bretagne-guide-2026",
       "vivre-en-france-teletravail-guide-2025",
       "quitter-rennes-guide-2026",
     ],
@@ -6999,7 +6465,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["colmar", "mulhouse", "metz", "nancy", "strasbourg"],
     relatedGuides: [
-      "vivre-en-alsace-guide-2025",
+      "vivre-en-alsace-guide-2026",
       "vivre-en-lorraine-metz-nancy-thionville-2026",
       "vivre-en-grand-est-alsace-moselle-guide-2025",
     ],
@@ -7140,7 +6606,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["bordeaux", "rennes", "nantes", "la-rochelle", "brest"],
     relatedGuides: [
-      "vivre-en-bretagne-guide-2025",
+      "vivre-en-bretagne-guide-2026",
       "vivre-en-nouvelle-aquitaine-guide-2025",
       "quitter-rennes-guide-2026",
     ],
@@ -7238,8 +6704,8 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["rouen", "caen", "le-havre", "cherbourg", "granville"],
     relatedGuides: [
-      "vivre-en-normandie-guide-2025",
-      "vivre-en-normandie-interieure-guide-2025",
+      "vivre-en-normandie-guide-2026",
+      "vivre-en-normandie-interieure-guide-2026",
       "teletravailler-depuis-bretagne-guide-2026",
     ],
     tags: ["Normandie", "télétravail", "remote work", "Rouen", "Caen", "Le Havre", "fibre", "Paris 2h", "mer", "coworking"],
@@ -7334,7 +6800,7 @@ export const GUIDES: Guide[] = [
     relatedGuides: [
       "villes-france-grandes-tables-gastronomie-budget-reduit-2025",
       "vivre-en-pays-basque-guide-2026",
-      "vivre-en-alsace-guide-2025",
+      "vivre-en-alsace-guide-2026",
     ],
     tags: ["gastronomie", "cuisine française", "marchés", "vins", "Lyon", "Bordeaux", "Strasbourg", "Pays Basque", "lifestyle", "terroir"],
   },
@@ -7564,7 +7030,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["strasbourg", "bordeaux", "nantes", "grenoble", "la-rochelle", "rennes"],
     relatedGuides: [
       "vivre-sans-voiture-france-guide-2025",
-      "vivre-en-alsace-guide-2025",
+      "vivre-en-alsace-guide-2026",
       "meilleures-villes-seniors-actifs-france-2026",
     ],
     tags: ["vélo", "cycliste", "pistes cyclables", "mobilité douce", "Strasbourg", "Bordeaux", "Nantes", "La Rochelle", "qualité de vie"],
@@ -7802,7 +7268,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["perpignan", "narbonne", "beziers", "collioure", "ceret"],
     relatedGuides: [
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
       "quitter-montpellier-guide-2026",
       "vivre-dans-le-gard-guide-2025",
     ],
@@ -7849,7 +7315,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["caen", "rouen", "le-havre", "cherbourg", "bayeux"],
     relatedGuides: [
-      "vivre-en-normandie-guide-2025",
+      "vivre-en-normandie-guide-2026",
       "teletravailler-depuis-normandie-guide-2026",
       "quitter-paris-guide-2025",
     ],
@@ -8509,7 +7975,7 @@ export const GUIDES: Guide[] = [
     relatedGuides: [
       "caen-vs-rouen-comparatif-2026",
       "teletravailler-depuis-normandie-guide-2026",
-      "vivre-en-normandie-guide-2025",
+      "vivre-en-normandie-guide-2026",
     ],
     tags: ["Rouen", "quitter Rouen", "Caen", "Le Havre", "Normandie", "Seine", "topographie", "pollution", "déménagement"],
   },
@@ -8696,7 +8162,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["foix", "pamiers", "saint-girons"],
     relatedGuides: [
       "vivre-dans-les-pyrenees-guide-2025",
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
       "villes-france-retraite-anticipee-fire-2026",
     ],
     tags: ["Ariège", "Foix", "Pamiers", "Saint-Girons", "Pyrénées", "montagne", "France profonde", "télétravail", "randonnée", "maison accessible"],
@@ -13635,7 +13101,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["caen", "rouen", "cherbourg", "le-havre", "alencon"],
     relatedGuides: [
       "ou-vivre-france-meteo-qualite-air-2026",
-      "vivre-en-normandie-interieure-guide-2025",
+      "vivre-en-normandie-interieure-guide-2026",
       "teletravailler-depuis-normandie-guide-2026",
       "caen-vs-rouen-comparatif-2026",
       "climat-2040-facade-atlantique-france",
@@ -17769,7 +17235,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["bordeaux", "nantes", "rennes", "strasbourg", "annecy", "bayonne"],
     relatedGuides: [
       "meilleures-villes-animaux-chiens-france-2026",
-      "vivre-en-bretagne-guide-2025",
+      "vivre-en-bretagne-guide-2026",
       "meilleures-villes-outdoor-sport-nature-france-2025",
     ],
     tags: ["animaux", "chien", "chat", "logement", "parcs canins", "2026"],
@@ -17811,7 +17277,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["clermont-ferrand", "limoges", "dijon", "metz", "pau", "rouen"],
     relatedGuides: [
-      "meilleures-villes-etudiantes-france-2025",
+      "meilleures-villes-etudiantes-france-2026",
       "survivre-etudiant-province-moins-700-euros-2026",
       "vivre-smic-quelle-ville-france-2026",
     ],
@@ -18200,7 +17666,7 @@ export const GUIDES: Guide[] = [
     relatedGuides: [
       "meilleures-villes-colocation-jeunes-actifs-2026",
       "survivre-etudiant-province-moins-700-euros-2026",
-      "meilleures-villes-seniors-actifs-france-2025",
+      "meilleures-villes-seniors-actifs-france-2026",
     ],
     tags: ["colocation intergénérationnelle", "logement étudiant", "senior jeune", "Ensemble2Générations", "loyer solidaire", "2026"],
   },
@@ -18241,7 +17707,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["brest", "rennes", "vannes", "lorient", "quimper", "saint-malo"],
     relatedGuides: [
-      "vivre-en-bretagne-guide-2025",
+      "vivre-en-bretagne-guide-2026",
       "teletravailler-depuis-bretagne-guide-2026",
       "vivre-bord-mer-france-guide",
     ],
@@ -20092,7 +19558,7 @@ export const GUIDES: Guide[] = [
     relatedGuides: [
       "quitter-brest-guide-2026",
       "brest-vs-lorient-comparatif-2026",
-      "vivre-en-bretagne-guide-2025",
+      "vivre-en-bretagne-guide-2026",
     ],
     tags: ["acheter à Brest 2026", "immobilier Brest prix quartiers", "investissement locatif Brest", "primo-accédant Brest Finistère", "marché immobilier Brest Bretagne"],
   },
@@ -20214,7 +19680,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["nimes", "montpellier", "avignon"],
     relatedGuides: [
       "perpignan-vs-montpellier-comparatif-2026",
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
       "acheter-immobilier-france-meilleures-villes-2025",
     ],
     tags: ["acheter à Nîmes 2026", "immobilier Nîmes prix quartiers", "primo-accédant Nîmes Gard", "investissement locatif Nîmes", "marché immobilier Nîmes Languedoc"],
@@ -20296,7 +19762,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["perpignan", "nimes", "montpellier"],
     relatedGuides: [
       "perpignan-vs-montpellier-comparatif-2026",
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
       "acheter-immobilier-france-meilleures-villes-2025",
     ],
     tags: ["acheter à Perpignan 2026", "immobilier Perpignan prix quartiers", "primo-accédant Perpignan Pyrénées-Orientales", "investissement locatif Perpignan", "marché immobilier Perpignan Roussillon"],
@@ -20420,7 +19886,7 @@ export const GUIDES: Guide[] = [
     relatedGuides: [
       "quitter-le-havre-guide-2026",
       "acheter-immobilier-france-meilleures-villes-2025",
-      "vivre-en-normandie-guide-2025",
+      "vivre-en-normandie-guide-2026",
     ],
     tags: ["acheter au Havre 2026", "immobilier Le Havre prix quartiers", "Perret UNESCO Havre investissement", "marché immobilier Seine-Maritime 2026", "primo-accédant Le Havre 2026"],
   },
@@ -20789,7 +20255,7 @@ export const GUIDES: Guide[] = [
     relatedGuides: [
       "nomades-numeriques-meilleures-villes-france-2025",
       "vivre-sans-voiture-france-guide-2025",
-      "meilleures-villes-freelances-independants-france-2025",
+      "meilleures-villes-freelances-independants-france-2026",
     ],
     tags: ["van life France base ville 2026", "quelle ville van life France", "van life France stationnement domiciliation", "meilleure base van life France", "nomadisme van France guide 2026"],
   },
@@ -20912,7 +20378,7 @@ export const GUIDES: Guide[] = [
     relatedGuides: [
       "guide-expatries-vivre-en-france-2025",
       "vivre-dans-le-sud-france-guide-2025",
-      "meilleures-villes-etudiantes-france-2025",
+      "meilleures-villes-etudiantes-france-2026",
     ],
     tags: ["expats anglophones France meilleures villes 2026", "anglophone s'installer France ville", "expatriés britanniques France où vivre 2026", "communauté anglophone France ville", "s'installer France expat anglophone guide 2026"],
   },
@@ -21176,7 +20642,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["vannes", "lorient", "quimper", "rennes", "saint-brieuc"],
     relatedGuides: [
-      "vivre-en-bretagne-guide-2025",
+      "vivre-en-bretagne-guide-2026",
       "acheter-a-rennes-quel-quartier-budget-2026",
       "acheter-a-brest-quel-quartier-budget-2026",
     ],
@@ -24002,7 +23468,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["metz"],
     relatedGuides: [
-      "metz-vs-nancy-comparatif-2025",
+      "metz-vs-nancy-comparatif-2026",
       "vivre-en-lorraine-metz-nancy-thionville-2026",
     ],
     tags: ["10 choses à faire à Metz", "activités Metz 2026", "sorties Metz", "que faire à Metz", "Centre Pompidou Metz cathédrale visiteurs"],
@@ -25502,7 +24968,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["colmar"],
     relatedGuides: [
-      "vivre-en-alsace-guide-2025",
+      "vivre-en-alsace-guide-2026",
       "quitter-colmar-guide-2026",
     ],
     tags: ["10 choses à faire à Colmar", "activités Colmar 2026", "sorties Colmar", "que faire à Colmar", "route des vins Alsace retable Colmar visiteurs"],
@@ -25745,7 +25211,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["saint-malo"],
     relatedGuides: [
       "vivre-en-bretagne-nord-guide-2025",
-      "vivre-en-bretagne-guide-2025",
+      "vivre-en-bretagne-guide-2026",
     ],
     tags: ["10 choses à faire à Saint-Malo", "activités Saint-Malo 2026", "sorties Saint-Malo", "que faire à Saint-Malo", "remparts corsaires Route du Rhum Cancale huîtres"],
   },
@@ -25865,7 +25331,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["quimper"],
     relatedGuides: [
-      "vivre-en-bretagne-guide-2025",
+      "vivre-en-bretagne-guide-2026",
       "vivre-en-bretagne-interieure-guide-2026",
     ],
     tags: ["10 choses à faire à Quimper", "activités Quimper 2026", "sorties Quimper", "que faire à Quimper", "festival Cornouaille faïences pointe du Raz Bretagne"],
@@ -26107,7 +25573,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["montauban"],
     relatedGuides: [
       "vivre-dans-le-gers-et-tarn-et-garonne-guide-2025",
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
     ],
     tags: ["10 choses à faire à Montauban", "activités Montauban 2026", "sorties Montauban", "que faire à Montauban", "place Nationale Ingres Bourdelle gorges Aveyron Moissac"],
   },
@@ -26167,7 +25633,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["albi"],
     relatedGuides: [
       "vivre-dans-le-tarn-guide-2025",
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
     ],
     tags: ["10 choses à faire à Albi", "activités Albi 2026", "sorties Albi", "que faire à Albi", "cathédrale Sainte-Cécile Toulouse-Lautrec gorges du Tarn UNESCO"],
   },
@@ -26227,7 +25693,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["tarbes"],
     relatedGuides: [
       "vivre-en-gascogne-gers-guide-2025",
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
     ],
     tags: ["10 choses à faire à Tarbes", "activités Tarbes 2026", "sorties Tarbes", "que faire à Tarbes", "Pyrénées Gavarnie pic du Midi Lourdes haras national"],
   },
@@ -27606,7 +27072,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["clermont-herault"],
     relatedGuides: [
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
     ],
     tags: ["10 choses à faire à Clermont-l'Hérault", "activités Clermont-l'Hérault", "sorties Clermont-l'Hérault", "lac Salagou Mourèze Saint-Guilhem grotte Clamouse Mas Daumas Gassac"],
   },
@@ -27665,7 +27131,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["sete"],
     relatedGuides: [
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
     ],
     tags: ["10 choses à faire à Sète", "activités Sète 2026", "sorties Sète", "que faire à Sète", "canaux Mont Saint-Clair joutes Brassens Thau Bouzigues tielle"],
   },
@@ -27905,7 +27371,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["cherbourg"],
     relatedGuides: [
-      "vivre-en-normandie-guide-2025",
+      "vivre-en-normandie-guide-2026",
     ],
     tags: ["10 choses à faire à Cherbourg", "activités Cherbourg 2026", "sorties Cherbourg", "que faire à Cherbourg", "Cité Mer Redoutable Hague Jobourg parapluies Tatihou Barfleur Cotentin"],
   },
@@ -28378,7 +27844,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["carcassonne"],
     relatedGuides: [
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
     ],
     tags: ["10 choses à faire à Carcassonne", "activités Carcassonne 2026", "sorties Carcassonne", "que faire à Carcassonne", "Cité médiévale UNESCO cathare canal Midi Corbières cassoulet"],
   },
@@ -28614,7 +28080,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["narbonne"],
     relatedGuides: [
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
     ],
     tags: ["10 choses à faire à Narbonne", "activités Narbonne 2026", "sorties Narbonne", "que faire à Narbonne", "Narbo Via cathédrale inachevée Robine Fontfroide Gruissan Corbières"],
   },
@@ -28673,7 +28139,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["beziers"],
     relatedGuides: [
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
     ],
     tags: ["10 choses à faire à Béziers", "activités Béziers 2026", "sorties Béziers", "que faire à Béziers", "Fonsérannes Saint-Nazaire Feria Faugères Pézenas Riquet"],
   },
@@ -28909,7 +28375,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["auch"],
     relatedGuides: [
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
     ],
     tags: ["10 choses à faire à Auch", "activités Auch 2026", "sorties Auch", "que faire à Auch", "d'Artagnan cathédrale UNESCO escalier Marciac Armagnac"],
   },
@@ -28969,7 +28435,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["cahors"],
     relatedGuides: [
       "vivre-en-aveyron-lot-guide-2025",
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
     ],
     tags: ["10 choses à faire à Cahors", "activités Cahors 2026", "sorties Cahors", "que faire à Cahors", "pont Valentré Malbec Saint-Cirq Padirac Rocamadour"],
   },
@@ -29028,7 +28494,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["mende"],
     relatedGuides: [
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
     ],
     tags: ["10 choses à faire à Mende", "activités Mende 2026", "sorties Mende", "que faire à Mende", "Gévaudan Tarn Aubrac Mont Lozère Cévennes UNESCO"],
   },
@@ -29565,7 +29031,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["saint-brieuc"],
     relatedGuides: [
-      "vivre-en-bretagne-guide-2025",
+      "vivre-en-bretagne-guide-2026",
       "vivre-en-bretagne-nord-guide-2025",
     ],
     tags: ["10 choses à faire à Saint-Brieuc", "activités Saint-Brieuc 2026", "sorties Saint-Brieuc", "que faire à Saint-Brieuc", "baie marées Plouha Cap Fréhel Bréhat Paimpol Saint-Malo"],
@@ -29625,8 +29091,8 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["saint-lo"],
     relatedGuides: [
-      "vivre-en-normandie-guide-2025",
-      "vivre-en-normandie-interieure-guide-2025",
+      "vivre-en-normandie-guide-2026",
+      "vivre-en-normandie-interieure-guide-2026",
     ],
     tags: ["10 choses à faire à Saint-Lô", "activités Saint-Lô 2026", "sorties Saint-Lô", "que faire à Saint-Lô", "Haras national Débarquement Mont-Saint-Michel Bayeux Hambye"],
   },
@@ -29685,7 +29151,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["evreux"],
     relatedGuides: [
-      "vivre-en-normandie-guide-2025",
+      "vivre-en-normandie-guide-2026",
     ],
     tags: ["10 choses à faire à Évreux", "activités Évreux 2026", "sorties Évreux", "que faire à Évreux", "cathédrale vitraux Giverny Monet Beaumesnil Lyons-la-Forêt"],
   },
@@ -30337,7 +29803,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["foix"],
     relatedGuides: [
       "vivre-en-ariege-guide-2026",
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
     ],
     tags: ["10 choses à faire à Foix", "activités Foix 2026", "sorties Foix", "que faire à Foix", "château Niaux Montségur Labouiche Mas-d'Azil Mirepoix cathare"],
   },
@@ -30693,8 +30159,8 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["alencon"],
     relatedGuides: [
-      "vivre-en-normandie-guide-2025",
-      "vivre-en-normandie-interieure-guide-2025",
+      "vivre-en-normandie-guide-2026",
+      "vivre-en-normandie-interieure-guide-2026",
     ],
     tags: ["10 choses à faire à Alençon", "activités Alençon 2026", "sorties Alençon", "que faire à Alençon", "Point d'Alençon dentelle UNESCO sainte Thérèse Bagnoles Suisse normande"],
   },
@@ -30871,7 +30337,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["honfleur"],
     relatedGuides: [
-      "vivre-en-normandie-guide-2025",
+      "vivre-en-normandie-guide-2026",
     ],
     tags: ["10 choses à faire à Honfleur", "activités Honfleur 2026", "sorties Honfleur", "que faire à Honfleur", "Vieux Bassin Sainte-Catherine bois Boudin impressionnisme Deauville Étretat"],
   },
@@ -30990,7 +30456,6 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["ajaccio", "bastia"],
     relatedGuides: [
-      "vivre-en-corse-guide-2025",
       "vivre-en-corse-guide-2026",
     ],
     tags: ["10 choses à faire à Ajaccio", "activités Ajaccio 2026", "sorties Ajaccio", "que faire à Ajaccio", "Napoléon Bonaparte Sanguinaires calanques Piana Filitosa Bonifacio"],
@@ -31050,7 +30515,6 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["bastia", "ajaccio"],
     relatedGuides: [
-      "vivre-en-corse-guide-2025",
       "vivre-en-corse-guide-2026",
     ],
     tags: ["10 choses à faire à Bastia", "activités Bastia 2026", "sorties Bastia", "que faire à Bastia", "vieux port citadelle Cap Corse Saint-Florent Agriates Calvi Patrimonio"],
@@ -31170,7 +30634,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["collioure"],
     relatedGuides: [
       "vivre-en-roussillon-guide-2026",
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
     ],
     tags: ["10 choses à faire à Collioure", "activités Collioure 2026", "sorties Collioure", "que faire à Collioure", "fauvisme Matisse Derain anchois Banyuls Côte Vermeille catalan"],
   },
@@ -31468,7 +30932,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["lourdes"],
     relatedGuides: [
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
     ],
     tags: ["10 choses à faire à Lourdes", "activités Lourdes 2026", "sorties Lourdes", "que faire à Lourdes", "sanctuaire Bernadette grotte pic du Midi Gavarnie UNESCO Cauterets"],
   },
@@ -31586,7 +31050,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["concarneau"],
     relatedGuides: [
-      "vivre-en-bretagne-guide-2025",
+      "vivre-en-bretagne-guide-2026",
     ],
     tags: ["10 choses à faire à Concarneau", "activités Concarneau 2026", "sorties Concarneau", "que faire à Concarneau", "Ville Close port pêche thon Glénan Pont-Aven Gauguin"],
   },
@@ -31704,7 +31168,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["carnac"],
     relatedGuides: [
-      "vivre-en-bretagne-guide-2025",
+      "vivre-en-bretagne-guide-2026",
     ],
     tags: ["10 choses à faire à Carnac", "activités Carnac 2026", "sorties Carnac", "que faire à Carnac", "alignements mégalithes UNESCO Quiberon Belle-Île golfe Morbihan Vannes"],
   },
@@ -32419,7 +31883,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["bayeux"],
     relatedGuides: [
-      "vivre-en-normandie-guide-2025",
+      "vivre-en-normandie-guide-2026",
     ],
     tags: ["10 choses à faire à Bayeux", "activités Bayeux 2026", "sorties Bayeux", "que faire à Bayeux", "tapisserie UNESCO cathédrale Débarquement Omaha Pointe du Hoc"],
   },
@@ -32537,7 +32001,6 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["calvi"],
     relatedGuides: [
-      "vivre-en-corse-guide-2025",
       "vivre-en-corse-guide-2026",
     ],
     tags: ["10 choses à faire à Calvi", "activités Calvi 2026", "sorties Calvi", "que faire à Calvi", "citadelle génoise plage Balagne Île-Rousse Piana Cinto"],
@@ -32597,7 +32060,6 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["porto-vecchio"],
     relatedGuides: [
-      "vivre-en-corse-guide-2025",
       "vivre-en-corse-guide-2026",
     ],
     tags: ["10 choses à faire à Porto-Vecchio", "activités Porto-Vecchio 2026", "sorties Porto-Vecchio", "que faire à Porto-Vecchio", "Palombaggia Santa-Giulia Rondinara Bonifacio Alta Rocca Bavella"],
@@ -32834,7 +32296,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["dinan"],
     relatedGuides: [
-      "vivre-en-bretagne-guide-2025",
+      "vivre-en-bretagne-guide-2026",
       "vivre-en-bretagne-nord-guide-2025",
     ],
     tags: ["10 choses à faire à Dinan", "activités Dinan 2026", "sorties Dinan", "que faire à Dinan", "remparts médiévaux Jerzual Du Guesclin Rance Saint-Malo Mont-Saint-Michel"],
@@ -32894,7 +32356,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["pezenas"],
     relatedGuides: [
-      "vivre-en-occitanie-guide-2025",
+      "vivre-en-occitanie-guide-2026",
     ],
     tags: ["10 choses à faire à Pézenas", "activités Pézenas 2026", "sorties Pézenas", "que faire à Pézenas", "Molière hôtels particuliers Renaissance petit pâté Picpoul Thau"],
   },

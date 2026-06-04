@@ -24,3 +24,17 @@
 /guides/moving-to-france-with-pets-2026 /guides/moving-pets-to-france-complete-guide-2026 301
 # property-buying complete-guide dedup (2026-06-04, batch 3, via corpus-wide similarity scan)
 /guides/french-property-purchase-guide-for-expats-2026 /guides/buying-property-in-france-expat-guide-2026 301
+# FR (mavilleideale.fr) stale 2025→2026 de-duplication (2026-06-04): same-subject
+# guides existed in both years; keep the current 2026, 301 the superseded 2025.
+/guides/vivre-en-alsace-guide-2025 /guides/vivre-en-alsace-guide-2026 301
+/guides/vivre-en-bretagne-guide-2025 /guides/vivre-en-bretagne-guide-2026 301
+/guides/vivre-en-corse-guide-2025 /guides/vivre-en-corse-guide-2026 301
+/guides/vivre-en-normandie-guide-2025 /guides/vivre-en-normandie-guide-2026 301
+/guides/vivre-en-normandie-interieure-guide-2025 /guides/vivre-en-normandie-interieure-guide-2026 301
+/guides/vivre-en-occitanie-guide-2025 /guides/vivre-en-occitanie-guide-2026 301
+/guides/meilleures-villes-artistes-creatifs-france-2025 /guides/meilleures-villes-artistes-creatifs-france-2026 301
+/guides/meilleures-villes-etudiantes-france-2025 /guides/meilleures-villes-etudiantes-france-2026 301
+/guides/meilleures-villes-freelances-independants-france-2025 /guides/meilleures-villes-freelances-independants-france-2026 301
+/guides/meilleures-villes-seniors-actifs-france-2025 /guides/meilleures-villes-seniors-actifs-france-2026 301
+/guides/teletravailler-depuis-alsace-guide-2025 /guides/teletravailler-depuis-alsace-guide-2026 301
+/guides/metz-vs-nancy-comparatif-2025 /guides/metz-vs-nancy-comparatif-2026 301
