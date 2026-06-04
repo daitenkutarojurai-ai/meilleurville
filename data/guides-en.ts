@@ -4460,42 +4460,6 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["best french cities families 2026", "france family relocation guide", "french cities schools safety", "family friendly france", "moving france with children 2026"],
   },
   {
-    slug: "french-property-purchase-guide-for-expats-2026",
-    title: "Buying property in France as an expat: the complete 2026 guide",
-    metaTitle: "Buying Property in France 2026 — Expat Guide: Notaire, PTZ, DPE, Process, Costs",
-    metaDesc: "How to buy property in France as a non-citizen: the process, notaire fees, DPE ratings, mortgage for non-residents, and what the estate agent won't tell you. Complete 2026 guide.",
-    category: "budget",
-    emoji: "🏡",
-    readMinutes: 10,
-    publishedAt: "2026-05-24",
-    updatedAt: "2026-05-24",
-    intro: "Buying property in France as a non-French citizen is legally straightforward, since there are no restrictions on foreign ownership. The process is significantly different from the UK, US, or German systems and has specific costs and legal steps that catch expats off guard. This is the complete honest guide.",
-    sections: [
-      {
-        heading: "The process: from offer to completion",
-        body: "French property purchase follows a structured sequence: (1) Find a property and agree on a price. Estate agents (agents immobiliers) and private sellers (particulier) are both common. (2) Sign a compromis de vente — a preliminary sales contract that commits both buyer and seller. The buyer pays a deposit (usually 5-10% of the purchase price) at this stage. The buyer has a 10-day cooling-off period after signing during which they can withdraw without penalty. (3) The notaire (public lawyer who handles all property transactions in France) conducts searches, verifies ownership, and prepares the final deed. This typically takes 2-3 months. (4) Acte de vente — the final deed is signed at the notaire's office. Full payment is made. The property is officially yours. Key difference from UK conveyancing: in France, the notaire is a neutral public official, not a partisan lawyer. One notaire can represent both parties — or each party can hire their own notaire, with the fees shared.",
-      },
-      {
-        heading: "The real cost of buying: beyond the asking price",
-        body: "The total cost of a French property purchase is significantly higher than the asking price. Budget for: Notaire fees (frais de notaire): approximately 7-8% of the purchase price for older properties (more than 5 years old), or 2-3% for new-build properties. These fees include registration taxes (droits d'enregistrement or DMTO), land registration, and the notaire's actual professional fee (emoluments). Estate agent fees (honoraires d'agence): typically 3-6% of the purchase price, often displayed as FAI (frais d'agence inclus) — meaning the price you see includes the agent's fee. If listed as HHA (hors honoraires d'agence), add the agent fee on top. Mortgage fees: if financing with a French mortgage, expect arrangement fees of €1,000-2,000 and mandatory borrower insurance (assurance emprunteur) of 0.2-0.5% of the loan annually. Home insurance: compulsory in France from the moment of purchase.",
-      },
-      {
-        heading: "The DPE: energy rating and what it means for your purchase",
-        body: "The DPE (Diagnostic de Performance Énergétique) is an energy rating from A (most efficient) to G (worst). It is legally required on every property sale and rental. Since 2022, the French government has tightened rules around DPE G and F-rated properties (called 'passoires thermiques' — thermal sieves): F-rated properties cannot have rent increased at renewal from January 2025; G-rated properties cannot be rented from January 2025. If you are buying to rent out: a G or F rating is a major liability. If you are buying to live in: a G or F rating means high energy costs and potentially significant renovation obligations. A DPE renovation to bring a G-rated property to at least E can cost €20,000-60,000 depending on the property. MaPrimRénov' grants (government renovation subsidies) partially offset this — but processing times are long. Always ask for the full DPE report, not just the letter grade.",
-      },
-      {
-        heading: "Getting a French mortgage as a non-resident",
-        body: "Non-EU citizens can obtain French mortgages, but the conditions are stricter than for French residents. French banks typically lend to non-residents at a higher interest rate (0.2-0.5% premium) and require a larger deposit (25-40% rather than the 10-20% standard for residents). Maximum loan-to-income ratio is strictly enforced in France: monthly repayments (including all loans) cannot exceed 35% of gross monthly income by law. Useful options: Crédit Foncier (specialist mortgage lender), BNP Paribas International Expat Mortgage, HSBC France (for HSBC Premier customers). Consider using a mortgage broker (courtier en crédit immobilier) who specialises in non-resident borrowers — they have pre-established relationships with lenders who are open to this profile.",
-      },
-      {
-        heading: "Tax on French property: what you owe and when",
-        body: "Taxe foncière: an annual land and property tax paid by owners, calculated on the property's notional rental value (valeur locative cadastrale). It varies significantly by commune and département. Expect €500-2,000/year for a typical apartment in a major city; higher for houses or coastal properties. Taxe d'habitation résidence secondaire: abolished for primary residences in 2023, but still applies to secondary residences (résidences secondaires) — at rates set by each commune, some of which have been raised significantly in high-demand areas. Capital gains tax on French property: if you sell at a profit, you owe capital gains tax at 19% (plus 17.2% social charges = 36.2% total). Exemptions: the primary residence is fully exempt. For secondary properties, there is a rolling abatement of 6% per year from year 6 to year 21 of ownership, reaching full exemption after 22 years (income tax) and 30 years (social charges).",
-      },
-    ],
-    relatedCities: ["paris", "bordeaux", "lyon", "nice", "marseille"],
-    tags: ["buying property france expat 2026", "french property purchase guide", "notaire fees france", "DPE france guide", "mortgage france non-resident 2026"],
-  },
-  {
     slug: "grenoble-living-guide-for-expats-2026",
     title: "Living in Grenoble: the honest expat guide for 2026",
     metaTitle: "Living in Grenoble 2026 — Expat Guide: Alps Access, Cost, Research City, Pros & Cons",
