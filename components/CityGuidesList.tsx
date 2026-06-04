@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
+import { EN_GUIDES, EN_GUIDE_CATEGORIES } from "@/data/guides-en";
 
 /**
  * Server component — given a city slug, renders the list of every guide
@@ -7,13 +8,47 @@ import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
  * (city → guides) which the standalone guide pages don't provide.
  *
  * Returns null when the city has fewer than 2 guides — not worth a section.
+ *
+ * locale defaults to "fr" (FR output byte-identical). With locale="en" it
+ * reads EN_GUIDES + EN copy so bestcitiesinfrance.com city pages surface
+ * their own native guides.
  */
-export function CityGuidesList({ slug, name }: { slug: string; name: string }) {
-  const matches = GUIDES.filter((g) => g.relatedCities.includes(slug)).sort(
-    (a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime()
-  );
+type GuideRow = {
+  slug: string;
+  title: string;
+  emoji: string;
+  readMinutes: number;
+  category: string;
+  relatedCities: string[];
+  updatedAt: string;
+};
+
+export function CityGuidesList({
+  slug,
+  name,
+  locale = "fr",
+}: {
+  slug: string;
+  name: string;
+  locale?: "fr" | "en";
+}) {
+  const L = (fr: string, en: string) => (locale === "en" ? en : fr);
+  const source: GuideRow[] = locale === "en" ? EN_GUIDES : GUIDES;
+
+  const matches = source
+    .filter((g) => g.relatedCities.includes(slug))
+    .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime());
 
   if (matches.length < 2) return null;
+
+  const catFor = (category: string): { label: string; color: string } | null => {
+    if (locale === "en") {
+      const label = (EN_GUIDE_CATEGORIES as Record<string, string>)[category];
+      return label ? { label, color: "text-[var(--accent)]" } : null;
+    }
+    const c = GUIDE_CATEGORIES.find((x) => x.id === category);
+    return c ? { label: c.label, color: c.color } : null;
+  };
 
   return (
     <section className="border-t border-[var(--border)] bg-[var(--bg-surface)] py-12">
@@ -21,23 +56,23 @@ export function CityGuidesList({ slug, name }: { slug: string; name: string }) {
         <div className="flex items-baseline justify-between mb-6">
           <div>
             <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-1">
-              Guides MaVilleIdeal
+              {L("Guides MaVilleIdeal", "BestCitiesInFrance guides")}
             </p>
             <h2 className="text-xl font-bold text-[var(--text-primary)]">
-              {matches.length} guides qui parlent de {name}
+              {L(`${matches.length} guides qui parlent de ${name}`, `${matches.length} guides about ${name}`)}
             </h2>
           </div>
           <Link
             href="/guides"
             className="text-sm text-[var(--accent)] hover:underline whitespace-nowrap"
           >
-            Tous les guides →
+            {L("Tous les guides →", "All guides →")}
           </Link>
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {matches.slice(0, 12).map((g) => {
-            const cat = GUIDE_CATEGORIES.find((c) => c.id === g.category);
+            const cat = catFor(g.category);
             return (
               <Link
                 key={g.slug}
@@ -63,7 +98,10 @@ export function CityGuidesList({ slug, name }: { slug: string; name: string }) {
 
         {matches.length > 12 && (
           <p className="text-xs text-[var(--text-tertiary)] mt-5 text-center">
-            +{matches.length - 12} autres guides citent {name}
+            {L(
+              `+${matches.length - 12} autres guides citent ${name}`,
+              `+${matches.length - 12} more guides mention ${name}`
+            )}
           </p>
         )}
       </div>

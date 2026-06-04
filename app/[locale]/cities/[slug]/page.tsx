@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CityProfile } from "@/app/villes/[slug]/CityProfile";
+import { CityGuidesList } from "@/components/CityGuidesList";
 import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getCityTitle, getCityDescription, ORIGIN_BY_LOCALE } from "@/lib/i18n";
@@ -63,6 +64,7 @@ export default async function EnCityPage({ params }: Props) {
     <main id="main-content" className="min-h-screen relative">
       <Navbar />
       <CityProfile city={city} locale="en" />
+      <CityGuidesList slug={city.slug} name={city.name} locale="en" />
       <div className="mx-auto max-w-4xl px-4 sm:px-6 pb-4">
         <FeedbackWidget locale="en" />
       </div>
