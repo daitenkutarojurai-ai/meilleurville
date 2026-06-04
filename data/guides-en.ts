@@ -284,48 +284,6 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["retirement", "healthcare", "climate", "calm"],
   },
   {
-    slug: "healthcare-in-france-newcomers-2026",
-    title: "How healthcare works in France: a newcomer's guide",
-    metaTitle: "Healthcare in France — A Newcomer's Guide (2026)",
-    metaDesc:
-      "How the French health system works, how to get into it, what it costs, and the one healthcare question that should shape where you choose to live.",
-    category: "moving",
-    emoji: "🏥",
-    readMinutes: 8,
-    publishedAt: "2026-05-21",
-    updatedAt: "2026-05-21",
-    intro:
-      "France's healthcare system has a strong international reputation, and mostly it earns it. But 'good healthcare' as a national average and 'a doctor who will actually take you as a patient' in your specific town are two very different things. This guide explains how the system works, what you're entitled to, what it costs, and the question that should quietly shape where you decide to live.",
-    sections: [
-      {
-        heading: "How the system is structured",
-        body: "French healthcare runs on a reimbursement model, not a free-at-the-point-of-use one. You typically pay the doctor, and the state health insurance (Assurance Maladie, part of the Sécurité sociale) reimburses most of it afterwards via your carte Vitale. A standard GP visit costs around €30; the state covers roughly 70%, and the rest is usually picked up by a private top-up insurance called a mutuelle. So 'free healthcare' is a simplification: the system is excellent and heavily subsidised, but it expects you to hold a mutuelle and to register a regular GP, your médecin traitant.",
-      },
-      {
-        heading: "Getting into the system as a newcomer",
-        body: "If you live in France stably and legally, you can join the public system through residence-based affiliation (PUMA), broadly after about three months of residence. EU citizens can bridge that gap with a European Health Insurance Card; everyone else should budget for private insurance to cover the first few months, because the affiliation paperwork and the carte Vitale take time to arrive. Start the process the week you get your address. The single most common newcomer mistake is assuming coverage is instant. It is not, and the gap is exactly when an unexpected bill hurts most.",
-      },
-      {
-        heading: "The médecin traitant and why it matters",
-        body: "France runs a 'coordinated care pathway' (parcours de soins). You're expected to declare one GP as your médecin traitant, who acts as your first point of contact and refers you to specialists. Skip this step and you're still treated, but reimbursed at a lower rate, so you pay more out of pocket. Registering is a simple form signed by the doctor. The catch is finding a GP taking new patients at all, which brings us to the part of this guide that should actually influence your move.",
-      },
-      {
-        heading: "Medical deserts are real — and often where you'd least expect",
-        body: "France has genuine 'medical deserts' (déserts médicaux): areas where the density of GPs has fallen so low that newcomers struggle to register with anyone. They are not only remote mountain villages. Plenty of pretty, sought-after small towns, the kind retirees and remote workers are drawn to, have one overstretched doctor and a months-long wait for a slot. The national average hides this completely. Before you commit to a town, check GP density on its city profile here, and where possible phone a couple of local practices and ask the blunt question: are you taking new patients?",
-      },
-      {
-        heading: "What it actually costs",
-        body: "For most residents the real monthly healthcare cost is the mutuelle, typically €30 to 80 per person depending on age and cover, sometimes subsidised by an employer. Consultations, prescriptions and hospital stays are then largely reimbursed. People with a recognised long-term condition (affection de longue durée) get that condition's care covered at 100%. Compared with healthcare costs in the US, the UK private system, or many other countries, the total burden in France is low and, importantly, predictable, which matters enormously if you're on a fixed income.",
-      },
-      {
-        heading: "How to factor healthcare into your city choice",
-        body: "Turn healthcare into two concrete checks for every city on your shortlist. First, GP and specialist density: a city with a teaching hospital (CHU) and a healthy supply of doctors is a different proposition from a charming town with one. Second, distance to a hospital with the specialties you're realistically likely to need. The healthcare-related scores on this site surface both. A place can be beautiful, affordable and sunny, and still be the wrong choice if you can't register with a doctor, so make this a deciding factor, not an afterthought.",
-      },
-    ],
-    relatedCities: ["montpellier", "rennes", "nantes", "grenoble", "tours"],
-    tags: ["healthcare", "carte vitale", "moving to france", "medical"],
-  },
-  {
     slug: "renting-an-apartment-in-france-2026",
     title: "Renting an apartment in France: the dossier, the deposit, the catches",
     metaTitle: "Renting an Apartment in France (2026)",
@@ -1088,48 +1046,6 @@ export const EN_GUIDES: EnGuide[] = [
     ],
     relatedCities: ["montpellier", "tours", "bordeaux", "rennes", "lyon"],
     tags: ["learning-french", "language", "immersion", "language-school", "expat"],
-  },
-  {
-    slug: "france-healthcare-how-it-works-for-expats-2026",
-    title: "French healthcare for expats — how it actually works",
-    metaTitle: "French Healthcare for Expats 2026 — Practical Guide",
-    metaDesc:
-      "PUMA, mutuelle, médecin traitant, urgences: how the French health system works for new arrivals, what it costs, and where quality varies by city.",
-    category: "lifestyle",
-    emoji: "🏥",
-    readMinutes: 8,
-    publishedAt: "2026-05-24",
-    updatedAt: "2026-05-24",
-    intro:
-      "France's healthcare system is genuinely good, better than its reputation in some respects and worse in others. For an expat arriving from an anglophone country, the main challenges are not quality but navigation: understanding the administrative structure, knowing who to register with and in what order, and not being caught uninsured in the gap between arrival and full system access. This guide covers the practical steps without the jargon.",
-    sections: [
-      {
-        heading: "PUMA: who's covered and when",
-        body: "PUMA (Protection Universelle Maladie) is the residence-based universal health coverage that replaced the old CMU in 2016. After three months of stable legal residence in France, most people are eligible to affiliate: EU citizens, non-EU citizens with valid residency, and long-stay visa holders. EU citizens can bridge the gap with the European Health Insurance Card (EHIC), which covers urgent care during the waiting period. Non-EU expats should budget for private international health insurance for the first few months, typically €80–150/month for a healthy adult, because the affiliation paperwork and the carte Vitale (the green health insurance card) take time, sometimes several months, to process.",
-      },
-      {
-        heading: "The mutuelle: what it is and what it costs",
-        body: "PUMA covers roughly 70% of most healthcare costs in France. The remaining 30%, called the ticket modérateur, is normally covered by a private top-up insurance called a mutuelle. Without a mutuelle, you pay that 30% out of pocket every time. With one, you typically pay nothing or very little. Mutuelles cost €50–120/month for an individual depending on age and level of cover, and comprehensive dental and optical coverage pushes costs higher. Employers are legally required to offer a mutuelle for employees and cover at least 50% of the premium, while the self-employed and retirees buy independently. If you have a long-term condition (affection de longue durée), that condition's specific treatment is covered at 100% by the base system, reducing the mutuelle's role.",
-      },
-      {
-        heading: "Registering a médecin traitant",
-        body: "France's system runs on the concept of a médecin traitant, a declared GP who acts as your primary point of contact and refers you to specialists. Registering with one is not optional if you want full reimbursement: without a declared médecin traitant, your reimbursement rate for consultations drops significantly, and you pay more out of pocket. Registration is a simple form, where your doctor fills in their details and sends it to Assurance Maladie. The problem is finding a doctor who is taking new patients, which in many cities and most rural areas requires persistence. In cities with a CHU (university hospital) and a healthy GP density, such as Lyon, Montpellier, Rennes, Nantes and Grenoble, the wait is manageable. In medical deserts, it can take months.",
-      },
-      {
-        heading: "Dental, optical and what isn't covered well",
-        body: "The base PUMA system covers dental and optical care poorly. A standard dental check-up costs around €30 and is mostly reimbursed, but a crown or implant is barely covered at all, with a symbolic €100 reimbursement on a €1,000–2,000 procedure. Optical is similar: the base system contributes negligible amounts toward glasses or contact lenses. This is where a comprehensive mutuelle pays for itself, since a good-level optical and dental module typically covers 80–100% of costs up to an annual cap. If you wear glasses or have complex dental needs, factor the mutuelle level carefully before choosing, because the cheapest plans leave significant gaps.",
-      },
-      {
-        heading: "Urgences and emergency care",
-        body: "Emergency care in France is always provided regardless of insurance status, and you cannot be turned away from urgences (A&E) for financial reasons. The ambulance (SAMU, dialled 15) and emergency services operate without prior payment. If you're insured, the costs are reimbursed afterwards through the normal system. If you're in the gap period without a carte Vitale, keep your private insurance certificate with you and present it at the urgences desk. The quality of emergency care in France's CHU hospitals is high; in smaller cliniques privées, variation is greater. Finding English-speaking emergency staff is easier in major cities and tourist areas than in rural settings.",
-      },
-      {
-        heading: "Practical steps and city-level quality differences",
-        body: "The practical sequence runs as follows. On arrival, gather your identity documents and proof of address. Submit your PUMA affiliation request to your local CPAM (Caisse Primaire d'Assurance Maladie) as soon as your address is established. Get private insurance to cover the gap. Obtain a carte Vitale once affiliation is confirmed, then register your médecin traitant. For finding an English-speaking GP, the Pages Jaunes and the CPAM's ameli.fr both have search tools that let you filter by language spoken, so use them. On quality by city: Paris, Lyon, Montpellier, Bordeaux and Rennes all have large CHU hospitals and good specialist density. Smaller towns and rural areas rely on cliniques and often limited specialist access. Healthcare quality is one of the genuine arguments for choosing a mid-size city over a beautiful small town.",
-      },
-    ],
-    relatedCities: ["lyon", "montpellier", "nice", "bordeaux", "rennes"],
-    tags: ["healthcare", "puma", "mutuelle", "expat", "carte-vitale"],
   },
   {
     slug: "best-french-cities-hiking-outdoor-2026",
@@ -2244,44 +2160,6 @@ export const EN_GUIDES: EnGuide[] = [
     ],
     relatedCities: ["paris", "lyon", "bordeaux", "marseille", "toulouse"],
     tags: ["bank account france", "french banking", "expat finance", "FATCA", "Wise"],
-  },
-  {
-    slug: "french-driving-licence-guide-2026",
-    title: "Your driving licence in France: what's valid, what needs converting, and when",
-    metaTitle: "Driving Licence in France for Expats 2026 — Complete Guide",
-    metaDesc:
-      "EU licences are valid indefinitely. British licences are valid for 1 year. American licences need exchanging in most cases. The rules, timelines, and process.",
-    category: "moving",
-    emoji: "🚗",
-    readMinutes: 6,
-    publishedAt: "2026-05-24",
-    updatedAt: "2026-05-24",
-    intro:
-      "Driving in France with a foreign licence is one of those administrative questions that generates enormous amounts of contradictory advice. The actual rules are reasonably clear, but the timeline for acting on them depends on your nationality, how long you plan to stay, and what type of licence you hold. This guide gives the current rules as of 2026.",
-    sections: [
-      {
-        heading: "EU and EEA licences: valid indefinitely",
-        body: "If you hold a driving licence issued by an EU or EEA member state, it is valid in France indefinitely as long as it remains valid in the issuing country. You do not need to exchange it for a French licence unless you want to. If your EU licence expires, you renew it with the issuing country if you're still resident there, or you can convert it to a French licence once you've established French residence. EU licences don't need to be converted even after years of French residence — the mutual recognition principle applies. One exception: if you acquire a medical restriction while resident in France, French medical authorities handle the update to your record even if the original licence is EU-issued.",
-      },
-      {
-        heading: "British licences post-Brexit: 1 year",
-        body: "Since Brexit, British driving licences are no longer covered by EU mutual recognition. British nationals who become resident in France may drive on their UK licence for one year from the date of taking up residency. After one year of residence, you must exchange your UK licence for a French one. The exchange process: submit an online application via the ANTS (Agence Nationale des Titres Sécurisés) portal, providing your UK licence, proof of French residence, proof of identity, and a passport photo. France and the UK have a bilateral exchange agreement, so you don't need to retake a theory or practical test — the exchange is administrative. UK licences can be exchanged up to 5 years after your French residency date; after that, you may need to take the full French test. Act early.",
-      },
-      {
-        heading: "American licences: state-by-state agreement",
-        body: "France has bilateral driving licence exchange agreements with some US states and not others. The states with exchange agreements (as of 2026) include: California, Colorado, Connecticut, Delaware, Florida, Georgia, Illinois, Kansas, Maryland, Massachusetts, Michigan, Missouri, North Carolina, Ohio, Pennsylvania, South Carolina, Texas, Virginia, and several others. If your licence was issued by one of these states, you can exchange it without retaking a test. If your state is not on the list, you must: drive on your US licence plus an International Driving Permit for one year from residency, then take the full French driving test (theory and practical). The IDP is obtained before departure from your home state's motor vehicle authority (AAA in the US issues them). Check the current list on the Service Public website before assuming your state qualifies — the agreement list changes periodically.",
-      },
-      {
-        heading: "The French driving test if you need it",
-        body: "The French driving licence (permis de conduire) has two parts: the Code (theory test, computer-based, 40 questions, need 35/40 to pass) and the practical driving test. The Code exam can be taken in English at many driving schools. Preparation takes most adults 20–40 hours of study. The practical test is conducted in French — you'll need a basic command of traffic-related French vocabulary ('accélérez', 'freinez', 'priorité à droite', etc.) or a bilingual examiner, which some areas offer. The average waiting time for a practical test slot has improved but can still be several months in urban areas.",
-      },
-      {
-        heading: "Motorcycles and special categories",
-        body: "If you hold a motorcycle licence, the same nationality rules apply: EU/EEA valid indefinitely, UK exchangeable for one year, US state-dependent. France requires an A1 licence for bikes 125cc and below, A2 for bikes up to 35kW for the first two years, and full A for unrestricted power. Progressive access rules apply: you cannot go directly from no licence to a full A without the 2-year A2 phase unless you're over 24. If you hold a US motorcycle endorsement on your car licence, check with the prefecture whether this can be exchanged — in some cases it can, in others a French motorcycle test is required regardless.",
-      },
-    ],
-    relatedCities: ["paris", "lyon", "bordeaux", "marseille", "toulouse"],
-    tags: ["driving licence france", "permis de conduire", "expat admin", "UK licence", "US licence"],
   },
   {
     slug: "reims-living-guide-2026",
@@ -4300,42 +4178,6 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["driving licence france expats", "permis conduire echange", "UK driving licence france", "foreign licence france 2026", "code de la route expat"],
   },
   {
-    slug: "paying-taxes-in-france-expat-guide-2026",
-    title: "Paying taxes in France as an expat: what you owe, how it works",
-    metaTitle: "French Income Tax for Expats 2026 — Complete Honest Guide",
-    metaDesc: "When do you become a French tax resident? What do you owe on foreign income? How does the impôt sur le revenu work? Clear answers for expats and new arrivals.",
-    category: "moving",
-    emoji: "📊",
-    readMinutes: 10,
-    publishedAt: "2026-05-24",
-    updatedAt: "2026-05-24",
-    intro: "French tax law is not designed to be simple. But the basic structure of who owes what, when, and how to file is learnable. This guide covers the essentials for expats arriving in France: tax residency, income tax mechanics, the social charges system, and the most common traps.",
-    sections: [
-      {
-        heading: "Tax residency: when France claims you",
-        body: "France taxes residents on their worldwide income, so the first question is: are you a French tax resident? The criteria are either/or, not cumulative. You are a French tax resident if: (1) your fiscal domicile is in France — where your family lives, where your primary residence is; or (2) you spend more than 183 days/year in France; or (3) your principal professional activity is in France; or (4) France is the centre of your economic interests (where most of your income comes from or most of your assets are based). Even one of these conditions makes you a French tax resident for the whole year. If you arrive in France in July, you are a resident for the full year from January.",
-      },
-      {
-        heading: "The income tax (impôt sur le revenu) structure",
-        body: "France uses a progressive household-based tax system with quotient familial (family quotient). Rates in 2026: 0% on income up to €11,294, 11% from €11,294 to €28,797, 30% from €28,797 to €82,341, 41% from €82,341 to €177,106, 45% above €177,106. These rates apply per part of the household: a couple counts as 2 parts, with one additional half-part per child (up to a capped benefit). A single person earning €40,000 gross pays approximately €4,000-4,500/year in income tax after social charges. A couple earning €60,000 combined pays approximately €4,500-5,500/year. Comparing with gross income: French income taxes are lower than UK or German equivalents at equivalent gross levels — but the social charges (below) are higher, and the combined burden is broadly comparable.",
-      },
-      {
-        heading: "Social charges: the hidden cost",
-        body: "On top of income tax, employed workers pay social charges (cotisations sociales) that fund healthcare, pensions, unemployment insurance, and other benefits. For employees, these are deducted directly from gross pay by the employer — you see them as the gap between your gross and net salary. Employee charges total approximately 22-25% of gross; employer charges add another 40-45% on top of your gross (which is why French gross salaries look lower than UK equivalents). For self-employed and independent professionals, the CSG/CRDS (social contributions) apply at 9.2% on earned income and 17.2% on capital/investment income. These apply even if you pay no income tax. For early retirees living on savings in France: if your income is investment/capital income, expect to pay 17.2% CSG/CRDS plus income tax — this is often a surprise for people coming from countries where passive income is taxed more lightly.",
-      },
-      {
-        heading: "Declaring foreign income and assets",
-        body: "If you are a French tax resident with income from abroad (rental income from a UK property, dividends from US stocks, foreign pension, remote salary from a foreign employer), you must declare it in France. France has tax treaties with most countries to avoid double taxation, but the mechanism varies: in many cases, the foreign income is reported and used to calculate your effective rate, even if France doesn't collect tax on it directly. Foreign bank accounts above €10,000 must be declared annually (Form 3916). Failure to declare carries penalties up to 80% of evaded tax plus interest. The most common expat tax errors: not declaring foreign accounts, not reporting foreign real estate, and treating foreign pensions as exempt. They are not exempt by default — check the specific treaty for your country of origin.",
-      },
-      {
-        heading: "Filing: the practical process",
-        body: "France operates a pre-filled declaration system (déclaration pré-remplie) through impots.gouv.fr. If you have a French salary, most income is pre-filled and you verify/correct it. New arrivals in their first year file on paper (Cerfa 2042). Online access opens once you have a numéro fiscal (tax identification number), which you get by registering at your local tax office (SIP — Service des Impôts des Particuliers) with your identity documents and proof of address. Filing deadlines: typically late May (online) to mid-May (paper) for the previous year's income. Paying: income tax is now deducted monthly directly from your salary or bank account (prélèvement à la source), so you pay as you go and the annual declaration is a final adjustment. Accountants (expert-comptable) who speak English and specialise in expat tax are available in Paris, Lyon, Bordeaux, and most major cities — budget €500-1,500 for complex international situations.",
-      },
-    ],
-    relatedCities: ["paris", "bordeaux", "lyon", "nice", "strasbourg"],
-    tags: ["french income tax expats", "impôt sur le revenu france", "social charges france", "declaring foreign income france", "french tax resident 2026"],
-  },
-  {
     slug: "caen-living-guide-2026",
     title: "Living in Caen: Normandy's pragmatic capital — honest expat guide",
     metaTitle: "Living in Caen 2026 — Expat & Relocation Guide: Cost, Housing, Life",
@@ -4632,42 +4474,6 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["living in lille 2026", "lille expat guide", "lille housing cost", "lille vs paris cost", "expat northern france 2026"],
   },
   {
-    slug: "france-healthcare-system-expat-guide-2026",
-    title: "The French healthcare system explained for expats in 2026",
-    metaTitle: "French Healthcare for Expats 2026 — CPAM, Carte Vitale, Top-Up Insurance Guide",
-    metaDesc: "How France's Sécurité Sociale actually works: CPAM registration, Carte Vitale, mutuelle top-up, choosing a GP (médecin traitant). The practical expat guide for 2026.",
-    category: "moving",
-    emoji: "🏥",
-    readMinutes: 9,
-    publishedAt: "2026-05-24",
-    updatedAt: "2026-05-24",
-    intro: "France consistently ranks among the world's top healthcare systems in international comparisons, and the ranking is earned. The combination of Sécurité Sociale (the public base insurance) and mutuelle (private top-up insurance) means most consultations, medications, and hospital stays are either free or nearly free at the point of care once you are registered. Getting registered as an expat takes some paperwork. Here is the complete guide.",
-    sections: [
-      {
-        heading: "Who is eligible for French public healthcare (PUMA)?",
-        body: "The Protection Universelle Maladie (PUMA) entitles any person who resides legally and stably in France to coverage under the Sécurité Sociale, regardless of employment status. 'Stably' means you intend France to be your main residence — typically demonstrated by having lived there for 3+ months, having a lease, and not maintaining a main residence elsewhere. EU citizens living and working in France are automatically covered through their employment. Non-EU citizens with a valid titre de séjour (residence permit) can register after 3 months of legal residence. If you are employed by a French employer, registration happens automatically via your employer's URSSAF contributions. If you are self-employed (auto-entrepreneur), you register through URSSAF directly.",
-      },
-      {
-        heading: "How to register: CPAM and the Carte Vitale",
-        body: "CPAM (Caisse Primaire d'Assurance Maladie) is the local branch of the public health insurance. There is one per département. To register: gather your identity documents, proof of residence (lease agreement or utility bill), proof of legal right to be in France (titre de séjour for non-EU), and if employed, your employment contract and first pay slips. Submit online via ameli.fr or in person at your local CPAM office. The Carte Vitale (the green health insurance card) arrives by post after registration — typically 3-6 weeks for EU citizens, 2-4 months for non-EU. Before you receive it, keep your attestation de droits (rights statement, downloadable from ameli.fr after your account is created) — doctors accept this.",
-      },
-      {
-        heading: "What the Sécurité Sociale covers (and what it doesn't)",
-        body: "The public system reimburses a percentage of the tarif de convention (official consultation fee) for each act. For a standard GP consultation: the official fee is €30, Sécurité Sociale reimburses €24 (70%). For specialists: reimbursement is typically 70% of the tarif de base. For hospitalisation: 80% covered, with a daily patient contribution (ticket modérateur). For medications: reimbursement varies by classification (100% for serious illness/ALD, 65%, 30%, or 15% for others). What it doesn't cover well: dental care (partial reimbursement at old, very low tarif de base rates), optical (very limited), and hearing aids — these gaps are substantial. The mutuelle top-up fills them.",
-      },
-      {
-        heading: "The mutuelle: how to choose and what to pay",
-        body: "A mutuelle (complementary health insurance) covers the gap between what Sécurité Sociale reimburses and what you actually pay. It is optional but strongly recommended — especially for dental, optical, and hospitalisation costs. If you work for a French employer, your employer is legally required to contribute at least 50% of a collective mutuelle — typically you pay €20-60/month as your share. If you are self-employed or freelance, you purchase an individual mutuelle: expect €50-150/month depending on your age, coverage level, and insurer. Key terms to compare: taux de remboursement en optique (optical reimbursement rate), prothèses dentaires (dental prosthetics), forfait hospitalier (daily hospital fee), dépassements d'honoraires (specialist fee overruns above the official tarif). 100% Santé (the government reform from 2020) guarantees zero-cost dental, optical, and hearing options if you choose items in the regulated basket — ask about this specifically when comparing mutuelle offers.",
-      },
-      {
-        heading: "Choosing a médecin traitant (registered GP)",
-        body: "To get full reimbursement from Sécurité Sociale, you must declare a médecin traitant — a registered GP who becomes your primary care physician. Without this declaration, your reimbursement rate drops significantly for non-emergency consultations. To declare one: find a GP who is accepting new patients (often difficult in urban areas — GP shortages are real), book an appointment, and ask them to sign the declaration form. You can declare your médecin traitant online via ameli.fr. Specialist consultations require a referral from your médecin traitant to be reimbursed at full rate (directe access without referral results in reduced reimbursement). Emergency and some specialists like gynaecologists, ophthalmologists, and psychiatrists can be seen directly. GP shortage tip: in cities with waiting lists, try Doctolib (booking platform) filtering by 'accepting new patients', or contact your CPAM who may maintain a list of available practitioners.",
-      },
-    ],
-    relatedCities: ["paris", "lyon", "marseille", "bordeaux", "nantes"],
-    tags: ["french healthcare expat 2026", "CPAM registration expat", "carte vitale guide", "mutuelle france 2026", "french social security expat"],
-  },
-  {
     slug: "leaving-paris-best-cities-2026",
     title: "Leaving Paris in 2026: where people actually go (and why)",
     metaTitle: "Leaving Paris 2026 — Where to Move: Bordeaux, Nantes, Rennes, Lyon, or Smaller?",
@@ -4846,42 +4652,6 @@ export const EN_GUIDES: EnGuide[] = [
     ],
     relatedCities: ["grenoble", "echirolles", "saint-martin-d-heres", "gieres"],
     tags: ["living in grenoble 2026", "grenoble expat guide", "grenoble alps access", "grenoble research city expat", "grenoble housing cost 2026"],
-  },
-  {
-    slug: "france-banking-for-expats-guide-2026",
-    title: "Opening a bank account in France as an expat in 2026",
-    metaTitle: "French Bank Account for Expats 2026 — BNP, Société Générale, Boursorama, N26",
-    metaDesc: "How to open a French bank account as a non-citizen: traditional banks vs. neo-banks, what documents you need, which banks accept non-residents. Complete 2026 guide.",
-    category: "moving",
-    emoji: "🏦",
-    readMinutes: 7,
-    publishedAt: "2026-05-24",
-    updatedAt: "2026-05-24",
-    intro: "Having a French bank account (compte bancaire) is practically necessary for daily life in France. Renting an apartment requires a RIB (bank details), paying utilities requires domiciliation, and many services require a French IBAN. The process for expats ranges from simple (if you're an EU citizen with a stable address) to tedious (if you're a non-EU citizen without a titre de séjour yet). Here is the full picture.",
-    sections: [
-      {
-        heading: "Traditional banks: the full-service option",
-        body: "The major French retail banks are BNP Paribas, Société Générale, Crédit Agricole, Banque Populaire, Caisse d'Épargne, and LCL. For expats, these banks offer the full range of services: current account (compte courant), savings account (livret A, which is regulated and tax-free up to €22,950), loans, and insurance. The process requires in-person appointment at a branch. Required documents typically include: passport or national ID, proof of residence (attestation d'hébergement or lease agreement), proof of income or employment contract (for credit scoring). For non-EU citizens: you may also need your titre de séjour. Wait times for account opening: 1-3 weeks. The main advantage: a French IBAN is fully recognised everywhere; some landlords and employers require a specifically French bank account.",
-      },
-      {
-        heading: "Neo-banks: the fast option",
-        body: "Neo-banks and online banks have made account opening significantly faster for expats. Boursorama (Société Générale subsidiary): fully online, no fees, accepted as a French IBAN. Requires a French address and identity document. Can be opened before receiving your titre de séjour in many cases. N26: German bank with French IBAN, fully English-language interface, no fees for basic account. Easy to open online. Revolut: technically an e-money institution rather than a bank, but provides an IBAN and is widely accepted. Opening is very fast (minutes). Lydia, Sogexia: French mobile banking solutions. Important caveat: some landlords and some employers' payroll systems specify 'compte domicilié en France' (French-domiciled account) — a Revolut UK IBAN or N26 German IBAN is not always accepted. Check requirements before relying solely on a neo-bank.",
-      },
-      {
-        heading: "The right to a bank account: Droit au compte",
-        body: "If a French bank refuses to open an account for you, you have a legal right (Droit au compte) to request that the Banque de France designate a bank that must open a basic account for you. This is a safety net, not a primary option — the process takes several weeks and the designated account typically has limited services. It is primarily useful for people who have been refused by multiple banks due to a poor financial history or complex documentation situation. To invoke it: contact the Banque de France online (banque-france.fr) with proof of refusal from at least one bank.",
-      },
-      {
-        heading: "What to know about French banking fees",
-        body: "Traditional French banks have notoriously high fees compared to UK, German, or Dutch banks. Expect: monthly account maintenance fee: €5-10/month (some accounts waive this for high income or automatic payroll). CB card annual fee: €30-50/year for a Visa/Mastercard with contactless (carte bancaire). CB international transactions: 1.5-3% foreign currency fee (traditional banks). Overdraft: French banks have strict overdraft policies — going into the red without authorisation triggers immediate fees (frais d'incident). The alternative: pair a traditional bank (for the French IBAN requirements) with a neo-bank like Revolut or N26 for daily international transactions and travel. The dual-account approach is standard practice for cost-conscious expats.",
-      },
-      {
-        heading: "Money transfer: sending money to France or out of France",
-        body: "For regular international transfers (receiving salary from abroad, or sending money to family), avoid using traditional bank wire transfers — fees and exchange rate spreads are high. The established alternatives: Wise (formerly TransferWise): transparent mid-market rate, typically 0.4-1% total cost including fees. SWIFT/SEPA: for SEPA zone transfers (Eurozone to Eurozone), standard SEPA transfers are free or near-free between French accounts and other Eurozone accounts. For non-SEPA transfers (e.g. USD, GBP, CHF): use Wise or similar. Compliance note: France has tax reporting obligations for overseas accounts. If you maintain an account in another country while residing in France, you must declare it annually on your French tax return (Form 3916). Failure to declare is penalised.",
-      },
-    ],
-    relatedCities: ["paris", "lyon", "bordeaux", "marseille"],
-    tags: ["french bank account expat 2026", "opening bank account france", "boursorama N26 revolut france expat", "french banking guide 2026", "compte bancaire france etranger"],
   },
   {
     slug: "clermont-ferrand-living-guide-for-expats-2026",
@@ -5194,46 +4964,6 @@ export const EN_GUIDES: EnGuide[] = [
     ],
     relatedCities: ["lyon", "villeurbanne", "caluire-et-cuire"],
     tags: ["living in lyon expat 2026", "lyon expat guide", "lyon cost of living 2026", "lyon arrondissements expat", "lyon international school guide"],
-  },
-  {
-    slug: "france-social-security-expat-guide-2026",
-    title: "French Social Security for Expats: Registration, Benefits & the Real System (2026)",
-    metaTitle: "French Social Security Expats 2026 — register CPAM, carte vitale, reimbursement rates",
-    metaDesc: "How to register for French social security as an expat in 2026: CPAM, carte vitale, mutuelle, reimbursement rates, and what the French system actually covers.",
-    category: "moving",
-    emoji: "💊",
-    readMinutes: 11,
-    publishedAt: "2026-05-24",
-    updatedAt: "2026-05-24",
-    intro: "The French healthcare system consistently ranks among the world's best for outcomes, access, and financial protection. The part that confuses most expats is not the quality, it is the structure: a mandatory base insurance (Sécurité Sociale) that covers 70% of most costs, and a supplementary insurance (mutuelle) that covers most of the rest. Understanding both, registering correctly, and knowing what you actually pay out of pocket is what this guide covers. The good news is that once set up, the system is remarkably good value compared to any private health insurance in the UK, US, or Australia.",
-    sections: [
-      {
-        heading: "Who qualifies for French social security",
-        body: "Since 2016, the Sécurité Sociale is theoretically universal (PUMA, Protection Universelle Maladie): any person who lives and works, or simply lives stably in France, is entitled to register. In practice, the path depends on your status. Employees are automatically enrolled through their employer from the first day of work. Your employer registers you and pays the majority of contributions (about 13% of your gross salary, versus your 7%). You receive a temporary attestation of rights while your dossier is processed. Self-employed, freelance, and micro-entrepreneur workers register directly with the CPAM (Caisse Primaire d'Assurance Maladie, the local social security office) and pay their own contributions. Rates for the self-employed are lower than for employees, but the base coverage is identical. Non-working residents (retirees, accompanying partners, students not covered by student insurance) register with CPAM directly as a 'ayant droit' (dependant) or as an independent beneficiary under PUMA, with income-based contributions. EU citizens can use the European Health Insurance Card (EHIC) for temporary stays but must register with CPAM on becoming a permanent resident.",
-      },
-      {
-        heading: "How to register: the process",
-        body: "Registration is done at your local CPAM (find it at ameli.fr). The documents required are a valid passport or ID, proof of French address (utility bill, rental contract), a work contract or proof of activity, and often a birth certificate with official French translation (apostille). EU citizens also need their EHIC card and proof of EU status. Processing time of 1-4 months is standard. During this period, you receive an attestation de droits (proof of entitlement) which you can use to receive care. You will eventually receive your numéro de sécurité sociale (13 digits, based on your birth date, sex, and place of birth), and after 3-6 months from your first care episode, your carte Vitale (the green electronic card used at pharmacies and doctors). Important: do not wait to register. Start the process within the first month of arrival, because delays compound.",
-      },
-      {
-        heading: "What the Sécurité Sociale covers (and what it doesn't)",
-        body: "The base insurance covers the 'tarif de convention', the standard rate set by the state for each medical act. On reimbursement rates, a GP visit (€25 standard tariff) is 70% reimbursed, so you pay €7.50 plus a €1 participation forfaitaire (always borne by the patient). A specialist visit is 70% of the tariff. A hospital stay is 80% of hospitalisation costs, with a daily 'forfait hospitalier' of €20/day (for shared rooms) always at your charge. Medication is reimbursed at 15-100% depending on the drug's 'taux de remboursement' (some essential drugs are 100%, many common drugs are 30% or 65%). Not covered: cosmetic procedures, comfort care options, preventive dental care above basic extractions, and optical care above basic prescriptions. The gap between the official tariff and what specialists actually charge (dépassements d'honoraires) is a significant issue, covered by the mutuelle rather than the base insurance.",
-      },
-      {
-        heading: "The mutuelle: why you need it",
-        body: "A mutuelle (complémentaire santé) covers what the Sécurité Sociale doesn't: the 30% base patient share, specialist fee overruns (dépassements), dental work (crowns, implants), optical care (glasses, contact lenses), and hospital comfort supplements (private room, etc.). If you are employed, your employer is legally required since 2016 to provide a group mutuelle covering at least 50% of the premium. The employee contribution is 50% of what the employer pays. Typical employer group mutuelles cost €30-80/month for the employee, providing solid coverage. If self-employed or non-working, you can join a mutuelle individually, with costs ranging from €40-200/month depending on age, coverage level, and provider. Without a mutuelle, dental and optical care in France is effectively out-of-pocket: a crown costs €500-1,500 and glasses €200-600. With a good mutuelle, most routine dental and optical care is largely reimbursed.",
-      },
-      {
-        heading: "Using the system: the day-to-day mechanics",
-        body: "Present your carte Vitale at every medical appointment, pharmacy, and lab. The system handles reimbursement automatically, and you typically see the credit on your bank account within 3-10 days without filling in any form. For specialists, you need a referral from your médecin traitant (declared GP) to get the 70% reimbursement rate; seeing a specialist without this referral drops reimbursement to 30%. Declare a médecin traitant via ameli.fr as soon as you have your social security number, because it is the key that unlocks the system. Children are covered under a parent's account until age 20. Maternity care is 100% covered from the 6th month of pregnancy. Long-term illness (ALD, affection de longue durée) means major chronic conditions are fully covered (100%) with no patient contribution.",
-      },
-      {
-        heading: "Practical tips for expats",
-        body: "1. Register with CPAM within 30 days of arrival and start the process even before you have all documents, because partial dossiers are accepted. 2. Download the ameli.fr app, which shows your reimbursements in real time and stores your care history. 3. Your carte Vitale takes months to arrive, so in the meantime, print your attestation de droits from ameli.fr to show at each appointment. 4. If your employer's group mutuelle is inadequate, you have the right to opt out and take an individual one if you can demonstrate better coverage. 5. For dental work above the basic scale (prothèses dentaires), always ask for a 'devis' (quote) in advance and check what your mutuelle reimburses before agreeing to treatment. 6. Pharmacies in France are extremely useful: pharmacists can prescribe certain medications, give advice on minor ailments, and handle simple dressings. They are your first port of call for minor health questions.",
-      },
-    ],
-    relatedCities: ["paris", "lyon", "bordeaux", "marseille"],
-    tags: ["french social security expat 2026", "CPAM registration expat france", "carte vitale expat guide", "french healthcare system expat", "mutuelle france expat guide"],
   },
   {
     slug: "marseille-living-guide-for-expats-2026",
@@ -9084,46 +8814,6 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["retiring to France 2026 expat", "best cities retire France English", "France retirement visa healthcare expat", "retire Montpellier Toulouse Bordeaux", "expat retirement France cost of living"],
   },
   {
-    slug: "healthcare-france-expats-practical-guide-2026",
-    title: "Healthcare in France for expats: how it actually works (2026)",
-    metaTitle: "Healthcare in France for Expats 2026: Complete Practical Guide",
-    metaDesc: "How the French healthcare system works for expats: CPAM registration, médecin traitant, specialist access, private insurance, pharmacies, emergencies. Clear guide 2026.",
-    category: "moving",
-    emoji: "🏥",
-    readMinutes: 9,
-    publishedAt: "2026-05-26",
-    updatedAt: "2026-05-26",
-    intro: "France's healthcare system is consistently rated among the world's best: high quality, broadly accessible, with strong primary and specialist care. For expats, navigating it requires understanding a few key concepts: the difference between public coverage (Sécurité Sociale) and complementary private insurance (mutuelle), how reimbursement works, how to find a GP, and what happens in emergencies. This guide explains the system as it actually works for foreign residents in 2026.",
-    sections: [
-      {
-        heading: "The basics: Sécurité Sociale and CPAM",
-        body: "France's public health system is administered by CPAM (Caisse Primaire d'Assurance Maladie). As a legal resident, you are entitled to register under PUMA (Protection Universelle Maladie) after 3 months of continuous legal residence. EU citizens exercising treaty rights can register immediately. Upon registration, you receive a Carte Vitale, a green chip card that carries your health insurance details and is presented at every medical appointment and pharmacy. CPAM reimburses 70% of most consultations (médecin de secteur 1) and prescription costs. The remaining 30% (called the ticket modérateur) is typically covered by a mutuelle (complementary insurer).",
-      },
-      {
-        heading: "Finding a GP: the médecin traitant system",
-        body: "To access reimbursed specialist care, you need a médecin traitant, a registered GP who coordinates your care. Without one, you are reimbursed at a lower rate for specialist consultations. Finding a médecin traitant accepting new patients has become genuinely difficult in France: urban centres have waiting lists of 2-4 months, and rural areas have médecin déserts (GP deserts). Some practical strategies: use Doctolib (the online booking platform) with the 'new patient' filter in your postcode; ask your employer's HR or your local mairie for recommendations; and note that some pharmacists can direct you to GPs accepting new patients. Alternatively, Maisons de Santé (group health centres) often have shorter waits than solo practices.",
-      },
-      {
-        heading: "Specialist care and hospital",
-        body: "For specialist care (cardiologist, neurologist, gynaecologist, etc.), you generally need a referral from your médecin traitant for the consultation to be reimbursed at the standard rate. Direct access is permitted but reimbursed less generously. University hospitals (CHUs) are the highest-level care centres: Toulouse CHU, Bordeaux CHU, Montpellier CHU, Lyon HCL, and Paris APHP are where complex cases are handled. Public hospitals are generally reliable; private clinics (cliniques) are also part of the reimbursement system. Emergency care (urgences) is always available at public hospital A&E departments regardless of insurance status.",
-      },
-      {
-        heading: "Complementary insurance: the mutuelle",
-        body: "Most employed French residents have a mutuelle provided or subsidised by their employer, which became mandatory for employers in 2016 (the ANI law). As a self-employed or freelance expat, you must arrange your own mutuelle. Major providers include MGEN, Malakoff Humanis, April, Harmonie Mutuelle, and many others. Monthly costs run €50-120 for a solo adult depending on coverage level. The mutuelle typically covers the 30% ticket modérateur, dental and optical care (not well covered by CPAM), and can cover private room supplements in hospitals. Compare on ameli.fr (the official comparator) or niche broker sites.",
-      },
-      {
-        heading: "Pharmacies, prescriptions, and mental health",
-        body: "French pharmacies are excellent and widely distributed, and pharmacists are trained to advise on minor conditions, which is a genuine resource for navigating everyday healthcare questions. Prescriptions from your médecin traitant are covered by Carte Vitale at the pharmacy. Over-the-counter medication culture differs from the UK or US: paracetamol, ibuprofen, and antihistamines require a pharmacy visit but not a prescription. On mental health, France has historically underserved mental healthcare, but access has improved. Psychologists can be partially reimbursed via the 'MonPsy' scheme (8 sessions/year reimbursed for mild-moderate issues). For English-speaking therapists, check local expat groups, which typically maintain updated lists.",
-      },
-      {
-        heading: "Emergencies and the 15/15/18 system",
-        body: "France's emergency number system: 15 (SAMU, medical emergency, ambulance, life-threatening situations), 18 (Sapeurs-Pompiers, the fire brigade, who also respond to medical emergencies), and 112 (the European emergency number). All dispatch 24/7. SOS Médecins provides home GP visits outside normal hours: call 3600 or book online, and fees are reimbursable. For dental emergencies outside working hours, the 3114 number (the national distress line) can direct you to emergency dental services. If you are hospitalised, you can request a translator (interprète). The hospital is legally obligated to provide one for non-French speakers under certain conditions, though in practice this varies.",
-      },
-    ],
-    relatedCities: ["montpellier", "toulouse", "bordeaux", "lyon", "paris"],
-    tags: ["healthcare France expats 2026", "French health system expat guide", "CPAM registration expat France", "médecin traitant expat France", "mutuelle France expat insurance"],
-  },
-  {
     slug: "nice-vs-marseille-expat-guide-2026",
     title: "Nice vs Marseille: which Mediterranean city for expats in 2026?",
     metaTitle: "Nice vs Marseille 2026: Which Mediterranean City for Expats? Honest Comparison",
@@ -9876,50 +9566,6 @@ export const EN_GUIDES: EnGuide[] = [
     ],
     relatedCities: ["paris", "bordeaux", "lyon", "toulouse", "montpellier"],
     tags: ["moving France pets 2026", "bringing dog cat France expat", "EU pet passport France requirements", "France pet import rules microchip rabies", "finding vet France expat"],
-  },
-  {
-    slug: "french-healthcare-system-guide-expat-2026",
-    title: "The French Healthcare System — An Expat's Practical Guide (2026)",
-    metaTitle: "French Healthcare System Guide for Expats 2026 — CPAM, Mutuelle, Doctors",
-    metaDesc: "How French healthcare works for expats: CPAM registration, Carte Vitale, médecin traitant, mutuelle top-up insurance, specialist access, and what to do in an emergency.",
-    category: "moving",
-    emoji: "🏥",
-    publishedAt: "2026-05-26",
-    updatedAt: "2026-05-26",
-    intro: "France's healthcare system is consistently rated among the world's best, but accessing it requires understanding the CPAM registration process, the mutuelle top-up system, and the médecin traitant coordination model. This guide walks through all of it.",
-    readMinutes: 9,
-    sections: [
-      {
-        heading: "Overview — how the system is structured",
-        body: "France has one of the world's highest-rated healthcare systems (1st in the WHO 2000 ranking; consistently top 5 in Europe on the 2024 EIU Healthcare Index). The system is a mix of universal public coverage and private practice. The structure has three layers: (1) Assurance Maladie (CPAM), the state insurance fund that reimburses 70 to 80% of treatment costs; (2) the mutuelle, private supplementary insurance that covers the remaining 20 to 30%, plus dental, optical, and some specialist costs; and (3) the médecin traitant (declared primary care doctor), the gatekeeper who coordinates care and whose referrals allow full reimbursement of specialist consultations. Without a médecin traitant, reimbursements for specialists drop significantly. The key principle is that you see mostly private practitioners who bill the state insurance scheme. Hospitals are mostly public, but with private practitioner privileges.",
-      },
-      {
-        heading: "Enrolling in CPAM — the Assurance Maladie",
-        body: "EU citizens register via ameli.fr as soon as they have a French address and are working or resident. Bring or upload proof of identity, proof of address, a RIB (bank details), and a work contract or proof of residency. Non-EU citizens register via PUMA (Protection Universelle Maladie), with eligibility from day 1 of legal residency if they have a valid titre de séjour and have been resident for 3 months. Students register via the Espace Étudiant on ameli.fr. For the self-employed and micro-entrepreneurs, registration went through the SSI (Sécurité Sociale des Indépendants) before 2018 and is now integrated into the general regime. Once registered, you receive a numéro de Sécurité Sociale (13 digits), so keep this. The Carte Vitale (green card) is issued 4 to 8 weeks after registration and is used at every medical appointment and pharmacy to trigger reimbursement.",
-      },
-      {
-        heading: "Choosing a médecin traitant",
-        body: "Your médecin traitant is your declared primary care doctor: you register them via ameli.fr, and all care coordinated through them is fully covered at the base rate. In practice, this is your GP. Find one who accepts new patients, since the shortage of GPs makes this difficult in rural areas and in some urban districts. Useful resources are the Annuaire Santé on ameli.fr, Doctolib.fr (the dominant booking platform, used by over 80% of French doctors), and KelDoc. Doctors are categorised by Secteur: Secteur 1 (apply the state tariff, no extra fees, full reimbursement); Secteur 2 (can charge above the tariff, with top-ups partially covered by mutuelle); and Secteur 3 (charge freely, poorly reimbursed, best avoided for routine care). The consultation fee for a GP in 2026 is €26.50 base (Secteur 1), reimbursed at 70%, which is €18.55 from CPAM, with the remainder from the mutuelle.",
-      },
-      {
-        heading: "Getting a mutuelle (supplementary insurance)",
-        body: "The mutuelle covers what Assurance Maladie does not: typically the 30% patient share for consultations and hospital stays, dental prosthetics (crowns and implants, reimbursed very partially by CPAM), glasses and lenses, hearing aids, and specialist excess fees. Without a mutuelle, a dental implant (€1,500 to 3,000) is almost entirely out-of-pocket. The law requires employers with 10 or more employees to provide a group mutuelle, so check your employment contract. Individual mutuelles include Harmonie Mutuelle, MAAF, MACSF, Allianz, and Swiss Life, and comparison tools include empruntis.com and lelynx.fr. The monthly cost for an individual is €40 to 150/month depending on coverage level and age. It is highly recommended even for healthy young people, since French dental costs without coverage are significant.",
-      },
-      {
-        heading: "Specialist care — the parcours de soins",
-        body: "The parcours de soins coordonnés (coordinated care pathway) requires a médecin traitant referral before seeing a specialist to get the best reimbursement rate. Without a referral, you can still see a specialist, but you are reimbursed at a lower rate (57% versus 70%). The exceptions to the referral requirement are the ophthalmologist, gynaecologist, psychiatrist, dentist (for your own care), and paediatrician (for children). For emergencies, go directly to urgences (A&E) with no referral needed, fully covered. Specialist waiting times vary widely, and Doctolib typically shows real-time availability. In shortage specialities (psychiatry, dermatology in rural areas), expect weeks to months. For complex or urgent cases, ask your médecin traitant to write a letter, which often unlocks faster access.",
-      },
-      {
-        heading: "Pharmacies and medication",
-        body: "French pharmacies (identified by the green cross) dispense prescription and OTC medications. The pharmacist (pharmacien) has a significant advisory role: they can suggest treatments for minor ailments, and French law permits them to substitute branded medications for generics. For prescriptions, give them to the pharmacist with your Carte Vitale. The pharmacist bills CPAM directly, and you pay only your share (typically €0.50 to 5 for common medications). Without a Carte Vitale, pay full price, keep receipts, and claim reimbursement via ameli.fr. Paracetamol and ibuprofen are kept behind the counter, so you must ask for them by name, even though they are not prescription drugs.",
-      },
-      {
-        heading: "Emergencies and hospitals",
-        body: "The emergency numbers: 15 (SAMU, medical emergencies) is the direct line to medical dispatch; 18 is the fire brigade (pompiers), who also respond to medical emergencies; and 112 is the EU emergency number. For serious emergencies, call 15. For urgent but non-life-threatening issues, go to urgences at your nearest hospital (the CHU, Centre Hospitalier Universitaire, in major cities). French public hospitals are excellent and free at point of care: you pay a hospital flat fee (€20/day in 2026) that your mutuelle covers. Private hospitals (cliniques) are used for elective surgery; they accept social security and often have shorter wait times. A rotating out-of-hours duty pharmacy (pharmacie de garde) is always open, and the number is 3237 or displayed in any pharmacy window.",
-      },
-    ],
-    relatedCities: ["paris", "lyon", "bordeaux", "toulouse", "marseille"],
-    tags: ["French healthcare system expat 2026", "CPAM registration France expat", "mutuelle France top-up insurance guide", "médecin traitant how to find France", "French healthcare guide foreigners"],
   },
   {
     slug: "lyon-vs-bordeaux-which-city-to-move-to-2026",

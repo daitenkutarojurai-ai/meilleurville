@@ -5,3 +5,14 @@
 /a-propos /about 301
 # /quiz and /city-match were redundant matchers — city-match is the richer one.
 /quiz /city-match 301
+# EN guide de-duplication (2026-06-04): near-identical practical guides merged
+# onto one canonical per cluster; 301 the removed slugs to the kept guide.
+/guides/france-healthcare-how-it-works-for-expats-2026 /guides/france-healthcare-guide-expats-2026 301
+/guides/france-healthcare-system-expat-guide-2026 /guides/france-healthcare-guide-expats-2026 301
+/guides/french-healthcare-system-guide-expat-2026 /guides/france-healthcare-guide-expats-2026 301
+/guides/healthcare-france-expats-practical-guide-2026 /guides/france-healthcare-guide-expats-2026 301
+/guides/healthcare-in-france-newcomers-2026 /guides/france-healthcare-guide-expats-2026 301
+/guides/france-banking-for-expats-guide-2026 /guides/france-banking-guide-expats-2026 301
+/guides/french-driving-licence-guide-2026 /guides/france-driving-licence-guide-expats-2026 301
+/guides/paying-taxes-in-france-expat-guide-2026 /guides/french-income-tax-expats-2026 301
+/guides/france-social-security-expat-guide-2026 /guides/french-social-security-expats-guide-2026 301
