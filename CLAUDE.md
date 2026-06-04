@@ -111,9 +111,15 @@ Distribution mean ≈ 5.42. Penalties:
 - **Never use `ref` as a custom prop name** — React reserves it; passing a
   number through `ref` breaks SSR with a refs-in-server-components error.
 - The map components (`components/FranceHeatmap.tsx`, `app/carte/CarteClient.tsx`)
-  use a metropolitan bounding box `lng ∈ [-6, 10]` × `lat ∈ [40, 52]`. **DROM
-  cities (DOM-TOM) are filtered out** of these maps so they don't render
-  off-canvas. Inset cartouches for DROM are a planned follow-up.
+  use a metropolitan bounding box `lng ∈ [-6, 10]` × `lat ∈ [40, 52]`, so DROM
+  cities are excluded from the **SVG plot** (they'd render off-canvas). DROM is
+  **not invisible**, though: both maps render `<DromStrip />` below the SVG —
+  a card per territory (Guadeloupe/Martinique/Guyane/Réunion/Mayotte) with its
+  top cities as score-coloured, clickable links + region link, locale-aware.
+  This is the chosen treatment over geographic "inset cartouches": territories
+  here have 1–8 cities each (Mayotte 1, Guyane 2), so mini-map insets would mean
+  tiny, overlapping, hard-to-click dots — the card strip is clearer. (Done; the
+  old "inset cartouches follow-up" note is superseded.)
 - "Pro" / paywall references are being removed (commit `bed2367`). If you see
   a stale Premium teaser, prefer removing it over reinforcing it.
 - **setState-in-effect pattern**: initialise localStorage-backed state with lazy
