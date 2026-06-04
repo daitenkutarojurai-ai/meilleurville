@@ -74,90 +74,6 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["moving to france", "relocation", "expat", "where to live"],
   },
   {
-    slug: "best-french-cities-remote-work-2026",
-    title: "The best French cities for remote work",
-    metaTitle: "Best French Cities for Remote Work (2026)",
-    metaDesc:
-      "Fibre, coworking, cost of living vs salary, and the trade-offs that matter when you can live anywhere in France. An honest ranking for remote workers.",
-    category: "remote-work",
-    emoji: "💻",
-    readMinutes: 8,
-    publishedAt: "2026-05-20",
-    updatedAt: "2026-05-20",
-    intro:
-      "Remote work rewrote the map. If your income no longer depends on a local office, the question stops being 'where are the jobs' and becomes 'where would I actually enjoy living'. France is an exceptional answer to that question, but the cities that look best on Instagram are rarely the ones that work best on a wet Wednesday with three video calls. Here is how to think about it.",
-    sections: [
-      {
-        heading: "Fibre is table stakes — community is the differentiator",
-        body: "Almost every French city of any size now has fibre, with coverage above 90% considered normal. So a fast connection no longer separates a good remote city from a bad one. What separates them is the things around the connection: affordable coworking (under €150/month for a fixed desk), a genuine community of other remote and tech workers, and easy rail access to wherever your main client or company is. A technically perfect city with no community is a slow path to isolation.",
-      },
-      {
-        heading: "Rennes — the quiet favourite",
-        body: "Rennes keeps winning this category and it is easy to see why. Strong fibre everywhere, an active tech scene (the French Tech label, hundreds of startups), coworking from around €80/month, and a 1h25 TGV to Paris when you do need to show your face. Median T2 rent sits well below the big metros, and the city is genuinely cyclable, which quietly removes a car from your budget. The weather is grey-ish and Atlantic, not Mediterranean. That is the price of admission.",
-      },
-      {
-        heading: "Nantes — the balanced metropolis",
-        body: "Nantes is what a well-rounded remote life looks like: a dense café culture, a real startup scene, the Atlantic coast 45 minutes away, and enough of a cultural calendar that Sunday evenings do not feel empty. It is larger and a little pricier than Rennes, with the upside of more options: more coworkings, more events, more people. If you want a city that can absorb a decade of your life without getting boring, Nantes is a strong bet.",
-      },
-      {
-        heading: "Grenoble — for the mountain people",
-        body: "Grenoble has the highest concentration of engineers and researchers in France outside Paris, which makes its tech community unusually deep. The coworking scene is excellent. And the Alps are 45 minutes away, so you really can ski on a Wednesday. The honest caveats: winters feel long, and Grenoble sits in a valley prone to thermal inversions that trap air pollution. People who love it accept the air for the mountains. Decide if you are one of them.",
-      },
-      {
-        heading: "The maths that changes lives",
-        body: "Take a remote worker earning €3,500/month after tax. In Paris: a T2 at roughly €1,400 plus €200 charges plus €85 transport is about €1,685 in fixed costs. In a strong mid-size city: a T2 around €750 plus €150 charges plus €20 for a bike is about €920. The gap is roughly €765 a month, over €9,000 a year, more than €90,000 in a decade. That is, quite literally, a deposit on a flat. The calculation is mundane. Doing it honestly is what is rare.",
-      },
-      {
-        heading: "Cities that are hyped but harder than they look",
-        body: "Some cities are fashionable without being genuinely remote-friendly. Bordeaux is beautiful, but gentrification pushed rents up sharply without the tech infrastructure keeping pace. Nice is expensive and its remote community clusters in a few neighbourhoods. Marseille is improving fast but connectivity and quality of life still vary a lot by district. None of these are bad. They just need more homework than their reputation suggests.",
-      },
-    ],
-    relatedCities: ["rennes", "nantes", "grenoble", "bordeaux", "montpellier"],
-    tags: ["remote work", "digital nomad", "coworking", "fibre"],
-  },
-  {
-    slug: "best-french-cities-families-2026",
-    title: "The best French cities to raise a family",
-    metaTitle: "Best French Cities for Families (2026)",
-    metaDesc:
-      "Schools, safety, green space and housing — what actually matters when you're choosing a French city with children, and where to look first.",
-    category: "family",
-    emoji: "👨‍👩‍👧",
-    readMinutes: 8,
-    publishedAt: "2026-05-20",
-    updatedAt: "2026-05-20",
-    intro:
-      "Choosing a city for a family is a different exercise from choosing one for yourself. Your tolerance for risk drops, your need for stability rises, and a dozen boring logistics (school catchments, paediatric care, a park within walking distance) suddenly outrank nightlife and restaurant scenes. This is a guide to getting those boring things right.",
-    sections: [
-      {
-        heading: "Safety first, but read the actual numbers",
-        body: "Safety is the axis families weigh most heavily, and rightly so. But weigh it with data, not reputation. France publishes crime statistics per 1,000 residents (SSMSI). A city's reputation often lags its real numbers by a decade in both directions. Some 'rough' cities have quietly improved, and some 'nice' ones have not. Use the figure on each city profile, and remember that within any city, neighbourhoods vary enormously. The city-level score is a starting point, not the final word.",
-      },
-      {
-        heading: "How French schooling works",
-        body: "A quick map for newcomers. Maternelle (kindergarten, ages 3 to 6) is near-universal and free; école élémentaire runs 6 to 10; collège runs 11 to 14 and ends with the Brevet; lycée runs 15 to 17 and ends with the Baccalauréat. Public schooling is the default and is generally good. Placement is by catchment area (carte scolaire), so the specific address you choose matters, not just the city. If you need a bilingual or international section, that narrows your options to a few dozen cities, so check before you fall in love with a place.",
-      },
-      {
-        heading: "Green space and the 15-minute test",
-        body: "Children need to be able to get outside without a car journey. When you shortlist a city, apply the 15-minute test: from a realistic home, can a child reach a park, a school and a sports facility within 15 minutes on foot or by bike? Mid-size French cities usually pass this comfortably; sprawling car-dependent suburbs often fail it. The 'nature' score on each city profile captures green-space access alongside air quality, and both matter for kids.",
-      },
-      {
-        heading: "Healthcare: find the maternity ward and the paediatrician",
-        body: "Two healthcare questions matter most for families: is there a maternity ward (and how far), and can you actually register with a paediatrician or GP who is taking patients? France has real medical deserts, areas where GP density has fallen so low that new arrivals struggle to find a doctor at all. The healthcare-related scores on this site flag this. A beautiful town with no available GP is not a good place to raise small children.",
-      },
-      {
-        heading: "Where to look first",
-        body: "Mid-size cities in the west and along the Atlantic, think the Rennes, Nantes and Angers belt, consistently score well for families: solid schools, manageable housing costs, green space, and hospitals. University cities give teenagers a path that does not require leaving home. The Mediterranean cities are tempting, but watch the combination of summer heat and housing cost. Use the family ranking on this site as your starting shortlist, then verify the specific neighbourhood.",
-      },
-      {
-        heading: "The trade-off nobody admits",
-        body: "The single most common family relocation regret is choosing a charming small town and underestimating how car-dependent it is. Two parents, two jobs, two children, two activities each, in a town with thin public transport, that becomes a logistics machine that eats every evening. Be ruthless about this. If you are not certain you want to organise life around a car, weight transport and walkability heavily, and lean towards cities rather than villages.",
-      },
-    ],
-    relatedCities: ["rennes", "angers", "nantes", "la-rochelle", "annecy"],
-    tags: ["family", "schools", "safety", "children"],
-  },
-  {
     slug: "cost-of-living-france-by-city-2026",
     title: "Cost of living in France, city by city",
     metaTitle: "Cost of Living in France by City (2026)",
@@ -2768,44 +2684,6 @@ export const EN_GUIDES: EnGuide[] = [
     ],
     relatedCities: ["strasbourg", "paris", "bayonne", "lyon", "bordeaux"],
     tags: ["german expat france", "germany to france", "alsace", "bilingual", "EU mobility"],
-  },
-  {
-    slug: "best-french-cities-digital-nomads-updated-2026",
-    title: "The best French cities for digital nomads in 2026: updated rankings",
-    metaTitle: "Best French Cities for Digital Nomads 2026 — Updated Rankings",
-    metaDesc:
-      "Fibre coverage, coworking density, café culture, cost of living, and livability combined. The 2026 ranking of French cities for location-independent workers — with the data behind it.",
-    category: "remote-work",
-    emoji: "💻",
-    readMinutes: 7,
-    publishedAt: "2026-05-24",
-    updatedAt: "2026-05-24",
-    intro:
-      "The digital nomad landscape in France has matured considerably since 2020. The 'Paris or nothing' assumption is gone, and most medium-sized French cities now have coworking spaces, good fibre coverage, and active communities of location-independent workers. This updated ranking focuses on the intersection of four factors: internet infrastructure (fibre coverage, reliable speeds), coworking access and price, overall cost of living against local quality of life, and social infrastructure for a working lifestyle.",
-    sections: [
-      {
-        heading: "Tier 1: the complete package",
-        body: "Rennes leads consistently for digital nomads on the metrics that matter: France's highest fibre coverage rates (above 95% in the city), the cheapest T2 rents among major French cities (€600-750/month), a 1h25 TGV to Paris, 50+ coworking spaces, and an active French Tech scene. The weather is Atlantic and grey, which is the standard objection. The tradeoff is that you get a complete, walkable city at Atlantic coast prices. Lyon is Tier 1 for digital nomads who need urban density and international airport access: fibre is excellent, the coworking scene is mature, and the city has genuine European cultural weight. The cost premium over Rennes is roughly 30-40% for housing.",
-      },
-      {
-        heading: "Tier 2: strong options with one trade-off each",
-        body: "Nantes: excellent fibre, good coworking, slightly higher rents than Rennes, Atlantic climate. Bordeaux: excellent fibre and coworking, significantly higher rents than it used to be, great lifestyle. Montpellier: excellent climate (the best in this tier by sunshine), good fibre and coworking, Mediterranean energy, slightly less urban than Lyon or Nantes. Toulouse: Airbus-driven infrastructure including excellent fibre and tech talent density, warm climate, but rising housing costs. Grenoble: exceptional tech density (semiconductor industry means great fibre), compact and walkable, affordable, with the air quality in winter and a less cosmopolitan feel as the trade-offs.",
-      },
-      {
-        heading: "Tier 3: underrated options worth considering",
-        body: "Clermont-Ferrand is one of France's more surprising digital nomad destinations: very affordable housing, Michelin's tech infrastructure means excellent connectivity, the Massif Central is at the door, and the city has a small but active digital community. Angers is often overlooked, 1h35 from Paris by TGV, with a Loire Valley location, reasonable rents, an improving coworking scene, and genuinely pleasant quality of life. Poitiers is inexpensive, well-connected (1h15 TGV to Paris), with university-driven digital infrastructure and a smaller community. These cities suit nomads who want very low cost of living and do not require the full cosmopolitan infrastructure of a larger city.",
-      },
-      {
-        heading: "What Paris actually offers vs the regions",
-        body: "Paris has the most coworking spaces (2,000+), the most international nomad community, the most reliable infrastructure, and the highest salaries if you take French clients. It also has the highest rents by a wide margin, the most stressful living environment, and the most social pressure to present professionally. For nomads earning in dollars or euros outside France, Paris is expensive relative to the quality of life improvement over, say, Bordeaux or Lyon. For nomads who genuinely benefit from the Paris professional network (taking French clients, attending French tech events, building a French professional reputation), Paris has irreplaceable advantages. For pure lifestyle-focused nomads, the regions win on quality-of-life-per-euro.",
-      },
-      {
-        heading: "The Visiteur visa for non-EU nomads",
-        body: "Non-EU digital nomads in France face the same visa issue as in any country: without a specific nomad visa (France does not have one, unlike Portugal, Spain, or Croatia), the legal route for stays beyond 90 days is the Visiteur visa, which requires demonstrating sufficient independent income (approximately €1,500+/month per person) and prohibits working for French clients or employers. Working for non-French employers or clients while on a Visiteur visa is a grey area, technically prohibited under some interpretations, tolerated in practice if no French employment relationship exists. The situation is legally unclear and unlikely to be resolved favourably for long-term security. EU citizens have no such restriction under freedom of movement.",
-      },
-    ],
-    relatedCities: ["rennes", "lyon", "bordeaux", "nantes", "montpellier"],
-    tags: ["digital nomad france", "remote work", "coworking france", "best cities nomads", "fibre france"],
   },
   {
     slug: "perpignan-mediterranean-coast-living-2026",
@@ -8962,46 +8840,6 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["French bureaucracy expats 2026", "carte de séjour France expat guide", "French visa residency permit 2026", "moving France admin paperwork expat", "CPAM OFII expat France 2026"],
   },
   {
-    slug: "digital-nomads-best-cities-france-2026",
-    title: "Best cities in France for digital nomads in 2026",
-    metaTitle: "Best Cities France for Digital Nomads 2026: Complete Guide",
-    metaDesc: "Best French cities for digital nomads: fast internet, co-working, cost of living, community, visa. Montpellier, Bordeaux, Toulouse, Biarritz, Marseille compared.",
-    category: "remote-work",
-    emoji: "💻",
-    readMinutes: 9,
-    publishedAt: "2026-05-26",
-    updatedAt: "2026-05-26",
-    intro: "France is an underrated destination for digital nomads, for good reasons: fibre broadband penetration is among Europe's highest, co-working infrastructure has exploded since 2020, the visa situation for non-EU nomads has improved with the auto-entrepreneur regime, and the quality of life (food, climate, culture) is hard to match. The challenge is cost: Paris is expensive, and several secondary cities have been discovered and priced up. This guide identifies the cities that deliver the best combination of digital infrastructure, community, cost, and lifestyle for nomads in 2026.",
-    sections: [
-      {
-        heading: "Montpellier: the Mediterranean nomad hub",
-        body: "Montpellier consistently appears in European top-10 digital nomad lists, and the reputation is earned. Key advantages: fibre optic coverage exceeds 95% of the metropolitan area; a co-working scene that has exploded since 2020 (30+ spaces across the city); a young, international population (80,000 students) that creates a cultural mix tolerant of nomadic lifestyles; direct low-cost flights to the UK and northern Europe from Montpellier-Méditerranée airport; and the sea 12km away. Average monthly cost for a furnished studio near the Comédie: €700–900/month. Monthly co-working desk: €150–250. Good community events and French Tech Montpellier.",
-      },
-      {
-        heading: "Bordeaux: the wine city that works",
-        body: "Bordeaux has become one of France's strongest nomad cities thanks to several reinforcing factors: the TGV arrival (Paris 2h04) accelerated both digital infrastructure investment and the influx of young professional creatives; Wine Tourism is a unique lifestyle asset (work from a château estate co-working space is genuinely possible in the Médoc); English-speaking community is strong; Bordeaux's startup and creative economy (French Tech Bordeaux) means nomads integrate naturally with locals building companies. Cost: furnished studio in Chartrons or Saint-Épain: €750–1,100/month. The Atlantic coast (Arcachon, Cap Ferret) is accessible for weekend sessions.",
-      },
-      {
-        heading: "Biarritz and the Basque Coast: the lifestyle nomad choice",
-        body: "Biarritz attracts a specific type of nomad: the lifestyle-first, cost-flexible, surf-culture person who trades a lower bottom-line quality for a higher ceiling quality. The Basque coast is extraordinarily beautiful, the surf culture is welcoming to internationals, and co-working spaces have proliferated around the nomad demand. Cost reality: Biarritz itself is expensive (€900-1,400/month for a decent studio), while Anglet and Bayonne offer the same surf access at 20-30% less. The community is self-selecting: nomads here tend to be mid-level earners for whom money matters somewhat less than the lifestyle equation. Fibre broadband coverage in the BAB conurbation is very good.",
-      },
-      {
-        heading: "Toulouse: the underrated nomad city",
-        body: "Toulouse is underrepresented in nomad rankings relative to its objective advantages: a large city (good amenities, healthcare, transport), a strong English-language professional community (aerospace), a lower cost of living than Lyon or Bordeaux, and 300 days of sunshine. Its limitations for nomads: less of the 'sexy' location branding than Biarritz or Montpellier, and a co-working scene that is good but more corporate-oriented (driven by the aerospace supply chain). Monthly costs: a studio in central Toulouse runs €650-900/month. For nomads with tech/engineering backgrounds who want a French base with career optionality (Airbus could hire you if the nomad life gets old), Toulouse is an excellent choice.",
-      },
-      {
-        heading: "Marseille: high risk, high reward",
-        body: "Marseille is the nomad destination that divides people sharply. Those who love it are fiercely loyal; those who did not click with it wonder what the fuss was about. What it offers: genuine urban energy, exceptional food and market culture, an extraordinary natural setting (the Calanques), and the lowest costs of any large French Mediterranean city (studios from €550-800/month in solid areas like the 8th arrondissement). What it demands: deliberate neighbourhood selection (the northern arrondissements have genuine crime issues), comfort with a city that does not perform for tourists or newcomers, and patience with a logistics culture that moves slowly. The nomad community is smaller than in Montpellier but growing.",
-      },
-      {
-        heading: "Practical: France nomad visa and tax",
-        body: "EU/EEA/Swiss citizens: free movement, no visa required. Non-EU nomads have two main paths. Auto-entrepreneur: register as a self-employed micro-entrepreneur (straightforward online registration, no minimum capital). This gives you a legal business status in France, makes you eligible for CPAM registration, and is the most common structure for nomads working with foreign clients from France. Freelance visa: technically the 'salarié' or 'talent' visa categories require French employment or French clients — there is no dedicated 'digital nomad visa' in France as of 2026, unlike Portugal or Spain. The auto-entrepreneur route is the practical path for most non-EU nomads who plan a stay of 6+ months. Tax: you become a French resident for tax purposes after 183+ days in France — consult a tax professional on your specific situation.",
-      },
-    ],
-    relatedCities: ["montpellier", "bordeaux", "toulouse", "biarritz", "marseille"],
-    tags: ["digital nomads France 2026", "best cities digital nomads France", "Montpellier Bordeaux Toulouse nomad", "France nomad visa 2026", "co-working France digital nomad cost"],
-  },
-  {
     slug: "france-vs-spain-vs-portugal-expat-comparison-2026",
     title: "France vs Spain vs Portugal: which country for expats in 2026?",
     metaTitle: "France vs Spain vs Portugal 2026: Which Country for Expats?",
@@ -9526,46 +9364,6 @@ export const EN_GUIDES: EnGuide[] = [
     ],
     relatedCities: ["paris", "bordeaux", "nice", "lyon", "marseille"],
     tags: ["buying property France foreigner 2026", "French property purchase guide expat", "notaire France property buying fees", "mortgage France non-resident 2026", "French real estate taxes capital gains"],
-  },
-  {
-    slug: "moving-to-france-with-pets-2026",
-    title: "Moving to France with Pets — Everything You Need to Know (2026)",
-    metaTitle: "Moving to France with Pets 2026 — Import Rules, Vets, Housing",
-    metaDesc: "How to bring dogs, cats, or ferrets to France: EU pet passport, rabies titre test for non-EU origins, microchip requirements, airline rules, and finding vet-friendly housing.",
-    category: "moving",
-    emoji: "🐾",
-    publishedAt: "2026-05-26",
-    updatedAt: "2026-05-26",
-    intro: "France is a pet-friendly country, but the import process has specific documentation requirements that vary sharply depending on where your pet is coming from. For UK and US nationals especially, the timeline is longer than most expect.",
-    readMinutes: 8,
-    sections: [
-      {
-        heading: "Entry requirements by country of origin",
-        body: "France follows EU pet import rules, and the requirements differ depending on where your pet is coming from. From EU/EEA countries, you need an EU Pet Passport (issued by a vet in the country of origin), a microchip (ISO 15-digit standard), and an up-to-date rabies vaccination; entry is direct, with no waiting period. From the UK (post-Brexit), which is now treated as a non-listed third country, the requirements are an ISO microchip, an EU-recognised rabies vaccination (given after microchipping), a rabies antibody titre test (to prove immunity) with a result of at least 0.5 IU/ml done at an EU-approved laboratory, and a waiting period of 3 months after the titre test blood draw. The titre test requirement adds roughly 3 to 4 months to planning time, so factor this in. From the USA, Canada, and Australia, the rules are the same as the UK: these countries are on the EU's «listed third countries» list but with titre test requirements. Check the TRACES NT system before departing, as requirements update. From other listed third countries (which includes most countries), you need a microchip, rabies vaccination, titre test, and a 21-day wait after vaccination. From unlisted third countries, a 6-month quarantine applies on arrival, which effectively means re-homing the pet unless you plan years in advance.",
-      },
-      {
-        heading: "The microchip and documentation in detail",
-        body: "On the microchip, it must be ISO 11784/11785 (15-digit, 134.2 kHz), the standard used across Europe. Some older US-standard chips (125 kHz) are not readable by French scanners, so if your pet has an older chip, a second ISO chip can be inserted. On vaccination, the rabies vaccine must be given after microchipping (or on the same day); if it was given before, it does not count, and the vaccine must be current on the date of travel. On the health certificate, it comes from a vet accredited by the competent authority of the country of origin (an Official Veterinarian in the UK, a USDA-accredited vet in the US). The health certificate must be endorsed by the national authority (DEFRA in the UK, USDA APHIS in the US) and must be issued within 10 days of travel. The EU Animal Health Certificate (AHC) format is now required for arrivals from non-EU countries.",
-      },
-      {
-        heading: "Finding a vet in France",
-        body: "France has excellent veterinary infrastructure. The Ordre National des Vétérinaires maintains a directory at ordredesveterinairesfr. In cities, chain veterinary clinics (Vétérinaire Référent, Clinique Vétérinaire) are the most accessible, and most have English-speaking staff in international areas. To establish a veterinary record in France, book an initial consultation within the first month, bring all vaccination records and the EU pet passport (or health certificate), and request that your vet update the SCAD national pet registry (for dogs and cats). Dogs must be registered in the national identification database (I-CAD) within 4 months of birth or on entry to France. Rabies vaccination must be up to date for travel within the EU, and your French vet will update the EU Pet Passport.",
-      },
-      {
-        heading: "Housing with pets in France",
-        body: "French law allows tenants to have pets in rentals (since the loi Alur 2014 amendment), and landlords cannot prohibit cats and dogs outright. The law has nuances, though: co-ownership regulations (règlement de copropriété) can restrict certain breeds or sizes in shared buildings, and landlords can refuse pets that cause nuisance. In practice, mention your pet upfront in your rental application dossier, since a clear, polite declaration is better than a discovery after signing. Large dogs and certain breeds (Rottweiler, American Staffordshire Terrier, and others) face additional restrictions: Category 1 dogs (attack dogs) are banned, and Category 2 (guard/defence breeds) require a permit, liability insurance, and a mandatory training certificate. For houses and ground-floor apartments, pets are broadly accepted. For apartments above ground floor in densely-populated buildings, it depends on the copropriété.",
-      },
-      {
-        heading: "Airline and transport rules",
-        body: "For in-cabin travel, most French and European airlines allow cats and small dogs in the cabin in an approved carrier (typically 5 to 8kg total including the carrier). Air France allows in-cabin pets up to 8kg. Easyjet and Ryanair allow no in-cabin pets (UK routes especially), so check per route. For hold travel, larger pets travel as «baggage» in the pressurised hold, with a health certificate required. There is a stress risk, so consult your vet on sedation (note that many vets advise against sedation for hold travel due to altitude effects). On the Channel Tunnel, pets travel in the vehicle via Le Shuttle, not in passenger carriages, and Eurotunnel Le Shuttle accepts pets in cars. On ferries (Brittany Ferries, DFDS), pets are accepted in kennels on deck or in pet-friendly cabins, so book well in advance as pet spaces are limited. By car from within Europe, there are no specific formalities beyond the pet passport, but keep it accessible.",
-      },
-      {
-        heading: "Pet insurance and healthcare costs",
-        body: "France has a developed pet insurance market. The key providers are Agria, Bulle Bleue, Groupama, SwissLife, and Fidèle. Monthly premiums run €15 to 60/month depending on species, breed, age, and coverage level. Basic coverage includes accidents and illness; comprehensive cover adds preventive care (vaccinations, dental). French vet costs are broadly comparable to UK costs and lower than US costs: a standard consultation is €40 to 70, and common surgical procedures €500 to 2,000. Pet insurance pays in France but not for pre-existing conditions, so insure the pet before moving or immediately on arrival. Note that some French insurers require your vet to be registered in France, so check portability if you already have foreign insurance.",
-      },
-    ],
-    relatedCities: ["paris", "bordeaux", "lyon", "toulouse", "montpellier"],
-    tags: ["moving France pets 2026", "bringing dog cat France expat", "EU pet passport France requirements", "France pet import rules microchip rabies", "finding vet France expat"],
   },
   {
     slug: "lyon-vs-bordeaux-which-city-to-move-to-2026",
