@@ -292,6 +292,19 @@ export const PROFILE_PAGES: ProfileDef[] = [
     reasonHint: (c) =>
       `Juillet ${(c.avgTempJuly ?? 23).toFixed(1)} °C · nature ${c.scores.nature.toFixed(1)} · qualité de vie ${c.scores.life.toFixed(1)}`,
   },
+  {
+    slug: "sensibles-au-bruit",
+    emoji: "🤫",
+    label: "Sensibles au bruit",
+    metaTitle: "Meilleures villes pour sensibles au bruit 2026 — Top 20",
+    metaDescription:
+      "Top 20 villes françaises où le calme tient toute la journée : faible exposition sonore, nature accessible, air respirable. Pour hypersensibles et télétravail.",
+    intro:
+      "Sensibles au bruit : la circulation continue, les terrasses ouvertes tard, les sirènes nocturnes, l'école juste sous les fenêtres — autant de petits stimuli qui usent sur la durée. Pour qui supporte mal l'exposition sonore quotidienne — hypersensibles, hyperacousie, jeunes parents en gestion de nourrisson, télétravailleurs enchaînant les visios — le critère cardinal n'est ni le dynamisme culturel ni la sécurité, c'est le bruit ambiant moyen. Ce classement pondère d'abord l'exposition sonore (dérivée des cartes de bruit stratégiques d'agglomération et de la densité du trafic), complète par une nature proche pour décompresser hors des îlots sonores urbains, garde un œil sur la qualité de l'air (bruit routier et particules fines vont souvent ensemble) et sur la qualité de vie générale — parce qu'une rue silencieuse au fond d'un désert de services tient rarement plus de six mois. Résultat : beaucoup de préfectures moyennes et de villes côtières atlantiques, peu de grandes métropoles, et zéro ville traversée par une autoroute ou un axe TGV non protégé.",
+    weights: { bruit: 3.0, nature: 2.0, qualiteAir: 1.5, life: 1.5, safety: 1.0 },
+    reasonHint: (c) =>
+      `Nature ${c.scores.nature.toFixed(1)} · qualité de vie ${c.scores.life.toFixed(1)} · sécurité ${c.scores.safety.toFixed(1)}`,
+  },
 ];
 
 export const PROFILE_SLUGS = PROFILE_PAGES.map((p) => p.slug);
