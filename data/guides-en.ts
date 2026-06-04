@@ -19999,6 +19999,326 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["car-free Marseille", "living in Marseille without a car", "public transport", "cycling", "provence-alpes-cote-d-azur"],
   },
 
+  {
+    slug: "living-in-ile-de-france-2026",
+    title: "Living in Île-de-France: An Expat Guide to Paris and Beyond (2026)",
+    metaTitle: "Living in Île-de-France: Expat Guide 2026",
+    metaDesc: "Where to live around Paris in 2026. An honest look at Paris intra-muros, the leafy suburbs of Versailles and Vincennes, and cheaper Cergy and Montreuil.",
+    category: "moving",
+    emoji: "🏙️",
+    readMinutes: 8,
+    publishedAt: "2026-06-04",
+    updatedAt: "2026-06-04",
+    intro: "Île-de-France is the densest, most expensive and most complicated region in France, and also the one with by far the highest concentration of jobs, culture and public transport. Most expats who move to France for work end up here, at least to begin with. The real decision is rarely whether to live in the region, but where within it: inside Paris itself, in the prosperous inner suburbs, or further out where space is cheaper and commutes are longer. This guide walks through those trade-offs city by city, with property prices and travel times, so you can find a base that matches your budget and your tolerance for the daily grind.",
+    sections: [
+      {
+        heading: "What and where Île-de-France is",
+        body: "Île-de-France is the region built around Paris, in the north-centre of the country. It is small in area but holds around twelve million people, roughly a fifth of France, making it overwhelmingly the most densely populated region. It is structured in concentric rings: Paris intra-muros at the core, then the petite couronne of close suburbs, then the grande couronne reaching out into the Yvelines, Essonne, Val-d'Oise and Seine-et-Marne. The whole region is stitched together by the Métro, RER and Transilien rail network, which is what makes living outside Paris while working in it viable. The climate is unremarkable temperate northern French weather: grey, damp winters, mild summers, no extremes. People come here for work and opportunity rather than for the sunshine.",
+      },
+      {
+        heading: "Where to base yourself",
+        body: "Paris itself is unmatched for culture, food, nightlife and professional networks, but it is loud, crowded and short on green space. The smart inner-suburb compromise is the banlieue chic: Vincennes, next to its château and the Bois de Vincennes and on Métro line 1, is often called the most pleasant town in the petite couronne; Versailles, on the RER C with its exceptional heritage, draws families; Boulogne-Billancourt pairs big-city energy with a near-Parisian address. For tighter budgets, Cergy-Pontoise (a planned new town on the RER A) suits students and young professionals, while Montreuil, on Métro lines 9 and 11, has become a magnet for artists, startups and an international crowd. Further out, Marne-la-Vallée trades proximity for far more living space per euro.",
+      },
+      {
+        heading: "Property and cost of living",
+        body: "Île-de-France is the most expensive housing market in France and prices fall steeply as you move out from the centre. In Paris a one-bedroom rents from around 1 800€ a month at minimum, and buying runs to roughly 10 500€/m². The banlieue chic is cheaper but still dear: expect 5 500€ to 7 200€/m² to buy, with Versailles near 5 800€/m², Vincennes around 6 800€/m² and Boulogne-Billancourt about 7 200€/m². More accessible towns sit in a 3 000€ to 5 500€/m² band, with Cergy and Montreuil around 3 500€ to 5 500€/m². Everyday costs (groceries, transport, eating out) are also among the highest in the country. The standard advice holds: salaries are higher here, but so is almost everything you spend them on.",
+      },
+      {
+        heading: "Climate and daily life",
+        body: "The weather is the least of your concerns and the least of your rewards: cool, often grey winters and mild summers, with nothing dramatic in either direction. Daily life is defined instead by density and by the trade-off between space and access. Inside Paris you live small and step out into world-class museums, restaurants and parks; in the leafy suburbs you gain gardens, calm and reputable schools at the cost of a daily commute. Green space is genuinely scarce in the centre, and noise, traffic and the general intensity of the city wear on people over time, which is exactly why families with children tend to drift outward to Vincennes, Versailles or the new towns. The flip side is convenience: you can live here for years without ever needing a car.",
+      },
+      {
+        heading: "Getting there and around",
+        body: "This is the region's strongest card. Paris has two major international airports, Charles de Gaulle and Orly, and is the hub of the French rail network, so the rest of the country is fast to reach: TGV to Lyon in about 2h and to Nantes in around 2h15. Within the region the Métro, RER and Transilien lines mean most of the inner suburbs are well under an hour from central Paris, and a car is unnecessary for daily life closer in. The catch is the grande couronne. Beyond about 30 km from Paris, in the rural Yvelines, Essonne, Val-d'Oise or Seine-et-Marne, a house may cost around 200 000€ but the one-way commute can exceed 1h30, so those areas only really work if you work from home most of the week.",
+      },
+      {
+        heading: "Who it suits — and the honest downsides",
+        body: "Paris intra-muros fits people without children, on higher incomes, or lucky enough to hold an older rent-controlled flat. The banlieue chic of Vincennes, Versailles and Boulogne-Billancourt is the sweet spot for well-off families who want space, calm and good schools while staying close to the centre. Cergy and Montreuil work for younger or more creative people on tighter budgets, and the new towns suit families priced out of the smart suburbs. The honest downsides are blunt: this is the costliest, most crowded and most stressful part of France, green space is thin, and long commutes are common further out. For the price of a three-bed in the outer suburbs you could own a fine house in Nantes, Lyon, Bordeaux or Rennes, which is precisely why so many people eventually leave.",
+      },
+    ],
+    relatedCities: ["paris","versailles","vincennes","boulogne-billancourt","cergy"],
+    tags: ["living in Île-de-France","Île-de-France expat","moving to france","Paris suburbs","Paris"],
+  },
+  {
+    slug: "living-in-auvergne-rhone-alpes-2026",
+    title: "Living in Auvergne-Rhône-Alpes: An Expat Guide to Lyon, the Alps and Beyond (2026)",
+    metaTitle: "Living in Auvergne-Rhône-Alpes: Expat Guide 2026",
+    metaDesc: "Where to live in Auvergne-Rhône-Alpes in 2026. An honest guide to Lyon, Grenoble, Annecy, Chambéry, Valence and Clermont-Ferrand: jobs, prices and mountain life.",
+    category: "moving",
+    emoji: "🏔️",
+    readMinutes: 8,
+    publishedAt: "2026-06-04",
+    updatedAt: "2026-06-04",
+    intro: "Auvergne-Rhône-Alpes is the most varied region in France, running from the high Alps through the Rhône valley to the volcanoes of the Auvergne. That range is the draw: you can have a serious city career and ski at weekends, or trade a little of the salary for a town at the foot of the mountains. Lyon is the economic engine, but Grenoble, Annecy, Chambéry, Valence and Clermont-Ferrand each offer a distinct balance of quality of life against cost. This guide compares those options for someone relocating: who they suit, what housing costs, and the honest drawbacks of mountain living, so you can pick the base that fits your work and your budget.",
+    sections: [
+      {
+        heading: "What and where Auvergne-Rhône-Alpes is",
+        body: "Auvergne-Rhône-Alpes sits in south-east France, a large region stretching from the Italian and Swiss borders in the east to the Massif Central in the west. Its identity is geographic diversity: the Alps and their ski resorts, the Rhône valley acting as the main north-south corridor of the country, and the older, gentler volcanic landscapes of the Auvergne around Clermont-Ferrand. Climate shifts with that terrain. The mountains bring cold, snowy winters and cool air; the Rhône valley is warmer and far sunnier, with Valence recording around 2 300 hours of sun a year. This is the natural home of anyone who wants both a real city and the outdoors close at hand, which is the region's defining selling point and the reason it keeps attracting new arrivals.",
+      },
+      {
+        heading: "Where to base yourself",
+        body: "Lyon is the obvious anchor: France's second economic city, regularly voted the best place to live by the French, with a strong food culture and a genuinely diversified job market spanning pharmaceuticals, chemicals, tech, finance and logistics. Grenoble is the tech heart, home to STMicroelectronics, Soitec, Schneider Electric, the CEA and INRIA, and ringed by three mountain massifs. Annecy is the postcard town: lake, mountains, a medieval old town and exceptional cleanliness. Chambéry, around 60 000 people between Lyon and Geneva, offers an easier alpine pace, while Valence on the Rhône is sunny and well placed between Lyon and Marseille. Clermont-Ferrand is the underrated one, with solid employers (Michelin, Limagrain, the teaching hospital), a lively student scene and the lowest big-city rents in the region.",
+      },
+      {
+        heading: "Property and cost of living",
+        body: "Costs vary sharply across the region. Lyon is the dearest big city, with one-bedroom rents of roughly 900€ to 1 100€ a month in the centre and buying prices around 5 000€/m²; the suburbs around Tassin, Écully or Caluire offer some relief. Annecy is the real outlier: its popularity has pushed buying prices to 5 000€ to 6 000€/m², on a par with Lyon, which makes it hard for a first-time buyer and best suited to high earners or people selling a Paris property. Grenoble is far gentler given its economic weight, with one-bedrooms near 750€ and buying around 3 200€/m². Chambéry sits near 820€ to rent and 3 600€/m² to buy, while Valence and Clermont-Ferrand are the bargains, with rents from roughly 680€ and 540€ and buying around 2 400€/m².",
+      },
+      {
+        heading: "Climate and daily life",
+        body: "Daily life here is organised around the mountains. In Grenoble, Annecy or Chambéry the slopes, lakes and trails are genuinely on the doorstep, and weekends revolve around skiing, hiking and the water. The trade-off is winter: cold, snowy and, in the bowl-shaped valleys, prone to trapped air, and Grenoble's winter air pollution is a real and well-documented drawback rather than a minor gripe. The Rhône valley is the sunnier, milder counterweight, which is much of Valence's appeal. Lyon offers the fullest urban life, with the food, culture and density of a major city, while the smaller towns deliver calm and access to nature at the cost of some bustle. The popular local model is the so-called alpine tribe: three days a week in the city, two in the mountains.",
+      },
+      {
+        heading: "Getting there and around",
+        body: "The region is well connected, especially along the Rhône corridor. Lyon has its own international airport and sits on the high-speed line, with the TGV reaching Paris in about 2h; Grenoble, Valence and Chambéry are all within reach of that spine. Valence's central position between Lyon and Marseille and the dense web of mid-sized towns mean that places like Romans-sur-Isère, Montélimar, Annonay and Vichy are roughly an hour from Lyon or Grenoble, which underpins the commute-and-mountains lifestyle. The honest caveat is that once you leave the cities and the valley for the smaller alpine and Auvergne towns, you will need a car: rural public transport thins out quickly, and mountain roads can be slow or snowbound in winter, so factor that into where you choose to settle.",
+      },
+      {
+        heading: "Who it suits — and the honest downsides",
+        body: "Lyon suits anyone who wants a full big-city career with the mountains a short drive away, and it has the broadest job market in the region. Grenoble is the obvious choice for tech and engineering, cheaper than its profile suggests but burdened by winter air pollution. Annecy is for high earners, well-established freelancers, comfortable retirees or anyone arriving with Paris property money, because the prices are punishing for a first-time buyer. Chambéry, Valence and Clermont-Ferrand are the value plays for people who want quality of life without Annecy or Lyon prices. The frank downsides are cold, snowy winters, the air-quality problem in the alpine bowls, near-total car dependence outside the cities, and the way the region's most beautiful spots, Annecy above all, have been priced well beyond ordinary local incomes.",
+      },
+    ],
+    relatedCities: ["lyon","grenoble","annecy","chambery","valence"],
+    tags: ["living in Auvergne-Rhône-Alpes","Auvergne-Rhône-Alpes expat","moving to france","French Alps","Lyon"],
+  },
+  {
+    slug: "living-in-nouvelle-aquitaine-2026",
+    title: "Living in Nouvelle-Aquitaine: An Expat Guide to France's Atlantic South-West (2026)",
+    metaTitle: "Living in Nouvelle-Aquitaine 2026: Expat & Relocation Guide",
+    metaDesc: "Moving to Nouvelle-Aquitaine? An honest expat guide to Bordeaux, Pau, La Rochelle and Poitiers — Atlantic coast, property prices, costs and the trade-offs.",
+    category: "moving",
+    emoji: "🌊",
+    readMinutes: 8,
+    publishedAt: "2026-06-04",
+    updatedAt: "2026-06-04",
+    intro: "Nouvelle-Aquitaine is the largest region in France by area, running from the beaches of the Bassin d'Arcachon all the way to the foothills of the Pyrenees. Bordeaux is the obvious metropolis, but the real story for an incomer is the spread of cheaper, equally appealing alternatives behind it: Pau for the mountains, La Rochelle for the Atlantic, Poitiers for student energy and a fast train to Paris, and the Charente towns for slow-living value. People move here for the ocean climate, the wine country and a genuinely good quality of life that still costs less than Paris or the Riviera. This guide covers where to base yourself, what property and daily life actually cost, and the honest downsides to weigh first.",
+    sections: [
+      {
+        heading: "What and where Nouvelle-Aquitaine is",
+        body: "Nouvelle-Aquitaine is the giant of mainland France — the biggest region by surface area, stretching from the Atlantic dunes around Arcachon down to the Pyrenean border with Spain. That scale means it isn't one place but several: the Bordeaux wine plains, the surf coast of the Landes, the Basque country around Bayonne, the rolling Périgord, and the gentle Charente around Cognac and Saintes. The defining note is the ocean climate — mild, green and wetter than the Mediterranean south, with real Atlantic weather rather than guaranteed sun. Culturally it's layered: Gascon and Basque identities in the south-west, a deep wine and gastronomy tradition, rugby as close to a religion, and a strong sense of regional pride. Bordeaux anchors the region, but a large share of the territory is rural or small-town, which is exactly what draws people priced out of the bigger French metros.",
+      },
+      {
+        heading: "Where to base yourself",
+        body: "Bordeaux is the capital and the headline act: a metropolis transformed over the last decade by the LGV high-speed line to Paris (2h05), a renovated centre, a modern tram and a serious food and culture scene around the Port de la Lune. Pau, in the far south, is a perennial fixture in France's quality-of-life rankings — the view of the snow-capped Pyrenees from the Boulevard des Pyrénées is hard to beat, and it has an active university and a mixed economy of oil, aerospace and tourism. Bayonne shares a strong Basque identity and tourist pull with neighbouring Biarritz. La Rochelle (around 75,000 people) is a mid-sized Atlantic city with an international brand built on the Francofolies festival and a sustainability reputation. Poitiers is a lively student city — over 25,000 students in a population near 90,000 — with a medieval core and a fast TGV to Paris. Limoges, Cognac, Saintes and Périgueux round out the cheaper, slower options inland.",
+      },
+      {
+        heading: "Property and cost of living",
+        body: "The price spread here is wide, which is the whole appeal. Bordeaux is the expensive end at around €4,500/m² on average — the prices exploded as the city reinvented itself, and the value for a first-time buyer has fallen sharply. La Rochelle sits near €4,200/m², with two-bed rents around €750 a month; high for the region, but below Bordeaux. Bayonne is similar at about €4,500/m², pushed up by Basque-coast demand. Step inland and it drops fast: Pau is roughly €2,400/m² with a two-bed near €650, Poitiers around €2,100/m² with two-beds near €620, and Limoges among the cheapest prefecture prices in France at about €1,600/m². The Charente towns are cheaper still — Saintes near €1,800/m², Cognac about €1,500/m², Angoulême around €1,800/m². The honest caveat is the usual one: the cheapest property tends to sit where the local job market is thinnest.",
+      },
+      {
+        heading: "Climate and daily life",
+        body: "This is the Atlantic, not the Med, and that matters. The climate is oceanic — mild winters, warm rather than scorching summers, and noticeably more rain and cloud than Provence or the Riviera. The pay-off is greenery, surf and a coastline that runs for hundreds of kilometres. Daily life leans outdoors when the weather allows: the Arcachon basin and the Landes beaches for the coast, the Pyrenees within reach of Pau for hiking and skiing, the Périgord for its food, and the Charente rivers for cycling and slow weekends. The wine country shapes the calendar — markets, vendanges, terrace seasons. Saintes pairs an ocean-tinged climate with Roman heritage; Périgueux is the capital of truffle and foie gras. For remote workers and active retirees, the value-to-quality ratio across the inland towns is genuinely hard to match elsewhere in France.",
+      },
+      {
+        heading: "Getting there and around",
+        body: "Bordeaux is the connectivity hub: the LGV puts Paris at 2h05 by train, and Bordeaux-Mérignac airport runs domestic and European routes. Poitiers is even closer to the capital by rail at around 1h20, which is a big part of why it draws Paris remote workers. Beyond those, the region's sheer size is the catch — a car is close to essential outside the main cities. The Périgord, the Charente, the Landes and the Basque hinterland are not places you commute from by train, and rural rail and bus links thin out quickly. Bayonne and Pau sit on the southern Atlantic axis with reasonable connections, and Biarritz has its own airport. The practical rule: you can live largely car-free in central Bordeaux, but the small-town and coastal lifestyle that pulls many people here assumes you drive.",
+      },
+      {
+        heading: "Who it suits — and the honest downsides",
+        body: "Nouvelle-Aquitaine fits a lot of profiles. Bordeaux suits those wanting a full metropolis with aerospace, defence and wine-economy jobs, if the price is bearable. Pau, Poitiers and La Rochelle work well for remote workers chasing quality of life on a moderate budget. The Charente and Périgord towns suit active retirees and anyone optimising for low cost and slow living. Families get more space for the money than on the Mediterranean coast. The downsides are real. Bordeaux's value has eroded badly for first-time buyers. The Atlantic weather is greyer and wetter than the south, which disappoints anyone expecting guaranteed sun. The qualified local job market is concentrated in Bordeaux — elsewhere you mostly need to bring your own work. And the coastal hotspots near Arcachon and the Basque country carry speculative, holiday-driven pricing. Pick your base for the trade-off you actually want: city access, mountains, ocean or value.",
+      },
+    ],
+    relatedCities: ["bordeaux","pau","la-rochelle","poitiers","limoges"],
+    tags: ["living in nouvelle-aquitaine","nouvelle-aquitaine expat","moving to france","atlantic coast","bordeaux"],
+  },
+  {
+    slug: "living-in-provence-alpes-cote-d-azur-2026",
+    title: "Living in Provence-Alpes-Côte d'Azur (PACA): An Expat Guide to France's Sun-and-Sea Region (2026)",
+    metaTitle: "Living in PACA 2026: Expat Guide to Provence & the Côte d'Azur",
+    metaDesc: "Moving to Provence-Alpes-Côte d'Azur? An honest expat guide to Nice, Marseille, Aix-en-Provence and Toulon — sun, sea, property prices and the real downsides.",
+    category: "moving",
+    emoji: "☀️",
+    readMinutes: 8,
+    publishedAt: "2026-06-04",
+    updatedAt: "2026-06-04",
+    intro: "Provence-Alpes-Côte d'Azur — PACA — is the France of the postcard: sun, sea, lavender, the Riviera and a food culture to match. It's also one of the most in-demand and most expensive corners of the country, where the dream collides with a strained property market, sharp inequality and chronic traffic. The region runs from Marseille and the calanques across to glamorous Nice, up through Aix-en-Provence and the Var, and back into the Southern Alps. This guide sorts the appeal from the trade-offs across the main cities, covers what property and daily life actually cost, and is honest about the red flags an incomer should check before committing to the deep south-east.",
+    sections: [
+      {
+        heading: "What and where Provence-Alpes-Côte d'Azur is",
+        body: "PACA is the south-east corner of France, and it packs an unusual range into one region. The coast is the famous part — Marseille and its calanques at the western end, the resort string of the Côte d'Azur (Cannes, Antibes, Nice) along the Riviera to the east. Inland sits classic Provence: Aix-en-Provence, Avignon, Arles and the Var hinterland of stone villages, vineyards and olive groves. And to the north rise the Southern Alps, so you can genuinely reach snow and sea in the same region. The identity is strong — Provençal heritage, markets, pétanque, a Mediterranean rhythm to daily life — and the climate is the headline, with Marseille claiming around 300 days of sun a year. It's the France millions of people fantasise about, which is precisely why demand and prices run so hot here.",
+      },
+      {
+        heading: "Where to base yourself",
+        body: "Nice is the fifth-largest city in France and the capital of the Côte d'Azur, with a powerful identity built on the Promenade des Anglais, the old town and the castle hill — but it's also one of the most expensive cities outside Paris, with chronic coastal traffic and a very speculative market. Marseille is the divisive one: a metropolis in full reinvention (Euroméditerranée, Aix-Marseille University, a growing tech sector) but still marked by social inequality and rising crime in some districts; the calanques, the Vieux-Port and the sun compensate for many, and choosing the right neighbourhood is critical. Aix-en-Provence is the calmer, more bourgeois, more expensive option, with a major university and an intense cultural scene, and Aix to Marseille is only 30 minutes by train. Toulon, the navy city, is cheaper and lives year-round. Avignon and Arles, plus the Var hinterland around Draguignan, round out the value end.",
+      },
+      {
+        heading: "Property and cost of living",
+        body: "PACA is broadly expensive, but the spread between the coast and the interior is large. Nice is at the top end — around €5,200/m², with two-bed rents of €900 to €1,200 a month — and the Riviera resorts go higher still, with Cannes near €6,500/m² and Antibes around €5,200/m². Aix-en-Provence runs around €5,000/m² in the centre, reflecting its polished reputation. Marseille is the relative bargain among the big cities at around €3,500/m² with two-beds near €700, though prices vary enormously by district. Toulon is more accessible for a coastal city at about €3,200/m² with two-beds near €680. Move inland and it eases: Avignon and Arles sit around €3,000 to €3,200/m² with two-beds near €720, and the Var hinterland around Draguignan drops to roughly €2,800/m². As ever, the cheapest options sit furthest from the coast and the jobs.",
+      },
+      {
+        heading: "Climate and daily life",
+        body: "The climate is the reason most people come, and it delivers — this is the sunniest, warmest corner of mainland France, with Marseille claiming around 300 days of sun a year. Daily life is lived outside: long terrace seasons, open-air markets, swimming and hiking from spring to autumn, and a slower Mediterranean tempo. The geography is the other draw. The calanques sit on Marseille's doorstep, the Riviera beaches run east from Nice, the Var and Provençal villages offer wine country and quiet, and the Southern Alps put real mountains and ski resorts within the same region. Saint-Tropez is about an hour from Toulon, and Avignon and Arles add world-class heritage — the Palais des Papes, Roman monuments, the Van Gogh connection. The flip side is that the heat, the crowds and the high-season congestion are intense, and the wind — mistral and tramontane — can be wearing over time.",
+      },
+      {
+        heading: "Getting there and around",
+        body: "PACA is well connected. Nice-Côte d'Azur is one of France's busiest airports with extensive European routes, and Marseille-Provence airport adds more, so reaching the rest of Europe rarely means routing through Paris. On rail, the TGV links Marseille, Aix-en-Provence, Avignon, Toulon and Nice into the national network, with the Aix-to-Marseille hop taking just 30 minutes — short enough to live in one and work in the other. The catch is local mobility. The coastal road network is chronically congested, traffic on the Côte d'Azur is a daily reality, and the Var hinterland and the Alps essentially require a car. You can live car-free in central Nice, Marseille or Aix, but the village, vineyard and mountain lifestyle that pulls many people to Provence assumes you drive — and parking and summer gridlock are part of the deal.",
+      },
+      {
+        heading: "Who it suits — and the honest downsides",
+        body: "PACA suits well-off professionals and European expats drawn to Nice and the Riviera; anyone wanting a reinventing big-city scene in Marseille, provided they choose the neighbourhood carefully; those after a polished, cultured base in Aix with easy Marseille access; and remote workers and retirees willing to trade coastal premiums for the value of the Var hinterland, Avignon or Arles. The downsides are not trivial and the region itself flags them. There is real flood risk in the Alpes-Maritimes and Bouches-du-Rhône, serious summer wildfire risk across the Var and Alpes-Maritimes, the psychologically wearing mistral and tramontane winds, summer air pollution in Marseille and Nice, and speculative, overheated property markets in the tourist towns. Marseille's neighbourhood-by-neighbourhood inequality makes location choice genuinely decisive. Check the local risk-prevention plans (PPR) before buying anywhere, pick your city and district deliberately, and budget for prices that, on the coast, rival anywhere in France.",
+      },
+    ],
+    relatedCities: ["nice","marseille","aix-en-provence","toulon","avignon"],
+    tags: ["living in paca","provence-alpes-cote-d-azur expat","moving to france","cote d'azur","marseille"],
+  },
+  {
+    slug: "living-in-grand-est-2026",
+    title: "Living in Grand Est: An Expat Guide to France's Border Region (2026)",
+    metaTitle: "Living in Grand Est 2026: Expat Guide to Strasbourg & Nancy",
+    metaDesc: "Moving to Grand Est? An honest expat guide to Strasbourg, Nancy, Metz and Reims — cross-border work, property prices, costs and the real downsides.",
+    category: "moving",
+    emoji: "🥨",
+    readMinutes: 8,
+    publishedAt: "2026-06-04",
+    updatedAt: "2026-06-04",
+    intro: "Grand Est is France's north-eastern border region, sitting at the crossroads of Germany, Luxembourg and Switzerland. For an incoming expat that location is the whole point: Strasbourg is a working European capital, Nancy and Metz offer real-city culture at modest rents, Reims puts Paris 45 minutes away by TGV, and tens of thousands of residents cross a border every morning to earn a foreign salary. It also carries a Franco-German identity all its own, from choucroute to Christmas markets. This guide covers where to base yourself, what property and daily life actually cost, and the honest trade-offs — including a genuinely hard winter — before you commit to the east.",
+    sections: [
+      {
+        heading: "What and where Grand Est is",
+        body: "Grand Est was formed by merging three older regions — Alsace, Lorraine and Champagne-Ardenne — and it shows: this is less one place than three stitched together along France's eastern frontier. To the east, Alsace runs along the Rhine and the German border, with Strasbourg and Colmar; in the centre, Lorraine holds Nancy and Metz and reaches up to Luxembourg; to the west, Champagne is vineyard country around Reims. The defining feature is the borders. Germany, Luxembourg and Switzerland all sit within reach, which shapes the job market, the food and the culture in a way you don't get elsewhere in France. Expect a strong Franco-German heritage — bilingual families, half-timbered villages, beer alongside wine — and a food culture built on choucroute, mirabelle plums, Munster cheese and Champagne. Nature is close too: the Vosges mountains, the Alsace vineyard, and the forests of the Ardennes.",
+      },
+      {
+        heading: "Where to base yourself",
+        body: "Strasbourg is in a category of its own. As the seat of the European Parliament and the Council of Europe it draws diplomats, civil servants and students from around the world, which keeps demand — and rents — high. The payoff is an exceptional quality of life: dense tram network, serious cycling infrastructure and a UNESCO-listed old town. Nancy, the Lorraine capital, is often described as a real city without the drawbacks of a metropolis: Place Stanislas, an opera house and grandes écoles (Sciences Po, Mines Nancy, the University of Lorraine) give it a metropolitan cultural level for rents around 30% below Lyon. Metz has been transformed since the Centre Pompidou-Metz opened in 2010, with a diversified economy and Luxembourg under 40 minutes away. Reims leans on Champagne houses, wine tourism and a Stellantis car plant, plus that 45-minute TGV link to Paris. Colmar, Épinal and Mulhouse round out the cheaper options.",
+      },
+      {
+        heading: "Property and cost of living",
+        body: "Grand Est covers a wide price spread, and the gap between Strasbourg and everywhere else is the thing to understand. Strasbourg is the expensive base, around €3,800/m² to buy, with a two-bed renting at roughly €750–900 a month — European-capital demand keeps it tight. Step into Lorraine and prices ease sharply: Nancy sits near €2,400/m² with a two-bed around €710, while Metz is about €2,300/m² and €680. Reims runs at a similar €2,300/m² with a two-bed near €650, strong value for a city this close to Paris. The real bargains are at the edges: Colmar is around €3,000/m² (kept high by tourism and Swiss buyers), but Mulhouse drops to about €1,700/m² and Épinal to roughly €1,500/m² — among the lowest in the region. The honest caveat is the usual one: the cheapest towns also have the thinnest local job markets, so price and employment pull against each other unless you commute across a border.",
+      },
+      {
+        heading: "Climate and daily life",
+        body: "Daily life in Grand Est is shaped by its Franco-German rhythm and, more bluntly, by its winters. This is one of the colder, greyer corners of France: the continental climate brings genuinely hard, long winters, and Épinal and Reims in particular feel it. If you've moved for Mediterranean sun, this is not your region. What you get instead is a strong seasonal culture — the Christmas markets of Strasbourg and Colmar are famous for a reason — and easy access to the outdoors, from hiking and skiing in the Vosges to walking the Alsace wine route. The food culture is a real part of everyday life rather than a tourist add-on: choucroute, Munster, mirabelle and Champagne are local, not imported. Cities like Strasbourg and Nancy are well set up for car-free living thanks to good tram networks, while the smaller towns reward you with space, quiet and proper countryside on the doorstep.",
+      },
+      {
+        heading: "Getting there and around",
+        body: "Grand Est is unusually well connected for an eastern region, and the cross-border dimension is its standout feature. The TGV Est puts Reims about 45 minutes from Paris and links Strasbourg, Nancy and Metz to the capital, while Strasbourg and the wider region tie into the German high-speed network too. The headline for many movers, though, is foreign work. Metz sits under 40 minutes from Luxembourg, and tens of thousands of cross-border commuters (frontaliers) live in Lorraine and Alsace while drawing higher salaries in Luxembourg, Germany or Switzerland — a major reason people choose to base here. Within the cities, Strasbourg, Nancy and Metz all run effective tram systems that make car-free living realistic. Outside the urban cores — the Vosges, the vineyards, the Ardennes — a car becomes close to essential, as it does anywhere in rural France.",
+      },
+      {
+        heading: "Who it suits — and the honest downsides",
+        body: "Grand Est is a strong fit for cross-border workers eyeing Luxembourg, German or Swiss salaries while keeping French living costs; for European-institution professionals and bilingual Franco-German families around Strasbourg; for culture-minded movers who want a real city at Nancy or Metz prices; and for remote workers wanting Reims and its 45-minute Paris link. It's a weaker fit if you can't face a long, cold, grey winter, or if you want guaranteed sunshine and a Mediterranean pace of life. The region also still battles a slightly drab image in parts, and away from the border the local economy can feel quieter. The honest summary: the borders and the TGV are the real draw, the rents outside Strasbourg are genuinely good value, and the food and nature are underrated — but go in clear-eyed about the winter, and pick your base around how you actually plan to earn.",
+      },
+    ],
+    relatedCities: ["strasbourg","nancy","metz","reims","colmar"],
+    tags: ["living in grand est","grand est expat","moving to france","cross-border work","strasbourg"],
+  },
+  {
+    slug: "living-in-pays-de-la-loire-2026",
+    title: "Living in Pays de la Loire: An Expat Guide to the Atlantic West (2026)",
+    metaTitle: "Living in Pays de la Loire 2026: Expat Guide to Nantes & Angers",
+    metaDesc: "Moving to Pays de la Loire? An honest expat guide to Nantes, Angers, Le Mans and Saint-Nazaire — jobs, property prices, costs and the real downsides.",
+    category: "moving",
+    emoji: "⛵",
+    readMinutes: 8,
+    publishedAt: "2026-06-04",
+    updatedAt: "2026-06-04",
+    intro: "Pays de la Loire is the Atlantic-facing region west of Paris, and it has become one of the most popular landing spots for people leaving the capital in search of a better quality of life. Nantes, regularly voted one of France's most liveable cities, is the headline, but Angers, Le Mans, Laval and Saint-Nazaire each offer a convincing alternative at noticeably gentler prices. The region runs from the Loire valley out to the ocean, with a diversified economy spanning aerospace, food production and tech. This guide covers where to base yourself, what property and daily life actually cost, and the honest trade-offs before you commit to the Atlantic west.",
+    sections: [
+      {
+        heading: "What and where Pays de la Loire is",
+        body: "Pays de la Loire sits on France's Atlantic west, stretching from the Loire valley down to the ocean and the resort coast around La Baule. It's the kind of region people move to rather than from: a steady stream of Parisians has relocated here for the trade of a calmer life within easy reach of the capital. The geography is varied without being dramatic — river valleys, farmland, a working coastline and the estuary towns. Nantes anchors the region as its economic and cultural locomotive, but the appeal is that the supporting cities are genuinely strong in their own right rather than mere satellites. The draw for most newcomers is the balance: a real urban economy and culture at Nantes, the Atlantic and its beaches within reach, the Loire valley on the doorstep, and prices that — outside Nantes itself — stay markedly softer than comparable cities further south. The whole region is well tied into the rail network toward Paris.",
+      },
+      {
+        heading: "Where to base yourself",
+        body: "Nantes has sat in the top five of France's favourite cities for years, on the strength of its cultural scene (the Machines de l'Île, the Folle Journée festival), an economy spanning Airbus aerospace, digital and food production, and a two-hour TGV link to Paris. The downside is pressure: rents have risen hard, with a two-bed now between €750 and €900, and the property market is tight — outer districts like Saint-Herblain, Rezé or Carquefou let you breathe a little. Angers is the value pick, 40 minutes from Paris by TGV and an hour from Nantes, with a two-bed around €600, a medieval château, 40,000 students and a pioneering plant-science cluster. Le Mans, beyond the famous 24-hour race, has reinvented itself with a tramway and a fine medieval quarter, and Paris is 55 minutes away. Saint-Nazaire offers the Atlantic without Breton prices, and Laval and Cholet are the cheapest of all.",
+      },
+      {
+        heading: "Property and cost of living",
+        body: "Pays de la Loire spans a wide price range, and the spread is exactly what makes it work for different budgets. Nantes is the expensive base, around €4,200/m² to buy and a two-bed renting at €750–900 a month, the price of its top-five popularity. Angers is the obvious step down at roughly €3,000/m² with a two-bed near €600, which is why it's so often cited as the region's best value-for-money. From there it gets cheaper fast: Saint-Nazaire is around €2,200/m², Le Mans about €1,900/m² with a two-bed near €520 — among the cheapest for a city its size — and Cholet a similar €1,900/m². The real bargains are in Mayenne: Laval drops to roughly €1,550/m² with a two-bed around €490. As ever, the honest caveat applies — the cheaper the town, the thinner the local private job market — but the Nantes-Angers axis manages to combine reasonable prices with a deep economy.",
+      },
+      {
+        heading: "Climate and daily life",
+        body: "Daily life in Pays de la Loire is built around a temperate Atlantic climate and an outdoors that's never far away. The weather is mild and oceanic rather than sunny in the Mediterranean sense — wetter and greyer than the south, but without harsh extremes — which suits people who want greenery and a moderate pace over guaranteed heat. The coast is the everyday luxury here: from Saint-Nazaire the beaches of La Baule are 15 minutes away, and the wider region opens onto the Atlantic and the Loire valley for weekends. City life centres on Nantes, whose cultural calendar and walkable, tram-served centre give it a genuine metropolitan feel, while Angers and Le Mans offer the same liveability at a smaller, quieter scale. Sport runs deep in the local culture too — Cholet's Pro A basketball team and its famously active population are a good example — and the overall rhythm is relaxed, family-friendly and outdoor-leaning.",
+      },
+      {
+        heading: "Getting there and around",
+        body: "Pays de la Loire is well connected toward Paris, which is much of its appeal for movers and remote workers. The TGV puts Nantes about two hours from the capital, Angers around 40 minutes, and Le Mans just 55 minutes — close enough that a weekly commute or regular trips are realistic. Nantes Atlantique airport adds domestic and European routes for anyone who needs to fly. Within the cities, Nantes runs an extensive tram network and Le Mans has its own tramway, both making car-free living workable in the urban cores. The economy backs up the connectivity: aerospace with Airbus and Safran around Nantes and Saint-Nazaire, food production with Lactalis (born in Laval) and others, tech via the Digital Loire Valley cluster, and health and pharma with names like Sartorius Stedim and Boiron. Outside the cities, though — the coast, the Loire countryside — a car is the practical default.",
+      },
+      {
+        heading: "Who it suits — and the honest downsides",
+        body: "Pays de la Loire is a strong fit for Parisians wanting a calmer, cheaper life within TGV reach; for aerospace, food-industry and tech professionals drawn to the Nantes-Saint-Nazaire corridor; for remote workers eyeing the Nantes-Angers axis with its mix of culture, fibre and proximity to Paris; and for families after a relaxed, outdoor, coast-adjacent base at sane prices. It's a weaker fit if you've moved for sunshine — this is a mild, often grey Atlantic climate, not a Mediterranean one — or if you need a major national cultural capital beyond what Nantes provides. Nantes itself now carries metropolitan-level rents and a tight market, so the value increasingly lies in the secondary cities. The honest summary: the region delivers a rare combination of liveability, a solid diversified economy and (outside Nantes) genuinely affordable property — accept the oceanic weather and pick your city to match your budget and your work.",
+      },
+    ],
+    relatedCities: ["nantes","angers","le-mans","saint-nazaire","laval"],
+    tags: ["living in pays de la loire","pays de la loire expat","moving to france","atlantic coast","nantes"],
+  },
+  {
+    slug: "living-in-bourgogne-franche-comte-2026",
+    title: "Living in Bourgogne-Franche-Comté: An Expat Guide to Burgundy and the Jura (2026)",
+    metaTitle: "Living in Bourgogne-Franche-Comté 2026: Expat Guide",
+    metaDesc: "Moving to Bourgogne-Franche-Comté? An honest expat guide to Dijon, Besançon and Auxerre — wine, the Jura, some of the most affordable property in France, and the trade-offs.",
+    category: "moving",
+    emoji: "🍷",
+    readMinutes: 8,
+    publishedAt: "2026-06-04",
+    updatedAt: "2026-06-04",
+    intro: "Bourgogne-Franche-Comté is one of the regions overseas buyers consistently overlook, which is precisely why it can be such good value. Most people know it for two things — Burgundy wine and Dijon mustard — but the region also holds Besançon, regularly ranked among the greenest and most liveable cities in France, and a stretch of the Jura that feels closer to Switzerland than to Paris. Property here is among the most affordable in mainland France, and the quality of life is high if you want a slower, food-and-nature-led rhythm. The catch is the job market: outside Dijon it is thin, so this is a region that rewards remote workers, frontaliers and the semi-retired far more than local job-seekers. This guide covers where to base yourself, what property and daily life actually cost, and the honest downsides.",
+    sections: [
+      {
+        heading: "What and where Bourgogne-Franche-Comté is",
+        body: "Bourgogne-Franche-Comté sits in eastern-central France, a merger of two historic provinces: Burgundy (Bourgogne) to the west, famous for its wine and gastronomy, and Franche-Comté to the east, bordering Switzerland and dominated by the Jura mountains. It is a large, lightly populated region, more rural than most newcomers expect — vineyards, forests, river valleys and the limestone gorges of the Jura, rather than big cities. The two anchors are Dijon, the regional capital and a UNESCO-listed gastronomy hub, and Besançon, a compact green city wrapped in a loop of the river Doubs. Beyond those, you are mostly in market towns and wine villages. The identity is strongly tied to food and drink — Burgundy's grands crus, Comté cheese, Dijon mustard — and to an outdoor culture built around the Jura. For an incoming expat the headline is straightforward: real Mediterranean it is not, but you get genuine countryside, a serious food tradition and low prices, within a couple of hours of Paris by train.",
+      },
+      {
+        heading: "Where to base yourself",
+        body: "Two cities do most of the work. Dijon is the regional capital and the obvious landing spot: an exceptional historic centre of mansions and covered markets, the Halles Zola, and a University of Burgundy that brings around 35,000 students and keeps the place lively. Its economy leans on agri-food (Maille mustard, Burgundy crémant), health and a growing service sector, and it is the one place in the region with a real local job market, including in tech. Besançon is the other strong base, and arguably the nicer place to live day to day: encircled by a meander of the Doubs and crowned by Vauban's UNESCO-listed citadel, it ranks consistently among France's greenest cities. It was the birthplace of Victor Hugo, Pasteur and the Lumière brothers, and its economy runs on precision industry — watchmaking, microtechnology and a Stellantis plant. Smaller bases suit specific profiles: Auxerre, a medieval town on the Yonne and the gateway to the Chablis vineyards; and Belfort in the far east, an industrial town (GE Renewable Energy, Alstom, Stellantis) with a stronger economy than the regional average and easy reach of Mulhouse and the Swiss border.",
+      },
+      {
+        heading: "Property and cost of living",
+        body: "This is where Bourgogne-Franche-Comté makes its case: it is one of the most affordable regions in mainland France, and the figures are blunt about it. In Dijon you can expect to buy at roughly €2,600/m² and rent a two-room flat for around €650 a month — modest for a regional capital. Besançon is cheaper still, around €2,300/m² to buy and roughly €600 for a two-room rental, very low for a city of its quality. Step out to the market towns and prices fall further: a two-room flat in Auxerre rents for around €490, and a city such as Chalon-sur-Saône sits near €1,700/m² to buy. Compared with Bordeaux, Lyon or anywhere on the Mediterranean, your money goes a long way here, and a family budget that buys a small flat in those cities can buy a house with a garden in much of this region. The standard caveat applies, though: the cheapest property tends to sit in the towns with the weakest local economies, so price and employment pull against each other.",
+      },
+      {
+        heading: "Climate and daily life",
+        body: "Daily life here is built around food, wine and the outdoors, and for many people that is exactly the point. A typical week looks like a Sunday-morning market stacked with local cheeses and wines, a bike ride out through the vineyards, and a weekend hike into the reculées — the dramatic dead-end valleys of the Jura. The regional cooking is not a tourist add-on but part of ordinary life: coq au vin, bœuf bourguignon, Époisses, Comté. It is a rhythm that breaks sharply with the pace of Paris, and for a lot of newcomers that contrast is the whole reason for moving. The climate is continental rather than Mediterranean — proper four-season weather, with cold, sometimes snowy winters in the Jura and warm summers in the valleys. If you have come to France chasing southern sun and long terrace seasons, this is not that region. If you want green countryside, real seasons and a quieter life, it delivers.",
+      },
+      {
+        heading: "Getting there and around",
+        body: "The region is better connected to Paris than its rural feel suggests, which is a large part of its appeal to remote workers leaving the capital. Dijon is on the main southeast TGV line and easily reached from Paris, and Auxerre is around two hours from Paris by regional TER train — close enough that it is increasingly drawing remote workers out of the capital. Besançon has its own TGV station, and the far-eastern towns trade on proximity rather than rail: from Belfort, Mulhouse is about 30 minutes away and Basel in Switzerland around 45, which opens up genuine cross-border (frontalier) work and easy weekend travel. Within the region, though, plan on driving. Outside Dijon and Besançon the public-transport network is limited, and the vineyards, the Jura and most of the smaller towns are not places you reach or commute from without a car. The countryside lifestyle that draws people here effectively assumes you have one.",
+      },
+      {
+        heading: "Who it suits — and the honest downsides",
+        body: "Bourgogne-Franche-Comté is a strong fit for remote workers who want affordable property and real countryside within striking distance of Paris; for frontaliers near Belfort working into Switzerland; for food-and-wine enthusiasts who want grands crus and Comté as part of daily life; and for the semi-retired looking to buy a house with land for the price of a city flat elsewhere. The honest weakness is the job market. The regional economy is solid but not buoyant — industry (Peugeot at Sochaux, Alstom at Belfort, Framatome), agri-food, health and precision technology in Besançon — and outside Dijon, local hiring, particularly in tech and digital, is genuinely thin. Parts of the region are rural and ageing, with services that thin out the further you get from the two main cities. And the continental climate means cold winters rather than year-round sun. The summary: it is excellent value and high on quality of life, but come with remote income or a cross-border job rather than expecting to land work locally, and be honest with yourself about wanting a quiet, seasonal, small-town life.",
+      },
+    ],
+    relatedCities: ["dijon","besancon","auxerre","belfort","chalon-sur-saone"],
+    tags: ["living in bourgogne-franche-comté","bourgogne-franche-comté expat","moving to france","burgundy wine","dijon"],
+  },
+  {
+    slug: "living-in-centre-val-de-loire-2026",
+    title: "Living in Centre-Val de Loire: An Expat Guide to the Loire Châteaux Country (2026)",
+    metaTitle: "Living in Centre-Val de Loire 2026: Expat Guide",
+    metaDesc: "Moving to Centre-Val de Loire? An honest expat guide to Tours, Orléans and Blois — châteaux, vineyards, an hour from Paris by train, affordable property, and the catch.",
+    category: "moving",
+    emoji: "🏰",
+    readMinutes: 8,
+    publishedAt: "2026-06-04",
+    updatedAt: "2026-06-04",
+    intro: "Centre-Val de Loire is the region relocation guides forget, and probably the most logical of all for anyone who wants to leave Paris without truly cutting the cord. Tours is 1h05 from Paris by TGV, Orléans about an hour by Intercités, and Blois 1h20 — close enough to keep one foot in the capital. Property is still reasonable by French standards, the UNESCO-listed Loire valley runs through the middle of the region, and the Renaissance châteaux are not just film sets: they are part of everyday surroundings. The honest catch is the local economy, which is solid in Tours but thins quickly elsewhere. This guide covers where to base yourself, what property and daily life cost, and who the region genuinely suits.",
+    sections: [
+      {
+        heading: "What and where Centre-Val de Loire is",
+        body: "Centre-Val de Loire sits, as the name suggests, in the centre of France, just southwest of Paris, straddling the middle stretch of the Loire river. It is best known for the Loire valley — a UNESCO World Heritage landscape — and its concentration of Renaissance châteaux: Chambord, Blois, Amboise, Chenonceau and Chinon among them. The region splits roughly in two. The northern half, along the Loire around Tours, Orléans and Blois, is the more dynamic and better-connected part, within an hour or so of Paris by train. The southern half, the Cher and Indre departments around Bourges and Châteauroux, is deep rural France — quiet, sparsely populated and very cheap. The defining draws are heritage, vineyards and the river: the Loire valley produces well-known wines (Vouvray, Cheverny, Chinon), and the area is threaded by the Loire à Vélo cycle route. For a newcomer the headline is proximity: this is the closest you can live to Paris while still getting châteaux-country prices, space and a slower pace.",
+      },
+      {
+        heading: "Where to base yourself",
+        body: "The region offers a clear ladder of bases. Tours is the metropolis and the obvious choice for anyone leaving Paris: a beautiful, flat, cyclable city with a university of around 30,000 students keeping nightlife and culture active, and a local economy anchored by the teaching hospital (CHU), pharmaceuticals (Servier and Pfizer have sites in the area) and the agri-food sector. It is probably the most comfortable city in France for a Parisian who works remotely three or four days a week. Orléans is the region's fastest-rising city — recently renovated, with a new tramway and a revived historic centre around the cathedral — and at about 115,000 people offers a balanced urban life, though its economy leans more on logistics, agri-food and business services than tech. Blois (around 46,000 people) is the textbook \"mid-sized town with a château\": the Château de Blois looms over the centre, the scale is human, and Chambord is 20 km away. Further south, Bourges and Châteauroux are deep rural France — cheap and quiet — with Bourges keeping an exceptional Romanesque heritage and the national Printemps de Bourges music festival.",
+      },
+      {
+        heading: "Property and cost of living",
+        body: "Property is one of the region's strongest cards, and it gets cheaper the further south you go. In Tours, expect roughly €2,800/m² in the centre — around 40% less than Bordeaux for a comparable lifestyle, which is the whole pitch for ex-Parisians. Orléans sits near €2,600/m², and Blois lower still at around €2,000/m², with a typical two-room flat renting for about €600 a month. The real bargains are in the south: in and around Bourges and Châteauroux, prices fall to roughly €900–1,200/m², and village houses can be found for around €80,000 — among the cheapest property anywhere in mainland France. For a remote worker or a near-retiree wanting to buy big for little, the maths is hard to beat. The familiar trade-off applies in full force here: the cheapest property sits in the southern Cher and Indre, exactly where the local job market is weakest, so affordability and employment pull firmly in opposite directions.",
+      },
+      {
+        heading: "Climate and daily life",
+        body: "Daily life in Centre-Val de Loire is shaped by the river, the vineyards and the châteaux, and it runs at a noticeably gentler pace than Paris. The Loire valley is UNESCO-listed not only for its châteaux but for the whole river landscape and its tuffeau-stone embankments, and the Loire à Vélo — 820 km from the source to the Atlantic — passes through Tours, Blois, Amboise and Chinon. For many residents that cycle route is not a tourist attraction but part of ordinary life. The white tuffeau caves cut into the limestone serve as wine cellars, guesthouses and even homes, a troglodyte heritage unique in France. The climate is mild and oceanic-leaning, without the harsh winters of the east or the intense summer heat of the south. Around Tours and Orléans you get proper city amenities; in Blois and the south you trade some of that convenience for space, quiet and immediate access to the forests of Sologne and the vineyards.",
+      },
+      {
+        heading: "Getting there and around",
+        body: "Proximity to Paris is the region's single biggest selling point, and the train times back it up. Tours is 1h05 from Paris-Montparnasse by TGV, Orléans about 55 minutes from Paris-Austerlitz by Intercités, and Blois 1h20 — close enough that a weekly or twice-weekly commute into the capital is realistic, which is exactly why it draws remote workers who want to keep a Paris connection without paying Paris prices. That northern, Loire-side axis is where the rail links are good. Within the region, though, a car becomes important the moment you leave the main cities: Blois itself has a weak internal transport network, and the southern Cher and Indre are firmly car-dependent rural country. You can live comfortably car-light in central Tours or Orléans, but the château-and-vineyard lifestyle, the forests of Sologne and the cheaper southern towns all effectively assume you drive.",
+      },
+      {
+        heading: "Who it suits — and the honest downsides",
+        body: "Centre-Val de Loire is built for three clear profiles. First, the ex-Parisian working remotely three to five days a week who wants to keep the TGV link without paying Bordeaux or Nantes prices. Second, the family that values immediate nature — the Loire, the forests of Sologne, the vineyards — alongside architecture and a human scale. Third, the retiree or near-retiree looking to buy big for little in a soft, gentle setting, without exiling themselves to the far end of France. The honest downsides are real. This is not a region for anyone wanting big-metropolis life or a startup scene — for that, Nantes, Rennes or Toulouse make far more sense. Outside Tours the local job market is limited, with Orléans leaning on logistics and the southern Cher and Indre offering very little local hiring at all. Much of the south is deep rural France that is quiet to the point of sleepy, and ageing. Get the base right, though — Tours or Orléans for work and connection, Blois or the south for space and price — and few regions put this much heritage and countryside within an hour of Paris.",
+      },
+    ],
+    relatedCities: ["tours","orleans","blois","bourges","amboise"],
+    tags: ["living in centre-val de loire","centre-val de loire expat","moving to france","loire valley châteaux","tours"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed
