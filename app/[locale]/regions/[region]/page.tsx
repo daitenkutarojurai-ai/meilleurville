@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { EN_GUIDES } from "@/data/guides-en";
 import { scoreColor } from "@/lib/utils";
 import { ORIGIN_BY_LOCALE, hreflangLanguagesEn } from "@/lib/i18n";
 import { REGION_EMOJIS, regionToSlug } from "@/lib/regions";
@@ -83,6 +84,13 @@ export default async function EnRegionDetail({ params }: Props) {
     .filter((c) => c.region === regionName)
     .sort((a, b) => b.scores.global - a.scores.global);
 
+  const regionCitySlugs = new Set(cities.map((c) => c.slug));
+  const regionGuides = EN_GUIDES.filter((g) =>
+    g.relatedCities.some((s) => regionCitySlugs.has(s))
+  )
+    .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime())
+    .slice(0, 12);
+
   const intro = REGION_EN_DESCRIPTIONS[region] ??
     `${cities.length} cities, average score ${(cities.reduce((s, c) => s + c.scores.global, 0) / cities.length).toFixed(1)}/10.`;
 
@@ -129,6 +137,33 @@ export default async function EnRegionDetail({ params }: Props) {
           ))}
         </ol>
       </section>
+      {regionGuides.length > 0 && (
+        <section className="mx-auto max-w-5xl px-4 sm:px-6 pb-10">
+          <div className="flex items-baseline justify-between mb-5">
+            <h2 className="text-xl font-bold text-[var(--text-primary)]">
+              Guides about {regionName}
+            </h2>
+            <Link href="/guides" className="text-xs text-[var(--accent)] hover:underline">
+              All guides →
+            </Link>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {regionGuides.map((g) => (
+              <Link
+                key={g.slug}
+                href={`/guides/${g.slug}`}
+                className="group rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 hover:border-[var(--accent)] transition-colors"
+              >
+                <span className="text-2xl mb-2 block">{g.emoji}</span>
+                <p className="text-sm font-semibold text-[var(--text-primary)] leading-snug group-hover:text-[var(--accent)] transition-colors line-clamp-3">
+                  {g.title}
+                </p>
+                <p className="text-xs text-[var(--text-tertiary)] mt-2">{g.readMinutes} min</p>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
       <Footer />
     </main>
   );
