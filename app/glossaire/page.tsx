@@ -6,9 +6,9 @@ import { StaticPageCrossLink } from "@/components/StaticPageCrossLink";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Glossaire immobilier & relocation · MaVilleIdeal",
+  title: "Glossaire immobilier, fiscalité & aides · MaVilleIdeal",
   description:
-    "Glossaire complet : DPE, LMNP, TAEG, taxe foncière, ZFE, HCSF, assurance emprunteur, fibre FTTH... Tous les termes utiles pour acheter, emprunter ou déménager en France.",
+    "DPE, LMNP, TAEG, ZFE, APL, Visale, Loc'Avantages, MaPrimeAdapt' : tous les termes utiles pour louer, acheter, emprunter ou déménager en France en 2026.",
   alternates: { canonical: "/glossaire" },
 };
 
@@ -213,6 +213,48 @@ const SECTIONS: Section[] = [
       {
         term: "Plus-value immobilière",
         def: "Différence entre prix de vente et prix d'achat (+ frais et travaux). Exonérée pour résidence principale. Pour résidence secondaire ou locatif : 19 % IR + 17,2 % PS, soit 36,2 %, avec abattements progressifs (exonération totale IR après 22 ans détention, exonération PS après 30 ans).",
+      },
+    ],
+  },
+  {
+    title: "Aides au logement et soutiens publics",
+    emoji: "🤝",
+    terms: [
+      {
+        term: "APL (Aide Personnalisée au Logement)",
+        def: "Aide mensuelle versée par la CAF aux locataires (et à certains accédants) sous condition de ressources. Montant variable selon revenus N-2 du foyer, loyer payé, zone géographique (I/II/III), composition familiale. Pour un étudiant seul en T1 à 600 €/mois en zone II : ~100-180 €/mois. À demander dès la signature du bail — rétroactif uniquement sur le mois de la demande. Versement direct au bailleur possible (tiers payant).",
+      },
+      {
+        term: "Visale (garantie locative gratuite)",
+        def: "Caution locative gratuite proposée par Action Logement, ouverte aux moins de 31 ans (tous statuts, étudiants compris) et aux salariés du privé en mobilité dans les 6 mois suivant l'embauche. Couvre les impayés de loyer pendant toute la durée du bail (jusqu'à 36 mensualités). Visa à demander en ligne avant la signature du bail — le bailleur en récupère le numéro et l'enregistre. Souvent plus simple qu'un garant familial, notamment pour primo-locataires ou expat retour.",
+      },
+      {
+        term: "Loc'Avantages (ex-Cosse)",
+        def: "Dispositif fiscal incitant les bailleurs à louer en dessous du marché en échange d'une réduction d'impôt (15 % à 65 % des loyers selon le niveau de décote : Loc1 / Loc2 / Loc3). Conventionnement de 6 ans minimum avec l'Anah. Pour un locataire : loyer 15-45 % sous le marché, plafonds de ressources à respecter, dépôt de dossier directement auprès du propriétaire conventionné. Surfaces concernées surtout dans les zones tendues (Paris, Lyon, Bordeaux, Lille).",
+      },
+      {
+        term: "Action Logement (ex-1 % logement)",
+        def: "Organisme paritaire collectant la contribution des employeurs ≥50 salariés (0,45 % de la masse salariale) pour financer aides au logement et logements sociaux. Gère Visale, Mobili-Pass, Mobili-Jeune, Loca-Pass, AIDE Mobili-Aide, et propose des logements intermédiaires. À solliciter dès qu'un déménagement est lié à une mutation, embauche, alternance ou formation — la plupart des aides sont gratuites mais peu connues.",
+      },
+      {
+        term: "Mobili-Pass / Mobili-Jeune",
+        def: "Aides Action Logement pour salariés du privé mutés ou embauchés à plus de 70 km de leur domicile (Mobili-Pass : prise en charge double loyer ou frais d'agence jusqu'à 3 500 €) ou pour jeunes actifs/alternants de moins de 30 ans en formation pro (Mobili-Jeune : subvention loyer 10-100 €/mois pendant 11 mois, sous plafond de revenus). Demande en ligne dans les 6 mois suivant l'événement déclencheur.",
+      },
+      {
+        term: "Loca-Pass (avance dépôt de garantie)",
+        def: "Prêt à 0 % d'Action Logement finançant le dépôt de garantie d'un logement locatif privé ou social, jusqu'à 1 200 €. Remboursable en 25 mois maximum après une franchise de 3 mois. Ouvert aux moins de 30 ans, alternants, salariés du privé en mobilité. Utile pour déménager sans immobiliser de trésorerie — souvent décisif quand le dépôt + 1er loyer + frais d'agence dépassent 3 000 €.",
+      },
+      {
+        term: "FSL (Fonds de Solidarité Logement)",
+        def: "Dispositif départemental d'aide d'urgence pour locataires en difficulté : impayés de loyer, dépôt de garantie, premiers loyers, factures d'énergie, frais d'assurance habitation. Conditions de ressources strictes, instruction par le département (CCAS ou travailleurs sociaux). Montant et plafonds variables selon le département. À mobiliser tôt en cas de fragilité financière — la commission peut suspendre une procédure d'expulsion.",
+      },
+      {
+        term: "GLI (Garantie Loyers Impayés)",
+        def: "Assurance souscrite par le propriétaire bailleur (et non le locataire) couvrant impayés de loyer, dégradations, frais de procédure. Coût : 2-4 % du loyer annuel charges comprises, payé par le bailleur. Conditions d'éligibilité du locataire : revenus nets ≥ 2,7-3,3 fois le loyer, CDI confirmé ou équivalent. Incompatible avec Visale (un seul dispositif à la fois). Souvent imposée par les agences pour les profils non-CDI standard — connaître les seuils permet de préparer son dossier.",
+      },
+      {
+        term: "MaPrimeAdapt'",
+        def: "Aide forfaitaire de l'Anah pour adapter un logement au vieillissement ou au handicap (douche de plain-pied, monte-escalier, élargissement de portes, WC surélevés). Ouverte aux 60+ en perte d'autonomie (GIR 1-6) ou aux personnes en situation de handicap, sous conditions de ressources. Couverture 50-70 % des travaux jusqu'à 22 000 €. Décisive avant un déménagement vers une résidence principale destinée à durer 15-20 ans — préparer le logement pour les années 75-85.",
       },
     ],
   },
