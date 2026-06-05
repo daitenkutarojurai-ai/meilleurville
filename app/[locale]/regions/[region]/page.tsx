@@ -112,6 +112,12 @@ export default async function EnRegionDetail({ params }: Props) {
           </h1>
         </div>
         <p className="text-[var(--text-secondary)] text-lg max-w-3xl leading-relaxed">{intro}</p>
+        <Link
+          href={`/regions/${region}/synthesis`}
+          className="mt-5 inline-flex items-center gap-2 rounded-xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 px-4 py-2.5 text-sm font-semibold text-[var(--text-primary)] hover:bg-[var(--accent)]/10 transition-colors"
+        >
+          <span>8-dimension synthesis ranking →</span>
+        </Link>
       </section>
       <section className="mx-auto max-w-5xl px-4 sm:px-6 py-6">
         <h2 className="text-xl font-bold mb-4 text-[var(--text-primary)]">
