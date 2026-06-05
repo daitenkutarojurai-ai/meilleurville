@@ -27,6 +27,8 @@ import { computeSportLeisure } from "@/lib/sport-leisure";
 import { housingTensionFor } from "@/lib/housing-tension";
 import { internetScore, internetLabel } from "@/lib/internet-score";
 import { fiscalityForCity } from "@/lib/fiscalite";
+import { getEducation } from "@/lib/education";
+import { haversineKm } from "@/lib/distances";
 import { sunshineDays } from "@/lib/utils";
 
 // Tag patterns that signal a strong seasonal/touristic vocation. Matched on
@@ -967,6 +969,132 @@ function rankDesertCulturel(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
 }
 
+// --- THEME 25 — Sans enseignement supérieur — les enfants devront partir à 18 ans ---
+// Cible : villes ≥ 30 000 hab. qui n'ancrent ni université, ni école d'ingénieur,
+// ni école de commerce, ni Sciences Po, ni CPGE notable selon `lib/education`
+// (curation MESR / CPU / CGE / Conférence des grandes écoles 2024). Une simple
+// antenne universitaire compte pour moitié — pas la même densité d'offre qu'un
+// vrai campus. Filtre clé : on EXCLUT les communes qui se situent dans le bassin
+// universitaire d'une grande métropole (≤ 30 km à vol d'oiseau d'un véritable
+// pôle universitaire), car leurs ados accèdent à un campus en RER/tram quotidien
+// — Aubervilliers, Drancy, Tourcoing, Mérignac ne sont pas en désert
+// supérieur, leurs résidents fréquentent Sorbonne, Lille, Bordeaux. Severity
+// amplifiée par : taille de la commune (plus la ville est grande, plus la part
+// de bacheliers contraints au déménagement est élevée en volume), score culture
+// seed faible (pas de tissu para-éducatif qui compenserait), score remoteWork
+// seed faible (pas de tertiaire qualifié qui retiendrait les diplômés revenus
+// du parcours). Indicateur dédié aux familles qui se posent la vraie question :
+// « si je m'installe ici, dans 8 ans mes ados devront-ils déménager pour
+// étudier à 100 km ? ».
+// Pôles universitaires de référence : on dérive automatiquement la liste des
+// communes de CITIES_SEED dont `lib/education` documente une présence
+// universitaire — y compris les campus délocalisés (qui restent un lieu
+// d'études quotidien pour les communes voisines) et les pôles ultramarins
+// (Pointe-à-Pitre, Fort-de-France, Saint-Pierre-Réunion). On exclut
+// uniquement les « Antenne X » sans campus physique anchored, qui n'ouvrent
+// qu'une ou deux licences. C'est la même curation MESR / CPU que le reste de
+// l'indicateur — sans liste hard-codée à maintenir.
+function buildUniversityHubs(): Array<{ lat: number; lon: number }> {
+  const hubs: Array<{ lat: number; lon: number }> = [];
+  for (const c of CITIES_SEED) {
+    if (c.latitude == null || c.longitude == null) continue;
+    const e = getEducation(c.slug);
+    if (!e.university) continue;
+    // Exclure les antennes pédagogiques sans campus anchored.
+    if (/^antenne\b/i.test(e.university)) continue;
+    hubs.push({ lat: c.latitude, lon: c.longitude });
+  }
+  return hubs;
+}
+
+let _UNIVERSITY_HUBS: Array<{ lat: number; lon: number }> | null = null;
+function getUniversityHubs(): Array<{ lat: number; lon: number }> {
+  if (_UNIVERSITY_HUBS == null) _UNIVERSITY_HUBS = buildUniversityHubs();
+  return _UNIVERSITY_HUBS;
+}
+
+function distanceToNearestUniHubKm(lat: number, lon: number): number {
+  const hubs = getUniversityHubs();
+  let best = Number.POSITIVE_INFINITY;
+  for (const hub of hubs) {
+    const d = haversineKm({ lat, lon }, { lat: hub.lat, lon: hub.lon });
+    if (d < best) best = d;
+  }
+  return best;
+}
+
+function rankSansEnseignementSuperieur(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    const pop = city.population ?? 0;
+    if (pop < 30_000) continue; // hors-cible : sous 30k, l'absence est attendue
+
+    const edu = getEducation(city.slug);
+
+    // Présence pondérée. Université ancrée pèse double (vrai campus complet) ;
+    // école d'ingénieur ancrée pèse 1,5 (filière clé). Antenne / CPGE / IEP /
+    // commerce comptent 1 chacun. Arts-design 0,5 (filière étroite).
+    const isAnnexe = edu.university
+      ? /antenne|campus|p[oô]le|annexe|cufr|proche/i.test(edu.university)
+      : false;
+    let presence = 0;
+    if (edu.university) presence += isAnnexe ? 1 : 2;
+    if (edu.cpge) presence += 1;
+    if (edu.ingenieur && edu.ingenieur.length > 0) presence += 1.5;
+    if (edu.commerce && edu.commerce.length > 0) presence += 1;
+    if (edu.iep) presence += 1;
+    if (edu.artsDesign && edu.artsDesign.length > 0) presence += 0.5;
+
+    if (presence > 1.5) continue; // offre suffisante — hors-cible
+
+    // Filtre clé : exclure les communes du bassin universitaire d'une grande
+    // métropole. À 30 km d'un pôle universitaire, un étudiant accède au campus
+    // en RER / tram / TER quotidien — ce n'est pas un désert supérieur, c'est
+    // une banlieue résidentielle d'aire universitaire.
+    if (city.latitude == null || city.longitude == null) continue;
+    const distKm = distanceToNearestUniHubKm(city.latitude, city.longitude);
+    if (distKm < 30) continue;
+
+    // Base 5 : ville ≥ 30 000 hab. sans offre post-bac réelle.
+    let severity = 5;
+    if (presence === 0) severity += 2.0;
+    else if (presence <= 1.0) severity += 0.9;
+
+    // Bonus taille : impacte plus de familles en valeur absolue.
+    if (pop >= 70_000) severity += 1.5;
+    else if (pop >= 50_000) severity += 1.0;
+    else if (pop >= 40_000) severity += 0.5;
+
+    // Bonus isolement : plus le pôle universitaire est loin, plus le
+    // déménagement de l'ado devient lourd (chambre étudiante + double foyer).
+    if (distKm >= 80) severity += 0.8;
+    else if (distKm >= 60) severity += 0.4;
+
+    // Bonus écosystème faible : culture ≤ 5/10 ET / OU remoteWork ≤ 5/10
+    // = pas de tertiaire qualifié qui retiendrait les diplômés revenus.
+    if (city.scores.culture <= 5) severity += 0.4;
+    if (city.scores.remoteWork <= 5) severity += 0.3;
+
+    severity = Math.min(10, severity);
+    if (severity < 6) continue;
+
+    const offerParts: string[] = [];
+    if (edu.university) offerParts.push(isAnnexe ? "antenne universitaire" : "université");
+    if (edu.cpge) offerParts.push("CPGE");
+    if (edu.ingenieur?.length) offerParts.push("école d'ingénieur");
+    if (edu.commerce?.length) offerParts.push("école de commerce");
+    if (edu.iep) offerParts.push("IEP");
+    if (edu.artsDesign?.length) offerParts.push("école d'art");
+    const offerLabel = offerParts.length > 0
+      ? `offre rachitique (${offerParts.join(", ")})`
+      : "aucune offre post-bac structurée";
+
+    const reason = `${pop.toLocaleString("fr-FR")} hab. · ${offerLabel} · pôle universitaire à ${Math.round(distKm)} km`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -1327,6 +1455,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Severity = (5 − culture seed) × 2 + 1,4 si médiathèque ≥ 7/10 (ou +0,8 si médiathèque ≥ 5/10) + 0,5 si aucun tag culturel (culturel / patrimoine / étudiant / festival / bohème / historique) + 0,6 si transport seed ≤ 4 + 0,5 si population 30 000-80 000 hab. (taille où une scène labellisée et un cinéma indépendant deviennent attendus). Clampé à 10/10, filtré à severity ≥ 6. Sources sous-jacentes : DEPS-MC (Département des études, de la prospective et des statistiques du ministère de la Culture) pour les labels scènes nationales / SMAC / centres dramatiques, BNF observatoire 2024 pour les médiathèques, CNC pour le maillage cinéma art et essai, character-tags du seed propriétaire (vocations affichées). Caveat : la culture associative (MJC, ciné-clubs, festivals citoyens) ne remonte pas systématiquement dans les nomenclatures — une ville en saisie peut avoir une vraie scène alternative non labellisée.",
     rank: rankDesertCulturel,
+  },
+  {
+    slug: "villes-sans-enseignement-superieur",
+    title: "Villes où les enfants devront partir étudier ailleurs",
+    metaTitle: "Sans enseignement supérieur 2026 — Top 12 villes ≥ 30k hab.",
+    metaDescription:
+      "Classement 2026 des villes ≥ 30 000 hab. sans université, école d'ingénieur, école de commerce ni Sciences Po. Source MESR / CGE 2024.",
+    emoji: "🎓",
+    intro:
+      "L'agence vante le calme, la maison de ville accessible, l'école primaire à 200 m, le collège à 1 km. Personne ne projette le scénario à 8 ans : un bachelier qui veut une licence universitaire ou une école d'ingénieur n'aura aucune option sur place. Il faudra trouver une chambre étudiante à Lyon, Toulouse ou Rennes, financer un loyer en plus du foyer parental, et la trajectoire familiale bascule. L'absence d'enseignement supérieur ne se voit pas sur une plaquette immobilière — elle se découvre quand le premier ado arrive en terminale et que les portes ouvertes se font toutes à 100 km.",
+    reality:
+      "On classe les villes ≥ 30 000 habitants dont l'offre post-bac, telle que documentée par la curation MESR / CPU / Conférence des grandes écoles, reste rachitique : ni université ancrée (un vrai campus avec offre disciplinaire), ni école d'ingénieur, ni école de commerce, ni Sciences Po, ni CPGE notable. Une simple antenne universitaire (campus délocalisé, IUT seul, antenne de quelques licences) compte pour moitié — la densité d'offre n'est pas la même qu'un campus complet, et un étudiant qui veut un master spécialisé devra partir de toute façon. On retrouve massivement des préfectures de département moyennes, des sous-préfectures industrielles en reconversion, des stations balnéaires habitées toute l'année, et des satellites péri-urbains qui n'ont jamais investi dans leur propre offre supérieure.",
+    methodology:
+      "Severity = base 5 (≥ 30 000 hab. sans offre réelle) + 2,0 si aucune dimension présente / +0,9 si une seule dimension faible (CPGE ou commerce isolée) + bonus taille (≥ 70k +1,5 / ≥ 50k +1,0 / ≥ 40k +0,5) + 0,4 si culture seed ≤ 5/10 + 0,3 si remoteWork seed ≤ 5/10. Présence pondérée : université ancrée = 2, antenne universitaire = 1, école d'ingénieur = 1,5, CPGE / commerce / IEP = 1, école d'art = 0,5. Filtre : population ≥ 30 000 hab., présence ≤ 1,5, severity ≥ 6. Sources : curation MESR (Ministère de l'Enseignement Supérieur et de la Recherche), CPU (Conférence des présidents d'université), Conférence des grandes écoles (CGE 2024), seed propriétaire (culture, remoteWork). Caveat : un IUT seul ou un BTS public ne suffit pas — l'indicateur cible le décrochage licence/master/grande école, pas le bac+2 technologique généralement disponible.",
+    rank: rankSansEnseignementSuperieur,
   },
 ];
 
