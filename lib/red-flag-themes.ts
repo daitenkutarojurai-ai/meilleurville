@@ -1095,6 +1095,57 @@ function rankSansEnseignementSuperieur(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
 }
 
+// --- THEME 25 — Atteintes aux biens : cambriolages, vols véhicules, dégradations ---
+// Distinct du thème `villes-nuit-tendue` (sous-score nocturnal) et du score
+// safety global (composite 4 dimensions) — on isole ici la dimension
+// `property` de lib/safety-deep, qui pèse 35 % du composite et concentre
+// cambriolages, vols véhicules, dégradations volontaires SSMSI. Cible :
+// villes ≥ 30 000 hab. dont le sous-score property dépasse 6,5/10. Bonus
+// quand atteintes aux personnes corroborent (cumul ≥ 6), bonus métropole +
+// score global ≥ 6,5 (la « belle vitrine » qui dissimule un fond de
+// cambriolages chronique), bonus quand la ville est explicitement
+// touristique > 30k hab. (saturation saisonnière des effractions sur les
+// résidences secondaires et véhicules de location).
+function rankVolsCambriolages(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    if ((city.population ?? 0) < 30_000) continue;
+    const s = computeSafetyDeep(city);
+    if (s.property.score < 6.5) continue;
+
+    const tags = (city.characterTags ?? []).join(" ").toLowerCase();
+    const isMetro = /métropole/.test(tags);
+    const isTouristic = /tourisme|touristique|côte|plage|station/.test(tags);
+
+    let bonus = 0;
+    if (s.persons.score >= 6) bonus += 0.8;
+    if (isMetro && city.scores.global >= 6.5) bonus += 0.5;
+    if (isTouristic && (city.population ?? 0) > 30_000) bonus += 0.4;
+    // Severity = sous-score property direct (déjà 0-10, 10 = pire) + bonus.
+    const severity = Math.min(10, s.property.score + bonus);
+
+    const tops = [
+      { k: "biens", s: s.property.score },
+      { k: "personnes", s: s.persons.score },
+      { k: "nocturne", s: s.nocturnal.score },
+    ]
+      .filter((x) => x.s >= 5.5)
+      .sort((a, b) => b.s - a.s)
+      .slice(0, 2)
+      .map((x) => `${x.k} ${x.s.toFixed(1)}/10`)
+      .join(" · ");
+
+    const contextParts: string[] = [];
+    if (isMetro) contextParts.push("hyper-centre métropole");
+    else if (isTouristic) contextParts.push("pression touristique");
+    const context = contextParts.length > 0 ? ` · ${contextParts.join(" · ")}` : "";
+
+    const reason = `Atteintes aux biens ${s.property.score.toFixed(1)}/10${tops ? ` — ${tops}` : ""}${context}`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -1470,6 +1521,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Severity = base 5 (≥ 30 000 hab. sans offre réelle) + 2,0 si aucune dimension présente / +0,9 si une seule dimension faible (CPGE ou commerce isolée) + bonus taille (≥ 70k +1,5 / ≥ 50k +1,0 / ≥ 40k +0,5) + 0,4 si culture seed ≤ 5/10 + 0,3 si remoteWork seed ≤ 5/10. Présence pondérée : université ancrée = 2, antenne universitaire = 1, école d'ingénieur = 1,5, CPGE / commerce / IEP = 1, école d'art = 0,5. Filtre : population ≥ 30 000 hab., présence ≤ 1,5, severity ≥ 6. Sources : curation MESR (Ministère de l'Enseignement Supérieur et de la Recherche), CPU (Conférence des présidents d'université), Conférence des grandes écoles (CGE 2024), seed propriétaire (culture, remoteWork). Caveat : un IUT seul ou un BTS public ne suffit pas — l'indicateur cible le décrochage licence/master/grande école, pas le bac+2 technologique généralement disponible.",
     rank: rankSansEnseignementSuperieur,
+  },
+  {
+    slug: "villes-vols-cambriolages",
+    title: "Villes où cambriolages et vols de véhicules pèsent au quotidien",
+    metaTitle: "Vols & cambriolages 2026 — Villes les plus touchées",
+    metaDescription:
+      "Classement 2026 des villes ≥ 30 000 hab. où le sous-score « atteintes aux biens » dépasse 6,5/10 : cambriolages, vols de véhicules, dégradations volontaires. Source SSMSI.",
+    emoji: "🔓",
+    intro:
+      "Le score safety global dit « ville moyenne » et l'annonce immobilière vante la rue résidentielle, le parking sécurisé, l'alarme incluse. Sur le terrain : voiture retrouvée fracturée le mardi matin, cave du logement collectif visitée, scooter du voisin volé deux fois en six mois, et la même conversation chez le carreleur la troisième fois qu'on remplace une vitre arrière. Les atteintes aux biens — cambriolages, vols véhicules, dégradations — ne tuent pas, mais elles érodent la vie quotidienne et le portefeuille avec une régularité qui n'apparaît jamais sur une plaquette.",
+    reality:
+      "On isole le sous-score `property` de `lib/safety-deep` — la dimension qui pèse 35 % du composite safety et regroupe cambriolages d'habitation, vols et tentatives de vols de véhicules, vols dans véhicule et dégradations volontaires SSMSI. On retient les villes ≥ 30 000 hab. dont ce sous-score dépasse 6,5/10. Bonus de gravité quand les atteintes aux personnes corroborent (un signal isolé peut tenir à un fait divers ; un cumul biens + personnes ≥ 6 trahit une réalité de bassin). Bonus quand la commune est une grande métropole avec un score global ≥ 6,5/10 — la « belle vitrine » désirable qui dissimule un fond de cambriolages chronique. Bonus enfin quand la ville est explicitement touristique > 30 000 hab. : saturation saisonnière des effractions sur résidences secondaires et véhicules de location, particulièrement documentée sur la façade méditerranéenne et le littoral atlantique.",
+    methodology:
+      "Severity = sous-score property + 0,8 si personnes ≥ 6/10 + 0,5 si métropole avec score global ≥ 6,5 + 0,4 si touristique > 30 000 hab. Pondération du composite safety-deep : biens 35 % · personnes 30 % · nocturne 20 % · violences sexistes 15 %. Sources sous-jacentes : SSMSI (Service statistique ministériel de la sécurité intérieure, interstats.fr — séries communales atteintes aux biens), Insee population, character-tags du seed propriétaire (vocation métropole / touristique). Caveat : un taux élevé peut refléter à la fois une vraie pression et un meilleur taux de plainte ; les vols de vélos en libre-service ne sont pas comptés dans le périmètre SSMSI standard.",
+    rank: rankVolsCambriolages,
   },
 ];
 
