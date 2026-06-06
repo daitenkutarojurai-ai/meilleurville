@@ -21,7 +21,8 @@ export type ExpatCountry =
   | "etats-unis"
   | "espagne"
   | "portugal"
-  | "pays-bas";
+  | "pays-bas"
+  | "italie";
 
 export interface ExpatCountryProfile {
   slug: ExpatCountry;
@@ -358,6 +359,42 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
       "Hypotheek et résidence principale : la déductibilité des intérêts d'emprunt (hypotheekrenteaftrek) prend fin avec la perte du statut résident. Si vous gardez le bien aux Pays-Bas en location, le revenu locatif bascule en box 3 et la fiscalité change — consulter un fiscaliste avant le départ.",
       "Pension AOW et complémentaire : les trimestres cotisés à la Sociale Verzekeringsbank sont totalisés au niveau européen avec ceux de l'Assurance retraite française. Les complémentaires (pensioenfonds : ABP, PFZW, PME, PMT) restent acquises mais les conditions de sortie anticipée diffèrent — conservez tous les pensioenoverzicht annuels.",
       "Logement français en zone tendue : si vous ciblez Lille, Paris ou Strasbourg, anticipez 2-3 mois pour décrocher un T3 avec dossier d'expat (employeur étranger sortant, pas de fiches de paie FR récentes). Prévoir un garant Visale ou un employeur français déjà signé avant l'arrivée.",
+    ],
+  },
+  {
+    slug: "italie",
+    name: "Italie",
+    flag: "🇮🇹",
+    depuisLabel: "l'",
+    auLabel: "En",
+    currency: "EUR",
+    currencyToEurApprox: 1.0,
+    netConversionFactor: 1.0, // 100 € nets en Italie valent environ 100 € de pouvoir d'achat en France hors Paris — coût de la vie globalement comparable, alimentaire un peu moins cher côté IT, logement plus cher dans les grandes métropoles italiennes
+    bestSuitedCities: ["nice", "menton", "cannes", "antibes", "lyon", "marseille", "aix-en-provence", "chambery", "grenoble", "bastia", "ajaccio"],
+    intro:
+      "Le retour d'Italie n'a pas de choc de change (zone euro), et l'écart de niveau de vie est l'un des plus modestes parmi les destinations couvertes : salaires italiens plus bas que les français pour un poste équivalent, mais coût de la vie également plus bas — l'arbitrage net se joue souvent à quelques points près. Le vrai sujet, c'est la fiscalité italienne avec ses régimes spécifiques (impatriati, regime forfettario, flat tax pour les retraités au Sud) qui pouvaient rendre l'expatriation très favorable et dont la sortie ramène mécaniquement vers le barème français. Côté ancrage géographique, la Côte d'Azur (Nice, Menton, Cannes, Antibes) est à moins de 30 minutes de la frontière ligure et permet de garder un pied en Italie ; Lyon offre un TGV vers Turin et Milan en 4-5 h ; la Corse (Bastia, Ajaccio) reste la proximité maritime naturelle.",
+    hadVsWillHave: [
+      { topic: "Salaire net", had: "1 600-2 600 € net cadre (Milan / Rome / Turin)", willHave: "Équivalent ~2 200-3 000 € net en France après charges" },
+      { topic: "Loyer T3", had: "1 300-2 200 € (centre Milan / Rome), 800-1 400 € (Turin / Bologne / Florence)", willHave: "650-1 200 € (Nice, Lyon, Marseille, Aix-en-Provence), 900-1 600 € selon le quartier" },
+      { topic: "Panier alimentaire", had: "Environ 10-20 % moins cher (Esselunga, Conad, marchés)", willHave: "Reprise du niveau français (Lidl, Carrefour, marchés)" },
+      { topic: "Santé", had: "SSN publique gratuite (qualité variable selon la région : Nord souvent meilleur que Sud)", willHave: "Sécu + mutuelle 80-200 €/mois, accès spécialiste plus uniforme sur le territoire" },
+      { topic: "Fiscalité revenu", had: "~23-43 % IRPEF + addizionali régionales et communales (jusqu'à ~3 % cumulés)", willHave: "~25-35 % effectif (TMI + CSG + prélèvements sociaux)" },
+      { topic: "Garde d'enfants", had: "Asilo nido 200-600 €/mois selon la commune et le revenu (ISEE)", willHave: "Crèche FR 150-400 €/mois après CAF/CMG, maternelle gratuite dès 3 ans" },
+      { topic: "Voiture", had: "Carburant ~1,85-2,00 €/L, péages autoroutiers fréquents, bollo annuel selon le véhicule", willHave: "Carburant 1,65-1,85 €/L, péages présents, pas de taxe annuelle sur le véhicule" },
+    ],
+    adminPriorities: [
+      { step: "Déclarer le retour au consulat & radier", detail: "Avant le départ : se radier du registre des Français établis hors de France et conserver l'attestation de radiation, utile pour la CAF et la CPAM.", officialUrl: "https://www.service-public.gouv.fr/particuliers/vosdroits/R43251" },
+      { step: "Cancellazione AIRE et anagrafe", detail: "Demander la cancellazione de l'AIRE (Anagrafe degli Italiani Residenti all'Estero) si vous y étiez inscrit en tant que résident étranger, et signaler le départ à l'anagrafe communale italienne. Sans cette démarche, vous restez résident fiscal italien et les services municipaux continuent d'être facturés." },
+      { step: "Sécurité sociale", detail: "Demander le formulaire S1 à l'INPS avant le départ pour le transmettre à la CPAM. Compter 3-6 semaines pour activation côté français. Si vous étiez à la Tessera Sanitaria régionale, la couverture s'arrête avec le départ.", officialUrl: "https://www.service-public.gouv.fr/particuliers/vosdroits/F32824" },
+      { step: "Fiscalité revenu", detail: "Convention fiscale FR-IT (1989) : résidence fiscale française à compter du jour J. Déclaration fractionnée l'année du retour côté français + dernière dichiarazione dei redditi (modello 730 ou Redditi PF) comme résident italien. Les régimes spéciaux (impatriati, forfettario, flat tax retraités du Sud) prennent fin avec le départ." },
+      { step: "Permis & scolarité", detail: "Permis italien reconnu de droit en France (UE), pas d'échange obligatoire mais demande utile en cas de perte. Pour les enfants, inscription en mairie + entretien d'équivalence (le système scuola primaria / media / superiore diffère du collège-lycée français, mais les équivalences sont bien établies)." },
+    ],
+    warnings: [
+      "Fin des régimes fiscaux spéciaux : le régime impatriati (réduction de 50-70 % de la base imposable sur le revenu d'activité), le regime forfettario (taux unique 15 % pour TNS sous plafond) et la flat tax 7 % pour retraités étrangers au Sud (Pouilles, Calabre, Sicile, Sardaigne) prennent fin avec le départ. Anticiper la bascule vers le barème français avec un conseil fiscal franco-italien, surtout pour les retraités et les indépendants — l'écart peut représenter plusieurs milliers d'euros par an.",
+      "IVIE et IVAFE : si vous déteniez un bien immobilier ou des comptes hors d'Italie pendant votre résidence italienne, vérifier que les déclarations IVIE (taxe sur l'immobilier étranger) et IVAFE (taxe sur les actifs financiers étrangers) sont à jour avant le départ — les pénalités italiennes pour omission, même après le retour, peuvent être lourdes.",
+      "Logement gardé en Italie : si vous conservez un appartement à Milan, Rome ou Florence en location, le revenu locatif bascule sous la fiscalité non-résident italienne (cedolare secca ou IRPEF selon l'option) et doit être déclaré en France au titre des revenus fonciers étrangers — anticiper le double régime avec un fiscaliste.",
+      "Pension italienne : les contributi cotisés auprès de l'INPS sont totalisés au niveau européen avec ceux de l'Assurance retraite française — conservez tous vos estratto conto contributivo et bulletins de cotisation. Les pensions complémentaires (fondi pensione : Cometa, Fonchim, etc.) restent acquises mais les conditions de sortie diffèrent.",
+      "Voiture immatriculée en Italie : pour rouler en France, il faut ré-immatriculer le véhicule dans les 6 mois suivant le retour (quitus fiscal douanier + contrôle technique français). Anticiper le coût (taxes éventuelles si véhicule récent).",
     ],
   },
 ];
