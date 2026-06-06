@@ -56,6 +56,7 @@ const LINKS_EN = {
   ],
   "Tools & Guides": [
     { label: "City Match", href: "/city-match" },
+    { label: "8-axis synthesis", href: "/synthesis" },
     { label: "Sport ranking", href: "/sport" },
     { label: "Rental pressure", href: "/rental-tension" },
     { label: "Political leaning", href: "/political-leaning" },

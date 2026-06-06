@@ -315,7 +315,14 @@ export default function EnOverallRankingPage() {
 
         {/* Cross-links */}
         <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">See also</h2>
-        <div className="mt-3 grid grid-cols-2 sm:grid-cols-3 gap-3">
+        <div className="mt-3 grid grid-cols-2 sm:grid-cols-4 gap-3">
+          <Link href="/synthesis" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full border-[var(--accent)]/30 bg-[var(--accent)]/5">
+              <div className="text-2xl mb-1">🧭</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">8-axis synthesis hub</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">Full pyramid: city → region → France</div>
+            </Card>
+          </Link>
           <Link href="/rankings" className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-2xl mb-1">📊</div>
