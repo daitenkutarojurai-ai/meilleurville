@@ -305,6 +305,19 @@ export const PROFILE_PAGES: ProfileDef[] = [
     reasonHint: (c) =>
       `Nature ${c.scores.nature.toFixed(1)} · qualité de vie ${c.scores.life.toFixed(1)} · sécurité ${c.scores.safety.toFixed(1)}`,
   },
+  {
+    slug: "asthmatiques-allergiques",
+    emoji: "🌬️",
+    label: "Asthmatiques et allergiques",
+    metaTitle: "Meilleures villes pour asthmatiques et allergiques 2026",
+    metaDescription:
+      "Top 20 villes françaises où l'air respire et les crises s'espacent : air propre, étés tempérés, nature non saturée de pollens. Asthme, rhinite, allergies.",
+    intro:
+      "Asthmatiques et allergiques : les déclencheurs s'enchaînent vite — particules fines et NO₂ près des grands axes, pics d'ozone l'été, pollens d'arbres dès mars (bouleau, cyprès), graminées en juin, ambroisie dès août dans le couloir rhodanien. Pour qui souffre d'un système respiratoire ou immunitaire fragile, choisir une ville devient un arbitrage de santé publique avant d'être un arbitrage de cadre de vie. Ce classement pondère d'abord la qualité de l'air ambiante (dérivée des stations ATMO et des données Lcsqa par agglomération), ajoute le potentiel anti-canicule (la chaleur concentre l'ozone et déclenche les crises), garde une nature accessible mais pas dominée par les sources polliniques sensibilisantes, et tient compte du bruit ambiant — facteur de stress chronique qui aggrave l'asthme. Résultat : un palmarès tiré par les façades atlantique et nord, le piémont alpin et les villes ventées de Bretagne ou du Cotentin, où le brassage d'air maintient l'indice ATMO en zone « bon » la majorité de l'année. Les grandes plaines céréalières, le couloir rhodanien (ambroisie) et les agglomérations enclavées sortent du top.",
+    weights: { qualiteAir: 3.0, canicule: 2.0, nature: 1.5, bruit: 1.0, life: 1.0 },
+    reasonHint: (c) =>
+      `Nature ${c.scores.nature.toFixed(1)} · qualité de vie ${c.scores.life.toFixed(1)} · transport ${c.scores.transport.toFixed(1)}`,
+  },
 ];
 
 export const PROFILE_SLUGS = PROFILE_PAGES.map((p) => p.slug);
