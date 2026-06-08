@@ -8,7 +8,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 export const metadata: Metadata = {
   title: "Glossaire immobilier, fiscalité & aides · MaVilleIdeal",
   description:
-    "DPE, LMNP, TAEG, ZFE, APL, Visale, Loc'Avantages, MaPrimeAdapt' : tous les termes utiles pour louer, acheter, emprunter ou déménager en France en 2026.",
+    "DPE, LMNP, TAEG, ZFE, APL, état des lieux, préavis, dépôt de garantie : les termes utiles pour louer, acheter ou déménager en France en 2026.",
   alternates: { canonical: "/glossaire" },
 };
 
@@ -255,6 +255,60 @@ const SECTIONS: Section[] = [
       {
         term: "MaPrimeAdapt'",
         def: "Aide forfaitaire de l'Anah pour adapter un logement au vieillissement ou au handicap (douche de plain-pied, monte-escalier, élargissement de portes, WC surélevés). Ouverte aux 60+ en perte d'autonomie (GIR 1-6) ou aux personnes en situation de handicap, sous conditions de ressources. Couverture 50-70 % des travaux jusqu'à 22 000 €. Décisive avant un déménagement vers une résidence principale destinée à durer 15-20 ans — préparer le logement pour les années 75-85.",
+      },
+    ],
+  },
+  {
+    title: "Bail, état des lieux et droits du locataire",
+    emoji: "📝",
+    terms: [
+      {
+        term: "Bail (contrat de location)",
+        def: "Contrat écrit entre bailleur et locataire, obligatoire pour toute location en résidence principale. Durée minimale : 3 ans (bail vide) ou 1 an (bail meublé, 9 mois pour étudiant). Reconduction tacite à l'identique sauf congé valide. Mentions obligatoires : identité des parties, surface loi Boutin, loyer, charges, dépôt de garantie, DPE, état des risques. Un bail incomplet ou non écrit reste valide mais ouvre des contestations — exiger systématiquement la version signée des deux côtés.",
+      },
+      {
+        term: "État des lieux d'entrée et de sortie",
+        def: "Constat écrit et contradictoire de l'état du logement à la remise des clés (entrée) puis à la restitution (sortie). Sert d'unique référence pour évaluer dégradations imputables au locataire. À détailler pièce par pièce, équipement par équipement, idéalement avec photos datées. En cas de désaccord, recourir à un commissaire de justice (huissier) : frais ~150-250 € partagés à 50/50 entre bailleur et locataire. Sans état des lieux, le logement est réputé en bon état à l'entrée — le bailleur ne peut rien retenir au départ.",
+      },
+      {
+        term: "Dépôt de garantie",
+        def: "Somme versée à la signature du bail pour couvrir d'éventuels impayés ou dégradations. Plafonné par la loi : 1 mois de loyer hors charges en location vide, 2 mois en meublé. À restituer dans les 1 mois (logement rendu conforme à l'état d'entrée) ou 2 mois (en cas de retenues) après remise des clés. Au-delà, le bailleur doit 10 % du loyer mensuel par mois de retard. À ne pas confondre avec la caution, qui désigne le garant.",
+      },
+      {
+        term: "Caution / Garant",
+        def: "Personne (physique ou morale) qui s'engage à payer le loyer si le locataire fait défaut. Caution simple : le bailleur poursuit d'abord le locataire ; caution solidaire (cas courant) : le bailleur peut réclamer directement au garant. Acte de cautionnement obligatoirement manuscrit, daté, signé, avec montant maximal couvert et durée. Visale (Action Logement) remplace gratuitement un garant familial — utile pour primo-locataires, expat retour, jeunes actifs.",
+      },
+      {
+        term: "Préavis de départ (locataire)",
+        def: "Délai pendant lequel le locataire doit continuer à payer le loyer après notification de son départ. Bail vide : 3 mois, réduit à 1 mois en zone tendue, mutation pro, perte d'emploi, premier emploi, état de santé, bénéficiaire RSA/AAH, attribution logement social. Bail meublé : 1 mois partout. Notification par lettre recommandée avec AR, remise en main propre contre récépissé, ou acte d'huissier — sinon le préavis n'a pas démarré. Date d'envoi = point de départ.",
+      },
+      {
+        term: "Préavis de congé (bailleur)",
+        def: "Le bailleur ne peut donner congé qu'à l'échéance du bail, avec préavis de 6 mois (vide) ou 3 mois (meublé), et uniquement pour vente, reprise (habitation personnelle ou proche désigné) ou motif légitime et sérieux (impayés répétés, troubles de voisinage). Notification par lettre recommandée AR ou acte d'huissier. En cas de vente, le locataire bénéficie d'un droit de préemption au prix proposé. Locataires 65+ aux ressources modestes : congé limité, sauf relogement assuré.",
+      },
+      {
+        term: "Bail mobilité",
+        def: "Bail meublé court (1 à 10 mois, non renouvelable, non reconductible) réservé aux salariés en mission, étudiants, alternants, stagiaires, formations pro ou mutations temporaires. Aucun dépôt de garantie possible, mais Visale gratuit obligatoirement accepté. Pas de préavis légal côté locataire (sortie au terme du bail). Utile pour tester une ville avant de s'y installer définitivement — pratique pour expat retour ou candidat à la relocation.",
+      },
+      {
+        term: "Charges et régularisation annuelle",
+        def: "Provisions mensuelles versées en plus du loyer pour couvrir les charges récupérables (eau, ascenseur, entretien parties communes, taxe d'enlèvement des ordures ménagères). Régularisation obligatoire chaque année : le bailleur fournit un décompte précis. Si le total réel est inférieur, il rembourse ; supérieur, il facture le complément. Demande de justificatifs possible jusqu'à 6 mois après envoi du décompte. Provisions chroniquement sous-estimées = mauvaise surprise au moment du solde.",
+      },
+      {
+        term: "Trêve hivernale",
+        def: "Période du 1ᵉʳ novembre au 31 mars pendant laquelle aucune expulsion locative ne peut être exécutée, même avec décision de justice. Concerne aussi les coupures d'énergie (électricité, gaz, chaleur) à la résidence principale. Ne suspend pas l'obligation de payer le loyer ni les procédures en cours — une expulsion ordonnée avant le 31 octobre s'exécutera dès le 1ᵉʳ avril. Cas exclus : squatteurs, logement insalubre, relogement assuré.",
+      },
+      {
+        term: "Loi Alur (Accès au Logement et un Urbanisme Rénové)",
+        def: "Loi de 2014 ayant largement encadré le rapport locatif : bail type obligatoire, plafonnement des frais d'agence, encadrement des loyers en zone tendue, état des lieux normalisé, transparence des charges. Définit aussi la liste limitative des justificatifs qu'un bailleur peut demander (CNI, justificatif de domicile, 3 derniers bulletins de salaire, dernier avis d'imposition, RIB) — toute pièce demandée hors liste est illégale et passible d'amende.",
+      },
+      {
+        term: "Complément de loyer",
+        def: "Supplément que peut ajouter un bailleur en zone d'encadrement (Paris, Lille, Lyon-Villeurbanne, Bordeaux, Montpellier, Plaine-Commune, Est-Ensemble) au-dessus du loyer de référence majoré, justifié par des caractéristiques exceptionnelles : terrasse spacieuse, vue dégagée sur monument, équipements premium, prestations haut de gamme. Doit être détaillé dans le bail. Contestable dans les 3 mois suivant la signature devant la commission départementale de conciliation — restitution rétroactive possible.",
+      },
+      {
+        term: "Décence du logement",
+        def: "Critères minimaux légaux d'un logement loué à titre de résidence principale : surface minimale 9 m² et 2,20 m sous plafond (ou volume 20 m³), pas de risque pour la santé/sécurité, équipements essentiels (chauffage, eau potable chaude/froide, évacuation eaux usées, sanitaires intérieurs, électricité aux normes, cuisine), performance énergétique minimale (DPE F maxi à partir de 2025, E en 2034, D en 2034 pour les nouvelles locations). Un logement indécent ouvre droit à : travaux à charge du bailleur, baisse de loyer, suspension de l'APL, dommages et intérêts.",
       },
     ],
   },
