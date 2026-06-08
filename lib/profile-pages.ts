@@ -318,6 +318,28 @@ export const PROFILE_PAGES: ProfileDef[] = [
     reasonHint: (c) =>
       `Nature ${c.scores.nature.toFixed(1)} · qualité de vie ${c.scores.life.toFixed(1)} · transport ${c.scores.transport.toFixed(1)}`,
   },
+  {
+    slug: "jeunes-parents",
+    emoji: "🍼",
+    label: "Jeunes parents (0-3 ans)",
+    metaTitle: "Meilleures villes pour jeunes parents 2026 — Top 20 France",
+    metaDescription:
+      "Top 20 villes françaises pour jeunes parents avec un enfant 0-3 ans : air respirable, sécurité poussette, parcs accessibles, coût soutenable, services petite enfance. Calibré 2026.",
+    intro:
+      "Jeunes parents : un enfant de 0-3 ans, ce n'est pas la même équation qu'une famille avec un collégien. L'école attendra encore quatre ans ; ce qui compte immédiatement, c'est la qualité de l'air que respirent des poumons en formation, la sécurité d'un trottoir où la poussette tient sans gêner personne, des parcs accessibles à pied pour la balade quotidienne, un loyer ou une mensualité qui résiste à un congé parental ou à un passage temporaire à un seul revenu, et le calme ambiant qui ne réveille pas systématiquement la sieste. La densité de crèches, de PMI et de pédiatres conventionnés pèse aussi lourd que les écoles dans les classements concurrents — mais reste plus difficile à mesurer ville par ville. Ce classement pondère d'abord la sécurité globale et la nature accessible (parcs urbains et premier rang d'arbres), ajoute une qualité de l'air sérieuse, intègre les services famille agrégés (crèches, ludothèques, PMI proxy) et le calme sonore, et garde une marge sur le coût — parce qu'une fenêtre de un à trois ans à 100 % du loyer plus 600 €/mois de crèche réduit toute la marge financière du foyer. Résultat : peu de très grandes métropoles centrales (air dégradé, espaces verts saturés, trottoirs étroits), beaucoup de villes moyennes côtières ou de couronnes pavillonnaires bien équipées en services petite enfance.",
+    weights: {
+      safety: 2.0,
+      nature: 2.0,
+      qualiteAir: 2.0,
+      famille: 2.0,
+      bruit: 1.5,
+      cost: 1.5,
+      life: 1.0,
+      transport: 1.0,
+    },
+    reasonHint: (c) =>
+      `Sécurité ${c.scores.safety.toFixed(1)} · nature ${c.scores.nature.toFixed(1)} · coût ${c.scores.cost.toFixed(1)}`,
+  },
 ];
 
 export const PROFILE_SLUGS = PROFILE_PAGES.map((p) => p.slug);
