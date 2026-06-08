@@ -22,7 +22,8 @@ export type ExpatCountry =
   | "espagne"
   | "portugal"
   | "pays-bas"
-  | "italie";
+  | "italie"
+  | "maroc";
 
 export interface ExpatCountryProfile {
   slug: ExpatCountry;
@@ -395,6 +396,44 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
       "Logement gardé en Italie : si vous conservez un appartement à Milan, Rome ou Florence en location, le revenu locatif bascule sous la fiscalité non-résident italienne (cedolare secca ou IRPEF selon l'option) et doit être déclaré en France au titre des revenus fonciers étrangers — anticiper le double régime avec un fiscaliste.",
       "Pension italienne : les contributi cotisés auprès de l'INPS sont totalisés au niveau européen avec ceux de l'Assurance retraite française — conservez tous vos estratto conto contributivo et bulletins de cotisation. Les pensions complémentaires (fondi pensione : Cometa, Fonchim, etc.) restent acquises mais les conditions de sortie diffèrent.",
       "Voiture immatriculée en Italie : pour rouler en France, il faut ré-immatriculer le véhicule dans les 6 mois suivant le retour (quitus fiscal douanier + contrôle technique français). Anticiper le coût (taxes éventuelles si véhicule récent).",
+    ],
+  },
+  {
+    slug: "maroc",
+    name: "Maroc",
+    flag: "🇲🇦",
+    depuisLabel: "le",
+    auLabel: "Au",
+    currency: "MAD",
+    currencyToEurApprox: 0.092, // 1 MAD ≈ 0,092 € (autour de 10,8 MAD pour 1 € début 2026, estimé)
+    netConversionFactor: 0.22, // 100 MAD nets correspondent à environ 22 € de pouvoir d'achat en France hors Paris : la France reste structurellement 2 à 2,5 fois plus chère que le Maroc sur le panier moyen (logement, alimentaire, services)
+    bestSuitedCities: ["marseille", "montpellier", "toulouse", "perpignan", "lyon", "bordeaux", "nice", "aix-en-provence", "paris"],
+    intro:
+      "Le retour du Maroc cumule deux particularités : un choc de change (le dirham n'est que partiellement convertible, les transferts vers l'Europe sont plafonnés et contrôlés par l'Office des changes) et un saut de pouvoir d'achat à l'inverse de la plupart des autres pays couverts — on quitte un coût de la vie sensiblement plus bas (loyers, alimentaire, services) pour retrouver une France beaucoup plus chère, surtout côté logement. Côté fiscal, la convention bilatérale de 1970 (révisée) évite la double imposition mais la résidence fiscale française récupère immédiatement les revenus mondiaux. Côté ancrage géographique, l'arc méditerranéen et atlantique reste le plus naturel pour les retours : Marseille (ferries Tanger-Med, communauté maghrébine dense, vols quotidiens vers Casablanca), Montpellier, Toulouse, Perpignan, Lyon, Bordeaux et Nice cumulent climat doux, vols directs vers le Maroc et écoles internationales pour les enfants scolarisés à l'AEFE.",
+    hadVsWillHave: [
+      { topic: "Salaire net", had: "15 000-30 000 MAD net cadre (Casablanca, Rabat, Tanger Med)", willHave: "Équivalent ~2 200-3 200 € net en France après charges (cadre métropole)" },
+      { topic: "Loyer T3", had: "7 000-15 000 MAD (centre Casablanca, Rabat Agdal, Marrakech Gueliz)", willHave: "650-1 200 € (Marseille, Montpellier, Toulouse, Perpignan), 1 600-2 400 € (Paris)" },
+      { topic: "Panier alimentaire", had: "Environ 40-50 % moins cher (Marjane, Carrefour MA, souks)", willHave: "Reprise du niveau français (Lidl, Carrefour, marchés)" },
+      { topic: "Santé", had: "CNSS + AMO ou mutuelle CNOPS, cliniques privées courantes (consultations 300-700 MAD)", willHave: "Sécu + mutuelle 80-200 €/mois, plateau technique public plus uniforme sur le territoire" },
+      { topic: "Fiscalité revenu", had: "IR progressif de 0 à 38 % au Maroc (tranche marginale élevée dès ~180 000 MAD/an)", willHave: "~25-35 % effectif (TMI + CSG + prélèvements sociaux)" },
+      { topic: "Garde d'enfants", had: "Crèche privée 1 500-3 500 MAD/mois, école française AEFE 30 000-80 000 MAD/an", willHave: "Crèche FR 150-400 €/mois après CAF/CMG, maternelle publique gratuite dès 3 ans" },
+      { topic: "Voiture", had: "Diesel ~13-14 MAD/L, vignette annuelle modeste, embouteillages Casa/Rabat lourds", willHave: "Diesel 1,65-1,85 €/L, péages autoroutiers fréquents, alternatives TER/TGV plus denses" },
+      { topic: "Personnel de maison", had: "Femme de ménage 1 500-3 500 MAD/mois temps plein courant", willHave: "Coût équivalent multiplié par 3-5 en France, rarement temps plein hors familles à très haut revenu" },
+    ],
+    adminPriorities: [
+      { step: "Déclarer le retour au consulat & radier", detail: "Avant le départ : se radier du registre des Français établis hors de France auprès du consulat (Casablanca, Rabat, Tanger, Agadir, Marrakech, Fès) et conserver l'attestation de radiation, utile pour la CAF et la CPAM.", officialUrl: "https://www.service-public.gouv.fr/particuliers/vosdroits/R43251" },
+      { step: "Office des changes & transfert des avoirs", detail: "Le dirham n'est pas une devise librement convertible. Pour rapatrier durablement vos économies, vous avez deux voies : (1) compte en dirhams convertibles si vous étiez salarié d'une entreprise marocaine et inscrit comme résident étranger — dossier à constituer auprès de votre banque marocaine avant le départ ; (2) déclaration à l'Office des changes pour transferts résiduels après le retour. Anticipez : les délais bancaires marocains pour clôtures et transferts peuvent dépasser deux mois." },
+      { step: "Sécurité sociale", detail: "Pas de formulaire S1 (le Maroc n'est pas dans l'UE) : ouvrir un dossier CPAM dès l'arrivée avec un justificatif de résidence et la fin d'affiliation à la CNSS ou à votre mutuelle privée marocaine. Prévoir une assurance privée pour le délai d'instruction (3-6 semaines).", officialUrl: "https://www.service-public.gouv.fr/particuliers/vosdroits/F32824" },
+      { step: "Fiscalité revenu", detail: "Convention fiscale FR-MA (1970, révisée 1989) : résidence fiscale française à compter du jour J. Déclaration fractionnée l'année du retour côté français + dernière déclaration IR au Maroc (régularisation auprès de la DGI). Pour les binationaux ayant conservé une activité ou un bien locatif au Maroc, les revenus restent imposables au Maroc avec crédit d'impôt en France." },
+      { step: "Permis de conduire", detail: "Le permis marocain est échangeable contre un permis français dans les 12 mois suivant le retour grâce à l'accord de réciprocité FR-MA. Au-delà, il faut repasser le code et la conduite. Démarche en ligne via l'ANTS, sur présentation du titre marocain et de la traduction assermentée." },
+    ],
+    warnings: [
+      "Non-convertibilité du dirham : ne tablez pas sur un rapatriement instantané de vos économies. Les transferts vers l'étranger sont soumis à autorisation de l'Office des changes et plafonnés selon votre statut (résident étranger, MRE, salarié sortant). Anticipez 2-6 mois et consultez votre banque marocaine avant le départ.",
+      "Régime CFE pour les Français résidant au Maroc : si vous étiez affilié à la Caisse des Français de l'étranger pendant votre séjour, la CFE prend fin au retour. Vous basculez sur la Sécu française dès l'ouverture du dossier CPAM — pas de double cotisation.",
+      "Statut MRE (Marocain Résidant à l'Étranger) ou binationaux : la fiscalité française récupère les revenus mondiaux à compter du jour J, y compris les revenus locatifs marocains. Anticipez avec un conseil fiscal franco-marocain, surtout si vous gardez un bien à Casablanca, Marrakech ou Tanger en location.",
+      "Pension marocaine (CNSS, CIMR, CMR) : les trimestres cotisés sont totalisés avec ceux de l'Assurance retraite française grâce à la convention de sécurité sociale FR-MA. Conservez tous vos relevés de carrière CNSS et bulletins de paie marocains, ils seront demandés à 62-67 ans.",
+      "Scolarité AEFE : si vos enfants étaient au lycée Lyautey, Descartes ou dans le réseau AEFE marocain, le retour vers le système public ou privé français se fait sans démarche d'équivalence (mêmes programmes, mêmes bulletins). Inscription en mairie suffit pour le primaire et le collège.",
+      "Climat : le contraste hivernal peut être rude pour qui rentre de Marrakech ou d'Agadir. Privilégier Marseille, Montpellier, Toulouse, Perpignan ou Nice plutôt qu'une métropole du Nord ou de l'Est pour adoucir la transition, surtout la première année.",
     ],
   },
 ];
