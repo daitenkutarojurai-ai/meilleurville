@@ -7,6 +7,7 @@
 import type { CitySeed } from "@/data/cities-seed";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { computeOwnerScores } from "@/lib/owner-scores";
+import { computeSportLeisure } from "@/lib/sport-leisure";
 
 type ScoreWeights = Partial<{
   // Axes seed (CityScore)
@@ -29,6 +30,8 @@ type ScoreWeights = Partial<{
   securiteFemmeSeule: number;
   jeuneActif: number;
   famille: number;
+  // Cluster composites (F70)
+  sportLeisure: number;
 }>;
 
 export interface ProfileDef {
@@ -64,6 +67,8 @@ function getScoreValue(city: CitySeed, key: string): number {
   if (["life", "transport", "nature", "cost", "safety", "culture", "remoteWork", "schools"].includes(key)) {
     return city.scores[key as keyof typeof city.scores];
   }
+  // Cluster composites
+  if (key === "sportLeisure") return computeSportLeisure(city).composite;
   return ownerVal(city, key);
 }
 
@@ -339,6 +344,25 @@ export const PROFILE_PAGES: ProfileDef[] = [
     },
     reasonHint: (c) =>
       `Sécurité ${c.scores.safety.toFixed(1)} · nature ${c.scores.nature.toFixed(1)} · coût ${c.scores.cost.toFixed(1)}`,
+  },
+  {
+    slug: "sportifs",
+    emoji: "🏋️",
+    label: "Sportifs réguliers",
+    metaTitle: "Meilleures villes pour sportifs 2026 — Top 20 France",
+    metaDescription:
+      "Top 20 villes françaises pour pratiquants réguliers : équipements (piscines, gymnases, salles), clubs, cadre outdoor, climat propice. Calibré 2026.",
+    intro:
+      "Sportifs réguliers : votre semaine se construit autour de la pratique — l'entraînement du mardi soir au gymnase, la sortie longue du dimanche, la piscine deux fois par semaine, le club de tennis qui reprend en mars. Ce profil n'est pas celui du randonneur du dimanche déjà couvert par les amateurs de plein air. Le critère qui domine, c'est la densité d'équipements municipaux ouverts jusqu'à 22 h, le maillage des fédérations agréées Jeunesse & Sport qui ouvrent un vrai créneau adulte, et un climat qui ne réduit pas la pratique à trois mois par an. Ce classement pondère d'abord le composite sport et loisirs (équipements + clubs + outdoor + climat) dérivé du Recensement des Équipements Sportifs INJEP et des données fédérales, complète avec la nature accessible pour les sorties trail, vélo et rando, garde un œil sur le confort climatique d'été et d'hiver, et la qualité de vie générale — parce qu'une ville bien équipée mais vidée le soir tient rarement les pratiquants au-delà de deux saisons. Résultat : un palmarès tiré par les grandes métropoles dotées (Lyon, Bordeaux, Nantes, Toulouse), les pôles d'excellence sportive (Annecy, Chambéry, Antibes, Grenoble, Talence, Vichy) et plusieurs villes moyennes au tissu associatif dense — peu de petites communes rurales et zéro département en déprise.",
+    weights: {
+      sportLeisure: 3.0,
+      nature: 1.5,
+      life: 1.0,
+      canicule: 1.0,
+      jeuneActif: 0.5,
+    },
+    reasonHint: (c) =>
+      `Sport ${computeSportLeisure(c).composite.toFixed(1)} · nature ${c.scores.nature.toFixed(1)} · qualité de vie ${c.scores.life.toFixed(1)}`,
   },
 ];
 
