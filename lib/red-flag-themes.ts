@@ -1146,6 +1146,174 @@ function rankVolsCambriolages(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
 }
 
+// --- THEME 27 — Péril côtier : érosion littorale & submersion marine ---
+// Distinct du thème `villes-risques-naturels` (composite national 4 aléas :
+// inondation + argile + feu + séisme) — on isole ici la dimension spécifique
+// du « trait de côte » : recul du rivage par érosion (côtes sableuses
+// d'Aquitaine, Vendée, Pas-de-Calais), affaissement / éboulement de
+// falaises (côte d'Albâtre, Manche), et submersion marine récurrente sur
+// les bas littoraux (Camargue, étangs languedociens, golfe du Morbihan).
+// Cible : villes ≥ 1 000 hab. en département littoral métropolitain ou
+// DROM, d'altitude ≤ 25 m, présentant un tag character explicitement côtier
+// (plage / balnéaire / dune / port / littoral / atlantique / méditerranée /
+// manche). Severity composée à partir de l'altitude (le facteur le plus
+// déterminant — sous 5 m, la submersion centennale est probable), du
+// risque inondation calculé par lib/natural-risks (corroboration), et
+// d'un malus de façade aligné sur les zones d'érosion documentées par
+// l'observatoire BRGM TRAIT 2023. Le filtre tag character évite de
+// remonter les communes de département littoral mais situées à 25 km
+// dans les terres (Bayonne, Toulon hyper-centre, Aubagne) — l'érosion
+// est un phénomène de bord de mer immédiat, pas d'arrière-pays.
+//
+// Sources : BRGM TRAIT (Indicateur national de l'érosion côtière),
+// liste réglementaire des communes exposées au recul du trait de côte
+// (article L. 321-15 Code de l'environnement, décret 2022-750 modifié
+// 2024), ONERC (Observatoire national des effets du réchauffement
+// climatique), GIEC AR6 WGII (élévation niveau mer +0,3 à +1,0 m d'ici
+// 2100 selon scénario SSP).
+// Atlantique sableuse — reculs documentés 1-5 m/an par BRGM TRAIT
+// (Soulac, Lacanau, Capbreton, La Faute-sur-Mer, Île de Ré).
+const COASTAL_DEPTS_ATLANTIC_SANDY = new Set([
+  "Vendée",
+  "Charente-Maritime",
+  "Gironde",
+  "Landes",
+]);
+// Atlantique granitique / autres côtes de la façade Atlantique.
+const COASTAL_DEPTS_ATLANTIC_OTHER = new Set([
+  "Ille-et-Vilaine",
+  "Côtes-d'Armor",
+  "Finistère",
+  "Morbihan",
+  "Loire-Atlantique",
+  "Pyrénées-Atlantiques",
+]);
+// Façade Manche / Mer du Nord : Opale, Albâtre, Nacre, Cotentin —
+// érosion de falaise documentée (Étretat ~20 cm/an).
+const COASTAL_DEPTS_CHANNEL = new Set([
+  "Nord",
+  "Pas-de-Calais",
+  "Somme",
+  "Seine-Maritime",
+  "Calvados",
+  "Manche",
+]);
+// Méditerranée basse — Camargue, étangs languedociens : submersion
+// marine récurrente sur lagunes à < 5 m d'altitude.
+const COASTAL_DEPTS_MED_LOW = new Set(["Hérault", "Aude", "Gard"]);
+// Reste de la façade méditerranéenne — exposition variable selon site.
+const COASTAL_DEPTS_MED_OTHER = new Set([
+  "Pyrénées-Orientales",
+  "Bouches-du-Rhône",
+  "Var",
+  "Alpes-Maritimes",
+  "Corse-du-Sud",
+  "Haute-Corse",
+]);
+const COASTAL_DEPTS_DROM = new Set([
+  "Guadeloupe",
+  "Martinique",
+  "Guyane",
+  "La Réunion",
+  "Mayotte",
+]);
+const COASTAL_TAG_REGEX = /plage|plages|balnéaire|station-balnéaire|dune|littoral|atlantique|méditerranée|manche|port|côte|presqu'île|golfe|estuaire|lagune|étang/i;
+
+function rankErosionCotiere(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    const dept = city.department;
+    if (!dept) continue;
+
+    const isAtlanticSandy = COASTAL_DEPTS_ATLANTIC_SANDY.has(dept);
+    const isAtlanticOther = COASTAL_DEPTS_ATLANTIC_OTHER.has(dept);
+    const isChannel = COASTAL_DEPTS_CHANNEL.has(dept);
+    const isMedLow = COASTAL_DEPTS_MED_LOW.has(dept);
+    const isMedOther = COASTAL_DEPTS_MED_OTHER.has(dept);
+    const isDrom = COASTAL_DEPTS_DROM.has(dept);
+    if (
+      !isAtlanticSandy &&
+      !isAtlanticOther &&
+      !isChannel &&
+      !isMedLow &&
+      !isMedOther &&
+      !isDrom
+    )
+      continue;
+
+    const elev = city.elevation ?? 9999;
+    if (elev > 25) continue; // hors-cible : pas de bord de mer immédiat
+
+    const tags = (city.characterTags ?? []).join(" ");
+    if (!COASTAL_TAG_REGEX.test(tags)) continue;
+
+    const pop = city.population ?? 0;
+    if (pop < 1_000) continue; // filtre les hameaux non commercialisés
+
+    // Facteur altitude : 25 m → 0, 0 m → 10. C'est le driver dominant —
+    // sous 5 m, la submersion centennale est attendue (Géorisques PPRL).
+    const altFactor = normSeverity(25 - elev, 0, 25);
+
+    // Corroboration risque inondation lib/natural-risks (0-10, 10 = pire).
+    // Capté à 0,8× pour ne pas double-compter le facteur littoral déjà
+    // présent dans floodRisk.
+    const risks = computeNaturalRisks(city);
+    const floodContribution = risks.flood.score * 0.25;
+
+    // Malus de façade — alignés sur l'observatoire BRGM TRAIT 2023.
+    // Atlantique sableuse (Aquitaine, Vendée, Pas-de-Calais nord) : recul
+    // documenté de 1 à 5 m/an localement (Soulac, Lacanau, La Faute).
+    // Méditerranée bas (Camargue, étangs languedociens) : submersion
+    // marine récurrente sur lagunes saumâtres. Manche / Albâtre : recul
+    // de falaise (Étretat 20 cm/an). DROM : cyclones tropicaux + houle.
+    let facadeBonus = 0;
+    let facadeLabel = "";
+    if (isAtlanticSandy) {
+      facadeBonus = 1.7;
+      facadeLabel = "Atlantique sableuse (recul BRGM 1-5 m/an)";
+    } else if (isAtlanticOther) {
+      facadeBonus = 1.2;
+      facadeLabel = "façade Atlantique";
+    } else if (isChannel) {
+      facadeBonus = 1.0;
+      facadeLabel = "Manche / Mer du Nord (Opale, Albâtre, Cotentin)";
+    } else if (isMedLow) {
+      facadeBonus = 1.5;
+      facadeLabel = "Méditerranée basse (Camargue / étangs)";
+    } else if (isMedOther) {
+      facadeBonus = 1.0;
+      facadeLabel = "Méditerranée littorale";
+    } else if (isDrom) {
+      facadeBonus = 1.4;
+      facadeLabel = "DROM (cyclones + houle)";
+    }
+
+    // Bonus tag explicitement « station-balnéaire » ou « dune » — exposition
+    // documentée par concentration touristique et urbanisation du cordon.
+    const isStation = /station-balnéaire/i.test(tags);
+    const isDune = /\bdune\b/i.test(tags);
+    let tagBonus = 0;
+    if (isStation) tagBonus += 0.4;
+    if (isDune) tagBonus += 0.5;
+
+    // Bonus population : > 20 000 hab. = enjeu de protection majeur
+    // (digues, brise-lames, rechargement de plage à financer).
+    const popBonus = pop >= 50_000 ? 0.5 : pop >= 20_000 ? 0.3 : 0;
+
+    const severity = Math.min(
+      10,
+      altFactor * 0.5 + floodContribution + facadeBonus + tagBonus + popBonus,
+    );
+    if (severity < 5) continue;
+
+    const elevLabel = `${elev} m d'altitude`;
+    const floodLabel = risks.flood.score >= 6 ? ` · PPRL probable (inondation ${risks.flood.score.toFixed(1)}/10)` : "";
+    const reason = `${elevLabel} · ${facadeLabel}${floodLabel}`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -1536,6 +1704,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Severity = sous-score property + 0,8 si personnes ≥ 6/10 + 0,5 si métropole avec score global ≥ 6,5 + 0,4 si touristique > 30 000 hab. Pondération du composite safety-deep : biens 35 % · personnes 30 % · nocturne 20 % · violences sexistes 15 %. Sources sous-jacentes : SSMSI (Service statistique ministériel de la sécurité intérieure, interstats.fr — séries communales atteintes aux biens), Insee population, character-tags du seed propriétaire (vocation métropole / touristique). Caveat : un taux élevé peut refléter à la fois une vraie pression et un meilleur taux de plainte ; les vols de vélos en libre-service ne sont pas comptés dans le périmètre SSMSI standard.",
     rank: rankVolsCambriolages,
+  },
+  {
+    slug: "villes-erosion-cotiere",
+    title: "Villes en péril côtier — érosion littorale & submersion marine",
+    metaTitle: "Érosion côtière 2026 — Villes du littoral les plus exposées",
+    metaDescription:
+      "Classement 2026 des villes du littoral français les plus exposées au recul du trait de côte : érosion, falaise, submersion. Sources BRGM TRAIT + GIEC AR6.",
+    emoji: "🌊",
+    intro:
+      "L'annonce immobilière vante la vue mer, la plage à 200 m, la dune qui protège du vent. Personne ne ressort la photo aérienne de 1950 — alignement de villas qui sont aujourd'hui des terrains nus à 80 m du bord, blockhaus de la Seconde Guerre désormais sous l'eau à marée haute, falaise d'Étretat qui recule de 20 cm par an. Le recul du trait de côte ne se voit pas sur une plaquette immobilière prise à marée basse en été — il se découvre dans le rapport d'État des Risques annexé à l'acte, ou pire, le matin où la mer atteint le jardin pour la première fois.",
+    reality:
+      "On classe les villes des départements littoraux métropolitains (Atlantique, Méditerranée, Manche, Mer du Nord) et DROM, d'altitude ≤ 25 m, présentant un tag character explicitement côtier (plage, balnéaire, dune, port, littoral, atlantique, méditerranée, manche, golfe, étang, lagune). Le filtre tag exclut volontairement les communes d'arrière-pays d'un département pourtant littoral (Bayonne hyper-centre, Aubagne, Toulon vieille ville) : l'érosion est un phénomène de bord de mer immédiat, pas une moyenne départementale. La façade Atlantique sableuse Aquitaine-Vendée concentre les reculs les plus rapides documentés par BRGM TRAIT (1 à 5 m/an localement à Soulac, Lacanau, La Faute-sur-Mer) ; la Camargue et les étangs languedociens cumulent altitude < 5 m + submersion marine récurrente ; la côte d'Albâtre voit ses falaises craie reculer de 20 cm/an. Le risque n'est pas symétrique entre façades — il dépend du substrat (sable / craie / granite), de l'urbanisation du cordon dunaire, et de la fréquence des tempêtes hivernales (Xynthia 2010, Klaus 2009).",
+    methodology:
+      "Severity = 0,5 × facteur altitude (25 m → 0, 0 m → 10) + 0,25 × score inondation `lib/natural-risks` (corroboration) + malus de façade (Aquitaine sableuse / Vendée / Charente-Maritime +1,7 ; Hérault / Aude / Gard bas méditerranéens +1,5 ; DROM +1,4 ; reste façade Atlantique +1,2 ; Méditerranée littorale +1,0 ; Nord Opale +1,0) + bonus tag explicite (station-balnéaire +0,4 ; dune +0,5) + bonus enjeu population (≥ 50 000 hab. +0,5 ; ≥ 20 000 hab. +0,3). Clampé à 10/10, filtré à severity ≥ 5. Sources sous-jacentes : observatoire BRGM TRAIT 2023 (Indicateur national de l'érosion côtière, prim.net), liste réglementaire des communes exposées au recul du trait de côte (article L. 321-15 Code de l'environnement, décret 2022-750 modifié 2024 — environ 320 communes inscrites), ONERC (rapport annuel 2024), GIEC AR6 WGII (élévation du niveau marin de +0,3 à +1,0 m d'ici 2100 selon scénario SSP1-2.6 à SSP5-8.5). Caveat : le recul du trait de côte évolue trimestriellement — un rechargement de plage en 2024 (Lacanau, Soulac) peut temporairement masquer une dynamique de fond. Vérifier impérativement le PPRL local et l'État des Risques (ERP) avant tout achat de bien littoral.",
+    rank: rankErosionCotiere,
   },
 ];
 
