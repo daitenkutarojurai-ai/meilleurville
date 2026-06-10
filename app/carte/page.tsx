@@ -3,6 +3,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { CITIES_LIGHT, LEAN_META, RENT_T2_BY_SLUG } from "@/lib/cities-light";
 import { CarteClient } from "./CarteClient";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
@@ -37,7 +38,7 @@ export default function CartePage() {
       </section>
 
       <div className="mx-auto max-w-6xl px-4 sm:px-6 py-10">
-        <CarteClient />
+        <CarteClient cities={CITIES_LIGHT} rentT2BySlug={RENT_T2_BY_SLUG} leanMeta={LEAN_META} />
       </div>
 
       <Footer />

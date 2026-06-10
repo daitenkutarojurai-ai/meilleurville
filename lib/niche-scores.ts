@@ -5,6 +5,11 @@
 
 import type { CitySeed } from "@/data/cities-seed";
 
+// Structural subset accepted below — only fields actually used. Lets client
+// components pass the slim CityLight projection (which omits the long EN text
+// fields); full CitySeed records remain assignable.
+export type NicheCityInput = Omit<CitySeed, "descriptionEn" | "seoTitleEn" | "seoDescriptionEn">;
+
 export type Terrain = "mer" | "montagne" | "plaine" | "vallee";
 
 export interface NicheScores {
@@ -24,19 +29,19 @@ function clamp(n: number, lo = 0, hi = 10): number {
   return Math.max(lo, Math.min(hi, n));
 }
 
-function hasTag(city: CitySeed, words: string[]): boolean {
+function hasTag(city: NicheCityInput, words: string[]): boolean {
   const tags = city.characterTags.map((t) => t.toLowerCase());
   return tags.some((t) => words.some((w) => t.includes(w)));
 }
 
-function inferTerrain(city: CitySeed): Terrain {
+function inferTerrain(city: NicheCityInput): Terrain {
   if (hasTag(city, MOUNTAIN_KEYWORDS) || (city.elevation ?? 0) >= 500) return "montagne";
   if (hasTag(city, COASTAL_KEYWORDS) || (city.elevation ?? 999) <= 15) return "mer";
   if (hasTag(city, VALLEY_KEYWORDS)) return "vallee";
   return "plaine";
 }
 
-export function computeNicheScores(city: CitySeed): NicheScores {
+export function computeNicheScores(city: NicheCityInput): NicheScores {
   const s = city.scores;
   const pop = city.population ?? 20000;
 

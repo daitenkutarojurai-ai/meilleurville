@@ -1,13 +1,13 @@
 "use client";
 import { useState, useMemo, useRef, useEffect } from "react";
 import { Plus, X, Search, MapPin } from "lucide-react";
-import { CITIES_SEED } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { cn, scoreColor } from "@/lib/utils";
 import Link from "next/link";
 
-type CitySeed = (typeof CITIES_SEED)[number];
+type CitySeed = CityLight;
 type Locale = "fr" | "en";
 
 const SCORE_ROWS: Array<{ key: keyof CitySeed["scores"]; label: string; labelEn: string; emoji: string }> = [
@@ -26,12 +26,14 @@ const CITY_COLORS = ["text-blue-600", "text-violet-400", "text-amber-400"];
 const CITY_BG = ["bg-blue-400/10 border-blue-400/20", "bg-violet-400/10 border-violet-400/20", "bg-amber-400/10 border-amber-400/20"];
 
 function CityPicker({
+  allCities,
   selected,
   onSelect,
   exclude,
   colorClass,
   locale,
 }: {
+  allCities: CityLight[];
   selected: CitySeed | null;
   onSelect: (c: CitySeed | null) => void;
   exclude: string[];
@@ -61,12 +63,12 @@ function CityPicker({
 
   const filtered = useMemo(
     () =>
-      CITIES_SEED.filter(
+      allCities.filter(
         (c) =>
           !exclude.includes(c.slug) &&
           c.name.toLowerCase().includes(query.toLowerCase())
       ).slice(0, 8),
-    [query, exclude]
+    [allCities, query, exclude]
   );
 
   if (selected) {
@@ -131,7 +133,7 @@ function CityPicker({
   );
 }
 
-export function CompareTool({ locale = "fr" }: { locale?: Locale } = {}) {
+export function CompareTool({ locale = "fr", cities: allCities }: { locale?: Locale; cities: CityLight[] }) {
   const t = (fr: string, en: string) => (locale === "en" ? en : fr);
   const cityHref = (slug: string) => (locale === "en" ? `/cities/${slug}` : `/villes/${slug}`);
   const [cities, setCities] = useState<Array<CitySeed | null>>([null, null]);
@@ -177,6 +179,7 @@ export function CompareTool({ locale = "fr" }: { locale?: Locale } = {}) {
         {cities.map((city, i) => (
           <div key={city?.slug ?? `slot-${i}`} className="relative">
             <CityPicker
+              allCities={allCities}
               selected={city}
               onSelect={(c) => setCity(i, c)}
               exclude={exclude.filter((s) => city?.slug !== s)}

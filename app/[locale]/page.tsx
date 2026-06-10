@@ -19,6 +19,7 @@ import { CityMarquee } from "@/components/CityMarquee";
 import { ScrollReveal } from "@/components/effects/ScrollReveal";
 import { SectionNav } from "@/components/SectionNav";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { HERO_CITIES } from "@/lib/hero-data";
 import { CITIES_COUNT, RANKINGS_COUNT } from "@/lib/site-stats";
@@ -55,42 +56,19 @@ export const metadata: Metadata = {
   },
 };
 
-const websiteJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  name: "BestCitiesInFrance",
-  url: EN_BASE,
-  description: "The reference for choosing where to live in France: rankings, resident reviews, a matching quiz and local data.",
-  potentialAction: {
-    "@type": "SearchAction",
-    target: { "@type": "EntryPoint", urlTemplate: `${EN_BASE}/search?q={search_term_string}` },
-    "query-input": "required name=search_term_string",
-  },
-};
-
-const organizationJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  name: "BestCitiesInFrance",
-  url: EN_BASE,
-  logo: `${EN_BASE}/icon.png`,
-  sameAs: [],
-  description: "Platform for comparing and ranking French cities by quality of life.",
-};
-
 export default function EnHomePage() {
   return (
     <main id="main-content" className="min-h-screen relative">
+      {/* WebSite/Organization JSON-LD comes from the root layout's @id-anchored
+          graph — duplicating it here made Google see two WebSite nodes. */}
       <AmbientBackground />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }} />
       <Navbar />
       <HeroSection locale="en" cities={HERO_CITIES} citiesCount={CITIES_COUNT} rankingsCount={RANKINGS_COUNT} />
       <SectionNav locale="en" />
       <ScrollReveal><TopFiveCities locale="en" /></ScrollReveal>
       <CityMarquee locale="en" />
       <ScrollReveal><StatsBar locale="en" citiesCount={CITIES_COUNT} rankingsCount={RANKINGS_COUNT} /></ScrollReveal>
-      <ScrollReveal><FranceHeatmap locale="en" /></ScrollReveal>
+      <ScrollReveal><FranceHeatmap locale="en" cities={CITIES_LIGHT} /></ScrollReveal>
       <ScrollReveal><RankingPreview locale="en" /></ScrollReveal>
       <ScrollReveal><FeaturedCities locale="en" /></ScrollReveal>
       <ScrollReveal><QuizTeaser citiesCount={CITIES_SEED.length} locale="en" /></ScrollReveal>

@@ -18,6 +18,7 @@ import { CityMarquee } from "@/components/CityMarquee";
 import { ScrollReveal } from "@/components/effects/ScrollReveal";
 import { SectionNav } from "@/components/SectionNav";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import { HERO_CITIES } from "@/lib/hero-data";
 import { CITIES_COUNT, RANKINGS_COUNT } from "@/lib/site-stats";
 import { scoreColor } from "@/lib/utils";
@@ -34,7 +35,7 @@ export default function HomePage() {
       <ScrollReveal><TopFiveCities /></ScrollReveal>
       <CityMarquee />
       <ScrollReveal><StatsBar citiesCount={CITIES_COUNT} rankingsCount={RANKINGS_COUNT} /></ScrollReveal>
-      <ScrollReveal><FranceHeatmap /></ScrollReveal>
+      <ScrollReveal><FranceHeatmap cities={CITIES_LIGHT} /></ScrollReveal>
       <ScrollReveal><RankingPreview /></ScrollReveal>
       <ScrollReveal><FeaturedCities /></ScrollReveal>
       <ScrollReveal><QuizTeaser citiesCount={CITIES_SEED.length} /></ScrollReveal>

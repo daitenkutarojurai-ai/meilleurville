@@ -1,7 +1,7 @@
 "use client";
-import { useMemo, useRef, useState, useEffect } from "react";
+import { memo, useMemo, useRef, useState, useEffect } from "react";
 import Link from "next/link";
-import { CITIES_SEED } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 import { DromStrip } from "@/components/DromStrip";
 import { scoreHex } from "@/lib/utils";
 import { regionToSlug } from "@/lib/regions";
@@ -103,7 +103,120 @@ const SCORE_OPTIONS: Array<{ key: ScoreKey; label: string; labelEn: string; emoj
   { key: "schools", label: "Écoles", labelEn: "Schools", emoji: "🎓" },
 ];
 
-export function FranceHeatmap({ locale = "fr", showRegionToggle = false }: { locale?: "fr" | "en"; showRegionToggle?: boolean } = {}) {
+interface Dot {
+  slug: string;
+  name: string;
+  region: string;
+  score: number;
+  population: number;
+  x: number;
+  y: number;
+  color: string;
+  r: number;
+  delay: number;
+  scores: CityLight["scores"];
+}
+
+// Static heat-gradient layer — memoised so hovering a dot (which only changes
+// the tooltip/highlight state) doesn't re-render these ~200 SVG nodes.
+const HeatLayer = memo(function HeatLayer({ cities, scoreKey }: { cities: CityLight[]; scoreKey: ScoreKey }) {
+  const hot = cities.filter((c) => c.scores[scoreKey] >= 6.0);
+  return (
+    <g clipPath="url(#franceClip)" opacity="0.55" style={{ mixBlendMode: "screen" }}>
+      {hot.map((c) => {
+        const [x, y] = project(c.longitude, c.latitude);
+        const r = 70 + (c.scores[scoreKey] - 6.0) * 30;
+        return (
+          <radialGradient
+            key={`h-${c.slug}`}
+            id={`heat-${c.slug}`}
+            cx={x}
+            cy={y}
+            r={r}
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0%" stopColor={scoreColor(c.scores[scoreKey])} stopOpacity="0.55" />
+            <stop offset="100%" stopColor={scoreColor(c.scores[scoreKey])} stopOpacity="0" />
+          </radialGradient>
+        );
+      })}
+      {hot.map((c) => {
+        const [x, y] = project(c.longitude, c.latitude);
+        const r = 70 + (c.scores[scoreKey] - 6.0) * 30;
+        return (
+          <circle
+            key={`hc-${c.slug}`}
+            cx={x}
+            cy={y}
+            r={r}
+            fill={`url(#heat-${c.slug})`}
+          />
+        );
+      })}
+    </g>
+  );
+});
+
+// Static dot layer — memoised: `dots` only changes on axis switch, `onHover`
+// is the stable setState, so hover re-renders skip these ~1,600 SVG nodes.
+const CityDotLayer = memo(function CityDotLayer({
+  dots,
+  mounted,
+  locale,
+  onHover,
+}: {
+  dots: Dot[];
+  mounted: boolean;
+  locale: "fr" | "en";
+  onHover: (h: HoverState | null) => void;
+}) {
+  const cityHref = (slug: string) => (locale === "en" ? `/cities/${slug}` : `/villes/${slug}`);
+  return (
+    <g>
+      {dots.map((d) => {
+        const hoverPayload = {
+          slug: d.slug,
+          name: d.name,
+          region: d.region,
+          population: d.population,
+          scores: { global: d.score, nature: d.scores.nature, transport: d.scores.transport, cost: d.scores.cost },
+          x: d.x,
+          y: d.y,
+          color: d.color,
+        };
+        return (
+          <a
+            key={d.slug}
+            href={cityHref(d.slug)}
+            aria-label={
+              locale === "en"
+                ? `${d.name} (${d.region}) — score ${d.score.toFixed(1)} out of 10`
+                : `${d.name} (${d.region}) — score ${d.score.toFixed(1)} sur 10`
+            }
+            className="cursor-pointer fh-dot outline-none focus-visible:[outline:2px_solid_white] focus-visible:[outline-offset:2px]"
+            style={{
+              opacity: mounted ? 1 : 0,
+              transform: mounted ? "scale(1)" : "scale(0)",
+              transformOrigin: `${d.x}px ${d.y}px`,
+              transformBox: "view-box",
+              transition: `opacity 0.5s ease ${d.delay}ms, transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) ${d.delay}ms`,
+            }}
+            onMouseEnter={() => onHover(hoverPayload)}
+            onMouseLeave={() => onHover(null)}
+            onFocus={() => onHover(hoverPayload)}
+            onBlur={() => onHover(null)}
+          >
+            <circle cx={d.x} cy={d.y} r={d.r * 2.6} fill={d.color} opacity="0.18" filter="url(#dotGlow)" />
+            <circle cx={d.x} cy={d.y} r={d.r * 1.6} fill={d.color} opacity="0.35" />
+            <circle cx={d.x} cy={d.y} r={d.r} fill={d.color} stroke="white" strokeWidth="1" />
+          </a>
+        );
+      })}
+    </g>
+  );
+});
+
+export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities }: { locale?: "fr" | "en"; showRegionToggle?: boolean; cities: CityLight[] }) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const optionLabel = (o: { label: string; labelEn: string }) => (locale === "en" ? o.labelEn : o.label);
   const cityHref = (slug: string) => (locale === "en" ? `/cities/${slug}` : `/villes/${slug}`);
@@ -136,7 +249,7 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false }: { loc
   }, []);
 
   const dots = useMemo(() => {
-    return [...CITIES_SEED]
+    return [...cities]
       .filter((c) => c.longitude >= -6 && c.longitude <= 10 && c.latitude >= 40 && c.latitude <= 52)
       .sort((a, b) => a.scores[scoreKey] - b.scores[scoreKey])
       .map((c, i) => {
@@ -155,13 +268,13 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false }: { loc
           scores: c.scores,
         };
       });
-  }, [scoreKey]);
+  }, [cities, scoreKey]);
 
   // Region aggregate layer — one bubble per metropolitan region at its city
   // centroid, coloured by the average of its cities' current-axis score.
   const regionAgg = useMemo(() => {
     const groups: Record<string, { sumLng: number; sumLat: number; sumScore: number; n: number }> = {};
-    for (const c of CITIES_SEED) {
+    for (const c of cities) {
       if (!(c.longitude >= -6 && c.longitude <= 10 && c.latitude >= 40 && c.latitude <= 52)) continue;
       const g = (groups[c.region] ??= { sumLng: 0, sumLat: 0, sumScore: 0, n: 0 });
       g.sumLng += c.longitude;
@@ -176,20 +289,32 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false }: { loc
         return { region, slug: regionToSlug(region), avg, n: g.n, x, y, color: scoreColor(avg), r: 16 + Math.sqrt(g.n) * 2.6 };
       })
       .sort((a, b) => b.r - a.r);
-  }, [scoreKey]);
+  }, [cities, scoreKey]);
 
   const top3 = useMemo(
-    () => [...CITIES_SEED].sort((a, b) => b.scores.global - a.scores.global).slice(0, 3),
-    []
+    () => [...cities].sort((a, b) => b.scores.global - a.scores.global).slice(0, 3),
+    [cities]
   );
 
+  // Top city per DROM territory for the cartouche strip — memoised so hover
+  // re-renders don't re-filter/sort the seed five times.
+  const dromTops = useMemo(() => {
+    const out: Record<string, CityLight | undefined> = {};
+    for (const name of ["Guadeloupe", "Martinique", "Guyane", "La Réunion", "Mayotte"]) {
+      out[name] = [...cities]
+        .filter((c) => c.region === name)
+        .sort((a, b) => b.scores[scoreKey] - a.scores[scoreKey])[0];
+    }
+    return out;
+  }, [cities, scoreKey]);
+
   const stats = useMemo(() => {
-    const all = CITIES_SEED;
+    const all = cities;
     const avg = all.reduce((s, c) => s + c.scores.global, 0) / all.length;
     const best = Math.max(...all.map((c) => c.scores.global));
     const top = all.filter((c) => c.scores.global >= 7.0).length;
     return { count: all.length, avg, best, top };
-  }, []);
+  }, [cities]);
 
   return (
     <section className="relative overflow-hidden py-8 sm:py-20 border-t border-[var(--border)]">
@@ -414,44 +539,7 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false }: { loc
               />
 
               {/* Heat layer — radial gradients per top city for current axis */}
-              {view === "cities" && (
-              <g clipPath="url(#franceClip)" opacity="0.55" style={{ mixBlendMode: "screen" }}>
-                {[...CITIES_SEED]
-                  .filter((c) => c.scores[scoreKey] >= 6.0)
-                  .map((c) => {
-                    const [x, y] = project(c.longitude, c.latitude);
-                    const r = 70 + (c.scores[scoreKey] - 6.0) * 30;
-                    return (
-                      <radialGradient
-                        key={`h-${c.slug}`}
-                        id={`heat-${c.slug}`}
-                        cx={x}
-                        cy={y}
-                        r={r}
-                        gradientUnits="userSpaceOnUse"
-                      >
-                        <stop offset="0%" stopColor={scoreColor(c.scores[scoreKey])} stopOpacity="0.55" />
-                        <stop offset="100%" stopColor={scoreColor(c.scores[scoreKey])} stopOpacity="0" />
-                      </radialGradient>
-                    );
-                  })}
-                {[...CITIES_SEED]
-                  .filter((c) => c.scores[scoreKey] >= 6.0)
-                  .map((c) => {
-                    const [x, y] = project(c.longitude, c.latitude);
-                    const r = 70 + (c.scores[scoreKey] - 6.0) * 30;
-                    return (
-                      <circle
-                        key={`hc-${c.slug}`}
-                        cx={x}
-                        cy={y}
-                        r={r}
-                        fill={`url(#heat-${c.slug})`}
-                      />
-                    );
-                  })}
-              </g>
-              )}
+              {view === "cities" && <HeatLayer cities={cities} scoreKey={scoreKey} />}
 
               {/* France filled shape — animated draw on mount */}
               <path
@@ -534,9 +622,7 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false }: { loc
                   const startX = Math.round((W - totalW) / 2);
                   const startY = MAP_H + 22;
                   return droms.map((r, i) => {
-                    const top = [...CITIES_SEED]
-                      .filter((c) => c.region === r.name)
-                      .sort((a, b) => b.scores[scoreKey] - a.scores[scoreKey])[0];
+                    const top = dromTops[r.name];
                     const color = top ? scoreColor(top.scores[scoreKey]) : "#94A3B8";
                     const x = startX + i * (boxW + gap);
                     return (
@@ -622,45 +708,9 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false }: { loc
               `}</style>
 
               {/* City dots — staggered fade-in, click to open city */}
-              {view === "cities" && dots.map((d) => {
-                const hoverPayload = {
-                  slug: d.slug,
-                  name: d.name,
-                  region: d.region,
-                  population: d.population,
-                  scores: { global: d.score, nature: d.scores.nature, transport: d.scores.transport, cost: d.scores.cost },
-                  x: d.x,
-                  y: d.y,
-                  color: d.color,
-                };
-                return (
-                  <a
-                    key={d.slug}
-                    href={cityHref(d.slug)}
-                    aria-label={
-                      locale === "en"
-                        ? `${d.name} (${d.region}) — score ${d.score.toFixed(1)} out of 10`
-                        : `${d.name} (${d.region}) — score ${d.score.toFixed(1)} sur 10`
-                    }
-                    className="cursor-pointer fh-dot outline-none focus-visible:[outline:2px_solid_white] focus-visible:[outline-offset:2px]"
-                    style={{
-                      opacity: mounted ? 1 : 0,
-                      transform: mounted ? "scale(1)" : "scale(0)",
-                      transformOrigin: `${d.x}px ${d.y}px`,
-                      transformBox: "view-box",
-                      transition: `opacity 0.5s ease ${d.delay}ms, transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) ${d.delay}ms`,
-                    }}
-                    onMouseEnter={() => setHover(hoverPayload)}
-                    onMouseLeave={() => setHover(null)}
-                    onFocus={() => setHover(hoverPayload)}
-                    onBlur={() => setHover(null)}
-                  >
-                    <circle cx={d.x} cy={d.y} r={d.r * 2.6} fill={d.color} opacity="0.18" filter="url(#dotGlow)" />
-                    <circle cx={d.x} cy={d.y} r={d.r * 1.6} fill={d.color} opacity="0.35" />
-                    <circle cx={d.x} cy={d.y} r={d.r} fill={d.color} stroke="white" strokeWidth="1" />
-                  </a>
-                );
-              })}
+              {view === "cities" && (
+                <CityDotLayer dots={dots} mounted={mounted} locale={locale} onHover={setHover} />
+              )}
 
               {/* Region aggregate bubbles — one per metropolitan region */}
               {view === "regions" && regionAgg.map((rg) => (
@@ -804,7 +854,7 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false }: { loc
               ))}
             </div>
 
-            <DromStrip locale={locale} />
+            <DromStrip locale={locale} cities={cities} />
           </div>
 
           {/* Side panel */}

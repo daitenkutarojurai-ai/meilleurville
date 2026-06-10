@@ -1,16 +1,11 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { memo, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
-import { CITIES_SEED } from "@/data/cities-seed";
-import { HOUSING } from "@/data/housing";
+import type { CityLight, LeanMeta } from "@/lib/cities-light";
 import { DromStrip } from "@/components/DromStrip";
 import { scoreHex as scoreColor } from "@/lib/utils";
 import { regionToSlug } from "@/lib/regions";
-import { leanBySlug, leanOptions, BLOC_LABEL, BLOC_COLORS } from "@/lib/political-lean";
-
-const LEAN_MAP = leanBySlug();
-const LEAN_OPTS = leanOptions();
 
 type ScoreKey = "global" | "nature" | "cost" | "safety" | "transport" | "culture" | "remoteWork" | "schools";
 
@@ -97,7 +92,172 @@ interface HoverState {
   y: number;
 }
 
-export function CarteClient() {
+interface CarteDot {
+  slug: string;
+  name: string;
+  region: string;
+  score: number;
+  x: number;
+  y: number;
+  color: string;
+  r: number;
+  delay: number;
+}
+
+// Static layers below are memoised so a hover (tooltip/highlight state only)
+// doesn't re-render the ~1,000+ SVG nodes of the dot/bar/heat layers.
+const CarteHeatLayer = memo(function CarteHeatLayer({ cities, scoreKey }: { cities: CityLight[]; scoreKey: ScoreKey }) {
+  return (
+    <g clipPath="url(#cFranceClip)" opacity="0.55" style={{ mixBlendMode: "screen" }}>
+      {cities.map((c) => {
+        const [x, y] = project(c.longitude, c.latitude);
+        const r = 70 + (c.scores[scoreKey] - 7.5) * 30;
+        return (
+          <radialGradient
+            key={`ch-${c.slug}`}
+            id={`cheat-${c.slug}`}
+            cx={x}
+            cy={y}
+            r={r}
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0%" stopColor={scoreColor(c.scores[scoreKey])} stopOpacity="0.55" />
+            <stop offset="100%" stopColor={scoreColor(c.scores[scoreKey])} stopOpacity="0" />
+          </radialGradient>
+        );
+      })}
+      {cities.map((c) => {
+        const [x, y] = project(c.longitude, c.latitude);
+        const r = 70 + (c.scores[scoreKey] - 7.5) * 30;
+        return (
+          <circle
+            key={`chc-${c.slug}`}
+            cx={x}
+            cy={y}
+            r={r}
+            fill={`url(#cheat-${c.slug})`}
+          />
+        );
+      })}
+    </g>
+  );
+});
+
+const CarteBarLayer = memo(function CarteBarLayer({
+  dots,
+  mounted,
+  onHover,
+}: {
+  dots: CarteDot[];
+  mounted: boolean;
+  onHover: (h: HoverState | null) => void;
+}) {
+  return (
+    <g>
+      {dots.map((d) => {
+        const barH = Math.max(8, d.score * 32);
+        const barW = Math.max(7, d.r * 2.2);
+        return (
+          <a
+            key={d.slug}
+            href={`/villes/${d.slug}`}
+            aria-label={`Voir ${d.name}`}
+            className="cursor-pointer carte-bar"
+            style={{
+              opacity: mounted ? 1 : 0,
+              transition: `opacity 0.4s ease ${d.delay}ms`,
+            }}
+            onMouseEnter={() => onHover({ slug: d.slug, x: d.x, y: d.y })}
+            onMouseLeave={() => onHover(null)}
+            onFocus={() => onHover({ slug: d.slug, x: d.x, y: d.y })}
+            onBlur={() => onHover(null)}
+          >
+            {/* Ground shadow */}
+            <ellipse cx={d.x} cy={d.y + 2} rx={barW * 0.75} ry={barW * 0.28} fill="#000" opacity="0.35" />
+            {/* Column body */}
+            <rect
+              x={d.x - barW / 2}
+              y={d.y - barH}
+              width={barW}
+              height={barH}
+              fill={d.color}
+              opacity="0.82"
+              rx="2"
+            />
+            {/* Left dark face (depth illusion) */}
+            <rect
+              x={d.x - barW / 2}
+              y={d.y - barH}
+              width={barW * 0.18}
+              height={barH}
+              fill="#000"
+              opacity="0.22"
+              rx="2"
+            />
+            {/* Top cap highlight */}
+            <rect
+              x={d.x - barW / 2}
+              y={d.y - barH}
+              width={barW}
+              height={Math.max(3, barH * 0.12)}
+              fill="white"
+              opacity="0.28"
+              rx="2"
+            />
+          </a>
+        );
+      })}
+    </g>
+  );
+});
+
+const CarteDotLayer = memo(function CarteDotLayer({
+  dots,
+  mounted,
+  onHover,
+}: {
+  dots: CarteDot[];
+  mounted: boolean;
+  onHover: (h: HoverState | null) => void;
+}) {
+  return (
+    <g>
+      {dots.map((d) => (
+        <a
+          key={d.slug}
+          href={`/villes/${d.slug}`}
+          aria-label={`Voir ${d.name}`}
+          className="cursor-pointer carte-dot"
+          style={{
+            opacity: mounted ? 1 : 0,
+            transform: mounted ? "scale(1)" : "scale(0)",
+            transformOrigin: `${d.x}px ${d.y}px`,
+            transformBox: "view-box",
+            transition: `opacity 0.4s ease ${d.delay}ms, transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) ${d.delay}ms`,
+          }}
+          onMouseEnter={() => onHover({ slug: d.slug, x: d.x, y: d.y })}
+          onMouseLeave={() => onHover(null)}
+          onFocus={() => onHover({ slug: d.slug, x: d.x, y: d.y })}
+          onBlur={() => onHover(null)}
+        >
+          <circle cx={d.x} cy={d.y} r={d.r * 2.6} fill={d.color} opacity="0.18" filter="url(#cDotGlow)" />
+          <circle cx={d.x} cy={d.y} r={d.r * 1.6} fill={d.color} opacity="0.35" />
+          <circle cx={d.x} cy={d.y} r={d.r} fill={d.color} stroke="white" strokeWidth="1" />
+        </a>
+      ))}
+    </g>
+  );
+});
+
+export function CarteClient({
+  cities,
+  rentT2BySlug,
+  leanMeta,
+}: {
+  cities: CityLight[];
+  rentT2BySlug: Record<string, number>;
+  leanMeta: LeanMeta;
+}) {
   const [scoreKey, setScoreKey] = useState<ScoreKey>("global");
   const [hover, setHover] = useState<HoverState | null>(null);
   const [mounted, setMounted] = useState(false);
@@ -106,7 +266,7 @@ export function CarteClient() {
   const [leanFilter, setLeanFilter] = useState<string>("");
   const mapRef = useRef<HTMLDivElement | null>(null);
 
-  const passLean = (slug: string) => !leanFilter || LEAN_MAP[slug] === leanFilter;
+  const passLean = (slug: string) => !leanFilter || leanMeta.map[slug] === leanFilter;
 
   useEffect(() => {
     const t = setTimeout(() => setMounted(true), 80);
@@ -128,13 +288,13 @@ export function CarteClient() {
   }, []);
 
   const sorted = useMemo(
-    () => [...CITIES_SEED].sort((a, b) => b.scores[scoreKey] - a.scores[scoreKey]),
-    [scoreKey]
+    () => [...cities].sort((a, b) => b.scores[scoreKey] - a.scores[scoreKey]),
+    [cities, scoreKey]
   );
 
   const dots = useMemo(
     () =>
-      [...CITIES_SEED]
+      [...cities]
         .filter((c) => isMetropolitan(c.longitude, c.latitude) && passLean(c.slug))
         .sort((a, b) =>
           is3D
@@ -155,14 +315,23 @@ export function CarteClient() {
             delay: i * 8,
           };
         }),
-    [scoreKey, is3D, leanFilter]
+    [cities, scoreKey, is3D, leanFilter, leanMeta]
+  );
+
+  // Heat-layer cities — memoised separately so hover doesn't re-filter.
+  const heatCities = useMemo(
+    () =>
+      cities.filter(
+        (c) => isMetropolitan(c.longitude, c.latitude) && c.scores[scoreKey] >= 7.5 && passLean(c.slug)
+      ),
+    [cities, scoreKey, leanFilter, leanMeta]
   );
 
   // Region aggregate layer — one bubble per metropolitan region, coloured by
   // the average of its cities' current-metric score (weighted average via mean).
   const regionAgg = useMemo(() => {
     const groups: Record<string, { sumLng: number; sumLat: number; sumScore: number; n: number }> = {};
-    for (const c of CITIES_SEED) {
+    for (const c of cities) {
       if (!isMetropolitan(c.longitude, c.latitude) || !passLean(c.slug)) continue;
       const g = (groups[c.region] ??= { sumLng: 0, sumLat: 0, sumScore: 0, n: 0 });
       g.sumLng += c.longitude;
@@ -177,10 +346,10 @@ export function CarteClient() {
         return { region, slug: regionToSlug(region), avg, n: g.n, x, y, color: scoreColor(avg), r: 16 + Math.sqrt(g.n) * 2.6 };
       })
       .sort((a, b) => b.r - a.r); // largest first so smaller bubbles stay clickable on top
-  }, [scoreKey, leanFilter]);
+  }, [cities, scoreKey, leanFilter, leanMeta]);
 
-  const hovered = hover ? CITIES_SEED.find((c) => c.slug === hover.slug) : null;
-  const housing = hovered ? HOUSING[hovered.slug] : null;
+  const hovered = hover ? cities.find((c) => c.slug === hover.slug) : null;
+  const rentT2 = hovered ? rentT2BySlug[hovered.slug] : undefined;
   const currentLabel = SCORE_OPTIONS.find((o) => o.key === scoreKey)?.label ?? "Score global";
 
   return (
@@ -222,7 +391,7 @@ export function CarteClient() {
         >
           Toutes
         </button>
-        {LEAN_OPTS.map((b) => (
+        {leanMeta.options.map((b) => (
           <button
             key={b}
             onClick={() => setLeanFilter(leanFilter === b ? "" : b)}
@@ -230,12 +399,12 @@ export function CarteClient() {
             className="rounded-full px-3 py-1 text-xs font-medium transition-all border flex items-center gap-1.5"
             style={
               leanFilter === b
-                ? { backgroundColor: BLOC_COLORS[b], borderColor: BLOC_COLORS[b], color: "#fff" }
+                ? { backgroundColor: leanMeta.colors[b], borderColor: leanMeta.colors[b], color: "#fff" }
                 : { borderColor: "var(--border)", color: "var(--text-secondary)" }
             }
           >
-            <span className="inline-block h-2 w-2 rounded-sm" style={{ backgroundColor: leanFilter === b ? "rgba(255,255,255,0.9)" : BLOC_COLORS[b] }} />
-            {BLOC_LABEL.fr[b]}
+            <span className="inline-block h-2 w-2 rounded-sm" style={{ backgroundColor: leanFilter === b ? "rgba(255,255,255,0.9)" : leanMeta.colors[b] }} />
+            {leanMeta.labels.fr[b]}
           </button>
         ))}
       </div>
@@ -384,44 +553,7 @@ export function CarteClient() {
               <rect width={W} height={H} fill="url(#cGrid)" />
 
               {/* Heat layer (top cities for current metric) */}
-              {view === "villes" && (
-              <g clipPath="url(#cFranceClip)" opacity="0.55" style={{ mixBlendMode: "screen" }}>
-                {[...CITIES_SEED]
-                  .filter((c) => isMetropolitan(c.longitude, c.latitude) && c.scores[scoreKey] >= 7.5 && passLean(c.slug))
-                  .map((c) => {
-                    const [x, y] = project(c.longitude, c.latitude);
-                    const r = 70 + (c.scores[scoreKey] - 7.5) * 30;
-                    return (
-                      <radialGradient
-                        key={`ch-${c.slug}`}
-                        id={`cheat-${c.slug}`}
-                        cx={x}
-                        cy={y}
-                        r={r}
-                        gradientUnits="userSpaceOnUse"
-                      >
-                        <stop offset="0%" stopColor={scoreColor(c.scores[scoreKey])} stopOpacity="0.55" />
-                        <stop offset="100%" stopColor={scoreColor(c.scores[scoreKey])} stopOpacity="0" />
-                      </radialGradient>
-                    );
-                  })}
-                {[...CITIES_SEED]
-                  .filter((c) => isMetropolitan(c.longitude, c.latitude) && c.scores[scoreKey] >= 7.5 && passLean(c.slug))
-                  .map((c) => {
-                    const [x, y] = project(c.longitude, c.latitude);
-                    const r = 70 + (c.scores[scoreKey] - 7.5) * 30;
-                    return (
-                      <circle
-                        key={`chc-${c.slug}`}
-                        cx={x}
-                        cy={y}
-                        r={r}
-                        fill={`url(#cheat-${c.slug})`}
-                      />
-                    );
-                  })}
-              </g>
-              )}
+              {view === "villes" && <CarteHeatLayer cities={heatCities} scoreKey={scoreKey} />}
 
               {/* France shape */}
               <path
@@ -532,83 +664,9 @@ export function CarteClient() {
                   ))
                 : is3D
                 ? /* 3D column bars */
-                  dots.map((d) => {
-                    const barH = Math.max(8, d.score * 32);
-                    const barW = Math.max(7, d.r * 2.2);
-                    return (
-                      <a
-                        key={d.slug}
-                        href={`/villes/${d.slug}`}
-                        aria-label={`Voir ${d.name}`}
-                        className="cursor-pointer carte-bar"
-                        style={{
-                          opacity: mounted ? 1 : 0,
-                          transition: `opacity 0.4s ease ${d.delay}ms`,
-                        }}
-                        onMouseEnter={() => setHover({ slug: d.slug, x: d.x, y: d.y })}
-                        onMouseLeave={() => setHover(null)}
-                        onFocus={() => setHover({ slug: d.slug, x: d.x, y: d.y })}
-                        onBlur={() => setHover(null)}
-                      >
-                        {/* Ground shadow */}
-                        <ellipse cx={d.x} cy={d.y + 2} rx={barW * 0.75} ry={barW * 0.28} fill="#000" opacity="0.35" />
-                        {/* Column body */}
-                        <rect
-                          x={d.x - barW / 2}
-                          y={d.y - barH}
-                          width={barW}
-                          height={barH}
-                          fill={d.color}
-                          opacity="0.82"
-                          rx="2"
-                        />
-                        {/* Left dark face (depth illusion) */}
-                        <rect
-                          x={d.x - barW / 2}
-                          y={d.y - barH}
-                          width={barW * 0.18}
-                          height={barH}
-                          fill="#000"
-                          opacity="0.22"
-                          rx="2"
-                        />
-                        {/* Top cap highlight */}
-                        <rect
-                          x={d.x - barW / 2}
-                          y={d.y - barH}
-                          width={barW}
-                          height={Math.max(3, barH * 0.12)}
-                          fill="white"
-                          opacity="0.28"
-                          rx="2"
-                        />
-                      </a>
-                    );
-                  })
+                  <CarteBarLayer dots={dots} mounted={mounted} onHover={setHover} />
                 : /* 2D dots (original) */
-                  dots.map((d) => (
-                    <a
-                      key={d.slug}
-                      href={`/villes/${d.slug}`}
-                      aria-label={`Voir ${d.name}`}
-                      className="cursor-pointer carte-dot"
-                      style={{
-                        opacity: mounted ? 1 : 0,
-                        transform: mounted ? "scale(1)" : "scale(0)",
-                        transformOrigin: `${d.x}px ${d.y}px`,
-                        transformBox: "view-box",
-                        transition: `opacity 0.4s ease ${d.delay}ms, transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) ${d.delay}ms`,
-                      }}
-                      onMouseEnter={() => setHover({ slug: d.slug, x: d.x, y: d.y })}
-                      onMouseLeave={() => setHover(null)}
-                      onFocus={() => setHover({ slug: d.slug, x: d.x, y: d.y })}
-                      onBlur={() => setHover(null)}
-                    >
-                      <circle cx={d.x} cy={d.y} r={d.r * 2.6} fill={d.color} opacity="0.18" filter="url(#cDotGlow)" />
-                      <circle cx={d.x} cy={d.y} r={d.r * 1.6} fill={d.color} opacity="0.35" />
-                      <circle cx={d.x} cy={d.y} r={d.r} fill={d.color} stroke="white" strokeWidth="1" />
-                    </a>
-                  ))}
+                  <CarteDotLayer dots={dots} mounted={mounted} onHover={setHover} />}
 
               {/* Hover label (2D only — 3D uses side panel) */}
               {!is3D && hover && hovered && (
@@ -658,7 +716,7 @@ export function CarteClient() {
             </span>
           </div>
 
-          <DromStrip />
+          <DromStrip cities={cities} />
         </div>
 
         {/* Side panel */}
@@ -694,10 +752,10 @@ export function CarteClient() {
                     </span>
                   </div>
                 ))}
-                {housing && (
+                {rentT2 != null && (
                   <div className="flex justify-between pt-2 mt-1 border-t border-[var(--border)]">
                     <span className="text-[var(--text-secondary)]">Loyer T2</span>
-                    <span className="font-semibold text-[var(--text-primary)]">{housing.avgRentT2}€/mois</span>
+                    <span className="font-semibold text-[var(--text-primary)]">{rentT2}€/mois</span>
                   </div>
                 )}
               </div>

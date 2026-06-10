@@ -1,6 +1,15 @@
 import Link from "next/link";
-import { CITIES_SEED } from "@/data/cities-seed";
 import { scoreHex } from "@/lib/utils";
+
+// Minimal city shape — the parent (FranceHeatmap / CarteClient) passes its
+// CityLight rows; importing the seed here would ship it in the client bundle
+// since this component renders inside "use client" trees.
+export interface DromCity {
+  slug: string;
+  name: string;
+  region: string;
+  scores: { global: number };
+}
 
 const DROM = [
   { name: "Guadeloupe", emoji: "🌴", region: "Guadeloupe", regionSlug: "guadeloupe" },
@@ -12,13 +21,13 @@ const DROM = [
 
 // scoreHex imported from @/lib/utils — single source of truth
 
-export function DromStrip({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
+export function DromStrip({ locale = "fr", cities }: { locale?: "fr" | "en"; cities: DromCity[] }) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const cityHref = (slug: string) => (locale === "en" ? `/cities/${slug}` : `/villes/${slug}`);
-  // Group DROM cities by region from the seed
+  // Group DROM cities by region from the passed rows
   const byRegion = DROM.map((r) => ({
     ...r,
-    cities: CITIES_SEED.filter((c) => c.region === r.region)
+    cities: cities.filter((c) => c.region === r.region)
       .sort((a, b) => b.scores.global - a.scores.global),
   })).filter((r) => r.cities.length > 0);
 

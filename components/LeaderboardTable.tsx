@@ -1,12 +1,10 @@
 "use client";
 import { useState, useMemo } from "react";
 import Link from "next/link";
-import { CITIES_SEED } from "@/data/cities-seed";
-import { HOUSING } from "@/data/housing";
+import type { CityLight } from "@/lib/cities-light";
 import { cn, scoreColor as scoreClass } from "@/lib/utils";
 
 const MEDAL = ["🥇", "🥈", "🥉"];
-const REGIONS = ["Toutes", ...Array.from(new Set(CITIES_SEED.map((c) => c.region))).sort()];
 
 const CRITERIA = [
   { key: "life" as const, label: "Qualité de vie" },
@@ -19,17 +17,28 @@ const CRITERIA = [
   { key: "schools" as const, label: "Écoles" },
 ];
 
-type SortKey = "global" | keyof (typeof CITIES_SEED)[number]["scores"];
+type SortKey = "global" | keyof CityLight["scores"];
 
 // scoreClass = scoreColor from @/lib/utils (aliased import above)
 
-export function LeaderboardTable() {
+export function LeaderboardTable({
+  cities,
+  rentT2BySlug,
+}: {
+  cities: CityLight[];
+  rentT2BySlug: Record<string, number>;
+}) {
   const [region, setRegion] = useState("Toutes");
   const [sortKey, setSortKey] = useState<SortKey>("global");
   const [search, setSearch] = useState("");
 
+  const REGIONS = useMemo(
+    () => ["Toutes", ...Array.from(new Set(cities.map((c) => c.region))).sort()],
+    [cities]
+  );
+
   const filtered = useMemo(() => {
-    return [...CITIES_SEED]
+    return [...cities]
       .filter((c) => {
         if (region !== "Toutes" && c.region !== region) return false;
         if (search && !c.name.toLowerCase().includes(search.toLowerCase())) return false;
@@ -40,7 +49,7 @@ export function LeaderboardTable() {
         const bVal = sortKey === "global" ? b.scores.global : b.scores[sortKey as keyof typeof b.scores];
         return bVal - aVal;
       });
-  }, [region, sortKey, search]);
+  }, [cities, region, sortKey, search]);
 
   return (
     <div className="space-y-6">
@@ -152,7 +161,7 @@ export function LeaderboardTable() {
                     </td>
                   ))}
                   <td className="px-3 py-3 text-right text-xs font-mono-data text-[var(--text-secondary)] hidden lg:table-cell">
-                    {HOUSING[city.slug]?.avgRentT2 ? `${HOUSING[city.slug].avgRentT2}€` : "—"}
+                    {rentT2BySlug[city.slug] ? `${rentT2BySlug[city.slug]}€` : "—"}
                   </td>
                   <td className="py-3 pl-2 pr-4">
                     <Link href={`/villes/${city.slug}`} className="text-xs text-[var(--accent)] opacity-0 group-hover:opacity-100 focus-visible:opacity-100 max-lg:opacity-100 transition-opacity font-medium">

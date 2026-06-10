@@ -6,6 +6,7 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { ScoreBar } from "@/components/ui/ScoreBar";
 import { LeaderboardTable } from "@/components/LeaderboardTable";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { CITIES_LIGHT, RENT_T2_BY_SLUG } from "@/lib/cities-light";
 
 export const metadata: Metadata = {
   title: "Leaderboard · Top villes France par qualité de vie",
@@ -121,7 +122,7 @@ export default function LeaderboardPage() {
           <h2 className="text-base font-semibold text-[var(--text-primary)] mb-4">
             Classement complet — {sorted.length} villes
           </h2>
-          <LeaderboardTable />
+          <LeaderboardTable cities={CITIES_LIGHT} rentT2BySlug={RENT_T2_BY_SLUG} />
         </div>
 
         {/* Stats strip */}

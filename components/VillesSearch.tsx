@@ -1,19 +1,15 @@
 "use client";
 import { useState, useMemo } from "react";
 import { Search, SlidersHorizontal, X, ArrowUpDown, Tag, Users, Mountain, MapPin, Vote } from "lucide-react";
-import { CITIES_SEED } from "@/data/cities-seed";
+import type { CityLight, LeanMeta } from "@/lib/cities-light";
 import { CityCard } from "@/components/CityCard";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 import type { City } from "@/lib/types";
 import { computeNicheScores, TERRAIN_LABELS, type Terrain } from "@/lib/niche-scores";
-import { leanBySlug, leanOptions, BLOC_LABEL, BLOC_COLORS } from "@/lib/political-lean";
 
-const LEAN_MAP = leanBySlug();
-const LEAN_OPTS = leanOptions();
-
-function seedToCity(s: (typeof CITIES_SEED)[number]): City {
+function seedToCity(s: CityLight): City {
   return {
     id: s.slug,
     slug: s.slug,
@@ -47,8 +43,6 @@ const SORT_OPTIONS = [
   { id: "niche:studentLife", label: "Vie étudiante", emoji: "🎒" },
 ];
 
-const REGIONS = [...new Set(CITIES_SEED.map((c) => c.region))].sort();
-const DEPARTMENTS = [...new Set(CITIES_SEED.map((c) => c.department))].sort();
 
 const POPULAR_TAGS: Array<{ tag: string; emoji: string }> = [
   { tag: "mer", emoji: "🌊" },
@@ -80,16 +74,14 @@ const TERRAIN_EMOJIS: Record<Terrain, string> = {
   vallee: "🏞️",
 };
 
-// Precompute niche scores once per city — cheap, pure
-const NICHE_BY_SLUG: Record<string, ReturnType<typeof computeNicheScores>> = Object.fromEntries(
-  CITIES_SEED.map((c) => [c.slug, computeNicheScores(c)])
-);
-
 function normalize(s: string): string {
   return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
 }
 
-export function VillesSearch() {
+// How many city cards are prerendered into the SSG HTML before "show all".
+const INITIAL_VISIBLE = 120;
+
+export function VillesSearch({ cities, leanMeta }: { cities: CityLight[]; leanMeta: LeanMeta }) {
   const [query, setQuery] = useState("");
   const [sortBy, setSortBy] = useState<string>("global");
   const [region, setRegion] = useState<string>("");
@@ -100,6 +92,16 @@ export function VillesSearch() {
   const [nicheMin, setNicheMin] = useState<number>(7);
   const [terrains, setTerrains] = useState<Set<Terrain>>(new Set());
   const [showFilters, setShowFilters] = useState(false);
+  const [showAll, setShowAll] = useState(false);
+
+  const REGIONS = useMemo(() => [...new Set(cities.map((c) => c.region))].sort(), [cities]);
+  const DEPARTMENTS = useMemo(() => [...new Set(cities.map((c) => c.department))].sort(), [cities]);
+
+  // Precompute niche scores once per city — cheap, pure
+  const NICHE_BY_SLUG = useMemo<Record<string, ReturnType<typeof computeNicheScores>>>(
+    () => Object.fromEntries(cities.map((c) => [c.slug, computeNicheScores(c)])),
+    [cities]
+  );
 
   function toggleNiche(id: NicheKey) {
     setNiches((prev) => {
@@ -119,7 +121,7 @@ export function VillesSearch() {
   }
 
   const filtered = useMemo(() => {
-    let result = CITIES_SEED;
+    let result = cities;
 
     if (query) {
       const q = normalize(query);
@@ -144,7 +146,7 @@ export function VillesSearch() {
     }
 
     if (lean) {
-      result = result.filter((c) => LEAN_MAP[c.slug] === lean);
+      result = result.filter((c) => leanMeta.map[c.slug] === lean);
     }
 
     if (niches.size > 0) {
@@ -175,7 +177,7 @@ export function VillesSearch() {
         return bv - av;
       })
       .map(seedToCity);
-  }, [query, sortBy, region, dept, tag, lean, niches, nicheMin, terrains]);
+  }, [cities, leanMeta, query, sortBy, region, dept, tag, lean, niches, nicheMin, terrains, NICHE_BY_SLUG]);
 
   function clearFilters() {
     setQuery("");
@@ -419,16 +421,16 @@ export function VillesSearch() {
               >
                 Toutes
               </button>
-              {LEAN_OPTS.map((b) => (
+              {leanMeta.options.map((b) => (
                 <button
                   key={b}
                   onClick={() => setLean(lean === b ? "" : b)}
                   aria-pressed={lean === b}
                   className={`rounded-full px-3 py-1.5 text-xs font-medium border transition-colors flex items-center gap-1.5 ${lean === b ? "text-white" : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40"}`}
-                  style={lean === b ? { backgroundColor: BLOC_COLORS[b], borderColor: BLOC_COLORS[b] } : undefined}
+                  style={lean === b ? { backgroundColor: leanMeta.colors[b], borderColor: leanMeta.colors[b] } : undefined}
                 >
-                  <span className="inline-block h-2 w-2 rounded-sm" style={{ backgroundColor: lean === b ? "rgba(255,255,255,0.9)" : BLOC_COLORS[b] }} />
-                  {BLOC_LABEL.fr[b]}
+                  <span className="inline-block h-2 w-2 rounded-sm" style={{ backgroundColor: lean === b ? "rgba(255,255,255,0.9)" : leanMeta.colors[b] }} />
+                  {leanMeta.labels.fr[b]}
                 </button>
               ))}
             </div>
@@ -446,13 +448,35 @@ export function VillesSearch() {
         )}
       </div>
 
-      {/* Grid */}
+      {/* Grid — when no filter is active, the SSG HTML only prerenders the
+          first INITIAL_VISIBLE cards; the rest reveal client-side (the data is
+          already in the page). Any active filter renders the full set. */}
       {filtered.length > 0 ? (
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {filtered.map((city, i) => (
-            <CityCard key={city.slug} city={city} rank={i + 1} />
-          ))}
-        </div>
+        (() => {
+          const capped = !hasFilters && !showAll && filtered.length > INITIAL_VISIBLE;
+          const visible = capped ? filtered.slice(0, INITIAL_VISIBLE) : filtered;
+          return (
+            <>
+              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                {visible.map((city, i) => (
+                  <CityCard key={city.slug} city={city} rank={i + 1} />
+                ))}
+              </div>
+              {capped && (
+                <div className="mt-8 text-center">
+                  <button
+                    type="button"
+                    aria-expanded={false}
+                    onClick={() => setShowAll(true)}
+                    className="inline-flex items-center gap-2 rounded-full border border-[var(--accent)]/30 bg-[var(--accent)]/5 px-6 py-3 text-sm font-semibold text-[var(--accent)] transition-colors hover:border-[var(--accent)] hover:bg-[var(--accent)]/10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
+                  >
+                    Afficher les {filtered.length - INITIAL_VISIBLE} villes restantes
+                  </button>
+                </div>
+              )}
+            </>
+          );
+        })()
       ) : (
         <div className="rounded-2xl border border-dashed border-[var(--border)] bg-[var(--bg-surface)]/50 py-16 px-6 text-center">
           <div className="text-5xl mb-3" aria-hidden>🔍</div>

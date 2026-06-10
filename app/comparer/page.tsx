@@ -3,6 +3,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { CompareTool } from "./CompareTool";
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import Link from "next/link";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
@@ -92,7 +93,7 @@ export default function ComparerPage() {
         </div>
       </section>
 
-      <CompareTool />
+      <CompareTool cities={CITIES_LIGHT} />
 
       <section className="relative border-t border-[var(--border)] py-14">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">

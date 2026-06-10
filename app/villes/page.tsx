@@ -4,6 +4,7 @@ import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { VillesSearch } from "@/components/VillesSearch";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { CITIES_LIGHT, LEAN_META } from "@/lib/cities-light";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
 
@@ -63,7 +64,7 @@ export default function VillesPage() {
       </section>
 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 pb-16">
-        <VillesSearch />
+        <VillesSearch cities={CITIES_LIGHT} leanMeta={LEAN_META} />
       </div>
 
       <Footer />
