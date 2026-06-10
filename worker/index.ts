@@ -25,7 +25,7 @@ import {
   deactivateAlerte,
 } from "@/lib/alertes-store";
 import { sendBrevoEmail, addBrevoContact } from "@/lib/brevo";
-import { rateLimit, getClientIp } from "@/lib/rate-limit";
+import { rateLimit, rateLimitD1, getClientIp } from "@/lib/rate-limit";
 import { checkContent } from "@/lib/spam-filter";
 import { CITIES_SEED } from "@/data/cities-seed";
 import {
@@ -95,6 +95,7 @@ function exposeEnv(env: Env): void {
 }
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const DAY_MS = 24 * 60 * 60_000;
 
 const BANNED_NAMES = new Set([
   "test", "tests", "testing", "user", "users", "utilisateur", "utilisateurs",
@@ -174,7 +175,7 @@ async function handleAuthRequestLink(request: Request, fallbackLocale: string): 
   if (!secret) return json({ error: "Auth non configurée." }, { status: 503 });
 
   const ip = getClientIp(request.headers);
-  if (!rateLimit(`auth:req:m:${ip}`, 4, 60_000).allowed || !rateLimit(`auth:req:h:${ip}`, 15, 60 * 60_000).allowed)
+  if (!rateLimit(`auth:req:m:${ip}`, 4, 60_000).allowed || !(await rateLimitD1(`auth:req:h:${ip}`, 15, 60 * 60_000)).allowed)
     return json({ error: "Trop de demandes de connexion. Réessayez plus tard." }, { status: 429 });
 
   let body: unknown;
@@ -185,7 +186,7 @@ async function handleAuthRequestLink(request: Request, fallbackLocale: string): 
     return json({ error: "Adresse email invalide." }, { status: 400 });
 
   // Per-email throttle so one address can't be link-bombed.
-  if (!rateLimit(`auth:req:e:${email.toLowerCase()}`, 3, 10 * 60_000).allowed)
+  if (!(await rateLimitD1(`auth:req:e:${email.toLowerCase()}`, 3, 10 * 60_000)).allowed)
     return json({ error: "Un lien a déjà été envoyé. Vérifiez vos emails." }, { status: 429 });
 
   const user = await findOrCreateUser(email);
@@ -405,7 +406,7 @@ async function handleCommentsPost(request: Request): Promise<Response> {
   if (BANNED_NAMES.has(authorLc) || /^(.)\1+$/.test(authorLc))
     return json({ error: "Merci d'utiliser un vrai prénom (pas \"test\", \"user\", etc.)" }, { status: 422 });
 
-  const daily = rateLimit(`cmt:d:${ip}:${parsed.data.topic}`, 1, 24 * 60 * 60_000);
+  const daily = await rateLimitD1(`cmt:d:${ip}:${parsed.data.topic}`, 1, DAY_MS);
   if (!daily.allowed) {
     const hours = Math.ceil(daily.retryAfterSeconds / 3600);
     return json({ error: `Vous avez déjà commenté cette page récemment. Réessayez dans ~${hours}h.` }, { status: 429 });
@@ -479,6 +480,8 @@ async function handleNewsletter(request: Request): Promise<Response> {
   const parsed = NewsletterSchema.safeParse(payload);
   if (!parsed.success) return json({ error: "Email invalide" }, { status: 400 });
   if (parsed.data.website && parsed.data.website.length > 0) return json({ success: true });
+  if (!(await rateLimitD1(`nl:d:${ip}`, 20, DAY_MS)).allowed)
+    return json({ error: "Limite quotidienne atteinte." }, { status: 429 });
 
   const { subscriber, alreadySubscribed } = await addSubscriber({ email: parsed.data.email, locale: parsed.data.locale });
   if (!alreadySubscribed) {
@@ -495,6 +498,10 @@ async function handleVacancesNewsletter(request: Request): Promise<Response> {
   try { body = await request.json(); } catch { return json({ error: "JSON invalide." }, { status: 400 }); }
   const { email } = body as { email?: string };
   if (!email || !EMAIL_RE.test(email)) return json({ error: "Adresse email invalide." }, { status: 400 });
+  // Per-target cap: without it an attacker can use this endpoint to spam an
+  // arbitrary address with Brevo list mail (no double opt-in yet).
+  if (!(await rateLimitD1(`vnl:e:${email.toLowerCase()}`, 3, DAY_MS)).allowed)
+    return json({ ok: true });
   await addBrevoContact({ email, listId: 4 });
   return json({ ok: true });
 }
@@ -507,6 +514,9 @@ async function handleAlertesSubscribe(request: Request): Promise<Response> {
   try { body = await request.json(); } catch { return json({ error: "JSON invalide." }, { status: 400 }); }
   const { email, citySlug, types, scoreThreshold } = body as { email?: string; citySlug?: string; types?: string[]; scoreThreshold?: number };
   if (!email || !EMAIL_RE.test(email)) return json({ error: "Adresse email invalide." }, { status: 400 });
+  // Per-target cap — each subscribe sends a confirmation email to the address.
+  if (!(await rateLimitD1(`al:e:${email.toLowerCase()}`, 4, DAY_MS)).allowed)
+    return json({ error: "Trop de demandes pour cette adresse. Réessayez demain." }, { status: 429 });
   if (!citySlug) return json({ error: "Ville manquante." }, { status: 400 });
   const city = CITIES_SEED.find((c) => c.slug === citySlug);
   if (!city) return json({ error: "Ville introuvable." }, { status: 400 });
@@ -554,11 +564,13 @@ async function handleAlertesUnsubscribe(url: URL): Promise<Response> {
   return html(`<!DOCTYPE html><html lang="${alerte.locale}"><head><meta charset="utf-8"><meta http-equiv="refresh" content="4;url=${origin}${cityPath}"><title>Désabonné</title></head><body><p>Vous avez été désabonné·e des alertes pour <strong>${alerte.cityName}</strong>.</p><p>Redirection dans 4 secondes...</p><p><a href="${origin}${cityPath}">Retour à la fiche de ${alerte.cityName}</a></p></body></html>`);
 }
 
-// mes-alertes (client page) reads alertes for an email via this endpoint.
-async function handleAlertesList(url: URL): Promise<Response> {
-  const email = url.searchParams.get("email")?.trim() ?? "";
-  if (!EMAIL_RE.test(email)) return json({ alertes: [] });
-  const alertes = await findAllByEmail(email);
+// Authenticated: returns the JWT owner's alertes. Tokens are included — they
+// are the owner's own. Never expose this by bare email: anyone knowing an
+// address could enumerate subscriptions and steal unsubscribe tokens.
+async function handleAlertesList(request: Request): Promise<Response> {
+  const user = await authedUser(request);
+  if (!user) return json({ error: "Non authentifié." }, { status: 401 });
+  const alertes = await findAllByEmail(user.email);
   return json({
     alertes: alertes.map((a) => ({
       id: a.id, citySlug: a.citySlug, cityName: a.cityName, types: a.types,
@@ -634,7 +646,7 @@ export default {
       if (path === "/api/vacances/newsletter" && method === "POST") return await handleVacancesNewsletter(request);
       if (path === "/api/alertes/subscribe" && method === "POST") return await handleAlertesSubscribe(request);
       if (path === "/api/alertes/unsubscribe" && method === "GET") return await handleAlertesUnsubscribe(url);
-      if (path === "/api/alertes/list" && method === "GET") return await handleAlertesList(url);
+      if (path === "/api/alertes/list" && method === "GET") return await handleAlertesList(request);
       if (path === "/api/cities/search" && method === "GET") return handleCitiesSearch(url);
 
       // ── Accounts (Worker-native magic-link auth — R9.1) ──
@@ -651,11 +663,11 @@ export default {
       if (path === "/widget/embed" && method === "GET") return handleWidgetEmbed(url);
 
       // AI endpoints call Anthropic — rate-limit per IP to cap spend exposure.
-      // In-memory limiter is per-isolate (soft); the hard backstop is the
-      // Anthropic Console monthly spend cap.
+      // Minute caps stay in-memory (cheap); daily caps go through D1 so they
+      // survive isolate recycling. Hard backstops: ai-budget + Anthropic Console cap.
       if (path === "/api/copilot" && method === "POST") {
         const ip = getClientIp(request.headers);
-        if (!rateLimit(`ai:cop:m:${ip}`, 8, 60_000).allowed || !rateLimit(`ai:cop:d:${ip}`, 60, 24 * 60 * 60_000).allowed)
+        if (!rateLimit(`ai:cop:m:${ip}`, 8, 60_000).allowed || !(await rateLimitD1(`ai:cop:d:${ip}`, 60, DAY_MS)).allowed)
           return json({ reply: "Trop de requêtes — patientez un peu avant de relancer le copilote.", rateLimited: true }, { status: 429 });
         return await handleCopilot(request, env);
       }
@@ -663,7 +675,7 @@ export default {
       const summaryMatch = path.match(/^\/api\/cities\/([^/]+)\/summary$/);
       if (summaryMatch && method === "GET") {
         const ip = getClientIp(request.headers);
-        if (!rateLimit(`ai:sum:m:${ip}`, 20, 60_000).allowed || !rateLimit(`ai:sum:d:${ip}`, 200, 24 * 60 * 60_000).allowed)
+        if (!rateLimit(`ai:sum:m:${ip}`, 20, 60_000).allowed || !(await rateLimitD1(`ai:sum:d:${ip}`, 200, DAY_MS)).allowed)
           return json({ error: "Trop de requêtes" }, { status: 429 });
         return await handleCitySummary(summaryMatch[1], env);
       }
@@ -696,7 +708,9 @@ export default {
       if (asset.status !== 404) return asset;
       return serve404();
     } catch (err) {
-      return json({ error: "Erreur interne", detail: err instanceof Error ? err.message : String(err) }, { status: 500 });
+      // Never echo err.message — D1/SQL errors disclose internals.
+      console.error("worker fetch error:", err);
+      return json({ error: "Erreur interne" }, { status: 500 });
     }
   },
 

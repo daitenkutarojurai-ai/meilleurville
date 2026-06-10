@@ -54,7 +54,47 @@ export function rateLimit(key: string, max: number, windowMs: number): RateLimit
 }
 
 export function getClientIp(headers: Headers): string {
-  const fwd = headers.get("x-forwarded-for");
-  if (fwd) return fwd.split(",")[0].trim();
-  return headers.get("x-real-ip") ?? "unknown";
+  // CF-Connecting-IP is set by Cloudflare and can't be spoofed. X-Forwarded-For
+  // must NOT be trusted here: Cloudflare appends the real IP to any
+  // client-supplied value, so its first entry is attacker-controlled.
+  return headers.get("cf-connecting-ip") ?? headers.get("x-real-ip") ?? "unknown";
+}
+
+// ---- D1-backed fixed-window limiter ----------------------------------------
+// The in-memory limiter above is per-isolate (resets on recycle, not shared
+// across colos). For limits where bypass costs real money — AI spend, email
+// sends, auth links — use this shared counter instead. Fails open on D1 errors
+// so an outage never blocks legitimate traffic.
+
+const D1_UPSERT =
+  "INSERT INTO rate_limits (bucket, count, expires_at) VALUES (?1, 1, ?2) " +
+  "ON CONFLICT(bucket) DO UPDATE SET count = count + 1 RETURNING count";
+
+export async function rateLimitD1(key: string, max: number, windowMs: number): Promise<RateLimitResult> {
+  const now = Date.now();
+  const slot = Math.floor(now / windowMs);
+  const expiresAt = (slot + 1) * windowMs;
+  try {
+    const { getDB } = await import("@/lib/db");
+    const db = await getDB();
+    const row = await db.prepare(D1_UPSERT).bind(`${key}:${slot}`, expiresAt).first<{ count: number }>();
+    const count = row?.count ?? 1;
+    return {
+      allowed: count <= max,
+      remaining: Math.max(0, max - count),
+      retryAfterSeconds: Math.ceil((expiresAt - now) / 1000),
+    };
+  } catch {
+    return { allowed: true, remaining: max, retryAfterSeconds: 0 };
+  }
+}
+
+export async function purgeExpiredRateLimits(): Promise<void> {
+  try {
+    const { getDB } = await import("@/lib/db");
+    const db = await getDB();
+    await db.prepare("DELETE FROM rate_limits WHERE expires_at < ?1").bind(Date.now()).run();
+  } catch {
+    /* best-effort housekeeping */
+  }
 }

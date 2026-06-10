@@ -31,7 +31,7 @@ export function FollowCityButton({ citySlug, cityName }: Props) {
       }
       setEmail(user.email);
       try {
-        const res = await fetch(`/api/alertes/list?email=${encodeURIComponent(user.email)}`);
+        const res = await authFetch("/api/alertes/list");
         const data = (await res.json()) as { alertes: { citySlug: string; unsubscribeToken: string }[] };
         const match = data.alertes.find((a) => a.citySlug === citySlug);
         if (!cancelled && match) {

@@ -10,6 +10,7 @@ import type { Locale } from "@/lib/i18n";
 import { buildNewsletter } from "@/lib/newsletter-content";
 import { createAndSendCampaign, sendBrevoEmail, type BrevoSender } from "@/lib/brevo";
 import { getAllAlertes, updateLastNotified } from "@/lib/alertes-store";
+import { purgeExpiredRateLimits } from "@/lib/rate-limit";
 import { listComments } from "@/lib/comments-store";
 import { CITIES_SEED } from "@/data/cities-seed";
 
@@ -39,6 +40,7 @@ export async function runCronNewsletter(): Promise<void> {
 }
 
 export async function runCronAlertes(): Promise<void> {
+  await purgeExpiredRateLimits();
   const alertes = await getAllAlertes();
   const active = alertes.filter((a) => a.active);
 

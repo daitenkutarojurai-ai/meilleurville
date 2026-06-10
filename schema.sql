@@ -126,3 +126,14 @@ CREATE TABLE IF NOT EXISTS page_feedback (
   created_at TEXT NOT NULL
 );
 CREATE INDEX IF NOT EXISTS idx_feedback_path ON page_feedback (path, created_at DESC);
+
+-- Shared fixed-window rate-limit counters (lib/rate-limit.ts rateLimitD1).
+-- The in-memory limiter is per-isolate; money-relevant limits (AI, auth, email)
+-- need a counter that survives isolate recycling and is shared across colos.
+-- Expired rows are purged by the Monday cron.
+CREATE TABLE IF NOT EXISTS rate_limits (
+  bucket     TEXT PRIMARY KEY,        -- "<key>:<window-slot>"
+  count      INTEGER NOT NULL,
+  expires_at INTEGER NOT NULL         -- epoch ms
+);
+CREATE INDEX IF NOT EXISTS idx_rate_limits_expiry ON rate_limits (expires_at);

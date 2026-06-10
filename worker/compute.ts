@@ -192,11 +192,6 @@ export async function handleCopilot(request: Request, env: Env): Promise<Respons
   if (!env.ANTHROPIC_API_KEY) {
     return json({ reply: "Le copilote IA n'est pas encore disponible. Il fonctionne en production avec la clé API configurée.", fallback: true });
   }
-  // Reserve the worst-case agentic-loop cost (up to 4 Claude calls) against the
-  // global daily budget; over budget → graceful message, no Anthropic spend.
-  if (!(await reserveAiBudget(4))) {
-    return json({ reply: "Le copilote a atteint sa limite quotidienne de requêtes IA. Réessayez demain.", fallback: true });
-  }
   let messages: Array<{ role: "user" | "assistant"; content: string }>;
   try {
     const body = await request.json();
@@ -206,8 +201,23 @@ export async function handleCopilot(request: Request, env: Env): Promise<Respons
     return json({ error: "messages invalides" }, { status: 400 });
   }
 
+  // The budget caps the NUMBER of calls; without a size cap a single multi-MB
+  // turn still inflates input-token cost across the agentic loop.
+  const recent = messages.slice(-12);
+  if (recent.some((m) => (m.role !== "user" && m.role !== "assistant") || typeof m.content !== "string" || m.content.length > 4000))
+    return json({ error: "Message trop long (4000 caractères max)." }, { status: 400 });
+  if (recent.reduce((n, m) => n + m.content.length, 0) > 16_000)
+    return json({ error: "Conversation trop longue — rechargez la page pour repartir de zéro." }, { status: 400 });
+
+  // Reserve the worst-case agentic-loop cost (up to 4 Claude calls) against the
+  // global daily budget AFTER validation, so malformed requests don't burn it.
+  // Over budget → graceful message, no Anthropic spend.
+  if (!(await reserveAiBudget(4))) {
+    return json({ reply: "Le copilote a atteint sa limite quotidienne de requêtes IA. Réessayez demain.", fallback: true });
+  }
+
   const client = new Anthropic({ apiKey: env.ANTHROPIC_API_KEY });
-  const anthropicMessages: Anthropic.MessageParam[] = messages.slice(-12).map((m) => ({ role: m.role, content: m.content }));
+  const anthropicMessages: Anthropic.MessageParam[] = recent.map((m) => ({ role: m.role, content: m.content }));
 
   try {
     let iteration = 0;

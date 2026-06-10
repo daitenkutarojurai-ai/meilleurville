@@ -32,7 +32,9 @@ export function CallbackClient() {
       if (res.ok) {
         setState("ok");
         const next = params.get("next");
-        const dest = next && next.startsWith("/") ? next : HOME_PATH;
+        // Single leading slash only — "//evil.com" and "/\evil.com" are
+        // protocol-relative and would navigate off-site (open redirect).
+        const dest = next && /^\/(?![/\\])/.test(next) ? next : HOME_PATH;
         // Small delay so the success state is visible, then hard-navigate.
         window.setTimeout(() => {
           window.location.replace(dest);
