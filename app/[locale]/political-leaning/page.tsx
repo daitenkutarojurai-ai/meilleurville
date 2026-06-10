@@ -13,6 +13,7 @@ import {
   type Bloc,
 } from "@/lib/political-lean";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { PoliticalLeanTail, type LeanTailRow } from "@/components/PoliticalLeanTail";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -99,6 +100,15 @@ export default function EnPoliticalLeaningPage() {
           const cities = all
             .filter((c) => c.lean === bloc)
             .sort((a, b) => b.topPct - a.topPct);
+          const TOP_VISIBLE = 30;
+          const tailRows: LeanTailRow[] = cities
+            .slice(TOP_VISIBLE)
+            .flatMap((c) => {
+              const city = NAME_BY_SLUG.get(c.slug);
+              return city
+                ? [{ slug: c.slug, name: city.name, topPct: c.topPct, blocs: c.blocs }]
+                : [];
+            });
           return (
             <section key={bloc}>
               <div className="flex items-center gap-3 mb-4">
@@ -108,7 +118,7 @@ export default function EnPoliticalLeaningPage() {
                 <span className="h-px flex-1 bg-gradient-to-r from-[var(--border)] to-transparent" />
               </div>
               <ol className="grid gap-2 sm:grid-cols-2">
-                {cities.map((c, i) => {
+                {cities.slice(0, TOP_VISIBLE).map((c, i) => {
                   const city = NAME_BY_SLUG.get(c.slug);
                   if (!city) return null;
                   return (
@@ -135,6 +145,7 @@ export default function EnPoliticalLeaningPage() {
                     </li>
                   );
                 })}
+                <PoliticalLeanTail rows={tailRows} startRank={TOP_VISIBLE + 1} bloc={bloc} locale="en" />
               </ol>
             </section>
           );

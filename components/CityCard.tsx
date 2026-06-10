@@ -35,24 +35,24 @@ export function CityCard({ city, rank, className, locale = "fr" }: CityCardProps
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
 
   return (
-    <Link
-      href={locale === "en" ? `/cities/${city.slug}` : `/villes/${city.slug}`}
-      aria-label={`${city.name} — score ${formatScore(score)} ${L("sur", "out of")} 10 (${tier})`}
-      className="block h-full"
+    <div
+      className={cn(
+        "group relative h-full overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] transition-all duration-200 hover:border-[var(--accent)]/40 hover:shadow-xl hover:shadow-[var(--accent)]/10 hover:-translate-y-0.5 cursor-pointer shine",
+        className
+      )}
     >
-      <div
-        className={cn(
-          "group relative h-full overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] transition-all duration-200 hover:border-[var(--accent)]/40 hover:shadow-xl hover:shadow-[var(--accent)]/10 hover:-translate-y-0.5 cursor-pointer shine",
-          className
-        )}
-      >
+      <Link
+        href={locale === "en" ? `/cities/${city.slug}` : `/villes/${city.slug}`}
+        aria-label={`${city.name} — score ${formatScore(score)} ${L("sur", "out of")} 10 (${tier})`}
+        className="absolute inset-0 z-[1]"
+      />
         {/* Animated gradient cover stripe */}
         <div className={`relative h-2 bg-gradient-to-r ${cover}`}>
           <div className="absolute inset-0 bg-aurora opacity-50" />
         </div>
 
         <div className="p-5">
-          <div className="absolute top-5 right-4 flex items-center gap-1.5">
+          <div className="absolute top-5 right-4 z-[2] flex items-center gap-1.5">
             <FavoriteButton slug={city.slug} size={14} className="!px-2 !py-1.5" />
             {rank && (
               <div className="flex h-7 w-7 items-center justify-center rounded-full bg-[var(--bg-elevated)] border border-[var(--border)]">
@@ -129,7 +129,6 @@ export function CityCard({ city, rank, className, locale = "fr" }: CityCardProps
             )}
           </div>
         </div>
-      </div>
-    </Link>
+    </div>
   );
 }

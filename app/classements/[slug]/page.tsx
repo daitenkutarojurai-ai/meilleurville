@@ -13,6 +13,7 @@ import { HOUSING } from "@/data/housing";
 import { GUIDES } from "@/data/guides";
 import { scoreColor } from "@/lib/utils";
 import { hreflangLanguages } from "@/lib/i18n";
+import { RankingTableTail, type RankingTailRow } from "./RankingTableTail";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -47,6 +48,17 @@ export default async function RankingPage({ params }: Props) {
   const meta = RANKING_META[slug as RankingSlug];
   const ranked = getRankedCities(slug as RankingSlug);
   const top3 = ranked.slice(0, 3);
+  const TOP_VISIBLE = 100;
+  const head = ranked.slice(0, TOP_VISIBLE);
+  const tailRows: RankingTailRow[] = ranked.slice(TOP_VISIBLE).map((entry) => ({
+    rank: entry.rank,
+    slug: entry.city.slug,
+    name: entry.city.name,
+    region: entry.city.region,
+    score: entry.score,
+    global: entry.city.scores.global,
+    rentT2: HOUSING[entry.city.slug]?.avgRentT2 ?? null,
+  }));
 
   // Map ranking category to relevant guide categories
   const guideCategoryMap: Record<string, string[]> = {
@@ -227,7 +239,7 @@ export default async function RankingPage({ params }: Props) {
                   </tr>
                 </thead>
                 <tbody>
-                  {ranked.map((entry, i) => (
+                  {head.map((entry, i) => (
                     <tr
                       key={entry.city.slug}
                       className={`border-b border-[var(--border)] last:border-0 transition-colors hover:bg-[var(--bg-elevated)] ${
@@ -270,6 +282,7 @@ export default async function RankingPage({ params }: Props) {
                     </tr>
                   ))}
                 </tbody>
+                <RankingTableTail rows={tailRows} />
               </table>
             </div>
           </div>
