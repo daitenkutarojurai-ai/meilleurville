@@ -212,6 +212,7 @@ export function CarteClient() {
         <span className="text-xs text-[var(--text-tertiary)] mr-1">Orientation politique :</span>
         <button
           onClick={() => setLeanFilter("")}
+          aria-pressed={leanFilter === ""}
           className={
             "rounded-full px-3 py-1 text-xs font-medium transition-all border " +
             (leanFilter === ""
@@ -225,6 +226,7 @@ export function CarteClient() {
           <button
             key={b}
             onClick={() => setLeanFilter(leanFilter === b ? "" : b)}
+            aria-pressed={leanFilter === b}
             className="rounded-full px-3 py-1 text-xs font-medium transition-all border flex items-center gap-1.5"
             style={
               leanFilter === b

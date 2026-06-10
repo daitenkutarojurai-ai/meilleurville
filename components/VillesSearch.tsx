@@ -248,6 +248,7 @@ export function VillesSearch() {
                 <button
                   key={opt.id}
                   onClick={() => setSortBy(opt.id)}
+                  aria-pressed={sortBy === opt.id}
                   className={cn(
                     "flex items-center gap-1.5 rounded-xl border px-3 py-1.5 text-xs font-medium transition-colors cursor-pointer",
                     sortBy === opt.id
@@ -269,6 +270,7 @@ export function VillesSearch() {
             <div className="flex flex-wrap gap-2">
               <button
                 onClick={() => setTag("")}
+                aria-pressed={tag === ""}
                 className={cn(
                   "rounded-xl border px-3 py-1.5 text-xs font-medium transition-colors cursor-pointer",
                   tag === ""
@@ -282,6 +284,7 @@ export function VillesSearch() {
                 <button
                   key={t}
                   onClick={() => setTag(tag === t ? "" : t)}
+                  aria-pressed={tag === t}
                   className={cn(
                     "flex items-center gap-1.5 rounded-xl border px-3 py-1.5 text-xs font-medium transition-colors cursor-pointer capitalize",
                     tag === t
@@ -313,6 +316,7 @@ export function VillesSearch() {
                     key={n.id}
                     onClick={() => toggleNiche(n.id)}
                     title={n.desc}
+                    aria-pressed={active}
                     className={cn(
                       "rounded-xl border px-3 py-1.5 text-xs font-medium transition-colors cursor-pointer",
                       active
@@ -350,6 +354,7 @@ export function VillesSearch() {
                   <button
                     key={t}
                     onClick={() => toggleTerrain(t)}
+                    aria-pressed={active}
                     className={cn(
                       "flex items-center gap-1.5 rounded-xl border px-3 py-1.5 text-xs font-medium transition-colors cursor-pointer",
                       active
@@ -409,6 +414,7 @@ export function VillesSearch() {
             <div className="flex flex-wrap gap-2">
               <button
                 onClick={() => setLean("")}
+                aria-pressed={lean === ""}
                 className={`rounded-full px-3 py-1.5 text-xs font-medium border transition-colors ${lean === "" ? "border-[var(--accent)] bg-[var(--accent)]/10 text-[var(--accent)]" : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40"}`}
               >
                 Toutes
@@ -417,6 +423,7 @@ export function VillesSearch() {
                 <button
                   key={b}
                   onClick={() => setLean(lean === b ? "" : b)}
+                  aria-pressed={lean === b}
                   className={`rounded-full px-3 py-1.5 text-xs font-medium border transition-colors flex items-center gap-1.5 ${lean === b ? "text-white" : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40"}`}
                   style={lean === b ? { backgroundColor: BLOC_COLORS[b], borderColor: BLOC_COLORS[b] } : undefined}
                 >
