@@ -319,7 +319,8 @@ body {
 .word-reveal-item {
   display: inline-block;
   opacity: 0;
-  animation: wordReveal 1s cubic-bezier(0.2, 0.7, 0.2, 1) forwards;
+  /* Keep short — the h1 is the LCP element and paints opacity:0 until this ends */
+  animation: wordReveal 0.45s cubic-bezier(0.2, 0.7, 0.2, 1) forwards;
   will-change: transform, opacity, filter;
 }
 

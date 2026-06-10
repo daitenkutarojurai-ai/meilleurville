@@ -2,14 +2,14 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { Search, X } from "lucide-react";
-import { GuideCard } from "@/components/GuideCard";
+import { GuideCard, type GuideCardData } from "@/components/GuideCard";
 import { Badge } from "@/components/ui/Badge";
 import { cn } from "@/lib/utils";
-import type { Guide } from "@/data/guides";
-import { GUIDE_CATEGORIES } from "@/data/guides";
+// NOT from data/guides — a value import there would bundle the whole corpus.
+import { GUIDE_CATEGORIES } from "@/lib/guide-categories";
 
 interface Props {
-  guides: Guide[];
+  guides: GuideCardData[];
   /** Build-time timestamp from the server page — keeps GuideCard freshness
    *  hydration-stable. */
   now: number;

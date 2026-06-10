@@ -70,8 +70,15 @@ export default function GuidesPage() {
       </section>
 
       <div className="mx-auto max-w-5xl px-4 sm:px-6 py-12 space-y-12">
-        {/* Interactive guides grid with category filtering */}
-        <GuidesGrid guides={GUIDES} now={BUILD_NOW} />
+        {/* Interactive guides grid with category filtering. Project to the
+            card fields — passing full Guide objects serializes every
+            sections[] body into the flight payload (~3.8 MB of HTML). */}
+        <GuidesGrid
+          guides={GUIDES.map(({ slug, title, intro, category, emoji, readMinutes, publishedAt, updatedAt, tags }) => ({
+            slug, title, intro, category, emoji, readMinutes, publishedAt, updatedAt, tags,
+          }))}
+          now={BUILD_NOW}
+        />
 
         {/* Categories overview */}
         <div>

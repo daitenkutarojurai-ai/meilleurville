@@ -1,8 +1,15 @@
 import Link from "next/link";
 import type { Guide } from "@/data/guides";
 
+// Card-level projection of Guide — server pages pass only these fields so the
+// multi-MB sections[] bodies never enter the client props / flight payload.
+export type GuideCardData = Pick<
+  Guide,
+  "slug" | "title" | "intro" | "category" | "emoji" | "readMinutes" | "publishedAt" | "updatedAt" | "tags"
+>;
+
 interface GuideCardProps {
-  guide: Guide;
+  guide: GuideCardData;
   featured?: boolean;
   /** Build-time reference timestamp. Passed down from a server component so
    *  freshness is computed identically on server and client (no hydration

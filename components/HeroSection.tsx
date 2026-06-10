@@ -4,8 +4,7 @@ import { useState, useRef, useEffect, useMemo } from "react";
 import { Search, Sparkles, ArrowRight, MapPin, Star } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { useRouter } from "next/navigation";
-import { CITIES_SEED } from "@/data/cities-seed";
-import { CITIES_COUNT, RANKINGS_COUNT } from "@/lib/site-stats";
+import type { HeroCity } from "@/lib/hero-data";
 import { WordsReveal, FadeBlurIn } from "@/components/effects/WordsReveal";
 import { MagneticButton } from "@/components/effects/MagneticButton";
 import { GrainOverlay } from "@/components/effects/GrainOverlay";
@@ -19,16 +18,31 @@ interface SearchResult {
   score: number;
 }
 
+// Scores resolved from the real seed at render — hardcoded values drifted
+// above the actual score clamp (fake figures).
 const FLOATING_DOTS = [
-  { name: "Annecy",      lng: 6.13, lat: 45.90, score: 9.0 },
-  { name: "Bordeaux",    lng: -0.58, lat: 44.84, score: 8.6 },
-  { name: "Lyon",        lng: 4.83, lat: 45.76, score: 8.5 },
-  { name: "Nantes",      lng: -1.55, lat: 47.22, score: 8.7 },
-  { name: "Strasbourg",  lng: 7.75, lat: 48.58, score: 8.2 },
-  { name: "Montpellier", lng: 3.88, lat: 43.61, score: 8.4 },
+  { name: "Annecy",      lng: 6.13, lat: 45.90 },
+  { name: "Bordeaux",    lng: -0.58, lat: 44.84 },
+  { name: "Lyon",        lng: 4.83, lat: 45.76 },
+  { name: "Nantes",      lng: -1.55, lat: 47.22 },
+  { name: "Strasbourg",  lng: 7.75, lat: 48.58 },
+  { name: "Montpellier", lng: 3.88, lat: 43.61 },
 ];
 
-export function HeroSection({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
+// cities/counts come from the server page (lib/hero-data, lib/site-stats) —
+// importing the seed or site-stats here would ship the full datasets in the
+// client bundle.
+export function HeroSection({
+  locale = "fr",
+  cities,
+  citiesCount,
+  rankingsCount,
+}: {
+  locale?: "fr" | "en";
+  cities: HeroCity[];
+  citiesCount: number;
+  rankingsCount: number;
+}) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const cityHref = (slug: string) => (locale === "en" ? `/cities/${slug}` : `/villes/${slug}`);
   const [query, setQuery] = useState("");
@@ -42,17 +56,15 @@ export function HeroSection({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
     if (query.length < 1) return [];
     const normalize = (s: string) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
     const q = normalize(query);
-    return CITIES_SEED.filter(
-      (c) => normalize(c.name).includes(q) || normalize(c.region).includes(q)
-    )
+    return cities
+      .filter((c) => normalize(c.name).includes(q) || normalize(c.region).includes(q))
       .sort((a, b) => {
         const aStart = normalize(a.name).startsWith(q) ? 0 : 1;
         const bStart = normalize(b.name).startsWith(q) ? 0 : 1;
-        return aStart !== bStart ? aStart - bStart : b.scores.global - a.scores.global;
+        return aStart !== bStart ? aStart - bStart : b.score - a.score;
       })
-      .slice(0, 6)
-      .map((c) => ({ slug: c.slug, name: c.name, region: c.region, score: c.scores.global }));
-  }, [query]);
+      .slice(0, 6);
+  }, [query, cities]);
 
   const open = suggestions.length > 0 && !dismissed;
 
@@ -129,6 +141,8 @@ export function HeroSection({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
         {FLOATING_DOTS.map((d, i) => {
           const x = ((d.lng + 5) / 14) * 100;
           const y = ((52 - d.lat) / 11) * 100;
+          const score = cities.find((c) => c.name === d.name)?.score;
+          if (score == null) return null;
           return (
             <div
               key={d.name}
@@ -145,7 +159,7 @@ export function HeroSection({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
                   <span className="h-1.5 w-1.5 rounded-full bg-[var(--accent)] animate-pulse" />
                   <span className="font-medium text-[var(--text-primary)]">{d.name}</span>
                   <span className="font-mono-data text-[10px] text-[var(--accent)]">
-                    {d.score.toFixed(1)}
+                    {score.toFixed(1)}
                   </span>
                 </div>
               </div>
@@ -167,25 +181,25 @@ export function HeroSection({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
             </span>
             <span className="font-medium text-[var(--text-secondary)]">
               {locale === "en"
-                ? `${CITIES_COUNT} cities · 8 scoring axes · ${RANKINGS_COUNT} rankings`
-                : `${CITIES_COUNT} villes · 8 axes de notation · ${RANKINGS_COUNT} classements`}
+                ? `${citiesCount} cities · 8 scoring axes · ${rankingsCount} rankings`
+                : `${citiesCount} villes · 8 axes de notation · ${rankingsCount} classements`}
             </span>
           </div>
         </FadeBlurIn>
 
         <h1 className="mb-6 text-5xl sm:text-6xl lg:text-7xl xl:text-[5.5rem] font-bold tracking-tight leading-[1.02] text-[var(--text-primary)]">
-          <WordsReveal text={L("Là où vous serez", "Find the city")} perWord={0.08} startDelay={0.15} />
+          <WordsReveal text={L("Là où vous serez", "Find the city")} perWord={0.04} startDelay={0.05} />
           <br />
           <WordsReveal
             text={L("heureux de vivre.", "you'll love.")}
             accentRange={[0, 2]}
-            perWord={0.1}
-            startDelay={0.55}
+            perWord={0.05}
+            startDelay={0.2}
             className="font-display"
           />
         </h1>
 
-        <FadeBlurIn delay={1.05}>
+        <FadeBlurIn delay={0.3}>
           <p className="mb-10 mx-auto max-w-2xl text-lg sm:text-xl text-[var(--text-secondary)] leading-relaxed">
             {locale === "en" ? (
               <>
@@ -202,7 +216,7 @@ export function HeroSection({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
           </p>
         </FadeBlurIn>
 
-        <FadeBlurIn delay={1.2}>
+        <FadeBlurIn delay={0.4}>
           <div ref={containerRef} className="relative mb-7 mx-auto max-w-xl">
             <form onSubmit={handleSearch}>
               <div className="group flex items-center gap-2 rounded-2xl glass-strong p-2 shadow-2xl shadow-[var(--accent)]/10 ring-1 ring-white/40 transition-all focus-within:shadow-[var(--accent)]/25 focus-within:ring-[var(--accent)]/30">
@@ -259,13 +273,13 @@ export function HeroSection({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
           </div>
         </FadeBlurIn>
 
-        <FadeBlurIn delay={1.35}>
+        <FadeBlurIn delay={0.5}>
           <div className="flex flex-wrap items-center justify-center gap-2 mb-12">
             <span className="text-xs font-medium text-[var(--text-secondary)]">{L("✨ On en parle :", "✨ Trending now:")}</span>
             {TRENDING.map((city) => {
               // Résolution directe via le seed plutôt qu'une dérivation
               // naïve (qui casse pour les noms accentués ou composés).
-              const match = CITIES_SEED.find((c) => c.name === city);
+              const match = cities.find((c) => c.name === city);
               if (!match) return null;
               return (
                 <Link
@@ -281,7 +295,7 @@ export function HeroSection({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
           </div>
         </FadeBlurIn>
 
-        <FadeBlurIn delay={1.5}>
+        <FadeBlurIn delay={0.6}>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <MagneticButton strength={0.3}>
               <Link href="/city-match">
@@ -302,7 +316,7 @@ export function HeroSection({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
           </div>
         </FadeBlurIn>
 
-        <FadeBlurIn delay={1.7}>
+        <FadeBlurIn delay={0.7}>
           <div className="mt-12 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-[var(--text-tertiary)]">
             <span className="inline-flex items-center gap-1.5">
               <Star className="h-3.5 w-3.5 fill-[var(--accent-warm)] text-[var(--accent-warm)]" />

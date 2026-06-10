@@ -2,7 +2,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Users, MapPin, Star, Sparkles } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
-import { CITIES_COUNT, RANKINGS_COUNT } from "@/lib/site-stats";
 
 type Locale = "fr" | "en";
 
@@ -14,11 +13,11 @@ interface Stat {
   accent: string;
 }
 
-function buildStats(locale: Locale): Stat[] {
+function buildStats(locale: Locale, citiesCount: number, rankingsCount: number): Stat[] {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   return [
-    { value: CITIES_COUNT,    suffix: "",   label: L("villes profilées", "cities profiled"), icon: MapPin, accent: "from-emerald-400 to-lime-400" },
-    { value: RANKINGS_COUNT,  suffix: "",   label: L("classements thématiques", "themed rankings"), icon: Star, accent: "from-amber-400 to-orange-400" },
+    { value: citiesCount,     suffix: "",   label: L("villes profilées", "cities profiled"), icon: MapPin, accent: "from-emerald-400 to-lime-400" },
+    { value: rankingsCount,   suffix: "",   label: L("classements thématiques", "themed rankings"), icon: Star, accent: "from-amber-400 to-orange-400" },
     { value: 8,               suffix: "",   label: L("axes de notation", "scoring axes"), icon: Sparkles, accent: "from-pink-400 to-rose-400" },
     { value: 100,             suffix: "%",  label: L("données ouvertes", "open data"), icon: Users, accent: "from-sky-400 to-emerald-400" },
   ];
@@ -57,9 +56,11 @@ function StatItem({ value, suffix, label, icon: Icon, accent, started, locale }:
   );
 }
 
-export function StatsBar({ locale = "fr" }: { locale?: Locale } = {}) {
+// Counts come from the server page (lib/site-stats) — importing site-stats
+// here would pull the full guides + cities datasets into the client bundle.
+export function StatsBar({ locale = "fr", citiesCount, rankingsCount }: { locale?: Locale; citiesCount: number; rankingsCount: number }) {
   const [started, setStarted] = useState(false);
-  const stats = buildStats(locale);
+  const stats = buildStats(locale, citiesCount, rankingsCount);
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {

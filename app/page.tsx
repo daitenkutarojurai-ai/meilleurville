@@ -18,6 +18,8 @@ import { CityMarquee } from "@/components/CityMarquee";
 import { ScrollReveal } from "@/components/effects/ScrollReveal";
 import { SectionNav } from "@/components/SectionNav";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { HERO_CITIES } from "@/lib/hero-data";
+import { CITIES_COUNT, RANKINGS_COUNT } from "@/lib/site-stats";
 import { scoreColor } from "@/lib/utils";
 
 export default function HomePage() {
@@ -27,11 +29,11 @@ export default function HomePage() {
           graph — duplicating it here made Google see two WebSite nodes. */}
       <AmbientBackground />
       <Navbar />
-      <HeroSection />
+      <HeroSection cities={HERO_CITIES} citiesCount={CITIES_COUNT} rankingsCount={RANKINGS_COUNT} />
       <SectionNav />
       <ScrollReveal><TopFiveCities /></ScrollReveal>
       <CityMarquee />
-      <ScrollReveal><StatsBar /></ScrollReveal>
+      <ScrollReveal><StatsBar citiesCount={CITIES_COUNT} rankingsCount={RANKINGS_COUNT} /></ScrollReveal>
       <ScrollReveal><FranceHeatmap /></ScrollReveal>
       <ScrollReveal><RankingPreview /></ScrollReveal>
       <ScrollReveal><FeaturedCities /></ScrollReveal>

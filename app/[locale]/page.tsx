@@ -20,7 +20,8 @@ import { ScrollReveal } from "@/components/effects/ScrollReveal";
 import { SectionNav } from "@/components/SectionNav";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
-import { CITIES_COUNT } from "@/lib/site-stats";
+import { HERO_CITIES } from "@/lib/hero-data";
+import { CITIES_COUNT, RANKINGS_COUNT } from "@/lib/site-stats";
 import { scoreColor } from "@/lib/utils";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
@@ -84,11 +85,11 @@ export default function EnHomePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }} />
       <Navbar />
-      <HeroSection locale="en" />
+      <HeroSection locale="en" cities={HERO_CITIES} citiesCount={CITIES_COUNT} rankingsCount={RANKINGS_COUNT} />
       <SectionNav locale="en" />
       <ScrollReveal><TopFiveCities locale="en" /></ScrollReveal>
       <CityMarquee locale="en" />
-      <ScrollReveal><StatsBar locale="en" /></ScrollReveal>
+      <ScrollReveal><StatsBar locale="en" citiesCount={CITIES_COUNT} rankingsCount={RANKINGS_COUNT} /></ScrollReveal>
       <ScrollReveal><FranceHeatmap locale="en" /></ScrollReveal>
       <ScrollReveal><RankingPreview locale="en" /></ScrollReveal>
       <ScrollReveal><FeaturedCities locale="en" /></ScrollReveal>
