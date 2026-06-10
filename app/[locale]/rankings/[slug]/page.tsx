@@ -6,6 +6,7 @@ import { Footer } from "@/components/Footer";
 import { RANKING_META, getRankedCities, type RankingSlug } from "@/lib/rankings";
 import { scoreColor } from "@/lib/utils";
 import { ORIGIN_BY_LOCALE, hreflangLanguagesEn } from "@/lib/i18n";
+import { jsonLdScript } from "@/lib/jsonld";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -347,8 +348,36 @@ export default async function EnRankingDetailPage({ params }: Props) {
   const ranked = getRankedCities(slug as RankingSlug);
   const top30 = ranked.slice(0, 30);
 
+  const itemListJsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ItemList",
+        name: en.headline,
+        url: `${EN_BASE}/rankings/${slug}`,
+        numberOfItems: ranked.length,
+        itemListOrder: "https://schema.org/ItemListOrderAscending",
+        itemListElement: top30.slice(0, 25).map((r, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: r.city.name,
+          url: `${EN_BASE}/cities/${r.city.slug}`,
+        })),
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: EN_BASE },
+          { "@type": "ListItem", position: 2, name: "Rankings", item: `${EN_BASE}/rankings` },
+          { "@type": "ListItem", position: 3, name: en.label, item: `${EN_BASE}/rankings/${slug}` },
+        ],
+      },
+    ],
+  };
+
   return (
     <main id="main-content" className="min-h-screen">
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(itemListJsonLd)} />
       <Navbar />
 
       <section className="mx-auto max-w-5xl px-4 sm:px-6 pt-16 pb-8">

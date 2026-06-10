@@ -7,6 +7,7 @@ import { CityGuidesList } from "@/components/CityGuidesList";
 import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getCityTitle, getCityDescription, ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { jsonLdScript } from "@/lib/jsonld";
 
 // Pure static export (output:"export" on Cloudflare) — fully prebuilt at build
 // time; no ISR/runtime revalidation exists to tune.
@@ -62,8 +63,31 @@ export default async function EnCityPage({ params }: Props) {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) notFound();
 
+  const cityJsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "City",
+        name: city.name,
+        url: `${EN_BASE}/cities/${city.slug}`,
+        description: city.seoDescriptionEn ?? city.descriptionEn ?? getCityDescription(city, "en"),
+        containedInPlace: { "@type": "AdministrativeArea", name: city.region },
+        geo: { "@type": "GeoCoordinates", latitude: city.latitude, longitude: city.longitude },
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: EN_BASE },
+          { "@type": "ListItem", position: 2, name: "Cities", item: `${EN_BASE}/cities` },
+          { "@type": "ListItem", position: 3, name: city.name, item: `${EN_BASE}/cities/${city.slug}` },
+        ],
+      },
+    ],
+  };
+
   return (
     <main id="main-content" className="min-h-screen relative">
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(cityJsonLd)} />
       <Navbar />
       <CityProfile city={city} locale="en" />
       <CityGuidesList slug={city.slug} name={city.name} locale="en" />
