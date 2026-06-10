@@ -4,12 +4,8 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
-import {
-  topHealthiest,
-  topMostStressed,
-  ENV_LEVEL_LABEL,
-  ENV_LEVEL_COLOR,
-} from "@/lib/environment-index";
+import { ENV_LEVEL_LABEL, ENV_LEVEL_COLOR } from "@/lib/environment-index";
+import { topHealthiest, topMostStressed } from "@/lib/environment-index-rankings";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
