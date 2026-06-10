@@ -9,37 +9,18 @@
 // (regenerate with the parser in the commit that introduced this file).
 import data from "@/data/political-lean.json";
 
-export type Bloc = "gauche" | "centre" | "droite" | "extreme_droite";
+import { BLOC_ORDER, type Bloc, type PoliticalLean } from "@/lib/political-lean-meta";
 
-export interface PoliticalLean {
-  lean: Bloc;
-  topPct: number;
-  blocs: Record<Bloc, number>;
-  leanScore: number;
-  insee: string;
-  matchedBy?: string;
-}
+// Types + display constants moved to lib/political-lean-meta (client-safe);
+// re-exported here so the existing importers keep working.
+export { BLOC_ORDER, BLOC_COLORS, BLOC_LABEL } from "@/lib/political-lean-meta";
+export type { Bloc, PoliticalLean } from "@/lib/political-lean-meta";
 
 const DATA = data as Record<string, PoliticalLean>;
 
 export function getPoliticalLean(slug: string): PoliticalLean | null {
   return DATA[slug] ?? null;
 }
-
-// Left → right display order (used for the stacked bar and the legend).
-export const BLOC_ORDER: Bloc[] = ["gauche", "centre", "droite", "extreme_droite"];
-
-export const BLOC_COLORS: Record<Bloc, string> = {
-  gauche: "#E2334E",
-  centre: "#F5A623",
-  droite: "#2D6CDF",
-  extreme_droite: "#1F3A5F",
-};
-
-export const BLOC_LABEL: Record<"fr" | "en", Record<Bloc, string>> = {
-  fr: { gauche: "Gauche", centre: "Centre", droite: "Droite", extreme_droite: "Extrême droite" },
-  en: { gauche: "Left", centre: "Center", droite: "Right", extreme_droite: "Far right" },
-};
 
 // Only the blocs that are actually a plurality somewhere — so a filter never
 // offers an empty bucket (the classic right never wins a plurality in 2022).

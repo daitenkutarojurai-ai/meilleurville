@@ -36,17 +36,12 @@ import { PublicServicesCard } from "@/components/PublicServicesCard";
 import { QolHeroBadge } from "@/components/QolHeroBadge";
 import { CityFingerprint } from "@/components/CityFingerprint";
 import { VibeWidget } from "@/components/VibeWidget";
-import { getNeighborhoods } from "@/data/neighborhoods";
-import { CITIES_SEED } from "@/data/cities-seed";
-import { getHousing } from "@/data/housing";
 import { buildCityNarrative } from "@/lib/city-narrative";
 import { computeNicheScores, TERRAIN_LABELS } from "@/lib/niche-scores";
-import { RANKING_META, getRankedCities } from "@/lib/rankings";
 import { formatNumber, formatScore, scoreColor, cn, sunshineDays, sunshineHours } from "@/lib/utils";
 import { internetScore, internetLabel } from "@/lib/internet-score";
-import { rentalTension, tensionInfo } from "@/lib/rental-tension";
 import type { CitySeed } from "@/data/cities-seed";
-import type { RankingSlug } from "@/lib/rankings";
+import type { CityProfileData } from "@/lib/city-profile-data";
 
 const SCORE_LABELS: Array<{ key: keyof CitySeed["scores"]; label: string; icon: React.ElementType }> = [
   { key: "life", label: "Qualité de vie", icon: Star },
@@ -80,12 +75,15 @@ function SectionRule({ emoji, label, first }: { emoji: string; label: string; fi
   );
 }
 
-export function CityProfile({ city, locale = "fr" }: { city: CitySeed & { reviewCount?: number }; locale?: "fr" | "en" }) {
+// `data` carries everything computed from the full datasets (neighborhoods,
+// housing, rankings, similar cities, political lean, honest review) — see
+// lib/city-profile-data. Importing those here would ship them all in the
+// client bundle of every city page.
+export function CityProfile({ city, data, locale = "fr" }: { city: CitySeed & { reviewCount?: number }; data: CityProfileData; locale?: "fr" | "en" }) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const sub = (fr: string, en: string) => `/${locale === "en" ? "cities" : "villes"}/${city.slug}/${locale === "en" ? en : fr}`;
   const [activeStage, setActiveStage] = useState("famille");
-  const neighborhoods = getNeighborhoods(city.slug);
-  const housing = getHousing(city.slug);
+  const { neighborhoods, housing } = data;
   const [activeTab, setActiveTab] = useState("overview");
   // Panels render in the static HTML (SEO + no-JS) and are hidden only
   // after hydration — the old conditional render shipped 1 of 4 panels.
@@ -366,7 +364,7 @@ export function CityProfile({ city, locale = "fr" }: { city: CitySeed & { review
               {/* Featured — political orientation, surfaced prominently (full
                   main-column width + accent frame) rather than buried in the grid. */}
               <div className="rounded-3xl bg-gradient-to-br from-[var(--accent)]/[0.07] via-transparent to-[var(--accent-warm)]/[0.05] ring-1 ring-[var(--accent)]/15 p-1.5 shadow-sm">
-                <PoliticalLean slug={city.slug} cityName={city.name} locale={locale} />
+                <PoliticalLean lean={data.lean} cityName={city.name} locale={locale} />
               </div>
 
               {/* Niche scores — pour qui cette ville est-elle faite ? */}
@@ -477,7 +475,7 @@ export function CityProfile({ city, locale = "fr" }: { city: CitySeed & { review
               </Card>
 
               {/* F27 — Honest Review (algorithmic synthesis) */}
-              <HonestReviewCard city={city} locale={locale} />
+              <HonestReviewCard cityName={city.name} citySlug={city.slug} review={data.honestReview} citiesCount={data.citiesCount} locale={locale} />
 
               {/* Témoignages — pointer to the now-adjacent CommentSection */}
               <Card>
@@ -536,8 +534,7 @@ export function CityProfile({ city, locale = "fr" }: { city: CitySeed & { review
                     {(() => {
                       const inet = internetScore(city);
                       const iLabel = internetLabel(inet);
-                      const tension = rentalTension(city);
-                      const tLabel = tensionInfo(tension);
+                      const tLabel = data.tension;
                       return (
                         <>
                           <div className="flex items-center justify-between">
@@ -661,27 +658,21 @@ export function CityProfile({ city, locale = "fr" }: { city: CitySeed & { review
                     {L("Classements thématiques", "Themed rankings")}
                   </h3>
                   <div className="grid grid-cols-2 gap-x-2 gap-y-1">
-                    {(Object.keys(RANKING_META) as RankingSlug[]).map((slug) => {
-                      const meta = RANKING_META[slug];
-                      const ranked = getRankedCities(slug);
-                      const entry = ranked.find((e) => e.city.slug === city.slug);
-                      if (!entry) return null;
-                      return (
-                        <Link
-                          key={slug}
-                          href={`/${locale === "en" ? "rankings" : "classements"}/${slug}`}
-                          className="flex items-center justify-between gap-2 hover:bg-[var(--bg-elevated)] rounded-md px-1.5 py-1 -mx-1.5 transition-colors group min-w-0"
-                        >
-                          <span className="text-[11px] text-[var(--text-secondary)] group-hover:text-[var(--text-primary)] transition-colors flex items-center gap-1 min-w-0">
-                            <span aria-hidden>{meta.emoji}</span>
-                            <span className="truncate">{meta.label}</span>
-                          </span>
-                          <span className={`text-[11px] font-bold font-mono-data shrink-0 ${meta.color}`}>
-                            #{entry.rank}
-                          </span>
-                        </Link>
-                      );
-                    })}
+                    {data.rankingPositions.map((pos) => (
+                      <Link
+                        key={pos.slug}
+                        href={`/${locale === "en" ? "rankings" : "classements"}/${pos.slug}`}
+                        className="flex items-center justify-between gap-2 hover:bg-[var(--bg-elevated)] rounded-md px-1.5 py-1 -mx-1.5 transition-colors group min-w-0"
+                      >
+                        <span className="text-[11px] text-[var(--text-secondary)] group-hover:text-[var(--text-primary)] transition-colors flex items-center gap-1 min-w-0">
+                          <span aria-hidden>{pos.emoji}</span>
+                          <span className="truncate">{pos.label}</span>
+                        </span>
+                        <span className={`text-[11px] font-bold font-mono-data shrink-0 ${pos.color}`}>
+                          #{pos.rank}
+                        </span>
+                      </Link>
+                    ))}
                   </div>
                   <Link
                     href={locale === "en" ? "/rankings" : "/classements"}
@@ -691,7 +682,7 @@ export function CityProfile({ city, locale = "fr" }: { city: CitySeed & { review
                   </Link>
                 </Card>
                 <Card>
-                  <SimilarCities city={city} locale={locale} />
+                  <SimilarCities citySlug={city.slug} items={data.similar} locale={locale} />
                 </Card>
               </div>
             </div>
@@ -1394,22 +1385,15 @@ export function CityProfile({ city, locale = "fr" }: { city: CitySeed & { review
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="flex flex-wrap items-center gap-3">
             <span className="text-xs text-[var(--text-secondary)] flex-shrink-0">{L(`Comparer ${city.name} avec :`, `Compare ${city.name} with:`)}</span>
-            {CITIES_SEED.filter((c) => c.slug !== city.slug)
-              .sort((a, b) => {
-                const aRegion = a.region === city.region ? 0 : 1;
-                const bRegion = b.region === city.region ? 0 : 1;
-                return aRegion !== bRegion ? aRegion - bRegion : b.scores.global - a.scores.global;
-              })
-              .slice(0, 6)
-              .map((c) => (
-                <a
-                  key={c.slug}
-                  href={`/${locale === "en" ? "compare" : "comparer"}/${[city.slug, c.slug].sort().join("-vs-")}`}
-                  className="rounded-full border border-[var(--border)] px-3 py-1 text-xs text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:text-[var(--text-primary)] transition-colors"
-                >
-                  {c.name}
-                </a>
-              ))}
+            {data.compareSuggestions.map((c) => (
+              <a
+                key={c.slug}
+                href={`/${locale === "en" ? "compare" : "comparer"}/${[city.slug, c.slug].sort().join("-vs-")}`}
+                className="rounded-full border border-[var(--border)] px-3 py-1 text-xs text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:text-[var(--text-primary)] transition-colors"
+              >
+                {c.name}
+              </a>
+            ))}
           </div>
         </div>
       </div>

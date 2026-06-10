@@ -1,34 +1,18 @@
 import Link from "next/link";
-import { CITIES_SEED, type CitySeed } from "@/data/cities-seed";
-import { HOUSING } from "@/data/housing";
+import type { SimilarCityItem } from "@/lib/city-profile-data";
 
+// Presentational only — the cosine-similarity ranking is computed server-side
+// (lib/city-profile-data buildCityProfileData) so this client component
+// doesn't bundle the full seed + housing datasets.
 interface SimilarCitiesProps {
-  city: CitySeed;
-  maxResults?: number;
+  citySlug: string;
+  items: SimilarCityItem[];
   locale?: "fr" | "en";
 }
 
-function cosineSimilarity(a: CitySeed["scores"], b: CitySeed["scores"]): number {
-  const keys: Array<keyof CitySeed["scores"]> = [
-    "life", "transport", "nature", "cost", "safety", "culture", "remoteWork", "schools",
-  ];
-  let dot = 0, normA = 0, normB = 0;
-  for (const k of keys) {
-    dot += a[k] * b[k];
-    normA += a[k] * a[k];
-    normB += b[k] * b[k];
-  }
-  return dot / (Math.sqrt(normA) * Math.sqrt(normB));
-}
-
-export function SimilarCities({ city, maxResults = 4, locale = "fr" }: SimilarCitiesProps) {
+export function SimilarCities({ citySlug, items, locale = "fr" }: SimilarCitiesProps) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
-  const similar = CITIES_SEED.filter((c) => c.slug !== city.slug)
-    .map((c) => ({ city: c, sim: cosineSimilarity(city.scores, c.scores) }))
-    .sort((a, b) => b.sim - a.sim)
-    .slice(0, maxResults);
-
-  if (similar.length === 0) return null;
+  if (items.length === 0) return null;
 
   return (
     <div>
@@ -36,7 +20,7 @@ export function SimilarCities({ city, maxResults = 4, locale = "fr" }: SimilarCi
         {L("Villes similaires", "Similar cities")}
       </p>
       <div className="space-y-2">
-        {similar.map(({ city: c, sim }) => (
+        {items.map((c) => (
           <Link
             key={c.slug}
             href={locale === "en" ? `/cities/${c.slug}` : `/villes/${c.slug}`}
@@ -48,25 +32,25 @@ export function SimilarCities({ city, maxResults = 4, locale = "fr" }: SimilarCi
               </div>
               <div className="text-xs text-[var(--text-tertiary)] mt-0.5">
                 {c.region}
-                {HOUSING[c.slug] ? ` · ${HOUSING[c.slug].avgRentT2}€${L("/mois T2", "/mo 2-room")}` : ""}
+                {c.rentT2 ? ` · ${c.rentT2}€${L("/mois T2", "/mo 2-room")}` : ""}
               </div>
             </div>
             <div className="text-right flex-shrink-0 ml-3">
               <div className="text-sm font-bold font-mono-data text-[var(--accent)]">
-                {c.scores.global.toFixed(1)}
+                {c.scoreGlobal.toFixed(1)}
               </div>
               <div className="text-xs text-[var(--text-tertiary)]">
-                {Math.round(sim * 100)}{L("% similaire", "% similar")}
+                {Math.round(c.sim * 100)}{L("% similaire", "% similar")}
               </div>
             </div>
           </Link>
         ))}
       </div>
       <div className="mt-3 flex flex-wrap gap-2">
-        {similar.slice(0, 2).map(({ city: c }) => (
+        {items.slice(0, 2).map((c) => (
           <Link
             key={c.slug}
-            href={`${locale === "en" ? "/compare" : "/comparer"}/${[city.slug, c.slug].sort().join("-vs-")}`}
+            href={`${locale === "en" ? "/compare" : "/comparer"}/${[citySlug, c.slug].sort().join("-vs-")}`}
             className="text-xs text-[var(--accent)] border border-[var(--accent)]/30 rounded-lg px-3 py-1.5 hover:bg-[var(--accent)]/5 transition-colors"
           >
             vs {c.name} →

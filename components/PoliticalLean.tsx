@@ -1,27 +1,28 @@
 import Link from "next/link";
 import { Vote, ArrowRight } from "lucide-react";
 import {
-  getPoliticalLean,
   BLOC_ORDER,
   BLOC_COLORS,
   BLOC_LABEL,
   type Bloc,
-} from "@/lib/political-lean";
+  type PoliticalLean as PoliticalLeanData,
+} from "@/lib/political-lean-meta";
 
 // Indicative political-lean metric for a city, from the 2022 presidential
-// 1st-round commune result. Pure display (server component). Shows the
+// 1st-round commune result. Pure display: the lean is computed by the caller
+// (getPoliticalLean drags a 107 KB JSON — keep it server-side). Shows the
 // plurality bloc, a left→right stacked bar of the four blocs, a legend, and a
 // sourced "indicatif" caption. Renders nothing if the city has no data.
 export function PoliticalLean({
-  slug,
+  lean,
   cityName,
   locale = "fr",
 }: {
-  slug: string;
+  lean: PoliticalLeanData | null;
   cityName: string;
   locale?: "fr" | "en";
 }) {
-  const p = getPoliticalLean(slug);
+  const p = lean;
   if (!p) return null;
 
   const L = BLOC_LABEL[locale];

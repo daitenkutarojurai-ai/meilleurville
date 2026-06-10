@@ -72,7 +72,7 @@ export default async function HonestReviewPage({ params }: Props) {
         </p>
 
         <div className="mt-8">
-          <HonestReviewCard city={city} compact />
+          <HonestReviewCard cityName={city.name} citySlug={city.slug} review={buildHonestReview(city)} citiesCount={CITIES_SEED.length} compact />
         </div>
 
         {/* Quote-style verdict */}

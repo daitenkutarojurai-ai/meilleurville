@@ -5,6 +5,7 @@ import { getHousing } from "@/data/housing";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CityProfile } from "./CityProfile";
+import { buildCityProfileData } from "@/lib/city-profile-data";
 import { CityJsonLd } from "@/components/CityJsonLd";
 import { CityGuidesList } from "@/components/CityGuidesList";
 import { FeedbackWidget } from "@/components/FeedbackWidget";
@@ -60,7 +61,7 @@ export default async function CityPage({ params }: Props) {
     <main id="main-content" className="min-h-screen">
       <CityJsonLd city={city} />
       <Navbar />
-      <CityProfile city={city} />
+      <CityProfile city={city} data={buildCityProfileData(city)} />
       <CityGuidesList slug={city.slug} name={city.name} />
       <div className="mx-auto max-w-4xl px-4 sm:px-6 pb-12">
         <FeedbackWidget />

@@ -7,6 +7,7 @@ import { CityGuidesList } from "@/components/CityGuidesList";
 import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getCityTitle, getCityDescription, ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { buildCityProfileData } from "@/lib/city-profile-data";
 import { jsonLdScript } from "@/lib/jsonld";
 
 // Pure static export (output:"export" on Cloudflare) — fully prebuilt at build
@@ -89,7 +90,7 @@ export default async function EnCityPage({ params }: Props) {
     <main id="main-content" className="min-h-screen relative">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(cityJsonLd)} />
       <Navbar />
-      <CityProfile city={city} locale="en" />
+      <CityProfile city={city} data={buildCityProfileData(city)} locale="en" />
       <CityGuidesList slug={city.slug} name={city.name} locale="en" />
       <div className="mx-auto max-w-4xl px-4 sm:px-6 pb-4">
         <FeedbackWidget locale="en" />

@@ -1,12 +1,15 @@
 import Link from "next/link";
 import { ThumbsUp, ThumbsDown, CheckCircle2, Sparkles } from "lucide-react";
 import { Card } from "@/components/ui/Card";
-import { buildHonestReview } from "@/lib/honest-reviews";
-import { CITIES_COUNT } from "@/lib/site-stats";
-import type { CitySeed } from "@/data/cities-seed";
+import type { HonestReviewLite } from "@/lib/city-profile-data";
 
+// review/citiesCount come from the server caller — buildHonestReview and
+// site-stats both drag the full seed (and guides) into the client bundle.
 interface Props {
-  city: CitySeed;
+  cityName: string;
+  citySlug: string;
+  review: HonestReviewLite;
+  citiesCount: number;
   /** Compact = no "Avis honnête" full page link. Used when this card itself
       lives on /villes/[slug]/avis-honnete. */
   compact?: boolean;
@@ -39,16 +42,15 @@ function ratingBadge(score: number): { label: string; tone: string } {
   return { label: score.toFixed(1), tone: "bg-red-500/15 text-red-700 border-red-400/30" };
 }
 
-export function HonestReviewCard({ city, compact = false, locale = "fr" }: Props) {
+export function HonestReviewCard({ cityName, citySlug, review, citiesCount, compact = false, locale = "fr" }: Props) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
-  const review = buildHonestReview(city);
 
   return (
     <Card>
       <div className="flex items-center gap-2 mb-3">
         <Sparkles className="h-4 w-4 text-[var(--accent)]" />
         <h2 className="text-base font-semibold text-[var(--text-primary)]">
-          {L(`Avis honnête sur ${city.name}`, `Honest take on ${city.name}`)}
+          {L(`Avis honnête sur ${cityName}`, `Honest take on ${cityName}`)}
         </h2>
         <span className="ml-auto inline-flex items-center rounded-full border border-blue-400/30 bg-blue-500/10 text-blue-700 px-1.5 py-0.5 text-[10px] uppercase tracking-wider">
           {L("Synthèse", "Summary")}
@@ -150,11 +152,11 @@ export function HonestReviewCard({ city, compact = false, locale = "fr" }: Props
                 <p className="text-[11px] text-[var(--text-tertiary)] mb-2 italic">
                   {locale === "en" ? (
                     <>
-                      Not in the top 30 for any specific profile, but here are the two {city.name} is still <em>a reasonable fit</em> for:
+                      Not in the top 30 for any specific profile, but here are the two {cityName} is still <em>a reasonable fit</em> for:
                     </>
                   ) : (
                     <>
-                      Pas dans le top 30 d&apos;un profil spécifique, mais voici les deux pour lesquels {city.name} reste <em>plutôt adaptée</em> :
+                      Pas dans le top 30 d&apos;un profil spécifique, mais voici les deux pour lesquels {cityName} reste <em>plutôt adaptée</em> :
                     </>
                   )}
                 </p>
@@ -173,7 +175,7 @@ export function HonestReviewCard({ city, compact = false, locale = "fr" }: Props
                       <span aria-hidden>{f.profile.emoji}</span>
                       {f.profile.label}
                       <span className="text-[11px] text-[var(--text-tertiary)] ml-1">
-                        {L(`(#${f.rank} sur ${CITIES_COUNT})`, `(#${f.rank} of ${CITIES_COUNT})`)}
+                        {L(`(#${f.rank} sur ${citiesCount})`, `(#${f.rank} of ${citiesCount})`)}
                       </span>
                     </Link>
                   </li>
@@ -207,7 +209,7 @@ export function HonestReviewCard({ city, compact = false, locale = "fr" }: Props
             )}
           </span>
           <Link
-            href={locale === "en" ? `/cities/${city.slug}/honest-review` : `/villes/${city.slug}/avis-honnete`}
+            href={locale === "en" ? `/cities/${citySlug}/honest-review` : `/villes/${citySlug}/avis-honnete`}
             className="text-[var(--accent)] font-semibold whitespace-nowrap hover:underline"
           >
             {L("Page dédiée →", "Full page →")}
