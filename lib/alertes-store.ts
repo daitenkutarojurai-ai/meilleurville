@@ -7,8 +7,17 @@
  *  - score type: the city's global score changed (by ≥ 0.1) since last notification
  *    AND (if threshold set) the new score crossed the threshold upward.
  *  - comments type: new comments have been posted since last check.
+ *
+ * Double opt-in: an unauthenticated subscribe creates a PENDING row
+ * (active = 0, confirm_token set, confirmed_at NULL) — the Monday cron only
+ * mails active rows, so nothing fires until GET /api/alertes/confirm flips it.
+ * Authenticated subscribes (Bearer JWT matching the email) skip the dance and
+ * are created active + confirmed directly. Pending rows expire after 7 days.
  */
 import { getDB } from "@/lib/db";
+import { generateLoginToken } from "@/lib/auth-tokens";
+
+const PENDING_TTL_MS = 7 * 24 * 60 * 60_000;
 
 export interface Alerte {
   id: string;
@@ -23,6 +32,8 @@ export interface Alerte {
   subscribedAt: string;
   active: boolean;
   locale: "fr" | "en";
+  confirmToken: string | null;
+  confirmedAt: string | null;
 }
 
 interface Row {
@@ -38,6 +49,8 @@ interface Row {
   subscribed_at: string;
   active: number;
   locale: string;
+  confirm_token: string | null;
+  confirmed_at: string | null;
 }
 
 function rowToAlerte(r: Row): Alerte {
@@ -54,6 +67,8 @@ function rowToAlerte(r: Row): Alerte {
     subscribedAt: r.subscribed_at,
     active: r.active === 1,
     locale: r.locale as "fr" | "en",
+    confirmToken: r.confirm_token,
+    confirmedAt: r.confirmed_at,
   };
 }
 
@@ -104,6 +119,21 @@ export async function findActiveByEmailAndCity(
   return row ? rowToAlerte(row) : undefined;
 }
 
+/** Pending = not yet confirmed (active = 0 with a live confirm token). */
+export async function findPendingByEmailAndCity(
+  email: string,
+  citySlug: string,
+): Promise<Alerte | undefined> {
+  const db = await getDB();
+  const row = await db
+    .prepare(
+      "SELECT * FROM alertes WHERE active = 0 AND confirm_token IS NOT NULL AND confirmed_at IS NULL AND lower(email) = lower(?) AND city_slug = ? LIMIT 1",
+    )
+    .bind(email, citySlug)
+    .first<Row>();
+  return row ? rowToAlerte(row) : undefined;
+}
+
 export async function addAlerte(opts: {
   email: string;
   citySlug: string;
@@ -113,8 +143,12 @@ export async function addAlerte(opts: {
   currentScore: number;
   currentCommentCount: number;
   locale: "fr" | "en";
+  /** true = ownership already proven (authed user) → active immediately. */
+  confirmed: boolean;
 }): Promise<Alerte> {
   const db = await getDB();
+  const now = new Date().toISOString();
+
   const existing = await findActiveByEmailAndCity(opts.email, opts.citySlug);
   if (existing) {
     await db
@@ -127,6 +161,27 @@ export async function addAlerte(opts: {
       scoreThreshold: opts.scoreThreshold,
     };
   }
+
+  const pending = await findPendingByEmailAndCity(opts.email, opts.citySlug);
+  if (pending) {
+    if (opts.confirmed) {
+      // Authed re-subscribe while a pending row exists: promote it directly.
+      await db
+        .prepare(
+          "UPDATE alertes SET types = ?, score_threshold = ?, active = 1, confirmed_at = ? WHERE id = ?",
+        )
+        .bind(JSON.stringify(opts.types), opts.scoreThreshold ?? null, now, pending.id)
+        .run();
+      return { ...pending, types: opts.types, scoreThreshold: opts.scoreThreshold, active: true, confirmedAt: now };
+    }
+    // Pending re-subscribe: update prefs, reuse the confirm token.
+    await db
+      .prepare("UPDATE alertes SET types = ?, score_threshold = ? WHERE id = ?")
+      .bind(JSON.stringify(opts.types), opts.scoreThreshold ?? null, pending.id)
+      .run();
+    return { ...pending, types: opts.types, scoreThreshold: opts.scoreThreshold };
+  }
+
   const alerte: Alerte = {
     id: crypto.randomUUID(),
     email: opts.email,
@@ -137,13 +192,15 @@ export async function addAlerte(opts: {
     lastNotifiedScore: opts.currentScore,
     lastNotifiedCommentCount: opts.currentCommentCount,
     unsubscribeToken: crypto.randomUUID(),
-    subscribedAt: new Date().toISOString(),
-    active: true,
+    subscribedAt: now,
+    active: opts.confirmed,
     locale: opts.locale,
+    confirmToken: opts.confirmed ? null : generateLoginToken(),
+    confirmedAt: opts.confirmed ? now : null,
   };
   await db
     .prepare(
-      "INSERT INTO alertes (id, email, city_slug, city_name, types, score_threshold, last_notified_score, last_notified_comment_count, unsubscribe_token, subscribed_at, active, locale) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+      "INSERT INTO alertes (id, email, city_slug, city_name, types, score_threshold, last_notified_score, last_notified_comment_count, unsubscribe_token, subscribed_at, active, locale, confirm_token, confirmed_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
     )
     .bind(
       alerte.id,
@@ -156,11 +213,54 @@ export async function addAlerte(opts: {
       alerte.lastNotifiedCommentCount,
       alerte.unsubscribeToken,
       alerte.subscribedAt,
-      1,
+      alerte.active ? 1 : 0,
       alerte.locale,
+      alerte.confirmToken,
+      alerte.confirmedAt,
     )
     .run();
   return alerte;
+}
+
+export async function findByConfirmToken(token: string): Promise<Alerte | undefined> {
+  const db = await getDB();
+  const row = await db
+    .prepare("SELECT * FROM alertes WHERE confirm_token = ?")
+    .bind(token)
+    .first<Row>();
+  return row ? rowToAlerte(row) : undefined;
+}
+
+/** True if a pending alerte's confirm window (7 days) has lapsed. */
+export function isPendingExpired(alerte: Alerte, nowMs: number = Date.now()): boolean {
+  return !alerte.confirmedAt && nowMs - Date.parse(alerte.subscribedAt) > PENDING_TTL_MS;
+}
+
+/** Activate a pending alerte. Returns it, or undefined if the token is unknown/already used. */
+export async function confirmAlerte(token: string): Promise<Alerte | undefined> {
+  const db = await getDB();
+  const alerte = await findByConfirmToken(token);
+  if (!alerte || alerte.confirmedAt) return undefined;
+  const now = new Date().toISOString();
+  await db
+    .prepare(
+      "UPDATE alertes SET active = 1, confirmed_at = ? WHERE confirm_token = ? AND confirmed_at IS NULL",
+    )
+    .bind(now, token)
+    .run();
+  return { ...alerte, active: true, confirmedAt: now };
+}
+
+/** Opportunistic cleanup: drop pending rows whose 7-day confirm window lapsed. */
+export async function purgePendingAlertes(): Promise<void> {
+  const db = await getDB();
+  const cutoff = new Date(Date.now() - PENDING_TTL_MS).toISOString();
+  await db
+    .prepare(
+      "DELETE FROM alertes WHERE active = 0 AND confirm_token IS NOT NULL AND confirmed_at IS NULL AND subscribed_at < ?",
+    )
+    .bind(cutoff)
+    .run();
 }
 
 export async function deactivateAlerte(token: string): Promise<boolean> {

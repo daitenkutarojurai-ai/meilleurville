@@ -52,8 +52,8 @@ export function AlerteForm({ citySlug, cityName, locale = "fr" }: Props) {
         setStatus("success");
         setMessage(
           L(
-            `Alertes activées pour ${cityName}. Email de confirmation envoyé.`,
-            `Alerts activated for ${cityName}. Confirmation email sent.`,
+            `Vérifiez votre boîte mail : cliquez le lien de confirmation pour activer l'alerte pour ${cityName}.`,
+            `Check your inbox: click the confirmation link to activate the alert for ${cityName}.`,
           ),
         );
       }

@@ -16,15 +16,27 @@ import { setDB, type D1Database } from "@/lib/db";
 import { addComment, listComments, countComments } from "@/lib/comments-store";
 import { addContactMessage, maybeForwardEmail } from "@/lib/contact-store";
 import { addPageFeedback, maybeForwardFeedback } from "@/lib/feedback-store";
-import { addSubscriber, maybeSyncList, maybeSendWelcome } from "@/lib/newsletter-store";
+import {
+  addSubscriber,
+  maybeSyncList,
+  maybeSendWelcome,
+  findByConfirmToken as findSubscriberByConfirmToken,
+  confirmSubscriber,
+  isPendingExpired as isSubscriberPendingExpired,
+  purgePendingSubscribers,
+} from "@/lib/newsletter-store";
 import {
   addAlerte,
   findActiveByEmailAndCity,
   findAllByEmail,
   findByUnsubscribeToken,
   deactivateAlerte,
+  findByConfirmToken as findAlerteByConfirmToken,
+  confirmAlerte,
+  isPendingExpired as isAlertePendingExpired,
+  purgePendingAlertes,
 } from "@/lib/alertes-store";
-import { sendBrevoEmail, addBrevoContact } from "@/lib/brevo";
+import { sendBrevoEmail } from "@/lib/brevo";
 import { rateLimit, rateLimitD1, getClientIp } from "@/lib/rate-limit";
 import { checkContent } from "@/lib/spam-filter";
 import { CITIES_SEED } from "@/data/cities-seed";
@@ -483,12 +495,34 @@ async function handleNewsletter(request: Request): Promise<Response> {
   if (!(await rateLimitD1(`nl:d:${ip}`, 20, DAY_MS)).allowed)
     return json({ error: "Limite quotidienne atteinte." }, { status: 429 });
 
-  const { subscriber, alreadySubscribed } = await addSubscriber({ email: parsed.data.email, locale: parsed.data.locale });
-  if (!alreadySubscribed) {
-    await maybeSyncList(subscriber);
-    await maybeSendWelcome(subscriber);
-  }
+  const email = parsed.data.email;
+  // Per-target cap: each subscribe sends a confirmation email to the address.
+  // Silent ok when capped — enumeration-safe, no oracle for "is X subscribed".
+  if (!(await rateLimitD1(`nl:e:${email.toLowerCase()}`, 3, DAY_MS)).allowed)
+    return json({ success: true }, { status: 201 });
+
+  await purgePendingSubscribers();
+  const { subscriber, alreadySubscribed } = await addSubscriber({ email, locale: parsed.data.locale });
+  // Double opt-in: pending row only — Brevo sync + welcome happen on confirm.
+  // Already-confirmed addresses get NO email (re-subscribe is not a mail vector).
+  if (!alreadySubscribed) await sendNewsletterConfirmEmail(subscriber.email, parsed.data.locale, subscriber.confirmToken!);
   return json({ success: true, alreadySubscribed }, { status: 201 });
+}
+
+async function sendNewsletterConfirmEmail(email: string, locale: "fr" | "en", token: string, vacances = false): Promise<void> {
+  const origin = ORIGIN_BY_LOCALE[locale];
+  const link = `${origin}/api/newsletter/confirm?token=${token}`;
+  const subject = locale === "fr"
+    ? "Confirmez votre inscription — MaVilleIdéale"
+    : "Confirm your subscription — Best Cities in France";
+  const what = vacances ? "nos conseils vacances et la lettre MaVilleIdéale" : "la lettre du dimanche";
+  const text = locale === "fr"
+    ? `Bonjour,\n\nPour confirmer votre inscription à ${what}, cliquez sur ce lien :\n${link}\n\nCe lien expire dans 7 jours. Si vous n'êtes pas à l'origine de cette demande, ignorez cet email — vous ne recevrez rien.\n\n— L'équipe MaVilleIdéale`
+    : `Hello,\n\nTo confirm your subscription to the Best Cities in France newsletter, click this link:\n${link}\n\nThe link expires in 7 days. If you didn't request this, ignore this email — you won't receive anything.\n\n— Best Cities in France`;
+  await sendBrevoEmail({
+    sender: { email: locale === "fr" ? "bonjour@mavilleideale.fr" : "hello@bestcitiesinfrance.com", name: locale === "fr" ? "MaVilleIdéale" : "Best Cities in France" },
+    to: email, subject, text,
+  });
 }
 
 async function handleVacancesNewsletter(request: Request): Promise<Response> {
@@ -498,12 +532,42 @@ async function handleVacancesNewsletter(request: Request): Promise<Response> {
   try { body = await request.json(); } catch { return json({ error: "JSON invalide." }, { status: 400 }); }
   const { email } = body as { email?: string };
   if (!email || !EMAIL_RE.test(email)) return json({ error: "Adresse email invalide." }, { status: 400 });
-  // Per-target cap: without it an attacker can use this endpoint to spam an
-  // arbitrary address with Brevo list mail (no double opt-in yet).
+  // Per-target cap: each subscribe sends a confirmation email to the address.
   if (!(await rateLimitD1(`vnl:e:${email.toLowerCase()}`, 3, DAY_MS)).allowed)
     return json({ ok: true });
-  await addBrevoContact({ email, listId: 4 });
+
+  // Same pending pipeline as /api/newsletter; listId 4 (Brevo vacances list)
+  // is pinned on the row and honoured by maybeSyncList on confirm.
+  await purgePendingSubscribers();
+  const { subscriber, alreadySubscribed } = await addSubscriber({ email, locale: "fr", listId: 4 });
+  if (!alreadySubscribed) await sendNewsletterConfirmEmail(subscriber.email, "fr", subscriber.confirmToken!, true);
   return json({ ok: true });
+}
+
+async function handleNewsletterConfirm(url: URL): Promise<Response> {
+  const token = url.searchParams.get("token");
+  const invalid = html(`<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><title>Lien invalide</title></head><body><p>Lien de confirmation invalide ou expiré. / Invalid or expired confirmation link.</p></body></html>`, { status: 400 });
+  if (!token || token.length < 16 || token.length > 200) return invalid;
+
+  const sub = await findSubscriberByConfirmToken(token);
+  if (!sub) return invalid;
+  const origin = ORIGIN_BY_LOCALE[sub.locale];
+  if (sub.confirmedAt) {
+    return html(sub.locale === "fr"
+      ? `<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><title>Déjà confirmé</title></head><body><p>Votre inscription est déjà confirmée.</p><p><a href="${origin}">Retour à l'accueil</a></p></body></html>`
+      : `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Already confirmed</title></head><body><p>Your subscription is already confirmed.</p><p><a href="${origin}">Back to the homepage</a></p></body></html>`);
+  }
+  if (isSubscriberPendingExpired(sub)) return invalid;
+
+  const confirmed = await confirmSubscriber(token);
+  if (!confirmed) return invalid;
+  await maybeSyncList(confirmed);
+  // The vacances funnel never had a welcome email — only locale-list subscribers get one.
+  if (confirmed.listId === undefined) await maybeSendWelcome(confirmed);
+
+  return html(confirmed.locale === "fr"
+    ? `<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><meta http-equiv="refresh" content="5;url=${origin}"><title>Inscription confirmée</title></head><body><p>Votre inscription est <strong>confirmée</strong>. À dimanche !</p><p>Redirection dans 5 secondes...</p><p><a href="${origin}">Retour à l'accueil</a></p></body></html>`
+    : `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="refresh" content="5;url=${origin}"><title>Subscription confirmed</title></head><body><p>Your subscription is <strong>confirmed</strong>. See you Sunday!</p><p>Redirecting in 5 seconds...</p><p><a href="${origin}">Back to the homepage</a></p></body></html>`);
 }
 
 async function handleAlertesSubscribe(request: Request): Promise<Response> {
@@ -524,32 +588,93 @@ async function handleAlertesSubscribe(request: Request): Promise<Response> {
   const watchTypes = (types ?? ["score", "comments"]).filter((t): t is "score" | "comments" => t === "score" || t === "comments");
   if (watchTypes.length === 0) return json({ error: "Sélectionnez au moins un type d'alerte." }, { status: 400 });
 
-  const existing = await findActiveByEmailAndCity(email, citySlug);
   const comments = await listComments(`city:${citySlug}`);
   const referer = request.headers.get("referer") ?? "";
   const locale: "fr" | "en" = referer.includes("bestcitiesinfrance") ? "en" : "fr";
   const baseUrl = locale === "fr" ? "https://mavilleideale.fr" : "https://bestcitiesinfrance.com";
+  const sender = { email: locale === "fr" ? "bonjour@mavilleideale.fr" : "hello@bestcitiesinfrance.com", name: locale === "fr" ? "MaVilleIdéale" : "Best Cities in France" };
+
+  await purgePendingAlertes();
+
+  // Fast path: a Bearer JWT whose email matches already proved ownership via
+  // magic link — skip double opt-in, activate immediately.
+  const user = await authedUser(request);
+  if (user && user.email.toLowerCase() === email.toLowerCase()) {
+    const existing = await findActiveByEmailAndCity(email, citySlug);
+    const alerte = await addAlerte({
+      email, citySlug, cityName: city.name, types: watchTypes,
+      scoreThreshold: scoreThreshold ?? undefined,
+      currentScore: city.scores.global, currentCommentCount: comments.length, locale,
+      confirmed: true,
+    });
+    const subject = locale === "fr" ? `Alerte activée pour ${city.name} — MaVilleIdéale` : `Alert set up for ${city.name} — Best Cities in France`;
+    const unsubUrl = `${baseUrl}/api/alertes/unsubscribe?token=${alerte.unsubscribeToken}`;
+    const text = locale === "fr"
+      ? `Bonjour,\n\nVotre alerte pour ${city.name} est activée.\n\nVous serez notifié·e quand :\n${watchTypes.includes("score") ? `- Le score de ${city.name} change${scoreThreshold ? ` et atteint ${scoreThreshold}/10` : ""}\n` : ""}${watchTypes.includes("comments") ? `- De nouveaux commentaires sont postés sur ${city.name}\n` : ""}\nPour vous désabonner : ${unsubUrl}\n\n— L'équipe MaVilleIdéale`
+      : `Hello,\n\nYour alert for ${city.name} is now active.\n\nYou'll be notified when:\n${watchTypes.includes("score") ? `- ${city.name}'s score changes${scoreThreshold ? ` and reaches ${scoreThreshold}/10` : ""}\n` : ""}${watchTypes.includes("comments") ? `- New comments are posted about ${city.name}\n` : ""}\nTo unsubscribe: ${unsubUrl}\n\n— Best Cities in France`;
+    await sendBrevoEmail({ sender, to: email, subject, text });
+    return json({
+      ok: true, updated: !!existing,
+      message: locale === "fr"
+        ? (existing ? `Alerte mise à jour pour ${city.name}.` : `Alerte activée pour ${city.name}. Un email de confirmation vous a été envoyé.`)
+        : (existing ? `Alert updated for ${city.name}.` : `Alert activated for ${city.name}. A confirmation email is on its way.`),
+    });
+  }
+
+  // Double opt-in path. Same generic response whether the address is new,
+  // pending or already subscribed — enumeration-safe.
+  const okResponse = json({
+    ok: true,
+    message: locale === "fr"
+      ? `Vérifiez votre boîte mail : un lien de confirmation pour ${city.name} vient de vous être envoyé.`
+      : `Check your inbox: a confirmation link for ${city.name} has just been sent.`,
+  });
+
+  // Already active = ownership already proven once. No update, no email:
+  // an unauthenticated request must not be able to alter someone's alerte
+  // or trigger mail to an arbitrary confirmed address.
+  const existingActive = await findActiveByEmailAndCity(email, citySlug);
+  if (existingActive) return okResponse;
 
   const alerte = await addAlerte({
     email, citySlug, cityName: city.name, types: watchTypes,
     scoreThreshold: scoreThreshold ?? undefined,
     currentScore: city.scores.global, currentCommentCount: comments.length, locale,
+    confirmed: false,
   });
 
-  const subject = locale === "fr" ? `Alerte activée pour ${city.name} — MaVilleIdéale` : `Alert set up for ${city.name} — Best Cities in France`;
-  const unsubUrl = `${baseUrl}/api/alertes/unsubscribe?token=${alerte.unsubscribeToken}`;
+  const confirmUrl = `${baseUrl}/api/alertes/confirm?token=${alerte.confirmToken}`;
+  const subject = locale === "fr" ? `Confirmez votre alerte pour ${city.name} — MaVilleIdéale` : `Confirm your alert for ${city.name} — Best Cities in France`;
   const text = locale === "fr"
-    ? `Bonjour,\n\nVotre alerte pour ${city.name} est activée.\n\nVous serez notifié·e quand :\n${watchTypes.includes("score") ? `- Le score de ${city.name} change${scoreThreshold ? ` et atteint ${scoreThreshold}/10` : ""}\n` : ""}${watchTypes.includes("comments") ? `- De nouveaux commentaires sont postés sur ${city.name}\n` : ""}\nPour vous désabonner : ${unsubUrl}\n\n— L'équipe MaVilleIdéale`
-    : `Hello,\n\nYour alert for ${city.name} is now active.\n\nYou'll be notified when:\n${watchTypes.includes("score") ? `- ${city.name}'s score changes${scoreThreshold ? ` and reaches ${scoreThreshold}/10` : ""}\n` : ""}${watchTypes.includes("comments") ? `- New comments are posted about ${city.name}\n` : ""}\nTo unsubscribe: ${unsubUrl}\n\n— Best Cities in France`;
-  await sendBrevoEmail({
-    sender: { email: locale === "fr" ? "bonjour@mavilleideale.fr" : "hello@bestcitiesinfrance.com", name: locale === "fr" ? "MaVilleIdéale" : "Best Cities in France" },
-    to: email, subject, text,
-  });
+    ? `Bonjour,\n\nPour activer votre alerte pour ${city.name}, cliquez sur ce lien :\n${confirmUrl}\n\nVous serez ensuite notifié·e quand :\n${watchTypes.includes("score") ? `- Le score de ${city.name} change${scoreThreshold ? ` et atteint ${scoreThreshold}/10` : ""}\n` : ""}${watchTypes.includes("comments") ? `- De nouveaux commentaires sont postés sur ${city.name}\n` : ""}\nCe lien expire dans 7 jours. Si vous n'êtes pas à l'origine de cette demande, ignorez cet email — l'alerte ne sera jamais activée.\n\n— L'équipe MaVilleIdéale`
+    : `Hello,\n\nTo activate your alert for ${city.name}, click this link:\n${confirmUrl}\n\nYou'll then be notified when:\n${watchTypes.includes("score") ? `- ${city.name}'s score changes${scoreThreshold ? ` and reaches ${scoreThreshold}/10` : ""}\n` : ""}${watchTypes.includes("comments") ? `- New comments are posted about ${city.name}\n` : ""}\nThe link expires in 7 days. If you didn't request this, ignore this email — the alert will never be activated.\n\n— Best Cities in France`;
+  await sendBrevoEmail({ sender, to: email, subject, text });
 
-  return json({
-    ok: true, updated: !!existing,
-    message: existing ? `Alerte mise à jour pour ${city.name}.` : `Alerte activée pour ${city.name}. Un email de confirmation vous a été envoyé.`,
-  });
+  return okResponse;
+}
+
+async function handleAlertesConfirm(url: URL): Promise<Response> {
+  const token = url.searchParams.get("token");
+  const invalid = html(`<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><title>Lien invalide</title></head><body><p>Lien de confirmation invalide ou expiré. / Invalid or expired confirmation link.</p></body></html>`, { status: 400 });
+  if (!token || token.length < 16 || token.length > 200) return invalid;
+
+  const alerte = await findAlerteByConfirmToken(token);
+  if (!alerte) return invalid;
+  const origin = alerte.locale === "fr" ? "https://mavilleideale.fr" : "https://bestcitiesinfrance.com";
+  const cityPath = alerte.locale === "fr" ? `/villes/${alerte.citySlug}` : `/cities/${alerte.citySlug}`;
+  if (alerte.confirmedAt) {
+    return html(alerte.locale === "fr"
+      ? `<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><title>Déjà confirmée</title></head><body><p>Votre alerte pour <strong>${alerte.cityName}</strong> est déjà active.</p><p><a href="${origin}${cityPath}">Retour à la fiche de ${alerte.cityName}</a></p></body></html>`
+      : `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Already confirmed</title></head><body><p>Your alert for <strong>${alerte.cityName}</strong> is already active.</p><p><a href="${origin}${cityPath}">Back to ${alerte.cityName}'s profile</a></p></body></html>`);
+  }
+  if (isAlertePendingExpired(alerte)) return invalid;
+
+  const confirmed = await confirmAlerte(token);
+  if (!confirmed) return invalid;
+
+  return html(confirmed.locale === "fr"
+    ? `<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><meta http-equiv="refresh" content="5;url=${origin}${cityPath}"><title>Alerte activée</title></head><body><p>Votre alerte pour <strong>${confirmed.cityName}</strong> est <strong>activée</strong>.</p><p>Redirection dans 5 secondes...</p><p><a href="${origin}${cityPath}">Retour à la fiche de ${confirmed.cityName}</a></p></body></html>`
+    : `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="refresh" content="5;url=${origin}${cityPath}"><title>Alert activated</title></head><body><p>Your alert for <strong>${confirmed.cityName}</strong> is now <strong>active</strong>.</p><p>Redirecting in 5 seconds...</p><p><a href="${origin}${cityPath}">Back to ${confirmed.cityName}'s profile</a></p></body></html>`);
 }
 
 async function handleAlertesUnsubscribe(url: URL): Promise<Response> {
@@ -643,8 +768,10 @@ export default {
       if (path === "/api/contact" && method === "POST") return await handleContact(request);
       if (path === "/api/feedback" && method === "POST") return await handleFeedback(request);
       if (path === "/api/newsletter" && method === "POST") return await handleNewsletter(request);
+      if (path === "/api/newsletter/confirm" && method === "GET") return await handleNewsletterConfirm(url);
       if (path === "/api/vacances/newsletter" && method === "POST") return await handleVacancesNewsletter(request);
       if (path === "/api/alertes/subscribe" && method === "POST") return await handleAlertesSubscribe(request);
+      if (path === "/api/alertes/confirm" && method === "GET") return await handleAlertesConfirm(url);
       if (path === "/api/alertes/unsubscribe" && method === "GET") return await handleAlertesUnsubscribe(url);
       if (path === "/api/alertes/list" && method === "GET") return await handleAlertesList(request);
       if (path === "/api/cities/search" && method === "GET") return handleCitiesSearch(url);

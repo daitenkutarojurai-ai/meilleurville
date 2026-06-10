@@ -41,6 +41,10 @@ CREATE TABLE IF NOT EXISTS contact_messages (
   created_at TEXT NOT NULL
 );
 
+-- Double opt-in (alertes): rows are created PENDING (active = 0, confirm_token
+-- set, confirmed_at NULL). GET /api/alertes/confirm?token= flips active = 1 +
+-- stamps confirmed_at. Authed subscribes (JWT email match) are created active
+-- with confirm_token NULL. The Monday cron only mails active rows.
 CREATE TABLE IF NOT EXISTS alertes (
   id                          TEXT PRIMARY KEY,
   email                       TEXT NOT NULL,
@@ -53,20 +57,32 @@ CREATE TABLE IF NOT EXISTS alertes (
   unsubscribe_token           TEXT NOT NULL,
   subscribed_at               TEXT NOT NULL,
   active                      INTEGER NOT NULL DEFAULT 1,
-  locale                      TEXT NOT NULL DEFAULT 'fr'
+  locale                      TEXT NOT NULL DEFAULT 'fr',
+  confirm_token               TEXT,
+  confirmed_at                TEXT
 );
 CREATE INDEX IF NOT EXISTS idx_alertes_city   ON alertes (city_slug);
 CREATE INDEX IF NOT EXISTS idx_alertes_email  ON alertes (email);
 CREATE INDEX IF NOT EXISTS idx_alertes_token  ON alertes (unsubscribe_token);
+CREATE INDEX IF NOT EXISTS idx_alertes_confirm ON alertes (confirm_token);
 
+-- Double opt-in (newsletter): subscribers are PENDING (confirmed_at NULL) until
+-- GET /api/newsletter/confirm?token= — only then are they pushed to Brevo and
+-- welcomed. list_id pins an explicit Brevo list (vacances funnel = 4); NULL
+-- means the locale's default list (BREVO_LIST_ID_FR / _EN).
 CREATE TABLE IF NOT EXISTS newsletter_subscribers (
-  id         TEXT PRIMARY KEY,
-  email      TEXT NOT NULL,
-  locale     TEXT NOT NULL,
-  created_at TEXT NOT NULL
+  id            TEXT PRIMARY KEY,
+  email         TEXT NOT NULL,
+  locale        TEXT NOT NULL,
+  created_at    TEXT NOT NULL,
+  confirm_token TEXT,
+  confirmed_at  TEXT,
+  list_id       INTEGER
 );
 CREATE INDEX IF NOT EXISTS idx_newsletter_email_locale
   ON newsletter_subscribers (email, locale);
+CREATE INDEX IF NOT EXISTS idx_newsletter_confirm
+  ON newsletter_subscribers (confirm_token);
 
 -- Global daily Claude/AI call budget (cost backstop — see lib/ai-budget.ts).
 -- One row per UTC day; the worker upserts and compares against AI_DAILY_BUDGET.
@@ -148,3 +164,24 @@ CREATE INDEX IF NOT EXISTS idx_rate_limits_expiry ON rate_limits (expires_at);
 -- against prod (errors about duplicate columns mean it's already applied):
 --   wrangler d1 execute meilleurville --remote --command \
 --     "ALTER TABLE comments ADD COLUMN status TEXT NOT NULL DEFAULT 'published'"
+--
+-- Double opt-in (newsletter + alertes) — run each once:
+--   wrangler d1 execute meilleurville --remote --command \
+--     "ALTER TABLE newsletter_subscribers ADD COLUMN confirm_token TEXT"
+--   wrangler d1 execute meilleurville --remote --command \
+--     "ALTER TABLE newsletter_subscribers ADD COLUMN confirmed_at TEXT"
+--   wrangler d1 execute meilleurville --remote --command \
+--     "ALTER TABLE newsletter_subscribers ADD COLUMN list_id INTEGER"
+--   wrangler d1 execute meilleurville --remote --command \
+--     "ALTER TABLE alertes ADD COLUMN confirm_token TEXT"
+--   wrangler d1 execute meilleurville --remote --command \
+--     "ALTER TABLE alertes ADD COLUMN confirmed_at TEXT"
+-- Backfill: rows that predate double opt-in are grandfathered as confirmed
+-- (they were live before; without this, addSubscriber would treat them as
+-- pending and re-send confirmation emails). REQUIRED, run once:
+--   wrangler d1 execute meilleurville --remote --command \
+--     "UPDATE newsletter_subscribers SET confirmed_at = created_at WHERE confirmed_at IS NULL"
+--   wrangler d1 execute meilleurville --remote --command \
+--     "UPDATE alertes SET confirmed_at = subscribed_at WHERE active = 1 AND confirmed_at IS NULL"
+-- Then re-apply the indexes (or the whole file — it is idempotent):
+--   wrangler d1 execute meilleurville --remote --file=schema.sql
