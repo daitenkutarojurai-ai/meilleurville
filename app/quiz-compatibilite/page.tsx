@@ -9,7 +9,7 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
 
 export const metadata: Metadata = {
-  title: "Quiz compatibilité ville 2026 · Top 5 | MaVilleIdeal",
+  title: "Quiz compatibilité ville 2026 · Top 5",
   description: `Quiz de compatibilité ville : 10 questions sur votre budget, climat, situation, mode de travail. Algorithme calibré sur ${CITIES_COUNT} villes françaises. Top 5 avec score % et explication par critère.`,
   alternates: { canonical: "/quiz-compatibilite" },
 };

@@ -12,7 +12,7 @@ import { getAllTagsWithCounts } from "@/lib/guide-tags";
 const BUILD_NOW = Date.now();
 
 export const metadata: Metadata = {
-  title: "Guides · Bien choisir sa ville en France | MaVilleIdeal",
+  title: "Guides · Bien choisir sa ville en France",
   description:
     `${GUIDES.length} guides complets pour choisir sa ville en France : télétravail, famille, budget, qualité de vie. Analyses honnêtes avec données réelles.`,
   alternates: {

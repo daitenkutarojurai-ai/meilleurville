@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
   return {
-    title: `${city.name} — questions fréquentes & réponses 2026 | MaVilleIdeal`,
+    title: `${city.name} — questions fréquentes & réponses 2026`,
     description: `Toutes les questions qu'on se pose avant de vivre à ${city.name} : loyers, sécurité, trajets, climat 2040, écoles, télétravail. Réponses 2026 sourcées et chiffrées.`,
     alternates: { canonical: `/villes/${slug}/questions` },
     openGraph: {

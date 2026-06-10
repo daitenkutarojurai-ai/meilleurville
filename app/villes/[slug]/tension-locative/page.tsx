@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const tension = rentalTension(city);
   const tInfo = tensionInfo(tension);
   return {
-    title: `Tension locative à ${city.name} 2026 — délais, concurrence, dossier | MaVilleIdeal`,
+    title: `Tension locative à ${city.name} 2026 — délais, concurrence, dossier`,
     description: `Marché locatif ${tInfo.shortLabel.toLowerCase()} à ${city.name} : délai moyen pour trouver, candidats par annonce, revenus exigés. Données 2026 dérivées des observatoires Clameur.`,
     alternates: { canonical: `/villes/${slug}/tension-locative` },
     openGraph: {

@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
   return {
-    title: `Agenda culturel & saisonnier de ${city.name} 2026 | MaVilleIdeal`,
+    title: `Agenda culturel & saisonnier de ${city.name} 2026`,
     description: `Que faire à ${city.name} mois par mois : festivals, marchés, événements nationaux et régionaux, meilleures saisons pour visiter. Calendrier 2026 indicatif.`,
     alternates: { canonical: `/villes/${slug}/agenda` },
     openGraph: {

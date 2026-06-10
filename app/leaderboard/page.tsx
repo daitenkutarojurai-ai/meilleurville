@@ -8,7 +8,7 @@ import { LeaderboardTable } from "@/components/LeaderboardTable";
 import { CITIES_SEED } from "@/data/cities-seed";
 
 export const metadata: Metadata = {
-  title: "Leaderboard · Top villes France par qualité de vie | MaVilleIdeal",
+  title: "Leaderboard · Top villes France par qualité de vie",
   description:
     "Le classement global des meilleures villes françaises par qualité de vie, agrégé sur 9 critères : nature, transport, coût, sécurité, culture, écoles.",
   alternates: { canonical: "/leaderboard" },

@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   const h = getHousing(slug);
   return {
-    title: `Logement à ${city.name} — loyers, prix, tension locative 2026 | MaVilleIdeal`,
+    title: `Logement à ${city.name} — loyers, prix, tension locative 2026`,
     description: `Loyers T1/T2/T3 et prix d'achat au m² à ${city.name}. Tension du marché, quartiers abordables, comparaison location vs achat. Données Clameur 2024.`,
     alternates: { canonical: `/villes/${slug}/logement` },
     openGraph: {

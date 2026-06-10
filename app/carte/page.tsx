@@ -7,7 +7,7 @@ import { CarteClient } from "./CarteClient";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
-  title: "Carte des villes · Qualité de vie | MaVilleIdeal",
+  title: "Carte des villes · Qualité de vie",
   description:
     `Carte interactive des meilleures villes de France : visualisez les scores de qualité de vie, coût de la vie, nature, sécurité sur une carte. ${CITIES_SEED.length}+ villes.`,
   alternates: { canonical: "/carte" },

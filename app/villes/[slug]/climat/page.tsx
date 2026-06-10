@@ -139,7 +139,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   const climate = classifyClimate(city);
   return {
-    title: `Climat de ${city.name} · ${climate.label}, températures, ensoleillement | MaVilleIdeal`,
+    title: `Climat de ${city.name} · ${climate.label}, températures, ensoleillement`,
     description: `Climat ${climate.label.toLowerCase()} à ${city.name} : ${city.avgTempJuly ?? "–"} °C en juillet, ${city.avgTempJanuary ?? "–"} °C en janvier, ${sunshineDays(city.sunshinedays) ?? "–"} jours de soleil par an. Quand y aller, à quoi s'attendre.`,
     alternates: { canonical: `/villes/${slug}/climat` },
     openGraph: {

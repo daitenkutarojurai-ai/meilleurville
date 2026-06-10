@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const f = fiscalityForCity({ department: dept, region: sampleCity.region });
   const cityCount = CITIES_SEED.filter((c) => c.department === dept).length;
   return {
-    title: `Fiscalité immobilière ${dept} · Taxe foncière, THRS, DMTO 2026 | MaVilleIdeal`,
+    title: `Fiscalité immobilière ${dept} · Taxe foncière, THRS, DMTO 2026`,
     description: `Estimation fiscale 2026 dans le département ${dept} : taxe foncière (${f.taxeFonciereT3}), THRS, droits de mutation. ${cityCount} ville${cityCount > 1 ? "s" : ""} couverte${cityCount > 1 ? "s" : ""}. Données DGFiP.`,
     alternates: { canonical: `/departements/${deptSlug}/fiscalite` },
     openGraph: {

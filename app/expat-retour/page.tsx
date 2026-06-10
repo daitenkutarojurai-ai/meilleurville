@@ -10,7 +10,7 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
 
 export const metadata: Metadata = {
-  title: "Expat retour France 2026 · Guide pratique pour rentrer | MaVilleIdeal",
+  title: "Expat retour France 2026 · Guide pratique pour rentrer",
   description:
     "Suisse, Luxembourg, Belgique, UK, Canada, Allemagne, USA, Espagne, Portugal, Pays-Bas, Italie, Maroc, Émirats : salaire, coût de la vie, fiscalité, admin par pays + quiz retour.",
   alternates: { canonical: "/expat-retour" },

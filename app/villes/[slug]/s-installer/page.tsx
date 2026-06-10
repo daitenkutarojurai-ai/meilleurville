@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   const housing = getHousing(slug);
   return {
-    title: `S'installer à ${city.name} — logement, démarches, internet 2026 | MaVilleIdeal`,
+    title: `S'installer à ${city.name} — logement, démarches, internet 2026`,
     description: `Guide pratique pour s'installer à ${city.name} : loyers (T2 ${housing ? `${housing.avgRentT2} €/mois` : "estimés"}), tension locative, fibre, fiscalité, démarches administratives.`,
     alternates: { canonical: `/villes/${slug}/s-installer` },
     openGraph: {

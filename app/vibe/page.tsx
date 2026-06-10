@@ -13,7 +13,7 @@ export const revalidate = false;
 export const dynamicParams = false;
 
 export const metadata: Metadata = {
-  title: "Ambiance des villes France — Vibe Map | MaVilleIdeal",
+  title: "Ambiance des villes France — Vibe Map",
   description:
     "Estimations éditoriales : quelle énergie se dégage de chaque ville française ? Calme, animé, festif, ressourcant, chargé — 352 villes classées par ambiance.",
   alternates: { canonical: "/vibe" },

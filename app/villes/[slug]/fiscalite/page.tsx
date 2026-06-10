@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   const f = fiscalityForCity({ department: city.department, region: city.region });
   return {
-    title: `Fiscalité immobilière à ${city.name} · Taxe foncière, THRS, DMTO 2026 | MaVilleIdeal`,
+    title: `Fiscalité immobilière à ${city.name} · Taxe foncière, THRS, DMTO 2026`,
     description: `Estimation départementale 2026 pour ${city.name} (${city.department}) : taxe foncière (${f.taxeFonciereT3}), THRS, droits de mutation. Données DGFiP.`,
     alternates: { canonical: `/villes/${slug}/fiscalite` },
     openGraph: {
