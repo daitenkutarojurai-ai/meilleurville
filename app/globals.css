@@ -9,10 +9,10 @@
 
   --text-primary: #1C2833;       /* dark charcoal, neutral near-black */
   --text-secondary: #5D6D7E;     /* medium gray */
-  --text-tertiary: #8C9BAB;      /* lighter gray for hints */
+  --text-tertiary: #64748B;      /* lighter gray for hints — 4.76:1 on white (AA) */
 
-  --accent: #0D9488;             /* teal — clearly distinct from score greens */
-  --accent-hover: #0F766E;       /* darker teal for button hover */
+  --accent: #0F766E;             /* teal — distinct from score greens; 5.47:1 on white (AA) */
+  --accent-hover: #115E59;       /* darker teal for button hover */
   --accent-soft: #F0FDFA;        /* pale teal for soft accent backgrounds */
   --accent-warm: #F59E0B;        /* sunny amber */
   --accent-pink: #EC4899;        /* pop pink for playful highlights */
@@ -54,7 +54,7 @@ body {
 }
 
 .font-display {
-  font-family: var(--font-display), 'Cormorant Garamond', 'Times New Roman', Georgia, serif;
+  font-family: var(--font-display), 'Times New Roman', Georgia, serif;
   font-feature-settings: "ss01", "liga";
   letter-spacing: -0.022em;
   font-style: italic;
@@ -147,7 +147,7 @@ body {
 /* Editorial drop cap — premium serif accent on the first letter only, so the
    paragraph body stays readable. */
 .drop-cap::first-letter {
-  font-family: var(--font-display), 'Cormorant Garamond', Georgia, serif;
+  font-family: var(--font-display), Georgia, serif;
   font-style: italic;
   font-weight: 400;
   font-size: 2.9em;

@@ -83,6 +83,8 @@ export function AlerteForm({ citySlug, cityName, locale = "fr" }: Props) {
     <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-canvas)] overflow-hidden">
       <button
         onClick={() => setOpen((v) => !v)}
+        aria-expanded={open}
+        aria-controls="alerte-form-panel"
         className="w-full flex items-center justify-between gap-3 px-4 py-3 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
       >
         <span className="font-medium">{L("🔔 Recevoir des alertes", "🔔 Get alerts")}</span>
@@ -94,7 +96,7 @@ export function AlerteForm({ citySlug, cityName, locale = "fr" }: Props) {
       </button>
 
       {open && (
-        <form onSubmit={handleSubmit} className="border-t border-[var(--border)] px-4 py-4 space-y-3">
+        <form id="alerte-form-panel" onSubmit={handleSubmit} className="border-t border-[var(--border)] px-4 py-4 space-y-3">
           <input
             type="email"
             required

@@ -389,6 +389,9 @@ export function Navbar() {
         {/* ── Desktop mega-menu dropdown ──────────────────────────── */}
         <div
           id="desktop-mega-menu"
+          // inert removes the ~24 hidden links from tab order + a11y tree;
+          // opacity/pointer-events alone leave them keyboard-focusable.
+          inert={!menuOpen || undefined}
           className={cn(
             "hidden lg:block absolute left-0 right-0 top-full border-b border-[var(--border)]/60 bg-[var(--bg-canvas)]/97 backdrop-blur-2xl shadow-[0_16px_48px_-8px_rgba(31,58,42,0.20)] transition-[opacity,transform] duration-200 origin-top",
             menuOpen
@@ -399,9 +402,10 @@ export function Navbar() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 py-6 grid grid-cols-4 gap-8">
             {MENU_GROUPS.map((group) => (
               <div key={group.title}>
-                <h4 className="mb-3 text-[10px] font-semibold uppercase tracking-wider text-[var(--accent)]">
+                {/* p, not h4 — nav group labels would otherwise precede the page h1 in the document outline */}
+                <p className="mb-3 text-[10px] font-semibold uppercase tracking-wider text-[var(--accent)]">
                   {group.title}
-                </h4>
+                </p>
                 <ul className="space-y-0.5">
                   {group.items.map(({ label, href, emoji }) => {
                     const active = isActivePath(href, pathname);
@@ -501,6 +505,8 @@ export function Navbar() {
       {/* ── Mobile slide-up drawer ────────────────────────────────── */}
       <div
         id="mobile-menu"
+        // inert: the closed drawer's ~20 links must not stay keyboard-focusable
+        inert={!open || undefined}
         className={cn(
           "lg:hidden fixed inset-x-0 bottom-0 z-[55] rounded-t-3xl border-t border-[var(--border)] bg-[var(--bg-surface)] transition-transform duration-300 ease-out",
           open ? "translate-y-0" : "translate-y-full pointer-events-none"

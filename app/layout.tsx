@@ -159,8 +159,6 @@ export default function RootLayout({
             value: "f7bf2ba0-104b-4a75-a147-95a72a993c0f",
           } as unknown as React.MetaHTMLAttributes<HTMLMetaElement>)}
         />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }} />
         {/* Consent Mode v2 default — denied until the user accepts. Plain inline
             script (not next/script) so it ships in the static HTML and runs

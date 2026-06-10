@@ -41,12 +41,14 @@ export function formatSunshineDays(value: number | null | undefined): string {
  * route through this function so a change here applies everywhere.
  */
 export const SCORE_TIERS = [
-  { min: 7.5, text: "text-purple-500", bar: "bg-purple-500", hex: "#A855F7", bg: "bg-purple-500/15 border-purple-500/40", label: "exceptionnel" },
-  { min: 7.0, text: "text-green-500",  bar: "bg-green-500",  hex: "#16A34A", bg: "bg-green-500/10 border-green-500/30",   label: "excellent" },
-  { min: 6.0, text: "text-lime-500",   bar: "bg-lime-500",   hex: "#84CC16", bg: "bg-lime-500/10 border-lime-500/30",     label: "bon" },
-  { min: 5.0, text: "text-amber-400",  bar: "bg-amber-400",  hex: "#F59E0B", bg: "bg-amber-400/10 border-amber-400/30",   label: "moyen" },
-  { min: 4.0, text: "text-orange-500", bar: "bg-orange-500", hex: "#F97316", bg: "bg-orange-500/10 border-orange-500/30", label: "en dessous" },
-  { min: -Infinity, text: "text-red-500", bar: "bg-red-500", hex: "#EF4444", bg: "bg-red-500/10 border-red-500/30",    label: "mauvais" },
+  // text = darker -600/-700 shades: the -400/-500 hues fail WCAG AA on white
+  // (amber-400 is 1.67:1). bar/hex/bg keep the brighter hues for fills & maps.
+  { min: 7.5, text: "text-purple-600", bar: "bg-purple-500", hex: "#A855F7", bg: "bg-purple-500/15 border-purple-500/40", label: "exceptionnel" },
+  { min: 7.0, text: "text-green-700",  bar: "bg-green-500",  hex: "#16A34A", bg: "bg-green-500/10 border-green-500/30",   label: "excellent" },
+  { min: 6.0, text: "text-lime-700",   bar: "bg-lime-500",   hex: "#84CC16", bg: "bg-lime-500/10 border-lime-500/30",     label: "bon" },
+  { min: 5.0, text: "text-amber-700",  bar: "bg-amber-400",  hex: "#F59E0B", bg: "bg-amber-400/10 border-amber-400/30",   label: "moyen" },
+  { min: 4.0, text: "text-orange-700", bar: "bg-orange-500", hex: "#F97316", bg: "bg-orange-500/10 border-orange-500/30", label: "en dessous" },
+  { min: -Infinity, text: "text-red-600", bar: "bg-red-500", hex: "#EF4444", bg: "bg-red-500/10 border-red-500/30",    label: "mauvais" },
 ] as const;
 
 function tierFor(score: number) {

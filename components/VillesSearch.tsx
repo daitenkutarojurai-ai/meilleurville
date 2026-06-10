@@ -207,7 +207,7 @@ export function VillesSearch() {
             className="flex-1 bg-transparent text-sm text-[var(--text-primary)] placeholder:text-[var(--text-secondary)] outline-none"
           />
           {query && (
-            <button onClick={() => setQuery("")} className="text-[var(--text-secondary)] hover:text-[var(--text-primary)]">
+            <button onClick={() => setQuery("")} aria-label="Effacer la recherche" className="text-[var(--text-secondary)] hover:text-[var(--text-primary)]">
               <X className="h-4 w-4" />
             </button>
           )}

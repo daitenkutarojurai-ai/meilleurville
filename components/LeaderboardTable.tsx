@@ -155,7 +155,7 @@ export function LeaderboardTable() {
                     {HOUSING[city.slug]?.avgRentT2 ? `${HOUSING[city.slug].avgRentT2}€` : "—"}
                   </td>
                   <td className="py-3 pl-2 pr-4">
-                    <Link href={`/villes/${city.slug}`} className="text-xs text-[var(--accent)] opacity-0 group-hover:opacity-100 transition-opacity font-medium">
+                    <Link href={`/villes/${city.slug}`} className="text-xs text-[var(--accent)] opacity-0 group-hover:opacity-100 focus-visible:opacity-100 max-lg:opacity-100 transition-opacity font-medium">
                       Voir →
                     </Link>
                   </td>

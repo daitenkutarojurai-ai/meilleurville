@@ -545,6 +545,8 @@ export function CarteClient() {
                         }}
                         onMouseEnter={() => setHover({ slug: d.slug, x: d.x, y: d.y })}
                         onMouseLeave={() => setHover(null)}
+                        onFocus={() => setHover({ slug: d.slug, x: d.x, y: d.y })}
+                        onBlur={() => setHover(null)}
                       >
                         {/* Ground shadow */}
                         <ellipse cx={d.x} cy={d.y + 2} rx={barW * 0.75} ry={barW * 0.28} fill="#000" opacity="0.35" />
@@ -597,6 +599,8 @@ export function CarteClient() {
                       }}
                       onMouseEnter={() => setHover({ slug: d.slug, x: d.x, y: d.y })}
                       onMouseLeave={() => setHover(null)}
+                      onFocus={() => setHover({ slug: d.slug, x: d.x, y: d.y })}
+                      onBlur={() => setHover(null)}
                     >
                       <circle cx={d.x} cy={d.y} r={d.r * 2.6} fill={d.color} opacity="0.18" filter="url(#cDotGlow)" />
                       <circle cx={d.x} cy={d.y} r={d.r * 1.6} fill={d.color} opacity="0.35" />
