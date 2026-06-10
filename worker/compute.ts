@@ -11,6 +11,7 @@ import { fiscalityForCity } from "@/lib/fiscalite";
 import { getNeighborhoods } from "@/data/neighborhoods";
 import { scoreHex } from "@/lib/utils";
 import { reserveAiBudget } from "@/lib/ai-budget";
+import { isCoastal } from "@/lib/city-match";
 import type { QuizAnswers, MatchResult, City } from "@/lib/types";
 
 type Env = { ANTHROPIC_API_KEY?: string; [k: string]: unknown };
@@ -39,7 +40,13 @@ function matchScore(answers: QuizAnswers, city: (typeof CITIES_SEED)[number]): {
   let weighted = 0;
 
   if (answers.environment === "montagne" || answers.environment === "campagne") weights.nature = 2.5;
-  else if (answers.environment === "mer") weights.nature = 2.0;
+  else if (answers.environment === "mer") {
+    // A "Mer" answer must actually favour the coast — a nature weight alone
+    // ranked inland Annecy first. Mirrors city-match's isCoastal heuristic.
+    weights.nature = 2.0;
+    weighted += (isCoastal(city) ? 9.5 : 3) * 2.0;
+    total += 10 * 2.0;
+  }
   else if (answers.environment === "ville") { weights.culture = 2.0; weights.transport = 1.5; }
   else { weights.nature = 1.5; weights.cost = 1.5; }
 

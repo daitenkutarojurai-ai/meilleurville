@@ -111,8 +111,9 @@ export interface CityMatchResult {
 }
 
 const TERRAIN_TAGS = {
-  sea: ["port", "mer", "littoral", "côte", "balnéaire", "atlantique", "méditerranée", "manche"],
-  mountain: ["montagne", "alpin", "pyrénées", "ski", "altitude"],
+  // océan/caraïbes/lagon cover the DROM coastal tags (océan Indien, Caraïbes…)
+  sea: ["port", "mer", "littoral", "côte", "balnéaire", "atlantique", "méditerranée", "manche", "océan", "caraïbes", "lagon"],
+  mountain: ["montagne", "alpin", "pyrénées", "ski", "altitude", "cirque"],
 };
 
 function hasTag(city: CitySeed, words: string[]): boolean {
@@ -120,16 +121,12 @@ function hasTag(city: CitySeed, words: string[]): boolean {
   return tags.some((t) => words.some((w) => t.includes(w)));
 }
 
-function isCoastal(city: CitySeed): boolean {
+export function isCoastal(city: CitySeed): boolean {
   return hasTag(city, TERRAIN_TAGS.sea) || (city.elevation ?? 999) <= 15;
 }
 
 function isMountain(city: CitySeed): boolean {
   return hasTag(city, TERRAIN_TAGS.mountain) || (city.elevation ?? 0) >= 500;
-}
-
-function metroBbox(c: CitySeed): boolean {
-  return c.longitude >= -6 && c.longitude <= 10 && c.latitude >= 40 && c.latitude <= 52;
 }
 
 function getAnswer(answers: CityMatchAnswer[], id: CityMatchAnswer["id"]): string | undefined {
@@ -146,8 +143,10 @@ export function computeMatches(answers: CityMatchAnswer[]): CityMatchResult[] {
   const safety = getAnswer(answers, "safety");
   const terrain = getAnswer(answers, "terrain");
 
+  // All 540 cities are eligible, DROM included — they legitimately win
+  // warm/sea profiles. The result card shows the region, so an overseas
+  // match is always explicit.
   const scored = CITIES_SEED
-    .filter(metroBbox)
     .map((c) => {
       const s = c.scores;
       let score = s.global;
@@ -181,18 +180,21 @@ export function computeMatches(answers: CityMatchAnswer[]): CityMatchResult[] {
       else if (size === "small" && pop < 30_000) { score += 1.0; reasons.push("village ou bourg"); }
       else { score -= 0.4; }
 
-      // Climate
+      // Climate. Hot season = max of the two readings: southern-hemisphere
+      // DROM (La Réunion) peaks in January, so a July-only check would
+      // undermatch the tropics on "warm" and mislabel them "mild".
       const july = c.avgTempJuly ?? 22;
       const jan = c.avgTempJanuary ?? 4;
       const sun = c.sunshinedays ?? 1800;
+      const hot = Math.max(july, jan);
       if (climate === "warm") {
-        if (july >= 24 && sun >= 2000) { score += 1.0; reasons.push(`été ${july}°C, ${Math.round(sun / 9.5)}j de soleil`); }
-        else if (july < 20) score -= 0.8;
+        if (hot >= 24 && sun >= 2000) { score += 1.0; reasons.push(`été ${hot}°C, ${Math.round(sun / 9.5)}j de soleil`); }
+        else if (hot < 20) score -= 0.8;
       } else if (climate === "cold") {
-        if (jan <= 3) { score += 0.8; reasons.push(`hiver ${jan}°C`); }
-        else if (jan >= 8) score -= 0.6;
+        if (Math.min(july, jan) <= 3) { score += 0.8; reasons.push(`hiver ${Math.min(july, jan)}°C`); }
+        else if (Math.min(july, jan) >= 8) score -= 0.6;
       } else if (climate === "mild") {
-        if (july >= 20 && july <= 23) { score += 0.6; reasons.push("climat équilibré"); }
+        if (hot >= 20 && hot <= 23) { score += 0.6; reasons.push("climat équilibré"); }
       }
 
       // Stage
