@@ -15,7 +15,12 @@ CREATE TABLE IF NOT EXISTS comments (
   created_at       TEXT NOT NULL,
   -- R9: nullable account binding. Anonymous comments leave this NULL; authed
   -- submissions stamp the user id so the dashboard can list a user's own posts.
-  user_id          TEXT
+  user_id          TEXT,
+  -- Moderation lever: only 'published' rows are served. No admin UI — takedowns
+  -- are manual:
+  --   wrangler d1 execute meilleurville --remote --command \
+  --     "UPDATE comments SET status='hidden' WHERE id='<id>'"
+  status           TEXT NOT NULL DEFAULT 'published'
 );
 CREATE INDEX IF NOT EXISTS idx_comments_topic_created
   ON comments (topic, created_at DESC);
@@ -137,3 +142,9 @@ CREATE TABLE IF NOT EXISTS rate_limits (
   expires_at INTEGER NOT NULL         -- epoch ms
 );
 CREATE INDEX IF NOT EXISTS idx_rate_limits_expiry ON rate_limits (expires_at);
+
+-- ─── Migrations for databases created before the columns above ──────────────
+-- The CREATE TABLE IF NOT EXISTS blocks don't alter existing tables. Run once
+-- against prod (errors about duplicate columns mean it's already applied):
+--   wrangler d1 execute meilleurville --remote --command \
+--     "ALTER TABLE comments ADD COLUMN status TEXT NOT NULL DEFAULT 'published'"

@@ -69,7 +69,7 @@ export async function addUserComment(input: {
   const createdAt = new Date().toISOString();
   await db
     .prepare(
-      "INSERT INTO comments (id, topic, author, body, rating, category_ratings, type, created_at, user_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
+      "INSERT INTO comments (id, topic, author, body, rating, category_ratings, type, created_at, user_id, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 'published')",
     )
     .bind(
       id,

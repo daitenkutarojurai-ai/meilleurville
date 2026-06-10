@@ -47,7 +47,7 @@ function rowToComment(r: Row): Comment {
 export async function listComments(topic: string, limit = 100): Promise<Comment[]> {
   const db = await getDB();
   const { results } = await db
-    .prepare("SELECT * FROM comments WHERE topic = ? ORDER BY created_at DESC LIMIT ?")
+    .prepare("SELECT * FROM comments WHERE topic = ? AND status = 'published' ORDER BY created_at DESC LIMIT ?")
     .bind(topic, limit)
     .all<Row>();
   return results.map(rowToComment);
@@ -56,7 +56,7 @@ export async function listComments(topic: string, limit = 100): Promise<Comment[
 export async function countComments(topic: string): Promise<number> {
   const db = await getDB();
   const row = await db
-    .prepare("SELECT COUNT(*) AS n FROM comments WHERE topic = ?")
+    .prepare("SELECT COUNT(*) AS n FROM comments WHERE topic = ? AND status = 'published'")
     .bind(topic)
     .first<{ n: number }>();
   return row?.n ?? 0;
@@ -68,7 +68,7 @@ export async function addComment(input: Omit<Comment, "id" | "createdAt">): Prom
   const createdAt = new Date().toISOString();
   await db
     .prepare(
-      "INSERT INTO comments (id, topic, author, body, rating, category_ratings, type, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+      "INSERT INTO comments (id, topic, author, body, rating, category_ratings, type, created_at, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'published')",
     )
     .bind(
       id,
