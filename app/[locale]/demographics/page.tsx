@@ -4,12 +4,8 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
-import {
-  topMostDynamic,
-  topMostAgeing,
-  DEMO_LEVEL_LABEL,
-  DEMO_LEVEL_COLOR,
-} from "@/lib/demography";
+import { DEMO_LEVEL_LABEL, DEMO_LEVEL_COLOR } from "@/lib/demography";
+import { topMostDynamic, topMostAgeing } from "@/lib/demography-rankings";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";

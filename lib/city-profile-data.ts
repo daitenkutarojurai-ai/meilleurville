@@ -10,6 +10,9 @@ import { getPoliticalLean } from "@/lib/political-lean";
 import type { PoliticalLean } from "@/lib/political-lean-meta";
 import { rentalTension, tensionInfo } from "@/lib/rental-tension";
 import { buildHonestReview, type HonestReviewBullet } from "@/lib/honest-reviews";
+import { nearestCities, type NearbyCity } from "@/lib/distances-rankings";
+import { buildRentVsBuy } from "@/lib/rent-vs-buy-rankings";
+import type { RentVsBuyData } from "@/lib/rent-vs-buy";
 
 export interface CityRankingPosition {
   slug: string;
@@ -51,6 +54,8 @@ export interface CityProfileData {
   lean: PoliticalLean | null;
   tension: { score: number } & ReturnType<typeof tensionInfo>;
   honestReview: HonestReviewLite;
+  geoNeighbors: NearbyCity[];
+  rentVsBuy: RentVsBuyData | null;
 }
 
 function cosineSimilarity(a: CitySeed["scores"], b: CitySeed["scores"]): number {
@@ -120,5 +125,7 @@ export function buildCityProfileData(city: CitySeed): CityProfileData {
     lean: getPoliticalLean(city.slug),
     tension: { score: tensionScore, ...tensionInfo(tensionScore) },
     honestReview,
+    geoNeighbors: nearestCities(city.slug, 6),
+    rentVsBuy: buildRentVsBuy(city.slug),
   };
 }

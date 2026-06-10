@@ -1,10 +1,13 @@
 import Link from "next/link";
 import { Home, ArrowRight } from "lucide-react";
 import { Card } from "@/components/ui/Card";
-import { buildRentVsBuy, VERDICT_META, type RentVsBuyVerdict } from "@/lib/rent-vs-buy";
+import { VERDICT_META, type RentVsBuyVerdict, type RentVsBuyData } from "@/lib/rent-vs-buy";
 
+// data precomputed server-side (lib/city-profile-data) — buildRentVsBuy reads
+// HOUSING + the full seed.
 interface Props {
   citySlug: string;
+  data: RentVsBuyData | null;
   locale?: "fr" | "en";
 }
 
@@ -26,9 +29,8 @@ const HEADLINE_EN: Record<RentVsBuyVerdict, string> = {
   "fortement-locataire": "Renting wins clearly",
 };
 
-export function RentVsBuyCard({ citySlug, locale = "fr" }: Props) {
+export function RentVsBuyCard({ citySlug, data, locale = "fr" }: Props) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
-  const data = buildRentVsBuy(citySlug);
   if (!data) return null;
   const verdict = VERDICT_META[data.verdict];
   const buyMonthly = data.monthlyMortgage + data.monthlyOwnerCharges;

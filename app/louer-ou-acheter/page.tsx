@@ -4,7 +4,8 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
-import { buildAllRentVsBuy, VERDICT_META } from "@/lib/rent-vs-buy";
+import { VERDICT_META } from "@/lib/rent-vs-buy";
+import { buildAllRentVsBuy } from "@/lib/rent-vs-buy-rankings";
 
 export const metadata: Metadata = {
   title: "Louer ou acheter en France 2026 · Ratio prix/loyer par ville",

@@ -9,7 +9,7 @@
 // Pure compute depuis CITIES_SEED.lat/long — aucune dépendance externe.
 // Tag explicite « Estimation SNCF + accès » pour l'UI.
 
-import { CITIES_SEED, type CitySeed } from "@/data/cities-seed";
+import type { CitySeed } from "@/data/cities-seed";
 import { haversineKm } from "@/lib/distances";
 
 export interface TgvStation {
@@ -179,8 +179,5 @@ export function parisCommute(city: CitySeed): ParisCommute {
   };
 }
 
-export function parisCommuteAll(): Array<{ city: CitySeed; commute: ParisCommute }> {
-  return CITIES_SEED.map((city) => ({ city, commute: parisCommute(city) })).filter(
-    (r) => r.commute.source !== "unavailable",
-  );
-}
+// parisCommuteAll moved to lib/paris-commute-rankings.ts (it maps the full
+// seed) so this module stays seed-free for client components.

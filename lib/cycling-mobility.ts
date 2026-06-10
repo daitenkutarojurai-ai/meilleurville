@@ -19,7 +19,6 @@
 // Composite = moyenne pondérée des 4 sous-scores.
 
 import type { CitySeed } from "@/data/cities-seed";
-import { CITIES_SEED } from "@/data/cities-seed";
 
 export type CyclingLevel = "excellent" | "bon" | "moyen" | "difficile";
 
@@ -351,50 +350,6 @@ export function computeCyclingMobility(city: CitySeed): CyclingMobility {
   };
   out.signature = composeSignature(out, city.name);
   return out;
-}
-
-// ─── Rankings (cache module-level) ────────────────────────────────────────
-
-export interface CyclingRanking {
-  slug: string;
-  name: string;
-  region: string;
-  department: string;
-  population: number;
-  cycling: CyclingMobility;
-}
-
-let CYCLING_RANKING_CACHE: CyclingRanking[] | null = null;
-
-export function getCyclingRankings(): CyclingRanking[] {
-  if (CYCLING_RANKING_CACHE) return CYCLING_RANKING_CACHE;
-  CYCLING_RANKING_CACHE = CITIES_SEED.map((c) => ({
-    slug: c.slug,
-    name: c.name,
-    region: c.region,
-    department: c.department,
-    population: c.population ?? 0,
-    cycling: computeCyclingMobility(c),
-  }));
-  return CYCLING_RANKING_CACHE;
-}
-
-/** Top villes cyclables = composite le plus haut (10 = excellent) */
-export function topCyclable(limit = 30, minPopulation = 0): CyclingRanking[] {
-  return getCyclingRankings()
-    .filter((r) => r.population >= minPopulation)
-    .slice()
-    .sort((a, b) => b.cycling.composite - a.cycling.composite)
-    .slice(0, limit);
-}
-
-/** Villes non-cyclables = composite le plus bas */
-export function topNonCyclable(limit = 20, minPopulation = 0): CyclingRanking[] {
-  return getCyclingRankings()
-    .filter((r) => r.population >= minPopulation)
-    .slice()
-    .sort((a, b) => a.cycling.composite - b.cycling.composite)
-    .slice(0, limit);
 }
 
 export const CYCLING_LEVEL_LABEL: Record<CyclingLevel, string> = {

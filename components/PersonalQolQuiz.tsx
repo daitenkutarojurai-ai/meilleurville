@@ -10,12 +10,8 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
-import {
-  personalQolRanking,
-  QOL_LEVEL_LABEL,
-  QOL_LEVEL_COLOR,
-  type QolWeights,
-} from "@/lib/quality-of-life-index";
+import { QOL_LEVEL_LABEL, QOL_LEVEL_COLOR } from "@/lib/quality-of-life-index";
+import { personalQolRanking, type QolWeights } from "@/lib/quality-of-life-index-rankings";
 
 const MIN_POP = 10_000;
 const LABELS = [

@@ -4,7 +4,8 @@ import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
-import { buildRentVsBuy, VERDICT_META, REF_SURFACE_M2, type RentVsBuyVerdict } from "@/lib/rent-vs-buy";
+import { VERDICT_META, REF_SURFACE_M2, type RentVsBuyVerdict } from "@/lib/rent-vs-buy";
+import { buildRentVsBuy } from "@/lib/rent-vs-buy-rankings";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;

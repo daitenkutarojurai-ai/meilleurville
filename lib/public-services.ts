@@ -23,7 +23,6 @@
 // démographie). Score faible = bon accès.
 
 import type { CitySeed } from "@/data/cities-seed";
-import { CITIES_SEED } from "@/data/cities-seed";
 
 export type ServicesLevel = "excellent" | "correct" | "tendu" | "desertique";
 
@@ -355,50 +354,6 @@ export function computePublicServices(city: CitySeed): PublicServices {
   };
   out.signature = composeSignature(out, city.name);
   return out;
-}
-
-// ─── Rankings ─────────────────────────────────────────────────────────────
-
-export interface PublicServicesRanking {
-  slug: string;
-  name: string;
-  region: string;
-  department: string;
-  population: number;
-  services: PublicServices;
-}
-
-let SERVICES_RANKING_CACHE: PublicServicesRanking[] | null = null;
-
-export function getPublicServicesRankings(): PublicServicesRanking[] {
-  if (SERVICES_RANKING_CACHE) return SERVICES_RANKING_CACHE;
-  SERVICES_RANKING_CACHE = CITIES_SEED.map((c) => ({
-    slug: c.slug,
-    name: c.name,
-    region: c.region,
-    department: c.department,
-    population: c.population ?? 0,
-    services: computePublicServices(c),
-  }));
-  return SERVICES_RANKING_CACHE;
-}
-
-/** Villes au meilleur accès = composite le plus bas. */
-export function topBestServices(limit = 30, minPopulation = 0): PublicServicesRanking[] {
-  return getPublicServicesRankings()
-    .filter((r) => r.population >= minPopulation)
-    .slice()
-    .sort((a, b) => a.services.composite - b.services.composite)
-    .slice(0, limit);
-}
-
-/** Villes les plus désertées = composite le plus élevé. */
-export function topServicesDesert(limit = 20, minPopulation = 0): PublicServicesRanking[] {
-  return getPublicServicesRankings()
-    .filter((r) => r.population >= minPopulation)
-    .slice()
-    .sort((a, b) => b.services.composite - a.services.composite)
-    .slice(0, limit);
 }
 
 export const SERVICES_LEVEL_LABEL: Record<ServicesLevel, string> = {

@@ -4,12 +4,8 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
-import {
-  topMostFavorable,
-  topMostDifficult,
-  JOB_LEVEL_LABEL,
-  JOB_LEVEL_COLOR,
-} from "@/lib/employment-market";
+import { JOB_LEVEL_LABEL, JOB_LEVEL_COLOR } from "@/lib/employment-market";
+import { topMostFavorable, topMostDifficult } from "@/lib/employment-market-rankings";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";

@@ -1,18 +1,20 @@
 import Link from "next/link";
 import { Compass, MapPin } from "lucide-react";
 import { Card } from "@/components/ui/Card";
-import { nearestCities, formatDistance } from "@/lib/distances";
+import { formatDistance } from "@/lib/distances";
+import type { NearbyCity } from "@/lib/distances-rankings";
 import { scoreColor, formatScore } from "@/lib/utils";
 
+// neighbors precomputed server-side (lib/city-profile-data) — nearestCities
+// traverses the full seed.
 interface Props {
-  citySlug: string;
   cityName: string;
+  neighbors: NearbyCity[];
   locale?: "fr" | "en";
 }
 
-export function GeographicNeighborsCard({ citySlug, cityName, locale = "fr" }: Props) {
+export function GeographicNeighborsCard({ cityName, neighbors, locale = "fr" }: Props) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
-  const neighbors = nearestCities(citySlug, 6);
   if (neighbors.length === 0) return null;
 
   return (

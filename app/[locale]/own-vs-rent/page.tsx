@@ -4,7 +4,8 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
-import { buildAllRentVsBuy, VERDICT_META, type RentVsBuyVerdict } from "@/lib/rent-vs-buy";
+import { VERDICT_META, type RentVsBuyVerdict } from "@/lib/rent-vs-buy";
+import { buildAllRentVsBuy } from "@/lib/rent-vs-buy-rankings";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 

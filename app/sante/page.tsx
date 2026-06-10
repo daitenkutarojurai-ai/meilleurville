@@ -4,12 +4,8 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
-import {
-  topBestAccess,
-  topDeserts,
-  HEALTH_LEVEL_LABEL,
-  HEALTH_LEVEL_COLOR,
-} from "@/lib/healthcare-access";
+import { HEALTH_LEVEL_LABEL, HEALTH_LEVEL_COLOR } from "@/lib/healthcare-access";
+import { topBestAccess, topDeserts } from "@/lib/healthcare-access-rankings";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";

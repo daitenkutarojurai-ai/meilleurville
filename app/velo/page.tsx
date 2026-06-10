@@ -4,12 +4,8 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
-import {
-  topCyclable,
-  topNonCyclable,
-  CYCLING_LEVEL_LABEL,
-  CYCLING_LEVEL_COLOR,
-} from "@/lib/cycling-mobility";
+import { CYCLING_LEVEL_LABEL, CYCLING_LEVEL_COLOR } from "@/lib/cycling-mobility";
+import { topCyclable, topNonCyclable } from "@/lib/cycling-mobility-rankings";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";

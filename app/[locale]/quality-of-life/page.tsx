@@ -4,11 +4,8 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
-import {
-  topBestQol,
-  topWorstQol,
-  QOL_LEVEL_COLOR,
-} from "@/lib/quality-of-life-index";
+import { QOL_LEVEL_COLOR } from "@/lib/quality-of-life-index";
+import { topBestQol, topWorstQol } from "@/lib/quality-of-life-index-rankings";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";

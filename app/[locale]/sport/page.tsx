@@ -4,11 +4,8 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
-import {
-  topSportFriendly,
-  bottomSportFriendly,
-  SPORT_LEVEL_COLOR,
-} from "@/lib/sport-leisure";
+import { SPORT_LEVEL_COLOR } from "@/lib/sport-leisure";
+import { topSportFriendly, bottomSportFriendly } from "@/lib/sport-leisure-rankings";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";

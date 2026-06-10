@@ -14,19 +14,17 @@
 //
 // Tout dérivé de HOUSING (avgRentT3, avgBuyPriceM2). Zéro dépendance externe.
 
-import { HOUSING } from "@/data/housing";
-import { CITIES_SEED } from "@/data/cities-seed";
-
 // Surface de référence T3 ~ 65 m² (médiane Insee T3 France 2023).
 export const REF_SURFACE_M2 = 65;
 
 // Hypothèses prêt immobilier (cohérent avec F23 simulateur-achat).
 // Mises à jour janvier 2026 d'après les barèmes des principales banques FR.
-const APPORT_RATIO = 0.10; // 10 % du prix
-const DUREE_ANS = 25;
-const TAUX_ANNUEL = 0.034; // 3,4 % HT TAEG indicatif jan 2026
-const NOTAIRE_ANCIEN = 0.075; // 7,5 % frais notaire ancien
-const CHARGES_PROPRIO_PCT = 0.012; // 1,2 % du prix / an (taxe foncière + entretien + assurance PNO)
+// Exported so the seed-bound builder (rent-vs-buy-rankings) can reuse them.
+export const APPORT_RATIO = 0.10; // 10 % du prix
+export const DUREE_ANS = 25;
+export const TAUX_ANNUEL = 0.034; // 3,4 % HT TAEG indicatif jan 2026
+export const NOTAIRE_ANCIEN = 0.075; // 7,5 % frais notaire ancien
+export const CHARGES_PROPRIO_PCT = 0.012; // 1,2 % du prix / an (taxe foncière + entretien + assurance PNO)
 
 export type RentVsBuyVerdict =
   | "fortement-acheteur"
@@ -52,14 +50,14 @@ export interface RentVsBuyData {
 }
 
 // Mensualité d'un prêt amortissable classique
-function mensualite(capital: number, tauxAnnuel: number, dureeAns: number): number {
+export function mensualite(capital: number, tauxAnnuel: number, dureeAns: number): number {
   const n = dureeAns * 12;
   const i = tauxAnnuel / 12;
   if (i === 0) return capital / n;
   return (capital * i) / (1 - Math.pow(1 + i, -n));
 }
 
-function verdictFor(ratio: number): RentVsBuyVerdict {
+export function verdictFor(ratio: number): RentVsBuyVerdict {
   if (ratio < 13) return "fortement-acheteur";
   if (ratio < 18) return "acheteur";
   if (ratio < 24) return "equilibre";
@@ -67,46 +65,9 @@ function verdictFor(ratio: number): RentVsBuyVerdict {
   return "fortement-locataire";
 }
 
-export function buildRentVsBuy(citySlug: string): RentVsBuyData | null {
-  const h = HOUSING[citySlug];
-  if (!h?.avgRentT3 || !h?.avgBuyPriceM2) return null;
-  const city = CITIES_SEED.find((c) => c.slug === citySlug);
-  if (!city) return null;
-
-  const priceT3 = Math.round(h.avgBuyPriceM2 * REF_SURFACE_M2);
-  const rentT3Annual = h.avgRentT3 * 12;
-  const rentToPriceRatio = priceT3 / rentT3Annual;
-
-  const apport = Math.round(priceT3 * APPORT_RATIO);
-  const notaryFees = Math.round(priceT3 * NOTAIRE_ANCIEN);
-  const totalCashIn = apport + notaryFees;
-  const empruntee = priceT3 - apport;
-  const monthlyMortgage = Math.round(mensualite(empruntee, TAUX_ANNUEL, DUREE_ANS));
-  const monthlyOwnerCharges = Math.round((priceT3 * CHARGES_PROPRIO_PCT) / 12);
-  const monthlySavingsVsRent = h.avgRentT3 - monthlyMortgage - monthlyOwnerCharges;
-
-  // Payback : combien d'années pour récupérer apport + notaire via l'économie de loyer.
-  // Si l'économie est négative (acheter coûte plus cher que louer mensuellement),
-  // le payback n'a pas de sens — on renvoie null.
-  const annualSavings = monthlySavingsVsRent * 12;
-  const paybackYears = annualSavings > 0 ? Math.round((totalCashIn / annualSavings) * 10) / 10 : null;
-
-  return {
-    citySlug: city.slug,
-    cityName: city.name,
-    rentT3Annual,
-    priceT3,
-    rentToPriceRatio: Math.round(rentToPriceRatio * 10) / 10,
-    verdict: verdictFor(rentToPriceRatio),
-    monthlyMortgage,
-    monthlyOwnerCharges,
-    monthlySavingsVsRent,
-    notaryFees,
-    apport,
-    totalCashIn,
-    paybackYears,
-  };
-}
+// buildRentVsBuy + buildAllRentVsBuy moved to lib/rent-vs-buy-rankings.ts
+// (they read HOUSING + the full seed). The constants/helpers/VERDICT_META here
+// stay seed-free so client cards can import them.
 
 export const VERDICT_META: Record<RentVsBuyVerdict, { label: string; tone: string; advice: string }> = {
   "fortement-acheteur": {
@@ -136,6 +97,3 @@ export const VERDICT_META: Record<RentVsBuyVerdict, { label: string; tone: strin
   },
 };
 
-export function buildAllRentVsBuy(): RentVsBuyData[] {
-  return CITIES_SEED.map((c) => buildRentVsBuy(c.slug)).filter((x): x is RentVsBuyData => x !== null);
-}

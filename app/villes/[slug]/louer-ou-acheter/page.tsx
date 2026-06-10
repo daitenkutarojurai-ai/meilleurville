@@ -7,7 +7,8 @@ import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
-import { buildRentVsBuy, VERDICT_META, REF_SURFACE_M2 } from "@/lib/rent-vs-buy";
+import { VERDICT_META, REF_SURFACE_M2 } from "@/lib/rent-vs-buy";
+import { buildRentVsBuy } from "@/lib/rent-vs-buy-rankings";
 import { housingTensionFor } from "@/lib/housing-tension";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 

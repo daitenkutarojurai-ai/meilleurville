@@ -633,7 +633,7 @@ export function CityProfile({ city, data, locale = "fr" }: { city: CitySeed & { 
 
               <SectionRule emoji="🏡" label={L("Logement, coût & emploi", "Housing, cost & jobs")} />
               <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-                <RentVsBuyCard citySlug={city.slug} locale={locale} />
+                <RentVsBuyCard citySlug={city.slug} data={data.rentVsBuy} locale={locale} />
                 <EmploymentCard city={city} locale={locale} />
               </div>
 
@@ -651,7 +651,7 @@ export function CityProfile({ city, data, locale = "fr" }: { city: CitySeed & { 
               <SectionRule emoji="🧭" label={L("Repères & classements", "Benchmarks & rankings")} />
               <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
                 <DistancesCard city={city} locale={locale} />
-                <GeographicNeighborsCard citySlug={city.slug} cityName={city.name} locale={locale} />
+                <GeographicNeighborsCard cityName={city.name} neighbors={data.geoNeighbors} locale={locale} />
                 <Card>
                   <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-3 flex items-center gap-2">
                     <TrendingUp className="h-4 w-4 text-[var(--text-secondary)]" />
