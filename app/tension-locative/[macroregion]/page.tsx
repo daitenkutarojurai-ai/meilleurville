@@ -5,12 +5,8 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
-import {
-  MACRO_REGIONS,
-  MACRO_REGION_SLUGS,
-  getMacroRegion,
-  citiesInMacroRegion,
-} from "@/lib/macro-regions";
+import { MACRO_REGIONS, MACRO_REGION_SLUGS, getMacroRegion } from "@/lib/macro-regions";
+import { citiesInMacroRegion } from "@/lib/macro-regions-rankings";
 import { rentalTension, tensionInfo } from "@/lib/rental-tension";
 import { HOUSING } from "@/data/housing";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";

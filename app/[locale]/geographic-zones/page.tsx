@@ -5,7 +5,8 @@ import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
-import { MACRO_REGIONS, citiesInMacroRegion } from "@/lib/macro-regions";
+import { MACRO_REGIONS } from "@/lib/macro-regions";
+import { citiesInMacroRegion } from "@/lib/macro-regions-rankings";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 
