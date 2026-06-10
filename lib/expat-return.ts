@@ -23,7 +23,8 @@ export type ExpatCountry =
   | "portugal"
   | "pays-bas"
   | "italie"
-  | "maroc";
+  | "maroc"
+  | "emirats-arabes-unis";
 
 export interface ExpatCountryProfile {
   slug: ExpatCountry;
@@ -434,6 +435,46 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
       "Pension marocaine (CNSS, CIMR, CMR) : les trimestres cotisés sont totalisés avec ceux de l'Assurance retraite française grâce à la convention de sécurité sociale FR-MA. Conservez tous vos relevés de carrière CNSS et bulletins de paie marocains, ils seront demandés à 62-67 ans.",
       "Scolarité AEFE : si vos enfants étaient au lycée Lyautey, Descartes ou dans le réseau AEFE marocain, le retour vers le système public ou privé français se fait sans démarche d'équivalence (mêmes programmes, mêmes bulletins). Inscription en mairie suffit pour le primaire et le collège.",
       "Climat : le contraste hivernal peut être rude pour qui rentre de Marrakech ou d'Agadir. Privilégier Marseille, Montpellier, Toulouse, Perpignan ou Nice plutôt qu'une métropole du Nord ou de l'Est pour adoucir la transition, surtout la première année.",
+    ],
+  },
+  {
+    slug: "emirats-arabes-unis",
+    name: "Émirats arabes unis",
+    flag: "🇦🇪",
+    depuisLabel: "les",
+    auLabel: "Aux",
+    currency: "AED",
+    currencyToEurApprox: 0.25, // 1 AED ≈ 0,25 € (le dirham est arrimé au dollar à 3,6725 AED pour 1 USD ; janv. 2026 estimé)
+    netConversionFactor: 0.22, // 100 AED nets correspondent à environ 22 € de pouvoir d'achat en France hors Paris : Dubaï/Abu Dhabi cumulent zéro impôt sur le revenu mais un coût du logement et de l'école très élevés
+    bestSuitedCities: ["paris", "nice", "cannes", "antibes", "menton", "aix-en-provence", "marseille", "lyon", "montpellier"],
+    intro:
+      "Le retour des Émirats cumule trois chocs simultanés : un choc de change (le dirham est arrimé au dollar, partiellement convertible, et les transferts vers l'Europe passent par des banques locales aux frais et délais variables), un choc fiscal majeur (on quitte un revenu salarié sans impôt sur le revenu pour retrouver le barème français à plusieurs étages), et un choc de pouvoir d'achat (Dubaï et Abu Dhabi affichent des loyers premium, mais l'écart de salaire net joue très fortement à leur avantage). Côté fiscal, la convention bilatérale FR-EAU de 1989 évite la double imposition, mais la résidence fiscale française récupère mécaniquement les revenus mondiaux dès le jour J. Côté ancrage géographique, la Côte d'Azur (Nice, Cannes, Antibes, Menton) reste l'option naturelle pour qui cherche la continuité climatique et l'écosystème international ; Paris pour les profils corporate / finance qui gardent un employeur émirien en télétravail ou bascule vers un bureau parisien ; Aix-en-Provence, Marseille, Lyon et Montpellier offrent des compromis entre climat, art de vivre et infrastructures internationales.",
+    hadVsWillHave: [
+      { topic: "Salaire net", had: "20 000-45 000 AED net cadre (Dubaï / Abu Dhabi, secteur tech, finance, conseil)", willHave: "Équivalent ~3 500-5 500 € net en France après charges (cadre métropole, fiscalité comprise)" },
+      { topic: "Loyer T3", had: "12 000-22 000 AED (Marina, Downtown Dubaï, Abu Dhabi Corniche)", willHave: "850-1 600 € (Nice, Lyon, Aix-en-Provence, Marseille), 1 800-2 800 € (Paris)" },
+      { topic: "Santé", had: "Assurance privée employeur (Daman, Cigna, Bupa) 700-2 500 AED/mois + co-paiements", willHave: "Sécu + mutuelle 80-200 €/mois, accès médecin de famille et hôpital public sans condition d'emploi" },
+      { topic: "Fiscalité revenu", had: "0 % sur le salaire ; 9 % sur le bénéfice d'entreprise au-delà de 375 000 AED depuis juin 2023 ; pas de CSG/RDS", willHave: "~25-40 % effectif (TMI + CSG 9,7 % + prélèvements sociaux selon le profil)" },
+      { topic: "Garde d'enfants", had: "Nursery privée 2 000-5 000 AED/mois ; école internationale (GEMS, Nord Anglia, Lycée Français) 40 000-120 000 AED/an", willHave: "Crèche FR 150-400 €/mois après CAF/CMG, maternelle publique gratuite dès 3 ans, école internationale ~6 000-18 000 €/an si maintien" },
+      { topic: "Voiture", had: "Essence ~0,75 €/L équivalent, autoroutes Salik à péage électronique, climatisation à plein régime 6 mois/an", willHave: "Carburant 1,65-1,95 €/L, péages autoroutiers fréquents, climatisation rarement nécessaire" },
+      { topic: "Personnel de maison", had: "Femme de ménage 1 800-3 500 AED/mois temps plein ou nounou Live-in 2 500-4 500 AED courantes", willHave: "Coût équivalent multiplié par 3-5 en France, rarement temps plein hors familles à très haut revenu" },
+      { topic: "TVA & courses", had: "VAT 5 % sur la plupart des biens, alcool taxé à 30 % en sus, alimentation importée souvent chère", willHave: "TVA 20 % standard / 5,5 % alimentaire, panier moyen plus dense en frais et produits locaux abordables" },
+    ],
+    adminPriorities: [
+      { step: "Déclarer le retour au consulat & radier", detail: "Avant le départ : se radier du registre des Français établis hors de France auprès du consulat (Abu Dhabi ou Dubaï) et conserver l'attestation de radiation, utile pour la CAF, la CPAM et les démarches scolaires.", officialUrl: "https://www.service-public.gouv.fr/particuliers/vosdroits/R43251" },
+      { step: "Annulation du visa de résidence & cancellation des comptes", detail: "Demander à l'employeur ou au sponsor l'annulation officielle du visa de résidence émirien et de l'Emirates ID, sinon les services bancaires et téléphoniques restent associés et facturés. La cancellation bancaire peut prendre 4 à 8 semaines : anticiper la clôture des comptes en parallèle de la dernière paie." },
+      { step: "Transfert des avoirs & gratuity", detail: "Le dirham est partiellement convertible. Récupérer le gratuity (indemnité de fin de contrat, environ 21 jours de salaire par année d'ancienneté sur les 5 premières années, 30 jours au-delà) avant l'annulation du visa. Privilégier les services de transfert spécialisés (Wise, Lulu Exchange, Al Ansari) plutôt que les virements bancaires classiques pour limiter les frais et les délais." },
+      { step: "Sécurité sociale", detail: "Pas de formulaire S1 (les Émirats ne sont pas dans l'UE et il n'existe pas de convention bilatérale de sécurité sociale FR-EAU) : ouvrir un dossier CPAM dès l'arrivée avec un justificatif de résidence et la fin de couverture de l'assureur privé émirien. Prévoir une assurance privée temporaire pour combler le délai d'instruction (3-6 semaines).", officialUrl: "https://www.service-public.gouv.fr/particuliers/vosdroits/F32824" },
+      { step: "Fiscalité revenu", detail: "Convention fiscale FR-EAU (1989) : résidence fiscale française à compter du jour J. Déclaration fractionnée l'année du retour côté français + clôture du dossier corporate tax si vous étiez indépendant ou actionnaire d'une free-zone company (DMCC, ADGM, DIFC). Pour les binationaux ayant conservé une activité ou un bien locatif aux EAU, les revenus restent imposables selon la convention avec crédit d'impôt français." },
+      { step: "Permis de conduire", detail: "Le permis émirien (UAE driving licence) est échangeable contre un permis français dans les 12 mois suivant le retour grâce à l'accord de réciprocité FR-EAU. Au-delà, il faut repasser le code et la conduite. Démarche en ligne via l'ANTS, sur présentation du titre émirien et de la traduction assermentée en français." },
+    ],
+    warnings: [
+      "Pas de convention de sécurité sociale FR-EAU : aucune totalisation entre les périodes cotisées à la pension émirienne (réservée aux nationaux) et l'Assurance retraite française. Si vous étiez affilié à la Caisse des Français de l'étranger (CFE) pendant votre séjour, c'est la CFE qui permettra de valider les trimestres retraite — conservez tous vos avis de cotisation CFE.",
+      "Corporate tax 9 % depuis juin 2023 : si vous étiez actionnaire ou freelance sous licence free-zone (DMCC, IFZA, DIFC), l'impôt sur les sociétés a été introduit au-delà de 375 000 AED de bénéfice annuel. Anticiper la sortie avec un fiscaliste franco-émirien pour les sociétés actives, surtout si vous gardez la structure après le retour (rétention possible pour activité hors France, mais déclaration à l'IFU obligatoire).",
+      "Gratuity et indemnité de fin de service : ne signez jamais l'annulation du visa avant d'avoir reçu le solde du gratuity sur votre compte. Une fois le visa annulé, vous n'avez plus de moyen de pression légale efficace côté EAU. En cas de litige, le tribunal du travail (DIFC ou onshore) prend 3 à 9 mois.",
+      "Citoyens binationaux ou double résidence : la fiscalité française récupère les revenus mondiaux à compter du jour J, y compris les dividendes ou loyers émiriens. Pour les retours partiels (foyer fiscal en France, activité maintenue à Dubaï), la qualification de résidence fiscale est complexe — un avis fiscal franco-émirien est indispensable.",
+      "Scolarité française à l'étranger : si vos enfants étaient au Lycée Français International de Dubaï (LFID), au Lycée Louis Massignon (Abu Dhabi) ou au Lycée Théodore Monod (réseau AEFE), le retour vers le système public ou privé français se fait sans démarche d'équivalence (mêmes programmes, mêmes bulletins). Inscription en mairie suffit pour le primaire, le collège et le lycée.",
+      "Climat : le contraste hivernal peut être rude pour qui rentre de Dubaï ou d'Abu Dhabi (été à 45 °C, hivers doux à 20-25 °C). Privilégier Nice, Cannes, Antibes, Menton, Marseille, Aix-en-Provence ou Montpellier plutôt qu'une métropole du Nord ou de l'Est pour adoucir la transition, surtout la première année.",
+      "Logement français en zone tendue : si vous ciblez Paris, Nice ou Lyon, anticipez 2-3 mois pour décrocher un T3 avec dossier d'expat (employeur émirien sortant, pas de fiches de paie FR récentes). Prévoir un garant Visale ou un employeur français déjà signé avant l'arrivée, et conserver vos relevés bancaires émiriens pour justifier le revenu d'épargne.",
     ],
   },
 ];
