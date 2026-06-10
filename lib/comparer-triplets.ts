@@ -15,7 +15,6 @@ export const SEO_TRIPLETS: ReadonlyArray<readonly [string, string, string]> = [
   // Top-tier metropolises
   ["lyon", "marseille", "toulouse"],
   ["bordeaux", "nantes", "rennes"],
-  ["nantes", "rennes", "bordeaux"],
   ["lyon", "bordeaux", "toulouse"],
   ["montpellier", "nice", "marseille"],
   ["lille", "strasbourg", "lyon"],
