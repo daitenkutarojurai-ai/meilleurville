@@ -6,6 +6,7 @@ import { CallbackClient } from "@/app/auth/callback/CallbackClient";
 
 export const metadata: Metadata = {
   title: "Signing you in… · BestCitiesInFrance",
+  alternates: { canonical: "/auth/callback" },
   robots: { index: false, follow: false },
 };
 

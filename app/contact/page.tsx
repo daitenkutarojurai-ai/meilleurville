@@ -8,7 +8,7 @@ import { CommentSection } from "@/components/CommentSection";
 import { ContactForm } from "./ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact · MaVilleIdeal",
+  title: "Contact",
   description:
     "Contactez l'équipe MaVilleIdeal : signaler une erreur, proposer une ville, partenariat presse ou data.",
   alternates: { canonical: "/contact" },

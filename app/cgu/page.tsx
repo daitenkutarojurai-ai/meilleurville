@@ -4,7 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Conditions Générales d'Utilisation · MaVilleIdeal",
+  title: "Conditions Générales d'Utilisation",
   description: "CGU de MaVilleIdeal : règles d'utilisation du service, avis, abonnements, propriété intellectuelle.",
   alternates: { canonical: "/cgu" },
 };

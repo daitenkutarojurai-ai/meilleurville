@@ -5,7 +5,8 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { CallbackClient } from "./CallbackClient";
 
 export const metadata: Metadata = {
-  title: "Connexion en cours… · MaVilleIdéale",
+  title: "Connexion en cours…",
+  alternates: { canonical: "/auth/callback" },
   robots: { index: false, follow: false },
 };
 

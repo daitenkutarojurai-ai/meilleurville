@@ -20,40 +20,12 @@ import { SectionNav } from "@/components/SectionNav";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { scoreColor } from "@/lib/utils";
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
-
-const websiteJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  name: "MaVilleIdeal",
-  url: BASE_URL,
-  description: "La référence pour choisir où vivre en France : classements, avis d'habitants, quiz de matching, données locales.",
-  potentialAction: {
-    "@type": "SearchAction",
-    target: {
-      "@type": "EntryPoint",
-      urlTemplate: `${BASE_URL}/recherche?q={search_term_string}`,
-    },
-    "query-input": "required name=search_term_string",
-  },
-};
-
-const organizationJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  name: "MaVilleIdeal",
-  url: BASE_URL,
-  logo: `${BASE_URL}/icon.png`,
-  sameAs: [],
-  description: "Plateforme de comparaison et classement des villes françaises par qualité de vie.",
-};
-
 export default function HomePage() {
   return (
     <main id="main-content" className="min-h-screen relative">
+      {/* WebSite/Organization JSON-LD comes from the root layout's @id-anchored
+          graph — duplicating it here made Google see two WebSite nodes. */}
       <AmbientBackground />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }} />
       <Navbar />
       <HeroSection />
       <SectionNav />

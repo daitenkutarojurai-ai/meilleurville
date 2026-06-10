@@ -18,7 +18,9 @@ export function breadcrumbJsonLd(
 
 export function jsonLdScript(obj: unknown) {
   return {
-    __html: JSON.stringify(obj),
+    // <-escape so a "</script>" inside any data string can't break out
+    // of the inline script block.
+    __html: JSON.stringify(obj).replace(/</g, "\\u003c"),
   };
 }
 

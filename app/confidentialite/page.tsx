@@ -4,7 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Politique de confidentialité · MaVilleIdeal",
+  title: "Politique de confidentialité",
   description:
     "Données collectées, cookies, liens d'affiliation, droits RGPD : politique de confidentialité de MaVilleIdeal.",
   alternates: { canonical: "/confidentialite" },

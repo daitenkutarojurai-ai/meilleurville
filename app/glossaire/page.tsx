@@ -6,7 +6,7 @@ import { StaticPageCrossLink } from "@/components/StaticPageCrossLink";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Glossaire immobilier, fiscalité & aides · MaVilleIdeal",
+  title: "Glossaire immobilier, fiscalité & aides",
   description:
     "DPE, LMNP, TAEG, ZFE, APL, état des lieux, préavis, dépôt de garantie : les termes utiles pour louer, acheter ou déménager en France en 2026.",
   alternates: { canonical: "/glossaire" },
@@ -320,7 +320,7 @@ export default function GlossairePage() {
   const definedTermsJsonLd = {
     "@context": "https://schema.org",
     "@type": "DefinedTermSet",
-    name: "Glossaire immobilier et relocation · MaVilleIdeal",
+    name: "Glossaire immobilier et relocation",
     description:
       "Termes clés pour acheter, louer, investir ou déménager en France : DPE, LMNP, ZFE, taxe foncière, fibre FTTH, encadrement loyers et plus.",
     hasDefinedTerm: SECTIONS.flatMap((s) =>

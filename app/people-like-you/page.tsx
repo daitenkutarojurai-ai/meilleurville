@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "Choisissez votre profil de vie (famille, freelance, retraité·e, jeune actif…) et votre ville actuelle : on calcule les destinations où des gens comme vous s'épanouissent davantage.",
   alternates: { canonical: "/people-like-you" },
   openGraph: {
-    title: "People like you · MaVilleIdeal",
+    title: "People like you",
     description: "Persona × ville d'origine → top destinations.",
   },
 };

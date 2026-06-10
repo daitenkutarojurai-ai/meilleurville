@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description: "5 questions, 3 destinations françaises adaptées : mois, activité, profil voyageur, budget, durée. Sélection data-driven, sans listicle d'agence.",
   alternates: { canonical: "/vacances/quiz" },
   openGraph: {
-    title: "Quiz vacances · MaVilleIdeal",
+    title: "Quiz vacances",
     description: "Le bon mois, le bon endroit, le bon budget. 5 questions pour décider.",
   },
 };

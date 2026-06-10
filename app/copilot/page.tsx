@@ -5,7 +5,7 @@ import { CopilotClient } from "./CopilotClient";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
-  title: "Copilote Déménagement IA · MaVilleIdeal",
+  title: "Copilote Déménagement IA",
   description:
     "Posez vos questions à notre assistant IA : il connaît les 352 villes françaises, leurs loyers, scores de qualité de vie, fiscalité et transports. Recommandations personnalisées en quelques secondes.",
   alternates: { canonical: "/copilot" },

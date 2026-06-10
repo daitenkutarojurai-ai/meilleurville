@@ -7,7 +7,7 @@ import { Card } from "@/components/ui/Card";
 import { CITIES_SEED } from "@/data/cities-seed";
 
 export const metadata: Metadata = {
-  title: "Données & Sources · MaVilleIdeal",
+  title: "Données & Sources",
   description:
     "Transparence totale sur les sources de données MaVilleIdeal : INSEE, Open Data, avis habitants. Tout est documenté et téléchargeable.",
   alternates: { canonical: "/donnees" },

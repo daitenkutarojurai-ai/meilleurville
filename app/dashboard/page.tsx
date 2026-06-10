@@ -7,7 +7,7 @@ import { RedirectToAccount } from "./RedirectToAccount";
 // /dashboard is the legacy account URL. The real account home is /mes-villes;
 // keep this path working with a client-side redirect (static export can't 301).
 export const metadata: Metadata = {
-  title: "Mon espace · MaVilleIdéale",
+  title: "Mon espace",
   alternates: { canonical: "/mes-villes" },
   robots: { index: false, follow: false },
 };

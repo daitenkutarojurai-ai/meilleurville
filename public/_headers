@@ -1,8 +1,26 @@
 # Cloudflare Workers Static Assets headers.
+
+# Content-hashed Next bundles never change — skip the default
+# max-age=0,must-revalidate round-trips.
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
 # Next's opengraph-image routes export as extensionless files (e.g.
 # out/about/opengraph-image), which CF would otherwise serve as
 # application/octet-stream. Force image/png so social scrapers render them.
 /opengraph-image
   Content-Type: image/png
+  Cache-Control: public, max-age=86400
 /*/opengraph-image
   Content-Type: image/png
+  Cache-Control: public, max-age=86400
+
+# HTML + everything else: short-lived so deploys propagate; baseline security
+# headers. /widget/embed is served by the Worker (sends its own
+# frame-ancestors *) and is unaffected by asset-level headers.
+/*
+  Cache-Control: public, max-age=0, must-revalidate
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), camera=(), microphone=()
+  X-Frame-Options: SAMEORIGIN

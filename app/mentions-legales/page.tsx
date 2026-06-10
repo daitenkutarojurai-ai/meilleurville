@@ -4,7 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Mentions légales · MaVilleIdeal",
+  title: "Mentions légales",
   description:
     "Mentions légales de MaVilleIdeal : éditeur, hébergeur, contact, propriété intellectuelle et liens partenaires.",
   alternates: { canonical: "/mentions-legales" },

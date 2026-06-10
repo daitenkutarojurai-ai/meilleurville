@@ -10,7 +10,7 @@ export const revalidate = false;
 export const dynamicParams = false;
 
 export const metadata: Metadata = {
-  title: "Projection 5 ans — où devrais-je vivre dans 5 ans ? | MaVilleIdéale",
+  title: "Projection 5 ans — où devrais-je vivre dans 5 ans ?",
   description:
     "Famille, retraite, télétravail, budget en hausse ou en baisse — et un climat 2040 qui change tout. Trouvez la ville qui correspond à ce que vous serez dans 5 ans, pas à ce que vous êtes aujourd'hui.",
   alternates: { canonical: "/projection-5ans" },

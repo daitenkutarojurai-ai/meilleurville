@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   description: `Système synthèse : 8 axes data (env / santé / emploi / cadre / vélo / sécurité / démo / services publics) unifiés sur ${CITIES_COUNT} villes, ${DEPARTMENTS_COUNT} départements, ${REGIONS_COUNT} régions, 6 macro-régions, palmarès national. Comparer 2 villes ou 2 régions, palmarès personnalisé.`,
   alternates: { canonical: "/synthese" },
   openGraph: {
-    title: "Synthèse 8 axes · MaVilleIdeal",
+    title: "Synthèse 8 axes",
     description: "Un système, 8 axes, 5 niveaux géographiques. Tout pour comparer une ville, un département, une région ou la France entière.",
   },
 };

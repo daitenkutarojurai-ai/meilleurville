@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description:
     "Sign in to BestCitiesInFrance with a magic link — no password. Keep your saved cities, reviews and alerts in sync across every device.",
   alternates: { canonical: `${EN_BASE}/sign-in` },
-  robots: { index: true, follow: true },
+  robots: { index: false, follow: true },
 };
 
 export default function SignInPage() {

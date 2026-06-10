@@ -5,7 +5,7 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { MesVillesClient } from "./MesVillesClient";
 
 export const metadata: Metadata = {
-  title: "Mon espace · MaVilleIdéale",
+  title: "Mon espace",
   description: "Vos villes favorites, vos avis, vos alertes et vos projections — au même endroit.",
   alternates: { canonical: "/mes-villes" },
   robots: { index: false, follow: true },

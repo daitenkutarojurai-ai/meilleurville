@@ -6,8 +6,11 @@ import { FavoritesGrid } from "./FavoritesGrid";
 import { UserBadges } from "@/components/UserBadges";
 
 export const metadata: Metadata = {
-  title: "Mes villes favorites · MaVilleIdeal",
+  title: "Mes villes favorites",
   description: "Toutes les villes que vous avez sauvegardées sur MaVilleIdeal.",
+  // Without an explicit canonical this page inherits the layout's "/" and
+  // declares itself a duplicate of the homepage.
+  alternates: { canonical: "/favoris" },
   robots: { index: false, follow: true },
 };
 

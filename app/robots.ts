@@ -8,7 +8,7 @@ const BASE_URL =
   process.env.NEXT_PUBLIC_BASE_URL ?? (DEFAULT_LOCALE === "en" ? EN_URL : FR_URL);
 
 // Chunk count derived from app/sitemap.ts so every chunk generateSitemaps
-// emits is advertised here — no manual drift (FR: 16 chunks, EN: 8).
+// emits is advertised here — no manual drift.
 const SITEMAP_INDEXES = Array.from({ length: SITEMAP_CHUNK_COUNT }, (_, i) => i);
 
 export const dynamic = "force-static";
@@ -18,7 +18,11 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: ["/api/", "/admin/", "/favoris", "/dashboard", "/mes-villes", "/connexion", "/auth"],
+      // Account/utility pages are excluded via meta robots noindex, NOT here —
+      // a Disallow blocks crawling, so Google could never read the noindex and
+      // sitemap/external links would yield "indexed though blocked" zombies.
+      // /auth stays disallowed so magic-link callback URLs are never crawled.
+      disallow: ["/api/", "/admin/", "/auth"],
     },
     // Sitemap index + per-chunk URLs so crawlers can fetch them individually
     // (Google supports multiple Sitemap: lines and a parent index file).

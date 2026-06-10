@@ -5,11 +5,11 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { ConnexionForm } from "./ConnexionForm";
 
 export const metadata: Metadata = {
-  title: "Connexion · MaVilleIdéale",
+  title: "Connexion",
   description:
     "Connectez-vous à MaVilleIdéale par lien magique — sans mot de passe. Retrouvez vos villes favorites, vos avis et vos alertes sur tous vos appareils.",
   alternates: { canonical: "/connexion" },
-  robots: { index: true, follow: true },
+  robots: { index: false, follow: true },
 };
 
 export default function ConnexionPage() {

@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!label) return {};
   const guides = getGuidesForTag(slug);
   return {
-    title: `${label} · ${guides.length} guides MaVilleIdeal`,
+    title: `${label} · ${guides.length} guides`,
     description: `Tous les guides MaVilleIdeal traitant de « ${label} » : ${guides.length} analyses honnêtes pour choisir où vivre en France.`,
     alternates: { canonical: `/tags/${slug}` },
   };

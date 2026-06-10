@@ -69,7 +69,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const best = [...PROFILE_META].sort((a, b) => niche[b.key] - niche[a.key]);
   const top2 = best.slice(0, 2).map((p) => p.label.toLowerCase()).join(" et ");
   return {
-    title: `${city.name} pour quel profil ? Compatibilité par style de vie | MaVilleIdéale`,
+    title: `${city.name} pour quel profil ? Compatibilité par style de vie`,
     description: `${city.name} convient particulièrement aux ${top2}. Scores de compatibilité pour 5 profils : expats, télétravailleurs, animaux, retraités, étudiants.`,
     alternates: { canonical: `/villes/${slug}/profils` },
     openGraph: {
