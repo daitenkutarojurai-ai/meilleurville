@@ -6,8 +6,10 @@
 
 import type { CitySeed } from "@/data/cities-seed";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { HOUSING } from "@/data/housing";
 import { computeOwnerScores } from "@/lib/owner-scores";
 import { computeSportLeisure } from "@/lib/sport-leisure";
+import { rentalTension } from "@/lib/rental-tension";
 
 type ScoreWeights = Partial<{
   // Axes seed (CityScore)
@@ -30,8 +32,10 @@ type ScoreWeights = Partial<{
   securiteFemmeSeule: number;
   jeuneActif: number;
   famille: number;
-  // Cluster composites (F70)
+  // Cluster composites (F70 sport, R8.2 tension, dérivé investisseurs)
   sportLeisure: number;
+  rentalTension: number;
+  investorYield: number;
 }>;
 
 export interface ProfileDef {
@@ -62,6 +66,27 @@ function ownerVal(city: CitySeed, key: string): number {
   return 5;
 }
 
+// Rendement locatif brut estimé (T2 ~ 45 m²) sur 0-10.
+// Yield % = (avgRentT2 × 12) / (45 × avgBuyPriceM2) × 100, normalisé linéairement
+// 3 % → 0, 10 % → 10. Fallback (pas de HOUSING) : proxy coût + neutre.
+// Pénalité de liquidité : un sous-30 k habitants implique pool locataires plus
+// mince et revente plus longue — on déprécie le rendement brut affiché en
+// conséquence (un 10 % théorique dans une ville de 12 k = 4,5 % effectif).
+export function investorYield(city: CitySeed): number {
+  const h = HOUSING[city.slug];
+  if (!h) {
+    return Math.max(0, Math.min(10, (10 - city.scores.cost) * 0.6 + 2.5));
+  }
+  const yieldPct = (h.avgRentT2 * 12) / (45 * h.avgBuyPriceM2) * 100;
+  const base = (yieldPct - 3) * (10 / 7);
+  const pop = city.population ?? 0;
+  const liquidity =
+    pop < 20000 ? 0.45 :
+    pop < 50000 ? 0.62 :
+    pop < 100000 ? 0.85 : 1.0;
+  return Math.max(0, Math.min(10, base * liquidity));
+}
+
 function getScoreValue(city: CitySeed, key: string): number {
   // Axes seed
   if (["life", "transport", "nature", "cost", "safety", "culture", "remoteWork", "schools"].includes(key)) {
@@ -69,6 +94,8 @@ function getScoreValue(city: CitySeed, key: string): number {
   }
   // Cluster composites
   if (key === "sportLeisure") return computeSportLeisure(city).composite;
+  if (key === "rentalTension") return rentalTension(city);
+  if (key === "investorYield") return investorYield(city);
   return ownerVal(city, key);
 }
 
@@ -344,6 +371,32 @@ export const PROFILE_PAGES: ProfileDef[] = [
     },
     reasonHint: (c) =>
       `Sécurité ${c.scores.safety.toFixed(1)} · nature ${c.scores.nature.toFixed(1)} · coût ${c.scores.cost.toFixed(1)}`,
+  },
+  {
+    slug: "investisseurs-locatifs",
+    emoji: "🏘️",
+    label: "Investisseurs locatifs",
+    metaTitle: "Meilleures villes investissement locatif 2026 — Top 20",
+    metaDescription:
+      "Top 20 villes françaises pour investir en locatif : rendement brut estimé, tension de marché, demande jeunes actifs, sécurité de l'actif. Calibré 2026.",
+    intro:
+      "Investisseurs locatifs : votre arbitrage ne se joue pas comme celui d'un primo-accédant. Vous ne choisissez pas la ville où vous voulez vivre, vous choisissez celle qui dégage le meilleur rendement net une fois la fiscalité passée, sans rogner sur les fondamentaux qui protègent l'actif à dix ans. Le triangle qui compte vraiment, c'est rendement brut (loyer annuel rapporté au prix d'acquisition), tension de marché (un appartement qui se reloue en quinze jours et pas en trois mois) et qualité de la demande locative (bassin de jeunes actifs, de cadres en télétravail et d'étudiants qui paient à l'heure). Le rendement seul, sans demande, c'est une vacance locative qui ronge la rentabilité ; la tension seule, sans rendement, c'est un cash-flow négatif qui ne tient que par l'espoir de la plus-value. Ce classement pondère d'abord le rendement brut estimé sur un T2 — dérivé du loyer médian T2 et du prix m² appartement par ville — complète par l'indicateur de tension de marché, intègre le poids démographique des 25-35 ans (premier bassin de locataires français), garde un œil sur la couverture fibre et la part de cadres (qui tirent le loyer vers le haut), et ne sacrifie pas la sécurité de l'actif. Résultat : peu de grandes métropoles ultra-tendues comme Paris ou Lyon (rendement effondré sous 4 %), beaucoup de villes moyennes industrielles ou universitaires en reconversion où l'on trouve encore du 7-9 % brut avec une demande locale solide.",
+    weights: {
+      investorYield: 2.5,
+      rentalTension: 2.0,
+      jeuneActif: 1.5,
+      teletravail: 0.8,
+      safety: 0.5,
+      remoteWork: 0.5,
+    },
+    reasonHint: (c) => {
+      const h = HOUSING[c.slug];
+      if (h) {
+        const y = (h.avgRentT2 * 12) / (45 * h.avgBuyPriceM2) * 100;
+        return `Rendement brut ~ ${y.toFixed(1)} % · T2 ${h.avgRentT2} € · m² ${h.avgBuyPriceM2} €`;
+      }
+      return `Coût ${c.scores.cost.toFixed(1)} · tension ${rentalTension(c).toFixed(1)} · jeunes actifs ${c.scores.life.toFixed(1)}`;
+    },
   },
   {
     slug: "sportifs",
