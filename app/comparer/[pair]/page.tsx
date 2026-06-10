@@ -399,6 +399,7 @@ export default async function PairPage({ params }: Props) {
           topic={`compare:${[slugA, slugB].sort().join("-")}`}
           title={`${seedA.name} vs ${seedB.name} — votre verdict`}
           emptyHint={`Vous avez vécu dans l'une ou l'autre ? Donnez votre avis honnête : on n'a pas tout dit.`}
+          subscribeContext={`${seedA.name} / ${seedB.name}`}
         />
       </div>
 

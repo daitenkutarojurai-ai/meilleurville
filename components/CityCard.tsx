@@ -22,10 +22,16 @@ function gradientForScore(score: number) {
   return "from-red-500 via-rose-400 to-orange-400";
 }
 
+const TIER_EN: Record<string, string> = {
+  exceptionnel: "exceptional", excellent: "excellent", bon: "good",
+  moyen: "average", "en dessous": "below average", mauvais: "poor",
+};
+
 export function CityCard({ city, rank, className, locale = "fr" }: CityCardProps) {
   const score = city.scores.global;
   const cover = gradientForScore(score);
-  const tier = scoreLabel(score);
+  const frTier = scoreLabel(score);
+  const tier = locale === "en" ? TIER_EN[frTier] ?? frTier : frTier;
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
 
   return (
@@ -76,12 +82,11 @@ export function CityCard({ city, rank, className, locale = "fr" }: CityCardProps
               {formatScore(score)}
               <span className="sr-only"> {L("sur", "out of")} 10 — {tier}</span>
             </div>
+            {/* No "{n} avis" — that count was synthesized from the score. */}
             <div className="flex flex-col gap-0.5">
               <div className="flex items-center gap-1">
                 <Star className="h-3 w-3 fill-yellow-400 text-amber-500" />
-                <span className="text-xs text-[var(--text-secondary)]">
-                  {city.reviewCount} {L("avis", "reviews")}
-                </span>
+                <span className="text-xs text-[var(--text-secondary)]">{tier}</span>
               </div>
             </div>
           </div>

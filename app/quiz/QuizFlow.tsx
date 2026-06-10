@@ -207,9 +207,9 @@ export function QuizFlow() {
           <Sparkles className="absolute inset-0 m-auto h-6 w-6 text-[var(--accent)]" />
         </div>
         <div className="text-center">
-          <p className="text-lg font-semibold text-[var(--text-primary)]">IA en cours...</p>
+          <p className="text-lg font-semibold text-[var(--text-primary)]">Calcul en cours...</p>
           <p className="text-sm text-[var(--text-secondary)] mt-1">
-            Analyse de votre profil contre {CITIES_SEED.length}+ villes françaises
+            Analyse de votre profil contre {CITIES_SEED.length} villes françaises
           </p>
         </div>
         <div className="flex gap-1.5">
@@ -529,33 +529,39 @@ function canAdvance(
   return true;
 }
 
+// Demo fallback uses REAL seed scores — the old hardcoded values (Annecy 9.1)
+// exceeded the actual score clamp and showed fake figures on API failure.
 function getDemoResults(): MatchResult[] {
-  const cities = [
-    { slug: "annecy", name: "Annecy", region: "Auvergne-Rhône-Alpes", score: 9.1, reason: "Nature + sécurité + qualité de vie" },
-    { slug: "nantes", name: "Nantes", region: "Pays de la Loire", score: 8.7, reason: "Dynamisme + transports + prix" },
-    { slug: "rennes", name: "Rennes", region: "Bretagne", score: 8.4, reason: "Remote work + campus + vélo" },
-    { slug: "bordeaux", name: "Bordeaux", region: "Nouvelle-Aquitaine", score: 8.1, reason: "Culture + gastronomie + soleil" },
-    { slug: "montpellier", name: "Montpellier", region: "Occitanie", score: 7.9, reason: "Soleil + mer + étudiant" },
+  const picks: Array<[string, string]> = [
+    ["annecy", "Nature + sécurité + qualité de vie"],
+    ["nantes", "Dynamisme + transports + prix"],
+    ["rennes", "Remote work + campus + vélo"],
+    ["bordeaux", "Culture + gastronomie + soleil"],
+    ["montpellier", "Soleil + mer + étudiant"],
   ];
-  return cities.map((c) => ({
-    city: {
-      id: c.slug,
-      slug: c.slug,
-      name: c.name,
-      region: c.region,
-      department: null,
-      population: 150000,
-      latitude: null,
-      longitude: null,
-      scores: { global: c.score, life: c.score, transport: 7.5, nature: 8, cost: 7, safety: 8, culture: 8, remoteWork: 8, schools: 7.5 },
-      characterTags: ["dynamique", "culturel"],
-      reviewCount: 280,
-      sunshinedays: null,
-      avgTempJuly: null,
-      avgTempJanuary: null,
-    },
-    score: 70 + ((c.slug.charCodeAt(0) % 26) / 26) * 25,
-    breakdown: {},
-    topReason: c.reason,
-  }));
+  return picks.flatMap(([slug, reason]) => {
+    const c = CITIES_SEED.find((x) => x.slug === slug);
+    if (!c) return [];
+    return [{
+      city: {
+        id: c.slug,
+        slug: c.slug,
+        name: c.name,
+        region: c.region,
+        department: c.department,
+        population: c.population,
+        latitude: c.latitude,
+        longitude: c.longitude,
+        scores: c.scores,
+        characterTags: [...c.characterTags],
+        reviewCount: 0,
+        sunshinedays: c.sunshinedays,
+        avgTempJuly: c.avgTempJuly,
+        avgTempJanuary: c.avgTempJanuary,
+      },
+      score: 70 + ((slug.charCodeAt(0) % 26) / 26) * 25,
+      breakdown: {},
+      topReason: reason,
+    }];
+  });
 }

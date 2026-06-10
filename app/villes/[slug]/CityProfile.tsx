@@ -182,9 +182,11 @@ export function CityProfile({ city, locale = "fr" }: { city: CitySeed & { review
                 {formatScore(city.scores.global)}
               </div>
               <div className="text-[11px] uppercase tracking-wider text-[var(--text-secondary)] mb-2 font-semibold">{L("Score global / 10", "Overall score / 10")}</div>
+              {/* No review count here — the old "{n} avis" was synthesized
+                  (180 + score×30), violating the no-fake-figures rule. */}
               <div className="flex items-center justify-center gap-1 text-sm text-[var(--text-secondary)]">
                 <Star className="h-3.5 w-3.5 fill-amber-400 text-amber-500" />
-                <span>{city.reviewCount ?? 180} {L("avis", "reviews")}</span>
+                <span>{L("8 axes notés", "8 scored axes")}</span>
               </div>
             </div>
           </div>
