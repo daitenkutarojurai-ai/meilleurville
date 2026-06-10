@@ -10,14 +10,15 @@ below. The FR domain remains unchanged.
 
 ## Stack
 
-- **Next.js 16.2.4** (App Router, Turbopack) + **TypeScript** (strict). Note:
-  Next 16 deprecates the `middleware` file convention in favour of `proxy.ts`
-  (renamed for clarity; same purpose). Use `proxy.ts` in this repo.
+- **Next.js 16.2.x** (App Router, Turbopack) + **TypeScript** (strict). Note:
+  there is NO `proxy.ts`/middleware — `output: "export"` can't run one; host
+  canonicalization + EN locale routing live in `worker/index.ts`.
 - Tailwind v4 with custom CSS variables (`--accent`, `--bg-canvas`, etc.)
 - **lucide-react** for icons
-- Static-first: most pages SSG via `generateStaticParams`, JSON file stores for
-  comments / contact, no DB at runtime
-- Prisma schema present in `prisma/` but not used at runtime — historical (candidate for removal)
+- Static-first: pages SSG via `generateStaticParams` exported to `out/`
+  (Cloudflare Workers Static Assets). Runtime user data (comments, contact,
+  alertes, newsletter, accounts) lives in **D1** behind the API Worker
+  (`worker/index.ts`); the `lib/*-store.ts` modules are D1-backed.
 
 ## Project layout (high-level)
 
@@ -56,9 +57,9 @@ lib/
   niche-scores.ts                # Lifestyle-specific recombinations
   rankings.ts                    # RANKING_META + sort logic per category
   city-narrative.ts              # Auto pros/cons/notable narrative
-  comments-store.ts              # JSON-file comment persistence
-  contact-store.ts               # JSON-file contact form persistence
-  spam-filter.ts, rate-limit.ts  # Abuse mitigation on user-generated content
+  comments-store.ts              # D1-backed comment persistence (via worker)
+  contact-store.ts               # D1-backed contact form persistence
+  spam-filter.ts, rate-limit.ts  # Abuse mitigation (rate-limit: in-memory burst + D1 fixed-window)
 components/
   SectionNav.tsx                 # Sticky homepage section quick-nav (scrollspy, appears post-hero)
   Navbar.tsx                     # Nav links visible at lg (1024px+) to avoid overflow at md
@@ -247,15 +248,17 @@ Same repo, same build, two Vercel projects, two domains.
 
 - `mavilleideale.fr` (env: `NEXT_PUBLIC_DEFAULT_LOCALE=fr`, default) — unchanged.
   All FR routes stay at their existing paths (no URL prefix).
-- `bestcitiesinfrance.com` (env: `NEXT_PUBLIC_DEFAULT_LOCALE=en`) — `proxy.ts`
-  rewrites bare URLs to `/en/*` internally, so the URL bar stays clean
-  (e.g. `bestcitiesinfrance.com/cities/lyon` → renders `app/[locale]/cities/[slug]/page.tsx`
-  with `locale = "en"`).
+- `bestcitiesinfrance.com` (env: `NEXT_PUBLIC_DEFAULT_LOCALE=en`) — the API
+  Worker (`worker/index.ts`) maps bare URLs to the `/en/*` asset tree, so the
+  URL bar stays clean (e.g. `bestcitiesinfrance.com/cities/lyon` → serves the
+  exported `app/[locale]/cities/[slug]` page). There is no `proxy.ts`; with
+  `output: "export"` it could never run, and the EN rewrite only exists in the
+  deployed Worker (not in `next dev`).
 
 ### Key files
 
-- `proxy.ts` — Next 16 rewrite. Detects locale via `NEXT_PUBLIC_DEFAULT_LOCALE`,
-  rewrites unprefixed paths to `/en/*` on the EN project, 404s `/en/*` on the FR project.
+- `worker/index.ts` — host canonicalization (apex↔www 301) + EN locale asset
+  routing + `/api/*` + crons. Replaces the deleted `proxy.ts`.
 - `lib/i18n.ts` — minimal `t(key, locale)` accessor. **No external i18n lib.**
 - `locales/fr.ts`, `locales/en.ts` — flat key→string maps for UI copy.
 - `app/[locale]/` — parallel route tree for EN. Only `locale = "en"` is generated
