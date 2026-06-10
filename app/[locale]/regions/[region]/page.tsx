@@ -8,6 +8,7 @@ import { EN_GUIDES } from "@/data/guides-en";
 import { scoreColor } from "@/lib/utils";
 import { ORIGIN_BY_LOCALE, hreflangLanguagesEn } from "@/lib/i18n";
 import { REGION_EMOJIS, regionToSlug } from "@/lib/regions";
+import { jsonLdScript } from "@/lib/jsonld";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -94,8 +95,61 @@ export default async function EnRegionDetail({ params }: Props) {
   const intro = REGION_EN_DESCRIPTIONS[region] ??
     `${cities.length} cities, average score ${(cities.reduce((s, c) => s + c.scores.global, 0) / cities.length).toFixed(1)}/10.`;
 
+  const topCity = cities[0];
+  const avgScore = cities.reduce((s, c) => s + c.scores.global, 0) / cities.length;
+  const departments = [...new Set(cities.map((c) => c.department).filter(Boolean))];
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: EN_BASE },
+          { "@type": "ListItem", position: 2, name: "Regions", item: `${EN_BASE}/regions` },
+          { "@type": "ListItem", position: 3, name: regionName, item: `${EN_BASE}/regions/${region}` },
+        ],
+      },
+      {
+        "@type": "ItemList",
+        name: `Best cities in ${regionName}`,
+        url: `${EN_BASE}/regions/${region}`,
+        numberOfItems: cities.length,
+        itemListOrder: "https://schema.org/ItemListOrderAscending",
+        itemListElement: cities.slice(0, 25).map((c, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: c.name,
+          url: `${EN_BASE}/cities/${c.slug}`,
+        })),
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: [
+          {
+            "@type": "Question",
+            name: `What is the best city in ${regionName}?`,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: `Based on our scoring, the best city in ${regionName} is ${topCity.name} with an overall score of ${topCity.scores.global.toFixed(1)}/10.`,
+            },
+          },
+          {
+            "@type": "Question",
+            name: `How many cities are ranked in ${regionName}?`,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: `We rank ${cities.length} cities in ${regionName}, across ${departments.length} department${departments.length > 1 ? "s" : ""}. The region's average score is ${avgScore.toFixed(1)}/10.`,
+            },
+          },
+        ],
+      },
+    ],
+  };
+
   return (
     <main id="main-content" className="min-h-screen">
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(jsonLd)} />
       <Navbar />
       <section className="mx-auto max-w-5xl px-4 sm:px-6 pt-16 pb-8">
         <nav className="mb-6 text-sm text-[var(--text-secondary)]">

@@ -10,6 +10,7 @@ import { scoreColor } from "@/lib/utils";
 import { ORIGIN_BY_LOCALE, hreflangLanguagesEn } from "@/lib/i18n";
 import { SEO_PAIRS } from "@/lib/comparer-pairs";
 import { SEO_TRIPLETS } from "@/lib/comparer-triplets";
+import { jsonLdScript } from "@/lib/jsonld";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -100,8 +101,49 @@ function TripletPage({ cities }: { cities: [(typeof CITIES_SEED)[number], (typeo
 
   const COLORS = ["text-blue-600", "text-violet-600", "text-amber-600"];
 
+  const pairSlug = `${a.slug}-vs-${b.slug}-vs-${c.slug}`;
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: EN_BASE },
+          { "@type": "ListItem", position: 2, name: "Compare", item: `${EN_BASE}/compare` },
+          { "@type": "ListItem", position: 3, name: `${a.name} vs ${b.name} vs ${c.name}`, item: `${EN_BASE}/compare/${pairSlug}` },
+        ],
+      },
+      {
+        "@type": "ItemList",
+        name: `${a.name} vs ${b.name} vs ${c.name} — comparison`,
+        url: `${EN_BASE}/compare/${pairSlug}`,
+        numberOfItems: 3,
+        itemListElement: [a, b, c].map((city, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: city.name,
+          url: `${EN_BASE}/cities/${city.slug}`,
+        })),
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: [
+          {
+            "@type": "Question",
+            name: `Which is the best city: ${a.name}, ${b.name} or ${c.name}?`,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: `${topCity.name} leads on the overall score with ${topCity.scores.global.toFixed(1)}/10. The right pick still depends on your priorities — cost, safety, transport and schools differ between the three.`,
+            },
+          },
+        ],
+      },
+    ],
+  };
+
   return (
     <main id="main-content" className="min-h-screen">
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(jsonLd)} />
       <Navbar />
       <section className="mx-auto max-w-5xl px-4 sm:px-6 pt-16 pb-8">
         <nav className="mb-6 text-sm text-[var(--text-secondary)]">
@@ -317,8 +359,66 @@ export default async function EnComparePair({ params }: Props) {
 
   const overallWinner = a.scores.global === b.scores.global ? null : a.scores.global > b.scores.global ? a : b;
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: EN_BASE },
+          { "@type": "ListItem", position: 2, name: "Compare", item: `${EN_BASE}/compare` },
+          { "@type": "ListItem", position: 3, name: `${a.name} vs ${b.name}`, item: `${EN_BASE}/compare/${pair}` },
+        ],
+      },
+      {
+        "@type": "ItemList",
+        name: `${a.name} vs ${b.name} — comparison`,
+        url: `${EN_BASE}/compare/${pair}`,
+        numberOfItems: 2,
+        itemListElement: [a, b].map((city, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: city.name,
+          url: `${EN_BASE}/cities/${city.slug}`,
+        })),
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: [
+          {
+            "@type": "Question",
+            name: `Which is the better city, ${a.name} or ${b.name}?`,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: overallWinner
+                ? `${overallWinner.name} comes out ahead overall with ${overallWinner.scores.global.toFixed(1)}/10 versus ${(overallWinner.slug === a.slug ? b : a).scores.global.toFixed(1)}/10. The right answer still depends on which criteria matter most to you.`
+                : `${a.name} and ${b.name} tie on the overall score (${a.scores.global.toFixed(1)}/10). The decision comes down to the individual axes — cost, safety, transport, schools.`,
+            },
+          },
+          {
+            "@type": "Question",
+            name: `Is ${a.name} or ${b.name} cheaper to live in?`,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: `${a.name} scores ${a.scores.cost.toFixed(1)}/10 on cost of living and ${b.name} scores ${b.scores.cost.toFixed(1)}/10. ${a.scores.cost === b.scores.cost ? "They are roughly on par." : `${a.scores.cost > b.scores.cost ? a.name : b.name} is the more affordable of the two.`}`,
+            },
+          },
+          {
+            "@type": "Question",
+            name: `Which is better for remote work, ${a.name} or ${b.name}?`,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: `${a.name} scores ${a.scores.remoteWork.toFixed(1)}/10 for remote work and ${b.name} scores ${b.scores.remoteWork.toFixed(1)}/10. ${a.scores.remoteWork === b.scores.remoteWork ? "Both are equally well set up." : `${a.scores.remoteWork > b.scores.remoteWork ? a.name : b.name} is better set up for remote workers.`}`,
+            },
+          },
+        ],
+      },
+    ],
+  };
+
   return (
     <main id="main-content" className="min-h-screen">
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(jsonLd)} />
       <Navbar />
       <section className="mx-auto max-w-4xl px-4 sm:px-6 pt-16 pb-8">
         <nav className="mb-6 text-sm text-[var(--text-secondary)]">

@@ -7,6 +7,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { deptToSlug, slugToDept } from "@/lib/dept-slug";
 import { scoreColor } from "@/lib/utils";
 import { ORIGIN_BY_LOCALE, hreflangLanguagesEn } from "@/lib/i18n";
+import { jsonLdScript } from "@/lib/jsonld";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -40,8 +41,52 @@ export default async function EnDepartmentDetail({ params }: Props) {
     .filter((c) => c.department === name)
     .sort((a, b) => b.scores.global - a.scores.global);
 
+  const topCity = cities[0];
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: EN_BASE },
+          { "@type": "ListItem", position: 2, name: "Departments", item: `${EN_BASE}/departments` },
+          { "@type": "ListItem", position: 3, name: name, item: `${EN_BASE}/departments/${dept}` },
+        ],
+      },
+      {
+        "@type": "ItemList",
+        name: `Best cities in ${name}`,
+        url: `${EN_BASE}/departments/${dept}`,
+        numberOfItems: cities.length,
+        itemListOrder: "https://schema.org/ItemListOrderAscending",
+        itemListElement: cities.slice(0, 25).map((c, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: c.name,
+          url: `${EN_BASE}/cities/${c.slug}`,
+        })),
+      },
+      ...(topCity
+        ? [{
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: `What is the best city in ${name}?`,
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: `Based on our scoring, the best city in ${name} is ${topCity.name} with an overall score of ${topCity.scores.global.toFixed(1)}/10, out of ${cities.length} ranked cit${cities.length > 1 ? "ies" : "y"} in the department.`,
+                },
+              },
+            ],
+          }]
+        : []),
+    ],
+  };
+
   return (
     <main id="main-content" className="min-h-screen">
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(jsonLd)} />
       <Navbar />
       <section className="mx-auto max-w-5xl px-4 sm:px-6 pt-16 pb-6">
         <nav className="mb-6 text-sm text-[var(--text-secondary)]">
