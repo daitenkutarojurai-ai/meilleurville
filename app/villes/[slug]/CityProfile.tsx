@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { MapPin, Star, Sun, Thermometer, Users, TrendingUp, Home, Laptop, GraduationCap, Shield, Bus, TreePine, ChevronRight, ChevronDown, Check, X, Sparkles } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
@@ -87,7 +87,10 @@ export function CityProfile({ city, locale = "fr" }: { city: CitySeed & { review
   const neighborhoods = getNeighborhoods(city.slug);
   const housing = getHousing(city.slug);
   const [activeTab, setActiveTab] = useState("overview");
-  const [openFaq, setOpenFaq] = useState<number | null>(null);
+  // Panels render in the static HTML (SEO + no-JS) and are hidden only
+  // after hydration — the old conditional render shipped 1 of 4 panels.
+  const [hydrated, setHydrated] = useState(false);
+  useEffect(() => setHydrated(true), []);
   const [reviewOpen, setReviewOpen] = useState(false);
   // Force a remount of UserScoresCard after a new review is posted so the
   // aggregate refreshes (uses key bump rather than a context store).
@@ -292,9 +295,10 @@ export function CityProfile({ city, locale = "fr" }: { city: CitySeed & { review
 
       {/* Content */}
       <div className="mx-auto max-w-7xl px-4 sm:px-6 py-10">
-        {activeTab === "overview" && (
+        
           <div
             id="city-panel-overview"
+            hidden={hydrated && activeTab !== "overview"}
             role="tabpanel"
             aria-labelledby="city-tab-overview"
             className="grid gap-6 lg:grid-cols-3">
@@ -1208,10 +1212,10 @@ export function CityProfile({ city, locale = "fr" }: { city: CitySeed & { review
               </div>
             </div>
           </div>
-        )}
 
-        {activeTab === "scores" && (
-          <div id="city-panel-scores" role="tabpanel" aria-labelledby="city-tab-scores" className="max-w-2xl space-y-6">
+        
+          <div id="city-panel-scores"
+            hidden={hydrated && activeTab !== "scores"} role="tabpanel" aria-labelledby="city-tab-scores" className="max-w-2xl space-y-6">
             <Card className="overflow-hidden">
               <div className="flex flex-col items-center gap-2 sm:flex-row sm:items-center sm:gap-6">
                 <div className="shrink-0">
@@ -1251,10 +1255,10 @@ export function CityProfile({ city, locale = "fr" }: { city: CitySeed & { review
               </div>
             </Card>
           </div>
-        )}
 
-        {activeTab === "reviews" && (
-          <div id="city-panel-reviews" role="tabpanel" aria-labelledby="city-tab-reviews" className="max-w-3xl">
+        
+          <div id="city-panel-reviews"
+            hidden={hydrated && activeTab !== "reviews"} role="tabpanel" aria-labelledby="city-tab-reviews" className="max-w-3xl">
             <Card>
               <div className="text-center py-6">
                 <div className="text-4xl mb-3">💬</div>
@@ -1273,10 +1277,10 @@ export function CityProfile({ city, locale = "fr" }: { city: CitySeed & { review
               </div>
             </Card>
           </div>
-        )}
 
-        {activeTab === "data" && (
-          <div id="city-panel-data" role="tabpanel" aria-labelledby="city-tab-data" className="max-w-2xl">
+        
+          <div id="city-panel-data"
+            hidden={hydrated && activeTab !== "data"} role="tabpanel" aria-labelledby="city-tab-data" className="max-w-2xl">
             <Card>
               <h2 className="text-lg font-bold text-[var(--text-primary)] mb-6">
                 {L("Données brutes", "Raw data")} — {city.name}
@@ -1306,7 +1310,6 @@ export function CityProfile({ city, locale = "fr" }: { city: CitySeed & { review
               </div>
             </Card>
           </div>
-        )}
       </div>
 
       {/* Discussions — moved up so the testimonial CTAs (#discussions anchor)
@@ -1369,25 +1372,18 @@ export function CityProfile({ city, locale = "fr" }: { city: CitySeed & { review
                 ),
               },
             ].map((item, i) => (
-              <div key={i} className="rounded-xl border border-[var(--border)] overflow-hidden">
-                <button
-                  onClick={() => setOpenFaq(openFaq === i ? null : i)}
-                  className="w-full flex items-center justify-between gap-4 px-5 py-4 text-left bg-[var(--bg-canvas)] hover:bg-[var(--bg-elevated)] transition-colors"
-                >
+              // Native <details>: the answers must exist in the static HTML —
+              // the old state-driven accordion only ever rendered the open one,
+              // so crawlers and no-JS users saw answers solely in the JSON-LD.
+              <details key={i} className="group rounded-xl border border-[var(--border)] overflow-hidden">
+                <summary className="flex items-center justify-between gap-4 px-5 py-4 cursor-pointer list-none [&::-webkit-details-marker]:hidden bg-[var(--bg-canvas)] hover:bg-[var(--bg-elevated)] transition-colors">
                   <span className="text-sm font-medium text-[var(--text-primary)]">{item.q}</span>
-                  <ChevronDown
-                    className={cn(
-                      "h-4 w-4 flex-shrink-0 text-[var(--text-tertiary)] transition-transform",
-                      openFaq === i && "rotate-180"
-                    )}
-                  />
-                </button>
-                {openFaq === i && (
-                  <div className="px-5 py-4 bg-[var(--bg-surface)] border-t border-[var(--border)]">
-                    <p className="text-sm text-[var(--text-secondary)] leading-relaxed">{item.a}</p>
-                  </div>
-                )}
-              </div>
+                  <ChevronDown className="h-4 w-4 flex-shrink-0 text-[var(--text-tertiary)] transition-transform group-open:rotate-180" />
+                </summary>
+                <div className="px-5 py-4 bg-[var(--bg-surface)] border-t border-[var(--border)]">
+                  <p className="text-sm text-[var(--text-secondary)] leading-relaxed">{item.a}</p>
+                </div>
+              </details>
             ))}
           </div>
         </div>
