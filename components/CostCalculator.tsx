@@ -1,8 +1,7 @@
 "use client";
 import { useState, useMemo } from "react";
 import { Calculator, ArrowRight, TrendingDown, TrendingUp, AlertCircle } from "lucide-react";
-import { CITIES_SEED } from "@/data/cities-seed";
-import { HOUSING } from "@/data/housing";
+import type { CostCalcCity } from "@/lib/cost-calc-data";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 
@@ -39,12 +38,13 @@ const PRIORITIES_EN: Priority[] = [
   { id: "securite", label: "Safety",      emoji: "🛡️", axis: "safety",     reasonTemplate: (s) => `Safety ${s.toFixed(1)}/10 — crime stats in the normal range` },
 ];
 
-function foodIndex(citySlug: string): number {
-  const costScore = CITIES_SEED.find((c) => c.slug === citySlug)?.scores.cost ?? 7;
+function foodIndex(costScore: number): number {
   return Math.round(115 - costScore * 3);
 }
 
-export function CostCalculator({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
+// cities is a server-computed projection (lib/cost-calc-data) — importing the
+// seed + housing here would ship them in the homepage client bundle.
+export function CostCalculator({ locale = "fr", cities: source }: { locale?: "fr" | "en"; cities: CostCalcCity[] }) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const PRIORITIES = locale === "en" ? PRIORITIES_EN : PRIORITIES_FR;
   const [parisRent, setParisRent] = useState(1400);
@@ -55,15 +55,14 @@ export function CostCalculator({ locale = "fr" }: { locale?: "fr" | "en" } = {})
   const rentBudget = Math.round(Math.max(parisRent, salary * RENT_BUDGET_RATIO));
 
   const cities = useMemo(() => {
-    return CITIES_SEED.filter((c) => HOUSING[c.slug])
+    return source
       .map((c) => {
-        const h = HOUSING[c.slug];
-        const rentSavings = parisRent - h.avgRentT2;
+        const rentSavings = parisRent - c.avgRentT2;
         const chargeSavings = PARIS_CHARGES - Math.round(PARIS_CHARGES * 0.8);
         const transportSavings = PARIS_TRANSPORT - 25;
-        const foodSavings = Math.round((salary * 0.25 * (PARIS_FOOD_INDEX - foodIndex(c.slug))) / 100);
+        const foodSavings = Math.round((salary * 0.25 * (PARIS_FOOD_INDEX - foodIndex(c.scores.cost))) / 100);
         const totalMonthlySavings = rentSavings + chargeSavings + transportSavings + foodSavings;
-        const affordable = h.avgRentT2 <= rentBudget;
+        const affordable = c.avgRentT2 <= rentBudget;
         const priorityScore = c.scores[priority.axis];
 
         // Composite ranking: priority axis dominates, savings provides
@@ -77,7 +76,6 @@ export function CostCalculator({ locale = "fr" }: { locale?: "fr" | "en" } = {})
 
         return {
           city: c,
-          housing: h,
           rentSavings,
           totalMonthlySavings,
           annualSavings: totalMonthlySavings * 12,
@@ -89,7 +87,7 @@ export function CostCalculator({ locale = "fr" }: { locale?: "fr" | "en" } = {})
       })
       .sort((a, b) => b.rank - a.rank)
       .slice(0, 8);
-  }, [parisRent, salary, rentBudget, priority]);
+  }, [parisRent, salary, rentBudget, priority, source]);
 
   const overBudgetCount = cities.filter((c) => !c.affordable).length;
 
@@ -186,7 +184,7 @@ export function CostCalculator({ locale = "fr" }: { locale?: "fr" | "en" } = {})
 
       {/* Results */}
       <div className="space-y-2">
-        {cities.map(({ city, housing, totalMonthlySavings, annualSavings, affordable, reason }) => {
+        {cities.map(({ city, totalMonthlySavings, annualSavings, affordable, reason }) => {
           const positive = totalMonthlySavings > 0;
           return (
             <Link
@@ -208,7 +206,7 @@ export function CostCalculator({ locale = "fr" }: { locale?: "fr" | "en" } = {})
                   )}
                 </div>
                 <div className="text-xs text-[var(--text-secondary)] mt-0.5 truncate">
-                  {L("Loyer T2 : ", "1-bed rent: ")}{housing.avgRentT2}{L("€/mois", "€/mo")} · <span className="text-[var(--accent)] font-medium">{reason}</span>
+                  {L("Loyer T2 : ", "1-bed rent: ")}{city.avgRentT2}{L("€/mois", "€/mo")} · <span className="text-[var(--accent)] font-medium">{reason}</span>
                 </div>
               </div>
               <div className="flex items-center gap-2 flex-shrink-0">

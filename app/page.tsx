@@ -20,6 +20,7 @@ import { SectionNav } from "@/components/SectionNav";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { CITIES_LIGHT } from "@/lib/cities-light";
 import { HERO_CITIES } from "@/lib/hero-data";
+import { COST_CALC_CITIES } from "@/lib/cost-calc-data";
 import { CITIES_COUNT, RANKINGS_COUNT } from "@/lib/site-stats";
 import { scoreColor } from "@/lib/utils";
 
@@ -168,7 +169,7 @@ export default function HomePage() {
             <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-2">Combien resterait-il sur le compte ?</h2>
             <p className="text-[var(--text-secondary)]">Tapez votre loyer et votre salaire, on calcule l&apos;écart, ville par ville.</p>
           </div>
-          <CostCalculator />
+          <CostCalculator cities={COST_CALC_CITIES} />
 
           <div className="mt-8">
             <Link
