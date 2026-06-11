@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
-import { CITIES_LIGHT } from "@/lib/cities-light";
+import { MAP_CITIES } from "@/lib/cities-light";
 import { scoreColor } from "@/lib/utils";
 import { FranceHeatmap } from "@/components/FranceHeatmap";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
@@ -48,7 +48,7 @@ export default function EnMapPage() {
       <section className="mx-auto max-w-6xl px-4 sm:px-6 py-10">
         {/* Full locale-aware heatmap: France mainland + Corsica outline, aurora
             backdrop, score legend and per-axis filters, EN /cities links. */}
-        <FranceHeatmap locale="en" showRegionToggle cities={CITIES_LIGHT} />
+        <FranceHeatmap locale="en" showRegionToggle cities={MAP_CITIES} />
 
         {drom.length > 0 && (
           <div className="mt-8">

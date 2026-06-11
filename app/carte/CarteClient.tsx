@@ -106,36 +106,29 @@ interface CarteDot {
 
 // Static layers below are memoised so a hover (tooltip/highlight state only)
 // doesn't re-render the ~1,000+ SVG nodes of the dot/bar/heat layers.
+// One shared gradient per score-tier colour (objectBoundingBox scales to each
+// circle's bbox) — per-city userSpaceOnUse defs were ~540 nodes of prerendered
+// HTML for an identical render.
 const CarteHeatLayer = memo(function CarteHeatLayer({ cities, scoreKey }: { cities: CityLight[]; scoreKey: ScoreKey }) {
+  const tierHexes = [...new Set(cities.map((c) => scoreColor(c.scores[scoreKey])))];
   return (
     <g clipPath="url(#cFranceClip)" opacity="0.55" style={{ mixBlendMode: "screen" }}>
-      {cities.map((c) => {
-        const [x, y] = project(c.longitude, c.latitude);
-        const r = 70 + (c.scores[scoreKey] - 7.5) * 30;
-        return (
-          <radialGradient
-            key={`ch-${c.slug}`}
-            id={`cheat-${c.slug}`}
-            cx={x}
-            cy={y}
-            r={r}
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop offset="0%" stopColor={scoreColor(c.scores[scoreKey])} stopOpacity="0.55" />
-            <stop offset="100%" stopColor={scoreColor(c.scores[scoreKey])} stopOpacity="0" />
-          </radialGradient>
-        );
-      })}
+      {tierHexes.map((hex) => (
+        <radialGradient key={hex} id={`cheat-${hex.slice(1)}`}>
+          <stop offset="0%" stopColor={hex} stopOpacity="0.55" />
+          <stop offset="100%" stopColor={hex} stopOpacity="0" />
+        </radialGradient>
+      ))}
       {cities.map((c) => {
         const [x, y] = project(c.longitude, c.latitude);
         const r = 70 + (c.scores[scoreKey] - 7.5) * 30;
         return (
           <circle
             key={`chc-${c.slug}`}
-            cx={x}
-            cy={y}
-            r={r}
-            fill={`url(#cheat-${c.slug})`}
+            cx={x.toFixed(1)}
+            cy={y.toFixed(1)}
+            r={Math.round(r)}
+            fill={`url(#cheat-${scoreColor(c.scores[scoreKey]).slice(1)})`}
           />
         );
       })}

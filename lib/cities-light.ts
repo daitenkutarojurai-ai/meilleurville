@@ -17,6 +17,15 @@ export const CITIES_LIGHT: CityLight[] = CITIES_SEED.map((c) => {
   return rest;
 });
 
+// Minimal projection for the SVG maps (FranceHeatmap/DromStrip): everything
+// else in CityLight (characterTags, inseeCode, climate fields…) was riding the
+// homepage flight payload ×540 for nothing.
+export type MapCity = Pick<CityLight, "slug" | "name" | "region" | "latitude" | "longitude" | "population" | "scores">;
+
+export const MAP_CITIES: MapCity[] = CITIES_LIGHT.map(
+  ({ slug, name, region, latitude, longitude, population, scores }) => ({ slug, name, region, latitude, longitude, population, scores })
+);
+
 // Metropolitan-bbox subset (excludes DROM) — for the climate timelapse map.
 export const CITIES_LIGHT_METRO: CityLight[] = CITIES_LIGHT.filter(
   (c) => c.longitude >= -6 && c.longitude <= 10 && c.latitude >= 40 && c.latitude <= 52,

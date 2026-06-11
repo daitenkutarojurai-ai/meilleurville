@@ -1,7 +1,7 @@
 "use client";
 import { memo, useMemo, useRef, useState, useEffect } from "react";
 import Link from "next/link";
-import type { CityLight } from "@/lib/cities-light";
+import type { MapCity } from "@/lib/cities-light";
 import { DromStrip } from "@/components/DromStrip";
 import { scoreHex } from "@/lib/utils";
 import { regionToSlug } from "@/lib/regions";
@@ -114,42 +114,35 @@ interface Dot {
   color: string;
   r: number;
   delay: number;
-  scores: CityLight["scores"];
+  scores: MapCity["scores"];
 }
 
 // Static heat-gradient layer — memoised so hovering a dot (which only changes
-// the tooltip/highlight state) doesn't re-render these ~200 SVG nodes.
-const HeatLayer = memo(function HeatLayer({ cities, scoreKey }: { cities: CityLight[]; scoreKey: ScoreKey }) {
+// the tooltip/highlight state) doesn't re-render these SVG nodes.
+// One shared gradient per score-tier colour (objectBoundingBox scales it to
+// each circle's bbox) — the old per-city userSpaceOnUse defs put ~190 gradient
+// definitions (~300 KB) into the landing page HTML for an identical render.
+const HeatLayer = memo(function HeatLayer({ cities, scoreKey }: { cities: MapCity[]; scoreKey: ScoreKey }) {
   const hot = cities.filter((c) => c.scores[scoreKey] >= 6.0);
+  const tierHexes = [...new Set(hot.map((c) => scoreColor(c.scores[scoreKey])))];
   return (
     <g clipPath="url(#franceClip)" opacity="0.55" style={{ mixBlendMode: "screen" }}>
-      {hot.map((c) => {
-        const [x, y] = project(c.longitude, c.latitude);
-        const r = 70 + (c.scores[scoreKey] - 6.0) * 30;
-        return (
-          <radialGradient
-            key={`h-${c.slug}`}
-            id={`heat-${c.slug}`}
-            cx={x}
-            cy={y}
-            r={r}
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop offset="0%" stopColor={scoreColor(c.scores[scoreKey])} stopOpacity="0.55" />
-            <stop offset="100%" stopColor={scoreColor(c.scores[scoreKey])} stopOpacity="0" />
-          </radialGradient>
-        );
-      })}
+      {tierHexes.map((hex) => (
+        <radialGradient key={hex} id={`heat-${hex.slice(1)}`}>
+          <stop offset="0%" stopColor={hex} stopOpacity="0.55" />
+          <stop offset="100%" stopColor={hex} stopOpacity="0" />
+        </radialGradient>
+      ))}
       {hot.map((c) => {
         const [x, y] = project(c.longitude, c.latitude);
         const r = 70 + (c.scores[scoreKey] - 6.0) * 30;
         return (
           <circle
             key={`hc-${c.slug}`}
-            cx={x}
-            cy={y}
-            r={r}
-            fill={`url(#heat-${c.slug})`}
+            cx={x.toFixed(1)}
+            cy={y.toFixed(1)}
+            r={Math.round(r)}
+            fill={`url(#heat-${scoreColor(c.scores[scoreKey]).slice(1)})`}
           />
         );
       })}
@@ -193,14 +186,13 @@ const CityDotLayer = memo(function CityDotLayer({
                 ? `${d.name} (${d.region}) — score ${d.score.toFixed(1)} out of 10`
                 : `${d.name} (${d.region}) — score ${d.score.toFixed(1)} sur 10`
             }
-            className="cursor-pointer fh-dot outline-none focus-visible:[outline:2px_solid_white] focus-visible:[outline-offset:2px]"
+            className={`cursor-pointer fh-dot outline-none focus-visible:[outline:2px_solid_white] focus-visible:[outline-offset:2px]${mounted ? " fh-dot-in" : ""}`}
             style={{
-              opacity: mounted ? 1 : 0,
-              transform: mounted ? "scale(1)" : "scale(0)",
+              // Animation lives in .fh-dot/.fh-dot-in (globals.css) — the old
+              // per-dot inline transition strings were ~120 KB of HTML ×540.
               transformOrigin: `${d.x}px ${d.y}px`,
-              transformBox: "view-box",
-              transition: `opacity 0.5s ease ${d.delay}ms, transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) ${d.delay}ms`,
-            }}
+              "--fhd": `${d.delay}ms`,
+            } as React.CSSProperties}
             onMouseEnter={() => onHover(hoverPayload)}
             onMouseLeave={() => onHover(null)}
             onFocus={() => onHover(hoverPayload)}
@@ -216,7 +208,7 @@ const CityDotLayer = memo(function CityDotLayer({
   );
 });
 
-export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities }: { locale?: "fr" | "en"; showRegionToggle?: boolean; cities: CityLight[] }) {
+export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities }: { locale?: "fr" | "en"; showRegionToggle?: boolean; cities: MapCity[] }) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const optionLabel = (o: { label: string; labelEn: string }) => (locale === "en" ? o.labelEn : o.label);
   const cityHref = (slug: string) => (locale === "en" ? `/cities/${slug}` : `/villes/${slug}`);
@@ -260,8 +252,10 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities 
           region: c.region,
           score: c.scores[scoreKey],
           population: c.population,
-          x,
-          y,
+          // 0.1px is plenty on a 700px viewBox — full floats add ~15 digits
+          // per attribute × ~1,600 nodes of prerendered HTML.
+          x: Math.round(x * 10) / 10,
+          y: Math.round(y * 10) / 10,
           color: scoreColor(c.scores[scoreKey]),
           r: dotRadius(c.population),
           delay: i * 12,
@@ -299,7 +293,7 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities 
   // Top city per DROM territory for the cartouche strip — memoised so hover
   // re-renders don't re-filter/sort the seed five times.
   const dromTops = useMemo(() => {
-    const out: Record<string, CityLight | undefined> = {};
+    const out: Record<string, MapCity | undefined> = {};
     for (const name of ["Guadeloupe", "Martinique", "Guyane", "La Réunion", "Mayotte"]) {
       out[name] = [...cities]
         .filter((c) => c.region === name)
