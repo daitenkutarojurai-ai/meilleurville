@@ -1,8 +1,8 @@
-import Link from "next/link";
 import type { Metadata } from "next";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { CITIES_SEED } from "@/data/cities-seed";
+import { VillesSearch } from "@/components/VillesSearch";
+import { CITIES_LIGHT, LEAN_META } from "@/lib/cities-light";
 import { t, ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { CITIES_COUNT } from "@/lib/site-stats";
 
@@ -10,24 +10,21 @@ const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const metadata: Metadata = {
   title: "Explore every French city · Reviews & 2026 rankings",
-  description: `${CITIES_COUNT} French cities profiled with calibrated quality-of-life scores (Insee + Ministry of Interior), resident reviews, and detailed local data.`,
+  description: `${CITIES_COUNT} French cities profiled with calibrated quality-of-life scores (Insee + Ministry of Interior), resident reviews, and detailed local data. Filter by region, lifestyle, terrain and more.`,
   alternates: { canonical: `${EN_BASE}/cities` },
 };
 
 export default function EnCitiesIndex() {
-  const count = CITIES_SEED.length;
+  const count = CITIES_LIGHT.length;
   const avg = (
-    CITIES_SEED.reduce((s, c) => s + c.scores.global, 0) / count
+    CITIES_LIGHT.reduce((s, c) => s + c.scores.global, 0) / count
   ).toFixed(1);
-  const sorted = [...CITIES_SEED].sort(
-    (a, b) => b.scores.global - a.scores.global,
-  );
 
   return (
     <main id="main-content" className="min-h-screen relative">
       <Navbar />
 
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 pt-20 pb-10 text-center">
+      <section className="mx-auto max-w-5xl px-4 sm:px-6 pt-20 pb-8 text-center">
         <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
           🌍 {count} profiled cities
         </p>
@@ -55,33 +52,8 @@ export default function EnCitiesIndex() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-4 sm:px-6 py-6">
-        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {sorted.map((city) => (
-            <li key={city.slug}>
-              <Link
-                href={`/cities/${city.slug}`}
-                className="block rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 transition-all hover:border-[var(--accent)]/40 hover:shadow-lg"
-                aria-label={`${city.name} — score ${city.scores.global.toFixed(1)} out of 10`}
-              >
-                <div className="flex items-baseline justify-between">
-                  <span className="text-sm text-[var(--text-secondary)]">
-                    {city.region ?? ""}
-                  </span>
-                  <span className="font-mono-data font-bold text-xl text-[var(--accent)]">
-                    {city.scores.global.toFixed(1)}
-                  </span>
-                </div>
-                <h2 className="mt-1 text-lg font-bold text-[var(--text-primary)]">
-                  {city.name}
-                </h2>
-                <p className="text-sm text-[var(--text-secondary)]">
-                  {city.department ?? ""}
-                </p>
-              </Link>
-            </li>
-          ))}
-        </ul>
+      <section className="mx-auto max-w-7xl px-4 sm:px-6 py-6">
+        <VillesSearch cities={CITIES_LIGHT} leanMeta={LEAN_META} locale="en" />
       </section>
 
       <Footer />

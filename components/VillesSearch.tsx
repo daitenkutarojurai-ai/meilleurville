@@ -29,40 +29,40 @@ function seedToCity(s: CityLight): City {
 }
 
 const SORT_OPTIONS = [
-  { id: "global", label: "Score global", emoji: "⭐" },
-  { id: "remoteWork", label: "Télétravail", emoji: "💻" },
-  { id: "nature", label: "Nature", emoji: "🌲" },
-  { id: "cost", label: "Coût de vie", emoji: "💸" },
-  { id: "safety", label: "Sécurité", emoji: "🛡️" },
-  { id: "schools", label: "Écoles", emoji: "🎓" },
-  { id: "culture", label: "Culture", emoji: "🎭" },
-  { id: "niche:expat", label: "Expat-friendly", emoji: "🌍" },
-  { id: "niche:remote", label: "Remote workers", emoji: "💻" },
-  { id: "niche:petFriendly", label: "Pet-friendly", emoji: "🐶" },
-  { id: "niche:retirement", label: "Retraite", emoji: "🌿" },
-  { id: "niche:studentLife", label: "Vie étudiante", emoji: "🎒" },
+  { id: "global", label: "Score global", labelEn: "Overall score", emoji: "⭐" },
+  { id: "remoteWork", label: "Télétravail", labelEn: "Remote work", emoji: "💻" },
+  { id: "nature", label: "Nature", labelEn: "Nature", emoji: "🌲" },
+  { id: "cost", label: "Coût de vie", labelEn: "Cost of living", emoji: "💸" },
+  { id: "safety", label: "Sécurité", labelEn: "Safety", emoji: "🛡️" },
+  { id: "schools", label: "Écoles", labelEn: "Schools", emoji: "🎓" },
+  { id: "culture", label: "Culture", labelEn: "Culture", emoji: "🎭" },
+  { id: "niche:expat", label: "Expat-friendly", labelEn: "Expat-friendly", emoji: "🌍" },
+  { id: "niche:remote", label: "Remote workers", labelEn: "Remote workers", emoji: "💻" },
+  { id: "niche:petFriendly", label: "Pet-friendly", labelEn: "Pet-friendly", emoji: "🐶" },
+  { id: "niche:retirement", label: "Retraite", labelEn: "Retirement", emoji: "🌿" },
+  { id: "niche:studentLife", label: "Vie étudiante", labelEn: "Student life", emoji: "🎒" },
 ];
 
 
-const POPULAR_TAGS: Array<{ tag: string; emoji: string }> = [
-  { tag: "mer", emoji: "🌊" },
-  { tag: "montagne", emoji: "⛰️" },
-  { tag: "étudiant", emoji: "🎓" },
-  { tag: "familial", emoji: "👨‍👩‍👧" },
-  { tag: "vélo", emoji: "🚲" },
-  { tag: "nature", emoji: "🌳" },
-  { tag: "dynamique", emoji: "⚡" },
-  { tag: "abordable", emoji: "💰" },
-  { tag: "soleil", emoji: "☀️" },
-  { tag: "culturel", emoji: "🎨" },
+const POPULAR_TAGS: Array<{ tag: string; emoji: string; labelEn: string }> = [
+  { tag: "mer", emoji: "🌊", labelEn: "sea" },
+  { tag: "montagne", emoji: "⛰️", labelEn: "mountains" },
+  { tag: "étudiant", emoji: "🎓", labelEn: "student" },
+  { tag: "familial", emoji: "👨‍👩‍👧", labelEn: "family" },
+  { tag: "vélo", emoji: "🚲", labelEn: "cycling" },
+  { tag: "nature", emoji: "🌳", labelEn: "nature" },
+  { tag: "dynamique", emoji: "⚡", labelEn: "lively" },
+  { tag: "abordable", emoji: "💰", labelEn: "affordable" },
+  { tag: "soleil", emoji: "☀️", labelEn: "sunny" },
+  { tag: "culturel", emoji: "🎨", labelEn: "cultural" },
 ];
 
 const NICHE_OPTIONS = [
-  { id: "expat", label: "🌍 Expat-friendly", desc: "Anglais parlé, communauté internationale" },
-  { id: "remote", label: "💻 Télétravail", desc: "Fibre, coworkings, cafés" },
-  { id: "petFriendly", label: "🐶 Animaux", desc: "Parcs, vétos, espaces verts" },
-  { id: "retirement", label: "🌿 Retraite", desc: "Calme, santé, climat doux" },
-  { id: "studentLife", label: "🎓 Étudiant", desc: "Université, sorties, loyer accessible" },
+  { id: "expat", label: "🌍 Expat-friendly", desc: "Anglais parlé, communauté internationale", labelEn: "🌍 Expat-friendly", descEn: "English spoken, international community" },
+  { id: "remote", label: "💻 Télétravail", desc: "Fibre, coworkings, cafés", labelEn: "💻 Remote work", descEn: "Fibre, coworking, cafés" },
+  { id: "petFriendly", label: "🐶 Animaux", desc: "Parcs, vétos, espaces verts", labelEn: "🐶 Pets", descEn: "Parks, vets, green space" },
+  { id: "retirement", label: "🌿 Retraite", desc: "Calme, santé, climat doux", labelEn: "🌿 Retirement", descEn: "Calm, healthcare, mild climate" },
+  { id: "studentLife", label: "🎓 Étudiant", desc: "Université, sorties, loyer accessible", labelEn: "🎓 Student", descEn: "Universities, nightlife, affordable rent" },
 ] as const;
 type NicheKey = (typeof NICHE_OPTIONS)[number]["id"];
 
@@ -73,6 +73,12 @@ const TERRAIN_EMOJIS: Record<Terrain, string> = {
   plaine: "🌾",
   vallee: "🏞️",
 };
+const TERRAIN_LABELS_EN: Record<Terrain, string> = {
+  mer: "Sea",
+  montagne: "Mountains",
+  plaine: "Plains",
+  vallee: "Valley",
+};
 
 function normalize(s: string): string {
   return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
@@ -81,7 +87,8 @@ function normalize(s: string): string {
 // How many city cards are prerendered into the SSG HTML before "show all".
 const INITIAL_VISIBLE = 120;
 
-export function VillesSearch({ cities, leanMeta }: { cities: CityLight[]; leanMeta: LeanMeta }) {
+export function VillesSearch({ cities, leanMeta, locale = "fr" }: { cities: CityLight[]; leanMeta: LeanMeta; locale?: "fr" | "en" }) {
+  const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const [query, setQuery] = useState("");
   const [sortBy, setSortBy] = useState<string>("global");
   const [region, setRegion] = useState<string>("");
@@ -203,13 +210,13 @@ export function VillesSearch({ cities, leanMeta }: { cities: CityLight[]; leanMe
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Rechercher une ville, région, département... (raccourci : /)"
-            aria-label="Rechercher une ville, région ou département"
+            placeholder={L("Rechercher une ville, région, département... (raccourci : /)", "Search a city, region or department… (shortcut: /)")}
+            aria-label={L("Rechercher une ville, région ou département", "Search a city, region or department")}
             data-search-shortcut
             className="flex-1 bg-transparent text-sm text-[var(--text-primary)] placeholder:text-[var(--text-secondary)] outline-none"
           />
           {query && (
-            <button onClick={() => setQuery("")} aria-label="Effacer la recherche" className="text-[var(--text-secondary)] hover:text-[var(--text-primary)]">
+            <button onClick={() => setQuery("")} aria-label={L("Effacer la recherche", "Clear search")} className="text-[var(--text-secondary)] hover:text-[var(--text-primary)]">
               <X className="h-4 w-4" />
             </button>
           )}
@@ -220,7 +227,7 @@ export function VillesSearch({ cities, leanMeta }: { cities: CityLight[]; leanMe
           onClick={() => setShowFilters(!showFilters)}
         >
           <SlidersHorizontal className="h-4 w-4" />
-          Filtres
+          {L("Filtres", "Filters")}
           {hasFilters && (
             <span className="flex h-4 w-4 items-center justify-center rounded-full bg-[var(--accent)] text-[10px] text-white">
               !
@@ -233,17 +240,17 @@ export function VillesSearch({ cities, leanMeta }: { cities: CityLight[]; leanMe
       {showFilters && (
         <div className="mb-6 rounded-2xl border border-[var(--border)] bg-gradient-to-b from-[var(--bg-surface)] to-[var(--bg-elevated)]/40 ring-1 ring-black/[0.03] shadow-lg shadow-[var(--accent)]/[0.04] p-5 space-y-5">
           <div className="flex items-center justify-between">
-            <span className="text-sm font-semibold text-[var(--text-primary)]">Filtres</span>
+            <span className="text-sm font-semibold text-[var(--text-primary)]">{L("Filtres", "Filters")}</span>
             {hasFilters && (
               <button onClick={clearFilters} className="text-xs text-[var(--accent)] hover:underline">
-                Réinitialiser
+                {L("Réinitialiser", "Reset")}
               </button>
             )}
           </div>
 
           <div>
             <label className="text-xs text-[var(--text-secondary)] flex items-center gap-1.5 mb-2">
-              <ArrowUpDown className="h-3.5 w-3.5 text-[var(--accent)]" /> Trier par
+              <ArrowUpDown className="h-3.5 w-3.5 text-[var(--accent)]" /> {L("Trier par", "Sort by")}
             </label>
             <div className="flex flex-wrap gap-2">
               {SORT_OPTIONS.map((opt) => (
@@ -259,7 +266,7 @@ export function VillesSearch({ cities, leanMeta }: { cities: CityLight[]; leanMe
                   )}
                 >
                   <span aria-hidden>{opt.emoji}</span>
-                  {opt.label}
+                  {locale === "en" ? opt.labelEn : opt.label}
                 </button>
               ))}
             </div>
@@ -267,7 +274,7 @@ export function VillesSearch({ cities, leanMeta }: { cities: CityLight[]; leanMe
 
           <div>
             <label className="text-xs text-[var(--text-secondary)] flex items-center gap-1.5 mb-2">
-              <Tag className="h-3.5 w-3.5 text-[var(--accent)]" /> Ambiance / Profil
+              <Tag className="h-3.5 w-3.5 text-[var(--accent)]" /> {L("Ambiance / Profil", "Vibe / profile")}
             </label>
             <div className="flex flex-wrap gap-2">
               <button
@@ -280,9 +287,9 @@ export function VillesSearch({ cities, leanMeta }: { cities: CityLight[]; leanMe
                     : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40"
                 )}
               >
-                Toutes
+                {L("Toutes", "All")}
               </button>
-              {POPULAR_TAGS.map(({ tag: t, emoji }) => (
+              {POPULAR_TAGS.map(({ tag: t, emoji, labelEn }) => (
                 <button
                   key={t}
                   onClick={() => setTag(tag === t ? "" : t)}
@@ -295,7 +302,7 @@ export function VillesSearch({ cities, leanMeta }: { cities: CityLight[]; leanMe
                   )}
                 >
                   <span aria-hidden>{emoji}</span>
-                  {t}
+                  {locale === "en" ? labelEn : t}
                 </button>
               ))}
             </div>
@@ -303,10 +310,10 @@ export function VillesSearch({ cities, leanMeta }: { cities: CityLight[]; leanMe
 
           <div>
             <label className="text-xs text-[var(--text-secondary)] flex flex-wrap items-center gap-1.5 mb-2">
-              <Users className="h-3.5 w-3.5 text-[var(--accent)]" /> Profils de vie · niche
+              <Users className="h-3.5 w-3.5 text-[var(--accent)]" /> {L("Profils de vie · niche", "Lifestyle profiles · niche")}
               {niches.size > 0 && (
                 <span className="ml-2 text-[10px] text-[var(--text-tertiary)]">
-                  Score mini : <span className="font-mono-data font-bold">{nicheMin.toFixed(1)}</span>/10
+                  {L("Score mini :", "Min score:")} <span className="font-mono-data font-bold">{nicheMin.toFixed(1)}</span>/10
                 </span>
               )}
             </label>
@@ -317,7 +324,7 @@ export function VillesSearch({ cities, leanMeta }: { cities: CityLight[]; leanMe
                   <button
                     key={n.id}
                     onClick={() => toggleNiche(n.id)}
-                    title={n.desc}
+                    title={locale === "en" ? n.descEn : n.desc}
                     aria-pressed={active}
                     className={cn(
                       "rounded-xl border px-3 py-1.5 text-xs font-medium transition-colors cursor-pointer",
@@ -326,7 +333,7 @@ export function VillesSearch({ cities, leanMeta }: { cities: CityLight[]; leanMe
                         : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40"
                     )}
                   >
-                    {n.label}
+                    {locale === "en" ? n.labelEn : n.label}
                   </button>
                 );
               })}
@@ -340,14 +347,14 @@ export function VillesSearch({ cities, leanMeta }: { cities: CityLight[]; leanMe
                 value={nicheMin}
                 onChange={(e) => setNicheMin(Number(e.target.value))}
                 className="w-full accent-[var(--accent)]"
-                aria-label="Score minimum sur les niches sélectionnées"
+                aria-label={L("Score minimum sur les niches sélectionnées", "Minimum score on selected niches")}
               />
             )}
           </div>
 
           <div>
             <label className="text-xs text-[var(--text-secondary)] flex items-center gap-1.5 mb-2">
-              <Mountain className="h-3.5 w-3.5 text-[var(--accent)]" /> Terrain
+              <Mountain className="h-3.5 w-3.5 text-[var(--accent)]" /> {L("Terrain", "Terrain")}
             </label>
             <div className="flex flex-wrap gap-2">
               {TERRAIN_OPTIONS.map((t) => {
@@ -365,7 +372,7 @@ export function VillesSearch({ cities, leanMeta }: { cities: CityLight[]; leanMe
                     )}
                   >
                     <span aria-hidden>{TERRAIN_EMOJIS[t]}</span>
-                    {TERRAIN_LABELS[t]}
+                    {locale === "en" ? TERRAIN_LABELS_EN[t] : TERRAIN_LABELS[t]}
                   </button>
                 );
               })}
@@ -375,15 +382,15 @@ export function VillesSearch({ cities, leanMeta }: { cities: CityLight[]; leanMe
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
               <label className="text-xs text-[var(--text-secondary)] flex items-center gap-1.5 mb-2">
-                <MapPin className="h-3.5 w-3.5 text-[var(--accent)]" /> Région
+                <MapPin className="h-3.5 w-3.5 text-[var(--accent)]" /> {L("Région", "Region")}
               </label>
               <select
                 value={region}
                 onChange={(e) => { setRegion(e.target.value); setDept(""); }}
-                aria-label="Filtrer par région"
+                aria-label={L("Filtrer par région", "Filter by region")}
                 className="w-full rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] px-3 py-2 text-sm text-[var(--text-primary)] outline-none focus:border-[var(--accent)]/50 transition-colors cursor-pointer"
               >
-                <option value="">Toutes les régions</option>
+                <option value="">{L("Toutes les régions", "All regions")}</option>
                 {REGIONS.map((r) => (
                   <option key={r} value={r}>{r}</option>
                 ))}
@@ -392,15 +399,15 @@ export function VillesSearch({ cities, leanMeta }: { cities: CityLight[]; leanMe
 
             <div>
               <label className="text-xs text-[var(--text-secondary)] flex items-center gap-1.5 mb-2">
-                <MapPin className="h-3.5 w-3.5 text-[var(--accent)]" /> Département
+                <MapPin className="h-3.5 w-3.5 text-[var(--accent)]" /> {L("Département", "Department")}
               </label>
               <select
                 value={dept}
                 onChange={(e) => { setDept(e.target.value); setRegion(""); }}
-                aria-label="Filtrer par département"
+                aria-label={L("Filtrer par département", "Filter by department")}
                 className="w-full rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] px-3 py-2 text-sm text-[var(--text-primary)] outline-none focus:border-[var(--accent)]/50 transition-colors cursor-pointer"
               >
-                <option value="">Tous les départements</option>
+                <option value="">{L("Tous les départements", "All departments")}</option>
                 {DEPARTMENTS.map((d) => (
                   <option key={d} value={d}>{d}</option>
                 ))}
@@ -410,8 +417,8 @@ export function VillesSearch({ cities, leanMeta }: { cities: CityLight[]; leanMe
 
           <div className="mt-4">
             <label className="text-xs text-[var(--text-secondary)] flex items-center gap-1.5 mb-2">
-              <Vote className="h-3.5 w-3.5 text-[var(--accent)]" /> Orientation politique
-              <span className="text-[var(--text-tertiary)]">· vote 1ᵉʳ tour 2022 · indicatif</span>
+              <Vote className="h-3.5 w-3.5 text-[var(--accent)]" /> {L("Orientation politique", "Political leaning")}
+              <span className="text-[var(--text-tertiary)]">{L("· vote 1ᵉʳ tour 2022 · indicatif", "· 2022 1st-round vote · indicative")}</span>
             </label>
             <div className="flex flex-wrap gap-2">
               <button
@@ -419,7 +426,7 @@ export function VillesSearch({ cities, leanMeta }: { cities: CityLight[]; leanMe
                 aria-pressed={lean === ""}
                 className={`rounded-full px-3 py-1.5 text-xs font-medium border transition-colors ${lean === "" ? "border-[var(--accent)] bg-[var(--accent)]/10 text-[var(--accent)]" : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40"}`}
               >
-                Toutes
+                {L("Toutes", "All")}
               </button>
               {leanMeta.options.map((b) => (
                 <button
@@ -430,7 +437,7 @@ export function VillesSearch({ cities, leanMeta }: { cities: CityLight[]; leanMe
                   style={lean === b ? { backgroundColor: leanMeta.colors[b], borderColor: leanMeta.colors[b] } : undefined}
                 >
                   <span className="inline-block h-2 w-2 rounded-sm" style={{ backgroundColor: lean === b ? "rgba(255,255,255,0.9)" : leanMeta.colors[b] }} />
-                  {leanMeta.labels.fr[b]}
+                  {leanMeta.labels[locale][b]}
                 </button>
               ))}
             </div>
@@ -441,10 +448,10 @@ export function VillesSearch({ cities, leanMeta }: { cities: CityLight[]; leanMe
       {/* Results count */}
       <div className="mb-4 flex items-center gap-2">
         <span className="text-sm text-[var(--text-secondary)]">
-          {filtered.length} ville{filtered.length !== 1 ? "s" : ""}
+          {filtered.length} {L(filtered.length !== 1 ? "villes" : "ville", filtered.length !== 1 ? "cities" : "city")}
         </span>
         {hasFilters && (
-          <Badge variant="accent">{sortBy !== "global" ? `Triées par ${SORT_OPTIONS.find(o => o.id === sortBy)?.label}` : ""}{region ? ` · ${region}` : ""}{dept ? ` · ${dept}` : ""}</Badge>
+          <Badge variant="accent">{sortBy !== "global" ? `${L("Triées par", "Sorted by")} ${(() => { const o = SORT_OPTIONS.find(o => o.id === sortBy); return o ? (locale === "en" ? o.labelEn : o.label) : ""; })()}` : ""}{region ? ` · ${region}` : ""}{dept ? ` · ${dept}` : ""}</Badge>
         )}
       </div>
 
@@ -459,7 +466,7 @@ export function VillesSearch({ cities, leanMeta }: { cities: CityLight[]; leanMe
             <>
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                 {visible.map((city, i) => (
-                  <CityCard key={city.slug} city={city} rank={i + 1} />
+                  <CityCard key={city.slug} city={city} rank={i + 1} locale={locale} />
                 ))}
               </div>
               {capped && (
@@ -470,7 +477,7 @@ export function VillesSearch({ cities, leanMeta }: { cities: CityLight[]; leanMe
                     onClick={() => setShowAll(true)}
                     className="inline-flex items-center gap-2 rounded-full border border-[var(--accent)]/30 bg-[var(--accent)]/5 px-6 py-3 text-sm font-semibold text-[var(--accent)] transition-colors hover:border-[var(--accent)] hover:bg-[var(--accent)]/10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
                   >
-                    Afficher les {filtered.length - INITIAL_VISIBLE} villes restantes
+                    {L(`Afficher les ${filtered.length - INITIAL_VISIBLE} villes restantes`, `Show the remaining ${filtered.length - INITIAL_VISIBLE} cities`)}
                   </button>
                 </div>
               )}
@@ -481,17 +488,17 @@ export function VillesSearch({ cities, leanMeta }: { cities: CityLight[]; leanMe
         <div className="rounded-2xl border border-dashed border-[var(--border)] bg-[var(--bg-surface)]/50 py-16 px-6 text-center">
           <div className="text-5xl mb-3" aria-hidden>🔍</div>
           <p className="text-base font-semibold text-[var(--text-primary)] mb-1">
-            Aucune ville ne correspond {query ? <>à «&nbsp;{query}&nbsp;»</> : "à vos filtres"}.
+            {L("Aucune ville ne correspond", "No city matches")} {query ? <>{L("à", "")} «&nbsp;{query}&nbsp;»</> : L("à vos filtres", "your filters")}.
           </p>
           <p className="text-xs text-[var(--text-tertiary)] mb-5">
-            Essayez un autre terme, ou réinitialisez les filtres.
+            {L("Essayez un autre terme, ou réinitialisez les filtres.", "Try another term, or reset the filters.")}
           </p>
           {hasFilters && (
             <button
               onClick={clearFilters}
               className="inline-flex items-center gap-1.5 rounded-full bg-[var(--accent)]/10 hover:bg-[var(--accent)]/15 text-[var(--accent)] text-xs font-semibold px-4 py-2 transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
             >
-              Réinitialiser les filtres
+              {L("Réinitialiser les filtres", "Reset filters")}
             </button>
           )}
         </div>
