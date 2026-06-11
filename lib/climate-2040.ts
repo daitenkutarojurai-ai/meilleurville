@@ -13,6 +13,17 @@
 
 import type { CitySeed } from "@/data/cities-seed";
 
+// Structural input — the projection only reads these four fields, so it accepts
+// both CitySeed and the lighter CityLight projection (CitySeed is a union that
+// CityLight can't satisfy nominally).
+export type ClimateCityInput = {
+  name: string;
+  avgTempJuly: number | null;
+  latitude: number;
+  longitude: number;
+  region: string | null;
+};
+
 export type MacroRegion =
   | "mediterranean"
   | "atlantic"
@@ -170,7 +181,7 @@ const MACRO_REGION_DELTAS: Record<MacroRegion, MacroRegionDelta> = {
 // don't map 1:1 to climatic macro-regions, so a few regions split across
 // climate zones (e.g. Auvergne-Rhône-Alpes covers Alpes + Vallée du Rhône +
 // Massif Central). We pick the dominant climate zone, then refine on coord.
-function inferMacroRegion(city: CitySeed): MacroRegion {
+function inferMacroRegion(city: ClimateCityInput): MacroRegion {
   const r = city.region ?? "";
   const lat = city.latitude;
   const lon = city.longitude;
@@ -259,7 +270,7 @@ function currentTropicalNightsFor(avgTempJuly: number | null): number {
   return 1;
 }
 
-function verdictFor(city: CitySeed, projected: { days30: number; nights: number }): string {
+function verdictFor(city: ClimateCityInput, projected: { days30: number; nights: number }): string {
   if (projected.days30 >= 50) {
     return `À ${city.name} en 2040 : ${projected.days30} jours > 30 °C attendus en moyenne — climat estival sévère, à intégrer dans une décision d'installation longue durée.`;
   }
@@ -272,7 +283,7 @@ function verdictFor(city: CitySeed, projected: { days30: number; nights: number 
   return `${city.name} reste relativement épargnée à horizon 2040 : ${projected.days30} jours > 30 °C estimés, dans la moyenne basse française.`;
 }
 
-export function projectClimate2040(city: CitySeed): ClimateProjection {
+export function projectClimate2040(city: ClimateCityInput): ClimateProjection {
   const mr = MACRO_REGION_DELTAS[inferMacroRegion(city)];
   const currentJulyC = city.avgTempJuly;
   const projectedJulyC = currentJulyC != null ? Math.round((currentJulyC + mr.deltaJulyC) * 10) / 10 : null;

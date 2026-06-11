@@ -4,6 +4,7 @@ import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { TimelapseClient } from "./TimelapseClient";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { CITIES_LIGHT_METRO } from "@/lib/cities-light";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -46,7 +47,7 @@ export default function Climat2040TimelapsePage() {
       </section>
 
       <div className="mx-auto max-w-6xl px-4 sm:px-6 py-10">
-        <TimelapseClient />
+        <TimelapseClient cities={CITIES_LIGHT_METRO} />
       </div>
 
       <Footer />

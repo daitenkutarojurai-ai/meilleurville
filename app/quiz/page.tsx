@@ -5,6 +5,7 @@ import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
+import { CITIES_LIGHT } from "@/lib/cities-light";
 
 export const metadata: Metadata = {
   title: "Quiz · Trouvez votre ville idéale en France",
@@ -30,7 +31,7 @@ export default function QuizPage() {
       <AmbientBackground />
       <Navbar />
       <h1 className="sr-only">Quiz · Trouvez votre ville idéale en France</h1>
-      <QuizFlow />
+      <QuizFlow cities={CITIES_LIGHT} citiesCount={CITIES_COUNT} />
       <Footer />
     </main>
   );

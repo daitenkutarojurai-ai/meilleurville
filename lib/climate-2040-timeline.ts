@@ -4,7 +4,7 @@
 //
 // Pure math on top of lib/climate-2040.ts macro-region deltas. No new dataset.
 
-import type { CitySeed } from "@/data/cities-seed";
+import type { ClimateCityInput } from "@/lib/climate-2040";
 import { projectClimate2040 } from "@/lib/climate-2040";
 
 export const CLIMATE_TIMELINE_MIN_YEAR = 2026;
@@ -21,7 +21,7 @@ export interface InterpolatedClimate {
   progress: number;
 }
 
-export function interpolateClimate(city: CitySeed, year: number): InterpolatedClimate {
+export function interpolateClimate(city: ClimateCityInput, year: number): InterpolatedClimate {
   const proj = projectClimate2040(city);
   const clampedYear = Math.max(CLIMATE_TIMELINE_MIN_YEAR, Math.min(CLIMATE_TIMELINE_MAX_YEAR, year));
   const progress = (clampedYear - CLIMATE_TIMELINE_MIN_YEAR) / (CLIMATE_TIMELINE_MAX_YEAR - CLIMATE_TIMELINE_MIN_YEAR);

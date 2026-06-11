@@ -17,6 +17,11 @@ export const CITIES_LIGHT: CityLight[] = CITIES_SEED.map((c) => {
   return rest;
 });
 
+// Metropolitan-bbox subset (excludes DROM) — for the climate timelapse map.
+export const CITIES_LIGHT_METRO: CityLight[] = CITIES_LIGHT.filter(
+  (c) => c.longitude >= -6 && c.longitude <= 10 && c.latitude >= 40 && c.latitude <= 52,
+);
+
 // Loyer T2 only — the full HOUSING table (T1/T2/T3 + buy price) is not needed
 // by the map / leaderboard surfaces.
 export const RENT_T2_BY_SLUG: Record<string, number> = Object.fromEntries(

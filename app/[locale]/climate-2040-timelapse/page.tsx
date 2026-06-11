@@ -3,6 +3,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { TimelapseClient } from "@/app/climat-2040-timelapse/TimelapseClient";
+import { CITIES_LIGHT_METRO } from "@/lib/cities-light";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 
@@ -52,7 +53,7 @@ export default function EnClimate2040TimelapsePage() {
       </section>
 
       <div className="mx-auto max-w-5xl px-4 sm:px-6 py-10">
-        <TimelapseClient locale="en" />
+        <TimelapseClient locale="en" cities={CITIES_LIGHT_METRO} />
       </div>
 
       <Footer />

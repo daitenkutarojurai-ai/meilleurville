@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 import type { QuizAnswers, MatchResult } from "@/lib/types";
 import { CityCard } from "@/components/CityCard";
 import { QuizShareButton } from "./QuizShareButton";
-import { CITIES_SEED } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 import Link from "next/link";
 
 // ─── Steps ───────────────────────────────────────────────────────────────────
@@ -143,7 +143,9 @@ const INITIAL_ANSWERS: Partial<QuizAnswers> = {
 
 // ─── Component ────────────────────────────────────────────────────────────────
 
-export function QuizFlow() {
+// cities + citiesCount come from the server page (lib/cities-light) — importing
+// the seed here would ship it in the client bundle.
+export function QuizFlow({ cities, citiesCount }: { cities: CityLight[]; citiesCount: number }) {
   const [step, setStep] = useState(0);
   const [answers, setAnswers] = useState<Partial<QuizAnswers>>(INITIAL_ANSWERS);
   const [loading, setLoading] = useState(false);
@@ -187,13 +189,13 @@ export function QuizFlow() {
       });
       const data = res.ok ? await res.json() : null;
       if (!data || !Array.isArray(data.results)) {
-        setResults(getDemoResults());
+        setResults(getDemoResults(cities));
       } else {
         setResults(data.results);
       }
     } catch {
       // fallback to demo results
-      setResults(getDemoResults());
+      setResults(getDemoResults(cities));
     } finally {
       setLoading(false);
     }
@@ -209,7 +211,7 @@ export function QuizFlow() {
         <div className="text-center">
           <p className="text-lg font-semibold text-[var(--text-primary)]">Calcul en cours...</p>
           <p className="text-sm text-[var(--text-secondary)] mt-1">
-            Analyse de votre profil contre {CITIES_SEED.length} villes françaises
+            Analyse de votre profil contre {citiesCount} villes françaises
           </p>
         </div>
         <div className="flex gap-1.5">
@@ -531,7 +533,7 @@ function canAdvance(
 
 // Demo fallback uses REAL seed scores — the old hardcoded values (Annecy 9.1)
 // exceeded the actual score clamp and showed fake figures on API failure.
-function getDemoResults(): MatchResult[] {
+function getDemoResults(cities: CityLight[]): MatchResult[] {
   const picks: Array<[string, string]> = [
     ["annecy", "Nature + sécurité + qualité de vie"],
     ["nantes", "Dynamisme + transports + prix"],
@@ -540,7 +542,7 @@ function getDemoResults(): MatchResult[] {
     ["montpellier", "Soleil + mer + étudiant"],
   ];
   return picks.flatMap(([slug, reason]) => {
-    const c = CITIES_SEED.find((x) => x.slug === slug);
+    const c = cities.find((x) => x.slug === slug);
     if (!c) return [];
     return [{
       city: {

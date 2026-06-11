@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { Thermometer, Sun, Moon, Play, Pause, ChevronRight } from "lucide-react";
-import { CITIES_SEED } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 import {
   CLIMATE_TIMELINE_MIN_YEAR,
   CLIMATE_TIMELINE_MAX_YEAR,
@@ -63,10 +63,6 @@ function buildPath(points: Array<[number, number]>): string {
 const BORDER_PATH = buildPath(BORDER);
 const CORSICA_PATH = buildPath(CORSICA);
 
-const METROPOLITAN = CITIES_SEED.filter(
-  (c) => c.longitude >= -6 && c.longitude <= 10 && c.latitude >= 40 && c.latitude <= 52,
-);
-
 const METRIC_KEYS: ClimateMetric[] = ["julyC", "days30C", "tropicalNights"];
 
 const METRIC_ICON: Record<ClimateMetric, typeof Thermometer> = {
@@ -81,7 +77,9 @@ const METRIC_LABEL_EN: Record<ClimateMetric, { label: string; unit: string }> = 
   tropicalNights: { label: "Tropical nights", unit: "n" },
 };
 
-export function TimelapseClient({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
+// cities = the metropolitan subset, computed server-side (lib/cities-light) so
+// the seed isn't bundled here.
+export function TimelapseClient({ locale = "fr", cities }: { locale?: "fr" | "en"; cities: CityLight[] }) {
   const t = <T,>(fr: T, en: T): T => (locale === "en" ? en : fr);
   const cityHref = (slug: string) => (locale === "en" ? `/cities/${slug}` : `/villes/${slug}`);
   const metricLabel = (m: ClimateMetric) =>
@@ -107,7 +105,7 @@ export function TimelapseClient({ locale = "fr" }: { locale?: "fr" | "en" } = {}
   }, [playing]);
 
   const interpolatedCities = useMemo(() => {
-    return METROPOLITAN.map((c) => {
+    return cities.map((c) => {
       const climate = interpolateClimate(c, year);
       const value = metricValue(climate, metric);
       const [x, y] = project(c.longitude, c.latitude);
