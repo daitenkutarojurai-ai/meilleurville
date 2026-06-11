@@ -11,10 +11,8 @@
 // La projection est INDICATIVE — les modèles climatiques ont une incertitude
 // régionale de ±0,5 °C. Tag « Projection ARPEGE » explicite sur l'UI.
 
-import type { CitySeed } from "@/data/cities-seed";
-
-// Structural input — the projection only reads these four fields, so it accepts
-// both CitySeed and the lighter CityLight projection (CitySeed is a union that
+// Structural input — the projection only reads these fields, so it accepts both
+// the full seed and the lighter CityLight projection (the seed type is a union
 // CityLight can't satisfy nominally).
 export type ClimateCityInput = {
   name: string;
