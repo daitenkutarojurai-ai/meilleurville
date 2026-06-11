@@ -12,7 +12,7 @@
 // missing on DROM and a few mainland stations).
 
 import rawData from "@/data/climate-normals-raw.json";
-import type { CitySeed } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 import type { MonthIndex } from "@/lib/vacation-seasons";
 
 export interface NormalMonth {
@@ -61,7 +61,7 @@ function haversineKm(lat1: number, lon1: number, lat2: number, lon2: number): nu
 
 const nearestCache = new Map<string, ClimateStation>();
 
-export function nearestStation(city: CitySeed): ClimateStation | null {
+export function nearestStation(city: CityLight): ClimateStation | null {
   const cached = nearestCache.get(city.slug);
   if (cached) return cached;
   if (city.latitude == null || city.longitude == null) return null;
@@ -81,7 +81,7 @@ export function nearestStation(city: CitySeed): ClimateStation | null {
 
 /** Returns the matched normals for a (city, month), or null if no station / no data. */
 export function normalsForCityMonth(
-  city: CitySeed,
+  city: CityLight,
   month: MonthIndex,
 ): NormalMonth | null {
   const station = nearestStation(city);
@@ -92,7 +92,7 @@ export function normalsForCityMonth(
 
 /** Distance (km) from a city to its matched station — useful for the UI to
     flag when the station is far (eg > 80 km) and the inference is rough. */
-export function distanceToNearestKm(city: CitySeed): number | null {
+export function distanceToNearestKm(city: CityLight): number | null {
   if (city.latitude == null || city.longitude == null) return null;
   const station = nearestStation(city);
   if (!station) return null;

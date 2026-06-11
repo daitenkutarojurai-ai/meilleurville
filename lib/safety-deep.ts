@@ -17,7 +17,7 @@
 // (cohérent avec le quartet env F40-F43, opposé du score safety du seed).
 // Composite = moyenne pondérée des 4 sous-scores.
 
-import type { CitySeed } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 
 export type SafetyLevel = "calme" | "vigilance" | "tendu" | "critique";
 
@@ -58,7 +58,7 @@ function levelFromScore(s: number): SafetyLevel {
 // caractère touristique). Les anciens sets PROPERTY_HIGH/VERY_LOW_DEPTS ont
 // donc été retirés.
 
-function propertyRisk(city: CitySeed): SafetyDimension {
+function propertyRisk(city: CityLight): SafetyDimension {
   const pop = city.population ?? 0;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
   const isMetro = /métropole/.test(tags);
@@ -98,7 +98,7 @@ function propertyRisk(city: CitySeed): SafetyDimension {
 // double-comptage avec DEPT_SAFETY_BIAS (score-calibration.ts). Les DROM
 // restent traités directement via city.department dans la fonction.
 
-function personsRisk(city: CitySeed): SafetyDimension {
+function personsRisk(city: CityLight): SafetyDimension {
   const pop = city.population ?? 0;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
   const isMetro = /métropole/.test(tags);
@@ -133,7 +133,7 @@ function personsRisk(city: CitySeed): SafetyDimension {
 // Villes étudiantes, festives, touristiques concentrent les rixes nocturnes.
 // Les bourgs calmes en sont quasi-exempts. Pop > 100k = trafic noctambule.
 
-function nocturnalRisk(city: CitySeed): SafetyDimension {
+function nocturnalRisk(city: CityLight): SafetyDimension {
   const pop = city.population ?? 0;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
   const isFestif = /festif|nocturne|bar|festival/.test(tags);
@@ -174,7 +174,7 @@ function nocturnalRisk(city: CitySeed): SafetyDimension {
 // Le taux de signalement est plus élevé en zones urbaines (effet de
 // signalement plus que d'occurrence pure). DROM particulièrement exposés.
 
-function vffsRisk(city: CitySeed): SafetyDimension {
+function vffsRisk(city: CityLight): SafetyDimension {
   const pop = city.population ?? 0;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
   const isMetro = /métropole/.test(tags);
@@ -227,7 +227,7 @@ function composeSignature(s: SafetyDeep, name: string): string {
   return `${name} cumule plusieurs tensions sécurité : ${tops.slice(0, 2).map((t) => `${t.k} (${t.d.level})`).join(", ")}.`;
 }
 
-export function computeSafetyDeep(city: CitySeed): SafetyDeep {
+export function computeSafetyDeep(city: CityLight): SafetyDeep {
   const property = propertyRisk(city);
   const persons = personsRisk(city);
   const nocturnal = nocturnalRisk(city);

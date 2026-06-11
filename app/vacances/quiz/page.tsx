@@ -4,6 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { QuizFlow } from "./QuizFlow";
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const revalidate = false;
@@ -58,7 +59,7 @@ export default function VacancesQuizPage() {
       </section>
 
       <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6">
-        <QuizFlow />
+        <QuizFlow cities={CITIES_LIGHT} />
       </section>
 
       <section className="mx-auto max-w-3xl px-4 sm:px-6 pb-14">

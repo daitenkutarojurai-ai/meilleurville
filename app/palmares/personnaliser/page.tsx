@@ -4,6 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { PersonalSynthesisQuiz } from "@/components/PersonalSynthesisQuiz";
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const revalidate = false;
@@ -71,7 +72,7 @@ export default function PersonnaliserPalmares() {
         </p>
 
         <div className="mt-8">
-          <PersonalSynthesisQuiz />
+          <PersonalSynthesisQuiz cities={CITIES_LIGHT} />
         </div>
 
         <p className="mt-6 text-xs text-[var(--text-tertiary)]">

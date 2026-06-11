@@ -19,7 +19,7 @@
 // La page reste TAGGÉE comme synthèse pédagogique — pour un PPRI précis
 // l'utilisateur doit consulter Géorisques (lien sortant).
 
-import type { CitySeed } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 
 export type RiskLevel = "faible" | "modere" | "eleve" | "fort";
 
@@ -128,7 +128,7 @@ const SEISMIC_LABEL: Record<number, string> = {
   5: "Zone 5 — forte (Antilles)",
 };
 
-function seismicRisk(city: CitySeed): RiskDimension {
+function seismicRisk(city: CityLight): RiskDimension {
   const zone = SEISMIC_ZONE[city.department] ?? 1;
   const score = SEISMIC_SCORE[zone];
   return { score, level: levelFromScore(score), reason: SEISMIC_LABEL[zone] };
@@ -159,7 +159,7 @@ const CLAY_MED_DEPTS = new Set([
   "Tarn", "Haute-Garonne", "Ariège",
 ]);
 
-function clayRisk(city: CitySeed): RiskDimension {
+function clayRisk(city: CityLight): RiskDimension {
   const d = city.department;
   if (CLAY_HIGH_DEPTS.has(d)) {
     return {
@@ -203,7 +203,7 @@ const FIRE_MED = new Set([
   "Landes", "Gironde", "Dordogne", "Lot", "Aveyron", "Tarn",
 ]);
 
-function wildfireRisk(city: CitySeed): RiskDimension {
+function wildfireRisk(city: CityLight): RiskDimension {
   const d = city.department;
   if (FIRE_HIGH.has(d)) {
     return {
@@ -253,7 +253,7 @@ function tagsMatchAny(tags: string[], terms: Set<string>): boolean {
 
 const COASTAL_LAT_LON_TAGS = ["mer", "plage", "atlantique", "méditerranée", "manche", "lagon", "côte", "littoral", "estuaire", "bord de mer", "îles", "presqu'île"];
 
-function floodRisk(city: CitySeed): RiskDimension {
+function floodRisk(city: CityLight): RiskDimension {
   const tags = city.characterTags ?? [];
   const lc = tags.join(" ").toLowerCase();
   const hasRiver = tagsMatchAny(tags, RIVER_TAGS);
@@ -320,7 +320,7 @@ function composeSignature(r: NaturalRisks, name: string): string {
   return `${name} cumule plusieurs risques notables : ${tops.slice(0, 2).map((t) => `${t.k} (${t.d.level})`).join(", ")}.`;
 }
 
-export function computeNaturalRisks(city: CitySeed): NaturalRisks {
+export function computeNaturalRisks(city: CityLight): NaturalRisks {
   const flood = floodRisk(city);
   const seismic = seismicRisk(city);
   const clay = clayRisk(city);

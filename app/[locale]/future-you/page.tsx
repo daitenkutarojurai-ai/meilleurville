@@ -4,6 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { FutureYouClient } from "@/app/future-you/FutureYouClient";
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 
@@ -57,7 +58,7 @@ export default function EnFutureYouPage() {
       </section>
 
       <div className="mx-auto max-w-5xl px-4 sm:px-6 py-10">
-        <FutureYouClient locale="en" />
+        <FutureYouClient locale="en" cities={CITIES_LIGHT} />
       </div>
 
       <Footer />

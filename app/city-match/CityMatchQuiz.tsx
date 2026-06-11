@@ -11,6 +11,7 @@ import {
   type CityMatchAnswer,
   type CityMatchResult,
 } from "@/lib/city-match";
+import type { CityLight } from "@/lib/cities-light";
 import { scoreColor, scoreHex } from "@/lib/utils";
 
 type Phase = "intro" | "quiz" | "result";
@@ -90,7 +91,7 @@ function translateReason(reason: string): string {
   return reason;
 }
 
-export function CityMatchQuiz({ locale = "fr" }: { locale?: Locale } = {}) {
+export function CityMatchQuiz({ locale = "fr", cities }: { locale?: Locale; cities: CityLight[] }) {
   const t = (fr: string, en: string) => (locale === "en" ? en : fr);
   const cityHref = (slug: string) => (locale === "en" ? `/cities/${slug}` : `/villes/${slug}`);
   const localizeReason = (reason: string) => (locale === "en" ? translateReason(reason) : reason);
@@ -104,13 +105,13 @@ export function CityMatchQuiz({ locale = "fr" }: { locale?: Locale } = {}) {
 
   const liveTop3 = useMemo(() => {
     if (answers.length === 0) return [];
-    return computeMatches(answers).slice(0, 3);
-  }, [answers]);
+    return computeMatches(answers, cities).slice(0, 3);
+  }, [answers, cities]);
 
   const finalResult = useMemo(() => {
     if (phase !== "result") return null;
-    return topMatchesWithSurprise(answers, 3);
-  }, [phase, answers]);
+    return topMatchesWithSurprise(answers, cities, 3);
+  }, [phase, answers, cities]);
 
   const code = useMemo(() => encodeAnswers(answers), [answers]);
 

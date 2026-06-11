@@ -58,7 +58,7 @@ export default async function CoutMenageCityPage({ params }: Props) {
   const city = CITIES_SEED.find((c) => c.slug === ville);
   if (!city) notFound();
 
-  const breakdowns = householdBreakdownsAllProfiles(ville);
+  const breakdowns = householdBreakdownsAllProfiles(city);
   const order: HouseholdProfile[] = ["solo", "couple", "famille", "retraite"];
   const byKey = new Map(breakdowns.map((b) => [b.profile, b]));
   const cols = order.map((k) => byKey.get(k)!);

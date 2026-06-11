@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
@@ -80,7 +81,7 @@ export default async function ProfilePage({ params }: Props) {
   const def = VACATION_PROFILE_DEFS[slug];
   const enDef = EN_PROFILE_DEFS[slug];
 
-  const top20 = topCitiesForProfile(slug, { limit: 20 });
+  const top20 = topCitiesForProfile(slug, CITIES_LIGHT, { limit: 20 });
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Home", path: `${EN_BASE}/` },

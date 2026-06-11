@@ -9,7 +9,7 @@
 // L'engine `vacation-fit` combine activityFitness + seasonFit pour produire
 // le score final d'une destination donnée.
 
-import type { CitySeed } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 import type { MonthIndex, MonthSignal } from "@/lib/vacation-seasons";
 
 export const ACTIVITIES = [
@@ -128,7 +128,7 @@ export const ACTIVITY_DEFS: Record<ActivitySlug, ActivityDef> = {
 // activité. La logique est volontairement conservatrice : on préfère un
 // score plat (4-5) plutôt qu'un faux 8.
 
-function tagSet(city: CitySeed): Set<string> {
+function tagSet(city: CityLight): Set<string> {
   return new Set(
     (city.characterTags ?? []).flatMap((t) =>
       t.toLowerCase().split(/[\s,/-]+/)
@@ -136,7 +136,7 @@ function tagSet(city: CitySeed): Set<string> {
   );
 }
 
-function isCoastal(city: CitySeed): boolean {
+function isCoastal(city: CityLight): boolean {
   const tags = tagSet(city);
   return ["mer", "plage", "côte", "atlantique", "méditerranée",
     "manche", "balnéaire", "littoral", "lagon", "estuaire", "îles"].some((t) =>
@@ -144,19 +144,19 @@ function isCoastal(city: CitySeed): boolean {
   );
 }
 
-function isMediterranean(city: CitySeed): boolean {
+function isMediterranean(city: CityLight): boolean {
   return ["Pyrénées-Orientales", "Aude", "Hérault", "Gard", "Bouches-du-Rhône",
     "Var", "Alpes-Maritimes", "Corse-du-Sud", "Haute-Corse"].includes(city.department);
 }
 
-function isAtlantic(city: CitySeed): boolean {
+function isAtlantic(city: CityLight): boolean {
   // Façade atlantique principale
   return ["Pyrénées-Atlantiques", "Landes", "Gironde", "Charente-Maritime",
     "Vendée", "Loire-Atlantique", "Morbihan", "Finistère",
     "Côtes-d'Armor", "Ille-et-Vilaine", "Manche"].includes(city.department);
 }
 
-function isMountain(city: CitySeed): boolean {
+function isMountain(city: CityLight): boolean {
   const tags = tagSet(city);
   const tagHit = ["alpes", "pyrénées", "montagne", "altitude", "station", "ski", "massif"].some((t) =>
     tags.has(t)
@@ -164,7 +164,7 @@ function isMountain(city: CitySeed): boolean {
   return (city.elevation ?? 0) >= 500 || tagHit;
 }
 
-function isSkiResort(city: CitySeed): boolean {
+function isSkiResort(city: CityLight): boolean {
   const tags = tagSet(city);
   const ALPINE_DEPTS = ["Haute-Savoie", "Savoie", "Hautes-Alpes", "Isère",
     "Alpes-de-Haute-Provence", "Alpes-Maritimes"];
@@ -178,7 +178,7 @@ function isSkiResort(city: CitySeed): boolean {
   );
 }
 
-function isWineCountry(city: CitySeed): boolean {
+function isWineCountry(city: CityLight): boolean {
   const tags = tagSet(city);
   const WINE_DEPTS = ["Gironde", "Côte-d'Or", "Saône-et-Loire", "Marne",
     "Aube", "Bas-Rhin", "Haut-Rhin", "Rhône", "Vaucluse", "Drôme",
@@ -188,7 +188,7 @@ function isWineCountry(city: CitySeed): boolean {
     WINE_DEPTS.includes(city.department);
 }
 
-function isThermalSpa(city: CitySeed): boolean {
+function isThermalSpa(city: CityLight): boolean {
   const tags = tagSet(city);
   const namedThermal = ["vichy", "evian-les-bains", "evian", "aix-les-bains",
     "dax", "amelie-les-bains-palalda", "luchon", "bagneres-de-bigorre",
@@ -197,7 +197,7 @@ function isThermalSpa(city: CitySeed): boolean {
     namedThermal.includes(city.slug);
 }
 
-function isSurfSpot(city: CitySeed): boolean {
+function isSurfSpot(city: CityLight): boolean {
   const tags = tagSet(city);
   const SURF_SLUGS = ["biarritz", "anglet", "saint-jean-de-luz", "hossegor",
     "soorts-hossegor", "capbreton", "lacanau", "seignosse", "mimizan",
@@ -207,7 +207,7 @@ function isSurfSpot(city: CitySeed): boolean {
     (isAtlantic(city) && tags.has("plage") && (city.population ?? 0) < 50_000);
 }
 
-function isCityBreakWorthy(city: CitySeed, scoresGlobal: number, scoresCulture: number): boolean {
+function isCityBreakWorthy(city: CityLight, scoresGlobal: number, scoresCulture: number): boolean {
   const pop = city.population ?? 0;
   // Métropole + score culture solide
   return (pop > 90_000 && scoresCulture >= 6.5) || (pop > 200_000 && scoresGlobal >= 6);
@@ -215,7 +215,7 @@ function isCityBreakWorthy(city: CitySeed, scoresGlobal: number, scoresCulture: 
 
 // ─── Fitness API ──────────────────────────────────────────────────────────
 
-export function activityFitness(city: CitySeed, activity: ActivitySlug): number {
+export function activityFitness(city: CityLight, activity: ActivitySlug): number {
   const tags = tagSet(city);
   const pop = city.population ?? 0;
   const scores = city.scores;

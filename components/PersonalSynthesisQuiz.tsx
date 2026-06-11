@@ -19,6 +19,7 @@ import {
   SYNTHESIS_LEVEL_COLOR,
   type SynthesisWeights,
 } from "@/lib/city-synthesis";
+import type { CityLight } from "@/lib/cities-light";
 
 const MIN_POP = 15_000;
 const SCALE_LABELS = [
@@ -61,7 +62,7 @@ function weightsToHash(weights: SynthesisWeights): string {
   return AXES.map((a) => `${a.letter}=${weights[a.key]}`).join("&");
 }
 
-export function PersonalSynthesisQuiz() {
+export function PersonalSynthesisQuiz({ cities }: { cities: CityLight[] }) {
   const [weights, setWeights] = useState<SynthesisWeights>(() => readHashWeights());
   const [shareLabel, setShareLabel] = useState<string>("Copier le lien");
 
@@ -75,8 +76,8 @@ export function PersonalSynthesisQuiz() {
   }, [weights]);
 
   const ranking = useMemo(
-    () => personalSynthesisRanking(weights, 10, MIN_POP),
-    [weights],
+    () => personalSynthesisRanking(weights, cities, 10, MIN_POP),
+    [weights, cities],
   );
 
   function copyLink() {

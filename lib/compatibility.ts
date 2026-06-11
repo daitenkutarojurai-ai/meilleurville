@@ -8,8 +8,7 @@
 // This is quantitative: every answer maps to a contribution on a specific
 // scoring axis, and the total is a percentage.
 
-import type { CitySeed } from "@/data/cities-seed";
-import { CITIES_SEED } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 import { HOUSING } from "@/data/housing";
 import { computeOwnerScores } from "@/lib/owner-scores";
 
@@ -34,7 +33,7 @@ export interface CompatibilityCriterion {
 }
 
 export interface CompatibilityMatch {
-  city: CitySeed;
+  city: CityLight;
   score: number; // 0-100
   criteria: CompatibilityCriterion[];
 }
@@ -63,7 +62,7 @@ function clamp(n: number, lo = 0, hi = 1): number {
   return Math.max(lo, Math.min(hi, n));
 }
 
-function evalBudget(answer: CompatibilityAnswers, city: CitySeed): CompatibilityCriterion {
+function evalBudget(answer: CompatibilityAnswers, city: CityLight): CompatibilityCriterion {
   const rent = HOUSING[city.slug]?.avgRentT2;
   if (rent == null) {
     return {
@@ -89,7 +88,7 @@ function evalBudget(answer: CompatibilityAnswers, city: CitySeed): Compatibility
   return { key: "budget", label: "Budget logement", contribution: Math.round(contrib * 10) / 10, reason };
 }
 
-function evalAge(answer: CompatibilityAnswers, city: CitySeed): CompatibilityCriterion {
+function evalAge(answer: CompatibilityAnswers, city: CityLight): CompatibilityCriterion {
   const owner = computeOwnerScores(city);
   const jeuneActif = owner.find((s) => s.key === "score_jeune_actif")!.value;
   const famille = owner.find((s) => s.key === "score_famille")!.value;
@@ -119,7 +118,7 @@ function evalAge(answer: CompatibilityAnswers, city: CitySeed): CompatibilityCri
   return { key: "age", label: "Âge", contribution: Math.round(contrib * 10) / 10, reason: label };
 }
 
-function evalClimate(answer: CompatibilityAnswers, city: CitySeed): CompatibilityCriterion {
+function evalClimate(answer: CompatibilityAnswers, city: CityLight): CompatibilityCriterion {
   const july = city.avgTempJuly ?? 22;
   const jan = city.avgTempJanuary ?? 5;
   const sun = city.sunshinedays ?? 1900;
@@ -152,7 +151,7 @@ function evalClimate(answer: CompatibilityAnswers, city: CitySeed): Compatibilit
   };
 }
 
-function evalCar(answer: CompatibilityAnswers, city: CitySeed): CompatibilityCriterion {
+function evalCar(answer: CompatibilityAnswers, city: CityLight): CompatibilityCriterion {
   const owner = computeOwnerScores(city);
   const sansVoiture = owner.find((s) => s.key === "score_sans_voiture")!.value;
   let match = 0.5;
@@ -180,7 +179,7 @@ function evalCar(answer: CompatibilityAnswers, city: CitySeed): CompatibilityCri
   };
 }
 
-function evalFamily(answer: CompatibilityAnswers, city: CitySeed): CompatibilityCriterion {
+function evalFamily(answer: CompatibilityAnswers, city: CityLight): CompatibilityCriterion {
   const owner = computeOwnerScores(city);
   const famille = owner.find((s) => s.key === "score_famille")!.value;
   const jeuneActif = owner.find((s) => s.key === "score_jeune_actif")!.value;
@@ -212,7 +211,7 @@ function evalFamily(answer: CompatibilityAnswers, city: CitySeed): Compatibility
   };
 }
 
-function evalAmbiance(answer: CompatibilityAnswers, city: CitySeed): CompatibilityCriterion {
+function evalAmbiance(answer: CompatibilityAnswers, city: CityLight): CompatibilityCriterion {
   const pop = city.population ?? 50000;
   let match = 0.5;
   let reason = "";
@@ -245,7 +244,7 @@ function evalAmbiance(answer: CompatibilityAnswers, city: CitySeed): Compatibili
   };
 }
 
-function evalWorkMode(answer: CompatibilityAnswers, city: CitySeed): CompatibilityCriterion {
+function evalWorkMode(answer: CompatibilityAnswers, city: CityLight): CompatibilityCriterion {
   const owner = computeOwnerScores(city);
   const remote = owner.find((s) => s.key === "score_teletravail")!.value;
   let match = 0.5;
@@ -276,7 +275,7 @@ function evalWorkMode(answer: CompatibilityAnswers, city: CitySeed): Compatibili
   };
 }
 
-function evalPriority(answer: CompatibilityAnswers, city: CitySeed): CompatibilityCriterion {
+function evalPriority(answer: CompatibilityAnswers, city: CityLight): CompatibilityCriterion {
   let value = 5;
   let labelHint = "";
   switch (answer.priority) {
@@ -313,7 +312,7 @@ function evalPriority(answer: CompatibilityAnswers, city: CitySeed): Compatibili
   };
 }
 
-function evalNoise(answer: CompatibilityAnswers, city: CitySeed): CompatibilityCriterion {
+function evalNoise(answer: CompatibilityAnswers, city: CityLight): CompatibilityCriterion {
   const owner = computeOwnerScores(city);
   const bruit = owner.find((s) => s.key === "score_bruit")!.value;
   const match = answer.noise === "ne-supporte-pas" ? bruit / 10 : 0.7;
@@ -325,7 +324,7 @@ function evalNoise(answer: CompatibilityAnswers, city: CitySeed): CompatibilityC
   };
 }
 
-function evalHeat(answer: CompatibilityAnswers, city: CitySeed): CompatibilityCriterion {
+function evalHeat(answer: CompatibilityAnswers, city: CityLight): CompatibilityCriterion {
   const owner = computeOwnerScores(city);
   const canicule = owner.find((s) => s.key === "score_canicule")!.value;
   const match = answer.heat === "ne-supporte-pas" ? canicule / 10 : 0.7;
@@ -352,9 +351,10 @@ const EVALUATORS = [
 
 export function rankCompatibility(
   answers: CompatibilityAnswers,
+  cities: CityLight[],
   limit = 5,
 ): CompatibilityMatch[] {
-  const matches: CompatibilityMatch[] = CITIES_SEED.map((city) => {
+  const matches: CompatibilityMatch[] = cities.map((city) => {
     const criteria = EVALUATORS.map((fn) => fn(answers, city));
     const totalRaw = criteria.reduce((s, c) => s + c.contribution, 0);
     const score = Math.max(0, Math.min(100, Math.round(totalRaw * 10) / 10));

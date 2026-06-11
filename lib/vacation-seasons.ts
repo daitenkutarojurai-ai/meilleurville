@@ -16,7 +16,7 @@
 // characterTags et de la saison — c'est un signal qualitatif, pas un
 // signal climatique.
 
-import type { CitySeed } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 import { normalsForCityMonth } from "@/lib/climate-normals";
 
 export const MONTHS = [
@@ -98,7 +98,7 @@ const DROM_REGIONS = new Set([
   "Guadeloupe", "Martinique", "La Réunion", "Mayotte", "Guyane",
 ]);
 
-function climateRegime(city: CitySeed): ClimateRegime {
+function climateRegime(city: CityLight): ClimateRegime {
   if (DROM_REGIONS.has(city.region ?? "")) return "drom";
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
   const isMountainTag = /alpes|pyrénées|massif|montagne|altitude|station/.test(tags);
@@ -141,7 +141,7 @@ const SUN_HOURS_BY_REGIME: Record<ClimateRegime, number[]> = {
 // maximum mi-juillet : c'est une approximation honnête pour la France
 // métropolitaine à ±0.7 °C près sur les mois équinoxiaux.
 
-function tempAvgForMonth(city: CitySeed, month: MonthIndex): number {
+function tempAvgForMonth(city: CityLight, month: MonthIndex): number {
   const j = city.avgTempJuly ?? 22;
   const w = city.avgTempJanuary ?? 4;
   const mean = (j + w) / 2;
@@ -154,7 +154,7 @@ function tempAvgForMonth(city: CitySeed, month: MonthIndex): number {
 
 // ─── Affluence touristique ────────────────────────────────────────────────
 
-function crowdednessForMonth(city: CitySeed, month: MonthIndex): 1 | 2 | 3 | 4 | 5 {
+function crowdednessForMonth(city: CityLight, month: MonthIndex): 1 | 2 | 3 | 4 | 5 {
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
   const regime = climateRegime(city);
   const pop = city.population ?? 0;
@@ -191,7 +191,7 @@ function crowdednessForMonth(city: CitySeed, month: MonthIndex): 1 | 2 | 3 | 4 |
 
 // ─── API publique ─────────────────────────────────────────────────────────
 
-export function monthSignal(city: CitySeed, month: MonthIndex): MonthSignal {
+export function monthSignal(city: CityLight, month: MonthIndex): MonthSignal {
   const regime = climateRegime(city);
   // Source primaire : station Météo-France la plus proche.
   const normals = normalsForCityMonth(city, month);
@@ -230,7 +230,7 @@ export function monthSignal(city: CitySeed, month: MonthIndex): MonthSignal {
   };
 }
 
-export function allMonthSignals(city: CitySeed): MonthSignal[] {
+export function allMonthSignals(city: CityLight): MonthSignal[] {
   const out: MonthSignal[] = [];
   for (let m = 1 as MonthIndex; m <= 12; m++) {
     out.push(monthSignal(city, m as MonthIndex));

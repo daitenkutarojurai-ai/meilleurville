@@ -417,7 +417,7 @@ function rankCoutsExplosifs(): RedFlagRow[] {
   const rows: RedFlagRow[] = [];
   for (const city of CITIES_SEED) {
     if ((city.population ?? 0) < 20_000) continue;
-    const b = householdBreakdownFor(city.slug, "famille");
+    const b = householdBreakdownFor(city, "famille");
     if (b.total == null) continue;
 
     const e = computeEmploymentMarket(city);

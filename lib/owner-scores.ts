@@ -15,7 +15,7 @@
 // Per CLAUDE.md: "No silent fake data."
 
 import type { City } from "@/lib/types";
-import type { CitySeed } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 import { scoreColor } from "@/lib/utils";
 
 export type SourceKind = "real" | "proxy-v0" | "estimation-regionale";
@@ -131,7 +131,7 @@ function round1(n: number): number {
   return Math.round(n * 10) / 10;
 }
 
-type SeedCity = CitySeed;
+type SeedCity = CityLight;
 
 // --- per-score computations ---
 

@@ -16,7 +16,7 @@
 // avec quartet env F40-F43. Score faible = profil équilibré.
 // Composite = moyenne pondérée des 4 sous-scores.
 
-import type { CitySeed } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 
 export type DemoLevel = "dynamique" | "equilibre" | "vieillissant" | "critique";
 
@@ -85,7 +85,7 @@ const AGEING_VERY_LOW_DEPTS = new Set([
   "Guyane", "Mayotte", "Réunion", "La Réunion", "Guadeloupe", "Martinique",
 ]);
 
-function ageingRisk(city: CitySeed): DemoDimension {
+function ageingRisk(city: CityLight): DemoDimension {
   const d = city.department;
   if (AGEING_VERY_LOW_DEPTS.has(d)) {
     return {
@@ -126,7 +126,7 @@ function ageingRisk(city: CitySeed): DemoDimension {
 //
 // Proxy : métropoles + villes étudiantes = élevé ; rural en déclin = faible.
 
-function youngActivesRisk(city: CitySeed): DemoDimension {
+function youngActivesRisk(city: CityLight): DemoDimension {
   const pop = city.population ?? 0;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
   const isMetro = /métropole/.test(tags);
@@ -200,7 +200,7 @@ const GROWTH_NEGATIVE_DEPTS = new Set([
   "Guadeloupe", "Martinique",
 ]);
 
-function trajectoryRisk(city: CitySeed): DemoDimension {
+function trajectoryRisk(city: CityLight): DemoDimension {
   const d = city.department;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
   const isMetro = /métropole/.test(tags);
@@ -238,7 +238,7 @@ function trajectoryRisk(city: CitySeed): DemoDimension {
 // France 2024 : taux brut natalité ~10,5 ‰. DROM > 14 ‰ (jeunesse).
 // Rural âgé < 8 ‰. Métropoles ~10-12 ‰ selon profil.
 
-function renewalRisk(city: CitySeed): DemoDimension {
+function renewalRisk(city: CityLight): DemoDimension {
   const d = city.department;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
   const isFamilial = /familial|famille/.test(tags);
@@ -303,7 +303,7 @@ function composeSignature(d: Demography, name: string): string {
   return `${name} cumule plusieurs tensions démographiques : ${tops.slice(0, 2).map((t) => `${t.k} (${t.d.level})`).join(", ")}.`;
 }
 
-export function computeDemography(city: CitySeed): Demography {
+export function computeDemography(city: CityLight): Demography {
   const ageing = ageingRisk(city);
   const youngActives = youngActivesRisk(city);
   const trajectory = trajectoryRisk(city);

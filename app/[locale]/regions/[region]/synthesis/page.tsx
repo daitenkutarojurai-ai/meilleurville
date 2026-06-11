@@ -1,9 +1,10 @@
 // EN port of FR F66 — Synthesis by administrative region.
 //
 // 18 SSG pages mirroring `/regions/[region]/synthese` for the English site.
-// Reuses `getSynthesisRankings()` (module-level cache, zero recompute) and
+// Reuses `getSynthesisRankings(CITIES_LIGHT)` (module-level cache, zero recompute) and
 // supplies English labels at the display site per CLAUDE.md convention #6.
 
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -105,7 +106,7 @@ export default async function EnRegionSynthesisPage({ params }: Props) {
   const region = slugToRegion(regionSlug, ALL_REGIONS);
   if (!region) notFound();
 
-  const rows = getSynthesisRankings().filter((r) => r.region === region);
+  const rows = getSynthesisRankings(CITIES_LIGHT).filter((r) => r.region === region);
   if (rows.length === 0) notFound();
 
   const sorted = [...rows].sort((a, b) => b.synthesis.global - a.synthesis.global);

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
@@ -47,7 +48,7 @@ export default async function ProfilPage({ params }: Props) {
   const slug = profil as VacationProfile;
   const def = VACATION_PROFILE_DEFS[slug];
 
-  const top20 = topCitiesForProfile(slug, { limit: 20 });
+  const top20 = topCitiesForProfile(slug, CITIES_LIGHT, { limit: 20 });
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Accueil", path: "/" },

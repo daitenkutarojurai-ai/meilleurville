@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
@@ -44,7 +45,7 @@ export default function ExpatQuizPage() {
       </section>
 
       <div className="mx-auto max-w-3xl px-4 sm:px-6 py-8">
-        <ExpatQuiz />
+        <ExpatQuiz cities={CITIES_LIGHT} />
       </div>
 
       <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-16">

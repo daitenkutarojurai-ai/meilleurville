@@ -16,7 +16,7 @@
 // Tous les scores 0-10. 10 = accès aux soins le plus difficile (désert).
 // Composite = moyenne pondérée des 4 sous-scores.
 
-import type { CitySeed } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 
 export type HealthLevel = "facile" | "correct" | "tendu" | "desert";
 
@@ -91,7 +91,7 @@ const MG_BIEN_DOTE_DEPTS = new Set([
   "Bouches-du-Rhône",
 ]);
 
-function generalistesAccess(city: CitySeed): HealthDimension {
+function generalistesAccess(city: CityLight): HealthDimension {
   const d = city.department;
   const pop = city.population ?? 0;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
@@ -141,7 +141,7 @@ const CHU_CITIES = new Set([
   "pointe-a-pitre", "cayenne",
 ]);
 
-function specialistesAccess(city: CitySeed): HealthDimension {
+function specialistesAccess(city: CityLight): HealthDimension {
   const slug = city.slug;
   const pop = city.population ?? 0;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
@@ -181,7 +181,7 @@ function specialistesAccess(city: CitySeed): HealthDimension {
 // Présence d'un SAU (Service d'Accueil des Urgences) dans la commune ou à
 // moins de 30 min en voiture. Critère vital pour AVC, infarctus, traumato.
 
-function urgencesAccess(city: CitySeed): HealthDimension {
+function urgencesAccess(city: CityLight): HealthDimension {
   const pop = city.population ?? 0;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
   const isMetro = /métropole/.test(tags) || pop > 100_000;
@@ -237,7 +237,7 @@ function urgencesAccess(city: CitySeed): HealthDimension {
 // de 1 pharmacie / 3 000 hab. ; sous ce seuil en zone rurale, le maillage
 // devient critique (déserts pharmaceutiques émergeants).
 
-function pharmaciesAccess(city: CitySeed): HealthDimension {
+function pharmaciesAccess(city: CityLight): HealthDimension {
   const pop = city.population ?? 0;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
   const isRural = /rural|villageois|campagne/.test(tags);
@@ -291,7 +291,7 @@ function composeSignature(h: HealthcareAccess, name: string): string {
   return `${name} cumule plusieurs tensions sur l'accès aux soins : ${tops.slice(0, 2).map((t) => `${t.k} (${t.d.level === "desert" ? "désert" : "tendu"})`).join(", ")}.`;
 }
 
-export function computeHealthcareAccess(city: CitySeed): HealthcareAccess {
+export function computeHealthcareAccess(city: CityLight): HealthcareAccess {
   const generalistes = generalistesAccess(city);
   const specialistes = specialistesAccess(city);
   const urgences = urgencesAccess(city);

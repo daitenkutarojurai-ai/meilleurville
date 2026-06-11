@@ -62,7 +62,7 @@ export default async function EnHouseholdCostCityPage({ params }: Props) {
   const c = CITIES_SEED.find((x) => x.slug === city);
   if (!c) notFound();
 
-  const breakdowns = householdBreakdownsAllProfiles(city);
+  const breakdowns = householdBreakdownsAllProfiles(c);
   const order: HouseholdProfile[] = ["solo", "couple", "famille", "retraite"];
   const byKey = new Map(breakdowns.map((b) => [b.profile, b]));
   const cols = order.map((k) => byKey.get(k)!);

@@ -12,9 +12,18 @@ import {
   type CostBreakdown,
   type CostCalcInput,
 } from "@/lib/cost-living";
-import { CITIES_SEED } from "@/data/cities-seed";
 
 export type HouseholdProfile = "solo" | "couple" | "famille" | "retraite";
+
+// Structural city shape — both CitySeed and CityLight satisfy it, so callers
+// pass the city object they already hold instead of this lib importing the seed.
+export interface HouseholdCityInfo {
+  slug: string;
+  name: string;
+  department?: string | null;
+  region?: string | null;
+  population?: number | null;
+}
 
 export interface HouseholdProfileMeta {
   key: HouseholdProfile;
@@ -83,27 +92,23 @@ export interface HouseholdBreakdown {
 }
 
 export function householdBreakdownFor(
-  citySlug: string,
+  city: HouseholdCityInfo,
   profile: HouseholdProfile,
 ): HouseholdBreakdown {
-  const city = CITIES_SEED.find((c) => c.slug === citySlug);
-  if (!city) {
-    return { profile, base: null, rent: null, heating: 0, mobility: 0, taxeFonciere: 0, teom: 0, schoolExtra: 0, total: null };
-  }
-  const housing = HOUSING[citySlug] ?? null;
+  const housing = HOUSING[city.slug] ?? null;
   const fisc =
     city.department && city.region
       ? fiscalityForCity({ department: city.department, region: city.region })
       : null;
   const taxeFonciereAnnualMidpoint = fisc ? parseFonciereMidpoint(fisc.taxeFonciereT3) : null;
-  void climateZoneFor(city.department);
+  void climateZoneFor(city.department ?? null);
 
   const baseInput: CostCalcInput = {
     citySlug: city.slug,
     cityName: city.name,
-    department: city.department,
-    region: city.region,
-    population: city.population,
+    department: city.department ?? null,
+    region: city.region ?? null,
+    population: city.population ?? null,
     avgRentT2: housing?.avgRentT2 ?? null,
     taxeFonciereAnnualMidpoint,
     // Famille = voiture quasi-obligatoire (école run); les autres respectent le défaut.
@@ -136,6 +141,6 @@ export function householdBreakdownFor(
   return { profile, base, rent, heating, mobility, taxeFonciere, teom, schoolExtra, total };
 }
 
-export function householdBreakdownsAllProfiles(citySlug: string): HouseholdBreakdown[] {
-  return HOUSEHOLD_PROFILES.map((p) => householdBreakdownFor(citySlug, p.key));
+export function householdBreakdownsAllProfiles(city: HouseholdCityInfo): HouseholdBreakdown[] {
+  return HOUSEHOLD_PROFILES.map((p) => householdBreakdownFor(city, p.key));
 }

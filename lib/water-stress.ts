@@ -16,7 +16,7 @@
 // Tous les scores 0-10. Composite = moyenne pondérée des 4.
 // Echelle commune avec lib/natural-risks.ts (10 = stress maximal).
 
-import type { CitySeed } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 
 export type WaterLevel = "faible" | "modere" | "eleve" | "fort";
 
@@ -107,7 +107,7 @@ const REST_LOW = new Set([
   "Mayotte", "Guyane", "Réunion", "La Réunion",
 ]);
 
-function restrictionsRisk(city: CitySeed): WaterDimension {
+function restrictionsRisk(city: CityLight): WaterDimension {
   const d = city.department;
   if (REST_VERY_HIGH.has(d)) {
     return {
@@ -171,7 +171,7 @@ const AQUIFER_LOW = new Set([
   "Haute-Garonne", "Tarn", "Aveyron", "Allier", "Puy-de-Dôme",
 ]);
 
-function aquiferRisk(city: CitySeed): WaterDimension {
+function aquiferRisk(city: CityLight): WaterDimension {
   const d = city.department;
   if (AQUIFER_VERY_LOW.has(d)) {
     return {
@@ -199,7 +199,7 @@ function aquiferRisk(city: CitySeed): WaterDimension {
 // Heuristique : avgTempJuly + sunshinedays = stress estival. Pénalise les
 // climats méditerranéens chauds et secs, valorise les climats océaniques.
 
-function climateRisk(city: CitySeed): WaterDimension {
+function climateRisk(city: CityLight): WaterDimension {
   const tj = city.avgTempJuly ?? 21;
   const sun = city.sunshinedays ?? 1900;
   // Normalisations : tj 18-26 °C, sun 1500-2900 h
@@ -244,7 +244,7 @@ const SUPPLY_FRAGILE_DEPTS = new Set([
   "Guadeloupe", "Mayotte", "Martinique",
 ]);
 
-function supplyRisk(city: CitySeed): WaterDimension {
+function supplyRisk(city: CityLight): WaterDimension {
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
   const isCoastal = /\b(mer|plage|atlantique|méditerranée|manche|côte|littoral|lagon|presqu'île)\b/.test(tags);
   const isIsland = /\b(île|îles)\b/.test(tags) || ["Corse-du-Sud", "Haute-Corse", "Guadeloupe", "Martinique", "Mayotte", "Réunion", "La Réunion"].includes(city.department);
@@ -322,7 +322,7 @@ function composeSignature(s: WaterStress, name: string): string {
   return `${name} cumule plusieurs tensions hydriques : ${tops.slice(0, 2).map((t) => `${t.k} (${t.d.level})`).join(", ")}.`;
 }
 
-export function computeWaterStress(city: CitySeed): WaterStress {
+export function computeWaterStress(city: CityLight): WaterStress {
   const restrictions = restrictionsRisk(city);
   const aquifer = aquiferRisk(city);
   const climate = climateRisk(city);

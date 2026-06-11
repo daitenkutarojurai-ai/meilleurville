@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
@@ -58,8 +59,8 @@ const EN_AXIS_LABEL: Record<string, string> = {
 const MIN_POP = 15_000;
 
 export default function EnOverallRankingPage() {
-  const top = topSynthesisGlobal(30, MIN_POP);
-  const bottom = bottomSynthesisGlobal(20, MIN_POP);
+  const top = topSynthesisGlobal(CITIES_LIGHT, 30, MIN_POP);
+  const bottom = bottomSynthesisGlobal(CITIES_LIGHT, 20, MIN_POP);
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Home", path: "/" },

@@ -2,7 +2,7 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { ChevronRight, ChevronLeft, MapPin, RefreshCw, Sparkles } from "lucide-react";
-import { CITIES_SEED } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 import { BookingCTA } from "@/components/BookingCTA";
 import {
   MONTHS,
@@ -56,7 +56,7 @@ const BUDGET_TIERS: Array<{ tier: 1 | 2 | 3 | 4; label: string; range: string }>
   { tier: 4, label: "Sans compter", range: "180 €+/jour/pers" },
 ];
 
-export function QuizFlow() {
+export function QuizFlow({ cities }: { cities: CityLight[] }) {
   const [step, setStep] = useState<Step>(1);
   const [answers, setAnswers] = useState<Answers>(EMPTY_ANSWERS);
   const [nlEmail, setNlEmail] = useState("");
@@ -106,7 +106,7 @@ export function QuizFlow() {
     if (!answers.month || !answers.activity || !answers.profile || !answers.budget) {
       return [];
     }
-    return CITIES_SEED
+    return cities
       .filter((c) => (c.population ?? 0) >= 3_000)
       .map((c) => ({
         city: c,
@@ -122,7 +122,7 @@ export function QuizFlow() {
       .filter((r) => r.fit.activityScore >= 4)
       .sort((a, b) => b.fit.score - a.fit.score)
       .slice(0, 3);
-  }, [step, answers]);
+  }, [step, answers, cities]);
 
   return (
     <div className="rounded-3xl border border-[var(--border)] bg-[var(--bg-surface)] p-6 sm:p-8 shadow-sm">

@@ -16,7 +16,7 @@
 //   - Eau        25 %   (restrictions vécues quotidiennement l'été)
 //   - Risques    20 %   (probabilité × impact, mais pas quotidien)
 
-import type { CitySeed } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 import { computeNaturalRisks } from "@/lib/natural-risks";
 import { computeWaterStress } from "@/lib/water-stress";
 import { computeAirQuality } from "@/lib/air-quality";
@@ -44,7 +44,7 @@ function levelFromHealth(s: number): EnvLevel {
   return "tendu";
 }
 
-export function computeEnvironmentIndex(city: CitySeed): EnvironmentIndex {
+export function computeEnvironmentIndex(city: CityLight): EnvironmentIndex {
   const r = computeNaturalRisks(city).composite;
   const e = computeWaterStress(city).composite;
   const a = computeAirQuality(city).composite;

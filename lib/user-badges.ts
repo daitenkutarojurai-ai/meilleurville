@@ -4,7 +4,7 @@
 // computable from CITIES_SEED) and returns earned + in-progress badges.
 // No backend, no auth required — works for anonymous favourites.
 
-import { CITIES_SEED } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 
 export interface Badge {
   key: string;
@@ -18,10 +18,10 @@ export interface Badge {
 
 const TIER_THRESHOLDS = [1, 3, 5, 10, 20] as const;
 
-export function computeUserBadges(favoriteSlugs: string[]): Badge[] {
+export function computeUserBadges(favoriteSlugs: string[], cities: CityLight[]): Badge[] {
   const favs = favoriteSlugs
-    .map((s) => CITIES_SEED.find((c) => c.slug === s))
-    .filter((c): c is (typeof CITIES_SEED)[number] => Boolean(c));
+    .map((s) => cities.find((c) => c.slug === s))
+    .filter((c): c is CityLight => Boolean(c));
 
   const count = favs.length;
   const regions = new Set(favs.map((c) => c.region));

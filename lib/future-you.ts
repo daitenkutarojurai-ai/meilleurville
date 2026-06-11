@@ -8,7 +8,8 @@
 // Pure derivations from existing seed (CITIES_SEED + HOUSING + household-cost).
 // No external API, no inventions — every number has a transparent source.
 
-import { CITIES_SEED, type CitySeed } from "@/data/cities-seed";
+import type { CitySeed } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 import { HOUSING } from "@/data/housing";
 import { householdBreakdownFor, type HouseholdProfile } from "@/lib/household-cost";
 
@@ -33,7 +34,7 @@ export interface FutureYouInput {
 }
 
 export interface FutureYouResult {
-  city: CitySeed;
+  city: CityLight;
   rent: number | null; // €/mo, null if housing data missing
   fixedCost: number; // €/mo (rent + heating + mobility + taxes + TEOM)
   monthlyLeftover: number; // salary - fixedCost
@@ -83,7 +84,7 @@ export const CLIMATE_META: Record<ClimatePref, { label: string; emoji: string }>
 // Estimate one-way commute minutes from the transport score, mobility mode,
 // city population and remote-work score. Pure proxy — not GPS data. Documented
 // so the user knows what they're looking at.
-function estimateCommute(city: CitySeed, mobility: MobilityMode): number {
+function estimateCommute(city: CityLight, mobility: MobilityMode): number {
   if (mobility === "remote") return 0;
   const transport = city.scores.transport ?? 5;
   // High transport score → shorter commute even in big cities.
@@ -106,7 +107,7 @@ function freeHoursPerWeek(commuteMin: number, mobility: MobilityMode): number {
 
 // Stress proxy 0-10. Higher safety/life lower stress, longer commute / lower
 // remote score raise stress.
-function stressIndex(city: CitySeed, commuteMin: number): number {
+function stressIndex(city: CityLight, commuteMin: number): number {
   const safetyPenalty = (10 - (city.scores.safety ?? 5)) * 0.35;
   const lifePenalty = (10 - (city.scores.life ?? 5)) * 0.2;
   const commutePenalty = Math.min(3, commuteMin / 15);
@@ -116,7 +117,7 @@ function stressIndex(city: CitySeed, commuteMin: number): number {
 }
 
 // Climate match 0-10 based on user preference vs July temp + sunshine.
-function climateMatch(city: CitySeed, pref: ClimatePref): number {
+function climateMatch(city: CityLight, pref: ClimatePref): number {
   const july = city.avgTempJuly ?? 22;
   const sun = city.sunshinedays ?? 1900; // raw hours
   if (pref === "warm") {
@@ -146,9 +147,9 @@ function affordability(leftover: number): FutureYouResult["affordability"] {
   return "ok";
 }
 
-export function simulateCity(city: CitySeed, input: FutureYouInput): FutureYouResult {
+export function simulateCity(city: CityLight, input: FutureYouInput): FutureYouResult {
   const housing = HOUSING[city.slug];
-  const breakdown = householdBreakdownFor(city.slug, input.household);
+  const breakdown = householdBreakdownFor(city, input.household);
   const rent = breakdown.rent ?? housing?.avgRentT2 ?? null;
   // Bike or remote modes still pay heating, taxes, TEOM but mobility cost
   // shrinks (bike: maintenance, remote: occasional pass / fuel).
@@ -205,8 +206,8 @@ export function simulateCity(city: CitySeed, input: FutureYouInput): FutureYouRe
 }
 
 /** Returns the top N cities for the given input, ranked by fit score. */
-export function simulateTopCities(input: FutureYouInput, n = 3): FutureYouResult[] {
-  return CITIES_SEED
+export function simulateTopCities(input: FutureYouInput, cities: CityLight[], n = 3): FutureYouResult[] {
+  return cities
     .filter((c) => c.longitude >= -6 && c.longitude <= 10 && c.latitude >= 40 && c.latitude <= 52)
     .map((c) => simulateCity(c, input))
     .sort((a, b) => b.fitScore - a.fitScore)
@@ -214,8 +215,8 @@ export function simulateTopCities(input: FutureYouInput, n = 3): FutureYouResult
 }
 
 /** Paris baseline for the input — useful as the "you today" reference card. */
-export function simulateReference(input: FutureYouInput, refSlug = "paris"): FutureYouResult | null {
-  const ref = CITIES_SEED.find((c) => c.slug === refSlug);
+export function simulateReference(input: FutureYouInput, cities: CityLight[], refSlug = "paris"): FutureYouResult | null {
+  const ref = cities.find((c) => c.slug === refSlug);
   if (!ref) return null;
   return simulateCity(ref, input);
 }

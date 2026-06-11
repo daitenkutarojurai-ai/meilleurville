@@ -10,8 +10,8 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
-import { QOL_LEVEL_LABEL, QOL_LEVEL_COLOR } from "@/lib/quality-of-life-index";
-import { personalQolRanking, type QolWeights } from "@/lib/quality-of-life-index-rankings";
+import { QOL_LEVEL_LABEL, QOL_LEVEL_COLOR, personalQolRanking, type QolWeights } from "@/lib/quality-of-life-index";
+import type { CityLight } from "@/lib/cities-light";
 
 const MIN_POP = 10_000;
 const LABELS = [
@@ -38,7 +38,7 @@ function readHashWeights(): QolWeights {
   };
 }
 
-export function PersonalQolQuiz() {
+export function PersonalQolQuiz({ cities }: { cities: CityLight[] }) {
   const [weights, setWeights] = useState<QolWeights>(() => readHashWeights());
   const [shareLabel, setShareLabel] = useState<string>("Copier le lien");
 
@@ -52,8 +52,8 @@ export function PersonalQolQuiz() {
   }, [weights]);
 
   const ranking = useMemo(
-    () => personalQolRanking(weights, 10, MIN_POP),
-    [weights],
+    () => personalQolRanking(weights, cities, 10, MIN_POP),
+    [weights, cities],
   );
 
   const sum = weights.env + weights.health + weights.job;

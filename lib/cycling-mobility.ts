@@ -18,7 +18,7 @@
 // convention « 10 = bon » qu'on a aussi sur F44.healthScore.)
 // Composite = moyenne pondérée des 4 sous-scores.
 
-import type { CitySeed } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 
 export type CyclingLevel = "excellent" | "bon" | "moyen" | "difficile";
 
@@ -84,7 +84,7 @@ const EUROVELO_DEPTS = new Set([
   "Nord", "Pas-de-Calais", "Somme", "Oise", "Val-d'Oise",
 ]);
 
-function networkScore(city: CitySeed): CyclingDimension {
+function networkScore(city: CityLight): CyclingDimension {
   const slug = city.slug.toLowerCase();
   const tags = (city.characterTags ?? []).map((t) => t.toLowerCase());
   const pop = city.population ?? 0;
@@ -154,7 +154,7 @@ const FLAT_DEPTS = new Set([
   "Marne", "Aube", "Yonne", "Sarthe", "Mayenne",
 ]);
 
-function topographyScore(city: CitySeed): CyclingDimension {
+function topographyScore(city: CityLight): CyclingDimension {
   const dept = city.department;
   const elev = city.elevation ?? 0;
 
@@ -196,7 +196,7 @@ function topographyScore(city: CitySeed): CyclingDimension {
 // métropole sans piste = dangereuse ; une ville cyclable connue compense
 // avec des aménagements séparés.
 
-function safetyScore(city: CitySeed): CyclingDimension {
+function safetyScore(city: CityLight): CyclingDimension {
   const slug = city.slug.toLowerCase();
   const tags = (city.characterTags ?? []).map((t) => t.toLowerCase());
   const pop = city.population ?? 0;
@@ -249,7 +249,7 @@ const WINDY_DEPTS = new Set([
   "Bouches-du-Rhône", "Vaucluse", "Gard", "Hérault", "Aude", "Pyrénées-Orientales",
 ]);
 
-function climateScore(city: CitySeed): CyclingDimension {
+function climateScore(city: CityLight): CyclingDimension {
   const sun = city.sunshinedays ?? 1900;
   const dept = city.department;
   const tempJan = city.avgTempJanuary ?? 4;
@@ -328,7 +328,7 @@ function composeSignature(c: CyclingMobility, name: string): string {
   return `${name} offre des conditions vélo correctes sans excellence particulière sur les 4 dimensions.`;
 }
 
-export function computeCyclingMobility(city: CitySeed): CyclingMobility {
+export function computeCyclingMobility(city: CityLight): CyclingMobility {
   const network = networkScore(city);
   const topography = topographyScore(city);
   const safety = safetyScore(city);

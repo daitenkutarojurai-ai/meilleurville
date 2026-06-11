@@ -4,6 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { FutureYouClient } from "./FutureYouClient";
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const revalidate = false;
@@ -51,7 +52,7 @@ export default function FutureYouPage() {
       </section>
 
       <div className="mx-auto max-w-5xl px-4 sm:px-6 py-10">
-        <FutureYouClient />
+        <FutureYouClient cities={CITIES_LIGHT} />
       </div>
 
       <Footer />

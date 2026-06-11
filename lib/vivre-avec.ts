@@ -5,6 +5,7 @@
 // par ville) — zéro nouvelle donnée à fetcher.
 
 import { HOUSING } from "@/data/housing";
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import { fiscalityForCity } from "@/lib/fiscalite";
 import { computeBreakdown, type CostCalcInput } from "@/lib/cost-living";
 import { rankCompatibility, type CompatibilityAnswers, type CompatibilityMatch } from "@/lib/compatibility";
@@ -66,7 +67,7 @@ export interface SalaryLanding {
 
 export function buildSalaryLanding(salary: SalaryBracket): SalaryLanding {
   const answers = defaultAnswers(salary);
-  const matches = rankCompatibility(answers, 10);
+  const matches = rankCompatibility(answers, CITIES_LIGHT, 10);
 
   let topCity: SalaryLanding["topCity"] = null;
   const top = matches[0];

@@ -15,7 +15,7 @@
 // Tous les scores 0-10. 10 = marché du travail le plus difficile.
 // Composite = moyenne pondérée des 4 sous-scores.
 
-import type { CitySeed } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 
 export type JobLevel = "facile" | "actif" | "tendu" | "sinistre";
 
@@ -92,7 +92,7 @@ const UNEMP_VERY_LOW = new Set([
   "Lozère", "Cantal", "Mayenne", "Aveyron",
 ]);
 
-function unemploymentRisk(city: CitySeed): JobDimension {
+function unemploymentRisk(city: CityLight): JobDimension {
   const d = city.department;
   if (UNEMP_VERY_LOW.has(d)) {
     return {
@@ -143,7 +143,7 @@ const DYNAMIC_DEPTS = new Set([
   "Bas-Rhin", "Isère", "Vaucluse",
 ]);
 
-function dynamismRisk(city: CitySeed): JobDimension {
+function dynamismRisk(city: CityLight): JobDimension {
   const pop = city.population ?? 0;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
   const isMetro = /métropole/.test(tags);
@@ -208,7 +208,7 @@ const PUBLIC_SECTOR_HEAVY_DEPTS = new Set([
   "Lozère", "Creuse", "Cantal", "Indre", "Nièvre", "Meuse", "Haute-Marne",
 ]);
 
-function sectorMixRisk(city: CitySeed): JobDimension {
+function sectorMixRisk(city: CityLight): JobDimension {
   const d = city.department;
   const pop = city.population ?? 0;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
@@ -294,7 +294,7 @@ const SALARY_HIGH_DEPTS = new Set([
   "Val-d'Oise", "Essonne", "Seine-et-Marne",
 ]);
 
-function salaryRisk(city: CitySeed): JobDimension {
+function salaryRisk(city: CityLight): JobDimension {
   const d = city.department;
   if (SALARY_HIGH_DEPTS.has(d)) {
     return {
@@ -352,7 +352,7 @@ function composeSignature(e: EmploymentMarket, name: string): string {
   return `${name} cumule plusieurs tensions sur le marché du travail : ${tops.slice(0, 2).map((t) => `${t.k} (${t.d.level === "sinistre" ? "sinistré" : "tendu"})`).join(", ")}.`;
 }
 
-export function computeEmploymentMarket(city: CitySeed): EmploymentMarket {
+export function computeEmploymentMarket(city: CityLight): EmploymentMarket {
   const unemployment = unemploymentRisk(city);
   const dynamism = dynamismRisk(city);
   const sectorMix = sectorMixRisk(city);

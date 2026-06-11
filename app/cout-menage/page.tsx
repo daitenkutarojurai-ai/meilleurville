@@ -28,7 +28,7 @@ interface TopRow {
 function topByProfile(profile: HouseholdProfile, n: number, ascending: boolean): TopRow[] {
   const rows: TopRow[] = [];
   for (const c of CITIES_SEED) {
-    const b = householdBreakdownFor(c.slug, profile);
+    const b = householdBreakdownFor(c, profile);
     if (b.total != null) {
       rows.push({ citySlug: c.slug, cityName: c.name, region: c.region, total: b.total });
     }

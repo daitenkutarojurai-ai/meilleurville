@@ -2,7 +2,7 @@
 // Pure deterministic scoring; permalink encoding so a shared result re-opens
 // the exact same matches. No LLM at v1 — just transparent weighted blend.
 
-import { CITIES_SEED, type CitySeed } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 
 export type CityMatchAnswer =
   | { id: "budget"; value: "low" | "mid" | "high" }
@@ -105,7 +105,7 @@ export const CITY_MATCH_QUESTIONS: Array<{
 ];
 
 export interface CityMatchResult {
-  city: CitySeed;
+  city: CityLight;
   percent: number; // 0-100 compatibility
   topReasons: string[]; // 1-3 strong reasons
 }
@@ -116,16 +116,16 @@ const TERRAIN_TAGS = {
   mountain: ["montagne", "alpin", "pyrénées", "ski", "altitude", "cirque"],
 };
 
-function hasTag(city: CitySeed, words: string[]): boolean {
+function hasTag(city: CityLight, words: string[]): boolean {
   const tags = city.characterTags.map((t) => t.toLowerCase());
   return tags.some((t) => words.some((w) => t.includes(w)));
 }
 
-export function isCoastal(city: CitySeed): boolean {
+export function isCoastal(city: CityLight): boolean {
   return hasTag(city, TERRAIN_TAGS.sea) || (city.elevation ?? 999) <= 15;
 }
 
-function isMountain(city: CitySeed): boolean {
+function isMountain(city: CityLight): boolean {
   return hasTag(city, TERRAIN_TAGS.mountain) || (city.elevation ?? 0) >= 500;
 }
 
@@ -133,7 +133,7 @@ function getAnswer(answers: CityMatchAnswer[], id: CityMatchAnswer["id"]): strin
   return answers.find((x) => x.id === id)?.value;
 }
 
-export function computeMatches(answers: CityMatchAnswer[]): CityMatchResult[] {
+export function computeMatches(answers: CityMatchAnswer[], cities: CityLight[]): CityMatchResult[] {
   const budget = getAnswer(answers, "budget");
   const climate = getAnswer(answers, "climate");
   const size = getAnswer(answers, "size");
@@ -146,7 +146,7 @@ export function computeMatches(answers: CityMatchAnswer[]): CityMatchResult[] {
   // All 540 cities are eligible, DROM included — they legitimately win
   // warm/sea profiles. The result card shows the region, so an overseas
   // match is always explicit.
-  const scored = CITIES_SEED
+  const scored = cities
     .map((c) => {
       const s = c.scores;
       let score = s.global;
@@ -263,9 +263,10 @@ export function computeMatches(answers: CityMatchAnswer[]): CityMatchResult[] {
 /** Top N matches + a surprise pick (a strong city outside the top 10). */
 export function topMatchesWithSurprise(
   answers: CityMatchAnswer[],
+  cities: CityLight[],
   n = 3,
 ): { top: CityMatchResult[]; surprise: CityMatchResult | null } {
-  const all = computeMatches(answers);
+  const all = computeMatches(answers, cities);
   const top = all.slice(0, n);
   const surprise = all.slice(15, 60).find((r) => r.percent >= 65) ?? null;
   return { top, surprise };

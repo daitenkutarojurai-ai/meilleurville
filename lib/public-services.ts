@@ -22,7 +22,7 @@
 // (cohérent avec quartet env F40-F43 et clusters F58 sécurité / F59
 // démographie). Score faible = bon accès.
 
-import type { CitySeed } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 
 export type ServicesLevel = "excellent" | "correct" | "tendu" | "desertique";
 
@@ -75,7 +75,7 @@ const CRECHE_OK_DEPTS = new Set([
   "Calvados", "Manche", "Orne",
 ]);
 
-function schoolsRisk(city: CitySeed): ServicesDimension {
+function schoolsRisk(city: CityLight): ServicesDimension {
   const pop = city.population ?? 0;
   const d = city.department;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
@@ -132,7 +132,7 @@ function schoolsRisk(city: CitySeed): ServicesDimension {
 // publique en France 2024. Présence quasi-systématique ≥ 10 000 hab. ;
 // > 80 % des communes ≥ 3 000 hab. en ont une (BNF observatoire).
 
-function libraryRisk(city: CitySeed): ServicesDimension {
+function libraryRisk(city: CityLight): ServicesDimension {
   const pop = city.population ?? 0;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
   const isMetro = /métropole/.test(tags);
@@ -201,7 +201,7 @@ const POST_DROM_VERY_TENSE = new Set([
   "Guyane", "Mayotte",
 ]);
 
-function postOfficeRisk(city: CitySeed): ServicesDimension {
+function postOfficeRisk(city: CityLight): ServicesDimension {
   const pop = city.population ?? 0;
   const d = city.department;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
@@ -260,7 +260,7 @@ function postOfficeRisk(city: CitySeed): ServicesDimension {
 //   - Présence d'une Maison France Services pour les démarches CAF / CPAM /
 //     impôts / Pôle Emploi en présence
 
-function cityHallRisk(city: CitySeed): ServicesDimension {
+function cityHallRisk(city: CityLight): ServicesDimension {
   const pop = city.population ?? 0;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
   const isMetro = /métropole/.test(tags);
@@ -331,7 +331,7 @@ function composeSignature(d: PublicServices, name: string): string {
   return `${name} cumule plusieurs tensions sur les services publics : ${tops.slice(0, 2).map((t) => `${t.k} (${t.d.level})`).join(", ")}.`;
 }
 
-export function computePublicServices(city: CitySeed): PublicServices {
+export function computePublicServices(city: CityLight): PublicServices {
   const schools = schoolsRisk(city);
   const library = libraryRisk(city);
   const postOffice = postOfficeRisk(city);

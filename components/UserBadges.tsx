@@ -3,17 +3,18 @@
 import { useEffect, useState } from "react";
 import { readFavorites } from "@/components/effects/FavoriteButton";
 import { computeUserBadges, type Badge } from "@/lib/user-badges";
+import type { CityLight } from "@/lib/cities-light";
 
-export function UserBadges() {
-  const [badges, setBadges] = useState<Badge[]>(() => computeUserBadges(readFavorites()));
+export function UserBadges({ cities }: { cities: CityLight[] }) {
+  const [badges, setBadges] = useState<Badge[]>(() => computeUserBadges(readFavorites(), cities));
 
   useEffect(() => {
     function refresh() {
-      setBadges(computeUserBadges(readFavorites()));
+      setBadges(computeUserBadges(readFavorites(), cities));
     }
     window.addEventListener("favorites-changed", refresh);
     return () => window.removeEventListener("favorites-changed", refresh);
-  }, []);
+  }, [cities]);
 
   const earned = badges.filter((b) => b.earned);
   const inProgress = badges.filter((b) => !b.earned);

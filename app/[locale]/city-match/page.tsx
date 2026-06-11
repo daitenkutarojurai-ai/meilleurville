@@ -3,6 +3,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { CityMatchQuiz } from "@/app/city-match/CityMatchQuiz";
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 
@@ -51,7 +52,7 @@ export default function EnCityMatchPage() {
       </section>
 
       <div className="mx-auto max-w-4xl px-4 sm:px-6 py-10">
-        <CityMatchQuiz locale="en" />
+        <CityMatchQuiz locale="en" cities={CITIES_LIGHT} />
       </div>
 
       <Footer />

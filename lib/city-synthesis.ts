@@ -12,8 +12,7 @@
 // inversés via `10 - composite`. Vélo (F57) et QoL (F52) sont déjà
 // orientés positif, gardés tels quels.
 
-import type { CitySeed } from "@/data/cities-seed";
-import { CITIES_SEED } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 import { computeEnvironmentIndex } from "@/lib/environment-index";
 import { computeHealthcareAccess } from "@/lib/healthcare-access";
 import { computeEmploymentMarket } from "@/lib/employment-market";
@@ -64,7 +63,7 @@ function levelFromScore(s: number): SynthesisLevel {
   return "tendu";
 }
 
-export function computeCitySynthesis(city: CitySeed): CitySynthesis {
+export function computeCitySynthesis(city: CityLight): CitySynthesis {
   // Reload des composites (les libs ont déjà leur cache module-level)
   const env = computeEnvironmentIndex(city);
   const health = computeHealthcareAccess(city);
@@ -236,11 +235,12 @@ export interface SynthesisRanking {
   synthesis: CitySynthesis;
 }
 
-let SYNTHESIS_RANKING_CACHE: SynthesisRanking[] | null = null;
+const SYNTHESIS_RANKING_CACHE = new WeakMap<readonly CityLight[], SynthesisRanking[]>();
 
-export function getSynthesisRankings(): SynthesisRanking[] {
-  if (SYNTHESIS_RANKING_CACHE) return SYNTHESIS_RANKING_CACHE;
-  SYNTHESIS_RANKING_CACHE = CITIES_SEED.map((c) => ({
+export function getSynthesisRankings(cities: CityLight[]): SynthesisRanking[] {
+  const cached = SYNTHESIS_RANKING_CACHE.get(cities);
+  if (cached) return cached;
+  const rows = cities.map((c) => ({
     slug: c.slug,
     name: c.name,
     region: c.region,
@@ -248,12 +248,13 @@ export function getSynthesisRankings(): SynthesisRanking[] {
     population: c.population ?? 0,
     synthesis: computeCitySynthesis(c),
   }));
-  return SYNTHESIS_RANKING_CACHE;
+  SYNTHESIS_RANKING_CACHE.set(cities, rows);
+  return rows;
 }
 
 /** Villes au profil global le plus favorable = global le plus haut. */
-export function topSynthesisGlobal(limit = 30, minPopulation = 0): SynthesisRanking[] {
-  return getSynthesisRankings()
+export function topSynthesisGlobal(cities: CityLight[], limit = 30, minPopulation = 0): SynthesisRanking[] {
+  return getSynthesisRankings(cities)
     .filter((r) => r.population >= minPopulation)
     .slice()
     .sort((a, b) => b.synthesis.global - a.synthesis.global)
@@ -261,8 +262,8 @@ export function topSynthesisGlobal(limit = 30, minPopulation = 0): SynthesisRank
 }
 
 /** Villes au profil global le plus tendu = global le plus bas. */
-export function bottomSynthesisGlobal(limit = 20, minPopulation = 0): SynthesisRanking[] {
-  return getSynthesisRankings()
+export function bottomSynthesisGlobal(cities: CityLight[], limit = 20, minPopulation = 0): SynthesisRanking[] {
+  return getSynthesisRankings(cities)
     .filter((r) => r.population >= minPopulation)
     .slice()
     .sort((a, b) => a.synthesis.global - b.synthesis.global)
@@ -302,8 +303,8 @@ const AXIS_KEYS: readonly SynthesisAxis["key"][] = [
  * Réutilise le cache `getSynthesisRankings()` — zéro recompute.
  * Renvoie `null` si aucune ville du seed n'appartient à la région.
  */
-export function computeRegionAverageSynthesis(region: string): RegionAverageSynthesis | null {
-  const rows = getSynthesisRankings().filter((r) => r.region === region);
+export function computeRegionAverageSynthesis(region: string, cities: CityLight[]): RegionAverageSynthesis | null {
+  const rows = getSynthesisRankings(cities).filter((r) => r.region === region);
   if (rows.length === 0) return null;
   const n = rows.length;
   const byAxis: Record<string, number> = {};
@@ -376,6 +377,7 @@ export interface PersonalSynthesisRow {
  */
 export function personalSynthesisRanking(
   weights: SynthesisWeights,
+  cities: CityLight[],
   limit = 10,
   minPopulation = 0,
 ): PersonalSynthesisRow[] {
@@ -399,7 +401,7 @@ export function personalSynthesisRanking(
   const wDemo = weights.demo / safeTotal;
   const wServices = weights.services / safeTotal;
 
-  return getSynthesisRankings()
+  return getSynthesisRankings(cities)
     .filter((r) => r.population >= minPopulation)
     .map((r) => {
       // Pull the axis scores by key from the synthesis output.

@@ -16,6 +16,7 @@ import {
   type CompatibilityAnswers,
   type CompatibilityMatch,
 } from "@/lib/compatibility";
+import type { CityLight } from "@/lib/cities-light";
 
 type Step =
   | { id: keyof CompatibilityAnswers; type: "single"; question: string; options: Array<{ value: string; label: string; desc?: string }> }
@@ -138,7 +139,7 @@ function scoreColorBadge(score: number): string {
   return "bg-orange-100 text-orange-700 border-orange-300";
 }
 
-export function CompatibilityQuiz() {
+export function CompatibilityQuiz({ cities }: { cities: CityLight[] }) {
   const [step, setStep] = useState(0);
   const [answers, setAnswers] = useState<Partial<CompatibilityAnswers>>(INITIAL);
   const [submitted, setSubmitted] = useState(false);
@@ -150,8 +151,8 @@ export function CompatibilityQuiz() {
 
   const results: CompatibilityMatch[] = useMemo(() => {
     if (!submitted) return [];
-    return rankCompatibility(answers as CompatibilityAnswers, 5);
-  }, [submitted, answers]);
+    return rankCompatibility(answers as CompatibilityAnswers, cities, 5);
+  }, [submitted, answers, cities]);
 
   if (submitted) {
     return (

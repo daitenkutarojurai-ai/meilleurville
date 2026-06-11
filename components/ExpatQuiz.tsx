@@ -18,6 +18,7 @@ import {
   type CompatibilityAnswers,
   type CompatibilityMatch,
 } from "@/lib/compatibility";
+import type { CityLight } from "@/lib/cities-light";
 import { EXPAT_COUNTRIES, getExpatCountry, type ExpatCountry } from "@/lib/expat-return";
 
 type Step =
@@ -92,7 +93,7 @@ function scoreColorBadge(score: number): string {
   return "bg-orange-100 text-orange-700 border-orange-300";
 }
 
-export function ExpatQuiz() {
+export function ExpatQuiz({ cities }: { cities: CityLight[] }) {
   const [step, setStep] = useState(0);
   const [answers, setAnswers] = useState<ExpatAnswers>(INITIAL);
   const [submitted, setSubmitted] = useState(false);
@@ -117,7 +118,7 @@ export function ExpatQuiz() {
       noise: (answers.noise as CompatibilityAnswers["noise"]) ?? "supporte",
       heat: (answers.heat as CompatibilityAnswers["heat"]) ?? "supporte",
     };
-    const base = rankCompatibility(compatibilityInput, 50);
+    const base = rankCompatibility(compatibilityInput, cities, 50);
     const country = answers.originCountry ? getExpatCountry(answers.originCountry) : undefined;
     const frontierSlugs = new Set(country?.bestSuitedCities ?? []);
     // Apply frontier bonus + re-rank

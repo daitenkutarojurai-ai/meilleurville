@@ -37,7 +37,7 @@ export default function FavorisPage() {
 
       <section className="relative pb-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
-          <UserBadges />
+          <UserBadges cities={CITIES_LIGHT} />
           <FavoritesGrid cities={CITIES_LIGHT} />
         </div>
       </section>

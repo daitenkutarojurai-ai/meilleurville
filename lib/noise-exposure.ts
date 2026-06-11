@@ -15,7 +15,7 @@
 // Tous les scores 0-10. 10 = exposition maximale au bruit.
 // Composite = moyenne pondérée des 4 sous-scores.
 
-import type { CitySeed } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 
 export type NoiseLevel = "faible" | "modere" | "eleve" | "fort";
 
@@ -72,7 +72,7 @@ const HIGHWAY_AXIS_DEPTS = new Set([
   "Seine-et-Marne", "Yvelines", "Essonne",
 ]);
 
-function roadNoise(city: CitySeed): NoiseDimension {
+function roadNoise(city: CityLight): NoiseDimension {
   const pop = city.population ?? 0;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
   const isMetro = /métropole|métropolitaine/.test(tags);
@@ -164,7 +164,7 @@ const AIRPORT_PEB_MED = new Set([
   "bordeaux", "pessac",
 ]);
 
-function aircraftNoise(city: CitySeed): NoiseDimension {
+function aircraftNoise(city: CityLight): NoiseDimension {
   const s = city.slug;
   if (AIRPORT_PEB_HIGH.has(s)) {
     return {
@@ -208,7 +208,7 @@ const RAIL_MED_DEPTS = new Set([
   "Drôme", "Isère", "Var", "Alpes-Maritimes", "Vienne", "Charente",
 ]);
 
-function railNoise(city: CitySeed): NoiseDimension {
+function railNoise(city: CityLight): NoiseDimension {
   const d = city.department;
   if (RAIL_HIGH_DEPTS.has(d)) {
     return {
@@ -236,7 +236,7 @@ function railNoise(city: CitySeed): NoiseDimension {
 // Heuristique : population × tags étudiant/festif/touristique = vie nocturne
 // active = Lnight > 50 dB(A) sur les zones centrales (OMS recommande < 45).
 
-function urbanNightNoise(city: CitySeed): NoiseDimension {
+function urbanNightNoise(city: CityLight): NoiseDimension {
   const pop = city.population ?? 0;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
   const isStudent = /étudiant|universitaire|jeune/.test(tags);
@@ -297,7 +297,7 @@ function composeSignature(n: NoiseExposure, name: string): string {
   return `${name} cumule plusieurs sources de bruit : ${tops.slice(0, 2).map((t) => `${t.k} (${t.d.level})`).join(", ")}.`;
 }
 
-export function computeNoiseExposure(city: CitySeed): NoiseExposure {
+export function computeNoiseExposure(city: CityLight): NoiseExposure {
   const road = roadNoise(city);
   const aircraft = aircraftNoise(city);
   const rail = railNoise(city);

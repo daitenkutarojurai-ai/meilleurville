@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
@@ -47,7 +48,7 @@ function getCurrentMonthIndex(): MonthIndex {
 
 export default function VacancesHub() {
   const currentMonth = getCurrentMonthIndex();
-  const topCurrent = topCitiesForMonth(currentMonth, { limit: 6 });
+  const topCurrent = topCitiesForMonth(currentMonth, CITIES_LIGHT, { limit: 6 });
   const currentMonthLabel = formatMonthLabel(currentMonth);
   const currentSlug = indexToMonthSlug(currentMonth);
 

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
@@ -174,13 +175,13 @@ export default async function MonthPage({ params }: Props) {
   if (!idx) notFound();
   const label = EN_MONTH_LABELS[month as EnMonthSlug] ?? month;
 
-  const top30 = topCitiesForMonth(idx, { limit: 30 });
+  const top30 = topCitiesForMonth(idx, CITIES_LIGHT, { limit: 30 });
   const angles = MONTH_HIGHLIGHT_ACTIVITIES[idx];
   const angle = MONTH_ANGLES[idx];
 
   const topsByActivity = angles.map((slug) => ({
     activity: slug,
-    list: topCitiesForMonth(idx, { activity: slug, limit: 3 }),
+    list: topCitiesForMonth(idx, CITIES_LIGHT, { activity: slug, limit: 3 }),
   }));
 
   const calmPicks = top30

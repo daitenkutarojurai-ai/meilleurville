@@ -5,6 +5,7 @@
 // + méthodologie. Évite que ces sous-pages restent enfouies dans les
 // fiches villes / régions / dept.
 
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
@@ -40,8 +41,8 @@ function getDeptCount(): number {
 }
 
 export default function SyntheseHubPage() {
-  const top5Cities = topSynthesisGlobal(5, 15000);
-  const top5Regions = METRO_REGIONS.map((r) => computeRegionAverageSynthesis(r))
+  const top5Cities = topSynthesisGlobal(CITIES_LIGHT, 5, 15000);
+  const top5Regions = METRO_REGIONS.map((r) => computeRegionAverageSynthesis(r, CITIES_LIGHT))
     .filter((x): x is NonNullable<typeof x> => x !== null)
     .sort((a, b) => b.global - a.global)
     .slice(0, 5);

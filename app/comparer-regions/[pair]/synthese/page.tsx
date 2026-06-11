@@ -6,6 +6,7 @@
 // des deux régions. Cohérent avec F66 (synthèse par région) qui sert de
 // brique de calcul.
 
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -91,8 +92,8 @@ export default async function PairRegionSynthesePage({ params }: Props) {
   if (!parsed) notFound();
   const { a, b } = parsed;
 
-  const synA = computeRegionAverageSynthesis(a);
-  const synB = computeRegionAverageSynthesis(b);
+  const synA = computeRegionAverageSynthesis(a, CITIES_LIGHT);
+  const synB = computeRegionAverageSynthesis(b, CITIES_LIGHT);
   if (!synA || !synB) notFound();
 
   const rows = AXIS_META.map((m) => {

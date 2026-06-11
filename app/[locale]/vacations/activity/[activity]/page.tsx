@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
@@ -120,7 +121,7 @@ export default async function ActivityPage({ params }: Props) {
   const def = ACTIVITY_DEFS[slug];
   const enDef = EN_ACTIVITY_DEFS[slug];
 
-  const top30 = topCitiesForActivity(slug, { limit: 30 });
+  const top30 = topCitiesForActivity(slug, CITIES_LIGHT, { limit: 30 });
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Home", path: `${EN_BASE}/` },

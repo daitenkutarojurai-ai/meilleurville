@@ -14,7 +14,7 @@
 // Tous les scores 0-10. 10 = exposition maximale.
 // Composite = moyenne pondérée des 4 sous-scores.
 
-import type { CitySeed } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 
 export type AirLevel = "faible" | "modere" | "eleve" | "fort";
 
@@ -63,7 +63,7 @@ const HIGHWAY_AXIS_DEPTS = new Set([
   "Seine-Saint-Denis", "Hauts-de-Seine", "Val-de-Marne", "Val-d'Oise",
 ]);
 
-function no2Risk(city: CitySeed): AirDimension {
+function no2Risk(city: CityLight): AirDimension {
   const pop = city.population ?? 0;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
   const isMetro = /métropole|métropolitaine/.test(tags);
@@ -123,7 +123,7 @@ const VALLEY_INVERSION_DEPTS = new Set([
   "Drôme", "Ardèche", "Vaucluse",
 ]);
 
-function pm25Risk(city: CitySeed): AirDimension {
+function pm25Risk(city: CityLight): AirDimension {
   const pop = city.population ?? 0;
   const tj = city.avgTempJanuary ?? 5;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
@@ -185,7 +185,7 @@ function pm25Risk(city: CitySeed): AirDimension {
 // la vallée du Rhône, et la plaine bordelaise. Très peu présent en hiver ou
 // sous climat océanique humide.
 
-function ozoneRisk(city: CitySeed): AirDimension {
+function ozoneRisk(city: CityLight): AirDimension {
   const tj = city.avgTempJuly ?? 21;
   const sun = city.sunshinedays ?? 1900;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
@@ -263,7 +263,7 @@ const GRASSES_OPEN_DEPTS = new Set([
   "Calvados", "Manche", "Orne", "Seine-Maritime", "Eure",
 ]);
 
-function pollenRisk(city: CitySeed): AirDimension {
+function pollenRisk(city: CityLight): AirDimension {
   const d = city.department;
   const isCypress = CYPRESS_BASIN_DEPTS.has(d);
   const isAmbrosia = AMBROSIA_DEPTS.has(d);
@@ -325,7 +325,7 @@ function composeSignature(a: AirQuality, name: string): string {
   return `${name} cumule plusieurs pressions sur la qualité de l'air : ${tops.slice(0, 2).map((t) => `${t.k} (${t.d.level})`).join(", ")}.`;
 }
 
-export function computeAirQuality(city: CitySeed): AirQuality {
+export function computeAirQuality(city: CityLight): AirQuality {
   const no2 = no2Risk(city);
   const pm25 = pm25Risk(city);
   const ozone = ozoneRisk(city);

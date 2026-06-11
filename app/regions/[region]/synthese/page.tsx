@@ -6,9 +6,10 @@
 // (« vivre en Bretagne », « meilleures villes Occitanie »).
 //
 // Pattern strictement aligné sur F65 — profil moyen 8 axes + palmarès
-// local. Réutilise `getSynthesisRankings()` (cache module-level) sans
+// local. Réutilise `getSynthesisRankings(CITIES_LIGHT)` (cache module-level) sans
 // recompute des sous-scores.
 
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -58,7 +59,7 @@ export default async function RegionSynthesePage({ params }: Props) {
   const region = slugToRegion(regionSlug, ALL_REGIONS);
   if (!region) notFound();
 
-  const rows = getSynthesisRankings().filter((r) => r.region === region);
+  const rows = getSynthesisRankings(CITIES_LIGHT).filter((r) => r.region === region);
   if (rows.length === 0) notFound();
 
   const sorted = [...rows].sort((a, b) => b.synthesis.global - a.synthesis.global);

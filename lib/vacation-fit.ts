@@ -5,7 +5,7 @@
 // bestMonthsFor(city)     : top 3 mois pour visiter cette ville.
 // topCitiesForMonth(opts) : classement national pour un mois donné.
 
-import { CITIES_SEED, type CitySeed } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 import {
   monthSignal,
   type MonthIndex,
@@ -82,7 +82,7 @@ export interface VacationFit {
 
 // ─── Notation profil ──────────────────────────────────────────────────────
 
-function profileFit(city: CitySeed, profile: VacationProfile): number {
+function profileFit(city: CityLight, profile: VacationProfile): number {
   const s = city.scores;
   switch (profile) {
     case "famille":
@@ -100,7 +100,7 @@ function profileFit(city: CitySeed, profile: VacationProfile): number {
 
 // ─── Budget tier ──────────────────────────────────────────────────────────
 
-function budgetTier(city: CitySeed): 1 | 2 | 3 | 4 {
+function budgetTier(city: CityLight): 1 | 2 | 3 | 4 {
   // Plus le score cost est élevé, plus c'est abordable.
   const c = city.scores.cost;
   if (c >= 8) return 1; // €
@@ -112,7 +112,7 @@ function budgetTier(city: CitySeed): 1 | 2 | 3 | 4 {
 // ─── Why one-liner ────────────────────────────────────────────────────────
 
 function buildWhyLine(
-  city: CitySeed,
+  city: CityLight,
   opts: VacationFitOptions,
   signal: MonthSignal | null,
   activityScore: number,
@@ -137,7 +137,7 @@ function buildWhyLine(
 
 // ─── Main fit ─────────────────────────────────────────────────────────────
 
-export function vacationFit(city: CitySeed, opts: VacationFitOptions = {}): VacationFit {
+export function vacationFit(city: CityLight, opts: VacationFitOptions = {}): VacationFit {
   const signal = opts.month ? monthSignal(city, opts.month) : null;
 
   // Activity
@@ -185,7 +185,7 @@ export function vacationFit(city: CitySeed, opts: VacationFitOptions = {}): Vaca
 
 // ─── Best months for a city ──────────────────────────────────────────────
 
-export function bestMonthsFor(city: CitySeed, activity?: ActivitySlug): MonthIndex[] {
+export function bestMonthsFor(city: CityLight, activity?: ActivitySlug): MonthIndex[] {
   const months: MonthIndex[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
   const scored = months.map((m) => {
     const sig = monthSignal(city, m);
@@ -208,7 +208,7 @@ export function bestMonthsFor(city: CitySeed, activity?: ActivitySlug): MonthInd
 // ─── Top cities for a given month (rankings page driver) ─────────────────
 
 export interface RankedVacationCity {
-  city: CitySeed;
+  city: CityLight;
   fit: VacationFit;
 }
 
@@ -226,6 +226,7 @@ function cacheKey(opts: RankCacheKey): string {
 
 export function topCitiesForMonth(
   month: MonthIndex,
+  cities: CityLight[],
   opts: { activity?: ActivitySlug; profile?: VacationProfile; limit?: number; minPop?: number } = {},
 ): RankedVacationCity[] {
   const limit = opts.limit ?? 30;
@@ -233,7 +234,7 @@ export function topCitiesForMonth(
   const key = cacheKey({ month, activity: opts.activity, profile: opts.profile });
   let ranked = rankCache.get(key);
   if (!ranked) {
-    ranked = CITIES_SEED
+    ranked = cities
       .filter((c) => (c.population ?? 0) >= minPop)
       .map((c) => ({
         city: c,
@@ -247,6 +248,7 @@ export function topCitiesForMonth(
 
 export function topCitiesForProfile(
   profile: VacationProfile,
+  cities: CityLight[],
   opts: { limit?: number; minPop?: number } = {},
 ): RankedVacationCity[] {
   const limit = opts.limit ?? 30;
@@ -254,7 +256,7 @@ export function topCitiesForProfile(
   const key = cacheKey({ profile });
   let ranked = rankCache.get(key);
   if (!ranked) {
-    ranked = CITIES_SEED
+    ranked = cities
       .filter((c) => (c.population ?? 0) >= minPop)
       .map((c) => ({
         city: c,
@@ -268,6 +270,7 @@ export function topCitiesForProfile(
 
 export function topCitiesForActivity(
   activity: ActivitySlug,
+  cities: CityLight[],
   opts: { profile?: VacationProfile; limit?: number; minPop?: number } = {},
 ): RankedVacationCity[] {
   const limit = opts.limit ?? 30;
@@ -275,7 +278,7 @@ export function topCitiesForActivity(
   const key = cacheKey({ activity, profile: opts.profile });
   let ranked = rankCache.get(key);
   if (!ranked) {
-    ranked = CITIES_SEED
+    ranked = cities
       .filter((c) => (c.population ?? 0) >= minPop)
       .map((c) => ({
         city: c,

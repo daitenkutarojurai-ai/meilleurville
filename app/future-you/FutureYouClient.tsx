@@ -24,6 +24,7 @@ import {
   type ClimatePref,
   type FutureYouResult,
 } from "@/lib/future-you";
+import type { CityLight } from "@/lib/cities-light";
 import { HOUSEHOLD_PROFILES, type HouseholdProfile } from "@/lib/household-cost";
 import { formatNumber, scoreColor, scoreHex } from "@/lib/utils";
 
@@ -97,7 +98,7 @@ function stressLabel(s: number, locale: Locale): string {
   return locale === "en" ? "calm" : "calme";
 }
 
-export function FutureYouClient({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
+export function FutureYouClient({ locale = "fr", cities }: { locale?: "fr" | "en"; cities: CityLight[] }) {
   const t = (fr: string, en: string) => (locale === "en" ? en : fr);
   const cityHref = (slug: string) => (locale === "en" ? `/cities/${slug}` : `/villes/${slug}`);
   const [salary, setSalary] = useState(2800);
@@ -115,8 +116,8 @@ export function FutureYouClient({ locale = "fr" }: { locale?: "fr" | "en" } = {}
     [salary, household, mobility, priorities, climate, commuteMaxMin],
   );
 
-  const top3 = useMemo(() => simulateTopCities(input, 3), [input]);
-  const reference = useMemo(() => simulateReference(input, "paris"), [input]);
+  const top3 = useMemo(() => simulateTopCities(input, cities, 3), [input, cities]);
+  const reference = useMemo(() => simulateReference(input, cities, "paris"), [input, cities]);
 
   return (
     <div className="space-y-8">
