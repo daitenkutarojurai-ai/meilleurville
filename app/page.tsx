@@ -18,10 +18,8 @@ import { CityMarquee } from "@/components/CityMarquee";
 import { ScrollReveal } from "@/components/effects/ScrollReveal";
 import { SectionNav } from "@/components/SectionNav";
 import { CITIES_SEED } from "@/data/cities-seed";
-import { MAP_CITIES } from "@/lib/cities-light";
-import { HERO_CITIES } from "@/lib/hero-data";
-import { COST_CALC_CITIES } from "@/lib/cost-calc-data";
 import { CITIES_COUNT, RANKINGS_COUNT } from "@/lib/site-stats";
+import { HOMEPAGE_CITIES } from "@/lib/home-data";
 import { scoreColor } from "@/lib/utils";
 
 export default function HomePage() {
@@ -31,12 +29,12 @@ export default function HomePage() {
           graph — duplicating it here made Google see two WebSite nodes. */}
       <AmbientBackground />
       <Navbar />
-      <HeroSection cities={HERO_CITIES} citiesCount={CITIES_COUNT} rankingsCount={RANKINGS_COUNT} />
+      <HeroSection cities={HOMEPAGE_CITIES} citiesCount={CITIES_COUNT} rankingsCount={RANKINGS_COUNT} />
       <SectionNav />
       <ScrollReveal><TopFiveCities /></ScrollReveal>
       <CityMarquee />
       <ScrollReveal><StatsBar citiesCount={CITIES_COUNT} rankingsCount={RANKINGS_COUNT} /></ScrollReveal>
-      <ScrollReveal><FranceHeatmap cities={MAP_CITIES} /></ScrollReveal>
+      <ScrollReveal><FranceHeatmap cities={HOMEPAGE_CITIES} /></ScrollReveal>
       <ScrollReveal><RankingPreview /></ScrollReveal>
       <ScrollReveal><FeaturedCities /></ScrollReveal>
       <ScrollReveal><QuizTeaser citiesCount={CITIES_SEED.length} /></ScrollReveal>
@@ -169,7 +167,7 @@ export default function HomePage() {
             <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-2">Combien resterait-il sur le compte ?</h2>
             <p className="text-[var(--text-secondary)]">Tapez votre loyer et votre salaire, on calcule l&apos;écart, ville par ville.</p>
           </div>
-          <CostCalculator cities={COST_CALC_CITIES} />
+          <CostCalculator cities={HOMEPAGE_CITIES} />
 
           <div className="mt-8">
             <Link

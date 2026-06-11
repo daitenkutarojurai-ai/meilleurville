@@ -4,7 +4,7 @@ import { useState, useRef, useEffect, useMemo } from "react";
 import { Search, Sparkles, ArrowRight, MapPin, Star } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { useRouter } from "next/navigation";
-import type { HeroCity } from "@/lib/hero-data";
+import type { HomeCity } from "@/lib/home-data";
 import { WordsReveal, FadeBlurIn } from "@/components/effects/WordsReveal";
 import { MagneticButton } from "@/components/effects/MagneticButton";
 import { GrainOverlay } from "@/components/effects/GrainOverlay";
@@ -39,7 +39,7 @@ export function HeroSection({
   rankingsCount,
 }: {
   locale?: "fr" | "en";
-  cities: HeroCity[];
+  cities: HomeCity[];
   citiesCount: number;
   rankingsCount: number;
 }) {
@@ -61,9 +61,10 @@ export function HeroSection({
       .sort((a, b) => {
         const aStart = normalize(a.name).startsWith(q) ? 0 : 1;
         const bStart = normalize(b.name).startsWith(q) ? 0 : 1;
-        return aStart !== bStart ? aStart - bStart : b.score - a.score;
+        return aStart !== bStart ? aStart - bStart : b.scores.global - a.scores.global;
       })
-      .slice(0, 6);
+      .slice(0, 6)
+      .map((c) => ({ slug: c.slug, name: c.name, region: c.region, score: c.scores.global }));
   }, [query, cities]);
 
   const open = suggestions.length > 0 && !dismissed;
@@ -141,7 +142,7 @@ export function HeroSection({
         {FLOATING_DOTS.map((d, i) => {
           const x = ((d.lng + 5) / 14) * 100;
           const y = ((52 - d.lat) / 11) * 100;
-          const score = cities.find((c) => c.name === d.name)?.score;
+          const score = cities.find((c) => c.name === d.name)?.scores.global;
           if (score == null) return null;
           return (
             <div

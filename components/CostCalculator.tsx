@@ -1,7 +1,7 @@
 "use client";
 import { useState, useMemo } from "react";
 import { Calculator, ArrowRight, TrendingDown, TrendingUp, AlertCircle } from "lucide-react";
-import type { CostCalcCity } from "@/lib/cost-calc-data";
+import type { HomeCity } from "@/lib/home-data";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 
@@ -44,7 +44,9 @@ function foodIndex(costScore: number): number {
 
 // cities is a server-computed projection (lib/cost-calc-data) — importing the
 // seed + housing here would ship them in the homepage client bundle.
-export function CostCalculator({ locale = "fr", cities: source }: { locale?: "fr" | "en"; cities: CostCalcCity[] }) {
+// Shares the homepage's single HomeCity array (flight dedup) — cities without
+// rent data are filtered out below.
+export function CostCalculator({ locale = "fr", cities: source }: { locale?: "fr" | "en"; cities: HomeCity[] }) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const PRIORITIES = locale === "en" ? PRIORITIES_EN : PRIORITIES_FR;
   const [parisRent, setParisRent] = useState(1400);
@@ -56,6 +58,7 @@ export function CostCalculator({ locale = "fr", cities: source }: { locale?: "fr
 
   const cities = useMemo(() => {
     return source
+      .filter((c): c is HomeCity & { avgRentT2: number } => c.avgRentT2 != null)
       .map((c) => {
         const rentSavings = parisRent - c.avgRentT2;
         const chargeSavings = PARIS_CHARGES - Math.round(PARIS_CHARGES * 0.8);

@@ -10,7 +10,6 @@ import { ProfileQuickAccess } from "@/components/ProfileQuickAccess";
 import { GuidesTeaser } from "@/components/GuidesTeaser";
 import { RedFlagTeaser } from "@/components/RedFlagTeaser";
 import { CostCalculator } from "@/components/CostCalculator";
-import { COST_CALC_CITIES } from "@/lib/cost-calc-data";
 import { NewsletterSection } from "@/components/NewsletterSection";
 import { Footer } from "@/components/Footer";
 import { FranceHeatmap } from "@/components/FranceHeatmap";
@@ -20,10 +19,9 @@ import { CityMarquee } from "@/components/CityMarquee";
 import { ScrollReveal } from "@/components/effects/ScrollReveal";
 import { SectionNav } from "@/components/SectionNav";
 import { CITIES_SEED } from "@/data/cities-seed";
-import { MAP_CITIES } from "@/lib/cities-light";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
-import { HERO_CITIES } from "@/lib/hero-data";
 import { CITIES_COUNT, RANKINGS_COUNT } from "@/lib/site-stats";
+import { HOMEPAGE_CITIES } from "@/lib/home-data";
 import { scoreColor } from "@/lib/utils";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
@@ -64,12 +62,12 @@ export default function EnHomePage() {
           graph — duplicating it here made Google see two WebSite nodes. */}
       <AmbientBackground />
       <Navbar />
-      <HeroSection locale="en" cities={HERO_CITIES} citiesCount={CITIES_COUNT} rankingsCount={RANKINGS_COUNT} />
+      <HeroSection locale="en" cities={HOMEPAGE_CITIES} citiesCount={CITIES_COUNT} rankingsCount={RANKINGS_COUNT} />
       <SectionNav locale="en" />
       <ScrollReveal><TopFiveCities locale="en" /></ScrollReveal>
       <CityMarquee locale="en" />
       <ScrollReveal><StatsBar locale="en" citiesCount={CITIES_COUNT} rankingsCount={RANKINGS_COUNT} /></ScrollReveal>
-      <ScrollReveal><FranceHeatmap locale="en" cities={MAP_CITIES} /></ScrollReveal>
+      <ScrollReveal><FranceHeatmap locale="en" cities={HOMEPAGE_CITIES} /></ScrollReveal>
       <ScrollReveal><RankingPreview locale="en" /></ScrollReveal>
       <ScrollReveal><FeaturedCities locale="en" /></ScrollReveal>
       <ScrollReveal><QuizTeaser citiesCount={CITIES_SEED.length} locale="en" /></ScrollReveal>
@@ -202,7 +200,7 @@ export default function EnHomePage() {
             <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-2">How much would be left in the bank?</h2>
             <p className="text-[var(--text-secondary)]">Type in your rent and salary, we work out the gap, city by city.</p>
           </div>
-          <CostCalculator locale="en" cities={COST_CALC_CITIES} />
+          <CostCalculator locale="en" cities={HOMEPAGE_CITIES} />
 
           <div className="mt-8">
             <Link
