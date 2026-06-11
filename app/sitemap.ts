@@ -150,6 +150,7 @@ function staticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/pour-qui/jeunes-parents`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/pour-qui/sportifs`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/pour-qui/investisseurs-locatifs`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/pour-qui/familles-avec-ados`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/salaire-equivalent`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/macro-region`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/macro-region/cote-atlantique`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },

@@ -399,6 +399,29 @@ export const PROFILE_PAGES: ProfileDef[] = [
     },
   },
   {
+    slug: "familles-avec-ados",
+    emoji: "🎒",
+    label: "Familles avec ados (12-17 ans)",
+    metaTitle: "Meilleures villes familles avec ados 2026 — Top 20",
+    metaDescription:
+      "Top 20 villes françaises pour familles avec adolescents 12-17 ans : lycée, transport autonomie ado, sécurité nocturne, scène culturelle, espaces pour s'aérer. Calibré 2026.",
+    intro:
+      "Familles avec ados : un adolescent de 12-17 ans, ce n'est ni l'enfant scolarisé en primaire couvert par familles avec enfants, ni le nourrisson de jeunes parents. Ce qui change brutalement à l'adolescence, c'est l'autonomie : votre ado rentre seul du lycée, traverse la ville pour son sport ou son club, sort le soir en groupe au cinéma ou au concert, prend les transports pour ses amis. La qualité du lycée pèse plus que celle du primaire — l'orientation post-bac se joue dès la seconde. La sécurité nocturne devient un vrai critère, plus une abstraction : un retour de l'arrêt de bus à 22 h en hiver n'a pas la même tête à Annecy qu'à Aubervilliers. La densité culturelle se met à compter — cinéma, salle de concert, club sportif fédéré, médiathèque ouverte le samedi — parce qu'un ado qui s'ennuie est un ado qui s'isole. Le réseau de transport en commun fait la différence entre un parent-taxi épuisé et un ado autonome. Ce classement pondère d'abord les transports et la sécurité, intègre lourdement la sécurité nocturne et l'offre culturelle, garde le poids des établissements scolaires (lycée + supérieur de proximité) et ajoute la vitalité jeune-actif — les ados ont besoin d'une ville qui ne se vide pas le soir. La nature reste utile pour les week-ends, mais moins centrale qu'à l'âge primaire. Résultat : un palmarès tiré par les villes universitaires moyennes bien desservies, les métropoles régionales équilibrées, et beaucoup moins par les petites communes isolées où l'autonomie de l'ado se résume à la voiture des parents.",
+    weights: {
+      transport: 2.0,
+      schools: 2.0,
+      securiteNocturne: 1.5,
+      safety: 1.5,
+      culture: 1.5,
+      jeuneActif: 1.0,
+      famille: 1.0,
+      life: 1.0,
+      nature: 0.5,
+    },
+    reasonHint: (c) =>
+      `Transport ${c.scores.transport.toFixed(1)} · écoles ${c.scores.schools.toFixed(1)} · culture ${c.scores.culture.toFixed(1)}`,
+  },
+  {
     slug: "sportifs",
     emoji: "🏋️",
     label: "Sportifs réguliers",
