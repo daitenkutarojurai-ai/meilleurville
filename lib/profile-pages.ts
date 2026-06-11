@@ -440,6 +440,28 @@ export const PROFILE_PAGES: ProfileDef[] = [
     reasonHint: (c) =>
       `Sport ${computeSportLeisure(c as CitySeed).composite.toFixed(1)} · nature ${c.scores.nature.toFixed(1)} · qualité de vie ${c.scores.life.toFixed(1)}`,
   },
+  {
+    slug: "proches-aidants",
+    emoji: "🤝",
+    label: "Proches aidants",
+    metaTitle: "Meilleures villes proches aidants 2026 — Top 20 France",
+    metaDescription:
+      "Top 20 villes françaises adaptées aux proches aidants : sécurité, calme, tissu médico-social, coût maîtrisé, transports vers l'hôpital. Calibré 2026.",
+    intro:
+      "Proches aidants : selon la DREES, près de 11 millions de personnes en France accompagnent au quotidien un parent âgé, un conjoint malade, un enfant en situation de handicap ou un proche en perte d'autonomie. Ce rôle, souvent invisible, pèse sur la santé mentale, la carrière et le budget — et choisir sa ville quand on est aidant relève d'arbitrages très différents de ceux d'un actif sans charge ou d'un retraité standard. Le critère qui domine, c'est l'accès à un cadre apaisé qui ne rajoute pas une couche de stress aux trajets répétés vers l'EHPAD, la clinique ou le cabinet de soins infirmiers. La sécurité diurne et nocturne pèsent lourd : une visite tardive ou un retour de garde à 22 h n'a pas la même tension dans une commune calme qu'en pleine zone tendue. Le tissu social familial fait la différence entre un aidant qui tient quinze ans et un aidant qui craque en deux — haltes-répit, accueils de jour, plateformes d'accompagnement et associations locales soutiennent dans la durée. Le coût de la vie compte plus qu'à l'ordinaire, parce qu'aider un proche, c'est très souvent réduire son temps de travail (passage à 80 %, congé proche aidant indemnisé environ 65 €/jour, abandon temporaire d'activité), donc encaisser une baisse de revenus durable. Le bruit et la qualité de vie générale comptent parce que le sommeil de l'aidant est déjà fragmenté par les sollicitations, et qu'une ville bruyante achève l'épuisement. Ce classement pondère d'abord la sécurité et le tissu familial, complète par la qualité de vie, la sécurité nocturne, la maîtrise des coûts, la maîtrise du bruit et l'accessibilité en transports en commun pour les trajets domicile-soin sans dépendre de la voiture. Résultat : un palmarès qui privilégie les villes moyennes au tissu associatif dense et les chefs-lieux de département dotés d'un hôpital de proximité, beaucoup moins les hyper-centres tendus ou les communes isolées sans services médico-sociaux.",
+    weights: {
+      safety: 2.0,
+      famille: 1.5,
+      life: 1.5,
+      securiteNocturne: 1.5,
+      cost: 1.5,
+      bruit: 1.0,
+      transport: 1.0,
+      solitude: 0.5,
+    },
+    reasonHint: (c) =>
+      `Sécurité ${c.scores.safety.toFixed(1)} · vie ${c.scores.life.toFixed(1)} · coût ${c.scores.cost.toFixed(1)}`,
+  },
 ];
 
 export const PROFILE_SLUGS = PROFILE_PAGES.map((p) => p.slug);
