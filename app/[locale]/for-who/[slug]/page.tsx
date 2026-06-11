@@ -8,7 +8,7 @@ import type { ProfileDef } from "@/lib/profile-pages";
 import { scoreColor } from "@/lib/utils";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { CITIES_COUNT } from "@/lib/site-stats";
-import type { CitySeed } from "@/data/cities-seed";
+import { CITIES_LIGHT, type CityLight } from "@/lib/cities-light";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -33,7 +33,7 @@ const EN_PROFILES: EnProfile[] = [
     intro:
       "For families, the combination that matters is schools + safety + green space + affordable living. Not the cultural-nightlife top-5 — families aren't ranking that. This list reflects the real trade-off.",
     weights: { schools: 2.5, safety: 2.0, famille: 2.0, nature: 1.5, cost: 1.0, life: 1.0 },
-    reasonHint: (c: CitySeed) =>
+    reasonHint: (c: CityLight) =>
       `Schools ${c.scores.schools.toFixed(1)} · safety ${c.scores.safety.toFixed(1)} · nature ${c.scores.nature.toFixed(1)}`,
   },
   {
@@ -47,7 +47,7 @@ const EN_PROFILES: EnProfile[] = [
     intro:
       "Young professionals need a specific cocktail: a job market with momentum, a cultural scene that doesn't shut down at 10pm, rents you can afford without an inheritance, and a network to actually make friends. These 20 cities deliver all of that.",
     weights: { jeuneActif: 2.5, culture: 2.0, remoteWork: 1.5, cost: 1.5, life: 1.0 },
-    reasonHint: (c: CitySeed) =>
+    reasonHint: (c: CityLight) =>
       `Culture ${c.scores.culture.toFixed(1)} · remote work ${c.scores.remoteWork.toFixed(1)} · cost ${c.scores.cost.toFixed(1)}`,
   },
   {
@@ -61,7 +61,7 @@ const EN_PROFILES: EnProfile[] = [
     intro:
       "For retirees, the priority order is health access first, safety second, pleasant climate, quality of daily life. Cost matters but less than for working people — the pension is fixed, and property already acquired holds its value. These 20 cities maximise that combination.",
     weights: { safety: 2.5, life: 2.5, nature: 1.5, securiteNocturne: 1.5, qualiteAir: 1.5, canicule: 1.0 },
-    reasonHint: (c: CitySeed) =>
+    reasonHint: (c: CityLight) =>
       `Quality of life ${c.scores.life.toFixed(1)} · safety ${c.scores.safety.toFixed(1)} · nature ${c.scores.nature.toFixed(1)}`,
   },
   {
@@ -75,7 +75,7 @@ const EN_PROFILES: EnProfile[] = [
     intro:
       "Freelancers need fibre, coworking spaces, a local community of independents, and quality of life so you don't burn out. These 20 cities have the right mix — not just big metros; several mid-sized cities punching above their weight make the cut.",
     weights: { remoteWork: 2.5, teletravail: 2.0, culture: 1.5, life: 1.5, cost: 1.0, jeuneActif: 1.0 },
-    reasonHint: (c: CitySeed) =>
+    reasonHint: (c: CityLight) =>
       `Remote work ${c.scores.remoteWork.toFixed(1)} · culture ${c.scores.culture.toFixed(1)} · cost ${c.scores.cost.toFixed(1)}`,
   },
   {
@@ -89,7 +89,7 @@ const EN_PROFILES: EnProfile[] = [
     intro:
       "Employed remote workers are different from freelancers. You keep your employer — often Paris-based — so the distance costs nothing career-wise but saves a lot on rent. These 20 cities optimise the quality-of-life / connectivity / Paris-access ratio.",
     weights: { remoteWork: 2.5, teletravail: 2.0, life: 2.0, transport: 1.5, nature: 1.5, cost: 1.0 },
-    reasonHint: (c: CitySeed) =>
+    reasonHint: (c: CityLight) =>
       `Remote work ${c.scores.remoteWork.toFixed(1)} · quality of life ${c.scores.life.toFixed(1)} · transport ${c.scores.transport.toFixed(1)}`,
   },
   {
@@ -103,7 +103,7 @@ const EN_PROFILES: EnProfile[] = [
     intro:
       "Students need universities, nightlife, transport, and above all rents compatible with a student budget. These 20 cities have the mix — Toulouse, Montpellier, Rennes up front as expected, but also underrated smaller university towns worth considering.",
     weights: { culture: 2.0, transport: 2.0, cost: 2.0, schools: 1.5, jeuneActif: 1.5 },
-    reasonHint: (c: CitySeed) =>
+    reasonHint: (c: CityLight) =>
       `Culture ${c.scores.culture.toFixed(1)} · transport ${c.scores.transport.toFixed(1)} · cost ${c.scores.cost.toFixed(1)}`,
   },
   {
@@ -117,7 +117,7 @@ const EN_PROFILES: EnProfile[] = [
     intro:
       "If you want to ditch the car entirely — or just leave it in the garage — these 20 cities have the network for it. The score combines tram/metro/bus density, walkability, and cycling infrastructure.",
     weights: { sansVoiture: 3.0, transport: 2.0, life: 1.5, culture: 1.0 },
-    reasonHint: (c: CitySeed) =>
+    reasonHint: (c: CityLight) =>
       `Transport ${c.scores.transport.toFixed(1)} · culture ${c.scores.culture.toFixed(1)}`,
   },
   {
@@ -131,7 +131,7 @@ const EN_PROFILES: EnProfile[] = [
     intro:
       "Premium living isn't about prestige — it's about a rare combination: high safety, an exceptional setting, renowned schools, a rich cultural scene, and a price tag that reflects all of it. These 20 cities are for budgets of €4,000+/month.",
     weights: { life: 2.5, safety: 2.0, schools: 1.5, culture: 1.5, nature: 1.5 },
-    reasonHint: (c: CitySeed) =>
+    reasonHint: (c: CityLight) =>
       `Quality of life ${c.scores.life.toFixed(1)} · safety ${c.scores.safety.toFixed(1)} · culture ${c.scores.culture.toFixed(1)}`,
   },
   {
@@ -145,7 +145,7 @@ const EN_PROFILES: EnProfile[] = [
     intro:
       "General safety scores aren't enough — you need night safety AND reliable late-night transport. These 20 cities maximise the feeling of safety getting home in the evening, without sacrificing urban quality of life or culture.",
     weights: { securiteFemmeSeule: 3.0, securiteNocturne: 2.0, transport: 1.5, culture: 1.0, life: 1.0 },
-    reasonHint: (c: CitySeed) =>
+    reasonHint: (c: CityLight) =>
       `Safety ${c.scores.safety.toFixed(1)} · transport ${c.scores.transport.toFixed(1)}`,
   },
   {
@@ -159,7 +159,7 @@ const EN_PROFILES: EnProfile[] = [
     intro:
       "Couples without children: schools don't factor in at all, and with two incomes housing cost becomes secondary. What actually matters is a lively cultural scene, restaurants and events that don't close at 10pm, nature within reach for weekends, and transport that keeps up. These 20 cities maximise exactly that mix.",
     weights: { culture: 2.5, life: 2.0, jeuneActif: 1.5, nature: 1.5, transport: 1.5, remoteWork: 1.0 },
-    reasonHint: (c: CitySeed) =>
+    reasonHint: (c: CityLight) =>
       `Culture ${c.scores.culture.toFixed(1)} · quality of life ${c.scores.life.toFixed(1)} · nature ${c.scores.nature.toFixed(1)}`,
   },
   {
@@ -173,7 +173,7 @@ const EN_PROFILES: EnProfile[] = [
     intro:
       "Returning from abroad means transitioning from an international lifestyle — often high comfort — back to France. These 20 cities combine quality of life, international accessibility (airports, border proximity) and a setting that won't feel like a downgrade.",
     weights: { life: 2.5, culture: 1.5, transport: 2.0, remoteWork: 1.5, safety: 1.5, jeuneActif: 1.0 },
-    reasonHint: (c: CitySeed) =>
+    reasonHint: (c: CityLight) =>
       `Quality of life ${c.scores.life.toFixed(1)} · culture ${c.scores.culture.toFixed(1)} · transport ${c.scores.transport.toFixed(1)}`,
   },
   {
@@ -187,7 +187,7 @@ const EN_PROFILES: EnProfile[] = [
     intro:
       "Buying your first home in France means balancing what you can actually afford against where you'd want to live. These 20 cities score well on property affordability and tax burden without sacrificing quality of life — the realistic shortlist for first-time buyers.",
     weights: { cost: 3.0, safety: 1.5, transport: 1.5, schools: 1.5, life: 1.0, nature: 1.0 },
-    reasonHint: (c: CitySeed) =>
+    reasonHint: (c: CityLight) =>
       `Cost ${c.scores.cost.toFixed(1)} · safety ${c.scores.safety.toFixed(1)} · transport ${c.scores.transport.toFixed(1)}`,
   },
   {
@@ -201,7 +201,7 @@ const EN_PROFILES: EnProfile[] = [
     intro:
       "Single-parent households face a tighter budget and a greater need for reliable services — good schools, safe streets, accessible public transport. These 20 cities combine affordable housing with strong public services and safety, making family life manageable on a single income.",
     weights: { cost: 2.5, schools: 2.5, safety: 2.5, transport: 2.0, sansVoiture: 1.5, life: 1.0 },
-    reasonHint: (c: CitySeed) =>
+    reasonHint: (c: CityLight) =>
       `Schools ${c.scores.schools.toFixed(1)} · safety ${c.scores.safety.toFixed(1)} · cost ${c.scores.cost.toFixed(1)}`,
   },
 ];
@@ -237,7 +237,7 @@ export default async function ForWhoPage({ params }: Props) {
   const profile = getEnProfile(slug);
   if (!profile) notFound();
 
-  const top = rankByProfile(profile, 20);
+  const top = rankByProfile(profile, CITIES_LIGHT, 20);
   const others = EN_PROFILES.filter((p) => p.enSlug !== slug);
 
   const jsonLd = {

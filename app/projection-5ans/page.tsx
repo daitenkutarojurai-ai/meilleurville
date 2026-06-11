@@ -4,6 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { ProjectionClient } from "./ProjectionClient";
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const revalidate = false;
@@ -71,7 +72,7 @@ export default function Projection5AnsPage() {
       </section>
 
       <div className="mx-auto max-w-4xl px-4 sm:px-6 py-10">
-        <ProjectionClient />
+        <ProjectionClient cities={CITIES_LIGHT} />
       </div>
 
       <Footer />

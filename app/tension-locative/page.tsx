@@ -5,6 +5,7 @@ import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { topMostTense, topMostRelaxed } from "@/lib/rental-tension";
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
@@ -26,8 +27,8 @@ export const metadata: Metadata = {
 const MIN_POP = 15_000;
 
 export default function RentalTensionHubPage() {
-  const tense = topMostTense(30, MIN_POP);
-  const relaxed = topMostRelaxed(20, MIN_POP);
+  const tense = topMostTense(CITIES_LIGHT, 30, MIN_POP);
+  const relaxed = topMostRelaxed(CITIES_LIGHT, 20, MIN_POP);
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Accueil", path: "/" },

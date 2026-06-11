@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import { RANKING_META } from "@/lib/rankings";
 import { GUIDES } from "@/data/guides";
 import { EN_GUIDES } from "@/data/guides-en";
@@ -179,7 +180,7 @@ function staticSection(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.72,
     })),
-    ...commonOriginSlugs(24).map((slug) => ({
+    ...commonOriginSlugs(CITIES_LIGHT, 24).map((slug) => ({
       url: `${BASE_URL}/ou-vont-les-gens/${slug}`,
       lastModified: STATIC_UPDATED,
       changeFrequency: "monthly" as const,
@@ -812,7 +813,7 @@ function enStaticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/data-sources`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.55 },
     { url: `${BASE_URL}/property-calendar`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE_URL}/moving-from`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    ...commonOriginSlugs(24).map((slug) => ({
+    ...commonOriginSlugs(CITIES_LIGHT, 24).map((slug) => ({
       url: `${BASE_URL}/leaving/${slug}`,
       lastModified: STATIC_UPDATED,
       changeFrequency: "monthly" as const,

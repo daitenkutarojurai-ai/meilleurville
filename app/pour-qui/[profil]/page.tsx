@@ -10,6 +10,7 @@ import {
   getProfile,
   rankByProfile,
 } from "@/lib/profile-pages";
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
@@ -42,7 +43,7 @@ export default async function ProfilePage({ params }: Props) {
   const profile = getProfile(profil);
   if (!profile) notFound();
 
-  const top = rankByProfile(profile, 20);
+  const top = rankByProfile(profile, CITIES_LIGHT, 20);
   const others = PROFILE_PAGES.filter((p) => p.slug !== profile.slug);
 
   const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";

@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/Badge";
 import { PeopleLikeYouClient } from "./PeopleLikeYouClient";
 import { commonOriginSlugs } from "@/lib/people-like-you";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const revalidate = false;
@@ -49,7 +50,7 @@ export default function PeopleLikeYouPage() {
       </section>
 
       <div className="mx-auto max-w-5xl px-4 sm:px-6 py-10">
-        <PeopleLikeYouClient />
+        <PeopleLikeYouClient cities={CITIES_LIGHT} />
       </div>
 
       {/* SSG landing pages per departure city — readable without JS, indexable */}
@@ -58,7 +59,7 @@ export default function PeopleLikeYouPage() {
           Pages dédiées « quitter X » par ville de départ
         </h2>
         <div className="flex flex-wrap gap-2">
-          {commonOriginSlugs(24).map((slug) => {
+          {commonOriginSlugs(CITIES_LIGHT, 24).map((slug) => {
             const c = CITIES_SEED.find((x) => x.slug === slug);
             if (!c) return null;
             return (

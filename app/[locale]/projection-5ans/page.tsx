@@ -4,6 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { ProjectionClient } from "@/app/projection-5ans/ProjectionClient";
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 
@@ -68,7 +69,7 @@ export default function EnProjection5AnsPage() {
       </section>
 
       <div className="mx-auto max-w-5xl px-4 sm:px-6 py-10">
-        <ProjectionClient locale="en" />
+        <ProjectionClient cities={CITIES_LIGHT} locale="en" />
       </div>
 
       <Footer />

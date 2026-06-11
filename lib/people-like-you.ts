@@ -7,12 +7,13 @@
 // (post-R9.1 accounts) will progressively replace these synthetic patterns
 // with anonymised user-declared moves.
 
-import { CITIES_SEED, type CitySeed } from "@/data/cities-seed";
+import type { CitySeed } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 import { PROFILE_PAGES, type ProfileDef, type ProfileMatch } from "@/lib/profile-pages";
 import { computeOwnerScores } from "@/lib/owner-scores";
 
-function ownerVal(city: CitySeed, key: string): number {
-  const s = computeOwnerScores(city);
+function ownerVal(city: CityLight, key: string): number {
+  const s = computeOwnerScores(city as CitySeed);
   switch (key) {
     case "canicule": return s.find((x) => x.key === "score_canicule")!.value;
     case "solitude": return s.find((x) => x.key === "score_solitude")!.value;
@@ -28,14 +29,14 @@ function ownerVal(city: CitySeed, key: string): number {
   return 5;
 }
 
-function getScoreValue(city: CitySeed, key: string): number {
+function getScoreValue(city: CityLight, key: string): number {
   if (["life", "transport", "nature", "cost", "safety", "culture", "remoteWork", "schools"].includes(key)) {
     return city.scores[key as keyof typeof city.scores];
   }
   return ownerVal(city, key);
 }
 
-function personaScore(city: CitySeed, profile: ProfileDef): number {
+function personaScore(city: CityLight, profile: ProfileDef): number {
   const totalWeight = Object.values(profile.weights).reduce<number>((s, v) => s + (v ?? 0), 0);
   let weightedSum = 0;
   for (const [key, weight] of Object.entries(profile.weights)) {
@@ -51,22 +52,22 @@ export interface MigrationCandidate extends ProfileMatch {
 
 export interface MigrationResult {
   profile: ProfileDef;
-  origin: { city: CitySeed; score: number };
+  origin: { city: CityLight; score: number };
   upgrades: MigrationCandidate[]; // destinations where persona score > origin
   laterals: MigrationCandidate[]; // destinations within ±0.3 of origin (similar)
 }
 
-const METRO_BBOX = (c: CitySeed) =>
+const METRO_BBOX = (c: CityLight) =>
   c.longitude >= -6 && c.longitude <= 10 && c.latitude >= 40 && c.latitude <= 52;
 
-export function migrationFor(originSlug: string, profileSlug: string, limit = 5): MigrationResult | null {
-  const origin = CITIES_SEED.find((c) => c.slug === originSlug);
+export function migrationFor(originSlug: string, profileSlug: string, cities: CityLight[], limit = 5): MigrationResult | null {
+  const origin = cities.find((c) => c.slug === originSlug);
   if (!origin) return null;
   const profile = PROFILE_PAGES.find((p) => p.slug === profileSlug);
   if (!profile) return null;
   const originScore = personaScore(origin, profile);
 
-  const candidates: MigrationCandidate[] = CITIES_SEED
+  const candidates: MigrationCandidate[] = cities
     .filter((c) => c.slug !== origin.slug)
     .filter(METRO_BBOX)
     .map((c) => {
@@ -98,8 +99,8 @@ export function migrationFor(originSlug: string, profileSlug: string, limit = 5)
 }
 
 /** Reasonable origin candidates: top 50 biggest cities (the most common starting points). */
-export function commonOriginSlugs(limit = 50): string[] {
-  return [...CITIES_SEED]
+export function commonOriginSlugs(cities: CityLight[], limit = 50): string[] {
+  return [...cities]
     .filter(METRO_BBOX)
     .filter((c) => (c.population ?? 0) >= 30000)
     .sort((a, b) => (b.population ?? 0) - (a.population ?? 0))

@@ -3,7 +3,7 @@
 // are French-first; this module supplies native English labels + a generic
 // English "why" line so the EN page never leaks French text.
 
-import type { CitySeed } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 
 export const EN_PROFILE_LABELS: Record<string, string> = {
   "familles-avec-enfants": "Families with kids",
@@ -43,7 +43,7 @@ const AXIS_EN: Record<string, string> = {
  * strongest axes plus an affordability note — accurate, native English, and
  * independent of the French reasonHint closures.
  */
-export function enMigrationReason(city: CitySeed): string {
+export function enMigrationReason(city: CityLight): string {
   const entries = (Object.keys(AXIS_EN) as Array<keyof typeof city.scores>)
     .map((k) => ({ k, v: city.scores[k] }))
     .sort((a, b) => b.v - a.v);

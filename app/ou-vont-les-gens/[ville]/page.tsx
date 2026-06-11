@@ -6,6 +6,7 @@ import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import { migrationFor, commonOriginSlugs } from "@/lib/people-like-you";
 import { getProfile } from "@/lib/profile-pages";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
@@ -29,7 +30,7 @@ const FEATURED_PROFILE_SLUGS = [
 ];
 
 // Static origins = the biggest departure cities (most-searched "quitter X").
-const ORIGIN_SLUGS = commonOriginSlugs(24);
+const ORIGIN_SLUGS = commonOriginSlugs(CITIES_LIGHT, 24);
 
 type Props = { params: Promise<{ ville: string }> };
 
@@ -59,7 +60,7 @@ export default async function OuVontLesGensPage({ params }: Props) {
 
   const sections = FEATURED_PROFILE_SLUGS.map((slug) => {
     const profile = getProfile(slug);
-    const result = profile ? migrationFor(origin.slug, slug, 4) : null;
+    const result = profile ? migrationFor(origin.slug, slug, CITIES_LIGHT, 4) : null;
     return profile && result ? { profile, result } : null;
   }).filter((x): x is NonNullable<typeof x> => x !== null);
 

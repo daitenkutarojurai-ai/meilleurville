@@ -3,12 +3,12 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { CityCard } from "@/components/CityCard";
-import { CITIES_SEED } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 import { readFavorites } from "@/components/effects/FavoriteButton";
 import { authFetch, getToken } from "@/lib/auth-client";
 import type { City } from "@/lib/types";
 
-function seedToCity(s: (typeof CITIES_SEED)[number]): City {
+function seedToCity(s: CityLight): City {
   return {
     id: s.slug,
     slug: s.slug,
@@ -27,7 +27,7 @@ function seedToCity(s: (typeof CITIES_SEED)[number]): City {
   };
 }
 
-export function FavoritesGrid() {
+export function FavoritesGrid({ cities: allCities }: { cities: CityLight[] }) {
   const [slugs, setSlugs] = useState<string[]>(() => readFavorites());
 
   useEffect(() => {
@@ -76,8 +76,8 @@ export function FavoritesGrid() {
   }
 
   const cities = slugs
-    .map((slug) => CITIES_SEED.find((c) => c.slug === slug))
-    .filter((c): c is (typeof CITIES_SEED)[number] => Boolean(c))
+    .map((slug) => allCities.find((c) => c.slug === slug))
+    .filter((c): c is CityLight => Boolean(c))
     .map(seedToCity);
 
   return (

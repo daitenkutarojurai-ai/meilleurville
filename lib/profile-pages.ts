@@ -5,7 +5,7 @@
 // Aucune nouvelle donnée — pure recombinaison.
 
 import type { CitySeed } from "@/data/cities-seed";
-import { CITIES_SEED } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 import { HOUSING } from "@/data/housing";
 import { computeOwnerScores } from "@/lib/owner-scores";
 import { computeSportLeisure } from "@/lib/sport-leisure";
@@ -46,11 +46,11 @@ export interface ProfileDef {
   metaDescription: string;
   intro: string;
   weights: ScoreWeights;
-  reasonHint: (city: CitySeed) => string;
+  reasonHint: (city: CityLight) => string;
 }
 
-function ownerVal(city: CitySeed, key: string): number {
-  const s = computeOwnerScores(city);
+function ownerVal(city: CityLight, key: string): number {
+  const s = computeOwnerScores(city as CitySeed);
   switch (key) {
     case "canicule": return s.find((x) => x.key === "score_canicule")!.value;
     case "solitude": return s.find((x) => x.key === "score_solitude")!.value;
@@ -72,7 +72,7 @@ function ownerVal(city: CitySeed, key: string): number {
 // Pénalité de liquidité : un sous-30 k habitants implique pool locataires plus
 // mince et revente plus longue — on déprécie le rendement brut affiché en
 // conséquence (un 10 % théorique dans une ville de 12 k = 4,5 % effectif).
-export function investorYield(city: CitySeed): number {
+export function investorYield(city: CityLight): number {
   const h = HOUSING[city.slug];
   if (!h) {
     return Math.max(0, Math.min(10, (10 - city.scores.cost) * 0.6 + 2.5));
@@ -87,13 +87,13 @@ export function investorYield(city: CitySeed): number {
   return Math.max(0, Math.min(10, base * liquidity));
 }
 
-function getScoreValue(city: CitySeed, key: string): number {
+function getScoreValue(city: CityLight, key: string): number {
   // Axes seed
   if (["life", "transport", "nature", "cost", "safety", "culture", "remoteWork", "schools"].includes(key)) {
     return city.scores[key as keyof typeof city.scores];
   }
   // Cluster composites
-  if (key === "sportLeisure") return computeSportLeisure(city).composite;
+  if (key === "sportLeisure") return computeSportLeisure(city as CitySeed).composite;
   if (key === "rentalTension") return rentalTension(city);
   if (key === "investorYield") return investorYield(city);
   return ownerVal(city, key);
@@ -438,21 +438,21 @@ export const PROFILE_PAGES: ProfileDef[] = [
       jeuneActif: 0.5,
     },
     reasonHint: (c) =>
-      `Sport ${computeSportLeisure(c).composite.toFixed(1)} · nature ${c.scores.nature.toFixed(1)} · qualité de vie ${c.scores.life.toFixed(1)}`,
+      `Sport ${computeSportLeisure(c as CitySeed).composite.toFixed(1)} · nature ${c.scores.nature.toFixed(1)} · qualité de vie ${c.scores.life.toFixed(1)}`,
   },
 ];
 
 export const PROFILE_SLUGS = PROFILE_PAGES.map((p) => p.slug);
 
 export interface ProfileMatch {
-  city: CitySeed;
+  city: CityLight;
   score: number;
   reason: string;
 }
 
-export function rankByProfile(profile: ProfileDef, limit = 20): ProfileMatch[] {
+export function rankByProfile(profile: ProfileDef, cities: CityLight[], limit = 20): ProfileMatch[] {
   const totalWeight = Object.values(profile.weights).reduce<number>((s, v) => s + (v ?? 0), 0);
-  const rows: ProfileMatch[] = CITIES_SEED.map((city) => {
+  const rows: ProfileMatch[] = cities.map((city) => {
     let weightedSum = 0;
     for (const [key, weight] of Object.entries(profile.weights)) {
       if (weight == null) continue;

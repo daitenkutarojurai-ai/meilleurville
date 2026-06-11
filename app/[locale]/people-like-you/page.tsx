@@ -7,6 +7,7 @@ import { PeopleLikeYouClient } from "@/app/people-like-you/PeopleLikeYouClient";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import { commonOriginSlugs } from "@/lib/people-like-you";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
@@ -54,7 +55,7 @@ export default function EnPeopleLikeYouPage() {
       </section>
 
       <div className="mx-auto max-w-5xl px-4 sm:px-6 py-10">
-        <PeopleLikeYouClient locale="en" />
+        <PeopleLikeYouClient cities={CITIES_LIGHT} locale="en" />
       </div>
 
       {/* SSG landing pages per departure city — readable without JS, indexable */}
@@ -63,7 +64,7 @@ export default function EnPeopleLikeYouPage() {
           Per-city &quot;leaving X&quot; landing pages
         </h2>
         <div className="flex flex-wrap gap-2">
-          {commonOriginSlugs(24).map((slug) => {
+          {commonOriginSlugs(CITIES_LIGHT, 24).map((slug) => {
             const c = CITIES_SEED.find((x) => x.slug === slug);
             if (!c) return null;
             return (

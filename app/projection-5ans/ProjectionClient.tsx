@@ -28,7 +28,7 @@ import {
   type ProjectionInput,
   type ProjectionResult,
 } from "@/lib/projection-5ans";
-import { CITIES_SEED } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 import { scoreHex } from "@/lib/utils";
 
 type Step = 0 | 1 | 2;
@@ -97,9 +97,11 @@ const CLIMATE_RISK_LABEL_EN: Record<"low" | "med" | "high", string> = {
 };
 
 export function ProjectionClient({
+  cities,
   initialCode,
   locale = "fr",
 }: {
+  cities: CityLight[];
   initialCode?: string | null;
   locale?: "fr" | "en";
 }) {
@@ -146,8 +148,8 @@ export function ProjectionClient({
 
   const result = useMemo(() => {
     if (phase !== "result") return null;
-    return projectionWithSurprise(input);
-  }, [phase, input]);
+    return projectionWithSurprise(input, cities);
+  }, [phase, input, cities]);
 
   const code = useMemo(() => encodeProjectionInput(input), [input]);
 
@@ -224,8 +226,8 @@ export function ProjectionClient({
   const citySuggestions = useMemo(() => {
     if (cityQuery.length < 2) return [];
     const q = cityQuery.toLowerCase();
-    return CITIES_SEED.filter((c) => c.name.toLowerCase().startsWith(q)).slice(0, 6);
-  }, [cityQuery]);
+    return cities.filter((c) => c.name.toLowerCase().startsWith(q)).slice(0, 6);
+  }, [cityQuery, cities]);
 
   // ── INTRO ───────────────────────────────────────────────────────────────────
   if (phase === "intro") {
@@ -391,7 +393,7 @@ export function ProjectionClient({
               </div>
               {currentCity && (
                 <p className="mt-1.5 text-xs text-amber-600 font-medium">
-                  {t("Ville actuelle :", "Current city:")} {CITIES_SEED.find((c) => c.slug === currentCity)?.name}
+                  {t("Ville actuelle :", "Current city:")} {cities.find((c) => c.slug === currentCity)?.name}
                   {" "}
                   <button type="button" onClick={() => { setCurrentCity(""); setCityQuery(""); }} className="underline text-[var(--text-tertiary)]">
                     {t("Effacer", "Clear")}

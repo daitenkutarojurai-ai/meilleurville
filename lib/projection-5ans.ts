@@ -8,7 +8,7 @@
 // Convention : score 0-100. Axes seeds 0-10, 10 = bon (cohérent avec R7.3).
 // Climate 2040 : pénalité appliquée APRÈS les modificateurs de trajectoire.
 
-import { CITIES_SEED, type CitySeed } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 import { HOUSING } from "@/data/housing";
 import { projectClimate2040 } from "@/lib/climate-2040";
 
@@ -41,7 +41,7 @@ export interface ProjectionInput {
 }
 
 export interface ProjectionResult {
-  city: CitySeed;
+  city: CityLight;
   score: number; // 0-100
   delta: number | null; // score vs currentCity (null if unknown)
   climateRisk: "low" | "med" | "high";
@@ -115,7 +115,7 @@ function applyLifeStageModifiers(w: AxisWeights, stage: LifeStageIn5Years): Axis
 function applyBudgetModifiers(
   w: AxisWeights,
   traj: BudgetTrajectory,
-  city: CitySeed,
+  city: CityLight,
 ): AxisWeights {
   const r = { ...w };
   switch (traj) {
@@ -145,7 +145,7 @@ function applyBudgetModifiers(
 
 // Risque climatique dérivé de lib/climate-2040.ts (projectedDays30C à horizon 2040)
 function climateRiskFor(
-  city: CitySeed,
+  city: CityLight,
   sensitivity: ProjectionInput["climateSensitivity"],
 ): "low" | "med" | "high" {
   const proj = projectClimate2040(city);
@@ -190,7 +190,7 @@ function climatePenalty(
   return 0;
 }
 
-const PRIORITY_TO_AXIS: Record<ProjectionPriority, keyof CitySeed["scores"]> = {
+const PRIORITY_TO_AXIS: Record<ProjectionPriority, keyof CityLight["scores"]> = {
   cost: "cost",
   nature: "nature",
   safety: "safety",
@@ -212,7 +212,7 @@ const AXIS_LABELS: Record<string, string> = {
 };
 
 function trajectoryFitText(
-  city: CitySeed,
+  city: CityLight,
   stage: LifeStageIn5Years,
   traj: BudgetTrajectory,
   score: number,
@@ -266,7 +266,7 @@ function trajectoryFitText(
   return base + extra;
 }
 
-function scoreCity(city: CitySeed, input: ProjectionInput): number {
+function scoreCity(city: CityLight, input: ProjectionInput): number {
   let weights = defaultWeights();
   weights = applyLifeStageModifiers(weights, input.lifeIn5Years);
   weights = applyBudgetModifiers(weights, input.budgetTraj, city);
@@ -300,7 +300,7 @@ function scoreCity(city: CitySeed, input: ProjectionInput): number {
   return rawScore;
 }
 
-function topAxesFor(city: CitySeed, priorities: ProjectionPriority[]): Array<{ key: string; label: string; score: number }> {
+function topAxesFor(city: CityLight, priorities: ProjectionPriority[]): Array<{ key: string; label: string; score: number }> {
   const s = city.scores;
   const all = [
     { key: "cost",       score: s.cost },
@@ -324,7 +324,7 @@ function topAxesFor(city: CitySeed, priorities: ProjectionPriority[]): Array<{ k
   return sorted.slice(0, 3).map(({ key, label, score }) => ({ key, label, score }));
 }
 
-function metroBbox(c: CitySeed): boolean {
+function metroBbox(c: CityLight): boolean {
   return (
     c.longitude >= -6 &&
     c.longitude <= 10 &&
@@ -335,15 +335,16 @@ function metroBbox(c: CitySeed): boolean {
 
 export function computeProjection(
   input: ProjectionInput,
+  cities: CityLight[],
   n = 10,
 ): ProjectionResult[] {
   const currentCity = input.currentCity
-    ? CITIES_SEED.find((c) => c.slug === input.currentCity) ?? null
+    ? cities.find((c) => c.slug === input.currentCity) ?? null
     : null;
 
   const currentScore = currentCity ? scoreCity(currentCity, input) : null;
 
-  const results = CITIES_SEED
+  const results = cities
     .filter(metroBbox)
     .map((city) => {
       const raw = scoreCity(city, input);
@@ -370,14 +371,15 @@ export function computeProjection(
 /** Top 3 + un match surprise (premier hors top 15 avec score >= 55). */
 export function projectionWithSurprise(
   input: ProjectionInput,
+  cities: CityLight[],
 ): { top: ProjectionResult[]; surprise: ProjectionResult | null } {
   const all = (() => {
     const currentCity = input.currentCity
-      ? CITIES_SEED.find((c) => c.slug === input.currentCity) ?? null
+      ? cities.find((c) => c.slug === input.currentCity) ?? null
       : null;
     const currentScore = currentCity ? scoreCity(currentCity, input) : null;
 
-    return CITIES_SEED
+    return cities
       .filter(metroBbox)
       .map((city) => {
         const raw = scoreCity(city, input);

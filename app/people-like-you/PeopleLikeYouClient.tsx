@@ -10,32 +10,30 @@ import {
 } from "@/lib/people-like-you";
 import { PROFILE_PAGES } from "@/lib/profile-pages";
 import { enProfileLabel, enMigrationReason } from "@/lib/people-like-you-en";
-import { CITIES_SEED } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 import { formatNumber, scoreColor, scoreHex } from "@/lib/utils";
 
-const ORIGIN_SLUGS = commonOriginSlugs(50);
-
-function originOptions() {
-  return ORIGIN_SLUGS.map((slug) => CITIES_SEED.find((c) => c.slug === slug)).filter(
-    (c): c is NonNullable<typeof c> => Boolean(c),
-  );
+function originOptions(cities: CityLight[]) {
+  return commonOriginSlugs(cities, 50)
+    .map((slug) => cities.find((c) => c.slug === slug))
+    .filter((c): c is NonNullable<typeof c> => Boolean(c));
 }
 
-export function PeopleLikeYouClient({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
+export function PeopleLikeYouClient({ cities, locale = "fr" }: { cities: CityLight[]; locale?: "fr" | "en" }) {
   const en = locale === "en";
   const t = (fr: string, eng: string) => (en ? eng : fr);
   const cityHref = (slug: string) => (en ? `/cities/${slug}` : `/villes/${slug}`);
   const profileLabel = (slug: string, label: string) => (en ? enProfileLabel(slug, label) : label);
-  const reasonText = (m: { city: (typeof CITIES_SEED)[number]; reason: string }) =>
+  const reasonText = (m: { city: CityLight; reason: string }) =>
     en ? enMigrationReason(m.city) : m.reason;
 
-  const origins = useMemo(() => originOptions(), []);
+  const origins = useMemo(() => originOptions(cities), [cities]);
   const [profileSlug, setProfileSlug] = useState(PROFILE_PAGES[0].slug);
   const [originSlug, setOriginSlug] = useState(origins.find((c) => c.slug === "paris")?.slug ?? origins[0].slug);
 
   const result: MigrationResult | null = useMemo(
-    () => migrationFor(originSlug, profileSlug, 5),
-    [originSlug, profileSlug],
+    () => migrationFor(originSlug, profileSlug, cities, 5),
+    [originSlug, profileSlug, cities],
   );
 
   return (
@@ -212,8 +210,8 @@ export function PeopleLikeYouClient({ locale = "fr" }: { locale?: "fr" | "en" } 
 
       <p className="text-[11px] text-[var(--text-tertiary)] text-center">
         {t(
-          `Population des villes d'origine ≥ 30 000 habitants (${origins.length} villes listées) · destinations : ${formatNumber(CITIES_SEED.length)} villes métropolitaines.`,
-          `Origin cities ≥ 30,000 inhabitants (${origins.length} listed) · destinations: ${formatNumber(CITIES_SEED.length)} metropolitan cities.`,
+          `Population des villes d'origine ≥ 30 000 habitants (${origins.length} villes listées) · destinations : ${formatNumber(cities.length)} villes métropolitaines.`,
+          `Origin cities ≥ 30,000 inhabitants (${origins.length} listed) · destinations: ${formatNumber(cities.length)} metropolitan cities.`,
         )}
       </p>
     </div>

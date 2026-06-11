@@ -117,7 +117,7 @@ function getProfileRanks(): Map<string, Map<string, { rank: number; score: numbe
   if (profileRankCache) return profileRankCache;
   profileRankCache = new Map();
   for (const profile of PROFILE_PAGES) {
-    const ranked = rankByProfile(profile, CITIES_SEED.length);
+    const ranked = rankByProfile(profile, CITIES_SEED, CITIES_SEED.length);
     const map = new Map<string, { rank: number; score: number; reason: string }>();
     ranked.forEach((row, idx) => {
       map.set(row.city.slug, { rank: idx + 1, score: row.score, reason: row.reason });

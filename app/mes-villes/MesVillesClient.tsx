@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Heart, Star, Bell, LogOut, Loader2, MapPin, LineChart, Pencil, Check, X } from "lucide-react";
 import { CityCard } from "@/components/CityCard";
-import { CITIES_SEED } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 import { authFetch, getToken, logout } from "@/lib/auth-client";
 import type { City } from "@/lib/types";
 
@@ -16,7 +16,7 @@ const REDIRECT_TO_LOGIN = `${LOGIN_PATH}?next=${HOME_PATH}`;
 const CITIES_PATH = IS_EN ? "/cities" : "/villes";
 const DATE_LOCALE = IS_EN ? "en-GB" : "fr-FR";
 
-function seedToCity(s: (typeof CITIES_SEED)[number]): City {
+function seedToCity(s: CityLight): City {
   return {
     id: s.slug,
     slug: s.slug,
@@ -131,7 +131,7 @@ function HandleEditor({ initial, onSaved }: { initial: string | null; onSaved: (
   );
 }
 
-export function MesVillesClient() {
+export function MesVillesClient({ cities }: { cities: CityLight[] }) {
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState<AccountData | null>(null);
 
@@ -187,8 +187,8 @@ export function MesVillesClient() {
   }
 
   const favoriteCities = data.favorites
-    .map((slug) => CITIES_SEED.find((c) => c.slug === slug))
-    .filter((c): c is (typeof CITIES_SEED)[number] => Boolean(c))
+    .map((slug) => cities.find((c) => c.slug === slug))
+    .filter((c): c is CityLight => Boolean(c))
     .map(seedToCity);
 
   const displayName = data.user.handle || data.user.email.split("@")[0];
@@ -318,7 +318,7 @@ export function MesVillesClient() {
             <div className="space-y-3">
               {data.contributions.map((c) => {
                 const citySlug = c.topic.startsWith("city:") ? c.topic.slice(5) : null;
-                const city = citySlug ? CITIES_SEED.find((x) => x.slug === citySlug) : null;
+                const city = citySlug ? cities.find((x) => x.slug === citySlug) : null;
                 return (
                   <div key={c.id} className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4">
                     <div className="flex items-center justify-between mb-2">

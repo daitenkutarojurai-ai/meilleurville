@@ -6,6 +6,7 @@ import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED, type CitySeed } from "@/data/cities-seed";
+import { CITIES_LIGHT, type CityLight } from "@/lib/cities-light";
 import { migrationFor, commonOriginSlugs } from "@/lib/people-like-you";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { scoreColor } from "@/lib/utils";
@@ -26,7 +27,7 @@ type FeaturedProfile = {
   slug: string;
   emoji: string;
   label: string;
-  reason: (c: CitySeed) => string;
+  reason: (c: CityLight) => string;
 };
 
 const FEATURED_PROFILES: readonly FeaturedProfile[] = [
@@ -88,7 +89,7 @@ const FEATURED_PROFILES: readonly FeaturedProfile[] = [
   },
 ] as const;
 
-const ORIGIN_SLUGS = commonOriginSlugs(24);
+const ORIGIN_SLUGS = commonOriginSlugs(CITIES_LIGHT, 24);
 
 type Props = { params: Promise<{ locale: string; city: string }> };
 
@@ -117,7 +118,7 @@ export default async function LeavingCityPage({ params }: Props) {
   if (!origin) notFound();
 
   const sections = FEATURED_PROFILES.map((fp) => {
-    const result = migrationFor(origin.slug, fp.slug, 4);
+    const result = migrationFor(origin.slug, fp.slug, CITIES_LIGHT, 4);
     return result ? { profile: fp, result } : null;
   }).filter((x): x is NonNullable<typeof x> => x !== null);
 

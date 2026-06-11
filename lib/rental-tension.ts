@@ -12,7 +12,7 @@
 // No live API — static lookup table + housing seed.
 
 import { HOUSING } from "@/data/housing";
-import { CITIES_SEED, type CitySeed } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 
 // National median T2 rent (€/month), Clameur 2024 panel, hors Île-de-France.
 const NATIONAL_MEDIAN_T2 = 750;
@@ -66,7 +66,7 @@ const SLUG_TENSION_BONUS: Record<string, number> = {
   vichy: -0.8,
 };
 
-export function rentalTension(city: CitySeed): number {
+export function rentalTension(city: CityLight): number {
   const housing = HOUSING[city.slug];
 
   let raw: number;
@@ -126,7 +126,7 @@ export function tensionInfo(score: number): {
 // hub ranking and the per-city rank are always consistent. Module-level cache.
 
 export interface TensionEntry {
-  city: CitySeed;
+  city: CityLight;
   tension: number;
   info: ReturnType<typeof tensionInfo>;
   /** Loyer T2 de référence (€/mois) si la ville a une fiche logement. */
@@ -134,10 +134,12 @@ export interface TensionEntry {
 }
 
 let _rankedDesc: TensionEntry[] | null = null;
+let _rankedFor: CityLight[] | null = null;
 
-function rankedDesc(): TensionEntry[] {
-  if (_rankedDesc) return _rankedDesc;
-  _rankedDesc = CITIES_SEED.map((city) => {
+function rankedDesc(cities: CityLight[]): TensionEntry[] {
+  if (_rankedDesc && _rankedFor === cities) return _rankedDesc;
+  _rankedFor = cities;
+  _rankedDesc = cities.map((city) => {
     const tension = rentalTension(city);
     return {
       city,
@@ -150,15 +152,15 @@ function rankedDesc(): TensionEntry[] {
 }
 
 /** Villes au marché le plus tendu (score le plus élevé). */
-export function topMostTense(limit = 30, minPop = 0): TensionEntry[] {
-  return rankedDesc()
+export function topMostTense(cities: CityLight[], limit = 30, minPop = 0): TensionEntry[] {
+  return rankedDesc(cities)
     .filter((e) => (e.city.population ?? 0) >= minPop)
     .slice(0, limit);
 }
 
 /** Villes au marché le plus détendu (score le plus bas). */
-export function topMostRelaxed(limit = 20, minPop = 0): TensionEntry[] {
-  return rankedDesc()
+export function topMostRelaxed(cities: CityLight[], limit = 20, minPop = 0): TensionEntry[] {
+  return rankedDesc(cities)
     .filter((e) => (e.city.population ?? 0) >= minPop)
     .slice()
     .reverse()

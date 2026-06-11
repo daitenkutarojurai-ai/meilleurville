@@ -3,6 +3,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { FavoritesGrid } from "./FavoritesGrid";
+import { CITIES_LIGHT } from "@/lib/cities-light";
 import { UserBadges } from "@/components/UserBadges";
 
 export const metadata: Metadata = {
@@ -37,7 +38,7 @@ export default function FavorisPage() {
       <section className="relative pb-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <UserBadges />
-          <FavoritesGrid />
+          <FavoritesGrid cities={CITIES_LIGHT} />
         </div>
       </section>
 
