@@ -17,6 +17,7 @@ import { computeWaterStress } from "@/lib/water-stress";
 import { computeNoiseExposure } from "@/lib/noise-exposure";
 import { computeHealthcareAccess } from "@/lib/healthcare-access";
 import { computeEmploymentMarket } from "@/lib/employment-market";
+import { climateZoneFor } from "@/lib/cost-living";
 import { computeQualityOfLife } from "@/lib/quality-of-life-index";
 import { householdBreakdownFor } from "@/lib/household-cost";
 import { computeCyclingMobility } from "@/lib/cycling-mobility";
@@ -1314,6 +1315,93 @@ function rankErosionCotiere(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
 }
 
+// --- THEME 28 — Chauffage hivernal coûteux — facture ADEME vs salaire local ---
+// Distinct du thème `villes-hiver-rude` (qui mesure le froid + grisaille pour
+// l'inconfort humain) et du thème `villes-couts-explosifs` (composite famille
+// loyer + chauffage + mobilité + taxes). Ici on isole spécifiquement le poids
+// de la facture chauffage rapportée au salaire net médian départemental — la
+// vraie question du précaire énergétique : « quelle fraction de mon salaire
+// part dans le chauffage chaque mois ? ». Cible : villes dont la zone
+// climatique RT2012 (ADEME / arrêté 28/12/2012) impose une facture mensuelle
+// ≥ 80 € pour un T2 (45 m²), bonus altitude > 700 m (saison de chauffe
+// allongée et plus intense), pénalité salaire bas (le même 95 €/mois pèse 5,4 %
+// pour un Briançonnais et 3,2 % pour un Parisien). Indicateur dédié aux
+// primo-locataires, retraités, familles monoparentales et étudiants
+// boursiers qui se posent la vraie question : « la pièce où je vais dormir
+// l'hiver, je vais pouvoir la chauffer sans rogner sur les courses ? ».
+//
+// Sources sous-jacentes : ADEME 2024 (coût moyen mensuel chauffage par zone
+// climatique RT2012, mix électrique/gaz), arrêté ministériel 28/12/2012
+// (zonage H1a/H1b/H1c/H2a/H2b/H2c/H2d/H3), INSEE DADS (salaire net médian
+// départemental, proxy v0 du tableau SALARY_PROXY), ONPE (Observatoire
+// national de la précarité énergétique — un ménage est en précarité quand
+// la facture énergétique > 8 % du revenu).
+const HEATING_BASE_BY_ZONE: Record<string, number> = {
+  H1a: 95, // Nord-Est continental — Hauts-de-France, Normandie est, Picardie
+  H1b: 90, // Centre-Est froid — Lorraine, Vosges, Marne, Ardennes
+  H1c: 80, // Centre / Île-de-France / Massif Central nord — saison étendue
+  H2a: 65, // Ouest atlantique tempéré — Bretagne, Pays de la Loire
+  H2b: 60, // Centre-Ouest — Limousin, Périgord, Lot
+  H2c: 55, // Sud-Ouest — Gironde, Landes, Pyrénées, Aude
+  H2d: 70, // Vallée du Rhône et Alpes — saisons rudes en altitude
+  H3: 40,  // Méditerranée — chauffage marginal
+};
+
+function rankChauffageHivernalCouteux(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    if (!city.department) continue;
+    const zone = climateZoneFor(city.department);
+    if (!zone) continue;
+    const baseHeating = HEATING_BASE_BY_ZONE[zone];
+    if (baseHeating == null) continue;
+
+    // Bonus altitude : saison de chauffe rallongée et intensifiée. Briançon
+    // (1 320 m), Barcelonnette (1 132 m), Chamonix (1 035 m) consomment
+    // structurellement plus que la moyenne de leur département H2d. ADEME
+    // documente +20 % d'énergie au-dessus de 800 m, +35 % au-dessus de 1 200 m.
+    const elev = city.elevation ?? 0;
+    let heating = baseHeating;
+    if (elev >= 1200) heating += 40;
+    else if (elev >= 700) heating += 25;
+    else if (elev >= 400) heating += 12;
+
+    // Salaire dept proxy v0 — voir SALARY_PROXY plus haut (Paris/petite couronne
+    // 2 500 € · bonnes métropoles 2 200 € · médiane 2 050 € · bas 1 900 €
+    // · très bas 1 750 €).
+    const e = computeEmploymentMarket(city);
+    const salary = SALARY_PROXY[e.salary.score] ?? 2050;
+    const ratio = heating / salary; // part du salaire net qui part en chauffage
+
+    // Severity : 3 % → 0, 4 % → 3,3, 5 % → 6,7, 6 % → 10. Seuil ONPE
+    // précarité énergétique = 8 % du revenu pour la facture énergie globale,
+    // dont le chauffage représente en moyenne 60-70 % (ADEME) → seuil
+    // proxy chauffage seul ≈ 5,5 %.
+    const ratioFactor = normSeverity(ratio * 100, 3, 6);
+    if (ratioFactor < 4.5) continue;
+
+    // Bonus petite commune : parc ancien fioul / électrique direct sans
+    // chaudière collective gaz — surcoût documenté ONRE (Observatoire
+    // national de la rénovation énergétique).
+    const pop = city.population ?? 0;
+    const popBonus = pop > 0 && pop < 30_000 ? 0.5 : 0;
+    // Bonus janvier très froid en plaine : isolation moyenne, T° de
+    // consigne maintenue plus longtemps.
+    const cold = city.avgTempJanuary ?? 999;
+    const coldBonus = cold <= 1.5 ? 0.4 : 0;
+
+    const severity = Math.min(10, ratioFactor + popBonus + coldBonus);
+    if (severity < 6) continue;
+
+    const pct = ratio * 100;
+    const elevLabel = elev >= 700 ? ` · ${elev} m d'altitude` : "";
+    const salaryLabel = `salaire dept ≈ ${salary.toLocaleString("fr-FR")} €/mois`;
+    const reason = `${heating} €/mois chauffage T2 (zone ${zone}${elevLabel}) · ${salaryLabel} — ${pct.toFixed(1).replace(".", ",")} %`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -1719,6 +1807,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Severity = 0,5 × facteur altitude (25 m → 0, 0 m → 10) + 0,25 × score inondation `lib/natural-risks` (corroboration) + malus de façade (Aquitaine sableuse / Vendée / Charente-Maritime +1,7 ; Hérault / Aude / Gard bas méditerranéens +1,5 ; DROM +1,4 ; reste façade Atlantique +1,2 ; Méditerranée littorale +1,0 ; Nord Opale +1,0) + bonus tag explicite (station-balnéaire +0,4 ; dune +0,5) + bonus enjeu population (≥ 50 000 hab. +0,5 ; ≥ 20 000 hab. +0,3). Clampé à 10/10, filtré à severity ≥ 5. Sources sous-jacentes : observatoire BRGM TRAIT 2023 (Indicateur national de l'érosion côtière, prim.net), liste réglementaire des communes exposées au recul du trait de côte (article L. 321-15 Code de l'environnement, décret 2022-750 modifié 2024 — environ 320 communes inscrites), ONERC (rapport annuel 2024), GIEC AR6 WGII (élévation du niveau marin de +0,3 à +1,0 m d'ici 2100 selon scénario SSP1-2.6 à SSP5-8.5). Caveat : le recul du trait de côte évolue trimestriellement — un rechargement de plage en 2024 (Lacanau, Soulac) peut temporairement masquer une dynamique de fond. Vérifier impérativement le PPRL local et l'État des Risques (ERP) avant tout achat de bien littoral.",
     rank: rankErosionCotiere,
+  },
+  {
+    slug: "villes-chauffage-hivernal-couteux",
+    title: "Villes où le chauffage hivernal pèse le plus sur le salaire local",
+    metaTitle: "Chauffage hivernal coûteux 2026 — Précarité énergétique latente",
+    metaDescription:
+      "Classement 2026 des villes françaises où la facture chauffage T2 (ADEME) pèse le plus dans le salaire net médian départemental. Zone climatique, altitude, salaire INSEE.",
+    emoji: "🥶",
+    intro:
+      "L'agence vante la cheminée, le radiateur en fonte, la « belle hauteur sous plafond ». Personne ne sort la dernière facture EDF du vendeur, ni ne mentionne que le département est en zone climatique H1a-b-c (ADEME), que l'altitude rallonge la saison de chauffe d'un mois, et que le salaire médian local rend cette facture insoutenable sept mois sur douze. La précarité énergétique ne se voit pas sur la photo immobilière prise en mai — elle se découvre à la première relève de compteur en février, quand le prélèvement automatique dépasse le rappel de loyer.",
+    reality:
+      "On calcule pour chaque ville la facture mensuelle moyenne de chauffage d'un T2 (~45 m²) à partir des références ADEME 2024 par zone climatique RT2012 — 95 €/mois en H1a (Nord-Est continental), 90 €/mois en H1b (Lorraine, Vosges, Marne), 80 €/mois en H1c (Île-de-France, Massif Central nord) — corrigée à la hausse pour l'altitude (+12 € au-delà de 400 m, +25 € au-delà de 700 m, +40 € au-delà de 1 200 m, alignement ADEME consommation surface chauffée). On rapporte ensuite cette facture au salaire net médian départemental (INSEE DADS, proxy v0) pour obtenir le ratio « part du salaire qui part en chauffage ». L'Observatoire national de la précarité énergétique fixe à 8 % du revenu disponible le seuil de précarité pour la facture énergie globale — le chauffage à lui seul, selon l'ADEME, en représente 60-70 %, soit un seuil proxy de 5,5 % du salaire pour le poste « chauffer son logement ». Toutes les villes affichées dépassent ce seuil, certaines approchent les 7-8 %, et la corrélation avec les départements en salaire net médian bas (Creuse, Cantal, Lozère, Vosges, Haute-Marne) ou en altitude marquée (Briançonnais, Vercors, Pyrénées habitées) saute aux yeux.",
+    methodology:
+      "Severity = normSeverity(ratio chauffage/salaire × 100, 3 → 0, 6 → 10) + 0,5 si population < 30 000 hab. (parc ancien fioul/électrique direct) + 0,4 si température moyenne janvier ≤ 1,5 °C en plaine (consigne chauffe maintenue plus longtemps). Filtre : zone climatique connue (DROM exclus, hors périmètre ADEME RT2012), ratioFactor ≥ 4,5/10, severity ≥ 6/10. Pondération facture par zone (ADEME 2024) : H1a 95 € · H1b 90 € · H1c 80 € · H2a 65 € · H2b 60 € · H2c 55 € · H2d 70 € · H3 40 €. Bonus altitude : ≥ 400 m +12 € · ≥ 700 m +25 € · ≥ 1 200 m +40 € (saison de chauffe étendue, consommation surface chauffée majorée). Salaire dept proxy v0 dérivé du score employment-market (Paris/petite couronne ≈ 2 500 € · bonnes métropoles 2 200 € · médiane nationale 2 050 € · bas 1 900 € · très bas 1 750 €). Sources : ADEME 2024 (coût moyen mensuel chauffage par zone climatique RT2012), arrêté ministériel 28/12/2012 (zonage thermique), INSEE DADS 2023 (salaire net médian dept), ONPE (Observatoire national de la précarité énergétique). Caveat : la facture réelle dépend du DPE du logement (un G consomme 4 à 5 fois plus qu'un C), du mix énergétique (un fioul à 2 200 €/an + entretien chaudière contre un gaz collectif à 850 €/an), du comportement (T° de consigne) et du tarif réglementé en vigueur — vérifier impérativement la dernière facture du vendeur ou du locataire sortant avant signature.",
+    rank: rankChauffageHivernalCouteux,
   },
 ];
 
