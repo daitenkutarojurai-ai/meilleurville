@@ -121,6 +121,7 @@ function staticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/expat-retour/depuis-italie`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/expat-retour/depuis-maroc`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/expat-retour/depuis-emirats-arabes-unis`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/expat-retour/depuis-australie`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/vivre-avec`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/vivre-avec/1500-euros`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
     { url: `${BASE_URL}/vivre-avec/2000-euros`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
