@@ -15,8 +15,8 @@ export const revalidate = false;
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const metadata: Metadata = {
-  title: "Red Flag Themes 2026 · 16 risks | BestCitiesInFrance",
-  description: `16 thematic risk rankings built from open data (Géorisques, ATMO, SSMSI, BRGM) across ${CITIES_SEED.length} French cities. Which cities swelter in summer, depend on cars, face water stress, or drain your budget fastest?`,
+  title: "Red Flag Themes 2026 · 17 risks | BestCitiesInFrance",
+  description: `17 thematic risk rankings built from open data (Géorisques, ATMO, SSMSI, BRGM, INJEP) across ${CITIES_SEED.length} French cities. Which cities swelter in summer, depend on cars, face water stress, struggle to keep up sport, or drain your budget fastest?`,
   alternates: { canonical: `${EN_BASE}/red-flags/themes` },
 };
 
@@ -34,6 +34,7 @@ const THEMES = [
   { enSlug: "cost-explosion",             emoji: "💥", title: "Where living costs exceed the local salary",           desc: "Rents have outpaced wages. The maths no longer works." },
   { enSlug: "public-services-desert",     emoji: "🏛️", title: "Cities in a public services desert",                  desc: "School closures, post-office gone, court 80 km away." },
   { enSlug: "anti-cycling",               emoji: "🚲", title: "Where daily cycling is out of reach",                  desc: "Bad infrastructure, steep hills, or plain hostility." },
+  { enSlug: "sports-poor-cities",         emoji: "🏟️", title: "Where regular sport is a logistical struggle",         desc: "Thin facilities, fragile clubs, no nearby outdoor playground." },
   { enSlug: "critical-ageing",            emoji: "🕰️", title: "In critical demographic decline",                     desc: "Negative net migration + ageing population = shrinking services." },
   { enSlug: "tense-nights",              emoji: "🌙", title: "Tense night safety in party districts",                desc: "Not everywhere — specific neighbourhoods around bars and clubs." },
   { enSlug: "harsh-winters",              emoji: "❄️", title: "Cities with the harshest winters",                    desc: "Long grey cold spells, regular frost, 80+ frost days per year." },
@@ -51,7 +52,7 @@ export default function EnRedFlagThemesPage() {
             Thematic risk rankings
           </div>
           <h1 className="mb-3 text-3xl sm:text-4xl font-bold text-[var(--text-primary)]">
-            16 risk patterns — which cities have them?
+            17 risk patterns — which cities have them?
           </h1>
           <p className="max-w-2xl text-[var(--text-secondary)] text-lg">
             Open-data cross-references (Géorisques, ATMO, SSMSI, BRGM, DVF) across{" "}

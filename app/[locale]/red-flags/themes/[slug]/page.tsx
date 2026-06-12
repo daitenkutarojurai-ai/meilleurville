@@ -224,6 +224,21 @@ const EN_THEMES: EnTheme[] = [
       "Severity = (5 − composite) × 2 + combo bonus. Weighting: network 35% · topography 25% · safety 25% · climate 15%. Sources: FUB Barometer (French Cyclists' Federation), Vélo & Territoires (structuring network), EuroVelo, elevation & climate seed data.",
   },
   {
+    enSlug: "sports-poor-cities",
+    frSlug: "villes-pauvres-en-sport",
+    emoji: "🏟️",
+    title: "Cities where regular sport is a logistical struggle",
+    metaTitle: "Sports-poor cities 2026 — Where regular practice is a struggle",
+    metaDescription:
+      "2026 ranking of cities over 15,000 with a sport & leisure composite ≤ 4.5/10: thin municipal facilities, fragile club network, limited outdoor playground. Sources: INJEP RES + DRAJES + Météo-France.",
+    intro:
+      "Town halls advertise the renovated pool, the brand-new sports hall, the photo of a packed stadium. Daily life looks different: one school gym opened to the public, the next indoor pool 18 km away in the next district, a tennis club that stopped taking new members, and the Tuesday-evening cardio slot booked six months out. Sport stops being a habit and becomes a permanent logistics problem — most visibly for families wanting two children in two disciplines, car-free young workers, and retirees needing medically supervised classes.",
+    reality:
+      "We rank cities over 15,000 whose sport composite (facilities + outdoor playground + club scene + climate) falls ≤ 4.5/10. Convention is reversed vs most red flags here: 10 = excellent for practice, so low = worst. Bonus +1.2 when facilities AND clubs are both ≤ 4 — neither municipal supply nor the club network holds up. Bonus +0.4 when the outdoor playground is also limited (≤ 4), i.e. when nature doesn't even rescue a casual jogging route. The list is dominated by small subprefectures in rural decline (Creuse, Cantal, Lozère, Indre), industrial basins in conversion that never re-invested in sport, and peri-urban satellites without a forest, mountain or coastline within reach.",
+    methodology:
+      "Severity = (5 − composite) × 2 + 1.2 if facilities AND clubs ≤ 4 + 0.4 if outdoor ≤ 4, capped at 10/10. Composite weighting: facilities 35% · outdoor playground 30% · club scene 20% · climate 15%. Population filter ≥ 15,000. Sources: INJEP RES (Sports Facilities Census, sports.gouv.fr) for pools / stadiums / sports halls, DRAJES / DDETSPP for club density and licensed members, IGN + Météo-France for relief and 1991-2020 climatology, FFRandonnée for marked-trail density. Caveat: a new intercommunal facility opened after 2024 may shift one city's score without changing the seed's departmental average.",
+  },
+  {
     enSlug: "critical-ageing",
     frSlug: "villes-vieillissement-critique",
     emoji: "🕰️",
