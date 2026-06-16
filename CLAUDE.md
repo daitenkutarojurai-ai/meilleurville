@@ -330,6 +330,89 @@ FR-equivalent routes covered: home, cities index + 352 city pages, 4 city sub-pa
 - [x] Per-city OG images with EN copy (`app/[locale]/cities/[slug]/opengraph-image.tsx`, EN locale, "BestCitiesInFrance")
 - [x] EN-specific RSS feed (`/feed.xml` + `/guides/feed.xml` locale-aware via `NEXT_PUBLIC_DEFAULT_LOCALE`)
 
+---
+
+## Roadmap v11 — Data depth, guide series & per-city enrichissement
+
+### Doublons filtrés (déjà livré — ne pas re-créer)
+
+| Demande | Couverture existante |
+|---------|----------------------|
+| météo / indice météo | `/villes/[slug]/climat` + `ClimateChart` |
+| fibre / 5G / internet | `/villes/[slug]/connexion-internet` |
+| prix location / tension locative | `/villes/[slug]/tension-locative` |
+| transports / gares / autoroutes / temps de trajet | `/villes/[slug]/transports` |
+| écoles | `/villes/[slug]/ecoles` (EN: `schools`) |
+| sortir / commerces culturels | `/villes/[slug]/a-faire` + guides `10-choses-a-faire` |
+| quartiers | `/villes/[slug]/quartiers` |
+| comparaisons A vs B | `/comparer/[a]-vs-[b]` (~300 paires SSG) |
+| avis | CityProfile onglet discussion |
+| immobilier / acheter | guides `acheter-a-[ville]` (49 villes FR + EN) |
+| coût de la vie | guides `budget-mensuel-realiste` (FR) + `cost-of-living-[city]` (EN) |
+| expatrié | EN living guides |
+| criminalité | score `safety` dans seed (affiché onglet scores) |
+| score famille / étudiant / retraité / écologique | `lib/niche-scores.ts` + city-match |
+| emploi / télétravail | champ `remoteWork` seed + `/copilot` |
+
+### Nouvelles sous-pages ville
+
+| Route | Contenu | Source données |
+|-------|---------|----------------|
+| `/villes/[slug]/statistiques` | Population, évolution démog., salaire médian net, taux de chômage | champs à ajouter au seed (proxies INSEE 2021) |
+| `/villes/[slug]/sante` | Densité médecins/1 000 hab, nb hôpitaux/CHU, désert médical | champs à ajouter au seed + open data ARS |
+| `/villes/[slug]/pollution` | Indice qualité de l'air ATMO (0–10), espaces verts (% superficie), bruit | `envScore` seed + proxies ATMO annuels |
+| `/villes/[slug]/emploi` | Bassin emploi, secteurs dominants, taux de chômage, salaire moyen | champs seed + INSEE |
+| `/villes/[slug]/commerces` | Couverture commerciale (score), marchés, grandes surfaces, désert comm. | dérivé `characterTags` + nouveau champ seed |
+
+Même pattern que `climat` : `generateStaticParams` sur `CITIES_SEED`, tout computé depuis seed, card dans `CityProfile`, entrée `sitemap.ts`.
+
+### Enrichissement seed — champs à ajouter
+
+Ajouter au type `City` dans `lib/types.ts` + peupler dans `data/cities-seed.ts` (proxy INSEE/ATMO, pas de mesure terrain) :
+
+- `population: number` — recensement 2021
+- `populationEvolution: number` — évolution % 2015–2021
+- `salaireMédianNet: number` — €/mois net (proxie département)
+- `tauxChomage: number` — % (proxie zone emploi)
+- `densiteMedecins: number` — généralistes / 1 000 hab
+- `indiceAtmo: number` — qualité air annuelle 0–10 (1 = très pollué)
+- `espacesVerts: number` — % superficie communale (proxie CORINE)
+
+### Bloc FAQ structuré sur CityProfile
+
+Ajouter un accordéon `<FAQBlock>` (JSON-LD `FAQPage`) sur `CityProfile.tsx` généré depuis les données seed. ~10 questions par ville (coût de la vie, sécurité, transports, météo, emploi, famille, retraite…). Zéro saisie manuelle — 100 % computé depuis le seed.
+
+### Nouvelles séries de guides per-city (FR)
+
+Séries manquantes vs l'existant :
+
+| Slug pattern | Catégorie | Cible | Notes |
+|---|---|---|---|
+| `vivre-a-[ville]-2026` | `moving` | top 50 villes | guide narratif complet (≠ `quitter-[ville]`) |
+| `demenager-a-[ville]-2026` | `moving` | top 50 villes | logistique déménagement (≠ sous-page `s-installer`) |
+| `quartiers-a-eviter-[ville]-2026` | `moving` | top 30 villes | pendant de `meilleurs-quartiers` dans `acheter-a-` |
+| `travail-a-[ville]-2026` | `remote-work` | top 30 villes | bassin d'emploi, secteurs, agences |
+| `etudiant-a-[ville]-2026` | `lifestyle` | top 20 villes | campus, logement étudiant, vie nocturne |
+| `famille-a-[ville]-2026` | `family` | top 20 villes | écoles, activités enfants, parcs, périscolaire |
+| `retraite-a-[ville]-2026` | `lifestyle` | top 20 villes | santé, tranquillité, coût, accessibilité |
+| `universites-[ville]-2026` | `lifestyle` | top 15 villes | liste établissements, classements, logement CROUS |
+
+Déjà couverts (skip) : `acheter-a-[ville]` (immobilier), `budget-mensuel-realiste-[ville]` (coût de la vie), `10-choses-a-faire-a-[ville]` (sortir), `quitter-[ville]` (départ), `vivre-sans-voiture-[ville]` (transports).
+
+### Pages comparatives éditoriales
+
+L'engine `/comparer/[a]-vs-[b]` est livré + ~300 paires SSG existent. Ce qui manque :
+
+- **Landing `/comparer` enrichie** avec ~30 paires éditoriales mises en avant (Lyon vs Bordeaux, Paris vs Lyon, Bordeaux vs Nantes, Toulouse vs Montpellier, Nice vs Marseille, Rennes vs Nantes, Grenoble vs Chambéry…) — simple array de paires dans la page, les routes existent déjà.
+- **Sitemap haut-trafic** : s'assurer que les ~300 paires les plus cherchées sont dans `sitemap.ts` (vérifier que le générateur couvre toutes les combinaisons top-50 × top-50).
+
+### Hors périmètre (nécessitent des assets ou APIs externes)
+
+- **Photos / vidéos** : pipeline assets sous licence requis (même contrainte que guide hero images — cf. §4a audit).
+- **Cartes thématiques** (écoles, hôpitaux, commerces, météo) : nécessitent APIs data.gouv.fr / IGN / OpenStreetMap Overpass — scope = projet à part entière, pas intégrable dans un build statique sans étape de pré-fetch.
+
+---
+
 ### Conventions for adding an EN route
 
 1. Create `app/[locale]/<route>/page.tsx`. Generate static params with `{ locale: "en", ... }` only.
