@@ -312,6 +312,60 @@ const SECTIONS: Section[] = [
       },
     ],
   },
+  {
+    title: "Copropriété et charges collectives",
+    emoji: "🏢",
+    terms: [
+      {
+        term: "Copropriété",
+        def: "Statut juridique d'un immeuble divisé en lots privatifs (appartement, cave, parking) et parties communes (escalier, toit, façade, ascenseur, jardin). Tout propriétaire d'un lot devient automatiquement copropriétaire des parties communes au prorata de ses tantièmes. Régie par la loi de 1965 et son décret d'application, complétée par la loi ELAN (2018) et la loi Climat & Résilience (2021). À distinguer de la monopropriété : un immeuble entier appartenant à un seul propriétaire ne suit pas ce régime.",
+      },
+      {
+        term: "Syndic de copropriété",
+        def: "Mandataire chargé d'administrer l'immeuble : exécution des décisions d'AG, tenue des comptes, paiement des fournisseurs, suivi des travaux, gestion du personnel (gardien). Syndic professionnel (cabinet rémunéré, ~150-300 €/lot/an) ou bénévole (un copropriétaire élu, gratuit, fréquent dans les petites copros <10 lots). Mandat de 1 à 3 ans, renouvelable. Changer de syndic suppose une mise en concurrence : la loi ALUR oblige le conseil syndical à présenter plusieurs devis en AG si demandé.",
+      },
+      {
+        term: "Assemblée générale (AG)",
+        def: "Réunion annuelle obligatoire de tous les copropriétaires (parfois extraordinaire en cours d'année) où sont votées les décisions de gestion : approbation des comptes, budget prévisionnel, travaux, élection du conseil syndical, renouvellement du syndic. Convocation par lettre recommandée AR 21 jours avant. Trois majorités : simple (art. 24), absolue (art. 25), double (art. 26) selon la nature de la décision. Un copropriétaire absent peut donner pouvoir, dans la limite de 3 mandats par mandataire (10 % des voix maximum).",
+      },
+      {
+        term: "Conseil syndical",
+        def: "Groupe de 3 à 9 copropriétaires bénévoles élus en AG pour assister et contrôler le syndic. Vérifie les comptes, examine les devis travaux, prépare l'ordre du jour des AG, sert d'interlocuteur entre copropriétaires et syndic. Pouvoir consultatif uniquement — les décisions appartiennent à l'AG. Obligatoire dans toute copropriété sauf vote contraire à la majorité absolue. Un conseil actif est l'un des meilleurs indicateurs de santé d'une copro avant achat.",
+      },
+      {
+        term: "Règlement de copropriété",
+        def: "Acte notarié fondateur de la copropriété fixant les règles d'usage (destination des lots, autorisations de travaux, usage des parties communes, animaux, bruit) et la répartition des charges. Annexé à tout acte de vente — un copropriétaire ne peut s'y opposer après acquisition. À lire impérativement avant achat : certains règlements interdisent l'exercice d'une activité professionnelle, la location meublée touristique, ou imposent une homogénéité de façade qui empêche le double-vitrage extérieur.",
+      },
+      {
+        term: "Tantièmes / millièmes",
+        def: "Quote-part de chaque lot dans la copropriété, exprimée en millièmes (ou parfois dix-millièmes) du total. Détermine deux choses : la répartition des charges générales (entretien, syndic, ascenseur si commun à tous) et le poids des voix en AG. Un T3 de 70 m² au 4ᵉ étage peut représenter ~85/1000 ; un studio en RDC sans ascenseur, ~25/1000. Le calcul tient compte de la surface, l'étage, l'exposition et la consistance du lot — il ne se modifie qu'à l'unanimité.",
+      },
+      {
+        term: "Charges courantes vs travaux",
+        def: "Deux budgets distincts en copropriété. Charges courantes (budget prévisionnel) : eau, électricité parties communes, ménage, ascenseur, assurance, honoraires syndic, gardien — payées par provisions trimestrielles, régularisées une fois par an. Charges travaux (hors budget) : ravalement, toiture, ascenseur, chaudière collective — votées au cas par cas en AG et appelées séparément. Un acheteur doit demander au syndic l'état des charges sur les 3 dernières années + le carnet d'entretien pour anticiper les appels futurs.",
+      },
+      {
+        term: "Fonds travaux (loi ALUR)",
+        def: "Réserve financière obligatoire depuis 2017 dans toute copropriété de plus de 5 ans, alimentée par une cotisation annuelle d'au moins 5 % du budget prévisionnel (relevée à 2,5 % du montant des travaux du PPT depuis 2024). Versement non remboursable au copropriétaire vendeur — le fonds reste attaché au lot. Indispensable pour amortir les gros travaux sans appel de fonds brutal. Un fonds bien doté (>5 000 €/lot) est un excellent signal de santé ; un fonds proche de 0 dans une vieille copro = alerte.",
+      },
+      {
+        term: "Appel de fonds",
+        def: "Demande de paiement émise par le syndic aux copropriétaires : provision trimestrielle (charges courantes), avance de trésorerie (avance permanente), ou appel exceptionnel pour travaux votés. Délai de paiement : 30 jours après notification. Impayés : majoration légale 10 %, puis mise en demeure, puis procédure judiciaire. Les impayés de plusieurs copropriétaires fragilisent la copro entière — toujours vérifier le taux d'impayés (consultable auprès du syndic) avant d'acheter.",
+      },
+      {
+        term: "Plan pluriannuel de travaux (PPT)",
+        def: "Document obligatoire depuis la loi Climat & Résilience (2021) pour toute copropriété de plus de 15 ans, projetant les travaux à réaliser sur 10 ans (entretien, sauvegarde de l'immeuble, économies d'énergie). Élaboré par un professionnel certifié, voté à la majorité absolue, mis à jour tous les 10 ans. Sert de base au fonds travaux et permet d'anticiper les ravalements, mises aux normes ascenseur, isolation thermique. Doit être consultable avant tout acte de vente — son absence dans une copro >15 ans est un manquement légal.",
+      },
+      {
+        term: "DPE collectif et audit énergétique",
+        def: "Évaluation énergétique de l'immeuble entier (et non lot par lot). DPE collectif obligatoire depuis 2024 pour les copros de plus de 50 lots, étendu à toutes les copros >15 lots en 2025 puis toutes les copros en 2026. Audit énergétique réglementaire requis avant tout PPT dans les copropriétés classées D, E, F ou G. Conditionne l'éligibilité à MaPrimeRénov' Copropriétés (jusqu'à 25 % des travaux d'isolation collective). Un classement F ou G en collectif annonce des travaux lourds à voter dans les 5 ans.",
+      },
+      {
+        term: "Pré-état daté",
+        def: "Document remis par le syndic avant la signature du compromis de vente d'un lot en copropriété : montant des charges courantes appelées sur l'année, état des sommes dues par le vendeur, fonds travaux versé, procédures en cours. Complété par l'état daté définitif (article 5 du décret de 1967) à la signature notariée. Permet à l'acquéreur de connaître exactement les engagements financiers transmis avec le lot. Document payant (~250-500 € selon syndic) facturé au vendeur. À examiner ligne par ligne avant tout achat.",
+      },
+    ],
+  },
 ];
 
 const TERM_COUNT = SECTIONS.reduce((n, s) => n + s.terms.length, 0);
