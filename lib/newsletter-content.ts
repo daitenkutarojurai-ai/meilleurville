@@ -112,11 +112,11 @@ function shell(opts: {
   preheader: string;
   blocks: string;
 }): string {
-  const brand = opts.locale === "fr" ? "MeilleurVille" : "BestCitiesInFrance";
+  const brand = opts.locale === "fr" ? "MaVilleIdéale" : "BestCitiesInFrance";
   const origin = ORIGIN_BY_LOCALE[opts.locale];
   const footerTag =
     opts.locale === "fr"
-      ? "Vous recevez cette lettre car vous vous êtes inscrit sur MeilleurVille."
+      ? "Vous recevez cette lettre car vous vous êtes inscrit sur MaVilleIdéale."
       : "You are receiving this letter because you subscribed on BestCitiesInFrance.";
   const unsub = opts.locale === "fr" ? "Se désabonner" : "Unsubscribe";
   return `<!doctype html>

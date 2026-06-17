@@ -43,7 +43,7 @@ export async function maybeForwardFeedback(f: PageFeedback): Promise<boolean> {
       : {
           email:
             process.env.CONTACT_FROM_EMAIL_FR ?? process.env.CONTACT_FROM_EMAIL ?? "bonjour@mavilleideale.fr",
-          name: "MeilleurVille",
+          name: "MaVilleIdéale",
         };
   const icon = f.sentiment === "up" ? "👍" : "👎";
   return sendBrevoEmail({

@@ -53,7 +53,7 @@ export async function maybeForwardEmail(m: ContactMessage): Promise<boolean> {
             process.env.CONTACT_FROM_EMAIL_FR ??
             process.env.CONTACT_FROM_EMAIL ??
             "bonjour@mavilleideale.fr",
-          name: "MeilleurVille",
+          name: "MaVilleIdéale",
         };
 
   return sendBrevoEmail({

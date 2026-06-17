@@ -187,7 +187,7 @@ export async function maybeSyncList(sub: Subscriber): Promise<boolean> {
 const SENDER_BY_LOCALE: Record<NewsletterLocale, BrevoSender> = {
   fr: {
     email: process.env.NEWSLETTER_FROM_EMAIL_FR ?? "lettre@mavilleideale.fr",
-    name: "MeilleurVille",
+    name: "MaVilleIdéale",
   },
   en: {
     email: process.env.NEWSLETTER_FROM_EMAIL_EN ?? "newsletter@bestcitiesinfrance.com",
@@ -199,14 +199,14 @@ const WELCOME: Record<NewsletterLocale, { subject: string; text: string }> = {
   fr: {
     subject: "Bienvenue dans la lettre du dimanche",
     text: [
-      "Merci de votre inscription à la lettre de MeilleurVille.",
+      "Merci de votre inscription à la lettre de MaVilleIdéale.",
       "",
       "Chaque dimanche : un nouveau classement, l'analyse de la ville du mois,",
       "et des alertes sur les villes que vous suivez.",
       "",
       "Pour vous désabonner, répondez simplement à cet email.",
       "",
-      "— L'équipe MeilleurVille",
+      "— L'équipe MaVilleIdéale",
     ].join("\n"),
   },
   en: {
