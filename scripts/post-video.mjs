@@ -290,81 +290,58 @@ async function postLinkedIn() {
     "X-Restli-Protocol-Version": "2.0.0",
   };
 
-  // Step 1: Initialize upload
-  const initRes = await fetch(
-    "https://api.linkedin.com/v2/videos?action=initializeUpload",
+  // Step 1: Register upload (legacy Assets API — accepts urn:li:person: URNs)
+  const registerRes = await fetch(
+    "https://api.linkedin.com/v2/assets?action=registerUpload",
     {
       method: "POST",
       headers: liHeaders,
       body: JSON.stringify({
-        initializeUploadRequest: {
-          owner: `urn:li:person:${LINKEDIN_URN}`,
-          fileSizeBytes: videoSize,
-          uploadCaptions: false,
-          uploadThumbnail: false,
+        registerUploadRequest: {
+          recipes: ["urn:li:digitalmediaRecipe:feedshare-video"],
+          owner: LINKEDIN_URN,
+          serviceRelationships: [
+            { relationshipType: "OWNER", identifier: "urn:li:userGeneratedContent" },
+          ],
         },
       }),
     }
   );
-  const initData = await initRes.json();
-  if (!initRes.ok) {
-    log("LinkedIn", "fail", `Init: ${JSON.stringify(initData)}`);
+  const registerData = await registerRes.json();
+  if (!registerRes.ok) {
+    log("LinkedIn", "fail", `Register: ${JSON.stringify(registerData)}`);
     return;
   }
 
-  const { video: videoUrn, uploadInstructions, uploadToken } = initData.value;
-  const uploadedPartIds = [];
+  const assetUrn = registerData.value.asset;
+  const uploadUrl =
+    registerData.value.uploadMechanism[
+      "com.linkedin.digitalmedia.uploading.MediaUploadHttpRequest"
+    ].uploadUrl;
 
-  // Step 2: Upload each chunk
+  // Step 2: Upload binary
   const buf = readFileSync(videoPath);
-  for (let i = 0; i < uploadInstructions.length; i++) {
-    const { uploadUrl, firstByte, lastByte } = uploadInstructions[i];
-    const chunk = buf.subarray(firstByte, lastByte + 1);
-    const putRes = await fetch(uploadUrl, {
-      method: "PUT",
-      headers: { "Content-Type": "application/octet-stream" },
-      body: chunk,
-    });
-    if (!putRes.ok) {
-      log("LinkedIn", "fail", `Chunk ${i + 1} upload failed (status ${putRes.status})`);
-      return;
-    }
-    const etag = putRes.headers.get("etag") || putRes.headers.get("ETag") || `part-${i}`;
-    uploadedPartIds.push(etag);
-    process.stdout.write(`\r  Uploading chunk ${i + 1}/${uploadInstructions.length}...`);
-  }
-  process.stdout.write("\n");
-
-  // Step 3: Finalize upload
-  const finalizeRes = await fetch(
-    "https://api.linkedin.com/v2/videos?action=finalizeUpload",
-    {
-      method: "POST",
-      headers: liHeaders,
-      body: JSON.stringify({
-        finalizeUploadRequest: {
-          video: videoUrn,
-          uploadToken,
-          uploadedPartIds,
-        },
-      }),
-    }
-  );
-  if (!finalizeRes.ok) {
-    const finalizeData = await finalizeRes.text();
-    log("LinkedIn", "fail", `Finalize: ${finalizeData}`);
+  process.stdout.write("  Uploading binary...");
+  const putRes = await fetch(uploadUrl, {
+    method: "PUT",
+    headers: { "Content-Type": "video/mp4" },
+    body: buf,
+  });
+  if (!putRes.ok) {
+    log("LinkedIn", "fail", `Upload failed (${putRes.status}): ${await putRes.text()}`);
     return;
   }
+  process.stdout.write(" done\n");
 
   log("LinkedIn", "warn", "Waiting for LinkedIn to process video...");
-  await new Promise((r) => setTimeout(r, 8000));
+  await new Promise((r) => setTimeout(r, 10000));
 
-  // Step 4: Create the post with the video
+  // Step 3: Create post
   const postRes = await fetch("https://api.linkedin.com/v2/ugcPosts", {
     method: "POST",
     headers: liHeaders,
     body: JSON.stringify({
-      author: `urn:li:person:${LINKEDIN_URN}`,
+      author: LINKEDIN_URN,
       lifecycleState: "PUBLISHED",
       specificContent: {
         "com.linkedin.ugc.ShareContent": {
@@ -373,7 +350,7 @@ async function postLinkedIn() {
           media: [
             {
               status: "READY",
-              media: videoUrn,
+              media: assetUrn,
               title: { attributes: [], text: "MaVilleIdéale — 540 villes comparées" },
             },
           ],
