@@ -9,6 +9,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { getCityTitle, getCityDescription, ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { buildCityProfileData } from "@/lib/city-profile-data";
 import { jsonLdScript } from "@/lib/jsonld";
+import { cityFaq } from "@/lib/city-faq";
 
 // Pure static export (output:"export" on Cloudflare) — fully prebuilt at build
 // time; no ISR/runtime revalidation exists to tune.
@@ -64,6 +65,7 @@ export default async function EnCityPage({ params }: Props) {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) notFound();
 
+  const faq = cityFaq(city, "en");
   const cityJsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -83,6 +85,14 @@ export default async function EnCityPage({ params }: Props) {
           { "@type": "ListItem", position: 3, name: city.name, item: `${EN_BASE}/cities/${city.slug}` },
         ],
       },
+      {
+        "@type": "FAQPage",
+        mainEntity: faq.map(({ q, a }) => ({
+          "@type": "Question",
+          name: q,
+          acceptedAnswer: { "@type": "Answer", text: a },
+        })),
+      },
     ],
   };
 
@@ -90,7 +100,7 @@ export default async function EnCityPage({ params }: Props) {
     <main id="main-content" className="min-h-screen relative">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(cityJsonLd)} />
       <Navbar />
-      <CityProfile city={city} data={buildCityProfileData(city)} locale="en" />
+      <CityProfile city={city} data={buildCityProfileData(city)} faq={faq} locale="en" />
       <CityGuidesList slug={city.slug} name={city.name} locale="en" />
       <div className="mx-auto max-w-4xl px-4 sm:px-6 pb-4">
         <FeedbackWidget locale="en" />

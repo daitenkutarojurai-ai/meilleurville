@@ -42,6 +42,7 @@ import { formatNumber, formatScore, scoreColor, cn, sunshineDays, sunshineHours 
 import { internetScore, internetLabel } from "@/lib/internet-score";
 import type { CitySeed } from "@/data/cities-seed";
 import type { CityProfileData } from "@/lib/city-profile-data";
+import type { FaqItem } from "@/lib/city-faq";
 
 const SCORE_LABELS: Array<{ key: keyof CitySeed["scores"]; label: string; icon: React.ElementType }> = [
   { key: "life", label: "Qualité de vie", icon: Star },
@@ -79,7 +80,7 @@ function SectionRule({ emoji, label, first }: { emoji: string; label: string; fi
 // housing, rankings, similar cities, political lean, honest review) — see
 // lib/city-profile-data. Importing those here would ship them all in the
 // client bundle of every city page.
-export function CityProfile({ city, data, locale = "fr" }: { city: CitySeed & { reviewCount?: number }; data: CityProfileData; locale?: "fr" | "en" }) {
+export function CityProfile({ city, data, faq, locale = "fr" }: { city: CitySeed & { reviewCount?: number }; data: CityProfileData; faq: FaqItem[]; locale?: "fr" | "en" }) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const sub = (fr: string, en: string) => `/${locale === "en" ? "cities" : "villes"}/${city.slug}/${locale === "en" ? en : fr}`;
   const [activeStage, setActiveStage] = useState("famille");
@@ -1321,51 +1322,9 @@ export function CityProfile({ city, data, locale = "fr" }: { city: CitySeed & { 
             {L("Questions fréquentes", "Frequently asked questions")} — {city.name}
           </h2>
           <div className="space-y-2">
-            {[
-              {
-                q: L(`Quelle est la qualité de vie à ${city.name} ?`, `What is quality of life like in ${city.name}?`),
-                a: L(
-                  `${city.name} obtient un score global de ${city.scores.global.toFixed(1)}/10, ce qui reflète une qualité de vie ${city.scores.global >= 7.5 ? "exceptionnelle" : city.scores.global >= 7.0 ? "excellente" : city.scores.global >= 6.0 ? "bonne" : city.scores.global >= 5.0 ? "correcte" : "en dessous de la moyenne"}. La ville est connue pour ${city.characterTags.slice(0, 3).join(", ")}. Les habitants apprécient particulièrement ${city.scores.nature >= 7.5 ? "la proximité avec la nature, " : ""}${city.scores.culture >= 7.5 ? "la vie culturelle, " : ""}${city.scores.safety >= 7.5 ? "la sécurité du quotidien" : "le cadre de vie"}.`,
-                  `${city.name} scores ${city.scores.global.toFixed(1)}/10 overall, reflecting ${city.scores.global >= 7.5 ? "exceptional" : city.scores.global >= 7.0 ? "excellent" : city.scores.global >= 6.0 ? "good" : city.scores.global >= 5.0 ? "decent" : "below-average"} quality of life. The city is known for ${city.characterTags.slice(0, 3).join(", ")}. Residents especially value ${city.scores.nature >= 7.5 ? "easy access to nature, " : ""}${city.scores.culture >= 7.5 ? "the cultural scene, " : ""}${city.scores.safety >= 7.5 ? "everyday safety" : "the overall living environment"}.`
-                ),
-              },
-              {
-                q: L(`Quel est le coût de la vie à ${city.name} ?`, `What is the cost of living in ${city.name}?`),
-                a: housing
-                  ? L(
-                      `Le loyer médian pour un T2 à ${city.name} est de ${housing.avgRentT2} €/mois, et un T3 autour de ${housing.avgRentT3} €/mois. Le prix à l'achat s'établit aux alentours de ${housing.avgBuyPriceM2.toLocaleString("fr-FR")} €/m². Le score coût de la vie est de ${city.scores.cost.toFixed(1)}/10 — ${city.scores.cost >= 7.5 ? "la ville offre un excellent rapport qualité-prix" : city.scores.cost >= 6 ? "les prix restent raisonnables comparé aux grandes métropoles" : "le coût de la vie est dans la moyenne nationale"}.`,
-                      `In ${city.name}, the median rent is about ${housing.avgRentT2} €/mo for a 1-bedroom and around ${housing.avgRentT3} €/mo for a 2-bedroom. Buying runs at roughly ${housing.avgBuyPriceM2.toLocaleString("en-GB")} €/m². The cost-of-living score is ${city.scores.cost.toFixed(1)}/10 — ${city.scores.cost >= 7.5 ? "the city offers excellent value for money" : city.scores.cost >= 6 ? "prices stay reasonable compared with the big metros" : "the cost of living sits around the national average"}.`
-                    )
-                  : L(
-                      `${city.name} obtient un score coût de la vie de ${city.scores.cost.toFixed(1)}/10. ${city.scores.cost >= 7.5 ? "La ville est reconnue pour son excellent pouvoir d'achat et ses loyers abordables." : city.scores.cost >= 6 ? "Le coût de la vie y est raisonnable par rapport aux grandes métropoles françaises." : "Les prix reflètent la demande d'une ville dynamique."}`,
-                      `${city.name} scores ${city.scores.cost.toFixed(1)}/10 on cost of living. ${city.scores.cost >= 7.5 ? "The city is known for strong purchasing power and affordable rents." : city.scores.cost >= 6 ? "The cost of living is reasonable compared with the big French metros." : "Prices reflect the demand of a busy, in-demand city."}`
-                    ),
-              },
-              {
-                q: L(`${city.name} est-elle une bonne ville pour les familles ?`, `Is ${city.name} a good city for families?`),
-                a: L(
-                  `Pour les familles, ${city.name} présente un score sécurité de ${city.scores.safety.toFixed(1)}/10 et un score écoles de ${city.scores.schools.toFixed(1)}/10. ${city.scores.safety >= 7.5 && city.scores.schools >= 7.5 ? `La ville cumule sécurité rassurante et offre scolaire de qualité — un choix privilégié pour élever des enfants.` : city.scores.nature >= 7.5 ? `La présence d'espaces verts et de parcs (score nature ${city.scores.nature.toFixed(1)}/10) est un atout majeur pour les familles.` : `Comme dans toute ville française de cette taille, l'offre en équipements familiaux est présente.`}`,
-                  `For families, ${city.name} scores ${city.scores.safety.toFixed(1)}/10 on safety and ${city.scores.schools.toFixed(1)}/10 on schools. ${city.scores.safety >= 7.5 && city.scores.schools >= 7.5 ? `It combines reassuring safety with quality schooling — a strong choice for raising children.` : city.scores.nature >= 7.5 ? `Plenty of green space and parks (nature score ${city.scores.nature.toFixed(1)}/10) is a major plus for families.` : `Like any French city this size, the usual family amenities are in place.`}`
-                ),
-              },
-              {
-                q: L(`Peut-on télétravailler à ${city.name} ?`, `Can you work remotely from ${city.name}?`),
-                a: L(
-                  `${city.name} obtient un score télétravail de ${city.scores.remoteWork.toFixed(1)}/10. ${city.scores.remoteWork >= 7.5 ? `La ville figure parmi les meilleures destinations pour le travail à distance en France : couverture fibre quasi totale, espaces de coworking, et coût de la vie permettant de vivre confortablement avec un salaire remote.` : city.scores.remoteWork >= 7.0 ? `La couverture fibre est bonne et plusieurs espaces de coworking sont disponibles. Le score qualité de vie (${city.scores.life.toFixed(1)}/10) en fait une ville agréable pour les télétravailleurs.` : `La ville dispose des infrastructures numériques de base. Le score transport (${city.scores.transport.toFixed(1)}/10) permet également des déplacements ponctuels vers les grandes métropoles.`}`,
-                  `${city.name} scores ${city.scores.remoteWork.toFixed(1)}/10 for remote work. ${city.scores.remoteWork >= 7.5 ? `It ranks among the best remote-work spots in France: near-total fibre coverage, coworking spaces, and a cost of living that lets you live comfortably on a remote salary.` : city.scores.remoteWork >= 7.0 ? `Fibre coverage is good and several coworking spaces are available. The quality-of-life score (${city.scores.life.toFixed(1)}/10) makes it a pleasant base for remote workers.` : `The city has the basic digital infrastructure. The transport score (${city.scores.transport.toFixed(1)}/10) also allows occasional trips to the big metros.`}`
-                ),
-              },
-              {
-                q: L(`Quels sont les transports en commun à ${city.name} ?`, `What is public transport like in ${city.name}?`),
-                a: L(
-                  `Le score transport de ${city.name} est de ${city.scores.transport.toFixed(1)}/10. ${city.scores.transport >= 7.5 ? `La ville dispose d'un réseau de transport exceptionnel : métro, tramway ou bus à haute fréquence, et connexions TGV permettent de se passer facilement de voiture.` : city.scores.transport >= 7.0 ? `Le réseau de transports en commun est bien développé avec des lignes de bus et/ou tramway régulières. La ville est correctement reliée au réseau TER.` : `Les transports en commun couvrent les besoins essentiels. Pour les déplacements quotidiens hors centre-ville, une voiture peut s'avérer utile.`}`,
-                  `${city.name}'s transport score is ${city.scores.transport.toFixed(1)}/10. ${city.scores.transport >= 7.5 ? `The city has an outstanding network: metro, tram or high-frequency buses plus high-speed rail links make it easy to live without a car.` : city.scores.transport >= 7.0 ? `Public transport is well developed, with regular bus and/or tram lines. The city is reasonably connected to the regional rail network.` : `Public transport covers the essentials. For daily trips outside the centre, a car can come in handy.`}`
-                ),
-              },
-            ].map((item, i) => (
-              // Native <details>: the answers must exist in the static HTML —
-              // the old state-driven accordion only ever rendered the open one,
-              // so crawlers and no-JS users saw answers solely in the JSON-LD.
+            {faq.map((item, i) => (
+              // Native <details>: every answer is in the static HTML, so
+              // crawlers and no-JS readers see the prose, not just JSON-LD.
               <details key={i} className="group rounded-xl border border-[var(--border)] overflow-hidden">
                 <summary className="flex items-center justify-between gap-4 px-5 py-4 cursor-pointer list-none [&::-webkit-details-marker]:hidden bg-[var(--bg-canvas)] hover:bg-[var(--bg-elevated)] transition-colors">
                   <span className="text-sm font-medium text-[var(--text-primary)]">{item.q}</span>

@@ -1,42 +1,8 @@
 import type { CitySeed } from "@/data/cities-seed";
-import { getHousing } from "@/data/housing";
+import type { FaqItem } from "@/lib/city-faq";
 
-function qualityLabel(score: number): string {
-  if (score >= 7.5) return "exceptionnelle";
-  if (score >= 7.0) return "excellente";
-  if (score >= 6.0) return "bonne";
-  if (score >= 5.0) return "correcte";
-  return "en dessous de la moyenne";
-}
-
-export function CityJsonLd({ city }: { city: CitySeed & { reviewCount?: number } }) {
+export function CityJsonLd({ city, faq }: { city: CitySeed & { reviewCount?: number }; faq: FaqItem[] }) {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
-  const housing = getHousing(city.slug);
-
-  const faqItems = [
-    {
-      q: `Quelle est la qualité de vie à ${city.name} ?`,
-      a: `La qualité de vie à ${city.name} est ${qualityLabel(city.scores.global)}, avec un score global de ${city.scores.global}/10. La ville se distingue notamment sur : ${city.characterTags.slice(0, 3).join(", ")}.`,
-    },
-    {
-      q: `Quel est le coût de la vie à ${city.name} ?`,
-      a: housing
-        ? `À ${city.name}, un appartement T2 coûte en moyenne ${housing.avgRentT2}€/mois et un T3 ${housing.avgRentT3}€/mois. Le prix d'achat moyen est de ${housing.avgBuyPriceM2}€/m². Le score coût de la vie est de ${city.scores.cost}/10.`
-        : `Le coût de la vie à ${city.name} est noté ${city.scores.cost}/10 sur MaVilleIdeal.`,
-    },
-    {
-      q: `${city.name} est-elle une bonne ville pour les familles ?`,
-      a: `${city.name} obtient un score sécurité de ${city.scores.safety}/10 et écoles de ${city.scores.schools}/10. ${city.scores.safety >= 7.5 && city.scores.schools >= 7.5 ? "C'est une ville particulièrement recommandée pour les familles avec enfants." : "Elle convient aux familles selon leurs priorités spécifiques."}`,
-    },
-    {
-      q: `Peut-on télétravailler à ${city.name} ?`,
-      a: `${city.name} obtient un score télétravail de ${city.scores.remoteWork}/10. ${city.scores.remoteWork >= 7.5 ? "Excellente infrastructure numérique, espaces de coworking et réseau fibre." : city.scores.remoteWork >= 7.0 ? "Bonne infrastructure pour le télétravail avec une connectivité satisfaisante." : "Infrastructure correcte pour le télétravail, à confirmer selon vos besoins spécifiques."}`,
-    },
-    {
-      q: `Quels sont les transports en commun à ${city.name} ?`,
-      a: `Le score transport de ${city.name} est de ${city.scores.transport}/10. ${city.scores.transport >= 7.5 ? "Réseau de transport en commun très développé (tram, bus, vélo)." : city.scores.transport >= 6.0 ? "Réseau de transport en commun correct." : "Réseau de transport limité, une voiture peut être utile."}`,
-    },
-  ];
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -86,7 +52,7 @@ export function CityJsonLd({ city }: { city: CitySeed & { reviewCount?: number }
       },
       {
         "@type": "FAQPage",
-        mainEntity: faqItems.map(({ q, a }) => ({
+        mainEntity: faq.map(({ q, a }) => ({
           "@type": "Question",
           name: q,
           acceptedAnswer: { "@type": "Answer", text: a },

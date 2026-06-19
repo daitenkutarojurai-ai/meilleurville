@@ -10,6 +10,7 @@ import { CityJsonLd } from "@/components/CityJsonLd";
 import { CityGuidesList } from "@/components/CityGuidesList";
 import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityFaq } from "@/lib/city-faq";
 
 // Pure static export (output:"export" on Cloudflare) — no ISR/runtime cache.
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -57,11 +58,12 @@ export default async function CityPage({ params }: Props) {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) notFound();
 
+  const faq = cityFaq(city, "fr");
   return (
     <main id="main-content" className="min-h-screen">
-      <CityJsonLd city={city} />
+      <CityJsonLd city={city} faq={faq} />
       <Navbar />
-      <CityProfile city={city} data={buildCityProfileData(city)} />
+      <CityProfile city={city} data={buildCityProfileData(city)} faq={faq} />
       <CityGuidesList slug={city.slug} name={city.name} />
       <div className="mx-auto max-w-4xl px-4 sm:px-6 pb-12">
         <FeedbackWidget />
