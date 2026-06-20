@@ -462,6 +462,28 @@ export const PROFILE_PAGES: ProfileDef[] = [
     reasonHint: (c) =>
       `Sécurité ${c.scores.safety.toFixed(1)} · vie ${c.scores.life.toFixed(1)} · coût ${c.scores.cost.toFixed(1)}`,
   },
+  {
+    slug: "futurs-retraites",
+    emoji: "🧭",
+    label: "Futurs retraités (55-65 ans)",
+    metaTitle: "Meilleures villes futurs retraités 2026 — Top 20 France",
+    metaDescription:
+      "Top 20 villes françaises pour préparer sa retraite (55-65 ans) : coût maîtrisé, santé future, climat tempéré, transports, qualité de vie. Calibré 2026.",
+    intro:
+      "Futurs retraités (55-65 ans) : la phase où vous préparez le grand virage. Vous travaillez encore, votre revenu est encore à son maximum, mais vous savez que dans cinq ou dix ans la pension va remplacer le salaire — souvent avec 25 à 40 % de moins selon la trajectoire de carrière (cadres COR 2024, salariés du privé estimation DREES). C'est la fenêtre où le bon choix de ville coûte le moins cher et rapporte le plus. Vendre une résidence principale chère en zone tendue pour acheter plus modeste dans une ville mieux dimensionnée libère une plus-value qui peut financer dix à quinze ans de revenus complémentaires — et anticiper l'installation avant que la santé ne dicte le calendrier, c'est garder la main sur le choix. L'arbitrage est sensiblement différent du profil « retraités » (déjà installés, pension fixe, immobilier amorti, axes prioritaires santé et qualité de vie immédiate) : ici vous êtes encore mobiles, encore actifs, encore en train d'optimiser pour deux temporalités à la fois — le présent salarié et le futur retraité. Le coût d'abord, parce que vous préparez une baisse de revenu durable : une ville où le panier loyer-énergie-vie courante est inférieur à votre métropole actuelle libère immédiatement de la marge pour la suite, et un prix m² accessible permet de monétiser l'écart à l'achat. La qualité de vie générale ensuite, parce que vous serez là chaque jour pendant trente ans, et l'écart entre une ville agréable et une ville fonctionnelle s'élargit avec le temps. La sécurité et la sécurité nocturne montent dans la hiérarchie parce que la perception du risque change après 55 ans — on sort plus prudemment, on évite certaines zones, on veut un environnement quotidien qui n'ajoute pas de stress de fond. La résistance canicule devient un critère qu'on ne pèse pas à 35 ans mais qu'on pèse à 60 (canicule 2003, 2022, 2023 — la surmortalité s'envole au-delà de 65 ans). La qualité de l'air pour la même raison — exposition cumulée et capacité respiratoire qui décline progressivement. Les transports en commun pèsent à cet âge parce qu'à 75 ans la voiture n'est plus une option fiable, et qu'installer son foyer sur une ligne TER ou un réseau urbain dense, c'est garder son autonomie une décennie plus longtemps. Ce classement pondère le coût comme premier critère, à parité avec la qualité de vie, complète par la sécurité diurne et nocturne, la résistance canicule, la qualité de l'air, l'accessibilité en transports et la maîtrise du bruit (le sommeil se dégrade physiologiquement après 55 ans — une ville calme prolonge la santé). Résultat : un palmarès qui privilégie les villes moyennes au tissu hospitalier solide (chefs-lieux régionaux dotés d'un CHU ou hôpital intercommunal), les villes intermédiaires bien desservies à coût accessible, et plusieurs côtes atlantiques ou intérieurs tempérés où on peut vendre la maison parisienne pour acheter plus modeste sans perdre en services. Logique : si vous avez déjà 70 ans et que vous êtes installés depuis longtemps, regardez le profil « retraités » ; si vous êtes à cinq ou dix ans de l'arrêt et que vous envisagez le déménagement, ce classement-ci est calibré pour vous.",
+    weights: {
+      cost: 2.0,
+      life: 2.0,
+      safety: 1.5,
+      canicule: 1.5,
+      qualiteAir: 1.5,
+      transport: 1.5,
+      securiteNocturne: 1.0,
+      bruit: 1.0,
+    },
+    reasonHint: (c) =>
+      `Coût ${c.scores.cost.toFixed(1)} · vie ${c.scores.life.toFixed(1)} · sécurité ${c.scores.safety.toFixed(1)}`,
+  },
 ];
 
 export const PROFILE_SLUGS = PROFILE_PAGES.map((p) => p.slug);
