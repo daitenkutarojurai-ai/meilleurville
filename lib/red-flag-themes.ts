@@ -31,6 +31,7 @@ import { fiscalityForCity } from "@/lib/fiscalite";
 import { getEducation } from "@/lib/education";
 import { haversineKm } from "@/lib/distances";
 import { sunshineDays } from "@/lib/utils";
+import { projectClimate2040 } from "@/lib/climate-2040";
 
 // Tag patterns that signal a strong seasonal/touristic vocation. Matched on
 // the joined character-tags string (lowercased) of each city seed entry.
@@ -1402,6 +1403,57 @@ function rankChauffageHivernalCouteux(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
 }
 
+// --- THEME — Climat 2040 dégradé ---
+// Cible : villes dont la projection ARPEGE 2040 (lib/climate-2040) cumule
+//   1. une hausse marquée des températures de juillet vs 1991-2020,
+//   2. un nombre élevé de jours > 30 °C estimés en 2040,
+//   3. un nombre élevé de nuits tropicales (> 20 °C) en 2040.
+// Filtre population ≥ 15 000 hab. pour rester sur des bassins urbains où la
+// projection a un sens habitable. Différence avec `villes-belles-invivables-ete`
+// (qui regarde la canicule d'aujourd'hui, 1991-2020) : ici on regarde 2040 — un
+// décalage temporel qui rebat les cartes (couloir rhodanien, Sud-Ouest, Corse,
+// Île-de-France interne s'imposent là où, aujourd'hui, seul le pourtour
+// méditerranéen affichait des indicateurs critiques).
+function rankClimat2040Deteriore(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    const pop = city.population ?? 0;
+    if (pop < 15000) continue;
+    const proj = projectClimate2040(city);
+    if (proj.projectedJulyC == null) continue;
+
+    const deltaJuly = proj.macroRegion.deltaJulyC;
+    const projDays30 = proj.projectedDays30C;
+    const projNights = proj.projectedTropicalNights;
+
+    // Pondération : la canicule diurne (jours > 30) et les nuits tropicales
+    // (qui empêchent de récupérer) sont les deux signaux dominants. La hausse
+    // moyenne de juillet pèse moins (proxy macro-région, déjà reflété dans les
+    // deux autres) mais reste un indicateur séparé pour départager.
+    const factorHausse = normSeverity(deltaJuly, 1.5, 2.6);
+    const factorDays = normSeverity(projDays30, 25, 75);
+    const factorNights = normSeverity(projNights, 12, 65);
+
+    // Bonus combo : quand jours ≥ 7/10 ET nuits ≥ 7/10, c'est un climat
+    // estival doublement dégradé (jour ET nuit) — situation où la
+    // climatisation cesse d'être un confort pour devenir une nécessité.
+    const comboBonus = factorDays >= 7 && factorNights >= 7 ? 1.0 : 0;
+    // Petit bonus de gravité quand la commune est explicitement balnéaire ou
+    // station thermale (saturation touristique estivale qui amplifie l'inconfort).
+    const tagBonus = SEASONAL_TAGS_REGEX.test(city.characterTags.join(" ")) ? 0.3 : 0;
+
+    const severity = Math.min(
+      10,
+      factorHausse * 0.25 + factorDays * 0.38 + factorNights * 0.37 + comboBonus + tagBonus,
+    );
+    if (severity < 6) continue;
+
+    const reason = `${proj.macroRegion.label} · +${deltaJuly.toFixed(1)} °C en juillet · ~${projDays30} j/an > 30 °C · ~${projNights} nuits tropicales en 2040`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -1822,6 +1874,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Severity = normSeverity(ratio chauffage/salaire × 100, 3 → 0, 6 → 10) + 0,5 si population < 30 000 hab. (parc ancien fioul/électrique direct) + 0,4 si température moyenne janvier ≤ 1,5 °C en plaine (consigne chauffe maintenue plus longtemps). Filtre : zone climatique connue (DROM exclus, hors périmètre ADEME RT2012), ratioFactor ≥ 4,5/10, severity ≥ 6/10. Pondération facture par zone (ADEME 2024) : H1a 95 € · H1b 90 € · H1c 80 € · H2a 65 € · H2b 60 € · H2c 55 € · H2d 70 € · H3 40 €. Bonus altitude : ≥ 400 m +12 € · ≥ 700 m +25 € · ≥ 1 200 m +40 € (saison de chauffe étendue, consommation surface chauffée majorée). Salaire dept proxy v0 dérivé du score employment-market (Paris/petite couronne ≈ 2 500 € · bonnes métropoles 2 200 € · médiane nationale 2 050 € · bas 1 900 € · très bas 1 750 €). Sources : ADEME 2024 (coût moyen mensuel chauffage par zone climatique RT2012), arrêté ministériel 28/12/2012 (zonage thermique), INSEE DADS 2023 (salaire net médian dept), ONPE (Observatoire national de la précarité énergétique). Caveat : la facture réelle dépend du DPE du logement (un G consomme 4 à 5 fois plus qu'un C), du mix énergétique (un fioul à 2 200 €/an + entretien chaudière contre un gaz collectif à 850 €/an), du comportement (T° de consigne) et du tarif réglementé en vigueur — vérifier impérativement la dernière facture du vendeur ou du locataire sortant avant signature.",
     rank: rankChauffageHivernalCouteux,
+  },
+  {
+    slug: "villes-climat-2040-deteriore",
+    title: "Villes au climat 2040 le plus dégradé — projection ARPEGE",
+    metaTitle: "Climat 2040 dégradé 2026 — Villes les plus exposées",
+    metaDescription:
+      "Classement 2026 des villes ≥ 15 000 hab. dont la projection 2040 cumule hausse de juillet, jours > 30 °C et nuits tropicales. Source Météo-France ARPEGE.",
+    emoji: "🌡️",
+    intro:
+      "L'annonce immobilière vante le climat d'aujourd'hui — étés tempérés, nuits agréables, jardin verdoyant. Sur l'horizon d'un crédit sur 20 ans, le climat de la ville aura déjà changé : la moyenne de juillet pourrait grimper de 2 °C, les jours > 30 °C doubler, les nuits tropicales devenir banales. Acheter en 2026, c'est habiter dans la projection 2040 — pas dans la photo de l'agence prise en mai dernier.",
+    reality:
+      "On classe les villes ≥ 15 000 habitants dont la projection climatique 2040 (lib/climate-2040, deltas ARPEGE par macro-région) cumule trois signaux : hausse marquée de juillet, jours > 30 °C estimés en 2040, nuits tropicales (> 20 °C) projetées. La différence avec villes-belles-invivables-ete (qui regarde le climat actuel 1991-2020) est temporelle : ici, le couloir rhodanien, le Sud-Ouest, la Corse, l'arrière-pays méditerranéen et l'Île-de-France interne s'imposent — pas seulement le pourtour méditerranéen. Bonus de gravité quand jours ET nuits dépassent 7/10 (climat estival doublement dégradé, climatisation devenue nécessité) ou quand la commune est balnéaire / thermale (saturation touristique estivale amplifiée par la chaleur).",
+    methodology:
+      "Severity = 0,25 × facteur hausse juillet (1,5 °C → 0, 2,6 °C → 10) + 0,38 × facteur jours > 30 °C (25 → 0, 75 → 10) + 0,37 × facteur nuits tropicales (12 → 0, 65 → 10) + 1,0 si jours ET nuits ≥ 7/10 + 0,3 si tag saisonnier (balnéaire / station / thermalisme / tourisme). Clampé à 10/10, filtré à severity ≥ 6 et population ≥ 15 000 hab. Sources sous-jacentes : Météo-France ARPEGE (deltas RCP4.5/8.5 par macro-région climatique 2040 vs normales 1991-2020), seed propriétaire (avgTempJuly, latitude, longitude, region, population). Caveat : les modèles climatiques régionaux ont une incertitude de ±0,5 °C ; la projection est indicative et exclut les effets locaux d'îlot de chaleur urbain (qui peuvent ajouter 1-3 °C à Paris, Lyon, Toulouse). Vérifier le rapport Drias 2020 pour le détail au niveau communal.",
+    rank: rankClimat2040Deteriore,
   },
 ];
 
