@@ -125,6 +125,27 @@ export const PROFILE_PAGES: ProfileDef[] = [
       `Culture ${c.scores.culture.toFixed(1)} · télétravail ${c.scores.remoteWork.toFixed(1)} · coût ${c.scores.cost.toFixed(1)}`,
   },
   {
+    slug: "jeunes-diplomes",
+    emoji: "🎓",
+    label: "Jeunes diplômés (20-26 ans)",
+    metaTitle: "Meilleures villes jeunes diplômés 2026 — Top 20 France",
+    metaDescription:
+      "Top 20 villes pour un premier poste après le diplôme : loyer compatible avec salaire d'entrée, densité jeune actif pour le réseau, transports, culture. 2026.",
+    intro:
+      "Jeunes diplômés : la fenêtre 20-26 ans, juste après le master ou l'école, premier CDI ou première alternance longue, premier vrai loyer hors résidence étudiante ou hors logement parental. La situation n'a presque rien à voir avec celle d'un étudiant Crous (qui pèse sur une bourse, un loyer subventionné et un emploi du temps universitaire) ni avec celle d'un jeune actif installé 28-35 (qui négocie sa première augmentation et envisage parfois un premier achat). Ici on entre dans la vie salariée avec un revenu d'entrée — 1 700 à 2 200 € net pour un bac+5 hors finance/conseil (Apec 2024), parfois moins — et zéro épargne accumulée. Le premier loyer hors campus est souvent un T1 ou une colocation, et la marge entre revenu et reste à vivre est étroite. Le coût d'abord, parce qu'à ce niveau de salaire un loyer parisien à 950 € absorbe la moitié du net, tandis qu'un T1 lyonnais ou bordelais à 600 € libère deux fois plus de marge pour le reste — sortir, voyager, rembourser le prêt étudiant, commencer à épargner. La densité de jeunes actifs ensuite, parce qu'à 22 ans on quitte le réseau étudiant constitué en cinq ans et qu'il faut tout reconstruire — collègues bien sûr, mais aussi colocataires, amis de soirée, partenaires de sport, premières relations amoureuses sérieuses : une ville où la tranche 25-35 est représentée massivement (Toulouse, Montpellier, Lyon, Bordeaux) intègre vite, une ville vieillissante isole. La culture pour la même raison — bars, salles de concert, cinémas indé, festivals, scènes ouvertes — c'est l'infrastructure de la vie sociale post-études. Les transports parce que le permis B coûte 1 300 € en moyenne, une voiture d'occasion 5 000 € minimum plus assurance et essence : à l'entrée de carrière la voiture est très souvent reportée, donc tram-métro-bus-vélo doivent suffire pour aller au travail et sortir. Le télétravail et la qualité de vie complètent — les premiers postes intègrent de plus en plus l'hybride (deux à trois jours bureau, le reste télétravail), et une ville agréable au quotidien quand on y passe ses cinq premières années d'adulte compte plus que la performance pure d'une métropole tendue. Ce classement pondère le coût comme premier critère, à parité quasi avec la densité jeune actif, complète par la culture, les transports, le télétravail, la qualité de vie générale et la praticabilité sans voiture. Résultat : un palmarès qui privilégie les grandes capitales étudiantes du Sud-Ouest et de l'Ouest (Toulouse, Bordeaux, Rennes, Nantes, Montpellier), les métropoles régionales équilibrées (Lyon, Strasbourg, Lille), plusieurs préfectures universitaires sous-cotées (Grenoble, Angers, Reims), et systématiquement décote pour Paris (premier loyer écrase tout le reste à ce niveau de salaire — Paris devient un choix possible une fois la première augmentation passée, pas dès la sortie de l'école).",
+    weights: {
+      cost: 2.5,
+      jeuneActif: 2.0,
+      culture: 1.5,
+      transport: 1.5,
+      remoteWork: 1.0,
+      life: 1.0,
+      sansVoiture: 0.5,
+    },
+    reasonHint: (c) =>
+      `Coût ${c.scores.cost.toFixed(1)} · culture ${c.scores.culture.toFixed(1)} · transport ${c.scores.transport.toFixed(1)}`,
+  },
+  {
     slug: "retraites",
     emoji: "🌅",
     label: "Retraités",

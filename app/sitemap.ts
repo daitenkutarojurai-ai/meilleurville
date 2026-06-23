@@ -132,6 +132,7 @@ function staticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/pour-qui`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/pour-qui/familles-avec-enfants`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/pour-qui/jeunes-actifs`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/pour-qui/jeunes-diplomes`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/pour-qui/retraites`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/pour-qui/freelances`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/pour-qui/teletravailleurs`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
