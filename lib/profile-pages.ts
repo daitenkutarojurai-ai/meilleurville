@@ -9,6 +9,7 @@ import type { CityLight } from "@/lib/cities-light";
 import { HOUSING } from "@/data/housing";
 import { computeOwnerScores } from "@/lib/owner-scores";
 import { computeSportLeisure } from "@/lib/sport-leisure";
+import { computeCyclingMobility } from "@/lib/cycling-mobility";
 import { rentalTension } from "@/lib/rental-tension";
 
 type ScoreWeights = Partial<{
@@ -32,10 +33,11 @@ type ScoreWeights = Partial<{
   securiteFemmeSeule: number;
   jeuneActif: number;
   famille: number;
-  // Cluster composites (F70 sport, R8.2 tension, dérivé investisseurs)
+  // Cluster composites (F70 sport, R8.2 tension, F57 vélo, dérivé investisseurs)
   sportLeisure: number;
   rentalTension: number;
   investorYield: number;
+  cyclingMobility: number;
 }>;
 
 export interface ProfileDef {
@@ -96,6 +98,7 @@ function getScoreValue(city: CityLight, key: string): number {
   if (key === "sportLeisure") return computeSportLeisure(city as CitySeed).composite;
   if (key === "rentalTension") return rentalTension(city);
   if (key === "investorYield") return investorYield(city);
+  if (key === "cyclingMobility") return computeCyclingMobility(city).composite;
   return ownerVal(city, key);
 }
 
@@ -504,6 +507,27 @@ export const PROFILE_PAGES: ProfileDef[] = [
     },
     reasonHint: (c) =>
       `Coût ${c.scores.cost.toFixed(1)} · vie ${c.scores.life.toFixed(1)} · sécurité ${c.scores.safety.toFixed(1)}`,
+  },
+  {
+    slug: "cyclistes-urbains",
+    emoji: "🚴",
+    label: "Cyclistes urbains",
+    metaTitle: "Meilleures villes pour cyclistes urbains 2026 — Top 20",
+    metaDescription:
+      "Top 20 villes françaises où vivre à vélo au quotidien : réseau cyclable continu, relief praticable, sécurité, climat. Calibré sur le baromètre FUB et Géovélo 2026.",
+    intro:
+      "Cyclistes urbains : votre arbitrage ne ressemble ni à celui d'un sportif de salle ni à celui d'un randonneur du dimanche. Le vélo n'est ni un loisir occasionnel ni une discipline d'entraînement : c'est votre mode de transport principal, six à sept jours sur sept, pour le travail, les courses, l'école des enfants, les sorties du soir, parfois 4 000 à 6 000 kilomètres par an. Ce profil se différencie nettement de « sans voiture » (qui pondère le réseau multimodal tram-métro-bus-vélo et donne le même poids à un usager exclusif des transports en commun), de « sportifs réguliers » (axé sur les équipements indoor et les clubs fédérés) et d'« amateurs de plein air » (la nature brute du week-end). Ici on s'intéresse uniquement à la praticabilité du vélo au quotidien — et les villes ne se valent vraiment pas. Le critère cardinal, c'est la continuité du réseau cyclable, mesurée par le composite F57 dérivé du baromètre FUB (Fédération des Usagers de la Bicyclette, parlons-velo.fr), de Géovélo et de la cartographie OSM : une ville qui aligne 200 à 500 km d'aménagements sécurisés financés à plus de 50 €/habitant/an (Strasbourg, Grenoble, Rennes, Nantes, Bordeaux, La Rochelle, Chambéry, Annecy) tient un usager quotidien dix fois plus longtemps qu'une métropole où il faut alterner trottoir, piste interrompue et boulevard à quatre voies. Le relief compte presque autant — pédaler 3 km sur du plat versus 3 km avec 80 m de dénivelé positif, ce n'est pas le même effort matin et soir, et le vélo électrique ne lève qu'une partie de la contrainte. La sécurité réelle (accidentologie, séparation des flux, sas vélo, double sens cyclable, limitations à 30 km/h en centre) fait la différence entre une pratique tranquille et un stress de chaque trajet — un point particulièrement sensible pour les parents avec siège enfant ou pour les jeunes adultes qui débutent. Le climat enfin — un nombre de jours pluvieux trop élevé ou des étés caniculaires concentrent la pratique sur quelques mois et fatiguent même les plus motivés. Ce classement pondère lourdement le composite cyclabilité F57, complète par le score sans voiture (un cycliste utilise aussi les transports en commun par mauvais temps ou pour les déplacements longs), ajoute le transport général, la qualité de l'air (vous respirez ce que vous traversez à pleine ventilation pulmonaire), la nature pour les sorties dominicales, et garde un œil sur la qualité de vie et la sécurité globale. Résultat : un palmarès tiré par les championnes du baromètre FUB (Strasbourg historiquement n° 1, Grenoble pour le réseau et la planéité, Rennes pour la cohérence métropolitaine, Bordeaux pour la continuité depuis la rénovation des quais), plusieurs villes moyennes pionnières (La Rochelle berceau du vélo libre-service en 1976, Chambéry, Annecy, Versailles, Caen, Lorient), les villes traversées par une EuroVelo majeure (Saumur, Amboise, Chinon sur la Loire à vélo, Royan sur la Vélodyssée, Bayonne–Anglet–Biarritz sur la Vélodyssée et le Vélo Maritime Sud), et logiquement peu de communes du relief sévère, des centres-villes saturés sans plan vélo ou des banlieues pavillonnaires non maillées.",
+    weights: {
+      cyclingMobility: 3.0,
+      sansVoiture: 1.5,
+      transport: 1.0,
+      qualiteAir: 1.0,
+      nature: 1.0,
+      safety: 0.5,
+      life: 0.5,
+    },
+    reasonHint: (c) =>
+      `Cyclabilité ${computeCyclingMobility(c).composite.toFixed(1)} · transport ${c.scores.transport.toFixed(1)} · sans voiture ${ownerVal(c, "sansVoiture").toFixed(1)}`,
   },
 ];
 
