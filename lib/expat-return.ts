@@ -25,7 +25,8 @@ export type ExpatCountry =
   | "italie"
   | "maroc"
   | "emirats-arabes-unis"
-  | "australie";
+  | "australie"
+  | "irlande";
 
 export interface ExpatCountryProfile {
   slug: ExpatCountry;
@@ -516,6 +517,44 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
       "Pas de Medicare en France pour les non-citoyens : si vous étiez sous Temporary Skill Shortage 482, Bridging visa ou student visa, Medicare s'arrête net au départ. Aucune équivalence côté français — la CPAM ouvre un dossier comme pour tout résident, et les périodes cotisées à Medicare ne compteront pas pour les trimestres retraite (seules les périodes de travail salarié australien sont totalisées via la convention de sécurité sociale).",
       "Climat : le contraste hivernal peut être rude pour qui rentre de Sydney, Brisbane ou Perth (hivers doux à 15-22 °C). Privilégier Bordeaux, Bayonne, Biarritz, Marseille, Montpellier, Nice ou Aix-en-Provence plutôt qu'une métropole du Nord ou de l'Est pour adoucir la transition, surtout la première année — et si le surf reste central, la côte basque ou les Landes restent les ancrages les plus naturels.",
       "Logement français en zone tendue : si vous ciblez Bordeaux, Nantes, Lyon, Nice ou Paris, anticipez 2-3 mois pour décrocher un T3 avec dossier d'expat (employeur australien sortant, pas de fiches de paie FR récentes). Prévoir un garant Visale ou un employeur français déjà signé avant l'arrivée, et conserver vos relevés bancaires australiens (Commonwealth Bank, ANZ, Westpac, NAB) pour justifier le revenu d'épargne.",
+    ],
+  },
+  {
+    slug: "irlande",
+    name: "Irlande",
+    flag: "🇮🇪",
+    depuisLabel: "l'",
+    auLabel: "En",
+    currency: "EUR",
+    currencyToEurApprox: 1.0,
+    netConversionFactor: 0.85, // 100 € nets en Irlande valent ~85 € de pouvoir d'achat en France hors Paris : alimentaire et énergie sensiblement plus chers côté irlandais, loyers Dublin parmi les plus tendus d'Europe
+    bestSuitedCities: ["rennes", "brest", "saint-malo", "nantes", "bordeaux", "paris", "lyon", "toulouse", "rouen", "cherbourg"],
+    intro:
+      "Le retour d'Irlande n'a pas de choc de change (zone euro) mais réserve un contraste fiscal et résidentiel marqué. Côté revenu, les salaires bruts élevés de Dublin (siège européen de Google, Meta, LinkedIn, Stripe, Workday, plus la pharma et la finance internationale) sont rapidement absorbés par un système Income Tax + USC + PRSI cumulés et, surtout, par des loyers parmi les plus tendus d'Europe — un T3 dans le centre de Dublin tutoie ou dépasse Paris intra-muros depuis 2022. Côté France, la fiscalité reste plus lourde sur les hauts revenus mais le coût du logement métropole-province redevient absorbable. L'ancrage géographique le plus naturel reste la façade atlantique et la Bretagne : Rennes (capitale tech bretonne, vols directs Dublin 1 h 30, AEFE bilingue), Brest et Saint-Malo (ferry historiques Cork/Rosslare en saison), Nantes et Bordeaux (écosystèmes tech atlantique) ; Paris reste l'option corporate pour les profils finance, conseil et big tech qui basculent vers le bureau européen continental.",
+    hadVsWillHave: [
+      { topic: "Salaire net", had: "3 000-5 000 € net cadre tech / finance / pharma (Dublin, Cork, Galway, hors stock & RSU)", willHave: "Équivalent ~2 800-3 800 € net en France après charges (cadre métropole)" },
+      { topic: "Loyer T3", had: "2 200-3 200 € (centre Dublin), 1 400-2 000 € (banlieue Dublin / Cork / Galway)", willHave: "650-1 200 € (Rennes, Nantes, Bordeaux, Toulouse, Lyon), 1 800-2 800 € (Paris)" },
+      { topic: "Panier alimentaire", had: "Tesco / Dunnes / SuperValu : ~15-25 % plus cher qu'en France hors marques discount Lidl/Aldi", willHave: "Reprise du niveau français, produits frais locaux souvent plus abordables" },
+      { topic: "Santé", had: "HSE publique (délais hospitaliers longs) + private health cover VHI / Laya / Irish Life ~1 200-2 500 €/an souvent souscrite via l'employeur", willHave: "Sécu + mutuelle 80-200 €/mois, accès médecin de famille et hôpital public plus uniforme" },
+      { topic: "Fiscalité revenu", had: "Income Tax 20 % jusqu'à ~42 000 € puis 40 %, + USC 0,5-8 %, + PRSI 4,1 % salarié, soit ~30-48 % effectif", willHave: "~25-35 % effectif (TMI + CSG 9,7 % + prélèvements sociaux)" },
+      { topic: "Garde d'enfants", had: "Crèche privée 1 100-1 800 €/mois (Dublin) avant Core Funding / NCS, école française Eurocampus Dublin ~10 000-14 000 €/an", willHave: "Crèche FR 150-400 €/mois après CAF/CMG, maternelle publique gratuite dès 3 ans" },
+      { topic: "Voiture", had: "Essence / diesel ~1,75-1,90 €/L, motor tax annuelle 200-700 € selon la cylindrée, autoroutes M50 à péage", willHave: "Carburant 1,65-1,85 €/L, péages autoroutiers fréquents, réseau TER/TGV plus dense" },
+      { topic: "TVA", had: "VAT 23 % standard / 13,5 % réduit (énergie, restauration) / 9 % presse", willHave: "TVA 20 % standard / 5,5 % alimentaire / 10 % restauration" },
+    ],
+    adminPriorities: [
+      { step: "Déclarer le retour au consulat & radier", detail: "Avant le départ : se radier du registre des Français établis hors de France auprès du consulat (Dublin) et conserver l'attestation, utile pour la CAF, la CPAM et les démarches scolaires.", officialUrl: "https://www.service-public.gouv.fr/particuliers/vosdroits/R43251" },
+      { step: "Clôturer le dossier Revenue & PPS", detail: "Notifier Revenue (administration fiscale irlandaise) du départ via myAccount et déposer la Form 12 ou Form 11 de l'année du retour avec la case Leaving Ireland. Demander un éventuel tax refund pour l'année partielle (Income Tax + USC + PRSI déjà retenus). Le PPS Number reste valide à vie : le conserver pour les régularisations résiduelles (P21, P60 électroniques, pension state contributory)." },
+      { step: "Sécurité sociale", detail: "Demander le formulaire S1 au Department of Social Protection avant le départ pour le transmettre à la CPAM. Compter 3-6 semaines pour activation côté français. Résilier la private health cover (VHI, Laya, Irish Life Health) avec date exacte du départ — la facturation continue par défaut.", officialUrl: "https://www.service-public.gouv.fr/particuliers/vosdroits/F32824" },
+      { step: "Fiscalité revenu", detail: "Convention fiscale FR-IE (1968) : résidence fiscale française à compter du jour J. Déclaration fractionnée l'année du retour côté français + dernière déclaration irlandaise Form 12 (PAYE) ou Form 11 (chargeable persons) avec déclaration de fin de résidence. Les RSU et stock-options Big Tech acquises en Irlande peuvent rester partiellement imposables côté irlandais selon la période d'attribution — anticiper avec un conseil franco-irlandais." },
+      { step: "Permis & scolarité", detail: "Permis irlandais reconnu de droit en France (UE), pas d'échange obligatoire mais demande utile en cas de perte. Pour les enfants, inscription en mairie + entretien d'équivalence (le système irlandais primary 8 ans / secondary 5-6 ans avec Junior Cycle et Leaving Certificate diffère du collège-lycée français, mais les équivalences sont bien établies pour l'entrée en seconde ou en terminale)." },
+    ],
+    warnings: [
+      "Stock-options et RSU Big Tech : un cadre Google, Meta ou Stripe accumule souvent 30-100 k€ de RSU/an. Leur fiscalité à cheval sur deux pays (acquisition côté Irlande, vesting partiel en France après le retour) est complexe — la base taxable irlandaise peut survivre 6-12 mois après le départ. Anticipez la vente avec un fiscaliste franco-irlandais et conservez tous les vesting statements (Schwab, Morgan Stanley ShareWorks, Carta).",
+      "Pension irlandaise : la state pension (contributory) repose sur les PRSI contributions cotisées via votre PPS Number. Les trimestres sont totalisés au niveau européen avec ceux de l'Assurance retraite française — conservez tous les Contribution Statements téléchargeables depuis MyWelfare. Les pensions privées d'entreprise (occupational pension schemes, PRSA) restent acquises mais le rachat anticipé pour transfert vers la France peut déclencher une retenue irlandaise.",
+      "Logement Dublin gardé en location : si vous conservez un appartement à Dublin loué après le départ, le revenu locatif reste imposable en Irlande (Non-Resident Landlord scheme avec retenue 20 % via le locataire ou un collection agent) et doit être déclaré en France au titre des revenus fonciers étrangers, avec crédit d'impôt selon la convention. Anticiper avec un agent immobilier irlandais et un fiscaliste.",
+      "Loyers Dublin tendus : le marché locatif dublinois est l'un des plus saturés d'Europe depuis 2022, avec préavis bailleur souvent court et rent pressure zone partiellement contournée. Anticipez le préavis 30-90 jours selon le bail et le délai 6-10 semaines pour récupérer le deposit via la Residential Tenancies Board.",
+      "Climat et lumière : le contraste avec l'Irlande (été frais, pluies fréquentes) est plus doux qu'avec les destinations chaudes, mais le manque de soleil cumulé sur plusieurs années rend la transition agréable vers la façade atlantique (Rennes, Nantes, Bordeaux) ou méditerranéenne (Toulouse, Montpellier). Pas de choc thermique brutal à anticiper.",
+      "Compte bancaire irlandais : garder un compte ouvert 6 à 12 mois après le départ (AIB, Bank of Ireland, Revolut Ireland) facilite les régularisations Revenue (P21, refunds), les versements résiduels de RSU et la clôture de la private health cover. Anticipez la non-acceptance des IBAN IE par certains organismes français (la SEPA couvre l'IBAN mais quelques portails publics restent capricieux)."
     ],
   },
 ];
