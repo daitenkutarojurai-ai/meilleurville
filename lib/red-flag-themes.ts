@@ -1454,6 +1454,56 @@ function rankClimat2040Deteriore(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
 }
 
+// --- THEME 30 — Déficit de soleil hivernal ---
+// Distinct de `villes-hiver-rude` (qui combine froid ET grisaille, et ne se
+// déclenche que quand les deux facteurs cumulent). Ici, on isole le seul
+// déficit de lumière : on retient les villes au cumul annuel d'insolation
+// faible (≤ 1 950 h, en deçà de la médiane métropolitaine) ET situées
+// au-dessus du 45,5e parallèle (effet de raccourcissement du jour en
+// décembre-janvier, plus marqué au nord). Conséquence : on remonte les
+// communes océaniques douces (Brest, Cherbourg, Saint-Brieuc), invisibles
+// dans `hiver-rude` parce que leur janvier reste tiède (6-7 °C) mais où la
+// lumière disponible chute en dessous de 5 h/jour cinq mois sur douze.
+// Indicateur dédié aux profils sensibles au trouble affectif saisonnier (TAS),
+// aux télétravailleurs qui passent la journée derrière une fenêtre, et aux
+// retraités qui sortent peu — pour qui « il fait jour » ne suffit pas à
+// remplacer « il fait soleil ».
+function rankDeficitSoleilHiver(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    const sun = city.sunshinedays;
+    const lat = city.latitude;
+    const janT = city.avgTempJanuary;
+    if (sun == null || lat == null || janT == null) continue;
+    if (sun > 1950) continue; // hors périmètre : insolation correcte
+    if (lat < 45.5) continue; // trop méridional : jour de décembre encore long
+
+    // Facteur grisaille (1 950 h → 0, 1 450 h → 10). On capte la pénurie
+    // structurelle, pas la légère variation interannuelle.
+    const sunFactor = normSeverity(1950 - sun, 0, 500);
+    // Facteur latitude (45,5° → 0, 51° → 10). À 51° N (Dunkerque, Calais),
+    // le solstice ne donne que 7 h 50 de jour ; à 45,5° N (Valence, Grenoble),
+    // c'est encore 9 h 00 — 1 h 10 d'écart sur la journée la plus courte.
+    const latFactor = normSeverity(lat, 45.5, 51);
+    // Bonus combo : quand l'insolation est rare (≥ 6/10) ET que la latitude
+    // amplifie (≥ 6/10), on cumule deux signaux concordants — situation typique
+    // des dépressions hivernales prolongées des plaines du Nord et du Nord-Est.
+    const comboBonus = sunFactor >= 6 && latFactor >= 6 ? 0.9 : 0;
+    // Bonus froid : un janvier sous 4 °C alourdit le ressenti (besoin de
+    // chauffage continu, sortie courte, exposition au peu de lumière limitée).
+    // Distinct de `villes-hiver-rude` qui exige les deux ≥ 5 simultanément.
+    const coldBonus = janT < 4 ? 0.5 : 0;
+
+    const severity = Math.min(10, sunFactor * 0.5 + latFactor * 0.45 + comboBonus + coldBonus);
+    if (severity < 6) continue;
+
+    const days = sunshineDays(sun);
+    const reason = `${days} jours-équivalents de soleil/an · ${lat.toFixed(1).replace(".", ",")}° N · ${janT.toFixed(1).replace(".", ",")} °C en janvier`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -1889,6 +1939,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Severity = 0,25 × facteur hausse juillet (1,5 °C → 0, 2,6 °C → 10) + 0,38 × facteur jours > 30 °C (25 → 0, 75 → 10) + 0,37 × facteur nuits tropicales (12 → 0, 65 → 10) + 1,0 si jours ET nuits ≥ 7/10 + 0,3 si tag saisonnier (balnéaire / station / thermalisme / tourisme). Clampé à 10/10, filtré à severity ≥ 6 et population ≥ 15 000 hab. Sources sous-jacentes : Météo-France ARPEGE (deltas RCP4.5/8.5 par macro-région climatique 2040 vs normales 1991-2020), seed propriétaire (avgTempJuly, latitude, longitude, region, population). Caveat : les modèles climatiques régionaux ont une incertitude de ±0,5 °C ; la projection est indicative et exclut les effets locaux d'îlot de chaleur urbain (qui peuvent ajouter 1-3 °C à Paris, Lyon, Toulouse). Vérifier le rapport Drias 2020 pour le détail au niveau communal.",
     rank: rankClimat2040Deteriore,
+  },
+  {
+    slug: "villes-deficit-soleil-hiver",
+    title: "Villes en déficit chronique de soleil l'hiver",
+    metaTitle: "Déficit de soleil hivernal 2026 — Top 12 villes les plus sombres",
+    metaDescription:
+      "Classement 2026 des villes françaises au-dessus du 45,5e parallèle avec ≤ 1 950 h de soleil/an : Bretagne, Normandie, Hauts-de-France, Lorraine. Insolation, latitude, janvier.",
+    emoji: "☁️",
+    intro:
+      "L'annonce vante la maison de ville, le jardin, la mer ou la campagne à 10 minutes — photos prises en juillet, à 19 h, ciel dégagé. Personne ne mentionne que de novembre à février, le jour se lève à 8 h 45 et baisse à 17 h, que les couches nuageuses océaniques ou continentales s'installent durablement, et qu'une vraie journée ensoleillée devient un événement qu'on attend deux semaines. Le déficit de lumière hivernale ne se voit pas sur une plaquette immobilière prise au printemps — il se découvre au premier hiver, quand le télétravailleur s'aperçoit qu'il quitte son bureau à 17 h dans l'obscurité, ou quand le retraité réalise qu'il n'a pas vu le soleil de la semaine.",
+    reality:
+      "On classe les villes au cumul annuel d'insolation ≤ 1 950 h (sous la médiane métropolitaine d'environ 2 000 h, Météo-France normales 1991-2020) ET situées au-dessus du 45,5e parallèle, où le raccourcissement du jour autour du solstice devient sensible (à 51° N — Dunkerque, Calais, Lille — le 21 décembre donne 7 h 50 de jour utile contre 9 h 00 à 45,5° N). La différence avec `villes-hiver-rude` est nette : ce thème-ci se déclenche dès que la lumière manque, indépendamment de la température. On y retrouve donc les communes océaniques aux hivers doux (Brest, Cherbourg, Saint-Brieuc, Quimper) — invisibles dans `hiver-rude` parce que leur janvier reste tiède (5-7 °C) mais où le ciel reste bouché 200 jours par an — aux côtés des plaines continentales nordiques (Lille, Reims, Strasbourg, Metz) où grisaille et froid se cumulent. La distinction compte pour les profils sensibles au trouble affectif saisonnier (TAS) : ce qui pèse, ce n'est pas la température, c'est l'absence prolongée de lumière. Bonus de gravité quand insolation faible et latitude élevée concordent (cumul typique des dépressions hivernales prolongées du Nord et du Nord-Est), bonus supplémentaire quand le janvier descend sous 4 °C (chauffage continu, sortie courte, exposition réduite au peu de lumière disponible).",
+    methodology:
+      "Severity = 0,5 × facteur grisaille (1 950 h → 0, 1 450 h → 10) + 0,45 × facteur latitude (45,5° → 0, 51° → 10) + 0,9 si grisaille ET latitude ≥ 6/10 cumulés + 0,5 si janvier < 4 °C. Clampé à 10/10, filtré à severity ≥ 6, latitude ≥ 45,5° N, insolation ≤ 1 950 h/an. Conversion en jours-équivalents : insolation annuelle ÷ 9,5 (proxy d'une journée pleinement ensoleillée). Sources sous-jacentes : Météo-France normales climatiques 1991-2020 (cumul d'insolation par station, station de référence départementale), seed propriétaire (latitude, avgTempJanuary). Caveat : le cumul annuel masque la répartition saisonnière — une ville à 1 700 h dont 80 % tombent entre avril et septembre est plus dure à vivre l'hiver qu'une ville à 1 750 h mieux répartie. La distance à la station de mesure peut introduire un écart de ±50-100 h pour les communes éloignées d'un point Météo-France. Vérifier les normales locales (donneesclimatiques.meteofrance.com) avant tout déménagement avec sensibilité au TAS connue.",
+    rank: rankDeficitSoleilHiver,
   },
 ];
 
