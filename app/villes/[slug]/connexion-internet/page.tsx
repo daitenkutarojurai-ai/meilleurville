@@ -281,6 +281,12 @@ export default async function ConnexionInternetPage({ params }: Props) {
 
         <div className="flex flex-wrap gap-3 pt-2">
           <Link
+            href="/internet"
+            className="rounded-xl border border-[var(--border)] bg-white/60 backdrop-blur px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:bg-white transition-colors"
+          >
+            📊 Palmarès national couverture internet
+          </Link>
+          <Link
             href={`/villes/${slug}`}
             className="rounded-xl border border-[var(--border)] bg-white/60 backdrop-blur px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:bg-white transition-colors"
           >

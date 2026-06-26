@@ -11,6 +11,7 @@
 // build, only this module changes.
 
 import type { CitySeed } from "@/data/cities-seed";
+import type { CityLight } from "@/lib/cities-light";
 
 // Regional fibre coverage bonus (calibrated on ARCEP T4 2024 regional rates).
 // Positive values = above-average coverage, negative = below-average.
@@ -89,7 +90,7 @@ const LOW_COVERAGE_DEPTS = new Set([
   "Aveyron",
 ]);
 
-export function internetScore(city: CitySeed): number {
+export function internetScore(city: CitySeed | CityLight): number {
   const remoteWork = city.scores.remoteWork;
   const regionBonus = REGION_FIBRE_BONUS[city.region] ?? 0;
   const majorCityBonus = MAJOR_CITY_SLUGS.has(city.slug) ? 0.3 : 0;
@@ -127,4 +128,53 @@ export function internetLabel(score: number): {
 } {
   const tier = internetTier(score);
   return { tier, ...INTERNET_LABEL[tier] };
+}
+
+// ── National ranking helpers (hub /internet) ───────────────────────────────
+// Reuse the same `internetScore` engine that powers the ×540 sub-pages so the
+// hub ranking and the per-city rank stay consistent. Module-level cache.
+
+export interface InternetEntry {
+  city: CityLight;
+  score: number;
+  info: ReturnType<typeof internetLabel>;
+}
+
+let _rankedDesc: InternetEntry[] | null = null;
+let _rankedFor: CityLight[] | null = null;
+
+function rankedDesc(cities: CityLight[]): InternetEntry[] {
+  if (_rankedDesc && _rankedFor === cities) return _rankedDesc;
+  _rankedFor = cities;
+  _rankedDesc = cities
+    .map((city) => {
+      const score = internetScore(city);
+      return { city, score, info: internetLabel(score) };
+    })
+    .sort((a, b) => b.score - a.score);
+  return _rankedDesc;
+}
+
+/** Villes les mieux fibrées (score le plus élevé). */
+export function topBestInternet(
+  cities: CityLight[],
+  limit = 30,
+  minPop = 0,
+): InternetEntry[] {
+  return rankedDesc(cities)
+    .filter((e) => (e.city.population ?? 0) >= minPop)
+    .slice(0, limit);
+}
+
+/** Villes les moins bien connectées (score le plus bas). */
+export function topPoorInternet(
+  cities: CityLight[],
+  limit = 20,
+  minPop = 0,
+): InternetEntry[] {
+  return rankedDesc(cities)
+    .filter((e) => (e.city.population ?? 0) >= minPop)
+    .slice()
+    .reverse()
+    .slice(0, limit);
 }

@@ -21,6 +21,7 @@ const LINKS_FR = {
     { label: "Synthèse 8 axes", href: "/synthese" },
     { label: "Classement sport", href: "/sport" },
     { label: "Tension locative", href: "/tension-locative" },
+    { label: "Couverture internet", href: "/internet" },
     { label: "Villes cyclables", href: "/velo" },
     { label: "Vibe des villes", href: "/vibe" },
     { label: "Climat 2040", href: "/climat-2040-timelapse" },
