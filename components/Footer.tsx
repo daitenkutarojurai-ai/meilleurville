@@ -65,6 +65,7 @@ const LINKS_EN = {
     { label: "8-axis synthesis", href: "/synthesis" },
     { label: "Sport ranking", href: "/sport" },
     { label: "Rental pressure", href: "/rental-tension" },
+    { label: "Internet coverage", href: "/internet-quality" },
     { label: "Political leaning", href: "/political-leaning" },
     { label: "Weekend getaways", href: "/weekend-getaways" },
     { label: "Guides", href: "/guides" },
