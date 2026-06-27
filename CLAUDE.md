@@ -167,7 +167,7 @@ npm install
 npm run dev          # http://localhost:3000 (Turbopack)
 npx tsc --noEmit     # strict TS pass (currently clean)
 npm run build        # full SSG build (~3 000 pages)
-npm run lint         # 25 errors remaining (all react/no-unescaped-entities, cosmetic)
+npm run lint         # 231 errors / 27 warnings (mostly @next/next/no-html-link-for-pages — harmless under output:"export" — plus residual react/no-unescaped-entities; none are runtime bugs). See latest docs/audit-*.md for the rule breakdown.
 ```
 
 @AGENTS.md
