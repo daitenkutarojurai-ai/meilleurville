@@ -8,7 +8,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 export const metadata: Metadata = {
   title: "Glossaire immobilier, fiscalité & aides",
   description:
-    "DPE, LMNP, TAEG, ZFE, APL, état des lieux, préavis, dépôt de garantie : les termes utiles pour louer, acheter ou déménager en France en 2026.",
+    "DPE, LMNP, TAEG, ZFE, APL, compromis, conditions suspensives, ERP, VEFA : les termes utiles pour louer, acheter ou déménager en France en 2026.",
   alternates: { canonical: "/glossaire" },
 };
 
@@ -363,6 +363,68 @@ const SECTIONS: Section[] = [
       {
         term: "Pré-état daté",
         def: "Document remis par le syndic avant la signature du compromis de vente d'un lot en copropriété : montant des charges courantes appelées sur l'année, état des sommes dues par le vendeur, fonds travaux versé, procédures en cours. Complété par l'état daté définitif (article 5 du décret de 1967) à la signature notariée. Permet à l'acquéreur de connaître exactement les engagements financiers transmis avec le lot. Document payant (~250-500 € selon syndic) facturé au vendeur. À examiner ligne par ligne avant tout achat.",
+      },
+    ],
+  },
+  {
+    title: "Diagnostics, compromis et signature de vente",
+    emoji: "🔍",
+    terms: [
+      {
+        term: "DDT (Dossier de Diagnostic Technique)",
+        def: "Ensemble obligatoire de diagnostics annexé au compromis puis à l'acte authentique de vente. Réunit DPE, amiante, plomb (CREP), termites, état des installations gaz et électricité, ERP, assainissement non collectif, mérule (zones à risque), bruit (zones aéroportuaires) selon la nature du bien et sa localisation. Coût total ~400-800 € pour un appartement, ~600-1 200 € pour une maison. À la charge du vendeur. Absence ou diagnostic erroné : le vendeur engage sa responsabilité et l'acquéreur peut demander réduction du prix voire annulation de la vente.",
+      },
+      {
+        term: "Diagnostic amiante",
+        def: "Repérage obligatoire de l'amiante pour tout logement dont le permis de construire est antérieur au 1ᵉʳ juillet 1997. Vérifie matériaux des listes A (flocages, calorifugeages, faux plafonds) et B (toitures, bardages, conduits, dalles vinyle). Durée de validité illimitée si négatif, repérage périodique tous les 3 ans si positif. Présence d'amiante non dégradée n'interdit pas la vente — la dégradation (état 3) impose travaux de désamiantage (10-50 k€). Diagnostic obligatoire aussi pour les travaux ou la démolition.",
+      },
+      {
+        term: "CREP (Constat de Risque d'Exposition au Plomb)",
+        def: "Diagnostic plomb obligatoire pour les logements dont le permis de construire est antérieur au 1ᵉʳ janvier 1949. Repère les revêtements (peintures murales, boiseries, plinthes) contenant plus de 1 mg/cm² de plomb. Validité : 1 an si positif, illimitée si négatif, 6 ans en location. Plomb à un niveau dégradé impose travaux de mise en sécurité avant occupation par des enfants ou femmes enceintes (intoxication = saturnisme). Vendeur tenu d'informer l'acquéreur des risques.",
+      },
+      {
+        term: "État termites et mérule",
+        def: "Diagnostic termites obligatoire dans les zones délimitées par arrêté préfectoral (large bande Sud-Ouest, Nouvelle-Aquitaine, Occitanie, vallée du Rhône, Île-de-France partielle). Validité : 6 mois. La mérule (champignon lignivore) fait l'objet d'une obligation déclarative dans les zones identifiées, mais pas d'un diagnostic systématique : le vendeur doit informer l'acquéreur s'il connaît une infestation. Infestation active = travaux 5-30 k€ et dévalorisation immédiate du bien.",
+      },
+      {
+        term: "État des installations gaz et électricité",
+        def: "Diagnostics obligatoires pour toute installation gaz ou électricité de plus de 15 ans, à l'occasion d'une vente. Vérifient la sécurité (vétusté, mise à la terre, disjoncteur différentiel, tableau, prises) et signalent les anomalies sans imposer leur réparation avant vente. Validité : 3 ans. Une installation très dégradée n'empêche pas la vente mais informe l'acquéreur du coût futur de mise aux normes (3-15 k€ pour une remise à niveau complète).",
+      },
+      {
+        term: "ERP / ERRIAL (État des Risques)",
+        def: "État des Risques et Pollutions, document obligatoire informant l'acquéreur ou locataire des risques naturels (inondation, séisme, mouvement de terrain, retrait-gonflement argiles), miniers, technologiques, radon et pollution des sols affectant le bien. Établi à partir du formulaire officiel et des arrêtés préfectoraux, validité 6 mois. Téléchargeable gratuitement sur errial.georisques.gouv.fr. Indispensable pour mesurer le risque d'un bien en zone PPRI, PPRT ou de retrait-gonflement (fissures structurelles).",
+      },
+      {
+        term: "PPRI / PPRT (Plans de Prévention des Risques)",
+        def: "Documents réglementaires délimitant les zones exposées aux risques d'inondation (PPRI) ou technologiques (PPRT, autour de sites SEVESO). Trois niveaux : zone rouge (constructions interdites), zone bleue (constructions autorisées avec prescriptions), zone blanche (sans contrainte). Un bien en zone rouge peut être inconstructible et difficilement assurable. À consulter sur Géorisques avant toute promesse d'achat — déterminant pour les villes littorales, fluviales et industrielles.",
+      },
+      {
+        term: "Diagnostic assainissement non collectif",
+        def: "Obligatoire pour les maisons non raccordées au tout-à-l'égout, à effectuer par le SPANC (Service Public d'Assainissement Non Collectif) de la commune. Évalue conformité de la fosse septique ou filière équivalente (filtre à sable, microstation). Validité : 3 ans. Installation non conforme : travaux à exécuter dans l'année suivant la vente (3-12 k€). Souvent négocié en moins-value sur le prix de vente — à ne pas négliger en milieu rural ou périurbain.",
+      },
+      {
+        term: "Compromis de vente (promesse synallagmatique)",
+        def: "Avant-contrat engageant réciproquement vendeur et acquéreur : le vendeur s'engage à céder, l'acquéreur à acheter, sous conditions suspensives (obtention du prêt, absence de servitude, etc.). Signature avec un acompte de 5-10 % du prix (séquestre chez le notaire ou l'agence). Rétractation possible par l'acquéreur dans les 10 jours (loi SRU) sans motif ni pénalité. Au-delà, défaut d'exécution = perte de l'acompte ou poursuite en exécution forcée. Délai standard jusqu'à la signature notariée : 2 à 3 mois.",
+      },
+      {
+        term: "Promesse unilatérale de vente",
+        def: "Avant-contrat où seul le vendeur s'engage à vendre à un prix fixé pendant un délai d'option (souvent 2-3 mois). L'acquéreur paie une indemnité d'immobilisation (5-10 % du prix), perdue s'il renonce hors conditions suspensives. À enregistrer aux impôts dans les 10 jours (~125 €) sous peine de nullité. Plus souple côté acquéreur que le compromis, moins fréquente — surtout utilisée pour les transactions atypiques (immeubles, terrains à bâtir, biens à diviser).",
+      },
+      {
+        term: "Conditions suspensives",
+        def: "Événements futurs et incertains qui conditionnent la conclusion définitive de la vente. La plus courante : obtention du prêt immobilier dans un délai (45 à 60 jours) et à des conditions précises (taux maximal, montant minimal, durée). Autres : purge du droit de préemption urbain, absence de servitude grevant le bien, obtention d'un permis de construire. Si la condition n'est pas réalisée, la vente est caduque et l'acompte restitué à l'acquéreur. À rédiger précisément : taux trop bas ou montant exagéré = clause requalifiée en condition potestative (nulle).",
+      },
+      {
+        term: "Délai de rétractation SRU",
+        def: "Délai légal de 10 jours calendaires accordé à tout acquéreur non professionnel d'un logement après signature du compromis (ou de la promesse). Court à partir du lendemain de la première présentation de la lettre recommandée notifiant l'acte signé, ou de la remise en main propre. Rétractation par lettre recommandée AR sans motif à fournir, sans pénalité, avec restitution intégrale de l'acompte sous 21 jours. S'applique aussi aux ventes en VEFA. Ne concerne pas le vendeur, qui est engagé dès signature.",
+      },
+      {
+        term: "Mandat de vente (simple, exclusif, semi-exclusif)",
+        def: "Contrat par lequel un vendeur confie la commercialisation de son bien à une agence. Mandat simple : plusieurs agences peuvent vendre + le vendeur lui-même (concurrence, délais longs, prix souvent décoté). Mandat exclusif : une seule agence (engagement de moyens renforcé, durée 3 mois irrévocable, prix mieux tenu, 70 % des ventes nettes plus rapides). Mandat semi-exclusif : une agence + le vendeur (compromis). Durée maximale 3 mois renouvelable, dénonciation après le délai irrévocable. Honoraires payés par le vendeur, parfois renégociés en cas de baisse de prix.",
+      },
+      {
+        term: "VEFA (Vente en l'État Futur d'Achèvement)",
+        def: "Achat sur plan d'un logement neuf à construire. L'acquéreur devient propriétaire au fur et à mesure des travaux et paie selon un échéancier réglementaire : 35 % à l'achèvement des fondations, 70 % à la mise hors d'eau, 95 % à l'achèvement, 5 % à la livraison (consignables en cas de réserves). Protégée par la garantie financière d'achèvement (GFA) et la garantie de parfait achèvement (1 an), biennale (2 ans), décennale (10 ans). Délai de réserve à signaler à la livraison : 1 mois. À distinguer du contrat de construction de maison individuelle (CCMI).",
       },
     ],
   },
