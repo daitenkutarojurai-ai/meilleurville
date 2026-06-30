@@ -22,6 +22,7 @@ const LINKS_FR = {
     { label: "Classement sport", href: "/sport" },
     { label: "Tension locative", href: "/tension-locative" },
     { label: "Couverture internet", href: "/internet" },
+    { label: "Risques naturels", href: "/risques" },
     { label: "Villes cyclables", href: "/velo" },
     { label: "Vibe des villes", href: "/vibe" },
     { label: "Climat 2040", href: "/climat-2040-timelapse" },

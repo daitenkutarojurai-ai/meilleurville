@@ -208,10 +208,17 @@ export default async function RisquesPage({ params }: Props) {
           </Link>
         </div>
 
-        <div className="mt-8 text-sm">
-          <Link href="/environnement" className="text-[var(--accent)] hover:underline">
-            → Classement national des villes les plus saines
-          </Link>
+        <div className="mt-8 text-sm space-y-2">
+          <div>
+            <Link href="/risques" className="text-[var(--accent)] hover:underline">
+              → Palmarès national des risques naturels par ville
+            </Link>
+          </div>
+          <div>
+            <Link href="/environnement" className="text-[var(--accent)] hover:underline">
+              → Classement national des villes les plus saines
+            </Link>
+          </div>
         </div>
       </section>
 

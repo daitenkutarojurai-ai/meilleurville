@@ -364,3 +364,66 @@ export const RISK_LEVEL_BG: Record<RiskLevel, string> = {
   eleve: "bg-orange-50 border-orange-200",
   fort: "bg-red-50 border-red-200",
 };
+
+// ── National ranking helpers (hub /risques) ────────────────────────────────
+// Reuse the same `computeNaturalRisks` engine that powers the ×540 sub-pages
+// so the hub ranking and the per-city rank stay consistent. Module-level cache.
+
+export interface NaturalRiskEntry {
+  city: CityLight;
+  composite: number;
+  level: RiskLevel;
+  flood: number;
+  seismic: number;
+  clay: number;
+  wildfire: number;
+  signature: string;
+}
+
+let _rankedAsc: NaturalRiskEntry[] | null = null;
+let _rankedFor: CityLight[] | null = null;
+
+function rankedAsc(cities: CityLight[]): NaturalRiskEntry[] {
+  if (_rankedAsc && _rankedFor === cities) return _rankedAsc;
+  _rankedFor = cities;
+  _rankedAsc = cities
+    .map((city) => {
+      const r = computeNaturalRisks(city);
+      return {
+        city,
+        composite: r.composite,
+        level: r.level,
+        flood: r.flood.score,
+        seismic: r.seismic.score,
+        clay: r.clay.score,
+        wildfire: r.wildfire.score,
+        signature: r.signature,
+      };
+    })
+    .sort((a, b) => a.composite - b.composite);
+  return _rankedAsc;
+}
+
+/** Communes les plus exposées (score composite le plus élevé). */
+export function topMostAtRisk(
+  cities: CityLight[],
+  limit = 30,
+  minPop = 0,
+): NaturalRiskEntry[] {
+  return rankedAsc(cities)
+    .filter((e) => (e.city.population ?? 0) >= minPop)
+    .slice()
+    .reverse()
+    .slice(0, limit);
+}
+
+/** Communes les moins exposées (score composite le plus bas). */
+export function topLeastAtRisk(
+  cities: CityLight[],
+  limit = 20,
+  minPop = 0,
+): NaturalRiskEntry[] {
+  return rankedAsc(cities)
+    .filter((e) => (e.city.population ?? 0) >= minPop)
+    .slice(0, limit);
+}
