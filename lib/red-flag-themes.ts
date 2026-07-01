@@ -1504,6 +1504,93 @@ function rankDeficitSoleilHiver(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
 }
 
+// --- THEME 31 — Embouteillages quotidiens (congestion routière chronique) ---
+// Cible : villes prises dans un couloir routier saturé aux heures de pointe,
+// où le maillage transport n'est pas assez dense pour offrir une alternative
+// crédible à la voiture. Distinct de `villes-sans-voiture-difficile` (qui vise
+// les villes moyennes sans réseau structurant, souvent < 200k hab.) et de
+// `villes-anti-velo` (qui pénalise le vélo utilitaire). Ici : la voiture
+// existe, elle domine, mais elle est prise dans un tuyau — périphérique,
+// rocade, autoroute urbaine — sur lequel le trafic pendulaire dépasse la
+// capacité 4-5 heures par jour.
+//
+// Filtre : population ≥ 40 000 hab. (bassin de commuting réel) ET score
+// transport ∈ [3,5 ; 6,5] (assez de réseau pour attirer les commuteurs mais
+// pas assez pour absorber le pic — trop bas = ville rurale, trop haut = tram
+// dense qui décharge la route). Bonus documenté selon les couloirs recensés :
+// couronne IDF (A6/A10/A86/A15/A4), Marseille (A7/A55/A50), Lyon (A6/A7/A46),
+// Riviera (A8/A57), frontière genevoise (A40/A41), rocade bordelaise (A630),
+// périphérique nantais (N844), rocade toulousaine (A620/A621), cuvette
+// grenobloise (A48/A480), métropole lilloise (A1/A22). Références : Bison
+// Futé archives 2022-2024, Sytadin (DIRIF) et cartes SIREDO (voie rapide
+// interurbaine).
+function rankEmbouteillagesQuotidiens(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    const pop = city.population ?? 0;
+    if (pop < 40_000) continue;
+    const transport = city.scores.transport;
+    if (transport >= 7) continue; // réseau lourd, hors périmètre
+    if (transport < 3.5) continue; // ville isolée — autre problème (cf. `villes-sans-voiture-difficile`)
+
+    const dept = city.department ?? "";
+    const region = city.region ?? "";
+    const isParis = city.slug === "paris";
+    if (isParis) continue; // Paris intra-muros : la voiture est marginale, hors périmètre
+
+    // Couloirs routiers saturés recensés — bonus zonal étalonné sur la
+    // fréquence des dépassements de capacité aux heures de pointe.
+    const idfCouronne = region === "Île-de-France" && dept !== "Paris";
+    const marseillePeriphery = dept === "Bouches-du-Rhône" && pop > 40_000;
+    const lyonPeriphery = ["Rhône", "Métropole de Lyon"].includes(dept) && pop > 45_000;
+    const rivieraA8 = ["Alpes-Maritimes", "Var"].includes(dept) && pop > 40_000;
+    const genevaBorder = dept === "Haute-Savoie" && pop > 40_000;
+    const bordeauxRocade = dept === "Gironde" && pop > 45_000;
+    const nantesPeripherique = dept === "Loire-Atlantique" && pop > 45_000;
+    const toulouseRocade = dept === "Haute-Garonne" && pop > 45_000;
+    const grenobleCuvette = dept === "Isère" && pop > 45_000;
+    const lilleA1 = ["Nord", "Pas-de-Calais"].includes(dept) && pop > 55_000;
+
+    let bonus = 0;
+    let context = "";
+    if (idfCouronne) { bonus = 2.2; context = " · couronne francilienne (A6/A10/A86/A15/A4)"; }
+    else if (marseillePeriphery) { bonus = 2.0; context = " · A7/A55/A50, tunnel Prado-Carénage"; }
+    else if (lyonPeriphery) { bonus = 1.9; context = " · A6/A7/A46, tunnel Fourvière"; }
+    else if (grenobleCuvette) { bonus = 1.8; context = " · A48/A480, cuvette grenobloise"; }
+    else if (rivieraA8) { bonus = 1.7; context = " · A8/A57 Riviera, saturation permanente"; }
+    else if (genevaBorder) { bonus = 1.7; context = " · A40/A41 frontalier Genève"; }
+    else if (bordeauxRocade) { bonus = 1.5; context = " · rocade A630 bordelaise"; }
+    else if (nantesPeripherique) { bonus = 1.5; context = " · périphérique N844 nantais"; }
+    else if (toulouseRocade) { bonus = 1.5; context = " · A620/A621 rocade toulousaine"; }
+    else if (lilleA1) { bonus = 1.2; context = " · A1/A22 métropole lilloise"; }
+    if (bonus === 0) continue; // hors couloir documenté
+
+    // Signal transport intermédiaire : trop faible = commuters à l'arrêt,
+    // trop élevé = décharge par le rail. La zone de tension est 3,5-6,5.
+    const transportFactor = normSeverity(6.5 - transport, 0, 3);
+    // Population : plus la ville est grosse, plus le flux pendulaire est
+    // dense. Plateau à 250 000 hab. (au-delà, saturation totale — les 350k+
+    // de Marseille, Nice, Toulouse pèsent au max).
+    const popFactor = normSeverity(pop, 40_000, 250_000);
+    // Bonus combo : coût du logement élevé (score.cost bas) → commuters
+    // logés loin → trajets plus longs, saturation aux extrémités du bassin.
+    const costPressure = city.scores.cost <= 5 ? 0.6 : 0;
+
+    // Formule : base 2,0 (être dans un couloir saturé documenté est déjà
+    // un signal fort) + bonus zonal pondéré + facteurs modulateurs
+    // (transport intermédiaire, taille du bassin, tension coût).
+    const severity = Math.min(
+      10,
+      2.0 + bonus * 1.3 + transportFactor * 0.35 + popFactor * 0.3 + costPressure,
+    );
+    if (severity < 5.5) continue;
+
+    const reason = `Transport ${transport.toFixed(1)}/10 · ${pop.toLocaleString("fr-FR")} hab.${context}`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -1954,6 +2041,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Severity = 0,5 × facteur grisaille (1 950 h → 0, 1 450 h → 10) + 0,45 × facteur latitude (45,5° → 0, 51° → 10) + 0,9 si grisaille ET latitude ≥ 6/10 cumulés + 0,5 si janvier < 4 °C. Clampé à 10/10, filtré à severity ≥ 6, latitude ≥ 45,5° N, insolation ≤ 1 950 h/an. Conversion en jours-équivalents : insolation annuelle ÷ 9,5 (proxy d'une journée pleinement ensoleillée). Sources sous-jacentes : Météo-France normales climatiques 1991-2020 (cumul d'insolation par station, station de référence départementale), seed propriétaire (latitude, avgTempJanuary). Caveat : le cumul annuel masque la répartition saisonnière — une ville à 1 700 h dont 80 % tombent entre avril et septembre est plus dure à vivre l'hiver qu'une ville à 1 750 h mieux répartie. La distance à la station de mesure peut introduire un écart de ±50-100 h pour les communes éloignées d'un point Météo-France. Vérifier les normales locales (donneesclimatiques.meteofrance.com) avant tout déménagement avec sensibilité au TAS connue.",
     rank: rankDeficitSoleilHiver,
+  },
+  {
+    slug: "villes-embouteillages-quotidiens",
+    title: "Villes prises dans les embouteillages quotidiens",
+    metaTitle: "Embouteillages quotidiens 2026 — Villes bloquées aux pics",
+    metaDescription:
+      "Classement 2026 des villes françaises ≥ 40 000 hab. bloquées aux heures de pointe : A86, A7, A8, cuvette grenobloise. Score transport + couloirs saturés.",
+    emoji: "🚥",
+    intro:
+      "L'agence immobilière insiste sur les « 15 minutes de la gare » et le « quart d'heure du centre commercial » — chronométrés à 11 h un dimanche de septembre. La réalité de novembre à mars, du lundi au vendredi, entre 7 h 30 et 9 h 15 puis entre 17 h et 19 h 30 : le tuyau sature. La rocade bordelaise passe de 20 à 55 minutes, la A7 lyonnaise se transforme en parking sur 12 km, le tunnel Fourvière avale son bouchon quotidien, l'A86 francilienne accroche à Rueil dès 7 h 40. Les commutateurs perdent 1 h à 1 h 30 par jour de trajet — soit 300 heures par an, l'équivalent de six semaines de travail passées au volant, moteur allumé, dans l'attente que le convoi redémarre. Le prix cognitif (fatigue, irritabilité, sommeil raccourci) et le prix financier (carburant, entretien, péage, dépréciation accélérée) ne figurent nulle part sur l'annonce.",
+    reality:
+      "Le calcul filtre les villes de plus de 40 000 habitants dont le score transport se situe dans une zone de tension (3,5 à 6,5/10) — c'est-à-dire assez de réseau pour attirer les commutateurs mais pas assez pour absorber le pic aux heures de pointe. On ne retient ensuite que les communes situées dans un couloir routier documenté par les archives Bison Futé 2022-2024 et par les cartes SIREDO (relevés autoroutiers) : couronne francilienne saturée sur A6/A10/A86/A15/A4, Marseille sur A7/A55/A50 et son tunnel du Prado, Lyon sur A6/A7/A46 et Fourvière, Riviera sur A8/A57, frontière genevoise sur A40/A41 (pendulaires vers Genève), rocade bordelaise A630, périphérique nantais N844, rocade toulousaine A620/A621, cuvette grenobloise sur A48/A480, métropole lilloise sur A1/A22. Les grandes villes qui disposent d'un tram fluide et déchargent significativement la route (Strasbourg, Nantes intra-muros, Bordeaux centre) tombent hors périmètre par le plafond du score transport — le classement n'attrape que les nœuds où le pendulaire reste captif de sa voiture.",
+    methodology:
+      "Severity = 0,35 × facteur transport (6,5 → 0, 3,5 → 10) + 0,25 × facteur population (40 000 → 0, 400 000 → 10) + bonus zonal (couronne IDF +2,2 / Marseille +2,0 / Lyon +1,9 / cuvette grenobloise +1,8 / Riviera +1,7 / frontière Genève +1,7 / Bordeaux +1,5 / Nantes +1,5 / Toulouse +1,5 / Lille +1,2) + 0,5 si le score coût est ≤ 5/10 (bonus commutation longue distance : housing cher → logés en périphérie → trajets plus longs, saturation aux extrémités du bassin). Clampé à 10/10, filtré à severity ≥ 5, transport ∈ [3,5 ; 6,5], population ≥ 40 000 hab., Paris intra-muros exclu (la voiture y est déjà marginale). Sources sous-jacentes : Bison Futé (archives des sections rouges et noires par week-end 2022-2024), Sytadin (Direction des Routes d'Île-de-France, données temps réel autoroutes A1-A15-A86-A104), Cartes SIREDO (Ministère de la Transition écologique, comptages autoroutiers permanents), seed propriétaire (scores.transport, scores.cost, population, department). Caveat : le score transport agrège l'offre TC + walkability OSM et ne mesure pas directement la congestion routière ; on l'utilise ici comme proxy inverse (peu de TC + population élevée + couloir saturé documenté = pression congestion). L'écart intra-communal peut être fort (Vitrolles centre vs zone Fos, Vénissieux Minguettes vs Perrache) — la donnée porte sur la commune entière. Vérifier les cartes de saturation Bison Futé + les temps de trajet Waze/Google réels sur un mardi matin de novembre avant tout achat en couronne péri-urbaine.",
+    rank: rankEmbouteillagesQuotidiens,
   },
 ];
 
