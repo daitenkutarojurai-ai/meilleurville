@@ -116,6 +116,7 @@ export default async function EnCityRisks({ params }: Props) {
         <div className="mt-2 flex flex-wrap gap-3">
           <Link href={`/cities/${slug}`} className="rounded-full bg-[var(--accent)] px-5 py-2.5 text-white font-semibold hover:opacity-90">Back to {c.name}</Link>
           <Link href={`/cities/${slug}/climate`} className="rounded-full border border-[var(--border)] px-5 py-2.5 font-semibold text-[var(--text-primary)] hover:bg-[var(--bg-elevated)]">{c.name} climate</Link>
+          <Link href="/natural-risks" className="rounded-full border border-[var(--border)] px-5 py-2.5 font-semibold text-[var(--text-primary)] hover:bg-[var(--bg-elevated)]">📊 National natural-risks ranking</Link>
         </div>
       </section>
       <Footer />
