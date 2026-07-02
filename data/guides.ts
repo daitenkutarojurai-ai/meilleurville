@@ -32894,6 +32894,286 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["ZFE", "Crit'Air", "pollution", "voiture", "mobilité", "métropole", "transport", "2026"],
   },
+  {
+    slug: "vivre-a-lyon-2026",
+    title: "Vivre à Lyon en 2026 : le guide complet pour s'installer",
+    metaTitle: "Vivre à Lyon 2026 — Quartiers, budget, emploi : le guide complet",
+    metaDesc: "S'installer à Lyon en 2026 : quels quartiers viser, quel budget prévoir, où travailler, et ce que la ville ne dit pas dans ses brochures. Guide honnête.",
+    category: "lifestyle",
+    emoji: "🦁",
+    readMinutes: 10,
+    publishedAt: "2026-07-02",
+    updatedAt: "2026-07-02",
+    intro: "Lyon est la deuxième métropole française et la seule qui rivalise sérieusement avec Paris sur l'emploi qualifié sans en atteindre les prix. Le contrat lyonnais est simple : une vraie vie urbaine (gastronomie, culture, métro), la montagne à une heure, et un budget de 25 à 35 % inférieur à Paris. Mais le contrat s'est tendu : le m² central dépasse 5 500 €, l'air d'hiver est médiocre dans la cuvette, et la rocade Est sature chaque matin. Ce guide donne ce qu'il faut savoir avant de signer un bail.",
+    sections: [
+      {
+        heading: "Pourquoi Lyon, concrètement",
+        body: "Le premier argument est le marché de l'emploi : Lyon concentre les sièges régionaux (banque, pharma avec Sanofi et boehringer, chimie de la vallée, tech en croissance à Part-Dieu et Gerland) et offre le deuxième bassin de cadres de France. Le deuxième est la position géographique : Paris en 2h de TGV, les Alpes à 1h30 (ski à l'Alpe d'Huez ou aux Karellis le samedi matin, retour le soir), la Méditerranée à 3h par l'A7. Le troisième est la densité urbaine réelle : quatre lignes de métro, une Presqu'île où tout se fait à pied, et la seule scène gastronomique de province comparable à Paris, bouchons compris. Lyon est une ville où l'on peut vivre sans compromis urbain majeur, ce qui reste rare hors Île-de-France.",
+      },
+      {
+        heading: "Les quartiers où chercher (et pourquoi)",
+        body: "Pour un premier bail lyonnais, trois stratégies. La Presqu'île et la Croix-Rousse pour la vie de quartier maximale : studio à 650–900 €, T2 à 900–1 200 €, on paie le cadre. Les 6e et Brotteaux pour le résidentiel bourgeois proche du parc de la Tête d'Or : T2 à 850–1 200 €, calme, familles. Villeurbanne (Charpennes, Gratte-Ciel) pour le rapport qualité-prix : T3 de 65 m² à 850–1 150 €, métro direct, 20 à 30 % de surface en plus pour le même budget que la Presqu'île. Gerland et le 7e montent vite (biotech, universités) et restent une bonne valeur. Le 8e (Monplaisir) est le compromis familles : T3 à 950–1 300 €, tram, marchés. Évitez de choisir un logement sur plan sans visiter à l'heure de pointe : certains axes (cours Gambetta, quais du Rhône côté circulation) sont bruyants en continu.",
+      },
+      {
+        heading: "Budget réel : ce que coûte un mois lyonnais",
+        body: "Pour un célibataire en T2 : loyer 900 €, TCL 65 €, alimentation 350–500 € (le bonus lyonnais est réel : bouchon à 15–22 €, formule midi à 12–16 €, Halles Paul Bocuse et marché de la Croix-Rousse pour les courses de qualité), divers et sorties 250 €, abonnements 100 €. Total : 1 800 à 2 000 €/mois pour vivre bien. Un couple en T3 à Villeurbanne vit confortablement à 3 000–3 500 €/mois. Le même standing à Paris coûte 25 à 35 % de plus. À l'achat, comptez 4 500–7 000 €/m² selon l'arrondissement ; la Croix-Rousse et le 6e sont au sommet, Villeurbanne et le 8e nettement en dessous.",
+      },
+      {
+        heading: "Se déplacer : le point fort, avec une réserve",
+        body: "Le réseau TCL (4 lignes de métro, 8 lignes de tram, funiculaires) couvre très bien Lyon et Villeurbanne pour 65 €/mois. Vélo'v coûte 25 €/an et les berges du Rhône et de la Saône sont des axes cyclables de niveau européen. Pour un quotidien intra-métropole, la voiture est inutile. La réserve : si votre emploi est dans l'Est lyonnais (Bron, Saint-Priest, la Plaine de l'Ain) ou au nord vers les monts d'Or, vous retombez sur la rocade et le tunnel de Fourvière, saturés de 7h30 à 9h30. Vérifiez le trajet domicile-travail réel avant de choisir le quartier, pas après.",
+      },
+      {
+        heading: "Ce qu'on ne vous dit pas dans les brochures",
+        body: "Trois points honnêtes. L'air d'hiver : la cuvette lyonnaise piège les particules fines plusieurs semaines par an, avec des pics de PM2,5 supérieurs à Paris ; si vous êtes sensible ou sportif d'extérieur, c'est un vrai sujet de décembre à février. La chaleur d'été : Lyon dépasse régulièrement 35 °C en juillet-août et les immeubles anciens de la Presqu'île ne sont pas conçus pour ; un étage élevé traversant ou une climatisation deviennent des critères de confort réels. Enfin la ZFE : les Crit'Air 3 et plus anciens sont progressivement exclus de la métropole ; si vous arrivez avec un diesel ancien, intégrez son remplacement au budget d'installation.",
+      },
+      {
+        heading: "Le verdict : pour qui Lyon fonctionne",
+        body: "Lyon est le meilleur choix français pour les profils qui veulent une carrière de niveau parisien sans les prix parisiens : cadres, ingénieurs, professions de santé, couples bi-actifs. Elle fonctionne très bien pour les familles qui visent Villeurbanne ou le 8e, et pour les amoureux de montagne qui skient ou randonnent un week-end sur deux. Elle fonctionne moins bien pour les budgets serrés (Saint-Étienne à 45 min offre des loyers moitié moindres), pour ceux qui veulent la mer, et pour les allergiques à la densité urbaine. Si vous hésitez entre Lyon et une métropole de l'Ouest, la question à trancher est simple : montagne et emploi profond (Lyon) contre océan et douceur de vivre (Nantes, Bordeaux).",
+      },
+    ],
+    relatedCities: ["lyon", "villeurbanne", "grenoble", "annecy", "saint-etienne"],
+    relatedGuides: [
+      "budget-mensuel-realiste-lyon-2026",
+      "acheter-a-lyon-quel-quartier-budget-2026",
+      "quitter-lyon-guide-2026",
+      "vivre-sans-voiture-lyon-guide-2026",
+      "10-choses-a-faire-a-lyon-2026",
+    ],
+    tags: ["vivre à Lyon 2026", "s'installer à Lyon", "quartiers Lyon où habiter", "déménager à Lyon guide", "Lyon emploi budget quartiers 2026"],
+  },
+  {
+    slug: "vivre-a-bordeaux-2026",
+    title: "Vivre à Bordeaux en 2026 : le guide complet pour s'installer",
+    metaTitle: "Vivre à Bordeaux 2026 — Quartiers, budget, emploi : le guide complet",
+    metaDesc: "S'installer à Bordeaux en 2026 : quartiers où chercher, budget réel, marché de l'emploi, océan à 50 min. Le guide honnête, effet TGV compris.",
+    category: "lifestyle",
+    emoji: "🍷",
+    readMinutes: 10,
+    publishedAt: "2026-07-02",
+    updatedAt: "2026-07-02",
+    intro: "Bordeaux a changé de catégorie depuis l'arrivée du TGV en 2017 : Paris en 2h04 a fait venir les cadres parisiens, et les prix ont suivi. La ville n'est plus la bonne affaire qu'elle était, mais le contrat reste solide : une métropole à taille humaine, l'Atlantique à 50 minutes, le vignoble en toile de fond, et un budget encore 30 à 40 % sous Paris. Ce guide donne les clés d'une installation bordelaise réussie en 2026, sans le vernis des magazines.",
+    sections: [
+      {
+        heading: "Pourquoi Bordeaux, concrètement",
+        body: "Trois arguments tiennent la route. La géographie d'abord : aucune autre métropole française ne combine océan (Arcachon, Lacanau à 45–60 min), vignoble mondial et TGV Paris en ~2h. Le cadre urbain ensuite : le centre XVIIIe classé UNESCO, les quais réaménagés, le tram qui dessert la quasi-totalité de la métropole ; Bordeaux est une des villes françaises les plus agréables à parcourir à pied et à vélo (plat, quais sécurisés). L'économie enfin : aéronautique-spatial-défense (Dassault, Thales, ArianeGroup à Saint-Médard), le pôle numérique en croissance, le vin et le tourisme. Le bassin d'emploi est moins profond que Lyon mais réel, et le télétravail hybride avec Paris est devenu un mode de vie bordelais standard.",
+      },
+      {
+        heading: "Les quartiers où chercher (et pourquoi)",
+        body: "Les Chartrons restent le quartier signature : ancien négoce du vin, antiquaires, halles ; T2 à 800–1 100 €, on paie l'ambiance. Saint-Michel est plus populaire et plus vivant, en gentrification rapide, avec le meilleur marché de la ville aux Capucins. La Bastide, rive droite, est la valeur montante : moins chère que la rive gauche, bien connectée par le tram A, T3 à 850–1 200 €. Caudéran est le choix familles : maisons avec jardin, écoles, T3 à 950–1 350 €. Pour les budgets plus serrés, Bègles et Talence offrent le tram et des prix inférieurs de 15–20 %. Le piège classique : les échoppes bordelaises (maisons de plain-pied en pierre) sont magnifiques mais souvent mal isolées ; vérifiez le DPE avant de craquer, le chauffage d'une échoppe non rénovée coûte cher.",
+      },
+      {
+        heading: "Budget réel : ce que coûte un mois bordelais",
+        body: "Célibataire en T2 : loyer 900 €, TBM 57 €, alimentation 300–420 € de courses (marché des Capucins en référence) plus le poste social bordelais, l'apéro et le vin : comptez 200 € de sorties. Total réaliste : 1 800 à 2 100 €/mois. Couple en T3 à La Bastide : 3 000–3 600 €/mois. L'avantage caché : le vin de qualité coûte ici le prix d'un vin ordinaire ailleurs (bordeaux régional à 6–12 € chez le caviste, saint-émilion simple à 12–20 €). À l'achat, le centre tourne autour de 4 500–5 500 €/m², La Bastide et Bègles nettement moins ; l'effet TGV a plafonné depuis 2023 mais rien n'a baissé.",
+      },
+      {
+        heading: "Se déplacer : tram excellent, voiture pour l'océan",
+        body: "Le tram TBM (4 lignes, 57 €/mois) est l'un des réseaux les plus étendus de France et couvre l'essentiel des besoins quotidiens ; le Vcub (30 €/an) complète bien sur une ville plate. La voiture reste utile pour ce qui fait le sel de la vie bordelaise : Arcachon, les plages de Lacanau et du Porge, le Médoc, Saint-Émilion. Beaucoup de Bordelais fonctionnent sans voiture au quotidien et louent pour les week-ends. Le point noir : la rocade bordelaise est saturée aux heures de pointe ; si votre emploi est en zone périphérique (Mérignac, Pessac technopole, Saint-Médard), habitez du bon côté ou près d'une ligne de tram directe.",
+      },
+      {
+        heading: "Ce qu'on ne vous dit pas dans les brochures",
+        body: "Premier point : le climat n'est pas la Côte d'Azur. Bordeaux est océanique, il pleut vraiment de novembre à février, et l'humidité hivernale surprend ceux qui arrivent avec une image de Sud-Ouest ensoleillé permanent. Deuxième point : l'écart centre-périphérie s'est creusé ; le Bordeaux carte postale (Chartrons, Triangle d'Or) est devenu cher et touristique, et une partie de la vie bordelaise réelle s'est déplacée vers Bègles, Bacalan et la rive droite. Troisième point : le marché de l'emploi local hors aéronautique et vin est plus étroit que la taille de la ville le laisse croire ; beaucoup de nouveaux arrivants gardent un employeur parisien. Vérifiez votre plan B local avant de couper le cordon.",
+      },
+      {
+        heading: "Le verdict : pour qui Bordeaux fonctionne",
+        body: "Bordeaux est le meilleur choix pour les télétravailleurs hybrides parisiens (2h04 de TGV, un aller-retour dans la journée est faisable), pour les familles qui veulent océan et écoles sans renoncer à la métropole, et pour ceux dont le secteur est l'aéronautique-défense ou le vin. Elle convient moins aux budgets serrés (Toulouse est 10–15 % moins chère pour un marché de l'emploi comparable), à ceux qui ont besoin d'un bassin d'emploi très profond sur site, et aux allergiques à la pluie d'hiver. La vraie question à se poser : voulez-vous l'océan chaque week-end au point de payer la prime bordelaise ? Si oui, aucune autre grande ville française ne fait mieux.",
+      },
+    ],
+    relatedCities: ["bordeaux", "arcachon", "toulouse", "la-rochelle", "bayonne"],
+    relatedGuides: [
+      "budget-mensuel-realiste-bordeaux-2026",
+      "acheter-a-bordeaux-quel-quartier-budget-2026",
+      "quitter-bordeaux-guide-2026",
+      "vivre-sans-voiture-bordeaux-guide-2026",
+      "10-choses-a-faire-a-bordeaux-2026",
+    ],
+    tags: ["vivre à Bordeaux 2026", "s'installer à Bordeaux", "quartiers Bordeaux où habiter", "déménager à Bordeaux guide", "Bordeaux emploi budget océan 2026"],
+  },
+  {
+    slug: "vivre-a-toulouse-2026",
+    title: "Vivre à Toulouse en 2026 : le guide complet pour s'installer",
+    metaTitle: "Vivre à Toulouse 2026 — Quartiers, budget, emploi : le guide complet",
+    metaDesc: "S'installer à Toulouse en 2026 : quartiers, budget réel, Airbus et l'emploi tech, Pyrénées à 1h30. Le guide honnête de la Ville Rose.",
+    category: "lifestyle",
+    emoji: "🌹",
+    readMinutes: 10,
+    publishedAt: "2026-07-02",
+    updatedAt: "2026-07-02",
+    intro: "Toulouse est la grande métropole française qui offre le meilleur rapport coût-soleil-emploi : 300 jours de soleil, le premier pôle aéronautique d'Europe, et des loyers encore 10 à 15 % sous Bordeaux. La Ville Rose croît vite, portée par Airbus et l'écosystème spatial, et absorbe chaque année des milliers de nouveaux arrivants. Ce guide décrit ce qui vous attend vraiment : les quartiers qui fonctionnent, le budget honnête, et le coût caché dont personne ne parle, la voiture.",
+    sections: [
+      {
+        heading: "Pourquoi Toulouse, concrètement",
+        body: "L'emploi d'abord : Airbus et sa chaîne de sous-traitants, le CNES, Thales Alenia Space, l'ATR, plus un écosystème tech et startup dense autour de la filière. Pour un ingénieur, Toulouse est avec Lyon le marché de province le plus profond, et le seul où l'aérospatial domine. Le cadre ensuite : une ville étudiante massive (troisième de France), le Canal du Midi et la Garonne comme colonne vertébrale, une brique rose qui rend le centre réellement beau au soleil couchant. La position enfin : Pyrénées à 1h30–2h (ski à Ax-les-Thermes, randonnée en vallée d'Aure), Méditerranée à 1h30 par l'A61, Atlantique basque à 3h. Toulouse est le seul point de France d'où montagne et deux mers sont accessibles en week-end.",
+      },
+      {
+        heading: "Les quartiers où chercher (et pourquoi)",
+        body: "Le triangle Capitole-Carmes-Saint-Étienne est le centre historique : studio à 550–800 €, T2 à 700–1 000 €, vie de quartier maximale mais bruit les soirs de semaine étudiante. Saint-Cyprien, rive gauche, est le quartier qui monte depuis dix ans : marché Saint-Cyprien, prairie des Filtres, T2 à 700–1 000 €. La Côte Pavée est le résidentiel familial classique : maisons toulousaines, T3 à 850–1 200 €. Pour les salariés Airbus, Blagnac et Colomiers sont le choix rationnel : T3 à 800–1 100 €, tram T2 direct vers l'usine, et un trajet qui ne dépend pas du périphérique. Compans-Caffarelli et les Minimes offrent le meilleur rapport métro-prix pour les jeunes actifs. La règle toulousaine : choisissez le quartier en fonction du lieu de travail, la ville est plus étalée qu'elle n'en a l'air.",
+      },
+      {
+        heading: "Budget réel : ce que coûte un mois toulousain",
+        body: "Célibataire en T2 : loyer 800 €, Tisséo 63 €, alimentation 280–450 € (marché Victor Hugo en institution quotidienne, bistros à 12–18 € le midi), sorties 200 €, divers 150 €. Total : 1 650 à 1 950 €/mois, soit environ 10–15 % sous Bordeaux et 25–35 % sous Paris. Couple en T3 central : 2 800–3 300 €/mois. À l'achat, le centre tourne à 3 500–4 500 €/m², Blagnac et Colomiers autour de 3 000–3 500 €. Attention au poste caché : si votre vie toulousaine implique une voiture (voir plus bas), ajoutez 250–450 €/mois au budget, ce qui peut annuler l'avantage sur Lyon.",
+      },
+      {
+        heading: "Se déplacer : le talon d'Achille relatif",
+        body: "Le réseau Tisséo (2 lignes de métro, bientôt 3 avec la ligne C, 2 trams, bus) est correct pour le centre mais moins dense que Lyon ou Bordeaux en périphérie, et Toulouse reste la grande métropole française la plus dépendante de la voiture. Les communes de la ceinture (Labège, Balma, Tournefeuille) et une partie des zones d'emploi ne sont bien accessibles qu'en voiture, et le périphérique sature matin et soir. À l'inverse, le vélo progresse vite : VélôToulouse à 15 €/an, berges de Garonne et Canal du Midi agréables, terrain plat. Le conseil pratique : si vous pouvez caler logement et emploi sur le métro ou le tram, Toulouse se vit très bien sans voiture ; sinon, budgétez-la dès le départ.",
+      },
+      {
+        heading: "Ce qu'on ne vous dit pas dans les brochures",
+        body: "La chaleur d'été est le premier point : Toulouse dépasse fréquemment 35 °C et flirte avec 40 °C en canicule, plusieurs semaines par an ; la climatisation ou un logement traversant n'est plus un luxe, c'est un critère. Deuxième point : la dépendance à la filière aéro. Quand Airbus embauche, tout va bien ; lors des trous d'air (2020 l'a montré), le marché immobilier et l'emploi local le sentent immédiatement. Si votre profil est hors aéro-spatial-tech, testez le marché avant de déménager. Troisième point : la ville s'étale, et les temps de trajet réels entre une maison en périphérie et un emploi de l'autre côté du périph peuvent atteindre 45 minutes ; le rêve de la maison avec piscine à 20 minutes de tout demande de choisir le bon quadrant.",
+      },
+      {
+        heading: "Le verdict : pour qui Toulouse fonctionne",
+        body: "Toulouse est le choix évident pour les ingénieurs et profils tech (aéro, spatial, systèmes embarqués), pour les étudiants, et pour ceux qui veulent le soleil du Sud sans les prix de la Méditerranée. Elle fonctionne très bien pour les familles qui acceptent la logique périurbaine (Blagnac, Colomiers, L'Union) et pour les sportifs d'extérieur, rugby compris. Elle convient moins à ceux qui veulent tout faire à pied dans une métropole compacte (Lyon ou Bordeaux font mieux), à ceux qui craignent la chaleur, et aux profils dont le secteur n'a pas d'ancrage local. Entre Toulouse et Bordeaux, l'arbitrage honnête : Toulouse gagne sur l'emploi et le budget, Bordeaux sur l'océan et le patrimoine urbain.",
+      },
+    ],
+    relatedCities: ["toulouse", "blagnac", "montauban", "albi", "carcassonne"],
+    relatedGuides: [
+      "budget-mensuel-realiste-toulouse-2026",
+      "acheter-a-toulouse-quel-quartier-budget-2026",
+      "vivre-sans-voiture-toulouse-guide-2026",
+      "10-choses-a-faire-a-toulouse-2026",
+    ],
+    tags: ["vivre à Toulouse 2026", "s'installer à Toulouse", "quartiers Toulouse où habiter", "déménager à Toulouse guide", "Toulouse Airbus emploi budget 2026"],
+  },
+  {
+    slug: "vivre-a-nantes-2026",
+    title: "Vivre à Nantes en 2026 : le guide complet pour s'installer",
+    metaTitle: "Vivre à Nantes 2026 — Quartiers, budget, emploi : le guide complet",
+    metaDesc: "S'installer à Nantes en 2026 : quartiers, budget réel, emploi diversifié, Atlantique à 50 min. Le guide honnête de la métropole de l'Ouest.",
+    category: "lifestyle",
+    emoji: "🐘",
+    readMinutes: 10,
+    publishedAt: "2026-07-02",
+    updatedAt: "2026-07-02",
+    intro: "Nantes est la métropole atlantique la plus accessible du grand Ouest : moins premium que Bordeaux, plus grande et plus diversifiée économiquement que Rennes, avec l'estuaire de la Loire et l'océan à moins d'une heure. C'est une ville qui a réussi sa reconversion post-industrielle (l'Île de Nantes et ses Machines en vitrine) sans exploser ses prix. Ce guide donne les repères concrets pour s'y installer en 2026 : quartiers, budget, emploi, et les limites que la réputation de la ville passe sous silence.",
+    sections: [
+      {
+        heading: "Pourquoi Nantes, concrètement",
+        body: "L'équilibre est l'argument central : Nantes est assez grande pour offrir un vrai marché de l'emploi diversifié (industrie et aéronautique avec Airbus Atlantic à Saint-Nazaire et Bouguenais, agroalimentaire, numérique et industries créatives sur l'Île de Nantes, tertiaire), assez moyenne pour rester vivable en famille et à vélo. L'océan est le deuxième argument : Saint-Nazaire à 50 min, La Baule et Pornic à 1h, l'estuaire comme terrain de week-end permanent. Le troisième est culturel : le Voyage à Nantes, les Machines de l'Île, une scène musicale et associative dense ; Nantes a une identité créative réelle, pas seulement marketing. Ajoutez le TGV Paris en 2h10 et vous avez le profil d'une métropole complète sans les prix de Bordeaux.",
+      },
+      {
+        heading: "Les quartiers où chercher (et pourquoi)",
+        body: "Le centre (Graslin, Bouffay, Decré) concentre la vie urbaine : studio à 560–780 €, T2 à 720–980 €. Zola et Canclaux sont les quartiers valeurs sûres des jeunes actifs et couples : marchés, tram, T2 à 720–980 €. L'Île de Nantes est le pari contemporain : architecture neuve, CHU en construction, prix en hausse mais cadre unique. Pour les familles, la banlieue sud bord de Loire (Rezé, Vertou) offre des T3 à 800–1 100 € et un accès tram ou busway direct ; à l'est, Sainte-Luce et Thouaré alignent des maisons avec jardin à 220 000–320 000 €, un niveau de prix que Bordeaux ne propose plus. Saint-Herblain et Orvault, à l'ouest, sont le choix rationnel des salariés de la zone Atlantis. La règle nantaise : le tram structure tout, choisissez à moins de 10 minutes à pied d'une station.",
+      },
+      {
+        heading: "Budget réel : ce que coûte un mois nantais",
+        body: "Célibataire en T2 : loyer 800 €, TAN 60 €, alimentation 280–390 € de courses (marché de Talensac en référence, muscadet de qualité à 5–9 €), sorties 200 €, divers 150 €. Total : 1 630 à 1 950 €/mois, légèrement sous Bordeaux et Rennes. Couple en T3 à Zola : 2 800–3 300 €/mois. À l'achat, le central tourne à 2 800–4 200 €/m², ce qui reste l'un des meilleurs ratios des grandes métropoles françaises. La trajectoire est haussière mais douce : Nantes n'a pas connu le choc TGV de Bordeaux ou Rennes, et le marché laisse encore de la place aux primo-accédants en périphérie proche.",
+      },
+      {
+        heading: "Se déplacer : tram historique et vélo",
+        body: "Nantes a réinventé le tramway français en 1985 et ça se voit : 3 lignes structurantes, chronobus, navettes fluviales sur l'Erdre et la Loire, pour 60 €/mois. Le vélo est l'autre pilier : réseau cyclable développé depuis 2010, ville globalement plate, Bicloo à 30 €/an ; la Loire à Vélo passe par le centre. La voiture reste utile pour l'océan et le vignoble, comme partout dans l'Ouest, mais un quotidien nantais sans voiture est parfaitement tenable. Le point de vigilance : le périphérique nantais sature aux heures de pointe et les ponts sur la Loire sont des goulots ; si vous travaillez au sud (Rezé, aéroport, Bouguenais) et habitez au nord, testez le trajet réel avant de signer.",
+      },
+      {
+        heading: "Ce qu'on ne vous dit pas dans les brochures",
+        body: "Le climat d'abord : Nantes est océanique et gris de novembre à février, avec un crachin régulier ; ceux qui arrivent pour « l'Ouest doux » découvrent des hivers humides et peu lumineux. La mer ensuite : elle est à 50 minutes, pas à la porte ; au quotidien, Nantes est une ville de fleuve, et l'aller-retour plage reste une expédition d'une demi-journée. La sécurité enfin : le centre-ville a connu une dégradation documentée de son ambiance nocturne ces dernières années (secteur Bouffay, gare) ; rien qui change la vie quotidienne de la plupart des habitants, mais le sujet existe et les Nantais en parlent. Dernier point : l'aéroport reste Nantes-Atlantique, saturé et bruyant pour les communes sous les couloirs aériens (Rezé, Saint-Aignan) ; vérifiez la carte de bruit avant d'acheter au sud.",
+      },
+      {
+        heading: "Le verdict : pour qui Nantes fonctionne",
+        body: "Nantes est le meilleur choix de l'Ouest pour les familles qui veulent espace, écoles et océan à budget maîtrisé, et pour les profils à l'aise dans une économie diversifiée (industrie, créatif, tertiaire) plutôt que spécialisée. Elle convient très bien aux cyclistes du quotidien et à ceux qui veulent une vie culturelle dense sans la pression d'une très grande métropole. Elle convient moins aux profils tech pointus (Rennes a un écosystème numérique plus profond), à ceux qui ont besoin du meilleur TGV Paris (Rennes encore, 1h27 contre 2h10), et aux chasseurs de soleil. Entre Nantes et Rennes, l'arbitrage honnête : Nantes gagne sur la taille, la diversité d'emploi et les plages de sable ; Rennes sur le tech, le TGV et l'identité bretonne.",
+      },
+    ],
+    relatedCities: ["nantes", "saint-nazaire", "rennes", "angers", "la-rochelle"],
+    relatedGuides: [
+      "budget-mensuel-realiste-nantes-2026",
+      "acheter-a-nantes-quel-quartier-budget-2026",
+      "vivre-sans-voiture-nantes-guide-2026",
+      "10-choses-a-faire-a-nantes-2026",
+      "rennes-vs-nantes-comparatif-2026",
+    ],
+    tags: ["vivre à Nantes 2026", "s'installer à Nantes", "quartiers Nantes où habiter", "déménager à Nantes guide", "Nantes emploi budget Atlantique 2026"],
+  },
+  {
+    slug: "vivre-a-montpellier-2026",
+    title: "Vivre à Montpellier en 2026 : le guide complet pour s'installer",
+    metaTitle: "Vivre à Montpellier 2026 — Quartiers, budget, emploi : le guide complet",
+    metaDesc: "S'installer à Montpellier en 2026 : quartiers, budget réel, la mer à 12 km, et les limites du marché de l'emploi. Le guide honnête de la métropole méditerranéenne.",
+    category: "lifestyle",
+    emoji: "☀️",
+    readMinutes: 10,
+    publishedAt: "2026-07-02",
+    updatedAt: "2026-07-02",
+    intro: "Montpellier est la grande ville méditerranéenne la plus abordable de France : plus accessible que Nice, perçue comme plus apaisée que Marseille, moins chère que Bordeaux. Résultat, elle croît plus vite que toutes les autres métropoles : 350 000 habitants aujourd'hui, un demi-million projeté pour 2040. Le soleil et la mer à 12 km attirent ; ce guide ajoute ce que les nouveaux arrivants découvrent après coup, notamment un marché de l'emploi qui ne suit pas le rythme de la démographie.",
+    sections: [
+      {
+        heading: "Pourquoi Montpellier, concrètement",
+        body: "Le triptyque soleil-mer-budget est réel : plus de 2 600 heures de soleil par an, Palavas-les-Flots à 12 km, et des loyers parmi les plus bas des grandes métropoles (T2 à 720–980 € dans les bons quartiers). La ville est jeune (un habitant sur trois a moins de 30 ans, 80 000 étudiants) et ça se sent : terrasses pleines dix mois sur douze, vie associative et culturelle dense, une des rares grandes villes françaises où l'Écusson médiéval entier est piéton. Le réseau de tram (5 lignes) est un des meilleurs de France et structure une métropole compacte. Enfin la position : Cévennes à 45 min, Camargue à 30 min, Barcelone à 3h, Paris en 3h30 de TGV direct.",
+      },
+      {
+        heading: "Les quartiers où chercher (et pourquoi)",
+        body: "L'Écusson (centre historique) pour l'immersion : studio à 550–780 €, ruelles piétonnes, mais bruit nocturne réel et logements anciens parfois mal isolés. Les Beaux-Arts et Boutonnet, au nord immédiat, sont le choix des jeunes actifs : ambiance village, marchés, T2 à 720–980 €. Port-Marianne est le Montpellier contemporain : architecture neuve, tram, bassin Jacques-Cœur ; les prix y sont les plus élevés de la ville mais restent sous Bordeaux. Pour les familles, Castelnau-le-Lez (T3 à 800–1 100 €, tram ligne 2) et Aiguelongue offrent calme et écoles. Les Cévennes et Croix d'Argent sont les bons plans budget (T3 à 700–950 €). Mosson et La Paillade affichent les loyers les plus bas (T2 à 550–700 €) mais concentrent aussi les difficultés sociales documentées de la ville ; visitez avant de signer.",
+      },
+      {
+        heading: "Budget réel : ce que coûte un mois montpelliérain",
+        body: "Célibataire en T2 : loyer 850 €, TaM 55 €, alimentation 270–380 € (halles Laissac au quotidien, vins du Languedoc à 5–10 € qui sont le meilleur rapport qualité-prix viticole de France), sorties et mer 200 €, divers 150 €. Total : 1 680 à 1 950 €/mois, un des meilleurs ratios soleil-budget du pays. Couple en T3 à Port-Marianne : 2 900–3 400 €/mois. À l'achat, comptez 3 000–4 500 €/m² selon le quartier. Le poste spécifique au Sud : la climatisation. L'été montpelliérain (32–38 °C de juin à septembre) ajoute 30–50 € à la facture d'électricité estivale, et un logement sans clim ou mal orienté se paie en confort.",
+      },
+      {
+        heading: "Se déplacer : le tram roi, la mer en voiture",
+        body: "Le réseau TaM (5 lignes de tram, 55 €/mois) couvre 80 % des besoins de la métropole ; c'est l'argument mobilité de Montpellier, avec une ville plate où le Vélomagg (25 €/an) complète bien. Le paradoxe : la mer, argument numéro un de la ville, reste mal desservie ; le tram 3 approche Pérols mais la plage finit en voiture (15 min) ou en vélo l'été. La voiture est aussi nécessaire pour l'arrière-pays (Pic Saint-Loup, Cévennes, gorges de l'Hérault) qui fait la moitié de l'intérêt de la région. Beaucoup de ménages fonctionnent avec une seule voiture partagée plus le tram, c'est l'équilibre local. L'A9 et le contournement saturent en été avec les flux touristiques, prévoyez-le pour les trajets de juillet-août.",
+      },
+      {
+        heading: "Ce qu'on ne vous dit pas dans les brochures",
+        body: "Le point central est l'emploi : Montpellier attire plus d'habitants que son économie ne crée de postes. Le chômage y reste structurellement au-dessus de la moyenne des métropoles, et hors santé (CHU majeur), recherche (Inrae, CNRS, universités), numérique en croissance et tourisme, le marché est étroit ; les salaires y sont aussi inférieurs de 10–15 % à Lyon pour des postes équivalents. Arriver avec un emploi (ou un employeur distant) change tout ; arriver « pour voir » est le scénario qui finit mal. Deuxième point : la chaleur s'intensifie, avec des étés à répétition au-dessus de 35 °C et des restrictions d'eau régulières dans l'Hérault. Troisième point : la ville a un vrai sujet de propreté et d'incivilités dans certains secteurs du centre, dont les habitants parlent ouvertement ; c'est gérable mais réel.",
+      },
+      {
+        heading: "Le verdict : pour qui Montpellier fonctionne",
+        body: "Montpellier est le meilleur choix pour les télétravailleurs et indépendants qui apportent leur revenu avec eux : le ratio soleil-mer-budget est alors imbattable en France métropolitaine. Elle fonctionne très bien pour les étudiants, les professions de santé et de recherche, et pour les retraités actifs qui veulent la Méditerranée sans les prix de la Côte d'Azur. Elle convient mal à ceux qui cherchent un marché de l'emploi salarié profond et généraliste (Toulouse et Lyon font nettement mieux), et aux personnes sensibles à la chaleur. L'arbitrage honnête avec Toulouse, sa rivale d'Occitanie : Montpellier gagne sur la mer et la compacité, Toulouse écrase sur l'emploi. Choisissez selon lequel des deux vous manquerait le plus.",
+      },
+    ],
+    relatedCities: ["montpellier", "nimes", "sete", "beziers", "perpignan"],
+    relatedGuides: [
+      "budget-mensuel-realiste-montpellier-2026",
+      "acheter-a-montpellier-quel-quartier-budget-2026",
+      "vivre-sans-voiture-montpellier-guide-2026",
+      "10-choses-a-faire-a-montpellier-2026",
+    ],
+    tags: ["vivre à Montpellier 2026", "s'installer à Montpellier", "quartiers Montpellier où habiter", "déménager à Montpellier guide", "Montpellier mer budget emploi 2026"],
+  },
+  {
+    slug: "vivre-a-rennes-2026",
+    title: "Vivre à Rennes en 2026 : le guide complet pour s'installer",
+    metaTitle: "Vivre à Rennes 2026 — Quartiers, budget, emploi : le guide complet",
+    metaDesc: "S'installer à Rennes en 2026 : quartiers, budget réel, le tech breton, Paris en 1h27. Le guide honnête de la capitale bretonne.",
+    category: "lifestyle",
+    emoji: "🥞",
+    readMinutes: 10,
+    publishedAt: "2026-07-02",
+    updatedAt: "2026-07-02",
+    intro: "Rennes cumule trois atouts qu'aucune autre métropole moyenne ne réunit : le meilleur TGV Paris de province (1h27), un écosystème tech réel (Orange, Thales, le technopôle Atalante), et la Bretagne entière comme arrière-pays de week-end. L'effet TGV et l'afflux de cadres parisiens depuis 2020 ont tendu les prix, mais la ville reste très en dessous de Paris pour une qualité de vie que ses habitants défendent avec un attachement rare. Ce guide donne les repères pour s'y installer en 2026.",
+    sections: [
+      {
+        heading: "Pourquoi Rennes, concrètement",
+        body: "Le TGV d'abord : Paris Montparnasse en 1h27, ce qui rend l'aller-retour dans la journée banal et fait de Rennes la base arrière naturelle des cadres hybrides. L'emploi ensuite : Rennes est la capitale tech du Grand Ouest, avec Orange (un des premiers employeurs), Capgemini, Thales, Nokia, et le technopôle Rennes Atalante (400 entreprises, 12 000 emplois) ; pour un ingénieur logiciel ou réseau, c'est le marché de province le plus profond après Lyon et Toulouse. La taille enfin : 60 000 étudiants, un centre médiéval à colombages, un métro automatique (2 lignes) dans une ville où tout est à 20 minutes ; Rennes offre les services d'une métropole dans le format d'une ville moyenne. Et la Bretagne : Saint-Malo à 55 km, la Côte d'Émeraude à 1h, Brocéliande à 40 min.",
+      },
+      {
+        heading: "Les quartiers où chercher (et pourquoi)",
+        body: "Le centre historique et le Thabor sont le Rennes carte postale : colombages, le parc du Thabor (le plus beau jardin public de l'Ouest), studio à 600–860 €, T2 à 750–1 050 €. Saint-Martin et les bords du canal Saint-Martin attirent les jeunes actifs : ambiance guinguette, prix un cran sous le centre. Beaulieu, à l'est, est le quartier campus et tech : pratique pour Atalante, T2 à 750–1 050 €. Pour les familles, Cesson-Sévigné est la banlieue tech de référence (T3 à 900–1 200 €, écoles réputées, mais prix en hausse constante), et Bruz ou Chantepie offrent des maisons à budget plus doux. Villejean et Cleunay sont les bons plans à surveiller, bien connectés par le métro (T3 à 850–1 150 €). La colocation est la norme sous 30 ans : chambre en T4 à 450–650 €.",
+      },
+      {
+        heading: "Budget réel : ce que coûte un mois rennais",
+        body: "Célibataire en T2 : loyer 900 €, STAR 58 €, alimentation 280–390 € (halles centrales pour les produits frais), crêperies et sorties 200 € (le dîner galette-crêpe-cidre à 15–22 € reste un des meilleurs rapports qualité-prix de la restauration française), divers 150 €. Total : 1 740 à 2 000 €/mois, légèrement au-dessus de Nantes, nettement sous Paris. Couple en T3 à Beaulieu : 2 900–3 400 €/mois. À l'achat, le central tourne à 3 000–4 500 €/m², l'effet TGV ayant fait grimper les biens de qualité ; Cesson et les communes du métro suivent la même pente. La trajectoire est claire : Rennes ne redeviendra pas bon marché, mais le différentiel avec Paris finance largement le TGV.",
+      },
+      {
+        heading: "Se déplacer : métro automatique et vélo breton",
+        body: "Le métro VAL (2 lignes automatiques, une rareté pour une ville de cette taille) plus le réseau bus STAR couvrent l'essentiel pour 58 €/mois ; la ligne B dessert Beaulieu et Cesson, exactement là où sont les emplois tech. Le vélo est en progression constante : réseau express vélo, canal d'Ille-et-Rance vers le nord, Star Vélo à 25 €/an ; le relief est doux et les distances courtes. La voiture reste l'outil des week-ends bretons (Saint-Malo, Côte de Granit Rose, Crozon) plus que du quotidien ; le TER Rennes–Saint-Malo (13–18 € l'aller-retour) couvre l'excursion la plus fréquente. Le point de vigilance classique : la rocade rennaise sature aux heures de pointe, et les communes hors métro (Pacé, Betton) impliquent la voiture quotidienne.",
+      },
+      {
+        heading: "Ce qu'on ne vous dit pas dans les brochures",
+        body: "Le climat d'abord, sans caricature : il ne pleut pas plus à Rennes qu'à Toulouse en volume annuel, mais la pluie y est répartie en crachin fréquent et les hivers sont gris et courts en lumière ; ceux qui ont besoin de soleil franc le sentent dès novembre. Deuxième point : la tension immobilière. L'offre locative rennaise est structurellement insuffisante pour 60 000 étudiants plus les arrivants TGV ; à la rentrée de septembre, trouver un T2 correct relève du sprint, dossiers béton exigés. Anticipez la recherche à l'été ou visez octobre-novembre. Troisième point : la vie nocturne se concentre sur la rue de la Soif (rue Saint-Michel) et le jeudi étudiant est bruyant en hypercentre ; si vous cherchez le calme, évitez les rues de la fête aux étages bas. Dernier point : l'aéroport de Rennes est modeste, les vols passent souvent par Nantes ou Paris.",
+      },
+      {
+        heading: "Le verdict : pour qui Rennes fonctionne",
+        body: "Rennes est le choix optimal pour trois profils : les cadres hybrides qui gardent un pied à Paris (aucune autre métropole n'offre 1h27), les ingénieurs et profils numériques qui veulent un vrai marché tech hors des très grandes villes, et les familles qui cherchent une métropole à taille humaine avec écoles solides et nature accessible. Elle fonctionne aussi très bien pour les étudiants, évidemment. Elle convient moins aux chasseurs de soleil et de mer immédiate (la côte est à une heure, pas à douze kilomètres comme à Montpellier), et à ceux qui veulent l'anonymat d'une très grande ville. Face à Nantes, sa rivale éternelle : Rennes gagne sur le TGV, le tech et l'identité ; Nantes sur la taille, la diversité d'emploi et les plages. Les deux se visitent en un week-end, faites-le avant de trancher.",
+      },
+    ],
+    relatedCities: ["rennes", "saint-malo", "nantes", "vannes", "brest"],
+    relatedGuides: [
+      "budget-mensuel-realiste-rennes-2026",
+      "acheter-a-rennes-quel-quartier-budget-2026",
+      "vivre-sans-voiture-rennes-guide-2026",
+      "10-choses-a-faire-a-rennes-2026",
+      "rennes-vs-nantes-comparatif-2026",
+    ],
+    tags: ["vivre à Rennes 2026", "s'installer à Rennes", "quartiers Rennes où habiter", "déménager à Rennes guide", "Rennes TGV tech budget 2026"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
