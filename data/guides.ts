@@ -33174,6 +33174,282 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["vivre à Rennes 2026", "s'installer à Rennes", "quartiers Rennes où habiter", "déménager à Rennes guide", "Rennes TGV tech budget 2026"],
   },
+  {
+    slug: "vivre-a-strasbourg-2026",
+    title: "Vivre à Strasbourg en 2026 : le guide complet pour s'installer",
+    metaTitle: "Vivre à Strasbourg 2026 — Quartiers, budget, emploi : le guide complet",
+    metaDesc: "S'installer à Strasbourg en 2026 : quartiers, budget réel, institutions européennes, vélo roi et frontière allemande. Le guide honnête de la capitale alsacienne.",
+    category: "lifestyle",
+    emoji: "🥨",
+    readMinutes: 10,
+    publishedAt: "2026-07-02",
+    updatedAt: "2026-07-02",
+    intro: "Strasbourg est la seule ville française où l'Europe institutionnelle se vit au quotidien : Parlement européen, Conseil de l'Europe, Cour des droits de l'Homme. C'est aussi la capitale française du vélo, une ville-frontière où faire ses courses en Allemagne est banal, et un patrimoine urbain (Grande Île, Neustadt) classé UNESCO dans son intégralité. Les prix reflètent cette attractivité sans atteindre Lyon ou Bordeaux. Ce guide donne les repères concrets pour s'y installer en 2026.",
+    sections: [
+      {
+        heading: "Pourquoi Strasbourg, concrètement",
+        body: "Trois arguments distinguent Strasbourg de toutes les autres métropoles françaises. La dimension européenne d'abord : les institutions emploient directement et irriguent tout un écosystème (traduction, droit, ONG, lobbying, presse) qui n'existe nulle part ailleurs en France. La frontière ensuite : Kehl est à 2 km par le tram D, le marché de l'emploi frontalier allemand (Bade-Wurtemberg, plein emploi chronique) est accessible en TER, et les salaires allemands avec le coût de la vie français sont un arbitrage que des milliers d'Alsaciens pratiquent. Le cadre enfin : la Grande Île et la Petite France en centre-ville, la Neustadt allemande, la Forêt-Noire à 45 min, les Vosges à 1h, et le TGV Paris en 1h48. Strasbourg est une ville complète dans un format moyen.",
+      },
+      {
+        heading: "Les quartiers où chercher (et pourquoi)",
+        body: "La Krutenau est le quartier des jeunes actifs et étudiants : ancien quartier des bateliers, bars, à 10 minutes à pied de tout ; T2 à 780–1 100 €. L'Orangerie et le Conseil des XV portent la prime européenne (10–20 % au-dessus du reste) : résidentiel cossu près des institutions, familles de fonctionnaires européens. La Neustadt est le compromis élégant : immeubles allemands 1900 aux volumes généreux, T2 à 780–1 000 €. Neudorf, au sud, est devenu le choix des familles : tram, marchés, T3 à 850–1 200 €. Pour les budgets plus doux, Schiltigheim et Ostwald offrent des T3 à 800–1 100 € en gardant le tram. Le marché est tendu par la demande institutionnelle et étudiante (55 000 étudiants) : dossier solide exigé, cherchez hors septembre.",
+      },
+      {
+        heading: "Budget réel : ce que coûte un mois strasbourgeois",
+        body: "Célibataire en T2 : loyer 900 €, CTS 68 €, alimentation 280–390 € de courses plus 220 € de winstubs et sorties (le plat complet en winstub à 15–22 €, la pression alsacienne à 3,50 €), divers 150 €. Total : 1 740 à 2 000 €/mois, le niveau de Rennes. Couple en T3 à Neudorf : 2 900–3 400 €/mois. Le bonus frontalier est réel : les courses régulières à Kehl (viande, produits laitiers, alcools 10–20 % moins chers) économisent 30–60 €/mois. À l'achat, comptez environ 3 800 €/m² en moyenne, l'Orangerie au-dessus, Schiltigheim en dessous. Attention au chauffage : les hivers sont continentaux et les beaux volumes Neustadt mal isolés se paient de novembre à mars.",
+      },
+      {
+        heading: "Se déplacer : la capitale française du vélo",
+        body: "Strasbourg est la ville française où le vélo est le plus culturellement installé : plus de 600 km d'aménagements cyclables, un relief nul, le Vélhop en location longue durée, et une part modale que seules les villes allemandes et néerlandaises dépassent. Le tram CTS (6 lignes, 68 €/mois) est l'un des réseaux les plus denses de France et franchit le Rhin jusqu'à Kehl. La voiture est superflue en ville et pénalisée (ZFE, stationnement) ; elle sert pour les Vosges et la route des vins. Le TGV met Paris à 1h48, et l'aéroport d'Entzheim plus Bâle-Mulhouse à 1h20 couvrent l'Europe. Le point faible : les liaisons vers le reste de la France hors axe Paris (Lyon en 3h40) font de Strasbourg un coin plutôt qu'un carrefour.",
+      },
+      {
+        heading: "Ce qu'on ne vous dit pas dans les brochures",
+        body: "Le climat d'abord : Strasbourg est continentale, avec de vrais hivers gris et froids (les inversions de la plaine du Rhin piègent brouillard et particules plusieurs semaines) et des étés de plus en plus chauds (35 °C n'est plus rare) dans une ville peu ventilée. Deuxième point : décembre. Le marché de Noël, le plus grand de France, transforme le centre en site touristique sous sécurité renforcée pendant cinq semaines ; les habitants du centre l'aiment ou le fuient. Troisième point : le marché de l'emploi local hors institutions, santé (CHU majeur) et frontière est moins profond que la réputation de la ville le suggère ; les salaires alsaciens sont corrects sans être lyonnais. Enfin, l'alsacien n'est plus une barrière mais l'identité régionale reste forte : c'est un atout d'intégration si vous jouez le jeu local (marchés, associations, clubs).",
+      },
+      {
+        heading: "Le verdict : pour qui Strasbourg fonctionne",
+        body: "Strasbourg est le choix évident pour trois profils : ceux qui travaillent dans ou autour des institutions européennes, les frontaliers réels ou potentiels (salaire allemand, vie française), et les cyclistes du quotidien qui veulent la seule ville française pensée pour eux. Elle fonctionne très bien pour les familles (Neudorf, Robertsau) et les étudiants. Elle convient moins aux profils qui ont besoin d'un très grand bassin d'emploi privé généraliste, à ceux qui fuient les hivers gris, et à ceux pour qui la centralité géographique compte (tout le reste de la France est loin). L'arbitrage régional honnête : Strasbourg écrase Mulhouse et Metz en attractivité, mais Nancy offre 80 % de la vie urbaine pour 70 % du prix, sans l'Europe ni le Rhin.",
+      },
+    ],
+    relatedCities: ["strasbourg", "colmar", "mulhouse", "nancy", "metz"],
+    relatedGuides: [
+      "budget-mensuel-realiste-strasbourg-2026",
+      "acheter-a-strasbourg-quel-quartier-budget-2026",
+      "vivre-sans-voiture-strasbourg-guide-2026",
+      "10-choses-a-faire-a-strasbourg-2026",
+    ],
+    tags: ["vivre à Strasbourg 2026", "s'installer à Strasbourg", "quartiers Strasbourg où habiter", "déménager à Strasbourg guide", "Strasbourg Europe frontière budget 2026"],
+  },
+  {
+    slug: "vivre-a-lille-2026",
+    title: "Vivre à Lille en 2026 : le guide complet pour s'installer",
+    metaTitle: "Vivre à Lille 2026 — Quartiers, budget, emploi : le guide complet",
+    metaDesc: "S'installer à Lille en 2026 : quartiers, budget réel (-40 % sur Paris), hub Eurostar Londres-Bruxelles-Paris. Le guide honnête de la capitale des Flandres.",
+    category: "lifestyle",
+    emoji: "🍺",
+    readMinutes: 10,
+    publishedAt: "2026-07-02",
+    updatedAt: "2026-07-02",
+    intro: "Lille est la grande métropole française la plus sous-cotée : une vraie conurbation européenne (1,2 million d'habitants avec Roubaix-Tourcoing) à 40 % sous les prix parisiens, Paris en 1h, Bruxelles en 35 minutes, Londres en 1h20. Ceux qui n'y ont jamais vécu parlent du climat ; ceux qui y vivent parlent de l'énergie sociale, la plus chaleureuse des grandes villes françaises. Ce guide donne les clés d'une installation lilloise en 2026.",
+    sections: [
+      {
+        heading: "Pourquoi Lille, concrètement",
+        body: "Le rapport qualité-prix d'abord : Lille offre les attributs d'une grande métropole (métro automatique, scène culturelle et musicale parmi les plus actives de province, universités massives, Palais des Beaux-Arts de premier rang) pour un coût de vie de ville moyenne ; le budget célibataire confortable tient sous 1 800 €/mois. La position ensuite : Lille est le seul hub ferroviaire européen de France hors Paris — Paris-Nord en 1h00, Bruxelles en 35 min, Londres en 1h20 ; pour un profil qui travaille entre ces trois capitales, aucune autre base n'est comparable. L'économie enfin : la grande distribution (Auchan, Decathlon, Leroy Merlin ont leurs sièges dans la métropole), la logistique, la santé (CHU parmi les plus grands d'Europe) et un pôle numérique en croissance (EuraTechnologies).",
+      },
+      {
+        heading: "Les quartiers où chercher (et pourquoi)",
+        body: "Le Vieux-Lille est la carte postale flamande : façades XVIIe, boutiques, studio à 550–800 €, les prix les plus hauts de la ville. Wazemmes est le quartier vivant par excellence : son marché du dimanche est un des plus grands de France, population mélangée, T2 à 620–900 € ; bruyant mais irremplaçable pour qui aime la vie de quartier. La République et Saint-Michel conviennent aux étudiants et jeunes actifs (universités à pied). Fives et Hellemmes, à l'est, sont les valeurs montantes familiales : T3 à 700–1 000 €, métro ligne 1. Villeneuve-d'Ascq est le choix rationnel des familles et universitaires : campus, verdure, T3 à 720–1 000 €. Le grand écart lillois : Roubaix et Tourcoing offrent des T2 à 400–600 € et des maisons 1930 à prix imbattables, mais quartier par quartier, la situation sociale y est réellement contrastée ; visitez avant.",
+      },
+      {
+        heading: "Budget réel : ce que coûte un mois lillois",
+        body: "Célibataire en T2 : loyer 750 €, Transpole 67 €, alimentation 270–380 € (marché de Wazemmes en base, friteries à 3–5 €, estaminets à prix doux pour la carbonade et le welsh), sorties 200 €, divers 150 €. Total : 1 550 à 1 800 €/mois — le meilleur ratio des grandes métropoles françaises avec Toulouse. Couple en T3 à Wazemmes ou Fives : 2 600–3 100 €/mois. À l'achat, la moyenne lilloise tourne autour de 3 500 €/m², le Vieux-Lille bien au-dessus, Fives en dessous, et les maisons de ville 1930 restent une spécificité accessible que les métropoles du Sud ne proposent plus. Le poste chauffage est à budgéter sérieusement : les hivers sont longs et les maisons anciennes énergivores.",
+      },
+      {
+        heading: "Se déplacer : métro automatique et trois capitales",
+        body: "Le métro VAL (2 lignes automatiques, fréquence excellente) plus tram et bus couvrent la conurbation pour 67 €/mois ; c'est un des meilleurs réseaux d'Europe pour une ville de cette taille. Le vélo progresse (V'Lille, terrain plat) sans atteindre Strasbourg. La voiture est inutile dans Lille intra-muros et utile pour la côte d'Opale (Le Touquet, Wissant à 1h15) et la Belgique profonde. Le vrai luxe lillois est ferroviaire : l'aller-retour dans la journée à Paris, Bruxelles ou Londres est banal, ce qui ouvre un marché de l'emploi à trois capitales depuis un loyer à -40 %. Attention au piège Eurostar : les tarifs Londres varient de 80 à 200 € l'aller, ce n'est pas un RER.",
+      },
+      {
+        heading: "Ce qu'on ne vous dit pas dans les brochures",
+        body: "Le climat, honnêtement : gris et humide d'octobre à mars, avec une lumière d'hiver basse qui pèse sur certains ; les Lillois compensent par la vie intérieure (estaminets, culture, braderie) mais si le soleil est votre carburant, réfléchissez. Deuxième point : les écarts sociaux de la métropole sont parmi les plus forts de France ; Roubaix est la ville la plus pauvre du pays, et la géographie sociale se lit rue par rue — le prix bas a toujours une raison, renseignez-vous finement. Troisième point : le marché de l'emploi cadre hors distribution-logistique-santé reste moins profond que Lyon ; beaucoup de cadres lillois font l'aller-retour parisien. Dernier point, positif : l'accueil nordiste n'est pas un mythe, c'est la grande ville française où l'on se fait des amis le plus vite.",
+      },
+      {
+        heading: "Le verdict : pour qui Lille fonctionne",
+        body: "Lille est le meilleur choix pour les jeunes actifs qui veulent une vraie vie métropolitaine à budget contenu, pour les profils euro-mobiles (Paris-Bruxelles-Londres), et pour ceux qui valorisent la densité sociale et culturelle plus que le soleil. Les familles y trouvent des maisons abordables (Fives, Hellemmes, Lambersart) à des prix disparus ailleurs. Elle convient mal aux chasseurs de lumière et de mer chaude, et aux profils dont le secteur n'a pas d'ancrage nordiste. L'arbitrage honnête avec sa rivale de ratio, Toulouse : Lille gagne sur la connexion européenne et la vie sociale, Toulouse sur le soleil et l'aéro. Entre les deux, c'est littéralement une question de tempérament.",
+      },
+    ],
+    relatedCities: ["lille", "roubaix", "tourcoing", "valenciennes", "amiens"],
+    relatedGuides: [
+      "budget-mensuel-realiste-lille-2026",
+      "acheter-a-lille-quel-quartier-budget-2026",
+      "vivre-sans-voiture-lille-guide-2026",
+      "10-choses-a-faire-a-lille-2026",
+    ],
+    tags: ["vivre à Lille 2026", "s'installer à Lille", "quartiers Lille où habiter", "déménager à Lille guide", "Lille Eurostar budget emploi 2026"],
+  },
+  {
+    slug: "vivre-a-marseille-2026",
+    title: "Vivre à Marseille en 2026 : le guide complet pour s'installer",
+    metaTitle: "Vivre à Marseille 2026 — Quartiers, budget, emploi : le guide complet",
+    metaDesc: "S'installer à Marseille en 2026 : quartiers qui fonctionnent, budget réel, mer et calanques au quotidien, et les sujets que la ville ne cache même pas. Guide honnête.",
+    category: "lifestyle",
+    emoji: "⛵",
+    readMinutes: 11,
+    publishedAt: "2026-07-02",
+    updatedAt: "2026-07-02",
+    intro: "Marseille est la ville française qui divise le plus, et c'est précisément pour ça qu'il faut un guide honnête. D'un côté : la deuxième ville de France, la mer dans la ville, les calanques en bus, 300 jours de soleil, et des prix qui permettent encore d'acheter un T3 familial sous 350 000 € dans un bon quartier. De l'autre : une géographie sociale à connaître micro-quartier par micro-quartier, des transports en retard d'une génération, et les problèmes de sécurité documentés que personne ne nie. Les deux Marseille sont vraies. Ce guide explique comment on choisit la sienne.",
+    sections: [
+      {
+        heading: "Pourquoi Marseille, concrètement",
+        body: "La mer d'abord, et pas comme argument marketing : Marseille est la seule grande ville française où la plage (Prado, Catalans), les calanques (Sormiou, Morgiou, en bus plus marche) et le Vieux-Port font partie du quotidien réel, pas du week-end. Les prix ensuite : à 3 500 €/m² en moyenne, Marseille coûte 30 % de moins que Lyon et 45 % de moins que Nice pour un ensoleillement supérieur ; c'est la dernière grande ville du littoral méditerranéen accessible aux budgets normaux. L'énergie enfin : le renouveau marseillais (Euroméditerranée, la scène culinaire et artistique, l'attractivité post-2020 auprès des Parisiens créatifs) est réel, quartier par quartier. Ajoutez le TGV Paris en 3h05 et l'aéroport de Marignane, et la géographie joue pour elle.",
+      },
+      {
+        heading: "Les quartiers où chercher (et pourquoi)",
+        body: "La règle marseillaise avant tout : la ville se choisit au micro-quartier, pas à l'arrondissement. Pour les jeunes actifs : le Camas et la Plaine (4e-5e, charme ancien, vie de quartier, T2 abordables) et le 6e Castellane-Lodi (animé, métro M2). Pour la mer au quotidien : le 7e Endoume-Vauban (village dans la ville, mer en bas, en gentrification) et le 8e Périer-Prado pour les budgets plus hauts. Pour les familles : le 8e (écoles), le 12e Saint-Barnabé-Saint-Julien (résidentiel calme, maisons avec jardin) et le 9e Mazargues. Euroméditerranée (2e, Joliette) est le pari du neuf : programmes récents, métro, prix moyens (3 500–4 500 €/m²), en hausse depuis 2024. À éviter pour un nouvel arrivant sans connaissance du terrain : Belle-de-Mai et Saint-Mauront (3e), et des secteurs des 13e-15e — non par principe, mais parce que la valeur d'usage et de revente y varie d'une rue à l'autre. Le test local qui vaut tous les guides : visiter le quartier à 22h un soir d'hiver.",
+      },
+      {
+        heading: "Budget réel : ce que coûte un mois marseillais",
+        body: "Célibataire en T2 : loyer 820 € en moyenne (nettement moins au Camas, plus à Endoume), RTM 50 €, alimentation 280–400 € (marché de Noailles pour les produits méditerranéens aux meilleurs prix de France, poissonniers du Vieux-Port), sorties 200 €, divers 150 €. Total : 1 550 à 1 900 €/mois, le niveau de Lille avec le soleil en plus. Couple en T3 : 2 700–3 200 €/mois. À l'achat, la moyenne est à 3 500 €/m² avec un grand écart : 6 500 € sur le bord de mer du 8e, moins de 2 500 € dans les arrondissements nord. Un T3 familial à moins de 350 000 € dans un bon quartier (Camas, Saint-Barnabé, Baille) reste possible, ce qu'aucune autre métropole littorale ne propose. La contrepartie : les charges de copropriété et l'état des immeubles anciens demandent une vigilance particulière ici.",
+      },
+      {
+        heading: "Se déplacer : le point faible assumé",
+        body: "Disons-le clairement : les transports sont le retard marseillais. Deux lignes de métro qui ferment tôt, deux trams, des bus pris dans la circulation, pour une ville de 240 km² (deux fois Paris) ; l'abonnement RTM à ~50 €/mois est bon marché mais le réseau ne couvre pas la géographie. Résultat : Marseille reste une ville où la voiture ou le deux-roues est souvent nécessaire, avec une circulation dense et un stationnement sportif. Les extensions en cours (tram nord, métro automatisé à venir) avancent lentement. Le conseil pratique : choisissez votre logement sur le métro M1/M2 ou à pied de votre travail, et considérez le vélo électrique — le relief et le mistral se dominent, et le bord de mer jusqu'au Prado est un vrai axe. La bonne nouvelle : les calanques, la Côte Bleue (TER) et Cassis sont accessibles sans voiture.",
+      },
+      {
+        heading: "Ce qu'on ne vous dit pas (ou plutôt : ce que tout le monde vous dit, remis à sa place)",
+        body: "La sécurité est LE sujet marseillais, alors soyons précis. Les statistiques de criminalité sont réellement supérieures aux autres métropoles, et le narcotrafic des quartiers nord est un drame documenté. Mais la géographie de l'insécurité est concentrée : la vie quotidienne au Camas, à Endoume, à Saint-Barnabé ou au Rouet ressemble à celle de n'importe quelle grande ville du Sud, avec les précautions urbaines standard. Ce qui pèse davantage au quotidien, et dont on parle moins : la propreté inégale, une administration municipale historiquement défaillante (écoles dégradées, services lents), et le sentiment d'une ville qui fonctionne malgré ses institutions. Deuxième point : l'emploi. Le bassin est réel (port, santé, Euroméditerranée tertiaire, la tech qui grandit) mais moins profond que la taille de la ville le suggère, et le chômage reste au-dessus de la moyenne. Arriver avec l'emploi ou un revenu distant reste le scénario robuste. Troisième point : l'eau et la chaleur — les étés dépassent désormais régulièrement 35 °C.",
+      },
+      {
+        heading: "Le verdict : pour qui Marseille fonctionne",
+        body: "Marseille fonctionne pour ceux qui veulent la mer au quotidien à prix accessible et qui acceptent de choisir leur micro-quartier avec soin : télétravailleurs et indépendants, couples qui achètent leur premier T3 au soleil, profils créatifs, et amoureux d'une ville à forte personnalité. Elle fonctionne aussi, pragmatiquement, pour les professions de santé (AP-HM immense) et les métiers du port et de la logistique. Elle convient mal à ceux qui veulent des services publics impeccables, des transports de niveau lyonnais, ou une ville lisse : Marseille demande une adhésion, pas une simple installation. L'arbitrage régional : Aix-en-Provence offre l'ordre bourgeois à +40 % de prix, Toulon le compromis à mi-chemin, Montpellier la méditerranée étudiante. Marseille, elle, est la seule qui soit une capitale.",
+      },
+    ],
+    relatedCities: ["marseille", "aix-en-provence", "cassis", "toulon", "martigues"],
+    relatedGuides: [
+      "acheter-a-marseille-quel-quartier-budget-2026",
+      "vivre-sans-voiture-marseille-guide-2026",
+      "10-choses-a-faire-a-marseille-2026",
+      "budget-mensuel-realiste-montpellier-2026",
+    ],
+    tags: ["vivre à Marseille 2026", "s'installer à Marseille", "quartiers Marseille où habiter", "déménager à Marseille guide", "Marseille mer budget sécurité 2026"],
+  },
+  {
+    slug: "vivre-a-nice-2026",
+    title: "Vivre à Nice en 2026 : le guide complet pour s'installer",
+    metaTitle: "Vivre à Nice 2026 — Quartiers, budget, emploi : le guide complet",
+    metaDesc: "S'installer à Nice en 2026 : quartiers, budget Côte d'Azur réel, hiver le plus doux de France, Monaco à 22 min. Le guide honnête de la capitale azuréenne.",
+    category: "lifestyle",
+    emoji: "🌴",
+    readMinutes: 10,
+    publishedAt: "2026-07-02",
+    updatedAt: "2026-07-02",
+    intro: "Nice est un choix de cadre de vie assumé : la Promenade des Anglais, 2 800 heures de soleil par an, l'hiver le plus doux de France métropolitaine, l'Italie à 30 minutes. Ce cadre se paie — Nice est la troisième ville la plus chère du pays — et s'accompagne d'un marché de l'emploi étroit qui impose d'arriver avec son revenu. Ce guide détaille qui gagne vraiment au change niçois en 2026, et comment ne pas se tromper de quartier.",
+    sections: [
+      {
+        heading: "Pourquoi Nice, concrètement",
+        body: "Le climat d'abord, et c'est un argument rationnel : l'hiver niçois (10–15 °C, lumière méditerranéenne permanente) est unique en France métropolitaine, et pour les profils sensibles à la lumière ou aux hivers gris, il change littéralement la qualité de vie. La géographie ensuite : la mer dans la ville, le Mercantour à 1h30 (ski à Auron et Isola 2000), l'Italie à 30 min de train, Monaco à 22 min — un terrain de vie que seule la Côte d'Azur offre. La connexion enfin : l'aéroport de Nice est le premier de France hors Paris, avec des directs européens qui font de la ville une base crédible pour les indépendants et retraités internationaux. Ajoutez un réseau de tram moderne et l'abonnement transport le moins cher des grandes villes (17 €/mois), et le quotidien est plus simple que la réputation de la Côte ne le suggère.",
+      },
+      {
+        heading: "Les quartiers où chercher (et pourquoi)",
+        body: "Le Vieux-Nice est la carte postale : ruelles, marché du Cours Saleya, mais bruyant le soir et touristique l'été ; studios à 700–1 100 €. Le Port (Garibaldi) est devenu le quartier des jeunes actifs et créatifs : bars de quartier, ambiance village, prix en hausse. Les Musiciens et Gambetta sont le cœur pratique : immeubles belle époque, T2 à 850–1 150 €, tout à pied. Cimiez et Libération au nord : Cimiez pour le résidentiel bourgeois calme (familles, retraités), Libération pour la vie de quartier autour de son marché, T2 à 900–1 300 €. Nice Nord et l'Ariane affichent les prix les plus bas mais des situations sociales contrastées. La règle niçoise : l'exposition fait tout — un appartement sans lumière n'a aucun sens dans cette ville, et la climatisation (ou une vraie ventilation traversante) est devenue indispensable en été.",
+      },
+      {
+        heading: "Budget réel : ce que coûte un mois niçois",
+        body: "Célibataire en T2 : loyer 1 000–1 100 €, Lignes d'Azur 17 € (l'abonnement le moins cher de France, vraie anomalie positive), alimentation 320–450 € (Cours Saleya et Libération pour les marchés, socca à 3 € en street food), sorties 350 € (le poste qui gonfle : les bars et restaurants niçois sont 20–30 % au-dessus de Toulouse), divers 200 €. Total : 2 050 à 2 400 €/mois, soit 10–15 % au-dessus de Lyon. Couple en T3 : 3 500–4 200 €/mois. À l'achat, la moyenne est à 5 200 €/m², les beaux quartiers au-dessus de 6 000 €. Le calcul honnête : Nice coûte cher en absolu mais reste 20–30 % sous Paris pour un cadre incomparable ; c'est face à Marseille (-40 %) ou Montpellier que la prime azuréenne se discute.",
+      },
+      {
+        heading: "Se déplacer : tram moderne, région en train",
+        body: "Le tram niçois (2 lignes, dont la ligne 2 est-ouest qui dessert l'aéroport) plus le réseau bus couvrent bien la ville pour 17 €/mois. Le TER de la côte est le vrai réseau régional : Monaco en 22 min (~4 €), Cannes en 40 min, Vintimille en 40 min — beaucoup de Niçois travaillent à Monaco précisément grâce à cette ligne, malgré sa saturation aux heures de pointe. La voiture est pénalisante en ville (stationnement 1,50–3 €/h, axes côtiers saturés) et utile pour l'arrière-pays (Vence, gorges du Loup, Mercantour). Le vélo progresse sur la Prom et le littoral mais le relief des collines limite l'usage général. Pour l'Europe, l'aéroport à 20 minutes de tram est le luxe logistique niçois.",
+      },
+      {
+        heading: "Ce qu'on ne vous dit pas dans les brochures",
+        body: "L'emploi est le premier point dur : hors tourisme-hôtellerie, santé, Sophia Antipolis (la technopole, à 25 km, avec ses propres embouteillages) et Monaco, le marché salarié niçois est étroit et les salaires locaux ne suivent pas les loyers. Le scénario robuste est d'arriver avec son revenu : télétravail, indépendance, retraite, ou contrat monégasque. Deuxième point : la saisonnalité. L'été, la ville se remplit, les prix montent, les plages débordent ; une partie des Niçois fuit en août. Troisième point : le logement vieillit — beaucoup d'immeubles belle époque mal isolés, chauffage électrique coûteux l'hiver, clim indispensable l'été (40–80 € de facture EDF estivale en plus), et un parc locatif rogné par les meublés touristiques, ce qui tend le marché à l'année. Dernier point : la vie nocturne et culturelle est plus mince que la taille de la ville ne le laisse croire ; Nice se vit dehors le jour, pas dedans le soir.",
+      },
+      {
+        heading: "Le verdict : pour qui Nice fonctionne",
+        body: "Nice est le meilleur choix français pour les profils à revenu indépendant du marché local : télétravailleurs, indépendants, frontaliers de Monaco, retraités — pour eux, le ratio climat-connexion-cadre est simplement le meilleur du pays. Elle fonctionne aussi pour les métiers du tourisme haut de gamme et de la santé. Elle convient mal aux salariés qui doivent trouver un emploi local généraliste, aux budgets serrés (le moindre m² se paie), et à ceux qui veulent une grande scène culturelle urbaine. L'arbitrage azuréen : Antibes et Cagnes offrent le même climat en format ville moyenne, Cannes le glamour concentré, Menton la douceur italienne. Nice reste la seule qui soit une vraie ville à l'année — c'est son argument décisif face au reste de la Côte.",
+      },
+    ],
+    relatedCities: ["nice", "antibes", "cagnes-sur-mer", "menton", "cannes"],
+    relatedGuides: [
+      "budget-mensuel-realiste-nice-2026",
+      "10-choses-a-faire-a-nice-2026",
+      "10-choses-a-faire-a-antibes-2026",
+      "10-choses-a-faire-a-cannes-2026",
+    ],
+    tags: ["vivre à Nice 2026", "s'installer à Nice", "quartiers Nice où habiter", "déménager à Nice guide", "Nice Côte d'Azur budget climat 2026"],
+  },
+  {
+    slug: "vivre-a-grenoble-2026",
+    title: "Vivre à Grenoble en 2026 : le guide complet pour s'installer",
+    metaTitle: "Vivre à Grenoble 2026 — Quartiers, budget, emploi : le guide complet",
+    metaDesc: "S'installer à Grenoble en 2026 : quartiers, budget réel, pôle tech mondial, trois massifs à 45 min. Le guide honnête de la capitale des Alpes.",
+    category: "lifestyle",
+    emoji: "🏔️",
+    readMinutes: 10,
+    publishedAt: "2026-07-02",
+    updatedAt: "2026-07-02",
+    intro: "Grenoble propose un contrat unique en France : un pôle scientifique et technologique de niveau mondial (CEA, CNRS, MINATEC, STMicroelectronics) et trois massifs alpins à moins de 45 minutes, pour des prix immobiliers de ville moyenne (3 200 €/m²). Pour un ingénieur ou un chercheur qui vit pour la montagne, aucune autre ville ne s'en approche. Le revers s'appelle inversion thermique : l'air d'hiver de la cuvette est parmi les pires de France. Ce guide pèse le tout honnêtement.",
+    sections: [
+      {
+        heading: "Pourquoi Grenoble, concrètement",
+        body: "L'équation emploi-montagne d'abord : le triangle CEA-CNRS-universités plus STMicroelectronics, Soitec, Schneider Electric et l'écosystème deep tech de la Presqu'île font de Grenoble le premier pôle de recherche français hors Paris, avec des carrières scientifiques réelles ; et Chartreuse, Vercors, Belledonne encadrent la ville — ski le mercredi soir en hiver, grimpe et randonnée à la sortie du bureau l'été. Les prix ensuite : à 3 200 €/m² en moyenne et un T2 locatif à 750 €, Grenoble coûte 35 % de moins que Lyon et moins de la moitié d'Annecy, sa rivale alpine fantasmée. Le format enfin : ville plate (paradoxe alpin), compacte, la plus cyclable de France après Strasbourg, avec un réseau de tram dense. Le TGV met Paris à 3h, Lyon est à 1h15.",
+      },
+      {
+        heading: "Les quartiers où chercher (et pourquoi)",
+        body: "L'Île Verte est le résidentiel prisé : verdure, calme, proche du centre et de la Presqu'île, 2 800–3 800 €/m² à l'achat. Le centre Victor Hugo-Championnet offre la vie urbaine commerçante classique (2 500–3 400 €/m²). Berriat-Europole est le quartier qui a basculé : ancien populaire devenu jeune et animé, cafés, marché Saint-Bruno, le choix naturel des jeunes actifs. La Presqu'île scientifique aligne du neuf pour les salariés du pôle (3 000–4 200 €/m²), pratique mais encore peu vivant le soir. Pour les familles, Corenc, Meylan et La Tronche sur les premières pentes combinent écoles réputées, air meilleur (au-dessus des inversions) et prix supérieurs ; Eybens et Échirolles-Est restent accessibles. Le critère spécifiquement grenoblois : l'étage et l'altitude — en hauteur ou sur les pentes, on respire mieux en janvier, littéralement.",
+      },
+      {
+        heading: "Budget réel : ce que coûte un mois grenoblois",
+        body: "Célibataire en T2 : loyer 750 €, TAG 60 €, alimentation 280–390 € (marché de l'Estacade et halles Sainte-Claire), sorties 180 €, divers 150 €. Total : 1 550 à 1 850 €/mois, un des meilleurs ratios des villes à emploi qualifié. Couple en T3 : 2 600–3 100 €/mois. Le poste spécifique : la montagne. Forfait saison (Chamrousse ~500 €, les 7 Laux un peu plus), matériel, essence des week-ends — comptez 100–200 €/mois lissés si vous skiez sérieusement, mais c'est précisément pour ça qu'on vient. À l'achat, un T2 correct se trouve entre 100 000 et 135 000 €, un scénario primo-accédant devenu impossible dans les autres villes à bassin d'emploi comparable ; l'Île Verte et les communes de pente coûtent davantage.",
+      },
+      {
+        heading: "Se déplacer : la ville plate la plus cyclable des Alpes",
+        body: "Grenoble est plate comme une table (c'est la cuvette), et le vélo y est un mode de transport de masse : réseau Chronovélo, Métrovélo en location longue durée, et une part modale dans le top 3 français. Le tram TAG (5 lignes, 60 €/mois) complète pour les jours de pluie et la desserte du campus et de la Presqu'île. La voiture est inutile en ville (ZFE en vigueur, comme à Lyon : vérifiez votre Crit'Air avant d'emménager) mais quasi indispensable pour la montagne — les bus des neiges vers Chamrousse et le Vercors existent et dépannent, mais la liberté alpine passe par un véhicule. Le point faible : les bouchons d'accès à la cuvette (A480, Rocade Sud) aux heures de pointe et les départs du samedi matin d'hiver.",
+      },
+      {
+        heading: "Ce qu'on ne vous dit pas dans les brochures",
+        body: "L'air d'hiver est le sujet numéro un, et il est sérieux : lors des inversions thermiques (plusieurs semaines cumulées entre novembre et février), la cuvette piège les particules fines et Grenoble affiche des pics parmi les pires des grandes villes françaises ; pour les personnes asthmatiques ou les familles avec de jeunes enfants, c'est un vrai critère, qui se gère par le choix du quartier (pentes, étages élevés) mais ne s'annule pas. Deuxième point : l'été. La cuvette garde la chaleur comme elle garde les particules, et les 35–38 °C se multiplient — la montagne à 30 minutes devient alors la climatisation collective. Troisième point : la ville a une réputation sécurité dégradée ces dernières années (trafics dans certains secteurs sud, faits divers médiatisés) ; la réalité quotidienne des quartiers cités plus haut est calme, mais le sujet existe, comme à Marseille la géographie est fine. Dernier point : la vie culturelle est correcte sans être métropolitaine ; Lyon à 1h15 sert de capitale de complément.",
+      },
+      {
+        heading: "Le verdict : pour qui Grenoble fonctionne",
+        body: "Grenoble est le choix optimal pour un profil précis, et pour lui elle est imbattable : scientifiques, ingénieurs et doctorants du pôle tech qui vivent pour la montagne — nulle part ailleurs en France ce niveau d'emploi qualifié ne cohabite avec trois massifs et des prix de ville moyenne. Elle fonctionne très bien pour les étudiants (université majeure, coût de vie bas) et les familles montagnardes qui visent les communes de pente. Elle convient mal aux personnes sensibles à la qualité de l'air, à ceux qui veulent une grande scène urbaine, et aux profils hors tech-recherche-santé pour qui le marché local est plus mince. L'arbitrage alpin honnête : Annecy offre le lac et la carte postale à plus du double du prix au m² et avec moins d'emplois tech ; Chambéry le compromis discret ; Grenoble reste la seule vraie capitale alpine du travail qualifié.",
+      },
+    ],
+    relatedCities: ["grenoble", "echirolles", "chambery", "annecy", "lyon"],
+    relatedGuides: [
+      "acheter-a-grenoble-quel-quartier-budget-2026",
+      "vivre-sans-voiture-grenoble-guide-2026",
+      "10-choses-a-faire-a-grenoble-2026",
+      "budget-mensuel-realiste-lyon-2026",
+    ],
+    tags: ["vivre à Grenoble 2026", "s'installer à Grenoble", "quartiers Grenoble où habiter", "déménager à Grenoble guide", "Grenoble montagne tech budget 2026"],
+  },
+  {
+    slug: "vivre-a-angers-2026",
+    title: "Vivre à Angers en 2026 : le guide complet pour s'installer",
+    metaTitle: "Vivre à Angers 2026 — Quartiers, budget, emploi : le guide complet",
+    metaDesc: "S'installer à Angers en 2026 : quartiers, budget réel, la douceur angevine chiffrée, Nantes à 50 min et Paris à 1h30. Le guide honnête.",
+    category: "lifestyle",
+    emoji: "🌿",
+    readMinutes: 10,
+    publishedAt: "2026-07-02",
+    updatedAt: "2026-07-02",
+    intro: "Angers gagne régulièrement les classements de qualité de vie, et pour une fois le palmarès dit vrai : une ville verte (première de France au ratio d'espaces verts), calme, étudiante (35 000 étudiants), avec des prix 30 à 40 % sous Nantes pourtant à 50 minutes de TGV. La « douceur angevine » est un cliché qui se vérifie au quotidien. Ce guide chiffre ce que ce compromis coûte et rapporte en 2026, et à qui il ne convient pas.",
+    sections: [
+      {
+        heading: "Pourquoi Angers, concrètement",
+        body: "Le rapport qualité-prix d'abord : Angers offre l'essentiel d'une métropole (TGV Paris en 1h30, universités et grandes écoles, CHU, tramway, scène culturelle correcte avec Le Quai et les musées du château) pour un T2 à 750 € et un achat à 3 000 €/m² — le niveau de villes bien moins équipées. La position ensuite : Nantes à 50 min (l'arbitrage angevin classique : salaire nantais ou parisien, vie angevine), l'Atlantique à 1h30, Paris à 1h30, la Loire et ses vignobles (Savennières, Coteaux du Layon) à la porte. La démographie enfin : la ville croît (+1 % par an), portée par les télétravailleurs de Nantes et Paris et par un tissu d'emploi propre solide — végétal et agroalimentaire (Végépolys, premier pôle végétal d'Europe), électronique (Eolane), assurance et santé.",
+      },
+      {
+        heading: "Les quartiers où chercher (et pourquoi)",
+        body: "Le centre-ville (Saint-Laud, cathédrale) concentre commerces et TGV : appartements anciens à 3 000–3 800 €/m², pratique mais copropriétés parfois fatiguées. La Doutre, rive droite de la Maine, est le quartier de caractère : médiéval, bohème, en gentrification douce, le plus recherché (2 800–3 500 €/m², maisons de ville de 280 000 à 450 000 €). Les quartiers Madeleine et Justices, au sud-est, sont les valeurs familiales sûres : maisons angevines en schiste, écoles, marchés. Belle-Beille, près du lac de Maine et des campus, est le secteur étudiant et le meilleur rendement locatif de la ville (T2 à 6,5–7,5 % brut) — en rénovation urbaine, tram récent. Pour les maisons neuves, Avrillé et Trélazé (ancienne cité ardoisière reconvertie) alignent des T4 à 260 000–370 000 €. Le marché est actif (+22 % en 5 ans malgré la correction 2024-2025) mais moins liquide que Nantes : on achète pour dix ans, pas pour revendre dans trois.",
+      },
+      {
+        heading: "Budget réel : ce que coûte un mois angevin",
+        body: "Célibataire en T2 : loyer 750 €, Irigo (tram + bus) ~45 €, alimentation 260–370 € (marchés Lafayette et Monprofit, produits de Loire et maraîchage local parmi les moins chers des villes de l'Ouest), sorties 150 € (c'est une ville où sortir coûte peu), divers 150 €. Total : 1 450 à 1 750 €/mois — un des budgets les plus doux de France pour une ville de ce niveau d'équipement. Couple en T3 : 2 400–2 900 €/mois. À l'achat, la moyenne à 3 000 €/m² place un T3 familial entre 200 000 et 290 000 € : l'écart avec Nantes représente 80 000 à 150 000 € sur un même bien, l'argument massue de l'arbitrage angevin. Les vins d'Anjou et de Loire au caviste (6–12 €) sont le bonus local.",
+      },
+      {
+        heading: "Se déplacer : ville courte et TGV stratégique",
+        body: "Angers est une ville de distances courtes : le tram Irigo (3 lignes depuis 2023) et le bus couvrent l'essentiel, et le vélo y est agréable (bords de Maine, ville plate, Loire à Vélo qui passe au sud). La voiture reste utile pour la périphérie et les vignobles mais un quotidien intra-muros s'en passe sans effort. L'atout stratégique est ferroviaire : Paris Montparnasse en 1h30, Nantes en 40–50 min — Angers est une des rares villes où « travailler à Nantes ou Paris, vivre ici » est un calcul quotidien réaliste, TER et TGV confondus. L'aéroport le plus utile est Nantes-Atlantique (1h) ; c'est la contrepartie du format : pour l'international, Angers dépend de ses voisines.",
+      },
+      {
+        heading: "Ce qu'on ne vous dit pas dans les brochures",
+        body: "Le premier point est le revers de la douceur : Angers est calme, et pour certains profils ce calme devient de l'ennui — la vie nocturne est étudiante ou inexistante, la scène culturelle correcte mais sans comparaison avec Nantes, et les célibataires de plus de 30 ans trouvent la ville socialement étroite. Venez pour la qualité de vie, pas pour l'effervescence. Deuxième point : le marché de l'emploi cadre est réel mais mince hors végétal-agro, santé et tertiaire local ; le salaire angevin moyen est inférieur aux métropoles, et beaucoup de nouveaux arrivants gardent un employeur nantais ou parisien — testez votre marché avant de couper. Troisième point : le climat est océanique doux mais gris l'hiver, sans la lumière du Sud ; la « douceur » est thermique, pas lumineuse. Dernier point : la liquidité immobilière — en cas de revente rapide, Angers est plus lente que Nantes, comptez-le dans un projet à court horizon.",
+      },
+      {
+        heading: "Le verdict : pour qui Angers fonctionne",
+        body: "Angers est un choix optimal pour trois profils : les familles qui veulent maison, écoles et sécurité du quotidien à budget maîtrisé ; les télétravailleurs nantais ou parisiens qui encaissent l'écart de prix sans sacrifier l'accès (50 min et 1h30) ; et les étudiants, qui y trouvent une des meilleures villes universitaires au coût le plus bas de l'Ouest. Les retraités actifs y gagnent aussi : CHU, calme, Loire. Elle convient mal aux chasseurs d'intensité urbaine, aux profils dont la carrière exige un grand bassin local, et à ceux qui ont besoin de mer ou de montagne à la porte. L'arbitrage de l'Ouest en une phrase : Nantes est la métropole, Rennes la tech, Angers la qualité de vie au meilleur prix — et Tours, sa jumelle ligérienne, le même pari côté Est.",
+      },
+    ],
+    relatedCities: ["angers", "nantes", "tours", "le-mans", "cholet"],
+    relatedGuides: [
+      "acheter-a-angers-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-angers-2026",
+      "budget-mensuel-realiste-nantes-2026",
+      "rennes-vs-nantes-comparatif-2026",
+    ],
+    tags: ["vivre à Angers 2026", "s'installer à Angers", "quartiers Angers où habiter", "déménager à Angers guide", "Angers qualité de vie budget 2026"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
