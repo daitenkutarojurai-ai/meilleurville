@@ -60,8 +60,8 @@ crons = ["0 7 * * SUN", "0 8 * * MON"]
 [observability]
 enabled = true
 
-# Cap CPU time per request (default is 30s). This worker does light JSON/D1 work
-# and awaits external APIs (I/O wait isn't billed as CPU), so 5s is a safe ceiling
-# that bounds any runaway invocation without affecting legitimate requests.
+# Cap CPU time per request. Measured P99 is ~2 ms (light JSON/D1; I/O wait to
+# external APIs isn't billed as CPU), so 1s is 500x headroom while bounding the
+# worst-case CPU overage of a runaway invocation to a few $/mo.
 [limits]
-cpu_ms = 5000
+cpu_ms = 1000

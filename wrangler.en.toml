@@ -44,4 +44,4 @@ database_id = "73295459-dde2-4bbf-9aef-500ddadd581e"
 enabled = true
 
 [limits]
-cpu_ms = 5000
+cpu_ms = 1000
