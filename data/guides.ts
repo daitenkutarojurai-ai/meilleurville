@@ -33450,6 +33450,282 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["vivre à Angers 2026", "s'installer à Angers", "quartiers Angers où habiter", "déménager à Angers guide", "Angers qualité de vie budget 2026"],
   },
+  {
+    slug: "vivre-a-dijon-2026",
+    title: "Vivre à Dijon en 2026 : le guide complet pour s'installer",
+    metaTitle: "Vivre à Dijon 2026 — Quartiers, budget, emploi : le guide complet",
+    metaDesc: "S'installer à Dijon en 2026 : quartiers, budget réel, tram, vignobles de Bourgogne à 20 min et Paris à 1h35. Le guide honnête de la capitale bourguignonne.",
+    category: "lifestyle",
+    emoji: "🍇",
+    readMinutes: 9,
+    publishedAt: "2026-07-03",
+    updatedAt: "2026-07-03",
+    intro: "Dijon est une des villes moyennes françaises les mieux équilibrées : un centre historique remarquable (le palais des ducs, les toits vernissés), un tram moderne, une gastronomie de capitale régionale, la route des grands crus qui commence à 20 minutes, et des prix qui restent ceux d'une ville moyenne (2 600 €/m² en moyenne). Ce guide donne les repères concrets pour s'y installer en 2026, et dit honnêtement à qui ce format convient.",
+    sections: [
+      {
+        heading: "Pourquoi Dijon, concrètement",
+        body: "Le premier argument est l'équilibre : Dijon offre les attributs d'une capitale régionale (CHU, université, opéra, musée des Beaux-Arts rénové parmi les plus beaux de France, Cité de la Gastronomie) dans un format où tout se fait à pied ou en tram. Le deuxième est la stabilité économique : forte proportion de fonctionnaires, d'universitaires et de professions libérales, un tissu agroalimentaire et pharmaceutique solide — le marché local résiste mieux que d'autres aux secousses. Le troisième est la géographie : Paris en 1h35 de TGV, Lyon en 1h35, et la côte viticole (Gevrey-Chambertin, Nuits-Saint-Georges, Beaune) qui commence littéralement à la sortie sud de la ville. Vivre à Dijon, c'est habiter à 20 minutes de vignobles parmi les plus prestigieux du monde en payant un loyer de ville moyenne.",
+      },
+      {
+        heading: "Les quartiers où chercher (et pourquoi)",
+        body: "Le centre historique (Libération, Darcy, quartier de la cathédrale) est le premier choix : ancien à 2 200–3 200 €/m² à l'achat, haussmannien rénové à 3 000–3 500 €, tout à pied. Montchapet, à l'ouest, est le résidentiel bourgeois calme et très prisé (2 400–3 400 €/m²) : familles, maisons, écoles. Maladière, Victor Hugo et les Bourroches forment le centre élargi accessible : un T2 de 45 m² s'y achète entre 95 000 et 130 000 €, un des derniers scénarios primo-accédant réalistes dans une ville de ce niveau d'équipement (zone B2, PTZ dans l'ancien avec travaux). Fontaine d'Ouche, au nord-ouest, est le pari renouvellement urbain : NPNRU depuis 2018, parties réhabilitées à 1 600–2 200 €/m², à regarder secteur par secteur. En location, comptez un T2 autour de 720 € et un T3 autour de 950 €.",
+      },
+      {
+        heading: "Budget réel : ce que coûte un mois dijonnais",
+        body: "Célibataire en T2 : loyer 720 €, tram Divia ~42 €, alimentation 260–370 € (les halles centrales de Dijon, marché trois fois par semaine, sont l'institution locale), sorties 150–200 €, divers 150 €. Total : 1 450 à 1 750 €/mois, nettement sous Lyon pour un cadre de vie urbain comparable à échelle réduite. Couple en T3 : 2 400–2 900 €/mois. Le poste plaisir local est le vin : la Bourgogne est chère en grands crus mais les appellations régionales et les hautes-côtes restent accessibles au caviste, et les caves de Nuits ou Beaune se visitent en voisin. La gastronomie dijonnaise (moutarderie, crémant, époisses, bœuf bourguignon en bouchon local) s'apprécie à prix de province.",
+      },
+      {
+        heading: "Se déplacer : tram, vélo et TGV",
+        body: "Le tram Divia (2 lignes) couvre l'axe gare–centre–campus–CHU et structure la ville ; le réseau bus complète correctement. Dijon est plate et compacte : le vélo y est un vrai mode de déplacement (DiviaVélo en libre-service), et le centre piétonnier se traverse en un quart d'heure. La voiture est superflue au quotidien intra-muros et utile pour la côte viticole, le lac Kir mis à part (accessible à vélo). Côté grandes lignes, Dijon est un vrai nœud : Paris en 1h35, Lyon en 1h35, Besançon en 50 min, Strasbourg en 2h. Pour un télétravailleur hybride parisien ou lyonnais, la ville est exactement à mi-chemin — c'est un argument que peu de villes moyennes peuvent aligner.",
+      },
+      {
+        heading: "Ce qu'on ne vous dit pas dans les brochures",
+        body: "Premier point : le marché de l'emploi privé qualifié est limité hors santé, agroalimentaire, pharma et fonction publique ; les cadres qui arrivent sans poste gardent souvent un employeur parisien ou lyonnais, et les carrières longues sur place demandent de la patience. Deuxième point : le climat est semi-continental — hivers gris et froids, étés désormais chauds (35 °C n'est plus exceptionnel), sans mer ni montagne à moins de 2h pour compenser. Troisième point : la vie nocturne et la scène culturelle alternative sont modestes ; Dijon est une ville qui se vit bien en couple ou en famille, plus difficilement pour un célibataire de 25 ans en quête d'intensité. Dernier point : les DPE — le parc ancien du centre est beau mais énergivore, et les F/G se paient au chauffage chaque hiver.",
+      },
+      {
+        heading: "Le verdict : pour qui Dijon fonctionne",
+        body: "Dijon est un excellent choix pour les familles et les couples qui veulent un centre historique de grande ville à budget de ville moyenne, pour les fonctionnaires et professions de santé (CHU majeur), pour les télétravailleurs hybrides Paris-Lyon, et pour les épicuriens qui feront de la côte viticole leur jardin de week-end. Elle convient moins aux profils qui ont besoin d'un bassin d'emploi privé profond, aux chasseurs de mer ou de montagne, et à ceux qui cherchent l'effervescence. L'arbitrage régional : Besançon offre un cadre naturel supérieur pour moins cher mais moins de TGV ; Lyon la métropole complète à +40 % de budget. Dijon reste le meilleur compromis bourguignon, et un des meilleurs rapports patrimoine-prix de France.",
+      },
+    ],
+    relatedCities: ["dijon", "beaune", "besancon", "chalon-sur-saone", "auxerre"],
+    relatedGuides: [
+      "acheter-a-dijon-quel-quartier-budget-2026",
+      "quitter-dijon-guide-2026",
+      "vivre-sans-voiture-dijon-guide-2026",
+      "10-choses-a-faire-a-dijon-2026",
+    ],
+    tags: ["vivre à Dijon 2026", "s'installer à Dijon", "quartiers Dijon où habiter", "déménager à Dijon guide", "Dijon Bourgogne budget TGV 2026"],
+  },
+  {
+    slug: "vivre-a-tours-2026",
+    title: "Vivre à Tours en 2026 : le guide complet pour s'installer",
+    metaTitle: "Vivre à Tours 2026 — Quartiers, budget, emploi : le guide complet",
+    metaDesc: "S'installer à Tours en 2026 : quartiers, budget réel, Paris en 1h06, la Loire et les châteaux. Le guide honnête de la douceur tourangelle.",
+    category: "lifestyle",
+    emoji: "🏰",
+    readMinutes: 9,
+    publishedAt: "2026-07-03",
+    updatedAt: "2026-07-03",
+    intro: "Tours est devenue une des destinations préférées des Parisiens en partance, et le calcul se comprend : Paris en 1h06 avec trois TGV par heure en pointe, un T3 à 200 000–270 000 € contre 450 000–550 000 € pour l'équivalent parisien, la Loire, les châteaux et les vignobles en toile de fond. La « douceur tourangelle » n'est pas qu'un slogan touristique. Ce guide chiffre l'installation en 2026 et pointe les limites que l'engouement fait oublier.",
+    sections: [
+      {
+        heading: "Pourquoi Tours, concrètement",
+        body: "L'argument massue est le TGV : 1h06 vers Montparnasse, trois départs par heure en pointe — Tours est avec Rennes la seule ville où le navetteur 2 jours/semaine vit normalement. Le deuxième argument est le cadre ligérien : la Loire à Vélo qui traverse la ville, les châteaux (Villandry, Azay, Amboise) en excursion de dimanche, les vignobles de Vouvray et Montlouis à 15 minutes, et un patrimoine urbain (Vieux-Tours à colombages, place Plumereau) de premier ordre. Le troisième est l'équipement : CHU important, université de 30 000 étudiants, Sciences Po antenne, une vie culturelle correcte — Tours est une vraie ville, pas une ville-dortoir de TGV. La correction immobilière de 2024-2025 (-5 à -8 % depuis le pic) a rouvert une fenêtre d'achat.",
+      },
+      {
+        heading: "Les quartiers où chercher (et pourquoi)",
+        body: "Le Vieux-Tours et Plumereau sont la carte postale : colombages, terrasses, ultra-prime à 3 200–4 000 €/m², mais touristique et bruyant les soirs d'été — on y flâne plus qu'on y dort. Les Prébendes, au sud-ouest du centre, sont le choix qualité de vie : quartier bourgeois autour du parc, haussmannien T4 à 280 000–400 000 €, le préféré des familles installées. Velpeau et Sanitas, autour de la gare, offrent les meilleures valeurs (et les meilleures rentabilités locatives, 5,5–7,5 % brut) — Velpeau en version village qui monte, Sanitas en version rénovation urbaine à regarder finement. Saint-Symphorien, rive droite de la Loire, aligne des maisons T4 avec jardin à 300 000–480 000 €. En location : T2 autour de 700 €, T3 autour de 940 €. Le marché médian tourne à 2 300–3 200 €/m², très en dessous de Nantes ou Bordeaux à qualité comparable.",
+      },
+      {
+        heading: "Budget réel : ce que coûte un mois tourangeau",
+        body: "Célibataire en T2 : loyer 700 €, réseau Fil Bleu (tram + bus) ~45 €, alimentation 260–370 € (les halles de Tours, « le ventre de Tours », sont un des meilleurs marchés couverts de province ; les vins de Loire au caviste à 6–12 €), sorties 180 €, divers 150 €. Total : 1 400 à 1 700 €/mois — un des budgets les plus doux pour une ville TGV. Couple en T3 : 2 400–2 900 €/mois. Pour un navetteur parisien, ajoutez l'abonnement TGV Max Actif ou le forfait fréquence (300–400 €/mois selon la formule, souvent négocié avec l'employeur) : même avec ce poste, l'équation reste largement gagnante face à un loyer parisien.",
+      },
+      {
+        heading: "Se déplacer : tram, vélo et la Loire",
+        body: "Le tram (ligne A, bientôt renforcée par la ligne B) relie gare, centre, université et CHU ; le réseau Fil Bleu complète. Tours est plate et la Loire à Vélo traverse la ville : le vélo quotidien y est naturel, prolongé le week-end par les bords de Loire vers Villandry ou Amboise. La voiture sert pour les châteaux non desservis et la campagne tourangelle, mais un quotidien intra-muros s'en passe. Le nœud ferroviaire est le vrai luxe : outre Paris en 1h06, le TER dessert Blois, Orléans, Saumur et Angers — la vallée de la Loire entière fonctionne comme un réseau de villes complémentaires. L'aéroport de Tours est anecdotique ; pour l'international, ce sera Paris.",
+      },
+      {
+        heading: "Ce qu'on ne vous dit pas dans les brochures",
+        body: "Premier point : l'emploi local. Hors CHU, université, administration et le tissu tertiaire standard, le marché cadre tourangeau est étroit ; Tours fonctionne comme une ville de télétravailleurs et de navetteurs, et ceux qui comptent y trouver un poste local équivalent à leur job parisien déchantent souvent. Deuxième point : l'effet parisien lui-même — l'afflux depuis 2020 a tendu le marché des belles surfaces (les T4 Prébendes partent vite) et une partie des habitants historiques vit mal la hausse ; l'accueil reste bon mais le sujet existe. Troisième point : les étés ligériens sont désormais très chauds (la Touraine bat des records à 38–40 °C) et la Loire en étiage sévère l'été change le paysage. Dernier point : la vie nocturne se résume à Plumereau et quelques rues ; après 30 ans, Tours se vit tranquille.",
+      },
+      {
+        heading: "Le verdict : pour qui Tours fonctionne",
+        body: "Tours est le choix optimal du télétravailleur ou navetteur parisien qui veut une vraie ville, pas une lointaine banlieue : le combo 1h06 + patrimoine + budget est unique avec Rennes, et Tours gagne sur le climat et les châteaux. Elle excelle aussi pour les familles (Prébendes, Saint-Symphorien), les professions de santé (CHU), et les étudiants. Elle convient moins à ceux qui doivent trouver un emploi cadre local, aux amateurs d'intensité urbaine, et à ceux qui rêvent de mer ou de montagne. L'arbitrage ligérien avec Orléans (1h de Paris aussi, moins chère, moins charmante) et Angers (le même pari côté Ouest, 1h30) se joue au feeling : Tours reste la plus « ville » des trois, et la plus chère des trois — le charme se paie, modérément.",
+      },
+    ],
+    relatedCities: ["tours", "joue-les-tours", "amboise", "blois", "orleans"],
+    relatedGuides: [
+      "acheter-a-tours-quel-quartier-budget-2026",
+      "quitter-tours-guide-2026",
+      "10-choses-a-faire-a-tours-2026",
+      "10-choses-a-faire-a-amboise-2026",
+    ],
+    tags: ["vivre à Tours 2026", "s'installer à Tours", "quartiers Tours où habiter", "déménager à Tours guide", "Tours TGV Paris Loire budget 2026"],
+  },
+  {
+    slug: "vivre-a-reims-2026",
+    title: "Vivre à Reims en 2026 : le guide complet pour s'installer",
+    metaTitle: "Vivre à Reims 2026 — Quartiers, budget, emploi : le guide complet",
+    metaDesc: "S'installer à Reims en 2026 : quartiers, budget réel, Paris en 45 minutes, le champagne en voisin. Le guide honnête de la cité des sacres.",
+    category: "lifestyle",
+    emoji: "🍾",
+    readMinutes: 9,
+    publishedAt: "2026-07-03",
+    updatedAt: "2026-07-03",
+    intro: "Reims détient un record français méconnu : Paris en 45 minutes de TGV, soit moins que bien des trajets de banlieue francilienne, pour des prix immobiliers de 2 000 à 2 600 €/m². La cité des sacres offre la cathédrale, les grandes maisons de champagne, 30 000 étudiants et un centre-ville Art déco reconstruit après 1918. Le revers : un marché de l'emploi local limité qui fait de Reims d'abord une ville de navetteurs. Ce guide fait le tri en 2026.",
+    sections: [
+      {
+        heading: "Pourquoi Reims, concrètement",
+        body: "L'argument décisif tient en un chiffre : 45 minutes de TGV vers Paris-Est. Aucune autre vraie ville française n'est aussi proche en temps — c'est moins que Melun ou Cergy en RER un mauvais jour, pour un coût de vie sans commune mesure. Le deuxième argument est le patrimoine : la cathédrale des sacres, la basilique Saint-Remi, les caves de champagne classées UNESCO (Pommery, Taittinger, Veuve Clicquot se visitent en voisin), et un centre Art déco cohérent unique en France. Le troisième est l'équipement étudiant : URCA, Sciences Po campus euro-américain, NEOMA — 30 000 étudiants qui font vivre le centre. Ajoutez la Montagne de Reims (vignobles, randonnée) à 15 minutes et Épernay à 25, et le cadre de vie champenois est réel.",
+      },
+      {
+        heading: "Les quartiers où chercher (et pourquoi)",
+        body: "Le centre cathédrale et le secteur Érard sont le premium local : beau bâti bourgeois à 2 400–3 200 €/m², abordable pour un habitué des prix parisiens. Clairmarais, à l'est du centre et près de la gare, est stratégique pour le navetteur : résidentiel verdoyant, maisons familiales, cinq minutes à pied du TGV — c'est le quartier qui a le plus profité de l'effet Paris. Le quartier Jean-Jaurès et Cernay offrent l'accessible correct ; Croix-Rouge et Orgeval sont les secteurs sociaux à connaître avant de signer. Les budgets rémois restent doux : T2 primo-accédant à 90 000–140 000 €, T3 familial à 140 000–200 000 €, maison de première couronne à 250 000–380 000 €. En location, T2 autour de 680 €, T3 autour de 900 € — pour un salaire parisien, c'est un autre monde.",
+      },
+      {
+        heading: "Budget réel : ce que coûte un mois rémois",
+        body: "Célibataire en T2 : loyer 680 €, tram Citura ~42 €, alimentation 260–360 € (halles du Boulingrin, superbe marché couvert Art déco, en institution), sorties 180 €, divers 150 €. Total : 1 400 à 1 650 €/mois. Couple en T3 : 2 300–2 800 €/mois. Le poste champagne est ce qu'on en fait : les marques de vignerons indépendants de la Montagne de Reims se trouvent à 18–25 € la bouteille en direct, moitié du prix des grandes maisons — un des plaisirs locaux les plus démocratiques. Pour le navetteur, l'abonnement TGV Reims-Paris (autour de 350–450 €/mois selon la formule) est le vrai poste à intégrer : même chargé, le total reste très inférieur à un loyer parisien équivalent.",
+      },
+      {
+        heading: "Se déplacer : tram, TGV et la question de la gare",
+        body: "Le tram Citura (2 lignes) relie le centre, la gare centrale et les quartiers sud ; le réseau bus complète une ville de taille très gérable, largement praticable à pied et à vélo (plate, distances courtes). Subtilité ferroviaire à connaître avant de choisir son quartier : les 45 minutes record partent de la gare Champagne-Ardenne TGV, à 10 minutes de tram du centre (Bezannes) ; la gare centrale offre aussi des directs Paris en ~46 min mais moins fréquents. Le navetteur quotidien organise son logement en fonction — Clairmarais pour la gare centre, Bezannes côté TGV. La voiture sert pour la campagne champenoise et les zones commerciales ; l'A4 met Paris à 1h30 hors pointe si le train ne suffit pas.",
+      },
+      {
+        heading: "Ce qu'on ne vous dit pas dans les brochures",
+        body: "Le point central, assumons-le : l'emploi local est limité hors secteur public, santé, agroalimentaire et maisons de champagne. Le TGV est un atout réel pour les navetteurs, mais ceux qui comptent trouver sur place un poste équivalent à leur job parisien se heurtent à un marché étroit — Reims fonctionne comme une excellente base arrière, pas comme un bassin d'emploi cadre. Deuxième point : la ville a longtemps souffert d'un déficit d'image (grise, industrielle) ; c'est daté — le centre est rénové et vivant — mais l'ambiance reste champenoise-bourgeoise, discrète, sans la scène culturelle d'une métropole. Troisième point : le climat est septentrional, gris de novembre à mars, et venteux en plaine. Dernier point : les écarts entre quartiers sont marqués ; les prix bas de certains secteurs ont leurs raisons, visitez à différentes heures.",
+      },
+      {
+        heading: "Le verdict : pour qui Reims fonctionne",
+        body: "Reims est le choix rationnel numéro un du navetteur parisien : personne d'autre n'offre 45 minutes, un T3 à 170 000 € et une vraie ville avec cathédrale et champagne. Elle fonctionne très bien pour les familles qui veulent l'espace sans couper le cordon francilien, pour les étudiants (Sciences Po, NEOMA), et pour les professions de santé. Elle convient moins à ceux qui cherchent un emploi cadre local, une scène culturelle dense ou du soleil. L'arbitrage champenois : Épernay offre le charme viticole en format petite ville, Châlons l'administratif discret ; et face aux autres villes TGV, Reims bat Tours et Rennes sur le temps de trajet mais leur cède sur le cadre de vie global — c'est la ville du calcul assumé, et le calcul est bon.",
+      },
+    ],
+    relatedCities: ["reims", "epernay", "chalons-en-champagne", "troyes", "laon"],
+    relatedGuides: [
+      "acheter-a-reims-quel-quartier-budget-2026",
+      "quitter-reims-paris-lille-epernay-2026",
+      "10-choses-a-faire-a-reims-2026",
+      "10-choses-a-faire-a-epernay-2026",
+    ],
+    tags: ["vivre à Reims 2026", "s'installer à Reims", "quartiers Reims où habiter", "déménager à Reims guide", "Reims TGV Paris champagne budget 2026"],
+  },
+  {
+    slug: "vivre-a-nancy-2026",
+    title: "Vivre à Nancy en 2026 : le guide complet pour s'installer",
+    metaTitle: "Vivre à Nancy 2026 — Quartiers, budget, emploi : le guide complet",
+    metaDesc: "S'installer à Nancy en 2026 : quartiers, budget réel, place Stanislas, grandes écoles et prix lorrains. Le guide honnête de la capitale des ducs.",
+    category: "lifestyle",
+    emoji: "🎨",
+    readMinutes: 9,
+    publishedAt: "2026-07-03",
+    updatedAt: "2026-07-03",
+    intro: "Nancy possède la plus belle place d'Europe (Stanislas, UNESCO), un patrimoine Art nouveau unique (l'École de Nancy), des grandes écoles réputées (Mines, ICN) et des prix parmi les plus bas des vraies villes françaises : 1 900 à 2 300 €/m². Le paradoxe nancéien est là : une qualité urbaine de capitale pour un budget de sous-préfecture, parce que l'emploi lorrain n'a jamais vraiment redécollé. Ce guide explique comment tirer parti du paradoxe en 2026, et qui doit s'abstenir.",
+    sections: [
+      {
+        heading: "Pourquoi Nancy, concrètement",
+        body: "Le rapport patrimoine-prix d'abord : la place Stanislas, la Ville Vieille, les façades École de Nancy et le parc de la Pépinière composent un cadre urbain que des villes deux fois plus chères n'ont pas — un T2 haussmannien à 110–140 000 € près de Stanislas est une anomalie française. L'université ensuite : Nancy est une des grandes villes étudiantes du pays en proportion (Mines Nancy, ICN, droit-médecine, 50 000 étudiants sur la métropole), ce qui garantit vie de centre-ville, cafés et offre culturelle au-dessus de sa taille. La position enfin : Paris en 1h30 de TGV, Metz à 40 min, Strasbourg à 1h30, le Luxembourg (et ses salaires) à 1h30 — Nancy est une base lorraine crédible, y compris pour un frontalier occasionnel.",
+      },
+      {
+        heading: "Les quartiers où chercher (et pourquoi)",
+        body: "L'hypercentre autour de Stanislas est le premium patrimonial : haussmannien et Art déco à 2 400–3 200 €/m², forte demande, peu de rotation — on y achète pour garder. La Pépinière et Anatole France, juste au nord, offrent le même cadre de vie un cran moins cher : le choix naturel des jeunes couples (T2-T3 à 100–160 000 €). La Ville Vieille, médiévale, séduit les amoureux de vieilles pierres qui acceptent les contraintes de l'ancien. Trois-Maisons est le quartier familial accessible (T3-T4 à 180 000 € et moins). Pour les maisons avec jardin, la morphologie dense de Nancy oblige à viser la première couronne : Laxou, Villers-lès-Nancy, Essey, Saint-Max — 3-4 chambres à 220 000–350 000 €. Haussonville et le Plateau de Haye sont les secteurs à petits prix avec les vigilances d'usage. En location : T2 à 710 €, T3 à 950 €.",
+      },
+      {
+        heading: "Budget réel : ce que coûte un mois nancéien",
+        body: "Célibataire en T2 : loyer 710 €, réseau Stan (tram + bus) ~40 €, alimentation 250–350 € (marché central couvert, excellente adresse, et les spécialités locales — mirabelle, bergamote, macarons des Sœurs — à prix doux), sorties 170 €, divers 150 €. Total : 1 350 à 1 650 €/mois, un des coûts de vie les plus bas des villes universitaires françaises. Couple en T3 : 2 300–2 750 €/mois. Le pouvoir d'achat immobilier est le vrai luxe nancéien : le budget d'un studio parisien achète ici un T4 avec vue sur parc. Pour les étudiants et jeunes actifs, la ville est une des dernières où la décohabitation précoce est finançable (T1 à 45–70 000 € à l'achat, loyers étudiants parmi les plus bas).",
+      },
+      {
+        heading: "Se déplacer : ville courte, Lorraine en étoile",
+        body: "Nancy se pratique à pied : l'essentiel de la vie tient dans le triangle Stanislas–gare–Pépinière, et le réseau Stan (dont le tram sur pneus remplacé par le trolleybus nouvelle génération) couvre les campus et la première couronne. Le vélo progresse sur un relief globalement plat côté centre. La voiture reste utile pour la couronne et les Vosges (massif à 1h, ski de fond et lacs à 1h30) — le vrai terrain de week-end nancéien avec la Moselle viticole. Côté rail : Paris-Est en 1h30 (gare centre-ville), Metz en 40 min, Luxembourg en 1h30 — un frontalier à temps partiel peut arbitrer salaire luxembourgeois et coût de vie nancéien, un calcul que font de plus en plus de Lorrains.",
+      },
+      {
+        heading: "Ce qu'on ne vous dit pas dans les brochures",
+        body: "Le point structurel d'abord : l'emploi privé lorrain n'a pas redécollé — le TGV n'a pas suffi, les sièges régionaux du Grand Est se sont concentrés à Strasbourg, et Nancy peine à retenir ses propres diplômés, qui filent vers Paris, Lyon ou le Luxembourg. Les prix bas sont le symptôme de cette stagnation : on achète le patrimoine, pas la dynamique. Arriver avec son revenu (télétravail, fonction publique, santé, frontalier) est le scénario robuste ; chercher un poste cadre local est le scénario fragile. Deuxième point : le climat lorrain est rude en réputation et gris en réalité — hivers longs, brouillards de la vallée de la Meurthe. Troisième point : la démographie stagne et certains linéaires commerciaux du centre le montrent ; la ville se bat bien (rénovations, événements) mais n'est pas en boom. C'est le prix du prix.",
+      },
+      {
+        heading: "Le verdict : pour qui Nancy fonctionne",
+        body: "Nancy est un choix superbe pour quatre profils : les étudiants (grandes écoles, coût imbattable), les télétravailleurs qui veulent un patrimoine urbain exceptionnel à prix cassé, les fonctionnaires et soignants (CHRU), et les frontaliers du Luxembourg qui acceptent 1h30 de trajet contre un pouvoir d'achat doublé. Les familles y trouvent aussi un cadre éducatif et culturel solide en première couronne. Elle convient mal aux carrières privées ambitieuses sur place et aux chasseurs de soleil. L'arbitrage lorrain avec Metz (40 min) : Metz est plus proche du Luxembourg et légèrement plus chère, Nancy plus étudiante et plus belle — beaucoup tranchent sur ce dernier critère. Face à Strasbourg : 70 % du prix pour 80 % de la vie urbaine, sans l'Europe ; le calcul nancéien en une phrase.",
+      },
+    ],
+    relatedCities: ["nancy", "vandoeuvre-les-nancy", "metz", "epinal", "strasbourg"],
+    relatedGuides: [
+      "acheter-a-nancy-quel-quartier-budget-2026",
+      "quitter-nancy-guide-2026",
+      "10-choses-a-faire-a-nancy-2026",
+      "metz-vs-nancy-comparatif-2026",
+    ],
+    tags: ["vivre à Nancy 2026", "s'installer à Nancy", "quartiers Nancy où habiter", "déménager à Nancy guide", "Nancy Stanislas budget étudiant 2026"],
+  },
+  {
+    slug: "vivre-a-clermont-ferrand-2026",
+    title: "Vivre à Clermont-Ferrand en 2026 : le guide complet pour s'installer",
+    metaTitle: "Vivre à Clermont-Ferrand 2026 — Quartiers, budget, emploi : le guide complet",
+    metaDesc: "S'installer à Clermont-Ferrand en 2026 : quartiers, budget réel, Michelin, les volcans à 20 min. Le guide honnête de la capitale auvergnate.",
+    category: "lifestyle",
+    emoji: "🌋",
+    readMinutes: 9,
+    publishedAt: "2026-07-03",
+    updatedAt: "2026-07-03",
+    intro: "Clermont-Ferrand cumule des atouts que peu de villes moyennes alignent : un employeur mondial (Michelin et son écosystème R&D), 36 000 étudiants, la chaîne des Puys classée UNESCO à 20 minutes, et des prix immobiliers parmi les plus bas des villes équipées (2 400 €/m² en moyenne). Son handicap historique est l'enclavement ferroviaire. Ce guide pèse le contrat clermontois en 2026 : pour les amoureux de nature volcanique avec un vrai travail, il est difficile à battre.",
+    sections: [
+      {
+        heading: "Pourquoi Clermont-Ferrand, concrètement",
+        body: "L'équation emploi-nature d'abord : Michelin (siège mondial, R&D, plusieurs milliers d'emplois qualifiés) ancre un bassin d'ingénieurs unique pour une ville de cette taille, complété par l'université Clermont Auvergne, le CHU et un pôle agroalimentaire (Limagrain) ; et le puy de Dôme se voit depuis le centre-ville — randonnée, trail, parapente et ski de fond au Sancy (45 min) font partie du quotidien réel, pas du dépliant. Les prix ensuite : T2 correct à 125 000 € en centre-ville, T3 en couronne résidentielle (Royat, Beaumont) à 180 000 € tout compris — le budget d'un studio lyonnais. Le cadre enfin : contrairement à sa réputation industrielle, Clermont a un centre historique en pierre de Volvic (la cathédrale noire), une scène culturelle réelle (le festival du court métrage, la Coopérative de Mai) et une ambiance étudiante vivante autour de Jaude.",
+      },
+      {
+        heading: "Les quartiers où chercher (et pourquoi)",
+        body: "Le centre historique (Jaude, cathédrale, Saint-Pierre) concentre la vie : ancien à 2 000–3 000 €/m², jusqu'à 3 500 € pour le rénové de qualité — les meilleurs mètres carrés patrimoniaux de la ville. Montferrand, le village médiéval intégré à l'est, est le secteur le plus pittoresque et encore abordable (1 800–2 600 €/m²), en voie de redécouverte. Les quartiers résidentiels de l'ouest montent vers les volcans : Chamalières et Royat (thermale, verdure) sont les adresses bourgeoises, Beaumont et Aubière les valeurs familiales proches des campus. Le nord (Croix-de-Neyrat, La Gauthière) affiche les petits prix avec les vigilances habituelles. En location, le marché étudiant domine : T2 meublé à 500–650 € en quartier universitaire, 650–850 € en centre ou à Royat. La ville est plate — les volcans sont en périphérie, pas sous vos pieds.",
+      },
+      {
+        heading: "Budget réel : ce que coûte un mois clermontois",
+        body: "Célibataire en T2 : loyer 680 €, réseau T2C (tram Translohr + bus) ~44 €, alimentation 250–350 € (marché Saint-Pierre en halle centrale, fromages d'Auvergne — saint-nectaire fermier, cantal, fourme — au prix du producteur), sorties 170 €, divers 150 €. Total : 1 350 à 1 650 €/mois, parmi les plus bas de France pour une ville à employeur mondial. Couple en T3 : 2 300–2 800 €/mois. Le poste spécifique est l'outdoor : forfait Sancy, matériel de trail ou de ski de fond, essence des week-ends volcaniques — 50–150 €/mois lissés pour les pratiquants, largement absorbés par l'écart de loyer. À l'achat, un T2 de 50 m² en centre à 2 500 €/m² revient à 150 000–160 000 € tout compris, travaux inclus.",
+      },
+      {
+        heading: "Se déplacer : tram, vélo et le point noir ferroviaire",
+        body: "En ville, le tram Translohr (ligne A) plus le réseau T2C couvrent l'axe nord-sud et les campus ; la ville plate se prête au vélo (C.Vélo en libre-service) et les distances sont courtes. La voiture devient vite utile : pour les volcans, le Sancy, et tout simplement parce que l'agglomération s'étale vers ses bourgs résidentiels. Le point noir assumé est le rail grande ligne : pas de TGV — Paris est à 3h30 d'Intercités (Bercy), Lyon à 2h20 de TER, et l'électrification/modernisation avance lentement. L'aéroport d'Aulnat dessert Paris-CDG et quelques lignes saisonnières. Clermont est la grande ville française la plus enclavée en train, c'est un critère d'exclusion pour les navetteurs — et une explication de ses prix.",
+      },
+      {
+        heading: "Ce qu'on ne vous dit pas dans les brochures",
+        body: "Premier point : la dépendance à Michelin. L'entreprise irrigue l'emploi qualifié, l'immobilier cadre et même le rugby (l'ASM) ; ses cycles se ressentent dans toute la ville — la diversification (numérique, agro, santé) progresse mais reste partielle. Si votre profil est hors industrie-R&D-santé-université, testez le marché avant de venir. Deuxième point : l'enclavement n'est pas que ferroviaire — culturellement, Clermont vit un peu en autarcie auvergnate ; on aime ou pas, et Lyon à 2h20 ne joue pas le rôle de capitale de secours comme pour Grenoble. Troisième point : le climat surprend — hivers froids avec inversions (la cuvette clermontoise a aussi ses pics de pollution), étés secs et de plus en plus chauds ; la ville est une des moins arrosées de France, réputation contraire. Dernier point : la vie nocturne est étudiante ou rien.",
+      },
+      {
+        heading: "Le verdict : pour qui Clermont fonctionne",
+        body: "Clermont-Ferrand est imbattable pour un profil précis : l'ingénieur ou le scientifique (Michelin, Limagrain, université) qui vit pour la montagne douce — volcans, trail, ski de fond — et veut un pouvoir d'achat immobilier maximal. Elle fonctionne très bien pour les étudiants (coût minimal, vraie vie de campus), les soignants (CHU) et les familles outdoor qui visent Beaumont, Royat ou Chamalières. Elle convient mal aux navetteurs (pas de TGV, critère rédhibitoire), aux profils tertiaires pointus hors industrie, et à ceux qui ont besoin d'une grande scène urbaine. L'arbitrage massif-central : Clermont écrase tout le Massif central en équipement et emploi ; face à Grenoble, sa cousine d'altitude, elle offre moins d'emplois tech mais des prix inférieurs de 25 % et des montagnes sans embouteillages. Le contrat est clair — on signe pour les volcans et Michelin, pas pour le TGV.",
+      },
+    ],
+    relatedCities: ["clermont-ferrand", "riom", "vichy", "issoire", "aurillac"],
+    relatedGuides: [
+      "acheter-a-clermont-ferrand-quel-quartier-budget-2026",
+      "quitter-clermont-ferrand-guide-2026",
+      "vivre-sans-voiture-clermont-ferrand-guide-2026",
+      "10-choses-a-faire-a-clermont-ferrand-2026",
+    ],
+    tags: ["vivre à Clermont-Ferrand 2026", "s'installer à Clermont-Ferrand", "quartiers Clermont-Ferrand où habiter", "déménager à Clermont-Ferrand guide", "Clermont Michelin volcans budget 2026"],
+  },
+  {
+    slug: "vivre-a-la-rochelle-2026",
+    title: "Vivre à La Rochelle en 2026 : le guide complet pour s'installer",
+    metaTitle: "Vivre à La Rochelle 2026 — Quartiers, budget, emploi : le guide complet",
+    metaDesc: "S'installer à La Rochelle en 2026 : quartiers, budget réel après la surchauffe, l'Atlantique au quotidien et les limites d'une ville de 80 000 habitants. Guide honnête.",
+    category: "lifestyle",
+    emoji: "⚓",
+    readMinutes: 9,
+    publishedAt: "2026-07-03",
+    updatedAt: "2026-07-03",
+    intro: "La Rochelle est l'une des villes préférées des Français, et le marché immobilier l'a intégré : 3 200 à 3 800 €/m², le niveau de Rennes pour une ville de 80 000 habitants. Le Vieux-Port, l'île de Ré au bout du pont, le vélo partout, la lumière atlantique — le cadre de vie est objectivement exceptionnel. Les limites le sont aussi : emploi étroit, résidences secondaires qui vident les quartiers l'hiver, et une taille qui n'est pas celle d'une métropole. Ce guide pèse le rêve rochelais en 2026.",
+    sections: [
+      {
+        heading: "Pourquoi La Rochelle, concrètement",
+        body: "Le cadre de vie d'abord, sans équivalent dans sa catégorie : le Vieux-Port et ses tours médiévales, les arcades de la rue du Palais, le plus grand port de plaisance de France aux Minimes, les plages urbaines (Concurrence, Minimes), et l'île de Ré accessible à vélo par le pont. La culture vélo ensuite : La Rochelle fut pionnière (les vélos jaunes, 1974) et reste une des villes françaises où le quotidien à vélo est le plus naturel — plate, compacte, cyclable. La taille humaine enfin : tout se fait à pied ou à vélo, l'océan structure les saisons, et Paris reste accessible (3h de TGV directs réguliers, l'aller-retour dans la journée est faisable). Ajoutez l'université (12 000 étudiants), les Francofolies et un tissu nautique-numérique actif, et la ville vit à l'année — contrairement aux stations pures.",
+      },
+      {
+        heading: "Les quartiers où chercher (et pourquoi)",
+        body: "Le Vieux-Port et le centre historique sont le prestige : pierre blanche sous arcades à 3 500–5 000 €/m², marché tendu par les résidences secondaires — on y achète un art de vivre, pas un rendement. Les Minimes, autour du port de plaisance, offrent le moderne pratique : appartements récents, étudiants et jeunes actifs, T1 investisseur à 90–130 000 €. Saint-Nicolas et le Gabut, entre gare et port, sont les quartiers de caractère qui montent (ambiance bistrots). Pour les familles, La Genette et Fétilly alignent le résidentiel calme proche du parc Charruyer ; Tasdon, près de la gare, reste la bonne valeur accessible. Mireuil et Villeneuve sont les secteurs populaires à petits prix. Budgets réalistes : T2 primo-accédant à 130–180 000 € (avec compromis), T3-T4 familial à 220–350 000 €, maison avec jardin souvent au-delà de 4 000 €/m². En location : T2 à 820 €, T3 à 1 100 € — et le marché longue durée est rogné par les meublés touristiques, cherchez tôt.",
+      },
+      {
+        heading: "Budget réel : ce que coûte un mois rochelais",
+        body: "Célibataire en T2 : loyer 820 €, réseau Yélo ~35 € (ou zéro si vélo intégral, scénario local courant), alimentation 270–380 € (marché central quotidien sous halle XIXe, poissonnerie et huîtres de Marennes-Oléron au prix producteur — le luxe alimentaire rochelais est marin et abordable), sorties 200 €, divers 150 €. Total : 1 600 à 1 900 €/mois — le niveau de Nantes pour une ville huit fois plus petite ; le cadre se paie. Couple en T3 : 2 800–3 300 €/mois. À l'achat, la correction 2023-2024 a calmé la surchauffe sans faire baisser grand-chose : comptez 3 200–3 800 €/m² en courant, davantage en front de port. Le calcul honnête : pour le même budget, Nantes offre la métropole et Rochefort (30 min) la même lumière à -40 % — on choisit La Rochelle pour La Rochelle.",
+      },
+      {
+        heading: "Se déplacer : la capitale française du vélo océanique",
+        body: "Le vélo est le mode rochelais par défaut : ville plate, réseau cyclable dense, Yélo en libre-service, et l'île de Ré au bout du pont (piste dédiée) — beaucoup de ménages vivent avec zéro ou une voiture. Le réseau Yélo (bus + bus de mer électrique, une jolie spécificité) couvre le reste ; la gare, superbe, met Paris à 3h directs, Bordeaux à 2h15 et Nantes à 2h de TER. La voiture sert pour l'arrière-pays charentais et les grandes courses ; l'été, la circulation et le stationnement deviennent sportifs avec l'afflux touristique — les Rochelais roulent à vélo aussi par réalisme. L'aéroport de La Rochelle-Ré assure quelques lignes (dont Londres) mais l'international sérieux passe par Bordeaux ou Nantes.",
+      },
+      {
+        heading: "Ce qu'on ne vous dit pas dans les brochures",
+        body: "Premier point : l'emploi. Hors université, santé, nautisme, tourisme et quelques pépites numériques, le marché cadre rochelais est étroit — la ville fonctionne pour les télétravailleurs, les indépendants, les retraités et les métiers du nautisme ; les autres doivent sécuriser leur poste avant de venir. Deuxième point : la saisonnalité inversée — l'été, la ville triple de population, les terrasses débordent et les habitants fuient le centre ; l'hiver, des rues entières du Vieux-Port s'éteignent (un tiers de résidences secondaires et meublés touristiques dans certains secteurs) ; la vraie vie rochelaise se joue aux intersaisons. Troisième point : la taille — 80 000 habitants, c'est une scène culturelle honnête (La Coursive, les Francofolies) mais pas une métropole ; après quelques années, certains ressentent l'étroitesse sociale. Dernier point : l'exposition climatique — la ville est basse sur l'eau et Xynthia (2010) reste dans les mémoires ; vérifiez le zonage submersion avant d'acheter près des bassins.",
+      },
+      {
+        heading: "Le verdict : pour qui La Rochelle fonctionne",
+        body: "La Rochelle est le choix du cadre de vie assumé : télétravailleurs et indépendants qui veulent l'océan à vélo, familles qui sécurisent emploi ou revenu avant d'arriver, retraités actifs, et professionnels du nautisme pour qui c'est la capitale française. Les étudiants y vivent bien aussi, dans une ville sûre et belle. Elle convient mal aux carrières salariées classiques sans port d'attache local, aux budgets serrés (Rochefort, Niort ou Saintes offrent la région à moitié prix), et à ceux qui ont besoin d'intensité urbaine. L'arbitrage atlantique en une phrase : Nantes est la métropole, Bordeaux la grande ville viticole, La Rochelle le port de caractère — la seule des trois où l'on gare son vélo face aux tours du XIVe siècle, et elle le fait payer.",
+      },
+    ],
+    relatedCities: ["la-rochelle", "rochefort", "niort", "saintes", "nantes"],
+    relatedGuides: [
+      "acheter-a-la-rochelle-quel-quartier-budget-2026",
+      "quitter-la-rochelle-guide-2026",
+      "10-choses-a-faire-a-la-rochelle-2026",
+      "budget-mensuel-realiste-nantes-2026",
+    ],
+    tags: ["vivre à La Rochelle 2026", "s'installer à La Rochelle", "quartiers La Rochelle où habiter", "déménager à La Rochelle guide", "La Rochelle Atlantique vélo budget 2026"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
