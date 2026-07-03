@@ -28,31 +28,31 @@ export const GUIDES: Guide[] = [
     publishedAt: "2025-01-15",
     updatedAt: "2026-02-12",
     intro:
-      "Le télétravail a transformé la géographie des choix de vie. Pourquoi payer 1 800€/mois un studio à Paris quand vous pouvez avoir un T3 avec terrasse à Rennes pour 900€, la fibre 1 Gb/s et un vélo pour aller au coworking ? Ce guide analyse objectivement les meilleures villes françaises pour travailler à distance, au-delà des classements génériques.",
+      "Le télétravail a rebattu les cartes du choix de vie : le loyer n'est plus une conséquence de la géographie du bureau, c'est un arbitrage. Pourquoi payer 1 800€/mois un studio à Paris quand un T3 avec terrasse se loue 900€ à Rennes, fibre 1 Gb/s incluse, avec un vélo suffisant pour rejoindre le coworking ? Ce guide compare froidement les villes françaises qui tiennent vraiment la promesse remote — celles où l'infrastructure suit, pas juste le storytelling.",
     sections: [
       {
         heading: "Les 3 critères que personne ne vous dit",
-        body: "La connexion internet ne suffit pas. Ce qui différencie réellement une ville remote-friendly tient à trois choses. D'abord la densité de coworkings abordables, à moins de 150€/mois pour un poste fixe. Ensuite la communauté tech locale, qui apporte les opportunités, la stimulation intellectuelle et les events. Enfin le fuseau horaire et les connexions TGV vers votre client principal. Une ville parfaite sur le papier devient un piège si vous passez 4h dans les transports chaque fois qu'il faut «passer au bureau».",
+        body: "La fibre ne suffit pas. Ce qui distingue vraiment une ville remote-friendly, c'est un triptyque moins visible : la densité de coworkings abordables — sous les 150€/mois pour un poste fixe —, une communauté tech locale qui alimente opportunités, stimulation intellectuelle et events, et la desserte TGV vers votre client principal. Une ville parfaite sur le papier vire au piège si chaque «passage au bureau» coûte quatre heures de transport.",
       },
       {
         heading: "Rennes : le secret le mieux gardé des remote workers",
-        body: "Score télétravail MaVilleIdéale : 8.6/10. Rennes cumule tout ce qu'on cherche : fibre partout (>95% de couverture), une communauté tech active (French Tech Rennes, 300+ startups), des coworkings à partir de 80€/mois, et le TGV Paris en 1h25. Le loyer médian d'un T2 est de 750€/mois, soit la moitié d'une chambre à Paris. Bonus : elle est cyclable à 90%, ce qui supprime la voiture du budget.",
+        body: "Score télétravail MaVilleIdéale : 8.6/10. Rennes coche méthodiquement chaque case : fibre partout (>95% de couverture), communauté tech vivante autour de French Tech Rennes et de ses 300+ startups, coworkings dès 80€/mois, et le TGV Paris en 1h25. Le loyer médian d'un T2 tourne à 750€/mois — la moitié d'une simple chambre à Paris. Le vélo, praticable sur 90% de la ville, gomme même la ligne «voiture» du budget.",
       },
       {
         heading: "Nantes : la métropole qui a tout compris",
-        body: "Score télétravail : 8.4/10. Nantes est la ville qui ressemble le plus à ce qu'on imagine d'une vie remote bien équilibrée : café culture dense (le Lieu Unique, la Cantine), scène startup dynamique, 45 min de la côte atlantique, et une offre culturelle qui rend le dimanche soir supportable. Loyer médian T2 : 800€.",
+        body: "Score télétravail : 8.4/10. Nantes est celle qui incarne le mieux la vie remote qu'on se projette dans les tableurs : café culture dense (le Lieu Unique, la Cantine), scène startup active, l'Atlantique à 45 min de route et une programmation culturelle qui rend le dimanche soir tenable. Loyer médian T2 : 800€.",
       },
       {
         heading: "Grenoble : pour les remote workers qui veulent skier le mercredi",
-        body: "Score télétravail : 8.0/10. Grenoble est la ville des ingénieurs et chercheurs. La densité de talent tech y est unique en France hors Paris. Le coworking La Turbine est une référence nationale. Et oui, les pistes de ski sont à 45 min en voiture. L'hiver peut sembler long et la pollution atmosphérique est un vrai sujet (inversions thermiques fréquentes), mais beaucoup l'acceptent pour le cadre montagneux exceptionnel.",
+        body: "Score télétravail : 8.0/10. Grenoble reste la ville des ingénieurs et des chercheurs — une densité de talent tech qu'aucune autre métropole française n'égale hors Paris. Le coworking La Turbine y fait figure de référence nationale. Et, oui, les pistes de ski se rejoignent en 45 min de voiture. Contrepartie assumée : l'hiver s'étire, et la pollution atmosphérique reste un vrai sujet, entretenue par des inversions thermiques fréquentes. Beaucoup l'acceptent pour le décor montagneux exceptionnel.",
       },
       {
         heading: "Le calcul qui change tout",
-        body: "Prenons un remote worker gagnant 3 500€ nets/mois. À Paris : loyer T2 1 400€ + charges 200€ + transport 85€ = 1 685€ de fixes. À Rennes : loyer T2 750€ + charges 150€ + vélo 20€ = 920€. Différence : 765€/mois, soit 9 180€/an. En 10 ans : 91 800€. De quoi acheter un appartement. Ce calcul est banal, mais il change des vies quand on le fait réellement.",
+        body: "Prenons un remote worker à 3 500€ nets/mois. À Paris : loyer T2 1 400€ + charges 200€ + transport 85€ = 1 685€ de fixes. À Rennes : loyer T2 750€ + charges 150€ + vélo 20€ = 920€. Écart : 765€/mois, soit 9 180€/an. Sur dix ans, cela représente 91 800€ — de quoi acheter un appartement. L'arithmétique n'a rien d'ésotérique ; ce qui change des vies, c'est de la poser noir sur blanc.",
       },
       {
         heading: "Les villes à éviter (et pourquoi)",
-        body: "Certaines villes sont «à la mode» sans être vraiment remote-friendly. Bordeaux est belle, mais la gentrification a fait exploser les loyers (+40% en 5 ans) sans que l'infrastructure tech suive. Nice est chère et la communauté remote y reste concentrée sur quelques quartiers. Marseille monte en puissance, mais la connectivité reste inégale selon les quartiers.",
+        body: "Certaines villes profitent d'un effet de mode qui masque leurs vrais défauts. Bordeaux garde son atout carte postale, mais la gentrification a fait grimper les loyers de 40% en 5 ans sans qu'un écosystème tech suive derrière. Nice reste chère et la communauté remote s'y regroupe sur quelques îlots. Marseille progresse, mais la connectivité varie encore d'un quartier à l'autre.",
       },
     ],
     relatedCities: ["rennes", "nantes", "grenoble", "bordeaux", "strasbourg"],
