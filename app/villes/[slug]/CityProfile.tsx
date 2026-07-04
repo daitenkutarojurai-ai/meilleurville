@@ -965,22 +965,20 @@ export function CityProfile({ city, data, faq, locale = "fr" }: { city: CitySeed
                     <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
                   </a>
                 )}
-                {locale !== "en" && (
-                  <a
-                    href={`/villes/${city.slug}/statistiques`}
-                    className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
-                  >
-                    <div className="min-w-0">
-                      <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
-                        📊 Statistiques
-                      </div>
-                      <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
-                        Population · salaire · chômage · structure d&apos;âge
-                      </div>
+                <a
+                  href={sub("statistiques", "statistics")}
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                >
+                  <div className="min-w-0">
+                    <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                      {L("📊 Statistiques", "📊 Statistics")}
                     </div>
-                    <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
-                  </a>
-                )}
+                    <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
+                      {L("Population · salaire · chômage · structure d’âge", "Population · wage · unemployment · age structure")}
+                    </div>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
+                </a>
                 <a
                   href={sub("services-publics", "public-services")}
                   className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
