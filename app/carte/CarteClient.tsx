@@ -255,7 +255,7 @@ export function CarteClient({
   const [hover, setHover] = useState<HoverState | null>(null);
   const [mounted, setMounted] = useState(false);
   const [is3D, setIs3D] = useState(false);
-  const [view, setView] = useState<"villes" | "regions">("villes");
+  const [view, setView] = useState<"villes" | "regions" | "departements">("villes");
   const [leanFilter, setLeanFilter] = useState<string>("");
   const mapRef = useRef<HTMLDivElement | null>(null);
 
@@ -339,6 +339,30 @@ export function CarteClient({
         return { region, slug: regionToSlug(region), avg, n: g.n, x, y, color: scoreColor(avg), r: 16 + Math.sqrt(g.n) * 2.6 };
       })
       .sort((a, b) => b.r - a.r); // largest first so smaller bubbles stay clickable on top
+  }, [cities, scoreKey, leanFilter, leanMeta]);
+
+  // Department aggregate layer — one small bubble per department (96 metro).
+  // No text label under the bubble (96 names would be unreadable): the value
+  // sits inside, the name lives in the aria-label + native <title> tooltip.
+  // regionToSlug is a generic slugifier — same normalization as deptToSlug in
+  // lib/dept-slug.ts, which client code must not import (it pulls the seed).
+  const deptAgg = useMemo(() => {
+    const groups: Record<string, { sumLng: number; sumLat: number; sumScore: number; n: number }> = {};
+    for (const c of cities) {
+      if (!isMetropolitan(c.longitude, c.latitude) || !passLean(c.slug)) continue;
+      const g = (groups[c.department] ??= { sumLng: 0, sumLat: 0, sumScore: 0, n: 0 });
+      g.sumLng += c.longitude;
+      g.sumLat += c.latitude;
+      g.sumScore += c.scores[scoreKey];
+      g.n += 1;
+    }
+    return Object.entries(groups)
+      .map(([dept, g]) => {
+        const avg = g.sumScore / g.n;
+        const [x, y] = project(g.sumLng / g.n, g.sumLat / g.n);
+        return { dept, slug: regionToSlug(dept), avg, n: g.n, x, y, color: scoreColor(avg), r: 9 + Math.sqrt(g.n) * 1.6 };
+      })
+      .sort((a, b) => b.r - a.r);
   }, [cities, scoreKey, leanFilter, leanMeta]);
 
   const hovered = hover ? cities.find((c) => c.slug === hover.slug) : null;
@@ -435,12 +459,12 @@ export function CarteClient({
           <div className="relative">
             <div className="mb-2 flex items-center justify-between gap-3">
               <div className="text-[11px] uppercase tracking-widest text-[#84CC16]/80 font-semibold">
-                {currentLabel} · {view === "regions" ? `${regionAgg.length} régions` : `${sorted.length} villes`}
+                {currentLabel} · {view === "regions" ? `${regionAgg.length} régions` : view === "departements" ? `${deptAgg.length} départements` : `${sorted.length} villes`}
               </div>
               <div className="flex items-center gap-2">
                 {/* Villes / Régions layer toggle */}
                 <div className="inline-flex rounded-full border border-[#84CC16]/20 bg-white/5 p-0.5 text-[10px] font-bold uppercase tracking-widest">
-                  {(["villes", "regions"] as const).map((v) => (
+                  {(["villes", "departements", "regions"] as const).map((v) => (
                     <button
                       key={v}
                       onClick={() => { setView(v); setHover(null); }}
@@ -450,7 +474,7 @@ export function CarteClient({
                       }
                       aria-pressed={view === v}
                     >
-                      {v === "villes" ? "Villes" : "Régions"}
+                      {v === "villes" ? "Villes" : v === "departements" ? "Départements" : "Régions"}
                     </button>
                   ))}
                 </div>
@@ -655,6 +679,32 @@ export function CarteClient({
                       </text>
                     </a>
                   ))
+                : view === "departements"
+                ? /* Department aggregate bubbles — value inside, name in tooltip */
+                  deptAgg.map((dg) => (
+                    <a
+                      key={dg.dept}
+                      href={`/departements/${dg.slug}`}
+                      aria-label={`Département ${dg.dept} — score moyen ${dg.avg.toFixed(1)} sur 10 (${dg.n} ville${dg.n > 1 ? "s" : ""})`}
+                      className="cursor-pointer carte-dot"
+                      style={{ opacity: mounted ? 1 : 0, transition: "opacity 0.5s ease" }}
+                    >
+                      <title>{`${dg.dept} · ${dg.avg.toFixed(1)}/10 · ${dg.n} ville${dg.n > 1 ? "s" : ""}`}</title>
+                      <circle cx={dg.x} cy={dg.y} r={dg.r * 1.5} fill={dg.color} opacity="0.15" filter="url(#cDotGlow)" />
+                      <circle cx={dg.x} cy={dg.y} r={dg.r} fill={dg.color} opacity="0.85" stroke="white" strokeWidth="1.2" />
+                      <text
+                        x={dg.x}
+                        y={dg.y + 3}
+                        textAnchor="middle"
+                        fontSize="9"
+                        fontWeight="800"
+                        fill="white"
+                        style={{ paintOrder: "stroke", stroke: "#0B1E14", strokeWidth: 2.5, strokeLinejoin: "round" }}
+                      >
+                        {dg.avg.toFixed(1)}
+                      </text>
+                    </a>
+                  ))
                 : is3D
                 ? /* 3D column bars */
                   <CarteBarLayer dots={dots} mounted={mounted} onHover={setHover} />
@@ -703,6 +753,8 @@ export function CarteClient({
             <span className="ml-auto text-[#A8C4A8]">
               {view === "regions"
                 ? "Vue régions — bulle = score moyen · cliquez pour ouvrir la région"
+                : view === "departements"
+                ? "Vue départements — bulle = score moyen · survolez pour le nom, cliquez pour ouvrir"
                 : is3D
                 ? "Vue 3D — hauteur = score · cliquez pour ouvrir la fiche"
                 : "Cliquez sur un point pour ouvrir la fiche"}
