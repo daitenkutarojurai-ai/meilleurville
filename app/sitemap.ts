@@ -627,7 +627,14 @@ function comparerDepartementsSection(): MetadataRoute.Sitemap {
   for (const c of CITIES_SEED) {
     (byRegion[c.region] ??= []).includes(c.department) || byRegion[c.region].push(c.department);
   }
-  const entries: MetadataRoute.Sitemap = [];
+  const entries: MetadataRoute.Sitemap = [
+    {
+      url: `${BASE_URL}/comparer-departements`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    },
+  ];
   for (const depts of Object.values(byRegion)) {
     const sorted = [...depts].sort((a, b) => a.localeCompare(b, "fr"));
     for (let i = 0; i < sorted.length; i++) {
