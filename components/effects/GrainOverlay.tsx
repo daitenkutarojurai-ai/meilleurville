@@ -1,5 +1,3 @@
-"use client";
-
 /**
  * Subtle film-grain overlay. Pure SVG noise — zero JS.
  * Use as a sibling inside a `relative` container.
