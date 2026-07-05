@@ -118,6 +118,35 @@ export default function DepuisParisPage() {
           juin 2025). Pour les autres villes, durée de la gare TGV/TER la plus proche + 0,5 min/km
           d&apos;accès local (TER ou voiture). Outre-mer / Corse : non couvert (pas de rail).
         </div>
+
+        <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">
+          Voir aussi
+        </h2>
+        <div className="mt-3 grid grid-cols-1 sm:grid-cols-3 gap-3">
+          <Link href="/red-flags/villes-embouteillages-quotidiens" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">🚥</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">Villes prises dans les bouchons</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">
+                A86, A6, tunnel Fourvière : ce qui attend les navetteurs qui gardent la voiture
+              </div>
+            </Card>
+          </Link>
+          <Link href="/velo" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">🚴</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">Villes cyclables</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">Top 30 des villes où pédaler remplace le TER</div>
+            </Card>
+          </Link>
+          <Link href="/depuis" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">🗺️</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">Depuis une autre ville</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">Lyon, Bordeaux, Nantes, Rennes, Lille…</div>
+            </Card>
+          </Link>
+        </div>
       </section>
       <Footer />
     </main>

@@ -275,6 +275,13 @@ export default function CyclingHubPage() {
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Air, bruit, eau, risques</div>
             </Card>
           </Link>
+          <Link href="/red-flags/villes-embouteillages-quotidiens" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">🚥</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">Villes prises dans les bouchons</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">L&apos;autre versant : là où la voiture bloque tout</div>
+            </Card>
+          </Link>
           <Link href="/red-flags" className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-2xl mb-1">🚩</div>

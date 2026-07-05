@@ -298,6 +298,13 @@ export default function PalmaresHubPage() {
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Quiz cadre de vie personnalisé</div>
             </Card>
           </Link>
+          <Link href="/red-flags/villes-embouteillages-quotidiens" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">🚥</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">Villes bloquées aux heures de pointe</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">Le prix caché du palmarès : 300 h/an au volant</div>
+            </Card>
+          </Link>
           <Link href="/red-flags" className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-2xl mb-1">⚠️</div>

@@ -99,6 +99,39 @@ export default function DepuisIndexPage() {
           pour les gares principales, et sur une heuristique d'accès local (0,5 min/km) pour les villes
           intermédiaires. Modes retenus : TGV direct, via Paris ou voiture — selon ce qui est le plus rapide.
         </p>
+
+        <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">
+          Voir aussi
+        </h2>
+        <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <Link href="/red-flags/villes-embouteillages-quotidiens" className="block">
+            <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+              <div className="flex items-start gap-3">
+                <span className="text-2xl">🚥</span>
+                <div>
+                  <p className="font-semibold text-[var(--text-primary)]">Villes prises dans les embouteillages quotidiens</p>
+                  <p className="text-xs text-[var(--text-secondary)] mt-1">
+                    Choisir sa gare de départ, c&apos;est aussi choisir sa rocade : rocade bordelaise, cuvette
+                    grenobloise, A7 lyonnaise — les couloirs saturés à éviter aux heures de pointe.
+                  </p>
+                </div>
+              </div>
+            </Card>
+          </Link>
+          <Link href="/velo" className="block">
+            <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+              <div className="flex items-start gap-3">
+                <span className="text-2xl">🚴</span>
+                <div>
+                  <p className="font-semibold text-[var(--text-primary)]">Villes cyclables</p>
+                  <p className="text-xs text-[var(--text-secondary)] mt-1">
+                    Trajet gare → bureau à vélo : où le réseau existe vraiment, et où il faut oublier.
+                  </p>
+                </div>
+              </div>
+            </Card>
+          </Link>
+        </div>
       </section>
 
       <Footer />

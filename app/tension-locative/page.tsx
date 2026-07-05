@@ -272,6 +272,13 @@ export default function RentalTensionHubPage() {
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Simuler son budget logement</div>
             </Card>
           </Link>
+          <Link href="/red-flags/villes-embouteillages-quotidiens" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">🚥</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">Villes bloquées aux bouchons</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">Loyer trop cher au centre = commute allongée en périphérie</div>
+            </Card>
+          </Link>
         </div>
       </section>
 
