@@ -8,6 +8,7 @@ import { SEO_PAIRS } from "@/lib/comparer-pairs";
 import { SEO_TRIPLETS } from "@/lib/comparer-triplets";
 import { QUITTER_PAIRS, pairToSlug } from "@/lib/quitter-pairs";
 import { METRO_REGIONS, regionToSlug } from "@/lib/regions";
+import { deptToSlug } from "@/lib/dept-slug";
 import { TAG_SLUGS } from "@/lib/guide-tags";
 import { TAG_SLUGS_EN } from "@/lib/guide-tags-en";
 import { RED_FLAG_THEME_SLUGS } from "@/lib/red-flag-themes";
@@ -42,6 +43,7 @@ const SITEMAP_CHUNKS_FR = [
   "city-sub",
   "comparer",
   "comparer-regions",
+  "comparer-departements",
   "classements",
   "regions",
   "departements",
@@ -613,6 +615,30 @@ function comparerRegionsSection(): MetadataRoute.Sitemap {
         changeFrequency: "monthly" as const,
         priority: 0.6,
       });
+    }
+  }
+  return entries;
+}
+
+function comparerDepartementsSection(): MetadataRoute.Sitemap {
+  // Intra-region department pairs — mirrors generateStaticParams in
+  // app/comparer-departements/[pair]/page.tsx (390 pairs).
+  const byRegion: Record<string, string[]> = {};
+  for (const c of CITIES_SEED) {
+    (byRegion[c.region] ??= []).includes(c.department) || byRegion[c.region].push(c.department);
+  }
+  const entries: MetadataRoute.Sitemap = [];
+  for (const depts of Object.values(byRegion)) {
+    const sorted = [...depts].sort((a, b) => a.localeCompare(b, "fr"));
+    for (let i = 0; i < sorted.length; i++) {
+      for (let j = i + 1; j < sorted.length; j++) {
+        entries.push({
+          url: `${BASE_URL}/comparer-departements/${deptToSlug(sorted[i])}-vs-${deptToSlug(sorted[j])}`,
+          lastModified: CITY_DATA_UPDATED,
+          changeFrequency: "monthly" as const,
+          priority: 0.5,
+        });
+      }
     }
   }
   return entries;
@@ -1299,6 +1325,7 @@ export default async function sitemap({ id }: { id: Promise<string> }): Promise<
     case "city-sub": return citySubSection();
     case "comparer": return comparerSection();
     case "comparer-regions": return comparerRegionsSection();
+    case "comparer-departements": return comparerDepartementsSection();
     case "classements": return classementsSection();
     case "regions": return regionsSection();
     case "departements": return departementsSection();

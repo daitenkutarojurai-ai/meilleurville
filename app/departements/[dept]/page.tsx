@@ -316,6 +316,34 @@ export default async function DeptPage({ params }: Props) {
           </section>
         )}
 
+        {(() => {
+          const siblings = [...new Set(
+            CITIES_SEED.filter((c) => c.region === region && c.department !== deptName).map((c) => c.department)
+          )].sort((a, b) => a.localeCompare(b, "fr"));
+          if (siblings.length === 0) return null;
+          return (
+            <section className="pt-2">
+              <h2 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+                Comparer {deptName} avec ses voisins
+              </h2>
+              <div className="flex flex-wrap gap-2">
+                {siblings.map((s) => {
+                  const [x, y] = [deptName, s].sort((a, b) => a.localeCompare(b, "fr"));
+                  return (
+                    <Link
+                      key={s}
+                      href={`/comparer-departements/${deptToSlug(x)}-vs-${deptToSlug(y)}`}
+                      className="rounded-full border border-[var(--border)] px-3 py-1.5 text-xs font-medium text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:text-[var(--accent)] transition-colors"
+                    >
+                      vs {s}
+                    </Link>
+                  );
+                })}
+              </div>
+            </section>
+          );
+        })()}
+
         <div className="flex flex-wrap gap-3 pt-4">
           <Link href="/departements" className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
             ← Tous les départements
