@@ -283,6 +283,21 @@ const EN_THEMES: EnTheme[] = [
     methodology:
       "Severity = 50% cold factor (5 °C in January → 0, -1 °C → 10) + 50% grey factor (1,950 hours sunshine/year → 0, 1,480 hours → 10) + 1.2 penalty when both factors exceed 5/10. Sources: Météo-France 1991-2020 climatology (January temperatures, annual sunshine duration).",
   },
+  {
+    enSlug: "daily-traffic-jams",
+    frSlug: "villes-embouteillages-quotidiens",
+    emoji: "🚥",
+    title: "Cities gridlocked every rush hour",
+    metaTitle: "Daily traffic jams 2026 — French cities stuck at peak hours",
+    metaDescription:
+      "2026 ranking of French cities over 40,000 caught in structural congestion: A86, A7, A8, Grenoble basin. Weak transit + documented saturated corridors.",
+    intro:
+      "The estate agent times '15 minutes from the station' at 11am on a Sunday in September. Reality from November to March, Monday to Friday, 7.30–9.15am and 5–7.30pm: the pipe saturates. The Bordeaux ring road stretches from 20 to 55 minutes, the A7 south of Lyon becomes a 12-km car park, the Fourvière tunnel absorbs its daily jam, the A86 west of Paris seizes up at Rueil by 7.40am. Commuters lose an extra hour to ninety minutes per day — around 300 hours a year, the equivalent of six working weeks spent behind a wheel, engine idling, waiting for the convoy to move. The cognitive tax (fatigue, short sleep, irritability) and the financial one (fuel, wear, tolls, faster depreciation) never appear on the listing.",
+    reality:
+      "We keep cities over 40,000 with a transit score in the tension band (3.5–6.5/10) — enough network to pull commuters in, not enough to absorb the peak. Then we only retain those inside a road corridor documented by Bison Futé archives 2022–2024 and SIREDO motorway counts: the Paris ring on A6/A10/A86/A15/A4, Marseille on A7/A55/A50 and the Prado tunnel, Lyon on A6/A7/A46 and Fourvière, the Riviera on A8/A57, the Geneva-border pendulum on A40/A41, the Bordeaux ring A630, the Nantes N844, the Toulouse ring A620/A621, the Grenoble basin on A48/A480, and the Lille metropolis on A1/A22. Cities where a genuinely fluid tram drains the road (Strasbourg, central Nantes, central Bordeaux) fall out via the transit-score ceiling — the ranking only catches the nodes where the commuter stays trapped in a car.",
+    methodology:
+      "Severity = 0.35 × transit factor (6.5 → 0, 3.5 → 10) + 0.25 × population factor (40,000 → 0, 400,000 → 10) + zonal bonus (Paris ring +2.2 / Marseille +2.0 / Lyon +1.9 / Grenoble basin +1.8 / Riviera +1.7 / Geneva border +1.7 / Bordeaux +1.5 / Nantes +1.5 / Toulouse +1.5 / Lille +1.2) + 0.5 if cost score ≤ 5/10 (long-commute proxy: expensive housing pushes households to the ring, which lengthens trips and saturates the corridor ends). Capped at 10/10, filtered to severity ≥ 5, transit ∈ [3.5; 6.5], population ≥ 40,000, central Paris excluded (the car is already marginal). Sources: Bison Futé (weekend red/black-section archives 2022–2024), Sytadin (Île-de-France Roads Directorate real-time A1–A15–A86–A104), SIREDO maps (Ministry of Ecological Transition permanent motorway counts), site seed (transit, cost, population, department). Caveat: the transit score aggregates PT supply + OSM walkability rather than measuring road congestion directly; we use its inverse as a proxy (weak PT + high population + documented saturated corridor = congestion pressure). Intra-city variance can be strong (Vitrolles centre vs Fos, Vénissieux Minguettes vs Perrache) — the score covers the whole commune. Check Bison Futé saturation maps and real Waze/Google travel times on a Tuesday morning in November before signing anything in a peri-urban ring.",
+  },
 ];
 
 function getEnTheme(slug: string): EnTheme | undefined {
