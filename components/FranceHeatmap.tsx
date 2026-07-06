@@ -208,13 +208,22 @@ const CityDotLayer = memo(function CityDotLayer({
   );
 });
 
-export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities }: { locale?: "fr" | "en"; showRegionToggle?: boolean; cities: MapCity[] }) {
+export type DeptBubble = {
+  dept: string;
+  slug: string;
+  longitude: number;
+  latitude: number;
+  n: number;
+  scores: MapCity["scores"];
+};
+
+export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities, departments }: { locale?: "fr" | "en"; showRegionToggle?: boolean; cities: MapCity[]; departments?: DeptBubble[] }) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const optionLabel = (o: { label: string; labelEn: string }) => (locale === "en" ? o.labelEn : o.label);
   const cityHref = (slug: string) => (locale === "en" ? `/cities/${slug}` : `/villes/${slug}`);
   const [hover, setHover] = useState<HoverState | null>(null);
   const [scoreKey, setScoreKey] = useState<ScoreKey>("global");
-  const [view, setView] = useState<"cities" | "regions">("cities");
+  const [view, setView] = useState<"cities" | "regions" | "departments">("cities");
   const [mounted, setMounted] = useState(false);
   const mapRef = useRef<HTMLDivElement | null>(null);
   const svgRef = useRef<SVGSVGElement | null>(null);
@@ -284,6 +293,20 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities 
       })
       .sort((a, b) => b.r - a.r);
   }, [cities, scoreKey]);
+
+  // Department aggregate bubbles — precomputed per-axis averages arrive via
+  // the optional `departments` prop (only /map passes it), so the shared
+  // homepage payload stays untouched.
+  const deptAgg = useMemo(() => {
+    if (!departments) return [];
+    return departments
+      .map((d) => {
+        const avg = d.scores[scoreKey];
+        const [x, y] = project(d.longitude, d.latitude);
+        return { ...d, avg, x, y, color: scoreColor(avg), r: 9 + Math.sqrt(d.n) * 1.6 };
+      })
+      .sort((a, b) => b.r - a.r);
+  }, [departments, scoreKey]);
 
   const top3 = useMemo(
     () => [...cities].sort((a, b) => b.scores.global - a.scores.global).slice(0, 3),
@@ -367,7 +390,7 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities 
         {showRegionToggle && (
           <div className="mb-3 flex justify-center">
             <div className="inline-flex rounded-full border border-[var(--border)] bg-white/70 backdrop-blur p-0.5 text-xs font-semibold">
-              {(["cities", "regions"] as const).map((v) => (
+              {(departments ? (["cities", "departments", "regions"] as const) : (["cities", "regions"] as const)).map((v) => (
                 <button
                   key={v}
                   onClick={() => { setView(v); setHover(null); }}
@@ -379,7 +402,7 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities 
                       : "text-[var(--text-secondary)] hover:text-[var(--text-primary)]")
                   }
                 >
-                  {v === "cities" ? L("Villes", "Cities") : L("Régions", "Regions")}
+                  {v === "cities" ? L("Villes", "Cities") : v === "departments" ? L("Départements", "Departments") : L("Régions", "Regions")}
                 </button>
               ))}
             </div>
@@ -726,6 +749,28 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities 
                   </text>
                   <text x={rg.x} y={rg.y + rg.r + 13} textAnchor="middle" fontSize="10" fontWeight="700" fill="#E5E7EB" style={{ paintOrder: "stroke", stroke: "#0B1E14", strokeWidth: 3.5, strokeLinejoin: "round" }}>
                     {rg.region}
+                  </text>
+                </a>
+              ))}
+
+              {/* Department aggregate bubbles — value inside, name in tooltip */}
+              {view === "departments" && deptAgg.map((dg) => (
+                <a
+                  key={dg.dept}
+                  href={`${locale === "en" ? "/departments" : "/departements"}/${dg.slug}`}
+                  aria-label={
+                    locale === "en"
+                      ? `${dg.dept} — average score ${dg.avg.toFixed(1)} out of 10 (${dg.n} ${dg.n > 1 ? "cities" : "city"})`
+                      : `${dg.dept} — score moyen ${dg.avg.toFixed(1)} sur 10 (${dg.n} ville${dg.n > 1 ? "s" : ""})`
+                  }
+                  className="cursor-pointer fh-dot outline-none focus-visible:[outline:2px_solid_white] focus-visible:[outline-offset:2px]"
+                  style={{ opacity: mounted ? 1 : 0, transition: "opacity 0.5s ease" }}
+                >
+                  <title>{`${dg.dept} · ${dg.avg.toFixed(1)}/10`}</title>
+                  <circle cx={dg.x} cy={dg.y} r={dg.r * 1.5} fill={dg.color} opacity="0.15" filter="url(#dotGlow)" />
+                  <circle cx={dg.x} cy={dg.y} r={dg.r} fill={dg.color} opacity="0.85" stroke="white" strokeWidth="1.2" />
+                  <text x={dg.x} y={dg.y + 3} textAnchor="middle" fontSize="9" fontWeight="800" fill="white" style={{ paintOrder: "stroke", stroke: "#0B1E14", strokeWidth: 2.5, strokeLinejoin: "round" }}>
+                    {dg.avg.toFixed(1)}
                   </text>
                 </a>
               ))}

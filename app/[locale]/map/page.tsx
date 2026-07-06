@@ -5,7 +5,8 @@ import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { MAP_CITIES } from "@/lib/cities-light";
 import { scoreColor } from "@/lib/utils";
-import { FranceHeatmap } from "@/components/FranceHeatmap";
+import { FranceHeatmap, type DeptBubble } from "@/components/FranceHeatmap";
+import { deptToSlug } from "@/lib/dept-slug";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { CITIES_COUNT } from "@/lib/site-stats";
 
@@ -20,6 +21,30 @@ export const metadata: Metadata = {
 // Metropolitan bounding box — same as components/FranceHeatmap.tsx.
 // DROM cities fall outside this box and are listed separately below.
 const LNG_MIN = -6, LNG_MAX = 10, LAT_MIN = 40, LAT_MAX = 52;
+
+// Per-department centroid + per-axis average scores (metropolitan only) —
+// computed at build so the client bundle stays seed-free.
+const DEPT_BUBBLES: DeptBubble[] = (() => {
+  const groups: Record<string, { sumLng: number; sumLat: number; sums: Record<string, number>; n: number }> = {};
+  for (const c of CITIES_SEED) {
+    if (!(c.longitude >= LNG_MIN && c.longitude <= LNG_MAX && c.latitude >= LAT_MIN && c.latitude <= LAT_MAX)) continue;
+    const g = (groups[c.department] ??= { sumLng: 0, sumLat: 0, sums: {}, n: 0 });
+    g.sumLng += c.longitude;
+    g.sumLat += c.latitude;
+    for (const [k, v] of Object.entries(c.scores)) g.sums[k] = (g.sums[k] ?? 0) + v;
+    g.n += 1;
+  }
+  return Object.entries(groups).map(([dept, g]) => ({
+    dept,
+    slug: deptToSlug(dept),
+    longitude: g.sumLng / g.n,
+    latitude: g.sumLat / g.n,
+    n: g.n,
+    scores: Object.fromEntries(
+      Object.entries(g.sums).map(([k, v]) => [k, Math.round((v / g.n) * 100) / 100])
+    ) as DeptBubble["scores"],
+  }));
+})();
 
 export default function EnMapPage() {
   const metro = CITIES_SEED.filter(
@@ -48,7 +73,7 @@ export default function EnMapPage() {
       <section className="mx-auto max-w-6xl px-4 sm:px-6 py-10">
         {/* Full locale-aware heatmap: France mainland + Corsica outline, aurora
             backdrop, score legend and per-axis filters, EN /cities links. */}
-        <FranceHeatmap locale="en" showRegionToggle cities={MAP_CITIES} />
+        <FranceHeatmap locale="en" showRegionToggle cities={MAP_CITIES} departments={DEPT_BUBBLES} />
 
         {drom.length > 0 && (
           <div className="mt-8">
