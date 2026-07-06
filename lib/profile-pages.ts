@@ -11,6 +11,7 @@ import { computeOwnerScores } from "@/lib/owner-scores";
 import { computeSportLeisure } from "@/lib/sport-leisure";
 import { computeCyclingMobility } from "@/lib/cycling-mobility";
 import { rentalTension } from "@/lib/rental-tension";
+import { computeCityDistances } from "@/lib/distances";
 
 type ScoreWeights = Partial<{
   // Axes seed (CityScore)
@@ -38,6 +39,8 @@ type ScoreWeights = Partial<{
   rentalTension: number;
   investorYield: number;
   cyclingMobility: number;
+  // Dérivés géographiques
+  coastalProximity: number;
 }>;
 
 export interface ProfileDef {
@@ -89,6 +92,21 @@ export function investorYield(city: CityLight): number {
   return Math.max(0, Math.min(10, base * liquidity));
 }
 
+// Proximité littorale sur 0-10 : 0 km de la côte → 10 (les pieds dans l'eau),
+// 20 km → ≈8 (accès quotidien facile), 60 km → ≈4 (le week-end oui, pas le
+// mercredi soir), ≥ 200 km → 0 (intérieur profond). Le seuil visé est celui
+// de la vie quotidienne littorale, pas d'un week-end occasionnel à la mer.
+export function coastalProximity(city: CityLight): number {
+  const dist = computeCityDistances(city as CitySeed);
+  const km = dist.sea?.distanceKm;
+  if (km == null) return 5;
+  if (km <= 0) return 10;
+  if (km >= 200) return 0;
+  const raw = 10 - (km / 200) * 10;
+  const eased = Math.sqrt(raw / 10) * 10;
+  return Math.max(0, Math.min(10, eased));
+}
+
 function getScoreValue(city: CityLight, key: string): number {
   // Axes seed
   if (["life", "transport", "nature", "cost", "safety", "culture", "remoteWork", "schools"].includes(key)) {
@@ -99,6 +117,7 @@ function getScoreValue(city: CityLight, key: string): number {
   if (key === "rentalTension") return rentalTension(city);
   if (key === "investorYield") return investorYield(city);
   if (key === "cyclingMobility") return computeCyclingMobility(city).composite;
+  if (key === "coastalProximity") return coastalProximity(city);
   return ownerVal(city, key);
 }
 
@@ -528,6 +547,34 @@ export const PROFILE_PAGES: ProfileDef[] = [
     },
     reasonHint: (c) =>
       `Cyclabilité ${computeCyclingMobility(c).composite.toFixed(1)} · transport ${c.scores.transport.toFixed(1)} · sans voiture ${ownerVal(c, "sansVoiture").toFixed(1)}`,
+  },
+  {
+    slug: "amateurs-de-littoral",
+    emoji: "🌊",
+    label: "Amateurs de littoral",
+    metaTitle: "Meilleures villes littoral 2026 — Top 20 France",
+    metaDescription:
+      "Top 20 villes françaises pour vivre au bord de la mer : accès quotidien, cadre marin, qualité de vie, air marin. Manche, Atlantique, Méditerranée.",
+    intro:
+      "Amateurs de littoral : votre semaine ne s'organise pas comme celle d'un citadin de l'intérieur. La proximité de la mer n'est pas un plaisir de vacances mais une composante de la vie quotidienne — un footing sur le sable à sept heures, un plongeon en rentrant du bureau en juin, la ligne d'horizon depuis la fenêtre ou depuis la terrasse d'un café, l'odeur d'iode qui remplace celle des gaz d'échappement, un dimanche d'huîtres au port de pêche plutôt qu'au centre commercial. Ce profil se distingue nettement d'« amateurs de plein air » (qui pondère la nature au sens large — forêts, sentiers, parcs — et le climat tempéré) et d'« anti-canicule » (qui cherche des étés vivables sans se soucier de la géographie côtière). Ici on ne demande pas seulement de la nature accessible : on demande de la mer accessible, tous les jours, en quinze minutes à pied ou à vélo, pas en une heure de voiture le samedi. La différence a des conséquences très concrètes sur le tissu urbain — architecture ouverte sur l'eau, marché aux poissons, clubs nautiques, écoles de voile, cabanes d'ostréiculteurs, criques et calanques, plages surveillées l'été, digues et jetées où l'on marche l'hiver — et sur la vie sociale, souvent tirée par les activités maritimes de saison douce. Ce classement pondère d'abord la proximité littorale, dérivée pour chaque ville de la distance haversine à la côte la plus proche parmi les trois façades françaises (Manche, Atlantique, Méditerranée) : une ville à moins de trois kilomètres du rivage tient un score maximal, une ville à vingt kilomètres reste dans la vie littorale au sens large (accès quotidien facile en été et en week-end), une ville à plus de deux cents kilomètres bascule dans la géographie intérieure et sort du classement. On complète par la nature globale (parce qu'un littoral bétonné sans arrière-pays vert perd la moitié de son intérêt), par la qualité de l'air (les brises marines nettoient les particules mais la proximité industrialo-portuaire peut inverser la logique), par la qualité de vie générale, par la sécurité, par la résistance canicule (les étés atlantiques restent plus tempérés que les étés méditerranéens, l'écart entre 27 °C à La Rochelle et 34 °C à Perpignan pèse pour qui vit toute l'année sur place et pas seulement pour trois semaines en août), et par les transports pour ne pas isoler la vie littorale du reste. Résultat : un palmarès tiré par les stations balnéaires atlantiques équilibrées (La Rochelle, Saint-Malo, Vannes, Lorient, Arcachon, Biarritz, Anglet, Bayonne), plusieurs villes méditerranéennes bien situées (Cassis, Menton, Antibes, Cagnes-sur-Mer, Sète), quelques préfectures maritimes bretonnes ou normandes sous-cotées, et systématiquement en retrait les grandes métropoles intérieures — même très agréables (Toulouse, Lyon, Bordeaux ville-centre à cinquante kilomètres du Bassin d'Arcachon), elles ne remplissent pas le contrat de la vie littorale quotidienne.",
+    weights: {
+      coastalProximity: 3.0,
+      nature: 1.5,
+      qualiteAir: 1.5,
+      life: 1.5,
+      safety: 1.0,
+      canicule: 1.0,
+      transport: 0.5,
+    },
+    reasonHint: (c) => {
+      const km = computeCityDistances(c as CitySeed).sea?.distanceKm;
+      const kmLabel = km == null
+        ? "distance mer non renseignée"
+        : km <= 3
+          ? "front de mer"
+          : `${Math.round(km)} km de la mer`;
+      return `${kmLabel} · nature ${c.scores.nature.toFixed(1)} · vie ${c.scores.life.toFixed(1)}`;
+    },
   },
 ];
 
