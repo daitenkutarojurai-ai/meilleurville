@@ -133,6 +133,10 @@ export default function ComparerRegionsIndex() {
             <Link href="/comparer" className="underline text-[var(--accent)]">
               le comparateur de villes
             </Link>
+            , départagez deux départements voisins avec les{" "}
+            <Link href="/comparer-departements" className="underline text-[var(--accent)]">
+              comparatifs départementaux
+            </Link>
             , ou laissez le{" "}
             <Link href="/city-match" className="underline text-[var(--accent)]">
               quiz de matching

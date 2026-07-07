@@ -154,6 +154,12 @@ export default function LeaderboardPage() {
           >
             Comparer des villes →
           </Link>
+          <Link
+            href="/comparer-departements"
+            className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-5 py-3 text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:border-[var(--accent)]/30 transition-colors"
+          >
+            Comparer deux départements →
+          </Link>
         </div>
       </div>
 

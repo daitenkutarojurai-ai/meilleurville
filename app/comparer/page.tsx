@@ -90,6 +90,17 @@ export default function ComparerPage() {
           <p className="text-[var(--text-secondary)] text-lg max-w-2xl mx-auto">
             Choisissez deux villes, on les met côte à côte. Score par score, sans détour.
           </p>
+          <p className="mt-4 text-sm text-[var(--text-tertiary)] max-w-2xl mx-auto">
+            Vous hésitez plutôt entre deux zones entières ? Passez par les{" "}
+            <Link href="/comparer-departements" className="underline underline-offset-2 hover:text-[var(--accent)]">
+              comparatifs de départements
+            </Link>{" "}
+            ou les{" "}
+            <Link href="/comparer-regions" className="underline underline-offset-2 hover:text-[var(--accent)]">
+              comparatifs de régions
+            </Link>
+            .
+          </p>
         </div>
       </section>
 
