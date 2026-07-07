@@ -22,6 +22,7 @@ const LINKS_FR = {
     { label: "Classement sport", href: "/sport" },
     { label: "Tension locative", href: "/tension-locative" },
     { label: "Couverture internet", href: "/internet" },
+    { label: "Couverture commerciale", href: "/commerces" },
     { label: "Risques naturels", href: "/risques" },
     { label: "Villes cyclables", href: "/velo" },
     { label: "Vibe des villes", href: "/vibe" },

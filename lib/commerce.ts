@@ -211,3 +211,49 @@ export const COMMERCE_LEVEL_BG: Record<CommerceLevel, string> = {
   correct: "bg-amber-50 border-amber-200",
   limite: "bg-orange-50 border-orange-200",
 };
+
+// ── National ranking helpers (hub /commerces) ───────────────────────────────
+// Reuse the same `computeCommerce` engine that powers the ×540 sub-pages so the
+// hub ranking and the per-city rank stay consistent. Module-level cache keyed
+// by the input array reference so repeated calls (hub + 6 macros) are O(1).
+
+export interface CommerceEntry {
+  city: CityLight;
+  commerce: Commerce;
+}
+
+let _rankedDesc: CommerceEntry[] | null = null;
+let _rankedFor: CityLight[] | null = null;
+
+function rankedDesc(cities: CityLight[]): CommerceEntry[] {
+  if (_rankedDesc && _rankedFor === cities) return _rankedDesc;
+  _rankedFor = cities;
+  _rankedDesc = cities
+    .map((city) => ({ city, commerce: computeCommerce(city) }))
+    .sort((a, b) => b.commerce.composite - a.commerce.composite);
+  return _rankedDesc;
+}
+
+/** Villes à la meilleure couverture commerciale (composite le plus élevé). */
+export function topBestCommerce(
+  cities: CityLight[],
+  limit = 30,
+  minPop = 0,
+): CommerceEntry[] {
+  return rankedDesc(cities)
+    .filter((e) => (e.city.population ?? 0) >= minPop)
+    .slice(0, limit);
+}
+
+/** Villes les plus fragiles côté offre commerciale (composite le plus bas). */
+export function topWorstCommerce(
+  cities: CityLight[],
+  limit = 20,
+  minPop = 0,
+): CommerceEntry[] {
+  return rankedDesc(cities)
+    .filter((e) => (e.city.population ?? 0) >= minPop)
+    .slice()
+    .reverse()
+    .slice(0, limit);
+}

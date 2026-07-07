@@ -217,6 +217,21 @@ export default async function CommercesPage({ params }: Props) {
             </Card>
           </Link>
         </div>
+
+        <div className="mt-6 flex flex-wrap gap-3">
+          <Link
+            href="/commerces"
+            className="rounded-xl border border-[var(--border)] bg-white/60 backdrop-blur px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:bg-white transition-colors"
+          >
+            📊 Palmarès national couverture commerciale
+          </Link>
+          <Link
+            href={`/villes/${city.slug}`}
+            className="rounded-xl border border-[var(--border)] bg-white/60 backdrop-blur px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:bg-white transition-colors"
+          >
+            ← Profil de {city.name}
+          </Link>
+        </div>
       </section>
 
       <section className="mx-auto max-w-3xl px-4 sm:px-6 pb-8">
