@@ -68,6 +68,7 @@ const LINKS_EN = {
     { label: "Sport ranking", href: "/sport" },
     { label: "Rental pressure", href: "/rental-tension" },
     { label: "Internet coverage", href: "/internet-quality" },
+    { label: "Retail coverage", href: "/retail-coverage" },
     { label: "Natural risks", href: "/natural-risks" },
     { label: "Political leaning", href: "/political-leaning" },
     { label: "Weekend getaways", href: "/weekend-getaways" },

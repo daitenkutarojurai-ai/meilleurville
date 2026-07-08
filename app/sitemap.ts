@@ -870,6 +870,13 @@ function enStaticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/natural-risks/sud-ouest-gascon`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE_URL}/natural-risks/vallee-du-rhone`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE_URL}/natural-risks/ile-de-france-elargie`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${BASE_URL}/retail-coverage`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
+    { url: `${BASE_URL}/retail-coverage/cote-atlantique`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${BASE_URL}/retail-coverage/arc-mediterraneen`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${BASE_URL}/retail-coverage/arc-alpin`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${BASE_URL}/retail-coverage/sud-ouest-gascon`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${BASE_URL}/retail-coverage/vallee-du-rhone`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${BASE_URL}/retail-coverage/ile-de-france-elargie`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE_URL}/political-leaning`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE_URL}/weekend-getaways`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     ...["lyon","marseille","bordeaux","toulouse","nice","nantes","strasbourg","montpellier","lille","grenoble","rennes","reims","dijon","metz","nancy","rouen","caen","angers","tours","le-havre","brest","annecy","pau","bayonne","clermont-ferrand","besancon"].map((slug) => ({

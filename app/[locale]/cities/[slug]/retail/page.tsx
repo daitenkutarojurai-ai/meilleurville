@@ -293,6 +293,15 @@ export default async function EnCityRetailPage({ params }: Props) {
             </Card>
           </Link>
         </div>
+
+        <div className="mt-8 text-sm">
+          <Link
+            href="/retail-coverage"
+            className="text-[var(--accent)] hover:underline"
+          >
+            📊 National retail-coverage ranking
+          </Link>
+        </div>
       </section>
 
       <section className="mx-auto max-w-3xl px-4 sm:px-6 pb-8">
