@@ -41,6 +41,7 @@ type ScoreWeights = Partial<{
   cyclingMobility: number;
   // Dérivés géographiques
   coastalProximity: number;
+  mountainProximity: number;
 }>;
 
 export interface ProfileDef {
@@ -107,6 +108,26 @@ export function coastalProximity(city: CityLight): number {
   return Math.max(0, Math.min(10, eased));
 }
 
+// Proximité montagne sur 0-10. La distance retournée par `computeCityDistances`
+// vise le centroïde bas d'un massif (porte d'entrée : Albertville, Gap, Lourdes,
+// Clermont, Gérardmer, Lons, Corte) — donc « 0 km » = pied du massif, pas
+// altitude d'un sommet. Une ville en montagne (Briançon, Gap, Font-Romeu-like)
+// atteint le score maximum ; une ville à 30 km (Grenoble, Chambéry, Pau) reste
+// dans la vie de massif au quotidien ; à 100 km on parle week-end, plus le
+// mercredi soir ; à ≥250 km on sort de la géographie montagnarde (littoral,
+// grand ouest, bassin parisien). L'easing en racine carrée pénalise plus tôt
+// les distances moyennes — un massif à 80 km n'est pas « à moitié accessible ».
+export function mountainProximity(city: CityLight): number {
+  const dist = computeCityDistances(city as CitySeed);
+  const km = dist.mountain?.distanceKm;
+  if (km == null) return 5;
+  if (km <= 0) return 10;
+  if (km >= 250) return 0;
+  const raw = 10 - (km / 250) * 10;
+  const eased = Math.sqrt(raw / 10) * 10;
+  return Math.max(0, Math.min(10, eased));
+}
+
 function getScoreValue(city: CityLight, key: string): number {
   // Axes seed
   if (["life", "transport", "nature", "cost", "safety", "culture", "remoteWork", "schools"].includes(key)) {
@@ -118,6 +139,7 @@ function getScoreValue(city: CityLight, key: string): number {
   if (key === "investorYield") return investorYield(city);
   if (key === "cyclingMobility") return computeCyclingMobility(city).composite;
   if (key === "coastalProximity") return coastalProximity(city);
+  if (key === "mountainProximity") return mountainProximity(city);
   return ownerVal(city, key);
 }
 
@@ -573,6 +595,34 @@ export const PROFILE_PAGES: ProfileDef[] = [
         : km <= 3
           ? "front de mer"
           : `${Math.round(km)} km de la mer`;
+      return `${kmLabel} · nature ${c.scores.nature.toFixed(1)} · vie ${c.scores.life.toFixed(1)}`;
+    },
+  },
+  {
+    slug: "amateurs-de-montagne",
+    emoji: "🏔️",
+    label: "Amateurs de montagne",
+    metaTitle: "Meilleures villes montagne 2026 — Top 20 France",
+    metaDescription:
+      "Top 20 villes françaises pour vivre en montagne : accès quotidien au relief, cadre alpin, air pur, étés frais. Alpes, Pyrénées, Massif central, Jura, Vosges.",
+    intro:
+      "Amateurs de montagne : votre semaine ne s'organise pas comme celle d'un citadin d'intérieur, ni comme celle d'un amoureux du littoral. La proximité du relief n'est pas un plaisir de vacances mais une composante quotidienne — le sentier qui commence au bout du parking, la vue sur les crêtes depuis la fenêtre du salon, le club d'escalade ouvert le mardi soir, le vélo de route qui grimpe un col avant le petit-déjeuner, la neige qu'on prend à trente minutes de voiture en janvier plutôt qu'à cinq heures de train un week-end sur deux. Ce profil se distingue nettement d'« amateurs de plein air » (qui pondère la nature au sens large — forêts, sentiers, parcs, plaine ou moyenne montagne indifféremment) et d'« amateurs de littoral » (qui vise la mer accessible tous les jours). Ici on ne demande pas seulement de la nature accessible : on demande du relief accessible, avec ce qu'il implique de spécifique — dénivelé pour la rando et le vélo, altitude pour la fraîcheur estivale et l'enneigement hivernal, roche pour l'escalade et les via ferrata, sentiers balisés maillés à haute densité (FFRandonnée compte plus de 100 000 kilomètres de GR et GRP en France, très inégalement répartis), clubs alpins historiquement enracinés (le Club Alpin Français a été fondé à Grenoble en 1874), et une culture locale qui parle refuge, station, saison, bulletin météo montagne et niveau nivologique BRA comme les autres villes parlent shopping ou terrasses. Ce classement pondère d'abord la proximité montagne, dérivée pour chaque ville de la distance haversine à la porte d'entrée du massif le plus proche parmi les grands massifs français (Alpes du Nord via Albertville, Alpes du Sud via Gap, Pyrénées via Lourdes, Massif Central via Clermont-Ferrand, Vosges via Gérardmer, Jura via Lons-le-Saunier, Massif corse via Corte) : une ville au pied d'un massif tient le score maximal, une ville à trente kilomètres reste dans la vie de massif au quotidien (skier après le boulot en semaine reste faisable, la sortie du dimanche l'est toujours), une ville à cent kilomètres bascule dans une géographie de week-end régulier, une ville au-delà de deux cent cinquante kilomètres sort du cadre. On complète par la nature globale (parce qu'un piémont sans forêt ni rivières perd la moitié de son intérêt), par la résistance canicule — l'altitude modère naturellement les étés et un pratiquant de montagne peut légitimement ne pas vouloir subir quarante degrés à la belle saison en plaine, l'écart entre vingt-deux degrés à Chambéry et trente-quatre à Perpignan pèse pour qui vit là toute l'année. On garde la qualité de l'air (les stations d'altitude affichent des ATMO systématiquement meilleurs que le fond de vallée voisin, avec une nuance importante pour les villes de fond de vallée elle-même — Grenoble, Chambéry, Annemasse — soumises aux inversions thermiques hivernales qui piègent particules et NO₂), on intègre la qualité de vie générale pour ne pas se retrouver dans une bourgade isolée sans services, on regarde la sécurité et on garde une marge pour les transports — parce que vivre en montagne sans desserte ferroviaire ni route dégagée l'hiver isole vite. Résultat : un palmarès tiré par les capitales alpines classiques (Grenoble, Chambéry, Annecy, tirées par leur position entre Chartreuse, Bauges, Belledonne, Vercors et Aravis), les préfectures des Hautes-Alpes et Alpes-de-Haute-Provence (Gap, Briançon, Digne-les-Bains, Manosque), les portes des Pyrénées (Pau, Tarbes, Lourdes, Foix), plusieurs villes du Massif Central proches d'un vrai relief (Clermont-Ferrand aux pieds des Puys, Aurillac au coeur du Cantal, Le Puy-en-Velay sur les monts du Velay), les Vosges et le Jura pour les massifs moyens du Grand Est (Épinal, Vesoul, Pontarlier, Lons-le-Saunier), et systématiquement en retrait — même très agréables par ailleurs — les grandes métropoles de plaine (Nantes, Bordeaux, Lille, Rennes, Reims), la façade littorale pure et le bassin parisien, qui ne remplissent pas le contrat de la vie de massif au quotidien.",
+    weights: {
+      mountainProximity: 3.0,
+      nature: 1.5,
+      canicule: 1.5,
+      life: 1.5,
+      qualiteAir: 1.0,
+      safety: 1.0,
+      transport: 0.5,
+    },
+    reasonHint: (c) => {
+      const km = computeCityDistances(c as CitySeed).mountain?.distanceKm;
+      const kmLabel = km == null
+        ? "distance massif non renseignée"
+        : km <= 3
+          ? "au pied du massif"
+          : `${Math.round(km)} km du massif`;
       return `${kmLabel} · nature ${c.scores.nature.toFixed(1)} · vie ${c.scores.life.toFixed(1)}`;
     },
   },
