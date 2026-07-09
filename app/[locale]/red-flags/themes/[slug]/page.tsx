@@ -284,6 +284,21 @@ const EN_THEMES: EnTheme[] = [
       "Severity = 50% cold factor (5 °C in January → 0, -1 °C → 10) + 50% grey factor (1,950 hours sunshine/year → 0, 1,480 hours → 10) + 1.2 penalty when both factors exceed 5/10. Sources: Météo-France 1991-2020 climatology (January temperatures, annual sunshine duration).",
   },
   {
+    enSlug: "young-workers-leaving",
+    frSlug: "villes-fuite-jeunes-actifs",
+    emoji: "🎒",
+    title: "Cities that 25-35s are quietly leaving",
+    metaTitle: "Young workers leaving 2026 — Cities losing their 25-35s",
+    metaDescription:
+      "2026 ranking of French cities losing their 25-35s: INSEE demographic deficit, negative balance, tight jobs market, weak business dynamism. 540-city dataset.",
+    intro:
+      "The scenario doesn't show up in the town's attractiveness brochure. The 18-22s leave to study in Lyon, Bordeaux or Toulouse, some vaguely think they'll come back 'later, when it's time to start a family' — and never do. By 30, the whole cohort has moved to the metropolitan hubs, and the city is left with a lid-shaped demography: seniors who stayed, teens who'll leave, and a gaping hole at the top of the working-age pyramid. It's the exact opposite of the town-centre revitalisation pitch.",
+    reality:
+      "We cross the `youngActives` score from `lib/demography` (INSEE census proxy for the 25-35 share) with `trajectory` (natural + migratory balance, INSEE Demographic Report) and the unemployment score from `lib/employment-market` (INSEE Q4 2024). Cities that surface here are rarely spectacular — no scandal, no pollution — but they compound three signals: structural young-worker deficit, negative demographic balance, and a labour market tense on the applicant side. A bonus applies for subprefectures under 25,000 where the missing critical mass makes retention even harder. The filter deliberately excludes cities already dominated by ageing (demographic composite ≥ 8.5) — those belong in the critical-ageing theme.",
+    methodology:
+      "Severity = (0.55 × youngActives + 0.18 × max(0, trajectory − 5) + 0.16 × max(0, unemployment − 5) + 0.10 × max(0, dynamism − 5) + size penalty +0.4 if <25,000 or +0.2 if <40,000) × 1.7, capped at 10/10. Filter: population ≥ 10,000, demographic composite < 8.5 (to avoid overlap with critical-ageing), severity ≥ 6/10. Sources: INSEE Population Census (25-35 age structure), INSEE Demographic Report 2024 (natural + migratory balance), INSEE unemployment rate Q4 2024, SIRENE (business creation flows).",
+  },
+  {
     enSlug: "daily-traffic-jams",
     frSlug: "villes-embouteillages-quotidiens",
     emoji: "🚥",

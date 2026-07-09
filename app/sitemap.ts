@@ -1059,7 +1059,7 @@ const EN_RED_FLAG_THEME_SLUGS = [
   "natural-hazards", "noise-nightmare", "water-stress", "medical-desert",
   "chronic-unemployment", "quality-of-life-stretched", "cost-explosion",
   "public-services-desert", "anti-cycling", "sports-poor-cities", "critical-ageing",
-  "tense-nights", "harsh-winters", "daily-traffic-jams",
+  "tense-nights", "harsh-winters", "daily-traffic-jams", "young-workers-leaving",
 ] as const;
 
 function enRedFlagsSection(): MetadataRoute.Sitemap {
