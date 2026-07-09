@@ -147,6 +147,32 @@ export default async function ProfilePage({ params }: Props) {
           </ul>
         </Card>
 
+        {/* Coastal counterpart — visible only for the littoral profile */}
+        {profile.slug === "amateurs-de-littoral" && (
+          <section>
+            <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+              L&apos;autre versant de la vie littorale
+            </h3>
+            <Link href="/red-flags/villes-erosion-cotiere" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl" aria-hidden>🌊</span>
+                  <div>
+                    <p className="font-semibold text-[var(--text-primary)]">
+                      Villes du littoral en péril côtier — érosion & submersion
+                    </p>
+                    <p className="text-xs text-[var(--text-secondary)] mt-1">
+                      Avant d&apos;acheter à Soulac, Lacanau, La Faute-sur-Mer ou au pied
+                      des falaises d&apos;Étretat, croisez le top littoral avec l&apos;indicateur
+                      national d&apos;érosion (BRGM TRAIT) et les projections GIEC AR6.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+          </section>
+        )}
+
         {/* Other profiles */}
         <section>
           <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">

@@ -155,6 +155,37 @@ export default function GentrificationIndex() {
             ))}
           </ul>
         </Card>
+
+        {/* Read next */}
+        <section>
+          <h2 className="text-lg font-bold text-[var(--text-primary)] mb-3">À lire aussi</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <Link href="/red-flags/villes-erosion-cotiere" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors h-full">
+                <div className="text-2xl mb-1">🌊</div>
+                <p className="font-semibold text-[var(--text-primary)]">
+                  Villes du littoral en péril côtier
+                </p>
+                <p className="text-xs text-[var(--text-secondary)] mt-1">
+                  Une trajectoire de gentrification balnéaire perd son sens si le bien
+                  est en zone de recul du trait de côte : classement BRGM TRAIT + GIEC AR6.
+                </p>
+              </Card>
+            </Link>
+            <Link href="/red-flags" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors h-full">
+                <div className="text-2xl mb-1">⚠️</div>
+                <p className="font-semibold text-[var(--text-primary)]">
+                  Red Flags — tous les angles
+                </p>
+                <p className="text-xs text-[var(--text-secondary)] mt-1">
+                  Bruit, inondation, pollution, désert médical, sécurité : ce que l&apos;annonce
+                  immobilière ne dit jamais avant la signature.
+                </p>
+              </Card>
+            </Link>
+          </div>
+        </section>
       </div>
 
       <Footer />

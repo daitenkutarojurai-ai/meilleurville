@@ -104,6 +104,20 @@ export default function DepuisIndexPage() {
           Voir aussi
         </h2>
         <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <Link href="/red-flags/villes-erosion-cotiere" className="block">
+            <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+              <div className="flex items-start gap-3">
+                <span className="text-2xl">🌊</span>
+                <div>
+                  <p className="font-semibold text-[var(--text-primary)]">Villes du littoral en péril côtier</p>
+                  <p className="text-xs text-[var(--text-secondary)] mt-1">
+                    La Rochelle, Biarritz, Étretat, Palavas : avant d&apos;acheter la maison de week-end
+                    avec vue mer, regardez le recul du trait de côte (BRGM TRAIT + GIEC AR6).
+                  </p>
+                </div>
+              </div>
+            </Card>
+          </Link>
           <Link href="/red-flags/villes-embouteillages-quotidiens" className="block">
             <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
               <div className="flex items-start gap-3">
