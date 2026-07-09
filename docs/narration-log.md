@@ -10,3 +10,4 @@ Les données factuelles (chiffres, scores, noms) ne sont jamais modifiées.
 - 2026-07-06 app/guides/[slug]/page.tsx :: meilleure-ville-famille-france
 - 2026-07-07 app/guides/[slug]/page.tsx :: quitter-paris-guide-2025
 - 2026-07-08 app/guides/[slug]/page.tsx :: budget-vivre-en-france-comparatif
+- 2026-07-09 app/red-flags/[slug]/page.tsx :: villes-erosion-cotiere
