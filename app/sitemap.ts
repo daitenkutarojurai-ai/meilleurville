@@ -54,6 +54,7 @@ const SITEMAP_CHUNKS_FR = [
   "quitter",
   "cout-menage",
   "vacances",
+  "badges",
 ] as const;
 
 const SITEMAP_CHUNKS_EN = [
@@ -1274,6 +1275,23 @@ function coutMenageSection(): MetadataRoute.Sitemap {
   }));
 }
 
+function badgesSection(): MetadataRoute.Sitemap {
+  return [
+    {
+      url: `${BASE_URL}/badge`,
+      lastModified: STATIC_UPDATED,
+      changeFrequency: "monthly",
+      priority: 0.6,
+    },
+    ...CITIES_SEED.map((c) => ({
+      url: `${BASE_URL}/badge/${c.slug}`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.5,
+    })),
+  ];
+}
+
 function vacancesSection(): MetadataRoute.Sitemap {
   const MONTH_SLUGS = [
     "janvier", "février", "mars", "avril", "mai", "juin",
@@ -1359,6 +1377,7 @@ export default async function sitemap({ id }: { id: Promise<string> }): Promise<
     case "quitter": return quitterSection();
     case "cout-menage": return coutMenageSection();
     case "vacances": return vacancesSection();
+    case "badges": return badgesSection();
     case "en-static": return enStaticSection();
     case "en-cities": return enCitySection();
     case "en-rankings": return enRankingsSection();

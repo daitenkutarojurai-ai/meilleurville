@@ -1231,6 +1231,22 @@ export function CityProfile({ city, data, faq, locale = "fr" }: { city: CitySeed
                   </div>
                   <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
                 </a>
+                {locale === "fr" && (
+                  <a
+                    href={`/badge/${city.slug}`}
+                    className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group sm:col-span-2 lg:col-span-1"
+                  >
+                    <div className="min-w-0">
+                      <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                        🏷️ Badge à embarquer
+                      </div>
+                      <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
+                        Rang national + score, code HTML à coller sur votre site
+                      </div>
+                    </div>
+                    <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
+                  </a>
+                )}
               </div>
             </div>
           </div>
