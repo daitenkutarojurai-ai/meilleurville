@@ -1591,6 +1591,97 @@ function rankEmbouteillagesQuotidiens(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
 }
 
+// --- THEME 32 — Manque de verdure au quotidien ---
+// Distinct des thèmes environnement/santé/emploi cumulés (`villes-cadre-de-vie-tendu`
+// utilise le méga-index) et du composite sport & loisirs (`villes-pauvres-en-sport`
+// intègre l'outdoor sportif). Ici on isole le seul signal `city.scores.nature`
+// du seed — accès quotidien à la verdure : parcs urbains, ceinture forestière,
+// bord de rivière ou plan d'eau, coulée verte praticable à pied depuis le
+// centre. C'est la dimension qui pèse le plus sur le bien-être psychique
+// (rapport ADEME 2023 sur les îlots de fraîcheur, méta-analyse Nature 2019 sur
+// green space et santé mentale, référence OMS « 9 m² d'espaces verts par
+// habitant minimum ») mais qui n'apparaît nulle part sur une plaquette
+// immobilière — vue depuis la fenêtre l'agent parle de « lumière » et de
+// « perspectives urbaines », rarement du dernier arbre visible du salon.
+//
+// Cible : villes ≥ 30 000 hab. dont le score nature (10 = excellent) tombe
+// ≤ 5,0/10 après normalisation seed. Le filtre population écarte les petites
+// communes où l'absence de parc structuré est mécanique (surface commune
+// faible) et où la nature environnante compense presque toujours — on cible
+// bien le contexte urbain dense, où la surface bâtie plafonne l'accès aux
+// espaces végétalisés. Bonus de gravité amplifié par :
+//  - la densité urbaine (population élevée → moins d'espace par habitant),
+//  - le score environnement (env-health) faible : quand le cadre général est
+//    déjà dégradé, l'absence de verdure aggrave le ressenti,
+//  - l'absence de tag character végétal explicite du seed (verdoyant / nature
+//    / parc / forêt / campagne / vert / montagne / bord de mer) : la commune
+//    ne revendique pas la verdure comme vocation,
+//  - la région Île-de-France dense hors Paris (couronne bétonnée où la
+//    proximité de Fontainebleau ou de Rambouillet n'est pas quotidienne).
+//
+// Indicateur dédié aux familles avec enfants (jeu extérieur quotidien), aux
+// retraités qui marchent (proximité d'un parc = sortie journalière), aux
+// personnes fragiles psychiquement (contact quotidien avec la nature =
+// facteur documenté de résilience) et aux télétravailleurs enfermés cinq
+// jours sur sept qui se posent la vraie question : « en sortant de mon
+// bureau à 18 h, à quelle distance à pied trouvé-je un vrai espace vert où
+// souffler ? ».
+const GREEN_TAGS_REGEX = /verdoyant|nature|parc|forêt|foret|campagne|\bvert\b|montagne|mer|bord|littoral|lac|riverside/i;
+
+function rankManqueDeVerdure(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    const pop = city.population ?? 0;
+    if (pop < 30_000) continue; // hors-cible : rural/périurbain, contexte différent
+    const natureScore = city.scores.nature;
+    if (natureScore > 5.0) continue; // verdure quotidienne accessible — hors-cible
+
+    // Base : (5 − nature) × 2 — 0 à nature=5, 8 à nature=1. Aligné sur la
+    // convention des autres thèmes à convention positive (culture, sport).
+    let severity = (5 - natureScore) * 2;
+
+    // Bonus densité urbaine — plus la ville est peuplée, plus les m² d'espaces
+    // verts par habitant se raréfient mécaniquement.
+    //   80 000 hab. → +0,3 · 250 000 hab. → +1,0 · 600 000+ → plafonné à +1,3.
+    if (pop >= 80_000) {
+      const popBonus = Math.min(1.3, Math.log10(pop / 80_000) * 1.3);
+      severity += popBonus;
+    }
+
+    // Bonus environnement dégradé — si le cadre général est déjà tendu
+    // (envScore ≤ 5/10, convention 10 = sain), l'absence de verdure aggrave.
+    const qol = computeQualityOfLife(city);
+    if (qol.envScore <= 5) severity += 0.8;
+    else if (qol.envScore <= 6) severity += 0.4;
+
+    // Bonus absence de tag character végétal — la commune n'affiche pas la
+    // verdure comme vocation dans le seed propriétaire (aucun tag nature /
+    // parc / verdoyant / montagne / mer / campagne).
+    const tags = (city.characterTags ?? []).join(" ").toLowerCase();
+    const hasGreenTag = GREEN_TAGS_REGEX.test(tags);
+    if (!hasGreenTag) severity += 0.6;
+
+    // Bonus couronne francilienne dense — Île-de-France hors Paris (le noyau
+    // urbanisé Petite Couronne, où la proximité de Fontainebleau ou Rambouillet
+    // n'entre pas dans la vie quotidienne accessible à pied).
+    const isIdfSuburb = city.region === "Île-de-France" && city.slug !== "paris";
+    if (isIdfSuburb && pop >= 50_000) severity += 0.5;
+
+    severity = Math.min(10, severity);
+    if (severity < 6) continue;
+
+    const envNote = qol.envScore <= 5
+      ? " · environnement tendu"
+      : qol.envScore <= 6
+        ? " · environnement moyen"
+        : "";
+    const tagNote = hasGreenTag ? "" : " · pas de vocation verte affichée";
+    const reason = `Nature ${natureScore.toFixed(1)}/10 · ${pop.toLocaleString("fr-FR")} hab.${envNote}${tagNote}`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -2056,6 +2147,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Severity = 0,35 × facteur transport (6,5 → 0, 3,5 → 10) + 0,25 × facteur population (40 000 → 0, 400 000 → 10) + bonus zonal (couronne IDF +2,2 / Marseille +2,0 / Lyon +1,9 / cuvette grenobloise +1,8 / Riviera +1,7 / frontière Genève +1,7 / Bordeaux +1,5 / Nantes +1,5 / Toulouse +1,5 / Lille +1,2) + 0,5 si le score coût est ≤ 5/10 (bonus commutation longue distance : housing cher → logés en périphérie → trajets plus longs, saturation aux extrémités du bassin). Clampé à 10/10, filtré à severity ≥ 5, transport ∈ [3,5 ; 6,5], population ≥ 40 000 hab., Paris intra-muros exclu (la voiture y est déjà marginale). Sources sous-jacentes : Bison Futé (archives des sections rouges et noires par week-end 2022-2024), Sytadin (Direction des Routes d'Île-de-France, données temps réel autoroutes A1-A15-A86-A104), Cartes SIREDO (Ministère de la Transition écologique, comptages autoroutiers permanents), seed propriétaire (scores.transport, scores.cost, population, department). Caveat : le score transport agrège l'offre TC + walkability OSM et ne mesure pas directement la congestion routière ; on l'utilise ici comme proxy inverse (peu de TC + population élevée + couloir saturé documenté = pression congestion). L'écart intra-communal peut être fort (Vitrolles centre vs zone Fos, Vénissieux Minguettes vs Perrache) — la donnée porte sur la commune entière. Vérifier les cartes de saturation Bison Futé + les temps de trajet Waze/Google réels sur un mardi matin de novembre avant tout achat en couronne péri-urbaine.",
     rank: rankEmbouteillagesQuotidiens,
+  },
+  {
+    slug: "villes-manque-de-verdure",
+    title: "Villes où la verdure quotidienne manque cruellement",
+    metaTitle: "Villes manque de verdure 2026 — Où la nature ne tient pas au quotidien",
+    metaDescription:
+      "Classement 2026 des villes françaises ≥ 30 000 hab. au score nature ≤ 5/10 : peu de parcs, ceinture verte lointaine, densité urbaine étouffante. Familles, retraités, télétravailleurs.",
+    emoji: "🌵",
+    intro:
+      "L'annonce vante « la lumière traversante », « les perspectives urbaines », « le boulevard planté ». Personne ne mentionne que le premier vrai parc digne du nom se trouve à 25 minutes de marche, que la ceinture forestière commence à 40 kilomètres en voiture, et que sur la carte satellite le quartier apparaît uniformément gris de toits. Pour les enfants qui devraient s'aérer chaque soir, pour les retraités qui marchent une heure par jour, pour le télétravailleur enfermé cinq jours sur sept derrière son écran, l'accès quotidien à la verdure n'est pas un luxe — c'est une composante documentée du bien-être psychique. Et elle ne se voit pas sur une photo d'intérieur baignée de soleil de mai.",
+    reality:
+      "On classe les villes ≥ 30 000 habitants dont le score nature du seed tombe à 5,0/10 ou moins — c'est-à-dire les bassins urbains où le maillage parcs + espaces verts + ceinture forestière accessible à pied ou en transports quotidiens ne tient pas. La convention est positive (10 = excellent), donc faible = pire. Deux profils dominent : les métropoles denses où l'urbanisation en tache d'huile a repoussé la nature vraie à 30-60 kilomètres, et les communes de la Petite Couronne francilienne où la proximité de Fontainebleau ou de Rambouillet n'entre pas dans le vécu quotidien — 45 minutes en RER un dimanche ne remplace pas un parc à 400 mètres du logement le mercredi soir. On amplifie la gravité quand le cadre environnemental global est déjà tendu (envScore ≤ 5/10 dans le méga-index Cadre de Vie), quand la commune n'affiche même pas la verdure comme vocation dans ses character-tags propriétaires (aucun tag nature / verdoyant / parc / forêt / campagne / vert / montagne / mer), et quand la population dépasse le seuil de tension métropolitaine où les m² d'espaces verts par habitant chutent structurellement sous la recommandation OMS de 9 m²/habitant.",
+    methodology:
+      "Severity = (5 − nature seed) × 2 + bonus densité urbaine (80 000 hab. +0,3 · 250 000 hab. +1,0 · plafonné à +1,3 pour éviter que les 3 plus grandes villes saturent seules le classement) + 0,8 si envScore ≤ 5/10 (ou +0,4 si ≤ 6/10) + 0,6 si aucun tag character végétal (verdoyant / nature / parc / forêt / campagne / vert / montagne / mer / bord / littoral / lac) + 0,5 si couronne francilienne ≥ 50 000 hab. hors Paris. Clampé à 10/10, filtré à severity ≥ 6. Sources sous-jacentes : score nature seed propriétaire (dérivé du taux d'espaces verts communaux CORINE Land Cover 2018 + proximité massifs forestiers ONF + accessibilité TER/RER à un espace vert ≥ 10 ha), méga-index Cadre de Vie site (env-health / healthcare-access / employment-market), character-tags seed. Références : recommandation OMS « 9 m² d'espaces verts par habitant minimum », rapport ADEME 2023 sur les îlots de fraîcheur urbains, méta-analyse Nature 2019 sur green space et santé mentale. Caveat : une politique municipale de renaturation lancée après 2023 (Grand Paris, Marseille, Toulouse) peut faire évoluer la note à moyen terme — le score seed reste indicatif au temps du recensement.",
+    rank: rankManqueDeVerdure,
   },
 ];
 
