@@ -571,6 +571,27 @@ export const PROFILE_PAGES: ProfileDef[] = [
       `Cyclabilité ${computeCyclingMobility(c).composite.toFixed(1)} · transport ${c.scores.transport.toFixed(1)} · sans voiture ${ownerVal(c, "sansVoiture").toFixed(1)}`,
   },
   {
+    slug: "mobilite-reduite",
+    emoji: "♿",
+    label: "Personnes à mobilité réduite",
+    metaTitle: "Meilleures villes mobilité réduite 2026 — Top 20 France",
+    metaDescription:
+      "Top 20 villes françaises pour vivre avec une mobilité réduite : métro/tramway PMR, centre-ville plat et court, calme, coût soutenable. Indicateurs indirects assumés.",
+    intro:
+      "Personnes à mobilité réduite : votre arbitrage ne se laisse pas mesurer aussi frontalement que celui d'un télétravailleur ou d'un investisseur locatif. Les vraies métriques qui feraient un palmarès parfait — pourcentage exact de stations de métro équipées d'ascenseur en état, ratio de bus plancher bas récents, densité de bateaux abaissés sur les trottoirs par kilomètre de voirie, largeur moyenne des trottoirs hors centre-ville historique, état de la voirie dégradée en périphérie, part de commerces marqués Tourisme & Handicap — ne sont pas centralisées commune par commune de manière comparable, et une même ville peut afficher un métro exemplaire et des trottoirs de quartier catastrophiques à trois cents mètres. Ce classement travaille donc en indicateurs indirects — mais des indicateurs qui, mis bout à bout, dessinent une géographie utile pour partir sur des pistes solides avant une visite terrain. Le transport en commun d'abord, poids le plus lourd : les métropoles dotées d'un métro ou d'un tramway (Lyon, Marseille, Toulouse, Lille, Rennes, Strasbourg, Nantes, Bordeaux, Montpellier, Angers, Le Havre, Dijon, Valenciennes, Reims, Nice, Saint-Étienne, Grenoble, Rouen, Le Mans, Tours, Brest, Caen, Orléans, Aubagne, Besançon, Avignon) ont massivement rénové leurs stations et rames sous l'obligation de la loi handicap de 2005 (article 45), et embarquent aujourd'hui la quasi-totalité de leurs lignes de tramway et une majorité de leurs stations de métro en accessibilité PMR intégrale — contrairement aux réseaux 100 % bus, qui restent inégaux malgré la généralisation du plancher bas et des palettes rétractables. Paris fait exception à double titre : réseau métro historique très partiellement accessible (une quinzaine de lignes seulement) mais couverture RER et tramway T3/T6/T8 plus favorable, et bus intégralement plancher bas. Le score sans voiture et la qualité de vie pondèrent la marchabilité réelle du centre-ville — un cœur historique piétonnisé, plat et court est infiniment plus praticable qu'une conurbation étirée où chaque trajet dépasse un kilomètre. La sécurité globale et le bruit environnant réduisent les risques de chute et facilitent la lecture de l'environnement — impératif pour qui compense partiellement une contrainte physique par une vigilance visuelle ou auditive accrue, ou pour qui ne peut pas s'écarter rapidement en cas de danger. Le coût enfin, parce que la mobilité réduite s'accompagne très souvent d'une pension d'invalidité, d'une AAH plafonnée ou d'une retraite anticipée pour inaptitude, et parce que l'aménagement d'un logement adapté (barres d'appui, siège de douche, WC surélevés, largeur de portes conforme, plan incliné) représente 2 000 à 8 000 € qu'un budget serré ne peut pas amortir sur un loyer déjà tendu. La qualité de l'air reste utile en marge — BPCO et pathologies respiratoires chroniques concernent une part significative de la population à mobilité réduite d'origine cardio-pulmonaire ou neuro-musculaire. Résultat : un palmarès tiré par les métropoles à réseau métro et tramway couvrant (Lyon, Strasbourg, Nantes, Rennes, Toulouse, Bordeaux, Montpellier, Angers, Grenoble, Lille), plusieurs villes moyennes à cœur historique compact, plat et bien desservi (Vannes, La Rochelle, Colmar, Chartres, Amboise, Chambéry), et systématiquement en retrait les grandes conurbations sans transit lourd, les banlieues sans centre marchable et les villes de relief sévère où chaque trottoir devient un obstacle. Un rappel important : ce classement n'est pas un audit d'accessibilité — c'est un point de départ. Une visite terrain reste indispensable, notamment pour la voirie de proximité du quartier ciblé, l'accessibilité réelle du logement visé, la présence des services médico-sociaux nécessaires, et la disponibilité effective des créneaux de transport adapté (TAD, PMR sur demande).",
+    weights: {
+      transport: 2.5,
+      sansVoiture: 2.0,
+      safety: 1.5,
+      life: 1.5,
+      bruit: 1.0,
+      cost: 1.0,
+      qualiteAir: 0.5,
+    },
+    reasonHint: (c) =>
+      `Transport ${c.scores.transport.toFixed(1)} · sans voiture ${ownerVal(c, "sansVoiture").toFixed(1)} · calme ${ownerVal(c, "bruit").toFixed(1)}`,
+  },
+  {
     slug: "amateurs-de-littoral",
     emoji: "🌊",
     label: "Amateurs de littoral",

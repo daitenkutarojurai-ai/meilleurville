@@ -161,6 +161,7 @@ function staticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/pour-qui/proches-aidants`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/pour-qui/futurs-retraites`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/pour-qui/cyclistes-urbains`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/pour-qui/mobilite-reduite`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/pour-qui/amateurs-de-littoral`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/pour-qui/amateurs-de-montagne`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/salaire-equivalent`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
