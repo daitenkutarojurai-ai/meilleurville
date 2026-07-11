@@ -299,6 +299,21 @@ const EN_THEMES: EnTheme[] = [
       "Severity = (0.55 × youngActives + 0.18 × max(0, trajectory − 5) + 0.16 × max(0, unemployment − 5) + 0.10 × max(0, dynamism − 5) + size penalty +0.4 if <25,000 or +0.2 if <40,000) × 1.7, capped at 10/10. Filter: population ≥ 10,000, demographic composite < 8.5 (to avoid overlap with critical-ageing), severity ≥ 6/10. Sources: INSEE Population Census (25-35 age structure), INSEE Demographic Report 2024 (natural + migratory balance), INSEE unemployment rate Q4 2024, SIRENE (business creation flows).",
   },
   {
+    enSlug: "theft-burglary",
+    frSlug: "villes-vols-cambriolages",
+    emoji: "🔓",
+    title: "Cities weighed down by burglary and vehicle theft",
+    metaTitle: "Theft & burglary 2026 — France's most affected cities",
+    metaDescription:
+      "2026 ranking of French cities over 30,000 where the property-crime sub-score exceeds 6.5/10: burglary, vehicle theft, wilful damage. Source: SSMSI.",
+    intro:
+      "The headline safety score reads 'average' and the listing brochure sells you the quiet residential street, the gated parking, the alarm system included. On the ground: car found broken into on Tuesday morning, the block's cellar picked over, the neighbour's scooter stolen twice in six months, and the same tired conversation at the auto-glass shop the third time you replace the rear windscreen. Property offences — burglary, vehicle theft, wilful damage — don't kill anyone, but they wear down daily life and the wallet with a regularity that never appears in a brochure.",
+    reality:
+      "We isolate the `property` sub-score from `lib/safety-deep` — the dimension that carries 35% of the safety composite and aggregates residential burglary, vehicle theft and attempted theft, thefts from parked vehicles, and wilful damage (SSMSI). We keep cities over 30,000 whose sub-score exceeds 6.5/10. Severity bonus when the persons-crime sub-score corroborates (an isolated signal can be a one-off; a compound of property + persons ≥ 6 reveals a genuine basin-wide reality). Another bonus when the city is a large metropolis with a global score ≥ 6.5/10 — the polished, desirable façade that hides a chronic burglary undercurrent. A final bonus when the city is explicitly tourism-tagged and over 30,000: seasonal saturation of break-ins on second homes and rental vehicles, particularly documented along the Mediterranean coast and the Atlantic seaboard.",
+    methodology:
+      "Severity = property sub-score + 0.8 if persons ≥ 6/10 + 0.5 if metropolis with global score ≥ 6.5 + 0.4 if tourism-tagged and over 30,000. Safety-deep composite weighting: property 35% · persons 30% · night 20% · gender-based violence 15%. Sources: SSMSI (Interior Ministry statistics service, interstats.fr — municipal property-crime series), INSEE population, proprietary character-tags (metropolis / tourism vocation). Caveat: a high rate may reflect both genuine pressure AND a better reporting rate; theft of dockless shared bikes falls outside the standard SSMSI perimeter.",
+  },
+  {
     enSlug: "daily-traffic-jams",
     frSlug: "villes-embouteillages-quotidiens",
     emoji: "🚥",
