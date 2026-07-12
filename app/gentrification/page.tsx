@@ -159,7 +159,7 @@ export default function GentrificationIndex() {
         {/* Read next */}
         <section>
           <h2 className="text-lg font-bold text-[var(--text-primary)] mb-3">À lire aussi</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
             <Link href="/red-flags/villes-erosion-cotiere" className="block">
               <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors h-full">
                 <div className="text-2xl mb-1">🌊</div>
@@ -169,6 +169,19 @@ export default function GentrificationIndex() {
                 <p className="text-xs text-[var(--text-secondary)] mt-1">
                   Une trajectoire de gentrification balnéaire perd son sens si le bien
                   est en zone de recul du trait de côte : classement BRGM TRAIT + GIEC AR6.
+                </p>
+              </Card>
+            </Link>
+            <Link href="/red-flags/villes-manque-de-verdure" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors h-full">
+                <div className="text-2xl mb-1">🌵</div>
+                <p className="font-semibold text-[var(--text-primary)]">
+                  Villes où la verdure quotidienne manque
+                </p>
+                <p className="text-xs text-[var(--text-secondary)] mt-1">
+                  L&apos;autre versant de la trajectoire haussière : les cœurs urbains
+                  qui gentrifient le plus vite sont souvent ceux où le premier parc
+                  digne du nom est à 25 minutes de marche.
                 </p>
               </Card>
             </Link>

@@ -147,6 +147,36 @@ export default async function ProfilePage({ params }: Props) {
           </ul>
         </Card>
 
+        {/* Greenery counterpart — visible for profiles where daily accessible
+            green space carries most weight (families, retirees, remote workers,
+            reduced mobility). Complements the top-20 with the red-flag pendant. */}
+        {["familles-avec-enfants", "jeunes-parents", "familles-avec-ados", "retraites", "futurs-retraites", "teletravailleurs", "mobilite-reduite"].includes(profile.slug) && (
+          <section>
+            <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+              Le pendant à éviter — verdure quotidienne
+            </h3>
+            <Link href="/red-flags/villes-manque-de-verdure" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl" aria-hidden>🌵</span>
+                  <div>
+                    <p className="font-semibold text-[var(--text-primary)]">
+                      Villes où la verdure quotidienne manque cruellement
+                    </p>
+                    <p className="text-xs text-[var(--text-secondary)] mt-1">
+                      Avant de valider un déménagement, croisez le top ci-dessus avec les
+                      bassins urbains ≥ 30 000 hab. dont le score nature tombe à 5/10 ou
+                      moins — parc à 25 min de marche, ceinture forestière à 40 km,
+                      densité étouffante. Une carte pour éviter que la promesse
+                      « lumière traversante » ne cache un quotidien 100 % minéral.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+          </section>
+        )}
+
         {/* Coastal counterpart — visible only for the littoral profile */}
         {profile.slug === "amateurs-de-littoral" && (
           <section>

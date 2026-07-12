@@ -145,6 +145,21 @@ export default function DepuisIndexPage() {
               </div>
             </Card>
           </Link>
+          <Link href="/red-flags/villes-manque-de-verdure" className="block">
+            <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+              <div className="flex items-start gap-3">
+                <span className="text-2xl">🌵</span>
+                <div>
+                  <p className="font-semibold text-[var(--text-primary)]">Villes où la verdure quotidienne manque</p>
+                  <p className="text-xs text-[var(--text-secondary)] mt-1">
+                    Si votre ville de départ fait partie des bassins urbains où le premier parc digne
+                    du nom est à 25 min de marche, le week-end au vert n&apos;est pas un bonus — c&apos;est
+                    la respiration qui compense la semaine.
+                  </p>
+                </div>
+              </div>
+            </Card>
+          </Link>
         </div>
       </section>
 

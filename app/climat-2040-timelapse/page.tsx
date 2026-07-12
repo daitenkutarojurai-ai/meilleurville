@@ -53,7 +53,7 @@ export default function Climat2040TimelapsePage() {
 
         <section className="mt-12">
           <h2 className="text-xl font-semibold text-[var(--text-primary)] mb-3">À lire aussi</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
             <Link href="/red-flags/villes-climat-2040-deteriore" className="block">
               <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors h-full">
                 <div className="text-2xl mb-1">🌡️</div>
@@ -63,6 +63,19 @@ export default function Climat2040TimelapsePage() {
                 <p className="text-xs text-[var(--text-secondary)] mt-1">
                   Le classement des villes ≥ 15 000 hab. dont juillet, jours &gt; 30 °C et
                   nuits tropicales projetées cumulent le plus.
+                </p>
+              </Card>
+            </Link>
+            <Link href="/red-flags/villes-manque-de-verdure" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors h-full">
+                <div className="text-2xl mb-1">🌵</div>
+                <p className="font-semibold text-[var(--text-primary)]">
+                  Villes où la verdure quotidienne manque
+                </p>
+                <p className="text-xs text-[var(--text-secondary)] mt-1">
+                  Le pendant local du timelapse : sans canopée urbaine ni ceinture verte
+                  proche, l&apos;îlot de chaleur amplifie mécaniquement les projections
+                  ARPEGE — 2 à 4 °C ressentis en plus sur les tissus les plus minéraux.
                 </p>
               </Card>
             </Link>

@@ -6,3 +6,4 @@ Une ligne par run de l'agent de maillage. Format :
 - 2026-07-05 app/red-flags/villes-embouteillages-quotidiens/page.tsx (5 liens ajoutés)
 - 2026-07-07 app/comparer-departements/page.tsx (5 liens ajoutés)
 - 2026-07-09 app/red-flags/villes-erosion-cotiere/page.tsx (5 liens ajoutés)
+- 2026-07-12 app/red-flags/villes-manque-de-verdure/page.tsx (5 liens ajoutés)
