@@ -327,9 +327,11 @@ function matchSections(guide, pois, cityName) {
         score = 10 + dist.join("").length;
       }
       if (!score) continue;
-      // Notability tiebreak: between the basilica and the square that share the
-      // name "Fourvière", the one with encyclopedia articles is the landmark.
-      if (p.links > 0) score += 6;
+      // Notability tiebreak, weighted by how many Wikipedias carry the item.
+      // A binary bonus left the basilica and the *place* de Fourvière tied on
+      // score, so the winner came down to SPARQL row order — which is not
+      // stable across crawls. The basilica has ~30 articles, the square ~1.
+      score += Math.min(p.links, 20) * 0.5;
       if (!best || score > best.score) best = { poi: p, label, core: c, score };
     }
     if (best) {

@@ -21,8 +21,17 @@ interface Props {
 const normalize = (s: string) =>
   s.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "");
 
+// `?categorie=tourisme` preselects a filter — the category chip on a guide page
+// links here. Read lazily rather than in an effect: the value is known on the
+// first render, so an effect would only cause a second one.
+const initialCategory = () => {
+  if (typeof window === "undefined") return "all";
+  const c = new URLSearchParams(window.location.search).get("categorie");
+  return c && GUIDE_CATEGORIES.some((cat) => cat.id === c) ? c : "all";
+};
+
 export function GuidesGrid({ guides, now }: Props) {
-  const [activeCategory, setActiveCategory] = useState<string>("all");
+  const [activeCategory, setActiveCategory] = useState<string>(initialCategory);
   const [query, setQuery] = useState("");
   const q = normalize(query.trim());
 

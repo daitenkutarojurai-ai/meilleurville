@@ -21,6 +21,9 @@ interface NavItem {
   href: string;
   emoji: string;
   matchPrefix?: string;
+  /** Pills are shrink-0 + nowrap, so the bar cannot absorb a 6th one at lg
+   *  without pushing into the logo. The lowest-priority pill waits for xl. */
+  xlOnly?: boolean;
 }
 
 interface MenuGroup {
@@ -28,13 +31,14 @@ interface MenuGroup {
   items: NavItem[];
 }
 
-// Desktop top bar — 4 compact pills, short labels to save space
+// Desktop top bar — compact pills, short labels to save space
 const NAV_PRIMARY_FR: NavItem[] = [
   { label: "Villes",     href: "/villes",                emoji: "🌍", matchPrefix: "/villes" },
   { label: "Top",        href: "/classements",           emoji: "📊", matchPrefix: "/classements" },
+  { label: "Guides",     href: "/guides",                emoji: "📖", matchPrefix: "/guides" },
   { label: "VS",         href: "/comparer",              emoji: "⚖️", matchPrefix: "/comparer" },
   { label: "Politique",  href: "/orientation-politique", emoji: "🗳️", matchPrefix: "/orientation-politique" },
-  { label: "Red Flags",  href: "/red-flags",             emoji: "🚩", matchPrefix: "/red-flags" },
+  { label: "Red Flags",  href: "/red-flags",             emoji: "🚩", matchPrefix: "/red-flags", xlOnly: true },
 ];
 const NAV_PRIMARY_EN: NavItem[] = [
   { label: "Cities",  href: "/cities",   emoji: "🌍", matchPrefix: "/cities" },
@@ -339,6 +343,7 @@ export function Navbar() {
                   aria-current={active ? "page" : undefined}
                   className={cn(
                     "flex shrink-0 items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-medium whitespace-nowrap transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]",
+                    link.xlOnly && "hidden xl:flex",
                     active
                       ? "bg-[var(--accent)] text-white shadow-sm shadow-[var(--accent)]/40"
                       : "text-[var(--text-secondary)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)]"

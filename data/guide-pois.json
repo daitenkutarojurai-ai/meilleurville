@@ -37,21 +37,21 @@
   },
   "10-choses-a-faire-a-lyon-2026": {
     "2": {
-      "name": "place de Fourvière",
-      "qid": "Q61456665",
-      "lat": 45.762126,
-      "lng": 4.821903,
-      "wiki": null,
-      "file": "Lyon - panoramio (59).jpg",
-      "src": "/photos/poi/Q61456665.e1cb52a2.webp",
+      "name": "basilique Notre-Dame de Fourvière",
+      "qid": "Q1516",
+      "lat": 45.762291666,
+      "lng": 4.822555555,
+      "wiki": "https://fr.wikipedia.org/wiki/Basilique_Notre-Dame_de_Fourvi%C3%A8re",
+      "file": "France-003038 - Basilica of Notre-Dame de Fourvière (15939822990).jpg",
+      "src": "/photos/poi/Q1516.4cffeaea.webp",
       "width": 640,
       "height": 400,
-      "color": "#5898e8",
-      "author": "Patrick Nouhailler's…",
-      "authorUrl": "https://web.archive.org/web/20161026065110/http://www.panoramio.com/user/1286122?with_photo_id=74981150",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Lyon_-_panoramio_(59).jpg"
+      "color": "#68a8e8",
+      "author": "Dennis G. Jarvis",
+      "authorUrl": "https://www.wikidata.org/wiki/Q122977591",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:France-003038_-_Basilica_of_Notre-Dame_de_Fourvi%C3%A8re_(15939822990).jpg"
     },
     "3": {
       "name": "abbaye de l'Île Barbe",
@@ -287,21 +287,21 @@
       "commonsUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Fabre_-_panoramio.jpg"
     },
     "9": {
-      "name": "quartier Antigone",
-      "qid": "Q2853220",
-      "lat": 43.608002777,
-      "lng": 3.890555555,
-      "wiki": "https://fr.wikipedia.org/wiki/Antigone_(Montpellier)",
-      "file": "Antigone nuit 02.jpg",
-      "src": "/photos/poi/Q2853220.9f3e49b9.webp",
+      "name": "place de la Comédie",
+      "qid": "Q1065164",
+      "lat": 43.608663888,
+      "lng": 3.879897222,
+      "wiki": "https://fr.wikipedia.org/wiki/Place_de_la_Com%C3%A9die_(Montpellier)",
+      "file": "Montpellier - Opéra Comédie.jpg",
+      "src": "/photos/poi/Q1065164.e7f1db7e.webp",
       "width": 640,
       "height": 400,
       "color": "#080808",
-      "author": "Mystère B",
-      "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Myst%C3%A8re_B&amp;action=edit&amp;redlink=1",
-      "license": "CC BY 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Antigone_nuit_02.jpg"
+      "author": "Christophe.Finot",
+      "authorUrl": "https://fr.wikipedia.org/wiki/Utilisateur:Christophe.Finot",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Montpellier_-_Op%C3%A9ra_Com%C3%A9die.jpg"
     }
   },
   "10-choses-a-faire-a-lille-2026": {
@@ -753,13 +753,13 @@
       "commonsUrl": "https://commons.wikimedia.org/wiki/File:Perpignan_Castillet_1.jpg"
     },
     "9": {
-      "name": "Château-Roussillon",
-      "qid": "Q28712425",
-      "lat": 42.71119444,
-      "lng": 2.94655556,
-      "wiki": null,
-      "file": "Château-Roussillon tower(2).jpg",
-      "src": "/photos/poi/Q28712425.d7c47aaa.webp",
+      "name": "tour de Château-Roussillon",
+      "qid": "Q22997692",
+      "lat": 42.7112,
+      "lng": 2.9466,
+      "wiki": "https://fr.wikipedia.org/wiki/Tour_de_Ch%C3%A2teau-Roussillon",
+      "file": "Château-Roussillon tower.jpg",
+      "src": "/photos/poi/Q22997692.1866c4bf.webp",
       "width": 640,
       "height": 400,
       "color": "#4878a8",
@@ -767,7 +767,7 @@
       "authorUrl": "https://commons.wikimedia.org/wiki/User:Palauenc05",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau-Roussillon_tower(2).jpg"
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau-Roussillon_tower.jpg"
     }
   },
   "10-choses-a-faire-a-le-havre-2026": {
@@ -2352,21 +2352,21 @@
   },
   "10-choses-a-faire-a-macon-2026": {
     "2": {
-      "name": "place Lamartine",
-      "qid": "Q105106794",
-      "lat": 46.3068637,
-      "lng": 4.831522242,
-      "wiki": null,
-      "file": "Place Lamartine - Mâcon (FR71) - 2021-03-01 - 2.jpg",
-      "src": "/photos/poi/Q105106794.0cf5a376.webp",
+      "name": "musée Lamartine",
+      "qid": "Q3329237",
+      "lat": 46.3051,
+      "lng": 4.8328,
+      "wiki": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Lamartine",
+      "file": "Académie de Mâcon.JPG",
+      "src": "/photos/poi/Q3329237.37f00e53.webp",
       "width": 640,
       "height": 400,
-      "color": "#787868",
-      "author": "Chabe01",
-      "authorUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Place_Lamartine_-_M%C3%A2con_(FR71)_-_2021-03-01_-_2.jpg"
+      "color": "#f8f8f8",
+      "author": "Wikinade",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Wikinade",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Acad%C3%A9mie_de_M%C3%A2con.JPG"
     }
   },
   "10-choses-a-faire-a-bourg-en-bresse-2026": {
@@ -4221,21 +4221,21 @@
   },
   "10-choses-a-faire-a-antibes-2026": {
     "1": {
-      "name": "château des Grimaldi",
-      "qid": "Q13398054",
-      "lat": 43.580556,
+      "name": "musée Picasso",
+      "qid": "Q1368360",
+      "lat": 43.580833,
       "lng": 7.128333,
-      "wiki": null,
-      "file": "Antibes Museum Picasso.jpg",
-      "src": "/photos/poi/Q13398054.4ff55600.webp",
+      "wiki": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Picasso_(Antibes)",
+      "file": "Antibes Picasso.jpg",
+      "src": "/photos/poi/Q1368360.2e22ebd9.webp",
       "width": 640,
       "height": 400,
-      "color": "#385898",
-      "author": "Clemensfranz",
-      "authorUrl": "https://commons.wikimedia.org/wiki/User:Clemensfranz",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Antibes_Museum_Picasso.jpg"
+      "color": "#f8f8f8",
+      "author": "Original uploader was Olivier2000 at fr.wikipedia",
+      "authorUrl": "https://fr.wikipedia.org/wiki/User:Olivier2000",
+      "license": "CC BY-SA 1.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/1.0",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Antibes_Picasso.jpg"
     },
     "7": {
       "name": "Marineland d'Antibes",

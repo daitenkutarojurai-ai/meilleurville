@@ -1,7 +1,10 @@
 import { Metadata } from "next";
+import { Clock, ListOrdered, MapPin, CalendarDays } from "lucide-react";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
+import { GrainOverlay } from "@/components/effects/GrainOverlay";
+import { cn } from "@/lib/utils";
 import { CityPhotoBand } from "@/components/CityPhoto";
 import { guideCityPhoto } from "@/lib/city-images";
 import { Footer } from "@/components/Footer";
@@ -125,8 +128,17 @@ export default async function GuidePage({ params }: Props) {
       <Navbar />
 
       {/* Article header */}
-      <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-12">
-        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+      <section className="relative overflow-hidden border-b border-[var(--border)] bg-[var(--bg-surface)] py-12">
+        {/* Ambient wash, tinted by the guide's category — the page was a flat
+            white slab before, with nothing to anchor the eye above the fold. */}
+        <div className="pointer-events-none absolute inset-0" aria-hidden>
+          <div className="absolute inset-0 bg-aurora opacity-40" />
+          <div className={cn("absolute -top-28 -right-24 h-80 w-80 rounded-full blur-[110px] opacity-30 animate-drift", catMeta?.glow ?? "bg-[var(--accent)]")} />
+          <div className="absolute -bottom-28 -left-24 h-72 w-72 rounded-full bg-[var(--accent)]/12 blur-[100px] animate-drift" style={{ animationDelay: "2s" }} />
+        </div>
+        <GrainOverlay opacity={0.14} blend="overlay" />
+
+        <div className="relative mx-auto max-w-3xl px-4 sm:px-6">
           {/* Breadcrumb */}
           <nav className="flex items-center gap-2 text-xs text-[var(--text-tertiary)] mb-5">
             <Link href="/" className="hover:text-[var(--text-secondary)] transition-colors">Accueil</Link>
@@ -136,36 +148,53 @@ export default async function GuidePage({ params }: Props) {
             <span className="text-[var(--text-secondary)] truncate">{guide.title}</span>
           </nav>
 
-          <div className="flex items-center gap-3 mb-4">
-            <div className="w-14 h-14 rounded-2xl bg-[var(--bg-elevated)] flex items-center justify-center text-3xl flex-shrink-0">
+          <div className="flex items-center gap-3 mb-5">
+            <div className="flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-2xl border border-white/50 glass text-3xl shadow-lg">
               {guide.emoji}
             </div>
-            <div>
-              {catMeta && (
-                <span className={`text-xs font-semibold uppercase tracking-wide ${catMeta.color}`}>
-                  {catMeta.label}
-                </span>
-              )}
-              <div className="text-xs text-[var(--text-tertiary)] mt-0.5">
-                {guide.readMinutes} min · Mis à jour le{" "}
-                {new Date(guide.updatedAt).toLocaleDateString("fr-FR", {
-                  day: "numeric", month: "long", year: "numeric",
-                })}
-              </div>
-            </div>
+            {catMeta && (
+              <Link
+                href={`/guides?categorie=${catMeta.id}`}
+                className={cn("rounded-full border px-3 py-1 text-xs font-semibold uppercase tracking-wide transition-colors hover:brightness-110", catMeta.bg, catMeta.color)}
+              >
+                {catMeta.emoji} {catMeta.label}
+              </Link>
+            )}
           </div>
 
-          <h1 className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)] mb-4 leading-snug">
+          <h1 className="mb-4 text-3xl sm:text-4xl font-bold leading-tight tracking-tight text-[var(--text-primary)]">
             {guide.title}
           </h1>
-          <p className="text-[var(--text-secondary)] leading-relaxed text-base">
+          <p className="text-lg leading-relaxed text-[var(--text-secondary)]">
             {renderRich(guide.intro)}
           </p>
-        </div>
 
-        {hero && heroCityName && (
-          <CityPhotoBand photo={hero.photo} cityName={heroCityName} className="mt-8" />
-        )}
+          {/* Glass facts strip — replaces the lone grey "7 min · Mis à jour le…" line */}
+          <div className="mt-7 grid grid-cols-2 gap-3 sm:grid-cols-4">
+            {[
+              { icon: Clock, value: `${guide.readMinutes} min`, label: "de lecture" },
+              { icon: ListOrdered, value: String(guide.sections.length), label: "sections" },
+              ...(relatedCities.length
+                ? [{ icon: MapPin, value: String(relatedCities.length), label: relatedCities.length > 1 ? "villes citées" : "ville citée" }]
+                : []),
+              {
+                icon: CalendarDays,
+                value: new Date(guide.updatedAt).toLocaleDateString("fr-FR", { day: "numeric", month: "short" }),
+                label: `mis à jour ${new Date(guide.updatedAt).getFullYear()}`,
+              },
+            ].map(({ icon: Icon, value, label }) => (
+              <div key={label} className="rounded-2xl border border-white/50 glass p-4">
+                <Icon className={cn("mb-2 h-4 w-4", catMeta?.color ?? "text-[var(--accent)]")} aria-hidden />
+                <div className="font-mono-data text-xl font-bold text-[var(--text-primary)]">{value}</div>
+                <div className="text-xs text-[var(--text-secondary)]">{label}</div>
+              </div>
+            ))}
+          </div>
+
+          {hero && heroCityName && (
+            <CityPhotoBand photo={hero.photo} cityName={heroCityName} className="mt-8" />
+          )}
+        </div>
       </section>
 
       <div className="mx-auto max-w-5xl px-4 sm:px-6 py-12">
@@ -173,8 +202,8 @@ export default async function GuidePage({ params }: Props) {
           {/* Main article */}
           <article className="flex-1 min-w-0">
             {/* Table of contents */}
-            <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 mb-8">
-              <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-3">
+            <div className="mb-8 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 shadow-sm">
+              <p className={cn("mb-3 text-xs font-semibold uppercase tracking-widest", catMeta?.color ?? "text-[var(--text-tertiary)]")}>
                 Table des matières
               </p>
               <ol className="space-y-2">
@@ -194,23 +223,30 @@ export default async function GuidePage({ params }: Props) {
               </ol>
             </div>
 
-            {/* Sections */}
-            <div className="space-y-12">
+            {/* Sections — each on its own raised card. As flat paragraphs on a
+                white page, ten sections read as one undifferentiated wall. */}
+            <div className="space-y-6">
               {guide.sections.map((section, i) => {
                 const poi = pois?.[String(i)];
                 return (
-                  <section key={i} id={`section-${i}`} className="scroll-mt-20">
-                    <h2 className="flex items-baseline gap-3 text-lg font-bold text-[var(--text-primary)] mb-4">
+                  <section
+                    key={i}
+                    id={`section-${i}`}
+                    className="scroll-mt-24 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-6 shadow-sm transition-shadow hover:shadow-md sm:p-7"
+                  >
+                    <h2 className="mb-4 flex items-baseline gap-3 text-lg font-bold text-[var(--text-primary)]">
                       <span
-                        className={`flex-shrink-0 rounded-lg border px-2 py-0.5 font-mono text-xs ${
-                          catMeta?.bg ?? "border-[var(--border)] bg-[var(--bg-elevated)]"
-                        } ${catMeta?.color ?? "text-[var(--text-tertiary)]"}`}
+                        className={cn(
+                          "flex-shrink-0 rounded-lg border px-2 py-0.5 font-mono-data text-xs",
+                          catMeta?.bg ?? "border-[var(--border)] bg-[var(--bg-elevated)]",
+                          catMeta?.color ?? "text-[var(--text-tertiary)]",
+                        )}
                       >
                         {String(i + 1).padStart(2, "0")}
                       </span>
                       <span>{section.heading}</span>
                     </h2>
-                    <p className="text-[var(--text-secondary)] leading-relaxed text-base">
+                    <p className="text-base leading-[1.75] text-[var(--text-secondary)]">
                       {renderRich(section.body, { linkify: true, excludeSlug: guide.relatedCities[0] })}
                     </p>
                     {poi && heroCityName && <GuidePoiCard poi={poi} cityName={heroCityName} />}
