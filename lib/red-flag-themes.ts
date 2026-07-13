@@ -1796,9 +1796,9 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
       "Classement 2026 des villes françaises ≥ 10 000 hab. où l'accès aux soins est critique : MG non remplacés, spécialistes saturés, urgences éloignées. Composite, sources DREES / CNOM / ARS.",
     emoji: "🩺",
     intro:
-      "L'agence vante le calme, le prix au m² accessible, la maison de ville. Personne ne mentionne que le dernier médecin généraliste de la commune part en retraite en juin sans repreneur, que le cabinet de dermato le plus proche est à 1 h 30 de route avec un délai de 8 mois, ou que les urgences les plus proches sont à 45 min sans héliportage la nuit. Le désert médical ne se voit pas sur une photo immobilière — il se découvre en cherchant un médecin traitant à 22 h pour un enfant qui a 40 °C.",
+      "Le dernier généraliste de la commune part en retraite en juin, sans repreneur. Le cabinet de dermato le plus proche est à 1 h 30 de route, huit mois d'attente. Les urgences ? 45 minutes de nuit, sans héliportage. Rien de tout ça n'apparaît sur l'annonce, qui vante le calme, le prix au m² accessible, la maison de ville. Le désert médical ne se photographie pas — il se découvre à 22 h, un enfant à 40 °C, aucun médecin traitant à joindre.",
     reality:
-      "On classe les villes ≥ 10 000 hab. dont le composite dépasse 6,5/10, avec un malus quand généralistes en désert avéré (DREES &lt; 80/100k + plus de 50 % MG &gt; 60 ans) ET urgences éloignées se cumulent — c'est-à-dire un vrai problème vital, pas un seul indicateur. Toutes les valeurs sont alignées sur les statistiques DREES 2023-2024 et le zonage ZIP/ZAC de l'ARS.",
+      "Le classement retient les villes ≥ 10 000 hab. dont le composite dépasse 6,5/10. Le malus s'ajoute quand deux problèmes vitaux se cumulent : généralistes en désert avéré (DREES &lt; 80/100k et plus de 50 % MG &gt; 60 ans) et urgences éloignées. Un seul indicateur ne suffit pas à parler de risque vital — c'est le cumul qui compte. Les valeurs sont alignées sur les statistiques DREES 2023-2024 et le zonage ZIP/ZAC de l'ARS.",
     methodology:
       "Severity = composite + 1,2 si MG = désert ET urgences ≥ 6,5/10 + 0,5 si spécialistes ≥ 7/10. Sources : DREES (densité médicale par département), Atlas démographique CNOM (vieillissement et remplacement), zonage ZIP/ZAC ARS, Conférence des Doyens (CHU).",
     rank: rankDesertMedical,

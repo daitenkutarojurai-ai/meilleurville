@@ -14,3 +14,4 @@ Les données factuelles (chiffres, scores, noms) ne sont jamais modifiées.
 - 2026-07-10 app/guides/[slug]/page.tsx :: villes-etudiantes-france-guide
 - 2026-07-11 app/guides/[slug]/page.tsx :: quitter-marseille-guide-2026
 - 2026-07-12 app/guides/[slug]/page.tsx :: retraite-france-guide
+- 2026-07-13 app/red-flags/[slug]/page.tsx :: villes-desert-medical
