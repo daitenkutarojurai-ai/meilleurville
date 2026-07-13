@@ -53,3 +53,6 @@ n8n/.env.n8n
 # Generated social-media artifacts (not versioned)
 scripts/slides/
 scripts/instagram-queue.json
+
+# Wikidata/Commons crawl cache (rebuildable: npm run photos)
+/.cache/
