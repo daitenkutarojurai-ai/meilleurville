@@ -13,6 +13,9 @@ import { renderRich, stripMd } from "@/lib/link-cities";
 import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { suggestNextGuides } from "@/lib/guide-suggestions";
 import { slugifyTag, TAG_SLUGS } from "@/lib/guide-tags";
+import { GuidePoiCard } from "@/components/GuidePoiCard";
+import { guidePois } from "@/lib/guide-pois";
+import { ReadingProgress } from "@/components/ReadingProgress";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -66,6 +69,8 @@ export default async function GuidePage({ params }: Props) {
   const nextSibling = idx >= 0 && idx < siblings.length - 1 ? siblings[idx + 1] : null;
   const relatedCities = CITIES_SEED.filter((c) => guide.relatedCities.includes(c.slug));
   const hero = guideCityPhoto(guide.slug, guide.relatedCities);
+  const pois = guidePois(guide.slug);
+  const heroCityName = hero ? CITIES_SEED.find((c) => c.slug === hero.slug)?.name ?? hero.slug : null;
   const catMeta = GUIDE_CATEGORIES.find((c) => c.id === guide.category);
 
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
@@ -114,6 +119,7 @@ export default async function GuidePage({ params }: Props) {
 
   return (
     <main id="main-content" className="min-h-screen">
+      <ReadingProgress />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Navbar />
@@ -157,12 +163,8 @@ export default async function GuidePage({ params }: Props) {
           </p>
         </div>
 
-        {hero && (
-          <CityPhotoBand
-            photo={hero.photo}
-            cityName={CITIES_SEED.find((c) => c.slug === hero.slug)?.name ?? hero.slug}
-            className="mt-8"
-          />
+        {hero && heroCityName && (
+          <CityPhotoBand photo={hero.photo} cityName={heroCityName} className="mt-8" />
         )}
       </section>
 
@@ -182,7 +184,7 @@ export default async function GuidePage({ params }: Props) {
                       href={`#section-${i}`}
                       className="text-sm text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors flex items-start gap-2"
                     >
-                      <span className="text-[var(--text-tertiary)] font-mono text-xs mt-0.5 flex-shrink-0">
+                      <span className={`font-mono text-xs mt-0.5 flex-shrink-0 ${catMeta?.color ?? "text-[var(--text-tertiary)]"}`}>
                         {String(i + 1).padStart(2, "0")}
                       </span>
                       {s.heading}
@@ -193,20 +195,28 @@ export default async function GuidePage({ params }: Props) {
             </div>
 
             {/* Sections */}
-            <div className="space-y-10">
-              {guide.sections.map((section, i) => (
-                <section key={i} id={`section-${i}`}>
-                  <h2 className="text-lg font-bold text-[var(--text-primary)] mb-4 scroll-mt-20">
-                    <span className="text-[var(--text-tertiary)] font-mono text-sm mr-2">
-                      {String(i + 1).padStart(2, "0")}
-                    </span>
-                    {section.heading}
-                  </h2>
-                  <p className="text-[var(--text-secondary)] leading-relaxed text-base">
-                    {renderRich(section.body, { linkify: true, excludeSlug: guide.relatedCities[0] })}
-                  </p>
-                </section>
-              ))}
+            <div className="space-y-12">
+              {guide.sections.map((section, i) => {
+                const poi = pois?.[String(i)];
+                return (
+                  <section key={i} id={`section-${i}`} className="scroll-mt-20">
+                    <h2 className="flex items-baseline gap-3 text-lg font-bold text-[var(--text-primary)] mb-4">
+                      <span
+                        className={`flex-shrink-0 rounded-lg border px-2 py-0.5 font-mono text-xs ${
+                          catMeta?.bg ?? "border-[var(--border)] bg-[var(--bg-elevated)]"
+                        } ${catMeta?.color ?? "text-[var(--text-tertiary)]"}`}
+                      >
+                        {String(i + 1).padStart(2, "0")}
+                      </span>
+                      <span>{section.heading}</span>
+                    </h2>
+                    <p className="text-[var(--text-secondary)] leading-relaxed text-base">
+                      {renderRich(section.body, { linkify: true, excludeSlug: guide.relatedCities[0] })}
+                    </p>
+                    {poi && heroCityName && <GuidePoiCard poi={poi} cityName={heroCityName} />}
+                  </section>
+                );
+              })}
             </div>
 
             <div className="mt-10">
@@ -324,7 +334,7 @@ export default async function GuidePage({ params }: Props) {
           </article>
 
           {/* Sidebar */}
-          <aside className="w-full lg:w-72 flex-shrink-0 space-y-6">
+          <aside className="w-full lg:w-72 flex-shrink-0 space-y-6 lg:sticky lg:top-20 lg:self-start">
             {/* Related cities */}
             {relatedCities.length > 0 && (
               <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
