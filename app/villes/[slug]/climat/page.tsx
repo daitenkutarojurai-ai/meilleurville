@@ -2,6 +2,8 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
+import { CityPhotoBand } from "@/components/CityPhoto";
+import { cityPhoto } from "@/lib/city-images";
 import { DiscussionCTA } from "@/components/DiscussionCTA";
 import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
@@ -165,6 +167,7 @@ export default async function ClimatPage({ params }: Props) {
   const { slug } = await params;
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) notFound();
+  const photo = cityPhoto(city.slug);
 
   const climate = classifyClimate(city);
   const { best, avoid } = bestMonths(climate);
@@ -235,6 +238,10 @@ export default async function ClimatPage({ params }: Props) {
             {climate.oneLiner}
           </p>
         </div>
+
+        {photo && (
+          <CityPhotoBand photo={photo} cityName={city.name} className="mt-8" />
+        )}
       </section>
 
       {/* Stat strip */}

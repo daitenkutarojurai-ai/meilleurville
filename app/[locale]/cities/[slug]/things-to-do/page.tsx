@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
+import { CityPhotoBand } from "@/components/CityPhoto";
+import { cityPhoto } from "@/lib/city-images";
 import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { DiscussionCTA } from "@/components/DiscussionCTA";
@@ -120,6 +122,7 @@ export default async function EnThingsToDoPage({ params }: Props) {
   const { slug } = await params;
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) notFound();
+  const photo = cityPhoto(city.slug);
 
   const activities = buildActivityCategories(city);
   const enabledActivities = activities.filter((a) => a.enabled);
@@ -163,6 +166,10 @@ export default async function EnThingsToDoPage({ params }: Props) {
             </p>
           </div>
         </div>
+
+        {photo && (
+          <CityPhotoBand photo={photo} cityName={city.name} locale="en" className="mb-8" />
+        )}
 
         {/* Featured guide card when a things-to-do guide exists */}
         {guide && (

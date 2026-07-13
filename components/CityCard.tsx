@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/Badge";
 import { cn, formatNumber, formatScore, scoreHex, scoreColor, scoreLabel } from "@/lib/utils";
 import type { City } from "@/lib/types";
 import { HOUSING } from "@/data/housing";
+import { cardPhoto } from "@/lib/city-cards";
 import { FavoriteButton } from "@/components/effects/FavoriteButton";
 
 interface CityCardProps {
@@ -30,6 +31,7 @@ const TIER_EN: Record<string, string> = {
 export function CityCard({ city, rank, className, locale = "fr" }: CityCardProps) {
   const score = city.scores.global;
   const cover = gradientForScore(score);
+  const photo = cardPhoto(city.slug);
   const frTier = scoreLabel(score);
   const tier = locale === "en" ? TIER_EN[frTier] ?? frTier : frTier;
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
@@ -46,13 +48,39 @@ export function CityCard({ city, rank, className, locale = "fr" }: CityCardProps
         aria-label={`${city.name} — score ${formatScore(score)} ${L("sur", "out of")} 10 (${tier})`}
         className="absolute inset-0 z-[1]"
       />
+        {/* Photo cover — falls back to the score gradient so a city without a
+            Commons photo keeps the same card height in the grid. */}
+        {photo ? (
+          <div className="relative h-32 overflow-hidden">
+            <img
+              src={photo.src}
+              width={photo.width}
+              height={photo.height}
+              alt=""
+              loading="lazy"
+              decoding="async"
+              style={{ backgroundColor: photo.color }}
+              className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]"
+            />
+            {/* No links here: the whole card is already an <a>. The linked
+                attribution lives on the city page the card points to. */}
+            <span className="absolute inset-x-0 bottom-0 z-[2] bg-gradient-to-t from-black/60 to-transparent px-2.5 pb-1 pt-5 text-right text-[9px] leading-tight text-white/70">
+              {photo.author ?? "Wikimedia Commons"} · {photo.license}
+            </span>
+          </div>
+        ) : (
+          <div className={`relative h-32 bg-gradient-to-br ${cover}`}>
+            <div className="absolute inset-0 bg-aurora opacity-50" />
+          </div>
+        )}
+
         {/* Animated gradient cover stripe */}
         <div className={`relative h-2 bg-gradient-to-r ${cover}`}>
           <div className="absolute inset-0 bg-aurora opacity-50" />
         </div>
 
         <div className="p-5">
-          <div className="absolute top-5 right-4 z-[2] flex items-center gap-1.5">
+          <div className="absolute top-2 right-2 z-[2] flex items-center gap-1.5">
             <FavoriteButton slug={city.slug} size={14} className="!px-2 !py-1.5" />
             {rank && (
               <div className="flex h-7 w-7 items-center justify-center rounded-full bg-[var(--bg-elevated)] border border-[var(--border)]">

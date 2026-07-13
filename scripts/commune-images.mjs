@@ -32,6 +32,7 @@ const WIKIDATA = path.join(CACHE, "wikidata");
 const COMMONS = path.join(CACHE, "commons.jsonl");
 const MANIFEST = path.join(CACHE, "manifest.json");
 const OUT_JSON = path.join(ROOT, "data", "city-images.json");
+const OUT_CARDS = path.join(ROOT, "data", "city-cards.json");
 
 // Wikimedia asks every automated client to identify itself with a contactable
 // UA. An anonymous crawler gets 403'd on the SPARQL endpoint.
@@ -412,6 +413,20 @@ async function stepAssets(manifest) {
 
   const sorted = Object.fromEntries(Object.entries(out).filter(([, v]) => v).sort(([a], [b]) => a.localeCompare(b)));
   await writeJson(OUT_JSON, sorted);
+
+  // Lean sibling for CityCard: the card grids live inside client components
+  // (/villes filters in the browser), so the full record — hero variant, QID,
+  // Commons URLs — would ride into the client bundle for nothing. Only the
+  // content hash is stored; lib/city-cards rebuilds the src from slug + hash.
+  await writeJson(
+    OUT_CARDS,
+    Object.fromEntries(
+      Object.entries(sorted).map(([slug, r]) => [
+        slug,
+        { h: path.basename(r.card.src).split(".")[1], c: r.color, a: r.author, l: r.license },
+      ]),
+    ),
+  );
   log(
     `assets: ${Object.keys(sorted).length}/${cities.length} cities have a photo ` +
       `(built ${built}, reused ${skipped}, no photo upstream ${missing})`,

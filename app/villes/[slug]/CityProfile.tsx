@@ -36,12 +36,14 @@ import { PublicServicesCard } from "@/components/PublicServicesCard";
 import { QolHeroBadge } from "@/components/QolHeroBadge";
 import { CityFingerprint } from "@/components/CityFingerprint";
 import { VibeWidget } from "@/components/VibeWidget";
+import { CityPhotoHero } from "@/components/CityPhoto";
 import { buildCityNarrative } from "@/lib/city-narrative";
 import { computeNicheScores, TERRAIN_LABELS } from "@/lib/niche-scores";
 import { formatNumber, formatScore, scoreColor, cn, sunshineDays, sunshineHours } from "@/lib/utils";
 import { internetScore, internetLabel } from "@/lib/internet-score";
 import type { CitySeed } from "@/data/cities-seed";
 import type { CityProfileData } from "@/lib/city-profile-data";
+import type { CityPhoto } from "@/lib/city-images";
 import type { FaqItem } from "@/lib/city-faq";
 
 const SCORE_LABELS: Array<{ key: keyof CitySeed["scores"]; label: string; icon: React.ElementType }> = [
@@ -80,7 +82,7 @@ function SectionRule({ emoji, label, first }: { emoji: string; label: string; fi
 // housing, rankings, similar cities, political lean, honest review) — see
 // lib/city-profile-data. Importing those here would ship them all in the
 // client bundle of every city page.
-export function CityProfile({ city, data, faq, locale = "fr" }: { city: CitySeed & { reviewCount?: number }; data: CityProfileData; faq: FaqItem[]; locale?: "fr" | "en" }) {
+export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: CitySeed & { reviewCount?: number }; data: CityProfileData; faq: FaqItem[]; photo?: CityPhoto | null; locale?: "fr" | "en" }) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const sub = (fr: string, en: string) => `/${locale === "en" ? "cities" : "villes"}/${city.slug}/${locale === "en" ? en : fr}`;
   const [activeStage, setActiveStage] = useState("famille");
@@ -248,6 +250,10 @@ export function CityProfile({ city, data, faq, locale = "fr" }: { city: CitySeed
 
           {/* F56 — Cadre de Vie badge */}
           <QolHeroBadge city={city} locale={locale} />
+
+          {photo && (
+            <CityPhotoHero photo={photo} cityName={city.name} locale={locale} priority className="mt-7" />
+          )}
         </div>
       </section>
 

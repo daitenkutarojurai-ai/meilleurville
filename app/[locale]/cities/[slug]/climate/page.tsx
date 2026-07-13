@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
+import { CityPhotoBand } from "@/components/CityPhoto";
+import { cityPhoto } from "@/lib/city-images";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
@@ -54,6 +56,7 @@ export default async function EnCityClimate({ params }: Props) {
   const { slug } = await params;
   const c = CITIES_SEED.find((x) => x.slug === slug);
   if (!c) notFound();
+  const photo = cityPhoto(c.slug);
 
   const climate = classifyClimateEn(c);
   const sunDays = sunshineDays(c.sunshinedays);
@@ -93,6 +96,10 @@ export default async function EnCityClimate({ params }: Props) {
         <p className="text-[var(--text-secondary)] text-lg leading-relaxed">
           <strong className="text-[var(--text-primary)]">{climate.label}.</strong> {climate.line}
         </p>
+
+        {photo && (
+          <CityPhotoBand photo={photo} cityName={c.name} locale="en" className="mt-6" />
+        )}
       </section>
 
       <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6 grid sm:grid-cols-3 gap-3">

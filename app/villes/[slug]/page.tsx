@@ -11,6 +11,7 @@ import { CityGuidesList } from "@/components/CityGuidesList";
 import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { cityFaq } from "@/lib/city-faq";
+import { cityPhoto } from "@/lib/city-images";
 
 // Pure static export (output:"export" on Cloudflare) — no ISR/runtime cache.
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -59,11 +60,12 @@ export default async function CityPage({ params }: Props) {
   if (!city) notFound();
 
   const faq = cityFaq(city, "fr");
+  const photo = cityPhoto(city.slug);
   return (
     <main id="main-content" className="min-h-screen">
-      <CityJsonLd city={city} faq={faq} />
+      <CityJsonLd city={city} faq={faq} photo={photo} />
       <Navbar />
-      <CityProfile city={city} data={buildCityProfileData(city)} faq={faq} />
+      <CityProfile city={city} data={buildCityProfileData(city)} faq={faq} photo={photo} />
       <CityGuidesList slug={city.slug} name={city.name} />
       <div className="mx-auto max-w-4xl px-4 sm:px-6 pb-12">
         <FeedbackWidget />

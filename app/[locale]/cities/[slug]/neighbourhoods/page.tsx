@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
+import { CityPhotoBand } from "@/components/CityPhoto";
+import { cityPhoto } from "@/lib/city-images";
 import { Footer } from "@/components/Footer";
 import { DiscussionCTA } from "@/components/DiscussionCTA";
 import { Card } from "@/components/ui/Card";
@@ -96,6 +98,7 @@ export default async function EnCityNeighbourhoodsPage({ params }: Props) {
   const { slug } = await params;
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) notFound();
+  const photo = cityPhoto(city.slug);
 
   const neighborhoods = getNeighborhoods(slug);
   const breadcrumb = breadcrumbJsonLd([
@@ -139,7 +142,11 @@ export default async function EnCityNeighbourhoodsPage({ params }: Props) {
           </h1>
           <p className="text-[var(--text-secondary)]">
             {neighborhoods.length > 0
-              ? `${neighborhoods.length} districts scored on safety, transport, nature, cost and nightlife.`
+              ? `${neighborhoods.length} districts scored on safety, transport, nature, cost
+        {photo && (
+          <CityPhotoBand photo={photo} cityName={city.name} locale="en" className="mt-6" />
+        )}
+ and nightlife.`
               : "Neighbourhood data is being compiled for this city."}
           </p>
         </div>

@@ -8,6 +8,7 @@ import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getCityTitle, getCityDescription, ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { buildCityProfileData } from "@/lib/city-profile-data";
+import { cityPhoto } from "@/lib/city-images";
 import { jsonLdScript } from "@/lib/jsonld";
 import { cityFaq } from "@/lib/city-faq";
 
@@ -66,6 +67,22 @@ export default async function EnCityPage({ params }: Props) {
   if (!city) notFound();
 
   const faq = cityFaq(city, "en");
+  const photo = cityPhoto(city.slug);
+  const image = photo
+    ? {
+        "@type": "ImageObject",
+        contentUrl: `${EN_BASE}${photo.hero.src}`,
+        url: `${EN_BASE}${photo.hero.src}`,
+        width: photo.hero.width,
+        height: photo.hero.height,
+        caption: `${city.name}, ${city.department}`,
+        creditText: `${photo.author ?? "Wikimedia Commons"} / ${photo.license}`,
+        copyrightNotice: photo.author ?? undefined,
+        creator: photo.author ? { "@type": "Person", name: photo.author } : undefined,
+        license: photo.licenseUrl ?? undefined,
+        acquireLicensePage: photo.commonsUrl,
+      }
+    : undefined;
   const cityJsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -76,6 +93,7 @@ export default async function EnCityPage({ params }: Props) {
         description: city.seoDescriptionEn ?? city.descriptionEn ?? getCityDescription(city, "en"),
         containedInPlace: { "@type": "AdministrativeArea", name: city.region },
         geo: { "@type": "GeoCoordinates", latitude: city.latitude, longitude: city.longitude },
+        image,
       },
       {
         "@type": "BreadcrumbList",
@@ -100,7 +118,7 @@ export default async function EnCityPage({ params }: Props) {
     <main id="main-content" className="min-h-screen relative">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(cityJsonLd)} />
       <Navbar />
-      <CityProfile city={city} data={buildCityProfileData(city)} faq={faq} locale="en" />
+      <CityProfile city={city} data={buildCityProfileData(city)} faq={faq} photo={photo} locale="en" />
       <CityGuidesList slug={city.slug} name={city.name} locale="en" />
       <div className="mx-auto max-w-4xl px-4 sm:px-6 pb-4">
         <FeedbackWidget locale="en" />
