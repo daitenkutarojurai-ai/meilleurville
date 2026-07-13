@@ -46,3 +46,22 @@ export function photoAlt(cityName: string, locale: "fr" | "en" = "fr"): string {
 export function absolutePhotoUrl(src: string, origin: string): string {
   return `${origin}${src}`;
 }
+
+/**
+ * Hero photo for a guide that is *about* one city — `10-choses-a-faire-a-lyon`,
+ * `acheter-a-lyon-...`, `things-to-do-in-lyon-2026`. The city slug must appear
+ * in the guide slug, not merely in relatedCities: a ranking guide lists a dozen
+ * cities it is not about, and illustrating it with the first one would be a lie.
+ */
+export function guideCityPhoto(
+  guideSlug: string,
+  relatedCities: string[],
+): { slug: string; photo: CityPhoto } | null {
+  for (const slug of relatedCities) {
+    if (guideSlug.includes(`-${slug}-`) || guideSlug.endsWith(`-${slug}`)) {
+      const photo = cityPhoto(slug);
+      if (photo) return { slug, photo };
+    }
+  }
+  return null;
+}

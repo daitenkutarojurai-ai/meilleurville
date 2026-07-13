@@ -13,6 +13,7 @@ import { TAG_SLUGS } from "@/lib/guide-tags";
 import { TAG_SLUGS_EN } from "@/lib/guide-tags-en";
 import { RED_FLAG_THEME_SLUGS } from "@/lib/red-flag-themes";
 import { commonOriginSlugs } from "@/lib/people-like-you";
+import { cityPhoto, guideCityPhoto } from "@/lib/city-images";
 
 // Locale-aware sitemap. Each Vercel project sets NEXT_PUBLIC_DEFAULT_LOCALE and
 // (optionally) NEXT_PUBLIC_BASE_URL — the FR project emits FR URLs at
@@ -335,21 +336,30 @@ function latestGuideUpdate(): Date {
 }
 
 function guideSection(): MetadataRoute.Sitemap {
-  return GUIDES.map((g) => ({
-    url: `${BASE_URL}/guides/${g.slug}`,
-    lastModified: new Date(g.updatedAt),
-    changeFrequency: "monthly",
-    priority: 0.7,
-  }));
+  return GUIDES.map((g) => {
+    const hero = guideCityPhoto(g.slug, g.relatedCities);
+    return {
+      url: `${BASE_URL}/guides/${g.slug}`,
+      lastModified: new Date(g.updatedAt),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+      ...(hero ? { images: [`${BASE_URL}${hero.photo.hero.src}`] } : {}),
+    };
+  });
 }
 
 function citySection(): MetadataRoute.Sitemap {
-  return CITIES_SEED.map((city) => ({
-    url: `${BASE_URL}/villes/${city.slug}`,
-    lastModified: CITY_DATA_UPDATED,
-    changeFrequency: "weekly",
-    priority: 0.7,
-  }));
+  return CITIES_SEED.map((city) => {
+    const photo = cityPhoto(city.slug);
+    return {
+      url: `${BASE_URL}/villes/${city.slug}`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+      // Image sitemap: declares the Commons photo rendered in the city hero.
+      ...(photo ? { images: [`${BASE_URL}${photo.hero.src}`] } : {}),
+    };
+  });
 }
 
 function citySubSection(): MetadataRoute.Sitemap {
@@ -937,12 +947,16 @@ function enStaticSection(): MetadataRoute.Sitemap {
 }
 
 function enCitySection(): MetadataRoute.Sitemap {
-  return CITIES_SEED.map((city) => ({
-    url: `${BASE_URL}/cities/${city.slug}`,
-    lastModified: CITY_DATA_UPDATED,
-    changeFrequency: "weekly",
-    priority: 0.7,
-  }));
+  return CITIES_SEED.map((city) => {
+    const photo = cityPhoto(city.slug);
+    return {
+      url: `${BASE_URL}/cities/${city.slug}`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+      ...(photo ? { images: [`${BASE_URL}${photo.hero.src}`] } : {}),
+    };
+  });
 }
 
 function enRankingsSection(): MetadataRoute.Sitemap {
@@ -1043,12 +1057,16 @@ function enCompareRegionsSection(): MetadataRoute.Sitemap {
 }
 
 function enGuidesSection(): MetadataRoute.Sitemap {
-  return EN_GUIDES.map((g) => ({
-    url: `${BASE_URL}/guides/${g.slug}`,
-    lastModified: new Date(g.updatedAt),
-    changeFrequency: "monthly" as const,
-    priority: 0.7,
-  }));
+  return EN_GUIDES.map((g) => {
+    const hero = guideCityPhoto(g.slug, g.relatedCities);
+    return {
+      url: `${BASE_URL}/guides/${g.slug}`,
+      lastModified: new Date(g.updatedAt),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+      ...(hero ? { images: [`${BASE_URL}${hero.photo.hero.src}`] } : {}),
+    };
+  });
 }
 
 const EN_FOR_WHO_SLUGS = [

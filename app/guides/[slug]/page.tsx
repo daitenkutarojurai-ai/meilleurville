@@ -2,6 +2,8 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
+import { CityPhotoBand } from "@/components/CityPhoto";
+import { guideCityPhoto } from "@/lib/city-images";
 import { Footer } from "@/components/Footer";
 import { GuideCard } from "@/components/GuideCard";
 import { CommentSection } from "@/components/CommentSection";
@@ -63,6 +65,7 @@ export default async function GuidePage({ params }: Props) {
   const prevGuide = idx > 0 ? siblings[idx - 1] : null;
   const nextSibling = idx >= 0 && idx < siblings.length - 1 ? siblings[idx + 1] : null;
   const relatedCities = CITIES_SEED.filter((c) => guide.relatedCities.includes(c.slug));
+  const hero = guideCityPhoto(guide.slug, guide.relatedCities);
   const catMeta = GUIDE_CATEGORIES.find((c) => c.id === guide.category);
 
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
@@ -153,6 +156,14 @@ export default async function GuidePage({ params }: Props) {
             {renderRich(guide.intro)}
           </p>
         </div>
+
+        {hero && (
+          <CityPhotoBand
+            photo={hero.photo}
+            cityName={CITIES_SEED.find((c) => c.slug === hero.slug)?.name ?? hero.slug}
+            className="mt-8"
+          />
+        )}
       </section>
 
       <div className="mx-auto max-w-5xl px-4 sm:px-6 py-12">

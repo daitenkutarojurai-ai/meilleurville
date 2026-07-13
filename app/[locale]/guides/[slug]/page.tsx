@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
+import { CityPhotoBand } from "@/components/CityPhoto";
+import { guideCityPhoto } from "@/lib/city-images";
 import { Footer } from "@/components/Footer";
 import { EN_GUIDES, EN_GUIDE_CATEGORIES, getEnGuide } from "@/data/guides-en";
 import { CITIES_SEED } from "@/data/cities-seed";
@@ -40,6 +42,7 @@ export default async function EnGuidePage({ params }: Props) {
   const g = getEnGuide(slug);
   if (!g) notFound();
 
+  const hero = guideCityPhoto(g.slug, g.relatedCities);
   const relatedCities = g.relatedCities
     .map((s) => CITIES_SEED.find((c) => c.slug === s))
     .filter((c): c is NonNullable<typeof c> => Boolean(c));
@@ -108,6 +111,15 @@ export default async function EnGuidePage({ params }: Props) {
           {g.title}
         </h1>
         <p className="text-lg text-[var(--text-secondary)] leading-relaxed mb-10">{renderRich(g.intro)}</p>
+
+        {hero && (
+          <CityPhotoBand
+            photo={hero.photo}
+            cityName={relatedCities.find((c) => c.slug === hero.slug)?.name ?? hero.slug}
+            locale="en"
+            className="mb-10"
+          />
+        )}
 
         {g.sections.map((s) => (
           <section key={s.heading} className="mb-8">
