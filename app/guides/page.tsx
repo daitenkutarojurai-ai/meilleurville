@@ -72,13 +72,38 @@ export default function GuidesPage() {
       <div className="mx-auto max-w-5xl px-4 sm:px-6 py-12 space-y-12">
         {/* Interactive guides grid with category filtering. Project to the
             card fields — passing full Guide objects serializes every
-            sections[] body into the flight payload (~3.8 MB of HTML). */}
+            sections[] body into the flight payload (~3.8 MB of HTML).
+            `intro` is cut to an excerpt too: the card clamps it to two lines,
+            but the full text shipped twice (DOM + flight payload) for all 654
+            guides. It stays long enough to remain useful as a search haystack. */}
         <GuidesGrid
           guides={GUIDES.map(({ slug, title, intro, category, emoji, readMinutes, publishedAt, updatedAt, tags }) => ({
-            slug, title, intro, category, emoji, readMinutes, publishedAt, updatedAt, tags,
+            slug, title, category, emoji, readMinutes, publishedAt, updatedAt, tags,
+            intro: intro.length > 200 ? intro.slice(0, 200).replace(/\s+\S*$/, "") + "…" : intro,
           }))}
           now={BUILD_NOW}
         />
+
+        {/* Every guide stays one hop from this hub even though the grid only
+            renders its first batch — this is the crawlable index, not a
+            decoration. ~100 bytes a link against ~2.4 kB for a card. */}
+        <details className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
+          <summary className="cursor-pointer text-sm font-semibold text-[var(--text-primary)]">
+            Index complet — {GUIDES.length} guides
+          </summary>
+          <ul className="mt-4 grid gap-x-6 gap-y-1.5 sm:grid-cols-2">
+            {GUIDES.map((g) => (
+              <li key={g.slug}>
+                <Link
+                  href={`/guides/${g.slug}`}
+                  className="text-xs text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors"
+                >
+                  {g.title}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </details>
 
         {/* Categories overview */}
         <div>

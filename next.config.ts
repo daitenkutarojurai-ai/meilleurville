@@ -13,6 +13,12 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
+  // Barrel imports (`import { X } from "lucide-react"`) otherwise pull the whole
+  // module graph into the shared chunk — the icon set alone built a 4.7 MB one.
+  // This rewrites them to deep imports at compile time.
+  experimental: {
+    optimizePackageImports: ["lucide-react", "recharts"],
+  },
 };
 
 export default nextConfig;

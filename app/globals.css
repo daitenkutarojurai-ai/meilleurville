@@ -440,3 +440,14 @@ body {
     transition-duration: 0.001ms !important;
   }
 }
+
+/* ScrollReveal ships its children at opacity 0 and fades them in from an
+   IntersectionObserver. With scripting disabled that observer never fires, so
+   the content would stay invisible — reveal it outright instead. */
+@media (scripting: none) {
+  [data-scroll-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+    filter: none !important;
+  }
+}

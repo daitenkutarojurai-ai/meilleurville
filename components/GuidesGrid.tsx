@@ -30,9 +30,16 @@ const initialCategory = () => {
   return c && GUIDE_CATEGORIES.some((cat) => cat.id === c) ? c : "all";
 };
 
+// The card is a two-line-clamped excerpt + metadata, so rendering all 654 of
+// them put 1.8 MB of DOM in the page. Same treatment as VillesSearch: render a
+// first batch, reveal the rest on demand (the data is already in the page).
+// Every guide stays crawlable — app/guides/page.tsx emits the full link list.
+const INITIAL_VISIBLE = 60;
+
 export function GuidesGrid({ guides, now }: Props) {
   const [activeCategory, setActiveCategory] = useState<string>(initialCategory);
   const [query, setQuery] = useState("");
+  const [showAll, setShowAll] = useState(false);
   const q = normalize(query.trim());
 
   // Search index built once per guides[] reference (effectively once at module
@@ -174,11 +181,30 @@ export function GuidesGrid({ guides, now }: Props) {
           }
         </h2>
         {filtered.length > 0 ? (
-          <div className="grid gap-4 sm:grid-cols-2">
-            {filtered.map((guide) => (
-              <GuideCard key={guide.slug} guide={guide} now={now} featured />
-            ))}
-          </div>
+          (() => {
+            const capped = !showAll && filtered.length > INITIAL_VISIBLE;
+            const visible = capped ? filtered.slice(0, INITIAL_VISIBLE) : filtered;
+            return (
+              <>
+                <div className="grid gap-4 sm:grid-cols-2">
+                  {visible.map((guide) => (
+                    <GuideCard key={guide.slug} guide={guide} now={now} featured />
+                  ))}
+                </div>
+                {capped && (
+                  <div className="mt-8 text-center">
+                    <button
+                      type="button"
+                      onClick={() => setShowAll(true)}
+                      className="inline-flex items-center gap-2 rounded-full border border-[var(--accent)]/30 bg-[var(--accent)]/5 px-6 py-3 text-sm font-semibold text-[var(--accent)] transition-colors hover:border-[var(--accent)] hover:bg-[var(--accent)]/10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
+                    >
+                      Afficher les {filtered.length - INITIAL_VISIBLE} guides restants
+                    </button>
+                  </div>
+                )}
+              </>
+            );
+          })()
         ) : (
           <div className="rounded-2xl border border-dashed border-[var(--border)] bg-[var(--bg-surface)]/50 py-12 px-6 text-center">
             <div className="text-4xl mb-3" aria-hidden>📭</div>
