@@ -241,6 +241,45 @@ node scripts/commune-images.mjs assets --limit=50   # batch control
 - The crawl covers all 34 969 communes even though only the 540 seed cities get a
   built asset — the manifest is already there the day the seed grows.
 
+### Guide landmarks (`scripts/guide-pois.mjs`)
+
+Illustrates the FR `10-choses-a-faire-a-*` series: Wikidata landmarks located in
+the commune (heritage-listed via P1435, or typed as a visitable place — the class
+gate is client-side, since P31/P279* in SPARQL blows the 60s WDQS budget) →
+matched against each section heading → Commons photo + Google Maps + Wikipedia.
+Data in `data/guide-pois.json`, assets under `public/photos/poi/`.
+
+**The matcher is strict on purpose: 246/1690 sections match.** Most headings are
+activities ("prendre le petit-déjeuner dans un bouchon"), not places. Every time
+the rules were loosened the result was a *wrong* photo: a hotel on "Monter à
+Fourvière", a railway station then a théâtre on "le marché de la Croix-Rousse", a
+fountain on "Grimper à Montmartre". A section with no landmark stays text-only —
+that is the correct outcome. **EN is excluded**: `things-to-do-in-*` headings are
+thematic ("Croix-Rousse and the Presqu'île") and name no single place.
+
+## Performance constraints
+
+Pages are static and edge-cached (TTFB 90–300 ms); what costs the user is the
+payload the browser must parse.
+
+- **Never render a full collection in a client grid.** `/guides` shipped 2.5 MB of
+  HTML by rendering all 654 cards at once. `GuidesGrid` and `VillesSearch` both
+  cap the first render (`INITIAL_VISIBLE`) and reveal the rest on click. When you
+  cap a hub page, keep the links crawlable — `/guides` emits a compact `<details>`
+  link index of all guides (≈100 bytes a link vs ≈2.4 kB a card).
+- **Projections, not entities.** A client component's props are serialized twice
+  (DOM + RSC flight payload). `/guides` passes card fields only, with `intro` cut
+  to a 200-char excerpt.
+- **No framer-motion.** It was pulled in by `ScrollReveal` alone (~110 kB) and has
+  been rebuilt on IntersectionObserver + a CSS transition. Don't reintroduce it
+  for an effect the compositor can run. Note `ScrollReveal` renders its children
+  at `opacity: 0`; the `@media (scripting: none)` rule in `globals.css` is what
+  keeps them visible without JS.
+- **Known remaining lever:** city pages still ship ~1 MB of JS because
+  `CityProfile` is one client component importing ~30 sub-components, most of
+  which render static text. Decoupling it (client only for tabs + action buttons)
+  is the next real win, and is a refactor of its own.
+
 ---
 
 ## Pending work
