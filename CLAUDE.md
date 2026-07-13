@@ -201,7 +201,45 @@ Hosting is **Cloudflare** (Workers + `wrangler.toml`), not Vercel.
 ### Audit-derived roadmap (2026-06-02)
 
 - [x] **Region & Department score pages** (§7) — DONE 2026-06-03 (most parts already existed). Aggregate score = mean of region/dept cities' global score: `app/regions/[region]/page.tsx` (`avgScore`/`avgCriteria` + JSON-LD) and `app/departements/[dept]/page.tsx` both already displayed it. City-listing region+dept filters already present in `components/VillesSearch.tsx`. The one missing piece — a **region heatmap layer on `/carte`** — shipped this session: `CarteClient` now has a Villes/Régions toggle drawing one bubble per metropolitan region at its centroid, coloured by avg score (honours active axis + lean filter), linking to `/regions/[slug]`. **EN parity shipped 2026-06-03:** `FranceHeatmap` gained an opt-in `showRegionToggle` prop (default off → homepages/timelapse byte-identical) and the EN `/map` (`app/[locale]/map`) now passes it, mirroring FR `/carte`. *Remaining follow-up: department-granularity heatmap (96 depts — would need clustering to avoid clutter).*
-- [ ] **Guide hero images** (§4a — deferred 2026-06-02) — guides are intentionally text-only today. A real image layer needs a static, build-time pipeline: licensed/owned assets in `/public`, pre-optimized (sharp/squoosh) since `output:"export"` disables next/image optimization. Do NOT hotlink `source.unsplash.com` (shut down) or any external host. Scope ≈170 tourism (or ~960 all) assets — treat as its own project.
+- [x] **Guide hero images** (§4a — deferred 2026-06-02, **DONE 2026-07-13** via the photo pipeline below) — city-specific guides (`10-choses-a-faire-a-X`, `acheter-a-X`, `things-to-do-in-X`…) now render the city's Commons photo as a hero band. A guide only gets one when the city slug appears in the *guide slug* (`guideCityPhoto`) — a ranking guide listing 12 cities is about none of them, and illustrating it with the first would be a lie. Ranking/thematic guides stay text-only by design.
+
+### Photo pipeline (Wikidata P18 → Wikimedia Commons)
+
+`scripts/commune-images.mjs` — crawls **all 34 969 communes** (geo.api.gouv.fr) →
+Wikidata QID + main image (P18, anchored on `P374` = INSEE code, one SPARQL query
+per département) → Commons `imageinfo` (author, licence, Commons page, 1600px
+source). Every stage is **resumable and cached** in `.cache/commune-images/`
+(gitignored, rebuildable); rate-limited to ~1 req/s with `Retry-After`-aware
+backoff and a contactable User-Agent, as Wikimedia requires.
+
+```bash
+npm run photos          # full chain (communes → wikidata → commons → manifest → assets)
+npm run photos:update   # re-query Wikidata; only new communes / changed P18 are refetched
+node scripts/commune-images.mjs assets --limit=50   # batch control
+```
+
+- **No hotlinking.** Photos are downloaded and re-encoded to webp by sharp at
+  1024px (hero) + 480px (card), written to `public/photos/villes/` with a
+  **content hash** in the filename → `_headers` caches them `immutable`, and an
+  upstream photo change ships under a new URL. Stale files are pruned on rerun.
+- **Data**: `data/city-images.json` (rich record, server-side, via
+  `lib/city-images.ts`) + `data/city-cards.json` (lean: hash/colour/author/
+  licence, via `lib/city-cards.ts`) — the lean one exists because `CityCard`
+  renders inside client components, and the full record would ride into the
+  client bundle for nothing.
+- **Attribution is a licence condition, not decoration.** Most files are CC BY-SA:
+  `components/CityPhoto.tsx` renders the credit (author · licence · Commons link)
+  with the pixels, and non-free licences are filtered out at crawl time
+  (`LICENSE_OK`). Cards show unlinked credit text — the tile is already an `<a>`,
+  and nesting anchors is invalid HTML.
+- **SEO**: city + guide sitemap entries declare their photo (`images:` →
+  `<image:image>`), and city JSON-LD carries an `ImageObject` with
+  `license` + `acquireLicensePage` + `creditText` (Google Images "Licensable").
+- Surfaces: city hero (FR + EN), `CityCard` cover everywhere, and the
+  `quartiers` / `climat` / `a-faire` sub-pages (+ EN `neighbourhoods` /
+  `climate` / `things-to-do`), plus city-specific guide heroes.
+- The crawl covers all 34 969 communes even though only the 540 seed cities get a
+  built asset — the manifest is already there the day the seed grows.
 
 ---
 
