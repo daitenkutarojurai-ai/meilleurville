@@ -20,11 +20,18 @@
   Content-Type: image/png
   Cache-Control: public, max-age=86400
 
-# HTML + everything else: short-lived so deploys propagate; baseline security
-# headers. /widget/embed is served by the Worker (sends its own
-# frame-ancestors *) and is unaffected by asset-level headers.
+# HTML + everything else: baseline security headers.
+#
+# No Cache-Control here on purpose. Cloudflare MERGES every matching rule, so a
+# Cache-Control on /* was appended to the ones above —
+# `max-age=31536000, immutable, public, max-age=0, must-revalidate` — and
+# browsers honour the FIRST max-age, so the hashed bundles were never actually
+# cached. Dropping it lets the specific rules stand alone; HTML still gets
+# `public, max-age=0, must-revalidate`, which is the Workers Assets default.
+#
+# /widget/embed is served by the Worker (sends its own frame-ancestors *) and is
+# unaffected by asset-level headers.
 /*
-  Cache-Control: public, max-age=0, must-revalidate
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: geolocation=(), camera=(), microphone=()
