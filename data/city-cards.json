@@ -1,20 +1,3230 @@
 {
+  "abbeville": {
+    "h": "94c52ae1",
+    "c": "#6888c8",
+    "a": "Emmanuelhammel",
+    "l": "CC BY-SA 3.0"
+  },
+  "agde": {
+    "h": "db5163f2",
+    "c": "#c8b898",
+    "a": "Alex699",
+    "l": "CC BY-SA 3.0"
+  },
+  "agen": {
+    "h": "eeff7b3b",
+    "c": "#3868a8",
+    "a": "Florent Pécassou",
+    "l": "CC BY-SA 3.0"
+  },
+  "aix-en-provence": {
+    "h": "4e8c0f7c",
+    "c": "#1858a8",
+    "a": "Hanay",
+    "l": "CC BY-SA 4.0"
+  },
+  "aix-les-bains": {
+    "h": "d0b7797f",
+    "c": "#6898c8",
+    "a": "Florian Pépellin",
+    "l": "CC BY-SA 3.0"
+  },
+  "ajaccio": {
+    "h": "bb155b25",
+    "c": "#080808",
+    "a": "Julian Nyča",
+    "l": "CC BY-SA 3.0"
+  },
+  "albertville": {
+    "h": "5e79eecd",
+    "c": "#6898e8",
+    "a": "Florian Pépellin",
+    "l": "CC BY-SA 4.0"
+  },
+  "albi": {
+    "h": "38e18753",
+    "c": "#f8f8f8",
+    "a": "Didier Descouens",
+    "l": "CC BY-SA 4.0"
+  },
+  "alencon": {
+    "h": "26f74027",
+    "c": "#4868b8",
+    "a": "Paolo Carnassale",
+    "l": "CC BY-SA 3.0"
+  },
+  "ales": {
+    "h": "d07220a3",
+    "c": "#f8f8f8",
+    "a": "FRLDEL",
+    "l": "CC BY-SA 4.0"
+  },
+  "alfortville": {
+    "h": "6a13d494",
+    "c": "#a8c8e8",
+    "a": "Pline",
+    "l": "CC BY-SA 3.0"
+  },
+  "allauch": {
+    "h": "bcea3a5e",
+    "c": "#5898d8",
+    "a": "Sébastien Bertrand",
+    "l": "CC BY 2.0"
+  },
+  "amberieu-en-bugey": {
+    "h": "10615a60",
+    "c": "#180808",
+    "a": "Marius Bernard",
+    "l": "CC BY-SA 3.0"
+  },
+  "amboise": {
+    "h": "e9887fc3",
+    "c": "#484858",
+    "a": "Wolkenkratzer",
+    "l": "CC BY-SA 4.0"
+  },
+  "amiens": {
+    "h": "13d21319",
+    "c": "#68b8f8",
+    "a": "Jean-Pol GRANDMONT",
+    "l": "CC BY 3.0"
+  },
+  "angers": {
+    "h": "4bb8f152",
+    "c": "#080808",
+    "a": "User:Tango7174, etc. (see above)",
+    "l": "CC BY-SA 3.0"
+  },
+  "anglet": {
+    "h": "5a6619ea",
+    "c": "#b8b8c8",
+    "a": "The original uploader was Dlyons493 at English Wikipedia.",
+    "l": "CC BY-SA 3.0"
+  },
+  "angouleme": {
+    "h": "b791b296",
+    "c": "#8898a8",
+    "a": "Jack ma",
+    "l": "Public domain"
+  },
   "annecy": {
-    "h": "503087a3",
+    "h": "d5c20733",
     "c": "#284878",
     "a": "Yves LC",
     "l": "CC BY-SA 3.0"
   },
   "annemasse": {
-    "h": "73a41df6",
+    "h": "4a1da8c8",
     "c": "#c8d8e8",
     "a": "Annemasse",
     "l": "Public domain"
   },
+  "annonay": {
+    "h": "083721f4",
+    "c": "#98c8e8",
+    "a": "PASQUION",
+    "l": "CC BY-SA 3.0"
+  },
+  "antibes": {
+    "h": "57a58cbb",
+    "c": "#b8c8c8",
+    "a": "Abxbay",
+    "l": "CC BY-SA 3.0"
+  },
+  "antony": {
+    "h": "caa058e0",
+    "c": "#f8f8f8",
+    "a": "User:Wikialine",
+    "l": "CC BY-SA 3.0"
+  },
+  "apt": {
+    "h": "741532cf",
+    "c": "#98c8e8",
+    "a": "Véronique PAGNIER",
+    "l": "CC0"
+  },
+  "arcachon": {
+    "h": "66c4e44e",
+    "c": "#a8d8e8",
+    "a": "User Mtu33260 on fr.wikipedia",
+    "l": "CC BY-SA 3.0"
+  },
+  "arcueil": {
+    "h": "79917b45",
+    "c": "#181818",
+    "a": "Damien94 &amp; Ben",
+    "l": "Public domain"
+  },
+  "argentan": {
+    "h": "dc8da28a",
+    "c": "#f8f8f8",
+    "a": "Benjism89",
+    "l": "CC BY-SA 3.0"
+  },
+  "argenteuil": {
+    "h": "fee8f7e4",
+    "c": "#b8c8d8",
+    "a": "Remi Jouan",
+    "l": "CC BY-SA 3.0"
+  },
+  "arles": {
+    "h": "7be8c8e0",
+    "c": "#a8b8d8",
+    "a": "Steffen Heilfort",
+    "l": "CC BY-SA 3.0"
+  },
+  "armentieres": {
+    "h": "9f090704",
+    "c": "#081808",
+    "a": "Millevylle.steven",
+    "l": "CC BY-SA 3.0"
+  },
+  "arras": {
+    "h": "733f3c9f",
+    "c": "#1868b8",
+    "a": "JackyM59",
+    "l": "CC BY-SA 4.0"
+  },
+  "asnieres-sur-seine": {
+    "h": "428de8da",
+    "c": "#d8c8b8",
+    "a": "Brumathechec",
+    "l": "CC BY-SA 4.0"
+  },
+  "athis-mons": {
+    "h": "cdea1bb1",
+    "c": "#f8f8f8",
+    "a": "Cyrilb1881",
+    "l": "CC BY-SA 3.0"
+  },
+  "aubagne": {
+    "h": "b9740922",
+    "c": "#b8c8d8",
+    "a": "Kremtak",
+    "l": "CC BY-SA 3.0"
+  },
+  "aubenas": {
+    "h": "c6db8834",
+    "c": "#a8c8f8",
+    "a": "The original uploader was Bushido at French Wikipedia.",
+    "l": "FAL"
+  },
+  "aubervilliers": {
+    "h": "47b30d17",
+    "c": "#080808",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "aubusson": {
+    "h": "7ceacbfd",
+    "c": "#a8d8f8",
+    "a": "Bally_Hoo from Southampton Hants, United Kingdom",
+    "l": "CC BY 2.0"
+  },
+  "auch": {
+    "h": "c53668bd",
+    "c": "#88d8f8",
+    "a": "en:User:Hardouin",
+    "l": "CC BY-SA 3.0"
+  },
+  "aulnay-sous-bois": {
+    "h": "fecaaad0",
+    "c": "#c8c8d8",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "aurillac": {
+    "h": "a8ee666b",
+    "c": "#f8f8f8",
+    "a": "B.navez",
+    "l": "CC BY-SA 3.0"
+  },
+  "autun": {
+    "h": "6173c2ee",
+    "c": "#887868",
+    "a": "Christophe.Finot",
+    "l": "CC BY-SA 1.0"
+  },
+  "auxerre": {
+    "h": "2a3ea3a8",
+    "c": "#58a8d8",
+    "a": "Zairon",
+    "l": "CC BY-SA 4.0"
+  },
+  "avignon": {
+    "h": "b2b272a4",
+    "c": "#d8d8e8",
+    "a": "Jean-Marc Rosier (de/from http://www.cjrosier.com + http://www.gordes-immobilier.com)",
+    "l": "CC BY-SA 3.0"
+  },
+  "bagneres-de-bigorre": {
+    "h": "9c8958ff",
+    "c": "#d8f8f8",
+    "a": "Florent Pécassou",
+    "l": "CC BY-SA 3.0"
+  },
+  "bagneux": {
+    "h": "f7ea1886",
+    "c": "#98b8e8",
+    "a": "Perequart",
+    "l": "CC BY-SA 3.0"
+  },
+  "bagnolet": {
+    "h": "4b4d006b",
+    "c": "#c8c8d8",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "bagnols-sur-ceze": {
+    "h": "3673fb10",
+    "c": "#6888a8",
+    "a": "Vi..Cult...",
+    "l": "CC BY-SA 3.0"
+  },
+  "baie-mahault": {
+    "h": "e6cf2cb5",
+    "c": "#a8b8c8",
+    "a": "LPLT",
+    "l": "CC BY-SA 3.0"
+  },
+  "bar-le-duc": {
+    "h": "837624fe",
+    "c": "#c8d8e8",
+    "a": "TCY",
+    "l": "CC BY-SA 3.0"
+  },
+  "bar-sur-aube": {
+    "h": "00b96548",
+    "c": "#3868c8",
+    "a": "Marc Ryckaert",
+    "l": "CC BY-SA 4.0"
+  },
+  "bastia": {
+    "h": "872c725b",
+    "c": "#e8f8f8",
+    "a": "dronepicr",
+    "l": "CC BY 2.0"
+  },
+  "bayeux": {
+    "h": "87f67b84",
+    "c": "#080808",
+    "a": "Mairie de Bayeux",
+    "l": "CC BY-SA 4.0"
+  },
+  "bayonne": {
+    "h": "d0b48bbd",
+    "c": "#78a8d8",
+    "a": "Daniel VILLAFRUELA",
+    "l": "CC BY-SA 3.0"
+  },
+  "beaune": {
+    "h": "6aa7b43f",
+    "c": "#285888",
+    "a": "Stefan Bauer, http://www.ferras.at",
+    "l": "CC BY-SA 2.5"
+  },
+  "beauvais": {
+    "h": "844b0972",
+    "c": "#3868a8",
+    "a": "Diliff",
+    "l": "CC BY-SA 3.0"
+  },
+  "begles": {
+    "h": "c7a9f32f",
+    "c": "#c8e8f8",
+    "a": "Mairie de Bègles",
+    "l": "Public domain"
+  },
+  "belfort": {
+    "h": "d9603e9e",
+    "c": "#c8d8e8",
+    "a": "P-90",
+    "l": "CC0"
+  },
+  "bellac": {
+    "h": "36db898b",
+    "c": "#e8f8f8",
+    "a": "Nitot",
+    "l": "CC BY-SA 3.0"
+  },
+  "berck": {
+    "h": "b12dba2f",
+    "c": "#a8b8c8",
+    "a": "JackyM59",
+    "l": "CC BY-SA 4.0"
+  },
+  "bergerac": {
+    "h": "6549508e",
+    "c": "#7898c8",
+    "a": "Flyer84 at English Wikipedia",
+    "l": "Public domain"
+  },
+  "besancon": {
+    "h": "0245108f",
+    "c": "#78a8d8",
+    "a": "Wikipedro",
+    "l": "CC BY-SA 4.0"
+  },
+  "bethune": {
+    "h": "09806034",
+    "c": "#a8a8b8",
+    "a": "JackyM59",
+    "l": "CC BY-SA 4.0"
+  },
+  "beziers": {
+    "h": "222104ea",
+    "c": "#68a8e8",
+    "a": "Sanchezn",
+    "l": "CC BY-SA 3.0"
+  },
+  "bezons": {
+    "h": "cbebdf43",
+    "c": "#787878",
+    "a": "Didier Duforest",
+    "l": "CC BY-SA 4.0"
+  },
+  "biarritz": {
+    "h": "f3668501",
+    "c": "#88c8f8",
+    "a": "W. Bulach",
+    "l": "CC BY-SA 4.0"
+  },
+  "biscarrosse": {
+    "h": "29d8b0dd",
+    "c": "#68a8e8",
+    "a": "Lisbel",
+    "l": "CC BY-SA 3.0"
+  },
+  "bischheim": {
+    "h": "9c9ba083",
+    "c": "#3858a8",
+    "a": "Nicolas Target",
+    "l": "CC BY-SA 3.0"
+  },
+  "blagnac": {
+    "h": "c3ac9c76",
+    "c": "#88a8c8",
+    "a": "Olybrius",
+    "l": "Public domain"
+  },
+  "blois": {
+    "h": "40dac231",
+    "c": "#d8e8f8",
+    "a": "W. Bulach",
+    "l": "CC BY-SA 4.0"
+  },
+  "bois-colombes": {
+    "h": "668d87e6",
+    "c": "#98a8d8",
+    "a": "Edward Lindao Marazita",
+    "l": "CC BY-SA 4.0"
+  },
+  "bondy": {
+    "h": "fa585f6e",
+    "c": "#78b8f8",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "bordeaux": {
+    "h": "f10d8cea",
+    "c": "#78a8d8",
+    "a": "Patrick Despoix",
+    "l": "CC BY-SA 4.0"
+  },
+  "boulogne-billancourt": {
+    "h": "bb9d5b1e",
+    "c": "#98b8e8",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "boulogne-sur-mer": {
+    "h": "9912d255",
+    "c": "#b8f8f8",
+    "a": "Matthieu Debailleul",
+    "l": "CC BY-SA 1.0"
+  },
+  "bourg-en-bresse": {
+    "h": "183bbd54",
+    "c": "#3878d8",
+    "a": "Chabe01",
+    "l": "CC BY-SA 3.0"
+  },
+  "bourg-la-reine": {
+    "h": "4c65924e",
+    "c": "#b8b8a8",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "bourges": {
+    "h": "0ba798e1",
+    "c": "#283848",
+    "a": "KoS",
+    "l": "Public domain"
+  },
+  "bourgoin-jallieu": {
+    "h": "1bf1acd6",
+    "c": "#282828",
+    "a": "Faycal.09",
+    "l": "Public domain"
+  },
+  "bressuire": {
+    "h": "998fc9e9",
+    "c": "#a8b8d8",
+    "a": "Twingoman",
+    "l": "Public domain"
+  },
+  "brest": {
+    "h": "016834e0",
+    "c": "#88b8d8",
+    "a": "Thesupermat",
+    "l": "CC BY-SA 3.0"
+  },
+  "briancon": {
+    "h": "7b156e62",
+    "c": "#081828",
+    "a": "Poinas.thi",
+    "l": "CC BY-SA 4.0"
+  },
+  "brioude": {
+    "h": "d3d847b3",
+    "c": "#080808",
+    "a": "Mairiebonneval",
+    "l": "CC BY-SA 4.0"
+  },
+  "brive-la-gaillarde": {
+    "h": "b65ced70",
+    "c": "#f8f8f8",
+    "a": "Benjamin Smith",
+    "l": "CC BY-SA 4.0"
+  },
+  "bron": {
+    "h": "4f6ae760",
+    "c": "#787878",
+    "a": "Romainberth",
+    "l": "CC BY-SA 3.0"
+  },
+  "bruay-la-buissiere": {
+    "h": "44b3f77d",
+    "c": "#c8c8c8",
+    "a": "Codepem",
+    "l": "CC BY-SA 3.0"
+  },
+  "brunoy": {
+    "h": "15922544",
+    "c": "#78b8f8",
+    "a": "Vinbaron",
+    "l": "CC BY-SA 3.0"
+  },
+  "cachan": {
+    "h": "79917b45",
+    "c": "#181818",
+    "a": "Damien94 &amp; Ben",
+    "l": "Public domain"
+  },
+  "caen": {
+    "h": "6d4ec2a5",
+    "c": "#a8b8c8",
+    "a": "Roi.dagobert",
+    "l": "CC BY-SA 3.0"
+  },
+  "cagnes-sur-mer": {
+    "h": "036b62df",
+    "c": "#7898b8",
+    "a": "Olivier Cleynen",
+    "l": "CC BY 4.0"
+  },
+  "cahors": {
+    "h": "bd21495a",
+    "c": "#4868a8",
+    "a": "The original uploader was Accrochoc at French Wikipedia.",
+    "l": "CC BY-SA 3.0"
+  },
+  "calais": {
+    "h": "16c13be4",
+    "c": "#b8c8e8",
+    "a": "~",
+    "l": "CC BY-SA 3.0"
+  },
+  "caluire-et-cuire": {
+    "h": "11efd7b0",
+    "c": "#4878b8",
+    "a": "Klodo6975",
+    "l": "CC BY-SA 3.0"
+  },
+  "calvi": {
+    "h": "c922331f",
+    "c": "#b8d8f8",
+    "a": "dronepicr",
+    "l": "CC BY 2.0"
+  },
+  "cambrai": {
+    "h": "bdc77b20",
+    "c": "#6888b8",
+    "a": "JackyM59",
+    "l": "CC BY-SA 4.0"
+  },
+  "cannes": {
+    "h": "f43df89f",
+    "c": "#e8e8e8",
+    "a": "Jenny Andersson / News Oresund",
+    "l": "CC BY 2.0"
+  },
+  "carcassonne": {
+    "h": "ef2d78e8",
+    "c": "#080808",
+    "a": "Chensiyuan",
+    "l": "CC BY-SA 4.0"
+  },
+  "carnac": {
+    "h": "b089c191",
+    "c": "#e8f8f8",
+    "a": "Ji-Elle",
+    "l": "CC BY-SA 3.0"
+  },
+  "carpentras": {
+    "h": "9f06a543",
+    "c": "#080808",
+    "a": "Vi..Cult...",
+    "l": "CC BY-SA 3.0"
+  },
+  "cassis": {
+    "h": "1604e7b8",
+    "c": "#080808",
+    "a": "Jean-Christophe BENOIST",
+    "l": "CC BY 3.0"
+  },
+  "castelsarrasin": {
+    "h": "40f6868c",
+    "c": "#7898c8",
+    "a": "MOSSOT",
+    "l": "CC BY-SA 3.0"
+  },
+  "castres": {
+    "h": "e5aac35e",
+    "c": "#c8c8c8",
+    "a": "Didier Descouens",
+    "l": "CC BY-SA 4.0"
+  },
+  "cavaillon": {
+    "h": "01e00ec9",
+    "c": "#c8d8f8",
+    "a": "Jean-Marc Rosier ( http://www.cjrosier.com + http://www.gordes-immobilier.com )",
+    "l": "CC BY-SA 3.0"
+  },
+  "cayenne": {
+    "h": "670e716e",
+    "c": "#c8d8f8",
+    "a": "Cayambe",
+    "l": "CC BY-SA 3.0"
+  },
+  "ceret": {
+    "h": "a9de77f5",
+    "c": "#484848",
+    "a": null,
+    "l": "CC BY-SA 3.0"
+  },
+  "cergy": {
+    "h": "aeccbe5b",
+    "c": "#080808",
+    "a": "L. Pages - Ville de Cergy",
+    "l": "CC BY-SA 4.0"
+  },
+  "cernay": {
+    "h": "cbd3b664",
+    "c": "#88a8d8",
+    "a": "Rauenstein",
+    "l": "CC BY-SA 3.0"
+  },
+  "challans": {
+    "h": "843aa385",
+    "c": "#e8f8f8",
+    "a": "Cécile Didier",
+    "l": "Public domain"
+  },
+  "chalon-sur-saone": {
+    "h": "ed4a0ec2",
+    "c": "#b8c8d8",
+    "a": "Benjamin Smith",
+    "l": "CC BY-SA 4.0"
+  },
+  "chalons-en-champagne": {
+    "h": "32bd71bf",
+    "c": "#787888",
+    "a": "TitTornade",
+    "l": "CC BY-SA 3.0"
+  },
+  "chambery": {
+    "h": "316f1720",
+    "c": "#a8c8e8",
+    "a": "Florian Pépellin",
+    "l": "CC BY-SA 3.0"
+  },
+  "champigny-sur-marne": {
+    "h": "2785d714",
+    "c": "#b8b8a8",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "champs-sur-marne": {
+    "h": "8aa1af8a",
+    "c": "#3868b8",
+    "a": "Benjism89",
+    "l": "CC BY-SA 3.0"
+  },
+  "chantilly": {
+    "h": "b2fdce8e",
+    "c": "#080808",
+    "a": "Tango7174",
+    "l": "CC BY-SA 4.0"
+  },
+  "charenton-le-pont": {
+    "h": "81416a73",
+    "c": "#080808",
+    "a": "Eponimm",
+    "l": "CC BY-SA 3.0"
+  },
+  "charleville-mezieres": {
+    "h": "da2644e7",
+    "c": "#b8d8f8",
+    "a": "Ad Meskens",
+    "l": "CC BY-SA 3.0"
+  },
+  "chartres": {
+    "h": "c2228f5e",
+    "c": "#080808",
+    "a": "Calips",
+    "l": "CC BY 2.5"
+  },
+  "chateau-gontier-sur-mayenne": {
+    "h": "8db5d749",
+    "c": "#a8b8c8",
+    "a": "Simon de l'Ouest",
+    "l": "CC BY-SA 3.0"
+  },
+  "chateaudun": {
+    "h": "e6924569",
+    "c": "#7898b8",
+    "a": "Patrick GIRAUD",
+    "l": "CC BY-SA 3.0"
+  },
+  "chateauroux": {
+    "h": "dc095229",
+    "c": "#f8f8f8",
+    "a": "Benjism89 (talk · contribs)",
+    "l": "CC BY-SA 3.0"
+  },
+  "chatellerault": {
+    "h": "0f896200",
+    "c": "#485868",
+    "a": "Pierre Mairé",
+    "l": "CC BY-SA 3.0"
+  },
+  "chatenay-malabry": {
+    "h": "0174e808",
+    "c": "#b8c8d8",
+    "a": "JC Allin",
+    "l": "CC BY-SA 3.0"
+  },
+  "chatillon-92": {
+    "h": "a93e57f3",
+    "c": "#386898",
+    "a": "Binche",
+    "l": "CC BY-SA 3.0"
+  },
+  "chaumont": {
+    "h": "23bb5e5d",
+    "c": "#080808",
+    "a": "Chaumont52",
+    "l": "CC BY-SA 3.0"
+  },
+  "chelles": {
+    "h": "00c5709f",
+    "c": "#5878b8",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "chenove": {
+    "h": "24103788",
+    "c": "#587898",
+    "a": "Joël Fanet",
+    "l": "CC BY-SA 4.0"
+  },
+  "cherbourg": {
+    "h": "cb2c3187",
+    "c": "#687888",
+    "a": "fr:Utilisateur:Steff",
+    "l": "CC BY-SA 3.0"
+  },
+  "chinon": {
+    "h": "2eabd71c",
+    "c": "#f8f8f8",
+    "a": "sybarite48",
+    "l": "CC BY 2.0"
+  },
+  "choisy-le-roi": {
+    "h": "71422fd0",
+    "c": "#a8c8e8",
+    "a": "1quidam",
+    "l": "CC BY-SA 3.0"
+  },
+  "cholet": {
+    "h": "5ccdc8e0",
+    "c": "#88c8f8",
+    "a": "Selbymay",
+    "l": "CC BY-SA 3.0"
+  },
+  "clamecy": {
+    "h": "b2fcb755",
+    "c": "#78a8f8",
+    "a": "Szeder László",
+    "l": "CC BY-SA 4.0"
+  },
+  "clermont-ferrand": {
+    "h": "c93980cb",
+    "c": "#4898d8",
+    "a": "bebatut",
+    "l": "CC BY-SA 2.0"
+  },
+  "clermont-herault": {
+    "h": "78f07493",
+    "c": "#d8e8f8",
+    "a": "Ph. REUL",
+    "l": "Public domain"
+  },
+  "clichy": {
+    "h": "a8a7a9ed",
+    "c": "#d8d8e8",
+    "a": "Thomon",
+    "l": "CC BY-SA 4.0"
+  },
+  "cluses": {
+    "h": "08d46064",
+    "c": "#b8c8e8",
+    "a": "Rexpain",
+    "l": "CC BY-SA 3.0"
+  },
+  "cognac": {
+    "h": "9d003e77",
+    "c": "#b8d8e8",
+    "a": "Jack ma",
+    "l": "CC BY-SA 3.0"
+  },
+  "collioure": {
+    "h": "00772eaa",
+    "c": "#080808",
+    "a": "Jcb-caz-11",
+    "l": "CC BY-SA 4.0"
+  },
+  "colmar": {
+    "h": "14dc62aa",
+    "c": "#08a8f8",
+    "a": "--sinava-- from Berlin",
+    "l": "CC BY 2.0"
+  },
+  "colombes": {
+    "h": "209dba1a",
+    "c": "#385898",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "colomiers": {
+    "h": "c8675d7d",
+    "c": "#f8f8f8",
+    "a": "Praise (talk · contribs)",
+    "l": "CC BY-SA 3.0"
+  },
+  "combs-la-ville": {
+    "h": "c84e17f4",
+    "c": "#c8b898",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "commercy": {
+    "h": "960ca9eb",
+    "c": "#6898b8",
+    "a": "Camster2",
+    "l": "CC BY-SA 3.0"
+  },
+  "compiegne": {
+    "h": "9a243394",
+    "c": "#484848",
+    "a": "Baidax",
+    "l": "CC BY-SA 4.0"
+  },
+  "concarneau": {
+    "h": "db485c6f",
+    "c": "#587888",
+    "a": "Ronan Voltz",
+    "l": "CC BY 3.0"
+  },
+  "condom": {
+    "h": "4433aa7c",
+    "c": "#d8e8e8",
+    "a": "Oxxo",
+    "l": "CC BY-SA 3.0"
+  },
+  "conflans-sainte-honorine": {
+    "h": "5fd10fe3",
+    "c": "#4878b8",
+    "a": "Nitot",
+    "l": "CC BY-SA 3.0"
+  },
+  "corbeil-essonnes": {
+    "h": "2b2bd584",
+    "c": "#b8c8d8",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "cormeilles-en-parisis": {
+    "h": "542ef4aa",
+    "c": "#e8e8e8",
+    "a": "Jean-no (talk · contribs) (Jean-Noël Lafargue)",
+    "l": "FAL"
+  },
+  "corte": {
+    "h": "5b826de1",
+    "c": "#98c8e8",
+    "a": "dronepicr",
+    "l": "CC BY 2.0"
+  },
+  "cosne-cours-sur-loire": {
+    "h": "10305679",
+    "c": "#080808",
+    "a": "Pline",
+    "l": "CC BY-SA 3.0"
+  },
+  "courbevoie": {
+    "h": "2a4cd6fd",
+    "c": "#e8e8e8",
+    "a": "Clicsouris",
+    "l": "CC BY-SA 2.5"
+  },
+  "creil": {
+    "h": "0abe73f3",
+    "c": "#4888c8",
+    "a": "P.poschadel",
+    "l": "CC BY-SA 2.0 fr"
+  },
+  "crepy-en-valois": {
+    "h": "18136d7e",
+    "c": "#d8e8f8",
+    "a": "P.poschadel",
+    "l": "CC BY-SA 2.0 fr"
+  },
+  "creteil": {
+    "h": "219b8b32",
+    "c": "#385878",
+    "a": "Suaudeau",
+    "l": "CC BY-SA 4.0"
+  },
+  "cugnaux": {
+    "h": "bf9790c0",
+    "c": "#c8e8f8",
+    "a": "Paternel 1 (talk · contribs)",
+    "l": "CC BY-SA 4.0"
+  },
+  "dax": {
+    "h": "1da143f5",
+    "c": "#282828",
+    "a": "Ad Vitam",
+    "l": "CC BY-SA 3.0"
+  },
+  "decines-charpieu": {
+    "h": "425b3ac6",
+    "c": "#98c8f8",
+    "a": "Ursus",
+    "l": "CC BY-SA 3.0"
+  },
+  "delle": {
+    "h": "b7dbeea1",
+    "c": "#98b8e8",
+    "a": "The original uploader was F5ZV at French Wikipedia.",
+    "l": "CC BY-SA 3.0"
+  },
+  "denain": {
+    "h": "a2136341",
+    "c": "#181818",
+    "a": "Ottaviani",
+    "l": "CC BY-SA 3.0"
+  },
+  "dieppe": {
+    "h": "e797e111",
+    "c": "#d8d8e8",
+    "a": "Baidax",
+    "l": "CC BY-SA 4.0"
+  },
+  "digne-les-bains": {
+    "h": "ed99330d",
+    "c": "#88b8d8",
+    "a": "Jean-Christophe BENOIST",
+    "l": "CC BY 3.0"
+  },
+  "dijon": {
+    "h": "6c0aed7e",
+    "c": "#98a8b8",
+    "a": "Christophe.Finot",
+    "l": "CC BY-SA 2.5"
+  },
+  "dinan": {
+    "h": "8d20920d",
+    "c": "#4898d8",
+    "a": "Binche",
+    "l": "Public domain"
+  },
+  "dinard": {
+    "h": "c99c3159",
+    "c": "#e8f8f8",
+    "a": "Pymouss44",
+    "l": "CC BY-SA 3.0"
+  },
+  "dole": {
+    "h": "341897cc",
+    "c": "#f8f8f8",
+    "a": "Cjulien21",
+    "l": "CC BY-SA 3.0"
+  },
+  "domont": {
+    "h": "7f1e9484",
+    "c": "#5898c8",
+    "a": "BastienM",
+    "l": "CC BY-SA 3.0"
+  },
+  "douai": {
+    "h": "aab5983b",
+    "c": "#88a8d8",
+    "a": "JackyM59",
+    "l": "CC BY-SA 4.0"
+  },
+  "douarnenez": {
+    "h": "82e67b1c",
+    "c": "#98c8e8",
+    "a": "LPLT",
+    "l": "CC BY-SA 3.0"
+  },
+  "draguignan": {
+    "h": "b60f1ba4",
+    "c": "#78a8c8",
+    "a": "Edouard-rainaut",
+    "l": "CC BY-SA 3.0"
+  },
+  "drancy": {
+    "h": "36cea681",
+    "c": "#6898e8",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "draveil": {
+    "h": "c4c90dd6",
+    "c": "#c8c8c8",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "dreux": {
+    "h": "f666da85",
+    "c": "#b8c8d8",
+    "a": "Adrien Goussard",
+    "l": "CC BY-SA 4.0"
+  },
+  "dunkerque": {
+    "h": "c72639dc",
+    "c": "#282828",
+    "a": "Pichasso",
+    "l": "CC BY-SA 3.0"
+  },
+  "eaubonne": {
+    "h": "e66ff300",
+    "c": "#d8e8f8",
+    "a": "Clicsouris",
+    "l": "CC BY-SA 2.5"
+  },
+  "echirolles": {
+    "h": "b2bed0b4",
+    "c": "#f8f8f8",
+    "a": null,
+    "l": "CC BY-SA 3.0"
+  },
+  "elancourt": {
+    "h": "f5c652e3",
+    "c": "#080808",
+    "a": "Henry Salomé (Jaser !) 11:21, 27 October 2006 (UTC)",
+    "l": "CC BY-SA 3.0"
+  },
+  "embrun": {
+    "h": "fc1b6b60",
+    "c": "#6898d8",
+    "a": "Florian Pépellin",
+    "l": "CC BY-SA 3.0"
+  },
+  "epernay": {
+    "h": "ee8d837a",
+    "c": "#f8f8f8",
+    "a": "No machine-readable author provided. Sand~commonswiki assumed (based on copyright claims).",
+    "l": "Public domain"
+  },
+  "epinal": {
+    "h": "ad8180d4",
+    "c": "#080808",
+    "a": "ArKaNuM",
+    "l": "CC BY-SA 3.0"
+  },
+  "ermont": {
+    "h": "fc36ced6",
+    "c": "#b8d8f8",
+    "a": "Clicsouris",
+    "l": "CC BY-SA 2.5"
+  },
+  "etampes": {
+    "h": "9087d899",
+    "c": "#98a8b8",
+    "a": null,
+    "l": "CC BY 2.5"
+  },
+  "evian-les-bains": {
+    "h": "9fe0c3ee",
+    "c": "#c8e8f8",
+    "a": "Yvan Tisseyre / OT Vallée d'Aulps",
+    "l": "CC BY-SA 3.0"
+  },
+  "evreux": {
+    "h": "5558f11d",
+    "c": "#4888c8",
+    "a": "Poudou99",
+    "l": "CC BY-SA 4.0"
+  },
+  "evry-courcouronnes": {
+    "h": "4aacb72e",
+    "c": "#284878",
+    "a": "ArchiModerne",
+    "l": "CC BY-SA 3.0"
+  },
+  "figeac": {
+    "h": "6ab67c9d",
+    "c": "#483828",
+    "a": null,
+    "l": "CC BY-SA 3.0"
+  },
+  "firminy": {
+    "h": "0433dee0",
+    "c": "#a8d8e8",
+    "a": "Patomarc at French Wikipedia",
+    "l": "Public domain"
+  },
+  "flers": {
+    "h": "bacd988d",
+    "c": "#686868",
+    "a": "No machine-readable author provided. Jrdesmonts assumed (based on copyright claims).",
+    "l": "CC BY 2.5"
+  },
+  "fleurance": {
+    "h": "201580bf",
+    "c": "#98c8f8",
+    "a": "F123",
+    "l": "CC BY-SA 4.0"
+  },
+  "fleury-les-aubrais": {
+    "h": "6deb90d3",
+    "c": "#6888b8",
+    "a": "Wikifrédéric",
+    "l": "CC BY-SA 3.0"
+  },
+  "florac-trois-rivieres": {
+    "h": "77193d26",
+    "c": "#283838",
+    "a": "W. Bulach",
+    "l": "CC BY-SA 4.0"
+  },
+  "foix": {
+    "h": "501c94fc",
+    "c": "#a8b8b8",
+    "a": "BastienM",
+    "l": "CC BY-SA 3.0"
+  },
+  "fontaine": {
+    "h": "9156dea1",
+    "c": "#f8f8f8",
+    "a": "CORLIN",
+    "l": "CC BY-SA 3.0"
+  },
+  "fontainebleau": {
+    "h": "f1433140",
+    "c": "#281818",
+    "a": "Nyyynon",
+    "l": "CC BY-SA 4.0"
+  },
+  "fontenay-le-comte": {
+    "h": "cab35be6",
+    "c": "#f8f8f8",
+    "a": "Selbymay",
+    "l": "CC BY-SA 3.0"
+  },
+  "fontenay-sous-bois": {
+    "h": "45bcdc65",
+    "c": "#5878b8",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "forbach": {
+    "h": "ded5cb32",
+    "c": "#e8e8e8",
+    "a": "Jean-Marc Pascolo",
+    "l": "CC BY-SA 3.0"
+  },
+  "fort-de-france": {
+    "h": "e20c1494",
+    "c": "#78a8e8",
+    "a": "Scott S Bateman",
+    "l": "CC BY-SA 4.0"
+  },
+  "franconville": {
+    "h": "a479a3fd",
+    "c": "#f8f8f8",
+    "a": "Clicsouris",
+    "l": "CC BY-SA 2.5"
+  },
+  "frejus": {
+    "h": "1d2fb634",
+    "c": "#f8f8f8",
+    "a": "Cyrilb1881",
+    "l": "CC BY-SA 3.0"
+  },
+  "fresnes": {
+    "h": "a711a02f",
+    "c": "#f8f8f8",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "gaillac": {
+    "h": "52921f37",
+    "c": "#181818",
+    "a": "Didier Descouens",
+    "l": "CC BY-SA 4.0"
+  },
+  "gap": {
+    "h": "0355079b",
+    "c": "#687868",
+    "a": "Le corrigateur",
+    "l": "CC BY-SA 4.0"
+  },
+  "garges-les-gonesse": {
+    "h": "44ccef3b",
+    "c": "#a8c8f8",
+    "a": "Clicsouris",
+    "l": "CC BY-SA 2.5"
+  },
+  "gennevilliers": {
+    "h": "1151f80a",
+    "c": "#585858",
+    "a": "Mailvince",
+    "l": "CC BY-SA 4.0"
+  },
+  "gentilly": {
+    "h": "f31ce67f",
+    "c": "#98b8f8",
+    "a": "Ralf.treinen",
+    "l": "CC BY-SA 3.0"
+  },
+  "gerardmer": {
+    "h": "e28930cd",
+    "c": "#c8e8f8",
+    "a": "Copyright © Christian Amet",
+    "l": "CC BY 2.5"
+  },
+  "gex": {
+    "h": "b1cf2066",
+    "c": "#c8d8e8",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "gien": {
+    "h": "1d60ec10",
+    "c": "#c8c8c8",
+    "a": "Lionel Allorge",
+    "l": "CC BY-SA 3.0"
+  },
+  "givors": {
+    "h": "f00295b0",
+    "c": "#b8c8e8",
+    "a": "Camster",
+    "l": "CC BY-SA 3.0"
+  },
+  "gonesse": {
+    "h": "16bc6009",
+    "c": "#88b8e8",
+    "a": "P.poschadel",
+    "l": "CC BY-SA 2.0 fr"
+  },
+  "gordes": {
+    "h": "8b6b4a83",
+    "c": "#d8d8e8",
+    "a": "Jean-Marc Rosier http://www.cjrosier.com + http://www.gordes-immobilier.com)",
+    "l": "CC BY-SA 3.0"
+  },
+  "gourdon": {
+    "h": "dfb15167",
+    "c": "#d8e8e8",
+    "a": "Didier Descouens",
+    "l": "CC BY-SA 3.0"
+  },
+  "goussainville": {
+    "h": "15c8a7aa",
+    "c": "#6898c8",
+    "a": "P.poschadel",
+    "l": "CC BY-SA 2.0 fr"
+  },
+  "granville": {
+    "h": "fa6a5c56",
+    "c": "#a8c8f8",
+    "a": "Florian Pépellin",
+    "l": "CC BY-SA 4.0"
+  },
+  "grasse": {
+    "h": "59ef0e7e",
+    "c": "#c8c8c8",
+    "a": "Olivier Cleynen",
+    "l": "CC BY 4.0"
+  },
+  "gray": {
+    "h": "2b2dfa18",
+    "c": "#6888c8",
+    "a": "G CHP",
+    "l": "CC BY-SA 2.5"
+  },
+  "grenoble": {
+    "h": "8cf9d1ce",
+    "c": "#f8f8e8",
+    "a": "Brücke-Osteuropa",
+    "l": "Public domain"
+  },
+  "guebwiller": {
+    "h": "5a5115b4",
+    "c": "#b8e8f8",
+    "a": "Florival fr",
+    "l": "CC BY-SA 3.0"
+  },
+  "gueret": {
+    "h": "00017973",
+    "c": "#080808",
+    "a": "Mattderu",
+    "l": "CC BY-SA 3.0"
+  },
+  "guingamp": {
+    "h": "d611a7d7",
+    "c": "#f8f8f8",
+    "a": "GO69",
+    "l": "CC BY-SA 3.0"
+  },
+  "guyancourt": {
+    "h": "2fa9a2db",
+    "c": "#181818",
+    "a": "Langladure",
+    "l": "CC BY-SA 3.0"
+  },
+  "haguenau": {
+    "h": "de233255",
+    "c": "#080808",
+    "a": "EU-FR-AL-67@Haguenau_Maison_de_la_Chancellerie_-_Horloge.jpg: Richieman FR-67-Haguenau10.JPG: Szeder László FR-67-Haguenau11.JPG: Szeder László EU-FR-AL-67@Haguenau_Église_Saint-Georges_02.jpg: Richieman Casemate_Esch_2006-1.jpg: Denis.helfer derivative work: Monsieur Fou (talk)",
+    "l": "CC BY-SA 3.0"
+  },
+  "hayange": {
+    "h": "41c0b163",
+    "c": "#e8e8f8",
+    "a": "Aimelaime at French Wikipedia",
+    "l": "Public domain"
+  },
+  "hazebrouck": {
+    "h": "7474a2b4",
+    "c": "#4878b8",
+    "a": "Marc Ryckaert",
+    "l": "CC BY-SA 4.0"
+  },
+  "hendaye": {
+    "h": "d58143dc",
+    "c": "#080808",
+    "a": "No machine-readable author provided. Harrieta171 assumed (based on copyright claims).",
+    "l": "CC BY 2.5"
+  },
+  "henin-beaumont": {
+    "h": "3cd39167",
+    "c": "#d8e8f8",
+    "a": "HeninBeaumont",
+    "l": "CC BY-SA 4.0"
+  },
+  "herouville-saint-clair": {
+    "h": "11137ac1",
+    "c": "#080808",
+    "a": "hamon jp",
+    "l": "CC BY-SA 3.0"
+  },
+  "honfleur": {
+    "h": "f6b2fa68",
+    "c": "#5888c8",
+    "a": "Pinpin",
+    "l": "CC BY 2.5"
+  },
+  "hossegor": {
+    "h": "1d671f8a",
+    "c": "#6888c8",
+    "a": "This illustration was made by Peter Potrowl. Please credit this with : © Peter Potrowl in the immediate vicinity of the image. A link to my website sitemai.eu would be much appreciated but isn't mandatory. An email to Peter Potrowl would be appreciated too. Do not copy this image illegally by ignoring the terms of the license below, as it is not in the public domain. If you would like special permission to use, license, or purchase the image please contact me Peter Potrowl to negotiate terms. More free pictures in my website. Donations are accepted here and here.",
+    "l": "CC BY-SA 3.0"
+  },
+  "houilles": {
+    "h": "bbe7c311",
+    "c": "#787878",
+    "a": "PharaonHouilles",
+    "l": "CC BY-SA 4.0"
+  },
+  "hyeres": {
+    "h": "6b351ed3",
+    "c": "#f8f8f8",
+    "a": "Denis Biette",
+    "l": "CC BY-SA 2.5"
+  },
+  "ile-de-re": {
+    "h": "bcb23e7e",
+    "c": "#b8c8c8",
+    "a": "Remi Jouan",
+    "l": "CC BY-SA 3.0"
+  },
+  "illkirch-graffenstaden": {
+    "h": "4fd6decc",
+    "c": "#6888b8",
+    "a": "Ville d'Illkirch-Graffenstaden",
+    "l": "CC BY-SA 4.0"
+  },
+  "issoire": {
+    "h": "f57411a7",
+    "c": "#c8c8d8",
+    "a": null,
+    "l": "Public domain"
+  },
+  "issoudun": {
+    "h": "6bc1f79b",
+    "c": "#e8e8f8",
+    "a": "Benjism89",
+    "l": "CC BY-SA 3.0"
+  },
+  "issy-les-moulineaux": {
+    "h": "a530c47b",
+    "c": "#d8e8e8",
+    "a": "Guilhem Vellut from Paris, France",
+    "l": "CC BY 2.0"
+  },
+  "istres": {
+    "h": "7a051180",
+    "c": "#88c8f8",
+    "a": "Luk",
+    "l": "CC BY-SA 3.0"
+  },
+  "ivry-sur-seine": {
+    "h": "fbf19656",
+    "c": "#a8a8c8",
+    "a": "Wilfredor",
+    "l": "CC0"
+  },
+  "jarnac": {
+    "h": "22ec0314",
+    "c": "#c8d8f8",
+    "a": "Jack ma",
+    "l": "CC BY-SA 3.0"
+  },
+  "joigny": {
+    "h": "610317d5",
+    "c": "#f8f8f8",
+    "a": "Mbzt",
+    "l": "CC BY-SA 3.0"
+  },
+  "joue-les-tours": {
+    "h": "97ec3bf6",
+    "c": "#080808",
+    "a": "Angela Monika Arnold",
+    "l": "CC BY-SA 2.0 de"
+  },
+  "kingersheim": {
+    "h": "9bce5ce8",
+    "c": "#787878",
+    "a": "Rauenstein",
+    "l": "CC BY-SA 3.0"
+  },
+  "la-baule": {
+    "h": "cda0bebd",
+    "c": "#b89868",
+    "a": "Wikineptune",
+    "l": "CC BY-SA 3.0"
+  },
+  "la-ciotat": {
+    "h": "85e68285",
+    "c": "#4888d8",
+    "a": "Jeanne Menjoulet from Paris, France",
+    "l": "CC BY 2.0"
+  },
+  "la-courneuve": {
+    "h": "3cb3b835",
+    "c": "#3868a8",
+    "a": "fr:Utilisateur:Olivier2000",
+    "l": "CC BY 1.0"
+  },
+  "la-fleche": {
+    "h": "3e6cf620",
+    "c": "#386888",
+    "a": "Manfred Heyde",
+    "l": "CC BY-SA 4.0"
+  },
+  "la-garenne-colombes": {
+    "h": "35a4b7c9",
+    "c": "#d8d8e8",
+    "a": "Garennois92",
+    "l": "CC BY-SA 4.0"
+  },
+  "la-roche-sur-yon": {
+    "h": "12d5914d",
+    "c": "#887868",
+    "a": "Ludo33",
+    "l": "CC BY-SA 3.0"
+  },
+  "la-rochelle": {
+    "h": "bcb23e7e",
+    "c": "#b8c8c8",
+    "a": "Remi Jouan",
+    "l": "CC BY-SA 3.0"
+  },
+  "la-seyne-sur-mer": {
+    "h": "6dd20957",
+    "c": "#f8f8f8",
+    "a": "Cyril-83",
+    "l": "CC BY-SA 4.0"
+  },
+  "la-souterraine": {
+    "h": "39bece8f",
+    "c": "#f8f8f8",
+    "a": "Sheriff Of Nothing",
+    "l": "CC BY 2.0"
+  },
+  "lanester": {
+    "h": "f37a2cff",
+    "c": "#f8f8f8",
+    "a": "XIIIfromTOKYO",
+    "l": "CC BY-SA 3.0"
+  },
+  "langres": {
+    "h": "29b8f3f4",
+    "c": "#c8e8f8",
+    "a": "Vassil",
+    "l": "Public domain"
+  },
+  "lannion": {
+    "h": "79cbe00b",
+    "c": "#e8e8e8",
+    "a": "Laurent (talk)",
+    "l": "CC BY-SA 3.0"
+  },
+  "laon": {
+    "h": "ee4cd6f1",
+    "c": "#98b8c8",
+    "a": "Pline",
+    "l": "CC BY-SA 3.0"
+  },
+  "laval": {
+    "h": "752b6f28",
+    "c": "#b8d8e8",
+    "a": "Celeste (permission given to User:Oie blanche)",
+    "l": "CC BY 3.0"
+  },
+  "laxou": {
+    "h": "c538c69f",
+    "c": "#e8e8f8",
+    "a": "ske",
+    "l": "Public domain"
+  },
+  "le-blanc": {
+    "h": "cbe4a270",
+    "c": "#988888",
+    "a": "Daop5510",
+    "l": "CC BY-SA 3.0"
+  },
+  "le-blanc-mesnil": {
+    "h": "4645e5a9",
+    "c": "#081818",
+    "a": "Lucien de Rubrempré",
+    "l": "CC BY-SA 3.0"
+  },
+  "le-bouscat": {
+    "h": "ab533fcc",
+    "c": "#5888c8",
+    "a": "Dark Attsios",
+    "l": "CC BY-SA 3.0"
+  },
+  "le-cannet": {
+    "h": "a3fae493",
+    "c": "#3868b8",
+    "a": "Jpchevreau",
+    "l": "CC BY-SA 3.0"
+  },
+  "le-chesnay-rocquencourt": {
+    "h": "57726cee",
+    "c": "#f8f8f8",
+    "a": "ℍenry Salomé",
+    "l": "CC BY-SA 3.0"
+  },
+  "le-francois": {
+    "h": "b19bc7f0",
+    "c": "#5878b8",
+    "a": "UHF",
+    "l": "CC BY-SA 3.0"
+  },
+  "le-grand-quevilly": {
+    "h": "9dc08cd8",
+    "c": "#080808",
+    "a": "Costa-Luso",
+    "l": "CC BY-SA 4.0"
+  },
+  "le-havre": {
+    "h": "ec3b30b6",
+    "c": "#b8c8d8",
+    "a": "derivative work:Ignis Le_Havre_Vue_Plage_14_07_2005.jpg: Urban",
+    "l": "CC BY-SA 3.0"
+  },
+  "le-kremlin-bicetre": {
+    "h": "8b2c456e",
+    "c": "#d8e8f8",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "le-lamentin": {
+    "h": "90a4f12a",
+    "c": "#788878",
+    "a": "Yann 2986",
+    "l": "CC BY-SA 3.0"
+  },
+  "le-mans": {
+    "h": "4aa076e0",
+    "c": "#b8e8f8",
+    "a": "Le Mans",
+    "l": "CC BY 3.0"
+  },
+  "le-perreux-sur-marne": {
+    "h": "6e920016",
+    "c": "#2868b8",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "le-plessis-robinson": {
+    "h": "0e4f993a",
+    "c": "#b8c8c8",
+    "a": "DanielBarreau",
+    "l": "Public domain"
+  },
+  "le-puy-en-velay": {
+    "h": "575b6c48",
+    "c": "#a8b8d8",
+    "a": "W. Bulach",
+    "l": "CC BY-SA 4.0"
+  },
+  "le-robert": {
+    "h": "d7b46efb",
+    "c": "#484838",
+    "a": "satellite",
+    "l": "Public domain"
+  },
+  "le-tampon": {
+    "h": "a1d4603e",
+    "c": "#181818",
+    "a": "ThomasInTheSky",
+    "l": "CC BY-SA 4.0"
+  },
+  "lens": {
+    "h": "2d6b3a58",
+    "c": "#f8f8f8",
+    "a": "No machine-readable author provided. Maitre So assumed (based on copyright claims).",
+    "l": "Public domain"
+  },
+  "les-abymes": {
+    "h": "37f2ad86",
+    "c": "#e8f8f8",
+    "a": "LPLT",
+    "l": "CC BY-SA 3.0"
+  },
+  "les-andelys": {
+    "h": "5a5b031e",
+    "c": "#080808",
+    "a": "Brigitte CLIN",
+    "l": "CC BY-SA 4.0"
+  },
+  "les-sables-d-olonne": {
+    "h": "900212b1",
+    "c": "#88b8d8",
+    "a": "Florian Pépellin",
+    "l": "CC BY-SA 3.0"
+  },
+  "levallois-perret": {
+    "h": "439ce3e9",
+    "c": "#080808",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "libourne": {
+    "h": "47d5beb9",
+    "c": "#f8f8f8",
+    "a": "Henry Salomé",
+    "l": "CC BY-SA 3.0"
+  },
+  "lievin": {
+    "h": "ea50fdd2",
+    "c": "#88a8c8",
+    "a": "Jérémy Jännick",
+    "l": "Public domain"
+  },
+  "lille": {
+    "h": "e004ee67",
+    "c": "#98c8f8",
+    "a": "Velvet",
+    "l": "CC BY-SA 3.0"
+  },
+  "limoges": {
+    "h": "b06a962f",
+    "c": "#e8f8f8",
+    "a": "Babsy",
+    "l": "CC BY-SA 3.0"
+  },
+  "limoux": {
+    "h": "d695d842",
+    "c": "#b8a8a8",
+    "a": "Pinpin",
+    "l": "CC BY-SA 3.0"
+  },
+  "lingolsheim": {
+    "h": "d7597e10",
+    "c": "#989898",
+    "a": "© Ralph Hammann - Wikimedia Commons",
+    "l": "CC BY-SA 4.0"
+  },
+  "longwy": {
+    "h": "6492947c",
+    "c": "#78a8e8",
+    "a": "fr:Utilisateur:Grain de sel",
+    "l": "CC BY-SA 4.0"
+  },
+  "lons-le-saunier": {
+    "h": "a30aa668",
+    "c": "#88b8f8",
+    "a": "photography taken by Christophe.Finot",
+    "l": "CC BY-SA 3.0"
+  },
+  "lorient": {
+    "h": "82945dfb",
+    "c": "#184848",
+    "a": "The original uploader was Jackmame at French Wikipedia.",
+    "l": "CC BY-SA 2.5"
+  },
+  "lourdes": {
+    "h": "78e39f71",
+    "c": "#e8e8e8",
+    "a": "Père Igor",
+    "l": "CC BY-SA 3.0"
+  },
+  "louviers": {
+    "h": "8d66b6d7",
+    "c": "#080808",
+    "a": "Theoliane 13:36, 13 August 2007 (UTC)",
+    "l": "Public domain"
+  },
+  "lure": {
+    "h": "ab04d24a",
+    "c": "#c8e8f8",
+    "a": "A.BourgeoisP",
+    "l": "CC BY-SA 4.0"
+  },
+  "lyon": {
+    "h": "65fe1783",
+    "c": "#b8c8d8",
+    "a": "Otourly",
+    "l": "CC BY-SA 3.0"
+  },
+  "macon": {
+    "h": "21527bc0",
+    "c": "#68a8e8",
+    "a": "Luciani71",
+    "l": "CC BY-SA 3.0"
+  },
+  "maisons-alfort": {
+    "h": "d65d4619",
+    "c": "#b8c8d8",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "malakoff": {
+    "h": "cf0f4145",
+    "c": "#a8c8e8",
+    "a": "Croquant",
+    "l": "CC BY-SA 3.0"
+  },
+  "mamoudzou": {
+    "h": "b3c85923",
+    "c": "#285878",
+    "a": "Yane MAINARD",
+    "l": "CC0"
+  },
+  "mandelieu-la-napoule": {
+    "h": "59f9007c",
+    "c": "#6888a8",
+    "a": "Florian Pépellin",
+    "l": "CC BY-SA 3.0"
+  },
+  "manosque": {
+    "h": "897c4b7d",
+    "c": "#68a8d8",
+    "a": "Thythy",
+    "l": "CC BY-SA 3.0"
+  },
+  "mantes-la-jolie": {
+    "h": "f55448d5",
+    "c": "#6898d8",
+    "a": "Pierre Poschadel",
+    "l": "CC BY-SA 4.0"
+  },
+  "marignane": {
+    "h": "8c3c52fd",
+    "c": "#080808",
+    "a": "Rainbow0413",
+    "l": "CC BY-SA 3.0"
+  },
+  "marmande": {
+    "h": "bd13a0a3",
+    "c": "#080808",
+    "a": "Original uploader was Dimitri2401 at FR.wikipedia",
+    "l": "CC BY-SA 3.0"
+  },
+  "marseille": {
+    "h": "0bdf486f",
+    "c": "#88b8d8",
+    "a": "kallerna",
+    "l": "CC BY-SA 4.0"
+  },
+  "martigues": {
+    "h": "0e6d9820",
+    "c": "#78c8f8",
+    "a": "Benjamin Smith",
+    "l": "CC BY-SA 4.0"
+  },
+  "massy": {
+    "h": "0fea72d7",
+    "c": "#6898d8",
+    "a": "X-Javier",
+    "l": "CC BY-SA 4.0"
+  },
+  "maubeuge": {
+    "h": "65842ab0",
+    "c": "#7898c8",
+    "a": "Chatsam",
+    "l": "Public domain"
+  },
+  "maurepas": {
+    "h": "8d3f9e44",
+    "c": "#f8f8f8",
+    "a": "Johann.d",
+    "l": "CC BY-SA 3.0"
+  },
+  "mauriac": {
+    "h": "6e0bf59a",
+    "c": "#181818",
+    "a": "The original uploader was Mussklprozz at German Wikipedia.",
+    "l": "CC BY-SA 3.0"
+  },
+  "mayenne": {
+    "h": "e77a05c1",
+    "c": "#181818",
+    "a": "Simon de l'Ouest",
+    "l": "CC BY-SA 4.0"
+  },
+  "meaux": {
+    "h": "48ce9823",
+    "c": "#68a8f8",
+    "a": "Baidax",
+    "l": "CC BY-SA 4.0"
+  },
+  "melun": {
+    "h": "1c9e3f3e",
+    "c": "#a8d8f8",
+    "a": "Tej",
+    "l": "CC BY-SA 3.0"
+  },
+  "mende": {
+    "h": "ccff5ca9",
+    "c": "#787878",
+    "a": "User:civodule",
+    "l": "CC BY-SA 3.0"
+  },
+  "menton": {
+    "h": "c28a0d44",
+    "c": "#98a8b8",
+    "a": "Jpgross",
+    "l": "Public domain"
+  },
+  "merignac": {
+    "h": "95d6a8ea",
+    "c": "#080808",
+    "a": "Michael Specht",
+    "l": "CC BY-SA 4.0"
+  },
+  "meru": {
+    "h": "7ab5d4fb",
+    "c": "#b8c8d8",
+    "a": "Chatsam",
+    "l": "Public domain"
+  },
+  "metz": {
+    "h": "fcc6ec84",
+    "c": "#485858",
+    "a": "Philippe Gisselbrecht/ Ville de Metz",
+    "l": "CC BY-SA 4.0"
+  },
+  "meyzieu": {
+    "h": "3f6855c2",
+    "c": "#a8c8f8",
+    "a": "This picture belongs to Xavier Caré. Please credit : Xavier Caré / Wikimedia Commons / CC-BY-SA. If you would like special permission to use, license, or purchase the image please contact me to negotiate terms. I'd appreciate if you could let me know about it or mail me ( xavier.carepm.me) if you want to use this picture out of the Wikimedia project scope.",
+    "l": "CC BY-SA 3.0"
+  },
+  "millau": {
+    "h": "3d964a8e",
+    "c": "#9898a8",
+    "a": "W. Bulach",
+    "l": "CC BY-SA 4.0"
+  },
+  "moissac": {
+    "h": "48ab1d1f",
+    "c": "#f8f8f8",
+    "a": "Henri MOREAU",
+    "l": "CC BY-SA 4.0"
+  },
+  "monistrol-sur-loire": {
+    "h": "da9f26b7",
+    "c": "#080808",
+    "a": "Eponimm",
+    "l": "CC BY-SA 4.0"
+  },
+  "mont-de-marsan": {
+    "h": "69cf4dab",
+    "c": "#78a8f8",
+    "a": "Jibi44",
+    "l": "CC BY-SA 3.0"
+  },
+  "mont-saint-aignan": {
+    "h": "3521c7fd",
+    "c": "#e8e8e8",
+    "a": "Benuxfox",
+    "l": "CC BY-SA 3.0"
+  },
+  "montargis": {
+    "h": "e4d9491d",
+    "c": "#f8f8f8",
+    "a": "Nicolas Bochenek",
+    "l": "CC BY-SA 3.0"
+  },
+  "montauban": {
+    "h": "bc173b1d",
+    "c": "#5888c8",
+    "a": "Didier Descouens",
+    "l": "CC BY-SA 4.0"
+  },
+  "montbard": {
+    "h": "2b7ddc89",
+    "c": "#78a8d8",
+    "a": "Pline",
+    "l": "CC BY-SA 3.0"
+  },
+  "montbeliard": {
+    "h": "a205dbc1",
+    "c": "#a8b8d8",
+    "a": "Thomas Bresson",
+    "l": "CC BY 3.0"
+  },
+  "montbrison": {
+    "h": "dac99061",
+    "c": "#9898a8",
+    "a": "Ivo Kruusamägi from Estonian Wikipedia",
+    "l": "CC BY-SA 3.0"
+  },
+  "montelimar": {
+    "h": "a02b9e03",
+    "c": "#2888f8",
+    "a": "W. Bulach",
+    "l": "CC BY-SA 4.0"
+  },
+  "montigny-le-bretonneux": {
+    "h": "6ad97fea",
+    "c": "#5898e8",
+    "a": "Egbpl",
+    "l": "CC BY-SA 3.0"
+  },
+  "montigny-les-metz": {
+    "h": "d38357b7",
+    "c": "#b8c8e8",
+    "a": "Infofiltrage",
+    "l": "Public domain"
+  },
+  "montlucon": {
+    "h": "8d9ea233",
+    "c": "#080808",
+    "a": "Lionel Allorge",
+    "l": "CC BY-SA 3.0"
+  },
+  "montmorency": {
+    "h": "0a874885",
+    "c": "#181818",
+    "a": "GFreihalter",
+    "l": "CC BY-SA 3.0"
+  },
+  "montmorillon": {
+    "h": "90642999",
+    "c": "#c8e8f8",
+    "a": "Martpan",
+    "l": "CC BY-SA 3.0"
+  },
+  "montpellier": {
+    "h": "df4173f9",
+    "c": "#78a8e8",
+    "a": "Assembled by DePlusJean",
+    "l": "CC BY-SA 3.0"
+  },
+  "montreuil": {
+    "h": "a94b1d44",
+    "c": "#6898d8",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "morlaix": {
+    "h": "411eee11",
+    "c": "#888888",
+    "a": "Thesupermat",
+    "l": "CC BY-SA 3.0"
+  },
+  "moulins": {
+    "h": "8d9ea233",
+    "c": "#080808",
+    "a": "Lionel Allorge",
+    "l": "CC BY-SA 3.0"
+  },
+  "mulhouse": {
+    "h": "5096273e",
+    "c": "#d8d8d8",
+    "a": "Jorge Franganillo from Barcelona, Spain",
+    "l": "CC BY 2.0"
+  },
+  "muret": {
+    "h": "e9aadc4e",
+    "c": "#285898",
+    "a": "Jordi78",
+    "l": "CC BY-SA 3.0"
+  },
+  "nancy": {
+    "h": "b9841738",
+    "c": "#3868a8",
+    "a": "Parsifall",
+    "l": "CC BY-SA 3.0"
+  },
+  "nanterre": {
+    "h": "f2797374",
+    "c": "#f8f8f8",
+    "a": "Benjamin Smith",
+    "l": "CC BY-SA 3.0"
+  },
+  "nantes": {
+    "h": "07a8ead7",
+    "c": "#78a8e8",
+    "a": "Jibi44",
+    "l": "CC BY 2.5"
+  },
+  "narbonne": {
+    "h": "c88a0163",
+    "c": "#584838",
+    "a": "Benh LIEU SONG",
+    "l": "CC BY-SA 3.0"
+  },
+  "neuilly-sur-marne": {
+    "h": "2a55e5e7",
+    "c": "#d8d8e8",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "neuilly-sur-seine": {
+    "h": "9ccba6b8",
+    "c": "#3868a8",
+    "a": "Celette",
+    "l": "CC BY-SA 3.0"
+  },
+  "nevers": {
+    "h": "49651c3f",
+    "c": "#080808",
+    "a": "Original: Jochen Jahnke at German Wikipedia Modifications: Cornischong at Luxembourgish Wikipedia",
+    "l": "CC BY-SA 3.0"
+  },
+  "nice": {
+    "h": "e13adb69",
+    "c": "#78b8e8",
+    "a": "Moody Dreiza (Moody751 at English Wikipedia)",
+    "l": "CC BY 2.5"
+  },
+  "nimes": {
+    "h": "10cf3f4b",
+    "c": "#686868",
+    "a": null,
+    "l": "CC BY-SA 3.0"
+  },
+  "niort": {
+    "h": "337474bf",
+    "c": "#080808",
+    "a": "dynamosquito from France",
+    "l": "CC BY 2.0"
+  },
+  "nogent-sur-marne": {
+    "h": "a79c0655",
+    "c": "#080808",
+    "a": "Nogent94130",
+    "l": "CC BY-SA 3.0"
+  },
+  "noirmoutier": {
+    "h": "0bec6eb3",
+    "c": "#f8f8f8",
+    "a": "Florian Pépellin (Floflo)",
+    "l": "CC BY-SA 3.0"
+  },
+  "noisiel": {
+    "h": "3cb98ade",
+    "c": "#080808",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "noisy-le-grand": {
+    "h": "c3445d3b",
+    "c": "#080808",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "noisy-le-sec": {
+    "h": "5b380266",
+    "c": "#e8e8e8",
+    "a": "Sticreu",
+    "l": "CC BY-SA 3.0"
+  },
+  "obernai": {
+    "h": "28c49a92",
+    "c": "#080808",
+    "a": "Bernard Chenal",
+    "l": "CC BY-SA 4.0"
+  },
+  "olivet": {
+    "h": "30fb50e4",
+    "c": "#e8e8e8",
+    "a": "Croquant",
+    "l": "CC BY-SA 4.0"
+  },
+  "orange": {
+    "h": "4ae7fad1",
+    "c": "#080808",
+    "a": "Jeanlouiszimmermann",
+    "l": "CC BY-SA 3.0"
+  },
+  "orleans": {
+    "h": "cf97144a",
+    "c": "#7898a8",
+    "a": "Anthony Bourgouin",
+    "l": "CC BY-SA 4.0"
+  },
+  "orvault": {
+    "h": "c03cfe33",
+    "c": "#9898a8",
+    "a": "Pymouss44",
+    "l": "CC BY-SA 3.0"
+  },
+  "oullins-pierre-benite": {
+    "h": "e6265188",
+    "c": "#989898",
+    "a": "MairieOullins",
+    "l": "CC BY-SA 3.0"
+  },
+  "oyonnax": {
+    "h": "a6144b9a",
+    "c": "#787878",
+    "a": "Jinemon",
+    "l": "CC BY-SA 3.0"
+  },
+  "palaiseau": {
+    "h": "cab3f964",
+    "c": "#080808",
+    "a": "Cyrilb1881",
+    "l": "CC BY-SA 3.0"
+  },
+  "pamiers": {
+    "h": "18816546",
+    "c": "#f8f8f8",
+    "a": "Original by Eugène Trutat (Born in 1840 - Dead in 1910) - Scan on Flickr by Bibliothèque de Toulouse",
+    "l": "Public domain"
+  },
+  "pantin": {
+    "h": "f12c8682",
+    "c": "#e8e8e8",
+    "a": "Coyau",
+    "l": "CC BY-SA 3.0"
+  },
+  "paray-le-monial": {
+    "h": "5bb2cf76",
+    "c": "#f8f8f8",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "paris": {
+    "h": "deed1191",
+    "c": "#c8d8e8",
+    "a": "Yann Caradec from Paris, France",
+    "l": "CC BY-SA 2.0"
+  },
+  "parthenay": {
+    "h": "98ac8f59",
+    "c": "#080808",
+    "a": "Chris j wood",
+    "l": "CC BY-SA 3.0"
+  },
+  "pau": {
+    "h": "f06864f8",
+    "c": "#f8f8f8",
+    "a": "Flo641",
+    "l": "CC BY-SA 4.0"
+  },
+  "perigueux": {
+    "h": "7bd28e62",
+    "c": "#f8f8f8",
+    "a": "Père Igor, Abxbay, Olivier2000 et Sanaket31",
+    "l": "CC0"
+  },
+  "peronne": {
+    "h": "e6498cb8",
+    "c": "#d8d8d8",
+    "a": "Claude villetaneuse",
+    "l": "CC BY-SA 3.0"
+  },
+  "perpignan": {
+    "h": "ece862c7",
+    "c": "#a8b8c8",
+    "a": "Jean Tosti",
+    "l": "Public domain"
+  },
+  "pertuis": {
+    "h": "6762bb19",
+    "c": "#4888d8",
+    "a": "Jean-Marc Rosier http://www.cjrosier.com + http://www.gordes-immobilier.com)",
+    "l": "CC BY-SA 3.0"
+  },
+  "pessac": {
+    "h": "5bbce266",
+    "c": "#284888",
+    "a": "Symac / Sylvain Machefert",
+    "l": "CC BY-SA 3.0"
+  },
+  "pezenas": {
+    "h": "d9c3beb6",
+    "c": "#f8f8f8",
+    "a": "Archives départementales de l'Hérault (France) DAASI",
+    "l": "CC BY-SA 4.0"
+  },
+  "plaisir": {
+    "h": "22e86633",
+    "c": "#5888d8",
+    "a": null,
+    "l": "CC BY-SA 3.0"
+  },
+  "pointe-a-pitre": {
+    "h": "e6bba5c6",
+    "c": "#f8f8e8",
+    "a": "Zivax",
+    "l": "CC BY-SA 3.0"
+  },
+  "poissy": {
+    "h": "33f51942",
+    "c": "#283868",
+    "a": "Romain URBAIN",
+    "l": "CC BY-SA 4.0"
+  },
+  "poitiers": {
+    "h": "db3d31d1",
+    "c": "#f8f8f8",
+    "a": "Vermario at English Wikipedia",
+    "l": "Public domain"
+  },
+  "pont-a-mousson": {
+    "h": "a415d9bd",
+    "c": "#080808",
+    "a": "Rolf Krahl (Rotkraut)",
+    "l": "CC BY 4.0"
+  },
+  "pontarlier": {
+    "h": "f06e1a13",
+    "c": "#b8b8c8",
+    "a": "Henk Monster",
+    "l": "CC BY-SA 3.0"
+  },
+  "pontault-combault": {
+    "h": "5d504e74",
+    "c": "#f8f8f8",
+    "a": "besopha",
+    "l": "CC BY-SA 2.0"
+  },
+  "pontoise": {
+    "h": "819e66bc",
+    "c": "#a8b8c8",
+    "a": "Patrick Jaloyan modified by Zil",
+    "l": "CC BY-SA 2.0"
+  },
+  "porto-vecchio": {
+    "h": "2732574b",
+    "c": "#b8c8d8",
+    "a": "Jean-Pol GRANDMONT",
+    "l": "CC BY 3.0"
+  },
+  "privas": {
+    "h": "af628bce",
+    "c": "#98d8f8",
+    "a": "Anotine",
+    "l": "CC BY-SA 3.0"
+  },
+  "provins": {
+    "h": "75cf6688",
+    "c": "#080808",
+    "a": "Jean-Pol GRANDMONT",
+    "l": "CC BY 4.0"
+  },
+  "puteaux": {
+    "h": "4df76655",
+    "c": "#a8b8d8",
+    "a": "Copyleft",
+    "l": "CC BY-SA 3.0"
+  },
+  "quiberon": {
+    "h": "8e8a4d2d",
+    "c": "#688898",
+    "a": "Remi Jouan",
+    "l": "CC BY-SA 3.0"
+  },
+  "quimper": {
+    "h": "3924595d",
+    "c": "#080808",
+    "a": "Renegade at Dutch Wikipedia",
+    "l": "Public domain"
+  },
+  "rambouillet": {
+    "h": "a0ec6425",
+    "c": "#d8e8e8",
+    "a": "Jules78120",
+    "l": "CC BY-SA 3.0"
+  },
+  "reims": {
+    "h": "7b65e0d5",
+    "c": "#585858",
+    "a": "Paris91 (compilation); for proper author attribution, see source images.",
+    "l": "CC0"
+  },
+  "rennes": {
+    "h": "0a0f737c",
+    "c": "#c8d8e8",
+    "a": "Édouard Hue (User:EdouardHue)",
+    "l": "CC BY-SA 3.0"
+  },
+  "rethel": {
+    "h": "983455bc",
+    "c": "#88a8e8",
+    "a": "Adri08",
+    "l": "CC BY-SA 3.0"
+  },
+  "reze": {
+    "h": "c06dcc7e",
+    "c": "#a8b8c8",
+    "a": "Pymouss44",
+    "l": "CC BY-SA 3.0"
+  },
+  "riberac": {
+    "h": "d1ad8fc1",
+    "c": "#4888c8",
+    "a": "Père Igor",
+    "l": "CC BY-SA 3.0"
+  },
+  "riedisheim": {
+    "h": "2e36eb08",
+    "c": "#b8c8e8",
+    "a": "Félix Potuit",
+    "l": "Public domain"
+  },
+  "rillieux-la-pape": {
+    "h": "d4b1b53f",
+    "c": "#6898d8",
+    "a": "Mairie Rillieux-la-Pape",
+    "l": "CC BY-SA 4.0"
+  },
+  "riom": {
+    "h": "9823eec3",
+    "c": "#282828",
+    "a": "Vida Nova",
+    "l": "CC BY-SA 4.0"
+  },
+  "roanne": {
+    "h": "9e1e2c9d",
+    "c": "#f8f8f8",
+    "a": "BAY",
+    "l": "CC BY-SA 4.0"
+  },
+  "rochefort": {
+    "h": "f34c6c4e",
+    "c": "#c8d8f8",
+    "a": "Patrick Despoix",
+    "l": "CC BY-SA 3.0"
+  },
+  "rodez": {
+    "h": "bc2c0e36",
+    "c": "#78a8d8",
+    "a": "kallerna",
+    "l": "CC BY-SA 4.0"
+  },
+  "romans-sur-isere": {
+    "h": "a9f208b3",
+    "c": "#080808",
+    "a": "Toutaitanous",
+    "l": "CC BY-SA 3.0"
+  },
+  "romilly-sur-seine": {
+    "h": "36ddfddc",
+    "c": "#081808",
+    "a": "Hg marigny",
+    "l": "CC BY-SA 3.0"
+  },
+  "romorantin-lanthenay": {
+    "h": "8bf7a74f",
+    "c": "#181818",
+    "a": "Vincent4145",
+    "l": "CC BY-SA 3.0"
+  },
+  "rosny-sous-bois": {
+    "h": "8b10f241",
+    "c": "#78b8f8",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "roubaix": {
+    "h": "87840151",
+    "c": "#f8f8f8",
+    "a": "Mairie de roubaix",
+    "l": "CC BY-SA 3.0"
+  },
+  "rouen": {
+    "h": "dc89c75d",
+    "c": "#080808",
+    "a": "Foulques1996",
+    "l": "CC BY-SA 4.0"
+  },
+  "royan": {
+    "h": "c2c1fa0c",
+    "c": "#789898",
+    "a": "Cobber17",
+    "l": "CC BY-SA 3.0"
+  },
+  "rueil-malmaison": {
+    "h": "a00c720b",
+    "c": "#786868",
+    "a": "Pymouss44",
+    "l": "CC BY-SA 3.0"
+  },
+  "rumilly": {
+    "h": "10736cab",
+    "c": "#585828",
+    "a": "Electrocaine74",
+    "l": "CC BY-SA 3.0"
+  },
+  "sable-sur-sarthe": {
+    "h": "329266d2",
+    "c": "#2858a8",
+    "a": "Own work",
+    "l": "CC BY-SA 3.0"
+  },
+  "saint-amand-montrond": {
+    "h": "0e9e0c48",
+    "c": "#081808",
+    "a": "Clem Rutter, Rochester Kent",
+    "l": "CC BY 2.5"
+  },
+  "saint-andre-reunion": {
+    "h": "a3f3fa99",
+    "c": "#080808",
+    "a": "Thierry Caro",
+    "l": "CC BY-SA 4.0"
+  },
+  "saint-avold": {
+    "h": "cd28b896",
+    "c": "#98b8d8",
+    "a": "Benoît Stella",
+    "l": "CC BY-SA 3.0"
+  },
+  "saint-benoit-reunion": {
+    "h": "10d68c4a",
+    "c": "#4878b8",
+    "a": "No machine-readable author provided. B.navez assumed (based on copyright claims).",
+    "l": "CC BY-SA 3.0"
+  },
+  "saint-brieuc": {
+    "h": "a0956f05",
+    "c": "#080808",
+    "a": "Presko",
+    "l": "CC BY-SA 4.0"
+  },
+  "saint-chamond": {
+    "h": "58e4d6df",
+    "c": "#d8e8f8",
+    "a": "Saboshi",
+    "l": "CC BY-SA 3.0"
+  },
+  "saint-chely-d-apcher": {
+    "h": "349b02e0",
+    "c": "#383838",
+    "a": "Szeder László (User:Amba)",
+    "l": "CC BY-SA 4.0"
+  },
+  "saint-claude": {
+    "h": "df16a998",
+    "c": "#d8e8f8",
+    "a": "Wikipedro",
+    "l": "CC BY-SA 4.0"
+  },
+  "saint-cloud": {
+    "h": "ee7841e7",
+    "c": "#3878c8",
+    "a": "Rémih",
+    "l": "CC BY-SA 4.0"
+  },
+  "saint-denis": {
+    "h": "6f7b9b5e",
+    "c": "#c8e8f8",
+    "a": "Claude Shoshany",
+    "l": "CC BY 2.5"
+  },
+  "saint-denis-reunion": {
+    "h": "10d68c4a",
+    "c": "#4878b8",
+    "a": "No machine-readable author provided. B.navez assumed (based on copyright claims).",
+    "l": "CC BY-SA 3.0"
+  },
+  "saint-die-des-vosges": {
+    "h": "bfa558f0",
+    "c": "#e8e8e8",
+    "a": "Christian Amet",
+    "l": "CC BY 2.5"
+  },
+  "saint-dizier": {
+    "h": "73b19333",
+    "c": "#f8f8f8",
+    "a": "Pierre Renaud",
+    "l": "CC BY-SA 4.0"
+  },
+  "saint-etienne": {
+    "h": "8c6e04a3",
+    "c": "#b8d8e8",
+    "a": "The original uploader was Graooor at French Wikipedia.",
+    "l": "CC BY-SA 1.0"
+  },
+  "saint-flour": {
+    "h": "88d7ae39",
+    "c": "#081808",
+    "a": "J.F Ferraton",
+    "l": "CC0"
+  },
+  "saint-gaudens": {
+    "h": "81f36967",
+    "c": "#d8e8f8",
+    "a": "Didier Descouens",
+    "l": "CC BY-SA 4.0"
+  },
+  "saint-genis-laval": {
+    "h": "1f645c24",
+    "c": "#f8f8f8",
+    "a": "Karldupart",
+    "l": "CC BY-SA 3.0"
+  },
+  "saint-germain-en-laye": {
+    "h": "0a836309",
+    "c": "#988868",
+    "a": null,
+    "l": "CC BY-SA 3.0"
+  },
+  "saint-girons": {
+    "h": "ba7aec9b",
+    "c": "#a8c8e8",
+    "a": "Olybrius",
+    "l": "CC BY-SA 3.0"
+  },
+  "saint-herblain": {
+    "h": "f41b7346",
+    "c": "#080808",
+    "a": "Pymouss44",
+    "l": "CC BY-SA 3.0"
+  },
+  "saint-jean-de-luz": {
+    "h": "eccdc2f4",
+    "c": "#989898",
+    "a": "No machine-readable author provided. Harrieta171 assumed (based on copyright claims).",
+    "l": "CC BY 2.5"
+  },
+  "saint-joseph-reunion": {
+    "h": "9ddc8469",
+    "c": "#181808",
+    "a": "No machine-readable author provided. Thierry Caro assumed (based on copyright claims).",
+    "l": "CC BY-SA 2.5"
+  },
+  "saint-laurent-du-maroni": {
+    "h": "cf0ab182",
+    "c": "#a8b8c8",
+    "a": "Psu973",
+    "l": "CC BY-SA 3.0"
+  },
+  "saint-leu-la-foret": {
+    "h": "fd18b7bc",
+    "c": "#f8f8f8",
+    "a": "Clicsouris",
+    "l": "CC BY-SA 2.5"
+  },
+  "saint-lo": {
+    "h": "cb19894c",
+    "c": "#78b8f8",
+    "a": "Ikmo-ned",
+    "l": "CC BY-SA 3.0"
+  },
+  "saint-louis-haut-rhin": {
+    "h": "f7764e61",
+    "c": "#b8b8b8",
+    "a": "ODLG (c) CC3F",
+    "l": "CC BY-SA 3.0"
+  },
+  "saint-louis-reunion-974": {
+    "h": "34d99776",
+    "c": "#080808",
+    "a": "franek2",
+    "l": "CC BY-SA 3.0"
+  },
+  "saint-malo": {
+    "h": "efc90e37",
+    "c": "#080808",
+    "a": "Pierre André Leclercq",
+    "l": "CC BY-SA 4.0"
+  },
+  "saint-mande": {
+    "h": "4bcb8771",
+    "c": "#6888c8",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "saint-martin-d-heres": {
+    "h": "496de09f",
+    "c": "#3868b8",
+    "a": "Binnette",
+    "l": "CC BY-SA 3.0"
+  },
+  "saint-maur-des-fosses": {
+    "h": "3754666a",
+    "c": "#f8f8f8",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "saint-medard-en-jalles": {
+    "h": "28f93018",
+    "c": "#1858a8",
+    "a": "PA",
+    "l": "CC BY-SA 4.0"
+  },
+  "saint-nazaire": {
+    "h": "41fb7c75",
+    "c": "#587888",
+    "a": "Pouick44",
+    "l": "CC BY-SA 3.0"
+  },
+  "saint-omer": {
+    "h": "925c630d",
+    "c": "#7888a8",
+    "a": "Jean-Christophe BENOIST",
+    "l": "CC BY-SA 4.0"
+  },
+  "saint-ouen-sur-seine": {
+    "h": "1943c401",
+    "c": "#3868a8",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "saint-paul-de-vence": {
+    "h": "cd40d738",
+    "c": "#080808",
+    "a": "MOSSOT",
+    "l": "CC BY 3.0"
+  },
+  "saint-paul-reunion": {
+    "h": "236f045f",
+    "c": "#f8d8d8",
+    "a": "No machine-readable author provided. Thierry Caro assumed (based on copyright claims).",
+    "l": "Public domain"
+  },
+  "saint-pierre-reunion": {
+    "h": "105a1884",
+    "c": "#082828",
+    "a": "Falco97410",
+    "l": "CC BY-SA 3.0"
+  },
+  "saint-priest": {
+    "h": "b8c36afb",
+    "c": "#a8b8d8",
+    "a": "Uranismus",
+    "l": "CC BY-SA 3.0"
+  },
+  "saint-quentin": {
+    "h": "83e356bc",
+    "c": "#989898",
+    "a": "Velvet",
+    "l": "CC BY-SA 3.0"
+  },
+  "saint-raphael": {
+    "h": "370d462d",
+    "c": "#c8c8f8",
+    "a": "Cyrilb1881",
+    "l": "CC BY-SA 3.0"
+  },
+  "saint-remy-de-provence": {
+    "h": "5254aa28",
+    "c": "#787878",
+    "a": "Eponimm",
+    "l": "CC BY-SA 3.0"
+  },
+  "saint-tropez": {
+    "h": "370d462d",
+    "c": "#c8c8f8",
+    "a": "Cyrilb1881",
+    "l": "CC BY-SA 3.0"
+  },
+  "saint-yrieix-la-perche": {
+    "h": "c4d79f86",
+    "c": "#888888",
+    "a": "Nitot",
+    "l": "CC BY-SA 3.0"
+  },
+  "sainte-foy-les-lyon": {
+    "h": "d6c6cf19",
+    "c": "#a8c8f8",
+    "a": "This picture belongs to Xavier Caré. Please credit : Xavier Caré / Wikimedia Commons / CC-BY-SA. If you would like special permission to use, license, or purchase the image please contact me to negotiate terms. I'd appreciate if you could let me know about it or mail me ( xavier.carepm.me) if you want to use this picture out of the Wikimedia project scope.",
+    "l": "CC BY-SA 3.0"
+  },
+  "sainte-genevieve-des-bois": {
+    "h": "533085bb",
+    "c": "#080808",
+    "a": "Jcognard",
+    "l": "Public domain"
+  },
+  "sainte-maxime": {
+    "h": "fa770199",
+    "c": "#080808",
+    "a": "Patricia.fidi",
+    "l": "Public domain"
+  },
+  "saintes": {
+    "h": "96d26563",
+    "c": "#88b8e8",
+    "a": "Cobber17",
+    "l": "CC BY-SA 3.0"
+  },
+  "sallanches": {
+    "h": "0f64eb07",
+    "c": "#585858",
+    "a": "Patrice78500",
+    "l": "CC BY-SA 3.0"
+  },
+  "salon-de-provence": {
+    "h": "96138170",
+    "c": "#181808",
+    "a": "M Disdero",
+    "l": "CC BY 2.5"
+  },
+  "sanary-sur-mer": {
+    "h": "f7987d44",
+    "c": "#d8d8d8",
+    "a": "Olivier Cleynen",
+    "l": "CC BY 4.0"
+  },
+  "sannois": {
+    "h": "f0347cbf",
+    "c": "#f8f8f8",
+    "a": "Spedona",
+    "l": "CC BY-SA 3.0"
+  },
+  "sarcelles": {
+    "h": "be20bced",
+    "c": "#b8e8f8",
+    "a": "Clicsouris",
+    "l": "CC BY-SA 3.0"
+  },
+  "sarlat-la-caneda": {
+    "h": "2c99b9e0",
+    "c": "#d8e8f8",
+    "a": "Chensiyuan",
+    "l": "CC BY-SA 4.0"
+  },
+  "sarrebourg": {
+    "h": "c4602f8e",
+    "c": "#88a8c8",
+    "a": "Office de Tourisme de Sarreguemines",
+    "l": "CC BY-SA 3.0"
+  },
+  "sarreguemines": {
+    "h": "c4602f8e",
+    "c": "#88a8c8",
+    "a": "Office de Tourisme de Sarreguemines",
+    "l": "CC BY-SA 3.0"
+  },
+  "sartene": {
+    "h": "e4952719",
+    "c": "#58a8f8",
+    "a": "Jean-Pol GRANDMONT",
+    "l": "CC BY 3.0"
+  },
+  "sartrouville": {
+    "h": "ca180078",
+    "c": "#88b8e8",
+    "a": "User:BernardM",
+    "l": "CC BY-SA 2.5"
+  },
+  "saumur": {
+    "h": "bc6b7822",
+    "c": "#b8b8c8",
+    "a": "Martin Falbisoner",
+    "l": "CC BY-SA 3.0"
+  },
+  "saverne": {
+    "h": "5ce37f80",
+    "c": "#98a8c8",
+    "a": "Gerd Eichmann",
+    "l": "CC BY-SA 4.0"
+  },
+  "savigny-le-temple": {
+    "h": "835129b7",
+    "c": "#f8f8f8",
+    "a": "No machine-readable author provided. Tej~commonswiki assumed (based on copyright claims).",
+    "l": "CC BY-SA 3.0"
+  },
+  "savigny-sur-orge": {
+    "h": "f72e88bc",
+    "c": "#f8f8f8",
+    "a": "Lionel Allorge",
+    "l": "CC BY-SA 3.0"
+  },
+  "sceaux": {
+    "h": "0fe149a9",
+    "c": "#d8d8d8",
+    "a": "Original uploader was Olivier2000 at fr.wikipedia",
+    "l": "CC BY-SA 1.0"
+  },
+  "schiltigheim": {
+    "h": "12d528e5",
+    "c": "#f8f8f8",
+    "a": "© Ralph Hammann - Wikimedia Commons",
+    "l": "CC BY-SA 4.0"
+  },
+  "sedan": {
+    "h": "53c9a31b",
+    "c": "#3888e8",
+    "a": "W. Bulach",
+    "l": "CC BY-SA 4.0"
+  },
+  "selestat": {
+    "h": "89f25f11",
+    "c": "#98b8c8",
+    "a": "Oie blanche",
+    "l": "CC BY-SA 3.0"
+  },
+  "semur-en-auxois": {
+    "h": "ab17b213",
+    "c": "#98c8e8",
+    "a": "Benjamin Smith",
+    "l": "CC BY-SA 4.0"
+  },
+  "senlis": {
+    "h": "da6e8dfe",
+    "c": "#d8f8f8",
+    "a": "Neuf &amp; 9",
+    "l": "Attribution"
+  },
+  "sens": {
+    "h": "de6c4b73",
+    "c": "#a8c8d8",
+    "a": "Robin Chubret",
+    "l": "CC BY-SA 4.0"
+  },
+  "sete": {
+    "h": "b65e42b5",
+    "c": "#88a8d8",
+    "a": "Patrice Semeria",
+    "l": "Public domain"
+  },
+  "sevran": {
+    "h": "7f631365",
+    "c": "#c8c8c8",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "sevres": {
+    "h": "ed543b57",
+    "c": "#080808",
+    "a": "Benjism89",
+    "l": "CC BY-SA 3.0"
+  },
+  "sisteron": {
+    "h": "922a6c7b",
+    "c": "#68a8e8",
+    "a": "Régis Martel",
+    "l": "CC BY-SA 3.0"
+  },
+  "six-fours-les-plages": {
+    "h": "b3917498",
+    "c": "#788888",
+    "a": "Florian Pépellin",
+    "l": "CC BY-SA 3.0"
+  },
+  "soissons": {
+    "h": "17cdfd3e",
+    "c": "#b8c8f8",
+    "a": "bodoklecksel",
+    "l": "CC BY-SA 3.0"
+  },
+  "soisy-sous-montmorency": {
+    "h": "a731d5f1",
+    "c": "#c8f8f8",
+    "a": "Clicsouris",
+    "l": "CC BY-SA 2.5"
+  },
+  "sotteville-les-rouen": {
+    "h": "821b9b34",
+    "c": "#f8f8f8",
+    "a": "Paubry",
+    "l": "CC BY-SA 3.0"
+  },
+  "stains": {
+    "h": "257be43a",
+    "c": "#385898",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "strasbourg": {
+    "h": "b9c5c13c",
+    "c": "#a8c8e8",
+    "a": "Radek Kucharski",
+    "l": "CC BY 2.0"
+  },
+  "suresnes": {
+    "h": "a8ad1895",
+    "c": "#a8b8c8",
+    "a": "Celette",
+    "l": "CC BY-SA 4.0"
+  },
+  "talence": {
+    "h": "fb2d59bb",
+    "c": "#080808",
+    "a": "SM63",
+    "l": "CC BY-SA 3.0"
+  },
+  "tarbes": {
+    "h": "1b6ffd2b",
+    "c": "#486898",
+    "a": "Florent Pécassou",
+    "l": "CC BY-SA 3.0"
+  },
+  "tassin-la-demi-lune": {
+    "h": "66c32d49",
+    "c": "#98b8d8",
+    "a": "User:Otourly",
+    "l": "CC BY-SA 3.0"
+  },
+  "thiers": {
+    "h": "a716c047",
+    "c": "#58c8f8",
+    "a": "Lethiernois",
+    "l": "CC BY-SA 4.0"
+  },
+  "thionville": {
+    "h": "091290b3",
+    "c": "#d8e8f8",
+    "a": "Bubudu57",
+    "l": "CC BY-SA 3.0"
+  },
   "thonon-les-bains": {
-    "h": "59dd2c4d",
+    "h": "ddf98c82",
     "c": "#5888c8",
     "a": "historicair 27 mars 2005 à 17:29",
+    "l": "CC BY-SA 3.0"
+  },
+  "torcy": {
+    "h": "aa2b6e80",
+    "c": "#f8e8d8",
+    "a": "Benh LIEU SONG from Torcy, France",
+    "l": "CC BY-SA 2.0"
+  },
+  "toulon": {
+    "h": "5e99b705",
+    "c": "#888888",
+    "a": "Rafi88",
+    "l": "CC BY-SA 4.0"
+  },
+  "toulouse": {
+    "h": "276739d5",
+    "c": "#a8c8e8",
+    "a": "Tonio94 (talk · contribs)",
+    "l": "CC BY-SA 2.5"
+  },
+  "tourcoing": {
+    "h": "1169a9c0",
+    "c": "#88a8c8",
+    "a": "Velvet",
+    "l": "CC BY-SA 3.0"
+  },
+  "tournefeuille": {
+    "h": "28fd31c5",
+    "c": "#f8f8f8",
+    "a": "Melifica",
+    "l": "CC BY-SA 3.0"
+  },
+  "tours": {
+    "h": "a9d50fcf",
+    "c": "#d8e8f8",
+    "a": "Szilas",
+    "l": "CC BY 4.0"
+  },
+  "trappes": {
+    "h": "3893b4d0",
+    "c": "#4898d8",
+    "a": "ℍenry Salomé",
+    "l": "CC BY-SA 3.0"
+  },
+  "trelaze": {
+    "h": "9fe9fffe",
+    "c": "#5878a8",
+    "a": "Jonathan4705",
+    "l": "CC BY-SA 3.0"
+  },
+  "tremblay-en-france": {
+    "h": "39b4bad4",
+    "c": "#98b8d8",
+    "a": "Pierre Poschadel",
+    "l": "CC BY-SA 4.0"
+  },
+  "troyes": {
+    "h": "0496bd3e",
+    "c": "#5888e8",
+    "a": "KBWEi at German Wikipedia (Original text: KBWEi 21:50, 14. Okt. 2007 (CEST))",
+    "l": "Public domain"
+  },
+  "tulle": {
+    "h": "ff714e59",
+    "c": "#a8d8f8",
+    "a": "F. Lavie",
+    "l": "CC BY-SA 3.0"
+  },
+  "ussel": {
+    "h": "40a5b870",
+    "c": "#f8f8f8",
+    "a": "Velvet",
+    "l": "CC BY-SA 3.0"
+  },
+  "vaison-la-romaine": {
+    "h": "6691138a",
+    "c": "#d8e8f8",
+    "a": "Paul Munhoven",
+    "l": "CC BY-SA 3.0"
+  },
+  "valbonne": {
+    "h": "5d529bf8",
+    "c": "#080808",
+    "a": "Olivier Cleynen",
+    "l": "CC BY 4.0"
+  },
+  "valence": {
+    "h": "192a0870",
+    "c": "#4888c8",
+    "a": "Jacques FORÊT :Sequajectrof",
+    "l": "CC BY-SA 2.5"
+  },
+  "valenciennes": {
+    "h": "4d29288e",
+    "c": "#c8c8d8",
+    "a": "Velvet",
+    "l": "CC BY-SA 3.0"
+  },
+  "vandoeuvre-les-nancy": {
+    "h": "0b7045eb",
+    "c": "#484848",
+    "a": "Speculos",
+    "l": "CC BY-SA 3.0"
+  },
+  "vannes": {
+    "h": "93eb2ddd",
+    "c": "#d8d8e8",
+    "a": "Myrabella",
+    "l": "CC BY-SA 3.0"
+  },
+  "vaulx-en-velin": {
+    "h": "7120e939",
+    "c": "#4888c8",
+    "a": "Camster",
+    "l": "CC BY-SA 3.0"
+  },
+  "velizy-villacoublay": {
+    "h": "73e316ad",
+    "c": "#f8f8f8",
+    "a": "Michaël JANOT",
+    "l": "CC BY-SA 3.0"
+  },
+  "vendome": {
+    "h": "8828ab1a",
+    "c": "#98a8c8",
+    "a": "Peter Dutton",
+    "l": "CC BY 2.0"
+  },
+  "venissieux": {
+    "h": "b64d86e0",
+    "c": "#d8d8e8",
+    "a": "Aldg692VX",
+    "l": "CC BY-SA 4.0"
+  },
+  "verdun": {
+    "h": "b83ebfcd",
+    "c": "#a8b8d8",
+    "a": "M.Minderhoud",
+    "l": "CC BY-SA 3.0"
+  },
+  "vernon": {
+    "h": "b39cc5e6",
+    "c": "#8898b8",
+    "a": "Giverny888",
+    "l": "CC BY-SA 4.0"
+  },
+  "versailles": {
+    "h": "6d81b15b",
+    "c": "#b8a898",
+    "a": "ToucanWings",
+    "l": "CC BY-SA 3.0"
+  },
+  "vertou": {
+    "h": "7fbd1795",
+    "c": "#787838",
+    "a": "Pymouss44",
+    "l": "CC BY-SA 3.0"
+  },
+  "vichy": {
+    "h": "e3940ae8",
+    "c": "#98a8c8",
+    "a": "jean-louis Zimmermann",
+    "l": "CC BY 2.0"
+  },
+  "vienne": {
+    "h": "d3187b35",
+    "c": "#e8f8f8",
+    "a": "Cavit",
+    "l": "CC BY 4.0"
+  },
+  "vierzon": {
+    "h": "aaad8328",
+    "c": "#f8f8f8",
+    "a": "Croquant",
+    "l": "CC BY-SA 4.0"
+  },
+  "villefranche-de-rouergue": {
+    "h": "1a1fed71",
+    "c": "#384848",
+    "a": "Carsten Steger",
+    "l": "CC BY-SA 4.0"
+  },
+  "villefranche-sur-saone": {
+    "h": "ec3ea77d",
+    "c": "#f8f8f8",
+    "a": "Saturnyn",
+    "l": "CC BY-SA 3.0"
+  },
+  "villenave-d-ornon": {
+    "h": "7465becb",
+    "c": "#787878",
+    "a": "Hugon Christophe",
+    "l": "CC BY-SA 3.0"
+  },
+  "villeneuve-la-garenne": {
+    "h": "8af1906f",
+    "c": "#282828",
+    "a": "Akiry",
+    "l": "CC BY-SA 3.0"
+  },
+  "villeneuve-sur-lot": {
+    "h": "610a1840",
+    "c": "#080808",
+    "a": "Paternel 1",
+    "l": "CC BY-SA 4.0"
+  },
+  "villeurbanne": {
+    "h": "df0ca5f4",
+    "c": "#084898",
+    "a": "Vincent Ruf wiki user : Rvince",
+    "l": "CC BY 3.0"
+  },
+  "villiers-le-bel": {
+    "h": "941eb8b0",
+    "c": "#080808",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "vincennes": {
+    "h": "2d461b98",
+    "c": "#6888c8",
+    "a": "ignis",
+    "l": "CC BY-SA 3.0"
+  },
+  "viry-chatillon": {
+    "h": "b2793975",
+    "c": "#080808",
+    "a": "Poudou99",
+    "l": "CC BY 3.0"
+  },
+  "vitre": {
+    "h": "27bb3881",
+    "c": "#5898d8",
+    "a": "No machine-readable author provided. Pacoviande~commonswiki assumed (based on copyright claims).",
+    "l": "Public domain"
+  },
+  "vitrolles": {
+    "h": "3d63ddeb",
+    "c": "#080808",
+    "a": "kallerna",
+    "l": "CC BY-SA 4.0"
+  },
+  "vitry-sur-seine": {
+    "h": "7a34a852",
+    "c": "#e8e8e8",
+    "a": "Chabe01",
+    "l": "CC BY-SA 4.0"
+  },
+  "voiron": {
+    "h": "92578d06",
+    "c": "#f8f8f8",
+    "a": "Fhtrufhd",
+    "l": "Public domain"
+  },
+  "wattrelos": {
+    "h": "e3e12e43",
+    "c": "#f8f8f8",
+    "a": "Tadeo59370",
+    "l": "CC BY-SA 3.0"
+  },
+  "wittenheim": {
+    "h": "3d744f5d",
+    "c": "#7898a8",
+    "a": "Florival fr",
+    "l": "CC BY-SA 3.0"
+  },
+  "yerres": {
+    "h": "39718a95",
+    "c": "#f8f8f8",
+    "a": "Tpa2067",
     "l": "CC BY-SA 3.0"
   }
 }
