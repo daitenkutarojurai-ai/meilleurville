@@ -15,8 +15,8 @@ export const revalidate = false;
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const metadata: Metadata = {
-  title: "Red Flag Themes 2026 · 19 risks | BestCitiesInFrance",
-  description: `19 thematic risk rankings built from open data (Géorisques, ATMO, SSMSI, BRGM, INJEP, INSEE, Bison Futé) across ${CITIES_SEED.length} French cities. Which cities swelter in summer, gridlock at rush hour, face water stress or drain your budget fastest?`,
+  title: "Red Flag Themes 2026 · 20 risks | BestCitiesInFrance",
+  description: `20 thematic risk rankings built from open data (Géorisques, ATMO, SSMSI, BRGM, INJEP, INSEE, Bison Futé, DEPS-MC) across ${CITIES_SEED.length} French cities. Which cities swelter in summer, gridlock at rush hour, face water stress or drain your budget fastest?`,
   alternates: { canonical: `${EN_BASE}/red-flags/themes` },
 };
 
@@ -40,6 +40,7 @@ const THEMES = [
   { enSlug: "harsh-winters",              emoji: "❄️", title: "Cities with the harshest winters",                    desc: "Long grey cold spells, regular frost, 80+ frost days per year." },
   { enSlug: "daily-traffic-jams",         emoji: "🚥", title: "Cities gridlocked every rush hour",                  desc: "A86, A7, A8, Grenoble basin — commuters lose 300 hours a year." },
   { enSlug: "young-workers-leaving",      emoji: "🎒", title: "Cities that 25-35s are quietly leaving",              desc: "Structural young-worker deficit, negative balance, weak business flows." },
+  { enSlug: "cultural-desert",            emoji: "🎭", title: "Cities where the cultural offer stays thin",         desc: "No labelled venue, arthouse cinemas rare, library stretched." },
 ] as const;
 
 export default function EnRedFlagThemesPage() {
@@ -54,7 +55,7 @@ export default function EnRedFlagThemesPage() {
             Thematic risk rankings
           </div>
           <h1 className="mb-3 text-3xl sm:text-4xl font-bold text-[var(--text-primary)]">
-            18 risk patterns — which cities have them?
+            20 risk patterns — which cities have them?
           </h1>
           <p className="max-w-2xl text-[var(--text-secondary)] text-lg">
             Open-data cross-references (Géorisques, ATMO, SSMSI, BRGM, DVF) across{" "}

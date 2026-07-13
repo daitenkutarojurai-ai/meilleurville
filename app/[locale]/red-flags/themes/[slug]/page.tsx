@@ -314,6 +314,21 @@ const EN_THEMES: EnTheme[] = [
       "Severity = property sub-score + 0.8 if persons ≥ 6/10 + 0.5 if metropolis with global score ≥ 6.5 + 0.4 if tourism-tagged and over 30,000. Safety-deep composite weighting: property 35% · persons 30% · night 20% · gender-based violence 15%. Sources: SSMSI (Interior Ministry statistics service, interstats.fr — municipal property-crime series), INSEE population, proprietary character-tags (metropolis / tourism vocation). Caveat: a high rate may reflect both genuine pressure AND a better reporting rate; theft of dockless shared bikes falls outside the standard SSMSI perimeter.",
   },
   {
+    enSlug: "cultural-desert",
+    frSlug: "villes-desert-culturel",
+    emoji: "🎭",
+    title: "Cities where the cultural offer stays thin",
+    metaTitle: "Cultural desert 2026 — Cities with a thin cultural offer",
+    metaDescription:
+      "2026 ranking of French cities over 15,000 with a culture score at or below 4.5/10: few label venues, sparse arthouse cinemas, stretched municipal libraries. Source: DEPS-MC, BNF.",
+    intro:
+      "The brochure talks up a 'lively town centre' and drops in a photo of the one summer festival. Day-to-day reality: one multiplex screening the same national line-up, no state-labelled venue, a public library open four days a week, and the summer programme boils down to two free concerts on the market square. For the urban profile who wants to see an exhibition on a rainy Sunday, culture becomes a mandatory 80-kilometre round trip.",
+    reality:
+      "We rank cities over 15,000 whose culture score in the proprietary seed falls at or below 4.5/10 (positive convention: 10 = excellent cultural offer, so lower = worse). Severity is amplified when the municipal library — computed by `lib/public-services` (inverted convention: 10 = worst) — is itself under-resourced: the compound where neither the cultural scene nor the public reading investment holds. Bonus when no cultural character-tag surfaces in the seed (culturel, patrimoine, étudiant, festival, bohème, historique) — the town does not even claim culture as a vocation. A further bonus applies when the transport score is also 4/10 or below (leaving town for a concert eats time and money — cultural isolation compounds with modal isolation). The cities that surface are overwhelmingly industrial subprefectures in reconversion, peri-urban satellites with no cultural policy of their own, and coastal communes that live the tourist season but not the rest of the year.",
+    methodology:
+      "Severity = (5 − culture seed) × 2 + 1.4 if library score ≥ 7/10 (or +0.8 if library ≥ 5/10) + 0.5 if no cultural tag (culturel / patrimoine / étudiant / festival / bohème / historique) + 0.6 if transport seed ≤ 4 + 0.5 if population 30,000–80,000 (the tier where a labelled venue and an independent cinema become expected). Capped at 10/10, filtered to severity ≥ 6. Sources: DEPS-MC (French Ministry of Culture — statistics department) for the national-scene / SMAC / drama-centre labels, BNF 2024 library observatory, CNC arthouse cinema coverage, proprietary character-tags (declared vocations). Caveat: grassroots culture (community centres, film clubs, citizen festivals) does not systematically show up in the national nomenclatures — a listed city can still have a real alternative scene the labels miss.",
+  },
+  {
     enSlug: "daily-traffic-jams",
     frSlug: "villes-embouteillages-quotidiens",
     emoji: "🚥",
