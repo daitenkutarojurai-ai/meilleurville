@@ -117,6 +117,14 @@ export default function CalculateurCoutReelIndex() {
             <li>• <strong>Taxe foncière</strong> : DGFiP (estimation T3 ancien), mensualisée.</li>
             <li>• <strong>TEOM</strong> : DGFiP (médiane communale), mensualisée.</li>
           </ul>
+          <p className="text-xs text-[var(--text-tertiary)] mt-3 leading-relaxed">
+            Le loyer médian ne dit rien du <em>délai</em> pour trouver un bien : dans les{" "}
+            <Link href="/red-flags/villes-logement-introuvable" className="text-[var(--accent)] underline hover:no-underline">
+              villes où le logement locatif est introuvable
+            </Link>
+            , il faut compter plusieurs mois de recherche et un dossier «&nbsp;blindé&nbsp;» pour
+            décrocher un T2 au prix affiché.
+          </p>
         </Card>
       </div>
 

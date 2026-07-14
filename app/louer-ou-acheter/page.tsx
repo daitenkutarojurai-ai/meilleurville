@@ -142,6 +142,16 @@ export default function LouerOuAcheterIndexPage() {
           18-24 : équilibre · 24-30 : louer plus malin · &gt; 30 : marché tendu.
         </p>
 
+        <p className="mt-6 text-sm text-[var(--text-secondary)] leading-relaxed">
+          Attention : sur ces marchés au ratio le plus élevé, «&nbsp;louer plus malin&nbsp;» ne veut
+          pas dire «&nbsp;louer facilement&nbsp;». Beaucoup figurent aussi dans notre classement des{" "}
+          <Link href="/red-flags/villes-logement-introuvable" className="text-[var(--accent)] underline hover:no-underline">
+            villes où le logement locatif est introuvable
+          </Link>
+          {" "}— dossier blindé, garant obligatoire, visites collectives. La flexibilité de la
+          location est théorique quand décrocher un bail prend plusieurs mois.
+        </p>
+
         <div className="mt-10 text-xs text-[var(--text-tertiary)]">
           L&apos;URL <code className="px-1 py-0.5 bg-[var(--bg-elevated)] rounded-full">/villes/&lt;slug-ville&gt;/louer-ou-acheter</code>
           {" "}fonctionne pour toutes les villes couvertes par HOUSING (loyer T3 + prix m² disponibles).

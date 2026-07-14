@@ -238,10 +238,17 @@ export default async function MacroRegionTensionPage({ params }: Props) {
           ))}
         </div>
 
-        <div className="mt-8 text-sm">
-          <Link href="/tension-locative" className="text-[var(--accent)] hover:underline">
-            → Voir le palmarès national complet de la tension locative
-          </Link>
+        <div className="mt-8 text-sm space-y-2">
+          <div>
+            <Link href="/tension-locative" className="text-[var(--accent)] hover:underline">
+              → Voir le palmarès national complet de la tension locative
+            </Link>
+          </div>
+          <div>
+            <Link href="/red-flags/villes-logement-introuvable" className="text-[var(--accent)] hover:underline">
+              → Red flag : top 12 des villes où le logement locatif est carrément introuvable
+            </Link>
+          </div>
         </div>
       </section>
 

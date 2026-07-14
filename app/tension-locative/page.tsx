@@ -265,6 +265,13 @@ export default function RentalTensionHubPage() {
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Loyer / salaire médian local</div>
             </Card>
           </Link>
+          <Link href="/red-flags/villes-logement-introuvable" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">🔑</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">Logement introuvable</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">Top 12 marchés locatifs bloquants</div>
+            </Card>
+          </Link>
           <Link href="/calculateur-cout-reel" className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-2xl mb-1">🧮</div>

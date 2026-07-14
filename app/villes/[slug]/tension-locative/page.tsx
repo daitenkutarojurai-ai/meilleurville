@@ -312,6 +312,14 @@ export default async function TensionLocativePage({ params }: Props) {
           >
             📊 Palmarès national tension locative
           </Link>
+          {level === "tendu" && (
+            <Link
+              href="/red-flags/villes-logement-introuvable"
+              className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+            >
+              🔑 Villes où le logement est introuvable
+            </Link>
+          )}
           <Link
             href={`/villes/${slug}/logement`}
             className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
