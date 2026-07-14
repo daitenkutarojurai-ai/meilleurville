@@ -176,7 +176,7 @@ npm run lint         # 231 errors / 27 warnings (mostly @next/next/no-html-link-
 
 ## Content roadmap — guides (`data/guides.ts`)
 
-Current count: **453 guides**. Guide spec: `slug, title, metaTitle, metaDesc, category, emoji, readMinutes, publishedAt, updatedAt, intro, sections[], relatedCities[], relatedGuides[], tags[]`. All copy in **French**, direct voice, data-led. No silent fake figures.
+Current count: **759 guides** (2026-07-14). Guide spec: `slug, title, metaTitle, metaDesc, category, emoji, readMinutes, publishedAt, updatedAt, intro, sections[], relatedCities[], relatedGuides[], tags[]`. All copy in **French**, direct voice, data-led. No silent fake figures.
 
 All planned series are complete (Climat 2040 ×15, Quitter X ×18, Comparaisons A vs B ×17, Région 2026 ×16, Télétravail 2026 ×11, Lifestyle ×14, Budget ×7, Famille ×4).
 
@@ -314,7 +314,7 @@ R11.1 (`/future-you` + `lib/future-you.ts`), R11.2 (`/vibe` + `lib/vibe.ts`), R1
 
 ### Distribution & backlinks (R13)
 - **R13.1 Badge embarcable "1ère/2e/Nème ville de France"** — ✅ shipped 2026-07-10 (`/badge` hub + `/badge/[slug]` × 540 SSG, `lib/city-badge.ts` + `components/BadgeEmbed.tsx`). Three formats (compact 280×80, wide 460×120, square 200×200) — self-contained SVG strings (no external font, no fetch), one-click copy for both the full embed `<a>` snippet and the raw SVG. National rank computed once from the seed global score (cached module-level). Card added to the FR CityProfile sub-page grid; `/badge` chunk added to `SITEMAP_CHUNKS_FR` at the tail (order-stable, existing chunk URLs unchanged; `SITEMAP_CHUNK_COUNT` auto-picks it up so `robots.txt` advertises the new chunk). EN mirror deferred — the backlink pitch is a FR-side motion (mairies, offices de tourisme, agences locales), doesn't translate cleanly to `bestcitiesinfrance.com`'s expat audience.
-- **R13.2 Palmarès mensuel** — a recurring monthly themed ranking cut (e.g. "où le loyer a le moins augmenté," "meilleures villes télétravail ce trimestre") mined from existing seed/niche-scores data, giving press a predictable citable hook instead of one-off angle-mining per outreach wave. No new route required if published as a guide (`data/guides.ts`) or a `/presse` update; needs a monthly cadence, not a build.
+- **R13.2 Palmarès mensuel** — ✅ first edition shipped 2026-07-14 as guide `palmares-juillet-2026-rapport-qualite-vie-loyer` (score global ÷ loyer T2, 540 villes, filtre pop ≥ 20k — ranking computed from seed + housing, no invented figures; méthodo affichée dans le guide). **Cadence: one edition per month, published as a guide** (`palmares-[mois]-2026-…`, category `budget`). Announced next theme (août 2026): qualité de vie / prix d'achat au m² — honour it or update the July guide's last section if the theme changes.
 
 ### Vacances `/vacances` — architecture (shipped, monétisation pending)
 Engines: `lib/vacation-seasons.ts` (climat 12 mois ×352), `lib/vacation-activities.ts` (10 activités), `lib/vacation-fit.ts` (score composite + helpers). 387 routes SSG.
@@ -435,23 +435,19 @@ FR-equivalent routes covered: home, cities index + 352 city pages, 4 city sub-pa
 | score famille / étudiant / retraité / écologique | `lib/niche-scores.ts` + city-match |
 | emploi / télétravail | champ `remoteWork` seed + `/copilot` |
 
-### Nouvelles sous-pages ville
+### Nouvelles sous-pages ville — ✅ toutes livrées
 
-| Route | Contenu | Source données |
-|-------|---------|----------------|
-| `/villes/[slug]/statistiques` | Population, évolution démog., salaire médian net, taux de chômage | champs à ajouter au seed (proxies INSEE 2021) |
-| `/villes/[slug]/sante` | Densité médecins/1 000 hab, nb hôpitaux/CHU, désert médical | champs à ajouter au seed + open data ARS |
-| `/villes/[slug]/pollution` | Indice qualité de l'air ATMO (0–10), espaces verts (% superficie), bruit | `envScore` seed + proxies ATMO annuels |
-| `/villes/[slug]/emploi` | Bassin emploi, secteurs dominants, taux de chômage, salaire moyen | champs seed + INSEE |
-| `/villes/[slug]/commerces` | Couverture commerciale (score), marchés, grandes surfaces, désert comm. | dérivé `characterTags` + nouveau champ seed |
+`/villes/[slug]/statistiques`, `sante`, `air` (= pollution), `emploi`, `commerces` existent tous
+(plus `bruit`, `eau`, `risques`, `fiscalite`, `securite`, `demographie`, `sport`, `velo`… — ~38
+sous-pages ville au total). Computed from existing seed axes + characterTags, pas de nouveaux
+champs seed. Même pattern que `climat`.
 
-Même pattern que `climat` : `generateStaticParams` sur `CITIES_SEED`, tout computé depuis seed, card dans `CityProfile`, entrée `sitemap.ts`.
+### Enrichissement seed — champs à ajouter (toujours ouvert)
 
-### Enrichissement seed — champs à ajouter
+`population` est fait ; le reste n'a jamais été ajouté (les sous-pages ci-dessus s'en passent en
+computant depuis les axes existants — l'enrichissement reste utile pour des chiffres réels) :
 
-Ajouter au type `City` dans `lib/types.ts` + peupler dans `data/cities-seed.ts` (proxy INSEE/ATMO, pas de mesure terrain) :
-
-- `population: number` — recensement 2021
+- ~~`population: number`~~ — ✅ dans le seed (recensement)
 - `populationEvolution: number` — évolution % 2015–2021
 - `salaireMédianNet: number` — €/mois net (proxie département)
 - `tauxChomage: number` — % (proxie zone emploi)
@@ -459,33 +455,34 @@ Ajouter au type `City` dans `lib/types.ts` + peupler dans `data/cities-seed.ts` 
 - `indiceAtmo: number` — qualité air annuelle 0–10 (1 = très pollué)
 - `espacesVerts: number` — % superficie communale (proxie CORINE)
 
-### Bloc FAQ structuré sur CityProfile
+### Bloc FAQ structuré sur CityProfile — ✅ livré
 
-Ajouter un accordéon `<FAQBlock>` (JSON-LD `FAQPage`) sur `CityProfile.tsx` généré depuis les données seed. ~10 questions par ville (coût de la vie, sécurité, transports, météo, emploi, famille, retraite…). Zéro saisie manuelle — 100 % computé depuis le seed.
+Accordéon `<details>` natif (réponses dans le HTML statique, no-JS/crawler-friendly) en bas de
+`CityProfile.tsx` + `FAQPage` JSON-LD dans `components/CityJsonLd.tsx`. 100 % computé depuis le seed.
 
 ### Nouvelles séries de guides per-city (FR)
 
-Séries manquantes vs l'existant :
+État au 2026-07-14 :
 
-| Slug pattern | Catégorie | Cible | Notes |
+| Slug pattern | Catégorie | Cible | Statut |
 |---|---|---|---|
-| `vivre-a-[ville]-2026` | `moving` | top 50 villes | guide narratif complet (≠ `quitter-[ville]`) |
-| `demenager-a-[ville]-2026` | `moving` | top 50 villes | logistique déménagement (≠ sous-page `s-installer`) |
-| `quartiers-a-eviter-[ville]-2026` | `moving` | top 30 villes | pendant de `meilleurs-quartiers` dans `acheter-a-` |
-| `travail-a-[ville]-2026` | `remote-work` | top 30 villes | bassin d'emploi, secteurs, agences |
-| `etudiant-a-[ville]-2026` | `lifestyle` | top 20 villes | campus, logement étudiant, vie nocturne |
-| `famille-a-[ville]-2026` | `family` | top 20 villes | écoles, activités enfants, parcs, périscolaire |
-| `retraite-a-[ville]-2026` | `lifestyle` | top 20 villes | santé, tranquillité, coût, accessibilité |
-| `universites-[ville]-2026` | `lifestyle` | top 15 villes | liste établissements, classements, logement CROUS |
+| `vivre-a-[ville]-2026` | `moving` | top 50 villes | ✅ 51 guides |
+| `etudiant-a-[ville]-2026` | `lifestyle` | top 20 villes | ✅ 20 guides |
+| `famille-a-[ville]-2026` | `family` | top 20 villes | ✅ 19 guides |
+| `retraite-a-[ville]-2026` | `lifestyle` | top 20 villes | 🔶 batch 1 = 10 (Dinan, Lannion, Les Sables-d'Olonne, Royan, Le Puy-en-Velay, Anglet, Hendaye, Vitré, Fontainebleau, Île de Ré — sélection = `computeNicheScores().retirement`, pop ≥ 15k, housing data). Batch 2 restant : Challans, Tulle, Pontarlier, Saint-Dié-des-Vosges, Château-Gontier, Albertville, Gaillac, Vendôme, Marmande, Saint-Lô |
+| `demenager-a-[ville]-2026` | `moving` | top 50 villes | ❌ logistique déménagement (≠ sous-page `s-installer`) |
+| `quartiers-a-eviter-[ville]-2026` | `moving` | top 30 villes | ❌ pendant de `meilleurs-quartiers` dans `acheter-a-` |
+| `travail-a-[ville]-2026` | `remote-work` | top 30 villes | ❌ bassin d'emploi, secteurs, agences |
+| `universites-[ville]-2026` | `lifestyle` | top 15 villes | ❌ établissements, classements, logement CROUS |
 
 Déjà couverts (skip) : `acheter-a-[ville]` (immobilier), `budget-mensuel-realiste-[ville]` (coût de la vie), `10-choses-a-faire-a-[ville]` (sortir), `quitter-[ville]` (départ), `vivre-sans-voiture-[ville]` (transports).
 
 ### Pages comparatives éditoriales
 
-L'engine `/comparer/[a]-vs-[b]` est livré + ~300 paires SSG existent. Ce qui manque :
+L'engine `/comparer/[a]-vs-[b]` est livré + ~300 paires SSG existent.
 
-- **Landing `/comparer` enrichie** avec ~30 paires éditoriales mises en avant (Lyon vs Bordeaux, Paris vs Lyon, Bordeaux vs Nantes, Toulouse vs Montpellier, Nice vs Marseille, Rennes vs Nantes, Grenoble vs Chambéry…) — simple array de paires dans la page, les routes existent déjà.
-- **Sitemap haut-trafic** : s'assurer que les ~300 paires les plus cherchées sont dans `sitemap.ts` (vérifier que le générateur couvre toutes les combinaisons top-50 × top-50).
+- ✅ **Landing `/comparer` enrichie** — 50 paires éditoriales (`POPULAR_PAIRS` dans `app/comparer/page.tsx`).
+- [ ] **Sitemap haut-trafic** : vérifier que les paires les plus cherchées sont dans `sitemap.ts` (couverture top-50 × top-50).
 
 ### Hors périmètre (nécessitent des assets ou APIs externes)
 
