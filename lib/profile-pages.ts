@@ -647,6 +647,27 @@ export const PROFILE_PAGES: ProfileDef[] = [
       return `${kmLabel} · nature ${c.scores.nature.toFixed(1)} · vie ${c.scores.life.toFixed(1)}`;
     },
   },
+  {
+    slug: "amateurs-de-culture",
+    emoji: "🎭",
+    label: "Amateurs de culture",
+    metaTitle: "Meilleures villes culture 2026 — Top 20 France",
+    metaDescription:
+      "Top 20 villes françaises pour la vie culturelle au quotidien : musées, théâtres, opéras, scènes labellisées, festivals structurants, patrimoine. Culture 3.0 + urbanité.",
+    intro:
+      "Amateurs de culture : votre semaine ne s'organise pas autour d'un job, d'un enfant ou d'un ratio salaire-loyer, mais autour d'une programmation — l'exposition qui vient d'ouvrir, la pièce au théâtre municipal jeudi soir, l'abonnement à la saison lyrique, le concert au festival d'été, la conférence à la médiathèque, le vernissage du vendredi, le week-end architecture pendant les Journées européennes du patrimoine. Ce profil se distingue des autres profils du site qui pondèrent la culture au passage — « jeunes actifs » (culture 2,0 dans un mélange carrière-loyer), « couple sans enfant » (culture 2,5 dans un mélange vie-nature-transport), « télétravailleurs » (culture 1,5 dans un mélange qualité de vie-connectivité), « expat retour » (culture 1,5 dans un mélange qualité de vie-international) — chez tous ceux-là, la culture est un complément agréable d'un mode de vie principalement défini ailleurs. Ici c'est l'inverse : la programmation commande, le reste s'organise autour. Concrètement, un amateur culture-first accepte une ville plus dense, plus chère et parfois plus verticale si la scène compense, alors qu'un télétravailleur salarié ferait rarement le même arbitrage. Le critère cardinal, c'est l'axe culture du seed, calibré sur la densité de salles de spectacle par habitant (théâtres, opéras, salles de concert, scènes labellisées de type CDN, SMAC, CCN), la densité muséale (musées de France labellisés par le ministère de la Culture), le classement UNESCO ou Monuments historiques du patrimoine bâti, les festivals structurants annuels (Avignon, Aix-en-Provence, Vieilles Charrues, Trans Musicales, Francofolies, Nuits de Fourvière, Voyage à Nantes, Chorégies d'Orange, Festival de Cannes, Interceltique de Lorient, Rio Loco, Nuits Sonores, Jazz in Marciac, entre autres) et le tissu associatif culturel local. On complète par la qualité de vie urbaine — parce qu'une programmation dense reste inutile si le centre-ville est mort à 20 h ou si les rues sont hostiles au piéton du soir. Les transports en commun et la praticabilité sans voiture pèsent parce que l'amateur sort à pied ou en tram — trois soirées par semaine avec un aller-retour voiture devient vite une contrainte, et le stationnement de spectacle en centre-ville historique est presque toujours galère. La sécurité globale intervient pour rentrer sereinement d'un spectacle à 23 h en semaine. La qualité de l'air joue comme un plus pour la vie de terrasse et les balades urbaines qui accompagnent naturellement la sortie culturelle. Et on garde un demi-poids nature pour préserver quelques échappées dominicales — un amateur de culture qui ne prend jamais l'air finit épuisé par l'urbanité continue. Résultat : un palmarès tiré par Paris (aucune autre ville française n'approche sa concentration muséale et scénique), les capitales régionales muséales et scéniques (Lyon avec son Opéra, les Nuits de Fourvière et la Biennale d'art contemporain ; Strasbourg avec le TNS et le musée d'art moderne ; Bordeaux avec le CAPC, le Grand-Théâtre et Cap Sciences ; Toulouse avec les Abattoirs, le Théâtre national et le festival Rio Loco ; Nantes avec le Voyage à Nantes et les Machines de l'île ; Marseille avec le MuCEM, la Vieille Charité et le Ballet national ; Montpellier avec le Corum et Radio France Occitanie ; Nice avec l'Opéra et le MAMAC), les villes moyennes à identité culturelle forte (Aix-en-Provence pour le Festival lyrique, Avignon pour le IN et le OFF, Reims pour la cathédrale et les Flâneries musicales, Angers pour le Château et Premiers Plans, Nancy pour l'Art nouveau et la place Stanislas, Metz avec le Centre Pompidou-Metz), les hauts-lieux d'un festival estival majeur (Colmar, Carcassonne, Saintes, Beaune, Sisteron) et les préfectures classées patrimoine mondial (Le Havre, Chartres, Bourges, Provins). Systématiquement en retrait — les banlieues résidentielles sans centre culturel propre, les préfectures peu dotées et les villes dortoirs sans ancrage patrimonial ou associatif fort. Un rappel important : la métrique culture est calibrée sur des indicateurs quantifiables (densité d'équipements, patrimoine classé, festivals labellisés) mais la vitalité d'une saison culturelle dépend aussi de facteurs qui ne se laissent pas mesurer — programmation d'un directeur d'établissement, dynamisme d'une association locale, ancrage d'une scène punk ou jazz — et une vérification par l'office de tourisme, la mairie culture ou la programmation en ligne reste la meilleure boussole pour une année donnée.",
+    weights: {
+      culture: 3.0,
+      life: 1.5,
+      transport: 1.0,
+      sansVoiture: 1.0,
+      safety: 0.5,
+      qualiteAir: 0.5,
+      nature: 0.5,
+    },
+    reasonHint: (c) =>
+      `Culture ${c.scores.culture.toFixed(1)} · vie ${c.scores.life.toFixed(1)} · transport ${c.scores.transport.toFixed(1)}`,
+  },
 ];
 
 export const PROFILE_SLUGS = PROFILE_PAGES.map((p) => p.slug);
