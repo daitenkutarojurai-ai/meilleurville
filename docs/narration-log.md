@@ -16,3 +16,4 @@ Les données factuelles (chiffres, scores, noms) ne sont jamais modifiées.
 - 2026-07-12 app/guides/[slug]/page.tsx :: retraite-france-guide
 - 2026-07-13 app/red-flags/[slug]/page.tsx :: villes-desert-medical
 - 2026-07-14 app/guides/[slug]/page.tsx :: soleil-france-guide
+- 2026-07-15 app/guides/[slug]/page.tsx :: alternatives-ile-de-france-banlieue-parisienne-guide-2025
