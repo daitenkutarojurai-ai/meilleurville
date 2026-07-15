@@ -1682,6 +1682,139 @@ function rankManqueDeVerdure(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
 }
 
+// --- THEME 33 — Parking cauchemar : centres historiques saturés ---
+// Cible : villes ≥ 40 000 hab. avec centre historique dense (rues étroites,
+// zones piétonnes étendues, hyper-centre médiéval / provençal / balnéaire)
+// où l'offre TC intermédiaire n'a pas déchargé la voiture, et où se garer
+// devient un parcours du combattant : parkings-relais saturés, stationnement
+// payant partout, tournée de 15-25 min rituelle pour trouver une place.
+//
+// La différence avec villes-embouteillages-quotidiens (thème 31) est nette :
+// le premier mesure la congestion routière aux pics sur rocade/autoroute ;
+// celui-ci mesure la pénurie de stationnement 24/24 dans le noyau ancien
+// — deux phénomènes orthogonaux. Aix-en-Provence, La Rochelle, Saint-Malo,
+// Antibes ont peu d'embouteillages structurels sur rocade mais un cauchemar
+// parking en hyper-centre attesté par les municipalités elles-mêmes.
+//
+// Filtre transport ≥ 5 exclut les micro-tissus urbains (Ajaccio, Vannes,
+// Cherbourg — la voiture reste maître mais la saturation parking est moindre
+// par manque de densité). Filtre transport ≤ 7.5 exclut les métropoles à
+// tram/métro dense (Paris, Lyon, Rennes, Strasbourg, Nantes, Bordeaux) dont
+// l'offre TC absorbe une part substantielle de la charge automobile centrale.
+//
+// Sources sous-jacentes : Cerema (ex-Certu, enquêtes stationnement en villes
+// moyennes touristiques 2019-2023), baromètre INDIGO 2024 (temps moyen de
+// recherche de place en hyper-centre), FNMS (Fédération Nationale des Métiers
+// du Stationnement — parc et taux d'occupation communiqués annuels), enquêtes
+// UFC-Que Choisir 2022 sur les tarifs horaires centre-ville. La pénurie est
+// documentée par les municipalités : Aix-en-Provence, Nice, La Rochelle et
+// Bayonne ont chacune ouvert un « plan stationnement » explicite dans leurs
+// contrats de mandature 2020-2026 (extension zone piétonne, hausse tarifs,
+// nouveaux parcs-relais). Vérifier avant achat : plan local de stationnement,
+// tarifs résidentiels, distance au premier parking en ouvrage.
+const PARKING_HISTORIC_REGEX =
+  /\bhistorique\b|patrimoine|patrimonial|médiéval|remparts|corsaire|papes|vieux[- ]?port|vieille[- ]?ville|romain|forteresse|abbatiale|cathédrale|hospices|unesco|alsacien|provençal|béarnais|basque|\bcorse\b|petite[- ]?venise|château/i;
+const PARKING_COASTAL_REGEX =
+  /balnéaire|station-balnéaire|plage|littoral|riviera|croisette|côte[- ]?d[- ]?azur|méditerranée|atlantique|manche|surf|nautisme|voile|\bmer\b/i;
+const PARKING_TOURIST_REGEX =
+  /tourisme|touristique|premium|lifestyle|glamour|festival/i;
+
+function rankParkingCauchemar(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    const pop = city.population ?? 0;
+    if (pop < 40_000) continue;
+
+    const transport = city.scores.transport;
+    if (transport >= 7.6) continue; // métropoles à tram/métro dense — hors périmètre
+    if (transport < 5.0) continue; // micro-tissu urbain — densité insuffisante
+
+    const tags = (city.characterTags ?? []).join(" ").toLowerCase();
+    const isHistoric = PARKING_HISTORIC_REGEX.test(tags);
+    const isCoastal = PARKING_COASTAL_REGEX.test(tags);
+    const isTouristic = PARKING_TOURIST_REGEX.test(tags);
+
+    // Requiert au moins un signal centre-ancien / littoral / touristique.
+    if (!isHistoric && !isCoastal && !isTouristic) continue;
+
+    // Une grande métropole > 300 000 hab. explicitement taguée « métropole »
+    // dispose de parcs-relais massifs et d'un modèle de congestion différent
+    // (voir villes-embouteillages-quotidiens). On l'exclut de ce classement.
+    if (/\bmétropole\b/i.test(tags) && pop >= 300_000) continue;
+
+    const housing = HOUSING[city.slug];
+    const priceM2 = housing?.avgBuyPriceM2 ?? 0;
+    const isExpensive = priceM2 >= 4000;
+    const isVeryExpensive = priceM2 >= 5500;
+
+    const dept = city.department ?? "";
+    const isMedRiviera = ["Alpes-Maritimes", "Var"].includes(dept);
+    const isCorsica = ["Corse-du-Sud", "Haute-Corse"].includes(dept);
+    const isBasqueLandes = ["Pyrénées-Atlantiques", "Landes"].includes(dept);
+    const isMedWest = [
+      "Bouches-du-Rhône",
+      "Hérault",
+      "Gard",
+      "Vaucluse",
+      "Pyrénées-Orientales",
+      "Aude",
+    ].includes(dept);
+    const isAlpineTouristic = ["Haute-Savoie", "Savoie"].includes(dept);
+    const isAtlanticSand = ["Charente-Maritime", "Vendée", "Gironde"].includes(
+      dept,
+    );
+    const isBritSand = [
+      "Ille-et-Vilaine",
+      "Morbihan",
+      "Finistère",
+      "Côtes-d'Armor",
+    ].includes(dept);
+
+    // Base : plus le score transport est bas sur la fourchette [5.0 ; 7.5],
+    // plus la voiture reste dominante donc la pression parking accrue.
+    let severity = (7.6 - transport) * 1.4;
+
+    // Signaux structurels du centre saturé.
+    if (isHistoric) severity += 1.4;
+    if (isCoastal) severity += 0.9;
+    if (isTouristic) severity += 0.7;
+
+    // Pression logement — un prix élevé signale une densité résidentielle
+    // forte donc plus de véhicules garés en permanence par m² de voirie.
+    if (isVeryExpensive) severity += 0.9;
+    else if (isExpensive) severity += 0.4;
+
+    // Bonus zonal — culture voiture + centre ancien + tourisme cumulés.
+    if (isMedRiviera) severity += 1.2; // Nice / Cannes / Antibes / Fréjus
+    else if (isCorsica) severity += 1.1; // Ajaccio / Bastia
+    else if (isBasqueLandes) severity += 0.9; // Bayonne / Biarritz
+    else if (isMedWest) severity += 0.8; // Aix / Avignon / Nîmes / Sète
+    else if (isAlpineTouristic) severity += 0.8; // Annecy / Chambéry
+    else if (isAtlanticSand) severity += 0.7; // La Rochelle / Royan
+    else if (isBritSand) severity += 0.6; // Saint-Malo / Vannes / Quimper
+
+    // Bonus densité — au-delà de 100 000 hab., le noyau central concentre
+    // structurellement plus de véhicules par m² de voirie disponible.
+    if (pop >= 200_000) severity += 0.5;
+    else if (pop >= 100_000) severity += 0.3;
+
+    severity = Math.min(10, severity);
+    if (severity < 6) continue;
+
+    const contextParts: string[] = [];
+    if (isHistoric) contextParts.push("centre historique");
+    if (isCoastal) contextParts.push("littoral");
+    if (isTouristic && !isHistoric && !isCoastal) contextParts.push("pôle touristique");
+    if (isVeryExpensive) contextParts.push(`${(priceM2 / 1000).toFixed(1)} k€/m²`);
+    else if (isExpensive) contextParts.push(`${priceM2.toLocaleString("fr-FR")} €/m²`);
+    const context = contextParts.length > 0 ? ` — ${contextParts.join(", ")}` : "";
+
+    const reason = `Transport ${transport.toFixed(1)}/10 · ${pop.toLocaleString("fr-FR")} hab.${context}`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -2162,6 +2295,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Severity = (5 − nature seed) × 2 + bonus densité urbaine (80 000 hab. +0,3 · 250 000 hab. +1,0 · plafonné à +1,3 pour éviter que les 3 plus grandes villes saturent seules le classement) + 0,8 si envScore ≤ 5/10 (ou +0,4 si ≤ 6/10) + 0,6 si aucun tag character végétal (verdoyant / nature / parc / forêt / campagne / vert / montagne / mer / bord / littoral / lac) + 0,5 si couronne francilienne ≥ 50 000 hab. hors Paris. Clampé à 10/10, filtré à severity ≥ 6. Sources sous-jacentes : score nature seed propriétaire (dérivé du taux d'espaces verts communaux CORINE Land Cover 2018 + proximité massifs forestiers ONF + accessibilité TER/RER à un espace vert ≥ 10 ha), méga-index Cadre de Vie site (env-health / healthcare-access / employment-market), character-tags seed. Références : recommandation OMS « 9 m² d'espaces verts par habitant minimum », rapport ADEME 2023 sur les îlots de fraîcheur urbains, méta-analyse Nature 2019 sur green space et santé mentale. Caveat : une politique municipale de renaturation lancée après 2023 (Grand Paris, Marseille, Toulouse) peut faire évoluer la note à moyen terme — le score seed reste indicatif au temps du recensement.",
     rank: rankManqueDeVerdure,
+  },
+  {
+    slug: "villes-parking-cauchemar",
+    title: "Villes où se garer devient un cauchemar quotidien",
+    metaTitle: "Parking cauchemar 2026 — Villes françaises où stationner épuise",
+    metaDescription:
+      "Classement 2026 des villes françaises ≥ 40 000 hab. avec centre historique saturé, hyper-centre sans stationnement, tournée 15-25 min pour se garer. Cerema, INDIGO, FNMS.",
+    emoji: "🅿️",
+    intro:
+      "L'annonce vante le « charme du vieux centre », les « ruelles pavées », le « restaurant à 300 m ». Personne ne mentionne que le premier parking public affiche « complet » de 10 h à 20 h, que la place résidentielle à 250 €/an ne garantit rien puisque les rues sont saturées de véhicules ventouse, et que le remontage de courses du dimanche soir depuis le parking-relais devient un exercice hebdomadaire. La saturation du stationnement en hyper-centre ne se voit pas sur la plaquette immobilière prise à midi un mardi de mars — elle se découvre le premier vendredi soir de juillet, quand on tourne 25 minutes pour rentrer dans son propre quartier.",
+    reality:
+      "On classe les villes ≥ 40 000 habitants dont le score transport se situe entre 5 et 7,5/10 (assez de tissu urbain pour saturer, pas assez d'offre tram/métro pour dispenser de la voiture) et qui portent au moins un tag character évocateur d'un centre ancien dense, d'un littoral touristique ou d'une vocation premium/festival. Le classement écarte volontairement les métropoles à réseau structurant (Paris, Lyon, Nantes, Strasbourg, Rennes, Bordeaux) — non que leur parking soit facile, mais parce que leur modèle de congestion s'inscrit dans les embouteillages routiers (thème dédié 31) et absorbe une part majeure des trajets en tram, métro ou vélo. On amplifie la gravité quand la ville cumule un centre historique attesté, un littoral saisonnier et une pression logement forte (prix m² ≥ 5 500 €). Le Sud-Est méditerranéen et la Riviera concentrent structurellement les cas les plus lourds : rue étroite antique, culture voiture, tourisme estival, résidents secondaires — la saturation dépasse 95 % de taux d'occupation neuf mois sur douze selon les enquêtes FNMS 2023.",
+    methodology:
+      "Severity = 1,4 × facteur transport (7,5 → 0 · 5,0 → +3,6) + 1,4 si tag historique (historique / patrimoine / médiéval / remparts / vieille ville / corsaire / provençal / basque / alsacien / béarnais / Corse / Petite Venise / UNESCO / château / cathédrale / abbatiale / forteresse / romain / hospices / papes) + 0,9 si tag littoral (balnéaire / plage / littoral / Riviera / Croisette / Méditerranée / Atlantique / Manche / surf / nautisme / voile / vieux port / mer) + 0,7 si tag touristique (tourisme / premium / lifestyle / glamour / festival) + 0,9 si prix m² ≥ 5 500 € (0,4 si ≥ 4 000 €) + bonus zonal (Riviera + Var +1,2 · Corse +1,1 · Basque/Landes +0,9 · Méditerranée Ouest +0,8 · Alpes touristiques +0,8 · Atlantique sableuse +0,7 · Bretagne côtière +0,6) + bonus densité (≥ 200 000 hab. +0,5 · ≥ 100 000 hab. +0,3). Clampé à 10/10, filtré à severity ≥ 6. Métropoles > 300 000 hab. explicitement taguées « métropole » exclues (modèle de congestion différent — voir villes-embouteillages-quotidiens). Sources sous-jacentes : Cerema (ex-Certu, enquêtes stationnement villes moyennes touristiques 2019-2023), baromètre INDIGO 2024 (temps moyen de recherche de place), FNMS 2023 (taux d'occupation parc public), UFC-Que Choisir 2022 (tarifs horaires centre-ville), plans stationnement municipaux 2020-2026 (Aix-en-Provence, Nice, La Rochelle, Bayonne). Caveat : le taux d'occupation peut évoluer vite avec l'ouverture d'un nouveau parc en ouvrage ou d'un P+R relié au tram (Nice ligne T2, Aix parking Krypton) ; la saison touristique creuse un facteur 2 à 4 en tension entre janvier et août ; les résidents disposent presque toujours d'une carte annuelle (150-350 €/an selon commune) qui n'assure pas la place mais divise le coût par 4 vs le horaire. Vérifier avant achat : plan local de stationnement en vigueur, tarif carte résident, distance au premier parking public, ancienneté du dernier P+R livré.",
+    rank: rankParkingCauchemar,
   },
 ];
 
