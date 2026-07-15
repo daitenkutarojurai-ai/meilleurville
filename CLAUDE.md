@@ -469,7 +469,7 @@ Accordéon `<details>` natif (réponses dans le HTML statique, no-JS/crawler-fri
 | `vivre-a-[ville]-2026` | `moving` | top 50 villes | ✅ 51 guides |
 | `etudiant-a-[ville]-2026` | `lifestyle` | top 20 villes | ✅ 20 guides |
 | `famille-a-[ville]-2026` | `family` | top 20 villes | ✅ 19 guides |
-| `retraite-a-[ville]-2026` | `lifestyle` | top 20 villes | 🔶 batch 1 = 10 (Dinan, Lannion, Les Sables-d'Olonne, Royan, Le Puy-en-Velay, Anglet, Hendaye, Vitré, Fontainebleau, Île de Ré — sélection = `computeNicheScores().retirement`, pop ≥ 15k, housing data). Batch 2 restant : Challans, Tulle, Pontarlier, Saint-Dié-des-Vosges, Château-Gontier, Albertville, Gaillac, Vendôme, Marmande, Saint-Lô |
+| `retraite-a-[ville]-2026` | `lifestyle` | top 20 villes | ✅ 20 guides (batch 1 shipped 2026-07-14 : Dinan, Lannion, Les Sables-d'Olonne, Royan, Le Puy-en-Velay, Anglet, Hendaye, Vitré, Fontainebleau, Île de Ré ; batch 2 shipped 2026-07-15 : Challans, Tulle, Pontarlier, Saint-Dié-des-Vosges, Château-Gontier, Albertville, Gaillac, Vendôme, Marmande, Saint-Lô) |
 | `demenager-a-[ville]-2026` | `moving` | top 50 villes | ❌ logistique déménagement (≠ sous-page `s-installer`) |
 | `quartiers-a-eviter-[ville]-2026` | `moving` | top 30 villes | ❌ pendant de `meilleurs-quartiers` dans `acheter-a-` |
 | `travail-a-[ville]-2026` | `remote-work` | top 30 villes | ❌ bassin d'emploi, secteurs, agences |
