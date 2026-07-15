@@ -470,7 +470,7 @@ Accordéon `<details>` natif (réponses dans le HTML statique, no-JS/crawler-fri
 | `etudiant-a-[ville]-2026` | `lifestyle` | top 20 villes | ✅ 20 guides |
 | `famille-a-[ville]-2026` | `family` | top 20 villes | ✅ 19 guides |
 | `retraite-a-[ville]-2026` | `lifestyle` | top 20 villes | ✅ 20 guides (batch 1 shipped 2026-07-14 : Dinan, Lannion, Les Sables-d'Olonne, Royan, Le Puy-en-Velay, Anglet, Hendaye, Vitré, Fontainebleau, Île de Ré ; batch 2 shipped 2026-07-15 : Challans, Tulle, Pontarlier, Saint-Dié-des-Vosges, Château-Gontier, Albertville, Gaillac, Vendôme, Marmande, Saint-Lô) |
-| `demenager-a-[ville]-2026` | `moving` | top 50 villes | ❌ logistique déménagement (≠ sous-page `s-installer`) |
+| `demenager-a-[ville]-2026` | `lifestyle` (pas de cat. `moving` en FR) | top 50 villes | 🔶 batch 1 = 10 shipped 2026-07-15 (Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux, Lille). Batch 2 suggéré : Rennes, Grenoble, Rouen, Angers, Dijon, Tours, Clermont-Ferrand, Metz, Nancy, Caen (toutes ont déjà `vivre-a-` + `budget-mensuel-realiste-` pour le maillage). Logistique déménagement (≠ sous-page `s-installer`) |
 | `quartiers-a-eviter-[ville]-2026` | `moving` | top 30 villes | ❌ pendant de `meilleurs-quartiers` dans `acheter-a-` |
 | `travail-a-[ville]-2026` | `remote-work` | top 30 villes | ❌ bassin d'emploi, secteurs, agences |
 | `universites-[ville]-2026` | `lifestyle` | top 15 villes | ❌ établissements, classements, logement CROUS |
