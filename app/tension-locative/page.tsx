@@ -286,6 +286,13 @@ export default function RentalTensionHubPage() {
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Loyer trop cher au centre = commute allongée en périphérie</div>
             </Card>
           </Link>
+          <Link href="/red-flags/villes-parking-cauchemar" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">🅿️</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">Villes où se garer est un cauchemar</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">Centre historique tendu + prix m² élevés : la place résidentielle à 250 €/an ne garantit rien</div>
+            </Card>
+          </Link>
         </div>
       </section>
 

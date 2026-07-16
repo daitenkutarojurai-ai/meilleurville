@@ -146,6 +146,13 @@ export default function DepuisParisPage() {
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Lyon, Bordeaux, Nantes, Rennes, Lille…</div>
             </Card>
           </Link>
+          <Link href="/red-flags/villes-parking-cauchemar" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">🅿️</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">Villes où se garer est un cauchemar</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">Descendre du TGV à Saint-Malo, Bayonne ou Biarritz : le vrai temps ajouté au trajet, c&apos;est la tournée pour se garer une fois arrivé.</div>
+            </Card>
+          </Link>
         </div>
       </section>
       <Footer />

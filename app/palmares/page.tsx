@@ -319,6 +319,13 @@ export default function PalmaresHubPage() {
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Bassins urbains ≥ 30 000 hab. sans parc à pied ni ceinture verte accessible</div>
             </Card>
           </Link>
+          <Link href="/red-flags/villes-parking-cauchemar" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">🅿️</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">Villes où se garer épuise</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">Centre historique + littoral + tourisme = 25 min de tournée pour rentrer chez soi</div>
+            </Card>
+          </Link>
           <Link href="/red-flags" className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-2xl mb-1">⚠️</div>

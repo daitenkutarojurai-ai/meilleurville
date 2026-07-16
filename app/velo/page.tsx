@@ -282,6 +282,13 @@ export default function CyclingHubPage() {
               <div className="text-xs text-[var(--text-tertiary)] mt-1">L&apos;autre versant : là où la voiture bloque tout</div>
             </Card>
           </Link>
+          <Link href="/red-flags/villes-parking-cauchemar" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">🅿️</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">Villes où se garer est un cauchemar</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">Là où le vélo n&apos;est pas un choix mais une nécessité — Aix, Nice, Bayonne, Saint-Malo</div>
+            </Card>
+          </Link>
           <Link href="/red-flags" className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-2xl mb-1">🚩</div>

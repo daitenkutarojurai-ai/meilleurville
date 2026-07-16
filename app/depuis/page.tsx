@@ -160,6 +160,21 @@ export default function DepuisIndexPage() {
               </div>
             </Card>
           </Link>
+          <Link href="/red-flags/villes-parking-cauchemar" className="block">
+            <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+              <div className="flex items-start gap-3">
+                <span className="text-2xl">🅿️</span>
+                <div>
+                  <p className="font-semibold text-[var(--text-primary)]">Villes où se garer épuise le week-end</p>
+                  <p className="text-xs text-[var(--text-secondary)] mt-1">
+                    La Rochelle, Biarritz, Saint-Malo, Vannes, Cannes — les destinations dont le
+                    charme du vieux centre se paie en 25 min de tournée pour se garer un vendredi
+                    soir de juillet. À anticiper avant de réserver.
+                  </p>
+                </div>
+              </div>
+            </Card>
+          </Link>
         </div>
       </section>
 
