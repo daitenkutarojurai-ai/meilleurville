@@ -19,3 +19,4 @@ Les données factuelles (chiffres, scores, noms) ne sont jamais modifiées.
 - 2026-07-15 app/guides/[slug]/page.tsx :: alternatives-ile-de-france-banlieue-parisienne-guide-2025
 - 2026-07-16 app/guides/[slug]/page.tsx :: teletravail-bretagne-guide
 - 2026-07-17 app/guides/[slug]/page.tsx :: vivre-sans-voiture-france-guide-2025
+- 2026-07-18 app/guides/[slug]/page.tsx :: meilleures-villes-jeunes-actifs-france-2025
