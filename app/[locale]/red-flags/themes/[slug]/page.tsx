@@ -344,6 +344,21 @@ const EN_THEMES: EnTheme[] = [
       "Severity = 0.35 × transit factor (6.5 → 0, 3.5 → 10) + 0.25 × population factor (40,000 → 0, 400,000 → 10) + zonal bonus (Paris ring +2.2 / Marseille +2.0 / Lyon +1.9 / Grenoble basin +1.8 / Riviera +1.7 / Geneva border +1.7 / Bordeaux +1.5 / Nantes +1.5 / Toulouse +1.5 / Lille +1.2) + 0.5 if cost score ≤ 5/10 (long-commute proxy: expensive housing pushes households to the ring, which lengthens trips and saturates the corridor ends). Capped at 10/10, filtered to severity ≥ 5, transit ∈ [3.5; 6.5], population ≥ 40,000, central Paris excluded (the car is already marginal). Sources: Bison Futé (weekend red/black-section archives 2022–2024), Sytadin (Île-de-France Roads Directorate real-time A1–A15–A86–A104), SIREDO maps (Ministry of Ecological Transition permanent motorway counts), site seed (transit, cost, population, department). Caveat: the transit score aggregates PT supply + OSM walkability rather than measuring road congestion directly; we use its inverse as a proxy (weak PT + high population + documented saturated corridor = congestion pressure). Intra-city variance can be strong (Vitrolles centre vs Fos, Vénissieux Minguettes vs Perrache) — the score covers the whole commune. Check Bison Futé saturation maps and real Waze/Google travel times on a Tuesday morning in November before signing anything in a peri-urban ring.",
   },
   {
+    enSlug: "mono-tourism-dependence",
+    frSlug: "villes-mono-touristiques",
+    emoji: "🏖️",
+    title: "Cities that depend on a single tourism season",
+    metaTitle: "Mono-tourism 2026 — French cities that empty out off-season",
+    metaDescription:
+      "2026 ranking of French cities whose economy hinges on one tourist season: shops shuttered six months a year, thin private employment outside hospitality. INSEE sector mix.",
+    intro:
+      "The brochure shows August: postcard streets, packed terraces, beach 800 metres away. Nobody shows the same street in February — shutters down, restaurants closed six months out of twelve, half-empty schools, and the last GP left for the next town 60 km away. When a season accounts for 80% of local revenue, life isn't organised around a lifestyle — it's organised around a shared partial-unemployment calendar that runs the whole basin.",
+    reality:
+      "We rank cities up to 80,000 whose `sectorMix` score (lib/employment-market) flags a weak private diversification — typically the Var, Alpes-Maritimes, Hautes-Alpes, Pyrénées-Orientales, both Corsican departments, and isolated coastal / ski / spa resorts sitting inside otherwise rural territories. The base 7/10 model score is amplified by a small-size penalty (under 30,000: no non-tourism private fabric to cushion the shoulder seasons) and by a bonus when the city posts a high overall quality-of-life score — the polished façade that hides a seasonally-dependent economy.",
+    methodology:
+      "Severity = sectorMix score + 1.5 if an explicit seaside / ski / thermal-spa tag applies (otherwise +1.0 for a coastal / ski tag) + 1.0 if population < 30,000 + 0.5 if overall score ≥ 6.5. Filter: population > 0 and ≤ 80,000, severity ≥ 6/10. Sources: MONO_TOURISM_DEPTS (INSEE 2024 sector-of-employment breakdown) + proprietary character tags (declared vocations).",
+  },
+  {
     enSlug: "parking-nightmare",
     frSlug: "villes-parking-cauchemar",
     emoji: "🅿️",
