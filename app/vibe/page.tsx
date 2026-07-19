@@ -140,7 +140,13 @@ export default function VibePage() {
           <Link href="/villes" className="underline hover:text-[var(--accent)]">
             fiches villes
           </Link>
-          .
+          . Si vous cherchez spécifiquement l&apos;énergie calme parce que le bruit vous
+          use, notre{" "}
+          <Link href="/pour-qui/sensibles-au-bruit" className="underline hover:text-[var(--accent)]">
+            top 20 villes pour sensibles au bruit
+          </Link>{" "}
+          pondère l&apos;exposition sonore réelle (routier, aérien, ferroviaire, nocturne),
+          pas juste l&apos;ambiance perçue.
         </aside>
       </div>
 

@@ -214,6 +214,12 @@ export default async function BruitPage({ params }: Props) {
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Trafic, vélo, transports en commun</div>
             </Card>
           </Link>
+          <Link href="/pour-qui/sensibles-au-bruit" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>🤫</span><span>Top villes pour sensibles au bruit</span></div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">Classement calibré exposition sonore + nature + air</div>
+            </Card>
+          </Link>
         </div>
 
         <div className="mt-8 text-sm">

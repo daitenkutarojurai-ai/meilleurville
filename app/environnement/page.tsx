@@ -259,6 +259,26 @@ export default function EnvironmentHubPage() {
           ))}
         </div>
 
+        {/* Profils sensibles */}
+        <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">
+          Vous êtes particulièrement exposé ?
+        </h2>
+        <p className="mt-2 text-sm text-[var(--text-secondary)] max-w-3xl">
+          L&apos;index environnemental agrège quatre dimensions à parts égales, mais tout le monde
+          n&apos;y est pas exposé de la même manière. Pour un télétravail enchaîné en visios ou un
+          nourrisson à endormir, la sonorité ambiante compte plus que la sécheresse d&apos;été ;
+          pour un asthmatique, l&apos;air ATMO passe devant tout le reste. Nous publions des
+          classements dédiés qui rebalancent les pondérations selon la sensibilité — voir le{" "}
+          <Link href="/pour-qui/sensibles-au-bruit" className="text-[var(--accent)] hover:underline">
+            top 20 villes pour les sensibles au bruit
+          </Link>{" "}
+          (pondération bruit ×3, nature ×2) ou le{" "}
+          <Link href="/pour-qui/asthmatiques-allergiques" className="text-[var(--accent)] hover:underline">
+            top 20 asthmatiques et allergiques
+          </Link>{" "}
+          (qualité de l&apos;air ×3, potentiel anti-canicule ×2).
+        </p>
+
         {/* Cross-links */}
         <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">
           Le quartet environnement par ville

@@ -121,6 +121,7 @@ const POUR_QUI_LINKS = [
   { slug: "jeunes-actifs", label: "Jeunes actifs", emoji: "🚀" },
   { slug: "sans-voiture", label: "Sans voiture", emoji: "🚲" },
   { slug: "expat-retour", label: "Expats de retour", emoji: "🌍" },
+  { slug: "sensibles-au-bruit", label: "Sensibles au bruit", emoji: "🤫" },
 ];
 
 export default function PortraitsTypesPage() {

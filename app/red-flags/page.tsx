@@ -148,6 +148,22 @@ export default function RedFlagsPage() {
               locatif introuvable, économies mono-touristiques (saison morte), fuite
               silencieuse des 25-35 ans et fiscalité immobilière la plus lourde (DGFiP / OFL).
             </p>
+            <p className="mt-3 text-sm text-[var(--text-secondary)]">
+              Ces angles sont universels ; pour une lecture calibrée sur un profil précis, croisez
+              plutôt avec le{" "}
+              <Link href="/pour-qui/sensibles-au-bruit" className="text-[var(--accent)] hover:underline">
+                classement villes pour sensibles au bruit
+              </Link>
+              , les{" "}
+              <Link href="/pour-qui/asthmatiques-allergiques" className="text-[var(--accent)] hover:underline">
+                villes pour asthmatiques et allergiques
+              </Link>{" "}
+              ou l&apos;ensemble des{" "}
+              <Link href="/pour-qui" className="text-[var(--accent)] hover:underline">
+                33 profils de vie
+              </Link>{" "}
+              qui repondèrent les axes selon ce qui compte pour vous.
+            </p>
           </div>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 auto-rows-fr">
             {RED_FLAG_THEMES.map((t) => (
