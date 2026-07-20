@@ -6,9 +6,9 @@ import { StaticPageCrossLink } from "@/components/StaticPageCrossLink";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Glossaire immobilier, fiscalité & aides",
+  title: "Glossaire immobilier, fiscalité, aides & rénovation",
   description:
-    "DPE, LMNP, TAEG, ZFE, APL, compromis, conditions suspensives, ERP, VEFA : les termes utiles pour louer, acheter ou déménager en France en 2026.",
+    "DPE, LMNP, TAEG, ZFE, APL, VEFA, MaPrimeRénov', CEE, éco-PTZ, RGE : les termes utiles pour louer, acheter, rénover ou déménager en France en 2026.",
   alternates: { canonical: "/glossaire" },
 };
 
@@ -425,6 +425,60 @@ const SECTIONS: Section[] = [
       {
         term: "VEFA (Vente en l'État Futur d'Achèvement)",
         def: "Achat sur plan d'un logement neuf à construire. L'acquéreur devient propriétaire au fur et à mesure des travaux et paie selon un échéancier réglementaire : 35 % à l'achèvement des fondations, 70 % à la mise hors d'eau, 95 % à l'achèvement, 5 % à la livraison (consignables en cas de réserves). Protégée par la garantie financière d'achèvement (GFA) et la garantie de parfait achèvement (1 an), biennale (2 ans), décennale (10 ans). Délai de réserve à signaler à la livraison : 1 mois. À distinguer du contrat de construction de maison individuelle (CCMI).",
+      },
+    ],
+  },
+  {
+    title: "Rénovation énergétique et aides travaux",
+    emoji: "⚡",
+    terms: [
+      {
+        term: "MaPrimeRénov'",
+        def: "Aide principale de l'État pour la rénovation énergétique des logements construits depuis plus de 15 ans. Deux parcours depuis 2024 : par geste (chauffage, isolation ponctuelle, ventilation) et parcours accompagné (rénovation d'ampleur, gain d'au moins deux classes DPE, accompagnateur Rénov' agréé obligatoire). Montants modulés selon quatre profils de revenus (Bleu très modestes, Jaune modestes, Violet intermédiaires, Rose supérieurs). Demande en ligne sur maprimerenov.gouv.fr avant tout démarrage de chantier — devis d'entreprise RGE obligatoire. Cumulable avec CEE, éco-PTZ et aides locales.",
+      },
+      {
+        term: "CEE (Certificats d'Économie d'Énergie)",
+        def: "Dispositif qui impose aux fournisseurs d'énergie (EDF, TotalEnergies, Engie, enseignes de carburants) de financer des économies d'énergie chez les particuliers, sous peine d'amende. Se traduit par des primes énergie (chèque, virement, remise en caisse) pour l'isolation, le chauffage, la ventilation ou un thermostat programmable. Cumulables avec MaPrimeRénov'. Deux niveaux : Coup de pouce (montants renforcés sur des gestes prioritaires) et CEE classique. Les offres varient d'un obligé à l'autre pour un même geste — comparer trois ou quatre devis avant de s'engager change souvent la prime de plusieurs centaines d'euros.",
+      },
+      {
+        term: "Éco-PTZ (éco-prêt à taux zéro)",
+        def: "Prêt sans intérêts jusqu'à 50 000 € pour une rénovation d'ampleur, 30 000 € pour un bouquet de trois travaux, ou 15 000 € pour un geste unique. Remboursable sur 20 ans maximum. Ouvert à tout propriétaire sans condition de ressources, pour une résidence principale de plus de deux ans. Cumulable avec MaPrimeRénov' et les CEE. Distribué par les banques partenaires, sur présentation de devis d'entreprises RGE. Prolongé jusqu'au 31 décembre 2027.",
+      },
+      {
+        term: "RGE (Reconnu Garant de l'Environnement)",
+        def: "Label obligatoire pour qu'une entreprise ouvre droit aux aides (MaPrimeRénov', CEE, éco-PTZ). Décliné par métier : Qualibat, Qualifelec, Qualit'EnR, Qualipac, RGE Éco-Artisan. Renouvellement tous les quatre ans, avec audit chantier. Vérifiable gratuitement sur france-renov.gouv.fr — un devis d'entreprise non RGE est disqualifiant, même pour des travaux parfaitement exécutés. Piège fréquent : un artisan qui sous-traite à une entreprise RGE ne suffit pas ; le titulaire du label doit signer le devis et émettre la facture.",
+      },
+      {
+        term: "Audit énergétique réglementaire",
+        def: "Étude obligatoire depuis avril 2023 avant la vente d'une maison individuelle ou d'un immeuble en monopropriété classé F ou G, étendue aux E depuis janvier 2025 et aux D à partir de 2034. Réalisée par un professionnel certifié, elle décrit l'état du bien et propose deux scénarios de travaux, dont un permettant d'atteindre au moins la classe B. Coût de 500 à 1 200 € à la charge du vendeur, valable cinq ans. Annexée à la promesse de vente au même titre que le DPE. À ne pas confondre avec l'audit énergétique incitatif du parcours MaPrimeRénov' accompagné, qui conditionne l'accès aux plafonds d'aide les plus élevés.",
+      },
+      {
+        term: "Passoire thermique",
+        def: "Logement classé F ou G au DPE — consommation supérieure à 330 kWh/m²/an d'énergie primaire. Interdit à la location neuve depuis 2025 pour les G, en 2028 pour les F et en 2034 pour les E. Loyer déjà non révisable depuis août 2022. En 2026, environ 4,8 millions de résidences principales concernées en France, dont près d'un tiers louées. Décote fréquente à la revente en zone détendue (5 à 15 % vs équivalent D). Sortie du statut : rénovation d'ampleur permettant un gain d'au moins deux classes, souvent 30 000 à 80 000 € de travaux selon la surface et l'état initial.",
+      },
+      {
+        term: "Pompe à chaleur (PAC)",
+        def: "Système de chauffage récupérant les calories de l'air (aérothermie), du sol (géothermie) ou de l'eau (aquathermie) pour chauffer un logement, avec un rendement de 3 à 5 kWh restitués par kWh consommé (coefficient de performance ou COP). Trois familles : air/air (climatisation réversible, ~5 000 à 10 000 € posée), air/eau (remplace une chaudière sur radiateurs ou plancher chauffant, 10 000 à 18 000 €), géothermie (18 000 à 30 000 €, très efficace mais chantier lourd avec captage). Aides possibles : MaPrimeRénov' jusqu'à 5 000 €, CEE Coup de pouce 2 500 à 4 000 €, éco-PTZ, TVA à 5,5 %. Rentabilité par rapport à une chaudière gaz : 6 à 10 ans avec les aides.",
+      },
+      {
+        term: "Isolation thermique (ITE vs ITI)",
+        def: "Deux techniques d'isolation des murs. Isolation par l'extérieur (ITE) : bardage ou enduit posé sur un isolant fixé au mur extérieur — préserve la surface habitable, supprime les ponts thermiques, mais coûte 130 à 200 €/m² et nécessite une déclaration préalable de travaux (modification d'aspect de façade). Isolation par l'intérieur (ITI) : contre-cloison isolante posée à l'intérieur, 40 à 90 €/m², perd 5 à 10 cm par mur traité, sans démarche administrative. En copropriété, l'ITE est votée collectivement (façade commune) et revient régulièrement à l'ordre du jour des AG. Aides MaPrimeRénov' : 15 à 75 €/m² selon revenus pour l'ITE, 15 à 25 €/m² pour l'ITI.",
+      },
+      {
+        term: "VMC (Ventilation Mécanique Contrôlée)",
+        def: "Système d'aération obligatoire dans tout logement neuf depuis l'arrêté du 24 mars 1982. Simple flux : extrait l'air vicié par les pièces humides et fait entrer l'air neuf par des entrées d'air en menuiserie (400 à 1 200 € posé). Double flux : récupère les calories de l'air extrait pour préchauffer l'air neuf entrant, avec un gain de 10 à 15 % sur la facture chauffage (3 000 à 6 000 € posé, éligible MaPrimeRénov' et CEE). Nettoyage obligatoire des bouches et gaines tous les trois à cinq ans — une VMC encrassée dégrade la qualité de l'air intérieur et favorise humidité, condensation et moisissures.",
+      },
+      {
+        term: "RE2020 (Réglementation Environnementale 2020)",
+        def: "Norme applicable à toute construction neuve depuis le 1ᵉʳ janvier 2022 pour le logement, et le 1ᵉʳ juillet 2022 pour les bureaux et l'enseignement. Trois exigences : sobriété énergétique renforcée (besoin bioclimatique Bbio abaissé d'environ 30 % par rapport à la RT 2012), réduction de l'empreinte carbone du bâtiment sur son cycle de vie (indicateurs Ic construction et Ic énergie) et confort d'été mesuré en degrés-heures d'inconfort. En pratique, le chauffage au gaz est de fait exclu en maison individuelle neuve (seuil carbone incompatible) — pompe à chaleur, réseau de chaleur ou solaire thermique s'imposent. Successeur de la RT 2012.",
+      },
+      {
+        term: "Coup de pouce chauffage et isolation",
+        def: "Renforcement temporaire des CEE sur des gestes prioritaires : remplacement d'une chaudière fioul ou gaz par une pompe à chaleur, une chaudière biomasse ou un raccordement à un réseau de chaleur, ou isolation des combles et planchers bas. Montants majorés (jusqu'à ~5 000 € pour une PAC air/eau chez les ménages modestes, plusieurs milliers d'euros pour l'isolation d'un plancher bas de maison). Cumulable avec MaPrimeRénov'. À manier avec méfiance : les offres à « 1 € » ont largement disparu, mais des variantes de démarchage agressif subsistent — ne jamais signer un devis présenté à domicile ou par téléphone sans le comparer.",
+      },
+      {
+        term: "Chèque énergie",
+        def: "Aide annuelle nominative envoyée par l'État aux foyers modestes, sous plafond de revenu fiscal de référence par unité de consommation. Montant compris entre ~48 € et ~277 € selon les revenus et la composition du foyer. Utilisable pour payer une facture d'électricité, de gaz, de fioul ou de bois, ou pour financer des travaux d'économies d'énergie sur facture d'artisan RGE. Validité un an, avec trois mois supplémentaires pour l'utiliser. Depuis 2024, l'attribution automatique aux nouveaux éligibles a été supprimée : demande à faire sur chequeenergie.gouv.fr si le chèque n'arrive pas alors que les revenus sont éligibles.",
       },
     ],
   },
