@@ -359,6 +359,21 @@ const EN_THEMES: EnTheme[] = [
       "Severity = sectorMix score + 1.5 if an explicit seaside / ski / thermal-spa tag applies (otherwise +1.0 for a coastal / ski tag) + 1.0 if population < 30,000 + 0.5 if overall score ≥ 6.5. Filter: population > 0 and ≤ 80,000, severity ≥ 6/10. Sources: MONO_TOURISM_DEPTS (INSEE 2024 sector-of-employment breakdown) + proprietary character tags (declared vocations).",
   },
   {
+    enSlug: "heavy-property-tax",
+    frSlug: "villes-fiscalite-lourde",
+    emoji: "🧾",
+    title: "Cities with the heaviest property tax burden",
+    metaTitle: "Heavy property tax 2026 — France's costliest cities to own",
+    metaDescription:
+      "2026 ranking of French cities where property tax and cadastral base compound: high DGFiP rates, tight-zone THRS surcharge, high €/m². Source DGFiP/OFL.",
+    intro:
+      "The brochure highlights the up-and-coming neighbourhood, the rare listing, the €/m² 'still reasonable'. Nobody produces the seller's latest property tax notice, mentions the town sits in a tight-supply zone (THRS surcharge up to +60% since 2023), or that transfer duties will add nearly 6% to the purchase price on signing day. Property taxation doesn't show up in a brochure — you discover it when the first tax bill arrives, six months after moving in.",
+    reality:
+      "We rank cities whose department falls into the `high` or `very high` bracket per `lib/tax` (DGFiP / Local Finance Observatory 2024), with Paris kept as a special case. Severity is then amplified by the median purchase price per m² (DVF / 2024 rent observatories) — a high rate on a low cadastral base is bearable; it's the 'high rate + high base' combination that really squeezes the first-time buyer. Bonuses apply when the town is in a tight-supply zone (THRS surcharge available) and when urban density pulls cadastral bases upward. All cities shown exceed 6.5/10 composite severity.",
+    methodology:
+      "Severity = base tier (`high` 6 / `very high` 8 / Paris 7.5) + price bonus (€3,000/m² → 0, €6,000/m² → +2) + 0.8 if tight-supply zone + max(0, log₁₀(pop/50,000) × 1.05) capped at +1.5. Clamped at 10/10, filtered to severity ≥ 6.5. Sources: DGFiP OFL yearbooks 2024 (average property-tax rates by dept), tight-zone decrees 2023 (THRS surcharge), DVF + rent observatories 2024 (€/m²), INSEE (population). Caveat: municipal property tax varies by ±30% around the dept average — always check the seller's actual notice before signing.",
+  },
+  {
     enSlug: "parking-nightmare",
     frSlug: "villes-parking-cauchemar",
     emoji: "🅿️",
