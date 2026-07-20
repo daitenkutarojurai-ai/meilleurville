@@ -12,7 +12,9 @@ import {
   BLOC_COLORS,
   BLOC_LABEL,
   BLOC_ORDER,
+  CANDIDATE_BY_KEY,
   type Bloc,
+  type CandidateKey,
 } from "@/lib/political-lean-meta";
 
 // One projected city, precomputed server-side. Deliberately a projection and
@@ -26,6 +28,8 @@ export type PoliticalDot = {
   x: number;
   y: number;
   r: number;
+  topCand: CandidateKey | null;
+  topCandPct: number;
 };
 
 type Selected = PoliticalDot | null;
@@ -205,8 +209,15 @@ export function PoliticalMap({
                   {sel.topPct}%
                 </span>
               </div>
-              <div className="mb-2 text-xs font-semibold" style={{ color: BLOC_COLORS[sel.lean] }}>
-                {BLOC_LABEL[locale][sel.lean]}
+              <div className="mb-2 flex flex-wrap items-baseline gap-x-2 text-xs">
+                <span className="font-semibold" style={{ color: BLOC_COLORS[sel.lean] }}>
+                  {BLOC_LABEL[locale][sel.lean]}
+                </span>
+                {sel.topCand && (
+                  <span className="text-[var(--text-tertiary)]">
+                    {CANDIDATE_BY_KEY[sel.topCand].name} {sel.topCandPct}%
+                  </span>
+                )}
               </div>
               <div className="flex h-2 w-full overflow-hidden rounded-full" aria-hidden>
                 {BLOC_ORDER.filter((b) => sel.blocs[b] > 0).map((b) => (

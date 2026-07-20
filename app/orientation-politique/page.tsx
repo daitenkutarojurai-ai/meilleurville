@@ -7,9 +7,13 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import {
   allPoliticalLeans,
   leanOptions,
+  meanCandidateShares,
+  topCandidates,
   BLOC_ORDER,
   BLOC_COLORS,
   BLOC_LABEL,
+  CANDIDATES,
+  CANDIDATE_BY_KEY,
   type Bloc,
 } from "@/lib/political-lean";
 import { inMetropolitanBox, project } from "@/lib/france-map-geo";
@@ -95,8 +99,12 @@ export default function OrientationPolitiquePage() {
       x: Math.round(x * 10) / 10,
       y: Math.round(y * 10) / 10,
       r: dotRadius(city.population),
+      topCand: c.topCand,
+      topCandPct: c.topCandPct,
     }];
   });
+
+  const candShares = meanCandidateShares();
 
   const itemListJsonLd = {
     "@context": "https://schema.org",
@@ -186,6 +194,85 @@ export default function OrientationPolitiquePage() {
           <PoliticalMap dots={dots} />
         </section>
 
+        {/* Détail par candidat — la question que tout le monde se pose avant
+            les blocs : qui est arrivé en tête, et avec quel parti */}
+        <section aria-labelledby="candidats">
+          <h2 id="candidats" className="mb-1 text-lg font-bold text-[var(--text-primary)]">
+            Le détail par candidat
+          </h2>
+          <p className="mb-4 text-sm text-[var(--text-secondary)]">
+            Les 12 candidats du 1ᵉʳ tour 2022 et leur score moyen sur les {all.length} villes du panel.
+          </p>
+          <ol className="space-y-1.5">
+            {candShares.map(({ key, pct }, i) => {
+              const cand = CANDIDATE_BY_KEY[key];
+              return (
+                <li
+                  key={key}
+                  className="flex items-center gap-3 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-2"
+                >
+                  <span className="w-4 shrink-0 text-right text-xs font-bold tabular-nums text-[var(--text-tertiary)]">
+                    {i + 1}
+                  </span>
+                  <span className="h-6 w-1.5 shrink-0 rounded-full" style={{ backgroundColor: cand.color }} aria-hidden />
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-baseline justify-between gap-2">
+                      <span className="truncate text-sm font-semibold text-[var(--text-primary)]">
+                        {cand.name}
+                      </span>
+                      <span className="shrink-0 text-sm font-bold tabular-nums" style={{ color: cand.color }}>
+                        {pct}%
+                      </span>
+                    </div>
+                    <div className="mt-1 flex items-center gap-2">
+                      <span className="shrink-0 text-[11px] text-[var(--text-tertiary)]">
+                        {cand.party} · {BLOC_LABEL.fr[cand.bloc]}
+                      </span>
+                      <span className="h-1.5 flex-1 overflow-hidden rounded-full bg-[var(--bg-elevated)]">
+                        <span
+                          className="block h-full rounded-full"
+                          style={{ width: `${Math.min(100, pct * 2.5)}%`, backgroundColor: cand.color }}
+                        />
+                      </span>
+                    </div>
+                  </div>
+                </li>
+              );
+            })}
+          </ol>
+          <p className="mt-3 text-[11px] text-[var(--text-tertiary)]">
+            Moyenne non pondérée : chaque ville compte pour une, quelle que soit sa taille. Les barres sont
+            à l&apos;échelle 0–40 % pour rester lisibles. Ce n&apos;est pas le résultat national.
+          </p>
+        </section>
+
+        {/* Composition des blocs — la page parlait de « familles » sans jamais
+            dire qui est dedans */}
+        <section aria-labelledby="composition">
+          <h2 id="composition" className="mb-3 text-lg font-bold text-[var(--text-primary)]">
+            Qui compose chaque famille
+          </h2>
+          <div className="grid gap-3 sm:grid-cols-2">
+            {BLOC_ORDER.map((b) => (
+              <div key={b} className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4">
+                <div className="mb-2 flex items-center gap-2">
+                  <span className="inline-block h-3 w-3 rounded-sm" style={{ backgroundColor: BLOC_COLORS[b] }} />
+                  <span className="text-sm font-semibold text-[var(--text-primary)]">{BLOC_LABEL.fr[b]}</span>
+                </div>
+                <ul className="space-y-1">
+                  {CANDIDATES.filter((c) => c.bloc === b).map((c) => (
+                    <li key={c.key} className="flex items-baseline gap-2 text-xs text-[var(--text-secondary)]">
+                      <span className="inline-block h-2 w-2 shrink-0 translate-y-px rounded-full" style={{ backgroundColor: c.color }} aria-hidden />
+                      <span className="font-medium text-[var(--text-primary)]">{c.name}</span>
+                      <span className="text-[var(--text-tertiary)]">{c.partyShort}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </section>
+
         {/* Classements par bloc */}
         {options.map((bloc) => {
           const cities = byBloc.get(bloc) ?? [];
@@ -223,6 +310,20 @@ export default function OrientationPolitiquePage() {
                           </div>
                           <div className="mt-1.5">
                             <LeanBar blocs={c.blocs} />
+                          </div>
+                          <div className="mt-1.5 flex flex-wrap gap-x-2.5 gap-y-0.5 text-[11px] text-[var(--text-tertiary)]">
+                            {topCandidates(c, 3).map(({ key, pct }) => {
+                              const cand = CANDIDATE_BY_KEY[key];
+                              return (
+                                <span key={key} className="whitespace-nowrap">
+                                  <span className="font-medium" style={{ color: cand.color }}>
+                                    {cand.short}
+                                  </span>{" "}
+                                  {pct}%
+                                </span>
+                              );
+                            })}
+                            <span className="whitespace-nowrap">abst. {c.turnout.abstentionPct}%</span>
                           </div>
                         </div>
                       </Link>
