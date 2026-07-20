@@ -21,3 +21,4 @@ Les données factuelles (chiffres, scores, noms) ne sont jamais modifiées.
 - 2026-07-17 app/guides/[slug]/page.tsx :: vivre-sans-voiture-france-guide-2025
 - 2026-07-18 app/guides/[slug]/page.tsx :: meilleures-villes-jeunes-actifs-france-2025
 - 2026-07-19 app/guides/[slug]/page.tsx :: vivre-bord-mer-france-guide
+- 2026-07-20 app/guides/[slug]/page.tsx :: paris-province-guide-demenagement-2025
