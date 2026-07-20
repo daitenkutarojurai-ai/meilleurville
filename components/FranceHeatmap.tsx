@@ -156,11 +156,13 @@ const CityDotLayer = memo(function CityDotLayer({
   dots,
   mounted,
   locale,
+  coarse,
   onHover,
 }: {
   dots: Dot[];
   mounted: boolean;
   locale: "fr" | "en";
+  coarse: boolean;
   onHover: (h: HoverState | null) => void;
 }) {
   const cityHref = (slug: string) => (locale === "en" ? `/cities/${slug}` : `/villes/${slug}`);
@@ -193,13 +195,28 @@ const CityDotLayer = memo(function CityDotLayer({
               transformOrigin: `${d.x}px ${d.y}px`,
               "--fhd": `${d.delay}ms`,
             } as React.CSSProperties}
-            onMouseEnter={() => onHover(hoverPayload)}
-            onMouseLeave={() => onHover(null)}
+            // On touch there is no hover state to preview with: a tap would go
+            // straight to the city page, and the dots are dense enough that the
+            // one you hit is often not the one you aimed at. So the first tap
+            // opens the card, and the card itself is the link.
+            onClick={
+              coarse
+                ? (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    onHover(hoverPayload);
+                  }
+                : undefined
+            }
+            onMouseEnter={coarse ? undefined : () => onHover(hoverPayload)}
+            onMouseLeave={coarse ? undefined : () => onHover(null)}
             onFocus={() => onHover(hoverPayload)}
             onBlur={() => onHover(null)}
           >
-            <circle cx={d.x} cy={d.y} r={d.r * 2.6} fill={d.color} opacity="0.18" filter="url(#dotGlow)" />
-            <circle cx={d.x} cy={d.y} r={d.r * 1.6} fill={d.color} opacity="0.35" />
+            {/* The glow halo is decoration; leaving it hit-testable makes each
+                dot a r*2.6 target that swallows its neighbours' taps. */}
+            <circle cx={d.x} cy={d.y} r={d.r * 2.6} fill={d.color} opacity="0.18" filter="url(#dotGlow)" pointerEvents="none" />
+            <circle cx={d.x} cy={d.y} r={d.r * 1.6} fill={d.color} opacity="0.35" pointerEvents={coarse ? "none" : undefined} />
             <circle cx={d.x} cy={d.y} r={d.r} fill={d.color} stroke="white" strokeWidth="1" />
           </a>
         );
@@ -225,6 +242,9 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities,
   const [scoreKey, setScoreKey] = useState<ScoreKey>("global");
   const [view, setView] = useState<"cities" | "regions" | "departments">("cities");
   const [mounted, setMounted] = useState(false);
+  // Set after mount, not during render: the dots are prerendered and a
+  // server/client disagreement on their handlers would be a hydration error.
+  const [coarse, setCoarse] = useState(false);
   const mapRef = useRef<HTMLDivElement | null>(null);
   const svgRef = useRef<SVGSVGElement | null>(null);
 
@@ -233,12 +253,23 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities,
     return () => clearTimeout(t);
   }, []);
 
+  useEffect(() => {
+    const mq = window.matchMedia("(hover: none)");
+    setCoarse(mq.matches);
+    const onChange = (e: MediaQueryListEvent) => setCoarse(e.matches);
+    mq.addEventListener("change", onChange);
+    return () => mq.removeEventListener("change", onChange);
+  }, []);
+
   // Cursor spotlight on the map surface
   useEffect(() => {
     const el = mapRef.current;
     if (!el) return;
     function onMove(e: PointerEvent) {
       if (!el) return;
+      // Touch drags over the map are scrolls, not aim — tracking them makes the
+      // spotlight lurch under the finger on every swipe.
+      if (e.pointerType !== "mouse") return;
       const rect = el.getBoundingClientRect();
       const x = ((e.clientX - rect.left) / rect.width) * 100;
       const y = ((e.clientY - rect.top) / rect.height) * 100;
@@ -498,6 +529,7 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities,
               className="relative w-full h-auto"
               role="img"
               aria-label={L("Carte de France des villes notées", "Map of France with rated cities")}
+              onClick={coarse ? () => setHover(null) : undefined}
             >
               <defs>
                 <radialGradient id="franceFill" cx="50%" cy="40%" r="60%">
@@ -726,7 +758,7 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities,
 
               {/* City dots — staggered fade-in, click to open city */}
               {view === "cities" && (
-                <CityDotLayer dots={dots} mounted={mounted} locale={locale} onHover={setHover} />
+                <CityDotLayer dots={dots} mounted={mounted} locale={locale} coarse={coarse} onHover={setHover} />
               )}
 
               {/* Region aggregate bubbles — one per metropolitan region */}
@@ -846,8 +878,15 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities,
                       </div>
                     ))}
                   </div>
-                  <div className="mt-3 pt-3 border-t border-[var(--border)]/60 text-xs text-[var(--accent)] font-semibold">
-                    {L("Voir la fiche complète →", "See the full profile →")}
+                  <div className="mt-3 pt-3 border-t border-[var(--border)]/60 flex items-center justify-between gap-2">
+                    <span className="text-xs text-[var(--accent)] font-semibold">
+                      {L("Voir la fiche complète →", "See the full profile →")}
+                    </span>
+                    {coarse && (
+                      <span className="text-[10px] text-[var(--text-tertiary)] shrink-0">
+                        {L("Touchez la carte pour fermer", "Tap the map to close")}
+                      </span>
+                    )}
                   </div>
                 </Link>
               );

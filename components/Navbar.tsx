@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
 import {
   Menu, X, Search,
-  Globe2, BarChart3, Scale, Heart,
+  Globe2, BarChart3, Scale, Heart, Vote,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { Button } from "@/components/ui/Button";
@@ -191,12 +191,14 @@ const BOTTOM_TABS_FR: BottomTab[] = [
   { label: "Top",     href: "/classements", icon: BarChart3, matchPrefix: "/classements" },
   { label: "City Match",    href: "/city-match",        icon: Heart,  matchPrefix: "/city-match" },
   { label: "VS",      href: "/comparer",    icon: Scale,     matchPrefix: "/comparer" },
+  { label: "Politique", href: "/orientation-politique", icon: Vote, matchPrefix: "/orientation-politique" },
 ];
 const BOTTOM_TABS_EN: BottomTab[] = [
   { label: "Cities",   href: "/cities",   icon: Globe2,    matchPrefix: "/cities" },
   { label: "Rankings", href: "/rankings", icon: BarChart3, matchPrefix: "/rankings" },
   { label: "City Match",     href: "/city-match",     icon: Heart,  matchPrefix: "/city-match" },
   { label: "Compare",  href: "/compare",  icon: Scale,     matchPrefix: "/compare" },
+  { label: "Politics", href: "/political-leaning", icon: Vote, matchPrefix: "/political-leaning" },
 ];
 
 const NAV_PRIMARY = IS_EN ? NAV_PRIMARY_EN : NAV_PRIMARY_FR;
@@ -461,7 +463,7 @@ export function Navbar() {
         aria-label={IS_EN ? "Primary" : "Navigation principale"}
         className="lg:hidden fixed inset-x-0 bottom-0 z-50 border-t border-[var(--border)]/70 bg-[var(--bg-canvas)]/90 backdrop-blur-xl pb-[env(safe-area-inset-bottom)]"
       >
-        <div className="mx-auto grid max-w-md grid-cols-5">
+        <div className="mx-auto grid max-w-lg grid-cols-6">
           {BOTTOM_TABS.map((tab) => {
             const active = isActivePath(tab.matchPrefix, pathname);
             const Icon = tab.icon;
@@ -471,12 +473,12 @@ export function Navbar() {
                 href={tab.href}
                 aria-current={active ? "page" : undefined}
                 className={cn(
-                  "flex flex-col items-center justify-center gap-0.5 py-2 text-[10px] font-medium transition-colors",
+                  "flex flex-col items-center justify-center gap-0.5 px-0.5 py-2 text-[9px] leading-tight font-medium transition-colors",
                   active ? "text-[var(--accent)]" : "text-[var(--text-tertiary)] hover:text-[var(--text-secondary)]"
                 )}
               >
-                <Icon className="h-5 w-5" strokeWidth={active ? 2.4 : 2} />
-                {tab.label}
+                <Icon className="h-5 w-5 shrink-0" strokeWidth={active ? 2.4 : 2} />
+                <span className="w-full truncate text-center">{tab.label}</span>
               </Link>
             );
           })}
@@ -486,11 +488,11 @@ export function Navbar() {
             aria-label={IS_EN ? "Open menu" : "Ouvrir le menu"}
             aria-expanded={open}
             className={cn(
-              "flex flex-col items-center justify-center gap-0.5 py-2 text-[10px] font-medium transition-colors",
+              "flex flex-col items-center justify-center gap-0.5 px-0.5 py-2 text-[9px] leading-tight font-medium transition-colors",
               open ? "text-[var(--accent)]" : "text-[var(--text-tertiary)] hover:text-[var(--text-secondary)]"
             )}
           >
-            <Menu className="h-5 w-5" />
+            <Menu className="h-5 w-5 shrink-0" />
             Menu
           </button>
         </div>

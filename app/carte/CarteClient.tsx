@@ -272,6 +272,7 @@ export function CarteClient({
     if (!el) return;
     function onMove(e: PointerEvent) {
       if (!el) return;
+      if (e.pointerType !== "mouse") return;
       const rect = el.getBoundingClientRect();
       el.style.setProperty("--mx", `${((e.clientX - rect.left) / rect.width) * 100}%`);
       el.style.setProperty("--my", `${((e.clientY - rect.top) / rect.height) * 100}%`);
