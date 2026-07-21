@@ -308,7 +308,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
             aria-labelledby="city-tab-overview"
             className="grid gap-6 lg:grid-cols-3">
             {/* Scores */}
-            <div className="lg:col-span-2 space-y-6">
+            <div className="lg:col-span-2 space-y-6 min-w-0">
               {/* Summary — intro + pros/cons + notable */}
               <Card className="card-sheen">
                 <div className="mb-6 rounded-2xl border-l-[3px] border-[var(--accent)] bg-gradient-to-br from-[var(--accent)]/[0.06] via-transparent to-[var(--accent-warm)]/[0.04] py-4 pl-5 pr-4">
@@ -622,7 +622,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 an empty middle band on scroll. Now displayed as a balanced grid
                 so the page reads as one block on desktop and stacks cleanly
                 on mobile. */}
-            <div className="lg:col-span-3">
+            <div className="lg:col-span-3 min-w-0">
               <h2 className="font-display text-2xl text-[var(--text-primary)] mb-1">
                 {L("Données", "Data")} &amp; {L("analyse", "analysis")}
               </h2>
@@ -631,7 +631,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
               </p>
 
               <SectionRule emoji="🛡️" label={L("Sécurité & société", "Safety & society")} first />
-              <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+              <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3 [&>*]:min-w-0">
                 <SafetyDeepCard city={city} locale={locale} />
                 <DemographyCard city={city} locale={locale} />
                 <HealthcareCard city={city} locale={locale} />
@@ -639,13 +639,13 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
               </div>
 
               <SectionRule emoji="🏡" label={L("Logement, coût & emploi", "Housing, cost & jobs")} />
-              <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+              <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3 [&>*]:min-w-0">
                 <RentVsBuyCard citySlug={city.slug} data={data.rentVsBuy} locale={locale} />
                 <EmploymentCard city={city} locale={locale} />
               </div>
 
               <SectionRule emoji="🌍" label={L("Climat & environnement", "Climate & environment")} />
-              <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+              <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3 [&>*]:min-w-0">
                 <Climate2040Card city={city} locale={locale} />
                 <NaturalRisksCard city={city} locale={locale} />
                 <WaterStressCard city={city} locale={locale} />
@@ -656,7 +656,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
               </div>
 
               <SectionRule emoji="🧭" label={L("Repères & classements", "Benchmarks & rankings")} />
-              <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+              <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3 [&>*]:min-w-0">
                 <DistancesCard city={city} locale={locale} />
                 <GeographicNeighborsCard cityName={city.name} neighbors={data.geoNeighbors} locale={locale} />
                 <Card>
@@ -698,14 +698,14 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 right rail but inflated it past main column height, leaving an
                 empty middle band on scroll. Now displayed prominently for
                 discovery + better balance. */}
-            <div className="lg:col-span-3">
+            <div className="lg:col-span-3 min-w-0">
               <h2 className="text-base font-semibold text-[var(--text-primary)] mb-3">
                 {L(`Explorer ${city.name} en détail`, `Explore ${city.name} in detail`)}
               </h2>
               <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
                 <a
                   href={sub("quartiers", "neighbourhoods")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -719,7 +719,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("climat", "climate")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -733,7 +733,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("transports", "transport")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -747,7 +747,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("ecoles", "schools")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -761,7 +761,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("fiscalite", "tax")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -775,7 +775,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("saisons", "seasons")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -789,7 +789,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("teletravail", "remote-work")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -803,7 +803,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("cout-de-la-vie", "cost-of-living")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -817,7 +817,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={locale === "en" ? `/household-cost/${city.slug}` : `/cout-menage/${city.slug}`}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -831,7 +831,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("risques", "natural-risks")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -845,7 +845,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("eau", "water")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -859,7 +859,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("air", "air-quality")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -873,7 +873,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("bruit", "noise")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -887,7 +887,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("sante", "healthcare")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -901,7 +901,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("emploi", "employment")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -915,7 +915,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("velo", "cycling")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -929,7 +929,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("securite", "safety")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -943,7 +943,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("demographie", "demographics")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -958,7 +958,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 {locale !== "en" && (
                   <a
                     href={`/villes/${city.slug}/commerces`}
-                    className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                    className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                   >
                     <div className="min-w-0">
                       <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -973,7 +973,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 )}
                 <a
                   href={sub("statistiques", "statistics")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -987,7 +987,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("services-publics", "public-services")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -1001,7 +1001,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("a-faire", "things-to-do")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -1015,7 +1015,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("sport", "sports-leisure")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -1029,7 +1029,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("avis-honnete", "honest-review")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -1043,7 +1043,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("louer-ou-acheter", "own-vs-rent")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -1057,7 +1057,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("climat-2040", "climate-2040")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -1071,7 +1071,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={locale === "en" ? `/vacations/${city.slug}` : `/vacances/${city.slug}`}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -1085,7 +1085,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("s-installer", "get-settled")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -1099,7 +1099,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("connexion-internet", "internet-quality")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -1113,7 +1113,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("logement", "housing")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -1127,7 +1127,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("tension-locative", "rental-market")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -1141,7 +1141,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("profils", "profiles")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -1155,7 +1155,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("questions", "questions")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -1169,7 +1169,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("agenda", "calendar")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -1183,7 +1183,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("mentalite-locale", "local-mindset")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -1197,7 +1197,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("vibe", "vibe")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -1225,7 +1225,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 </a>
                 <a
                   href={sub("empreinte", "fingerprint")}
-                  className="flex items-center justify-between rounded-xl border border-[var(--accent)]/30 bg-gradient-to-br from-[var(--accent)]/10 to-[var(--bg-surface)] hover:border-[var(--accent)] hover:shadow-md transition-all px-5 py-4 group sm:col-span-2 lg:col-span-1"
+                  className="flex items-center justify-between rounded-xl border border-[var(--accent)]/30 bg-gradient-to-br from-[var(--accent)]/10 to-[var(--bg-surface)] hover:border-[var(--accent)] hover:shadow-md transition-all px-5 py-4 group sm:col-span-2 lg:col-span-1 min-w-0"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -1240,7 +1240,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 {locale === "fr" && (
                   <a
                     href={`/badge/${city.slug}`}
-                    className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group sm:col-span-2 lg:col-span-1"
+                    className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group sm:col-span-2 lg:col-span-1 min-w-0"
                   >
                     <div className="min-w-0">
                       <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">

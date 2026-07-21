@@ -231,7 +231,7 @@ export function HeroSection({
                   placeholder={L("Quelle ville vous fait rêver ?", "Which city are you dreaming of?")}
                   aria-label={L("Rechercher une ville", "Search for a city")}
                   data-search-shortcut
-                  className="flex-1 bg-transparent py-2 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-tertiary)] outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] rounded-md"
+                  className="min-w-0 flex-1 bg-transparent py-2 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-tertiary)] outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] rounded-md"
                   autoComplete="off"
                 />
                 <Button type="submit" size="sm">

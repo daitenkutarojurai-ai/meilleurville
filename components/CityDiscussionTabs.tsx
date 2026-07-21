@@ -30,7 +30,7 @@ export function CityDiscussionTabs({ citySlug, cityName, locale = "fr" }: CityDi
       <div
         role="tablist"
         aria-label={L("Sections discussion", "Discussion sections")}
-        className="mb-6 inline-flex rounded-xl border border-[var(--border)] bg-[var(--bg-elevated)] p-1 gap-1"
+        className="mb-6 inline-flex max-w-full flex-wrap rounded-xl border border-[var(--border)] bg-[var(--bg-elevated)] p-1 gap-1"
       >
         {tabs.map((tab) => (
           <button

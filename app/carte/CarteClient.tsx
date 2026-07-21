@@ -458,11 +458,11 @@ export function CarteClient({
           <div className="grain rounded-3xl" style={{ opacity: 0.18, mixBlendMode: "overlay" }} />
 
           <div className="relative">
-            <div className="mb-2 flex items-center justify-between gap-3">
+            <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
               <div className="text-[11px] uppercase tracking-widest text-[#84CC16]/80 font-semibold">
                 {currentLabel} · {view === "regions" ? `${regionAgg.length} régions` : view === "departements" ? `${deptAgg.length} départements` : `${sorted.length} villes`}
               </div>
-              <div className="flex items-center gap-2">
+              <div className="flex flex-wrap items-center gap-2">
                 {/* Villes / Régions layer toggle */}
                 <div className="inline-flex rounded-full border border-[#84CC16]/20 bg-white/5 p-0.5 text-[10px] font-bold uppercase tracking-widest">
                   {(["villes", "departements", "regions"] as const).map((v) => (

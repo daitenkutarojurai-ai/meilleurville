@@ -244,6 +244,7 @@ télétravail × 0.08
             quand la donnée commune manque). Aucune donnée silencieusement fabriquée.
           </p>
           <Card>
+            <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
                 <tr className="border-b border-[var(--border)]">
@@ -265,6 +266,7 @@ télétravail × 0.08
                 ))}
               </tbody>
             </table>
+            </div>
             <p className="mt-4 text-xs text-[var(--text-tertiary)]">
               v0 : les feeds réels (Météo-France ARPEGE, Insee, Bruitparif, SSMSI VFFS,
               ATMO, ARCEP, DEPP, CAF, SIRENE) seront branchés itération par itération.
