@@ -704,7 +704,12 @@ async function handleAlertesList(request: Request): Promise<Response> {
   });
 }
 
-function handleCitiesSearch(url: URL): Response {
+function handleCitiesSearch(request: Request, url: URL): Response {
+  const ip = getClientIp(request.headers);
+  const throttle = rateLimit(`search:${ip}`, 30, 60_000);
+  if (!throttle.allowed)
+    return json({ error: "Trop de requêtes." }, { status: 429, headers: { "Retry-After": String(throttle.retryAfterSeconds) } });
+
   const q = url.searchParams.get("q")?.toLowerCase().trim() ?? "";
   const limit = Math.min(parseInt(url.searchParams.get("limit") ?? "8"), 20);
   if (q.length < 1) return json({ results: [] });
@@ -774,7 +779,7 @@ export default {
       if (path === "/api/alertes/confirm" && method === "GET") return await handleAlertesConfirm(url);
       if (path === "/api/alertes/unsubscribe" && method === "GET") return await handleAlertesUnsubscribe(url);
       if (path === "/api/alertes/list" && method === "GET") return await handleAlertesList(request);
-      if (path === "/api/cities/search" && method === "GET") return handleCitiesSearch(url);
+      if (path === "/api/cities/search" && method === "GET") return handleCitiesSearch(request, url);
 
       // ── Accounts (Worker-native magic-link auth — R9.1) ──
       if (path === "/api/auth/request-link" && method === "POST") return await handleAuthRequestLink(request, locale);
