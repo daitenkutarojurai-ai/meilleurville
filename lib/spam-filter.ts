@@ -3,31 +3,47 @@
  * Returns reasons; caller decides whether to reject or quarantine.
  */
 
-// FR profanity + insults. Lower-case, normalised. Variations covered: with/without
-// accent, with/without space. Word-substring matching so "enculé" catches "enculé(e)",
-// "encules", etc. Reviewed 2026-05-16 for false-positive risk on city names — none of
-// these strings appear in any of the 352 city slugs.
-const PROFANITY = [
+/**
+ * Matching is **word-boundary aware and diacritic-insensitive**, never a raw
+ * substring test. Substring matching rejected ordinary French: "habite" hit
+ * "bite", "balcon" hit "con", "connexion" hit "conne", "unique"/"technique"/
+ * "clinique" hit "nique", "dispute" hit "pute", "fichier" hit "chier". On a
+ * site whose whole point is residents describing where they live, that killed
+ * most legitimate reviews.
+ *
+ * Because the body is normalised (accents stripped) before matching, each entry
+ * is written unaccented: "encule" also catches "enculé". Inflections are listed
+ * explicitly rather than inferred, so the blocklist stays auditable.
+ */
+const PROFANITY_WORDS = [
   // insultes courantes
-  "connard", "connasse", "conne", "con ", " con,", " con.", " con!", " con?", " con-",
-  "salope", "salaud", "saloperie", "salopard",
-  "pute", "putain", "putes",
-  "encule", "enculé", "encul",
-  "fdp", "fils de p", "fils de chien",
-  "ntm", "nique", "niquer", "nique ta", "nique sa",
-  "ta mère", "ta mere", "tamere",
+  "con", "cons", "conne", "connes", "connard", "connards", "connasse", "connasses",
+  "salope", "salopes", "salaud", "salauds", "saloperie", "saloperies", "salopard", "salopards",
+  "pute", "putes", "putain", "putains",
+  "encul", "encule", "encules", "enculee", "enculees", "enculer",
+  "fdp", "ntm",
+  "nique", "niques", "niquer", "niquee",
+  "tamere",
   "bite", "bites", "couille", "couilles",
-  "merde", "merdeux", "merdique",
-  "chiotte", "chier", "chiez",
-  "tg ", "ta gueule", "ferme ta gueule", "fermes ta gueule",
+  "merde", "merdes", "merdeux", "merdique", "merdiques",
+  "chiotte", "chiottes", "chier", "chiez",
+  "tg",
   // injures racistes / homophobes — bloquées strictement
-  "negre", "nègre", "negres", "bougnoul", "bicot", "youpin",
-  "pédé", "pede", "tapette", "tarlouze",
-  "gouine", "tafiole",
+  "negre", "negres", "negresse", "bougnoul", "bougnoule", "bougnoules",
+  "bicot", "bicots", "youpin", "youpins",
+  "pede", "pedes", "tapette", "tapettes", "tarlouze", "tarlouzes",
+  "gouine", "gouines", "tafiole", "tafioles",
   // injures grossières orthographe variée
-  "batard", "bâtard", "batards", "bâtards",
-  "trou du cul", "trou duc", "trouduc",
-  "salopette", // false-pos? aussi nom commun, mais usage rare
+  "batard", "batards", "batarde", "batardes",
+  "trouduc", "trouducs",
+];
+
+// Multi-word / deliberately truncated patterns. Anchored at a word start but
+// with no trailing boundary, so "fils de p" still catches "fils de pute".
+const PROFANITY_PHRASES = [
+  "ta mere", "ta gueule", "ferme ta gueule", "fermes ta gueule",
+  "fils de p", "fils de chien",
+  "trou du cul", "trou duc",
 ];
 
 const SPAM_KEYWORDS = [
@@ -35,8 +51,9 @@ const SPAM_KEYWORDS = [
   "viagra", "cialis", "kamagra",
   // adult
   "porn", "porno", "porno gratuit", "xxx", "sex cam", "camgirl",
-  // gambling
-  "casino", "casino en ligne", "paris sportif", "betting",
+  // gambling — NOT bare "casino": it's a real amenity in the spa towns we cover
+  // (Vichy, Évian, Aix-les-Bains) and a major French supermarket chain.
+  "casino en ligne", "paris sportif", "betting",
   // crypto / scam
   "crypto", "bitcoin", "btc giveaway", "ethereum giveaway", "nft drop", "airdrop",
   "doublez votre", "double your", "guaranteed roi", "roi garanti",
@@ -72,6 +89,24 @@ const GIBBERISH_RE = /[bcdfghjklmnpqrstvwxz]{8,}/i;
 // Repeated word spam: same word repeated 4+ times consecutively.
 const REPEATED_WORD_RE = /\b(\w{2,})(?:\s+\1\b){3,}/i;
 
+/** Lowercase + strip diacritics, so "enculé" and "encule" match the same entry. */
+function normalize(s: string): string {
+  return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+}
+
+const escapeRe = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+// `\p{L}` lookarounds rather than `\b`: `\b` treats an accented letter as a word
+// boundary, which would let "enculé" slip through as "encul" + boundary.
+const PROFANITY_WORD_RE = new RegExp(
+  `(?<!\\p{L})(?:${PROFANITY_WORDS.map(escapeRe).join("|")})(?!\\p{L})`,
+  "u",
+);
+const PROFANITY_PHRASE_RE = new RegExp(
+  `(?<!\\p{L})(?:${PROFANITY_PHRASES.map(escapeRe).join("|")})`,
+  "u",
+);
+
 const COMMENT_HISTORY = new Map<string, { body: string; at: number }>();
 
 export interface SpamCheck {
@@ -90,11 +125,12 @@ export interface SpamCheck {
 export function checkContent(input: { author: string; body: string }): SpamCheck {
   const body = input.body.trim();
   const lower = body.toLowerCase();
+  const normalized = normalize(body);
 
   if (URL_RE.test(body)) {
     return { ok: false, reason: "Les liens ne sont pas autorisés." };
   }
-  if (PROFANITY.some((w) => lower.includes(w))) {
+  if (PROFANITY_WORD_RE.test(normalized) || PROFANITY_PHRASE_RE.test(normalized)) {
     return { ok: false, reason: "Propos non autorisés (insultes)." };
   }
   if (SPAM_KEYWORDS.some((w) => lower.includes(w))) {
