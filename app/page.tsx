@@ -136,7 +136,7 @@ export default function HomePage() {
                 <Link
                   key={`${slugA}-${slugB}`}
                   href={`/comparer/${slugA}-vs-${slugB}`}
-                  className="group flex items-center justify-between rounded-xl border border-[var(--border)] bg-gradient-to-b from-[var(--bg-surface)] to-[var(--bg-elevated)]/40 ring-1 ring-black/[0.03] hover:border-[var(--accent)]/40 hover:shadow-lg hover:-translate-y-0.5 transition-all px-4 py-3"
+                  className="group flex min-w-0 items-center justify-between rounded-xl border border-[var(--border)] bg-gradient-to-b from-[var(--bg-surface)] to-[var(--bg-elevated)]/40 ring-1 ring-black/[0.03] hover:border-[var(--accent)]/40 hover:shadow-lg hover:-translate-y-0.5 transition-all px-4 py-3"
                 >
                   <div className="flex items-center gap-3 min-w-0">
                     <span className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors truncate">

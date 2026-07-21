@@ -217,8 +217,10 @@ export function HeroSection({
           </p>
         </FadeBlurIn>
 
-        <FadeBlurIn delay={0.4}>
-          <div ref={containerRef} className="relative mb-7 mx-auto max-w-xl">
+        {/* w-full: FadeBlurIn's span is inline-block, so without it the search
+            bar shrink-to-fits to the input's intrinsic width and overflows at 320px. */}
+        <FadeBlurIn delay={0.4} className="w-full">
+          <div ref={containerRef} className="relative mb-7 mx-auto w-full max-w-xl">
             <form onSubmit={handleSearch}>
               <div className="group flex items-center gap-2 rounded-2xl glass-strong p-2 shadow-2xl shadow-[var(--accent)]/10 ring-1 ring-white/40 transition-all focus-within:shadow-[var(--accent)]/25 focus-within:ring-[var(--accent)]/30">
                 <Search className="ml-2 h-5 w-5 flex-shrink-0 text-[var(--text-secondary)] transition-transform group-focus-within:scale-110" />
