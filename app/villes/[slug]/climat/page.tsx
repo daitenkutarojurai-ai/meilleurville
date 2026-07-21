@@ -311,6 +311,41 @@ export default async function ClimatPage({ params }: Props) {
         </div>
       </section>
 
+      {/* Heating cost red-flag — only for cities where winter actually bites:
+          mountain, semi-continental (Grand Est, Bourgogne), or plaine where
+          the January mean falls to 3 °C or below. The link contextualises
+          "climat froid" with the concrete facture ADEME/salaire dept. */}
+      {(climate.id === "mountain" ||
+        climate.id === "semi-continental" ||
+        (city.avgTempJanuary != null && city.avgTempJanuary <= 3)) && (
+        <section className="relative pb-8">
+          <div className="mx-auto max-w-5xl px-4 sm:px-6">
+            <Link
+              href="/red-flags/villes-chauffage-hivernal-couteux"
+              className="block rounded-2xl border border-orange-200/60 bg-orange-50/40 p-5 hover:border-orange-300 hover:bg-orange-50/60 transition-colors"
+            >
+              <div className="flex items-start gap-3">
+                <span className="text-2xl flex-shrink-0" aria-hidden>🥶</span>
+                <div>
+                  <div className="text-xs uppercase tracking-widest text-orange-700 font-semibold mb-1">
+                    Red flag associé
+                  </div>
+                  <p className="font-semibold text-[var(--text-primary)]">
+                    Villes où le chauffage hivernal pèse le plus sur le salaire local
+                  </p>
+                  <p className="text-xs text-[var(--text-secondary)] mt-1 leading-relaxed">
+                    Avec {city.avgTempJanuary ?? "un"} °C de moyenne en janvier{city.elevation && city.elevation >= 400 ? ` et ${city.elevation} m d'altitude` : ""},
+                    {" "}{city.name} entre dans la zone où la facture ADEME d&apos;un T2 peut peser
+                    lourd sur le salaire net médian départemental — voir le classement des
+                    villes les plus exposées à la précarité énergétique hivernale.
+                  </p>
+                </div>
+              </div>
+            </Link>
+          </div>
+        </section>
+      )}
+
       {/* Sunshine ranking */}
       {sunRank && (
         <section className="relative pb-8">

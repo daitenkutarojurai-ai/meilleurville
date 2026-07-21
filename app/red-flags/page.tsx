@@ -164,6 +164,16 @@ export default function RedFlagsPage() {
               </Link>{" "}
               qui repondèrent les axes selon ce qui compte pour vous.
             </p>
+            <p className="mt-2 text-sm text-[var(--text-secondary)]">
+              Certains red flags se déclenchent surtout sur un revenu fixe : la facture
+              énergétique est le cas d&apos;école. Le classement des{" "}
+              <Link href="/red-flags/villes-chauffage-hivernal-couteux" className="text-[var(--accent)] hover:underline">
+                villes où le chauffage hivernal pèse le plus sur le salaire local
+              </Link>{" "}
+              croise la facture ADEME d&apos;un T2 (zone H1a-b-c, correction altitude) avec le
+              net médian départemental — un ratio à intégrer avant tout achat en Creuse,
+              Cantal, Lozère, Vosges, Haute-Marne ou en montagne habitée.
+            </p>
           </div>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 auto-rows-fr">
             {RED_FLAG_THEMES.map((t) => (

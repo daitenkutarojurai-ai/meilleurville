@@ -152,6 +152,19 @@ export default function LouerOuAcheterIndexPage() {
           location est théorique quand décrocher un bail prend plusieurs mois.
         </p>
 
+        <p className="mt-4 text-sm text-[var(--text-secondary)] leading-relaxed">
+          À l&apos;inverse, les ratios les plus bas — souvent la Creuse, le Cantal, les Vosges,
+          la Lozère, la Haute-Marne — proposent l&apos;achat à un prix qui semble imbattable.
+          Le vrai coût mensuel n&apos;apparaît qu&apos;après la première facture : le classement
+          des{" "}
+          <Link href="/red-flags/villes-chauffage-hivernal-couteux" className="text-[var(--accent)] underline hover:no-underline">
+            villes où le chauffage hivernal pèse le plus sur le salaire local
+          </Link>
+          {" "}rappelle qu&apos;en zone climatique H1 et en altitude, la facture ADEME d&apos;un T2
+          peut atteindre 7-8 % du net médian — de quoi déplacer une partie du gain
+          d&apos;achat sur la ligne énergie.
+        </p>
+
         <div className="mt-10 text-xs text-[var(--text-tertiary)]">
           L&apos;URL <code className="px-1 py-0.5 bg-[var(--bg-elevated)] rounded-full">/villes/&lt;slug-ville&gt;/louer-ou-acheter</code>
           {" "}fonctionne pour toutes les villes couvertes par HOUSING (loyer T3 + prix m² disponibles).

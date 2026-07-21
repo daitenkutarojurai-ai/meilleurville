@@ -125,6 +125,16 @@ export default function CalculateurCoutReelIndex() {
             , il faut compter plusieurs mois de recherche et un dossier «&nbsp;blindé&nbsp;» pour
             décrocher un T2 au prix affiché.
           </p>
+          <p className="text-xs text-[var(--text-tertiary)] mt-2 leading-relaxed">
+            La moyenne ADEME cache aussi de très gros écarts locaux : en zone H1a-b-c et à
+            partir de 400 m d&apos;altitude, la facture chauffage grimpe vite et le salaire
+            départemental ne suit pas. Le classement des{" "}
+            <Link href="/red-flags/villes-chauffage-hivernal-couteux" className="text-[var(--accent)] underline hover:no-underline">
+              villes où le chauffage hivernal pèse le plus sur le salaire local
+            </Link>
+            {" "}remet en regard la facture T2 et le net médian INSEE — utile pour repérer
+            les villes où le coût «&nbsp;chauffage&nbsp;» du calculateur mérite une majoration.
+          </p>
         </Card>
       </div>
 

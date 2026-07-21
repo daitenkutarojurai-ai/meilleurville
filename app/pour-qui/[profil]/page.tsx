@@ -177,6 +177,37 @@ export default async function ProfilePage({ params }: Props) {
           </section>
         )}
 
+        {/* Heating counterpart — visible for profiles whose budget is most
+            exposed to a winter heating bill (fixed pension, single income,
+            rural neo-installés, primo-accédants qui découvrent la facture
+            de leur DPE E-F). Complements the top-20 with the red-flag pendant. */}
+        {["retraites", "futurs-retraites", "primo-accedants", "neo-ruraux", "familles-monoparentales"].includes(profile.slug) && (
+          <section>
+            <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+              Le pendant à éviter — facture chauffage
+            </h3>
+            <Link href="/red-flags/villes-chauffage-hivernal-couteux" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl" aria-hidden>🥶</span>
+                  <div>
+                    <p className="font-semibold text-[var(--text-primary)]">
+                      Villes où le chauffage hivernal pèse le plus sur le salaire local
+                    </p>
+                    <p className="text-xs text-[var(--text-secondary)] mt-1">
+                      Avant de signer, croisez le top ci-dessus avec la facture ADEME
+                      moyenne d&apos;un T2 (zone climatique H1a-b-c, correction altitude)
+                      rapportée au salaire net médian départemental. Certaines villes
+                      approchent les 7-8 % du salaire — seuil de précarité énergétique
+                      qui ne se voit ni sur l&apos;annonce ni sur la photo de mai.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+          </section>
+        )}
+
         {/* Coastal counterpart — visible only for the littoral profile */}
         {profile.slug === "amateurs-de-littoral" && (
           <section>
