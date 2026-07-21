@@ -91,7 +91,7 @@ const REPEATED_WORD_RE = /\b(\w{2,})(?:\s+\1\b){3,}/i;
 
 /** Lowercase + strip diacritics, so "enculé" and "encule" match the same entry. */
 function normalize(s: string): string {
-  return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+  return s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
 
 const escapeRe = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
