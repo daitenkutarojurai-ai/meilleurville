@@ -23,3 +23,4 @@ Les données factuelles (chiffres, scores, noms) ne sont jamais modifiées.
 - 2026-07-19 app/guides/[slug]/page.tsx :: vivre-bord-mer-france-guide
 - 2026-07-20 app/guides/[slug]/page.tsx :: paris-province-guide-demenagement-2025
 - 2026-07-21 app/guides/[slug]/page.tsx :: villes-nature-plein-air-france
+- 2026-07-22 app/guides/[slug]/page.tsx :: bordeaux-lyon-nantes-quelle-ville-choisir
