@@ -10,7 +10,9 @@
     "cf:dev": "wrangler dev",
     "cf:deploy": "wrangler deploy",
     "photos": "node scripts/commune-images.mjs all",
-    "photos:update": "node scripts/commune-images.mjs all --update"
+    "photos:update": "node scripts/commune-images.mjs all --update",
+    "parks": "node scripts/city-parks.mjs",
+    "parks:stats": "node scripts/city-parks.mjs stats"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.91.1",

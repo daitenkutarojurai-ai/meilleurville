@@ -67,6 +67,21 @@ titre que les crédits Commons de `components/CityPhoto.tsx`.
 (« aucun parc nommé référencé dans OpenStreetMap pour cette commune — contribuez »).
 On n'invente pas un chiffre, et on ne masque pas la page.
 
+**Statut technique (2026-07-22)** : `scripts/city-parks.mjs` écrit et outillé
+(`npm run parks`, `npm run parks:stats`), TS clean, parse propre du seed, requête
+Overpass ancrée sur `ref:INSEE` avec `out geom`, calcul de superficie par shoelace
+équirectangulaire, dedupe way/relation, cap 40 parcs/ville, tri par superficie,
+back-off exponentiel avec fallback sur 4 miroirs Overpass, User-Agent contactable,
+avortement propre si l'egress est bloqué (503/403 upstream). Sortie
+`data/city-parks.json` inexistante côté repo : le proxy egress de l'environnement
+routine cloud refuse `overpass-api.de` + tous les miroirs OSM + `geo.api.gouv.fr` +
+`query.wikidata.org` + `commons.wikimedia.org` (`connect_rejected 403` sur toutes
+les requêtes CONNECT — policy d'organisation, cf. `/root/.ccr/README.md`). Le crawl
+doit donc être lancé depuis un environnement autorisé (`npm run parks` local, ou
+allowlist du domaine Overpass sur la routine) — pas de crawl possible en l'état.
+Une fois `data/city-parks.json` commité (une passe locale = quelques heures),
+les phases B et C reprennent normalement, un lot de ~60 villes par run.
+
 ---
 
 ## Shipped 2026-07-22
