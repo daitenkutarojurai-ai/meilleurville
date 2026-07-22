@@ -84,8 +84,10 @@ const EN_ACTIVITY_LABELS: Record<string, string> = {
 // EN profile labels
 const EN_PROFILE_LABELS: Record<string, string> = {
   famille: "Families",
+  monoparental: "Single-parent families",
   couple: "Couples",
   solo: "Solo",
+  celibataire: "Single travellers",
   amis: "Groups of friends",
   seniors: "Seniors",
 };

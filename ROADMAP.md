@@ -2,7 +2,72 @@
 
 Roadmap des features SSG-first, sans backend lourd, sans chiffres inventés.
 
-**Statut** : vague 1 + vague 2 livrées (F1, F2, F3, F4, F9, F10, F11, F12, F13, F15, F16, F17, F18, F19, F20, F21, F22, F23, F24). Vague 3 démarrée avec F25. Vague 5 démarrée avec F54. 5 features dépendant d'accès externes ont été retirées en attente d'accès/budget : ex-F5 RealityCheck, ex-F6 Journal de déménagement, ex-F7 Alertes personnalisées, ex-F8 Ville du mois, ex-F14 Carte risques interactive.
+**Statut** : vague 1 + vague 2 livrées (F1, F2, F3, F4, F9, F10, F11, F12, F13, F15, F16, F17, F18, F19, F20, F21, F22, F23, F24). Vague 3 démarrée avec F25. Vague 5 démarrée avec F54. Vague 6 ouverte (F59, voir ci-dessous). 5 features dépendant d'accès externes ont été retirées en attente d'accès/budget : ex-F5 RealityCheck, ex-F6 Journal de déménagement, ex-F7 Alertes personnalisées, ex-F8 Ville du mois, ex-F14 Carte risques interactive.
+
+---
+
+## Vague 6 — parents solo, parcs, navigation départements (ouverte 2026-07-22)
+
+Demande utilisateur directe. F58 / F60 / F61 livrées le jour même ; **F59 est le seul
+item ouvert de cette vague** — c'est le plus gros du lot (pipeline de données externe).
+
+| # | Feature | Prio | Cplx | SEO | Statut |
+|---|---------|------|------|-----|--------|
+| F58 | City Match — profil « parent solo » | P1 | S | mid | ✅ shipped 2026-07-22 |
+| F59 | **Parcs & espaces verts par ville** (pipeline OSM + sub-page ×540) | **P0** | **L** | **high** | ⬜ ouvert |
+| F60 | `/departements` — finder par n° / nom / ville | P1 | S | low | ✅ shipped 2026-07-22 |
+| F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 |
+
+### F59 — Parcs & espaces verts par ville ⬜ OUVERT
+
+**Intention utilisateur** (à ne pas perdre de vue) : un parent qui tourne en rond dans
+le même parc depuis deux ans veut *découvrir les autres parcs* — le sien, ceux du
+quartier d'à côté, ceux de la ville voisine à 20 min. Ce n'est pas une page « espaces
+verts en % de la superficie communale » : c'est un répertoire de destinations
+nommées, avec ce qui décide un samedi matin (aire de jeux ? ombre ? eau ? accessible
+en poussette ?).
+
+**Phase 1 — pipeline de données** `scripts/city-parks.mjs`
+- Source : **OpenStreetMap via l'API Overpass**. C'est la seule source exhaustive et
+  réutilisable ; pas d'alternative sérieuse pour 540 communes.
+- Requête par commune, ancrée sur la relation admin `ref:INSEE` (le seed a déjà
+  `inseeCode` sur les 540 villes) : `leisure=park`, `leisure=garden`
+  (+ `garden:type=public`), `leisure=playground`.
+- Champs retenus : `name`, type + id OSM, centroïde, superficie (calculée depuis la
+  géométrie), présence d'une aire de jeux, `wheelchair`, `dog`, point d'eau, `access`.
+- **Ne garder que les parcs nommés.** Un polygone vert sans nom n'est pas une
+  destination — c'est du bruit, et ça ferait des milliers d'entrées vides.
+- Plafonner à ~40 parcs par ville, triés par superficie.
+- **Resumable + caché** dans `.cache/city-parks/` (gitignoré), exactement le pattern de
+  `scripts/commune-images.mjs`. Overpass est strict : ~1 requête / 2-3 s, backoff sur
+  429/504, User-Agent contactable. Le crawl complet se compte en heures — le script
+  doit pouvoir être relancé sans repartir de zéro.
+- Sortie : `data/city-parks.json` (slug → parks[]).
+- **Reprise entre sessions (contrainte agent cloud)** : `.cache/` est gitignoré et
+  chaque run d'une routine cloud repart d'un checkout neuf — le cache local ne
+  survit donc pas d'un run à l'autre. `data/city-parks.json` doit être **commité au
+  fur et à mesure**, et chaque run ne crawle que les villes absentes du fichier
+  (par lots de ~60, un commit par lot). C'est ce qui rend la feature faisable en
+  plusieurs passages plutôt qu'en un seul crawl de plusieurs heures.
+
+**Licence — condition, pas décoration.** OSM est en **ODbL** : l'attribution
+« © les contributeurs OpenStreetMap » doit être affichée avec les données, au même
+titre que les crédits Commons de `components/CityPhoto.tsx`.
+
+**Phase 2 — surfaces**
+- `/villes/[slug]/parcs` ×540 SSG (+ EN `/cities/[slug]/parks`).
+- Carte dans la grille de sous-pages de `CityProfile.tsx`, entrée `sitemap.ts`,
+  `alternates.canonical`, JSON-LD `ItemList` de `schema.org/Park`.
+- Tri par superficie ; badge « aire de jeux » ; distance à pied depuis le centre-ville
+  (haversine sur le centroïde de la ville, déjà dans le seed).
+- **Bloc « changer d'air »** : les parcs des villes voisines à moins de ~30 min — c'est
+  exactement la demande d'origine, et ça crée du maillage inter-villes.
+
+**Règle d'honnêteté** : si OSM ne renvoie rien pour une commune, la page le dit
+(« aucun parc nommé référencé dans OpenStreetMap pour cette commune — contribuez »).
+On n'invente pas un chiffre, et on ne masque pas la page.
+
+---
 
 ## Shipped 2026-07-22
 

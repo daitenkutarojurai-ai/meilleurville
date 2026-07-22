@@ -487,7 +487,37 @@ L'engine `/comparer/[a]-vs-[b]` est livré + ~300 paires SSG existent.
 ### Hors périmètre (nécessitent des assets ou APIs externes)
 
 - **Photos / vidéos** : pipeline assets sous licence requis (même contrainte que guide hero images — cf. §4a audit).
-- **Cartes thématiques** (écoles, hôpitaux, commerces, météo) : nécessitent APIs data.gouv.fr / IGN / OpenStreetMap Overpass — scope = projet à part entière, pas intégrable dans un build statique sans étape de pré-fetch.
+- **Cartes thématiques** (écoles, hôpitaux, commerces, météo) : nécessitent APIs data.gouv.fr / IGN / OpenStreetMap Overpass — scope = projet à part entière, pas intégrable dans un build statique sans étape de pré-fetch. *Exception actée 2026-07-22 : les **parcs** passent dans le périmètre via un pipeline Overpass pré-fetché (F59, cf. ROADMAP.md « Vague 6 ») — le pattern `scripts/commune-images.mjs` (crawl caché + resumable + assets versionnés) prouve que c'est tenable en statique.*
+
+---
+
+## Vague 6 (2026-07-22) — parents solo, parcs, navigation départements
+
+Demande utilisateur. Détail complet dans `ROADMAP.md` § « Vague 6 ».
+
+- [x] **F58 — City Match « parent solo »** — 5ᵉ option de la question `stage` dans
+  `lib/city-match.ts`. Pondération distincte de `family` : un seul revenu et un seul
+  conducteur, donc `cost` et `transport` pèsent autant que `schools`. L'encodage du
+  permalien étant positionnel, les anciens liens restent valides.
+- [ ] **F59 — Parcs & espaces verts par ville** — ⬜ **le seul item ouvert de la vague.**
+  Pipeline OSM/Overpass → `data/city-parks.json` → `/villes/[slug]/parcs` ×540 (+ EN
+  `/cities/[slug]/parks`). Objectif produit : permettre à un parent de *découvrir* des
+  parcs au lieu de retourner au même. Attribution ODbL obligatoire. Spec détaillée
+  dans `ROADMAP.md`.
+- [x] **F60 — `/departements` trouvable** — la page listait ~102 cartes triées par score
+  moyen, sans recherche : retrouver le sien demandait de scroller. Remplacé par
+  `components/DepartementFinder.tsx` (grille compacte + recherche par **n°**, par nom,
+  **ou par ville** — taper « Bordeaux » remonte la Gironde ; tri n° / A-Z / score).
+  Les 540 liens villes restent dans le HTML statique sous un `<details>`, pour ne pas
+  perdre le maillage interne.
+- [x] **F61 — Vacances : profils `monoparental` et `celibataire`** — ajoutés à
+  `VACATION_PROFILES` (`lib/vacation-fit.ts`), ce qui génère automatiquement
+  `/vacances/profil/[profil]` FR + `/vacations/profile/[profile]` EN, les cartes des
+  hubs et les options du quiz. `monoparental` pondère transport + coût au-dessus de
+  `famille` (un seul adulte) ; `celibataire` privilégie la densité de vie sur le
+  budget, à la différence de `solo` (voyager seul·e ≠ chercher du monde).
+  ⚠️ `PROFILE_SLUGS` dans `app/sitemap.ts` était codé en dur — désormais dérivé de
+  `VACATION_PROFILES` pour éviter que ça redérive.
 
 ---
 

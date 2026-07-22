@@ -14,6 +14,7 @@ import { TAG_SLUGS_EN } from "@/lib/guide-tags-en";
 import { RED_FLAG_THEME_SLUGS } from "@/lib/red-flag-themes";
 import { commonOriginSlugs } from "@/lib/people-like-you";
 import { cityPhoto, guideCityPhoto } from "@/lib/city-images";
+import { VACATION_PROFILES } from "@/lib/vacation-fit";
 
 // Locale-aware sitemap. Each Vercel project sets NEXT_PUBLIC_DEFAULT_LOCALE and
 // (optionally) NEXT_PUBLIC_BASE_URL — the FR project emits FR URLs at
@@ -1126,7 +1127,7 @@ function enVacationsSection(): MetadataRoute.Sitemap {
     "plage", "montagne", "ski", "citytrip", "vignobles",
     "surf", "thermal", "road-trip", "gastro", "famille",
   ];
-  const PROFILE_SLUGS = ["famille", "couple", "solo", "amis", "seniors"];
+  const PROFILE_SLUGS = VACATION_PROFILES;
   const REGION_SLUGS = [
     "auvergne-rhone-alpes", "bourgogne-franche-comte", "bretagne",
     "centre-val-de-loire", "corse", "grand-est", "hauts-de-france",
@@ -1324,7 +1325,7 @@ function vacancesSection(): MetadataRoute.Sitemap {
     "plage", "montagne", "ski", "citytrip", "vignobles",
     "surf", "thermal", "road-trip", "gastro", "famille",
   ];
-  const PROFILE_SLUGS = ["famille", "couple", "solo", "amis", "seniors"];
+  const PROFILE_SLUGS = VACATION_PROFILES;
   const REGION_SLUGS = [
     "auvergne-rhone-alpes", "bourgogne-franche-comte", "bretagne",
     "centre-val-de-loire", "corse", "grand-est", "hauts-de-france",

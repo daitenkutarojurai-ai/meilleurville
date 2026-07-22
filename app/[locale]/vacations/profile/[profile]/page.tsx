@@ -37,6 +37,11 @@ const EN_PROFILE_DEFS: Record<VacationProfile, { label: string; intro: string; m
     intro: "Day-to-day safety, activities to keep children occupied, restaurants that actually work with kids. The destinations ranked here deliver all three — no agency top-10.",
     metaDesc: "Family holidays in France 2026: safe destinations, easy with children, manageable budget. Beach, parks, activities.",
   },
+  monoparental: {
+    label: "Single-parent families",
+    intro: "One adult, one or more children, one budget. Ranked on what matters when nobody takes over: getting around on foot or by public transport, activities for children within reach, and a cost that doesn't double because you're travelling alone with them.",
+    metaDesc: "Single-parent holidays in France 2026: destinations that work without a car, activities for children, single-income budgets. Ranked on real data.",
+  },
   couple: {
     label: "Couples",
     intro: "Restaurants, cultural scene, walks for two. The towns that lend themselves to a romantic long weekend without falling into clichés.",
@@ -46,6 +51,11 @@ const EN_PROFILE_DEFS: Record<VacationProfile, { label: string; intro: string; m
     label: "Solo travellers",
     intro: "Safety (women travelling alone included), good transport options, enough cultural life to stay entertained. The cities where travelling alone is genuinely comfortable.",
     metaDesc: "Solo travel in France 2026: safe destinations, dense cultural scene, accessible by train.",
+  },
+  celibataire: {
+    label: "Single travellers",
+    intro: "Different from travelling solo: here you want people around. Density of bars, terraces and cultural scene, and towns lively enough off-season that you don't end up alone in an empty resort in October.",
+    metaDesc: "Holidays for singles in France 2026: lively towns, dense nightlife and cultural scene, easy to reach by train. Ranked on real data.",
   },
   amis: {
     label: "Groups of friends",

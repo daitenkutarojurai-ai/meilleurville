@@ -5,6 +5,13 @@ import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { DepartementFinder, type DeptEntry } from "@/components/DepartementFinder";
+
+// Le n° de département vient du code Insee : 3 chiffres en outre-mer (971-976),
+// 2 caractères ailleurs — ce qui donne bien 2A/2B pour la Corse.
+function deptNumber(inseeCode: string): string {
+  return inseeCode.startsWith("97") ? inseeCode.slice(0, 3) : inseeCode.slice(0, 2);
+}
 
 export const metadata: Metadata = {
   title: "Villes par département · France",
@@ -32,10 +39,23 @@ export default function DepartementsPage() {
   const sortedDepts = Object.entries(byDept)
     .map(([dept, cities]) => ({
       dept,
+      num: deptNumber(cities[0].inseeCode),
       cities: [...cities].sort((a, b) => b.scores.global - a.scores.global),
       avgScore: cities.reduce((s, c) => s + c.scores.global, 0) / cities.length,
     }))
     .sort((a, b) => b.avgScore - a.avgScore);
+
+  const deptEntries: DeptEntry[] = sortedDepts.map(({ dept, num, cities, avgScore }) => ({
+    dept,
+    slug: deptToSlug(dept),
+    num,
+    count: cities.length,
+    avg: avgScore,
+  }));
+
+  const cityIndex: Array<[string, string]> = sortedDepts.flatMap(({ num, cities }) =>
+    cities.map((c) => [c.name, num] as [string, string])
+  );
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Accueil", path: "/" },
@@ -62,45 +82,51 @@ export default function DepartementsPage() {
         </div>
       </section>
 
-      <div className="relative mx-auto max-w-5xl px-4 sm:px-6 pb-12 space-y-3">
-        {sortedDepts.map(({ dept, cities, avgScore }) => (
-          <div key={dept} className="rounded-2xl glass border border-white/50 hover:border-[var(--accent)]/30 p-5 shadow-sm hover:shadow-md transition-all">
-            <div className="flex items-start justify-between gap-4 mb-4">
-              <div>
-                <h2 className="text-base font-bold text-[var(--text-primary)]">{dept}</h2>
-                <div className="text-xs text-[var(--text-tertiary)] mt-0.5">
+      <div className="relative mx-auto max-w-5xl px-4 sm:px-6 pb-12">
+        <DepartementFinder depts={deptEntries} cityIndex={cityIndex} />
+
+        {/* Index complet ville par ville — replié, mais bien dans le HTML
+            statique : c'est lui qui porte le maillage interne vers les 540
+            villes, que la grille compacte ci-dessus ne peut plus assurer. */}
+        <details className="mt-8 rounded-2xl glass border border-white/50 p-5">
+          <summary className="cursor-pointer text-sm font-semibold text-[var(--text-primary)]">
+            Toutes les villes, département par département
+          </summary>
+          <div className="mt-5 space-y-5">
+            {sortedDepts.map(({ dept, num, cities, avgScore }) => (
+              <div key={dept}>
+                <h2 className="text-sm font-bold text-[var(--text-primary)]">
+                  <span className="font-mono-data text-[var(--text-tertiary)]">{num}</span> {dept}{" "}
+                  <Link
+                    href={`/departements/${deptToSlug(dept)}`}
+                    className="text-xs font-medium text-[var(--accent)] hover:underline"
+                  >
+                    guide →
+                  </Link>
+                </h2>
+                <div className="mt-0.5 text-xs text-[var(--text-tertiary)]">
                   {cities.length} ville{cities.length > 1 ? "s" : ""} · score moyen {avgScore.toFixed(1)}/10
                 </div>
+                <div className="mt-2 flex flex-wrap gap-x-3 gap-y-1.5">
+                  {cities.map((city) => (
+                    <Link
+                      key={city.slug}
+                      href={`/villes/${city.slug}`}
+                      className="text-sm text-[var(--text-secondary)] transition-colors hover:text-[var(--accent)]"
+                    >
+                      {city.name}{" "}
+                      <span className="font-mono-data text-xs text-[var(--text-tertiary)]">
+                        {city.scores.global.toFixed(1)}
+                      </span>
+                    </Link>
+                  ))}
+                </div>
               </div>
-              <Link
-                href={`/departements/${deptToSlug(dept)}`}
-                className="text-xs text-[var(--accent)] hover:underline font-medium flex-shrink-0"
-              >
-                Guide département →
-              </Link>
-            </div>
-
-            <div className="flex flex-wrap gap-2">
-              {cities.map((city, i) => (
-                <Link
-                  key={city.slug}
-                  href={`/villes/${city.slug}`}
-                  className="group flex items-center gap-1.5 rounded-lg border border-[var(--border)] bg-[var(--bg-canvas)] hover:border-[var(--accent)]/40 hover:bg-[var(--bg-elevated)] transition-all px-3 py-1.5"
-                >
-                  <span className="text-[10px] font-mono text-[var(--text-tertiary)]">{i + 1}</span>
-                  <span className="text-sm font-medium text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
-                    {city.name}
-                  </span>
-                  <span className="text-xs font-bold font-mono-data text-[var(--accent)]">
-                    {city.scores.global.toFixed(1)}
-                  </span>
-                </Link>
-              ))}
-            </div>
+            ))}
           </div>
-        ))}
+        </details>
 
-        <div className="flex flex-wrap gap-3 pt-4">
+        <div className="flex flex-wrap gap-3 pt-8">
           <Link href="/regions" className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
             Explorer par région →
           </Link>

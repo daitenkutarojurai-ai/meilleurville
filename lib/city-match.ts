@@ -9,7 +9,7 @@ export type CityMatchAnswer =
   | { id: "climate"; value: "warm" | "mild" | "cold" }
   | { id: "size"; value: "metro" | "mid" | "small" }
   | { id: "vibe"; value: "nature" | "culture" | "balanced" }
-  | { id: "stage"; value: "solo" | "couple" | "family" | "retire" }
+  | { id: "stage"; value: "solo" | "couple" | "family" | "single-parent" | "retire" }
   | { id: "work"; value: "remote" | "office" | "mixed" }
   | { id: "safety"; value: "essential" | "important" | "secondary" }
   | { id: "terrain"; value: "sea" | "mountain" | "plain" | "any" };
@@ -28,6 +28,7 @@ export const CITY_MATCH_QUESTIONS: Array<{
       { value: "solo",   label: "Solo, jeune actif",     emoji: "🎒" },
       { value: "couple", label: "Couple sans enfant",     emoji: "💑" },
       { value: "family", label: "Famille avec enfants",   emoji: "👨‍👩‍👧" },
+      { value: "single-parent", label: "Parent solo",     emoji: "🧑‍🍼" },
       { value: "retire", label: "Retraité·e ou bientôt", emoji: "🌅" },
     ],
   },
@@ -201,6 +202,12 @@ export function computeMatches(answers: CityMatchAnswer[], cities: CityLight[]):
       if (stage === "family") {
         score += (s.schools - 5) * 0.35 + (s.safety - 5) * 0.25;
         if (s.schools >= 8 && s.safety >= 7.5) reasons.push(`familles : écoles ${s.schools.toFixed(1)} + sécurité ${s.safety.toFixed(1)}`);
+      } else if (stage === "single-parent") {
+        // Un seul revenu et un seul conducteur : le coût et les transports
+        // pèsent autant que les écoles, contrairement au profil famille.
+        score += (s.schools - 5) * 0.25 + (s.safety - 5) * 0.2 + (s.cost - 5) * 0.3 + (s.transport - 5) * 0.2;
+        if (s.cost >= 7 && s.schools >= 7) reasons.push(`parent solo : coût ${s.cost.toFixed(1)} + écoles ${s.schools.toFixed(1)}`);
+        if (s.transport >= 7.5) reasons.push(`transports ${s.transport.toFixed(1)}/10 — gérable sans voiture`);
       } else if (stage === "retire") {
         score += (s.life - 5) * 0.3 + (s.safety - 5) * 0.3 - (pop > 300_000 ? 0.6 : 0);
         if (s.life >= 8) reasons.push("retraite tranquille");

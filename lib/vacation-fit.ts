@@ -18,9 +18,9 @@ import {
   type ActivitySlug,
 } from "@/lib/vacation-activities";
 
-export type VacationProfile = "famille" | "couple" | "solo" | "amis" | "seniors";
+export type VacationProfile = "famille" | "monoparental" | "couple" | "solo" | "celibataire" | "amis" | "seniors";
 
-export const VACATION_PROFILES: VacationProfile[] = ["famille", "couple", "solo", "amis", "seniors"];
+export const VACATION_PROFILES: VacationProfile[] = ["famille", "monoparental", "couple", "solo", "celibataire", "amis", "seniors"];
 
 export const VACATION_PROFILE_DEFS: Record<VacationProfile, {
   label: string;
@@ -34,6 +34,12 @@ export const VACATION_PROFILE_DEFS: Record<VacationProfile, {
     intro: "Sécurité du quotidien, occupation des enfants, restos qui tiennent la route. Les destinations classées ici cumulent les trois, sans top-10 d'agence.",
     metaDesc: "Vacances en famille en France 2026 : top destinations sécurisées, faciles avec enfants, budget maîtrisable. Plage, parcs, animations.",
   },
+  monoparental: {
+    label: "Famille monoparentale",
+    emoji: "🧑‍🍼",
+    intro: "Un adulte, un ou plusieurs enfants, un seul budget. On classe sur ce qui compte quand personne ne prend le relais : tout faire à pied ou en transports, des activités enfants à portée, et un coût qui ne double pas parce qu'on voyage seul avec eux.",
+    metaDesc: "Vacances monoparentales en France 2026 : destinations accessibles sans voiture, activités enfants, budget d'un seul revenu. Classement sur données réelles.",
+  },
   couple: {
     label: "Couple",
     emoji: "💑",
@@ -45,6 +51,12 @@ export const VACATION_PROFILE_DEFS: Record<VacationProfile, {
     emoji: "🎒",
     intro: "Sécurité (femme seule incluse), bonne offre de transports, vie culturelle pour ne pas s'ennuyer. Les villes où voyager seul·e est vraiment confortable.",
     metaDesc: "Voyager seul·e en France 2026 : destinations adaptées, sécurisées, scène culturelle dense, accessibles en train.",
+  },
+  celibataire: {
+    label: "Célibataire",
+    emoji: "🍸",
+    intro: "Différent de « voyager solo » : ici on cherche du monde. Densité de bars, de terrasses et de scène culturelle, et des villes assez vivantes hors saison pour ne pas se retrouver seul·e dans une station vide en octobre.",
+    metaDesc: "Vacances célibataire en France 2026 : villes vivantes, scène nocturne et culturelle dense, faciles d'accès en train. Classement sur données réelles.",
   },
   amis: {
     label: "Entre amis",
@@ -87,10 +99,18 @@ function profileFit(city: CityLight, profile: VacationProfile): number {
   switch (profile) {
     case "famille":
       return Math.round((s.safety * 0.4 + s.life * 0.25 + s.nature * 0.2 + s.schools * 0.15) * 10) / 10;
+    case "monoparental":
+      // Un seul adulte : transports et coût pèsent plus que sur "famille",
+      // où l'on peut se relayer au volant et partager les frais.
+      return Math.round((s.safety * 0.3 + s.transport * 0.25 + s.cost * 0.25 + s.life * 0.2) * 10) / 10;
     case "couple":
       return Math.round((s.culture * 0.35 + s.life * 0.3 + s.nature * 0.2 + s.safety * 0.15) * 10) / 10;
     case "solo":
       return Math.round((s.safety * 0.35 + s.culture * 0.3 + s.transport * 0.25 + s.life * 0.1) * 10) / 10;
+    case "celibataire":
+      // Proche de "amis" mais on privilégie la densité de vie sur le budget :
+      // une station bon marché mais morte hors saison est un mauvais plan ici.
+      return Math.round((s.culture * 0.4 + s.life * 0.3 + s.transport * 0.2 + s.safety * 0.1) * 10) / 10;
     case "amis":
       return Math.round((s.culture * 0.35 + s.life * 0.3 + s.transport * 0.2 + s.cost * 0.15) * 10) / 10;
     case "seniors":
