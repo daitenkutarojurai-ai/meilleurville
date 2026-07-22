@@ -287,6 +287,27 @@ export const PROFILE_PAGES: ProfileDef[] = [
       `Culture ${c.scores.culture.toFixed(1)} · qualité de vie ${c.scores.life.toFixed(1)} · nature ${c.scores.nature.toFixed(1)}`,
   },
   {
+    slug: "celibataires",
+    emoji: "💫",
+    label: "Célibataires (25-45)",
+    metaTitle: "Meilleures villes célibataires 2026 — Top 20 France",
+    metaDescription:
+      "Top 20 villes françaises pour célibataires 25-45 ans : densité célibataires, sorties, culture, coût sur un revenu, transports tardifs. Calibré 2026.",
+    intro:
+      "Célibataires (25-45) : votre équation n'est celle d'aucun autre profil du site. Vous n'êtes pas un jeune actif de 25-30 ans encore aimanté par la première étape professionnelle et le premier vrai loyer, pas un jeune diplômé qui sort tout juste du master, pas un couple sans enfant qui négocie à deux salaires un centre-ville coûteux, et pas exactement le profil « femme seule » — celui-là pondère avant tout la sécurité nocturne et le retour serein depuis un transport tardif, une dimension essentielle mais plus étroite. Ici on regarde une fenêtre plus large — vingt ans de vie adulte entre l'école et la famille éventuelle, ou vingt ans qui prolongent un choix de vie assumé — dans laquelle le célibat n'est ni une transition ni une contrainte mais un mode d'organisation quotidien, avec ses avantages (souplesse d'emploi du temps, budget individuel, mobilité géographique intacte) et ses vraies contraintes (un seul revenu qui absorbe seul le loyer, l'assurance, l'énergie et l'abonnement mobile, une vie sociale à reconstruire régulièrement quand un ami se met en couple ou quitte la ville, une pression discrète mais réelle sur la question des rencontres passées trente ans). Le critère cardinal n'est pas le score global d'une ville, il est la combinaison de trois choses très concrètes. La densité de célibataires 25-45 d'abord — cela se traduit dans les données par la part de ménages d'une personne au niveau département (proxy Insee 2020 recalibré au niveau ville, dérivé dans le score « lien social ») et par la vitalité du bassin jeune-actif : une ville où la médiane d'âge tourne autour de 35 ans et où la population 25-45 dépasse 30 % du total (Toulouse, Montpellier, Bordeaux, Rennes, Lyon, Nantes, Strasbourg, Grenoble) intègre socialement en quelques mois, une ville vieillissante avec une médiane à 47 ans et une part 25-45 sous 22 % laisse structurellement seul même les personnalités les plus sociables. La scène culturelle et sortie ensuite — bars, cafés, restaurants qui servent jusqu'à minuit en semaine, salles de concert, cinémas indépendants, festivals de printemps et d'automne, terrasses en juin, marchés de quartier le samedi matin — c'est l'infrastructure concrète de la vie sociale d'un célibataire, autant l'occasion de rencontres nouvelles que le prétexte à sortir un mardi soir avec les amis. Le coût de la vie en troisième pilier, parce qu'un T1 ou T2 à 700-1 100 € encaisse un loyer non partagé et qu'une ville où ce ticket d'entrée passe à 1 400 € restreint mécaniquement les sorties, les week-ends et l'épargne — deux salariés partagent un T3 à 1 500 €, un célibataire porte seul le T2 à 900 €, l'arbitrage n'est pas symétrique. On complète par les transports pour rentrer d'une soirée sans faire quinze kilomètres en voiture avec deux verres dans le nez (un réseau nocturne, un tram jusqu'à minuit, un vélo en libre-service à trois heures du matin change concrètement la vie), par la qualité de vie urbaine qui garde une ville respirable au quotidien, et par la praticabilité sans voiture pour compléter les transports en commun — parce que beaucoup de célibataires optimisent leur budget en zappant la voiture individuelle et compensent par la marche, le vélo et le TER. Ce classement pondère la culture et la densité célibataires comme piliers, complète par la qualité de vie et le coût, garde un œil sur les transports et la praticabilité sans voiture et ne sacrifie pas le lien social — parce qu'un beau centre-ville historique dans un désert démographique tient rarement plus de deux ans. Résultat : un palmarès tiré par les grandes capitales étudiantes qui deviennent capitales jeunes-actifs (Toulouse, Bordeaux, Montpellier, Rennes, Nantes), les métropoles régionales équilibrées (Lyon, Strasbourg, Lille, Grenoble), plusieurs préfectures universitaires sous-cotées (Angers, Reims, Dijon, Tours), et systématiquement décoté pour Paris — sa scène est incomparable, mais le loyer à un revenu absorbe la moitié du salaire net, ce qui restreint le reste au point de rendre la vie sociale contradictoire avec la faisabilité budgétaire jusqu'à un salaire élevé.",
+    weights: {
+      culture: 2.5,
+      jeuneActif: 2.0,
+      life: 2.0,
+      cost: 1.5,
+      transport: 1.5,
+      solitude: 1.0,
+      sansVoiture: 0.5,
+    },
+    reasonHint: (c) =>
+      `Culture ${c.scores.culture.toFixed(1)} · vie ${c.scores.life.toFixed(1)} · transport ${c.scores.transport.toFixed(1)}`,
+  },
+  {
     slug: "expat-retour",
     emoji: "✈️",
     label: "Retour d'expatriation",
