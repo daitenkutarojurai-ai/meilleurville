@@ -67,7 +67,8 @@ export function HeroSection({
       .map((c) => ({ slug: c.slug, name: c.name, region: c.region, score: c.scores.global }));
   }, [query, cities]);
 
-  const open = suggestions.length > 0 && !dismissed;
+  const noMatch = query.trim().length > 0 && suggestions.length === 0;
+  const open = (suggestions.length > 0 || noMatch) && !dismissed;
 
   useEffect(() => {
     const el = heroRef.current;
@@ -111,12 +112,9 @@ export function HeroSection({
       return;
     }
     if (!query.trim()) return;
-    const slug = query
-      .toLowerCase()
-      .normalize("NFD")
-      .replace(/[̀-ͯ]/g, "")
-      .replace(/\s+/g, "-");
-    router.push(cityHref(slug));
+    // No match: slugifying the query used to push /villes/<guess>, which 404s on
+    // any typo or postal code. Send them to the browsable list instead.
+    router.push(locale === "en" ? "/cities" : "/villes");
   }
 
   function pickCity(slug: string) {
@@ -242,12 +240,17 @@ export function HeroSection({
               </div>
             </form>
 
-            {open && suggestions.length > 0 && (
+            {open && (
               <div
                 role="listbox"
                 aria-label={L("Suggestions de villes", "City suggestions")}
                 className="absolute top-full left-0 right-0 mt-2 z-50 rounded-2xl glass-strong shadow-2xl shadow-[var(--accent)]/15 overflow-hidden border border-white/40 max-h-[60vh] overflow-y-auto"
               >
+                {noMatch && (
+                  <p className="px-4 py-3 text-left text-sm text-[var(--text-secondary)]">
+                    {L("Aucune ville ne correspond.", "No city matches.")}
+                  </p>
+                )}
                 {suggestions.map((r) => (
                   <button
                     key={r.slug}

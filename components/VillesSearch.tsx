@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 import type { City } from "@/lib/types";
 import { computeNicheScores, TERRAIN_LABELS, type Terrain } from "@/lib/niche-scores";
+import POSTAL_BY_SLUG from "@/data/city-postal-codes.json";
 
 function seedToCity(s: CityLight): City {
   return {
@@ -85,7 +86,16 @@ function normalize(s: string): string {
 }
 
 // How many city cards are prerendered into the SSG HTML before "show all".
+// The cap also applies to filtered results: a one-letter query matches ~540
+// cities, and rendering them all froze low-end phones.
 const INITIAL_VISIBLE = 120;
+
+const POSTAL: Record<string, string[]> = POSTAL_BY_SLUG;
+
+// "75", "3300", "69003"… — a partial postal code, not a city name.
+function postalPrefix(q: string): string | null {
+  return /^\d{2,5}$/.test(q) ? q : null;
+}
 
 export function VillesSearch({ cities, leanMeta, locale = "fr" }: { cities: CityLight[]; leanMeta: LeanMeta; locale?: "fr" | "en" }) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
@@ -130,14 +140,20 @@ export function VillesSearch({ cities, leanMeta, locale = "fr" }: { cities: City
   const filtered = useMemo(() => {
     let result = cities;
 
-    if (query) {
-      const q = normalize(query);
-      result = result.filter(
-        (c) =>
-          normalize(c.name).includes(q) ||
-          normalize(c.region).includes(q) ||
-          normalize(c.department).includes(q)
-      );
+    if (query.trim()) {
+      const raw = query.trim();
+      const cp = postalPrefix(raw);
+      if (cp) {
+        result = result.filter((c) => (POSTAL[c.slug] ?? []).some((p) => p.startsWith(cp)));
+      } else {
+        const q = normalize(raw);
+        result = result.filter(
+          (c) =>
+            normalize(c.name).includes(q) ||
+            normalize(c.region).includes(q) ||
+            normalize(c.department).includes(q)
+        );
+      }
     }
 
     if (region) {
@@ -200,36 +216,50 @@ export function VillesSearch({ cities, leanMeta, locale = "fr" }: { cities: City
 
   const hasFilters = !!(query || region || dept || tag || lean || sortBy !== "global" || niches.size > 0 || terrains.size > 0);
 
+  // Collapse back to the first page whenever the result set changes, without an
+  // effect (React's "adjust state during render" pattern).
+  const filterKey = `${query}|${region}|${dept}|${tag}|${lean}|${sortBy}|${[...niches].join(",")}|${nicheMin}|${[...terrains].join(",")}`;
+  const [prevFilterKey, setPrevFilterKey] = useState(filterKey);
+  if (prevFilterKey !== filterKey) {
+    setPrevFilterKey(filterKey);
+    if (showAll) setShowAll(false);
+  }
+
   return (
     <div>
-      {/* Search & filter bar */}
-      <div className="mb-6 flex flex-col gap-3 sm:flex-row sticky top-14 z-30">
-        <div className="flex flex-1 items-center gap-2 rounded-2xl glass-strong border border-white/60 px-4 py-3 shadow-md focus-within:shadow-lg focus-within:ring-2 focus-within:ring-[var(--accent)]/30 transition-all">
+      {/* Search & filter bar. One row at every width: stacking it on mobile made
+          the sticky block ~110px tall with a transparent gap the cards scrolled
+          through. The opaque backdrop below sm is what keeps them behind it. */}
+      <div className="mb-6 sticky top-14 z-30 flex gap-2 sm:gap-3 max-sm:bg-[var(--bg-canvas)]/95 max-sm:backdrop-blur-sm max-sm:py-2">
+        <div className="flex min-w-0 flex-1 items-center gap-2 rounded-2xl glass-strong border border-white/60 px-3 py-3 sm:px-4 shadow-md focus-within:shadow-lg focus-within:ring-2 focus-within:ring-[var(--accent)]/30 transition-all">
           <Search className="h-4 w-4 flex-shrink-0 text-[var(--accent)]" />
           <input
-            type="text"
+            type="search"
+            inputMode="search"
+            enterKeyHint="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder={L("Rechercher une ville, région, département... (raccourci : /)", "Search a city, region or department… (shortcut: /)")}
-            aria-label={L("Rechercher une ville, région ou département", "Search a city, region or department")}
+            placeholder={L("Ville, région, code postal…", "City, region, postcode…")}
+            aria-label={L("Rechercher une ville, une région, un département ou un code postal", "Search a city, region, department or postcode")}
             data-search-shortcut
-            className="flex-1 bg-transparent text-sm text-[var(--text-primary)] placeholder:text-[var(--text-secondary)] outline-none"
+            className="min-w-0 flex-1 bg-transparent text-sm text-[var(--text-primary)] placeholder:text-[var(--text-secondary)] outline-none [&::-webkit-search-cancel-button]:hidden"
           />
           {query && (
-            <button onClick={() => setQuery("")} aria-label={L("Effacer la recherche", "Clear search")} className="text-[var(--text-secondary)] hover:text-[var(--text-primary)]">
+            <button onClick={() => setQuery("")} aria-label={L("Effacer la recherche", "Clear search")} className="flex-shrink-0 text-[var(--text-secondary)] hover:text-[var(--text-primary)]">
               <X className="h-4 w-4" />
             </button>
           )}
         </div>
         <Button
           variant="secondary"
-          className="gap-2 whitespace-nowrap"
+          className="flex-shrink-0 gap-2 whitespace-nowrap max-sm:px-3"
           onClick={() => setShowFilters(!showFilters)}
+          aria-label={L("Filtres", "Filters")}
         >
           <SlidersHorizontal className="h-4 w-4" />
-          {L("Filtres", "Filters")}
+          <span className="max-sm:sr-only">{L("Filtres", "Filters")}</span>
           {hasFilters && (
-            <span className="flex h-4 w-4 items-center justify-center rounded-full bg-[var(--accent)] text-[10px] text-white">
+            <span className="flex h-4 w-4 flex-shrink-0 items-center justify-center rounded-full bg-[var(--accent)] text-[10px] text-white">
               !
             </span>
           )}
@@ -450,17 +480,22 @@ export function VillesSearch({ cities, leanMeta, locale = "fr" }: { cities: City
         <span className="text-sm text-[var(--text-secondary)]">
           {filtered.length} {L(filtered.length !== 1 ? "villes" : "ville", filtered.length !== 1 ? "cities" : "city")}
         </span>
-        {hasFilters && (
-          <Badge variant="accent">{sortBy !== "global" ? `${L("Triées par", "Sorted by")} ${(() => { const o = SORT_OPTIONS.find(o => o.id === sortBy); return o ? (locale === "en" ? o.labelEn : o.label) : ""; })()}` : ""}{region ? ` · ${region}` : ""}{dept ? ` · ${dept}` : ""}</Badge>
-        )}
+        {(() => {
+          const o = sortBy !== "global" ? SORT_OPTIONS.find((s) => s.id === sortBy) : undefined;
+          const parts = [
+            o ? `${L("Triées par", "Sorted by")} ${locale === "en" ? o.labelEn : o.label}` : "",
+            region,
+            dept,
+          ].filter(Boolean);
+          return parts.length > 0 ? <Badge variant="accent">{parts.join(" · ")}</Badge> : null;
+        })()}
       </div>
 
-      {/* Grid — when no filter is active, the SSG HTML only prerenders the
-          first INITIAL_VISIBLE cards; the rest reveal client-side (the data is
-          already in the page). Any active filter renders the full set. */}
+      {/* Grid — only the first INITIAL_VISIBLE cards are rendered (the SSG HTML
+          included); the rest reveal on click, the data is already in the page. */}
       {filtered.length > 0 ? (
         (() => {
-          const capped = !hasFilters && !showAll && filtered.length > INITIAL_VISIBLE;
+          const capped = !showAll && filtered.length > INITIAL_VISIBLE;
           const visible = capped ? filtered.slice(0, INITIAL_VISIBLE) : filtered;
           return (
             <>
@@ -491,7 +526,7 @@ export function VillesSearch({ cities, leanMeta, locale = "fr" }: { cities: City
             {L("Aucune ville ne correspond", "No city matches")} {query ? <>{L("à", "")} «&nbsp;{query}&nbsp;»</> : L("à vos filtres", "your filters")}.
           </p>
           <p className="text-xs text-[var(--text-tertiary)] mb-5">
-            {L("Essayez un autre terme, ou réinitialisez les filtres.", "Try another term, or reset the filters.")}
+            {L("Essayez un autre terme, un code postal, ou réinitialisez les filtres.", "Try another term, a postcode, or reset the filters.")}
           </p>
           {hasFilters && (
             <button

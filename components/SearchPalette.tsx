@@ -9,6 +9,9 @@ import { GUIDES } from "@/data/guides";
 import { RANKING_META } from "@/lib/rankings";
 import { scoreColor, scoreHex } from "@/lib/utils";
 import { getAllTagsWithCounts } from "@/lib/guide-tags";
+import POSTAL_BY_SLUG from "@/data/city-postal-codes.json";
+
+const POSTAL: Record<string, string[]> = POSTAL_BY_SLUG;
 
 type Entry =
   | { kind: "city"; slug: string; name: string; region: string; score: number }
@@ -83,6 +86,9 @@ function score(entry: Entry, q: string): number {
     : entry.kind === "tag" ? entry.label
     : entry.term;
   const n = normalize(name);
+  if (entry.kind === "city" && /^\d{2,5}$/.test(q)) {
+    return (POSTAL[entry.slug] ?? []).some((p) => p.startsWith(q)) ? 90 : 0;
+  }
   if (n === q) return 100;
   if (n.startsWith(q)) return 80;
   if (n.includes(q)) return 60;
