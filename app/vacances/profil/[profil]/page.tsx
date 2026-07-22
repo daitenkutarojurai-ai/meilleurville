@@ -17,6 +17,7 @@ import {
 } from "@/lib/vacation-fit";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { MapPin } from "lucide-react";
+import { MonoparentalExtras } from "./MonoparentalExtras";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -31,8 +32,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { profil } = await params;
   if (!VACATION_PROFILES.includes(profil as VacationProfile)) return {};
   const def = VACATION_PROFILE_DEFS[profil as VacationProfile];
+  const isMono = profil === "monoparental";
   return {
-    title: `Vacances ${def.label.toLowerCase()} en France 2026 · destinations adaptées`,
+    title: isMono
+      ? "Vacances en famille monoparentale 2026 · sans voiture, sans supplément single"
+      : `Vacances ${def.label.toLowerCase()} en France 2026 · destinations adaptées`,
     description: def.metaDesc,
     alternates: { canonical: `/vacances/profil/${profil}` },
     openGraph: {
@@ -172,6 +176,9 @@ export default async function ProfilPage({ params }: Props) {
           </div>
         </section>
       )}
+
+      {/* Sections enrichies propres au profil monoparental */}
+      {slug === "monoparental" && <MonoparentalExtras />}
 
       {/* Cross-links profils */}
       <section className="mx-auto max-w-4xl px-4 sm:px-6 py-8">
