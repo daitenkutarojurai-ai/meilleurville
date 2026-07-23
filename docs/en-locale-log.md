@@ -10,3 +10,4 @@ One line per scheduled run.
 - 2026-07-16 app/[locale]/red-flags/themes/parking-nightmare (source: app/red-flags/villes-parking-cauchemar)
 - 2026-07-18 app/[locale]/red-flags/themes/mono-tourism-dependence (source: app/red-flags/villes-mono-touristiques)
 - 2026-07-20 app/[locale]/red-flags/themes/heavy-property-tax (source: app/red-flags/villes-fiscalite-lourde)
+- 2026-07-23 app/[locale]/red-flags/themes/unfindable-rentals (source: app/red-flags/villes-logement-introuvable)

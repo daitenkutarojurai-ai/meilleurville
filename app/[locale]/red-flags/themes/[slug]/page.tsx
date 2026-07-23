@@ -374,6 +374,21 @@ const EN_THEMES: EnTheme[] = [
       "Severity = base tier (`high` 6 / `very high` 8 / Paris 7.5) + price bonus (€3,000/m² → 0, €6,000/m² → +2) + 0.8 if tight-supply zone + max(0, log₁₀(pop/50,000) × 1.05) capped at +1.5. Clamped at 10/10, filtered to severity ≥ 6.5. Sources: DGFiP OFL yearbooks 2024 (average property-tax rates by dept), tight-zone decrees 2023 (THRS surcharge), DVF + rent observatories 2024 (€/m²), INSEE (population). Caveat: municipal property tax varies by ±30% around the dept average — always check the seller's actual notice before signing.",
   },
   {
+    enSlug: "unfindable-rentals",
+    frSlug: "villes-logement-introuvable",
+    emoji: "🔑",
+    title: "Cities where finding a rental has become a battle",
+    metaTitle: "Unfindable rentals 2026 — France's tightest rental markets",
+    metaDescription:
+      "2026 ranking of French cities where signing a lease is a contest: strained rental market, T2 rent well above the national median. DGALN-aligned proxy.",
+    intro:
+      "The attractive listing stays online eight minutes. Viewings are collective — twelve applicants queuing at the door, dossier already printed in triplicate. The agency doesn't call back, or asks for two guarantors and three payslips for a €950 one-bedroom. On paper the market is 'dynamic'; for the tenant, that same reality is simply called unfindable. This pressure shows up on no price map and in no city brochure — you discover it when you have two weeks to sign a lease and haven't seen a decent flat.",
+    reality:
+      "We rank cities whose rental tension proxy exceeds 7.5/10 — the 'strained' and 'very strained' bands of the DGALN grid. In concrete terms: a one-bedroom rent above the national median, purchase prices that follow, a population that keeps demand steady, and quality-of-life plus safety scores that make the city desirable. When those signals compound, the market shifts from 'competitive' to 'blocking for applicants without a guarantor or a permanent contract'. Every listed city clears the 7.5/10 threshold and most also carry a T2 rent at least 20% above the national median.",
+    methodology:
+      "Severity = tension (0-10, 10 = worst) + 1.0 if T2 rent ≥ 1.5× national median, + 0.4 if ≥ 1.2×. Tension weighting: T2 rent vs median 55% · purchase €/m² 25% · population (bonus over 200k, penalty under 30k) · life + safety desirability. Proxy aligned on the DGALN 'zones tendues' list (~1,100 communes) that the seed doesn't expose directly. Underlying sources: DVF (transaction prices), 2024 rent observatories, INSEE (population), site's proprietary scores.",
+  },
+  {
     enSlug: "parking-nightmare",
     frSlug: "villes-parking-cauchemar",
     emoji: "🅿️",
