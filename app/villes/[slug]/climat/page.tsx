@@ -311,6 +311,41 @@ export default async function ClimatPage({ params }: Props) {
         </div>
       </section>
 
+      {/* Summer heat red-flag — pendant symétrique du chauffage hivernal :
+          climat méditerranéen ou avgTempJuly ≥ 26 → la ville entre dans le
+          couloir des étés difficiles à vivre. Renvoie vers le classement
+          des villes belles mais invivables l'été (canicule ≤ 5/10). */}
+      {(climate.id === "mediterranean" ||
+        (city.avgTempJuly != null && city.avgTempJuly >= 26)) && (
+        <section className="relative pb-8">
+          <div className="mx-auto max-w-5xl px-4 sm:px-6">
+            <Link
+              href="/red-flags/villes-belles-invivables-ete"
+              className="block rounded-2xl border border-red-200/60 bg-red-50/40 p-5 hover:border-red-300 hover:bg-red-50/60 transition-colors"
+            >
+              <div className="flex items-start gap-3">
+                <span className="text-2xl flex-shrink-0" aria-hidden>🥵</span>
+                <div>
+                  <div className="text-xs uppercase tracking-widest text-red-700 font-semibold mb-1">
+                    Red flag associé
+                  </div>
+                  <p className="font-semibold text-[var(--text-primary)]">
+                    Villes belles… mais invivables l&apos;été
+                  </p>
+                  <p className="text-xs text-[var(--text-secondary)] mt-1 leading-relaxed">
+                    Avec {city.avgTempJuly ?? "un"} °C de moyenne en juillet{climate.id === "mediterranean" ? " et un régime méditerranéen" : ""},
+                    {" "}{city.name} entre dans la zone où l&apos;été bascule vite du charme
+                    (photos de mai) au calvaire (canicule, climatisation absente en
+                    location, tourisme saturé) — voir le classement des villes
+                    séduisantes en moyenne annuelle mais étouffantes en juillet-août.
+                  </p>
+                </div>
+              </div>
+            </Link>
+          </div>
+        </section>
+      )}
+
       {/* Heating cost red-flag — only for cities where winter actually bites:
           mountain, semi-continental (Grand Est, Bourgogne), or plaine where
           the January mean falls to 3 °C or below. The link contextualises

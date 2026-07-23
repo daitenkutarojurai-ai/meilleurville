@@ -337,6 +337,9 @@ export default async function CityRedFlagsPage({ params }: Props) {
     return w !== 0 ? w : a.label.localeCompare(b.label, "fr");
   });
 
+  const caniculeLevel = flags.find((f) => f.id === "canicule")?.level;
+  const showInvivablesEteLink = caniculeLevel === "eleve" || caniculeLevel === "critique";
+
   const significant = ordered.filter((f) => LEVEL_META[f.level].weight >= 2);
 
   const crumb = breadcrumbJsonLd([
@@ -469,6 +472,40 @@ export default async function CityRedFlagsPage({ params }: Props) {
           </div>
         </div>
       </section>
+
+      {/* Cross-link vers le classement thématique quand la canicule domine
+          la fiche. Le drapeau ci-dessus reste local (température moyenne
+          juillet) ; ce lien contextualise la ville dans le palmarès France
+          des villes séduisantes qui basculent en juillet-août. */}
+      {showInvivablesEteLink && (
+        <section className="relative pb-10">
+          <div className="mx-auto max-w-5xl px-4 sm:px-6">
+            <Link
+              href="/red-flags/villes-belles-invivables-ete"
+              className="block rounded-2xl border border-red-200/60 bg-red-50/40 p-5 hover:border-red-300 hover:bg-red-50/60 transition-colors"
+            >
+              <div className="flex items-start gap-3">
+                <span className="text-2xl flex-shrink-0" aria-hidden>🥵</span>
+                <div>
+                  <div className="text-xs uppercase tracking-widest text-red-700 font-semibold mb-1">
+                    Classement thématique
+                  </div>
+                  <p className="font-semibold text-[var(--text-primary)]">
+                    {city.name} figure parmi les villes belles… mais invivables l&apos;été
+                  </p>
+                  <p className="text-xs text-[var(--text-secondary)] mt-1 leading-relaxed">
+                    Le drapeau canicule ci-dessus regarde la ville seule ; le
+                    classement France croise cadre de vie annuel (≥ 6,5/10) et
+                    score canicule (≤ 5/10) pour isoler les villes séduisantes
+                    sur la plaquette mais étouffantes en juillet-août —
+                    tourisme saturé et climatisation absente en prime.
+                  </p>
+                </div>
+              </div>
+            </Link>
+          </div>
+        </section>
+      )}
 
       {/* Méthode */}
       <section className="relative pb-10">

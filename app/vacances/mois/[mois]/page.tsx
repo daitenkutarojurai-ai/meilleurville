@@ -192,6 +192,18 @@ export default async function MoisPage({ params }: Props) {
             <span className="font-semibold text-amber-700">⚠️ À savoir : </span>
             {angle.warning}
           </div>
+          {(idx === 7 || idx === 8) && (
+            <div className="mt-3 rounded-xl border border-red-300/40 bg-red-50/40 px-4 py-3 text-sm text-[var(--text-primary)]">
+              <span className="font-semibold text-red-700">🥵 Vacances ≠ vie sur place : </span>
+              en {label.toLowerCase()}, les cartes postales sud méditerranéennes
+              cachent des étés à 34-38 °C. Si vous envisagez de vous y installer
+              plutôt que d&apos;y séjourner, lisez le classement des{" "}
+              <Link href="/red-flags/villes-belles-invivables-ete" className="underline text-red-700">
+                villes belles mais invivables l&apos;été
+              </Link>
+              .
+            </div>
+          )}
         </div>
       </section>
 

@@ -208,6 +208,40 @@ export default async function ProfilePage({ params }: Props) {
           </section>
         )}
 
+        {/* Summer-heat counterpart — visible for profiles where a hot summer
+            is a real health / lifestyle blocker: anti-canicule (obviously),
+            asthmatiques (chaleur + ozone), jeunes parents (nourrissons),
+            retraités et futurs retraités (surmortalité canicule > 65 ans).
+            Complète le top-20 par le pendant à éviter côté villes séduisantes
+            mais étouffantes en juillet-août. */}
+        {["anti-canicule", "asthmatiques-allergiques", "jeunes-parents", "retraites", "futurs-retraites"].includes(profile.slug) && (
+          <section>
+            <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+              Le pendant à éviter — étés étouffants
+            </h3>
+            <Link href="/red-flags/villes-belles-invivables-ete" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl" aria-hidden>🥵</span>
+                  <div>
+                    <p className="font-semibold text-[var(--text-primary)]">
+                      Villes belles… mais invivables l&apos;été
+                    </p>
+                    <p className="text-xs text-[var(--text-secondary)] mt-1">
+                      Avant d&apos;acheter à Nice, Aix-en-Provence, Avignon ou
+                      Perpignan, croisez le top ci-dessus avec le classement
+                      des villes au cadre de vie annuel séduisant (≥ 6,5/10)
+                      mais dont l&apos;été bascule vite — juillet ≥ 27 °C,
+                      climatisation absente en location, saturation
+                      touristique amplifiée par la chaleur.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+          </section>
+        )}
+
         {/* Coastal counterpart — visible only for the littoral profile */}
         {profile.slug === "amateurs-de-littoral" && (
           <section>

@@ -247,6 +247,16 @@ export default function VacancesHub() {
             couple, solo, amis, seniors). Le score combine ces signaux selon ce que
             vous cherchez. Voir aussi la <Link href="/methode" className="underline">méthodologie globale du site</Link>.
           </p>
+          <p className="text-xs text-[var(--text-secondary)] leading-relaxed mt-3">
+            Différence entre partir en vacances et vivre sur place : une ville
+            peut être excellente 3 semaines en septembre et invivable en
+            juillet-août. Si vous envisagez un déménagement plutôt qu&apos;un
+            séjour, croisez ce hub avec le classement des{" "}
+            <Link href="/red-flags/villes-belles-invivables-ete" className="underline">
+              villes belles mais invivables l&apos;été
+            </Link>
+            {" "}— canicule ≥ 5/10, tourisme saturé, climatisation absente en location.
+          </p>
         </Card>
       </section>
 
