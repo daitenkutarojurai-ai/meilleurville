@@ -15,7 +15,7 @@ item ouvert de cette vague** — c'est le plus gros du lot (pipeline de données
 |---|---------|------|------|-----|--------|
 | F58 | City Match — profil « parent solo » | P1 | S | mid | ✅ shipped 2026-07-22 |
 | F59 | **Parcs & espaces verts par ville** (pipeline OSM + sub-page ×540) | **P0** | **L** | **high** | ⬜ ouvert |
-| F60 | `/departements` — finder par n° / nom / ville | P1 | S | low | ✅ shipped 2026-07-22 |
+| F60 | `/departements` — finder par n° / nom / ville + carte cliquable | P1 | S | low | ✅ shipped 2026-07-22 · carte cliquable 2026-07-23 |
 | F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · enrichi le même jour |
 
 ### F59 — Parcs & espaces verts par ville ⬜ OUVERT
@@ -83,6 +83,10 @@ Une fois `data/city-parks.json` commité (une passe locale = quelques heures),
 les phases B et C reprennent normalement, un lot de ~60 villes par run.
 
 ---
+
+## Shipped 2026-07-23
+
+- **F60 — Carte de France cliquable des départements sur `/departements`** ✅ — Compléte le finder textuel du 22/07 par le réflexe naturel (« je regarde la carte, je clique sur mon coin »). Nouveau `components/DepartementMap.tsx` : SVG server-only (pas de `"use client"`), une bulle par département métropolitain positionnée au centroïde pondéré des villes du seed (moyenne lng/lat des villes présentes), colorée par score moyen via `scoreHex`, taille indexée sur le nombre de villes classées (r 14-20). Chaque bulle est un `<a href="/departements/[slug]">` avec `<title>` et `aria-label` — la carte fonctionne **sans JavaScript** (chaque département reste crawlable et cliquable), condition du grade SEO du site. Réutilise `lib/france-map-geo` (projection équirectangulaire + tracé BORDER_PATH/CORSICA_PATH + `inMetropolitanBox`) pour aligner pixel-à-pixel avec `FranceHeatmap` et `PoliticalMap`. Passe de relaxation minuscule (O(n² × 80 itérations), n ≈ 96, quelques milliers d'ops au build) qui pousse les bulles qui se chevauchent (Île-de-France : 8 dept dans un carré de ~30 km) avec un stem gris pâle du centroïde réel à la position affichée. Légende 6 tiers en bas du SVG (Exceptionnel → Faible), caption explicative sous le SVG (« taille ∝ nombre de villes classées »). Les DROM sortent du bbox métropolitain — comme sur `FranceHeatmap` — et restent adressables via le finder ci-dessous et via `/regions`. Fallback `<div className="sr-only">` : liste `<ul>` des départements avec liens pour les lecteurs d'écran. Composant accepte `locale?: "fr" | "en"` (défaut `"fr"`, sortie FR **byte-identique** — règle CLAUDE.md #6 sur les composants FR réutilisés côté EN) : mission item 5 (mirror EN sur `/departments`) démarre déjà avec l'API prête. Intégré dans `app/departements/page.tsx` **au-dessus** du `DepartementFinder` (la carte est le premier réflexe, le finder est le clavier). Le `<details>` d'index ville par ville reste intact — les 540 liens crawlables du maillage interne ne bougent pas. `npx tsc --noEmit` propre. Build SSG > 10 min sur ce runner, non testé bout-en-bout (composant pur server, aucune dépendance nouvelle, seulement des primitives déjà utilisées par `FranceHeatmap`/`PoliticalMap` — risque de régression build faible).
 
 ## Shipped 2026-07-22
 

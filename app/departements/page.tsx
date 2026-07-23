@@ -6,6 +6,7 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { DepartementFinder, type DeptEntry } from "@/components/DepartementFinder";
+import { DepartementMap, type DeptMapEntry } from "@/components/DepartementMap";
 
 // Le n° de département vient du code Insee : 3 chiffres en outre-mer (971-976),
 // 2 caractères ailleurs — ce qui donne bien 2A/2B pour la Corse.
@@ -53,6 +54,16 @@ export default function DepartementsPage() {
     avg: avgScore,
   }));
 
+  const mapEntries: DeptMapEntry[] = sortedDepts.map(({ dept, num, cities, avgScore }) => ({
+    slug: deptToSlug(dept),
+    dept,
+    num,
+    cities: cities.length,
+    avg: avgScore,
+    lng: cities.reduce((s, c) => s + c.longitude, 0) / cities.length,
+    lat: cities.reduce((s, c) => s + c.latitude, 0) / cities.length,
+  }));
+
   const cityIndex: Array<[string, string]> = sortedDepts.flatMap(({ num, cities }) =>
     cities.map((c) => [c.name, num] as [string, string])
   );
@@ -83,6 +94,8 @@ export default function DepartementsPage() {
       </section>
 
       <div className="relative mx-auto max-w-5xl px-4 sm:px-6 pb-12">
+        <DepartementMap entries={mapEntries} />
+
         <DepartementFinder depts={deptEntries} cityIndex={cityIndex} />
 
         {/* Index complet ville par ville — replié, mais bien dans le HTML
