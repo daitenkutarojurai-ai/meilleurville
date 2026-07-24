@@ -886,31 +886,31 @@ export const GUIDES: Guide[] = [
     readMinutes: 10,
     publishedAt: "2025-02-15",
     updatedAt: "2026-03-06",
-    intro: "Le Sud de la France fait rêver la moitié de la population française. Mais le «Sud», c'est vaste : PACA et Occitanie regroupent 15 grandes villes très différentes. Voici la carte honnête de ce qui vous attend, soleil et ombres compris.",
+    intro: "Tout le monde rêve du Sud, personne ne dit lequel. Sous ce mot unique cohabitent deux régions — PACA et Occitanie — et une quinzaine de grandes villes qui n'ont presque rien en commun. Voici la carte honnête, soleil et ombres comprises.",
     sections: [
       {
         heading: "PACA vs Occitanie : deux Suds très différents",
-        body: "La Provence-Alpes-Côte d'Azur est le Sud cher et cosmopolite : Marseille, Nice, Aix, Toulon. Les loyers sont élevés (Nice : T2 médian 1 050€), les hivers doux (Nice : 12°C en janvier), le style de vie ultra-méditerranéen. L'Occitanie est le Sud plus abordable : Montpellier, Toulouse, Perpignan, Nîmes. Même soleil, loyers 30 à 50% moins chers, mais réseau de transport moins dense hors Toulouse et Montpellier. Le choix entre les deux dépend de votre budget et de vos priorités professionnelles.",
+        body: "La Provence-Alpes-Côte d'Azur, c'est le Sud cher et cosmopolite : Marseille, Nice, Aix, Toulon. Loyers élevés (Nice : T2 médian 1 050€), hivers doux (Nice : 12°C en janvier), style de vie ultra-méditerranéen assumé. L'Occitanie, c'est le Sud plus accessible : Montpellier, Toulouse, Perpignan, Nîmes. Même dose de soleil, loyers 30 à 50% moins chers, mais un réseau de transport moins dense hors Toulouse et Montpellier. Un climat quasi jumeau, deux économies : le choix se joue là.",
       },
       {
         heading: "Marseille : la vraie surprise",
-        body: "Score MaVilleIdéale : 7.2/10. Marseille est incomprise. C'est la ville la plus diverse de France, avec une vitalité culturelle et gastronomique unique. Le mouvement de fond est positif : les friches industrielles deviennent des quartiers créatifs, les prix de l'immobilier ont rattrapé Bordeaux (3 500€/m² en moyenne) mais restent inférieurs à Nice ou Aix. Le T2 médian est à 850€. La ville a de vrais problèmes d'insécurité dans certains quartiers, mais Paris aussi. Le vrai Marseille, c'est le 13e, le 8e, le 6e, le Panier rénové, pas les clichés.",
+        body: "Score MaVilleIdéale : 7.2/10. Marseille reste incomprise à distance. C'est pourtant la ville la plus diverse de France, avec une vitalité culturelle et gastronomique sans équivalent. Le mouvement de fond est positif : les friches industrielles deviennent des quartiers créatifs, l'immobilier a rattrapé Bordeaux (3 500€/m² en moyenne) sans grimper au niveau de Nice ou d'Aix, le T2 médian tourne à 850€. Certains quartiers ont de vrais problèmes d'insécurité, comme Paris. Le vrai Marseille se joue dans le 13e, le 8e, le 6e, le Panier rénové, pas dans les clichés qui saturent les JT.",
       },
       {
         heading: "Nice : le lifestyle premium",
-        body: "Score MaVilleIdéale : 7.8/10. Nice est la ville la plus chère du Sud hors Paris. Le T2 médian atteint 1 050€, et l'achat dépasse 5 500€/m² en moyenne. Pour ce prix, vous avez : la Promenade des Anglais, 2 700h de soleil/an, une gastronomie exceptionnelle (socca, pissaladière, bouillabaisse niçoise). La ville a un réseau de tramway efficace et un aéroport international majeur. Le bassin d'emploi reste limité hors tourisme et digital, parfait pour retraités et télétravailleurs aisés.",
+        body: "Score MaVilleIdéale : 7.8/10. Nice est la ville la plus chère du Sud, Paris exclu. T2 médian à 1 050€, achat au-delà de 5 500€/m². En contrepartie : la Promenade des Anglais, 2 700h de soleil par an, une gastronomie qui tient debout (socca, pissaladière, bouillabaisse niçoise), un tramway efficace, un aéroport international majeur. Le bassin d'emploi reste étroit hors tourisme et numérique. C'est le terrain idéal des retraités et des télétravailleurs aisés, moins des jeunes actifs qui doivent construire une carrière locale.",
       },
       {
         heading: "Aix-en-Provence : le secret le mieux gardé",
-        body: "Score MaVilleIdéale : 8.3/10. Aix est systématiquement sous-estimée dans les classements parce que son image est trop «bourgeoise». Mais ses atouts sont réels : sécurité parmi les meilleures de France, patrimoine exceptionnel, 300 jours de soleil, université réputée. Le T2 médian est de 900€, moins cher que Nice pour une qualité de vie comparable, avec un accès direct à Marseille (30 min) et son CHU.",
+        body: "Score MaVilleIdéale : 8.3/10. Aix est systématiquement décotée dans les classements parce que son image passe pour «bourgeoise». Les faits ne bougent pas pour autant : sécurité parmi les meilleures de France, patrimoine exceptionnel, 300 jours de soleil, université réputée. T2 médian à 900€, moins cher que Nice pour une qualité de vie équivalente, avec Marseille et son CHU à 30 minutes.",
       },
       {
         heading: "Montpellier vs Marseille : la grande question",
-        body: "C'est la comparaison que tout le monde fait avant de s'installer dans le Sud. Montpellier : plus calme, plus étudiante, meilleure qualité de l'air, CHU de référence. Loyer T2 médian 780€. Marseille : plus grande métropole, plus de diversité culturelle, gastronomie plus intense, plages de calanques inégalées. Loyer T2 médian 850€. Notre verdict : Montpellier pour les familles et les retraités. Marseille pour ceux qui aiment la vie de grande ville et peuvent choisir leur quartier avec soin.",
+        body: "C'est le match que tout le monde rejoue avant d'atterrir dans le Sud. Montpellier joue la carte calme : ville plus étudiante, meilleure qualité de l'air, CHU de référence, T2 médian à 780€. Marseille joue la carte métropole : diversité culturelle plus dense, gastronomie plus intense, calanques inégalées, T2 médian à 850€. Verdict pragmatique : Montpellier pour les familles et les retraités, Marseille pour ceux qui aiment la vie de grande ville et savent choisir leur quartier.",
       },
       {
         heading: "Ce que personne ne vous dit sur le Sud",
-        body: "La canicule. Les estivants. Le pastis. Mais aussi : les hivers venteux sur la côte varoises (mistral), les incendies récurrents qui menacent les zones périurbaines, la congestion routière chronique de Nice et Marseille, les moustiques tigres entre mai et octobre, et un marché de l'emploi plus étroit que dans les grandes métropoles du nord. Le Sud est une récompense méritée — pas une solution de facilité.",
+        body: "La canicule. Les estivants. Le pastis. Ça, tout le monde s'y attend. Le reste, moins : mistral qui décoiffe l'hiver sur la côte varoise, incendies récurrents aux abords des zones périurbaines, bouchons chroniques à Nice et Marseille, moustiques tigres de mai à octobre, marché de l'emploi plus étroit que dans les grandes métropoles du nord. Le Sud est une récompense méritée, pas une solution de facilité.",
       },
     ],
     relatedCities: ["marseille", "nice", "aix-en-provence", "montpellier", "toulon", "perpignan"],

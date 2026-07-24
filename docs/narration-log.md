@@ -25,3 +25,4 @@ Les données factuelles (chiffres, scores, noms) ne sont jamais modifiées.
 - 2026-07-21 app/guides/[slug]/page.tsx :: villes-nature-plein-air-france
 - 2026-07-22 app/guides/[slug]/page.tsx :: bordeaux-lyon-nantes-quelle-ville-choisir
 - 2026-07-23 app/pour-qui/[profil]/page.tsx :: amateurs-de-montagne
+- 2026-07-24 app/guides/[slug]/page.tsx :: vivre-dans-le-sud-france-guide-2025
