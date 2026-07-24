@@ -82,6 +82,21 @@ allowlist du domaine Overpass sur la routine) — pas de crawl possible en l'ét
 Une fois `data/city-parks.json` commité (une passe locale = quelques heures),
 les phases B et C reprennent normalement, un lot de ~60 villes par run.
 
+**Point d'étape 2026-07-24** : nouveau run de la routine ; même blocage egress
+confirmé (403 CONNECT sur les 5 hosts Overpass listés dans le script). Puisque
+le crawl reste inaccessible côté routine, ce passage prépare la phase C plutôt
+que d'attendre : `data/city-parks.json` initialisé à `{}` (placeholder committé
+pour que l'accesseur importe proprement) et `lib/city-parks.ts` écrit — types
+`Park`/`CityParks`, accesseurs `cityParks`/`hasParksData`/`sortedParks`, helper
+`parkDistanceKm` (haversine sur le centroïde), helper `nearbyCityParks(city)`
+prêt pour le bloc « changer d'air » (villes voisines dans un rayon de 30 km qui
+ont déjà des parcs référencés), constantes d'attribution `OSM_CREDIT` +
+`OSM_LICENSE_URL` factorisées. `npx tsc --noEmit` propre. Aucune surface
+construite pour l'instant : générer 540 sous-pages « aucun parc référencé »
+juste pour tenir un template serait du bruit à indexer. Dès qu'un lot est
+crawlé (localement ou après allowlist Overpass sur la routine), la phase C
+peut être branchée en un seul run sans réécrire l'accesseur.
+
 ---
 
 ## Shipped 2026-07-24
