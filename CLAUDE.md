@@ -472,8 +472,8 @@ Accordéon `<details>` natif (réponses dans le HTML statique, no-JS/crawler-fri
 | `retraite-a-[ville]-2026` | `lifestyle` | top 20 villes | ✅ 20 guides (batch 1 shipped 2026-07-14 : Dinan, Lannion, Les Sables-d'Olonne, Royan, Le Puy-en-Velay, Anglet, Hendaye, Vitré, Fontainebleau, Île de Ré ; batch 2 shipped 2026-07-15 : Challans, Tulle, Pontarlier, Saint-Dié-des-Vosges, Château-Gontier, Albertville, Gaillac, Vendôme, Marmande, Saint-Lô) |
 | `demenager-a-[ville]-2026` | `lifestyle` (pas de cat. `moving` en FR) | top 50 villes | ✅ 50 guides — série close 2026-07-18 pm. Batch 1 (Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux, Lille), batch 2 (Rennes, Grenoble, Rouen, Angers, Dijon, Tours, Clermont-Ferrand, Metz, Nancy, Caen), batch 3 (Saint-Étienne, Le Havre, Reims, Toulon, Villeurbanne, Nîmes, Aix-en-Provence, Brest, Le Mans, Amiens), batch 4 (Saint-Denis 93, Perpignan, Boulogne-Billancourt, Argenteuil, Orléans, Mulhouse, Saint-Paul Réunion, Nanterre, Créteil, Vitry-sur-Seine), batch 5 (Saint-Denis Réunion, Le Tampon, Aubervilliers, Colombes, Asnières-sur-Seine, Courbevoie, Rueil-Malmaison, Champigny-sur-Marne, Saint-Maur-des-Fossés, Antibes). Logistique déménagement (≠ sous-page `s-installer`) |
 | `quartiers-a-eviter-[ville]-2026` | `moving` | top 30 villes | ❌ pendant de `meilleurs-quartiers` dans `acheter-a-` |
-| `travail-a-[ville]-2026` | `remote-work` | top 30 villes | ❌ bassin d'emploi, secteurs, agences |
-| `universites-[ville]-2026` | `lifestyle` | top 15 villes | ❌ établissements, classements, logement CROUS |
+| `travail-a-[ville]-2026` | `lifestyle` | top 30 villes | ✅ 30 guides — série close 2026-07-22 (batches 1/2/3) |
+| `universites-[ville]-2026` | `lifestyle` | top 15 villes | 🟡 10/15 guides (batch 1 shipped 2026-07-24 : Paris, Lyon, Toulouse, Lille, Bordeaux, Aix-en-Provence, Montpellier, Rennes, Strasbourg, Nantes) |
 
 Déjà couverts (skip) : `acheter-a-[ville]` (immobilier), `budget-mensuel-realiste-[ville]` (coût de la vie), `10-choses-a-faire-a-[ville]` (sortir), `quitter-[ville]` (départ), `vivre-sans-voiture-[ville]` (transports).
 
