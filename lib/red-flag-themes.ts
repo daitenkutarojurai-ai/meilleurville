@@ -1815,6 +1815,152 @@ function rankParkingCauchemar(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
 }
 
+// --- THEME 34 — Manque de crèches : listes d'attente saturées ---
+// Cible : villes ≥ 25 000 hab. dans les départements où le taux de
+// couverture Onape 2024 (places de crèche pour 100 enfants < 3 ans) tombe
+// sous la médiane nationale — Île-de-France dense (Paris + Petite et
+// Grande Couronne), littoral méditerranéen (Bouches-du-Rhône, Var,
+// Alpes-Maritimes), et DROM (Guadeloupe, Martinique, Guyane, La Réunion,
+// Mayotte) où la démographie jeune structurelle se combine à un
+// équipement historiquement sous-dimensionné.
+//
+// Concrètement : listes fermées en janvier pour la rentrée suivante,
+// délais 6 à 18 mois, report sur assistante maternelle indépendante
+// (25-45 € / jour Paris, 30-55 € Riviera) ou crèche privée non
+// subventionnée (1 200-1 700 € nets / mois plein tarif Petite Couronne).
+// Les ménages qui n'anticipent pas basculent souvent sur un congé
+// parental subi — impact carrière + budget majoritairement supporté par
+// le second parent (Insee 2023).
+//
+// Distinction avec villes-desert-services-publics (services publics au
+// sens large : école élémentaire, poste, mairie, France Services) et
+// avec la sous-page /villes/[slug]/ecoles (agrège écoles, collège,
+// lycée mais ne détaille pas la petite enfance) : ce classement se
+// concentre exclusivement sur la place de crèche 0-3 ans, goulot le
+// plus documenté par la CAF sur les territoires listés.
+//
+// Sources sous-jacentes : Onape (Observatoire national de la petite
+// enfance) — « L'accueil du jeune enfant » édition 2024 (taux de
+// couverture par département) ; CNAF — statistiques Cnaf-DSER 2023 sur
+// les modes de garde et capacités PMI agréées ; DREES 2023 « L'accueil
+// du jeune enfant » ; plan Ministère des Solidarités « 200 000 places »
+// 2023-2027 (priorisation Île-de-France dense + PACA littorale + DROM).
+const CRECHE_TENSE_DEPT_SET = new Set([
+  "Paris",
+  "Hauts-de-Seine",
+  "Seine-Saint-Denis",
+  "Val-de-Marne",
+  "Val-d'Oise",
+  "Essonne",
+  "Yvelines",
+  "Seine-et-Marne",
+  "Bouches-du-Rhône",
+  "Var",
+  "Alpes-Maritimes",
+  "Guadeloupe",
+  "Martinique",
+  "Guyane",
+  "Réunion",
+  "La Réunion",
+  "Mayotte",
+]);
+const CRECHE_PETITE_COURONNE = new Set([
+  "Hauts-de-Seine",
+  "Seine-Saint-Denis",
+  "Val-de-Marne",
+]);
+const CRECHE_GRANDE_COURONNE = new Set([
+  "Val-d'Oise",
+  "Essonne",
+  "Yvelines",
+  "Seine-et-Marne",
+]);
+const CRECHE_PACA_LITTORAL = new Set([
+  "Bouches-du-Rhône",
+  "Var",
+  "Alpes-Maritimes",
+]);
+const CRECHE_DROM = new Set([
+  "Guadeloupe",
+  "Martinique",
+  "Guyane",
+  "Réunion",
+  "La Réunion",
+  "Mayotte",
+]);
+const CRECHE_YOUNG_TAG_REGEX =
+  /jeunes?|branché|gentrifi|bobo|dynamique|étudiant|nomade|\btech\b|start[- ]?up/i;
+const CRECHE_RURAL_TAG_REGEX = /\brural\b|\bvillage\b|\bcampagne\b/i;
+
+function rankManqueDeCreches(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    const pop = city.population ?? 0;
+    if (pop < 25_000) continue;
+    if (!CRECHE_TENSE_DEPT_SET.has(city.department)) continue;
+
+    const tags = (city.characterTags ?? []).join(" ").toLowerCase();
+    if (CRECHE_RURAL_TAG_REGEX.test(tags)) continue;
+
+    const housing = HOUSING[city.slug];
+    const priceM2 = housing?.avgBuyPriceM2 ?? 0;
+
+    // Base zonale — taux de couverture Onape 2024 le plus dégradé en tête.
+    // Paris intra-muros : ≈ 55 places / 100 enfants < 3 ans sur le papier,
+    // mais 100 % de saturation dès la mi-janvier → tension quotidienne
+    // équivalente à une couverture effective 35-40 pour les inscrits
+    // hors-priorité sociale.
+    let severity = 4.5;
+    if (city.slug === "paris") severity += 2.5;
+    else if (CRECHE_PETITE_COURONNE.has(city.department)) severity += 2.2;
+    else if (CRECHE_GRANDE_COURONNE.has(city.department)) severity += 1.5;
+    else if (CRECHE_PACA_LITTORAL.has(city.department)) severity += 1.3;
+    else if (CRECHE_DROM.has(city.department)) severity += 1.8;
+
+    // Pression foncière — plus le prix m² monte, plus le profil
+    // dual-earner CSP+ domine le bassin et concentre la demande de garde,
+    // avec un retour au travail rapide après congé maternité / paternité.
+    if (priceM2 >= 6_500) severity += 1.2;
+    else if (priceM2 >= 5_000) severity += 0.8;
+    else if (priceM2 >= 3_500) severity += 0.4;
+
+    // Densité — la demande absolue en places croît avec la population,
+    // sans que l'offre publique communale suive au même rythme.
+    if (pop >= 200_000) severity += 0.6;
+    else if (pop >= 100_000) severity += 0.4;
+    else if (pop >= 50_000) severity += 0.2;
+
+    // Vocation jeune / dual-earner — signal caractère bassin CSP+ jeune
+    // adulte où le double revenu est la norme, donc demande inélastique.
+    if (CRECHE_YOUNG_TAG_REGEX.test(tags)) severity += 0.5;
+
+    severity = Math.min(10, severity);
+    if (severity < 6) continue;
+
+    let zoneLabel: string;
+    if (city.slug === "paris") zoneLabel = "Paris intra-muros";
+    else if (CRECHE_PETITE_COURONNE.has(city.department))
+      zoneLabel = `Petite Couronne · ${city.department}`;
+    else if (CRECHE_GRANDE_COURONNE.has(city.department))
+      zoneLabel = `Grande Couronne · ${city.department}`;
+    else if (CRECHE_PACA_LITTORAL.has(city.department))
+      zoneLabel = `PACA littorale · ${city.department}`;
+    else if (CRECHE_DROM.has(city.department))
+      zoneLabel = `DROM · ${city.department}`;
+    else zoneLabel = city.department;
+
+    const priceLabel =
+      priceM2 >= 5_500
+        ? ` · ${(priceM2 / 1000).toFixed(1)} k€/m²`
+        : priceM2 >= 3_500
+          ? ` · ${priceM2.toLocaleString("fr-FR")} €/m²`
+          : "";
+    const reason = `${zoneLabel} · ${pop.toLocaleString("fr-FR")} hab.${priceLabel}`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 15);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -2310,6 +2456,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Severity = 1,4 × facteur transport (7,5 → 0 · 5,0 → +3,6) + 1,4 si tag historique (historique / patrimoine / médiéval / remparts / vieille ville / corsaire / provençal / basque / alsacien / béarnais / Corse / Petite Venise / UNESCO / château / cathédrale / abbatiale / forteresse / romain / hospices / papes) + 0,9 si tag littoral (balnéaire / plage / littoral / Riviera / Croisette / Méditerranée / Atlantique / Manche / surf / nautisme / voile / vieux port / mer) + 0,7 si tag touristique (tourisme / premium / lifestyle / glamour / festival) + 0,9 si prix m² ≥ 5 500 € (0,4 si ≥ 4 000 €) + bonus zonal (Riviera + Var +1,2 · Corse +1,1 · Basque/Landes +0,9 · Méditerranée Ouest +0,8 · Alpes touristiques +0,8 · Atlantique sableuse +0,7 · Bretagne côtière +0,6) + bonus densité (≥ 200 000 hab. +0,5 · ≥ 100 000 hab. +0,3). Clampé à 10/10, filtré à severity ≥ 6. Métropoles > 300 000 hab. explicitement taguées « métropole » exclues (modèle de congestion différent — voir villes-embouteillages-quotidiens). Sources sous-jacentes : Cerema (ex-Certu, enquêtes stationnement villes moyennes touristiques 2019-2023), baromètre INDIGO 2024 (temps moyen de recherche de place), FNMS 2023 (taux d'occupation parc public), UFC-Que Choisir 2022 (tarifs horaires centre-ville), plans stationnement municipaux 2020-2026 (Aix-en-Provence, Nice, La Rochelle, Bayonne). Caveat : le taux d'occupation peut évoluer vite avec l'ouverture d'un nouveau parc en ouvrage ou d'un P+R relié au tram (Nice ligne T2, Aix parking Krypton) ; la saison touristique creuse un facteur 2 à 4 en tension entre janvier et août ; les résidents disposent presque toujours d'une carte annuelle (150-350 €/an selon commune) qui n'assure pas la place mais divise le coût par 4 vs le horaire. Vérifier avant achat : plan local de stationnement en vigueur, tarif carte résident, distance au premier parking public, ancienneté du dernier P+R livré.",
     rank: rankParkingCauchemar,
+  },
+  {
+    slug: "villes-manque-de-creches",
+    title: "Villes où trouver une place de crèche relève du parcours du combattant",
+    metaTitle: "Manque de crèches 2026 — Villes françaises tendues",
+    metaDescription:
+      "Classement 2026 des villes ≥ 25 000 hab. en Île-de-France, PACA littorale et DROM où les places de crèche saturent. Sources Onape, CAF, CNAF.",
+    emoji: "🍼",
+    intro:
+      "L'annonce vante la « proximité des écoles » et la « famille au centre du quartier » — photos d'enfants à trottinette, jardin partagé, halte-garderie repérée sur la même rue. Personne ne dit que la halte-garderie affichée sur Google Maps a fermé sa liste d'attente en janvier pour la rentrée suivante, que le collectif municipal ne prend plus de nouveau dossier avant douze à dix-huit mois, et que les crèches privées non conventionnées démarrent à 1 200 € nets par mois plein tarif Petite Couronne, 1 500 à 1 700 € Paris intramuros. Le calcul CAF « aide au libre choix du mode de garde » suppose une place obtenue en temps utile — ce qui n'est pas garanti sur la moitié dense de l'Île-de-France, sur les métropoles littorales de la Riviera et de la baie marseillaise, ou dans l'ensemble des DROM. La conséquence pratique : le second parent bascule sur un congé parental de six mois à un an, ce qui grippe la carrière et le budget familial au moment où le loyer d'un T3 vient d'augmenter.",
+    reality:
+      "On classe les villes de plus de 25 000 habitants situées dans les départements où le taux de couverture Onape 2024 (places de crèche pour 100 enfants de moins de trois ans) tombe sous la médiane nationale d'environ 60. Paris affiche ≈ 55 sur le papier mais 100 % de saturation dès la mi-janvier ; Petite Couronne (Hauts-de-Seine, Seine-Saint-Denis, Val-de-Marne) tourne autour de 42 ; Grande Couronne (Val-d'Oise, Essonne, Yvelines, Seine-et-Marne) autour de 45 ; Bouches-du-Rhône, Var et Alpes-Maritimes autour de 35-40 sur le littoral dense ; Guadeloupe, Martinique, Guyane, La Réunion et Mayotte entre 25 et 40 selon le territoire, avec une démographie jeune structurelle qui gonfle le dénominateur. On amplifie la gravité quand la commune concentre un profil de jeunes actifs CSP+ à double revenu (prix m² au-dessus de 5 000 € ou tags character « jeunes / branché / tech / start-up / étudiant ») — c'est là que la demande de garde est la plus inélastique et la file d'attente la plus longue. Les métropoles centres (Paris, Marseille, Nice, Cannes, Aix-en-Provence, Boulogne-Billancourt, Saint-Denis 93) concentrent les cas les plus lourds : listes fermées avant même l'ouverture de la campagne, priorisation stricte des ménages en situation de fragilité (parent seul, allocataire RSA, bénéficiaire AAH), report structurel sur assistante maternelle indépendante ou crèche privée non subventionnée.",
+    methodology:
+      "Severity = base zonale (Paris intra-muros +2,5 · Petite Couronne +2,2 · Grande Couronne +1,5 · Bouches-du-Rhône / Var / Alpes-Maritimes +1,3 · DROM +1,8) + facteur foncier (prix m² ≥ 6 500 € +1,2 · ≥ 5 000 € +0,8 · ≥ 3 500 € +0,4 — la pression foncière signale un profil dual-earner CSP+ à demande de garde inélastique) + facteur densité (≥ 200 000 hab. +0,6 · ≥ 100 000 hab. +0,4 · ≥ 50 000 hab. +0,2) + 0,5 si tag character « jeunes / branché / tech / start-up / étudiant / bobo / dynamique / nomade ». Base neutre 4,5 avant bonus. Clampé à 10/10, filtré à severity ≥ 6, population ≥ 25 000 hab., département dans la liste tendue Onape-CAF 2024, tags ruraux exclus (village / campagne / rural). Sources sous-jacentes : Onape (Observatoire national de la petite enfance) — rapport annuel « L'accueil du jeune enfant » édition 2024 (taux de couverture places de crèche par dept, capacités PMI agréées) ; CNAF — statistiques Cnaf-DSER 2023 sur les modes de garde ; DREES 2023 « L'accueil du jeune enfant » ; Insee 2023 sur les interruptions de carrière liées au défaut de mode de garde ; Ministère des Solidarités — plan « 200 000 places » 2023-2027 (priorisation Île-de-France dense + PACA littorale + DROM). Caveat : le taux Onape est une moyenne départementale — l'écart intra-département peut être fort (une commune du 92 comme Neuilly-sur-Seine dispose d'un maillage privé bien supérieur à Gennevilliers ou Nanterre à taux public équivalent). Le mode de garde alternatif (assistante maternelle indépendante) reste disponible partout mais coûte 2 à 3 fois plus cher net qu'une crèche conventionnée après aides CAF, ce qui n'est pas neutre sur le budget d'un ménage à un ou deux revenus médians. Vérifier avant achat : taux de couverture Onape du département, calendrier de la campagne d'inscription communale (dates limites très strictes en Île-de-France), offre privée conventionnée vs non conventionnée sur le bassin, distance à une assistante maternelle agréée disponible (annuaire départemental accessible via monenfant.fr).",
+    rank: rankManqueDeCreches,
   },
 ];
 
