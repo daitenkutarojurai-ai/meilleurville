@@ -16,6 +16,7 @@ import { commonOriginSlugs } from "@/lib/people-like-you";
 import { cityPhoto, guideCityPhoto } from "@/lib/city-images";
 import { VACATION_PROFILES } from "@/lib/vacation-fit";
 import { OWNER_RANKING_SLUGS } from "@/lib/owner-rankings";
+import { hasParksData } from "@/lib/city-parks";
 
 // Locale-aware sitemap. Each Vercel project sets NEXT_PUBLIC_DEFAULT_LOCALE and
 // (optionally) NEXT_PUBLIC_BASE_URL — the FR project emits FR URLs at
@@ -585,6 +586,18 @@ function citySubSection(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.7,
     },
+    // F59 — parks sub-page. Only cities whose OSM crawl has landed emit a URL:
+    // no page = no sitemap entry, so no soft-404 risk while the crawl catches up.
+    ...(hasParksData(city.slug)
+      ? [
+          {
+            url: `${BASE_URL}/villes/${city.slug}/parcs`,
+            lastModified: CITY_DATA_UPDATED,
+            changeFrequency: "monthly" as const,
+            priority: 0.7,
+          },
+        ]
+      : []),
   ]);
 }
 
@@ -1008,14 +1021,25 @@ function enCitySubSection(): MetadataRoute.Sitemap {
     "questions", "calendar", "local-mindset", "rental-market",
     "sports-leisure", "things-to-do", "statistics", "retail",
   ] as const;
-  return CITIES_SEED.flatMap((c) =>
-    subs.map((sub) => ({
+  return CITIES_SEED.flatMap((c) => {
+    const base = subs.map((sub) => ({
       url: `${BASE_URL}/cities/${c.slug}/${sub}`,
       lastModified: CITY_DATA_UPDATED,
       changeFrequency: "monthly" as const,
       priority: 0.55,
-    }))
-  );
+    }));
+    // F59 — same conditional emission as the FR side: only cities the crawl
+    // has already reached get a /parks URL. As batches land, they pop in.
+    if (hasParksData(c.slug)) {
+      base.push({
+        url: `${BASE_URL}/cities/${c.slug}/parks`,
+        lastModified: CITY_DATA_UPDATED,
+        changeFrequency: "monthly" as const,
+        priority: 0.55,
+      });
+    }
+    return base;
+  });
 }
 
 function enCompareSection(): MetadataRoute.Sitemap {

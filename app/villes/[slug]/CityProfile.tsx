@@ -41,6 +41,7 @@ import { buildCityNarrative } from "@/lib/city-narrative";
 import { computeNicheScores, TERRAIN_LABELS } from "@/lib/niche-scores";
 import { formatNumber, formatScore, scoreColor, cn, sunshineDays, sunshineHours } from "@/lib/utils";
 import { internetScore, internetLabel } from "@/lib/internet-score";
+import { hasParksData, cityParks } from "@/lib/city-parks";
 import type { CitySeed } from "@/data/cities-seed";
 import type { CityProfileData } from "@/lib/city-profile-data";
 import type { CityPhoto } from "@/lib/city-images";
@@ -717,6 +718,30 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                   </div>
                   <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
                 </a>
+                {hasParksData(city.slug) && (() => {
+                  const pd = cityParks(city.slug);
+                  const count = pd?.parks.length ?? 0;
+                  const withPlay = pd?.parks.filter((p) => p.playground).length ?? 0;
+                  return (
+                    <a
+                      href={sub("parcs", "parks")}
+                      className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
+                    >
+                      <div className="min-w-0">
+                        <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                          {L("🌳 Parcs & espaces verts", "🌳 Parks & green spaces")}
+                        </div>
+                        <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
+                          {L(
+                            `${count} parcs${withPlay ? ` · ${withPlay} avec aire de jeux` : ""}`,
+                            `${count} parks${withPlay ? ` · ${withPlay} with playground` : ""}`,
+                          )}
+                        </div>
+                      </div>
+                      <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
+                    </a>
+                  );
+                })()}
                 <a
                   href={sub("climat", "climate")}
                   className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"

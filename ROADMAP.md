@@ -18,7 +18,7 @@ item ouvert de cette vague** — c'est le plus gros du lot (pipeline de données
 | F60 | `/departements` — finder par n° / nom / ville + carte cliquable | P1 | S | low | ✅ shipped 2026-07-22 · carte cliquable 2026-07-23 |
 | F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · enrichi le même jour |
 
-### F59 — Parcs & espaces verts par ville ⬜ OUVERT
+### F59 — Parcs & espaces verts par ville 🟡 EN COURS (10/540 villes, surfaces livrées)
 
 **Intention utilisateur** (à ne pas perdre de vue) : un parent qui tourne en rond dans
 le même parc depuis deux ans veut *découvrir les autres parcs* — le sien, ceux du
@@ -96,6 +96,37 @@ construite pour l'instant : générer 540 sous-pages « aucun parc référencé 
 juste pour tenir un template serait du bruit à indexer. Dès qu'un lot est
 crawlé (localement ou après allowlist Overpass sur la routine), la phase C
 peut être branchée en un seul run sans réécrire l'accesseur.
+
+**Point d'étape 2026-07-25** : le crawl a été passé localement dans une session
+précédente, 10 métropoles couvertes (400 parcs OSM réels : Bordeaux, Lille, Lyon,
+Marseille, Montpellier, Nantes, Nice, Paris, Strasbourg, Toulouse). Nouveau run
+routine : Overpass toujours bloqué (403 sur les 5 hosts), donc pas d'extension du
+lot possible ici — pivot phase C pour livrer immédiatement les surfaces sur ce
+qu'on a déjà :
+- `/villes/[slug]/parcs` (FR) et `/cities/[slug]/parks` (EN) : SSG **conditionnel**
+  sur `hasParksData(slug)` — seules les villes crawlées émettent une route, les
+  530 autres apparaîtront lot après lot sans changement de code. Hero + strip
+  stats (nombre, aires de jeux, surface totale, plus grand) + liste triée par
+  superficie avec badges (aire de jeux, poussette/PMR, point d'eau, chiens),
+  distance à pied depuis le centre, liens carte OSM et fiche OSM par entrée,
+  bloc **changer d'air** (villes voisines à ≤ 30 km avec parcs référencés),
+  attribution **ODbL / © les contributeurs OpenStreetMap** avec licence et
+  invitation à contribuer.
+- JSON-LD `ItemList` de `schema.org/Park` (top 20) + `BreadcrumbList`,
+  `alternates.canonical` FR + EN.
+- Carte 🌳 dans la grille de sous-pages `CityProfile.tsx`, conditionnée sur
+  `hasParksData` (locale-aware, sortie FR byte-identical pour les 530 villes
+  sans données) — juste après Quartiers, en surface aux endroits où le parent
+  qui « tourne en rond » va vraiment tomber dessus.
+- Sitemap : entrées FR et EN émises **uniquement** pour les slugs couverts (10
+  URLs de chaque côté aujourd'hui, ça grandit avec le crawl). Pas d'entrée
+  soft-404 pour les 530 non-couvertes.
+- `npx tsc --noEmit` propre.
+
+Reste à faire : reprendre les batches de crawl (Overpass débloqué), ~9 lots
+de 60 villes pour finir les 540. La feature est déjà utile aujourd'hui pour
+les 10 métropoles les plus peuplées ; chaque nouveau lot commité déclenche
+automatiquement les routes et les entrées sitemap correspondantes.
 
 ---
 
