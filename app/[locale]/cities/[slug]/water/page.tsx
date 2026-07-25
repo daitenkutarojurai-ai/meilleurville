@@ -58,7 +58,12 @@ export default async function EnCityWater({ params }: Props) {
 
   const water = computeWaterStress(c);
   // The lib composite is 0-10 where 10 = most stressed. Present "10 = best".
-  const score = Math.round((10 - water.composite) * 10) / 10;
+  // This page is named for the hazard ("water stress"), so it shows the stress
+  // the engine measures: 10 = most stressed. The FR twin (/villes/[slug]/eau)
+  // shows the same number — hreflang alternates must not disagree. The site
+  // score palette runs the other way, so it is fed the inverse.
+  const score = Math.round(water.composite * 10) / 10;
+  const hazardColor = (v: number) => scoreColor(10 - v);
 
   return (
     <main id="main-content" className="min-h-screen">
@@ -80,7 +85,8 @@ export default async function EnCityWater({ params }: Props) {
           </h1>
         </div>
         <p className="text-[var(--text-secondary)] text-lg leading-relaxed">
-          Water-security score: <span className={`font-mono-data font-bold ${scoreColor(score)}`}>{score.toFixed(1)}/10</span>{" "}
+          Water stress: <span className={`font-mono-data font-bold ${hazardColor(score)}`}>{score.toFixed(1)}/10</span>{" "}
+          <span className="text-sm text-[var(--text-tertiary)]">(10 = most stressed)</span>{" "}
           (stress level: {LEVEL_LABEL[water.level]}). {HERO_VERDICT[water.level]}
         </p>
       </section>
@@ -88,12 +94,12 @@ export default async function EnCityWater({ params }: Props) {
       <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6 grid sm:grid-cols-2 gap-3">
         {DIMS.map((d) => {
           const dim = water[d.key];
-          const dimScore = Math.round((10 - dim.score) * 10) / 10;
+          const dimScore = Math.round(dim.score * 10) / 10;
           return (
             <div key={d.key} className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4">
               <div className="flex items-baseline justify-between">
                 <p className="font-semibold text-[var(--text-primary)]">{d.label}</p>
-                <span className={`font-mono-data font-bold ${scoreColor(dimScore)}`}>{dimScore.toFixed(1)}</span>
+                <span className={`font-mono-data font-bold ${hazardColor(dimScore)}`}>{dimScore.toFixed(1)}</span>
               </div>
               <p className="text-xs text-[var(--text-secondary)] mt-1">
                 {LEVEL_LABEL[dim.level]} — {d.note}

@@ -57,8 +57,12 @@ export default async function EnCityNoise({ params }: Props) {
   if (!c) notFound();
 
   const noise = computeNoiseExposure(c);
-  // The lib composite is 0-10 where 10 = loudest. Present "10 = quietest".
-  const quietScore = Math.round((10 - noise.composite) * 10) / 10;
+  // This page is named for the hazard ("Noise in X"), so it shows the exposure
+  // the engine measures: 10 = loudest. The FR twin (/villes/[slug]/bruit) shows
+  // the same number — they are hreflang alternates and must not disagree.
+  // The site score palette runs the other way, so it is fed the inverse.
+  const noiseScore = Math.round(noise.composite * 10) / 10;
+  const hazardColor = (s: number) => scoreColor(10 - s);
 
   return (
     <main id="main-content" className="min-h-screen">
@@ -80,7 +84,8 @@ export default async function EnCityNoise({ params }: Props) {
           </h1>
         </div>
         <p className="text-[var(--text-secondary)] text-lg leading-relaxed">
-          Quiet score: <span className={`font-mono-data font-bold ${scoreColor(quietScore)}`}>{quietScore.toFixed(1)}/10</span>{" "}
+          Noise exposure: <span className={`font-mono-data font-bold ${hazardColor(noiseScore)}`}>{noiseScore.toFixed(1)}/10</span>{" "}
+          <span className="text-sm text-[var(--text-tertiary)]">(10 = loudest)</span>{" "}
           ({LEVEL_LABEL[noise.level]}). {HERO_VERDICT[noise.level]}
         </p>
       </section>
@@ -88,12 +93,12 @@ export default async function EnCityNoise({ params }: Props) {
       <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6 grid sm:grid-cols-2 gap-3">
         {DIMS.map((d) => {
           const dim = noise[d.key];
-          const dimScore = Math.round((10 - dim.score) * 10) / 10;
+          const dimScore = Math.round(dim.score * 10) / 10;
           return (
             <div key={d.key} className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4">
               <div className="flex items-baseline justify-between">
                 <p className="font-semibold text-[var(--text-primary)]">{d.label}</p>
-                <span className={`font-mono-data font-bold ${scoreColor(dimScore)}`}>{dimScore.toFixed(1)}</span>
+                <span className={`font-mono-data font-bold ${hazardColor(dimScore)}`}>{dimScore.toFixed(1)}</span>
               </div>
               <p className="text-xs text-[var(--text-secondary)] mt-1">
                 {LEVEL_LABEL[dim.level]} — {d.note}

@@ -58,7 +58,13 @@ export default async function EnCityRisks({ params }: Props) {
 
   const risks = computeNaturalRisks(c);
   // The lib composite is 0-10 where 10 = highest risk. Present "10 = safest".
-  const safeScore = Math.round((10 - risks.composite) * 10) / 10;
+  // This page is named for the hazard ("natural risks"), so it shows the risk
+  // the engine measures: 10 = most exposed. The FR twin (/villes/[slug]/risques)
+  // and the national /risques tables show the same number — hreflang alternates
+  // must not disagree. The site score palette runs the other way, so it is fed
+  // the inverse.
+  const riskScore = Math.round(risks.composite * 10) / 10;
+  const hazardColor = (v: number) => scoreColor(10 - v);
 
   return (
     <main id="main-content" className="min-h-screen">
@@ -80,7 +86,8 @@ export default async function EnCityRisks({ params }: Props) {
           </h1>
         </div>
         <p className="text-[var(--text-secondary)] text-lg leading-relaxed">
-          Low-risk score: <span className={`font-mono-data font-bold ${scoreColor(safeScore)}`}>{safeScore.toFixed(1)}/10</span>{" "}
+          Risk score: <span className={`font-mono-data font-bold ${hazardColor(riskScore)}`}>{riskScore.toFixed(1)}/10</span>{" "}
+          <span className="text-sm text-[var(--text-tertiary)]">(10 = most exposed)</span>{" "}
           (overall exposure: {LEVEL_LABEL[risks.level]}). {HERO_VERDICT[risks.level]}
         </p>
       </section>
@@ -88,12 +95,12 @@ export default async function EnCityRisks({ params }: Props) {
       <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6 grid sm:grid-cols-2 gap-3">
         {DIMS.map((d) => {
           const dim = risks[d.key];
-          const dimScore = Math.round((10 - dim.score) * 10) / 10;
+          const dimScore = Math.round(dim.score * 10) / 10;
           return (
             <div key={d.key} className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4">
               <div className="flex items-baseline justify-between">
                 <p className="font-semibold text-[var(--text-primary)]">{d.label}</p>
-                <span className={`font-mono-data font-bold ${scoreColor(dimScore)}`}>{dimScore.toFixed(1)}</span>
+                <span className={`font-mono-data font-bold ${hazardColor(dimScore)}`}>{dimScore.toFixed(1)}</span>
               </div>
               <p className="text-xs text-[var(--text-secondary)] mt-1">
                 {LEVEL_LABEL[dim.level]} risk — {d.note}

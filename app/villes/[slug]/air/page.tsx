@@ -16,6 +16,16 @@ import {
 } from "@/lib/air-quality";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 
+// Les libellés de la lib sont au masculin (« Modéré ») ; ici ils qualifient
+// « exposition », qui est féminin. Map locale plutôt que modification de la lib,
+// dont les libellés servent aussi à d'autres surfaces.
+const AIR_LEVEL_LABEL_F: Record<keyof typeof AIR_LEVEL_LABEL, string> = {
+  faible: "faible",
+  modere: "modérée",
+  eleve: "élevée",
+  fort: "forte",
+};
+
 export const revalidate = false;
 export const dynamicParams = false;
 
@@ -32,7 +42,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const a = computeAirQuality(city);
   return {
     title: `Qualité de l'air à ${city.name} · NO2, particules, ozone, pollens`,
-    description: `Synthèse de la qualité de l'air à ${city.name} (${city.department}) : NO2 ${AIR_LEVEL_LABEL[a.no2.level].toLowerCase()}, PM2.5 ${AIR_LEVEL_LABEL[a.pm25.level].toLowerCase()}, ozone ${AIR_LEVEL_LABEL[a.ozone.level].toLowerCase()}, pollens ${AIR_LEVEL_LABEL[a.pollen.level].toLowerCase()}. Score ${a.composite}/10.`,
+    description: `Synthèse de la qualité de l'air à ${city.name} (${city.department}) : NO2 ${AIR_LEVEL_LABEL[a.no2.level].toLowerCase()}, PM2.5 ${AIR_LEVEL_LABEL[a.pm25.level].toLowerCase()}, ozone ${AIR_LEVEL_LABEL[a.ozone.level].toLowerCase()}, pollens ${AIR_LEVEL_LABEL[a.pollen.level].toLowerCase()}. Score ${(10 - a.composite).toFixed(1)}/10 (10 = air le plus pur).`,
     alternates: { canonical: `/villes/${slug}/air` },
     openGraph: {
       title: `Qualité de l'air à ${city.name}`,
@@ -52,7 +62,7 @@ function AirBlock({ dim, label }: { dim: AirDimension; label: string }) {
       </div>
       <div className="flex items-baseline gap-2 mb-2">
         <div className="text-2xl font-bold tabular-nums text-[var(--text-primary)]">
-          {dim.score.toFixed(1)}
+          {(10 - dim.score).toFixed(1)}
           <span className="text-sm font-normal text-[var(--text-tertiary)] ml-0.5">/10</span>
         </div>
       </div>
@@ -77,7 +87,7 @@ export default async function AirPage({ params }: Props) {
   const faq = faqJsonLd([
     {
       q: `Quelle est la qualité de l'air à ${city.name} ?`,
-      a: `${city.name} (${city.department}) présente une exposition composite ${AIR_LEVEL_LABEL[a.level].toLowerCase()} (${a.composite}/10). Détail : NO2 ${a.no2.score}/10, PM2.5 ${a.pm25.score}/10, ozone ${a.ozone.score}/10, pollens ${a.pollen.score}/10.`,
+      a: `${city.name} (${city.department}) obtient ${(10 - a.composite).toFixed(1)}/10 en qualité de l'air (10 = air le plus pur), soit une exposition ${AIR_LEVEL_LABEL_F[a.level]}. Détail : NO2 ${(10 - a.no2.score).toFixed(1)}/10, PM2.5 ${(10 - a.pm25.score).toFixed(1)}/10, ozone ${(10 - a.ozone.score).toFixed(1)}/10, pollens ${(10 - a.pollen.score).toFixed(1)}/10.`,
     },
     {
       q: `Où voir l'indice ATMO en temps réel à ${city.name} ?`,
@@ -134,13 +144,17 @@ export default async function AirPage({ params }: Props) {
           <div className="flex items-baseline justify-between mb-3">
             <h2 className="text-sm uppercase tracking-wide text-[var(--text-tertiary)] font-semibold">Score composite</h2>
             <span className={`text-xs font-bold uppercase ${AIR_LEVEL_COLOR[a.level]}`}>
-              Exposition {AIR_LEVEL_LABEL[a.level].toLowerCase()}
+              Exposition {AIR_LEVEL_LABEL_F[a.level]}
             </span>
           </div>
+          {/* La page est nommée « Qualité de l'air » : le score doit donc suivre
+              ce nom (10 = air le plus pur). Le moteur mesure l'exposition
+              (10 = pire), on l'inverse à l'affichage — comme la version EN. */}
           <div className="text-4xl font-bold tabular-nums text-[var(--text-primary)] mb-3">
-            {a.composite.toFixed(1)}
+            {(10 - a.composite).toFixed(1)}
             <span className="text-lg font-normal text-[var(--text-tertiary)] ml-1">/10</span>
           </div>
+          <p className="text-[11px] text-[var(--text-tertiary)] mb-2">10 = air le plus pur · ATMO · CITEPA · RNSA</p>
           <p className="text-sm text-[var(--text-primary)] leading-relaxed">{a.signature}</p>
         </Card>
 

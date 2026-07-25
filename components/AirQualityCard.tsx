@@ -40,9 +40,12 @@ export function AirQualityCard({ city, locale = "fr" }: Props) {
           <ArrowRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors" />
         </div>
 
+        {/* Carte nommée « Qualité de l'air » : le score suit ce nom (10 = bon).
+            Le moteur mesure la pollution (10 = pire), on inverse à l'affichage —
+            comme la page /air et sa version EN. */}
         <div className="flex items-baseline gap-2 mb-3">
           <span className="text-2xl font-bold tabular-nums text-[var(--text-primary)]">
-            {a.composite.toFixed(1)}
+            {(10 - a.composite).toFixed(1)}
             <span className="text-sm font-normal text-[var(--text-tertiary)] ml-0.5">/10</span>
           </span>
           <span className={`text-xs font-bold uppercase ${AIR_LEVEL_COLOR[a.level]}`}>
@@ -55,7 +58,7 @@ export function AirQualityCard({ city, locale = "fr" }: Props) {
             <div key={label} className="flex items-center justify-between rounded-lg bg-[var(--bg-surface)] px-2 py-1">
               <span className="text-[var(--text-secondary)]">{label}</span>
               <span className={`font-bold tabular-nums ${AIR_LEVEL_COLOR[dim.level]}`}>
-                {dim.score.toFixed(1)}
+                {(10 - dim.score).toFixed(1)}
               </span>
             </div>
           ))}
@@ -63,8 +66,8 @@ export function AirQualityCard({ city, locale = "fr" }: Props) {
 
         <p className="text-[11px] text-[var(--text-tertiary)] leading-tight mt-3">
           {L(
-            "10 = pollution maximale · ATMO · CITEPA · RNSA — mesure horaire sur atmo-france.org.",
-            "10 = worst pollution · ATMO · CITEPA · RNSA — hourly readings on atmo-france.org.",
+            "10 = air le plus pur · ATMO · CITEPA · RNSA — mesure horaire sur atmo-france.org.",
+            "10 = cleanest air · ATMO · CITEPA · RNSA — hourly readings on atmo-france.org.",
           )}
         </p>
       </Link>
