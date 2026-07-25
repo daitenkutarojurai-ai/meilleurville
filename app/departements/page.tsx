@@ -7,12 +7,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { DepartementFinder, type DeptEntry } from "@/components/DepartementFinder";
 import { DepartementMap, type DeptMapEntry } from "@/components/DepartementMap";
-
-// Le n° de département vient du code Insee : 3 chiffres en outre-mer (971-976),
-// 2 caractères ailleurs — ce qui donne bien 2A/2B pour la Corse.
-function deptNumber(inseeCode: string): string {
-  return inseeCode.startsWith("97") ? inseeCode.slice(0, 3) : inseeCode.slice(0, 2);
-}
+import { deptNumber } from "@/lib/dept-slug";
 
 export const metadata: Metadata = {
   title: "Villes par département · France",
@@ -40,7 +35,7 @@ export default function DepartementsPage() {
   const sortedDepts = Object.entries(byDept)
     .map(([dept, cities]) => ({
       dept,
-      num: deptNumber(cities[0].inseeCode),
+      num: deptNumber(dept, cities[0].inseeCode),
       cities: [...cities].sort((a, b) => b.scores.global - a.scores.global),
       avgScore: cities.reduce((s, c) => s + c.scores.global, 0) / cities.length,
     }))

@@ -16,11 +16,18 @@ function normalize(s: string): string {
   return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
 }
 
-// "2A"/"2B" sort between 19 and 21; DROM (971+) at the end.
+// Les n° ne sont pas tous numériques : "2A"/"2B" (Corse) se classent entre 19 et
+// 21, "69D"/"69M" (Rhône / Métropole de Lyon) se suivent à l'intérieur du 69, et
+// les DROM (971+) ferment la marche. On trie donc sur la partie chiffrée, la
+// lettre servant de départage — sans quoi Number("69M") vaut NaN et l'ordre du
+// tri « N° » devient indéterminé.
 function numRank(num: string): number {
-  if (num === "2A") return 20.1;
-  if (num === "2B") return 20.2;
-  return Number(num);
+  // La Corse est le seul cas où la partie chiffrée ment : 2A/2B ont remplacé le
+  // département 20, ils se classent donc à 20, pas à 2.
+  const digits = num.startsWith("2A") || num.startsWith("2B") ? 20 : parseInt(num, 10);
+  if (Number.isNaN(digits)) return Number.MAX_SAFE_INTEGER;
+  const suffix = num.replace(/^\d+/, "");
+  return digits + (suffix ? (suffix.charCodeAt(0) % 32) / 100 : 0);
 }
 
 type Sort = "num" | "az" | "score";
