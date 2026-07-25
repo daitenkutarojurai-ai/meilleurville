@@ -74,11 +74,11 @@ export default async function MacroRegionSafetyEnPage({ params }: Props) {
   const stressed = [...cities].sort((a, b) => b.safety.composite - a.safety.composite).slice(0, 10);
 
   const n = cities.length || 1;
-  const avgComposite = Math.round((cities.reduce((s, c) => s + c.safety.composite, 0) / n) * 10) / 10;
-  const avgProperty = Math.round((cities.reduce((s, c) => s + c.safety.property.score, 0) / n) * 10) / 10;
-  const avgPersons = Math.round((cities.reduce((s, c) => s + c.safety.persons.score, 0) / n) * 10) / 10;
-  const avgNoct = Math.round((cities.reduce((s, c) => s + c.safety.nocturnal.score, 0) / n) * 10) / 10;
-  const avgVffs = Math.round((cities.reduce((s, c) => s + c.safety.vffs.score, 0) / n) * 10) / 10;
+  const avgComposite = Math.round((10 - cities.reduce((s, c) => s + c.safety.composite, 0) / n) * 10) / 10;
+  const avgProperty = Math.round((10 - cities.reduce((s, c) => s + c.safety.property.score, 0) / n) * 10) / 10;
+  const avgPersons = Math.round((10 - cities.reduce((s, c) => s + c.safety.persons.score, 0) / n) * 10) / 10;
+  const avgNoct = Math.round((10 - cities.reduce((s, c) => s + c.safety.nocturnal.score, 0) / n) * 10) / 10;
+  const avgVffs = Math.round((10 - cities.reduce((s, c) => s + c.safety.vffs.score, 0) / n) * 10) / 10;
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Home", path: "/" },
@@ -91,15 +91,15 @@ export default async function MacroRegionSafetyEnPage({ params }: Props) {
       q: `Which are the safest cities in ${label}?`,
       a:
         calmest.length > 0
-          ? `Top 3 by composite score (lower = safer): ${calmest
+          ? `Top 3 by composite score (higher = safer): ${calmest
               .slice(0, 3)
-              .map((c) => `${c.name} (${c.safety.composite.toFixed(1)}/10)`)
+              .map((c) => `${c.name} (${(10 - c.safety.composite).toFixed(1)}/10)`)
               .join(", ")}.`
           : `No cities with over 10,000 inhabitants are listed for this macro-region.`,
     },
     {
       q: `What is the average safety profile in ${label}?`,
-      a: `Average composite score ${avgComposite.toFixed(1)}/10 (10 = highest insecurity). Sub-scores: property crime ${avgProperty.toFixed(1)}/10, personal crime ${avgPersons.toFixed(1)}/10, night-time ${avgNoct.toFixed(1)}/10, domestic violence ${avgVffs.toFixed(1)}/10.`,
+      a: `Average composite score ${avgComposite.toFixed(1)}/10 (10 = safest). Sub-scores: property crime ${avgProperty.toFixed(1)}/10, personal crime ${avgPersons.toFixed(1)}/10, night-time ${avgNoct.toFixed(1)}/10, domestic violence ${avgVffs.toFixed(1)}/10.`,
     },
     {
       q: `How is this ranking calculated?`,
@@ -155,7 +155,7 @@ export default async function MacroRegionSafetyEnPage({ params }: Props) {
             ))}
           </div>
           <p className="text-[11px] text-[var(--text-tertiary)] mt-3">
-            Sub-scores: 10 = maximum insecurity (SSMSI convention). Lower is safer.
+            Sub-scores: 10 = safest. The SSMSI engine scores insecurity (10 = worst); the display is inverted.
           </p>
         </Card>
 
@@ -191,15 +191,15 @@ export default async function MacroRegionSafetyEnPage({ params }: Props) {
                     <td className="px-3 py-2 text-[var(--text-tertiary)]">{c.department}</td>
                     <td className="px-3 py-2 text-right">
                       <span className={`font-bold tabular-nums ${SAFETY_LEVEL_COLOR[c.safety.level]}`}>
-                        {c.safety.composite.toFixed(1)}
+                        {(10 - c.safety.composite).toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">
                         {SAFETY_LEVEL_LABEL[c.safety.level]}
                       </span>
                     </td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.safety.property.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.safety.persons.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.safety.nocturnal.score.toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.safety.property.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.safety.persons.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{(10 - c.safety.nocturnal.score).toFixed(1)}</td>
                   </tr>
                 ))}
               </tbody>
@@ -239,13 +239,13 @@ export default async function MacroRegionSafetyEnPage({ params }: Props) {
                     <td className="px-3 py-2 text-[var(--text-tertiary)]">{c.department}</td>
                     <td className="px-3 py-2 text-right">
                       <span className="font-bold tabular-nums text-red-600">
-                        {c.safety.composite.toFixed(1)}
+                        {(10 - c.safety.composite).toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">/10</span>
                     </td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.safety.property.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.safety.persons.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.safety.nocturnal.score.toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.safety.property.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.safety.persons.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{(10 - c.safety.nocturnal.score).toFixed(1)}</td>
                   </tr>
                 ))}
               </tbody>

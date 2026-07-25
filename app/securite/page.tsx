@@ -40,19 +40,19 @@ export default function SafetyHubPage() {
       q: "Quelles sont les villes les plus calmes en France ?",
       a: `Selon notre composite F58 (atteintes biens 35 % + personnes 30 % + nuit 20 % + VFFS 15 %), les villes ≥ 15 000 hab. les plus calmes sont : ${calmest
         .slice(0, 5)
-        .map((c) => `${c.name} (${c.safety.composite}/10)`)
-        .join(", ")}. Score faible = composite SSMSI sous la moyenne nationale.`,
+        .map((c) => `${c.name} (${(10 - c.safety.composite).toFixed(1)}/10)`)
+        .join(", ")}. Score élevé = composite SSMSI sous la moyenne nationale.`,
     },
     {
       q: "Quelles villes sont les plus tendues sur la sécurité ?",
-      a: `Les villes ≥ 15 000 hab. au composite le plus élevé sont : ${stressed
+      a: `Les villes ≥ 15 000 hab. au composite le plus bas sont : ${stressed
         .slice(0, 5)
-        .map((c) => `${c.name} (${c.safety.composite}/10)`)
+        .map((c) => `${c.name} (${(10 - c.safety.composite).toFixed(1)}/10)`)
         .join(", ")}. Elles cumulent généralement atteintes aux biens (vols, cambriolages) et atteintes aux personnes au-dessus de la moyenne SSMSI.`,
     },
     {
       q: "Comment ce classement est-il calculé ?",
-      a: "Composite agrégeant 4 dimensions SSMSI : atteintes aux biens (35 %, cambriolages + vols véhicules + vols sans violence, moyenne nationale ~16,5 ‰), atteintes aux personnes (30 %, coups & blessures volontaires hors VFFS, moyenne ~4,3 ‰), sécurité nocturne (20 %, rixes & dégradations), violences faites aux femmes (15 %, signalements SSMSI). Score 0-10, 10 = pire.",
+      a: "Composite agrégeant 4 dimensions SSMSI : atteintes aux biens (35 %, cambriolages + vols véhicules + vols sans violence, moyenne nationale ~16,5 ‰), atteintes aux personnes (30 %, coups & blessures volontaires hors VFFS, moyenne ~4,3 ‰), sécurité nocturne (20 %, rixes & dégradations), violences faites aux femmes (15 %, signalements SSMSI). Score 0-10, 10 = ville la plus sûre.",
     },
     {
       q: "Où voir les chiffres SSMSI officiels ?",
@@ -77,7 +77,7 @@ export default function SafetyHubPage() {
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Index composite agrégeant quatre dimensions SSMSI : atteintes aux biens,
           atteintes aux personnes, sécurité nocturne, violences faites aux femmes.
-          Score 0-10, 10 = pire. Filtre 15 000 habitants minimum pour pertinence des
+          Score 0-10, 10 = ville la plus sûre. Filtre 15 000 habitants minimum pour pertinence des
           indicateurs.
         </p>
 
@@ -92,7 +92,7 @@ export default function SafetyHubPage() {
           Top 30 — villes les plus calmes
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
-          Communes ≥ 15 000 hab. au composite SSMSI le plus bas. Souvent : sous-préfectures
+          Communes ≥ 15 000 hab. au composite SSMSI le plus élevé. Souvent : sous-préfectures
           tranquilles, villes moyennes hors zone urbaine dense, communes rurales structurées.
         </p>
         <Card className="mt-4 overflow-hidden p-0">
@@ -125,16 +125,16 @@ export default function SafetyHubPage() {
                     <td className="px-3 py-2 text-[var(--text-tertiary)]">{c.region}</td>
                     <td className="px-3 py-2 text-right">
                       <span className={`font-bold tabular-nums ${SAFETY_LEVEL_COLOR[c.safety.level]}`}>
-                        {c.safety.composite.toFixed(1)}
+                        {(10 - c.safety.composite).toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">
                         {SAFETY_LEVEL_LABEL[c.safety.level]}
                       </span>
                     </td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.safety.property.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.safety.persons.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.safety.nocturnal.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.safety.vffs.score.toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.safety.property.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.safety.persons.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{(10 - c.safety.nocturnal.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{(10 - c.safety.vffs.score).toFixed(1)}</td>
                   </tr>
                 ))}
               </tbody>
@@ -142,7 +142,7 @@ export default function SafetyHubPage() {
           </div>
         </Card>
         <p className="text-xs text-[var(--text-tertiary)] mt-2">
-          Lecture des sous-scores : 10 = insécurité maximale.
+          Lecture des sous-scores : 10 = le plus sûr.
         </p>
 
         {/* Stressed */}
@@ -183,13 +183,13 @@ export default function SafetyHubPage() {
                     <td className="px-3 py-2 text-[var(--text-tertiary)]">{c.region}</td>
                     <td className="px-3 py-2 text-right">
                       <span className="font-bold tabular-nums text-red-600">
-                        {c.safety.composite.toFixed(1)}
+                        {(10 - c.safety.composite).toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">/10</span>
                     </td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.safety.property.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.safety.persons.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.safety.nocturnal.score.toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.safety.property.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.safety.persons.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{(10 - c.safety.nocturnal.score).toFixed(1)}</td>
                   </tr>
                 ))}
               </tbody>
@@ -237,7 +237,7 @@ export default function SafetyHubPage() {
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
           Le profil sécurité varie fortement entre les côtes touristiques (cambriolages
-          saisonniers) et l&apos;arc alpin résidentiel (composite très bas). Vue restreinte
+          saisonniers) et l&apos;arc alpin résidentiel (composite très élevé). Vue restreinte
           à chaque grande zone.
         </p>
         <div className="mt-3 grid grid-cols-2 sm:grid-cols-3 gap-3">

@@ -37,9 +37,12 @@ export function SafetyDeepCard({ city, locale = "fr" }: Props) {
           <ArrowRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors" />
         </div>
 
+        {/* Échelle « 10 = bon » (le moteur note 10 = insécurité max ; on inverse
+            l'affichage pour rester cohérent avec le reste du site — et avec la
+            page /securite vers laquelle cette carte pointe). */}
         <div className="flex items-baseline gap-2 mb-3">
           <span className="text-2xl font-bold tabular-nums text-[var(--text-primary)]">
-            {s.composite.toFixed(1)}
+            {(10 - s.composite).toFixed(1)}
             <span className="text-sm font-normal text-[var(--text-tertiary)] ml-0.5">/10</span>
           </span>
           <span className={`text-xs font-bold uppercase ${SAFETY_LEVEL_COLOR[s.level]}`}>
@@ -52,14 +55,14 @@ export function SafetyDeepCard({ city, locale = "fr" }: Props) {
             <div key={label} className="flex items-center justify-between rounded-lg bg-[var(--bg-surface)] px-2 py-1">
               <span className="text-[var(--text-secondary)]">{label}</span>
               <span className={`font-bold tabular-nums ${SAFETY_LEVEL_COLOR[dim.level]}`}>
-                {dim.score.toFixed(1)}
+                {(10 - dim.score).toFixed(1)}
               </span>
             </div>
           ))}
         </div>
 
         <p className="text-[11px] text-[var(--text-tertiary)] leading-tight mt-3">
-          {L("SSMSI · Insee CVS — 10 = insécurité maximale.", "SSMSI · Insee victimization survey — 10 = highest insecurity.")}
+          {L("10 = ville la plus sûre · SSMSI · Insee CVS.", "10 = safest · SSMSI · Insee victimization survey.")}
         </p>
       </Link>
     </Card>

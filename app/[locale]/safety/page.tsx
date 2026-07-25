@@ -63,19 +63,19 @@ export default function EnSafetyHubPage() {
       q: "Which French cities have the best safety record?",
       a: `Based on our composite index (property crime 35% + personal crime 30% + night safety 20% + domestic violence 15%), the safest cities with 15,000+ inhabitants are: ${calmest
         .slice(0, 5)
-        .map((c) => `${c.name} (${c.safety.composite.toFixed(1)}/10)`)
+        .map((c) => `${c.name} (${(10 - c.safety.composite).toFixed(1)}/10)`)
         .join(", ")}. A low score means the city sits below the national SSMSI average.`,
     },
     {
       q: "Which French cities are the most strained on safety?",
-      a: `The cities with the highest composite score (worst safety) among those with 15,000+ inhabitants are: ${stressed
+      a: `The cities with the lowest composite score (worst safety) among those with 15,000+ inhabitants are: ${stressed
         .slice(0, 5)
-        .map((c) => `${c.name} (${c.safety.composite.toFixed(1)}/10)`)
+        .map((c) => `${c.name} (${(10 - c.safety.composite).toFixed(1)}/10)`)
         .join(", ")}. They typically combine above-average property crime (burglaries, vehicle theft) with higher personal assault rates.`,
     },
     {
       q: "How is the safety ranking calculated?",
-      a: "The composite aggregates four SSMSI dimensions: property crime (35%, burglaries + vehicle theft + non-violent theft, national average ~16.5‰), personal crime (30%, voluntary assault excluding domestic violence, average ~4.3‰), night safety (20%, brawls and nocturnal vandalism), and domestic violence (15%, SSMSI reported incidents). Score 0-10, where 10 = worst.",
+      a: "The composite aggregates four SSMSI dimensions: property crime (35%, burglaries + vehicle theft + non-violent theft, national average ~16.5‰), personal crime (30%, voluntary assault excluding domestic violence, average ~4.3‰), night safety (20%, brawls and nocturnal vandalism), and domestic violence (15%, SSMSI reported incidents). Score 0-10, where 10 = safest.",
     },
     {
       q: "What are the limitations of this data?",
@@ -102,7 +102,7 @@ export default function EnSafetyHubPage() {
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Composite index across four SSMSI dimensions: property crime,
           personal crime, night safety, and domestic violence.
-          Score 0-10 where 10 = worst. Filtered to cities of 15,000+ inhabitants
+          Score 0-10 where 10 = safest. Filtered to cities of 15,000+ inhabitants
           for statistical relevance.
         </p>
 
@@ -117,7 +117,7 @@ export default function EnSafetyHubPage() {
           Top 30 — Safest cities
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
-          Cities of 15,000+ inhabitants with the lowest SSMSI composite score.
+          Cities of 15,000+ inhabitants with the highest SSMSI composite score.
           Typically: quiet sub-prefectures, mid-sized towns outside dense urban zones,
           and structured small cities.
         </p>
@@ -151,16 +151,16 @@ export default function EnSafetyHubPage() {
                     <td className="px-3 py-2 text-[var(--text-tertiary)]">{c.region}</td>
                     <td className="px-3 py-2 text-right">
                       <span className={`font-bold tabular-nums ${SAFETY_LEVEL_COLOR[c.safety.level]}`}>
-                        {c.safety.composite.toFixed(1)}
+                        {(10 - c.safety.composite).toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">
                         {EN_SAFETY_LABEL[c.safety.level] ?? SAFETY_LEVEL_LABEL[c.safety.level]}
                       </span>
                     </td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.safety.property.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.safety.persons.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.safety.nocturnal.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.safety.vffs.score.toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.safety.property.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.safety.persons.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{(10 - c.safety.nocturnal.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{(10 - c.safety.vffs.score).toFixed(1)}</td>
                   </tr>
                 ))}
               </tbody>
@@ -168,7 +168,7 @@ export default function EnSafetyHubPage() {
           </div>
         </Card>
         <p className="text-xs text-[var(--text-tertiary)] mt-2">
-          Sub-scores: 10 = worst (maximum insecurity).
+          Sub-scores: 10 = safest.
         </p>
 
         {/* Most stressed */}
@@ -209,13 +209,13 @@ export default function EnSafetyHubPage() {
                     <td className="px-3 py-2 text-[var(--text-tertiary)]">{c.region}</td>
                     <td className="px-3 py-2 text-right">
                       <span className="font-bold tabular-nums text-red-600">
-                        {c.safety.composite.toFixed(1)}
+                        {(10 - c.safety.composite).toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">/10</span>
                     </td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.safety.property.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.safety.persons.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.safety.nocturnal.score.toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.safety.property.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.safety.persons.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{(10 - c.safety.nocturnal.score).toFixed(1)}</td>
                   </tr>
                 ))}
               </tbody>

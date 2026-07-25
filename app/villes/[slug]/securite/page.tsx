@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const s = computeSafetyDeep(city);
   return {
     title: `Sécurité à ${city.name} · détail SSMSI 2026`,
-    description: `Synthèse SSMSI de la sécurité à ${city.name} (${city.department}) : atteintes biens ${SAFETY_LEVEL_LABEL[s.property.level].toLowerCase()}, personnes ${SAFETY_LEVEL_LABEL[s.persons.level].toLowerCase()}, nuit ${SAFETY_LEVEL_LABEL[s.nocturnal.level].toLowerCase()}, VFFS ${SAFETY_LEVEL_LABEL[s.vffs.level].toLowerCase()}. Score ${s.composite}/10.`,
+    description: `Synthèse SSMSI de la sécurité à ${city.name} (${city.department}) : atteintes biens ${SAFETY_LEVEL_LABEL[s.property.level].toLowerCase()}, personnes ${SAFETY_LEVEL_LABEL[s.persons.level].toLowerCase()}, nuit ${SAFETY_LEVEL_LABEL[s.nocturnal.level].toLowerCase()}, VFFS ${SAFETY_LEVEL_LABEL[s.vffs.level].toLowerCase()}. Score ${(10 - s.composite).toFixed(1)}/10 (10 = ville la plus sûre).`,
     alternates: { canonical: `/villes/${slug}/securite` },
     openGraph: {
       title: `Sécurité à ${city.name} · détail SSMSI`,
@@ -52,7 +52,7 @@ function SafetyBlock({ dim, label }: { dim: SafetyDimension; label: string }) {
       </div>
       <div className="flex items-baseline gap-2 mb-2">
         <div className="text-2xl font-bold tabular-nums text-[var(--text-primary)]">
-          {dim.score.toFixed(1)}
+          {(10 - dim.score).toFixed(1)}
           <span className="text-sm font-normal text-[var(--text-tertiary)] ml-0.5">/10</span>
         </div>
       </div>
@@ -77,7 +77,7 @@ export default async function SecuritePage({ params }: Props) {
   const faq = faqJsonLd([
     {
       q: `${city.name} est-elle une ville sûre ?`,
-      a: `${city.name} (${city.department}) affiche un composite sécurité SSMSI ${s.composite}/10 (10 = pire). Détail : atteintes biens ${s.property.score}/10, personnes ${s.persons.score}/10, nuit ${s.nocturnal.score}/10, VFFS ${s.vffs.score}/10. ${s.signature}`,
+      a: `${city.name} (${city.department}) affiche un composite sécurité SSMSI ${(10 - s.composite).toFixed(1)}/10 (10 = ville la plus sûre). Détail : atteintes biens ${(10 - s.property.score).toFixed(1)}/10, personnes ${(10 - s.persons.score).toFixed(1)}/10, nuit ${(10 - s.nocturnal.score).toFixed(1)}/10, VFFS ${(10 - s.vffs.score).toFixed(1)}/10. ${s.signature}`,
     },
     {
       q: `Où voir les chiffres SSMSI officiels pour ${city.name} ?`,
@@ -137,8 +137,10 @@ export default async function SecuritePage({ params }: Props) {
               Sécurité {SAFETY_LEVEL_LABEL[s.level].toLowerCase()}
             </span>
           </div>
+          {/* Le moteur note 10 = insécurité maximale ; l'affichage est inversé
+              pour suivre la convention du site (10 = excellent partout). */}
           <div className="text-4xl font-bold tabular-nums text-[var(--text-primary)] mb-3">
-            {s.composite.toFixed(1)}
+            {(10 - s.composite).toFixed(1)}
             <span className="text-lg font-normal text-[var(--text-tertiary)] ml-1">/10</span>
           </div>
           <p className="text-sm text-[var(--text-primary)] leading-relaxed">{s.signature}</p>
