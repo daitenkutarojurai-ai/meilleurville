@@ -15,6 +15,7 @@ import { RED_FLAG_THEME_SLUGS } from "@/lib/red-flag-themes";
 import { commonOriginSlugs } from "@/lib/people-like-you";
 import { cityPhoto, guideCityPhoto } from "@/lib/city-images";
 import { VACATION_PROFILES } from "@/lib/vacation-fit";
+import { OWNER_RANKING_SLUGS } from "@/lib/owner-rankings";
 
 // Locale-aware sitemap. Each Vercel project sets NEXT_PUBLIC_DEFAULT_LOCALE and
 // (optionally) NEXT_PUBLIC_BASE_URL — the FR project emits FR URLs at
@@ -676,25 +677,21 @@ function comparerDepartementsSection(): MetadataRoute.Sitemap {
   return entries;
 }
 
+// Classements qui ne sont ni des RANKING_META ni des owner scores : chacun a sa
+// propre page écrite à la main sous app/classements/, donc rien ne permet de les
+// dériver. À tenir à jour en ajoutant une page ici.
+const STANDALONE_RANKING_SLUGS = [
+  "meilleur-rapport-qualite-prix",
+  "villes-sous-cotees",
+  "villes-moins-cheres",
+];
+
 function classementsSection(): MetadataRoute.Sitemap {
-  // Owner-score rankings (F16) — listed inline to avoid drift with
-  // lib/owner-rankings.ts (importing it would create a circular ref with
-  // CITIES_SEED at sitemap build time).
-  const ownerSlugs = [
-    "canicule-resistance",
-    "calme-sonore",
-    "lien-social",
-    "securite-nocturne",
-    "sans-voiture",
-    "teletravail-proprietaire",
-    "qualite-air",
-    "securite-femme-seule",
-    "jeune-actif",
-    "famille-proprietaire",
-    "meilleur-rapport-qualite-prix",
-    "villes-sous-cotees",
-    "villes-moins-cheres",
-  ];
+  // Les classements owner scores (F16) sont dérivés de lib/owner-rankings : la
+  // liste était recopiée ici et avait déjà divergé. Pas de cycle d'import à
+  // craindre — owner-rankings ne dépend que de cities-seed, que ce fichier
+  // importe déjà.
+  const ownerSlugs = [...OWNER_RANKING_SLUGS, ...STANDALONE_RANKING_SLUGS];
   return [
     ...Object.keys(RANKING_META).map((slug) => ({
       url: `${BASE_URL}/classements/${slug}`,
