@@ -130,9 +130,27 @@ Distribution mean ≈ 5.42. Penalties:
   `alternates: { canonical: "/<route>/<slug>" }`. Root layout provides the
   global default via `metadataBase`; page-level canonical overrides are needed
   for villes, classements, guides, regions, departements, comparer, quartiers, climat.
-- **Score convention**: `10 = excellent` for display everywhere. Internal libs that
-  use `10 = pire` (safety-deep, healthcare, employment, demography, services, env)
-  must invert before displaying. Each such lib has a `**Convention**` comment block.
+- **Score convention**: **the name of the metric must match the direction of the
+  number, and hreflang twins must show the same number.**
+  - Named for a **quality** (Sécurité, Qualité de l'air, Services publics,
+    Démographie, Emploi, Santé) → `10 = bon`. Libs that score the hazard
+    (`10 = pire`) are inverted **at the display site**, never in the engine —
+    sorts, levels and rankings keep the raw value.
+  - Named for a **nuisance** (Bruit, Stress hydrique, Risques naturels, Tension
+    locative) → raw `10 = pire` is correct; the name already says which way is
+    bad. Don't invert these.
+  - Every surface states what 10 means in its legend.
+  - A FR page and its EN counterpart are hreflang alternates: they must never
+    show different numbers for the same city. This is the check that catches the
+    bug — it's how safety (FR 6,8 vs EN 3,2) and the env quartet were found.
+  - Careful with colour: `scoreColor`/`scoreHex` is the global `10 = vert`
+    palette. A surface displaying a raw nuisance score must feed it the inverse
+    (see `hazardColor` in the EN noise/water/natural-risks pages), or use a
+    level-keyed palette (`NOISE_LEVEL_COLOR` & co, as the FR pages do).
+
+  Each hazard lib has a `**Convention**` comment block. `lib/environment-index.ts`
+  is the reference shape: it exposes both `healthScore` (10 = sain) and
+  `stressComposite` (10 = pire) so each surface picks the one matching its name.
 
 ## Adding a new city
 
