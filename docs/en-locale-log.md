@@ -11,3 +11,4 @@ One line per scheduled run.
 - 2026-07-18 app/[locale]/red-flags/themes/mono-tourism-dependence (source: app/red-flags/villes-mono-touristiques)
 - 2026-07-20 app/[locale]/red-flags/themes/heavy-property-tax (source: app/red-flags/villes-fiscalite-lourde)
 - 2026-07-23 app/[locale]/red-flags/themes/unfindable-rentals (source: app/red-flags/villes-logement-introuvable)
+- 2026-07-25 app/[locale]/red-flags/themes/childcare-shortage (source: app/red-flags/villes-manque-de-creches)
