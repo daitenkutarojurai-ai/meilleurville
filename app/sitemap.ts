@@ -586,6 +586,12 @@ function citySubSection(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.7,
     },
+    {
+      url: `${BASE_URL}/villes/${city.slug}/parent-solo`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    },
     // F59 — parks sub-page. Only cities whose OSM crawl has landed emit a URL:
     // no page = no sitemap entry, so no soft-404 risk while the crawl catches up.
     ...(hasParksData(city.slug)

@@ -1178,6 +1178,22 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                   </div>
                   <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
                 </a>
+                {locale !== "en" && (
+                  <a
+                    href={`/villes/${city.slug}/parent-solo`}
+                    className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
+                  >
+                    <div className="min-w-0">
+                      <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                        🧑‍🍼 Parent solo
+                      </div>
+                      <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
+                        Un seul revenu, un seul conducteur : ce qui tient
+                      </div>
+                    </div>
+                    <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
+                  </a>
+                )}
                 <a
                   href={sub("questions", "questions")}
                   className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
