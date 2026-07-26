@@ -174,6 +174,18 @@ export default function RedFlagsPage() {
               net médian départemental — un ratio à intégrer avant tout achat en Creuse,
               Cantal, Lozère, Vosges, Haute-Marne ou en montagne habitée.
             </p>
+            <p className="mt-2 text-sm text-[var(--text-secondary)]">
+              Le déclencheur est différent — mais tout aussi silencieux — pour un
+              foyer avec un enfant de 0-3 ans : le classement des{" "}
+              <Link href="/red-flags/villes-manque-de-creches" className="text-[var(--accent)] hover:underline">
+                villes où la place de crèche est un vrai goulot d&apos;étranglement
+              </Link>{" "}
+              croise le taux Onape de couverture places de crèche par département
+              avec la pression foncière et la densité, sur Paris intra-muros, la
+              Petite et Grande Couronne, la Riviera et l&apos;ensemble des DROM. Un
+              critère à sortir avant tout congé maternité ou déménagement, avant
+              même la question école.
+            </p>
           </div>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 auto-rows-fr">
             {RED_FLAG_THEMES.map((t) => (

@@ -242,6 +242,45 @@ export default async function ProfilePage({ params }: Props) {
           </section>
         )}
 
+        {/* Crèche counterpart — visible for profiles où la place de crèche 0-3
+            ans devient un goulot d'étranglement pratique : jeunes parents (par
+            définition), familles avec enfants (fratrie qui arrive), familles
+            nombreuses (2 à 3 places à sécuriser en même temps) et
+            monoparentales (un seul revenu = impossible d'absorber 1 500 €/mois
+            de crèche privée non conventionnée). Complète le top-20 par le
+            pendant à éviter côté zones tendues Onape (Île-de-France dense,
+            PACA littorale, DROM). */}
+        {["jeunes-parents", "familles-avec-enfants", "familles-nombreuses", "familles-monoparentales"].includes(profile.slug) && (
+          <section>
+            <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+              Le pendant à éviter — accès crèche
+            </h3>
+            <Link href="/red-flags/villes-manque-de-creches" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl" aria-hidden>🍼</span>
+                  <div>
+                    <p className="font-semibold text-[var(--text-primary)]">
+                      Villes où la place de crèche 0-3 ans devient un vrai goulot
+                    </p>
+                    <p className="text-xs text-[var(--text-secondary)] mt-1">
+                      Avant de valider un déménagement Paris intra-muros, Petite
+                      Couronne, Riviera ou DROM, croisez le top ci-dessus avec le
+                      classement des{" "}
+                      <span className="underline">bassins où l&apos;offre publique
+                      Onape est structurellement sous-dimensionnée</span> — listes
+                      fermées en janvier pour la rentrée suivante, délai 6 à 18 mois,
+                      report sur crèche privée non conventionnée à 1 200-1 700 €
+                      nets. Un critère qui n&apos;apparaît ni sur l&apos;annonce ni
+                      dans le score global.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+          </section>
+        )}
+
         {/* Coastal counterpart — visible only for the littoral profile */}
         {profile.slug === "amateurs-de-littoral" && (
           <section>
