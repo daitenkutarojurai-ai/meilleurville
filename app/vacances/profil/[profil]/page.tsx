@@ -18,6 +18,7 @@ import {
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { MapPin } from "lucide-react";
 import { MonoparentalExtras } from "./MonoparentalExtras";
+import { CelibataireExtras } from "./CelibataireExtras";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -33,10 +34,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!VACATION_PROFILES.includes(profil as VacationProfile)) return {};
   const def = VACATION_PROFILE_DEFS[profil as VacationProfile];
   const isMono = profil === "monoparental";
+  const isCelib = profil === "celibataire";
+  const title = isMono
+    ? "Vacances en famille monoparentale 2026 · sans voiture, sans supplément single"
+    : isCelib
+      ? "Vacances célibataire 2026 · villes vivantes hors saison, sans supplément single"
+      : `Vacances ${def.label.toLowerCase()} en France 2026 · destinations adaptées`;
   return {
-    title: isMono
-      ? "Vacances en famille monoparentale 2026 · sans voiture, sans supplément single"
-      : `Vacances ${def.label.toLowerCase()} en France 2026 · destinations adaptées`,
+    title,
     description: def.metaDesc,
     alternates: { canonical: `/vacances/profil/${profil}` },
     openGraph: {
@@ -179,6 +184,9 @@ export default async function ProfilPage({ params }: Props) {
 
       {/* Sections enrichies propres au profil monoparental */}
       {slug === "monoparental" && <MonoparentalExtras />}
+
+      {/* Sections enrichies propres au profil célibataire */}
+      {slug === "celibataire" && <CelibataireExtras />}
 
       {/* Cross-links profils */}
       <section className="mx-auto max-w-4xl px-4 sm:px-6 py-8">
