@@ -130,6 +130,23 @@ Distribution mean ≈ 5.42. Penalties:
   `alternates: { canonical: "/<route>/<slug>" }`. Root layout provides the
   global default via `metadataBase`; page-level canonical overrides are needed
   for villes, classements, guides, regions, departements, comparer, quartiers, climat.
+- **Brand name**: **`MaVilleIdéale`** (FR) / `BestCitiesInFrance` (EN) — with the
+  final `e` and the accent, matching the domain and the transactional emails.
+  The accent-less `MaVilleIdeal` was purged 2026-07-27 across 148 occurrences;
+  don't reintroduce it. Uppercase wordmark (badge SVGs): `MAVILLEIDÉALE`.
+- **Title length**: the root layout's `title.template` is a bare **`%s`** — no
+  brand suffix. It used to be `%s | <brand>`, which applied to all ~52 000 pages
+  and pushed the median title to 83 chars when Google renders ~60, so the part
+  that got truncated was the city or guide name. A page may append the brand
+  **only if the result stays ≤ 60 chars**; use `hubTitle()` from `lib/brand.ts`
+  rather than hardcoding the suffix. `openGraph`/`twitter` titles keep the brand
+  — those are social cards, not search results.
+- **Meta descriptions ≤ ~160 chars.** Don't pad with generic tails
+  ("Comparez avec d'autres villes.", "Estimation déterministe dérivée des
+  scores…") — they push the figures a searcher actually scans out of the
+  rendered snippet. Where a `description` field doubles as on-page editorial
+  copy (the `/classements` hubs), wrap the metadata use in `clampMeta()` so the
+  tag is cut on a sentence or clause boundary and the page keeps the full text.
 - **Score convention**: **the name of the metric must match the direction of the
   number, and hreflang twins must show the same number.**
   - Named for a **quality** (Sécurité, Qualité de l'air, Services publics,
