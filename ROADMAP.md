@@ -2,23 +2,23 @@
 
 Roadmap des features SSG-first, sans backend lourd, sans chiffres inventés.
 
-**Statut** : vague 1 + vague 2 livrées (F1, F2, F3, F4, F9, F10, F11, F12, F13, F15, F16, F17, F18, F19, F20, F21, F22, F23, F24). Vague 3 démarrée avec F25. Vague 5 démarrée avec F54. Vague 6 ouverte (F59, voir ci-dessous). 5 features dépendant d'accès externes ont été retirées en attente d'accès/budget : ex-F5 RealityCheck, ex-F6 Journal de déménagement, ex-F7 Alertes personnalisées, ex-F8 Ville du mois, ex-F14 Carte risques interactive.
+**Statut** : vague 1 + vague 2 livrées (F1, F2, F3, F4, F9, F10, F11, F12, F13, F15, F16, F17, F18, F19, F20, F21, F22, F23, F24). Vague 3 démarrée avec F25. Vague 5 démarrée avec F54. Vague 6 livrée (F58, F59, F60, F61). 5 features dépendant d'accès externes ont été retirées en attente d'accès/budget : ex-F5 RealityCheck, ex-F6 Journal de déménagement, ex-F7 Alertes personnalisées, ex-F8 Ville du mois, ex-F14 Carte risques interactive.
 
 ---
 
 ## Vague 6 — parents solo, parcs, navigation départements (ouverte 2026-07-22)
 
-Demande utilisateur directe. F58 / F60 / F61 livrées le jour même ; **F59 est le seul
-item ouvert de cette vague** — c'est le plus gros du lot (pipeline de données externe).
+Demande utilisateur directe. F58 / F60 / F61 livrées le jour même ; **F59 livrée le
+2026-07-27 — la vague 6 est close** — c'est le plus gros du lot (pipeline de données externe).
 
 | # | Feature | Prio | Cplx | SEO | Statut |
 |---|---------|------|------|-----|--------|
 | F58 | City Match — profil « parent solo » | P1 | S | mid | ✅ shipped 2026-07-22 |
-| F59 | **Parcs & espaces verts par ville** (pipeline OSM + sub-page ×540) | **P0** | **L** | **high** | ⬜ ouvert |
+| F59 | **Parcs & espaces verts par ville** (pipeline OSM + sub-page ×540) | **P0** | **L** | **high** | ✅ shipped 2026-07-27 |
 | F60 | `/departements` — finder par n° / nom / ville + carte cliquable | P1 | S | low | ✅ shipped 2026-07-22 · carte cliquable 2026-07-23 |
 | F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 |
 
-### F59 — Parcs & espaces verts par ville 🟡 EN COURS (81/540 villes, surfaces livrées)
+### F59 — Parcs & espaces verts par ville ✅ LIVRÉ (540/540 villes, 6 977 parcs)
 
 **Intention utilisateur** (à ne pas perdre de vue) : un parent qui tourne en rond dans
 le même parc depuis deux ans veut *découvrir les autres parcs* — le sien, ceux du

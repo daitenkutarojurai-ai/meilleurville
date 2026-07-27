@@ -534,7 +534,7 @@ Demande utilisateur. Détail complet dans `ROADMAP.md` § « Vague 6 ».
   `lib/city-match.ts`. Pondération distincte de `family` : un seul revenu et un seul
   conducteur, donc `cost` et `transport` pèsent autant que `schools`. L'encodage du
   permalien étant positionnel, les anciens liens restent valides.
-- [ ] **F59 — Parcs & espaces verts par ville** — ⬜ **le seul item ouvert de la vague.**
+- [x] **F59 — Parcs & espaces verts par ville** — ✅ **livré 2026-07-27.**
   Pipeline OSM/Overpass → `data/city-parks.json` → `/villes/[slug]/parcs` ×540 (+ EN
   `/cities/[slug]/parks`). Objectif produit : permettre à un parent de *découvrir* des
   parcs au lieu de retourner au même. Attribution ODbL obligatoire. Spec détaillée

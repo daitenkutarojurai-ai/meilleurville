@@ -1982,6 +1982,244 @@
     ],
     "queryVersion": 3
   },
+  "amberieu-en-bugey": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w83250643",
+        "name": "Parc du Grand Dunois",
+        "kind": "park",
+        "lat": 45.96361,
+        "lng": 5.35921,
+        "areaM2": 19924,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w135257810",
+        "name": "Parc du château des Échelles",
+        "kind": "park",
+        "lat": 45.95505,
+        "lng": 5.3634,
+        "areaM2": 14812,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w48064951",
+        "name": "Square Fransozini",
+        "kind": "park",
+        "lat": 45.95617,
+        "lng": 5.34394,
+        "areaM2": 6231,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w84599762",
+        "name": "Square Pierre Mendès-France",
+        "kind": "park",
+        "lat": 45.96007,
+        "lng": 5.33869,
+        "areaM2": 4390,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w452282881",
+        "name": "s",
+        "kind": "park",
+        "lat": 45.95827,
+        "lng": 5.34907,
+        "areaM2": 1118,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w148815178",
+        "name": "Square Normandie-Niemen",
+        "kind": "park",
+        "lat": 45.95748,
+        "lng": 5.3416,
+        "areaM2": 567,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w48409726",
+        "name": "Square du Docteur Emile Guillet",
+        "kind": "park",
+        "lat": 45.95927,
+        "lng": 5.35923,
+        "areaM2": 526,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w135432527",
+        "name": "Jardin Henri Cattin",
+        "kind": "park",
+        "lat": 45.95852,
+        "lng": 5.35718,
+        "areaM2": 518,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w84598198",
+        "name": "Square de la Somellière",
+        "kind": "garden",
+        "lat": 45.96073,
+        "lng": 5.3657,
+        "areaM2": 504,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w84603645",
+        "name": "Square Suzanne Tenand Ullman",
+        "kind": "park",
+        "lat": 45.9758,
+        "lng": 5.41247,
+        "areaM2": 321,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "amboise": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w297102167",
+        "name": "Parc Leonardo da Vinci",
+        "kind": "park",
+        "lat": 47.40909,
+        "lng": 0.99161,
+        "areaM2": 67559,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w688937650",
+        "name": "La Sapinière",
+        "kind": "park",
+        "lat": 47.40715,
+        "lng": 0.97264,
+        "areaM2": 12188,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w1497472677",
+        "name": "Parc de la Richardière",
+        "kind": "park",
+        "lat": 47.39918,
+        "lng": 0.9673,
+        "areaM2": 2790,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w363463029",
+        "name": "Place de la Croix Bénard",
+        "kind": "park",
+        "lat": 47.40424,
+        "lng": 0.98615,
+        "areaM2": 960,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1381447662",
+        "name": "Square Jeanne de France",
+        "kind": "park",
+        "lat": 47.40944,
+        "lng": 0.98679,
+        "areaM2": 951,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w166419109",
+        "name": "Square François Le Coz",
+        "kind": "garden",
+        "lat": 47.41189,
+        "lng": 0.98687,
+        "areaM2": 174,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "amiens": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -5803,6 +6041,132 @@
       }
     ]
   },
+  "apt": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w232620621",
+        "name": "Jardin du Monde",
+        "kind": "park",
+        "lat": 43.87428,
+        "lng": 5.39893,
+        "areaM2": 9304,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w1222206338",
+        "name": "Stade St Michel",
+        "kind": "playground",
+        "lat": 43.88167,
+        "lng": 5.39787,
+        "areaM2": 6660,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w501141707",
+        "name": "Square de la Révolution",
+        "kind": "park",
+        "lat": 43.87447,
+        "lng": 5.39465,
+        "areaM2": 1715,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "arcachon": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w41552383",
+        "name": "Parc mauresque",
+        "kind": "park",
+        "lat": 44.65829,
+        "lng": -1.17311,
+        "areaM2": 42126,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w51509876",
+        "name": "Place Alexander Fleming",
+        "kind": "park",
+        "lat": 44.65605,
+        "lng": -1.17626,
+        "areaM2": 5022,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w116519510",
+        "name": "Place Lucien de Gracia",
+        "kind": "garden",
+        "lat": 44.66103,
+        "lng": -1.17073,
+        "areaM2": 2268,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w825974087",
+        "name": "Jardin Jacques Chirac",
+        "kind": "garden",
+        "lat": 44.65963,
+        "lng": -1.16647,
+        "areaM2": 1965,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w717185174",
+        "name": "Place Euryale Cazeaux",
+        "kind": "park",
+        "lat": 44.65266,
+        "lng": -1.18715,
+        "areaM2": 393,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "arcueil": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -5907,6 +6271,97 @@
       }
     ],
     "queryVersion": 3
+  },
+  "argentan": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w746261045",
+        "name": "Parc de la Vallée des mômes",
+        "kind": "park",
+        "lat": 48.74174,
+        "lng": -0.00494,
+        "areaM2": 18944,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w49131315",
+        "name": "Parc des Rédemptoristes",
+        "kind": "park",
+        "lat": 48.74423,
+        "lng": -0.01356,
+        "areaM2": 13423,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w52069849",
+        "name": "Place du Point d'Argentan",
+        "kind": "park",
+        "lat": 48.74625,
+        "lng": -0.00618,
+        "areaM2": 2701,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w31731924",
+        "name": "Place Pierre Semard",
+        "kind": "garden",
+        "lat": 48.73878,
+        "lng": -0.02446,
+        "areaM2": 2026,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w506736247",
+        "name": "Place Guynemer",
+        "kind": "park",
+        "lat": 48.74589,
+        "lng": -0.00694,
+        "areaM2": 483,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w85278532",
+        "name": "Place du Marchand",
+        "kind": "park",
+        "lat": 48.74798,
+        "lng": -0.01356,
+        "areaM2": 482,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
   },
   "argenteuil": {
     "crawledAt": "2026-07-27",
@@ -7380,6 +7835,55 @@
       }
     ]
   },
+  "aubenas": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w761771294",
+        "name": "Agora paysagère",
+        "kind": "park",
+        "lat": 44.62018,
+        "lng": 4.38718,
+        "areaM2": 6570,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w900885094",
+        "name": "Place de l'Expert",
+        "kind": "park",
+        "lat": 44.62497,
+        "lng": 4.39557,
+        "areaM2": 723,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w328361217",
+        "name": "Square Marcel Paul",
+        "kind": "park",
+        "lat": 44.62163,
+        "lng": 4.38598,
+        "areaM2": 617,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "aubervilliers": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -7629,6 +8133,41 @@
         "lat": 48.91946,
         "lng": 2.38686,
         "areaM2": 636,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "aubusson": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w187196507",
+        "name": "potagers ouvriers",
+        "kind": "park",
+        "lat": 45.95487,
+        "lng": 2.15013,
+        "areaM2": 7197,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w298106350",
+        "name": "La Roseraie",
+        "kind": "garden",
+        "lat": 45.95233,
+        "lng": 2.17219,
+        "areaM2": 3661,
         "playground": false,
         "wheelchair": null,
         "dog": null,
@@ -8137,6 +8676,83 @@
         "lat": 44.93087,
         "lng": 2.44287,
         "areaM2": 190,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "autun": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w317187498",
+        "name": "Parc Robert Schuman",
+        "kind": "park",
+        "lat": 46.96457,
+        "lng": 4.30953,
+        "areaM2": 26302,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w249742027",
+        "name": "Promenade des Marbres",
+        "kind": "park",
+        "lat": 46.95168,
+        "lng": 4.30532,
+        "areaM2": 19557,
+        "playground": true,
+        "wheelchair": true,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w317185838",
+        "name": "Le Verger",
+        "kind": "park",
+        "lat": 46.9647,
+        "lng": 4.30666,
+        "areaM2": 4950,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w247990367",
+        "name": "Clos Gislebertus",
+        "kind": "park",
+        "lat": 46.945,
+        "lng": 4.29877,
+        "areaM2": 1103,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w247990372",
+        "name": "Square Cardinal Pitra",
+        "kind": "park",
+        "lat": 46.94608,
+        "lng": 4.30068,
+        "areaM2": 332,
         "playground": false,
         "wheelchair": null,
         "dog": null,
@@ -8816,6 +9432,83 @@
       }
     ]
   },
+  "bagneres-de-bigorre": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w172288761",
+        "name": "Jardin des Vignaux",
+        "kind": "park",
+        "lat": 43.06677,
+        "lng": 0.1496,
+        "areaM2": 9677,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w125010758",
+        "name": "Place Comte Henri Russel",
+        "kind": "park",
+        "lat": 43.05614,
+        "lng": 0.15017,
+        "areaM2": 3545,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w119243649",
+        "name": "Square de Tutzing",
+        "kind": "park",
+        "lat": 43.06105,
+        "lng": 0.15309,
+        "areaM2": 2009,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w239201645",
+        "name": "Square de Granarolo Dell'emilia",
+        "kind": "park",
+        "lat": 43.06889,
+        "lng": 0.14671,
+        "areaM2": 1242,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w181335645",
+        "name": "Place André Fourcade",
+        "kind": "park",
+        "lat": 43.06564,
+        "lng": 0.14984,
+        "areaM2": 409,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "bagneux": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -9455,6 +10148,41 @@
         "lng": 5.15632,
         "areaM2": 1891,
         "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "bar-sur-aube": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w1516624454",
+        "name": "parc de la gravière",
+        "kind": "park",
+        "lat": 48.23305,
+        "lng": 4.69929,
+        "areaM2": 52505,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w112699636",
+        "name": "Promenade de Mathaut",
+        "kind": "park",
+        "lat": 48.23018,
+        "lng": 4.70745,
+        "areaM2": 3065,
+        "playground": true,
         "wheelchair": null,
         "dog": null,
         "drinkingWater": false,
@@ -11057,6 +11785,188 @@
         "drinkingWater": false,
         "toilets": false,
         "access": "yes"
+      }
+    ]
+  },
+  "bellac": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w281552770",
+        "name": "Parc du Vincou",
+        "kind": "park",
+        "lat": 46.11603,
+        "lng": 1.04997,
+        "areaM2": 28301,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w944681534",
+        "name": "Parc Jolibois",
+        "kind": "park",
+        "lat": 46.12518,
+        "lng": 1.05935,
+        "areaM2": 27973,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w366461120",
+        "name": "Jardin des Côtes",
+        "kind": "garden",
+        "lat": 46.11898,
+        "lng": 1.04572,
+        "areaM2": 23966,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w944632967",
+        "name": "Parc Charles Sylvestre",
+        "kind": "park",
+        "lat": 46.12128,
+        "lng": 1.05135,
+        "areaM2": 9939,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w944681557",
+        "name": "Parc de la Mairie",
+        "kind": "park",
+        "lat": 46.12161,
+        "lng": 1.04686,
+        "areaM2": 5893,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1295082895",
+        "name": "Jardin du Lien",
+        "kind": "park",
+        "lat": 46.11693,
+        "lng": 1.05368,
+        "areaM2": 4952,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w944632960",
+        "name": "Jardin Lafayette",
+        "kind": "garden",
+        "lat": 46.1206,
+        "lng": 1.04604,
+        "areaM2": 1258,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w41934111",
+        "name": "Jardin La Fontaine",
+        "kind": "park",
+        "lat": 46.12161,
+        "lng": 1.04785,
+        "areaM2": 777,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "berck": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w648215504",
+        "name": "Les Jardins du Terminus",
+        "kind": "garden",
+        "lat": 50.4195,
+        "lng": 1.57143,
+        "areaM2": 3775,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w585502457",
+        "name": "Jardins du Kursaal",
+        "kind": "park",
+        "lat": 50.40792,
+        "lng": 1.5654,
+        "areaM2": 2356,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1460342934",
+        "name": "Square Paul Duffit",
+        "kind": "park",
+        "lat": 50.40526,
+        "lng": 1.56423,
+        "areaM2": 1735,
+        "playground": false,
+        "wheelchair": null,
+        "dog": true,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w674468358",
+        "name": "Le Catajack",
+        "kind": "playground",
+        "lat": 50.4302,
+        "lng": 1.59939,
+        "areaM2": 140,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
       }
     ]
   },
@@ -12778,6 +13688,27 @@
       }
     ],
     "queryVersion": 3
+  },
+  "biscarrosse": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w472685520",
+        "name": "Parc Sencion",
+        "kind": "park",
+        "lat": 44.39492,
+        "lng": -1.16234,
+        "areaM2": 8135,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
   },
   "bischheim": {
     "crawledAt": "2026-07-27",
@@ -16661,6 +17592,131 @@
       }
     ]
   },
+  "briancon": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w220657980",
+        "name": "Parc de la Schappe",
+        "kind": "park",
+        "lat": 44.896,
+        "lng": 6.64062,
+        "areaM2": 27982,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w221662817",
+        "name": "Jardin chanoine Motte",
+        "kind": "park",
+        "lat": 44.90109,
+        "lng": 6.64272,
+        "areaM2": 6924,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w171607817",
+        "name": "Jardin de Rosenheim",
+        "kind": "park",
+        "lat": 44.89652,
+        "lng": 6.63333,
+        "areaM2": 5951,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w222066467",
+        "name": "Jardin d'Independencia",
+        "kind": "park",
+        "lat": 44.89787,
+        "lng": 6.63318,
+        "areaM2": 4767,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w290030542",
+        "name": "Jardin Jean Rousson",
+        "kind": "park",
+        "lat": 44.89536,
+        "lng": 6.63265,
+        "areaM2": 2402,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w1092711261",
+        "name": "Square de Termier",
+        "kind": "park",
+        "lat": 44.90204,
+        "lng": 6.63957,
+        "areaM2": 1906,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w222540841",
+        "name": "Place de Susa",
+        "kind": "park",
+        "lat": 44.89681,
+        "lng": 6.63324,
+        "areaM2": 464,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w222376777",
+        "name": "Tour de cordes",
+        "kind": "playground",
+        "lat": 44.89636,
+        "lng": 6.64159,
+        "areaM2": 164,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "brioude": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": []
+  },
   "brive-la-gaillarde": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -18950,6 +20006,12 @@
       }
     ]
   },
+  "calvi": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": []
+  },
   "cambrai": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -19976,6 +21038,69 @@
       }
     ]
   },
+  "carnac": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w231190298",
+        "name": "Le Jardin de Césarine",
+        "kind": "park",
+        "lat": 47.57933,
+        "lng": -3.07724,
+        "areaM2": 23186,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w972500296",
+        "name": "Parc du Menec",
+        "kind": "park",
+        "lat": 47.58881,
+        "lng": -3.08561,
+        "areaM2": 9347,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w94835090",
+        "name": "Square Levavaseur",
+        "kind": "park",
+        "lat": 47.57327,
+        "lng": -3.07234,
+        "areaM2": 2400,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w27956208",
+        "name": "Square Leblois",
+        "kind": "garden",
+        "lat": 47.57275,
+        "lng": -3.07306,
+        "areaM2": 421,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "carpentras": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -20051,6 +21176,47 @@
         "access": "public"
       }
     ]
+  },
+  "cassis": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w198959338",
+        "name": "Jardin Public de Cassis",
+        "kind": "park",
+        "lat": 43.214,
+        "lng": 5.54008,
+        "areaM2": 3489,
+        "playground": true,
+        "wheelchair": null,
+        "dog": false,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "yes"
+      },
+      {
+        "osmId": "w1309093047",
+        "name": "Jardin de Belzunce",
+        "kind": "garden",
+        "lat": 43.21938,
+        "lng": 5.53483,
+        "areaM2": 1529,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "castelsarrasin": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": []
   },
   "castres": {
     "crawledAt": "2026-07-27",
@@ -20293,6 +21459,12 @@
         "access": "public"
       }
     ]
+  },
+  "ceret": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": []
   },
   "cergy": {
     "crawledAt": "2026-07-27",
@@ -20563,6 +21735,27 @@
         "drinkingWater": false,
         "toilets": false,
         "access": "public"
+      }
+    ]
+  },
+  "cernay": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w84151137",
+        "name": "Parc des Rives de la Thur",
+        "kind": "park",
+        "lat": 47.80607,
+        "lng": 7.18145,
+        "areaM2": 3271,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "yes"
       }
     ]
   },
@@ -22367,6 +23560,41 @@
       }
     ],
     "queryVersion": 3
+  },
+  "chantilly": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "r8404276",
+        "name": "Domaine de Chantilly",
+        "kind": "park",
+        "lat": 49.19793,
+        "lng": 2.4861,
+        "areaM2": 1167254,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w335840362",
+        "name": "Parc Watermaël-Boitsfort",
+        "kind": "park",
+        "lat": 49.19841,
+        "lng": 2.46554,
+        "areaM2": 10718,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
   },
   "charenton-le-pont": {
     "crawledAt": "2026-07-27",
@@ -25221,6 +26449,41 @@
       }
     ]
   },
+  "chinon": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w245417910",
+        "name": "Parc du Château",
+        "kind": "park",
+        "lat": 47.59355,
+        "lng": 0.90906,
+        "areaM2": 85102,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1251326739",
+        "name": "La roseraie du château",
+        "kind": "park",
+        "lat": 47.5927,
+        "lng": 0.91086,
+        "areaM2": 1378,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "choisy-le-roi": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -26087,6 +27350,41 @@
       }
     ]
   },
+  "clamecy": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w1139272904",
+        "name": "Parc de la bute",
+        "kind": "park",
+        "lat": 47.45111,
+        "lng": 3.52411,
+        "areaM2": 23919,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w146812831",
+        "name": "Parc Vauvert",
+        "kind": "park",
+        "lat": 47.46164,
+        "lng": 3.51587,
+        "areaM2": 12053,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "clermont-ferrand": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -26653,6 +27951,12 @@
       }
     ]
   },
+  "clermont-herault": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": []
+  },
   "clichy": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -26993,6 +28297,12 @@
       }
     ],
     "queryVersion": 3
+  },
+  "collioure": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": []
   },
   "colmar": {
     "crawledAt": "2026-07-27",
@@ -28124,6 +29434,41 @@
       }
     ]
   },
+  "commercy": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w323899553",
+        "name": "Prieuré de Breuil",
+        "kind": "park",
+        "lat": 48.75864,
+        "lng": 5.58579,
+        "areaM2": 13260,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w561098685",
+        "name": "Parc Hockenheim",
+        "kind": "park",
+        "lat": 48.76247,
+        "lng": 5.5873,
+        "areaM2": 4274,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "compiegne": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -28313,6 +29658,83 @@
         "wheelchair": null,
         "dog": null,
         "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "condom": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w372863573",
+        "name": "Base de Loisirs de Gauge",
+        "kind": "park",
+        "lat": 43.95163,
+        "lng": 0.36706,
+        "areaM2": 103468,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w740436048",
+        "name": "Jardin des Remparts",
+        "kind": "park",
+        "lat": 43.9603,
+        "lng": 0.37333,
+        "areaM2": 7306,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w739915994",
+        "name": "Square Léonce Lestage",
+        "kind": "park",
+        "lat": 43.95792,
+        "lng": 0.37047,
+        "areaM2": 1474,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w739871238",
+        "name": "Jardin Jean Jaurès",
+        "kind": "garden",
+        "lat": 43.95649,
+        "lng": 0.37454,
+        "areaM2": 710,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w306503553",
+        "name": "Square Salvandy",
+        "kind": "park",
+        "lat": 43.95537,
+        "lng": 0.37327,
+        "areaM2": 526,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
         "toilets": false,
         "access": "public"
       }
@@ -28795,6 +30217,76 @@
         "drinkingWater": false,
         "toilets": false,
         "access": "yes"
+      }
+    ]
+  },
+  "corte": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w1134665746",
+        "name": "Parc de l'Hôtel de Ville",
+        "kind": "park",
+        "lat": 42.30921,
+        "lng": 9.14921,
+        "areaM2": 2742,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w963989733",
+        "name": "Jardin",
+        "kind": "park",
+        "lat": 42.29922,
+        "lng": 9.15334,
+        "areaM2": 1154,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w963996648",
+        "name": "Jardin C.R.O.U.S",
+        "kind": "park",
+        "lat": 42.29979,
+        "lng": 9.15145,
+        "areaM2": 455,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "cosne-cours-sur-loire": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w119436642",
+        "name": "Square de Verdun",
+        "kind": "park",
+        "lat": 47.25428,
+        "lng": 3.67992,
+        "areaM2": 1202,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
       }
     ]
   },
@@ -29468,6 +30960,55 @@
       }
     ]
   },
+  "crepy-en-valois": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w42198966",
+        "name": "Parc de Géresme",
+        "kind": "park",
+        "lat": 49.239,
+        "lng": 2.89599,
+        "areaM2": 291099,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w198641766",
+        "name": "Parc Sainte-Agathe",
+        "kind": "park",
+        "lat": 49.23418,
+        "lng": 2.88475,
+        "areaM2": 19840,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w154035858",
+        "name": "Place Saint-Thomas",
+        "kind": "garden",
+        "lat": 49.2343,
+        "lng": 2.88995,
+        "areaM2": 2079,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "creteil": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -30137,6 +31678,41 @@
       }
     ],
     "queryVersion": 3
+  },
+  "delle": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w30478821",
+        "name": "Jardin du château",
+        "kind": "park",
+        "lat": 47.50817,
+        "lng": 6.9987,
+        "areaM2": 1758,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w30149180",
+        "name": "Square du souvenir",
+        "kind": "park",
+        "lat": 47.50745,
+        "lng": 7.00022,
+        "areaM2": 1122,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
   },
   "denain": {
     "crawledAt": "2026-07-27",
@@ -31033,6 +32609,118 @@
       }
     ]
   },
+  "dinan": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w1195390515",
+        "name": "Porz An Ti Ker",
+        "kind": "park",
+        "lat": 48.4285,
+        "lng": -3.32975,
+        "areaM2": 1912,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "dinard": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w155452985",
+        "name": "Parc de Port-Breton",
+        "kind": "park",
+        "lat": 48.62259,
+        "lng": -2.05268,
+        "areaM2": 94078,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w289115752",
+        "name": "Saint-Alexandre",
+        "kind": "park",
+        "lat": 48.62888,
+        "lng": -2.07221,
+        "areaM2": 7948,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w194608760",
+        "name": "Parc des Tourelles",
+        "kind": "park",
+        "lat": 48.63393,
+        "lng": -2.06161,
+        "areaM2": 6051,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w659765316",
+        "name": "Esplanade Yves Verney",
+        "kind": "park",
+        "lat": 48.6344,
+        "lng": -2.0553,
+        "areaM2": 4327,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w194622948",
+        "name": "Square Langevin",
+        "kind": "park",
+        "lat": 48.63691,
+        "lng": -2.06903,
+        "areaM2": 4249,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w967960565",
+        "name": "Parc Surcouf",
+        "kind": "park",
+        "lat": 48.63626,
+        "lng": -2.04767,
+        "areaM2": 944,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "dole": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -31504,6 +33192,139 @@
         "lat": 50.36492,
         "lng": 3.0819,
         "areaM2": 182,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "douarnenez": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w600781300",
+        "name": "Les Plomarc'h",
+        "kind": "park",
+        "lat": 48.09131,
+        "lng": -4.3189,
+        "areaM2": 232987,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "yes"
+      },
+      {
+        "osmId": "w609733949",
+        "name": "Square Yves Caroff",
+        "kind": "park",
+        "lat": 48.08033,
+        "lng": -4.32848,
+        "areaM2": 13123,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w269295429",
+        "name": "Parc Henri Cheffer",
+        "kind": "park",
+        "lat": 48.09993,
+        "lng": -4.34566,
+        "areaM2": 5392,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w827683656",
+        "name": "Jardin Guillmaume Marec",
+        "kind": "park",
+        "lat": 48.09463,
+        "lng": -4.34661,
+        "areaM2": 4568,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w321606449",
+        "name": "Jardin exotique",
+        "kind": "park",
+        "lat": 48.10174,
+        "lng": -4.33665,
+        "areaM2": 1724,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w713174258",
+        "name": "Square Laënnec",
+        "kind": "park",
+        "lat": 48.08609,
+        "lng": -4.32139,
+        "areaM2": 1540,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w487472134",
+        "name": "Square Jean Colle",
+        "kind": "park",
+        "lat": 48.08768,
+        "lng": -4.32853,
+        "areaM2": 951,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1014289023",
+        "name": "Square Marguerite Seznec",
+        "kind": "park",
+        "lat": 48.08639,
+        "lng": -4.29746,
+        "areaM2": 862,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1386552837",
+        "name": "Square André Pellen 1923 - 1945",
+        "kind": "garden",
+        "lat": 48.09642,
+        "lng": -4.33005,
+        "areaM2": 194,
         "playground": false,
         "wheelchair": null,
         "dog": null,
@@ -33299,6 +35120,69 @@
       }
     ]
   },
+  "embrun": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w279280814",
+        "name": "Jardin du Roc",
+        "kind": "park",
+        "lat": 44.56299,
+        "lng": 6.49933,
+        "areaM2": 2644,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w700538224",
+        "name": "Parc des Noisettes",
+        "kind": "park",
+        "lat": 44.56532,
+        "lng": 6.49353,
+        "areaM2": 2475,
+        "playground": false,
+        "wheelchair": null,
+        "dog": true,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w34350298",
+        "name": "Jardin de l'Archevéché",
+        "kind": "garden",
+        "lat": 44.56225,
+        "lng": 6.49599,
+        "areaM2": 2430,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "yes"
+      },
+      {
+        "osmId": "w625131957",
+        "name": "Petit parc",
+        "kind": "park",
+        "lat": 44.56615,
+        "lng": 6.49576,
+        "areaM2": 888,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "epernay": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -33955,6 +35839,12 @@
       }
     ]
   },
+  "evian-les-bains": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": []
+  },
   "evreux": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -34513,6 +36403,111 @@
       }
     ]
   },
+  "figeac": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w479378180",
+        "name": "Domaine du Surgié",
+        "kind": "park",
+        "lat": 44.61049,
+        "lng": 2.04945,
+        "areaM2": 36316,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w988823493",
+        "name": "Plaine des Pratges",
+        "kind": "park",
+        "lat": 44.60686,
+        "lng": 2.02977,
+        "areaM2": 20445,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w41277998",
+        "name": "Jardin de l'Hôpital",
+        "kind": "park",
+        "lat": 44.60946,
+        "lng": 2.0289,
+        "areaM2": 5432,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1462666439",
+        "name": "terrasses du Puy",
+        "kind": "park",
+        "lat": 44.61028,
+        "lng": 2.03611,
+        "areaM2": 3860,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w498649268",
+        "name": "Place de la Raison",
+        "kind": "park",
+        "lat": 44.60731,
+        "lng": 2.03456,
+        "areaM2": 1738,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w41438663",
+        "name": "Place Léon Besombes",
+        "kind": "park",
+        "lat": 44.60818,
+        "lng": 2.0302,
+        "areaM2": 1640,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w41163491",
+        "name": "Square de Montviguier",
+        "kind": "park",
+        "lat": 44.61495,
+        "lng": 2.03578,
+        "areaM2": 836,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "firminy": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -34561,6 +36556,118 @@
       }
     ],
     "queryVersion": 3
+  },
+  "flers": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w8037035",
+        "name": "Parc du Château",
+        "kind": "park",
+        "lat": 48.7469,
+        "lng": -0.57783,
+        "areaM2": 116978,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w23739258",
+        "name": "Square Delaunay",
+        "kind": "park",
+        "lat": 48.75027,
+        "lng": -0.5713,
+        "areaM2": 1767,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "fleurance": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w997277351",
+        "name": "Base de Loisirs de Fleurance",
+        "kind": "park",
+        "lat": 43.84661,
+        "lng": 0.67023,
+        "areaM2": 61714,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w337591117",
+        "name": "Jardin des Entrepreneurs",
+        "kind": "park",
+        "lat": 43.84904,
+        "lng": 0.66732,
+        "areaM2": 7825,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w62241966",
+        "name": "Square de Verdun",
+        "kind": "park",
+        "lat": 43.85173,
+        "lng": 0.65791,
+        "areaM2": 3695,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w340098140",
+        "name": "Square de la Liberté",
+        "kind": "park",
+        "lat": 43.84132,
+        "lng": 0.65886,
+        "areaM2": 893,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w338280999",
+        "name": "Square Mandela",
+        "kind": "park",
+        "lat": 43.84571,
+        "lng": 0.66176,
+        "areaM2": 881,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
   },
   "fleury-les-aubrais": {
     "crawledAt": "2026-07-27",
@@ -34806,6 +36913,90 @@
       }
     ],
     "queryVersion": 3
+  },
+  "florac-trois-rivieres": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w430163867",
+        "name": "Parc Paul Arnal",
+        "kind": "park",
+        "lat": 44.32283,
+        "lng": 3.59092,
+        "areaM2": 26019,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w158584508",
+        "name": "Parc Maury",
+        "kind": "park",
+        "lat": 44.32282,
+        "lng": 3.5968,
+        "areaM2": 3055,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "foix": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w575891836",
+        "name": "Parc de Bouychères",
+        "kind": "park",
+        "lat": 42.95805,
+        "lng": 1.61425,
+        "areaM2": 45138,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w288431081",
+        "name": "La Passéjade",
+        "kind": "park",
+        "lat": 42.96437,
+        "lng": 1.60743,
+        "areaM2": 2193,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w577557428",
+        "name": "Square de l'Arget",
+        "kind": "park",
+        "lat": 42.96735,
+        "lng": 1.60549,
+        "areaM2": 519,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
   },
   "fontaine": {
     "crawledAt": "2026-07-27",
@@ -35226,6 +37417,125 @@
       }
     ],
     "queryVersion": 3
+  },
+  "fontenay-le-comte": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w203560300",
+        "name": "Parc du Porteau",
+        "kind": "park",
+        "lat": 46.47687,
+        "lng": -0.81627,
+        "areaM2": 29845,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w32243313",
+        "name": "Parc Baron",
+        "kind": "park",
+        "lat": 46.46903,
+        "lng": -0.8061,
+        "areaM2": 24825,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w203215807",
+        "name": "Square du Monument aux Morts",
+        "kind": "park",
+        "lat": 46.46333,
+        "lng": -0.80366,
+        "areaM2": 10397,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w364794684",
+        "name": "Parc Espierre",
+        "kind": "park",
+        "lat": 46.47089,
+        "lng": -0.80967,
+        "areaM2": 8011,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w202820368",
+        "name": "Jardin Public de l'Hôtel de Ville",
+        "kind": "park",
+        "lat": 46.46546,
+        "lng": -0.80704,
+        "areaM2": 8006,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w37853662",
+        "name": "Parc des Jacobins",
+        "kind": "park",
+        "lat": 46.46418,
+        "lng": -0.79827,
+        "areaM2": 4502,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w985757990",
+        "name": "Square Chamiraud",
+        "kind": "park",
+        "lat": 46.4651,
+        "lng": -0.81785,
+        "areaM2": 1938,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w795884544",
+        "name": "Plateau sportif",
+        "kind": "park",
+        "lat": 46.46573,
+        "lng": -0.8114,
+        "areaM2": 1448,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
   },
   "fontenay-sous-bois": {
     "crawledAt": "2026-07-27",
@@ -36495,6 +38805,55 @@
       }
     ]
   },
+  "gaillac": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w520212909",
+        "name": "Parc Foucault",
+        "kind": "park",
+        "lat": 43.89479,
+        "lng": 1.8981,
+        "areaM2": 66636,
+        "playground": true,
+        "wheelchair": null,
+        "dog": true,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w499964347",
+        "name": "Parc Pichery",
+        "kind": "park",
+        "lat": 43.90335,
+        "lng": 1.90363,
+        "areaM2": 25480,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1107355378",
+        "name": "Square du Maréchal Joffre",
+        "kind": "park",
+        "lat": 43.90414,
+        "lng": 1.8972,
+        "areaM2": 3148,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "gap": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -37219,6 +39578,83 @@
       }
     ]
   },
+  "gerardmer": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "r2170855",
+        "name": "Square du Docteur Briffaut",
+        "kind": "park",
+        "lat": 48.06869,
+        "lng": 6.86771,
+        "areaM2": 4828,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w34015869",
+        "name": "Parc Garnier",
+        "kind": "park",
+        "lat": 48.07118,
+        "lng": 6.87721,
+        "areaM2": 4551,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "gex": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w42982171",
+        "name": "Square Colonel Arnaud Beltrame",
+        "kind": "park",
+        "lat": 46.33507,
+        "lng": 6.05822,
+        "areaM2": 670,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "gien": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w425078261",
+        "name": "Aire de Gerpinnes",
+        "kind": "park",
+        "lat": 47.98815,
+        "lng": 1.83956,
+        "areaM2": 7074,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "givors": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -37386,6 +39822,89 @@
     ],
     "queryVersion": 3
   },
+  "gordes": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": []
+  },
+  "gourdon": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w182918917",
+        "name": "Square Jean-Pierre Dannaud",
+        "kind": "park",
+        "lat": 44.734,
+        "lng": 1.37892,
+        "areaM2": 4704,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w589774101",
+        "name": "Jardins du Senechal",
+        "kind": "garden",
+        "lat": 44.73631,
+        "lng": 1.38175,
+        "areaM2": 1376,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w641831151",
+        "name": "Square du Souvenir",
+        "kind": "park",
+        "lat": 44.73785,
+        "lng": 1.38034,
+        "areaM2": 977,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w641831152",
+        "name": "Jardin musical Olympe Dupas",
+        "kind": "park",
+        "lat": 44.73576,
+        "lng": 1.38232,
+        "areaM2": 490,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w589775090",
+        "name": "Jardins Zig-Zag",
+        "kind": "garden",
+        "lat": 44.73602,
+        "lng": 1.38152,
+        "areaM2": 484,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "goussainville": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -37519,6 +40038,139 @@
     ],
     "queryVersion": 3
   },
+  "granville": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w528952231",
+        "name": "Parc du Val-ès-Fleur",
+        "kind": "park",
+        "lat": 48.83947,
+        "lng": -1.58915,
+        "areaM2": 21553,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w125911037",
+        "name": "Parc Christian Dior",
+        "kind": "park",
+        "lat": 48.84281,
+        "lng": -1.59285,
+        "areaM2": 11105,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1075394557",
+        "name": "Square Maurice Marland",
+        "kind": "park",
+        "lat": 48.83796,
+        "lng": -1.60112,
+        "areaM2": 3370,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w363694423",
+        "name": "Square de l'Arsenal",
+        "kind": "park",
+        "lat": 48.83477,
+        "lng": -1.60877,
+        "areaM2": 1743,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w840561077",
+        "name": "Square Marielle Franco",
+        "kind": "park",
+        "lat": 48.83799,
+        "lng": -1.58816,
+        "areaM2": 1277,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1215059415",
+        "name": "Beatrix Excoffon",
+        "kind": "park",
+        "lat": 48.83772,
+        "lng": -1.57138,
+        "areaM2": 1146,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1113640469",
+        "name": "Square Paul Leroy",
+        "kind": "park",
+        "lat": 48.84116,
+        "lng": -1.58654,
+        "areaM2": 985,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1113640459",
+        "name": "Square Daniel Caruhel",
+        "kind": "park",
+        "lat": 48.83832,
+        "lng": -1.59199,
+        "areaM2": 782,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w135564463",
+        "name": "Square Potel",
+        "kind": "garden",
+        "lat": 48.83736,
+        "lng": -1.60223,
+        "areaM2": 366,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "yes"
+      }
+    ]
+  },
   "grasse": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -37587,6 +40239,69 @@
         "lng": 6.9218,
         "areaM2": 490,
         "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "gray": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w38612294",
+        "name": "Les Tilleuls",
+        "kind": "park",
+        "lat": 47.44182,
+        "lng": 5.58992,
+        "areaM2": 12326,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w40552542",
+        "name": "Parc de la Maison pour Tous",
+        "kind": "park",
+        "lat": 47.44253,
+        "lng": 5.59221,
+        "areaM2": 10099,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w40496791",
+        "name": "Parc du Musée Baron-Martin",
+        "kind": "park",
+        "lat": 47.44617,
+        "lng": 5.59322,
+        "areaM2": 7008,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w85384756",
+        "name": "Parc de l'île Sauzay",
+        "kind": "park",
+        "lat": 47.44924,
+        "lng": 5.59269,
+        "areaM2": 6587,
+        "playground": true,
         "wheelchair": null,
         "dog": null,
         "drinkingWater": false,
@@ -38152,6 +40867,139 @@
         "lat": 45.20534,
         "lng": 5.70035,
         "areaM2": 5295,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "guebwiller": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w818062784",
+        "name": "Parc de la Neuenbourg",
+        "kind": "park",
+        "lat": 47.90449,
+        "lng": 7.21428,
+        "areaM2": 18664,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w73424334",
+        "name": "Parc de la Marseillaise",
+        "kind": "park",
+        "lat": 47.90466,
+        "lng": 7.21636,
+        "areaM2": 15856,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "gueret": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w1305902437",
+        "name": "Parc Jouhet",
+        "kind": "park",
+        "lat": 46.17571,
+        "lng": 1.88221,
+        "areaM2": 11675,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w786989346",
+        "name": "Parc de la Sénatorerie",
+        "kind": "park",
+        "lat": 46.16626,
+        "lng": 1.87123,
+        "areaM2": 11655,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1306102974",
+        "name": "Square Benjamin Moloise",
+        "kind": "park",
+        "lat": 46.16137,
+        "lng": 1.87491,
+        "areaM2": 1517,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w382445953",
+        "name": "Square Jorrand",
+        "kind": "park",
+        "lat": 46.17033,
+        "lng": 1.86971,
+        "areaM2": 1120,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "guingamp": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w35976425",
+        "name": "Jardin Public du Commandant Billot",
+        "kind": "park",
+        "lat": 48.56271,
+        "lng": -3.14865,
+        "areaM2": 19332,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w116582511",
+        "name": "Château Pierre II",
+        "kind": "park",
+        "lat": 48.56008,
+        "lng": -3.15019,
+        "areaM2": 3809,
         "playground": false,
         "wheelchair": null,
         "dog": null,
@@ -38920,6 +41768,47 @@
         "access": "public"
       }
     ]
+  },
+  "honfleur": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w146931195",
+        "name": "Jardin des Personnalités",
+        "kind": "park",
+        "lat": 49.42714,
+        "lng": 0.22781,
+        "areaM2": 79578,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w451301764",
+        "name": "Jardin Retrouvé",
+        "kind": "park",
+        "lat": 49.42388,
+        "lng": 0.23248,
+        "areaM2": 32725,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "hossegor": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": []
   },
   "houilles": {
     "crawledAt": "2026-07-27",
@@ -39926,6 +42815,230 @@
       }
     ],
     "queryVersion": 3
+  },
+  "issoire": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w333934293",
+        "name": "Parc Edith Piaf",
+        "kind": "park",
+        "lat": 45.54953,
+        "lng": 3.26267,
+        "areaM2": 31322,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w334259953",
+        "name": "Square André Rioux",
+        "kind": "park",
+        "lat": 45.54243,
+        "lng": 3.25273,
+        "areaM2": 11432,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w191490284",
+        "name": "Parc Cassin",
+        "kind": "park",
+        "lat": 45.54338,
+        "lng": 3.25233,
+        "areaM2": 10356,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w334259959",
+        "name": "Square Maréchal de Lattre de Tassigny et son fils Bernard",
+        "kind": "park",
+        "lat": 45.54421,
+        "lng": 3.25707,
+        "areaM2": 7109,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w51673768",
+        "name": "Square Pierre Giroudot",
+        "kind": "park",
+        "lat": 45.54739,
+        "lng": 3.25492,
+        "areaM2": 4042,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "issoudun": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w722837273",
+        "name": "Parc du Château de Frapesle",
+        "kind": "park",
+        "lat": 46.94698,
+        "lng": 1.97218,
+        "areaM2": 150568,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w34032680",
+        "name": "La Visitation",
+        "kind": "park",
+        "lat": 46.94957,
+        "lng": 2.0015,
+        "areaM2": 66197,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w34021536",
+        "name": "Parc des Champs d'Amour",
+        "kind": "park",
+        "lat": 46.95462,
+        "lng": 1.99843,
+        "areaM2": 47550,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w701919144",
+        "name": "Parc du Sacré-Cœur",
+        "kind": "park",
+        "lat": 46.9532,
+        "lng": 1.99511,
+        "areaM2": 32549,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "r10037302",
+        "name": "Parc de la Théols",
+        "kind": "park",
+        "lat": 46.94618,
+        "lng": 1.99088,
+        "areaM2": 23027,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1421695830",
+        "name": "Flore Brazier",
+        "kind": "park",
+        "lat": 46.9491,
+        "lng": 1.98327,
+        "areaM2": 10194,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w238849469",
+        "name": "Jardin Public",
+        "kind": "park",
+        "lat": 46.94994,
+        "lng": 1.99609,
+        "areaM2": 7933,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1422901652",
+        "name": "Square Pierre Valentin Berthier",
+        "kind": "park",
+        "lat": 46.94057,
+        "lng": 1.99699,
+        "areaM2": 3017,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1333219323",
+        "name": "Square Anne Frank",
+        "kind": "park",
+        "lat": 46.94452,
+        "lng": 2.00731,
+        "areaM2": 1280,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w33972019",
+        "name": "Place de la Chaume",
+        "kind": "garden",
+        "lat": 46.94869,
+        "lng": 1.99911,
+        "areaM2": 406,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
   },
   "issy-les-moulineaux": {
     "crawledAt": "2026-07-27",
@@ -40995,6 +44108,90 @@
       }
     ]
   },
+  "jarnac": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w539735125",
+        "name": "Square Jean Monnet",
+        "kind": "park",
+        "lat": 45.68089,
+        "lng": -0.17721,
+        "areaM2": 382,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "joigny": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w450069654",
+        "name": "Parc du Chapeau",
+        "kind": "park",
+        "lat": 47.98046,
+        "lng": 3.39134,
+        "areaM2": 19012,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w1344557922",
+        "name": "Forêt commestible",
+        "kind": "garden",
+        "lat": 47.9764,
+        "lng": 3.39808,
+        "areaM2": 1253,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "permissive"
+      },
+      {
+        "osmId": "w1344557681",
+        "name": "Square Al Idrisi",
+        "kind": "park",
+        "lat": 47.9835,
+        "lng": 3.40732,
+        "areaM2": 1134,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1163348971",
+        "name": "Square Arnaud Beltrame",
+        "kind": "park",
+        "lat": 47.98211,
+        "lng": 3.39498,
+        "areaM2": 66,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "joue-les-tours": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -41956,6 +45153,69 @@
         "lng": 2.38455,
         "areaM2": 330,
         "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "la-fleche": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w171721214",
+        "name": "Parc des Carmes",
+        "kind": "park",
+        "lat": 47.69611,
+        "lng": -0.07281,
+        "areaM2": 25555,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w711010878",
+        "name": "Jardin De La Providence",
+        "kind": "park",
+        "lat": 47.6942,
+        "lng": -0.07924,
+        "areaM2": 19766,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "yes"
+      },
+      {
+        "osmId": "w169048461",
+        "name": "Port-Luneau",
+        "kind": "park",
+        "lat": 47.69759,
+        "lng": -0.07679,
+        "areaM2": 6850,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "yes"
+      },
+      {
+        "osmId": "w171713420",
+        "name": "Place du Champ de Foire",
+        "kind": "park",
+        "lat": 47.70304,
+        "lng": -0.07188,
+        "areaM2": 3827,
+        "playground": true,
         "wheelchair": null,
         "dog": null,
         "drinkingWater": false,
@@ -43221,6 +46481,55 @@
       }
     ]
   },
+  "la-souterraine": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "r15749829",
+        "name": "Marais de la Chapuisette",
+        "kind": "park",
+        "lat": 46.23344,
+        "lng": 1.47962,
+        "areaM2": 19844,
+        "playground": false,
+        "wheelchair": true,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w46967209",
+        "name": "Square Xavier Beletout",
+        "kind": "park",
+        "lat": 46.23815,
+        "lng": 1.48669,
+        "areaM2": 3790,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w299453895",
+        "name": "Jardin médiéval",
+        "kind": "garden",
+        "lat": 46.24178,
+        "lng": 1.51423,
+        "areaM2": 786,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "lanester": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -43303,6 +46612,55 @@
         "lng": -3.33969,
         "areaM2": 446,
         "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "langres": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w1008981415",
+        "name": "Promenade de Blanchefontaine",
+        "kind": "park",
+        "lat": 47.8559,
+        "lng": 5.32993,
+        "areaM2": 62783,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w128403207",
+        "name": "Place Jeanne Mance",
+        "kind": "park",
+        "lat": 47.86395,
+        "lng": 5.334,
+        "areaM2": 2085,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w83053640",
+        "name": "Square Olivier Lahalle",
+        "kind": "park",
+        "lat": 47.85881,
+        "lng": 5.33271,
+        "areaM2": 1887,
+        "playground": true,
         "wheelchair": null,
         "dog": null,
         "drinkingWater": false,
@@ -44077,6 +47435,174 @@
         "lat": 48.06997,
         "lng": -0.77847,
         "areaM2": 353,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "laxou": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w40076526",
+        "name": "Parc d'Agrément",
+        "kind": "park",
+        "lat": 48.698,
+        "lng": 6.1295,
+        "areaM2": 94480,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1444725982",
+        "name": "Parc de l'Hôtel de Ville Pol Choné",
+        "kind": "park",
+        "lat": 48.6847,
+        "lng": 6.15236,
+        "areaM2": 11375,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w256884541",
+        "name": "Jardins du Belvédère",
+        "kind": "park",
+        "lat": 48.69049,
+        "lng": 6.15397,
+        "areaM2": 5958,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w988509947",
+        "name": "Espace Claudie Haigneré",
+        "kind": "park",
+        "lat": 48.68089,
+        "lng": 6.15385,
+        "areaM2": 3401,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w247281133",
+        "name": "Square des Bosquets",
+        "kind": "park",
+        "lat": 48.6839,
+        "lng": 6.14883,
+        "areaM2": 2412,
+        "playground": true,
+        "wheelchair": null,
+        "dog": false,
+        "drinkingWater": true,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w270844803",
+        "name": "Square Reynier",
+        "kind": "park",
+        "lat": 48.68259,
+        "lng": 6.1467,
+        "areaM2": 586,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w319076731",
+        "name": "Square des Capucines",
+        "kind": "park",
+        "lat": 48.68755,
+        "lng": 6.15125,
+        "areaM2": 511,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "le-blanc": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w233435349",
+        "name": "Parc Mis et Thiennot",
+        "kind": "park",
+        "lat": 46.64149,
+        "lng": 1.06704,
+        "areaM2": 12437,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w123392463",
+        "name": "Square de Bechhofen",
+        "kind": "park",
+        "lat": 46.64031,
+        "lng": 1.06584,
+        "areaM2": 6517,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w98099971",
+        "name": "Square des Marronniers",
+        "kind": "garden",
+        "lat": 46.63081,
+        "lng": 1.07171,
+        "areaM2": 1306,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w98099966",
+        "name": "Jardin André Nimetz",
+        "kind": "garden",
+        "lat": 46.63505,
+        "lng": 1.06019,
+        "areaM2": 635,
         "playground": false,
         "wheelchair": null,
         "dog": null,
@@ -46652,6 +50178,12 @@
       }
     ]
   },
+  "les-andelys": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": []
+  },
   "les-sables-d-olonne": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -48467,6 +51999,69 @@
       }
     ]
   },
+  "limoux": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w125664568",
+        "name": "Jardin de la Bouchière",
+        "kind": "park",
+        "lat": 43.06908,
+        "lng": 2.22281,
+        "areaM2": 26527,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1527837963",
+        "name": "Parc Saint-Joseph de Cluny",
+        "kind": "park",
+        "lat": 43.05784,
+        "lng": 2.22052,
+        "areaM2": 11220,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w27801577",
+        "name": "Île de Sournies",
+        "kind": "park",
+        "lat": 43.0501,
+        "lng": 2.22158,
+        "areaM2": 8848,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w318117236",
+        "name": "Place du 21 Décembre",
+        "kind": "garden",
+        "lat": 43.06572,
+        "lng": 2.21761,
+        "areaM2": 1268,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "lingolsheim": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -49137,6 +52732,55 @@
       }
     ]
   },
+  "lourdes": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w52957795",
+        "name": "Place des Tilleuls",
+        "kind": "park",
+        "lat": 43.09289,
+        "lng": -0.04553,
+        "areaM2": 8696,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w245782979",
+        "name": "Parc de l'You",
+        "kind": "park",
+        "lat": 43.09201,
+        "lng": -0.0432,
+        "areaM2": 7311,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w190572360",
+        "name": "Esplanade",
+        "kind": "garden",
+        "lat": 43.09783,
+        "lng": -0.05414,
+        "areaM2": 2338,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "louviers": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -49213,6 +52857,55 @@
       }
     ],
     "queryVersion": 3
+  },
+  "lure": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w295334024",
+        "name": "Base de la Saline",
+        "kind": "park",
+        "lat": 47.66248,
+        "lng": 6.50097,
+        "areaM2": 338829,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w132538464",
+        "name": "Parc de l'Abbaye",
+        "kind": "park",
+        "lat": 47.68616,
+        "lng": 6.48792,
+        "areaM2": 27930,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w130155132",
+        "name": "Square de la Pologne",
+        "kind": "park",
+        "lat": 47.68056,
+        "lng": 6.49865,
+        "areaM2": 2123,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
   },
   "lyon": {
     "crawledAt": "2026-07-27",
@@ -52694,6 +56387,47 @@
       }
     ]
   },
+  "mauriac": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w1183509622",
+        "name": "Square Cassin",
+        "kind": "park",
+        "lat": 45.21776,
+        "lng": 2.33685,
+        "areaM2": 7892,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w958103889",
+        "name": "Parc d'Ingersheim",
+        "kind": "park",
+        "lat": 45.2168,
+        "lng": 2.33061,
+        "areaM2": 1992,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "mayenne": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": []
+  },
   "meaux": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -52966,6 +56700,55 @@
         "playground": true,
         "wheelchair": null,
         "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "mende": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w335940605",
+        "name": "Parc de Wunsiedel",
+        "kind": "park",
+        "lat": 44.51664,
+        "lng": 3.47961,
+        "areaM2": 25753,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w678385502",
+        "name": "Jardin Pierre Couderc",
+        "kind": "park",
+        "lat": 44.51815,
+        "lng": 3.49019,
+        "areaM2": 3350,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w674643534",
+        "name": "Square du 19 Mars 1962",
+        "kind": "park",
+        "lat": 44.5157,
+        "lng": 3.50307,
+        "areaM2": 756,
+        "playground": false,
+        "wheelchair": null,
+        "dog": false,
         "drinkingWater": false,
         "toilets": false,
         "access": "public"
@@ -53485,6 +57268,41 @@
         "drinkingWater": false,
         "toilets": false,
         "access": "yes"
+      }
+    ]
+  },
+  "meru": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w627384958",
+        "name": "Parc de la Ville",
+        "kind": "park",
+        "lat": 49.23936,
+        "lng": 2.13794,
+        "areaM2": 30539,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1274696093",
+        "name": "Verger communal de Méru",
+        "kind": "garden",
+        "lat": 49.23155,
+        "lng": 2.14284,
+        "areaM2": 2403,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
       }
     ]
   },
@@ -54305,6 +58123,160 @@
       }
     ]
   },
+  "moissac": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w105933274",
+        "name": "Aire de Loisirs du Petit Bois",
+        "kind": "park",
+        "lat": 44.10213,
+        "lng": 1.09627,
+        "areaM2": 3499,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w47415835",
+        "name": "Square du Sarlac",
+        "kind": "park",
+        "lat": 44.10122,
+        "lng": 1.09897,
+        "areaM2": 2757,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w59184255",
+        "name": "Square Jean-Louis Demeurs",
+        "kind": "park",
+        "lat": 44.09988,
+        "lng": 1.08387,
+        "areaM2": 1673,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w80219151",
+        "name": "Jardin Firmin Bouisset",
+        "kind": "park",
+        "lat": 44.10382,
+        "lng": 1.08383,
+        "areaM2": 1109,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w80871874",
+        "name": "Square Léon Chancerel",
+        "kind": "park",
+        "lat": 44.10322,
+        "lng": 1.0976,
+        "areaM2": 927,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w257236871",
+        "name": "Jardin des Remparts",
+        "kind": "garden",
+        "lat": 44.10584,
+        "lng": 1.08538,
+        "areaM2": 799,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w308568247",
+        "name": "Square Roger Delthil",
+        "kind": "park",
+        "lat": 44.10163,
+        "lng": 1.09037,
+        "areaM2": 697,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w106086808",
+        "name": "Jardin Slimane Azem",
+        "kind": "garden",
+        "lat": 44.10599,
+        "lng": 1.08585,
+        "areaM2": 315,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "monistrol-sur-loire": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w221398984",
+        "name": "Jardin de l'Hôtel de ville",
+        "kind": "park",
+        "lat": 45.29248,
+        "lng": 4.17191,
+        "areaM2": 544,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w221853474",
+        "name": "Place du 19 Mars 1962",
+        "kind": "garden",
+        "lat": 45.2926,
+        "lng": 4.17275,
+        "areaM2": 534,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "mont-de-marsan": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -54585,6 +58557,55 @@
     ],
     "queryVersion": 3
   },
+  "montargis": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w295826481",
+        "name": "Parc Durzy",
+        "kind": "park",
+        "lat": 47.99678,
+        "lng": 2.73624,
+        "areaM2": 16269,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w536731650",
+        "name": "Parc de la Colline du Château",
+        "kind": "park",
+        "lat": 47.99643,
+        "lng": 2.72396,
+        "areaM2": 15229,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w295804850",
+        "name": "Place du 18 Juin 1940",
+        "kind": "park",
+        "lat": 48.00091,
+        "lng": 2.73299,
+        "areaM2": 14352,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      }
+    ]
+  },
   "montauban": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -54712,6 +58733,27 @@
         "wheelchair": null,
         "dog": null,
         "drinkingWater": true,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "montbard": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w617703294",
+        "name": "Parc Buffon",
+        "kind": "park",
+        "lat": 47.62569,
+        "lng": 4.33515,
+        "areaM2": 10703,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
         "toilets": false,
         "access": "public"
       }
@@ -54902,6 +58944,153 @@
         "drinkingWater": false,
         "toilets": false,
         "access": "yes"
+      }
+    ]
+  },
+  "montbrison": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w480269127",
+        "name": "Parc Sainte-Eugénie",
+        "kind": "park",
+        "lat": 45.59546,
+        "lng": 4.07284,
+        "areaM2": 30317,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w272452265",
+        "name": "Jardin d'Allard",
+        "kind": "park",
+        "lat": 45.60796,
+        "lng": 4.06031,
+        "areaM2": 16818,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1460360118",
+        "name": "Parc du Pré du Puits",
+        "kind": "park",
+        "lat": 45.59588,
+        "lng": 4.07738,
+        "areaM2": 10681,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w910599414",
+        "name": "Parc Montchenu",
+        "kind": "park",
+        "lat": 45.61081,
+        "lng": 4.06207,
+        "areaM2": 7608,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1006803296",
+        "name": "Terrain Volle",
+        "kind": "park",
+        "lat": 45.61289,
+        "lng": 4.05223,
+        "areaM2": 4761,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w512968074",
+        "name": "Square Honoré d'Urfé",
+        "kind": "park",
+        "lat": 45.6103,
+        "lng": 4.06294,
+        "areaM2": 4493,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1382663526",
+        "name": "Clos Sainte-Eugénie",
+        "kind": "park",
+        "lat": 45.59432,
+        "lng": 4.07218,
+        "areaM2": 2840,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w979805964",
+        "name": "Jardin Partagé",
+        "kind": "garden",
+        "lat": 45.61721,
+        "lng": 4.06797,
+        "areaM2": 585,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1221365762",
+        "name": "square Victor-Patay",
+        "kind": "park",
+        "lat": 45.60881,
+        "lng": 4.06407,
+        "areaM2": 580,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1382663525",
+        "name": "Espace Germain-Giroud",
+        "kind": "park",
+        "lat": 45.59242,
+        "lng": 4.07468,
+        "areaM2": 223,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
       }
     ]
   },
@@ -55734,6 +59923,69 @@
       }
     ],
     "queryVersion": 3
+  },
+  "montmorillon": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w1157895978",
+        "name": "Aire des Ilettes",
+        "kind": "park",
+        "lat": 46.43385,
+        "lng": 0.86938,
+        "areaM2": 34062,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w126468577",
+        "name": "Square de Wadern",
+        "kind": "park",
+        "lat": 46.42679,
+        "lng": 0.8737,
+        "areaM2": 1842,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1062157410",
+        "name": "Square Medina del Campo",
+        "kind": "park",
+        "lat": 46.42472,
+        "lng": 0.86762,
+        "areaM2": 938,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1157884594",
+        "name": "La Roseraie",
+        "kind": "park",
+        "lat": 46.42651,
+        "lng": 0.86464,
+        "areaM2": 493,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
   },
   "montpellier": {
     "crawledAt": "2026-07-27",
@@ -56760,6 +61012,69 @@
         "lat": 48.85423,
         "lng": 2.42736,
         "areaM2": 128,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "morlaix": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w52583549",
+        "name": "Ancien Couvent des Ursulines",
+        "kind": "park",
+        "lat": 48.5775,
+        "lng": -3.82013,
+        "areaM2": 25296,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w38456991",
+        "name": "Square Daumesnil",
+        "kind": "park",
+        "lat": 48.57321,
+        "lng": -3.82288,
+        "areaM2": 7296,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w186662158",
+        "name": "Square de la Madeleine",
+        "kind": "park",
+        "lat": 48.58161,
+        "lng": -3.82257,
+        "areaM2": 4480,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w38456544",
+        "name": "Square de la Résistance",
+        "kind": "park",
+        "lat": 48.57559,
+        "lng": -3.821,
+        "areaM2": 1157,
         "playground": false,
         "wheelchair": null,
         "dog": null,
@@ -61335,6 +65650,12 @@
       }
     ]
   },
+  "noirmoutier": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": []
+  },
   "noisiel": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -61661,6 +65982,12 @@
         "access": "public"
       }
     ]
+  },
+  "obernai": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": []
   },
   "olivet": {
     "crawledAt": "2026-07-27",
@@ -63595,6 +67922,111 @@
       }
     ]
   },
+  "paray-le-monial": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w199768818",
+        "name": "Parc du Moulin Liron",
+        "kind": "park",
+        "lat": 46.44599,
+        "lng": 4.12495,
+        "areaM2": 158987,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w566223297",
+        "name": "Parc des Chapelains",
+        "kind": "park",
+        "lat": 46.44923,
+        "lng": 4.12244,
+        "areaM2": 23621,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w144970714",
+        "name": "Jardin du Monastère",
+        "kind": "garden",
+        "lat": 46.45052,
+        "lng": 4.12294,
+        "areaM2": 19327,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w215753670",
+        "name": "Jardin des bords de Bourbince",
+        "kind": "park",
+        "lat": 46.45053,
+        "lng": 4.11785,
+        "areaM2": 4519,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "r5371578",
+        "name": "Jardin Saint-Hugues",
+        "kind": "park",
+        "lat": 46.45033,
+        "lng": 4.12137,
+        "areaM2": 2558,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1387944370",
+        "name": "Pollinarium Sentinelle",
+        "kind": "park",
+        "lat": 46.44782,
+        "lng": 4.12091,
+        "areaM2": 1138,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w199417962",
+        "name": "Square des Droits de l'Enfant",
+        "kind": "playground",
+        "lat": 46.44803,
+        "lng": 4.12126,
+        "areaM2": 685,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "yes"
+      }
+    ]
+  },
   "paris": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -64156,6 +68588,125 @@
         "wheelchair": null,
         "dog": null,
         "drinkingWater": true,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "parthenay": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w45736169",
+        "name": "Base de Loisirs",
+        "kind": "park",
+        "lat": 46.64166,
+        "lng": -0.26474,
+        "areaM2": 138269,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w475927151",
+        "name": "La Prée",
+        "kind": "park",
+        "lat": 46.65116,
+        "lng": -0.2529,
+        "areaM2": 52226,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w44374146",
+        "name": "Parc des Loges",
+        "kind": "park",
+        "lat": 46.65024,
+        "lng": -0.2344,
+        "areaM2": 51288,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w43418195",
+        "name": "jardin public",
+        "kind": "park",
+        "lat": 46.64879,
+        "lng": -0.24471,
+        "areaM2": 6760,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w236043267",
+        "name": "Jardin Férolle",
+        "kind": "park",
+        "lat": 46.64991,
+        "lng": -0.24936,
+        "areaM2": 2540,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w165302860",
+        "name": "Square Robert Bigot",
+        "kind": "garden",
+        "lat": 46.64917,
+        "lng": -0.24696,
+        "areaM2": 1061,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w655432230",
+        "name": "Potager",
+        "kind": "park",
+        "lat": 46.65013,
+        "lng": -0.24933,
+        "areaM2": 417,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w562444434",
+        "name": "Jardin des Roses Anciennes",
+        "kind": "garden",
+        "lat": 46.64892,
+        "lng": -0.25086,
+        "areaM2": 412,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
         "toilets": false,
         "access": "public"
       }
@@ -65013,6 +69564,55 @@
       }
     ],
     "queryVersion": 3
+  },
+  "peronne": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w315742637",
+        "name": "Parc de l'Étang du Cam",
+        "kind": "park",
+        "lat": 49.92756,
+        "lng": 2.92863,
+        "areaM2": 82201,
+        "playground": true,
+        "wheelchair": true,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w498817942",
+        "name": "Parc de Loisirs du Cam",
+        "kind": "playground",
+        "lat": 49.92625,
+        "lng": 2.92849,
+        "areaM2": 2799,
+        "playground": true,
+        "wheelchair": true,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w464828236",
+        "name": "Mémorial à la 2e Division australienne",
+        "kind": "park",
+        "lat": 49.94747,
+        "lng": 2.93256,
+        "areaM2": 1008,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
   },
   "perpignan": {
     "crawledAt": "2026-07-27",
@@ -66138,6 +70738,12 @@
       }
     ]
   },
+  "pezenas": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": []
+  },
   "pierrefitte-sur-seine": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -67051,6 +71657,55 @@
       }
     ]
   },
+  "pont-a-mousson": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w281785235",
+        "name": "Ile d'Esch",
+        "kind": "park",
+        "lat": 48.89773,
+        "lng": 6.05873,
+        "areaM2": 8678,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w281785114",
+        "name": "Square Henri Dunant",
+        "kind": "park",
+        "lat": 48.89973,
+        "lng": 6.05205,
+        "areaM2": 5365,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w152634101",
+        "name": "Place des Droits de l'Homme",
+        "kind": "playground",
+        "lat": 48.9033,
+        "lng": 6.04269,
+        "areaM2": 487,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "yes"
+      }
+    ]
+  },
   "pontarlier": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -67336,6 +71991,103 @@
       }
     ],
     "queryVersion": 3
+  },
+  "porto-vecchio": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": []
+  },
+  "privas": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w591504055",
+        "name": "Jardins de la Préfecture",
+        "kind": "park",
+        "lat": 44.73592,
+        "lng": 4.59976,
+        "areaM2": 4715,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1317461397",
+        "name": "Colline du Montoulon",
+        "kind": "park",
+        "lat": 44.73359,
+        "lng": 4.59021,
+        "areaM2": 4116,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w321465373",
+        "name": "Jardin de l'Europe Unie",
+        "kind": "park",
+        "lat": 44.73336,
+        "lng": 4.59957,
+        "areaM2": 3837,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w321465370",
+        "name": "Jardin des Récollets",
+        "kind": "park",
+        "lat": 44.73626,
+        "lng": 4.5961,
+        "areaM2": 945,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w322941596",
+        "name": "Square Vincent d'Indy",
+        "kind": "park",
+        "lat": 44.73452,
+        "lng": 4.6014,
+        "areaM2": 468,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w899604910",
+        "name": "square Jean Moulin",
+        "kind": "park",
+        "lat": 44.73312,
+        "lng": 4.59364,
+        "areaM2": 224,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
   },
   "provins": {
     "crawledAt": "2026-07-27",
@@ -68083,6 +72835,69 @@
         "lng": 2.23698,
         "areaM2": 0,
         "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "quiberon": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w66467196",
+        "name": "Jardin de Brétinio",
+        "kind": "park",
+        "lat": 47.48179,
+        "lng": -3.11965,
+        "areaM2": 5419,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w307886612",
+        "name": "Jardin du Ragot",
+        "kind": "garden",
+        "lat": 47.4966,
+        "lng": -3.12615,
+        "areaM2": 4985,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w242375617",
+        "name": "Jeux Enfants",
+        "kind": "playground",
+        "lat": 47.49008,
+        "lng": -3.12941,
+        "areaM2": 185,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1298348072",
+        "name": "Clubs enfants",
+        "kind": "playground",
+        "lat": 47.47596,
+        "lng": -3.09347,
+        "areaM2": 63,
+        "playground": true,
         "wheelchair": null,
         "dog": null,
         "drinkingWater": false,
@@ -69740,6 +74555,69 @@
       }
     ]
   },
+  "rethel": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w448312667",
+        "name": "Promenade des Isles",
+        "kind": "park",
+        "lat": 49.5117,
+        "lng": 4.35745,
+        "areaM2": 73550,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w921607758",
+        "name": "Jardin du Clos Lapierre",
+        "kind": "park",
+        "lat": 49.51333,
+        "lng": 4.3739,
+        "areaM2": 13114,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w251489706",
+        "name": "Place de la République",
+        "kind": "garden",
+        "lat": 49.50865,
+        "lng": 4.36586,
+        "areaM2": 2070,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w921339888",
+        "name": "Square Linard",
+        "kind": "park",
+        "lat": 49.51237,
+        "lng": 4.36531,
+        "areaM2": 1522,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "reze": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -70109,6 +74987,75 @@
         "access": "public"
       }
     ]
+  },
+  "riberac": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w476628441",
+        "name": "Jardin de la Mairie",
+        "kind": "park",
+        "lat": 45.24652,
+        "lng": 0.33778,
+        "areaM2": 6654,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w27557413",
+        "name": "Jardin Public Robert Badinter",
+        "kind": "park",
+        "lat": 45.24946,
+        "lng": 0.33815,
+        "areaM2": 4321,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1279375328",
+        "name": "Square Raymond Darène",
+        "kind": "park",
+        "lat": 45.24864,
+        "lng": 0.33725,
+        "areaM2": 451,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w27557475",
+        "name": "espace Rietberg",
+        "kind": "park",
+        "lat": 45.24754,
+        "lng": 0.33863,
+        "areaM2": 384,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "riedisheim": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": []
   },
   "rillieux-la-pape": {
     "crawledAt": "2026-07-27",
@@ -71287,6 +76234,41 @@
         "lat": 45.05182,
         "lng": 4.99873,
         "areaM2": 72,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "romilly-sur-seine": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w415862513",
+        "name": "Ferme pédagogique",
+        "kind": "park",
+        "lat": 48.5196,
+        "lng": 3.74152,
+        "areaM2": 14090,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w136275013",
+        "name": "Square René Cassin",
+        "kind": "park",
+        "lat": 48.50806,
+        "lng": 3.72047,
+        "areaM2": 2129,
         "playground": false,
         "wheelchair": null,
         "dog": null,
@@ -73154,6 +78136,68 @@
       }
     ]
   },
+  "rumilly": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": []
+  },
+  "sable-sur-sarthe": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w158859300",
+        "name": "Parc du Château",
+        "kind": "park",
+        "lat": 47.83813,
+        "lng": -0.33586,
+        "areaM2": 130327,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w158855482",
+        "name": "Jardin Public",
+        "kind": "park",
+        "lat": 47.84422,
+        "lng": -0.32739,
+        "areaM2": 70903,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "saint-amand-montrond": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w1489843926",
+        "name": "Parc Montagnac",
+        "kind": "park",
+        "lat": 46.71795,
+        "lng": 2.50181,
+        "areaM2": 11510,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "saint-andre-reunion": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -73954,6 +78998,47 @@
       }
     ],
     "queryVersion": 3
+  },
+  "saint-chely-d-apcher": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": []
+  },
+  "saint-claude": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w1413046824",
+        "name": "Parc du Truchet",
+        "kind": "park",
+        "lat": 46.39375,
+        "lng": 5.86529,
+        "areaM2": 10523,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w686732305",
+        "name": "Square du Truchet",
+        "kind": "playground",
+        "lat": 46.39403,
+        "lng": 5.86568,
+        "areaM2": 707,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "yes"
+      }
+    ]
   },
   "saint-cloud": {
     "crawledAt": "2026-07-27",
@@ -75772,6 +80857,90 @@
       }
     ]
   },
+  "saint-flour": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w294740420",
+        "name": "Square Maurice Montel",
+        "kind": "park",
+        "lat": 45.03398,
+        "lng": 3.10407,
+        "areaM2": 3686,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "saint-gaudens": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w712202111",
+        "name": "Séde",
+        "kind": "playground",
+        "lat": 43.10148,
+        "lng": 0.70148,
+        "areaM2": 8522,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w25717603",
+        "name": "Square Azémar",
+        "kind": "park",
+        "lat": 43.10633,
+        "lng": 0.72058,
+        "areaM2": 4642,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w37076663",
+        "name": "Square du Procureur Henri Bergé",
+        "kind": "park",
+        "lat": 43.10837,
+        "lng": 0.72171,
+        "areaM2": 4112,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w336588345",
+        "name": "Place Armand Marrast",
+        "kind": "park",
+        "lat": 43.10727,
+        "lng": 0.72409,
+        "areaM2": 195,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "saint-genis-laval": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -76176,6 +81345,55 @@
       }
     ]
   },
+  "saint-girons": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w48860908",
+        "name": "Parc du Château des Vicomtes",
+        "kind": "park",
+        "lat": 42.98239,
+        "lng": 1.14459,
+        "areaM2": 4230,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w48676250",
+        "name": "Square Balagué",
+        "kind": "park",
+        "lat": 42.98616,
+        "lng": 1.14276,
+        "areaM2": 781,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w292230100",
+        "name": "Aire de Jeux",
+        "kind": "playground",
+        "lat": 42.97945,
+        "lng": 1.13154,
+        "areaM2": 284,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "saint-herblain": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -76347,6 +81565,153 @@
         "drinkingWater": false,
         "toilets": false,
         "access": "public"
+      }
+    ]
+  },
+  "saint-jean-de-luz": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w419884732",
+        "name": "Parc Ducontenia",
+        "kind": "park",
+        "lat": 43.39004,
+        "lng": -1.65551,
+        "areaM2": 31604,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w270212628",
+        "name": "Jardin botanique littoral Paul Jovet",
+        "kind": "garden",
+        "lat": 43.40401,
+        "lng": -1.65105,
+        "areaM2": 17780,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w478949656",
+        "name": "Square de Verdun",
+        "kind": "park",
+        "lat": 43.38594,
+        "lng": -1.66251,
+        "areaM2": 2213,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w807093885",
+        "name": "Square Elizaga",
+        "kind": "park",
+        "lat": 43.39109,
+        "lng": -1.6569,
+        "areaM2": 1339,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w425517321",
+        "name": "Plantes des cinq continents",
+        "kind": "park",
+        "lat": 43.40341,
+        "lng": -1.65119,
+        "areaM2": 1145,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w425517315",
+        "name": "Jardin école",
+        "kind": "garden",
+        "lat": 43.40419,
+        "lng": -1.65025,
+        "areaM2": 694,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w807093884",
+        "name": "Square Lemaire",
+        "kind": "park",
+        "lat": 43.3905,
+        "lng": -1.65747,
+        "areaM2": 259,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w807093883",
+        "name": "Parc Jean Moulin",
+        "kind": "playground",
+        "lat": 43.38956,
+        "lng": -1.65897,
+        "areaM2": 168,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "yes"
+      },
+      {
+        "osmId": "w527582569",
+        "name": "Square Henry Dunant",
+        "kind": "playground",
+        "lat": 43.38737,
+        "lng": -1.66756,
+        "areaM2": 159,
+        "playground": true,
+        "wheelchair": true,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "yes"
+      },
+      {
+        "osmId": "w836099110",
+        "name": "Lafitenia",
+        "kind": "playground",
+        "lat": 43.41382,
+        "lng": -1.62613,
+        "areaM2": 73,
+        "playground": true,
+        "wheelchair": true,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "yes"
       }
     ]
   },
@@ -78260,6 +83625,55 @@
       }
     ]
   },
+  "saint-omer": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w79813106",
+        "name": "Jardin public de Saint-Omer",
+        "kind": "park",
+        "lat": 50.74609,
+        "lng": 2.24907,
+        "areaM2": 183947,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w899495214",
+        "name": "Jardin conservatoire",
+        "kind": "garden",
+        "lat": 50.75688,
+        "lng": 2.24746,
+        "areaM2": 544,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w899495175",
+        "name": "Jardin de Batistin",
+        "kind": "garden",
+        "lat": 50.75335,
+        "lng": 2.26132,
+        "areaM2": 531,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "saint-ouen-sur-seine": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -78542,6 +83956,27 @@
         "dog": null,
         "drinkingWater": false,
         "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "saint-paul-de-vence": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w233712189",
+        "name": "Arboretum Marcel Kroenlein",
+        "kind": "park",
+        "lat": 44.0962,
+        "lng": 7.08853,
+        "areaM2": 63456,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": true,
         "access": "public"
       }
     ]
@@ -79673,6 +85108,335 @@
         "lat": 43.42124,
         "lng": 6.76978,
         "areaM2": 249,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "saint-remy-de-provence": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w918576246",
+        "name": "Parc bien vivre",
+        "kind": "park",
+        "lat": 43.79709,
+        "lng": 4.83417,
+        "areaM2": 5091,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w918576245",
+        "name": "parc de l'argelier",
+        "kind": "park",
+        "lat": 43.79683,
+        "lng": 4.83525,
+        "areaM2": 1014,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w617880293",
+        "name": "Square Joseph Mauron",
+        "kind": "playground",
+        "lat": 43.78573,
+        "lng": 4.83157,
+        "areaM2": 797,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "yes"
+      },
+      {
+        "osmId": "w1382511211",
+        "name": "Square de Verdun",
+        "kind": "park",
+        "lat": 43.78936,
+        "lng": 4.82904,
+        "areaM2": 710,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "saint-tropez": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w1457602979",
+        "name": "esterel academie 2023",
+        "kind": "park",
+        "lat": 43.45196,
+        "lng": 6.80325,
+        "areaM2": 129770,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w287142116",
+        "name": "Jardin Bonaparte",
+        "kind": "park",
+        "lat": 43.42209,
+        "lng": 6.76529,
+        "areaM2": 13414,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w887611334",
+        "name": "Jardin Pierre Fernez",
+        "kind": "park",
+        "lat": 43.4417,
+        "lng": 6.77689,
+        "areaM2": 6345,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w121021743",
+        "name": "Jardin public de l'Oratoire",
+        "kind": "park",
+        "lat": 43.43253,
+        "lng": 6.86878,
+        "areaM2": 4361,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w302933771",
+        "name": "Jardin d'Arménie",
+        "kind": "garden",
+        "lat": 43.42485,
+        "lng": 6.76483,
+        "areaM2": 1902,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1304504013",
+        "name": "Jardin des Corailleurs",
+        "kind": "park",
+        "lat": 43.4125,
+        "lng": 6.78307,
+        "areaM2": 1483,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w32892228",
+        "name": "Square Saint-Exupéry",
+        "kind": "park",
+        "lat": 43.42249,
+        "lng": 6.77367,
+        "areaM2": 1215,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w581288684",
+        "name": "Square de Provence",
+        "kind": "park",
+        "lat": 43.42483,
+        "lng": 6.76391,
+        "areaM2": 1103,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1108988280",
+        "name": "Jardin Robert Marenco",
+        "kind": "garden",
+        "lat": 43.42394,
+        "lng": 6.76613,
+        "areaM2": 722,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w32892482",
+        "name": "Square Georges Berger",
+        "kind": "park",
+        "lat": 43.42029,
+        "lng": 6.77144,
+        "areaM2": 439,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w345571741",
+        "name": "Square du Souvenir Français",
+        "kind": "park",
+        "lat": 43.42254,
+        "lng": 6.76731,
+        "areaM2": 436,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w580274360",
+        "name": "Square Auguste Lutaud",
+        "kind": "garden",
+        "lat": 43.41481,
+        "lng": 6.84836,
+        "areaM2": 265,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w32892483",
+        "name": "Square Alphonse Karr",
+        "kind": "park",
+        "lat": 43.42124,
+        "lng": 6.76978,
+        "areaM2": 249,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "saint-yrieix-la-perche": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w146790726",
+        "name": "Parc Bellevue de Glane",
+        "kind": "park",
+        "lat": 45.8936,
+        "lng": 0.89789,
+        "areaM2": 25597,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w887585893",
+        "name": "Parc de l'abbaye de Saint-Amand",
+        "kind": "park",
+        "lat": 45.88677,
+        "lng": 0.88999,
+        "areaM2": 5139,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w423195203",
+        "name": "Place Lacôte",
+        "kind": "garden",
+        "lat": 45.88659,
+        "lng": 0.89785,
+        "areaM2": 3885,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w314708791",
+        "name": "Aire de Jeux",
+        "kind": "playground",
+        "lat": 45.89367,
+        "lng": 0.89844,
+        "areaM2": 151,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w488770416",
+        "name": "Jardin Prosper Mérimé",
+        "kind": "garden",
+        "lat": 45.88723,
+        "lng": 0.90212,
+        "areaM2": 102,
         "playground": false,
         "wheelchair": null,
         "dog": null,
@@ -80843,6 +86607,188 @@
       }
     ]
   },
+  "sarlat-la-caneda": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w222442723",
+        "name": "Jardin Public du Plantier",
+        "kind": "park",
+        "lat": 44.88823,
+        "lng": 1.2191,
+        "areaM2": 12840,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w222880863",
+        "name": "Square du 8 Mai",
+        "kind": "park",
+        "lat": 44.89129,
+        "lng": 1.21568,
+        "areaM2": 702,
+        "playground": false,
+        "wheelchair": null,
+        "dog": false,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1184187578",
+        "name": "Jardin J.F. Kennedy",
+        "kind": "park",
+        "lat": 44.95166,
+        "lng": 1.15321,
+        "areaM2": 427,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "sarrebourg": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w185639453",
+        "name": "Parc Municipal",
+        "kind": "park",
+        "lat": 49.10641,
+        "lng": 7.06247,
+        "areaM2": 37188,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1044738338",
+        "name": "Le Jardin des Faïenciers",
+        "kind": "park",
+        "lat": 49.12625,
+        "lng": 7.07802,
+        "areaM2": 28314,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w1194551953",
+        "name": "Parc Utzschneider",
+        "kind": "park",
+        "lat": 49.11814,
+        "lng": 7.08217,
+        "areaM2": 11770,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w117839019",
+        "name": "Place Jeanne d'Arc",
+        "kind": "park",
+        "lat": 49.11605,
+        "lng": 7.07273,
+        "areaM2": 4893,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w775804100",
+        "name": "Place de la Bastille",
+        "kind": "park",
+        "lat": 49.11263,
+        "lng": 7.07796,
+        "areaM2": 3020,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w192138653",
+        "name": "Square Wiltzer",
+        "kind": "park",
+        "lat": 49.11388,
+        "lng": 7.07074,
+        "areaM2": 2872,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w376814305",
+        "name": "Square du Major Bennett",
+        "kind": "park",
+        "lat": 49.11256,
+        "lng": 7.07091,
+        "areaM2": 2215,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w789965117",
+        "name": "Square Thomas Wilson",
+        "kind": "park",
+        "lat": 49.11478,
+        "lng": 7.07249,
+        "areaM2": 1412,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w790468899",
+        "name": "Square de la Vieille Ville",
+        "kind": "park",
+        "lat": 49.11237,
+        "lng": 7.06524,
+        "areaM2": 1145,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "sarreguemines": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -80966,6 +86912,27 @@
         "lat": 49.11237,
         "lng": 7.06524,
         "areaM2": 1145,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "sartene": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w840938147",
+        "name": "Square Joseph Tramoni",
+        "kind": "park",
+        "lat": 41.62037,
+        "lng": 8.97026,
+        "areaM2": 274,
         "playground": false,
         "wheelchair": null,
         "dog": null,
@@ -81378,6 +87345,12 @@
         "access": "public"
       }
     ]
+  },
+  "saverne": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": []
   },
   "savigny-le-temple": {
     "crawledAt": "2026-07-27",
@@ -82075,6 +88048,55 @@
       }
     ],
     "queryVersion": 3
+  },
+  "semur-en-auxois": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w1223759712",
+        "name": "Plaine de la Saussiotte",
+        "kind": "park",
+        "lat": 47.48999,
+        "lng": 4.34424,
+        "areaM2": 15937,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w163202447",
+        "name": "Promenade du Rempart",
+        "kind": "park",
+        "lat": 47.48907,
+        "lng": 4.32592,
+        "areaM2": 6161,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w483472938",
+        "name": "Square du Souvenir Français",
+        "kind": "park",
+        "lat": 47.49007,
+        "lng": 4.33302,
+        "areaM2": 1517,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
   },
   "senlis": {
     "crawledAt": "2026-07-27",
@@ -82793,6 +88815,69 @@
       }
     ],
     "queryVersion": 3
+  },
+  "sisteron": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w38287553",
+        "name": "Parc Masseau-Deveze",
+        "kind": "park",
+        "lat": 44.18967,
+        "lng": 5.94528,
+        "areaM2": 4877,
+        "playground": true,
+        "wheelchair": null,
+        "dog": false,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w38237529",
+        "name": "Square Pierre Lanza",
+        "kind": "park",
+        "lat": 44.19454,
+        "lng": 5.94317,
+        "areaM2": 2471,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w940506970",
+        "name": "Jardin Jeanne Gastinel",
+        "kind": "park",
+        "lat": 44.18528,
+        "lng": 5.93999,
+        "areaM2": 1570,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1334813209",
+        "name": "Parc Émile Paret",
+        "kind": "park",
+        "lat": 44.19742,
+        "lng": 5.94209,
+        "areaM2": 509,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
   },
   "six-fours-les-plages": {
     "crawledAt": "2026-07-27",
@@ -84484,6 +90569,125 @@
         "lat": 45.75713,
         "lng": 4.76773,
         "areaM2": 442,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "thiers": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w409340095",
+        "name": "Iloa",
+        "kind": "park",
+        "lat": 45.86847,
+        "lng": 3.48382,
+        "areaM2": 645263,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w522944941",
+        "name": "Étang du Chambon",
+        "kind": "park",
+        "lat": 45.83928,
+        "lng": 3.50409,
+        "areaM2": 30781,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w112573881",
+        "name": "Parc du Breuil",
+        "kind": "park",
+        "lat": 45.84808,
+        "lng": 3.54035,
+        "areaM2": 25821,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w111515386",
+        "name": "Jardins de l'Ancien Hôpital",
+        "kind": "park",
+        "lat": 45.85293,
+        "lng": 3.55001,
+        "areaM2": 23901,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w111575685",
+        "name": "L'Orangerie",
+        "kind": "park",
+        "lat": 45.85069,
+        "lng": 3.54347,
+        "areaM2": 14657,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w409476657",
+        "name": "Parc du Belvédère",
+        "kind": "park",
+        "lat": 45.84848,
+        "lng": 3.54869,
+        "areaM2": 9963,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w495498303",
+        "name": "Square de la Gare",
+        "kind": "park",
+        "lat": 45.86085,
+        "lng": 3.54242,
+        "areaM2": 2180,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w51301014",
+        "name": "Square de Verdun",
+        "kind": "park",
+        "lat": 45.85689,
+        "lng": 3.54843,
+        "areaM2": 1980,
         "playground": true,
         "wheelchair": null,
         "dog": null,
@@ -88042,6 +94246,398 @@
       }
     ]
   },
+  "tulle": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w33232640",
+        "name": "Parc de la Mairie",
+        "kind": "park",
+        "lat": 45.26555,
+        "lng": 1.7721,
+        "areaM2": 7201,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1046697059",
+        "name": "Parc du Puy Saint-Clair",
+        "kind": "park",
+        "lat": 45.27044,
+        "lng": 1.77354,
+        "areaM2": 4117,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w907891890",
+        "name": "Quai Baluze",
+        "kind": "park",
+        "lat": 45.26918,
+        "lng": 1.77292,
+        "areaM2": 3524,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1033473460",
+        "name": "Square du Chandon",
+        "kind": "park",
+        "lat": 45.26799,
+        "lng": 1.76926,
+        "areaM2": 656,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w64246874",
+        "name": "Square Bury",
+        "kind": "park",
+        "lat": 45.26455,
+        "lng": 1.76765,
+        "areaM2": 346,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w907891889",
+        "name": "Square Jean-Ségurel",
+        "kind": "park",
+        "lat": 45.26985,
+        "lng": 1.77486,
+        "areaM2": 270,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w64249216",
+        "name": "Square Errenteria",
+        "kind": "park",
+        "lat": 45.26581,
+        "lng": 1.76955,
+        "areaM2": 227,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1046697060",
+        "name": "Square d'Alverge",
+        "kind": "park",
+        "lat": 45.26918,
+        "lng": 1.77689,
+        "areaM2": 222,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "ussel": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w720208547",
+        "name": "Parc du château de la Diège",
+        "kind": "park",
+        "lat": 45.54394,
+        "lng": 2.30085,
+        "areaM2": 19594,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w116632306",
+        "name": "Parc de la mairie",
+        "kind": "park",
+        "lat": 45.54537,
+        "lng": 2.31137,
+        "areaM2": 15283,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w720208540",
+        "name": "Parc du musée",
+        "kind": "park",
+        "lat": 45.54698,
+        "lng": 2.30709,
+        "areaM2": 3165,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w720208539",
+        "name": "Place Voltaire",
+        "kind": "park",
+        "lat": 45.54596,
+        "lng": 2.30702,
+        "areaM2": 2661,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1482520758",
+        "name": "Les Jardins de la Vallée Verte",
+        "kind": "garden",
+        "lat": 45.54149,
+        "lng": 2.32041,
+        "areaM2": 2545,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w526798215",
+        "name": "Parc de la Médiathèque",
+        "kind": "park",
+        "lat": 45.54708,
+        "lng": 2.31105,
+        "areaM2": 1698,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1482520755",
+        "name": "Les Jardins Solidaires de la Jaloustre",
+        "kind": "garden",
+        "lat": 45.54061,
+        "lng": 2.32262,
+        "areaM2": 1557,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w694460240",
+        "name": "Parc Ventadour",
+        "kind": "park",
+        "lat": 45.54779,
+        "lng": 2.30979,
+        "areaM2": 894,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "vaison-la-romaine": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w224831414",
+        "name": "Espace nature Théos",
+        "kind": "park",
+        "lat": 44.23726,
+        "lng": 5.05713,
+        "areaM2": 62991,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w569388675",
+        "name": "Jardin des neuf Damoiselles",
+        "kind": "park",
+        "lat": 44.23753,
+        "lng": 5.05472,
+        "areaM2": 3556,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w435754009",
+        "name": "Esplanade Yves Meffre",
+        "kind": "park",
+        "lat": 44.24129,
+        "lng": 5.06894,
+        "areaM2": 2343,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w232122556",
+        "name": "Square André Noharet",
+        "kind": "playground",
+        "lat": 44.24403,
+        "lng": 5.07228,
+        "areaM2": 932,
+        "playground": true,
+        "wheelchair": null,
+        "dog": false,
+        "drinkingWater": true,
+        "toilets": false,
+        "access": "yes"
+      }
+    ]
+  },
+  "valbonne": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "r6404243",
+        "name": "Parc des Bouillides",
+        "kind": "park",
+        "lat": 43.62091,
+        "lng": 7.05179,
+        "areaM2": 227218,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": true,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w260688136",
+        "name": "Square Albert Ouvrier",
+        "kind": "park",
+        "lat": 43.64215,
+        "lng": 7.00774,
+        "areaM2": 2270,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w297240436",
+        "name": "Placette des Bambins",
+        "kind": "playground",
+        "lat": 43.62239,
+        "lng": 7.04986,
+        "areaM2": 544,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "yes"
+      },
+      {
+        "osmId": "w169086568",
+        "name": "Jardin des Chalaisiens",
+        "kind": "playground",
+        "lat": 43.6404,
+        "lng": 7.00954,
+        "areaM2": 525,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w353024690",
+        "name": "Square Marie Mauron",
+        "kind": "garden",
+        "lat": 43.64223,
+        "lng": 7.00646,
+        "areaM2": 416,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w770282019",
+        "name": "Patio",
+        "kind": "park",
+        "lat": 43.62743,
+        "lng": 7.03372,
+        "areaM2": 395,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "valence": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -90985,6 +97581,55 @@
       }
     ]
   },
+  "vesoul": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w788988042",
+        "name": "Jardin Anglais",
+        "kind": "park",
+        "lat": 47.62344,
+        "lng": 6.16409,
+        "areaM2": 32755,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w219295379",
+        "name": "Square Colonel Joseph Pourcelot",
+        "kind": "park",
+        "lat": 47.62714,
+        "lng": 6.14461,
+        "areaM2": 2462,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w1069377684",
+        "name": "Square Guy Batlogg",
+        "kind": "park",
+        "lat": 47.61905,
+        "lng": 6.15511,
+        "areaM2": 269,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
   "vichy": {
     "crawledAt": "2026-07-27",
     "source": "openstreetmap",
@@ -91368,6 +98013,69 @@
       }
     ],
     "queryVersion": 3
+  },
+  "villefranche-de-rouergue": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w171698671",
+        "name": "Parc du Saint-Jean",
+        "kind": "park",
+        "lat": 44.35036,
+        "lng": 2.04014,
+        "areaM2": 4412,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w171702742",
+        "name": "Parc de la mairie",
+        "kind": "park",
+        "lat": 44.34973,
+        "lng": 2.03553,
+        "areaM2": 2464,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": true,
+        "access": "public"
+      },
+      {
+        "osmId": "w310396439",
+        "name": "Grand Cloître",
+        "kind": "park",
+        "lat": 44.34348,
+        "lng": 2.03311,
+        "areaM2": 1993,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w80617831",
+        "name": "Amazing Park",
+        "kind": "playground",
+        "lat": 44.34915,
+        "lng": 2.03894,
+        "areaM2": 388,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
   },
   "villefranche-sur-saone": {
     "crawledAt": "2026-07-27",
@@ -94161,6 +100869,139 @@
         "lng": 3.19424,
         "areaM2": 1930,
         "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      }
+    ]
+  },
+  "wittenheim": {
+    "crawledAt": "2026-07-27",
+    "source": "openstreetmap",
+    "queryVersion": 3,
+    "parks": [
+      {
+        "osmId": "w425093471",
+        "name": "Parc du Rabbargala",
+        "kind": "park",
+        "lat": 47.80806,
+        "lng": 7.34317,
+        "areaM2": 89560,
+        "playground": true,
+        "wheelchair": null,
+        "dog": false,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w36262798",
+        "name": "Place Jean Moulin",
+        "kind": "park",
+        "lat": 47.82537,
+        "lng": 7.33796,
+        "areaM2": 8833,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w161775904",
+        "name": "Place Kullmann",
+        "kind": "park",
+        "lat": 47.80325,
+        "lng": 7.33845,
+        "areaM2": 4977,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w37543407",
+        "name": "Place de Thiers",
+        "kind": "park",
+        "lat": 47.8096,
+        "lng": 7.33788,
+        "areaM2": 3338,
+        "playground": false,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w501253430",
+        "name": "L'Aire de Jeu de la Table Ronde",
+        "kind": "playground",
+        "lat": 47.80829,
+        "lng": 7.3445,
+        "areaM2": 691,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "yes"
+      },
+      {
+        "osmId": "w501253405",
+        "name": "L'Aire de Jeu de Merlin",
+        "kind": "playground",
+        "lat": 47.80788,
+        "lng": 7.34328,
+        "areaM2": 490,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w38579639",
+        "name": "Aire de Jeux Loiret",
+        "kind": "playground",
+        "lat": 47.80114,
+        "lng": 7.33589,
+        "areaM2": 451,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w602519803",
+        "name": "Aire de Jeux Toutunchacun",
+        "kind": "playground",
+        "lat": 47.80939,
+        "lng": 7.34396,
+        "areaM2": 223,
+        "playground": true,
+        "wheelchair": null,
+        "dog": null,
+        "drinkingWater": false,
+        "toilets": false,
+        "access": "public"
+      },
+      {
+        "osmId": "w602519802",
+        "name": "Aire de Jeux d'Eau",
+        "kind": "playground",
+        "lat": 47.80963,
+        "lng": 7.34392,
+        "areaM2": 149,
+        "playground": true,
         "wheelchair": null,
         "dog": null,
         "drinkingWater": false,
