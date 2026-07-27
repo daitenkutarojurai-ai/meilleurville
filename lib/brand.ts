@@ -30,8 +30,17 @@ export function hubTitle(title: string): string {
 export function clampMeta(text: string, max = 158): string {
   if (text.length <= max) return text;
   const window = text.slice(0, max + 1);
+
   const sentence = Math.max(window.lastIndexOf(". "), window.lastIndexOf(" : "));
   if (sentence >= max * 0.6) return text.slice(0, sentence + 1).trim();
+
+  // Fall back to a clause boundary before a bare word boundary. Cutting at the
+  // last space leaves the snippet dangling mid-clause ("…celles où l'on peut
+  // vivre à l'année sans devenir"); cutting at the preceding comma or dash ends
+  // on a complete thought, which is what a reader actually scans.
+  const clause = Math.max(window.lastIndexOf(", "), window.lastIndexOf(" — "), window.lastIndexOf(" – "));
+  if (clause >= max * 0.6) return text.slice(0, clause).trim();
+
   const word = window.lastIndexOf(" ");
   return text.slice(0, word > 0 ? word : max).trim();
 }
