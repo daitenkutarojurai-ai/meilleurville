@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   return {
     title: `${city.name} — questions fréquentes & réponses 2026`,
-    description: `Toutes les questions qu'on se pose avant de vivre à ${city.name} : loyers, sécurité, trajets, climat 2040, écoles, télétravail. Réponses 2026 sourcées et chiffrées.`,
+    description: `Toutes les questions qu'on se pose avant de vivre à ${city.name} : loyers, sécurité, trajets, climat 2040, écoles, télétravail.`,
     alternates: { canonical: `/villes/${slug}/questions` },
     openGraph: {
       title: `${city.name} — questions fréquentes 2026`,

@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const [a, b, c] = cities as NonNullable<(typeof cities)[number]>[];
     return {
       title: `${a.name} vs ${b.name} vs ${c.name} · synthèse 8 axes 3 villes 2026`,
-      description: `Comparatif à 3 entre ${a.name}, ${b.name} et ${c.name} sur les 8 dimensions data : environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics. Verdict axe par axe.`,
+      description: `Comparatif à 3 entre ${a.name}, ${b.name} et ${c.name} : environnement, santé, emploi, cadre de vie, sécurité, démographie. Verdict axe par axe.`,
       alternates: { canonical: `/comparer/${pair}/synthese` },
       openGraph: {
         title: `${a.name} vs ${b.name} vs ${c.name} · synthèse 8 axes`,
@@ -58,7 +58,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!cityA || !cityB) return {};
   return {
     title: `${cityA.name} vs ${cityB.name} · synthèse 8 axes comparée 2026`,
-    description: `Comparatif ${cityA.name} vs ${cityB.name} sur les 8 dimensions data : environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics. Verdict axe par axe.`,
+    description: `Comparatif ${cityA.name} vs ${cityB.name} : environnement, santé, emploi, cadre de vie, sécurité, démographie. Verdict axe par axe.`,
     alternates: { canonical: `/comparer/${pair}/synthese` },
     openGraph: {
       title: `${cityA.name} vs ${cityB.name} · synthèse 8 axes`,

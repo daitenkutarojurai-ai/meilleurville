@@ -85,7 +85,7 @@ export default async function BadgePerCityPage({ params }: Props) {
           Badge {city.name} — {ordinal(rank)} ville de France
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)]">
-          Selon le classement MaVilleIdeal 2026, <strong>{city.name}</strong>{" "}
+          Selon le classement MaVilleIdéale 2026, <strong>{city.name}</strong>{" "}
           ({city.department}) occupe la <strong>{ordinal(rank)} place</strong>{" "}
           sur {total} villes analysées, avec un score global de{" "}
           <strong className="tabular-nums">{city.scores.global.toFixed(1)}/10</strong>.
@@ -157,7 +157,7 @@ export default async function BadgePerCityPage({ params }: Props) {
             </li>
             <li>
               Le classement porte sur les 540 villes couvertes par
-              MaVilleIdeal — pas toutes les communes de France. Une ville
+              MaVilleIdéale — pas toutes les communes de France. Une ville
               15ᵉ ici n&apos;est pas 15ᵉ sur les 34 000 communes du pays ;
               c&apos;est 15ᵉ sur un échantillon représentatif des villes de
               plus de 10 000 habitants + un noyau de préfectures.

@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Quiz vacances en France — 5 questions, 3 destinations · MaVilleIdeal";
+export const alt = "Quiz vacances en France — 5 questions, 3 destinations · MaVilleIdéale";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 export const dynamic = "force-static";

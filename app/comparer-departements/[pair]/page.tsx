@@ -75,7 +75,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { a, b } = parsed;
   return {
     title: `${a} ou ${b} : où vivre ? Comparatif 2026`,
-    description: `${a} vs ${b} — scores comparés sur 8 critères (sécurité, coût, écoles, transports), meilleures villes de chaque département. Données publiques, verdict chiffré.`,
+    description: `${a} vs ${b} — scores comparés sur 8 critères (sécurité, coût, écoles, transports), meilleures villes de chaque département.`,
     alternates: { canonical: `/comparer-departements/${pair}` },
   };
 }

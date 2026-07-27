@@ -17,7 +17,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 const LOCALES: Locale[] = ["fr", "en"];
 
 const NEWSLETTER_SENDER: Record<Locale, BrevoSender> = {
-  fr: { email: process.env.NEWSLETTER_FROM_EMAIL_FR ?? "lettre@mavilleideale.fr", name: "MaVilleIdeal" },
+  fr: { email: process.env.NEWSLETTER_FROM_EMAIL_FR ?? "lettre@mavilleideale.fr", name: "MaVilleIdéale" },
   en: { email: process.env.NEWSLETTER_FROM_EMAIL_EN ?? "newsletter@bestcitiesinfrance.com", name: "BestCitiesInFrance" },
 };
 

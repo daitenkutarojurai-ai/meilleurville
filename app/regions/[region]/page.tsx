@@ -94,7 +94,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Découvrez les ${cities.length} meilleures villes de ${region} : scores de qualité de vie, avis d'habitants, comparaisons. N°1 : ${topCity?.name} (${topCity?.scores.global}/10).`,
     alternates: { canonical: `/regions/${regionSlug}`, languages: hreflangLanguages(`/regions/${regionSlug}`) },
     openGraph: {
-      title: `Villes de ${region} · MaVilleIdeal`,
+      title: `Villes de ${region} · MaVilleIdéale`,
       description: `${cities.length} villes analysées · Top : ${topCity?.name} ${topCity?.scores.global}/10`,
     },
   };
@@ -165,7 +165,7 @@ export default async function RegionPage({ params }: Props) {
       {
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "MaVilleIdeal", item: baseUrl },
+          { "@type": "ListItem", position: 1, name: "MaVilleIdéale", item: baseUrl },
           { "@type": "ListItem", position: 2, name: "Régions", item: `${baseUrl}/regions` },
           { "@type": "ListItem", position: 3, name: regionName, item: `${baseUrl}/regions/${regionSlug}` },
         ],
@@ -197,7 +197,7 @@ export default async function RegionPage({ params }: Props) {
             "name": `Combien de villes sont analysées en ${regionName} ?`,
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": `MaVilleIdeal analyse ${cities.length} villes en ${regionName}, réparties sur ${departments.length} département${departments.length > 1 ? "s" : ""}. Le score moyen de la région est de ${avgScore.toFixed(1)}/10.`,
+              "text": `MaVilleIdéale analyse ${cities.length} villes en ${regionName}, réparties sur ${departments.length} département${departments.length > 1 ? "s" : ""}. Le score moyen de la région est de ${avgScore.toFixed(1)}/10.`,
             },
           },
         ],

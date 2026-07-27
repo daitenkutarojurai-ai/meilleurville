@@ -107,7 +107,7 @@ export function renderBadgeSvg(spec: BadgeSpec): string {
   <rect width="${w}" height="${h}" rx="14" fill="#0d1117"/>
   <rect x="0" y="0" width="6" height="${h}" fill="${color}"/>
   <text x="24" y="34" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="12" fill="#8b949e" letter-spacing="1.5">${esc(
-    "MAVILLEIDEAL — Classement 2026",
+    "MAVILLEIDÉALE — Classement 2026",
   )}</text>
   <text x="24" y="66" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="24" font-weight="800" fill="#f0f6fc">${esc(
     city.name,
@@ -130,7 +130,7 @@ export function renderBadgeSvg(spec: BadgeSpec): string {
     )}">
   <rect width="${s}" height="${s}" rx="18" fill="#0d1117"/>
   <text x="${s / 2}" y="30" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#8b949e" letter-spacing="2">${esc(
-    "MAVILLEIDEAL 2026",
+    "MAVILLEIDÉALE 2026",
   )}</text>
   <text x="${s / 2}" y="70" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="900" fill="${color}">${scoreText}</text>
   <text x="${s / 2}" y="86" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#8b949e">/ 10 · ${esc(label)}</text>
@@ -150,7 +150,7 @@ export function renderBadgeSvg(spec: BadgeSpec): string {
   <rect width="${w}" height="${h}" rx="12" fill="#0d1117"/>
   <rect x="0" y="0" width="4" height="${h}" fill="${color}"/>
   <text x="16" y="26" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#8b949e" letter-spacing="1.4">${esc(
-    "MAVILLEIDEAL",
+    "MAVILLEIDÉALE",
   )}</text>
   <text x="16" y="48" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="800" fill="#f0f6fc">${esc(city.name)}</text>
   <text x="16" y="66" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="${color}" font-weight="600">${esc(rankLine)} <tspan fill="#8b949e" font-weight="500">· sur ${total}</tspan></text>
@@ -169,7 +169,7 @@ export function renderEmbedHtml(spec: BadgeSpec): string {
   const svg = renderBadgeSvg(spec).replace(/\n\s*/g, " ");
   const targetUrl = `${SITE_URL}/villes/${spec.city.slug}`;
   return `<a href="${targetUrl}" target="_blank" rel="noopener" title="${esc(
-    `${spec.city.name} — Classement MaVilleIdeal`,
+    `${spec.city.name} — Classement MaVilleIdéale`,
   )}" style="display:inline-block;text-decoration:none;line-height:0">${svg}</a>`;
 }
 

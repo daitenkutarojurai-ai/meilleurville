@@ -66,7 +66,7 @@ export function CityJsonLd({ city, faq, photo }: { city: CitySeed & { reviewCoun
         breadcrumb: {
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "MaVilleIdeal", item: baseUrl },
+            { "@type": "ListItem", position: 1, name: "MaVilleIdéale", item: baseUrl },
             { "@type": "ListItem", position: 2, name: "Villes", item: `${baseUrl}/villes` },
             { "@type": "ListItem", position: 3, name: city.name, item: `${baseUrl}/villes/${city.slug}` },
           ],

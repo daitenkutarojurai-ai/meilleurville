@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   return {
     title: `Avis honnête sur ${city.name} 2026 · Points forts, faiblesses, profils adaptés`,
-    description: `Synthèse honnête sur ${city.name} : ce qui marche vraiment, ce qui cloche, pour qui c'est fait. Dérivée des 8 axes seed + 10 owner scores + classement parmi 10 profils.`,
+    description: `Synthèse honnête sur ${city.name} : ce qui marche vraiment, ce qui cloche, pour qui c'est fait.`,
     alternates: { canonical: `/villes/${slug}/avis-honnete` },
     openGraph: {
       title: `Avis honnête sur ${city.name} · Points forts et faiblesses`,

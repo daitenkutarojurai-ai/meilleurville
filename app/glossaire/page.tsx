@@ -498,7 +498,7 @@ export default function GlossairePage() {
         "@type": "DefinedTerm",
         name: t.term,
         description: t.def,
-        inDefinedTermSet: "MaVilleIdeal Glossaire",
+        inDefinedTermSet: "MaVilleIdéale Glossaire",
       }))
     ),
   };

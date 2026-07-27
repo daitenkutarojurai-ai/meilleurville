@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!c) return {};
   return {
     title: `Real monthly cost of living in ${c.name} 2026 · Calculator (rent, car, taxes)`,
-    description: `Honest breakdown of monthly fixed costs in ${c.name}: median 1-bed rent, heating by climate zone, car or transit, property tax, waste tax. Side-by-side comparison with Paris.`,
+    description: `Honest breakdown of monthly fixed costs in ${c.name}: median 1-bed rent, heating by climate zone, transit, property and waste tax.`,
     alternates: { canonical: `${EN_BASE}/calculator/real-cost/${city}` },
   };
 }

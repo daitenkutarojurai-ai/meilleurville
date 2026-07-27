@@ -5,9 +5,10 @@ import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { hubTitle } from "@/lib/brand";
 
 export const metadata: Metadata = {
-  title: "Villes par région · Régions françaises",
+  title: hubTitle("Villes par région · Régions françaises"),
   description:
     "Explorez les meilleures villes françaises région par région : Bretagne, Occitanie, PACA, Auvergne-Rhône-Alpes et plus. Scores comparés, top villes.",
   alternates: { canonical: "/regions" },

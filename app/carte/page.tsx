@@ -6,9 +6,10 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { CITIES_LIGHT, LEAN_META, RENT_T2_BY_SLUG } from "@/lib/cities-light";
 import { CarteClient } from "./CarteClient";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { hubTitle } from "@/lib/brand";
 
 export const metadata: Metadata = {
-  title: "Carte des villes · Qualité de vie",
+  title: hubTitle("Carte des villes · Qualité de vie"),
   description:
     `Carte interactive des meilleures villes de France : visualisez les scores de qualité de vie, coût de la vie, nature, sécurité sur une carte. ${CITIES_SEED.length}+ villes.`,
   alternates: { canonical: "/carte" },

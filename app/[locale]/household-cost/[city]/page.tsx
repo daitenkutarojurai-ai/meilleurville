@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!c) return {};
   return {
     title: `Cost of living in ${c.name} by household type 2026 · Solo, couple, family, retired`,
-    description: `Real monthly fixed costs in ${c.name} for 4 household types: single (studio), couple (1-bed), family with 2 children (2-bed), retired. Rent, heating, mobility, taxes — honest medians.`,
+    description: `Real monthly fixed costs in ${c.name} for 4 household types: single (studio), couple (1-bed), family of 4, retired. Rent, heating, mobility, taxes.`,
     alternates: { canonical: `${EN_BASE}/household-cost/${city}` },
   };
 }

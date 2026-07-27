@@ -56,7 +56,7 @@ export default async function FiscalitePage({ params }: Props) {
     headline: `Fiscalité immobilière à ${city.name} — Taxe foncière, THRS, DMTO 2026`,
     description: `Estimation départementale 2026 pour ${city.name} (${city.department}) basée sur les données DGFiP.`,
     inLanguage: "fr-FR",
-    isPartOf: { "@type": "WebSite", name: "MaVilleIdeal" },
+    isPartOf: { "@type": "WebSite", name: "MaVilleIdéale" },
   };
 
   const breadcrumb = breadcrumbJsonLd([

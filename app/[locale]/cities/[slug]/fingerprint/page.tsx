@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const score = formatScore(city.scores.global);
   return {
     title: `${city.name} city fingerprint · visual signature | BestCitiesInFrance`,
-    description: `A unique geometric signature generated from ${city.name}'s 8 quality-of-life axes (overall score ${score}/10). Every French city has its own fingerprint — deterministic and shareable.`,
+    description: `A unique geometric signature generated from ${city.name}'s 8 quality-of-life axes (overall score ${score}/10).`,
     alternates: { canonical: `${EN_BASE}/cities/${slug}/fingerprint` },
     openGraph: {
       title: `${city.name} city fingerprint`,

@@ -32,7 +32,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const rentHint = housing ? ` Loyer T2 : ${housing.avgRentT2}€/mois.` : "";
   return {
     title: `${city.name} · Avis habitants, qualité de vie & classements 2026`,
-    description: `${city.name} (${city.department}, ${city.region}) : score de qualité de vie ${city.scores.global}/10. Avis d'habitants, quartiers, données locales.${rentHint} Comparez avec d'autres villes.`,
+    // No generic "Comparez avec d'autres villes." tail: it said nothing a
+    // searcher wants and pushed 495 of the 540 city descriptions past the ~160
+    // chars Google renders, so the rent figure — the part people actually scan
+    // for — was what got cut. Without it, only 15 still overrun.
+    description: `${city.name} (${city.department}, ${city.region}) : score de qualité de vie ${city.scores.global}/10. Avis d'habitants, quartiers, données locales.${rentHint}`,
     alternates: {
       canonical: `/villes/${slug}`,
       // City slugs are 1:1 across locales, so the EN equivalent is exact.
@@ -43,12 +47,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       },
     },
     openGraph: {
-      title: `${city.name} · MaVilleIdeal · ${city.scores.global}/10`,
+      title: `${city.name} · MaVilleIdéale · ${city.scores.global}/10`,
       description: `Score QdV ${city.scores.global}/10 · ${city.region} · ${city.characterTags.slice(0, 3).join(", ")}`,
     },
     twitter: {
       card: "summary_large_image",
-      title: `${city.name} · ${city.scores.global}/10 | MaVilleIdeal`,
+      title: `${city.name} · ${city.scores.global}/10 | MaVilleIdéale`,
       description: `Qualité de vie, avis d'habitants et données locales pour ${city.name}.`,
     },
   };

@@ -67,7 +67,7 @@ export function UserVsOfficialScore({ topic, officialGlobal, cityName, locale = 
               <div className="flex items-center justify-between mb-1">
                 <span className="text-xs font-semibold text-[var(--text-secondary)] flex items-center gap-1.5">
                   <Star className="h-3 w-3 text-amber-500" />
-                  {t("Score MaVilleIdeal", "BestCitiesInFrance score")}
+                  {t("Score MaVilleIdéale", "BestCitiesInFrance score")}
                 </span>
                 <span className="text-sm font-bold font-mono-data text-[var(--accent)]">
                   {officialGlobal.toFixed(1)} / 10

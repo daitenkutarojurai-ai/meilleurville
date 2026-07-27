@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 const SECTIONS = [
   {
     title: "1. Who controls your data?",
-    content: `The data controller is Thomas Fendrich, sole trader (SIREN 797 983 665), publisher of BestCitiesInFrance (bestcitiesinfrance.com) and MaVilleIdeal (mavilleideale.fr).
+    content: `The data controller is Thomas Fendrich, sole trader (SIREN 797 983 665), publisher of BestCitiesInFrance (bestcitiesinfrance.com) and MaVilleIdéale (mavilleideale.fr).
 
 GDPR contact: privacy@mavilleideale.fr
 General contact: hello@bestcitiesinfrance.com

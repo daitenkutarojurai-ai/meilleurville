@@ -6,9 +6,10 @@ import { CompareTool } from "./CompareTool";
 import { CITIES_LIGHT } from "@/lib/cities-light";
 import Link from "next/link";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { hubTitle } from "@/lib/brand";
 
 export const metadata: Metadata = {
-  title: "Comparer des villes",
+  title: hubTitle("Comparer des villes"),
   description:
     "Comparez deux ou trois villes françaises côte à côte : qualité de vie, coût, transport, nature, sécurité, écoles. Outil de comparaison gratuit.",
   alternates: { canonical: "/comparer" },

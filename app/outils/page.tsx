@@ -10,7 +10,7 @@ import { CITIES_COUNT, GUIDES_COUNT, GLOSSARY_TERMS_COUNT } from "@/lib/site-sta
 export const metadata: Metadata = {
   title: "Outils · Quiz, simulateur, glossaire, calendrier",
   description:
-    "Tous les outils MaVilleIdeal pour choisir, comparer, simuler. Quiz IA, simulateur de pouvoir d'achat, glossaire immobilier, calendrier de saisonnalité, comparateur de villes.",
+    "Tous les outils MaVilleIdéale pour choisir, comparer, simuler. Quiz IA, simulateur de pouvoir d'achat, glossaire immobilier, calendrier de saisonnalité, comparateur de villes.",
   alternates: { canonical: "/outils" },
 };
 
@@ -163,8 +163,8 @@ export default function OutilsPage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "Outils MaVilleIdeal",
-    description: "Liste des outils interactifs et de référence MaVilleIdeal",
+    name: "Outils MaVilleIdéale",
+    description: "Liste des outils interactifs et de référence MaVilleIdéale",
     numberOfItems: TOOLS.length,
     itemListElement: TOOLS.map((t, i) => ({
       "@type": "ListItem",

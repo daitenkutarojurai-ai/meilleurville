@@ -52,7 +52,16 @@ const COPY: Record<Locale, NewsletterCopy> = {
   },
 };
 
-export function NewsletterSection({ locale = "fr" }: { locale?: Locale }) {
+export function NewsletterSection({
+  locale = "fr",
+  // `compact` drops the aurora / sparkle / grain chrome and the 3xl heading so
+  // the block can sit inside an article without hijacking it. Same form, same
+  // endpoint, same honeypot — only the surrounding decoration changes.
+  compact = false,
+}: {
+  locale?: Locale;
+  compact?: boolean;
+}) {
   const copy = COPY[locale];
   const [email, setEmail] = useState("");
   const [website, setWebsite] = useState(""); // honeypot
@@ -76,34 +85,53 @@ export function NewsletterSection({ locale = "fr" }: { locale?: Locale }) {
   }
 
   return (
-    <section className="relative py-8 sm:py-20 border-t border-[var(--border)]">
-      <div className="mx-auto max-w-4xl px-4 sm:px-6">
-        <div className="relative overflow-hidden rounded-[2rem] border border-white/60 glass-strong p-10 sm:p-14 shadow-2xl shadow-[var(--accent)]/15">
-          {/* Aurora */}
-          <div className="pointer-events-none absolute inset-0" aria-hidden>
-            <div className="absolute inset-0 bg-aurora opacity-60" />
-            <div className="absolute -top-24 -left-24 h-72 w-72 rounded-full bg-[var(--accent)]/20 blur-[100px] animate-drift" />
-            <div className="absolute -bottom-24 -right-24 h-80 w-80 rounded-full bg-[var(--accent-pink)]/15 blur-[100px] animate-drift" style={{ animationDelay: "2.5s" }} />
-          </div>
-          <div className="grain grain-soft rounded-[2rem]" style={{ opacity: 0.18 }} />
+    <section className={compact ? "not-prose my-10" : "relative py-8 sm:py-20 border-t border-[var(--border)]"}>
+      <div className={compact ? "" : "mx-auto max-w-4xl px-4 sm:px-6"}>
+        <div
+          className={
+            compact
+              ? "relative overflow-hidden rounded-2xl border border-[var(--accent)]/25 bg-gradient-to-br from-[var(--accent)]/8 to-transparent p-6 sm:p-8"
+              : "relative overflow-hidden rounded-[2rem] border border-white/60 glass-strong p-10 sm:p-14 shadow-2xl shadow-[var(--accent)]/15"
+          }
+        >
+          {!compact && (
+            <>
+              {/* Aurora */}
+              <div className="pointer-events-none absolute inset-0" aria-hidden>
+                <div className="absolute inset-0 bg-aurora opacity-60" />
+                <div className="absolute -top-24 -left-24 h-72 w-72 rounded-full bg-[var(--accent)]/20 blur-[100px] animate-drift" />
+                <div className="absolute -bottom-24 -right-24 h-80 w-80 rounded-full bg-[var(--accent-pink)]/15 blur-[100px] animate-drift" style={{ animationDelay: "2.5s" }} />
+              </div>
+              <div className="grain grain-soft rounded-[2rem]" style={{ opacity: 0.18 }} />
 
-          {/* Floating envelope sparkles */}
-          <div className="pointer-events-none absolute inset-0" aria-hidden>
-            <Sparkles className="absolute top-8 right-12 h-5 w-5 text-[var(--accent-warm)] animate-drift opacity-60" style={{ animationDelay: "0.5s" }} />
-            <Sparkles className="absolute bottom-12 left-10 h-4 w-4 text-[var(--accent)] animate-drift opacity-50" style={{ animationDelay: "1.5s" }} />
-            <Sparkles className="absolute top-20 left-20 h-3 w-3 text-[var(--accent-pink)] animate-drift opacity-50" style={{ animationDelay: "2.2s" }} />
-          </div>
+              {/* Floating envelope sparkles */}
+              <div className="pointer-events-none absolute inset-0" aria-hidden>
+                <Sparkles className="absolute top-8 right-12 h-5 w-5 text-[var(--accent-warm)] animate-drift opacity-60" style={{ animationDelay: "0.5s" }} />
+                <Sparkles className="absolute bottom-12 left-10 h-4 w-4 text-[var(--accent)] animate-drift opacity-50" style={{ animationDelay: "1.5s" }} />
+                <Sparkles className="absolute top-20 left-20 h-3 w-3 text-[var(--accent-pink)] animate-drift opacity-50" style={{ animationDelay: "2.2s" }} />
+              </div>
+            </>
+          )}
 
-          <div className="relative text-center">
-            <div className="mb-5 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-[var(--accent)] to-emerald-700 shadow-xl shadow-[var(--accent)]/40 animate-drift">
-              <Mail className="h-7 w-7 text-white" />
-            </div>
-            <h2 className="mb-3 text-3xl sm:text-4xl font-bold text-[var(--text-primary)] tracking-tight">
-              {copy.titlePre}{" "}
-              <span className="font-display gradient-text-anim italic">{copy.titleEm}</span>{" "}
-              {copy.titlePost}
-            </h2>
-            <p className="mb-8 text-[var(--text-secondary)] max-w-xl mx-auto">
+          <div className={compact ? "relative" : "relative text-center"}>
+            {compact ? (
+              <h2 className="mb-2 flex items-center gap-2 text-lg font-bold text-[var(--text-primary)] tracking-tight">
+                <Mail className="h-5 w-5 text-[var(--accent)]" />
+                {copy.titlePre} {copy.titleEm} {copy.titlePost}
+              </h2>
+            ) : (
+              <>
+                <div className="mb-5 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-[var(--accent)] to-emerald-700 shadow-xl shadow-[var(--accent)]/40 animate-drift">
+                  <Mail className="h-7 w-7 text-white" />
+                </div>
+                <h2 className="mb-3 text-3xl sm:text-4xl font-bold text-[var(--text-primary)] tracking-tight">
+                  {copy.titlePre}{" "}
+                  <span className="font-display gradient-text-anim italic">{copy.titleEm}</span>{" "}
+                  {copy.titlePost}
+                </h2>
+              </>
+            )}
+            <p className={compact ? "mb-4 text-sm text-[var(--text-secondary)]" : "mb-8 text-[var(--text-secondary)] max-w-xl mx-auto"}>
               {copy.desc}
             </p>
 
@@ -119,7 +147,7 @@ export function NewsletterSection({ locale = "fr" }: { locale?: Locale }) {
                 <span className="font-semibold">{copy.success}</span>
               </div>
             ) : (
-              <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2 max-w-md mx-auto">
+              <form onSubmit={handleSubmit} className={compact ? "flex flex-col sm:flex-row gap-2" : "flex flex-col sm:flex-row gap-2 max-w-md mx-auto"}>
                 <input
                   type="email"
                   value={email}
@@ -157,7 +185,7 @@ export function NewsletterSection({ locale = "fr" }: { locale?: Locale }) {
               </form>
             )}
 
-            <p className="mt-5 text-[11px] text-[var(--text-tertiary)]">
+            <p className={compact ? "mt-3 text-[11px] text-[var(--text-tertiary)]" : "mt-5 text-[11px] text-[var(--text-tertiary)]"}>
               {copy.fine}
             </p>
           </div>

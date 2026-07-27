@@ -64,7 +64,7 @@ const _fr = {
   "quiz.results": "Vos résultats",
 
   // Footer
-  "footer.tagline": "MaVilleIdeal — choisir où vivre en France.",
+  "footer.tagline": "MaVilleIdéale — choisir où vivre en France.",
   "footer.copyright": "Tous droits réservés.",
   "footer.legal": "Mentions légales",
   "footer.privacy": "Confidentialité",

@@ -33,10 +33,10 @@ const SITE_URL =
 const HTML_LANG = DEFAULT_LOCALE === "en" ? "en" : "fr";
 
 const IS_EN = DEFAULT_LOCALE === "en";
-const SITE_NAME = IS_EN ? "BestCitiesInFrance" : "MaVilleIdeal";
+const SITE_NAME = IS_EN ? "BestCitiesInFrance" : "MaVilleIdéale";
 const SITE_TITLE = IS_EN
   ? "BestCitiesInFrance — Find the French city that fits you"
-  : "MaVilleIdeal — Trouvez la ville qui vous ressemble";
+  : "MaVilleIdéale — Trouvez la ville qui vous ressemble";
 const SITE_DESCRIPTION = IS_EN
   ? `AI + lived experience + ${CITIES_COUNT} cities of official data. Rankings, resident reviews, lifestyle-matching quiz — independent and unbiased.`
   : "IA + vraies expériences + données locales. Classements, avis d'habitants, quiz de matching. La référence pour choisir où vivre en France.";
@@ -60,7 +60,12 @@ export const metadata: Metadata = {
   },
   title: {
     default: SITE_TITLE,
-    template: `%s | ${SITE_NAME}`,
+    // No brand suffix: the template applied to every one of the ~52 000 pages,
+    // and " | MaVilleIdéale" / " | BestCitiesInFrance" pushed the median title
+    // to 83 chars — past the ~60 Google renders, so the distinguishing part of
+    // the title (the city, the guide) was the part getting truncated. Hubs that
+    // still want the brand append it themselves (see HUB_TITLE_SUFFIX below).
+    template: "%s",
   },
   description: SITE_DESCRIPTION,
   keywords: IS_EN
@@ -121,7 +126,7 @@ const organizationJsonLd = {
       sameAs: [],
       description: IS_EN
         ? "BestCitiesInFrance — independent reference for choosing where to live in France. City rankings, resident reviews and a matching quiz built on official data (Insee, Ministry of Interior, observatoires des loyers)."
-        : "MaVilleIdeal — la référence indépendante pour choisir où vivre en France. Classements de villes, avis d'habitants, quiz de matching basés sur des données publiques (Insee, SSMSI, observatoires des loyers).",
+        : "MaVilleIdéale — la référence indépendante pour choisir où vivre en France. Classements de villes, avis d'habitants, quiz de matching basés sur des données publiques (Insee, SSMSI, observatoires des loyers).",
     },
     {
       "@type": "WebSite",

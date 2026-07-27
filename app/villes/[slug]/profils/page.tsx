@@ -70,7 +70,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const top2 = best.slice(0, 2).map((p) => p.label.toLowerCase()).join(" et ");
   return {
     title: `${city.name} pour quel profil ? Compatibilité par style de vie`,
-    description: `${city.name} convient particulièrement aux ${top2}. Scores de compatibilité pour 5 profils : expats, télétravailleurs, animaux, retraités, étudiants.`,
+    description: `${city.name} convient particulièrement aux ${top2}. Compatibilité : expats, télétravail, retraités, étudiants.`,
     alternates: { canonical: `/villes/${slug}/profils` },
     openGraph: {
       title: `${city.name} — pour quel profil de vie ?`,

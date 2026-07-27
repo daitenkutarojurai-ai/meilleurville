@@ -6,7 +6,7 @@ import { Footer } from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Mentions légales",
   description:
-    "Mentions légales de MaVilleIdeal : éditeur, hébergeur, contact, propriété intellectuelle et liens partenaires.",
+    "Mentions légales de MaVilleIdéale : éditeur, hébergeur, contact, propriété intellectuelle et liens partenaires.",
   alternates: { canonical: "/mentions-legales" },
 };
 
@@ -98,7 +98,7 @@ export default function MentionsLegalesPage() {
               Liens d&apos;affiliation
             </h2>
             <p>
-              MaVilleIdeal participe au programme Booking.com Partners.
+              MaVilleIdéale participe au programme Booking.com Partners.
               Certains liens sortants vers Booking.com sont des liens
               partenaires. Si vous réservez un hébergement après avoir cliqué
               sur l&apos;un de ces liens, l&apos;éditeur peut percevoir une
@@ -126,7 +126,7 @@ export default function MentionsLegalesPage() {
               Propriété intellectuelle
             </h2>
             <p>
-              L&apos;ensemble du contenu du site MaVilleIdeal (textes,
+              L&apos;ensemble du contenu du site MaVilleIdéale (textes,
               analyses, design, algorithmes, code) est protégé par le droit
               d&apos;auteur français. Toute reproduction sans autorisation
               expresse est interdite.

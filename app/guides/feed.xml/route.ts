@@ -88,10 +88,10 @@ ${items}
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>MaVilleIdeal — Guides</title>
+    <title>MaVilleIdéale — Guides</title>
     <link>${SITE_URL}/guides</link>
     <atom:link href="${SITE_URL}/guides/feed.xml" rel="self" type="application/rss+xml" />
-    <description>Guides MaVilleIdeal : télétravail, famille, budget, comparaisons.</description>
+    <description>Guides MaVilleIdéale : télétravail, famille, budget, comparaisons.</description>
     <language>fr-FR</language>
     <lastBuildDate>${new Date(latest).toUTCString()}</lastBuildDate>
 ${items}

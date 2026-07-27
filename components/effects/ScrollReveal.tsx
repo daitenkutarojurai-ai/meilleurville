@@ -16,7 +16,11 @@ type Direction = "up" | "down" | "left" | "right" | "fade";
 export function ScrollReveal({
   children,
   delay = 0,
-  duration = 0.8,
+  // 0.8s at threshold 0.2 meant a section stayed mid-transition for most of a
+  // second after entering view: scrolling at any speed left the page a column
+  // of blurred, unreadable blocks. 0.45s still reads as a reveal but resolves
+  // before the eye settles.
+  duration = 0.45,
   direction = "up",
   distance = 28,
   className = "",
@@ -72,8 +76,11 @@ export function ScrollReveal({
       style={{
         opacity: shown ? 1 : 0,
         transform: shown ? "none" : offset,
-        filter: shown ? "blur(0)" : "blur(6px)",
-        transition: `opacity ${duration}s ${ease} ${delay}s, transform ${duration}s ${ease} ${delay}s, filter ${duration}s ${ease} ${delay}s`,
+        // No blur filter. Unlike opacity/transform it is not a compositor-only
+        // property: animating it forces a full repaint of the subtree, and the
+        // heaviest thing this wraps is the France heat map (~1,800 SVG nodes).
+        // Opacity + translate reads as the same reveal for free.
+        transition: `opacity ${duration}s ${ease} ${delay}s, transform ${duration}s ${ease} ${delay}s`,
       }}
     >
       {children}

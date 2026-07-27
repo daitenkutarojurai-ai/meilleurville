@@ -10,6 +10,7 @@ import { guideCityPhoto } from "@/lib/city-images";
 import { Footer } from "@/components/Footer";
 import { GuideCard } from "@/components/GuideCard";
 import { CommentSection } from "@/components/CommentSection";
+import { NewsletterSection } from "@/components/NewsletterSection";
 import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { renderRich, stripMd } from "@/lib/link-cities";
@@ -94,16 +95,16 @@ export default async function GuidePage({ params }: Props) {
     keywords: guide.tags?.join(", "),
     wordCount: articleWordCount,
     timeRequired: `PT${guide.readMinutes}M`,
-    author: { "@type": "Organization", name: "MaVilleIdeal", url: baseUrl },
+    author: { "@type": "Organization", name: "MaVilleIdéale", url: baseUrl },
     publisher: {
       "@type": "Organization",
-      name: "MaVilleIdeal",
+      name: "MaVilleIdéale",
       url: baseUrl,
     },
     breadcrumb: {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "MaVilleIdeal", item: baseUrl },
+        { "@type": "ListItem", position: 1, name: "MaVilleIdéale", item: baseUrl },
         { "@type": "ListItem", position: 2, name: "Guides", item: `${baseUrl}/guides` },
         { "@type": "ListItem", position: 3, name: guide.title, item: `${baseUrl}/guides/${guide.slug}` },
       ],
@@ -461,6 +462,13 @@ export default async function GuidePage({ params }: Props) {
             </Link>
           </aside>
         </div>
+      </div>
+
+      {/* The guides are the site's biggest organic entry surface and had no
+          email capture at all — the newsletter block lived only on the two
+          homepages, which almost nobody lands on first. */}
+      <div className="mx-auto max-w-3xl px-4 sm:px-6">
+        <NewsletterSection compact />
       </div>
 
       <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-16">

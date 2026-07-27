@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const meta = VIBE_META[tone];
   return {
     title: `Ambiance de ${city.name} · vibe ${meta.label.toLowerCase()} 2026`,
-    description: `${city.name} dégage une ambiance ${meta.label.toLowerCase()} : ${meta.desc}. Estimation déterministe dérivée des scores qualité de vie, signaux saisonniers et caractère régional.`,
+    description: `${city.name} dégage une ambiance ${meta.label.toLowerCase()} : ${meta.desc}.`,
     alternates: { canonical: `/villes/${slug}/vibe` },
     openGraph: {
       title: `${city.name} — vibe ${meta.emoji} ${meta.label}`,

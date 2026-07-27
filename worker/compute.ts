@@ -125,7 +125,7 @@ export async function handleQuiz(request: Request): Promise<Response> {
 
 // ---- copilot --------------------------------------------------------------
 
-const COPILOT_SYSTEM = `Tu es le Copilote Déménagement MaVilleIdeal. Tu aides les utilisateurs à choisir leur prochaine ville en France.
+const COPILOT_SYSTEM = `Tu es le Copilote Déménagement MaVilleIdéale. Tu aides les utilisateurs à choisir leur prochaine ville en France.
 
 Ton rôle :
 - Répondre aux questions sur les villes françaises avec des données réelles
@@ -260,7 +260,7 @@ export async function handleCopilot(request: Request, env: Env): Promise<Respons
 
 // ---- AI city summary ------------------------------------------------------
 
-const SUMMARY_SYSTEM = `Tu es MaVilleIdeal IA, un expert en analyse de qualité de vie urbaine en France.
+const SUMMARY_SYSTEM = `Tu es MaVilleIdéale IA, un expert en analyse de qualité de vie urbaine en France.
 Tu synthétises les avis d'habitants et les données locales pour produire des résumés objectifs, honnêtes et utiles.
 Règles :
 - Sois concis : 3–4 phrases max par section
@@ -354,14 +354,14 @@ function escapeHtml(s: string): string {
 const WIDGET_STYLE = `*{box-sizing:border-box;margin:0;padding:0}html,body{height:100%}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:14px;color:#1a2533;background:#fff;line-height:1.4}.w{display:flex;flex-direction:column;height:100%;border:1px solid #e5e7eb;border-radius:14px;padding:14px;overflow:hidden}.h{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}.h .l{font-weight:700;font-size:13px}.h .r{font-size:11px;color:#6b7280}.score{font-family:ui-monospace,"SF Mono","Menlo",monospace;font-weight:700;font-size:38px;line-height:1}.tag{font-size:10px;color:#6b7280;text-transform:uppercase;letter-spacing:.05em}.bar{height:6px;background:#f1f5f9;border-radius:3px;overflow:hidden;margin-top:4px}.bar>span{display:block;height:100%}.crit{display:flex;justify-content:space-between;align-items:center;font-size:12px;margin-bottom:6px}.crit:last-child{margin-bottom:0}.crit .lbl{color:#374151}.crit .val{font-family:ui-monospace,"SF Mono","Menlo",monospace;font-weight:700;font-size:12px}.cmp{display:grid;grid-template-columns:1fr 1fr;gap:10px;align-items:center}.cmp .c{text-align:center}.cmp .c .n{font-weight:700;font-size:13px;margin-bottom:4px}.cmp .c .s{font-family:ui-monospace,"SF Mono","Menlo",monospace;font-weight:700;font-size:28px}.f{margin-top:auto;padding-top:10px;border-top:1px solid #f1f5f9;font-size:10px;color:#9ca3af;text-align:center}.f a{color:#16a34a;text-decoration:none;font-weight:600}.f a:hover{text-decoration:underline}`;
 
 function widgetShell(inner: string): string {
-  return `<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MaVilleIdeal — Widget</title><style>${WIDGET_STYLE}</style></head><body>${inner}</body></html>`;
+  return `<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MaVilleIdéale — Widget</title><style>${WIDGET_STYLE}</style></head><body>${inner}</body></html>`;
 }
 
 function widgetBadge(slug: string): string {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return widgetShell(`<div class="w"><p>Ville inconnue.</p></div>`);
   const color = scoreHex(city.scores.global);
-  return widgetShell(`<div class="w"><div class="h"><div class="l">${escapeHtml(city.name)}</div><div class="r">${escapeHtml(city.region ?? "")}</div></div><div style="display:flex;align-items:baseline;gap:8px"><div class="score" style="color:${color}">${city.scores.global.toFixed(1)}</div><div class="tag">/10 · qualité de vie</div></div><div class="bar" style="margin-top:10px"><span style="width:${city.scores.global * 10}%;background:${color}"></span></div><div class="f">Source : <a href="${WIDGET_BASE_URL}/villes/${city.slug}" target="_blank" rel="noopener">MaVilleIdeal</a></div></div>`);
+  return widgetShell(`<div class="w"><div class="h"><div class="l">${escapeHtml(city.name)}</div><div class="r">${escapeHtml(city.region ?? "")}</div></div><div style="display:flex;align-items:baseline;gap:8px"><div class="score" style="color:${color}">${city.scores.global.toFixed(1)}</div><div class="tag">/10 · qualité de vie</div></div><div class="bar" style="margin-top:10px"><span style="width:${city.scores.global * 10}%;background:${color}"></span></div><div class="f">Source : <a href="${WIDGET_BASE_URL}/villes/${city.slug}" target="_blank" rel="noopener">MaVilleIdéale</a></div></div>`);
 }
 
 function widgetCriteres(slug: string): string {
@@ -372,7 +372,7 @@ function widgetCriteres(slug: string): string {
     { key: "safety", label: "Sécurité" }, { key: "culture", label: "Culture" }, { key: "remoteWork", label: "Télétravail" }, { key: "schools", label: "Écoles" },
   ];
   const top3 = [...axes].sort((a, b) => city.scores[b.key] - city.scores[a.key]).slice(0, 3);
-  return widgetShell(`<div class="w"><div class="h"><div class="l">${escapeHtml(city.name)}</div><div class="r">${city.scores.global.toFixed(1)}/10 global</div></div>${top3.map((a) => { const v = city.scores[a.key]; return `<div class="crit"><span class="lbl">${escapeHtml(a.label)}</span><span class="val" style="color:${scoreHex(v)}">${v.toFixed(1)}</span></div><div class="bar" style="margin-bottom:8px"><span style="width:${v * 10}%;background:${scoreHex(v)}"></span></div>`; }).join("")}<div class="f">Données : <a href="${WIDGET_BASE_URL}/villes/${city.slug}" target="_blank" rel="noopener">MaVilleIdeal</a></div></div>`);
+  return widgetShell(`<div class="w"><div class="h"><div class="l">${escapeHtml(city.name)}</div><div class="r">${city.scores.global.toFixed(1)}/10 global</div></div>${top3.map((a) => { const v = city.scores[a.key]; return `<div class="crit"><span class="lbl">${escapeHtml(a.label)}</span><span class="val" style="color:${scoreHex(v)}">${v.toFixed(1)}</span></div><div class="bar" style="margin-bottom:8px"><span style="width:${v * 10}%;background:${scoreHex(v)}"></span></div>`; }).join("")}<div class="f">Données : <a href="${WIDGET_BASE_URL}/villes/${city.slug}" target="_blank" rel="noopener">MaVilleIdéale</a></div></div>`);
 }
 
 function widgetCompare(slugA: string, slugB: string): string {
@@ -381,7 +381,7 @@ function widgetCompare(slugA: string, slugB: string): string {
   if (!a || !b) return widgetShell(`<div class="w"><p>Une ville est inconnue.</p></div>`);
   const aColor = scoreHex(a.scores.global), bColor = scoreHex(b.scores.global);
   const winner = a.scores.global > b.scores.global ? a : b.scores.global > a.scores.global ? b : null;
-  return widgetShell(`<div class="w"><div class="h"><div class="l">Comparaison</div><div class="r">${winner ? `${escapeHtml(winner.name)} l'emporte` : "Égalité"}</div></div><div class="cmp"><div class="c"><div class="n">${escapeHtml(a.name)}</div><div class="s" style="color:${aColor}">${a.scores.global.toFixed(1)}</div><div class="tag">/10</div></div><div class="c"><div class="n">${escapeHtml(b.name)}</div><div class="s" style="color:${bColor}">${b.scores.global.toFixed(1)}</div><div class="tag">/10</div></div></div><div class="f">Comparatif : <a href="${WIDGET_BASE_URL}/comparer/${a.slug}-vs-${b.slug}" target="_blank" rel="noopener">MaVilleIdeal</a></div></div>`);
+  return widgetShell(`<div class="w"><div class="h"><div class="l">Comparaison</div><div class="r">${winner ? `${escapeHtml(winner.name)} l'emporte` : "Égalité"}</div></div><div class="cmp"><div class="c"><div class="n">${escapeHtml(a.name)}</div><div class="s" style="color:${aColor}">${a.scores.global.toFixed(1)}</div><div class="tag">/10</div></div><div class="c"><div class="n">${escapeHtml(b.name)}</div><div class="s" style="color:${bColor}">${b.scores.global.toFixed(1)}</div><div class="tag">/10</div></div></div><div class="f">Comparatif : <a href="${WIDGET_BASE_URL}/comparer/${a.slug}-vs-${b.slug}" target="_blank" rel="noopener">MaVilleIdéale</a></div></div>`);
 }
 
 export function handleWidgetEmbed(url: URL): Response {

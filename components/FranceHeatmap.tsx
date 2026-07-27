@@ -141,7 +141,11 @@ const CityDotLayer = memo(function CityDotLayer({
                 ? `${d.name} (${d.region}) — score ${d.score.toFixed(1)} out of 10`
                 : `${d.name} (${d.region}) — score ${d.score.toFixed(1)} sur 10`
             }
-            className={`cursor-pointer fh-dot outline-none focus-visible:[outline:2px_solid_white] focus-visible:[outline-offset:2px]${mounted ? " fh-dot-in" : ""}`}
+            // Cursor + focus ring moved into .fh-dot (globals.css): as utility
+            // classes they were ~100 chars of identical markup on each of the
+            // 540 dots, i.e. ~54 KB of prerendered HTML per map page saying the
+            // same thing 540 times.
+            className={mounted ? "fh-dot fh-dot-in" : "fh-dot"}
             style={{
               // Animation lives in .fh-dot/.fh-dot-in (globals.css) — the old
               // per-dot inline transition strings were ~120 KB of HTML ×540.

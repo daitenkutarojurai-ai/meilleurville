@@ -157,7 +157,7 @@ export default async function PairPage({ params }: Props) {
               {
                 "@type": "BreadcrumbList",
                 itemListElement: [
-                  { "@type": "ListItem", position: 1, name: "MaVilleIdeal", item: process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr" },
+                  { "@type": "ListItem", position: 1, name: "MaVilleIdéale", item: process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr" },
                   { "@type": "ListItem", position: 2, name: "Comparer", item: `${process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr"}/comparer` },
                   { "@type": "ListItem", position: 3, name: `${seedA.name} vs ${seedB.name}`, item: `${process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr"}/comparer/${pair}` },
                 ],

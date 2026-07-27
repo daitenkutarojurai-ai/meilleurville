@@ -9,7 +9,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 export const metadata: Metadata = {
   title: "Données & Sources",
   description:
-    "Transparence totale sur les sources de données MaVilleIdeal : INSEE, Open Data, avis habitants. Tout est documenté et téléchargeable.",
+    "Transparence totale sur les sources de données MaVilleIdéale : INSEE, Open Data, avis habitants. Tout est documenté et téléchargeable.",
   alternates: { canonical: "/donnees" },
 };
 
@@ -78,7 +78,7 @@ const SOURCES = [
     url: "https://esante.gouv.fr",
   },
   {
-    name: "Avis habitants MaVilleIdeal",
+    name: "Avis habitants MaVilleIdéale",
     category: "Expérience vécue",
     description: "Avis vérifiés de résidents actuels et anciens. Modération humaine + IA anti-spam.",
     update: "Temps réel",
@@ -126,7 +126,7 @@ export default function DonneesPage() {
             Nos données & sources
           </h1>
           <p className="text-[var(--text-secondary)] max-w-2xl">
-            Tout ce que vous voyez sur MaVilleIdeal est construit sur des données vérifiables et publiques.
+            Tout ce que vous voyez sur MaVilleIdéale est construit sur des données vérifiables et publiques.
             Aucune &quot;note magique&quot;, aucun résultat payant.
           </p>
         </div>

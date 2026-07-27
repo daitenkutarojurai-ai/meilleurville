@@ -8,9 +8,10 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { DepartementFinder, type DeptEntry } from "@/components/DepartementFinder";
 import { DepartementMap, type DeptMapEntry } from "@/components/DepartementMap";
 import { deptNumber } from "@/lib/dept-slug";
+import { hubTitle } from "@/lib/brand";
 
 export const metadata: Metadata = {
-  title: "Villes par département · France",
+  title: hubTitle("Villes par département · France"),
   description:
     "Explorez les meilleures villes françaises département par département : Isère, Ille-et-Vilaine, Gironde, Hérault et plus. Scores comparés, top villes.",
   alternates: { canonical: "/departements" },

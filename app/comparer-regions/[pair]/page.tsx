@@ -178,7 +178,7 @@ export default async function ComparerRegionsPage({ params }: Props) {
               {
                 "@type": "BreadcrumbList",
                 itemListElement: [
-                  { "@type": "ListItem", position: 1, name: "MaVilleIdeal", item: BASE_URL },
+                  { "@type": "ListItem", position: 1, name: "MaVilleIdéale", item: BASE_URL },
                   { "@type": "ListItem", position: 2, name: "Comparer régions", item: `${BASE_URL}/comparer-regions` },
                   { "@type": "ListItem", position: 3, name: `${a} vs ${b}`, item: `${BASE_URL}/comparer-regions/${pair}` },
                 ],

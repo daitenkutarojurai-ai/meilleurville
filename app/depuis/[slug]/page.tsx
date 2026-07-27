@@ -94,7 +94,7 @@ export default async function DepuisSlugPage({ params }: Props) {
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           {all.length} villes accessibles depuis {origin.name} en moins de 5 h. Temps estimé le plus rapide :
-          TGV direct, via Paris ou voiture selon les liaisons disponibles. Score de qualité de vie MaVilleIdeal inclus.
+          TGV direct, via Paris ou voiture selon les liaisons disponibles. Score de qualité de vie MaVilleIdéale inclus.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">

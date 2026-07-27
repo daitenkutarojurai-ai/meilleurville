@@ -10,7 +10,7 @@ import { ContactForm } from "./ContactForm";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Contactez l'équipe MaVilleIdeal : signaler une erreur, proposer une ville, partenariat presse ou data.",
+    "Contactez l'équipe MaVilleIdéale : signaler une erreur, proposer une ville, partenariat presse ou data.",
   alternates: { canonical: "/contact" },
 };
 
@@ -48,7 +48,7 @@ export default function ContactPage() {
           <CommentSection
             topic="contact:public"
             title="Mur des suggestions"
-            emptyHint="Une idée pour MaVilleIdeal ? Partagez-la ici, c'est public — la communauté peut la voir."
+            emptyHint="Une idée pour MaVilleIdéale ? Partagez-la ici, c'est public — la communauté peut la voir."
           />
         </div>
       </section>

@@ -263,6 +263,12 @@ body {
   transform: scale(0);
   transform-box: view-box;
   transition: opacity 0.5s ease var(--fhd, 0ms), transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) var(--fhd, 0ms);
+  cursor: pointer;
+  outline: none;
+}
+.fh-dot:focus-visible {
+  outline: 2px solid white;
+  outline-offset: 2px;
 }
 .fh-dot-in {
   opacity: 1;

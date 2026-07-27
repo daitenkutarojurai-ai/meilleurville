@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const guides = getGuidesForTag(slug);
   return {
     title: `${label} · ${guides.length} guides`,
-    description: `Tous les guides MaVilleIdeal traitant de « ${label} » : ${guides.length} analyses honnêtes pour choisir où vivre en France.`,
+    description: `Tous les guides MaVilleIdéale traitant de « ${label} » : ${guides.length} analyses honnêtes pour choisir où vivre en France.`,
     alternates: { canonical: `/tags/${slug}` },
   };
 }
@@ -42,9 +42,9 @@ export default async function TagPage({ params }: Props) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: `Guides ${label} · MaVilleIdeal`,
+    name: `Guides ${label} · MaVilleIdéale`,
     url: `${baseUrl}/tags/${slug}`,
-    description: `${guides.length} guides MaVilleIdeal traitant de ${label}.`,
+    description: `${guides.length} guides MaVilleIdéale traitant de ${label}.`,
     inLanguage: "fr-FR",
     breadcrumb: {
       "@type": "BreadcrumbList",

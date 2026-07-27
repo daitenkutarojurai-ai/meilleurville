@@ -21,7 +21,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: "Badge « Nᵉ ville de France » à embarquer sur votre site",
   description:
-    "Badge libre et gratuit à intégrer sur votre site : classement de votre ville selon les 8 axes de qualité de vie de MaVilleIdeal. Copier-coller HTML, sans compte, sans tracker.",
+    "Badge libre et gratuit à intégrer sur votre site : classement de votre ville selon les 8 axes de qualité de vie de MaVilleIdéale. Copier-coller HTML, sans compte, sans tracker.",
   alternates: { canonical: "/badge" },
   openGraph: {
     title: "Badge Nᵉ ville de France — à embarquer",
@@ -80,7 +80,7 @@ export default function BadgePage() {
           Badge « Nᵉ ville de France » — libre à l&apos;embarquement
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)]">
-          Chaque ville du classement MaVilleIdeal dispose d&apos;un badge SVG
+          Chaque ville du classement MaVilleIdéale dispose d&apos;un badge SVG
           gratuit, sans compte, sans tracker, prêt à coller. Il affiche le rang
           national de la ville sur {total} et son score global sur 10. Un lien
           retour vers la fiche complète est inclus — c&apos;est ce qui nous

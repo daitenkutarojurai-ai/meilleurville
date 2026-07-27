@@ -56,7 +56,7 @@ export function CityGuidesList({
         <div className="flex items-baseline justify-between mb-6">
           <div>
             <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-1">
-              {L("Guides MaVilleIdeal", "BestCitiesInFrance guides")}
+              {L("Guides MaVilleIdéale", "BestCitiesInFrance guides")}
             </p>
             <h2 className="text-xl font-bold text-[var(--text-primary)]">
               {L(`${matches.length} guides qui parlent de ${name}`, `${matches.length} guides about ${name}`)}

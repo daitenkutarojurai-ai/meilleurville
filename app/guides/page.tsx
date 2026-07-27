@@ -6,13 +6,14 @@ import { Badge } from "@/components/ui/Badge";
 import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
 import { GuidesGrid } from "@/components/GuidesGrid";
 import { getAllTagsWithCounts } from "@/lib/guide-tags";
+import { hubTitle } from "@/lib/brand";
 
 // Build-time freshness reference — captured once at module load so render
 // stays pure (Date.now inside the component body trips react-hooks/purity).
 const BUILD_NOW = Date.now();
 
 export const metadata: Metadata = {
-  title: "Guides · Bien choisir sa ville en France",
+  title: hubTitle("Guides · Bien choisir sa ville en France"),
   description:
     `${GUIDES.length} guides complets pour choisir sa ville en France : télétravail, famille, budget, qualité de vie. Analyses honnêtes avec données réelles.`,
   alternates: {
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
     types: { "application/rss+xml": "/guides/feed.xml" },
   },
   openGraph: {
-    title: "Guides · Bien choisir sa ville | MaVilleIdeal",
+    title: "Guides · Bien choisir sa ville | MaVilleIdéale",
     description: "Tous nos guides pour vous aider à trouver la ville faite pour vous.",
   },
 };
@@ -30,11 +31,11 @@ export default function GuidesPage() {
   const collectionJsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: "Guides MaVilleIdeal",
+    name: "Guides MaVilleIdéale",
     description: `Tous les guides pour bien choisir sa ville en France (${GUIDES.length} guides).`,
     url: `${baseUrl}/guides`,
     inLanguage: "fr-FR",
-    isPartOf: { "@type": "WebSite", name: "MaVilleIdeal", url: baseUrl },
+    isPartOf: { "@type": "WebSite", name: "MaVilleIdéale", url: baseUrl },
     breadcrumb: {
       "@type": "BreadcrumbList",
       itemListElement: [

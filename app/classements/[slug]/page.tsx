@@ -12,6 +12,7 @@ import { CheckCircle, Info } from "lucide-react";
 import { HOUSING } from "@/data/housing";
 import { GUIDES } from "@/data/guides";
 import { scoreColor } from "@/lib/utils";
+import { clampMeta } from "@/lib/brand";
 import { hreflangLanguages } from "@/lib/i18n";
 import { RankingTableTail, type RankingTailRow } from "./RankingTableTail";
 
@@ -30,11 +31,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   if (!(slug in RANKING_META)) return {};
   const meta = RANKING_META[slug as RankingSlug];
+  // meta.description doubles as the on-page intro, so it runs 250–515 chars —
+  // fine as body copy, three times what a SERP renders. Clamp the tag only.
+  const metaDesc = clampMeta(meta.description);
   return {
     title: meta.headline,
-    description: meta.description,
+    description: metaDesc,
     alternates: { canonical: `/classements/${slug}`, languages: hreflangLanguages(`/classements/${slug}`) },
-    openGraph: { title: meta.headline, description: meta.description },
+    openGraph: { title: meta.headline, description: metaDesc },
     twitter: { card: "summary_large_image" },
   };
 }
@@ -103,7 +107,7 @@ export default async function RankingPage({ params }: Props) {
       {
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "MaVilleIdeal", item: BASE_URL },
+          { "@type": "ListItem", position: 1, name: "MaVilleIdéale", item: BASE_URL },
           { "@type": "ListItem", position: 2, name: "Classements", item: `${BASE_URL}/classements` },
           { "@type": "ListItem", position: 3, name: meta.headline, item: `${BASE_URL}/classements/${slug}` },
         ],
