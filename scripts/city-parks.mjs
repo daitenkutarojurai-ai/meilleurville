@@ -53,12 +53,18 @@ const UA =
 // Ordered — main endpoint first, community mirrors as fallback. If every host
 // on this list 403s, the cloud runner's egress policy is blocking OSM outright
 // (report that back to the user, do not silently succeed).
+// Verified against a French commune (Pantin, ref:INSEE 93055) on 2026-07-27.
+// Dropped that day:
+//   overpass.osm.ch — regional extract. Answers 200 with `elements: []` for
+//     every French commune, which the crawler used to record as "no parks".
+//     This silently emptied 60 cities in one run before the canary caught it.
+//   overpass.osm.jp — expired TLS certificate, every request fails handshake.
+// Both are still guarded against by assertAreaResolved(), so re-adding a mirror
+// that later goes regional cannot corrupt the dataset.
 const OVERPASS_HOSTS = [
   "https://overpass-api.de/api/interpreter",
   "https://overpass.kumi.systems/api/interpreter",
   "https://overpass.private.coffee/api/interpreter",
-  "https://overpass.osm.jp/api/interpreter",
-  "https://overpass.osm.ch/api/interpreter",
 ];
 
 const args = process.argv.slice(2);
@@ -119,7 +125,7 @@ async function loadSeed() {
 /* ── HTTP with backoff ──────────────────────────────────────────────────── */
 
 /** Overpass query with per-host retry + exponential backoff on 429/50x. */
-async function overpass(query) {
+async function overpass(query, insee) {
   let lastErr = null;
   const hosts = OVERPASS_HOSTS.slice(SHARD % OVERPASS_HOSTS.length)
     .concat(OVERPASS_HOSTS.slice(0, SHARD % OVERPASS_HOSTS.length));
@@ -145,7 +151,11 @@ async function overpass(query) {
       }
       if (res.ok) {
         try {
-          return await res.json();
+          const json = await res.json();
+          // A 200 from a regional mirror is still the wrong answer — move on to
+          // the next host instead of trusting an empty element list.
+          assertAreaResolved(json, insee, host);
+          return json;
         } catch (err) {
           lastErr = err;
           await sleep(2 ** i * 1500);
@@ -184,7 +194,14 @@ async function overpass(query) {
  *   — timeout 90 s is generous but fair; the biggest cities can hit it.
  */
 function buildQuery(insee) {
+  // The trailing `out ids` on the commune relation is a canary, not payload.
+  // Some mirrors serve a REGIONAL extract (overpass.osm.ch answers 200 with
+  // `elements: []` for any French commune) — indistinguishable from "this town
+  // has no parks" unless we ask for something we know must exist. If the canary
+  // is missing, the host is wrong about the whole area and the answer is
+  // discarded rather than cached as an empty town. See assertAreaResolved().
   return `[out:json][timeout:120];
+relation["ref:INSEE"="${insee}"][boundary=administrative]->.canary;
 area["ref:INSEE"="${insee}"][boundary=administrative][admin_level="8"]->.a;
 (
   way["leisure"="park"]["name"](area.a);
@@ -198,12 +215,32 @@ area["ref:INSEE"="${insee}"][boundary=administrative][admin_level="8"]->.a;
   node["amenity"="drinking_water"](area.a);
   node["amenity"="toilets"](area.a);
 );
-out geom;`;
+out geom;
+.canary out tags;`;
+}
+
+/**
+ * True when the response actually covers this commune.
+ *
+ * A mirror running a regional extract answers 200 with an empty element list
+ * for everything outside its region. Without this check the crawler records
+ * "0 parks" and the city page then states, in OSM's name, that the commune has
+ * no named park — which is a claim about the world, not about our pipeline.
+ */
+function assertAreaResolved(json, insee, host) {
+  const seen = (json.elements ?? []).some(
+    (el) => el.type === "relation" && el.tags?.["ref:INSEE"] === insee,
+  );
+  if (!seen) {
+    throw new Error(
+      `commune ${insee} does not resolve on ${host} (regional extract?) — refusing to record it as parkless`,
+    );
+  }
 }
 
 // Bump when buildQuery changes — cached raw payloads from an older query shape
-// would silently miss the new elements.
-const QUERY_VERSION = 2;
+// would silently miss the new elements. v3 adds the commune canary.
+const QUERY_VERSION = 3;
 
 const PRIVATE_GARDEN = new Set(["private", "residential", "personal", "house"]);
 const CLOSED_ACCESS = new Set(["private", "no", "customers", "permit"]);
@@ -444,7 +481,7 @@ async function crawlOne(city) {
     try { raw = JSON.parse(await fs.readFile(cacheFile, "utf8")); } catch {}
   }
   if (!raw) {
-    raw = await overpass(query);
+    raw = await overpass(query, city.inseeCode);
     await fs.writeFile(cacheFile, JSON.stringify(raw));
   }
 
