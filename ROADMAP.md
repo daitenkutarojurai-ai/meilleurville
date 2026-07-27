@@ -18,7 +18,7 @@ item ouvert de cette vague** — c'est le plus gros du lot (pipeline de données
 | F60 | `/departements` — finder par n° / nom / ville + carte cliquable | P1 | S | low | ✅ shipped 2026-07-22 · carte cliquable 2026-07-23 |
 | F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 |
 
-### F59 — Parcs & espaces verts par ville 🟡 EN COURS (10/540 villes, surfaces livrées)
+### F59 — Parcs & espaces verts par ville 🟡 EN COURS (81/540 villes, surfaces livrées)
 
 **Intention utilisateur** (à ne pas perdre de vue) : un parent qui tourne en rond dans
 le même parc depuis deux ans veut *découvrir les autres parcs* — le sien, ceux du
@@ -127,6 +127,18 @@ Reste à faire : reprendre les batches de crawl (Overpass débloqué), ~9 lots
 de 60 villes pour finir les 540. La feature est déjà utile aujourd'hui pour
 les 10 métropoles les plus peuplées ; chaque nouveau lot commité déclenche
 automatiquement les routes et les entrées sitemap correspondantes.
+
+**Point d'étape 2026-07-27** : entre-temps une session précédente a poussé le
+compteur à **81 villes / 2 518 parcs commités** (parallélisation shardée sur 4
+mirrors Overpass, cf. commit `9d9ff10`). Nouveau run routine ce jour : le proxy
+egress refuse toujours les 5 hosts Overpass (`overpass-api.de`,
+`overpass.kumi.systems`, `overpass.private.coffee`, `overpass.osm.jp`,
+`overpass.osm.ch` — tous `connect_rejected 403`, cf. `/root/.ccr/README.md`).
+Aucun lot supplémentaire crawlé aujourd'hui ; il reste ~8 lots de 60 villes
+pour atteindre 540. Owner notifié : ajouter au moins un mirror Overpass à
+l'allowlist egress de cette routine pour reprendre les batches ; sinon les
+prochains lots devront continuer de partir d'une session locale (le pattern
+`--shards=4` livre 81 → ~150 villes en une passe d'~1 h).
 
 ---
 
