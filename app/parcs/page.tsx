@@ -19,6 +19,9 @@ import {
 
 export const revalidate = false;
 
+// Cards are ~2.5 kB of HTML each; the tail ships as a link index instead.
+const INITIAL_VISIBLE = 60;
+
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
 
 export const metadata: Metadata = {
@@ -144,7 +147,7 @@ export default function ParcsHubPage() {
           </p>
 
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            {rows.map((r) => (
+            {rows.slice(0, INITIAL_VISIBLE).map((r) => (
               <Link
                 key={r.slug}
                 href={`/villes/${r.slug}/parcs`}
@@ -175,6 +178,32 @@ export default function ParcsHubPage() {
               </Link>
             ))}
           </div>
+
+          {/* The remaining cities as a plain link index rather than more cards:
+              a card costs ~2.5 kB of HTML, a link ~100 B. Rendering all 296 as
+              cards made this hub a 788 kB page (see CLAUDE.md § Performance
+              constraints). The links stay in the static HTML, so every city is
+              still crawlable and one click deep. */}
+          {rows.length > INITIAL_VISIBLE && (
+            <details className="mt-6 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-4 py-3">
+              <summary className="cursor-pointer text-sm font-semibold text-[var(--text-primary)]">
+                Les {rows.length - INITIAL_VISIBLE} autres villes référencées
+              </summary>
+              <ul className="mt-3 flex flex-wrap gap-x-4 gap-y-1.5">
+                {rows.slice(INITIAL_VISIBLE).map((r) => (
+                  <li key={r.slug}>
+                    <Link
+                      href={`/villes/${r.slug}/parcs`}
+                      className="text-sm text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors"
+                    >
+                      {r.name}{" "}
+                      <span className="text-[var(--text-tertiary)] font-mono-data">{r.count}</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </details>
+          )}
 
           {/* Coverage is partial and says so. The crawl advances batch by batch;
               claiming national coverage would be the easy lie here. */}

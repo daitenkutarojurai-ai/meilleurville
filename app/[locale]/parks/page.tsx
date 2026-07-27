@@ -18,6 +18,9 @@ import {
   type CityParks,
 } from "@/lib/city-parks";
 
+// Cards are ~2.5 kB of HTML each; the tail ships as a link index instead.
+const INITIAL_VISIBLE = 60;
+
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
@@ -145,7 +148,7 @@ export default function ParksHubPage() {
           </p>
 
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            {rows.map((r) => (
+            {rows.slice(0, INITIAL_VISIBLE).map((r) => (
               <Link
                 key={r.slug}
                 href={`/cities/${r.slug}/parks`}
@@ -176,6 +179,30 @@ export default function ParksHubPage() {
               </Link>
             ))}
           </div>
+
+          {/* Tail as a link index, not more cards — a card is ~2.5 kB of HTML,
+              a link ~100 B. Every city stays in the static HTML and crawlable.
+              See CLAUDE.md § Performance constraints. */}
+          {rows.length > INITIAL_VISIBLE && (
+            <details className="mt-6 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-4 py-3">
+              <summary className="cursor-pointer text-sm font-semibold text-[var(--text-primary)]">
+                The other {rows.length - INITIAL_VISIBLE} mapped cities
+              </summary>
+              <ul className="mt-3 flex flex-wrap gap-x-4 gap-y-1.5">
+                {rows.slice(INITIAL_VISIBLE).map((r) => (
+                  <li key={r.slug}>
+                    <Link
+                      href={`/cities/${r.slug}/parks`}
+                      className="text-sm text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors"
+                    >
+                      {r.name}{" "}
+                      <span className="text-[var(--text-tertiary)] font-mono-data">{r.count}</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </details>
+          )}
 
           <p className="mt-8 text-sm text-[var(--text-secondary)]">
             {PARKS_CITY_COUNT} of {CITIES_COUNT} cities are mapped so far. The OpenStreetMap survey
