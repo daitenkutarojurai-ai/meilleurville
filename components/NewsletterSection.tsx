@@ -85,7 +85,7 @@ export function NewsletterSection({
   }
 
   return (
-    <section className={compact ? "not-prose my-10" : "relative py-8 sm:py-20 border-t border-[var(--border)]"}>
+    <section className={compact ? "my-10" : "relative py-8 sm:py-20 border-t border-[var(--border)]"}>
       <div className={compact ? "" : "mx-auto max-w-4xl px-4 sm:px-6"}>
         <div
           className={
