@@ -536,6 +536,10 @@ async function crawlBatch() {
       current[city.slug] = {
         crawledAt: new Date().toISOString().slice(0, 10),
         source: "openstreetmap",
+        // Stamped so `merge` can tell a row produced by the current query from
+        // one left in a shard file by an earlier run. Without it a stale zero
+        // silently overwrote fresh data — see the canary note on buildQuery.
+        queryVersion: QUERY_VERSION,
         parks,
       };
       if (parks.length === 0) empty++;
@@ -570,9 +574,20 @@ async function showStats() {
 }
 
 /** Fold every shard file in .cache/city-parks/shards/ into data/city-parks.json.
- *  A city crawled by a shard always wins over the committed row: the shard is
- *  the newer relevé. Shard files are left in place (gitignored, cheap) so a
- *  re-merge is idempotent. */
+ *
+ *  Shard files are NOT cleared between runs, so one can still hold rows from an
+ *  earlier crawl. Two rules keep those from corrupting the dataset:
+ *
+ *   1. A row must carry the current QUERY_VERSION. Anything older was produced
+ *      by a query shape we no longer trust (v2 had no commune canary, so its
+ *      zeros may really be a regional mirror answering for a country it does
+ *      not hold).
+ *   2. An empty row never overwrites a non-empty one. Parks do not vanish
+ *      between crawls; a zero landing on top of real data is a pipeline fault,
+ *      not a change in the world.
+ *
+ *  Skipped rows are reported, not silently dropped — an unexplained skip count
+ *  is the signal that a shard directory needs clearing. */
 async function mergeShards() {
   const main = (await readJson(OUT_JSON, {})) ?? {};
   let files = [];
@@ -580,14 +595,20 @@ async function mergeShards() {
     files = (await fs.readdir(SHARD_DIR)).filter((f) => f.endsWith(".json"));
   } catch {}
   if (!files.length) { log("no shard file to merge"); return; }
-  let added = 0, updated = 0;
+  let added = 0, updated = 0, staleSkipped = 0, emptySkipped = 0;
   for (const f of files) {
     const shard = (await readJson(path.join(SHARD_DIR, f), {})) ?? {};
     for (const [slug, row] of Object.entries(shard)) {
+      if ((row.queryVersion ?? 0) !== QUERY_VERSION) { staleSkipped++; continue; }
+      const incoming = row.parks?.length ?? 0;
+      const existing = main[slug]?.parks?.length ?? 0;
+      if (incoming === 0 && existing > 0) { emptySkipped++; continue; }
       if (main[slug]) updated++; else added++;
       main[slug] = row;
     }
   }
+  if (staleSkipped) log(`skipped ${staleSkipped} row(s) from an older query version — clear .cache/city-parks/shards/ to silence this`);
+  if (emptySkipped) log(`skipped ${emptySkipped} empty row(s) that would have overwritten existing parks`);
   await writeJson(OUT_JSON, Object.fromEntries(Object.entries(main).sort(([a], [b]) => a.localeCompare(b))));
   log(`merged ${files.length} shard file(s): ${added} new cities, ${updated} refreshed. total ${Object.keys(main).length}`);
 }

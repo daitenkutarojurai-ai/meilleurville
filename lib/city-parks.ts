@@ -40,6 +40,9 @@ export interface Park {
 export interface CityParks {
   crawledAt: string;
   source: "openstreetmap";
+  /** Query shape the row was produced by. Absent on rows crawled before the
+   *  stamp existed; `merge` uses it to refuse rows from an older query. */
+  queryVersion?: number;
   parks: Park[];
 }
 
