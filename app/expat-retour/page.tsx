@@ -12,7 +12,7 @@ import { CITIES_COUNT } from "@/lib/site-stats";
 export const metadata: Metadata = {
   title: "Expat retour France 2026 · Guide pratique pour rentrer",
   description:
-    "16 pays d'origine (Suisse, USA, UK, Émirats, Singapour, Australie, Maroc…) : ce qui change côté salaire, fiscalité, santé, admin. Quiz retour inclus.",
+    "18 pays d'origine (Suisse, USA, UK, Émirats, Singapour, Japon, Côte d'Ivoire…) : ce qui change côté salaire, fiscalité, santé, admin. Quiz retour inclus.",
   alternates: { canonical: "/expat-retour" },
 };
 
@@ -38,7 +38,7 @@ export default function ExpatRetourIndex() {
           </h1>
           <p className="text-[var(--text-secondary)] text-base max-w-2xl mx-auto">
             Salaires, fiscalité, santé, admin : ce qui change vraiment en rentrant de
-            Suisse, Luxembourg, Belgique, UK, Irlande, Canada, Allemagne, États-Unis, Espagne, Portugal, Pays-Bas, Italie, Maroc, des Émirats, d&apos;Australie ou de Singapour.
+            Suisse, Luxembourg, Belgique, UK, Irlande, Canada, Allemagne, États-Unis, Espagne, Portugal, Pays-Bas, Italie, Maroc, Côte d&apos;Ivoire, des Émirats, d&apos;Australie, de Singapour ou du Japon.
             Plus un quiz adapté pour trouver la bonne ville côté France.
           </p>
         </div>
