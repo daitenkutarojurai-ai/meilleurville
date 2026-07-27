@@ -1113,6 +1113,7 @@ const EN_RED_FLAG_THEME_SLUGS = [
   "tense-nights", "harsh-winters", "daily-traffic-jams", "young-workers-leaving",
   "theft-burglary", "cultural-desert", "parking-nightmare", "mono-tourism-dependence",
   "heavy-property-tax", "unfindable-rentals", "childcare-shortage",
+  "coastal-erosion",
 ] as const;
 
 function enRedFlagsSection(): MetadataRoute.Sitemap {
