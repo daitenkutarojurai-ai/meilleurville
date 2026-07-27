@@ -6,6 +6,7 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { hubTitle } from "@/lib/brand";
+import { RegionFinder, type RegionEntry } from "@/components/RegionFinder";
 
 export const metadata: Metadata = {
   title: hubTitle("Villes par région · Régions françaises"),
@@ -35,6 +36,15 @@ const REGION_EMOJIS: Record<string, string> = {
   "Mayotte": "🐢",
 };
 
+function regionToSlug(region: string): string {
+  return region
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
 export default function RegionsPage() {
   const byRegion = CITIES_SEED.reduce((acc, city) => {
     if (!acc[city.region]) acc[city.region] = [];
@@ -45,10 +55,23 @@ export default function RegionsPage() {
   const sortedRegions = Object.entries(byRegion)
     .map(([region, cities]) => ({
       region,
+      slug: regionToSlug(region),
       cities: [...cities].sort((a, b) => b.scores.global - a.scores.global),
       avgScore: cities.reduce((s, c) => s + c.scores.global, 0) / cities.length,
     }))
     .sort((a, b) => b.avgScore - a.avgScore);
+
+  const regionEntries: RegionEntry[] = sortedRegions.map(({ region, slug, cities, avgScore }) => ({
+    region,
+    slug,
+    count: cities.length,
+    avg: avgScore,
+    emoji: REGION_EMOJIS[region] ?? "📍",
+  }));
+
+  const cityIndex: Array<[string, string]> = sortedRegions.flatMap(({ slug, cities }) =>
+    cities.map((c) => [c.name, slug] as [string, string])
+  );
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Accueil", path: "/" },
@@ -78,7 +101,12 @@ export default function RegionsPage() {
       </section>
 
       <div className="relative mx-auto max-w-5xl px-4 sm:px-6 pb-12 space-y-5">
-        {sortedRegions.map(({ region, cities, avgScore }) => (
+        <RegionFinder regions={regionEntries} cityIndex={cityIndex} />
+
+        {/* Cartes riches par région — top 3 + pastilles pour les autres villes.
+            La grille compacte du finder ne porte pas ces liens ville par ville,
+            il faut les garder ici pour préserver le maillage interne. */}
+        {sortedRegions.map(({ region, slug, cities, avgScore }) => (
           <div key={region} className="group rounded-2xl glass border border-white/50 hover:border-[var(--accent)]/30 p-6 shadow-md hover:shadow-xl transition-all">
             <div className="flex items-start justify-between gap-4 mb-5">
               <div className="flex items-center gap-3">
@@ -99,7 +127,7 @@ export default function RegionsPage() {
               </div>
               <div className="flex items-center gap-3 flex-shrink-0">
                 <Link
-                  href={`/regions/${region.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`}
+                  href={`/regions/${slug}`}
                   className="text-xs text-[var(--accent)] hover:underline font-medium"
                 >
                   Guide région →
