@@ -165,7 +165,7 @@ async function overpass(query) {
  *   — timeout 90 s is generous but fair; the biggest cities can hit it.
  */
 function buildQuery(insee) {
-  return `[out:json][timeout:90];
+  return `[out:json][timeout:120];
 area["ref:INSEE"="${insee}"][boundary=administrative][admin_level="8"]->.a;
 (
   way["leisure"="park"]["name"](area.a);
@@ -174,9 +174,17 @@ area["ref:INSEE"="${insee}"][boundary=administrative][admin_level="8"]->.a;
   relation["leisure"="garden"]["name"](area.a);
   way["leisure"="playground"]["name"](area.a);
   relation["leisure"="playground"]["name"](area.a);
+  node["leisure"="playground"](area.a);
+  way["leisure"="playground"](area.a);
+  node["amenity"="drinking_water"](area.a);
+  node["amenity"="toilets"](area.a);
 );
 out geom;`;
 }
+
+// Bump when buildQuery changes — cached raw payloads from an older query shape
+// would silently miss the new elements.
+const QUERY_VERSION = 2;
 
 const PRIVATE_GARDEN = new Set(["private", "residential", "personal", "house"]);
 const CLOSED_ACCESS = new Set(["private", "no", "customers", "permit"]);
@@ -218,16 +226,18 @@ function centroidOf(ring) {
 function extractShape(el) {
   if (el.type === "way" && Array.isArray(el.geometry)) {
     const ring = el.geometry;
-    return { area: ringAreaM2(ring), center: centroidOf(ring) };
+    return { area: ringAreaM2(ring), center: centroidOf(ring), rings: [ring] };
   }
   if (el.type === "relation" && Array.isArray(el.members)) {
     let area = 0;
     let anchor = null;
+    const rings = [];
     for (const m of el.members) {
       if (!Array.isArray(m.geometry)) continue;
       const a = ringAreaM2(m.geometry);
       if (m.role === "outer") {
         area += a;
+        rings.push(m.geometry);
         if (!anchor) anchor = centroidOf(m.geometry);
       } else if (m.role === "inner") {
         area -= a;
@@ -236,9 +246,35 @@ function extractShape(el) {
     // Fall back to the `center` field Overpass computed if we could not
     // extract a ring at all (rare — relations with unresolved members).
     const center = anchor ?? (el.center ? { lat: el.center.lat, lng: el.center.lon } : null);
-    return { area: Math.max(0, area), center };
+    return { area: Math.max(0, area), center, rings };
   }
-  return { area: 0, center: null };
+  return { area: 0, center: null, rings: [] };
+}
+
+/** Ray-casting point-in-ring. Rings come from Overpass as {lat, lon} arrays. */
+function pointInRing(pt, ring) {
+  let inside = false;
+  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+    const yi = ring[i].lat, xi = ring[i].lon;
+    const yj = ring[j].lat, xj = ring[j].lon;
+    if (yi > pt.lat !== yj > pt.lat && pt.lng < ((xj - xi) * (pt.lat - yi)) / (yj - yi) + xi) {
+      inside = !inside;
+    }
+  }
+  return inside;
+}
+
+function bboxOf(rings) {
+  let minLat = 90, maxLat = -90, minLng = 180, maxLng = -180;
+  for (const ring of rings) {
+    for (const p of ring) {
+      if (p.lat < minLat) minLat = p.lat;
+      if (p.lat > maxLat) maxLat = p.lat;
+      if (p.lon < minLng) minLng = p.lon;
+      if (p.lon > maxLng) maxLng = p.lon;
+    }
+  }
+  return { minLat, maxLat, minLng, maxLng };
 }
 
 const NORMALIZE_KIND = (leisure) => (leisure === "garden" ? "garden" : leisure === "playground" ? "playground" : "park");
@@ -250,7 +286,7 @@ function parkFromElement(el) {
   const leisure = t.leisure;
   if (leisure === "garden" && t["garden:type"] && PRIVATE_GARDEN.has(t["garden:type"])) return null;
   if (t.access && CLOSED_ACCESS.has(t.access)) return null;
-  const { area, center } = extractShape(el);
+  const { area, center, rings } = extractShape(el);
   if (!center) return null;
   return {
     osmId: `${el.type[0]}${el.id}`,          // "w123" / "r456" — stable, human-readable
@@ -259,6 +295,7 @@ function parkFromElement(el) {
     lat: +center.lat.toFixed(5),
     lng: +center.lng.toFixed(5),
     areaM2: Math.round(area),
+    rings,                                    // stripped before serialization
     playground: leisure === "playground" || t.playground === "yes",
     wheelchair: t.wheelchair === "yes" || t.wheelchair === "designated"
       ? true
@@ -271,26 +308,117 @@ function parkFromElement(el) {
       ? false
       : null,
     drinkingWater: t.drinking_water === "yes" || t["drinking_water:legal"] === "yes",
+    toilets: t.toilets === "yes",
     access: t.access ?? "public",
   };
 }
 
-/** De-dupe by (name, ~50 m proximity) — a park sometimes exists as both a way
- *  and a relation with the same name; keep the one with the larger area. */
-function dedupe(parks) {
-  const buckets = new Map();
-  for (const p of parks) {
-    const key = `${p.name.toLowerCase()}|${p.lat.toFixed(3)}|${p.lng.toFixed(3)}`;
-    const prev = buckets.get(key);
-    if (!prev || prev.areaM2 < p.areaM2) buckets.set(key, p);
+/**
+ * Playgrounds, drinking fountains and public toilets are mapped in OSM as their
+ * own (usually unnamed) nodes, not as tags on the park polygon. Querying only
+ * the polygon tags made the "aire de jeux" badge — the single fact that decides
+ * a Saturday morning with kids — almost always empty: 9 hits over 597 parks.
+ * So we pull those nodes too and attribute them to whichever park contains them.
+ */
+function attachAmenities(parks, elements) {
+  const points = { playground: [], water: [], toilets: [] };
+  for (const el of elements) {
+    const t = el.tags ?? {};
+    let pt = null;
+    if (el.type === "node" && el.lat != null) pt = { lat: el.lat, lng: el.lon };
+    else if (el.type === "way" && Array.isArray(el.geometry)) {
+      const c = centroidOf(el.geometry);
+      if (c) pt = c;
+    }
+    if (!pt) continue;
+    if (t.leisure === "playground") points.playground.push(pt);
+    if (t.amenity === "drinking_water") points.water.push(pt);
+    if (t.amenity === "toilets") points.toilets.push(pt);
   }
-  return [...buckets.values()];
+
+  for (const park of parks) {
+    if (!park.rings?.length) continue;
+    const bb = bboxOf(park.rings);
+    const hit = (list) =>
+      list.some(
+        (pt) =>
+          pt.lat >= bb.minLat && pt.lat <= bb.maxLat &&
+          pt.lng >= bb.minLng && pt.lng <= bb.maxLng &&
+          park.rings.some((r) => pointInRing(pt, r)),
+      );
+    if (!park.playground && hit(points.playground)) park.playground = true;
+    if (!park.drinkingWater && hit(points.water)) park.drinkingWater = true;
+    if (!park.toilets && hit(points.toilets)) park.toilets = true;
+  }
+  return parks;
+}
+
+/**
+ * Merge the parts of one park. A single green space is routinely mapped as
+ * several ways plus a relation — Promenade du Paillon came back three times,
+ * Parc aux Angéliques twice — which read as separate destinations in a listing.
+ * Same name and centroids within MERGE_KM: one park, areas summed, flags OR-ed,
+ * identity taken from the largest part. Beyond that radius two spaces sharing a
+ * name (a "Square de la Mairie" in each of two districts) stay separate.
+ */
+const MERGE_KM = 2;
+
+function haversineKm(a, b) {
+  const R = 6371;
+  const dLat = ((b.lat - a.lat) * Math.PI) / 180;
+  const dLng = ((b.lng - a.lng) * Math.PI) / 180;
+  const la1 = (a.lat * Math.PI) / 180;
+  const la2 = (b.lat * Math.PI) / 180;
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(la1) * Math.cos(la2) * Math.sin(dLng / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(h));
+}
+
+function bboxOverlap(a, b) {
+  if (!a.rings?.length || !b.rings?.length) return true; // unknown shape: assume same
+  const x = bboxOf(a.rings);
+  const y = bboxOf(b.rings);
+  return x.minLat <= y.maxLat && y.minLat <= x.maxLat && x.minLng <= y.maxLng && y.minLng <= x.maxLng;
+}
+
+function dedupe(parks) {
+  const byName = new Map();
+  for (const p of parks) {
+    const key = p.name.toLowerCase().trim();
+    if (!byName.has(key)) byName.set(key, []);
+    byName.get(key).push(p);
+  }
+  const out = [];
+  for (const group of byName.values()) {
+    const clusters = [];
+    for (const p of [...group].sort((a, b) => b.areaM2 - a.areaM2)) {
+      const near = clusters.find((c) => haversineKm(c[0], p) <= MERGE_KM);
+      if (near) near.push(p);
+      else clusters.push([p]);
+    }
+    for (const cluster of clusters) {
+      const head = { ...cluster[0] };
+      for (const part of cluster.slice(1)) {
+        // The same polygon is often mapped twice (a way *and* the relation that
+        // contains it). Summing those would double the area, so only genuinely
+        // disjoint parts — separate segments of one named park — add up.
+        if (!bboxOverlap(head, part)) head.areaM2 += part.areaM2;
+        head.playground ||= part.playground;
+        head.drinkingWater ||= part.drinkingWater;
+        head.toilets ||= part.toilets;
+        if (head.wheelchair === null) head.wheelchair = part.wheelchair;
+        if (head.dog === null) head.dog = part.dog;
+        head.rings = [...(head.rings ?? []), ...(part.rings ?? [])];
+      }
+      out.push(head);
+    }
+  }
+  return out;
 }
 
 async function crawlOne(city) {
   const query = buildQuery(city.inseeCode);
   await fs.mkdir(RAW_DIR, { recursive: true });
-  const cacheFile = path.join(RAW_DIR, `${city.slug}.json`);
+  const cacheFile = path.join(RAW_DIR, `${city.slug}.v${QUERY_VERSION}.json`);
 
   let raw = null;
   if (!FORCE) {
@@ -302,9 +430,11 @@ async function crawlOne(city) {
   }
 
   const elements = Array.isArray(raw.elements) ? raw.elements : [];
-  const parks = dedupe(elements.map(parkFromElement).filter(Boolean));
+  const parks = attachAmenities(dedupe(elements.map(parkFromElement).filter(Boolean)), elements);
   parks.sort((a, b) => b.areaM2 - a.areaM2);
-  return parks.slice(0, PARKS_PER_CITY);
+  // `rings` is a crawl-time working field (point-in-polygon, area sums) — the
+  // committed JSON keeps only what a page renders.
+  return parks.slice(0, PARKS_PER_CITY).map(({ rings: _rings, ...p }) => p);
 }
 
 /* ── batch runner ───────────────────────────────────────────────────────── */

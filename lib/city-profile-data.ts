@@ -13,6 +13,7 @@ import { buildHonestReview, type HonestReviewBullet } from "@/lib/honest-reviews
 import { nearestCities, type NearbyCity } from "@/lib/distances-rankings";
 import { buildRentVsBuy } from "@/lib/rent-vs-buy-rankings";
 import type { RentVsBuyData } from "@/lib/rent-vs-buy";
+import { cityParks, nearbyCityParks } from "@/lib/city-parks";
 
 export interface CityRankingPosition {
   slug: string;
@@ -56,6 +57,34 @@ export interface CityProfileData {
   honestReview: HonestReviewLite;
   geoNeighbors: NearbyCity[];
   rentVsBuy: RentVsBuyData | null;
+  /** Named OSM parks known for this city — 0 when the crawl has not run yet.
+   *  Gates the /parcs card: no card when there is no page worth opening.
+   *  Projected here rather than read in CityProfile: that component is
+   *  "use client", and importing data/city-parks.json there would ship the
+   *  whole park directory in the city-page bundle. */
+  parksCount: number;
+  parksWithPlayground: number;
+  /** Nearest crawled neighbour, for cities the crawl has not reached yet. */
+  nearbyParks: { slug: string; name: string; parksCount: number; distanceKm: number } | null;
+}
+
+function parksProjection(city: CitySeed) {
+  const own = cityParks(city.slug);
+  if (own && own.parks.length > 0) {
+    return {
+      parksCount: own.parks.length,
+      parksWithPlayground: own.parks.filter((p) => p.playground).length,
+      nearbyParks: null,
+    };
+  }
+  const [n] = nearbyCityParks(city, { maxDistanceKm: 30, limit: 1 });
+  return {
+    parksCount: 0,
+    parksWithPlayground: 0,
+    nearbyParks: n
+      ? { slug: n.city.slug, name: n.city.name, parksCount: n.data.parks.length, distanceKm: n.distanceKm }
+      : null,
+  };
 }
 
 function cosineSimilarity(a: CitySeed["scores"], b: CitySeed["scores"]): number {
@@ -127,5 +156,6 @@ export function buildCityProfileData(city: CitySeed): CityProfileData {
     honestReview,
     geoNeighbors: nearestCities(city.slug, 6),
     rentVsBuy: buildRentVsBuy(city.slug),
+    ...parksProjection(city),
   };
 }

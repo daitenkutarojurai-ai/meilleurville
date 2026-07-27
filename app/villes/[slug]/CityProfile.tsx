@@ -41,7 +41,6 @@ import { buildCityNarrative } from "@/lib/city-narrative";
 import { computeNicheScores, TERRAIN_LABELS } from "@/lib/niche-scores";
 import { formatNumber, formatScore, scoreColor, cn, sunshineDays, sunshineHours } from "@/lib/utils";
 import { internetScore, internetLabel } from "@/lib/internet-score";
-import { hasParksData, cityParks, nearbyCityParks } from "@/lib/city-parks";
 import type { CitySeed } from "@/data/cities-seed";
 import type { CityProfileData } from "@/lib/city-profile-data";
 import type { CityPhoto } from "@/lib/city-images";
@@ -725,10 +724,8 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                   // page: the whole point of F59 was "changer d'air", finding
                   // parks beyond the block you already walk. Honest labelling
                   // makes it clear the card links to a neighbour, not here.
-                  if (hasParksData(city.slug)) {
-                    const pd = cityParks(city.slug);
-                    const count = pd?.parks.length ?? 0;
-                    const withPlay = pd?.parks.filter((p) => p.playground).length ?? 0;
+                  const { parksCount: count, parksWithPlayground: withPlay, nearbyParks } = data;
+                  if (count > 0) {
                     return (
                       <a
                         href={sub("parcs", "parks")}
@@ -749,10 +746,8 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                       </a>
                     );
                   }
-                  const nearby = nearbyCityParks(city, { maxDistanceKm: 30, limit: 1 });
-                  if (nearby.length === 0) return null;
-                  const n = nearby[0];
-                  const href = `/${locale === "en" ? "cities" : "villes"}/${n.city.slug}/${locale === "en" ? "parks" : "parcs"}`;
+                  if (!nearbyParks) return null;
+                  const href = `/${locale === "en" ? "cities" : "villes"}/${nearbyParks.slug}/${locale === "en" ? "parks" : "parcs"}`;
                   return (
                     <a
                       href={href}
@@ -764,8 +759,8 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                         </div>
                         <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
                           {L(
-                            `${n.city.name} · ${n.data.parks.length} parcs · ${n.distanceKm} km`,
-                            `${n.city.name} · ${n.data.parks.length} parks · ${n.distanceKm} km`,
+                            `${nearbyParks.name} · ${nearbyParks.parksCount} parcs · ${nearbyParks.distanceKm} km`,
+                            `${nearbyParks.name} · ${nearbyParks.parksCount} parks · ${nearbyParks.distanceKm} km`,
                           )}
                         </div>
                       </div>

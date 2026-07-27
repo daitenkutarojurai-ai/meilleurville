@@ -68,6 +68,7 @@ function amenitiesLineEn(p: Park): string {
   if (p.playground) bits.push("playground");
   if (p.wheelchair === true) bits.push("wheelchair / stroller accessible");
   if (p.drinkingWater) bits.push("drinking water");
+  if (p.toilets) bits.push("public toilets");
   if (p.dog === true) bits.push("dogs allowed");
   return bits.join(" · ");
 }

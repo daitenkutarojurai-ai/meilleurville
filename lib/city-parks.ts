@@ -30,6 +30,9 @@ export interface Park {
   wheelchair: boolean | null;
   dog: boolean | null;
   drinkingWater: boolean;
+  /** Public toilets inside the perimeter. Optional: rows crawled before the
+   *  amenity-node pass (query v1) never carry it. */
+  toilets?: boolean;
   /** Raw OSM `access` tag — typically "public"; anything closed is filtered. */
   access: string;
 }
@@ -53,7 +56,9 @@ export function hasParksData(slug: string): boolean {
   return slug in PARKS;
 }
 
-export const PARKS_CITY_COUNT = Object.keys(PARKS).length;
+/** Slugs the crawl has covered — the exact set the /parcs pages are built for. */
+export const PARKS_CRAWLED_SLUGS = Object.keys(PARKS);
+export const PARKS_CITY_COUNT = PARKS_CRAWLED_SLUGS.length;
 export const PARKS_TOTAL = Object.values(PARKS).reduce(
   (s, c) => s + (c.parks?.length ?? 0),
   0,
