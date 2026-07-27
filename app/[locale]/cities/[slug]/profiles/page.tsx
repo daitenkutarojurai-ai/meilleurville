@@ -81,7 +81,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const best = [...PROFILE_META].sort((a, b) => niche[b.key] - niche[a.key]);
   const top2 = best.slice(0, 2).map((p) => p.label.toLowerCase()).join(" and ");
   return {
-    title: `${city.name} — which lifestyle profile fits? Compatibility scores | BestCitiesInFrance`,
+    title: `${city.name} — which lifestyle profile fits? Compatibility scores`,
     description: `${city.name} suits ${top2} best. Compatibility scores for 5 profiles: expats, remote workers, pet owners, retirees, students.`,
     alternates: { canonical: `${EN_BASE}/cities/${slug}/profiles` },
     openGraph: {

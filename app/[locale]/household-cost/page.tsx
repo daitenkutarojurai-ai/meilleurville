@@ -16,7 +16,7 @@ export const revalidate = false;
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const metadata: Metadata = {
-  title: `Household cost by city 2026 · ${CITIES_SEED.length} French cities | BestCitiesInFrance`,
+  title: `Household cost by city 2026 · ${CITIES_SEED.length} French cities`,
   description: `Monthly fixed costs for 4 household types — single, couple, family, retired — across ${CITIES_SEED.length} French cities. Rent, heating, mobility, taxes: honest medians.`,
   alternates: { canonical: `${EN_BASE}/household-cost` },
 };

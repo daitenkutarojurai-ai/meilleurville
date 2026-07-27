@@ -19,7 +19,7 @@ export async function generateStaticParams() {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "City Vibe Map France — energy & atmosphere by city | BestCitiesInFrance",
+  title: "City Vibe Map France — energy & atmosphere by city",
   description:
     "Which energy does each French city give off? Calm, lively, festive, restorative, intense — 352 cities ranked by atmosphere. Deterministic estimates, not real-time data.",
   alternates: { canonical: `${EN_BASE}/vibe` },

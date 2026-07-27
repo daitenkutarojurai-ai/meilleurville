@@ -17,7 +17,7 @@ export async function generateStaticParams() {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Future You — your life in another French city, in numbers | BestCitiesInFrance",
+  title: "Future You — your life in another French city, in numbers",
   description:
     "Salary, household, lifestyle, priorities: simulate monthly leftover, free hours per week, stress level, and climate match in your top 3 French cities.",
   alternates: { canonical: `${EN_BASE}/future-you` },

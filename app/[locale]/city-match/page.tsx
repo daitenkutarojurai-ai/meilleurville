@@ -16,7 +16,7 @@ export async function generateStaticParams() {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "City Match — which French city really fits your life? | BestCitiesInFrance",
+  title: "City Match — which French city really fits your life?",
   description:
     "8 questions, 90 seconds: we calculate your personal match across 352 French cities. Top 3 + a surprise match, live ranking as you answer, shareable link.",
   alternates: { canonical: `${EN_BASE}/city-match` },

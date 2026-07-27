@@ -19,7 +19,7 @@ export async function generateStaticParams() {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "People Like You — where profiles like yours are moving | BestCitiesInFrance",
+  title: "People Like You — where profiles like yours are moving",
   description:
     "11 lifestyle personas × 50 major French cities: see where people like you (family, freelance, retiree…) gain the most by relocating from your current city.",
   alternates: { canonical: `${EN_BASE}/people-like-you` },

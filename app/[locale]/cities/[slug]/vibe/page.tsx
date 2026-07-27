@@ -71,7 +71,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { tone } = cityVibe(city);
   const meta = EN_VIBE_META[tone];
   return {
-    title: `${city.name} vibe — ${meta.label} city atmosphere | BestCitiesInFrance`,
+    title: `${city.name} vibe — ${meta.label} city atmosphere`,
     description: `${city.name} has a ${meta.label.toLowerCase()} atmosphere: ${meta.desc}`,
     alternates: { canonical: `${EN_BASE}/cities/${slug}/vibe` },
     openGraph: {

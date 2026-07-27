@@ -91,7 +91,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!region) return {};
   const count = CITIES_SEED.filter((c) => c.region === region).length;
   return {
-    title: `${region} — 8-dimension city ranking | BestCitiesInFrance`,
+    title: `${region} — 8-dimension city ranking`,
     description: `Synthesis ranking of ${count} cities in ${region} across 8 data dimensions (environment, healthcare, employment, quality of life, cycling, safety, demographics, public services). Convention: 10 = excellent.`,
     alternates: { canonical: `${EN_BASE}/regions/${regionSlug}/synthesis` },
     openGraph: {

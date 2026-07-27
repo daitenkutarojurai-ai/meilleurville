@@ -16,7 +16,7 @@ export async function generateStaticParams() {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Climate 2040 Timelapse — France warming year by year | BestCitiesInFrance",
+  title: "Climate 2040 Timelapse — France warming year by year",
   description:
     "Scrub from 2026 to 2040 and watch France warm in real time. ARPEGE/IPCC-interpolated projection by macro-region, across 352 cities.",
   alternates: { canonical: `${EN_BASE}/climate-2040-timelapse` },

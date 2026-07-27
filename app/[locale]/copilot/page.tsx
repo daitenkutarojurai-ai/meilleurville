@@ -14,7 +14,7 @@ export async function generateStaticParams() {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "AI Relocation Copilot — ask anything about French cities | BestCitiesInFrance",
+  title: "AI Relocation Copilot — ask anything about French cities",
   description:
     "Ask our AI assistant about any of 352 French cities: rents, quality-of-life scores, taxes, transport. Personalised recommendations in seconds. Ask in English or French.",
   alternates: { canonical: `${EN_BASE}/copilot` },

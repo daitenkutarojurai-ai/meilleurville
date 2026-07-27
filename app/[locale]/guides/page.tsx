@@ -9,7 +9,7 @@ import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const metadata: Metadata = {
-  title: `${EN_GUIDES.length} guides — choosing where to live in France | BestCitiesInFrance`,
+  title: `${EN_GUIDES.length} guides — choosing where to live in France`,
   description:
     "Practical, no-fluff guides for moving to and living in France: city guides, remote work, families, cost of living, expat practicalities, leaving Paris, retirement. Updated 2026.",
   alternates: { canonical: `${EN_BASE}/guides` },

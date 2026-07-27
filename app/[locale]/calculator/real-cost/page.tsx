@@ -18,7 +18,7 @@ export const revalidate = false;
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const metadata: Metadata = {
-  title: `Real cost of living calculator · ${CITIES_SEED.length} French cities 2026 | BestCitiesInFrance`,
+  title: `Real cost of living calculator · ${CITIES_SEED.length} French cities 2026`,
   description: `Calculate the honest monthly cost of living across ${CITIES_SEED.length} French cities: median 1-bed rent, heating by climate zone, car or public transit, property tax, waste tax. Automatic comparison with Paris.`,
   alternates: { canonical: `${EN_BASE}/calculator/real-cost` },
 };

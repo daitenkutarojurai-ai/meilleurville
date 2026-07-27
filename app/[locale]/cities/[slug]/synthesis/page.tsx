@@ -92,7 +92,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const topAxis = EN_AXIS_LABEL[s.strengths[0]?.label ?? ""] ?? "";
   const bottomAxis = EN_AXIS_LABEL[s.tensions[0]?.label ?? ""] ?? "";
   return {
-    title: `${city.name} — 8-dimension city profile | BestCitiesInFrance`,
+    title: `${city.name} — 8-dimension city profile`,
     description: `${city.name} (${city.department}) composite synthesis across 8 dimensions: overall ${s.global.toFixed(1)}/10 (${EN_SYNTHESIS_LABEL[s.level].toLowerCase()}). Strength: ${topAxis}, tension: ${bottomAxis}. ${s.signature}`,
     alternates: { canonical: `${EN_BASE}/cities/${slug}/synthesis` },
     openGraph: {

@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   const housing = getHousing(slug);
   return {
-    title: `Getting settled in ${city.name} — housing, internet, admin 2026 | BestCitiesInFrance`,
+    title: `Getting settled in ${city.name} — housing, internet, admin 2026`,
     description: `Practical guide to moving to ${city.name}: rent levels (${housing ? `T2 ${housing.avgRentT2} €/month` : "estimated"}), rental market tension, broadband, taxes, and admin steps.`,
     alternates: { canonical: `${EN_BASE}/cities/${slug}/get-settled` },
     openGraph: {
