@@ -7,6 +7,13 @@
  *   node scripts/city-parks.mjs --slug=paris  # crawl a single city
  *   node scripts/city-parks.mjs --force       # re-crawl even cities already in the JSON
  *   node scripts/city-parks.mjs stats         # what's in data/city-parks.json today
+ *   node scripts/city-parks.mjs merge         # fold worker shards into the JSON
+ *
+ * Parallel crawl (4 workers over disjoint slices, each starting on a different
+ * Overpass mirror), then merge:
+ *   for i in 0 1 2 3; do node scripts/city-parks.mjs --limit=400 \\
+ *     --shards=4 --shard=$i --out=.cache/city-parks/shards/$i.json & done; wait
+ *   node scripts/city-parks.mjs merge
  *
  * Source: OpenStreetMap via the Overpass API. One query per commune, anchored on
  * the admin area whose "ref:INSEE" matches the seed. We keep parks, public
@@ -36,6 +43,7 @@ import { fileURLToPath } from "node:url";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const CACHE_DIR = path.join(ROOT, ".cache", "city-parks");
 const RAW_DIR = path.join(CACHE_DIR, "overpass");
+const SHARD_DIR = path.join(CACHE_DIR, "shards");
 const OUT_JSON = path.join(ROOT, "data", "city-parks.json");
 const SEED_TS = path.join(ROOT, "data", "cities-seed.ts");
 
@@ -60,6 +68,15 @@ const opt = (n) => args.find((a) => a.startsWith(`--${n}=`))?.split("=")[1];
 const LIMIT = Number(opt("limit") ?? 60);
 const ONLY_SLUG = opt("slug") ?? null;
 const FORCE = flag("force");
+// Sharding. 540 communes at ~2 min of Overpass time each is ~18 h serially, so
+// the crawl runs as N workers over disjoint slices of the batch, each writing
+// its own file; `merge` folds them back into data/city-parks.json. Workers also
+// start on different mirrors (SHARD rotates OVERPASS_HOSTS) so they are not all
+// queueing on overpass-api.de at once — one request per host every few seconds,
+// which is what the API asks for.
+const SHARD = Number(opt("shard") ?? 0);       // 0-based worker index
+const SHARDS = Number(opt("shards") ?? 1);     // total workers
+const OUT = opt("out") ?? null;                // shard output file
 const PARKS_PER_CITY = 40;
 const MIN_SLEEP_MS = 2500;
 
@@ -104,7 +121,9 @@ async function loadSeed() {
 /** Overpass query with per-host retry + exponential backoff on 429/50x. */
 async function overpass(query) {
   let lastErr = null;
-  for (const host of OVERPASS_HOSTS) {
+  const hosts = OVERPASS_HOSTS.slice(SHARD % OVERPASS_HOSTS.length)
+    .concat(OVERPASS_HOSTS.slice(0, SHARD % OVERPASS_HOSTS.length));
+  for (const host of hosts) {
     for (let i = 0; i < 4; i++) {
       let res;
       try {
@@ -452,17 +471,24 @@ function pickBatch(cities, current) {
     ? cities.filter((c) => c.slug === ONLY_SLUG)
     : cities.filter((c) => FORCE || !current[c.slug]);
   pool.sort((a, b) => (b.population ?? 0) - (a.population ?? 0));
-  return pool.slice(0, LIMIT);
+  const sliced = pool.slice(0, LIMIT);
+  return SHARDS > 1 ? sliced.filter((_, i) => i % SHARDS === SHARD) : sliced;
 }
 
 async function crawlBatch() {
   const seed = await loadSeed();
-  const current = (await readJson(OUT_JSON, {})) ?? {};
-  const batch = pickBatch(seed, current);
+  // Coverage is always read from the committed file — a shard must not re-crawl
+  // what another run already did. Output goes to the shard file when sharding,
+  // so two workers never write the same JSON.
+  const covered = (await readJson(OUT_JSON, {})) ?? {};
+  const outFile = OUT ?? OUT_JSON;
+  const current = OUT ? ((await readJson(outFile, {})) ?? {}) : covered;
+  const batch = pickBatch(seed, covered);
 
   log(`seed: ${seed.length} cities`);
-  log(`state: ${Object.keys(current).length} already crawled, ${seed.length - Object.keys(current).length} remaining`);
-  log(`batch: ${batch.length} cities this run (limit ${LIMIT})`);
+  log(`state: ${Object.keys(covered).length} already crawled, ${seed.length - Object.keys(covered).length} remaining`);
+  log(`batch: ${batch.length} cities this run (limit ${LIMIT}${SHARDS > 1 ? `, shard ${SHARD + 1}/${SHARDS}` : ""})`);
+  if (OUT) log(`output: ${path.relative(ROOT, outFile)} — run "node scripts/city-parks.mjs merge" when the workers are done`);
   if (!batch.length) { log("nothing to do"); return; }
 
   let ok = 0, empty = 0, failed = 0;
@@ -489,7 +515,7 @@ async function crawlBatch() {
       }
     }
     // Sort by slug so the committed diff is stable across runs.
-    await writeJson(OUT_JSON, Object.fromEntries(Object.entries(current).sort(([a], [b]) => a.localeCompare(b))));
+    await writeJson(outFile, Object.fromEntries(Object.entries(current).sort(([a], [b]) => a.localeCompare(b))));
     if (i < batch.length - 1) await sleep(MIN_SLEEP_MS);
   }
 
@@ -506,7 +532,31 @@ async function showStats() {
   log(`covered ${covered}/${seed.length} cities, ${totalParks} parks (${empty} cities with zero named parks)`);
 }
 
+/** Fold every shard file in .cache/city-parks/shards/ into data/city-parks.json.
+ *  A city crawled by a shard always wins over the committed row: the shard is
+ *  the newer relevé. Shard files are left in place (gitignored, cheap) so a
+ *  re-merge is idempotent. */
+async function mergeShards() {
+  const main = (await readJson(OUT_JSON, {})) ?? {};
+  let files = [];
+  try {
+    files = (await fs.readdir(SHARD_DIR)).filter((f) => f.endsWith(".json"));
+  } catch {}
+  if (!files.length) { log("no shard file to merge"); return; }
+  let added = 0, updated = 0;
+  for (const f of files) {
+    const shard = (await readJson(path.join(SHARD_DIR, f), {})) ?? {};
+    for (const [slug, row] of Object.entries(shard)) {
+      if (main[slug]) updated++; else added++;
+      main[slug] = row;
+    }
+  }
+  await writeJson(OUT_JSON, Object.fromEntries(Object.entries(main).sort(([a], [b]) => a.localeCompare(b))));
+  log(`merged ${files.length} shard file(s): ${added} new cities, ${updated} refreshed. total ${Object.keys(main).length}`);
+}
+
 /* ── run ────────────────────────────────────────────────────────────────── */
 
 if (cmd === "stats") await showStats();
+else if (cmd === "merge") await mergeShards();
 else await crawlBatch();
