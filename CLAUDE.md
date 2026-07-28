@@ -483,12 +483,28 @@ champs seed. Même pattern que `climat`.
 computant depuis les axes existants — l'enrichissement reste utile pour des chiffres réels) :
 
 - ~~`population: number`~~ — ✅ dans le seed (recensement)
+- ~~`salaireMédianNet`~~ — ✅ **remplacé par mieux, 2026-07-28** : `data/city-income.json`
+  (via `scripts/city-income.mjs` + `lib/city-income.ts`) porte le **niveau de vie médian**
+  et le **taux de pauvreté** réels, publiés **à la commune** par Insee Filosofi 2021 —
+  533/540 villes. C'est plus fin que le proxy départemental prévu ici. Attention au
+  vocabulaire : niveau de vie = revenu disponible par unité de consommation, **pas un
+  salaire** ; `lib/city-income.ts` porte la convention. Surfacé sur
+  `/villes/[slug]/statistiques` + EN `statistics`. Non couvertes : Guadeloupe, Guyane,
+  Mayotte (hors champ Filosofi) et Pierrefitte-sur-Seine (fusionnée dans Saint-Denis
+  en 2025) — la page n'affiche alors rien plutôt qu'un chiffre inventé.
 - `populationEvolution: number` — évolution % 2015–2021
-- `salaireMédianNet: number` — €/mois net (proxie département)
 - `tauxChomage: number` — % (proxie zone emploi)
 - `densiteMedecins: number` — généralistes / 1 000 hab
 - `indiceAtmo: number` — qualité air annuelle 0–10 (1 = très pollué)
 - `espacesVerts: number` — % superficie communale (proxie CORINE)
+
+**Egress : les sources ouvertes sont joignables depuis une session locale** (vérifié
+2026-07-28) — `insee.fr` (fichiers zip/csv), `geo.api.gouv.fr`, `data.gouv.fr`,
+`overpass-api.de`. C'est l'environnement des routines cloud qui les refuse (403 CONNECT),
+pas le projet. Un pipeline d'enrichissement se lance donc en local, pattern
+`scripts/city-income.mjs` : téléchargement caché dans `.cache/`, parse, JSON commité.
+`api.insee.fr` (Melodi) reste injoignable et demande un jeton — passer par les fichiers
+publiés sur `insee.fr`, dont l'URL est stable (`/fr/statistiques/fichier/<id>/<nom>.zip`).
 
 ### Bloc FAQ structuré sur CityProfile — ✅ livré
 
