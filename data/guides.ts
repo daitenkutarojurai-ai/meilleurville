@@ -37051,11 +37051,62 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["saint-die-des-vosges", "vichy", "auch", "chaumont", "laon", "chatellerault", "laval", "auxerre"],
     relatedGuides: [
+      "palmares-aout-2026-rapport-qualite-vie-prix-achat",
       "villes-france-moins-cheres-2026-top-10",
       "vivre-retraite-1500-euros-mois-france-2026",
       "villes-france-retraite-anticipee-fire-2026",
     ],
     tags: ["palmarès juillet 2026", "rapport qualité de vie loyer", "villes loyer pas cher 2026", "classement mensuel villes France", "meilleur ratio loyer qualité de vie"],
+  },
+  {
+    slug: "palmares-aout-2026-rapport-qualite-vie-prix-achat",
+    title: "Palmarès août 2026 : les 20 villes au meilleur rapport qualité de vie / prix d'achat",
+    metaTitle: "Palmarès août 2026 — Qualité de vie / prix au m² : le top 20",
+    metaDesc: "Palmarès d'août 2026 : les 20 villes où chaque euro investi au m² achète le plus de qualité de vie. Score global rapporté au prix d'achat, sur 363 communes.",
+    category: "budget",
+    emoji: "🏆",
+    readMinutes: 7,
+    publishedAt: "2026-07-28",
+    updatedAt: "2026-07-28",
+    intro: "Le mois dernier, on classait les villes sur le rapport qualité de vie / loyer. Cette édition d'août bascule du côté des acheteurs : à quel prix au mètre carré paie-t-on la qualité de vie, et où ce prix est-il le plus honnête ? On a rapporté le score global de nos 540 villes au prix d'achat moyen au m², en gardant les communes de plus de 20 000 habitants pour lesquelles nous avons une référence de prix, soit 363 villes. Les hiérarchies bougent : sept villes du top 20 de juillet gardent leur place, mais d'autres apparaissent, parce qu'un loyer modéré et une pierre bradée ne vont pas toujours ensemble.",
+    sections: [
+      {
+        heading: "La méthode, en toute transparence",
+        body: "Le calcul est le même que le mois dernier, avec le prix d'achat en dénominateur : score global de la ville, sur 10, celui affiché sur chaque fiche, divisé par le prix moyen du m². Le score global agrège huit axes (vie quotidienne, transport, nature, coût, sécurité, culture, télétravail, écoles) calibrés sur des données réelles, chiffres SSMSI pour la sécurité, Insee et observatoires locaux pour le logement. Le filtre à 20 000 habitants écarte les communes trop petites pour offrir hôpital, lycée et commerces du quotidien sans dépendre de la ville d'à côté. Restent 363 villes, dont le prix médian s'établit à 2 900 €/m². Vingt d'entre elles passent sous 1 500 €/m², cinquante-sept dépassent 5 000 €. Ce palmarès mesure l'efficacité d'un budget d'acquisition, pas la qualité absolue d'une ville : une commune absente du top n'est pas mauvaise, elle est simplement plus chère que ce qu'elle rend.",
+      },
+      {
+        heading: "Le top 20 d'août 2026",
+        body: "1. Chaumont : score 6,8 pour 950 €/m², le seul prix à trois chiffres du classement et le meilleur ratio de France. 2. Saint-Dié-des-Vosges : 7,3 pour 1 100 €/m², déjà première en juillet côté loyer. 3. Saint-Dizier : 5,8 pour 1 000 €/m². 4. Montluçon : 5,9 pour 1 100 €/m². 5. Laon : 7,2 pour 1 400 €/m², le meilleur score du top 5. 6. Charleville-Mézières : 6,2 pour 1 300 €/m². 7. Aurillac : 5,6 pour 1 200 €/m². 8. Lens : 5,3 pour 1 200 €/m². 9. Vierzon : 4,8 pour 1 100 €/m², le score le plus faible du top 20, sauvé par le prix. 10. Auch : 6,5 pour 1 500 €/m². 11. Villeneuve-sur-Lot : 6,5 pour 1 500 €/m². 12. Abbeville : 6,4 pour 1 500 €/m². 13. Roanne : 6,3 pour 1 500 €/m². 14. Châtellerault : 6,3 pour 1 500 €/m². 15. Saint-Quentin : 6,2 pour 1 500 €/m². 16. Alençon : 5,7 pour 1 400 €/m². 17. Nevers : 6,0 pour 1 500 €/m². 18. Laval : 6,1 pour 1 550 €/m². 19. Épinal : 5,9 pour 1 500 €/m². 20. Cahors : 5,5 pour 1 400 €/m². La géographie du classement est nette : Grand Est, Hauts-de-France, Auvergne et centre de la France concentrent presque tout le top 20, sans aucune ville littorale et sans aucune métropole.",
+      },
+      {
+        heading: "Ce que 150 000 € achètent, selon la ville",
+        body: "Le ratio devient concret quand on le convertit en mètres carrés. Avec un budget de 150 000 € hors frais, on vise 158 m² à Chaumont, 150 m² à Saint-Dizier, 136 m² à Saint-Dié-des-Vosges comme à Montluçon, 125 m² à Aurillac et à Lens, 115 m² à Charleville-Mézières, 107 m² à Laon. Le même budget donne 39 m² à Rennes, 36 m² à Nantes, 33 m² à Bordeaux, 30 m² à Lyon et 14 m² à Paris. Ce n'est pas une comparaison de valeur, c'est une comparaison de surface : un T5 avec jardin d'un côté, un studio de l'autre. La question à se poser n'est pas laquelle est la meilleure affaire dans l'absolu, mais si votre revenu dépend ou non du bassin d'emploi que vous achetez en même temps que le logement.",
+      },
+      {
+        heading: "Ce qui change quand on passe du loyer à l'achat",
+        body: "Sept villes du top 20 de juillet restent dans celui d'août, Chaumont et Saint-Dié en tête, avec Laon, Auch, Châtellerault, Saint-Quentin et Cahors. Deux glissent nettement : Vichy passe 25e et Rochefort 44e, parce que leur pierre se vend plus cher que ne le laissait supposer leur loyer, effet classique des villes thermales et littorales où la résidence secondaire tire les prix sans tirer les loyers. À l'inverse, Saint-Dizier, Charleville-Mézières, Lens, Vierzon, Abbeville et Alençon entrent dans le classement : ce sont des marchés où l'achat décroche du loyer, souvent dans des bassins industriels en reconversion où l'offre de logements anciens excède la demande. Pour un acheteur, cet écart est une information utile : un rendement locatif élevé y est mécanique, mais la revente y est lente.",
+      },
+      {
+        heading: "Les villes chères qui tiennent leur prix",
+        body: "Un classement de ratio favorise structurellement les villes bon marché. Il vaut donc la peine de regarder le haut du panier, parmi les communes au-dessus de 3 500 €/m². Les Sables-d'Olonne (score 7,4 pour 3 500 €/m²), Fontainebleau (7,9 pour 3 800 €/m², le meilleur score de tout le classement), Strasbourg (7,5 pour 3 800 €/m²), Rennes (7,4 pour 3 800 €/m²), Chambéry (6,5 pour 3 600 €/m²), Vannes (6,9 pour 3 900 €/m²) et Anglet (7,6 pour 4 300 €/m²) sont les villes qui justifient le mieux un prix élevé. Du côté des grandes villes, Limoges (1 600 €/m²) et Saint-Étienne (1 500 €/m²) sont les seules au-dessus de 100 000 habitants à entrer dans le premier dixième du classement, suivies de Mulhouse, du Mans et de Besançon.",
+      },
+      {
+        heading: "Comment lire ces chiffres sans se tromper",
+        body: "Trois limites, assumées. Le prix au m² est une moyenne communale : dans les villes moyennes, l'écart entre un centre ancien rénové et une périphérie pavillonnaire dépasse souvent 40 %, et nos pages Acheter à… détaillent ce découpage quartier par quartier. Ensuite, un prix bas est aussi un signal de marché : faible demande, revente longue, plus-value incertaine. Acheter à 1 000 €/m² dans une ville qui perd des habitants n'est pas un placement, c'est un choix de vie, et il faut l'assumer comme tel. Enfin, le score global ne dit rien de votre situation personnelle : bassin d'emploi, desserte ferroviaire, réseau familial. Ce palmarès fonctionne surtout pour les télétravailleurs, les retraités et les primo-accédants qui financent sans revenus locaux à sécuriser.",
+      },
+      {
+        heading: "Rendez-vous en septembre",
+        body: "Le palmarès est mensuel, chaque édition croisant nos données sous un angle nouveau avec la même méthode affichée et les mêmes limites assumées. L'édition de septembre 2026 sera celle de la rentrée : le rapport entre la qualité des écoles et le coût du logement, autrement dit les villes où scolariser ses enfants ne coûte pas un loyer de métropole. Pour creuser l'édition du mois, chaque ville du top 20 dispose de sa fiche complète avec les huit axes détaillés, ses quartiers et son climat, et le classement général reste le bon point d'entrée si vous cherchez la logique inverse, celle des villes chères qui valent leur prix.",
+      },
+    ],
+    relatedCities: ["chaumont", "saint-die-des-vosges", "saint-dizier", "montlucon", "laon", "charleville-mezieres", "aurillac", "limoges"],
+    relatedGuides: [
+      "palmares-juillet-2026-rapport-qualite-vie-loyer",
+      "meilleures-villes-primo-accedants-france-2026",
+      "villes-france-moins-cheres-2026-top-10",
+      "negocier-prix-immobilier-france-guide-2026",
+    ],
+    tags: ["palmarès août 2026", "rapport qualité de vie prix achat", "prix immobilier au m² 2026", "classement mensuel villes France", "acheter moins cher en France"],
   },
   {
     slug: "retraite-a-dinan-2026",
