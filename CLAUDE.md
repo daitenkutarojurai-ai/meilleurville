@@ -517,7 +517,7 @@ Déjà couverts (skip) : `acheter-a-[ville]` (immobilier), `budget-mensuel-reali
 L'engine `/comparer/[a]-vs-[b]` est livré + ~300 paires SSG existent.
 
 - ✅ **Landing `/comparer` enrichie** — 50 paires éditoriales (`POPULAR_PAIRS` dans `app/comparer/page.tsx`).
-- [ ] **Sitemap haut-trafic** : vérifier que les paires les plus cherchées sont dans `sitemap.ts` (couverture top-50 × top-50).
+- [x] **Sitemap haut-trafic** — ✅ clos 2026-07-28. `app/sitemap.ts` et `generateStaticParams` dérivent tous deux de `SEO_PAIRS` : la couverture sitemap **est** la liste des paires, il n'y a rien à synchroniser. Reste le choix éditorial de la liste : carré top-15 fermé le 27/07, rangs 16-20 métropolitains (Grenoble, Dijon, Angers, Nîmes) croisés avec le top-11 le 28/07 → **722 paires**, top-20 × top-20 à 156/190. Les 34 restantes sont exclues volontairement (Reims / Toulon / Le Havre / Saint-Étienne face aux rangs 16-20, et tout ce qui implique Saint-Denis de La Réunion) : pas de demande de recherche. **Ne pas viser 1 225** — le top-50 × top-50 complet est majoritairement du bruit.
 
 ### Hors périmètre (nécessitent des assets ou APIs externes)
 
