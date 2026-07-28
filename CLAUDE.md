@@ -506,9 +506,20 @@ Accordéon `<details>` natif (réponses dans le HTML statique, no-JS/crawler-fri
 | `famille-a-[ville]-2026` | `family` | top 20 villes | ✅ 19 guides |
 | `retraite-a-[ville]-2026` | `lifestyle` | top 20 villes | ✅ 20 guides (batch 1 shipped 2026-07-14 : Dinan, Lannion, Les Sables-d'Olonne, Royan, Le Puy-en-Velay, Anglet, Hendaye, Vitré, Fontainebleau, Île de Ré ; batch 2 shipped 2026-07-15 : Challans, Tulle, Pontarlier, Saint-Dié-des-Vosges, Château-Gontier, Albertville, Gaillac, Vendôme, Marmande, Saint-Lô) |
 | `demenager-a-[ville]-2026` | `lifestyle` (pas de cat. `moving` en FR) | top 50 villes | ✅ 50 guides — série close 2026-07-18 pm. Batch 1 (Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux, Lille), batch 2 (Rennes, Grenoble, Rouen, Angers, Dijon, Tours, Clermont-Ferrand, Metz, Nancy, Caen), batch 3 (Saint-Étienne, Le Havre, Reims, Toulon, Villeurbanne, Nîmes, Aix-en-Provence, Brest, Le Mans, Amiens), batch 4 (Saint-Denis 93, Perpignan, Boulogne-Billancourt, Argenteuil, Orléans, Mulhouse, Saint-Paul Réunion, Nanterre, Créteil, Vitry-sur-Seine), batch 5 (Saint-Denis Réunion, Le Tampon, Aubervilliers, Colombes, Asnières-sur-Seine, Courbevoie, Rueil-Malmaison, Champigny-sur-Marne, Saint-Maur-des-Fossés, Antibes). Logistique déménagement (≠ sous-page `s-installer`) |
-| `quartiers-a-eviter-[ville]-2026` | `moving` | top 30 villes | ❌ pendant de `meilleurs-quartiers` dans `acheter-a-` |
+| `quartiers-a-eviter-[ville]-2026` | `moving` | top 30 villes | ⛔ **écartée 2026-07-28 — faute de données, pas faute d'envie** |
 | `travail-a-[ville]-2026` | `lifestyle` | top 30 villes | ✅ 30 guides — série close 2026-07-22 (batches 1/2/3) |
 | `universites-[ville]-2026` | `lifestyle` | top 15 villes | ✅ 15 guides — série close 2026-07-25 (batch 1 : Paris, Lyon, Toulouse, Lille, Bordeaux, Aix-en-Provence, Montpellier, Rennes, Strasbourg, Nantes ; batch 2 : Grenoble, Nice, Clermont-Ferrand, Nancy, Dijon) |
+
+**Pourquoi `quartiers-a-eviter` est écartée (décision 2026-07-28, ne pas la re-proposer sans nouvelles données).**
+`data/neighborhoods.ts` couvre les 540 villes mais à raison de **3 quartiers par ville**, et ce sont les quartiers
+centraux les mieux connus. Les quartiers que les gens visent réellement en tapant cette requête n'y sont pas. Écrire
+la série reviendrait donc à sourcer une réputation de quartier ailleurs que dans nos données — c'est-à-dire à
+inventer des chiffres sur des lieux réels et sur les gens qui y habitent, exactement ce que la ligne éditoriale
+interdit, avec un risque diffamatoire en prime. Le pendant honnête de `meilleurs-quartiers` existe déjà : la section
+quartiers de `acheter-a-[ville]` et `/villes/[slug]/quartiers`, qui disent sur quel axe un quartier décroche et pour
+quel profil, sans verdict global. **Condition de réouverture** : enrichir `neighborhoods.ts` à 8-12 quartiers par
+ville sur une source réelle (IRIS Insee, SSMSI infracommunal) — auquel cas la série se justifie, en cadrage par
+profil (« bruyant pour une famille » ≠ « mauvais »), jamais en liste noire.
 
 Déjà couverts (skip) : `acheter-a-[ville]` (immobilier), `budget-mensuel-realiste-[ville]` (coût de la vie), `10-choses-a-faire-a-[ville]` (sortir), `quitter-[ville]` (départ), `vivre-sans-voiture-[ville]` (transports).
 
