@@ -351,23 +351,23 @@ export const GUIDES: Guide[] = [
     readMinutes: 9,
     publishedAt: "2025-03-01",
     updatedAt: "2026-02-05",
-    intro: "Prendre sa retraite en France, c'est une vraie bascule. Pour la première fois depuis 40 ans, on choisit librement où habiter, sans contrainte de poste ou de scolarité. Voici comment structurer ce choix avec des chiffres, des témoignages et sans vendre du rêve.",
+    intro: "Prendre sa retraite en France, c'est le premier vrai choix libre depuis quarante ans : ni poste, ni école des enfants, ni copropriété héritée ne dictent plus l'adresse. Reste à décider sans se raconter d'histoires. Ce guide pose le sujet à plat — chiffres, arbitrages, angles morts — et laisse le rêve de côté.",
     sections: [
       {
         heading: "La densité médicale : le critère le plus important que personne ne mesure",
-        body: "La qualité de la retraite tient en grande partie à l'accès aux soins. Une belle ville sans rhumatologue ni cardiologue à moins de 30 km devient un piège à 75 ans. La France connaît de fortes inégalités de densité médicale, et le sujet est rarement abordé avant le déménagement. Trois villes tiennent particulièrement la route côté santé : Bordeaux pour son CHU et sa densité libérale, Grenoble pour son CHU et ses spécialistes, Montpellier pour son école de médecine et ses hôpitaux reconnus. À éviter sans bilan médical préalable : les zones rurales profondes, même les plus séduisantes sur la photo.",
+        body: "On regarde le climat, la vue, le marché du samedi. Presque jamais la carte des spécialistes libéraux. C'est pourtant elle qui, à 75 ans, transforme une belle ville en piège dès qu'il n'y a plus un rhumatologue ni un cardiologue à moins de 30 km. La densité médicale française est très inégale, et l'angle mort du sujet reste massif au moment du déménagement. Trois villes tiennent sérieusement la route côté santé : Bordeaux pour son CHU et sa densité libérale, Grenoble pour son CHU et ses spécialistes, Montpellier pour son école de médecine et ses hôpitaux reconnus. À éviter sans bilan médical préalable : les zones rurales profondes, y compris — surtout — celles qui font les plus belles photos.",
       },
       {
         heading: "La Rochelle : la coqueluche des retraités actifs",
-        body: "Score retraite MaVilleIdéale de 8,4/10. La Rochelle cumule tout ce que cherchent les retraités actifs : mer, vélo, culture et une taille humaine, 80 000 habitants, qui permet une vraie vie sociale. Le CHU se trouve à Poitiers, à une heure, ce qui demande de s'organiser pour les soins spécialisés. L'immobilier reste abordable comparé à la Côte d'Azur, et le réseau cyclable est exceptionnel pour garder une activité physique sans dépendre de la voiture.",
+        body: "Score retraite MaVilleIdéale : 8,4/10. La Rochelle coche à peu près tout ce que cherchent les retraités encore en mouvement — la mer, le vélo, une vie culturelle solide, et surtout un format tenable de 80 000 habitants qui garde la ville lisible et fait naître une vraie vie sociale. Un point demande de s'organiser : le CHU se trouve à Poitiers, à une heure de route, pour les soins spécialisés. En échange, l'immobilier reste abordable au regard de la Côte d'Azur, et le réseau cyclable permet de garder une activité physique quotidienne sans jamais reprendre le volant.",
       },
       {
         heading: "Annecy : le luxe du cadre naturel",
-        body: "La retraite à Annecy, c'est un luxe au sens littéral du terme. Les prix au m² ont dépassé 5 000 € en centre-ville. Pour ceux qui peuvent se l'offrir, c'est sans doute la plus belle retraite de France : le lac, les Alpes, des hôpitaux de qualité avec le CHU de Grenoble à 40 minutes, et un air pur. Le bémol, c'est le tourisme dense et un hiver qui peut sembler long pour qui n'est pas montagnard dans l'âme.",
+        body: "Annecy, c'est un luxe au sens littéral : le prix au m² a franchi les 5 000 € en centre-ville, et l'accès y est donc filtré par le portefeuille avant tout le reste. Pour qui peut se le permettre, c'est sans doute la plus belle retraite de France — le lac, les Alpes en toile de fond, un air net et le CHU de Grenoble à 40 minutes. Deux bémols persistent : un tourisme dense qui fatigue vite en été, et un hiver qui peut sembler long dès qu'on n'est pas montagnard dans l'âme.",
       },
       {
         heading: "Le calcul de la retraite en province",
-        body: "Une pension de 2 000 €/mois, soit la moyenne d'un cadre, permet de vivre très confortablement dans la plupart des villes de ce guide. À Paris, le même budget devient serré. À Pau, c'est une vie confortable avec épargne. À Annecy, c'est jouable en locataire ou en propriétaire installé depuis longtemps. Le vrai calcul à faire avant tout : peut-on vendre son bien parisien ou francilien pour acheter cash à la retraite et préserver intacte la pension ? Si oui, beaucoup de portes s'ouvrent d'un coup.",
+        body: "2 000 € par mois, soit la pension moyenne d'un cadre, suffisent à vivre très confortablement dans la plupart des villes citées ici. Le même chiffre devient serré à Paris, s'installe en confort avec épargne à Pau, et ne tient à Annecy qu'en location, ou en propriétaire arrivé bien avant la flambée des prix. La vraie question se joue en amont : peut-on solder un bien parisien ou francilien pour acheter cash au moment du départ, et garder la pension entière pour le quotidien ? Si la réponse est oui, l'éventail des villes accessibles s'élargit d'un coup.",
       },
     ],
     relatedCities: ["la-rochelle", "annecy", "bordeaux", "pau", "montpellier"],

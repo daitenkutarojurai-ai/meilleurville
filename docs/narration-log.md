@@ -28,3 +28,4 @@ Les données factuelles (chiffres, scores, noms) ne sont jamais modifiées.
 - 2026-07-24 app/guides/[slug]/page.tsx :: vivre-dans-le-sud-france-guide-2025
 - 2026-07-26 app/guides/[slug]/page.tsx :: vivre-pays-basque-bayonne-biarritz-pau
 - 2026-07-27 app/guides/[slug]/page.tsx :: nouvelles-villes-montantes-france-2026
+- 2026-07-28 app/guides/[slug]/page.tsx :: villes-seniors-retraite-france
