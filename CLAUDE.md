@@ -405,7 +405,7 @@ FR-equivalent routes covered: home, cities index + 352 city pages, 4 city sub-pa
 
 **Phase 1 — content depth**
 - [x] `descriptionEn` / `seoTitleEn` / `seoDescriptionEn` — all 541 cities populated (verified 2026-05-26)
-- [ ] Keep `REGION_EN_DESCRIPTIONS` and `RANKING_EN` in sync with FR changes
+- [ ] Keep `REGION_EN_DESCRIPTIONS` and `RANKING_EN` in sync with FR changes — *couverture vérifiée 2026-07-28 : 18/18 régions, 19/19 classements, zéro clé orpheline de part et d'autre.* Item permanent (il se rouvre dès qu'une région ou un classement est ajouté côté FR), pas une tâche en attente.
 
 **Phase 2 — missing routes**
 - [x] Triplet comparisons `/compare/[a]-vs-[b]-vs-[c]` (shipped via `lib/comparer-triplets.ts` + `app/[locale]/compare/[pair]/page.tsx`)
