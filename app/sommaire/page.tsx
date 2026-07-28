@@ -73,6 +73,7 @@ export default function SommairePage() {
               { href: "/carte", label: "Carte interactive" },
               { href: "/leaderboard", label: "Top 100 villes" },
               { href: "/city-match", label: "City Match" },
+              { href: "/parent-solo", label: "Parent solo — villes qui tiennent" },
               { href: "/red-flags", label: "Red Flag Radar" },
               { href: "/guides", label: "Tous les guides" },
               { href: "/tags", label: "Tous les tags" },

@@ -281,6 +281,42 @@ export default async function ProfilePage({ params }: Props) {
           </section>
         )}
 
+        {/* Parent-solo national hub — visible only for the single-parent
+            profile. The ranking here re-weights the axes for a lone
+            income + lone driver (coût 0,30 · transports 0,20 · écoles 0,25
+            · sécurité 0,25) — même pondération que le profil
+            « single-parent » de City Match, mais pré-calculée sur les 540
+            villes ≥ 20 000 hab. avec seuil de revenu T3 estimé par ville. */}
+        {profile.slug === "familles-monoparentales" && (
+          <section>
+            <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+              Classement dédié — vie de parent solo
+            </h3>
+            <Link href="/parent-solo" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl" aria-hidden>🧑‍🍼</span>
+                  <div>
+                    <p className="font-semibold text-[var(--text-primary)]">
+                      Parent solo : les villes qui tiennent en 2026
+                    </p>
+                    <p className="text-xs text-[var(--text-secondary)] mt-1">
+                      Le top ci-dessus applique les pondérations « familles
+                      monoparentales » sur les 8 axes du site. Pour une lecture
+                      plus resserrée sur les 4 axes cruciaux quand on est seul·e
+                      à conduire, seul·e à gagner et seul·e à porter la charge —
+                      coût, transports, écoles, sécurité — voyez le{" "}
+                      <span className="underline">classement dédié parent solo</span>,
+                      qui affiche aussi le loyer T3 moyen et le seuil de
+                      revenu net mensuel minimum estimé par ville.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+          </section>
+        )}
+
         {/* Coastal counterpart — visible only for the littoral profile */}
         {profile.slug === "amateurs-de-littoral" && (
           <section>

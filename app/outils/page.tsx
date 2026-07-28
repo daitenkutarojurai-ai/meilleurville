@@ -118,6 +118,14 @@ const TOOLS: Tool[] = [
     cta: "Voir le classement",
   },
   {
+    href: "/parent-solo",
+    emoji: "🧑‍🍼",
+    title: "Parent solo — villes qui tiennent",
+    desc:
+      "Un revenu, un conducteur. Top 30 villes ≥ 20 000 hab. classées sur 4 axes re-pondérés (coût, transports, écoles, sécurité) avec loyer T3 moyen et revenu net minimum estimé par ville.",
+    cta: "Voir le classement",
+  },
+  {
     href: "/red-flags",
     emoji: "🚩",
     title: "Red Flag Radar",

@@ -13,3 +13,4 @@ Une ligne par run de l'agent de maillage. Format :
 - 2026-07-21 app/red-flags/villes-chauffage-hivernal-couteux/page.tsx (5 liens ajoutés)
 - 2026-07-23 app/red-flags/villes-belles-invivables-ete/page.tsx (5 liens ajoutés)
 - 2026-07-26 app/red-flags/villes-manque-de-creches/page.tsx (5 liens ajoutés)
+- 2026-07-28 app/parent-solo/page.tsx (5 liens ajoutés)

@@ -186,6 +186,17 @@ export default function RedFlagsPage() {
               critère à sortir avant tout congé maternité ou déménagement, avant
               même la question école.
             </p>
+            <p className="mt-2 text-sm text-[var(--text-secondary)]">
+              Quand ces déclencheurs se cumulent sur un seul revenu et un seul
+              conducteur, le classement des{" "}
+              <Link href="/parent-solo" className="text-[var(--accent)] hover:underline">
+                villes qui tiennent en parent solo
+              </Link>{" "}
+              re-priorise coût, transports, écoles et sécurité (mêmes poids que le
+              profil City Match dédié) sur les 540 villes ≥ 20 000 hab., avec le
+              loyer T3 moyen et le revenu net minimum estimé par ville — les
+              red flags budget-énergie et crèche s&apos;y lisent en creux.
+            </p>
           </div>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 auto-rows-fr">
             {RED_FLAG_THEMES.map((t) => (
