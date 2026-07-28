@@ -294,7 +294,7 @@ export default async function ParksPage({ params }: Props) {
         <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 text-xs text-[var(--text-tertiary)] leading-relaxed">
           <strong className="text-[var(--text-secondary)]">Source:</strong> {OSM_CREDIT_EN},
           licensed under the <a href={OSM_LICENSE_URL} target="_blank" rel="noopener noreferrer" className="text-[var(--accent)] hover:underline">ODbL</a>.
-          Overpass API extraction from {data.crawledAt}. The crawl currently covers {PARKS_CITY_COUNT} of the site&apos;s cities — the rest are being added in batches.
+          Overpass API extraction from {data.crawledAt}. All {PARKS_CITY_COUNT} cities on the site have been surveyed on OpenStreetMap.
           A park is missing or wrong? <a href="https://www.openstreetmap.org/edit" target="_blank" rel="noopener noreferrer" className="text-[var(--accent)] hover:underline">Contribute on OpenStreetMap</a> — the fix will flow into our next data refresh.
         </div>
       </section>

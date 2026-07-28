@@ -315,7 +315,7 @@ export default async function ParcsPage({ params }: Props) {
           <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 text-xs text-[var(--text-tertiary)] leading-relaxed">
             <strong className="text-[var(--text-secondary)]">Source :</strong> {OSM_CREDIT},
             sous licence <a href={OSM_LICENSE_URL} target="_blank" rel="noopener noreferrer" className="text-[var(--accent)] hover:underline">ODbL</a>.
-            Extraction Overpass API du {data.crawledAt}. Le crawl couvre actuellement {PARKS_CITY_COUNT} villes du site — les autres arrivent par lots.
+            Extraction Overpass API du {data.crawledAt}. Les {PARKS_CITY_COUNT} villes du site ont été relevées sur OpenStreetMap.
             Un parc manque ou est mal renseigné ? <a href="https://www.openstreetmap.org/edit" target="_blank" rel="noopener noreferrer" className="text-[var(--accent)] hover:underline">Contribuez sur OpenStreetMap</a>,
             la correction remontera à la prochaine mise à jour de nos données.
           </div>

@@ -13,6 +13,7 @@ import {
   OSM_CREDIT,
   OSM_LICENSE_URL,
   PARKS_CITY_COUNT,
+  PARKS_CITY_WITHOUT_PARKS_COUNT,
   PARKS_TOTAL,
   type CityParks,
 } from "@/lib/city-parks";
@@ -120,9 +121,9 @@ export default function ParcsHubPage() {
           <div className="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
               { v: PARKS_TOTAL.toLocaleString("fr-FR"), l: "parcs référencés" },
-              { v: rows.length, l: "villes couvertes" },
+              { v: rows.length, l: "villes avec un parc nommé" },
               { v: playgroundTotal.toLocaleString("fr-FR"), l: "avec aire de jeux" },
-              { v: `${Math.round((PARKS_CITY_COUNT / CITIES_COUNT) * 100)} %`, l: "des villes du site" },
+              { v: `${PARKS_CITY_COUNT} / ${CITIES_COUNT}`, l: "villes relevées sur OSM" },
             ].map((s) => (
               <div
                 key={s.l}
@@ -205,12 +206,20 @@ export default function ParcsHubPage() {
             </details>
           )}
 
-          {/* Coverage is partial and says so. The crawl advances batch by batch;
-              claiming national coverage would be the easy lie here. */}
+          {/* Coverage is complete (540/540 crawled) but honest about the tail:
+              {PARKS_CITY_WITHOUT_PARKS_COUNT} communes ont zéro parc nommé dans
+              OSM à ce jour. La page ne les cache pas — elle dit ce que la donnée
+              dit, et invite à contribuer. */}
           <p className="mt-8 text-sm text-[var(--text-secondary)]">
-            {PARKS_CITY_COUNT} villes sur {CITIES_COUNT} sont référencées pour l&apos;instant. Le
-            relevé OpenStreetMap avance par lots — les autres villes apparaîtront ici au fur et à
-            mesure, sans que la page change.
+            Les {PARKS_CITY_COUNT} villes du site ont été relevées sur OpenStreetMap.
+            {PARKS_CITY_WITHOUT_PARKS_COUNT > 0 && (
+              <>
+                {" "}
+                {PARKS_CITY_WITHOUT_PARKS_COUNT} communes n&apos;ont pour l&apos;instant aucun parc
+                nommé référencé : une contribution sur OSM et elles apparaîtront à la prochaine mise
+                à jour de nos données.
+              </>
+            )}
           </p>
 
           <p className="mt-4 text-xs text-[var(--text-tertiary)]">

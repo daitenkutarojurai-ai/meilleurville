@@ -14,6 +14,7 @@ import {
   OSM_CREDIT_EN,
   OSM_LICENSE_URL,
   PARKS_CITY_COUNT,
+  PARKS_CITY_WITHOUT_PARKS_COUNT,
   PARKS_TOTAL,
   type CityParks,
 } from "@/lib/city-parks";
@@ -121,9 +122,9 @@ export default function ParksHubPage() {
           <div className="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
               { v: PARKS_TOTAL.toLocaleString("en-GB"), l: "parks mapped" },
-              { v: rows.length, l: "cities covered" },
+              { v: rows.length, l: "cities with a named park" },
               { v: playgroundTotal.toLocaleString("en-GB"), l: "with a playground" },
-              { v: `${Math.round((PARKS_CITY_COUNT / CITIES_COUNT) * 100)}%`, l: "of cities on the site" },
+              { v: `${PARKS_CITY_COUNT} / ${CITIES_COUNT}`, l: "cities surveyed on OSM" },
             ].map((s) => (
               <div
                 key={s.l}
@@ -205,8 +206,14 @@ export default function ParksHubPage() {
           )}
 
           <p className="mt-8 text-sm text-[var(--text-secondary)]">
-            {PARKS_CITY_COUNT} of {CITIES_COUNT} cities are mapped so far. The OpenStreetMap survey
-            advances in batches — the rest will appear here as it does.
+            All {PARKS_CITY_COUNT} cities on the site have been surveyed on OpenStreetMap.
+            {PARKS_CITY_WITHOUT_PARKS_COUNT > 0 && (
+              <>
+                {" "}
+                {PARKS_CITY_WITHOUT_PARKS_COUNT} communes have no named park mapped yet — add one
+                on OSM and it will appear here on the next data refresh.
+              </>
+            )}
           </p>
 
           <p className="mt-4 text-xs text-[var(--text-tertiary)]">

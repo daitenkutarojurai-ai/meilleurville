@@ -66,6 +66,15 @@ export const PARKS_TOTAL = Object.values(PARKS).reduce(
   (s, c) => s + (c.parks?.length ?? 0),
   0,
 );
+/** Cities the crawl has covered that actually have at least one named park.
+ *  Distinct from PARKS_CITY_COUNT: a commune with no named park in OSM is
+ *  still "crawled", it just returned zero destinations. Surfaces that talk
+ *  about "villes couvertes / cities with parks" should use this. */
+export const PARKS_CITY_WITH_PARKS_COUNT = Object.values(PARKS).filter(
+  (c) => (c.parks?.length ?? 0) > 0,
+).length;
+export const PARKS_CITY_WITHOUT_PARKS_COUNT =
+  PARKS_CITY_COUNT - PARKS_CITY_WITH_PARKS_COUNT;
 
 /** ODbL attribution string — displayed on every surface that shows the data. */
 export const OSM_CREDIT = "© les contributeurs OpenStreetMap";
