@@ -44,6 +44,43 @@ export function assertKnownSlugs(opts: {
 }
 
 /**
+ * Validate that no two cities declare the same INSEE code.
+ *
+ * The code is the join key for every external dataset we pull: parks are
+ * crawled from OSM on `ref:INSEE`, revenus come from Filosofi on `GEO`, and
+ * `/villes/[slug]/risques` deep-links Géorisques with it. A shared code is
+ * therefore not a cosmetic duplicate — it silently attributes one commune's
+ * real data to another. Found 2026-07-28 with 5 pairs (Moulins carried
+ * Montluçon's code and so displayed Montluçon's parks; same for Saint-Tropez /
+ * Saint-Raphaël, Sarrebourg / Sarreguemines, Saint-Benoît / Saint-Denis de La
+ * Réunion, Île de Ré / La Rochelle).
+ */
+export function assertUniqueInseeCodes(opts: {
+  cities: ReadonlyArray<{ slug: string; inseeCode?: string }>;
+  contextLabel: string;
+}): void {
+  if (!SHOULD_VALIDATE) return;
+  const bySlug = new Map<string, string>();
+  for (const c of opts.cities) if (c.inseeCode && !bySlug.has(c.slug)) bySlug.set(c.slug, c.inseeCode);
+
+  const byCode = new Map<string, string[]>();
+  for (const [slug, code] of bySlug) {
+    const list = byCode.get(code);
+    if (list) list.push(slug);
+    else byCode.set(code, [slug]);
+  }
+  const clashes = [...byCode.entries()].filter(([, slugs]) => slugs.length > 1);
+  if (clashes.length === 0) return;
+
+  const list = clashes.map(([code, slugs]) => `  - ${code} → ${slugs.join(", ")}`).join("\n");
+  throw new Error(
+    `[data-integrity] ${opts.contextLabel}: ${clashes.length} INSEE code${
+      clashes.length > 1 ? "s" : ""
+    } shared by several cities. Each city must carry its own commune code — a shared one attributes another commune's parks, revenus and Géorisques report to it.\n${list}`
+  );
+}
+
+/**
  * Validate that no slug appears more than once in `slugs`. Throws listing the
  * duplicates. Guards against the class of bug where two records share a slug:
  * the later one becomes dead/shadowed (a `.find()` getter returns the first)

@@ -1,0 +1,2131 @@
+{
+  "abbeville": {
+    "povertyRate": 24,
+    "medianIncome": 19000
+  },
+  "agde": {
+    "medianIncome": 20410,
+    "povertyRate": 22
+  },
+  "agen": {
+    "povertyRate": 27,
+    "medianIncome": 19160
+  },
+  "aix-en-provence": {
+    "povertyRate": 15,
+    "medianIncome": 25810
+  },
+  "aix-les-bains": {
+    "povertyRate": 13,
+    "medianIncome": 24110
+  },
+  "ajaccio": {
+    "medianIncome": 23320,
+    "povertyRate": 16
+  },
+  "albertville": {
+    "medianIncome": 20680,
+    "povertyRate": 19
+  },
+  "albi": {
+    "povertyRate": 20,
+    "medianIncome": 21650
+  },
+  "alencon": {
+    "medianIncome": 19220,
+    "povertyRate": 28
+  },
+  "ales": {
+    "medianIncome": 18000,
+    "povertyRate": 30
+  },
+  "alfortville": {
+    "povertyRate": 21,
+    "medianIncome": 22360
+  },
+  "allauch": {
+    "medianIncome": 27620,
+    "povertyRate": 7
+  },
+  "amberieu-en-bugey": {
+    "medianIncome": 21660,
+    "povertyRate": 17
+  },
+  "amboise": {
+    "povertyRate": 16,
+    "medianIncome": 22160
+  },
+  "amiens": {
+    "medianIncome": 19650,
+    "povertyRate": 26
+  },
+  "angers": {
+    "povertyRate": 21,
+    "medianIncome": 21450
+  },
+  "anglet": {
+    "povertyRate": 10,
+    "medianIncome": 25060
+  },
+  "angouleme": {
+    "medianIncome": 19830,
+    "povertyRate": 26
+  },
+  "annecy": {
+    "medianIncome": 26250,
+    "povertyRate": 10
+  },
+  "annemasse": {
+    "povertyRate": 22,
+    "medianIncome": 22800
+  },
+  "annonay": {
+    "medianIncome": 19880,
+    "povertyRate": 23
+  },
+  "antibes": {
+    "medianIncome": 24410,
+    "povertyRate": 15
+  },
+  "antony": {
+    "medianIncome": 32000,
+    "povertyRate": 9
+  },
+  "apt": {
+    "medianIncome": 18860,
+    "povertyRate": 27
+  },
+  "arcachon": {
+    "povertyRate": 12,
+    "medianIncome": 27150
+  },
+  "arcueil": {
+    "medianIncome": 23560,
+    "povertyRate": 19
+  },
+  "argentan": {
+    "povertyRate": 24,
+    "medianIncome": 19320
+  },
+  "argenteuil": {
+    "povertyRate": 27,
+    "medianIncome": 19350
+  },
+  "arles": {
+    "povertyRate": 24,
+    "medianIncome": 20060
+  },
+  "armentieres": {
+    "povertyRate": 26,
+    "medianIncome": 18920
+  },
+  "arras": {
+    "povertyRate": 25,
+    "medianIncome": 20230
+  },
+  "asnieres-sur-seine": {
+    "povertyRate": 15,
+    "medianIncome": 28370
+  },
+  "athis-mons": {
+    "povertyRate": 18,
+    "medianIncome": 22380
+  },
+  "aubagne": {
+    "povertyRate": 16,
+    "medianIncome": 22550
+  },
+  "aubenas": {
+    "povertyRate": 25,
+    "medianIncome": 19710
+  },
+  "aubervilliers": {
+    "povertyRate": 42,
+    "medianIncome": 15330
+  },
+  "aubusson": {
+    "povertyRate": 27,
+    "medianIncome": 18830
+  },
+  "auch": {
+    "medianIncome": 21800,
+    "povertyRate": 18
+  },
+  "aulnay-sous-bois": {
+    "medianIncome": 18710,
+    "povertyRate": 29
+  },
+  "aurillac": {
+    "medianIncome": 21860,
+    "povertyRate": 16
+  },
+  "autun": {
+    "povertyRate": 22,
+    "medianIncome": 20070
+  },
+  "auxerre": {
+    "povertyRate": 22,
+    "medianIncome": 20340
+  },
+  "avignon": {
+    "medianIncome": 17690,
+    "povertyRate": 33
+  },
+  "bagneres-de-bigorre": {
+    "povertyRate": 20,
+    "medianIncome": 20570
+  },
+  "bagneux": {
+    "povertyRate": 20,
+    "medianIncome": 21040
+  },
+  "bagnolet": {
+    "medianIncome": 19060,
+    "povertyRate": 28
+  },
+  "bagnols-sur-ceze": {
+    "povertyRate": 29,
+    "medianIncome": 19140
+  },
+  "bar-le-duc": {
+    "povertyRate": 21,
+    "medianIncome": 21150
+  },
+  "bar-sur-aube": {
+    "medianIncome": 18970,
+    "povertyRate": 26
+  },
+  "bastia": {
+    "medianIncome": 20530,
+    "povertyRate": 23
+  },
+  "bayeux": {
+    "medianIncome": 21430,
+    "povertyRate": 17
+  },
+  "bayonne": {
+    "medianIncome": 21780,
+    "povertyRate": 17
+  },
+  "beaune": {
+    "povertyRate": 14,
+    "medianIncome": 22880
+  },
+  "beauvais": {
+    "povertyRate": 25,
+    "medianIncome": 19520
+  },
+  "begles": {
+    "medianIncome": 23360,
+    "povertyRate": 14
+  },
+  "belfort": {
+    "medianIncome": 18850,
+    "povertyRate": 29
+  },
+  "bellac": {
+    "povertyRate": 21,
+    "medianIncome": 19850
+  },
+  "berck": {
+    "medianIncome": 20780,
+    "povertyRate": 19
+  },
+  "bergerac": {
+    "povertyRate": 22,
+    "medianIncome": 20040
+  },
+  "besancon": {
+    "povertyRate": 23,
+    "medianIncome": 20680
+  },
+  "bethune": {
+    "povertyRate": 26,
+    "medianIncome": 19290
+  },
+  "beziers": {
+    "povertyRate": 36,
+    "medianIncome": 16830
+  },
+  "bezons": {
+    "povertyRate": 21,
+    "medianIncome": 21450
+  },
+  "biarritz": {
+    "povertyRate": 13,
+    "medianIncome": 25640
+  },
+  "biscarrosse": {
+    "povertyRate": 10,
+    "medianIncome": 24110
+  },
+  "bischheim": {
+    "povertyRate": 25,
+    "medianIncome": 19700
+  },
+  "blagnac": {
+    "povertyRate": 14,
+    "medianIncome": 25350
+  },
+  "blois": {
+    "medianIncome": 19360,
+    "povertyRate": 27
+  },
+  "bois-colombes": {
+    "medianIncome": 32650,
+    "povertyRate": 10
+  },
+  "bondy": {
+    "medianIncome": 17210,
+    "povertyRate": 34
+  },
+  "bordeaux": {
+    "medianIncome": 24870,
+    "povertyRate": 17
+  },
+  "boulogne-billancourt": {
+    "medianIncome": 35040,
+    "povertyRate": 9
+  },
+  "boulogne-sur-mer": {
+    "povertyRate": 30,
+    "medianIncome": 17720
+  },
+  "bourg-en-bresse": {
+    "medianIncome": 20210,
+    "povertyRate": 24
+  },
+  "bourg-la-reine": {
+    "medianIncome": 33700,
+    "povertyRate": 8
+  },
+  "bourges": {
+    "medianIncome": 21730,
+    "povertyRate": 20
+  },
+  "bourgoin-jallieu": {
+    "medianIncome": 20870,
+    "povertyRate": 21
+  },
+  "bressuire": {
+    "povertyRate": 16,
+    "medianIncome": 21350
+  },
+  "brest": {
+    "povertyRate": 19,
+    "medianIncome": 21420
+  },
+  "briancon": {
+    "povertyRate": 15,
+    "medianIncome": 21630
+  },
+  "brioude": {
+    "medianIncome": 20340,
+    "povertyRate": 20
+  },
+  "brive-la-gaillarde": {
+    "povertyRate": 18,
+    "medianIncome": 21210
+  },
+  "bron": {
+    "povertyRate": 21,
+    "medianIncome": 21950
+  },
+  "bruay-la-buissiere": {
+    "medianIncome": 17350,
+    "povertyRate": 29
+  },
+  "brunoy": {
+    "medianIncome": 27460,
+    "povertyRate": 11
+  },
+  "cachan": {
+    "medianIncome": 25800,
+    "povertyRate": 16
+  },
+  "caen": {
+    "medianIncome": 21600,
+    "povertyRate": 21
+  },
+  "cagnes-sur-mer": {
+    "povertyRate": 14,
+    "medianIncome": 23940
+  },
+  "cahors": {
+    "medianIncome": 21750,
+    "povertyRate": 19
+  },
+  "calais": {
+    "povertyRate": 29,
+    "medianIncome": 18090
+  },
+  "caluire-et-cuire": {
+    "povertyRate": 11,
+    "medianIncome": 27370
+  },
+  "calvi": {
+    "povertyRate": 21,
+    "medianIncome": 20080
+  },
+  "cambrai": {
+    "povertyRate": 23,
+    "medianIncome": 19620
+  },
+  "cannes": {
+    "povertyRate": 21,
+    "medianIncome": 21210
+  },
+  "carcassonne": {
+    "povertyRate": 28,
+    "medianIncome": 19240
+  },
+  "carnac": {
+    "medianIncome": 26230,
+    "povertyRate": 9
+  },
+  "carpentras": {
+    "povertyRate": 28,
+    "medianIncome": 18780
+  },
+  "cassis": {
+    "povertyRate": 10,
+    "medianIncome": 28740
+  },
+  "castelsarrasin": {
+    "povertyRate": 21,
+    "medianIncome": 19970
+  },
+  "castres": {
+    "medianIncome": 20940,
+    "povertyRate": 21
+  },
+  "cavaillon": {
+    "povertyRate": 27,
+    "medianIncome": 18750
+  },
+  "ceret": {
+    "povertyRate": 18,
+    "medianIncome": 21840
+  },
+  "cergy": {
+    "medianIncome": 20270,
+    "povertyRate": 23
+  },
+  "cernay": {
+    "medianIncome": 22130,
+    "povertyRate": 15
+  },
+  "challans": {
+    "medianIncome": 22600,
+    "povertyRate": 10
+  },
+  "chalon-sur-saone": {
+    "povertyRate": 23,
+    "medianIncome": 19590
+  },
+  "chalons-en-champagne": {
+    "povertyRate": 22,
+    "medianIncome": 20320
+  },
+  "chambery": {
+    "medianIncome": 21950,
+    "povertyRate": 19
+  },
+  "champigny-sur-marne": {
+    "medianIncome": 21260,
+    "povertyRate": 22
+  },
+  "champs-sur-marne": {
+    "povertyRate": 17,
+    "medianIncome": 23750
+  },
+  "chantilly": {
+    "medianIncome": 27440,
+    "povertyRate": 10
+  },
+  "charenton-le-pont": {
+    "povertyRate": 10,
+    "medianIncome": 30250
+  },
+  "charleville-mezieres": {
+    "povertyRate": 30,
+    "medianIncome": 18380
+  },
+  "chartres": {
+    "povertyRate": 16,
+    "medianIncome": 22770
+  },
+  "chateau-gontier-sur-mayenne": {
+    "medianIncome": 22410,
+    "povertyRate": 11
+  },
+  "chateaudun": {
+    "povertyRate": 25,
+    "medianIncome": 19300
+  },
+  "chateauroux": {
+    "povertyRate": 23,
+    "medianIncome": 20300
+  },
+  "chatellerault": {
+    "povertyRate": 24,
+    "medianIncome": 19940
+  },
+  "chatenay-malabry": {
+    "medianIncome": 27140,
+    "povertyRate": 12
+  },
+  "chatillon-92": {
+    "medianIncome": 30550,
+    "povertyRate": 9
+  },
+  "chaumont": {
+    "povertyRate": 19,
+    "medianIncome": 21490
+  },
+  "chelles": {
+    "medianIncome": 23830,
+    "povertyRate": 16
+  },
+  "chenove": {
+    "medianIncome": 18650,
+    "povertyRate": 28
+  },
+  "cherbourg": {
+    "medianIncome": 22650,
+    "povertyRate": 14
+  },
+  "chinon": {
+    "povertyRate": 18,
+    "medianIncome": 21860
+  },
+  "choisy-le-roi": {
+    "medianIncome": 20840,
+    "povertyRate": 23
+  },
+  "cholet": {
+    "povertyRate": 14,
+    "medianIncome": 21960
+  },
+  "clamecy": {
+    "medianIncome": 18240,
+    "povertyRate": 28
+  },
+  "clermont-ferrand": {
+    "medianIncome": 20430,
+    "povertyRate": 25
+  },
+  "clermont-herault": {
+    "povertyRate": 24,
+    "medianIncome": 19320
+  },
+  "clichy": {
+    "medianIncome": 22410,
+    "povertyRate": 22
+  },
+  "cluses": {
+    "povertyRate": 17,
+    "medianIncome": 21720
+  },
+  "cognac": {
+    "medianIncome": 21980,
+    "povertyRate": 18
+  },
+  "collioure": {
+    "medianIncome": 23370,
+    "povertyRate": 15
+  },
+  "colmar": {
+    "medianIncome": 21120,
+    "povertyRate": 21
+  },
+  "colombes": {
+    "povertyRate": 17,
+    "medianIncome": 25100
+  },
+  "colomiers": {
+    "medianIncome": 23690,
+    "povertyRate": 17
+  },
+  "combs-la-ville": {
+    "povertyRate": 12,
+    "medianIncome": 24650
+  },
+  "commercy": {
+    "povertyRate": 25,
+    "medianIncome": 19120
+  },
+  "compiegne": {
+    "medianIncome": 21000,
+    "povertyRate": 22
+  },
+  "concarneau": {
+    "povertyRate": 11,
+    "medianIncome": 23590
+  },
+  "condom": {
+    "povertyRate": 24,
+    "medianIncome": 19750
+  },
+  "conflans-sainte-honorine": {
+    "medianIncome": 27320,
+    "povertyRate": 11
+  },
+  "corbeil-essonnes": {
+    "medianIncome": 18970,
+    "povertyRate": 27
+  },
+  "cormeilles-en-parisis": {
+    "povertyRate": 9,
+    "medianIncome": 28650
+  },
+  "corte": {
+    "povertyRate": 21,
+    "medianIncome": 20820
+  },
+  "cosne-cours-sur-loire": {
+    "povertyRate": 18,
+    "medianIncome": 21140
+  },
+  "courbevoie": {
+    "povertyRate": 11,
+    "medianIncome": 32080
+  },
+  "creil": {
+    "povertyRate": 40,
+    "medianIncome": 15440
+  },
+  "crepy-en-valois": {
+    "medianIncome": 23100,
+    "povertyRate": 12
+  },
+  "creteil": {
+    "povertyRate": 21,
+    "medianIncome": 21270
+  },
+  "cugnaux": {
+    "povertyRate": 15,
+    "medianIncome": 23980
+  },
+  "dax": {
+    "povertyRate": 20,
+    "medianIncome": 20570
+  },
+  "decines-charpieu": {
+    "medianIncome": 22050,
+    "povertyRate": 18
+  },
+  "delle": {
+    "medianIncome": 21660,
+    "povertyRate": 21
+  },
+  "denain": {
+    "povertyRate": 43,
+    "medianIncome": 14890
+  },
+  "dieppe": {
+    "povertyRate": 26,
+    "medianIncome": 18850
+  },
+  "digne-les-bains": {
+    "povertyRate": 18,
+    "medianIncome": 21480
+  },
+  "dijon": {
+    "povertyRate": 17,
+    "medianIncome": 22720
+  },
+  "dinan": {
+    "povertyRate": 16,
+    "medianIncome": 23290
+  },
+  "dinard": {
+    "medianIncome": 25920,
+    "povertyRate": 12
+  },
+  "dole": {
+    "povertyRate": 21,
+    "medianIncome": 21070
+  },
+  "domont": {
+    "povertyRate": 10,
+    "medianIncome": 25810
+  },
+  "douai": {
+    "medianIncome": 18440,
+    "povertyRate": 29
+  },
+  "douarnenez": {
+    "medianIncome": 22000,
+    "povertyRate": 14
+  },
+  "draguignan": {
+    "medianIncome": 21510,
+    "povertyRate": 20
+  },
+  "drancy": {
+    "povertyRate": 29,
+    "medianIncome": 18660
+  },
+  "draveil": {
+    "medianIncome": 26090,
+    "povertyRate": 12
+  },
+  "dreux": {
+    "medianIncome": 18250,
+    "povertyRate": 29
+  },
+  "dunkerque": {
+    "povertyRate": 22,
+    "medianIncome": 20240
+  },
+  "eaubonne": {
+    "povertyRate": 12,
+    "medianIncome": 26900
+  },
+  "echirolles": {
+    "povertyRate": 24,
+    "medianIncome": 19930
+  },
+  "elancourt": {
+    "povertyRate": 11,
+    "medianIncome": 26320
+  },
+  "embrun": {
+    "medianIncome": 21750,
+    "povertyRate": 15
+  },
+  "epernay": {
+    "povertyRate": 20,
+    "medianIncome": 20590
+  },
+  "epinal": {
+    "povertyRate": 25,
+    "medianIncome": 20140
+  },
+  "ermont": {
+    "povertyRate": 16,
+    "medianIncome": 24940
+  },
+  "etampes": {
+    "povertyRate": 20,
+    "medianIncome": 20480
+  },
+  "evian-les-bains": {
+    "povertyRate": 12,
+    "medianIncome": 27820
+  },
+  "evreux": {
+    "povertyRate": 29,
+    "medianIncome": 18580
+  },
+  "evry-courcouronnes": {
+    "medianIncome": 19160,
+    "povertyRate": 25
+  },
+  "figeac": {
+    "medianIncome": 22150,
+    "povertyRate": 16
+  },
+  "firminy": {
+    "medianIncome": 19020,
+    "povertyRate": 24
+  },
+  "flers": {
+    "povertyRate": 26,
+    "medianIncome": 18810
+  },
+  "fleurance": {
+    "povertyRate": 17,
+    "medianIncome": 20810
+  },
+  "fleury-les-aubrais": {
+    "medianIncome": 21170,
+    "povertyRate": 19
+  },
+  "florac-trois-rivieres": {
+    "medianIncome": 21280
+  },
+  "foix": {
+    "povertyRate": 22,
+    "medianIncome": 20950
+  },
+  "fontaine": {
+    "povertyRate": 19,
+    "medianIncome": 20790
+  },
+  "fontainebleau": {
+    "medianIncome": 27340,
+    "povertyRate": 13
+  },
+  "fontenay-le-comte": {
+    "medianIncome": 21440,
+    "povertyRate": 16
+  },
+  "fontenay-sous-bois": {
+    "medianIncome": 25750,
+    "povertyRate": 15
+  },
+  "forbach": {
+    "povertyRate": 33,
+    "medianIncome": 17540
+  },
+  "fort-de-france": {
+    "medianIncome": 19470,
+    "povertyRate": 28
+  },
+  "franconville": {
+    "povertyRate": 14,
+    "medianIncome": 24120
+  },
+  "frejus": {
+    "povertyRate": 18,
+    "medianIncome": 21960
+  },
+  "fresnes": {
+    "medianIncome": 23940,
+    "povertyRate": 15
+  },
+  "gaillac": {
+    "medianIncome": 20780,
+    "povertyRate": 19
+  },
+  "gap": {
+    "povertyRate": 15,
+    "medianIncome": 22280
+  },
+  "garges-les-gonesse": {
+    "povertyRate": 39,
+    "medianIncome": 15750
+  },
+  "gennevilliers": {
+    "medianIncome": 18380,
+    "povertyRate": 28
+  },
+  "gentilly": {
+    "povertyRate": 20,
+    "medianIncome": 22390
+  },
+  "gerardmer": {
+    "medianIncome": 22450,
+    "povertyRate": 14
+  },
+  "gex": {
+    "medianIncome": 35280,
+    "povertyRate": 10
+  },
+  "gien": {
+    "povertyRate": 25,
+    "medianIncome": 19830
+  },
+  "givors": {
+    "medianIncome": 18160,
+    "povertyRate": 30
+  },
+  "gonesse": {
+    "povertyRate": 26,
+    "medianIncome": 19140
+  },
+  "gordes": {
+    "medianIncome": 24770
+  },
+  "gourdon": {
+    "medianIncome": 21420,
+    "povertyRate": 16
+  },
+  "goussainville": {
+    "povertyRate": 29,
+    "medianIncome": 18160
+  },
+  "granville": {
+    "povertyRate": 14,
+    "medianIncome": 22430
+  },
+  "grasse": {
+    "medianIncome": 23380,
+    "povertyRate": 15
+  },
+  "gray": {
+    "medianIncome": 18110,
+    "povertyRate": 28
+  },
+  "grenoble": {
+    "medianIncome": 22140,
+    "povertyRate": 21
+  },
+  "guebwiller": {
+    "medianIncome": 21240,
+    "povertyRate": 18
+  },
+  "gueret": {
+    "medianIncome": 20830,
+    "povertyRate": 21
+  },
+  "guingamp": {
+    "medianIncome": 18300,
+    "povertyRate": 28
+  },
+  "guyancourt": {
+    "povertyRate": 14,
+    "medianIncome": 24720
+  },
+  "haguenau": {
+    "medianIncome": 23110,
+    "povertyRate": 14
+  },
+  "hayange": {
+    "povertyRate": 21,
+    "medianIncome": 21480
+  },
+  "hazebrouck": {
+    "povertyRate": 16,
+    "medianIncome": 21160
+  },
+  "hendaye": {
+    "medianIncome": 22090,
+    "povertyRate": 18
+  },
+  "henin-beaumont": {
+    "medianIncome": 19170,
+    "povertyRate": 24
+  },
+  "herouville-saint-clair": {
+    "medianIncome": 18840,
+    "povertyRate": 27
+  },
+  "honfleur": {
+    "medianIncome": 20840,
+    "povertyRate": 18
+  },
+  "hossegor": {
+    "medianIncome": 29760,
+    "povertyRate": 9
+  },
+  "houilles": {
+    "povertyRate": 9,
+    "medianIncome": 30390
+  },
+  "hyeres": {
+    "povertyRate": 16,
+    "medianIncome": 22960
+  },
+  "ile-de-re": {
+    "medianIncome": 24540
+  },
+  "illkirch-graffenstaden": {
+    "medianIncome": 24190,
+    "povertyRate": 14
+  },
+  "issoire": {
+    "povertyRate": 15,
+    "medianIncome": 21810
+  },
+  "issoudun": {
+    "medianIncome": 20680,
+    "povertyRate": 18
+  },
+  "issy-les-moulineaux": {
+    "povertyRate": 8,
+    "medianIncome": 33650
+  },
+  "istres": {
+    "povertyRate": 14,
+    "medianIncome": 22710
+  },
+  "ivry-sur-seine": {
+    "povertyRate": 28,
+    "medianIncome": 19680
+  },
+  "jarnac": {
+    "medianIncome": 22340,
+    "povertyRate": 12
+  },
+  "joigny": {
+    "medianIncome": 18260,
+    "povertyRate": 30
+  },
+  "joue-les-tours": {
+    "medianIncome": 21520,
+    "povertyRate": 19
+  },
+  "kingersheim": {
+    "povertyRate": 13,
+    "medianIncome": 23170
+  },
+  "la-baule": {
+    "medianIncome": 28490,
+    "povertyRate": 8
+  },
+  "la-ciotat": {
+    "medianIncome": 23580,
+    "povertyRate": 15
+  },
+  "la-courneuve": {
+    "medianIncome": 15150,
+    "povertyRate": 42
+  },
+  "la-fleche": {
+    "povertyRate": 15,
+    "medianIncome": 21620
+  },
+  "la-garenne-colombes": {
+    "medianIncome": 33090,
+    "povertyRate": 8
+  },
+  "la-roche-sur-yon": {
+    "medianIncome": 22310,
+    "povertyRate": 15
+  },
+  "la-rochelle": {
+    "medianIncome": 22200,
+    "povertyRate": 18
+  },
+  "la-seyne-sur-mer": {
+    "povertyRate": 19,
+    "medianIncome": 21400
+  },
+  "la-souterraine": {
+    "medianIncome": 20300,
+    "povertyRate": 22
+  },
+  "lanester": {
+    "medianIncome": 21330,
+    "povertyRate": 15
+  },
+  "langres": {
+    "medianIncome": 20740,
+    "povertyRate": 21
+  },
+  "lannion": {
+    "medianIncome": 23220,
+    "povertyRate": 14
+  },
+  "laon": {
+    "medianIncome": 18000,
+    "povertyRate": 31
+  },
+  "laval": {
+    "medianIncome": 21660,
+    "povertyRate": 18
+  },
+  "laxou": {
+    "povertyRate": 20,
+    "medianIncome": 23780
+  },
+  "le-blanc": {
+    "medianIncome": 20260,
+    "povertyRate": 17
+  },
+  "le-blanc-mesnil": {
+    "medianIncome": 17460,
+    "povertyRate": 32
+  },
+  "le-bouscat": {
+    "medianIncome": 27570,
+    "povertyRate": 10
+  },
+  "le-cannet": {
+    "povertyRate": 17,
+    "medianIncome": 22250
+  },
+  "le-chesnay-rocquencourt": {
+    "povertyRate": 6,
+    "medianIncome": 33520
+  },
+  "le-francois": {
+    "medianIncome": 19610,
+    "povertyRate": 27
+  },
+  "le-grand-quevilly": {
+    "medianIncome": 20510,
+    "povertyRate": 16
+  },
+  "le-havre": {
+    "medianIncome": 20180,
+    "povertyRate": 23
+  },
+  "le-kremlin-bicetre": {
+    "povertyRate": 18,
+    "medianIncome": 23910
+  },
+  "le-lamentin": {
+    "medianIncome": 21300,
+    "povertyRate": 22
+  },
+  "le-mans": {
+    "medianIncome": 21180,
+    "povertyRate": 22
+  },
+  "le-perreux-sur-marne": {
+    "povertyRate": 8,
+    "medianIncome": 31180
+  },
+  "le-plessis-robinson": {
+    "povertyRate": 6,
+    "medianIncome": 31000
+  },
+  "le-puy-en-velay": {
+    "medianIncome": 20480,
+    "povertyRate": 21
+  },
+  "le-robert": {
+    "povertyRate": 27,
+    "medianIncome": 19570
+  },
+  "le-tampon": {
+    "povertyRate": 38,
+    "medianIncome": 16560
+  },
+  "lens": {
+    "medianIncome": 17250,
+    "povertyRate": 32
+  },
+  "les-andelys": {
+    "medianIncome": 20750,
+    "povertyRate": 17
+  },
+  "les-sables-d-olonne": {
+    "medianIncome": 24520,
+    "povertyRate": 9
+  },
+  "levallois-perret": {
+    "medianIncome": 34500,
+    "povertyRate": 9
+  },
+  "libourne": {
+    "medianIncome": 20860,
+    "povertyRate": 21
+  },
+  "lievin": {
+    "medianIncome": 17840,
+    "povertyRate": 28
+  },
+  "lille": {
+    "povertyRate": 27,
+    "medianIncome": 20520
+  },
+  "limoges": {
+    "medianIncome": 20590,
+    "povertyRate": 24
+  },
+  "limoux": {
+    "povertyRate": 22,
+    "medianIncome": 19790
+  },
+  "lingolsheim": {
+    "povertyRate": 17,
+    "medianIncome": 22260
+  },
+  "longwy": {
+    "povertyRate": 31,
+    "medianIncome": 18650
+  },
+  "lons-le-saunier": {
+    "medianIncome": 20580,
+    "povertyRate": 21
+  },
+  "lorient": {
+    "povertyRate": 21,
+    "medianIncome": 20860
+  },
+  "lourdes": {
+    "povertyRate": 23,
+    "medianIncome": 18810
+  },
+  "louviers": {
+    "povertyRate": 24,
+    "medianIncome": 20030
+  },
+  "lure": {
+    "medianIncome": 19500,
+    "povertyRate": 22
+  },
+  "lyon": {
+    "povertyRate": 16,
+    "medianIncome": 25430
+  },
+  "macon": {
+    "povertyRate": 25,
+    "medianIncome": 19320
+  },
+  "maisons-alfort": {
+    "medianIncome": 28010,
+    "povertyRate": 10
+  },
+  "malakoff": {
+    "povertyRate": 14,
+    "medianIncome": 25810
+  },
+  "mandelieu-la-napoule": {
+    "povertyRate": 13,
+    "medianIncome": 24180
+  },
+  "manosque": {
+    "povertyRate": 21,
+    "medianIncome": 21170
+  },
+  "mantes-la-jolie": {
+    "povertyRate": 32,
+    "medianIncome": 17310
+  },
+  "marignane": {
+    "medianIncome": 21690,
+    "povertyRate": 19
+  },
+  "marmande": {
+    "povertyRate": 23,
+    "medianIncome": 19840
+  },
+  "marseille": {
+    "medianIncome": 20600,
+    "povertyRate": 26
+  },
+  "martigues": {
+    "medianIncome": 22570,
+    "povertyRate": 18
+  },
+  "massy": {
+    "medianIncome": 24560,
+    "povertyRate": 16
+  },
+  "maubeuge": {
+    "povertyRate": 36,
+    "medianIncome": 16320
+  },
+  "maurepas": {
+    "povertyRate": 9,
+    "medianIncome": 26870
+  },
+  "mauriac": {
+    "povertyRate": 15,
+    "medianIncome": 21240
+  },
+  "mayenne": {
+    "povertyRate": 13,
+    "medianIncome": 22450
+  },
+  "meaux": {
+    "medianIncome": 20010,
+    "povertyRate": 23
+  },
+  "melun": {
+    "medianIncome": 19260,
+    "povertyRate": 26
+  },
+  "mende": {
+    "povertyRate": 13,
+    "medianIncome": 22980
+  },
+  "menton": {
+    "medianIncome": 22590,
+    "povertyRate": 17
+  },
+  "merignac": {
+    "povertyRate": 12,
+    "medianIncome": 24770
+  },
+  "meru": {
+    "medianIncome": 20280,
+    "povertyRate": 21
+  },
+  "metz": {
+    "povertyRate": 24,
+    "medianIncome": 20940
+  },
+  "meyzieu": {
+    "medianIncome": 23860,
+    "povertyRate": 13
+  },
+  "millau": {
+    "povertyRate": 16,
+    "medianIncome": 21240
+  },
+  "moissac": {
+    "povertyRate": 26,
+    "medianIncome": 19200
+  },
+  "monistrol-sur-loire": {
+    "medianIncome": 24070,
+    "povertyRate": 9
+  },
+  "mont-de-marsan": {
+    "medianIncome": 22030,
+    "povertyRate": 16
+  },
+  "mont-saint-aignan": {
+    "povertyRate": 10,
+    "medianIncome": 28790
+  },
+  "montargis": {
+    "povertyRate": 36,
+    "medianIncome": 16670
+  },
+  "montauban": {
+    "povertyRate": 19,
+    "medianIncome": 21630
+  },
+  "montbard": {
+    "medianIncome": 20120,
+    "povertyRate": 19
+  },
+  "montbeliard": {
+    "povertyRate": 28,
+    "medianIncome": 18600
+  },
+  "montbrison": {
+    "medianIncome": 22210,
+    "povertyRate": 14
+  },
+  "montelimar": {
+    "povertyRate": 20,
+    "medianIncome": 21350
+  },
+  "montigny-le-bretonneux": {
+    "medianIncome": 30360,
+    "povertyRate": 7
+  },
+  "montigny-les-metz": {
+    "medianIncome": 21930,
+    "povertyRate": 19
+  },
+  "montlucon": {
+    "medianIncome": 19420,
+    "povertyRate": 25
+  },
+  "montmorency": {
+    "medianIncome": 28430,
+    "povertyRate": 11
+  },
+  "montmorillon": {
+    "povertyRate": 15,
+    "medianIncome": 21410
+  },
+  "montpellier": {
+    "povertyRate": 28,
+    "medianIncome": 19670
+  },
+  "montreuil": {
+    "medianIncome": 21150,
+    "povertyRate": 25
+  },
+  "morlaix": {
+    "medianIncome": 20930,
+    "povertyRate": 19
+  },
+  "moulins": {
+    "povertyRate": 24,
+    "medianIncome": 19880
+  },
+  "mulhouse": {
+    "povertyRate": 36,
+    "medianIncome": 16620
+  },
+  "muret": {
+    "medianIncome": 22450,
+    "povertyRate": 17
+  },
+  "nancy": {
+    "medianIncome": 22360,
+    "povertyRate": 22
+  },
+  "nanterre": {
+    "medianIncome": 21620,
+    "povertyRate": 22
+  },
+  "nantes": {
+    "povertyRate": 17,
+    "medianIncome": 24170
+  },
+  "narbonne": {
+    "povertyRate": 25,
+    "medianIncome": 19850
+  },
+  "neuilly-sur-marne": {
+    "povertyRate": 21,
+    "medianIncome": 21000
+  },
+  "neuilly-sur-seine": {
+    "medianIncome": 48010,
+    "povertyRate": 8
+  },
+  "nevers": {
+    "povertyRate": 23,
+    "medianIncome": 20050
+  },
+  "nice": {
+    "povertyRate": 22,
+    "medianIncome": 21570
+  },
+  "nimes": {
+    "povertyRate": 31,
+    "medianIncome": 18760
+  },
+  "niort": {
+    "medianIncome": 23120,
+    "povertyRate": 16
+  },
+  "nogent-sur-marne": {
+    "povertyRate": 9,
+    "medianIncome": 33240
+  },
+  "noirmoutier": {
+    "medianIncome": 24050,
+    "povertyRate": 12
+  },
+  "noisiel": {
+    "medianIncome": 21110,
+    "povertyRate": 21
+  },
+  "noisy-le-grand": {
+    "povertyRate": 17,
+    "medianIncome": 23490
+  },
+  "noisy-le-sec": {
+    "medianIncome": 18450,
+    "povertyRate": 30
+  },
+  "obernai": {
+    "povertyRate": 11,
+    "medianIncome": 24080
+  },
+  "olivet": {
+    "medianIncome": 27680,
+    "povertyRate": 8
+  },
+  "orange": {
+    "povertyRate": 23,
+    "medianIncome": 20360
+  },
+  "orleans": {
+    "povertyRate": 22,
+    "medianIncome": 21370
+  },
+  "orvault": {
+    "povertyRate": 10,
+    "medianIncome": 27140
+  },
+  "oullins-pierre-benite": {
+    "medianIncome": 23260,
+    "povertyRate": 16
+  },
+  "oyonnax": {
+    "medianIncome": 18340,
+    "povertyRate": 28
+  },
+  "palaiseau": {
+    "medianIncome": 28570,
+    "povertyRate": 11
+  },
+  "pamiers": {
+    "povertyRate": 23,
+    "medianIncome": 19410
+  },
+  "pantin": {
+    "povertyRate": 27,
+    "medianIncome": 19740
+  },
+  "paray-le-monial": {
+    "povertyRate": 16,
+    "medianIncome": 21120
+  },
+  "paris": {
+    "medianIncome": 29730,
+    "povertyRate": 16
+  },
+  "parthenay": {
+    "medianIncome": 20240,
+    "povertyRate": 19
+  },
+  "pau": {
+    "povertyRate": 22,
+    "medianIncome": 20970
+  },
+  "perigueux": {
+    "medianIncome": 20740,
+    "povertyRate": 22
+  },
+  "peronne": {
+    "povertyRate": 25,
+    "medianIncome": 18800
+  },
+  "perpignan": {
+    "medianIncome": 17380,
+    "povertyRate": 34
+  },
+  "pertuis": {
+    "povertyRate": 15,
+    "medianIncome": 23120
+  },
+  "pessac": {
+    "povertyRate": 13,
+    "medianIncome": 25940
+  },
+  "pezenas": {
+    "povertyRate": 28,
+    "medianIncome": 18750
+  },
+  "plaisir": {
+    "povertyRate": 12,
+    "medianIncome": 25690
+  },
+  "poissy": {
+    "medianIncome": 23910,
+    "povertyRate": 16
+  },
+  "poitiers": {
+    "medianIncome": 20150,
+    "povertyRate": 26
+  },
+  "pont-a-mousson": {
+    "medianIncome": 21410,
+    "povertyRate": 19
+  },
+  "pontarlier": {
+    "povertyRate": 12,
+    "medianIncome": 25080
+  },
+  "pontault-combault": {
+    "medianIncome": 25010,
+    "povertyRate": 12
+  },
+  "pontoise": {
+    "povertyRate": 19,
+    "medianIncome": 22340
+  },
+  "porto-vecchio": {
+    "medianIncome": 21560,
+    "povertyRate": 21
+  },
+  "privas": {
+    "povertyRate": 21,
+    "medianIncome": 20510
+  },
+  "provins": {
+    "medianIncome": 19200,
+    "povertyRate": 27
+  },
+  "puteaux": {
+    "medianIncome": 30980,
+    "povertyRate": 10
+  },
+  "quiberon": {
+    "povertyRate": 9,
+    "medianIncome": 25010
+  },
+  "quimper": {
+    "medianIncome": 22700,
+    "povertyRate": 13
+  },
+  "rambouillet": {
+    "povertyRate": 8,
+    "medianIncome": 27990
+  },
+  "reims": {
+    "medianIncome": 20210,
+    "povertyRate": 24
+  },
+  "rennes": {
+    "medianIncome": 22770,
+    "povertyRate": 21
+  },
+  "rethel": {
+    "medianIncome": 19790,
+    "povertyRate": 23
+  },
+  "reze": {
+    "povertyRate": 13,
+    "medianIncome": 23550
+  },
+  "riberac": {
+    "medianIncome": 19940,
+    "povertyRate": 23
+  },
+  "riedisheim": {
+    "medianIncome": 25720,
+    "povertyRate": 12
+  },
+  "rillieux-la-pape": {
+    "medianIncome": 19980,
+    "povertyRate": 25
+  },
+  "riom": {
+    "medianIncome": 23090,
+    "povertyRate": 14
+  },
+  "roanne": {
+    "medianIncome": 18930,
+    "povertyRate": 25
+  },
+  "rochefort": {
+    "medianIncome": 20380,
+    "povertyRate": 20
+  },
+  "rodez": {
+    "medianIncome": 22210,
+    "povertyRate": 16
+  },
+  "romans-sur-isere": {
+    "medianIncome": 20520,
+    "povertyRate": 20
+  },
+  "romilly-sur-seine": {
+    "povertyRate": 30,
+    "medianIncome": 17610
+  },
+  "romorantin-lanthenay": {
+    "povertyRate": 19,
+    "medianIncome": 20810
+  },
+  "rosny-sous-bois": {
+    "medianIncome": 21820,
+    "povertyRate": 22
+  },
+  "roubaix": {
+    "povertyRate": 46,
+    "medianIncome": 14580
+  },
+  "rouen": {
+    "medianIncome": 21330,
+    "povertyRate": 23
+  },
+  "royan": {
+    "medianIncome": 23280,
+    "povertyRate": 14
+  },
+  "rueil-malmaison": {
+    "medianIncome": 32980,
+    "povertyRate": 8
+  },
+  "rumilly": {
+    "povertyRate": 11,
+    "medianIncome": 23260
+  },
+  "sable-sur-sarthe": {
+    "medianIncome": 19380,
+    "povertyRate": 21
+  },
+  "saint-amand-montrond": {
+    "medianIncome": 20480,
+    "povertyRate": 20
+  },
+  "saint-andre-reunion": {
+    "povertyRate": 44,
+    "medianIncome": 15080
+  },
+  "saint-avold": {
+    "povertyRate": 21,
+    "medianIncome": 20940
+  },
+  "saint-benoit-reunion": {
+    "medianIncome": 14550,
+    "povertyRate": 46
+  },
+  "saint-brieuc": {
+    "povertyRate": 21,
+    "medianIncome": 20910
+  },
+  "saint-chamond": {
+    "povertyRate": 21,
+    "medianIncome": 20330
+  },
+  "saint-chely-d-apcher": {
+    "povertyRate": 13,
+    "medianIncome": 22270
+  },
+  "saint-claude": {
+    "povertyRate": 20,
+    "medianIncome": 20160
+  },
+  "saint-cloud": {
+    "povertyRate": 7,
+    "medianIncome": 39760
+  },
+  "saint-denis": {
+    "povertyRate": 37,
+    "medianIncome": 16470
+  },
+  "saint-denis-reunion": {
+    "povertyRate": 33,
+    "medianIncome": 18270
+  },
+  "saint-die-des-vosges": {
+    "medianIncome": 18770,
+    "povertyRate": 27
+  },
+  "saint-dizier": {
+    "medianIncome": 18720,
+    "povertyRate": 26
+  },
+  "saint-etienne": {
+    "povertyRate": 28,
+    "medianIncome": 19010
+  },
+  "saint-flour": {
+    "medianIncome": 21380,
+    "povertyRate": 14
+  },
+  "saint-gaudens": {
+    "medianIncome": 19530,
+    "povertyRate": 24
+  },
+  "saint-genis-laval": {
+    "medianIncome": 26810,
+    "povertyRate": 10
+  },
+  "saint-germain-en-laye": {
+    "povertyRate": 9,
+    "medianIncome": 33250
+  },
+  "saint-girons": {
+    "medianIncome": 20320,
+    "povertyRate": 21
+  },
+  "saint-herblain": {
+    "povertyRate": 16,
+    "medianIncome": 23000
+  },
+  "saint-jean-de-luz": {
+    "medianIncome": 23390,
+    "povertyRate": 12
+  },
+  "saint-joseph-reunion": {
+    "medianIncome": 15200,
+    "povertyRate": 43
+  },
+  "saint-leu-la-foret": {
+    "povertyRate": 9,
+    "medianIncome": 28960
+  },
+  "saint-lo": {
+    "medianIncome": 21010,
+    "povertyRate": 19
+  },
+  "saint-louis-haut-rhin": {
+    "medianIncome": 24530,
+    "povertyRate": 20
+  },
+  "saint-louis-reunion-974": {
+    "medianIncome": 15270,
+    "povertyRate": 43
+  },
+  "saint-malo": {
+    "medianIncome": 23490,
+    "povertyRate": 13
+  },
+  "saint-mande": {
+    "povertyRate": 8,
+    "medianIncome": 36180
+  },
+  "saint-martin-d-heres": {
+    "povertyRate": 19,
+    "medianIncome": 21160
+  },
+  "saint-maur-des-fosses": {
+    "povertyRate": 8,
+    "medianIncome": 32730
+  },
+  "saint-medard-en-jalles": {
+    "povertyRate": 7,
+    "medianIncome": 26740
+  },
+  "saint-nazaire": {
+    "medianIncome": 21900,
+    "povertyRate": 17
+  },
+  "saint-omer": {
+    "medianIncome": 18120,
+    "povertyRate": 29
+  },
+  "saint-ouen-sur-seine": {
+    "medianIncome": 20440,
+    "povertyRate": 26
+  },
+  "saint-paul-de-vence": {
+    "medianIncome": 29400,
+    "povertyRate": 12
+  },
+  "saint-paul-reunion": {
+    "povertyRate": 30,
+    "medianIncome": 18910
+  },
+  "saint-pierre-reunion": {
+    "medianIncome": 17680,
+    "povertyRate": 34
+  },
+  "saint-priest": {
+    "povertyRate": 19,
+    "medianIncome": 21420
+  },
+  "saint-quentin": {
+    "povertyRate": 29,
+    "medianIncome": 18400
+  },
+  "saint-raphael": {
+    "medianIncome": 25010,
+    "povertyRate": 13
+  },
+  "saint-remy-de-provence": {
+    "medianIncome": 23250,
+    "povertyRate": 17
+  },
+  "saint-tropez": {
+    "medianIncome": 25990,
+    "povertyRate": 15
+  },
+  "saint-yrieix-la-perche": {
+    "povertyRate": 14,
+    "medianIncome": 21760
+  },
+  "sainte-foy-les-lyon": {
+    "medianIncome": 28780,
+    "povertyRate": 9
+  },
+  "sainte-genevieve-des-bois": {
+    "medianIncome": 24370,
+    "povertyRate": 16
+  },
+  "sainte-maxime": {
+    "medianIncome": 23540,
+    "povertyRate": 15
+  },
+  "saintes": {
+    "povertyRate": 17,
+    "medianIncome": 21770
+  },
+  "sallanches": {
+    "povertyRate": 9,
+    "medianIncome": 24950
+  },
+  "salon-de-provence": {
+    "medianIncome": 22400,
+    "povertyRate": 17
+  },
+  "sanary-sur-mer": {
+    "povertyRate": 11,
+    "medianIncome": 26150
+  },
+  "sannois": {
+    "medianIncome": 24250,
+    "povertyRate": 16
+  },
+  "sarcelles": {
+    "povertyRate": 35,
+    "medianIncome": 16520
+  },
+  "sarlat-la-caneda": {
+    "povertyRate": 17,
+    "medianIncome": 21280
+  },
+  "sarrebourg": {
+    "medianIncome": 20120,
+    "povertyRate": 21
+  },
+  "sarreguemines": {
+    "povertyRate": 23,
+    "medianIncome": 20150
+  },
+  "sartene": {
+    "povertyRate": 26,
+    "medianIncome": 20130
+  },
+  "sartrouville": {
+    "povertyRate": 13,
+    "medianIncome": 25680
+  },
+  "saumur": {
+    "medianIncome": 21200,
+    "povertyRate": 18
+  },
+  "saverne": {
+    "povertyRate": 16,
+    "medianIncome": 22330
+  },
+  "savigny-le-temple": {
+    "medianIncome": 22240,
+    "povertyRate": 16
+  },
+  "savigny-sur-orge": {
+    "povertyRate": 14,
+    "medianIncome": 25590
+  },
+  "sceaux": {
+    "povertyRate": 8,
+    "medianIncome": 36010
+  },
+  "schiltigheim": {
+    "povertyRate": 25,
+    "medianIncome": 19660
+  },
+  "sedan": {
+    "povertyRate": 33,
+    "medianIncome": 17180
+  },
+  "selestat": {
+    "povertyRate": 15,
+    "medianIncome": 22650
+  },
+  "semur-en-auxois": {
+    "medianIncome": 22040,
+    "povertyRate": 17
+  },
+  "senlis": {
+    "medianIncome": 26930,
+    "povertyRate": 10
+  },
+  "sens": {
+    "povertyRate": 28,
+    "medianIncome": 18610
+  },
+  "sete": {
+    "medianIncome": 19960,
+    "povertyRate": 25
+  },
+  "sevran": {
+    "povertyRate": 33,
+    "medianIncome": 17300
+  },
+  "sevres": {
+    "povertyRate": 9,
+    "medianIncome": 33680
+  },
+  "sisteron": {
+    "povertyRate": 18,
+    "medianIncome": 20900
+  },
+  "six-fours-les-plages": {
+    "medianIncome": 24660,
+    "povertyRate": 11
+  },
+  "soissons": {
+    "medianIncome": 18280,
+    "povertyRate": 30
+  },
+  "soisy-sous-montmorency": {
+    "povertyRate": 13,
+    "medianIncome": 26100
+  },
+  "sotteville-les-rouen": {
+    "medianIncome": 21230,
+    "povertyRate": 19
+  },
+  "stains": {
+    "medianIncome": 16130,
+    "povertyRate": 37
+  },
+  "strasbourg": {
+    "povertyRate": 26,
+    "medianIncome": 20260
+  },
+  "suresnes": {
+    "medianIncome": 31810,
+    "povertyRate": 10
+  },
+  "talence": {
+    "medianIncome": 24260,
+    "povertyRate": 17
+  },
+  "tarbes": {
+    "medianIncome": 19070,
+    "povertyRate": 26
+  },
+  "tassin-la-demi-lune": {
+    "povertyRate": 8,
+    "medianIncome": 29010
+  },
+  "thiers": {
+    "medianIncome": 19300,
+    "povertyRate": 24
+  },
+  "thionville": {
+    "povertyRate": 19,
+    "medianIncome": 24850
+  },
+  "thonon-les-bains": {
+    "medianIncome": 24450,
+    "povertyRate": 15
+  },
+  "torcy": {
+    "medianIncome": 21830,
+    "povertyRate": 19
+  },
+  "toulon": {
+    "povertyRate": 22,
+    "medianIncome": 20960
+  },
+  "toulouse": {
+    "povertyRate": 22,
+    "medianIncome": 22140
+  },
+  "tourcoing": {
+    "medianIncome": 18300,
+    "povertyRate": 29
+  },
+  "tournefeuille": {
+    "medianIncome": 29020,
+    "povertyRate": 10
+  },
+  "tours": {
+    "povertyRate": 21,
+    "medianIncome": 21250
+  },
+  "trappes": {
+    "povertyRate": 27,
+    "medianIncome": 18320
+  },
+  "trelaze": {
+    "medianIncome": 21150,
+    "povertyRate": 16
+  },
+  "tremblay-en-france": {
+    "medianIncome": 21420,
+    "povertyRate": 19
+  },
+  "troyes": {
+    "povertyRate": 30,
+    "medianIncome": 18260
+  },
+  "tulle": {
+    "povertyRate": 17,
+    "medianIncome": 21340
+  },
+  "ussel": {
+    "medianIncome": 21320,
+    "povertyRate": 14
+  },
+  "vaison-la-romaine": {
+    "medianIncome": 21800,
+    "povertyRate": 20
+  },
+  "valbonne": {
+    "medianIncome": 29220,
+    "povertyRate": 10
+  },
+  "valence": {
+    "povertyRate": 22,
+    "medianIncome": 20610
+  },
+  "valenciennes": {
+    "povertyRate": 25,
+    "medianIncome": 20250
+  },
+  "vandoeuvre-les-nancy": {
+    "povertyRate": 30,
+    "medianIncome": 18680
+  },
+  "vannes": {
+    "povertyRate": 15,
+    "medianIncome": 24070
+  },
+  "vaulx-en-velin": {
+    "povertyRate": 33,
+    "medianIncome": 17180
+  },
+  "velizy-villacoublay": {
+    "povertyRate": 8,
+    "medianIncome": 28610
+  },
+  "vendome": {
+    "medianIncome": 21030,
+    "povertyRate": 20
+  },
+  "venissieux": {
+    "povertyRate": 34,
+    "medianIncome": 17140
+  },
+  "verdun": {
+    "medianIncome": 20350,
+    "povertyRate": 21
+  },
+  "vernon": {
+    "povertyRate": 23,
+    "medianIncome": 20940
+  },
+  "versailles": {
+    "povertyRate": 7,
+    "medianIncome": 33780
+  },
+  "vertou": {
+    "medianIncome": 27590,
+    "povertyRate": 6
+  },
+  "vesoul": {
+    "povertyRate": 25,
+    "medianIncome": 19150
+  },
+  "vichy": {
+    "medianIncome": 20190,
+    "povertyRate": 23
+  },
+  "vienne": {
+    "medianIncome": 21320,
+    "povertyRate": 21
+  },
+  "vierzon": {
+    "medianIncome": 19130,
+    "povertyRate": 24
+  },
+  "villefranche-de-rouergue": {
+    "povertyRate": 19,
+    "medianIncome": 20820
+  },
+  "villefranche-sur-saone": {
+    "povertyRate": 25,
+    "medianIncome": 19640
+  },
+  "villenave-d-ornon": {
+    "povertyRate": 13,
+    "medianIncome": 23780
+  },
+  "villeneuve-la-garenne": {
+    "medianIncome": 18570,
+    "povertyRate": 26
+  },
+  "villeneuve-sur-lot": {
+    "povertyRate": 23,
+    "medianIncome": 19420
+  },
+  "villeurbanne": {
+    "povertyRate": 21,
+    "medianIncome": 21540
+  },
+  "villiers-le-bel": {
+    "povertyRate": 37,
+    "medianIncome": 16190
+  },
+  "vincennes": {
+    "povertyRate": 8,
+    "medianIncome": 34880
+  },
+  "viry-chatillon": {
+    "povertyRate": 19,
+    "medianIncome": 21860
+  },
+  "vitre": {
+    "medianIncome": 23060,
+    "povertyRate": 11
+  },
+  "vitrolles": {
+    "medianIncome": 22090,
+    "povertyRate": 17
+  },
+  "vitry-sur-seine": {
+    "medianIncome": 19490,
+    "povertyRate": 26
+  },
+  "voiron": {
+    "medianIncome": 23110,
+    "povertyRate": 15
+  },
+  "wattrelos": {
+    "povertyRate": 22,
+    "medianIncome": 19450
+  },
+  "wittenheim": {
+    "medianIncome": 22170,
+    "povertyRate": 15
+  },
+  "yerres": {
+    "medianIncome": 28170,
+    "povertyRate": 8
+  }
+}
