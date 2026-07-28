@@ -140,6 +140,19 @@ l'allowlist egress de cette routine pour reprendre les batches ; sinon les
 prochains lots devront continuer de partir d'une session locale (le pattern
 `--shards=4` livre 81 → ~150 villes en une passe d'~1 h).
 
+**Point d'étape 2026-07-28** : le crawl a été bouclé entre-temps
+(commit `1839441`, 540/540, 6 977 parcs). Passage d'honnêteté sur les copies :
+les hubs `/parcs` + `/parks` et l'attribution ODbL des pages ville disaient
+encore « les autres villes apparaîtront ici au fur et à mesure » — c'était
+vrai pendant le crawl, ça faisait passer la feature pour partielle depuis
+qu'elle est finie. Reformulé en « les 540 villes ont été relevées ;
+{PARKS_CITY_WITHOUT_PARKS_COUNT} n'ont pour l'instant aucun parc nommé
+référencé ». Nouvelle constante `PARKS_CITY_WITHOUT_PARKS_COUNT` dans
+`lib/city-parks.ts` pour distinguer « villes crawlées » (540) de « villes
+avec un parc nommé » (≈ 510). La 4e stat card des hubs passe du trompeur
+« 100 % des villes du site » à « 540 / 540 relevées ». Aucune donnée
+modifiée, `npx tsc --noEmit` propre.
+
 ---
 
 ## Shipped 2026-07-28
