@@ -185,6 +185,7 @@ function staticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/people-like-you`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/climat-2040-timelapse`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/city-match`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE_URL}/parent-solo`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/orientation-politique`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/projection-5ans`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/copilot`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.8 },

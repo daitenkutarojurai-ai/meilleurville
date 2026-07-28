@@ -66,6 +66,7 @@ const MENU_GROUPS_FR: MenuGroup[] = [
     items: [
       { label: "City Match",            href: "/city-match",             emoji: "💘" },
       { label: "Pour qui ?",            href: "/pour-qui",               emoji: "👥" },
+      { label: "Parent solo",           href: "/parent-solo",            emoji: "🧑‍🍼" },
       { label: "Classement sur-mesure", href: "/palmares/personnaliser", emoji: "🎚️" },
       { label: "Orientation politique", href: "/orientation-politique",  emoji: "🗳️" },
       { label: "Comparer villes",       href: "/comparer",               emoji: "⚖️" },
