@@ -115,6 +115,7 @@ const MENU_GROUPS_EN: MenuGroup[] = [
       { label: "Compare",         href: "/compare",         emoji: "⚖️" },
       { label: "Rankings",        href: "/rankings",        emoji: "📊" },
       { label: "For who",         href: "/for-who",         emoji: "👥" },
+      { label: "Single parent",   href: "/single-parent",   emoji: "🧑‍🍼" },
       { label: "Niche rankings",  href: "/niche-rankings",  emoji: "📊" },
       { label: "Red flags",       href: "/red-flags",       emoji: "🚩" },
       { label: "Vacations",       href: "/vacations",       emoji: "🌴" },

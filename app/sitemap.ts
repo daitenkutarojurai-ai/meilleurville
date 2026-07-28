@@ -952,6 +952,7 @@ function enStaticSection(): MetadataRoute.Sitemap {
     })),
     { url: `${BASE_URL}/climate-2040-timelapse`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/community-profiles`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/single-parent`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/search`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE_URL}/cheapest-cities`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.75 },
     { url: `${BASE_URL}/best-value-cities`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.75 },
@@ -1029,6 +1030,7 @@ function enCitySubSection(): MetadataRoute.Sitemap {
     "internet-quality", "seasons", "neighbourhoods", "synthesis",
     "questions", "calendar", "local-mindset", "rental-market",
     "sports-leisure", "things-to-do", "statistics", "retail",
+    "single-parent",
   ] as const;
   return CITIES_SEED.flatMap((c) => {
     const base = subs.map((sub) => ({
