@@ -11,6 +11,15 @@ import { computeEmploymentMarket } from "@/lib/employment-market";
 import { computeDemography } from "@/lib/demography";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { formatNumber } from "@/lib/utils";
+import {
+  cityIncome,
+  incomeRank,
+  monthlyEquivalent,
+  INCOME_YEAR,
+  INCOME_CREDIT,
+  INCOME_SOURCE_URL,
+  MEDIAN_OF_CITIES,
+} from "@/lib/city-income";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -92,11 +101,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const pop = city.population ? `${formatNumber(city.population)} hab.` : "population indicative";
   return {
     title: `Statistiques de ${city.name} : population, salaire, chômage`.slice(0, 60),
-    description: `Chiffres-clés de ${city.name} (${city.department}) : ${pop}, salaire net médian départemental, taux de chômage, structure d'âge et trajectoire démographique. Sources INSEE.`.slice(0, 160),
+    description: `Chiffres-clés de ${city.name} (${city.department}) : ${pop}, niveau de vie médian, taux de pauvreté, chômage et structure d'âge. Sources INSEE.`.slice(0, 160),
     alternates: { canonical: `/villes/${slug}/statistiques` },
     openGraph: {
       title: `Statistiques de ${city.name}`,
-      description: `Population, salaire médian, chômage, structure d'âge — synthèse INSEE ${bucket.label}.`,
+      description: `Population, niveau de vie médian, chômage, structure d'âge — synthèse INSEE ${bucket.label}.`,
     },
   };
 }
@@ -111,6 +120,8 @@ export default async function StatistiquesPage({ params }: Props) {
   const salary = salaryBracket(emp.salary.score);
   const unemp = unemploymentBracket(emp.unemployment.score);
   const ageing = ageingBracket(demo.ageing.score);
+  const income = cityIncome(city.slug);
+  const incRank = income ? incomeRank(city.slug) : null;
 
   const trajectoryLabel =
     demo.trajectory.score <= 3
@@ -136,8 +147,14 @@ export default async function StatistiquesPage({ params }: Props) {
       a: `${city.name} (${city.department}) : ${popLine}. Source : INSEE, recensement de la population (RP) — millésime le plus récent publié.`,
     },
     {
-      q: `Quel est le salaire net médian à ${city.name} ?`,
-      a: `Le salaire net mensuel médian estimé au niveau départemental (${city.department}) se situe autour de ${salary.range} — ${salary.note}. Source : INSEE DADS (salaires nets par département). Le salaire de la ville elle-même n'est pas publié séparément — la statistique la plus fine est départementale.`,
+      q: `Quel est le niveau de vie médian à ${city.name} ?`,
+      a: income
+        ? `À ${city.name}, le niveau de vie médian est de ${formatNumber(income.medianIncome)} € par an, soit environ ${formatNumber(monthlyEquivalent(income.medianIncome))} € par mois et par unité de consommation${
+            income.povertyRate !== undefined
+              ? `, et le taux de pauvreté de ${String(income.povertyRate).replace(".", ",")} %`
+              : ""
+          }. C'est un revenu disponible (salaires et prestations, impôts déduits) rapporté à la composition du ménage, pas un salaire. Source : ${INCOME_CREDIT}.`
+        : `Le niveau de vie médian de ${city.name} n'est pas publié par l'INSEE (secret statistique ou commune hors champ Filosofi). À défaut, le salaire net mensuel médian du département (${city.department}) se situe autour de ${salary.range} — ${salary.note}.`,
     },
     {
       q: `Quel est le taux de chômage à ${city.name} ?`,
@@ -207,6 +224,70 @@ export default async function StatistiquesPage({ params }: Props) {
           </p>
         </Card>
 
+        {/* Niveau de vie — seule donnée de cette page publiée à la commune. */}
+        {income && (
+          <>
+            <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">
+              Niveau de vie
+            </h2>
+            <p className="text-xs text-[var(--text-tertiary)] mt-1">
+              Contrairement aux indicateurs suivants, celui-ci est publié pour la
+              commune elle-même, pas pour le département.
+            </p>
+            <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div className="rounded-2xl border border-[var(--border)] p-4">
+                <div className="text-sm font-semibold text-[var(--text-primary)] mb-2">
+                  Niveau de vie médian
+                </div>
+                <div className="text-lg font-bold tabular-nums text-[var(--text-primary)]">
+                  {formatNumber(income.medianIncome)} €/an
+                </div>
+                <div className="text-sm tabular-nums text-[var(--text-secondary)] mb-2">
+                  soit ≈ {formatNumber(monthlyEquivalent(income.medianIncome))} €/mois
+                  par unité de consommation
+                </div>
+                <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
+                  Revenu disponible du ménage (salaires et prestations, impôts
+                  déduits) rapporté à sa composition — ce n&apos;est pas un
+                  salaire. Médiane des villes du site :{" "}
+                  {formatNumber(MEDIAN_OF_CITIES)} €.
+                  {incRank
+                    ? ` ${city.name} se situe au ${incRank.rank}ᵉ rang sur ${incRank.total} villes couvertes.`
+                    : ""}
+                </p>
+              </div>
+
+              {income.povertyRate !== undefined && (
+                <div className="rounded-2xl border border-[var(--border)] p-4">
+                  <div className="text-sm font-semibold text-[var(--text-primary)] mb-2">
+                    Taux de pauvreté
+                  </div>
+                  <div className="text-lg font-bold tabular-nums text-[var(--text-primary)] mb-2">
+                    {String(income.povertyRate).replace(".", ",")} %
+                  </div>
+                  <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
+                    Part des habitants vivant sous 60 % du niveau de vie médian
+                    national. Ici, un chiffre élevé est mauvais. Moyenne
+                    nationale : 14,4 %.
+                  </p>
+                </div>
+              )}
+            </div>
+            <p className="mt-2 text-xs text-[var(--text-tertiary)]">
+              Source :{" "}
+              <a
+                href={INCOME_SOURCE_URL}
+                target="_blank"
+                rel="noreferrer"
+                className="text-[var(--accent)] hover:underline"
+              >
+                {INCOME_CREDIT}
+              </a>{" "}
+              (millésime {INCOME_YEAR}, dernière année publiée à la commune).
+            </p>
+          </>
+        )}
+
         {/* 3 blocs — salaire, chômage, structure d'âge */}
         <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">
           Salaire, emploi, structure d&apos;âge
@@ -238,7 +319,8 @@ export default async function StatistiquesPage({ params }: Props) {
               {salary.range}
             </div>
             <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-              {salary.note}. Source INSEE DADS — département de {city.department}.
+              {salary.note}. Estimation à partir de nos indices, calée sur les
+              fourchettes INSEE DADS du département de {city.department}.
             </p>
           </div>
 

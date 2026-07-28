@@ -8,6 +8,15 @@ import { computeEmploymentMarket } from "@/lib/employment-market";
 import { computeDemography } from "@/lib/demography";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import {
+  cityIncome,
+  incomeRank,
+  monthlyEquivalent,
+  INCOME_YEAR,
+  INCOME_CREDIT,
+  INCOME_SOURCE_URL,
+  MEDIAN_OF_CITIES,
+} from "@/lib/city-income";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -129,6 +138,9 @@ export default async function EnCityStatisticsPage({ params }: Props) {
   const salary = salaryBracket(emp.salary.score);
   const unemp = unemploymentBracket(emp.unemployment.score);
   const ageing = ageingBracket(demo.ageing.score);
+  const income = cityIncome(city.slug);
+  const incRank = income ? incomeRank(city.slug) : null;
+  const enNum = (n: number) => n.toLocaleString("en-GB");
 
   const trajectoryLabel =
     demo.trajectory.score <= 3
@@ -155,8 +167,12 @@ export default async function EnCityStatisticsPage({ params }: Props) {
       a: `${city.name} (${city.department}): ${popLine}. Source: INSEE, population census (RP) — most recent published vintage.`,
     },
     {
-      q: `What is the median net wage in ${city.name}?`,
-      a: `The estimated median net monthly wage at the département level (${city.department}) is around ${salary.range} — ${salary.note}. Source: INSEE DADS (net wages by département). The wage for the city itself is not published separately — the finest INSEE statistic is departmental.`,
+      q: `What is the median standard of living in ${city.name}?`,
+      a: income
+        ? `In ${city.name}, median disposable income is €${income.medianIncome.toLocaleString("en-GB")} per year, or roughly €${monthlyEquivalent(income.medianIncome).toLocaleString("en-GB")} per month per consumption unit${
+            income.povertyRate !== undefined ? `, with a poverty rate of ${income.povertyRate}%` : ""
+          }. This is household disposable income (wages and benefits, after tax) adjusted for household composition — not a wage. Source: ${INCOME_CREDIT}.`
+        : `INSEE does not publish a median standard of living for ${city.name} (statistical confidentiality, or a commune outside the Filosofi scope). As a fallback, the median net monthly wage for the ${city.department} département is around ${salary.range} — ${salary.note}.`,
     },
     {
       q: `What is the unemployment rate in ${city.name}?`,
@@ -229,6 +245,69 @@ export default async function EnCityStatisticsPage({ params }: Props) {
           </p>
         </div>
 
+        {/* Standard of living — the only figure here published per commune. */}
+        {income && (
+          <>
+            <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">
+              Standard of living
+            </h2>
+            <p className="text-xs text-[var(--text-tertiary)] mt-1">
+              Unlike the indicators below, this one is published for the commune
+              itself, not for the département.
+            </p>
+            <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div className="rounded-2xl border border-[var(--border)] p-4">
+                <div className="text-sm font-semibold text-[var(--text-primary)] mb-2">
+                  Median disposable income
+                </div>
+                <div className="text-lg font-bold tabular-nums text-[var(--text-primary)]">
+                  €{enNum(income.medianIncome)}/year
+                </div>
+                <div className="text-sm tabular-nums text-[var(--text-secondary)] mb-2">
+                  ≈ €{enNum(monthlyEquivalent(income.medianIncome))}/month per
+                  consumption unit
+                </div>
+                <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
+                  Household disposable income (wages and benefits, after tax)
+                  adjusted for household composition — this is not a salary.
+                  Median across the cities on this site: €{enNum(MEDIAN_OF_CITIES)}.
+                  {incRank
+                    ? ` ${city.name} ranks ${incRank.rank} of ${incRank.total} covered cities.`
+                    : ""}
+                </p>
+              </div>
+
+              {income.povertyRate !== undefined && (
+                <div className="rounded-2xl border border-[var(--border)] p-4">
+                  <div className="text-sm font-semibold text-[var(--text-primary)] mb-2">
+                    Poverty rate
+                  </div>
+                  <div className="text-lg font-bold tabular-nums text-[var(--text-primary)] mb-2">
+                    {income.povertyRate}%
+                  </div>
+                  <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
+                    Share of residents living below 60% of the national median
+                    standard of living. Here a high figure is bad. National
+                    average: 14.4%.
+                  </p>
+                </div>
+              )}
+            </div>
+            <p className="mt-2 text-xs text-[var(--text-tertiary)]">
+              Source:{" "}
+              <a
+                href={INCOME_SOURCE_URL}
+                target="_blank"
+                rel="noreferrer"
+                className="text-[var(--accent)] hover:underline"
+              >
+                {INCOME_CREDIT}
+              </a>{" "}
+              ({INCOME_YEAR}, the latest year published at commune level).
+            </p>
+          </>
+        )}
+
         {/* 3 blocks — wage, unemployment, age structure */}
         <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">
           Wage, employment, age structure
@@ -251,7 +330,8 @@ export default async function EnCityStatisticsPage({ params }: Props) {
               {salary.range}
             </div>
             <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-              {salary.note}. Source: INSEE DADS — département of {city.department}.
+              {salary.note}. Estimated from our indices, calibrated on the INSEE
+              DADS brackets for the {city.department} département.
             </p>
           </div>
 
