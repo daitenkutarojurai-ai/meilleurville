@@ -594,6 +594,32 @@ Demande utilisateur. Détail complet dans `ROADMAP.md` § « Vague 6 ».
 
 ---
 
+## Vague 7 (2026-07-29) — Score Biodiversité
+
+Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
+
+- [ ] **F62 — Score Biodiversité** — couche « nature » sur les 540 villes : espèces
+  recensées à proximité (**GBIF**, libre, sans clé), zones protégées et statuts de
+  protection (**INPN/MNHN**, gratuit), espaces verts (réutilise `data/city-parks.json`
+  de F59, pas de re-crawl). Pipeline pré-fetché `scripts/city-biodiversity.mjs` →
+  `data/city-biodiversity.json` commité par lots → `lib/biodiversity.ts` →
+  `/villes/[slug]/biodiversite` (+ EN `biodiversity`) SSG conditionnel + classement.
+  - **Pas de Supabase** : la demande d'origine le citait, mais l'auth est Worker-native
+    sur D1 depuis R9.1 et l'hébergement est Cloudflare **Workers Static Assets** (pas
+    Pages). F62 n'a besoin d'aucune base — pipeline → JSON → SSG.
+  - **Le biais d'effort d'observation est le cœur du problème** : les occurrences GBIF
+    mesurent d'abord la densité de naturalistes, pas la biodiversité. On compte des
+    **espèces distinctes normalisées par l'effort** (observateurs / observations), on
+    déclare une ville **non mesurable** sous un seuil d'effort plutôt que de lui coller
+    un score, et on fait peser lourd les **zones protégées** — un périmètre Natura 2000
+    existe indépendamment de qui l'observe.
+  - Convention : « Biodiversité » nomme une qualité → **10 = bon**. Licences à afficher
+    (DOI GBIF + licence par jeu, `CC BY-NC` filtré ; MNHN + Licence Ouverte).
+  - Egress : supposer le crawl bloqué côté routine cloud (403 CONNECT comme Overpass) —
+    **passe locale**.
+
+---
+
 ### Conventions for adding an EN route
 
 1. Create `app/[locale]/<route>/page.tsx`. Generate static params with `{ locale: "en", ... }` only.

@@ -2,7 +2,7 @@
 
 Roadmap des features SSG-first, sans backend lourd, sans chiffres inventés.
 
-**Statut** : vague 1 + vague 2 livrées (F1, F2, F3, F4, F9, F10, F11, F12, F13, F15, F16, F17, F18, F19, F20, F21, F22, F23, F24). Vague 3 démarrée avec F25. Vague 5 démarrée avec F54. Vague 6 livrée (F58, F59, F60, F61). 5 features dépendant d'accès externes ont été retirées en attente d'accès/budget : ex-F5 RealityCheck, ex-F6 Journal de déménagement, ex-F7 Alertes personnalisées, ex-F8 Ville du mois, ex-F14 Carte risques interactive.
+**Statut** : vague 1 + vague 2 livrées (F1, F2, F3, F4, F9, F10, F11, F12, F13, F15, F16, F17, F18, F19, F20, F21, F22, F23, F24). Vague 3 démarrée avec F25. Vague 5 démarrée avec F54. Vague 6 livrée (F58, F59, F60, F61). Vague 7 ouverte avec F62 (Score Biodiversité). 5 features dépendant d'accès externes ont été retirées en attente d'accès/budget : ex-F5 RealityCheck, ex-F6 Journal de déménagement, ex-F7 Alertes personnalisées, ex-F8 Ville du mois, ex-F14 Carte risques interactive.
 
 ---
 
@@ -167,6 +167,108 @@ Saint-Chély-d'Apcher, Saint-Paul-de-Vence, Sallanches — la copie du hub qui
 lit `PARKS_CITY_WITHOUT_PARKS_COUNT` est déjà exacte). `npx tsc --noEmit`
 propre après `npm install`. Aucun changement de code ni de données ; la
 feature reste close.
+
+---
+
+## Vague 7 — Score Biodiversité (ouverte 2026-07-29)
+
+Demande utilisateur. Une couche « nature » sur les 540 villes : espaces verts, espèces
+recensées à proximité, zones protégées.
+
+| # | Feature | Prio | Cplx | SEO | Statut |
+|---|---------|------|------|-----|--------|
+| F62 | **Score Biodiversité** (pipeline GBIF + INPN → sous-page ×540 + classement) | **P0** | **L** | **high** | 🔜 à faire |
+
+### F62 — Score Biodiversité
+
+**Intention** : répondre à « est-ce qu'on voit encore des oiseaux / des insectes /
+des arbres ici ? ». C'est une question de cadre de vie, pas d'écologie abstraite —
+et c'est le seul axe nature que le site n'a pas : `nature` dans le seed est un score
+éditorial, `/parcs` compte des destinations, `/air` mesure une pollution. Aucun ne dit
+ce qui **vit** autour de la ville.
+
+**Rectification de stack** (la demande mentionnait Supabase) : le projet n'utilise plus
+Supabase — l'auth a été réécrite Worker-native (D1) et l'hébergement est **Cloudflare
+Workers Static Assets**, pas Cloudflare Pages. F62 n'a de toute façon besoin d'aucune
+base : c'est un pipeline pré-fetché → JSON commité → SSG, exactement le pattern
+`scripts/city-parks.mjs` / `scripts/commune-images.mjs`.
+
+**Phase 1 — pipeline** `scripts/city-biodiversity.mjs`
+
+- **GBIF** (`api.gbif.org/v1`) — libre, sans clé. `occurrence/search` avec
+  `decimalLatitude`/`decimalLongitude` en cercle de 10 km autour du centroïde ville
+  (déjà dans le seed), facetté par `speciesKey` et par `kingdom`/`class`. Filtres
+  obligatoires : `hasCoordinate=true`, `hasGeospatialIssue=false`, `year>=2015`
+  (au-delà, on mesure de l'archive, pas la faune actuelle).
+- **INPN / OpenObs** (`inpn.mnhn.fr`, MNHN, gratuit) — côté France, deux apports que
+  GBIF ne donne pas proprement : les **statuts de protection / liste rouge** par
+  espèce, et les **périmètres de zones protégées** (Natura 2000, ZNIEFF I & II,
+  réserves naturelles, parcs nationaux et régionaux, arrêtés de biotope). Les
+  périmètres sont aussi téléchargeables en shapefile/GeoJSON depuis
+  `data.gouv.fr` — préférer le fichier au service web pour un build statique.
+- Champs retenus par ville : nombre d'espèces distinctes, répartition par grand
+  groupe (oiseaux / mammifères / insectes / flore / amphibiens-reptiles), nombre
+  d'espèces protégées ou liste rouge, nombre d'observations, **nombre d'observateurs
+  distincts** (indispensable, voir plus bas), et pour les zones protégées : type,
+  nom, surface intersectant un rayon de 15 km.
+- **Resumable + caché** dans `.cache/city-biodiversity/`, ~1 req/s, backoff sur 429,
+  User-Agent contactable. Sortie `data/city-biodiversity.json`, **commitée lot par
+  lot** (~60 villes par run) — `.cache/` est gitignoré et une routine cloud repart
+  d'un checkout neuf.
+- ⚠️ **Egress** : le proxy des routines cloud a refusé Overpass, Wikidata et
+  `geo.api.gouv.fr` pendant toute la vague 6 (403 CONNECT). Supposer le même refus
+  pour `api.gbif.org` et `inpn.mnhn.fr` : **le crawl part d'une session locale**
+  (l'egress y est vérifié ouvert, cf. CLAUDE.md § enrichissement seed).
+
+**Le piège central — le biais d'effort d'observation.** Le nombre d'occurrences GBIF
+mesure d'abord *combien de naturalistes saisissent des données*, pas combien
+d'espèces vivent là. Paris et Montpellier écrasent n'importe quelle vallée pyrénéenne
+en volume brut. Publier un « score biodiversité » construit sur des occurrences
+brutes produirait un classement faux et défendable par personne. Trois garde-fous,
+non optionnels :
+
+1. **Richesse, pas volume** : compter les *espèces distinctes*, jamais les observations.
+2. **Normaliser par l'effort** : rapporter la richesse au nombre d'observateurs
+   distincts et d'observations (courbe de raréfaction simplifiée, ou espèces par
+   racine du nombre d'observations). Une ville sous un seuil d'effort minimal
+   (à calibrer, ordre de grandeur : < 500 observations ou < 20 observateurs) est
+   déclarée **non mesurable** — la page le dit et n'affiche pas de score.
+3. **Les zones protégées ne sont pas biaisées** : un périmètre Natura 2000 ou une
+   réserve naturelle existe indépendamment de qui l'observe. C'est le composant le
+   plus solide du score et il doit peser en conséquence.
+
+**Composition du score** (`lib/biodiversity.ts`) — trois composantes affichées
+séparément, jamais un chiffre opaque :
+- richesse spécifique normalisée par l'effort (GBIF),
+- couverture en zones protégées à ≤ 15 km, pondérée par le niveau de protection
+  (réserve/parc national > Natura 2000 > ZNIEFF),
+- espaces verts urbains — **réutiliser `data/city-parks.json`** (F59, 540/540 villes
+  relevées, 6 977 parcs) plutôt que de recrawler.
+
+**Convention de score** : « Biodiversité » nomme une **qualité** → `10 = bon` (cf.
+CLAUDE.md § Score convention). Chaque surface énonce ce que 10 signifie. Les jumelles
+FR/EN doivent afficher le même nombre.
+
+**Phase 2 — surfaces**
+- `/villes/[slug]/biodiversite` (+ EN `/cities/[slug]/biodiversity`), SSG
+  **conditionnel** sur la disponibilité de la donnée (pattern `hasParksData`) :
+  pas de page « non mesurable » générée pour rien.
+- Bloc espèces emblématiques du secteur (nom vernaculaire FR quand GBIF le fournit),
+  statut de protection, groupes représentés ; liste des zones protégées avec lien
+  vers la fiche INPN.
+- Carte 🦋 dans la grille de sous-pages de `CityProfile.tsx`, entrée `sitemap.ts`,
+  `alternates.canonical`, JSON-LD `Dataset` + `BreadcrumbList`.
+- Classement `/classements/biodiversite` une fois la couverture suffisante
+  (≥ 300 villes mesurables), + `RANKING_META` et `RANKING_EN`.
+
+**Licences — condition, pas décoration.** GBIF : citer le DOI du téléchargement et les
+licences par jeu (CC0 / CC BY / CC BY-NC — **filtrer NC** comme `LICENSE_OK` filtre les
+photos non libres). INPN/MNHN : mention MNHN + Licence Ouverte Etalab. Attribution
+affichée avec les chiffres, comme les crédits Commons et l'ODbL des parcs.
+
+**Règle d'honnêteté** : aucune ville ne reçoit de score sans effort d'observation
+suffisant, et une ville sans zone protégée à proximité le lit noir sur blanc plutôt
+que de récupérer une moyenne départementale.
 
 ---
 
