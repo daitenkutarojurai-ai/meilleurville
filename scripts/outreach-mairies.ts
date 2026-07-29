@@ -39,6 +39,26 @@ const AXIS_LABEL: Record<string, string> = {
   schools: "écoles",
 };
 
+// Ce qui a pu changer sur le terrain depuis la dernière donnée publiée, par
+// axe : c'est la phrase qui rend la demande de correction crédible plutôt que
+// rhétorique. Un exemple hors sujet (« une ligne de bus » sur une note culture)
+// signale un mail générique.
+const WORST_EXAMPLE: Record<string, string> = {
+  transport:
+    "Une ligne de bus créée, une halte ferroviaire rouverte, un plan vélo déployé depuis la dernière donnée publiée",
+  culture:
+    "Une médiathèque, un cinéma ou une salle de spectacle ouverte depuis la dernière publication",
+  cost: "Un marché du logement qui a bougé depuis la dernière référence notaires ou observatoire des loyers",
+  safety:
+    "Des chiffres de délinquance qui ont baissé depuis l'exercice SSMSI publié",
+  nature: "Un parc, une coulée verte ou une friche renaturée aménagée depuis",
+  schools:
+    "Une école, un collège, un lycée ou une filière ouverte depuis la dernière carte scolaire",
+  remoteWork:
+    "La fibre déployée sur la commune, un espace de coworking ou un tiers-lieu ouvert",
+  life: "Des commerces ou des services réinstallés en centre-ville depuis la dernière donnée",
+};
+
 // Article contracté par département / région — « de Haut-Rhin » sonne faux à
 // l'oreille d'un secrétariat de mairie, et c'est le premier signal de mail
 // automatique. Les entrées absentes retombent sur « de X ».
@@ -214,6 +234,64 @@ async function mairieEmail(inseeCode: string): Promise<string | null> {
   return mairie?.adresse_courriel || null;
 }
 
+// Hook « vérification » (v9+). Le hook « badge » des vagues 5-8 demandait un
+// service à une adresse qui traite de l'état civil : 100 envois, 3 ouvertures,
+// 0 réponse. Celui-ci n'exige rien, montre au destinataire ses voisines
+// classées, et pose la seule question à laquelle une mairie est la mieux placée
+// au monde pour répondre — « cette note basse est-elle fausse ? ». La demande
+// de correction est sincère : une réponse améliore réellement le seed.
+function composeVerification(slug: string) {
+  const f = facts(slug);
+  const c = f.city;
+  const deptArt = DEPT_ARTICLE[c.department] ?? `de ${c.department}`;
+  const worstLabel = AXIS_LABEL[f.worst[0]];
+
+  // Voir ses voisines classées est le contenu ; sous 3 communes le tableau
+  // départemental ne dit rien, on passe au top régional.
+  const useDept = f.deptTotal >= 3;
+  const scope = useDept
+    ? sorted.filter((x) => x.department === c.department)
+    : sorted.filter((x) => x.region === c.region).slice(0, 6);
+  const rows = (useDept ? scope : [...scope, c].filter((x, i, a) => a.indexOf(x) === i))
+    .map((x) => {
+      const r = sorted.findIndex((y) => y.slug === x.slug) + 1;
+      const mark = x.slug === slug ? " ←" : "";
+      return `  ${num(x.scores.global)}/10 — ${x.name} (${ord(r)} sur 540)${mark}`;
+    })
+    .join("\n");
+  const tableTitle = useDept
+    ? `Les ${f.deptTotal} communes ${deptArt} présentes dans notre base, classées :`
+    : `Le haut du classement ${REGION_ARTICLE[c.region] ?? `de ${c.region}`}, où figure ${c.name} :`;
+
+  const subject = `${c.name} : la note « ${worstLabel} » à ${num(f.worst[1])}/10 est-elle juste ?`;
+  const text = `Bonjour,
+
+MaVilleIdéale est un site indépendant qui classe 540 communes françaises sur la qualité de vie, à partir de sources publiques : Insee, SSMSI (délinquance), Météo-France, notaires, observatoires des loyers. ${c.name} y figure, ${ord(f.rank)} sur 540, avec ${num(c.scores.global)}/10.
+
+${tableTitle}
+
+${rows}
+
+Ce qui nous amène vers vous : notre note la plus basse pour ${c.name} est « ${worstLabel} », à ${num(f.worst[1])}/10. C'est un calcul dérivé de données publiques, pas une enquête de terrain — et c'est exactement le genre de note qui vieillit mal. ${WORST_EXAMPLE[f.worst[0]]} : nous n'avons aucun moyen de le savoir depuis nos données.
+
+Si vous savez que cette note est fausse, répondez simplement à ce message en nous disant quoi. Nous corrigeons, la fiche est recalculée le jour même, et nous vous répondons pour vous dire ce qui a changé. Sur 540 communes, les retours des mairies sont la seule chose qui nous empêche de nous tromper durablement.
+
+Rien d'autre à faire de votre côté. Pour information :
+
+Les 540 communes, tous critères, en CSV libre de réutilisation : ${U}/presse
+La fiche de ${c.name} : ${U}/villes/${c.slug}
+Le détail de la méthode et des sources : ${U}/methode
+
+Et si le classement vous convient, il existe un badge libre de droits « ${ord(f.rank)} ville de France » à afficher où vous voulez : ${U}/badge/${c.slug}
+
+Bien cordialement,
+
+Thomas
+MaVilleIdéale — ${U}
+bonjour@mavilleideale.fr`;
+  return { subject, text, rank: f.rank };
+}
+
 function compose(slug: string) {
   const f = facts(slug);
   const c = f.city;
@@ -265,6 +343,7 @@ async function main() {
   const send = process.argv.includes("--send");
   const limit = Number(arg("limit") ?? 10);
   const only = arg("only");
+  const hook = arg("hook") ?? "verification";
   const contacted: string[] = JSON.parse(readFileSync(CONTACTED_PATH, "utf8"));
   const done = new Set(contacted);
 
@@ -281,7 +360,8 @@ async function main() {
       console.log(`—    ${c.name} : aucun courriel déclaré à l'annuaire (portail seul)`);
       continue;
     }
-    const { subject, text, rank } = compose(c.slug);
+    const { subject, text, rank } =
+      hook === "badge" ? compose(c.slug) : composeVerification(c.slug);
     if (!send) {
       console.log(`\n=== ${email} (${c.name}, ${ord(rank)})\nSUJET: ${subject}\n\n${text}\n`);
       continue;

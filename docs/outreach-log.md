@@ -10,9 +10,10 @@ contactées dans `scripts/outreach-contacted.json`.
 | | Envois | Bounces | Ouvertures | Réponses |
 |---|---|---|---|---|
 | Presse (vagues 1-4, relances v5) | 32 | 4 | plusieurs | **1** |
-| Mairies & OT (vagues 5-8) | 68 | 0 | 3 sur 27 mesurées | 0 |
+| Mairies & OT, hook badge (v5-v8) | 68 | 0 | 3 sur 27 mesurées | 0 |
+| Mairies, hook vérification (v9) | 22 | à mesurer | à mesurer | à mesurer |
 
-**137 envois cumulés, 1 réponse.** La seule vraie réponse presse est celle de
+**159 envois cumulés, 1 réponse.** La seule vraie réponse presse est celle de
 Matthieu Renard (La Nouvelle République / NRCO) le 2026-07-22, sur l'angle
 « Amboise 3e » : questions sur les objectifs du site et la méthode de notation,
 réponse envoyée le jour même. Toute demande d'extraction Indre-et-Loire de sa
@@ -38,6 +39,34 @@ par téléphone (action utilisateur).
 - **v8 (2026-07-29)** — 37 mairies, rangs 4 à 75. Première vague résolue par
   code Insee (voir ci-dessous). 3 communes du rang sautées faute de courriel
   déclaré : Paray-le-Monial 27e, Lannion 30e, Albi 48e.
+
+- **v9 (2026-07-29)** — 22 mairies, rangs 76 à 99. **Nouveau hook** (voir
+  ci-dessous) : le badge n'est plus le sujet.
+
+## Le hook a changé en v9
+
+Les vagues 5 à 8 vendaient le badge : « votre ville est Nᵉ, voici le code à
+coller ». 100 envois, 3 ouvertures mesurées, 0 réponse. Le problème n'était pas
+la délivrabilité (0 bounce) mais l'ask : on demandait un service à une adresse
+qui traite de l'état civil, pour un bénéfice abstrait, au nom d'un site inconnu.
+
+Le hook `verification` (défaut du script) inverse la mécanique :
+
+- **l'objet nomme la note la plus basse de la commune et pose une question** —
+  « Saint-Lô : la note "culture" à 5,1/10 est-elle juste ? » ;
+- **le corps affiche le classement du département dans le mail**, en clair —
+  voir ses voisines classées est le contenu ; sous 3 communes classées, on
+  bascule sur le haut du classement régional ;
+- **l'ask est une correction de donnée**, avec un exemple concret adapté à
+  l'axe faible (`WORST_EXAMPLE`) et un engagement de recalcul le jour même ;
+- **le badge est relégué en dernière ligne**, conditionnel.
+
+La demande de correction est sincère et c'est ce qui la rend défendable : une
+réponse de mairie améliore réellement le seed, et c'est la seule chose qu'une
+mairie est mieux placée que quiconque pour donner. À comparer à J+7 : 100 envois
+hook badge contre 22 hook vérification.
+
+`--hook=badge` rejoue l'ancien template si besoin de comparaison.
 
 ## Ce que les vagues ont appris
 
