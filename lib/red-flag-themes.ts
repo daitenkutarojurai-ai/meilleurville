@@ -32,6 +32,7 @@ import { getEducation } from "@/lib/education";
 import { haversineKm } from "@/lib/distances";
 import { sunshineDays } from "@/lib/utils";
 import { projectClimate2040 } from "@/lib/climate-2040";
+import { cityIncome } from "@/lib/city-income";
 
 // Tag patterns that signal a strong seasonal/touristic vocation. Matched on
 // the joined character-tags string (lowercased) of each city seed entry.
@@ -1961,6 +1962,70 @@ function rankManqueDeCreches(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity).slice(0, 15);
 }
 
+// --- THEME 35 — Pauvreté monétaire élevée (Insee Filosofi 2021) ---
+// Cible : bassins urbains où le taux de pauvreté monétaire — part des ménages
+// vivant sous 60 % du niveau de vie médian national, soit environ 1 158 €/mois
+// pour une personne seule (Insee 2021) — dépasse structurellement la moyenne
+// nationale (14,4 %). Distinct de `villes-chomage-eleve` (marché du travail),
+// de `villes-couts-explosifs` (marché du logement) et de `villes-fuite-jeunes-
+// actifs` (dynamique démographique) : ici on isole l'écart de niveau de vie
+// installé, indépendamment de sa cause immédiate. Les conséquences pratiques
+// pèsent au quotidien — carte scolaire tendue, offre commerciale fragilisée,
+// mixité résiduelle en baisse, effet levier sur les loyers du parc social
+// disponible — sans qu'aucune plaquette immobilière ne l'annonce.
+//
+// Filtres : population ≥ 20 000 hab. (sous ce seuil, les variations
+// interannuelles Filosofi deviennent trop bruitées à l'échelle communale),
+// donnée Insee disponible (les cinq DROM hors La Réunion et Pierrefitte-sur-
+// Seine sortent — cf. `lib/city-income.ts`), taux ≥ 22 % (au-delà du seuil
+// national + ~8 points, la commune bascule dans la zone d'attention publique
+// documentée par l'Observatoire national de la politique de la ville).
+function rankPauvreteElevee(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    const pop = city.population ?? 0;
+    if (pop < 20_000) continue;
+    const inc = cityIncome(city.slug);
+    if (!inc || inc.povertyRate == null) continue;
+    const pr = inc.povertyRate;
+    if (pr < 22) continue;
+
+    // Facteur principal : le taux lui-même, normalisé sur [20 % → 0 ; 45 % → 10].
+    // Les extrémités hautes réelles (Roubaix, Aubervilliers, La Courneuve,
+    // certaines communes de La Réunion, Denain) tournent autour de 42-46 %.
+    const povertyFactor = normSeverity(pr, 20, 45);
+    // Amplification par le niveau de vie médian : quand la médiane locale
+    // tombe sous 16 500 €/an (~1 375 €/mois), c'est que la moitié de la
+    // population dispose d'un revenu inférieur au SMIC net à temps plein
+    // — signal d'un bassin où même les ménages « médians » sont fragiles.
+    const incomeBonus =
+      inc.medianIncome < 16_500 ? 1.0 :
+      inc.medianIncome < 18_500 ? 0.6 :
+      inc.medianIncome < 20_500 ? 0.3 : 0;
+    // Bonus densité : à taux égal, un bassin dense concentre plus de ménages
+    // en difficulté, avec des conséquences structurantes sur la carte
+    // scolaire, le maillage santé et l'équilibre du parc locatif.
+    const densityBonus =
+      pop >= 150_000 ? 0.5 :
+      pop >= 60_000 ? 0.3 :
+      pop >= 30_000 ? 0.15 : 0;
+    // Bonus corroboration coût : quand le score coût du seed reste très bas
+    // (≤ 4/10, indice d'un marché immobilier tendu malgré la pauvreté locale),
+    // c'est le pire des cas — les ménages précaires n'ont même pas la
+    // soupape d'un loyer accessible. Typique de la Petite Couronne et de
+    // certaines communes littorales méridionales.
+    const costTension = city.scores.cost <= 4 ? 0.4 : 0;
+
+    const severity = Math.min(10, povertyFactor + incomeBonus + densityBonus + costTension);
+    if (severity < 6) continue;
+
+    const monthly = Math.round(inc.medianIncome / 12 / 10) * 10;
+    const reason = `Taux de pauvreté ${pr} % · niveau de vie médian ${monthly.toLocaleString("fr-FR")} €/mois (Insee Filosofi 2021)`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 15);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -2471,6 +2536,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Severity = base zonale (Paris intra-muros +2,5 · Petite Couronne +2,2 · Grande Couronne +1,5 · Bouches-du-Rhône / Var / Alpes-Maritimes +1,3 · DROM +1,8) + facteur foncier (prix m² ≥ 6 500 € +1,2 · ≥ 5 000 € +0,8 · ≥ 3 500 € +0,4 — la pression foncière signale un profil dual-earner CSP+ à demande de garde inélastique) + facteur densité (≥ 200 000 hab. +0,6 · ≥ 100 000 hab. +0,4 · ≥ 50 000 hab. +0,2) + 0,5 si tag character « jeunes / branché / tech / start-up / étudiant / bobo / dynamique / nomade ». Base neutre 4,5 avant bonus. Clampé à 10/10, filtré à severity ≥ 6, population ≥ 25 000 hab., département dans la liste tendue Onape-CAF 2024, tags ruraux exclus (village / campagne / rural). Sources sous-jacentes : Onape (Observatoire national de la petite enfance) — rapport annuel « L'accueil du jeune enfant » édition 2024 (taux de couverture places de crèche par dept, capacités PMI agréées) ; CNAF — statistiques Cnaf-DSER 2023 sur les modes de garde ; DREES 2023 « L'accueil du jeune enfant » ; Insee 2023 sur les interruptions de carrière liées au défaut de mode de garde ; Ministère des Solidarités — plan « 200 000 places » 2023-2027 (priorisation Île-de-France dense + PACA littorale + DROM). Caveat : le taux Onape est une moyenne départementale — l'écart intra-département peut être fort (une commune du 92 comme Neuilly-sur-Seine dispose d'un maillage privé bien supérieur à Gennevilliers ou Nanterre à taux public équivalent). Le mode de garde alternatif (assistante maternelle indépendante) reste disponible partout mais coûte 2 à 3 fois plus cher net qu'une crèche conventionnée après aides CAF, ce qui n'est pas neutre sur le budget d'un ménage à un ou deux revenus médians. Vérifier avant achat : taux de couverture Onape du département, calendrier de la campagne d'inscription communale (dates limites très strictes en Île-de-France), offre privée conventionnée vs non conventionnée sur le bassin, distance à une assistante maternelle agréée disponible (annuaire départemental accessible via monenfant.fr).",
     rank: rankManqueDeCreches,
+  },
+  {
+    slug: "villes-pauvrete-elevee",
+    title: "Villes où la pauvreté monétaire pèse au quotidien",
+    metaTitle: "Pauvreté monétaire élevée 2026 — Villes Insee Filosofi",
+    metaDescription:
+      "Classement 2026 des villes françaises au taux de pauvreté ≥ 22 % (Insee Filosofi 2021) : bassins urbains fragiles, marché locatif tendu, économie précaire.",
+    emoji: "💸",
+    intro:
+      "L'annonce insiste sur le prix au m² « accessible », la « ville en pleine reconversion », le « quartier qui bouge ». La brochure municipale parle de « dynamique », de « quartier prioritaire en renouvellement ». Personne ne pose la donnée la plus simple : la moitié des ménages du bassin vivent avec un revenu disponible mensuel inférieur à la médiane locale, et une fraction significative — parfois 35 à 45 % — se situe en dessous du seuil national de pauvreté monétaire. Cette réalité n'annule pas les efforts de reconversion, ni ne prédit une trajectoire individuelle — mais elle structure très concrètement la carte scolaire, l'offre commerciale de proximité, l'équilibre du parc locatif et la mixité sociale d'un quartier. Le taux de pauvreté ne se voit pas sur une photo prise à midi le samedi de marché, il se lit dans les statistiques Insee Filosofi et il tient, année après année.",
+    reality:
+      "On classe les villes ≥ 20 000 habitants dont le taux de pauvreté monétaire Insee Filosofi 2021 dépasse 22 % — soit environ 7 à 8 points au-dessus de la moyenne nationale française (14,4 %). Le seuil de pauvreté monétaire mesure la part des personnes vivant dans un ménage dont le niveau de vie (revenu disponible par unité de consommation) est inférieur à 60 % de la médiane nationale, soit près de 1 158 €/mois pour une personne seule en 2021. On amplifie le score quand le niveau de vie médian communal tombe sous 16 500 €/an (~1 375 €/mois — la moitié du bassin dispose de moins que le SMIC net à temps plein), quand la population dépasse le seuil métropolitain (concentration en effectif absolu), et quand le score coût du seed reste très bas malgré la pauvreté locale (marché immobilier tendu qui n'absorbe pas la précarité — typique de la Petite Couronne francilienne et de certaines communes littorales méridionales). En tête sans surprise du classement France : le Nord ex-industriel (Roubaix, Denain, Maubeuge), la Seine-Saint-Denis (Aubervilliers, La Courneuve, Stains, Garges-lès-Gonesse, Villiers-le-Bel, Bondy), l'Oise minière (Creil), plusieurs communes de La Réunion (Saint-Benoît, Saint-André, Saint-Joseph, Saint-Louis, Le Tampon, Saint-Pierre) et l'arc méditerranéen fragilisé (Béziers, Perpignan, Avignon, Forbach en Moselle). Cette géographie n'a rien d'aléatoire — elle recoupe l'héritage industriel du XXᵉ siècle, la déprise post-textile, la structure démographique des communes ultramarines et la tension foncière méridionale.",
+    methodology:
+      "Severity = normSeverity(taux, 20 % → 0, 45 % → 10) + 1,0 si niveau de vie médian < 16 500 €/an (0,6 si < 18 500 · 0,3 si < 20 500) + 0,5 si population ≥ 150 000 hab. (0,3 si ≥ 60 000 · 0,15 si ≥ 30 000) + 0,4 si score coût seed ≤ 4/10 (corroboration marché tendu malgré précarité locale). Clampé à 10/10, filtré à population ≥ 20 000 hab., taux ≥ 22 %, severity ≥ 6/10. Source principale : Insee Filosofi 2021 (Fichier localisé social et fiscal, publication septembre 2024 — statistiques.insee.fr/fr/statistiques/7756729) exploitée via `lib/city-income.ts` (533/540 villes couvertes). Non couvertes : Guadeloupe, Guyane et Mayotte (hors champ Filosofi) et Pierrefitte-sur-Seine (fusionnée dans Saint-Denis en 2025). Références : Insee « Les niveaux de vie en 2021 » (Insee Première n° 1959), ONPV (Observatoire national de la politique de la ville) rapport 2024, INSEE Analyses « Le taux de pauvreté par commune » 2023. Caveat : le taux de pauvreté monétaire ne mesure ni la pauvreté en conditions de vie (privations matérielles, ANAH), ni la précarité énergétique (ONPE), ni la fragilité de la trajectoire (chômage récurrent) — trois autres dimensions que documentent respectivement DREES, ONPE et Pôle Emploi. Le chiffre communal masque aussi l'écart intra-communal : à Roubaix, un IRIS peut afficher 55 % de pauvreté quand un autre du centre reste à 12 %. Vérifier le maillage IRIS Insee sur statistiques-locales.insee.fr avant tout arbitrage résidentiel précis.",
+    rank: rankPauvreteElevee,
   },
 ];
 
