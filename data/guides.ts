@@ -32602,6 +32602,253 @@ export const GUIDES: Guide[] = [
     tags: ["10 choses à faire à Montbéliard", "activités Montbéliard 2026", "sorties Montbéliard", "que faire à Montbéliard", "château Württemberg Lumières Noël Peugeot Sochaux Belfort Doubs"],
   },
   {
+    slug: "10-choses-a-faire-a-aubagne-2026",
+    title: "10 choses à faire à Aubagne (le pays de Marcel Pagnol)",
+    metaTitle: "10 choses à faire à Aubagne 2026 — activités et sorties locales",
+    metaDesc: "Collines de Pagnol, Garlaban, santons, Sainte-Baume, Cassis à 20 km : 10 activités à Aubagne pour découvrir le seuil est de la Provence marseillaise.",
+    category: "tourisme",
+    emoji: "🎭",
+    readMinutes: 6,
+    publishedAt: "2026-07-29",
+    updatedAt: "2026-07-29",
+    intro: "Aubagne est une commune des Bouches-du-Rhône de 46 000 habitants, blottie au pied du massif du Garlaban à 15 km à l'est de Marseille. Ville natale de Marcel Pagnol (1895), elle est indissociable des collines qui ont nourri La Gloire de mon père et Le Château de ma mère. Capitale mondiale du santon provençal (plus d'une dizaine d'ateliers en activité, dont Scaturro et Di Landro), elle abrite depuis 1962 la Maison mère de la Légion étrangère à la caserne Viénot. Aubagne est aussi la porte est de la Provence marseillaise : Cassis à 20 km, Cassidaigne et les Calanques à moins d'une heure, la Sainte-Baume à 25 min.",
+    sections: [
+      {
+        heading: "1. Les Collines de Pagnol — le circuit du Garlaban",
+        body: "Le massif du Garlaban (714 m), à 5 min du centre, est le décor grandeur nature des souvenirs d'enfance de Marcel Pagnol. Le circuit balisé des Collines de Pagnol (départ La Treille, environ 3 h aller-retour) passe par la Baume-Sourne, la grotte du Grosibou et le sommet du Taoumé. On y retrouve les lieux exacts nommés dans les romans, panorama à 360° de la baie de Marseille à la Sainte-Baume. L'Office de tourisme organise aussi des randonnées commentées.",
+      },
+      {
+        heading: "2. Le Petit Monde de Marcel Pagnol",
+        body: "Au cœur d'Aubagne, le Petit Monde de Marcel Pagnol (esplanade De-Gaulle, entrée libre) est une galerie de santons animés grandeur nature reconstituant les personnages du cycle Pagnol : Manon, César, Marius, Panisse, Ugolin, le grand-père Jules. Complément indispensable : la maison natale de Pagnol (16 cours Barthélemy), transformée en petit musée par la ville, ouverte les après-midis en saison.",
+      },
+      {
+        heading: "3. Les santons — la tradition provençale",
+        body: "Aubagne est la capitale du santon provençal : la matière première, l'argile rouge du terroir, est extraite localement depuis le XVIIIe siècle. Une dizaine d'ateliers ouvrent leurs portes toute l'année (Santons Scaturro, Di Landro, Fouque, Chave), et la biennale internationale Argilla (chaque deux ans, en août) réunit plus de 100 exposants. L'Office de tourisme propose un plan-parcours reliant les principaux santonniers.",
+      },
+      {
+        heading: "4. Le marché provençal du cours Voltaire",
+        body: "Le marché du cours Voltaire (mardi, jeudi, samedi matin, complété d'un marché paysan le dimanche) est l'un des plus vivants de la Provence intérieure. Fruits et légumes de la vallée de l'Huveaune, huile d'olive AOP Aix-en-Provence, tapenades, calissons, fromages de chèvre du Garlaban. Le samedi, brocante et bouquinistes s'ajoutent sur la place Joseph-Rau adjacente.",
+      },
+      {
+        heading: "5. La Sainte-Baume — grotte de Marie-Madeleine",
+        body: "Le massif de la Sainte-Baume, à 25 min en voiture au sud-est, culmine à 1 148 m au Saint-Pilon. La grotte de Marie-Madeleine (où la tradition situe la retraite de la sainte, pèlerinage attesté depuis le XIIIe siècle) s'atteint depuis l'Hostellerie par un chemin ombragé de 40 min à travers la forêt relique de hêtres, l'une des plus septentrionales de Provence. Vue exceptionnelle depuis le Saint-Pilon sur la Provence intérieure.",
+      },
+      {
+        heading: "6. Cassis et les Calanques — à 20 km",
+        body: "Cassis, à 20 km au sud, est le pied-à-terre nautique le plus court d'Aubagne pour rejoindre les Calanques. Depuis le port, navettes vers Port-Miou, Port-Pin et En-Vau (calanque la plus emblématique, plage de galets blancs entre falaises de calcaire). Le Cap Canaille (394 m) au-dessus de Cassis est la plus haute falaise maritime de France. Retour possible par la route des Crêtes, panorama continu sur la Méditerranée.",
+      },
+      {
+        heading: "7. Le parc de Saint-Pons — Gémenos",
+        body: "Le parc départemental de Saint-Pons, à Gémenos (8 km à l'est d'Aubagne, accès libre), est l'un des poumons verts de la métropole aixo-marseillaise. Ancienne abbaye cistercienne du XIIIe siècle en ruines, cascades du Fauge, sentiers ombragés sous les platanes centenaires et les frênes du vallon. Aire de pique-nique aménagée, très fréquenté le week-end.",
+      },
+      {
+        heading: "8. La Légion étrangère — le musée",
+        body: "La caserne Viénot d'Aubagne abrite depuis 1962 la Maison mère de la Légion étrangère. Le musée de la Légion (entrée libre pour les particuliers, présentation d'une pièce d'identité obligatoire) retrace les 190 ans d'histoire du corps depuis 1831 : campagnes du Second Empire, Indochine, Diên Biên Phu, Algérie, opérations extérieures récentes. Le camp de la Demande adjacent est classé monument historique.",
+      },
+      {
+        heading: "9. Le Petit Train touristique et la vieille ville",
+        body: "Le Petit Train touristique d'Aubagne (départ esplanade De-Gaulle, saison estivale) fait une boucle commentée par la vieille ville, la porte Gachiou, la Tour de l'Horloge (XVIe siècle, tour Guillaume) et la chapelle des Pénitents-Noirs. À pied, la balade dans les venelles médiévales du centre ancien reste courte (moins d'1 h) mais bien préservée : le tissu urbain du XVIIe siècle est resté intact.",
+      },
+      {
+        heading: "10. Gastronomie provençale — pieds-paquets et olive",
+        body: "La table aubagnaise est provençale classique : pieds et paquets à la marseillaise (tripes de mouton en ragoût de vin blanc, spécialité de la cité voisine), soupe au pistou, panisse (galette de pois chiche frite), navettes de Saint-Victor et calissons d'Aix-en-Provence à 30 km. L'huile d'olive de la vallée des Baux (AOP à 1 h) et celle d'Aix-en-Provence AOP se croisent sur les tables. Côté vins : Cassis AOC (blancs de marsanne-clairette pour la bouillabaisse), Bandol AOC (rouges de mourvèdre, à 30 km).",
+      },
+    ],
+    relatedCities: ["aubagne", "marseille", "cassis", "la-ciotat", "allauch", "aix-en-provence"],
+    relatedGuides: [
+      "vivre-en-provence-paca-guide-2025",
+      "10-choses-a-faire-a-marseille-2026",
+      "10-choses-a-faire-a-cassis-2026",
+      "vivre-au-vert-pres-de-marseille-1h-2026",
+    ],
+    tags: ["10 choses à faire à Aubagne", "activités Aubagne 2026", "sorties Aubagne", "que faire à Aubagne", "Marcel Pagnol Garlaban santons Sainte-Baume Cassis Provence"],
+  },
+  {
+    slug: "10-choses-a-faire-a-anglet-2026",
+    title: "10 choses à faire à Anglet (la côte basque côté surf)",
+    metaTitle: "10 choses à faire à Anglet 2026 — activités et sorties locales",
+    metaDesc: "Chambre d'Amour, plage des Cavaliers, forêt du Pignada, golf de Chiberta, Bayonne et Biarritz à 5 min : 10 activités à Anglet sur la côte basque.",
+    category: "tourisme",
+    emoji: "🏄",
+    readMinutes: 6,
+    publishedAt: "2026-07-29",
+    updatedAt: "2026-07-29",
+    intro: "Anglet est une commune des Pyrénées-Atlantiques de 40 000 habitants, coincée entre Bayonne au nord et Biarritz au sud, sur la conurbation BAB. Longue de 4,5 km de plages océanes, elle est l'un des spots de surf majeurs de la côte basque : les Cavaliers, la Madrague et la plage des Sables d'Or accueillent chaque année les compétitions internationales de la fédération française de surf. Le poumon vert du territoire est la forêt du Pignada, 220 hectares de pins maritimes plantés au XIXe siècle pour fixer les dunes, aujourd'hui parcourus de sentiers, pistes cyclables et parcours d'orientation.",
+    sections: [
+      {
+        heading: "1. La Chambre d'Amour — la plage historique",
+        body: "La plage de la Chambre d'Amour, la plus au sud d'Anglet à la limite de Biarritz, tire son nom d'une grotte du même nom au pied de la falaise du phare, associée à la légende de deux amants surpris par la marée. Vaste étendue de sable où le surf domine, promenade aménagée le long de la falaise avec point de vue exceptionnel sur la baie de Biscaye, l'Espagne au sud et la côte des Landes au nord. Le petit phare de la Chambre d'Amour (1918) fait face au sémaphore.",
+      },
+      {
+        heading: "2. Les plages surf — Cavaliers, Marinella, Madrague",
+        body: "La côte d'Anglet aligne 4,5 km de plages en descendant de l'Adour à la Chambre d'Amour : la Barre (embouchure), les Cavaliers (spot compétition, plage la plus large), la Madrague, les Corsaires, Marinella, les Sables d'Or, l'Océan et la Petite Chambre d'Amour. Les Cavaliers accueillent chaque année une étape du QS (Qualifying Series) de la World Surf League. Ecoles de surf ouvertes de mai à octobre, location de planches à la journée.",
+      },
+      {
+        heading: "3. La forêt du Pignada — le poumon vert",
+        body: "La forêt du Pignada (220 hectares de pins maritimes), au cœur d'Anglet entre l'Adour et le quartier de Chiberta, a été plantée au XIXe siècle pour fixer les dunes littorales et créer une ceinture verte à l'ancien maréchage. Aujourd'hui : sentiers piétons, pistes cyclables, parcours de santé, aire de jeux pour enfants, arboretum. Nombreux lapins et écureuils, très fréquentée par les Angloys pour le sport quotidien et les promenades familiales.",
+      },
+      {
+        heading: "4. Le golf de Chiberta — 1927, links",
+        body: "Le golf de Chiberta (dessiné en 1927 par l'architecte britannique Tom Simpson, dans le quartier résidentiel de Chiberta) est l'un des rares vrais golf de links en France : 18 trous, moitié dans les pins et moitié en bord de mer. Considéré parmi les 30 plus beaux parcours de France, il accueille des compétitions internationales. Green fees élevés en haute saison, réservation impérative. Adjacent au lac de Chiberta (baignade non surveillée) et à la forêt.",
+      },
+      {
+        heading: "5. La Barre — embouchure de l'Adour",
+        body: "La Barre est le nom donné à l'embouchure de l'Adour, à l'extrême nord d'Anglet, où le fleuve rencontre l'océan Atlantique. Le point de vue depuis les digues offre une vue rare : la Corniche basque au sud, la plage d'Anglet à l'ouest, les Landes de Gascogne au nord. Le port de l'Adour partagé avec Bayonne y débouche, activité de pêche et de commerce toujours vivante. Spot de surf réservé aux expérimentés (courants forts, vagues puissantes).",
+      },
+      {
+        heading: "6. Bayonne — à 5 min au nord",
+        body: "Bayonne, capitale du Pays basque français, jouxte directement Anglet au nord. Cathédrale Sainte-Marie gothique, cloître XIVe siècle, remparts Vauban, quartier du Petit Bayonne, marché des Halles (l'un des meilleurs de France), musée basque, jambon de Bayonne AOP, chocolat historique (introduit à Bayonne par les juifs de Portugal au XVIIe siècle). Depuis Anglet, le tram T1 (Tram'bus BAB) relie la mairie de Bayonne en une vingtaine de minutes.",
+      },
+      {
+        heading: "7. Biarritz — à 5 min au sud",
+        body: "Biarritz, ancienne station balnéaire impériale, jouxte Anglet au sud à hauteur de la Chambre d'Amour. Grande Plage, phare de la Pointe Saint-Martin (1834, 44 m), Rocher de la Vierge, Musée de la Mer avec l'un des grands aquariums d'Europe, Villa Belza, hôtel du Palais construit par Napoléon III pour l'impératrice Eugénie. Le circuit à pied longeant la corniche depuis la Chambre d'Amour jusqu'à la Grande Plage prend une heure et enchaîne les panoramas.",
+      },
+      {
+        heading: "8. La Villa Beatrix Enea — art contemporain",
+        body: "La Villa Beatrix Enea (avenue Beatrix-Enea, entrée libre en dehors des vernissages) est un centre d'art contemporain municipal installé dans une villa basque du début du XXe siècle, entourée d'un parc de 4 hectares avec sculptures monumentales. Programmation d'expositions temporaires renouvelées tous les 2-3 mois. Adjacent : Villa Beatrix Enea (café-restaurant dans le parc) et la médiathèque Quintaou dans un bâtiment contemporain remarqué.",
+      },
+      {
+        heading: "9. Le lac de Chiberta et les étangs",
+        body: "Le lac de Chiberta (18 hectares, dans le quartier résidentiel du même nom) est un ancien étang de barre entre la forêt du Pignada et l'océan. Sentier piéton faisant le tour (2 km, 30 min), pêche autorisée avec carte, aire de pique-nique, birdwatching (aigrettes, hérons cendrés, canards migrateurs). Baignade non surveillée mais pratiquée. À proximité : les étangs d'Iraty et le canal de la Nive, réseau de zones humides angloyes protégées.",
+      },
+      {
+        heading: "10. Gastronomie basque — piment et Espelette",
+        body: "La table angloye est basque : jambon de Bayonne AOP (affiné 7 à 20 mois), axoa de veau au piment d'Espelette AOP, chipirons à l'encre, ttoro (soupe de poissons de la côte), poulet basquaise, gâteau basque à la cerise noire d'Itxassou. Le piment d'Espelette AOP (cultivé dans 10 communes du Labourd à 30 min à l'intérieur) est le condiment identitaire. Côté vins : Irouléguy AOC (rouges de tannat, blancs de gros manseng, unique AOC basque française). Côté cidre : txotx d'Astigarraga côté espagnol, à 40 min.",
+      },
+    ],
+    relatedCities: ["anglet", "bayonne", "biarritz", "saint-jean-de-luz", "hendaye"],
+    relatedGuides: [
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+      "10-choses-a-faire-a-bayonne-2026",
+      "10-choses-a-faire-a-biarritz-2026",
+      "10-choses-a-faire-a-saint-jean-de-luz-2026",
+    ],
+    tags: ["10 choses à faire à Anglet", "activités Anglet 2026", "sorties Anglet", "que faire à Anglet", "Chambre d'Amour Cavaliers Pignada Chiberta surf Pays basque"],
+  },
+  {
+    slug: "10-choses-a-faire-a-autun-2026",
+    title: "10 choses à faire à Autun (la sœur romaine de Rome en Morvan)",
+    metaTitle: "10 choses à faire à Autun 2026 — activités et sorties locales",
+    metaDesc: "Cathédrale Saint-Lazare, théâtre romain, portes gallo-romaines, Bibracte et parc du Morvan : 10 activités à Autun pour découvrir Augustodunum.",
+    category: "tourisme",
+    emoji: "🏛️",
+    readMinutes: 6,
+    publishedAt: "2026-07-29",
+    updatedAt: "2026-07-29",
+    intro: "Autun est une commune de Saône-et-Loire de 13 000 habitants, aux portes du parc naturel régional du Morvan. Fondée vers 15 av. J.-C. par l'empereur Auguste sous le nom d'Augustodunum pour remplacer l'oppidum gaulois voisin de Bibracte, elle a été qualifiée par les Romains eux-mêmes de « sœur et rivale de Rome ». Son théâtre gallo-romain reste l'un des plus vastes de l'ancien Empire (147 m de diamètre, 20 000 places), et sa cathédrale Saint-Lazare, chef-d'œuvre roman du XIIe siècle, abrite le seul tympan de Bourgogne signé par son sculpteur : « Gislebertus hoc fecit ».",
+    sections: [
+      {
+        heading: "1. La cathédrale Saint-Lazare — le tympan de Gislebertus",
+        body: "La cathédrale Saint-Lazare (bâtie de 1120 à 1146 pour accueillir les reliques de Lazare de Béthanie) est l'un des chefs-d'œuvre de l'art roman bourguignon. Le tympan du portail central, sculpté vers 1130-1135, représente un Jugement dernier d'une expressivité rare pour l'époque et porte, chose exceptionnelle, la signature de son auteur : « Gislebertus hoc fecit ». Chapiteaux figurés du chœur (Fuite en Égypte, Rêve des Mages) démontés et conservés dans la salle capitulaire.",
+      },
+      {
+        heading: "2. Le théâtre romain — 20 000 places",
+        body: "Le théâtre romain d'Autun (IIe siècle, à la sortie est de la ville) est l'un des plus grands de la Gaule romaine : 147 m de diamètre, gradins pouvant accueillir près de 20 000 spectateurs. Fouillé au XIXe siècle, il conserve encore trois rangs de gradins visibles, et sert de scène estivale à des spectacles historiques (« Il était une fois Augustodunum », plusieurs soirées en août avec 600 figurants bénévoles). Accès libre en journée.",
+      },
+      {
+        heading: "3. Les portes romaines — Saint-André et d'Arroux",
+        body: "Deux des quatre portes originelles de l'enceinte romaine subsistent, parmi les mieux conservées de France. La porte Saint-André (Ier siècle, quatre arcades sur deux niveaux) garde ses hauteurs quasi complètes. La porte d'Arroux (Ier siècle, à l'ouest) est l'entrée nord de la Via Agrippa qui reliait Lyon à Boulogne-sur-Mer. Style corinthien à pilastres cannelés, exemple précoce de l'architecture romaine provinciale.",
+      },
+      {
+        heading: "4. Le temple de Janus et le musée Rolin",
+        body: "Le temple dit « de Janus » (Ier siècle, dans une plaine au nord-ouest de la ville) est un fanum gallo-romain de plan carré, dont deux murs de 24 m subsistent. Le musée Rolin (installé dans l'hôtel Rolin du XVe siècle, résidence du chancelier Nicolas Rolin, fondateur des Hospices de Beaune) présente statuaire gallo-romaine, mosaïques d'Autun, tympan de Gislebertus (chef-d'œuvre d'Ève sculpté en 1130) et primitifs bourguignons. Fermé le mardi.",
+      },
+      {
+        heading: "5. La pyramide de Couhard — le mystère funéraire",
+        body: "La pyramide de Couhard (Ier-IIe siècle, hauteur actuelle 27 m), à 1,5 km au sud-est du centre au sommet d'une colline, est un mausolée gallo-romain de type cénotaphe, sans doute élevé à la mémoire d'un notable romain. Sa fonction exacte reste débattue depuis le XIXe siècle. Le sentier d'accès (20 min à pied depuis le centre) offre en fin de parcours un panorama sur la ville et la vallée de l'Arroux.",
+      },
+      {
+        heading: "6. Bibracte — l'oppidum gaulois",
+        body: "Bibracte (à 25 km au sud-ouest d'Autun, sur le Mont Beuvray dans le Morvan) est le grand oppidum éduen où Vercingétorix fut proclamé chef de la coalition gauloise en 52 av. J.-C. et où César écrivit ses Commentaires sur la Guerre des Gaules. Site majeur classé, ouvert d'avril à novembre. Musée archéologique moderne au pied du site, promenade sur les 200 hectares de l'oppidum sous les hêtres pluricentenaires. Compter une journée.",
+      },
+      {
+        heading: "7. Le parc naturel régional du Morvan",
+        body: "Autun est la porte est du parc naturel régional du Morvan (créé en 1970, 281 000 hectares, seul massif granitique de Bourgogne). Randonnées balisées, lacs de barrage (Pannecière, les Settons, Saint-Agnan), forêts de hêtres, châteaux (Bazoches, Chastellux). L'écomusée du Morvan est réparti sur plusieurs sites thématiques dont la Maison des Nourrices à Saint-Léger-sous-Beuvray, mémoire des nourrices morvandelles envoyées à Paris au XIXe siècle.",
+      },
+      {
+        heading: "8. Le musée d'Histoire naturelle — le lycée militaire",
+        body: "Le musée d'histoire naturelle d'Autun (dans l'ancien évêché, gratuit) abrite l'une des plus riches collections paléontologiques de province, avec spécimens du Permien du bassin d'Autun (l'ère géologique de « l'Autunien » lui doit son nom, référence mondiale). À voir aussi : le lycée militaire d'Autun (ancien collège des Jésuites du XVIIe siècle, fondé par le cardinal Louis de Bonald), dont la chapelle et la façade se visitent aux Journées du Patrimoine.",
+      },
+      {
+        heading: "9. Le lac du Vallon et la promenade des Marbres",
+        body: "Le lac artificiel du Vallon (au pied des remparts sud, gratuit) est le poumon récréatif de la ville : plage aménagée en été, baignade surveillée, pédalos, tour à pied ou à vélo (1,5 km). La promenade des Marbres, allée de tilleuls tricentenaires au sud-est, est le mail historique dessiné au XVIIe siècle, encore aujourd'hui lieu de flânerie familiale. Petit train touristique estival au départ du centre-ville.",
+      },
+      {
+        heading: "10. Gastronomie morvandelle — jambon persillé et charolais",
+        body: "La table autunoise est bourguignonne et morvandelle : jambon persillé de Bourgogne, œufs en meurette, bœuf bourguignon au vin de la Côte, boudin de Ligny (spécialité), râble de lièvre à la Piron. Charolais AOC (élevage majeur du sud Morvan). Fromages : époisses AOP à 60 km, chaource, soumaintrain. Sucré : anis de Flavigny (à 60 km), gaufrettes de Mâcon. Vins : Bourgogne Côte Chalonnaise (Mercurey, Rully) à 40 km, plus proche que la Côte de Nuits, rapport prix-plaisir souvent supérieur aux crus prestigieux.",
+      },
+    ],
+    relatedCities: ["autun", "beaune", "chalon-sur-saone", "macon", "dijon", "nevers"],
+    relatedGuides: [
+      "vivre-en-bourgogne-franche-comte-guide-2025",
+      "10-choses-a-faire-a-beaune-2026",
+      "10-choses-a-faire-a-dijon-2026",
+    ],
+    tags: ["10 choses à faire à Autun", "activités Autun 2026", "sorties Autun", "que faire à Autun", "cathédrale Saint-Lazare Gislebertus théâtre romain Bibracte Morvan"],
+  },
+  {
+    slug: "10-choses-a-faire-a-bagneres-de-bigorre-2026",
+    title: "10 choses à faire à Bagnères-de-Bigorre (les Pyrénées thermales et le Pic du Midi)",
+    metaTitle: "10 choses à faire à Bagnères-de-Bigorre 2026 — activités locales",
+    metaDesc: "Thermes, Pic du Midi, Grand Tourmalet, grottes de Médous, Payolle : 10 activités à Bagnères-de-Bigorre pour découvrir les Pyrénées centrales.",
+    category: "tourisme",
+    emoji: "⛰️",
+    readMinutes: 6,
+    publishedAt: "2026-07-29",
+    updatedAt: "2026-07-29",
+    intro: "Bagnères-de-Bigorre est une commune des Hautes-Pyrénées de 7 500 habitants, adossée aux premiers contreforts pyrénéens dans la vallée de l'Adour. Station thermale exploitée depuis l'époque romaine (les Aquae Bigerrionum), elle est l'une des plus anciennes stations d'Occitanie et l'une des rares à cumuler thermalisme historique et proximité immédiate d'un domaine skiable de niveau national : le Grand Tourmalet, plus grand domaine des Pyrénées françaises (100 km de pistes, La Mongie à 30 min), et son emblème le Pic du Midi de Bigorre à 2 877 m, coiffé de son observatoire astronomique et de son téléphérique.",
+    sections: [
+      {
+        heading: "1. Le Pic du Midi de Bigorre — 2 877 m",
+        body: "Le Pic du Midi de Bigorre (2 877 m, à 40 min en voiture puis téléphérique depuis La Mongie) est l'un des plus beaux belvédères d'Europe. Site classé Grand Site de France et Réserve internationale de ciel étoilé (la première d'Europe, 2013). L'observatoire astronomique, fondé en 1878, reste en activité pour la recherche scientifique et se visite (musée, terrasses panoramiques, ponton dans le vide). Nuitées possibles à l'hôtel du sommet pour observer la voie lactée.",
+      },
+      {
+        heading: "2. Les thermes de Bagnères — Aquae Bigerrionum",
+        body: "Les Grands Thermes de Bagnères (établissement thermal de 1823, façade néoclassique classée) exploitent 8 sources chaudes (32 à 50 °C) connues depuis l'époque romaine. Orientation : rhumatologie et affections des voies respiratoires. Aquensis (institut voisin), spa thermoludique moderne ouvert au grand public sans prescription médicale (piscines à jets, bains bouillonnants, hammam, sauna), l'une des rares alternatives ludiques d'un centre thermal encore actif.",
+      },
+      {
+        heading: "3. Le Grand Tourmalet — La Mongie et Barèges",
+        body: "Le domaine skiable du Grand Tourmalet (100 km de pistes reliées entre La Mongie à 30 min et Barèges au sud, altitude jusqu'à 2 500 m) est le plus grand des Pyrénées françaises. 69 pistes tous niveaux, snowparks, itinéraires hors-piste célèbres (couloir de la Mongie, itinéraire des Trois Vallées). Enneigement fiable de décembre à avril grâce à l'altitude. Hors saison de neige : VTT électrique, randonnée en télésiège, luge d'été.",
+      },
+      {
+        heading: "4. Les grottes de Médous — la rivière souterraine",
+        body: "Les grottes de Médous (à 4 km au sud de Bagnères, dans la commune d'Asté) sont un réseau karstique découvert en 1948, l'un des plus beaux des Pyrénées. Visite guidée en 1 h (1 km parcouru dont 250 m en barque sur la rivière souterraine, l'Adour de Payolle). Concrétions blanches remarquables : draperies, orgues, colonne unique dite « la sultane ». Température constante 12 °C. Ouvert de Pâques à la Toussaint.",
+      },
+      {
+        heading: "5. Le gouffre d'Esparros — les fistuleuses",
+        body: "Le gouffre d'Esparros (à 25 km au nord-est de Bagnères, dans le massif de la Baronnies) est une cavité classée réserve naturelle nationale (1997) pour la beauté de ses concrétions aragonitiques : forêts de fistuleuses (concrétions cristallines en aiguilles fines comme des cheveux, uniques par leur densité en Europe). Visite guidée limitée pour préserver le climat de la cavité, réservation impérative. Ouvert d'avril à novembre.",
+      },
+      {
+        heading: "6. Le lac et le col de Payolle — vallée de Campan",
+        body: "Le lac de Payolle (1 130 m, à 25 min en voiture au sud de Bagnères, sur la route d'Ancizan) est un ancien lac glaciaire aménagé, encadré de forêts d'épicéas et de la crête des Baronnies. Pêche à la truite, sentier de tour du lac (5 km), aire de pique-nique, ski de fond en hiver (30 km de pistes damées). Le col d'Aspin voisin (1 490 m, classique du Tour de France, brebis noires en estive) offre l'un des panoramas emblématiques des Pyrénées centrales.",
+      },
+      {
+        heading: "7. Le musée du Marbre — patrimoine industriel",
+        body: "Le musée du Marbre (2 allée Tournefort, ouvert de mai à octobre) retrace l'exploitation des marbres des Pyrénées, activité majeure de la vallée de l'Adour du XVIIe au XXe siècle. Le marbre de Campan (vert, rouge « griotte », gris à veines fines) a orné la galerie des Glaces de Versailles, l'Opéra Garnier, le Trianon et de nombreux monuments d'Amérique du Nord. Ateliers de sculpteurs restaurés, échantillons de toutes les carrières pyrénéennes.",
+      },
+      {
+        heading: "8. Le Bédat — la balade panoramique",
+        body: "Le Bédat (881 m) est la colline emblématique qui surplombe Bagnères à l'ouest, coiffée d'une statue monumentale de la Vierge (1857, 5 m de haut, offerte par la ville en remerciement à la Vierge lors de l'épidémie de choléra). L'ascension à pied depuis le centre (1 h par le chemin balisé) offre un panorama complet sur la chaîne des Pyrénées, du Pic du Midi à la Barousse. Route carrossable en alternative jusqu'à 500 m du sommet.",
+      },
+      {
+        heading: "9. Lourdes et le sanctuaire — à 20 km",
+        body: "Lourdes, à 20 km à l'ouest, est le 2e site touristique de France en nombre de visiteurs (après Paris). Sanctuaire de Notre-Dame-de-Lourdes (grotte de Massabielle des apparitions de 1858, basilique du Rosaire et de l'Immaculée-Conception superposées), musée pyrénéen dans le château fort médiéval, funiculaire du Pic du Jer (panorama sur le Lavedan). Fréquentation de mai à octobre, pèlerinages internationaux au 15 août.",
+      },
+      {
+        heading: "10. Gastronomie pyrénéenne — garbure et noir de Bigorre",
+        body: "La table bagnéraise est pyrénéenne : garbure (soupe épaisse aux légumes, chou, haricots, confit de canard), Noir de Bigorre AOP (porc noir de race gasconne, jambon affiné 20-24 mois), agneau de lait des Pyrénées IGP, tourteau bigourdan (galette au flan). Fromages : brebis des Pyrénées AOP (Ossau-Iraty à 1 h), tommes de Campan et de vaches d'estive. Sucré : gâteau à la broche pyrénéen, moelleux au Madiran. Vins : Madiran AOC et Pacherenc-du-Vic-Bilh (à 1 h au nord, tannat sec ou moelleux).",
+      },
+    ],
+    relatedCities: ["bagneres-de-bigorre", "tarbes", "lourdes", "pau"],
+    relatedGuides: [
+      "vivre-en-occitanie-guide-2026",
+      "10-choses-a-faire-a-lourdes-2026",
+      "10-choses-a-faire-a-tarbes-2026",
+      "10-choses-a-faire-a-pau-2026",
+    ],
+    tags: ["10 choses à faire à Bagnères-de-Bigorre", "activités Bagnères 2026", "sorties Bagnères-de-Bigorre", "que faire à Bagnères", "Pic du Midi Grand Tourmalet Payolle Médous thermes Pyrénées"],
+  },
+  {
     slug: "meilleures-villes-marches-couverts-france-2026",
     title: "Vivre près d'un marché couvert : les meilleures villes françaises en 2026",
     metaTitle: "Marchés couverts France 2026 — Vivre tout près au quotidien",
