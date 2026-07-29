@@ -5,6 +5,17 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { computeDemography, type DemoLevel } from "@/lib/demography";
+import {
+  AGE_LABELS_EN,
+  INSEE_POP_BASE_YEAR,
+  INSEE_POP_SOURCE_URL,
+  INSEE_POP_YEAR,
+  ageDistribution,
+  cityPopulation,
+  populationTrend,
+  seniorShare,
+  youthShare,
+} from "@/lib/city-population";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
 
@@ -57,6 +68,11 @@ export default async function EnCityDemographics({ params }: Props) {
   if (!c) notFound();
 
   const demo = computeDemography(c);
+  const pop = cityPopulation(c.slug);
+  const trend = populationTrend(c.slug);
+  const seniors = seniorShare(c.slug);
+  const youth = youthShare(c.slug);
+  const ages = ageDistribution(c.slug);
   // The lib composite is 0-10 where 10 = worst (declining). Present "10 = best".
   const score = Math.round((10 - demo.composite) * 10) / 10;
 
@@ -102,6 +118,99 @@ export default async function EnCityDemographics({ params }: Props) {
           );
         })}
       </section>
+
+      {pop ? (
+        <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6">
+          <h2 className="text-xl font-bold text-[var(--text-primary)] mb-3">
+            Census figures
+          </h2>
+          <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+              <div>
+                <div className="text-2xl font-bold font-mono-data text-[var(--text-primary)]">
+                  {pop.pop2022.toLocaleString("en-GB")}
+                </div>
+                <div className="text-xs text-[var(--text-secondary)]">
+                  residents in {INSEE_POP_YEAR}
+                </div>
+              </div>
+              {trend ? (
+                <div>
+                  <div
+                    className={`text-2xl font-bold font-mono-data ${
+                      trend.direction === "hausse"
+                        ? "text-emerald-600"
+                        : trend.direction === "baisse"
+                          ? "text-orange-600"
+                          : "text-[var(--text-primary)]"
+                    }`}
+                  >
+                    {trend.changePct > 0 ? "+" : ""}
+                    {trend.changePct.toFixed(1)}%
+                  </div>
+                  <div className="text-xs text-[var(--text-secondary)]">
+                    since {INSEE_POP_BASE_YEAR}
+                  </div>
+                </div>
+              ) : null}
+              {seniors !== null ? (
+                <div>
+                  <div className="text-2xl font-bold font-mono-data text-[var(--text-primary)]">
+                    {seniors.toFixed(1)}%
+                  </div>
+                  <div className="text-xs text-[var(--text-secondary)]">
+                    aged 60+ <span className="opacity-70">(France ≈ 28%)</span>
+                  </div>
+                </div>
+              ) : null}
+              {youth !== null ? (
+                <div>
+                  <div className="text-2xl font-bold font-mono-data text-[var(--text-primary)]">
+                    {youth.toFixed(1)}%
+                  </div>
+                  <div className="text-xs text-[var(--text-secondary)]">
+                    under 30 <span className="opacity-70">(France ≈ 34%)</span>
+                  </div>
+                </div>
+              ) : null}
+            </div>
+
+            {ages ? (
+              <div className="mt-6 space-y-1.5">
+                {ages.map((a) => (
+                  <div key={a.key} className="flex items-center gap-3 text-xs">
+                    <span className="w-16 shrink-0 text-[var(--text-secondary)]">
+                      {AGE_LABELS_EN[a.key]}
+                    </span>
+                    <span className="flex-1 h-3 rounded bg-[var(--bg-subtle)] overflow-hidden">
+                      <span
+                        className="block h-full rounded bg-[var(--accent)]"
+                        style={{ width: `${Math.min(100, a.share * 3)}%` }}
+                      />
+                    </span>
+                    <span className="w-14 shrink-0 text-right font-mono-data text-[var(--text-secondary)]">
+                      {a.share.toFixed(1)}%
+                    </span>
+                  </div>
+                ))}
+              </div>
+            ) : null}
+
+            <p className="mt-4 text-xs text-[var(--text-secondary)]">
+              Measured commune by commune, not estimated. Source:{" "}
+              <a
+                href={INSEE_POP_SOURCE_URL}
+                target="_blank"
+                rel="noreferrer"
+                className="text-[var(--accent)] hover:underline"
+              >
+                Insee, {INSEE_POP_YEAR} population census
+              </a>{" "}
+              (Etalab Open Licence).
+            </p>
+          </div>
+        </section>
+      ) : null}
 
       <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6">
         <h2 className="text-xl font-bold text-[var(--text-primary)] mb-3">Why the age curve matters</h2>

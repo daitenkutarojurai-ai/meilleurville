@@ -20,6 +20,15 @@ import {
   INCOME_SOURCE_URL,
   MEDIAN_OF_CITIES,
 } from "@/lib/city-income";
+import {
+  INSEE_POP_BASE_YEAR,
+  INSEE_POP_CREDIT,
+  INSEE_POP_SOURCE_URL,
+  INSEE_POP_YEAR,
+  cityPopulation,
+  populationTrend,
+  seniorShare,
+} from "@/lib/city-population";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -97,8 +106,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
-  const bucket = popBucket(city.population);
-  const pop = city.population ? `${formatNumber(city.population)} hab.` : "population indicative";
+  // Population Insee mesurée quand elle existe : la meta ne doit pas annoncer
+  // un chiffre que la page contredit trois lignes plus bas.
+  const measured = cityPopulation(slug)?.pop2022 ?? city.population;
+  const bucket = popBucket(measured);
+  const pop = measured ? `${formatNumber(measured)} hab.` : "population indicative";
   return {
     title: `Statistiques de ${city.name} : population, salaire, chômage`.slice(0, 60),
     description: `Chiffres-clés de ${city.name} (${city.department}) : ${pop}, niveau de vie médian, taux de pauvreté, chômage et structure d'âge. Sources INSEE.`.slice(0, 160),
@@ -116,11 +128,14 @@ export default async function StatistiquesPage({ params }: Props) {
   if (!city) notFound();
   const emp = computeEmploymentMarket(city);
   const demo = computeDemography(city);
-  const bucket = popBucket(city.population);
+  const bucket = popBucket(cityPopulation(city.slug)?.pop2022 ?? city.population);
   const salary = salaryBracket(emp.salary.score);
   const unemp = unemploymentBracket(emp.unemployment.score);
   const ageing = ageingBracket(demo.ageing.score);
   const income = cityIncome(city.slug);
+  const pop = cityPopulation(city.slug);
+  const trend = populationTrend(city.slug);
+  const seniors = seniorShare(city.slug);
   const incRank = income ? incomeRank(city.slug) : null;
 
   const trajectoryLabel =
@@ -162,7 +177,11 @@ export default async function StatistiquesPage({ params }: Props) {
     },
     {
       q: `${city.name} est-elle une ville jeune ou vieillissante ?`,
-      a: `${city.name} (${city.department}) : structure d'âge estimée à ${ageing.range} — ${ageing.note}. Trajectoire : ${trajectoryLabel.label}. Source : INSEE, recensement de la population (structure par âge par département).`,
+      a: `${city.name} (${city.department}) : ${
+        seniors !== null
+          ? `${String(seniors).replace(".", ",")} % de la population a 60 ans ou plus (mesure communale, recensement Insee ${INSEE_POP_YEAR})`
+          : `structure d'âge estimée à ${ageing.range} — ${ageing.note}`
+      }. Trajectoire : ${trajectoryLabel.label}. Source : INSEE, recensement de la population (structure par âge par département).`,
     },
   ]);
 
@@ -213,12 +232,52 @@ export default async function StatistiquesPage({ params }: Props) {
             </span>
           </div>
           <div className="text-4xl font-bold tabular-nums text-[var(--text-primary)] mb-2">
-            {city.population != null ? formatNumber(city.population) : "—"}
+            {pop ? formatNumber(pop.pop2022) : city.population != null ? formatNumber(city.population) : "—"}
             <span className="text-lg font-normal text-[var(--text-tertiary)] ml-1">
               habitants
             </span>
           </div>
+          {trend && (
+            <p className="text-sm text-[var(--text-secondary)] mb-2">
+              {trend.direction === "stable" ? (
+                <>Population stable depuis {INSEE_POP_BASE_YEAR}</>
+              ) : (
+                <>
+                  {trend.direction === "hausse" ? "En hausse de " : "En baisse de "}
+                  <strong className="tabular-nums">
+                    {Math.abs(trend.changePct).toFixed(1).replace(".", ",")} %
+                  </strong>{" "}
+                  depuis {INSEE_POP_BASE_YEAR}
+                </>
+              )}{" "}
+              <span className="text-[var(--text-tertiary)]">
+                ({trend.gained > 0 ? "+" : ""}
+                {formatNumber(trend.gained)} habitants en six ans)
+              </span>{" "}
+              ·{" "}
+              <Link
+                href={`/villes/${city.slug}/demographie`}
+                className="text-[var(--accent)] hover:underline"
+              >
+                pyramide des âges
+              </Link>
+            </p>
+          )}
           <p className="text-xs text-[var(--text-tertiary)]">
+            {pop ? (
+              <>
+                Population municipale {INSEE_POP_YEAR} ·{" "}
+                <a
+                  href={INSEE_POP_SOURCE_URL}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="hover:underline"
+                >
+                  {INSEE_POP_CREDIT}
+                </a>
+                {" · "}
+              </>
+            ) : null}
             {bucket.hint} · Département : {city.department ?? "—"}
             {city.region ? ` · Région : ${city.region}` : ""}
           </p>
@@ -359,10 +418,26 @@ export default async function StatistiquesPage({ params }: Props) {
               </div>
             </div>
             <div className="text-lg font-bold tabular-nums text-[var(--text-primary)] mb-2">
-              {ageing.range}
+              {seniors !== null ? `${seniors.toFixed(1).replace(".", ",")} %` : ageing.range}
             </div>
             <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-              {ageing.note}. Source INSEE recensement (RP) — département {city.department}.
+              {seniors !== null ? (
+                <>
+                  Part des 60 ans et plus, mesurée sur la commune (France ≈ 28 %).
+                  Source : {INSEE_POP_CREDIT}.{" "}
+                  <Link
+                    href={`/villes/${city.slug}/demographie`}
+                    className="text-[var(--accent)] hover:underline"
+                  >
+                    Pyramide des âges
+                  </Link>
+                </>
+              ) : (
+                <>
+                  {ageing.note}. Source INSEE recensement (RP) — département{" "}
+                  {city.department}.
+                </>
+              )}
             </p>
           </div>
         </div>

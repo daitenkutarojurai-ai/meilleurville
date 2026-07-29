@@ -493,7 +493,17 @@ computant depuis les axes existants — l'enrichissement reste utile pour des ch
   `/villes/[slug]/statistiques` + EN `statistics`. Non couvertes : Guadeloupe, Guyane,
   Mayotte (hors champ Filosofi) et Pierrefitte-sur-Seine (fusionnée dans Saint-Denis
   en 2025) — la page n'affiche alors rien plutôt qu'un chiffre inventé.
-- `populationEvolution: number` — évolution % 2015–2021
+- ~~`populationEvolution: number`~~ — ✅ **fait 2026-07-29, en mieux** : `data/city-population.json`
+  (via `scripts/city-population.mjs` / `npm run population` + `lib/city-population.ts`) porte la
+  **population municipale réelle 2011 / 2016 / 2022** et les **sept tranches d'âge** publiées par
+  l'Insee à la commune (base « Évolution et structure de la population en 2022 ») — 538/540 villes.
+  `lib/demography.ts` ne devine plus le vieillissement ni la trajectoire depuis le département :
+  `ageingRisk` lit la part réelle des 60 ans et plus, `trajectoryRisk` l'évolution réelle 2016→2022,
+  le proxy départemental ne servant plus que de repli. Surfacé sur `/villes/[slug]/demographie`
+  (pyramide des âges) et `/villes/[slug]/statistiques` (+ jumelles EN). Non couvertes : Mamoudzou
+  (hors fichier « France hors Mayotte ») et Pierrefitte-sur-Seine (fusionnée dans Saint-Denis en
+  2025). ⚠️ Le seed conserve ses `population` approximatives, utilisées par les tris et les seuils
+  (éligibilité palmarès, filtres) : les deux nombres coexistent volontairement.
 - `tauxChomage: number` — % (proxie zone emploi)
 - `densiteMedecins: number` — généralistes / 1 000 hab
 - `indiceAtmo: number` — qualité air annuelle 0–10 (1 = très pollué)

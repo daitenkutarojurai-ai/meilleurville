@@ -17,6 +17,13 @@ import {
   INCOME_SOURCE_URL,
   MEDIAN_OF_CITIES,
 } from "@/lib/city-income";
+import {
+  INSEE_POP_BASE_YEAR,
+  INSEE_POP_YEAR,
+  cityPopulation,
+  populationTrend,
+  seniorShare,
+} from "@/lib/city-population";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -114,8 +121,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
-  const bucket = popBucket(city.population);
-  const pop = city.population ? `${formatEN(city.population)} residents` : "indicative size";
+  const measured = cityPopulation(slug)?.pop2022 ?? city.population;
+  const bucket = popBucket(measured);
+  const pop = measured ? `${formatEN(measured)} residents` : "indicative size";
   return {
     title: `${city.name} statistics — population, wages, unemployment`.slice(0, 60),
     description: `Key figures for ${city.name} (${city.department}): ${pop}, département median net wage, unemployment rate, age structure and demographic trajectory. INSEE sources.`.slice(0, 160),
@@ -134,10 +142,13 @@ export default async function EnCityStatisticsPage({ params }: Props) {
 
   const emp = computeEmploymentMarket(city);
   const demo = computeDemography(city);
-  const bucket = popBucket(city.population);
+  const bucket = popBucket(cityPopulation(city.slug)?.pop2022 ?? city.population);
   const salary = salaryBracket(emp.salary.score);
   const unemp = unemploymentBracket(emp.unemployment.score);
   const ageing = ageingBracket(demo.ageing.score);
+  const pop = cityPopulation(city.slug);
+  const trend = populationTrend(city.slug);
+  const seniors = seniorShare(city.slug);
   const income = cityIncome(city.slug);
   const incRank = income ? incomeRank(city.slug) : null;
   const enNum = (n: number) => n.toLocaleString("en-GB");
@@ -180,7 +191,11 @@ export default async function EnCityStatisticsPage({ params }: Props) {
     },
     {
       q: `Is ${city.name} a young or an ageing city?`,
-      a: `${city.name} (${city.department}): estimated age structure at ${ageing.range} — ${ageing.note}. Trajectory: ${trajectoryLabel.label}. Source: INSEE, population census (age structure by département).`,
+      a: `${city.name} (${city.department}): ${
+        seniors !== null
+          ? `${seniors}% of residents are aged 60 or over (commune-level measure, Insee census ${INSEE_POP_YEAR})`
+          : `estimated age structure at ${ageing.range} — ${ageing.note}`
+      }. Trajectory: ${trajectoryLabel.label}. Source: INSEE, population census (age structure by département).`,
     },
   ]);
 
@@ -234,12 +249,38 @@ export default async function EnCityStatisticsPage({ params }: Props) {
             </span>
           </div>
           <div className="text-4xl font-bold tabular-nums text-[var(--text-primary)] mb-2">
-            {city.population != null ? formatEN(city.population) : "—"}
+            {pop ? formatEN(pop.pop2022) : city.population != null ? formatEN(city.population) : "—"}
             <span className="text-lg font-normal text-[var(--text-tertiary)] ml-1">
               residents
             </span>
           </div>
+          {trend && (
+            <p className="text-sm text-[var(--text-secondary)] mb-2">
+              {trend.direction === "stable" ? (
+                <>Population flat since {INSEE_POP_BASE_YEAR}</>
+              ) : (
+                <>
+                  {trend.direction === "hausse" ? "Up " : "Down "}
+                  <strong className="tabular-nums">
+                    {Math.abs(trend.changePct).toFixed(1)}%
+                  </strong>{" "}
+                  since {INSEE_POP_BASE_YEAR}
+                </>
+              )}{" "}
+              <span className="text-[var(--text-tertiary)]">
+                ({trend.gained > 0 ? "+" : ""}
+                {formatEN(trend.gained)} residents in six years)
+              </span>
+            </p>
+          )}
           <p className="text-xs text-[var(--text-tertiary)]">
+            {pop ? (
+              <>
+                Municipal population {INSEE_POP_YEAR} · Insee population census{" "}
+                {INSEE_POP_YEAR}
+                {" · "}
+              </>
+            ) : null}
             {bucket.hint} · Département: {city.department ?? "—"}
             {city.region ? ` · Region: ${city.region}` : ""}
           </p>
@@ -362,10 +403,12 @@ export default async function EnCityStatisticsPage({ params }: Props) {
               </div>
             </div>
             <div className="text-lg font-bold tabular-nums text-[var(--text-primary)] mb-2">
-              {ageing.range}
+              {seniors !== null ? `${seniors.toFixed(1)}%` : ageing.range}
             </div>
             <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-              {ageing.note}. Source: INSEE census (RP) — département of {city.department}.
+              {seniors !== null
+                ? `Share of residents aged 60+, measured for this commune (France ≈ 28%). Source: Insee population census ${INSEE_POP_YEAR}.`
+                : `${ageing.note}. Source: INSEE census (RP) — département of ${city.department}.`}
             </p>
           </div>
         </div>

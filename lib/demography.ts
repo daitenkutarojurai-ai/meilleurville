@@ -17,6 +17,15 @@
 // Composite = moyenne pondérée des 4 sous-scores.
 
 import type { CityLight } from "@/lib/cities-light";
+import {
+  INSEE_POP_BASE_YEAR,
+  INSEE_POP_YEAR,
+  cityPopulation,
+  populationTrend,
+  seniorShare,
+} from "@/lib/city-population";
+
+const fmt = (n: number) => n.toLocaleString("fr-FR");
 
 export type DemoLevel = "dynamique" | "equilibre" | "vieillissant" | "critique";
 
@@ -86,6 +95,20 @@ const AGEING_VERY_LOW_DEPTS = new Set([
 ]);
 
 function ageingRisk(city: CityLight): DemoDimension {
+  // Mesure communale quand elle existe (538/540) — le proxy départemental
+  // ci-dessous ne sert plus qu'à Mamoudzou et Pierrefitte-sur-Seine.
+  const share = seniorShare(city.slug);
+  if (share !== null) {
+    // 18 % de seniors → 0 ; 40 % → 10. La médiane nationale (~28 %) tombe
+    // ainsi vers 4,5, soit « équilibré », ce qui est le sens voulu.
+    const score = Math.max(0, Math.min(10, (share - 18) / 2.2));
+    return {
+      score: Number(score.toFixed(1)),
+      level: levelFromScore(score),
+      reason: `${share.toFixed(1).replace(".", ",")} % de la population a 60 ans ou plus (recensement Insee ${INSEE_POP_YEAR}, mesure communale). Médiane nationale ≈ 28 %.`,
+    };
+  }
+
   const d = city.department;
   if (AGEING_VERY_LOW_DEPTS.has(d)) {
     return {
@@ -201,6 +224,24 @@ const GROWTH_NEGATIVE_DEPTS = new Set([
 ]);
 
 function trajectoryRisk(city: CityLight): DemoDimension {
+  // Évolution mesurée 2016 → 2022, plutôt que la tendance du département : une
+  // commune qui gagne des habitants dans un département qui en perd était
+  // jusqu'ici notée comme son département.
+  const trend = populationTrend(city.slug);
+  if (trend) {
+    // +1 %/an → 1 ; stable → 5 ; −1 %/an → 9.
+    const score = Math.max(0, Math.min(10, 5 - trend.annualPct * 4));
+    const pop = cityPopulation(city.slug);
+    const sign = trend.changePct > 0 ? "+" : "";
+    return {
+      score: Number(score.toFixed(1)),
+      level: levelFromScore(score),
+      reason:
+        `${fmt(pop?.pop2022 ?? 0)} habitants en ${INSEE_POP_YEAR} contre ${fmt(pop?.pop2016 ?? 0)} en ${INSEE_POP_BASE_YEAR}, ` +
+        `soit ${sign}${trend.changePct.toFixed(1).replace(".", ",")} % en six ans (recensement Insee).`,
+    };
+  }
+
   const d = city.department;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
   const isMetro = /métropole/.test(tags);

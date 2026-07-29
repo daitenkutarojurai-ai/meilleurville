@@ -14,6 +14,18 @@ import {
   DEMO_LEVEL_BG,
   type DemoDimension,
 } from "@/lib/demography";
+import {
+  AGE_LABELS,
+  INSEE_POP_BASE_YEAR,
+  INSEE_POP_CREDIT,
+  INSEE_POP_SOURCE_URL,
+  INSEE_POP_YEAR,
+  ageDistribution,
+  cityPopulation,
+  populationTrend,
+  seniorShare,
+  youthShare,
+} from "@/lib/city-population";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const revalidate = false;
@@ -66,6 +78,11 @@ export default async function DemographiePage({ params }: Props) {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) notFound();
   const d = computeDemography(city);
+  const pop = cityPopulation(city.slug);
+  const trend = populationTrend(city.slug);
+  const seniors = seniorShare(city.slug);
+  const youth = youthShare(city.slug);
+  const ages = ageDistribution(city.slug);
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Accueil", path: "/" },
@@ -144,6 +161,106 @@ export default async function DemographiePage({ params }: Props) {
           <p className="text-xs text-[var(--text-tertiary)] mb-2">10 = démographie dynamique · 0 = décroissance critique.</p>
           <p className="text-sm text-[var(--text-primary)] leading-relaxed">{d.signature}</p>
         </Card>
+
+        {/* Chiffres mesurés du recensement — pas des estimations */}
+        {pop ? (
+          <>
+            <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">
+              Les chiffres du recensement
+            </h2>
+            <Card className="mt-3">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                <div>
+                  <div className="text-2xl font-bold tabular-nums text-[var(--text-primary)]">
+                    {pop.pop2022.toLocaleString("fr-FR")}
+                  </div>
+                  <div className="text-xs text-[var(--text-tertiary)]">habitants en {INSEE_POP_YEAR}</div>
+                </div>
+                {trend ? (
+                  <div>
+                    <div
+                      className={`text-2xl font-bold tabular-nums ${
+                        trend.direction === "hausse"
+                          ? "text-emerald-600"
+                          : trend.direction === "baisse"
+                            ? "text-orange-600"
+                            : "text-[var(--text-primary)]"
+                      }`}
+                    >
+                      {trend.changePct > 0 ? "+" : ""}
+                      {trend.changePct.toFixed(1).replace(".", ",")} %
+                    </div>
+                    <div className="text-xs text-[var(--text-tertiary)]">
+                      depuis {INSEE_POP_BASE_YEAR} ({trend.gained > 0 ? "+" : ""}
+                      {trend.gained.toLocaleString("fr-FR")} hab.)
+                    </div>
+                  </div>
+                ) : null}
+                {seniors !== null ? (
+                  <div>
+                    <div className="text-2xl font-bold tabular-nums text-[var(--text-primary)]">
+                      {seniors.toFixed(1).replace(".", ",")} %
+                    </div>
+                    <div className="text-xs text-[var(--text-tertiary)]">
+                      ont 60 ans ou plus <span className="opacity-70">(France ≈ 28 %)</span>
+                    </div>
+                  </div>
+                ) : null}
+                {youth !== null ? (
+                  <div>
+                    <div className="text-2xl font-bold tabular-nums text-[var(--text-primary)]">
+                      {youth.toFixed(1).replace(".", ",")} %
+                    </div>
+                    <div className="text-xs text-[var(--text-tertiary)]">
+                      ont moins de 30 ans <span className="opacity-70">(France ≈ 34 %)</span>
+                    </div>
+                  </div>
+                ) : null}
+              </div>
+
+              {ages ? (
+                <div className="mt-6 space-y-1.5">
+                  {ages.map((a) => (
+                    <div key={a.key} className="flex items-center gap-3 text-xs">
+                      <span className="w-24 shrink-0 text-[var(--text-tertiary)]">
+                        {AGE_LABELS[a.key]}
+                      </span>
+                      <span className="flex-1 h-3 rounded bg-[var(--bg-subtle)] overflow-hidden">
+                        <span
+                          className="block h-full rounded bg-[var(--accent)]"
+                          style={{ width: `${Math.min(100, a.share * 3)}%` }}
+                        />
+                      </span>
+                      <span className="w-24 shrink-0 text-right tabular-nums text-[var(--text-secondary)]">
+                        {a.share.toFixed(1).replace(".", ",")} %
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              ) : null}
+
+              <p className="mt-4 text-xs text-[var(--text-tertiary)]">
+                Chiffres mesurés commune par commune, pas estimés. Source :{" "}
+                <a
+                  href={INSEE_POP_SOURCE_URL}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-[var(--accent)] hover:underline"
+                >
+                  {INSEE_POP_CREDIT}
+                </a>{" "}
+                (Licence Ouverte Etalab). Le recensement pondère ses effectifs : les
+                tranches d&apos;âge ne tombent pas sur des entiers.
+              </p>
+            </Card>
+          </>
+        ) : (
+          <p className="mt-10 text-sm text-[var(--text-tertiary)]">
+            Le recensement Insee 2022 ne publie pas de série pour cette commune (hors
+            champ du fichier ou commune fusionnée). Les dimensions ci-dessous restent
+            estimées depuis le département.
+          </p>
+        )}
 
         {/* 4 dimensions */}
         <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">Les quatre dimensions</h2>
