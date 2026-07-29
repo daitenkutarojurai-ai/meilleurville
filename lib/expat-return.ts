@@ -57,7 +57,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
     netConversionFactor: 0.55, // 100 CHF nets = ~55 € pour conserver le même niveau de vie en province
     bestSuitedCities: ["annecy", "thonon-les-bains", "annemasse", "chambery", "grenoble", "lyon", "dijon", "besancon"],
     intro:
-      "Le retour de Suisse est probablement le plus violent côté revenu : salaires bruts élevés et fiscalité douce vs un système français lourd en charges. Les villes frontalières (Annecy, Annemasse, Thonon) restent attractives car elles permettent de garder l'emploi suisse. Sinon, viser une métropole secondaire avec un coût de vie bien inférieur à Genève / Zurich.",
+      "Rentrer de Suisse, c'est probablement le retour au portefeuille le plus rude du site. On quitte des salaires bruts parmi les plus élevés d'Europe et une fiscalité douce pour un système français qui grignote la fiche de paie côté charges — l'écart de niveau de vie se voit dès la première fin de mois. La parade la plus tenable reste souvent de rester frontalier : Annecy, Annemasse et Thonon permettent de garder l'employeur suisse sans jamais franchir le seuil du système français par la mauvaise porte. Sinon, il faut viser une métropole secondaire, où le coût de la vie descend franchement en dessous de Genève ou Zurich et amortit la baisse mécanique de revenu net.",
     hadVsWillHave: [
       { topic: "Salaire net", had: "100 CHF nets", willHave: "Équivalent ~55 € de pouvoir d'achat (province métropole)" },
       { topic: "Loyer T3", had: "2 800-4 000 CHF (Genève / Lausanne)", willHave: "1 100-1 800 € (Annecy / Lyon / Grenoble)" },
@@ -74,9 +74,9 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
       { step: "Scolarité enfants", detail: "Inscription mairie + dossier ASE si déjà scolarisés en CH (équivalences souvent simples vers le collège public)." },
     ],
     warnings: [
-      "Maintenir le statut frontalier = garder l'emploi CH + résider à ≤ 60 min de la frontière (Annecy / Annemasse / Thonon / Pontarlier / Mulhouse).",
-      "L'impôt CH retenu à la source n'est pas remboursé : déclarer en France et utiliser la convention CH-FR pour ne pas être imposé deux fois.",
-      "L'AVS suisse (retraite) reste acquise — exporter les droits via formulaire 7000 EU.",
+      "Le statut frontalier suppose deux conditions cumulatives : garder l'emploi côté suisse et résider à 60 min ou moins de la frontière — donc Annecy, Annemasse, Thonon, Pontarlier ou Mulhouse, pas au-delà.",
+      "L'impôt suisse retenu à la source n'est jamais remboursé : il se déclare en France, où la convention fiscale CH-FR neutralise la double imposition à condition d'être invoquée.",
+      "L'AVS suisse (retraite) reste acquise ; les droits s'exportent via le formulaire 7000 EU, à déposer avant le départ pour éviter la course administrative depuis la France.",
     ],
   },
   {
