@@ -178,6 +178,7 @@ recensées à proximité, zones protégées.
 | # | Feature | Prio | Cplx | SEO | Statut |
 |---|---------|------|------|-----|--------|
 | F62 | **Score Biodiversité** (pipeline GBIF + INPN → sous-page ×540 + classement) | **P0** | **L** | **high** | 🔜 à faire |
+| F63 | **Qualité de l'air — du modèle à la mesure** (ATMO + Geod'Air, hub + classement) | **P0** | **M** | **high** | 🔜 à faire |
 
 ### F62 — Score Biodiversité
 
@@ -269,6 +270,69 @@ affichée avec les chiffres, comme les crédits Commons et l'ODbL des parcs.
 **Règle d'honnêteté** : aucune ville ne reçoit de score sans effort d'observation
 suffisant, et une ville sans zone protégée à proximité le lit noir sur blanc plutôt
 que de récupérer une moyenne départementale.
+
+### F63 — Qualité de l'air : passer du modèle à la mesure
+
+Demande utilisateur 2026-07-29 : *« beaucoup de requêtes en recherche Google »* sur la
+qualité de l'air. La section existe déjà (`/villes/[slug]/air` ×540 + EN
+`/cities/[slug]/air-quality`) — l'enjeu n'est pas de la créer, c'est de la rendre
+crédible et de lui donner les surfaces que la demande réclame.
+
+**Le problème, d'abord.** `lib/air-quality.ts` ne mesure rien : NO2, PM2.5, ozone et
+pollens sont **calculés par heuristique** depuis le seed (population, département,
+`characterTags`, couloirs autoroutiers). La légende de la page affiche pourtant
+« ATMO · CITEPA · RNSA » — ce sont les sources du *modèle*, pas des relevés, et un
+lecteur qui cherche « qualité de l'air à Grenoble » lit ça comme une mesure. C'est
+exactement le proxy que Filosofi a fait tomber pour le revenu et l'Insee pour la
+population ; le même traitement s'impose ici, et c'est le prérequis avant d'ouvrir
+la moindre nouvelle page.
+
+**Phase 1 — données réelles** `scripts/city-air-quality.mjs`
+- **Indice ATMO quotidien**, publié **à la commune** par les AASQA via ATMO France /
+  data.gouv.fr. C'est la source la plus directe : elle couvre les 34 969 communes,
+  donc les 540 du seed, sans interpolation. Agréger en normale annuelle (nombre de
+  jours par classe 1-6) plutôt qu'en photo d'un jour.
+- **Geod'Air** (LCSQA / Ineris) pour les **concentrations par polluant** (NO2, PM10,
+  PM2.5, O3) mesurées en station. Là, pas de couverture communale : rattachement à la
+  station la plus proche avec **distance affichée**, pattern `lib/climate-normals.ts`
+  (29 stations Météo-France, snap au plus proche). Une commune à 40 km de la première
+  station ne reçoit pas le chiffre de cette station en silence.
+- **Pollens** : le RNSA publie un risque par bassin, pas par commune, et sa licence
+  n'est pas la Licence Ouverte — **vérifier les conditions de réutilisation avant
+  d'intégrer quoi que ce soit**. À défaut, la dimension pollen reste modélisée et la
+  page dit qu'elle l'est.
+- Resumable + caché dans `.cache/city-air-quality/`, sortie `data/city-air.json`
+  commitée par lots. Egress : supposer le refus côté routine cloud (403 CONNECT) →
+  **passe locale**, comme Insee et Overpass.
+
+**Phase 2 — ce que la demande de recherche réclame**
+- **Hub national `/qualite-de-l-air`** (+ EN `/air-quality`) : il n'existe pas
+  aujourd'hui, l'air n'est qu'une sous-page ville et une ligne dans les classements
+  `nature` / `ecologie`. C'est la page qui capte la requête générique.
+- **Classement `/classements/qualite-de-l-air`** — aucun des 19 slugs de
+  `RANKING_META` ne porte l'air ; l'ajouter suppose `RANKING_EN` en même temps.
+- **Série de guides `qualite-de-l-air-[ville]-2026`** — à ouvrir **après** la phase 1
+  seulement : une série de 540 pages bâtie sur des heuristiques serait un passif, pas
+  un actif.
+- **Angle saisonnier pollens** (pics de mars à juillet) et **angle épisodes de
+  pollution** (inversion thermique en vallée alpine, chauffage bois l'hiver) : ce sont
+  les deux moments où la requête explose.
+
+**Ce qui est déjà correct — ne pas le « corriger ».** « Qualité de l'air » nomme une
+qualité → `10 = bon`. Le moteur mesure l'**exposition** (`10 = pire`) et l'inversion
+se fait **au site d'affichage**, FR et EN, avec la légende « 10 = air le plus pur »
+des deux côtés. C'est conforme à `CLAUDE.md` § Score convention et les jumelles
+hreflang affichent bien le même nombre. Vérifié le 2026-07-29.
+
+**Règle d'honnêteté** : une commune sans station proche ou hors couverture n'affiche
+pas de concentration — elle le dit. Attribution LCSQA / ATMO / Licence Ouverte Etalab
+avec les chiffres, et distinction visible entre ce qui est **mesuré** et ce qui reste
+**modélisé**.
+
+**Note de méthode** : la demande de recherche n'a **pas pu être chiffrée** ici — le
+plan Ahrefs refuse le keyword explorer et l'accès Search Console (`Insufficient
+plan`). Avant d'industrialiser la série de guides, sortir les volumes réels de la
+Search Console : ils décideront de l'ordre des villes, pas la population.
 
 ---
 

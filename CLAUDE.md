@@ -618,6 +618,26 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
   - Egress : supposer le crawl bloqué côté routine cloud (403 CONNECT comme Overpass) —
     **passe locale**.
 
+- [ ] **F63 — Qualité de l'air : du modèle à la mesure** — la section existe
+  (`/villes/[slug]/air` ×540 + EN `air-quality`) mais `lib/air-quality.ts` **calcule
+  tout par heuristique** depuis le seed (population, département, `characterTags`),
+  alors que la légende affiche « ATMO · CITEPA · RNSA ». Remplacer par du mesuré :
+  **indice ATMO quotidien publié à la commune** (ATMO France / data.gouv.fr) +
+  **Geod'Air** (LCSQA/Ineris) pour les concentrations NO2/PM10/PM2.5/O3, rattachées à
+  la station la plus proche **avec la distance affichée** (pattern
+  `lib/climate-normals.ts`). Pollens RNSA : vérifier la licence avant intégration,
+  sinon la dimension reste modélisée **et la page le dit**.
+  - Surfaces manquantes que la demande réclame : **hub `/qualite-de-l-air`** (aucun
+    aujourd'hui — l'air n'est qu'une sous-page ville), **classement
+    `/classements/qualite-de-l-air`** (absent des 19 slugs de `RANKING_META`, à
+    ajouter avec `RANKING_EN`), série `qualite-de-l-air-[ville]-2026` **après** la
+    phase données seulement, angles saisonniers pollens et épisodes de pollution.
+  - ⚠️ **La direction du score est déjà correcte, ne la « corrige » pas** : le moteur
+    mesure l'exposition (10 = pire), l'inversion se fait à l'affichage FR **et** EN
+    avec la légende « 10 = air le plus pur ». Vérifié 2026-07-29.
+  - Demande de recherche **non chiffrée** : le plan Ahrefs refuse keyword explorer et
+    Search Console. Sortir les volumes de la GSC avant d'industrialiser la série.
+
 ---
 
 ### Conventions for adding an EN route
