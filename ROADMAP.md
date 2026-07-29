@@ -18,7 +18,7 @@ Demande utilisateur directe. F58 / F60 / F61 livrées le jour même ; **F59 livr
 | F60 | `/departements` — finder par n° / nom / ville + carte cliquable | P1 | S | low | ✅ shipped 2026-07-22 · carte cliquable 2026-07-23 |
 | F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 |
 
-### F59 — Parcs & espaces verts par ville ✅ LIVRÉ (540/540 villes, 6 977 parcs)
+### F59 — Parcs & espaces verts par ville ✅ LIVRÉ (540/540 villes, 7 047 parcs)
 
 **Intention utilisateur** (à ne pas perdre de vue) : un parent qui tourne en rond dans
 le même parc depuis deux ans veut *découvrir les autres parcs* — le sien, ceux du
@@ -152,6 +152,21 @@ référencé ». Nouvelle constante `PARKS_CITY_WITHOUT_PARKS_COUNT` dans
 avec un parc nommé » (≈ 510). La 4e stat card des hubs passe du trompeur
 « 100 % des villes du site » à « 540 / 540 relevées ». Aucune donnée
 modifiée, `npx tsc --noEmit` propre.
+
+**Point d'étape 2026-07-29** : re-check de fin de course. Le seed a été
+corrigé la veille (commit `1839441` puis `68666f6` — 41 codes INSEE erronés
+re-crawlés), et la ligne d'en-tête de la section disait encore « 6 977 parcs »
+alors que `PARKS_TOTAL` calculé depuis `data/city-parks.json` remonte à
+**7 047**. Les surfaces (`/parcs`, `/parks`, sous-pages ville, hubs) affichent
+déjà le bon chiffre puisqu'elles le dérivent de la constante — c'est bien la
+seule ligne du ROADMAP qui restait figée. Corrigée. Recompte de contrôle :
+`node -e` sur le JSON → 540 villes, 7 047 parcs, 3 318 avec aire de jeux,
+**11 villes sans aucun parc nommé** (Calvi, Gien, Le Lamentin, Le Robert,
+Noirmoutier, Pierrefitte-sur-Seine, Porto-Vecchio, Saint-André Réunion,
+Saint-Chély-d'Apcher, Saint-Paul-de-Vence, Sallanches — la copie du hub qui
+lit `PARKS_CITY_WITHOUT_PARKS_COUNT` est déjà exacte). `npx tsc --noEmit`
+propre après `npm install`. Aucun changement de code ni de données ; la
+feature reste close.
 
 ---
 
