@@ -256,6 +256,13 @@ export default function DemographyHubPage() {
           Voir aussi
         </h2>
         <div className="mt-3 grid grid-cols-2 sm:grid-cols-3 gap-3">
+          <Link href="/villes-qui-grandissent" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">📈</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">Croissance 2016 → 2022</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">Palmarès brut : villes qui gagnent (et perdent) des habitants</div>
+            </Card>
+          </Link>
           <Link href="/cadre-de-vie" className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-2xl mb-1">🌿</div>

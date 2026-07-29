@@ -250,6 +250,7 @@ function staticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/securite/vallee-du-rhone`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/securite/ile-de-france-elargie`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/demographie`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE_URL}/villes-qui-grandissent`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/demographie/cote-atlantique`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/demographie/arc-mediterraneen`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/demographie/arc-alpin`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
