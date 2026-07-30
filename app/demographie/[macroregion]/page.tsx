@@ -258,10 +258,17 @@ export default async function MacroRegionDemographyPage({ params }: Props) {
           ))}
         </div>
 
-        <div className="mt-8 text-sm">
-          <Link href="/demographie" className="text-[var(--accent)] hover:underline">
-            → Voir le classement national démographique complet
-          </Link>
+        <div className="mt-8 space-y-2 text-sm">
+          <div>
+            <Link href="/demographie" className="text-[var(--accent)] hover:underline">
+              → Voir le classement national démographique complet
+            </Link>
+          </div>
+          <div>
+            <Link href="/villes-qui-grandissent" className="text-[var(--accent)] hover:underline">
+              → Quelles villes gagnent, perdent ou stagnent en habitants (recensement Insee)
+            </Link>
+          </div>
         </div>
       </section>
 

@@ -260,6 +260,13 @@ export default async function StatistiquesPage({ params }: Props) {
                 className="text-[var(--accent)] hover:underline"
               >
                 pyramide des âges
+              </Link>{" "}
+              ·{" "}
+              <Link
+                href="/villes-qui-grandissent"
+                className="text-[var(--accent)] hover:underline"
+              >
+                comparer au reste de la France
               </Link>
             </p>
           )}

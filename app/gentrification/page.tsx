@@ -72,7 +72,13 @@ export default function GentrificationIndex() {
             Une ville en haut du classement ne veut pas dire « bon investissement immobilier » —
             ça veut dire que <strong>les signaux de marché et démographiques convergent</strong>
             vers une intensification dans les 5 ans. À chacun d&apos;en tirer la lecture qui lui parle :
-            opportunité, vigilance, ou simple curiosité sociologique.
+            opportunité, vigilance, ou simple curiosité sociologique. Le signal démographique
+            se vérifie d&apos;ailleurs à part, sur les chiffres bruts du recensement :{" "}
+            <Link href="/villes-qui-grandissent" className="text-[var(--accent)] hover:underline">
+              quelles villes gagnent réellement des habitants
+            </Link>{" "}
+            — une commune qui gentrifie sans gagner personne raconte une autre histoire
+            qu&apos;une commune en pleine croissance.
           </p>
           <p className="text-xs text-[var(--text-tertiary)]">
             Tous les scores sont en proxy v0 (dérivés du seed actuel + housing). Sources réelles à

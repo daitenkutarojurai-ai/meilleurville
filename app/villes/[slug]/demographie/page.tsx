@@ -253,6 +253,14 @@ export default async function DemographiePage({ params }: Props) {
                 tranches d&apos;âge ne tombent pas sur des entiers.
               </p>
             </Card>
+            <p className="mt-3 text-sm text-[var(--text-secondary)]">
+              Une évolution ne veut pas dire grand-chose isolée : le classement des{" "}
+              <Link href="/villes-qui-grandissent" className="text-[var(--accent)] hover:underline">
+                communes qui gagnent et qui perdent le plus d&apos;habitants
+              </Link>{" "}
+              situe {city.name} face aux autres villes de plus de 15 000 habitants, à
+              partir du même fichier Insee et de la même période.
+            </p>
           </>
         ) : (
           <p className="mt-10 text-sm text-[var(--text-tertiary)]">

@@ -272,6 +272,13 @@ export default function RentalTensionHubPage() {
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Top 12 marchés locatifs bloquants</div>
             </Card>
           </Link>
+          <Link href="/villes-qui-grandissent" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">📈</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">Villes qui gagnent des habitants</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">Là où la population monte plus vite que le parc de logements, la tension suit</div>
+            </Card>
+          </Link>
           <Link href="/calculateur-cout-reel" className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-2xl mb-1">🧮</div>
