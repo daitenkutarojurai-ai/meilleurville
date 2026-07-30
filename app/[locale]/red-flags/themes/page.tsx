@@ -41,6 +41,14 @@ const THEMES = [
   { enSlug: "daily-traffic-jams",         emoji: "🚥", title: "Cities gridlocked every rush hour",                  desc: "A86, A7, A8, Grenoble basin — commuters lose 300 hours a year." },
   { enSlug: "young-workers-leaving",      emoji: "🎒", title: "Cities that 25-35s are quietly leaving",              desc: "Structural young-worker deficit, negative balance, weak business flows." },
   { enSlug: "cultural-desert",            emoji: "🎭", title: "Cities where the cultural offer stays thin",         desc: "No labelled venue, arthouse cinemas rare, library stretched." },
+  { enSlug: "theft-burglary",             emoji: "🔓", title: "Weighed down by burglary and vehicle theft",          desc: "Property crime well above the national rate, year after year." },
+  { enSlug: "mono-tourism-dependence",    emoji: "🏖️", title: "Cities riding a single tourism season",              desc: "Packed for eight weeks, shuttered the other forty-four." },
+  { enSlug: "heavy-property-tax",         emoji: "🧾", title: "The heaviest property tax burden",                   desc: "Municipal rates that quietly add a month's rent to the year." },
+  { enSlug: "unfindable-rentals",         emoji: "🔑", title: "Where finding a rental has become a battle",         desc: "Dozens of applicants per viewing, guarantor demands stacked." },
+  { enSlug: "childcare-shortage",         emoji: "🍼", title: "Where a daycare place is a full-blown ordeal",       desc: "Waiting lists opened before birth, and still no place." },
+  { enSlug: "coastal-erosion",            emoji: "🌊", title: "Coastal cities in the front line of erosion",        desc: "Shoreline retreat already written into planning documents." },
+  { enSlug: "parking-nightmare",          emoji: "🅿️", title: "Where parking is a daily nightmare",                 desc: "Saturated old town, 15-25 minutes circling for a spot." },
+  { enSlug: "patchy-internet",            emoji: "📡", title: "Where fast broadband is still a compromise",         desc: "Fibre stops at the next hamlet: capped ADSL, saturated fixed 4G." },
 ] as const;
 
 export default function EnRedFlagThemesPage() {

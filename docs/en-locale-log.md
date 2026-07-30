@@ -13,3 +13,4 @@ One line per scheduled run.
 - 2026-07-23 app/[locale]/red-flags/themes/unfindable-rentals (source: app/red-flags/villes-logement-introuvable)
 - 2026-07-25 app/[locale]/red-flags/themes/childcare-shortage (source: app/red-flags/villes-manque-de-creches)
 - 2026-07-27 app/[locale]/red-flags/themes/coastal-erosion (source: app/red-flags/villes-erosion-cotiere)
+- 2026-07-30 app/[locale]/red-flags/themes/patchy-internet (source: app/red-flags/villes-internet-precaire) — also backfilled the 7 themes (theft-burglary → parking-nightmare) that were in EN_THEMES + sitemap but missing from the /red-flags/themes hub list, so they were unlinked internally.
