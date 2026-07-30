@@ -55,7 +55,11 @@ export default function manifest(): MetadataRoute.Manifest {
             name: "Quiz IA",
             short_name: "Quiz",
             description: "Trouver ma ville idéale",
-            url: "/quiz",
+            // /quiz 301s to /city-match in public/_redirects on the FR domain,
+            // so point the shortcut at the destination. The EN branch above keeps
+            // /quiz: the worker rewrites it to the /en/quiz asset before the
+            // redirect rules are consulted, so that page is served, not redirected.
+            url: "/city-match",
           },
           {
             name: "Classements",

@@ -11,6 +11,7 @@ import { buildCityProfileData } from "@/lib/city-profile-data";
 import { cityPhoto } from "@/lib/city-images";
 import { jsonLdScript } from "@/lib/jsonld";
 import { cityFaq } from "@/lib/city-faq";
+import { clampMeta } from "@/lib/brand";
 
 // Pure static export (output:"export" on Cloudflare) — fully prebuilt at build
 // time; no ISR/runtime revalidation exists to tune.
@@ -33,7 +34,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
 
   const title = getCityTitle(city, "en");
-  const description = getCityDescription(city, "en");
+  // The FR twin fixed this by dropping its generic tail; the EN seed copy is
+  // hand-written per city, so 10 of the 540 still overrun what a SERP renders.
+  const description = clampMeta(getCityDescription(city, "en"));
 
   return {
     title,

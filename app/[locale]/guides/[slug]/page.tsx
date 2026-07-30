@@ -6,6 +6,7 @@ import { CityPhotoBand } from "@/components/CityPhoto";
 import { guideCityPhoto } from "@/lib/city-images";
 import { Footer } from "@/components/Footer";
 import { EN_GUIDES, EN_GUIDE_CATEGORIES, getEnGuide } from "@/data/guides-en";
+import { clampMeta } from "@/lib/brand";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
@@ -29,11 +30,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const g = getEnGuide(slug);
   if (!g) return {};
+  // Full text stays on the page and in the Article JSON-LD below; only the
+  // rendered tag is cut. See the FR twin and /classements/[slug].
+  const metaDesc = clampMeta(g.metaDesc);
   return {
     title: g.metaTitle,
-    description: g.metaDesc,
+    description: metaDesc,
     alternates: { canonical: `${EN_BASE}/guides/${slug}` },
-    openGraph: { type: "article", title: g.title, description: g.metaDesc },
+    openGraph: { type: "article", title: g.title, description: metaDesc },
   };
 }
 

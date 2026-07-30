@@ -12,6 +12,7 @@ import { GuideCard } from "@/components/GuideCard";
 import { CommentSection } from "@/components/CommentSection";
 import { NewsletterSection } from "@/components/NewsletterSection";
 import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
+import { clampMeta } from "@/lib/brand";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { renderRich, stripMd } from "@/lib/link-cities";
 import { FeedbackWidget } from "@/components/FeedbackWidget";
@@ -40,13 +41,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const guide = GUIDES.find((g) => g.slug === slug);
   if (!guide) return {};
+  // metaDesc doubles as on-page copy (the /guides index cards, the "Aller plus
+  // loin" strips on parent-solo), where the full text is wanted. A third of the
+  // corpus runs past what a SERP renders, so clamp the tag only — same split as
+  // /classements/[slug].
+  const metaDesc = clampMeta(guide.metaDesc);
   return {
     title: guide.metaTitle,
-    description: guide.metaDesc,
+    description: metaDesc,
     alternates: { canonical: `/guides/${slug}` },
     openGraph: {
       title: guide.metaTitle,
-      description: guide.metaDesc,
+      description: metaDesc,
       type: "article",
       publishedTime: guide.publishedAt,
       modifiedTime: guide.updatedAt,
