@@ -43236,6 +43236,378 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["vacances parent solo 2026", "monoparental vacances", "VACAF chèques vacances ANCV", "vacances sans voiture enfants", "hors saison famille monoparentale"],
   },
+  {
+    slug: "10-choses-a-faire-a-saint-denis-reunion-2026",
+    title: "10 choses à faire à Saint-Denis de La Réunion (le chef-lieu créole)",
+    metaTitle: "10 choses à faire à Saint-Denis (La Réunion) 2026",
+    metaDesc: "Barachois, rue de Paris, Jardin de l'État, Mafate, Salazie, Piton de la Fournaise : 10 activités à Saint-Denis de La Réunion et autour du chef-lieu.",
+    category: "tourisme",
+    emoji: "🌋",
+    readMinutes: 6,
+    publishedAt: "2026-07-30",
+    updatedAt: "2026-07-30",
+    intro: "Saint-Denis est le chef-lieu de La Réunion et la plus grande ville des départements d'outre-mer, avec environ 154 000 habitants sur la côte nord de l'île. Le centre ancien aligne les cases créoles à varangue de la rue de Paris, héritées des planteurs et des négociants du XIXe siècle, entre une préfecture installée dans un ancien bâtiment de la Compagnie des Indes et un front de mer sans plage : ici le littoral est rocheux, et l'océan Indien se regarde depuis le Barachois plutôt qu'il ne se baigne. La ville se visite en une journée, mais elle sert surtout de base : les cirques de Mafate et de Salazie commencent au-dessus des derniers quartiers, et le Piton de la Fournaise est à environ deux heures de route par les Hauts.",
+    sections: [
+      {
+        heading: "1. Le Barachois — le front de mer et ses canons",
+        body: "Le Barachois est le rendez-vous dionysien de fin de journée : une esplanade sur le front de mer, un kiosque à musique, des canons pointés vers l'océan Indien qui rappellent la vocation défensive du site, et des flamboyants. On y court, on y pique-nique, on y regarde le coucher de soleil sur la mer. La baignade n'y est pas possible : le littoral de Saint-Denis est rocheux, et la baignade est de toute façon réglementée sur une grande partie du pourtour de l'île, hors lagons de la côte ouest et zones surveillées. Depuis le Barachois, la promenade longe la mer vers le quartier du Butor."
+      },
+      {
+        heading: "2. La rue de Paris et les cases créoles",
+        body: "La rue de Paris est le plus bel alignement d'architecture créole de l'île : cases à varangue, lambrequins découpés, jardins de devant plantés de manguiers et de frangipaniers. Deux repères sur le parcours : la villa Déramond-Barre, maison de famille de Raymond Barre, et la maison Carrère qui abrite l'office de tourisme et se visite. En descendant vers la mer, on passe devant la préfecture, installée dans un ancien entrepôt de la Compagnie française des Indes orientales, et l'hôtel de ville. Le circuit se fait à pied en une heure et demie, de préférence tôt le matin avant la chaleur."
+      },
+      {
+        heading: "3. Le Jardin de l'État et le Muséum d'histoire naturelle",
+        body: "Au bout de la rue de Paris, le Jardin de l'État est l'ancien jardin d'acclimatation où furent introduites les plantes qui ont fait l'économie de l'île : caféiers, girofliers, vanille. Palmiers royaux, banians, bassins, allées ombragées, entrée libre. Au fond du jardin, le Muséum d'histoire naturelle occupe l'ancien palais législatif de la colonie et présente la faune de l'océan Indien, dont les espèces endémiques disparues des Mascareignes. C'est la meilleure introduction possible avant de partir marcher dans les Hauts."
+      },
+      {
+        heading: "4. Les lieux de culte — l'île des quatre religions",
+        body: "Saint-Denis condense en quelques rues ce que La Réunion a de plus singulier : la mosquée Noor-e-Islam, l'une des plus anciennes de France métropolitaine et d'outre-mer, la cathédrale et l'église Saint-Jacques catholiques, des temples tamouls aux tours sculptées et polychromes, une pagode chinoise. Les temples tamouls se visitent en respectant les consignes affichées, pieds nus et sans short. Cette coexistence n'est pas une curiosité touristique : elle structure le calendrier local, du Dipavali au Nouvel An chinois en passant par la fête du 20 décembre, jour de l'abolition de l'esclavage."
+      },
+      {
+        heading: "5. La Roche Écrite et Le Brûlé — la montagne au-dessus de la ville",
+        body: "Depuis le quartier du Brûlé, dans les Hauts de Saint-Denis, un sentier balisé monte à la Roche Écrite, sommet qui domine la ville et ouvre sur les cirques de Mafate et de Salazie d'un côté, sur l'océan de l'autre. Comptez la journée aller-retour depuis le Brûlé, avec un départ très matinal : la mer de nuages monte souvent en milieu de matinée et referme le panorama. Le secteur est une réserve naturelle, dernier refuge du tuit-tuit, un oiseau endémique parmi les plus menacés au monde. Sentiers plus courts et plus ombragés vers le Colorado et la Providence pour une demi-journée."
+      },
+      {
+        heading: "6. Le cirque de Mafate — accessible à pied uniquement",
+        body: "Mafate est le seul territoire habité de France sans route : ses îlets (La Nouvelle, Marla, Roche Plate, Aurère, Îlet à Bourse) ne se rejoignent qu'à pied ou en hélicoptère, et le ravitaillement se fait par les airs. Les accès les plus courts depuis Saint-Denis passent par le col des Bœufs côté Salazie ou par Dos d'Âne côté nord. Une première approche réaliste tient en deux jours avec une nuit en gîte, réservation indispensable en haute saison. Ce n'est pas une balade : dénivelés continus, chaleur, eau à porter. En moins de temps, la vue sur le cirque depuis les belvédères reste le meilleur compromis."
+      },
+      {
+        heading: "7. Salazie, Hell-Bourg et le Voile de la Mariée",
+        body: "Le cirque de Salazie s'atteint en voiture depuis Saint-Denis, par une route qui remonte la rivière du Mât entre des parois ruisselantes de cascades. La plus photographiée est le Voile de la Mariée, visible depuis la route. Au fond du cirque, Hell-Bourg est classé parmi les Plus Beaux Villages de France : anciennes cases créoles restaurées, jardins créoles, la Maison Folio qui se visite, et les vestiges des thermes qui ont fait la réputation du village au XIXe siècle. Salazie est aussi le pays du chouchou, la chayotte, cuisinée en gratin et en brèdes."
+      },
+      {
+        heading: "8. Le Piton de la Fournaise",
+        body: "Le Piton de la Fournaise est l'un des volcans les plus actifs de la planète, et le trajet depuis Saint-Denis passe par la Plaine-des-Cafres puis la route forestière du Volcan. Le point d'observation classique est le Pas de Bellecombe, au bord de l'Enclos Fouqué. La descente dans l'Enclos et la montée au cratère Dolomieu prennent la journée et ne sont ouvertes qu'en dehors des périodes d'éruption et d'alerte : l'accès dépend de l'arrêté préfectoral en vigueur, à vérifier le matin même. En route, la Plaine des Sables offre un paysage minéral sans équivalent sur l'île."
+      },
+      {
+        heading: "9. Les marchés, le rhum arrangé et l'artisanat",
+        body: "Le marché forain de Saint-Denis se tient sur le front de mer et concentre l'essentiel : letchis en décembre, mangues, ananas Victoria, combavas, curcuma, vanille Bourbon, piments, brèdes, samoussas et bouchons vendus à la douzaine. Le petit marché couvert du centre complète avec l'artisanat, la vannerie en vacoa et les sacs en fibre de bananier. Le rhum arrangé se vend partout, mais mérite d'être goûté avant achat : les recettes vont du classique vanille-cannelle au faham, une orchidée endémique. Les letchis et les fruits de saison rythment les étals bien plus que les mois du calendrier métropolitain."
+      },
+      {
+        heading: "10. La table créole réunionnaise",
+        body: "La cuisine réunionnaise est le point de rencontre des quatre populations de l'île. Le cari, base de tout, se décline en cari poulet, cari boucané, cari ti-jaque, cari camaron, servi avec du riz, des grains (haricots, lentilles de Cilaos) et un rougail. Le rougail saucisse est le plat du dimanche, les brèdes accompagnent tout, les samoussas et bouchons se mangent debout en apéritif. Côté sucré : gâteau patate, bonbons piment, bonbons miel. À table, la bière locale Dodo est un marqueur culturel à elle seule. Les tables d'hôtes dans les Hauts servent souvent mieux que les restaurants du centre-ville."
+      }
+    ],
+    relatedCities: ["saint-denis-reunion", "saint-paul-reunion", "saint-pierre-reunion", "saint-andre-reunion", "le-tampon"],
+    relatedGuides: [
+      "vivre-en-outre-mer-guide-2026",
+      "demenager-a-saint-denis-reunion-2026",
+      "10-choses-a-faire-a-saint-paul-reunion-2026",
+      "10-choses-a-faire-a-saint-pierre-reunion-2026"
+    ],
+    tags: ["10 choses à faire à Saint-Denis", "activités Saint-Denis La Réunion 2026", "que faire à Saint-Denis 974", "sorties Saint-Denis Réunion", "Barachois Jardin de l'État Mafate Salazie Piton de la Fournaise"]
+  },
+  {
+    slug: "10-choses-a-faire-a-saint-paul-reunion-2026",
+    title: "10 choses à faire à Saint-Paul (La Réunion, côte ouest)",
+    metaTitle: "10 choses à faire à Saint-Paul (La Réunion) 2026",
+    metaDesc: "Marché du front de mer, cimetière marin, lagon de l'Ermitage, Boucan Canot, Maïdo, baleines : 10 activités à Saint-Paul sur la côte ouest de La Réunion.",
+    category: "tourisme",
+    emoji: "🏝️",
+    readMinutes: 6,
+    publishedAt: "2026-07-30",
+    updatedAt: "2026-07-30",
+    intro: "Saint-Paul est la commune la plus étendue de La Réunion et la deuxième par la population, avec environ 105 000 habitants. C'est le premier site de peuplement de l'île : les Français s'y installent au XVIIe siècle, à l'abri de la baie, avant que le chef-lieu ne bascule vers Saint-Denis. Le territoire communal monte du niveau de la mer au belvédère du Maïdo, à plus de 2 200 mètres au-dessus du cirque de Mafate, ce qui explique l'écart de température entre la plage et les Hauts. C'est ici que se trouve la seule vraie façade balnéaire de l'île : lagon protégé de l'Ermitage et de La Saline, plages de Saint-Gilles et de Boucan Canot.",
+    sections: [
+      {
+        heading: "1. Le marché forain du front de mer",
+        body: "Le marché de Saint-Paul se tient en fin de semaine le long du front de mer, sous les filaos, et c'est le plus grand marché de plein air de l'île. Fruits tropicaux selon la saison (letchis, mangues, ananas Victoria, fruits de la passion), épices et vanille Bourbon, plantes, vannerie en vacoa, textiles, samoussas et bouchons à emporter. Il vaut la peine d'y venir tôt : la fréquentation et la chaleur montent ensemble. Le parking longe la plage, et la promenade du front de mer permet d'enchaîner directement avec le cimetière marin."
+      },
+      {
+        heading: "2. Le cimetière marin et la tombe de La Buse",
+        body: "Le cimetière marin de Saint-Paul, adossé à la plage et planté de bougainvillées, abrite deux tombes très visitées : celle du pirate Olivier Levasseur, dit La Buse, exécuté à Saint-Paul au XVIIIe siècle, et celle du poète Leconte de Lisle, né dans la commune. La pierre de La Buse est couverte de graffitis liés à la légende de son trésor cryptographié, jamais retrouvé. Entrée libre, visite courte. C'est aussi l'un des rares endroits de l'île où l'histoire coloniale, maritime et littéraire tient sur cinquante mètres."
+      },
+      {
+        heading: "3. La grotte des Premiers Français",
+        body: "À l'extrémité nord de la baie, la grotte des Premiers Français marque le point de départ du peuplement de l'île : c'est là que se sont abrités les premiers occupants au XVIIe siècle, avant la construction du bourg. Le site est aménagé et libre d'accès, avec des panneaux explicatifs et une vue sur la baie. Il se combine avec l'étang Saint-Paul tout proche et avec la route de la Corniche vers le Cap La Houssaye, dont les panoramas sur la côte ouest valent l'arrêt en fin d'après-midi."
+      },
+      {
+        heading: "4. Saint-Gilles-les-Bains et le lagon de l'Ermitage",
+        body: "Saint-Gilles-les-Bains est la station balnéaire de l'île : port de plaisance, restaurants, sorties en mer. Le lagon s'étend de l'Ermitage à La Saline, protégé par la barrière de corail, avec une eau peu profonde et calme, la seule configuration de baignade familiale de La Réunion. Les plages de l'Ermitage sont ombragées par une filaoraie qui rend la journée tenable. Zones de baignade surveillées et balisées : c'est le cadre à respecter, la réglementation locale n'est pas décorative."
+      },
+      {
+        heading: "5. La réserve naturelle marine et le snorkeling",
+        body: "Le lagon de la côte ouest est classé en réserve naturelle marine, avec des zones de protection renforcée où la circulation et les prélèvements sont réglementés. Le masque et le tuba suffisent pour voir poissons-perroquets, poissons-papillons, murènes et parfois de jeunes tortues vertes sur les herbiers, dans un mètre d'eau. La règle qui compte : on ne marche pas sur le corail, on ne nourrit pas les poissons, on ne ramasse rien. Des sentiers sous-marins balisés et des sorties encadrées existent depuis l'Ermitage et Saint-Leu, au sud."
+      },
+      {
+        heading: "6. Boucan Canot",
+        body: "Boucan Canot est la plage de sable clair la plus connue de l'île, en dehors du lagon, bordée de basalte et fréquentée pour son ambiance de fin de journée. La baignade n'y est possible que dans la zone protégée et surveillée, aménagée après la fermeture des plages hors lagon ; en dehors, l'accès à l'eau est interdit. Le sable est brûlant à la mi-journée, les couchers de soleil y sont l'attraction réelle. Restaurants et bars en surplomb, parking souvent saturé le week-end."
+      },
+      {
+        heading: "7. L'étang Saint-Paul — réserve naturelle nationale",
+        body: "L'étang Saint-Paul est la plus grande zone humide de La Réunion et une réserve naturelle nationale, à quelques minutes du centre-ville. Sentiers aménagés, pontons d'observation, canaux : on y observe les oiseaux d'eau, les papangues et une flore de zone humide devenue rare sur l'île. Des visites guidées sont proposées par la maison de la réserve, et une partie du parcours se fait en canoë selon la saison. C'est le contrepoint immédiat du front de mer, et un bon plan par temps couvert."
+      },
+      {
+        heading: "8. Le Maïdo et le belvédère sur Mafate",
+        body: "Le Maïdo est le belvédère le plus spectaculaire de la côte ouest : la route grimpe des champs de canne aux forêts de tamarins des Hauts, jusqu'à un promontoire qui tombe à pic sur le cirque de Mafate, plus de 1 000 mètres plus bas, avec les îlets visibles au fond. Il faut partir de nuit pour être en haut au lever du jour : passé le milieu de matinée, les nuages remontent et effacent le cirque. Prévoir une veste, l'écart de température avec la plage est important. Départs de sentiers vers le Grand Bénare et vers Mafate."
+      },
+      {
+        heading: "9. Parapente à Saint-Leu et observation des baleines",
+        body: "À une vingtaine de minutes au sud, Saint-Leu est l'un des sites de parapente les plus réputés au monde : décollage dans les Hauts, atterrissage face au lagon, vols biplaces proposés toute l'année selon les conditions. La côte ouest est aussi le meilleur poste d'observation des baleines à bosse, qui viennent mettre bas dans les eaux réunionnaises pendant l'hiver austral, entre juillet et octobre environ. Les sorties en mer sont encadrées par une charte d'approche : distance minimale, pas de poursuite, pas de mise à l'eau."
+      },
+      {
+        heading: "10. La table de la côte ouest",
+        body: "La côte ouest est celle des tables les mieux exposées de l'île : carangues, thons, espadons et camarons de rivière, servis en cari, en blaff ou grillés, avec riz, grains et rougails. Sur la plage, les camions-bars vendent samoussas, bouchons et sandwichs américains. Dans les Hauts de Saint-Paul, les tables d'hôtes servent le cari cuit au feu de bois, formule complète avec punch et rhum arrangé. La ferme de la vanille et les producteurs de fruits des Hauts se visitent sur rendez-vous, et le rhum arrangé local mérite d'être goûté sur place plutôt qu'acheté à l'aéroport."
+      }
+    ],
+    relatedCities: ["saint-paul-reunion", "saint-denis-reunion", "saint-pierre-reunion", "le-tampon", "saint-louis-reunion-974"],
+    relatedGuides: [
+      "vivre-en-outre-mer-guide-2026",
+      "demenager-a-saint-paul-reunion-2026",
+      "10-choses-a-faire-a-saint-denis-reunion-2026",
+      "10-choses-a-faire-a-saint-pierre-reunion-2026"
+    ],
+    tags: ["10 choses à faire à Saint-Paul", "activités Saint-Paul La Réunion 2026", "que faire à Saint-Paul 974", "sorties côte ouest Réunion", "lagon Ermitage Boucan Canot Maïdo baleines cimetière marin"]
+  },
+  {
+    slug: "10-choses-a-faire-a-saint-pierre-reunion-2026",
+    title: "10 choses à faire à Saint-Pierre (La Réunion, le Sud)",
+    metaTitle: "10 choses à faire à Saint-Pierre (La Réunion) 2026",
+    metaDesc: "Marché du samedi, front de mer, Saga du Rhum, Sud sauvage, Grand Brûlé, Cilaos, Entre-Deux : 10 activités à Saint-Pierre et dans le sud de La Réunion.",
+    category: "tourisme",
+    emoji: "☀️",
+    readMinutes: 6,
+    publishedAt: "2026-07-30",
+    updatedAt: "2026-07-30",
+    intro: "Saint-Pierre est la capitale du sud de La Réunion, environ 86 000 habitants, et la ville la plus ensoleillée de l'île avec son second aéroport, Pierrefonds. Elle a un centre-ville dense, un port de plaisance, une plage abritée derrière un récif, et une vie nocturne qui n'a pas d'équivalent ailleurs sur l'île. Sa vraie valeur pour un visiteur tient à sa position : le Sud sauvage et ses coulées de lave commencent à trente minutes à l'est, le cirque de Cilaos se rejoint par la route la plus vertigineuse du département, et le Piton de la Fournaise s'atteint par les Hauts sans passer par Saint-Denis.",
+    sections: [
+      {
+        heading: "1. Le marché forain du samedi matin",
+        body: "Le marché forain de Saint-Pierre, le samedi matin le long du front de mer, est le grand rendez-vous du sud : plusieurs centaines d'étals sur près d'un kilomètre. Fruits et légumes des Hauts, brèdes, épices, vanille, cafés locaux, vannerie, textiles, samoussas et bouchons. Le marché couvert du centre, ouvert en semaine, prend le relais pour l'épicerie et l'artisanat. Venir tôt : à partir de dix heures, la chaleur et l'affluence rendent la déambulation pénible, et les meilleurs produits sont partis."
+      },
+      {
+        heading: "2. Le front de mer, la plage et le port",
+        body: "La plage de Saint-Pierre est protégée par un récif, ce qui en fait l'une des rares zones de baignade surveillées du sud de l'île. Elle est bordée d'une longue promenade plantée, prolongée par le port de plaisance et le vieux port. Le boulevard Hubert-Delisle, sur le front de mer, aligne les terrasses et devient le cœur des sorties le soir. Les fins d'après-midi sur la jetée, avec le trafic des bateaux de pêche et de plaisance, valent le détour même sans se baigner."
+      },
+      {
+        heading: "3. La Saga du Rhum",
+        body: "Installée dans la distillerie Isautier, la plus ancienne distillerie familiale de l'île, la Saga du Rhum est un musée qui raconte la canne à sucre, la distillation et le rôle du rhum dans l'économie réunionnaise, jardin botanique de cannes et de plantes à rhum arrangé compris. La visite se termine par une dégustation encadrée. C'est le meilleur endroit de l'île pour comprendre la différence entre rhum traditionnel de mélasse, rhum agricole et rhum arrangé, avant de choisir une bouteille ailleurs qu'en zone duty free."
+      },
+      {
+        heading: "4. Le Sud sauvage — Manapany, Grand Anse",
+        body: "À l'est de Saint-Pierre commence le Sud sauvage, une côte de falaises basaltiques et de criques. Deux arrêts s'imposent : le bassin de Manapany-les-Bains, piscine naturelle aménagée dans la roche et refuge du gecko vert de Manapany, endémique et menacé ; et Grand Anse, à Petite-Île, une plage de sable clair bordée de cocotiers avec un bassin aménagé, la houle étant trop forte pour nager en dehors. La route qui les relie, entre champs de canne et ravines, se fait tranquillement en une demi-journée."
+      },
+      {
+        heading: "5. Le Grand Brûlé et les coulées de lave",
+        body: "Plus à l'est, la route du littoral traverse le Grand Brûlé, la zone où les coulées du Piton de la Fournaise descendent jusqu'à la mer. On roule littéralement sur des coulées datées, indiquées par des panneaux, dans un paysage noir que la végétation pionnière recolonise à des rythmes différents selon l'année de l'éruption. Sur le trajet : la Vierge au Parasol, l'anse des Cascades et ses cocotiers penchés sur l'eau, le Puits des Anglais et les jardins d'épices de Saint-Philippe. C'est la plus belle route de l'île, et elle est parfois coupée lors des éruptions."
+      },
+      {
+        heading: "6. Le Piton de la Fournaise par les Hauts",
+        body: "Depuis Saint-Pierre, l'accès au volcan passe par Le Tampon puis la Plaine-des-Cafres et la route forestière du Volcan, ce qui en fait la base la plus courte de l'île pour une journée au Pas de Bellecombe. La traversée de la Plaine des Sables, désert minéral rougeâtre, précède le belvédère sur l'Enclos Fouqué. La descente dans l'Enclos et la montée au cratère demandent la journée, un départ avant le lever du jour, de l'eau en quantité et de bonnes chaussures. L'accès dépend de l'arrêté préfectoral du moment : à vérifier le matin même."
+      },
+      {
+        heading: "7. Cilaos et la route aux 400 virages",
+        body: "Le cirque de Cilaos se rejoint depuis Saint-Louis, à côté de Saint-Pierre, par une route de montagne dont les lacets ont donné le surnom de route aux 400 virages : tunnels étroits, à-pics, croisements délicats, comptez bien plus de temps que ce qu'annonce le GPS. Au bout : un village de montagne à plus de 1 200 mètres, ses thermes, ses sentiers vers le Piton des Neiges, point culminant de l'océan Indien. Cilaos est aussi connu pour ses lentilles, sa broderie, le jour de l'An chinois local et son vin, produit en très petite quantité."
+      },
+      {
+        heading: "8. Entre-Deux et le Dimitile",
+        body: "Entre-Deux, à une vingtaine de minutes au nord de Saint-Pierre, est un village créole classé Village Créole, aux cases colorées et aux jardins créoles entretenus, réputé pour ses lentilles et son artisanat de la paille de chouchou. C'est le point de départ vers le Dimitile, sommet qui domine le cirque de Cilaos et porte la mémoire du marronnage : les esclaves en fuite s'y étaient réfugiés, et des sites mémoriels jalonnent le sentier. La montée est raide, la vue sur le cirque en récompense."
+      },
+      {
+        heading: "9. Les nuits de Saint-Pierre",
+        body: "Saint-Pierre est la ville qui sort le plus à La Réunion. Le boulevard du front de mer et les rues du centre concentrent bars, terrasses et concerts de maloya et de séga, les deux musiques de l'île, le maloya étant inscrit au patrimoine culturel immatériel de l'UNESCO. Les kabars, soirées de maloya souvent improvisées, se jouent aussi dans les Hauts. C'est une différence tangible avec Saint-Denis, plus administrative : ici l'animation nocturne se prolonge dans la semaine, et pas seulement le samedi."
+      },
+      {
+        heading: "10. La table du Sud",
+        body: "Le sud cuisine ce que produisent ses Hauts et sa côte : cari poulet ou boucané, cari de camarons, blaff de poisson, rougail saucisse, accompagné de riz, de grains et de rougail pimenté. Les lentilles de Cilaos, cultivées en altitude, sont le grain le plus recherché de l'île. Sur les marchés et en bord de route : samoussas, bouchons, gâteau patate, bonbons piment. Les tables d'hôtes d'Entre-Deux et des Hauts servent le cari au feu de bois et travaillent les produits qu'elles cultivent, ce que peu de restaurants du front de mer peuvent revendiquer."
+      }
+    ],
+    relatedCities: ["saint-pierre-reunion", "le-tampon", "saint-joseph-reunion", "saint-louis-reunion-974", "saint-paul-reunion"],
+    relatedGuides: [
+      "vivre-en-outre-mer-guide-2026",
+      "10-choses-a-faire-a-saint-denis-reunion-2026",
+      "10-choses-a-faire-a-saint-paul-reunion-2026",
+      "climat-2040-outre-mer-drom-cyclones-mer"
+    ],
+    tags: ["10 choses à faire à Saint-Pierre", "activités Saint-Pierre La Réunion 2026", "que faire dans le sud de La Réunion", "sorties Saint-Pierre 974", "marché du samedi Cilaos Grand Anse Sud sauvage volcan"]
+  },
+  {
+    slug: "10-choses-a-faire-a-fort-de-france-2026",
+    title: "10 choses à faire à Fort-de-France (Martinique)",
+    metaTitle: "10 choses à faire à Fort-de-France 2026",
+    metaDesc: "Bibliothèque Schœlcher, Fort Saint-Louis, grand marché, jardin de Balata, Trois-Îlets, Montagne Pelée, rhum AOC : 10 activités à Fort-de-France.",
+    category: "tourisme",
+    emoji: "🌺",
+    readMinutes: 6,
+    publishedAt: "2026-07-30",
+    updatedAt: "2026-07-30",
+    intro: "Fort-de-France est la préfecture de la Martinique et sa principale ville, environ 75 000 habitants au fond d'une baie profonde qui a fait sa fortune militaire puis commerciale. Le centre se parcourt à pied : quelques rues serrées entre la Savane et le canal Levassor, deux monuments à charpente métallique qui font sa signature architecturale, un marché couvert, et la mémoire d'Aimé Césaire, poète et maire de la ville pendant plus d'un demi-siècle. La ville sert de base logistique pour l'île entière : navettes maritimes vers les Trois-Îlets, route de la Trace vers les Pitons du Carbet, et le nord volcanique à une heure de voiture.",
+    sections: [
+      {
+        heading: "1. La bibliothèque Schœlcher",
+        body: "La bibliothèque Schœlcher est le bâtiment le plus photographié de la ville : une structure métallique polychrome, montée pour l'Exposition universelle de Paris en 1889 puis démontée et réassemblée à Fort-de-France, coiffée d'un dôme byzantin. Elle porte le nom de Victor Schœlcher, artisan du décret d'abolition de l'esclavage de 1848, qui légua sa bibliothèque personnelle à la Martinique. C'est une bibliothèque en activité, pas un musée : on entre, on regarde la charpente et la salle de lecture, on ressort. Classée monument historique."
+      },
+      {
+        heading: "2. La cathédrale Saint-Louis et le centre",
+        body: "La cathédrale Saint-Louis, à quelques rues de là, relève de la même logique constructive : une charpente métallique conçue pour résister aux séismes et aux cyclones qui ont détruit plusieurs fois les édifices précédents, sous une flèche visible de toute la baie. Autour, le centre-ville se parcourt en une matinée : la rue Victor-Hugo commerçante, la préfecture, les façades à balcons de fer forgé, le parc Aimé-Césaire. Les rues sont animées en journée et se vident tôt le soir, l'essentiel de la vie nocturne s'étant déplacé vers Schœlcher et les Trois-Îlets."
+      },
+      {
+        heading: "3. La Savane et le Fort Saint-Louis",
+        body: "La Savane est la grande place plantée en bord de baie, réaménagée en promenade, avec vue sur les navires et sur le fort. Elle porte l'histoire compliquée de l'île : la statue de l'impératrice Joséphine, née en Martinique et associée au rétablissement de l'esclavage, y a été décapitée puis retirée en 2020. Le Fort Saint-Louis, presqu'île fortifiée qui domine l'entrée de la baie, reste une base navale active et se visite uniquement en visite guidée, sur réservation et avec pièce d'identité. Les iguanes y sont plus nombreux que les visiteurs."
+      },
+      {
+        heading: "4. Le grand marché couvert et le marché aux poissons",
+        body: "Le grand marché couvert de Fort-de-France est l'endroit où l'on achète les épices et les préparations martiniquaises : colombo, bois d'Inde, massalé, piments végétariens, sirops de canne, confitures de goyave, punchs et rhums arrangés. Les vendeuses expliquent les mélanges si on demande, et les prix se discutent moins qu'on ne le croit. Le marché aux poissons, sur le canal Levassor, fonctionne au rythme des retours de pêche le matin : thazard, vivaneau, dorade coryphène, langoustes. Un marché aux fleurs et un marché aux légumes complètent le dispositif à proximité."
+      },
+      {
+        heading: "5. Le jardin de Balata",
+        body: "Sur les hauteurs de la commune, le long de la route de la Trace, le jardin de Balata est un jardin botanique créé par un paysagiste martiniquais autour d'une maison créole restaurée : collections d'anthuriums, d'héliconias, de balisiers, de broméliacées, bassins de nénuphars et un parcours de ponts suspendus dans la canopée. Les colibris se laissent approcher aux mangeoires. Juste avant, l'église de Balata reproduit à échelle réduite la basilique du Sacré-Cœur de Montmartre, incongruité assumée dans un décor de forêt tropicale."
+      },
+      {
+        heading: "6. Sur les pas d'Aimé Césaire",
+        body: "Aimé Césaire, poète du Cahier d'un retour au pays natal et théoricien de la négritude avec Léopold Sédar Senghor, a été maire de Fort-de-France de 1945 à 2001 et député de la Martinique. La ville en garde des traces concrètes : le théâtre Aimé-Césaire, le parc qui porte son nom, son ancien bureau à l'hôtel de ville, ouvert au public. L'aéroport de la Martinique porte également son nom. Lire quelques pages du Cahier avant la visite change complètement la lecture de la ville, et c'est le meilleur billet d'entrée dans l'histoire politique des Antilles françaises."
+      },
+      {
+        heading: "7. Les Trois-Îlets en navette maritime",
+        body: "La navette maritime traverse la baie depuis le terminal de Fort-de-France jusqu'à la Pointe du Bout, aux Trois-Îlets : plus rapide que la route, et c'est le meilleur point de vue sur la ville. De l'autre côté : les plages de l'Anse Mitan et de l'Anse à l'Âne, le musée de la Pagerie installé sur l'habitation où naquit Joséphine, la Savane des Esclaves qui reconstitue l'habitat et les cultures d'avant et d'après l'abolition, et la Maison de la Canne. Une journée aller-retour sans voiture, ce qui est rare en Martinique."
+      },
+      {
+        heading: "8. La Montagne Pelée et Saint-Pierre",
+        body: "Au nord, la Montagne Pelée a détruit Saint-Pierre le 8 mai 1902 : une nuée ardente a rasé en quelques minutes ce qui était alors la capitale économique de l'île. Les ruines du théâtre, le cachot de Cyparis et le musée Frank-Perret racontent l'événement, et la ville n'a jamais retrouvé sa place. Les volcans et forêts de la Montagne Pelée et des pitons du nord de la Martinique sont inscrits au patrimoine mondial de l'UNESCO depuis 2023. L'ascension de la Pelée part de l'Aileron, demande la journée et se joue sur la météo, la brume tombant vite."
+      },
+      {
+        heading: "9. Les distilleries et l'AOC rhum agricole",
+        body: "Le rhum agricole martiniquais est le seul rhum au monde protégé par une appellation d'origine contrôlée, obtenue en 1996 : il est distillé à partir de pur jus de canne, et non de mélasse. Une dizaine de distilleries se visitent sur l'île, plusieurs à moins d'une heure de Fort-de-France : Depaz au pied de la Pelée, Habitation Clément au François avec son parc et sa collection d'art, Neisson au Carbet, La Mauny à Rivière-Pilote, Saint-James à Sainte-Marie. Visites souvent gratuites, dégustation comprise, ce qui suppose un conducteur désigné."
+      },
+      {
+        heading: "10. La table créole martiniquaise",
+        body: "La cuisine martiniquaise se goûte dès l'apéritif : accras de morue, boudin créole, ti-punch au rhum agricole et sirop de canne. Ensuite viennent le colombo de porc ou de cabri, le court-bouillon de poisson, le blaff, le chatrou, les ouassous en fricassée, servis avec riz, haricots rouges, légumes-pays et gratin de christophine. Le dessert va du blanc-manger coco aux tourments d'amour ramenés des Saintes. Les lolos, petits restaurants de quartier, servent le meilleur rapport qualité-prix de l'île, souvent le midi uniquement."
+      }
+    ],
+    relatedCities: ["fort-de-france", "le-lamentin", "le-robert", "le-francois"],
+    relatedGuides: [
+      "vivre-en-outre-mer-guide-2026",
+      "acheter-immobilier-outre-mer-drom-france-2026",
+      "10-choses-a-faire-a-pointe-a-pitre-2026",
+      "climat-2040-outre-mer-drom-cyclones-mer"
+    ],
+    tags: ["10 choses à faire à Fort-de-France", "activités Fort-de-France 2026", "que faire en Martinique", "sorties Fort-de-France", "bibliothèque Schœlcher Balata Trois-Îlets Montagne Pelée rhum AOC"]
+  },
+  {
+    slug: "10-choses-a-faire-a-pointe-a-pitre-2026",
+    title: "10 choses à faire à Pointe-à-Pitre (Guadeloupe)",
+    metaTitle: "10 choses à faire à Pointe-à-Pitre 2026",
+    metaDesc: "Mémorial ACTe, marché Saint-Antoine, place de la Victoire, musée Saint-John-Perse, Les Saintes, Soufrière : 10 activités à Pointe-à-Pitre en Guadeloupe.",
+    category: "tourisme",
+    emoji: "⚓",
+    readMinutes: 6,
+    publishedAt: "2026-07-30",
+    updatedAt: "2026-07-30",
+    intro: "Pointe-à-Pitre est la capitale économique de la Guadeloupe, sans en être le chef-lieu, qui reste Basse-Terre. La commune elle-même est petite, environ 15 000 habitants, mais elle est le centre d'une agglomération qui concentre le port, l'aéroport voisin et l'essentiel de l'activité de l'archipel. Le centre ancien, quadrillé autour de la place de la Victoire et de la darse, garde ses maisons créoles à balcons de bois et ses commerces de rue. C'est aussi le point de départ des liaisons maritimes vers Marie-Galante, Les Saintes et La Désirade, et la porte d'entrée de la Basse-Terre volcanique.",
+    sections: [
+      {
+        heading: "1. Le Mémorial ACTe",
+        body: "Le Mémorial ACTe, ouvert en 2015 sur le site de l'ancienne usine sucrière Darboussier, est le grand centre caribéen d'expression et de mémoire de la traite et de l'esclavage. Le bâtiment, une résille d'argent posée sur un socle noir, est un geste architectural en soi. Le parcours permanent couvre la traite atlantique, les sociétés de plantation, les résistances et abolitions, jusqu'aux prolongements contemporains. Comptez au moins deux heures, davantage pour lire réellement. C'est l'équipement culturel majeur des Antilles françaises, à faire avant tout le reste."
+      },
+      {
+        heading: "2. Le marché Saint-Antoine et le marché de la Darse",
+        body: "Le marché Saint-Antoine, dit marché aux épices, est le marché historique du centre : colombo, bois d'Inde, curcuma, cannelle, vanille, piments, sirops et punchs. Les marchandes hèlent, négocient et expliquent volontiers les mélanges. Le marché de la Darse, en bord de bassin, ajoute fruits et légumes-pays, ignames, madères, christophines, fruits à pain, et les fleurs tropicales. Autour, les rues commerçantes de Nozières et Frébault forment le vrai centre marchand. On y va le matin, la chaleur de l'après-midi vide les étals."
+      },
+      {
+        heading: "3. La place de la Victoire et la darse",
+        body: "La place de la Victoire est le cœur historique de la ville : une esplanade plantée de sabliers et de flamboyants entre la darse et les façades créoles à balcons, où se tiennent les rendez-vous publics et une partie du carnaval. La darse, bassin ouvert sur la baie, accueille les navettes vers les îles et les bateaux de pêche. Les maisons du pourtour, à étage sur galerie, donnent la meilleure idée de ce qu'était Pointe-à-Pitre avant les cyclones et les incendies qui l'ont plusieurs fois reconstruite."
+      },
+      {
+        heading: "4. Le musée Saint-John-Perse",
+        body: "Installé dans une maison créole du centre à galerie et lambrequins, le musée Saint-John-Perse est consacré au poète né à Pointe-à-Pitre, prix Nobel de littérature en 1960, et plus largement à l'art de vivre créole du début du XXe siècle : mobilier, costumes, objets domestiques, manuscrits. La maison elle-même vaut la visite pour son architecture. À quelques rues, le musée Schœlcher, dans un bâtiment de la fin du XIXe siècle, présente les collections léguées par Victor Schœlcher et revient sur le combat abolitionniste."
+      },
+      {
+        heading: "5. La cathédrale Saint-Pierre-et-Saint-Paul",
+        body: "Surnommée l'église de fer, la cathédrale Saint-Pierre-et-Saint-Paul a été reconstruite au XIXe siècle avec une armature métallique apparente destinée à tenir face aux séismes et aux cyclones qui avaient détruit les édifices antérieurs. L'intérieur, très clair, montre les colonnes et les entretoises de fonte sans les cacher. C'est le pendant guadeloupéen de la cathédrale de Fort-de-France : la même réponse technique à la même contrainte, à quelques dizaines de kilomètres de mer d'écart."
+      },
+      {
+        heading: "6. Les îles au départ de la darse",
+        body: "Depuis la darse, les navettes desservent Marie-Galante, Les Saintes et La Désirade dans la journée. Les Saintes, avec la baie de Terre-de-Haut et le Fort Napoléon, sont l'excursion la plus courue : traversée d'environ une heure, plage de Pompierre, et le point de vue sur une baie régulièrement citée parmi les plus belles du monde. Marie-Galante, plus vaste et plus rurale, se fait à vélo ou en voiture : moulins, distilleries et plages de sable blanc peu fréquentées. Réserver la traversée à l'avance en haute saison."
+      },
+      {
+        heading: "7. Le Gosier et les plages proches",
+        body: "À la sortie est de l'agglomération, Le Gosier aligne les plages accessibles sans excursion : sable clair, eau calme, restaurants de bord de mer. Face au bourg, l'îlet du Gosier et son petit phare se rejoignent en quelques minutes de navette, pour une demi-journée de snorkeling. Plus loin sur la Grande-Terre, Sainte-Anne et Saint-François offrent des lagons plus larges, et la Pointe des Châteaux ferme l'île à l'est sur un promontoire battu par l'Atlantique, avec vue sur La Désirade."
+      },
+      {
+        heading: "8. La Soufrière et la Basse-Terre",
+        body: "L'autre aile de l'île, la Basse-Terre, est volcanique et couverte de forêt tropicale : c'est le parc national de la Guadeloupe. La Soufrière, volcan actif en surveillance permanente, se gravit depuis les Bains Jaunes, sentier court mais raide, glissant et souvent dans les nuages, l'accès dépendant de l'état d'alerte. À proximité : les chutes du Carbet, la Maison de la forêt, et sur la côte ouest la réserve Cousteau au large de Malendure, référence régionale pour la plongée et le snorkeling avec les tortues."
+      },
+      {
+        heading: "9. Le carnaval guadeloupéen",
+        body: "Le carnaval guadeloupéen s'étend de janvier au mercredi des Cendres, et c'est le temps fort de l'année sur l'archipel. Il ne ressemble pas au carnaval de plumes exporté sur les brochures : les groupes à peau, aux tambours ka et aux costumes de vieux vêtements et de peaux de bêtes, sortent en fin de semaine, et le mercredi des Cendres se vit en noir et blanc dans les rues. Pointe-à-Pitre accueille plusieurs des grandes parades. Se renseigner sur le calendrier avant de réserver un séjour à cette période, hébergements compris."
+      },
+      {
+        heading: "10. La table guadeloupéenne",
+        body: "Le bokit, pain frit garni de morue, poulet ou thon, est le sandwich national et se mange debout au camion. Ensuite : accras, boudin créole, colombo de cabri, court-bouillon, blaff, ouassous, matété de crabes à la Pentecôte, bébélé côté Marie-Galante. Les légumes-pays accompagnent tout : igname, madère, fruit à pain, christophine. Côté rhum, la Guadeloupe distille agricole et traditionnel, chez Damoiseau, Bologne, Longueteau ou Reimonenq, sans appellation d'origine contrôlée à la différence de la Martinique. Le punch coco et le planteur finissent le repas."
+      }
+    ],
+    relatedCities: ["pointe-a-pitre", "les-abymes", "baie-mahault"],
+    relatedGuides: [
+      "vivre-en-outre-mer-guide-2026",
+      "acheter-immobilier-outre-mer-drom-france-2026",
+      "10-choses-a-faire-a-fort-de-france-2026",
+      "climat-2040-outre-mer-drom-cyclones-mer"
+    ],
+    tags: ["10 choses à faire à Pointe-à-Pitre", "activités Pointe-à-Pitre 2026", "que faire en Guadeloupe", "sorties Pointe-à-Pitre", "Mémorial ACTe marché Saint-Antoine Les Saintes Soufrière carnaval"]
+  },
+  {
+    slug: "10-choses-a-faire-a-cayenne-2026",
+    title: "10 choses à faire à Cayenne (Guyane)",
+    metaTitle: "10 choses à faire à Cayenne 2026",
+    metaDesc: "Place des Palmistes, fort Cépérou, marché, Rémire-Montjoly, centre spatial de Kourou, îles du Salut, marais de Kaw : 10 activités à Cayenne en Guyane.",
+    category: "tourisme",
+    emoji: "🚀",
+    readMinutes: 6,
+    publishedAt: "2026-07-30",
+    updatedAt: "2026-07-30",
+    intro: "Cayenne est le chef-lieu de la Guyane, environ 65 000 habitants sur une presqu'île entre deux fleuves, à cinq degrés de l'équateur. C'est la seule préfecture française bordée par la forêt amazonienne, et la ville la moins européenne de l'ensemble français : créole guyanais, hmong, bushinengué, amérindien, brésilien, haïtien, chinois, libanais s'y croisent, et ça se lit d'abord sur les étals du marché. Le centre ancien, avec ses cases créoles à balcons de bois et sa place des Palmistes, se visite en une matinée. Le reste du séjour se joue à l'extérieur : plages de Rémire-Montjoly, centre spatial de Kourou, îles du Salut, marais de Kaw.",
+    sections: [
+      {
+        heading: "1. La place des Palmistes",
+        body: "La place des Palmistes est le centre de gravité de Cayenne : une vaste esplanade plantée de palmiers royaux alignés, bordée de bâtiments coloniaux, dont l'hôtel de la préfecture installé dans une ancienne résidence jésuite. On y vient en fin de journée, quand la chaleur retombe, pour les carbets de restauration ambulante et les rencontres. Les manifestations publiques, concerts et fêtes de quartier s'y tiennent. C'est le point de départ logique d'une boucle à pied dans le centre historique, en visant le matin tôt ou la fin d'après-midi."
+      },
+      {
+        heading: "2. Le fort Cépérou",
+        body: "Le fort Cépérou occupe la colline qui domine l'embouchure de la rivière de Cayenne : c'est le site fondateur de la ville, choisi au XVIIe siècle pour sa position défensive, et il porte le nom du chef amérindien avec lequel les Français négocièrent l'installation. Il n'en reste que des vestiges et des batteries, mais la vue sur le port, le fleuve, le marché et les toits du centre est la meilleure de la ville. La montée est courte. Se renseigner localement sur l'état d'accès du site, qui a connu plusieurs phases de fermeture pour travaux."
+      },
+      {
+        heading: "3. Le marché de Cayenne",
+        body: "Le marché de Cayenne est l'endroit qui résume la Guyane en une heure. Sur les étals : couac et cassave issus du manioc, awara, wassaï, piments, herbes de la pharmacopée créole, poissons du fleuve et de mer, gibier réglementé, fruits amazoniens sans équivalent en métropole. Les producteurs hmong du village de Cacao y descendent avec leurs légumes. Sous les carbets, les stands servent la soupe chinoise et le bouillon d'awara à la cuillère, debout, très tôt le matin. C'est le meilleur petit-déjeuner de la ville, et le moins cher."
+      },
+      {
+        heading: "4. Le centre créole et la cathédrale Saint-Sauveur",
+        body: "Le centre ancien se parcourt entre la place des Palmistes et le marché : cases créoles à un étage, balcons de bois ouvragés, volets à persiennes, couleurs vives, dans un état de conservation inégal mais très photogénique. La cathédrale Saint-Sauveur, en briques et bois, structure le quartier. À voir également : les canaux Laussat, hérités des aménagements du XIXe siècle, et la place Victor-Schœlcher. Le musée départemental Alexandre-Franconie et le musée des Cultures guyanaises complètent la visite sur l'histoire du bagne, des peuples amérindiens et de l'or."
+      },
+      {
+        heading: "5. Rémire-Montjoly et la ponte des tortues",
+        body: "La commune voisine de Rémire-Montjoly aligne les plages accessibles depuis Cayenne : Montjoly, Rémire, Gosselin. L'eau y est chargée de sédiments amazoniens, donc brune, ce qui n'a rien à voir avec la propreté ; on n'y vient pas pour le lagon mais pour le sable, la lisière de forêt et les tortues. Les tortues luth, les plus grandes du monde, viennent pondre sur ces plages pendant la saison de ponte, entre mars et juillet environ, et l'observation se fait de nuit, encadrée par des associations naturalistes, sans lumière blanche ni flash. Le sentier du Rorota, en boucle, complète la journée."
+      },
+      {
+        heading: "6. Le centre spatial guyanais à Kourou",
+        body: "Le centre spatial guyanais, à Kourou, à environ une heure de route à l'ouest, est le port spatial de l'Europe : la proximité de l'équateur y donne un avantage physique réel au lancement. Des visites guidées du site sont organisées par le CNES, gratuites mais sur inscription préalable et avec pièce d'identité, sous réserve des campagnes de tir en cours. Le musée de l'Espace, sur place, se visite librement. Un lancement, quand le calendrier tombe bien, s'observe depuis des sites d'observation ouverts au public sur inscription : c'est le spectacle le plus marquant de la région."
+      },
+      {
+        heading: "7. Les îles du Salut",
+        body: "Au large de Kourou, les îles du Salut se rejoignent en catamaran depuis le port : l'île Royale, l'île Saint-Joseph et l'île du Diable, qui composaient le bagne le plus tristement célèbre de l'histoire française. Alfred Dreyfus fut détenu sur l'île du Diable, inaccessible aujourd'hui. Sur l'île Royale, les bâtiments pénitentiaires, la chapelle et l'hôpital sont partiellement restaurés et se parcourent librement, entre agoutis, singes et cocotiers. Saint-Joseph et ses cellules de réclusion, envahies par la végétation, sont plus éprouvantes. Une nuit sur place est possible en nombre limité."
+      },
+      {
+        heading: "8. Les marais de Kaw et le village de Cacao",
+        body: "Les marais de Kaw, à l'est de Cayenne, forment l'une des plus grandes zones humides de France et une réserve naturelle nationale : caïmans noirs, ibis rouges, hoatzins, loutres géantes. L'excursion classique se fait en pirogue avec nuit en carbet flottant, la sortie nocturne à la lampe étant le moment fort. Autre direction, le village de Cacao, installé par une communauté hmong réfugiée du Laos, tient un marché dominical réputé pour ses légumes, ses soupes et son artisanat textile. Les deux sorties se font avec un opérateur local et une voiture."
+      },
+      {
+        heading: "9. Saint-Laurent-du-Maroni et le fleuve",
+        body: "Saint-Laurent-du-Maroni, à environ 250 kilomètres à l'ouest par la route nationale, était la ville-bagne où débarquaient les transportés. Le camp de la Transportation se visite avec un guide, cellules et quartier disciplinaire compris, et c'est la plus forte évocation du bagne accessible à terre. La ville, face au Suriname, vit au rythme du Maroni : les pirogues traversent en continu vers Albina. Des descentes du fleuve vers les villages bushinengués et amérindiens s'organisent sur plusieurs jours depuis Saint-Laurent, avec nuits en hamac sous carbet."
+      },
+      {
+        heading: "10. La table guyanaise",
+        body: "La cuisine guyanaise emprunte à toutes les populations du territoire. Le bouillon d'awara, préparation longue à base de pulpe du fruit d'awara, mijotée avec viandes, poissons fumés et légumes, se mange à Pâques et engage celui qui en reprend à revenir en Guyane. Le reste de l'année : fricassée de gibier ou de poisson, blaff, colombo, calalou, poulet boucané, accompagnés de couac, riz et légumes-pays. Les soupes chinoises et le pho croisent les plats créoles au marché. À boire : jus de wassaï, de maracuja, de comou, et les rhums arrangés au bois bandé."
+      }
+    ],
+    relatedCities: ["cayenne", "saint-laurent-du-maroni"],
+    relatedGuides: [
+      "vivre-en-outre-mer-guide-2026",
+      "acheter-immobilier-outre-mer-drom-france-2026",
+      "10-choses-a-faire-a-fort-de-france-2026",
+      "10-choses-a-faire-a-saint-denis-reunion-2026"
+    ],
+    tags: ["10 choses à faire à Cayenne", "activités Cayenne 2026", "que faire en Guyane", "sorties Cayenne", "place des Palmistes Kourou îles du Salut marais de Kaw Rémire-Montjoly"]
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
