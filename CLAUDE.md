@@ -616,7 +616,18 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
   - Convention : « Biodiversité » nomme une qualité → **10 = bon**. Licences à afficher
     (DOI GBIF + licence par jeu, `CC BY-NC` filtré ; MNHN + Licence Ouverte).
   - Egress : supposer le crawl bloqué côté routine cloud (403 CONNECT comme Overpass) —
-    **passe locale**.
+    **passe locale**. Confirmé le 2026-07-30 : `api.gbif.org`, `inpn.mnhn.fr` et
+    `www.data.gouv.fr` répondent tous les trois 403 CONNECT depuis la routine.
+  - **État au 2026-07-30** : moteur livré, données non collectées. `scripts/city-biodiversity.mjs`
+    (`npm run biodiversity`, + `:probe` / `:stats`) et `lib/biodiversity.ts` sont en place ;
+    `data/city-biodiversity.json` vaut `{}` — **0/540 villes**, aucune surface, aucun classement.
+    La richesse est mesurée par **raréfaction de Hurlbert** (espèces attendues dans 500
+    observations) et non par un volume d'occurrences ; sous 500 observations ou 20 observateurs
+    la ville est **non mesurable** et n'a pas de score. `overall` reste `null` tant que les zones
+    protégées INPN ne sont pas collectées : repondérer 2 composantes sur 3 donnerait un chiffre
+    qui ne mesure pas ce que son nom annonce. `cityProtectedAreas()` renvoie `null` = « on ne
+    sait pas », jamais `0`. ⚠️ Les paramètres GBIF sont marqués `@unverified` dans le script —
+    lancer `npm run biodiversity:probe` en local avant le premier lot.
 
 - [ ] **F63 — Qualité de l'air : du modèle à la mesure** — la section existe
   (`/villes/[slug]/air` ×540 + EN `air-quality`) mais `lib/air-quality.ts` **calcule
