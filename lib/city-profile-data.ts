@@ -14,6 +14,7 @@ import { nearestCities, type NearbyCity } from "@/lib/distances-rankings";
 import { buildRentVsBuy } from "@/lib/rent-vs-buy-rankings";
 import type { RentVsBuyData } from "@/lib/rent-vs-buy";
 import { cityParks, nearbyCityParks } from "@/lib/city-parks";
+import { biodiversityProfile } from "@/lib/biodiversity";
 
 export interface CityRankingPosition {
   slug: string;
@@ -66,6 +67,22 @@ export interface CityProfileData {
   parksWithPlayground: number;
   /** Nearest crawled neighbour, for cities the crawl has not reached yet. */
   nearbyParks: { slug: string; name: string; parksCount: number; distanceKm: number } | null;
+  /** F62 — gates the 🦋 biodiversity card. `null` until the GBIF crawl covers
+   *  the city, since the sub-page does not exist before then. `score` is null
+   *  on a crawled-but-thinly-surveyed city: the page still exists and says so,
+   *  so the card links there with an honest label instead of a number. */
+  biodiversity: { score: number | null; species: number } | null;
+}
+
+function biodiversityProjection(city: CitySeed) {
+  const profile = biodiversityProfile(city.slug);
+  if (!profile) return { biodiversity: null };
+  return {
+    biodiversity: {
+      score: profile.richness?.score ?? null,
+      species: profile.raw.species,
+    },
+  };
 }
 
 function parksProjection(city: CitySeed) {
@@ -157,5 +174,6 @@ export function buildCityProfileData(city: CitySeed): CityProfileData {
     geoNeighbors: nearestCities(city.slug, 6),
     rentVsBuy: buildRentVsBuy(city.slug),
     ...parksProjection(city),
+    ...biodiversityProjection(city),
   };
 }

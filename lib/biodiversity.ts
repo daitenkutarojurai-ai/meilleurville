@@ -323,17 +323,42 @@ const protectionScale = percentileScale(
   ),
 );
 
-/** Villes pour lesquelles un score de richesse peut être publié. */
+/** Villes suffisamment relevées pour qu'un score de richesse ait un sens. */
 export const BIODIVERSITY_MEASURABLE_COUNT = MEASURABLE_SLUGS.length;
+
+/**
+ * Nombre de villes mesurables en dessous duquel on ne publie AUCUN score de
+ * richesse, même pour les villes bien relevées.
+ *
+ * Le barème est un rang centile : il ne dit pas « riche dans l'absolu », il dit
+ * « mieux que N % des autres ». Avec trois villes crawlées, la première afficherait
+ * « 0,0/10 » pour la seule raison qu'elle est la moins bonne des trois — et son
+ * score bougerait à chaque lot. Un chiffre qui dépend surtout de l'avancement du
+ * crawl n'est pas une mesure de la nature.
+ *
+ * Tant que ce seuil n'est pas franchi, les pages existent, affichent les effectifs
+ * bruts (espèces, observations, observateurs) et disent que la comparaison n'est
+ * pas encore possible. Les mesures sont vraies dès la première ville ; c'est le
+ * classement qui demande une population.
+ */
+export const MIN_CALIBRATION_CITIES = 100;
+
+/** Le barème centile est-il assez peuplé pour être publié ? */
+export const BIODIVERSITY_CALIBRATED =
+  MEASURABLE_SLUGS.length >= MIN_CALIBRATION_CITIES;
 
 /* ── profil par ville ─────────────────────────────────────────────────── */
 
 export interface BiodiversityProfile {
   slug: string;
   raw: CityBiodiversityRaw;
-  /** `null` quand l'effort d'observation est sous le seuil : la page l'écrit,
-   *  elle n'affiche pas de score. */
+  /** `null` quand aucun score de richesse n'est publiable. `richnessPending`
+   *  dit pourquoi — les deux raisons ne se racontent pas pareil à l'écran. */
   richness: Component | null;
+  /** `"effort"` : trop peu d'observations ici. `"calibration"` : la mesure est
+   *  bonne, mais trop peu de villes sont crawlées pour situer celle-ci par
+   *  rapport aux autres. `null` : un score est publié. */
+  richnessPending: "effort" | "calibration" | null;
   /** `null` tant que le jeu INPN n'est pas collecté — « on ne sait pas ». */
   protection: Component | null;
   /** `null` quand F59 n'a relevé aucun parc nommé pour la commune. */
@@ -359,9 +384,15 @@ export function biodiversityProfile(slug: string): BiodiversityProfile | null {
   if (!raw) return null;
 
   const measurable = isMeasurable(raw);
-  const richness: Component | null = measurable
-    ? { value: raw.rarefied as number, ...richnessScale(raw.rarefied as number) }
-    : null;
+  const richnessPending: BiodiversityProfile["richnessPending"] = !measurable
+    ? "effort"
+    : !BIODIVERSITY_CALIBRATED
+      ? "calibration"
+      : null;
+  const richness: Component | null =
+    richnessPending === null
+      ? { value: raw.rarefied as number, ...richnessScale(raw.rarefied as number) }
+      : null;
 
   const green = greenSpacePerCapita(slug);
   const greenSpace: Component | null =
@@ -380,7 +411,16 @@ export function biodiversityProfile(slug: string): BiodiversityProfile | null {
         ).toFixed(1)
       : null;
 
-  return { slug, raw, richness, protection, greenSpace, overall, measurable };
+  return {
+    slug,
+    raw,
+    richness,
+    richnessPending,
+    protection,
+    greenSpace,
+    overall,
+    measurable,
+  };
 }
 
 /* ── libellés ─────────────────────────────────────────────────────────── */

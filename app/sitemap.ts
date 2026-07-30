@@ -17,6 +17,7 @@ import { cityPhoto, guideCityPhoto } from "@/lib/city-images";
 import { VACATION_PROFILES } from "@/lib/vacation-fit";
 import { OWNER_RANKING_SLUGS } from "@/lib/owner-rankings";
 import { hasParksData } from "@/lib/city-parks";
+import { hasBiodiversityData } from "@/lib/biodiversity";
 
 // Locale-aware sitemap. Each Vercel project sets NEXT_PUBLIC_DEFAULT_LOCALE and
 // (optionally) NEXT_PUBLIC_BASE_URL — the FR project emits FR URLs at
@@ -607,6 +608,18 @@ function citySubSection(): MetadataRoute.Sitemap {
           },
         ]
       : []),
+    // F62 — biodiversity sub-page, same conditional rule: the route only exists
+    // for cities the GBIF crawl has covered, so the URL only exists for those.
+    ...(hasBiodiversityData(city.slug)
+      ? [
+          {
+            url: `${BASE_URL}/villes/${city.slug}/biodiversite`,
+            lastModified: CITY_DATA_UPDATED,
+            changeFrequency: "monthly" as const,
+            priority: 0.7,
+          },
+        ]
+      : []),
   ]);
 }
 
@@ -1045,6 +1058,16 @@ function enCitySubSection(): MetadataRoute.Sitemap {
     if (hasParksData(c.slug)) {
       base.push({
         url: `${BASE_URL}/cities/${c.slug}/parks`,
+        lastModified: CITY_DATA_UPDATED,
+        changeFrequency: "monthly" as const,
+        priority: 0.55,
+      });
+    }
+    // F62 — EN twin of /villes/[slug]/biodiversite, emitted under the same
+    // condition so the hreflang pair is always complete or always absent.
+    if (hasBiodiversityData(c.slug)) {
+      base.push({
+        url: `${BASE_URL}/cities/${c.slug}/biodiversity`,
         lastModified: CITY_DATA_UPDATED,
         changeFrequency: "monthly" as const,
         priority: 0.55,

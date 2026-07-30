@@ -768,6 +768,38 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                     </a>
                   );
                 })()}
+                {(() => {
+                  // F62 — card only for cities the GBIF crawl has covered, since
+                  // the sub-page is generated under the same condition. A crawled
+                  // but thinly-surveyed city still gets the card: "effort
+                  // insuffisant" is a real answer, and the page explains it.
+                  const bio = data.biodiversity;
+                  if (!bio) return null;
+                  return (
+                    <a
+                      href={sub("biodiversite", "biodiversity")}
+                      className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
+                    >
+                      <div className="min-w-0">
+                        <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                          {L("🦋 Biodiversité", "🦋 Biodiversity")}
+                        </div>
+                        <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
+                          {bio.score != null
+                            ? L(
+                                `${bio.species} espèces · ${bio.score.toFixed(1).replace(".", ",")}/10 à effort égal`,
+                                `${bio.species} species · ${bio.score.toFixed(1)}/10 at equal effort`,
+                              )
+                            : L(
+                                `${bio.species} espèces · effort d'observation trop faible`,
+                                `${bio.species} species · survey effort too thin`,
+                              )}
+                        </div>
+                      </div>
+                      <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
+                    </a>
+                  );
+                })()}
                 <a
                   href={sub("climat", "climate")}
                   className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group min-w-0"
