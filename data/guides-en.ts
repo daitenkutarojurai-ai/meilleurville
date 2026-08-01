@@ -15730,6 +15730,446 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["things to do in chatellerault", "chatellerault", "travel", "city guide", "nouvelle-aquitaine"],
   },
   {
+    slug: "things-to-do-in-anglet-2026",
+    title: "Things to do in Anglet: the Basque coast, minus the resort prices",
+    metaTitle: "Things to Do in Anglet (2026) — Surf Beaches, Pine Forest & the BAB",
+    metaDesc:
+      "Anglet's chain of surf beaches, the Pignada pine forest, the Chiberta links course, and Bayonne and Biarritz both a tram ride away.",
+    category: "city-guide",
+    emoji: "🏄",
+    readMinutes: 5,
+    publishedAt: "2026-08-01",
+    updatedAt: "2026-08-01",
+    intro:
+      "Anglet is the town sandwiched between Bayonne and Biarritz, and it is usually skipped for both. That is a mistake if you came for the ocean: it holds roughly 4.5 km of open Atlantic beach, the best concentration of surf on the French Basque coast, and it costs meaningfully less to stay in than its famous neighbour to the south. Here's what it's actually for.",
+    sections: [
+      {
+        heading: "The beaches, in order",
+        body: "Anglet's shoreline runs as a chain of named beaches from the mouth of the Adour down to the Biarritz boundary: La Barre, Les Cavaliers, La Madrague, Les Corsaires, Marinella, Les Sables d'Or, L'Océan and the Chambre d'Amour. They are not interchangeable. Les Cavaliers is the wide, serious one and hosts international competition; the Chambre d'Amour at the southern end is the sheltered, family-facing end with a promenade along the cliff. La Barre, where the river meets the ocean, has strong currents and is for experienced surfers only. Surf schools operate through the warm months and rent boards by the day.",
+      },
+      {
+        heading: "The Pignada forest",
+        body: "The Forêt du Pignada is 220 hectares of maritime pine in the middle of the town, planted in the 19th century to stabilise the coastal dunes and now the local green lung. Footpaths, cycle tracks, a fitness circuit, an arboretum and a children's play area; rabbits and squirrels are routine sightings. It is where residents run and walk rather than a sight to tick off, which is precisely why it is pleasant. Next to it sits the Lac de Chiberta, a former dune lake with a walking loop of a couple of kilometres and good birdwatching — herons, egrets, migrating ducks.",
+      },
+      {
+        heading: "Chiberta golf",
+        body: "The Chiberta course, laid out in 1927 by the British architect Tom Simpson, is one of the very few genuine links courses in France: eighteen holes, half through the pines and half along the sea. It is consistently ranked among the country's best and hosts international competition, so green fees are high in season and booking is mandatory. Worth knowing about even if you don't play — the setting between forest and dune is the point.",
+      },
+      {
+        heading: "Bayonne and Biarritz, both minutes away",
+        body: "Anglet's real advantage is position. Bayonne, the Basque Country's cultural capital, adjoins it to the north: Gothic cathedral and cloister, Vauban ramparts, the Petit Bayonne quarter, an excellent covered market, the Musée Basque, and a chocolate-making tradition brought by Portuguese Jewish refugees in the 17th century. Biarritz adjoins it to the south: the Grande Plage, the Rocher de la Vierge, the aquarium, and the imperial-era hotel Napoleon III built for the Empress Eugénie. The Tram'bus line links Anglet to Bayonne town hall in around twenty minutes, and the clifftop walk from the Chambre d'Amour to Biarritz's Grande Plage takes about an hour.",
+      },
+      {
+        heading: "Eating Basque",
+        body: "The food here is Basque rather than generically south-western. Bayonne ham carries an AOP and is aged for many months; axoa is a veal stew built on Espelette pepper, itself AOP and grown in a handful of villages twenty minutes inland; ttoro is the local fish soup; chipirons are small squid, often served in their ink. Finish with a gâteau basque, ideally the black-cherry version from Itxassou rather than the pastry-cream one. The only Basque wine appellation on the French side is Irouléguy — tannat reds, gros manseng whites — and Spanish cider houses are about forty minutes away across the border.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Anglet shares Biarritz-Pays Basque airport and the Bayonne rail station with its neighbours, so arriving without a car is straightforward, and the tram network covers the three towns. Surf season effectively runs spring to autumn, with the biggest swells in autumn; July and August bring the crowds and the highest prices. The beaches are supervised only in season and only in marked zones — the Atlantic here has real rip currents, and that is not a formality.",
+      },
+    ],
+    relatedCities: ["anglet", "bayonne", "biarritz", "saint-jean-de-luz"],
+    tags: ["things to do in anglet", "anglet", "travel", "city guide", "basque country"],
+  },
+  {
+    slug: "things-to-do-in-aubagne-2026",
+    title: "Things to do in Aubagne: Pagnol's hills and clay figurines",
+    metaTitle: "Things to Do in Aubagne (2026) — Garlaban, Santons & the Sainte-Baume",
+    metaDesc:
+      "Marcel Pagnol's home town: the Garlaban hills he wrote about, the santon workshops, the Foreign Legion museum, and Cassis 20 km away.",
+    category: "city-guide",
+    emoji: "🎭",
+    readMinutes: 5,
+    publishedAt: "2026-08-01",
+    updatedAt: "2026-08-01",
+    intro:
+      "Aubagne sits 15 km east of Marseille at the foot of the Garlaban massif, and it is worth a day for two unrelated reasons: it is the birthplace of Marcel Pagnol and the landscape of his childhood books, and it is the capital of the Provençal santon, the painted clay figurine. It is also a cheaper, calmer base than Marseille for reaching Cassis and the Calanques. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Garlaban and the Pagnol hills",
+        body: "The Garlaban massif rises to 714 m a few minutes from the centre, and it is the actual setting of Marcel Pagnol's memoirs — the books published in English as My Father's Glory and My Mother's Castle. A waymarked circuit starts from the hamlet of La Treille and takes roughly three hours there and back, passing the places named in the books and topping out with a full panorama from the bay of Marseille to the Sainte-Baume. The tourist office also runs guided walks. Go early: this is dry Provençal limestone with little shade, and access is restricted on high fire-risk days in summer.",
+      },
+      {
+        heading: "Santons and Pagnol in town",
+        body: "Aubagne has made santons since the 18th century from the local red clay, and around a dozen workshops are open year-round — Scaturro, Di Landro, Fouque, Chave among them; the tourist office publishes a walking map linking them. Every second year the Argilla fair in August brings in more than a hundred exhibitors. In the centre, Le Petit Monde de Marcel Pagnol is a free display of life-size animated figures staging the characters from the novels — Manon, César, Marius, Panisse, Ugolin — and Pagnol's birthplace on the cours Barthélemy has been turned into a small museum, open afternoons in season.",
+      },
+      {
+        heading: "The market and the Foreign Legion",
+        body: "The market on the cours Voltaire runs on Tuesday, Thursday and Saturday mornings, with a farmers' market on Sunday: produce from the Huveaune valley, AOP olive oil, tapenade, goat's cheese from the Garlaban, and a flea market added on Saturdays. Aubagne has also been the headquarters of the French Foreign Legion since 1962, and the regimental museum at the Viénot barracks is open to the public, free, with ID required at the gate. It covers the corps from its founding in 1831 through Indochina, Algeria and recent overseas operations — worth an hour whatever you think of the subject.",
+      },
+      {
+        heading: "The Sainte-Baume, Saint-Pons and Cassis",
+        body: "Three trips out, all short. The Sainte-Baume massif, 25 minutes south-east, rises to 1,148 m at the Saint-Pilon; the grotto associated with Mary Magdalene, a pilgrimage site since the Middle Ages, is a shaded forty-minute climb through a relict beech forest that is among the most southerly in Provence. The Parc de Saint-Pons at Gémenos, 8 km east, is free and has a ruined 13th-century Cistercian abbey, waterfalls and shade — busy at weekends. And Cassis is 20 km south, the shortest route from Aubagne to the Calanques: boats from the port to Port-Miou, Port-Pin and En-Vau, with the Cap Canaille, France's highest sea cliff, above the town.",
+      },
+      {
+        heading: "Eating and practical notes",
+        body: "The cooking is standard Provençal with one Marseille speciality worth trying: pieds et paquets, mutton tripe slow-cooked in white wine. Otherwise soupe au pistou, panisse (fried chickpea flour), and Cassis whites — marsanne and clairette — which are the traditional match for bouillabaisse. Aubagne is on the Marseille–Toulon rail line and has a free town bus network; a car helps for the Sainte-Baume and Gémenos but not for the Garlaban trailheads. Spring and autumn are the best seasons — summer is hot, and the massifs close on high fire-risk days.",
+      },
+    ],
+    relatedCities: ["aubagne", "marseille", "cassis", "la-ciotat", "aix-en-provence"],
+    tags: ["things to do in aubagne", "aubagne", "travel", "city guide", "provence"],
+  },
+  {
+    slug: "things-to-do-in-autun-2026",
+    title: "Things to do in Autun: a Roman city on the edge of the Morvan",
+    metaTitle: "Things to Do in Autun (2026) — Roman Theatre, Gislebertus & Bibracte",
+    metaDesc:
+      "Autun's Roman theatre and gates, the signed Romanesque tympanum of Saint-Lazare, the Gaulish hillfort of Bibracte, and the Morvan park.",
+    category: "city-guide",
+    emoji: "🏛️",
+    readMinutes: 5,
+    publishedAt: "2026-08-01",
+    updatedAt: "2026-08-01",
+    intro:
+      "Autun is a small Burgundy town of about 13,000 people on the edge of the Morvan uplands, and it carries a disproportionate amount of history. Founded under Augustus as Augustodunum to replace the nearby Gaulish hillfort of Bibracte, it kept one of the largest theatres in Roman Gaul and two of the best-preserved Roman gates in France, then added a Romanesque cathedral whose sculptor did something almost nobody did in the 12th century: he signed his work. Here's the shortlist.",
+    sections: [
+      {
+        heading: "Saint-Lazare cathedral and Gislebertus",
+        body: "The cathedral was built between 1120 and 1146 to house the relics of Lazarus, and it is one of the high points of Burgundian Romanesque. The tympanum over the main door — a Last Judgement of unusual expressive force — carries the inscription 'Gislebertus hoc fecit', Gislebertus made this. A named medieval sculptor is rare enough to be the reason art historians come here. The carved capitals from the choir were taken down and are displayed at eye level in the chapter house, which is the only way you will ever see Romanesque capitals properly.",
+      },
+      {
+        heading: "The Roman city",
+        body: "Autun's Roman theatre, on the eastern edge of town, was among the largest in Gaul — roughly 147 m across, with seating for something close to 20,000. Several rows of tiers survive and access is free during the day; in summer it hosts a large volunteer-performed historical pageant. Two of the original four city gates still stand: the Porte Saint-André, with four arches on two levels, and the Porte d'Arroux, which carried the Roman road from Lyon north. Out in the fields north-west of town, the so-called Temple of Janus is a Gallo-Roman shrine of which two high walls remain.",
+      },
+      {
+        heading: "The Musée Rolin and the pyramid",
+        body: "The Musée Rolin occupies the 15th-century town house of Nicolas Rolin, the chancellor who founded the Hospices de Beaune. It holds Gallo-Roman sculpture and mosaics, Burgundian panel painting, and the celebrated relief of Eve carved by Gislebertus — a reclining nude that has no real precedent in Romanesque art. Closed Tuesdays. South-east of the centre, the Pierre de Couhard is a Gallo-Roman funerary monument on a hilltop, its exact purpose still argued over; the walk up takes about twenty minutes and ends with a view over the town and the Arroux valley.",
+      },
+      {
+        heading: "Bibracte and the Morvan",
+        body: "Bibracte, 25 km south-west on Mont Beuvray, is the Aeduan hillfort where Vercingetorix was proclaimed leader of the Gaulish coalition in 52 BC and where Caesar is said to have written part of his account of the war. There is a modern archaeological museum at the foot of the site and a long walk over the enclosure itself under old beech trees; allow a full day, and note the site closes over winter. Autun is also the eastern gateway to the Morvan regional park, Burgundy's only granite massif: waymarked walking, reservoir lakes, beech forest, and an ecomuseum split across several themed sites.",
+      },
+      {
+        heading: "Eating and practical notes",
+        body: "The cooking is Burgundian and Morvandiau: jambon persillé, eggs poached in red wine, beef stewed in wine, and Charolais beef from the herds south of the Morvan. Cheese runs to Époisses, Chaource and Soumaintrain. For wine, the Côte Chalonnaise appellations — Mercurey, Rully — are 40 km away and generally better value than the famous Côte de Nuits names. Autun has a rail connection via Étang-sur-Arroux with a change, but a car is much easier for Bibracte and the Morvan. Spring to autumn is the season; Bibracte and several museums shut in winter.",
+      },
+    ],
+    relatedCities: ["autun", "beaune", "chalon-sur-saone", "dijon", "nevers"],
+    tags: ["things to do in autun", "autun", "travel", "city guide", "burgundy"],
+  },
+  {
+    slug: "things-to-do-in-bagneres-de-bigorre-2026",
+    title: "Things to do in Bagnères-de-Bigorre: spa town under the Pic du Midi",
+    metaTitle: "Things to Do in Bagnères-de-Bigorre (2026) — Pic du Midi, Caves & Thermal Baths",
+    metaDesc:
+      "The Pic du Midi observatory, the Grand Tourmalet ski area, the Médous and Esparros caves, the Payolle lake and a Roman-era spa tradition.",
+    category: "city-guide",
+    emoji: "⛰️",
+    readMinutes: 5,
+    publishedAt: "2026-08-01",
+    updatedAt: "2026-08-01",
+    intro:
+      "Bagnères-de-Bigorre is a small spa town in the Hautes-Pyrénées, in the Adour valley where the plain runs into the mountains. The hot springs have been used since Roman times, which explains the town; what makes it a base rather than a stop is what sits above it — the Pic du Midi observatory at 2,877 m, the largest ski area in the French Pyrenees, and two of the finest caves in the range. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Pic du Midi de Bigorre",
+        body: "The Pic du Midi is one of the great viewpoints in Europe: 2,877 m, reached by road to La Mongie and then by cable car. The astronomical observatory at the summit was founded in 1878 and is still a working research station, with a museum, panoramic terraces and a walkway projecting over the drop. The site is a designated Grand Site de France and sits at the centre of Europe's first International Dark Sky Reserve, so overnight stays at the summit for stargazing are the signature experience. Weather governs everything here — check the webcams before committing to the drive.",
+      },
+      {
+        heading: "The thermal baths",
+        body: "Bagnères has eight hot springs, running from around 32 to 50 °C, known since the Romans called the place Aquae Bigerrionum. The Grands Thermes, in a neoclassical building of the 1820s, run medical cures oriented toward rheumatology and respiratory conditions. Next door, Aquensis is the version for everyone else: a modern thermal spa with jet pools, hammam and sauna, no prescription needed, and it is genuinely good on a rainy mountain afternoon.",
+      },
+      {
+        heading: "Skiing and the Grand Tourmalet",
+        body: "The Grand Tourmalet, linking La Mongie above Bagnères with Barèges on the far side of the Col du Tourmalet, is the largest ski area in the French Pyrenees at around 100 km of piste, topping out above 2,000 m. It covers all levels and has well-known off-piste itineraries. Outside the snow season the lifts serve mountain biking, walking and a summer toboggan run, and the Col du Tourmalet itself is the most famous climb in the Pyrenees for cyclists, a Tour de France fixture.",
+      },
+      {
+        heading: "Two caves and a lake",
+        body: "The Médous caves, 4 km south at Asté, were found in 1948 and are among the best in the Pyrenees: a guided hour covering about a kilometre, of which 250 m is by boat on an underground river, at a constant 12 °C. Open roughly Easter to early November. The Gouffre d'Esparros, 25 km north-east, is a national nature reserve protected for its aragonite formations — dense thickets of fine crystalline needles that have no real equivalent elsewhere in Europe. Visitor numbers are capped to protect the cave's climate, so book ahead. For the surface version, the Lac de Payolle at about 1,130 m has a five-kilometre loop, trout fishing and cross-country skiing in winter, with the Col d'Aspin and its free-ranging black sheep just beyond.",
+      },
+      {
+        heading: "Marble, the Bédat and Lourdes",
+        body: "The Marble Museum tells the story of an industry that ran here from the 17th to the 20th century: Campan marble — green, red 'griotte', fine-veined grey — was used at Versailles, at the Opéra Garnier, and shipped as far as North America. Above the town, the Bédat is the hill everyone climbs, about an hour on foot from the centre, topped by a 19th-century statue of the Virgin and a full view along the Pyrenean chain. And Lourdes is 20 km west — after Paris, the most visited site in France, with the Massabielle grotto, the twin basilicas, a mountain museum in the medieval castle, and a funicular up the Pic du Jer.",
+      },
+      {
+        heading: "Eating and practical notes",
+        body: "The food is Pyrenean: garbure, the thick cabbage-and-confit soup that is a meal in itself; Noir de Bigorre, the AOP black pig whose ham is aged for well over a year; Pyrenean milk-fed lamb; sheep's cheeses including Ossau-Iraty. Local wine means Madiran and Pacherenc-du-Vic-Bilh, an hour north. Getting here effectively means driving — Tarbes and Lourdes have the rail connections and Tarbes-Lourdes-Pyrénées the airport, and you will want a car for the passes and the caves anyway. Summer and early autumn for walking, December to April for snow; the shoulder weeks in November are when much of the town is shut.",
+      },
+    ],
+    relatedCities: ["bagneres-de-bigorre", "tarbes", "lourdes", "pau"],
+    tags: ["things to do in bagneres-de-bigorre", "bagneres-de-bigorre", "travel", "city guide", "pyrenees"],
+  },
+  {
+    slug: "things-to-do-in-saint-denis-reunion-2026",
+    title: "Things to do in Saint-Denis de La Réunion: creole capital under the volcano",
+    metaTitle: "Things to Do in Saint-Denis, Réunion (2026) — Barachois, Mafate & the Volcano",
+    metaDesc:
+      "Réunion's capital: the Barachois seafront, creole houses on the rue de Paris, the botanical garden, and the Mafate and Salazie cirques above town.",
+    category: "city-guide",
+    emoji: "🌋",
+    readMinutes: 6,
+    publishedAt: "2026-08-01",
+    updatedAt: "2026-08-01",
+    intro:
+      "Saint-Denis is the capital of Réunion and the largest city in France's overseas departments, on the island's north coast. Set expectations correctly: this is not a beach town. The coastline here is rock, the sea is looked at rather than swum in, and the old centre is a morning's walk. What makes it worth basing yourself here is what starts immediately above the last streets — the Mafate and Salazie cirques — and the fact that one of the world's most active volcanoes is a couple of hours' drive away. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Barachois and the old centre",
+        body: "The Barachois is the seafront esplanade where the city gathers at the end of the day: a bandstand, a row of cannons pointing out at the Indian Ocean, flame trees, and people running or picnicking. There is no swimming — the shore is rocky, and in any case bathing around most of the island is restricted to lagoons and supervised zones. Inland from it, the rue de Paris is the finest run of creole architecture on the island: timber houses with deep verandas, fretwork valances, mango and frangipani in the front gardens. Two stops on the way: the Villa Déramond-Barre, and the Maison Carrère, which houses the tourist office and can be visited. Allow ninety minutes on foot, early, before the heat.",
+      },
+      {
+        heading: "The Jardin de l'État and the natural history museum",
+        body: "At the top of the rue de Paris, the Jardin de l'État is the old acclimatisation garden where the crops that built the island's economy were first grown — coffee, cloves, vanilla. Royal palms, banyans, ponds, shade, free entry. At the back, the natural history museum occupies the colony's former legislative palace and covers Indian Ocean fauna, including the Mascarene species that were driven extinct after settlement. It is the right thing to see before you go walking in the highlands, because it explains what you will and will not find up there.",
+      },
+      {
+        heading: "Four religions in a few streets",
+        body: "Saint-Denis compresses what is most distinctive about Réunion into a small area: the Noor-e-Islam mosque, among the oldest in France; the Catholic cathedral and Saint-Jacques church; Tamil temples with carved and painted towers; a Chinese pagoda. The Tamil temples can be visited if you follow the posted rules — barefoot, covered legs. This is not a curiosity laid on for visitors: it structures the local calendar, from Dipavali to Chinese New Year to 20 December, the island's public holiday marking the abolition of slavery.",
+      },
+      {
+        heading: "The Roche Écrite, above the city",
+        body: "From the Brûlé district in the hills above town, a waymarked path climbs to the Roche Écrite, which looks down on the Mafate and Salazie cirques on one side and the ocean on the other. It is a full day out and back, and you need to start very early — the cloud sea usually rises mid-morning and closes the view. The area is a nature reserve and the last refuge of the tuit-tuit, an endemic bird among the most endangered in the world. For a half day, the shorter and shadier routes toward Le Colorado and La Providence do the job.",
+      },
+      {
+        heading: "Mafate and Salazie",
+        body: "Mafate is the only inhabited part of France with no road: its hamlets — La Nouvelle, Marla, Roche Plate, Aurère, Îlet à Bourse — are reached on foot or by helicopter, and supplies come in by air. The shortest approaches from Saint-Denis are over the Col des Bœufs on the Salazie side or from Dos d'Âne to the north. A realistic first taste is two days with a night in a mountain gîte, booked well in advance in season. This is not a stroll: continuous ascent and descent, heat, and you carry your water. With less time, the viewpoints over the cirque are the sensible compromise. Salazie, by contrast, is reached by car, up a road that follows a river between cascading walls; the most photographed is the Voile de la Mariée, visible from the roadside. At the head of the cirque, Hell-Bourg is listed among France's most beautiful villages — restored creole houses, creole gardens, the Maison Folio open to visitors, and the remains of the 19th-century baths.",
+      },
+      {
+        heading: "The Piton de la Fournaise",
+        body: "The Piton de la Fournaise is one of the most active volcanoes on the planet, and the drive from Saint-Denis runs up through the Plaine-des-Cafres and along the volcano forest road. The standard viewpoint is the Pas de Bellecombe, on the rim of the Enclos Fouqué. Descending into the enclosure and climbing to the Dolomieu crater is a full day, and it is only possible outside eruption and alert periods: access depends on the prefectural order in force, which you check that same morning. On the way up, the Plaine des Sables is a mineral desert with nothing else like it on the island.",
+      },
+      {
+        heading: "Markets and the creole table",
+        body: "The open-air market on the seafront is the compact version of the island: lychees in December, mangoes, Victoria pineapple, combava, turmeric, Bourbon vanilla, chillies, leafy brèdes, and samosas and bouchons sold by the dozen. The small covered market in the centre adds craftwork — vacoa basketry, banana-fibre bags. Rum arrangé is sold everywhere but is worth tasting before buying; recipes run from vanilla and cinnamon to faham, an endemic orchid. At table, everything is built on the cari — chicken, smoked pork, jackfruit, freshwater prawn — served with rice, a pulse (the Cilaos lentil is the prized one) and a rougail relish. Rougail saucisse is the Sunday dish. Sweet things run to gâteau patate and bonbons piment, and the local Dodo beer is a cultural marker in its own right.",
+      },
+    ],
+    relatedCities: ["saint-denis-reunion", "saint-paul-reunion", "saint-pierre-reunion", "le-tampon"],
+    tags: ["things to do in saint-denis reunion", "saint-denis reunion", "travel", "city guide", "reunion"],
+  },
+  {
+    slug: "things-to-do-in-saint-paul-reunion-2026",
+    title: "Things to do in Saint-Paul: Réunion's lagoon coast",
+    metaTitle: "Things to Do in Saint-Paul, Réunion (2026) — Lagoon, Maïdo & Whales",
+    metaDesc:
+      "The Ermitage lagoon, the seafront market, the pirate's grave in the marine cemetery, the Maïdo viewpoint over Mafate, and humpback whale season.",
+    category: "city-guide",
+    emoji: "🏝️",
+    readMinutes: 6,
+    publishedAt: "2026-08-01",
+    updatedAt: "2026-08-01",
+    intro:
+      "Saint-Paul is where the French first settled Réunion in the 17th century, before the capital moved to Saint-Denis, and it is the island's second city. It is also the one place on Réunion with a proper beach coast: a coral-protected lagoon running from L'Ermitage to La Saline, plus the beaches of Saint-Gilles and Boucan Canot. The commune climbs from sea level to the Maïdo belvedere above 2,000 m, so you can go from swimming to needing a jacket inside an hour. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The seafront market",
+        body: "Saint-Paul's market runs along the seafront under the filao trees at the end of the week and is the largest open-air market on the island. Tropical fruit by season — lychees, mangoes, Victoria pineapple, passion fruit — plus spices and Bourbon vanilla, plants, vacoa basketry, textiles, and samosas and bouchons to take away. Come early: crowds and heat build together. The car park runs along the beach and the seafront walk takes you straight on to the marine cemetery.",
+      },
+      {
+        heading: "The marine cemetery and the pirate",
+        body: "The cimetière marin backs onto the beach and is planted with bougainvillea. Two graves draw everyone: the poet Leconte de Lisle, born in the commune, and Olivier Levasseur, the pirate known as La Buse, executed at Saint-Paul in the 18th century. His stone is covered in graffiti connected to the legend of a cryptogram pointing to a treasure that has never been found. Free, and a short visit — but it is one of the few places on the island where the colonial, maritime and literary histories sit within fifty metres of each other. At the north end of the bay, the Grotte des Premiers Français marks where the island's first occupants sheltered before the town was built; the site is free and signposted.",
+      },
+      {
+        heading: "The lagoon and the marine reserve",
+        body: "Saint-Gilles-les-Bains is the island's resort town — marina, restaurants, boat trips. The lagoon runs from L'Ermitage to La Saline behind the coral barrier: shallow, calm, and the only genuinely family-friendly swimming configuration on Réunion, with a planted filao belt giving shade at L'Ermitage. The whole west-coast lagoon is a marine nature reserve, with enhanced-protection zones where access and collecting are regulated. A mask and snorkel in a metre of water are enough to see parrotfish, butterflyfish, moray eels and sometimes young green turtles over the seagrass. The rules that matter: do not stand on the coral, do not feed the fish, take nothing. Marked underwater trails and guided outings run from L'Ermitage and from Saint-Leu to the south.",
+      },
+      {
+        heading: "Boucan Canot and the swimming rules",
+        body: "Boucan Canot is the island's best-known beach outside the lagoon, pale sand between basalt headlands, and the sunset there is the actual attraction. Read this part carefully: outside the lagoon, swimming on Réunion is prohibited except in specifically protected and supervised enclosures, of which Boucan Canot has one. This is a shark-risk measure and it is enforced. Inside the enclosure and inside the lagoon you are fine; outside them, you do not go in the water, regardless of how inviting it looks or how many people are surfing.",
+      },
+      {
+        heading: "The Étang Saint-Paul and the Maïdo",
+        body: "A few minutes from the centre, the Étang Saint-Paul is Réunion's largest wetland and a national nature reserve: boardwalks, observation platforms, canals, water birds, the papangue harrier, and wetland plants that have become rare on the island. The reserve house runs guided visits, and part of the route can be done by canoe depending on the season — a good wet-weather fallback. In the opposite direction, the road climbs through cane fields into highland tamarind forest to the Maïdo, a promontory that drops more than a kilometre straight into the Mafate cirque with the hamlets visible below. Leave in the dark to be up there at first light; by mid-morning the cloud fills the cirque and there is nothing to see. Bring a jacket — the temperature gap with the beach is large. Trails leave from here for the Grand Bénare and down into Mafate.",
+      },
+      {
+        heading: "Paragliding and whales",
+        body: "Saint-Leu, twenty minutes south, is one of the better-known paragliding sites in the world: launch from the heights, land facing the lagoon, tandem flights year-round subject to conditions. The west coast is also the island's best vantage point for humpback whales, which come into Réunion waters to calve during the austral winter, broadly July to October. Boat trips operate under an approach charter — minimum distance, no pursuit, no entering the water — and operators who ignore it are the ones to avoid.",
+      },
+      {
+        heading: "Eating on the west coast",
+        body: "The west coast has the best-sited tables on the island. Fish dominates — trevally, tuna, swordfish — along with river prawns, served as cari, as blaff, or simply grilled, with rice, pulses and rougail. On the beach, snack vans do samosas, bouchons and filled baguettes. Up in the hills behind Saint-Paul, guest tables cook cari over a wood fire and set a full menu with punch and rum arrangé; they generally use what they grow, which restaurants on the seafront cannot claim. Vanilla producers and highland fruit growers take visits by arrangement.",
+      },
+    ],
+    relatedCities: ["saint-paul-reunion", "saint-denis-reunion", "saint-pierre-reunion", "le-tampon"],
+    tags: ["things to do in saint-paul reunion", "saint-paul reunion", "travel", "city guide", "reunion"],
+  },
+  {
+    slug: "things-to-do-in-saint-pierre-reunion-2026",
+    title: "Things to do in Saint-Pierre: the south of Réunion",
+    metaTitle: "Things to Do in Saint-Pierre, Réunion (2026) — Market, Lava Coast & Cilaos",
+    metaDesc:
+      "Saint-Pierre's Saturday market and seafront, the rum museum, the wild south and its lava flows, and the mountain roads to Cilaos and the volcano.",
+    category: "city-guide",
+    emoji: "☀️",
+    readMinutes: 6,
+    publishedAt: "2026-08-01",
+    updatedAt: "2026-08-01",
+    intro:
+      "Saint-Pierre is the capital of southern Réunion, the sunniest town on the island and the one that actually goes out at night. It has a dense centre, a marina, and a reef-protected beach. Its real value to a visitor is positional: the wild south and its lava flows begin half an hour east, the Cilaos cirque is reached by the most vertiginous road in the department, and the volcano can be approached through the highlands without going anywhere near Saint-Denis. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Saturday market",
+        body: "Saint-Pierre's Saturday morning market along the seafront is the big weekly event in the south: several hundred stalls spread over close to a kilometre. Highland fruit and vegetables, leafy brèdes, spices, vanilla, local coffee, basketry, textiles, samosas and bouchons. The covered market in the centre stays open through the week for groceries and craftwork. Arrive early — from mid-morning the heat and the crowd make it hard going and the best produce has gone.",
+      },
+      {
+        heading: "The seafront, the beach and the port",
+        body: "Saint-Pierre's beach is sheltered by a reef, which makes it one of the few supervised swimming areas in the south of the island — and on Réunion that distinction matters, since swimming outside lagoons and marked enclosures is prohibited. A long planted promenade runs behind it to the marina and the old harbour. The boulevard Hubert-Delisle along the front is the line of terraces that becomes the centre of the evening. Late afternoon on the jetty, with fishing and pleasure boats coming in, is worth the walk even if you never get in the water.",
+      },
+      {
+        heading: "The Saga du Rhum",
+        body: "Housed in the Isautier distillery, the oldest family distillery on the island, the Saga du Rhum is a museum covering sugar cane, distillation and the place of rum in Réunion's economy, with a botanical garden of cane varieties and the plants used in rum arrangé. The visit ends with a guided tasting. It is the best place on the island to work out the difference between molasses-based traditional rum, agricultural rum and rum arrangé before you buy a bottle somewhere other than the airport.",
+      },
+      {
+        heading: "The wild south and the lava coast",
+        body: "East of Saint-Pierre the Sud Sauvage begins — basalt cliffs and coves. Two stops are essential: the natural sea pool cut into the rock at Manapany-les-Bains, which is also the refuge of the endemic and endangered Manapany day gecko; and Grand Anse at Petite-Île, a pale sand beach behind coconut palms with a built bathing pool, the open sea being far too rough to swim. Further east the coast road crosses the Grand Brûlé, where the volcano's flows run down to the sea. You drive literally over dated flows, marked by roadside signs, through a black landscape being recolonised at different speeds depending on the year of the eruption. Along the way: the Vierge au Parasol, the Anse des Cascades with its palms leaning over the water, and the spice gardens of Saint-Philippe. It is the finest road on the island, and it is sometimes cut during eruptions.",
+      },
+      {
+        heading: "The volcano and Cilaos",
+        body: "From Saint-Pierre the volcano is reached through Le Tampon, the Plaine-des-Cafres and the volcano forest road, which makes this the shortest base on the island for a day at the Pas de Bellecombe. The crossing of the Plaine des Sables, a reddish mineral desert, comes before the viewpoint over the Enclos Fouqué. Descending into the enclosure and climbing the crater takes the day, a start before dawn, a lot of water and proper boots — and access depends on the prefectural order in force that morning. In the other direction, the Cilaos cirque is reached from Saint-Louis next door by a mountain road whose hairpins have earned it the nickname of the road of 400 bends: narrow tunnels, drops, awkward passing places, and it takes considerably longer than any satnav claims. At the end is a mountain village above 1,200 m with thermal baths and the trailhead for the Piton des Neiges, the highest point in the Indian Ocean. Cilaos is also known for its lentils, its embroidery and a wine produced in very small quantities.",
+      },
+      {
+        heading: "Entre-Deux and the Dimitile",
+        body: "Entre-Deux, twenty minutes north of Saint-Pierre, is a listed creole village of painted timber houses and well-kept creole gardens, known for its lentils and for craftwork made from chayote straw. It is the starting point for the Dimitile, a summit overlooking the Cilaos cirque that carries the memory of marronnage: escaped slaves took refuge in these heights, and memorial sites are set along the path. The climb is steep and the view over the cirque is the reward.",
+      },
+      {
+        heading: "Nights out and the southern table",
+        body: "Saint-Pierre goes out more than anywhere else on Réunion. The seafront boulevard and the central streets concentrate bars, terraces and live maloya and séga — maloya, the music that came out of the plantations, is on the UNESCO intangible heritage list. Kabars, often improvised maloya sessions, also happen up in the hills. The contrast with administrative Saint-Denis is real: here the nightlife runs through the week. On the plate, the south cooks what its highlands and its coast produce: cari of chicken or smoked pork, prawn cari, fish blaff, rougail saucisse, with rice, pulses and chilli rougail. Cilaos lentils, grown at altitude, are the most sought-after pulse on the island. Guest tables around Entre-Deux and in the highlands cook over wood and work their own produce.",
+      },
+    ],
+    relatedCities: ["saint-pierre-reunion", "le-tampon", "saint-joseph-reunion", "saint-paul-reunion"],
+    tags: ["things to do in saint-pierre reunion", "saint-pierre reunion", "travel", "city guide", "reunion"],
+  },
+  {
+    slug: "things-to-do-in-fort-de-france-2026",
+    title: "Things to do in Fort-de-France: Martinique's capital",
+    metaTitle: "Things to Do in Fort-de-France (2026) — Schœlcher Library, Balata & Rum",
+    metaDesc:
+      "The Schœlcher library, the covered market, the Balata botanical garden, Aimé Césaire's city, the ferry to Trois-Îlets and Martinique's AOC rum.",
+    category: "city-guide",
+    emoji: "🌺",
+    readMinutes: 6,
+    publishedAt: "2026-08-01",
+    updatedAt: "2026-08-01",
+    intro:
+      "Fort-de-France is Martinique's capital, wrapped around the head of a deep bay that made its fortune first as a naval station and then as a port. The centre is small and walkable: a few tight streets between the Savane and the Levassor canal, two buildings whose iron frames are the city's architectural signature, a covered market, and the memory of Aimé Césaire, who was its mayor for more than half a century. It also works as the island's logistics hub — ferries across the bay, the Trace road into the interior, and the volcanic north an hour away. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Schœlcher library",
+        body: "The Bibliothèque Schœlcher is the most photographed building in the city: a polychrome metal structure, built for the 1889 Paris Universal Exposition, then dismantled and reassembled here under a Byzantine dome. It carries the name of Victor Schœlcher, who drove the 1848 abolition decree and left his personal library to Martinique. It is a working library rather than a museum, so the visit is simple — go in, look at the frame and the reading room, come out. It is a listed historic monument.",
+      },
+      {
+        heading: "The cathedral, the Savane and the fort",
+        body: "Saint-Louis cathedral, a few streets away, follows the same constructive logic: a metal frame designed to survive the earthquakes and hurricanes that repeatedly destroyed its predecessors, under a spire visible from across the bay. Around it, the centre takes a morning: the shopping streets, the prefecture, wrought-iron balconies, the Aimé-Césaire park. The Savane is the large planted square along the water. It carries the island's complicated history: the statue of the Empress Joséphine — born in Martinique and associated with the reinstatement of slavery — was beheaded and then removed in 2020. The Fort Saint-Louis, on the promontory guarding the bay, is still an active naval base and can only be visited on a guided tour, booked ahead and with ID. The iguanas outnumber the visitors.",
+      },
+      {
+        heading: "The markets",
+        body: "The covered market is where you buy Martinican spices and preparations: colombo blends, bois d'Inde, massalé, seasoning peppers, cane syrups, guava jam, punches and flavoured rums. The stallholders will explain the blends if you ask, and prices are less negotiable than you might expect. The fish market on the Levassor canal works to the rhythm of the morning landings — kingfish, snapper, mahi-mahi, lobster. Flower and vegetable markets sit close by.",
+      },
+      {
+        heading: "The Balata garden",
+        body: "Up in the hills along the Route de la Trace, the Jardin de Balata is a botanical garden created by a Martinican landscape designer around a restored creole house: anthuriums, heliconias, bromeliads, lily ponds, and a circuit of rope bridges strung through the canopy. Hummingbirds come to the feeders and let you get close. Just before it, the church of Balata is a scaled-down copy of the Sacré-Cœur basilica in Paris — an incongruity in the middle of tropical forest that the island has fully embraced.",
+      },
+      {
+        heading: "Aimé Césaire's city",
+        body: "Aimé Césaire — poet of the Cahier d'un retour au pays natal, and with Léopold Sédar Senghor the theorist of négritude — was mayor of Fort-de-France from 1945 to 2001 and a deputy for Martinique. The traces are concrete: the theatre and the park that carry his name, and his former office at the town hall, which is open to the public. The island's airport is named after him too. Reading a few pages of the Cahier before you walk the city changes what you see, and it is the best possible entry point into the political history of the French Antilles.",
+      },
+      {
+        heading: "Across the bay, and the volcanic north",
+        body: "The ferry crosses the bay from the Fort-de-France terminal to Pointe du Bout in Trois-Îlets — faster than driving round, and the best view back at the city. On the far side: the beaches of Anse Mitan and Anse à l'Âne, the Musée de la Pagerie on the estate where Joséphine was born, the Savane des Esclaves reconstructing housing and crops before and after abolition, and the Maison de la Canne. It is a full day out without a car, which is rare in Martinique. North, Mount Pelée destroyed Saint-Pierre on 8 May 1902: a pyroclastic flow levelled what was then the island's economic capital in minutes, and it never recovered its position. The theatre ruins, Cyparis's cell and the Frank-Perret museum tell it. The volcanoes and forests of Mount Pelée and the pitons of northern Martinique were inscribed on the UNESCO World Heritage list in 2023. Climbing Pelée from the Aileron takes the day and depends entirely on the weather — the cloud comes in fast.",
+      },
+      {
+        heading: "Rum and the creole table",
+        body: "Martinican agricultural rum is the only rum in the world protected by an appellation d'origine contrôlée, granted in 1996: it is distilled from pure cane juice rather than molasses. Around ten distilleries can be visited, several within an hour of Fort-de-France — Depaz below Mount Pelée, Habitation Clément at Le François with its park and art collection, Neisson at Le Carbet, La Mauny at Rivière-Pilote, Saint-James at Sainte-Marie. Visits are often free with a tasting, which implies a designated driver. At the table it starts with accras, creole boudin and a ti-punch of rum, cane syrup and lime, then colombo of pork or goat, court-bouillon, blaff, octopus, prawns, with rice, red beans, root vegetables and christophine gratin. The lolos — small neighbourhood eateries, often lunch only — are the best value on the island.",
+      },
+    ],
+    relatedCities: ["fort-de-france", "le-lamentin", "le-robert", "le-francois"],
+    tags: ["things to do in fort-de-france", "fort-de-france", "travel", "city guide", "martinique"],
+  },
+  {
+    slug: "things-to-do-in-pointe-a-pitre-2026",
+    title: "Things to do in Pointe-à-Pitre: Guadeloupe's working capital",
+    metaTitle: "Things to Do in Pointe-à-Pitre (2026) — Mémorial ACTe, Markets & Island Ferries",
+    metaDesc:
+      "The Mémorial ACTe slavery museum, the spice market, the creole centre, ferries to Les Saintes and Marie-Galante, and the Soufrière volcano.",
+    category: "city-guide",
+    emoji: "⚓",
+    readMinutes: 6,
+    publishedAt: "2026-08-01",
+    updatedAt: "2026-08-01",
+    intro:
+      "Pointe-à-Pitre is Guadeloupe's economic capital without being its administrative one — that is Basse-Terre, on the other wing of the island. The commune itself is small, but it anchors the conurbation that holds the port, the airport and most of the archipelago's activity. The old centre, laid out around the place de la Victoire and the harbour basin, keeps its creole houses with timber balconies and its street commerce. It is also where you catch the boats to Marie-Galante, Les Saintes and La Désirade. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Mémorial ACTe",
+        body: "Opened in 2015 on the site of the former Darboussier sugar factory, the Mémorial ACTe is the Caribbean centre for the memory and expression of the slave trade and slavery. The building itself — a silver lattice set on a black plinth — is an architectural statement. The permanent route covers the Atlantic trade, plantation societies, resistance and abolition, and the contemporary consequences. Allow at least two hours, more if you intend to actually read it. This is the major cultural institution of the French Antilles and it should come before everything else.",
+      },
+      {
+        heading: "The markets and the streets",
+        body: "The Saint-Antoine market, known as the spice market, is the historic one: colombo, bois d'Inde, turmeric, cinnamon, vanilla, chillies, syrups and punches, with stallholders who call out, negotiate and will happily explain the blends. The Darse market by the harbour basin adds fruit and root vegetables — yam, dasheen, christophine, breadfruit — and tropical flowers. Around them, the rue Nozières and rue Frébault form the real commercial centre. Go in the morning; the afternoon heat empties the stalls.",
+      },
+      {
+        heading: "The place de la Victoire and the museums",
+        body: "The place de la Victoire is the historic heart, an esplanade of sandbox and flame trees between the harbour and the creole façades, used for public gatherings and part of carnival. The surrounding balconied, galleried houses give the best idea of what the town looked like before the fires and hurricanes that rebuilt it several times. Two museums are worth the time: the Musée Saint-John-Perse, in a creole house with galleries and fretwork, devoted to the poet born here who won the Nobel Prize in Literature in 1960 and to early-20th-century creole domestic life; and the Musée Schœlcher, built around the collections Victor Schœlcher left to the island, on the abolitionist campaign. The cathedral of Saint-Pierre-et-Saint-Paul, nicknamed the iron church, was rebuilt in the 19th century with an exposed metal frame meant to withstand earthquakes and hurricanes — the same engineering answer as in Fort-de-France, to the same problem.",
+      },
+      {
+        heading: "The islands from the harbour",
+        body: "Ferries leave the Darse for Marie-Galante, Les Saintes and La Désirade and get you there and back in a day. Les Saintes are the most popular: about an hour's crossing to Terre-de-Haut, with Fort Napoléon above the village, the beach at Pompierre, and a bay regularly listed among the most beautiful in the world. Marie-Galante is bigger and more rural — best done by bike or car, with sugar mills, distilleries and quiet white-sand beaches. Book the crossing ahead in high season.",
+      },
+      {
+        heading: "Beaches east, volcano west",
+        body: "At the eastern edge of the conurbation, Le Gosier has the beaches you can reach without an excursion: pale sand, calm water, seafront restaurants, and the little Îlet du Gosier with its lighthouse a few minutes offshore for a half day of snorkelling. Further along Grande-Terre, Sainte-Anne and Saint-François have wider lagoons, and the Pointe des Châteaux closes the island to the east on a headland battered by the Atlantic with La Désirade on the horizon. The other wing, Basse-Terre, is volcanic and forested — the Guadeloupe national park. La Soufrière, an active and permanently monitored volcano, is climbed from the Bains Jaunes: short but steep, slippery and often in cloud, with access depending on the alert level. Nearby are the Carbet falls and, on the west coast off Malendure, the Cousteau reserve, the regional reference for diving and snorkelling with turtles.",
+      },
+      {
+        heading: "Carnival",
+        body: "Guadeloupe's carnival runs from January to Ash Wednesday and is the high point of the year on the archipelago. It looks nothing like the feathered version sold in brochures: the groupes à peau come out at weekends with gwo ka drums, old clothes and animal skins, and Ash Wednesday itself is lived in black and white in the streets. Pointe-à-Pitre hosts several of the big parades. If you are travelling in this period, check the calendar before booking — accommodation included.",
+      },
+      {
+        heading: "Eating in Guadeloupe",
+        body: "The bokit — fried bread stuffed with saltfish, chicken or tuna — is the national sandwich and is eaten standing at a van. After that: accras, creole boudin, goat colombo, court-bouillon, blaff, river prawns, crab matété at Pentecost, and bébélé on Marie-Galante. Root vegetables come with everything: yam, dasheen, breadfruit, christophine. Guadeloupe distils both agricultural and traditional rum — Damoiseau, Bologne, Longueteau, Reimonenq — without the appellation that Martinique holds. Coconut punch and planteur close the meal.",
+      },
+    ],
+    relatedCities: ["pointe-a-pitre", "les-abymes", "baie-mahault"],
+    tags: ["things to do in pointe-a-pitre", "pointe-a-pitre", "travel", "city guide", "guadeloupe"],
+  },
+  {
+    slug: "things-to-do-in-cayenne-2026",
+    title: "Things to do in Cayenne: France on the edge of the Amazon",
+    metaTitle: "Things to Do in Cayenne (2026) — Market, Space Centre & Îles du Salut",
+    metaDesc:
+      "Cayenne's place des Palmistes and creole centre, the market, the Kourou space centre, the penal-colony islands, and the Kaw marshes.",
+    category: "city-guide",
+    emoji: "🚀",
+    readMinutes: 6,
+    publishedAt: "2026-08-01",
+    updatedAt: "2026-08-01",
+    intro:
+      "Cayenne is the capital of French Guiana, on a peninsula between two rivers about five degrees north of the equator. It is the only French prefecture bordered by Amazon rainforest, and the least European place in the French set: Guianese creole, Hmong, Bushinengue, Amerindian, Brazilian, Haitian, Chinese and Lebanese communities cross here, and the market is where you see it first. The old centre takes a morning. Everything else happens outside town. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The place des Palmistes and the fort",
+        body: "The place des Palmistes is Cayenne's centre of gravity: a wide esplanade of ranked royal palms edged by colonial buildings, including the prefecture in a former Jesuit residence. People come at the end of the day, when the heat drops, for the food stalls and to meet; public events and concerts happen here. It is the logical start of a walking loop through the old centre, best done early or late. Above the mouth of the Cayenne river, the Fort Cépérou occupies the hill where the city was founded in the 17th century, and it carries the name of the Amerindian leader with whom the French negotiated the settlement. Little survives beyond earthworks and batteries, but the view over the port, the river, the market and the rooftops is the best in town. Check locally before going — the site has been closed for works more than once.",
+      },
+      {
+        heading: "The market",
+        body: "Cayenne's market sums up French Guiana in an hour. On the stalls: couac and cassava made from manioc, awara and wassaï palm fruit, chillies, creole medicinal plants, river and sea fish, and Amazonian fruit with no European equivalent. Hmong growers come down from the village of Cacao with their vegetables. Under the shelters, stands serve Chinese soup and awara broth by the spoonful, standing, very early in the morning. It is the best breakfast in the city and the cheapest.",
+      },
+      {
+        heading: "The creole centre and the museums",
+        body: "The old centre runs between the place des Palmistes and the market: single-storey creole houses, worked timber balconies, louvred shutters, strong colours, unevenly preserved and thoroughly photogenic. The cathedral of Saint-Sauveur, in brick and timber, anchors the quarter, and the Laussat canals survive from 19th-century drainage works. Two museums fill in the background — the departmental Alexandre-Franconie museum and the Musée des Cultures Guyanaises — covering the penal colony, the Amerindian peoples and the gold economy.",
+      },
+      {
+        heading: "Rémire-Montjoly and the turtles",
+        body: "The neighbouring commune of Rémire-Montjoly has the beaches within reach of Cayenne — Montjoly, Rémire, Gosselin. The water is brown, loaded with Amazon sediment; that is geology, not pollution, and it is not why you come. You come for the sand, the forest edge and the turtles: leatherbacks, the largest sea turtles in the world, nest on these beaches during the season, broadly March to July. Observation is done at night, guided by naturalist associations, with no white light and no flash. The Rorota loop trail rounds out the day.",
+      },
+      {
+        heading: "The space centre and the Îles du Salut",
+        body: "The Guiana Space Centre at Kourou, about an hour west, is Europe's spaceport — being close to the equator is a real physical advantage at launch. CNES runs guided tours of the site, free but requiring advance registration and ID, and subject to launch campaigns; the Musée de l'Espace on site is open independently. If the calendar works out, a launch can be watched from public viewing sites with prior registration, and it is the most striking thing in the region. Offshore from Kourou, the Îles du Salut are reached by catamaran: Île Royale, Île Saint-Joseph and Île du Diable, which together formed the most notorious penal colony in French history. Alfred Dreyfus was held on the Île du Diable, which cannot be landed on today. On Île Royale the prison buildings, chapel and hospital are partly restored and freely walkable, among agoutis, monkeys and coconut palms. Saint-Joseph, where the solitary cells are being swallowed by vegetation, is the harder visit. Staying overnight is possible in limited numbers.",
+      },
+      {
+        heading: "The Kaw marshes and Cacao",
+        body: "The Kaw marshes, east of Cayenne, are one of the largest wetlands in France and a national nature reserve: black caimans, scarlet ibis, hoatzins, giant otters. The standard trip is by pirogue with a night in a floating carbet, and the night outing with a lamp is the point of it. In another direction, the village of Cacao was settled by a Hmong community that arrived as refugees from Laos, and its Sunday market is known for vegetables, soups and embroidered textiles. Both need a local operator and a car.",
+      },
+      {
+        heading: "Saint-Laurent-du-Maroni",
+        body: "Saint-Laurent-du-Maroni, roughly 250 km west by the national road, was the town where convicts were landed. The Camp de la Transportation is visited with a guide, cells and punishment quarter included, and it is the strongest evocation of the penal colony reachable on land. The town faces Suriname and lives on the Maroni: pirogues cross continuously to Albina. Multi-day river trips upstream to Bushinengue and Amerindian villages, sleeping in hammocks under carbets, are organised from here.",
+      },
+      {
+        heading: "The Guianese table",
+        body: "Guianese cooking borrows from every community in the territory. Bouillon d'awara — a long preparation built on the pulp of the awara palm fruit, simmered with meats, smoked fish and vegetables — is eaten at Easter, and tradition holds that anyone who takes a second helping will come back to Guiana. The rest of the year: fricassées of fish or game, blaff, colombo, calalou, smoked chicken, served with couac, rice and root vegetables. Chinese soups and pho sit alongside creole dishes at the market. To drink: wassaï, passion fruit and comou juices, and rums arrangés.",
+      },
+    ],
+    relatedCities: ["cayenne", "saint-laurent-du-maroni"],
+    tags: ["things to do in cayenne", "cayenne", "travel", "city guide", "french guiana"],
+  },
+  {
     slug: "one-week-in-provence-itinerary-2026",
     title: "One week in Provence: a route that actually works",
     metaTitle: "One Week in Provence Itinerary (2026) — A Practical Route",
