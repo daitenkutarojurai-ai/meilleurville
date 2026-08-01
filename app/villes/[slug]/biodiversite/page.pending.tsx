@@ -34,11 +34,15 @@ import {
   GROUP_ORDER,
   MIN_OCCURRENCES,
   MIN_OBSERVERS,
-  PROTECTED_RADIUS_KM,
+  PROTECTION_KIND_COUNT,
+  protectionLabel,
+  inpnUrl,
   BIODIVERSITY_MEASURABLE_COUNT,
   SCORE_LEGEND_FR,
   GBIF_CREDIT,
   GBIF_URL,
+  INPN_CREDIT,
+  INPN_URL,
   OSM_CREDIT,
   type SpeciesGroup,
 } from "@/lib/biodiversity";
@@ -145,8 +149,35 @@ export default async function BiodiversitePage({ params }: Props) {
   const profile = biodiversityProfile(slug);
   if (!profile) notFound();
 
-  const { raw, richness, richnessPending, protection, greenSpace, overall } = profile;
+  const {
+    raw,
+    richness,
+    richnessPending,
+    protection,
+    protectionPending,
+    protectedAreas,
+    greenSpace,
+    overall,
+  } = profile;
   const photo = cityPhoto(city.slug);
+
+  const nb = (v: number) => v.toLocaleString("fr-FR");
+
+  // Trois états à distinguer, et un seul se dit « non mesuré » : la commune
+  // n'est pas encore ingérée. Une commune ingérée sans aucun périmètre a été
+  // mesurée — la page l'écrit, plutôt que de laisser croire à un trou de
+  // données.
+  const protectionDetail = protectedAreas
+    ? `${nb(protectedAreas.weightedCoverage)} % du disque de ${protectedAreas.radiusKm} km sous protection, ` +
+      `pondéré par le niveau (${nb(protectedAreas.rawCoverage)} % sous un zonage quelconque). ` +
+      `${nb(protectedAreas.areasTotal)} périmètre${protectedAreas.areasTotal > 1 ? "s" : ""} relevé${protectedAreas.areasTotal > 1 ? "s" : ""}.`
+    : "";
+  const protectionMissing =
+    protectionPending === "calibration" && protectedAreas
+      ? protectedAreas.areasTotal === 0
+        ? `Aucun périmètre protégé à moins de ${protectedAreas.radiusKm} km. C'est une mesure, pas une absence de donnée.`
+        : `${nb(protectedAreas.weightedCoverage)} % du disque sous protection pondérée. Le rang sur 10 attend que davantage de villes soient ingérées.`
+      : `Les périmètres INPN (Natura 2000, ZNIEFF, réserves, parcs) ne sont pas encore intégrés pour cette commune. « Non mesuré » veut dire que nous ne savons pas — pas qu'il n'y en a aucun.`;
 
   const groups = GROUP_ORDER.map((g) => ({ id: g, count: raw.groups[g] ?? 0 })).filter(
     (g) => g.count > 0,
@@ -336,8 +367,8 @@ export default async function BiodiversitePage({ params }: Props) {
               emoji="🛡️"
               title="Zones protégées"
               score={protection?.score ?? null}
-              detail={`Périmètres protégés à moins de ${PROTECTED_RADIUS_KM} km, pondérés par leur niveau de protection.`}
-              missing={`Les périmètres INPN (Natura 2000, ZNIEFF, réserves, parcs) ne sont pas encore intégrés. « Non mesuré » veut dire que nous ne savons pas — pas qu'il n'y en a aucun.`}
+              detail={protectionDetail}
+              missing={protectionMissing}
             />
             <ComponentBar
               emoji="🌳"
@@ -357,15 +388,117 @@ export default async function BiodiversitePage({ params }: Props) {
               <strong className="text-[var(--text-secondary)]">
                 Pas de score global pour l&apos;instant.
               </strong>{" "}
-              Il demanderait les trois composantes, et les zones protégées manquent encore. Or
-              c&apos;est la plus lourde des trois : un périmètre Natura 2000 existe indépendamment
-              de qui vient l&apos;observer, donc c&apos;est la seule qui échappe au biais
-              d&apos;effort. Repondérer les deux autres pour combler le trou donnerait un nombre qui
-              ne mesure pas ce que son nom annonce.
+              Il demande les trois composantes, et{" "}
+              {[
+                richness ? null : "la richesse d'espèces",
+                protection ? null : "les zones protégées",
+                greenSpace ? null : "les espaces verts",
+              ]
+                .filter(Boolean)
+                .join(" et ")}{" "}
+              {[richness, protection, greenSpace].filter((c) => !c).length > 1
+                ? "manquent"
+                : "manque"}{" "}
+              encore ici. Repondérer les composantes disponibles pour combler le trou donnerait un
+              nombre qui ne mesure pas ce que son nom annonce.
+              {!protection && (
+                <>
+                  {" "}
+                  Les zones protégées sont la plus lourde des trois : un périmètre Natura 2000
+                  existe indépendamment de qui vient l&apos;observer, donc c&apos;est la seule
+                  composante qui échappe au biais d&apos;effort.
+                </>
+              )}
             </p>
           )}
         </div>
       </section>
+
+      {/* ── Zones protégées ────────────────────────────────────────────── */}
+      {protectedAreas && (
+        <section className="relative pb-8">
+          <div className="mx-auto max-w-5xl px-4 sm:px-6">
+            <h2 className="text-xl font-bold text-[var(--text-primary)] mb-1">
+              Zones protégées à moins de {protectedAreas.radiusKm} km
+            </h2>
+            <p className="text-sm text-[var(--text-secondary)] mb-4">
+              {protectedAreas.areasTotal === 0 ? (
+                <>
+                  Aucun périmètre protégé recensé dans ce rayon. C&apos;est un résultat de mesure,
+                  pas une donnée manquante : les couches nationales ont été passées sur ce disque
+                  et n&apos;y ont rien trouvé.
+                </>
+              ) : (
+                <>
+                  Surfaces mesurées sur la part du périmètre qui tombe dans le rayon, pas sur le
+                  site entier. Les zonages s&apos;emboîtent — une ZNIEFF I est presque toujours
+                  incluse dans une ZNIEFF II — donc la couverture ci-dessus ne les additionne pas :
+                  chaque parcelle de terrain compte une fois, au niveau de protection le plus fort
+                  qui s&apos;y applique.
+                </>
+              )}
+            </p>
+            {protectedAreas.areas.length > 0 && (
+              <div className="space-y-2">
+                {protectedAreas.areas.map((a, i) => {
+                  const href = inpnUrl(a);
+                  const label = a.name ?? a.id ?? protectionLabel(a.kind);
+                  return (
+                    <div
+                      key={`${a.kind}-${a.id ?? i}`}
+                      className="flex items-baseline gap-3 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-4 py-2.5"
+                    >
+                      <div className="flex-1 min-w-0">
+                        <div className="text-sm text-[var(--text-primary)] truncate">
+                          {href ? (
+                            <a
+                              href={href}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="hover:text-[var(--accent)] hover:underline"
+                            >
+                              {label}
+                            </a>
+                          ) : (
+                            label
+                          )}
+                        </div>
+                        <div className="text-[11px] text-[var(--text-tertiary)]">
+                          {protectionLabel(a.kind)}
+                          {a.distanceKm > 0
+                            ? ` · à ${nb(a.distanceKm)} km`
+                            : " · le centre-ville est dedans"}
+                        </div>
+                      </div>
+                      <div className="shrink-0 text-right text-sm font-mono-data text-[var(--text-primary)]">
+                        {nb(Math.round(a.areaHa))}
+                        <span className="text-[11px] font-normal text-[var(--text-tertiary)]">
+                          {" "}
+                          ha
+                        </span>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            )}
+            {protectedAreas.areasTruncated && (
+              <p className="text-[11px] text-[var(--text-tertiary)] mt-2">
+                {nb(protectedAreas.areasTotal)} périmètres au total ; les{" "}
+                {protectedAreas.areas.length} plus étendus sont listés. La couverture affichée plus
+                haut les compte tous.
+              </p>
+            )}
+            {protectedAreas.kinds.length < PROTECTION_KIND_COUNT && (
+              <p className="text-[11px] text-[var(--text-tertiary)] mt-2">
+                Passe partielle : {protectedAreas.kinds.length} des {PROTECTION_KIND_COUNT} couches
+                nationales étaient disponibles ({protectedAreas.kinds.map((k) => protectionLabel(k)).join(", ")}).
+                La couverture est donc un minimum.
+              </p>
+            )}
+          </div>
+        </section>
+      )}
 
       {/* ── Qui vit là ─────────────────────────────────────────────────── */}
       {groups.length > 0 && (
@@ -526,7 +659,23 @@ export default async function BiodiversitePage({ params }: Props) {
             <a href={GBIF_URL} target="_blank" rel="noopener noreferrer" className="text-[var(--accent)] hover:underline">
               {GBIF_CREDIT}
             </a>
-            , extraction du {raw.crawledAt} ({raw.licenses.join(", ")}). Espaces verts :{" "}
+            , extraction du {raw.crawledAt} ({raw.licenses.join(", ")}).{" "}
+            {protectedAreas && (
+              <>
+                Zones protégées :{" "}
+                <a
+                  href={INPN_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[var(--accent)] hover:underline"
+                >
+                  {INPN_CREDIT}
+                </a>
+                , périmètres du {protectedAreas.crawledAt}, croisés sur une grille de{" "}
+                {protectedAreas.gridStepM} m.{" "}
+              </>
+            )}
+            Espaces verts :{" "}
             {OSM_CREDIT}, sous licence ODbL. Les chiffres proviennent de l&apos;API de recherche
             GBIF, qui ne génère pas de DOI de téléchargement ; la date d&apos;accès et le périmètre
             de la requête sont indiqués pour que le calcul soit reproductible.

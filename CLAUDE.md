@@ -632,6 +632,19 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
     qui ne mesure pas ce que son nom annonce. `cityProtectedAreas()` renvoie `null` = « on ne
     sait pas », jamais `0`. ⚠️ Les paramètres GBIF sont marqués `@unverified` dans le script —
     lancer `npm run biodiversity:probe` en local avant le premier lot.
+  - **État au 2026-08-01** : la composante **zones protégées** a son ingest complet —
+    `scripts/city-protected-areas.mjs` (`npm run protected-areas`, + `:sources` / `:selftest` /
+    `:stats`), branché sur `data/city-protected-areas.json`, qui vaut `{}` : **0/540 villes**,
+    egress toujours 403. Les deux surfaces listent les périmètres (type, distance, surface,
+    lien fiche INPN, mention MNHN / Licence Ouverte) mais restent garées en `page.pending.tsx`.
+    Deux points de méthode à ne pas défaire : ① la couverture est **rastérisée sur une grille
+    de 250 m**, jamais une somme de surfaces — les zonages français s'emboîtent (ZNIEFF I dans
+    ZNIEFF II, Natura 2000 par-dessus) et une somme compte le même sol plusieurs fois, jusqu'à
+    « 180 % du disque protégé » ; chaque cellule retient le niveau de protection le plus fort.
+    ② une ville ingérée **sans aucun périmètre** vaut `areasTotal: 0` et s'affiche comme une
+    mesure ; seule une ville non ingérée vaut `null` = « on ne sait pas ». ⚠️ Noms d'attributs
+    INPN et gabarits d'URL des fiches sont `@unverified` — l'ingest imprime le champ retenu par
+    couche, relire ces lignes au premier run local.
 
 - [ ] **F63 — Qualité de l'air : du modèle à la mesure** — la section existe
   (`/villes/[slug]/air` ×540 + EN `air-quality`) mais `lib/air-quality.ts` **calcule

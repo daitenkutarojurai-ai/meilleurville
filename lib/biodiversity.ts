@@ -14,7 +14,10 @@
 //
 //   1. richesse spécifique normalisée par l'effort d'observation (GBIF) ;
 //   2. couverture en zones protégées à ≤ 15 km, pondérée par le niveau de
-//      protection (INPN/MNHN) ;
+//      protection (INPN/MNHN), recouvrements résolus sur une grille par
+//      scripts/city-protected-areas.mjs — pas par somme de surfaces, les
+//      zonages français s'emboîtent et une somme compterait le même sol
+//      plusieurs fois ;
 //   3. espaces verts urbains, repris de data/city-parks.json (F59).
 //
 // Chacune se lit séparément sur la page. L'agrégat n'existe que si les trois
@@ -44,6 +47,7 @@
 // surface affichant ces chiffres affiche l'attribution avec eux, au même titre
 // que les crédits Commons et l'ODbL des parcs.
 import RAW from "@/data/city-biodiversity.json";
+import PROTECTED_RAW from "@/data/city-protected-areas.json";
 import { cityParks, hasParksData, OSM_CREDIT, OSM_CREDIT_EN } from "@/lib/city-parks";
 import { cityPopulation } from "@/lib/city-population";
 import { CITIES_SEED } from "@/data/cities-seed";
@@ -141,7 +145,7 @@ export function isMeasurable(row: CityBiodiversityRaw): boolean {
   );
 }
 
-/* ── zones protégées (INPN) — non encore collectées ───────────────────── */
+/* ── zones protégées (INPN) ───────────────────────────────────────────── */
 
 export type ProtectionKind =
   | "reserve-naturelle"
@@ -166,22 +170,46 @@ export const PROTECTION_WEIGHT: Record<ProtectionKind, number> = {
   "znieff-2": 0.25,
 };
 
+/** Nombre de couches nationales attendues par l'ingest. Une ville ingérée avec
+ *  moins que ça a une couverture minorée, et sa page le dit. */
+export const PROTECTION_KIND_COUNT = Object.keys(PROTECTION_WEIGHT).length;
+
 export interface ProtectedArea {
-  /** Identifiant national INPN (code Natura 2000, n° ZNIEFF, code RN…). */
-  id: string;
-  name: string;
+  /** Identifiant national INPN (code Natura 2000, n° ZNIEFF, code RN…).
+   *  `null` quand la couche source ne porte pas d'identifiant exploitable —
+   *  la zone s'affiche alors sans lien plutôt qu'avec un lien mort. */
+  id: string | null;
+  name: string | null;
   kind: ProtectionKind;
-  /** Surface du périmètre intersectant le rayon retenu, en hectares. */
+  /** Surface du périmètre intersectant le disque d'analyse, en hectares,
+   *  mesurée sur la grille de `gridStepM` (précision ≈ une cellule de bord). */
   areaHa: number;
-  /** Distance du centre-ville au périmètre le plus proche, en km. */
+  /** Distance du centre-ville au périmètre, en km. `0` = le centre est dedans. */
   distanceKm: number;
 }
 
 export interface CityProtectedAreas {
   crawledAt: string;
   source: "inpn";
+  ingestVersion: number;
+  radiusKm: number;
+  gridStepM: number;
+  /** Couches réellement présentes lors de la passe. Une ville ingérée sans le
+   *  fichier ZNIEFF n'est pas comparable à une ville ingérée avec : le
+   *  classement ne mélange que des villes au même jeu de couches. */
+  kinds: ProtectionKind[];
+  /** Part du disque sous protection, pondérée par le niveau, **recouvrements
+   *  résolus cellule par cellule** — voir protectionCoverage. */
+  weightedCoverage: number;
+  /** Part du disque sous un zonage quelconque, tous niveaux confondus. */
+  rawCoverage: number;
+  /** Nombre total de périmètres relevés ; `areas` est tronquée à l'affichage. */
+  areasTotal: number;
+  areasTruncated: boolean;
   areas: ProtectedArea[];
 }
+
+const PROTECTED = PROTECTED_RAW as unknown as Record<string, CityProtectedAreas>;
 
 /** Rayon d'analyse des zones protégées. Plus large que les 10 km du crawl
  *  GBIF : un massif protégé à 15 km fait partie du cadre de vie, on y va le
@@ -189,29 +217,56 @@ export interface CityProtectedAreas {
 export const PROTECTED_RADIUS_KM = 15;
 
 /**
- * Zones protégées autour de la ville.
+ * Zones protégées autour de la ville, ou `null` si la passe INPN ne l'a pas
+ * encore couverte.
  *
- * ⚠️ Renvoie `null` pour **toutes** les villes tant que le jeu INPN n'est pas
- * collecté (phase 2 du pipeline F62). `null` veut dire « on ne sait pas », pas
- * « il n'y en a pas » : une surface qui afficherait « 0 zone protégée » sur la
- * foi de ce `null` publierait un chiffre faux sur une ville réelle. Quand le
- * jeu arrivera, seul le corps de cette fonction change.
+ * `null` veut dire « on ne sait pas », jamais « il n'y en a pas ». Une ville
+ * réellement dépourvue de périmètre à moins de PROTECTED_RADIUS_KM est
+ * couverte, avec `areasTotal: 0` et une couverture de 0 : c'est une mesure,
+ * et la page l'écrit comme telle. Les deux situations ne se racontent pas
+ * pareil et ne doivent pas se confondre à l'écran.
  */
-export function cityProtectedAreas(_slug: string): CityProtectedAreas | null {
-  return null;
+export function cityProtectedAreas(slug: string): CityProtectedAreas | null {
+  return PROTECTED[slug] ?? null;
 }
 
-export const HAS_PROTECTED_DATA = false;
+export function hasProtectedData(slug: string): boolean {
+  return slug in PROTECTED;
+}
+
+export const PROTECTED_CRAWLED_SLUGS = Object.keys(PROTECTED);
+export const HAS_PROTECTED_DATA = PROTECTED_CRAWLED_SLUGS.length > 0;
 
 /**
- * Composante « zones protégées », 0–10. `null` tant que `cityProtectedAreas`
- * ne renvoie rien — c'est-à-dire pour l'instant partout.
+ * Lien vers la fiche INPN d'un périmètre.
  *
- * Le corps est déjà écrit pour le jour où le jeu INPN arrive : surface pondérée
- * par le niveau de protection, rapportée au disque de PROTECTED_RADIUS_KM, puis
- * passée au même barème centile que les autres composantes.
+ * ⚠️ @unverified — gabarits d'URL écrits sans accès à inpn.mnhn.fr (403 CONNECT
+ * depuis cet environnement). À vérifier pendant la passe locale, sur un
+ * identifiant de chaque couche, AVANT que la première surface ne parte en
+ * production : un lien mort vaut moins que pas de lien. Les surfaces affichent
+ * le nom sans lien quand cette fonction renvoie `null`, donc rien ne casse tant
+ * que la donnée n'est pas là.
+ */
+export function inpnUrl(area: ProtectedArea): string | null {
+  if (!area.id) return null;
+  switch (area.kind) {
+    case "natura-2000":
+      return `${INPN_URL}/site/natura2000/${encodeURIComponent(area.id)}`;
+    case "znieff-1":
+    case "znieff-2":
+      return `${INPN_URL}/zone/znieff/${encodeURIComponent(area.id)}`;
+    default:
+      return `${INPN_URL}/espace/protege/${encodeURIComponent(area.id)}`;
+  }
+}
+
+/**
+ * Composante « zones protégées », 0–10, ou `null` si la ville n'est pas encore
+ * ingérée — ou si trop peu de villes le sont pour que le rang centile ait un
+ * sens (même garde-fou que la richesse, voir MIN_CALIBRATION_CITIES).
  */
 function protectionComponent(slug: string): Component | null {
+  if (!PROTECTION_CALIBRATED) return null;
   const coverage = protectionCoverage(slug);
   if (coverage == null) return null;
   return { value: coverage, ...protectionScale(coverage) };
@@ -219,19 +274,18 @@ function protectionComponent(slug: string): Component | null {
 
 /**
  * Part du disque de PROTECTED_RADIUS_KM couverte par des zonages, en
- * équivalent-protection forte : chaque surface est multipliée par le poids de
- * son niveau avant d'être rapportée à l'aire du disque. `null` = on ne sait
- * pas encore, jamais 0.
+ * équivalent-protection forte. `null` = on ne sait pas encore, jamais 0.
+ *
+ * Le chiffre est **calculé par le pipeline sur une grille**, pas ici par somme
+ * des surfaces : les zonages français se recouvrent par construction — une
+ * ZNIEFF I est presque toujours incluse dans une ZNIEFF II, et les sites
+ * Natura 2000 chevauchent les deux. Additionner leurs surfaces compterait le
+ * même sol plusieurs fois et pourrait annoncer « 180 % du disque protégé ».
+ * Chaque cellule de la grille retient donc le niveau de protection le plus
+ * fort qui la couvre, et les recouvrements ne comptent qu'une fois.
  */
 export function protectionCoverage(slug: string): number | null {
-  const data = cityProtectedAreas(slug);
-  if (!data) return null;
-  const weighted = data.areas.reduce(
-    (s, a) => s + a.areaHa * PROTECTION_WEIGHT[a.kind],
-    0,
-  );
-  const discHa = Math.PI * PROTECTED_RADIUS_KM ** 2 * 100;
-  return +((weighted / discHa) * 100).toFixed(1);
+  return cityProtectedAreas(slug)?.weightedCoverage ?? null;
 }
 
 /* ── composantes ──────────────────────────────────────────────────────── */
@@ -347,6 +401,16 @@ export const MIN_CALIBRATION_CITIES = 100;
 export const BIODIVERSITY_CALIBRATED =
   MEASURABLE_SLUGS.length >= MIN_CALIBRATION_CITIES;
 
+/** Nombre de villes passées par l'ingest INPN. */
+export const PROTECTED_CITY_COUNT = PROTECTED_CRAWLED_SLUGS.length;
+
+/** Même raisonnement que BIODIVERSITY_CALIBRATED, appliqué aux zones
+ *  protégées : un rang centile sur cinq villes ne situe rien. Les périmètres
+ *  et la couverture en % sont vrais dès la première ville et s'affichent ;
+ *  c'est le /10 qui attend d'avoir une population à laquelle se comparer. */
+export const PROTECTION_CALIBRATED =
+  PROTECTED_CRAWLED_SLUGS.length >= MIN_CALIBRATION_CITIES;
+
 /* ── profil par ville ─────────────────────────────────────────────────── */
 
 export interface BiodiversityProfile {
@@ -359,8 +423,18 @@ export interface BiodiversityProfile {
    *  bonne, mais trop peu de villes sont crawlées pour situer celle-ci par
    *  rapport aux autres. `null` : un score est publié. */
   richnessPending: "effort" | "calibration" | null;
-  /** `null` tant que le jeu INPN n'est pas collecté — « on ne sait pas ». */
+  /** `null` tant que la ville n'est pas ingérée, ou tant que trop peu de
+   *  villes le sont pour situer celle-ci. `protectionPending` dit laquelle
+   *  des deux. */
   protection: Component | null;
+  /** `"data"` : la passe INPN n'a pas encore couvert cette ville — on ne sait
+   *  pas, ce n'est pas zéro. `"calibration"` : les périmètres sont relevés,
+   *  le rang sur 10 attend d'autres villes. `null` : un score est publié. */
+  protectionPending: "data" | "calibration" | null;
+  /** Périmètres relevés autour de la ville, ou `null` si non ingérée. Une
+   *  ville ingérée sans aucun périmètre a bien une valeur, avec
+   *  `areasTotal: 0` — c'est un résultat, pas une absence de donnée. */
+  protectedAreas: CityProtectedAreas | null;
   /** `null` quand F59 n'a relevé aucun parc nommé pour la commune. */
   greenSpace: Component | null;
   /** Agrégat pondéré, ou `null` si une composante manque. Voir COMPONENT_WEIGHT. */
@@ -398,7 +472,13 @@ export function biodiversityProfile(slug: string): BiodiversityProfile | null {
   const greenSpace: Component | null =
     green == null ? null : { value: green, ...greenScale(green) };
 
+  const protectedAreas = cityProtectedAreas(slug);
   const protection = protectionComponent(slug);
+  const protectionPending: BiodiversityProfile["protectionPending"] = !protectedAreas
+    ? "data"
+    : !PROTECTION_CALIBRATED
+      ? "calibration"
+      : null;
 
   // Pas d'agrégat tant qu'une composante manque. Repondérer sur ce qui reste
   // donnerait un nombre qui ne mesure pas ce que son nom annonce.
@@ -417,6 +497,8 @@ export function biodiversityProfile(slug: string): BiodiversityProfile | null {
     richness,
     richnessPending,
     protection,
+    protectionPending,
+    protectedAreas,
     greenSpace,
     overall,
     measurable,

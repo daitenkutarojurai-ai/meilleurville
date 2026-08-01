@@ -35,11 +35,15 @@ import {
   GROUP_ORDER,
   MIN_OCCURRENCES,
   MIN_OBSERVERS,
-  PROTECTED_RADIUS_KM,
+  PROTECTION_KIND_COUNT,
+  protectionLabel,
+  inpnUrl,
   BIODIVERSITY_MEASURABLE_COUNT,
   SCORE_LEGEND_EN,
   GBIF_CREDIT,
   GBIF_URL,
+  INPN_CREDIT,
+  INPN_URL,
   OSM_CREDIT_EN,
   type SpeciesGroup,
 } from "@/lib/biodiversity";
@@ -140,8 +144,34 @@ export default async function BiodiversityPage({ params }: Props) {
   const profile = biodiversityProfile(slug);
   if (!profile) notFound();
 
-  const { raw, richness, richnessPending, protection, greenSpace, overall } = profile;
+  const {
+    raw,
+    richness,
+    richnessPending,
+    protection,
+    protectionPending,
+    protectedAreas,
+    greenSpace,
+    overall,
+  } = profile;
   const photo = cityPhoto(city.slug);
+
+  const nb = (v: number) => v.toLocaleString("en-GB");
+
+  // Same three states as the French twin, and the same rule: only a commune
+  // that has not been ingested reads "not measured". One ingested with no
+  // perimeter at all has been measured, and says so.
+  const protectionDetail = protectedAreas
+    ? `${nb(protectedAreas.weightedCoverage)} % of the ${protectedAreas.radiusKm} km disc under protection, ` +
+      `weighted by level (${nb(protectedAreas.rawCoverage)} % under any designation at all). ` +
+      `${nb(protectedAreas.areasTotal)} site${protectedAreas.areasTotal > 1 ? "s" : ""} recorded.`
+    : "";
+  const protectionMissing =
+    protectionPending === "calibration" && protectedAreas
+      ? protectedAreas.areasTotal === 0
+        ? `No protected site within ${protectedAreas.radiusKm} km. That is a measurement, not missing data.`
+        : `${nb(protectedAreas.weightedCoverage)} % of the disc under weighted protection. The rank out of 10 waits until more cities are ingested.`
+      : `French INPN boundaries (Natura 2000, ZNIEFF, nature reserves, parks) are not integrated yet for this commune. "Not measured" means we do not know — not that there are none.`;
 
   const groups = GROUP_ORDER.map((g) => ({ id: g, count: raw.groups[g] ?? 0 })).filter(
     (g) => g.count > 0,
@@ -326,8 +356,8 @@ export default async function BiodiversityPage({ params }: Props) {
               emoji="🛡️"
               title="Protected areas"
               score={protection?.score ?? null}
-              detail={`Protected sites within ${PROTECTED_RADIUS_KM} km, weighted by their level of protection.`}
-              missing={`French INPN boundaries (Natura 2000, ZNIEFF, nature reserves, parks) are not integrated yet. "Not measured" means we do not know — not that there are none.`}
+              detail={protectionDetail}
+              missing={protectionMissing}
             />
             <ComponentBar
               emoji="🌳"
@@ -345,15 +375,112 @@ export default async function BiodiversityPage({ params }: Props) {
           {overall == null && (
             <p className="text-xs text-[var(--text-tertiary)] mt-3 leading-relaxed max-w-3xl">
               <strong className="text-[var(--text-secondary)]">No overall score yet.</strong> It
-              would need all three components, and protected areas are still missing — which is the
-              heaviest of the three: a Natura 2000 boundary exists regardless of who turns up to
-              record it, so it is the one component immune to the effort bias. Reweighting the other
-              two to paper over the gap would produce a number that does not measure what its name
-              claims.
+              needs all three components, and{" "}
+              {[
+                richness ? null : "species richness",
+                protection ? null : "protected areas",
+                greenSpace ? null : "green space",
+              ]
+                .filter(Boolean)
+                .join(" and ")}{" "}
+              {[richness, protection, greenSpace].filter((c) => !c).length > 1 ? "are" : "is"} still
+              missing here. Reweighting the components we do have to paper over the gap would
+              produce a number that does not measure what its name claims.
+              {!protection && (
+                <>
+                  {" "}
+                  Protected areas are the heaviest of the three: a Natura 2000 boundary exists
+                  regardless of who turns up to record it, so it is the one component immune to the
+                  effort bias.
+                </>
+              )}
             </p>
           )}
         </div>
       </section>
+
+      {protectedAreas && (
+        <section className="relative pb-8">
+          <div className="mx-auto max-w-5xl px-4 sm:px-6">
+            <h2 className="text-xl font-bold text-[var(--text-primary)] mb-1">
+              Protected areas within {protectedAreas.radiusKm} km
+            </h2>
+            <p className="text-sm text-[var(--text-secondary)] mb-4">
+              {protectedAreas.areasTotal === 0 ? (
+                <>
+                  No protected site recorded within this radius. That is a measurement result, not
+                  missing data: the national layers were run over this disc and found nothing.
+                </>
+              ) : (
+                <>
+                  Areas are measured on the share of each site that falls inside the radius, not on
+                  the whole site. French designations nest inside one another — a ZNIEFF I almost
+                  always sits within a ZNIEFF II — so the coverage above does not add them up: every
+                  patch of ground counts once, at the strongest level of protection that applies to
+                  it.
+                </>
+              )}
+            </p>
+            {protectedAreas.areas.length > 0 && (
+              <div className="space-y-2">
+                {protectedAreas.areas.map((a, i) => {
+                  const href = inpnUrl(a);
+                  const label = a.name ?? a.id ?? protectionLabel(a.kind, "en");
+                  return (
+                    <div
+                      key={`${a.kind}-${a.id ?? i}`}
+                      className="flex items-baseline gap-3 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-4 py-2.5"
+                    >
+                      <div className="flex-1 min-w-0">
+                        <div className="text-sm text-[var(--text-primary)] truncate">
+                          {href ? (
+                            <a
+                              href={href}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="hover:text-[var(--accent)] hover:underline"
+                            >
+                              {label}
+                            </a>
+                          ) : (
+                            label
+                          )}
+                        </div>
+                        <div className="text-[11px] text-[var(--text-tertiary)]">
+                          {protectionLabel(a.kind, "en")}
+                          {a.distanceKm > 0
+                            ? ` · ${nb(a.distanceKm)} km away`
+                            : " · the city centre sits inside it"}
+                        </div>
+                      </div>
+                      <div className="shrink-0 text-right text-sm font-mono-data text-[var(--text-primary)]">
+                        {nb(Math.round(a.areaHa))}
+                        <span className="text-[11px] font-normal text-[var(--text-tertiary)]">
+                          {" "}
+                          ha
+                        </span>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            )}
+            {protectedAreas.areasTruncated && (
+              <p className="text-[11px] text-[var(--text-tertiary)] mt-2">
+                {nb(protectedAreas.areasTotal)} sites in total; the {protectedAreas.areas.length}{" "}
+                largest are listed. The coverage figure above counts them all.
+              </p>
+            )}
+            {protectedAreas.kinds.length < PROTECTION_KIND_COUNT && (
+              <p className="text-[11px] text-[var(--text-tertiary)] mt-2">
+                Partial pass: {protectedAreas.kinds.length} of the {PROTECTION_KIND_COUNT} national
+                layers were available ({protectedAreas.kinds.map((k) => protectionLabel(k, "en")).join(", ")}).
+                The coverage figure is therefore a floor.
+              </p>
+            )}
+          </div>
+        </section>
+      )}
 
       {groups.length > 0 && (
         <section className="relative pb-8">
@@ -498,7 +625,23 @@ export default async function BiodiversityPage({ params }: Props) {
             <a href={GBIF_URL} target="_blank" rel="noopener noreferrer" className="text-[var(--accent)] hover:underline">
               {GBIF_CREDIT}
             </a>
-            , retrieved {raw.crawledAt} ({raw.licenses.join(", ")}). Green space: {OSM_CREDIT_EN},
+            , retrieved {raw.crawledAt} ({raw.licenses.join(", ")}).{" "}
+            {protectedAreas && (
+              <>
+                Protected areas:{" "}
+                <a
+                  href={INPN_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[var(--accent)] hover:underline"
+                >
+                  {INPN_CREDIT}
+                </a>
+                , boundaries as of {protectedAreas.crawledAt}, intersected on a{" "}
+                {protectedAreas.gridStepM} m grid.{" "}
+              </>
+            )}
+            Green space: {OSM_CREDIT_EN},
             licensed ODbL. Figures come from the GBIF search API, which does not mint a download
             DOI; the access date and query perimeter are stated so the calculation is reproducible.
           </div>
