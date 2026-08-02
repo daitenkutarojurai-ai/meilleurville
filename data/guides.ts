@@ -37348,12 +37348,66 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["chaumont", "saint-die-des-vosges", "saint-dizier", "montlucon", "laon", "charleville-mezieres", "aurillac", "limoges"],
     relatedGuides: [
+      "palmares-septembre-2026-ecoles-cout-du-logement",
       "palmares-juillet-2026-rapport-qualite-vie-loyer",
       "meilleures-villes-primo-accedants-france-2026",
       "villes-france-moins-cheres-2026-top-10",
-      "negocier-prix-immobilier-france-guide-2026",
     ],
     tags: ["palmarès août 2026", "rapport qualité de vie prix achat", "prix immobilier au m² 2026", "classement mensuel villes France", "acheter moins cher en France"],
+  },
+  {
+    slug: "palmares-septembre-2026-ecoles-cout-du-logement",
+    title: "Palmarès septembre 2026 : les 20 villes au meilleur rapport écoles / loyer",
+    metaTitle: "Palmarès septembre 2026 — Écoles / loyer : le top 20",
+    metaDesc: "Palmarès de septembre 2026 : les 20 villes où l'offre scolaire coûte le moins cher en loyer. Score écoles rapporté au T3, sur 363 communes éligibles.",
+    category: "budget",
+    emoji: "🏆",
+    readMinutes: 8,
+    publishedAt: "2026-08-02",
+    updatedAt: "2026-08-02",
+    intro: "C'est l'édition de la rentrée, et la question qu'elle pose est celle que se posent les parents qui déménagent en août : combien coûte, en loyer, le fait de scolariser ses enfants correctement ? On a rapporté le score écoles de nos 540 villes au loyer moyen d'un T3, la plus petite surface réaliste pour une famille, en gardant les communes de plus de 20 000 habitants, soit 363 villes. Le résultat est plus brutal que ceux de juillet et d'août : entre la première et la dernière du classement, le même point de score scolaire se paie de 94 € à 550 € de loyer par mois.",
+    sections: [
+      {
+        heading: "La méthode, en toute transparence",
+        body: "Le calcul reprend celui des deux éditions précédentes en changeant les deux termes : au numérateur, non plus le score global mais le score écoles de la ville, l'un des huit axes affichés sur chaque fiche, où 10 signifie la meilleure offre scolaire et de formation ; au dénominateur, non plus le T2 de juillet ni le prix au m² d'août, mais le loyer moyen d'un T3, parce qu'une famille avec enfants ne vit pas dans un deux-pièces. Le filtre à 20 000 habitants écarte les communes trop petites pour porter seules un collège, un lycée général et les services du quotidien. Les 177 villes du seed sous ce seuil sont donc exclues, et aucune ville éligible n'a été écartée faute de référence de loyer : nos 540 communes en ont toutes une. Restent 363 villes, dont le loyer T3 médian s'établit à 1 020 € et le score écoles médian à 5,8 sur 10. Pour rendre le ratio lisible, on l'exprime en euros de loyer mensuel par point de score scolaire : la médiane nationale est de 184 €. Quatre villes descendent sous 100 €, 39 sous 120 €, 128 sous 150 €. À l'autre bout, 89 villes dépassent 250 € et 43 dépassent 300 €.",
+      },
+      {
+        heading: "Le top 20 de septembre 2026",
+        body: "1. Alençon : 6,6/10 d'écoles pour un T3 à 620 €, soit 94 € par point, le meilleur rapport de France. 2. Vichy : 6,6 pour 640 €. 3. Cambrai : 6,6 pour 640 €. 4. Auch : 6,6 pour 640 €. 5. Laval : 6,6 pour 660 €, avec une antenne du Mans Université sur place. 6. Auxerre : 6,6 pour 660 €, et une CPGE. 7. Dole : 7,7 pour 780 €, le meilleur score du top 10. 8. Saint-Dié-des-Vosges : 6,6 pour 670 €, première du palmarès de juillet. 9. Cholet : 7,7 pour 800 €. 10. Lannion : 7,7 pour 800 €. 11. La Roche-sur-Yon : 7,7 pour 800 €. 12. Belfort : 6,6 pour 690 €, avec l'UTBM. 13. Aurillac : 5,3 pour 560 €, le loyer le plus bas de tout le classement. 14. Castres : 6,6 pour 700 €. 15. Roanne : 6,6 pour 700 €. 16. Épinal : 6,2 pour 660 €. 17. Albi : 7,7 pour 840 €, avec IMT Mines Albi et l'antenne Champollion. 18. Arras : 6,6 pour 720 €, siège de l'Université d'Artois. 19. Montbéliard : 6,6 pour 720 €. 20. Cahors : 5,3 pour 590 €. La carte du top 50 est celle d'une France des villes moyennes bien équipées : Nouvelle-Aquitaine et Auvergne-Rhône-Alpes en placent 8 chacune, Hauts-de-France, Occitanie et Bourgogne-Franche-Comté 6, le Grand Est et les Pays de la Loire 5.",
+      },
+      {
+        heading: "Le club des 9/10 : même école, loyer du simple au double",
+        body: "Vingt et une villes obtiennent au moins 8,5 sur 10 en écoles. C'est là que le classement devient instructif, parce que ces villes offrent à peu près la même chose et ne la facturent pas du tout au même prix. Grenoble affiche 9,0 pour un T3 à 1 020 €, soit 113 € par point : c'est la meilleure offre scolaire de France au tarif d'une ville moyenne, et cela la place 25e du classement général. Rennes fait 9,0 pour 1 100 € (122 €), Toulouse 9,0 pour 1 150 € (128 €), Strasbourg 8,7 pour 1 080 € (124 €). Puis on passe en Île-de-France, à score rigoureusement identique : Sceaux, 9,0 pour 1 500 € (167 €) ; Saint-Germain-en-Laye et Rueil-Malmaison, 9,0 pour 1 600 € (178 €) ; Versailles, 9,0 pour 1 700 € (189 €) ; Issy-les-Moulineaux, 9,0 pour 1 800 € (200 €) ; Levallois-Perret, 9,0 pour 2 000 € (222 €) ; Neuilly-sur-Seine, 9,0 pour 2 500 € (278 €). Même note, loyer multiplié par 2,5. C'est l'enseignement central de cette édition : en province, une excellente offre scolaire est comprise dans le loyer ; en Île-de-France, elle se paie en supplément, et le supplément vaut 1 500 € par mois entre Grenoble et Neuilly.",
+      },
+      {
+        heading: "Les grandes villes qui tiennent le ratio",
+        body: "Un classement de ratio favorise les petites villes bon marché, il faut donc regarder ce que donnent les communes de plus de 100 000 habitants prises entre elles. Le classement y est net : Grenoble 25e (113 € par point), Brest 29e (115 €), Tours 38e (119 €), Besançon 44e (122 €), Rennes 46e (122 €), Strasbourg 50e (124 €), Caen 54e (126 €), Angers 57e (127 €), Toulouse 62e (128 €), puis Dijon et Nancy à égalité (128 €) et Clermont-Ferrand (129 €). Ces douze villes ont toutes une université, souvent des CPGE et des écoles d'ingénieurs, et un loyer familial sous 1 200 €. Pour une famille qui veut un grand bassin d'emploi sans payer le tarif métropolitain, c'est la liste courte. Le bas du tableau des grandes villes est plus rude : Lyon 136e (155 €), Bordeaux 144e (162 €), Montpellier 151e (164 €), Annecy 153e (167 €), Aix-en-Provence 156e (169 €). Paris, avec un score écoles de 7,9 et un T3 à 2 800 €, tombe 334e à 354 € par point : la capitale a une offre scolaire dense, pas la meilleure de France, à un prix que rien dans nos données ne justifie pour une famille.",
+      },
+      {
+        heading: "Le bas du classement, et ce qu'il dit vraiment",
+        body: "Les vingt derniers rangs sont écrasés par un seul territoire. Aubervilliers ferme le classement, 363e, avec 2,4 sur 10 en écoles pour un T3 à 1 320 €, soit 550 € par point, presque six fois le tarif d'Alençon. Saint-Denis est 362e (2,4 pour 1 250 €), Trappes, Aulnay-sous-Bois et Sarcelles 361e, 360e et 359e (2,2 pour 1 100 €), La Courneuve et Bondy suivent (2,2 pour 1 080 €). Sur les trente dernières villes, vingt-six sont franciliennes. Le chiffre qui résume la situation : l'Île-de-France compte 115 villes éligibles sur 363, et une seule figure dans les cent premières, Fontainebleau, 93e à 138 € par point. Le ratio médian francilien est de 4,00 quand le national est de 5,45. Les quatre non-franciliennes du bas de tableau sont Cannes, 336e (4,5 pour 1 700 €, l'effet station balnéaire où le loyer suit le tourisme et pas les familles), Vaulx-en-Velin 343e, Marseille 348e et La Seyne-sur-Mer 356e. Le cas marseillais mérite une note : la ville abrite Aix-Marseille Université, des CPGE, Centrale Marseille et KEDGE, et sort pourtant à 2,4 sur 10 avec 458 € par point. L'axe écoles mesure l'offre scolaire moyenne sur l'ensemble du territoire communal, pas la présence d'institutions prestigieuses dans un arrondissement, et Marseille est une commune de 870 000 habitants extrêmement inégale d'un secteur à l'autre.",
+      },
+      {
+        heading: "Comment lire ces chiffres sans se tromper",
+        body: "Quatre limites, assumées. La première est le maillage : nos scores sont communaux, or la sectorisation scolaire ne l'est pas partout, et en petite couronne les familles scolarisent couramment hors de leur commune, par dérogation, par le privé ou en franchissant une limite administrative qui n'existe pas dans la vie quotidienne. Le classement mesure donc ce qu'une commune offre sur son propre sol, pas le destin de ses élèves, et il ne porte aucun jugement sur eux ni sur leurs enseignants. La deuxième est la nature de l'axe : il évalue la densité et la variété de l'offre scolaire et de formation, du collège au post-bac, pas les résultats au brevet ou au bac d'un établissement donné, que nous ne publions pas. La troisième tient au dénominateur : avec le T2 de juillet, la hiérarchie basculerait vers les villes étudiantes ; le T3 a été choisi parce qu'il correspond au besoin réel d'une famille, et il change le classement. La quatrième est la plus importante : un bon ratio ne remplace pas un emploi. Plusieurs villes du top 20 imposent un internat ou un déménagement pour les filières sélectives après le bac, et leurs bassins d'emploi sont étroits. Ce palmarès vaut d'abord pour les familles dont au moins un revenu ne dépend pas du marché local, et pour celles qui arbitrent entre deux villes déjà accessibles.",
+      },
+      {
+        heading: "Ce que cette édition change par rapport aux deux précédentes",
+        body: "Dix des vingt villes du palmarès de juillet, qui classait le rapport qualité de vie / loyer, se retrouvent dans celui de septembre, et huit de celui d'août. La colonne vertébrale est stable : Saint-Dié-des-Vosges, Vichy, Auch, Cambrai, Aurillac, Laval, Auxerre, Alençon, Épinal, Cahors et Roanne figurent dans au moins deux des trois éditions. Le mouvement le plus net est celui d'Alençon, seizième en juillet et première ici, parce que la ville tient un score scolaire supérieur à la médiane avec le cinquième loyer T3 le plus bas des 363 communes. À l'inverse, deux habituées décrochent : Montluçon passe 78e et Lens 74e, leur avantage étant un loyer très bas plutôt qu'une offre scolaire dense, et l'axe écoles ne le leur rend pas. Entrent en revanche des villes absentes des deux premières éditions. Cinq d'entre elles, Dole, Cholet, Lannion, La Roche-sur-Yon et Albi, tiennent 7,7 sur 10 en écoles, le meilleur niveau du top 20 ; Belfort, Castres et Montbéliard entrent à 6,6 sur un loyer contenu. Ce sont des villes moyennes industrielles ou universitaires que le seul critère du prix ne faisait pas ressortir.",
+      },
+      {
+        heading: "Rendez-vous en octobre",
+        body: "Le palmarès est mensuel, chaque édition croisant nos données sous un angle nouveau avec la même méthode affichée et les mêmes limites assumées. L'édition d'octobre 2026 quittera les moyennes nationales pour le portefeuille local : le taux d'effort logement réel, c'est-à-dire le loyer rapporté au niveau de vie médian que l'Insee publie commune par commune, disponible sur 533 de nos 540 villes. La question posée sera différente de celles de l'été, et sans doute plus dérangeante : non pas où le logement est bon marché dans l'absolu, mais où il est bon marché pour les gens qui y vivent déjà. Plusieurs villes du présent top 20 devraient y perdre des places, parce qu'un loyer bas rapporté à un revenu bas ne fait pas un logement abordable. Pour creuser l'édition du mois, chaque ville citée dispose de sa fiche complète avec les huit axes détaillés, et la sous-page Écoles de chaque commune détaille l'offre du collège au post-bac.",
+      },
+    ],
+    relatedCities: ["alencon", "vichy", "cambrai", "auch", "laval", "auxerre", "dole", "grenoble"],
+    relatedGuides: [
+      "palmares-aout-2026-rapport-qualite-vie-prix-achat",
+      "palmares-juillet-2026-rapport-qualite-vie-loyer",
+      "meilleures-villes-familles-ecoles-securite-france-2025",
+      "meilleures-villes-familles-budget-serre-2025",
+    ],
+    tags: ["palmarès septembre 2026", "rapport écoles loyer", "villes écoles pas chères 2026", "classement mensuel villes France", "rentrée 2026 où s'installer"],
   },
   {
     slug: "retraite-a-dinan-2026",
