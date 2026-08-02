@@ -98,9 +98,17 @@ export interface CityBiodiversityRaw {
   speciesTruncated: boolean;
   rarefiedN: number;
   /** Espèces attendues dans un sous-échantillon de `rarefiedN` observations.
-   *  `null` quand la ville compte moins de `rarefiedN` observations : on ne
-   *  sous-échantillonne pas plus que ce qu'on a. */
+   *  `null` quand la ville compte moins de `rarefiedN` observations (on ne
+   *  sous-échantillonne pas plus que ce qu'on a), ou quand une facette tronquée
+   *  laisse le chiffre non bornable. */
   rarefied: number | null;
+  /** Faux quand la facette espèces a été tronquée par le plafond de pagination :
+   *  `rarefied` est alors une **borne inférieure rigoureuse** et `rarefiedUpper`
+   *  ferme l'intervalle. La raréfaction a besoin du vecteur d'abondance complet ;
+   *  quand il manque sa queue, le chiffre exact n'est pas connaissable, seulement
+   *  encadrable. Voir `rarefy()` dans scripts/city-biodiversity.mjs. */
+  rarefiedExact: boolean;
+  rarefiedUpper: number | null;
   groups: Partial<Record<SpeciesGroup, number>>;
   groupsTruncated: SpeciesGroup[];
   /** Espèces classées VU / EN / CR sur la liste rouge **mondiale** UICN. Ce
@@ -137,12 +145,40 @@ export const BIODIVERSITY_CITY_COUNT = BIODIVERSITY_CRAWLED_SLUGS.length;
 export const MIN_OCCURRENCES = 500;
 export const MIN_OBSERVERS = 20;
 
+/** Version de requête du pipeline en dessous de laquelle une ligne n'est pas
+ *  publiable. La v1 calculait la raréfaction sur un vecteur d'abondance tronqué
+ *  sans le dire, ce qui surestimait la richesse des villes les mieux relevées ;
+ *  une ligne v1 n'est pas comparable à une ligne v2 et ne doit pas entrer dans
+ *  le barème. Corrigé le 2026-08-02. */
+export const MIN_QUERY_VERSION = 2;
+
+/** Largeur d'intervalle tolérée quand la raréfaction est encadrée plutôt
+ *  qu'exacte, en part de la borne inférieure.
+ *
+ *  Le score est un rang centile : une ville dont l'intervalle dépasse cette
+ *  largeur pourrait changer de rang selon l'endroit de l'intervalle où tombe la
+ *  vraie valeur, et le classement dirait alors surtout où le plafond de
+ *  pagination a coupé. Le remède est côté pipeline (relancer la ville avec
+ *  `--facet-pages` plus haut), pas côté affichage : en attendant, la ville est
+ *  déclarée non mesurable. */
+export const MAX_RAREFIED_UNCERTAINTY = 0.05;
+
+/** Largeur relative de l'intervalle de raréfaction ; `0` quand il est exact,
+ *  `null` quand il n'y a pas de chiffre. */
+export function rarefiedUncertainty(row: CityBiodiversityRaw): number | null {
+  if (row.rarefied == null) return null;
+  if (row.rarefiedExact) return 0;
+  if (row.rarefiedUpper == null || row.rarefied <= 0) return null;
+  return (row.rarefiedUpper - row.rarefied) / row.rarefied;
+}
+
 export function isMeasurable(row: CityBiodiversityRaw): boolean {
-  return (
-    row.rarefied != null &&
-    row.occurrences >= MIN_OCCURRENCES &&
-    row.observers >= MIN_OBSERVERS
-  );
+  if (row.queryVersion < MIN_QUERY_VERSION) return false;
+  if (row.rarefied == null) return false;
+  if (row.occurrences < MIN_OCCURRENCES) return false;
+  if (row.observers < MIN_OBSERVERS) return false;
+  const uncertainty = rarefiedUncertainty(row);
+  return uncertainty != null && uncertainty <= MAX_RAREFIED_UNCERTAINTY;
 }
 
 /* ── zones protégées (INPN) ───────────────────────────────────────────── */
@@ -419,10 +455,13 @@ export interface BiodiversityProfile {
   /** `null` quand aucun score de richesse n'est publiable. `richnessPending`
    *  dit pourquoi — les deux raisons ne se racontent pas pareil à l'écran. */
   richness: Component | null;
-  /** `"effort"` : trop peu d'observations ici. `"calibration"` : la mesure est
-   *  bonne, mais trop peu de villes sont crawlées pour situer celle-ci par
+  /** `"effort"` : trop peu d'observations ici. `"precision"` : les observations
+   *  sont là mais la facette espèces a été tronquée, la raréfaction n'est
+   *  qu'encadrée et l'intervalle est trop large pour un rang — c'est un défaut
+   *  de collecte, réparable en relançant la ville. `"calibration"` : la mesure
+   *  est bonne, mais trop peu de villes sont crawlées pour situer celle-ci par
    *  rapport aux autres. `null` : un score est publié. */
-  richnessPending: "effort" | "calibration" | null;
+  richnessPending: "effort" | "precision" | "calibration" | null;
   /** `null` tant que la ville n'est pas ingérée, ou tant que trop peu de
    *  villes le sont pour situer celle-ci. `protectionPending` dit laquelle
    *  des deux. */
@@ -458,8 +497,17 @@ export function biodiversityProfile(slug: string): BiodiversityProfile | null {
   if (!raw) return null;
 
   const measurable = isMeasurable(raw);
+  // Un intervalle trop large ne se raconte pas comme un manque d'observations :
+  // les naturalistes ont fait leur travail, c'est notre collecte qui a coupé.
+  const imprecise =
+    raw.rarefied != null &&
+    raw.occurrences >= MIN_OCCURRENCES &&
+    raw.observers >= MIN_OBSERVERS &&
+    !isMeasurable(raw);
   const richnessPending: BiodiversityProfile["richnessPending"] = !measurable
-    ? "effort"
+    ? imprecise
+      ? "precision"
+      : "effort"
     : !BIODIVERSITY_CALIBRATED
       ? "calibration"
       : null;

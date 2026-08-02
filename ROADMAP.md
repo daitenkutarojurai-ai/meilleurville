@@ -177,7 +177,7 @@ recensées à proximité, zones protégées.
 
 | # | Feature | Prio | Cplx | SEO | Statut |
 |---|---------|------|------|-----|--------|
-| F62 | **Score Biodiversité** (pipeline GBIF + INPN → sous-page ×540 + classement) | **P0** | **L** | **high** | 🚧 en cours — moteur livré 30/07, crawl en attente d'une passe locale |
+| F62 | **Score Biodiversité** (pipeline GBIF + INPN → sous-page ×540 + classement) | **P0** | **L** | **high** | 🚧 en cours — moteur livré 30/07, durci 02/08 (selftest + raréfaction bornée), crawl en attente d'une passe locale |
 | F63 | **Qualité de l'air — du modèle à la mesure** (ATMO + Geod'Air, hub + classement) | **P0** | **M** | **high** | 🔜 à faire |
 
 ### F62 — Score Biodiversité
@@ -270,6 +270,55 @@ affichée avec les chiffres, comme les crédits Commons et l'ODbL des parcs.
 **Règle d'honnêteté** : aucune ville ne reçoit de score sans effort d'observation
 suffisant, et une ville sans zone protégée à proximité le lit noir sur blanc plutôt
 que de récupérer une moyenne départementale.
+
+#### Point d'étape 2026-08-02 — deux bugs du pipeline GBIF corrigés avant le crawl
+
+Egress toujours fermé : `api.gbif.org`, `inpn.mnhn.fr` et `www.data.gouv.fr` répondent
+tous les trois 403 CONNECT depuis la routine (retesté ce jour, un seul essai). Les deux
+JSON de données valent toujours `{}` — **0/540 villes sur les deux composantes GBIF et
+INPN**, aucune surface publiée, aucun classement. Le crawl part toujours d'une passe
+locale. Ce run n'a donc pas collecté de donnée ; il a fiabilisé ce qui l'aurait reçue.
+
+**Ce qui est couvert désormais.** `npm run biodiversity:selftest` — 22 contrôles hors
+ligne sur les deux points où le pipeline pouvait se tromper en silence, symétrique de
+`protected-areas:selftest`. Il a trouvé ses deux bugs au premier lancement :
+
+1. **Lecture des facettes.** GBIF prend le nom de facette en camelCase à l'aller
+   (`facet=speciesKey`) et le renvoie en `UPPER_SNAKE_CASE` au retour
+   (`"field": "SPECIES_KEY"`). La comparaison était `toLowerCase()` des deux côtés : le
+   tiret bas ne tombait jamais en face, la facette n'était jamais trouvée et **chaque
+   ville aurait enregistré zéro espèce** — une ligne parfaitement plausible, sans erreur.
+   Les deux noms sont maintenant réduits à leurs lettres et chiffres, et une facette
+   absente de la réponse lève au lieu de renvoyer une liste vide.
+
+2. **Raréfaction sur vecteur tronqué.** La raréfaction de Hurlbert exige le vecteur
+   d'abondance complet. Quand le plafond de pagination coupe la queue de la liste
+   d'espèces — ce qui arrive précisément aux villes les mieux relevées — l'ancien code
+   raréfiait la tête contre sa propre somme, ce qui gonfle la probabilité de détection de
+   chaque espèce et **surestime la richesse au sommet du classement**, là où les lecteurs
+   regardent. Le score étant un rang centile sur cette valeur, le biais se propageait au
+   rang. Désormais : facette complète → valeur exacte ; facette tronquée → **encadrement
+   rigoureux** (borne basse en évaluant à la taille maximale possible de la communauté,
+   borne haute en ajoutant la contribution maximale de la queue non vue, par borne de
+   l'union). Nouveaux champs `rarefiedExact` et `rarefiedUpper` ; `QUERY_VERSION` passe à
+   2 et `MIN_QUERY_VERSION` écarte du barème toute ligne v1, non comparable.
+
+**Ce que ça change à l'écran.** Un nouvel état `richnessPending: "precision"` : effort
+d'observation suffisant, mais intervalle trop large (> 5 %, `MAX_RAREFIED_UNCERTAINTY`)
+pour publier un rang. La page le dit comme un défaut de *notre* collecte, réparable en
+relançant la ville avec `--facet-pages` plus haut — pas comme une pauvreté écologique.
+Quand l'intervalle est assez serré pour classer, le chiffre s'affiche précédé d'« au
+moins » et le JSON-LD publie `minValue`/`maxValue` au lieu d'une `value` qui n'existe
+pas. Idem côté EN, mêmes nombres. Le script journalise l'avertissement et la commande
+exacte à rejouer quand une ville tronque.
+
+**Ce qui n'est toujours pas couvert.** Aucune donnée. Les paramètres GBIF restent
+`@unverified` (`geoDistance`, clés taxonomiques des 6 groupes, `iucnRedListCategory`) et
+les noms d'attributs INPN aussi : le selftest valide l'arithmétique et le décodage, pas
+les contrats d'API, qui demandent le réseau. `npm run biodiversity:probe` reste le
+premier geste de la passe locale. Les surfaces restent garées en `page.pending.tsx`,
+`overall` reste `null` faute de la composante zones protégées, et le classement
+`/classements/biodiversite` attend ses ~300 villes mesurables.
 
 ### F63 — Qualité de l'air : passer du modèle à la mesure
 

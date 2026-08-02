@@ -80,7 +80,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ? `${raw.species} espèces recensées autour de ${city.name} sur ${raw.occurrences.toLocaleString("fr-FR")} observations. Richesse ramenée à effort d'observation égal : ${richness.score}/10. Oiseaux, insectes, flore — données GBIF.`
     : richnessPending === "calibration"
       ? `${raw.species} espèces recensées autour de ${city.name} sur ${raw.occurrences.toLocaleString("fr-FR")} observations. Oiseaux, insectes, flore et espaces verts, mesurés dans un rayon de ${raw.radiusKm} km. Données GBIF.`
-      : `Autour de ${city.name}, l'effort d'observation naturaliste est trop faible pour publier un score : ${raw.occurrences.toLocaleString("fr-FR")} observations, ${raw.observers} observateurs. Ce qui est mesuré est affiché tel quel. Données GBIF.`;
+      : richnessPending === "precision"
+        ? `Autour de ${city.name}, la richesse relevée est trop imprécise pour être classée : notre collecte a coupé la liste d'espèces avant la fin. Les effectifs mesurés sont affichés tels quels. Données GBIF.`
+        : `Autour de ${city.name}, l'effort d'observation naturaliste est trop faible pour publier un score : ${raw.occurrences.toLocaleString("fr-FR")} observations, ${raw.observers} observateurs. Ce qui est mesuré est affiché tel quel. Données GBIF.`;
 
   return {
     title: `Biodiversité à ${city.name} · espèces, nature et espaces verts`,
@@ -92,7 +94,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         ? `${raw.species} espèces recensées dans un rayon de ${raw.radiusKm} km · ${richness.score}/10 à effort d'observation égal`
         : richnessPending === "calibration"
           ? `${raw.species} espèces recensées dans un rayon de ${raw.radiusKm} km`
-          : `Effort d'observation insuffisant pour un score — les mesures brutes sont affichées`,
+          : richnessPending === "precision"
+            ? `Richesse encadrée, pas encore assez précise pour un rang — les mesures brutes sont affichées`
+            : `Effort d'observation insuffisant pour un score — les mesures brutes sont affichées`,
     },
   };
 }
@@ -213,7 +217,11 @@ export default async function BiodiversitePage({ params }: Props) {
       },
     },
     variableMeasured: [
-      { "@type": "PropertyValue", name: "Espèces distinctes recensées", value: raw.species },
+      // Un décompte tronqué s'annonce comme un minimum, pas comme une valeur :
+      // `minValue` seul est la façon dont schema.org dit « au moins ».
+      raw.speciesTruncated
+        ? { "@type": "PropertyValue", name: "Espèces distinctes recensées", minValue: raw.species }
+        : { "@type": "PropertyValue", name: "Espèces distinctes recensées", value: raw.species },
       { "@type": "PropertyValue", name: "Observations", value: raw.occurrences },
       { "@type": "PropertyValue", name: "Observateurs distincts", value: raw.observers },
       ...(richness
@@ -221,7 +229,12 @@ export default async function BiodiversitePage({ params }: Props) {
             {
               "@type": "PropertyValue",
               name: `Espèces attendues pour ${raw.rarefiedN} observations (raréfaction)`,
-              value: raw.rarefied,
+              // Encadrée quand la facette espèces a été tronquée : on publie
+              // l'intervalle réellement connu, pas sa borne basse déguisée en
+              // mesure.
+              ...(raw.rarefiedExact
+                ? { value: raw.rarefied }
+                : { minValue: raw.rarefied, maxValue: raw.rarefiedUpper }),
             },
           ]
         : []),
@@ -268,6 +281,15 @@ export default async function BiodiversitePage({ params }: Props) {
                 villes auront été relevées pour que « mieux que N&nbsp;% des autres » veuille dire
                 quelque chose — les mesures, elles, sont déjà là.
               </>
+            ) : richnessPending === "precision" ? (
+              <>
+                {raw.occurrences.toLocaleString("fr-FR")} observations ont été déposées ici par{" "}
+                {raw.observers.toLocaleString("fr-FR")} naturalistes — largement de quoi mesurer. Ce
+                qui manque vient de <strong>notre</strong> côté : la liste d&apos;espèces renvoyée
+                par GBIF a été coupée avant la fin, si bien que la richesse n&apos;est
+                qu&apos;encadrée. Nous préférons ne pas classer la ville sur un intervalle aussi
+                large. Les effectifs, eux, sont exacts et affichés plus bas.
+              </>
             ) : (
               <>
                 Trop peu d&apos;observations naturalistes ont été déposées ici pour publier un score
@@ -299,9 +321,21 @@ export default async function BiodiversitePage({ params }: Props) {
                 <div className="text-sm text-[var(--text-secondary)] max-w-lg leading-relaxed">
                   {SCORE_LEGEND_FR}. Mieux que {richness.percentile} % des{" "}
                   {BIODIVERSITY_MEASURABLE_COUNT} villes suffisamment relevées pour être comparées.
-                  On attend <strong>{richness.value.toLocaleString("fr-FR")} espèces</strong> ici
-                  dans un échantillon de {raw.rarefiedN} observations tirées au hasard — c&apos;est
-                  ce nombre-là, identique pour toutes les villes, qui est comparable.
+                  On attend{" "}
+                  <strong>
+                    {raw.rarefiedExact ? "" : "au moins "}
+                    {richness.value.toLocaleString("fr-FR")} espèces
+                  </strong>{" "}
+                  ici dans un échantillon de {raw.rarefiedN} observations tirées au hasard —
+                  c&apos;est ce nombre-là, identique pour toutes les villes, qui est comparable.
+                  {!raw.rarefiedExact && (
+                    <>
+                      {" "}
+                      La liste d&apos;espèces ayant été coupée à la collecte, ce chiffre est une
+                      borne basse (au plus {raw.rarefiedUpper?.toLocaleString("fr-FR")}) : le rang
+                      réel de {city.name} ne peut être que meilleur.
+                    </>
+                  )}
                 </div>
               </div>
             </div>
@@ -320,6 +354,26 @@ export default async function BiodiversitePage({ params }: Props) {
                 {BIODIVERSITY_MEASURABLE_COUNT} villes sont relevées à ce jour. En publier une
                 maintenant reviendrait à noter une ville d&apos;après l&apos;avancement de notre
                 crawl. Les chiffres ci-dessous, eux, sont vrais dès aujourd&apos;hui.
+              </p>
+            </div>
+          ) : richnessPending === "precision" ? (
+            <div className="rounded-2xl border border-amber-200 bg-amber-50/60 p-6">
+              <div className="text-sm font-semibold text-amber-900 mb-2">
+                Richesse encadrée, pas classée
+              </div>
+              <p className="text-sm text-amber-900/80 leading-relaxed">
+                La raréfaction demande la liste complète des espèces et de leurs effectifs. Pour{" "}
+                {city.name}, cette liste dépasse ce que notre collecte a ramené en une passe : nous
+                savons seulement que le nombre d&apos;espèces attendu pour {raw.rarefiedN}{" "}
+                observations se situe{" "}
+                <strong>
+                  entre {raw.rarefied?.toLocaleString("fr-FR")} et{" "}
+                  {raw.rarefiedUpper?.toLocaleString("fr-FR")}
+                </strong>
+                . Ces deux bornes sont sûres, mais l&apos;écart entre elles suffirait à déplacer la
+                ville dans le classement — le rang dirait alors où notre collecte s&apos;est
+                arrêtée, pas ce qui vit ici. C&apos;est un défaut de notre côté, réparable&nbsp;:
+                la ville sera reprise avec une pagination plus profonde.
               </p>
             </div>
           ) : (
@@ -360,8 +414,10 @@ export default async function BiodiversitePage({ params }: Props) {
               detail={`${raw.species.toLocaleString("fr-FR")} espèces recensées, ramenées à un échantillon commun de ${raw.rarefiedN} observations. Source GBIF, rayon ${raw.radiusKm} km, depuis ${raw.yearFrom}.`}
               missing={
                 richnessPending === "calibration"
-                  ? `${raw.rarefied?.toLocaleString("fr-FR")} espèces attendues pour ${raw.rarefiedN} observations. Le rang sur 10 attend que davantage de villes soient relevées.`
-                  : `${raw.occurrences.toLocaleString("fr-FR")} observations seulement : sous le seuil de ${MIN_OCCURRENCES}, la statistique n'existe pas.`
+                  ? `${raw.rarefied?.toLocaleString("fr-FR")} espèces attendues pour ${raw.rarefiedN} observations${raw.rarefiedExact ? "" : " (borne basse)"}. Le rang sur 10 attend que davantage de villes soient relevées.`
+                  : richnessPending === "precision"
+                    ? `Entre ${raw.rarefied?.toLocaleString("fr-FR")} et ${raw.rarefiedUpper?.toLocaleString("fr-FR")} espèces attendues pour ${raw.rarefiedN} observations : l'intervalle est trop large pour un rang.`
+                    : `${raw.occurrences.toLocaleString("fr-FR")} observations seulement : sous le seuil de ${MIN_OCCURRENCES}, la statistique n'existe pas.`
               }
             />
             <ComponentBar
@@ -639,6 +695,15 @@ export default async function BiodiversitePage({ params }: Props) {
               comparées au même effort. En dessous de {MIN_OCCURRENCES} observations ou{" "}
               {MIN_OBSERVERS} observateurs, on ne publie pas de score : on ne sous-échantillonne pas
               plus que ce qu&apos;on a.
+            </p>
+            <p>
+              <strong className="text-[var(--text-primary)]">La limite du calcul.</strong> La
+              raréfaction a besoin de la liste complète des espèces et de leurs effectifs. Quand
+              cette liste dépasse ce que la collecte ramène en une passe — le cas des villes les
+              mieux relevées — le chiffre exact n&apos;est pas connaissable&nbsp;; on l&apos;encadre
+              alors entre deux bornes sûres et on annonce la borne basse comme telle, précédée
+              d&apos;un « au moins ». Si l&apos;intervalle est trop large pour départager la ville
+              de ses voisines, aucun rang n&apos;est publié.
             </p>
             <p>
               <strong className="text-[var(--text-primary)]">Le périmètre.</strong> Cercle de{" "}

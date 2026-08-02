@@ -19,6 +19,7 @@
     "biodiversity": "node scripts/city-biodiversity.mjs",
     "biodiversity:stats": "node scripts/city-biodiversity.mjs stats",
     "biodiversity:probe": "node scripts/city-biodiversity.mjs probe",
+    "biodiversity:selftest": "node scripts/city-biodiversity.mjs selftest",
     "protected-areas": "node scripts/city-protected-areas.mjs",
     "protected-areas:sources": "node scripts/city-protected-areas.mjs sources",
     "protected-areas:selftest": "node scripts/city-protected-areas.mjs selftest",

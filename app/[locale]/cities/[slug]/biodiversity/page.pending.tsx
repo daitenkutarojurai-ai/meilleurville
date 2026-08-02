@@ -73,7 +73,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ? `${raw.species} species recorded around ${city.name} across ${raw.occurrences.toLocaleString("en-GB")} observations. Richness at equal survey effort: ${richness.score}/10. Birds, insects, plants — GBIF data.`
     : richnessPending === "calibration"
       ? `${raw.species} species recorded around ${city.name} across ${raw.occurrences.toLocaleString("en-GB")} observations. Birds, insects, plants and green space, measured within ${raw.radiusKm} km. GBIF data.`
-      : `Around ${city.name}, naturalist survey effort is too thin to publish a score: ${raw.occurrences.toLocaleString("en-GB")} observations from ${raw.observers} recorders. What is measured is shown as-is. GBIF data.`;
+      : richnessPending === "precision"
+        ? `Around ${city.name}, recorded richness is bracketed too widely to rank: our collection cut the species list short. The measured counts are shown as-is. GBIF data.`
+        : `Around ${city.name}, naturalist survey effort is too thin to publish a score: ${raw.occurrences.toLocaleString("en-GB")} observations from ${raw.observers} recorders. What is measured is shown as-is. GBIF data.`;
 
   return {
     title: `Biodiversity in ${city.name} · species, nature and green space`,
@@ -85,7 +87,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         ? `${raw.species} species recorded within ${raw.radiusKm} km · ${richness.score}/10 at equal survey effort`
         : richnessPending === "calibration"
           ? `${raw.species} species recorded within ${raw.radiusKm} km`
-          : `Survey effort too thin for a score — the raw measurements are shown instead`,
+          : richnessPending === "precision"
+            ? `Richness bracketed, not yet precise enough to rank — the raw measurements are shown instead`
+            : `Survey effort too thin for a score — the raw measurements are shown instead`,
     },
   };
 }
@@ -202,7 +206,11 @@ export default async function BiodiversityPage({ params }: Props) {
       },
     },
     variableMeasured: [
-      { "@type": "PropertyValue", name: "Distinct species recorded", value: raw.species },
+      // A truncated count is published as a minimum, not as a value: minValue
+      // alone is how schema.org says "at least".
+      raw.speciesTruncated
+        ? { "@type": "PropertyValue", name: "Distinct species recorded", minValue: raw.species }
+        : { "@type": "PropertyValue", name: "Distinct species recorded", value: raw.species },
       { "@type": "PropertyValue", name: "Observations", value: raw.occurrences },
       { "@type": "PropertyValue", name: "Distinct recorders", value: raw.observers },
       ...(richness
@@ -210,7 +218,12 @@ export default async function BiodiversityPage({ params }: Props) {
             {
               "@type": "PropertyValue",
               name: `Species expected in ${raw.rarefiedN} observations (rarefaction)`,
-              value: raw.rarefied,
+              // Bracketed when the species facet was truncated: publish the
+              // interval actually known, not its lower bound dressed up as a
+              // measurement. Same numbers as the French twin.
+              ...(raw.rarefiedExact
+                ? { value: raw.rarefied }
+                : { minValue: raw.rarefied, maxValue: raw.rarefiedUpper }),
             },
           ]
         : []),
@@ -257,6 +270,14 @@ export default async function BiodiversityPage({ params }: Props) {
                 cities have been surveyed for &ldquo;better than N% of the others&rdquo; to mean
                 anything — the measurements themselves are already here.
               </>
+            ) : richnessPending === "precision" ? (
+              <>
+                {raw.occurrences.toLocaleString("en-GB")} observations have been submitted here by{" "}
+                {raw.observers.toLocaleString("en-GB")} recorders — ample to measure. What is
+                missing is on <strong>our</strong> side: the species list GBIF returned was cut
+                short, so richness is only bracketed. We would rather not rank the city on an
+                interval that wide. The counts themselves are exact and shown below.
+              </>
             ) : (
               <>
                 Too few naturalist observations have been submitted here to publish a richness
@@ -287,9 +308,21 @@ export default async function BiodiversityPage({ params }: Props) {
                 <div className="text-sm text-[var(--text-secondary)] max-w-lg leading-relaxed">
                   {SCORE_LEGEND_EN}. Better than {richness.percentile}% of the{" "}
                   {BIODIVERSITY_MEASURABLE_COUNT} cities surveyed well enough to be compared. You
-                  would expect <strong>{richness.value.toLocaleString("en-GB")} species</strong> here
-                  in a random sample of {raw.rarefiedN} observations — that figure, identical for
-                  every city, is the one that is comparable.
+                  would expect{" "}
+                  <strong>
+                    {raw.rarefiedExact ? "" : "at least "}
+                    {richness.value.toLocaleString("en-GB")} species
+                  </strong>{" "}
+                  here in a random sample of {raw.rarefiedN} observations — that figure, identical
+                  for every city, is the one that is comparable.
+                  {!raw.rarefiedExact && (
+                    <>
+                      {" "}
+                      Because the species list was cut short at collection, this is a lower bound
+                      (at most {raw.rarefiedUpper?.toLocaleString("en-GB")}): {city.name}&rsquo;s
+                      true rank can only be better.
+                    </>
+                  )}
                 </div>
               </div>
             </div>
@@ -308,6 +341,25 @@ export default async function BiodiversityPage({ params }: Props) {
                 {BIODIVERSITY_MEASURABLE_COUNT} cities have been surveyed so far. Publishing one now
                 would mean scoring a city by how far our crawl has got. The figures below are true
                 today.
+              </p>
+            </div>
+          ) : richnessPending === "precision" ? (
+            <div className="rounded-2xl border border-amber-200 bg-amber-50/60 p-6">
+              <div className="text-sm font-semibold text-amber-900 mb-2">
+                Richness bracketed, not ranked
+              </div>
+              <p className="text-sm text-amber-900/80 leading-relaxed">
+                Rarefaction needs the complete list of species and their counts. For {city.name}{" "}
+                that list runs past what our collection retrieved in one pass, so all we know is
+                that the number of species expected per {raw.rarefiedN} observations falls{" "}
+                <strong>
+                  between {raw.rarefied?.toLocaleString("en-GB")} and{" "}
+                  {raw.rarefiedUpper?.toLocaleString("en-GB")}
+                </strong>
+                . Both bounds are sound, but the gap between them is wide enough to move the city in
+                the ranking — the rank would then report where our collection stopped, not what
+                lives here. This is our shortcoming and it is fixable: the city will be re-run with
+                deeper paging.
               </p>
             </div>
           ) : (
@@ -346,7 +398,9 @@ export default async function BiodiversityPage({ params }: Props) {
               detail={`${raw.species.toLocaleString("en-GB")} species recorded, normalised to a common sample of ${raw.rarefiedN} observations. GBIF, ${raw.radiusKm} km radius, since ${raw.yearFrom}.`}
               missing={
                 richnessPending === "calibration"
-                  ? `${raw.rarefied?.toLocaleString("en-GB")} species expected per ${raw.rarefiedN} observations. The rank out of 10 waits until more cities are surveyed.`
+                  ? `${raw.rarefied?.toLocaleString("en-GB")} species expected per ${raw.rarefiedN} observations${raw.rarefiedExact ? "" : " (lower bound)"}. The rank out of 10 waits until more cities are surveyed.`
+                  : richnessPending === "precision"
+                    ? `Between ${raw.rarefied?.toLocaleString("en-GB")} and ${raw.rarefiedUpper?.toLocaleString("en-GB")} species expected per ${raw.rarefiedN} observations: too wide an interval to rank.`
                   : `Only ${raw.occurrences.toLocaleString("en-GB")} observations: below the ${MIN_OCCURRENCES} floor, the statistic does not exist.`
               }
             />
@@ -605,6 +659,14 @@ export default async function BiodiversityPage({ params }: Props) {
               (Hurlbert rarefaction, 1971), so every city is compared at the same effort. Below{" "}
               {MIN_OCCURRENCES} observations or {MIN_OBSERVERS} recorders we publish no score: you
               cannot subsample more than you have.
+            </p>
+            <p>
+              <strong className="text-[var(--text-primary)]">The limit of the calculation.</strong>{" "}
+              Rarefaction needs the complete list of species and their counts. When that list runs
+              past what one collection pass retrieves — the case for the best-surveyed cities — the
+              exact figure is not knowable; we bracket it between two sound bounds and report the
+              lower one as such, prefixed with &ldquo;at least&rdquo;. If the interval is too wide
+              to separate the city from its neighbours, no rank is published.
             </p>
             <p>
               <strong className="text-[var(--text-primary)]">The perimeter.</strong> A{" "}

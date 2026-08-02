@@ -658,6 +658,22 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
     mesure ; seule une ville non ingérée vaut `null` = « on ne sait pas ». ⚠️ Noms d'attributs
     INPN et gabarits d'URL des fiches sont `@unverified` — l'ingest imprime le champ retenu par
     couche, relire ces lignes au premier run local.
+  - **État au 2026-08-02** : toujours **0/540 villes** sur les deux composantes (egress 403
+    CONNECT retesté). Le run a durci le pipeline GBIF au lieu de collecter :
+    `npm run biodiversity:selftest` (22 contrôles hors ligne, symétrique de
+    `protected-areas:selftest`) a trouvé deux bugs silencieux au premier lancement. ① GBIF
+    renvoie les facettes en `UPPER_SNAKE_CASE` (`SPECIES_KEY`) alors qu'on les demande en
+    camelCase : la comparaison `toLowerCase()` ne tombait jamais en face et **chaque ville
+    aurait enregistré zéro espèce** sans lever d'erreur. Normaliser en ne gardant que lettres
+    et chiffres ; une facette absente lève désormais. ② La raréfaction se calculait sur le
+    vecteur d'abondance **tronqué** par le plafond de pagination, contre sa propre somme —
+    ce qui **surestime la richesse des villes les mieux relevées**, donc le haut du classement
+    (le score est un rang centile sur cette valeur). Désormais : facette complète → exact ;
+    tronquée → encadrement rigoureux (`rarefiedExact`, `rarefiedUpper`), et si l'intervalle
+    dépasse `MAX_RAREFIED_UNCERTAINTY` (5 %) la ville passe en `richnessPending: "precision"`
+    — non classée, la page disant que le défaut est dans *notre* collecte, pas dans la nature.
+    `QUERY_VERSION` = 2 ; `MIN_QUERY_VERSION` écarte du barème toute ligne v1. Ne pas
+    « simplifier » l'encadrement en republiant la borne basse comme une valeur exacte.
 
 - [ ] **F63 — Qualité de l'air : du modèle à la mesure** — la section existe
   (`/villes/[slug]/air` ×540 + EN `air-quality`) mais `lib/air-quality.ts` **calcule
