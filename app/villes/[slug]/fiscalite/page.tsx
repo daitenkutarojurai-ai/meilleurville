@@ -11,6 +11,7 @@ import { deptToSlug } from "@/lib/dept-slug";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Coins, AlertTriangle, Home as HomeIcon, FileText, Info } from "lucide-react";
+import { cityAlternates } from "@/lib/i18n";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -31,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Fiscalité immobilière à ${city.name} · Taxe foncière, THRS, DMTO 2026`,
     description: `Estimation départementale 2026 pour ${city.name} (${city.department}) : taxe foncière (${f.taxeFonciereT3}), THRS, droits de mutation. Données DGFiP.`,
-    alternates: { canonical: `/villes/${slug}/fiscalite` },
+    alternates: cityAlternates("fiscalite", slug),
     openGraph: {
       title: `Fiscalité · ${city.name}`,
       description: `${f.tierLabel} (département ${city.department}). Taxe foncière estimée ${f.taxeFonciereT3}.`,

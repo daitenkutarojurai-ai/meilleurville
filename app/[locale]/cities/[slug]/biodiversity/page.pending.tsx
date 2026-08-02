@@ -25,7 +25,7 @@ import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor, scoreBg } from "@/lib/utils";
 import {
   biodiversityProfile,
@@ -47,8 +47,6 @@ import {
   OSM_CREDIT_EN,
   type SpeciesGroup,
 } from "@/lib/biodiversity";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -80,7 +78,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Biodiversity in ${city.name} · species, nature and green space`,
     description,
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/biodiversity` },
+    alternates: cityAlternatesEn("biodiversity", slug),
     openGraph: {
       title: `Biodiversity in ${city.name}`,
       description: richness

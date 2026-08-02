@@ -9,6 +9,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { internetScore, internetLabel } from "@/lib/internet-score";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { Wifi, MapPin, CheckCircle, ExternalLink, ChevronRight } from "lucide-react";
+import { cityAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -28,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Connexion internet à ${city.name} — fibre, débit, couverture 2026`,
     description: `Qualité de la connexion internet à ${city.name} : couverture fibre, débit estimé, couverture mobile. Score ${score.toFixed(1)}/10 — ${label}. Source : ARCEP 2024.`,
-    alternates: { canonical: `/villes/${slug}/connexion-internet` },
+    alternates: cityAlternates("connexion-internet", slug),
   };
 }
 

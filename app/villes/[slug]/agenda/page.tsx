@@ -9,6 +9,7 @@ import { cityAgenda } from "@/lib/city-agenda";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CalendarDays, ArrowLeft } from "lucide-react";
 import Link from "next/link";
+import { cityAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -26,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Agenda culturel & saisonnier de ${city.name} 2026`,
     description: `Que faire à ${city.name} mois par mois : festivals, marchés, événements nationaux et régionaux, meilleures saisons pour visiter. Calendrier 2026 indicatif.`,
-    alternates: { canonical: `/villes/${slug}/agenda` },
+    alternates: cityAlternates("agenda", slug),
     openGraph: {
       title: `Agenda ${city.name} · que faire mois par mois`,
       description: `Calendrier 2026 indicatif de ${city.name} — événements, marchés, saisons.`,

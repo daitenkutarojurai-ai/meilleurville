@@ -15,6 +15,7 @@ import {
   type AirDimension,
 } from "@/lib/air-quality";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { cityAlternates } from "@/lib/i18n";
 
 // Les libellés de la lib sont au masculin (« Modéré ») ; ici ils qualifient
 // « exposition », qui est féminin. Map locale plutôt que modification de la lib,
@@ -43,7 +44,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Qualité de l'air à ${city.name} · NO2, particules, ozone, pollens`,
     description: `Synthèse de la qualité de l'air à ${city.name} (${city.department}) : NO2 ${AIR_LEVEL_LABEL[a.no2.level].toLowerCase()}, PM2.5 ${AIR_LEVEL_LABEL[a.pm25.level].toLowerCase()}, ozone ${AIR_LEVEL_LABEL[a.ozone.level].toLowerCase()}, pollens ${AIR_LEVEL_LABEL[a.pollen.level].toLowerCase()}. Score ${(10 - a.composite).toFixed(1)}/10 (10 = air le plus pur).`,
-    alternates: { canonical: `/villes/${slug}/air` },
+    alternates: cityAlternates("air", slug),
     openGraph: {
       title: `Qualité de l'air à ${city.name}`,
       description: `NO2 trafic, particules fines, ozone estival, pollens — synthèse pédagogique.`,

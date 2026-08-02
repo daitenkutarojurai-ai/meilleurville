@@ -9,7 +9,7 @@ import { getHousing } from "@/data/housing";
 import { parentSoloFit, fitLabel, minIncomeForT3 } from "@/lib/parent-solo";
 import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 import {
   Users,
   Home,
@@ -21,8 +21,6 @@ import {
   ExternalLink,
 } from "lucide-react";
 import { clampMeta } from "@/lib/brand";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -42,7 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Single parent in ${city.name} — fit score, rent, schools, transit`,
     description: clampMeta(`${city.name} for a single-parent household: fit score ${fit.score.toFixed(1)}/10 (${label}), 3-bedroom rent, public schools, life without a car, minimum estimated income. Honest read, no sugarcoating.`),
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/single-parent` },
+    alternates: cityAlternatesEn("single-parent", slug),
     openGraph: {
       title: `Single parent in ${city.name} — fit ${fit.score.toFixed(1)}/10`,
       description: `What it actually costs and how it actually works to raise a child alone in ${city.name}. Data-first, no clichés.`,

@@ -8,7 +8,7 @@ import { Footer } from "@/components/Footer";
 import { DiscussionCTA } from "@/components/DiscussionCTA";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 import { clampMeta } from "@/lib/brand";
 import {
   cityParks,
@@ -23,8 +23,6 @@ import {
   PARKS_CITY_COUNT,
   type Park,
 } from "@/lib/city-parks";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -48,7 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Parks & green spaces in ${city.name} · ${count} public parks`,
     description: clampMeta(`The ${count} public parks and gardens in ${city.name}, sorted by size${top ? `, starting with ${top.name} (${areaLabel(top)})` : ""}. Playground, accessibility, drinking water — what actually decides a Saturday morning. Data from OpenStreetMap.`),
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/parks` },
+    alternates: cityAlternatesEn("parks", slug),
     openGraph: {
       title: `Parks in ${city.name}`,
       description: `${count} public parks and gardens mapped on OpenStreetMap`,

@@ -15,6 +15,7 @@ import {
   type SportDimension,
 } from "@/lib/sport-leisure";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { cityAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -33,7 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Faire du sport à ${city.name} · équipements, outdoor, clubs`,
     description: `Synthèse de la pratique sportive à ${city.name} (${city.department}) : équipements ${SPORT_LEVEL_LABEL[s.facilities.level].toLowerCase()}, outdoor ${SPORT_LEVEL_LABEL[s.outdoor.level].toLowerCase()}, clubs ${SPORT_LEVEL_LABEL[s.clubs.level].toLowerCase()}, climat ${SPORT_LEVEL_LABEL[s.climate.level].toLowerCase()}. Score ${s.composite}/10.`,
-    alternates: { canonical: `/villes/${slug}/sport` },
+    alternates: cityAlternates("sport", slug),
     openGraph: {
       title: `Faire du sport à ${city.name}`,
       description: `Équipements, cadre outdoor, vie associative et climat — synthèse pédagogique.`,

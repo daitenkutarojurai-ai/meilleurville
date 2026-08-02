@@ -15,6 +15,7 @@ import {
   SYNTHESIS_LEVEL_BG,
 } from "@/lib/city-synthesis";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { cityAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -35,7 +36,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Synthèse complète de ${city.name} · les 8 indicateurs en un coup d'œil`,
     description: `${city.name} (${city.department}) synthèse 8 axes : global ${s.global}/10 (${SYNTHESIS_LEVEL_LABEL[s.level].toLowerCase()}). Force ${topAxis}, tension ${bottomAxis}.`,
-    alternates: { canonical: `/villes/${slug}/synthese` },
+    alternates: cityAlternates("synthese", slug),
     openGraph: {
       title: `Synthèse complète de ${city.name}`,
       description: `Panorama des 8 clusters data en un glance — cadre de vie, environnement, santé, emploi, vélo, sécurité, démographie, services publics.`,

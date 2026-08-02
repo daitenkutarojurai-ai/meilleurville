@@ -5,10 +5,8 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { computeAirQuality, type AirLevel } from "@/lib/air-quality";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -26,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${c.name} air quality — NO₂, PM2.5, ozone, pollen (2026)`,
     description: `Air quality in ${c.name}: nitrogen dioxide, fine particles, ozone and pollen exposure. What the air is actually like to breathe year-round.`,
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/air-quality` },
+    alternates: cityAlternatesEn("air-quality", slug),
   };
 }
 

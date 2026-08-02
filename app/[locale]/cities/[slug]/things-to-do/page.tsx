@@ -9,11 +9,9 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { DiscussionCTA } from "@/components/DiscussionCTA";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getEnGuide } from "@/data/guides-en";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ChevronRight, MapPin, TreePine, Utensils, Music, Bike, Camera, Coffee, Sunset } from "lucide-react";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -110,7 +108,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Things to do in ${city.name} (2026) — activities, days out and local tips`,
     description: `What to do in ${city.name}: nature, food, culture, heritage, neighbourhood life and weekend outings. A data-led read of what the city actually offers.`,
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/things-to-do` },
+    alternates: cityAlternatesEn("things-to-do", slug),
     openGraph: {
       title: `Things to do in ${city.name}`,
       description: `Activities, days out and local tips — what ${city.name} actually offers.`,

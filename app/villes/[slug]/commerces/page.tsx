@@ -16,6 +16,7 @@ import {
 } from "@/lib/commerce";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { clampMeta } from "@/lib/brand";
+import { cityAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -34,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Commerces à ${city.name} · couverture, marchés, centre-ville`,
     description: clampMeta(`Couverture commerciale de ${city.name} (${city.department}) : offre ${COMMERCE_LEVEL_LABEL[c.coverage.level].toLowerCase()}, marchés & proximité, grandes surfaces, vitalité du centre-ville. Score ${c.composite.toFixed(1)}/10 (10 = excellent).`),
-    alternates: { canonical: `/villes/${slug}/commerces` },
+    alternates: cityAlternates("commerces", slug),
     openGraph: {
       title: `Commerces à ${city.name}`,
       description: `Couverture commerciale, marchés, grandes surfaces, centre-ville — synthèse dérivée du profil de la ville.`,

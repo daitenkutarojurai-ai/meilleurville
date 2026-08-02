@@ -16,6 +16,7 @@ import {
 } from "@/lib/natural-risks";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { clampMeta } from "@/lib/brand";
+import { cityAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -34,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Risques naturels à ${city.name} · inondation, sismicité, argile, feux`,
     description: clampMeta(`Synthèse des 4 risques naturels à ${city.name} (${city.department}) : inondation ${RISK_LEVEL_LABEL[r.flood.level].toLowerCase()}, sismicité ${RISK_LEVEL_LABEL[r.seismic.level].toLowerCase()}, argile ${RISK_LEVEL_LABEL[r.clay.level].toLowerCase()}, feu de forêt ${RISK_LEVEL_LABEL[r.wildfire.level].toLowerCase()}. Score composite ${r.composite}/10.`),
-    alternates: { canonical: `/villes/${slug}/risques` },
+    alternates: cityAlternates("risques", slug),
     openGraph: {
       title: `Risques naturels à ${city.name}`,
       description: `Inondation, sismicité, argile, feux de forêt — synthèse pédagogique avant achat ou location.`,

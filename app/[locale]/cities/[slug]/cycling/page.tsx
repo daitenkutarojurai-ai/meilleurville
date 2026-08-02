@@ -5,10 +5,8 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { computeCyclingMobility, type CyclingLevel } from "@/lib/cycling-mobility";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -26,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${c.name} cycling — bike network, terrain, safety (2026)`,
     description: `How bike-friendly is ${c.name}? Cycle network, topography, road safety and year-round usability for everyday cycling.`,
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/cycling` },
+    alternates: cityAlternatesEn("cycling", slug),
   };
 }
 

@@ -5,10 +5,8 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { computeSafetyDeep, type SafetyLevel } from "@/lib/safety-deep";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -26,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${c.name} safety — crime, night safety, by the numbers (2026)`,
     description: `How safe is ${c.name}? Property crime, crimes against persons, night safety — built on SSMSI police statistics, not reputation.`,
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/safety` },
+    alternates: cityAlternatesEn("safety", slug),
   };
 }
 

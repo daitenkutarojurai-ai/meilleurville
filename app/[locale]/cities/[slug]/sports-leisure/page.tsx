@@ -9,11 +9,9 @@ import {
   type SportDimension,
   type SportLevel,
 } from "@/lib/sport-leisure";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -99,7 +97,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Sport & leisure in ${c.name} — facilities, outdoor, clubs (2026)`,
     description: `How sport-friendly is ${c.name}? Municipal facilities, outdoor playground, club scene and year-round climate. Composite ${s.composite}/10 (${LEVEL_EN[s.level].toLowerCase()}).`,
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/sports-leisure` },
+    alternates: cityAlternatesEn("sports-leisure", slug),
     openGraph: {
       title: `Sport & leisure in ${c.name}`,
       description: `Facilities, outdoor, clubs and climate — a pedagogical synthesis.`,

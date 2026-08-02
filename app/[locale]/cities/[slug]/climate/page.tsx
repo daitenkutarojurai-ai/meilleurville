@@ -6,12 +6,10 @@ import { CityPhotoBand } from "@/components/CityPhoto";
 import { cityPhoto } from "@/lib/city-images";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor, sunshineDays } from "@/lib/utils";
 import { nearestStation, distanceToNearestKm, CLIMATE_SOURCE } from "@/lib/climate-normals";
 import { ClimateChart } from "@/components/ClimateChart";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -29,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${c.name} climate — temperatures, sunshine, rainfall (2026)`,
     description: `Climate in ${c.name}: average temperatures, annual sunshine, rainfall, and what it actually feels like to live there year-round.`,
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/climate` },
+    alternates: cityAlternatesEn("climate", slug),
   };
 }
 

@@ -5,10 +5,8 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { computeEmploymentMarket, type JobLevel } from "@/lib/employment-market";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -26,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${c.name} job market — unemployment, dynamism, salaries (2026)`,
     description: `The job market in ${c.name}: local unemployment, business creation, sector mix and median salary. What it's like to find work here.`,
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/employment` },
+    alternates: cityAlternatesEn("employment", slug),
   };
 }
 

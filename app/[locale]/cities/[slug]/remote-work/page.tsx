@@ -8,9 +8,7 @@ import { getHousing } from "@/data/housing";
 import { computeOwnerScores } from "@/lib/owner-scores";
 import { climateZoneFor, transitPassFor } from "@/lib/cost-living";
 import { scoreColor } from "@/lib/utils";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
+import { cityAlternatesEn } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -29,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Working remotely from ${c.name} — fibre, coworking, real cost (2026)`,
     description: `${c.name} for remote work: fibre coverage, quality-of-life score, monthly remote-worker budget and the ideal profile. Built on calibrated city data.`,
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/remote-work` },
+    alternates: cityAlternatesEn("remote-work", slug),
   };
 }
 

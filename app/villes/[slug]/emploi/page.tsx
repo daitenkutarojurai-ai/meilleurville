@@ -16,6 +16,7 @@ import {
 } from "@/lib/employment-market";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { clampMeta } from "@/lib/brand";
+import { cityAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -34,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Emploi & chômage à ${city.name} · marché du travail 2026`,
     description: clampMeta(`Synthèse du marché du travail à ${city.name} (${city.department}) : chômage ${JOB_LEVEL_LABEL[e.unemployment.level].toLowerCase()}, dynamisme ${JOB_LEVEL_LABEL[e.dynamism.level].toLowerCase()}, mix sectoriel ${JOB_LEVEL_LABEL[e.sectorMix.level].toLowerCase()}, salaires ${JOB_LEVEL_LABEL[e.salary.level].toLowerCase()}. Score ${(10 - e.composite).toFixed(1)}/10 (10 = marché dynamique).`),
-    alternates: { canonical: `/villes/${slug}/emploi` },
+    alternates: cityAlternates("emploi", slug),
     openGraph: {
       title: `Emploi à ${city.name}`,
       description: `Taux de chômage, dynamisme entrepreneurial, mix sectoriel, salaire médian. Sources INSEE / DARES / SIRENE.`,

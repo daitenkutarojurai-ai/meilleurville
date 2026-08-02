@@ -5,11 +5,9 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CalendarDays, ArrowLeft } from "lucide-react";
 import { CITIES_SEED } from "@/data/cities-seed";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityAgenda } from "@/lib/city-agenda";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -27,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Annual calendar of events in ${city.name} 2026 | Best Cities in France`,
     description: `What to do in ${city.name} month by month: festivals, markets, national and regional events, best seasons to visit. Indicative 2026 calendar.`,
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/calendar` },
+    alternates: cityAlternatesEn("calendar", slug),
   };
 }
 

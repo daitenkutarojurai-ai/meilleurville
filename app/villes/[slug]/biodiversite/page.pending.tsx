@@ -26,6 +26,7 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { scoreColor, scoreBg } from "@/lib/utils";
+import { cityAlternates } from "@/lib/i18n";
 import {
   biodiversityProfile,
   hasBiodiversityData,
@@ -84,7 +85,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Biodiversité à ${city.name} · espèces, nature et espaces verts`,
     description,
-    alternates: { canonical: `/villes/${slug}/biodiversite` },
+    alternates: cityAlternates("biodiversite", slug),
     openGraph: {
       title: `Biodiversité à ${city.name}`,
       description: richness

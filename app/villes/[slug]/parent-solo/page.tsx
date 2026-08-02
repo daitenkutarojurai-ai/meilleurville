@@ -11,6 +11,7 @@ import { GUIDES } from "@/data/guides";
 import { parentSoloFit, fitLabel, minIncomeForT3 } from "@/lib/parent-solo";
 import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { cityAlternates } from "@/lib/i18n";
 import {
   Users,
   Home,
@@ -40,7 +41,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Parent solo à ${city.name} — score, budget T3, écoles, transports`,
     description: `${city.name} en configuration parent solo : score fit ${fit.score.toFixed(1)}/10 (${label}), loyer T3, écoles publiques, transports sans voiture, budget minimum estimé.`,
-    alternates: { canonical: `/villes/${slug}/parent-solo` },
+    alternates: cityAlternates("parent-solo", slug),
     openGraph: {
       title: `Parent solo à ${city.name} — fit ${fit.score.toFixed(1)}/10`,
       description: `Le vrai calcul pour un parent seul à ${city.name} : coût, transports, écoles, sécurité. Sans misérabilisme, sans « courage ».`,

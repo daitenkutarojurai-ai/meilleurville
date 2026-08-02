@@ -5,10 +5,8 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { computeWaterStress, type WaterLevel } from "@/lib/water-stress";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -26,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${c.name} water stress — droughts, restrictions, supply (2026)`,
     description: `Water stress in ${c.name}: summer restrictions, aquifer health, climate trend and supply security. An increasingly important factor.`,
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/water` },
+    alternates: cityAlternatesEn("water", slug),
   };
 }
 

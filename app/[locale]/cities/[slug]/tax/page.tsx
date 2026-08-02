@@ -6,7 +6,7 @@ import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { fiscalityForCity, TIER_TONE, type FiscaliteTier } from "@/lib/fiscalite";
 import { faqJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn, ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { Coins, AlertTriangle, Home as HomeIcon, FileText, Info } from "lucide-react";
 import { clampMeta } from "@/lib/brand";
 
@@ -75,7 +75,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Property tax in ${city.name} — taxe foncière, second-home tax, transfer duties (2026)`,
     description: clampMeta(`Department-level 2026 estimate for ${city.name} (${city.department}): annual property tax (${en.taxeFonciere}), second-home tax, transfer duties. Based on DGFiP data.`),
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/tax` },
+    alternates: cityAlternatesEn("tax", slug),
   };
 }
 

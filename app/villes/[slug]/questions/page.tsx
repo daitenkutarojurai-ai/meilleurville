@@ -9,6 +9,7 @@ import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityFaq } from "@/lib/city-faq";
 import { HelpCircle, ArrowLeft } from "lucide-react";
 import Link from "next/link";
+import { cityAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -26,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${city.name} — questions fréquentes & réponses 2026`,
     description: `Toutes les questions qu'on se pose avant de vivre à ${city.name} : loyers, sécurité, trajets, climat 2040, écoles, télétravail.`,
-    alternates: { canonical: `/villes/${slug}/questions` },
+    alternates: cityAlternates("questions", slug),
     openGraph: {
       title: `${city.name} — questions fréquentes 2026`,
       description: `13 questions, 13 réponses chiffrées sur ${city.name}.`,

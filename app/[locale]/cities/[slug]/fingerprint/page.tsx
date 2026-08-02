@@ -8,10 +8,8 @@ import { Card } from "@/components/ui/Card";
 import { CityFingerprint } from "@/components/CityFingerprint";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { FINGERPRINT_AXES } from "@/lib/city-fingerprint";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 import { formatScore, scoreColor, scoreLabel } from "@/lib/utils";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -30,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${city.name} city fingerprint · visual signature`,
     description: `A unique geometric signature generated from ${city.name}'s 8 quality-of-life axes (overall score ${score}/10).`,
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/fingerprint` },
+    alternates: cityAlternatesEn("fingerprint", slug),
     openGraph: {
       title: `${city.name} city fingerprint`,
       description: `Visual signature from 8 quality-of-life axes. Overall score ${score}/10.`,

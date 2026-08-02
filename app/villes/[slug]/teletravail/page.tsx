@@ -12,6 +12,7 @@ import { computeOwnerScores } from "@/lib/owner-scores";
 import { climateZoneFor, transitPassFor } from "@/lib/cost-living";
 import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { cityAlternates } from "@/lib/i18n";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -31,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Télétravailler à ${city.name} 2026 · Fibre, coworking, coût réel`,
     description: `${city.name} pour le télétravail : couverture fibre département, score qualité de vie, coût télétravailleur mensuel, profil idéal.`,
-    alternates: { canonical: `/villes/${slug}/teletravail` },
+    alternates: cityAlternates("teletravail", slug),
     openGraph: {
       title: `Télétravailler à ${city.name} · Guide 2026`,
       description: `FTTH, coworking, coût mensuel, profil adapté.`,

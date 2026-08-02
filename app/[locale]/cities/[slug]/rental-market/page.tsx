@@ -7,11 +7,9 @@ import { Clock, Users, TrendingUp, Home } from "lucide-react";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
 import { rentalTension, tensionInfo, tensionLevel } from "@/lib/rental-tension";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { clampMeta } from "@/lib/brand";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -81,7 +79,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Rental market in ${city.name} 2026 — competition, delays, requirements`,
     description: clampMeta(`How hard is it to find a flat in ${city.name}? Market tension score ${tension.toFixed(1)}/10 (${tInfo.shortLabel}), estimated weeks to find, applicants per listing, income rules. Clameur 2024.`),
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/rental-market` },
+    alternates: cityAlternatesEn("rental-market", slug),
   };
 }
 

@@ -9,6 +9,7 @@ import { HonestReviewCard } from "@/components/HonestReviewCard";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { buildHonestReview } from "@/lib/honest-reviews";
+import { cityAlternates } from "@/lib/i18n";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -28,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Avis honnête sur ${city.name} 2026 · Points forts, faiblesses, profils adaptés`,
     description: `Synthèse honnête sur ${city.name} : ce qui marche vraiment, ce qui cloche, pour qui c'est fait.`,
-    alternates: { canonical: `/villes/${slug}/avis-honnete` },
+    alternates: cityAlternates("avis-honnete", slug),
     openGraph: {
       title: `Avis honnête sur ${city.name} · Points forts et faiblesses`,
       description: `Coups de cœur, points de vigilance, profils qui s'y plaisent (ou pas). Synthèse zéro chiffre inventé.`,

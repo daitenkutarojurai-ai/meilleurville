@@ -5,10 +5,8 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -26,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${c.name} cost of living — rent, property, monthly budget (2026)`,
     description: `What it actually costs to live in ${c.name} in 2026: rent for a T2, property prices per m², and a realistic monthly budget.`,
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/cost-of-living` },
+    alternates: cityAlternatesEn("cost-of-living", slug),
   };
 }
 

@@ -5,10 +5,8 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { computeHealthcareAccess, type HealthLevel } from "@/lib/healthcare-access";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -26,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${c.name} healthcare access — GPs, specialists, ER (2026)`,
     description: `Healthcare access in ${c.name}: how easy it is to find a GP, see a specialist, reach emergency care. Built on DREES medical-density data.`,
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/healthcare` },
+    alternates: cityAlternatesEn("healthcare", slug),
   };
 }
 

@@ -8,12 +8,10 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { computeNicheScores } from "@/lib/niche-scores";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { formatScore, scoreColor } from "@/lib/utils";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 type Props = { params: Promise<{ locale: string; slug: string }> };
 
@@ -83,7 +81,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${city.name} — which lifestyle profile fits? Compatibility scores`,
     description: `${city.name} suits ${top2} best. Compatibility scores for 5 profiles: expats, remote workers, pet owners, retirees, students.`,
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/profiles` },
+    alternates: cityAlternatesEn("profiles", slug),
     openGraph: {
       title: `${city.name} — which lifestyle fits?`,
       description: `Compatibility by lifestyle: remote workers, retirees, students, expats, pet owners.`,

@@ -11,6 +11,7 @@ import { cityPortraits } from "@/lib/city-portraits";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { formatScore, scoreColor } from "@/lib/utils";
 import { Users, Laptop, PawPrint, Heart, GraduationCap, MapPin, ChevronRight } from "lucide-react";
+import { cityAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -71,7 +72,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${city.name} pour quel profil ? Compatibilité par style de vie`,
     description: `${city.name} convient particulièrement aux ${top2}. Compatibilité : expats, télétravail, retraités, étudiants.`,
-    alternates: { canonical: `/villes/${slug}/profils` },
+    alternates: cityAlternates("profils", slug),
     openGraph: {
       title: `${city.name} — pour quel profil de vie ?`,
       description: `Compatibilité par style de vie : télétravailleurs, retraités, étudiants, expats, animaux de compagnie.`,

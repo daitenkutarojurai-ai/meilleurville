@@ -12,6 +12,7 @@ import { rentalTension, tensionInfo } from "@/lib/rental-tension";
 import { internetScore, internetLabel } from "@/lib/internet-score";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { Home, Wifi, FileText, MapPin, ChevronRight, AlertCircle } from "lucide-react";
+import { cityAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -30,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `S'installer à ${city.name} — logement, démarches, internet 2026`,
     description: `Guide pratique pour s'installer à ${city.name} : loyers (T2 ${housing ? `${housing.avgRentT2} €/mois` : "estimés"}), tension locative, fibre, fiscalité, démarches administratives.`,
-    alternates: { canonical: `/villes/${slug}/s-installer` },
+    alternates: cityAlternates("s-installer", slug),
     openGraph: {
       title: `S'installer à ${city.name} — guide pratique 2026`,
       description: `Logement, internet, fiscalité, démarches : tout ce qu'il faut savoir avant de s'installer à ${city.name}.`,

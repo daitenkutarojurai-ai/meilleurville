@@ -13,6 +13,7 @@ import { FINGERPRINT_AXES } from "@/lib/city-fingerprint";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { formatScore, scoreColor, scoreLabel } from "@/lib/utils";
 import { clampMeta } from "@/lib/brand";
+import { cityAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -31,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `L'empreinte visuelle de ${city.name} · Signature unique`,
     description: clampMeta(`Une forme géométrique générée à partir des 8 axes de score de ${city.name} (global ${score}/10). Chaque ville française a sa propre empreinte — partage la tienne.`),
-    alternates: { canonical: `/villes/${slug}/empreinte` },
+    alternates: cityAlternates("empreinte", slug),
     openGraph: {
       title: `Empreinte de ${city.name}`,
       description: `Signature visuelle générée à partir des 8 axes de qualité de vie. Score global ${score}/10.`,

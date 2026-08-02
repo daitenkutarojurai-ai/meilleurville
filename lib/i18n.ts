@@ -96,6 +96,63 @@ const EN_TO_FR_SEGMENT: Record<string, string> = Object.fromEntries(
   Object.entries(FR_TO_EN_SEGMENT).map(([fr, en]) => [en, fr])
 );
 
+// City sub-pages do NOT share their slug across locales: the EN twin of
+// /villes/lyon/sante is /cities/lyon/healthcare, not /cities/lyon/sante.
+// Translating only the head segment would advertise ~42 000 EN URLs that don't
+// exist — worse than shipping no hreflang at all — so the full correspondence
+// lives here. Derived from the two route trees (app/villes/[slug]/* and
+// app/[locale]/cities/[slug]/*), 39 pairs, both sides generating the same 540
+// city slugs (parcs/parks are gated on hasParksData on both sides, so their
+// generated sets match too).
+//
+// `overview` (EN) has no FR entry on purpose: its FR counterpart is the city
+// page itself, which already carries its own hreflang pair.
+export const FR_TO_EN_CITY_SUB: Record<string, string> = {
+  "a-faire": "things-to-do",
+  agenda: "calendar",
+  air: "air-quality",
+  "avis-honnete": "honest-review",
+  biodiversite: "biodiversity",
+  bruit: "noise",
+  climat: "climate",
+  "climat-2040": "climate-2040",
+  commerces: "retail",
+  "connexion-internet": "internet-quality",
+  "cout-de-la-vie": "cost-of-living",
+  demographie: "demographics",
+  eau: "water",
+  ecoles: "schools",
+  emploi: "employment",
+  empreinte: "fingerprint",
+  fiscalite: "tax",
+  logement: "housing",
+  "louer-ou-acheter": "own-vs-rent",
+  "mentalite-locale": "local-mindset",
+  parcs: "parks",
+  "parent-solo": "single-parent",
+  profils: "profiles",
+  quartiers: "neighbourhoods",
+  questions: "questions",
+  risques: "natural-risks",
+  "s-installer": "get-settled",
+  saisons: "seasons",
+  sante: "healthcare",
+  securite: "safety",
+  "services-publics": "public-services",
+  sport: "sports-leisure",
+  statistiques: "statistics",
+  synthese: "synthesis",
+  teletravail: "remote-work",
+  "tension-locative": "rental-market",
+  transports: "transport",
+  velo: "cycling",
+  vibe: "vibe",
+};
+
+const EN_TO_FR_CITY_SUB: Record<string, string> = Object.fromEntries(
+  Object.entries(FR_TO_EN_CITY_SUB).map(([fr, en]) => [en, fr])
+);
+
 function langPair(frPath: string, enPath: string): Record<string, string> {
   return {
     "fr-FR": `${ORIGIN_BY_LOCALE.fr}${frPath}`,
@@ -111,7 +168,13 @@ export function hreflangLanguages(frPath: string): Record<string, string> | unde
   const segs = frPath.replace(/^\//, "").split("/");
   const enHead = FR_TO_EN_SEGMENT[segs[0]];
   if (!enHead) return undefined;
-  return langPair(frPath, "/" + [enHead, ...segs.slice(1)].join("/"));
+  const tail = segs.slice(1);
+  if (segs[0] === "villes" && tail.length === 2) {
+    const enSub = FR_TO_EN_CITY_SUB[tail[1]];
+    if (!enSub) return undefined; // unknown sub-page: no hreflang beats a wrong one
+    tail[1] = enSub;
+  }
+  return langPair(frPath, "/" + [enHead, ...tail].join("/"));
 }
 
 // Same, from an EN route path — for the reciprocal hreflang on EN pages.
@@ -119,5 +182,33 @@ export function hreflangLanguagesEn(enPath: string): Record<string, string> | un
   const segs = enPath.replace(/^\//, "").split("/");
   const frHead = EN_TO_FR_SEGMENT[segs[0]];
   if (!frHead) return undefined;
-  return langPair("/" + [frHead, ...segs.slice(1)].join("/"), enPath);
+  const tail = segs.slice(1);
+  if (segs[0] === "cities" && tail.length === 2) {
+    const frSub = EN_TO_FR_CITY_SUB[tail[1]];
+    if (!frSub) return undefined; // e.g. /cities/lyon/overview — EN-only
+    tail[1] = frSub;
+  }
+  return langPair("/" + [frHead, ...tail].join("/"), enPath);
+}
+
+// Ready-made `alternates` for a city sub-page: canonical + the hreflang pair.
+// The canonical strings are exactly what the 79 sub-pages wrote by hand before
+// (FR relative against metadataBase, EN absolute on the EN origin) — the whole
+// point of the helper is that adding `languages` can no longer be forgotten,
+// since Next replaces the layout's `alternates` object wholesale as soon as a
+// page provides one.
+export function cityAlternates(
+  frSub: string,
+  slug: string,
+): { canonical: string; languages: Record<string, string> | undefined } {
+  const frPath = `/villes/${slug}/${frSub}`;
+  return { canonical: frPath, languages: hreflangLanguages(frPath) };
+}
+
+export function cityAlternatesEn(
+  enSub: string,
+  slug: string,
+): { canonical: string; languages: Record<string, string> | undefined } {
+  const enPath = `/cities/${slug}/${enSub}`;
+  return { canonical: `${ORIGIN_BY_LOCALE.en}${enPath}`, languages: hreflangLanguagesEn(enPath) };
 }

@@ -8,7 +8,7 @@ import { getHousing } from "@/data/housing";
 import { rentalTension, tensionInfo } from "@/lib/rental-tension";
 import { getNeighborhoods } from "@/data/neighborhoods";
 import { faqJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn, ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { Home, TrendingUp, MapPin, AlertCircle, ChevronRight } from "lucide-react";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: h
       ? `Studio €${h.avgRentT1}/mo · 1-bed €${h.avgRentT2}/mo · Buy price €${h.avgBuyPriceM2}/m² in ${city.name}. Rental market tension, neighbourhood rents, buy vs rent. Clameur 2024.`
       : `Rental market and housing prices in ${city.name} (${city.department}). Tension score, buy vs rent analysis, neighbourhood breakdown.`,
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/housing` },
+    alternates: cityAlternatesEn("housing", slug),
   };
 }
 

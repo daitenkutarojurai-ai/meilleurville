@@ -10,6 +10,7 @@ import { cityVibe, VIBE_META, topCitiesByVibe } from "@/lib/vibe";
 import type { VibeTone } from "@/lib/vibe";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { formatScore } from "@/lib/utils";
+import { cityAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -38,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Ambiance de ${city.name} · vibe ${meta.label.toLowerCase()} 2026`,
     description: `${city.name} dégage une ambiance ${meta.label.toLowerCase()} : ${meta.desc}.`,
-    alternates: { canonical: `/villes/${slug}/vibe` },
+    alternates: cityAlternates("vibe", slug),
     openGraph: {
       title: `${city.name} — vibe ${meta.emoji} ${meta.label}`,
       description: `${meta.desc}. Score global ${formatScore(city.scores.global)}/10.`,

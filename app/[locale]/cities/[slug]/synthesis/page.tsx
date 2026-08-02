@@ -14,10 +14,8 @@ import {
 } from "@/lib/city-synthesis";
 import type { SynthesisLevel } from "@/lib/city-synthesis";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 import { clampMeta } from "@/lib/brand";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -95,7 +93,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${city.name} — 8-dimension city profile`,
     description: clampMeta(`${city.name} (${city.department}) composite synthesis across 8 dimensions: overall ${s.global.toFixed(1)}/10 (${EN_SYNTHESIS_LABEL[s.level].toLowerCase()}). Strength: ${topAxis}, tension: ${bottomAxis}. ${s.signature}`),
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/synthesis` },
+    alternates: cityAlternatesEn("synthesis", slug),
     openGraph: {
       title: `${city.name} city profile — 8 dimensions`,
       description: `Environment, healthcare, employment, quality of life, cycling, safety, demographics, public services — all in one view.`,

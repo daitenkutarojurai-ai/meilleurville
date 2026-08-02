@@ -4,10 +4,8 @@ import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -25,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${c.name} transport — public transit, cycling, walkability (2026)`,
     description: `Public transport, cycling infrastructure and walkability in ${c.name}. What it's like getting around without a car.`,
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/transport` },
+    alternates: cityAlternatesEn("transport", slug),
   };
 }
 

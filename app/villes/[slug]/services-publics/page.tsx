@@ -16,6 +16,7 @@ import {
 } from "@/lib/public-services";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { clampMeta } from "@/lib/brand";
+import { cityAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -34,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Services publics à ${city.name} · écoles, Poste, mairie, médiathèque`,
     description: clampMeta(`Accès aux services publics à ${city.name} (${city.department}) : écoles ${SERVICES_LEVEL_LABEL[s.schools.level].toLowerCase()}, La Poste ${SERVICES_LEVEL_LABEL[s.postOffice.level].toLowerCase()}, mairie ${SERVICES_LEVEL_LABEL[s.cityHall.level].toLowerCase()}, médiathèque ${SERVICES_LEVEL_LABEL[s.library.level].toLowerCase()}. Score ${(10 - s.composite).toFixed(1)}/10 (10 = maillage complet).`),
-    alternates: { canonical: `/villes/${slug}/services-publics` },
+    alternates: cityAlternates("services-publics", slug),
     openGraph: {
       title: `Services publics à ${city.name}`,
       description: `Écoles, médiathèque, La Poste, mairie — synthèse DEPP / BNF / La Poste / France Services.`,

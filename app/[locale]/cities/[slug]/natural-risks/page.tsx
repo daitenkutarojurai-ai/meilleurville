@@ -5,10 +5,8 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { computeNaturalRisks, type RiskLevel } from "@/lib/natural-risks";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -26,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${c.name} natural risks — flood, seismic, clay, wildfire (2026)`,
     description: `Natural-risk exposure in ${c.name}: flooding, seismic activity, clay-shrinkage subsidence and wildfire. What to check before you buy.`,
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/natural-risks` },
+    alternates: cityAlternatesEn("natural-risks", slug),
   };
 }
 

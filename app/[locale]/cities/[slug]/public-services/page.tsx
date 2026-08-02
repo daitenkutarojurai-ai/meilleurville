@@ -5,10 +5,8 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { computePublicServices, type ServicesLevel } from "@/lib/public-services";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -26,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${c.name} public services — schools, library, post office (2026)`,
     description: `Public-service coverage in ${c.name}: schools, library, post office and town hall. How well the everyday admin of life is served.`,
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/public-services` },
+    alternates: cityAlternatesEn("public-services", slug),
   };
 }
 

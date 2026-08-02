@@ -15,6 +15,7 @@ import {
   type WaterDimension,
 } from "@/lib/water-stress";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { cityAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -33,7 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Stress hydrique à ${city.name} · sécheresse, restrictions, nappes`,
     description: `Synthèse du stress hydrique à ${city.name} (${city.department}) : restrictions sécheresse ${WATER_LEVEL_LABEL[s.restrictions.level].toLowerCase()}, nappes ${WATER_LEVEL_LABEL[s.aquifer.level].toLowerCase()}, climat ${WATER_LEVEL_LABEL[s.climate.level].toLowerCase()}, eau potable ${WATER_LEVEL_LABEL[s.supply.level].toLowerCase()}. Score ${s.composite}/10.`,
-    alternates: { canonical: `/villes/${slug}/eau` },
+    alternates: cityAlternates("eau", slug),
     openGraph: {
       title: `Stress hydrique à ${city.name}`,
       description: `Restrictions sécheresse, état des nappes, climat estival, alimentation eau potable.`,

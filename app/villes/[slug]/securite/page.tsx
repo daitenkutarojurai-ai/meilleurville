@@ -16,6 +16,7 @@ import {
 } from "@/lib/safety-deep";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { clampMeta } from "@/lib/brand";
+import { cityAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -34,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Sécurité à ${city.name} · détail SSMSI 2026`,
     description: clampMeta(`Synthèse SSMSI de la sécurité à ${city.name} (${city.department}) : atteintes biens ${SAFETY_LEVEL_LABEL[s.property.level].toLowerCase()}, personnes ${SAFETY_LEVEL_LABEL[s.persons.level].toLowerCase()}, nuit ${SAFETY_LEVEL_LABEL[s.nocturnal.level].toLowerCase()}, VFFS ${SAFETY_LEVEL_LABEL[s.vffs.level].toLowerCase()}. Score ${(10 - s.composite).toFixed(1)}/10 (10 = ville la plus sûre).`),
-    alternates: { canonical: `/villes/${slug}/securite` },
+    alternates: cityAlternates("securite", slug),
     openGraph: {
       title: `Sécurité à ${city.name} · détail SSMSI`,
       description: `Biens, personnes, nuit, VFFS — décomposition pédagogique.`,

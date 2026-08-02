@@ -16,6 +16,7 @@ import {
 } from "@/lib/healthcare-access";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { clampMeta } from "@/lib/brand";
+import { cityAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -34,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Désert médical à ${city.name} ? · accès aux soins 2026`,
     description: clampMeta(`Synthèse de l'accès aux soins à ${city.name} (${city.department}) : médecins ${HEALTH_LEVEL_LABEL[h.generalistes.level].toLowerCase()}, spécialistes ${HEALTH_LEVEL_LABEL[h.specialistes.level].toLowerCase()}, urgences ${HEALTH_LEVEL_LABEL[h.urgences.level].toLowerCase()}, pharmacies ${HEALTH_LEVEL_LABEL[h.pharmacies.level].toLowerCase()}. Score composite ${(10 - h.composite).toFixed(1)}/10 (10 = excellent accès).`),
-    alternates: { canonical: `/villes/${slug}/sante` },
+    alternates: cityAlternates("sante", slug),
     openGraph: {
       title: `Accès aux soins à ${city.name}`,
       description: `Médecins, spécialistes, urgences, pharmacies — synthèse pédagogique DREES / ARS.`,

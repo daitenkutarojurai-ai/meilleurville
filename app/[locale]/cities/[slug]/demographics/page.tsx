@@ -16,10 +16,8 @@ import {
   seniorShare,
   youthShare,
 } from "@/lib/city-population";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -37,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${c.name} demographics — ageing, growth, renewal (2026)`,
     description: `Demographic trend in ${c.name}: ageing, young-adult presence, population trajectory and natural renewal. Is the city growing or quietly emptying?`,
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/demographics` },
+    alternates: cityAlternatesEn("demographics", slug),
   };
 }
 

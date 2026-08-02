@@ -9,10 +9,8 @@ import { fiscalityForCity } from "@/lib/fiscalite";
 import { rentalTension, tensionInfo } from "@/lib/rental-tension";
 import { internetScore, internetLabel } from "@/lib/internet-score";
 import { faqJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 import { Home, Wifi, FileText, MapPin, ChevronRight, AlertCircle } from "lucide-react";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -31,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Getting settled in ${city.name} — housing, internet, admin 2026`,
     description: `Practical guide to moving to ${city.name}: rent levels (${housing ? `T2 ${housing.avgRentT2} €/month` : "estimated"}), rental market tension, broadband, taxes, and admin steps.`,
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/get-settled` },
+    alternates: cityAlternatesEn("get-settled", slug),
     openGraph: {
       title: `Getting settled in ${city.name} — practical guide 2026`,
       description: `Rents, broadband, property tax, and the five admin steps you need on arrival in ${city.name}.`,

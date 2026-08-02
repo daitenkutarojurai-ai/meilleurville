@@ -11,6 +11,7 @@ import { Card } from "@/components/ui/Card";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getNeighborhoods } from "@/data/neighborhoods";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { cityAlternates } from "@/lib/i18n";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -30,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Quartiers de ${city.name} · Quel quartier choisir ?`,
     description: `Comparatif des quartiers de ${city.name} : sécurité, loyers, transports, ambiance. Trouvez le quartier fait pour vous.`,
-    alternates: { canonical: `/villes/${slug}/quartiers` },
+    alternates: cityAlternates("quartiers", slug),
   };
 }
 

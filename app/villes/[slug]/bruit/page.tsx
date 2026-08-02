@@ -15,6 +15,7 @@ import {
   type NoiseDimension,
 } from "@/lib/noise-exposure";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { cityAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -33,7 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Bruit à ${city.name} · routier, aérien, ferroviaire, nocturne`,
     description: `Synthèse du bruit à ${city.name} (${city.department}) : routier ${NOISE_LEVEL_LABEL[n.road.level].toLowerCase()}, aérien ${NOISE_LEVEL_LABEL[n.aircraft.level].toLowerCase()}, ferroviaire ${NOISE_LEVEL_LABEL[n.rail.level].toLowerCase()}, nocturne ${NOISE_LEVEL_LABEL[n.urbanNight.level].toLowerCase()}. Score composite ${n.composite}/10.`,
-    alternates: { canonical: `/villes/${slug}/bruit` },
+    alternates: cityAlternates("bruit", slug),
     openGraph: {
       title: `Bruit à ${city.name}`,
       description: `Routier, aérien, ferroviaire, nocturne — synthèse acoustique CBS / OMS.`,

@@ -11,9 +11,7 @@ import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getNeighborhoods, type Neighborhood } from "@/data/neighborhoods";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
+import { cityAlternatesEn } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -32,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Neighbourhoods of ${city.name} · Which district to choose? 2026`,
     description: `Compare ${hoods.length || "all"} neighbourhoods in ${city.name}: safety, rents, transport, and atmosphere. Find the district that matches your lifestyle.`,
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/neighbourhoods` },
+    alternates: cityAlternatesEn("neighbourhoods", slug),
     openGraph: {
       title: `${city.name} — neighbourhoods compared`,
       description: `Safety, rents, transport and vibe for each district. Which neighbourhood fits you?`,

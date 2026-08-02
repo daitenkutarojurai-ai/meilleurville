@@ -7,11 +7,9 @@ import { ThumbsUp, ThumbsDown, CheckCircle2, Sparkles } from "lucide-react";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { computeOwnerScores } from "@/lib/owner-scores";
 import { buildHonestReview } from "@/lib/honest-reviews";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 import { CITIES_COUNT } from "@/lib/site-stats";
 import { clampMeta } from "@/lib/brand";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -30,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Honest review of ${city.name} 2026 — strengths, weaknesses, who it suits`,
     description: clampMeta(`What actually works about ${city.name}, what doesn't, and which profiles fit. Derived from 8 seed axes + 10 owner scores + rankings across ${CITIES_COUNT} French cities.`),
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/honest-review` },
+    alternates: cityAlternatesEn("honest-review", slug),
   };
 }
 

@@ -11,6 +11,7 @@ import { computeEmploymentMarket } from "@/lib/employment-market";
 import { computeDemography } from "@/lib/demography";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { formatNumber } from "@/lib/utils";
+import { cityAlternates } from "@/lib/i18n";
 import {
   cityIncome,
   incomeRank,
@@ -114,7 +115,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Statistiques de ${city.name} : population, salaire, chômage`.slice(0, 60),
     description: `Chiffres-clés de ${city.name} (${city.department}) : ${pop}, niveau de vie médian, taux de pauvreté, chômage et structure d'âge. Sources INSEE.`.slice(0, 160),
-    alternates: { canonical: `/villes/${slug}/statistiques` },
+    alternates: cityAlternates("statistiques", slug),
     openGraph: {
       title: `Statistiques de ${city.name}`,
       description: `Population, niveau de vie médian, chômage, structure d'âge — synthèse INSEE ${bucket.label}.`,

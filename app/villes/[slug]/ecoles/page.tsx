@@ -8,6 +8,7 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getEducation, educationTags, type Education } from "@/lib/education";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { cityAlternates } from "@/lib/i18n";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -63,7 +64,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Écoles & études à ${city.name} · Université, CPGE, écoles`,
     description: desc,
-    alternates: { canonical: `/villes/${slug}/ecoles` },
+    alternates: cityAlternates("ecoles", slug),
     openGraph: { title: `Écoles à ${city.name}`, description: desc },
   };
 }

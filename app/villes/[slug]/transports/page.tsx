@@ -9,6 +9,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { getTransit, transitTags, type Transit } from "@/lib/transit";
 import { commuteEstimate } from "@/lib/commute-estimate";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { cityAlternates } from "@/lib/i18n";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -35,7 +36,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Transports à ${city.name} · Métro, tram, TGV, vélo`,
     description: `Réseau de transports à ${city.name} : ${summary} Sans-voiture, accessibilité.`,
-    alternates: { canonical: `/villes/${slug}/transports` },
+    alternates: cityAlternates("transports", slug),
     openGraph: {
       title: `Transports à ${city.name}`,
       description: summary,

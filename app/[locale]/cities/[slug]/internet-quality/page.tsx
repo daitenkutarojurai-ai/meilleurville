@@ -6,10 +6,8 @@ import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { internetScore, internetLabel } from "@/lib/internet-score";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 import { Wifi, MapPin, CheckCircle, ExternalLink, ChevronRight } from "lucide-react";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -29,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Broadband & internet quality in ${city.name} 2026`,
     description: `Internet quality in ${city.name}: fibre coverage, estimated speeds, mobile network. Score ${score.toFixed(1)}/10 — ${label}. Source: ARCEP 2024.`,
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/internet-quality` },
+    alternates: cityAlternatesEn("internet-quality", slug),
   };
 }
 

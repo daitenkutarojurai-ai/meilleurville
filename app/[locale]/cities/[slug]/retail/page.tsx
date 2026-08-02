@@ -15,9 +15,7 @@ import {
   type CommerceLevel,
 } from "@/lib/commerce";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
+import { cityAlternatesEn } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -95,7 +93,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Shops in ${city.name} — retail coverage & markets`.slice(0, 60),
     description: `Retail coverage in ${city.name} (${city.department}): ${levelWord} offer, markets & proximity, big-box, downtown vitality. Score ${c.composite.toFixed(1)}/10.`.slice(0, 160),
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/retail` },
+    alternates: cityAlternatesEn("retail", slug),
     openGraph: {
       title: `Shops in ${city.name}`,
       description: `Retail coverage, markets, big-box, downtown vitality — synthesis derived from the city profile.`,

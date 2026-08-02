@@ -12,6 +12,7 @@ import { rentalTension, tensionInfo, TENSION_LABEL } from "@/lib/rental-tension"
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { Home, TrendingUp, MapPin, AlertCircle, ChevronRight } from "lucide-react";
 import { scoreColor, scoreLabel } from "@/lib/utils";
+import { cityAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -30,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Logement à ${city.name} — loyers, prix, tension locative 2026`,
     description: `Loyers T1/T2/T3 et prix d'achat au m² à ${city.name}. Tension du marché, quartiers abordables, comparaison location vs achat. Données Clameur 2024.`,
-    alternates: { canonical: `/villes/${slug}/logement` },
+    alternates: cityAlternates("logement", slug),
     openGraph: {
       title: `Logement à ${city.name} · Loyers et marché immobilier 2026`,
       description: h

@@ -5,11 +5,9 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Sparkles, ArrowLeft, Users, Coffee, Mountain, Heart, Globe2 } from "lucide-react";
 import { CITIES_SEED } from "@/data/cities-seed";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityMindset } from "@/lib/city-mindset";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -27,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Local mindset of ${city.name} 2026 — vibe, sociability, tempo`,
     description: `What it actually feels like to live in ${city.name} socially: tempo, openness, café culture, civic life, regional archetype. 2026 derived synthesis.`,
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/local-mindset` },
+    alternates: cityAlternatesEn("local-mindset", slug),
   };
 }
 

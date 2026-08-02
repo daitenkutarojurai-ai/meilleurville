@@ -5,7 +5,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { projectClimate2040, type MacroRegion } from "@/lib/climate-2040";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn, ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { clampMeta } from "@/lib/brand";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${city.name} climate 2040 — heat days, tropical nights, projections`,
     description: clampMeta(`Climate projection for ${city.name} at 2040 horizon${p.projectedJulyC ? `: July avg ${p.projectedJulyC}°C (+${p.macroRegion.deltaJulyC}°C vs today), ${p.projectedDays30C} days above 30°C expected.` : "."} Based on Météo-France ARPEGE regional scenarios.`),
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/climate-2040` },
+    alternates: cityAlternatesEn("climate-2040", slug),
   };
 }
 

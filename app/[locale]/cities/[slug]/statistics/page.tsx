@@ -7,7 +7,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { computeEmploymentMarket } from "@/lib/employment-market";
 import { computeDemography } from "@/lib/demography";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 import {
   cityIncome,
   incomeRank,
@@ -24,8 +24,6 @@ import {
   populationTrend,
   seniorShare,
 } from "@/lib/city-population";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -127,7 +125,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${city.name} statistics — population, wages, unemployment`.slice(0, 60),
     description: `Key figures for ${city.name} (${city.department}): ${pop}, département median net wage, unemployment rate, age structure and demographic trajectory. INSEE sources.`.slice(0, 160),
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/statistics` },
+    alternates: cityAlternatesEn("statistics", slug),
     openGraph: {
       title: `${city.name} statistics`,
       description: `Population, median wage, unemployment, age structure — INSEE synthesis ${bucket.label}.`,

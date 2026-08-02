@@ -130,6 +130,19 @@ Distribution mean ≈ 5.42. Penalties:
   `alternates: { canonical: "/<route>/<slug>" }`. Root layout provides the
   global default via `metadataBase`; page-level canonical overrides are needed
   for villes, classements, guides, regions, departements, comparer, quartiers, climat.
+- **hreflang**: returning `alternates` at page level **replaces the layout's
+  object wholesale**, so a page that sets only `canonical` silently drops the
+  `languages` map — that is how 94 % of the site lost its hreflang (audit
+  2026-08-02 §2.1). A route with an exact twin in the other locale must return
+  `languages` too. City sub-pages don't hand-roll it: they call
+  `cityAlternates(frSub, slug)` / `cityAlternatesEn(enSub, slug)` from
+  `lib/i18n.ts`, which carry canonical **and** hreflang. A new city sub-page
+  therefore means one entry in `FR_TO_EN_CITY_SUB` and a run of
+  `npm run hreflang:check` (it fails if the twin route is missing, is in a
+  different activation state, or the file skipped the helper). Sub-slugs are
+  **not** shared across locales (`sante` ↔ `healthcare`): never derive the EN
+  URL by translating the head segment alone — a hreflang pointing at a 404 is
+  worse than none.
 - **Brand name**: **`MaVilleIdéale`** (FR) / `BestCitiesInFrance` (EN) — with the
   final `e` and the accent, matching the domain and the transactional emails.
   The accent-less `MaVilleIdeal` was purged 2026-07-27 across 148 occurrences;

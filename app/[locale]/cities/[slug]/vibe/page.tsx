@@ -9,12 +9,10 @@ import { cityVibe, VIBE_META, topCitiesByVibe } from "@/lib/vibe";
 import type { VibeTone } from "@/lib/vibe";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { formatScore } from "@/lib/utils";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 type Props = { params: Promise<{ locale: string; slug: string }> };
 
@@ -73,7 +71,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${city.name} vibe — ${meta.label} city atmosphere`,
     description: `${city.name} has a ${meta.label.toLowerCase()} atmosphere: ${meta.desc}`,
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/vibe` },
+    alternates: cityAlternatesEn("vibe", slug),
     openGraph: {
       title: `${city.name} vibe: ${meta.emoji} ${meta.label}`,
       description: `${meta.desc} Score ${formatScore(city.scores.global)}/10.`,

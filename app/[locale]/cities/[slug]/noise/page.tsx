@@ -5,10 +5,8 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { computeNoiseExposure, type NoiseLevel } from "@/lib/noise-exposure";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -26,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${c.name} noise — road, air, rail, nightlife (2026)`,
     description: `Noise exposure in ${c.name}: traffic, aircraft, rail and night-time urban noise. How quiet it actually is to live here.`,
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/noise` },
+    alternates: cityAlternatesEn("noise", slug),
   };
 }
 

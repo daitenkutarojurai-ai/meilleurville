@@ -5,11 +5,9 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { HelpCircle, ArrowLeft } from "lucide-react";
 import { CITIES_SEED } from "@/data/cities-seed";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { cityAlternatesEn } from "@/lib/i18n";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityFaq } from "@/lib/city-faq";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -27,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${city.name} — frequently asked questions 2026 | Best Cities in France`,
     description: `Everything to know before moving to ${city.name}: rents, safety, commute, 2040 climate, schools, remote work. Data-grounded 2026 answers.`,
-    alternates: { canonical: `${EN_BASE}/cities/${slug}/questions` },
+    alternates: cityAlternatesEn("questions", slug),
     openGraph: {
       title: `${city.name} — FAQ 2026`,
       description: `13 questions, 13 data-grounded answers about ${city.name}.`,

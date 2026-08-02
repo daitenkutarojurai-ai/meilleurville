@@ -12,6 +12,7 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { sunshineDays } from "@/lib/utils";
 import { nearestStation, distanceToNearestKm, CLIMATE_SOURCE } from "@/lib/climate-normals";
 import { ClimateChart, type MonthNormal } from "@/components/ClimateChart";
+import { cityAlternates } from "@/lib/i18n";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -143,7 +144,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Climat de ${city.name} · ${climate.label}, températures, ensoleillement`,
     description: `Climat ${climate.label.toLowerCase()} à ${city.name} : ${city.avgTempJuly ?? "–"} °C en juillet, ${city.avgTempJanuary ?? "–"} °C en janvier, ${sunshineDays(city.sunshinedays) ?? "–"} jours de soleil par an. Quand y aller, à quoi s'attendre.`,
-    alternates: { canonical: `/villes/${slug}/climat` },
+    alternates: cityAlternates("climat", slug),
     openGraph: {
       title: `Climat de ${city.name} · ${climate.label}`,
       description: `${sunshineDays(city.sunshinedays) ?? "–"} j de soleil · ${city.avgTempJuly ?? "–"}/${city.avgTempJanuary ?? "–"} °C juillet/janvier`,

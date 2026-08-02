@@ -7,6 +7,7 @@
     "build": "next build",
     "postbuild": "find out -name '*.txt' ! -name robots.txt -delete 2>/dev/null || true",
     "lint": "eslint",
+    "hreflang:check": "node scripts/check-hreflang.mjs",
     "cf:dev": "wrangler dev",
     "cf:deploy": "wrangler deploy",
     "photos": "node scripts/commune-images.mjs all",
