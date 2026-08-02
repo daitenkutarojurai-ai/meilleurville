@@ -15,3 +15,4 @@ Une ligne par run de l'agent de maillage. Format :
 - 2026-07-26 app/red-flags/villes-manque-de-creches/page.tsx (5 liens ajoutés)
 - 2026-07-28 app/parent-solo/page.tsx (5 liens ajoutés)
 - 2026-07-30 app/villes-qui-grandissent/page.tsx (5 liens ajoutés)
+- 2026-08-02 app/red-flags/villes-pauvrete-elevee/page.tsx (5 liens ajoutés)

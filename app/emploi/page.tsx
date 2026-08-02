@@ -276,6 +276,15 @@ export default function EmploymentHubPage() {
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Convertir entre villes</div>
             </Card>
           </Link>
+          <Link href="/red-flags/villes-pauvrete-elevee" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">💸</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">Pauvreté monétaire</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">
+                L&apos;envers du marché de l&apos;emploi local, mesuré par l&apos;Insee
+              </div>
+            </Card>
+          </Link>
         </div>
       </section>
 

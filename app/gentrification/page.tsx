@@ -78,7 +78,13 @@ export default function GentrificationIndex() {
               quelles villes gagnent réellement des habitants
             </Link>{" "}
             — une commune qui gentrifie sans gagner personne raconte une autre histoire
-            qu&apos;une commune en pleine croissance.
+            qu&apos;une commune en pleine croissance. Symétriquement, le point de départ
+            compte autant que la pente : une intensification qui démarre dans un{" "}
+            <Link href="/red-flags/villes-pauvrete-elevee" className="text-[var(--accent)] hover:underline">
+              bassin où le taux de pauvreté Insee dépasse 22 %
+            </Link>{" "}
+            ne produit pas les mêmes effets qu&apos;une intensification en tissu déjà
+            aisé — à vérifier ville par ville avant d&apos;en tirer une conclusion.
           </p>
           <p className="text-xs text-[var(--text-tertiary)]">
             Tous les scores sont en proxy v0 (dérivés du seed actuel + housing). Sources réelles à

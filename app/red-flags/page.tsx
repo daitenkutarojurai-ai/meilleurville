@@ -197,6 +197,19 @@ export default function RedFlagsPage() {
               loyer T3 moyen et le revenu net minimum estimé par ville — les
               red flags budget-énergie et crèche s&apos;y lisent en creux.
             </p>
+            <p className="mt-2 text-sm text-[var(--text-secondary)]">
+              Le prix au m² très en dessous du marché régional a presque toujours une
+              explication, et elle est mesurée : le classement des{" "}
+              <Link href="/red-flags/villes-pauvrete-elevee" className="text-[var(--accent)] hover:underline">
+                villes où la pauvreté monétaire pèse au quotidien
+              </Link>{" "}
+              retient les communes ≥ 20 000 hab. dont le taux Insee Filosofi 2021 dépasse
+              22 %, contre 14,4 % de moyenne nationale. Ce n&apos;est ni un verdict sur les
+              habitants ni un pronostic de trajectoire — c&apos;est le chiffre qui structure
+              la carte scolaire, l&apos;offre commerciale de proximité et l&apos;équilibre du
+              parc locatif du bassin, et que l&apos;annonce remplace par « quartier en
+              pleine reconversion ».
+            </p>
           </div>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 auto-rows-fr">
             {RED_FLAG_THEMES.map((t) => (

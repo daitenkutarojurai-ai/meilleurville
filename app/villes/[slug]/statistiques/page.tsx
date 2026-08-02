@@ -335,7 +335,15 @@ export default async function StatistiquesPage({ params }: Props) {
                   <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
                     Part des habitants vivant sous 60 % du niveau de vie médian
                     national. Ici, un chiffre élevé est mauvais. Moyenne
-                    nationale : 14,4 %.
+                    nationale : 14,4 %. Pour situer ce taux à l&apos;échelle du
+                    pays, voir les{" "}
+                    <Link
+                      href="/red-flags/villes-pauvrete-elevee"
+                      className="text-[var(--accent)] hover:underline"
+                    >
+                      villes où la pauvreté monétaire dépasse 22 %
+                    </Link>
+                    .
                   </p>
                 </div>
               )}

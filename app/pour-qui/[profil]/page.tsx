@@ -317,6 +317,39 @@ export default async function ProfilePage({ params }: Props) {
           </section>
         )}
 
+        {/* Poverty-rate counterpart — visible for the two profiles that shop on
+            price per m² and therefore land, by construction, on the cheapest
+            bassins. The Filosofi rate is the one measured figure that explains
+            a price gap the listing describes as « quartier en reconversion ». */}
+        {["primo-accedants", "investisseurs-locatifs"].includes(profile.slug) && (
+          <section>
+            <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+              Le pendant à vérifier — tissu social du bassin
+            </h3>
+            <Link href="/red-flags/villes-pauvrete-elevee" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl" aria-hidden>💸</span>
+                  <div>
+                    <p className="font-semibold text-[var(--text-primary)]">
+                      Villes où la pauvreté monétaire pèse au quotidien
+                    </p>
+                    <p className="text-xs text-[var(--text-secondary)] mt-1">
+                      Chercher d&apos;abord le prix au m² conduit mécaniquement vers les
+                      bassins les moins chers — et l&apos;écart de prix a une contrepartie
+                      mesurée. Ce classement retient les communes ≥ 20 000 hab. dont le
+                      taux de pauvreté Insee Filosofi 2021 dépasse 22 %, contre 14,4 % de
+                      moyenne nationale. Ni verdict sur les habitants ni pronostic de
+                      trajectoire : le chiffre qui structure la carte scolaire, le
+                      commerce de proximité et la solvabilité du parc locatif.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+          </section>
+        )}
+
         {/* Coastal counterpart — visible only for the littoral profile */}
         {profile.slug === "amateurs-de-littoral" && (
           <section>
