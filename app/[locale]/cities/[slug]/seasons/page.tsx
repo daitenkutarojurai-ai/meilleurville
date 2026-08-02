@@ -10,6 +10,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { seasonalStats, type SeasonStats } from "@/lib/seasons";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { clampMeta } from "@/lib/brand";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -28,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   return {
     title: `Living in ${city.name} season by season · Climate & tourism 2026`,
-    description: `What's ${city.name} like in spring, summer, autumn, winter? Temperatures, sunshine hours, rainy days and tourist crowd levels — four seasons, four realities.`,
+    description: clampMeta(`What's ${city.name} like in spring, summer, autumn, winter? Temperatures, sunshine hours, rainy days and tourist crowd levels — four seasons, four realities.`),
     alternates: { canonical: `${EN_BASE}/cities/${slug}/seasons` },
     openGraph: {
       title: `${city.name} — season by season`,

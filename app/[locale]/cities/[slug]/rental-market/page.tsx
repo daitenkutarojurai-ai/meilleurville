@@ -9,6 +9,7 @@ import { getHousing } from "@/data/housing";
 import { rentalTension, tensionInfo, tensionLevel } from "@/lib/rental-tension";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { clampMeta } from "@/lib/brand";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -79,7 +80,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const tInfo = tensionInfo(tension);
   return {
     title: `Rental market in ${city.name} 2026 — competition, delays, requirements`,
-    description: `How hard is it to find a flat in ${city.name}? Market tension score ${tension.toFixed(1)}/10 (${tInfo.shortLabel}), estimated weeks to find, applicants per listing, income rules. Clameur 2024.`,
+    description: clampMeta(`How hard is it to find a flat in ${city.name}? Market tension score ${tension.toFixed(1)}/10 (${tInfo.shortLabel}), estimated weeks to find, applicants per listing, income rules. Clameur 2024.`),
     alternates: { canonical: `${EN_BASE}/cities/${slug}/rental-market` },
   };
 }

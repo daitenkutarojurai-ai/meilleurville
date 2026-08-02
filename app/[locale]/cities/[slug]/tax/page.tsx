@@ -8,6 +8,7 @@ import { fiscalityForCity, TIER_TONE, type FiscaliteTier } from "@/lib/fiscalite
 import { faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { Coins, AlertTriangle, Home as HomeIcon, FileText, Info } from "lucide-react";
+import { clampMeta } from "@/lib/brand";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -73,7 +74,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const en = FISC_EN[stateFor(city)];
   return {
     title: `Property tax in ${city.name} — taxe foncière, second-home tax, transfer duties (2026)`,
-    description: `Department-level 2026 estimate for ${city.name} (${city.department}): annual property tax (${en.taxeFonciere}), second-home tax, transfer duties. Based on DGFiP data.`,
+    description: clampMeta(`Department-level 2026 estimate for ${city.name} (${city.department}): annual property tax (${en.taxeFonciere}), second-home tax, transfer duties. Based on DGFiP data.`),
     alternates: { canonical: `${EN_BASE}/cities/${slug}/tax` },
   };
 }

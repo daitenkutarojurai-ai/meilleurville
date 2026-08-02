@@ -15,6 +15,7 @@ import {
   type RiskDimension,
 } from "@/lib/natural-risks";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { clampMeta } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -32,7 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const r = computeNaturalRisks(city);
   return {
     title: `Risques naturels à ${city.name} · inondation, sismicité, argile, feux`,
-    description: `Synthèse des 4 risques naturels à ${city.name} (${city.department}) : inondation ${RISK_LEVEL_LABEL[r.flood.level].toLowerCase()}, sismicité ${RISK_LEVEL_LABEL[r.seismic.level].toLowerCase()}, argile ${RISK_LEVEL_LABEL[r.clay.level].toLowerCase()}, feu de forêt ${RISK_LEVEL_LABEL[r.wildfire.level].toLowerCase()}. Score composite ${r.composite}/10.`,
+    description: clampMeta(`Synthèse des 4 risques naturels à ${city.name} (${city.department}) : inondation ${RISK_LEVEL_LABEL[r.flood.level].toLowerCase()}, sismicité ${RISK_LEVEL_LABEL[r.seismic.level].toLowerCase()}, argile ${RISK_LEVEL_LABEL[r.clay.level].toLowerCase()}, feu de forêt ${RISK_LEVEL_LABEL[r.wildfire.level].toLowerCase()}. Score composite ${r.composite}/10.`),
     alternates: { canonical: `/villes/${slug}/risques` },
     openGraph: {
       title: `Risques naturels à ${city.name}`,

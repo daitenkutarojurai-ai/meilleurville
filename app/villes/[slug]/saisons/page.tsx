@@ -9,6 +9,7 @@ import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { seasonalStats, TOURISM_LOAD_BADGES, type SeasonStats } from "@/lib/seasons";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { clampMeta } from "@/lib/brand";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -27,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   return {
     title: `Vivre à ${city.name} selon la saison · Climat, tourisme, prix 2026`,
-    description: `Tout savoir sur les saisons à ${city.name} : températures par saison, ensoleillement, pression touristique. Quel mois est le meilleur pour s'installer ou visiter ?`,
+    description: clampMeta(`Tout savoir sur les saisons à ${city.name} : températures par saison, ensoleillement, pression touristique. Quel mois est le meilleur pour s'installer ou visiter ?`),
     alternates: { canonical: `/villes/${slug}/saisons` },
     openGraph: {
       title: `${city.name} · Vivre par saison`,

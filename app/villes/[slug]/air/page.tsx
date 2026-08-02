@@ -154,7 +154,11 @@ export default async function AirPage({ params }: Props) {
             {(10 - a.composite).toFixed(1)}
             <span className="text-lg font-normal text-[var(--text-tertiary)] ml-1">/10</span>
           </div>
-          <p className="text-[11px] text-[var(--text-tertiary)] mb-2">10 = air le plus pur · ATMO · CITEPA · RNSA</p>
+          {/* La légende disait « · ATMO · CITEPA · RNSA », ce qui se lit comme
+              « chiffre publié par ces organismes ». Il ne l'est pas : la
+              méthodologie plus bas dit bien « proxy à partir de la population ».
+              La légende dit maintenant la même chose que la méthodologie. */}
+          <p className="text-[11px] text-[var(--text-tertiary)] mb-2">10 = air le plus pur · modèle communal, calé sur les repères ATMO / CITEPA / RNSA — pas une mesure en station</p>
           <p className="text-sm text-[var(--text-primary)] leading-relaxed">{a.signature}</p>
         </Card>
 

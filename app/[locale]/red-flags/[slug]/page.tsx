@@ -9,6 +9,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { clampMeta } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -313,7 +314,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     : "No major flags; risk profile broadly manageable.";
   return {
     title: `Red Flags ${city.name} · Known risks & public sources 2026`,
-    description: `What the property listing never tells you about ${city.name}: safety, flooding, heat, pollution, seismics, cost. ${teaser} Sources: Géorisques, SSMSI, ATMO, BRGM.`,
+    description: clampMeta(`What the property listing never tells you about ${city.name}: safety, flooding, heat, pollution, seismics, cost. ${teaser} Sources: Géorisques, SSMSI, ATMO, BRGM.`),
     alternates: { canonical: `${EN_BASE}/red-flags/${slug}` },
     openGraph: {
       title: `Red Flags ${city.name} · 2026`,

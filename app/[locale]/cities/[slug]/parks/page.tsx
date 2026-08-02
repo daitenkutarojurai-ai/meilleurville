@@ -9,6 +9,7 @@ import { DiscussionCTA } from "@/components/DiscussionCTA";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { clampMeta } from "@/lib/brand";
 import {
   cityParks,
   hasParksData,
@@ -46,7 +47,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const count = data.parks.length;
   return {
     title: `Parks & green spaces in ${city.name} · ${count} public parks`,
-    description: `The ${count} public parks and gardens in ${city.name}, sorted by size${top ? `, starting with ${top.name} (${areaLabel(top)})` : ""}. Playground, accessibility, drinking water — what actually decides a Saturday morning. Data from OpenStreetMap.`,
+    description: clampMeta(`The ${count} public parks and gardens in ${city.name}, sorted by size${top ? `, starting with ${top.name} (${areaLabel(top)})` : ""}. Playground, accessibility, drinking water — what actually decides a Saturday morning. Data from OpenStreetMap.`),
     alternates: { canonical: `${EN_BASE}/cities/${slug}/parks` },
     openGraph: {
       title: `Parks in ${city.name}`,

@@ -12,6 +12,7 @@ import { getHousing } from "@/data/housing";
 import { fiscalityForCity } from "@/lib/fiscalite";
 import { climateZoneFor, transitPassFor, type CostCalcInput } from "@/lib/cost-living";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { clampMeta } from "@/lib/brand";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -41,7 +42,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   return {
     title: `Coût réel mensuel à ${city.name} 2026 · Calculateur (loyer, voiture, taxes)`,
-    description: `Calcul honnête du coût de la vie à ${city.name} : loyer T2 médian, chauffage selon zone climatique, voiture ou transports, taxe foncière, TEOM. Comparatif vs Paris.`,
+    description: clampMeta(`Calcul honnête du coût de la vie à ${city.name} : loyer T2 médian, chauffage selon zone climatique, voiture ou transports, taxe foncière, TEOM. Comparatif vs Paris.`),
     alternates: { canonical: `/calculateur-cout-reel/${ville}` },
     openGraph: {
       title: `Coût réel mensuel à ${city.name} · Calculateur 2026`,

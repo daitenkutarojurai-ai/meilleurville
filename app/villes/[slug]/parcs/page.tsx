@@ -9,6 +9,7 @@ import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { clampMeta } from "@/lib/brand";
 import {
   cityParks,
   hasParksData,
@@ -47,7 +48,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const count = data.parks.length;
   return {
     title: `Parcs & espaces verts à ${city.name} · ${count} parcs référencés`,
-    description: `Les ${count} parcs et jardins publics de ${city.name} triés par superficie${top ? `, à commencer par ${top.name} (${areaLabel(top)})` : ""}. Aire de jeux, accessibilité, point d'eau — les critères qui décident un samedi matin. Données OpenStreetMap.`,
+    description: clampMeta(`Les ${count} parcs et jardins publics de ${city.name} triés par superficie${top ? `, à commencer par ${top.name} (${areaLabel(top)})` : ""}. Aire de jeux, accessibilité, point d'eau — les critères qui décident un samedi matin. Données OpenStreetMap.`),
     alternates: { canonical: `/villes/${slug}/parcs` },
     openGraph: {
       title: `Parcs de ${city.name}`,

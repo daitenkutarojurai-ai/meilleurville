@@ -11,6 +11,7 @@ import type { City } from "@/lib/types";
 
 import { deptToSlug, slugToDept, getAllDepartments } from "@/lib/dept-slug";
 import { hreflangLanguages } from "@/lib/i18n";
+import { clampMeta } from "@/lib/brand";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -31,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const topCity = [...cities].sort((a, b) => b.scores.global - a.scores.global)[0];
   return {
     title: `Meilleures villes ${dept} 2026 · Qualité de vie & Classements`,
-    description: `Découvrez les ${cities.length} meilleures villes du département ${dept} : scores qualité de vie, comparaisons, avis d'habitants. N°1 : ${topCity?.name} (${topCity?.scores.global}/10).`,
+    description: clampMeta(`Découvrez les ${cities.length} meilleures villes du département ${dept} : scores qualité de vie, comparaisons, avis d'habitants. N°1 : ${topCity?.name} (${topCity?.scores.global}/10).`),
     alternates: { canonical: `/departements/${deptSlug}`, languages: hreflangLanguages(`/departements/${deptSlug}`) },
     openGraph: {
       title: `Villes de ${dept} · MaVilleIdéale`,

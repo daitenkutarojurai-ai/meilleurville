@@ -84,6 +84,15 @@ export default async function EnCityAir({ params }: Props) {
           Air quality score: <span className={`font-mono-data font-bold ${scoreColor(cleanScore)}`}>{cleanScore.toFixed(1)}/10</span>{" "}
           ({LEVEL_LABEL[air.level]}). {HERO_VERDICT[air.level]}
         </p>
+        {/* The FR twin (/villes/[slug]/air) states both of these; this page
+            stated neither, so a reader had no way to know which direction the
+            number runs or where it comes from. hreflang alternates must not
+            disagree on that. */}
+        <p className="mt-2 text-xs text-[var(--text-tertiary)]">
+          10 = cleanest air. Modelled at commune level from population, urban
+          status, terrain and regional pollen basins — calibrated against ATMO
+          France, Citepa and RNSA published patterns, not measured at a station.
+        </p>
       </section>
 
       <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6 grid sm:grid-cols-2 gap-3">

@@ -68,7 +68,7 @@ export async function runCronAlertes(): Promise<void> {
     if (triggers.length === 0) continue;
 
     const isFr = alerte.locale === "fr";
-    const baseUrl = isFr ? "https://mavilleideale.fr" : "https://bestcitiesinfrance.com";
+    const baseUrl = isFr ? "https://www.mavilleideale.fr" : "https://bestcitiesinfrance.com";
     const cityPath = isFr ? `/villes/${alerte.citySlug}` : `/cities/${alerte.citySlug}`;
     const unsubUrl = `${baseUrl}/api/alertes/unsubscribe?token=${alerte.unsubscribeToken}`;
     const subject = isFr

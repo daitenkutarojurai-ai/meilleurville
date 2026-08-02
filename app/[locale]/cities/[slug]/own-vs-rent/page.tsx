@@ -7,6 +7,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { VERDICT_META, REF_SURFACE_M2, type RentVsBuyVerdict } from "@/lib/rent-vs-buy";
 import { buildRentVsBuy } from "@/lib/rent-vs-buy-rankings";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { clampMeta } from "@/lib/brand";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -53,9 +54,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: data
       ? `Renting vs buying in ${city.name} 2026 — ratio ${data.rentToPriceRatio} (${VERDICT_EN[data.verdict].label})`
       : `Renting vs buying in ${city.name} 2026`,
-    description: data
-      ? `Should you rent or buy in ${city.name}? Price-to-rent ratio ${data.rentToPriceRatio}, T3 mortgage ${data.monthlyMortgage} €/mo, deposit payback ${data.paybackYears ? data.paybackYears + " years" : "n/a"}. Built on rent/price medians + 2026 lending rates.`
-      : `Should you rent or buy in ${city.name}? Rent and price-per-m² data plus a 25-year mortgage simulation.`,
+    description: clampMeta(
+      data
+        ? `Should you rent or buy in ${city.name}? Price-to-rent ratio ${data.rentToPriceRatio}, T3 mortgage ${data.monthlyMortgage} €/mo, deposit payback ${data.paybackYears ? data.paybackYears + " years" : "n/a"}. Built on rent/price medians + 2026 lending rates.`
+        : `Should you rent or buy in ${city.name}? Rent and price-per-m² data plus a 25-year mortgage simulation.`,
+    ),
     alternates: { canonical: `${EN_BASE}/cities/${slug}/own-vs-rent` },
   };
 }

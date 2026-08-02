@@ -30,6 +30,10 @@ import {
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { MapPin, ChevronRight } from "lucide-react";
 
+// Canonical FR origin is the www host (worker/index.ts 301s the apex to it).
+// JSON-LD must name the canonical URL, not one that redirects.
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
+
 export const revalidate = false;
 export const dynamicParams = false;
 
@@ -106,7 +110,7 @@ export default async function RegionVacancesPage({ params }: Props) {
     itemListElement: ranked.slice(0, 10).map(({ city }, i) => ({
       "@type": "ListItem",
       position: i + 1,
-      url: `https://mavilleideale.fr/villes/${city.slug}`,
+      url: `${BASE_URL}/villes/${city.slug}`,
       name: city.name,
     })),
   };

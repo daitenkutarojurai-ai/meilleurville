@@ -15,6 +15,7 @@ import {
   type CommerceDimension,
 } from "@/lib/commerce";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { clampMeta } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -32,7 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const c = computeCommerce(city);
   return {
     title: `Commerces à ${city.name} · couverture, marchés, centre-ville`,
-    description: `Couverture commerciale de ${city.name} (${city.department}) : offre ${COMMERCE_LEVEL_LABEL[c.coverage.level].toLowerCase()}, marchés & proximité, grandes surfaces, vitalité du centre-ville. Score ${c.composite.toFixed(1)}/10 (10 = excellent).`,
+    description: clampMeta(`Couverture commerciale de ${city.name} (${city.department}) : offre ${COMMERCE_LEVEL_LABEL[c.coverage.level].toLowerCase()}, marchés & proximité, grandes surfaces, vitalité du centre-ville. Score ${c.composite.toFixed(1)}/10 (10 = excellent).`),
     alternates: { canonical: `/villes/${slug}/commerces` },
     openGraph: {
       title: `Commerces à ${city.name}`,

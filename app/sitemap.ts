@@ -18,6 +18,7 @@ import { VACATION_PROFILES } from "@/lib/vacation-fit";
 import { OWNER_RANKING_SLUGS } from "@/lib/owner-rankings";
 import { hasParksData } from "@/lib/city-parks";
 import { hasBiodiversityData } from "@/lib/biodiversity";
+import { PROFILE_PAGES } from "@/lib/profile-pages";
 
 // Locale-aware sitemap. Each Vercel project sets NEXT_PUBLIC_DEFAULT_LOCALE and
 // (optionally) NEXT_PUBLIC_BASE_URL — the FR project emits FR URLs at
@@ -140,38 +141,16 @@ function staticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/vivre-avec/4000-euros`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
     { url: `${BASE_URL}/vivre-avec/5000-euros`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
     { url: `${BASE_URL}/pour-qui`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
-    { url: `${BASE_URL}/pour-qui/familles-avec-enfants`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/jeunes-actifs`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/jeunes-diplomes`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/retraites`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/freelances`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/teletravailleurs`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/etudiants`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/sans-voiture`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/premium`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/solo-femme`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/couple-sans-enfant`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/celibataires`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/expat-retour`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/primo-accedants`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/familles-monoparentales`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/familles-nombreuses`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/amateurs-de-plein-air`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/neo-ruraux`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/anti-canicule`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/sensibles-au-bruit`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/asthmatiques-allergiques`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/jeunes-parents`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/sportifs`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/investisseurs-locatifs`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/familles-avec-ados`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/proches-aidants`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/futurs-retraites`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/cyclistes-urbains`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/mobilite-reduite`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/amateurs-de-littoral`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/amateurs-de-montagne`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/pour-qui/amateurs-de-culture`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    // Derived from PROFILE_PAGES — the same list /pour-qui/[profil] builds its
+    // static params from. Kept hardcoded, a new profile shipped a route with no
+    // sitemap entry; the two lists happened to agree today, which is luck, not a
+    // guarantee.
+    ...PROFILE_PAGES.map((p) => ({
+      url: `${BASE_URL}/pour-qui/${p.slug}`,
+      lastModified: STATIC_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
     { url: `${BASE_URL}/salaire-equivalent`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/macro-region`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/macro-region/cote-atlantique`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
@@ -1129,9 +1108,15 @@ function enGuidesSection(): MetadataRoute.Sitemap {
   });
 }
 
+// MUST mirror EN_PROFILES[].enSlug in app/[locale]/for-who/[slug]/page.tsx.
+// It drifted: "first-time-buyers" and "single-parents" (the EN twin of the F58
+// parent-solo work) shipped as routes with no sitemap entry. Kept as a literal
+// because EN_PROFILES is local to a page module and Next rejects arbitrary
+// extra exports from page.tsx — so when you add a profile there, add it here.
 const EN_FOR_WHO_SLUGS = [
   "families", "young-professionals", "retirees", "freelancers", "remote-workers",
   "students", "car-free", "premium", "women-solo", "couples", "returning-expats",
+  "first-time-buyers", "single-parents",
 ] as const;
 
 const EN_RED_FLAG_THEME_SLUGS = [

@@ -20,6 +20,7 @@ import {
   AlertCircle,
   ExternalLink,
 } from "lucide-react";
+import { clampMeta } from "@/lib/brand";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -40,7 +41,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const label = fitLabel(fit.score).label.toLowerCase();
   return {
     title: `Single parent in ${city.name} — fit score, rent, schools, transit`,
-    description: `${city.name} for a single-parent household: fit score ${fit.score.toFixed(1)}/10 (${label}), 3-bedroom rent, public schools, life without a car, minimum estimated income. Honest read, no sugarcoating.`,
+    description: clampMeta(`${city.name} for a single-parent household: fit score ${fit.score.toFixed(1)}/10 (${label}), 3-bedroom rent, public schools, life without a car, minimum estimated income. Honest read, no sugarcoating.`),
     alternates: { canonical: `${EN_BASE}/cities/${slug}/single-parent` },
     openGraph: {
       title: `Single parent in ${city.name} — fit ${fit.score.toFixed(1)}/10`,

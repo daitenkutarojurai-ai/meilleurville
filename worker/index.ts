@@ -591,7 +591,7 @@ async function handleAlertesSubscribe(request: Request): Promise<Response> {
   const comments = await listComments(`city:${citySlug}`);
   const referer = request.headers.get("referer") ?? "";
   const locale: "fr" | "en" = referer.includes("bestcitiesinfrance") ? "en" : "fr";
-  const baseUrl = locale === "fr" ? "https://mavilleideale.fr" : "https://bestcitiesinfrance.com";
+  const baseUrl = locale === "fr" ? "https://www.mavilleideale.fr" : "https://bestcitiesinfrance.com";
   const sender = { email: locale === "fr" ? "bonjour@mavilleideale.fr" : "hello@bestcitiesinfrance.com", name: locale === "fr" ? "MaVilleIdéale" : "Best Cities in France" };
 
   await purgePendingAlertes();
@@ -660,7 +660,7 @@ async function handleAlertesConfirm(url: URL): Promise<Response> {
 
   const alerte = await findAlerteByConfirmToken(token);
   if (!alerte) return invalid;
-  const origin = alerte.locale === "fr" ? "https://mavilleideale.fr" : "https://bestcitiesinfrance.com";
+  const origin = alerte.locale === "fr" ? "https://www.mavilleideale.fr" : "https://bestcitiesinfrance.com";
   const cityPath = alerte.locale === "fr" ? `/villes/${alerte.citySlug}` : `/cities/${alerte.citySlug}`;
   if (alerte.confirmedAt) {
     return html(alerte.locale === "fr"
@@ -685,7 +685,7 @@ async function handleAlertesUnsubscribe(url: URL): Promise<Response> {
     return html(`<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><title>Déjà désabonné</title></head><body><p>Cette alerte est déjà désactivée ou le lien est invalide.</p></body></html>`);
   await deactivateAlerte(token);
   const cityPath = alerte.locale === "fr" ? `/villes/${alerte.citySlug}` : `/cities/${alerte.citySlug}`;
-  const origin = alerte.locale === "fr" ? "https://mavilleideale.fr" : "https://bestcitiesinfrance.com";
+  const origin = alerte.locale === "fr" ? "https://www.mavilleideale.fr" : "https://bestcitiesinfrance.com";
   return html(`<!DOCTYPE html><html lang="${alerte.locale}"><head><meta charset="utf-8"><meta http-equiv="refresh" content="4;url=${origin}${cityPath}"><title>Désabonné</title></head><body><p>Vous avez été désabonné·e des alertes pour <strong>${alerte.cityName}</strong>.</p><p>Redirection dans 4 secondes...</p><p><a href="${origin}${cityPath}">Retour à la fiche de ${alerte.cityName}</a></p></body></html>`);
 }
 
@@ -791,7 +791,17 @@ export default {
       if (path === "/api/projections") return await handleProjections(request);
       if (path === "/api/reviews" && method === "POST") return await handleReviewsPost(request);
 
-      if (path === "/api/quiz" && method === "POST") return await handleQuiz(request);
+      // Pure compute, but unauthenticated and it scores all 540 cities per call —
+      // the only public POST on the Worker that had no throttle. One legitimate
+      // quiz submission is one request, and QuizFlow already falls back to its
+      // demo results on a non-ok response, so a generous cap costs nobody.
+      if (path === "/api/quiz" && method === "POST") {
+        const ip = getClientIp(request.headers);
+        const throttle = rateLimit(`quiz:${ip}`, 20, 60_000);
+        if (!throttle.allowed)
+          return json({ error: "Trop de requêtes." }, { status: 429, headers: { "Retry-After": String(throttle.retryAfterSeconds) } });
+        return await handleQuiz(request);
+      }
       if (path === "/widget/embed" && method === "GET") return handleWidgetEmbed(url);
 
       // AI endpoints call Anthropic — rate-limit per IP to cap spend exposure.

@@ -7,6 +7,7 @@ import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { clampMeta } from "@/lib/brand";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -312,7 +313,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     : "Aucun drapeau majeur, profil de risque globalement maîtrisé.";
   return {
     title: `Red Flags ${city.name} · Risques connus & sources publiques 2026`,
-    description: `Ce qu'on ne vous dit pas avant de signer à ${city.name} : sécurité, inondation, canicule, pollution, sismicité, coût. ${teaser} Sources : Géorisques, SSMSI, ATMO, BRGM.`,
+    description: clampMeta(`Ce qu'on ne vous dit pas avant de signer à ${city.name} : sécurité, inondation, canicule, pollution, sismicité, coût. ${teaser} Sources : Géorisques, SSMSI, ATMO, BRGM.`),
     alternates: { canonical: `/red-flags/${slug}` },
     openGraph: {
       title: `Red Flags ${city.name} · 2026`,
