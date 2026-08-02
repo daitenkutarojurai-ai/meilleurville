@@ -31,3 +31,4 @@ Les données factuelles (chiffres, scores, noms) ne sont jamais modifiées.
 - 2026-07-28 app/guides/[slug]/page.tsx :: villes-seniors-retraite-france
 - 2026-07-29 app/expat-retour/[pays]/page.tsx :: depuis-suisse
 - 2026-07-30 data/guides.ts :: travail-a-orleans-2026
+- 2026-08-02 data/guides.ts :: travail-a-amiens-2026
