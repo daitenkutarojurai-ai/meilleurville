@@ -701,6 +701,31 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
     — non classée, la page disant que le défaut est dans *notre* collecte, pas dans la nature.
     `QUERY_VERSION` = 2 ; `MIN_QUERY_VERSION` écarte du barème toute ligne v1. Ne pas
     « simplifier » l'encadrement en republiant la borne basse comme une valeur exacte.
+  - **État au 2026-08-03** : toujours **0/540** sur GBIF et INPN (403 CONNECT retesté sur
+    `api.gbif.org`, `inpn.mnhn.fr`, `www.data.gouv.fr`). Le run a corrigé la troisième
+    composante, **espaces verts** — la seule qui a ses données (F59, 540/540) et la seule
+    qui n'avait jamais été passée au garde-fou du biais d'effort. Deux défauts, tous deux
+    dans `lib/biodiversity.ts` : ① une commune relevée **sans aucun parc nommé dans OSM**
+    valait une surface de `0` et récoltait **0,1/10**, alors que le docstring annonçait
+    déjà `null` — 11 communes concernées, dont Sallanches au fond d'une vallée alpine,
+    Noirmoutier, Porto-Vecchio, Calvi et Saint-Paul-de-Vence. OSM est une **carte
+    contributive, pas un registre** : « personne n'a cartographié » et « pas de verdure »
+    y sont indiscernables, donc `greenSpacePerCapita` renvoie désormais `null` et le profil
+    porte `greenSpacePending: "mapping"`. ⚠️ Ne pas « harmoniser » ce cas avec les zones
+    protégées, où `areasTotal: 0` **est** une mesure : l'inventaire INPN est un registre
+    administratif exhaustif, OSM non — c'est la source qui décide, pas la symétrie.
+    ② F59 plafonne à **40 parcs par commune** (`PARKS_PER_CITY`) sans avoir gardé le compte
+    d'avant plafonnement : pour les **41 communes** qui atteignent le plafond, la surface
+    additionnée est un **plancher**, pas un total. Elles gardent leur score (le tri est par
+    superficie décroissante, donc chaque parc omis est plus petit que le 40e conservé, lequel
+    pèse en médiane 0,19 % du total de sa ville et 0,73 % au pire — l'erreur est bornée et
+    joue *contre* les villes les mieux cartographiées), mais les deux surfaces affichent
+    un « au moins / at least ». Nouveaux exports : `PARKS_PER_CITY_CAP`,
+    `greenSpaceTruncated()`, `GREEN_SPACE_UNMAPPED_COUNT` (11), `GREEN_SPACE_TRUNCATED_COUNT`
+    (41) ; les 11 communes non cartographiées sortent aussi du barème centile, où elles
+    tassaient le bas avec des valeurs inconnues. Rien ne change côté F59 : pour un
+    **répertoire de destinations**, « aucun parc nommé » reste une réponse juste — c'est
+    seulement comme **proxy de surface végétale** que le même zéro devient faux.
 
 - [ ] **F63 — Qualité de l'air : du modèle à la mesure** — la section existe
   (`/villes/[slug]/air` ×540 + EN `air-quality`) mais `lib/air-quality.ts` **calcule

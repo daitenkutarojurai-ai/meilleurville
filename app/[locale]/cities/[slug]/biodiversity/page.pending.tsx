@@ -45,6 +45,7 @@ import {
   INPN_CREDIT,
   INPN_URL,
   OSM_CREDIT_EN,
+  PARKS_PER_CITY_CAP,
   type SpeciesGroup,
 } from "@/lib/biodiversity";
 
@@ -154,6 +155,8 @@ export default async function BiodiversityPage({ params }: Props) {
     protectionPending,
     protectedAreas,
     greenSpace,
+    greenSpacePending,
+    greenSpaceTruncated,
     overall,
   } = profile;
   const photo = cityPhoto(city.slug);
@@ -417,10 +420,16 @@ export default async function BiodiversityPage({ params }: Props) {
               score={greenSpace?.score ?? null}
               detail={
                 greenSpace
-                  ? `${greenSpace.value.toLocaleString("en-GB")} m² of named parks per resident. Mapped on OpenStreetMap, whose coverage varies from town to town.`
+                  ? greenSpaceTruncated
+                    ? `At least ${greenSpace.value.toLocaleString("en-GB")} m² of named parks per resident. The OpenStreetMap survey stops at the commune's ${PARKS_PER_CITY_CAP} largest parks: the smaller ones beyond that are not counted, so this figure is a floor.`
+                    : `${greenSpace.value.toLocaleString("en-GB")} m² of named parks per resident. Mapped on OpenStreetMap, whose coverage varies from town to town.`
                   : ""
               }
-              missing="No named park is mapped on OpenStreetMap for this commune."
+              missing={
+                greenSpacePending === "data"
+                  ? "The OpenStreetMap survey has not covered this commune yet."
+                  : "OpenStreetMap maps no named park for this commune. That is a gap in the map rather than a finding on the ground: an unmapped commune and a commune without greenery look identical in the data. We publish no score rather than a misleading zero."
+              }
             />
           </div>
 

@@ -45,6 +45,7 @@ import {
   INPN_CREDIT,
   INPN_URL,
   OSM_CREDIT,
+  PARKS_PER_CITY_CAP,
   type SpeciesGroup,
 } from "@/lib/biodiversity";
 
@@ -162,6 +163,8 @@ export default async function BiodiversitePage({ params }: Props) {
     protectionPending,
     protectedAreas,
     greenSpace,
+    greenSpacePending,
+    greenSpaceTruncated,
     overall,
   } = profile;
   const photo = cityPhoto(city.slug);
@@ -433,10 +436,16 @@ export default async function BiodiversitePage({ params }: Props) {
               score={greenSpace?.score ?? null}
               detail={
                 greenSpace
-                  ? `${greenSpace.value.toLocaleString("fr-FR")} m² de parcs nommés par habitant. Relevé OpenStreetMap, complétude inégale d'une commune à l'autre.`
+                  ? greenSpaceTruncated
+                    ? `Au moins ${greenSpace.value.toLocaleString("fr-FR")} m² de parcs nommés par habitant. Le relevé OpenStreetMap s'arrête aux ${PARKS_PER_CITY_CAP} plus grands parcs de la commune : les suivants, tous plus petits, ne sont pas comptés. Le chiffre est donc un plancher.`
+                    : `${greenSpace.value.toLocaleString("fr-FR")} m² de parcs nommés par habitant. Relevé OpenStreetMap, complétude inégale d'une commune à l'autre.`
                   : ""
               }
-              missing="Aucun parc nommé n'est référencé sur OpenStreetMap pour cette commune."
+              missing={
+                greenSpacePending === "data"
+                  ? "Le relevé OpenStreetMap n'a pas encore couvert cette commune."
+                  : "OpenStreetMap ne référence aucun parc nommé pour cette commune, et c'est une lacune de la carte, pas un constat sur le terrain : une commune non cartographiée et une commune sans verdure y sont indiscernables. On ne publie donc pas de score plutôt qu'un zéro trompeur."
+              }
             />
           </div>
 

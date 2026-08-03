@@ -321,6 +321,75 @@ premier geste de la passe locale. Les surfaces restent garées en `page.pending.
 `overall` reste `null` faute de la composante zones protégées, et le classement
 `/classements/biodiversite` attend ses ~300 villes mesurables.
 
+#### Point d'étape 2026-08-03 — la composante espaces verts passe au garde-fou du biais
+
+Egress toujours fermé, retesté une fois ce jour : `api.gbif.org`, `inpn.mnhn.fr` et
+`www.data.gouv.fr` répondent 403 CONNECT. Les deux JSON valent toujours `{}` — **0/540
+villes sur GBIF et 0/540 sur INPN**, aucune surface publiée, aucun classement, le crawl
+part toujours d'une passe locale. Ce run a donc travaillé sur la **troisième composante,
+la seule qui ait ses données** : les espaces verts, repris de F59 (540/540 villes).
+
+**Le constat.** Le biais d'effort a structuré tout le travail sur la richesse GBIF, mais
+personne ne l'avait appliqué à la composante espaces verts — alors qu'OpenStreetMap est
+exactement aussi biaisé, à ceci près que l'effort y est de *cartographie* et non
+d'*observation*. Deux défauts en sont sortis, tous deux dans `lib/biodiversity.ts` :
+
+1. **Zéro parc nommé valait zéro espace vert.** `parkAreaM2` renvoyait `0` pour une
+   commune relevée sans aucun parc nommé, d'où un score de **0,1/10** — alors que le
+   docstring du profil annonçait déjà `null`, jamais implémenté. **11 communes**
+   concernées : Sallanches (fond de vallée alpine), Noirmoutier, Porto-Vecchio, Calvi,
+   Saint-Paul-de-Vence, Gien, Saint-Chély-d'Apcher, Pierrefitte-sur-Seine, Le Lamentin,
+   Le Robert, Saint-André. Publier un score de nature proche de zéro pour ces communes-là
+   aurait été indéfendable, et pour la raison même qui fonde la feature : OSM est une
+   **carte contributive, pas un registre**, donc « personne n'a cartographié » et « pas de
+   verdure » y sont indiscernables. `greenSpacePerCapita` renvoie désormais `null` et le
+   profil porte `greenSpacePending: "mapping"`.
+   ⚠️ **Asymétrie volontaire avec les zones protégées**, où une commune ingérée sans
+   périmètre vaut bien `areasTotal: 0` : l'inventaire INPN est un registre administratif
+   exhaustif, OSM non. C'est la nature de la source qui décide, pas la symétrie du code —
+   ne pas « harmoniser » les deux cas.
+2. **La surface était tronquée sans le dire.** F59 plafonne à **40 parcs par commune**
+   (`PARKS_PER_CITY`) et n'a pas gardé le compte d'avant plafonnement : pour les **41
+   communes** qui atteignent le plafond (Paris, Toulouse, Dijon, Bordeaux, Le Mans…), la
+   somme est un **plancher**. Même classe de défaut que la raréfaction tronquée corrigée
+   le 02/08 : une valeur bornée republiée comme exacte. Traitement différent parce que
+   l'erreur est différente — ici le tri est par superficie décroissante, donc chaque parc
+   omis est plus petit que le 40e conservé, lequel pèse en **médiane 0,19 %** du total de
+   sa ville (**0,73 % au pire**). L'erreur est bornée et joue *contre* les villes les mieux
+   cartographiées : les communes gardent leur score, mais les deux surfaces affichent
+   « au moins » / « at least » au lieu d'un total.
+
+**Ce que ça ajoute.** `PARKS_PER_CITY_CAP`, `greenSpaceTruncated()`,
+`GREEN_SPACE_UNMAPPED_COUNT` (11) et `GREEN_SPACE_TRUNCATED_COUNT` (41) dans
+`lib/biodiversity.ts` ; `greenSpacePending` et `greenSpaceTruncated` dans
+`BiodiversityProfile` ; les 11 communes non cartographiées sortent du **barème centile**,
+où elles tassaient le bas avec des valeurs inconnues et décalaient le rang de toutes les
+autres. Copies FR et EN mises à jour ensemble — ce sont des alternates hreflang, elles
+affichent le même nombre et disent la même chose. Chiffres vérifiés en important le vrai
+module (`npx tsx`), pas relus au regex : les 11 slugs recoupent exactement la liste F59
+des communes sans parc nommé.
+
+**Vérifications, et leurs limites.** `npx tsc --noEmit` propre. Les chiffres sont sortis en
+important le vrai module plutôt qu'en relisant le JSON : `GREEN_SPACE_UNMAPPED_COUNT` = 11,
+`GREEN_SPACE_TRUNCATED_COUNT` = 41, et Sallanches comme Porto-Vecchio renvoient bien `null`
+au lieu de leur ancien 0,1/10. Contrôle de conflation : 0 commune du seed sans population de
+référence et 0 commune non crawlée par F59, donc `greenSpacePerCapita == null` désigne
+aujourd'hui exactement les 11 communes sans parc nommé — l'état `"data"` a quand même été
+ajouté pour qu'une ville entrée au seed avant son crawl ne soit pas étiquetée « OSM ne
+cartographie rien ». `npm run build` **n'est pas allé au bout, pour la raison d'environnement
+déjà documentée le 30/07** : la génération statique a tourné sans une seule erreur au-delà de
+47 000 / 55 787 pages — ce qui exerce bien les 540 pages ville portant la carte 🦋 et le
+`city-profile-data` qui importe le moteur — puis le quota disque de la session de routine
+cloud s'épuise (`ENOSPC`, cf. 30/07). Rien à voir avec ce diff, qui ne touche **ni route ni
+sitemap** : les deux surfaces restent garées en `page.pending.tsx`.
+
+**Ce qui n'est toujours pas couvert.** Rien de collecté ce run. Les paramètres GBIF et les
+noms d'attributs INPN restent `@unverified`, les surfaces restent garées en
+`page.pending.tsx`, `overall` reste `null` faute des zones protégées, et le classement
+attend ses ~300 villes mesurables. F59 n'est pas touchée : pour un **répertoire de
+destinations**, « aucun parc nommé référencé » reste la bonne réponse — c'est seulement
+comme **proxy de surface végétale** que le même zéro devient faux.
+
 ### F63 — Qualité de l'air : passer du modèle à la mesure
 
 Demande utilisateur 2026-07-29 : *« beaucoup de requêtes en recherche Google »* sur la

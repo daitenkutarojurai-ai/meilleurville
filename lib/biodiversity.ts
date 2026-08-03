@@ -365,11 +365,40 @@ function percentileScale(values: number[]) {
   };
 }
 
-/** Surface totale d'espaces verts nommés relevés par F59, en m². */
+/**
+ * Plafond appliqué par F59 : `scripts/city-parks.mjs` ne retient que les
+ * `PARKS_PER_CITY = 40` plus grands parcs nommés d'une commune, et n'a pas
+ * gardé le compte d'avant plafonnement. Une ville qui atteint ce plafond a
+ * donc une surface **tronquée** : ce qu'on additionne est un plancher, pas un
+ * total. 41 des 540 villes sont dans ce cas.
+ *
+ * On publie quand même leur score, contrairement à la raréfaction tronquée qui
+ * met la ville en attente : ici l'erreur est bornée par construction et va dans
+ * le sens défavorable. Le tri étant par superficie décroissante, chaque parc
+ * omis est plus petit que le 40e conservé, lequel pèse en médiane 0,19 % du
+ * total de sa ville (0,73 % au pire). La troncature sous-estime les villes les
+ * mieux cartographiées, elle ne les flatte pas — mais les surfaces doivent
+ * afficher un « ≥ », pas un total.
+ */
+export const PARKS_PER_CITY_CAP = 40;
+
+/** La commune a-t-elle atteint le plafond de F59 ? Si oui, sa surface d'espaces
+ *  verts est un minorant. */
+export function greenSpaceTruncated(slug: string): boolean {
+  const data = cityParks(slug);
+  return (data?.parks.length ?? 0) >= PARKS_PER_CITY_CAP;
+}
+
+/** Surface totale d'espaces verts nommés relevés par F59, en m².
+ *
+ *  `null` a deux causes distinctes, et une seule est un « zéro » : la commune
+ *  n'a pas été crawlée, **ou** elle l'a été sans qu'aucun parc nommé ne
+ *  ressorte. Voir `greenSpacePerCapita` pour pourquoi le second cas n'est pas
+ *  une surface nulle. */
 function parkAreaM2(slug: string): number | null {
   if (!hasParksData(slug)) return null;
   const data = cityParks(slug);
-  if (!data) return null;
+  if (!data || data.parks.length === 0) return null;
   return data.parks.reduce((s, p) => s + (p.areaM2 || 0), 0);
 }
 
@@ -383,9 +412,25 @@ function referencePopulation(slug: string): number | null {
   return seed?.population ?? null;
 }
 
-/** m² d'espaces verts nommés par habitant. Indicateur classique et lisible —
- *  à lire en sachant qu'OSM est renseigné inégalement d'une commune à l'autre,
- *  ce que la page doit dire. */
+/**
+ * m² d'espaces verts nommés par habitant. Indicateur classique et lisible — à
+ * lire en sachant qu'OSM est renseigné inégalement d'une commune à l'autre.
+ *
+ * **Zéro parc nommé ne vaut pas zéro espace vert, et ne reçoit donc pas de
+ * score.** C'est le même garde-fou que le biais d'effort d'observation qui
+ * gouverne la composante richesse, appliqué à sa source : OSM est une carte
+ * contributive, pas un registre. Une commune sans parc nommé dans OSM n'est pas
+ * une commune sans verdure, c'est une commune que personne n'a cartographiée —
+ * les deux sont indiscernables depuis la donnée, donc on dit qu'on ne sait pas.
+ * Les 11 communes concernées recevaient 0,1/10 avant ce correctif, dont
+ * Sallanches au fond d'une vallée alpine, Noirmoutier, Porto-Vecchio et Calvi :
+ * un score de nature proche de zéro pour ces communes-là aurait été indéfendable.
+ *
+ * La distinction avec les zones protégées est volontaire et tient à la nature de
+ * la source : l'inventaire INPN est un registre administratif exhaustif, donc
+ * « aucun périmètre à moins de 15 km » y est un fait mesuré et vaut bien `0`
+ * (cf. `cityProtectedAreas`). OSM ne l'est pas.
+ */
 export function greenSpacePerCapita(slug: string): number | null {
   const area = parkAreaM2(slug);
   const pop = referencePopulation(slug);
@@ -401,11 +446,25 @@ const richnessScale = percentileScale(
   MEASURABLE_SLUGS.map((s) => DATA[s].rarefied as number),
 );
 
+/** Le `filter` écarte les communes sans parc nommé dans OSM. C'est délibéré :
+ *  les faire entrer comme des zéros tasserait le bas du barème avec des villes
+ *  dont on ignore la surface réelle, et décalerait le rang de toutes les autres. */
 const greenScale = percentileScale(
   CITIES_SEED.map((c) => greenSpacePerCapita(c.slug)).filter(
     (v): v is number => v != null,
   ),
 );
+
+/** Communes relevées par F59 sans aucun parc nommé dans OSM : mesure impossible,
+ *  pas score nul. Chiffre affiché par les surfaces qui expliquent la lacune. */
+export const GREEN_SPACE_UNMAPPED_COUNT = CITIES_SEED.filter(
+  (c) => hasParksData(c.slug) && greenSpacePerCapita(c.slug) == null,
+).length;
+
+/** Communes dont la surface est plafonnée à 40 parcs, donc minorée. */
+export const GREEN_SPACE_TRUNCATED_COUNT = CITIES_SEED.filter((c) =>
+  greenSpaceTruncated(c.slug),
+).length;
 
 const protectionScale = percentileScale(
   CITIES_SEED.map((c) => protectionCoverage(c.slug)).filter(
@@ -474,8 +533,19 @@ export interface BiodiversityProfile {
    *  ville ingérée sans aucun périmètre a bien une valeur, avec
    *  `areasTotal: 0` — c'est un résultat, pas une absence de donnée. */
   protectedAreas: CityProtectedAreas | null;
-  /** `null` quand F59 n'a relevé aucun parc nommé pour la commune. */
+  /** `null` quand F59 n'a relevé aucun parc nommé pour la commune.
+   *  `greenSpacePending` dit pourquoi. */
   greenSpace: Component | null;
+  /** `"mapping"` : la commune a bien été relevée, mais OSM n'y référence aucun
+   *  parc nommé — carte contributive incomplète, pas absence de verdure, donc
+   *  pas de score (voir `greenSpacePerCapita`). `"data"` : F59 n'a pas encore
+   *  crawlé la commune (aucune aujourd'hui, 540/540 — mais une ville ajoutée au
+   *  seed avant son crawl passerait par là, et les deux ne se racontent pas
+   *  pareil). `null` : un score est publié. */
+  greenSpacePending: "mapping" | "data" | null;
+  /** La surface additionnée est-elle plafonnée par F59 (40 parcs max) ? Si oui,
+   *  `greenSpace.value` est un minorant et la surface doit l'afficher comme tel. */
+  greenSpaceTruncated: boolean;
   /** Agrégat pondéré, ou `null` si une composante manque. Voir COMPONENT_WEIGHT. */
   overall: number | null;
   measurable: boolean;
@@ -519,6 +589,11 @@ export function biodiversityProfile(slug: string): BiodiversityProfile | null {
   const green = greenSpacePerCapita(slug);
   const greenSpace: Component | null =
     green == null ? null : { value: green, ...greenScale(green) };
+  const greenSpacePending: BiodiversityProfile["greenSpacePending"] = greenSpace
+    ? null
+    : hasParksData(slug)
+      ? "mapping"
+      : "data";
 
   const protectedAreas = cityProtectedAreas(slug);
   const protection = protectionComponent(slug);
@@ -548,6 +623,8 @@ export function biodiversityProfile(slug: string): BiodiversityProfile | null {
     protectionPending,
     protectedAreas,
     greenSpace,
+    greenSpacePending,
+    greenSpaceTruncated: greenSpaceTruncated(slug),
     overall,
     measurable,
   };
