@@ -5,15 +5,18 @@ Campagne de distribution de `mavilleideale.fr`. Envois en transactionnel Brevo
 Outil : `npx tsx scripts/outreach-mairies.ts` — registre des communes déjà
 contactées dans `scripts/outreach-contacted.json`.
 
-## Où on en est (2026-07-29)
+## Où on en est (2026-08-03)
 
 | | Envois | Bounces | Ouvertures | Réponses |
 |---|---|---|---|---|
 | Presse (vagues 1-4, relances v5) | 32 | 4 | plusieurs | **1** |
 | Mairies & OT, hook badge (v5-v8) | 68 | 0 | 3 sur 27 mesurées | 0 |
-| Mairies, hook vérification (v9) | 22 | à mesurer | à mesurer | à mesurer |
+| Mairies, hook vérification (v9) | 22 | **toujours à mesurer** | idem | idem |
 
-**159 envois cumulés, 1 réponse.** La seule vraie réponse presse est celle de
+**159 envois cumulés, 1 réponse** — et sur les mairies seules, **90 envois pour
+0 réponse**. La v9 reste non mesurée au 2026-08-03 : l'égress de la routine
+refuse `api.brevo.com`. Tant qu'elle ne l'est pas, aucune vague suivante ne
+part (cf. `docs/outreach-wave-10-draft.md`). La seule vraie réponse presse est celle de
 Matthieu Renard (La Nouvelle République / NRCO) le 2026-07-22, sur l'angle
 « Amboise 3e » : questions sur les objectifs du site et la méthode de notation,
 réponse envoyée le jour même. Toute demande d'extraction Indre-et-Loire de sa
@@ -42,6 +45,13 @@ par téléphone (action utilisateur).
 
 - **v9 (2026-07-29)** — 22 mairies, rangs 76 à 99. **Nouveau hook** (voir
   ci-dessous) : le badge n'est plus le sujet.
+
+- **v10 (2026-08-03) — préparée, non envoyée.** Détail complet dans
+  `docs/outreach-wave-10-draft.md` : 25 cibles rangs 27-127, tableau prêt,
+  copie relue. Deux blocages : `BREVO_API_KEY` absente de l'environnement de la
+  routine, et `403 CONNECT` du proxy sur `api-lannuaire.service-public.fr` —
+  donc aucune adresse résolvable. `api.brevo.com` est refusé de la même façon,
+  donc **les statistiques de la v9 n'ont pas pu être relevées**.
 
 ## Le hook a changé en v9
 
@@ -99,6 +109,22 @@ l'accroche qu'il faut changer, pas le volume de cibles.
 
 **Une seule relance, puis stop.** Appliqué en v5 (3 rédactions) et v7 (3
 mairies) — ces cibles sont closes.
+
+**« Aucun courriel déclaré » et « annuaire injoignable » se ressemblaient à
+l'écran, et c'est un piège** (constaté 2026-08-03). `mairieEmail()` renvoyait
+`null` dans les deux cas, affiché « aucun courriel déclaré à l'annuaire (portail
+seul) ». Un dry-run de routine a donc annoncé 5 communes sans adresse alors que
+le proxy refusait les CONNECT et qu'aucune requête n'était partie — soit
+exactement la conclusion inverse de la réalité. Corrigé : résultat à trois états
+(`found` / `none` / `unreachable`), ligne `!!!` sur l'injoignable, code de sortie
+1 si toute la file l'est, et impression du message composé en dry-run même sans
+adresse résolue, pour que la relecture de la copie reste possible hors ligne.
+
+**Ne pas tirer une vague avant d'avoir lu la précédente.** Les vagues 5 à 8 ont
+enchaîné 100 envois d'un hook déjà mort parce que les chiffres n'ont été relevés
+qu'après coup. La v9 inaugure le hook « vérification » et n'est toujours pas
+mesurée : la v10 est donc préparée mais conditionnée à cette lecture, avec un
+seuil de décision fixé d'avance dans le brouillon.
 
 ## Contenu d'un envoi
 

@@ -223,15 +223,33 @@ function facts(slug: string) {
   };
 }
 
-async function mairieEmail(inseeCode: string): Promise<string | null> {
+// « Pas de courriel déclaré » et « annuaire injoignable » sont deux résultats
+// opposés qu'il ne faut jamais confondre : le premier est une donnée (la commune
+// n'expose pas d'adresse, on la saute définitivement), le second est une panne
+// (l'égress est bloqué, on n'a rien appris et il faut relancer ailleurs). Le
+// script les renvoyait tous les deux en `null` — un run du 2026-08-03 a ainsi
+// affiché « aucun courriel déclaré » sur 5 communes alors que le proxy refusait
+// les CONNECT et qu'aucune requête n'était jamais partie.
+type Lookup =
+  | { status: "found"; email: string }
+  | { status: "none" }
+  | { status: "unreachable"; detail: string };
+
+async function mairieEmail(inseeCode: string): Promise<Lookup> {
   const url = `${ANNUAIRE}?where=code_insee_commune%3D%22${inseeCode}%22%20and%20pivot%20like%20%22mairie%22&limit=3`;
-  const res = await fetch(url, {
-    headers: { "user-agent": "MaVilleIdeale/1.0 (bonjour@mavilleideale.fr)" },
-  });
-  if (!res.ok) return null;
+  let res: Response;
+  try {
+    res = await fetch(url, {
+      headers: { "user-agent": "MaVilleIdeale/1.0 (bonjour@mavilleideale.fr)" },
+    });
+  } catch (err) {
+    return { status: "unreachable", detail: (err as Error).message };
+  }
+  if (!res.ok) return { status: "unreachable", detail: `HTTP ${res.status}` };
   const rows: { nom?: string; adresse_courriel?: string }[] = (await res.json()).results ?? [];
   const mairie = rows.find((r) => (r.nom ?? "").startsWith("Mairie")) ?? rows[0];
-  return mairie?.adresse_courriel || null;
+  const email = mairie?.adresse_courriel;
+  return email ? { status: "found", email } : { status: "none" };
 }
 
 // Hook « vérification » (v9+). Le hook « badge » des vagues 5-8 demandait un
@@ -354,12 +372,28 @@ async function main() {
   ).slice(0, limit);
 
   const sent: string[] = [];
+  let unreachable = 0;
   for (const c of queue) {
-    const email = await mairieEmail(c.inseeCode);
-    if (!email) {
+    const lookup = await mairieEmail(c.inseeCode);
+    if (lookup.status === "unreachable") {
+      unreachable++;
+      console.log(`!!!  ${c.name} : annuaire injoignable (${lookup.detail})`);
+      // En dry-run l'adresse n'est pas nécessaire pour relire la copie : on
+      // imprime quand même le message, en disant clairement qu'aucune adresse
+      // n'a été résolue, pour que la relecture reste possible hors ligne.
+      if (!send) {
+        const draft = hook === "badge" ? compose(c.slug) : composeVerification(c.slug);
+        console.log(
+          `\n=== [adresse non résolue] (${c.name}, ${ord(draft.rank)})\nSUJET: ${draft.subject}\n\n${draft.text}\n`,
+        );
+      }
+      continue;
+    }
+    if (lookup.status === "none") {
       console.log(`—    ${c.name} : aucun courriel déclaré à l'annuaire (portail seul)`);
       continue;
     }
+    const email = lookup.email;
     const { subject, text, rank } =
       hook === "badge" ? compose(c.slug) : composeVerification(c.slug);
     if (!send) {
@@ -389,6 +423,16 @@ async function main() {
   if (send && sent.length) {
     writeFileSync(CONTACTED_PATH, `${JSON.stringify([...contacted, ...sent], null, 2)}\n`);
     console.log(`\n${sent.length} envoyés — ${CONTACTED_PATH} mis à jour.`);
+  }
+
+  // Une vague entièrement « injoignable » n'est pas une vague vide, c'est une
+  // panne : sortir en échec plutôt que de laisser croire que le vivier est sec.
+  if (unreachable) {
+    console.log(
+      `\n${unreachable}/${queue.length} cibles non résolues : annuaire injoignable.` +
+        ` Vérifier l'égress vers api-lannuaire.service-public.fr avant de conclure quoi que ce soit.`,
+    );
+    if (unreachable === queue.length) process.exitCode = 1;
   }
 }
 
