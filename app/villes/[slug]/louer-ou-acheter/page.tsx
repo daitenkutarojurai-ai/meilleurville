@@ -37,6 +37,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       : `Faut-il louer ou acheter à ${city.name} ? Données loyer / prix m² + simulation prêt 25 ans pour décider.`,
     alternates: cityAlternates("louer-ou-acheter", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Louer ou acheter à ${city.name} ?`,
       description: `Ratio prix/loyer + simulation prêt 25 ans + payback de l'apport. Verdict basé sur les médians du site.`,
     },

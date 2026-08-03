@@ -54,6 +54,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `${city.name} (${city.department}) : ${score}/10 pour la qualité de l'air, 10 = air le plus pur. Exposition ${AIR_LEVEL_LABEL_F[a.level]} — NO2, particules fines, ozone, pollens.`,
     alternates: cityAlternates("air", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Qualité de l'air à ${city.name} : ${score}/10`,
       description: `NO2 trafic, particules fines, ozone estival, pollens — synthèse pédagogique.`,
     },

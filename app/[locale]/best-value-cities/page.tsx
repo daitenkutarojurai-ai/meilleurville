@@ -24,6 +24,9 @@ export const metadata: Metadata = {
     "Top 50 French cities with the best quality-of-life-to-price ratio: overall score divided by buy price per m². The underrated cities where you get most for your money.",
   alternates: { canonical: `${EN_BASE}/best-value-cities` },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Best value-for-money cities in France 2026",
     description:
       "Which French cities give you the most quality of life per euro spent? Our value score reveals the underrated picks.",

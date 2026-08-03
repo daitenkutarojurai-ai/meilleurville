@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: macro.metaTitle,
     description: macro.metaDescription,
     alternates: { canonical: `/macro-region/${slug}` },
-    openGraph: { title: macro.metaTitle, description: macro.metaDescription },
+    openGraph: { title: macro.metaTitle, description: macro.metaDescription, images: ["/opengraph-image"] },
   };
 }
 

@@ -18,6 +18,9 @@ export const metadata: Metadata = {
     "Classement national INSEE des villes françaises selon le profil démographique : vieillissement, attractivité jeunes actifs, trajectoire pop, renouvellement. Top 30 dynamiques vs. top 20 critiques.",
   alternates: { canonical: "/demographie" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Démographie en France · palmarès 2026",
     description:
       "Top 30 villes au profil démographique le plus dynamique vs. top 20 en tension critique.",

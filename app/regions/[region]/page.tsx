@@ -94,6 +94,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Découvrez les ${cities.length} meilleures villes de ${region} : scores de qualité de vie, avis d'habitants, comparaisons. N°1 : ${topCity?.name} (${topCity?.scores.global}/10).`,
     alternates: { canonical: `/regions/${regionSlug}`, languages: hreflangLanguages(`/regions/${regionSlug}`) },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Villes de ${region} · MaVilleIdéale`,
       description: `${cities.length} villes analysées · Top : ${topCity?.name} ${topCity?.scores.global}/10`,
     },

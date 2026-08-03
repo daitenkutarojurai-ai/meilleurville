@@ -44,6 +44,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Quality-of-life index (environment + healthcare + employment) for all cities in the ${enLabel} macro-region. Top and bottom cities ranked.`,
     alternates: { canonical: `${EN_BASE}/quality-of-life/${macro.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Quality of life · ${enLabel}`,
       description: `Composite QoL score by city in the ${enLabel} macro-region.`,
     },

@@ -35,6 +35,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: clampMeta(`Coût mensuel réel à ${city.name} pour 4 profils : solo (T1), couple (T2), famille 2 enfants (T3), retraité. Loyer, chauffage, mobilité, taxes — médians honnêtes.`),
     alternates: { canonical: `/cout-menage/${ville}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Coût ménage à ${city.name} · 4 profils 2026`,
       description: `Solo, couple, famille, retraité : combien ça coûte vraiment chaque mois à ${city.name} ?`,
     },

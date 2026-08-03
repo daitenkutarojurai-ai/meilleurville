@@ -117,6 +117,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Chiffres-clés de ${city.name} (${city.department}) : ${pop}, niveau de vie médian, taux de pauvreté, chômage et structure d'âge. Sources INSEE.`.slice(0, 160),
     alternates: cityAlternates("statistiques", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Statistiques de ${city.name}`,
       description: `Population, niveau de vie médian, chômage, structure d'âge — synthèse INSEE ${bucket.label}.`,
     },

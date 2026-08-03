@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   description: `${QUITTER_PAIRS.length} origin → destination comparisons: Paris → Lyon, Marseille → Aix, Lille → Amiens, and more. Fixed costs, quality-of-life delta, and a verdict on who the move actually makes sense for.`,
   alternates: { canonical: `${EN_BASE}/moving-from` },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Moving from one French city to another",
     description: `${QUITTER_PAIRS.length} argued comparisons. Fixed costs + quality of life + profile verdict.`,
   },

@@ -42,6 +42,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: clampMeta(`${city.name} for a single-parent household: fit score ${fit.score.toFixed(1)}/10 (${label}), 3-bedroom rent, public schools, life without a car, minimum estimated income. Honest read, no sugarcoating.`),
     alternates: cityAlternatesEn("single-parent", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Single parent in ${city.name} — fit ${fit.score.toFixed(1)}/10`,
       description: `What it actually costs and how it actually works to raise a child alone in ${city.name}. Data-first, no clichés.`,
     },

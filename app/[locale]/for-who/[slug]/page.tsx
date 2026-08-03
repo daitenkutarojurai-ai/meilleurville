@@ -225,6 +225,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: `${EN_BASE}/for-who/${slug}`,
     },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: profile.metaTitle,
       description: profile.metaDescription,
       url: `${EN_BASE}/for-who/${slug}`,

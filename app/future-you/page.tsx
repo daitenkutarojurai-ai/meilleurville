@@ -16,6 +16,9 @@ export const metadata: Metadata = {
     "Salaire, foyer, mode de vie, priorités : on simule ce qu'il vous resterait chaque mois, combien d'heures libres par semaine et votre niveau de stress dans les 3 meilleures villes pour vous.",
   alternates: { canonical: "/future-you" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Future You — la vie en chiffres",
     description: "Simulation honnête de votre vie dans une autre ville.",
   },

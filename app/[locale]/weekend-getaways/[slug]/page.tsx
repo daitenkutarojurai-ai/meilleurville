@@ -36,6 +36,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Every French city reachable from ${city.name} in under 5 hours (TGV, Intercités or car). Ranked by travel time with a quality-of-life score.`,
     alternates: { canonical: `${EN_BASE}/weekend-getaways/${slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `From ${city.name} · Weekend destinations in France 2026`,
       description: `Weekend destinations from ${city.name} — estimated travel time for 500+ French cities.`,
     },

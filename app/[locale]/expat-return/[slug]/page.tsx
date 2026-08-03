@@ -484,6 +484,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Salary, tax, healthcare, admin steps: everything that changes when you return to France from ${name}. Practical per-country guide with city suggestions.`,
     alternates: { canonical: `${EN_BASE}/expat-return/from-${countryKey}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Returning to France from ${name} — practical guide 2026`,
       description: `What changes when you move back: purchasing power, healthcare, tax year split, driving licence exchange, and the best French cities to land in.`,
     },

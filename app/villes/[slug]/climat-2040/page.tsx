@@ -34,6 +34,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     } Basé sur Météo-France ARPEGE.`,
     alternates: cityAlternates("climat-2040", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Climat 2040 à ${city.name}`,
       description: `Hausse moyenne juillet, jours > 30 °C, nuits tropicales en 2040. Projection ARPEGE par macro-région.`,
     },

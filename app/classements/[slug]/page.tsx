@@ -38,7 +38,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: meta.headline,
     description: metaDesc,
     alternates: { canonical: `/classements/${slug}`, languages: hreflangLanguages(`/classements/${slug}`) },
-    openGraph: { title: meta.headline, description: metaDesc },
+    openGraph: { title: meta.headline, description: metaDesc, images: ["/opengraph-image"] },
     twitter: { card: "summary_large_image" },
   };
 }

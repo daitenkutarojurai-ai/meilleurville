@@ -129,6 +129,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `${city.name} (${city.department}) synthesis across 8 axes: global ${s.global}/10 (${LEVEL_LABEL_EN[s.level].toLowerCase()}). Strength: ${topAxis}, tension: ${bottomAxis}. Deterministic, no invented numbers.`,
     alternates: { canonical: `${EN_BASE}/cities/${slug}/overview` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `${city.name} overview — 8-axis data profile`,
       description: `Quality of life, environment, healthcare, employment, cycling, safety, demographics, public services — all in one screen.`,
     },

@@ -22,6 +22,9 @@ export const metadata: Metadata = {
     "Family, retirement, remote work, rising or falling budget — and a 2040 climate that changes everything. Find the French city that fits who you will be in 5 years, not who you are today.",
   alternates: { canonical: `${EN_BASE}/projection-5ans` },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "5-Year City Projection · BestCitiesInFrance",
     description: "352 French cities scored against your 5-year trajectory: family, career, budget and climate risk 2040.",
   },

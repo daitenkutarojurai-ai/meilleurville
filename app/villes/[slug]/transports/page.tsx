@@ -38,6 +38,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Réseau de transports à ${city.name} : ${summary} Sans-voiture, accessibilité.`,
     alternates: cityAlternates("transports", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Transports à ${city.name}`,
       description: summary,
     },

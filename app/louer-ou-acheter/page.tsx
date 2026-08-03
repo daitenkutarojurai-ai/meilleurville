@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   description: "Ratio prix/loyer par ville : où acheter s'amortit vite vs où louer reste rationnel. PER immobilier + médians 2026.",
   alternates: { canonical: "/louer-ou-acheter" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Louer ou acheter ? Classement France 2026",
     description: "Ratio prix/loyer par ville : où acheter s'amortit, où louer reste plus malin.",
   },

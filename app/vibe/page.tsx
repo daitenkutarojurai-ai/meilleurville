@@ -18,6 +18,9 @@ export const metadata: Metadata = {
     "Estimations éditoriales : quelle énergie se dégage de chaque ville française ? Calme, animé, festif, ressourcant, chargé — 352 villes classées par ambiance.",
   alternates: { canonical: "/vibe" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Vibe Map — Ambiance des villes françaises",
     description: "Quelle énergie se dégage de chaque ville ? Estimation dérivée des scores officiels.",
   },

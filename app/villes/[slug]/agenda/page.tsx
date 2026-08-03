@@ -29,6 +29,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Que faire à ${city.name} mois par mois : festivals, marchés, événements nationaux et régionaux, meilleures saisons pour visiter. Calendrier 2026 indicatif.`,
     alternates: cityAlternates("agenda", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Agenda ${city.name} · que faire mois par mois`,
       description: `Calendrier 2026 indicatif de ${city.name} — événements, marchés, saisons.`,
     },

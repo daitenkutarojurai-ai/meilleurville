@@ -38,6 +38,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `${city.name} (${city.department}) synthèse 8 axes : global ${s.global}/10 (${SYNTHESIS_LEVEL_LABEL[s.level].toLowerCase()}). Force ${topAxis}, tension ${bottomAxis}.`,
     alternates: cityAlternates("synthese", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Synthèse complète de ${city.name}`,
       description: `Panorama des 8 clusters data en un glance — cadre de vie, environnement, santé, emploi, vélo, sécurité, démographie, services publics.`,
     },

@@ -52,6 +52,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Rental market across ${label} cities: where renting is tight vs where it's accessible. Reference 1-bed rents and a pressure score per city.`,
     alternates: { canonical: `${EN_BASE}/rental-tension/${macro.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Rental market pressure · ${label}`,
       description: `How hard it is to find a rental, city by city across the ${label} macro-region.`,
     },

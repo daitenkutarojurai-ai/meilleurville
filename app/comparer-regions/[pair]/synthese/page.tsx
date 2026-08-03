@@ -63,6 +63,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Comparatif régional ${a} vs ${b} sur les 8 dimensions data : environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics. Profil moyen agrégé par région.`,
     alternates: { canonical: `/comparer-regions/${pair}/synthese` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `${a} vs ${b} · synthèse régionale 8 axes`,
       description: `Les profils moyens des deux régions comparés axe par axe.`,
     },

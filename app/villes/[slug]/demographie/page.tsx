@@ -49,6 +49,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: clampMeta(`Profil démographique de ${city.name} (${city.department}) : vieillissement ${DEMO_LEVEL_LABEL[d.ageing.level].toLowerCase()}, jeunes actifs ${DEMO_LEVEL_LABEL[d.youngActives.level].toLowerCase()}, trajectoire ${DEMO_LEVEL_LABEL[d.trajectory.level].toLowerCase()}. Score ${(10 - d.composite).toFixed(1)}/10 (10 = démographie dynamique).`),
     alternates: cityAlternates("demographie", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Démographie de ${city.name}`,
       description: `Vieillissement, jeunes actifs, trajectoire, renouvellement — synthèse INSEE.`,
     },

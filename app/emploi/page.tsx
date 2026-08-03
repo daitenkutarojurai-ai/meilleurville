@@ -18,6 +18,9 @@ export const metadata: Metadata = {
     "Classement national des villes françaises selon le marché du travail : chômage INSEE, dynamisme SIRENE, mix sectoriel, salaire net médian. Top 30 villes favorables vs. top 20 marchés sinistrés.",
   alternates: { canonical: "/emploi" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Marché du travail en France · meilleures villes 2026",
     description:
       "Top 30 villes au marché favorable vs. top 20 marchés sinistrés. INSEE / DARES / SIRENE / DADS.",

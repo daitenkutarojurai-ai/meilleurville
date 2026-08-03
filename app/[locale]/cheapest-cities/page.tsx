@@ -24,6 +24,9 @@ export const metadata: Metadata = {
     "Top 50 cheapest French cities by median 2-bed rent in 2026. Real data from national rent observatories (ANIL/OLL) and DVF property transactions. Where your housing budget actually goes far.",
   alternates: { canonical: `${EN_BASE}/cheapest-cities` },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Cheapest cities to live in France 2026",
     description:
       "Ranked by 2-bed median rent: 50 French cities where housing is still genuinely affordable.",

@@ -48,6 +48,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: `Comparaison à 3 entre ${a.name} (${a.scores.global}/10), ${b.name} (${b.scores.global}/10) et ${c.name} (${c.scores.global}/10) : coût de vie, sécurité, transport, nature, écoles. Tableau côte à côte + radar.`,
       alternates: { canonical: `/comparer/${pair}`, languages: hreflangLanguages(`/comparer/${pair}`) },
       openGraph: {
+        // Sans `images`, un openGraph de page remplace celui hérité de la racine
+        // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+        images: ["/opengraph-image"],
         title: `${a.name} vs ${b.name} vs ${c.name} · Quelle ville choisir ?`,
         description: `Comparatif complet sur 9 critères avec verdict par profil.`,
       },

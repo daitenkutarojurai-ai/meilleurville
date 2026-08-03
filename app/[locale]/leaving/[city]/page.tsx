@@ -106,6 +106,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Thinking of leaving ${origin.name}? By profile — family, remote worker, retiree, student, first-time buyer — here are the French cities that score better. Transparent model from official data, no tracking.`,
     alternates: { canonical: `${EN_BASE}/leaving/${origin.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Leaving ${origin.name}: where do people go, by profile?`,
       description: `French cities that beat ${origin.name} for each lifestyle profile.`,
     },

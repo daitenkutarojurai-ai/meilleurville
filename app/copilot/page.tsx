@@ -10,6 +10,9 @@ export const metadata: Metadata = {
     "Posez vos questions à notre assistant IA : il connaît les 352 villes françaises, leurs loyers, scores de qualité de vie, fiscalité et transports. Recommandations personnalisées en quelques secondes.",
   alternates: { canonical: "/copilot" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Copilote Déménagement IA",
     description: "352 villes · données 2026 · recommandations personnalisées",
   },

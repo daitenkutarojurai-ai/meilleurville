@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   description: `La note de qualité de vie des ${CITIES_COUNT} villes françaises, sur 8 critères mesurés — et l'avis des gens qui y vivent. Cherchez la vôtre, lisez, donnez le vôtre.`,
   alternates: { canonical: "/avis" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Avis et notes des villes de France | MaVilleIdéale",
     description: `Note sur 10 et avis d'habitants pour ${CITIES_COUNT} villes. 8 critères mesurés, aucun avis acheté.`,
     type: "website",

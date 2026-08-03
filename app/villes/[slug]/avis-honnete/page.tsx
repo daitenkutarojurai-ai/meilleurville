@@ -31,6 +31,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Synthèse honnête sur ${city.name} : ce qui marche vraiment, ce qui cloche, pour qui c'est fait.`,
     alternates: cityAlternates("avis-honnete", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Avis honnête sur ${city.name} · Points forts et faiblesses`,
       description: `Coups de cœur, points de vigilance, profils qui s'y plaisent (ou pas). Synthèse zéro chiffre inventé.`,
     },

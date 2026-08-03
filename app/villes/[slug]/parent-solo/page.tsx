@@ -43,6 +43,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `${city.name} en configuration parent solo : score fit ${fit.score.toFixed(1)}/10 (${label}), loyer T3, écoles publiques, transports sans voiture, budget minimum estimé.`,
     alternates: cityAlternates("parent-solo", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Parent solo à ${city.name} — fit ${fit.score.toFixed(1)}/10`,
       description: `Le vrai calcul pour un parent seul à ${city.name} : coût, transports, écoles, sécurité. Sans misérabilisme, sans « courage ».`,
     },

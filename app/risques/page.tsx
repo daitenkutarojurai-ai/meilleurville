@@ -23,6 +23,9 @@ export const metadata: Metadata = {
     "Quelles villes cumulent le plus de risques naturels (inondation, sismicité, argile, feux) vs lesquelles sont les plus tranquilles. Synthèse 4 aléas, BCSF + BRGM + ONF.",
   alternates: { canonical: "/risques" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Risques naturels en France · palmarès par ville 2026",
     description:
       "Top 30 villes les plus exposées vs top 20 les plus tranquilles. Inondation, sismicité, argile, feux de forêt.",

@@ -37,6 +37,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: clampMeta(`Synthèse SSMSI de la sécurité à ${city.name} (${city.department}) : atteintes biens ${SAFETY_LEVEL_LABEL[s.property.level].toLowerCase()}, personnes ${SAFETY_LEVEL_LABEL[s.persons.level].toLowerCase()}, nuit ${SAFETY_LEVEL_LABEL[s.nocturnal.level].toLowerCase()}, VFFS ${SAFETY_LEVEL_LABEL[s.vffs.level].toLowerCase()}. Score ${(10 - s.composite).toFixed(1)}/10 (10 = ville la plus sûre).`),
     alternates: cityAlternates("securite", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Sécurité à ${city.name} · détail SSMSI`,
       description: `Biens, personnes, nuit, VFFS — décomposition pédagogique.`,
     },

@@ -22,6 +22,9 @@ export const metadata: Metadata = {
     "Salary, household, lifestyle, priorities: simulate monthly leftover, free hours per week, stress level, and climate match in your top 3 French cities.",
   alternates: { canonical: `${EN_BASE}/future-you` },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Future You — life in numbers",
     description: "Honest simulation of your life in another French city.",
   },

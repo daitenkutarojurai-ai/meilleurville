@@ -45,6 +45,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Composite cycling index (infrastructure, topography, safety, climate) for cities in the ${label} macro-region. Top cycling cities vs most challenging terrain.`,
     alternates: { canonical: `${EN_BASE}/cycling/${macro.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Cycling-friendly cities · ${label}`,
       description: `Composite cycling mobility index for cities in the ${label} macro-region.`,
     },

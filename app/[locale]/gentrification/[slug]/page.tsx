@@ -75,6 +75,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `${city.name}: ${traj.label.toLowerCase()} trajectory (composite score ${row.score.toFixed(1)}/100). 4 signals: property prices, 25–35 demographics, new openings, remote-worker influx.`,
     alternates: { canonical: `${EN_BASE}/gentrification/${slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `${city.name} · Gentrification ${traj.label}`,
       description: `Composite score ${row.score.toFixed(1)}/100 across 4 signals.`,
     },

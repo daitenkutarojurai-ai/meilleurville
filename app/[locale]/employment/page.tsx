@@ -41,6 +41,9 @@ export const metadata: Metadata = {
     "National ranking of French cities by employment conditions: unemployment rate, job creation, sector diversification. Top 30 most active vs top 20 most difficult job markets.",
   alternates: { canonical: `${EN_BASE}/employment` },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Job market in France · best cities for employment 2026",
     description:
       "Top 30 most active job markets vs top 20 most difficult. INSEE / DARES / SIRENE / DADS.",

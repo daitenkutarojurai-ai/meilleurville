@@ -123,6 +123,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Le top des destinations françaises en ${label.toLowerCase()} : climat, affluence, activités. ${CITIES_COUNT} villes classées par score d'adéquation au mois. ${MONTH_ANGLES[idx].hook.slice(0, 60)}…`,
     alternates: { canonical: `/vacances/mois/${mois}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Où partir en France en ${label.toLowerCase()}`,
       description: `Climat, foule, prix : le bon classement, sans listicle de magazine.`,
     },

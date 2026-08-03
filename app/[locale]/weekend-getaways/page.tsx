@@ -22,6 +22,9 @@ export const metadata: Metadata = {
     "Pick your departure city and see every French destination ranked by travel time. Ideal for planning a weekend or a short break.",
   alternates: { canonical: `${EN_BASE}/weekend-getaways` },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Weekend getaways from your city · France 2026",
     description:
       "26 major French cities, every destination within 5 hours. SNCF estimates + local access.",

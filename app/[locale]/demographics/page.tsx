@@ -41,6 +41,9 @@ export const metadata: Metadata = {
     "National ranking of French cities by demographic trajectory: population growth, age structure, birth rate. Top 30 most dynamic vs top 20 most ageing.",
   alternates: { canonical: `${EN_BASE}/demographics` },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Demographics in France · dynamic cities vs ageing 2026",
     description:
       "Top 30 cities with the most dynamic demographic profile vs top 20 in critical tension.",

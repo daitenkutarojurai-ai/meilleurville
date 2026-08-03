@@ -32,6 +32,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Méga-index « Cadre de Vie » (environnement + santé + emploi) restreint aux villes de la macro-région ${macro.label}. Top villes pour vivre.`,
     alternates: { canonical: `/cadre-de-vie/${macro.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Cadre de vie · ${macro.label}`,
       description: `Méga-index par ville de la macro-région ${macro.label}.`,
     },

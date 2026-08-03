@@ -24,6 +24,9 @@ export const metadata: Metadata = {
     "Which energy does each French city give off? Calm, lively, festive, restorative, intense — 352 cities ranked by atmosphere. Deterministic estimates, not real-time data.",
   alternates: { canonical: `${EN_BASE}/vibe` },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "City Vibe Map — atmosphere of French cities",
     description: "What energy does each city give off? Derived from official quality-of-life scores.",
   },

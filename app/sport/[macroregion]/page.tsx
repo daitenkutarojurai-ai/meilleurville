@@ -32,6 +32,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Classement composite sport & loisirs (équipements, outdoor, clubs, climat) restreint aux villes de la macro-région ${macro.label}. Plus sportives vs. moins propices à la pratique.`,
     alternates: { canonical: `/sport/${macro.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Villes sportives · ${macro.label}`,
       description: `Index composite par ville de la macro-région ${macro.label}.`,
     },

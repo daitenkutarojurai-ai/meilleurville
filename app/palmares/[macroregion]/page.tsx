@@ -32,6 +32,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Classement universel synthèse 8 axes (env, santé, emploi, cadre, vélo, sécurité, démo, services) restreint aux villes de la macro-région ${macro.label}. Top profils favorables vs. tendus.`,
     alternates: { canonical: `/palmares/${macro.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Palmarès · ${macro.label}`,
       description: `Classement synthèse 8 axes par ville de la macro-région ${macro.label}.`,
     },

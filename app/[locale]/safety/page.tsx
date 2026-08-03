@@ -41,6 +41,9 @@ export const metadata: Metadata = {
     "National ranking of French cities by safety: crime rates, vandalism, domestic violence. Top 30 safest cities vs top 20 most strained. Sources: SSMSI / Ministry of Interior.",
   alternates: { canonical: `${EN_BASE}/safety` },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Safety in France · 2026 ranking",
     description:
       "Top 30 safest cities vs top 20 most strained — 4 SSMSI sub-scores.",

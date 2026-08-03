@@ -18,6 +18,9 @@ export const metadata: Metadata = {
     "Classement national des villes françaises selon la cyclabilité quotidienne : réseau cyclable, topographie, sécurité, climat. Top 30 villes les plus cyclables vs. top 20 les plus difficiles à vélo.",
   alternates: { canonical: "/velo" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Villes cyclables en France 2026",
     description:
       "Top 30 villes où le vélo est un plaisir vs. top 20 où il devient une épreuve. FUB · Vélo & Territoires · Géovélo.",

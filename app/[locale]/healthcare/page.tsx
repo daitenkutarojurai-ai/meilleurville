@@ -25,6 +25,9 @@ export const metadata: Metadata = {
     "National ranking of French cities by healthcare access: GPs, specialists, A&E, pharmacies. Top 30 best-served cities vs top 20 medical deserts. Sources: DREES / CNOM / ARS.",
   alternates: { canonical: `${EN_BASE}/healthcare` },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Healthcare access in France · hospitals vs deserts 2026",
     description:
       "Top 30 best-served cities (GPs + specialists + A&E) vs top 20 confirmed medical deserts.",

@@ -47,6 +47,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: `Comparatif à 3 entre ${a.name}, ${b.name} et ${c.name} : environnement, santé, emploi, cadre de vie, sécurité, démographie. Verdict axe par axe.`,
       alternates: { canonical: `/comparer/${pair}/synthese` },
       openGraph: {
+        // Sans `images`, un openGraph de page remplace celui hérité de la racine
+        // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+        images: ["/opengraph-image"],
         title: `${a.name} vs ${b.name} vs ${c.name} · synthèse 8 axes`,
         description: `Les 8 dimensions data du site comparées entre 3 villes.`,
       },

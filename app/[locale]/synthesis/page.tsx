@@ -51,6 +51,9 @@ export const metadata: Metadata = {
   description: `8-dimension data synthesis (environment, healthcare, employment, quality of life, cycling, safety, demographics, public services) across ${CITIES_COUNT} cities, 102 departments, 18 regions, 6 macro-regions and a national leaderboard. Compare two cities or two regions side by side.`,
   alternates: { canonical: `${EN_BASE}/synthesis` },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "8-axis synthesis · BestCitiesInFrance",
     description: "One system, eight dimensions, five geographic levels. Everything you need to compare a French city, department, region or the country as a whole.",
   },

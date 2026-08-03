@@ -15,6 +15,9 @@ export const metadata: Metadata = {
     "Quiz court 8 sliders : pondérez environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics selon vos priorités. Top 10 villes recalculé en direct + lien partageable.",
   alternates: { canonical: "/palmares/personnaliser" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Palmarès personnalisé 8 axes",
     description:
       "Pondère les 8 dimensions data du site et obtiens ton top 10 villes en direct.",

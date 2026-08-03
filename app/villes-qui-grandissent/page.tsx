@@ -23,6 +23,9 @@ export const metadata: Metadata = {
     "Classement Insee des villes françaises qui gagnent le plus d'habitants entre 2016 et 2022, et de celles qui en perdent le plus. Chiffres réels du recensement, filtre 15 000 habitants.",
   alternates: { canonical: "/villes-qui-grandissent" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Villes qui grandissent en France · palmarès Insee 2016-2022",
     description:
       "Top 30 des communes qui gagnent le plus d'habitants (recensement Insee 2022) et top 20 de celles qui en perdent le plus.",

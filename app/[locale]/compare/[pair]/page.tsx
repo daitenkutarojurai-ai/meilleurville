@@ -85,6 +85,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Full comparison of ${a.name} (${a.scores.global}/10) and ${b.name} (${b.scores.global}/10): cost of living, transport, nature, safety, schools. Which French city should you choose?`,
     alternates: { canonical: `${EN_BASE}/compare/${pair}`, languages: hreflangLanguagesEn(`/compare/${pair}`) },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `${a.name} vs ${b.name} — which city wins?`,
       description: `${a.name}: ${a.scores.global}/10 · ${b.name}: ${b.scores.global}/10. Compare every criterion.`,
     },

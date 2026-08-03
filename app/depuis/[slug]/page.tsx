@@ -33,6 +33,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Toutes les villes françaises accessibles depuis ${city.name} en moins de 5h (TGV, Intercités ou voiture). Classées par temps de trajet avec score de qualité de vie.`,
     alternates: { canonical: `/depuis/${slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Depuis ${city.name} · Destinations week-end France 2026`,
       description: `Destinations week-end depuis ${city.name} — temps de trajet estimé pour 500+ villes françaises.`,
     },

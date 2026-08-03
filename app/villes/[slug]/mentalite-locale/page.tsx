@@ -29,6 +29,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Comment vit-on socialement à ${city.name} ? Tempo, ouverture, culture café, vie associative, archetype régional. Synthèse 2026 dérivée du seed + tags.`,
     alternates: cityAlternates("mentalite-locale", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Mentalité locale ${city.name} — comment vit-on socialement`,
       description: `6 dimensions sociales synthétisées pour ${city.name}.`,
     },

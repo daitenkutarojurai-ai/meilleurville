@@ -45,6 +45,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Composite employment ranking (unemployment, salary, dynamism, sector mix) for cities in the ${label} macro-region. Most dynamic vs most difficult labour markets.`,
     alternates: { canonical: `${EN_BASE}/employment/${macro.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Job market · ${label}`,
       description: `Composite employment index for cities in the ${label} macro-region.`,
     },

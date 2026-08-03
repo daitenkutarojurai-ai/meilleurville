@@ -33,6 +33,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Salaire net ${salary} €/mois : où vivre confortablement en France ? Top 10 villes compatibles avec budget logement ${Math.round(salary * 0.33)} €, calcul du reste à vivre + comparatif Paris.`,
     alternates: { canonical: `/vivre-avec/${salaire}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Vivre avec ${salary} €/mois · Quelles villes ?`,
       description: `Top 10 villes compatibles + breakdown coût réel pour la #1.`,
     },

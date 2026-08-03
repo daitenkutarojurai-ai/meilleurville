@@ -22,6 +22,9 @@ export const metadata: Metadata = {
   description: `Classement national unifié des ${CITIES_COUNT} villes françaises sur les 8 dimensions data du site (environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics). Top 30 profils les plus favorables vs. top 20 plus tendus.`,
   alternates: { canonical: "/palmares" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Palmarès national · meilleur cadre de vie 2026",
     description:
       "Classement universel agrégeant les 8 clusters data du site. Top 30 profils favorables vs. top 20 tendus.",

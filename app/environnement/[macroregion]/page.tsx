@@ -32,6 +32,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Classement environnemental composite (air, bruit, eau, risques) restreint aux villes de la macro-région ${macro.label}. Top villes saines vs. plus exposées.`,
     alternates: { canonical: `/environnement/${macro.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Villes saines · ${macro.label}`,
       description: `Index environnemental composite par ville de la macro-région ${macro.label}.`,
     },

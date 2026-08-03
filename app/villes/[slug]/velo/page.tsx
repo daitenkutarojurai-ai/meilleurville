@@ -36,6 +36,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Synthèse de la cyclabilité à ${city.name} (${city.department}) : réseau ${CYCLING_LEVEL_LABEL[c.network.level].toLowerCase()}, relief ${CYCLING_LEVEL_LABEL[c.topography.level].toLowerCase()}, sécurité ${CYCLING_LEVEL_LABEL[c.safety.level].toLowerCase()}, climat ${CYCLING_LEVEL_LABEL[c.climate.level].toLowerCase()}. Score ${c.composite}/10.`,
     alternates: cityAlternates("velo", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Vivre à vélo à ${city.name}`,
       description: `Réseau cyclable, relief, sécurité et climat — synthèse pédagogique.`,
     },

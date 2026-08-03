@@ -47,6 +47,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Vous envisagez de quitter ${city.name} ? Selon votre profil — famille, télétravailleur, jeune actif, retraité, étudiant, primo-accédant — voici les villes qui font mieux. Modèle estimatif transparent (scores officiels), pas du suivi.`,
     alternates: { canonical: `/ou-vont-les-gens/${city.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Quitter ${city.name} : où va-t-on selon son profil ?`,
       description: `Les destinations qui font mieux que ${city.name}, profil par profil.`,
     },

@@ -109,6 +109,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `When to visit ${city.name} (${city.department}): best months ${months}. Climate, crowds, activities where the city excels. Holiday fit score + hotels.`,
     alternates: { canonical: `${EN_BASE}/vacations/${city.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Holidays in ${city.name}`,
       description: `When to go, what to do, what to budget.`,
     },

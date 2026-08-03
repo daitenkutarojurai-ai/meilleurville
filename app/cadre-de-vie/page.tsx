@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   description: `Index Cadre de Vie agrégeant environnement (air, bruit, eau, risques), santé (accès aux soins), emploi (chômage, salaires, dynamisme) pour les ${CITIES_COUNT} villes françaises. Top 30 villes au meilleur cadre de vie.`,
   alternates: { canonical: "/cadre-de-vie" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Meilleur cadre de vie en France 2026",
     description:
       "Index composite unique : environnement 35 % + santé 30 % + emploi 35 %. Top 30 villes pour vivre en France.",

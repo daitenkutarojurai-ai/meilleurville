@@ -45,6 +45,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Composite environmental ranking (air, noise, water, natural risks) for cities in the ${label} macro-region. Cleanest vs most exposed cities.`,
     alternates: { canonical: `${EN_BASE}/environment/${macro.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Healthiest cities · ${label}`,
       description: `Composite environmental index for cities in the ${label} macro-region.`,
     },

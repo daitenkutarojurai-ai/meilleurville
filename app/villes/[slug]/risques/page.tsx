@@ -37,6 +37,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: clampMeta(`Synthèse des 4 risques naturels à ${city.name} (${city.department}) : inondation ${RISK_LEVEL_LABEL[r.flood.level].toLowerCase()}, sismicité ${RISK_LEVEL_LABEL[r.seismic.level].toLowerCase()}, argile ${RISK_LEVEL_LABEL[r.clay.level].toLowerCase()}, feu de forêt ${RISK_LEVEL_LABEL[r.wildfire.level].toLowerCase()}. Score composite ${r.composite}/10.`),
     alternates: cityAlternates("risques", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Risques naturels à ${city.name}`,
       description: `Inondation, sismicité, argile, feux de forêt — synthèse pédagogique avant achat ou location.`,
     },

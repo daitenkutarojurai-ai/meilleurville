@@ -17,6 +17,9 @@ export const metadata: Metadata = {
     "Faites défiler les années 2026 → 2040 et regardez la France se réchauffer en direct. Projection ARPEGE / GIEC interpolée par macro-région, sur 540 villes.",
   alternates: { canonical: "/climat-2040-timelapse" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Climat 2040 timelapse",
     description: "France année par année, 2026 → 2040.",
   },

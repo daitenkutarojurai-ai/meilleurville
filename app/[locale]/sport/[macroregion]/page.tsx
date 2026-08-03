@@ -55,6 +55,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Composite sport & leisure ranking (facilities, outdoor, clubs, climate) restricted to cities in the ${label} macro-region. Most sport-friendly vs least sport-friendly.`,
     alternates: { canonical: `${EN_BASE}/sport/${macro.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Sport-friendly cities · ${label}`,
       description: `Composite index by city across the ${label} macro-region.`,
     },

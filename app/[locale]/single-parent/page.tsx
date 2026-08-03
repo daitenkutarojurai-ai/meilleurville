@@ -68,6 +68,9 @@ export const metadata: Metadata = {
     "Top 30 French cities where single-parent life holds: cost, transit, schools, safety. Weighted composite of 4 axes, estimated minimum income to rent a T3.",
   alternates: { canonical: `${EN_BASE}/single-parent` },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Single parent in France · French cities that actually work in 2026",
     description:
       "One income, one driver. Ranking of 4 axes (cost, transit, schools, safety) across 540 French cities. No sugarcoating.",

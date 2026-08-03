@@ -68,6 +68,9 @@ export async function generateMetadata({
     description: `Retail offer across ${label} cities: density, markets & proximity, big-box, downtown vitality. Editorial ranking derived from INSEE / Procos.`,
     alternates: { canonical: `${EN_BASE}/retail-coverage/${macro.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Retail coverage · ${label}`,
       description: `City-by-city retail and downtown-vitality ranking across the ${label} macro-region.`,
     },

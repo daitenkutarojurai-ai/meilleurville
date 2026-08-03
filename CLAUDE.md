@@ -143,6 +143,17 @@ Distribution mean ≈ 5.42. Penalties:
   **not** shared across locales (`sante` ↔ `healthcare`): never derive the EN
   URL by translating the head segment alone — a hreflang pointing at a 404 is
   worse than none.
+- **`openGraph` has the exact same trap as `alternates`** (found 2026-08-03):
+  a page-level `openGraph` object **replaces the inherited one wholesale**, so
+  declaring `openGraph: { title, description }` without `images` doesn't fall
+  back to the root `opengraph-image.tsx` — it emits **no `og:image` at all**.
+  237 pages shipped with no social card because of this (78 EN incl. the EN
+  homepage, 159 FR), which is why shared links rendered without the logo. Every
+  page-level `openGraph` must carry `images: ["/opengraph-image"]` unless the
+  route has its own `opengraph-image.tsx` sibling (which does inherit
+  correctly). Sweep for regressions with: for each `page.tsx` containing
+  `openGraph`, flag it when it has no `images:` and no sibling
+  `opengraph-image.tsx`.
 - **Brand name**: **`MaVilleIdéale`** (FR) / `BestCitiesInFrance` (EN) — with the
   final `e` and the accent, matching the domain and the transactional emails.
   The accent-less `MaVilleIdeal` was purged 2026-07-27 across 148 occurrences;

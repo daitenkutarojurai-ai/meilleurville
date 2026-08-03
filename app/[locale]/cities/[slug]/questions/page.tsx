@@ -27,6 +27,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Everything to know before moving to ${city.name}: rents, safety, commute, 2040 climate, schools, remote work. Data-grounded 2026 answers.`,
     alternates: cityAlternatesEn("questions", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `${city.name} — FAQ 2026`,
       description: `13 questions, 13 data-grounded answers about ${city.name}.`,
     },

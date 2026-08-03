@@ -32,6 +32,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Compare ${hoods.length || "all"} neighbourhoods in ${city.name}: safety, rents, transport, and atmosphere. Find the district that matches your lifestyle.`,
     alternates: cityAlternatesEn("neighbourhoods", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `${city.name} — neighbourhoods compared`,
       description: `Safety, rents, transport and vibe for each district. Which neighbourhood fits you?`,
     },

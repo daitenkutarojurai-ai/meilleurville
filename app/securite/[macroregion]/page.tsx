@@ -32,6 +32,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Classement composite sécurité SSMSI (biens, personnes, nuit, VFFS) restreint aux villes de la macro-région ${macro.label}. Plus calmes vs. plus tendues.`,
     alternates: { canonical: `/securite/${macro.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Sécurité SSMSI · ${macro.label}`,
       description: `Index composite par ville de la macro-région ${macro.label}.`,
     },

@@ -30,6 +30,9 @@ export const metadata: Metadata = {
     "Carte et classement de l'orientation politique de 540 villes françaises d'après le 1er tour de la présidentielle 2022 (Ministère de l'Intérieur) : gauche, centre, extrême droite.",
   alternates: { canonical: "/orientation-politique" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Orientation politique des villes françaises",
     description: "Le vote des habitants au 1er tour 2022, ville par ville, sur une carte. Indicatif, source Min. Intérieur.",
   },

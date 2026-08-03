@@ -45,6 +45,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Composite healthcare access ranking (GPs, specialists, A&E, pharmacies) for cities in the ${label} macro-region. Best-served cities vs medical deserts.`,
     alternates: { canonical: `${EN_BASE}/healthcare/${macro.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Healthcare access · ${label}`,
       description: `Composite healthcare index for cities in the ${label} macro-region.`,
     },

@@ -25,6 +25,9 @@ export const metadata: Metadata = {
     "National ranking of French cities by everyday sport: facilities, outdoor playground, club scene, climate. Top 30 most sport-friendly cities vs top 20 most challenging. Sources: INJEP · RES · CREPS · DRAJES.",
   alternates: { canonical: `${EN_BASE}/sport` },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Most sport-friendly cities in France 2026",
     description:
       "Top 30 cities where everyday sport is easy vs top 20 where it stays demanding. INJEP · RES · CREPS · DRAJES.",

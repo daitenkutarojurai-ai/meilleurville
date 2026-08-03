@@ -10,7 +10,7 @@ export const metadata: Metadata = theme
       title: theme.metaTitle,
       description: theme.metaDescription,
       alternates: { canonical: `/red-flags/${theme.slug}` },
-      openGraph: { title: theme.metaTitle, description: theme.metaDescription },
+      openGraph: { title: theme.metaTitle, description: theme.metaDescription, images: ["/opengraph-image"] },
     }
   : {};
 

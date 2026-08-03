@@ -127,6 +127,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Key figures for ${city.name} (${city.department}): ${pop}, département median net wage, unemployment rate, age structure and demographic trajectory. INSEE sources.`.slice(0, 160),
     alternates: cityAlternatesEn("statistics", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `${city.name} statistics`,
       description: `Population, median wage, unemployment, age structure — INSEE synthesis ${bucket.label}.`,
     },

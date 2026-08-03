@@ -34,6 +34,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Estimation départementale 2026 pour ${city.name} (${city.department}) : taxe foncière (${f.taxeFonciereT3}), THRS, droits de mutation. Données DGFiP.`,
     alternates: cityAlternates("fiscalite", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Fiscalité · ${city.name}`,
       description: `${f.tierLabel} (département ${city.department}). Taxe foncière estimée ${f.taxeFonciereT3}.`,
     },

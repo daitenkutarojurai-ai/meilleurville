@@ -30,6 +30,9 @@ export const metadata: Metadata = {
   description: `Best time, best destination. Honest rankings of ${CITIES_COUNT} French cities for your holiday: beach, mountains, city breaks, wine regions. Real climate data + crowd levels + budget.`,
   alternates: { canonical: `${EN_BASE}/vacations` },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Holidays in France · where to go, when, for what",
     description: "Month by month, activity by activity. No magic top-10 lists, no agency filler.",
   },

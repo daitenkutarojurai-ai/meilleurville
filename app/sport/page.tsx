@@ -18,6 +18,9 @@ export const metadata: Metadata = {
     "Classement national des villes françaises selon la pratique sportive quotidienne : équipements, cadre outdoor, vie associative, climat. Top 30 villes les plus sportives vs. top 20 les moins propices.",
   alternates: { canonical: "/sport" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Villes sportives en France 2026",
     description:
       "Top 30 villes où la pratique sportive est facile vs. top 20 où elle reste contraignante. INJEP · RES · CREPS · DRAJES.",

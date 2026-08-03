@@ -36,6 +36,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Synthèse de la pratique sportive à ${city.name} (${city.department}) : équipements ${SPORT_LEVEL_LABEL[s.facilities.level].toLowerCase()}, outdoor ${SPORT_LEVEL_LABEL[s.outdoor.level].toLowerCase()}, clubs ${SPORT_LEVEL_LABEL[s.clubs.level].toLowerCase()}, climat ${SPORT_LEVEL_LABEL[s.climate.level].toLowerCase()}. Score ${s.composite}/10.`,
     alternates: cityAlternates("sport", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Faire du sport à ${city.name}`,
       description: `Équipements, cadre outdoor, vie associative et climat — synthèse pédagogique.`,
     },

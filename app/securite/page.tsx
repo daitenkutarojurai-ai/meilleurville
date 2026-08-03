@@ -18,6 +18,9 @@ export const metadata: Metadata = {
     "Classement national SSMSI des villes françaises selon la sécurité : atteintes biens, personnes, nuit, violences faites aux femmes. Top 30 villes calmes vs. top 20 les plus tendues. Sources SSMSI / Insee CVS.",
   alternates: { canonical: "/securite" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Sécurité en France · palmarès 2026",
     description:
       "Top 30 villes les plus calmes vs. top 20 les plus tendues, décomposition SSMSI sur 4 sous-axes.",

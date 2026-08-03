@@ -29,6 +29,9 @@ export const metadata: Metadata = {
     "Where flooding, seismic activity, clay-shrinkage and wildfires stack up in France. Top 30 most-exposed cities vs top 20 safest — BCSF · BRGM · ONF sources.",
   alternates: { canonical: `${EN_BASE}/natural-risks` },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Natural risks in France · 2026 city ranking",
     description:
       "Top 30 most-exposed cities vs top 20 safest across flood, seismic, clay shrinkage and wildfire hazards.",

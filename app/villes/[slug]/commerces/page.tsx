@@ -37,6 +37,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: clampMeta(`Couverture commerciale de ${city.name} (${city.department}) : offre ${COMMERCE_LEVEL_LABEL[c.coverage.level].toLowerCase()}, marchés & proximité, grandes surfaces, vitalité du centre-ville. Score ${c.composite.toFixed(1)}/10 (10 = excellent).`),
     alternates: cityAlternates("commerces", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Commerces à ${city.name}`,
       description: `Couverture commerciale, marchés, grandes surfaces, centre-ville — synthèse dérivée du profil de la ville.`,
     },

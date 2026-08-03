@@ -15,6 +15,9 @@ export const metadata: Metadata = {
     "Choisissez votre ville de départ et découvrez toutes les destinations françaises classées par temps de trajet. Idéal pour planifier un week-end ou une escapade.",
   alternates: { canonical: "/depuis" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Week-end depuis votre ville · Destinations France 2026",
     description:
       "26 grandes villes françaises, toutes leurs destinations à moins de 5h. Estimations SNCF + accès local.",

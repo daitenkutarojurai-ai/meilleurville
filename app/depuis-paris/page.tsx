@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   description: "Temps de trajet ferroviaire Paris ↔ chaque ville française. Top villes < 1 h, < 2 h, < 3 h depuis Paris-gares. Idéal télétravailleurs et week-end commuters.",
   alternates: { canonical: "/depuis-paris" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Depuis Paris en train · Classement 2026",
     description: "Temps de trajet TGV/TER Paris ↔ chaque ville française. Estimation horaires SNCF + accès local.",
   },

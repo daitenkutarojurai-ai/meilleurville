@@ -24,6 +24,9 @@ export const metadata: Metadata = {
     "11 lifestyle personas × 50 major French cities: see where people like you (family, freelance, retiree…) gain the most by relocating from your current city.",
   alternates: { canonical: `${EN_BASE}/people-like-you` },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "People Like You · BestCitiesInFrance",
     description: "Your persona × your origin city → top relocation destinations.",
   },

@@ -15,6 +15,9 @@ export const metadata: Metadata = {
     "8 questions, 90 secondes : on calcule votre match personnel parmi 540 villes françaises. Top 3 + match surprise, classement live à chaque réponse, lien partageable.",
   alternates: { canonical: "/city-match" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "City Match · Le Tinder des villes françaises",
     description: "8 questions → vos 3 villes qui collent à votre vie.",
   },

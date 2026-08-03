@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   description: `Plus de ${QUITTER_PAIRS.length} comparatifs origine → destination : Paris → Lyon, Marseille → Aix, Lille → Lille, etc. Charges fixes, owner scores, verdict pour qui le move a du sens.`,
   alternates: { canonical: "/quitter" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Quitter une ville pour une autre",
     description: `Comparatifs argumentés sur ${QUITTER_PAIRS.length} paires. Charges fixes + qualité de vie + profil.`,
   },

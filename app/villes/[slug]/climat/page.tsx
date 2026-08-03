@@ -146,6 +146,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Climat ${climate.label.toLowerCase()} à ${city.name} : ${city.avgTempJuly ?? "–"} °C en juillet, ${city.avgTempJanuary ?? "–"} °C en janvier, ${sunshineDays(city.sunshinedays) ?? "–"} jours de soleil par an. Quand y aller, à quoi s'attendre.`,
     alternates: cityAlternates("climat", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Climat de ${city.name} · ${climate.label}`,
       description: `${sunshineDays(city.sunshinedays) ?? "–"} j de soleil · ${city.avgTempJuly ?? "–"}/${city.avgTempJanuary ?? "–"} °C juillet/janvier`,
     },

@@ -34,6 +34,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: clampMeta(`Une forme géométrique générée à partir des 8 axes de score de ${city.name} (global ${score}/10). Chaque ville française a sa propre empreinte — partage la tienne.`),
     alternates: cityAlternates("empreinte", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Empreinte de ${city.name}`,
       description: `Signature visuelle générée à partir des 8 axes de qualité de vie. Score global ${score}/10.`,
     },

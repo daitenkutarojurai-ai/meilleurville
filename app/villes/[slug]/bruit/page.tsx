@@ -36,6 +36,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Synthèse du bruit à ${city.name} (${city.department}) : routier ${NOISE_LEVEL_LABEL[n.road.level].toLowerCase()}, aérien ${NOISE_LEVEL_LABEL[n.aircraft.level].toLowerCase()}, ferroviaire ${NOISE_LEVEL_LABEL[n.rail.level].toLowerCase()}, nocturne ${NOISE_LEVEL_LABEL[n.urbanNight.level].toLowerCase()}. Score composite ${n.composite}/10.`,
     alternates: cityAlternates("bruit", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Bruit à ${city.name}`,
       description: `Routier, aérien, ferroviaire, nocturne — synthèse acoustique CBS / OMS.`,
     },

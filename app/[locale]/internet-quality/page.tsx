@@ -29,6 +29,9 @@ export const metadata: Metadata = {
     "Where fibre is widely deployed in France and where the connection is still patchy. Top 30 best-connected cities vs top 20 worst — ARCEP Q4 2024 data.",
   alternates: { canonical: `${EN_BASE}/internet-quality` },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Fibre & internet coverage in France · 2026 ranking",
     description:
       "Top 30 cities with fully deployed FTTH vs top 20 where connections stay patchy. Regional estimate from ARCEP Q4 2024.",

@@ -19,6 +19,9 @@ export const metadata: Metadata = {
     "Ask our AI assistant about any of 352 French cities: rents, quality-of-life scores, taxes, transport. Personalised recommendations in seconds. Ask in English or French.",
   alternates: { canonical: `${EN_BASE}/copilot` },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "AI Relocation Copilot · BestCitiesInFrance",
     description: "352 cities · 2026 data · personalised recommendations",
   },

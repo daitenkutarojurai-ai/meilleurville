@@ -99,6 +99,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `How sport-friendly is ${c.name}? Municipal facilities, outdoor playground, club scene and year-round climate. Composite ${s.composite}/10 (${LEVEL_EN[s.level].toLowerCase()}).`,
     alternates: cityAlternatesEn("sports-leisure", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Sport & leisure in ${c.name}`,
       description: `Facilities, outdoor, clubs and climate — a pedagogical synthesis.`,
     },

@@ -36,6 +36,9 @@ export const metadata: Metadata = {
   description: `Parks, public gardens and playgrounds across ${PARKS_CITY_COUNT} French cities, mapped from OpenStreetMap. Playground, step-free access, drinking water — what actually decides a Saturday morning.`,
   alternates: { canonical: `${EN_BASE}/parks` },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Parks & green space in French cities | BestCitiesInFrance",
     description: `${PARKS_TOTAL} parks mapped across ${PARKS_CITY_COUNT} cities`,
   },

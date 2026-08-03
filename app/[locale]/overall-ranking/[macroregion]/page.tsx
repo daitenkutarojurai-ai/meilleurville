@@ -62,6 +62,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Composite ranking of cities in the ${label} macro-region across 8 data dimensions: environment, healthcare, employment, quality of life, cycling, safety, demographics, public services. 10 = excellent.`,
     alternates: { canonical: `${EN_BASE}/overall-ranking/${macro.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Overall ranking · ${label}`,
       description: `8-dimension composite ranking for cities in the ${label} macro-region.`,
     },

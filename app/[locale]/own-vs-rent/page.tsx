@@ -23,6 +23,9 @@ export const metadata: Metadata = {
     "Ranking of French cities by price-to-rent ratio (PER). Cities where buying pays off quickly vs where renting stays rational. 2026 medians + benchmarks.",
   alternates: { canonical: `${EN_BASE}/own-vs-rent` },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Rent or buy in France 2026 · Price-to-rent ratio by city",
     description:
       "Ranking of French cities by price-to-rent ratio (PER). Cities where buying pays off quickly vs where renting stays rational. 2026 medians + benchmarks.",

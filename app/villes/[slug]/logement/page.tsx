@@ -33,6 +33,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Loyers T1/T2/T3 et prix d'achat au m² à ${city.name}. Tension du marché, quartiers abordables, comparaison location vs achat. Données Clameur 2024.`,
     alternates: cityAlternates("logement", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Logement à ${city.name} · Loyers et marché immobilier 2026`,
       description: h
         ? `T2 ${h.avgRentT2} €/mois · Achat ${h.avgBuyPriceM2} €/m² · Score coût ${city.scores.cost.toFixed(1)}/10`

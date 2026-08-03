@@ -47,6 +47,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Quitter ${origin.name} pour ${destination.name} : loyer, charges, owner scores, climat, verdict pour qui le move a du sens.${savingsLabel}`,
     alternates: { canonical: `/quitter/${pair}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Quitter ${origin.name} pour ${destination.name} ?`,
       description: `Comparatif coût mensuel, owner scores et profil. Décision argumentée, zéro promesse vide.`,
     },

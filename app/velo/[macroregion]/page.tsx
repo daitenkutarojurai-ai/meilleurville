@@ -32,6 +32,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Classement composite cyclabilité (réseau, relief, sécurité, climat) restreint aux villes de la macro-région ${macro.label}. Plus cyclables vs. plus difficiles à vélo.`,
     alternates: { canonical: `/velo/${macro.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Villes cyclables · ${macro.label}`,
       description: `Index composite par ville de la macro-région ${macro.label}.`,
     },

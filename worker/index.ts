@@ -40,6 +40,7 @@ import { sendBrevoEmail } from "@/lib/brevo";
 import { rateLimit, rateLimitD1, getClientIp } from "@/lib/rate-limit";
 import { checkContent } from "@/lib/spam-filter";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { FR_TO_EN_CITY_SUB } from "@/lib/i18n";
 import {
   signSession,
   verifySession,
@@ -727,6 +728,72 @@ function handleCitiesSearch(request: Request, url: URL): Response {
   return json({ results }, { headers: { "Cache-Control": "public, s-maxage=3600, stale-while-revalidate=86400" } });
 }
 
+// ---- FR paths served on the EN domain --------------------------------------
+
+const EN_ORIGIN = "https://bestcitiesinfrance.com";
+const FR_ORIGIN = "https://www.mavilleideale.fr";
+
+/**
+ * Segments de tête FR → leur équivalent EN.
+ *
+ * Uniquement ceux dont le nom FR **diffère** du nom EN : ce sont les seuls
+ * qu'on peut reconnaître comme « chemin FR » sans ambiguïté. `guides`,
+ * `regions`, `tags`, `red-flags`, `compare-regions` portent le même segment de
+ * tête des deux côtés — un slug FR y est indiscernable d'un slug EN sans
+ * charger les deux corpus dans le Worker, et une redirection à tort casserait
+ * une vraie page EN. Ceux-là restent servis (ou 404) tels quels.
+ */
+const FR_HEAD_TO_EN: Record<string, string> = {
+  villes: "cities",
+  comparer: "compare",
+  classements: "rankings",
+  departements: "departments",
+  depuis: "weekend-getaways",
+  vacances: "vacations",
+};
+
+/**
+ * Têtes dont le slug de 2ᵉ niveau est **identique** des deux côtés, donc
+ * traduisibles en confiance : slugs de ville (`cities/lyon`), paires
+ * `a-vs-b`, slugs de classement (`rankings/securite`), codes de département.
+ * Tout ce qui va plus profond, ou dont la tête n'est pas ici (`vacances`, dont
+ * les sous-segments FR `profil`/`mois`/`activite` n'existent pas en EN), part
+ * vers le site FR : la page y existe, alors qu'une URL EN devinée serait un
+ * 301 vers un 404.
+ */
+const FR_HEAD_SLUG_SHARED = new Set(["villes", "comparer", "classements", "departements", "depuis"]);
+
+/**
+ * Traduit un chemin FR reçu sur le domaine EN, ou null si ce n'est pas un
+ * chemin FR connu (auquel cas on laisse l'asset server répondre normalement —
+ * ce chemin est peut-être une vraie route EN).
+ *
+ * Deux niveaux de repli, jamais d'URL devinée :
+ *  - tête FR + sous-segment ville connu → l'URL EN exacte ;
+ *  - tête FR sans équivalent sûr → la page FR, qui elle existe.
+ * Un 301 vers un 404 coûterait plus cher que le 404 qu'on remplace.
+ */
+function frPathToEn(pathname: string): string | null {
+  const parts = pathname.replace(/\/+$/, "").split("/").filter(Boolean);
+  if (parts.length === 0) return null;
+  const head = parts[0];
+  const enHead = FR_HEAD_TO_EN[head];
+  if (!enHead) return null;
+
+  // /villes/[slug]/[sous-page] → /cities/[slug]/[sub-page]
+  if (head === "villes" && parts.length === 3) {
+    const enSub = FR_TO_EN_CITY_SUB[parts[2]];
+    return enSub
+      ? `${EN_ORIGIN}/cities/${parts[1]}/${enSub}`
+      : `${FR_ORIGIN}${pathname}`;
+  }
+  if (parts.length === 1) return `${EN_ORIGIN}/${enHead}`;
+  if (parts.length === 2 && FR_HEAD_SLUG_SHARED.has(head)) {
+    return `${EN_ORIGIN}/${enHead}/${parts[1]}`;
+  }
+  return `${FR_ORIGIN}${pathname}`;
+}
+
 // ---- entrypoint -----------------------------------------------------------
 
 export default {
@@ -755,6 +822,14 @@ export default {
       if (url.hostname === "www.bestcitiesinfrance.com") {
         return Response.redirect(`https://bestcitiesinfrance.com${url.pathname}${url.search}`, 301);
       }
+      // Le domaine EN a longtemps servi l'arbre FR entier : au 13/06/2026, GSC
+      // comptait 187 URL en chemin FR sur `www.bestcitiesinfrance.com`, soit
+      // 2 429 impressions et 90 des 165 clics du domaine. L'isolation de locale
+      // a corrigé le fond — mais en 404, ce qui jette l'historique de ces URL.
+      // On les redirige vers leur équivalent anglais quand il existe, vers la
+      // page FR sinon. Un 301 vaut toujours mieux qu'un 404 sur une URL indexée.
+      const frTarget = frPathToEn(url.pathname);
+      if (frTarget) return Response.redirect(`${frTarget}${url.search}`, 301);
     } else {
       // FR (mavilleideale.fr): canonical host is www.
       if (url.hostname === "mavilleideale.fr") {

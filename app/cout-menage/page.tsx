@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   description: `Charges fixes mensuelles dans ${CITIES_COUNT} villes françaises selon 4 profils : solo (T1), couple (T2), famille 2 enfants (T3), retraité. Médians DGFiP + ADEME. Indicatif.`,
   alternates: { canonical: "/cout-menage" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: `Coût ménage · 4 profils, ${CITIES_COUNT} villes`,
     description: "Combien coûte une ville par profil ménage. Médians honnêtes, zéro chiffre inventé.",
   },

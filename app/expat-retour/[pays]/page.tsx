@@ -38,6 +38,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Salaire net, loyer, fiscalité, santé, admin : ce qui change vraiment quand on rentre en France depuis ${country.name}. Avec villes recommandées (frontalières + métropoles).`,
     alternates: { canonical: `/expat-retour/${pays}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Rentrer de ${country.name} en France · Guide 2026`,
       description: country.intro.slice(0, 160),
     },

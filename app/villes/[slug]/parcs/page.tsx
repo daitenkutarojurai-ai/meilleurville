@@ -52,6 +52,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: clampMeta(`Les ${count} parcs et jardins publics de ${city.name} triés par superficie${top ? `, à commencer par ${top.name} (${areaLabel(top)})` : ""}. Aire de jeux, accessibilité, point d'eau — les critères qui décident un samedi matin. Données OpenStreetMap.`),
     alternates: cityAlternates("parcs", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Parcs de ${city.name}`,
       description: `${count} parcs et jardins publics référencés sur OpenStreetMap`,
     },

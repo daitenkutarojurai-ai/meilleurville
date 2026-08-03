@@ -32,6 +32,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Classement composite accès aux soins (médecins, spécialistes, urgences, pharmacies) restreint aux villes de la macro-région ${macro.label}. Meilleur accès vs. déserts médicaux.`,
     alternates: { canonical: `/sante/${macro.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Accès aux soins · ${macro.label}`,
       description: `Index composite par ville de la macro-région ${macro.label}.`,
     },

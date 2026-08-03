@@ -21,6 +21,9 @@ export const metadata: Metadata = {
     "Scrub from 2026 to 2040 and watch France warm in real time. ARPEGE/IPCC-interpolated projection by macro-region, across 352 cities.",
   alternates: { canonical: `${EN_BASE}/climate-2040-timelapse` },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Climate 2040 Timelapse · BestCitiesInFrance",
     description: "France year by year, 2026 → 2040. Not a forecast — a projection.",
   },

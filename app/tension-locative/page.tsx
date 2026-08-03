@@ -18,6 +18,9 @@ export const metadata: Metadata = {
     "Où est-il difficile ou facile de se loger en France ? Top 30 villes au marché locatif le plus tendu vs. top 20 détendues, avec loyers T2 de référence.",
   alternates: { canonical: "/tension-locative" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Tension locative en France · palmarès 2026",
     description:
       "Top 30 villes où trouver un logement est le plus difficile vs. top 20 où le marché reste accessible.",

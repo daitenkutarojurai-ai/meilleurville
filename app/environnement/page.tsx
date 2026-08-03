@@ -18,6 +18,9 @@ export const metadata: Metadata = {
     "Classement national des villes françaises selon leur santé environnementale : qualité de l'air, bruit, stress hydrique, risques naturels. Top 30 villes les plus saines + top 20 villes les plus exposées. Méthodologie publique.",
   alternates: { canonical: "/environnement" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Villes les plus saines de France · index environnemental",
     description:
       "Top 30 villes les plus saines vs. top 20 les plus exposées. 4 dimensions ATMO, OMS, BRGM, Géorisques.",

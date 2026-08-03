@@ -106,6 +106,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Where to go on holiday in ${r}: top destinations ranked, best months, key activities. ${tagline}`,
     alternates: { canonical: `${EN_BASE}/vacations/region/${region}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Holidays in ${r}`,
       description: tagline || `Top holiday destinations in ${r}.`,
     },

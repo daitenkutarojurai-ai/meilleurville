@@ -45,6 +45,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Composite demographics ranking (ageing, young workers, trajectory, renewal) for cities in the ${label} macro-region. Most dynamic vs most ageing cities.`,
     alternates: { canonical: `${EN_BASE}/demographics/${macro.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Demographics · ${label}`,
       description: `Composite demographics index for cities in the ${label} macro-region.`,
     },

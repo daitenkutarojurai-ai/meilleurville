@@ -15,6 +15,9 @@ export const metadata: Metadata = {
     "Quiz court : pondérez environnement, santé et emploi selon vos priorités personnelles. Top 10 villes recalculé en direct + lien partageable. Index F52 reweighté.",
   alternates: { canonical: "/cadre-de-vie/personnaliser" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Personnalise ton Cadre de Vie",
     description: "Pondère env / santé / emploi et obtiens ton top 10 villes en direct.",
   },

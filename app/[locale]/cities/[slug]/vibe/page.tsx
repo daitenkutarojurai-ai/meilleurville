@@ -73,6 +73,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `${city.name} has a ${meta.label.toLowerCase()} atmosphere: ${meta.desc}`,
     alternates: cityAlternatesEn("vibe", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `${city.name} vibe: ${meta.emoji} ${meta.label}`,
       description: `${meta.desc} Score ${formatScore(city.scores.global)}/10.`,
     },

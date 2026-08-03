@@ -37,6 +37,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: clampMeta(`Accès aux services publics à ${city.name} (${city.department}) : écoles ${SERVICES_LEVEL_LABEL[s.schools.level].toLowerCase()}, La Poste ${SERVICES_LEVEL_LABEL[s.postOffice.level].toLowerCase()}, mairie ${SERVICES_LEVEL_LABEL[s.cityHall.level].toLowerCase()}, médiathèque ${SERVICES_LEVEL_LABEL[s.library.level].toLowerCase()}. Score ${(10 - s.composite).toFixed(1)}/10 (10 = maillage complet).`),
     alternates: cityAlternates("services-publics", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Services publics à ${city.name}`,
       description: `Écoles, médiathèque, La Poste, mairie — synthèse DEPP / BNF / La Poste / France Services.`,
     },

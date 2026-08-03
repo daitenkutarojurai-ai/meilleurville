@@ -74,6 +74,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `${city.name} convient particulièrement aux ${top2}. Compatibilité : expats, télétravail, retraités, étudiants.`,
     alternates: cityAlternates("profils", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `${city.name} — pour quel profil de vie ?`,
       description: `Compatibilité par style de vie : télétravailleurs, retraités, étudiants, expats, animaux de compagnie.`,
     },

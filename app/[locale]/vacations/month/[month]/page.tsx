@@ -163,6 +163,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Top French destinations in ${label}: climate, crowds, activities. ${CITIES_COUNT} cities ranked by fit score. ${MONTH_ANGLES[idx].hook.slice(0, 70)}…`,
     alternates: { canonical: `${EN_BASE}/vacations/month/${month}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Best places to visit in France in ${label}`,
       description: `Climate, crowds, prices: the right ranking, no magazine filler.`,
     },

@@ -15,6 +15,9 @@ export const metadata: Metadata = {
     "The global ranking of every French city we cover, by quality of life. A weighted score across eight axes: life, transport, nature, cost, safety, culture, schools and remote work.",
   alternates: { canonical: `${EN_BASE}/leaderboard` },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Leaderboard · Top French cities by quality of life",
     description:
       "Global score across eight quality-of-life axes. Every French city we cover, ranked from best to worst.",

@@ -21,6 +21,9 @@ export const metadata: Metadata = {
     "8 questions, 90 seconds: we calculate your personal match across 352 French cities. Top 3 + a surprise match, live ranking as you answer, shareable link.",
   alternates: { canonical: `${EN_BASE}/city-match` },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "City Match · The French city finder",
     description: "8 questions → your 3 best-fit French cities.",
   },

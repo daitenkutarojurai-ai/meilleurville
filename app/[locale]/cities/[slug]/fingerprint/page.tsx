@@ -30,6 +30,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `A unique geometric signature generated from ${city.name}'s 8 quality-of-life axes (overall score ${score}/10).`,
     alternates: cityAlternatesEn("fingerprint", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `${city.name} city fingerprint`,
       description: `Visual signature from 8 quality-of-life axes. Overall score ${score}/10.`,
     },

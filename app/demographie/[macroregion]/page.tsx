@@ -32,6 +32,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Classement composite démographie (vieillissement, jeunes actifs, trajectoire, renouvellement) restreint aux villes de la macro-région ${macro.label}. Dynamiques vs. vieillissantes.`,
     alternates: { canonical: `/demographie/${macro.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Démographie · ${macro.label}`,
       description: `Index composite par ville de la macro-région ${macro.label}.`,
     },

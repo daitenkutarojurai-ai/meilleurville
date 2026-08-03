@@ -95,6 +95,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Synthesis ranking of ${count} cities in ${region} across 8 data dimensions (environment, healthcare, employment, quality of life, cycling, safety, demographics, public services). Convention: 10 = excellent.`,
     alternates: { canonical: `${EN_BASE}/regions/${regionSlug}/synthesis` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Synthesis · ${region}`,
       description: `Cities of ${region} ranked across the 8 site data axes.`,
     },

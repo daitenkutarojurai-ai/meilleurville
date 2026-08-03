@@ -46,6 +46,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     type: "website",
     locale: "en_US",
     siteName: "BestCitiesInFrance",

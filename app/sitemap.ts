@@ -9,6 +9,7 @@ import { SEO_TRIPLETS } from "@/lib/comparer-triplets";
 import { QUITTER_PAIRS, pairToSlug } from "@/lib/quitter-pairs";
 import { METRO_REGIONS, regionToSlug } from "@/lib/regions";
 import { deptToSlug } from "@/lib/dept-slug";
+import { GUIDE_CATEGORIES } from "@/lib/guide-categories";
 import { TAG_SLUGS } from "@/lib/guide-tags";
 import { TAG_SLUGS_EN } from "@/lib/guide-tags-en";
 import { RED_FLAG_THEME_SLUGS } from "@/lib/red-flag-themes";
@@ -326,7 +327,13 @@ function latestGuideUpdate(): Date {
 }
 
 function guideSection(): MetadataRoute.Sitemap {
-  return GUIDES.map((g) => {
+  const categories: MetadataRoute.Sitemap = GUIDE_CATEGORIES.map((c) => ({
+    url: `${BASE_URL}/guides/categorie/${c.id}`,
+    lastModified: latestGuideUpdate(),
+    changeFrequency: "weekly" as const,
+    priority: 0.75,
+  }));
+  return categories.concat(GUIDES.map((g) => {
     const hero = guideCityPhoto(g.slug, g.relatedCities);
     return {
       url: `${BASE_URL}/guides/${g.slug}`,
@@ -335,7 +342,7 @@ function guideSection(): MetadataRoute.Sitemap {
       priority: 0.7,
       ...(hero ? { images: [`${BASE_URL}${hero.photo.hero.src}`] } : {}),
     };
-  });
+  }));
 }
 
 function citySection(): MetadataRoute.Sitemap {

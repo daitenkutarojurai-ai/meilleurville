@@ -83,6 +83,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: clampMeta(`Comparaison complète entre ${a} et ${b} : coût de la vie, climat, immobilier, scores qualité de vie, meilleures villes. Données calibrées sur les ${CITIES_COUNT} villes du site.`),
     alternates: { canonical: `/comparer-regions/${pair}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `${a} vs ${b} · Quelle région choisir ?`,
       description: `Comparatif côté coût, climat, immobilier, scores. Verdict par profil.`,
     },

@@ -45,6 +45,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Composite public services ranking (schools, city hall, post office, library) for cities in the ${label} macro-region. Best-served cities vs service deserts.`,
     alternates: { canonical: `${EN_BASE}/public-services/${macro.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Public services · ${label}`,
       description: `Composite public services index for cities in the ${label} macro-region.`,
     },

@@ -30,6 +30,9 @@ export const metadata: Metadata = {
   description: `Les parcs, jardins publics et aires de jeux de ${PARKS_CITY_COUNT} villes françaises, référencés sur OpenStreetMap. Aire de jeux, accessibilité poussette, point d'eau — de quoi changer de parc ce week-end.`,
   alternates: { canonical: "/parcs" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Parcs & espaces verts des villes françaises | MaVilleIdéale",
     description: `${PARKS_TOTAL} parcs référencés dans ${PARKS_CITY_COUNT} villes`,
   },

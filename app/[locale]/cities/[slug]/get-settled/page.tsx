@@ -31,6 +31,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Practical guide to moving to ${city.name}: rent levels (${housing ? `T2 ${housing.avgRentT2} €/month` : "estimated"}), rental market tension, broadband, taxes, and admin steps.`,
     alternates: cityAlternatesEn("get-settled", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Getting settled in ${city.name} — practical guide 2026`,
       description: `Rents, broadband, property tax, and the five admin steps you need on arrival in ${city.name}.`,
     },

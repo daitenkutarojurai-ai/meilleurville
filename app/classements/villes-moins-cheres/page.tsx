@@ -16,6 +16,9 @@ export const metadata: Metadata = {
     "Top 50 des villes françaises où se loger coûte le moins cher en 2026. Classement par loyer T2 médian croissant — données observatoires des loyers (ANIL) et prix m² DVF.",
   alternates: { canonical: "/classements/villes-moins-cheres" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Villes les moins chères de France 2026",
     description:
       "Top 50 des villes où le loyer T2 est le plus bas. Le coût du logement, sans le filtre marketing.",

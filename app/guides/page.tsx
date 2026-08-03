@@ -113,16 +113,17 @@ export default function GuidesPage() {
             {GUIDE_CATEGORIES.map((cat) => {
               const count = GUIDES.filter((g) => g.category === cat.id).length;
               return (
-                <div
+                <Link
                   key={cat.id}
-                  className={`rounded-xl border px-4 py-3 ${cat.bg}`}
+                  href={`/guides/categorie/${cat.id}`}
+                  className={`rounded-xl border px-4 py-3 hover:brightness-110 transition-all ${cat.bg}`}
                 >
                   <div className="text-xl mb-1">{cat.emoji}</div>
                   <div className={`text-sm font-semibold ${cat.color}`}>{cat.label}</div>
                   <div className="text-xs text-[var(--text-tertiary)] mt-0.5">
                     {count} guide{count > 1 ? "s" : ""}
                   </div>
-                </div>
+                </Link>
               );
             })}
           </div>

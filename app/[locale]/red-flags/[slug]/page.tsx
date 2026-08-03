@@ -317,6 +317,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: clampMeta(`What the property listing never tells you about ${city.name}: safety, flooding, heat, pollution, seismics, cost. ${teaser} Sources: Géorisques, SSMSI, ATMO, BRGM.`),
     alternates: { canonical: `${EN_BASE}/red-flags/${slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Red Flags ${city.name} · 2026`,
       description: teaser,
       type: "article",

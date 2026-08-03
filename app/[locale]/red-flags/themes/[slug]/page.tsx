@@ -471,6 +471,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: theme.metaDescription,
     alternates: { canonical: `${EN_BASE}/red-flags/themes/${slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: theme.metaTitle,
       description: theme.metaDescription,
     },

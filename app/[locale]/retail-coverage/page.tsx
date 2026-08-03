@@ -29,6 +29,9 @@ export const metadata: Metadata = {
     "Where French cities have the densest retail offer and where downtown is thinning. Top 30 best-covered cities vs top 20 in retail stress (INSEE BPE, Procos).",
   alternates: { canonical: `${EN_BASE}/retail-coverage` },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Retail coverage in France · 2026 ranking",
     description:
       "Top 30 cities with the densest retail offer vs top 20 where downtown vitality is weakest. Coverage, proximity, big-box, downtown.",

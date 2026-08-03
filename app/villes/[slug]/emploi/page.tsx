@@ -37,6 +37,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: clampMeta(`Synthèse du marché du travail à ${city.name} (${city.department}) : chômage ${JOB_LEVEL_LABEL[e.unemployment.level].toLowerCase()}, dynamisme ${JOB_LEVEL_LABEL[e.dynamism.level].toLowerCase()}, mix sectoriel ${JOB_LEVEL_LABEL[e.sectorMix.level].toLowerCase()}, salaires ${JOB_LEVEL_LABEL[e.salary.level].toLowerCase()}. Score ${(10 - e.composite).toFixed(1)}/10 (10 = marché dynamique).`),
     alternates: cityAlternates("emploi", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Emploi à ${city.name}`,
       description: `Taux de chômage, dynamisme entrepreneurial, mix sectoriel, salaire médian. Sources INSEE / DARES / SIRENE.`,
     },

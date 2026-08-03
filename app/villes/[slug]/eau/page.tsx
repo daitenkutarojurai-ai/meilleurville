@@ -36,6 +36,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Synthèse du stress hydrique à ${city.name} (${city.department}) : restrictions sécheresse ${WATER_LEVEL_LABEL[s.restrictions.level].toLowerCase()}, nappes ${WATER_LEVEL_LABEL[s.aquifer.level].toLowerCase()}, climat ${WATER_LEVEL_LABEL[s.climate.level].toLowerCase()}, eau potable ${WATER_LEVEL_LABEL[s.supply.level].toLowerCase()}. Score ${s.composite}/10.`,
     alternates: cityAlternates("eau", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Stress hydrique à ${city.name}`,
       description: `Restrictions sécheresse, état des nappes, climat estival, alimentation eau potable.`,
     },

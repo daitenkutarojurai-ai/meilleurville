@@ -30,6 +30,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: clampMeta(`What's ${city.name} like in spring, summer, autumn, winter? Temperatures, sunshine hours, rainy days and tourist crowd levels — four seasons, four realities.`),
     alternates: cityAlternatesEn("seasons", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `${city.name} — season by season`,
       description: `Climate and tourism pressure across the four seasons. What to expect month by month.`,
     },

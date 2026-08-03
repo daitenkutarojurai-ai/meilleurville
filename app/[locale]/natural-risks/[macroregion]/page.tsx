@@ -78,6 +78,9 @@ export async function generateMetadata({
     description: `Flood, seismic activity, clay shrinkage and wildfire across ${label} cities. Top 15 most-exposed vs top 10 calmest.`,
     alternates: { canonical: `${EN_BASE}/natural-risks/${macro.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Natural risks · ${label}`,
       description: `City-by-city natural-risk ranking across the ${label} macro-region.`,
     },

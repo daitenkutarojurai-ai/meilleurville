@@ -46,6 +46,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: def.metaDesc,
     alternates: { canonical: `/vacances/activite/${activite}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Vacances ${def.label.toLowerCase()} en France`,
       description: def.intro,
     },

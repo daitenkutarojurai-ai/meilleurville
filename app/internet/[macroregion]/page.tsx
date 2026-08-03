@@ -34,6 +34,9 @@ export async function generateMetadata({
     description: `Couverture fibre des villes de ${macro.label} : où le FTTH est généralisé vs où la connexion reste précaire. Estimation régionale ARCEP T4 2024.`,
     alternates: { canonical: `/internet/${macro.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Couverture internet · ${macro.label}`,
       description: `Classement fibre / débit par ville de la macro-région ${macro.label}.`,
     },

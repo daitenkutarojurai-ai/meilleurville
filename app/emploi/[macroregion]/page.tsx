@@ -32,6 +32,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Classement composite marché du travail (chômage, salaire, dynamisme, mix) restreint aux villes de la macro-région ${macro.label}. Marché favorable vs. sinistré.`,
     alternates: { canonical: `/emploi/${macro.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Marché de l'emploi · ${macro.label}`,
       description: `Index composite par ville de la macro-région ${macro.label}.`,
     },

@@ -63,6 +63,9 @@ export const metadata: Metadata = {
     "Top 30 villes françaises où la vie de parent solo tient : coût, transports, écoles, sécurité. Composite 4 axes pondérés, mêmes poids que City Match, budget T3 estimé.",
   alternates: { canonical: "/parent-solo" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Parent solo · Les villes françaises qui tiennent en 2026",
     description:
       "Un seul revenu, un seul conducteur. Classement 4 axes (coût, transports, écoles, sécurité) sur 540 villes.",

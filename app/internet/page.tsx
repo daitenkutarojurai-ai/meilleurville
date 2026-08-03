@@ -18,6 +18,9 @@ export const metadata: Metadata = {
     "Où la fibre est largement déployée et où elle manque encore en France. Top 30 villes les mieux connectées vs top 20 les moins bien fibrées, données ARCEP T4 2024.",
   alternates: { canonical: "/internet" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Couverture fibre · palmarès internet par ville 2026",
     description:
       "Top 30 villes les mieux connectées en fibre vs top 20 où la connexion reste précaire. Estimation régionale ARCEP T4 2024.",

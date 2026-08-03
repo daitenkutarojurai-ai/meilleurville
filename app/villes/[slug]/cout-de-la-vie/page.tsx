@@ -40,6 +40,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Ce que coûte vraiment vivre à ${city.name} en 2026 : loyer T2, prix au m², et budget mensuel réaliste. Score coût ${score.toFixed(1)}/10.`,
     alternates: cityAlternates("cout-de-la-vie", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Coût de la vie à ${city.name} · Budget mensuel 2026`,
       description: `Loyers, prix d'achat et budget réaliste à ${city.name}. Sources : DVF + observatoires locaux des loyers.`,
     },

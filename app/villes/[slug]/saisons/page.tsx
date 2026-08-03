@@ -32,6 +32,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: clampMeta(`Tout savoir sur les saisons à ${city.name} : températures par saison, ensoleillement, pression touristique. Quel mois est le meilleur pour s'installer ou visiter ?`),
     alternates: cityAlternates("saisons", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `${city.name} · Vivre par saison`,
       description: `Climat saison par saison, affluence touristique, signatures locales.`,
     },

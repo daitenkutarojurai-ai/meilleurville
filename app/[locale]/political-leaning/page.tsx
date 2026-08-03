@@ -35,6 +35,9 @@ export const metadata: Metadata = {
     "Estimated political leaning of 540 French cities based on the 2022 presidential first round (Ministry of the Interior). Ranked city by city: left, centre, right, far right.",
   alternates: { canonical: `${EN_BASE}/political-leaning` },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Political leaning of French cities",
     description: "How residents voted in the 2022 first round, city by city. Indicative, source: French Ministry of the Interior.",
   },

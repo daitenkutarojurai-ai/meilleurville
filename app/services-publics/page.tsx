@@ -18,6 +18,9 @@ export const metadata: Metadata = {
     "Classement national de l'accès aux services publics par ville française : écoles, La Poste & France Services, mairie, médiathèque. Top 30 mieux desservies vs. top 20 désertiques.",
   alternates: { canonical: "/services-publics" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Services publics en France · palmarès 2026",
     description:
       "Top 30 villes au meilleur accès aux services publics vs. top 20 zones désertiques.",

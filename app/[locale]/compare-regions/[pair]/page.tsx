@@ -74,6 +74,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Side-by-side comparison of ${a} and ${b}: cost of living, climate, housing, quality-of-life scores and top cities. Which French region should you move to?`,
     alternates: { canonical: `${EN_BASE}/compare-regions/${pair}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `${a} vs ${b} — which region wins?`,
       description: "Cost, climate, housing and scores compared, with a verdict per profile.",
     },

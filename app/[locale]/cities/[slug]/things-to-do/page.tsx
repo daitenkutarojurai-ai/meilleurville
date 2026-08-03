@@ -110,6 +110,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `What to do in ${city.name}: nature, food, culture, heritage, neighbourhood life and weekend outings. A data-led read of what the city actually offers.`,
     alternates: cityAlternatesEn("things-to-do", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Things to do in ${city.name}`,
       description: `Activities, days out and local tips — what ${city.name} actually offers.`,
     },

@@ -24,6 +24,9 @@ export const metadata: Metadata = {
     "Badge libre et gratuit à intégrer sur votre site : classement de votre ville selon les 8 axes de qualité de vie de MaVilleIdéale. Copier-coller HTML, sans compte, sans tracker.",
   alternates: { canonical: "/badge" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Badge Nᵉ ville de France — à embarquer",
     description:
       "Badge SVG libre pour mairies, offices de tourisme et agences immobilières. Classement 2026 · 540 villes.",

@@ -42,6 +42,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Badge « ${city.name} — ${rankTxt} villes de France » libre et gratuit, à intégrer sur votre site. Format compact, large ou carré. Score global ${city.scores.global.toFixed(1)}/10.`.slice(0, 160),
     alternates: { canonical: `/badge/${slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Badge ${city.name} — ${rankTxt}`,
       description: `Copier-coller HTML pour afficher le rang de ${city.name} sur votre site.`,
     },

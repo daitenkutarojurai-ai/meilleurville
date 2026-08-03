@@ -38,6 +38,9 @@ export async function generateMetadata({
     description: `Offre commerciale des villes de ${macro.label} : densité, marchés & proximité, grandes surfaces, vitalité du centre-ville. Palmarès dérivé du profil INSEE / Procos.`,
     alternates: { canonical: `/commerces/${macro.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Couverture commerciale · ${macro.label}`,
       description: `Classement des villes de la macro-région ${macro.label} par densité et vitalité commerciale.`,
     },

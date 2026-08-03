@@ -10,7 +10,7 @@ export const metadata: Metadata = ranking
       title: ranking.metaTitle,
       description: ranking.metaDescription,
       alternates: { canonical: `/classements/${ranking.slug}` },
-      openGraph: { title: ranking.metaTitle, description: ranking.metaDescription },
+      openGraph: { title: ranking.metaTitle, description: ranking.metaDescription, images: ["/opengraph-image"] },
     }
   : {};
 

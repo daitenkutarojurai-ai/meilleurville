@@ -29,6 +29,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Marché locatif des villes de ${macro.label} : où se loger est tendu vs. où c'est accessible. Loyers T2 de référence et score de tension par ville.`,
     alternates: { canonical: `/tension-locative/${macro.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Tension locative · ${macro.label}`,
       description: `Classement de la difficulté à se loger par ville de la macro-région ${macro.label}.`,
     },

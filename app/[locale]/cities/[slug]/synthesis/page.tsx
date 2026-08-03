@@ -95,6 +95,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: clampMeta(`${city.name} (${city.department}) composite synthesis across 8 dimensions: overall ${s.global.toFixed(1)}/10 (${EN_SYNTHESIS_LABEL[s.level].toLowerCase()}). Strength: ${topAxis}, tension: ${bottomAxis}. ${s.signature}`),
     alternates: cityAlternatesEn("synthesis", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `${city.name} city profile — 8 dimensions`,
       description: `Environment, healthcare, employment, quality of life, cycling, safety, demographics, public services — all in one view.`,
     },

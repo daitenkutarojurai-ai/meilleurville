@@ -15,6 +15,9 @@ export const metadata: Metadata = {
     "6 profils fictifs illustrant les grandes migrations internes en France : freelances, retraités, étudiants, familles, expats, profils nature. Avec scores de compatibilité réels par ville.",
   alternates: { canonical: "/portraits-types" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Portraits-types — qui déménage en France et vers où",
     description: "6 archétypes fictifs, 6 villes réelles, des scores calculés. Trouvez le profil qui vous ressemble.",
   },

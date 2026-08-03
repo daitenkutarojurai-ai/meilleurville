@@ -175,7 +175,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: r.metaTitle,
     description: r.metaDescription,
     alternates: { canonical: `${EN_BASE}/niche-rankings/${r.enSlug}` },
-    openGraph: { title: r.metaTitle, description: r.metaDescription },
+    openGraph: { title: r.metaTitle, description: r.metaDescription, images: ["/opengraph-image"] },
   };
 }
 

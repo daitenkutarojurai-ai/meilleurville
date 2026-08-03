@@ -45,6 +45,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Composite safety ranking (property crime, personal crime, night-time, domestic violence) for cities in the ${label} macro-region. Quietest vs most tense cities.`,
     alternates: { canonical: `${EN_BASE}/safety/${macro.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Safety · ${label}`,
       description: `Composite safety index for cities in the ${label} macro-region.`,
     },

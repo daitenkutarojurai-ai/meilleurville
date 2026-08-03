@@ -328,7 +328,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: en.headline,
     description: en.description,
     alternates: { canonical: `${EN_BASE}/rankings/${slug}`, languages: hreflangLanguagesEn(`/rankings/${slug}`) },
-    openGraph: { title: en.headline, description: en.description },
+    openGraph: { title: en.headline, description: en.description, images: ["/opengraph-image"] },
     twitter: { card: "summary_large_image" },
   };
 }

@@ -23,6 +23,9 @@ export const metadata: Metadata = {
     "Où l'offre commerciale est la plus dense et où la dévitalisation gagne. Top 30 villes les mieux couvertes vs top 20 en tension (INSEE BPE, Procos, Action Cœur de Ville).",
   alternates: { canonical: "/commerces" },
   openGraph: {
+    // Sans `images`, un openGraph de page remplace celui hérité de la racine
+    // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+    images: ["/opengraph-image"],
     title: "Couverture commerciale · palmarès villes 2026",
     description:
       "Top 30 villes les mieux fournies en commerces vs top 20 où l'offre reste limitée. Couverture, proximité, grandes surfaces, vitalité du centre-ville.",

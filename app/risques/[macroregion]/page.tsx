@@ -38,6 +38,9 @@ export async function generateMetadata({
     description: `Inondation, sismicité, argile, feux de forêt dans les villes de ${macro.label}. Top 15 les plus exposées vs top 10 les plus tranquilles.`,
     alternates: { canonical: `/risques/${macro.slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Risques naturels · ${macro.label}`,
       description: `Classement risques naturels par ville de la macro-région ${macro.label}.`,
     },

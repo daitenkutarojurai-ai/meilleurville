@@ -179,6 +179,7 @@ recensées à proximité, zones protégées.
 |---|---------|------|------|-----|--------|
 | F62 | **Score Biodiversité** (pipeline GBIF + INPN → sous-page ×540 + classement) | **P0** | **L** | **high** | 🚧 en cours — moteur livré 30/07, durci 02/08 (selftest + raréfaction bornée), crawl en attente d'une passe locale |
 | F63 | **Qualité de l'air — du modèle à la mesure** (ATMO + Geod'Air, hub + classement) | **P0** | **M** | **high** | 🔜 à faire |
+| F64 | **Actualité locale par ville** (open data BODACC/JO/CatNat → section CityProfile + routine hebdo) | **P1** | **M** | **low** | 🔜 à faire — spec 03/08 |
 
 ### F62 — Score Biodiversité
 
@@ -382,6 +383,92 @@ avec les chiffres, et distinction visible entre ce qui est **mesuré** et ce qui
 plan Ahrefs refuse le keyword explorer et l'accès Search Console (`Insufficient
 plan`). Avant d'industrialiser la série de guides, sortir les volumes réels de la
 Search Console : ils décideront de l'ordre des villes, pas la population.
+
+### F64 — Actualité locale par ville
+
+**Demande utilisateur (2026-08-03)** : une section « actu » sur chaque ville.
+
+**Intention** : le site dit ce qu'une ville **est** (scores, loyers, climat, air) mais
+jamais ce qui **s'y passe en ce moment**. Quelqu'un qui hésite à s'installer quelque
+part veut savoir qu'une ligne de tram ouvre en 2027, qu'un CHU ferme un service, que
+le PLU passe en révision. C'est aussi la seule couche du site qui donne une raison de
+**revenir** : tout le reste est stable sur des années.
+
+#### Décision d'architecture : une section, pas une page
+
+La demande dit « section par ville » et c'est exactement le bon périmètre — **ne pas**
+en faire `/villes/[slug]/actualites` ×540. Une page dont le corps est une liste de
+titres agrégés est le cas d'école du *scraped content* chez Google : 540 pages quasi
+vides à la publication, dupliquant des titres présents ailleurs, sur un site dont
+54 000 pages sont déjà indexées. Le rapport risque/gain est mauvais. La section vit
+donc **dans `CityProfile`**, sous les données, et n'a pas d'URL propre.
+
+Corollaire : pas d'entrée sitemap, pas de JSON-LD `NewsArticle` (on n'est pas
+l'éditeur), et la section **disparaît** quand une ville n'a aucun élément récent —
+un bloc « Aucune actualité » sur 300 villes serait pire que pas de bloc.
+
+#### Sources — par ordre de solidité juridique
+
+1. **Open data officielle, sans ambiguïté de licence.** C'est le socle et ça devrait
+   être l'essentiel du volume :
+   - **BODACC** (`api.bodacc.fr`, Licence Ouverte) — créations, radiations et
+     procédures collectives par commune. Signal économique réel et daté.
+   - **JO Associations** (`data.gouv.fr`, Licence Ouverte) — créations d'associations
+     par commune : un proxy honnête de vitalité locale.
+   - **Géorisques / arrêtés CatNat** (`data.gouv.fr`) — arrêtés de catastrophe
+     naturelle par commune, à croiser avec `/villes/[slug]/risques` déjà en ligne.
+   - **DVF** (mutations foncières) — déjà partiellement exploité côté immobilier.
+2. **Flux RSS de la presse quotidienne régionale** — techniquement disponibles, mais
+   la reprise systématique de titres relève du **droit voisin des éditeurs de presse**
+   (loi 2019-775). Un agrégateur qui reprend titre + accroche entre dans le champ.
+   **Gate explicite** : ne pas brancher la PQR tant que la question n'est pas tranchée.
+   Si on y va : titre + source + date + lien sortant `rel="nofollow"`, **jamais**
+   d'accroche reproduite, attribution visible, et retrait sur simple demande.
+3. **À exclure** : Google News RSS (reprise interdite par les CGU), tout scraping de
+   page d'article, toute reformulation par IA d'un article de presse — reformuler ne
+   fait pas disparaître le droit voisin, ça ajoute juste un risque d'erreur factuelle
+   signée par nous.
+
+**Phase 1 = sources 1 uniquement.** Elle est suffisante pour livrer et ne dépend
+d'aucun arbitrage juridique.
+
+#### Pipeline
+
+`scripts/city-news.mjs`, pattern `scripts/city-parks.mjs` : crawl caché et resumable
+dans `.cache/city-news/`, ~1 req/s, backoff sur 429, User-Agent contactable →
+`data/city-news.json` commité → `lib/city-news.ts` → section dans `CityProfile`.
+
+Le fichier est **fenêtré** : on ne garde que les 12 derniers mois et au plus 8 entrées
+par ville, sinon le JSON grossit sans fin dans le bundle. Chaque entrée porte
+`{ date, kind, title, source, sourceUrl, licence }` — `licence` est obligatoire au
+niveau de l'entrée, pas du fichier, parce que les sources n'auront pas toutes la même.
+
+#### Fraîcheur : une routine, pas un build
+
+Une actu n'a de valeur que datée, et le site est en **export statique** : rien ne se
+rafraîchit sans rebuild. D'où la routine planifiée (voir ci-dessous) qui re-crawle,
+commit le JSON et redéploie. Sans elle, la section serait périmée en deux semaines et
+ferait activement du mal à la crédibilité du reste.
+
+**Cadence** : hebdomadaire. Le BODACC et le JO Associations publient en continu mais
+la granularité utile pour « est-ce que cette ville bouge » est le mois, pas l'heure —
+un crawl quotidien coûterait 7× plus pour la même information.
+
+#### Honnêteté
+
+La section affiche **ce qu'elle est** : « Signaux publics récents », pas « Actualité de
+[ville] ». On ne réécrit pas, on ne commente pas, on ne classe pas en bon/mauvais. Une
+création d'entreprise n'est pas une bonne nouvelle en soi et une radiation n'est pas
+une mauvaise. Chaque entrée cite sa source et sa licence.
+
+#### Risques
+
+- **Thin content** — traité par l'absence d'URL propre et le masquage quand vide.
+- **Droit voisin** — traité par le gate PQR ci-dessus ; phase 1 n'y touche pas.
+- **Poids du bundle** — `CityProfile` est déjà le point chaud du site (~1 Mo de JS).
+  La section doit être rendue **côté serveur** et ne rien ajouter au bundle client.
+- **Périmé** — traité par la routine ; si la routine casse, la section doit afficher
+  la date du dernier rafraîchissement plutôt que faire semblant.
 
 ---
 

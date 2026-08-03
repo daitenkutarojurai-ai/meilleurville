@@ -32,6 +32,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `${city.name} : trajectoire ${traj.label.toLowerCase()} (score ${row.score.toFixed(1)}/100). Évolution prix immobilier, démographie 25-35 ans, ouvertures et télétravailleurs. Analyse complète.`,
     alternates: { canonical: `/gentrification/${slug}` },
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `${city.name} · Gentrification ${traj.label}`,
       description: `Score composite ${row.score.toFixed(1)}/100 sur 4 signaux : prix, démographie, ouvertures, télétravail.`,
     },

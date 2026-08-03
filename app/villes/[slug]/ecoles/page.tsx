@@ -65,7 +65,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `Écoles & études à ${city.name} · Université, CPGE, écoles`,
     description: desc,
     alternates: cityAlternates("ecoles", slug),
-    openGraph: { title: `Écoles à ${city.name}`, description: desc },
+    openGraph: { title: `Écoles à ${city.name}`, description: desc, images: ["/opengraph-image"] },
   };
 }
 

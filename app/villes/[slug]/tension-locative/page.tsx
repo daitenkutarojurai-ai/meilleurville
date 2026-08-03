@@ -39,6 +39,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Marché locatif ${tInfo.shortLabel.toLowerCase()} à ${city.name} : délai moyen pour trouver, candidats par annonce, revenus exigés. Données 2026 dérivées des observatoires Clameur.`,
     alternates: cityAlternates("tension-locative", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Tension locative ${city.name} — ${tInfo.label} 2026`,
       description: `Score de tension ${tension.toFixed(1)}/10. Combien de temps pour trouver un logement à ${city.name} ?`,
     },

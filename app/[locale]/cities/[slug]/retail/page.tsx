@@ -95,6 +95,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Retail coverage in ${city.name} (${city.department}): ${levelWord} offer, markets & proximity, big-box, downtown vitality. Score ${c.composite.toFixed(1)}/10.`.slice(0, 160),
     alternates: cityAlternatesEn("retail", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Shops in ${city.name}`,
       description: `Retail coverage, markets, big-box, downtown vitality — synthesis derived from the city profile.`,
     },
