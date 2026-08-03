@@ -96,6 +96,124 @@ const EN_TO_FR_SEGMENT: Record<string, string> = Object.fromEntries(
   Object.entries(FR_TO_EN_SEGMENT).map(([fr, en]) => [en, fr])
 );
 
+/**
+ * Correspondance complète des **têtes de route** FR → EN.
+ *
+ * `FR_TO_EN_SEGMENT` au-dessus ne liste que les familles dont le slug est
+ * partagé, parce que c'est tout ce dont le hreflang a besoin. Cette table-ci
+ * est plus large : elle couvre toutes les têtes des deux arbres, y compris
+ * celles dont les slugs divergent, et sert à ce qui raisonne sur les routes
+ * plutôt que sur les paires — la redirection FR→EN du Worker et le contrôle de
+ * parité (`npm run parity`).
+ *
+ * Une tête absente ici est signalée par le contrôle de parité comme non
+ * mappée : c'est volontaire, on préfère un rapport bruyant à un mappage
+ * silencieusement faux. Les exceptions assumées (FR-only ou EN-only) se
+ * déclarent dans `PARITY_EXCEPTIONS`, pas ici.
+ */
+export const FR_TO_EN_ROUTE: Record<string, string> = {
+  ...FR_TO_EN_SEGMENT,
+  "a-propos": "about",
+  avis: "reviews",
+  "cadre-de-vie": "quality-of-life",
+  "calculateur-cout-reel": "calculator/real-cost",
+  "calendrier-immobilier": "property-calendar",
+  carte: "map",
+  cgu: "terms",
+  "climat-2040-timelapse": "climate-2040-timelapse",
+  commerces: "retail-coverage",
+  "comparer-departements": "compare-departments",
+  "comparer-regions": "compare-regions",
+  confidentialite: "privacy-policy",
+  connexion: "login",
+  "cout-menage": "household-cost",
+  demographie: "demographics",
+  depuis: "weekend-getaways",
+  "depuis-paris": "from-paris",
+  donnees: "data-sources",
+  emploi: "employment",
+  environnement: "environment",
+  "expat-retour": "expat-return",
+  favoris: "favorites",
+  gentrification: "gentrification",
+  glossaire: "glossary",
+  guides: "guides",
+  internet: "internet-quality",
+  leaderboard: "leaderboard",
+  "louer-ou-acheter": "own-vs-rent",
+  "macro-region": "geographic-zones",
+  "mentions-legales": "legal-notice",
+  "mes-villes": "my-cities",
+  methode: "methodology",
+  "orientation-politique": "political-leaning",
+  "ou-vont-les-gens": "moving-from",
+  outils: "tools",
+  palmares: "overall-ranking",
+  parcs: "parks",
+  "parent-solo": "single-parent",
+  "portraits-types": "community-profiles",
+  "pour-qui": "for-who",
+  presse: "press",
+  quitter: "leaving",
+  "quiz-compatibilite": "quiz/compatibility",
+  recherche: "search",
+  "red-flags": "red-flags",
+  risques: "natural-risks",
+  "salaire-equivalent": "salary-equivalent",
+  sante: "healthcare",
+  securite: "safety",
+  "services-publics": "public-services",
+  "simulateur-achat": "simulator/purchase",
+  sommaire: "site-index",
+  sport: "sport",
+  synthese: "synthesis",
+  tags: "tags",
+  "tension-locative": "rental-tension",
+  vacances: "vacations",
+  velo: "cycling",
+  "villes-qui-grandissent": "cheapest-cities",
+  "vivre-avec": "living-on",
+  // Sous-segments : mêmes familles, vocabulaire traduit.
+  activite: "activity",
+  mois: "month",
+  profil: "profile",
+  personnaliser: "customise",
+  // Têtes identiques des deux côtés. Listées explicitement plutôt que traitées
+  // par défaut : sans entrée, le contrôle de parité les signale « non mappées »,
+  // ce qui est le bon comportement pour une tête qu'on a oublié de déclarer.
+  about: "about",
+  "city-match": "city-match",
+  contact: "contact",
+  copilot: "copilot",
+  faq: "faq",
+  "future-you": "future-you",
+  "people-like-you": "people-like-you",
+  "projection-5ans": "projection-5ans",
+  vibe: "vibe",
+};
+
+/**
+ * Routes assumées comme n'existant que d'un côté, avec la raison.
+ *
+ * Le contrôle de parité les exclut du rapport. Toute autre asymétrie remonte
+ * comme un écart à combler — c'est le point : la liste des exceptions doit
+ * rester courte et argumentée, sinon « parité » ne veut plus rien dire.
+ */
+export const PARITY_EXCEPTIONS: Record<string, string> = {
+  // FR-only
+  badge: "R13.1 — la motion backlink vise mairies et offices de tourisme français ; sans objet pour l'audience expat.",
+  auth: "Surface de compte, pas de contenu indexable.",
+  dashboard: "Surface de compte.",
+  "mes-villes": "Surface de compte.",
+  favoris: "Surface de compte.",
+  connexion: "Surface de compte.",
+  // EN-only
+  "best-value-cities": "Angle expat sans équivalent FR direct (le FR passe par /classements).",
+  "my-account": "Surface de compte.",
+  "sign-in": "Surface de compte.",
+  "niche-rankings": "Regroupement EN des classements de niche ; côté FR ils vivent sous /classements.",
+};
+
 // City sub-pages do NOT share their slug across locales: the EN twin of
 // /villes/lyon/sante is /cities/lyon/healthcare, not /cities/lyon/sante.
 // Translating only the head segment would advertise ~42 000 EN URLs that don't

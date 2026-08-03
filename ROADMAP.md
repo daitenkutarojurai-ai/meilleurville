@@ -472,6 +472,82 @@ une mauvaise. Chaque entrée cite sa source et sa licence.
 
 ---
 
+## Parité EN — bestcitiesinfrance.com au périmètre de mavilleideale.fr (ouverte 2026-08-03)
+
+Demande utilisateur : « le site anglais doit être identique au français ».
+
+### Pourquoi c'est prioritaire maintenant
+
+Le domaine EN s'est effondré le **13/06/2026** : 168 impressions en position 15,1 le 12,
+44 en position 51,4 le 13, puis sept semaines à plat (~20/jour, position 40-50). Ce n'est
+pas une pénalité. Sur les 498 pages de l'export GSC, **187 étaient des pages FR servies sur
+`www.bestcitiesinfrance.com`** (`/villes/biarritz/fiscalite`, `/comparer/bordeaux-vs-toulouse`,
+`/guides/meilleures-villes-bord-de-mer-france-2025`) : **2 429 impressions et 90 des 165 clics
+du domaine, soit 55 %**. Les requêtes le confirment — « se déplacer à bourges », « biarritz
+taxe fonciere ». 110 des 165 clics venaient de **France**.
+
+L'isolation de locale a coupé cette fuite : c'était juste, et ça a retiré la majorité du
+trafic du domaine en un jour. Ce qui reste est le vrai site EN — qui n'avait jamais classé.
+**Les requêtes d'intention relocation sont en position moyenne 40,6** (64 requêtes, 1 clic) :
+« where to live in france » 54, « best places to live in france » 57, « safest cities in
+france » 24,8. Le site EN n'est pas cassé, il est **incomplet** : 26 300 URL contre 28 328.
+
+### L'outil de mesure fait foi
+
+`npm run parity` (`scripts/check-parity.mjs`). Deux mesures séparées **volontairement**, on
+s'est déjà fait avoir en les confondant :
+
+- **Routes** — patterns `app/**/page.tsx` des deux arbres, hors-ligne. Répond à « quelle
+  route n'existe pas en EN ». Tolère qu'une route EN dynamique (`/red-flags/[slug]`) couvre
+  des pages FR statiques par thème : sans ça le rapport criait au loup sur ~30 faux écarts.
+- **URLs** (`--sitemaps`) — nombre d'URL par section lu sur les deux sitemaps en ligne.
+  Répond à « la route existe, mais couvre-t-elle autant de villes ». Une route EN présente
+  peut n'émettre que 20 URL là où la FR en émet 600 : parité de routes verte, site EN trois
+  fois plus petit. Les deux mesures sont nécessaires.
+
+Tables dans `lib/i18n.ts` : `FR_TO_EN_ROUTE`, `FR_TO_EN_CITY_SUB`, `PARITY_EXCEPTIONS`
+(asymétries assumées, avec la raison — la liste doit rester courte, sinon « parité » ne veut
+plus rien dire).
+
+### État au 2026-08-03 — 11 routes, ~1 300 URL
+
+| Route FR | Jumelle EN attendue | URL |
+|---|---|---|
+| `/comparer-departements` + `/[pair]` | `/compare-departments` | ~391 |
+| `/comparer/[pair]/synthese` | `/compare/[pair]/synthesis` | ~614 |
+| `/departements/[dept]/fiscalite` + `/synthese` | `/departments/[dept]/tax` + `/synthesis` | ~204 |
+| `/comparer-regions/[pair]/synthese` | `/compare-regions/[pair]/synthesis` | ~78 |
+| `/guides/categorie/[categorie]` | `/guides/category/[category]` | 7 |
+| `/avis`, `/quitter`, `/presse`, `/cgu` | `/reviews`, `/leaving`, `/press`, `/terms` | 4 |
+
+**Écart de contenu, distinct de l'écart de routes** : guides 903 FR / 532 EN, tags 239 / 74.
+Ce n'est pas une route à créer mais du corpus à écrire, et **jamais par traduction** — les
+guides EN sont du contenu natif à angle expat, c'est une décision de fond (cf. § Bilingual
+setup dans `CLAUDE.md`), pas une facilité.
+
+**Exceptions assumées** : `/badge` ×541 reste FR-only (la motion backlink vise mairies et
+offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
+`/mes-villes`) ne sont pas du contenu indexable.
+
+### Ce qui a été corrigé côté EN le 03/08
+
+- **301 des chemins FR sur le domaine EN** (`frPathToEn()` dans `worker/index.ts`) : les 187
+  URL indexées répondaient 404, ce qui jetait leur historique. Redirection vers l'équivalent
+  anglais quand il est certain, vers la page FR sinon. Aucune URL devinée.
+- **Carte sociale absente** sur 78 pages EN dont l'accueil (cf. § Shipped 2026-08-03).
+
+### Point à trancher (produit, pas technique)
+
+`/vacations/*` sur le domaine EN : 211 impressions, **0 clic**, position 75-78 sur
+« cannes holidays », « holidays to cannes », « lourdes holidays ». Huit pages qui affrontent
+Booking et Expedia en intention voyage pure, depuis un site de relocation, et qui diluent le
+signal thématique du domaine. Noindex ou suppression — décision produit, pas correctif.
+
+**Routine** : `meilleurville-parite-en`, quotidienne 04:25 UTC, `npm run parity` comme
+tableau de bord, une route par run, sortie du contrôle collée dans chaque message de commit.
+
+---
+
 ## Shipped 2026-08-02
 
 - **hreflang rétabli sur les ~42 000 sous-pages ville (FR + EN)** ✅ — L'ultra-audit de la veille (`docs/audits/ultra-audit-2026-08-02.md` §2.1, §4.1 « le plus rentable des chantiers ») mesurait **2 903 pages sur 54 646 portant un hreflang, soit 94 % du site sans**. La cause n'est pas une négligence ponctuelle : Next **remplace l'objet `alternates` en entier** dès qu'une page en fournit un, donc chaque route qui retournait `alternates: { canonical: … }` perdait en silence le `languages` déclaré au niveau du layout racine (`app/layout.tsx:45-56`). Les seules familles indemnes étaient celles qui reconstruisaient `languages` à la main. Ce run traite la plus grosse : les **39 sous-pages ville FR et leurs 39 jumelles EN**, soit 78 fichiers et ~42 000 pages.

@@ -8,6 +8,7 @@
     "postbuild": "find out -name '*.txt' ! -name robots.txt -delete 2>/dev/null || true",
     "lint": "eslint",
     "hreflang:check": "node scripts/check-hreflang.mjs",
+    "parity": "node scripts/check-parity.mjs",
     "cf:dev": "wrangler dev",
     "cf:deploy": "wrangler deploy",
     "photos": "node scripts/commune-images.mjs all",
