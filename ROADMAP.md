@@ -376,12 +376,15 @@ au lieu de leur ancien 0,1/10. Contrôle de conflation : 0 commune du seed sans 
 référence et 0 commune non crawlée par F59, donc `greenSpacePerCapita == null` désigne
 aujourd'hui exactement les 11 communes sans parc nommé — l'état `"data"` a quand même été
 ajouté pour qu'une ville entrée au seed avant son crawl ne soit pas étiquetée « OSM ne
-cartographie rien ». `npm run build` **n'est pas allé au bout, pour la raison d'environnement
-déjà documentée le 30/07** : la génération statique a tourné sans une seule erreur au-delà de
-47 000 / 55 787 pages — ce qui exerce bien les 540 pages ville portant la carte 🦋 et le
-`city-profile-data` qui importe le moteur — puis le quota disque de la session de routine
-cloud s'épuise (`ENOSPC`, cf. 30/07). Rien à voir avec ce diff, qui ne touche **ni route ni
-sitemap** : les deux surfaces restent garées en `page.pending.tsx`.
+cartographie rien ». `npm run build` : **génération statique complète et sans une seule
+erreur — 55 787 / 55 787 pages en 11,8 min**, ce qui exerce bien les 540 pages ville portant
+la carte 🦋 et le `city-profile-data` qui importe le moteur. Le build s'arrête ensuite à
+« Finalizing page optimization » sur `ENOSPC` : le quota disque de la session de routine
+cloud est épuisé par l'export, **exactement le comportement d'environnement déjà documenté
+le 30/07** et sans rapport avec ce diff, qui ne touche ni route ni sitemap (les deux surfaces
+restent garées en `page.pending.tsx`). Note pour les prochains runs : ce build laisse un
+`.next` de ~19 Go et sature le disque de la session — `rm -rf .next out` juste après, sinon
+les commandes suivantes échouent en `ENOSPC`.
 
 **Ce qui n'est toujours pas couvert.** Rien de collecté ce run. Les paramètres GBIF et les
 noms d'attributs INPN restent `@unverified`, les surfaces restent garées en
