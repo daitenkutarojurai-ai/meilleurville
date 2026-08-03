@@ -6,9 +6,9 @@ import { StaticPageCrossLink } from "@/components/StaticPageCrossLink";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Glossaire immobilier, fiscalité, aides & rénovation",
+  title: "Glossaire immobilier, aides, rénovation & école",
   description:
-    "DPE, LMNP, TAEG, ZFE, APL, VEFA, MaPrimeRénov', CEE, éco-PTZ, RGE : les termes utiles pour louer, acheter, rénover ou déménager en France en 2026.",
+    "DPE, LMNP, TAEG, ZFE, APL, MaPrimeRénov', carte scolaire, IPS, CMG : les termes utiles pour louer, acheter, rénover ou déménager en France en 2026.",
   alternates: { canonical: "/glossaire" },
 };
 
@@ -482,6 +482,72 @@ const SECTIONS: Section[] = [
       },
     ],
   },
+  {
+    title: "École, garde d'enfants et scolarité",
+    emoji: "🎒",
+    terms: [
+      {
+        term: "Carte scolaire (sectorisation)",
+        def: "Découpage administratif qui rattache chaque adresse à un établissement public précis. Trois autorités se partagent le travail : la commune sectorise les écoles maternelles et élémentaires, le conseil départemental les collèges, la région les lycées. Conséquence directe sur un projet d'installation : deux logements de la même rue peuvent dépendre de deux collèges différents, et le secteur ne se déduit ni du quartier ni de la distance à vol d'oiseau. Se vérifie en mairie pour le premier degré, auprès du conseil départemental pour le collège, avant de signer un bail ou un compromis et non après.",
+      },
+      {
+        term: "Dérogation à la carte scolaire",
+        def: "Demande d'inscription dans un établissement public hors de son secteur. Les motifs habituellement recevables sont hiérarchisés par l'académie : situation de handicap, prise en charge médicale à proximité de l'établissement, boursier, fratrie déjà scolarisée sur place, rapprochement du domicile du parent qui garde l'enfant, parcours scolaire particulier (section internationale, bilangue, option rare non proposée dans le secteur). Une dérogation ne s'accorde que dans la limite des places restantes une fois les élèves du secteur affectés : un motif recevable ne garantit rien dans un établissement saturé. Dépôt en mairie pour le premier degré, auprès de la DSDEN ou du conseil départemental pour le collège, au printemps précédant la rentrée.",
+      },
+      {
+        term: "Certificat de radiation",
+        def: "Document délivré par le directeur de l'école ou le chef d'établissement quitté, attestant que l'élève n'y est plus inscrit. Il conditionne l'inscription dans le nouvel établissement, qui ne peut pas être finalisée sans lui. À demander dès que le déménagement est certain, avec le dossier scolaire (livret scolaire, bulletins, attestations de compétences), plutôt qu'à la fin du mois d'août quand les secrétariats sont fermés. C'est la démarche la plus souvent oubliée dans un déménagement en cours d'année scolaire.",
+      },
+      {
+        term: "Instruction obligatoire de 3 à 16 ans",
+        def: "Depuis la rentrée 2019, l'instruction est obligatoire dès l'âge de 3 ans (contre 6 ans auparavant), et s'y ajoute une obligation de formation jusqu'à 18 ans qui peut prendre la forme d'une scolarité, d'un apprentissage, d'un service civique ou d'un parcours d'insertion. L'obligation porte sur l'instruction, pas sur l'école : l'instruction en famille reste possible mais est passée d'un régime de simple déclaration à un régime d'autorisation préalable délivrée par l'académie, sur l'un des quatre motifs prévus (état de santé, pratique sportive ou artistique intensive, itinérance de la famille, situation propre à l'enfant motivant un projet éducatif).",
+      },
+      {
+        term: "REP / REP+ (éducation prioritaire)",
+        def: "Classement des établissements dont le public est socialement le plus défavorisé, assorti de moyens renforcés : classes de grande section, CP et CE1 dédoublées en éducation prioritaire (plafonnées à 24 élèves ailleurs), indemnités et formation spécifiques pour les personnels, dispositifs d'accompagnement et de suivi. REP+ correspond au niveau de difficulté le plus marqué. Le label décrit la composition sociale du secteur, pas la qualité des enseignants ni le destin des élèves : il se lit comme un signal de moyens supplémentaires, jamais comme un verdict sur un établissement ou sur les familles qui y scolarisent leurs enfants.",
+      },
+      {
+        term: "IPS (indice de position sociale)",
+        def: "Indicateur construit par la DEPP à partir de la profession des parents, qui résume l'origine sociale moyenne des élèves d'un établissement. Publié en données ouvertes établissement par établissement depuis 2022. C'est le meilleur prédicteur connu des résultats moyens au brevet et au bac, ce qui en fait l'outil de lecture indispensable des palmarès : comparer deux lycées sans regarder leur IPS revient à comparer des recrutements, pas des enseignements. Un établissement à IPS bas dont les résultats dépassent ceux attendus fait mieux son travail qu'un établissement à IPS élevé aux résultats bruts supérieurs.",
+      },
+      {
+        term: "Affelnet",
+        def: "Application nationale d'affectation, utilisée pour l'entrée en seconde générale, technologique ou professionnelle, et pour l'entrée en sixième dans certaines académies. L'affectation ne résulte pas du seul ordre des vœux : elle est calculée sur un barème de points combinant secteur géographique, résultats scolaires, situation sociale et priorités académiques. À Paris, le barème intègre depuis 2021 l'IPS du collège d'origine, dans un objectif de mixité. Saisie des vœux au printemps, résultats fin juin ; en cas de déménagement tardif, c'est le service d'affectation de la nouvelle académie qu'il faut saisir directement.",
+      },
+      {
+        term: "Parcoursup",
+        def: "Plateforme nationale d'accès à la première année d'enseignement supérieur : formulation des vœux de janvier à mars, confirmation début avril, réponses des formations à partir de fin mai, puis phase complémentaire jusqu'en septembre pour les candidats sans proposition. Compte dans un choix de ville : une commune dotée d'un lycée à CPGE ou d'un pôle BTS et IUT permet de poursuivre sur place, une commune qui n'en a pas impose une décohabitation dès 18 ans, avec le double logement que cela suppose.",
+      },
+      {
+        term: "Établissement privé sous contrat / hors contrat",
+        def: "Sous contrat, l'établissement applique les programmes nationaux et prépare les diplômes nationaux, ses enseignants sont rémunérés par l'État, et il n'est pas soumis à la carte scolaire : le recrutement est libre, ce qui en fait la porte de sortie classique quand le collège de secteur ne convient pas. En contrepartie, une contribution familiale est demandée, très variable d'un établissement à l'autre. Environ un élève sur six est scolarisé dans le privé en France. Hors contrat, l'établissement choisit ses programmes et ses méthodes, se finance intégralement sur les frais de scolarité, et reste contrôlé par l'État sur le socle commun de connaissances.",
+      },
+      {
+        term: "Périscolaire et extrascolaire",
+        def: "Accueils organisés autour du temps de classe : garderie du matin et du soir, pause méridienne, mercredis, et vacances scolaires pour l'extrascolaire. La compétence est communale ou intercommunale, pas celle de l'Éducation nationale : à programme scolaire identique, l'amplitude horaire, le taux d'encadrement et le tarif changent d'une commune à l'autre. Poste de contrainte majeur pour deux parents qui travaillent, et souvent décisif entre deux communes voisines. À vérifier avec le règlement du service, dont dépendent aussi l'inscription à l'année ou à la carte et les délais de réservation.",
+      },
+      {
+        term: "Quotient familial CAF (à ne pas confondre avec le quotient familial fiscal)",
+        def: "Indicateur calculé par la CAF à partir des ressources mensuelles du foyer, des prestations perçues et du nombre de parts. Il sert à tarifer les services locaux : cantine, périscolaire, crèche, centre de loisirs, conservatoire, parfois piscine et transports. Chaque commune fixe librement ses tranches et ses tarifs, si bien qu'un même quotient donne un prix de repas différent d'une commune à l'autre. Rien à voir avec le quotient familial fiscal défini plus haut, qui sert au calcul de l'impôt sur le revenu : les deux portent le même nom et ne se calculent pas de la même façon.",
+      },
+      {
+        term: "Modes de garde : crèche, assistante maternelle, MAM",
+        def: "La crèche collective attribue ses places en commission, sur des critères communaux publiés (activité des parents, fratrie, domiciliation, situation sociale) ; dans les communes tendues, l'inscription se dépose pendant la grossesse et une place n'est jamais acquise. L'assistante maternelle est agréée par la PMI du département et accueille les enfants à son domicile : les parents deviennent employeurs, avec contrat de travail, salaire, congés payés et déclaration Pajemploi. La MAM (maison d'assistantes maternelles) regroupe deux à quatre assistantes maternelles dans un local commun, avec le même statut d'emploi direct mais des horaires souvent plus larges.",
+      },
+      {
+        term: "CMG (complément de libre choix du mode de garde)",
+        def: "Aide de la CAF qui prend en charge une partie du coût d'une assistante maternelle agréée, d'une garde à domicile ou d'une place en micro-crèche, pour un enfant de moins de 6 ans. Son barème a été refondu en septembre 2025 : la prise en charge suit désormais un taux d'effort progressif selon les revenus, pour rapprocher le reste à charge de celui d'une place en crèche collective, et le droit est étendu au-delà des 6 ans de l'enfant pour les familles monoparentales. Le CMG ne s'applique pas à une place en crèche collective, dont le tarif est déjà calculé sur les ressources.",
+      },
+      {
+        term: "PAI, PAP et PPS",
+        def: "Trois dispositifs souvent confondus. Le PAI (projet d'accueil individualisé) organise la scolarité d'un enfant atteint d'une pathologie chronique (allergie alimentaire, asthme, diabète, épilepsie) : traitement, régime, protocole d'urgence. Le PAP (plan d'accompagnement personnalisé) aménage la scolarité en cas de trouble des apprentissages durable, sur constat du médecin scolaire, sans passer par la MDPH. Le PPS (projet personnalisé de scolarisation) relève d'une décision de la CDAPH au sein de la MDPH et peut ouvrir droit à un accompagnement humain (AESH), à du matériel adapté ou à une orientation en ULIS. Aucun des trois ne suit automatiquement l'enfant : un changement d'établissement suppose de le transmettre et de le faire réactiver.",
+      },
+      {
+        term: "Transport scolaire",
+        def: "Compétence transférée aux régions par la loi NOTRe, qui peuvent la déléguer aux intercommunalités et aux syndicats de transport. Conséquence : ni le tarif ni les règles d'éligibilité ne sont nationaux. Selon la région, le service est gratuit, forfaitaire ou facturé par trimestre, et il est fréquemment réservé aux élèves habitant au-delà d'une distance minimale de leur établissement de secteur. Une dérogation obtenue hors secteur fait souvent perdre le droit au transport pris en charge. À vérifier auprès de l'autorité organisatrice avant d'arbitrer entre deux communes en périurbain, où le budget transport peut peser autant que l'écart de loyer.",
+      },
+    ],
+  },
 ];
 
 const TERM_COUNT = SECTIONS.reduce((n, s) => n + s.terms.length, 0);
@@ -492,7 +558,7 @@ export default function GlossairePage() {
     "@type": "DefinedTermSet",
     name: "Glossaire immobilier et relocation",
     description:
-      "Termes clés pour acheter, louer, investir ou déménager en France : DPE, LMNP, ZFE, taxe foncière, fibre FTTH, encadrement loyers et plus.",
+      "Termes clés pour acheter, louer, investir, déménager ou scolariser ses enfants en France : DPE, LMNP, ZFE, taxe foncière, fibre FTTH, encadrement des loyers, carte scolaire, IPS et plus.",
     hasDefinedTerm: SECTIONS.flatMap((s) =>
       s.terms.map((t) => ({
         "@type": "DefinedTerm",
@@ -526,8 +592,8 @@ export default function GlossairePage() {
           </h1>
           <p className="text-[var(--text-secondary)] leading-relaxed">
             {TERM_COUNT} termes clés pour comprendre l&apos;immobilier, la location, l&apos;investissement
-            locatif et le déménagement en France en 2026. Pas de jargon inutile, juste les
-            définitions qu&apos;il faut connaître avant de signer.
+            locatif, le déménagement et la scolarisation des enfants en France en 2026. Pas de
+            jargon inutile, juste les définitions qu&apos;il faut connaître avant de signer.
           </p>
         </div>
       </section>

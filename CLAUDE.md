@@ -245,6 +245,22 @@ All planned series are complete (Climat 2040 ×15, Quitter X ×18, Comparaisons 
 Premiers guides EN sur l'outre-mer : nouveaux tags `reunion` / `martinique` / `guadeloupe` / `french guiana`, qui créent autant de pages `/tags/[slug]` côté EN. Rédigés en anglais natif depuis les faits des sources FR (pas de traduction), avec la contrainte de sécurité explicitée pour La Réunion : hors lagon et hors enclos surveillés, la baignade est interdite — un lecteur anglophone ne le devine pas.
 **Prochain run : batch FR** (l'écart est nul, la série FR reprend la main). Villes DROM encore non couvertes des deux côtés, par population : Le Tampon, Mamoudzou, Saint-André, Les Abymes, Saint-Louis (974), Saint-Laurent-du-Maroni, Le Lamentin, Saint-Joseph, Saint-Benoît, Baie-Mahault, Le Robert, Le François.
 
+### Glossaire (`app/glossaire/page.tsx`)
+
+Page unique, données inline (`SECTIONS: {title, emoji, terms[]}`), `DefinedTermSet` JSON-LD généré
+depuis le tableau — ajouter un terme suffit, rien d'autre à câbler. **Compteur mesuré
+(`grep -c 'term: "'`) : 115 termes, 12 sections** (2026-08-03). Dernière section ajoutée :
+« École, garde d'enfants et scolarité » 🎒 — 15 termes (carte scolaire, dérogation, certificat de
+radiation, instruction obligatoire, REP/REP+, IPS, Affelnet, Parcoursup, privé sous contrat,
+périscolaire, quotient familial CAF, modes de garde, CMG, PAI/PAP/PPS, transport scolaire) : c'était
+le trou de la page, qui ne couvrait que l'immobilier et l'argent alors que le site porte
+`/villes/[slug]/ecoles` et la série `famille-a-[ville]`. Deux pièges vérifiés au passage : le
+**quotient familial** existait déjà au sens fiscal, l'entrée CAF le nomme explicitement pour ne pas
+créer un doublon silencieux ; **ERP/ERRIAL** et **PPRI/PPRT** sont déjà traités sous « Diagnostics »,
+donc une future section risques naturels doit se limiter à l'assurance (cat-nat, franchise, RGA,
+fonds Barnier) sous peine de recouvrement. Aucun chiffre de loyer, prix ou score n'est cité ici :
+les montants réglementaires seulement, et rien qui ne soit sourçable.
+
 ### Pending guide work
 - **Editorial rewrite (R7.8) — DONE.** Main pass ran 2026-05-30 (all guides → prose voice). Fragment-tail cleanup ran 2026-06-03: the 23 budget/acheter/investment guides the first pass missed (numbered `(N) **Label** : value` scaffolding, detected via `boldColon>=40`) rewritten into flowing prose, 228 strings, figure-integrity verified. Method: extract verbatim bodies → parallel read-only agents → single-writer exact-match apply (see `[[parallel-agents-single-file]]`). Only `intro`/`sections[].body` touched.
   - *Accent restoration — DONE 2026-06-03.* 58 tourism guides (`10-choses-a-faire-*`, incl. Paris/Bordeaux) had been saved ascii-stripped (`decoupe`, `a 57 m`, `28,30 EUR`, `m2`, `360 deg`); diacritics + `€/°/m²/m³` restored across 638 strings, word-skeleton integrity verified. Detected by accent-density < 0.09 (the earlier "~33" estimate undercounted). Legit currency-code `EUR` (EUR/USD context) left intact.
