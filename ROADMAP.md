@@ -472,6 +472,56 @@ une mauvaise. Chaque entrée cite sa source et sa licence.
 
 ---
 
+## Flotte de routines — état 2026-08-03
+
+19 routines actives, **34 runs/semaine, ≤ 5 par jour** (plafond). Avant arbitrage :
+22 routines, 52 runs/semaine, 7,4/jour — les sept jours dépassaient.
+
+| Jour | Routines (5 max) |
+|---|---|
+| Dim | parite-en, maillage-interne, parent-solo, ultra-audit MV, ultra-audit CertQuests |
+| Lun | parite-en, content-multisection, biodiversite, outreach-mairies, portfoliohq |
+| Mar | parite-en, roadmap-daily, maillage-interne, actu-locale, certquests-site |
+| Mer | parite-en, content-multisection, narration-rework, roadmap-carry-on-pm, vacances-monoparental |
+| Jeu | parite-en, roadmap-daily, maillage-interne, biodiversite, certquests-app |
+| Ven | parite-en, content-multisection, narration-rework, parent-solo, integrite-donnees |
+| Sam | parite-en, roadmap-daily, narration-rework, vacances-celibataire *(1 place libre)* |
+
+### Désactivées, avec la raison
+
+- **`en-locale-catchup`** — faisait exactement le travail de `parite-en` (« trouver UNE page
+  FR sans équivalent EN et la porter ») mais sans outil de mesure. Les faire tourner toutes
+  les deux, c'était deux agents sur les mêmes fichiers EN : le mode de défaillance décrit
+  dans `[[parallel-agents-single-file]]`. `parite-en` la remplace avec `npm run parity`
+  comme backlog ordonné.
+- **`departements-nav`** — **0 commit en 30 jours** sur ~8 runs, alors que son backlog est
+  encore ouvert (carte cliquable, pages département enrichies, limitrophes). Ce n'est pas
+  une routine finie, c'est une routine qui échoue. À noter avant de la relancer : elle est
+  la seule, avec `parent-solo`, à tourner sur **`claude-opus-4-7`** quand tout le reste est
+  sur `claude-opus-5` — piste à tester en premier.
+- **`ux-mobile-desktop`** — 0 commit en 30 jours. Son propre prompt admet qu'elle tourne
+  sans navigateur ni egress et ne peut auditer que le HTML exporté ; en pratique elle ne
+  trouve rien. À reprendre le jour où un vrai rendu est disponible.
+
+### Fréquences réduites
+
+- `biodiversite` 7 → 2/sem : bloquée sur l'egress (le crawl GBIF part d'une passe locale),
+  4 commits pour ~30 runs sur 30 jours. Tourner tous les jours ne débloque rien.
+- `narration-rework` 7 → 3/sem : la plus productive en volume (27 commits/30 j) mais c'est
+  du retravail de copie existante. Sous plafond, une place vaut mieux ailleurs ; 3/sem
+  livrent encore ~13 passes par mois.
+- `roadmap-daily` 5 → 3/sem, `roadmap-carry-on-pm` 2 → 1/sem : le « carry-on » existait
+  pour repasser derrière le run du matin **le même jour**. Avec roadmap-daily à 3 jours,
+  ce doublon n'a plus lieu d'être.
+
+### Réserve
+
+⚠️ `palmares-mensuel` tourne le **2 du mois**, jour de semaine variable. S'il tombe un jour
+déjà à 5, ce jour-là compte 6. Une fois par mois. Pour l'éliminer vraiment il faudrait
+descendre la base à 4/jour partout (−7 runs/semaine) : arbitrage à faire, pas fait ici.
+
+---
+
 ## Parité EN — bestcitiesinfrance.com au périmètre de mavilleideale.fr (ouverte 2026-08-03)
 
 Demande utilisateur : « le site anglais doit être identique au français ».
