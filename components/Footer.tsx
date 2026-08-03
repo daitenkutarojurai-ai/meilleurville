@@ -6,6 +6,7 @@ import { BrandMark } from "@/components/BrandMark";
 const LINKS_FR = {
   Explorer: [
     { label: "Toutes les villes", href: "/villes" },
+    { label: "Avis & notes des villes", href: "/avis" },
     { label: "Par région", href: "/regions" },
     { label: "Par département", href: "/departements" },
     { label: "Carte interactive", href: "/carte" },

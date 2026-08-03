@@ -734,6 +734,16 @@ export default {
     const url = new URL(request.url);
     const locale = (env.NEXT_PUBLIC_DEFAULT_LOCALE as string) ?? "fr";
 
+    // Scheme canonicalization. The apex→www rule below happened to 301 plain
+    // HTTP on the apex, which hid the fact that http://www.<host>/… was served
+    // 200 as-is: Google indexed 26 http:// URLs alongside their https twins
+    // (1 387 impressions of split signal, GSC 2026-05→08). Redirect first, on
+    // scheme alone, so every host reaches https before anything else runs.
+    if (url.protocol === "http:") {
+      url.protocol = "https:";
+      return Response.redirect(url.toString(), 301);
+    }
+
     // Host canonicalization + locale isolation. _redirects can't match on host,
     // and static export can't rewrite, so the (deleted) proxy.ts logic lives
     // here. run_worker_first (wrangler.toml, scoped to exclude /_next/*) puts the

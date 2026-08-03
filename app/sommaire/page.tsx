@@ -68,6 +68,7 @@ export default function SommairePage() {
             {[
               { href: "/", label: "Accueil" },
               { href: "/villes", label: "Toutes les villes" },
+              { href: "/avis", label: "Avis & notes des villes" },
               { href: "/classements", label: "Classements" },
               { href: "/comparer", label: "Comparateur" },
               { href: "/carte", label: "Carte interactive" },

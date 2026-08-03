@@ -41,12 +41,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
   const a = computeAirQuality(city);
+  // Le titre portait le même sous-titre générique sur les 540 villes
+  // (« · NO2, particules, ozone, pollens ») : rien ne distinguait deux résultats
+  // dans la SERP, et la queue passait 60 caractères dès que le nom était long.
+  // Le score est ce qui différencie et ce qu'un chercheur scanne (GSC : 7 705
+  // impressions sur /air, 1,4 % de clics en position ~9,5).
+  const score = (10 - a.composite).toFixed(1).replace(".", ",");
+  const titleBase = `Qualité de l'air à ${city.name} : ${score}/10`;
+  const titleFull = `${titleBase} · NO2, particules, ozone`;
   return {
-    title: `Qualité de l'air à ${city.name} · NO2, particules, ozone, pollens`,
-    description: `Synthèse de la qualité de l'air à ${city.name} (${city.department}) : NO2 ${AIR_LEVEL_LABEL[a.no2.level].toLowerCase()}, PM2.5 ${AIR_LEVEL_LABEL[a.pm25.level].toLowerCase()}, ozone ${AIR_LEVEL_LABEL[a.ozone.level].toLowerCase()}, pollens ${AIR_LEVEL_LABEL[a.pollen.level].toLowerCase()}. Score ${(10 - a.composite).toFixed(1)}/10 (10 = air le plus pur).`,
+    title: titleFull.length <= 60 ? titleFull : titleBase,
+    description: `${city.name} (${city.department}) : ${score}/10 pour la qualité de l'air, 10 = air le plus pur. Exposition ${AIR_LEVEL_LABEL_F[a.level]} — NO2, particules fines, ozone, pollens.`,
     alternates: cityAlternates("air", slug),
     openGraph: {
-      title: `Qualité de l'air à ${city.name}`,
+      title: `Qualité de l'air à ${city.name} : ${score}/10`,
       description: `NO2 trafic, particules fines, ozone estival, pollens — synthèse pédagogique.`,
     },
   };
@@ -121,10 +129,12 @@ export default async function AirPage({ params }: Props) {
           Qualité de l&apos;air à {city.name}
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)]">
-          Synthèse pédagogique des quatre polluants suivis quotidiennement par l&apos;indice
-          ATMO. Sources : inventaire CITEPA (émissions par secteur), réseau ATMO régional
-          (mesures), bulletin RNSA (pollens). Pour la mesure horaire à la station la plus
-          proche, consultez{" "}
+          Profil <strong>structurel</strong> des quatre polluants suivis par l&apos;indice ATMO :
+          ce que la géographie, le trafic, le chauffage et le climat de {city.name} impliquent
+          en exposition moyenne. Les niveaux ci-dessous sont <strong>estimés</strong>, pas
+          mesurés — ils suivent le découpage de l&apos;indice ATMO, l&apos;inventaire
+          d&apos;émissions du CITEPA et le bulletin pollinique du RNSA, sans reprendre leurs
+          relevés. Pour la mesure horaire à la station la plus proche, consultez{" "}
           <a
             href="https://www.atmo-france.org/article/lindice-atmo"
             target="_blank"
@@ -136,8 +146,8 @@ export default async function AirPage({ params }: Props) {
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Synthèse pédagogique</Badge>
-          <Badge>ATMO · CITEPA · RNSA</Badge>
+          <Badge>Estimation structurelle</Badge>
+          <Badge>Cadres de référence : ATMO · CITEPA · RNSA</Badge>
         </div>
 
         {/* Composite hero */}
