@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowUpRight, Clock } from "lucide-react";
 import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
+import { EN_GUIDES, EN_GUIDE_CATEGORIES } from "@/data/guides-en";
 
 const COVER_GRADIENTS = [
   "from-emerald-400/40 via-lime-300/30 to-amber-200/20",
@@ -10,7 +11,17 @@ const COVER_GRADIENTS = [
 
 export function GuidesTeaser({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
-  const featured = [...GUIDES]
+  // La home EN mettait en avant les trois derniers guides FR : titres français
+  // et URLs qui n'existent pas sur bestcitiesinfrance.com.
+  const corpus: ReadonlyArray<{
+    slug: string; title: string; intro: string; emoji: string;
+    readMinutes: number; category: string; updatedAt: string;
+  }> = locale === "en" ? EN_GUIDES : GUIDES;
+  const categoryLabel = (id: string) =>
+    locale === "en"
+      ? EN_GUIDE_CATEGORIES[id as keyof typeof EN_GUIDE_CATEGORIES] ?? id
+      : GUIDE_CATEGORIES.find((c) => c.id === id)?.label ?? id;
+  const featured = [...corpus]
     .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime())
     .slice(0, 3);
 
@@ -83,7 +94,7 @@ export function GuidesTeaser({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
                 <Clock className="h-3 w-3" />
                 {hero.readMinutes} min
                 <span>·</span>
-                <span>{GUIDE_CATEGORIES.find((c) => c.id === hero.category)?.label ?? hero.category}</span>
+                <span>{categoryLabel(hero.category)}</span>
               </div>
               <h3 className="text-2xl font-bold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-tight mb-2">
                 {hero.title}
@@ -113,7 +124,7 @@ export function GuidesTeaser({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
                       <Clock className="h-3 w-3" />
                       {guide.readMinutes} min
                       <span>·</span>
-                      <span className="truncate">{GUIDE_CATEGORIES.find((c) => c.id === guide.category)?.label ?? guide.category}</span>
+                      <span className="truncate">{categoryLabel(guide.category)}</span>
                     </div>
                     <h3 className="text-base font-bold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug mb-1.5 line-clamp-2">
                       {guide.title}
