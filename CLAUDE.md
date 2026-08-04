@@ -225,9 +225,23 @@ Pattern to follow: `app/villes/[slug]/climat/page.tsx`.
 npm install
 npm run dev          # http://localhost:3000 (Turbopack)
 npx tsc --noEmit     # strict TS pass (currently clean)
-npm run build        # full SSG build (~3 000 pages)
+npm run build        # full SSG build — 56 185 pages, ~15 min (le « ~3 000 » historique est très obsolète)
 npm run lint         # 231 errors / 27 warnings (mostly @next/next/no-html-link-for-pages — harmless under output:"export" — plus residual react/no-unescaped-entities; none are runtime bugs). See latest docs/audit-*.md for the rule breakdown.
 ```
+
+⚠️ **`npm run build` ne tient plus dans le quota disque d'une session cloud** (constaté 2026-08-04,
+deux tentatives). Le build compile, passe TypeScript et **génère les 56 185 pages avec succès en
+~12,5 min**, puis meurt en `ENOSPC` sur « Finalizing page optimization » : `.next` seul dépasse
+l'allocation d'écriture de la session, avant même que `out/` soit écrit. Conséquences pratiques
+pour une routine planifiée :
+- L'étape qui valide le contenu (rendu de chaque page, `assertUniqueSlugs`, imports) est la
+  **génération**, et elle, elle passe. Un run qui atteint `(56185/56185)` a validé son contenu.
+- La finalisation qui échoue est du bundling/export, elle ne relit pas les données.
+- Nettoyer `.next` et `out` **avant** de relancer quoi que ce soit — sinon les fichiers de sortie
+  des outils eux-mêmes deviennent illisibles (ENOSPC silencieux : les logs reviennent vides, ce
+  qui se lit à tort comme un plantage sans message).
+- Ne pas conclure « build cassé » sur un `EXIT=1` sans avoir lu la ligne d'erreur : ici la cause
+  est l'environnement, pas le code. La vérification complète (export `out/`) reste une passe locale.
 
 @AGENTS.md
 
