@@ -702,6 +702,79 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ---
 
+## Shipped 2026-08-04
+
+- **Le corpus éditorial ne part plus dans le bundle client** ✅ — ultra-audit
+  2026-08-02 §2.2 (🔴, rapporté et laissé de côté parce que « refactor de pipeline »).
+  `components/SearchPalette.tsx` est un composant client et importait `GUIDES` depuis
+  `@/data/guides` pour n'en lire que `slug` / `title` / `emoji`, plus
+  `getAllTagsWithCounts()` depuis `@/lib/guide-tags`, qui lit le même module. Un
+  tableau de littéraux n'est pas tree-shakable : **le corpus entier partait au
+  navigateur** — 895 `intro:`, 6 000+ `body:`, c'est-à-dire le corps de chaque section
+  de chaque guide, pour afficher une liste de titres — et avec lui `CITIES_SEED`, que
+  `data/guides.ts` importe pour ses contrôles d'intégrité.
+
+  **Mesuré des deux côtés, pas déduit.** Graphe d'import depuis la palette :
+  **6,42 Mo de source → 0,89 Mo**. Chunk réellement émis par Turbopack :
+
+  | | chunk le plus gros | gzip | `intro:` dedans |
+  |---|---|---|---|
+  | avant (audit 02/08) | 5,9 Mo | 1,79 Mo | 894 |
+  | après | **668 Ko** | **0,13 Mo** | **0** |
+
+  Soit **−93 % sur ce que coûte la première recherche**, sur toutes les pages du site.
+  Le code-splitting, lui, était déjà correct : `SearchPaletteLauncher` charge la palette
+  en `next/dynamic` au premier `Cmd+K` / `/` / clic, et ça n'a pas bougé.
+
+  Trois points de méthode :
+
+  - **Le générateur évalue les modules réels, il ne les re-parse pas.**
+    `scripts/build-search-index.mjs` transpile `data/guides.ts` avec le compilateur
+    TypeScript puis l'exécute avec un `require` maison (stubs pour `CITIES_SEED` et
+    les asserts, qui n'ont rien à faire dans une projection), et rejoue ensuite le
+    **vrai** `lib/guide-tags.ts` avec ces `GUIDES` en entrée. La liste de tags publiée
+    ne peut donc pas diverger de celle que le serveur rend : une réimplémentation du
+    calcul aurait dérivé au premier changement de `MIN_GUIDES_PER_TAG`. Un import
+    inattendu dans `data/guides.ts` fait échouer le script avec le nom de l'import —
+    bruyant plutôt que silencieusement faux.
+  - **`prebuild` interdit la péremption.** `data/search-index.json` (172 Ko, 895 guides,
+    238 tags) est commité pour que `next dev` et `tsc` marchent sans étape préalable,
+    mais ~15 agents ajoutent des guides chaque semaine sans connaître ce fichier. Le
+    hook npm `prebuild` le régénère avant chaque `next build` : la production est juste
+    même si personne n'a relancé le script. `npm run search-index:check` échoue sur un
+    fichier périmé, pour la routine intégrité.
+  - **`lib/search-index.ts` est une frontière, pas un utilitaire.** Il n'importe que le
+    JSON, et son docstring le dit : c'est ce qui garde le corpus hors du bundle. Le
+    précédent existait déjà dans le dépôt — `GUIDE_CATEGORIES` a été sorti de
+    `data/guides.ts` vers `lib/guide-categories.ts` pour exactement cette raison, et le
+    commentaire de tête de ce fichier l'explique. La règle est désormais dans
+    `CLAUDE.md` § Performance constraints plutôt que dans la mémoire d'un agent.
+
+  **Non fait, trouvé en chemin** (deux items distincts, pas des oublis) :
+
+  - Il reste **588 Ko de `data/cities-seed.ts`** dans le graphe de la palette — c'est
+    maintenant 66 % de ce qu'elle charge. Elle n'en lit que `slug` / `name` / `region` /
+    `scores.global`. Une projection ville est le même geste, mais elle suppose de
+    rejouer le pipeline `calibrateScores` → `normalizeDistribution` dans le générateur
+    (sinon les scores affichés dans la palette ne seraient pas ceux des pages), et
+    `CITIES_SEED` est importé par beaucoup d'autres composants clients : le gain réel
+    dépend du découpage de chunks, à mesurer avant d'écrire.
+  - **La palette est en français sur `bestcitiesinfrance.com`.** `Navbar` rend
+    `<SearchPaletteLauncher />` sans condition, et la palette ne connaît que
+    `GUIDES` / `CITIES_SEED` FR et les chemins `/villes/…`, `/guides/…`, `/tags/…`.
+    Un `Cmd+K` sur le domaine EN renvoie donc des titres français vers des URL qui,
+    depuis l'isolation de locale, ne sont plus servies sur ce domaine. C'est un défaut
+    de parité (cf. § Parité EN), pas de performance — laissé à `parite-en`, qui tourne
+    sur ces fichiers-là.
+
+  Aucune route, aucun sitemap, aucun canonical touché ; `npx tsc --noEmit` propre et
+  compilation Turbopack vérifiée (`✓ Compiled successfully`, TypeScript passé). Le
+  `npm run build` complet n'a pas été mené à terme dans la session : 56 178 pages pour
+  ~28 Go d'export, la contrainte disque décrite en §4.7 de l'audit — la mesure de chunk
+  ci-dessus vient de `.next/static/chunks/`, produit avant la génération des pages.
+
+---
+
 ## Shipped 2026-08-02
 
 - **hreflang rétabli sur les ~42 000 sous-pages ville (FR + EN)** ✅ — L'ultra-audit de la veille (`docs/audits/ultra-audit-2026-08-02.md` §2.1, §4.1 « le plus rentable des chantiers ») mesurait **2 903 pages sur 54 646 portant un hreflang, soit 94 % du site sans**. La cause n'est pas une négligence ponctuelle : Next **remplace l'objet `alternates` en entier** dès qu'une page en fournit un, donc chaque route qui retournait `alternates: { canonical: … }` perdait en silence le `languages` déclaré au niveau du layout racine (`app/layout.tsx:45-56`). Les seules familles indemnes étaient celles qui reconstruisaient `languages` à la main. Ce run traite la plus grosse : les **39 sous-pages ville FR et leurs 39 jumelles EN**, soit 78 fichiers et ~42 000 pages.

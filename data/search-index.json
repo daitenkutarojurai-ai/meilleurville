@@ -1,0 +1,5672 @@
+{
+  "//": "Généré par scripts/build-search-index.mjs — ne pas éditer à la main (npm run search-index).",
+  "guides": [
+    {
+      "slug": "vivre-en-france-teletravail-guide-2025",
+      "title": "Télétravailler en France : les 10 villes où votre qualité de vie décollera",
+      "emoji": "💻"
+    },
+    {
+      "slug": "meilleure-ville-famille-france",
+      "title": "Où élever ses enfants en France ? Le guide honnête 2025",
+      "emoji": "👨‍👩‍👧"
+    },
+    {
+      "slug": "budget-vivre-en-france-comparatif",
+      "title": "Combien coûte vraiment la vie en dehors de Paris ? Comparatif 2025",
+      "emoji": "💰"
+    },
+    {
+      "slug": "retraite-france-guide",
+      "title": "Prendre sa retraite en France : les 8 meilleures villes en 2025",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "teletravail-bretagne-guide",
+      "title": "Télétravailler en Bretagne : est-ce vraiment possible ?",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "soleil-france-guide",
+      "title": "Les villes les plus ensoleillées de France : classement et guide de vie",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "quitter-paris-guide-2025",
+      "title": "Quitter Paris en 2025 : le guide honnête de l'après",
+      "emoji": "🚂"
+    },
+    {
+      "slug": "villes-etudiantes-france-guide",
+      "title": "Les meilleures villes étudiantes en France — Guide honnête 2025",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "villes-seniors-retraite-france",
+      "title": "Où prendre sa retraite en France ? Le guide des 60+ qui bougent",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "villes-nature-plein-air-france",
+      "title": "Les meilleures villes françaises pour vivre près de la nature",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "vivre-bord-mer-france-guide",
+      "title": "Vivre au bord de la mer en France : les 8 villes où la qualité de vie bat Paris",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "bordeaux-lyon-nantes-quelle-ville-choisir",
+      "title": "Bordeaux, Lyon ou Nantes : laquelle choisir en 2025 ?",
+      "emoji": "⚖️"
+    },
+    {
+      "slug": "toulouse-montpellier-quelle-ville-choisir",
+      "title": "Toulouse ou Montpellier : laquelle choisir en 2025 ?",
+      "emoji": "⚖️"
+    },
+    {
+      "slug": "vivre-sans-voiture-france-guide-2025",
+      "title": "Vivre sans voiture en France : les 10 villes où c'est vraiment possible",
+      "emoji": "🚲"
+    },
+    {
+      "slug": "paris-province-guide-demenagement-2025",
+      "title": "Quitter Paris pour la province : le guide complet 2025",
+      "emoji": "🚂"
+    },
+    {
+      "slug": "normandie-rouen-caen-le-havre-guide-2025",
+      "title": "Vivre en Normandie en 2025 : Rouen, Caen ou Le Havre ?",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "cote-atlantique-bordeaux-la-rochelle-bayonne",
+      "title": "Côte Atlantique : Bordeaux, La Rochelle ou Bayonne — Laquelle vous correspond ?",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "investissement-locatif-meilleures-villes-2025",
+      "title": "Investissement locatif 2025 : les 8 meilleures villes françaises",
+      "emoji": "🏘️"
+    },
+    {
+      "slug": "vivre-pays-basque-bayonne-biarritz-pau",
+      "title": "Vivre au Pays Basque Français — Bayonne, Biarritz ou Pau ?",
+      "emoji": "🏄"
+    },
+    {
+      "slug": "auvergne-rhone-alpes-lyon-grenoble-annecy",
+      "title": "Lyon, Grenoble ou Annecy : quel choix en Auvergne-Rhône-Alpes ?",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "retraite-france-meilleures-villes-2025",
+      "title": "Prendre sa retraite en France : les 10 meilleures villes 2025",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "vivre-dans-le-sud-france-guide-2025",
+      "title": "Vivre dans le Sud de la France : le guide complet 2025",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "hauts-de-france-lille-arras-amiens-guide-2025",
+      "title": "Vivre dans les Hauts-de-France : Lille, Arras, Amiens — Guide 2025",
+      "emoji": "🌾"
+    },
+    {
+      "slug": "centre-val-de-loire-tours-orleans-guide-2025",
+      "title": "Vivre en Centre-Val de Loire : Tours, Orléans, Chartres — le guide 2025",
+      "emoji": "🏯"
+    },
+    {
+      "slug": "acheter-immobilier-france-meilleures-villes-2025",
+      "title": "Acheter un bien immobilier en France : les 12 villes où investir en 2025",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "vivre-en-grand-est-alsace-moselle-guide-2025",
+      "title": "Vivre en Grand Est : Strasbourg, Metz, Nancy, Reims — Guide 2025",
+      "emoji": "🥨"
+    },
+    {
+      "slug": "vivre-en-nouvelle-aquitaine-guide-2025",
+      "title": "Vivre en Nouvelle-Aquitaine : Bordeaux, Pau, La Rochelle, Poitiers — Guide 2025",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "vivre-en-auvergne-rhone-alpes-guide-2025",
+      "title": "Vivre en Auvergne-Rhône-Alpes : Lyon, Grenoble, Annecy, Valence — Guide 2025",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "vivre-en-pays-de-la-loire-guide-2025",
+      "title": "Vivre en Pays de la Loire : Nantes, Angers, Le Mans, Saint-Nazaire — Guide 2025",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "vivre-en-provence-paca-guide-2025",
+      "title": "Vivre en Provence-Alpes-Côte d'Azur : Nice, Marseille, Aix, Toulon — Guide 2025",
+      "emoji": "🌞"
+    },
+    {
+      "slug": "vivre-en-bourgogne-franche-comte-guide-2025",
+      "title": "Vivre en Bourgogne-Franche-Comté : Dijon, Besançon, Auxerre, Belfort — Guide 2025",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "meilleures-villes-pour-retraite-france-2025",
+      "title": "Meilleures villes pour la retraite en France — Guide 2025",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "meilleures-villes-bord-de-mer-france-2025",
+      "title": "Meilleures villes côtières françaises 2025 — Mer, Qualité de vie, Prix",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "tresors-caches-villes-sous-estimees-france-2025",
+      "title": "Les 10 villes françaises sous-estimées qui méritent d'être connues — 2025",
+      "emoji": "💎"
+    },
+    {
+      "slug": "alternatives-ile-de-france-banlieue-parisienne-guide-2025",
+      "title": "Quitter l'Île-de-France : les meilleures alternatives à la banlieue parisienne",
+      "emoji": "🗺️"
+    },
+    {
+      "slug": "meilleures-villes-familles-ecoles-securite-france-2025",
+      "title": "Meilleures villes françaises pour élever ses enfants — Écoles, Sécurité, Espaces verts",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "quitter-paris-guide-pratique-2025",
+      "title": "Quitter Paris : le guide pratique complet 2025 — Où aller, comment préparer son départ",
+      "emoji": "🚀"
+    },
+    {
+      "slug": "meilleures-villes-jeunes-actifs-france-2025",
+      "title": "Meilleures villes françaises pour les jeunes actifs 2025 — Emploi, vie sociale et logement abordable",
+      "emoji": "⚡"
+    },
+    {
+      "slug": "villes-france-bord-de-mer-budget-accessible-2025",
+      "title": "Vivre en bord de mer en France sans se ruiner — Les villes côtières accessibles en 2025",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "investissement-immobilier-villes-france-2025",
+      "title": "Investissement immobilier en France 2025 — Les meilleures villes pour investir et louer",
+      "emoji": "🏗️"
+    },
+    {
+      "slug": "villes-france-mobilite-douce-sans-voiture-2025",
+      "title": "Les meilleures villes françaises sans voiture — Mobilité douce, vélo et transports 2025",
+      "emoji": "🚲"
+    },
+    {
+      "slug": "guide-expatries-vivre-en-france-2025",
+      "title": "Guide pour expatriés : s'installer en France en 2025 — Meilleures villes et conseils pratiques",
+      "emoji": "✈️"
+    },
+    {
+      "slug": "meilleures-villes-creer-entreprise-startup-france-2025",
+      "title": "Meilleures villes françaises pour créer son entreprise en 2025 — Écosystème startup et TPE/PME",
+      "emoji": "🚀"
+    },
+    {
+      "slug": "vivre-en-montagne-villes-alpes-pyrenees-france-2025",
+      "title": "Vivre en montagne en France 2025 — Meilleures villes des Alpes et des Pyrénées",
+      "emoji": "⛰️"
+    },
+    {
+      "slug": "normandie-vs-bretagne-comparatif-2025",
+      "title": "Normandie vs Bretagne 2025 — Quelle région choisir pour s'installer ?",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "vivre-en-ile-de-france-guide-2025",
+      "title": "Vivre en Île-de-France 2025 — Paris, banlieue et alternatives : le guide complet",
+      "emoji": "🗼"
+    },
+    {
+      "slug": "meilleures-villes-tech-numerique-france-2025",
+      "title": "Meilleures villes françaises pour la tech et le numérique en 2025",
+      "emoji": "💻"
+    },
+    {
+      "slug": "mutation-professionnelle-choisir-ville-france-2025",
+      "title": "Mutation professionnelle : comment choisir sa prochaine ville en France",
+      "emoji": "📦"
+    },
+    {
+      "slug": "paris-vs-province-qualite-de-vie-2025",
+      "title": "Paris vs Province 2025 — Qualité de vie : le vrai comparatif",
+      "emoji": "⚖️"
+    },
+    {
+      "slug": "lyon-vs-bordeaux-comparatif-2025",
+      "title": "Lyon vs Bordeaux 2025 — Quelle ville choisir pour s'installer ?",
+      "emoji": "⚖️"
+    },
+    {
+      "slug": "nantes-vs-rennes-comparatif-2025",
+      "title": "Nantes vs Rennes 2025 — Quelle ville de l'Ouest choisir ?",
+      "emoji": "⚖️"
+    },
+    {
+      "slug": "marseille-vs-toulouse-comparatif-2025",
+      "title": "Marseille vs Toulouse 2025 — Comparatif des deux grandes métropoles du Sud",
+      "emoji": "⚖️"
+    },
+    {
+      "slug": "petites-villes-qualite-de-vie-france-2025",
+      "title": "Petites villes de France : les trésors de qualité de vie sous 50 000 habitants",
+      "emoji": "🏡"
+    },
+    {
+      "slug": "meilleures-villes-qualite-air-nature-france-2025",
+      "title": "Meilleures villes françaises pour la qualité de l'air et la nature en 2025",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "retraite-soleil-meilleures-villes-france-2025",
+      "title": "Retraite au soleil : les meilleures villes françaises en 2025",
+      "emoji": "🌞"
+    },
+    {
+      "slug": "vivre-autour-de-lyon-banlieue-metropole-2025",
+      "title": "Vivre autour de Lyon en 2025 — S'installer dans la métropole sans payer le prix de Lyon",
+      "emoji": "🦁"
+    },
+    {
+      "slug": "cote-basque-landes-vivre-atlantique-2025",
+      "title": "Côte Basque et Landes 2025 — Vivre au bord de l'Atlantique sans se ruiner",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "investissement-immobilier-villes-rentables-france-2025",
+      "title": "Investissement immobilier en province : les villes les plus rentables en 2025",
+      "emoji": "📈"
+    },
+    {
+      "slug": "vivre-campagne-vs-ville-moyenne-france-2025",
+      "title": "Campagne vs ville moyenne en France 2025 — Faire le bon choix",
+      "emoji": "🌾"
+    },
+    {
+      "slug": "cote-azur-abordable-arriere-pays-paca-2025",
+      "title": "Côte d'Azur abordable 2025 — Grasse, La Ciotat, Vence : profiter du Sud sans les prix du bord de mer",
+      "emoji": "🌺"
+    },
+    {
+      "slug": "vivre-autour-bordeaux-alternatives-2025",
+      "title": "Autour de Bordeaux 2025 — S'installer dans la métropole sans payer le prix Bordeaux",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "nomades-numeriques-meilleures-villes-france-2025",
+      "title": "Nomades numériques en France 2025 — Meilleures villes pour une vie mobile",
+      "emoji": "💻"
+    },
+    {
+      "slug": "val-de-loire-vivre-guide-2025",
+      "title": "Val de Loire 2025 — Le guide pour s'installer dans la région des châteaux",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "vivre-dans-les-pyrenees-guide-2025",
+      "title": "Vivre dans les Pyrénées en 2025 — Le guide complet des villes de piémont",
+      "emoji": "⛰️"
+    },
+    {
+      "slug": "meilleures-villes-rse-developpement-durable-france-2025",
+      "title": "Meilleures villes françaises pour les profils RSE et développement durable 2025",
+      "emoji": "🌱"
+    },
+    {
+      "slug": "vivre-dans-le-var-guide-2025",
+      "title": "Vivre dans le Var en 2025 — Toulon, Saint-Raphaël, Hyères, Sanary : le guide complet",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "vivre-morbihan-bretagne-sud-guide-2025",
+      "title": "Vivre dans le Morbihan et la Bretagne Sud 2025 — Vannes, Lorient, Golfe du Morbihan",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "meilleures-villes-outdoor-sport-nature-france-2025",
+      "title": "Meilleures villes françaises pour les sportifs et amateurs d'outdoor 2025",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "vivre-en-savoie-haute-savoie-guide-2025",
+      "title": "Vivre en Savoie et Haute-Savoie 2025 — Annecy, Chambéry, Aix-les-Bains : le guide complet",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "vivre-en-dordogne-perigord-guide-2025",
+      "title": "Vivre en Dordogne-Périgord en 2025 : Périgueux, Bergerac, Sarlat — le guide complet",
+      "emoji": "🍖"
+    },
+    {
+      "slug": "vivre-en-alsace-strasbourg-colmar-mulhouse-2025",
+      "title": "Vivre en Alsace : Strasbourg, Colmar ou Mulhouse — comparatif 2025",
+      "emoji": "🥨"
+    },
+    {
+      "slug": "meilleures-villes-budget-moins-700-euros-t2-2025",
+      "title": "Les 10 meilleures villes françaises où le T2 coûte moins de 700€ en 2025",
+      "emoji": "💸"
+    },
+    {
+      "slug": "cote-opale-nord-pas-de-calais-vivre-guide-2025",
+      "title": "Vivre sur la Côte d'Opale en 2025 : Boulogne-sur-Mer, Calais, Le Touquet — guide complet",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "vivre-en-charentes-angouleme-la-rochelle-saintes-guide-2025",
+      "title": "Vivre en Charentes en 2025 : Angoulême, La Rochelle, Saintes, Cognac — le guide complet",
+      "emoji": "🥃"
+    },
+    {
+      "slug": "vivre-sur-cote-atlantique-surf-guide-2025",
+      "title": "Vivre sur la Côte Atlantique Surf en 2025 : Hossegor, Capbreton, Biscarrosse, Mimizan",
+      "emoji": "🏄"
+    },
+    {
+      "slug": "vivre-ile-de-france-alternatives-pas-cheres-2025",
+      "title": "Quitter la région parisienne sans aller trop loin : les meilleures villes à 1h de Paris",
+      "emoji": "🚄"
+    },
+    {
+      "slug": "vivre-en-bretagne-nord-guide-2025",
+      "title": "Bretagne Nord en 2025 : Saint-Malo, Dinard, Morlaix, Brest — le guide pour s'installer",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "meilleures-villes-retraites-budget-moins-1500-euros-2025",
+      "title": "Les meilleures villes pour prendre sa retraite avec moins de 1 500€/mois en 2025",
+      "emoji": "🌻"
+    },
+    {
+      "slug": "vivre-en-alsace-route-des-vins-villages-guide-2025",
+      "title": "Vivre sur la Route des Vins d'Alsace en 2025 : Obernai, Ribeauvillé, Riquewihr, Kaysersberg",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "toulouse-vs-bordeaux-comparatif-2025",
+      "title": "Toulouse vs Bordeaux : laquelle choisir pour s'installer ?",
+      "emoji": "⚖️"
+    },
+    {
+      "slug": "vivre-en-franche-comte-jura-guide-2025",
+      "title": "Vivre en Franche-Comté et dans le Jura : nature, Suisse, qualité de vie",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "vivre-en-correze-limousin-guide-2025",
+      "title": "Vivre en Corrèze et Limousin : le green flag de la France intérieure",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "meilleures-villes-ski-montagne-investissement-2025",
+      "title": "Ski, montagne et investissement : les meilleures villes des Alpes en 2025",
+      "emoji": "⛷️"
+    },
+    {
+      "slug": "vivre-alpes-du-sud-provence-alpine-guide-2025",
+      "title": "Vivre dans les Alpes du Sud : Provence alpine, lavande et soleil à prix abordables",
+      "emoji": "🌞"
+    },
+    {
+      "slug": "vivre-en-dordogne-quercy-perigord-guide-2025",
+      "title": "Vivre en Dordogne et Quercy : le Périgord Noir et Blanc pour s'installer",
+      "emoji": "🦆"
+    },
+    {
+      "slug": "vivre-en-vendee-guide-2025",
+      "title": "Vivre en Vendée : entre mer, bocage et qualité de vie",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "meilleures-villes-30-min-mer-france-2025",
+      "title": "Habiter à 30 minutes de la mer : les meilleures villes abordables de France",
+      "emoji": "🏖️"
+    },
+    {
+      "slug": "vivre-dans-le-gard-guide-2025",
+      "title": "Vivre dans le Gard : Nîmes, Uzès, Alès et le soleil occitan",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "angers-vs-nantes-comparatif-2025",
+      "title": "Angers vs Nantes : laquelle choisir pour vivre dans l'Ouest ?",
+      "emoji": "⚖️"
+    },
+    {
+      "slug": "vivre-en-aveyron-lot-guide-2025",
+      "title": "Vivre en Aveyron et dans le Lot : Rodez, Millau, Cahors et les causses",
+      "emoji": "🏞️"
+    },
+    {
+      "slug": "vivre-en-touraine-guide-2025",
+      "title": "Vivre en Touraine : Tours, Amboise, Saumur et les châteaux de la Loire",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "vivre-dans-le-tarn-guide-2025",
+      "title": "Vivre dans le Tarn : Albi, Castres et les bastides du Sud-Ouest",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "vivre-en-champagne-guide-2025",
+      "title": "Vivre en Champagne : Reims, Troyes, Épernay et les vignes effervescentes",
+      "emoji": "🥂"
+    },
+    {
+      "slug": "meilleures-villes-familles-budget-serre-2025",
+      "title": "Meilleures villes françaises pour les familles à budget serré en 2025",
+      "emoji": "👨‍👩‍👧"
+    },
+    {
+      "slug": "vivre-en-auvergne-guide-2025",
+      "title": "Vivre en Auvergne en 2025 : volcans, qualité de vie et opportunités",
+      "emoji": "🌋"
+    },
+    {
+      "slug": "vivre-en-haute-savoie-hors-annecy-guide-2025",
+      "title": "Haute-Savoie sans payer le prix Annecy : les alternatives 2025",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "vivre-en-ardeche-drome-guide-2025",
+      "title": "Vivre en Ardèche et Drôme en 2025 : soleil, nature et douceur de vivre",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "meilleures-villes-industrie-emploi-stable-france-2025",
+      "title": "Les villes françaises avec le plus d'emplois stables hors grandes métropoles",
+      "emoji": "🏭"
+    },
+    {
+      "slug": "vivre-en-sarthe-maine-guide-2025",
+      "title": "Vivre en Sarthe et dans le Maine en 2025 : nature, patrimoine et douceur angevine",
+      "emoji": "🏎️"
+    },
+    {
+      "slug": "vivre-en-gascogne-gers-guide-2025",
+      "title": "Vivre dans le Gers et en Gascogne en 2025 : soleil, armagnac et bien-être",
+      "emoji": "🦆"
+    },
+    {
+      "slug": "meilleures-villes-maison-jardin-moins-200000-euros-2025",
+      "title": "Acheter une maison avec jardin à moins de 200 000€ en France : le guide 2025",
+      "emoji": "🏡"
+    },
+    {
+      "slug": "grenoble-vs-chambery-comparatif-2025",
+      "title": "Grenoble vs Chambéry : quelle ville alpine choisir en 2025 ?",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "choisir-ville-pour-ses-enfants-ecoles-activites-securite-2025",
+      "title": "Choisir une ville pour ses enfants : écoles, activités et sécurité — guide 2025",
+      "emoji": "👧"
+    },
+    {
+      "slug": "teletravail-rythme-hybride-quelle-ville-choisir-2025",
+      "title": "Télétravail hybride 2-3 jours/semaine : quelle ville française choisir en 2025 ?",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "meilleures-villes-sante-hopital-medecins-france-2025",
+      "title": "Meilleures villes françaises pour l'accès aux soins de santé en 2025",
+      "emoji": "🏥"
+    },
+    {
+      "slug": "vivre-en-quercy-lot-perigord-guide-2025",
+      "title": "Vivre dans le Lot et en Quercy en 2025 : falaises, gastronomie et liberté",
+      "emoji": "🦅"
+    },
+    {
+      "slug": "meilleures-villes-investissement-locatif-colocation-2025",
+      "title": "Meilleures villes françaises pour l'investissement locatif et la colocation en 2025",
+      "emoji": "📈"
+    },
+    {
+      "slug": "vivre-frontalier-france-belgique-luxembourg-suisse-2025",
+      "title": "Vivre côté français près des frontières : Belgique, Luxembourg, Suisse — guide 2025",
+      "emoji": "🌍"
+    },
+    {
+      "slug": "vivre-dans-le-gers-et-tarn-et-garonne-guide-2025",
+      "title": "Vivre dans le Tarn-et-Garonne en 2025 : bastides, soleil et douceur de vivre",
+      "emoji": "🌻"
+    },
+    {
+      "slug": "meilleures-villes-sport-enfants-clubs-activites-2025",
+      "title": "Meilleures villes françaises pour le sport et les activités des enfants",
+      "emoji": "⚽"
+    },
+    {
+      "slug": "meilleures-villes-ecoles-bilingues-internationales-france-2025",
+      "title": "Villes françaises avec les meilleures écoles bilingues et internationales",
+      "emoji": "🌍"
+    },
+    {
+      "slug": "villes-france-jardins-espaces-verts-enfants-familles-2025",
+      "title": "Les meilleures villes françaises pour les familles qui aiment la nature et les espaces verts",
+      "emoji": "🌳"
+    },
+    {
+      "slug": "quitter-paris-province-teletravail-guide-complet-2025",
+      "title": "Quitter Paris pour la province en télétravail : le guide complet 2025",
+      "emoji": "🚂"
+    },
+    {
+      "slug": "meilleures-villes-coworking-freelance-ecosysteme-2025",
+      "title": "Les meilleures villes françaises pour les freelances et le coworking en 2025",
+      "emoji": "💼"
+    },
+    {
+      "slug": "strasbourg-vs-mulhouse-comparatif-2025",
+      "title": "Strasbourg vs Mulhouse : laquelle choisir pour s'installer en Alsace ?",
+      "emoji": "🥨"
+    },
+    {
+      "slug": "dijon-vs-besancon-comparatif-2025",
+      "title": "Dijon vs Besançon : laquelle choisir pour s'installer en Bourgogne-Franche-Comté ?",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "meilleures-villes-achat-immobilier-moins-150000-euros-2025",
+      "title": "Acheter un appartement ou une maison à moins de 150 000€ en France en 2025",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "meilleures-villes-retraite-avec-mer-et-soleil-petit-budget-2025",
+      "title": "Les meilleures villes pour prendre sa retraite au soleil sans se ruiner en 2025",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "famille-monoparentale-quelle-ville-france-2025",
+      "title": "Quelle ville choisir pour une famille monoparentale en France en 2025 ?",
+      "emoji": "👩‍👧"
+    },
+    {
+      "slug": "teletravailler-depuis-montagne-guide-complet-2025",
+      "title": "Télétravailler depuis la montagne : le guide complet 2025",
+      "emoji": "⛰️"
+    },
+    {
+      "slug": "s-installer-dans-le-sud-ouest-teletravail-guide-2025",
+      "title": "S'installer dans le Sud-Ouest de la France en télétravail : le guide complet 2025",
+      "emoji": "🍇"
+    },
+    {
+      "slug": "villes-france-parents-enfants-handicap-2025",
+      "title": "Les meilleures villes françaises pour les familles avec un enfant en situation de handicap",
+      "emoji": "♿"
+    },
+    {
+      "slug": "villes-france-grandes-tables-gastronomie-budget-reduit-2025",
+      "title": "Les villes françaises où manger excellemment bien sans se ruiner",
+      "emoji": "🍽️"
+    },
+    {
+      "slug": "teletravailler-depuis-occitanie-toulouse-montpellier-guide-2025",
+      "title": "Télétravailler depuis l'Occitanie : Toulouse, Montpellier et les villes moyennes",
+      "emoji": "🌞"
+    },
+    {
+      "slug": "meilleures-villes-familles-recomposees-france-2025",
+      "title": "Meilleures villes pour les familles recomposées en France",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "villes-france-ainés-retraite-services-proximite-2025",
+      "title": "Les meilleures villes françaises pour les aînés : services, accessibilité, qualité de vie",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "villes-france-reconversion-professionnelle-formation-2025",
+      "title": "Les meilleures villes pour se reconvertir professionnellement en France",
+      "emoji": "🔄"
+    },
+    {
+      "slug": "meilleures-villes-couples-teletravail-deux-bureaux-2026",
+      "title": "Meilleures villes françaises pour les couples en télétravail — deux bureaux, une adresse 2026",
+      "emoji": "👫"
+    },
+    {
+      "slug": "meilleures-villes-etudiantes-france-2026",
+      "title": "Meilleures villes étudiantes en France — Le guide honnête 2026",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "vivre-en-corse-guide-2026",
+      "title": "Vivre en Corse en 2026 : Ajaccio, Bastia, Porto-Vecchio, Corte — le guide complet",
+      "emoji": "🏝️"
+    },
+    {
+      "slug": "vivre-en-lorraine-metz-nancy-thionville-2026",
+      "title": "Vivre en Lorraine en 2026 : Metz, Nancy, Thionville, Épinal — le guide complet",
+      "emoji": "⚜️"
+    },
+    {
+      "slug": "quitter-lyon-guide-2026",
+      "title": "Quitter Lyon en 2026 : où aller, pourquoi, et combien on récupère",
+      "emoji": "🦁"
+    },
+    {
+      "slug": "quitter-marseille-guide-2026",
+      "title": "Quitter Marseille en 2026 : qui part, où, pourquoi",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "quitter-lille-guide-2026",
+      "title": "Quitter Lille en 2026 : la métropole, et après ?",
+      "emoji": "🌧️"
+    },
+    {
+      "slug": "quitter-toulouse-guide-2026",
+      "title": "Quitter Toulouse en 2026 : où va-t-on quand on en a fait le tour ?",
+      "emoji": "🚀"
+    },
+    {
+      "slug": "quitter-bordeaux-guide-2026",
+      "title": "Quitter Bordeaux en 2026 : la rançon du succès",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "vivre-en-outre-mer-guide-2026",
+      "title": "Vivre en Outre-mer en 2026 : Antilles, Guyane, Réunion, Mayotte sans filtre",
+      "emoji": "🌴"
+    },
+    {
+      "slug": "quitter-nantes-guide-2026",
+      "title": "Quitter Nantes en 2026 : où aller quand la Loire Atlantique devient trop chère",
+      "emoji": "🦢"
+    },
+    {
+      "slug": "quitter-rennes-guide-2026",
+      "title": "Quitter Rennes en 2026 : les alternatives quand la Bretagne capitale devient trop dense",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "quitter-montpellier-guide-2026",
+      "title": "Quitter Montpellier en 2026 : quand le soleil ne justifie plus le loyer",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "nice-vs-montpellier-comparatif-2026",
+      "title": "Nice vs Montpellier : deux villes méditerranéennes, deux philosophies",
+      "emoji": "🏖️"
+    },
+    {
+      "slug": "vivre-en-hauts-de-france-guide-2026",
+      "title": "Vivre en Hauts-de-France en 2026 : Lille, Amiens, Arras, Valenciennes — le guide complet",
+      "emoji": "🌾"
+    },
+    {
+      "slug": "vivre-en-centre-val-de-loire-guide-2026",
+      "title": "Vivre en Centre-Val de Loire en 2026 : Tours, Orléans, Blois — le guide complet",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "meilleures-villes-seniors-actifs-france-2026",
+      "title": "Les meilleures villes pour les seniors actifs en France en 2026",
+      "emoji": "🚵"
+    },
+    {
+      "slug": "teletravailler-depuis-bretagne-guide-2026",
+      "title": "Télétravailler depuis la Bretagne en 2026 : le guide complet",
+      "emoji": "🦭"
+    },
+    {
+      "slug": "quitter-strasbourg-guide-2026",
+      "title": "Quitter Strasbourg en 2026 : où aller quand le Rhin coûte trop cher",
+      "emoji": "🦅"
+    },
+    {
+      "slug": "quitter-nice-guide-2026",
+      "title": "Quitter Nice en 2026 : qui part, où, et ce qu'on gagne vraiment",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "vivre-en-pays-basque-guide-2026",
+      "title": "Vivre en Pays Basque en 2026 : Bayonne, Biarritz, Saint-Jean-de-Luz — le guide honnête",
+      "emoji": "🏄"
+    },
+    {
+      "slug": "bordeaux-vs-rennes-comparatif-2026",
+      "title": "Bordeaux vs Rennes en 2026 : le grand duel des métropoles atlantiques",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "meilleures-villes-artistes-creatifs-france-2026",
+      "title": "Les meilleures villes françaises pour les artistes et créatifs en 2026",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "teletravailler-depuis-normandie-guide-2026",
+      "title": "Télétravailler depuis la Normandie en 2026 : le guide complet",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "teletravailler-depuis-provence-guide-2026",
+      "title": "Télétravailler depuis la Provence en 2026 : PACA, Luberon, Aix, Avignon",
+      "emoji": "🌻"
+    },
+    {
+      "slug": "meilleures-villes-gastronomie-france-2026",
+      "title": "Les meilleures villes françaises pour les amateurs de gastronomie en 2026",
+      "emoji": "🍽️"
+    },
+    {
+      "slug": "quitter-grenoble-guide-2026",
+      "title": "Quitter Grenoble en 2026 : quand la montagne et la pollution ne suffisent plus",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "quitter-clermont-ferrand-guide-2026",
+      "title": "Quitter Clermont-Ferrand en 2026 : et si l'Auvergne avait mieux à offrir juste à côté ?",
+      "emoji": "🌋"
+    },
+    {
+      "slug": "toulon-vs-marseille-comparatif-2026",
+      "title": "Toulon vs Marseille en 2026 : deux villes méditerranéennes, deux destins",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "vivre-en-auvergne-profonde-guide-2026",
+      "title": "Vivre en Auvergne profonde en 2026 : Cantal, Haute-Loire, Allier — le guide honnête",
+      "emoji": "🌾"
+    },
+    {
+      "slug": "meilleures-villes-cyclistes-france-2026",
+      "title": "Les meilleures villes françaises pour les cyclistes en 2026",
+      "emoji": "🚴"
+    },
+    {
+      "slug": "meilleures-villes-primo-accedants-france-2026",
+      "title": "Premier achat immobilier : les meilleures villes françaises en 2026",
+      "emoji": "🔑"
+    },
+    {
+      "slug": "teletravailler-depuis-grand-est-guide-2026",
+      "title": "Télétravailler depuis le Grand Est en 2026 : Reims, Troyes, Champagne, Lorraine",
+      "emoji": "🍾"
+    },
+    {
+      "slug": "meilleures-villes-surf-sports-nautiques-france-2026",
+      "title": "Les meilleures villes françaises pour le surf et les sports nautiques en 2026",
+      "emoji": "🏄"
+    },
+    {
+      "slug": "vivre-dans-les-landes-guide-2026",
+      "title": "Vivre dans les Landes en 2026 : forêt, océan, Mont-de-Marsan, Dax — le guide complet",
+      "emoji": "🌲"
+    },
+    {
+      "slug": "vivre-en-roussillon-guide-2026",
+      "title": "Vivre en Roussillon en 2026 : Perpignan, Collioure, Céret — le guide honnête",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "caen-vs-rouen-comparatif-2026",
+      "title": "Caen vs Rouen en 2026 : deux capitales normandes, deux projets de vie",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "dijon-vs-lyon-comparatif-2026",
+      "title": "Dijon vs Lyon en 2026 : la capitale bourguignonne face à la métropole rhônalpine",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "meilleures-villes-randonnee-trail-france-2026",
+      "title": "Les meilleures villes françaises pour la randonnée et le trail en 2026",
+      "emoji": "🥾"
+    },
+    {
+      "slug": "villes-france-retraite-anticipee-fire-2026",
+      "title": "Retraite anticipée et FIRE en France : les meilleures villes pour s'arrêter à 45 ans",
+      "emoji": "🏡"
+    },
+    {
+      "slug": "teletravailler-depuis-bourgogne-guide-2026",
+      "title": "Télétravailler depuis la Bourgogne en 2026 : Dijon, Beaune, Auxerre, Mâcon",
+      "emoji": "🍇"
+    },
+    {
+      "slug": "meilleures-villes-freelances-independants-france-2026",
+      "title": "Les meilleures villes françaises pour les freelances et indépendants en 2026",
+      "emoji": "💼"
+    },
+    {
+      "slug": "quitter-dijon-guide-2026",
+      "title": "Quitter Dijon en 2026 : quand la Bourgogne devient trop petite",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "nantes-vs-bordeaux-comparatif-2026",
+      "title": "Nantes vs Bordeaux en 2026 : le match des métropoles atlantiques enfin tranché",
+      "emoji": "⚖️"
+    },
+    {
+      "slug": "pau-vs-bayonne-comparatif-2026",
+      "title": "Pau vs Bayonne en 2026 : deux visions du Sud-Ouest pyrénéen",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "vivre-dans-l-ain-guide-2026",
+      "title": "Vivre dans l'Ain en 2026 : Bourg-en-Bresse, Pays de Gex, Belley — le guide complet",
+      "emoji": "🐔"
+    },
+    {
+      "slug": "teletravailler-depuis-pays-de-la-loire-guide-2026",
+      "title": "Télétravailler depuis les Pays de la Loire en 2026 : Nantes, Angers, Le Mans, Saumur",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "meilleures-villes-culture-festivals-france-2026",
+      "title": "Les meilleures villes françaises pour la culture et les festivals en 2026",
+      "emoji": "🎭"
+    },
+    {
+      "slug": "investissement-locatif-moins-100000-euros-france-2026",
+      "title": "Investissement locatif sous 100 000 € : les villes françaises où c'est encore possible en 2026",
+      "emoji": "🔑"
+    },
+    {
+      "slug": "expatries-retour-france-quelle-ville-2026",
+      "title": "Expatriés : retour en France en 2026 — dans quelle ville s'installer ?",
+      "emoji": "✈️"
+    },
+    {
+      "slug": "quitter-rouen-guide-2026",
+      "title": "Quitter Rouen en 2026 : quand la Seine devient trop contraignante",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "quitter-annecy-guide-2026",
+      "title": "Quitter Annecy en 2026 : quand le lac ne justifie plus le prix",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "annecy-vs-chambery-comparatif-2026",
+      "title": "Annecy vs Chambéry en 2026 : deux capitales savoyardes, deux rapports au prix",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "reims-vs-amiens-comparatif-2026",
+      "title": "Reims vs Amiens en 2026 : deux capitales du Grand Nord à moins de 2h de Paris",
+      "emoji": "🍾"
+    },
+    {
+      "slug": "vivre-en-ariege-guide-2026",
+      "title": "Vivre en Ariège en 2026 : Foix, Pamiers, Tarascon — le guide honnête",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "teletravailler-depuis-auvergne-guide-2026",
+      "title": "Télétravailler depuis l'Auvergne en 2026 : Clermont, Vichy, Aurillac, Le Puy",
+      "emoji": "🌋"
+    },
+    {
+      "slug": "meilleures-villes-zero-dechet-ecologie-france-2026",
+      "title": "Les meilleures villes françaises pour vivre zéro déchet et éco-responsable en 2026",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "survivre-etudiant-province-moins-700-euros-2026",
+      "title": "Étudiant en province : vivre avec moins de 700 €/mois en 2026 — les villes où c'est possible",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "quitter-nimes-guide-2026",
+      "title": "Quitter Nîmes : ce que personne ne vous dit avant de partir",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "quitter-toulon-guide-2026",
+      "title": "Quitter Toulon : la ville navale qui divise, et où aller vraiment",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "la-rochelle-vs-bayonne-comparatif-2026",
+      "title": "La Rochelle vs Bayonne : deux villes atlantiques, deux styles de vie",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "brest-vs-lorient-comparatif-2026",
+      "title": "Brest vs Lorient : deux villes bretonnes navales, lequel vous convient ?",
+      "emoji": "🌧️"
+    },
+    {
+      "slug": "vivre-en-ardennes-meuse-guide-2026",
+      "title": "Vivre en Ardennes et en Meuse : le grand pari de la France oubliée",
+      "emoji": "🌲"
+    },
+    {
+      "slug": "vivre-en-creuse-guide-2026",
+      "title": "Vivre en Creuse : l'immobilier le moins cher de France et ce que ça cache",
+      "emoji": "🐄"
+    },
+    {
+      "slug": "teletravailler-depuis-nouvelle-aquitaine-guide-2026",
+      "title": "Télétravailler depuis la Nouvelle-Aquitaine : la région la plus diverse de France",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "teletravailler-grande-couronne-ile-de-france-2026",
+      "title": "Télétravailler depuis la Grande Couronne : rester près de Paris sans en payer le prix",
+      "emoji": "🚆"
+    },
+    {
+      "slug": "meilleures-villes-animaux-chiens-france-2026",
+      "title": "Meilleures villes françaises pour les propriétaires d'animaux et de chiens",
+      "emoji": "🐕"
+    },
+    {
+      "slug": "meilleures-villes-musique-scene-france-2026",
+      "title": "Meilleures villes françaises pour la musique et la scène live en 2026",
+      "emoji": "🎸"
+    },
+    {
+      "slug": "meilleures-villes-colocation-jeunes-actifs-2026",
+      "title": "Meilleures villes pour la colocation de jeunes actifs en 2026",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "villes-france-ecoles-alternatives-montessori-2026",
+      "title": "Écoles alternatives en France : quelles villes ont la meilleure offre en 2026 ?",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "familles-expatriees-retour-france-quelle-ville-2026",
+      "title": "Familles expatriées : quelle ville choisir pour rentrer en France en 2026 ?",
+      "emoji": "✈️"
+    },
+    {
+      "slug": "le-mans-vs-tours-comparatif-2026",
+      "title": "Le Mans vs Tours : quelle ville choisir en 2026 ?",
+      "emoji": "⚙️"
+    },
+    {
+      "slug": "perpignan-vs-montpellier-comparatif-2026",
+      "title": "Perpignan vs Montpellier : soleil catalan ou métropole occitane ?",
+      "emoji": "🏖️"
+    },
+    {
+      "slug": "metz-vs-nancy-comparatif-2026",
+      "title": "Metz vs Nancy : le duel lorrain tranché en 2026",
+      "emoji": "🥨"
+    },
+    {
+      "slug": "vivre-en-perigord-dordogne-guide-2026",
+      "title": "Vivre en Périgord-Dordogne : le guide complet 2026",
+      "emoji": "🦆"
+    },
+    {
+      "slug": "vivre-en-alsace-guide-2026",
+      "title": "Vivre en Alsace : le guide complet 2026",
+      "emoji": "🥨"
+    },
+    {
+      "slug": "vivre-en-charente-maritime-guide-2026",
+      "title": "Vivre en Charente-Maritime : le guide complet 2026",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "teletravailler-depuis-occitanie-guide-2026",
+      "title": "Télétravailler depuis l'Occitanie : le guide 2026",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "teletravailler-depuis-hauts-de-france-guide-2026",
+      "title": "Télétravailler depuis les Hauts-de-France : le guide 2026",
+      "emoji": "🌾"
+    },
+    {
+      "slug": "meilleures-villes-bien-etre-spas-france-2026",
+      "title": "Les meilleures villes pour le bien-être et les spas en France — 2026",
+      "emoji": "🧖"
+    },
+    {
+      "slug": "meilleures-villes-entrepreneurs-startups-france-2026",
+      "title": "Les meilleures villes pour les entrepreneurs et startups en France — 2026",
+      "emoji": "🚀"
+    },
+    {
+      "slug": "vivre-retraite-1500-euros-mois-france-2026",
+      "title": "Vivre avec 1 500 €/mois de retraite en France : les meilleures villes",
+      "emoji": "👴"
+    },
+    {
+      "slug": "vivre-smic-quelle-ville-france-2026",
+      "title": "Vivre au SMIC en France : quelles villes sont réellement vivables en 2026 ?",
+      "emoji": "💼"
+    },
+    {
+      "slug": "meilleures-villes-familles-monoparentales-france-2026",
+      "title": "Meilleures villes pour les familles monoparentales en France — 2026",
+      "emoji": "👩‍👦"
+    },
+    {
+      "slug": "meilleures-villes-accessibilite-handicap-france-2026",
+      "title": "Meilleures villes pour les personnes en situation de handicap en France — 2026",
+      "emoji": "♿"
+    },
+    {
+      "slug": "quitter-reims-guide-2026",
+      "title": "Quitter Reims en 2026 : quand la cathédrale ne compense plus la grisaille",
+      "emoji": "🍾"
+    },
+    {
+      "slug": "vivre-a-la-campagne-france-guide-2026",
+      "title": "Vivre à la campagne en France — vraie liberté ou faux rêve ? Guide 2026",
+      "emoji": "🌾"
+    },
+    {
+      "slug": "meilleures-villes-universitaires-etudiants-etrangers-france-2026",
+      "title": "Meilleures villes universitaires françaises pour les étudiants étrangers — 2026",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "vivre-dans-le-vaucluse-guide-2026",
+      "title": "Vivre dans le Vaucluse — Provence authentique, mistral inclus — Guide 2026",
+      "emoji": "🌻"
+    },
+    {
+      "slug": "quitter-saint-etienne-guide-2026",
+      "title": "Quitter Saint-Étienne en 2026 — vers Lyon, vers la montagne, vers la mer ?",
+      "emoji": "⚒️"
+    },
+    {
+      "slug": "quitter-mulhouse-guide-2026",
+      "title": "Quitter Mulhouse en 2026 — Suisse, Allemagne, ou Strasbourg ?",
+      "emoji": "🇨🇭"
+    },
+    {
+      "slug": "aix-en-provence-vs-marseille-comparatif-2026",
+      "title": "Aix-en-Provence vs Marseille — vivre, travailler, élever ses enfants — 2026",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "vivre-en-bretagne-interieure-guide-2026",
+      "title": "Vivre en Bretagne intérieure (Morbihan & Côtes-d'Armor) — 2026",
+      "emoji": "🍀"
+    },
+    {
+      "slug": "meilleures-villes-lgbt-friendly-france-2026",
+      "title": "Meilleures villes LGBT+-friendly en France — 2026",
+      "emoji": "🌈"
+    },
+    {
+      "slug": "quitter-le-havre-guide-2026",
+      "title": "Quitter Le Havre en 2026 — vers Rouen, vers Caen, vers Paris ?",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "quitter-tours-guide-2026",
+      "title": "Quitter Tours en 2026 — vers Paris, vers Nantes, vers la campagne tourangelle ?",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "quitter-angers-guide-2026",
+      "title": "Quitter Angers en 2026 — vers Nantes, vers Paris, vers la campagne ?",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "quitter-brest-guide-2026",
+      "title": "Quitter Brest en 2026 — vers Rennes, vers Nantes, vers Paris ?",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "quitter-caen-guide-2026",
+      "title": "Quitter Caen en 2026 — vers Rouen, vers Paris, vers la côte ?",
+      "emoji": "🐎"
+    },
+    {
+      "slug": "quitter-avignon-guide-2026",
+      "title": "Quitter Avignon en 2026 — vers Aix, vers Marseille, vers la campagne provençale ?",
+      "emoji": "🎭"
+    },
+    {
+      "slug": "quitter-limoges-guide-2026",
+      "title": "Quitter Limoges en 2026 — vers Bordeaux, vers Poitiers, vers Clermont ?",
+      "emoji": "🍒"
+    },
+    {
+      "slug": "quitter-besancon-guide-2026",
+      "title": "Quitter Besançon en 2026 — vers Dijon, vers Lyon, vers la Suisse ?",
+      "emoji": "⌚"
+    },
+    {
+      "slug": "quitter-pau-guide-2026",
+      "title": "Quitter Pau en 2026 — vers Bordeaux, vers Toulouse, vers Bayonne ?",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "quitter-bayonne-guide-2026",
+      "title": "Quitter Bayonne en 2026 — vers Bordeaux, vers Pau, vers l'Espagne ?",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "quitter-perpignan-guide-2026",
+      "title": "Quitter Perpignan en 2026 — vers Montpellier, vers Toulouse, vers Barcelone ?",
+      "emoji": "🌞"
+    },
+    {
+      "slug": "quitter-la-rochelle-guide-2026",
+      "title": "Quitter La Rochelle en 2026 — vers Bordeaux, vers Nantes, vers Niort ?",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "quitter-metz-guide-2026",
+      "title": "Quitter Metz en 2026 — vers Nancy, vers le Luxembourg, vers Strasbourg ?",
+      "emoji": "🟡"
+    },
+    {
+      "slug": "quitter-nancy-guide-2026",
+      "title": "Quitter Nancy en 2026 — vers Metz, vers Strasbourg, vers Paris ?",
+      "emoji": "🦄"
+    },
+    {
+      "slug": "quitter-amiens-guide-2026",
+      "title": "Quitter Amiens en 2026 — vers Lille, vers Paris, vers la baie de Somme ?",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "quitter-reims-paris-lille-epernay-2026",
+      "title": "Quitter Reims en 2026 — vers Paris, vers Lille, vers Épernay ?",
+      "emoji": "🍾"
+    },
+    {
+      "slug": "quitter-le-mans-guide-2026",
+      "title": "Quitter Le Mans en 2026 — vers Paris, vers Nantes, vers la Sarthe rurale ?",
+      "emoji": "🏎️"
+    },
+    {
+      "slug": "vivre-sans-voiture-paris-guide-2026",
+      "title": "Vivre sans voiture à Paris en 2026 — vraiment possible ?",
+      "emoji": "🚇"
+    },
+    {
+      "slug": "vivre-sans-voiture-lyon-guide-2026",
+      "title": "Vivre sans voiture à Lyon en 2026 — quartiers, transports, vrais coûts",
+      "emoji": "🚊"
+    },
+    {
+      "slug": "vivre-sans-voiture-strasbourg-guide-2026",
+      "title": "Vivre sans voiture à Strasbourg en 2026 — la ville la plus vélo de France",
+      "emoji": "🚲"
+    },
+    {
+      "slug": "vivre-sans-voiture-bordeaux-guide-2026",
+      "title": "Vivre sans voiture à Bordeaux en 2026 — tram, vélo, Yego",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "vivre-sans-voiture-nantes-guide-2026",
+      "title": "Vivre sans voiture à Nantes en 2026 — tram, Bicloo, navibus",
+      "emoji": "🌳"
+    },
+    {
+      "slug": "acheter-a-paris-quel-quartier-budget-2026",
+      "title": "Acheter à Paris en 2026 — quel arrondissement pour quel budget ?",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "acheter-a-lyon-quel-quartier-budget-2026",
+      "title": "Acheter à Lyon en 2026 — quel arrondissement pour quel budget ?",
+      "emoji": "🏘️"
+    },
+    {
+      "slug": "acheter-a-marseille-quel-quartier-budget-2026",
+      "title": "Acheter à Marseille en 2026 — quel arrondissement pour quel budget ?",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "acheter-a-toulouse-quel-quartier-budget-2026",
+      "title": "Acheter à Toulouse en 2026 — quel quartier pour quel budget ?",
+      "emoji": "🟣"
+    },
+    {
+      "slug": "acheter-a-lille-quel-quartier-budget-2026",
+      "title": "Acheter à Lille en 2026 — quel quartier pour quel budget ?",
+      "emoji": "🐉"
+    },
+    {
+      "slug": "ou-vivre-france-meteo-qualite-air-2026",
+      "title": "Météo, climat et qualité de l'air — où vivre en France en 2026 ?",
+      "emoji": "🌤️"
+    },
+    {
+      "slug": "villes-france-famille-bilingue-anglais-2026",
+      "title": "Villes françaises pour élever une famille bilingue français-anglais en 2026",
+      "emoji": "🌐"
+    },
+    {
+      "slug": "villes-universitaires-cout-vie-raisonnable-france-2026",
+      "title": "Villes universitaires françaises à coût de vie raisonnable — 2026",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "villes-etape-expatries-retour-france-2026",
+      "title": "Villes-étapes pour expatriés revenant en France en 2026",
+      "emoji": "✈️"
+    },
+    {
+      "slug": "villes-cotieres-teletravail-connexion-cadre-2026",
+      "title": "Villes côtières françaises pour télétravail — connexion fibre et cadre 2026",
+      "emoji": "🏖️"
+    },
+    {
+      "slug": "vivre-sans-voiture-toulouse-guide-2026",
+      "title": "Vivre sans voiture à Toulouse en 2026 — métro, vélo, Tisséo",
+      "emoji": "🚆"
+    },
+    {
+      "slug": "vivre-sans-voiture-grenoble-guide-2026",
+      "title": "Vivre sans voiture à Grenoble en 2026 — tram, vélo, montagne",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "vivre-sans-voiture-rennes-guide-2026",
+      "title": "Vivre sans voiture à Rennes en 2026 — métro, vélo, STAR",
+      "emoji": "🚇"
+    },
+    {
+      "slug": "vivre-sans-voiture-montpellier-guide-2026",
+      "title": "Vivre sans voiture à Montpellier en 2026 — tram, vélo, TaM",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "vivre-sans-voiture-nice-guide-2026",
+      "title": "Vivre sans voiture à Nice en 2026 — tram, vélo, climat exceptionnel",
+      "emoji": "🌴"
+    },
+    {
+      "slug": "acheter-a-bordeaux-quel-quartier-budget-2026",
+      "title": "Acheter à Bordeaux en 2026 — quel quartier pour quel budget ?",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "acheter-a-nantes-quel-quartier-budget-2026",
+      "title": "Acheter à Nantes en 2026 — quel quartier pour quel budget ?",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "acheter-a-strasbourg-quel-quartier-budget-2026",
+      "title": "Acheter à Strasbourg en 2026 — quel quartier pour quel budget ?",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "acheter-a-rennes-quel-quartier-budget-2026",
+      "title": "Acheter à Rennes en 2026 — quel quartier pour quel budget ?",
+      "emoji": "🐉"
+    },
+    {
+      "slug": "acheter-a-montpellier-quel-quartier-budget-2026",
+      "title": "Acheter à Montpellier en 2026 — quel quartier pour quel budget ?",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "climat-2040-sud-est-mediterraneen-france",
+      "title": "Climat 2040 dans le Sud-Est méditerranéen — où vivre face à la canicule ?",
+      "emoji": "🥵"
+    },
+    {
+      "slug": "climat-2040-facade-atlantique-france",
+      "title": "Climat 2040 sur la façade Atlantique — montée des eaux, tempêtes, submersion ?",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "climat-2040-ile-de-france-paris",
+      "title": "Climat 2040 en Île-de-France — canicule urbaine, où vivre dans le Grand Paris ?",
+      "emoji": "🌡️"
+    },
+    {
+      "slug": "vivre-au-vert-pres-de-paris-1h-2026",
+      "title": "Vivre au vert près de Paris en 2026 — top villes à 1h maximum",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "vivre-au-vert-pres-de-lyon-1h-2026",
+      "title": "Vivre au vert près de Lyon en 2026 — top villes à 1h maximum",
+      "emoji": "🍇"
+    },
+    {
+      "slug": "vivre-au-vert-pres-de-bordeaux-1h-2026",
+      "title": "Vivre au vert près de Bordeaux en 2026 — top villes à 1h maximum",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "vivre-au-vert-pres-de-marseille-1h-2026",
+      "title": "Vivre au vert près de Marseille en 2026 — top villes à 1h maximum",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "vivre-au-vert-pres-de-toulouse-1h-2026",
+      "title": "Vivre au vert près de Toulouse en 2026 — top villes à 1h maximum",
+      "emoji": "🌾"
+    },
+    {
+      "slug": "investir-locatif-bordeaux-2026",
+      "title": "Investir en locatif à Bordeaux en 2026 — rendement, quartiers, pièges",
+      "emoji": "🏘️"
+    },
+    {
+      "slug": "investir-locatif-lyon-2026",
+      "title": "Investir en locatif à Lyon en 2026 — rendement, arrondissements, fiscalité",
+      "emoji": "🏢"
+    },
+    {
+      "slug": "investir-locatif-toulouse-2026",
+      "title": "Investir en locatif à Toulouse en 2026 — rendement, quartiers, fiscalité",
+      "emoji": "🛒"
+    },
+    {
+      "slug": "investir-locatif-montpellier-2026",
+      "title": "Investir en locatif à Montpellier en 2026 — rendement, quartiers, fiscalité",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "investir-locatif-rennes-2026",
+      "title": "Investir en locatif à Rennes en 2026 — rendement, quartiers, fiscalité",
+      "emoji": "📚"
+    },
+    {
+      "slug": "climat-2040-massif-central-montagne-refuge",
+      "title": "Climat 2040 dans le Massif Central et la montagne — refuge climatique ?",
+      "emoji": "⛰️"
+    },
+    {
+      "slug": "climat-2040-bretagne-cote-interieure",
+      "title": "Climat 2040 en Bretagne — façade encore préservée ou en mutation ?",
+      "emoji": "🌧️"
+    },
+    {
+      "slug": "climat-2040-nord-hauts-de-france",
+      "title": "Climat 2040 dans le Nord et les Hauts-de-France — réchauffement bienvenu ou inattendu ?",
+      "emoji": "🌫️"
+    },
+    {
+      "slug": "climat-2040-grand-est-alsace-lorraine",
+      "title": "Climat 2040 dans le Grand Est — Alsace, Lorraine, Champagne face au réchauffement",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "climat-2040-sud-ouest-pyrenees-bassin-aquitain",
+      "title": "Climat 2040 dans le Sud-Ouest et les Pyrénées — bassin aquitain face à la canicule",
+      "emoji": "🌞"
+    },
+    {
+      "slug": "climat-2040-vallee-du-rhone-axe-lyon-avignon",
+      "title": "Climat 2040 dans la vallée du Rhône — axe Lyon-Valence-Avignon face à la canicule",
+      "emoji": "🌡️"
+    },
+    {
+      "slug": "climat-2040-normandie-cotentin-cote",
+      "title": "Climat 2040 en Normandie — Cotentin, côte d'Albâtre, intérieur face au réchauffement",
+      "emoji": "🐄"
+    },
+    {
+      "slug": "climat-2040-centre-val-de-loire-vallee",
+      "title": "Climat 2040 en Centre-Val de Loire — vallée de la Loire, Beauce, Berry face au réchauffement",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "climat-2040-bourgogne-franche-comte-jura",
+      "title": "Climat 2040 en Bourgogne-Franche-Comté — Jura, Morvan, Saône face au réchauffement",
+      "emoji": "🍇"
+    },
+    {
+      "slug": "climat-2040-corse-incendies-secheresse",
+      "title": "Climat 2040 en Corse — canicule, incendies, sécheresse, montée Méditerranée",
+      "emoji": "🔥"
+    },
+    {
+      "slug": "climat-2040-alpes-savoie-refuge-altitude",
+      "title": "Climat 2040 dans les Alpes et Savoie — refuge altitude, fin du ski moyenne montagne ?",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "climat-2040-outre-mer-drom-cyclones-mer",
+      "title": "Climat 2040 en Outre-mer — cyclones, montée des eaux, sécheresse dans les DROM",
+      "emoji": "🌴"
+    },
+    {
+      "slug": "acheter-en-vefa-france-2026-villes-pieges",
+      "title": "Acheter en VEFA en 2026 — quelles villes, quels pièges, quels avantages",
+      "emoji": "🏗️"
+    },
+    {
+      "slug": "elever-famille-bilingue-france-quelles-villes-2026",
+      "title": "Élever une famille bilingue en France — quelles villes pour FR/EN, FR/DE, FR/ES",
+      "emoji": "🌐"
+    },
+    {
+      "slug": "petites-villes-50000-habitants-tout-france-2026",
+      "title": "Petites villes <50 000 habitants qui ont tout — TGV, hôpital, fibre, vie",
+      "emoji": "🏘️"
+    },
+    {
+      "slug": "acheter-moins-200000-euros-france-quelles-villes-2026",
+      "title": "Acheter à moins de 200 000 € en 2026 — quelles villes (vraiment) accessibles",
+      "emoji": "💸"
+    },
+    {
+      "slug": "villes-frontalieres-suisse-allemagne-belgique-luxembourg-2026",
+      "title": "Villes frontalières en France — Suisse, Allemagne, Belgique, Luxembourg en 2026",
+      "emoji": "🛂"
+    },
+    {
+      "slug": "devenir-freelance-en-province-quelles-villes-france-2026",
+      "title": "Devenir freelance en province en 2026 — quelles villes pour réussir",
+      "emoji": "💼"
+    },
+    {
+      "slug": "quitter-paris-30-ans-couple-sans-enfant-2026",
+      "title": "Quitter Paris à 30 ans en couple sans enfant — où aller, comment, pour quoi",
+      "emoji": "💑"
+    },
+    {
+      "slug": "acheter-maison-campagne-france-2026-vraiment-vivable",
+      "title": "Acheter une maison de campagne en France 2026 — où c'est vraiment vivable",
+      "emoji": "🏡"
+    },
+    {
+      "slug": "acheter-avant-40-ans-strategie-france-2026",
+      "title": "Acheter avant 40 ans en France 2026 — stratégie par profil",
+      "emoji": "⏳"
+    },
+    {
+      "slug": "investir-lmnp-par-ville-france-2026",
+      "title": "Investir en LMNP par ville en 2026 — étudiant, cadre, saisonnier",
+      "emoji": "📊"
+    },
+    {
+      "slug": "quitter-paris-avec-enfants-primaire-france-2026",
+      "title": "Quitter Paris avec enfants en primaire en 2026 — quelles villes",
+      "emoji": "🎒"
+    },
+    {
+      "slug": "vivre-france-retraite-etrangere-fiscalite-2026",
+      "title": "Vivre en France avec une retraite étrangère en 2026 — fiscalité et villes",
+      "emoji": "🌍"
+    },
+    {
+      "slug": "residence-secondaire-france-pieges-fiscaux-2026",
+      "title": "Résidence secondaire en France 2026 — pièges fiscaux et où c'est pertinent",
+      "emoji": "🏖️"
+    },
+    {
+      "slug": "construire-sa-maison-france-2026-ou-comment-prix",
+      "title": "Construire sa maison en France 2026 — où, comment, prix réels",
+      "emoji": "🏗️"
+    },
+    {
+      "slug": "partir-vivre-dans-le-sud-france-pieges-2026",
+      "title": "Partir vivre dans le Sud en 2026 — pièges et alternatives lucides",
+      "emoji": "🌞"
+    },
+    {
+      "slug": "acheter-en-couple-non-marie-pacs-sci-indivision-2026",
+      "title": "Acheter en couple non marié — PACS, indivision, SCI en 2026",
+      "emoji": "💍"
+    },
+    {
+      "slug": "acheter-maison-a-renover-france-2026-vrai-cout",
+      "title": "Acheter une maison à rénover en 2026 — le vrai coût total",
+      "emoji": "🔨"
+    },
+    {
+      "slug": "maison-vs-appartement-quel-choix-france-2026",
+      "title": "Maison ou appartement en 2026 — quel choix par profil et par ville",
+      "emoji": "🏘️"
+    },
+    {
+      "slug": "acheter-studio-paris-2026-premier-achat-investissement",
+      "title": "Acheter un studio à Paris en 2026 — primo, investissement, encadrement loyers",
+      "emoji": "🗼"
+    },
+    {
+      "slug": "vivre-a-la-mer-toute-annee-france-2026-fantasme-realite",
+      "title": "Vivre à la mer toute l'année en 2026 — fantasme vs réalité par côte",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "scpi-vs-locatif-direct-france-2026-quel-choix",
+      "title": "SCPI vs locatif direct en 2026 — quel choix par profil d'investisseur",
+      "emoji": "📈"
+    },
+    {
+      "slug": "demenager-sintegrer-province-sans-reseau-2026",
+      "title": "Déménager en province sans connaître personne — comment s'intégrer en 2026",
+      "emoji": "🤝"
+    },
+    {
+      "slug": "encadrement-loyers-france-2026-villes-investir-malgre-tout",
+      "title": "Encadrement des loyers en France 2026 — villes concernées et comment investir",
+      "emoji": "📋"
+    },
+    {
+      "slug": "vivre-en-zrr-aides-fiscales-zones-rurales-france-2026",
+      "title": "Vivre en ZRR en 2026 — aides fiscales, où c'est encore actif, qui peut en bénéficier",
+      "emoji": "🌾"
+    },
+    {
+      "slug": "pel-cel-per-financer-achat-immobilier-france-2026",
+      "title": "PEL, CEL, PER pour financer un achat immobilier en 2026",
+      "emoji": "💳"
+    },
+    {
+      "slug": "acheter-immobilier-apres-50-ans-strategie-france-2026",
+      "title": "Acheter de l'immobilier après 50 ans en 2026 — stratégie fin de carrière",
+      "emoji": "🎯"
+    },
+    {
+      "slug": "quand-acheter-immobilier-france-2026-timing-marche",
+      "title": "Quand acheter de l'immobilier en France 2026 — timing du marché",
+      "emoji": "📉"
+    },
+    {
+      "slug": "habitat-participatif-coliving-france-2026",
+      "title": "Habitat participatif et coliving en France 2026 — modèles, villes, projets concrets",
+      "emoji": "🏡"
+    },
+    {
+      "slug": "acheter-avec-un-seul-salaire-france-2026",
+      "title": "Acheter avec un seul salaire en 2026 — quelles villes, quels biens, quelles aides",
+      "emoji": "👤"
+    },
+    {
+      "slug": "vivre-avec-moins-1500-euros-net-france-quelles-villes-2026",
+      "title": "Vivre avec moins de 1 500 € net par mois en France 2026 — quelles villes",
+      "emoji": "💶"
+    },
+    {
+      "slug": "acheter-immobilier-a-plusieurs-amis-france-2026",
+      "title": "Acheter de l'immobilier à plusieurs amis en 2026 — coloc' patrimoniale et SCI",
+      "emoji": "🤝"
+    },
+    {
+      "slug": "mutation-professionnelle-vendre-acheter-vite-france-2026",
+      "title": "Mutation professionnelle en 2026 — vendre et acheter vite sans piège",
+      "emoji": "🚚"
+    },
+    {
+      "slug": "diviser-grand-logement-louer-une-partie-france-2026",
+      "title": "Diviser un grand logement pour en louer une partie en 2026",
+      "emoji": "✂️"
+    },
+    {
+      "slug": "acheter-immobilier-outre-mer-drom-france-2026",
+      "title": "Acheter de l'immobilier en Outre-mer (DROM) en 2026 — Réunion, Antilles, Guyane",
+      "emoji": "🌴"
+    },
+    {
+      "slug": "vivre-en-montagne-toute-annee-france-2026",
+      "title": "Vivre en montagne toute l'année en 2026 — stations, villages, vraies villes",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "reprendre-commerce-avec-logement-france-2026",
+      "title": "Reprendre un commerce avec logement en 2026 — boulangerie, café, gîte, épicerie",
+      "emoji": "🥖"
+    },
+    {
+      "slug": "pinel-denormandie-2026-fin-dispositif-alternatives",
+      "title": "Pinel et Denormandie en 2026 — fin du Pinel, Denormandie reconduit, alternatives",
+      "emoji": "📊"
+    },
+    {
+      "slug": "quitter-teletravail-pour-rural-france-2026-risques-opportunites",
+      "title": "Quitter le télétravail urbain pour le rural en 2026 — risques et opportunités",
+      "emoji": "🌱"
+    },
+    {
+      "slug": "acheter-au-bord-fleuve-riviere-france-2026",
+      "title": "Acheter au bord d'un fleuve ou rivière en France 2026 — Rhône, Loire, Garonne, Seine, Dordogne",
+      "emoji": "🏞️"
+    },
+    {
+      "slug": "vivre-ile-de-france-grande-couronne-2026",
+      "title": "Vivre en Île-de-France grande couronne en 2026 — Yvelines, Essonne, Val-d'Oise, Seine-et-Marne",
+      "emoji": "🚊"
+    },
+    {
+      "slug": "acheter-france-non-resident-etranger-2026",
+      "title": "Acheter en France comme non-résident étranger en 2026 — démarches, fiscalité, villes",
+      "emoji": "🌐"
+    },
+    {
+      "slug": "securite-ressentie-vs-reelle-ville-france-2026",
+      "title": "Sécurité ressentie vs réelle par ville en 2026 — décrypter les vrais signaux",
+      "emoji": "🛡️"
+    },
+    {
+      "slug": "bilan-energetique-avant-achat-france-2026",
+      "title": "Bilan énergétique avant achat en 2026 — DPE, audit, étiquette CO2, interdictions",
+      "emoji": "📋"
+    },
+    {
+      "slug": "acheter-grange-a-renover-france-2026",
+      "title": "Acheter une grange à rénover en France 2026 — permis, coûts, régions",
+      "emoji": "🏚️"
+    },
+    {
+      "slug": "vivre-proche-autoroute-tgv-france-2026-realite-bruit",
+      "title": "Vivre proche d'une autoroute ou ligne TGV en 2026 — bruit, pollution, accès",
+      "emoji": "🚄"
+    },
+    {
+      "slug": "devenir-proprietaire-5-ans-strategie-france-2026",
+      "title": "Devenir propriétaire en 5 ans en France 2026 — stratégie par tranche d'âge",
+      "emoji": "🎯"
+    },
+    {
+      "slug": "vivre-mobilite-reduite-pmr-france-villes-accessibles-2026",
+      "title": "Vivre avec mobilité réduite en France 2026 — quelles villes accessibles",
+      "emoji": "♿"
+    },
+    {
+      "slug": "sci-familiale-france-2026-montage-transmission",
+      "title": "SCI familiale en France 2026 — montage, transmission, fiscalité réelle",
+      "emoji": "👨‍👩‍👧"
+    },
+    {
+      "slug": "acheter-viager-france-2026-opportunites-risques",
+      "title": "Acheter un viager en 2026 — opportunités, calcul, risques réels",
+      "emoji": "⏳"
+    },
+    {
+      "slug": "vivre-dans-bourg-2000-habitants-france-2026",
+      "title": "Vivre dans un bourg de 2 000 habitants en 2026 — services réels au seuil critique",
+      "emoji": "🏘️"
+    },
+    {
+      "slug": "garantie-loyers-impayes-gli-visale-france-2026",
+      "title": "GLI ou Visale en 2026 — quel choix entre assurance bailleur et caution État",
+      "emoji": "🔐"
+    },
+    {
+      "slug": "acheter-maison-pecheur-atlantique-france-2026",
+      "title": "Acheter une maison de pêcheur sur l'Atlantique en 2026 — Bretagne, Vendée, Charente",
+      "emoji": "🐟"
+    },
+    {
+      "slug": "demembrement-croise-immobilier-france-2026",
+      "title": "Démembrement croisé en couple en 2026 — protéger conjoint et optimiser succession",
+      "emoji": "♻️"
+    },
+    {
+      "slug": "lmp-loueur-meuble-professionnel-france-2026",
+      "title": "LMP en 2026 — passage du LMNP, conditions, fiscalité, avantages",
+      "emoji": "🏨"
+    },
+    {
+      "slug": "vivre-proche-piste-cyclable-voie-verte-france-2026",
+      "title": "Vivre proche d'une piste cyclable ou voie verte en 2026 — plus-value et qualité de vie",
+      "emoji": "🚲"
+    },
+    {
+      "slug": "acheter-avec-pret-familial-france-2026",
+      "title": "Acheter avec un prêt familial en 2026 — modalités, fiscalité, formalisation",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "autoconstruction-kit-maison-france-2026",
+      "title": "Autoconstruction et kit maison en France 2026 — économies, risques, démarches",
+      "emoji": "🔧"
+    },
+    {
+      "slug": "scpi-dans-assurance-vie-france-2026",
+      "title": "Les SCPI dans une assurance-vie en 2026 — mécanisme, fiscalité, rendement",
+      "emoji": "📈"
+    },
+    {
+      "slug": "vivre-dans-une-ville-thermale-france-2026",
+      "title": "Vivre dans une ville thermale en France 2026 — qualité de vie réelle, prix, pièges",
+      "emoji": "♨️"
+    },
+    {
+      "slug": "vivre-ville-action-coeur-de-ville-france-2026-bilan",
+      "title": "Vivre dans une ville Action Cœur de Ville en 2026 — bilan honnête, prix, opportunités, pièges",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "vivre-proche-centrale-nucleaire-france-2026",
+      "title": "Vivre proche d'une centrale nucléaire en France 2026 — risques réels, fiscalité, emploi, immobilier",
+      "emoji": "⚛️"
+    },
+    {
+      "slug": "tester-une-ville-avant-de-demenager-week-end-reperage-2026",
+      "title": "Tester une ville avant de déménager : le week-end de repérage qui évite les regrets",
+      "emoji": "🧭"
+    },
+    {
+      "slug": "louer-meuble-tourisme-airbnb-france-2026",
+      "title": "Louer en meublé de tourisme en France : ce que la loi vous permet vraiment en 2026",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "trouver-appartement-france-guide-pratique-2026",
+      "title": "Trouver un appartement en France : le guide pratique pour ne pas perdre six mois",
+      "emoji": "🔑"
+    },
+    {
+      "slug": "meilleures-villes-fibre-optique-teletravail-france-2026",
+      "title": "Fibre optique et télétravail : les villes françaises où la connexion ne vous lâchera pas",
+      "emoji": "📡"
+    },
+    {
+      "slug": "auto-entrepreneur-choisir-sa-ville-france-2026",
+      "title": "Auto-entrepreneur en France : choisir sa ville pour payer moins et vivre mieux",
+      "emoji": "💼"
+    },
+    {
+      "slug": "vivre-en-france-avec-animaux-guide-2026",
+      "title": "Vivre avec des animaux en France : les villes les plus adaptées et les pièges à éviter",
+      "emoji": "🐾"
+    },
+    {
+      "slug": "villes-france-accessibles-budget-etudiant-hors-paris-2026",
+      "title": "Étudier hors Paris : les meilleures villes pour un budget serré en 2026",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "acheter-a-nice-quel-quartier-budget-2026",
+      "title": "Acheter à Nice en 2026 : quel quartier, quel budget, ce qu'on ne vous dit pas",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "acheter-a-grenoble-quel-quartier-budget-2026",
+      "title": "Acheter à Grenoble en 2026 : quel quartier, quel budget et pourquoi le marché reste accessible",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "ptz-pret-taux-zero-2026-guide-complet",
+      "title": "PTZ 2026 : comment fonctionne le prêt à taux zéro et qui peut vraiment en bénéficier",
+      "emoji": "💚"
+    },
+    {
+      "slug": "acheter-a-dijon-quel-quartier-budget-2026",
+      "title": "Acheter à Dijon en 2026 : prix honnêtes, quartiers, pourquoi le marché reste l'un des meilleurs de France",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "succession-immobilier-france-guide-2026",
+      "title": "Succession et immobilier en France : ce que vous allez payer et comment le réduire légalement",
+      "emoji": "📜"
+    },
+    {
+      "slug": "negocier-prix-immobilier-france-guide-2026",
+      "title": "Négocier le prix d'un appartement en France : méthode, arguments, combien espérer",
+      "emoji": "🤝"
+    },
+    {
+      "slug": "dpe-passoire-thermique-acheter-renover-france-2026",
+      "title": "DPE F et G en France : acheter une passoire thermique en 2026 — calcul honnête et alternatives",
+      "emoji": "🏚️"
+    },
+    {
+      "slug": "demenager-avec-enfants-france-guide-2026",
+      "title": "Déménager avec des enfants en France : quand partir, comment préparer, et ce que les études montrent vraiment",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "colocation-intergenerationnelle-france-2026",
+      "title": "Colocation intergénérationnelle en France : comment ça marche, ce que ça coûte vraiment",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "vivre-en-bretagne-mer-bilan-honnete-2026",
+      "title": "Vivre en Bretagne face à la mer : le bilan honnête après 12 mois",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "loyer-reel-france-charges-estimees-villes-2026",
+      "title": "Loyers réels en France en 2026 : les charges qui font la vraie différence",
+      "emoji": "📊"
+    },
+    {
+      "slug": "villes-france-qualite-internet-fibre-debit-2026",
+      "title": "Qualité d'internet par ville en France en 2026 : fibre, débit et zones blanches",
+      "emoji": "📡"
+    },
+    {
+      "slug": "seniors-decouvrir-france-villes-accessibles-2026",
+      "title": "Villes françaises accessibles et actives pour les seniors en 2026",
+      "emoji": "🌞"
+    },
+    {
+      "slug": "acheter-a-annecy-quel-quartier-budget-2026",
+      "title": "Acheter à Annecy en 2026 : quel quartier et quel budget ?",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "vivre-a-toulon-bilan-honnete-2026",
+      "title": "Vivre à Toulon en 2026 : le bilan honnête",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "villes-france-famille-bilingue-fr-en-2026",
+      "title": "Villes françaises pour élever une famille bilingue français-anglais en 2026",
+      "emoji": "🌍"
+    },
+    {
+      "slug": "teletravailler-depuis-alpes-guide-2026",
+      "title": "Télétravailler depuis les Alpes en 2026 : le guide honnête",
+      "emoji": "⛷️"
+    },
+    {
+      "slug": "vivre-sans-voiture-lille-guide-2026",
+      "title": "Vivre sans voiture à Lille en 2026 : bilan honnête",
+      "emoji": "🚇"
+    },
+    {
+      "slug": "vivre-sans-voiture-clermont-ferrand-guide-2026",
+      "title": "Vivre sans voiture à Clermont-Ferrand en 2026 : bilan honnête",
+      "emoji": "🌋"
+    },
+    {
+      "slug": "habitat-participatif-france-guide-2026",
+      "title": "L'habitat participatif en France : guide pratique 2026",
+      "emoji": "🏘️"
+    },
+    {
+      "slug": "retraite-early-budget-serré-où-vivre-france-2026",
+      "title": "FIRE et retraite anticipée avec un budget serré : quelle ville française en 2026 ?",
+      "emoji": "🏖️"
+    },
+    {
+      "slug": "acheter-a-clermont-ferrand-quel-quartier-budget-2026",
+      "title": "Acheter à Clermont-Ferrand en 2026 : quel quartier et quel budget ?",
+      "emoji": "🌋"
+    },
+    {
+      "slug": "acheter-a-caen-quel-quartier-budget-2026",
+      "title": "Acheter à Caen en 2026 : quel quartier et quel budget ?",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "acheter-a-pau-quel-quartier-budget-2026",
+      "title": "Acheter à Pau en 2026 : quel quartier et quel budget ?",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "vivre-en-normandie-interieure-guide-2026",
+      "title": "Vivre en Normandie intérieure en 2026 : Évreux, Alençon, Argentan, Lisieux",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "acheter-a-toulon-quel-quartier-budget-2026",
+      "title": "Acheter à Toulon en 2026 : quel quartier et quel budget ?",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "acheter-a-rouen-quel-quartier-budget-2026",
+      "title": "Acheter à Rouen en 2026 : quel quartier et quel budget ?",
+      "emoji": "⚜️"
+    },
+    {
+      "slug": "vivre-sans-voiture-marseille-guide-2026",
+      "title": "Vivre sans voiture à Marseille en 2026 : possible, pas facile",
+      "emoji": "🚢"
+    },
+    {
+      "slug": "vivre-sans-voiture-annecy-guide-2026",
+      "title": "Vivre sans voiture à Annecy en 2026 : le paradoxe cyclable",
+      "emoji": "🚴"
+    },
+    {
+      "slug": "vivre-sans-voiture-dijon-guide-2026",
+      "title": "Vivre sans voiture à Dijon en 2026 : le modèle qui fonctionne",
+      "emoji": "🍇"
+    },
+    {
+      "slug": "meilleures-villes-sports-outdoor-plein-air-france-2026",
+      "title": "Les meilleures villes de France pour les amateurs de sports outdoor en 2026",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "vivre-en-haute-savoie-guide-2026",
+      "title": "Vivre en Haute-Savoie en 2026 : le guide complet (Annecy, Thonon, Cluses)",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "retraite-bord-de-mer-france-villes-guide-2026",
+      "title": "Prendre sa retraite au bord de la mer en France : les vraies villes pour 2026",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "meilleures-villes-jeunes-professionnels-france-2026",
+      "title": "Les meilleures villes de France pour les jeunes professionnels en 2026",
+      "emoji": "🚀"
+    },
+    {
+      "slug": "divorce-separation-demenager-quelle-ville-france-2026",
+      "title": "Après une séparation : quelle ville pour repartir en France en 2026 ?",
+      "emoji": "🌱"
+    },
+    {
+      "slug": "vivre-en-cote-d-azur-guide-2026",
+      "title": "Vivre sur la Côte d'Azur en 2026 : Nice, Cannes, Antibes, Menton — le guide complet",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "meilleures-villes-naturalistes-biodiversite-france-2026",
+      "title": "Les meilleures villes de France pour les amateurs de nature et de biodiversité en 2026",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "vivre-en-var-guide-2026",
+      "title": "Vivre dans le Var en 2026 : Toulon, Draguignan, Hyères — guide complet",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "investir-dans-logements-etudiants-france-2026",
+      "title": "Investir dans les logements étudiants en France en 2026 : guide complet",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "acheter-a-metz-quel-quartier-budget-2026",
+      "title": "Acheter à Metz en 2026 : quel quartier et quel budget ?",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "acheter-a-nancy-quel-quartier-budget-2026",
+      "title": "Acheter à Nancy en 2026 : quel quartier et quel budget ?",
+      "emoji": "⚜️"
+    },
+    {
+      "slug": "acheter-a-la-rochelle-quel-quartier-budget-2026",
+      "title": "Acheter à La Rochelle en 2026 : quel quartier et quel budget ?",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "acheter-a-reims-quel-quartier-budget-2026",
+      "title": "Acheter à Reims en 2026 : quel quartier et quel budget ?",
+      "emoji": "🍾"
+    },
+    {
+      "slug": "vivre-en-poitou-guide-2026",
+      "title": "Vivre en Poitou en 2026 : Poitiers, Niort, Châtellerault — bilan honnête",
+      "emoji": "🦅"
+    },
+    {
+      "slug": "meilleures-villes-vegans-vegetariens-france-2026",
+      "title": "Meilleures villes de France pour les végans et végétariens en 2026",
+      "emoji": "🌱"
+    },
+    {
+      "slug": "guide-mobilite-douce-france-villes-2026",
+      "title": "Mobilité douce en France 2026 : les villes où voiture = option, pas obligation",
+      "emoji": "🚲"
+    },
+    {
+      "slug": "brest-vs-rennes-comparatif-2026",
+      "title": "Brest ou Rennes en 2026 : laquelle choisir ? Comparatif complet",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "angers-vs-tours-comparatif-2026",
+      "title": "Angers ou Tours en 2026 : laquelle choisir ? Comparatif complet",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "clermont-ferrand-vs-limoges-comparatif-2026",
+      "title": "Clermont-Ferrand ou Limoges en 2026 : comparatif complet",
+      "emoji": "🌋"
+    },
+    {
+      "slug": "meilleures-villes-oenophiles-vins-france-2026",
+      "title": "Les meilleures villes de France pour les amateurs de vin en 2026",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "vivre-en-berry-guide-2026",
+      "title": "Vivre dans le Berry en 2026 : Bourges, Châteauroux — bilan honnête",
+      "emoji": "🐏"
+    },
+    {
+      "slug": "villes-france-teletravail-et-nature-2026",
+      "title": "Télétravail + nature : les villes françaises qui combinent les deux en 2026",
+      "emoji": "🌲"
+    },
+    {
+      "slug": "acheter-a-bayonne-quel-quartier-budget-2026",
+      "title": "Acheter à Bayonne en 2026 : quel quartier et quel budget ?",
+      "emoji": "🏉"
+    },
+    {
+      "slug": "acheter-a-brest-quel-quartier-budget-2026",
+      "title": "Acheter à Brest en 2026 : quel quartier et quel budget ?",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "acheter-a-tours-quel-quartier-budget-2026",
+      "title": "Acheter à Tours en 2026 : quel quartier et quel budget ?",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "acheter-a-angers-quel-quartier-budget-2026",
+      "title": "Acheter à Angers en 2026 : quel quartier et quel budget ?",
+      "emoji": "🏯"
+    },
+    {
+      "slug": "acheter-a-nimes-quel-quartier-budget-2026",
+      "title": "Acheter à Nîmes en 2026 : quel quartier et quel budget ?",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "acheter-a-avignon-quel-quartier-budget-2026",
+      "title": "Acheter à Avignon en 2026 : quel quartier et quel budget ?",
+      "emoji": "🎭"
+    },
+    {
+      "slug": "acheter-a-perpignan-quel-quartier-budget-2026",
+      "title": "Acheter à Perpignan en 2026 : quel quartier et quel budget ?",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "acheter-a-aix-en-provence-quel-quartier-budget-2026",
+      "title": "Acheter à Aix-en-Provence en 2026 : quel quartier et quel budget ?",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "acheter-a-saint-etienne-quel-quartier-budget-2026",
+      "title": "Acheter à Saint-Étienne en 2026 : quel quartier et quel budget ?",
+      "emoji": "⚙️"
+    },
+    {
+      "slug": "acheter-a-le-havre-quel-quartier-budget-2026",
+      "title": "Acheter au Havre en 2026 : quel quartier et quel budget ?",
+      "emoji": "🚢"
+    },
+    {
+      "slug": "acheter-a-orleans-quel-quartier-budget-2026",
+      "title": "Acheter à Orléans en 2026 : quel quartier et quel budget ?",
+      "emoji": "⚔️"
+    },
+    {
+      "slug": "acheter-a-limoges-quel-quartier-budget-2026",
+      "title": "Acheter à Limoges en 2026 : quel quartier et quel budget ?",
+      "emoji": "🏺"
+    },
+    {
+      "slug": "acheter-a-amiens-quel-quartier-budget-2026",
+      "title": "Acheter à Amiens en 2026 : quel quartier et quel budget ?",
+      "emoji": "🕌"
+    },
+    {
+      "slug": "guide-vivre-seul-france-quelle-ville-2026",
+      "title": "Vivre seul en France : quelle ville choisir en 2026 ?",
+      "emoji": "🧭"
+    },
+    {
+      "slug": "teletravailler-depuis-alsace-guide-2026",
+      "title": "Télétravailler depuis l'Alsace en 2026 : guide complet",
+      "emoji": "🥨"
+    },
+    {
+      "slug": "familles-enfants-en-bas-age-quelle-ville-france-2026",
+      "title": "Quelle ville choisir pour élever des enfants en bas âge en France ? Guide 2026",
+      "emoji": "🧸"
+    },
+    {
+      "slug": "villes-france-litteraires-patrimoine-culturel-2026",
+      "title": "Les villes littéraires et culturelles de France : où vivre si vous aimez les livres et les arts",
+      "emoji": "📚"
+    },
+    {
+      "slug": "fonctionnaires-mutation-choisir-ville-france-2026",
+      "title": "Fonctionnaire en mutation : comment choisir sa ville en 2026",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "van-life-france-choisir-base-ville-guide-2026",
+      "title": "Van life en France : quelle ville choisir comme base en 2026",
+      "emoji": "🚐"
+    },
+    {
+      "slug": "ingenieur-aeronautique-defense-france-2026",
+      "title": "Ingénieur aéronautique et défense en France : où s'installer en 2026",
+      "emoji": "✈️"
+    },
+    {
+      "slug": "enseignants-professeurs-quelle-ville-france-2026",
+      "title": "Enseignants : quelle ville choisir pour son poste en 2026",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "expats-anglophones-france-villes-installation-2026",
+      "title": "Expats anglophones en France : les meilleures villes pour s'installer en 2026",
+      "emoji": "🌍"
+    },
+    {
+      "slug": "professions-sante-infirmier-medecin-quelle-ville-2026",
+      "title": "Professions de santé : quelle ville choisir pour exercer en France en 2026",
+      "emoji": "🩺"
+    },
+    {
+      "slug": "acheter-a-besancon-quel-quartier-budget-2026",
+      "title": "Acheter à Besançon en 2026 : quartiers, prix et budget",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "acheter-a-troyes-quel-quartier-budget-2026",
+      "title": "Acheter à Troyes en 2026 : prix, quartiers, budget achat immobilier",
+      "emoji": "🦢"
+    },
+    {
+      "slug": "acheter-a-valence-quel-quartier-budget-2026",
+      "title": "Acheter à Valence en 2026 : prix, quartiers et conseils",
+      "emoji": "🌻"
+    },
+    {
+      "slug": "acheter-a-poitiers-quel-quartier-budget-2026",
+      "title": "Acheter à Poitiers en 2026 : quartiers, prix au m², conseils",
+      "emoji": "🐴"
+    },
+    {
+      "slug": "acheter-a-vannes-quel-quartier-budget-2026",
+      "title": "Acheter à Vannes en 2026 : quartiers, prix et budget",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "acheter-a-mulhouse-quel-quartier-budget-2026",
+      "title": "Acheter à Mulhouse en 2026 : prix, quartiers et marché immobilier",
+      "emoji": "🏭"
+    },
+    {
+      "slug": "quitter-aix-en-provence-guide-2026",
+      "title": "Quitter Aix-en-Provence en 2026 : où aller quand Provence devient trop chère",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "villes-françaises-qui-perdent-habitants-2026",
+      "title": "Les villes françaises qui perdent des habitants en 2026 — comprendre et décider",
+      "emoji": "📉"
+    },
+    {
+      "slug": "deserts-medicaux-france-villes-eviter-2026",
+      "title": "Déserts médicaux en France 2026 : ce que ça change concrètement pour choisir sa ville",
+      "emoji": "🏥"
+    },
+    {
+      "slug": "immobilier-sous-cote-france-2026-villes",
+      "title": "Les villes françaises immobilièrement sous-cotées en 2026 — le guide honnête",
+      "emoji": "💎"
+    },
+    {
+      "slug": "nouvelles-villes-montantes-france-2026",
+      "title": "Les nouvelles villes qui montent en France en 2026 — émergence et trajectoires",
+      "emoji": "🚀"
+    },
+    {
+      "slug": "tgv-paris-accessibilite-villes-2026",
+      "title": "Accessibilité TGV depuis Paris en 2026 : le guide pour choisir sa ville",
+      "emoji": "🚄"
+    },
+    {
+      "slug": "quitter-valence-guide-2026",
+      "title": "Quitter Valence (Drôme) en 2026 : où aller et pourquoi",
+      "emoji": "🌻"
+    },
+    {
+      "slug": "quitter-troyes-guide-2026",
+      "title": "Quitter Troyes en 2026 : alternatives et destination après l'Aube",
+      "emoji": "🦢"
+    },
+    {
+      "slug": "quitter-vannes-guide-2026",
+      "title": "Quitter Vannes en 2026 : où aller quand le Golfe du Morbihan devient trop cher",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "quitter-poitiers-guide-2026",
+      "title": "Quitter Poitiers en 2026 : alternatives à la Vienne",
+      "emoji": "🐴"
+    },
+    {
+      "slug": "quitter-colmar-guide-2026",
+      "title": "Quitter Colmar en 2026 : pourquoi et où aller",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "quitter-biarritz-guide-2026",
+      "title": "Quitter Biarritz en 2026 : quand le Pays Basque devient inaccessible",
+      "emoji": "🏄"
+    },
+    {
+      "slug": "acheter-a-chartres-quel-quartier-budget-2026",
+      "title": "Acheter à Chartres en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "acheter-a-lorient-quel-quartier-budget-2026",
+      "title": "Acheter à Lorient en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
+      "emoji": "🛳️"
+    },
+    {
+      "slug": "acheter-a-chambery-quel-quartier-budget-2026",
+      "title": "Acheter à Chambéry en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "acheter-a-colmar-quel-quartier-budget-2026",
+      "title": "Acheter à Colmar en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "acheter-a-arles-quel-quartier-budget-2026",
+      "title": "Acheter à Arles en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
+      "emoji": "🌾"
+    },
+    {
+      "slug": "acheter-a-biarritz-quel-quartier-budget-2026",
+      "title": "Acheter à Biarritz en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
+      "emoji": "🏄"
+    },
+    {
+      "slug": "nice-vs-marseille-comparatif-2026",
+      "title": "Nice vs Marseille 2026 : laquelle choisir pour s'installer ?",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "montpellier-vs-toulouse-comparatif-2026",
+      "title": "Montpellier vs Toulouse 2026 : laquelle choisir pour s'installer ?",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "strasbourg-vs-colmar-comparatif-2026",
+      "title": "Strasbourg vs Colmar 2026 : laquelle choisir pour s'installer en Alsace ?",
+      "emoji": "🥨"
+    },
+    {
+      "slug": "quitter-arles-guide-2026",
+      "title": "Quitter Arles en 2026 : pourquoi et où aller",
+      "emoji": "🌾"
+    },
+    {
+      "slug": "quitter-chambery-guide-2026",
+      "title": "Quitter Chambéry en 2026 : pourquoi et où aller",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "quitter-chartres-guide-2026",
+      "title": "Quitter Chartres en 2026 : pourquoi et où aller",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "quitter-lorient-guide-2026",
+      "title": "Quitter Lorient en 2026 : pourquoi et où aller",
+      "emoji": "🛳️"
+    },
+    {
+      "slug": "quitter-orleans-guide-2026",
+      "title": "Quitter Orléans en 2026 : pourquoi et où aller",
+      "emoji": "🌹"
+    },
+    {
+      "slug": "vivre-en-normandie-guide-2026",
+      "title": "Vivre en Normandie en 2026 : guide complet de la région",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "vivre-en-bretagne-guide-2026",
+      "title": "Vivre en Bretagne en 2026 : guide complet de la région",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "vivre-en-occitanie-guide-2026",
+      "title": "Vivre en Occitanie en 2026 : guide complet de la région",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "acheter-a-le-mans-quel-quartier-budget-2026",
+      "title": "Acheter au Mans en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
+      "emoji": "🏎️"
+    },
+    {
+      "slug": "budget-mensuel-realiste-paris-2026",
+      "title": "Budget mensuel réaliste à Paris en 2026 : ce que ça coûte vraiment",
+      "emoji": "🗼"
+    },
+    {
+      "slug": "budget-mensuel-realiste-lyon-2026",
+      "title": "Budget mensuel réaliste à Lyon en 2026 : ce que ça coûte vraiment",
+      "emoji": "🥩"
+    },
+    {
+      "slug": "budget-mensuel-realiste-bordeaux-2026",
+      "title": "Budget mensuel réaliste à Bordeaux en 2026 : ce que ça coûte vraiment",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "budget-mensuel-realiste-toulouse-2026",
+      "title": "Budget mensuel réaliste à Toulouse en 2026 : ce que ça coûte vraiment",
+      "emoji": "🌹"
+    },
+    {
+      "slug": "budget-mensuel-realiste-montpellier-2026",
+      "title": "Budget mensuel réaliste à Montpellier en 2026 : ce que ça coûte vraiment",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "budget-mensuel-realiste-nice-2026",
+      "title": "Budget mensuel réaliste à Nice en 2026 : ce que ça coûte vraiment",
+      "emoji": "🌴"
+    },
+    {
+      "slug": "budget-mensuel-realiste-nantes-2026",
+      "title": "Budget mensuel réaliste à Nantes en 2026 : ce que ça coûte vraiment",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "budget-mensuel-realiste-rennes-2026",
+      "title": "Budget mensuel réaliste à Rennes en 2026 : ce que ça coûte vraiment",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "rennes-vs-nantes-comparatif-2026",
+      "title": "Rennes vs Nantes 2026 : laquelle choisir pour s'installer ?",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "lille-vs-amiens-comparatif-2026",
+      "title": "Lille vs Amiens 2026 : laquelle choisir pour s'installer dans le Nord ?",
+      "emoji": "🍺"
+    },
+    {
+      "slug": "tours-vs-orléans-comparatif-2026",
+      "title": "Tours vs Orléans 2026 : laquelle choisir pour s'installer sur la Loire ?",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "budget-mensuel-realiste-strasbourg-2026",
+      "title": "Budget mensuel réaliste à Strasbourg en 2026 : ce que ça coûte vraiment",
+      "emoji": "🥨"
+    },
+    {
+      "slug": "budget-mensuel-realiste-lille-2026",
+      "title": "Budget mensuel réaliste à Lille en 2026 : ce que ça coûte vraiment",
+      "emoji": "🍺"
+    },
+    {
+      "slug": "lyon-vs-grenoble-comparatif-2026",
+      "title": "Lyon vs Grenoble 2026 : laquelle choisir pour s'installer en Auvergne-Rhône-Alpes ?",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "villes-france-moins-cheres-2026-top-10",
+      "title": "Top 10 des villes françaises les moins chères pour s'installer en 2026",
+      "emoji": "💰"
+    },
+    {
+      "slug": "10-choses-a-faire-a-paris-2026",
+      "title": "10 choses à faire à Paris (au-delà des clichés)",
+      "emoji": "🗼"
+    },
+    {
+      "slug": "10-choses-a-faire-a-lyon-2026",
+      "title": "10 choses à faire à Lyon (comme un Lyonnais)",
+      "emoji": "🦁"
+    },
+    {
+      "slug": "10-choses-a-faire-a-bordeaux-2026",
+      "title": "10 choses à faire à Bordeaux (et sa métropole)",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "10-choses-a-faire-a-toulouse-2026",
+      "title": "10 choses à faire à Toulouse (la Ville Rose vue de l'intérieur)",
+      "emoji": "🌹"
+    },
+    {
+      "slug": "10-choses-a-faire-a-marseille-2026",
+      "title": "10 choses à faire à Marseille (la vraie, pas celle des guides)",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "10-choses-a-faire-a-nice-2026",
+      "title": "10 choses à faire à Nice (au-delà de la Promenade des Anglais)",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "10-choses-a-faire-a-nantes-2026",
+      "title": "10 choses à faire à Nantes (bien plus qu'un éléphant mécanique)",
+      "emoji": "🐘"
+    },
+    {
+      "slug": "10-choses-a-faire-a-rennes-2026",
+      "title": "10 choses à faire à Rennes (la ville bretonne qui ne dort pas)",
+      "emoji": "⚗️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-strasbourg-2026",
+      "title": "10 choses à faire à Strasbourg (la ville qui réconcilie tout)",
+      "emoji": "🥨"
+    },
+    {
+      "slug": "10-choses-a-faire-a-montpellier-2026",
+      "title": "10 choses à faire à Montpellier (la ville méditerranéenne qui bouge)",
+      "emoji": "🌞"
+    },
+    {
+      "slug": "10-choses-a-faire-a-lille-2026",
+      "title": "10 choses à faire à Lille (la nordiste qui surprend toujours)",
+      "emoji": "🍺"
+    },
+    {
+      "slug": "10-choses-a-faire-a-grenoble-2026",
+      "title": "10 choses à faire à Grenoble (la capitale des Alpes accessible)",
+      "emoji": "⛰️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-rouen-2026",
+      "title": "10 choses à faire à Rouen (la cité aux cent clochers)",
+      "emoji": "⚜️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-dijon-2026",
+      "title": "10 choses à faire à Dijon (la capitale bourguignonne sous-estimée)",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "10-choses-a-faire-a-metz-2026",
+      "title": "10 choses à faire à Metz (la cité de lumière méconnue)",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-angers-2026",
+      "title": "10 choses à faire à Angers (la douceur angevine n'est pas un mythe)",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "10-choses-a-faire-a-reims-2026",
+      "title": "10 choses à faire à Reims (champagne et cathédrale gothique)",
+      "emoji": "🍾"
+    },
+    {
+      "slug": "10-choses-a-faire-a-aix-en-provence-2026",
+      "title": "10 choses à faire à Aix-en-Provence (la Provence accessible)",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "10-choses-a-faire-a-brest-2026",
+      "title": "10 choses à faire à Brest (la ville bretonne du bout du monde)",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "10-choses-a-faire-a-clermont-ferrand-2026",
+      "title": "10 choses à faire à Clermont-Ferrand (la capitale volcanique de France)",
+      "emoji": "🌋"
+    },
+    {
+      "slug": "10-choses-a-faire-a-tours-2026",
+      "title": "10 choses à faire à Tours (capitale du Val de Loire)",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "10-choses-a-faire-a-perpignan-2026",
+      "title": "10 choses à faire à Perpignan (la Catalane oubliée)",
+      "emoji": "🔴"
+    },
+    {
+      "slug": "10-choses-a-faire-a-le-havre-2026",
+      "title": "10 choses à faire au Havre (l'architecture de l'après-guerre)",
+      "emoji": "🚢"
+    },
+    {
+      "slug": "10-choses-a-faire-a-orleans-2026",
+      "title": "10 choses à faire à Orléans (la cité de Jeanne d'Arc sur la Loire)",
+      "emoji": "⚔️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-caen-2026",
+      "title": "10 choses à faire à Caen (Normandie et mémoire)",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "10-choses-a-faire-a-nancy-2026",
+      "title": "10 choses à faire à Nancy (la place Stanislas et au-delà)",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-amiens-2026",
+      "title": "10 choses à faire à Amiens (la cathédrale et les hortillonnages)",
+      "emoji": "🌾"
+    },
+    {
+      "slug": "10-choses-a-faire-a-limoges-2026",
+      "title": "10 choses à faire à Limoges (porcelaine et forêts limousines)",
+      "emoji": "🍽️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-besancon-2026",
+      "title": "10 choses à faire à Besançon (la citadelle Vauban et le Doubs)",
+      "emoji": "⏱️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-pau-2026",
+      "title": "10 choses à faire à Pau (boulevard des Pyrénées et Béarn)",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-bayonne-2026",
+      "title": "10 choses à faire à Bayonne (fêtes et chocolat basque)",
+      "emoji": "🎉"
+    },
+    {
+      "slug": "10-choses-a-faire-a-biarritz-2026",
+      "title": "10 choses à faire à Biarritz (surf, falaises et Belle Époque)",
+      "emoji": "🏄"
+    },
+    {
+      "slug": "10-choses-a-faire-a-la-rochelle-2026",
+      "title": "10 choses à faire à La Rochelle (le port et le large)",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "10-choses-a-faire-a-annecy-2026",
+      "title": "10 choses à faire à Annecy (le lac et les Alpes)",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-chambery-2026",
+      "title": "10 choses à faire à Chambéry (entre Alpes et lac du Bourget)",
+      "emoji": "🐘"
+    },
+    {
+      "slug": "10-choses-a-faire-a-toulon-2026",
+      "title": "10 choses à faire à Toulon (la rade et la montagne du Faron)",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "10-choses-a-faire-a-valence-2026",
+      "title": "10 choses à faire à Valence (entre Rhône et Vercors)",
+      "emoji": "🌞"
+    },
+    {
+      "slug": "10-choses-a-faire-a-poitiers-2026",
+      "title": "10 choses à faire à Poitiers (art roman et Futuroscope)",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-troyes-2026",
+      "title": "10 choses à faire à Troyes (la ville médiévale et le champagne)",
+      "emoji": "🏘️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-colmar-2026",
+      "title": "10 choses à faire à Colmar (la Petite Venise et la route des vins)",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "10-choses-a-faire-a-nimes-2026",
+      "title": "10 choses à faire à Nîmes (les arènes romaines et le Midi gardois)",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-avignon-2026",
+      "title": "10 choses à faire à Avignon (le Palais des Papes et le festival)",
+      "emoji": "🎭"
+    },
+    {
+      "slug": "10-choses-a-faire-a-cannes-2026",
+      "title": "10 choses à faire à Cannes (palaces, festivals et îles de Lérins)",
+      "emoji": "🎬"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saint-malo-2026",
+      "title": "10 choses à faire à Saint-Malo (la cité corsaire et la mer d'Iroise)",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "10-choses-a-faire-a-vannes-2026",
+      "title": "10 choses à faire à Vannes (le golfe du Morbihan et la cité médiévale)",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "10-choses-a-faire-a-quimper-2026",
+      "title": "10 choses à faire à Quimper (la capitale de la Cornouaille bretonne)",
+      "emoji": "🏺"
+    },
+    {
+      "slug": "10-choses-a-faire-a-dunkerque-2026",
+      "title": "10 choses à faire à Dunkerque (le carnaval et les plages de la mer du Nord)",
+      "emoji": "🎭"
+    },
+    {
+      "slug": "10-choses-a-faire-a-mulhouse-2026",
+      "title": "10 choses à faire à Mulhouse (les musées de l'industrie et l'Alsace du Sud)",
+      "emoji": "🚗"
+    },
+    {
+      "slug": "10-choses-a-faire-a-arles-2026",
+      "title": "10 choses à faire à Arles (les arènes et la Camargue de Van Gogh)",
+      "emoji": "🌻"
+    },
+    {
+      "slug": "10-choses-a-faire-a-montauban-2026",
+      "title": "10 choses à faire à Montauban (la ville rose de Ingres et du Tarn-et-Garonne)",
+      "emoji": "🖼️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-albi-2026",
+      "title": "10 choses à faire à Albi (la cathédrale forteresse et Toulouse-Lautrec)",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "10-choses-a-faire-a-tarbes-2026",
+      "title": "10 choses à faire à Tarbes (les Pyrénées et la ville de Foch)",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-niort-2026",
+      "title": "10 choses à faire à Niort (le Marais poitevin et la ville de la mutualité)",
+      "emoji": "🚣"
+    },
+    {
+      "slug": "10-choses-a-faire-a-angouleme-2026",
+      "title": "10 choses à faire à Angoulême (la BD et la ville haute sur l'Angoumois)",
+      "emoji": "💬"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saintes-2026",
+      "title": "10 choses à faire à Saintes (la capitale romaine de l'Aquitaine)",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-le-mans-2026",
+      "title": "10 choses à faire au Mans (les 24 Heures et la cité Plantagenêt)",
+      "emoji": "🏎️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-lorient-2026",
+      "title": "10 choses à faire à Lorient (le festival interceltique et les ports de guerre)",
+      "emoji": "🎺"
+    },
+    {
+      "slug": "10-choses-a-faire-a-chartres-2026",
+      "title": "10 choses à faire à Chartres (la cathédrale gothique et la Beauce)",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "10-choses-a-faire-a-blois-2026",
+      "title": "10 choses à faire à Blois (les châteaux de la Loire et la ville royale)",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "10-choses-a-faire-a-auxerre-2026",
+      "title": "10 choses à faire à Auxerre (la cathédrale et les vins de Bourgogne du Nord)",
+      "emoji": "🍇"
+    },
+    {
+      "slug": "10-choses-a-faire-a-belfort-2026",
+      "title": "10 choses à faire à Belfort (le lion de Bartholdi et le territoire de la liberté)",
+      "emoji": "🦁"
+    },
+    {
+      "slug": "10-choses-a-faire-a-epinal-2026",
+      "title": "10 choses à faire à Épinal (l'imagerie vosgienne et les lacs du massif)",
+      "emoji": "🖨️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-roanne-2026",
+      "title": "10 choses à faire à Roanne (la gastronomie et la Loire en son berceau)",
+      "emoji": "🍽️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-chalon-sur-saone-2026",
+      "title": "10 choses à faire à Chalon-sur-Saône (le carnaval et les vins de Bourgogne du Sud)",
+      "emoji": "🎪"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saint-etienne-2026",
+      "title": "10 choses à faire à Saint-Étienne (le design et l'héritage industriel du Forez)",
+      "emoji": "⚙️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-frejus-2026",
+      "title": "10 choses à faire à Fréjus (la ville romaine et l'Estérel rouge)",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-arras-2026",
+      "title": "10 choses à faire à Arras (les places flamandes et les champs de bataille)",
+      "emoji": "🏟️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-lens-2026",
+      "title": "10 choses à faire à Lens (le Louvre-Lens et le bassin minier)",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "10-choses-a-faire-a-calais-2026",
+      "title": "10 choses à faire à Calais (la dentelle et le détroit le plus fréquenté du monde)",
+      "emoji": "🧵"
+    },
+    {
+      "slug": "10-choses-a-faire-a-boulogne-sur-mer-2026",
+      "title": "10 choses à faire à Boulogne-sur-Mer (Nausicaá et le premier port de pêche de France)",
+      "emoji": "🐟"
+    },
+    {
+      "slug": "10-choses-a-faire-a-macon-2026",
+      "title": "10 choses à faire à Mâcon (les vins de Bourgogne du Sud et la ville de Lamartine)",
+      "emoji": "🍾"
+    },
+    {
+      "slug": "10-choses-a-faire-a-bourg-en-bresse-2026",
+      "title": "10 choses à faire à Bourg-en-Bresse (le monastère royal de Brou et la volaille AOP)",
+      "emoji": "🐔"
+    },
+    {
+      "slug": "10-choses-a-faire-a-montlucon-2026",
+      "title": "10 choses à faire à Montluçon (la cité bourbonnaise et la forêt de Tronçais)",
+      "emoji": "🎻"
+    },
+    {
+      "slug": "10-choses-a-faire-a-vichy-2026",
+      "title": "10 choses à faire à Vichy (la reine des villes d'eaux et UNESCO)",
+      "emoji": "💧"
+    },
+    {
+      "slug": "10-choses-a-faire-a-clermont-l-herault-2026",
+      "title": "10 choses à faire à Clermont-l'Hérault (le lac du Salagou et Saint-Guilhem)",
+      "emoji": "🏞️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-sete-2026",
+      "title": "10 choses à faire à Sète (la Venise du Languedoc et les joutes)",
+      "emoji": "🐟"
+    },
+    {
+      "slug": "10-choses-a-faire-a-hyeres-2026",
+      "title": "10 choses à faire à Hyères (les Îles d'Or et la villa Noailles)",
+      "emoji": "🌴"
+    },
+    {
+      "slug": "10-choses-a-faire-a-draguignan-2026",
+      "title": "10 choses à faire à Draguignan (la porte du Verdon et l'arrière-pays varois)",
+      "emoji": "🌲"
+    },
+    {
+      "slug": "10-choses-a-faire-a-laval-2026",
+      "title": "10 choses à faire à Laval (la cité du Douanier Rousseau et la Mayenne)",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "10-choses-a-faire-a-cherbourg-2026",
+      "title": "10 choses à faire à Cherbourg (la Cité de la Mer et la pointe du Cotentin)",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saint-nazaire-2026",
+      "title": "10 choses à faire à Saint-Nazaire (les chantiers navals et la base sous-marine)",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "10-choses-a-faire-a-cholet-2026",
+      "title": "10 choses à faire à Cholet (la capitale du textile et la guerre de Vendée)",
+      "emoji": "🏭"
+    },
+    {
+      "slug": "10-choses-a-faire-a-la-roche-sur-yon-2026",
+      "title": "10 choses à faire à La Roche-sur-Yon (la ville Napoléon et le bocage vendéen)",
+      "emoji": "🐎"
+    },
+    {
+      "slug": "10-choses-a-faire-a-chatellerault-2026",
+      "title": "10 choses à faire à Châtellerault (la manufacture d'armes et le Futuroscope)",
+      "emoji": "⚙️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-cognac-2026",
+      "title": "10 choses à faire à Cognac (les chais et le berceau du spiritueux mondial)",
+      "emoji": "🥃"
+    },
+    {
+      "slug": "10-choses-a-faire-a-perigueux-2026",
+      "title": "10 choses à faire à Périgueux (la cité gallo-romaine et la cathédrale byzantine)",
+      "emoji": "🍄"
+    },
+    {
+      "slug": "10-choses-a-faire-a-agen-2026",
+      "title": "10 choses à faire à Agen (la cité du pruneau et la vallée de la Garonne)",
+      "emoji": "🍇"
+    },
+    {
+      "slug": "10-choses-a-faire-a-carcassonne-2026",
+      "title": "10 choses à faire à Carcassonne (la cité médiévale UNESCO et le pays cathare)",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "10-choses-a-faire-a-aix-les-bains-2026",
+      "title": "10 choses à faire à Aix-les-Bains (la Riviera des Alpes et le lac du Bourget)",
+      "emoji": "🛁"
+    },
+    {
+      "slug": "10-choses-a-faire-a-evian-les-bains-2026",
+      "title": "10 choses à faire à Évian-les-Bains (la source mondiale et le Léman)",
+      "emoji": "💧"
+    },
+    {
+      "slug": "10-choses-a-faire-a-manosque-2026",
+      "title": "10 choses à faire à Manosque (la patrie de Giono et le plateau de Valensole)",
+      "emoji": "💜"
+    },
+    {
+      "slug": "10-choses-a-faire-a-narbonne-2026",
+      "title": "10 choses à faire à Narbonne (la cité romaine et le canal de la Robine)",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-beziers-2026",
+      "title": "10 choses à faire à Béziers (la cité aux 9 écluses et la corrida)",
+      "emoji": "🐂"
+    },
+    {
+      "slug": "10-choses-a-faire-a-castres-2026",
+      "title": "10 choses à faire à Castres (le Petit Versailles tarnais et Jaurès)",
+      "emoji": "🏞️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-millau-2026",
+      "title": "10 choses à faire à Millau (le viaduc le plus haut du monde et les Causses)",
+      "emoji": "🌉"
+    },
+    {
+      "slug": "10-choses-a-faire-a-rodez-2026",
+      "title": "10 choses à faire à Rodez (la cathédrale gothique et le musée Soulages)",
+      "emoji": "⚫"
+    },
+    {
+      "slug": "10-choses-a-faire-a-auch-2026",
+      "title": "10 choses à faire à Auch (la cité de d'Artagnan et l'escalier monumental)",
+      "emoji": "⚔️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-cahors-2026",
+      "title": "10 choses à faire à Cahors (le pont Valentré et le vin noir du Lot)",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "10-choses-a-faire-a-mende-2026",
+      "title": "10 choses à faire à Mende (la cité du Gévaudan et le plus haut chef-lieu de France)",
+      "emoji": "🐺"
+    },
+    {
+      "slug": "10-choses-a-faire-a-privas-2026",
+      "title": "10 choses à faire à Privas (la plus petite préfecture de France et le marron AOP)",
+      "emoji": "🌰"
+    },
+    {
+      "slug": "10-choses-a-faire-a-aurillac-2026",
+      "title": "10 choses à faire à Aurillac (le théâtre de rue et les volcans du Cantal)",
+      "emoji": "🎭"
+    },
+    {
+      "slug": "10-choses-a-faire-au-puy-en-velay-2026",
+      "title": "10 choses à faire au Puy-en-Velay (les pitons volcaniques et le chemin de Compostelle)",
+      "emoji": "🌋"
+    },
+    {
+      "slug": "10-choses-a-faire-a-moulins-2026",
+      "title": "10 choses à faire à Moulins (la cité des Bourbons et le Centre National du Costume)",
+      "emoji": "🎭"
+    },
+    {
+      "slug": "10-choses-a-faire-a-bressuire-2026",
+      "title": "10 choses à faire à Bressuire (le château des Beaumont-Bressuire et le bocage)",
+      "emoji": "🐎"
+    },
+    {
+      "slug": "10-choses-a-faire-a-bar-le-duc-2026",
+      "title": "10 choses à faire à Bar-le-Duc (la ville haute Renaissance et la Voie sacrée)",
+      "emoji": "🍓"
+    },
+    {
+      "slug": "10-choses-a-faire-a-chaumont-2026",
+      "title": "10 choses à faire à Chaumont (le viaduc Eiffel et la Biennale du Graphisme)",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "10-choses-a-faire-a-gueret-2026",
+      "title": "10 choses à faire à Guéret (les Monédières et le plateau de Millevaches)",
+      "emoji": "🐺"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saint-brieuc-2026",
+      "title": "10 choses à faire à Saint-Brieuc (la baie aux marées et la côte de Goëlo)",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saint-lo-2026",
+      "title": "10 choses à faire à Saint-Lô (le haras national et la reconstruction d'après-guerre)",
+      "emoji": "🐎"
+    },
+    {
+      "slug": "10-choses-a-faire-a-evreux-2026",
+      "title": "10 choses à faire à Évreux (la cathédrale Notre-Dame et la vallée de l'Iton)",
+      "emoji": "🌳"
+    },
+    {
+      "slug": "10-choses-a-faire-a-beauvais-2026",
+      "title": "10 choses à faire à Beauvais (la cathédrale la plus haute du monde et la tapisserie)",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "10-choses-a-faire-a-laon-2026",
+      "title": "10 choses à faire à Laon (la cathédrale gothique perchée et la cité fortifiée)",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "10-choses-a-faire-a-charleville-mezieres-2026",
+      "title": "10 choses à faire à Charleville-Mézières (la place ducale et Rimbaud)",
+      "emoji": "🎭"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saint-die-des-vosges-2026",
+      "title": "10 choses à faire à Saint-Dié-des-Vosges (la cité du géographe et le massif vosgien)",
+      "emoji": "🌲"
+    },
+    {
+      "slug": "10-choses-a-faire-a-pontarlier-2026",
+      "title": "10 choses à faire à Pontarlier (la ville la plus haute de France et l'absinthe)",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saint-omer-2026",
+      "title": "10 choses à faire à Saint-Omer (le marais audomarois et la cathédrale)",
+      "emoji": "🛶"
+    },
+    {
+      "slug": "10-choses-a-faire-a-chateauroux-2026",
+      "title": "10 choses à faire à Châteauroux (le couvent des Cordeliers et la Brenne)",
+      "emoji": "🦆"
+    },
+    {
+      "slug": "10-choses-a-faire-a-nevers-2026",
+      "title": "10 choses à faire à Nevers (la faïence et la sainte Bernadette)",
+      "emoji": "🏺"
+    },
+    {
+      "slug": "10-choses-a-faire-a-vesoul-2026",
+      "title": "10 choses à faire à Vesoul (le lac et la « ville mille fois trop douce »)",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "10-choses-a-faire-a-lons-le-saunier-2026",
+      "title": "10 choses à faire à Lons-le-Saunier (la cité du sel et le vin jaune)",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "10-choses-a-faire-a-foix-2026",
+      "title": "10 choses à faire à Foix (le château des comtes et l'Ariège pyrénéenne)",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-gap-2026",
+      "title": "10 choses à faire à Gap (la station de Charance et les Hautes-Alpes)",
+      "emoji": "⛰️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-digne-les-bains-2026",
+      "title": "10 choses à faire à Digne-les-Bains (la cité thermale et la route des Lavandes)",
+      "emoji": "💜"
+    },
+    {
+      "slug": "10-choses-a-faire-a-mont-de-marsan-2026",
+      "title": "10 choses à faire à Mont-de-Marsan (la cité Carcen et la course landaise)",
+      "emoji": "🐃"
+    },
+    {
+      "slug": "10-choses-a-faire-a-tulle-2026",
+      "title": "10 choses à faire à Tulle (la cité de l'accordéon et le plateau corrézien)",
+      "emoji": "🪗"
+    },
+    {
+      "slug": "10-choses-a-faire-a-chalons-en-champagne-2026",
+      "title": "10 choses à faire à Châlons-en-Champagne (la capitale champenoise et la Marne)",
+      "emoji": "🥂"
+    },
+    {
+      "slug": "10-choses-a-faire-a-alencon-2026",
+      "title": "10 choses à faire à Alençon (le point d'Alençon et le parc naturel Normandie-Maine)",
+      "emoji": "🪡"
+    },
+    {
+      "slug": "10-choses-a-faire-a-bourges-2026",
+      "title": "10 choses à faire à Bourges (la cathédrale UNESCO et le palais Jacques-Cœur)",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "10-choses-a-faire-a-fontainebleau-2026",
+      "title": "10 choses à faire à Fontainebleau (le château royal et la forêt de l'École)",
+      "emoji": "🌳"
+    },
+    {
+      "slug": "10-choses-a-faire-a-honfleur-2026",
+      "title": "10 choses à faire à Honfleur (le Vieux Bassin et les peintres impressionnistes)",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "10-choses-a-faire-a-sarlat-la-caneda-2026",
+      "title": "10 choses à faire à Sarlat-la-Canéda (la cité médiévale dorée et le foie gras)",
+      "emoji": "🦆"
+    },
+    {
+      "slug": "10-choses-a-faire-a-ajaccio-2026",
+      "title": "10 choses à faire à Ajaccio (la cité napoléonienne et le golfe de la Corse-du-Sud)",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "10-choses-a-faire-a-bastia-2026",
+      "title": "10 choses à faire à Bastia (le vieux port et le Cap Corse)",
+      "emoji": "🏖️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-cassis-2026",
+      "title": "10 choses à faire à Cassis (les calanques et le Cap Canaille)",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "10-choses-a-faire-a-collioure-2026",
+      "title": "10 choses à faire à Collioure (le village des Fauves et le Roussillon)",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saint-tropez-2026",
+      "title": "10 choses à faire à Saint-Tropez (la presqu'île et la baie des Canoubiers)",
+      "emoji": "🛥️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-menton-2026",
+      "title": "10 choses à faire à Menton (la cité des citrons et la Riviera frontalière)",
+      "emoji": "🍋"
+    },
+    {
+      "slug": "10-choses-a-faire-a-epernay-2026",
+      "title": "10 choses à faire à Épernay (la capitale du champagne et l'Avenue UNESCO)",
+      "emoji": "🍾"
+    },
+    {
+      "slug": "10-choses-a-faire-a-provins-2026",
+      "title": "10 choses à faire à Provins (la cité médiévale UNESCO et les remparts)",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "10-choses-a-faire-a-lourdes-2026",
+      "title": "10 choses à faire à Lourdes (le sanctuaire marial et le pic du Midi)",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "10-choses-a-faire-a-beaune-2026",
+      "title": "10 choses à faire à Beaune (les Hospices et la route des Grands Crus)",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "10-choses-a-faire-a-concarneau-2026",
+      "title": "10 choses à faire à Concarneau (la Ville Close fortifiée et les Glénan)",
+      "emoji": "🐟"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saint-jean-de-luz-2026",
+      "title": "10 choses à faire à Saint-Jean-de-Luz (la baie basque et le mariage de Louis XIV)",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "10-choses-a-faire-a-carnac-2026",
+      "title": "10 choses à faire à Carnac (les alignements mégalithiques et le golfe du Morbihan)",
+      "emoji": "🪨"
+    },
+    {
+      "slug": "10-choses-a-faire-a-gordes-2026",
+      "title": "10 choses à faire à Gordes (le village perché du Luberon et l'abbaye de Sénanque)",
+      "emoji": "💜"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saint-paul-de-vence-2026",
+      "title": "10 choses à faire à Saint-Paul-de-Vence (la cité des artistes et la Riviera de l'arrière-pays)",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "10-choses-a-faire-a-amboise-2026",
+      "title": "10 choses à faire à Amboise (le château royal et le Clos Lucé de Léonard de Vinci)",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saumur-2026",
+      "title": "10 choses à faire à Saumur (le château des ducs d'Anjou et le Cadre Noir)",
+      "emoji": "🐎"
+    },
+    {
+      "slug": "10-choses-a-faire-a-chantilly-2026",
+      "title": "10 choses à faire à Chantilly (le château Renaissance et les Grandes Écuries)",
+      "emoji": "🐎"
+    },
+    {
+      "slug": "10-choses-a-faire-a-grasse-2026",
+      "title": "10 choses à faire à Grasse (la capitale mondiale du parfum et l'arrière-pays niçois)",
+      "emoji": "🌹"
+    },
+    {
+      "slug": "10-choses-a-faire-a-antibes-2026",
+      "title": "10 choses à faire à Antibes (le Vieil Antibes et le musée Picasso)",
+      "emoji": "🛥️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-cagnes-sur-mer-2026",
+      "title": "10 choses à faire à Cagnes-sur-Mer (Renoir et l'hippodrome de la Côte d'Azur)",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saint-raphael-2026",
+      "title": "10 choses à faire à Saint-Raphaël (l'Estérel rouge et la baie d'Agay)",
+      "emoji": "🏝️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-chinon-2026",
+      "title": "10 choses à faire à Chinon (la forteresse Plantagenêt et Rabelais)",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "10-choses-a-faire-a-compiegne-2026",
+      "title": "10 choses à faire à Compiègne (le palais impérial et la clairière de l'Armistice)",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-bayeux-2026",
+      "title": "10 choses à faire à Bayeux (la tapisserie UNESCO et les plages du Débarquement)",
+      "emoji": "🧵"
+    },
+    {
+      "slug": "10-choses-a-faire-a-martigues-2026",
+      "title": "10 choses à faire à Martigues (la Venise provençale et l'étang de Berre)",
+      "emoji": "🛶"
+    },
+    {
+      "slug": "10-choses-a-faire-a-calvi-2026",
+      "title": "10 choses à faire à Calvi (la citadelle génoise et la Balagne)",
+      "emoji": "🏖️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-porto-vecchio-2026",
+      "title": "10 choses à faire à Porto-Vecchio (les plages turquoise et l'Alta Rocca)",
+      "emoji": "🏝️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-arcachon-2026",
+      "title": "10 choses à faire à Arcachon (le bassin et la dune du Pilat)",
+      "emoji": "🦪"
+    },
+    {
+      "slug": "10-choses-a-faire-a-royan-2026",
+      "title": "10 choses à faire à Royan (l'architecture des années 50 et la Côte de Beauté)",
+      "emoji": "🏖️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-libourne-2026",
+      "title": "10 choses à faire à Libourne (Saint-Émilion et le grand vignoble bordelais)",
+      "emoji": "🍇"
+    },
+    {
+      "slug": "10-choses-a-faire-a-dinan-2026",
+      "title": "10 choses à faire à Dinan (la cité médiévale et la Rance)",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "10-choses-a-faire-a-pezenas-2026",
+      "title": "10 choses à faire à Pézenas (la cité de Molière et le Languedoc)",
+      "emoji": "🎭"
+    },
+    {
+      "slug": "10-choses-a-faire-a-vienne-2026",
+      "title": "10 choses à faire à Vienne (la cité gallo-romaine du Rhône et le jazz)",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-riom-2026",
+      "title": "10 choses à faire à Riom (la cité judiciaire et l'Auvergne romane)",
+      "emoji": "🌋"
+    },
+    {
+      "slug": "10-choses-a-faire-a-sisteron-2026",
+      "title": "10 choses à faire à Sisteron (la citadelle Vauban et la Provence-Alpes)",
+      "emoji": "⛰️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-apt-2026",
+      "title": "10 choses à faire à Apt (le marché du Luberon et les fruits confits)",
+      "emoji": "🍑"
+    },
+    {
+      "slug": "10-choses-a-faire-a-annonay-2026",
+      "title": "10 choses à faire à Annonay (la cité des Montgolfier et l'Ardèche nord)",
+      "emoji": "🎈"
+    },
+    {
+      "slug": "10-choses-a-faire-a-montbeliard-2026",
+      "title": "10 choses à faire à Montbéliard (le château des Württemberg et l'Alsace francophone)",
+      "emoji": "🎄"
+    },
+    {
+      "slug": "10-choses-a-faire-a-aubagne-2026",
+      "title": "10 choses à faire à Aubagne (le pays de Marcel Pagnol)",
+      "emoji": "🎭"
+    },
+    {
+      "slug": "10-choses-a-faire-a-anglet-2026",
+      "title": "10 choses à faire à Anglet (la côte basque côté surf)",
+      "emoji": "🏄"
+    },
+    {
+      "slug": "10-choses-a-faire-a-autun-2026",
+      "title": "10 choses à faire à Autun (la sœur romaine de Rome en Morvan)",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-bagneres-de-bigorre-2026",
+      "title": "10 choses à faire à Bagnères-de-Bigorre (les Pyrénées thermales et le Pic du Midi)",
+      "emoji": "⛰️"
+    },
+    {
+      "slug": "meilleures-villes-marches-couverts-france-2026",
+      "title": "Vivre près d'un marché couvert : les meilleures villes françaises en 2026",
+      "emoji": "🥖"
+    },
+    {
+      "slug": "villes-se-ressourcer-apres-burn-out-france-2026",
+      "title": "Se ressourcer après un burn-out : les meilleures villes françaises en 2026",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "vivre-pres-aeroport-france-bruit-aerien-2026",
+      "title": "Vivre près d'un aéroport en France 2026 — bruit aérien, PEB, décote, où regarder vraiment",
+      "emoji": "✈️"
+    },
+    {
+      "slug": "villes-france-gare-tgv-acces-direct-2026",
+      "title": "Vivre dans une ville avec gare TGV : ce que change vraiment l'accès direct en 2026",
+      "emoji": "🚄"
+    },
+    {
+      "slug": "villes-france-zfe-zones-faibles-emissions-2026",
+      "title": "ZFE en France 2026 : ce que change vraiment la zone à faibles émissions pour le choix de votre ville",
+      "emoji": "🚦"
+    },
+    {
+      "slug": "vivre-a-lyon-2026",
+      "title": "Vivre à Lyon en 2026 : le guide complet pour s'installer",
+      "emoji": "🦁"
+    },
+    {
+      "slug": "vivre-a-bordeaux-2026",
+      "title": "Vivre à Bordeaux en 2026 : le guide complet pour s'installer",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "vivre-a-toulouse-2026",
+      "title": "Vivre à Toulouse en 2026 : le guide complet pour s'installer",
+      "emoji": "🌹"
+    },
+    {
+      "slug": "vivre-a-nantes-2026",
+      "title": "Vivre à Nantes en 2026 : le guide complet pour s'installer",
+      "emoji": "🐘"
+    },
+    {
+      "slug": "vivre-a-montpellier-2026",
+      "title": "Vivre à Montpellier en 2026 : le guide complet pour s'installer",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "vivre-a-rennes-2026",
+      "title": "Vivre à Rennes en 2026 : le guide complet pour s'installer",
+      "emoji": "🥞"
+    },
+    {
+      "slug": "vivre-a-strasbourg-2026",
+      "title": "Vivre à Strasbourg en 2026 : le guide complet pour s'installer",
+      "emoji": "🥨"
+    },
+    {
+      "slug": "vivre-a-lille-2026",
+      "title": "Vivre à Lille en 2026 : le guide complet pour s'installer",
+      "emoji": "🍺"
+    },
+    {
+      "slug": "vivre-a-marseille-2026",
+      "title": "Vivre à Marseille en 2026 : le guide complet pour s'installer",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "vivre-a-nice-2026",
+      "title": "Vivre à Nice en 2026 : le guide complet pour s'installer",
+      "emoji": "🌴"
+    },
+    {
+      "slug": "vivre-a-grenoble-2026",
+      "title": "Vivre à Grenoble en 2026 : le guide complet pour s'installer",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "vivre-a-angers-2026",
+      "title": "Vivre à Angers en 2026 : le guide complet pour s'installer",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "vivre-a-dijon-2026",
+      "title": "Vivre à Dijon en 2026 : le guide complet pour s'installer",
+      "emoji": "🍇"
+    },
+    {
+      "slug": "vivre-a-tours-2026",
+      "title": "Vivre à Tours en 2026 : le guide complet pour s'installer",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "vivre-a-reims-2026",
+      "title": "Vivre à Reims en 2026 : le guide complet pour s'installer",
+      "emoji": "🍾"
+    },
+    {
+      "slug": "vivre-a-nancy-2026",
+      "title": "Vivre à Nancy en 2026 : le guide complet pour s'installer",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "vivre-a-clermont-ferrand-2026",
+      "title": "Vivre à Clermont-Ferrand en 2026 : le guide complet pour s'installer",
+      "emoji": "🌋"
+    },
+    {
+      "slug": "vivre-a-la-rochelle-2026",
+      "title": "Vivre à La Rochelle en 2026 : le guide complet pour s'installer",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "photovoltaique-autoconsommation-france-2026-ou-rentable",
+      "title": "Panneaux photovoltaïques en autoconsommation en France : où c'est vraiment rentable en 2026",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "vivre-a-metz-2026",
+      "title": "Vivre à Metz en 2026 : le guide complet pour s'installer",
+      "emoji": "🟡"
+    },
+    {
+      "slug": "vivre-a-annecy-2026",
+      "title": "Vivre à Annecy en 2026 : le guide complet pour s'installer",
+      "emoji": "🏞️"
+    },
+    {
+      "slug": "vivre-a-brest-2026",
+      "title": "Vivre à Brest en 2026 : le guide complet pour s'installer",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "vivre-au-mans-2026",
+      "title": "Vivre au Mans en 2026 : le guide complet pour s'installer",
+      "emoji": "🏁"
+    },
+    {
+      "slug": "vivre-a-orleans-2026",
+      "title": "Vivre à Orléans en 2026 : le guide complet pour s'installer",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "vivre-a-caen-2026",
+      "title": "Vivre à Caen en 2026 : le guide complet pour s'installer",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "vivre-a-pau-2026",
+      "title": "Vivre à Pau en 2026 : le guide complet pour s'installer",
+      "emoji": "⛰️"
+    },
+    {
+      "slug": "vivre-a-bayonne-2026",
+      "title": "Vivre à Bayonne en 2026 : le guide complet pour s'installer",
+      "emoji": "🔴"
+    },
+    {
+      "slug": "vivre-a-rouen-2026",
+      "title": "Vivre à Rouen en 2026 : le guide complet pour s'installer",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "vivre-au-havre-2026",
+      "title": "Vivre au Havre en 2026 : le guide complet pour s'installer",
+      "emoji": "🚢"
+    },
+    {
+      "slug": "vivre-a-toulon-2026",
+      "title": "Vivre à Toulon en 2026 : le guide complet pour s'installer",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "vivre-a-nimes-2026",
+      "title": "Vivre à Nîmes en 2026 : le guide complet pour s'installer",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "vivre-a-avignon-2026",
+      "title": "Vivre à Avignon en 2026 : le guide complet pour s'installer",
+      "emoji": "🎭"
+    },
+    {
+      "slug": "vivre-a-perpignan-2026",
+      "title": "Vivre à Perpignan en 2026 : le guide complet pour s'installer",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "vivre-a-besancon-2026",
+      "title": "Vivre à Besançon en 2026 : le guide complet pour s'installer",
+      "emoji": "🏞️"
+    },
+    {
+      "slug": "vivre-a-limoges-2026",
+      "title": "Vivre à Limoges en 2026 : le guide complet pour s'installer",
+      "emoji": "🍽️"
+    },
+    {
+      "slug": "vivre-a-amiens-2026",
+      "title": "Vivre à Amiens en 2026 : le guide complet pour s'installer",
+      "emoji": "🚣"
+    },
+    {
+      "slug": "vivre-a-saint-etienne-2026",
+      "title": "Vivre à Saint-Étienne en 2026 : le guide complet pour s'installer",
+      "emoji": "💚"
+    },
+    {
+      "slug": "vivre-a-mulhouse-2026",
+      "title": "Vivre à Mulhouse en 2026 : le guide complet pour s'installer",
+      "emoji": "🇨🇭"
+    },
+    {
+      "slug": "vivre-a-colmar-2026",
+      "title": "Vivre à Colmar en 2026 : le guide complet pour s'installer",
+      "emoji": "🍇"
+    },
+    {
+      "slug": "vivre-a-vannes-2026",
+      "title": "Vivre à Vannes en 2026 : le guide complet pour s'installer",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "vivre-a-lorient-2026",
+      "title": "Vivre à Lorient en 2026 : le guide complet pour s'installer",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "vivre-a-quimper-2026",
+      "title": "Vivre à Quimper en 2026 : le guide complet pour s'installer",
+      "emoji": "🦩"
+    },
+    {
+      "slug": "vivre-a-poitiers-2026",
+      "title": "Vivre à Poitiers en 2026 : le guide complet pour s'installer",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "vivre-a-aix-en-provence-2026",
+      "title": "Vivre à Aix-en-Provence en 2026 : le guide complet pour s'installer",
+      "emoji": "⛲"
+    },
+    {
+      "slug": "vivre-a-chambery-2026",
+      "title": "Vivre à Chambéry en 2026 : le guide complet pour s'installer",
+      "emoji": "🐘"
+    },
+    {
+      "slug": "vivre-a-valence-2026",
+      "title": "Vivre à Valence en 2026 : le guide complet pour s'installer",
+      "emoji": "🍑"
+    },
+    {
+      "slug": "vivre-a-beziers-2026",
+      "title": "Vivre à Béziers en 2026 : le guide complet pour s'installer",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "vivre-a-troyes-2026",
+      "title": "Vivre à Troyes en 2026 : le guide complet pour s'installer",
+      "emoji": "🏘️"
+    },
+    {
+      "slug": "vivre-a-bourges-2026",
+      "title": "Vivre à Bourges en 2026 : le guide complet pour s'installer",
+      "emoji": "🕍"
+    },
+    {
+      "slug": "vivre-a-cherbourg-2026",
+      "title": "Vivre à Cherbourg en 2026 : le guide complet pour s'installer",
+      "emoji": "🌦️"
+    },
+    {
+      "slug": "vivre-a-saint-malo-2026",
+      "title": "Vivre à Saint-Malo en 2026 : le guide complet pour s'installer",
+      "emoji": "🏴‍☠️"
+    },
+    {
+      "slug": "etudiant-a-toulouse-2026",
+      "title": "Étudiant à Toulouse en 2026 : logement, budget, campus, le guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "etudiant-a-lyon-2026",
+      "title": "Étudiant à Lyon en 2026 : logement, budget, campus, le guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "etudiant-a-montpellier-2026",
+      "title": "Étudiant à Montpellier en 2026 : logement, budget, campus, le guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "etudiant-a-rennes-2026",
+      "title": "Étudiant à Rennes en 2026 : logement, budget, campus, le guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "etudiant-a-grenoble-2026",
+      "title": "Étudiant à Grenoble en 2026 : logement, budget, campus, le guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "etudiant-a-lille-2026",
+      "title": "Étudiant à Lille en 2026 : logement, budget, campus, le guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "etudiant-a-poitiers-2026",
+      "title": "Étudiant à Poitiers en 2026 : logement, budget, campus, le guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "etudiant-a-nancy-2026",
+      "title": "Étudiant à Nancy en 2026 : logement, budget, campus, le guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "etudiant-a-bordeaux-2026",
+      "title": "Étudiant à Bordeaux en 2026 : logement, budget, campus, le guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "etudiant-a-strasbourg-2026",
+      "title": "Étudiant à Strasbourg en 2026 : logement, budget, campus, le guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "etudiant-a-nantes-2026",
+      "title": "Étudiant à Nantes en 2026 : logement, budget, campus, le guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "etudiant-a-marseille-2026",
+      "title": "Étudiant à Marseille en 2026 : logement, budget, campus, le guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "etudiant-a-dijon-2026",
+      "title": "Étudiant à Dijon en 2026 : logement, budget, campus, le guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "etudiant-a-besancon-2026",
+      "title": "Étudiant à Besançon en 2026 : logement, budget, campus, le guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "etudiant-a-clermont-ferrand-2026",
+      "title": "Étudiant à Clermont-Ferrand en 2026 : logement, budget, campus, le guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "etudiant-a-angers-2026",
+      "title": "Étudiant à Angers en 2026 : logement, budget, campus, le guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "etudiant-a-caen-2026",
+      "title": "Étudiant à Caen en 2026 : logement, budget, campus, le guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "etudiant-a-limoges-2026",
+      "title": "Étudiant à Limoges en 2026 : logement, budget, campus, le guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "etudiant-a-tours-2026",
+      "title": "Étudiant à Tours en 2026 : logement, budget, campus, le guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "etudiant-a-amiens-2026",
+      "title": "Étudiant à Amiens en 2026 : logement, budget, campus, le guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "famille-a-lyon-2026",
+      "title": "En famille à Lyon en 2026 : quartiers, écoles, budget, le guide",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "famille-a-nantes-2026",
+      "title": "En famille à Nantes en 2026 : quartiers, écoles, budget, le guide",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "famille-a-bordeaux-2026",
+      "title": "En famille à Bordeaux en 2026 : quartiers, écoles, budget, le guide",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "famille-a-toulouse-2026",
+      "title": "En famille à Toulouse en 2026 : quartiers, écoles, budget, le guide",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "famille-a-rennes-2026",
+      "title": "En famille à Rennes en 2026 : quartiers, écoles, budget, le guide",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "famille-a-strasbourg-2026",
+      "title": "En famille à Strasbourg en 2026 : quartiers, écoles, budget, le guide",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "famille-a-angers-2026",
+      "title": "En famille à Angers en 2026 : quartiers, écoles, budget, le guide",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "famille-a-lille-2026",
+      "title": "En famille à Lille en 2026 : quartiers, écoles, budget, le guide",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "famille-a-montpellier-2026",
+      "title": "En famille à Montpellier en 2026 : quartiers, écoles, budget, le guide",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "famille-a-marseille-2026",
+      "title": "En famille à Marseille en 2026 : quartiers, écoles, budget, le guide",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "famille-a-nice-2026",
+      "title": "En famille à Nice en 2026 : quartiers, écoles, budget, le guide",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "famille-a-caen-2026",
+      "title": "En famille à Caen en 2026 : quartiers, écoles, budget, le guide",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "famille-a-dijon-2026",
+      "title": "En famille à Dijon en 2026 : quartiers, écoles, budget, le guide",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "famille-a-tours-2026",
+      "title": "En famille à Tours en 2026 : quartiers, écoles, budget, le guide",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "famille-a-metz-2026",
+      "title": "En famille à Metz en 2026 : quartiers, écoles, budget, le guide",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "famille-a-clermont-ferrand-2026",
+      "title": "En famille à Clermont-Ferrand en 2026 : quartiers, écoles, budget, le guide",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "famille-au-mans-2026",
+      "title": "En famille au Mans en 2026 : quartiers, écoles, budget, le guide",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "famille-a-orleans-2026",
+      "title": "En famille à Orléans en 2026 : quartiers, écoles, budget, le guide",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "famille-a-pau-2026",
+      "title": "En famille à Pau en 2026 : quartiers, écoles, budget, le guide",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "famille-a-besancon-2026",
+      "title": "En famille à Besançon en 2026 : quartiers, écoles, budget, le guide",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "palmares-juillet-2026-rapport-qualite-vie-loyer",
+      "title": "Palmarès juillet 2026 : les 20 villes au meilleur rapport qualité de vie / loyer",
+      "emoji": "🏆"
+    },
+    {
+      "slug": "palmares-aout-2026-rapport-qualite-vie-prix-achat",
+      "title": "Palmarès août 2026 : les 20 villes au meilleur rapport qualité de vie / prix d'achat",
+      "emoji": "🏆"
+    },
+    {
+      "slug": "palmares-septembre-2026-ecoles-cout-du-logement",
+      "title": "Palmarès septembre 2026 : les 20 villes au meilleur rapport écoles / loyer",
+      "emoji": "🏆"
+    },
+    {
+      "slug": "retraite-a-dinan-2026",
+      "title": "Retraite à Dinan en 2026 : santé, logement, budget, le guide",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retraite-a-lannion-2026",
+      "title": "Retraite à Lannion en 2026 : santé, logement, budget, le guide",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retraite-a-les-sables-d-olonne-2026",
+      "title": "Retraite aux Sables-d'Olonne en 2026 : santé, logement, budget, le guide",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retraite-a-royan-2026",
+      "title": "Retraite à Royan en 2026 : santé, logement, budget, le guide",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retraite-a-le-puy-en-velay-2026",
+      "title": "Retraite au Puy-en-Velay en 2026 : santé, logement, budget, le guide",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retraite-a-anglet-2026",
+      "title": "Retraite à Anglet en 2026 : santé, logement, budget, le guide",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retraite-a-hendaye-2026",
+      "title": "Retraite à Hendaye en 2026 : santé, logement, budget, le guide",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retraite-a-vitre-2026",
+      "title": "Retraite à Vitré en 2026 : santé, logement, budget, le guide",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retraite-a-fontainebleau-2026",
+      "title": "Retraite à Fontainebleau en 2026 : santé, logement, budget, le guide",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retraite-a-ile-de-re-2026",
+      "title": "Retraite à l'île de Ré en 2026 : santé, logement, budget, le guide",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retraite-a-challans-2026",
+      "title": "Retraite à Challans en 2026 : santé, logement, budget, le guide",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retraite-a-tulle-2026",
+      "title": "Retraite à Tulle en 2026 : santé, logement, budget, le guide",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retraite-a-pontarlier-2026",
+      "title": "Retraite à Pontarlier en 2026 : santé, logement, budget, le guide",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retraite-a-saint-die-des-vosges-2026",
+      "title": "Retraite à Saint-Dié-des-Vosges en 2026 : santé, logement, budget",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retraite-a-chateau-gontier-2026",
+      "title": "Retraite à Château-Gontier en 2026 : santé, logement, budget",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retraite-a-albertville-2026",
+      "title": "Retraite à Albertville en 2026 : santé, logement, budget, le guide",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retraite-a-gaillac-2026",
+      "title": "Retraite à Gaillac en 2026 : santé, logement, budget, le guide",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retraite-a-vendome-2026",
+      "title": "Retraite à Vendôme en 2026 : santé, logement, budget, le guide",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retraite-a-marmande-2026",
+      "title": "Retraite à Marmande en 2026 : santé, logement, budget, le guide",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retraite-a-saint-lo-2026",
+      "title": "Retraite à Saint-Lô en 2026 : santé, logement, budget, le guide",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "demenager-a-paris-2026",
+      "title": "Déménager à Paris en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-lyon-2026",
+      "title": "Déménager à Lyon en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-marseille-2026",
+      "title": "Déménager à Marseille en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-toulouse-2026",
+      "title": "Déménager à Toulouse en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-nice-2026",
+      "title": "Déménager à Nice en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-nantes-2026",
+      "title": "Déménager à Nantes en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-montpellier-2026",
+      "title": "Déménager à Montpellier en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-strasbourg-2026",
+      "title": "Déménager à Strasbourg en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-bordeaux-2026",
+      "title": "Déménager à Bordeaux en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-lille-2026",
+      "title": "Déménager à Lille en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-rennes-2026",
+      "title": "Déménager à Rennes en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-grenoble-2026",
+      "title": "Déménager à Grenoble en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-rouen-2026",
+      "title": "Déménager à Rouen en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-angers-2026",
+      "title": "Déménager à Angers en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-dijon-2026",
+      "title": "Déménager à Dijon en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-tours-2026",
+      "title": "Déménager à Tours en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-clermont-ferrand-2026",
+      "title": "Déménager à Clermont-Ferrand en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-metz-2026",
+      "title": "Déménager à Metz en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-nancy-2026",
+      "title": "Déménager à Nancy en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-caen-2026",
+      "title": "Déménager à Caen en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-saint-etienne-2026",
+      "title": "Déménager à Saint-Étienne en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-le-havre-2026",
+      "title": "Déménager au Havre en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-reims-2026",
+      "title": "Déménager à Reims en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-toulon-2026",
+      "title": "Déménager à Toulon en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-villeurbanne-2026",
+      "title": "Déménager à Villeurbanne en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-nimes-2026",
+      "title": "Déménager à Nîmes en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-aix-en-provence-2026",
+      "title": "Déménager à Aix-en-Provence en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-brest-2026",
+      "title": "Déménager à Brest en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-le-mans-2026",
+      "title": "Déménager au Mans en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-amiens-2026",
+      "title": "Déménager à Amiens en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-saint-denis-2026",
+      "title": "Déménager à Saint-Denis (93) en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-perpignan-2026",
+      "title": "Déménager à Perpignan en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-boulogne-billancourt-2026",
+      "title": "Déménager à Boulogne-Billancourt en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-argenteuil-2026",
+      "title": "Déménager à Argenteuil en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-orleans-2026",
+      "title": "Déménager à Orléans en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-mulhouse-2026",
+      "title": "Déménager à Mulhouse en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-saint-paul-reunion-2026",
+      "title": "Déménager à Saint-Paul (La Réunion) en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-nanterre-2026",
+      "title": "Déménager à Nanterre en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-creteil-2026",
+      "title": "Déménager à Créteil en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-vitry-sur-seine-2026",
+      "title": "Déménager à Vitry-sur-Seine en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-saint-denis-reunion-2026",
+      "title": "Déménager à Saint-Denis (La Réunion) en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-le-tampon-2026",
+      "title": "Déménager au Tampon (La Réunion) en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-aubervilliers-2026",
+      "title": "Déménager à Aubervilliers en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-colombes-2026",
+      "title": "Déménager à Colombes en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-asnieres-sur-seine-2026",
+      "title": "Déménager à Asnières-sur-Seine en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-courbevoie-2026",
+      "title": "Déménager à Courbevoie en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-rueil-malmaison-2026",
+      "title": "Déménager à Rueil-Malmaison en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-champigny-sur-marne-2026",
+      "title": "Déménager à Champigny-sur-Marne en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-saint-maur-des-fosses-2026",
+      "title": "Déménager à Saint-Maur-des-Fossés en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "demenager-a-antibes-2026",
+      "title": "Déménager à Antibes en 2026 : logistique, budget, démarches, le guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "travail-a-paris-2026",
+      "title": "Travailler à Paris en 2026 : bassin d'emploi, secteurs, salaires",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-lyon-2026",
+      "title": "Travailler à Lyon en 2026 : bassin d'emploi, secteurs, salaires",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-marseille-2026",
+      "title": "Travailler à Marseille en 2026 : bassin d'emploi, secteurs, salaires",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-toulouse-2026",
+      "title": "Travailler à Toulouse en 2026 : aéronautique, spatial, salaires",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-bordeaux-2026",
+      "title": "Travailler à Bordeaux en 2026 : aéro-défense, tech, salaires",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-nantes-2026",
+      "title": "Travailler à Nantes en 2026 : bassin d'emploi, secteurs, salaires",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-lille-2026",
+      "title": "Travailler à Lille en 2026 : retail, tech, salaires, réseaux",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-nice-2026",
+      "title": "Travailler à Nice en 2026 : Sophia Antipolis, tourisme, salaires",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-strasbourg-2026",
+      "title": "Travailler à Strasbourg en 2026 : Europe, pharma, transfrontalier",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-rennes-2026",
+      "title": "Travailler à Rennes en 2026 : tech, cyber-défense, agro, salaires",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-montpellier-2026",
+      "title": "Travailler à Montpellier en 2026 : santé, tech, salaires réels",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-grenoble-2026",
+      "title": "Travailler à Grenoble en 2026 : microélectronique, R&D, salaires",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-rouen-2026",
+      "title": "Travailler à Rouen en 2026 : chimie, banque, énergie, salaires",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-angers-2026",
+      "title": "Travailler à Angers en 2026 : végétal, biotech, salaires réels",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-dijon-2026",
+      "title": "Travailler à Dijon en 2026 : agroalimentaire, santé, salaires",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-tours-2026",
+      "title": "Travailler à Tours en 2026 : santé, banque, industrie, salaires",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-clermont-ferrand-2026",
+      "title": "Travailler à Clermont-Ferrand en 2026 : Michelin, pharma, salaires",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-metz-2026",
+      "title": "Travailler à Metz en 2026 : sidérurgie, tertiaire, frontaliers",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-nancy-2026",
+      "title": "Travailler à Nancy en 2026 : santé, tertiaire, ingénieurs",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-caen-2026",
+      "title": "Travailler à Caen en 2026 : santé, agroalimentaire, salaires",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-reims-2026",
+      "title": "Travailler à Reims en 2026 : champagne, tertiaire, TGV Paris",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-le-havre-2026",
+      "title": "Travailler au Havre en 2026 : port, industrie, énergie, salaires",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-saint-etienne-2026",
+      "title": "Travailler à Saint-Étienne en 2026 : industrie, design, salaires",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-toulon-2026",
+      "title": "Travailler à Toulon en 2026 : marine, Naval Group, salaires",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-nimes-2026",
+      "title": "Travailler à Nîmes en 2026 : tertiaire, agroalimentaire, transport",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-aix-en-provence-2026",
+      "title": "Travailler à Aix-en-Provence en 2026 : tertiaire, ITER, Airbus H",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-brest-2026",
+      "title": "Travailler à Brest en 2026 : marine, recherche marine, salaires",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-le-mans-2026",
+      "title": "Travailler au Mans en 2026 : assurances, automobile, TGV Paris",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-amiens-2026",
+      "title": "Travailler à Amiens en 2026 : industrie, agroalimentaire, salaires",
+      "emoji": "💼"
+    },
+    {
+      "slug": "travail-a-orleans-2026",
+      "title": "Travailler à Orléans en 2026 : pharma, tech, industrie, TGV Paris",
+      "emoji": "💼"
+    },
+    {
+      "slug": "universites-paris-2026",
+      "title": "Étudier à Paris en 2026 : universités, écoles, logement, coût réel",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "universites-lyon-2026",
+      "title": "Étudier à Lyon en 2026 : universités, écoles, logement, coût réel",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "universites-toulouse-2026",
+      "title": "Étudier à Toulouse en 2026 : universités, écoles, logement, coût réel",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "universites-lille-2026",
+      "title": "Étudier à Lille en 2026 : universités, écoles, logement, coût réel",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "universites-bordeaux-2026",
+      "title": "Étudier à Bordeaux en 2026 : universités, écoles, logement, coût réel",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "universites-aix-en-provence-2026",
+      "title": "Étudier à Aix-en-Provence en 2026 : universités, écoles, logement, coût réel",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "universites-montpellier-2026",
+      "title": "Étudier à Montpellier en 2026 : universités, écoles, logement, coût réel",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "universites-rennes-2026",
+      "title": "Étudier à Rennes en 2026 : universités, écoles, logement, coût réel",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "universites-strasbourg-2026",
+      "title": "Étudier à Strasbourg en 2026 : universités, écoles, logement, coût réel",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "universites-nantes-2026",
+      "title": "Étudier à Nantes en 2026 : universités, écoles, logement, coût réel",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "universites-grenoble-2026",
+      "title": "Étudier à Grenoble en 2026 : universités, écoles, logement, coût réel",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "universites-nice-2026",
+      "title": "Étudier à Nice en 2026 : universités, écoles, logement, coût réel",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "universites-clermont-ferrand-2026",
+      "title": "Étudier à Clermont-Ferrand en 2026 : universités, écoles, logement, coût réel",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "universites-nancy-2026",
+      "title": "Étudier à Nancy en 2026 : universités, écoles, logement, coût réel",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "universites-dijon-2026",
+      "title": "Étudier à Dijon en 2026 : universités, écoles, logement, coût réel",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "parent-solo-a-paris-2026",
+      "title": "Parent solo à Paris en 2026 : ce que ça coûte, ce que ça change",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-lyon-2026",
+      "title": "Parent solo à Lyon en 2026 : la métropole qui rend ça faisable",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-marseille-2026",
+      "title": "Parent solo à Marseille en 2026 : le vrai calcul quartier par quartier",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-toulouse-2026",
+      "title": "Parent solo à Toulouse en 2026 : le meilleur rapport écoles-budget du sud",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-nice-2026",
+      "title": "Parent solo à Nice en 2026 : le coût de vivre au soleil",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-nantes-2026",
+      "title": "Parent solo à Nantes en 2026 : la métropole la plus vivable de l'Ouest",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-montpellier-2026",
+      "title": "Parent solo à Montpellier en 2026 : soleil, tram, et budget qui reste tendu",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-strasbourg-2026",
+      "title": "Parent solo à Strasbourg en 2026 : la ville vélo qui rend ça faisable",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-bordeaux-2026",
+      "title": "Parent solo à Bordeaux en 2026 : ce qui a changé depuis la LGV",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-lille-2026",
+      "title": "Parent solo à Lille en 2026 : la métropole la moins chère du top 10",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "title": "Partir en vacances seul·e avec ses enfants en 2026 : le guide honnête",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saint-denis-reunion-2026",
+      "title": "10 choses à faire à Saint-Denis de La Réunion (le chef-lieu créole)",
+      "emoji": "🌋"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saint-paul-reunion-2026",
+      "title": "10 choses à faire à Saint-Paul (La Réunion, côte ouest)",
+      "emoji": "🏝️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saint-pierre-reunion-2026",
+      "title": "10 choses à faire à Saint-Pierre (La Réunion, le Sud)",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-fort-de-france-2026",
+      "title": "10 choses à faire à Fort-de-France (Martinique)",
+      "emoji": "🌺"
+    },
+    {
+      "slug": "10-choses-a-faire-a-pointe-a-pitre-2026",
+      "title": "10 choses à faire à Pointe-à-Pitre (Guadeloupe)",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "10-choses-a-faire-a-cayenne-2026",
+      "title": "10 choses à faire à Cayenne (Guyane)",
+      "emoji": "🚀"
+    },
+    {
+      "slug": "vacances-celibataire-paris-2026",
+      "title": "Vacances célibataire à Paris en 2026 : où sortir, où dormir seul·e, quand y aller",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-lyon-2026",
+      "title": "Vacances célibataire à Lyon en 2026 : sorties, bouchons, quartiers pour un séjour seul·e",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-bordeaux-2026",
+      "title": "Vacances célibataire à Bordeaux en 2026 : bars à vins, quartiers, séjour sans voiture",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-nantes-2026",
+      "title": "Vacances célibataire à Nantes en 2026 : Bouffay, Île de Nantes, séjour sans voiture",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-strasbourg-2026",
+      "title": "Vacances célibataire à Strasbourg en 2026 : winstubs, Krutenau, séjour sans voiture",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-rennes-2026",
+      "title": "Vacances célibataire à Rennes en 2026 : centre médiéval, mardi soir, séjour sans voiture",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-montpellier-2026",
+      "title": "Vacances célibataire à Montpellier en 2026 : Écusson, Comédie, séjour sans voiture",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-bayonne-2026",
+      "title": "Vacances célibataire à Bayonne en 2026 : pintxos, Petit Bayonne, séjour sans voiture",
+      "emoji": "🍸"
+    }
+  ],
+  "tags": [
+    {
+      "slug": "2026",
+      "label": "2026",
+      "count": 81
+    },
+    {
+      "slug": "teletravail",
+      "label": "télétravail",
+      "count": 49
+    },
+    {
+      "slug": "demenagement",
+      "label": "déménagement",
+      "count": 47
+    },
+    {
+      "slug": "immobilier",
+      "label": "immobilier",
+      "count": 41
+    },
+    {
+      "slug": "qualite-de-vie",
+      "label": "qualité de vie",
+      "count": 37
+    },
+    {
+      "slug": "bordeaux",
+      "label": "Bordeaux",
+      "count": 31
+    },
+    {
+      "slug": "lyon",
+      "label": "Lyon",
+      "count": 25
+    },
+    {
+      "slug": "bretagne",
+      "label": "Bretagne",
+      "count": 22
+    },
+    {
+      "slug": "comparatif",
+      "label": "comparatif",
+      "count": 21
+    },
+    {
+      "slug": "nantes",
+      "label": "Nantes",
+      "count": 21
+    },
+    {
+      "slug": "rennes",
+      "label": "Rennes",
+      "count": 21
+    },
+    {
+      "slug": "abordable",
+      "label": "abordable",
+      "count": 20
+    },
+    {
+      "slug": "primo-accedant",
+      "label": "primo-accédant",
+      "count": 19
+    },
+    {
+      "slug": "soleil",
+      "label": "soleil",
+      "count": 19
+    },
+    {
+      "slug": "famille",
+      "label": "famille",
+      "count": 18
+    },
+    {
+      "slug": "montpellier",
+      "label": "Montpellier",
+      "count": 18
+    },
+    {
+      "slug": "strasbourg",
+      "label": "Strasbourg",
+      "count": 16
+    },
+    {
+      "slug": "atlantique",
+      "label": "Atlantique",
+      "count": 15
+    },
+    {
+      "slug": "climat-2040",
+      "label": "climat 2040",
+      "count": 15
+    },
+    {
+      "slug": "coworking",
+      "label": "coworking",
+      "count": 15
+    },
+    {
+      "slug": "retraite",
+      "label": "retraite",
+      "count": 15
+    },
+    {
+      "slug": "toulouse",
+      "label": "Toulouse",
+      "count": 15
+    },
+    {
+      "slug": "annecy",
+      "label": "Annecy",
+      "count": 14
+    },
+    {
+      "slug": "fibre",
+      "label": "fibre",
+      "count": 14
+    },
+    {
+      "slug": "la-rochelle",
+      "label": "La Rochelle",
+      "count": 14
+    },
+    {
+      "slug": "montagne",
+      "label": "montagne",
+      "count": 14
+    },
+    {
+      "slug": "patrimoine",
+      "label": "patrimoine",
+      "count": 14
+    },
+    {
+      "slug": "grenoble",
+      "label": "Grenoble",
+      "count": 13
+    },
+    {
+      "slug": "mediterranee",
+      "label": "méditerranée",
+      "count": 13
+    },
+    {
+      "slug": "mobilite",
+      "label": "mobilité",
+      "count": 13
+    },
+    {
+      "slug": "marseille",
+      "label": "Marseille",
+      "count": 12
+    },
+    {
+      "slug": "paris",
+      "label": "Paris",
+      "count": 12
+    },
+    {
+      "slug": "budget",
+      "label": "budget",
+      "count": 11
+    },
+    {
+      "slug": "limoges",
+      "label": "Limoges",
+      "count": 11
+    },
+    {
+      "slug": "mer",
+      "label": "mer",
+      "count": 11
+    },
+    {
+      "slug": "nature",
+      "label": "nature",
+      "count": 11
+    },
+    {
+      "slug": "alsace",
+      "label": "Alsace",
+      "count": 10
+    },
+    {
+      "slug": "emploi",
+      "label": "emploi",
+      "count": 10
+    },
+    {
+      "slug": "gastronomie",
+      "label": "gastronomie",
+      "count": 10
+    },
+    {
+      "slug": "investissement-locatif",
+      "label": "investissement locatif",
+      "count": 10
+    },
+    {
+      "slug": "lifestyle",
+      "label": "lifestyle",
+      "count": 10
+    },
+    {
+      "slug": "lmnp",
+      "label": "LMNP",
+      "count": 10
+    },
+    {
+      "slug": "pau",
+      "label": "Pau",
+      "count": 10
+    },
+    {
+      "slug": "provence",
+      "label": "Provence",
+      "count": 10
+    },
+    {
+      "slug": "remote-work",
+      "label": "remote work",
+      "count": 10
+    },
+    {
+      "slug": "s-installer",
+      "label": "s'installer",
+      "count": 10
+    },
+    {
+      "slug": "sante",
+      "label": "santé",
+      "count": 10
+    },
+    {
+      "slug": "tgv",
+      "label": "TGV",
+      "count": 10
+    },
+    {
+      "slug": "velo",
+      "label": "vélo",
+      "count": 10
+    },
+    {
+      "slug": "vivre-sans-voiture",
+      "label": "vivre sans voiture",
+      "count": 10
+    },
+    {
+      "slug": "bayonne",
+      "label": "Bayonne",
+      "count": 9
+    },
+    {
+      "slug": "enfants",
+      "label": "enfants",
+      "count": 9
+    },
+    {
+      "slug": "frontalier",
+      "label": "frontalier",
+      "count": 9
+    },
+    {
+      "slug": "grand-est",
+      "label": "Grand Est",
+      "count": 9
+    },
+    {
+      "slug": "loire",
+      "label": "Loire",
+      "count": 9
+    },
+    {
+      "slug": "normandie",
+      "label": "Normandie",
+      "count": 9
+    },
+    {
+      "slug": "paca",
+      "label": "PACA",
+      "count": 9
+    },
+    {
+      "slug": "province",
+      "label": "province",
+      "count": 9
+    },
+    {
+      "slug": "randonnee",
+      "label": "randonnée",
+      "count": 9
+    },
+    {
+      "slug": "tgv-paris",
+      "label": "TGV Paris",
+      "count": 9
+    },
+    {
+      "slug": "alpes",
+      "label": "alpes",
+      "count": 8
+    },
+    {
+      "slug": "brest",
+      "label": "Brest",
+      "count": 8
+    },
+    {
+      "slug": "caen",
+      "label": "Caen",
+      "count": 8
+    },
+    {
+      "slug": "canicule",
+      "label": "canicule",
+      "count": 8
+    },
+    {
+      "slug": "dijon",
+      "label": "Dijon",
+      "count": 8
+    },
+    {
+      "slug": "ecologie",
+      "label": "écologie",
+      "count": 8
+    },
+    {
+      "slug": "etudiant",
+      "label": "étudiant",
+      "count": 8
+    },
+    {
+      "slug": "le-mans",
+      "label": "Le Mans",
+      "count": 8
+    },
+    {
+      "slug": "pyrenees",
+      "label": "Pyrénées",
+      "count": 8
+    },
+    {
+      "slug": "quitter-paris",
+      "label": "quitter Paris",
+      "count": 8
+    },
+    {
+      "slug": "rechauffement",
+      "label": "réchauffement",
+      "count": 8
+    },
+    {
+      "slug": "reims",
+      "label": "Reims",
+      "count": 8
+    },
+    {
+      "slug": "tours",
+      "label": "Tours",
+      "count": 8
+    },
+    {
+      "slug": "aix-en-provence",
+      "label": "Aix-en-Provence",
+      "count": 7
+    },
+    {
+      "slug": "auvergne",
+      "label": "Auvergne",
+      "count": 7
+    },
+    {
+      "slug": "avignon",
+      "label": "Avignon",
+      "count": 7
+    },
+    {
+      "slug": "biarritz",
+      "label": "Biarritz",
+      "count": 7
+    },
+    {
+      "slug": "chambery",
+      "label": "Chambéry",
+      "count": 7
+    },
+    {
+      "slug": "champagne",
+      "label": "Champagne",
+      "count": 7
+    },
+    {
+      "slug": "dordogne",
+      "label": "Dordogne",
+      "count": 7
+    },
+    {
+      "slug": "dpe",
+      "label": "DPE",
+      "count": 7
+    },
+    {
+      "slug": "logement",
+      "label": "logement",
+      "count": 7
+    },
+    {
+      "slug": "nice",
+      "label": "Nice",
+      "count": 7
+    },
+    {
+      "slug": "pays-basque",
+      "label": "Pays Basque",
+      "count": 7
+    },
+    {
+      "slug": "pays-de-la-loire",
+      "label": "Pays de la Loire",
+      "count": 7
+    },
+    {
+      "slug": "rendement",
+      "label": "rendement",
+      "count": 7
+    },
+    {
+      "slug": "securite",
+      "label": "sécurité",
+      "count": 7
+    },
+    {
+      "slug": "surf",
+      "label": "surf",
+      "count": 7
+    },
+    {
+      "slug": "amiens",
+      "label": "Amiens",
+      "count": 6
+    },
+    {
+      "slug": "angers",
+      "label": "Angers",
+      "count": 6
+    },
+    {
+      "slug": "besancon",
+      "label": "Besançon",
+      "count": 6
+    },
+    {
+      "slug": "clermont-ferrand",
+      "label": "Clermont-Ferrand",
+      "count": 6
+    },
+    {
+      "slug": "ecoles",
+      "label": "écoles",
+      "count": 6
+    },
+    {
+      "slug": "freelance",
+      "label": "freelance",
+      "count": 6
+    },
+    {
+      "slug": "french-tech",
+      "label": "French Tech",
+      "count": 6
+    },
+    {
+      "slug": "ile-de-france",
+      "label": "Île-de-France",
+      "count": 6
+    },
+    {
+      "slug": "lille",
+      "label": "Lille",
+      "count": 6
+    },
+    {
+      "slug": "lorraine",
+      "label": "Lorraine",
+      "count": 6
+    },
+    {
+      "slug": "massif-central",
+      "label": "Massif central",
+      "count": 6
+    },
+    {
+      "slug": "metz",
+      "label": "Metz",
+      "count": 6
+    },
+    {
+      "slug": "mulhouse",
+      "label": "Mulhouse",
+      "count": 6
+    },
+    {
+      "slug": "nancy",
+      "label": "Nancy",
+      "count": 6
+    },
+    {
+      "slug": "occitanie",
+      "label": "Occitanie",
+      "count": 6
+    },
+    {
+      "slug": "perigord",
+      "label": "Périgord",
+      "count": 6
+    },
+    {
+      "slug": "rouen",
+      "label": "Rouen",
+      "count": 6
+    },
+    {
+      "slug": "toulon",
+      "label": "Toulon",
+      "count": 6
+    },
+    {
+      "slug": "vignoble",
+      "label": "vignoble",
+      "count": 6
+    },
+    {
+      "slug": "accessibilite",
+      "label": "accessibilité",
+      "count": 5
+    },
+    {
+      "slug": "bourgogne",
+      "label": "Bourgogne",
+      "count": 5
+    },
+    {
+      "slug": "expatries",
+      "label": "expatriés",
+      "count": 5
+    },
+    {
+      "slug": "hauts-de-france",
+      "label": "Hauts-de-France",
+      "count": 5
+    },
+    {
+      "slug": "hossegor",
+      "label": "Hossegor",
+      "count": 5
+    },
+    {
+      "slug": "installation-hauts-de-seine",
+      "label": "installation Hauts-de-Seine",
+      "count": 5
+    },
+    {
+      "slug": "jura",
+      "label": "Jura",
+      "count": 5
+    },
+    {
+      "slug": "lorient",
+      "label": "Lorient",
+      "count": 5
+    },
+    {
+      "slug": "orleans",
+      "label": "Orléans",
+      "count": 5
+    },
+    {
+      "slug": "perigueux",
+      "label": "Périgueux",
+      "count": 5
+    },
+    {
+      "slug": "ptz",
+      "label": "PTZ",
+      "count": 5
+    },
+    {
+      "slug": "ski",
+      "label": "ski",
+      "count": 5
+    },
+    {
+      "slug": "suisse",
+      "label": "Suisse",
+      "count": 5
+    },
+    {
+      "slug": "teletravail-rural",
+      "label": "télétravail rural",
+      "count": 5
+    },
+    {
+      "slug": "universite",
+      "label": "université",
+      "count": 5
+    },
+    {
+      "slug": "vivre-au-vert",
+      "label": "vivre au vert",
+      "count": 5
+    },
+    {
+      "slug": "albi",
+      "label": "Albi",
+      "count": 4
+    },
+    {
+      "slug": "bord-de-mer",
+      "label": "bord de mer",
+      "count": 4
+    },
+    {
+      "slug": "cahors",
+      "label": "Cahors",
+      "count": 4
+    },
+    {
+      "slug": "chartres",
+      "label": "Chartres",
+      "count": 4
+    },
+    {
+      "slug": "colmar",
+      "label": "Colmar",
+      "count": 4
+    },
+    {
+      "slug": "comparaison",
+      "label": "comparaison",
+      "count": 4
+    },
+    {
+      "slug": "cote",
+      "label": "côte",
+      "count": 4
+    },
+    {
+      "slug": "cote-d-azur",
+      "label": "Côte d'Azur",
+      "count": 4
+    },
+    {
+      "slug": "couple",
+      "label": "couple",
+      "count": 4
+    },
+    {
+      "slug": "cout-de-la-vie",
+      "label": "coût de la vie",
+      "count": 4
+    },
+    {
+      "slug": "crous",
+      "label": "CROUS",
+      "count": 4
+    },
+    {
+      "slug": "espaces-verts",
+      "label": "espaces verts",
+      "count": 4
+    },
+    {
+      "slug": "fiscalite",
+      "label": "fiscalité",
+      "count": 4
+    },
+    {
+      "slug": "franche-comte",
+      "label": "Franche-Comté",
+      "count": 4
+    },
+    {
+      "slug": "frontaliers",
+      "label": "frontaliers",
+      "count": 4
+    },
+    {
+      "slug": "haute-savoie",
+      "label": "Haute-Savoie",
+      "count": 4
+    },
+    {
+      "slug": "installation-val-de-marne",
+      "label": "installation Val-de-Marne",
+      "count": 4
+    },
+    {
+      "slug": "investissement",
+      "label": "investissement",
+      "count": 4
+    },
+    {
+      "slug": "landes",
+      "label": "Landes",
+      "count": 4
+    },
+    {
+      "slug": "le-havre",
+      "label": "Le Havre",
+      "count": 4
+    },
+    {
+      "slug": "logement-etudiant",
+      "label": "logement étudiant",
+      "count": 4
+    },
+    {
+      "slug": "loyer",
+      "label": "loyer",
+      "count": 4
+    },
+    {
+      "slug": "nord",
+      "label": "Nord",
+      "count": 4
+    },
+    {
+      "slug": "parent-solo",
+      "label": "parent solo",
+      "count": 4
+    },
+    {
+      "slug": "perpignan",
+      "label": "Perpignan",
+      "count": 4
+    },
+    {
+      "slug": "pollution",
+      "label": "pollution",
+      "count": 4
+    },
+    {
+      "slug": "reconversion",
+      "label": "reconversion",
+      "count": 4
+    },
+    {
+      "slug": "saint-etienne",
+      "label": "Saint-Étienne",
+      "count": 4
+    },
+    {
+      "slug": "savoie",
+      "label": "Savoie",
+      "count": 4
+    },
+    {
+      "slug": "seniors",
+      "label": "seniors",
+      "count": 4
+    },
+    {
+      "slug": "succession",
+      "label": "succession",
+      "count": 4
+    },
+    {
+      "slug": "thionville",
+      "label": "Thionville",
+      "count": 4
+    },
+    {
+      "slug": "tram",
+      "label": "tram",
+      "count": 4
+    },
+    {
+      "slug": "valence",
+      "label": "Valence",
+      "count": 4
+    },
+    {
+      "slug": "vannes",
+      "label": "Vannes",
+      "count": 4
+    },
+    {
+      "slug": "vichy",
+      "label": "Vichy",
+      "count": 4
+    },
+    {
+      "slug": "zfe",
+      "label": "ZFE",
+      "count": 4
+    },
+    {
+      "slug": "achat",
+      "label": "achat",
+      "count": 3
+    },
+    {
+      "slug": "action-c-ur-de-ville",
+      "label": "Action Cœur de Ville",
+      "count": 3
+    },
+    {
+      "slug": "airbnb",
+      "label": "Airbnb",
+      "count": 3
+    },
+    {
+      "slug": "aix-les-bains",
+      "label": "Aix-les-Bains",
+      "count": 3
+    },
+    {
+      "slug": "altitude",
+      "label": "altitude",
+      "count": 3
+    },
+    {
+      "slug": "annemasse",
+      "label": "Annemasse",
+      "count": 3
+    },
+    {
+      "slug": "apl",
+      "label": "APL",
+      "count": 3
+    },
+    {
+      "slug": "arras",
+      "label": "Arras",
+      "count": 3
+    },
+    {
+      "slug": "auvergne-rhone-alpes",
+      "label": "Auvergne-Rhône-Alpes",
+      "count": 3
+    },
+    {
+      "slug": "banlieue",
+      "label": "banlieue",
+      "count": 3
+    },
+    {
+      "slug": "beziers",
+      "label": "Béziers",
+      "count": 3
+    },
+    {
+      "slug": "blois",
+      "label": "Blois",
+      "count": 3
+    },
+    {
+      "slug": "budget-etudiant",
+      "label": "budget étudiant",
+      "count": 3
+    },
+    {
+      "slug": "cantal",
+      "label": "Cantal",
+      "count": 3
+    },
+    {
+      "slug": "centre-val-de-loire",
+      "label": "Centre-Val de Loire",
+      "count": 3
+    },
+    {
+      "slug": "charente-maritime",
+      "label": "Charente-Maritime",
+      "count": 3
+    },
+    {
+      "slug": "classement-mensuel-villes-france",
+      "label": "classement mensuel villes France",
+      "count": 3
+    },
+    {
+      "slug": "colocation",
+      "label": "colocation",
+      "count": 3
+    },
+    {
+      "slug": "communaute",
+      "label": "communauté",
+      "count": 3
+    },
+    {
+      "slug": "comparatif-villes",
+      "label": "comparatif villes",
+      "count": 3
+    },
+    {
+      "slug": "correze",
+      "label": "Corrèze",
+      "count": 3
+    },
+    {
+      "slug": "culture",
+      "label": "culture",
+      "count": 3
+    },
+    {
+      "slug": "demembrement",
+      "label": "démembrement",
+      "count": 3
+    },
+    {
+      "slug": "demenagement-drom-budget",
+      "label": "déménagement DROM budget",
+      "count": 3
+    },
+    {
+      "slug": "desert-medical",
+      "label": "désert médical",
+      "count": 3
+    },
+    {
+      "slug": "drom",
+      "label": "DROM",
+      "count": 3
+    },
+    {
+      "slug": "ecole-internationale",
+      "label": "école internationale",
+      "count": 3
+    },
+    {
+      "slug": "encadrement-loyers",
+      "label": "encadrement loyers",
+      "count": 3
+    },
+    {
+      "slug": "epernay",
+      "label": "Épernay",
+      "count": 3
+    },
+    {
+      "slug": "exode-urbain",
+      "label": "exode urbain",
+      "count": 3
+    },
+    {
+      "slug": "figeac",
+      "label": "Figeac",
+      "count": 3
+    },
+    {
+      "slug": "fiscalite-immobiliere",
+      "label": "fiscalité immobilière",
+      "count": 3
+    },
+    {
+      "slug": "foix",
+      "label": "Foix",
+      "count": 3
+    },
+    {
+      "slug": "france-profonde",
+      "label": "France profonde",
+      "count": 3
+    },
+    {
+      "slug": "frontalier-luxembourg",
+      "label": "frontalier Luxembourg",
+      "count": 3
+    },
+    {
+      "slug": "frontaliers-suisse",
+      "label": "frontaliers Suisse",
+      "count": 3
+    },
+    {
+      "slug": "gascogne",
+      "label": "Gascogne",
+      "count": 3
+    },
+    {
+      "slug": "guadeloupe",
+      "label": "Guadeloupe",
+      "count": 3
+    },
+    {
+      "slug": "independant",
+      "label": "indépendant",
+      "count": 3
+    },
+    {
+      "slug": "investissement-immobilier",
+      "label": "investissement immobilier",
+      "count": 3
+    },
+    {
+      "slug": "lac",
+      "label": "lac",
+      "count": 3
+    },
+    {
+      "slug": "luberon",
+      "label": "Luberon",
+      "count": 3
+    },
+    {
+      "slug": "luxembourg",
+      "label": "Luxembourg",
+      "count": 3
+    },
+    {
+      "slug": "maprimerenov",
+      "label": "MaPrimeRénov'",
+      "count": 3
+    },
+    {
+      "slug": "martinique",
+      "label": "Martinique",
+      "count": 3
+    },
+    {
+      "slug": "metropole",
+      "label": "métropole",
+      "count": 3
+    },
+    {
+      "slug": "millau",
+      "label": "Millau",
+      "count": 3
+    },
+    {
+      "slug": "mobilite-douce",
+      "label": "mobilité douce",
+      "count": 3
+    },
+    {
+      "slug": "montauban",
+      "label": "Montauban",
+      "count": 3
+    },
+    {
+      "slug": "montee-des-eaux",
+      "label": "montée des eaux",
+      "count": 3
+    },
+    {
+      "slug": "neo-rural",
+      "label": "néo-rural",
+      "count": 3
+    },
+    {
+      "slug": "nimes",
+      "label": "Nîmes",
+      "count": 3
+    },
+    {
+      "slug": "nouvelle-aquitaine",
+      "label": "Nouvelle-Aquitaine",
+      "count": 3
+    },
+    {
+      "slug": "numerique",
+      "label": "numérique",
+      "count": 3
+    },
+    {
+      "slug": "outre-mer",
+      "label": "Outre-mer",
+      "count": 3
+    },
+    {
+      "slug": "passoire-thermique",
+      "label": "passoire thermique",
+      "count": 3
+    },
+    {
+      "slug": "picardie",
+      "label": "Picardie",
+      "count": 3
+    },
+    {
+      "slug": "refuge-climatique",
+      "label": "refuge climatique",
+      "count": 3
+    },
+    {
+      "slug": "remote",
+      "label": "remote",
+      "count": 3
+    },
+    {
+      "slug": "rendement-locatif",
+      "label": "rendement locatif",
+      "count": 3
+    },
+    {
+      "slug": "renovation",
+      "label": "rénovation",
+      "count": 3
+    },
+    {
+      "slug": "renovation-energetique",
+      "label": "rénovation énergétique",
+      "count": 3
+    },
+    {
+      "slug": "riom",
+      "label": "Riom",
+      "count": 3
+    },
+    {
+      "slug": "rural",
+      "label": "rural",
+      "count": 3
+    },
+    {
+      "slug": "salaire",
+      "label": "salaire",
+      "count": 3
+    },
+    {
+      "slug": "sarthe",
+      "label": "Sarthe",
+      "count": 3
+    },
+    {
+      "slug": "saumur",
+      "label": "Saumur",
+      "count": 3
+    },
+    {
+      "slug": "sci",
+      "label": "SCI",
+      "count": 3
+    },
+    {
+      "slug": "scpi",
+      "label": "SCPI",
+      "count": 3
+    },
+    {
+      "slug": "secheresse",
+      "label": "sécheresse",
+      "count": 3
+    },
+    {
+      "slug": "seine",
+      "label": "Seine",
+      "count": 3
+    },
+    {
+      "slug": "startup",
+      "label": "startup",
+      "count": 3
+    },
+    {
+      "slug": "sud-de-la-france",
+      "label": "Sud de la France",
+      "count": 3
+    },
+    {
+      "slug": "sud-ouest",
+      "label": "sud-ouest",
+      "count": 3
+    },
+    {
+      "slug": "transport",
+      "label": "transport",
+      "count": 3
+    },
+    {
+      "slug": "troyes",
+      "label": "Troyes",
+      "count": 3
+    },
+    {
+      "slug": "villeurbanne",
+      "label": "Villeurbanne",
+      "count": 3
+    },
+    {
+      "slug": "vins",
+      "label": "vins",
+      "count": 3
+    }
+  ]
+}

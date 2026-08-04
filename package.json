@@ -4,6 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "search-index": "node scripts/build-search-index.mjs",
+    "search-index:check": "node scripts/build-search-index.mjs --check",
+    "prebuild": "node scripts/build-search-index.mjs",
     "build": "next build",
     "postbuild": "find out -name '*.txt' ! -name robots.txt -delete 2>/dev/null || true",
     "lint": "eslint",

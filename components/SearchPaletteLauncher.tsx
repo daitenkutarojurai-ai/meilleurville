@@ -3,9 +3,11 @@
 import { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 
-// The palette pulls in the full city + guide index, so it's code-split into its
-// own chunk and only loaded on the first search trigger (Cmd/Ctrl+K, "/", or the
-// nav search button). Pages where the user never searches never download it.
+// The palette pulls in the city seed plus the lean guide/tag index
+// (lib/search-index.ts — a projection, never the guide corpus), so it's
+// code-split into its own chunk and only loaded on the first search trigger
+// (Cmd/Ctrl+K, "/", or the nav search button). Pages where the user never
+// searches never download it.
 const SearchPalette = dynamic(
   () => import("@/components/SearchPalette").then((m) => m.SearchPalette),
   { ssr: false }

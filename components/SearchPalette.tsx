@@ -5,10 +5,12 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { Search, MapPin, BookOpen, Trophy, Globe2, Tag as TagIcon, BookText, X } from "lucide-react";
 import { CITIES_SEED } from "@/data/cities-seed";
-import { GUIDES } from "@/data/guides";
 import { RANKING_META } from "@/lib/rankings";
 import { scoreColor, scoreHex } from "@/lib/utils";
-import { getAllTagsWithCounts } from "@/lib/guide-tags";
+// Projections maigres : importer @/data/guides ici expédierait le corpus
+// éditorial entier au navigateur pour afficher une liste de titres.
+// Cf. lib/search-index.ts.
+import { SEARCH_GUIDES, SEARCH_TAGS } from "@/lib/search-index";
 import POSTAL_BY_SLUG from "@/data/city-postal-codes.json";
 
 const POSTAL: Record<string, string[]> = POSTAL_BY_SLUG;
@@ -54,7 +56,7 @@ const INDEX: Entry[] = [
     region: c.region,
     score: c.scores.global,
   })),
-  ...GUIDES.map<Entry>((g) => ({
+  ...SEARCH_GUIDES.map<Entry>((g) => ({
     kind: "guide",
     slug: g.slug,
     title: g.title,
@@ -65,7 +67,7 @@ const INDEX: Entry[] = [
     slug,
     label: meta.headline,
   })),
-  ...getAllTagsWithCounts().map<Entry>((t) => ({
+  ...SEARCH_TAGS.map<Entry>((t) => ({
     kind: "tag",
     slug: t.slug,
     label: t.label,
