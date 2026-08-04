@@ -43663,6 +43663,437 @@ export const GUIDES: Guide[] = [
     tags: ["10 choses à faire à Cayenne", "activités Cayenne 2026", "que faire en Guyane", "sorties Cayenne", "place des Palmistes Kourou îles du Salut marais de Kaw Rémire-Montjoly"]
   },
   {
+    slug: "10-choses-a-faire-a-versailles-2026",
+    title: "10 choses à faire à Versailles (au-delà de la galerie des Glaces)",
+    metaTitle: "10 choses à faire à Versailles 2026 — activités et sorties",
+    metaDesc: "Château, jardins de Le Nôtre, Trianon, Potager du Roi, salle du Jeu de paume, marché Notre-Dame : 10 activités à Versailles, dont la moitié sans billet.",
+    category: "tourisme",
+    emoji: "👑",
+    readMinutes: 7,
+    publishedAt: "2026-08-04",
+    updatedAt: "2026-08-04",
+    intro: "Versailles est une commune des Yvelines d'environ 85 000 habitants, préfecture du département, à une vingtaine de kilomètres à l'ouest de Paris. Le problème du visiteur n'est pas de trouver quoi y faire, c'est de ne pas réduire la ville à une file d'attente de deux heures dans la galerie des Glaces. Le château et son domaine sont inscrits au patrimoine mondial de l'UNESCO depuis 1979, mais Versailles est aussi une ville de garnison et de parlement, dessinée d'un seul tenant au XVIIe siècle autour de trois avenues convergentes, avec un potager royal en activité, un marché parmi les plus fournis d'Île-de-France et deux forêts domaniales à ses portes. Ce guide alterne le passage obligé et ce que la plupart des visiteurs ratent parce qu'ils repartent à 16 h.",
+    sections: [
+      {
+        heading: "1. Le château — les Grands Appartements et la galerie des Glaces",
+        body: "Le château est parti d'un pavillon de chasse de Louis XIII que Louis XIV a fait grossir jusqu'à y transférer la cour et le gouvernement en 1682. Le parcours de visite enchaîne les Grands Appartements du Roi et de la Reine, la chapelle royale et la galerie des Glaces, longue de 73 mètres, dont les dix-sept arcades en miroir font face aux dix-sept fenêtres ouvrant sur les jardins : 357 miroirs au total, une prouesse politique autant que technique à une époque où Venise avait le monopole de la glace. C'est là que fut signé le traité de Versailles en 1919. Le château est fermé le lundi. Deux règles pratiques qui changent tout : billet horodaté réservé à l'avance, et créneau tôt le matin ou après 15 h, le milieu de journée étant le pic absolu de fréquentation."
+      },
+      {
+        heading: "2. Les jardins de Le Nôtre et le Grand Canal",
+        body: "Les jardins dessinés par André Le Nôtre sont le vrai chef-d'œuvre du site, et l'accès en est libre la plupart des jours de l'année — c'est le meilleur rapport plaisir-prix de Versailles. Perspective centrale, bosquets refermés sur eux-mêmes comme des salons de verdure, parterres d'eau, bassin de Latone, bassin d'Apollon. Le Grand Canal, en croix, s'étire sur environ 1,6 kilomètre et se parcourt à pied, à vélo ou en barque à la belle saison. Les jours de Grandes Eaux musicales ou de Jardins musicaux, les bassins sont mis en eau, la musique baroque est diffusée dans les bosquets et l'accès aux jardins devient payant : c'est le seul moment où les fontaines fonctionnent réellement, et ça vaut le supplément si l'on vient pour ça. Le parc, au-delà des jardins, reste gratuit et ouvre plus tôt."
+      },
+      {
+        heading: "3. Trianon et le hameau de la Reine",
+        body: "À l'autre bout du Grand Canal, le domaine de Trianon est ce que le château n'est pas : calme, à taille humaine, et vide en comparaison. Le Grand Trianon, en marbre rose et pierre, était la retraite de Louis XIV hors du protocole. Le Petit Trianon, œuvre d'Ange-Jacques Gabriel, a été donné par Louis XVI à Marie-Antoinette, qui y a fait aménager un jardin anglo-chinois, le Temple de l'Amour et surtout le hameau de la Reine : un village de chaumières autour d'un étang, conçu par Richard Mique, avec ferme en activité. On peut y consacrer une demi-journée entière. Compter vingt à trente minutes de marche depuis le château, ou le petit train, ou un vélo loué sur place — la distance décourage assez de monde pour que l'endroit respire."
+      },
+      {
+        heading: "4. La galerie des Carrosses et l'Académie équestre",
+        body: "La Grande Écurie, face au château de l'autre côté de la place d'Armes, abrite deux choses que la majorité des visiteurs ignore. La galerie des Carrosses présente les voitures de cour, berlines de sacre, traîneaux et chaises à porteurs : c'est l'une des rares collections de ce niveau en Europe, et l'entrée y est gratuite, sur des créneaux d'ouverture restreints à vérifier avant de venir. Dans le même bâtiment, l'Académie équestre nationale du domaine de Versailles, fondée et dirigée par Bartabas, travaille en dressage et en escrime artistique ; les matinales d'entraînement ouvertes au public et les spectacles se réservent séparément du billet du château. C'est l'activité la moins touristique du site."
+      },
+      {
+        heading: "5. La salle du Jeu de paume",
+        body: "À dix minutes à pied du château, rue du Jeu de Paume, une salle de sport du XVIIe siècle est devenue le 20 juin 1789 le lieu où les députés du tiers état ont juré de ne pas se séparer avant d'avoir donné une constitution à la France. La salle a été transformée en monument commémoratif sous la Troisième République : sol de terre battue d'origine, galerie, buste des députés, et la grande toile inachevée de David reproduite au mur. Le lieu est petit, l'entrée gratuite, les horaires d'ouverture limités à quelques jours par semaine et souvent saisonniers. Si le passage à la monarchie constitutionnelle vous intéresse plus que les lustres, c'est la visite la plus dense de Versailles."
+      },
+      {
+        heading: "6. Le Potager du Roi",
+        body: "Le Potager du Roi a été créé de 1678 à 1683 par Jean-Baptiste de La Quintinie pour approvisionner la table de Louis XIV, sur un terrain marécageux qu'il a fallu drainer et remblayer. Neuf hectares de murs, de terrasses et de carrés, avec des formes fruitières palissées conduites selon des techniques mises au point ici même. Le lieu n'a jamais cessé de produire : il abrite aujourd'hui l'École nationale supérieure de paysage, se visite librement ou en visite guidée, et vend sa production — fruits, légumes, jus de pomme — à la boutique selon la saison. On y croise plus d'étudiants et de riverains que de cars. Fermeture hebdomadaire et horaires variables selon la saison."
+      },
+      {
+        heading: "7. Le marché Notre-Dame",
+        body: "Le marché Notre-Dame occupe le quartier créé par Louis XIV pour loger la ville nouvelle : quatre halles autour d'une place carrée, bordées d'immeubles à arcades. C'est l'un des plus gros marchés alimentaires d'Île-de-France, avec des halles couvertes ouvertes une grande partie de la semaine et un carreau extérieur qui se déploie certains matins — vérifier les jours avant de s'y rendre, ils sont affichés sur place et sur le site de la ville. Poissonniers, fromagers, primeurs, volaillers, plus une couronne de cafés et de restaurants sur la place. C'est l'endroit où déjeuner correctement et sans arnaque à Versailles, ce qui n'est pas évident dans les rues immédiatement adjacentes au château."
+      },
+      {
+        heading: "8. Le quartier Saint-Louis et la cathédrale",
+        body: "Le quartier Saint-Louis, au sud du château, est la moitié de Versailles que les visiteurs traversent en voiture sans s'arrêter. On y trouve les carrés Saint-Louis, quatre îlots de petites maisons basses du XVIIIe siècle bâties pour les commerçants de la cour, aujourd'hui occupés par des antiquaires, des artisans et des librairies. La cathédrale Saint-Louis, du XVIIIe siècle, en est le point haut. À l'opposé, l'église Notre-Dame, construite par Jules Hardouin-Mansart, était la paroisse du roi : c'est là qu'étaient enregistrés les baptêmes et les mariages de la famille royale. Une boucle à pied entre les deux quartiers prend une heure et demie et donne une idée de ce qu'est Versailles comme ville, pas comme décor."
+      },
+      {
+        heading: "9. La pièce d'eau des Suisses et les forêts",
+        body: "Pour souffler, la pièce d'eau des Suisses, au pied du potager, est un grand plan d'eau creusé par le régiment des gardes suisses ; le tour se fait à pied ou en courant, gratuitement, avec la façade sud du château en arrière-plan et presque personne. Plus loin, Versailles est bordée par la forêt domaniale de Fausses-Reposes au nord-est et le domaine national de Marly-le-Roi à l'ouest, tous deux sillonnés d'allées forestières héritées des chasses royales. À vélo, l'itinéraire jusqu'à l'étang de Saint-Quentin-en-Yvelines ou vers Saint-Germain-en-Laye se fait en grande partie hors trafic. C'est la meilleure deuxième journée possible si l'on reste dormir sur place."
+      },
+      {
+        heading: "10. Y aller, quand venir, où manger",
+        body: "Trois lignes desservent Versailles depuis Paris et le choix de la gare change le trajet à pied : le RER C arrive à Versailles Château Rive Gauche, à cinq minutes du château ; le Transilien L depuis Saint-Lazare arrive à Rive Droite, à quinze minutes ; le Transilien N depuis Montparnasse arrive à Versailles Chantiers, la plus grande gare, à vingt minutes du château mais à deux pas du quartier Saint-Louis. Éviter les mardis et les week-ends de printemps, qui concentrent la fréquentation ; les jours les plus calmes sont en semaine hors vacances scolaires, en début ou en fin de saison. Côté table, s'éloigner de la place d'Armes de trois rues suffit à changer de gamme de prix : le quartier Notre-Dame autour du marché et la rue de Satory dans le quartier Saint-Louis concentrent l'essentiel des bonnes adresses."
+      }
+    ],
+    relatedCities: ["versailles", "paris", "boulogne-billancourt", "issy-les-moulineaux", "saint-germain-en-laye"],
+    relatedGuides: [
+      "10-choses-a-faire-a-paris-2026",
+      "10-choses-a-faire-a-fontainebleau-2026",
+      "10-choses-a-faire-a-chantilly-2026",
+      "vivre-en-ile-de-france-guide-2025"
+    ],
+    tags: ["10 choses à faire à Versailles", "activités Versailles 2026", "que faire à Versailles", "sorties Versailles", "château jardins Le Nôtre Trianon Potager du Roi Jeu de paume marché Notre-Dame"]
+  },
+  {
+    slug: "10-choses-a-faire-a-saint-denis-2026",
+    title: "10 choses à faire à Saint-Denis (Seine-Saint-Denis)",
+    metaTitle: "10 choses à faire à Saint-Denis 93 en 2026 — activités et sorties",
+    metaDesc: "Basilique et nécropole royale, musée Paul-Éluard, marché, Stade de France, centre aquatique olympique, canal : 10 activités à Saint-Denis en Seine-Saint-Denis.",
+    category: "tourisme",
+    emoji: "⛪",
+    readMinutes: 7,
+    publishedAt: "2026-08-04",
+    updatedAt: "2026-08-04",
+    intro: "Saint-Denis est une commune de Seine-Saint-Denis d'environ 111 000 habitants, à la porte nord de Paris, desservie par la ligne 13 du métro et le RER B et D. C'est l'une des villes les plus mal comprises de France : on l'associe au Stade de France et à sa réputation de banlieue, rarement à la basilique où sont enterrés presque tous les rois de France, qui est aussi le premier édifice gothique du monde. Les deux coexistent à quinze minutes de marche l'un de l'autre. Depuis les Jeux de 2024, la ville a hérité d'équipements et d'un quartier neuf qui ont changé sa géographie. À noter d'entrée : ne pas confondre avec Saint-Denis de La Réunion, qui a son propre guide.",
+    sections: [
+      {
+        heading: "1. La basilique cathédrale — la naissance du gothique",
+        body: "La basilique de Saint-Denis est l'édifice où l'architecture gothique a été inventée. L'abbé Suger, conseiller de Louis VI puis de Louis VII, y fait reconstruire le chevet avec un déambulatoire à chapelles rayonnantes dont le chœur est consacré en 1144 : croisée d'ogives, arcs-boutants et surtout des murs percés au maximum pour faire entrer la lumière, principe qui sera repris dans toute l'Europe. La nef et le transept sont repris au XIIIe siècle. C'est aujourd'hui une cathédrale, siège du diocèse de Saint-Denis, gérée pour la partie monument par le Centre des monuments nationaux. L'entrée dans la nef pour la prière est libre ; la visite de la nécropole est payante."
+      },
+      {
+        heading: "2. La nécropole royale et ses gisants",
+        body: "La basilique abrite la plus grande collection de sculpture funéraire du Moyen Âge et de la Renaissance en Europe : gisants, tombeaux monumentaux, priants. Presque tous les rois de France y ont été inhumés, de Dagobert aux derniers Bourbons, ainsi que leurs reines et une partie des princes. Les tombeaux ont été profanés et les corps jetés en fosse commune en 1793 ; les monuments, eux, ont été sauvés par Alexandre Lenoir et remontés au XIXe siècle, ce qui explique que l'agencement actuel soit une reconstitution. À voir en priorité : le tombeau de Louis XII et Anne de Bretagne, celui de François Ier et Claude de France, et la crypte. Prévoir au moins une heure et demie, audioguide compris."
+      },
+      {
+        heading: "3. Le chantier de la flèche",
+        body: "La tour nord de la basilique portait une flèche de pierre démontée au milieu du XIXe siècle après avoir été fragilisée par la foudre et par une tempête, faute d'avoir pu la consolider. Sa reconstruction à l'identique est engagée, financée sans argent public et conçue comme un chantier ouvert : taille de pierre, charpente et pose se font sous les yeux du public depuis un espace de visite installé au pied de l'édifice, avec démonstrations d'artisans. C'est l'un des rares endroits en France où l'on peut regarder travailler un atelier de taille de pierre médiévale grandeur nature. Les modalités et les horaires d'accès évoluent avec l'avancement du chantier : vérifier avant de venir."
+      },
+      {
+        heading: "4. Le musée d'art et d'histoire Paul-Éluard",
+        body: "Le musée occupe l'ancien carmel de Saint-Denis, couvent où Louise de France, fille de Louis XV, est entrée en religion : cellules, apothicairerie et jardin sont conservés. Trois ensembles font sa singularité. La collection sur la Commune de Paris de 1871 est l'une des plus importantes qui existe, avec affiches, journaux, dessins de Daumier et objets de barricade. Le fonds Paul Éluard, poète né à Saint-Denis, rassemble manuscrits et éditions illustrées par ses amis peintres. Enfin l'archéologie locale et l'histoire industrielle de la ville complètent le parcours. Fermé certains jours en semaine, tarif modeste, et l'un des musées les moins fréquentés de la petite couronne pour ce qu'il contient."
+      },
+      {
+        heading: "5. Le marché de Saint-Denis",
+        body: "Le marché de Saint-Denis, autour de la place Jean-Jaurès et sous les halles couvertes à deux pas de la basilique, est l'un des plus grands d'Île-de-France et de loin le plus dépaysant. Fruits et légumes à des prix sans rapport avec Paris intra-muros, épices, poissons, tissus, produits maghrébins, ouest-africains, tamouls, antillais, chinois et portugais. Il se tient plusieurs matinées par semaine, les jours étant affichés sur place et sur le site de la ville ; les halles ouvrent plus largement. C'est le meilleur moment pour comprendre la ville, et la meilleure occasion de déjeuner pour quelques euros — sandwichs, beignets, plats à emporter aux stands périphériques."
+      },
+      {
+        heading: "6. Le Stade de France",
+        body: "Le Stade de France a été construit pour la Coupe du monde 1998 et compte plus de 80 000 places, ce qui en fait la plus grande enceinte du pays. Hors événement, une visite guidée fait passer par les vestiaires, le tunnel des joueurs, la pelouse et les tribunes présidentielles, avec un volet sur la conception du toit elliptique suspendu et sur la mécanique des gradins rétractables qui permettent de passer de l'athlétisme au football. Réservation obligatoire, et l'agenda des matchs et concerts ferme régulièrement le créneau : vérifier les dates avant de bâtir une journée autour. Le stade est à une station de RER B ou D du centre-ville, ou à un quart d'heure de marche."
+      },
+      {
+        heading: "7. Le centre aquatique olympique",
+        body: "Face au Stade de France, le centre aquatique olympique construit pour les Jeux de 2024 est l'un des rares équipements de cette échelle à avoir été conçu dès l'origine pour l'après : charpente bois, toiture concave couverte de panneaux solaires, gradins réduits après les Jeux et bassins reconfigurés pour un usage public et associatif. Il est ouvert à la baignade, avec des créneaux grand public, des lignes de nage et des espaces dédiés à l'apprentissage — un enjeu réel dans un département où le taux de non-nageurs chez les enfants est parmi les plus élevés de France. Horaires et tarifs sur le site de l'équipement ; l'affluence est forte le week-end."
+      },
+      {
+        heading: "8. Le village des athlètes et L'Île-Saint-Denis",
+        body: "Le village des athlètes, bâti à cheval sur Saint-Denis, Saint-Ouen et L'Île-Saint-Denis, a été reconverti en quartier d'habitation, de bureaux et de commerces, avec berges de Seine réaménagées et rues plantées. On peut le traverser librement à pied ou à vélo : c'est un cas d'école grandeur nature de reconversion post-olympique, à regarder d'un œil critique comme d'un œil curieux. En prolongement, la commune de L'Île-Saint-Denis, qui occupe une île de la Seine sur plusieurs kilomètres, offre un parc départemental et des berges où la Seine ressemble enfin à un fleuve plutôt qu'à un axe logistique."
+      },
+      {
+        heading: "9. Le canal de Saint-Denis à pied ou à vélo",
+        body: "Le canal de Saint-Denis relie le bassin de la Villette à la Seine sur environ 6,5 kilomètres, avec un chemin de halage continu, ouvert aux piétons et aux cyclistes, ponctué d'écluses et bordé sur de longues sections de fresques monumentales — le corridor est devenu l'un des principaux spots de street art d'Île-de-France, avec des interventions de grande hauteur sur les pignons industriels. Depuis le parc de la Villette, la descente jusqu'à la Seine se fait en une heure trente à pied, en trente minutes à vélo, sans une seule voiture. C'est le plus bel itinéraire d'entrée dans Saint-Denis, et le moins emprunté."
+      },
+      {
+        heading: "10. Manger dionysien",
+        body: "La table de Saint-Denis suit la démographie de la ville, et c'est son intérêt : cuisine kabyle et marocaine autour du centre, restaurants tamouls et sri-lankais, gargotes maliennes et sénégalaises, pâtisseries orientales, cantines portugaises, tables antillaises. Les prix sont ceux d'une ville populaire, pas ceux d'un quartier touristique, et les portions le montrent. Autour de la basilique, quelques adresses jouent la carte du bistrot classique. À noter pour organiser une journée : la plupart des restaurants de quartier ferment tôt le soir, et l'animation se déplace vers le Stade de France les soirs d'événement. Le marché reste, là encore, l'option la plus sûre le midi."
+      }
+    ],
+    relatedCities: ["saint-denis", "paris", "aubervilliers", "montreuil", "versailles"],
+    relatedGuides: [
+      "10-choses-a-faire-a-paris-2026",
+      "10-choses-a-faire-a-versailles-2026",
+      "vivre-en-ile-de-france-guide-2025"
+    ],
+    tags: ["10 choses à faire à Saint-Denis", "activités Saint-Denis 93", "que faire à Saint-Denis", "sorties Seine-Saint-Denis", "basilique nécropole royale musée Paul-Éluard Stade de France centre aquatique olympique"]
+  },
+  {
+    slug: "10-choses-a-faire-a-roubaix-2026",
+    title: "10 choses à faire à Roubaix (la ville qui a transformé ses usines en musées)",
+    metaTitle: "10 choses à faire à Roubaix 2026 — activités et sorties locales",
+    metaDesc: "La Piscine, la Manufacture, la Condition Publique, parc Barbieux, villa Cavrois, vélodrome de Paris-Roubaix : 10 activités à Roubaix dans le Nord.",
+    category: "tourisme",
+    emoji: "🏊",
+    readMinutes: 7,
+    publishedAt: "2026-08-04",
+    updatedAt: "2026-08-04",
+    intro: "Roubaix est une commune du Nord d'environ 99 000 habitants, collée à Tourcoing et à la frontière belge, reliée au centre de Lille par la ligne 2 du métro en une vingtaine de minutes. Capitale mondiale du textile au XIXe siècle, elle a encaissé la désindustrialisation de plein fouet et reste l'une des villes les plus pauvres de France. Elle est aussi, et sans contradiction, l'une des plus intéressantes à visiter du pays : parce que la reconversion de son patrimoine industriel y a été menée avec une ambition rare, et parce qu'elle abrite dans une ancienne piscine art déco l'un des musées les plus attachants de France. On vient à Roubaix pour l'architecture, pour l'art et pour une course cycliste. On n'y vient pas pour un centre-ville pimpant, et personne ici ne prétendra le contraire.",
+    sections: [
+      {
+        heading: "1. La Piscine — musée d'art et d'industrie André-Diligent",
+        body: "La Piscine est installée dans l'ancienne piscine municipale, construite par l'architecte Albert Baert entre la fin des années 1920 et le début des années 1930 dans un style art déco, sur un plan inspiré d'une abbaye cistercienne. Fermée pour raisons de sécurité en 1985, elle a été reconvertie en musée par Jean-Paul Philippon et rouverte en 2001, puis agrandie en 2018. Le bassin est conservé en eau, bordé de sculptures, sous le grand vitrail en demi-soleil qui donnait autrefois sa lumière aux nageurs. Les collections mêlent beaux-arts, sculpture, céramique et un fonds textile considérable, hérité de l'école de tissage locale : des milliers d'échantillons de tissus, présentés dans les anciennes cabines de déshabillage. Fermé le lundi."
+      },
+      {
+        heading: "2. La Manufacture — mémoire et création textile",
+        body: "La Manufacture occupe une ancienne usine de tissage et raconte ce que La Piscine montre par le beau côté : le travail. Métiers à tisser en état de marche, mis en route devant le public par des anciens du métier, démonstrations de la chaîne complète de la fibre au tissu, et une partie contemporaine sur la création textile et le design d'aujourd'hui. La visite est guidée et vaut surtout pour le bruit et l'odeur : on comprend en dix minutes de machines en fonctionnement ce que trois panneaux d'exposition n'expliquent pas. C'est le complément indispensable à La Piscine, à un quart d'heure à pied."
+      },
+      {
+        heading: "3. La Condition Publique",
+        body: "La Condition Publique était le bâtiment où l'on conditionnait les laines et les cotons avant leur mise sur le marché : contrôle du poids, de l'humidité et de la qualité, un service public de certification indispensable à une place commerciale mondiale. Le bâtiment de brique a été reconverti en lieu culturel, avec sa « rue intérieure » couverte, ses halles d'exposition, sa salle de concert et son toit-jardin planté. La programmation mêle expositions d'art contemporain, concerts, résidences et événements de quartier, avec une gratuité fréquente. Regarder l'agenda avant de venir : hors événement, le lieu se visite mais tourne au ralenti."
+      },
+      {
+        heading: "4. Le parc Barbieux",
+        body: "Le parc Barbieux est le grand parc paysager de Roubaix, dessiné à la fin du XIXe siècle dans la tranchée d'un canal qui n'a jamais été creusé jusqu'au bout — d'où sa forme allongée en vallon, inhabituelle pour un parc urbain de plaine. Les Roubaisiens l'appellent « le Beau Jardin ». Pièces d'eau en enfilade, arbres remarquables, rocailles, pelouses et statues, sur près de trente-cinq hectares. Il est bordé par l'avenue Jean-Jaurès et le boulevard de Paris, où s'alignent les hôtels particuliers des patrons du textile : la promenade continue naturellement dans ce quartier, qui est l'autre visage de la ville."
+      },
+      {
+        heading: "5. La villa Cavrois, à Croix",
+        body: "La villa Cavrois se trouve à Croix, commune limitrophe, à un quart d'heure du centre de Roubaix. Robert Mallet-Stevens l'a conçue au tournant des années 1930 pour Paul Cavrois, industriel du textile roubaisien, comme un manifeste moderniste complet : volumes en brique jaune de Hollande, terrasses, piscine, et un aménagement intérieur dessiné jusqu'aux poignées de porte et aux luminaires. Squattée, pillée et laissée à l'abandon pendant des décennies, elle a été rachetée par l'État et restaurée sur près de vingt ans. Elle se visite aujourd'hui, gérée par le Centre des monuments nationaux, meubles d'origine remontés. C'est la visite architecturale la plus marquante de la métropole lilloise."
+      },
+      {
+        heading: "6. Le vélodrome et les pavés de Paris-Roubaix",
+        body: "Paris-Roubaix se termine chaque printemps sur le vélodrome André-Pétrieux, en plein air, après un parcours qui traverse une trentaine de secteurs pavés — d'où le surnom d'« Enfer du Nord ». Le vélodrome est accessible en dehors des courses et l'on peut y voir les douches historiques, chaque cabine portant la plaque d'un vainqueur : c'est le lieu de pèlerinage cycliste le plus sobre et le plus fort qui soit. Pour compléter, les secteurs pavés se roulent ou se marchent hors épreuve, en particulier la trouée d'Arenberg et le carrefour de l'Arbre, tous deux à l'extérieur de la ville, accessibles en voiture depuis Roubaix. Prévoir un vélo qu'on n'aime pas trop."
+      },
+      {
+        heading: "7. Le canal de Roubaix et le parc du Nouveau Monde",
+        body: "Le canal de Roubaix, longtemps envasé et abandonné, a été rouvert à la navigation de plaisance et son chemin de halage transformé en voie verte continue reliant la Deûle à la frontière belge et au réseau des canaux flamands. On y marche, on y pédale, on y voit des écluses manœuvrées à la main. Le parc du Nouveau Monde, en bordure, occupe d'anciennes friches industrielles et de teinturerie renaturées à Roubaix et Wattrelos : zones humides, prairies, sentiers. C'est le contrepoint vert de la visite, et une façon de rejoindre la Belgique à vélo sans jamais rouler sur une route."
+      },
+      {
+        heading: "8. L'architecture industrielle et les courées",
+        body: "Roubaix se lit aussi en marchant sans musée. L'hôtel de ville, construit au début du XXe siècle, porte sur sa façade une frise sculptée qui met en scène la filature et le tissage. Autour, la Grand-Place, l'église Saint-Martin, et surtout des dizaines de cheminées, sheds et fronts d'usine réhabilités en logements, en écoles ou en bureaux. Les courées — rangées de maisons ouvrières minuscules donnant sur une cour commune, construites au plus serré par les patrons pour loger la main-d'œuvre — subsistent par îlots ; beaucoup ont été démolies, d'autres réhabilitées. L'office de tourisme propose des parcours guidés sur ce patrimoine, qui est la clé de lecture de toute la ville."
+      },
+      {
+        heading: "9. Les usines devenues centres de marques",
+        body: "Roubaix a été le berceau de la vente par correspondance française, et cette histoire commerciale a laissé une deuxième vie aux bâtiments : la ville concentre plusieurs centres de marques installés dans d'anciennes usines de filature, dont l'un est le premier magasin d'usine de ce type ouvert en France. On y va pour le déstockage textile, ce qui est cohérent avec l'histoire locale, mais aussi simplement pour voir des halles industrielles conservées avec leurs charpentes métalliques et leurs sheds. Le samedi y est saturé ; la semaine, on circule. À combiner avec La Piscine, dont l'un de ces sites est voisin."
+      },
+      {
+        heading: "10. Boire et manger dans le Nord",
+        body: "La table roubaisienne est flamande et estaminet : carbonade flamande mijotée à la bière et au pain d'épices, potjevleesch en terrine, waterzooï, welsh au cheddar fondu et à la moutarde, tarte au maroilles, et la frite avec sa fricadelle. Côté bière, la région produit des blondes et ambrées de garde en abondance, et les brasseries artisanales se sont multipliées dans les Hauts-de-France depuis dix ans. La ville a par ailleurs une forte présence maghrébine et portugaise : pâtisseries orientales, couscous et grillades y sont chez eux. Enfin, Lille est à vingt minutes de métro, ce qui élargit sensiblement le choix pour un dîner."
+      }
+    ],
+    relatedCities: ["roubaix", "tourcoing", "lille", "lens", "arras"],
+    relatedGuides: [
+      "10-choses-a-faire-a-lille-2026",
+      "10-choses-a-faire-a-tourcoing-2026",
+      "10-choses-a-faire-a-arras-2026",
+      "vivre-en-hauts-de-france-guide-2026"
+    ],
+    tags: ["10 choses à faire à Roubaix", "activités Roubaix 2026", "que faire à Roubaix", "sorties Roubaix", "La Piscine Manufacture Condition Publique parc Barbieux villa Cavrois Paris-Roubaix"]
+  },
+  {
+    slug: "10-choses-a-faire-a-tourcoing-2026",
+    title: "10 choses à faire à Tourcoing (art contemporain, carillon et bunker du Débarquement)",
+    metaTitle: "10 choses à faire à Tourcoing 2026 — activités et sorties locales",
+    metaDesc: "MUba Eugène-Leroy, Le Fresnoy, hospice d'Havré, carillon Saint-Christophe, musée du 5 juin 1944 : 10 activités à Tourcoing, aux portes de la Belgique.",
+    category: "tourisme",
+    emoji: "🎨",
+    readMinutes: 6,
+    publishedAt: "2026-08-04",
+    updatedAt: "2026-08-04",
+    intro: "Tourcoing est une commune du Nord d'environ 98 000 habitants, jumelle et rivale historique de Roubaix, à laquelle elle est soudée. La frontière belge passe à quelques minutes, la ligne 2 du métro relie le centre à Lille, et la ville partage avec sa voisine un passé de laine, de patrons et de crise industrielle. Sa singularité tient à trois lieux qui n'ont pas d'équivalent ailleurs : un musée des beaux-arts bâti autour de l'œuvre d'un peintre né ici, une école nationale d'art contemporain logée dans un ancien complexe de loisirs recouvert d'un toit-parapluie, et le bunker d'où fut intercepté le message annonçant le Débarquement. On visite Tourcoing en une journée pleine, idéalement enchaînée avec Roubaix.",
+    sections: [
+      {
+        heading: "1. Le MUba Eugène-Leroy",
+        body: "Le musée des beaux-arts de Tourcoing porte le nom d'Eugène Leroy, peintre né dans la ville, dont les fils ont donné à la commune un ensemble d'œuvres majeur. Sa peinture est reconnaissable entre toutes : des couches de matière accumulées jusqu'à ce que la figure disparaisse presque, à chercher dans l'épaisseur. Le musée présente ce fonds en dialogue avec ses collections anciennes — peinture flamande et hollandaise, XVIIIe et XIXe siècles françaises — et avec des expositions temporaires d'art contemporain souvent plus audacieuses que la moyenne des musées de ville moyenne. Entrée à tarif modéré, fermé certains jours en semaine."
+      },
+      {
+        heading: "2. Le Fresnoy — Studio national des arts contemporains",
+        body: "Le Fresnoy est une école post-diplôme d'art audiovisuel et numérique de niveau international, installée dans un ancien complexe de loisirs populaires des années 1900 qui réunissait salle de bal, cinéma, piste de patinage et manège équestre. Bernard Tschumi, chargé de sa transformation à la fin des années 1990, a fait le choix radical de ne pas raser : il a coiffé les anciens bâtiments d'une immense toiture technique surélevée, laissant subsister l'espace entre les deux, parcouru de passerelles. On visite le lieu pour son architecture et pour sa grande exposition annuelle, qui présente les productions des artistes en résidence — installations, films, dispositifs interactifs. Cinéma d'art et d'essai ouvert au public le reste de l'année."
+      },
+      {
+        heading: "3. L'hospice d'Havré",
+        body: "L'hospice d'Havré est le plus vieil ensemble bâti de Tourcoing, fondation médiévale devenue couvent d'Augustins puis hospice, aujourd'hui centre culturel municipal. On y entre pour le cloître, calme absolu au milieu de la ville, et pour la chapelle baroque, dont le décor de bois sculpté et les boiseries tranchent avec la sobriété générale de l'architecture régionale. Le lieu accueille des expositions temporaires, souvent en lien avec le MUba, et des concerts. L'accès est fréquemment gratuit. C'est aussi le point de départ le plus logique d'une boucle à pied dans le centre ancien."
+      },
+      {
+        heading: "4. L'église Saint-Christophe et son carillon",
+        body: "L'église Saint-Christophe domine la Grand-Place de sa tour néogothique, visible de très loin dans la plaine. Elle abrite l'un des carillons les plus importants de France par le nombre de cloches, joué régulièrement en concert par un carillonneur, la tradition du carillon étant flamande avant d'être française. L'ascension de la tour, proposée à certaines périodes et lors des journées du patrimoine, donne le meilleur panorama sur la conurbation Lille-Roubaix-Tourcoing et sur la Belgique toute proche. Vérifier les créneaux auprès de l'office de tourisme : ils sont limités et l'escalier n'est pas accessible à tous."
+      },
+      {
+        heading: "5. Le musée du 5 juin 1944 « Message Verlaine »",
+        body: "En 1944, le quartier général de la 15e armée allemande était installé à Tourcoing, dans un bunker enterré. C'est là que le service d'écoute allemand a intercepté et correctement identifié, le 5 juin, le vers de Verlaine diffusé par la BBC qui annonçait aux réseaux de résistance l'imminence du Débarquement — et là que l'alerte transmise n'a pas déclenché la réaction attendue de tout le commandement. Le bunker se visite : salle des transmissions reconstituée, matériel d'époque, cartes, et le récit détaillé de cet épisode de renseignement. Petit musée, visite guidée, horaires restreints à vérifier. C'est le lieu le plus singulier de la ville."
+      },
+      {
+        heading: "6. Le jardin botanique",
+        body: "Le jardin botanique de Tourcoing est un jardin municipal d'agrément et de collection, à entrée libre, organisé en scènes thématiques : plantes médicinales, plantes tinctoriales, roseraie, serres tropicales. Le lien avec l'histoire locale n'est pas anecdotique — les plantes tinctoriales sont celles qui servaient à teindre les tissus avant la chimie de synthèse, ce qui raconte quelque chose de la ville. C'est petit, gratuit, bien tenu, et l'endroit où souffler entre deux visites. Serres ouvertes selon les horaires affichés, plus restreints que le jardin lui-même."
+      },
+      {
+        heading: "7. La Grand-Place et l'architecture de la laine",
+        body: "Le centre de Tourcoing s'organise autour de la Grand-Place et de l'hôtel de ville du XIXe siècle. Comme à Roubaix, l'architecture raconte l'argent de la laine : hôtels particuliers de négociants, façades de brique et de pierre, immeubles de rapport, et des dizaines de bâtiments industriels reconvertis — filatures, peignages, entrepôts. Le peignage était la spécialité tourquennoise, opération de préparation de la laine dans laquelle la ville a longtemps été leader mondial. Une promenade d'une heure et demie entre la Grand-Place, la rue de Lille et le quartier de l'Union suffit à voir l'ensemble ; l'office de tourisme fournit un parcours balisé."
+      },
+      {
+        heading: "8. Le canal de Roubaix et les parcs de l'Union",
+        body: "Le canal de Roubaix traverse aussi Tourcoing et son chemin de halage se pédale d'un bout à l'autre de la métropole jusqu'à la frontière. Sur ses berges, le quartier de l'Union — ancienne friche industrielle à cheval sur Tourcoing, Roubaix et Wattrelos — a été reconverti en écoquartier avec parc, bassins et anciennes usines réhabilitées, dont une brasserie historique transformée en équipement public. Le parc du Val de l'Union et les jardins qui bordent l'eau offrent une continuité verte rare dans un tissu aussi dense. Idéal à vélo, et sans dénivelé."
+      },
+      {
+        heading: "9. Passer la frontière",
+        body: "Mouscron, en Belgique, est à quelques minutes de Tourcoing, et la frontière ne se voit que par le changement de marquage au sol. C'est l'occasion la plus simple d'un aller-retour international à pied ou à vélo depuis un centre-ville français : friteries belges, chocolatiers, brasseries, prix différents de part et d'autre sur certains produits. Plus loin, Courtrai et Ypres sont accessibles en train ou en voiture dans l'heure, l'une pour son centre flamand rénové, l'autre pour les sites de mémoire de la Première Guerre mondiale. Vérifier les horaires des liaisons transfrontalières, moins fréquentes le dimanche."
+      },
+      {
+        heading: "10. Le festival de jazz et la table locale",
+        body: "Tourcoing accueille chaque automne un festival de jazz de niveau national, l'un des plus anciens de la région, avec des concerts répartis dans plusieurs salles de la ville dont le théâtre municipal — c'est le meilleur moment de l'année pour y venir si l'on choisit sa date. Le reste du temps, l'Atelier lyrique et les salles municipales assurent une programmation régulière. Côté table, on est en Flandre française : estaminets, carbonade, potjevleesch, welsh, tarte au sucre et tarte au maroilles, bières de garde et brasseries artisanales. La proximité belge élargit encore la carte des bières, ce qui n'était pas indispensable."
+      }
+    ],
+    relatedCities: ["tourcoing", "roubaix", "lille", "dunkerque", "arras"],
+    relatedGuides: [
+      "10-choses-a-faire-a-lille-2026",
+      "10-choses-a-faire-a-roubaix-2026",
+      "10-choses-a-faire-a-dunkerque-2026",
+      "vivre-en-hauts-de-france-guide-2026"
+    ],
+    tags: ["10 choses à faire à Tourcoing", "activités Tourcoing 2026", "que faire à Tourcoing", "sorties Tourcoing", "MUba Eugène-Leroy Fresnoy hospice d'Havré carillon Saint-Christophe message Verlaine"]
+  },
+  {
+    slug: "10-choses-a-faire-a-boulogne-billancourt-2026",
+    title: "10 choses à faire à Boulogne-Billancourt (jardins d'Albert Kahn, île Seguin et années 1930)",
+    metaTitle: "10 choses à faire à Boulogne-Billancourt 2026 — activités et sorties",
+    metaDesc: "Musée Albert-Kahn, Seine Musicale sur l'île Seguin, musée des Années Trente, musée Paul-Belmondo, marché Escudier : 10 activités à Boulogne-Billancourt.",
+    category: "tourisme",
+    emoji: "🌿",
+    readMinutes: 6,
+    publishedAt: "2026-08-04",
+    updatedAt: "2026-08-04",
+    intro: "Boulogne-Billancourt est la commune la plus peuplée des Hauts-de-Seine, avec environ 120 000 habitants, immédiatement à l'ouest de Paris, entre le bois de Boulogne et la Seine. Deux histoires s'y superposent. Celle de Billancourt d'abord, usines Renault, île Seguin, ouvriers et grèves, un siècle d'industrie automobile effacé du paysage en une décennie. Celle de Boulogne ensuite, laboratoire de l'architecture moderne des années 1920 et 1930, où Le Corbusier, Mallet-Stevens et leurs contemporains ont construit des dizaines de maisons d'artistes et d'immeubles. On y vient pour des musées de très bon niveau, un jardin japonais et une salle de concert posée sur une île — le tout à quinze minutes de métro de Paris.",
+    sections: [
+      {
+        heading: "1. Le musée départemental Albert-Kahn et ses jardins",
+        body: "Albert Kahn, banquier fortuné, a financé au début du XXe siècle les Archives de la Planète : des opérateurs envoyés sur cinquante continents et pays pour photographier le monde en autochromes, le premier procédé de photographie couleur commercialisé. Le fonds compte environ 72 000 plaques, et c'est l'une des plus importantes collections de photographies couleur anciennes au monde. Autour de sa maison, il a fait aménager une succession de jardins en scènes — japonais, anglais, français, forêt vosgienne, forêt bleue — qui se traversent comme un voyage. Le musée a été entièrement reconstruit par l'architecte Kengo Kuma et rouvert en 2022, avec une résille de bois qui prolonge le jardin dans le bâtiment. Fermé le lundi."
+      },
+      {
+        heading: "2. La Seine Musicale et l'île Seguin",
+        body: "La Seine Musicale occupe la pointe amont de l'île Seguin, là où les usines Renault ont été démolies au début des années 2000. Conçue par Shigeru Ban et Jean de Gastines, ouverte en 2017, elle se reconnaît à son auditorium en forme de coque de bois enveloppée d'une voile mobile couverte de panneaux photovoltaïques, qui pivote avec le soleil. Deux salles : un auditorium à l'acoustique classique et une grande salle modulable pour les musiques amplifiées. Une partie du bâtiment — jardin sur le toit, terrasses, hall — se parcourt librement en journée hors événement, et les vues sur la Seine et Meudon valent le détour même sans billet."
+      },
+      {
+        heading: "3. Le musée des Années Trente",
+        body: "Le musée des Années Trente est le seul musée français entièrement consacré à la création de l'entre-deux-guerres, toutes disciplines confondues : peinture, sculpture monumentale, mobilier, arts décoratifs, maquettes d'architecture et documents sur l'urbanisme de la période. C'est cohérent avec la ville, qui est un catalogue à ciel ouvert de cette architecture. Installé dans l'Espace Landowski, il partage le bâtiment avec d'autres équipements culturels, ce qui permet d'enchaîner. Les collections de sculpture, en particulier, sont exceptionnelles pour un musée municipal. Fermé le lundi, tarif modeste, fréquentation faible en semaine."
+      },
+      {
+        heading: "4. Le musée Paul-Belmondo",
+        body: "Le musée Paul-Belmondo est consacré au sculpteur du même nom, père de l'acteur, dans un hôtel particulier du XVIIIe siècle entouré d'un jardin. On y voit l'atelier reconstitué, les plâtres originaux, les dessins et les médailles : la sculpture figurative française du XXe siècle, à contre-courant des avant-gardes, présentée pour ce qu'elle est. L'intérêt principal du lieu tient à ce qu'on y voit le travail plutôt que l'œuvre finie — esquisses, essais, moulages de travail. Le jardin est ouvert et gratuit. Petit musée, une heure suffit, à combiner avec le musée des Années Trente."
+      },
+      {
+        heading: "5. La promenade d'architecture moderne",
+        body: "Boulogne-Billancourt concentre l'une des plus fortes densités de maisons d'architectes des années 1920 et 1930 en France. Le Corbusier y a construit plusieurs villas et ateliers d'artistes, dont la villa Cook, manifeste de ses cinq points de l'architecture moderne : pilotis, toit-terrasse, plan libre, fenêtre en longueur, façade libre. On croise aussi des réalisations de Robert Mallet-Stevens, d'Auguste Perret, de Pierre Patout et de Tony Garnier. La quasi-totalité de ces bâtiments sont des propriétés privées : ils se regardent depuis la rue, et rien de plus. Le musée des Années Trente et l'office de tourisme organisent des parcours guidés qui donnent parfois accès à des intérieurs, ce qui change tout — se renseigner à l'avance, les places sont limitées."
+      },
+      {
+        heading: "6. L'église Notre-Dame et le vieux Boulogne",
+        body: "L'église Notre-Dame-des-Menus est le plus ancien bâtiment de la ville et l'origine de son nom. Elle a été fondée au début du XIVe siècle à la demande de Philippe le Bel comme réplique du sanctuaire de pèlerinage de Boulogne-sur-Mer, afin d'épargner aux Parisiens le voyage jusqu'à la Manche ; le village qui s'est formé autour a pris le nom du sanctuaire. Gothique, remaniée, elle conserve son chœur médiéval. Autour, quelques rues du vieux Boulogne gardent une échelle villageoise que le reste de la commune a perdue. La visite est courte mais donne la clé de la toponymie locale, ce qui n'est pas rien dans une ville qu'on croit née avec Renault."
+      },
+      {
+        heading: "7. Le Trapèze et la mémoire Renault",
+        body: "Le Trapèze est le quartier construit sur les anciens terrains Renault en bord de Seine : rues plantées, parc central, immeubles contemporains, écoles et commerces. Il se traverse à pied depuis la Seine Musicale et constitue l'un des plus grands projets de reconversion industrielle d'Île-de-France. Ce qu'on n'y voit plus, en revanche, c'est l'usine : l'île Seguin a été entièrement rasée, et le débat sur cet effacement d'un siècle d'histoire ouvrière — celle du Front populaire, de 1968, des dernières grandes grèves — reste vif. Quelques traces subsistent dans l'espace public et dans les collections municipales. Le savoir avant de traverser rend la promenade nettement plus intéressante."
+      },
+      {
+        heading: "8. Le marché Escudier",
+        body: "Le marché Escudier est l'un des meilleurs marchés couverts de l'ouest parisien : poissonniers, fromagers, primeurs, traiteurs, dans une halle du centre-ville, plusieurs matinées par semaine — jours affichés sur place et sur le site de la ville. Le rapport qualité-prix reste inférieur à Paris intra-muros sur beaucoup de produits, ce qui explique qu'il draine bien au-delà de la commune. C'est l'adresse évidente pour composer un déjeuner à emporter avant d'aller au parc ou au bord de Seine. Le marché Billancourt, de l'autre côté de la ville, joue le même rôle avec un profil plus populaire."
+      },
+      {
+        heading: "9. Le bois de Boulogne et le domaine de Saint-Cloud",
+        body: "La commune est prise entre deux espaces verts de très grande taille, ce qui est sa vraie chance. Au nord, le bois de Boulogne, avec ses lacs, ses pistes cyclables, le Pré Catelan et le jardin d'acclimatation, accessible à pied depuis le nord de la ville. À l'ouest, de l'autre côté de la Seine par le pont de Saint-Cloud, le domaine national de Saint-Cloud : un parc dessiné par Le Nôtre autour d'un château détruit en 1870, avec ses grandes cascades, ses terrasses et une vue sur Paris qui compte parmi les plus belles de la région. Les deux sont gratuits. Une journée à Boulogne mal calibrée se rattrape toujours par là."
+      },
+      {
+        heading: "10. Y aller, s'y déplacer, y manger",
+        body: "Boulogne-Billancourt est desservie par les lignes 9 et 10 du métro et par le tramway T2, qui longe la Seine et relie La Défense à Issy et Paris : depuis le centre de Paris, on est sur place en quinze à vingt-cinq minutes selon le point de départ. La ville se traverse à pied du nord au sud en une petite heure, et les principaux musées sont regroupés autour de l'avenue André-Morizet et de l'Espace Landowski. Côté restauration, la commune est plutôt chère et orientée bistrot de quartier ; les meilleures options simples se trouvent autour des deux marchés et le long de la rue de Billancourt. Beaucoup d'adresses ferment le dimanche soir et le lundi, comme les musées."
+      }
+    ],
+    relatedCities: ["boulogne-billancourt", "paris", "issy-les-moulineaux", "neuilly-sur-seine", "versailles"],
+    relatedGuides: [
+      "10-choses-a-faire-a-paris-2026",
+      "10-choses-a-faire-a-versailles-2026",
+      "vivre-en-ile-de-france-guide-2025"
+    ],
+    tags: ["10 choses à faire à Boulogne-Billancourt", "activités Boulogne-Billancourt 2026", "que faire à Boulogne-Billancourt", "sorties Hauts-de-Seine", "musée Albert-Kahn Seine Musicale île Seguin musée des Années Trente Paul-Belmondo"]
+  },
+  {
+    slug: "10-choses-a-faire-a-villeurbanne-2026",
+    title: "10 choses à faire à Villeurbanne (les Gratte-Ciel, le TNP et l'art contemporain)",
+    metaTitle: "10 choses à faire à Villeurbanne 2026 — activités et sorties locales",
+    metaDesc: "Gratte-Ciel de 1934, TNP, Institut d'art contemporain, Le Rize, parc de la Feyssine, usines TASE : 10 activités à Villeurbanne, aux portes de Lyon.",
+    category: "tourisme",
+    emoji: "🏙️",
+    readMinutes: 6,
+    publishedAt: "2026-08-04",
+    updatedAt: "2026-08-04",
+    intro: "Villeurbanne est une commune de la métropole de Lyon d'environ 149 000 habitants — la plus peuplée de France qui ne soit pas une préfecture. Collée à Lyon au point qu'on passe de l'une à l'autre sans s'en apercevoir, elle a toujours revendiqué son autonomie, et cela se voit dans son urbanisme : au début des années 1930, une municipalité socialiste a fait bâtir en plein centre un ensemble de tours de logement social qui n'avait aucun équivalent en Europe, doublé d'un palais du Travail regroupant théâtre, dispensaire, piscine et bourse du travail. Villeurbanne se visite pour ça, pour son théâtre national et pour une scène d'art contemporain qui pèse au niveau national. Capitale française de la culture en 2022, elle est à dix minutes du centre de Lyon en métro.",
+    sections: [
+      {
+        heading: "1. Les Gratte-Ciel",
+        body: "Le quartier des Gratte-Ciel a été construit de 1931 à 1934 sous l'impulsion du maire Lazare Goujon, sur les plans de l'architecte Môrice Leroux, pour sortir les ouvriers des taudis. Deux alignements de barres montant jusqu'à dix-neuf étages encadrent l'avenue Henri-Barbusse, en retraits successifs inspirés des règles new-yorkaises de l'époque, et se referment sur l'hôtel de ville et son beffroi. Le programme intégrait chauffage central, vide-ordures et ascenseurs, inédits dans du logement populaire français. L'ensemble est labellisé Patrimoine du XXe siècle. Ça se visite gratuitement en marchant : remonter l'avenue d'un bout à l'autre, entrer dans le hall de l'hôtel de ville, et regarder les décrochements depuis les rues transversales."
+      },
+      {
+        heading: "2. Le TNP et le palais du Travail",
+        body: "Le Théâtre National Populaire occupe le palais du Travail, au cœur des Gratte-Ciel. Le TNP, fondé à Paris par Firmin Gémier puis dirigé par Jean Vilar, a été transféré à Villeurbanne en 1972 sous la direction de Roger Planchon : c'est la seule fois où un label national de cette importance a quitté la capitale pour une ville de banlieue. Le bâtiment a été rénové et rouvert au début des années 2010, salle principale et petite salle. La programmation est exigeante et les tarifs restent volontairement accessibles, avec des places à prix réduit pour les jeunes et les habitants. Réserver à l'avance : les créations affichent complet."
+      },
+      {
+        heading: "3. L'Institut d'art contemporain",
+        body: "L'IAC est à la fois un centre d'art et une collection publique — une combinaison rare en France. Il produit des expositions monographiques et des cartes blanches à des artistes vivants, souvent au stade où leur travail n'est pas encore installé dans les institutions, et gère une collection d'art contemporain conservée sur place et prêtée dans toute la région. Le bâtiment, ancien établissement scolaire réaménagé, offre des volumes généreux. Entrée à petit prix, fermé en début de semaine et entre deux accrochages : vérifier le calendrier avant de venir, c'est le principal risque de trajet pour rien."
+      },
+      {
+        heading: "4. Le Rize",
+        body: "Le Rize est un équipement difficile à classer et c'est ce qui le rend intéressant : archives municipales, médiathèque, salle d'exposition et lieu de recherche réunis dans un même bâtiment, entièrement consacrés à la mémoire de la ville et de ses habitants. Villeurbanne s'est peuplée par vagues successives — Italiens, Arméniens, Espagnols, Portugais, Maghrébins, Africains, Asiatiques du Sud-Est — et le Rize collecte, expose et restitue cette histoire avec les intéressés plutôt qu'à leur sujet. Expositions temporaires gratuites, café, jardin. C'est l'endroit qui explique ce qu'on voit dans les rues."
+      },
+      {
+        heading: "5. La Maison du livre, de l'image et du son",
+        body: "La MLIS est la médiathèque centrale de Villeurbanne, conçue par l'architecte suisse Mario Botta et inaugurée en 1988. Botta y applique son vocabulaire : brique, volumes géométriques stricts, jeu de pleins et de vides, lumière zénithale au centre. C'est l'un des rares bâtiments d'un architecte de cette notoriété accessible librement et sans billet en région lyonnaise, puisqu'il fonctionne simplement comme une bibliothèque publique. Entrée libre aux heures d'ouverture, expositions régulières, et un intérieur qui vaut à lui seul le détour pour qui s'intéresse à l'architecture des années 1980."
+      },
+      {
+        heading: "6. Le parc de la Feyssine et les berges du Rhône",
+        body: "Le parc de la Feyssine occupe la rive gauche du Rhône au nord de la ville, sur une quarantaine d'hectares laissés volontairement en gestion peu interventionniste : boisement alluvial, prairies, sentiers, sans mobilier ni pelouse tondue. C'est l'inverse d'un parc urbain classique, et le plus proche d'un paysage de rivière naturelle dans l'agglomération. Il se prolonge par les berges aménagées qui descendent vers le parc de la Tête d'Or et le centre de Lyon : à vélo, l'itinéraire est continu et sans voiture sur plusieurs kilomètres. Accès libre toute l'année."
+      },
+      {
+        heading: "7. Le Carré de Soie et les usines TASE",
+        body: "À l'est, le quartier du Carré de Soie, à cheval sur Villeurbanne et Vaulx-en-Velin, s'est construit autour de l'ancienne usine TASE — Textile Artificiel du Sud-Est — qui produisait de la soie artificielle à partir des années 1920 et logeait ses ouvriers dans une cité-jardin voisine. L'usine, avec sa façade en béton et sa tour-horloge, est protégée et partiellement reconvertie ; la cité TASE se parcourt à pied et reste un exemple lisible de paternalisme industriel à la française. Autour, l'hippodrome de Lyon-Parilly et le pôle de loisirs contemporain complètent un quartier où l'histoire industrielle et le centre commercial cohabitent sans transition."
+      },
+      {
+        heading: "8. L'Astroballe et l'ASVEL",
+        body: "L'ASVEL est le club de basket le plus titré de France et joue à l'Astroballe, salle de Villeurbanne. Assister à un match d'EuroLeague ou de championnat y est une expérience différente de celle d'une grande arène : la salle est compacte, l'acoustique agressive, le public proche du parquet. Les places partent vite pour les affiches européennes, beaucoup moins pour un match de saison régulière en semaine. L'équipe féminine, également titrée, joue dans la même enceinte. La salle est desservie par le tramway ; billetterie en ligne, tarifs très inférieurs à ceux des sports équivalents à Paris."
+      },
+      {
+        heading: "9. Le Transbordeur et la scène musicale",
+        body: "Le Transbordeur est la principale salle de concert de musiques actuelles de la métropole lyonnaise, installée dans un ancien bâtiment industriel au nord de Villeurbanne, près de la Cité internationale. Jauge intermédiaire, programmation rock, électro, rap et musiques du monde, plusieurs concerts par semaine. C'est la salle par laquelle passent les groupes trop gros pour un club et trop petits pour une aréna, ce qui en fait le meilleur baromètre de ce qui se joue vraiment. Autour, plusieurs lieux plus petits et des festivals estivaux en plein air complètent l'offre. Prévoir le retour : les derniers métros et tramways conditionnent la sortie."
+      },
+      {
+        heading: "10. Marchés, tables, et Lyon à dix minutes",
+        body: "Villeurbanne a plusieurs marchés de quartier — Gratte-Ciel, Croix-Luizet, Charpennes — moins chers et moins touristiques que ceux de Lyon, et sa restauration reflète son peuplement : trattorias italiennes anciennes, tables arméniennes, cantines maghrébines, restaurants vietnamiens et laotiens, kebabs et snacks étudiants autour du campus de la Doua, qui accueille une grande partie des sciences de l'université de Lyon. Pour la cuisine lyonnaise classique, les bouchons du Vieux-Lyon et des Terreaux sont à une dizaine de minutes par la ligne A du métro, qui dessert Charpennes, République, Gratte-Ciel, Flachet, Cusset et Laurent-Bonnevay. Se loger à Villeurbanne pour visiter Lyon est d'ailleurs un arbitrage rentable."
+      }
+    ],
+    relatedCities: ["villeurbanne", "lyon", "venissieux", "grenoble", "saint-etienne"],
+    relatedGuides: [
+      "10-choses-a-faire-a-lyon-2026",
+      "10-choses-a-faire-a-grenoble-2026",
+      "10-choses-a-faire-a-saint-etienne-2026"
+    ],
+    tags: ["10 choses à faire à Villeurbanne", "activités Villeurbanne 2026", "que faire à Villeurbanne", "sorties Villeurbanne", "Gratte-Ciel TNP Institut d'art contemporain Le Rize usines TASE ASVEL"]
+  },
+  {
+    slug: "10-choses-a-faire-au-tampon-2026",
+    title: "10 choses à faire au Tampon (La Réunion) : le volcan, les Hauts et le froid tropical",
+    metaTitle: "10 choses à faire au Tampon 2026 — Plaine des Cafres et volcan",
+    metaDesc: "Piton de la Fournaise, Plaine des Sables, Cité du Volcan, Grand Bassin, Bois-Court, Miel Vert : 10 activités au Tampon, dans les Hauts de La Réunion.",
+    category: "tourisme",
+    emoji: "🌋",
+    readMinutes: 7,
+    publishedAt: "2026-08-04",
+    updatedAt: "2026-08-04",
+    intro: "Le Tampon est une commune de La Réunion d'environ 81 000 habitants, la troisième de l'île, et la seule de cette taille à n'avoir aucune façade maritime. Elle s'étire sur le flanc sud du massif volcanique depuis les faubourgs de Saint-Pierre jusqu'aux abords du Piton de la Fournaise, ce qui lui donne une amplitude d'altitude rare : le bourg central est vers 530 mètres, la Plaine des Cafres approche les 1 600, et la route qui monte au volcan dépasse les 2 200. On s'y adresse par kilomètres — le 12e, le 14e, le 23e — plutôt que par noms de quartier. C'est la base logistique naturelle pour le volcan et les Hauts, et l'endroit où l'on comprend que La Réunion peut être froide : à la Plaine des Cafres, il gèle certains matins d'hiver austral.",
+    sections: [
+      {
+        heading: "1. La Plaine des Cafres et Bourg-Murat",
+        body: "La Plaine des Cafres est le haut plateau qui sépare le massif du Piton des Neiges de celui de la Fournaise, entre les deux volcans, à une altitude où le paysage devient prairie, vaches, haies de cryptomerias et brumes qui montent l'après-midi. Bourg-Murat, au 23e kilomètre, en est le carrefour : c'est là que bifurque la route du Volcan, et c'est là que se concentrent gîtes, tables d'hôtes et loueurs. Le climat n'a rien de tropical, il faut une polaire même en été austral. C'est aussi le pays de l'élevage laitier réunionnais et des cultures maraîchères d'altitude, ce qui se retrouve dans les assiettes."
+      },
+      {
+        heading: "2. Le Piton de la Fournaise",
+        body: "Le Piton de la Fournaise est l'un des volcans les plus actifs de la planète et le principal motif de séjour au Tampon. La route du Volcan monte depuis Bourg-Murat jusqu'au parking du Pas de Bellecombe, vers 2 300 mètres, d'où l'on domine l'Enclos Fouqué, la vaste dépression dans laquelle se concentrent les éruptions. La randonnée jusqu'au cratère Dolomieu descend d'abord l'escalier du Pas de Bellecombe puis traverse des champs de lave : longue, exposée, sans ombre ni eau, à entreprendre au lever du jour, la couverture nuageuse remontant en milieu de matinée. Point non négociable : l'accès dépend du niveau d'alerte volcanique décidé par la préfecture et peut être fermé du jour au lendemain. Se renseigner la veille et le matin même."
+      },
+      {
+        heading: "3. La Plaine des Sables",
+        body: "La route du Volcan traverse, avant d'arriver au Pas de Bellecombe, la Plaine des Sables : une dépression de scories ocre et noires, sans végétation, cernée de remparts, que l'on découvre d'un coup depuis le belvédère du Pas des Sables. La comparaison avec un paysage martien est un cliché, mais elle est ici littérale — des tournages et des essais de matériel spatial y ont eu lieu. La traversée se fait sur une piste aménagée, praticable en voiture de tourisme avec prudence. C'est le paysage le plus spectaculaire accessible en voiture de toute l'île, et il se visite même quand le volcan est fermé à la randonnée."
+      },
+      {
+        heading: "4. La Cité du Volcan",
+        body: "La Cité du Volcan, à Bourg-Murat, est le musée de référence sur le volcanisme réunionnais et mondial, entièrement rénové avec une scénographie immersive : maquettes en relief de l'île, simulateurs, salles de projection, dispositifs sur la formation du point chaud et sur la surveillance de la Fournaise par l'observatoire volcanologique. C'est la visite à faire avant de monter, parce qu'elle rend lisible ce qu'on va voir, et le repli évident les jours où le volcan est fermé ou noyé dans les nuages. Compter deux à trois heures. Fermeture hebdomadaire à vérifier."
+      },
+      {
+        heading: "5. Grand Bassin, l'îlet sans route",
+        body: "Grand Bassin est un hameau installé au fond d'un cirque encaissé, au confluent de trois rivières, et il n'est desservi par aucune route : on y descend à pied depuis Bois-Court par un sentier en lacets, en comptant une bonne heure et demie à la descente et nettement plus à la remontée, qui est raide. Une poignée d'habitants y vivent encore, avec des gîtes et des tables d'hôtes. La cascade du Voile de la Mariée, au fond du vallon, et le bassin où l'on peut se baigner selon les conditions, sont le but classique. Une navette par câble sert au ravitaillement, pas au transport des visiteurs. Partir tôt, prévoir de l'eau, et vérifier la météo : les crues de rivière sont brutales."
+      },
+      {
+        heading: "6. Le belvédère de Bois-Court",
+        body: "Le point de vue de Bois-Court, aménagé et accessible en voiture, domine le cirque de Grand Bassin depuis son rempart : on voit le hameau minuscule au fond, la confluence des rivières et les cascades sur la paroi d'en face. C'est l'un des panoramas les plus faciles d'accès de La Réunion pour ce qu'il donne à voir, avec aire de pique-nique et sentiers de bord de rempart. À faire tôt le matin, avant que les nuages ne remplissent le cirque — au Tampon comme partout dans les Hauts, la règle est la même : la vue appartient à ceux qui se lèvent."
+      },
+      {
+        heading: "7. La forêt de Notre-Dame-de-la-Paix",
+        body: "Sur la route du Volcan, la forêt de Notre-Dame-de-la-Paix est l'un des plus beaux massifs de tamarins des Hauts de l'île — un acacia endémique aux branches tordues, couvert de mousses et de lichens, qui pousse en peuplements réguliers et donne à la forêt une allure de sous-bois de conte. Plusieurs sentiers balisés en boucle, de la promenade d'une heure à la demi-journée, partent de l'aire aménagée. C'est frais, humide, souvent brumeux, et c'est la meilleure marche de repli quand le volcan est bouché. Chaussures fermées obligatoires, le sol est glissant."
+      },
+      {
+        heading: "8. Le marché forain et les produits des Hauts",
+        body: "Le marché forain du Tampon est l'un des plus fournis du sud de l'île en produits d'altitude : chouchou, cresson, carottes, salades, fraises et pommes de terre des Hauts, épices, fruits selon la saison, sans oublier les plants et les fleurs, spécialité locale. Les jours de tenue sont affichés sur le site de la commune — les vérifier avant de s'organiser. À côté des étals de légumes, les stands de bouchons, samoussas et bonbons piment font office de petit-déjeuner tardif. Les producteurs de la Plaine des Cafres vendent aussi en direct le long de la RN3, notamment le miel et les fromages fermiers."
+      },
+      {
+        heading: "9. La fête du Miel Vert",
+        body: "Le Miel Vert est la grande fête agricole des Hauts, organisée chaque année à la Plaine des Cafres, et l'un des plus gros rassemblements populaires de La Réunion : concours d'élevage, apiculture, machinisme agricole, artisanat, plantes et concerts de séga et de maloya pendant plusieurs jours. Le miel réunionnais, notamment celui de baie rose et de letchi, y est vendu par les producteurs eux-mêmes. Elle se tient en général au cœur de l'été austral, mais les dates varient d'une édition à l'autre : les vérifier auprès de l'office de tourisme avant de caler un séjour dessus. Se loger devient difficile pendant l'événement."
+      },
+      {
+        heading: "10. La table des Hauts, et la mer à vingt minutes",
+        body: "La cuisine des Hauts est plus rustique que celle du littoral : cari poulet, rougail saucisse, civet de canard, boucané, avec le chouchou décliné en gratin, en daube et en salade, et le pâté créole en saison. Les tables d'hôtes de la Plaine des Cafres servent souvent leur propre production — fromage, miel, légumes. Le rhum arrangé accompagne, et le vin de Cilaos se trouve à la carte. Dernier point d'organisation : Le Tampon n'a pas de côte, mais Saint-Pierre et ses plages sont à une vingtaine de minutes en descendant la route. Rappel valable partout à La Réunion : hors du lagon et des zones de baignade surveillées, la baignade en mer est interdite en raison du risque requin."
+      }
+    ],
+    relatedCities: ["le-tampon", "saint-pierre-reunion", "saint-denis-reunion", "saint-paul-reunion"],
+    relatedGuides: [
+      "10-choses-a-faire-a-saint-pierre-reunion-2026",
+      "10-choses-a-faire-a-saint-denis-reunion-2026",
+      "10-choses-a-faire-a-saint-paul-reunion-2026",
+      "vivre-en-outre-mer-guide-2026"
+    ],
+    tags: ["10 choses à faire au Tampon", "activités Le Tampon 2026", "que faire à La Réunion", "sorties Plaine des Cafres", "Piton de la Fournaise Plaine des Sables Cité du Volcan Grand Bassin Bois-Court Miel Vert"]
+  },
+  {
     slug: "vacances-celibataire-paris-2026",
     title: "Vacances célibataire à Paris en 2026 : où sortir, où dormir seul·e, quand y aller",
     metaTitle: "Vacances célibataire Paris 2026 — Sortir, dormir seul·e, budget",
