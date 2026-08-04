@@ -13,7 +13,7 @@
  *
  * ── Sources (phase 1: official open data only) ───────────────────────────
  *
- *   BODACC        api.bodacc.fr (Opendatasoft Explore v2.1) — registrations,
+ *   BODACC        bodacc-datadila.opendatasoft.com (Explore v2.1) — registrations,
  *                 deregistrations and insolvency proceedings, Licence Ouverte.
  *   RNA / JO      data.gouv.fr — association creations, Licence Ouverte.
  *   Géorisques    georisques.gouv.fr GASPAR — CatNat orders, Licence Ouverte.
@@ -34,14 +34,16 @@
  * are aggregated to MONTHLY COUNTS per commune, and only CatNat orders — acts
  * of the State, naming no one — are listed individually.
  *
- * ── Field names are @unverified ──────────────────────────────────────────
+ * ── Field names: verified 2026-08-04 for BODACC and CatNat, not for the RNA ──
  *
- * This environment's egress policy answers 403 CONNECT for all three hosts
- * (checked 2026-08-04), so no query in this file has ever been run against the
- * live APIs. Every constant marked @unverified is an educated guess from each
- * API's documented shape. RUN `probe` FIRST on a machine with egress: it prints
- * the fields each dataset really returns and will not write anything. Same
- * discipline as scripts/city-biodiversity.mjs.
+ * The cloud runner answers 403 CONNECT for these hosts, so the first version of
+ * this file was written blind. A local pass ran `probe` against the live APIs on
+ * 2026-08-04 and corrected three things that would each have failed silently:
+ * the BODACC host (`api.bodacc.fr` does not resolve at all), the `familleavis`
+ * value for insolvency proceedings (`collective`, not `procedure_collective`),
+ * and the commune filter (see bodaccWhere — the column is mixed-case, so the
+ * uppercased exact match returned ~1 % of the rows instead of none, which is the
+ * worst of both worlds). The RNA ingest is still off: no resource id.
  *
  * ── Resumability under the cloud-runner constraint ───────────────────────
  *
@@ -96,31 +98,40 @@ const FORCE = flag("force");
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const log = (...a) => console.log(...a);
 
-/* ── endpoints & fields (@unverified — run `probe` before the first crawl) ── */
+/* ── endpoints & fields (BODACC + CatNat verified live 2026-08-04) ────────── */
 
-const BODACC_BASE = "https://api.bodacc.fr/api/explore/v2.1/catalog/datasets";
-/** @unverified dataset id. The BODACC portal exposes commercial notices under
- *  this slug; `probe` prints the catalogue if it is wrong. */
+/** DILA publishes BODACC on its own Opendatasoft portal. `api.bodacc.fr` has no
+ *  DNS record — the first version of this file pointed there and every fetch
+ *  failed with "fetch failed", which reads like an egress block and is not one. */
+const BODACC_BASE =
+  "https://bodacc-datadila.opendatasoft.com/api/explore/v2.1/catalog/datasets";
 const BODACC_DATASET = "annonces-commerciales";
-/** @unverified field names. `dateparution` and `familleavis` are the documented
- *  BODACC columns; the commune anchor is the uncertain one — see resolveAnchor(). */
+/** Verified against the live catalogue: `dateparution`, `familleavis`, `ville`
+ *  and `numerodepartement` all exist. `code_commune_insee` does NOT — the
+ *  dataset carries no Insee column, so resolveAnchor() always lands on the
+ *  name+dept fallback. The constant stays so the exact anchor is picked up for
+ *  free if DILA ever adds the column. */
 const BODACC_FIELDS = {
   date: "dateparution",
   family: "familleavis",
-  /** Preferred anchor when the dataset carries it. */
+  /** Preferred anchor when the dataset carries it. Absent as of 2026-08-04. */
   insee: "code_commune_insee",
   /** Fallback anchor. */
   city: "ville",
   dept: "numerodepartement",
 };
-/** BODACC `familleavis` values → our kinds. @unverified spelling; probe prints
- *  the distinct values so this map can be corrected in one pass. */
+/** BODACC `familleavis` values → our kinds. The live vocabulary is: collective,
+ *  conciliation, creation, divers, dpc, immatriculation, inconnue, modification,
+ *  radiation, retablissement_professionnel, vente (+ null). Only the four that
+ *  answer "is the local economy opening or closing shops" are mapped; the rest
+ *  return null and are dropped. `collective` is the insolvency family — the
+ *  guessed `procedure_collective` matched nothing, so proceedings counted zero
+ *  everywhere without erroring. */
 const BODACC_FAMILY_TO_KIND = {
   creation: "entreprises",
   immatriculation: "entreprises",
   radiation: "radiations",
-  procedure: "procedures",
-  procedure_collective: "procedures",
+  collective: "procedures",
 };
 
 const GEORISQUES_CATNAT =
@@ -553,19 +564,21 @@ export function isoDate(v) {
  */
 async function fetchBodacc(city, anchor, now) {
   const since = cutoffISO(now, WINDOW_MONTHS);
-  const where = bodaccWhere(city, anchor, since);
+  const where = `${bodaccWhere(city, anchor, since)} and ${bodaccFamilyFilter()}`;
   const url =
     `${BODACC_BASE}/${BODACC_DATASET}/records` +
-    `?select=${encodeURIComponent(`count(*) as n, ${BODACC_FIELDS.family} as famille, date_format(${BODACC_FIELDS.date}, 'yyyy-MM') as mois`)}` +
+    `?select=${encodeURIComponent("count(*) as n")}` +
     `&where=${encodeURIComponent(where)}` +
-    `&group_by=${encodeURIComponent(`famille, mois`)}` +
+    `&group_by=${encodeURIComponent(
+      `${BODACC_FIELDS.family}, year(${BODACC_FIELDS.date}) as annee, month(${BODACC_FIELDS.date}) as mois`,
+    )}` +
     `&limit=100`;
   const json = await cachedGetJson(`${city.slug}.bodacc`, url, now);
   const rows = [];
   for (const r of json?.results ?? []) {
-    const kind = bodaccKind(r.famille);
+    const kind = bodaccKind(r[BODACC_FIELDS.family]);
     if (!kind) continue;
-    rows.push({ date: `${r.mois}-01`, kind, count: Number(r.n) });
+    rows.push({ date: monthISO(r.annee, r.mois), kind, count: Number(r.n) });
   }
   return aggregateMonthly(rows, {
     source: SOURCE_META.bodacc.label,
@@ -587,16 +600,44 @@ export function bodaccKind(famille) {
 }
 
 /**
+ * Restrict the aggregation to the four families we map.
+ *
+ * Not an optimisation: `group_by` returns at most 100 buckets, and all twelve
+ * families over twelve months overflow that. Dropping the eight families we
+ * ignore anyway (dépôts de comptes, ventes, modifications…) keeps the worst case
+ * at 4 × 12 = 48 buckets, so no month can be silently cut off the end.
+ */
+export function bodaccFamilyFilter() {
+  const families = [...new Set(Object.keys(BODACC_FAMILY_TO_KIND))];
+  return `${BODACC_FIELDS.family} in (${families.map((f) => `"${f}"`).join(",")})`;
+}
+
+/** `2026, 3` → `2026-03-01`. ODS groups dates by year and month separately. */
+export function monthISO(year, month) {
+  return `${year}-${String(month).padStart(2, "0")}-01`;
+}
+
+/**
  * The commune filter.
  *
- * The seed carries an Insee code and nothing else — no postal code. BODACC's
- * own commune column is the open question (see BODACC_FIELDS): if the dataset
- * exposes an Insee code we anchor on it, which is exact. Otherwise we fall back
- * to commune name + département, and that fallback is NOT exact — communes
- * share names across départements ("Sainte-Marie" exists in five), and a name
- * match inside one département is right in the large majority of cases but not
- * all. `probe` reports which anchor is available so a local run can settle it;
- * until then the fallback is used and logged per city.
+ * The seed carries an Insee code and nothing else — no postal code. BODACC
+ * carries no Insee column either (checked live 2026-08-04), so this always
+ * falls back to commune name + département.
+ *
+ * The name half is a full-text `search()`, not an equality test, and that is
+ * deliberate: BODACC's `ville` is free text typed by clerks. Département 42
+ * holds 81 650 rows spelled "Saint-Étienne" and 46 184 spelled "Saint-Etienne";
+ * Marseille's rows are split across "Marseille" and "Marseille 8e
+ * Arrondissement". An `=` test picks one spelling and silently drops the rest —
+ * a number that looks like a measurement and is off by half. `search()` is
+ * accent- and case-insensitive and folds the arrondissement rows back into the
+ * commune they belong to.
+ *
+ * What it costs: `search()` also matches a longer commune name containing this
+ * one ("Annecy" catches "Annecy-le-Vieux", which merged into Annecy in 2017, so
+ * there it is right — but the general case is not guaranteed). Scoped to one
+ * département that stays rare, and an over-count is visible where an
+ * under-count is not. The imprecision is stated on the page.
  */
 export function bodaccWhere(city, anchor, since) {
   const date = `${BODACC_FIELDS.date} >= date'${since}'`;
@@ -604,8 +645,8 @@ export function bodaccWhere(city, anchor, since) {
     return `${BODACC_FIELDS.insee} = "${city.inseeCode}" and ${date}`;
   }
   const dept = deptFromInsee(city.inseeCode);
-  const name = normalizeCommune(city.name).replace(/"/g, "");
-  return `${BODACC_FIELDS.city} = "${name}" and ${BODACC_FIELDS.dept} = "${dept}" and ${date}`;
+  const name = city.name.replace(/"/g, "");
+  return `search(${BODACC_FIELDS.city}, "${name}") and ${BODACC_FIELDS.dept} = "${dept}" and ${date}`;
 }
 
 /** CatNat orders for one commune, anchored on the Insee code (exact). */
@@ -822,10 +863,22 @@ async function probe() {
     log(`  ${fields.join(", ")}`);
     log(`  insee column present: ${fields.some((f) => f.startsWith(BODACC_FIELDS.insee + ":"))}`);
     const url =
-      `${BODACC_BASE}/${BODACC_DATASET}/records?select=${encodeURIComponent(`count(*) as n, ${BODACC_FIELDS.family} as famille`)}` +
-      `&group_by=famille&limit=50`;
+      `${BODACC_BASE}/${BODACC_DATASET}/records?select=${encodeURIComponent("count(*) as n")}` +
+      `&group_by=${encodeURIComponent(BODACC_FIELDS.family)}&limit=50`;
     const fam = await getJson(url);
-    log(`  familleavis values: ${(fam?.results ?? []).map((r) => `${r.famille}(${r.n})`).join(", ")}`);
+    log(
+      `  familleavis values: ${(fam?.results ?? [])
+        .map((r) => `${r[BODACC_FIELDS.family]}(${r.n})`)
+        .join(", ")}`,
+    );
+    const counts = await getJson(
+      `${BODACC_BASE}/${BODACC_DATASET}/records?select=${encodeURIComponent("count(*) as n")}` +
+        `&where=${encodeURIComponent(`${bodaccWhere(city, "name+dept", cutoffISO(new Date(), WINDOW_MONTHS))} and ${bodaccFamilyFilter()}`)}` +
+        `&group_by=${encodeURIComponent(`${BODACC_FIELDS.family}, year(${BODACC_FIELDS.date}) as annee, month(${BODACC_FIELDS.date}) as mois`)}&limit=100`,
+    );
+    const buckets = counts?.results ?? [];
+    log(`  ${city.name}: ${buckets.length} month/family bucket(s) over ${WINDOW_MONTHS} months`);
+    if (buckets.length) log(`  first bucket: ${JSON.stringify(buckets[0])}`);
   } catch (err) {
     log(`  FAILED: ${err.message}`);
   }
@@ -1062,9 +1115,18 @@ function selftest() {
   const city = { slug: "annecy", name: "Annecy", inseeCode: "74010" };
   check("where anchors on Insee when available",
     bodaccWhere(city, "insee", "2025-08-04").includes(`${BODACC_FIELDS.insee} = "74010"`), true);
-  check("where falls back to name+dept",
+  check("where falls back to a case-insensitive name search + dept",
     bodaccWhere(city, "name+dept", "2025-08-04"),
-    `${BODACC_FIELDS.city} = "ANNECY" and ${BODACC_FIELDS.dept} = "74" and ${BODACC_FIELDS.date} >= date'2025-08-04'`);
+    `search(${BODACC_FIELDS.city}, "Annecy") and ${BODACC_FIELDS.dept} = "74" and ${BODACC_FIELDS.date} >= date'2025-08-04'`);
+  check("family filter names every mapped family and nothing else",
+    bodaccFamilyFilter(),
+    'familleavis in ("creation","immatriculation","radiation","collective")');
+  check("family filter cannot overflow the 100-bucket group_by cap",
+    Object.keys(BODACC_FAMILY_TO_KIND).length * WINDOW_MONTHS <= 100, true);
+  check("month bucket → first of the month, zero-padded", monthISO(2026, 3), "2026-03-01");
+  check("where keeps the seed spelling, accents included",
+    bodaccWhere({ slug: "saint-etienne", name: "Saint-Étienne", inseeCode: "42218" }, "name+dept", "2025-08-04")
+      .includes('search(ville, "Saint-Étienne")'), true);
 
   // — batch rotation —
   const seed = [

@@ -1,1 +1,712 @@
-{}
+{
+  "lyon": {
+    "crawledAt": "2026-08-04",
+    "source": "gbif",
+    "queryVersion": 2,
+    "radiusKm": 10,
+    "yearFrom": 2015,
+    "licenses": [
+      "CC0_1_0",
+      "CC_BY_4_0"
+    ],
+    "occurrences": 166238,
+    "observers": 2000,
+    "observersTruncated": true,
+    "datasets": 205,
+    "species": 4178,
+    "speciesTruncated": false,
+    "rarefiedN": 500,
+    "rarefied": 257.5,
+    "rarefiedExact": true,
+    "rarefiedUpper": 257.5,
+    "groups": {
+      "birds": 264,
+      "mammals": 50,
+      "insects": 1404,
+      "amphibians": 13,
+      "reptiles": 0,
+      "plants": 1940
+    },
+    "groupsTruncated": [],
+    "threatenedSpecies": 34,
+    "topSpecies": [
+      {
+        "key": 9705453,
+        "scientificName": "Parus major",
+        "vernacularFr": "Mésange charbonnière",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 6322
+      },
+      {
+        "key": 2490719,
+        "scientificName": "Turdus merula",
+        "vernacularFr": "Merle noir",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 5600
+      },
+      {
+        "key": 5229490,
+        "scientificName": "Pica pica",
+        "vernacularFr": "Pie bavarde",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 4442
+      },
+      {
+        "key": 2495455,
+        "scientificName": "Columba palumbus",
+        "vernacularFr": "Palombe",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 4175
+      },
+      {
+        "key": 2487879,
+        "scientificName": "Cyanistes caeruleus",
+        "vernacularFr": "Mésange bleue",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 3983
+      },
+      {
+        "key": 2492462,
+        "scientificName": "Erithacus rubecula",
+        "vernacularFr": "Rouge-gorge familier",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 3976
+      },
+      {
+        "key": 5231190,
+        "scientificName": "Passer domesticus",
+        "vernacularFr": null,
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 3521
+      },
+      {
+        "key": 2495696,
+        "scientificName": "Streptopelia decaocto",
+        "vernacularFr": "Tourterelle turque",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 3299
+      },
+      {
+        "key": 9409796,
+        "scientificName": "Corvus corone",
+        "vernacularFr": "Corbeau corneille",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 3295
+      },
+      {
+        "key": 9809229,
+        "scientificName": "Sturnus vulgaris",
+        "vernacularFr": "Etourneau sansonnet",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 2609
+      },
+      {
+        "key": 2494422,
+        "scientificName": "Fringilla coelebs",
+        "vernacularFr": "Pinson des arbres",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 2563
+      },
+      {
+        "key": 2495414,
+        "scientificName": "Columba livia",
+        "vernacularFr": "Pigeon biset",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 2316
+      }
+    ],
+    "accessedAt": "2026-08-04T07:15:59.185Z"
+  },
+  "marseille": {
+    "crawledAt": "2026-08-04",
+    "source": "gbif",
+    "queryVersion": 2,
+    "radiusKm": 10,
+    "yearFrom": 2015,
+    "licenses": [
+      "CC0_1_0",
+      "CC_BY_4_0"
+    ],
+    "occurrences": 220012,
+    "observers": 1819,
+    "observersTruncated": false,
+    "datasets": 217,
+    "species": 4212,
+    "speciesTruncated": false,
+    "rarefiedN": 500,
+    "rarefied": 224.3,
+    "rarefiedExact": true,
+    "rarefiedUpper": 224.3,
+    "groups": {
+      "birds": 286,
+      "mammals": 36,
+      "insects": 1262,
+      "amphibians": 7,
+      "reptiles": 0,
+      "plants": 1603
+    },
+    "groupsTruncated": [],
+    "threatenedSpecies": 53,
+    "topSpecies": [
+      {
+        "key": 9726292,
+        "scientificName": "Pipistrellus kuhlii",
+        "vernacularFr": null,
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Mammalia",
+        "count": 8895
+      },
+      {
+        "key": 2495696,
+        "scientificName": "Streptopelia decaocto",
+        "vernacularFr": "Tourterelle turque",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 8730
+      },
+      {
+        "key": 5229490,
+        "scientificName": "Pica pica",
+        "vernacularFr": "Pie bavarde",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 8003
+      },
+      {
+        "key": 5231190,
+        "scientificName": "Passer domesticus",
+        "vernacularFr": null,
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 5162
+      },
+      {
+        "key": 2492956,
+        "scientificName": "Sylvia atricapilla",
+        "vernacularFr": "Fauvette à tête noire",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 5151
+      },
+      {
+        "key": 2492962,
+        "scientificName": "Sylvia melanocephala",
+        "vernacularFr": "Fauvette mélanocéphale",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 4864
+      },
+      {
+        "key": 2479226,
+        "scientificName": "Psittacula krameri",
+        "vernacularFr": "Perruche à collier",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 4788
+      },
+      {
+        "key": 9705453,
+        "scientificName": "Parus major",
+        "vernacularFr": "Mésange charbonnière",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 4671
+      },
+      {
+        "key": 9413670,
+        "scientificName": "Larus michahellis",
+        "vernacularFr": "Gabian",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 4590
+      },
+      {
+        "key": 2492462,
+        "scientificName": "Erithacus rubecula",
+        "vernacularFr": "Rouge-gorge familier",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 4331
+      },
+      {
+        "key": 2495455,
+        "scientificName": "Columba palumbus",
+        "vernacularFr": "Palombe",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 3519
+      },
+      {
+        "key": 2494422,
+        "scientificName": "Fringilla coelebs",
+        "vernacularFr": "Pinson des arbres",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 3426
+      }
+    ],
+    "accessedAt": "2026-08-04T07:15:07.856Z"
+  },
+  "nice": {
+    "crawledAt": "2026-08-04",
+    "source": "gbif",
+    "queryVersion": 2,
+    "radiusKm": 10,
+    "yearFrom": 2015,
+    "licenses": [
+      "CC0_1_0",
+      "CC_BY_4_0"
+    ],
+    "occurrences": 277929,
+    "observers": 1651,
+    "observersTruncated": false,
+    "datasets": 199,
+    "species": 4073,
+    "speciesTruncated": false,
+    "rarefiedN": 500,
+    "rarefied": 196.9,
+    "rarefiedExact": true,
+    "rarefiedUpper": 196.9,
+    "groups": {
+      "birds": 303,
+      "mammals": 38,
+      "insects": 1197,
+      "amphibians": 8,
+      "reptiles": 0,
+      "plants": 1490
+    },
+    "groupsTruncated": [],
+    "threatenedSpecies": 48,
+    "topSpecies": [
+      {
+        "key": 9413670,
+        "scientificName": "Larus michahellis",
+        "vernacularFr": "Gabian",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 8555
+      },
+      {
+        "key": 2490719,
+        "scientificName": "Turdus merula",
+        "vernacularFr": "Merle noir",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 8512
+      },
+      {
+        "key": 2495696,
+        "scientificName": "Streptopelia decaocto",
+        "vernacularFr": "Tourterelle turque",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 8353
+      },
+      {
+        "key": 2492462,
+        "scientificName": "Erithacus rubecula",
+        "vernacularFr": "Rouge-gorge familier",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 8329
+      },
+      {
+        "key": 5229490,
+        "scientificName": "Pica pica",
+        "vernacularFr": "Pie bavarde",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 7846
+      },
+      {
+        "key": 2492956,
+        "scientificName": "Sylvia atricapilla",
+        "vernacularFr": "Fauvette à tête noire",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 7217
+      },
+      {
+        "key": 2492962,
+        "scientificName": "Sylvia melanocephala",
+        "vernacularFr": "Fauvette mélanocéphale",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 5450
+      },
+      {
+        "key": 9705453,
+        "scientificName": "Parus major",
+        "vernacularFr": "Mésange charbonnière",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 5345
+      },
+      {
+        "key": 9409796,
+        "scientificName": "Corvus corone",
+        "vernacularFr": "Corbeau corneille",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 4733
+      },
+      {
+        "key": 2495455,
+        "scientificName": "Columba palumbus",
+        "vernacularFr": "Palombe",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 4718
+      },
+      {
+        "key": 2487879,
+        "scientificName": "Cyanistes caeruleus",
+        "vernacularFr": "Mésange bleue",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 4333
+      },
+      {
+        "key": 2494422,
+        "scientificName": "Fringilla coelebs",
+        "vernacularFr": "Pinson des arbres",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 4202
+      }
+    ],
+    "accessedAt": "2026-08-04T07:17:24.417Z"
+  },
+  "paris": {
+    "crawledAt": "2026-08-04",
+    "source": "gbif",
+    "queryVersion": 2,
+    "radiusKm": 10,
+    "yearFrom": 2015,
+    "licenses": [
+      "CC0_1_0",
+      "CC_BY_4_0"
+    ],
+    "occurrences": 574203,
+    "observers": 2000,
+    "observersTruncated": true,
+    "datasets": 814,
+    "species": 6000,
+    "speciesTruncated": true,
+    "rarefiedN": 500,
+    "rarefied": 223,
+    "rarefiedExact": false,
+    "rarefiedUpper": 251.7,
+    "groups": {
+      "birds": 246,
+      "mammals": 42,
+      "insects": 2749,
+      "amphibians": 14,
+      "reptiles": 0,
+      "plants": 2403
+    },
+    "groupsTruncated": [],
+    "threatenedSpecies": 37,
+    "topSpecies": [
+      {
+        "key": 2495455,
+        "scientificName": "Columba palumbus",
+        "vernacularFr": "Palombe",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 20768
+      },
+      {
+        "key": 9705453,
+        "scientificName": "Parus major",
+        "vernacularFr": "Mésange charbonnière",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 20503
+      },
+      {
+        "key": 9409796,
+        "scientificName": "Corvus corone",
+        "vernacularFr": "Corbeau corneille",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 18265
+      },
+      {
+        "key": 2490719,
+        "scientificName": "Turdus merula",
+        "vernacularFr": "Merle noir",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 17656
+      },
+      {
+        "key": 2495414,
+        "scientificName": "Columba livia",
+        "vernacularFr": "Pigeon biset",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 17289
+      },
+      {
+        "key": 2487879,
+        "scientificName": "Cyanistes caeruleus",
+        "vernacularFr": "Mésange bleue",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 14911
+      },
+      {
+        "key": 5229490,
+        "scientificName": "Pica pica",
+        "vernacularFr": "Pie bavarde",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 14173
+      },
+      {
+        "key": 2479226,
+        "scientificName": "Psittacula krameri",
+        "vernacularFr": "Perruche à collier",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 12755
+      },
+      {
+        "key": 9809229,
+        "scientificName": "Sturnus vulgaris",
+        "vernacularFr": "Etourneau sansonnet",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 11966
+      },
+      {
+        "key": 5231190,
+        "scientificName": "Passer domesticus",
+        "vernacularFr": null,
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 11663
+      },
+      {
+        "key": 2492462,
+        "scientificName": "Erithacus rubecula",
+        "vernacularFr": "Rouge-gorge familier",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 10410
+      },
+      {
+        "key": 6065824,
+        "scientificName": "Chroicocephalus ridibundus",
+        "vernacularFr": "Mouette rieuse",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 8791
+      }
+    ],
+    "accessedAt": "2026-08-04T07:14:27.070Z"
+  },
+  "toulouse": {
+    "crawledAt": "2026-08-04",
+    "source": "gbif",
+    "queryVersion": 2,
+    "radiusKm": 10,
+    "yearFrom": 2015,
+    "licenses": [
+      "CC0_1_0",
+      "CC_BY_4_0"
+    ],
+    "occurrences": 231679,
+    "observers": 2000,
+    "observersTruncated": true,
+    "datasets": 377,
+    "species": 3852,
+    "speciesTruncated": false,
+    "rarefiedN": 500,
+    "rarefied": 205.8,
+    "rarefiedExact": true,
+    "rarefiedUpper": 205.8,
+    "groups": {
+      "birds": 234,
+      "mammals": 64,
+      "insects": 1248,
+      "amphibians": 15,
+      "reptiles": 0,
+      "plants": 1681
+    },
+    "groupsTruncated": [],
+    "threatenedSpecies": 36,
+    "topSpecies": [
+      {
+        "key": 2490719,
+        "scientificName": "Turdus merula",
+        "vernacularFr": "Merle noir",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 9429
+      },
+      {
+        "key": 9705453,
+        "scientificName": "Parus major",
+        "vernacularFr": "Mésange charbonnière",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 8444
+      },
+      {
+        "key": 5229490,
+        "scientificName": "Pica pica",
+        "vernacularFr": "Pie bavarde",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 8313
+      },
+      {
+        "key": 2495455,
+        "scientificName": "Columba palumbus",
+        "vernacularFr": "Palombe",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 6719
+      },
+      {
+        "key": 9809229,
+        "scientificName": "Sturnus vulgaris",
+        "vernacularFr": "Etourneau sansonnet",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 6556
+      },
+      {
+        "key": 5231190,
+        "scientificName": "Passer domesticus",
+        "vernacularFr": null,
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 6404
+      },
+      {
+        "key": 2492462,
+        "scientificName": "Erithacus rubecula",
+        "vernacularFr": "Rouge-gorge familier",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 6068
+      },
+      {
+        "key": 9409796,
+        "scientificName": "Corvus corone",
+        "vernacularFr": "Corbeau corneille",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 5699
+      },
+      {
+        "key": 2495696,
+        "scientificName": "Streptopelia decaocto",
+        "vernacularFr": "Tourterelle turque",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 4860
+      },
+      {
+        "key": 2492956,
+        "scientificName": "Sylvia atricapilla",
+        "vernacularFr": "Fauvette à tête noire",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 4690
+      },
+      {
+        "key": 2487879,
+        "scientificName": "Cyanistes caeruleus",
+        "vernacularFr": "Mésange bleue",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 4582
+      },
+      {
+        "key": 9413670,
+        "scientificName": "Larus michahellis",
+        "vernacularFr": "Gabian",
+        "vernacularEn": null,
+        "kingdom": "Animalia",
+        "class": "Aves",
+        "count": 3184
+      }
+    ],
+    "accessedAt": "2026-08-04T07:16:53.688Z"
+  }
+}
