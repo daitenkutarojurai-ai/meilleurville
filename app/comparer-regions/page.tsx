@@ -26,6 +26,14 @@ const PRIORITY_PAIRS: ReadonlyArray<readonly [string, string, string]> = [
   ["Île-de-France", "Auvergne-Rhône-Alpes", "Paris ou Lyon — quitter la capitale sans perdre l'urbanité"],
 ];
 
+// La route paire est générée dans l'ordre de METRO_REGIONS (i < j) : une paire
+// éditoriale écrite dans l'autre sens pointait vers un 404 et échappait au
+// dédoublonnage ci-dessous, donc la paire s'affichait deux fois.
+const regionPairSlug = (a: string, b: string) =>
+  METRO_REGIONS.indexOf(a) <= METRO_REGIONS.indexOf(b)
+    ? `${regionToSlug(a)}-vs-${regionToSlug(b)}`
+    : `${regionToSlug(b)}-vs-${regionToSlug(a)}`;
+
 export default function ComparerRegionsIndex() {
   // All 78 combinations
   const allPairs: Array<[string, string]> = [];
@@ -37,10 +45,10 @@ export default function ComparerRegionsIndex() {
 
   // Priority slugs set for dedup
   const prioritySlugs = new Set(
-    PRIORITY_PAIRS.map(([a, b]) => `${regionToSlug(a)}-vs-${regionToSlug(b)}`),
+    PRIORITY_PAIRS.map(([a, b]) => regionPairSlug(a, b)),
   );
   const otherPairs = allPairs.filter(
-    ([a, b]) => !prioritySlugs.has(`${regionToSlug(a)}-vs-${regionToSlug(b)}`),
+    ([a, b]) => !prioritySlugs.has(regionPairSlug(a, b)),
   );
 
   return (
@@ -72,7 +80,7 @@ export default function ComparerRegionsIndex() {
           {PRIORITY_PAIRS.map(([a, b, tagline]) => (
             <Link
               key={`${a}-${b}`}
-              href={`/comparer-regions/${regionToSlug(a)}-vs-${regionToSlug(b)}`}
+              href={`/comparer-regions/${regionPairSlug(a, b)}`}
               className="block"
             >
               <Card className="hover:border-[var(--accent)]/40 transition-colors cursor-pointer">
@@ -104,7 +112,7 @@ export default function ComparerRegionsIndex() {
           {otherPairs.map(([a, b]) => (
             <Link
               key={`${a}-${b}`}
-              href={`/comparer-regions/${regionToSlug(a)}-vs-${regionToSlug(b)}`}
+              href={`/comparer-regions/${regionPairSlug(a, b)}`}
               className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-1.5 text-xs text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:text-[var(--text-primary)] transition-colors"
             >
               <span className="mr-1" aria-hidden>

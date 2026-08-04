@@ -1492,22 +1492,24 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
       </section>
 
       {/* Compare bar */}
-      <div className="border-t border-[var(--border)] bg-[var(--bg-surface)] py-4">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6">
-          <div className="flex flex-wrap items-center gap-3">
-            <span className="text-xs text-[var(--text-secondary)] flex-shrink-0">{L(`Comparer ${city.name} avec :`, `Compare ${city.name} with:`)}</span>
-            {data.compareSuggestions.map((c) => (
-              <a
-                key={c.slug}
-                href={`/${locale === "en" ? "compare" : "comparer"}/${[city.slug, c.slug].sort().join("-vs-")}`}
-                className="rounded-full border border-[var(--border)] px-3 py-1 text-xs text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:text-[var(--text-primary)] transition-colors"
-              >
-                {c.name}
-              </a>
-            ))}
+      {data.compareSuggestions.length > 0 && (
+        <div className="border-t border-[var(--border)] bg-[var(--bg-surface)] py-4">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6">
+            <div className="flex flex-wrap items-center gap-3">
+              <span className="text-xs text-[var(--text-secondary)] flex-shrink-0">{L(`Comparer ${city.name} avec :`, `Compare ${city.name} with:`)}</span>
+              {data.compareSuggestions.map((c) => (
+                <a
+                  key={c.slug}
+                  href={`/${locale === "en" ? "compare" : "comparer"}/${c.comparePair}`}
+                  className="rounded-full border border-[var(--border)] px-3 py-1 text-xs text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:text-[var(--text-primary)] transition-colors"
+                >
+                  {c.name}
+                </a>
+              ))}
+            </div>
           </div>
         </div>
-      </div>
+      )}
 
       <CityReviewModal
         citySlug={city.slug}

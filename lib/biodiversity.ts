@@ -54,6 +54,13 @@ import { CITIES_SEED } from "@/data/cities-seed";
 
 /* ── attribution ──────────────────────────────────────────────────────── */
 
+// Les deux sous-pages `biodiversite` / `biodiversity` sont encore garées en
+// `page.pending.tsx` (F62 attend l'ingest des zones protégées INPN). Tant que
+// c'est `false`, aucune surface ne doit lier vers elles : la carte 🦋 pointait
+// vers un 404 sur chaque ville déjà collectée, et le lot grossit à chaque run
+// du cron local. À basculer dans le commit qui renomme les deux fichiers.
+export const BIODIVERSITY_PAGES_LIVE = false;
+
 export const GBIF_CREDIT = "GBIF.org — Global Biodiversity Information Facility";
 export const GBIF_URL = "https://www.gbif.org";
 export const INPN_CREDIT = "INPN — MNHN, Licence Ouverte Etalab";

@@ -23,6 +23,14 @@ const PRIORITY_PAIRS: ReadonlyArray<readonly [string, string, string]> = [
   ["Île-de-France", "Auvergne-Rhône-Alpes", "Paris or Lyon — leaving the capital without losing the city buzz."],
 ];
 
+// The pair route is generated in METRO_REGIONS order (i < j): an editorial pair
+// written the other way round links to a 404 and escapes the dedup below, so the
+// pair also rendered twice.
+const regionPairSlug = (a: string, b: string) =>
+  METRO_REGIONS.indexOf(a) <= METRO_REGIONS.indexOf(b)
+    ? `${regionToSlug(a)}-vs-${regionToSlug(b)}`
+    : `${regionToSlug(b)}-vs-${regionToSlug(a)}`;
+
 export default function EnCompareRegionsIndex() {
   const allPairs: Array<[string, string]> = [];
   for (let i = 0; i < METRO_REGIONS.length; i++) {
@@ -32,10 +40,10 @@ export default function EnCompareRegionsIndex() {
   }
 
   const prioritySlugs = new Set(
-    PRIORITY_PAIRS.map(([a, b]) => `${regionToSlug(a)}-vs-${regionToSlug(b)}`),
+    PRIORITY_PAIRS.map(([a, b]) => regionPairSlug(a, b)),
   );
   const otherPairs = allPairs.filter(
-    ([a, b]) => !prioritySlugs.has(`${regionToSlug(a)}-vs-${regionToSlug(b)}`),
+    ([a, b]) => !prioritySlugs.has(regionPairSlug(a, b)),
   );
 
   return (
@@ -62,7 +70,7 @@ export default function EnCompareRegionsIndex() {
           {PRIORITY_PAIRS.map(([a, b, tagline]) => (
             <Link
               key={`${a}-${b}`}
-              href={`/compare-regions/${regionToSlug(a)}-vs-${regionToSlug(b)}`}
+              href={`/compare-regions/${regionPairSlug(a, b)}`}
               className="block"
             >
               <Card className="hover:border-[var(--accent)]/40 transition-colors cursor-pointer">
@@ -88,7 +96,7 @@ export default function EnCompareRegionsIndex() {
           {otherPairs.map(([a, b]) => (
             <Link
               key={`${a}-${b}`}
-              href={`/compare-regions/${regionToSlug(a)}-vs-${regionToSlug(b)}`}
+              href={`/compare-regions/${regionPairSlug(a, b)}`}
               className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-1.5 text-xs text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:text-[var(--text-primary)] transition-colors"
             >
               <span className="mr-1" aria-hidden>{REGION_EMOJIS[a] ?? "📍"}</span>

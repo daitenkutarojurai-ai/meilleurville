@@ -14,7 +14,7 @@ import { nearestCities, type NearbyCity } from "@/lib/distances-rankings";
 import { buildRentVsBuy } from "@/lib/rent-vs-buy-rankings";
 import type { RentVsBuyData } from "@/lib/rent-vs-buy";
 import { cityParks, nearbyCityParks } from "@/lib/city-parks";
-import { biodiversityProfile } from "@/lib/biodiversity";
+import { biodiversityProfile, BIODIVERSITY_PAGES_LIVE } from "@/lib/biodiversity";
 import { comparePairSlug } from "@/lib/comparer-pairs";
 
 export interface CityRankingPosition {
@@ -57,7 +57,7 @@ export interface CityProfileData {
   housing: ReturnType<typeof getHousing>;
   rankingPositions: CityRankingPosition[];
   similar: SimilarCityItem[];
-  compareSuggestions: Array<{ slug: string; name: string }>;
+  compareSuggestions: Array<{ slug: string; name: string; comparePair: string }>;
   citiesCount: number;
   lean: PoliticalLean | null;
   tension: { score: number } & ReturnType<typeof tensionInfo>;
@@ -73,14 +73,16 @@ export interface CityProfileData {
   parksWithPlayground: number;
   /** Nearest crawled neighbour, for cities the crawl has not reached yet. */
   nearbyParks: { slug: string; name: string; parksCount: number; distanceKm: number } | null;
-  /** F62 — gates the 🦋 biodiversity card. `null` until the GBIF crawl covers
-   *  the city, since the sub-page does not exist before then. `score` is null
+  /** F62 — gates the 🦋 biodiversity card. `null` while the sub-page is still
+   *  parked as page.pending.tsx (see BIODIVERSITY_PAGES_LIVE), and `null` until
+   *  the GBIF crawl covers the city once it ships. `score` is null
    *  on a crawled-but-thinly-surveyed city: the page still exists and says so,
    *  so the card links there with an honest label instead of a number. */
   biodiversity: { score: number | null; species: number } | null;
 }
 
 function biodiversityProjection(city: CitySeed) {
+  if (!BIODIVERSITY_PAGES_LIVE) return { biodiversity: null };
   const profile = biodiversityProfile(city.slug);
   if (!profile) return { biodiversity: null };
   return {
@@ -145,14 +147,19 @@ export function buildCityProfileData(city: CitySeed): CityProfileData {
       comparePair: comparePairSlug(city.slug, c.slug),
     }));
 
+  // Only cities this one has a built /comparer page with: the bar used to
+  // suggest the nearest six regardless, and every uncurated pair was a 404.
   const compareSuggestions = CITIES_SEED.filter((c) => c.slug !== city.slug)
     .sort((a, b) => {
       const aRegion = a.region === city.region ? 0 : 1;
       const bRegion = b.region === city.region ? 0 : 1;
       return aRegion !== bRegion ? aRegion - bRegion : b.scores.global - a.scores.global;
     })
-    .slice(0, 6)
-    .map((c) => ({ slug: c.slug, name: c.name }));
+    .flatMap((c) => {
+      const comparePair = comparePairSlug(city.slug, c.slug);
+      return comparePair ? [{ slug: c.slug, name: c.name, comparePair }] : [];
+    })
+    .slice(0, 6);
 
   const tensionScore = rentalTension(city);
 

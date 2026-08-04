@@ -77,16 +77,16 @@ export function QolHeroBadge({
           >
             {L("Classement national →", "National ranking →")}
           </Link>
-          <Link
-            href={
-              locale === "en"
-                ? "/quality-of-life/customize"
-                : "/cadre-de-vie/personnaliser"
-            }
-            className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg border border-[var(--accent)]/40 bg-[var(--accent)]/5 hover:bg-[var(--accent)]/10 transition-colors text-[var(--accent)] font-semibold"
-          >
-            {L("✨ Pondérer", "✨ Weight it")}
-          </Link>
+          {/* No EN twin of /cadre-de-vie/personnaliser yet — the EN link pointed
+              at /quality-of-life/customize, a 404 on every EN city page. */}
+          {locale !== "en" && (
+            <Link
+              href="/cadre-de-vie/personnaliser"
+              className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg border border-[var(--accent)]/40 bg-[var(--accent)]/5 hover:bg-[var(--accent)]/10 transition-colors text-[var(--accent)] font-semibold"
+            >
+              {L("✨ Pondérer", "✨ Weight it")}
+            </Link>
+          )}
         </div>
       </div>
 
