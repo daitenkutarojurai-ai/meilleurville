@@ -761,6 +761,35 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
   - Demande de recherche **non chiffrée** : le plan Ahrefs refuse keyword explorer et
     Search Console. Sortir les volumes de la GSC avant d'industrialiser la série.
 
+- [ ] **F64 — Actualité locale par ville** — la seule couche mouvante du site : ce que
+  les publications officielles disent d'une commune sur 12 mois glissants. Spec complète
+  dans `ROADMAP.md` § « Vague 7 — F64 », **à lire avant d'y toucher** (elle contient les
+  arbitrages déjà tranchés).
+  - **État au 2026-08-04** : moteur livré, **0/540 villes**. `scripts/city-news.mjs`
+    (`npm run news`, + `:probe` / `:selftest` / `:prune` / `:stats`, 38 contrôles hors
+    ligne verts), `lib/city-news.ts`, `components/CityNewsSection.tsx` câblé sur les deux
+    pages ville. `data/city-news.json` est vide → la section ne s'affiche nulle part,
+    ce qui est le comportement voulu. Egress 403 CONNECT sur `api.bodacc.fr` et
+    `www.data.gouv.fr` : le crawl part d'une passe locale. **Lancer `npm run news:probe`
+    en local avant le premier lot** — tous les noms de champs sont `@unverified`.
+  - **Une section, pas une page.** Pas de `/villes/[slug]/actualites` ×540 : une page
+    dont le corps est une liste de titres agrégés est du *scraped content*. Donc pas
+    d'URL propre, pas d'entrée sitemap, pas de JSON-LD `NewsArticle` (on n'est pas
+    l'éditeur), et la section **disparaît** quand la ville n'a rien dans la fenêtre.
+  - **Rendu serveur obligatoire** : `CityProfile` est `"use client"` et déjà à ~1 Mo de
+    JS ; le composant est monté *après* lui dans la page serveur (précédent
+    `CityGuidesList`), jamais importé depuis un composant client.
+  - **BODACC et RNA agrégés en compteurs mensuels, jamais nominatifs** — une grande part
+    des annonces vise des entrepreneurs individuels, donc des personnes physiques. Seuls
+    les arrêtés CatNat, actes de l'État ne nommant personne, sont listés à l'unité.
+  - **La presse quotidienne régionale est gatée** (droit voisin, loi 2019-775) et Google
+    News RSS est interdit par ses CGU. Aucun scraping d'article, aucune reformulation IA
+    (reformuler ne fait pas disparaître le droit voisin, ça ajoute une erreur factuelle
+    signée par nous). Phase 1 = open data officielle uniquement.
+  - Convention d'honnêteté : on n'y classe ni ne commente. Une création d'entreprise
+    n'est pas une bonne nouvelle en soi, une radiation n'est pas une mauvaise. `licence`
+    est portée **par entrée**, pas par fichier.
+
 ---
 
 ### Conventions for adding an EN route

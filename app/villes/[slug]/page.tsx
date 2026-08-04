@@ -8,6 +8,7 @@ import { CityProfile } from "./CityProfile";
 import { buildCityProfileData } from "@/lib/city-profile-data";
 import { CityJsonLd } from "@/components/CityJsonLd";
 import { CityGuidesList } from "@/components/CityGuidesList";
+import { CityNewsSection } from "@/components/CityNewsSection";
 import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { cityFaq } from "@/lib/city-faq";
@@ -70,6 +71,7 @@ export default async function CityPage({ params }: Props) {
       <CityJsonLd city={city} faq={faq} photo={photo} />
       <Navbar />
       <CityProfile city={city} data={buildCityProfileData(city)} faq={faq} photo={photo} />
+      <CityNewsSection slug={city.slug} name={city.name} />
       <CityGuidesList slug={city.slug} name={city.name} />
       <div className="mx-auto max-w-4xl px-4 sm:px-6 pb-12">
         <FeedbackWidget />

@@ -179,7 +179,7 @@ recensées à proximité, zones protégées.
 |---|---------|------|------|-----|--------|
 | F62 | **Score Biodiversité** (pipeline GBIF + INPN → sous-page ×540 + classement) | **P0** | **L** | **high** | 🚧 en cours — moteur livré 30/07, durci 02/08 (selftest + raréfaction bornée), crawl en attente d'une passe locale |
 | F63 | **Qualité de l'air — du modèle à la mesure** (ATMO + Geod'Air, hub + classement) | **P0** | **M** | **high** | 🔜 à faire |
-| F64 | **Actualité locale par ville** (open data BODACC/JO/CatNat → section CityProfile + routine hebdo) | **P1** | **M** | **low** | 🔜 à faire — spec 03/08 |
+| F64 | **Actualité locale par ville** (open data BODACC/JO/CatNat → section CityProfile + routine hebdo) | **P1** | **M** | **low** | 🚧 en cours — moteur + section livrés 04/08 (selftest 38 ✓), **0/540 villes**, crawl en attente d'une passe locale (403 CONNECT) |
 
 ### F62 — Score Biodiversité
 
@@ -541,6 +541,97 @@ une mauvaise. Chaque entrée cite sa source et sa licence.
   La section doit être rendue **côté serveur** et ne rien ajouter au bundle client.
 - **Périmé** — traité par la routine ; si la routine casse, la section doit afficher
   la date du dernier rafraîchissement plutôt que faire semblant.
+
+#### État au 2026-08-04 — moteur livré, données non collectées
+
+**0/540 villes.** `data/city-news.json` vaut `{ meta, cities: {} }`, donc la section ne
+s'affiche nulle part — c'est le comportement voulu, pas une panne. Ce qui est en place :
+`scripts/city-news.mjs` (`npm run news`, + `:probe` / `:selftest` / `:prune` / `:stats`),
+`lib/city-news.ts`, `components/CityNewsSection.tsx`, câblé sur les deux pages ville
+(FR `/villes/[slug]` et EN `/cities/[slug]`). `npm run news:selftest` : 38 contrôles
+hors ligne, tous verts.
+
+**Egress toujours refusé** (403 CONNECT retesté le 04/08 sur `api.bodacc.fr` et
+`www.data.gouv.fr`). Le crawl partira d'une passe locale, comme F62/F59.
+
+**Vérification de rendu.** Le `npm run build` complet a compilé et typé sans erreur puis
+s'est arrêté à 26 k / 56 k pages sur le quota disque de la session (pas sur une erreur de
+code) ; `out/` + `.next/` ont été supprimés pour rendre la place. Comme le JSON est vide,
+un build n'exerce de toute façon que le chemin « la section renvoie `null` ». Le chemin qui
+comptera a donc été vérifié à part : fixture injectée dans `data/city-news.json` →
+`renderToStaticMarkup` du composant en FR et EN → 16 contrôles (titres, mois vs jour exact,
+`rel="nofollow"` sur tous les liens, libellés de source, licence affichée, mention de
+rafraîchissement périmé, absence de rendu sans données), tous verts, fixture retirée.
+C'est ce test qui a trouvé la fuite de français côté EN décrite plus bas.
+
+Ce que ce run a tranché ou appris, à lire avant le premier crawl local :
+
+- **La section est rendue par un composant serveur monté *après* `CityProfile`, pas
+  dedans.** `CityProfile.tsx` est `"use client"` : y importer `lib/city-news.ts` ferait
+  voyager tout `data/city-news.json` dans le bundle client de 540 pages déjà à ~1 Mo de
+  JS, pour quelques lignes de texte. Le rendu serveur est une contrainte de la spec, le
+  fichier d'accueil ne l'était pas. Précédent identique : `CityGuidesList`.
+- **BODACC et le RNA sont agrégés en compteurs mensuels, pas listés nommément.** Le
+  BODACC publie une annonce par entreprise et une grande part sont des entrepreneurs
+  individuels, donc des personnes physiques nommées. Republier « X, radiation » sur une
+  fiche ville, hors de son contexte d'annonce légale, sur un site à 54 000 pages
+  indexées, c'est de la donnée personnelle rediffusée : la Licence Ouverte l'autorise,
+  ça ne le rend pas correct, et ce n'est pas ce dont un lecteur a besoin. Les arrêtés
+  CatNat, eux, sont des actes de l'État qui ne nomment personne — seuls ceux-là sont
+  listés à l'unité. **Ne pas « enrichir » en repassant aux annonces nominatives.**
+- **Le seed n'a pas de code postal, seulement `inseeCode`** — et l'ancrage commune du
+  BODACC est le point ouvert du pipeline. Si le jeu expose une colonne Insee on s'y
+  ancre (exact) ; sinon on retombe sur nom de commune + département, **qui n'est pas
+  exact** (les homonymes existent, « Sainte-Marie » dans cinq départements). `resolveAnchor()`
+  choisit et le log le dit par run. Géorisques et le RNA s'ancrent nativement sur l'Insee.
+- **Tous les noms de champs sont `@unverified`** — aucune requête de ce fichier n'a
+  jamais tourné contre les API réelles. **Lancer `npm run news:probe` en local avant le
+  premier lot** : il imprime les champs réellement renvoyés et les valeurs distinctes de
+  `familleavis`, et n'écrit rien.
+- **L'ingest RNA est désactivé** (`RNA_RESOURCE_ID = null`) tant que la ressource
+  data.gouv.fr n'est pas résolue. Il renvoie `null` = « on n'a pas demandé », jamais un
+  tableau vide : une commune s'affiche alors sans la source `rna` plutôt qu'en laissant
+  croire qu'elle n'a créé aucune association. Même règle que `cityProtectedAreas()` en F62.
+- **Double fenêtrage, volontaire.** Le crawl élague (12 mois, 8 entrées/ville) *et*
+  `lib/city-news.ts` refiltre à la date du build. C'est ce second passage qui protège le
+  jour où la routine hebdo casse : un JSON figé depuis 14 mois se vide tout seul et la
+  section disparaît, au lieu de présenter des dépôts d'il y a un an comme récents.
+  `isCityNewsStale(slug)` fait afficher « dernier rafraîchissement réussi le … » à la
+  place de « mis à jour le … ». Ne pas fusionner les deux fenêtres.
+- **Chaque entrée porte sa jumelle anglaise (`titleEn`), écrite au moment du crawl.**
+  Défaut trouvé en rendant réellement le composant : les phrases étant composées en
+  français par le pipeline, `bestcitiesinfrance.com` affichait « 42 créations d'entreprises
+  publiées au BODACC » sur une page anglaise — exactement la fuite que vise la convention
+  #6 de `CLAUDE.md`. Les deux chaînes sont construites **depuis le même compteur**, donc
+  les deux locales ne *peuvent pas* annoncer un chiffre différent pour une même ville (la
+  règle hreflang tient par construction, pas par relecture). Exception assumée : sur un
+  arrêté CatNat seul le cadre est traduit, **le libellé de risque reste en français**
+  (« inondations et coulées de boue ») — c'est le mot d'un acte administratif, et une
+  traduction approximative d'une catégorie juridique serait notre erreur attribuée à l'État.
+- **Les 8 places se remplissent en tourniquet par type, pas par pure fraîcheur.** Le
+  BODACC produit jusqu'à trois agrégats par mois : trier par date remplissait les huit
+  places avec douze mois de compteurs d'entreprises et éjectait l'arrêté CatNat du
+  printemps — précisément l'entrée qu'un lecteur doit voir. `roundRobinByKind()` sert un
+  type à la fois avant d'en resservir un, les types étant visités par fraîcheur, donc le
+  signal le plus récent ouvre quand même la liste. Ne pas « simplifier » en `.slice(0, 8)`.
+- **Le cache est daté au jour** (`.cache/city-news/<slug>.<source>.<YYYY-MM-DD>.v1.json`),
+  contrairement à F59 : les parcs sont un backfill unique où une réponse cachée vaut une
+  réponse fraîche, ici c'est un **rafraîchissement** — la réponse de la semaine dernière
+  est exactement ce qu'on cherche à remplacer. Clé au jour = un run interrompu reprend
+  gratuitement, le run de la semaine suivante refetche pour de bon.
+- **Le lot tourne, il ne re-crawle pas Paris chaque semaine** : `pickBatch()` prend
+  d'abord les villes jamais collectées (plus peuplées d'abord), puis les lignes périmées,
+  la plus ancienne d'abord.
+- **Trois seuils qui doivent rester cohérents entre eux** — c'est le piège du run :
+  une ville coûte ~3 requêtes à ~1 req/s (~3 s), le lot par défaut est de **180 villes**
+  (~10 min), donc **540 / 180 = 3 runs hebdo pour une rotation complète**, et une ligne
+  donnée est rafraîchie toutes les ~3 semaines *quand tout va bien*. D'où
+  `DUE_AFTER_DAYS = 14` côté script (une ligne devient éligible avant que son tour
+  revienne) et **45 jours** côté affichage — soit deux rotations manquées. Le seuil
+  d'affichage était d'abord à 21 jours : il aurait étiqueté « non revérifié depuis »
+  quasiment toutes les villes en permanence, ce qui apprend au lecteur à ignorer
+  l'avertissement le jour où il compte vraiment. Changer le lot par défaut oblige à
+  rouvrir les deux autres nombres.
 
 ---
 

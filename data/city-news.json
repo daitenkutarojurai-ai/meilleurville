@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "refreshedAt": null,
+    "queryVersion": 1,
+    "windowMonths": 12,
+    "maxEntriesPerCity": 8
+  },
+  "cities": {}
+}
