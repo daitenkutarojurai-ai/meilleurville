@@ -79,7 +79,12 @@ export default function LeaderboardPage() {
           </h1>
           <p className="text-[var(--text-secondary)] text-lg max-w-2xl mx-auto">
             Score global pondéré sur 8 axes (vie, sécurité, coût, nature, transport, culture, écoles, télétravail).
-            Calibré sur Insee + Ministère Intérieur.
+            Calibré sur Insee + Ministère Intérieur. Ce que chacun de ces axes mesure, et ce
+            qu&apos;en disent les habitants, est détaillé sur la page{" "}
+            <Link href="/avis" className="text-[var(--accent)] hover:underline">
+              notes et avis des villes
+            </Link>
+            .
           </p>
         </div>
       </section>

@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
@@ -39,8 +40,11 @@ export default function VillesPage() {
             <span className="font-display gradient-text-anim italic">ville par ville</span>
           </h1>
           <p className="text-[var(--text-secondary)] text-lg max-w-2xl mx-auto">
-            Scores calibrés sur Insee + Ministère Intérieur, avis d&apos;habitants, données locales.
-            Filtrez, triez, comparez — sans bullshit.
+            Scores calibrés sur Insee + Ministère Intérieur,{" "}
+            <Link href="/avis" className="text-[var(--accent)] hover:underline">
+              avis d&apos;habitants
+            </Link>
+            , données locales. Filtrez, triez, comparez — sans bullshit.
           </p>
 
           {/* Honest mini stats */}

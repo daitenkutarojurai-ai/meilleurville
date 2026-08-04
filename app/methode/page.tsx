@@ -100,6 +100,11 @@ export default function MethodePage() {
           <p className="text-[var(--text-secondary)] text-lg max-w-2xl mx-auto">
             Aucune ville ne paie pour son classement. Voici exactement les sources,
             la formule, et les limites que vous devez connaître avant d&apos;utiliser nos chiffres.
+            Le résultat de ce calcul se lit ailleurs :{" "}
+            <Link href="/avis" className="text-[var(--accent)] hover:underline">
+              la note publiée de chaque ville et les avis de ses habitants
+            </Link>
+            .
           </p>
         </div>
       </section>

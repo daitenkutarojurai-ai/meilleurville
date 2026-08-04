@@ -96,7 +96,11 @@ export default function ClassementsPage() {
           </h1>
           <p className="text-[var(--text-secondary)] text-lg max-w-2xl mx-auto">
             Avis d&apos;habitants + données officielles, agrégés par style de vie.
-            Mis à jour chaque semaine — sans bullshit.
+            Mis à jour chaque semaine — sans bullshit. Sans filtre de style de vie,{" "}
+            <Link href="/avis" className="text-[var(--accent)] hover:underline">
+              toutes les notes sont réunies au même endroit
+            </Link>
+            .
           </p>
         </div>
       </section>

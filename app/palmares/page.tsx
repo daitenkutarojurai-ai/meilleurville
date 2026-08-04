@@ -287,6 +287,13 @@ export default function PalmaresHubPage() {
           Voir aussi
         </h2>
         <div className="mt-3 grid grid-cols-2 sm:grid-cols-3 gap-3">
+          <Link href="/avis" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">💬</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">Avis &amp; notes des villes</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">La note sur 8 critères + ce qu&apos;en disent les habitants</div>
+            </Card>
+          </Link>
           <Link href="/cadre-de-vie" className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-2xl mb-1">🌿</div>
