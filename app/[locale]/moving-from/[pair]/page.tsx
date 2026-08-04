@@ -6,6 +6,7 @@ import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { QUITTER_PAIRS, buildQuitterPairData } from "@/lib/quitter-pairs";
+import { comparePairSlug } from "@/lib/comparer-pairs";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { scoreColor } from "@/lib/utils";
 import { CITIES_COUNT } from "@/lib/site-stats";
@@ -293,12 +294,14 @@ export default async function MovingFromPairPage({ params }: Props) {
               <div className="mt-1 text-sm font-semibold text-[var(--text-primary)]">{destination.name}</div>
             </Card>
           </Link>
-          <Link href={`/compare/${origin.slug}-vs-${destination.slug}`} className="block">
-            <Card className="p-4 hover:shadow-md transition">
-              <div className="text-xs uppercase text-[var(--text-tertiary)]">Side-by-side</div>
-              <div className="mt-1 text-sm font-semibold text-[var(--text-primary)]">{origin.name} vs {destination.name}</div>
-            </Card>
-          </Link>
+          {comparePairSlug(origin.slug, destination.slug) && (
+            <Link href={`/compare/${comparePairSlug(origin.slug, destination.slug)}`} className="block">
+              <Card className="p-4 hover:shadow-md transition">
+                <div className="text-xs uppercase text-[var(--text-tertiary)]">Side-by-side</div>
+                <div className="mt-1 text-sm font-semibold text-[var(--text-primary)]">{origin.name} vs {destination.name}</div>
+              </Card>
+            </Link>
+          )}
           <Link href="/city-match" className="block">
             <Card className="p-4 hover:shadow-md transition">
               <div className="text-xs uppercase text-[var(--text-tertiary)]">City Match</div>

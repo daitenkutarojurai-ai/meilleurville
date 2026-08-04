@@ -689,7 +689,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                   </Link>
                 </Card>
                 <Card>
-                  <SimilarCities citySlug={city.slug} items={data.similar} locale={locale} />
+                  <SimilarCities items={data.similar} locale={locale} />
                 </Card>
               </div>
             </div>

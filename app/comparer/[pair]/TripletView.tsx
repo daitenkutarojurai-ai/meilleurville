@@ -11,7 +11,7 @@ import { CommentSection } from "@/components/CommentSection";
 import { CityCard } from "@/components/CityCard";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
-import { SEO_PAIRS } from "@/lib/comparer-pairs";
+import { comparePairSlug } from "@/lib/comparer-pairs";
 import { SEO_TRIPLETS } from "@/lib/comparer-triplets";
 import { scoreColor } from "@/lib/utils";
 import type { City } from "@/lib/types";
@@ -437,15 +437,12 @@ export function TripletView({ cities, slug }: { cities: SeedCity[]; slug: string
               [a, c],
               [b, c],
             ].map(([x, y]) => {
-              const pairSlug = SEO_PAIRS.find(
-                ([s1, s2]) =>
-                  (s1 === x.slug && s2 === y.slug) || (s1 === y.slug && s2 === x.slug),
-              );
-              const href = pairSlug ? `/comparer/${pairSlug[0]}-vs-${pairSlug[1]}` : `/comparer/${x.slug}-vs-${y.slug}`;
+              const pairSlug = comparePairSlug(x.slug, y.slug);
+              if (!pairSlug) return null;
               return (
                 <Link
                   key={`${x.slug}-${y.slug}`}
-                  href={href}
+                  href={`/comparer/${pairSlug}`}
                   className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-1.5 text-xs text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:text-[var(--text-primary)] transition-colors"
                 >
                   {x.name} vs {y.name}

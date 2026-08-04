@@ -15,6 +15,7 @@ import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
 import { clampMeta } from "@/lib/brand";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { renderRich, stripMd } from "@/lib/link-cities";
+import { comparePairSlug } from "@/lib/comparer-pairs";
 import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { suggestNextGuides } from "@/lib/guide-suggestions";
 import { slugifyTag, TAG_SLUGS } from "@/lib/guide-tags";
@@ -81,6 +82,12 @@ export default async function GuidePage({ params }: Props) {
   const prevGuide = idx > 0 ? siblings[idx - 1] : null;
   const nextSibling = idx >= 0 && idx < siblings.length - 1 ? siblings[idx + 1] : null;
   const relatedCities = CITIES_SEED.filter((c) => guide.relatedCities.includes(c.slug));
+  const comparablePairs = relatedCities.slice(0, 4).flatMap((cityA, i) =>
+    relatedCities.slice(i + 1, i + 3).flatMap((cityB) => {
+      const slug = comparePairSlug(cityA.slug, cityB.slug);
+      return slug ? [{ slug, cityA, cityB }] : [];
+    })
+  );
   const hero = guideCityPhoto(guide.slug, guide.relatedCities);
   const pois = guidePois(guide.slug);
   const heroCityName = hero ? CITIES_SEED.find((c) => c.slug === hero.slug)?.name ?? hero.slug : null;
@@ -407,26 +414,24 @@ export default async function GuidePage({ params }: Props) {
             )}
 
             {/* Compare pairs between related cities */}
-            {relatedCities.length >= 2 && (
+            {comparablePairs.length > 0 && (
               <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
                 <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-3">
                   Comparer ces villes
                 </p>
                 <div className="space-y-2">
-                  {relatedCities.slice(0, 4).flatMap((cityA, i) =>
-                    relatedCities.slice(i + 1, i + 3).map((cityB) => (
-                      <Link
-                        key={`${cityA.slug}-vs-${cityB.slug}`}
-                        href={`/comparer/${cityA.slug}-vs-${cityB.slug}`}
-                        className="flex items-center justify-between group rounded-lg hover:bg-[var(--bg-elevated)] px-2 py-1.5 transition-colors"
-                      >
-                        <span className="text-xs text-[var(--text-secondary)] group-hover:text-[var(--text-primary)] transition-colors">
-                          {cityA.name} vs {cityB.name}
-                        </span>
-                        <span className="text-xs text-[var(--accent)]">→</span>
-                      </Link>
-                    ))
-                  )}
+                  {comparablePairs.map(({ slug, cityA, cityB }) => (
+                    <Link
+                      key={slug}
+                      href={`/comparer/${slug}`}
+                      className="flex items-center justify-between group rounded-lg hover:bg-[var(--bg-elevated)] px-2 py-1.5 transition-colors"
+                    >
+                      <span className="text-xs text-[var(--text-secondary)] group-hover:text-[var(--text-primary)] transition-colors">
+                        {cityA.name} vs {cityB.name}
+                      </span>
+                      <span className="text-xs text-[var(--accent)]">→</span>
+                    </Link>
+                  ))}
                 </div>
               </div>
             )}

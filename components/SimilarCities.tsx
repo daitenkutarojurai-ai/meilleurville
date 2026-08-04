@@ -5,12 +5,11 @@ import type { SimilarCityItem } from "@/lib/city-profile-data";
 // (lib/city-profile-data buildCityProfileData) so this client component
 // doesn't bundle the full seed + housing datasets.
 interface SimilarCitiesProps {
-  citySlug: string;
   items: SimilarCityItem[];
   locale?: "fr" | "en";
 }
 
-export function SimilarCities({ citySlug, items, locale = "fr" }: SimilarCitiesProps) {
+export function SimilarCities({ items, locale = "fr" }: SimilarCitiesProps) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   if (items.length === 0) return null;
 
@@ -47,15 +46,18 @@ export function SimilarCities({ citySlug, items, locale = "fr" }: SimilarCitiesP
         ))}
       </div>
       <div className="mt-3 flex flex-wrap gap-2">
-        {items.slice(0, 2).map((c) => (
-          <Link
-            key={c.slug}
-            href={`${locale === "en" ? "/compare" : "/comparer"}/${[citySlug, c.slug].sort().join("-vs-")}`}
-            className="text-xs text-[var(--accent)] border border-[var(--accent)]/30 rounded-lg px-3 py-1.5 hover:bg-[var(--accent)]/5 transition-colors"
-          >
-            vs {c.name} →
-          </Link>
-        ))}
+        {items
+          .filter((c) => c.comparePair)
+          .slice(0, 2)
+          .map((c) => (
+            <Link
+              key={c.slug}
+              href={`${locale === "en" ? "/compare" : "/comparer"}/${c.comparePair}`}
+              className="text-xs text-[var(--accent)] border border-[var(--accent)]/30 rounded-lg px-3 py-1.5 hover:bg-[var(--accent)]/5 transition-colors"
+            >
+              vs {c.name} →
+            </Link>
+          ))}
         <Link
           href={locale === "en" ? `/compare` : `/comparer`}
           className="text-xs text-[var(--text-secondary)] border border-[var(--border)] rounded-lg px-3 py-1.5 hover:text-[var(--text-primary)] transition-colors"

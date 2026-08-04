@@ -47,6 +47,18 @@ export interface ExpatCountryProfile {
   warnings: string[];
 }
 
+// Countries with an English page under app/[locale]/expat-return/[slug]. The EN
+// hub must filter on this: it used to link every FR country, and the twelve
+// without a page were 404s.
+export const EN_EXPAT_COUNTRY_SLUGS = new Set([
+  "suisse",
+  "luxembourg",
+  "belgique",
+  "royaume-uni",
+  "canada",
+  "etats-unis",
+]);
+
 export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
   {
     slug: "suisse",

@@ -5,7 +5,7 @@ import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
-import { EXPAT_COUNTRIES } from "@/lib/expat-return";
+import { EXPAT_COUNTRIES, EN_EXPAT_COUNTRY_SLUGS } from "@/lib/expat-return";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
@@ -84,7 +84,7 @@ export default function EnExpatReturnPage() {
             Choose your country of origin
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {EXPAT_COUNTRIES.map((country) => (
+            {EXPAT_COUNTRIES.filter((c) => EN_EXPAT_COUNTRY_SLUGS.has(c.slug)).map((country) => (
               <Link
                 key={country.slug}
                 href={`/expat-return/from-${country.slug}`}

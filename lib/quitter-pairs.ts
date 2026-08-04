@@ -236,6 +236,15 @@ export function slugToPair(slug: string): QuitterPair | null {
   return [parts[0], parts[1]] as const;
 }
 
+const QUITTER_SLUGS = new Set(QUITTER_PAIRS.map(pairToSlug));
+
+// Same contract as `comparePairSlug`: `/quitter/[pair]` is `dynamicParams = false`,
+// so a link to a non-curated origin→destination is a 404, not a slower page.
+export function quitterPairSlug(origin: string, destination: string): string | null {
+  const slug = `${origin}-pour-${destination}`;
+  return QUITTER_SLUGS.has(slug) ? slug : null;
+}
+
 // Build-time integrity check: every pair must resolve to two real cities.
 // Throws at module load if a slug is broken — catches typos before deploy.
 for (const [a, b] of QUITTER_PAIRS) {

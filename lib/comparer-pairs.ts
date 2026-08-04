@@ -746,6 +746,18 @@ export const SEO_PAIRS: ReadonlyArray<readonly [string, string]> = [
   ["angers", "nimes"],
 ] as const;
 
+const PAIR_SLUGS = new Set(SEO_PAIRS.map(([a, b]) => `${a}-vs-${b}`));
+
+// `/comparer/[pair]` and `/compare/[pair]` set `dynamicParams = false`: any pair
+// outside this list is a hard 404. Every link to a computed pair must go through
+// this helper — linking an uncurated pair is what put 3 000 URLs in Search
+// Console's "Not found (404)" (coverage export 2026-08-04).
+export function comparePairSlug(a: string, b: string): string | null {
+  if (PAIR_SLUGS.has(`${a}-vs-${b}`)) return `${a}-vs-${b}`;
+  if (PAIR_SLUGS.has(`${b}-vs-${a}`)) return `${b}-vs-${a}`;
+  return null;
+}
+
 const KNOWN_CITY_SLUGS = new Set(CITIES_SEED.map((c) => c.slug));
 assertKnownSlugs({
   contextLabel: "SEO_PAIRS",

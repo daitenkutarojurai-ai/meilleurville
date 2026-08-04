@@ -16,7 +16,9 @@ interface Props {
   locale?: "fr" | "en";
 }
 
-/** FR profile slug → EN /for-who/ slug. Falls back to the FR slug when unknown. */
+/** FR profile slug → EN /for-who/ slug. Only profiles that actually have an EN
+ *  page belong here: an unmapped profile renders unlinked. The previous
+ *  fall-back to the FR slug pointed at /for-who/<french-slug>, which 404s. */
 const PROFILE_EN_SLUG: Record<string, string> = {
   "familles-avec-enfants": "families",
   "jeunes-actifs": "young-professionals",
@@ -31,8 +33,6 @@ const PROFILE_EN_SLUG: Record<string, string> = {
   "expat-retour": "returning-expats",
   "primo-accedants": "first-time-buyers",
   "familles-monoparentales": "single-parents",
-  "familles-nombreuses": "large-families",
-  "amateurs-de-plein-air": "outdoor-lovers",
 };
 
 function ratingBadge(score: number): { label: string; tone: string } {
@@ -162,24 +162,35 @@ export function HonestReviewCard({ cityName, citySlug, review, citiesCount, comp
                 </p>
               )}
               <ul className="space-y-1.5">
-                {review.perfectFor.map((f) => (
-                  <li key={f.profile.slug} className="text-sm">
-                    <Link
-                      href={
-                        locale === "en"
-                          ? `/for-who/${PROFILE_EN_SLUG[f.profile.slug] ?? f.profile.slug}`
-                          : `/pour-qui/${f.profile.slug}`
-                      }
-                      className="inline-flex items-center gap-1 text-[var(--text-primary)] hover:text-[var(--accent)] transition-colors"
-                    >
+                {review.perfectFor.map((f) => {
+                  const href =
+                    locale === "en"
+                      ? PROFILE_EN_SLUG[f.profile.slug] && `/for-who/${PROFILE_EN_SLUG[f.profile.slug]}`
+                      : `/pour-qui/${f.profile.slug}`;
+                  const body = (
+                    <>
                       <span aria-hidden>{f.profile.emoji}</span>
                       {f.profile.label}
                       <span className="text-[11px] text-[var(--text-tertiary)] ml-1">
                         {L(`(#${f.rank} sur ${citiesCount})`, `(#${f.rank} of ${citiesCount})`)}
                       </span>
-                    </Link>
-                  </li>
-                ))}
+                    </>
+                  );
+                  return (
+                    <li key={f.profile.slug} className="text-sm">
+                      {href ? (
+                        <Link
+                          href={href}
+                          className="inline-flex items-center gap-1 text-[var(--text-primary)] hover:text-[var(--accent)] transition-colors"
+                        >
+                          {body}
+                        </Link>
+                      ) : (
+                        <span className="inline-flex items-center gap-1 text-[var(--text-primary)]">{body}</span>
+                      )}
+                    </li>
+                  );
+                })}
               </ul>
             </>
           ) : (

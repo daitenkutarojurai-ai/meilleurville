@@ -14,6 +14,7 @@ import {
 } from "@/lib/household-cost";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { clampMeta } from "@/lib/brand";
+import { quitterPairSlug } from "@/lib/quitter-pairs";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -62,6 +63,7 @@ export default async function CoutMenageCityPage({ params }: Props) {
   const city = CITIES_SEED.find((c) => c.slug === ville);
   if (!city) notFound();
 
+  const quitterSlug = quitterPairSlug("paris", city.slug);
   const breakdowns = householdBreakdownsAllProfiles(city);
   const order: HouseholdProfile[] = ["solo", "couple", "famille", "retraite"];
   const byKey = new Map(breakdowns.map((b) => [b.profile, b]));
@@ -187,12 +189,14 @@ export default async function CoutMenageCityPage({ params }: Props) {
               <div className="mt-1 text-sm font-semibold text-[var(--text-primary)]">Reste-à-vivre inter-villes</div>
             </Card>
           </Link>
-          <Link href={`/quitter/paris-pour-${city.slug}`} className="block">
-            <Card className="p-4 hover:shadow-md transition">
-              <div className="text-xs uppercase text-[var(--text-tertiary)]">Quitter Paris</div>
-              <div className="mt-1 text-sm font-semibold text-[var(--text-primary)]">pour {city.name}</div>
-            </Card>
-          </Link>
+          {quitterSlug && (
+            <Link href={`/quitter/${quitterSlug}`} className="block">
+              <Card className="p-4 hover:shadow-md transition">
+                <div className="text-xs uppercase text-[var(--text-tertiary)]">Quitter Paris</div>
+                <div className="mt-1 text-sm font-semibold text-[var(--text-primary)]">pour {city.name}</div>
+              </Card>
+            </Link>
+          )}
         </div>
       </section>
 

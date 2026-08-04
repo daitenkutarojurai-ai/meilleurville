@@ -12,6 +12,7 @@ import {
   slugToPair,
 } from "@/lib/quitter-pairs";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { comparePairSlug } from "@/lib/comparer-pairs";
 import { scoreColor } from "@/lib/utils";
 import { CITIES_COUNT } from "@/lib/site-stats";
 
@@ -302,12 +303,14 @@ export default async function QuitterPairPage({ params }: Props) {
               <div className="mt-1 text-sm font-semibold text-[var(--text-primary)]">Calculateur {destination.name}</div>
             </Card>
           </Link>
-          <Link href={`/comparer/${origin.slug}-vs-${destination.slug}`} className="block">
-            <Card className="p-4 hover:shadow-md transition">
-              <div className="text-xs uppercase text-[var(--text-tertiary)]">Comparatif</div>
-              <div className="mt-1 text-sm font-semibold text-[var(--text-primary)]">{origin.name} vs {destination.name}</div>
-            </Card>
-          </Link>
+          {comparePairSlug(origin.slug, destination.slug) && (
+            <Link href={`/comparer/${comparePairSlug(origin.slug, destination.slug)}`} className="block">
+              <Card className="p-4 hover:shadow-md transition">
+                <div className="text-xs uppercase text-[var(--text-tertiary)]">Comparatif</div>
+                <div className="mt-1 text-sm font-semibold text-[var(--text-primary)]">{origin.name} vs {destination.name}</div>
+              </Card>
+            </Link>
+          )}
           <Link href="/salaire-equivalent" className="block">
             <Card className="p-4 hover:shadow-md transition">
               <div className="text-xs uppercase text-[var(--text-tertiary)]">Salaire équivalent</div>

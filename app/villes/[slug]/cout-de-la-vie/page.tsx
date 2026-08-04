@@ -11,6 +11,7 @@ import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { scoreColor, scoreLabel } from "@/lib/utils";
 import { Coins, ChevronRight, Home, TrendingUp, Calculator, Users2 } from "lucide-react";
 import { cityAlternates } from "@/lib/i18n";
+import { comparePairSlug } from "@/lib/comparer-pairs";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -66,6 +67,7 @@ export default async function CoutDeLaViePage({ params }: Props) {
   const parisRatio = housing && paris && slug !== "paris"
     ? Math.round((housing.avgRentT2 / paris.avgRentT2) * 100)
     : null;
+  const parisPairSlug = comparePairSlug(slug, "paris");
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Accueil", path: "/" },
@@ -234,12 +236,14 @@ export default async function CoutDeLaViePage({ params }: Props) {
                     ? `${city.name} est désormais alignée voire plus chère que Paris sur le T2 (${paris!.avgRentT2} €/mois côté capitale). La pression locative locale est élevée.`
                     : `${city.name} dépasse Paris sur le T2 (${paris!.avgRentT2} €/mois côté capitale). Marché extrêmement tendu.`}
                 </p>
-                <Link
-                  href={`/comparer/${[city.slug, "paris"].sort().join("-vs-")}`}
-                  className="inline-flex items-center gap-1 mt-3 text-xs text-[var(--accent)] hover:underline"
-                >
-                  Comparer {city.name} et Paris en détail <ChevronRight className="h-3 w-3" />
-                </Link>
+                {parisPairSlug && (
+                  <Link
+                    href={`/comparer/${parisPairSlug}`}
+                    className="inline-flex items-center gap-1 mt-3 text-xs text-[var(--accent)] hover:underline"
+                  >
+                    Comparer {city.name} et Paris en détail <ChevronRight className="h-3 w-3" />
+                  </Link>
+                )}
               </div>
             </section>
           )}

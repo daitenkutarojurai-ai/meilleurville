@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
-import { getExpatCountry } from "@/lib/expat-return";
+import { getExpatCountry, EN_EXPAT_COUNTRY_SLUGS } from "@/lib/expat-return";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
@@ -18,14 +18,7 @@ const EN_BASE = ORIGIN_BY_LOCALE.en;
 type Props = { params: Promise<{ locale: string; slug: string }> };
 
 export async function generateStaticParams() {
-  return [
-    { locale: "en", slug: "from-suisse" },
-    { locale: "en", slug: "from-luxembourg" },
-    { locale: "en", slug: "from-belgique" },
-    { locale: "en", slug: "from-royaume-uni" },
-    { locale: "en", slug: "from-canada" },
-    { locale: "en", slug: "from-etats-unis" },
-  ];
+  return [...EN_EXPAT_COUNTRY_SLUGS].map((slug) => ({ locale: "en", slug: `from-${slug}` }));
 }
 
 // ─── EN country names ────────────────────────────────────────────────────────

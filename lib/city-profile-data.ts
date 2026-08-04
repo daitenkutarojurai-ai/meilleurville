@@ -15,6 +15,7 @@ import { buildRentVsBuy } from "@/lib/rent-vs-buy-rankings";
 import type { RentVsBuyData } from "@/lib/rent-vs-buy";
 import { cityParks, nearbyCityParks } from "@/lib/city-parks";
 import { biodiversityProfile } from "@/lib/biodiversity";
+import { comparePairSlug } from "@/lib/comparer-pairs";
 
 export interface CityRankingPosition {
   slug: string;
@@ -31,6 +32,11 @@ export interface SimilarCityItem {
   rentT2: number | null;
   scoreGlobal: number;
   sim: number;
+  /** Curated `/comparer` pair slug, or null when no page exists for this pair.
+   *  Resolved here rather than in SimilarCities: that component renders inside
+   *  the client tree, and importing lib/comparer-pairs there would ship the
+   *  whole seed with it. */
+  comparePair: string | null;
 }
 
 // Serializable subset of HonestReview: the full ProfileDef carries a
@@ -136,6 +142,7 @@ export function buildCityProfileData(city: CitySeed): CityProfileData {
       rentT2: HOUSING[c.slug]?.avgRentT2 ?? null,
       scoreGlobal: c.scores.global,
       sim,
+      comparePair: comparePairSlug(city.slug, c.slug),
     }));
 
   const compareSuggestions = CITIES_SEED.filter((c) => c.slug !== city.slug)

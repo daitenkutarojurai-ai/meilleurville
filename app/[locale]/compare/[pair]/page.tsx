@@ -8,7 +8,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
 import { scoreColor } from "@/lib/utils";
 import { ORIGIN_BY_LOCALE, hreflangLanguagesEn } from "@/lib/i18n";
-import { SEO_PAIRS } from "@/lib/comparer-pairs";
+import { SEO_PAIRS, comparePairSlug } from "@/lib/comparer-pairs";
 import { SEO_TRIPLETS } from "@/lib/comparer-triplets";
 import { jsonLdScript } from "@/lib/jsonld";
 
@@ -315,15 +315,19 @@ function TripletPage({ cities }: { cities: [(typeof CITIES_SEED)[number], (typeo
       <section className="mx-auto max-w-5xl px-4 sm:px-6 py-6">
         <h2 className="text-base font-semibold text-[var(--text-primary)] mb-3">Compare pairs</h2>
         <div className="flex flex-wrap gap-2">
-          {[[a, b], [a, c], [b, c]].map(([x, y]) => (
-            <Link
-              key={`${x.slug}-${y.slug}`}
-              href={`/compare/${x.slug}-vs-${y.slug}`}
-              className="rounded-full border border-[var(--border)] px-4 py-1.5 text-sm text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:text-[var(--text-primary)] transition-colors"
-            >
-              {x.name} vs {y.name}
-            </Link>
-          ))}
+          {[[a, b], [a, c], [b, c]].map(([x, y]) => {
+            const pairSlug = comparePairSlug(x.slug, y.slug);
+            if (!pairSlug) return null;
+            return (
+              <Link
+                key={`${x.slug}-${y.slug}`}
+                href={`/compare/${pairSlug}`}
+                className="rounded-full border border-[var(--border)] px-4 py-1.5 text-sm text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:text-[var(--text-primary)] transition-colors"
+              >
+                {x.name} vs {y.name}
+              </Link>
+            );
+          })}
         </div>
       </section>
 
