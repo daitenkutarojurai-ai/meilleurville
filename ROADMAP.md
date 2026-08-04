@@ -631,11 +631,11 @@ Tables dans `lib/i18n.ts` : `FR_TO_EN_ROUTE`, `FR_TO_EN_CITY_SUB`, `PARITY_EXCEP
 (asymétries assumées, avec la raison — la liste doit rester courte, sinon « parité » ne veut
 plus rien dire).
 
-### État au 2026-08-03 — 11 routes, ~1 300 URL
+### État au 2026-08-04 — 9 routes, ~910 URL
 
 | Route FR | Jumelle EN attendue | URL |
 |---|---|---|
-| `/comparer-departements` + `/[pair]` | `/compare-departments` | ~391 |
+| ~~`/comparer-departements` + `/[pair]`~~ | ✅ `/compare-departments` livré 04/08 | 391 |
 | `/comparer/[pair]/synthese` | `/compare/[pair]/synthesis` | ~614 |
 | `/departements/[dept]/fiscalite` + `/synthese` | `/departments/[dept]/tax` + `/synthesis` | ~204 |
 | `/comparer-regions/[pair]/synthese` | `/compare-regions/[pair]/synthesis` | ~78 |
@@ -650,6 +650,38 @@ setup dans `CLAUDE.md`), pas une facilité.
 **Exceptions assumées** : `/badge` ×541 reste FR-only (la motion backlink vise mairies et
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
+
+### Livré le 04/08 — `/compare-departments` (391 URL)
+
+Jumelle EN de `/comparer-departements` : le hub (390 duels groupés par région) et les 390
+pages de paire. Mêmes paires, mêmes chiffres, même code de dérivation que le FR — les
+moyennes par département sont recalculées depuis `CITIES_SEED` par la même fonction, axe par
+axe, avec la même tolérance d'égalité (0,05). Une paire EN et sa jumelle FR ne peuvent donc
+pas afficher deux nombres différents, ce qui est la règle sur des alternates hreflang.
+
+Trois points de méthode qui valent au-delà de cette route :
+
+- **hreflang dans les deux sens, cette fois.** Les paires de département portent le **même
+  slug** des deux côtés (`rhone-vs-isere`, construit par le même `deptToSlug`), donc la
+  famille rejoint `FR_TO_EN_SEGMENT` plutôt que d'être décrite à la main : `hreflangLanguages`
+  et `hreflangLanguagesEn` la traitent désormais sans code spécifique. Les deux pages FR,
+  qui ne déclaraient qu'un `canonical`, gagnent leur `languages` — sans quoi l'objet
+  `alternates` de page aurait continué de remplacer celui du layout et la paire aurait
+  disparu en silence sur 391 URL.
+- **Chunk sitemap ajouté en queue.** `en-compare-departments` est le dernier élément de
+  `SITEMAP_CHUNKS_EN` : l'index d'un chunk **est** son URL publique
+  (`/sitemap/<index>.xml`, annoncée dans `robots.txt`), donc une insertion au milieu
+  renumérote tous les chunks suivants et invalide ce que Search Console connaît.
+- **Le contrôle de parité recopiait `FR_TO_EN_SEGMENT` en dur.** Déplacer une famille vers
+  la table de base la faisait aussitôt remonter comme « tête non mappée ». `check-parity.mjs`
+  lit maintenant le littéral à la source (`extractRecord` accepte un `const` non exporté) —
+  une copie qui dérive dans l'outil de mesure est pire qu'un écart dans le site.
+
+Maillage interne posé en même temps, sinon les 390 pages ne sont atteignables que par le
+sitemap : lien depuis le hub `/departments`, depuis `/compare`, depuis `/compare-regions`,
+et surtout un bloc « Compare *X* with its neighbours » sur chaque `/departments/[dept]`,
+symétrique du bloc FR. Le Worker traduit aussi `/comparer-departements/*` reçu sur le domaine
+EN vers la vraie page anglaise, au lieu de renvoyer vers le site FR comme avant.
 
 ### Ce qui a été corrigé côté EN le 03/08
 

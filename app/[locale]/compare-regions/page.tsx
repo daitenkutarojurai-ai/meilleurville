@@ -109,7 +109,9 @@ export default function EnCompareRegionsIndex() {
       <section className="mx-auto max-w-5xl px-4 sm:px-6 py-8">
         <Card>
           <p className="text-sm text-[var(--text-secondary)]">
-            Need something more precise than a region? Compare two cities directly with the{" "}
+            Need something more precise than a region? Compare two{" "}
+            <Link href="/compare-departments" className="underline text-[var(--accent)]">departments</Link>{" "}
+            of the same region, compare two cities directly with the{" "}
             <Link href="/compare" className="underline text-[var(--accent)]">city comparator</Link>
             , or let the{" "}
             <Link href="/city-match" className="underline text-[var(--accent)]">matching quiz</Link>{" "}

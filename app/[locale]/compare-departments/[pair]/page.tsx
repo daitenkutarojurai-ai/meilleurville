@@ -1,24 +1,28 @@
-import { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { AmbientBackground } from "@/components/AmbientBackground";
 import { Card } from "@/components/ui/Card";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { deptToSlug, slugToDept, getAllDepartments } from "@/lib/dept-slug";
 import { scoreHex } from "@/lib/utils";
-import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { hreflangLanguages } from "@/lib/i18n";
+import { ORIGIN_BY_LOCALE, hreflangLanguagesEn } from "@/lib/i18n";
+import { jsonLdScript } from "@/lib/jsonld";
 
+const EN_BASE = ORIGIN_BY_LOCALE.en;
+
+// Pure SSG — built once at deploy, served from the static edge cache.
 export const revalidate = false;
 export const dynamicParams = false;
 
-type Props = { params: Promise<{ pair: string }> };
+type Props = { params: Promise<{ locale: string; pair: string }> };
 
 // Pairs = every 2-combination of departments within the same region (natural
 // rivalries: Rhône vs Isère, Nord vs Pas-de-Calais…). Cross-region pairs are
 // deliberately excluded to keep the build small and the comparisons meaningful.
+// Mirrors app/comparer-departements/[pair]/page.tsx exactly, so the two locales
+// generate the same set of pages.
 function allPairs(): Array<[string, string]> {
   const byRegion: Record<string, string[]> = {};
   for (const c of CITIES_SEED) {
@@ -34,7 +38,10 @@ function allPairs(): Array<[string, string]> {
 }
 
 export function generateStaticParams() {
-  return allPairs().map(([a, b]) => ({ pair: `${deptToSlug(a)}-vs-${deptToSlug(b)}` }));
+  return allPairs().map(([a, b]) => ({
+    locale: "en",
+    pair: `${deptToSlug(a)}-vs-${deptToSlug(b)}`,
+  }));
 }
 
 function parsePair(pair: string): { a: string; b: string } | null {
@@ -48,16 +55,18 @@ function parsePair(pair: string): { a: string; b: string } | null {
   return null;
 }
 
+// Same axes, same order and same source values as the FR twin — the two pages
+// are hreflang alternates, so a differing figure would be a bug.
 const AXES = [
-  ["global", "Score global"],
-  ["life", "Vie quotidienne"],
-  ["safety", "Sécurité"],
-  ["cost", "Coût de la vie"],
-  ["transport", "Transports"],
+  ["global", "Overall score"],
+  ["life", "Daily life"],
+  ["safety", "Safety"],
+  ["cost", "Cost of living"],
+  ["transport", "Transport"],
   ["nature", "Nature"],
   ["culture", "Culture"],
-  ["schools", "Écoles"],
-  ["remoteWork", "Télétravail"],
+  ["schools", "Schools"],
+  ["remoteWork", "Remote work"],
 ] as const;
 
 function deptStats(dept: string) {
@@ -75,16 +84,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!parsed) return {};
   const { a, b } = parsed;
   return {
-    title: `${a} ou ${b} : où vivre ? Comparatif 2026`,
-    description: `${a} vs ${b} — scores comparés sur 8 critères (sécurité, coût, écoles, transports), meilleures villes de chaque département.`,
+    title: `${a} or ${b}: where to live? 2026 comparison`,
+    description: `${a} vs ${b} — scores compared on 8 criteria (safety, cost, schools, transport) and the best cities in each French department.`,
     alternates: {
-      canonical: `/comparer-departements/${pair}`,
-      languages: hreflangLanguages(`/comparer-departements/${pair}`),
+      canonical: `${EN_BASE}/compare-departments/${pair}`,
+      languages: hreflangLanguagesEn(`/compare-departments/${pair}`),
+    },
+    openGraph: {
+      // Without `images`, a page-level openGraph replaces the inherited one and
+      // the social card vanishes rather than falling back to the root image.
+      images: ["/opengraph-image"],
+      title: `${a} vs ${b} — which department wins?`,
+      description: "Average scores on 8 criteria, top cities on each side, and a verdict.",
     },
   };
 }
 
-export default async function ComparerDepartementsPage({ params }: Props) {
+export default async function EnCompareDepartmentsPair({ params }: Props) {
   const { pair } = await params;
   const parsed = parsePair(pair);
   if (!parsed) notFound();
@@ -102,39 +118,75 @@ export default async function ComparerDepartementsPage({ params }: Props) {
   );
   const leader = A.avg("global") >= B.avg("global") ? a : b;
 
-  const breadcrumb = breadcrumbJsonLd([
-    { name: "Accueil", path: "/" },
-    { name: "Départements", path: "/departements" },
-    { name: `${a} vs ${b}`, path: `/comparer-departements/${pair}` },
-  ]);
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Best Cities in France", item: EN_BASE },
+          { "@type": "ListItem", position: 2, name: "Compare departments", item: `${EN_BASE}/compare-departments` },
+          { "@type": "ListItem", position: 3, name: `${a} vs ${b}`, item: `${EN_BASE}/compare-departments/${pair}` },
+        ],
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: [
+          {
+            "@type": "Question",
+            name: `${a} or ${b}: which department scores higher overall?`,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: `Averaged over the ranked cities of each department — ${a}: ${A.avg("global").toFixed(1)}/10, ${b}: ${B.avg("global").toFixed(1)}/10. ${leader} comes out ahead.`,
+            },
+          },
+          {
+            "@type": "Question",
+            name: `${a} or ${b}: which is cheaper to live in?`,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: `Average cost-of-living score (10 = most affordable) — ${a}: ${A.avg("cost").toFixed(1)}/10, ${b}: ${B.avg("cost").toFixed(1)}/10.`,
+            },
+          },
+          {
+            "@type": "Question",
+            name: `What is the best city in ${a}?`,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: `${A.cities[0].name}, with an overall score of ${A.cities[0].scores.global.toFixed(1)}/10, out of ${A.cities.length} ranked cit${A.cities.length > 1 ? "ies" : "y"}.`,
+            },
+          },
+        ],
+      },
+    ],
+  };
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdScript(breadcrumb) }} />
-      <AmbientBackground />
+    <main id="main-content" className="min-h-screen flex flex-col">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdScript(jsonLd) }} />
       <Navbar />
-      <main className="flex-1 w-full max-w-4xl mx-auto px-4 sm:px-6 pt-28 pb-16">
+
+      <div className="flex-1 w-full max-w-4xl mx-auto px-4 sm:px-6 pt-28 pb-16">
         <p className="text-xs font-bold uppercase tracking-widest text-[var(--accent)] mb-3">
-          Comparatif départements
+          Department comparison
         </p>
         <h1 className="text-3xl sm:text-4xl font-extrabold text-[var(--text-primary)] mb-4">
-          {a} ou {b} : où poser ses valises ?
+          {a} or {b}: where should you settle?
         </h1>
         <p className="text-[var(--text-secondary)] leading-relaxed mb-10">
-          Deux départements de la même région, comparés sur les scores moyens de
-          leurs villes ({A.cities.length} ville{A.cities.length > 1 ? "s" : ""} notée
-          {A.cities.length > 1 ? "s" : ""} côté {a}, {B.cities.length} côté {b}).
-          Sur les 8 critères, <strong>{a}</strong> l&apos;emporte sur {wins.a},{" "}
-          <strong>{b}</strong> sur {wins.b}
-          {wins.a === wins.b ? " — égalité, le détail tranche" : ""}. Au score
-          global, l&apos;avantage est à <strong>{leader}</strong>.
+          Two departments of the same French region, compared on the average scores of
+          their cities ({A.cities.length} ranked cit{A.cities.length > 1 ? "ies" : "y"} in{" "}
+          {a}, {B.cities.length} in {b}). Across the 8 criteria,{" "}
+          <strong>{a}</strong> wins {wins.a} and <strong>{b}</strong> wins {wins.b}
+          {wins.a === wins.b ? " — a tie, so the detail decides" : ""}. On the overall
+          score, the edge goes to <strong>{leader}</strong>.
         </p>
 
         <Card className="p-5 mb-10 overflow-x-auto">
           <table className="w-full text-sm">
             <thead>
               <tr className="text-left text-xs uppercase tracking-wider text-[var(--text-tertiary)]">
-                <th className="pb-2 pr-3">Critère</th>
+                <th className="pb-2 pr-3">Criterion</th>
                 <th className="pb-2 pr-3 text-right">{a}</th>
                 <th className="pb-2 text-right">{b}</th>
               </tr>
@@ -159,6 +211,10 @@ export default async function ComparerDepartementsPage({ params }: Props) {
               })}
             </tbody>
           </table>
+          <p className="text-xs text-[var(--text-tertiary)] mt-3">
+            Every score runs 0 to 10, higher is better — including cost of living, where
+            10 means the most affordable.
+          </p>
         </Card>
 
         <div className="grid sm:grid-cols-2 gap-6 mb-10">
@@ -168,14 +224,14 @@ export default async function ComparerDepartementsPage({ params }: Props) {
           ].map(({ dept, s }) => (
             <Card key={dept} className="p-5">
               <h2 className="text-lg font-bold text-[var(--text-primary)] mb-3">
-                Les meilleures villes — {dept}
+                Best cities — {dept}
               </h2>
               <ol className="space-y-2">
                 {s.cities.slice(0, 5).map((c, i) => (
                   <li key={c.slug} className="flex items-center justify-between text-sm">
                     <span>
                       <span className="font-bold text-[var(--text-tertiary)] mr-2">{i + 1}.</span>
-                      <Link href={`/villes/${c.slug}`} className="text-[var(--accent)] hover:underline font-semibold">
+                      <Link href={`/cities/${c.slug}`} className="text-[var(--accent)] hover:underline font-semibold">
                         {c.name}
                       </Link>
                     </span>
@@ -186,35 +242,36 @@ export default async function ComparerDepartementsPage({ params }: Props) {
                 ))}
               </ol>
               <Link
-                href={`/departements/${deptToSlug(dept)}`}
+                href={`/departments/${deptToSlug(dept)}`}
                 className="inline-block mt-4 text-sm text-[var(--accent)] font-semibold hover:underline"
               >
-                Toutes les villes de {dept} →
+                All cities in {dept} →
               </Link>
             </Card>
           ))}
         </div>
 
         <Card className="p-5">
-          <h2 className="text-lg font-bold text-[var(--text-primary)] mb-2">Aller plus loin</h2>
+          <h2 className="text-lg font-bold text-[var(--text-primary)] mb-2">Go further</h2>
           <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
-            Comparez deux villes précises avec le{" "}
-            <Link href="/comparer" className="text-[var(--accent)] underline underline-offset-2">
-              comparateur de villes
+            Compare two specific cities with the{" "}
+            <Link href="/compare" className="text-[var(--accent)] underline underline-offset-2">
+              city comparator
             </Link>
-            , explorez la{" "}
-            <Link href="/carte" className="text-[var(--accent)] underline underline-offset-2">
-              carte par département
+            , browse the{" "}
+            <Link href="/map" className="text-[var(--accent)] underline underline-offset-2">
+              map by department
             </Link>{" "}
-            ou laissez le{" "}
+            or let{" "}
             <Link href="/city-match" className="text-[var(--accent)] underline underline-offset-2">
               City Match
             </Link>{" "}
-            trancher selon vos priorités.
+            decide from your own priorities.
           </p>
         </Card>
-      </main>
+      </div>
+
       <Footer />
-    </div>
+    </main>
   );
 }

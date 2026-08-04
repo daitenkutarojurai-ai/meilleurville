@@ -124,6 +124,44 @@ export default async function EnDepartmentDetail({ params }: Props) {
           ))}
         </ol>
       </section>
+
+      {(() => {
+        // Neighbouring departments of the same region — the pairs the
+        // comparator actually builds. Mirrors the FR department page so both
+        // locales expose the same 390 comparisons to crawlers.
+        const region = cities[0]?.region;
+        if (!region) return null;
+        const siblings = [
+          ...new Set(
+            CITIES_SEED.filter((c) => c.region === region && c.department !== name).map(
+              (c) => c.department,
+            ),
+          ),
+        ].sort((a, b) => a.localeCompare(b, "fr"));
+        if (siblings.length === 0) return null;
+        return (
+          <section className="mx-auto max-w-5xl px-4 sm:px-6 pb-10">
+            <h2 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+              Compare {name} with its neighbours
+            </h2>
+            <div className="flex flex-wrap gap-2">
+              {siblings.map((s) => {
+                const [x, y] = [name, s].sort((a, b) => a.localeCompare(b, "fr"));
+                return (
+                  <Link
+                    key={s}
+                    href={`/compare-departments/${deptToSlug(x)}-vs-${deptToSlug(y)}`}
+                    className="rounded-full border border-[var(--border)] px-3 py-1.5 text-xs font-medium text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:text-[var(--accent)] transition-colors"
+                  >
+                    vs {s}
+                  </Link>
+                );
+              })}
+            </div>
+          </section>
+        );
+      })()}
+
       <Footer />
     </main>
   );

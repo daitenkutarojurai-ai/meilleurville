@@ -38,7 +38,10 @@ const AS_JSON = args.includes("--json");
 // plats, donc une lecture par regex est suffisante — et si le format change,
 // le script échoue bruyamment au lieu de rapporter une parité fausse.
 function extractRecord(src, name) {
-  const start = src.indexOf(`export const ${name}`);
+  // `FR_TO_EN_SEGMENT` n'est pas exporté (il ne sert qu'au hreflang), d'où les
+  // deux formes acceptées ici.
+  let start = src.indexOf(`export const ${name}`);
+  if (start === -1) start = src.indexOf(`const ${name}`);
   if (start === -1) throw new Error(`${name} introuvable dans lib/i18n.ts`);
   const open = src.indexOf("{", start);
   let depth = 0, end = -1;
@@ -57,12 +60,11 @@ const FR_TO_EN_ROUTE = extractRecord(i18n, "FR_TO_EN_ROUTE");
 const FR_TO_EN_CITY_SUB = extractRecord(i18n, "FR_TO_EN_CITY_SUB");
 const EXCEPTIONS = extractRecord(i18n, "PARITY_EXCEPTIONS");
 // FR_TO_EN_ROUTE se compose par spread de FR_TO_EN_SEGMENT : la regex ne voit
-// pas le spread, on réinjecte donc la table de base.
-Object.assign(FR_TO_EN_ROUTE, extractRecord(i18n, "FR_TO_EN_ROUTE"));
-for (const [fr, en] of Object.entries({
-  villes: "cities", classements: "rankings", regions: "regions",
-  departements: "departments", comparer: "compare", quiz: "quiz",
-})) FR_TO_EN_ROUTE[fr] ??= en;
+// pas le spread, on relit donc la table de base à la source. Elle était
+// recopiée en dur ici, et la copie a dérivé dès qu'une famille a été déplacée
+// vers FR_TO_EN_SEGMENT — le contrôle criait alors à la tête non mappée.
+for (const [fr, en] of Object.entries(extractRecord(i18n, "FR_TO_EN_SEGMENT")))
+  FR_TO_EN_ROUTE[fr] ??= en;
 
 function routePatterns(dir) {
   const found = new Set();

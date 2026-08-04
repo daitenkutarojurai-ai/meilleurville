@@ -42,6 +42,12 @@ export default function EnCompareIndex() {
         >
           🗺️ Or compare entire regions
         </Link>
+        <Link
+          href="/compare-departments"
+          className="ml-2 inline-flex items-center gap-2 rounded-full border border-[var(--border)] px-5 py-2.5 text-sm font-semibold text-[var(--text-secondary)] transition-colors hover:border-[var(--accent)]/40 hover:text-[var(--accent)]"
+        >
+          📍 Or two departments
+        </Link>
       </section>
       <section className="mx-auto max-w-5xl px-4 sm:px-6 py-6">
         <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">Popular comparisons</h2>

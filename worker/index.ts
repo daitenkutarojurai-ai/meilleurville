@@ -746,6 +746,7 @@ const FR_ORIGIN = "https://www.mavilleideale.fr";
 const FR_HEAD_TO_EN: Record<string, string> = {
   villes: "cities",
   comparer: "compare",
+  "comparer-departements": "compare-departments",
   classements: "rankings",
   departements: "departments",
   depuis: "weekend-getaways",
@@ -761,7 +762,14 @@ const FR_HEAD_TO_EN: Record<string, string> = {
  * vers le site FR : la page y existe, alors qu'une URL EN devinée serait un
  * 301 vers un 404.
  */
-const FR_HEAD_SLUG_SHARED = new Set(["villes", "comparer", "classements", "departements", "depuis"]);
+const FR_HEAD_SLUG_SHARED = new Set([
+  "villes",
+  "comparer",
+  "comparer-departements", // paires bâties avec le même deptToSlug des deux côtés
+  "classements",
+  "departements",
+  "depuis",
+]);
 
 /**
  * Traduit un chemin FR reçu sur le domaine EN, ou null si ce n'est pas un

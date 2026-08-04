@@ -89,6 +89,9 @@ const FR_TO_EN_SEGMENT: Record<string, string> = {
   regions: "regions",
   departements: "departments",
   comparer: "compare",
+  // Les paires département sont construites avec le même `deptToSlug` des deux
+  // côtés : `rhone-vs-isere` est identique en FR et en EN, seule la tête change.
+  "comparer-departements": "compare-departments",
   quiz: "quiz",
 };
 
@@ -122,7 +125,6 @@ export const FR_TO_EN_ROUTE: Record<string, string> = {
   cgu: "terms",
   "climat-2040-timelapse": "climate-2040-timelapse",
   commerces: "retail-coverage",
-  "comparer-departements": "compare-departments",
   "comparer-regions": "compare-regions",
   confidentialite: "privacy-policy",
   connexion: "login",

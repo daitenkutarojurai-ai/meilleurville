@@ -7,12 +7,19 @@ import { Card } from "@/components/ui/Card";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { deptToSlug } from "@/lib/dept-slug";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { hreflangLanguages } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Comparer deux départements · Tous les duels région par région",
   description:
     "390 comparatifs de départements voisins : scores moyens sur 8 critères, meilleures villes de chacun, verdict chiffré. Rhône ou Isère ? Nord ou Pas-de-Calais ?",
-  alternates: { canonical: "/comparer-departements" },
+  // La jumelle EN existe (`/compare-departments`) : sans `languages`, l'objet
+  // `alternates` de page remplacerait celui du layout et la paire hreflang
+  // disparaîtrait en silence.
+  alternates: {
+    canonical: "/comparer-departements",
+    languages: hreflangLanguages("/comparer-departements"),
+  },
 };
 
 const breadcrumb = breadcrumbJsonLd([

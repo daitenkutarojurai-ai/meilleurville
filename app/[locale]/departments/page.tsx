@@ -60,6 +60,14 @@ export default function EnDepartmentsHub() {
           ))}
         </ul>
       </section>
+      <section className="mx-auto max-w-6xl px-4 sm:px-6 pb-10">
+        <Link
+          href="/compare-departments"
+          className="inline-flex items-center gap-2 rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] transition-colors hover:border-[var(--accent)]/40 hover:text-[var(--accent)]"
+        >
+          📍 Compare two departments side by side
+        </Link>
+      </section>
       <Footer />
     </main>
   );

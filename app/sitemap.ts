@@ -85,6 +85,10 @@ const SITEMAP_CHUNKS_EN = [
   "en-thematic-macro",
   "en-geographic-zones",
   "en-tags",
+  // Ajouté en queue de liste : l'index d'un chunk est son URL publique
+  // (/sitemap/<index>.xml, annoncée dans robots.txt), donc une insertion au
+  // milieu renuméroterait tous les chunks suivants.
+  "en-compare-departments",
 ] as const;
 
 const SITEMAP_CHUNKS = IS_EN ? SITEMAP_CHUNKS_EN : SITEMAP_CHUNKS_FR;
@@ -1103,6 +1107,38 @@ function enCompareRegionsSection(): MetadataRoute.Sitemap {
   return entries;
 }
 
+function enCompareDepartmentsSection(): MetadataRoute.Sitemap {
+  // Intra-region department pairs — mirrors generateStaticParams in
+  // app/[locale]/compare-departments/[pair]/page.tsx, itself a mirror of the FR
+  // route, so both locales emit the same 390 pairs.
+  const byRegion: Record<string, string[]> = {};
+  for (const c of CITIES_SEED) {
+    (byRegion[c.region] ??= []).includes(c.department) || byRegion[c.region].push(c.department);
+  }
+  const entries: MetadataRoute.Sitemap = [
+    {
+      url: `${BASE_URL}/compare-departments`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    },
+  ];
+  for (const depts of Object.values(byRegion)) {
+    const sorted = [...depts].sort((a, b) => a.localeCompare(b, "fr"));
+    for (let i = 0; i < sorted.length; i++) {
+      for (let j = i + 1; j < sorted.length; j++) {
+        entries.push({
+          url: `${BASE_URL}/compare-departments/${deptToSlug(sorted[i])}-vs-${deptToSlug(sorted[j])}`,
+          lastModified: CITY_DATA_UPDATED,
+          changeFrequency: "monthly" as const,
+          priority: 0.5,
+        });
+      }
+    }
+  }
+  return entries;
+}
+
 function enGuidesSection(): MetadataRoute.Sitemap {
   return EN_GUIDES.map((g) => {
     const hero = guideCityPhoto(g.slug, g.relatedCities);
@@ -1461,6 +1497,7 @@ export default async function sitemap({ id }: { id: Promise<string> }): Promise<
     case "en-city-sub": return enCitySubSection();
     case "en-compare": return enCompareSection();
     case "en-compare-regions": return enCompareRegionsSection();
+    case "en-compare-departments": return enCompareDepartmentsSection();
     case "en-guides": return enGuidesSection();
     case "en-for-who": return enForWhoSection();
     case "en-red-flags": return enRedFlagsSection();
