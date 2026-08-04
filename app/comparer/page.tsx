@@ -4,6 +4,7 @@ import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { CompareTool } from "./CompareTool";
 import { CITIES_LIGHT } from "@/lib/cities-light";
+import { comparePairSlug } from "@/lib/comparer-pairs";
 import Link from "next/link";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { hubTitle } from "@/lib/brand";
@@ -118,10 +119,15 @@ export default function ComparerPage() {
             </h2>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
-            {POPULAR_PAIRS.map(({ a, labelA, b, labelB }) => (
+            {POPULAR_PAIRS.map(({ a, labelA, b, labelB }) => {
+              // La paire éditoriale peut être écrite dans l'ordre inverse de
+              // SEO_PAIRS ; trois des cinquante l'étaient et liaient un 404.
+              const pairSlug = comparePairSlug(a, b);
+              if (!pairSlug) return null;
+              return (
               <Link
                 key={`${a}-${b}`}
-                href={`/comparer/${a}-vs-${b}`}
+                href={`/comparer/${pairSlug}`}
                 className="group relative overflow-hidden rounded-xl border border-[var(--border)] bg-white/70 backdrop-blur hover:border-[var(--accent)]/40 hover:bg-white hover:shadow-lg hover:-translate-y-0.5 transition-all px-4 py-3"
               >
                 <div className="text-sm font-medium text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug flex items-center justify-between gap-2">
@@ -130,7 +136,8 @@ export default function ComparerPage() {
                   <span className="truncate">{labelB}</span>
                 </div>
               </Link>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>

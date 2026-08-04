@@ -123,7 +123,7 @@ const POUR_QUI_EN = [
   { slug: "families", label: "Families", emoji: "👨‍👩‍👧" },
   { slug: "young-professionals", label: "Young professionals", emoji: "🚀" },
   { slug: "car-free", label: "Car-free living", emoji: "🚲" },
-  { slug: "expats", label: "Expats", emoji: "🌍" },
+  { slug: "returning-expats", label: "Returning expats", emoji: "🌍" },
 ];
 
 export default async function EnCommunityProfiles() {
