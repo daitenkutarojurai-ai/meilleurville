@@ -740,6 +740,16 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
     tassaient le bas avec des valeurs inconnues. Rien ne change côté F59 : pour un
     **répertoire de destinations**, « aucun parc nommé » reste une réponse juste — c'est
     seulement comme **proxy de surface végétale** que le même zéro devient faux.
+  - **État au 2026-08-04 — la collecte est débloquée, et automatisée.** Elle ne partira plus
+    d'une « passe locale » à demander : `scripts/local-data-runner.sh` tourne en **cron sur
+    la machine du propriétaire** (02h20 et 14h20 UTC), lance `npm run biodiversity` par lots
+    de 60 villes (~45 s la ville), commite `data/city-biodiversity.json` et pousse. Couverture
+    complète attendue en ~5 jours. **Ne redemande pas de passe manuelle et ne relance pas le
+    crawl depuis une routine** — l'egress y est refusé et le restera. Les zones protégées
+    restent à `{}` : l'INPN publie des shapefiles derrière une page de téléchargement, donc le
+    runner saute l'étape tant que les GeoJSON ne sont pas dans
+    `.cache/city-protected-areas/sources/` (`npm run protected-areas:sources` donne la ligne
+    `ogr2ogr`). Tant que cette composante manque, `overall` reste `null` — inchangé.
 
 - [ ] **F63 — Qualité de l'air : du modèle à la mesure** — la section existe
   (`/villes/[slug]/air` ×540 + EN `air-quality`) mais `lib/air-quality.ts` **calcule
@@ -765,13 +775,32 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
   les publications officielles disent d'une commune sur 12 mois glissants. Spec complète
   dans `ROADMAP.md` § « Vague 7 — F64 », **à lire avant d'y toucher** (elle contient les
   arbitrages déjà tranchés).
-  - **État au 2026-08-04** : moteur livré, **0/540 villes**. `scripts/city-news.mjs`
-    (`npm run news`, + `:probe` / `:selftest` / `:prune` / `:stats`, 38 contrôles hors
-    ligne verts), `lib/city-news.ts`, `components/CityNewsSection.tsx` câblé sur les deux
-    pages ville. `data/city-news.json` est vide → la section ne s'affiche nulle part,
-    ce qui est le comportement voulu. Egress 403 CONNECT sur `api.bodacc.fr` et
-    `www.data.gouv.fr` : le crawl part d'une passe locale. **Lancer `npm run news:probe`
-    en local avant le premier lot** — tous les noms de champs sont `@unverified`.
+  - **État au 2026-08-04 (matin)** : moteur livré, **0/540 villes**. `scripts/city-news.mjs`
+    (`npm run news`, + `:probe` / `:selftest` / `:prune` / `:stats`), `lib/city-news.ts`,
+    `components/CityNewsSection.tsx` câblé sur les deux pages ville.
+  - **État au 2026-08-04 (après la première passe réelle)** : l'ingest BODACC **ne pouvait
+    pas fonctionner** et personne ne pouvait le voir depuis une routine, faute d'egress.
+    Quatre défauts, tous silencieux, corrigés contre l'API réelle :
+    ① `api.bodacc.fr` **n'a pas de DNS** — DILA publie sur
+    `bodacc-datadila.opendatasoft.com` (l'échec remontait en « fetch failed », qui se lit
+    comme un blocage proxy) ; ② la famille des procédures collectives s'appelle
+    `collective`, pas `procedure_collective`, donc elles comptaient zéro partout ;
+    ③ `group_by` refuse les alias et `date_format` — l'agrégation mensuelle passe par
+    `year()`/`month()`, et le filtre de familles est **obligatoire** dans le `where` parce
+    que `group_by` plafonne à 100 seaux (12 familles × 12 mois débordent, un mois tomberait
+    en silence) ; ④ le plus vicieux — le filtre commune était une **égalité sur le nom mis
+    en majuscules**, alors que `ville` est du texte libre saisi par les greffes : le 42 porte
+    81 650 lignes « Saint-Étienne » **et** 46 184 « Saint-Etienne », Marseille est éclatée
+    entre « Marseille » et « Marseille 8e Arrondissement ». Annecy renvoyait 12 lignes sur
+    9 621 — un chiffre qui a l'air d'une mesure et vaut 0,1 % du réel. Remplacé par
+    `search()`, insensible à la casse et aux accents. **Leçon générale : un constant écrit
+    sans avoir vu l'API répondre est `@unverified`, et ne mérite aucune surface au-dessus.**
+  - **La collecte est automatisée, ne la relance pas depuis une routine.**
+    `scripts/local-data-runner.sh` (cron local, 02h20 / 14h20 UTC) lance `npm run news` par
+    lots de 180 villes (~4 s la ville), commite `data/city-news.json` et pousse.
+    `npm run news:prune` (refenêtrage 12 mois) et `:selftest` marchent hors ligne. Le RNA
+    reste **désactivé** : `RNA_RESOURCE_ID` vaut `null`, la ressource n'a jamais été résolue,
+    et une ville sans cette source l'omet de `sources` plutôt que d'afficher zéro association.
   - **Une section, pas une page.** Pas de `/villes/[slug]/actualites` ×540 : une page
     dont le corps est une liste de titres agrégés est du *scraped content*. Donc pas
     d'URL propre, pas d'entrée sitemap, pas de JSON-LD `NewsArticle` (on n'est pas

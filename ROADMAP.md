@@ -650,8 +650,45 @@ Ce que ce run a tranché ou appris, à lire avant le premier crawl local :
 | Ven | parite-en, content-multisection, narration-rework, parent-solo, integrite-donnees |
 | Sam | parite-en, roadmap-daily, narration-rework, vacances-celibataire *(1 place libre)* |
 
+### Revue du 2026-08-04 — la panne était commune à quatre routines
+
+Le plafond de runs était réglé la veille ; ce qui ne l'était pas, c'est que quatre routines
+tournaient **sans pouvoir aboutir**, pour une seule et même raison : l'environnement des
+routines répond **403 CONNECT sur tous les hosts open data** (GBIF, INPN, BODACC,
+data.gouv.fr, l'annuaire de l'État). Elles livraient donc des moteurs, des selftests et des
+notes « à lancer en local » — et la donnée restait à zéro. État constaté : biodiversité
+**0/540**, zones protégées **0/540**, signaux publics **0/540**, outreach **0 envoi**.
+
+**Correctif : la collecte descend sur la machine locale, qui a l'egress.**
+`scripts/local-data-runner.sh`, en cron à 02h20 et 14h20 UTC, lance les pipelines,
+commite les JSON et pousse sur `main`. Les routines gardent l'aval (libs, surfaces,
+classements, refenêtrage) et leurs prompts ont été réécrits pour qu'elles cessent de
+tester l'egress et de préparer des passes locales. Journal :
+`~/.local/state/meilleurville/data-runner.log`.
+
+En lançant la collecte pour de vrai, trois bugs de l'ingest BODACC sont tombés le même
+jour — dont un filtre commune qui renvoyait **0,1 % des lignes sans lever d'erreur**. Ils
+n'étaient pas trouvables depuis une routine : le code n'avait jamais parlé à l'API.
+C'est l'argument central pour ne plus écrire de pipeline qu'on ne peut pas exécuter.
+
+Reste **une** pièce non automatisable en l'état : les couches INPN (zones protégées) sont
+des shapefiles derrière une page de téléchargement, pas une API. Le runner saute l'étape
+tant que les GeoJSON ne sont pas déposés — `npm run protected-areas:sources` imprime la
+ligne `ogr2ogr` exacte.
+
+Et **un** point à surveiller, non résolu : un run cloud a fini en **ENOSPC à l'export**
+après avoir généré ses 55 787 pages. Le build écrit ~33 Go (`.next` 25 Go + `out` 8,4 Go) ;
+toute routine qui lance `npm run build` peut mourir là-dessus, des deux côtés.
+
 ### Désactivées, avec la raison
 
+- **`outreach-mairies`** — désactivée le 2026-08-04, à la demande du propriétaire. La
+  routine ne peut plus envoyer (pas de `BREVO_API_KEY` dans l'environnement, et l'annuaire
+  de l'État refusé par le proxy : aucune adresse de mairie n'est résolvable), donc elle
+  produisait des vagues « préparées, 0 envoi ». Le rendement de fond ne plaidait pas pour
+  débloquer : **137 envois → 1 réponse presse**. `docs/outreach-log.md` et
+  `scripts/outreach-contacted.json` restent la mémoire de la campagne — si elle reprend un
+  jour, c'est en local, et le registre des communes déjà contactées fait foi.
 - **`en-locale-catchup`** — faisait exactement le travail de `parite-en` (« trouver UNE page
   FR sans équivalent EN et la porter ») mais sans outil de mesure. Les faire tourner toutes
   les deux, c'était deux agents sur les mêmes fichiers EN : le mode de défaillance décrit
@@ -669,7 +706,9 @@ Ce que ce run a tranché ou appris, à lire avant le premier crawl local :
 ### Fréquences réduites
 
 - `biodiversite` 7 → 2/sem : bloquée sur l'egress (le crawl GBIF part d'une passe locale),
-  4 commits pour ~30 runs sur 30 jours. Tourner tous les jours ne débloque rien.
+  4 commits pour ~30 runs sur 30 jours. Tourner tous les jours ne débloque rien. *(Depuis le
+  04/08 le crawl tourne au cron local ; la routine est en aval du fichier et 2/sem suffit
+  toujours — la donnée arrive plus vite qu'elle ne construit de surfaces.)*
 - `narration-rework` 7 → 3/sem : la plus productive en volume (27 commits/30 j) mais c'est
   du retravail de copie existante. Sous plafond, une place vaut mieux ailleurs ; 3/sem
   livrent encore ~13 passes par mois.
