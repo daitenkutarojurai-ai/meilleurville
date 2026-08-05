@@ -303,6 +303,30 @@ donc une future section risques naturels doit se limiter à l'assurance (cat-nat
 fonds Barnier) sous peine de recouvrement. Aucun chiffre de loyer, prix ou score n'est cité ici :
 les montants réglementaires seulement, et rien qui ne soit sourçable.
 
+### Expat retour (`lib/expat-return.ts`)
+
+Une fiche par pays de départ, données inline (`EXPAT_COUNTRIES`), rendues par
+`app/expat-retour/[pays]/page.tsx` (URL `/expat-retour/depuis-<slug>`). Ajouter une entrée au
+tableau suffit : `generateStaticParams`, le hub et le sitemap en dérivent tous les trois.
+**Compteur mesuré (`grep -c '^    slug: "'`) : 19 pays** (2026-08-05). Dernier ajouté : **Suède** —
+premier pays nordique de la liste, et le seul dossier du site où **le retour est fiscalement
+neutre** (kommunalskatt à taux plat ~29-35 % + 20 % d'État au-delà d'environ 600-625 k SEK, à peu
+près la fourchette effective française). Le choc est ailleurs, et dans les deux sens : gain sur le
+locatif (la file d'attente municipale de première main dépasse 9-11 ans à Stockholm centre, donc
+tout arrivant passe par la sous-location andrahand), perte sèche sur la petite enfance (480 jours de
+congé parental dont 390 à ~80 %, maxtaxa ~1 700 SEK/mois, déjeuner scolaire gratuit → crèche FR
+150-400 €/mois et PreParE ~450 €/mois), et angle mort patrimonial (la Suède n'a plus d'ISF depuis
+2007 ni de droits de succession depuis 2004-2005 : le retour réactive IFI et barème successoral).
+Deux pièges spécifiques portés par les avertissements et à ne pas diluer : la règle de
+**väsentlig anknytning** (présomption de résidence fiscale suédoise pendant 5 ans si un lien
+essentiel subsiste — la *sommarstuga* en est un, charge de la preuve inversée) et le fait que
+l'enveloppe **ISK** n'a pas d'équivalent français et n'est pas reconnue (retour au PFU 30 % +
+formulaire 3916). Les loyers et prix français cités viennent de `data/housing.ts` (T3 : Grenoble
+1 020 € … Lyon 1 380 €, Paris 2 800 €), les 10 `bestSuitedCities` sont vérifiées dans `CITIES_SEED`.
+⚠️ La liste du sitemap **était codée en dur et avait dérivé** : Côte d'Ivoire et Japon avaient une
+page mais aucune URL déclarée. Elle est désormais dérivée de `EXPAT_COUNTRIES` (même correctif que
+`PROFILE_SLUGS` en F61) — ne pas la re-figer.
+
 ### Pending guide work
 - **Editorial rewrite (R7.8) — DONE.** Main pass ran 2026-05-30 (all guides → prose voice). Fragment-tail cleanup ran 2026-06-03: the 23 budget/acheter/investment guides the first pass missed (numbered `(N) **Label** : value` scaffolding, detected via `boldColon>=40`) rewritten into flowing prose, 228 strings, figure-integrity verified. Method: extract verbatim bodies → parallel read-only agents → single-writer exact-match apply (see `[[parallel-agents-single-file]]`). Only `intro`/`sections[].body` touched.
   - *Accent restoration — DONE 2026-06-03.* 58 tourism guides (`10-choses-a-faire-*`, incl. Paris/Bordeaux) had been saved ascii-stripped (`decoupe`, `a 57 m`, `28,30 EUR`, `m2`, `360 deg`); diacritics + `€/°/m²/m³` restored across 638 strings, word-skeleton integrity verified. Detected by accent-density < 0.09 (the earlier "~33" estimate undercounted). Legit currency-code `EUR` (EUR/USD context) left intact.

@@ -20,6 +20,7 @@ import { OWNER_RANKING_SLUGS } from "@/lib/owner-rankings";
 import { hasParksData } from "@/lib/city-parks";
 import { hasBiodiversityData } from "@/lib/biodiversity";
 import { PROFILE_PAGES } from "@/lib/profile-pages";
+import { EXPAT_COUNTRIES } from "@/lib/expat-return";
 
 // Locale-aware sitemap. Each Vercel project sets NEXT_PUBLIC_DEFAULT_LOCALE and
 // (optionally) NEXT_PUBLIC_BASE_URL — the FR project emits FR URLs at
@@ -122,22 +123,15 @@ function staticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/quiz-compatibilite`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/expat-retour`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/expat-retour/quiz`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/expat-retour/depuis-suisse`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/expat-retour/depuis-luxembourg`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/expat-retour/depuis-belgique`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/expat-retour/depuis-royaume-uni`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/expat-retour/depuis-canada`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/expat-retour/depuis-allemagne`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/expat-retour/depuis-etats-unis`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/expat-retour/depuis-espagne`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/expat-retour/depuis-portugal`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/expat-retour/depuis-pays-bas`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/expat-retour/depuis-italie`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/expat-retour/depuis-maroc`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/expat-retour/depuis-emirats-arabes-unis`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/expat-retour/depuis-australie`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/expat-retour/depuis-irlande`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/expat-retour/depuis-singapour`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    // Une fiche par pays, dérivée de EXPAT_COUNTRIES : la liste codée en dur
+    // avait déjà dérivé (Côte d'Ivoire et Japon manquaient au sitemap alors
+    // que leurs pages existaient). Même correctif que PROFILE_SLUGS plus bas.
+    ...EXPAT_COUNTRIES.map((c) => ({
+      url: `${BASE_URL}/expat-retour/depuis-${c.slug}`,
+      lastModified: STATIC_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
     { url: `${BASE_URL}/vivre-avec`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/vivre-avec/1500-euros`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
     { url: `${BASE_URL}/vivre-avec/2000-euros`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
