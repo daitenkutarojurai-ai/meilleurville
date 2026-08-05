@@ -263,6 +263,30 @@ Premiers guides EN sur l'outre-mer : nouveaux tags `reunion` / `martinique` / `g
 **Compteurs mesurés : `-a-` strict = 185, en incluant `au-` = 187 ; EN = 180.** ⚠️ Le Tampon a le **deuxième slug de la série à échapper au gabarit `-a-[slug]-`** après Le Puy : `10-choses-a-faire-**au**-tampon-2026` (« au Tampon », pas « à Le Tampon »). Le grep historique `grep -c 'slug: "10-choses-a-faire-a-.*-2026"'` **en rate désormais deux** — utiliser `grep -c 'slug: "10-choses-a-faire-a[u]*-.*-2026"'` pour le compte réel. Ne pas « corriger » ces deux slugs, et ne pas les compter comme des trous EN au prochain diff.
 Écart FR→EN après ce batch : **7 villes** (versailles, saint-denis 93, roubaix, tourcoing, boulogne-billancourt, villeurbanne, le-tampon) — au-dessus du seuil de ~6, donc **le prochain run doit être un batch EN**. Attention au nommage anglais : `things-to-do-in-saint-denis-2026` doit viser le 93 et se distinguer de `things-to-do-in-saint-denis-reunion-2026`, qui existe déjà.
 
+**Batch 25 — EN, rattrapage de parité, shipped 2026-08-05.** Les 7 jumelles
+`things-to-do-in-[slug]-2026` du batch 24 écrites d'un coup dans `data/guides-en.ts`
+(Versailles, Saint-Denis 93, Roubaix, Tourcoing, Boulogne-Billancourt, Villeurbanne,
+Le Tampon). **Compteurs mesurés : FR 187, EN 187 — écart nul dans les deux sens, parité
+rétablie** (`EN_GUIDES` 541 → 548). Le piège de nommage annoncé ci-dessus est tranché :
+`things-to-do-in-saint-denis-2026` (93) et `things-to-do-in-saint-denis-reunion-2026`
+coexistent, chacune résolue par `getEnGuide('things-to-do-in-' + slug + '-2026')` depuis
+le slug de seed correspondant, et l'intro du guide 93 signale l'homonymie dès la première
+ligne.
+⚠️ **Le diff naïf remonte désormais deux faux trous, pas un.** Aux deux slugs FR hors
+gabarit (`au-puy-en-velay`, `au-tampon`) répondent des slugs EN en `le-` :
+`things-to-do-in-le-puy-en-velay-2026` et `things-to-do-in-le-tampon-2026`. Le contrôle
+de parité doit mapper `puy-en-velay` → `le-puy-en-velay` et `tampon` → `le-tampon` avant
+de comparer ; sans ça il annonce deux manques de chaque côté à chaque run. Ne pas
+« corriger » ces slugs.
+Écrit en anglais natif depuis les faits des guides FR (aucun chiffre qui n'y soit),
+`metaTitle` ≤ 60 caractères sur les 7 — plus serré que le reste de la série, qui montait
+à 74 et se faisait tronquer en SERP — et `metaDesc` ≤ 160. Aucun tag nouveau : les tags
+de région réutilisent `ile-de-france`, `hauts-de-france`, `auvergne-rhone-alpes`,
+`reunion`. **Prochain run : batch FR** (l'écart est nul, la série FR reprend la main).
+Villes DROM encore non couvertes des deux côtés, par population : Mamoudzou, Saint-André,
+Les Abymes, Saint-Louis (974), Saint-Laurent-du-Maroni, Le Lamentin, Saint-Joseph,
+Saint-Benoît, Baie-Mahault, Le Robert, Le François.
+
 ### Glossaire (`app/glossaire/page.tsx`)
 
 Page unique, données inline (`SECTIONS: {title, emoji, terms[]}`), `DefinedTermSet` JSON-LD généré

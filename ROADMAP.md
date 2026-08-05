@@ -864,6 +864,77 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ---
 
+## Shipped 2026-08-05
+
+- **Parité EN** ✅ — `/compare/[pair]/synthesis`, 771 URL. Détaillé dans
+  § « Parité EN › Livré le 05/08 » ci-dessus (run du matin).
+
+- **Série tourisme : batch 25 EN, parité FR↔EN rétablie à zéro** ✅ — les 7 jumelles
+  `things-to-do-in-[ville]-2026` que le batch 24 FR de la veille avait laissées en écart :
+  Versailles, Saint-Denis (93), Roubaix, Tourcoing, Boulogne-Billancourt, Villeurbanne,
+  Le Tampon. **Compteurs mesurés : FR 187, EN 187** (`things-to-do-in-*-2026` = 187 après
+  splice, EN_GUIDES 541 → 548). Le diff dans les deux sens est vide une fois les deux
+  exceptions de gabarit appliquées.
+
+  **Les deux exceptions de slug, à ne pas « corriger ».** Le diff naïf entre les deux
+  listes remonte deux faux trous à chaque run, parce que deux villes ne suivent pas le
+  gabarit `-a-[slug]-` côté FR : `10-choses-a-faire-**au**-puy-en-velay-2026` (EN
+  `things-to-do-in-le-puy-en-velay-2026`) et `10-choses-a-faire-**au**-tampon-2026` (EN
+  `things-to-do-in-le-tampon-2026`). Le contrôle qui fait foi mappe `puy-en-velay` →
+  `le-puy-en-velay` et `tampon` → `le-tampon`, et compte le FR avec
+  `grep -c 'slug: "10-choses-a-faire-a[u]*-.*-2026"'` — la forme historique sans `[u]*`
+  en rate deux.
+
+  **Le piège de nommage du batch, tranché.** `things-to-do-in-saint-denis-2026` vise la
+  Seine-Saint-Denis et devait se distinguer de `things-to-do-in-saint-denis-reunion-2026`,
+  qui existait déjà depuis le batch 23. Les deux coexistent, chacune renvoyant à la bonne
+  ville du seed (`saint-denis` / `saint-denis-reunion`), et l'intro du guide 93 le dit dès
+  la première ligne — un lecteur anglophone n'a aucune raison de savoir qu'il y a deux
+  Saint-Denis en France, et la carte de `/cities/saint-denis/things-to-do` se résout par
+  `getEnGuide('things-to-do-in-' + slug + '-2026')`, donc une confusion de slug aurait
+  affiché La Réunion sur une page de banlieue parisienne.
+
+  Écrit en anglais natif depuis les faits des sources FR, pas traduit : aucun chiffre qui
+  ne soit dans le guide FR correspondant (73 m et 357 miroirs de la galerie des Glaces,
+  chœur consacré en 1144 à Saint-Denis, ~72 000 autochromes d'Albert Kahn, Gratte-Ciel
+  1931-1934, Pas de Bellecombe vers 2 300 m). Les sigles et institutions que le lecteur FR
+  connaît sans y penser sont explicités au point d'affichage — RER / Transilien, courées,
+  estaminet, `préfecture`, `commune` — sans note de bas de page. Contraintes de sécurité
+  et d'accès conservées telles quelles : niveau d'alerte préfectoral pour la Fournaise,
+  interdiction de baignade hors lagon et hors zone surveillée à La Réunion.
+
+  **Métadonnées plus serrées que la série ne l'exigeait** : `metaTitle` ≤ 60 caractères sur
+  les 7 (la série EN plafonnait jusqu'ici à 74, donc tronqué en SERP), `metaDesc` ≤ 160.
+  Aucun tag nouveau inventé : les tags de région réutilisent `ile-de-france`,
+  `hauts-de-france`, `auvergne-rhone-alpes`, `reunion`, tous déjà porteurs de pages
+  `/tags/[slug]` côté EN.
+
+  Rien à câbler : la route `app/[locale]/guides/[slug]` porte déjà `canonical` +
+  `openGraph.images`, le sitemap dérive de `EN_GUIDES` (`enGuidesSection()`), la carte
+  « featured » de `/cities/[slug]/things-to-do` et `CityGuidesList` sur `/cities/[slug]`
+  résolvent par slug et par `relatedCities`. `npx tsc --noEmit` propre,
+  `assertUniqueSlugs` passé au chargement du module, `npm run search-index:check` à jour.
+
+  **Prochain run de la série : batch FR** — l'écart est nul, la série FR reprend la main.
+  Villes DROM encore non couvertes des deux côtés, par population : Mamoudzou, Saint-André,
+  Les Abymes, Saint-Louis (974), Saint-Laurent-du-Maroni, Le Lamentin, Saint-Joseph,
+  Saint-Benoît, Baie-Mahault, Le Robert, Le François.
+
+- **Trouvé en passant, non corrigé (à prendre par un run parité EN)** — la palette de
+  recherche (`Cmd+K`) sert du contenu **français sur le domaine anglais**.
+  `components/SearchPalette.tsx` n'a aucune notion de locale, là où `Navbar` en a une
+  (`IS_EN = DEFAULT_LOCALE === "en"`) : elle lit `lib/search-index.ts`, dont le générateur
+  `scripts/build-search-index.mjs` ne connaît que `data/guides.ts` — **902 guides FR, zéro
+  EN** — et elle porte en dur une liste de termes de glossaire pointant vers `/glossaire`,
+  route qui n'existe pas côté EN. Un visiteur de bestcitiesinfrance.com qui cherche
+  « Lyon » se voit donc proposer des titres français et des liens vers des pages FR. Même
+  famille que le correctif du 04/08 sur la home anglaise (`49037c6`). Le correctif propre
+  est un index par locale (`search-index.fr.json` / `search-index.en.json`, choisi via
+  `DEFAULT_LOCALE`) plus un jeu de raccourcis glossaire conditionné à la locale — pas une
+  traduction des titres.
+
+---
+
 ## Shipped 2026-08-04
 
 - **Le corpus éditorial ne part plus dans le bundle client** ✅ — ultra-audit

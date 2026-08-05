@@ -20967,6 +20967,356 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["charleville-mezieres","verdun","sedan","bar-le-duc","reims","nancy"],
     tags: ["living in the ardennes","ardennes meuse expat","moving to france","grand est","cross-border work"],
   },
+  {
+    slug: "things-to-do-in-versailles-2026",
+    title: "Things to do in Versailles: beyond the Hall of Mirrors",
+    metaTitle: "Things to Do in Versailles (2026) — Beyond the Palace",
+    metaDesc:
+      "The palace and Le Nôtre's gardens, Trianon and the Queen's Hamlet, the King's Kitchen Garden, the Tennis Court, the Notre-Dame market — half of it free.",
+    category: "city-guide",
+    emoji: "👑",
+    readMinutes: 7,
+    publishedAt: "2026-08-05",
+    updatedAt: "2026-08-05",
+    intro:
+      "Versailles is a town of roughly 85,000 people in the Yvelines, twenty-odd kilometres west of Paris and the prefecture of its department. The visitor's problem here is not finding something to do, it is avoiding a day that amounts to two hours queueing in the Hall of Mirrors. The palace and its estate have been on the UNESCO World Heritage list since 1979, but Versailles is also a garrison and parliamentary town, laid out in one go in the seventeenth century around three converging avenues, with a royal kitchen garden still in production, one of the best-stocked markets in the Paris region and two state forests on its edge. This list alternates the unavoidable with what most visitors miss because they leave at four in the afternoon.",
+    sections: [
+      {
+        heading: "The palace: state apartments and the Hall of Mirrors",
+        body: "The palace began as Louis XIII's hunting lodge and grew until Louis XIV moved the court and the government here in 1682. The visit runs through the King's and Queen's state apartments, the royal chapel and the Hall of Mirrors: 73 metres long, seventeen mirrored arcades facing seventeen windows onto the gardens, 357 mirrors in all — as much a political statement as a technical one at a time when Venice held the monopoly on mirror glass. The Treaty of Versailles was signed in that room in 1919. The palace closes on Mondays. Two practical rules change the day completely: book a timed ticket in advance, and take an early morning or post-3pm slot, since the middle of the day is the absolute peak.",
+      },
+      {
+        heading: "Le Nôtre's gardens and the Grand Canal",
+        body: "The gardens designed by André Le Nôtre are the real masterpiece of the site, and on most days of the year they are free to enter — the best value in Versailles by a distance. Central perspective, groves enclosed like green drawing rooms, water parterres, the Latona and Apollo basins. The cross-shaped Grand Canal runs about 1.6 kilometres and can be walked, cycled or rowed in season. On days of the Musical Fountains or Musical Gardens the basins are turned on, baroque music plays in the groves and the gardens become ticketed: that is the only time the fountains genuinely run, and worth the supplement if that is what you came for. The park beyond the gardens stays free and opens earlier.",
+      },
+      {
+        heading: "Trianon and the Queen's Hamlet",
+        body: "At the far end of the Grand Canal, the Trianon estate is everything the palace is not: quiet, human in scale, and comparatively empty. The Grand Trianon, in pink marble and stone, was Louis XIV's retreat from protocol. The Petit Trianon, by Ange-Jacques Gabriel, was given by Louis XVI to Marie-Antoinette, who added an Anglo-Chinese garden, the Temple of Love and above all the Queen's Hamlet: a village of thatched cottages around a lake, designed by Richard Mique, with a working farm. You can spend a full half-day here. Reckon on twenty to thirty minutes' walk from the palace, or the little train, or a bicycle hired on site — the distance puts off enough people for the place to breathe.",
+      },
+      {
+        heading: "The Gallery of Coaches and the equestrian academy",
+        body: "The Grande Écurie, facing the palace across the place d'Armes, holds two things most visitors never hear about. The Gallery of Coaches displays court carriages, coronation berlins, sleighs and sedan chairs — one of the few collections of this standard in Europe, and entry is free, on restricted opening slots worth checking before you come. In the same building, the national equestrian academy of the Versailles estate, founded and directed by Bartabas, works in dressage and stage fencing; morning training sessions open to the public and performances are booked separately from the palace ticket. It is the least touristed thing on the estate.",
+      },
+      {
+        heading: "The Tennis Court",
+        body: "Ten minutes' walk from the palace, on rue du Jeu de Paume, a seventeenth-century real-tennis hall became on 20 June 1789 the room where the deputies of the Third Estate swore not to disband until France had a constitution. It was turned into a commemorative monument under the Third Republic: the original beaten-earth floor, the gallery, busts of the deputies, and David's unfinished painting of the scene reproduced on the wall. The room is small, entry is free, and opening is limited to a few days a week and often seasonal. If the shift to constitutional monarchy interests you more than chandeliers, this is the densest half-hour in Versailles.",
+      },
+      {
+        heading: "The King's Kitchen Garden",
+        body: "The Potager du Roi was created between 1678 and 1683 by Jean-Baptiste de La Quintinie to supply Louis XIV's table, on marshy ground that had to be drained and filled. Nine hectares of walls, terraces and beds, with espaliered fruit trained by techniques worked out on this very site. It has never stopped producing: it now houses the national school of landscape architecture, can be visited freely or with a guide, and sells its output — fruit, vegetables, apple juice — in the shop according to the season. You will meet more students and neighbours than coach parties. Weekly closing day and hours vary with the season.",
+      },
+      {
+        heading: "The Notre-Dame market and the Saint-Louis quarter",
+        body: "The Notre-Dame market occupies the district Louis XIV created to house the new town: four halls around a square courtyard, framed by arcaded buildings. It is one of the largest food markets in the Paris region, with covered halls open much of the week and an outdoor section on certain mornings — check the days, posted on site and on the town's website. This is where you eat properly and without being fleeced, which is not obvious in the streets immediately around the palace. South of the palace, the Saint-Louis quarter is the half of Versailles that visitors drive through without stopping: the carrés Saint-Louis, four blocks of small eighteenth-century houses built for the court's tradespeople, now antique dealers, craftspeople and bookshops, under the eighteenth-century Saint-Louis cathedral. At the other end, the church of Notre-Dame, built by Jules Hardouin-Mansart, was the king's parish, where royal baptisms and marriages were recorded.",
+      },
+      {
+        heading: "Water, woods, and getting here",
+        body: "To get away from it all, the Pièce d'eau des Suisses below the kitchen garden is a large ornamental lake dug by the regiment of Swiss Guards; you can walk or run the circuit for nothing, with the palace's south front behind you and almost nobody about. Further out, Versailles is bordered by the Fausses-Reposes state forest to the north-east and the Marly-le-Roi national estate to the west, both threaded with forest rides inherited from the royal hunts. Three lines serve Versailles from Paris and your choice of station changes the walk at the other end: RER C arrives at Versailles Château Rive Gauche, five minutes from the palace; the Transilien L from Saint-Lazare at Rive Droite, fifteen minutes away; the Transilien N from Montparnasse at Versailles Chantiers, the largest station, twenty minutes from the palace but on the doorstep of the Saint-Louis quarter. Avoid Tuesdays and spring weekends, which concentrate the crowds.",
+      },
+    ],
+    relatedCities: ["versailles", "paris", "boulogne-billancourt", "issy-les-moulineaux", "saint-germain-en-laye"],
+    tags: ["things to do in versailles", "versailles", "travel", "city guide", "ile-de-france"],
+  },
+  {
+    slug: "things-to-do-in-saint-denis-2026",
+    title: "Things to do in Saint-Denis, on the northern edge of Paris",
+    metaTitle: "Things to Do in Saint-Denis, Seine-Saint-Denis (2026)",
+    metaDesc:
+      "The basilica where Gothic architecture was invented, the royal necropolis, the Paul-Éluard museum, the market, the Stade de France and the Olympic pool.",
+    category: "city-guide",
+    emoji: "⛪",
+    readMinutes: 7,
+    publishedAt: "2026-08-05",
+    updatedAt: "2026-08-05",
+    intro:
+      "Saint-Denis is a town of about 111,000 people in Seine-Saint-Denis, on the northern edge of Paris, served by métro line 13 and RER lines B and D. It is one of the most misread places in France: foreigners associate it with the Stade de France and with a banlieue reputation, rarely with the basilica where almost every king of France is buried — which also happens to be the first Gothic building in the world. The two stand fifteen minutes' walk apart. Since the 2024 Games the town has inherited venues and a whole new district that changed its geography. One thing to get straight first: this is not Saint-Denis on Réunion, which has its own guide.",
+    sections: [
+      {
+        heading: "The basilica: where Gothic was invented",
+        body: "The basilica of Saint-Denis is the building in which Gothic architecture was invented. Abbot Suger, adviser to Louis VI and then Louis VII, had the east end rebuilt with an ambulatory and radiating chapels; the choir was consecrated in 1144. Rib vaults, flying buttresses and above all walls opened up as far as they would go to let light in — the principle that was then copied across Europe. The nave and transept were rebuilt in the thirteenth century. It is now a cathedral and the seat of the diocese of Saint-Denis, with the monument side run by the Centre des monuments nationaux. Entering the nave to pray is free; visiting the necropolis is ticketed.",
+      },
+      {
+        heading: "The royal necropolis",
+        body: "The basilica holds the largest collection of medieval and Renaissance funerary sculpture in Europe: recumbent effigies, monumental tombs, kneeling figures. Almost every king of France was buried here, from Dagobert to the last Bourbons, along with their queens and many of the princes. The tombs were desecrated and the bodies thrown into a common pit in 1793; the monuments themselves were saved by Alexandre Lenoir and re-erected in the nineteenth century, which is why the present arrangement is a reconstruction rather than the original layout. Priorities: the tomb of Louis XII and Anne of Brittany, that of François I and Claude of France, and the crypt. Allow at least an hour and a half with the audioguide.",
+      },
+      {
+        heading: "The spire being rebuilt",
+        body: "The basilica's north tower carried a stone spire that was dismantled in the middle of the nineteenth century after lightning and a storm left it unsafe and beyond consolidation. It is now being rebuilt exactly as it was, funded without public money and run as an open worksite: stonecutting, carpentry and installation happen in front of the public from a visitor area at the foot of the building, with craft demonstrations. There are very few places in France where you can watch a full-scale medieval stonecutting workshop at work. Access arrangements and hours change as the build progresses, so check before travelling.",
+      },
+      {
+        heading: "The Paul-Éluard museum of art and history",
+        body: "The museum occupies the former Carmelite convent where Louise de France, daughter of Louis XV, took the veil; the cells, the apothecary and the garden survive. Three things make it unusual. Its collection on the Paris Commune of 1871 is one of the most important in existence, with posters, newspapers, drawings by Daumier and objects from the barricades. The Paul Éluard holdings (the poet was born in Saint-Denis) gather manuscripts and editions illustrated by his painter friends. Local archaeology and the town's industrial history complete the route. It closes on certain weekdays, charges very little, and is among the least visited museums in inner Paris suburbia for what it contains.",
+      },
+      {
+        heading: "The market",
+        body: "The Saint-Denis market, around place Jean-Jaurès and under the covered halls a couple of minutes from the basilica, is one of the largest in the Paris region and easily the most unfamiliar to a foreign visitor. Fruit and vegetables at prices that bear no relation to central Paris, spices, fish, fabric, and North African, West African, Tamil, Caribbean, Chinese and Portuguese produce. It runs several mornings a week, with the days posted on site and on the town's website, and the halls keep longer hours. It is the best hour you can spend understanding the town, and the cheapest lunch: sandwiches, fritters and takeaway dishes at the stalls around the edge.",
+      },
+      {
+        heading: "The Stade de France and the Olympic aquatic centre",
+        body: "The Stade de France was built for the 1998 World Cup and holds more than 80,000, making it the largest arena in the country. Outside events, a guided tour takes in the changing rooms, the players' tunnel, the pitch and the presidential stands, with a section on the suspended elliptical roof and the retractable tiers that let the stadium switch between athletics and football. Booking is required, and the fixtures and concerts calendar regularly closes the slot, so check dates before building a day around it. Facing the stadium, the Olympic aquatic centre built for the 2024 Games is one of the few venues of that scale designed from the outset for afterwards: timber frame, concave roof covered in solar panels, seating cut back after the Games and pools reconfigured for public and club use. It is open for swimming, with public sessions, lap lanes and dedicated teaching space — a real issue in a department where the share of children who cannot swim is among the highest in France.",
+      },
+      {
+        heading: "The athletes' village and the canal walk",
+        body: "The athletes' village, built across Saint-Denis, Saint-Ouen and L'Île-Saint-Denis, has been converted into housing, offices and shops, with reworked Seine banks and planted streets. You can walk or cycle through it freely: a full-scale case study in post-Olympic conversion, worth looking at with both a curious and a critical eye. Next to it, the commune of L'Île-Saint-Denis occupies a Seine island several kilometres long, with a departmental park and riverbanks where the Seine finally looks like a river rather than a freight corridor. Best of all is the canal: the Canal Saint-Denis links the Bassin de la Villette to the Seine over about 6.5 kilometres, with a continuous towpath open to walkers and cyclists, punctuated by locks and lined for long stretches with monumental murals — the corridor has become one of the main street-art routes in the Paris region. From the Parc de la Villette it is an hour and a half on foot, thirty minutes by bike, without a single car.",
+      },
+      {
+        heading: "Eating in Saint-Denis",
+        body: "The food follows the town's demography, and that is the point of it: Kabyle and Moroccan cooking around the centre, Tamil and Sri Lankan restaurants, Malian and Senegalese places, oriental pastry shops, Portuguese canteens, Caribbean tables. Prices are those of a working-class town rather than a tourist quarter, and the portions show it. Around the basilica a few addresses play the classic bistro card. One thing to plan for: most neighbourhood restaurants close early in the evening, and on event nights the activity shifts to the Stade de France. At lunchtime the market remains the safest bet.",
+      },
+    ],
+    relatedCities: ["saint-denis", "paris", "aubervilliers", "montreuil", "versailles"],
+    tags: ["things to do in saint-denis", "saint-denis 93", "travel", "city guide", "ile-de-france"],
+  },
+  {
+    slug: "things-to-do-in-roubaix-2026",
+    title: "Things to do in Roubaix: the town that turned its mills into museums",
+    metaTitle: "Things to Do in Roubaix (2026) — Mills Turned Museums",
+    metaDesc:
+      "La Piscine in a 1930s Art Deco swimming pool, the Manufacture, the Condition Publique, Parc Barbieux, the Villa Cavrois and the Paris-Roubaix velodrome.",
+    category: "city-guide",
+    emoji: "🏊",
+    readMinutes: 7,
+    publishedAt: "2026-08-05",
+    updatedAt: "2026-08-05",
+    intro:
+      "Roubaix is a town of about 99,000 in the Nord, welded to Tourcoing and minutes from the Belgian border, twenty minutes from central Lille on métro line 2. It was the wool capital of the world in the nineteenth century, took the full force of deindustrialisation, and remains one of the poorest towns in France. It is also, without contradiction, one of the most interesting places in the country to visit: because the conversion of its industrial heritage was carried out with rare ambition, and because it keeps one of France's most likeable museums inside a disused Art Deco swimming pool. You come to Roubaix for architecture, for art and for a bicycle race. You do not come for a spruce town centre, and nobody here will pretend otherwise.",
+    sections: [
+      {
+        heading: "La Piscine, the museum in a swimming pool",
+        body: "La Piscine occupies the old municipal baths, built by the architect Albert Baert between the late 1920s and the early 1930s in an Art Deco style, on a plan inspired by a Cistercian abbey. Closed on safety grounds in 1985, it was converted into a museum by Jean-Paul Philippon, reopened in 2001 and extended in 2018. The pool itself is still full of water, lined with sculpture, under the great half-sun stained-glass window that once lit the swimmers. The collections mix fine art, sculpture and ceramics with a substantial textile holding inherited from the local weaving school: thousands of fabric samples, displayed in the former changing cabins. Closed on Mondays, and worth a half-day rather than an hour.",
+      },
+      {
+        heading: "La Manufacture and the Condition Publique",
+        body: "La Manufacture occupies a former weaving mill and tells what La Piscine shows from its handsome side: the work. Looms in running order, started up in front of visitors by people who worked the trade, demonstrations of the whole chain from fibre to cloth, and a contemporary section on textile design today. The visit is guided and earns its place through noise and smell: ten minutes of machines running teaches what three display panels cannot. A quarter of an hour away, the Condition Publique was the building where wool and cotton were conditioned before sale — weight, moisture and quality certified by a public service that a world trading centre could not do without. The brick building is now an arts venue, with a covered internal street, exhibition halls, a concert room and a planted roof; the programme mixes contemporary art, gigs, residencies and neighbourhood events, often free. Check the calendar first: outside events the place is open but ticking over.",
+      },
+      {
+        heading: "Parc Barbieux",
+        body: "Parc Barbieux is Roubaix's great landscaped park, laid out at the end of the nineteenth century in the cutting of a canal that was never finished — hence its unusual elongated, valley-like shape in an otherwise flat plain. Locals call it the Beau Jardin. Linked ponds, notable trees, rockeries, lawns and statuary over close to thirty-five hectares. It is bordered by avenue Jean-Jaurès and boulevard de Paris, lined with the mansions of the textile bosses: the walk continues naturally into that district, which is the town's other face.",
+      },
+      {
+        heading: "The Villa Cavrois, at Croix",
+        body: "The Villa Cavrois stands in Croix, the neighbouring commune, a quarter of an hour from central Roubaix. Robert Mallet-Stevens designed it at the turn of the 1930s for Paul Cavrois, a Roubaix textile industrialist, as a complete modernist manifesto: volumes in yellow Dutch brick, terraces, a swimming pool, and interiors designed down to the door handles and the light fittings. Squatted, looted and left derelict for decades, it was bought by the State and restored over nearly twenty years. It is open to visitors today, run by the Centre des monuments nationaux, with original furniture reinstalled. It is the most striking piece of architecture you can go inside anywhere in the Lille metropolitan area.",
+      },
+      {
+        heading: "The velodrome and the cobbles of Paris-Roubaix",
+        body: "Paris-Roubaix finishes every spring on the open-air André-Pétrieux velodrome, after a route crossing some thirty cobbled sectors — hence the race's nickname, the Hell of the North. The velodrome can be visited outside race days, including the historic showers, where each cubicle carries the plaque of a winner: the plainest and most powerful piece of cycling pilgrimage there is. To go further, the cobbled sectors can be ridden or walked outside the race, in particular the Arenberg trench and the Carrefour de l'Arbre, both outside the town and reachable by car from Roubaix. Bring a bike you are not too fond of.",
+      },
+      {
+        heading: "The canal and the Parc du Nouveau Monde",
+        body: "The Roubaix canal, long silted up and abandoned, has been reopened to pleasure craft and its towpath turned into a continuous greenway running from the Deûle to the Belgian border and the Flemish canal network. You walk it, you cycle it, and you watch locks worked by hand. Alongside, the Parc du Nouveau Monde occupies former industrial and dyeworks wasteland at Roubaix and Wattrelos, rewilded into wetland, meadow and paths. It is the green counterweight to the rest of the visit, and a way of reaching Belgium by bike without ever riding on a road.",
+      },
+      {
+        heading: "Reading the town on foot",
+        body: "Roubaix also repays walking without a museum in sight. The town hall, built in the early twentieth century, carries a sculpted frieze of spinning and weaving across its front. Around it are the Grand-Place, the church of Saint-Martin and, everywhere, dozens of chimneys, sawtooth roofs and mill frontages converted into flats, schools and offices. The courées — rows of tiny workers' houses opening onto a shared yard, packed in as tightly as the owners could manage to house their labour — survive in pockets; many were demolished, others restored. The tourist office runs guided walks on this heritage, which is the key to reading the whole town. The same history explains the outlet centres: Roubaix was the birthplace of French mail-order retail, and several factory-outlet malls now occupy former spinning mills, one of them the first of its kind opened in France. Go for the destocked textiles if you like, but the preserved iron frames and sawtooth roofs are the real reason to step inside. Saturdays are saturated; midweek you can move.",
+      },
+      {
+        heading: "Eating and drinking in the north",
+        body: "The table here is Flemish and estaminet: carbonade flamande braised in beer and gingerbread, potjevleesch served as a terrine, waterzooï, welsh under melted cheddar and mustard, maroilles tart, and chips with a fricadelle. On the beer side the region turns out blonde and amber bières de garde in quantity, and craft breweries have multiplied across the Hauts-de-France over the past decade. Roubaix also has a strong North African and Portuguese presence, so oriental pastries, couscous and grilled meats are entirely at home. And Lille is twenty minutes away by métro, which widens the choice considerably for dinner.",
+      },
+    ],
+    relatedCities: ["roubaix", "tourcoing", "lille", "lens", "arras"],
+    tags: ["things to do in roubaix", "roubaix", "travel", "city guide", "hauts-de-france"],
+  },
+  {
+    slug: "things-to-do-in-tourcoing-2026",
+    title: "Things to do in Tourcoing: contemporary art, a carillon and a D-Day bunker",
+    metaTitle: "Things to Do in Tourcoing (2026) — Art, Bells, Bunker",
+    metaDesc:
+      "The MUba Eugène-Leroy, Le Fresnoy art school, the Hospice d'Havré cloister, the Saint-Christophe carillon and the bunker that intercepted the Verlaine message.",
+    category: "city-guide",
+    emoji: "🎨",
+    readMinutes: 6,
+    publishedAt: "2026-08-05",
+    updatedAt: "2026-08-05",
+    intro:
+      "Tourcoing is a town of about 98,000 in the Nord, the twin and historic rival of Roubaix, to which it is physically joined. The Belgian border is minutes away, métro line 2 links the centre to Lille, and the town shares with its neighbour a past of wool, mill owners and industrial collapse. What sets it apart is three places with no equivalent anywhere else: a fine-arts museum built around the work of a painter born here, a national contemporary-art school housed in a former popular leisure complex under a giant umbrella roof, and the bunker where the message announcing the D-Day landings was intercepted. Tourcoing is a full day, ideally strung together with Roubaix.",
+    sections: [
+      {
+        heading: "The MUba Eugène-Leroy",
+        body: "Tourcoing's fine-arts museum is named after Eugène Leroy, a painter born in the town whose sons gave the commune a major body of his work. His painting is unmistakable: layers of matter piled on until the figure almost disappears, to be found somewhere in the thickness. The museum shows that holding in dialogue with its older collections (Flemish and Dutch painting, French eighteenth and nineteenth centuries) and with temporary contemporary exhibitions that are often bolder than the average mid-sized town museum manages. Modest admission, closed on certain weekdays.",
+      },
+      {
+        heading: "Le Fresnoy, the national studio for contemporary arts",
+        body: "Le Fresnoy is an internationally regarded post-graduate school of audiovisual and digital art, installed in a 1900s popular leisure complex that combined a ballroom, a cinema, a skating rink and a riding ring. Bernard Tschumi, commissioned to transform it in the late 1990s, made the radical choice not to demolish: he capped the old buildings with an enormous raised technical roof, leaving the space between the two open and crossed by walkways. You visit for the architecture and for the big annual exhibition of work by the artists in residence: installations, films, interactive pieces. The rest of the year it runs an art-house cinema open to all.",
+      },
+      {
+        heading: "The Hospice d'Havré",
+        body: "The Hospice d'Havré is the oldest built complex in Tourcoing: a medieval foundation that became an Augustinian convent, then an almshouse, and is now the municipal arts centre. You go in for the cloister, absolute calm in the middle of town, and for the baroque chapel, whose carved woodwork cuts against the general soberness of regional architecture. The building hosts temporary exhibitions, often tied to the MUba, and concerts. Admission is frequently free. It is also the most logical starting point for a walking loop of the old centre.",
+      },
+      {
+        heading: "Saint-Christophe and its carillon",
+        body: "The church of Saint-Christophe dominates the Grand-Place with a neo-Gothic tower visible from far across the plain. It holds one of the largest carillons in France by number of bells, played in regular concerts by a carillonneur — the carillon tradition here is Flemish before it is French. The tower climb, offered at certain times of year and on heritage open days, gives the best panorama over the Lille-Roubaix-Tourcoing conurbation and into nearby Belgium. Check slots with the tourist office: they are limited, and the staircase is not for everyone.",
+      },
+      {
+        heading: "The 5 June 1944 museum: the Verlaine message",
+        body: "In 1944 the headquarters of the German Fifteenth Army was installed at Tourcoing, in a buried bunker. It was there that the German listening service intercepted and correctly identified, on 5 June, the line of Verlaine broadcast by the BBC that warned resistance networks the landings were imminent — and there that the alert passed on failed to produce the reaction it should have across the German command. The bunker is open to visitors: a reconstructed signals room, period equipment, maps, and a detailed account of that intelligence episode. Small museum, guided visit, restricted hours to check in advance. It is the most singular thing in town.",
+      },
+      {
+        heading: "The botanical garden and the wool architecture",
+        body: "Tourcoing's botanical garden is a free municipal garden of ornament and collection, organised in themed scenes: medicinal plants, dye plants, a rose garden, tropical glasshouses. The link with local history is not incidental, since dye plants are what coloured cloth before synthetic chemistry, which says something about the town. It is small, free, well kept, and the place to catch your breath between visits. Outside, the centre organises itself around the Grand-Place and the nineteenth-century town hall, and the architecture tells you where the money came from: merchants' mansions, brick and stone façades, tenement blocks, and dozens of converted industrial buildings: spinning mills, combing works, warehouses. Combing, the preparation stage of wool, was the Tourcoing speciality and the town was long the world leader in it. An hour and a half on foot between the Grand-Place, the rue de Lille and the Union district covers the lot; the tourist office supplies a marked route.",
+      },
+      {
+        heading: "The canal, the Union district and the Belgian border",
+        body: "The Roubaix canal runs through Tourcoing too, and its towpath can be cycled from one end of the metropolitan area to the border. On its banks, the Union district, former industrial wasteland straddling Tourcoing, Roubaix and Wattrelos, has been redeveloped as an eco-district with a park, water basins and converted mills, including a historic brewery turned public facility. The Parc du Val de l'Union and the gardens along the water give a continuity of green that is rare in a fabric this dense. Ideal by bike, and flat. Mouscron, in Belgium, is a few minutes further and the frontier shows only in the road markings: it is the simplest international round trip on foot or by bike from any French town centre, with Belgian friteries, chocolate shops and breweries on the other side. Kortrijk and Ypres are within the hour by train or car, one for its restored Flemish centre, the other for the First World War memorial sites. Cross-border services thin out on Sundays.",
+      },
+      {
+        heading: "Jazz in autumn, and the local table",
+        body: "Tourcoing hosts a nationally significant jazz festival every autumn, one of the oldest in the region, with concerts spread across several venues including the municipal theatre, and it is the best time of year to come if you can pick your dates. The rest of the time the Atelier lyrique and the municipal halls keep a steady programme running. On the plate, this is French Flanders: estaminets, carbonade, potjevleesch, welsh, sugar tart and maroilles tart, bières de garde and craft breweries. Belgium next door extends the beer list further, which was not strictly necessary.",
+      },
+    ],
+    relatedCities: ["tourcoing", "roubaix", "lille", "dunkerque", "arras"],
+    tags: ["things to do in tourcoing", "tourcoing", "travel", "city guide", "hauts-de-france"],
+  },
+  {
+    slug: "things-to-do-in-boulogne-billancourt-2026",
+    title: "Things to do in Boulogne-Billancourt: gardens, an island concert hall and the 1930s",
+    metaTitle: "Things to Do in Boulogne-Billancourt (2026)",
+    metaDesc:
+      "The Albert-Kahn museum and its gardens, La Seine Musicale on the Île Seguin, the Museum of the 1930s, the Paul-Belmondo museum and the Escudier market.",
+    category: "city-guide",
+    emoji: "🌿",
+    readMinutes: 6,
+    publishedAt: "2026-08-05",
+    updatedAt: "2026-08-05",
+    intro:
+      "Boulogne-Billancourt is the most populous commune in the Hauts-de-Seine, with about 120,000 residents, immediately west of Paris between the Bois de Boulogne and the Seine. Two histories overlap here. Billancourt first: the Renault works, the Île Seguin, workers and strikes, a century of car manufacturing wiped off the landscape in a decade. Then Boulogne: a laboratory of modern architecture in the 1920s and 1930s, where Le Corbusier, Mallet-Stevens and their contemporaries built dozens of artists' houses and apartment blocks. You come for museums of a genuinely high standard, a Japanese garden and a concert hall sitting on an island, all fifteen minutes by métro from Paris.",
+    sections: [
+      {
+        heading: "The Albert-Kahn museum and gardens",
+        body: "Albert Kahn, a wealthy banker, funded the Archives of the Planet in the early twentieth century: operators sent across dozens of countries to photograph the world in autochromes, the first commercially available colour photographic process. The holding runs to roughly 72,000 plates and is one of the most important collections of early colour photography anywhere. Around his house he laid out a sequence of gardens as scenes (Japanese, English, French, a Vosges forest, a blue forest) that you cross like a journey. The museum was entirely rebuilt by the architect Kengo Kuma and reopened in 2022, with a timber lattice that carries the garden into the building. Closed on Mondays.",
+      },
+      {
+        heading: "La Seine Musicale and the Île Seguin",
+        body: "La Seine Musicale occupies the upstream tip of the Île Seguin, where the Renault works were demolished in the early 2000s. Designed by Shigeru Ban and Jean de Gastines and opened in 2017, it is recognisable by its auditorium: a timber hull wrapped in a moving sail covered in photovoltaic panels, which pivots with the sun. There are two halls, a classical auditorium and a large modular room for amplified music. Part of the building (the roof garden, the terraces, the foyer) can be walked freely during the day outside events, and the views over the Seine and towards Meudon are worth the trip even without a ticket.",
+      },
+      {
+        heading: "The Museum of the 1930s",
+        body: "The Musée des Années Trente is the only French museum devoted entirely to interwar creation across every discipline: painting, monumental sculpture, furniture, decorative arts, architectural models and documents on the urban planning of the period. That fits the town, which is an open-air catalogue of the same architecture. Housed in the Espace Landowski, it shares the building with other cultural facilities, so visits can be strung together. The sculpture collections in particular are exceptional for a municipal museum. Closed on Mondays, modest admission, and quiet on weekdays.",
+      },
+      {
+        heading: "The Paul-Belmondo museum",
+        body: "The Paul-Belmondo museum is devoted to the sculptor of that name, father of the actor, in an eighteenth-century mansion with a garden. You see the reconstructed studio, the original plasters, the drawings and the medals: French figurative sculpture of the twentieth century, running against the avant-gardes, presented for what it is. The interest lies in seeing the work rather than the finished piece: sketches, trials, working casts. The garden is open and free. It is a small museum, an hour is enough, and it pairs naturally with the Museum of the 1930s.",
+      },
+      {
+        heading: "The modern architecture walk",
+        body: "Boulogne-Billancourt has one of the highest concentrations of architect-designed houses from the 1920s and 1930s in France. Le Corbusier built several villas and artists' studios here, among them the Villa Cook, a manifesto for his five points of modern architecture: pilotis, roof garden, free plan, ribbon window, free façade. You also pass work by Robert Mallet-Stevens, Auguste Perret, Pierre Patout and Tony Garnier. Nearly all of these buildings are private property: you look at them from the street and no further. The Museum of the 1930s and the tourist office run guided walks that sometimes get inside, which changes everything — ask well ahead, places are limited.",
+      },
+      {
+        heading: "Notre-Dame and the old village",
+        body: "Notre-Dame-des-Menus is the oldest building in the town and the origin of its name. It was founded in the early fourteenth century at the request of Philip the Fair as a replica of the pilgrimage shrine at Boulogne-sur-Mer, to spare Parisians the journey to the Channel; the village that grew around it took the shrine's name. Gothic and much altered, it keeps its medieval choir. A few streets of old Boulogne around it hold on to a village scale that the rest of the commune has lost. The visit is short but hands you the local place-name, which is not nothing in a town most people assume was born with Renault.",
+      },
+      {
+        heading: "Le Trapèze and what happened to Renault",
+        body: "Le Trapèze is the district built on the former Renault land by the Seine: planted streets, a central park, contemporary blocks, schools and shops. You reach it on foot from La Seine Musicale, and it is one of the largest industrial conversion projects in the Paris region. What you no longer see is the factory: the Île Seguin was razed completely, and the argument over erasing a century of working-class history — the Popular Front, 1968, the last great strikes — is still live. A few traces survive in the public space and in the municipal collections. Knowing that before you walk through makes the walk considerably more interesting.",
+      },
+      {
+        heading: "Markets, parks and getting around",
+        body: "The Escudier market is one of the better covered markets in the western suburbs: fishmongers, cheesemongers, greengrocers, delicatessens, in a hall in the town centre, several mornings a week, with the days posted on site and on the town's website. Value for money still beats central Paris on many items, which is why it draws from well beyond the commune; the Billancourt market on the other side of town does the same job with a more working-class profile. Either is the obvious way to assemble lunch before heading for the parks, and the parks are the town's real luck: the Bois de Boulogne to the north, with its lakes, cycle paths, the Pré Catelan and the Jardin d'Acclimatation, and to the west across the Seine the Domaine national de Saint-Cloud, a Le Nôtre park around a château destroyed in 1870, with its Grandes Cascades, its terraces and one of the finest views over Paris in the region. Both are free. Getting here: métro lines 9 and 10 and tram T2, which runs along the Seine linking La Défense to Issy and Paris, fifteen to twenty-five minutes from central Paris depending on where you start. Many restaurants close on Sunday evening and Monday, as do the museums.",
+      },
+    ],
+    relatedCities: ["boulogne-billancourt", "paris", "issy-les-moulineaux", "neuilly-sur-seine", "versailles"],
+    tags: ["things to do in boulogne-billancourt", "boulogne-billancourt", "travel", "city guide", "ile-de-france"],
+  },
+  {
+    slug: "things-to-do-in-villeurbanne-2026",
+    title: "Things to do in Villeurbanne: the Gratte-Ciel, the TNP and contemporary art",
+    metaTitle: "Things to Do in Villeurbanne (2026) — Lyon's Twin",
+    metaDesc:
+      "The 1934 Gratte-Ciel towers, the Théâtre National Populaire, the Institut d'art contemporain, Le Rize, the Feyssine park and the TASE silk works.",
+    category: "city-guide",
+    emoji: "🏙️",
+    readMinutes: 6,
+    publishedAt: "2026-08-05",
+    updatedAt: "2026-08-05",
+    intro:
+      "Villeurbanne is a commune of about 149,000 people in the Lyon metropolitan area, and the most populous in France that is not a prefecture. It is so tightly joined to Lyon that you cross from one to the other without noticing, and it has always insisted on its independence, which shows in its urban planning: in the early 1930s a socialist council had a set of social-housing towers built in the town centre with no equivalent in Europe, alongside a Palace of Labour combining a theatre, a clinic, a swimming pool and a labour exchange. That is what you come to see, along with a national theatre and a contemporary art scene that carries real weight. French Capital of Culture in 2022, and ten minutes from central Lyon by métro.",
+    sections: [
+      {
+        heading: "The Gratte-Ciel",
+        body: "The Gratte-Ciel district was built between 1931 and 1934 under mayor Lazare Goujon, to plans by the architect Môrice Leroux, to get workers out of slum housing. Two lines of blocks rising to nineteen storeys frame the avenue Henri-Barbusse in successive setbacks inspired by the New York zoning rules of the day, and close on the town hall and its belfry. The scheme included central heating, refuse chutes and lifts, unheard of in French working-class housing at the time. The ensemble carries the Twentieth-Century Heritage label. Visiting costs nothing and is done on foot: walk the avenue end to end, step into the town hall lobby, and look at the setbacks from the side streets.",
+      },
+      {
+        heading: "The TNP and the Palace of Labour",
+        body: "The Théâtre National Populaire occupies the Palais du Travail at the heart of the Gratte-Ciel. The TNP was founded in Paris by Firmin Gémier and later run by Jean Vilar, then transferred to Villeurbanne in 1972 under Roger Planchon — the only time a national label of that standing has left the capital for a suburban town. The building was renovated and reopened in the early 2010s, with a main house and a studio. The programming is demanding and prices are deliberately kept accessible, with reduced rates for young people and residents. Book ahead: new productions sell out.",
+      },
+      {
+        heading: "The Institut d'art contemporain",
+        body: "The IAC is both an art centre and a public collection, a combination that is rare in France. It produces solo shows and carte-blanche projects with living artists, often at the stage where their work has not yet settled into the institutions, and it manages a contemporary art collection held on site and lent across the region. The building, a converted former school, gives generous volumes. Admission is cheap, and it closes at the start of the week and between hangings, so check the calendar before you travel, that is the main way to waste a trip here.",
+      },
+      {
+        heading: "Le Rize",
+        body: "Le Rize is hard to classify, which is what makes it interesting: municipal archives, a media library, an exhibition space and a research centre in one building, entirely given over to the memory of the town and its inhabitants. Villeurbanne was populated in successive waves (Italians, Armenians, Spanish, Portuguese, North Africans, sub-Saharan Africans, Southeast Asians), and Le Rize collects, exhibits and gives back that history with the people concerned rather than about them. Free temporary exhibitions, a café, a garden. It is the place that explains what you see in the streets.",
+      },
+      {
+        heading: "The Botta media library",
+        body: "The MLIS is Villeurbanne's central media library, designed by the Swiss architect Mario Botta and opened in 1988. Botta applies his usual vocabulary: brick, strict geometric volumes, a play of solid and void, top light down the centre. It is one of very few buildings by an architect of that reputation in the Lyon area that you can walk into freely and without a ticket, since it simply works as a public library. Free entry during opening hours, regular exhibitions, and an interior that justifies the detour on its own if 1980s architecture interests you.",
+      },
+      {
+        heading: "The Feyssine park and the Rhône banks",
+        body: "The Parc de la Feyssine takes up the left bank of the Rhône north of town, some forty hectares deliberately left under light-touch management: alluvial woodland, meadows, paths, no street furniture and no mown lawn. It is the opposite of a conventional urban park, and the closest thing to a natural river landscape in the conurbation. It runs on into the managed riverbanks heading down towards the Parc de la Tête d'Or and central Lyon: by bike the route is continuous and car-free for several kilometres. Open all year, free.",
+      },
+      {
+        heading: "Carré de Soie and the TASE silk works",
+        body: "To the east, the Carré de Soie district, straddling Villeurbanne and Vaulx-en-Velin, grew up around the former TASE works, Textile Artificiel du Sud-Est, which produced artificial silk from the 1920s and housed its workforce in a garden city next door. The factory, with its concrete frontage and clock tower, is protected and partly converted; the TASE estate can be walked and remains a legible example of French industrial paternalism. Around it, the Lyon-Parilly racecourse and a contemporary leisure complex complete a district where industrial history and shopping mall sit side by side without transition.",
+      },
+      {
+        heading: "Basketball, gigs and where to eat",
+        body: "ASVEL is the most-titled basketball club in France and plays at the Astroballe in Villeurbanne. A EuroLeague or domestic fixture here is nothing like a big-arena night: the hall is compact, the acoustics harsh, the crowd close to the floor. Tickets go fast for European games, far less so for a midweek league match; the women's team, also decorated, plays in the same building, and prices are well below the equivalent in Paris. For music, Le Transbordeur is the main contemporary-music venue in the Lyon area, in a former industrial building to the north of town near the Cité internationale — a mid-size room taking the bands too big for a club and too small for an arena, several nights a week. Plan the way home around the last métro and tram. On the food side, Villeurbanne has several neighbourhood markets (Gratte-Ciel, Croix-Luizet, Charpennes), cheaper and less touristed than Lyon's, and its restaurants reflect who lives here: long-established Italian trattorias, Armenian tables, North African canteens, Vietnamese and Lao places, and student food around the Doua campus. For classic Lyonnais cooking, the bouchons of Vieux-Lyon and the Terreaux are about ten minutes away on métro line A, which serves Charpennes, République, Gratte-Ciel, Flachet, Cusset and Laurent-Bonnevay. Staying in Villeurbanne to visit Lyon is, incidentally, a sound trade.",
+      },
+    ],
+    relatedCities: ["villeurbanne", "lyon", "venissieux", "grenoble", "saint-etienne"],
+    tags: ["things to do in villeurbanne", "villeurbanne", "travel", "city guide", "auvergne-rhone-alpes"],
+  },
+  {
+    slug: "things-to-do-in-le-tampon-2026",
+    title: "Things to do in Le Tampon: the volcano, the highlands and tropical cold",
+    metaTitle: "Things to Do in Le Tampon, Réunion (2026) — Volcano",
+    metaDesc:
+      "Piton de la Fournaise, the Plaine des Sables, the Cité du Volcan, Grand Bassin, the Bois-Court viewpoint and the Miel Vert fair in Réunion's highlands.",
+    category: "city-guide",
+    emoji: "🌋",
+    readMinutes: 7,
+    publishedAt: "2026-08-05",
+    updatedAt: "2026-08-05",
+    intro:
+      "Le Tampon is a commune of about 81,000 people on Réunion, the island's third largest and the only one of that size with no coastline at all. It runs up the southern flank of the volcanic massif from the outskirts of Saint-Pierre to the approaches of the Piton de la Fournaise, which gives it an unusual spread of altitude: the town centre sits around 530 metres, the Plaine des Cafres approaches 1,600, and the volcano road climbs beyond 2,200. Addresses are given in kilometres — the 12th, the 14th, the 23rd — rather than by neighbourhood name. This is the natural base for the volcano and the highlands, and the place where you discover that Réunion can be cold: on the Plaine des Cafres there is frost on some winter mornings.",
+    sections: [
+      {
+        heading: "The Plaine des Cafres and Bourg-Murat",
+        body: "The Plaine des Cafres is the high plateau separating the Piton des Neiges massif from that of the Fournaise, between the two volcanoes, at an altitude where the landscape turns to pasture, cattle, cryptomeria hedges and mist rising through the afternoon. Bourg-Murat, at the 23rd kilometre, is its junction: the volcano road turns off here, and this is where the guesthouses, table d'hôtes and hire outfits are concentrated. There is nothing tropical about the climate and you will want a fleece even in the austral summer. This is also Réunion's dairy country and its highland market-gardening belt, which shows up on the plate.",
+      },
+      {
+        heading: "The Piton de la Fournaise",
+        body: "The Piton de la Fournaise is one of the most active volcanoes on the planet and the main reason to stay at Le Tampon. The volcano road climbs from Bourg-Murat to the Pas de Bellecombe car park at around 2,300 metres, overlooking the Enclos Fouqué, the vast depression in which the eruptions are concentrated. The hike to the Dolomieu crater first drops down the Pas de Bellecombe staircase, then crosses lava fields: long, exposed, with no shade and no water, to be started at first light because the cloud cover comes back up mid-morning. One non-negotiable point: access depends on the volcanic alert level set by the prefecture and can be closed overnight. Check the day before and again on the morning itself.",
+      },
+      {
+        heading: "The Plaine des Sables",
+        body: "Before it reaches the Pas de Bellecombe, the volcano road crosses the Plaine des Sables: a depression of ochre and black scoria, without vegetation, ringed by ramparts, which appears all at once from the Pas des Sables viewpoint. Comparing it to Mars is a cliché but a literal one here — film shoots and space-hardware trials have taken place on it. The crossing runs on a made track, passable in an ordinary car with care. It is the most spectacular landscape reachable by road anywhere on the island, and it can still be seen on days when the volcano itself is closed to walkers.",
+      },
+      {
+        heading: "The Cité du Volcan",
+        body: "The Cité du Volcan at Bourg-Murat is the reference museum on Réunionese and world volcanism, fully refurbished with an immersive layout: relief models of the island, simulators, projection rooms, and displays on the formation of the hotspot and on the monitoring of the Fournaise by the volcano observatory. Do it before you go up, because it makes sense of what you are about to look at, and it is the obvious fallback on days when the volcano is closed or buried in cloud. Allow two to three hours. Check the weekly closing day.",
+      },
+      {
+        heading: "Grand Bassin, the hamlet with no road",
+        body: "Grand Bassin is a hamlet at the bottom of a steep-sided cirque, at the confluence of three rivers, and no road reaches it: you walk down from Bois-Court on a zigzag path, a good hour and a half going down and appreciably more coming back up, which is steep. A handful of people still live there, with guesthouses and table d'hôtes. The Voile de la Mariée waterfall at the head of the valley, and the pool where you can swim depending on conditions, are the classic objective. A cable line serves supplies, not visitors. Leave early, carry water, and check the forecast: river floods here are sudden.",
+      },
+      {
+        heading: "The Bois-Court viewpoint and the tamarind forest",
+        body: "The Bois-Court viewpoint, laid out and reachable by car, looks down into the Grand Bassin cirque from its rampart: the tiny hamlet at the bottom, the meeting of the rivers, the waterfalls on the far wall. For what it shows, it is one of the easiest panoramas to reach on Réunion, with a picnic area and paths along the rim. Come early, before the cloud fills the cirque — the rule in the highlands is the same everywhere: the view belongs to those who get up. Further along the volcano road, the forest of Notre-Dame-de-la-Paix is one of the island's finest stands of tamarin des Hauts, an endemic acacia with twisted branches, covered in moss and lichen, growing in even stands that give the wood a storybook look. Several waymarked loops, from an hour's stroll to a half-day, start from the parking area. It is cool, damp and often misty, and it is the best fallback walk when the volcano is clouded in. Closed shoes are essential; the ground is slippery.",
+      },
+      {
+        heading: "The market and the produce of the highlands",
+        body: "Le Tampon's open-air market is one of the best stocked in the south of the island for highland produce: chayote, watercress, carrots, lettuce, strawberries and highland potatoes, spices, seasonal fruit, and the plants and flowers that are a local speciality. Market days are posted on the commune's website — check them before planning around it. Alongside the vegetable stalls, the bouchons, samosas and chilli fritters make a good late breakfast. Producers on the Plaine des Cafres also sell direct along the RN3, notably honey and farm cheeses.",
+      },
+      {
+        heading: "The Miel Vert fair, the table, and the sea twenty minutes away",
+        body: "Miel Vert is the great agricultural fair of the highlands, held each year on the Plaine des Cafres and one of the biggest popular gatherings on Réunion: livestock competitions, beekeeping, farm machinery, crafts, plants, and séga and maloya concerts over several days. Réunionese honey, particularly pink-pepper and lychee, is sold by the producers themselves. It usually falls in the heart of the austral summer, but the dates move from one edition to the next: check with the tourist office before booking a trip around it, and expect accommodation to be hard to find while it runs. The cooking up here is more rustic than on the coast: chicken cari, rougail saucisse, duck civet, boucané smoked pork, chayote served as a gratin, a daube and a salad, and pâté créole in season. Guesthouse tables on the Plaine des Cafres often serve their own cheese, honey and vegetables, with rhum arrangé alongside and Cilaos wine on the list. One last piece of planning: Le Tampon has no coast, but Saint-Pierre and its beaches are about twenty minutes down the road. The rule that applies across Réunion applies there — outside lagoons and supervised bathing areas, swimming in the sea is prohibited because of the shark risk.",
+      },
+    ],
+    relatedCities: ["le-tampon", "saint-pierre-reunion", "saint-denis-reunion", "saint-paul-reunion"],
+    tags: ["things to do in le tampon", "le tampon reunion", "travel", "city guide", "reunion"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed
