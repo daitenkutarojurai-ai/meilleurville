@@ -1076,11 +1076,25 @@ function enCompareSection(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.6,
     })),
+    // Jumelle EN de /comparer/<pair>/synthese — même jeu de paires des deux
+    // côtés, sinon le hreflang de la FR pointerait vers une URL absente.
+    ...SEO_PAIRS.map(([a, b]) => ({
+      url: `${BASE_URL}/compare/${a}-vs-${b}/synthesis`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.55,
+    })),
     ...SEO_TRIPLETS.map(([a, b, c]) => ({
       url: `${BASE_URL}/compare/${a}-vs-${b}-vs-${c}`,
       lastModified: CITY_DATA_UPDATED,
       changeFrequency: "monthly" as const,
       priority: 0.55,
+    })),
+    ...SEO_TRIPLETS.map(([a, b, c]) => ({
+      url: `${BASE_URL}/compare/${a}-vs-${b}-vs-${c}/synthesis`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.5,
     })),
   ];
 }

@@ -165,6 +165,26 @@ function TripletPage({ cities }: { cities: [(typeof CITIES_SEED)[number], (typeo
         </p>
       </section>
 
+      {/* Cross-link: 8-dimension synthesis */}
+      <section className="mx-auto max-w-5xl px-4 sm:px-6 pb-2">
+        <Link
+          href={`/compare/${pairSlug}/synthesis`}
+          className="group flex flex-wrap items-center gap-3 rounded-2xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 hover:border-[var(--accent)] hover:shadow-md transition-all px-5 py-4"
+        >
+          <span className="text-2xl shrink-0">✨</span>
+          <div className="flex-1 min-w-0">
+            <p className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+              8 dimensions compared — {a.name} vs {b.name} vs {c.name}
+            </p>
+            <p className="text-xs text-[var(--text-secondary)] mt-0.5">
+              Environment, healthcare, employment, quality of life, cycling, safety,
+              demographics, public services. Ahead only counts from 0.3 pts.
+            </p>
+          </div>
+          <span className="text-sm text-[var(--accent)] font-medium shrink-0">View →</span>
+        </Link>
+      </section>
+
       {/* Score cards */}
       <section className="mx-auto max-w-5xl px-4 sm:px-6 py-4 grid grid-cols-3 gap-3">
         {[a, b, c].map((city) => (
@@ -447,6 +467,27 @@ export default async function EnComparePair({ params }: Props) {
 
       <section className="mx-auto max-w-4xl px-4 sm:px-6 py-6">
         <VsBattle a={a} b={b} locale="en" />
+      </section>
+
+      {/* Cross-link: 8-dimension synthesis (EN twin of the FR « Synthèse 8 axes ») */}
+      <section className="mx-auto max-w-4xl px-4 sm:px-6 pb-2">
+        <Link
+          href={`/compare/${a.slug}-vs-${b.slug}/synthesis`}
+          className="block rounded-2xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 hover:border-[var(--accent)] hover:shadow-md transition-all p-5 group"
+        >
+          <div className="flex items-center justify-between gap-3">
+            <div className="min-w-0">
+              <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                ✨ 8 dimensions compared — {a.name} vs {b.name}
+              </div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">
+                Environment, healthcare, employment, quality of life, cycling, safety,
+                demographics and public services — a gap counts from 0.3 pts.
+              </div>
+            </div>
+            <span className="shrink-0 text-[var(--accent)] text-sm font-semibold">→</span>
+          </div>
+        </Link>
       </section>
 
       {(housingA || housingB) && (

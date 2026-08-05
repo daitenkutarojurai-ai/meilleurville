@@ -332,3 +332,24 @@ export function cityAlternatesEn(
   const enPath = `/cities/${slug}/${enSub}`;
   return { canonical: `${ORIGIN_BY_LOCALE.en}${enPath}`, languages: hreflangLanguagesEn(enPath) };
 }
+
+// Alternates for a family the segment tables can't derive on their own : celles
+// dont c'est le **dernier** segment qui est traduit, pas la tête
+// (`/comparer/<pair>/synthese` ↔ `/compare/<pair>/synthesis`).
+// `hreflangLanguages*` ne traduit que la tête : elle émettrait
+// `/comparer/<pair>/synthesis`, une URL FR qui n'existe pas — et un hreflang
+// qui pointe vers un 404 coûte plus cher que pas de hreflang du tout.
+// Les deux chemins sont donc donnés explicitement par la page.
+export function pathAlternates(
+  frPath: string,
+  enPath: string,
+): { canonical: string; languages: Record<string, string> } {
+  return { canonical: frPath, languages: langPair(frPath, enPath) };
+}
+
+export function pathAlternatesEn(
+  frPath: string,
+  enPath: string,
+): { canonical: string; languages: Record<string, string> } {
+  return { canonical: `${ORIGIN_BY_LOCALE.en}${enPath}`, languages: langPair(frPath, enPath) };
+}

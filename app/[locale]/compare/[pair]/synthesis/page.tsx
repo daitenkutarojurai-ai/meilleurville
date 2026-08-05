@@ -10,87 +10,158 @@ import { SEO_PAIRS } from "@/lib/comparer-pairs";
 import { SEO_TRIPLETS } from "@/lib/comparer-triplets";
 import {
   computeCitySynthesis,
-  SYNTHESIS_LEVEL_LABEL,
   SYNTHESIS_LEVEL_COLOR,
   SYNTHESIS_LEVEL_BG,
   type CitySynthesis,
+  type SynthesisLevel,
 } from "@/lib/city-synthesis";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { pathAlternates } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
+import { clampMeta } from "@/lib/brand";
 
 export const revalidate = false;
-// Aligné sur le parent /comparer/[pair] qui accepte les paires ad-hoc.
-// Sans ça, la CTA « ✨ Synthèse 8 axes » 404 sur toute paire non curée
-// (SEO_PAIRS / SEO_TRIPLETS), notamment la barre « Comparer cette ville
-// avec » du profil de ville qui produit des paires triées par slug.
+// Aligné sur le parent /compare/[pair] et sur la jumelle FR : la CTA
+// « 8-dimension comparison » doit résoudre sur exactement le même jeu de
+// paires que la page classique, sinon elle 404 sur une paire curée.
 export const dynamicParams = false;
 
-type Props = { params: Promise<{ pair: string }> };
+type Props = { params: Promise<{ locale: string; pair: string }> };
 
 export function generateStaticParams() {
   return [
-    ...SEO_PAIRS.map(([a, b]) => ({ pair: `${a}-vs-${b}` })),
-    ...SEO_TRIPLETS.map(([a, b, c]) => ({ pair: `${a}-vs-${b}-vs-${c}` })),
+    ...SEO_PAIRS.map(([a, b]) => ({ locale: "en", pair: `${a}-vs-${b}` })),
+    ...SEO_TRIPLETS.map(([a, b, c]) => ({ locale: "en", pair: `${a}-vs-${b}-vs-${c}` })),
   ];
 }
 
 const TRIPLET_COLORS = ["#0ea5e9", "#a78bfa", "#f97316"] as const;
 
+// Le moteur `lib/city-synthesis` est francophone (libellés + href FR) et reste
+// la source unique des chiffres : les deux locales affichent exactement les
+// mêmes scores. Seul l'habillage est traduit, ici, au point d'affichage —
+// mêmes tables que `app/[locale]/cities/[slug]/synthesis/page.tsx`.
+const EN_LEVEL_LABEL: Record<SynthesisLevel, string> = {
+  excellent: "Excellent",
+  bon: "Good",
+  moyen: "Moderate",
+  tendu: "Strained",
+};
+
+const EN_AXIS_LABEL: Record<string, string> = {
+  "Cadre de vie": "Quality of life",
+  "Environnement": "Environment",
+  "Santé": "Healthcare",
+  "Emploi": "Employment",
+  "Vélo": "Cycling",
+  "Sécurité": "Safety",
+  "Démographie": "Demographics",
+  "Services publics": "Public services",
+};
+
+const EN_AXIS_HINT: Record<string, string> = {
+  "Cadre de vie": "Mega-index: env + healthcare + employment",
+  "Environnement": "Air · noise · water · natural risks",
+  "Santé": "GPs · specialists · A&E · pharmacies",
+  "Emploi": "Unemployment · wages · economic dynamism",
+  "Vélo": "Cycle network · terrain · safety",
+  "Sécurité": "Property crime · personal safety · night",
+  "Démographie": "Ageing · youth · population trajectory",
+  "Services publics": "Schools · post office · town hall · library",
+};
+
+function enAxisHref(key: string, slug: string): string {
+  const map: Record<string, string> = {
+    "cadre-de-vie": `/cities/${slug}`,
+    environnement: `/cities/${slug}/air-quality`,
+    sante: `/cities/${slug}/healthcare`,
+    emploi: `/cities/${slug}/employment`,
+    velo: `/cities/${slug}/cycling`,
+    securite: `/cities/${slug}/safety`,
+    demographie: `/cities/${slug}/demographics`,
+    "services-publics": `/cities/${slug}/public-services`,
+  };
+  return map[key] ?? `/cities/${slug}`;
+}
+
+const axisLabel = (fr: string) => EN_AXIS_LABEL[fr] ?? fr;
+const axisHint = (fr: string, fallback: string) => EN_AXIS_HINT[fr] ?? fallback;
+
+/** Titre court si le gabarit long dépasse les ~60 caractères rendus par Google. */
+function fitTitle(long: string, short: string): string {
+  return long.length <= 60 ? long : short;
+}
+
+function deltaLabel(d: number): string {
+  if (Math.abs(d) < 0.3) return "level";
+  if (d > 0) return `+${d.toFixed(1)} pts`;
+  return `${d.toFixed(1)} pts`;
+}
+
+function frPath(pair: string) {
+  return `/comparer/${pair}/synthese`;
+}
+function enPath(pair: string) {
+  return `/compare/${pair}/synthesis`;
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { pair } = await params;
   const parts = pair.split("-vs-");
+  const alternates = pathAlternatesEn(frPath(pair), enPath(pair));
+
   if (parts.length === 3) {
     const cities = parts.map((s) => CITIES_SEED.find((c) => c.slug === s));
     if (cities.some((c) => !c)) return {};
     const [a, b, c] = cities as NonNullable<(typeof cities)[number]>[];
     return {
-      title: `${a.name} vs ${b.name} vs ${c.name} · synthèse 8 axes 3 villes 2026`,
-      description: `Comparatif à 3 entre ${a.name}, ${b.name} et ${c.name} : environnement, santé, emploi, cadre de vie, sécurité, démographie. Verdict axe par axe.`,
-      alternates: pathAlternates(`/comparer/${pair}/synthese`, `/compare/${pair}/synthesis`),
+      title: fitTitle(
+        `${a.name} vs ${b.name} vs ${c.name} — 8 dimensions compared`,
+        `${a.name} vs ${b.name} vs ${c.name} — 8 dimensions`,
+      ),
+      description: clampMeta(
+        `Three-way comparison of ${a.name}, ${b.name} and ${c.name}: environment, healthcare, employment, quality of life, safety, demographics. Winner per dimension.`,
+      ),
+      alternates,
       openGraph: {
         // Sans `images`, un openGraph de page remplace celui hérité de la racine
-        // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+        // — la carte sociale disparaîtrait entièrement au lieu de retomber dessus.
         images: ["/opengraph-image"],
-        title: `${a.name} vs ${b.name} vs ${c.name} · synthèse 8 axes`,
-        description: `Les 8 dimensions data du site comparées entre 3 villes.`,
+        title: `${a.name} vs ${b.name} vs ${c.name} — 8 dimensions`,
+        description: `The site's 8 data dimensions, compared across three French cities.`,
       },
     };
   }
+
   if (parts.length !== 2) return {};
   const cityA = CITIES_SEED.find((c) => c.slug === parts[0]);
   const cityB = CITIES_SEED.find((c) => c.slug === parts[1]);
   if (!cityA || !cityB) return {};
   return {
-    title: `${cityA.name} vs ${cityB.name} · synthèse 8 axes comparée 2026`,
-    description: `Comparatif ${cityA.name} vs ${cityB.name} : environnement, santé, emploi, cadre de vie, sécurité, démographie. Verdict axe par axe.`,
-    alternates: pathAlternates(`/comparer/${pair}/synthese`, `/compare/${pair}/synthesis`),
+    title: fitTitle(
+      `${cityA.name} vs ${cityB.name} — 8 dimensions compared`,
+      `${cityA.name} vs ${cityB.name} — 8 dimensions`,
+    ),
+    description: clampMeta(
+      `${cityA.name} vs ${cityB.name} on 8 data dimensions: environment, healthcare, employment, quality of life, cycling, safety, demographics, public services.`,
+    ),
+    alternates,
     openGraph: {
-      // Idem branche triplet : sans `images`, plus aucune carte sociale.
       images: ["/opengraph-image"],
-      title: `${cityA.name} vs ${cityB.name} · synthèse 8 axes`,
-      description: `Les 8 dimensions data du site comparées côte à côte.`,
+      title: `${cityA.name} vs ${cityB.name} — 8 dimensions`,
+      description: `The site's 8 data dimensions, side by side. Unified scale: 10 = excellent.`,
     },
   };
 }
 
-function deltaLabel(d: number): string {
-  if (Math.abs(d) < 0.3) return "≈ équivalent";
-  if (d > 0) return `+${d.toFixed(1)} pt`;
-  return `${d.toFixed(1)} pt`;
-}
-
-export default async function PairSynthesePage({ params }: Props) {
+export default async function PairSynthesisENPage({ params }: Props) {
   const { pair } = await params;
   const parts = pair.split("-vs-");
 
-  // Triplet dispatch — same dynamic segment, different render.
+  // Triplet dispatch — same dynamic segment, different render (mirrors FR).
   if (parts.length === 3) {
     const seeds = parts.map((s) => CITIES_SEED.find((c) => c.slug === s));
     if (seeds.some((c) => !c)) notFound();
-    return renderTriplet(
-      seeds as NonNullable<(typeof seeds)[number]>[],
-      pair,
-    );
+    return renderTriplet(seeds as NonNullable<(typeof seeds)[number]>[], pair);
   }
 
   if (parts.length !== 2) notFound();
@@ -101,7 +172,6 @@ export default async function PairSynthesePage({ params }: Props) {
   const synA = computeCitySynthesis(cityA);
   const synB = computeCitySynthesis(cityB);
 
-  // Build axis comparison rows by joining on `key`.
   const axesA = new Map(synA.axes.map((a) => [a.key, a]));
   const rows = synB.axes.map((b) => {
     const a = axesA.get(b.key)!;
@@ -113,46 +183,46 @@ export default async function PairSynthesePage({ params }: Props) {
   const draws = rows.length - winsA - winsB;
   const verdict =
     winsA >= winsB + 2
-      ? `${cityA.name} domine la synthèse (${winsA}/${rows.length} axes favorables, ${winsB} pour ${cityB.name}, ${draws} équivalents).`
+      ? `${cityA.name} takes the synthesis (${winsA}/${rows.length} dimensions ahead, ${winsB} for ${cityB.name}, ${draws} level).`
       : winsB >= winsA + 2
-        ? `${cityB.name} domine la synthèse (${winsB}/${rows.length} axes favorables, ${winsA} pour ${cityA.name}, ${draws} équivalents).`
-        : `Comparatif serré (${winsA} axes pour ${cityA.name}, ${winsB} pour ${cityB.name}, ${draws} équivalents) — le choix dépend des priorités personnelles.`;
+        ? `${cityB.name} takes the synthesis (${winsB}/${rows.length} dimensions ahead, ${winsA} for ${cityA.name}, ${draws} level).`
+        : `Close call (${winsA} dimensions for ${cityA.name}, ${winsB} for ${cityB.name}, ${draws} level) — the decision comes down to your own priorities.`;
 
   const breadcrumb = breadcrumbJsonLd([
-    { name: "Accueil", path: "/" },
-    { name: "Comparer", path: "/comparer" },
-    { name: `${cityA.name} vs ${cityB.name}`, path: `/comparer/${pair}` },
-    { name: "Synthèse", path: `/comparer/${pair}/synthese` },
+    { name: "Home", path: "/" },
+    { name: "Compare", path: "/compare" },
+    { name: `${cityA.name} vs ${cityB.name}`, path: `/compare/${pair}` },
+    { name: "8 dimensions", path: enPath(pair) },
   ]);
 
   const faq = faqJsonLd([
     {
-      q: `Quelle ville l'emporte sur la synthèse globale, ${cityA.name} ou ${cityB.name} ?`,
-      a: `Score global de synthèse (moyenne des 8 axes normalisés, 10 = excellent) : ${cityA.name} ${synA.global}/10 vs ${cityB.name} ${synB.global}/10. ${verdict}`,
+      q: `Which city scores higher overall, ${cityA.name} or ${cityB.name}?`,
+      a: `Composite synthesis score (mean of 8 normalised dimensions, 10 = excellent): ${cityA.name} ${synA.global}/10 vs ${cityB.name} ${synB.global}/10. ${verdict}`,
     },
     {
-      q: `Sur quels axes ${cityA.name} dépasse-t-elle ${cityB.name} ?`,
+      q: `Where does ${cityA.name} beat ${cityB.name}?`,
       a:
         rows.filter((r) => r.delta >= 0.3).length === 0
-          ? `${cityA.name} ne dépasse ${cityB.name} sur aucun axe avec un écart significatif (≥ 0,3 pt).`
-          : `Axes favorables à ${cityA.name} : ${rows
+          ? `${cityA.name} is not ahead of ${cityB.name} on any dimension by a meaningful margin (≥ 0.3 pts).`
+          : `Dimensions favouring ${cityA.name}: ${rows
               .filter((r) => r.delta >= 0.3)
-              .map((r) => `${r.label} (+${r.delta.toFixed(1)})`)
+              .map((r) => `${axisLabel(r.label)} (+${r.delta.toFixed(1)})`)
               .join(", ")}.`,
     },
     {
-      q: `Sur quels axes ${cityB.name} dépasse-t-elle ${cityA.name} ?`,
+      q: `Where does ${cityB.name} beat ${cityA.name}?`,
       a:
         rows.filter((r) => r.delta <= -0.3).length === 0
-          ? `${cityB.name} ne dépasse ${cityA.name} sur aucun axe avec un écart significatif (≥ 0,3 pt).`
-          : `Axes favorables à ${cityB.name} : ${rows
+          ? `${cityB.name} is not ahead of ${cityA.name} on any dimension by a meaningful margin (≥ 0.3 pts).`
+          : `Dimensions favouring ${cityB.name}: ${rows
               .filter((r) => r.delta <= -0.3)
-              .map((r) => `${r.label} (${Math.abs(r.delta).toFixed(1)})`)
+              .map((r) => `${axisLabel(r.label)} (${Math.abs(r.delta).toFixed(1)})`)
               .join(", ")}.`,
     },
     {
-      q: `Comment est calculée la synthèse 8 axes ?`,
-      a: `Moyenne arithmétique des 8 composites des clusters data du site (environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics) normalisés vers une convention « 10 = excellent ». Calcul déterministe et reproductible.`,
+      q: `How is the 8-dimension synthesis calculated?`,
+      a: `Arithmetic mean of the site's 8 data-cluster composites (environment, healthcare, employment, quality of life, cycling, safety, demographics, public services), all normalised to a "10 = excellent" convention. Deterministic and reproducible — the French version of this page shows the same figures.`,
     },
   ]);
 
@@ -164,24 +234,24 @@ export default async function PairSynthesePage({ params }: Props) {
 
       <section className="mx-auto max-w-4xl px-4 sm:px-6 py-10">
         <nav className="text-xs text-[var(--text-tertiary)] mb-3">
-          <Link href="/" className="hover:underline">Accueil</Link> ·{" "}
-          <Link href="/comparer" className="hover:underline">Comparer</Link> ·{" "}
-          <Link href={`/comparer/${pair}`} className="hover:underline">
+          <Link href="/" className="hover:underline">Home</Link> ·{" "}
+          <Link href="/compare" className="hover:underline">Compare</Link> ·{" "}
+          <Link href={`/compare/${pair}`} className="hover:underline">
             {cityA.name} vs {cityB.name}
           </Link>
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
-          {cityA.name} vs {cityB.name} — synthèse 8 axes
+          {cityA.name} vs {cityB.name} — 8 dimensions compared
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
-          Comparatif détaillé sur les 8 dimensions data du site : environnement, santé,
-          emploi, cadre de vie, vélo, sécurité, démographie, services publics. Convention
-          unifiée 10 = excellent, écart significatif fixé à ±0,3 pt.
+          Head-to-head on the site&apos;s 8 data dimensions: environment, healthcare,
+          employment, quality of life, cycling, safety, demographics, public services.
+          Unified scale, 10 = excellent. A gap counts as meaningful from 0.3 pts.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>8 axes comparés</Badge>
+          <Badge>8 dimensions</Badge>
           <Badge>
             {cityA.name} {synA.global}/10 vs {cityB.name} {synB.global}/10
           </Badge>
@@ -199,7 +269,7 @@ export default async function PairSynthesePage({ params }: Props) {
                 <span className="text-sm font-normal text-[var(--text-tertiary)] ml-0.5">/10</span>
               </div>
               <div className={`text-xs font-bold uppercase mt-1 ${SYNTHESIS_LEVEL_COLOR[synA.level]}`}>
-                {SYNTHESIS_LEVEL_LABEL[synA.level]} · cohérence ±{synA.spread.toFixed(1)}
+                {EN_LEVEL_LABEL[synA.level]} · consistency ±{synA.spread.toFixed(1)}
               </div>
             </div>
             <div className={`rounded-2xl border p-4 ${SYNTHESIS_LEVEL_BG[synB.level]}`}>
@@ -211,36 +281,36 @@ export default async function PairSynthesePage({ params }: Props) {
                 <span className="text-sm font-normal text-[var(--text-tertiary)] ml-0.5">/10</span>
               </div>
               <div className={`text-xs font-bold uppercase mt-1 ${SYNTHESIS_LEVEL_COLOR[synB.level]}`}>
-                {SYNTHESIS_LEVEL_LABEL[synB.level]} · cohérence ±{synB.spread.toFixed(1)}
+                {EN_LEVEL_LABEL[synB.level]} · consistency ±{synB.spread.toFixed(1)}
               </div>
             </div>
           </div>
           <p className="text-sm text-[var(--text-primary)] leading-relaxed">{verdict}</p>
           <div className="mt-3 flex flex-wrap gap-2 text-xs">
-            <Badge>{winsA} axes pour {cityA.name}</Badge>
-            <Badge>{winsB} axes pour {cityB.name}</Badge>
-            <Badge>{draws} équivalents</Badge>
+            <Badge>{winsA} for {cityA.name}</Badge>
+            <Badge>{winsB} for {cityB.name}</Badge>
+            <Badge>{draws} level</Badge>
           </div>
         </Card>
 
-        {/* Axis-by-axis comparison */}
+        {/* Dimension-by-dimension comparison */}
         <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">
-          Comparaison axe par axe
+          Dimension by dimension
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
-          Convention unifiée 10 = excellent. Le « delta » est positif quand {cityA.name}
-          dépasse {cityB.name}. Écart significatif : ≥ 0,3 pt.
+          Unified scale, 10 = excellent. The delta is positive when {cityA.name} is ahead
+          of {cityB.name}. Anything under 0.3 pts is treated as level.
         </p>
         <Card className="mt-4 overflow-hidden p-0">
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead className="bg-[var(--bg-elevated)] text-xs uppercase tracking-wide text-[var(--text-tertiary)]">
                 <tr>
-                  <th className="px-3 py-2 text-left">Axe</th>
+                  <th className="px-3 py-2 text-left">Dimension</th>
                   <th className="px-3 py-2 text-right">{cityA.name}</th>
                   <th className="px-3 py-2 text-right">{cityB.name}</th>
                   <th className="px-3 py-2 text-right">Δ</th>
-                  <th className="px-3 py-2 text-left hidden sm:table-cell">Gagnant</th>
+                  <th className="px-3 py-2 text-left hidden sm:table-cell">Ahead</th>
                 </tr>
               </thead>
               <tbody>
@@ -248,22 +318,18 @@ export default async function PairSynthesePage({ params }: Props) {
                   const winner =
                     Math.abs(r.delta) < 0.3 ? "—" : r.delta > 0 ? cityA.name : cityB.name;
                   const winnerColor =
-                    winner === "—"
-                      ? "text-[var(--text-tertiary)]"
-                      : winner === cityA.name
-                        ? "text-emerald-700"
-                        : "text-emerald-700";
+                    winner === "—" ? "text-[var(--text-tertiary)]" : "text-emerald-700";
                   return (
                     <tr key={r.key} className="border-t border-[var(--border)]">
                       <td className="px-3 py-2">
                         <Link
-                          href={r.a.href}
+                          href={enAxisHref(r.key, cityA.slug)}
                           className="font-semibold text-[var(--text-primary)] hover:text-[var(--accent)]"
                         >
-                          {r.label}
+                          {axisLabel(r.label)}
                         </Link>
                         <div className="text-[10px] text-[var(--text-tertiary)] mt-0.5">
-                          {r.hint}
+                          {axisHint(r.label, r.hint)}
                         </div>
                       </td>
                       <td className="px-3 py-2 text-right">
@@ -291,43 +357,45 @@ export default async function PairSynthesePage({ params }: Props) {
         </Card>
 
         {/* Cross-links */}
-        <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">Aller plus loin</h2>
+        <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">Go further</h2>
         <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
-          <Link href={`/comparer/${pair}`} className="block">
+          <Link href={`/compare/${pair}`} className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-sm font-semibold text-[var(--text-primary)]">
-                ← Comparatif classique
+                ← Standard comparison
               </div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">
-                Scores seed, coût de la vie, immobilier
+                Core scores, cost of living, housing
               </div>
             </Card>
           </Link>
-          <Link href={`/villes/${cityA.slug}/synthese`} className="block">
+          <Link href={`/cities/${cityA.slug}/synthesis`} className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-sm font-semibold text-[var(--text-primary)]">
-                Synthèse {cityA.name}
+                {cityA.name} full profile
               </div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">
-                Forces, tensions, méthodologie
+                Strengths, tensions, methodology
               </div>
             </Card>
           </Link>
-          <Link href={`/villes/${cityB.slug}/synthese`} className="block">
+          <Link href={`/cities/${cityB.slug}/synthesis`} className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-sm font-semibold text-[var(--text-primary)]">
-                Synthèse {cityB.name}
+                {cityB.name} full profile
               </div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">
-                Forces, tensions, méthodologie
+                Strengths, tensions, methodology
               </div>
             </Card>
           </Link>
-          <Link href="/palmares" className="block">
+          <Link href="/overall-ranking" className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">Palmarès national</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">
+                National ranking
+              </div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">
-                Top 30 profils favorables sur les 8 axes
+                The 30 strongest profiles across the 8 dimensions
               </div>
             </Card>
           </Link>
@@ -339,7 +407,7 @@ export default async function PairSynthesePage({ params }: Props) {
   );
 }
 
-// ─── F69 — Triplet synthese ────────────────────────────────────────────────
+// ─── Triplet synthesis (EN twin of the FR renderTriplet) ───────────────────
 
 type SeedCity = (typeof CITIES_SEED)[number];
 
@@ -348,77 +416,50 @@ function renderTriplet(seeds: SeedCity[], pair: string) {
   const syns: CitySynthesis[] = seeds.map((s) => computeCitySynthesis(s));
   const [syn0, syn1, syn2] = syns;
 
-  // Join axes by key from city 0 — same order across all cities.
   const axes0 = syn0.axes;
   const axesByKey = seeds.map((_, i) => new Map(syns[i].axes.map((a) => [a.key, a])));
   const rows = axes0.map((a0) => {
     const scores = seeds.map((_, i) => axesByKey[i].get(a0.key)!.score);
     const max = Math.max(...scores);
-    const winners = scores
+    const leaders = scores
       .map((s, i) => (s >= max - 0.0001 ? i : -1))
       .filter((i) => i >= 0);
-    // Significant winner only if its margin over the next best is ≥ 0,3 pt.
     const sorted = [...scores].sort((a, b) => b - a);
-    const winner =
-      winners.length === 1 && sorted[0] - sorted[1] >= 0.3 ? winners[0] : -1;
-    return {
-      key: a0.key,
-      label: a0.label,
-      hint: a0.hint,
-      href: a0.href,
-      scores,
-      winner,
-    };
+    // Only a margin of ≥ 0.3 pts over the runner-up counts as being ahead.
+    const winner = leaders.length === 1 && sorted[0] - sorted[1] >= 0.3 ? leaders[0] : -1;
+    return { key: a0.key, label: a0.label, hint: a0.hint, scores, winner };
   });
 
-  // Wins per city — significant wins only.
   const wins = seeds.map((_, i) => rows.filter((r) => r.winner === i).length);
   const draws = rows.length - wins.reduce((a, b) => a + b, 0);
   const overallIdx = wins.indexOf(Math.max(...wins));
   const tiedTop = wins.filter((w) => w === wins[overallIdx]).length > 1;
   const verdict = tiedTop
-    ? `Profils très proches sur les 8 axes (${wins.join(" / ")} wins, ${draws} équivalents) — le choix dépend des priorités personnelles.`
-    : `${seeds[overallIdx].name} affiche le profil global le plus favorable (${wins[overallIdx]} axes en sa faveur sur ${rows.length}, ${draws} équivalents).`;
+    ? `The three profiles sit very close across the 8 dimensions (${wins.join(" / ")} wins, ${draws} level) — the decision comes down to your own priorities.`
+    : `${seeds[overallIdx].name} has the strongest overall profile (${wins[overallIdx]} of ${rows.length} dimensions ahead, ${draws} level).`;
 
   const breadcrumb = breadcrumbJsonLd([
-    { name: "Accueil", path: "/" },
-    { name: "Comparer", path: "/comparer" },
-    { name: `${s0.name} vs ${s1.name} vs ${s2.name}`, path: `/comparer/${pair}` },
-    { name: "Synthèse", path: `/comparer/${pair}/synthese` },
+    { name: "Home", path: "/" },
+    { name: "Compare", path: "/compare" },
+    { name: `${s0.name} vs ${s1.name} vs ${s2.name}`, path: `/compare/${pair}` },
+    { name: "8 dimensions", path: enPath(pair) },
   ]);
+
+  const aheadOn = (i: number) => {
+    const won = rows.filter((r) => r.winner === i);
+    return won.length === 0
+      ? `${seeds[i].name} is not ahead of the other two on any dimension by a meaningful margin (≥ 0.3 pts).`
+      : `Dimensions favouring ${seeds[i].name}: ${won.map((r) => axisLabel(r.label)).join(", ")}.`;
+  };
 
   const faq = faqJsonLd([
     {
-      q: `Quelle ville l'emporte sur la synthèse globale entre ${s0.name}, ${s1.name} et ${s2.name} ?`,
-      a: `Scores globaux synthèse F61 (moyenne des 8 axes normalisés, 10 = excellent) : ${s0.name} ${syn0.global}/10, ${s1.name} ${syn1.global}/10, ${s2.name} ${syn2.global}/10. ${verdict}`,
+      q: `Which scores highest overall: ${s0.name}, ${s1.name} or ${s2.name}?`,
+      a: `Composite synthesis scores (mean of 8 normalised dimensions, 10 = excellent): ${s0.name} ${syn0.global}/10, ${s1.name} ${syn1.global}/10, ${s2.name} ${syn2.global}/10. ${verdict}`,
     },
-    {
-      q: `Sur quels axes ${s0.name} se démarque-t-elle ?`,
-      a: (() => {
-        const won = rows.filter((r) => r.winner === 0);
-        return won.length === 0
-          ? `${s0.name} ne gagne aucun axe avec un écart significatif (≥ 0,3 pt) sur les 2 autres.`
-          : `Axes favorables à ${s0.name} : ${won.map((r) => r.label).join(", ")}.`;
-      })(),
-    },
-    {
-      q: `Sur quels axes ${s1.name} se démarque-t-elle ?`,
-      a: (() => {
-        const won = rows.filter((r) => r.winner === 1);
-        return won.length === 0
-          ? `${s1.name} ne gagne aucun axe avec un écart significatif (≥ 0,3 pt) sur les 2 autres.`
-          : `Axes favorables à ${s1.name} : ${won.map((r) => r.label).join(", ")}.`;
-      })(),
-    },
-    {
-      q: `Sur quels axes ${s2.name} se démarque-t-elle ?`,
-      a: (() => {
-        const won = rows.filter((r) => r.winner === 2);
-        return won.length === 0
-          ? `${s2.name} ne gagne aucun axe avec un écart significatif (≥ 0,3 pt) sur les 2 autres.`
-          : `Axes favorables à ${s2.name} : ${won.map((r) => r.label).join(", ")}.`;
-      })(),
-    },
+    { q: `Where does ${s0.name} stand out?`, a: aheadOn(0) },
+    { q: `Where does ${s1.name} stand out?`, a: aheadOn(1) },
+    { q: `Where does ${s2.name} stand out?`, a: aheadOn(2) },
   ]);
 
   return (
@@ -429,30 +470,30 @@ function renderTriplet(seeds: SeedCity[], pair: string) {
 
       <section className="mx-auto max-w-5xl px-4 sm:px-6 py-10">
         <nav className="text-xs text-[var(--text-tertiary)] mb-3">
-          <Link href="/" className="hover:underline">Accueil</Link> ·{" "}
-          <Link href="/comparer" className="hover:underline">Comparer</Link> ·{" "}
-          <Link href={`/comparer/${pair}`} className="hover:underline">
+          <Link href="/" className="hover:underline">Home</Link> ·{" "}
+          <Link href="/compare" className="hover:underline">Compare</Link> ·{" "}
+          <Link href={`/compare/${pair}`} className="hover:underline">
             {s0.name} vs {s1.name} vs {s2.name}
           </Link>
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
-          {s0.name} vs {s1.name} vs {s2.name} — synthèse 8 axes
+          {s0.name} vs {s1.name} vs {s2.name} — 8 dimensions compared
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
-          Comparatif à 3 sur les 8 dimensions data du site. Convention unifiée
-          10 = excellent. « Gagnant » par axe attribué seulement si la ville en
-          tête devance la suivante de ≥ 0,3 pt.
+          Three-way comparison on the site&apos;s 8 data dimensions. Unified scale,
+          10 = excellent. A city is only marked as ahead on a dimension if it leads
+          the runner-up by at least 0.3 pts.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>8 axes comparés</Badge>
+          <Badge>8 dimensions</Badge>
           <Badge>{s0.name} {syn0.global}/10</Badge>
           <Badge>{s1.name} {syn1.global}/10</Badge>
           <Badge>{s2.name} {syn2.global}/10</Badge>
         </div>
 
-        {/* Hero — 3 cartes */}
+        {/* Hero — 3 cards */}
         <Card className="mt-6">
           <div className="grid grid-cols-3 gap-3 mb-4">
             {seeds.map((s, i) => (
@@ -475,7 +516,7 @@ function renderTriplet(seeds: SeedCity[], pair: string) {
                 <div
                   className={`text-[11px] font-bold uppercase mt-1 ${SYNTHESIS_LEVEL_COLOR[syns[i].level]}`}
                 >
-                  {SYNTHESIS_LEVEL_LABEL[syns[i].level]} · ±{syns[i].spread.toFixed(1)}
+                  {EN_LEVEL_LABEL[syns[i].level]} · ±{syns[i].spread.toFixed(1)}
                 </div>
               </div>
             ))}
@@ -484,33 +525,33 @@ function renderTriplet(seeds: SeedCity[], pair: string) {
           <div className="mt-3 flex flex-wrap gap-2 text-xs">
             {seeds.map((s, i) => (
               <Badge key={s.slug}>
-                {wins[i]} axes pour {s.name}
+                {wins[i]} for {s.name}
               </Badge>
             ))}
-            <Badge>{draws} équivalents</Badge>
+            <Badge>{draws} level</Badge>
           </div>
         </Card>
 
-        {/* Axis-by-axis comparison */}
+        {/* Dimension-by-dimension comparison */}
         <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">
-          Comparaison axe par axe
+          Dimension by dimension
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
-          Le « gagnant » est la ville en tête, à condition que son avance sur la
-          suivante atteigne 0,3 pt. Sinon, les écarts sont jugés non significatifs.
+          The city in front is only credited when it leads the runner-up by 0.3 pts or
+          more. Below that, the gap is not treated as meaningful.
         </p>
         <Card className="mt-4 overflow-hidden p-0">
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead className="bg-[var(--bg-elevated)] text-xs uppercase tracking-wide text-[var(--text-tertiary)]">
                 <tr>
-                  <th className="px-3 py-2 text-left">Axe</th>
+                  <th className="px-3 py-2 text-left">Dimension</th>
                   {seeds.map((s, i) => (
                     <th key={s.slug} className="px-3 py-2 text-right">
                       <span style={{ color: TRIPLET_COLORS[i] }}>{s.name}</span>
                     </th>
                   ))}
-                  <th className="px-3 py-2 text-left hidden sm:table-cell">Gagnant</th>
+                  <th className="px-3 py-2 text-left hidden sm:table-cell">Ahead</th>
                 </tr>
               </thead>
               <tbody>
@@ -520,13 +561,13 @@ function renderTriplet(seeds: SeedCity[], pair: string) {
                     <tr key={r.key} className="border-t border-[var(--border)]">
                       <td className="px-3 py-2">
                         <Link
-                          href={r.href}
+                          href={enAxisHref(r.key, s0.slug)}
                           className="font-semibold text-[var(--text-primary)] hover:text-[var(--accent)]"
                         >
-                          {r.label}
+                          {axisLabel(r.label)}
                         </Link>
                         <div className="text-[10px] text-[var(--text-tertiary)] mt-0.5">
-                          {r.hint}
+                          {axisHint(r.label, r.hint)}
                         </div>
                       </td>
                       {r.scores.map((score, i) => {
@@ -546,9 +587,7 @@ function renderTriplet(seeds: SeedCity[], pair: string) {
                         className={`px-3 py-2 text-xs font-semibold hidden sm:table-cell ${
                           r.winner === -1 ? "text-[var(--text-tertiary)]" : ""
                         }`}
-                        style={
-                          r.winner === -1 ? undefined : { color: TRIPLET_COLORS[r.winner] }
-                        }
+                        style={r.winner === -1 ? undefined : { color: TRIPLET_COLORS[r.winner] }}
                       >
                         {winnerName}
                       </td>
@@ -561,37 +600,37 @@ function renderTriplet(seeds: SeedCity[], pair: string) {
         </Card>
 
         {/* Cross-links */}
-        <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">Aller plus loin</h2>
+        <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">Go further</h2>
         <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
-          <Link href={`/comparer/${pair}`} className="block">
+          <Link href={`/compare/${pair}`} className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-sm font-semibold text-[var(--text-primary)]">
-                ← Comparatif classique 3 villes
+                ← Standard 3-city comparison
               </div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">
-                Radar 3 polygones, scores seed, climat, immobilier
+                Core scores, climate, housing
               </div>
             </Card>
           </Link>
           {seeds.map((s) => (
-            <Link key={s.slug} href={`/villes/${s.slug}/synthese`} className="block">
+            <Link key={s.slug} href={`/cities/${s.slug}/synthesis`} className="block">
               <Card className="hover:shadow-md transition-shadow h-full">
                 <div className="text-sm font-semibold text-[var(--text-primary)]">
-                  Synthèse {s.name}
+                  {s.name} full profile
                 </div>
                 <div className="text-xs text-[var(--text-tertiary)] mt-1">
-                  Forces, tensions, méthodologie
+                  Strengths, tensions, methodology
                 </div>
               </Card>
             </Link>
           ))}
-          <Link href="/synthese" className="block">
+          <Link href="/synthesis" className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-sm font-semibold text-[var(--text-primary)]">
-                Hub Synthèse 8 axes
+                8-dimension hub
               </div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">
-                Pyramide complète ville → national
+                From a single city up to the national picture
               </div>
             </Card>
           </Link>

@@ -795,6 +795,12 @@ function frPathToEn(pathname: string): string | null {
       ? `${EN_ORIGIN}/cities/${parts[1]}/${enSub}`
       : `${FR_ORIGIN}${pathname}`;
   }
+  // /comparer/<paire>/synthese → /compare/<paire>/synthesis. La jumelle EN
+  // (livrée 05/08) est générée sur exactement le même jeu de paires que la FR,
+  // donc une URL FR indexée a forcément sa page en face — pas d'URL devinée.
+  if (head === "comparer" && parts.length === 3 && parts[2] === "synthese") {
+    return `${EN_ORIGIN}/compare/${parts[1]}/synthesis`;
+  }
   if (parts.length === 1) return `${EN_ORIGIN}/${enHead}`;
   if (parts.length === 2 && FR_HEAD_SLUG_SHARED.has(head)) {
     return `${EN_ORIGIN}/${enHead}/${parts[1]}`;

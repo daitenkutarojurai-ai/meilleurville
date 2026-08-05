@@ -761,12 +761,12 @@ Tables dans `lib/i18n.ts` : `FR_TO_EN_ROUTE`, `FR_TO_EN_CITY_SUB`, `PARITY_EXCEP
 (asymétries assumées, avec la raison — la liste doit rester courte, sinon « parité » ne veut
 plus rien dire).
 
-### État au 2026-08-04 — 9 routes, ~910 URL
+### État au 2026-08-05 — 8 routes, ~293 URL
 
 | Route FR | Jumelle EN attendue | URL |
 |---|---|---|
 | ~~`/comparer-departements` + `/[pair]`~~ | ✅ `/compare-departments` livré 04/08 | 391 |
-| `/comparer/[pair]/synthese` | `/compare/[pair]/synthesis` | ~614 |
+| ~~`/comparer/[pair]/synthese`~~ | ✅ `/compare/[pair]/synthesis` livré 05/08 | 771 |
 | `/departements/[dept]/fiscalite` + `/synthese` | `/departments/[dept]/tax` + `/synthesis` | ~204 |
 | `/comparer-regions/[pair]/synthese` | `/compare-regions/[pair]/synthesis` | ~78 |
 | `/guides/categorie/[categorie]` | `/guides/category/[category]` | 7 |
@@ -812,6 +812,38 @@ sitemap : lien depuis le hub `/departments`, depuis `/compare`, depuis `/compare
 et surtout un bloc « Compare *X* with its neighbours » sur chaque `/departments/[dept]`,
 symétrique du bloc FR. Le Worker traduit aussi `/comparer-departements/*` reçu sur le domaine
 EN vers la vraie page anglaise, au lieu de renvoyer vers le site FR comme avant.
+
+### Livré le 05/08 — `/compare/[pair]/synthesis` (771 URL)
+
+Jumelle EN de `/comparer/[pair]/synthese` : **722 paires + 49 triplets**, compté au build
+(l'estimation « ~614 » de la fiche datait d'avant l'extension de `SEO_PAIRS` du 28/07). Le même segment
+dynamique servant les deux rendus comme côté FR. Zéro recalcul — `computeCitySynthesis`
+est appelée telle quelle, donc les 8 scores, l'écart-type de cohérence, le seuil de
+significativité (0,3 pt) et le verdict sont dérivés des mêmes valeurs que la page FR.
+Seul l'habillage est traduit, au point d'affichage : libellés d'axes, hints (avec les
+sigles explicités pour un lecteur non francophone — « A&E » plutôt que « urgences ») et
+liens d'axe réécrits vers l'arbre `/cities/[slug]/...`.
+
+Deux points de méthode :
+
+- **Le hreflang de cette famille ne pouvait pas passer par les helpers existants.**
+  `hreflangLanguages` / `hreflangLanguagesEn` ne traduisent que la **tête** de route :
+  sur `/compare/<pair>/synthesis` elles auraient produit `/comparer/<pair>/synthesis`,
+  une URL FR qui n'existe pas — et un hreflang vers un 404 coûte plus cher que pas de
+  hreflang. D'où `pathAlternates` / `pathAlternatesEn` dans `lib/i18n.ts`, où la page
+  donne explicitement les deux chemins. À réutiliser pour toute famille dont c'est le
+  **dernier** segment qui est traduit (les trois routes `.../synthese` restantes).
+- **La page FR ne déclarait qu'un `canonical`.** Elle remplaçait donc l'objet
+  `alternates` du layout et perdait sa `languages` en silence, sur 771 URL. Corrigé en
+  même temps, comme pour `/comparer-departements` le 04/08 — c'est le piège n°1 de ce
+  chantier, il se re-tend à chaque route. Sa branche paire à deux villes n'avait pas non
+  plus d'`images` dans son bloc `openGraph` (536 URL sans carte sociale) : même correctif
+  que la sweep du 03/08.
+
+Maillage : la CTA « ✨ 8 dimensions compared » est posée sur `/compare/[pair]` dans les
+deux rendus (paire et triplet), symétrique de la CTA FR — sans elle les 771 pages ne
+seraient atteignables que par le sitemap. Entrées ajoutées dans la section
+`enCompareSection()` du sitemap, à la suite des URL existantes.
 
 ### Ce qui a été corrigé côté EN le 03/08
 
