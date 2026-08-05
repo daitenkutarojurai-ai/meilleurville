@@ -44460,6 +44460,356 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["vacances célibataire Bayonne", "voyage solo Bayonne", "pintxos Petit Bayonne", "sortir seul·e Bayonne", "week-end célibataire Pays basque"]
   },
+  {
+    slug: "vacances-monoparentales-la-rochelle-2026",
+    title: "Vacances monoparentales à La Rochelle en 2026",
+    metaTitle: "Vacances monoparentales à La Rochelle 2026",
+    metaDesc: "La Rochelle en parent solo : TGV 2h30, Yélo vélo libre, plages en bus, aquarium à côté de la gare. Le guide direct sans supplément single caché.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-05",
+    updatedAt: "2026-08-05",
+    intro: "La Rochelle est la destination parent solo la plus alignée sur la côte atlantique : score sécurité 7,6/10, qualité de vie 8/10, nature 8,4/10 et 2 190 h de soleil par an (source : data/cities-seed.ts), à 2h30 de TGV de Paris avec un vélo libre-service Yélo posé à la sortie de la gare et l'aquarium en face. Ce guide ne dit pas ce que dit une brochure : il liste ce qu'un adulte seul avec ses enfants peut vraiment faire à pied, ce qui ne double pas la note en single, et quand y aller pour que la chambre reste à prix normal.",
+    sections: [
+      {
+        heading: "Pourquoi La Rochelle marche en parent solo",
+        body: "Trois signaux du seed convergent. La sécurité (7,6/10, source : data/cities-seed.ts) est parmi les plus élevées des villes touristiques de la côte atlantique — un adulte seul qui rentre le soir avec deux enfants après un dîner au vieux-port ne calcule pas ses trajets comme à Marseille ou à Montpellier. La qualité de vie (8/10) tient à la géographie : la ville est plate, ceinte de mer, les distances quotidiennes tiennent en 20 min à pied depuis le centre. La note nature (8,4/10) sort du fait que la baignade surveillée est accessible sans voiture — plage de la Concurrence au pied du centre (15 min à pied du vieux-port), plage des Minimes en bus. Les characterTags du seed (mer, vélo, tourisme, soleil, familial) résument ce qu'un parent seul cherche vraiment : une destination qui n'est ni un piège à touristes ni un désert hors saison."
+      },
+      {
+        heading: "Arriver, se déplacer : train + Yélo, la voiture n'a rien à faire ici",
+        body: "TGV Paris-La Rochelle en 2h30 par la LGV Atlantique, gare à moins d'un kilomètre du vieux-port (10 min à pied avec un enfant et une valise à roulettes). À la sortie de la gare, on entre dans le service Yélo — réseau bus + vélo libre-service de la Communauté d'Agglomération, l'un des tout premiers services de vélo public en France, mis en place dans les années 1970 par Michel Crépeau alors maire de la ville. Vérifier la tarification en cours du vélo libre-service sur yelo.agglo-larochelle.fr avant le départ (les formules d'accès et la période gratuite ont évolué au fil des années). Les bus Yélo desservent la plage des Minimes, l'aquarium (station à côté de la gare) et, en été, l'Île de Ré depuis le vieux-port. Louer une voiture n'a de sens que si le programme pousse vers Rochefort, Saintes ou l'intérieur des Charentes ; pour un séjour La Rochelle stricte, c'est un poste inutile."
+      },
+      {
+        heading: "Où loger sans que le supplément single ne double la note",
+        body: "Trois options qui tiennent en parent solo. Un, la location saisonnière (studio ou T2) sur Saint-Nicolas ou du côté des Minimes — moins cher que le carré vieux-port hyper-touristique, bus Yélo direct, cuisine pour deux repas par jour, un lit + un canapé-lit couvrent un adulte + un ou deux enfants sans surtaxe. Deux, les campings-villages VVF, Sandaya, Yelloh ou Les Castels de l'agglomération sud (Angoulins, Aytré, Châtelaillon, tous à 15-25 min de bus des Minimes) : le mobil-home 2 chambres coûte structurellement moins qu'un hôtel équivalent, cuisine intégrée, clubs enfants sur les grands sites, et certains centres publient un tarif famille monoparentale. Trois, l'hôtel 2-3 étoiles sur les quais uniquement hors juillet-août : les tarifs single deviennent absurdes en pleine saison. Éviter le vieux-port historique en juillet-août sur un budget parent solo : la même chambre coûte environ deux fois plus qu'en mai ou en septembre."
+      },
+      {
+        heading: "Activités enfants à portée à pied — la journée type qui marche",
+        body: "L'Aquarium La Rochelle est le pilier familial de la destination, posé juste en face de la gare (5 min à pied), utilisable même en journée courte : environ 12 000 animaux, visite de 2h avec un enfant. Le Musée maritime prolonge la journée sans reprendre les transports — visite du France 1, ancien navire météo. Le Vieux-Port et ses trois tours (Chaîne, Saint-Nicolas, Lanterne) se traversent en 30 min à pied depuis l'aquarium ; billet groupé pour les tours, escalier physique mais faisable dès 6-7 ans. Le marché central couvert (rue Gambetta, tous les jours sauf lundi) est un vrai spot déjeuner familial abordable : moules-frites, galettes ou huîtres à emporter plutôt qu'un menu enfant à 15 € en terrasse. Pour l'après-midi, la plage de la Concurrence est à 15 min à pied du vieux-port : baignade surveillée en saison, sable + galets, adaptée à un adulte seul avec deux enfants qui n'ont pas le même niveau. Sortie possible d'une journée à l'Île de Ré en bus depuis le vieux-port — Rivedoux-Plage ou Sainte-Marie-de-Ré tiennent en aller-retour dans la journée."
+      },
+      {
+        heading: "Quand y aller hors août — la fenêtre climat + affluence",
+        body: "Août concentre le pic touristique et le pic tarifaire : chambres et locations multipliées par 1,8 à 2 par rapport à mai ou septembre pour un même bien. Les fenêtres qui tiennent en parent solo, en croisant les 2 190 h de soleil annuelles (source : data/cities-seed.ts) avec les vacances scolaires et l'affluence : avril (Pâques hors semaine peak, 15-17 °C, mer trop froide pour la baignade mais tout le patrimoine walkable est ouvert), mai-juin (fenêtre sweet-spot : 18-22 °C, terrasses ouvertes, tarifs pré-saison), septembre (post-scolaire immédiate, encore 22-24 °C, mer à 20 °C, chute nette des prix dès le 5), Toussaint (aquarium + musées + marché intérieur restent parfaits). À éviter en parent solo à budget serré : les deux dernières semaines de juillet et les trois premières d'août. À éviter tout court en séjour famille : le weekend du Grand Pavois (salon nautique international, mi-septembre) — les hôtels sont réquisitionnés par les professionnels, les prix montent d'un cran."
+      },
+      {
+        heading: "Sécurité et logistique — le soir, les urgences, le repli",
+        body: "La sécurité perçue (7,6/10, source : data/cities-seed.ts) tient sur presque tout le centre : Vieux-Port, Quai Valin, Quai Duperré, quartier Saint-Nicolas, quartier des Minimes, promenade du Mail — walkable le soir en parent solo avec des enfants. Deux règles simples portées par la topologie de la ville : ne pas rentrer par les tunnels routiers sous les remparts si vous êtes à pied avec un enfant fatigué (préférer les rues principales éclairées, quitte à allonger de 5 min), et fixer un point de rendez-vous « si on se perd » sur un repère visible du centre (Grosse Horloge, tours du port). Urgences pédiatriques au Groupe Hospitalier de La Rochelle-Ré-Aunis (site principal accessible en bus depuis le centre), 15 pour urgence vitale, 116 117 pour un conseil médical hors urgence en semaine ou le weekend. Une pharmacie de garde est toujours affichée sur les vitrines des pharmacies fermées."
+      },
+      {
+        heading: "Aides pour financer le séjour — dispositifs, pas montants",
+        body: "Cinq dispositifs à explorer, dans l'ordre où on les active. VACAF (vacaf.org) : plusieurs centres agréés sur La Rochelle-Ré-Aunis, éligibilité selon quotient familial CAF, à monter plusieurs semaines avant le départ. Chèques-Vacances ANCV (ancv.com) : nombreux hôtels, campings et sites partenaires sur l'agglomération, à récupérer via l'employeur ou en autonomie « Chèque-Vacances Connect » pour les non-salariés. Bons vacances CAF de la Charente-Maritime : consulter caf.fr, rubrique « vacances » — l'aide au premier départ existe. Conseil départemental de la Charente-Maritime : chercher « aide vacances » sur charente-maritime.fr, plusieurs programmes ouverts aux enfants d'allocataires. CSE de l'employeur : souvent des offres billetterie aquarium et parcs environnants. Aucun barème n'est cité ici : les montants sont réévalués chaque année et dépendent du QF."
+      }
+    ],
+    relatedCities: ["la-rochelle", "rochefort", "saintes", "niort"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-la-rochelle-2026",
+      "acheter-a-la-rochelle-quel-quartier-budget-2026",
+      "vivre-a-la-rochelle-2026"
+    ],
+    tags: ["vacances monoparentales La Rochelle", "parent solo Charente-Maritime", "Yélo vélo libre", "aquarium La Rochelle", "hors saison parent seul"]
+  },
+  {
+    slug: "vacances-monoparentales-strasbourg-2026",
+    title: "Vacances monoparentales à Strasbourg en 2026",
+    metaTitle: "Vacances monoparentales à Strasbourg 2026",
+    metaDesc: "Strasbourg en parent solo : TGV 1h50, tram dense, Petite France et Neustadt à pied, marchés de Noël, vélo. Le guide direct sans surtaxe cachée.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-05",
+    updatedAt: "2026-08-05",
+    intro: "Strasbourg est la métropole française la mieux calibrée pour un séjour parent solo sans voiture : score transport 8,3/10, qualité de vie 8,1/10, culture 8,8/10 (source : data/cities-seed.ts), un réseau tram parmi les plus denses d'Europe, un centre historique UNESCO qui se traverse en 20 min à pied et une gare à 800 m de la Petite France. Ce guide croise les données du seed avec la logique parent solo : arriver en train, ne rien louer, tout enchaîner à pied ou en tram, et savoir quelle fenêtre choisir hors août — y compris la fenêtre marchés de Noël, à cadrer sérieusement.",
+    sections: [
+      {
+        heading: "Pourquoi Strasbourg marche en parent solo",
+        body: "Les axes du seed sont sans ambiguïté : transport 8,3/10, qualité de vie 8,1/10, culture 8,8/10, sécurité 7,4/10 (source : data/cities-seed.ts). Le tram cadre tout : six lignes A à F qui maillent la ville depuis la gare jusqu'à Neudorf, l'Orangerie, Robertsau, la Meinau et Cronenbourg — un adulte seul avec un ou deux enfants n'a jamais besoin d'ouvrir une carte pour trouver comment rentrer. Les characterTags du seed (européen, culturel, vélo, gastronomie, historique) résument le programme touristique : institutions européennes, patrimoine Grand Île UNESCO, Neustadt allemande UNESCO depuis 2017, tarte flambée, bretzels et winstubs. La ville est plate, cyclable, sûre sur le centre — les trois conditions minimales d'un séjour parent solo tenable."
+      },
+      {
+        heading: "Arriver, se déplacer : TGV 1h50, tram partout",
+        body: "TGV Paris-Strasbourg en 1h50 par la LGV Est. Gare centrale sous verrière (rénovée en 2007) posée à 800 m de la Petite France : 12 min à pied avec un enfant, 5 min en tram A ou D direction Grand'Rue → Homme de Fer. Réseau CTS : 6 lignes tram (A, B, C, D, E, F) + réseau bus dense, tarif journalier famille disponible en billet 24h Multi (à confirmer sur cts-strasbourg.eu). Vélhop est le vélo public de la ville : location courte durée à la boutique de la gare ou en centre. Un adulte seul avec enfant en bas âge tient le programme complet Strasbourg intra-muros sans jamais toucher une voiture ; louer un véhicule ne se justifie que pour la sortie Route des Vins d'Alsace (Obernai, Sélestat, Colmar sont aussi accessibles en TER)."
+      },
+      {
+        heading: "Où loger sans supplément single douloureux",
+        body: "Trois profils d'hébergement qui tiennent en parent solo. Un, la location saisonnière (studio, T2) sur Krutenau, Neudorf ou Cronenbourg — moins cher que la Grande Île touristique, tram direct vers Homme de Fer, cuisine pour deux repas par jour. Deux, l'hôtel 3 étoiles sur les axes tram hors zone hyper-touristique : Étoile, Rotonde ou Baggersee tiennent des tarifs raisonnables, y compris en single, tram A ou D direct centre. Trois, les Auberges de Jeunesse Ciarus et René Cassin — chambres familles à tarif modéré, situées à distance walkable ou tram court du centre, formule petit-déjeuner incluse qui gomme une charge cognitive de matin pour un parent seul. Éviter les hôtels de la Petite France en semaine des marchés de Noël (dernière semaine de novembre à Noël) : tarifs single souvent doublés par rapport à la mi-saison."
+      },
+      {
+        heading: "Activités enfants regroupées à distance de marche",
+        body: "La journée type marche à pied sur la Grande Île. Cathédrale Notre-Dame de Strasbourg (l'un des grands édifices gothiques d'Europe, ses 142 m ont été le plus haut point du monde jusqu'en 1874) — accès nef gratuit, horloge astronomique en démonstration en début d'après-midi, plateforme montée avec escalier physique mais faisable dès 8 ans. Musée Alsacien à 3 min à pied de la cathédrale : reconstitutions intérieures paysannes et bourgeoises, un très bon musée « premier musée » pour un enfant. Le Vaisseau (site des Deux-Rives, tram E arrêt Winston Churchill puis 8 min à pied) est le musée sciences enfants de la ville, conçu pour 3-15 ans, prévoir une demi-journée entière. En bord d'eau, la Petite France (canaux, ponts couverts, terrasse du Barrage Vauban) se traverse en 45 min à pied depuis la cathédrale. Batorama propose des mini-croisières commentées de 45 min depuis le Palais Rohan (embarcadère à 2 min de la cathédrale) : bon plan quand un enfant fatigue avant midi. Parc de l'Orangerie (jardin XVIIIe, mini-ferme et cigognes) accessible en tram E direct depuis la gare."
+      },
+      {
+        heading: "Quand y aller hors août — trois fenêtres, dont Noël",
+        body: "Trois fenêtres à cadrer sérieusement. Mai-juin : 18-22 °C, mi-saison touristique, cathédrale et Petite France sans la foule, tarifs raisonnables — probablement la meilleure fenêtre parent solo. Vacances de Toussaint : température encore correcte pour la ville (10-13 °C), musées et centre historique parfaits, tarifs de mi-saison. Marchés de Noël (dernière semaine de novembre au 24 décembre) : Strasbourg s'annonce « Capitale de Noël » depuis 1992, 12 marchés répartis sur la Grande Île, 200 chalets Place Broglie, sapin monumental Place Kléber. À savoir pour un parent solo : la fréquentation double la semaine du 20 décembre, les hôtels de la Grande Île passent en tarif haute saison, et la sécurité renforcée depuis 2018 (contrôle sac à l'entrée du périmètre) rend les trajets plus lents avec poussette. Fenêtre honnête pour Noël en parent solo : les deux premières semaines de décembre en semaine (lundi-jeudi), en logeant hors Grande Île avec tram direct. À éviter tout court : les grosses conférences européennes (calendrier du Parlement européen public) — les hôtels du centre passent en tarif business."
+      },
+      {
+        heading: "Sécurité et logistique — la Grande Île, le soir, les urgences",
+        body: "Sécurité 7,4/10 (source : data/cities-seed.ts). La Grande Île, la Petite France, Krutenau et le quartier gare sont walkables le soir avec des enfants. Les quartiers extérieurs à filtrer selon la rue et l'heure : Neuhof-Meinau, Cronenbourg secteurs nord, Hautepierre — pas des « no-go » de jour, mais pas les logements que l'on choisit pour rentrer à pied à 22h avec un enfant fatigué. Urgences pédiatriques : Hôpital de Hautepierre (CHU de Strasbourg, service pédiatrique référent, accessible en tram A depuis le centre). 15 pour urgence vitale, 116 117 pour un conseil médical hors urgence. Points repères pour se retrouver : Homme de Fer (nœud tram A/B/C/D/F), Cathédrale (visible depuis presque toute la Grande Île). En hiver, prévoir doudoune vraie chaude — la température de janvier à Strasbourg tourne à 2,6 °C de moyenne (source : data/cities-seed.ts), le vent des berges de l'Ill fait descendre le ressenti."
+      },
+      {
+        heading: "Aides mobilisables et alternatives locales",
+        body: "Cinq dispositifs à explorer. VACAF (vacaf.org) : centres agréés sur l'agglomération strasbourgeoise et en Alsace, éligibilité selon quotient familial CAF. Chèques-Vacances ANCV (ancv.com) : très largement acceptés à Strasbourg (musées, restaurants, transports CTS via billetterie partenaire). Bons vacances CAF Bas-Rhin sur caf.fr, rubrique vacances. Conseil départemental du Bas-Rhin (bas-rhin.fr) : aides ponctuelles pour enfants d'allocataires, chercher « aide vacances ». CSE de l'employeur : souvent des billets Vaisseau, Musée d'Art moderne et contemporain (MAMCS), Palais Rohan. Alternative locale gratuite : Pass Musées Strasbourg pour les résidents (à vérifier sur strasbourg.eu si un pass touristes ponctuel existe la saison où vous partez), toutes les cathédrales et la plupart des espaces publics UNESCO sont accessibles sans billet."
+      }
+    ],
+    relatedCities: ["strasbourg", "colmar", "selestat", "mulhouse"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-strasbourg-2026",
+      "vivre-sans-voiture-strasbourg-guide-2026",
+      "parent-solo-a-strasbourg-2026"
+    ],
+    tags: ["vacances monoparentales Strasbourg", "parent solo Alsace", "marchés Noël famille", "tram CTS parent seul", "hors saison Strasbourg"]
+  },
+  {
+    slug: "vacances-monoparentales-nantes-2026",
+    title: "Vacances monoparentales à Nantes en 2026",
+    metaTitle: "Vacances monoparentales à Nantes 2026",
+    metaDesc: "Nantes en parent solo : TGV 2h05, tram + Chronobus, Machines de l'Île à pied, Bicloo. Le guide direct sans supplément single caché.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-05",
+    updatedAt: "2026-08-05",
+    intro: "Nantes est la métropole française la plus lisible en parent solo à l'ouest : transport 8,1/10, qualité de vie 8,4/10, culture 8,6/10, sécurité 7,5/10 (source : data/cities-seed.ts), avec trois lignes de tram, un réseau Chronobus dédié et un centre qui pose le château, le Passage Pommeraye, l'Île de Nantes et les Machines à moins de 30 min les uns des autres à pied. Ce guide filtre ce qui marche vraiment quand on voyage seul·e avec ses enfants : arriver en TGV, ne rien louer, tenir la semaine sans la charge cognitive d'une voiture, et savoir quand ne pas venir.",
+    sections: [
+      {
+        heading: "Pourquoi Nantes marche en parent solo",
+        body: "Les chiffres du seed sont parmi les meilleurs des grandes métropoles hors Paris (source : data/cities-seed.ts) : transport 8,1/10, qualité de vie 8,4/10, culture 8,6/10, sécurité 7,5/10. La ville est plate, découpée par la Loire et l'Erdre, et le réseau TAN (trois lignes de tram T1 T2 T3 + Chronobus + Navibus fluvial) couvre plus de 80 % des points d'intérêt à distance walkable d'un arrêt. Les characterTags du seed (dynamique, étudiant, culturel, vélo, métropole) décrivent le programme : Machines de l'Île (site iconique parent-enfant), Château des Ducs, Passage Pommeraye, Île de Nantes créative, quais de la Fosse. Bicloo est le vélo public de la ville. Pour un adulte seul avec un ou plusieurs enfants, Nantes tient sans voiture — même la sortie du weekend au bord de la Loire se fait en TER ou Navibus."
+      },
+      {
+        heading: "Arriver, se déplacer : TGV 2h05, tram + Chronobus + Bicloo",
+        body: "TGV Paris-Nantes en 2h05 par la LGV Atlantique. Gare centrale posée à 900 m du Château des Ducs et à 1,4 km du Passage Pommeraye : 15 min à pied ou 5 min en tram T1 direction François-Mitterrand → Commerce. Réseau TAN : 3 lignes de tram, réseau Chronobus (bus à haute fréquence sur voies dédiées), Navibus fluvial pour traverser l'Erdre ou aller à Trentemoult (village de pêcheurs face au centre). Abonnement journalier ou multi-jours à la boutique TAN de la gare. Bicloo est le vélo public — location courte durée sur borne. Sur un séjour Nantes stricte, la voiture ne sert à rien ; elle devient utile uniquement pour une sortie journée vers Clisson (Vignoble de Loire), Trentemoult, Saint-Nazaire ou Pornic, tous accessibles en TER également."
+      },
+      {
+        heading: "Où loger sans surtaxe single",
+        body: "Trois options qui tiennent en parent solo. Un, la location saisonnière (studio, T2) sur Hauts-Pavés-Saint-Félix, Zola ou Malakoff-Saint-Donatien — moins cher que le carré Bouffay hyper-touristique, tram direct vers le centre, cuisine pour deux repas par jour, un lit + un canapé-lit couvrent un adulte + un ou deux enfants sans surtaxe. Deux, les hôtels 3 étoiles sur les axes tram hors centre historique : quartier Beaulieu (Île de Nantes, tram T2/T3), quartier Chantiers (tram T1) — tarifs single raisonnables toute l'année. Trois, les villages vacances de la métropole (VVF de Rezé ou de Saint-Sébastien-sur-Loire, tram direct centre) : formule qui gomme la charge cognitive, tarif famille monoparentale à vérifier. Éviter en juillet-août les hôtels du Bouffay et de la Cité des Congrès : tarifs single peu compatibles avec un revenu unique."
+      },
+      {
+        heading: "Activités enfants regroupées — la journée type",
+        body: "Le Grand Éléphant et les Machines de l'Île sont l'icône familiale de Nantes : le Grand Éléphant fait une balade de 45 min avec 50 passagers à bord toutes les heures, le Carrousel des Mondes Marins tourne pour tous les âges, la Galerie des Machines expose les autres animaux mécaniques (araignée, héron, poisson…). Comptez la matinée complète sur le site (tram T1 arrêt Chantiers Navals, 20 min du centre). L'après-midi retour vers le Château des Ducs de Bretagne (25 min à pied ou 10 min en tram T2) : douves accessibles gratuitement (spot pique-nique et jeu d'enfants), musée d'Histoire de Nantes à l'intérieur (billet, comptez 1h30). Deuxième jour : Passage Pommeraye (galerie XIXe à trois niveaux, magique pour un enfant), place Royale, quai de la Fosse. Troisième jour possible : Trentemoult en Navibus depuis le quai de la Fosse (10 min de traversée), village coloré de pêcheurs sur l'autre rive de la Loire, restos au quai. Sortie d'une journée à Clisson (25 min en TER) pour le vignoble et le château médiéval, ou à Pornic (50 min TER) pour la mer."
+      },
+      {
+        heading: "Quand y aller hors août — le climat atlantique et l'affluence",
+        body: "Août concentre le pic touristique et le pic tarifaire local. Les fenêtres qui tiennent en parent solo, en croisant les 1 940 h de soleil annuelles (source : data/cities-seed.ts), la température moyenne de juillet à 21,4 °C et de janvier à 5,4 °C, avec les vacances scolaires : avril (Pâques hors semaine peak, 14-17 °C, patrimoine walkable), mai-juin (fenêtre sweet-spot : 18-22 °C, terrasses ouvertes, tarifs pré-saison), septembre (retour scolaire immédiat, encore 20-22 °C, chute des prix dès le 5), Toussaint (climat frais mais Machines couvertes, château intérieur, Passage Pommeraye : programme presque intégral tenable). Novembre : lumière moche, à réserver aux inconditionnels de Nantes. Programme spécial : Voyage à Nantes (parcours d'art contemporain estival, mi-juin à mi-septembre) — spot photo enfant intéressant mais qui alourdit un peu la fréquentation. À éviter en séjour famille : les weekends du Hellfest à Clisson en juin (l'agglomération est saturée)."
+      },
+      {
+        heading: "Sécurité et logistique — le soir, les repères, les urgences",
+        body: "Sécurité 7,5/10 (source : data/cities-seed.ts) — un des meilleurs scores parmi les dix premières métropoles françaises. Le centre historique (Bouffay, Graslin, Île Feydeau, Passage Pommeraye), le quai de la Fosse et l'Île de Nantes sont walkables le soir en parent solo. Les quartiers à filtrer selon la rue et l'heure : Bellevue-La-Bottière (nord-ouest), Dervallières (variance rue-à-rue) — pas des zones interdites mais pas les logements qu'on choisit pour rentrer avec un enfant fatigué à 22h. Urgences pédiatriques au CHU de Nantes (Hôtel-Dieu, à côté du centre) et à l'Hôpital Enfant Femme Mère (site Nord-Laennec, tram T2 puis navette). 15 pour urgence vitale, 116 117 pour conseil médical hors urgence. Repères visuels utiles quand on se déplace avec enfants : la Tour LU (chapeau vert-mauve sur le quai) et le Château des Ducs (visible depuis presque tout le centre) — deux points d'ancrage si un enfant se perd ou pour fixer un rendez-vous."
+      },
+      {
+        heading: "Aides mobilisables — dispositifs, pas montants",
+        body: "Cinq dispositifs à explorer. VACAF (vacaf.org) : centres agréés sur la Loire-Atlantique et les proches côtes, éligibilité selon QF CAF. Chèques-Vacances ANCV (ancv.com) : très largement acceptés à Nantes (Machines de l'Île, Château des Ducs, transports TAN via billetterie partenaire, campings du littoral). Bons vacances CAF Loire-Atlantique sur caf.fr, rubrique vacances. Conseil départemental de Loire-Atlantique (loire-atlantique.fr) : chercher « aide vacances », plusieurs programmes ouverts aux enfants d'allocataires. CSE de l'employeur : les billetteries d'entreprise ont souvent des tarifs négociés Machines de l'Île et Puy du Fou (accessible en TER + navette depuis Nantes). Aucun barème n'est cité ici : les montants sont réévalués chaque année et dépendent du QF."
+      }
+    ],
+    relatedCities: ["nantes", "reze", "saint-nazaire", "angers"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-nantes-2026",
+      "vivre-sans-voiture-nantes-guide-2026",
+      "parent-solo-a-nantes-2026"
+    ],
+    tags: ["vacances monoparentales Nantes", "parent solo Loire-Atlantique", "Machines de l'Île famille", "tram TAN parent seul", "hors saison Nantes"]
+  },
+  {
+    slug: "vacances-monoparentales-rennes-2026",
+    title: "Vacances monoparentales à Rennes en 2026",
+    metaTitle: "Vacances monoparentales à Rennes 2026",
+    metaDesc: "Rennes en parent solo : TGV 1h25, deux lignes de métro, patrimoine et Thabor à pied, base pour la Bretagne. Le guide direct sans supplément single caché.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-05",
+    updatedAt: "2026-08-05",
+    intro: "Rennes est le meilleur score profil monoparental parmi les grandes destinations touristiques françaises : transport 8,4/10, qualité de vie 8,3/10, sécurité 7,8/10, coût 7,1/10 (source : data/cities-seed.ts). Deux lignes de métro depuis 2022, un centre historique à colombages qui se traverse en 20 min, une gare à 800 m de la place de la République, et un maillage TER qui met Saint-Malo à 1h, Dinard, Dinan et Vitré à portée d'aller-retour dans la journée. Ce guide dit ce qui marche vraiment quand on voyage seul·e avec ses enfants — et quand ne pas venir.",
+    sections: [
+      {
+        heading: "Pourquoi Rennes marche en parent solo",
+        body: "Rennes cumule ce qu'on cherche en parent solo mais qu'on trouve rarement ensemble : transport 8,4/10, qualité de vie 8,3/10, sécurité 7,8/10, coût 7,1/10 (source : data/cities-seed.ts). Deux lignes de métro (A ouverte en 2002, B ouverte en 2022) couvrent le nord, le sud et l'est, complétées par un réseau STAR de bus + vélo public LE:vélo STAR. La ville est compacte : 20 min à pied traversent Sainte-Anne, les Halles centrales, Saint-Sauveur, le parlement de Bretagne et le parc du Thabor. Les characterTags du seed (étudiant, dynamique, breton, tech, vélo) résument le programme : centre médiéval à colombages, marché des Lices (samedi matin), musée des Beaux-Arts, écosystème French Tech pour un séjour de télétravail en famille. Et surtout : c'est la meilleure base pour explorer la Bretagne sans voiture."
+      },
+      {
+        heading: "Arriver, se déplacer : TGV 1h25, deux lignes de métro",
+        body: "TGV Paris-Rennes en 1h25 par la LGV Bretagne-Pays de la Loire, gare rénovée en 2019, posée à 800 m de la place de la République : 10 min à pied ou 3 min en métro A direction Kennedy → République. Réseau STAR : 2 lignes de métro (A axe nord-est/sud-ouest, B axe nord-ouest/sud-est) + bus dense + LE:vélo STAR (vélo public). Un adulte seul avec enfants n'a jamais besoin d'ouvrir une carte de bus : le métro croise à République et à Sainte-Anne, ce qui simplifie tout. Pour les sorties depuis Rennes : Saint-Malo intra-muros en 1h de TER (départs quasi-horaires), Dinan en 1h de TER, Vitré médiéval en 25 min de TER, Dinard en TER + bus ou TER + navette bateau. La voiture ne se justifie que pour la Côte d'Émeraude au-delà de Saint-Malo ou la Bretagne intérieure."
+      },
+      {
+        heading: "Où loger sans surtaxe single",
+        body: "Trois profils qui tiennent en parent solo. Un, la location saisonnière (studio, T2) sur Sainte-Anne, Colombier, Fougères ou Villejean (métro direct) — moins cher qu'un hôtel Bouffay en pleine saison, cuisine, un lit + un canapé-lit couvrent parent + un ou deux enfants. Deux, l'hôtel 3 étoiles sur l'axe métro République-Charles de Gaulle-Anatole France : tarifs single raisonnables toute l'année, à 5 min à pied du centre historique. Trois, l'Auberge de Jeunesse Rennes Bruz ou les gîtes d'étape des environs pour les budgets serrés — chambres familles à tarif modéré, formule petit-déjeuner incluse. Éviter en juillet les hôtels du secteur Halles-Sainte-Anne en semaine du festival Les Vieilles Charrues à Carhaix (l'agglomération et le maillage TER servent d'hébergement satellite pour le festival) — tarifs artificiellement gonflés."
+      },
+      {
+        heading: "Activités enfants à portée à pied — la journée type",
+        body: "Journée 1 à pied dans le centre. Marché des Lices (samedi matin uniquement, l'un des plus grands marchés de France, sous les halles couvertes de 1922 — spot déjeuner familial pour un budget parent solo, on achète et on pique-nique au Thabor à 15 min à pied). Rues à colombages de Sainte-Anne, Chapitre, du Chapître (les maisons XVe-XVIIe sauvées de l'incendie de 1720) — parcours ludique pour un enfant, jeu de repérage des sculptures aux poutres. Parlement de Bretagne (Place du Parlement) visitable sur inscription à l'Office de Tourisme. Après-midi : parc du Thabor (10 ha en plein centre : roseraie, jardin botanique, kiosque, aire de jeux, volière) — la meilleure demi-journée gratuite de la ville avec des enfants. Musée des Beaux-Arts (quai Émile Zola, 10 min à pied du Thabor) : petit format, collection cohérente XVIIe-XXe (Georges de La Tour, Chardin), faisable en 1h avec enfants. Journée 2 sortie TER : Saint-Malo intra-muros (remparts walkables complets, plage du Sillon accessible depuis les remparts, aquarium Grand Aquarium à faire en priorité) ou Dinan (cité médiévale walkable, port de la Rance). Journée 3 : Écomusée du Pays de Rennes (site de Bintinais, métro B + bus).",
+      },
+      {
+        heading: "Quand y aller hors août — le climat breton et l'affluence",
+        body: "Rennes marque 1 700 h de soleil et une moyenne juillet à 20,2 °C (source : data/cities-seed.ts) — c'est un climat océanique tempéré, ni bouillant l'été ni glacial l'hiver, ce qui autorise à peu près toute l'année pour un séjour parent solo. Fenêtres optimales : avril-mai (14-18 °C, cathédrale et Thabor en fleurs, tarifs pré-saison), juin (avant Vieilles Charrues et pré-scolaire, 19-21 °C), septembre (post-scolaire, 18-21 °C, tarifs qui chutent dès le 5), Toussaint (climat encore correct, musées et centre historique parfaits, prix mi-saison). Décembre : marché de Noël rennais assez modeste — préférer Strasbourg pour l'expérience marchés de Noël si c'est l'angle recherché. À éviter en séjour famille : le 3e week-end de juin (fête de la Musique + festival des Tombées de la Nuit) pour l'affluence centre-ville. À éviter en juillet : la semaine des Vieilles Charrues (les hôtels sont pris jusqu'à Rennes)."
+      },
+      {
+        heading: "Sécurité et logistique — le centre, les urgences, le repli",
+        body: "Sécurité 7,8/10 (source : data/cities-seed.ts) — l'un des meilleurs scores parmi les métropoles françaises hors petites villes. Le centre historique (Sainte-Anne, République, place de la Mairie, Thabor, Halles), le quartier Sud-Gare et Colombier sont walkables le soir en parent solo. Les quartiers à filtrer selon la rue et l'heure : Le Blosne (sud, métro B), Maurepas (nord-est) — pas des zones interdites mais pas les logements qu'on choisit pour rentrer avec un enfant fatigué à 22h. Urgences pédiatriques : CHU de Rennes, Hôpital Sud (site pédiatrique référent, métro B arrêt Le Blosne + bus). 15 pour urgence vitale, 116 117 pour conseil médical hors urgence. Repères pour se retrouver : la Tour Solidor Sainte-Anne visible depuis presque tout le centre, la Place de la Mairie (Opéra + Hôtel de Ville face-à-face) pour fixer un point de rendez-vous en cas de séparation."
+      },
+      {
+        heading: "Aides et alternatives — dispositifs, pas montants",
+        body: "Cinq dispositifs à explorer. VACAF (vacaf.org) : centres agréés en Ille-et-Vilaine et sur la Côte d'Émeraude (Saint-Malo, Dinard, Cap Fréhel), éligibilité selon QF CAF. Chèques-Vacances ANCV (ancv.com) : largement acceptés (musée, Grand Aquarium Saint-Malo, hôtels + campings partenaires). Bons vacances CAF Ille-et-Vilaine sur caf.fr, rubrique vacances. Conseil départemental d'Ille-et-Vilaine (ille-et-vilaine.fr) : chercher « aide vacances ». CSE de l'employeur : billetteries Grand Aquarium Saint-Malo, parc Cobac, festival Interceltique de Lorient. Alternative locale gratuite : l'Office de Tourisme de Rennes propose des visites guidées tarif enfant, plusieurs musées ont un tarif famille à vérifier sur tourisme-rennes.com selon la période."
+      }
+    ],
+    relatedCities: ["rennes", "saint-malo", "vitre", "dinan"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-rennes-2026",
+      "vivre-sans-voiture-rennes-guide-2026",
+      "vivre-a-rennes-2026"
+    ],
+    tags: ["vacances monoparentales Rennes", "parent solo Ille-et-Vilaine", "métro STAR Rennes", "sorties TER Bretagne", "hors saison Rennes"]
+  },
+  {
+    slug: "vacances-monoparentales-vannes-2026",
+    title: "Vacances monoparentales à Vannes en 2026",
+    metaTitle: "Vacances monoparentales à Vannes 2026",
+    metaDesc: "Vannes en parent solo : TGV 2h30, remparts et golfe du Morbihan à pied, bateaux vers Île aux Moines. Le guide direct sans supplément single caché.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-08-05",
+    updatedAt: "2026-08-05",
+    intro: "Vannes est la destination parent solo la plus sécurisée du golfe du Morbihan : score sécurité 8,4/10, qualité de vie 8,3/10, nature 8,8/10 (source : data/cities-seed.ts). Ville médiévale ceinte de remparts, port intérieur à 500 m de la gare, bateaux vers Île aux Moines et Île d'Arz depuis le port. Ce guide filtre ce qui marche vraiment en séjour parent solo : train, walkable, sorties bateaux en journée. Deux vraies limites à connaître : le transport local (6,5/10, source : data/cities-seed.ts) est plus léger qu'à Rennes ou Nantes — on marche beaucoup — et le coût logement en pleine saison a nettement décroché depuis 2020.",
+    sections: [
+      {
+        heading: "Pourquoi Vannes marche en parent solo",
+        body: "Trois chiffres du seed sortent du lot (source : data/cities-seed.ts) : sécurité 8,4/10 (l'un des meilleurs scores de France sur les villes de plus de 50 000 habitants), nature 8,8/10 (proximité immédiate du golfe du Morbihan classé « Parc naturel régional » depuis 2014), qualité de vie 8,3/10. Les characterTags (golfe-du-Morbihan, voile, historique, qualité-vie, familial) résument le programme : remparts XIVe walkables, port de plaisance intérieur, bateaux vers les îles, plages à distance de vélo (Conleau, Séné). Ville plate, centre historique compact (500 m d'un bout à l'autre), gare à 800 m du port — l'ergonomie idéale d'un séjour parent solo une semaine, sans voiture."
+      },
+      {
+        heading: "Arriver, se déplacer : TGV 2h30, tout à pied",
+        body: "TGV Paris-Vannes en 2h30-2h45 par la LGV Bretagne, gare posée à 800 m du port et à 1 km des remparts : 10 min à pied avec un enfant et une valise à roulettes. Réseau bus Kicéo : 20+ lignes qui desservent l'agglomération (Séné, Arradon, Saint-Avé), tarif journée modéré (à confirmer sur kiceo.fr avant le séjour). Pas de tram, pas de métro : c'est une ville où l'on marche. Un adulte seul avec enfants tient un séjour Vannes stricte sans voiture — sortie éventuelle en train vers Auray (12 min, base pour Sainte-Anne-d'Auray) ou Quiberon (1h en train + car TER). La voiture n'a de sens que pour Carnac (accessible en Kicéo depuis Vannes en été) ou la Presqu'île de Rhuys."
+      },
+      {
+        heading: "Où loger sans surtaxe single — attention au décrochage prix saison",
+        body: "Le nerf de la guerre à Vannes en parent solo, c'est le calendrier. Deux options qui tiennent. Un, la location saisonnière (studio, T2) hors intra-muros — quartiers Ménimur, Kercado ou Séné (bus Kicéo direct centre), tarifs à peu près stables toute l'année, cuisine, un lit + canapé-lit. Deux, les hôtels 3 étoiles sur le port et l'axe gare-remparts uniquement hors juillet-août : tarifs single douloureux entre le 14 juillet et le 20 août (le golfe est saturé, les hôteliers passent en tarif single premium). Alternative Toussaint et vacances printemps : les VVF et campings de Sarzeau, Arzon (Port du Crouesty), Séné et Baden pratiquent des tarifs mobil-home famille corrects hors saison — un adulte + un ou deux enfants s'y logent pour moins qu'un hôtel Vannes intra-muros. À éviter absolument : hôtel intra-muros en semaine de la Semaine du Golfe (fin mai, biennale voile — les hôtels affichent complet six mois en avance)."
+      },
+      {
+        heading: "Activités enfants regroupées à distance de marche",
+        body: "Journée 1 walkable dans Vannes. Remparts et jardin des remparts (parcours complet en 40 min, sculptures et lavoirs restaurés, gratuit) — vue sur les toits médiévaux, spot photo emblématique. Cathédrale Saint-Pierre (place Henri IV) et vieille ville à colombages autour (rue Saint-Salomon, rue Noé, place des Lices) — parcours ludique pour un enfant, jeu de repérage des maisons à pans de bois XVe-XVIIe. Port de plaisance (5 min à pied de la vieille ville) : bateaux au quai, glacier, terrasses accessibles familles. Musée d'Histoire et d'Archéologie (Château Gaillard, 15 min à pied) : petit format, collection préhistorique/mégalithes, faisable en 1h avec enfants. Journée 2 sortie bateau : traversée vers l'Île aux Moines (Compagnie Océane depuis Port-Blanc-Baden ou vedette depuis le port de Vannes selon saison, 15 à 30 min de traversée) — pique-nique et vélo sur l'île, retour dans la journée. Journée 3 : Carnac et ses alignements mégalithiques (accessible en Kicéo saisonnier + Musée de Préhistoire) — comptez la journée entière."
+      },
+      {
+        heading: "Quand y aller hors août — la fenêtre juillet est mauvaise, pas la Toussaint",
+        body: "Vannes marque 1 900 h de soleil annuelles et une moyenne juillet à 21 °C, janvier à 6,5 °C (source : data/cities-seed.ts) — climat océanique doux, avec un pic touristique très concentré sur le mois d'août. Fenêtres qui tiennent en parent solo : avril-mai (14-18 °C, cathédrale et remparts en fleurs, tarifs pré-saison), juin (fenêtre sweet-spot : 20-22 °C, terrasses ouvertes, tarifs raisonnables), septembre (post-scolaire immédiate, encore 20-22 °C, chute nette des prix dès le 5, mer à 18-19 °C encore baignable une semaine), Toussaint (climat frais 12-15 °C, mais remparts + musée + bateaux vers Île aux Moines restent parfaits, tarifs mi-saison). À éviter en séjour famille budget : la deuxième quinzaine de juillet et les trois premières semaines d'août (saturation golfe), la Semaine du Golfe (biennale, fin mai des années impaires), et le week-end du Festival Interceltique de Lorient en août (les tarifs de tout le Morbihan sud sont tirés vers le haut)."
+      },
+      {
+        heading: "Sécurité, logistique et urgences",
+        body: "Sécurité 8,4/10 (source : data/cities-seed.ts) — c'est l'un des meilleurs scores parmi les villes touristiques françaises. La vieille ville, les remparts, le port et le quartier gare sont walkables le soir en parent solo sans réserve. Deux points logistique. Un, la vieille ville se ferme relativement tôt en semaine hors saison — dîner à partir de 19h30 pour éviter les fermetures des cuisines à 21h30 (typique des villes touristiques hors saison). Deux, en cas d'urgence médicale : Centre Hospitalier Bretagne Atlantique (CHBA, sur Vannes), 15 pour urgence vitale, 116 117 pour conseil médical hors urgence en semaine ou le weekend. Pédiatres et cabinets médicaux libéraux se trouvent facilement depuis l'application ameli.fr → Annuaire santé, filtre géographique. Prévoir doudoune même en juin — le vent du large descend la température ressentie de plusieurs degrés en soirée sur le port."
+      },
+      {
+        heading: "Aides mobilisables — dispositifs, pas montants",
+        body: "Cinq dispositifs à explorer. VACAF (vacaf.org) : centres agréés dans le Morbihan (Sarzeau, Arzon, Carnac, Quiberon), éligibilité selon QF CAF. Chèques-Vacances ANCV (ancv.com) : largement acceptés (musées, restos, hôtels + campings partenaires, traversées bateaux). Bons vacances CAF Morbihan sur caf.fr, rubrique vacances. Conseil départemental du Morbihan (morbihan.fr) : chercher « aide vacances », plusieurs programmes ouverts aux enfants d'allocataires. CSE de l'employeur : billetteries Musée de la Préhistoire de Carnac, Parc de Branféré (30 min de Vannes, animalier + pédagogique). Aucun barème n'est cité ici : les montants sont réévalués chaque année et dépendent du QF."
+      }
+    ],
+    relatedCities: ["vannes", "carnac", "lorient", "quimper"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-vannes-2026",
+      "vivre-a-vannes-2026",
+      "acheter-a-vannes-quel-quartier-budget-2026"
+    ],
+    tags: ["vacances monoparentales Vannes", "parent solo Morbihan", "golfe du Morbihan famille", "remparts Vannes", "hors saison Bretagne sud"]
+  },
+  {
+    slug: "vacances-monoparentales-nancy-2026",
+    title: "Vacances monoparentales à Nancy en 2026",
+    metaTitle: "Vacances monoparentales à Nancy 2026",
+    metaDesc: "Nancy en parent solo : TGV 1h30, Place Stanislas UNESCO à pied, tram et bus, coût contenu. Le guide direct sans supplément single caché.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-08-05",
+    updatedAt: "2026-08-05",
+    intro: "Nancy est la destination parent solo la plus abordable dans le top des villes patrimoine : score coût 8,2/10, culture 8,5/10, transport 7,8/10, qualité de vie 7,8/10 (source : data/cities-seed.ts). Place Stanislas classée UNESCO depuis 1983, École de Nancy Art nouveau à distance walkable, Parc de la Pépinière en plein centre, TGV Paris 1h30, gare à 500 m de la Place Stanislas. Ce guide ne raconte pas la ville — il dit ce qui marche vraiment en parent solo une semaine, et quel budget elle épargne par rapport à Strasbourg ou Colmar.",
+    sections: [
+      {
+        heading: "Pourquoi Nancy marche en parent solo",
+        body: "Le score coût 8,2/10 (source : data/cities-seed.ts) est le point saillant : Nancy est nettement moins chère que Strasbourg (6,9) ou Dijon (7,4) sur l'ensemble des postes touristiques (restauration, hôtellerie, transports). Culture 8,5/10, qualité de vie 7,8/10, transport 7,8/10, sécurité 7,2/10 — un profil équilibré, sans point faible marqué en parent solo. Les characterTags (Place-Stanislas-UNESCO, baroque, étudiant, art-nouveau, dynamique) résument le programme : ensemble XVIIIe Stanislas–Carrière–Alliance UNESCO (probablement la plus belle place du siècle des Lumières en Europe), École de Nancy (mouvement Art nouveau majeur des années 1900), Parc de la Pépinière (23 ha en plein centre). Ville plate, centre historique compact, gare à moins de 10 min à pied de la Place Stanislas."
+      },
+      {
+        heading: "Arriver, se déplacer : TGV 1h30, tram + bus",
+        body: "TGV Paris-Nancy en 1h30 par la LGV Est, gare centrale posée à 500 m de la Place Stanislas : 7 min à pied avec un enfant et une valise à roulettes. Réseau Stan (Service de Transports de l'Agglomération Nancéienne) : une ligne de tramway sur pneus (T1) qui traverse la ville du nord (Essey-les-Nancy) au sud (Vandoeuvre-les-Nancy) via Place Stanislas et gare, plus un réseau bus dense et le BHNS. Ticket unitaire et carnet à confirmer sur reseau-stan.com. Un adulte seul avec un ou deux enfants tient tout un séjour Nancy stricte sans voiture. Sorties possibles depuis Nancy : Metz en TER (40 min, cathédrale, Centre Pompidou-Metz), Lunéville en TER (25 min, château dit « Petit Versailles »), Pont-à-Mousson en TER (17 min)."
+      },
+      {
+        heading: "Où loger sans surtaxe single — le meilleur rapport de la région",
+        body: "Trois options qui tiennent. Un, l'hôtel 3 étoiles sur l'axe gare-Place Stanislas (rue Stanislas, place Thiers) : tarifs single parmi les plus raisonnables des grandes villes historiques françaises, souvent 30-40 % en dessous de Strasbourg ou Colmar pour un standing équivalent. Deux, la location saisonnière (studio, T2) sur le Ville-Vieille, Charles III ou Saurupt — moins cher que le carré Stanislas, tram ou bus direct centre, cuisine pour deux repas par jour. Trois, l'Auberge de Jeunesse HI Nancy Château de Rémicourt (à Villers-les-Nancy, tram + bus depuis la gare) : chambres familles à tarif modéré, formule petit-déjeuner incluse. Nancy est probablement la seule ville patrimoine française où un parent solo au budget serré peut se loger sur l'axe historique sans que le tarif single ne double la note."
+      },
+      {
+        heading: "Activités enfants regroupées à distance de marche",
+        body: "Journée 1 walkable dans le centre XVIIIe. Place Stanislas (grilles dorées de Jean Lamour, arc de triomphe Héré, hôtel de ville, opéra) — parcours gratuit, spot photo iconique. Musée des Beaux-Arts de Nancy (côté Stanislas, collection XIVe-XXIe siècle : Rubens, Delacroix, Manet, section Daum de verrerie Art nouveau au sous-sol) — comptez 1h30 avec enfants. Parc de la Pépinière (à côté de la place, 23 ha : aire de jeux, mini-ferme, kiosque, alignements) : meilleure demi-journée gratuite de la ville avec enfants. Ville Vieille et Palais des Ducs de Lorraine (Musée Lorrain, actuellement en cours de rénovation à vérifier avant venue) — parcours médiéval en 30 min de balade. Journée 2 : Musée de l'École de Nancy (36 rue du Sergent Blandan, tram T1 + 10 min à pied) — maison Art nouveau + jardin d'art nouveau, un des sites Art nouveau les plus complets d'Europe, faisable en 1h30 avec enfants. Muséum-Aquarium (dans le Jardin botanique du Montet) et Jardin botanique Jean-Marie Pelt (accessible en bus) : demi-journée nature au sud de la ville. Sortie possible d'une journée à Metz en TER."
+      },
+      {
+        heading: "Quand y aller hors août — climat continental",
+        body: "Nancy marque 1 700 h de soleil annuelles et une moyenne juillet à 20,8 °C, janvier à 2 °C (source : data/cities-seed.ts) — climat continental modéré, hivers frais mais neige rare, étés chauds parfois orageux. Fenêtres qui tiennent en parent solo : mai-juin (18-22 °C, Place Stanislas et Pépinière en fleurs, tarifs pré-saison), septembre (post-scolaire immédiate, encore 19-21 °C, chute des prix dès le 5), octobre (couleurs d'automne à la Pépinière, climat 12-15 °C, musées et centre historique parfaits, tarifs mi-saison). Décembre : marché de Noël nancéien de taille moyenne (moins dense que Strasbourg ou Colmar), mais Place Stanislas éclairée et son de nuit remarquable — bon compromis parent solo qui veut Noël sans la saturation strasbourgeoise. À éviter en séjour famille : la deuxième quinzaine de juillet + le week-end « Livre sur la Place » (première quinzaine de septembre, le plus ancien salon littéraire hors les murs de France — les hôtels sont très pris cette semaine)."
+      },
+      {
+        heading: "Sécurité et logistique — le centre, les urgences",
+        body: "Sécurité 7,2/10 (source : data/cities-seed.ts) — dans la moyenne des grandes villes françaises, un peu en dessous de Strasbourg (7,4) mais au-dessus de Metz. Le centre historique (Stanislas, Ville Vieille, Charles III, gare), le Parc de la Pépinière et l'axe rue Saint-Jean-rue Saint-Georges sont walkables le soir en parent solo. Les quartiers à filtrer selon la rue et l'heure : Haussonville et le Plateau de Haye — pas des zones interdites mais pas les logements qu'on choisit pour rentrer à pied à 22h avec un enfant fatigué. Urgences pédiatriques : CHRU de Nancy - Hôpital d'Enfants (site de Brabois, tram T1 + navette bus). 15 pour urgence vitale, 116 117 pour conseil médical hors urgence. Repères pour se retrouver : la statue équestre de Stanislas au centre de la Place Stanislas (rendez-vous universel), l'arc de triomphe Héré côté Carrière. Prévoir doudoune même en septembre soirée — écarts jour/nuit sensibles en fin de saison."
+      },
+      {
+        heading: "Aides mobilisables — dispositifs, pas montants",
+        body: "Cinq dispositifs à explorer. VACAF (vacaf.org) : centres agréés en Meurthe-et-Moselle et dans les Vosges (voisines), éligibilité selon QF CAF. Chèques-Vacances ANCV (ancv.com) : largement acceptés (musées, restaurants, transports Stan via billetterie partenaire). Bons vacances CAF Meurthe-et-Moselle sur caf.fr, rubrique vacances. Conseil départemental de Meurthe-et-Moselle (meurthe-et-moselle.fr) : chercher « aide vacances ». CSE de l'employeur : billetteries Musée de l'École de Nancy, Muséum-Aquarium, Parc de Sainte-Croix (parc animalier à 45 min de Nancy). Aucun barème n'est cité ici : les montants sont réévalués chaque année et dépendent du QF."
+      }
+    ],
+    relatedCities: ["nancy", "metz", "pont-a-mousson", "epinal"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-nancy-2026",
+      "vivre-a-nancy-2026",
+      "acheter-a-nancy-quel-quartier-budget-2026"
+    ],
+    tags: ["vacances monoparentales Nancy", "parent solo Meurthe-et-Moselle", "Place Stanislas UNESCO", "École de Nancy Art nouveau", "hors saison Lorraine"]
+  },
+  {
+    slug: "vacances-monoparentales-dijon-2026",
+    title: "Vacances monoparentales à Dijon en 2026",
+    metaTitle: "Vacances monoparentales à Dijon 2026",
+    metaDesc: "Dijon en parent solo : TGV 1h35, tram + Diviaviélo, secteur sauvegardé à pied, base pour Beaune. Le guide direct sans supplément single caché.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-08-05",
+    updatedAt: "2026-08-05",
+    intro: "Dijon est la destination parent solo la plus complète de Bourgogne : culture 8,2/10, transport 7,5/10, coût 7,4/10, qualité de vie 7,7/10 (source : data/cities-seed.ts). Secteur sauvegardé de 97 ha (l'un des plus grands de France), TGV Paris 1h35, gare à 700 m du Palais des Ducs, deux lignes de tram depuis 2012, et Beaune + Route des Grands Crus à 25 min de TER. Ce guide dit ce qui marche vraiment en parent solo — et à quel prix elle épargne le budget Alsace-Bourgogne classique.",
+    sections: [
+      {
+        heading: "Pourquoi Dijon marche en parent solo",
+        body: "Dijon combine ce qu'on cherche rarement au même endroit : coût 7,4/10 (source : data/cities-seed.ts, entre Nancy 8,2 et Strasbourg 6,9), culture 8,2/10 (Palais des Ducs, secteur sauvegardé médiéval-Renaissance, Cité internationale de la gastronomie et du vin ouverte en 2022), transport 7,5/10 (deux lignes de tram T1 T2 depuis 2012 + réseau Divia + Diviaviélo vélo public). Les characterTags (gastronomie, historique, universitaire, vélo, bourguignon) résument le programme : ville-musée à échelle piétonne, patrimoine intact du XIe au XVIIe, marchés couverts, cassis et pain d'épices, et surtout la meilleure base pour découvrir le vignoble bourguignon avec des enfants (Beaune et sa Route des Grands Crus accessibles en TER)."
+      },
+      {
+        heading: "Arriver, se déplacer : TGV 1h35, tram + Diviaviélo",
+        body: "TGV Paris-Dijon en 1h35 par la LGV Sud-Est (branche Sud), gare Dijon-Ville rénovée 2016, posée à 700 m du Palais des Ducs : 10 min à pied avec un enfant et une valise à roulettes, ou 3 min en tram T1 direction Quétigny → Darcy. Réseau Divia : 2 lignes de tram (T1 T2), réseau bus dense, Diviaviélo (vélo libre-service ~40 stations en centre). Ticket unitaire et carnet à confirmer sur divia.fr avant le séjour. Un adulte seul avec enfants tient un séjour Dijon stricte sans voiture. Sorties possibles depuis Dijon : Beaune en TER en 25 min (Hospices, dégustation famille), Nuits-Saint-Georges en TER 15 min, Semur-en-Auxois en car TER, Besançon en TER 50 min. La voiture n'a de sens que pour la Route des Grands Crus au village-par-village."
+      },
+      {
+        heading: "Où loger sans surtaxe single",
+        body: "Trois options qui tiennent en parent solo. Un, l'hôtel 3 étoiles sur l'axe gare-Darcy-place Grangier-Palais des Ducs : tarifs single raisonnables toute l'année (Dijon n'a pas la surchauffe touristique estivale de Strasbourg ou Colmar), tram T1 direct. Deux, la location saisonnière (studio, T2) sur le secteur sauvegardé côté nord (Notre-Dame) ou côté ouest (place Wilson) — cuisine pour deux repas par jour, un lit + canapé-lit couvrent parent + un ou deux enfants. Trois, l'Auberge de Jeunesse Ethic Étapes CRISD à 15 min à pied du centre : chambres familles à tarif modéré, formule petit-déjeuner incluse. Éviter les hôtels centre pendant la Foire Internationale et Gastronomique de Dijon (première quinzaine de novembre — l'agglomération est saturée pendant 10 jours) et pendant les vendanges bourguignonnes (mi-septembre à mi-octobre, les hôtels sont pris par les professionnels du vin)."
+      },
+      {
+        heading: "Activités enfants regroupées — le Parcours de la Chouette",
+        body: "Le Parcours de la Chouette est l'itinéraire touristique officiel de la ville : 22 étapes signalées au sol par des triangles en bronze à tête de chouette, du Palais des Ducs à la cathédrale Saint-Bénigne en passant par Notre-Dame (dont la fameuse chouette porte-bonheur à toucher de la main gauche). Idéal pour un enfant : jeu de piste dans le patrimoine, environ 2h avec pauses. Musée des Beaux-Arts de Dijon (dans le Palais des Ducs) — collections médiévales exceptionnelles, tombeaux ducaux, gratuit pour les collections permanentes (billet pour expositions temporaires) — comptez 1h30 avec enfants. Cité internationale de la gastronomie et du vin (ouverte 2022, quartier des Halles centrales, tram T2 + 5 min à pied) — parcours interactif famille, dégustation adulte + atelier enfant selon programmation à vérifier sur cite-gastronomie-dijon.fr. Marché des Halles (mardi, vendredi, samedi matin — halles Baltard rénovées) : spot déjeuner familial abordable, achetez et pique-niquez au Jardin Darcy. Journée sortie : Beaune (Hospices classés monument historique, cour intérieure à vitrail visitable, comptez la journée avec musée du Vin)."
+      },
+      {
+        heading: "Quand y aller hors août — climat semi-continental",
+        body: "Dijon marque 1 820 h de soleil annuelles et une moyenne juillet à 22,5 °C, janvier à 2,9 °C (source : data/cities-seed.ts) — climat semi-continental, hivers frais avec quelques épisodes neigeux, étés chauds. Fenêtres qui tiennent en parent solo : avril-mai (14-18 °C, Parc Darcy en fleurs, tarifs pré-saison), juin (fenêtre sweet-spot : 20-24 °C, terrasses ouvertes), septembre première quinzaine (post-scolaire, encore 20-22 °C, chute des prix, vendanges pas encore au pic), Toussaint (climat frais 10-13 °C, mais Palais des Ducs + Cité gastronomie + secteur sauvegardé restent parfaits). À éviter en séjour famille : la Foire Internationale et Gastronomique de Dijon (première quinzaine de novembre, saturation générale de l'hôtellerie), la deuxième quinzaine de juillet (chaleur + vacances scolaires), le week-end du festival Musical'Été (à confirmer selon la programmation de l'année). Programme spécial parent solo : semaine Vinifrance ou Dijon Ville Blanche selon l'année — vérifier le calendrier avant réservation."
+      },
+      {
+        heading: "Sécurité et logistique — le centre, les urgences",
+        body: "Sécurité 7,2/10 (source : data/cities-seed.ts) — dans la moyenne des grandes villes françaises. Le secteur sauvegardé (Notre-Dame, Palais des Ducs, place François-Rude « Le Bareuzai »), le Jardin Darcy, la place Wilson et l'axe gare-Darcy sont walkables le soir en parent solo. Les quartiers à filtrer selon la rue et l'heure : Grésilles et Chevreul (nord-est) — pas des zones interdites mais pas les logements qu'on choisit pour rentrer avec un enfant fatigué à 22h. Urgences pédiatriques : CHU Dijon-Bourgogne, Hôpital d'Enfants (Pôle de la Mère et de l'Enfant, tram T1 + navette). 15 pour urgence vitale, 116 117 pour conseil médical hors urgence. Repères pour se retrouver : la place Darcy avec sa fontaine et son ours en bronze (rendez-vous universel à 5 min de la gare et 8 min du Palais des Ducs), la Chouette de Notre-Dame (repère unique du parcours du même nom). Le tram T1 T2 fonctionne jusqu'à minuit environ selon jour."
+      },
+      {
+        heading: "Aides mobilisables — dispositifs, pas montants",
+        body: "Cinq dispositifs à explorer. VACAF (vacaf.org) : centres agréés en Côte-d'Or et proches Jura, éligibilité selon QF CAF. Chèques-Vacances ANCV (ancv.com) : largement acceptés (musées, Cité de la gastronomie et du vin, restos partenaires, transports Divia via billetterie partenaire). Bons vacances CAF Côte-d'Or sur caf.fr, rubrique vacances. Conseil départemental de Côte-d'Or (cotedor.fr) : chercher « aide vacances ». CSE de l'employeur : billetteries Musée des Beaux-Arts (pour les expos temporaires), Cité internationale de la gastronomie et du vin, Muséum-Jardin des Sciences de Dijon. Aucun barème n'est cité ici : les montants sont réévalués chaque année et dépendent du QF."
+      }
+    ],
+    relatedCities: ["dijon", "beaune", "autun", "besancon"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-dijon-2026",
+      "vivre-sans-voiture-dijon-guide-2026",
+      "acheter-a-dijon-quel-quartier-budget-2026"
+    ],
+    tags: ["vacances monoparentales Dijon", "parent solo Côte-d'Or", "Parcours de la Chouette", "Cité gastronomie et du vin", "hors saison Bourgogne"]
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
