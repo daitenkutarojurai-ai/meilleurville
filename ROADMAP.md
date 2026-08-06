@@ -901,6 +901,78 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ## Shipped 2026-08-06
 
+- **La palette de recherche (Cmd+K) ne sert plus du français sur le domaine anglais** ✅ —
+  relevé « trouvé en passant, non corrigé » du 05/08, pris ici. `components/SearchPalette.tsx`
+  n'avait **aucune notion de locale**, là où la `Navbar` qui la déclenche en a une depuis
+  toujours (`IS_EN = DEFAULT_LOCALE === "en"`) : le bouton « Search… » était en anglais, et
+  ce qu'il ouvrait était français. Un visiteur de bestcitiesinfrance.com qui tapait « Lyon »
+  se voyait proposer *Quitter Lyon en 2026*, *Vivre autour de Lyon*, un lien `/villes/lyon`,
+  et des raccourcis de glossaire vers `/glossaire`, route qui n'existe pas côté EN.
+
+  **Quatre fuites, quatre causes distinctes** — c'est pour ça qu'un seul correctif ne
+  suffisait pas :
+  - **Le corpus.** `lib/search-index.ts` ne connaissait que `data/guides.ts` : **902 guides
+    FR, zéro EN**. `scripts/build-search-index.mjs` génère désormais **deux** projections en
+    évaluant les modules réels de chaque langue — `data/search-index.json` (FR : 909 guides,
+    238 tags) et `data/search-index.en.json` (EN : 548 guides, 74 tags, depuis
+    `data/guides-en.ts` + `lib/guide-tags-en.ts`). `--check` valide les deux, donc
+    `prebuild` empêche l'index EN de dériver exactement comme il empêche le FR. Sortie FR
+    **byte-identique** (vérifié : `git diff` vide sur `data/search-index.json`).
+  - **Les URL.** `/guides` et `/tags` partagent leur segment entre les deux locales, pas
+    `/villes` ni `/classements` : la palette EN pointe maintenant vers `/cities/[slug]` et
+    `/rankings/[slug]`.
+  - **Le glossaire.** `app/glossaire` et `app/[locale]/glossary` sont **deux pages
+    distinctes avec leurs propres sections** — une ancre `#section-N` ne se transpose pas.
+    Les 19 raccourcis EN sont écrits avec les termes **repris mot pour mot** de la page
+    anglaise, chacun sur l'index de section réel de cette page ; le lecteur atterrit donc
+    sur l'entrée qu'il a cherchée, pas trois sections plus bas.
+  - **La chrome.** Placeholder, `aria-label` du dialogue et des boutons, sous-libellés
+    (« Classement » → *Ranking*, « Glossaire » → *Glossary*), pied (`naviguer`/`ouvrir`/
+    `N entrées indexées`) et état vide (« Aucun résultat pour « x ». » → *No results for
+    “x”.*, guillemets typographiques de la bonne langue) passent par un helper `tr(fr, en)`,
+    comme le prescrit CLAUDE.md § « Conventions for adding an EN route » point 6. Les **noms
+    de région restent tels quels** : ce sont des noms propres, et le reste du site anglais
+    ne les traduit pas non plus.
+
+  **Le choix de locale ne coûte pas un octet de plus.** `lib/search-index.ts` lit
+  `process.env.NEXT_PUBLIC_DEFAULT_LOCALE` en direct (pas `DEFAULT_LOCALE` de `@/lib/i18n`,
+  pour que ce module reste la frontière qui n'importe rien d'autre) ; la valeur étant inlinée
+  au build, la branche morte et le JSON qu'elle référence tombent du bundle. **Mesuré** sur
+  ce ternaire exact, bundle FR **187 Ko** = le seul JSON FR, bundle EN **98 Ko** = le seul
+  JSON EN. Un domaine = un build, donc pas de prop `locale` à faire descendre : même
+  raisonnement que la `Navbar`.
+
+  **Vérifié dans un navigateur, pas déduit** (Chromium/Playwright sur `next dev`, une fois
+  par locale). EN : titres anglais, `/cities/lyon`, `/rankings/teletravail`,
+  `/glossary#section-0`, *No results for “zzzzqq”.* FR : titres français, `/villes/lyon`,
+  `/glossaire#section-0`, « Aucun résultat pour « zzzzqq ». » — aucune régression.
+
+  **Effet de bord assumé : `lib/rankings-en.ts`.** La palette a besoin des libellés anglais
+  des classements, et ceux-ci vivaient dans **deux fichiers de page**, en double et déjà
+  divergents — une table riche dans `app/[locale]/rankings/[slug]/page.tsx` (19 entrées) et
+  une table `label + tagline` dans `app/[locale]/rankings/page.tsx` (15). Conséquences
+  visibles avant ce run : le hub `/rankings` affichait **« Écologie », « Cyclistes »,
+  « Jeunes actifs » et « Bord de mer » en français** faute d'entrée, et annonçait
+  **« Climate 2040 »** pour un classement qui mesure l'ensoleillement et la douceur des
+  saisons (FR « Climat de comfort », méthodologie ensoleillement ×3 / été ×2 / hiver ×2 —
+  rien à voir avec la projection 2040). Les deux tables fusionnent en une seule lib —
+  précédent `lib/fiscalite-en.ts` du 06/08 au matin : compagnon anglais, la source de vérité
+  française (`lib/rankings.ts`, slugs et pondérations) n'est pas touchée. Les quatre
+  taglines manquantes sont écrites depuis la méthodologie de leur propre entrée. Au passage,
+  le `<title>` du hub annonçait **13 classements pour 19 réellement rendus dessous** : il
+  dérive maintenant de `RANKINGS_COUNT`, comme le fait déjà le hub FR.
+
+  Rien de nouveau à câbler : aucune route ajoutée, sitemap inchangé. `npx tsc --noEmit`
+  propre, `eslint` sans nouvelle alerte, `node scripts/build-search-index.mjs --check` vert
+  sur les deux fichiers.
+
+  **Ce qui n'est pas fait** : la palette EN indexe les 540 villes, les 19 classements, les
+  548 guides EN et les 74 tags EN — mais **pas les hubs EN** (`/overall-ranking`,
+  `/weekend-getaways`, `/vacations`…), pas plus que la FR n'indexe les siens. Et le score de
+  pertinence reste le même des deux côtés (préfixe > sous-chaîne), donc une requête anglaise
+  en deux mots (« remote work ») remonte d'abord les tags puis le classement, jamais un
+  ordre pensé pour l'anglais. Deux chantiers distincts, non ouverts ici.
+
 - **Parité EN** ✅ — `/departments/[dept]/tax` + `/departments/[dept]/synthesis`, 204 URL
   (102 départements × 2). Détaillé dans § « Parité EN › Livré le 06/08 » ci-dessus.
   `npm run parity` : 8 routes FR sans jumelle → **6**.
@@ -963,7 +1035,8 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
   Les Abymes, Saint-Louis (974), Saint-Laurent-du-Maroni, Le Lamentin, Saint-Joseph,
   Saint-Benoît, Baie-Mahault, Le Robert, Le François.
 
-- **Trouvé en passant, non corrigé (à prendre par un run parité EN)** — la palette de
+- **Trouvé en passant, non corrigé (à prendre par un run parité EN)** — ✅ **corrigé le
+  2026-08-06**, cf. l'entrée du 06/08 ci-dessus. La palette de
   recherche (`Cmd+K`) sert du contenu **français sur le domaine anglais**.
   `components/SearchPalette.tsx` n'a aucune notion de locale, là où `Navbar` en a une
   (`IS_EN = DEFAULT_LOCALE === "en"`) : elle lit `lib/search-index.ts`, dont le générateur

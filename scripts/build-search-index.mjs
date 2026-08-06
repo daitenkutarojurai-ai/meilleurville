@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 /**
- * Génère `data/search-index.json` — la projection maigre que la palette de
- * recherche (`components/SearchPalette.tsx`) consomme côté client.
+ * Génère `data/search-index.json` (FR) et `data/search-index.en.json` (EN) —
+ * les projections maigres que la palette de recherche
+ * (`components/SearchPalette.tsx`) consomme côté client.
  *
  * Pourquoi ce script existe
  * -------------------------
@@ -15,23 +16,33 @@
  * « Projections, not entities » de CLAUDE.md, appliqué partout ailleurs et
  * manqué ici (ultra-audit 2026-08-02 §2.2).
  *
+ * Pourquoi deux fichiers
+ * ----------------------
+ * La palette n'avait aucune notion de locale : sur bestcitiesinfrance.com elle
+ * servait les 900+ titres **français** et des raccourcis vers `/glossaire`,
+ * route qui n'existe pas côté EN (relevé du 2026-08-05). Le corpus anglais est
+ * `data/guides-en.ts`, ses tags `lib/guide-tags-en.ts` : deux corpus, donc deux
+ * projections. `lib/search-index.ts` choisit la bonne d'après
+ * `NEXT_PUBLIC_DEFAULT_LOCALE`, qui est figé au build (un domaine = un build).
+ *
  * Méthode
  * -------
  * Le script ne re-parse pas les guides à la main et ne réimplémente pas le
  * calcul des tags : il **transpile et évalue les modules réels**
- * (`data/guides.ts`, puis `lib/guide-tags.ts` avec les vrais `GUIDES` en
- * entrée). La sortie ne peut donc pas diverger de ce que le serveur affiche —
- * une réimplémentation, elle, aurait dérivé au premier changement de
+ * (`data/guides.ts` puis `lib/guide-tags.ts` côté FR, `data/guides-en.ts` puis
+ * `lib/guide-tags-en.ts` côté EN, avec les vrais guides en entrée). La sortie
+ * ne peut donc pas diverger de ce que le serveur affiche — une
+ * réimplémentation, elle, aurait dérivé au premier changement de
  * `MIN_GUIDES_PER_TAG`.
  *
  * Usage
  * -----
- *   node scripts/build-search-index.mjs            # écrit le fichier
- *   node scripts/build-search-index.mjs --check    # échoue si le fichier commité est périmé
+ *   node scripts/build-search-index.mjs            # écrit les deux fichiers
+ *   node scripts/build-search-index.mjs --check    # échoue si un fichier commité est périmé
  *
  * `prebuild` l'exécute avant chaque `next build`, donc la production est
  * toujours à jour même si un agent ajoute un guide sans relancer le script.
- * Le fichier reste commité pour que `next dev` et `tsc` fonctionnent sans
+ * Les fichiers restent commités pour que `next dev` et `tsc` fonctionnent sans
  * étape préalable.
  */
 
@@ -41,7 +52,8 @@ import path from "node:path";
 import ts from "typescript";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const OUT = path.join(ROOT, "data", "search-index.json");
+const OUT_FR = path.join(ROOT, "data", "search-index.json");
+const OUT_EN = path.join(ROOT, "data", "search-index.en.json");
 
 /**
  * Transpile un module TypeScript du dépôt et l'exécute avec un `require`
@@ -104,10 +116,31 @@ function loadTags(guidesModule) {
   return mod.getAllTagsWithCounts();
 }
 
-function build() {
-  const guidesModule = loadGuides();
+function loadEnGuides() {
+  const mod = loadModule("data/guides-en.ts", (id) => {
+    if (id === "@/lib/data-integrity") {
+      return { assertKnownSlugs: NOOP, assertUniqueSlugs: NOOP };
+    }
+    return null;
+  });
+  if (!Array.isArray(mod.EN_GUIDES) || mod.EN_GUIDES.length === 0) {
+    throw new Error("data/guides-en.ts n'a pas exporté de EN_GUIDES exploitable");
+  }
+  return mod;
+}
 
-  const guides = guidesModule.GUIDES.map((g) => {
+function loadEnTags(enGuidesModule) {
+  const mod = loadModule("lib/guide-tags-en.ts", (id) =>
+    id === "@/data/guides-en" ? enGuidesModule : null
+  );
+  if (typeof mod.getAllTagsWithCountsEn !== "function") {
+    throw new Error("lib/guide-tags-en.ts n'a pas exporté getAllTagsWithCountsEn");
+  }
+  return mod.getAllTagsWithCountsEn();
+}
+
+function projectGuides(list) {
+  return list.map((g) => {
     if (!g.slug || !g.title) {
       throw new Error(`guide sans slug ou sans titre : ${JSON.stringify(g.slug ?? g.title)}`);
     }
@@ -115,17 +148,30 @@ function build() {
     // la palette affiche une pastille vide plutôt qu'un caractère inventé.
     return { slug: g.slug, title: g.title, emoji: g.emoji ?? "" };
   });
+}
 
-  const tags = loadTags(guidesModule).map((t) => ({
-    slug: t.slug,
-    label: t.label,
-    count: t.count,
-  }));
+function projectTags(list) {
+  return list.map((t) => ({ slug: t.slug, label: t.label, count: t.count }));
+}
 
+const HEADER =
+  "Généré par scripts/build-search-index.mjs — ne pas éditer à la main (npm run search-index).";
+
+function buildFr() {
+  const guidesModule = loadGuides();
   return {
-    "//": "Généré par scripts/build-search-index.mjs — ne pas éditer à la main (npm run search-index).",
-    guides,
-    tags,
+    "//": HEADER,
+    guides: projectGuides(guidesModule.GUIDES),
+    tags: projectTags(loadTags(guidesModule)),
+  };
+}
+
+function buildEn() {
+  const enGuidesModule = loadEnGuides();
+  return {
+    "//": HEADER,
+    guides: projectGuides(enGuidesModule.EN_GUIDES),
+    tags: projectTags(loadEnTags(enGuidesModule)),
   };
 }
 
@@ -134,26 +180,36 @@ function serialize(index) {
 }
 
 const check = process.argv.includes("--check");
-const payload = serialize(build());
+
+const OUTPUTS = [
+  { label: "data/search-index.json", file: OUT_FR, payload: serialize(buildFr()) },
+  { label: "data/search-index.en.json", file: OUT_EN, payload: serialize(buildEn()) },
+];
 
 if (check) {
-  let current = null;
-  try {
-    current = readFileSync(OUT, "utf8");
-  } catch {
-    /* fichier absent → périmé */
+  let stale = false;
+  for (const { label, file, payload } of OUTPUTS) {
+    let current = null;
+    try {
+      current = readFileSync(file, "utf8");
+    } catch {
+      /* fichier absent → périmé */
+    }
+    if (current !== payload) {
+      console.error(
+        `${label} est périmé — lancer \`npm run search-index\` et commiter le résultat.`
+      );
+      stale = true;
+    }
   }
-  if (current !== payload) {
-    console.error(
-      "data/search-index.json est périmé — lancer `npm run search-index` et commiter le résultat."
-    );
-    process.exit(1);
-  }
-  console.log("data/search-index.json est à jour.");
+  if (stale) process.exit(1);
+  console.log("data/search-index.json et data/search-index.en.json sont à jour.");
 } else {
-  writeFileSync(OUT, payload);
-  const parsed = JSON.parse(payload);
-  console.log(
-    `data/search-index.json écrit : ${parsed.guides.length} guides, ${parsed.tags.length} tags, ${(payload.length / 1024).toFixed(0)} Ko.`
-  );
+  for (const { label, file, payload } of OUTPUTS) {
+    writeFileSync(file, payload);
+    const parsed = JSON.parse(payload);
+    console.log(
+      `${label} écrit : ${parsed.guides.length} guides, ${parsed.tags.length} tags, ${(payload.length / 1024).toFixed(0)} Ko.`
+    );
+  }
 }

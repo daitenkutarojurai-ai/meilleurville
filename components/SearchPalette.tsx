@@ -6,14 +6,25 @@ import Link from "next/link";
 import { Search, MapPin, BookOpen, Trophy, Globe2, Tag as TagIcon, BookText, X } from "lucide-react";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { RANKING_META } from "@/lib/rankings";
+import { rankingEn } from "@/lib/rankings-en";
+import { DEFAULT_LOCALE } from "@/lib/i18n";
 import { scoreColor, scoreHex } from "@/lib/utils";
 // Projections maigres : importer @/data/guides ici expédierait le corpus
 // éditorial entier au navigateur pour afficher une liste de titres.
-// Cf. lib/search-index.ts.
+// Cf. lib/search-index.ts — qui sert aussi le corpus de la bonne langue.
 import { SEARCH_GUIDES, SEARCH_TAGS } from "@/lib/search-index";
 import POSTAL_BY_SLUG from "@/data/city-postal-codes.json";
 
 const POSTAL: Record<string, string[]> = POSTAL_BY_SLUG;
+
+// Un domaine = un build, donc la locale est figée à la compilation : pas de
+// prop `locale` à faire descendre depuis la Navbar, même choix que celle-ci.
+const IS_EN = DEFAULT_LOCALE === "en";
+
+/** Choisit la chaîne de la locale du build. Sortie FR inchangée. */
+function tr(fr: string, en: string): string {
+  return IS_EN ? en : fr;
+}
 
 type Entry =
   | { kind: "city"; slug: string; name: string; region: string; score: number }
@@ -22,7 +33,12 @@ type Entry =
   | { kind: "tag"; slug: string; label: string; count: number }
   | { kind: "glossaire"; term: string; href: string };
 
-const GLOSSARY_ENTRIES: { term: string; href: string }[] = [
+// Raccourcis vers les sections du glossaire. Les deux glossaires sont deux
+// pages distinctes (`app/glossaire` / `app/[locale]/glossary`) avec leurs
+// propres sections : les ancres `#section-N` ne se transposent pas, et les
+// termes anglais sont repris **mot pour mot** de la page EN pour que le
+// lecteur retrouve l'entrée sur laquelle il atterrit.
+const GLOSSARY_ENTRIES_FR: { term: string; href: string }[] = [
   { term: "DPE", href: "/glossaire#section-0" },
   { term: "LMNP", href: "/glossaire#section-1" },
   { term: "LMP", href: "/glossaire#section-1" },
@@ -43,6 +59,30 @@ const GLOSSARY_ENTRIES: { term: string; href: string }[] = [
   { term: "Quotient familial", href: "/glossaire#section-4" },
   { term: "CFE", href: "/glossaire#section-4" },
 ];
+
+const GLOSSARY_ENTRIES_EN: { term: string; href: string }[] = [
+  { term: "DPE (Energy Performance Certificate)", href: "/glossary#section-0" },
+  { term: "LMNP (Non-professional furnished-letting landlord)", href: "/glossary#section-1" },
+  { term: "LMP (Professional furnished-letting landlord)", href: "/glossary#section-1" },
+  { term: "Taxe foncière (property ownership tax)", href: "/glossary#section-0" },
+  { term: "Notary fees (frais de notaire)", href: "/glossary#section-0" },
+  { term: "Rent control (encadrement des loyers)", href: "/glossary#section-0" },
+  { term: "ZFE (Low-Emission Zone)", href: "/glossary#section-2" },
+  { term: "PTZ (Zero-Rate Loan)", href: "/glossary#section-2" },
+  { term: "Pinel / Pinel+", href: "/glossary#section-1" },
+  { term: "Denormandie", href: "/glossary#section-1" },
+  { term: "FTTH fibre (Fiber To The Home)", href: "/glossary#section-3" },
+  { term: "PLU (Local Urban Plan)", href: "/glossary#section-2" },
+  { term: "Loi Carrez (official floor area)", href: "/glossary#section-0" },
+  { term: "Loi Boutin (habitable surface)", href: "/glossary#section-0" },
+  { term: "TMI (Top marginal tax rate)", href: "/glossary#section-4" },
+  { term: "IFI (Property wealth tax)", href: "/glossary#section-4" },
+  { term: "Capital gains tax (plus-value immobilière)", href: "/glossary#section-4" },
+  { term: "Quotient familial (family tax unit)", href: "/glossary#section-4" },
+  { term: "CFE (Business property tax for self-employed)", href: "/glossary#section-4" },
+];
+
+const GLOSSARY_ENTRIES = IS_EN ? GLOSSARY_ENTRIES_EN : GLOSSARY_ENTRIES_FR;
 
 function normalize(s: string): string {
   return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
@@ -65,7 +105,9 @@ const INDEX: Entry[] = [
   ...Object.entries(RANKING_META).map<Entry>(([slug, meta]) => ({
     kind: "ranking",
     slug,
-    label: meta.headline,
+    // Les slugs restent français des deux côtés (source de vérité unique dans
+    // lib/rankings.ts) ; seul le libellé affiché change.
+    label: IS_EN ? rankingEn(slug, meta).headline : meta.headline,
   })),
   ...SEARCH_TAGS.map<Entry>((t) => ({
     kind: "tag",
@@ -100,9 +142,11 @@ function score(entry: Entry, q: string): number {
 }
 
 function entryHref(e: Entry): string {
-  if (e.kind === "city") return `/villes/${e.slug}`;
+  // `/guides` et `/tags` partagent leur segment entre les deux locales ;
+  // `/villes` et `/classements` ne l'ont pas (`/cities`, `/rankings`).
+  if (e.kind === "city") return IS_EN ? `/cities/${e.slug}` : `/villes/${e.slug}`;
   if (e.kind === "guide") return `/guides/${e.slug}`;
-  if (e.kind === "ranking") return `/classements/${e.slug}`;
+  if (e.kind === "ranking") return IS_EN ? `/rankings/${e.slug}` : `/classements/${e.slug}`;
   if (e.kind === "tag") return `/tags/${e.slug}`;
   return e.href;
 }
@@ -116,11 +160,13 @@ function entryLabel(e: Entry): string {
 }
 
 function entrySublabel(e: Entry): string {
+  // Les noms de région restent tels quels côté EN : ce sont des noms propres,
+  // et le reste du site anglais les affiche déjà sans les traduire.
   if (e.kind === "city") return e.region;
   if (e.kind === "guide") return "Guide";
-  if (e.kind === "ranking") return "Classement";
+  if (e.kind === "ranking") return tr("Classement", "Ranking");
   if (e.kind === "tag") return `Tag · ${e.count} guides`;
-  return "Glossaire";
+  return tr("Glossaire", "Glossary");
 }
 
 function EntryIcon({ entry }: { entry: Entry }) {
@@ -246,12 +292,12 @@ export function SearchPalette({
     <div
       role="dialog"
       aria-modal="true"
-      aria-label="Recherche"
+      aria-label={tr("Recherche", "Search")}
       className="fixed inset-0 z-[100] flex items-start justify-center pt-[12vh] px-4"
     >
       <button
         type="button"
-        aria-label="Fermer la recherche"
+        aria-label={tr("Fermer la recherche", "Close search")}
         onClick={close}
         className="absolute inset-0 bg-black/50 backdrop-blur-sm"
       />
@@ -274,8 +320,11 @@ export function SearchPalette({
                 if (results[safeHighlight]) commit(results[safeHighlight]);
               }
             }}
-            placeholder="Rechercher une ville, un guide, un classement…"
-            aria-label="Recherche globale"
+            placeholder={tr(
+              "Rechercher une ville, un guide, un classement…",
+              "Search a city, a guide, a ranking…",
+            )}
+            aria-label={tr("Recherche globale", "Site search")}
             aria-controls="palette-results"
             aria-activedescendant={results[safeHighlight] ? `palette-opt-${safeHighlight}` : undefined}
             className="flex-1 bg-transparent text-sm outline-none placeholder:text-[var(--text-tertiary)] text-[var(--text-primary)]"
@@ -286,7 +335,7 @@ export function SearchPalette({
           <button
             type="button"
             onClick={close}
-            aria-label="Fermer"
+            aria-label={tr("Fermer", "Close")}
             className="text-[var(--text-tertiary)] hover:text-[var(--text-primary)] sm:hidden"
           >
             <X className="h-4 w-4" />
@@ -296,7 +345,11 @@ export function SearchPalette({
         <ul id="palette-results" role="listbox" className="max-h-[60vh] overflow-y-auto">
           {results.length === 0 && (
             <li className="px-4 py-8 text-center text-sm text-[var(--text-secondary)]">
-              Aucun résultat pour «&nbsp;{query}&nbsp;».
+              {IS_EN ? (
+                <>No results for “{query}”.</>
+              ) : (
+                <>Aucun résultat pour «&nbsp;{query}&nbsp;».</>
+              )}
             </li>
           )}
           {results.map((entry, i) => {
@@ -345,16 +398,16 @@ export function SearchPalette({
           <div className="flex items-center gap-3">
             <span className="flex items-center gap-1">
               <kbd className="rounded border border-[var(--border)] bg-[var(--bg-elevated)] px-1 py-0.5 font-mono">↑↓</kbd>
-              naviguer
+              {tr("naviguer", "navigate")}
             </span>
             <span className="flex items-center gap-1">
               <kbd className="rounded border border-[var(--border)] bg-[var(--bg-elevated)] px-1 py-0.5 font-mono">↵</kbd>
-              ouvrir
+              {tr("ouvrir", "open")}
             </span>
           </div>
           <span className="flex items-center gap-1">
             <Globe2 className="h-3 w-3" aria-hidden />
-            {INDEX.length} entrées indexées
+            {INDEX.length} {tr("entrées indexées", "entries indexed")}
           </span>
         </div>
       </div>

@@ -3,35 +3,17 @@ import type { Metadata } from "next";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { RANKING_META } from "@/lib/rankings";
+import { RANKINGS_COUNT } from "@/lib/site-stats";
+import { rankingEn } from "@/lib/rankings-en";
 import { t, ORIGIN_BY_LOCALE } from "@/lib/i18n";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
-// Localised labels for the existing French ranking slugs. Slug keys stay
-// in French so URLs and FR data structures don't fork; only the display
-// label and tagline are translated.
-const RANKING_EN_LABELS: Record<string, { label: string; tagline: string }> = {
-  teletravail: { label: "Remote work", tagline: "Fibre, coworking, cost-of-life vs salary." },
-  famille: { label: "Families", tagline: "Schools, parks, paediatric coverage." },
-  nature: { label: "Nature", tagline: "Forest, sea, mountains within reach." },
-  etudiant: { label: "Students", tagline: "Universities, rent affordability, nightlife." },
-  retraite: { label: "Retirees", tagline: "Healthcare access, climate, calm." },
-  budget: { label: "Tight budget", tagline: "Rent, groceries, transport — total monthly load." },
-  soleil: { label: "Sunshine", tagline: "Sunny days per year, mild winters." },
-  securite: { label: "Safety", tagline: "Crime rates per 1,000 inhabitants (SSMSI)." },
-  culture: { label: "Culture", tagline: "Museums, concerts, theatres, festivals." },
-  mobilite: { label: "Mobility", tagline: "Public transit, walkability, bike lanes." },
-  investissement: { label: "Property investment", tagline: "Yield, demand, price trajectory." },
-  sante: { label: "Healthcare", tagline: "GPs, specialists, hospital coverage." },
-  climat: { label: "Climate 2040", tagline: "Heat, water stress, projected liveability." },
-  logement: { label: "Housing affordability", tagline: "Rent and purchase price vs local wages." },
-  gastronomie: { label: "Food scene", tagline: "Restaurants, markets, regional specialities." },
-};
-
+// Le compteur est dérivé, pas écrit à la main : la page annonçait 13 thèmes
+// pour 19 classements réellement rendus juste en dessous.
 export const metadata: Metadata = {
-  title: "French city rankings · 13 themed leaderboards (2026)",
-  description:
-    "Independent rankings of French cities across 13 themes (remote work, families, retirees, climate, etc.). Calibrated on official data — Insee, SSMSI, observatoires des loyers.",
+  title: `French city rankings · ${RANKINGS_COUNT} themed leaderboards`,
+  description: `Independent rankings of French cities across ${RANKINGS_COUNT} themes (remote work, families, retirees, climate, cycling, seaside living…). Calibrated on official data — Insee, SSMSI, observatoires des loyers.`,
   alternates: { canonical: `${EN_BASE}/rankings` },
 };
 
@@ -54,7 +36,7 @@ export default function EnRankingsIndex() {
       <section className="mx-auto max-w-6xl px-4 sm:px-6 py-6">
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {all.map((r) => {
-            const en = RANKING_EN_LABELS[r.slug] ?? { label: r.label, tagline: "" };
+            const en = rankingEn(r.slug, r);
             return (
               <li key={r.slug}>
                 <Link

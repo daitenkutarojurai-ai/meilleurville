@@ -1,0 +1,3117 @@
+{
+  "//": "Généré par scripts/build-search-index.mjs — ne pas éditer à la main (npm run search-index).",
+  "guides": [
+    {
+      "slug": "moving-to-france-where-to-live-2026",
+      "title": "Moving to France: how to actually choose where to live",
+      "emoji": "🧭"
+    },
+    {
+      "slug": "cost-of-living-france-by-city-2026",
+      "title": "Cost of living in France, city by city",
+      "emoji": "💶"
+    },
+    {
+      "slug": "leaving-paris-where-to-go-2026",
+      "title": "Leaving Paris: where Parisians actually move",
+      "emoji": "🚄"
+    },
+    {
+      "slug": "retiring-in-france-best-cities-2026",
+      "title": "Retiring in France: choosing the right city",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "renting-an-apartment-in-france-2026",
+      "title": "Renting an apartment in France: the dossier, the deposit, the catches",
+      "emoji": "🔑"
+    },
+    {
+      "slug": "warmest-sunniest-cities-france-2026",
+      "title": "The warmest and sunniest cities in France",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "best-french-cities-for-students-2026",
+      "title": "The best French cities for students",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "best-coastal-cities-france-2026",
+      "title": "Living by the sea: the best coastal cities in France",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "buying-property-in-france-honest-guide-2026",
+      "title": "Buying property in France: an honest guide for 2026",
+      "emoji": "🏡"
+    },
+    {
+      "slug": "best-french-cities-for-expats-2026",
+      "title": "The best French cities for expats in 2026",
+      "emoji": "🌍"
+    },
+    {
+      "slug": "mid-size-french-cities-underrated-2026",
+      "title": "France's most underrated mid-size cities in 2026",
+      "emoji": "🔭"
+    },
+    {
+      "slug": "french-countryside-living-honest-guide-2026",
+      "title": "Living in the French countryside — what nobody tells you",
+      "emoji": "🌾"
+    },
+    {
+      "slug": "safest-french-cities-2026",
+      "title": "The safest French cities in 2026 — honest data, not vibes",
+      "emoji": "🛡️"
+    },
+    {
+      "slug": "cycling-french-cities-2026",
+      "title": "The best French cities for cyclists in 2026",
+      "emoji": "🚴"
+    },
+    {
+      "slug": "french-cities-tech-jobs-2026",
+      "title": "Best French cities for tech workers in 2026",
+      "emoji": "💻"
+    },
+    {
+      "slug": "france-for-digital-nomads-2026",
+      "title": "France for digital nomads: the honest guide 2026",
+      "emoji": "🌍"
+    },
+    {
+      "slug": "leaving-paris-best-french-cities-2026",
+      "title": "Leaving Paris: where to actually go in France",
+      "emoji": "🚆"
+    },
+    {
+      "slug": "france-without-a-car-best-cities-2026",
+      "title": "Living in France without a car: which cities actually work",
+      "emoji": "🚊"
+    },
+    {
+      "slug": "french-riviera-cote-dazur-living-2026",
+      "title": "Living on the French Riviera: beyond the clichés",
+      "emoji": "🌴"
+    },
+    {
+      "slug": "best-french-cities-american-expats-2026",
+      "title": "Best French cities for American expats (2026)",
+      "emoji": "🇺🇸"
+    },
+    {
+      "slug": "south-of-france-cost-of-living-2026",
+      "title": "Cost of living in the South of France — honest numbers",
+      "emoji": "💶"
+    },
+    {
+      "slug": "learning-french-which-city-2026",
+      "title": "Which French city is best for learning French?",
+      "emoji": "🗣️"
+    },
+    {
+      "slug": "best-french-cities-hiking-outdoor-2026",
+      "title": "Best French cities for hiking and outdoor living",
+      "emoji": "🥾"
+    },
+    {
+      "slug": "moving-to-france-from-uk-2026",
+      "title": "Moving to France from the UK: what changed after Brexit",
+      "emoji": "🇫🇷"
+    },
+    {
+      "slug": "brittany-living-guide-2026",
+      "title": "Living in Brittany: the honest guide",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "provence-alps-living-guide-2026",
+      "title": "Living in Provence and the Côte d'Azur: what the brochures don't say",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "lyon-living-guide-2026",
+      "title": "Living in Lyon: France's second city done right",
+      "emoji": "🦁"
+    },
+    {
+      "slug": "france-education-system-families-2026",
+      "title": "France's education system: what families need to know",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "france-property-market-buyers-guide-2026",
+      "title": "Buying property in France in 2026: the honest buyer's guide",
+      "emoji": "🏡"
+    },
+    {
+      "slug": "france-cost-of-living-vs-salary-2026",
+      "title": "France: what salary do you actually need to live well?",
+      "emoji": "💶"
+    },
+    {
+      "slug": "bordeaux-living-guide-2026",
+      "title": "Living in Bordeaux: the honest guide",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "france-digital-nomad-visa-guide-2026",
+      "title": "Working remotely from France: visa options, taxes and the practical truth",
+      "emoji": "🌍"
+    },
+    {
+      "slug": "toulouse-living-guide-2026",
+      "title": "Living in Toulouse: the honest picture",
+      "emoji": "🛫"
+    },
+    {
+      "slug": "nantes-living-guide-2026",
+      "title": "Living in Nantes: what the rankings don't tell you",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "montpellier-living-guide-2026",
+      "title": "Living in Montpellier: sun, students and a stretched housing market",
+      "emoji": "🌞"
+    },
+    {
+      "slug": "nice-living-guide-2026",
+      "title": "Living in Nice: the Côte d'Azur without the illusions",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "alsace-strasbourg-living-guide-2026",
+      "title": "Living in Alsace and Strasbourg: Europe's most underrated region",
+      "emoji": "🇪🇺"
+    },
+    {
+      "slug": "leaving-london-moving-to-france-2026",
+      "title": "Leaving London for France: the decisions that actually matter",
+      "emoji": "🚂"
+    },
+    {
+      "slug": "moving-from-usa-to-france-2026",
+      "title": "Moving from the US to France: the decisions that surprise Americans",
+      "emoji": "🗽"
+    },
+    {
+      "slug": "paris-suburbs-affordable-living-2026",
+      "title": "The Paris suburbs that are worth it: what nobody moving to 'near Paris' checks",
+      "emoji": "🚇"
+    },
+    {
+      "slug": "grenoble-living-guide-2026",
+      "title": "Living in Grenoble: France's science city between two mountain ranges",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "marseille-living-guide-2026",
+      "title": "Living in Marseille: the city that doesn't apologise for itself",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "rennes-living-guide-2026",
+      "title": "Living in Rennes: the Breton capital that gets everything right for a certain type of person",
+      "emoji": "🏴󠁧󠁢󠁷󠁬󠁳󠁿"
+    },
+    {
+      "slug": "annecy-living-guide-2026",
+      "title": "Living in Annecy: the price of paradise",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "retiring-south-of-france-guide-2026",
+      "title": "Retiring in the south of France: a realistic plan",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "french-social-security-expats-guide-2026",
+      "title": "French social security for newcomers: what you're actually entitled to",
+      "emoji": "🏥"
+    },
+    {
+      "slug": "normandy-living-guide-2026",
+      "title": "Living in Normandy: the honest case for France's most underestimated region",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "leaving-lyon-where-to-go-2026",
+      "title": "Leaving Lyon: where people actually go, and why",
+      "emoji": "🦁"
+    },
+    {
+      "slug": "loire-valley-living-guide-2026",
+      "title": "Living in the Loire Valley: France's garden, its châteaux, and its housing market",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "dijon-living-guide-2026",
+      "title": "Living in Dijon: France's most underrated gastronomic capital",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "opening-bank-account-france-expats-2026",
+      "title": "Opening a bank account in France as a foreigner: what actually works",
+      "emoji": "🏦"
+    },
+    {
+      "slug": "reims-living-guide-2026",
+      "title": "Living in Reims: champagne, cathedrals and 45 minutes from Paris",
+      "emoji": "🥂"
+    },
+    {
+      "slug": "basque-country-living-guide-2026",
+      "title": "Living in the French Basque Country: what makes it different, and what it costs",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "france-for-australian-expats-2026",
+      "title": "Moving to France from Australia: the practical questions answered",
+      "emoji": "🦘"
+    },
+    {
+      "slug": "french-schools-system-guide-2026",
+      "title": "The French school system: what every expat parent needs to know",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "strasbourg-living-guide-2026",
+      "title": "Living in Strasbourg: Europe's crossroads city",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "la-rochelle-living-guide-2026",
+      "title": "Living in La Rochelle: the Atlantic city that gets almost everything right",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "brest-living-guide-2026",
+      "title": "Living in Brest: France's western outpost, honestly assessed",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "leaving-bordeaux-where-to-go-2026",
+      "title": "Leaving Bordeaux: where to go and why",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "france-vs-portugal-where-to-live-2026",
+      "title": "France vs Portugal: an honest comparison for expats deciding between the two",
+      "emoji": "🌍"
+    },
+    {
+      "slug": "best-french-mountain-towns-live-work-2026",
+      "title": "The best French mountain towns to live and work in 2026",
+      "emoji": "⛰️"
+    },
+    {
+      "slug": "france-work-permit-guide-2026",
+      "title": "Working in France: visa and work permit options for non-EU nationals",
+      "emoji": "📋"
+    },
+    {
+      "slug": "nantes-living-and-working-guide-2026",
+      "title": "Living in Nantes: France's most liveable large city, examined",
+      "emoji": "🚀"
+    },
+    {
+      "slug": "leaving-toulouse-where-to-go-2026",
+      "title": "Leaving Toulouse: where to go and what you give up",
+      "emoji": "🌹"
+    },
+    {
+      "slug": "lille-living-guide-2026",
+      "title": "Living in Lille: the northern city that surprises",
+      "emoji": "🏗️"
+    },
+    {
+      "slug": "leaving-nice-where-to-go-2026",
+      "title": "Leaving Nice: where to go when the Côte d'Azur becomes unaffordable",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "france-for-german-expats-2026",
+      "title": "Moving to France from Germany: what's different, what's better, what's harder",
+      "emoji": "🇩🇪"
+    },
+    {
+      "slug": "perpignan-mediterranean-coast-living-2026",
+      "title": "Perpignan and the Roussillon coast: France's cheapest Mediterranean option",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "leaving-nantes-where-to-go-2026",
+      "title": "Leaving Nantes: where to go when the Atlantic west becomes too expensive",
+      "emoji": "🐘"
+    },
+    {
+      "slug": "leaving-rennes-where-to-go-2026",
+      "title": "Leaving Rennes: why people leave and where they go",
+      "emoji": "🦊"
+    },
+    {
+      "slug": "french-income-tax-expats-2026",
+      "title": "French income tax for expats: what you actually need to know",
+      "emoji": "🧾"
+    },
+    {
+      "slug": "france-for-irish-expats-2026",
+      "title": "Moving to France from Ireland: the practical guide",
+      "emoji": "🍀"
+    },
+    {
+      "slug": "metz-nancy-living-guide-2026",
+      "title": "Metz and Nancy: the Grand Est's twin cities compared",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "leaving-montpellier-where-to-go-2026",
+      "title": "Leaving Montpellier: where to go when the fastest-growing French city starts to strain",
+      "emoji": "🦩"
+    },
+    {
+      "slug": "moving-to-france-from-canada-2026",
+      "title": "Moving to France from Canada: the practical guide for Canadians",
+      "emoji": "🍁"
+    },
+    {
+      "slug": "best-french-cities-single-professionals-2026",
+      "title": "The best French cities for single professionals in 2026",
+      "emoji": "🎯"
+    },
+    {
+      "slug": "france-netherlands-expat-comparison-2026",
+      "title": "France vs the Netherlands for expats: which country actually works better?",
+      "emoji": "🌷"
+    },
+    {
+      "slug": "french-countryside-living-guide-2026",
+      "title": "Living in the French countryside: what city-leavers actually discover",
+      "emoji": "🌾"
+    },
+    {
+      "slug": "france-vs-spain-where-to-live-2026",
+      "title": "France vs Spain: the honest comparison for people choosing between the two",
+      "emoji": "🌞"
+    },
+    {
+      "slug": "aix-en-provence-living-guide-2026",
+      "title": "Living in Aix-en-Provence: beautiful, expensive, and worth examining carefully",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "le-havre-caen-normandy-coast-living-2026",
+      "title": "Le Havre and Caen: Normandy's coastal cities for people who value value",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "french-wine-regions-where-to-live-2026",
+      "title": "Living in France's wine regions: which one actually suits you?",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "tours-loire-valley-living-guide-2026",
+      "title": "Living in Tours: a quiet case for the Loire Valley's most liveable city",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "clermont-ferrand-living-guide-2026",
+      "title": "Living in Clermont-Ferrand: Michelin's city and the Massif Central gateway",
+      "emoji": "🌋"
+    },
+    {
+      "slug": "navigating-french-bureaucracy-2026",
+      "title": "Navigating French bureaucracy: a guide that actually helps",
+      "emoji": "📄"
+    },
+    {
+      "slug": "avignon-provence-living-guide-2026",
+      "title": "Living in Avignon: medieval walls, theatre, and the Southern Rhône",
+      "emoji": "🌉"
+    },
+    {
+      "slug": "buying-property-france-step-by-step-2026",
+      "title": "Buying property in France: the complete step-by-step process",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "angers-living-guide-2026",
+      "title": "Living in Angers: the Loire city that keeps outperforming expectations",
+      "emoji": "🍎"
+    },
+    {
+      "slug": "moving-to-france-complete-checklist-2026",
+      "title": "Moving to France: the complete checklist for the first 90 days",
+      "emoji": "✅"
+    },
+    {
+      "slug": "pau-basque-foothills-living-guide-2026",
+      "title": "Living in Pau: the Pyrenees at your doorstep, Paris in your pocket",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "best-french-cities-artists-creatives-2026",
+      "title": "The best French cities for artists and creatives in 2026",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "france-electricity-housing-costs-2026",
+      "title": "France utility and housing costs: what you'll actually pay each month",
+      "emoji": "💡"
+    },
+    {
+      "slug": "dijon-relocation-guide-2026",
+      "title": "Living in Dijon: Burgundy's underrated capital that quietly ticks every box",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "leaving-lyon-best-alternatives-2026",
+      "title": "Leaving Lyon: where to go when France's second city stops fitting your life",
+      "emoji": "🚀"
+    },
+    {
+      "slug": "france-healthcare-guide-expats-2026",
+      "title": "French healthcare for expats: how the system works and how to use it",
+      "emoji": "🏥"
+    },
+    {
+      "slug": "grenoble-relocation-guide-2026",
+      "title": "Living in Grenoble: the tech city with mountains at the door — an honest assessment",
+      "emoji": "⛷️"
+    },
+    {
+      "slug": "french-school-system-expat-guide-2026",
+      "title": "The French school system: what expat families need to know before enrolling",
+      "emoji": "📚"
+    },
+    {
+      "slug": "best-french-cities-seniors-retirees-2026",
+      "title": "Best French cities for seniors and retirees: where to live well on a fixed income",
+      "emoji": "🌞"
+    },
+    {
+      "slug": "france-banking-guide-expats-2026",
+      "title": "Banking in France as an expat: how to open an account without losing your mind",
+      "emoji": "🏦"
+    },
+    {
+      "slug": "montpellier-relocation-guide-2026",
+      "title": "Living in Montpellier: 300,000 sun hours and the housing market that goes with it",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "france-property-tax-guide-expats-2026",
+      "title": "Property tax in France: what you'll actually pay as a homeowner or landlord",
+      "emoji": "💶"
+    },
+    {
+      "slug": "france-for-scandinavian-expats-2026",
+      "title": "France for Scandinavian expats: the real adjustments — and why most don't regret it",
+      "emoji": "🇫🇷"
+    },
+    {
+      "slug": "best-french-cities-outdoor-sports-2026",
+      "title": "Best French cities for outdoor sports: where to live when the weekend matters as much as the job",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "cost-of-living-france-paris-vs-province-2026",
+      "title": "Cost of living in France: Paris vs. 10 provincial cities — the real numbers",
+      "emoji": "💸"
+    },
+    {
+      "slug": "france-driving-licence-guide-expats-2026",
+      "title": "Your driving licence in France: what expats actually need to know",
+      "emoji": "🚗"
+    },
+    {
+      "slug": "caen-living-guide-2026",
+      "title": "Living in Caen: Normandy's pragmatic capital — honest expat guide",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "toulouse-vs-bordeaux-which-city-2026",
+      "title": "Toulouse vs Bordeaux: two southern capitals, two very different lives",
+      "emoji": "⚖️"
+    },
+    {
+      "slug": "france-rental-market-expats-guide-2026",
+      "title": "Renting in France: what expats need to know before signing",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "best-french-cities-remote-workers-2026",
+      "title": "The best French cities for remote workers in 2026",
+      "emoji": "💻"
+    },
+    {
+      "slug": "france-visa-for-remote-workers-2026",
+      "title": "Working remotely from France: which visa, which status, what it costs",
+      "emoji": "🛂"
+    },
+    {
+      "slug": "nice-living-guide-for-expats-2026",
+      "title": "Living in Nice: the honest guide for expats in 2026",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "bordeaux-living-guide-for-expats-2026",
+      "title": "Living in Bordeaux: the honest expat guide for 2026",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "lille-living-guide-for-expats-2026",
+      "title": "Living in Lille: the honest expat guide for 2026",
+      "emoji": "🧇"
+    },
+    {
+      "slug": "leaving-paris-best-cities-2026",
+      "title": "Leaving Paris in 2026: where people actually go (and why)",
+      "emoji": "🗼"
+    },
+    {
+      "slug": "montpellier-living-guide-for-expats-2026",
+      "title": "Living in Montpellier: the honest expat guide for 2026",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "best-french-cities-for-families-2026",
+      "title": "Best French cities for families in 2026: the honest ranking",
+      "emoji": "👨‍👩‍👧"
+    },
+    {
+      "slug": "grenoble-living-guide-for-expats-2026",
+      "title": "Living in Grenoble: the honest expat guide for 2026",
+      "emoji": "⛰️"
+    },
+    {
+      "slug": "clermont-ferrand-living-guide-for-expats-2026",
+      "title": "Living in Clermont-Ferrand: the honest expat guide for 2026",
+      "emoji": "🌋"
+    },
+    {
+      "slug": "strasbourg-living-guide-for-expats-2026",
+      "title": "Living in Strasbourg as an Expat: The Honest Guide (2026)",
+      "emoji": "🇪🇺"
+    },
+    {
+      "slug": "rennes-living-guide-for-expats-2026",
+      "title": "Living in Rennes as an Expat: The Honest Guide (2026)",
+      "emoji": "🦁"
+    },
+    {
+      "slug": "nantes-living-guide-for-expats-2026",
+      "title": "Living in Nantes as an Expat: The Honest Guide (2026)",
+      "emoji": "🐘"
+    },
+    {
+      "slug": "french-education-system-guide-for-expat-parents-2026",
+      "title": "The French Education System: What Expat Parents Need to Know (2026)",
+      "emoji": "🎒"
+    },
+    {
+      "slug": "driving-in-france-expat-guide-2026",
+      "title": "Driving in France as an Expat: Licence Exchange, Rules & What's Changed (2026)",
+      "emoji": "🚗"
+    },
+    {
+      "slug": "toulouse-living-guide-for-expats-2026",
+      "title": "Living in Toulouse as an Expat: The Honest Guide (2026)",
+      "emoji": "🚀"
+    },
+    {
+      "slug": "lyon-living-guide-for-expats-2026",
+      "title": "Living in Lyon as an Expat: The Honest Guide (2026)",
+      "emoji": "🦁"
+    },
+    {
+      "slug": "marseille-living-guide-for-expats-2026",
+      "title": "Living in Marseille as an Expat: The Honest Guide (2026)",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "france-renting-apartment-guide-expats-2026",
+      "title": "Renting a Flat in France as an Expat: The Complete Guide (2026)",
+      "emoji": "🔑"
+    },
+    {
+      "slug": "bordeaux-living-guide-for-expats-deep-dive-2026",
+      "title": "Living in Bordeaux as an Expat in 2026: What Nobody Tells You",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "moving-pets-to-france-complete-guide-2026",
+      "title": "Moving Your Pet to France: The Complete 2026 Guide",
+      "emoji": "🐾"
+    },
+    {
+      "slug": "childcare-france-expat-parents-guide-2026",
+      "title": "Childcare in France for Expat Parents: Nursery to Maternelle (2026)",
+      "emoji": "👶"
+    },
+    {
+      "slug": "france-climate-change-outlook-expats-2026",
+      "title": "France in 2040: A Climate-Informed Relocation Guide (2026)",
+      "emoji": "🌡️"
+    },
+    {
+      "slug": "auto-entrepreneur-france-expat-guide-2026",
+      "title": "Becoming an Auto-Entrepreneur in France as an Expat (2026)",
+      "emoji": "💼"
+    },
+    {
+      "slug": "france-utilities-internet-mobile-setup-expat-2026",
+      "title": "Setting Up Utilities, Internet and Mobile in France as an Expat (2026)",
+      "emoji": "⚡"
+    },
+    {
+      "slug": "pregnancy-giving-birth-france-expat-guide-2026",
+      "title": "Pregnancy and Giving Birth in France as an Expat (2026)",
+      "emoji": "🤰"
+    },
+    {
+      "slug": "french-citizenship-naturalisation-expat-guide-2026",
+      "title": "Becoming French: Citizenship and Naturalisation for Expats (2026)",
+      "emoji": "🇫🇷"
+    },
+    {
+      "slug": "pacs-marriage-france-expat-guide-2026",
+      "title": "PACS vs Marriage in France: An Expat's Guide (2026)",
+      "emoji": "💍"
+    },
+    {
+      "slug": "shipping-belongings-to-france-expat-guide-2026",
+      "title": "Shipping Your Belongings to France: The 2026 Expat Guide",
+      "emoji": "📦"
+    },
+    {
+      "slug": "le-mans-living-guide-expats-2026",
+      "title": "Living in Le Mans as an Expat: A Loire-Sarthe Guide (2026)",
+      "emoji": "🏎️"
+    },
+    {
+      "slug": "saint-etienne-living-guide-expats-2026",
+      "title": "Living in Saint-Étienne as an Expat: The Underdog Guide (2026)",
+      "emoji": "⚙️"
+    },
+    {
+      "slug": "france-lgbtq-expat-guide-2026",
+      "title": "France for LGBTQ+ Expats: The 2026 Guide",
+      "emoji": "🏳️‍🌈"
+    },
+    {
+      "slug": "limoges-living-guide-expats-2026",
+      "title": "Living in Limoges as an Expat: The Forgotten Bargain (2026)",
+      "emoji": "🏺"
+    },
+    {
+      "slug": "tours-vs-orleans-loire-comparison-expats-2026",
+      "title": "Tours vs Orléans: Which Loire Valley City for Expats? (2026)",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "france-winter-ski-expat-guide-2026",
+      "title": "France for Winter & Ski Lovers: The Expat Settler's Guide (2026)",
+      "emoji": "⛷️"
+    },
+    {
+      "slug": "biarritz-basque-coast-expat-guide-2026",
+      "title": "Living in Biarritz & the Basque Coast as an Expat (2026)",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "mortgage-france-foreigner-expat-guide-2026",
+      "title": "Getting a Mortgage in France as a Foreigner (2026)",
+      "emoji": "🏦"
+    },
+    {
+      "slug": "bringing-car-to-france-immatriculation-expat-guide-2026",
+      "title": "Bringing Your Car to France: Import & Registration Guide (2026)",
+      "emoji": "🚗"
+    },
+    {
+      "slug": "dental-vision-care-france-expat-guide-2026",
+      "title": "Dental and Vision Care in France for Expats (2026)",
+      "emoji": "🦷"
+    },
+    {
+      "slug": "france-cross-border-workers-expat-guide-2026",
+      "title": "France for Cross-Border Workers: Switzerland, Germany, Luxembourg, Belgium (2026)",
+      "emoji": "🌍"
+    },
+    {
+      "slug": "aix-en-provence-vs-marseille-expat-comparison-2026",
+      "title": "Aix-en-Provence vs Marseille: Which for Expats? (2026)",
+      "emoji": "🌞"
+    },
+    {
+      "slug": "working-from-france-foreign-employer-expat-guide-2026",
+      "title": "Working from France for a Foreign Employer: Your Options (2026)",
+      "emoji": "💻"
+    },
+    {
+      "slug": "lille-north-france-expat-guide-2026",
+      "title": "Living in Lille and the North as an Expat (2026)",
+      "emoji": "🍺"
+    },
+    {
+      "slug": "studying-in-france-non-eu-students-guide-2026",
+      "title": "Studying in France as a Non-EU Student: The 2026 Guide",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "leaving-marseille-where-to-go-expat-2026",
+      "title": "Leaving Marseille: Where to Go (2026)",
+      "emoji": "🧭"
+    },
+    {
+      "slug": "perpignan-roussillon-mediterranean-expat-guide-2026",
+      "title": "Living in Perpignan and the Roussillon as an Expat (2026)",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "buying-rural-property-france-expat-guide-2026",
+      "title": "Buying Rural Property in France as an Expat (2026)",
+      "emoji": "🏚️"
+    },
+    {
+      "slug": "leaving-lyon-expat-where-to-move-2026",
+      "title": "Leaving Lyon: Where to Move (2026)",
+      "emoji": "🧭"
+    },
+    {
+      "slug": "annecy-deep-dive-expat-guide-2026",
+      "title": "Living in Annecy as an Expat: The Lake-and-Alps Deep Dive (2026)",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "buying-property-france-step-by-step-expat-guide-2026",
+      "title": "Buying Property in France: The Step-by-Step Expat Guide (2026)",
+      "emoji": "🔑"
+    },
+    {
+      "slug": "france-with-disabled-chronic-illness-expat-guide-2026",
+      "title": "France with a Disability or Chronic Illness: An Expat Guide (2026)",
+      "emoji": "♿"
+    },
+    {
+      "slug": "navigating-cpam-doctolib-france-healthcare-expat-2026",
+      "title": "Navigating CPAM, Doctolib and Finding a Doctor in France (2026)",
+      "emoji": "🏥"
+    },
+    {
+      "slug": "france-pension-retirement-system-expat-guide-2026",
+      "title": "The French Pension and Retirement System for Expats (2026)",
+      "emoji": "👴"
+    },
+    {
+      "slug": "buying-holiday-home-france-expat-guide-2026",
+      "title": "Buying a Holiday Home (Résidence Secondaire) in France (2026)",
+      "emoji": "🏖️"
+    },
+    {
+      "slug": "leaving-toulouse-where-to-move-expat-2026",
+      "title": "Leaving Toulouse: Where to Move (2026)",
+      "emoji": "🧭"
+    },
+    {
+      "slug": "france-vs-germany-expat-comparison-2026",
+      "title": "France vs Germany: Where Should an Expat Move? (2026)",
+      "emoji": "🇫🇷"
+    },
+    {
+      "slug": "leaving-bordeaux-where-to-move-expat-2026",
+      "title": "Leaving Bordeaux: Where to Move (2026)",
+      "emoji": "🧭"
+    },
+    {
+      "slug": "reims-champagne-living-expat-guide-2026",
+      "title": "Living in Reims and the Champagne Region as an Expat (2026)",
+      "emoji": "🥂"
+    },
+    {
+      "slug": "americans-retiring-in-france-deep-guide-2026",
+      "title": "Americans Retiring in France: The Deep 2026 Guide",
+      "emoji": "🦅"
+    },
+    {
+      "slug": "vannes-morbihan-coast-living-expat-2026",
+      "title": "Living in Vannes and the Morbihan Coast as an Expat (2026)",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "british-retiring-in-france-post-brexit-2026",
+      "title": "British Retiring in France Post-Brexit: The 2026 Guide",
+      "emoji": "🇬🇧"
+    },
+    {
+      "slug": "caen-vs-rouen-normandy-expat-comparison-2026",
+      "title": "Caen vs Rouen: Which Normandy City for Expats? (2026)",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "france-tech-entrepreneurs-startup-expat-guide-2026",
+      "title": "France for Tech Entrepreneurs and Startup Founders (2026)",
+      "emoji": "🚀"
+    },
+    {
+      "slug": "leaving-nice-cote-azur-where-to-move-2026",
+      "title": "Leaving Nice and the Côte d'Azur: Where to Move (2026)",
+      "emoji": "🧭"
+    },
+    {
+      "slug": "french-inheritance-succession-law-expat-guide-2026",
+      "title": "French Inheritance and Succession Law for Expats (2026)",
+      "emoji": "⚖️"
+    },
+    {
+      "slug": "insurance-france-expat-guide-mutuelle-home-car-2026",
+      "title": "Insurance in France for Expats: Mutuelle, Home, Car (2026)",
+      "emoji": "🛡️"
+    },
+    {
+      "slug": "living-in-corsica-expat-guide-2026",
+      "title": "Living in Corsica as an Expat: The Honest 2026 Guide",
+      "emoji": "🏝️"
+    },
+    {
+      "slug": "paris-arrondissements-expat-guide-2026",
+      "title": "Paris Arrondissements: An Expat Guide to Picking Your District (2026)",
+      "emoji": "🗼"
+    },
+    {
+      "slug": "marseille-vs-lyon-which-city-expat-2026",
+      "title": "Marseille vs Lyon: Which French City for Expats? (2026)",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "renovating-old-french-house-expat-guide-2026",
+      "title": "Renovating an Old French House as an Expat: The Honest 2026 Guide",
+      "emoji": "🔨"
+    },
+    {
+      "slug": "french-notaire-system-expat-guide-2026",
+      "title": "Working with a French Notaire: An Expat Guide (2026)",
+      "emoji": "📜"
+    },
+    {
+      "slug": "best-french-cities-foodies-expat-2026",
+      "title": "Best French Cities for Foodies: An Expat Guide (2026)",
+      "emoji": "🍽️"
+    },
+    {
+      "slug": "living-near-paris-ile-de-france-expat-guide-2026",
+      "title": "Living Near Paris: The Île-de-France Expat Guide (2026)",
+      "emoji": "🏘️"
+    },
+    {
+      "slug": "solo-female-expats-france-guide-2026",
+      "title": "Solo Female Expats in France: An Honest Guide (2026)",
+      "emoji": "🚺"
+    },
+    {
+      "slug": "france-vs-italy-where-to-live-expat-2026",
+      "title": "France vs Italy: Where Should an Expat Live? (2026)",
+      "emoji": "🇫🇷"
+    },
+    {
+      "slug": "best-french-cities-mountain-lovers-expat-2026",
+      "title": "Best French Cities for Mountain Lovers: An Expat Guide (2026)",
+      "emoji": "⛰️"
+    },
+    {
+      "slug": "france-vs-uk-expat-comparison-2026",
+      "title": "France vs the UK: An Expat Comparison (2026)",
+      "emoji": "🇬🇧"
+    },
+    {
+      "slug": "best-french-cities-cycling-bike-friendly-2026",
+      "title": "Best French Cities for Cyclists: A Bike-Friendly Guide (2026)",
+      "emoji": "🚴"
+    },
+    {
+      "slug": "dordogne-perigord-living-guide-expats-2026",
+      "title": "Living in the Dordogne and Périgord: the honest expat guide (2026)",
+      "emoji": "🏡"
+    },
+    {
+      "slug": "french-alps-annecy-chambery-living-guide-2026",
+      "title": "Living in the French Alps: Annecy, Chambéry and the mountain lifestyle (2026)",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "occitanie-rural-lot-aveyron-tarn-expat-guide-2026",
+      "title": "Rural Occitanie: living in the Lot, Aveyron and Tarn as an expat (2026)",
+      "emoji": "🌾"
+    },
+    {
+      "slug": "bordeaux-wine-country-medoc-saint-emilion-living-2026",
+      "title": "Living in Bordeaux wine country: the Médoc, Saint-Émilion and surrounds (2026)",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "normandy-coast-versus-brittany-coast-expat-2026",
+      "title": "Normandy coast vs Brittany coast: which is right for you? (2026 expat guide)",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "french-cities-for-food-lovers-expat-guide-2026",
+      "title": "The best French cities for food lovers: an expat's guide (2026)",
+      "emoji": "🧀"
+    },
+    {
+      "slug": "living-in-toulon-var-coast-expat-guide-2026",
+      "title": "Living in Toulon and the Var Coast as an Expat (2026)",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "living-in-saint-malo-brittany-expat-guide-2026",
+      "title": "Living in Saint-Malo and North Brittany as an Expat (2026)",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "living-in-valence-drome-expat-guide-2026",
+      "title": "Living in Valence and the Drôme: the Affordable Provence Gateway (2026)",
+      "emoji": "🌻"
+    },
+    {
+      "slug": "living-in-bayonne-pays-basque-expat-guide-2026",
+      "title": "Living in Bayonne: the Basque Capital That Nobody Overhypes (2026)",
+      "emoji": "🦅"
+    },
+    {
+      "slug": "living-in-arles-camargue-expat-guide-2026",
+      "title": "Living in Arles and the Camargue: Van Gogh's City at Affordable Provence Prices (2026)",
+      "emoji": "🌾"
+    },
+    {
+      "slug": "living-in-colmar-alsace-expat-guide-2026",
+      "title": "Living in Colmar: Alsace's Most Beautiful City Without the Strasbourg Premium (2026)",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "rouen-living-guide-expats-2026",
+      "title": "Living in Rouen: the expat guide 2026",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "orleans-living-guide-expats-2026",
+      "title": "Living in Orléans: the expat guide 2026",
+      "emoji": "⚔️"
+    },
+    {
+      "slug": "besancon-living-guide-expats-2026",
+      "title": "Living in Besançon: the expat's complete guide 2026",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "france-buy-to-let-investment-guide-2026",
+      "title": "Buy-to-let in France: the honest investor's guide 2026",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "atlantic-coast-france-best-cities-expats-2026",
+      "title": "Living on the Atlantic coast of France: expat guide 2026",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "sunshine-cities-france-beat-winter-blues-expats-2026",
+      "title": "France's sunniest cities: beating the winter blues as an expat",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "leaving-aix-en-provence-where-to-go-2026",
+      "title": "Leaving Aix-en-Provence: where to go when Provence gets too expensive",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "leaving-strasbourg-where-to-go-expat-2026",
+      "title": "Leaving Strasbourg: where to go when Alsace feels small",
+      "emoji": "🥨"
+    },
+    {
+      "slug": "leaving-grenoble-where-to-go-2026",
+      "title": "Leaving Grenoble: the honest guide to alternatives in 2026",
+      "emoji": "⛷️"
+    },
+    {
+      "slug": "leaving-annecy-where-to-go-expat-2026",
+      "title": "Leaving Annecy: when the most beautiful French city gets too expensive",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "leaving-biarritz-where-to-go-2026",
+      "title": "Leaving Biarritz: where to go when the Basque coast gets unaffordable",
+      "emoji": "🏄"
+    },
+    {
+      "slug": "leaving-lille-where-to-go-expat-2026",
+      "title": "Leaving Lille: where to go when northern France isn't enough",
+      "emoji": "🍺"
+    },
+    {
+      "slug": "nice-vs-marseille-expat-comparison-2026",
+      "title": "Nice vs Marseille: which city for expats in 2026?",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "lyon-vs-bordeaux-expat-comparison-2026",
+      "title": "Lyon vs Bordeaux for expats: which French city in 2026?",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "rennes-vs-nantes-expat-comparison-2026",
+      "title": "Rennes vs Nantes: which Atlantic France city for expats?",
+      "emoji": "🦁"
+    },
+    {
+      "slug": "montpellier-vs-toulouse-expat-comparison-2026",
+      "title": "Montpellier vs Toulouse: Occitania for expats in 2026",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "nantes-vs-bordeaux-expat-comparison-2026",
+      "title": "Nantes vs Bordeaux: which Atlantic city for expats in 2026?",
+      "emoji": "🍇"
+    },
+    {
+      "slug": "strasbourg-vs-colmar-alsace-expat-2026",
+      "title": "Strasbourg vs Colmar: which Alsace city for expats?",
+      "emoji": "🥨"
+    },
+    {
+      "slug": "toulouse-for-expats-complete-guide-2026",
+      "title": "Moving to Toulouse: the complete expat guide (2026)",
+      "emoji": "✈️"
+    },
+    {
+      "slug": "bordeaux-for-expats-complete-guide-2026",
+      "title": "Moving to Bordeaux: the complete expat guide (2026)",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "retiring-to-france-best-cities-2026",
+      "title": "Retiring to France in 2026: which cities actually work for expat retirees?",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "nice-vs-marseille-expat-guide-2026",
+      "title": "Nice vs Marseille: which Mediterranean city for expats in 2026?",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "french-alps-cities-expats-annecy-grenoble-chambery-2026",
+      "title": "French Alps cities for expats: Annecy, Grenoble, or Chambéry?",
+      "emoji": "⛰️"
+    },
+    {
+      "slug": "lyon-for-expats-complete-guide-2026",
+      "title": "Moving to Lyon: the complete expat guide (2026)",
+      "emoji": "🥩"
+    },
+    {
+      "slug": "french-bureaucracy-guide-expats-2026",
+      "title": "French bureaucracy for expats: what you actually need to know (2026)",
+      "emoji": "📋"
+    },
+    {
+      "slug": "france-vs-spain-vs-portugal-expat-comparison-2026",
+      "title": "France vs Spain vs Portugal: which country for expats in 2026?",
+      "emoji": "🌍"
+    },
+    {
+      "slug": "cost-of-living-france-monthly-budget-2026",
+      "title": "Real cost of living in France: monthly budget breakdown (2026)",
+      "emoji": "💶"
+    },
+    {
+      "slug": "marseille-for-expats-honest-guide-2026",
+      "title": "Moving to Marseille: an honest expat guide (2026)",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "rennes-for-expats-guide-2026",
+      "title": "Moving to Rennes: the expat guide (2026)",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "buying-vs-renting-france-expats-2026",
+      "title": "Buying vs renting in France as an expat: what actually makes sense (2026)",
+      "emoji": "🏡"
+    },
+    {
+      "slug": "normandy-for-expats-coast-history-life-2026",
+      "title": "Normandy for expats: coast, history, and the real cost of living (2026)",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "pet-friendly-cities-france-expats-2026",
+      "title": "Pet-friendly cities in France for expats: where your dog or cat actually fits in (2026)",
+      "emoji": "🐾"
+    },
+    {
+      "slug": "france-for-remote-workers-complete-guide-2026",
+      "title": "France for remote workers: the complete guide (2026)",
+      "emoji": "💻"
+    },
+    {
+      "slug": "nantes-for-expats-guide-2026",
+      "title": "Moving to Nantes: the expat guide (2026)",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "learning-french-expats-practical-guide-2026",
+      "title": "Learning French as an expat: the practical guide that actually helps (2026)",
+      "emoji": "🗣️"
+    },
+    {
+      "slug": "expat-families-france-which-cities-2026",
+      "title": "France for expat families: which cities work best in 2026?",
+      "emoji": "👨‍👩‍👧"
+    },
+    {
+      "slug": "grenoble-for-expats-guide-2026",
+      "title": "Moving to Grenoble: the expat guide (2026)",
+      "emoji": "⛷️"
+    },
+    {
+      "slug": "french-bureaucracy-survival-guide-2026",
+      "title": "French Bureaucracy Survival Guide for Expats (2026)",
+      "emoji": "📋"
+    },
+    {
+      "slug": "buying-property-in-france-expat-guide-2026",
+      "title": "Buying Property in France as a Foreigner — Complete Guide (2026)",
+      "emoji": "🏡"
+    },
+    {
+      "slug": "lyon-vs-bordeaux-which-city-to-move-to-2026",
+      "title": "Lyon vs Bordeaux — Which French City Should You Move To? (2026)",
+      "emoji": "⚖️"
+    },
+    {
+      "slug": "paris-vs-province-real-cost-comparison-2026",
+      "title": "Paris vs Province — The Real Cost Comparison (2026)",
+      "emoji": "💶"
+    },
+    {
+      "slug": "learning-french-in-france-guide-2026",
+      "title": "Learning French in France — Schools, Methods, and Realistic Expectations (2026)",
+      "emoji": "🗣️"
+    },
+    {
+      "slug": "retiring-to-france-guide-2026",
+      "title": "Retiring to France — A Realistic Guide for Non-EU Nationals (2026)",
+      "emoji": "🌻"
+    },
+    {
+      "slug": "things-to-do-in-paris-2026",
+      "title": "Things to do in Paris: a resident's honest shortlist",
+      "emoji": "🗼"
+    },
+    {
+      "slug": "things-to-do-in-lyon-2026",
+      "title": "Things to do in Lyon: food capital, two rivers, Roman hills",
+      "emoji": "🦁"
+    },
+    {
+      "slug": "things-to-do-in-nice-2026",
+      "title": "Things to do in Nice: the Riviera without the clichés",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "things-to-do-in-bordeaux-2026",
+      "title": "Things to do in Bordeaux: stone, wine and the river",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "things-to-do-in-marseille-2026",
+      "title": "Things to do in Marseille: the rough, real Mediterranean city",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "things-to-do-in-strasbourg-2026",
+      "title": "Things to do in Strasbourg: French-German crossroads on the Rhine",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "things-to-do-in-toulouse-2026",
+      "title": "Things to do in Toulouse: the pink city on the Garonne",
+      "emoji": "🌹"
+    },
+    {
+      "slug": "things-to-do-in-nantes-2026",
+      "title": "Things to do in Nantes: mechanical elephants and Atlantic edge",
+      "emoji": "🐘"
+    },
+    {
+      "slug": "things-to-do-in-montpellier-2026",
+      "title": "Things to do in Montpellier: young, sunny, ten minutes from the sea",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "things-to-do-in-lille-2026",
+      "title": "Things to do in Lille: Flemish flair in the French north",
+      "emoji": "🇫🇷"
+    },
+    {
+      "slug": "things-to-do-in-annecy-2026",
+      "title": "Things to do in Annecy: the Alpine lake town",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "things-to-do-in-avignon-2026",
+      "title": "Things to do in Avignon: popes, ramparts and the Provence bridge",
+      "emoji": "🎭"
+    },
+    {
+      "slug": "things-to-do-in-rennes-2026",
+      "title": "Things to do in Rennes: Breton capital, half-timbered and young",
+      "emoji": "🏚️"
+    },
+    {
+      "slug": "things-to-do-in-grenoble-2026",
+      "title": "Things to do in Grenoble: a city wrapped in mountains",
+      "emoji": "🚡"
+    },
+    {
+      "slug": "things-to-do-in-aix-en-provence-2026",
+      "title": "Things to do in Aix-en-Provence: fountains, Cézanne and markets",
+      "emoji": "⛲"
+    },
+    {
+      "slug": "things-to-do-in-dijon-2026",
+      "title": "Things to do in Dijon: dukes, mustard and Burgundy wine",
+      "emoji": "🦉"
+    },
+    {
+      "slug": "things-to-do-in-rouen-2026",
+      "title": "Things to do in Rouen: Normandy's Gothic, half-timbered capital",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "things-to-do-in-reims-2026",
+      "title": "Things to do in Reims: coronation cathedral and Champagne cellars",
+      "emoji": "🥂"
+    },
+    {
+      "slug": "things-to-do-in-la-rochelle-2026",
+      "title": "Things to do in La Rochelle: towers, harbour and Atlantic light",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "things-to-do-in-biarritz-2026",
+      "title": "Things to do in Biarritz: surf, Belle Époque and Basque flavour",
+      "emoji": "🏄"
+    },
+    {
+      "slug": "things-to-do-in-colmar-2026",
+      "title": "Things to do in Colmar: the storybook capital of Alsace wine",
+      "emoji": "🍇"
+    },
+    {
+      "slug": "things-to-do-in-toulon-2026",
+      "title": "Things to do in Toulon: naval harbour and a cable-car mountain",
+      "emoji": "🚢"
+    },
+    {
+      "slug": "things-to-do-in-perpignan-2026",
+      "title": "Things to do in Perpignan: Catalan France at the Pyrenees' edge",
+      "emoji": "🌶️"
+    },
+    {
+      "slug": "things-to-do-in-carcassonne-2026",
+      "title": "Things to do in Carcassonne: Europe's great walled city",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "things-to-do-in-cannes-2026",
+      "title": "Things to do in Cannes: beyond the red carpet",
+      "emoji": "🎬"
+    },
+    {
+      "slug": "things-to-do-in-antibes-2026",
+      "title": "Things to do in Antibes: ramparts, Picasso and the biggest yachts",
+      "emoji": "🛥️"
+    },
+    {
+      "slug": "things-to-do-in-saint-malo-2026",
+      "title": "Things to do in Saint-Malo: the walled corsair city",
+      "emoji": "🏴‍☠️"
+    },
+    {
+      "slug": "things-to-do-in-honfleur-2026",
+      "title": "Things to do in Honfleur: the painters' harbour of Normandy",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "things-to-do-in-menton-2026",
+      "title": "Things to do in Menton: lemons, gardens and the Italian border",
+      "emoji": "🍋"
+    },
+    {
+      "slug": "things-to-do-in-cassis-2026",
+      "title": "Things to do in Cassis: calanques, cliffs and a fishing port",
+      "emoji": "🚤"
+    },
+    {
+      "slug": "things-to-do-in-arles-2026",
+      "title": "Things to do in Arles: Roman stones and Van Gogh's light",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "things-to-do-in-nimes-2026",
+      "title": "Things to do in Nîmes: the best-preserved Roman city in France",
+      "emoji": "🏟️"
+    },
+    {
+      "slug": "things-to-do-in-bayeux-2026",
+      "title": "Things to do in Bayeux: the Tapestry and the D-Day beaches",
+      "emoji": "🧵"
+    },
+    {
+      "slug": "things-to-do-in-caen-2026",
+      "title": "Things to do in Caen: William's castle and the Memorial",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "things-to-do-in-tours-2026",
+      "title": "Things to do in Tours: the gateway to the Loire châteaux",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "things-to-do-in-beaune-2026",
+      "title": "Things to do in Beaune: the capital of Burgundy wine",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "things-to-do-in-sarlat-la-caneda-2026",
+      "title": "Things to do in Sarlat: the golden capital of the Dordogne",
+      "emoji": "🦆"
+    },
+    {
+      "slug": "things-to-do-in-saint-tropez-2026",
+      "title": "Things to do in Saint-Tropez: beyond the yachts",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "things-to-do-in-saint-paul-de-vence-2026",
+      "title": "Things to do in Saint-Paul-de-Vence: an art village above the coast",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "things-to-do-in-ajaccio-2026",
+      "title": "Things to do in Ajaccio: Napoleon's city on the Corsican coast",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "things-to-do-in-amboise-2026",
+      "title": "Things to do in Amboise: a royal château and Leonardo's last home",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "things-to-do-in-blois-2026",
+      "title": "Things to do in Blois: a royal city between Chambord and Chambord",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "things-to-do-in-chinon-2026",
+      "title": "Things to do in Chinon: a medieval fortress and red wine",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "things-to-do-in-saumur-2026",
+      "title": "Things to do in Saumur: white château, sparkling wine and horses",
+      "emoji": "🐎"
+    },
+    {
+      "slug": "things-to-do-in-bayonne-2026",
+      "title": "Things to do in Bayonne: chocolate, ham and Basque colour",
+      "emoji": "🍫"
+    },
+    {
+      "slug": "things-to-do-in-saint-jean-de-luz-2026",
+      "title": "Things to do in Saint-Jean-de-Luz: a Basque fishing town and a royal wedding",
+      "emoji": "🏖️"
+    },
+    {
+      "slug": "things-to-do-in-dinan-2026",
+      "title": "Things to do in Dinan: a walled medieval town above the Rance",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "things-to-do-in-vannes-2026",
+      "title": "Things to do in Vannes: a walled town on the Gulf of Morbihan",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "things-to-do-in-quimper-2026",
+      "title": "Things to do in Quimper: cathedral spires and Breton faience",
+      "emoji": "🏺"
+    },
+    {
+      "slug": "things-to-do-in-gordes-2026",
+      "title": "Things to do in Gordes: the postcard hill village of the Luberon",
+      "emoji": "🌾"
+    },
+    {
+      "slug": "things-to-do-in-metz-2026",
+      "title": "Things to do in Metz: golden stone, glass and a Pompidou",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "things-to-do-in-nancy-2026",
+      "title": "Things to do in Nancy: a royal square and Art Nouveau",
+      "emoji": "✨"
+    },
+    {
+      "slug": "things-to-do-in-le-havre-2026",
+      "title": "Things to do in Le Havre: concrete, light and the sea",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "things-to-do-in-arcachon-2026",
+      "title": "Things to do in Arcachon: oysters, dunes and the bay",
+      "emoji": "🦪"
+    },
+    {
+      "slug": "things-to-do-in-collioure-2026",
+      "title": "Things to do in Collioure: the Catalan harbour that inspired Fauvism",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "things-to-do-in-pau-2026",
+      "title": "Things to do in Pau: a Pyrenean balcony and a royal castle",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "things-to-do-in-brest-2026",
+      "title": "Things to do in Brest: a great harbour at the edge of France",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "things-to-do-in-royan-2026",
+      "title": "Things to do in Royan: 1950s seaside modernism and Atlantic beaches",
+      "emoji": "🏖️"
+    },
+    {
+      "slug": "things-to-do-in-bastia-2026",
+      "title": "Things to do in Bastia: Corsica's working capital with an Italian soul",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "things-to-do-in-calvi-2026",
+      "title": "Things to do in Calvi: a citadel, a curving beach and the mountains",
+      "emoji": "🏖️"
+    },
+    {
+      "slug": "things-to-do-in-albi-2026",
+      "title": "Things to do in Albi: a red-brick cathedral-fortress and Toulouse-Lautrec",
+      "emoji": "🧱"
+    },
+    {
+      "slug": "things-to-do-in-cahors-2026",
+      "title": "Things to do in Cahors: a fortified bridge and dark red wine",
+      "emoji": "🌉"
+    },
+    {
+      "slug": "things-to-do-in-perigueux-2026",
+      "title": "Things to do in Périgueux: Roman ruins and a domed cathedral",
+      "emoji": "🍽️"
+    },
+    {
+      "slug": "things-to-do-in-chartres-2026",
+      "title": "Things to do in Chartres: the greatest Gothic cathedral and its blue glass",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "things-to-do-in-amiens-2026",
+      "title": "Things to do in Amiens: France's largest cathedral and floating gardens",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "things-to-do-in-bourges-2026",
+      "title": "Things to do in Bourges: a cathedral, a palace and medieval lanes",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "things-to-do-in-orleans-2026",
+      "title": "Things to do in Orléans: Joan of Arc and the upper Loire",
+      "emoji": "⚜️"
+    },
+    {
+      "slug": "things-to-do-in-grasse-2026",
+      "title": "Things to do in Grasse: the perfume capital of the world",
+      "emoji": "🌸"
+    },
+    {
+      "slug": "things-to-do-in-sete-2026",
+      "title": "Things to do in Sète: canals, seafood and a singular spirit",
+      "emoji": "🦑"
+    },
+    {
+      "slug": "things-to-do-in-narbonne-2026",
+      "title": "Things to do in Narbonne: Roman roots and a half-built cathedral",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "things-to-do-in-angers-2026",
+      "title": "Things to do in Angers: a black-stone château and the Apocalypse tapestry",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "things-to-do-in-le-mans-2026",
+      "title": "Things to do in Le Mans: a Roman-walled old city and the 24 Hours",
+      "emoji": "🏎️"
+    },
+    {
+      "slug": "things-to-do-in-limoges-2026",
+      "title": "Things to do in Limoges: porcelain, enamels and a covered market",
+      "emoji": "🏺"
+    },
+    {
+      "slug": "things-to-do-in-angouleme-2026",
+      "title": "Things to do in Angoulême: comic-strip capital on a hill",
+      "emoji": "💬"
+    },
+    {
+      "slug": "things-to-do-in-lourdes-2026",
+      "title": "Things to do in Lourdes: a great pilgrimage in the Pyrenees",
+      "emoji": "🕯️"
+    },
+    {
+      "slug": "things-to-do-in-hyeres-2026",
+      "title": "Things to do in Hyères: palms, islands and a modernist villa",
+      "emoji": "🌴"
+    },
+    {
+      "slug": "things-to-do-in-frejus-2026",
+      "title": "Things to do in Fréjus: Roman ruins and Riviera beaches",
+      "emoji": "🏟️"
+    },
+    {
+      "slug": "things-to-do-in-chambery-2026",
+      "title": "Things to do in Chambéry: a Savoyard capital between the mountains",
+      "emoji": "🐘"
+    },
+    {
+      "slug": "things-to-do-in-aix-les-bains-2026",
+      "title": "Things to do in Aix-les-Bains: a belle-époque spa on the lake",
+      "emoji": "💧"
+    },
+    {
+      "slug": "things-to-do-in-valence-2026",
+      "title": "Things to do in Valence: the gateway to the south",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "things-to-do-in-besancon-2026",
+      "title": "Things to do in Besançon: a Vauban citadel in a river loop",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "things-to-do-in-le-puy-en-velay-2026",
+      "title": "Things to do in Le Puy-en-Velay: chapels on volcanic pinnacles",
+      "emoji": "🌋"
+    },
+    {
+      "slug": "things-to-do-in-millau-2026",
+      "title": "Things to do in Millau: the great viaduct and the Tarn gorges",
+      "emoji": "🌉"
+    },
+    {
+      "slug": "things-to-do-in-rodez-2026",
+      "title": "Things to do in Rodez: a red cathedral and the Soulages museum",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "things-to-do-in-saintes-2026",
+      "title": "Things to do in Saintes: a Roman town on the Charente",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "things-to-do-in-cognac-2026",
+      "title": "Things to do in Cognac: brandy houses on the Charente",
+      "emoji": "🥃"
+    },
+    {
+      "slug": "things-to-do-in-bourg-en-bresse-2026",
+      "title": "Things to do in Bourg-en-Bresse: a flamboyant monastery and famous chicken",
+      "emoji": "🐔"
+    },
+    {
+      "slug": "things-to-do-in-vichy-2026",
+      "title": "Things to do in Vichy: a belle-époque spa town",
+      "emoji": "💧"
+    },
+    {
+      "slug": "things-to-do-in-compiegne-2026",
+      "title": "Things to do in Compiègne: an imperial palace and an armistice clearing",
+      "emoji": "👑"
+    },
+    {
+      "slug": "things-to-do-in-beauvais-2026",
+      "title": "Things to do in Beauvais: the tallest Gothic choir ever built",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "things-to-do-in-clermont-ferrand-2026",
+      "title": "Things to do in Clermont-Ferrand: a black cathedral and a ring of volcanoes",
+      "emoji": "🌋"
+    },
+    {
+      "slug": "things-to-do-in-carnac-2026",
+      "title": "Things to do in Carnac: thousands of standing stones",
+      "emoji": "🗿"
+    },
+    {
+      "slug": "things-to-do-in-chantilly-2026",
+      "title": "Things to do in Chantilly: a château, an art collection and horses",
+      "emoji": "🐎"
+    },
+    {
+      "slug": "things-to-do-in-fontainebleau-2026",
+      "title": "Things to do in Fontainebleau: a royal palace and a forest of rocks",
+      "emoji": "👑"
+    },
+    {
+      "slug": "things-to-do-in-poitiers-2026",
+      "title": "Things to do in Poitiers: Romanesque churches and a theme park",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "things-to-do-in-troyes-2026",
+      "title": "Things to do in Troyes: a half-timbered champagne capital",
+      "emoji": "🏘️"
+    },
+    {
+      "slug": "things-to-do-in-provins-2026",
+      "title": "Things to do in Provins: a complete medieval fair town",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "things-to-do-in-mulhouse-2026",
+      "title": "Things to do in Mulhouse: world-class museums in industrial Alsace",
+      "emoji": "🚗"
+    },
+    {
+      "slug": "things-to-do-in-concarneau-2026",
+      "title": "Things to do in Concarneau: a walled island in a fishing port",
+      "emoji": "🐟"
+    },
+    {
+      "slug": "things-to-do-in-vienne-2026",
+      "title": "Things to do in Vienne: Roman ruins and a jazz festival",
+      "emoji": "🎺"
+    },
+    {
+      "slug": "things-to-do-in-epernay-2026",
+      "title": "Things to do in Épernay: the capital of champagne",
+      "emoji": "🍾"
+    },
+    {
+      "slug": "things-to-do-in-arras-2026",
+      "title": "Things to do in Arras: Flemish squares and a great belfry",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "things-to-do-in-boulogne-sur-mer-2026",
+      "title": "Things to do in Boulogne-sur-Mer: a walled town and a great aquarium",
+      "emoji": "🐠"
+    },
+    {
+      "slug": "things-to-do-in-calais-2026",
+      "title": "Things to do in Calais: Rodin's burghers, lace and the Channel",
+      "emoji": "🐉"
+    },
+    {
+      "slug": "things-to-do-in-dunkerque-2026",
+      "title": "Things to do in Dunkirk: beaches, carnival and 1940",
+      "emoji": "🏖️"
+    },
+    {
+      "slug": "things-to-do-in-cagnes-sur-mer-2026",
+      "title": "Things to do in Cagnes-sur-Mer: Renoir's home and a hilltop village",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "things-to-do-in-saint-raphael-2026",
+      "title": "Things to do in Saint-Raphaël: a Riviera resort beneath red hills",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "things-to-do-in-martigues-2026",
+      "title": "Things to do in Martigues: the 'Venice of Provence'",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "things-to-do-in-macon-2026",
+      "title": "Things to do in Mâcon: the Saône, Lamartine and southern Burgundy wine",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "things-to-do-in-beziers-2026",
+      "title": "Things to do in Béziers: a cathedral over the vines and the Canal du Midi",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "things-to-do-in-porto-vecchio-2026",
+      "title": "Things to do in Porto-Vecchio: Corsica's dream beaches",
+      "emoji": "🏖️"
+    },
+    {
+      "slug": "things-to-do-in-montauban-2026",
+      "title": "Things to do in Montauban: a pink-brick city and the painter Ingres",
+      "emoji": "🧱"
+    },
+    {
+      "slug": "things-to-do-in-foix-2026",
+      "title": "Things to do in Foix: a three-towered castle in the Pyrenees",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "things-to-do-in-evian-les-bains-2026",
+      "title": "Things to do in Évian-les-Bains: a spa town on Lake Geneva",
+      "emoji": "💧"
+    },
+    {
+      "slug": "things-to-do-in-apt-2026",
+      "title": "Things to do in Apt: ochre country and the great Luberon market",
+      "emoji": "🍑"
+    },
+    {
+      "slug": "things-to-do-in-auxerre-2026",
+      "title": "Things to do in Auxerre: a Burgundy town on the Yonne",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "things-to-do-in-saint-nazaire-2026",
+      "title": "Things to do in Saint-Nazaire: giant ships and an Atlantic past",
+      "emoji": "🚢"
+    },
+    {
+      "slug": "things-to-do-in-lorient-2026",
+      "title": "Things to do in Lorient: sailing, a submarine base and a Celtic festival",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "things-to-do-in-chalon-sur-saone-2026",
+      "title": "Things to do in Chalon-sur-Saône: birthplace of photography on the river",
+      "emoji": "📷"
+    },
+    {
+      "slug": "things-to-do-in-nevers-2026",
+      "title": "Things to do in Nevers: faience, a ducal palace and the Loire",
+      "emoji": "🏺"
+    },
+    {
+      "slug": "things-to-do-in-saint-etienne-2026",
+      "title": "Things to do in Saint-Étienne: design, art and industrial reinvention",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "things-to-do-in-belfort-2026",
+      "title": "Things to do in Belfort: a giant lion and a Vauban citadel",
+      "emoji": "🦁"
+    },
+    {
+      "slug": "things-to-do-in-cherbourg-2026",
+      "title": "Things to do in Cherbourg: a great port and the Cité de la Mer",
+      "emoji": "🌂"
+    },
+    {
+      "slug": "things-to-do-in-laon-2026",
+      "title": "Things to do in Laon: a cathedral city on a crowned mountain",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "things-to-do-in-tarbes-2026",
+      "title": "Things to do in Tarbes: a garden city at the foot of the Pyrenees",
+      "emoji": "🌳"
+    },
+    {
+      "slug": "things-to-do-in-pezenas-2026",
+      "title": "Things to do in Pézenas: Molière's town of art and crafts",
+      "emoji": "🎭"
+    },
+    {
+      "slug": "things-to-do-in-moulins-2026",
+      "title": "Things to do in Moulins: the dukes of Bourbon and a costume museum",
+      "emoji": "👗"
+    },
+    {
+      "slug": "things-to-do-in-castres-2026",
+      "title": "Things to do in Castres: a Goya museum on a painted river",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "things-to-do-in-libourne-2026",
+      "title": "Things to do in Libourne: a bastide gateway to Saint-Émilion",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "things-to-do-in-manosque-2026",
+      "title": "Things to do in Manosque: Giono's town in high Provence",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "things-to-do-in-lens-2026",
+      "title": "Things to do in Lens: the Louvre in mining country",
+      "emoji": "🖼️"
+    },
+    {
+      "slug": "things-to-do-in-niort-2026",
+      "title": "Things to do in Niort: a keep and the Green Venice",
+      "emoji": "🛶"
+    },
+    {
+      "slug": "things-to-do-in-saint-omer-2026",
+      "title": "Things to do in Saint-Omer: a marsh of market gardens and a great cathedral",
+      "emoji": "🚣"
+    },
+    {
+      "slug": "things-to-do-in-charleville-mezieres-2026",
+      "title": "Things to do in Charleville-Mézières: Rimbaud and the puppet capital",
+      "emoji": "🎭"
+    },
+    {
+      "slug": "things-to-do-in-digne-les-bains-2026",
+      "title": "Things to do in Digne-les-Bains: lavender, fossils and Alpine spa",
+      "emoji": "💜"
+    },
+    {
+      "slug": "things-to-do-in-montbeliard-2026",
+      "title": "Things to do in Montbéliard: a castle, a car museum and a festival of light",
+      "emoji": "🚙"
+    },
+    {
+      "slug": "things-to-do-in-chalons-en-champagne-2026",
+      "title": "Things to do in Châlons-en-Champagne: canals and Gothic churches",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "things-to-do-in-auch-2026",
+      "title": "Things to do in Auch: d'Artagnan's Gascony and a grand staircase",
+      "emoji": "⚔️"
+    },
+    {
+      "slug": "things-to-do-in-saint-brieuc-2026",
+      "title": "Things to do in Saint-Brieuc: a bay, cliffs and a coastal path",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "things-to-do-in-gap-2026",
+      "title": "Things to do in Gap: the sunny capital of the southern Alps",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "things-to-do-in-sisteron-2026",
+      "title": "Things to do in Sisteron: the gateway to Provence",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "things-to-do-in-agen-2026",
+      "title": "Things to do in Agen: prunes, art and a canal over a river",
+      "emoji": "🍑"
+    },
+    {
+      "slug": "things-to-do-in-mende-2026",
+      "title": "Things to do in Mende: a cathedral town in wild Lozère",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "things-to-do-in-roanne-2026",
+      "title": "Things to do in Roanne: gastronomy on the upper Loire",
+      "emoji": "🍽️"
+    },
+    {
+      "slug": "things-to-do-in-epinal-2026",
+      "title": "Things to do in Épinal: printed images and the Vosges",
+      "emoji": "🖼️"
+    },
+    {
+      "slug": "things-to-do-in-pontarlier-2026",
+      "title": "Things to do in Pontarlier: absinthe and the high Jura",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "things-to-do-in-saint-die-des-vosges-2026",
+      "title": "Things to do in Saint-Dié-des-Vosges: where America got its name",
+      "emoji": "🗺️"
+    },
+    {
+      "slug": "things-to-do-in-evreux-2026",
+      "title": "Things to do in Évreux: a cathedral and gardens in Normandy",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "things-to-do-in-laval-2026",
+      "title": "Things to do in Laval: a castle, a customs-officer painter and the Mayenne",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "things-to-do-in-aurillac-2026",
+      "title": "Things to do in Aurillac: street theatre and the heart of the Cantal",
+      "emoji": "🎭"
+    },
+    {
+      "slug": "things-to-do-in-alencon-2026",
+      "title": "Things to do in Alençon: the lace capital of Normandy",
+      "emoji": "🧵"
+    },
+    {
+      "slug": "things-to-do-in-saint-lo-2026",
+      "title": "Things to do in Saint-Lô: a rebuilt city of ramparts and horses",
+      "emoji": "🐎"
+    },
+    {
+      "slug": "things-to-do-in-cholet-2026",
+      "title": "Things to do in Cholet: textiles, the Vendée wars and a great lake",
+      "emoji": "🧣"
+    },
+    {
+      "slug": "things-to-do-in-la-roche-sur-yon-2026",
+      "title": "Things to do in La Roche-sur-Yon: Napoleon's planned town",
+      "emoji": "🐎"
+    },
+    {
+      "slug": "things-to-do-in-chateauroux-2026",
+      "title": "Things to do in Châteauroux: the Berry, George Sand country",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "things-to-do-in-montlucon-2026",
+      "title": "Things to do in Montluçon: a medieval old town and a music museum",
+      "emoji": "🎵"
+    },
+    {
+      "slug": "things-to-do-in-riom-2026",
+      "title": "Things to do in Riom: black-stone elegance near Clermont",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "things-to-do-in-draguignan-2026",
+      "title": "Things to do in Draguignan: a Provençal town and a great dolmen",
+      "emoji": "🗿"
+    },
+    {
+      "slug": "things-to-do-in-mont-de-marsan-2026",
+      "title": "Things to do in Mont-de-Marsan: a town of three rivers and sculpture",
+      "emoji": "🗿"
+    },
+    {
+      "slug": "things-to-do-in-annonay-2026",
+      "title": "Things to do in Annonay: the birthplace of the hot-air balloon",
+      "emoji": "🎈"
+    },
+    {
+      "slug": "things-to-do-in-privas-2026",
+      "title": "Things to do in Privas: chestnuts and the heart of the Ardèche",
+      "emoji": "🌰"
+    },
+    {
+      "slug": "things-to-do-in-lons-le-saunier-2026",
+      "title": "Things to do in Lons-le-Saunier: salt, an anthem and the Jura",
+      "emoji": "🎶"
+    },
+    {
+      "slug": "things-to-do-in-vesoul-2026",
+      "title": "Things to do in Vesoul: a lake, a hill chapel and the Haute-Saône",
+      "emoji": "⛰️"
+    },
+    {
+      "slug": "things-to-do-in-tulle-2026",
+      "title": "Things to do in Tulle: lace, accordions and the Corrèze",
+      "emoji": "🪗"
+    },
+    {
+      "slug": "things-to-do-in-gueret-2026",
+      "title": "Things to do in Guéret: wolves and the green Creuse",
+      "emoji": "🐺"
+    },
+    {
+      "slug": "things-to-do-in-bar-le-duc-2026",
+      "title": "Things to do in Bar-le-Duc: a Renaissance upper town and redcurrant jam",
+      "emoji": "🍓"
+    },
+    {
+      "slug": "things-to-do-in-chaumont-2026",
+      "title": "Things to do in Chaumont: a giant viaduct and graphic design",
+      "emoji": "🌉"
+    },
+    {
+      "slug": "things-to-do-in-bressuire-2026",
+      "title": "Things to do in Bressuire: a great castle in the Vendée hills",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "things-to-do-in-clermont-l-herault-2026",
+      "title": "Things to do in Clermont-l'Hérault: a red lake and Languedoc hills",
+      "emoji": "🏞️"
+    },
+    {
+      "slug": "things-to-do-in-chatellerault-2026",
+      "title": "Things to do in Châtellerault: a grand bridge and industrial heritage",
+      "emoji": "🌉"
+    },
+    {
+      "slug": "things-to-do-in-anglet-2026",
+      "title": "Things to do in Anglet: the Basque coast, minus the resort prices",
+      "emoji": "🏄"
+    },
+    {
+      "slug": "things-to-do-in-aubagne-2026",
+      "title": "Things to do in Aubagne: Pagnol's hills and clay figurines",
+      "emoji": "🎭"
+    },
+    {
+      "slug": "things-to-do-in-autun-2026",
+      "title": "Things to do in Autun: a Roman city on the edge of the Morvan",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "things-to-do-in-bagneres-de-bigorre-2026",
+      "title": "Things to do in Bagnères-de-Bigorre: spa town under the Pic du Midi",
+      "emoji": "⛰️"
+    },
+    {
+      "slug": "things-to-do-in-saint-denis-reunion-2026",
+      "title": "Things to do in Saint-Denis de La Réunion: creole capital under the volcano",
+      "emoji": "🌋"
+    },
+    {
+      "slug": "things-to-do-in-saint-paul-reunion-2026",
+      "title": "Things to do in Saint-Paul: Réunion's lagoon coast",
+      "emoji": "🏝️"
+    },
+    {
+      "slug": "things-to-do-in-saint-pierre-reunion-2026",
+      "title": "Things to do in Saint-Pierre: the south of Réunion",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "things-to-do-in-fort-de-france-2026",
+      "title": "Things to do in Fort-de-France: Martinique's capital",
+      "emoji": "🌺"
+    },
+    {
+      "slug": "things-to-do-in-pointe-a-pitre-2026",
+      "title": "Things to do in Pointe-à-Pitre: Guadeloupe's working capital",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "things-to-do-in-cayenne-2026",
+      "title": "Things to do in Cayenne: France on the edge of the Amazon",
+      "emoji": "🚀"
+    },
+    {
+      "slug": "one-week-in-provence-itinerary-2026",
+      "title": "One week in Provence: a route that actually works",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "french-riviera-road-trip-itinerary-2026",
+      "title": "French Riviera road trip: Nice, the corniches and the coast",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "loire-valley-chateaux-itinerary-2026",
+      "title": "Loire Valley châteaux itinerary: which castles, in what order",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "alsace-wine-route-itinerary-2026",
+      "title": "Alsace Wine Route itinerary: villages, vines and two capitals",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "brittany-coast-road-trip-itinerary-2026",
+      "title": "Brittany coast road trip: walled cities, capes and oysters",
+      "emoji": "🦪"
+    },
+    {
+      "slug": "three-days-in-paris-first-time-itinerary-2026",
+      "title": "Three days in Paris: a first-timer's itinerary that isn't exhausting",
+      "emoji": "🥐"
+    },
+    {
+      "slug": "cost-of-living-paris-2026",
+      "title": "Cost of living in Paris: the real monthly budget",
+      "emoji": "💸"
+    },
+    {
+      "slug": "cost-of-living-lyon-2026",
+      "title": "Cost of Living in Lyon: What It Really Costs to Move Here (2026)",
+      "emoji": "💸"
+    },
+    {
+      "slug": "cost-of-living-bordeaux-2026",
+      "title": "Cost of Living in Bordeaux: What Expats Actually Spend (2026)",
+      "emoji": "💸"
+    },
+    {
+      "slug": "cost-of-living-toulouse-2026",
+      "title": "The Cost of Living in Toulouse: An Expat's Real Budget (2026)",
+      "emoji": "💸"
+    },
+    {
+      "slug": "cost-of-living-montpellier-2026",
+      "title": "Cost of Living in Montpellier in 2026: An Expat's Budget Guide",
+      "emoji": "💸"
+    },
+    {
+      "slug": "cost-of-living-nice-2026",
+      "title": "The Cost of Living in Nice in 2026: An Expat's Real Budget",
+      "emoji": "💸"
+    },
+    {
+      "slug": "cost-of-living-nantes-2026",
+      "title": "Cost of Living in Nantes (2026): A Realistic Budget for Expats",
+      "emoji": "💸"
+    },
+    {
+      "slug": "cost-of-living-rennes-2026",
+      "title": "Cost of Living in Rennes: An Expat's 2026 Budget Guide",
+      "emoji": "💸"
+    },
+    {
+      "slug": "cost-of-living-strasbourg-2026",
+      "title": "Cost of Living in Strasbourg in 2026: An Expat's Budget Guide",
+      "emoji": "💸"
+    },
+    {
+      "slug": "cost-of-living-lille-2026",
+      "title": "The Cost of Living in Lille in 2026: A Practical Guide for Expats",
+      "emoji": "💸"
+    },
+    {
+      "slug": "where-to-buy-in-paris-2026",
+      "title": "Where to Buy Property in Paris in 2026: A Buyer's Map",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-lyon-2026",
+      "title": "Where to Buy Property in Lyon: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-marseille-2026",
+      "title": "Where to Buy Property in Marseille (2026): A District-by-District Guide for Foreign Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-toulouse-2026",
+      "title": "Where to Buy Property in Toulouse: An International Buyer's Guide (2026)",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-lille-2026",
+      "title": "Where to Buy Property in Lille: A Foreign Buyer's Guide (2026)",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-bordeaux-2026",
+      "title": "Where to Buy Property in Bordeaux: A Foreign Buyer's Guide (2026)",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-nantes-2026",
+      "title": "Where to Buy Property in Nantes (2026): Neighbourhoods, Prices, Process",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-strasbourg-2026",
+      "title": "Where to Buy Property in Strasbourg: A Foreign Buyer's Guide (2026)",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-rennes-2026",
+      "title": "Where to Buy Property in Rennes: A Foreign Buyer's Guide (2026)",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-montpellier-2026",
+      "title": "Where to Buy Property in Montpellier (2026): A Foreign Buyer's Guide",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-nice-2026",
+      "title": "Where to Buy Property in Nice: A 2026 Neighbourhood Guide",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-grenoble-2026",
+      "title": "Where to Buy Property in Grenoble: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-annecy-2026",
+      "title": "Where to Buy Property in Annecy: A 2026 Guide for Foreign Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-aix-en-provence-2026",
+      "title": "Where to Buy Property in Aix-en-Provence in 2026",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-biarritz-2026",
+      "title": "Where to Buy Property in Biarritz: Neighbourhoods, Prices & Budget (2026)",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "car-free-living-in-paris-2026",
+      "title": "Car-Free Living in Paris: An Expat's 2026 Guide",
+      "emoji": "🚲"
+    },
+    {
+      "slug": "car-free-living-in-lyon-2026",
+      "title": "Living in Lyon Without a Car: A Practical Guide for 2026",
+      "emoji": "🚲"
+    },
+    {
+      "slug": "car-free-living-in-strasbourg-2026",
+      "title": "Car-Free Living in Strasbourg: The 2026 Expat Guide",
+      "emoji": "🚲"
+    },
+    {
+      "slug": "car-free-living-in-bordeaux-2026",
+      "title": "Living in Bordeaux Without a Car: An Expat's Guide for 2026",
+      "emoji": "🚲"
+    },
+    {
+      "slug": "car-free-living-in-nantes-2026",
+      "title": "Living Without a Car in Nantes: A 2026 Guide for Expats",
+      "emoji": "🚲"
+    },
+    {
+      "slug": "car-free-living-in-toulouse-2026",
+      "title": "Car-Free Living in Toulouse: An Expat's 2026 Guide",
+      "emoji": "🚲"
+    },
+    {
+      "slug": "car-free-living-in-grenoble-2026",
+      "title": "Living Without a Car in Grenoble: An Expat's Guide for 2026",
+      "emoji": "🚲"
+    },
+    {
+      "slug": "car-free-living-in-rennes-2026",
+      "title": "Living Without a Car in Rennes",
+      "emoji": "🚲"
+    },
+    {
+      "slug": "car-free-living-in-montpellier-2026",
+      "title": "Living Without a Car in Montpellier: The 2026 Guide for Expats",
+      "emoji": "🚲"
+    },
+    {
+      "slug": "car-free-living-in-nice-2026",
+      "title": "Living in Nice Without a Car: A 2026 Guide",
+      "emoji": "🚲"
+    },
+    {
+      "slug": "car-free-living-in-lille-2026",
+      "title": "Living Without a Car in Lille",
+      "emoji": "🚲"
+    },
+    {
+      "slug": "car-free-living-in-annecy-2026",
+      "title": "Living Without a Car in Annecy: An Expat's Honest Guide (2026)",
+      "emoji": "🚲"
+    },
+    {
+      "slug": "car-free-living-in-dijon-2026",
+      "title": "Living in Dijon Without a Car: An Expat's Honest Guide (2026)",
+      "emoji": "🚲"
+    },
+    {
+      "slug": "living-in-the-dordogne-2026",
+      "title": "Living in the Dordogne: An Honest 2026 Expat Guide",
+      "emoji": "🌻"
+    },
+    {
+      "slug": "living-in-the-french-basque-country-2026",
+      "title": "Living in the French Basque Country: An Expat's Guide for 2026",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "living-on-the-french-riviera-2026",
+      "title": "Living on the French Riviera: An Honest Expat Guide",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "living-in-the-var-2026",
+      "title": "Living in the Var: An Expat Guide to Provence's Coast and Green Interior (2026)",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "living-in-alsace-2026",
+      "title": "Living in Alsace: An Expat's Guide for 2026",
+      "emoji": "🍇"
+    },
+    {
+      "slug": "living-in-brittany-2026",
+      "title": "Living in Brittany: An Expat's Guide to France's Celtic Coast",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "living-in-normandy-2026",
+      "title": "Living in Normandy: An Expat's Guide for 2026",
+      "emoji": "🐄"
+    },
+    {
+      "slug": "living-in-charente-maritime-2026",
+      "title": "Living in Charente-Maritime: An Expat Guide to France's Sunniest Atlantic Coast",
+      "emoji": "🦪"
+    },
+    {
+      "slug": "living-in-haute-savoie-2026",
+      "title": "Living in Haute-Savoie: An Expat Guide to the French Alps (2026)",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "living-in-occitanie-2026",
+      "title": "Living in Occitanie: An Expat Guide to the Sunny South (2026)",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "living-in-roussillon-2026",
+      "title": "Living in Roussillon: A Relocation Guide to French Catalonia (2026)",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "living-in-hauts-de-france-2026",
+      "title": "Living in Hauts-de-France: The Honest Expat Guide",
+      "emoji": "🌾"
+    },
+    {
+      "slug": "where-to-buy-in-amiens-2026",
+      "title": "Where to Buy Property in Amiens: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-angers-2026",
+      "title": "Where to Buy Property in Angers: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-arles-2026",
+      "title": "Where to Buy Property in Arles: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-avignon-2026",
+      "title": "Where to Buy Property in Avignon: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-bayonne-2026",
+      "title": "Where to Buy Property in Bayonne: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-besancon-2026",
+      "title": "Where to Buy Property in Besançon: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-brest-2026",
+      "title": "Where to Buy Property in Brest: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-caen-2026",
+      "title": "Where to Buy Property in Caen: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-chambery-2026",
+      "title": "Where to Buy Property in Chambéry: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-chartres-2026",
+      "title": "Where to Buy Property in Chartres: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-clermont-ferrand-2026",
+      "title": "Where to Buy Property in Clermont-Ferrand: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-colmar-2026",
+      "title": "Where to Buy Property in Colmar: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-dijon-2026",
+      "title": "Where to Buy Property in Dijon: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-la-rochelle-2026",
+      "title": "Where to Buy Property in La Rochelle: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-le-havre-2026",
+      "title": "Where to Buy Property in Le Havre: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-le-mans-2026",
+      "title": "Where to Buy Property in Le Mans: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-limoges-2026",
+      "title": "Where to Buy Property in Limoges: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-lorient-2026",
+      "title": "Where to Buy Property in Lorient: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-metz-2026",
+      "title": "Where to Buy Property in Metz: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-mulhouse-2026",
+      "title": "Where to Buy Property in Mulhouse: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-nancy-2026",
+      "title": "Where to Buy Property in Nancy: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-nimes-2026",
+      "title": "Where to Buy Property in Nîmes: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-orleans-2026",
+      "title": "Where to Buy Property in Orléans: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-pau-2026",
+      "title": "Where to Buy Property in Pau: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-perpignan-2026",
+      "title": "Where to Buy Property in Perpignan: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-poitiers-2026",
+      "title": "Where to Buy Property in Poitiers: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-reims-2026",
+      "title": "Where to Buy Property in Reims: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-rouen-2026",
+      "title": "Where to Buy Property in Rouen: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-saint-etienne-2026",
+      "title": "Where to Buy Property in Saint-Étienne: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-toulon-2026",
+      "title": "Where to Buy Property in Toulon: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-tours-2026",
+      "title": "Where to Buy Property in Tours: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-troyes-2026",
+      "title": "Where to Buy Property in Troyes: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-valence-2026",
+      "title": "Where to Buy Property in Valence: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "where-to-buy-in-vannes-2026",
+      "title": "Where to Buy Property in Vannes: A 2026 Guide for International Buyers",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "car-free-living-in-clermont-ferrand-2026",
+      "title": "Living in Clermont-Ferrand Without a Car: An Expat's Guide for 2026",
+      "emoji": "🚲"
+    },
+    {
+      "slug": "car-free-living-in-marseille-2026",
+      "title": "Living in Marseille Without a Car: An Expat's Guide for 2026",
+      "emoji": "🚲"
+    },
+    {
+      "slug": "living-in-ile-de-france-2026",
+      "title": "Living in Île-de-France: An Expat Guide to Paris and Beyond (2026)",
+      "emoji": "🏙️"
+    },
+    {
+      "slug": "living-in-auvergne-rhone-alpes-2026",
+      "title": "Living in Auvergne-Rhône-Alpes: An Expat Guide to Lyon, the Alps and Beyond (2026)",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "living-in-nouvelle-aquitaine-2026",
+      "title": "Living in Nouvelle-Aquitaine: An Expat Guide to France's Atlantic South-West (2026)",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "living-in-provence-alpes-cote-d-azur-2026",
+      "title": "Living in Provence-Alpes-Côte d'Azur (PACA): An Expat Guide to France's Sun-and-Sea Region (2026)",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "living-in-grand-est-2026",
+      "title": "Living in Grand Est: An Expat Guide to France's Border Region (2026)",
+      "emoji": "🥨"
+    },
+    {
+      "slug": "living-in-pays-de-la-loire-2026",
+      "title": "Living in Pays de la Loire: An Expat Guide to the Atlantic West (2026)",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "living-in-bourgogne-franche-comte-2026",
+      "title": "Living in Bourgogne-Franche-Comté: An Expat Guide to Burgundy and the Jura (2026)",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "living-in-centre-val-de-loire-2026",
+      "title": "Living in Centre-Val de Loire: An Expat Guide to the Loire Châteaux Country (2026)",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "best-french-cities-international-schools-2026",
+      "title": "Best French Cities for International and Bilingual Schools (2026)",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "best-french-cities-healthcare-2026",
+      "title": "Best French Cities for Healthcare Access (2026)",
+      "emoji": "🏥"
+    },
+    {
+      "slug": "best-french-cities-lgbt-friendly-2026",
+      "title": "Best French Cities for LGBT+ People in 2026",
+      "emoji": "🏳️‍🌈"
+    },
+    {
+      "slug": "best-french-cities-wine-lovers-2026",
+      "title": "Best French Cities for Wine Lovers in 2026",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "best-french-cities-property-investment-2026",
+      "title": "Best French cities for property investment and shared rentals in 2026",
+      "emoji": "📈"
+    },
+    {
+      "slug": "best-french-cities-surf-watersports-2026",
+      "title": "Best French cities for surf and watersports in 2026",
+      "emoji": "🏄"
+    },
+    {
+      "slug": "best-french-cities-vegan-vegetarian-2026",
+      "title": "Best French Cities for Vegans and Vegetarians in 2026",
+      "emoji": "🌱"
+    },
+    {
+      "slug": "best-french-cities-culture-festivals-2026",
+      "title": "Best French Cities for Culture and Festivals in 2026",
+      "emoji": "🎭"
+    },
+    {
+      "slug": "best-french-cities-wellness-spas-2026",
+      "title": "Best French Cities for Wellness and Spas (2026)",
+      "emoji": "💆"
+    },
+    {
+      "slug": "best-french-cities-clean-air-2026",
+      "title": "Best French Cities for Clean Air (2026)",
+      "emoji": "🌬️"
+    },
+    {
+      "slug": "best-french-cities-affordable-property-2026",
+      "title": "Best French Cities to Buy Property on a Budget (2026)",
+      "emoji": "🔑"
+    },
+    {
+      "slug": "best-french-cities-entrepreneurs-startups-2026",
+      "title": "Best French Cities for Entrepreneurs and Startups (2026)",
+      "emoji": "🚀"
+    },
+    {
+      "slug": "best-french-cities-accessibility-2026",
+      "title": "Best French Cities for Accessibility and Reduced Mobility (2026)",
+      "emoji": "♿"
+    },
+    {
+      "slug": "best-french-cities-sustainability-2026",
+      "title": "Greenest and Most Sustainable French Cities (2026)",
+      "emoji": "♻️"
+    },
+    {
+      "slug": "best-french-cities-international-students-2026",
+      "title": "Best French Cities for International Students (2026)",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "living-in-ariege-2026",
+      "title": "Living in the Ariège: A Relocation Guide to the Rural Pyrenees (2026)",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "living-in-creuse-2026",
+      "title": "Living in the Creuse: France's Cheapest Property and What It Hides (2026)",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "living-in-berry-2026",
+      "title": "Living in the Berry: A Relocation Guide to Rural Central France (2026)",
+      "emoji": "🌾"
+    },
+    {
+      "slug": "living-in-poitou-2026",
+      "title": "Living in the Poitou: A Relocation Guide to Affordable Western France (2026)",
+      "emoji": "🏞️"
+    },
+    {
+      "slug": "living-in-ardennes-meuse-2026",
+      "title": "Living in the Ardennes and Meuse: France's Cheapest, Quietest Corner (2026)",
+      "emoji": "🌲"
+    },
+    {
+      "slug": "things-to-do-in-versailles-2026",
+      "title": "Things to do in Versailles: beyond the Hall of Mirrors",
+      "emoji": "👑"
+    },
+    {
+      "slug": "things-to-do-in-saint-denis-2026",
+      "title": "Things to do in Saint-Denis, on the northern edge of Paris",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "things-to-do-in-roubaix-2026",
+      "title": "Things to do in Roubaix: the town that turned its mills into museums",
+      "emoji": "🏊"
+    },
+    {
+      "slug": "things-to-do-in-tourcoing-2026",
+      "title": "Things to do in Tourcoing: contemporary art, a carillon and a D-Day bunker",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "things-to-do-in-boulogne-billancourt-2026",
+      "title": "Things to do in Boulogne-Billancourt: gardens, an island concert hall and the 1930s",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "things-to-do-in-villeurbanne-2026",
+      "title": "Things to do in Villeurbanne: the Gratte-Ciel, the TNP and contemporary art",
+      "emoji": "🏙️"
+    },
+    {
+      "slug": "things-to-do-in-le-tampon-2026",
+      "title": "Things to do in Le Tampon: the volcano, the highlands and tropical cold",
+      "emoji": "🌋"
+    }
+  ],
+  "tags": [
+    {
+      "slug": "travel",
+      "label": "travel",
+      "count": 193
+    },
+    {
+      "slug": "city-guide",
+      "label": "city guide",
+      "count": 187
+    },
+    {
+      "slug": "buying-property-france",
+      "label": "buying property france",
+      "count": 51
+    },
+    {
+      "slug": "moving-to-france",
+      "label": "moving to france",
+      "count": 51
+    },
+    {
+      "slug": "real-estate",
+      "label": "real estate",
+      "count": 50
+    },
+    {
+      "slug": "occitanie",
+      "label": "occitanie",
+      "count": 30
+    },
+    {
+      "slug": "nouvelle-aquitaine",
+      "label": "nouvelle-aquitaine",
+      "count": 23
+    },
+    {
+      "slug": "hauts-de-france",
+      "label": "hauts-de-france",
+      "count": 19
+    },
+    {
+      "slug": "grand-est",
+      "label": "grand est",
+      "count": 18
+    },
+    {
+      "slug": "provence",
+      "label": "provence",
+      "count": 17
+    },
+    {
+      "slug": "brittany",
+      "label": "brittany",
+      "count": 15
+    },
+    {
+      "slug": "budget",
+      "label": "budget",
+      "count": 15
+    },
+    {
+      "slug": "cycling",
+      "label": "cycling",
+      "count": 15
+    },
+    {
+      "slug": "expat",
+      "label": "expat",
+      "count": 15
+    },
+    {
+      "slug": "public-transport",
+      "label": "public transport",
+      "count": 15
+    },
+    {
+      "slug": "relocation",
+      "label": "relocation",
+      "count": 15
+    },
+    {
+      "slug": "auvergne-rhone-alpes",
+      "label": "auvergne-rhone-alpes",
+      "count": 14
+    },
+    {
+      "slug": "cost-of-living",
+      "label": "cost of living",
+      "count": 13
+    },
+    {
+      "slug": "loire-valley",
+      "label": "loire valley",
+      "count": 12
+    },
+    {
+      "slug": "ile-de-france",
+      "label": "ile de france",
+      "count": 11
+    },
+    {
+      "slug": "normandy",
+      "label": "normandy",
+      "count": 11
+    },
+    {
+      "slug": "pays-de-la-loire",
+      "label": "pays de la loire",
+      "count": 11
+    },
+    {
+      "slug": "provence-alpes-cote-d-azur",
+      "label": "provence-alpes-cote-d-azur",
+      "count": 11
+    },
+    {
+      "slug": "bretagne",
+      "label": "bretagne",
+      "count": 9
+    },
+    {
+      "slug": "burgundy",
+      "label": "burgundy",
+      "count": 9
+    },
+    {
+      "slug": "cote-d-azur",
+      "label": "cote d'azur",
+      "count": 9
+    },
+    {
+      "slug": "alsace",
+      "label": "alsace",
+      "count": 8
+    },
+    {
+      "slug": "atlantic-coast",
+      "label": "atlantic coast",
+      "count": 8
+    },
+    {
+      "slug": "auvergne",
+      "label": "auvergne",
+      "count": 8
+    },
+    {
+      "slug": "french-riviera",
+      "label": "french riviera",
+      "count": 8
+    },
+    {
+      "slug": "visa",
+      "label": "visa",
+      "count": 7
+    },
+    {
+      "slug": "bordeaux",
+      "label": "bordeaux",
+      "count": 6
+    },
+    {
+      "slug": "centre-val-de-loire",
+      "label": "centre-val de loire",
+      "count": 6
+    },
+    {
+      "slug": "itinerary",
+      "label": "itinerary",
+      "count": 6
+    },
+    {
+      "slug": "lifestyle",
+      "label": "lifestyle",
+      "count": 6
+    },
+    {
+      "slug": "mediterranean",
+      "label": "mediterranean",
+      "count": 6
+    },
+    {
+      "slug": "nice",
+      "label": "nice",
+      "count": 6
+    },
+    {
+      "slug": "pyrenees",
+      "label": "pyrenees",
+      "count": 6
+    },
+    {
+      "slug": "south-of-france",
+      "label": "south-of-france",
+      "count": 6
+    },
+    {
+      "slug": "strasbourg",
+      "label": "strasbourg",
+      "count": 6
+    },
+    {
+      "slug": "affordable-france",
+      "label": "affordable france",
+      "count": 5
+    },
+    {
+      "slug": "basque-country",
+      "label": "basque country",
+      "count": 5
+    },
+    {
+      "slug": "champagne",
+      "label": "champagne",
+      "count": 5
+    },
+    {
+      "slug": "nantes",
+      "label": "nantes",
+      "count": 5
+    },
+    {
+      "slug": "normandie",
+      "label": "normandie",
+      "count": 5
+    },
+    {
+      "slug": "annecy",
+      "label": "annecy",
+      "count": 4
+    },
+    {
+      "slug": "corsica",
+      "label": "corsica",
+      "count": 4
+    },
+    {
+      "slug": "franche-comte",
+      "label": "franche-comte",
+      "count": 4
+    },
+    {
+      "slug": "lyon",
+      "label": "lyon",
+      "count": 4
+    },
+    {
+      "slug": "marseille",
+      "label": "marseille",
+      "count": 4
+    },
+    {
+      "slug": "quality-of-life",
+      "label": "quality-of-life",
+      "count": 4
+    },
+    {
+      "slug": "rennes",
+      "label": "rennes",
+      "count": 4
+    },
+    {
+      "slug": "reunion",
+      "label": "reunion",
+      "count": 4
+    },
+    {
+      "slug": "rhone-alpes",
+      "label": "rhone alpes",
+      "count": 4
+    },
+    {
+      "slug": "rural-france",
+      "label": "rural france",
+      "count": 4
+    },
+    {
+      "slug": "toulouse",
+      "label": "toulouse",
+      "count": 4
+    },
+    {
+      "slug": "tours",
+      "label": "tours",
+      "count": 4
+    },
+    {
+      "slug": "alps",
+      "label": "alps",
+      "count": 3
+    },
+    {
+      "slug": "biarritz",
+      "label": "biarritz",
+      "count": 3
+    },
+    {
+      "slug": "bourgogne-franche-comte",
+      "label": "bourgogne-franche-comte",
+      "count": 3
+    },
+    {
+      "slug": "brest",
+      "label": "brest",
+      "count": 3
+    },
+    {
+      "slug": "caen",
+      "label": "caen",
+      "count": 3
+    },
+    {
+      "slug": "dijon",
+      "label": "dijon",
+      "count": 3
+    },
+    {
+      "slug": "dordogne",
+      "label": "dordogne",
+      "count": 3
+    },
+    {
+      "slug": "expat-comparison",
+      "label": "expat comparison",
+      "count": 3
+    },
+    {
+      "slug": "fatca",
+      "label": "fatca",
+      "count": 3
+    },
+    {
+      "slug": "french-alps",
+      "label": "french alps",
+      "count": 3
+    },
+    {
+      "slug": "grenoble",
+      "label": "grenoble",
+      "count": 3
+    },
+    {
+      "slug": "lille",
+      "label": "lille",
+      "count": 3
+    },
+    {
+      "slug": "living-in-france",
+      "label": "living in france",
+      "count": 3
+    },
+    {
+      "slug": "montpellier",
+      "label": "montpellier",
+      "count": 3
+    },
+    {
+      "slug": "notaire",
+      "label": "notaire",
+      "count": 3
+    },
+    {
+      "slug": "paris",
+      "label": "paris",
+      "count": 3
+    },
+    {
+      "slug": "savoie",
+      "label": "savoie",
+      "count": 3
+    }
+  ]
+}

@@ -428,7 +428,14 @@ payload the browser must parse.
   so production can't go stale; `npm run search-index:check` fails on a stale
   commit). `GUIDE_CATEGORIES` already lives in `lib/guide-categories.ts` for the
   same reason. If you need a new field client-side, add it to the projection —
-  don't import the corpus.
+  don't import the corpus. **La projection est par locale** (2026-08-06) :
+  `data/search-index.json` (FR, depuis `data/guides.ts` + `lib/guide-tags.ts`) et
+  `data/search-index.en.json` (EN, depuis `data/guides-en.ts` +
+  `lib/guide-tags-en.ts`) sont générés par le même script et commités tous les
+  deux ; `lib/search-index.ts` choisit sur `NEXT_PUBLIC_DEFAULT_LOCALE`, valeur
+  inlinée au build, donc un seul des deux JSON part dans le bundle (mesuré :
+  187 Ko côté FR, 98 Ko côté EN). Ajouter un guide EN sans relancer
+  `npm run search-index` fait échouer `search-index:check`, comme côté FR.
 - **No framer-motion.** It was pulled in by `ScrollReveal` alone (~110 kB) and has
   been rebuilt on IntersectionObserver + a CSS transition. Don't reintroduce it
   for an effect the compositor can run. Note `ScrollReveal` renders its children
