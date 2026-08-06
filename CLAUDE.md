@@ -287,6 +287,44 @@ Villes DROM encore non couvertes des deux côtés, par population : Mamoudzou, S
 Les Abymes, Saint-Louis (974), Saint-Laurent-du-Maroni, Le Lamentin, Saint-Joseph,
 Saint-Benoît, Baie-Mahault, Le Robert, Le François.
 
+**Batch 26 — FR, shipped 2026-08-06 : Saint-Ouen-sur-Seine, Vitry-sur-Seine, Montreuil,
+Argenteuil, Neuilly-sur-Seine, Pantin, Meaux.** Deuxième batch sur les communes de la
+petite couronne, dans la continuité du batch 24, mais sélectionnées **par matière
+touristique réelle plutôt que par population** — c'est la correction de méthode du run.
+Les dix communes non couvertes les plus peuplées sont toutes des banlieues d'Île-de-France
+et plusieurs n'ont honnêtement pas dix choses à faire ; à l'inverse Saint-Ouen porte le
+**plus grand marché d'antiquités au monde** et n'avait aucun guide, et Meaux (une demi-heure
+de la gare de l'Est) aligne cité épiscopale complète, plus grande collection européenne
+sur 1914-1918 et une AOP fromagère. Les angles retenus : les Puces et l'écoquartier des
+Docks à Saint-Ouen, le MAC VAL et les pochoirs de C215 à Vitry, les murs à pêches et
+Méliès à Montreuil, les emplacements de Monet et la Sainte Tunique à Argenteuil, l'île de
+la Grande Jatte de Seurat et l'axe historique à Neuilly, les Grands Moulins et le CND de
+Kalisz à Pantin.
+**Compteurs mesurés : `-a-` strict = 192, en incluant `au-` = 194 ; EN = 187 ; `GUIDES`
+909 → 916.** Aucun nouveau slug hors gabarit : les deux exceptions restent `au-puy-en-velay`
+et `au-tampon`.
+`metaTitle` ≤ 60 caractères sur les 7 (48-55), `metaDesc` ≤ 160, densité d'accents 0,15 —
+très au-dessus du seuil de détection ascii-strip (0,09). Aucun horaire, tarif ni hauteur
+n'est cité : sur des équipements franciliens qui ouvrent et ferment vite, une phrase sans
+chiffre a été préférée à un chiffre invérifiable. Deux points de prudence assumés dans la
+copie : le marché aux puces de la porte de Montreuil est annoncé comme susceptible d'être
+déplacé par le réaménagement de la porte, et le Jardin d'acclimatation, la Fondation Louis
+Vuitton et Bagatelle sont présentés comme **accessibles depuis** Neuilly, pas comme situés
+à Neuilly — ils relèvent de Paris 16ᵉ, et l'inverse serait faux.
+⚠️ Ne pas repartir de la liste brute des communes les plus peuplées non couvertes pour le
+prochain batch FR : le haut de cette liste (Nanterre, Créteil, Colombes, Aubervilliers,
+Vitry déjà fait, Courbevoie, Drancy…) est majoritairement pauvre en matière touristique
+vérifiable. Les gisements qui restent sont **Cergy** (Axe majeur de Dani Karavan),
+**Issy-les-Moulineaux** (île Saint-Germain, tour aux figures de Dubuffet), **Aubervilliers**
+(19M, Docks), **Mérignac**, **Pessac** (Cité Frugès de Le Corbusier, UNESCO) et
+**Vénissieux** — puis les DROM restants.
+Écart FR→EN après ce batch : **7 villes** (saint-ouen-sur-seine, vitry-sur-seine, montreuil,
+argenteuil, neuilly-sur-seine, pantin, meaux) — au-dessus du seuil de ~6, donc **le prochain
+run doit être un batch EN**. Attention au nommage anglais : `things-to-do-in-saint-ouen-2026`
+côtoiera `things-to-do-in-saint-denis-2026` (93) et `things-to-do-in-saint-denis-reunion-2026`
+déjà présents — garder le suffixe `-sur-seine` pour Saint-Ouen, Vitry et Neuilly évite toute
+ambiguïté avec les homonymes français.
+
 ### Glossaire (`app/glossaire/page.tsx`)
 
 Page unique, données inline (`SECTIONS: {title, emoji, terms[]}`), `DefinedTermSet` JSON-LD généré

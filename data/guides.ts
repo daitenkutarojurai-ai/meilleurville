@@ -44810,6 +44810,433 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["vacances monoparentales Dijon", "parent solo Côte-d'Or", "Parcours de la Chouette", "Cité gastronomie et du vin", "hors saison Bourgogne"]
   },
+  {
+    slug: "10-choses-a-faire-a-saint-ouen-sur-seine-2026",
+    title: "10 choses à faire à Saint-Ouen-sur-Seine (les Puces, les Docks et l'après-JO)",
+    metaTitle: "10 choses à faire à Saint-Ouen-sur-Seine en 2026",
+    metaDesc: "Marché aux Puces, rue des Rosiers, parc du Château, Grand Parc des Docks, village olympique reconverti : 10 activités à Saint-Ouen-sur-Seine.",
+    category: "tourisme",
+    emoji: "🪑",
+    readMinutes: 6,
+    publishedAt: "2026-08-06",
+    updatedAt: "2026-08-06",
+    intro: "Saint-Ouen-sur-Seine est une commune de Seine-Saint-Denis d'environ 51 000 habitants, collée au nord de Paris entre la porte de Clignancourt et la Seine. Elle abrite le marché aux Puces de Saint-Ouen, le plus grand marché d'antiquités et de brocante au monde, qui attire chaque week-end une foule que peu de sites français égalent. Le reste de la ville a changé de visage en quinze ans : arrivée de la ligne 14, écoquartier des Docks bâti sur d'anciennes emprises industrielles au bord de la Seine, et village des athlètes des Jeux de 2024 reconverti en logements. On y vient d'abord pour les Puces, mais la balade tient sur une journée entière.",
+    sections: [
+      {
+        heading: "1. Le marché aux Puces",
+        body: "Les Puces sont nées à la fin du XIXᵉ siècle, quand les chiffonniers chassés de Paris par les travaux d'assainissement se sont réinstallés juste au-delà des fortifications, à Saint-Ouen. Le surnom vient de l'état des meubles et des matelas qu'on y revendait. C'est aujourd'hui un ensemble de marchés distincts couvrant plusieurs hectares, avec plus d'un millier de marchands. Ouverture le samedi, le dimanche et le lundi : venir un mardi, c'est trouver portes closes, et c'est l'erreur la plus fréquente des visiteurs de passage. Le lundi est le jour des professionnels, moins dense et plus propice à la négociation."
+      },
+      {
+        heading: "2. Se repérer entre les marchés",
+        body: "Les Puces ne forment pas un marché mais une douzaine, chacun avec sa spécialité et son ambiance, et savoir lequel viser change tout. Vernaison est le plus ancien et le plus labyrinthique, allées étroites et petits objets. Paul-Bert Serpette concentre le mobilier et le design du XXᵉ siècle, le segment le plus cher et le plus couru des décorateurs. Biron aligne le mobilier ancien haut de gamme sous verrière. Dauphine mélange les registres sur deux niveaux. Malik est le marché du vêtement vintage et du streetwear, très fréquenté par les jeunes. Jules-Vallès, Malassis, Cambo et L'Usine complètent l'ensemble. Prévoir des chaussures confortables et du temps : tout parcourir prend la journée."
+      },
+      {
+        heading: "3. La rue des Rosiers et le jazz manouche",
+        body: "La rue des Rosiers est l'artère centrale des Puces, celle qui relie la plupart des marchés entre eux. On y croise les stands en plein air, les restaurants du quartier et La Chope des Puces, bistrot minuscule devenu une institution du jazz manouche : la guitare y résonne le week-end, dans la filiation directe de Django Reinhardt, qui a vécu et joué dans le nord parisien. C'est l'un des rares endroits en Île-de-France où l'on entend cette musique jouée en petit comité sans billet ni réservation. Arriver tôt pour avoir une place, l'endroit est exigu."
+      },
+      {
+        heading: "4. Le parc du Château et la Déclaration de Saint-Ouen",
+        body: "Le parc du Château, au sud de la ville, est le poumon vert du centre et abrite le château de Saint-Ouen, construit au début du XIXᵉ siècle. C'est sur ce domaine que Louis XVIII a signé le 2 mai 1814 la Déclaration de Saint-Ouen, texte par lequel le roi revenu d'exil s'engageait à octroyer une charte constitutionnelle : le point de départ de la Restauration se joue donc ici, à quelques centaines de mètres des Puces. Le parc est ouvert librement, avec pelouses, arbres anciens et jeux pour enfants — l'endroit où souffler après une matinée de brocante."
+      },
+      {
+        heading: "5. Le Grand Parc des Docks et les berges de Seine",
+        body: "Les Docks de Saint-Ouen occupent d'anciennes emprises industrielles au bord de la Seine, reconverties en écoquartier avec logements, bureaux et un grand parc public en cascade jusqu'au fleuve. Le dessin joue sur des jardins thématiques, des noues de gestion des eaux pluviales et une prairie ouverte, ce qui en fait l'un des parcs les plus récents et les plus vastes de la petite couronne nord. Les berges se prolongent à pied et à vélo vers L'Île-Saint-Denis et Saint-Denis : l'itinéraire longe le fleuve presque sans interruption et donne une lecture claire de la mutation de la boucle."
+      },
+      {
+        heading: "6. Le village des athlètes reconverti",
+        body: "Le village des athlètes des Jeux de 2024 s'étend sur Saint-Ouen, Saint-Denis et L'Île-Saint-Denis, et sa reconversion en quartier d'habitation était prévue dès la conception. Se promener dans ce périmètre est l'occasion assez rare de voir un héritage olympique livré et habité plutôt qu'à l'abandon : bâtiments bas en bois et béton bas carbone, rues traversantes, accès aux berges. Le contraste avec les grands ensembles voisins des années 1960 se lit à l'œil nu et raconte deux époques de fabrique de la ville sur la même commune."
+      },
+      {
+        heading: "7. L'hôtel de ville et le centre ancien",
+        body: "Le centre historique, autour de l'hôtel de ville et de l'église Notre-Dame-du-Rosaire, tient sur quelques rues et se visite en une heure. C'est la partie la moins touristique de Saint-Ouen, et de loin la plus ordinaire : marché municipal, cafés de quartier, commerces sans mise en scène. Pour qui vient uniquement pour les Puces, le détour a un intérêt précis — il montre que la ville existe indépendamment du marché, ce que la seule visite du samedi ne laisse pas deviner."
+      },
+      {
+        heading: "8. Manger aux Puces",
+        body: "La restauration des Puces est un genre en soi : bistrots de brocanteurs ouverts uniquement les jours de marché, tables installées dans les allées, cuisine de bistrot sans prétention, et une poignée d'adresses plus travaillées apparues avec la gentrification du quartier. Le rythme est particulier — tout ferme tôt, en même temps que les stands, et une arrivée à 15 h un dimanche laisse peu de choix. La règle est simple : déjeuner avant 13 h 30. Côté ville, l'offre est plus classique et ouverte toute la semaine, notamment autour du centre et des Docks."
+      },
+      {
+        heading: "9. Basilique de Saint-Denis et Stade de France à côté",
+        body: "Saint-Ouen se combine facilement avec ses voisines. La basilique de Saint-Denis, nécropole des rois de France et premier édifice gothique, est à quelques minutes en métro ou en tramway ; le Stade de France est dans le même rayon. Pour un week-end, l'enchaînement Puces le samedi matin, basilique l'après-midi tient sans voiture et sans temps de transport significatif. C'est le principal argument de Saint-Ouen comme base de visite : on est dans Paris en une station."
+      },
+      {
+        heading: "10. Y aller et en repartir",
+        body: "Trois lignes de métro desservent la commune : la 4 à Porte de Clignancourt, à l'entrée sud des Puces, la 13 à Garibaldi et Mairie de Saint-Ouen, et la 14 depuis son prolongement nord, qui met Saint-Ouen à quelques minutes de Saint-Lazare et de Châtelet. Le RER C s'arrête également à Saint-Ouen. Deux conseils pratiques : venir en transport, le stationnement autour des Puces est difficile les jours de marché ; et surveiller ses affaires dans la foule des allées, comme dans tout marché très fréquenté. Les achats volumineux se font livrer, la plupart des marchands organisent l'expédition."
+      }
+    ],
+    relatedCities: ["saint-ouen-sur-seine", "saint-denis", "paris", "aubervilliers", "pantin", "asnieres-sur-seine"],
+    relatedGuides: [
+      "10-choses-a-faire-a-paris-2026",
+      "10-choses-a-faire-a-saint-denis-2026",
+      "10-choses-a-faire-a-versailles-2026"
+    ],
+    tags: ["10 choses à faire à Saint-Ouen", "activités Saint-Ouen 2026", "que faire à Saint-Ouen", "sorties Saint-Ouen", "marché aux Puces rue des Rosiers Docks village des athlètes"]
+  },
+  {
+    slug: "10-choses-a-faire-a-vitry-sur-seine-2026",
+    title: "10 choses à faire à Vitry-sur-Seine (le MAC VAL et la capitale française du street art)",
+    metaTitle: "10 choses à faire à Vitry-sur-Seine 2026 — activités",
+    metaDesc: "MAC VAL, street art de C215, Exploradôme, parc des Lilas, berges de Seine : 10 activités à Vitry-sur-Seine, ville d'art contemporain du Val-de-Marne.",
+    category: "tourisme",
+    emoji: "🎨",
+    readMinutes: 6,
+    publishedAt: "2026-08-06",
+    updatedAt: "2026-08-06",
+    intro: "Vitry-sur-Seine est une commune du Val-de-Marne d'environ 88 000 habitants, sur la rive gauche de la Seine au sud de Paris. Elle a la particularité d'être devenue une destination d'art contemporain sans musée-vitrine ni quartier historique : d'un côté le MAC VAL, le musée d'art contemporain construit par le département et ouvert au milieu des années 2000, de l'autre plusieurs centaines d'œuvres peintes à même les murs, les portes de garage et les armoires électriques de la ville. Vitry se visite à pied, en levant les yeux, et c'est une visite gratuite. Le reste — les berges, le parc des Lilas, l'Exploradôme — complète une journée qui ne ressemble à aucune autre en petite couronne.",
+    sections: [
+      {
+        heading: "1. Le MAC VAL",
+        body: "Le MAC VAL est le musée d'art contemporain du Val-de-Marne, le premier musée d'art contemporain construit par un département français. Sa collection est centrée sur la scène française depuis les années 1950, ce qui est rare : la plupart des institutions comparables privilégient l'international. Le bâtiment, bas et largement vitré, est posé au milieu d'un jardin ouvert, et les accrochages de la collection sont renouvelés régulièrement plutôt que figés. Expositions temporaires monographiques, programmation de performances, librairie et café. Fermé en début de semaine : vérifier le calendrier avant de se déplacer."
+      },
+      {
+        heading: "2. Le street art dans les rues",
+        body: "Vitry est considérée comme la capitale française du street art, et ce n'est pas un slogan de mairie : la densité d'œuvres visibles depuis la rue y est sans équivalent en France. L'impulsion vient largement de C215, de son vrai nom Christian Guémy, qui vit dans la ville et y a pochoiré des centaines de portraits sur des supports que personne ne regarde d'ordinaire — armoires électriques, boîtes aux lettres, bornes, portes. Des dizaines d'autres artistes français et étrangers sont venus peindre des pignons entiers. Rien n'est payant, rien n'est protégé, et les œuvres apparaissent et disparaissent : la ville que vous verrez ne sera pas exactement celle du guide."
+      },
+      {
+        heading: "3. Faire le parcours street art à pied",
+        body: "La bonne méthode est de partir du MAC VAL et de rayonner vers le centre-ville et les quartiers du Port-à-l'Anglais et de la Gare. Compter deux à trois heures de marche pour une traversée honnête, davantage si l'on s'arrête. Des parcours balisés et des visites guidées sont proposés par la ville et par des associations locales, souvent menées par des habitants qui connaissent l'histoire de chaque mur : c'est la formule qui apporte le plus, parce que beaucoup d'œuvres sont des commandes ou des réponses à d'autres œuvres et que le contexte ne se devine pas. Y aller de jour, évidemment, et à pied — en voiture on ne voit rien."
+      },
+      {
+        heading: "4. La galerie municipale Jean-Collet",
+        body: "La galerie municipale Jean-Collet est un centre d'art contemporain municipal, gratuit, qui programme des expositions d'artistes émergents et à mi-carrière. C'est le complément logique du MAC VAL : là où le musée montre une collection constituée, la galerie prend des risques sur des travaux en cours, avec des résidences et des productions faites sur place. L'échelle est modeste et la visite courte, ce qui en fait une étape facile à insérer entre deux quartiers. Programmation par saisons, fermeture entre deux accrochages."
+      },
+      {
+        heading: "5. L'Exploradôme",
+        body: "L'Exploradôme est un musée de sciences entièrement interactif, installé à Vitry depuis le début des années 2010 après des débuts parisiens. Le principe est le contraire d'un musée classique : on touche, on manipule, on essaie, sur des expériences de physique, d'optique, de mathématiques et de développement durable, avec des ateliers encadrés. C'est conçu pour les enfants à partir de l'âge de l'école élémentaire et ça fonctionne aussi avec des adolescents. Réservation conseillée le mercredi et pendant les vacances scolaires, la fréquentation scolaire occupe une grande partie de la semaine."
+      },
+      {
+        heading: "6. Le parc départemental des Lilas",
+        body: "Le parc des Lilas est l'un des plus vastes parcs départementaux du Val-de-Marne, et le seul qui ait conservé une vraie activité agricole. C'est un ancien plateau maraîcher — Vitry a longtemps nourri Paris en légumes et en fleurs, d'où le nom — dont une partie est encore cultivée, en jardins familiaux et en parcelles professionnelles, tandis que le reste est aménagé en prairies, vergers et chemins. L'ambiance n'a rien d'un parc urbain léché : c'est ouvert, venteux, avec des points de vue dégagés sur la vallée. Accès libre, idéal pour un pique-nique ou une sortie vélo."
+      },
+      {
+        heading: "7. L'église Saint-Germain et le vieux Vitry",
+        body: "L'église Saint-Germain, classée au titre des monuments historiques, est le bâtiment le plus ancien de la commune, avec des parties médiévales et des remaniements Renaissance. Elle rappelle que Vitry était un village vigneron et maraîcher bien avant l'industrie, ce que la ville d'aujourd'hui ne laisse pas soupçonner. Le noyau ancien qui l'entoure tient sur quelques rues autour de l'hôtel de ville et du marché du centre : c'est court, mais c'est le seul endroit où la commune ressemble à un bourg."
+      },
+      {
+        heading: "8. Les berges de Seine et le Port-à-l'Anglais",
+        body: "Vitry a plusieurs kilomètres de front de Seine, longtemps industriels et progressivement rendus à la promenade. Le quartier du Port-à-l'Anglais, autour de l'écluse et de son pont, garde une atmosphère de bord de fleuve ouvrier avec ses pavillons, ses péniches et ses ateliers, et c'est l'un des secteurs les plus riches en fresques. Les quais aménagés se raccordent aux itinéraires cyclables qui remontent vers Ivry et Paris d'un côté, descendent vers Choisy-le-Roi et Villeneuve-Saint-Georges de l'autre. À vélo, c'est le meilleur moyen d'enchaîner les communes de la rive gauche."
+      },
+      {
+        heading: "9. Concerts, cinéma et vie de quartier",
+        body: "Vitry a un cinéma municipal art et essai, un théâtre municipal actif et plusieurs lieux associatifs qui programment concerts et spectacles à des tarifs très inférieurs à ceux de Paris. Les marchés — celui du centre et ceux des quartiers — sont parmi les plus vivants du sud de la petite couronne et reflètent le peuplement de la ville : produits maghrébins, asiatiques, portugais, antillais, africains. Pour un visiteur, c'est l'occasion de manger correctement pour trois fois moins cher qu'intra-muros, dans des cantines de quartier sans devanture soignée."
+      },
+      {
+        heading: "10. Y aller",
+        body: "Le RER C dessert la gare de Vitry-sur-Seine, à l'est de la commune, à une quinzaine de minutes de la Bibliothèque François-Mitterrand. Le tramway T9, mis en service au début des années 2020 entre la porte de Choisy et Orly, traverse la ville du nord au sud et dessert directement le MAC VAL. Plusieurs lignes de bus complètent le maillage, et les futures gares du Grand Paris Express doivent améliorer encore la desserte. Pour une visite street art, la combinaison la plus efficace reste tram à l'aller, marche sur place, RER au retour."
+      }
+    ],
+    relatedCities: ["vitry-sur-seine", "ivry-sur-seine", "choisy-le-roi", "alfortville", "creteil", "paris"],
+    relatedGuides: [
+      "10-choses-a-faire-a-paris-2026",
+      "10-choses-a-faire-a-saint-denis-2026",
+      "10-choses-a-faire-a-boulogne-billancourt-2026"
+    ],
+    tags: ["10 choses à faire à Vitry-sur-Seine", "activités Vitry 2026", "que faire à Vitry-sur-Seine", "street art Vitry", "MAC VAL C215 Exploradôme parc des Lilas Port-à-l'Anglais"]
+  },
+  {
+    slug: "10-choses-a-faire-a-montreuil-2026",
+    title: "10 choses à faire à Montreuil (les murs à pêches, Méliès et les ateliers d'artistes)",
+    metaTitle: "10 choses à faire à Montreuil 2026 — activités locales",
+    metaDesc: "Murs à pêches, cinéma Le Méliès, parc des Beaumonts, marché de la Croix-de-Chavaux, musée de l'Histoire vivante : 10 activités à Montreuil.",
+    category: "tourisme",
+    emoji: "🍑",
+    readMinutes: 6,
+    publishedAt: "2026-08-06",
+    updatedAt: "2026-08-06",
+    intro: "Montreuil est une commune de Seine-Saint-Denis d'environ 108 000 habitants, accolée à Paris à l'est, entre Vincennes et Bagnolet. Deux choses en font une visite et non une simple banlieue traversée : un site agricole unique en Europe, les murs à pêches, réseau de murs plâtrés bâtis pour faire mûrir des pêchers sous le climat parisien et approvisionner la capitale ; et une densité d'artistes, d'ateliers et de lieux culturels qui n'a d'équivalent qu'à Paris intra-muros. Georges Méliès y a construit son studio de verre à la fin du XIXᵉ siècle, et le cinéma de la ville porte son nom. On y vient pour un après-midi et on y reste la journée.",
+    sections: [
+      {
+        heading: "1. Les murs à pêches",
+        body: "Les murs à pêches sont un système horticole mis au point à Montreuil à partir du XVIIᵉ siècle : des murs enduits de plâtre, orientés pour capter et restituer la chaleur, contre lesquels on palissait des pêchers. Le procédé permettait de produire à Montreuil des fruits qu'on n'obtenait normalement qu'en climat plus chaud, et la production alimentait les tables parisiennes puis l'exportation. Le réseau a compté des centaines de kilomètres de murs ; il n'en subsiste qu'une fraction, dans le quartier Saint-Antoine, dont une partie est protégée. Le site se visite avec les associations qui l'entretiennent et le cultivent : c'est de l'agriculture urbaine militante, pas un parc aménagé."
+      },
+      {
+        heading: "2. Le cinéma Le Méliès",
+        body: "Le Méliès est l'un des plus grands cinémas art et essai de France et l'un des rares de cette taille à être municipal. Il porte le nom de Georges Méliès, qui a installé à Montreuil son studio de verre à la fin des années 1890 — l'un des tout premiers studios de cinéma au monde — et y a tourné l'essentiel de son œuvre. La programmation est exigeante, avec versions originales, rétrospectives, documentaires et rencontres, et les tarifs restent nettement inférieurs à ceux du centre de Paris. C'est le point d'ancrage culturel du centre-ville, à deux pas de la mairie."
+      },
+      {
+        heading: "3. Le marché de la Croix-de-Chavaux",
+        body: "Le marché de la Croix-de-Chavaux est l'un des plus grands marchés de l'est parisien, sur une place qui est aussi le vrai centre de gravité de la ville. Fruits et légumes, poissonniers, produits maghrébins, africains, portugais et asiatiques, textile : les prix y sont sensiblement inférieurs à ceux des marchés parisiens et le public est celui du quartier, pas des touristes. Les jours de marché, la place déborde sur les rues adjacentes. C'est l'endroit à choisir pour faire ses courses avant un pique-nique aux Beaumonts."
+      },
+      {
+        heading: "4. Le parc des Beaumonts",
+        body: "Le parc des Beaumonts occupe une hauteur à l'est de la ville, sur d'anciennes carrières puis décharges reconquises. Deux raisons d'y monter : le panorama, qui dégage Paris et la tour Eiffel par temps clair, et les oiseaux — les mares et les friches du parc en font l'un des sites d'observation ornithologique les plus suivis de la petite couronne, avec des passages migratoires réguliers et une communauté d'observateurs active. Le parc est volontairement peu domestiqué, avec des zones laissées en gestion naturelle. Accès libre."
+      },
+      {
+        heading: "5. Le musée de l'Histoire vivante",
+        body: "Le musée de l'Histoire vivante, installé dans le château du parc Montreau, a été fondé à la fin des années 1930 et consacre ses collections à l'histoire sociale et ouvrière : mouvement ouvrier, Front populaire, Commune de Paris, luttes du XXᵉ siècle, avec un fonds d'affiches, de photographies et d'objets qu'on ne trouve pas ailleurs sous cette forme. C'est un musée petit, engagé et assumé comme tel, ce qui le rend plus intéressant qu'une présentation neutre. Le parc Montreau qui l'entoure est l'un des plus grands espaces verts de la commune."
+      },
+      {
+        heading: "6. Les ateliers d'artistes",
+        body: "Montreuil concentre l'une des plus fortes densités d'ateliers d'artistes de France, conséquence directe de loyers longtemps bas et de vastes surfaces industrielles disponibles. La ville organise chaque année des journées portes ouvertes qui permettent d'entrer chez des centaines de plasticiens, sculpteurs, graveurs et artisans, dans leurs propres locaux : c'est le meilleur moment pour venir, et l'un des rares événements en Île-de-France où l'on discute directement avec les créateurs sans intermédiaire. Le reste de l'année, plusieurs collectifs et galeries ouvrent ponctuellement."
+      },
+      {
+        heading: "7. Théâtres et scènes",
+        body: "Le Nouveau théâtre de Montreuil est un centre dramatique national, avec la programmation contemporaine et le budget de création que ce label suppose. Le théâtre Berthelot, municipal, joue un registre plus proche du quartier. La Maison populaire mêle centre d'art contemporain, ateliers de pratique et éducation populaire dans un même bâtiment, formule héritée de l'histoire militante de la ville. Les Instants Chavirés, enfin, sont une salle de référence pour les musiques improvisées et expérimentales, connue bien au-delà de la France dans ce milieu. Peu de villes de cette taille alignent quatre lieux aussi différents."
+      },
+      {
+        heading: "8. Le marché aux puces de la porte de Montreuil",
+        body: "Le marché aux puces de la porte de Montreuil est l'exact opposé de celui de Saint-Ouen : pas d'antiquaires ni de vitrines, mais de la brocante brute, du vêtement d'occasion, des pièces détachées et du bric-à-brac étalé au sol, le samedi, le dimanche et le lundi. C'est un lieu populaire, dense et bruyant, où l'on chine sans filet. Le site fait l'objet d'un projet de réaménagement de la porte, ce qui pourrait modifier son emprise : se renseigner avant de s'y rendre. Surveiller ses affaires, comme sur tout marché très fréquenté."
+      },
+      {
+        heading: "9. Manger à Montreuil",
+        body: "La restauration de Montreuil suit son peuplement. La ville abrite l'une des plus importantes communautés maliennes de France, et la cuisine ouest-africaine y est représentée de façon dense et sérieuse, notamment autour de la rue de Paris et du bas Montreuil. S'ajoutent des tables maghrébines, portugaises, sri-lankaises et chinoises, et une génération de cantines, brasseries et cavistes arrivée avec les artistes et les familles parisiennes. Les prix restent bien inférieurs à ceux de Paris pour une qualité comparable, et beaucoup d'adresses ne prennent pas de réservation : arriver tôt."
+      },
+      {
+        heading: "10. Y aller",
+        body: "La ligne 9 du métro dessert Robespierre, Croix-de-Chavaux et Mairie de Montreuil, dans la partie basse et centrale de la commune. Depuis le prolongement de la ligne 11 vers Rosny-Bois-Perrier, les hauteurs sont également desservies, ce qui a désenclavé les quartiers est et le secteur des murs à pêches. Le tramway T1 passe au nord, le RER A et le RER E sont accessibles aux communes voisines. À vélo, Montreuil est à un quart d'heure de la place de la Nation. Pour une première visite : métro jusqu'à Croix-de-Chavaux, marche vers le haut Montreuil, retour par la ligne 11."
+      }
+    ],
+    relatedCities: ["montreuil", "bagnolet", "paris", "pantin", "saint-denis", "noisy-le-grand"],
+    relatedGuides: [
+      "10-choses-a-faire-a-paris-2026",
+      "10-choses-a-faire-a-saint-denis-2026",
+      "10-choses-a-faire-a-versailles-2026"
+    ],
+    tags: ["10 choses à faire à Montreuil", "activités Montreuil 2026", "que faire à Montreuil", "sorties Montreuil", "murs à pêches Méliès Beaumonts Croix-de-Chavaux ateliers d'artistes"]
+  },
+  {
+    slug: "10-choses-a-faire-a-argenteuil-2026",
+    title: "10 choses à faire à Argenteuil (Monet, la Seine et la Sainte Tunique)",
+    metaTitle: "10 choses à faire à Argenteuil 2026 — activités locales",
+    metaDesc: "Sites impressionnistes de Monet, basilique Saint-Denys, butte d'Orgemont, berges de Seine, asperge d'Argenteuil : 10 activités à Argenteuil.",
+    category: "tourisme",
+    emoji: "🖼️",
+    readMinutes: 6,
+    publishedAt: "2026-08-06",
+    updatedAt: "2026-08-06",
+    intro: "Argenteuil est une commune du Val-d'Oise d'environ 108 000 habitants, sur la rive droite de la Seine à la sortie nord-ouest de Paris. C'est l'un des hauts lieux de l'impressionnisme : Claude Monet y a vécu de 1871 à 1878 et y a peint une partie décisive de son œuvre — le pont, les régates, son bateau-atelier, les coquelicots — pendant que Manet, Renoir, Sisley et Caillebotte venaient peindre le même bassin. Rien de tout cela ne se visite comme un musée : les tableaux sont ailleurs, et ce sont les points de vue qui restent. Argenteuil se parcourt donc en cherchant les emplacements, entre les berges, la basilique qui abrite la Sainte Tunique et les coteaux qui portaient la vigne.",
+    sections: [
+      {
+        heading: "1. Les berges de Seine sur les pas de Monet",
+        body: "Le bassin d'Argenteuil était au XIXᵉ siècle un lieu de villégiature et de canotage pour les Parisiens, relié à la capitale par le chemin de fer : c'est cette combinaison — eau, voiles, trains, loisirs — qui a attiré les impressionnistes. Monet s'installe à Argenteuil en 1871 et y peint jusqu'en 1878, souvent depuis un bateau-atelier amarré sur la Seine. Manet le représentera d'ailleurs peignant à bord. Les berges aménagées se longent aujourd'hui à pied et à vélo, avec des points de vue signalés qui replacent les toiles sur le paysage réel. Le pont que Monet a peint a disparu, mais le cadrage du fleuve, lui, est reconnaissable."
+      },
+      {
+        heading: "2. La basilique Saint-Denys et la Sainte Tunique",
+        body: "La basilique Saint-Denys, au centre-ville, conserve la Sainte Tunique, relique vénérée depuis le Moyen Âge et présentée comme la tunique portée par le Christ. Elle n'est pas exposée en permanence : sa présentation au public, appelée ostension, est un événement exceptionnel et très espacé dans le temps, qui attire alors des dizaines de milliers de pèlerins. Hors ostension, la basilique se visite pour elle-même, avec le trésor et l'histoire du culte. C'est le principal monument religieux de la ville et le motif de sa notoriété avant l'impressionnisme."
+      },
+      {
+        heading: "3. L'abbaye et le souvenir d'Héloïse",
+        body: "Argenteuil a été le siège d'un monastère de femmes attaché à l'abbaye de Saint-Denis, où Héloïse fut religieuse puis prieure avant d'être expulsée avec sa communauté et de fonder le Paraclet. Sa correspondance avec Abélard est l'un des textes les plus lus du Moyen Âge occidental, et l'épisode argenteuillais en est un moment charnière. Il ne reste du monastère que des vestiges et des traces dans le tissu urbain : la visite est ici affaire de repérage et de lecture, pas de monument intact. À combiner avec la basilique, à quelques minutes."
+      },
+      {
+        heading: "4. La butte et le moulin d'Orgemont",
+        body: "La butte d'Orgemont, au sud-est de la commune, est le point haut d'Argenteuil et porte un ancien moulin. La montée se fait à pied depuis les quartiers bas et le panorama couvre la boucle de la Seine, La Défense et, par temps clair, une bonne partie de l'ouest parisien. C'est le meilleur endroit pour comprendre la géographie de la ville : le fleuve en bas, le coteau au milieu, le plateau derrière. Le sous-sol du coteau est creusé d'anciennes carrières de gypse, exploitées pendant des siècles pour le plâtre parisien — d'où les affaissements et les interdictions d'accès à certains secteurs, à respecter."
+      },
+      {
+        heading: "5. Les coteaux, la vigne et l'asperge",
+        body: "Avant l'industrie, Argenteuil vivait de ses coteaux : la vigne d'abord, qui couvrait une grande partie des pentes et alimentait les guinguettes parisiennes, puis le maraîchage. La ville a donné son nom à une variété historique d'asperge, l'asperge d'Argenteuil, à pointe violette, longtemps la référence française et encore cultivée par des producteurs attachés à la conserver. Les coteaux se parcourent à pied par les sentiers qui relient la butte aux quartiers hauts, entre jardins, friches et vues dégagées. Le marché du centre est l'endroit où l'asperge se retrouve, en saison, au printemps."
+      },
+      {
+        heading: "6. Le nautisme sur la Seine",
+        body: "Le bassin qui accueillait les régates peintes par Monet n'a pas cessé son activité : Argenteuil reste un site de sports nautiques en Île-de-France, avec de l'aviron, du canoë-kayak et de la voile légère encadrés par des clubs installés sur les berges. Beaucoup proposent des séances d'initiation, et pagayer sur ce bief est la façon la plus littérale de retrouver le point de vue des toiles, depuis l'eau plutôt que depuis la rive. Se renseigner sur les créneaux et les conditions de navigation avant de venir : la Seine reste un fleuve à trafic commercial."
+      },
+      {
+        heading: "7. Le parc des Berges et les espaces verts",
+        body: "Le parc des Berges, le long du fleuve, est le principal espace de promenade aménagé de la ville, avec pelouses, aires de jeux et accès direct au chemin de halage. Il se prolonge par les itinéraires cyclables qui remontent vers Bezons et Colombes d'un côté, vers l'île Marante et Épinay de l'autre. Sur une journée, la boucle berges-basilique-butte se fait entièrement à pied et à vélo, sans reprendre un transport. C'est le format le plus efficace pour une première visite."
+      },
+      {
+        heading: "8. Le patrimoine industriel",
+        body: "Argenteuil a été une ville d'usines : aéronautique, mécanique, chimie, avec des sites majeurs installés dans la boucle au XXᵉ siècle. Cette histoire a laissé des halles, des cités ouvrières et des emprises aujourd'hui reconverties ou en cours de mutation, notamment autour de la gare et du secteur des Berges. Se promener dans ces quartiers explique la forme actuelle de la ville mieux que n'importe quel monument : un bourg viticole devenu banlieue industrielle puis ville de banlieue populaire, en un siècle et demi. Les Journées du patrimoine ouvrent régulièrement des sites autrement inaccessibles."
+      },
+      {
+        heading: "9. Marchés et vie de quartier",
+        body: "Argenteuil a plusieurs marchés hebdomadaires, dont celui du centre-ville, parmi les plus fréquentés du Val-d'Oise. On y trouve le reflet du peuplement de la commune : produits maghrébins, turcs, africains subsahariens, portugais et antillais, à des prix nettement inférieurs à ceux de Paris. La restauration suit la même logique, avec des cantines de quartier sans mise en scène et une offre de pâtisserie orientale dense. Pour un visiteur venu pour l'impressionnisme, c'est le contrepoint utile : la ville d'aujourd'hui ne ressemble pas aux tableaux, et il n'y a pas de raison de le cacher."
+      },
+      {
+        heading: "10. Y aller",
+        body: "Argenteuil est desservie par la ligne J du Transilien depuis la gare Saint-Lazare, qui la met à environ un quart d'heure du centre de Paris, avec deux gares sur la commune : Argenteuil et Val d'Argenteuil. C'est l'une des banlieues les mieux connectées au centre parisien pour sa distance, ce qui explique déjà l'installation de Monet à l'époque du chemin de fer. En voiture, l'accès se fait par l'A15 et le pont d'Argenteuil, mais le stationnement au centre est contraint. À vélo, les berges relient la commune à Colombes, Bezons et La Défense sans discontinuité notable."
+      }
+    ],
+    relatedCities: ["argenteuil", "bezons", "colombes", "sartrouville", "cergy", "paris"],
+    relatedGuides: [
+      "10-choses-a-faire-a-paris-2026",
+      "10-choses-a-faire-a-versailles-2026",
+      "10-choses-a-faire-a-chantilly-2026"
+    ],
+    tags: ["10 choses à faire à Argenteuil", "activités Argenteuil 2026", "que faire à Argenteuil", "sorties Argenteuil", "Monet impressionnisme Sainte Tunique butte d'Orgemont asperge"]
+  },
+  {
+    slug: "10-choses-a-faire-a-neuilly-sur-seine-2026",
+    title: "10 choses à faire à Neuilly-sur-Seine (l'île de la Jatte, l'axe historique et le Bois)",
+    metaTitle: "10 choses à faire à Neuilly-sur-Seine 2026 — sorties",
+    metaDesc: "Île de la Jatte et Seurat, Folie Saint-James, axe historique, Bois de Boulogne, Jardin d'acclimatation : 10 activités à Neuilly-sur-Seine.",
+    category: "tourisme",
+    emoji: "🌳",
+    readMinutes: 6,
+    publishedAt: "2026-08-06",
+    updatedAt: "2026-08-06",
+    intro: "Neuilly-sur-Seine est une commune des Hauts-de-Seine d'environ 61 000 habitants, coincée entre le Bois de Boulogne, la Seine et La Défense. Elle a une réputation de ville riche et calme qui masque deux choses intéressantes pour un visiteur : elle est traversée en son milieu par l'axe historique de Paris, cette ligne droite qui va du Louvre à la Grande Arche, et elle possède l'île de la Grande Jatte, celle du tableau de Seurat, qui fut aussi un motif pour Monet, Sisley et Van Gogh. Neuilly ne se visite pas pour des monuments — le château de Louis-Philippe a brûlé en 1848 — mais pour une promenade urbaine dense, verte et entièrement gratuite.",
+    sections: [
+      {
+        heading: "1. L'île de la Grande Jatte",
+        body: "L'île de la Grande Jatte s'étire sur la Seine entre Neuilly, Levallois et Courbevoie. C'est le sujet d'« Un dimanche après-midi à l'île de la Grande Jatte », le grand tableau pointilliste de Georges Seurat, aujourd'hui conservé à Chicago, et d'une série d'œuvres de Monet, Sisley et Van Gogh qui y sont venus peindre les guinguettes et les bords d'eau. L'île se traverse à pied dans sa longueur par une promenade plantée, avec des panneaux qui replacent les toiles face à leur point de vue. Elle mêle aujourd'hui immeubles résidentiels, bureaux et berges publiques : le contraste avec la scène de Seurat fait partie de l'intérêt."
+      },
+      {
+        heading: "2. L'axe historique et le pont de Neuilly",
+        body: "L'avenue Charles-de-Gaulle traverse Neuilly d'un bout à l'autre dans le prolongement exact des Champs-Élysées, entre l'Arc de Triomphe et le pont de Neuilly, puis La Défense et la Grande Arche. C'est l'un des rares endroits où l'on peut se tenir sur cette perspective de plusieurs kilomètres et la voir dans les deux sens : l'Arc de Triomphe derrière, l'Arche devant. Le meilleur point d'observation est le pont de Neuilly lui-même, ou les quais en contrebas. C'est court, gratuit, et ça explique la géographie de l'ouest parisien mieux qu'un plan."
+      },
+      {
+        heading: "3. La Folie Saint-James",
+        body: "La Folie Saint-James est un jardin de la fin du XVIIIᵉ siècle, créé pour le financier Claude Baudard de Saint-James sur des plans de l'architecte François-Joseph Bélanger, également auteur de Bagatelle. Sa pièce maîtresse est le Grand Rocher, fabrique monumentale en blocs de pierre abritant un temple à colonnes — le type même de la folie d'Ancien Régime, conçue pour épater. Le parc est ouvert au public et reste largement méconnu, y compris des Parisiens. Petit, il se visite en une demi-heure et constitue le seul vrai morceau de patrimoine du XVIIIᵉ siècle accessible dans la commune."
+      },
+      {
+        heading: "4. Le Bois de Boulogne par la porte des Sablons",
+        body: "Neuilly borde le Bois de Boulogne sur toute sa limite ouest, et la station Les Sablons, sur la ligne 1, est l'accès le plus commode à cette partie du Bois. À quelques minutes à pied : le Jardin d'acclimatation, parc d'attractions et jardin historique ouvert sous le Second Empire ; la Fondation Louis Vuitton, bâtiment de Frank Gehry consacré à l'art contemporain ; et, plus loin, le parc de Bagatelle et sa roseraie. Ces équipements relèvent administrativement de Paris, mais on y accède depuis Neuilly, et c'est la principale raison pratique de descendre à cette station."
+      },
+      {
+        heading: "5. Le souvenir du château de Neuilly",
+        body: "Neuilly a été une résidence royale : Louis-Philippe y possédait un château qu'il agrandit considérablement et où il séjournait volontiers. L'édifice a été pillé et incendié pendant la révolution de février 1848, et il n'en subsiste presque rien — le domaine a été loti dans la seconde moitié du XIXᵉ siècle, ce qui explique le dessin de certaines rues et la présence de fragments architecturaux intégrés à des propriétés privées. C'est une visite en creux : on cherche les traces d'un château disparu, et le quartier se lit différemment une fois qu'on sait ce qui s'y trouvait."
+      },
+      {
+        heading: "6. Les quais et la promenade au bord de Seine",
+        body: "Entre l'île de la Jatte et le pont de Neuilly, les berges offrent une promenade continue au ras de l'eau, avec vue sur les tours de La Défense qui montent juste en face. C'est l'un des tronçons les plus agréables de la Seine en aval de Paris, parce que la rive est plantée et que le trafic routier passe au-dessus. À vélo, l'itinéraire se raccorde vers l'amont au bois de Boulogne et à Paris, vers l'aval à Courbevoie et Puteaux. Compter une heure de marche pour la boucle île-quais-pont."
+      },
+      {
+        heading: "7. L'architecture résidentielle",
+        body: "La partie de Neuilly comprise entre le boulevard d'Inkermann et le Bois est un catalogue d'architecture résidentielle du dernier siècle et demi : hôtels particuliers du Second Empire, villas et immeubles Art nouveau puis Art déco, réalisations modernes des années 1930 aux années 1960. Beaucoup de rues sont calmes au point d'être silencieuses, et la promenade se fait sans but précis, en regardant les façades, les grilles et les jardins. C'est le genre de visite qui ne figure sur aucune liste et qui occupe pourtant très bien une fin d'après-midi."
+      },
+      {
+        heading: "8. L'église Saint-Pierre et le centre-ville",
+        body: "L'église Saint-Pierre de Neuilly, sur l'avenue du Roule, est le principal édifice religieux de la commune, dans le goût néoclassique du XIXᵉ siècle. Autour, le centre-ville tient sur quelques rues commerçantes — l'avenue du Roule et la rue de Chartres — avec des commerces de bouche, un marché couvert et des terrasses. Le niveau de prix est celui de l'ouest parisien, sans surprise, mais le marché reste l'endroit le plus vivant de la commune un matin de week-end, et le meilleur point de départ pour composer un pique-nique à emporter au Bois ou sur l'île."
+      },
+      {
+        heading: "9. Le théâtre et la vie culturelle",
+        body: "Le Théâtre des Sablons est la principale salle de la commune, avec une programmation grand public de théâtre, musique et spectacles jeune public, dans un équipement récemment rénové. La ville accueille aussi une médiathèque bien fournie et une programmation d'expositions municipales. L'offre culturelle de Neuilly n'a pas vocation à rivaliser avec Paris, qui est à une station de métro, mais elle a un avantage concret : les places se trouvent, y compris tard, et les tarifs sont inférieurs à ceux des salles du centre."
+      },
+      {
+        heading: "10. Y aller et enchaîner",
+        body: "La ligne 1 du métro traverse Neuilly avec les stations Les Sablons, Pont de Neuilly et, en limite, Porte Maillot. C'est une desserte directe depuis le Louvre, Châtelet et la Bastille sans changement, et La Défense est à une station au-delà du pont. Le RER C et le RER E sont accessibles à proximité, et plusieurs lignes de bus relient la commune à Levallois et Courbevoie. L'enchaînement le plus naturel sur une journée : Bois de Boulogne et Jardin d'acclimatation le matin, île de la Jatte l'après-midi, La Défense en fin de journée pour la Grande Arche au coucher du soleil."
+      }
+    ],
+    relatedCities: ["neuilly-sur-seine", "levallois-perret", "courbevoie", "puteaux", "paris", "boulogne-billancourt"],
+    relatedGuides: [
+      "10-choses-a-faire-a-paris-2026",
+      "10-choses-a-faire-a-boulogne-billancourt-2026",
+      "10-choses-a-faire-a-versailles-2026"
+    ],
+    tags: ["10 choses à faire à Neuilly-sur-Seine", "activités Neuilly 2026", "que faire à Neuilly-sur-Seine", "sorties Neuilly", "île de la Grande Jatte Seurat Folie Saint-James Bois de Boulogne axe historique"]
+  },
+  {
+    slug: "10-choses-a-faire-a-pantin-2026",
+    title: "10 choses à faire à Pantin (le canal de l'Ourcq, les Grands Moulins et la danse)",
+    metaTitle: "10 choses à faire à Pantin 2026 — activités locales",
+    metaDesc: "Canal de l'Ourcq, Grands Moulins, Centre national de la danse, Magasins généraux, parc de la Bergère : 10 activités à Pantin, aux portes de Paris.",
+    category: "tourisme",
+    emoji: "🩰",
+    readMinutes: 6,
+    publishedAt: "2026-08-06",
+    updatedAt: "2026-08-06",
+    intro: "Pantin est une commune de Seine-Saint-Denis d'environ 57 000 habitants, immédiatement au nord-est de Paris, traversée par le canal de l'Ourcq. Elle a connu en une quinzaine d'années l'une des transformations les plus rapides de la petite couronne : usines et entrepôts des berges reconvertis en sièges d'entreprises, galeries d'art contemporain de dimension internationale installées dans d'anciennes halles, maisons de luxe venues y implanter leurs ateliers. Le résultat est une ville où l'on visite surtout de l'architecture industrielle recyclée, le long d'un canal qu'on rejoint à pied depuis le bassin de la Villette. C'est court, dense et presque entièrement gratuit.",
+    sections: [
+      {
+        heading: "1. Le canal de l'Ourcq à pied ou à vélo",
+        body: "Le canal de l'Ourcq entre dans Pantin par le nord-est de Paris et le traverse d'un bout à l'autre. La berge est aménagée en promenade continue et en piste cyclable, sans voiture, depuis le bassin de la Villette jusqu'à Bobigny, Bondy et bien au-delà vers la Seine-et-Marne. C'est l'itinéraire structurant de toute visite de Pantin : les principaux bâtiments à voir sont dessus ou à cinquante mètres. Compter vingt minutes à vélo depuis Stalingrad, une petite heure à pied. En été, les berges parisiennes et pantinoises s'animent de guinguettes et de programmations en plein air."
+      },
+      {
+        heading: "2. Les Grands Moulins de Pantin",
+        body: "Les Grands Moulins sont l'édifice le plus spectaculaire de la ville : une minoterie industrielle des années 1920 dressée au bord du canal, silos et halles compris, qui approvisionnait Paris en farine. Le site a été reconverti en immeuble de bureaux tout en conservant sa silhouette, ses volumes et une partie de ses structures, ce qui en fait l'un des exemples les plus lisibles de réhabilitation industrielle en Île-de-France. On ne visite pas l'intérieur, mais la vue depuis la berge d'en face suffit largement : c'est le point de repère de Pantin et la meilleure photo de la promenade."
+      },
+      {
+        heading: "3. Le Centre national de la danse",
+        body: "Le CND occupe l'ancien centre administratif de Pantin, bâtiment de béton brut conçu dans les années 1970 par l'architecte Jacques Kalisz — un des rares édifices brutalistes français de cette ampleur à avoir été sauvé plutôt que démoli. Sa reconversion en Centre national de la danse, au début des années 2000, a conservé la structure et ouvert les volumes. C'est aujourd'hui l'institution de référence pour la danse en France : studios, résidences d'artistes, médiathèque spécialisée, spectacles et cours ouverts aux amateurs. Le hall et la médiathèque se visitent librement, et l'architecture vaut à elle seule le détour."
+      },
+      {
+        heading: "4. Les Magasins généraux",
+        body: "Les Magasins généraux sont un entrepôt de béton des années 1930 posé sur la berge, longtemps couvert de graffitis quand le bâtiment était à l'abandon, puis réhabilité pour accueillir une grande agence de publicité. La façade a conservé sa masse et son rythme d'origine, et le bâtiment a hébergé des expositions et des événements ouverts au public. Avec les Grands Moulins juste en face, il forme le duo qui résume Pantin : deux monuments industriels du XXᵉ siècle, sauvés parce que le tertiaire est venu s'y installer. À regarder depuis les deux rives, le point de vue change complètement."
+      },
+      {
+        heading: "5. Les galeries d'art contemporain",
+        body: "Pantin est devenue une place de l'art contemporain quand des galeries internationales ont cherché des surfaces impossibles à trouver dans Paris. La galerie Thaddaeus Ropac s'est installée au début des années 2010 dans une ancienne chaudronnerie et y présente des expositions à l'échelle muséale — sculptures monumentales, installations, grandes rétrospectives — avec entrée libre, ce qui est le point important : on y voit gratuitement des œuvres qu'on paierait un billet ailleurs. D'autres espaces et ateliers d'artistes se sont greffés autour. Vérifier les dates : les galeries ferment entre deux accrochages et le week-end selon les cas."
+      },
+      {
+        heading: "6. Le parc départemental de la Bergère",
+        body: "Le parc de la Bergère s'étend le long du canal à l'est de la commune, en limite de Bobigny. C'est l'un des grands parcs départementaux de Seine-Saint-Denis : pelouses, boisements, plans d'eau, aires de jeux et un accès direct à la berge cyclable. Il a été aménagé sur des terrains anciennement industriels et sert de respiration au bout de la promenade du canal. Accès libre toute l'année. Pour une sortie en famille, c'est l'étape à placer en fin de parcours, quand les enfants ont assez marché entre deux bâtiments de béton."
+      },
+      {
+        heading: "7. Le street art le long de l'Ourcq",
+        body: "Les berges du canal, de La Villette à Pantin et Aubervilliers, forment un parcours de street art balisé, avec des fresques monumentales commandées à des artistes français et étrangers sur les pignons et les murs qui bordent l'eau. L'intérêt est qu'il se fait sans détour : les œuvres sont sur l'itinéraire de promenade, visibles depuis la berge ou depuis un vélo. Comme partout, la sélection évolue, certaines fresques disparaissent avec les chantiers de reconversion. C'est le complément gratuit et sans horaires de la visite des galeries."
+      },
+      {
+        heading: "8. Le cimetière parisien de Pantin",
+        body: "Le cimetière parisien de Pantin est le plus vaste cimetière de France. Il appartient à la Ville de Paris mais se trouve sur le territoire de Pantin, comme plusieurs équipements parisiens rejetés hors des murs au XIXᵉ siècle pour des raisons sanitaires. Son échelle est difficile à imaginer avant d'y entrer : des avenues plantées, un plan orthogonal, des divisions qui se comptent par dizaines, et un calme total à quelques centaines de mètres du périphérique. On y trouve des sépultures de personnalités et un ossuaire. Visite libre aux heures d'ouverture ; prendre un plan à l'entrée, on s'y perd vraiment."
+      },
+      {
+        heading: "9. Salles, cinéma et festivals",
+        body: "Pantin a un cinéma art et essai municipal, le Ciné 104, avec une programmation exigeante et des tarifs bas, et le théâtre du Fil de l'eau pour les spectacles. La Dynamo est la salle et le siège de Banlieues Bleues, festival de jazz et de musiques improvisées qui se déploie chaque printemps dans plusieurs villes de Seine-Saint-Denis : c'est l'un des rendez-vous majeurs du genre en Île-de-France. Programmation à l'année dans la salle, hors festival. Pour un visiteur, c'est l'occasion d'une soirée à un prix sans rapport avec celui des salles parisiennes équivalentes."
+      },
+      {
+        heading: "10. Y aller",
+        body: "La ligne 5 du métro dessert Église de Pantin, Hoche et Bobigny-Pantin Raymond Queneau, toutes à distance de marche du canal. Le RER E s'arrête à la gare de Pantin, à quelques minutes de la gare du Nord et de Magenta. Le tramway T3b passe à la porte de Pantin, côté parisien, au niveau de la Philharmonie et de la Villette. Le plus agréable reste toutefois d'arriver par le canal, à pied ou à vélo depuis Stalingrad ou Jaurès : le trajet fait partie de la visite, et il évite complètement la question du stationnement."
+      }
+    ],
+    relatedCities: ["pantin", "aubervilliers", "paris", "montreuil", "saint-denis", "bagnolet"],
+    relatedGuides: [
+      "10-choses-a-faire-a-paris-2026",
+      "10-choses-a-faire-a-saint-denis-2026",
+      "10-choses-a-faire-a-versailles-2026"
+    ],
+    tags: ["10 choses à faire à Pantin", "activités Pantin 2026", "que faire à Pantin", "sorties Pantin", "canal de l'Ourcq Grands Moulins Centre national de la danse Magasins généraux"]
+  },
+  {
+    slug: "10-choses-a-faire-a-meaux-2026",
+    title: "10 choses à faire à Meaux (la cité épiscopale, la Grande Guerre et le brie)",
+    metaTitle: "10 choses à faire à Meaux 2026 — activités locales",
+    metaDesc: "Musée de la Grande Guerre, cathédrale Saint-Étienne, jardin Bossuet, brie de Meaux, parc du Pâtis, spectacle historique : 10 activités à Meaux.",
+    category: "tourisme",
+    emoji: "🧀",
+    readMinutes: 6,
+    publishedAt: "2026-08-06",
+    updatedAt: "2026-08-06",
+    intro: "Meaux est une sous-préfecture de Seine-et-Marne d'environ 55 000 habitants, à une demi-heure de la gare de l'Est, dans une boucle de la Marne. Elle réunit trois motifs de visite sans rapport les uns avec les autres et tous solides : une cité épiscopale parmi les plus complètes de France, avec sa cathédrale gothique où repose Bossuet ; le musée de la Grande Guerre du Pays de Meaux, qui porte la plus importante collection européenne sur le conflit de 1914-1918, sur un territoire où la première bataille de la Marne s'est jouée en septembre 1914 ; et un brie AOP qui porte son nom. C'est la sortie d'une journée la plus facile à organiser depuis Paris vers l'est.",
+    sections: [
+      {
+        heading: "1. Le musée de la Grande Guerre",
+        body: "Le musée de la Grande Guerre du Pays de Meaux a ouvert le 11 novembre 2011, construit autour de la collection rassemblée pendant des décennies par l'historien Jean-Pierre Verney puis acquise par la collectivité. C'est le plus important ensemble européen consacré à la Première Guerre mondiale : uniformes des principales armées, armement, artillerie, avions, taxi de la Marne, objets du quotidien du front et de l'arrière. La muséographie est thématique plutôt que chronologique et donne une large place à la vie des combattants et des civils. Compter au moins deux heures, davantage avec des adolescents."
+      },
+      {
+        heading: "2. Le monument américain",
+        body: "Devant le musée se dresse le monument américain dit « La Liberté éplorée », offert par les États-Unis pour commémorer la première bataille de la Marne et les combats de 1914. C'est une sculpture monumentale de Frederick MacMonnies, inaugurée dans les années 1930 : une figure féminine de la Liberté, épuisée et furieuse, dans une posture à l'opposé de l'imagerie héroïque habituelle des monuments aux morts. Elle se voit librement, depuis l'esplanade. À la belle saison, le site domine les champs de la bataille et le paysage lui-même fait partie de la visite."
+      },
+      {
+        heading: "3. La cathédrale Saint-Étienne",
+        body: "La cathédrale Saint-Étienne a été bâtie et rebâtie du XIIᵉ au XVIᵉ siècle, ce qui explique son allure inhabituelle : une seule tour achevée, l'autre restée tronquée, et une façade dont les registres appartiennent à des époques différentes. À l'intérieur, l'élévation gothique, les vitraux et la dalle funéraire de Bossuet, évêque de Meaux à la fin du XVIIᵉ siècle et l'un des grands orateurs de la langue française, surnommé l'Aigle de Meaux. C'est la pièce maîtresse de la cité épiscopale et l'entrée est libre."
+      },
+      {
+        heading: "4. La cité épiscopale et le musée Bossuet",
+        body: "La cité épiscopale de Meaux est l'une des mieux conservées de France : elle réunit dans un même enclos la cathédrale, le palais épiscopal, le vieux chapitre et les remparts. Le palais abrite le musée Bossuet, consacré aux beaux-arts et à l'histoire de la ville, avec les appartements d'apparat et une collection de peintures des XVIIᵉ et XVIIIᵉ siècles. L'ensemble se parcourt à pied en une matinée, et sa cohérence est ce qui frappe : peu de villes gardent lisible d'un seul tenant l'organisation complète d'un évêché d'Ancien Régime."
+      },
+      {
+        heading: "5. Le jardin Bossuet",
+        body: "Le jardin Bossuet, en terrasses derrière le palais épiscopal, est un jardin à la française dessiné en forme de mitre d'évêque — le tracé se lit d'ailleurs mieux depuis les remparts qui le surplombent que depuis l'allée centrale. Buis taillés, ifs, allées géométriques et vue sur le chevet de la cathédrale. C'est gratuit, ouvert tous les jours, et c'est l'endroit où l'on comprend d'un coup d'œil l'articulation entre la cathédrale, le palais et la ville basse. La promenade sur les remparts prolonge la visite de quelques centaines de mètres."
+      },
+      {
+        heading: "6. Le brie de Meaux",
+        body: "Le brie de Meaux est un fromage à pâte molle et croûte fleurie, au lait cru de vache, protégé par une AOP. Il ne se fabrique plus dans la ville même mais dans son aire d'appellation en Brie, et les fromagers de Meaux restent le meilleur endroit pour le goûter à différents stades d'affinage — l'écart entre un brie jeune et un brie bien affiné est considérable, et c'est tout l'intérêt d'acheter sur place plutôt qu'en grande surface. La ville accueille chaque année un concours et un marché consacrés aux fromages et aux vins, rendez-vous majeur de la filière."
+      },
+      {
+        heading: "7. La moutarde de Meaux",
+        body: "La moutarde de Meaux est une moutarde à l'ancienne, à grains concassés, vendue traditionnellement dans un pot de grès fermé par un bouchon de liège scellé à la cire rouge. Sa recette est attachée à la ville depuis l'Ancien Régime et le pot de grès est resté le conditionnement de référence. C'est le souvenir comestible le plus évident à rapporter, avec le brie, et on le trouve dans les épiceries et chez les fromagers du centre. Associée au brie et à un pain de la boulangerie voisine, elle fait un pique-nique de bord de Marne à moins de dix euros."
+      },
+      {
+        heading: "8. La Marne et le parc du Pâtis",
+        body: "Meaux est bâtie dans un méandre serré de la Marne, coupé par un canal de dérivation, ce qui donne à la ville un plan d'eau presque continu. Le parc naturel du Pâtis occupe une grande partie de la boucle : d'anciennes gravières reconverties en espace naturel, avec plans d'eau, roselières, prairies et sentiers, l'un des plus vastes parcs de ce type en Seine-et-Marne. C'est un site d'observation des oiseaux d'eau, gratuit et ouvert, à parcourir à pied ou à vélo. Les bords de Marne aménagés relient le parc au centre historique."
+      },
+      {
+        heading: "9. Le spectacle historique",
+        body: "Meaux accueille chaque été un grand spectacle historique en plein air, joué devant le palais épiscopal par des centaines de bénévoles, avec cavalerie, effets pyrotechniques et projections sur les façades. Il retrace l'histoire de la ville et de la région, de l'Antiquité aux guerres du XXᵉ siècle. C'est l'un des plus importants spectacles de ce genre en France, sur quelques soirées seulement : les dates sont annoncées à l'avance et les places partent vite. Prévoir de quoi se couvrir, la représentation se termine tard et le site est en plein air."
+      },
+      {
+        heading: "10. Y aller et rayonner",
+        body: "Meaux est desservie par la ligne P du Transilien depuis la gare de l'Est, en une trentaine de minutes pour les trains directs, ce qui en fait l'une des villes historiques les plus rapidement accessibles depuis Paris. En voiture, l'accès se fait par l'A4 puis la N330. Une fois sur place, tout le centre historique se fait à pied ; le musée de la Grande Guerre est à l'écart, desservi par bus ou en dix minutes de voiture. Autour, la Brie offre villages, fermes fromagères et champs de bataille de 1914, et Disneyland Paris est à une demi-heure de route au sud."
+      }
+    ],
+    relatedCities: ["meaux", "chelles", "melun", "provins", "noisy-le-grand", "paris"],
+    relatedGuides: [
+      "10-choses-a-faire-a-provins-2026",
+      "10-choses-a-faire-a-fontainebleau-2026",
+      "10-choses-a-faire-a-paris-2026"
+    ],
+    tags: ["10 choses à faire à Meaux", "activités Meaux 2026", "que faire à Meaux", "sorties Meaux", "musée de la Grande Guerre cathédrale Saint-Étienne Bossuet brie moutarde"]
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
