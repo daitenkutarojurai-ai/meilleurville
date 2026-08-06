@@ -785,15 +785,31 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                           {L("🦋 Biodiversité", "🦋 Biodiversity")}
                         </div>
                         <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
+                          {/* Trois raisons de n'avoir pas de note, trois phrases
+                              différentes. « Effort insuffisant » ne vaut que pour
+                              le premier cas : l'appliquer aux deux autres a fait
+                              dire à Paris et à toute sa petite couronne — les
+                              villes les MIEUX relevées de France — qu'on y
+                              observait trop peu. */}
                           {bio.score != null
                             ? L(
                                 `${bio.species} espèces · ${bio.score.toFixed(1).replace(".", ",")}/10 à effort égal`,
                                 `${bio.species} species · ${bio.score.toFixed(1)}/10 at equal effort`,
                               )
-                            : L(
-                                `${bio.species} espèces · effort d'observation trop faible`,
-                                `${bio.species} species · survey effort too thin`,
-                              )}
+                            : bio.pending === "precision"
+                              ? L(
+                                  `${bio.species} espèces · trop relevée pour notre collecte`,
+                                  `${bio.species} species · richer than our crawl could capture`,
+                                )
+                              : bio.pending === "calibration"
+                                ? L(
+                                    `${bio.species} espèces recensées`,
+                                    `${bio.species} species recorded`,
+                                  )
+                                : L(
+                                    `${bio.species} espèces · effort d'observation trop faible`,
+                                    `${bio.species} species · survey effort too thin`,
+                                  )}
                         </div>
                       </div>
                       <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />

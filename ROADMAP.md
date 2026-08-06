@@ -393,6 +393,65 @@ attend ses ~300 villes mesurables. F59 n'est pas touchée : pour un **répertoir
 destinations**, « aucun parc nommé référencé » reste la bonne réponse — c'est seulement
 comme **proxy de surface végétale** que le même zéro devient faux.
 
+#### Point d'étape 2026-08-06 — les deux sous-pages sont EN LIGNE (302 villes), et trois choses mentaient
+
+Premier run où la donnée est là : le cron local a porté `data/city-biodiversity.json` à
+**302/540 villes, dont 278 mesurables** et 24 en `richnessPending: "precision"`. Les deux
+routes sont dégarées (`git mv page.pending.tsx page.tsx` côté FR **et** EN, ensemble comme
+l'exige leur statut d'alternates), `BIODIVERSITY_PAGES_LIVE` passe à `true`, et
+`npm run hreflang:check` confirme la paire dans le même état d'activation.
+
+**Pourquoi publier maintenant alors que `overall` est toujours `null`.** La seule objection
+sérieuse était que le barème est un rang centile : un score qui bouge à chaque lot ne mesure
+pas la nature, il mesure l'avancement du crawl (c'est l'argument de `MIN_CALIBRATION_CITIES`).
+Cette objection se teste sur l'historique du fichier plutôt que de se supposer — en rejouant
+le barème sur les instantanés commités à 182 et à 302 villes, **les rangs ont bougé de 0,2
+point en médiane, 0,5 au pire, et aucune ville n'a varié d'un point entier**. Le barème est
+stable, donc publiable. `overall` reste `null` (zones protégées non ingérées) et les trois
+composantes restent affichées séparément, ce qui était de toute façon la spec.
+
+⚠️ **Le crawl est biaisé en taille et les pages le disent maintenant.** Les 302 villes
+collectées ont une population médiane de 45 000 habitants, les 238 restantes de 14 500 : le
+runner a commencé par les grandes communes, et l'échantillon de comparaison n'est donc pas
+encore « les villes françaises ». Un paragraphe « À quoi la ville est comparée » a été ajouté
+aux deux surfaces, avec le chiffre de dérive ci-dessus. Rassurant au passage : la richesse
+raréfiée est quasi plate selon la taille (médianes 234,5 / 239,5 / 229 par tiers de
+population) — c'est exactement ce que la correction d'effort est censée produire.
+
+**Trois défauts corrigés, que seule l'arrivée des vraies valeurs pouvait révéler :**
+
+1. **La carte 🦋 de `CityProfile` disait à Paris qu'on l'observait trop peu.** Le libellé de
+   repli quand aucune note n'est publiée était « effort d'observation trop faible » pour les
+   trois raisons possibles. Or **aucune** des 302 villes collectées ne passe sous le plancher
+   d'effort : les 24 sans note sont en `precision`, c'est-à-dire que **notre** collecte a
+   tronqué la liste d'espèces — ce qui arrive précisément aux villes les MIEUX relevées.
+   Concrètement la carte annonçait un déficit d'observation à Paris (574 203 observations,
+   2 000 observateurs), à toute la petite couronne et à Annemasse. Exactement l'inverse du
+   vrai, et exactement ce que le corps de la page s'échine à démentir. La projection
+   `city-profile-data` porte désormais `pending`, et les trois cas ont trois phrases.
+2. **Le sitemap annonçait 604 URL en 404.** Les entrées FR et EN étaient gatées sur
+   `hasBiodiversityData` seul, sans `BIODIVERSITY_PAGES_LIVE` — donc pendant tout le temps où
+   les pages étaient garées, le sitemap a déclaré une URL par ville collectée des deux côtés
+   (302 + 302). C'est le même angle mort que la carte 🦋 corrigée le 04/08, qui avait traité
+   la carte sans traiter le sitemap. Les deux conditions vivent maintenant dans un seul
+   `emitsBiodiversity()` : repasser le drapeau à `false` dépublie réellement tout.
+3. **Métadonnées hors gabarit, et pas d'`og:image` du tout.** 117 titres sur 302 dépassaient
+   60 caractères et 239 descriptions sur 302 dépassaient 160 — ce qui se faisait couper en
+   SERP, c'étaient les chiffres. Resserrés et **mesurés** sur les 302 villes (titres ≤ 60,
+   descriptions ≤ 143 FR / 127 EN, le nom le plus long faisant la borne). Surtout, les deux
+   pages déclaraient un `openGraph` sans `images` et n'ont pas de `opengraph-image.tsx`
+   voisin : c'est le piège documenté dans CLAUDE.md, qui avait déjà coûté 237 pages sans
+   carte sociale. Corrigé sur le modèle de `/parcs`.
+
+**Ce qui n'est toujours pas couvert.** Les **zones protégées restent à `{}` — 0/540** : c'est
+la seule pièce qui demande encore une main humaine (l'INPN publie des shapefiles derrière une
+page de téléchargement, le runner local saute l'étape tant que les GeoJSON ne sont pas dans
+`.cache/city-protected-areas/sources/`). Tant qu'elle manque, `overall` reste `null` et la
+composante la plus lourde — la seule insensible au biais d'observation — n'est pas au
+rendez-vous. Le classement `/classements/biodiversite` **n'est pas créé** : 278 villes
+mesurables, sous le seuil de ~300 que la spec s'est fixé ; il devrait s'ouvrir dans un ou deux
+lots. Les 238 villes non collectées n'ont ni page ni entrée sitemap, par construction.
+
 ### F63 — Qualité de l'air : passer du modèle à la mesure
 
 Demande utilisateur 2026-07-29 : *« beaucoup de requêtes en recherche Google »* sur la

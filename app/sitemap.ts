@@ -18,7 +18,16 @@ import { cityPhoto, guideCityPhoto } from "@/lib/city-images";
 import { VACATION_PROFILES } from "@/lib/vacation-fit";
 import { OWNER_RANKING_SLUGS } from "@/lib/owner-rankings";
 import { hasParksData } from "@/lib/city-parks";
-import { hasBiodiversityData } from "@/lib/biodiversity";
+import { hasBiodiversityData, BIODIVERSITY_PAGES_LIVE } from "@/lib/biodiversity";
+
+/** F62 — une URL de biodiversité n'existe que si la ville est collectée ET si
+ *  les deux routes sont dégarées. Le second terme manquait : pendant que les
+ *  pages étaient en `page.pending.tsx`, le sitemap a annoncé une URL par ville
+ *  déjà collectée, soit 302 côté FR et 302 côté EN pointant vers des 404 — le
+ *  même angle mort que la carte 🦋 de CityProfile, corrigée le 2026-08-04 sans
+ *  que le sitemap le soit. Les deux conditions vivent désormais ici. */
+const emitsBiodiversity = (slug: string) =>
+  BIODIVERSITY_PAGES_LIVE && hasBiodiversityData(slug);
 import { PROFILE_PAGES } from "@/lib/profile-pages";
 import { EXPAT_COUNTRIES } from "@/lib/expat-return";
 
@@ -595,7 +604,7 @@ function citySubSection(): MetadataRoute.Sitemap {
       : []),
     // F62 — biodiversity sub-page, same conditional rule: the route only exists
     // for cities the GBIF crawl has covered, so the URL only exists for those.
-    ...(hasBiodiversityData(city.slug)
+    ...(emitsBiodiversity(city.slug)
       ? [
           {
             url: `${BASE_URL}/villes/${city.slug}/biodiversite`,
@@ -1066,7 +1075,7 @@ function enCitySubSection(): MetadataRoute.Sitemap {
     }
     // F62 — EN twin of /villes/[slug]/biodiversite, emitted under the same
     // condition so the hreflang pair is always complete or always absent.
-    if (hasBiodiversityData(c.slug)) {
+    if (emitsBiodiversity(c.slug)) {
       base.push({
         url: `${BASE_URL}/cities/${c.slug}/biodiversity`,
         lastModified: CITY_DATA_UPDATED,

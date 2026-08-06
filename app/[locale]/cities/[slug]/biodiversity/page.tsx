@@ -1,19 +1,11 @@
-// ⚠️ PARKED — rename to `page.tsx` with the FIRST batch of GBIF data.
+// Live route since 2026-08-06 (F62). It stayed parked as `page.pending.tsx`
+// while `data/city-biodiversity.json` was `{}`: `output: "export"` fails the
+// build on an empty `generateStaticParams()`, which it cannot tell from a
+// missing one.
 //
-// The page is finished and typechecked; it is not a route yet. Single reason:
-// `output: "export"` rejects a `generateStaticParams()` that returns an empty
-// array, and it is empty while `data/city-biodiversity.json` is `{}`. Next
-// cannot tell "no params" from "no function" and fails the build with
-// "missing generateStaticParams()".
-//
-// The file keeps its `.tsx` extension so `npx tsc --noEmit` still checks it —
-// it cannot rot while it waits. Once the crawl covers even one city,
-// `git mv page.pending.tsx page.tsx` (here and on the FR twin
-// `app/villes/[slug]/biodiversite/`) is all it takes: the sitemap and the 🦋
-// CityProfile card are already wired to the same `hasBiodiversityData` gate.
-//
-// Both files must be re-activated TOGETHER: they are hreflang alternates, so
-// they exist on both sides or on neither.
+// This page and its FR twin `app/villes/[slug]/biodiversite/` are hreflang
+// alternates: they exist on both sides or on neither, and they show the SAME
+// numbers (both read the same `biodiversityProfile`). Never unpark one alone.
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -70,19 +62,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city || !profile) return {};
 
   const { raw, richness, richnessPending } = profile;
+  // Title and description held under 60 / 160 characters across all 302 cities
+  // (measured, not estimated — long names like Sainte-Geneviève-des-Bois set the
+  // bound). The original ran over on 117 titles and 239 descriptions, and what
+  // got cut in the SERP was the figures. Same lengths as the FR twin.
   const description = richness
-    ? `${raw.species} species recorded around ${city.name} across ${raw.occurrences.toLocaleString("en-GB")} observations. Richness at equal survey effort: ${richness.score}/10. Birds, insects, plants — GBIF data.`
+    ? `${raw.species} species around ${city.name}, across ${raw.occurrences.toLocaleString("en-GB")} observations. Richness at equal survey effort: ${richness.score}/10. GBIF data.`
     : richnessPending === "calibration"
-      ? `${raw.species} species recorded around ${city.name} across ${raw.occurrences.toLocaleString("en-GB")} observations. Birds, insects, plants and green space, measured within ${raw.radiusKm} km. GBIF data.`
+      ? `${raw.species} species around ${city.name}, across ${raw.occurrences.toLocaleString("en-GB")} observations. Birds, insects and plants within ${raw.radiusKm} km. GBIF data.`
       : richnessPending === "precision"
-        ? `Around ${city.name}, recorded richness is bracketed too widely to rank: our collection cut the species list short. The measured counts are shown as-is. GBIF data.`
-        : `Around ${city.name}, naturalist survey effort is too thin to publish a score: ${raw.occurrences.toLocaleString("en-GB")} observations from ${raw.observers} recorders. What is measured is shown as-is. GBIF data.`;
+        ? `Around ${city.name}, recorded richness is too imprecise to rank: our crawl cut the species list short. GBIF data.`
+        : `Around ${city.name}, too few observations to publish a score: ${raw.occurrences.toLocaleString("en-GB")} observations from ${raw.observers} recorders. GBIF data.`;
 
   return {
-    title: `Biodiversity in ${city.name} · species, nature and green space`,
+    title: `${city.name} biodiversity · species and nature`,
     description,
     alternates: cityAlternatesEn("biodiversity", slug),
     openGraph: {
+      // Without `images`, a page-level openGraph replaces the inherited one
+      // wholesale — the social card vanished instead of falling back to it.
+      images: ["/opengraph-image"],
       title: `Biodiversity in ${city.name}`,
       description: richness
         ? `${raw.species} species recorded within ${raw.radiusKm} km · ${richness.score}/10 at equal survey effort`
@@ -676,6 +675,17 @@ export default async function BiodiversityPage({ params }: Props) {
               exact figure is not knowable; we bracket it between two sound bounds and report the
               lower one as such, prefixed with &ldquo;at least&rdquo;. If the interval is too wide
               to separate the city from its neighbours, no rank is published.
+            </p>
+            <p>
+              <strong className="text-[var(--text-primary)]">What the city is compared to.</strong>{" "}
+              The rank is read among the {BIODIVERSITY_MEASURABLE_COUNT} cities surveyed well enough
+              so far, out of the {CITIES_SEED.length} on this site: collection is still running, and
+              it started with the most populous communes. So it is not yet &ldquo;better than N% of
+              French cities&rdquo; but &ldquo;better than N% of those already measured&rdquo;. The
+              gap should stay small: between our 182-city snapshot and the current{" "}
+              {BIODIVERSITY_MEASURABLE_COUNT}, published ranks moved by 0.2 points at the median and
+              0.5 at worst, with no city shifting a full point. The raw counts do not depend on
+              other cities and will not move at all.
             </p>
             <p>
               <strong className="text-[var(--text-primary)]">The perimeter.</strong> A{" "}

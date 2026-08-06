@@ -73,12 +73,18 @@ export interface CityProfileData {
   parksWithPlayground: number;
   /** Nearest crawled neighbour, for cities the crawl has not reached yet. */
   nearbyParks: { slug: string; name: string; parksCount: number; distanceKm: number } | null;
-  /** F62 — gates the 🦋 biodiversity card. `null` while the sub-page is still
-   *  parked as page.pending.tsx (see BIODIVERSITY_PAGES_LIVE), and `null` until
-   *  the GBIF crawl covers the city once it ships. `score` is null
-   *  on a crawled-but-thinly-surveyed city: the page still exists and says so,
-   *  so the card links there with an honest label instead of a number. */
-  biodiversity: { score: number | null; species: number } | null;
+  /** F62 — gates the 🦋 biodiversity card. `null` while the sub-page is parked
+   *  (see BIODIVERSITY_PAGES_LIVE), and `null` until the GBIF crawl covers the
+   *  city. `score` is null when no rank is publishable — and `pending` says
+   *  why, because the three reasons must NOT be told the same way on the card.
+   *  Labelling them all "survey effort too thin" told Paris (574 000
+   *  observations, 2 000 recorders) that it was under-observed; truncation hits
+   *  the BEST-surveyed cities, so the generic label was exactly backwards. */
+  biodiversity: {
+    score: number | null;
+    species: number;
+    pending: "effort" | "precision" | "calibration" | null;
+  } | null;
 }
 
 function biodiversityProjection(city: CitySeed) {
@@ -89,6 +95,7 @@ function biodiversityProjection(city: CitySeed) {
     biodiversity: {
       score: profile.richness?.score ?? null,
       species: profile.raw.species,
+      pending: profile.richnessPending,
     },
   };
 }

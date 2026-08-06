@@ -823,6 +823,22 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
     runner saute l'étape tant que les GeoJSON ne sont pas dans
     `.cache/city-protected-areas/sources/` (`npm run protected-areas:sources` donne la ligne
     `ogr2ogr`). Tant que cette composante manque, `overall` reste `null` — inchangé.
+  - **État au 2026-08-06 — les deux sous-pages sont EN LIGNE.** `/villes/[slug]/biodiversite`
+    et EN `/cities/[slug]/biodiversity` sont dégarées sur les **302/540 villes collectées**
+    (278 mesurables, 24 en `richnessPending: "precision"`), `BIODIVERSITY_PAGES_LIVE = true`.
+    Publier maintenant se justifie parce que le barème centile s'est montré **stable** à la
+    vérification sur l'historique du JSON : entre l'instantané à 182 villes et celui à 302,
+    les rangs ont bougé de 0,2 point en médiane, 0,5 au pire, aucune ville d'un point entier.
+    ⚠️ Le crawl est **biaisé en taille** (302 collectées à 45 000 hab. de médiane, 238
+    restantes à 14 500) : les pages portent un paragraphe « À quoi la ville est comparée »
+    qui le dit. Trois bugs que seules les vraies valeurs pouvaient révéler ont été corrigés
+    au passage — la carte 🦋 annonçait « effort d'observation trop faible » à **Paris** et à
+    toute la petite couronne (les villes les mieux relevées, en réalité tronquées par *notre*
+    collecte) ; le sitemap gatait sur `hasBiodiversityData` **sans** le drapeau et annonçait
+    donc 604 URL en 404 pendant que les pages étaient garées ; et les deux pages déclaraient
+    un `openGraph` **sans `images`**, le piège documenté plus haut. `overall` reste `null`
+    (zones protégées 0/540) et `/classements/biodiversite` **n'existe pas** : 278 mesurables,
+    sous le seuil de ~300. Détail complet dans `ROADMAP.md` § point d'étape 2026-08-06.
 
 - [ ] **F63 — Qualité de l'air : du modèle à la mesure** — la section existe
   (`/villes/[slug]/air` ×540 + EN `air-quality`) mais `lib/air-quality.ts` **calcule

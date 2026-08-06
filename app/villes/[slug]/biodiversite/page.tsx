@@ -1,19 +1,12 @@
-// ⚠️ PARKED — renommer en `page.tsx` avec le PREMIER lot de données GBIF.
+// Route en ligne depuis le 2026-08-06 (F62). Elle est restée garée en
+// `page.pending.tsx` tant que `data/city-biodiversity.json` valait `{}` :
+// `output: "export"` casse le build sur un `generateStaticParams()` vide, qu'il
+// ne distingue pas d'une fonction absente.
 //
-// La page est finie et typée ; elle n'est pas encore une route. Raison unique :
-// `output: "export"` refuse un `generateStaticParams()` qui renvoie un tableau
-// vide, et il est vide tant que `data/city-biodiversity.json` vaut `{}`. Next
-// ne distingue pas « aucun paramètre » de « fonction absente » et casse le
-// build avec « missing generateStaticParams() ».
-//
-// Ce fichier reste en `.tsx` donc `npx tsc --noEmit` continue de le vérifier :
-// il ne peut pas pourrir en attendant. Le jour où le crawl couvre ne serait-ce
-// qu'une ville, `git mv page.pending.tsx page.tsx` (ici et sur la jumelle EN
-// `app/[locale]/cities/[slug]/biodiversity/`) suffit — le sitemap et la carte
-// 🦋 de CityProfile sont déjà câblés sur la même condition `hasBiodiversityData`.
-//
-// Les deux fichiers doivent être réactivés ENSEMBLE : ce sont des alternates
-// hreflang, ils existent des deux côtés ou d'aucun.
+// Cette page et sa jumelle EN `app/[locale]/cities/[slug]/biodiversity/` sont
+// des alternates hreflang : elles existent des deux côtés ou d'aucun, et
+// affichent les MÊMES nombres (elles lisent le même `biodiversityProfile`).
+// Ne jamais en dégarer une seule.
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -77,19 +70,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city || !profile) return {};
 
   const { raw, richness, richnessPending } = profile;
+  // Titre et description tenus sous 60 / 160 caractères pour les 302 villes
+  // (mesuré, pas estimé — les noms longs type Sainte-Geneviève-des-Bois font la
+  // borne). La version d'origine dépassait sur 117 titres et 239 descriptions :
+  // ce qui se faisait couper en SERP, c'était les chiffres.
   const description = richness
-    ? `${raw.species} espèces recensées autour de ${city.name} sur ${raw.occurrences.toLocaleString("fr-FR")} observations. Richesse ramenée à effort d'observation égal : ${richness.score}/10. Oiseaux, insectes, flore — données GBIF.`
+    ? `${raw.species} espèces autour de ${city.name}, sur ${raw.occurrences.toLocaleString("fr-FR")} observations. Richesse à effort d'observation égal : ${richness.score}/10. Données GBIF.`
     : richnessPending === "calibration"
-      ? `${raw.species} espèces recensées autour de ${city.name} sur ${raw.occurrences.toLocaleString("fr-FR")} observations. Oiseaux, insectes, flore et espaces verts, mesurés dans un rayon de ${raw.radiusKm} km. Données GBIF.`
+      ? `${raw.species} espèces autour de ${city.name}, sur ${raw.occurrences.toLocaleString("fr-FR")} observations. Oiseaux, insectes, flore, dans un rayon de ${raw.radiusKm} km. Données GBIF.`
       : richnessPending === "precision"
-        ? `Autour de ${city.name}, la richesse relevée est trop imprécise pour être classée : notre collecte a coupé la liste d'espèces avant la fin. Les effectifs mesurés sont affichés tels quels. Données GBIF.`
-        : `Autour de ${city.name}, l'effort d'observation naturaliste est trop faible pour publier un score : ${raw.occurrences.toLocaleString("fr-FR")} observations, ${raw.observers} observateurs. Ce qui est mesuré est affiché tel quel. Données GBIF.`;
+        ? `Autour de ${city.name}, la richesse relevée est trop imprécise pour un rang : notre collecte a coupé la liste d'espèces. Données GBIF.`
+        : `Autour de ${city.name}, trop peu d'observations pour un score : ${raw.occurrences.toLocaleString("fr-FR")} observations, ${raw.observers} observateurs. Données GBIF.`;
 
   return {
-    title: `Biodiversité à ${city.name} · espèces, nature et espaces verts`,
+    title: `Biodiversité à ${city.name} · espèces et nature`,
     description,
     alternates: cityAlternates("biodiversite", slug),
     openGraph: {
+      // Sans `images`, un openGraph de page remplace celui hérité de la racine
+      // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
+      images: ["/opengraph-image"],
       title: `Biodiversité à ${city.name}`,
       description: richness
         ? `${raw.species} espèces recensées dans un rayon de ${raw.radiusKm} km · ${richness.score}/10 à effort d'observation égal`
@@ -713,6 +713,19 @@ export default async function BiodiversitePage({ params }: Props) {
               alors entre deux bornes sûres et on annonce la borne basse comme telle, précédée
               d&apos;un « au moins ». Si l&apos;intervalle est trop large pour départager la ville
               de ses voisines, aucun rang n&apos;est publié.
+            </p>
+            <p>
+              <strong className="text-[var(--text-primary)]">
+                À quoi la ville est comparée.
+              </strong>{" "}
+              Le rang se lit parmi les {BIODIVERSITY_MEASURABLE_COUNT} villes assez relevées à ce
+              jour, sur les {CITIES_SEED.length} du site : la collecte est en cours et elle a
+              commencé par les communes les plus peuplées. Ce n&apos;est donc pas encore « mieux que
+              N&nbsp;% des villes françaises », mais « mieux que N&nbsp;% de celles déjà mesurées ».
+              L&apos;écart devrait rester petit&nbsp;: entre notre relevé à 182 villes et celui à{" "}
+              {BIODIVERSITY_MEASURABLE_COUNT}, les rangs publiés ont bougé de 0,2 point en médiane
+              et de 0,5 au pire, aucune ville n&apos;ayant varié d&apos;un point entier. Les
+              effectifs bruts, eux, ne dépendent pas des autres villes et ne bougeront pas.
             </p>
             <p>
               <strong className="text-[var(--text-primary)]">Le périmètre.</strong> Cercle de{" "}

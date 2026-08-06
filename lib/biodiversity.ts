@@ -54,12 +54,18 @@ import { CITIES_SEED } from "@/data/cities-seed";
 
 /* ── attribution ──────────────────────────────────────────────────────── */
 
-// Les deux sous-pages `biodiversite` / `biodiversity` sont encore garées en
-// `page.pending.tsx` (F62 attend l'ingest des zones protégées INPN). Tant que
-// c'est `false`, aucune surface ne doit lier vers elles : la carte 🦋 pointait
-// vers un 404 sur chaque ville déjà collectée, et le lot grossit à chaque run
-// du cron local. À basculer dans le commit qui renomme les deux fichiers.
-export const BIODIVERSITY_PAGES_LIVE = false;
+// Les deux sous-pages `biodiversite` / `biodiversity` sont en ligne depuis le
+// 2026-08-06 : le cron local a dépassé la moitié du seed (302/540 villes, 278
+// mesurables) et le barème centile s'est montré stable en le vérifiant sur
+// l'historique — entre l'instantané à 182 villes et celui à 302, les rangs ont
+// bougé de 0,2 point en médiane, 0,5 au pire, aucune ville au-delà d'un point.
+// La note ne suit donc pas l'avancement du crawl, ce qui était la seule raison
+// de la retenir.
+//
+// Ce drapeau reste le point unique qui relie les surfaces : tant qu'il est
+// `false`, rien ne doit lier vers les deux routes (la carte 🦋 a déjà pointé
+// vers 65 404 en le faisant). Le remettre à `false` suffit à tout dépublier.
+export const BIODIVERSITY_PAGES_LIVE = true;
 
 export const GBIF_CREDIT = "GBIF.org — Global Biodiversity Information Facility";
 export const GBIF_URL = "https://www.gbif.org";
