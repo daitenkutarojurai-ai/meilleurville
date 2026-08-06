@@ -330,6 +330,17 @@ export default function InternetHubPage() {
               </div>
             </Card>
           </Link>
+          <Link href="/guides/categorie/teletravail" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">📚</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">
+                Guides télétravail
+              </div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">
+                Choisir sa ville quand le bureau ne décide plus
+              </div>
+            </Card>
+          </Link>
           <Link href="/classements/teletravail" className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-2xl mb-1">💻</div>

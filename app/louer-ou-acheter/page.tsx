@@ -168,6 +168,16 @@ export default function LouerOuAcheterIndexPage() {
           d&apos;achat sur la ligne énergie.
         </p>
 
+        <p className="mt-4 text-sm text-[var(--text-secondary)] leading-relaxed">
+          Le ratio arbitre entre deux façons de se loger, pas entre deux villes : il ignore les
+          courses, les transports et les charges, qui pèsent souvent plus lourd que l&apos;écart
+          loyer-mensualité. Nos{" "}
+          <Link href="/guides/categorie/budget" className="text-[var(--accent)] underline hover:no-underline">
+            guides budget, poste par poste et ville par ville
+          </Link>
+          {" "}reprennent le calcul là où ce tableau s&apos;arrête.
+        </p>
+
         <div className="mt-10 text-xs text-[var(--text-tertiary)]">
           L&apos;URL <code className="px-1 py-0.5 bg-[var(--bg-elevated)] rounded-full">/villes/&lt;slug-ville&gt;/louer-ou-acheter</code>
           {" "}fonctionne pour toutes les villes couvertes par HOUSING (loyer T3 + prix m² disponibles).

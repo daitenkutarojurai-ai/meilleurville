@@ -182,6 +182,9 @@ export default function RegionsPage() {
           <Link href="/comparer-departements" className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
             Comparer deux départements →
           </Link>
+          <Link href="/guides/categorie/region" className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
+            Lire nos guides « vivre en région » →
+          </Link>
           <Link href="/carte" className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
             Carte interactive →
           </Link>

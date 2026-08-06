@@ -103,6 +103,13 @@ export default function ComparerPage() {
             </Link>
             .
           </p>
+          <p className="mt-2 text-sm text-[var(--text-tertiary)] max-w-2xl mx-auto">
+            Le comparateur aligne les scores ; quand c&apos;est le raisonnement qui manque, nos{" "}
+            <Link href="/guides/categorie/comparaison" className="underline underline-offset-2 hover:text-[var(--accent)]">
+              guides qui opposent deux villes en prose
+            </Link>{" "}
+            reprennent les duels les plus lus et disent laquelle perd, sur quoi.
+          </p>
         </div>
       </section>
 
