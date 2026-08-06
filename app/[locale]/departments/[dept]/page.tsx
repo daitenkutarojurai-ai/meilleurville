@@ -103,6 +103,42 @@ export default async function EnDepartmentDetail({ params }: Props) {
           {cities.length} cities in the department, ranked by quality of life. Click a city to see its full profile.
         </p>
       </section>
+      {/* Department sub-pages — mirrors the two teasers on the FR department page. */}
+      <section className="mx-auto max-w-5xl px-4 sm:px-6 pt-2 space-y-3">
+        <Link
+          href={`/departments/${dept}/synthesis`}
+          className="group flex flex-wrap items-center gap-3 rounded-2xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 hover:border-[var(--accent)] hover:shadow-md transition-all px-5 py-4"
+        >
+          <span className="text-2xl shrink-0">✨</span>
+          <div className="flex-1 min-w-0">
+            <p className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+              {name} cities ranked on 8 dimensions
+            </p>
+            <p className="text-xs text-[var(--text-secondary)] mt-0.5">
+              Environment, healthcare, employment, quality of life, cycling, safety, demographics,
+              public services — plus the department average on each axis.
+            </p>
+          </div>
+          <span className="text-sm text-[var(--accent)] font-medium shrink-0">View →</span>
+        </Link>
+        <Link
+          href={`/departments/${dept}/tax`}
+          className="group flex flex-wrap items-center gap-3 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4"
+        >
+          <span className="text-2xl shrink-0">💰</span>
+          <div className="flex-1 min-w-0">
+            <p className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+              Property tax in {name}
+            </p>
+            <p className="text-xs text-[var(--text-secondary)] mt-0.5">
+              Taxe foncière, second-home tax and transfer duties — 2026 department estimate, plus a
+              page per city.
+            </p>
+          </div>
+          <span className="text-sm text-[var(--accent)] font-medium shrink-0">View →</span>
+        </Link>
+      </section>
+
       <section className="mx-auto max-w-5xl px-4 sm:px-6 py-6">
         <ol className="space-y-2">
           {cities.map((c, i) => (

@@ -13,6 +13,7 @@ import {
   SYNTHESIS_LEVEL_COLOR,
 } from "@/lib/city-synthesis";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -31,7 +32,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Synthèse 8 axes · ${dept} | palmarès des villes du département`,
     description: `Classement synthèse des ${count} villes du département ${dept} sur les 8 dimensions data (environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics). Convention 10 = excellent.`,
-    alternates: { canonical: `/departements/${deptSlug}/synthese` },
+    // Tête ET queue traduites (`departements/…/synthese` ↔ `departments/…/synthesis`),
+    // donc `hreflangLanguages` ne suffit pas : elle ne traduit que la tête.
+    alternates: pathAlternates(`/departements/${deptSlug}/synthese`, `/departments/${deptSlug}/synthesis`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

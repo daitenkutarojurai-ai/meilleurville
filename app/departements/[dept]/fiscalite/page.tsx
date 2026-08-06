@@ -10,6 +10,7 @@ import { deptToSlug, slugToDept, getAllDepartments } from "@/lib/dept-slug";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Coins, AlertTriangle, Home as HomeIcon, FileText, MapPin } from "lucide-react";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -33,7 +34,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Fiscalité immobilière ${dept} · Taxe foncière, THRS, DMTO 2026`,
     description: `Estimation fiscale 2026 dans le département ${dept} : taxe foncière (${f.taxeFonciereT3}), THRS, droits de mutation. ${cityCount} ville${cityCount > 1 ? "s" : ""} couverte${cityCount > 1 ? "s" : ""}. Données DGFiP.`,
-    alternates: { canonical: `/departements/${deptSlug}/fiscalite` },
+    // Tête ET queue traduites (`departements/…/fiscalite` ↔ `departments/…/tax`),
+    // donc `hreflangLanguages` ne suffit pas : elle ne traduit que la tête.
+    alternates: pathAlternates(`/departements/${deptSlug}/fiscalite`, `/departments/${deptSlug}/tax`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

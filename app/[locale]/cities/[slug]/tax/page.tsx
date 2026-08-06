@@ -4,7 +4,8 @@ import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
-import { fiscalityForCity, TIER_TONE, type FiscaliteTier } from "@/lib/fiscalite";
+import { fiscalityForCity, TIER_TONE } from "@/lib/fiscalite";
+import { FISC_EN, fiscStateEn } from "@/lib/fiscalite-en";
 import { faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityAlternatesEn, ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { Coins, AlertTriangle, Home as HomeIcon, FileText, Info } from "lucide-react";
@@ -21,50 +22,12 @@ export async function generateStaticParams() {
   return CITIES_SEED.map((c) => ({ locale: "en", slug: c.slug }));
 }
 
-// Property-tax "state" — the FiscaliteTier enum, with the "particulier" tier
-// split into the two real cases (Paris / overseas) for native-EN copy.
-type FiscState = Exclude<FiscaliteTier, "particulier"> | "paris" | "drom";
-
-const FISC_EN: Record<FiscState, { label: string; taxeFonciere: string; notes: string }> = {
-  faible: {
-    label: "Low tax pressure",
-    taxeFonciere: "€550-900/year",
-    notes: "Relatively low tax pressure. The municipal property-tax rate is historically moderate and the cadastral rental base is typically low.",
-  },
-  moderee: {
-    label: "Moderate tax pressure",
-    taxeFonciere: "€900-1,300/year",
-    notes: "A department around the national average. The municipal property tax varies by commune (roughly ±30% around the department average).",
-  },
-  elevee: {
-    label: "High tax pressure",
-    taxeFonciere: "€1,300-1,800/year",
-    notes: "High tax pressure — housing costs and urban services push rates up. Always check the property tax on the seller's latest assessment notice.",
-  },
-  "tres-elevee": {
-    label: "Very high tax pressure",
-    taxeFonciere: "€1,700-2,400/year",
-    notes: "Among the heaviest tax pressure in France. Always verify the property tax and any second-home surcharge before buying — it can add €100-200/month to a budget or eat into rental yield.",
-  },
-  paris: {
-    label: "Special case — Paris",
-    taxeFonciere: "€1,100-1,600/year",
-    notes: "Paris has historically had one of the lowest municipal property-tax rates (~13.5% in 2024 after reform) but very high cadastral bases. The second-home tax surcharge can reach +60% since 2023 (Paris is a 'zone tendue').",
-  },
-  drom: {
-    label: "Special case — overseas France",
-    taxeFonciere: "€700-1,400/year",
-    notes: "A specific overseas tax regime: reduced transfer duties (4.50% instead of 5.81% elsewhere), some partial exemptions, but highly variable municipal levies. Always confirm with a local notary.",
-  },
-};
-
-const DROM_REGIONS = new Set(["Martinique", "Guadeloupe", "La Réunion", "Mayotte", "Guyane"]);
-
-function stateFor(city: (typeof CITIES_SEED)[number]): FiscState {
-  if (DROM_REGIONS.has(city.region)) return "drom";
-  if (city.department === "Paris") return "paris";
-  const f = fiscalityForCity({ department: city.department, region: city.region });
-  return f.tier === "particulier" ? "moderee" : f.tier;
+// The tier→English-copy table and the state resolver live in
+// `lib/fiscalite-en.ts`: the department-level `/departments/[dept]/tax` page
+// needs exactly the same ranges, and two copies of a number table is one copy
+// too many.
+function stateFor(city: (typeof CITIES_SEED)[number]) {
+  return fiscStateEn({ department: city.department, region: city.region });
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

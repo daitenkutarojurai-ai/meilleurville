@@ -801,6 +801,14 @@ function frPathToEn(pathname: string): string | null {
   if (head === "comparer" && parts.length === 3 && parts[2] === "synthese") {
     return `${EN_ORIGIN}/compare/${parts[1]}/synthesis`;
   }
+  // /departements/<dept>/{fiscalite,synthese} → /departments/<dept>/{tax,synthesis}.
+  // Jumelles livrées 06/08, générées depuis le même `getAllDepartments()` et le
+  // même `deptToSlug` : le slug de département est identique des deux côtés,
+  // donc la cible existe forcément — aucune URL devinée.
+  if (head === "departements" && parts.length === 3) {
+    const enSub = parts[2] === "fiscalite" ? "tax" : parts[2] === "synthese" ? "synthesis" : null;
+    if (enSub) return `${EN_ORIGIN}/departments/${parts[1]}/${enSub}`;
+  }
   if (parts.length === 1) return `${EN_ORIGIN}/${enHead}`;
   if (parts.length === 2 && FR_HEAD_SLUG_SHARED.has(head)) {
     return `${EN_ORIGIN}/${enHead}/${parts[1]}`;

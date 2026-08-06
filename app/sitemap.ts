@@ -1011,12 +1011,28 @@ function enRegionsSection(): MetadataRoute.Sitemap {
 
 function enDepartmentsSection(): MetadataRoute.Sitemap {
   const depts = [...new Set(CITIES_SEED.map((c) => c.department).filter(Boolean) as string[])];
-  return depts.map((d) => ({
-    url: `${BASE_URL}/departments/${slugify(d)}`,
-    lastModified: CITY_DATA_UPDATED,
-    changeFrequency: "weekly" as const,
-    priority: 0.6,
-  }));
+  // Mirrors departementsSection(): hub + tax + synthesis, one triplet per
+  // department, so both locales advertise the same department depth.
+  return depts.flatMap((d) => [
+    {
+      url: `${BASE_URL}/departments/${slugify(d)}`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "weekly" as const,
+      priority: 0.6,
+    },
+    {
+      url: `${BASE_URL}/departments/${slugify(d)}/tax`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.55,
+    },
+    {
+      url: `${BASE_URL}/departments/${slugify(d)}/synthesis`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    },
+  ]);
 }
 
 function enCitySubSection(): MetadataRoute.Sitemap {

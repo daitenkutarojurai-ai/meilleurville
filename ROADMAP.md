@@ -761,13 +761,13 @@ Tables dans `lib/i18n.ts` : `FR_TO_EN_ROUTE`, `FR_TO_EN_CITY_SUB`, `PARITY_EXCEP
 (asymétries assumées, avec la raison — la liste doit rester courte, sinon « parité » ne veut
 plus rien dire).
 
-### État au 2026-08-05 — 8 routes, ~293 URL
+### État au 2026-08-06 — 6 routes, ~89 URL
 
 | Route FR | Jumelle EN attendue | URL |
 |---|---|---|
 | ~~`/comparer-departements` + `/[pair]`~~ | ✅ `/compare-departments` livré 04/08 | 391 |
 | ~~`/comparer/[pair]/synthese`~~ | ✅ `/compare/[pair]/synthesis` livré 05/08 | 771 |
-| `/departements/[dept]/fiscalite` + `/synthese` | `/departments/[dept]/tax` + `/synthesis` | ~204 |
+| ~~`/departements/[dept]/fiscalite` + `/synthese`~~ | ✅ `/departments/[dept]/tax` + `/synthesis` livrés 06/08 | 204 |
 | `/comparer-regions/[pair]/synthese` | `/compare-regions/[pair]/synthesis` | ~78 |
 | `/guides/categorie/[categorie]` | `/guides/category/[category]` | 7 |
 | `/avis`, `/quitter`, `/presse`, `/cgu` | `/reviews`, `/leaving`, `/press`, `/terms` | 4 |
@@ -845,6 +845,41 @@ deux rendus (paire et triplet), symétrique de la CTA FR — sans elle les 771 p
 seraient atteignables que par le sitemap. Entrées ajoutées dans la section
 `enCompareSection()` du sitemap, à la suite des URL existantes.
 
+### Livré le 06/08 — `/departments/[dept]/tax` + `/synthesis` (204 URL)
+
+Les deux dernières sous-pages de département sans jumelle : 102 pages fiscalité + 102 pages
+synthèse 8 axes, une par département couvert par le seed (`getAllDepartments()`, donc
+exactement le même jeu de slugs que les pages FR).
+
+**Aucun recalcul, des deux côtés.** `fiscalityForCity()` et `computeCitySynthesis()` sont
+appelées telles quelles : la taxe foncière, le taux DMTO, l'exemple à 280 000 €, les moyennes
+par axe et l'écart-type de cohérence sortent des mêmes fonctions que la page FR, avec les
+mêmes règles de découpe des tableaux (top 15, bas 10 seulement au-delà de 8 villes). Seuls
+les libellés sont traduits, au point d'affichage.
+
+Trois points de méthode :
+
+- **La table de libellés fiscaux EN est passée en lib.** `/cities/[slug]/tax` portait un
+  `FISC_EN` local dont les fourchettes sont, littéralement, les chaînes FR de `TIER_DATA`
+  retypographiées en anglais. La page département a besoin des mêmes : deux copies d'un
+  tableau de nombres, c'est une copie qui dérive. D'où `lib/fiscalite-en.ts`
+  (`FISC_EN` + `fiscStateEn`), importé par les deux surfaces. Le moteur FR n'est pas touché
+  — c'est bien une **companion lib** anglaise, pas une modification de la source de vérité.
+- **`pathAlternates` / `pathAlternatesEn` réutilisés**, comme annoncé le 05/08 : c'est encore
+  une famille dont le **dernier** segment est traduit (`fiscalite` ↔ `tax`,
+  `synthese` ↔ `synthesis`), donc `hreflangLanguages` aurait émis `/departments/<d>/fiscalite`,
+  une URL EN qui n'existe pas. Les deux pages FR, qui ne déclaraient qu'un `canonical`,
+  gagnent leur `languages` au passage — le piège n°1 du chantier s'est bien re-tendu, comme
+  prévu, sur 204 URL de plus.
+- **`enDepartmentsSection()` du sitemap émet désormais le triplet** hub + tax + synthesis, en
+  miroir exact de `departementsSection()`. Pas de nouveau chunk : les URL s'ajoutent dans la
+  section existante, donc la numérotation publique des chunks est inchangée.
+
+Maillage : les deux teasers du haut de `/departments/[dept]`, symétriques des deux teasers FR
+(💰 fiscalité, ✨ synthèse). Sans eux les 204 pages ne seraient atteignables que par le
+sitemap. Chaque page renvoie aussi vers l'autre, et la page fiscalité liste ses communes vers
+`/cities/[slug]/tax`.
+
 ### Ce qui a été corrigé côté EN le 03/08
 
 - **301 des chemins FR sur le domaine EN** (`frPathToEn()` dans `worker/index.ts`) : les 187
@@ -863,6 +898,12 @@ signal thématique du domaine. Noindex ou suppression — décision produit, pas
 tableau de bord, une route par run, sortie du contrôle collée dans chaque message de commit.
 
 ---
+
+## Shipped 2026-08-06
+
+- **Parité EN** ✅ — `/departments/[dept]/tax` + `/departments/[dept]/synthesis`, 204 URL
+  (102 départements × 2). Détaillé dans § « Parité EN › Livré le 06/08 » ci-dessus.
+  `npm run parity` : 8 routes FR sans jumelle → **6**.
 
 ## Shipped 2026-08-05
 
