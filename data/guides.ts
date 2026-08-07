@@ -45237,6 +45237,477 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Meaux", "activités Meaux 2026", "que faire à Meaux", "sorties Meaux", "musée de la Grande Guerre cathédrale Saint-Étienne Bossuet brie moutarde"]
   },
+  {
+    slug: "parent-solo-a-rennes-2026",
+    title: "Parent solo à Rennes en 2026 : deux lignes de métro et un T3 à 1 100 €",
+    metaTitle: "Parent solo à Rennes 2026 — Budget, écoles, métro",
+    metaDesc: "Élever seul·e à Rennes : T3 à 1 100 €, deux lignes de métro depuis 2022, écoles 8,5/10, sécurité 7,8/10. Un des meilleurs candidats français en parent solo — voici l'arbitrage réel.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 9,
+    publishedAt: "2026-08-07",
+    updatedAt: "2026-08-07",
+    intro: "Rennes cumule quatre leviers rares dans la même ville : T3 moyen à 1 100 € (source : data/housing.ts), deux lignes de métro depuis l'ouverture de la ligne b en 2022, score écoles 8,5/10 et sécurité 7,8/10 (source : data/cities-seed.ts). Pour un parent solo, c'est probablement le meilleur compromis « métropole » qu'on trouve en province — moins cher que Lyon, plus dense en transports que Nantes, plus sûr que Bordeaux. Le bémol est climatique (1 700 h de soleil et pluie régulière) et bassin d'emploi encore centré sur la tech, la fonction publique et l'université.",
+    sections: [
+      {
+        heading: "Ce qui fait de Rennes un choix rationnel en parent solo",
+        body: "Score global 8,2/10, transports 8,4/10, écoles 8,5/10, sécurité 7,8/10, coût 7,1/10 (source : data/cities-seed.ts) — quatre curseurs alignés au-dessus de 7. La ligne b du métro (ouverte en 2022) a doublé la couverture du réseau : elle traverse la ville en diagonale nord-est-sud-ouest et croise la ligne a à Sainte-Anne et Gares. À partir d'un logement bien placé, l'école, la crèche, le médecin et le lieu de travail sont accessibles sans voiture — le point qui fait basculer la vie pour un profil solo. Le tissu associatif enfance-parentalité (Maisons de la Petite Enfance dans chaque quartier, CIDFF pour l'accompagnement juridique séparation, associations parents solos rennaises) est plus organisé qu'en moyenne, effet universitaire + tradition sociale bretonne.",
+      },
+      {
+        heading: "T3 sur un revenu : quels quartiers tiennent",
+        body: "Sur 1 900 € net, un T3 à 1 100 € en moyenne (source : data/housing.ts) est faisable. Les stratégies : (1) Villejean-Beauregard (nord-ouest, métro a puis b) à 800–1 050 € pour un T3, campus universitaire à côté, écoles publiques nombreuses, ambiance jeune et familiale — le meilleur rapport parent solo ; (2) Cleunay-Arsenal-Redon (sud-ouest, métro b) à 850–1 100 €, quartier en renouvellement urbain, prix compétitifs, écoles neuves ; (3) Sainte-Thérèse et Sud-Gare (sud, métro a-b à Gares) à 950–1 250 €, calme, résidentiel, marchés ; (4) Longs-Champs (nord-est, métro b) à 850–1 100 €, écoles publiques réputées, proche parc. Éviter en parent solo sans voiture : les biens en périphérie sans métro (Chantepie ouest, Bruz nord) où la voiture redevient nécessaire, et Le Blosne (métro OK mais variance rue à rue sur la sécurité perçue à filtrer).",
+      },
+      {
+        heading: "Se déplacer avec un enfant : deux lignes de métro, un vrai réseau vélo",
+        body: "Rennes marque 8,4/10 en transports (source : data/cities-seed.ts). Le réseau STAR : deux lignes de métro automatique (a Poterie-J.F. Kennedy ; b Cesson-Viasilva-Saint-Jacques-Gaîté), une trentaine de lignes de bus dont Chronostar (bus à haute fréquence sur voies dédiées). Abonnement STAR mensuel : 40 €, tarifs réduits selon QF CAF, gratuité pour les moins de 12 ans habitant la métropole. Vélo Star (LE vélo en libre-service) à 30 €/an, réseau cyclable dense sur la Vilaine et les axes universitaires. Pour un parent solo, l'axe scolaire Villejean–Sainte-Anne–Gares–Sud se fait entièrement en métro-vélo. Rennes est aussi la base idéale pour des week-ends TER sans voiture : Saint-Malo en 1 h, Vitré en 25 min, Dinan en 1 h — chaque satellite permet une sortie enfant sans logistique lourde.",
+      },
+      {
+        heading: "Écoles, cantines, périscolaire : le meilleur tissu de Bretagne",
+        body: "Rennes marque 8,5/10 en écoles (source : data/cities-seed.ts) — un des trois meilleurs scores hors Île-de-France. Les écoles publiques réputées : Sainte-Thérèse (Trégain), Villejean (Andrée-Chedid), Longs-Champs (Jean-Rostand), Sud-Gare (Guillevic), Bourg-l'Évêque (Léon-Grimault). La cantine est facturée en 8 tranches QF CAF (0,60 € à 5,80 € le repas). Le périscolaire municipal (Accueil de Loisirs Périscolaire) fonctionne matin et soir, tarif QF ou gratuit selon tranche. Le mercredi et vacances : centres de loisirs municipaux, associations Léo Lagrange, ORTF, MJC Grand Cordel. Les crèches municipales et associatives sont bien réparties — mais les listes d'attente restent tendues, inscrire dès le 6e mois de grossesse via la Direction de la Petite Enfance. La « priorité famille monoparentale » CAF fonctionne réellement à Rennes, à demander explicitement au dossier. Le tissu PMI (Protection Maternelle et Infantile) est dense.",
+      },
+      {
+        heading: "Sécurité : Rennes tient bien pour un parent solo",
+        body: "Rennes marque 7,8/10 en sécurité (source : data/cities-seed.ts) — le meilleur score parmi les métropoles de province de plus de 200 000 habitants. Les quartiers calmes toute la journée et le soir : Sainte-Anne, Sainte-Thérèse, Longs-Champs, Villejean centre, Sud-Gare, Thabor-Saint-Hélier, Jeanne d'Arc. Les secteurs à filtrer selon la rue : Le Blosne (variance forte sud contre nord), Maurepas (idem), Cleunay ouest. La vie étudiante concentre l'animation nocturne autour de la rue Saint-Michel et de Sainte-Anne — préférable pour un parent solo avec enfant de choisir un logement à un ou deux blocs des axes de sortie, pas dessus. Pour un parent qui rentre le soir en métro avec un enfant, la ville est plus rassurante que Bordeaux ou Toulouse, comparable à Nantes.",
+      },
+      {
+        heading: "Le verdict : Rennes est un top choix parent solo",
+        body: "Rennes fonctionne pour la majorité des profils parent solo à partir de 1 850 € net. Elle offre un des meilleurs ratios français « deux lignes de métro + écoles publiques solides + sécurité perçue + coût contenu ». Elle bat Bordeaux (moins cher, plus sûr, plus dense en transports), rivalise avec Nantes (écoles et sécurité un cran au-dessus, climat un cran en dessous) et perd contre Lyon uniquement sur la profondeur du bassin d'emploi cadre. Elle fonctionne excellemment pour les profils Éducation nationale, université, fonction publique, French Tech Atalante-Beaulieu, télétravailleurs (LGV Paris-Rennes 1 h 25). Elle fonctionne moins bien pour les amateurs de soleil (1 700 h/an, pluie régulière) et pour les métiers du luxe ou finance (bassin d'emploi étroit). Choix rationnel dans le top 3 parent solo en France, ex-aequo avec Nantes derrière Lyon.",
+      },
+    ],
+    relatedCities: ["rennes", "vitre", "saint-malo", "dinan", "saint-brieuc"],
+    relatedGuides: [
+      "vivre-a-rennes-2026",
+      "budget-mensuel-realiste-rennes-2026",
+      "acheter-a-rennes-quel-quartier-budget-2026",
+      "vivre-sans-voiture-rennes-guide-2026",
+      "famille-a-rennes-2026",
+    ],
+    tags: ["parent solo Rennes 2026", "monoparental Rennes", "T3 Villejean budget", "écoles Rennes métro b", "parent seul Bretagne"],
+  },
+  {
+    slug: "parent-solo-a-nancy-2026",
+    title: "Parent solo à Nancy en 2026 : T3 à 950 € et cœur baroque compact",
+    metaTitle: "Parent solo à Nancy 2026 — Budget, écoles, tram",
+    metaDesc: "Élever seul·e à Nancy : T3 à 950 €, deux lignes tram-BHNS, écoles 8,0/10, coût 8,2/10. Le meilleur rapport coût-écoles-culture pour un parent solo dans le Grand Est.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 9,
+    publishedAt: "2026-08-07",
+    updatedAt: "2026-08-07",
+    intro: "Nancy est probablement la ville de 100 000 habitants la plus sous-cotée pour un parent solo en France : T3 moyen à 950 € (source : data/housing.ts), score coût 8,2/10, écoles 8,0/10, culture 8,5/10 et sécurité 7,2/10 (source : data/cities-seed.ts). Cœur baroque compact autour de la Place Stanislas classée UNESCO depuis 1983, tram et Chronobus qui couvrent l'essentiel, et LGV Paris-Nancy en 1 h 30. Le bémol est climatique (hivers rigoureux, 1 700 h de soleil), et le bassin d'emploi cadre est moins profond qu'à Lyon ou Strasbourg — mais pour un profil fonction publique, éducation nationale ou santé, le rapport qualité-prix est difficile à battre.",
+    sections: [
+      {
+        heading: "Ce qui fait de Nancy un choix rationnel en parent solo",
+        body: "Score global 7,6/10, coût 8,2/10, transports 7,8/10, écoles 8,0/10, sécurité 7,2/10, culture 8,5/10 (source : data/cities-seed.ts) — les curseurs coût et culture sont dans le top français, et écoles + sécurité tiennent au-dessus de la moyenne. Le cœur historique compact (Ville-Vieille, Place Stanislas, Place Carrière, Place d'Alliance — les trois classées UNESCO) fait tout tenir dans un rayon de 15 minutes à pied depuis Rives de Meurthe ou Saint-Sébastien. Pour un parent solo, ce compactage change tout : école, marché, bibliothèque, médecin et jardin sont à distance de poussette. Le CHRU de Brabois (pédiatrie, maternité niveau III) offre un tissu médical rassurant pour un enfant, et le CROUS + université Lorraine irriguent une offre culturelle enfant plus dense qu'attendue (Muséum-Aquarium, Musée des Beaux-Arts, Musée de l'École de Nancy, événements Nancyphonies).",
+      },
+      {
+        heading: "T3 sur un revenu : quels quartiers tiennent",
+        body: "Sur 1 800 € net, un T3 à 950 € en moyenne (source : data/housing.ts) est confortablement faisable. Les stratégies : (1) Saint-Sébastien-Rives de Meurthe (sud-est du centre, tram) à 700–950 € pour un T3, écoles publiques nombreuses, marchés, ambiance familiale — le meilleur rapport parent solo ; (2) Poincaré-Foch (ouest, résidentiel bourgeois modéré) à 800–1 050 €, calme, écoles réputées ; (3) Boudonville (nord, tram et bus) à 700–950 €, jeune, campus universitaire à proximité ; (4) Villers-lès-Nancy et Vandœuvre à 650–900 €, tram T1, écoles publiques, périphérie tranquille avec accès rapide au centre. Éviter en parent solo sans voiture : Haussonville-Blandan (variance sécurité) et les biens en périphérie éloignée des lignes tram-BHNS (Laxou ouest, Maxéville nord) où la voiture redevient indispensable.",
+      },
+      {
+        heading: "Se déplacer avec un enfant : le tram-BHNS et un cœur piéton",
+        body: "Nancy marque 7,8/10 en transports (source : data/cities-seed.ts). Le réseau STAN : la ligne 1 tramway sur pneus (Vandœuvre CHU-Essey Mouzimpré) qui traverse la ville nord-sud en passant par la gare et le centre, la ligne 2 BHNS depuis 2023, et un réseau bus dense dont Corol. Abonnement STAN mensuel : environ 40 €, tarifs réduits QF CAF, gratuité les week-ends pour les moins de 26 ans depuis 2023. Le centre historique est largement piétonnier (Place Stanislas, rue Saint-Jean, rue des Dominicains) — on y circule à pied avec poussette en sécurité. Le vélo : réseau vélOstan libre-service à 30 €/an, Nancy a lancé son plan vélo 2020-2026 avec des axes structurants Meurthe-est. Pour un parent solo, l'axe scolaire Rives de Meurthe–centre–Boudonville se fait entièrement en tram et à pied. La LGV Paris-Nancy en 1 h 30 rend les week-ends chez grands-parents parisiens tenables sans voiture.",
+      },
+      {
+        heading: "Écoles, cantines, périscolaire : la solidité lorraine",
+        body: "Nancy marque 8,0/10 en écoles (source : data/cities-seed.ts). Les écoles publiques réputées : Saint-Sébastien (Charles III), Rives de Meurthe (Louis Bertrand), Poincaré (Braconnot), Boudonville (Charlemagne), Villers-lès-Nancy (Aristide Briand). La cantine est facturée en tranches QF CAF (0,55 € à 5,20 € le repas). Le périscolaire municipal (Accueil de Loisirs Périscolaire) fonctionne matin et soir, tarif QF. Le mercredi et vacances : centres de loisirs municipaux, MJC (Pichon, Beauregard, Lillebonne), associations Léo Lagrange. Les crèches municipales et associatives sont mieux réparties depuis le plan Petite Enfance 2022, mais les listes d'attente restent tendues à partir de 6 mois — inscrire dès le début de grossesse via la Direction de la Petite Enfance. La « priorité famille monoparentale » CAF s'applique sur dossier. Le CHRU Brabois assure pédiatrie et maternité niveau III, et l'ARS Grand Est confirme la densité de médecins généralistes autour du centre.",
+      },
+      {
+        heading: "Sécurité : Nancy tient bien pour un parent solo",
+        body: "Nancy marque 7,2/10 en sécurité (source : data/cities-seed.ts). Les quartiers calmes toute la journée et le soir pour un parent solo : Saint-Sébastien, Rives de Meurthe centre, Poincaré-Foch, Boudonville centre, Ville-Vieille, Charles III, Villers-lès-Nancy. Les secteurs à filtrer selon la rue : Haussonville-Blandan (variance forte), Plateau de Haye (à Maxéville, mais politique de rénovation en cours), certains axes de Laxou-Provinces. La vie nocturne étudiante concentre l'animation autour de la Place Stanislas et de la rue Stanislas — pas gênant si le logement est dans les axes résidentiels adjacents (rue Saint-Léon, rue Sainte-Anne). Pour un parent solo qui rentre en tram le soir avec un enfant, la ville est plus rassurante que Reims ou Metz, comparable à Dijon.",
+      },
+      {
+        heading: "Le verdict : Nancy pour quel parent solo",
+        body: "Nancy fonctionne pour la majorité des profils parent solo à partir de 1 650 € net — un des seuils les plus bas des villes de son gabarit. Elle offre un rapport coût-écoles-culture rare : T3 à 950 €, écoles à 8,0/10, culture à 8,5/10. Elle fonctionne excellemment pour les profils fonction publique (préfecture Grand Est, DIRECCTE, université Lorraine), éducation nationale, CHRU Brabois, ainsi que pour les télétravailleurs qui capitalisent sur la LGV Paris 1 h 30. Elle fonctionne bien pour les parents solos qui veulent une école publique solide sans loyer prohibitif. Elle fonctionne moins bien pour les amateurs de soleil (1 700 h/an, hivers rigoureux), pour les cadres tech senior (bassin d'emploi étroit) et pour les métiers du luxe ou finance. Choix rationnel dans le top 5 parent solo en France, meilleur rapport coût-qualité du Grand Est.",
+      },
+    ],
+    relatedCities: ["nancy", "vandoeuvre-les-nancy", "metz", "pont-a-mousson", "epinal"],
+    relatedGuides: [
+      "vivre-a-nancy-2026",
+      "acheter-a-nancy-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-nancy-2026",
+      "demenager-a-nancy-2026",
+      "travail-a-nancy-2026",
+    ],
+    tags: ["parent solo Nancy 2026", "monoparental Nancy", "T3 Saint-Sébastien budget", "écoles Nancy tram", "parent seul Grand Est"],
+  },
+  {
+    slug: "parent-solo-a-angers-2026",
+    title: "Parent solo à Angers en 2026 : T3 à 1 000 € et douceur angevine",
+    metaTitle: "Parent solo à Angers 2026 — Budget, écoles, tram",
+    metaDesc: "Élever seul·e à Angers : T3 à 1 000 €, deux lignes tram, écoles 7,6/10, sécurité 7,3/10. La ville la mieux classée qualité de vie en France, testée sur un budget solo.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 9,
+    publishedAt: "2026-08-07",
+    updatedAt: "2026-08-07",
+    intro: "Angers ressort régulièrement en tête des palmarès nationaux qualité de vie — et pour un parent solo, ça se traduit en chiffres concrets : T3 moyen à 1 000 € (source : data/housing.ts), score global 7,5/10, sécurité 7,3/10, écoles 7,6/10 et coût 7,6/10 (source : data/cities-seed.ts). Deux lignes de tram (A depuis 2011, B depuis 2023) couvrent la ville d'est en ouest et du nord au sud, les jardins sont exceptionnels (Terra Botanica, Jardin des Plantes, parcours Loire à Vélo), et la LGV Paris-Angers met la capitale à 1 h 30. Le bémol est un bassin d'emploi cadre moins profond que Nantes ou Rennes, et un climat doux mais humide (1 920 h de soleil, ce n'est pas Toulouse).",
+    sections: [
+      {
+        heading: "Ce qui fait d'Angers un choix rationnel en parent solo",
+        body: "Score global 7,5/10, coût 7,6/10, transports 7,4/10, écoles 7,6/10, sécurité 7,3/10 (source : data/cities-seed.ts) — aucun curseur ne décroche, la ville est étonnamment équilibrée. La deuxième ligne de tram ouverte en 2023 a fermé le maillage nord-sud manquant, et permet aujourd'hui à un parent solo de vivre sans voiture depuis presque tous les quartiers résidentiels. Le tissu associatif est dense : Direction Enfance-Éducation municipale organisée, tarif QF systématique, Maisons de Quartier réparties, ludothèques, médiathèques enfant (Toussaint, Belle-Beille). Le CHU d'Angers (pédiatrie, maternité niveau III) rassure sur l'imprévu médical. Le Jardin des Plantes, le Parc Balzac (95 ha) et Terra Botanica offrent des espaces gratuits ou peu chers pour occuper un enfant seul un dimanche sans logistique.",
+      },
+      {
+        heading: "T3 sur un revenu : quels quartiers tiennent",
+        body: "Sur 1 800 € net, un T3 à 1 000 € en moyenne (source : data/housing.ts) est faisable. Les stratégies : (1) Doutre (rive droite, tram A) à 800–1 050 € pour un T3, écoles publiques réputées, ambiance familiale, marchés, quartier semi-piéton — le meilleur rapport parent solo ; (2) Justices-Madeleine-Saint-Léonard (est, tram A) à 750–1 000 €, résidentiel, écoles publiques nombreuses ; (3) Belle-Beille (ouest, tram A) à 700–950 €, campus universitaire, prix compétitifs, en renouvellement urbain ; (4) Roseraie-Grand Pigeon (sud, tram B depuis 2023) à 750–1 000 €, résidentiel calme, écoles publiques. Éviter en parent solo : les biens en périphérie sans tram (Trélazé nord, Beaucouzé, Avrillé nord) où la voiture redevient nécessaire, et Verneau (sécurité perçue variable rue à rue à filtrer).",
+      },
+      {
+        heading: "Se déplacer avec un enfant : deux lignes de tram et un vrai réseau vélo",
+        body: "Angers marque 7,4/10 en transports (source : data/cities-seed.ts). Le réseau Irigo : deux lignes de tram (A Avrillé-Roseraie, B Belle-Beille-Monplaisir depuis 2023), bus urbains et bus périurbains vers les communes limitrophes. Abonnement Irigo mensuel : 41 €, tarifs réduits QF CAF, gratuité pour les moins de 11 ans habitant la métropole. Le vélo passe très bien : Angers a lancé son plan Vélo 2019-2027 avec 130 km d'aménagements cyclables, réseau libre-service Vélocité à 30 €/an. Pour un parent solo, l'axe scolaire Doutre–centre–Justices se fait entièrement en tram-vélo. La Loire à Vélo passe au bord de la ville — un dimanche à vélo avec enfant sur le chemin de halage est un vrai plan gratuit et sécurisé. La LGV Paris-Angers en 1 h 30 rend Paris accessible sans voiture.",
+      },
+      {
+        heading: "Écoles, cantines, périscolaire : le tissu angevin",
+        body: "Angers marque 7,6/10 en écoles (source : data/cities-seed.ts). Les écoles publiques réputées : Doutre (Émile Littré), Justices (Voltaire), Belle-Beille (Marcel Pagnol), Roseraie (Isoret), Grand Pigeon (Adrien Tigeot). La cantine est facturée en tranches QF CAF (0,60 € à 4,90 € le repas). Le périscolaire municipal (Accueil Périscolaire APS) fonctionne matin et soir, tarif QF. Le mercredi et vacances : centres de loisirs municipaux, associations Léo Lagrange, MPT (Maisons Pour Tous) réparties dans chaque quartier. Les crèches municipales et associatives sont bien réparties, la Direction Petite Enfance de la Ville d'Angers accompagne les parents solos sur dossier — la « priorité famille monoparentale » CAF fonctionne réellement ici. Le tissu PMI est correct, et la densité de généralistes autour du centre est meilleure qu'en moyenne provinciale.",
+      },
+      {
+        heading: "Sécurité : Angers tient bien pour un parent solo",
+        body: "Angers marque 7,3/10 en sécurité (source : data/cities-seed.ts) — un score honorable pour une préfecture de 150 000 habitants. Les quartiers calmes toute la journée et le soir pour un parent solo : Doutre, Justices-Madeleine, Saint-Léonard, Roseraie centre, Grand Pigeon centre, Lac-de-Maine, Beauregard. Les secteurs à filtrer selon la rue : Verneau, Monplaisir (variance rue à rue), certains axes de Belle-Beille ouest. La vie étudiante concentre l'animation nocturne autour de la rue Saint-Laud et de la Doutre — pas gênant si le logement est à un ou deux blocs des axes de sortie. Pour un parent solo qui rentre en tram le soir avec un enfant, la ville est plus rassurante que Rouen ou Reims, comparable à Dijon.",
+      },
+      {
+        heading: "Le verdict : Angers pour quel parent solo",
+        body: "Angers fonctionne pour la majorité des profils parent solo à partir de 1 700 € net. Elle offre le meilleur rapport qualité de vie-coût du grand Ouest hors Nantes-Rennes, et son deuxième tram ouvert en 2023 a débloqué la vie sans voiture pour la plupart des quartiers résidentiels. Elle fonctionne excellemment pour les profils fonction publique, éducation nationale, CHU d'Angers, université d'Angers, ESA (école supérieure d'agricultures), ainsi que pour les télétravailleurs qui capitalisent sur la LGV Paris 1 h 30. Elle fonctionne bien pour les parents solos qui veulent une ville à taille humaine, proche de la Loire, avec un vrai tissu d'espaces verts. Elle fonctionne moins bien pour les cadres tech ou finance senior (bassin d'emploi moins profond que Nantes 1 h de route), et pour les amateurs de climat très sec. Un choix rationnel qui ne fait pas rêver le premier jour mais qui tient la distance.",
+      },
+    ],
+    relatedCities: ["angers", "cholet", "saumur", "trelaze", "nantes"],
+    relatedGuides: [
+      "vivre-a-angers-2026",
+      "acheter-a-angers-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-angers-2026",
+      "famille-a-angers-2026",
+      "demenager-a-angers-2026",
+    ],
+    tags: ["parent solo Angers 2026", "monoparental Angers", "T3 Doutre budget", "écoles Angers tram", "parent seul Pays de la Loire"],
+  },
+  {
+    slug: "parent-solo-a-grenoble-2026",
+    title: "Parent solo à Grenoble en 2026 : T3 à 1 020 € et montagne au bout du tram",
+    metaTitle: "Parent solo à Grenoble 2026 — Budget, écoles, tram",
+    metaDesc: "Élever seul·e à Grenoble : T3 à 1 020 €, cinq lignes de tram, écoles 7,9/10, air d'hiver à surveiller. Ville plate, cyclable, avec un vrai réseau — l'arbitrage réel.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 9,
+    publishedAt: "2026-08-07",
+    updatedAt: "2026-08-07",
+    intro: "Grenoble combine un T3 moyen à 1 020 € (source : data/housing.ts), cinq lignes de tram et un des scores écoles les plus solides des villes moyennes françaises (7,9/10 — source : data/cities-seed.ts). Pour un parent solo, la ville est plate, dense en pistes cyclables, et le tram couvre presque tous les quartiers résidentiels : la vie sans voiture est réaliste. Le vrai point à intégrer honnêtement : l'inversion thermique en hiver crée des épisodes de pollution qui pèsent sur les enfants asthmatiques. Le score sécurité 6,7/10 est correct mais demande un filtrage quartier par quartier, et la nature à 9,0/10 se lit littéralement — trois massifs sont à moins d'une heure de tram-bus.",
+    sections: [
+      {
+        heading: "Ce qui fait de Grenoble un choix rationnel en parent solo",
+        body: "Score global 7,7/10, transports 7,5/10, nature 9,0/10, écoles 7,9/10, coût 6,8/10, sécurité 6,7/10 (source : data/cities-seed.ts). Le maillage tram (5 lignes A, B, C, D, E) est particulièrement dense pour une ville de 160 000 habitants, et l'agglomération de 450 000 habitants est couverte cohéremment. La ville est plate et compacte — un vrai levier vélo, avec Métrovélo à 25 €/an. La densité de recherche (CEA, ILL, ESRF, université Grenoble Alpes) irrigue un bassin d'emploi cadre STEM et santé rare pour une ville de cette taille, ce qui compte pour un parent solo qui doit pouvoir changer d'employeur sans changer de ville. Le CHU Grenoble Alpes (Nord + Sud) offre pédiatrie et maternité niveau III. Les massifs (Vercors, Chartreuse, Belledonne) offrent des sorties enfant gratuites — remontée en télécabine Bastille depuis le centre, sentier des Vouillants à Fontaine, plateau des Petites Roches en bus M-Tag.",
+      },
+      {
+        heading: "T3 sur un revenu : quels quartiers tiennent",
+        body: "Sur 1 900 € net, un T3 à 1 020 € en moyenne (source : data/housing.ts) est faisable — Grenoble reste plus abordable que Lyon voisine. Les stratégies : (1) Île Verte (nord, tram B) à 800–1 050 € pour un T3, résidentiel calme, écoles publiques réputées, bord d'Isère — le meilleur rapport parent solo ; (2) Berriat-Saint-Bruno (ouest, tram A-B) à 750–1 000 €, quartier en mutation, jeune, marchés, écoles publiques ; (3) Championnet-Hoche (centre-sud, tram A) à 900–1 200 €, cœur bourgeois modéré, écoles réputées ; (4) Villeneuve-Vigny-Musset (sud, tram A) à 650–900 €, prix les plus bas, en renouvellement urbain, écoles à vérifier ; (5) Meylan et La Tronche à 850–1 150 €, tram-bus, résidentiel calme avec accès rapide au centre. Éviter en parent solo sans voiture : les biens en périphérie sans tram (Corenc haut, Saint-Ismier ouest) où la voiture redevient indispensable, et Mistral-Alma-Rondeau (variance sécurité perçue à filtrer).",
+      },
+      {
+        heading: "Se déplacer avec un enfant : cinq lignes de tram et une ville plate",
+        body: "Grenoble marque 7,5/10 en transports (source : data/cities-seed.ts). Le réseau M-Tag : cinq lignes de tram (A Fontaine-Échirolles Denis Papin, B Grenoble Presqu'île-Gières Plaine des Sports, C Seyssins Le Prisme-Condillac Universités, D Étoile Alliés-Grand Sablon, E Le Fontanil-Louise Michel), un maillage bus dense dont Chrono. Abonnement mensuel : environ 40 €, tarifs QF CAF, gratuité pour les moins de 18 ans habitant la métropole. Le vélo passe très bien : Grenoble est une des trois premières villes cyclables de France en part modale, Métrovélo à 25 €/an avec vélos taille enfant et remorques. Pour un parent solo, l'axe scolaire Île Verte–Berriat–Championnet se fait entièrement en tram-vélo. La ZFE Grenoble exclut les Crit'Air 3 : si vous avez un diesel ancien, intégrer son remplacement au budget d'installation ou basculer voiture zéro dès le premier bail. Un ski enfant en journée depuis Grenoble se fait en TransIsère (Chamrousse, Les 7 Laux, Alpe d'Huez avec navette) — sans voiture personnelle, faisable.",
+      },
+      {
+        heading: "Écoles, cantines, périscolaire : la solidité grenobloise",
+        body: "Grenoble marque 7,9/10 en écoles (source : data/cities-seed.ts). Les écoles publiques réputées : Île Verte (Bizanet), Berriat (Nicolas Chorier), Championnet (Ampère), Hoche (Jean Jaurès), Villeneuve (Malherbe pour le collège), La Tronche (Le Grand Sablon). La cantine est facturée en tranches QF CAF (0,60 € à 5,40 € le repas). Le périscolaire municipal (Accueil Périscolaire) fonctionne matin et soir, tarif QF ou gratuit selon tranche. Le mercredi et vacances : centres de loisirs municipaux, MJC réparties (Anatole France, Chorier-Berriat, Prémol, Parmentier), associations sport et culture. Les crèches municipales et associatives sont réparties, listes d'attente tendues à partir de 6 mois — inscrire dès le début de grossesse via la Direction Petite Enfance. La « priorité famille monoparentale » CAF s'applique sur dossier. Le CHU Grenoble Alpes (Nord Michallon + Sud Voiron) assure pédiatrie et maternité niveau III, et la densité de généralistes est meilleure qu'en moyenne provinciale.",
+      },
+      {
+        heading: "Sécurité : Grenoble tient avec des filtres",
+        body: "Grenoble marque 6,7/10 en sécurité (source : data/cities-seed.ts) — un cran en dessous de Lyon (7,2) ou Nantes (7,5), comparable à Montpellier. Les quartiers calmes toute la journée et le soir : Île Verte, Championnet-Hoche, Berriat centre, Foch-Alsace-Lorraine, La Tronche, Meylan haut. Les secteurs à filtrer selon la rue : Villeneuve (variance forte, secteurs en rénovation depuis 2015), Mistral-Alma-Rondeau, certains axes de la Bastille nord-est. La ville étudiante concentre l'animation nocturne autour du centre historique et de Championnet — préférer un logement à un ou deux blocs des axes de sortie. Pour un parent solo qui rentre en tram le soir avec un enfant, la ville est comparable à Montpellier — plus faisable que Marseille ou Nice, moins que Nantes ou Lyon. Vérifier le trajet tram-domicile après 21 h avant de signer.",
+      },
+      {
+        heading: "Le verdict : Grenoble pour quel parent solo",
+        body: "Grenoble fonctionne pour trois profils parent solo. Le cadre STEM ou santé (CEA, ILL, ESRF, CHU) à partir de 2 000 € net, T3 à Île Verte ou Championnet, qui capitalise sur le bassin d'emploi rare pour la taille de la ville. Le parent solo télétravailleur qui recherche montagne et vie sans voiture, à partir de 1 900 € net. L'enseignant, chercheur ou fonction publique université à Berriat ou Villeneuve, budget optimisé. Elle fonctionne moins bien pour les enfants asthmatiques (épisodes de pollution en hiver à intégrer honnêtement — vérifier `/villes/grenoble/air` du site pour le suivi ATMO), pour les amateurs de soleil (1 900 h/an mais climat continental montagnard), et pour les métiers de la finance ou du luxe (Lyon 1 h 15 en TER si arbitrage possible). Choix rationnel dans le top 10 parent solo, spécialement fort pour les profils STEM et sportifs.",
+      },
+    ],
+    relatedCities: ["grenoble", "echirolles", "voiron", "chambery", "bourgoin-jallieu"],
+    relatedGuides: [
+      "vivre-a-grenoble-2026",
+      "acheter-a-grenoble-quel-quartier-budget-2026",
+      "vivre-sans-voiture-grenoble-guide-2026",
+      "10-choses-a-faire-a-grenoble-2026",
+      "demenager-a-grenoble-2026",
+    ],
+    tags: ["parent solo Grenoble 2026", "monoparental Grenoble", "T3 Île Verte budget", "écoles Grenoble tram", "parent seul Isère"],
+  },
+  {
+    slug: "parent-solo-a-dijon-2026",
+    title: "Parent solo à Dijon en 2026 : T3 à 950 € et une ville qui se traverse à pied",
+    metaTitle: "Parent solo à Dijon 2026 — Budget, écoles, tram",
+    metaDesc: "Élever seul·e à Dijon : T3 à 950 €, deux lignes de tram, écoles 7,8/10, coût 7,4/10. Cœur historique compact, LGV Paris 1 h 40 — l'arbitrage réel.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 9,
+    publishedAt: "2026-08-07",
+    updatedAt: "2026-08-07",
+    intro: "Dijon aligne un T3 moyen à 950 € (source : data/housing.ts), deux lignes de tram ouvertes en 2012, un secteur sauvegardé de 97 hectares qui rend le centre entièrement traversable à pied, et un score écoles 7,8/10 (source : data/cities-seed.ts). Pour un parent solo, c'est une des rares villes de 160 000 habitants où on peut se passer entièrement de voiture sans dégrader la qualité de vie enfant. LGV Paris-Dijon en 1 h 40, Beaune en TER en 25 minutes, réseau vélo dense. Le bémol est climatique (hivers froids, 1 820 h de soleil) et le bassin d'emploi cadre est moins profond qu'à Lyon voisine.",
+    sections: [
+      {
+        heading: "Ce qui fait de Dijon un choix rationnel en parent solo",
+        body: "Score global 7,6/10, coût 7,4/10, transports 7,5/10, écoles 7,8/10, sécurité 7,2/10, culture 8,2/10 (source : data/cities-seed.ts) — pas de curseur en dessous de 7. Le secteur sauvegardé (97 ha, classé depuis 1966) rend le cœur historique — Rue de la Liberté, Place François Rude, Palais des Ducs, Place de la Libération — entièrement praticable à pied et en poussette, avec un pavage adapté. Les deux lignes de tram (T1 Toison d'Or-Chenôve Centre commercial, T2 Valmy-Chenôve Le Guet) couvrent les axes structurants. Le Parcours de la Chouette (chemin balisé de 22 étapes patrimoniales) est un vrai plan gratuit pour occuper un enfant curieux. La Cité internationale de la gastronomie et du vin, ouverte en 2022, complète l'offre culturelle sans exiger de long trajet.",
+      },
+      {
+        heading: "T3 sur un revenu : quels quartiers tiennent",
+        body: "Sur 1 750 € net, un T3 à 950 € en moyenne (source : data/housing.ts) est faisable. Les stratégies : (1) Grésilles (nord-est, tram T1 puis T2) à 700–950 € pour un T3, écoles publiques nombreuses, marchés — le meilleur rapport parent solo, quartier en revalorisation depuis 2020 ; (2) Fontaine d'Ouche (ouest, tram T2) à 700–950 €, prix compétitifs, en rénovation, écoles publiques ; (3) Montchapet (nord, résidentiel bourgeois modéré) à 850–1 100 €, calme, écoles publiques réputées ; (4) Chenôve (sud, tram T1-T2) à 650–900 €, périphérie tranquille, écoles publiques, marchés ; (5) République-Wilson (nord centre, tram T1) à 850–1 150 €, résidentiel proche du parc de la Colombière. Éviter en parent solo sans voiture : les biens en périphérie sans tram (Talant nord, Ahuy) où la voiture redevient nécessaire, et certains axes des Grésilles nord (variance sécurité perçue à filtrer).",
+      },
+      {
+        heading: "Se déplacer avec un enfant : le tram et le vélo, la voiture optionnelle",
+        body: "Dijon marque 7,5/10 en transports (source : data/cities-seed.ts). Le réseau Divia : deux lignes de tram (T1 Toison d'Or-Chenôve Centre commercial, T2 Valmy-Chenôve Le Guet), plus de 15 lignes de bus dont Corol. Abonnement Divia mensuel : 40 €, tarifs QF CAF, gratuité pour les moins de 6 ans. Le vélo passe bien (Dijon est plate) — DiviaVélo à 27 €/an, réseau cyclable dense sur les axes structurants, chemin le long du canal de Bourgogne. Pour un parent solo, l'axe scolaire Grésilles–centre–Fontaine d'Ouche se fait entièrement en tram-vélo. La LGV Paris-Dijon en 1 h 40 permet des week-ends parisiens sans voiture, et le TER Dijon-Beaune en 25 min ouvre les vignobles hors saison (matinée dominicale gratuite avec enfant, retour l'après-midi). Le TER Dijon-Besançon en 1 h et Dijon-Lyon en 1 h 40 élargissent le rayon week-end.",
+      },
+      {
+        heading: "Écoles, cantines, périscolaire : le tissu dijonnais",
+        body: "Dijon marque 7,8/10 en écoles (source : data/cities-seed.ts). Les écoles publiques réputées : République (Anjou), Montchapet (Voltaire), Grésilles (Champollion), Fontaine d'Ouche (Buffon), Chenôve (Bourguignon). La cantine est facturée en tranches QF CAF (0,60 € à 5,30 € le repas). Le périscolaire municipal (Accueil de Loisirs Périscolaire ALP) fonctionne matin et soir, tarif QF. Le mercredi et vacances : centres de loisirs municipaux, MJC (Grésilles, Palais, Toison d'Or), associations Léo Lagrange. Les crèches municipales et associatives sont bien réparties, la Direction Petite Enfance de la Ville de Dijon prend en compte la « priorité famille monoparentale » CAF sur dossier — à demander explicitement. Le CHU Dijon Bourgogne (Le Bocage) offre pédiatrie et maternité niveau III, la densité de généralistes est correcte autour du centre et de Chenôve.",
+      },
+      {
+        heading: "Sécurité : Dijon tient bien pour un parent solo",
+        body: "Dijon marque 7,2/10 en sécurité (source : data/cities-seed.ts). Les quartiers calmes toute la journée et le soir pour un parent solo : République-Wilson, Montchapet, Chenôve centre, Fontaine d'Ouche centre, cœur historique (Rue de la Liberté, Place François Rude), Grésilles sud, Talant centre. Les secteurs à filtrer selon la rue : certains axes des Grésilles nord (variance rue à rue), Chenôve nord-ouest, Fontaine d'Ouche ouest. La vie étudiante concentre l'animation nocturne autour de la place Émile Zola et de la rue Berbisey — préférer un logement à un ou deux blocs. Pour un parent solo qui rentre en tram le soir avec un enfant, la ville est comparable à Nancy — plus rassurante que Reims ou Metz, moins que Rennes ou Nantes.",
+      },
+      {
+        heading: "Le verdict : Dijon pour quel parent solo",
+        body: "Dijon fonctionne pour la majorité des profils parent solo à partir de 1 700 € net. Elle offre un cœur historique piéton exceptionnel, un tram cohérent, et un rapport coût-culture rare — 950 € de T3 pour 8,2/10 de culture, difficile à battre en France. Elle fonctionne excellemment pour les profils fonction publique (préfecture Bourgogne-Franche-Comté, université de Bourgogne), CHU, ainsi que pour les télétravailleurs qui capitalisent sur la LGV Paris 1 h 40 et le TER Lyon 1 h 40. Elle fonctionne bien pour les parents solos amateurs de gastronomie, vin, patrimoine, et pour qui la vie à taille humaine compte. Elle fonctionne moins bien pour les cadres tech ou finance senior (bassin d'emploi cadre étroit face à Lyon), et pour les amateurs de climat très ensoleillé. Choix rationnel dans le top 10 parent solo, meilleur rapport patrimoine-coût de Bourgogne-Franche-Comté.",
+      },
+    ],
+    relatedCities: ["dijon", "beaune", "chenove", "chalon-sur-saone", "besancon"],
+    relatedGuides: [
+      "vivre-a-dijon-2026",
+      "acheter-a-dijon-quel-quartier-budget-2026",
+      "vivre-sans-voiture-dijon-guide-2026",
+      "10-choses-a-faire-a-dijon-2026",
+      "famille-a-dijon-2026",
+    ],
+    tags: ["parent solo Dijon 2026", "monoparental Dijon", "T3 Grésilles budget", "écoles Dijon tram", "parent seul Bourgogne"],
+  },
+  {
+    slug: "parent-solo-a-metz-2026",
+    title: "Parent solo à Metz en 2026 : T3 à 910 € et un cœur vert compact",
+    metaTitle: "Parent solo à Metz 2026 — Budget, écoles, mettis",
+    metaDesc: "Élever seul·e à Metz : T3 à 910 €, deux lignes Mettis BHNS, écoles 7,4/10, coût 7,8/10. Ville verte, Luxembourg à 45 min — l'arbitrage réel.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 9,
+    publishedAt: "2026-08-07",
+    updatedAt: "2026-08-07",
+    intro: "Metz aligne un T3 moyen à 910 € (source : data/housing.ts) — un des plus abordables des préfectures de région française — un score coût de 7,8/10, culture 7,9/10 et sécurité 7,1/10 (source : data/cities-seed.ts). Le Mettis (deux lignes BHNS ouvertes en 2013) fait office de quasi-tram et couvre les axes structurants ; le centre historique et l'île du Petit Saulcy sont largement piétons. Pour un parent solo, la ville est faisable sans voiture pour peu que le logement soit sur un axe Mettis. Le vrai atout stratégique : Luxembourg est à 45 minutes en TER — bassin d'emploi transfrontalier significatif pour un profil cadre qui accepte le trajet. Bémol : climat continental (1 640 h de soleil, hivers rigoureux).",
+    sections: [
+      {
+        heading: "Ce qui fait de Metz un choix rationnel en parent solo",
+        body: "Score global 7,3/10, coût 7,8/10, transports 7,0/10, écoles 7,4/10, sécurité 7,1/10, culture 7,9/10, nature 7,2/10 (source : data/cities-seed.ts). La ville verte (36 m² d'espaces verts par habitant, dans le top français) offre parcs et jardins gratuits à distance de poussette : Plan d'Eau, Parc de la Seille, Île du Saulcy, Esplanade. Le Centre Pompidou-Metz (ouvert en 2010) organise régulièrement des ateliers enfants gratuits ou peu chers, et la Cité musicale-Metz propose des concerts jeune public. Le CHR Metz-Thionville (Mercy) assure pédiatrie et maternité niveau III. Le tissu associatif est actif (MJC, centres sociaux), et la Ville a lancé un plan Petite Enfance renforcé après 2020. Pour un parent solo cadre acceptant le TER quotidien, le bassin d'emploi Luxembourg (7 000 frontaliers messins) élargit considérablement les débouchés.",
+      },
+      {
+        heading: "T3 sur un revenu : quels quartiers tiennent",
+        body: "Sur 1 650 € net, un T3 à 910 € en moyenne (source : data/housing.ts) est confortablement faisable. Les stratégies : (1) Sablon (sud, Mettis A) à 700–950 € pour un T3, résidentiel calme, écoles publiques nombreuses, marchés — le meilleur rapport parent solo ; (2) Nouvelle Ville-Pontiffroy (est, Mettis A) à 750–1 000 €, résidentiel bourgeois modéré, calme, écoles publiques ; (3) Devant-les-Ponts (nord, Mettis B) à 650–900 €, prix compétitifs, en revalorisation, écoles publiques ; (4) Queuleu (est, bus) à 700–950 €, résidentiel avec accès rapide au centre ; (5) Montigny-lès-Metz (sud, Mettis A) à 700–950 €, commune limitrophe, écoles publiques réputées. Éviter en parent solo sans voiture : les biens en périphérie sans Mettis (Woippy nord, Ban-Saint-Martin ouest) où la voiture redevient nécessaire, et Borny (Mettis OK mais variance sécurité perçue à filtrer).",
+      },
+      {
+        heading: "Se déplacer avec un enfant : le Mettis et une ville plate",
+        body: "Metz marque 7,0/10 en transports (source : data/cities-seed.ts). Le réseau Le Met' : deux lignes Mettis (A Woippy-Borny, B Metz Nord-Metz Sud) — BHNS à haut niveau de service qui fonctionnent quasi comme un tram, plus de 25 lignes de bus. Abonnement Le Met' mensuel : 40 €, tarifs QF CAF, gratuité pour les moins de 6 ans. Le vélo passe bien (Metz est plate) — vélOstan libre-service à 30 €/an, réseau cyclable dense sur les axes Moselle et Seille. Pour un parent solo, l'axe scolaire Sablon–centre–Devant-les-Ponts se fait entièrement en Mettis-vélo. Le TER Metz-Luxembourg en 45 min ouvre un bassin d'emploi transfrontalier significatif : un parent solo cadre finance ou juridique peut envisager le poste luxembourgeois tout en résidant à Metz — vérifier avant tout la faisabilité garderie-école avec un trajet du travail supérieur à une heure porte à porte. TGV Metz-Paris en 1 h 25 pour un week-end grand-parental.",
+      },
+      {
+        heading: "Écoles, cantines, périscolaire : le tissu messin",
+        body: "Metz marque 7,4/10 en écoles (source : data/cities-seed.ts). Les écoles publiques réputées : Sablon (Jean Moulin), Nouvelle Ville (Debussy), Devant-les-Ponts (Erckmann-Chatrian), Queuleu (Le Graouilly), Montigny-lès-Metz (Nomeny). La cantine est facturée en tranches QF CAF (0,55 € à 5,00 € le repas). Le périscolaire municipal (Accueil de Loisirs Périscolaire ALP) fonctionne matin et soir, tarif QF. Le mercredi et vacances : centres de loisirs municipaux, MJC (Boileau-Prégénie, Metz-Sud, Metz-Est), associations Léo Lagrange. Les crèches municipales et associatives sont réparties, listes d'attente réelles à partir de 6 mois — inscrire dès le début de grossesse via la Direction Petite Enfance. La « priorité famille monoparentale » CAF s'applique sur dossier. Le CHR Metz-Thionville (site de Mercy) assure pédiatrie et maternité niveau III, la densité de généralistes est correcte autour du centre et du Sablon.",
+      },
+      {
+        heading: "Sécurité : Metz tient globalement pour un parent solo",
+        body: "Metz marque 7,1/10 en sécurité (source : data/cities-seed.ts). Les quartiers calmes toute la journée et le soir pour un parent solo : Sablon, Nouvelle Ville, Queuleu, Pontiffroy, Devant-les-Ponts centre, Montigny-lès-Metz centre, cœur historique (Place Saint-Louis, Place de la Comédie). Les secteurs à filtrer selon la rue : Borny (variance forte, secteurs en rénovation depuis 2015), Bellecroix, certains axes de Woippy nord (commune limitrophe). La vie nocturne se concentre autour de la rue Serpenoise et de l'Outre-Seille — préférer un logement à un ou deux blocs. Pour un parent solo qui rentre en Mettis le soir avec un enfant, la ville est comparable à Nancy — plus rassurante que Reims, moins que Dijon.",
+      },
+      {
+        heading: "Le verdict : Metz pour quel parent solo",
+        body: "Metz fonctionne pour la majorité des profils parent solo à partir de 1 600 € net — un des seuils les plus bas des villes de son gabarit. Elle offre un rapport coût-culture-verdure rare : T3 à 910 €, Pompidou-Metz, 36 m² d'espaces verts par habitant. Elle fonctionne excellemment pour les profils fonction publique (préfecture Moselle, préfecture Grand Est administrative, université de Lorraine site Metz), Éducation nationale, cadres frontaliers Luxembourg finance-juridique-service. Elle fonctionne bien pour les parents solos amateurs de patrimoine médiéval et Renaissance (Metz est une des villes les plus anciennes de France). Elle fonctionne moins bien pour les cadres tech senior (bassin d'emploi local étroit sans le Luxembourg), pour les amateurs de soleil (1 640 h/an, hivers rigoureux) et pour les métiers du luxe. Choix rationnel qui monte fort si le Luxembourg est envisageable, top 10 parent solo sinon.",
+      },
+    ],
+    relatedCities: ["metz", "montigny-les-metz", "thionville", "nancy", "hayange"],
+    relatedGuides: [
+      "vivre-a-metz-2026",
+      "acheter-a-metz-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-metz-2026",
+      "famille-a-metz-2026",
+      "demenager-a-metz-2026",
+    ],
+    tags: ["parent solo Metz 2026", "monoparental Metz", "T3 Sablon budget", "écoles Metz Mettis", "parent seul Grand Est frontalier"],
+  },
+  {
+    slug: "parent-solo-a-reims-2026",
+    title: "Parent solo à Reims en 2026 : T3 à 900 € et Paris à 45 minutes",
+    metaTitle: "Parent solo à Reims 2026 — Budget, écoles, tram",
+    metaDesc: "Élever seul·e à Reims : T3 à 900 €, deux lignes de tram, écoles 7,3/10, LGV Paris 45 min. Le meilleur rapport coût-accès Paris — l'arbitrage réel.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 9,
+    publishedAt: "2026-08-07",
+    updatedAt: "2026-08-07",
+    intro: "Reims propose un T3 moyen à 900 € (source : data/housing.ts), deux lignes de tram ouvertes en 2011, une cathédrale UNESCO au cœur d'un centre-ville piéton, et surtout la LGV Reims-Paris en 45 minutes. Pour un parent solo qui a besoin ou envie de garder un pied à Paris (famille, employeur, réseau) sans en payer le loyer, c'est probablement le meilleur compromis français. Le bémol : score sécurité 6,8/10 (source : data/cities-seed.ts) qui demande un filtrage quartier par quartier, et bassin d'emploi cadre moins profond qu'à Metz ou Nancy.",
+    sections: [
+      {
+        heading: "Ce qui fait de Reims un choix rationnel en parent solo",
+        body: "Score global 7,1/10, coût 7,6/10, transports 7,3/10, écoles 7,3/10, sécurité 6,8/10, culture 7,8/10 (source : data/cities-seed.ts). La LGV Reims-Paris Est en 45 minutes change la donne : un parent solo peut garder un poste à Paris intra-muros (finance, luxe, siège social) tout en résidant à un tiers du loyer parisien — abonnement TGVmax à environ 90 €/mois pour les moins de 27 ans, TGV Pro pour les employeurs, ou tarif frontalier-navetteur pour les autres. Le centre historique est piéton et compact autour de la cathédrale, de la place d'Erlon et du parvis du palais du Tau. Les maisons de champagne (Veuve Clicquot, Taittinger, Pommery, Ruinart) offrent des visites tarif famille pour les enfants au-dessus de 12 ans. Le CHU Reims (Robert Debré) assure pédiatrie et maternité niveau III. Le tissu associatif enfance est correct sans être exceptionnel — le calcul se fait vraiment sur le pied dans Paris.",
+      },
+      {
+        heading: "T3 sur un revenu : quels quartiers tiennent",
+        body: "Sur 1 700 € net, un T3 à 900 € en moyenne (source : data/housing.ts) est faisable ; sur un salaire parisien maintenu (2 800–3 500 € net), la ville est très confortable. Les stratégies : (1) Clairmarais (nord-centre, tram A-B) à 700–950 € pour un T3, résidentiel calme, écoles publiques, marchés — le meilleur rapport parent solo ; (2) Cathédrale-Centre (piéton) à 850–1 150 €, résidentiel bourgeois modéré, culture à distance de marche ; (3) Jean-Jaurès (est, tram A) à 700–950 €, résidentiel, écoles publiques nombreuses ; (4) Saint-Rémi (sud-est, tram) à 800–1 050 €, quartier de la basilique, calme, écoles publiques ; (5) Bezannes (sud-ouest, tram B et gare TGV) à 850–1 150 €, résidentiel neuf avec gare TGV à 15 min à pied — pertinent pour un parent solo navetteur Paris. Éviter en parent solo : Croix-Rouge (variance sécurité perçue à filtrer), Orgeval nord, Wilson et Europe (idem).",
+      },
+      {
+        heading: "Se déplacer avec un enfant : deux lignes de tram et un centre piéton",
+        body: "Reims marque 7,3/10 en transports (source : data/cities-seed.ts). Le réseau Citura : deux lignes de tram (A Neufchâtel-Hôpital Debré, B Bezannes-Neufchâtel), une vingtaine de lignes de bus dont Citadine. Abonnement Citura mensuel : 40 €, tarifs QF CAF, gratuité pour les moins de 6 ans. Le vélo passe correctement (Reims est plate) — Zébullo libre-service à 30 €/an, réseau cyclable en développement. Pour un parent solo, l'axe scolaire Clairmarais–centre–Jean-Jaurès se fait entièrement en tram-vélo. La LGV Paris-Est en 45 min est le vrai levier stratégique : un aller-retour Paris pour un rendez-vous professionnel ou familial se fait dans la journée sans logistique enfant lourde, en gardant l'école le matin et le périscolaire le soir. Le TER Reims-Épernay en 25 min ouvre les vignobles pour un dimanche sans voiture, et le TGV Reims-Lille en 1 h 15 (via Marne-la-Vallée) élargit encore le rayon.",
+      },
+      {
+        heading: "Écoles, cantines, périscolaire : le tissu rémois",
+        body: "Reims marque 7,3/10 en écoles (source : data/cities-seed.ts). Les écoles publiques réputées : Clairmarais (Charles Arnould), Cathédrale (Turenne), Jean-Jaurès (Prieur de la Marne), Saint-Rémi (Léo Lagrange), Bezannes (école récente). La cantine est facturée en tranches QF CAF (0,55 € à 5,00 € le repas). Le périscolaire municipal (Accueil de Loisirs Périscolaire) fonctionne matin et soir, tarif QF. Le mercredi et vacances : centres de loisirs municipaux, MJC (Croix-Rouge, Claudel, Le Ludoval), associations Léo Lagrange. Les crèches municipales et associatives sont réparties, listes d'attente réelles à partir de 6 mois — inscrire dès le début de grossesse via la Direction Petite Enfance. La « priorité famille monoparentale » CAF s'applique sur dossier — à demander explicitement. Le CHU Robert Debré assure pédiatrie et maternité niveau III, la densité de généralistes est correcte autour du centre.",
+      },
+      {
+        heading: "Sécurité : Reims demande un filtrage quartier par quartier",
+        body: "Reims marque 6,8/10 en sécurité (source : data/cities-seed.ts) — un cran en dessous de Nancy ou Dijon (7,2), comparable à Montpellier. Les quartiers calmes toute la journée et le soir pour un parent solo : Clairmarais, Cathédrale-Centre, Jean-Jaurès, Saint-Rémi centre, Bezannes, Cormontreuil, Sillery. Les secteurs à filtrer selon la rue : Croix-Rouge (variance forte, secteurs en rénovation), Orgeval nord, Wilson, Europe. La vie nocturne se concentre autour de la place Drouet d'Erlon — préférer un logement à un ou deux blocs. Pour un parent solo qui rentre en tram le soir avec un enfant, la ville est comparable à Montpellier — plus faisable que Marseille, moins que Dijon ou Nancy. Vérifier le trajet tram-domicile après 21 h avant de signer, particulièrement les stations vers Neufchâtel.",
+      },
+      {
+        heading: "Le verdict : Reims pour quel parent solo",
+        body: "Reims fonctionne excellemment pour un profil très précis : le parent solo navetteur Paris, qui garde son emploi parisien tout en résidant à un tiers du loyer parisien. Sur ce cas, Reims est probablement le meilleur choix français — LGV 45 min, T3 à 900 €, gare TGV directement dans la ville plus une seconde gare à Bezannes. Elle fonctionne bien pour les profils fonction publique (préfecture Marne, sous-préfecture Grand Est), CHU Robert Debré, université de Reims Champagne-Ardenne, et pour les cadres du champagne. Elle fonctionne moins bien pour les cadres tech ou finance dont le poste est vraiment à Paris toute la semaine (fatigue du trajet à intégrer honnêtement), et pour les amateurs de très grande sécurité perçue (top 5 hors Paris). Choix rationnel dans le top 10 parent solo, imbattable pour le profil navetteur Paris.",
+      },
+    ],
+    relatedCities: ["reims", "epernay", "chalons-en-champagne", "laon", "soissons"],
+    relatedGuides: [
+      "vivre-a-reims-2026",
+      "acheter-a-reims-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-reims-2026",
+      "demenager-a-reims-2026",
+      "travail-a-reims-2026",
+    ],
+    tags: ["parent solo Reims 2026", "monoparental Reims", "T3 Clairmarais budget", "écoles Reims tram", "parent seul Marne navetteur Paris"],
+  },
+  {
+    slug: "parent-solo-a-aix-en-provence-2026",
+    title: "Parent solo à Aix-en-Provence en 2026 : T3 à 1 400 € et soleil à plein temps",
+    metaTitle: "Parent solo à Aix 2026 — Budget, écoles, transports",
+    metaDesc: "Élever seul·e à Aix-en-Provence : T3 à 1 400 €, sécurité 7,8/10, écoles 8,0/10, mais coût 5,6/10 — la ville la plus tendue budgétairement de la liste parent solo.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 9,
+    publishedAt: "2026-08-07",
+    updatedAt: "2026-08-07",
+    intro: "Aix-en-Provence est l'exception provençale de ce classement : T3 moyen à 1 400 € (source : data/housing.ts), coût 5,6/10 (source : data/cities-seed.ts) — la ville la plus tendue budgétairement des dix candidats du batch 2. Ce que la contrepartie apporte : sécurité 7,8/10, écoles 8,0/10, culture 8,4/10, ensoleillement 2 900 heures/an, et un cœur historique piéton qu'un enfant peut arpenter à pied à distance de tout. La question n'est pas « est-ce que ça marche pour un parent solo » — c'est « est-ce que votre revenu suit ». Sous 2 500 € net, la réponse est difficile ; au-dessus, Aix devient un des meilleurs choix français de qualité de vie.",
+    sections: [
+      {
+        heading: "Ce qui fait d'Aix un choix rationnel en parent solo (si le revenu suit)",
+        body: "Score global 8,2/10, sécurité 7,8/10, écoles 8,0/10, culture 8,4/10, nature 8,2/10, transports 6,8/10 (source : data/cities-seed.ts). Le cœur historique (Cours Mirabeau, Vieil Aix, Mazarin) est entièrement piéton et rend une vie quotidienne enfant à pied très fluide — écoles Saint-Eutrope et Mignet à distance, marchés Place Richelme et Place des Prêcheurs, jardins de l'Hôtel de Ville. Le climat 2 900 h de soleil réduit la charge mentale hiver (moins de vestiaire, plus de jeux extérieurs, coût énergie contenu). Le Bureau des Papes (garderie associative), le Grand Théâtre de Provence pour la programmation jeune public, et le tissu associatif culturel dense sont des vrais leviers pour un parent solo. Le CH Pays d'Aix assure pédiatrie, maternité niveau IIB (les grossesses à risque basculent sur la Timone à Marseille en 30 min de bus-train). Le bassin d'emploi cadre est solide : Cadarache CEA, ITER, Domaine Sciences pôle universitaire Aix-Marseille, cabinets juridiques et notariaux, tourisme premium.",
+      },
+      {
+        heading: "T3 sur un revenu : quels quartiers tiennent",
+        body: "Sur 2 000 € net, un T3 à 1 400 € en moyenne (source : data/housing.ts) est difficile — 70 % du revenu passe en logement. Les stratégies qui rendent la ville viable : (1) Encagnane et Corsy (nord-ouest, bus au centre en 15 min) à 950–1 250 € pour un T3, écoles publiques correctes, marchés — le meilleur rapport parent solo dans Aix intra-muros ; (2) Jas de Bouffan (ouest, bus 15 min) à 900–1 200 €, résidentiel, écoles publiques, en revalorisation ; (3) Val-Saint-André (sud, bus 20 min) à 1 100–1 400 €, résidentiel calme, proche de la voie verte ; (4) La Duranne (sud, campus Cadarache-ITER) à 1 000–1 300 €, résidentiel récent, écoles neuves — pertinent pour un parent cadre CEA-ITER ; (5) Communes limitrophes desservies par le TER : Meyrargues, Pertuis, Rognac — T3 à 750–950 €, 15–25 min de train jusqu'à Aix Centre. Éviter en parent solo sur budget serré : le triangle Cours Mirabeau-Cardeurs-Cathédrale (T3 à 1 500–2 000 €), le Tholonet et Le Petit Nice (résidentiel villa hors budget solo).",
+      },
+      {
+        heading: "Se déplacer avec un enfant : le pied et le bus, pas de tram",
+        body: "Aix marque 6,8/10 en transports (source : data/cities-seed.ts) — le score le plus bas des dix candidats parent solo du batch 2. Le réseau Aix-en-Bus / Régie des transports Aix-Marseille : pas de tram ni de métro, un réseau bus dense dont la ligne A-1 (BHNS Encagnane-Val Saint-André) et le réseau Metropolitain qui relie Marseille en 30 minutes par autoroute. Abonnement mensuel : 32 €, tarifs QF, gratuité pour les moins de 4 ans. Le vélo est jouable sur le plateau aixois mais la topographie devient contraignante vers le sud (Val-Saint-André) et le nord (Cézanne). Le TER Aix-Marseille en 40 min et Aix-Pertuis en 25 min ouvre le bassin d'emploi métropolitain. Pour un parent solo, l'axe scolaire cœur historique piéton fonctionne parfaitement — mais dès qu'on sort du centre, l'absence de tram fait de la ville une des rares du batch 2 où avoir une voiture reste utile, particulièrement pour les crèches périphériques et le CHU si la maternité bascule sur Marseille.",
+      },
+      {
+        heading: "Écoles, cantines, périscolaire : la solidité aixoise",
+        body: "Aix marque 8,0/10 en écoles (source : data/cities-seed.ts). Les écoles publiques réputées : Saint-Eutrope (Vieil Aix), Mignet (centre), Val-Saint-André (Le Cros), Encagnane (Fontenaille), Jas de Bouffan (Sallier), La Duranne (école récente). Le tissu privé sous contrat est particulièrement présent (Sacré-Cœur, La Nativité, Saint-Joseph) — à intégrer au calcul budgétaire (60–150 €/mois selon établissement, en plus de la cantine). La cantine publique est facturée en tranches QF CAF (0,80 € à 5,80 € le repas). Le périscolaire municipal (Accueil Périscolaire) fonctionne matin et soir, tarif QF. Le mercredi et vacances : centres de loisirs municipaux, associations Léo Lagrange, MPT. Les crèches municipales sont saturées : inscrire dès le début de grossesse via la Direction Petite Enfance, préparer un plan B micro-crèche (600–800 €/mois avant CMG CAF). La « priorité famille monoparentale » CAF s'applique sur dossier. Le CH Pays d'Aix assure la pédiatrie ; la maternité niveau III est à la Timone (Marseille, 30 min).",
+      },
+      {
+        heading: "Sécurité : Aix est le meilleur score PACA hors DROM",
+        body: "Aix marque 7,8/10 en sécurité (source : data/cities-seed.ts) — le meilleur score des dix villes PACA de plus de 100 000 habitants. Les quartiers calmes toute la journée et le soir pour un parent solo : Vieil Aix, Mazarin, Encagnane centre, Val-Saint-André, La Duranne, Le Tholonet, Puyricard (commune limitrophe). Les secteurs à filtrer selon la rue : Jas de Bouffan nord, certains axes de Corsy et de Beisson. La vie étudiante (Sciences Po Aix, Facultés de droit et de lettres) concentre l'animation nocturne autour du Cours Mirabeau et de la place des Cardeurs — préférer un logement à un ou deux blocs. Pour un parent solo qui rentre en bus le soir avec un enfant, la ville est plus rassurante que Marseille voisine, comparable à Rennes ou Angers.",
+      },
+      {
+        heading: "Le verdict : Aix pour quel parent solo",
+        body: "Aix fonctionne excellemment pour un profil parent solo précis : cadre supérieur à partir de 2 800 € net (Cadarache CEA, ITER, cabinet juridique, notarial, entreprise Aix-Marseille), qui peut absorber 1 200–1 500 € de loyer T3 en périphérie desservie ou 1 500–2 000 € en centre historique. Pour ce cas, la ville offre le meilleur package qualité de vie-sécurité-culture-climat de PACA hors DROM. Elle fonctionne bien pour les enseignants et chercheurs (université Aix-Marseille), à condition d'accepter Encagnane, Jas de Bouffan ou une commune limitrophe TER. Elle ne fonctionne pas honnêtement pour un parent solo sous 2 200 € net sans levier logement social ou APL forte — le loyer étrangle le reste. Alternative géographique : Aubagne, Salon-de-Provence ou Pertuis pour un T3 à 900–1 050 €, bassin scolaire correct, TER-bus vers Aix ou Marseille pour l'emploi. Choix rationnel top 5 parent solo France pour les revenus au-dessus de 2 800 €, hors périmètre pour les revenus modestes.",
+      },
+    ],
+    relatedCities: ["aix-en-provence", "aubagne", "salon-de-provence", "pertuis", "vitrolles"],
+    relatedGuides: [
+      "vivre-a-aix-en-provence-2026",
+      "acheter-a-aix-en-provence-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-aix-en-provence-2026",
+      "demenager-a-aix-en-provence-2026",
+      "travail-a-aix-en-provence-2026",
+    ],
+    tags: ["parent solo Aix-en-Provence 2026", "monoparental Aix", "T3 Encagnane budget", "écoles Aix Vieil Aix", "parent seul PACA"],
+  },
+  {
+    slug: "parent-solo-a-rouen-2026",
+    title: "Parent solo à Rouen en 2026 : T3 à 950 € et Paris à 1 h 15",
+    metaTitle: "Parent solo à Rouen 2026 — Budget, écoles, métro",
+    metaDesc: "Élever seul·e à Rouen : T3 à 950 €, métro F1 + tram, écoles 7,1/10, sécurité 6,4/10 — la ville normande à filtrer quartier par quartier.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 9,
+    publishedAt: "2026-08-07",
+    updatedAt: "2026-08-07",
+    intro: "Rouen aligne un T3 moyen à 950 € (source : data/housing.ts), une ligne de métro F1 (souvent appelée « TEOR » à tort — le TEOR est le BHNS distinct) doublée par le métro Metrobus depuis 1994, un centre historique médiéval largement piéton, et Paris à 1 h 15 en train direct sans LGV. Le score écoles 7,1/10 est correct sans être exceptionnel, la culture 7,9/10 s'appuie sur la cathédrale immortalisée par Monet et le musée des Beaux-Arts, et le climat normand (1 680 h de soleil, pluie régulière) est ce qu'il est. Le vrai point à intégrer honnêtement : sécurité 6,4/10 (source : data/cities-seed.ts) — le score le plus bas des dix candidats du batch 2, qui demande un filtrage quartier par quartier serré.",
+    sections: [
+      {
+        heading: "Ce qui fait de Rouen un choix rationnel en parent solo",
+        body: "Score global 7,0/10, coût 7,4/10, transports 7,5/10, écoles 7,1/10, sécurité 6,4/10, culture 7,9/10 (source : data/cities-seed.ts). Le métro Metrobus (une ligne, ouverte en 1994, unique en France avec Marseille et Lille dans les villes < 200 000 habitants) relie le nord Boulingrin au sud Georges-Braque en traversant la Seine, doublé par les lignes de tram T1 T2 T3 T4 et le TEOR BHNS. L'axe scolaire nord (Mont-Saint-Aignan) - centre (Cathédrale) - sud (Saint-Sever) est entièrement métro-tram. La cathédrale gothique et le Gros Horloge, le musée des Beaux-Arts et l'Historial Jeanne d'Arc offrent des sorties enfant peu chères ou gratuites. Paris est à 1 h 15 en train sans LGV — un vrai levier pour les grands-parents parisiens ou un rendez-vous professionnel dans la journée. Le CHU de Rouen (Charles-Nicolle) assure pédiatrie et maternité niveau III. Le bassin d'emploi comprend la fonction publique, l'université, le port, la santé, et un pôle innovation Seine Innopolis.",
+      },
+      {
+        heading: "T3 sur un revenu : quels quartiers tiennent",
+        body: "Sur 1 750 € net, un T3 à 950 € en moyenne (source : data/housing.ts) est faisable. Les stratégies : (1) Mont-Saint-Aignan (nord, TEOR + métro Beauvoisine) à 750–1 050 € pour un T3, résidentiel calme, écoles publiques réputées, quartier universitaire — le meilleur rapport parent solo ; (2) Saint-Sever (rive gauche, métro Georges-Braque) à 700–950 €, résidentiel, écoles publiques nombreuses, marchés ; (3) Jouvenet (nord-ouest, TEOR) à 800–1 100 €, résidentiel bourgeois modéré, écoles publiques réputées ; (4) Cathédrale-Vieux Marché (piéton, métro Palais de Justice) à 850–1 200 €, cœur historique, culture à distance de marche ; (5) Sotteville-lès-Rouen (sud, tram T1-T4) à 700–950 €, commune limitrophe, écoles publiques, prix compétitifs. Éviter en parent solo : Grammont (sud, variance sécurité perçue à filtrer), Château Blanc (rive gauche), Les Sapins (rive gauche), certains axes du Plateau des Provinces.",
+      },
+      {
+        heading: "Se déplacer avec un enfant : métro et tram, ville plate côté rive gauche",
+        body: "Rouen marque 7,5/10 en transports (source : data/cities-seed.ts). Le réseau Astuce : une ligne de métro Metrobus (Boulingrin-Georges Braque, franchit la Seine en tunnel), quatre lignes de tram (T1 T2 T3 T4 dont les Fast), quatre lignes TEOR BHNS (T1 T2 T3 T4), plus les bus classiques Astuce et Fast. Abonnement Astuce mensuel : 40 €, tarifs QF CAF, gratuité pour les moins de 6 ans. Le vélo passe bien sur la rive gauche (plate) et le long de la Seine — Cy'clic libre-service à 30 €/an. Le nord (Mont-Saint-Aignan) monte, prévoir un vélo à assistance ou le métro. Pour un parent solo, l'axe scolaire Mont-Saint-Aignan–centre–Saint-Sever se fait entièrement en métro-tram. Le train Rouen-Paris Saint-Lazare en 1 h 15 (Intercités et TER) rend Paris accessible sans voiture. Le TER Rouen-Le Havre en 55 min ouvre la mer pour un week-end enfant.",
+      },
+      {
+        heading: "Écoles, cantines, périscolaire : le tissu rouennais",
+        body: "Rouen marque 7,1/10 en écoles (source : data/cities-seed.ts). Les écoles publiques réputées : Mont-Saint-Aignan (Marc Chagall, Nicolas Poussin), Jouvenet (Charmilles), Cathédrale (Rollon, Cavelier de la Salle), Saint-Sever (Bernard Palissy), Sotteville-lès-Rouen (Fernand Léger). La cantine est facturée en tranches QF CAF (0,55 € à 5,00 € le repas). Le périscolaire municipal (Accueil de Loisirs Périscolaire) fonctionne matin et soir, tarif QF. Le mercredi et vacances : centres de loisirs municipaux, MJC (Rive Gauche, Grammont, Sapins), associations Léo Lagrange, Muséum et musée des Beaux-Arts gratuits enfant. Les crèches municipales et associatives sont réparties, listes d'attente réelles à partir de 6 mois — inscrire dès le début de grossesse via la Direction Petite Enfance. La « priorité famille monoparentale » CAF s'applique sur dossier. Le CHU Charles-Nicolle assure pédiatrie et maternité niveau III, densité de généralistes correcte autour du centre et de Mont-Saint-Aignan.",
+      },
+      {
+        heading: "Sécurité : Rouen demande un filtrage serré",
+        body: "Rouen marque 6,4/10 en sécurité (source : data/cities-seed.ts) — le score le plus bas des dix candidats parent solo du batch 2. Les quartiers calmes toute la journée et le soir pour un parent solo : Mont-Saint-Aignan, Jouvenet, Cathédrale-Vieux Marché centre, Saint-Sever centre, Bihorel, Bois-Guillaume. Les secteurs à filtrer selon la rue : Grammont (variance forte), Château Blanc, Les Sapins, La Grand Mare, Le Plateau des Provinces. La vie nocturne se concentre autour de la place du Vieux Marché et de la rue Eau-de-Robec — préférer un logement à un ou deux blocs. Pour un parent solo qui rentre en métro le soir avec un enfant, la ville est comparable à Toulon ou Bordeaux — plus faisable que Marseille, moins que Nantes ou Rennes. Vérifier impérativement le trajet métro-domicile après 21 h avant de signer.",
+      },
+      {
+        heading: "Le verdict : Rouen pour quel parent solo",
+        body: "Rouen fonctionne pour un profil précis : le parent solo qui veut garder un pied à Paris (famille, employeur, réseau) tout en résidant à un tiers du loyer parisien, et qui accepte 1 h 15 de train (pas LGV) contre les 45 min de Reims. Sur ce cas, Rouen offre plus de patrimoine et de tissu culturel que Reims, mais moins de sécurité perçue. Elle fonctionne bien pour les profils fonction publique (préfecture Normandie, université Rouen Normandie, CHU Charles-Nicolle), Éducation nationale, port autonome, industrie chimique et pharmaceutique, Seine Innopolis. Elle fonctionne moins bien pour un parent solo qui privilégie la sécurité perçue au coût (Nancy ou Dijon plus rassurantes pour un T3 comparable), et pour les amateurs de soleil (1 680 h/an, climat normand humide). Choix rationnel dans le top 15 parent solo — meilleur si le pied à Paris compte, moins bien si Paris n'est pas dans l'équation.",
+      },
+    ],
+    relatedCities: ["rouen", "mont-saint-aignan", "sotteville-les-rouen", "le-havre", "louviers"],
+    relatedGuides: [
+      "vivre-a-rouen-2026",
+      "acheter-a-rouen-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-rouen-2026",
+      "demenager-a-rouen-2026",
+      "travail-a-rouen-2026",
+    ],
+    tags: ["parent solo Rouen 2026", "monoparental Rouen", "T3 Mont-Saint-Aignan budget", "écoles Rouen métro", "parent seul Normandie navetteur Paris"],
+  },
+  {
+    slug: "parent-solo-a-toulon-2026",
+    title: "Parent solo à Toulon en 2026 : T3 à 1 050 €, soleil et rade",
+    metaTitle: "Parent solo à Toulon 2026 — Budget, écoles, mer",
+    metaDesc: "Élever seul·e à Toulon : T3 à 1 050 €, 2 750 h de soleil, écoles 6,8/10, sécurité 6,2/10 — l'alternative méditerranéenne aux prix de Nice, avec ses filtres.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 9,
+    publishedAt: "2026-08-07",
+    updatedAt: "2026-08-07",
+    intro: "Toulon propose un T3 moyen à 1 050 € (source : data/housing.ts) — 30 % moins cher qu'à Nice pour un climat quasi identique (2 750 h de soleil vs 2 800). Nature 8,1/10 (rade, Mont Faron, calanques de Sanary), coût 7,3/10, transports 7,0/10 (source : data/cities-seed.ts). Le vrai arbitrage est double : score écoles 6,8/10 et sécurité 6,2/10 — les deux plus bas des dix candidats parent solo du batch 2. La ville demande un filtrage quartier par quartier serré et un choix scolaire (public solide dans certains groupes, mais moins de gras uniforme qu'à Nantes ou Rennes). Pour un parent solo qui pèse soleil-mer contre sécurité perçue, l'arbitrage est réel.",
+    sections: [
+      {
+        heading: "Ce qui fait de Toulon un choix rationnel en parent solo",
+        body: "Score global 7,1/10, nature 8,1/10, coût 7,3/10, transports 7,0/10, écoles 6,8/10, sécurité 6,2/10 (source : data/cities-seed.ts). Le climat 2 750 heures de soleil/an réduit vraiment la charge mentale hiver et augmente le temps enfant en extérieur — un vrai levier de qualité de vie pour un parent solo qui gère seul. La rade de Toulon (bateaux-bus RMTT vers Saint-Mandrier et La Seyne), le Mont Faron (téléphérique), les plages du Mourillon (à 15 min de bus depuis le centre), le port de Sanary (à 20 min de bus) offrent des sorties enfant gratuites ou peu chères. La Marine nationale, le port militaire et l'arsenal offrent un bassin d'emploi stable — Toulon abrite le plus grand port militaire d'Europe et représente un employeur significatif pour les fonctionnaires civils et militaires (nombreux célibataires géographiques et parents solos par nature du métier). Le CHITS (Hôpitaux du Territoire Toulonnais, Sainte-Musse) assure pédiatrie et maternité niveau III.",
+      },
+      {
+        heading: "T3 sur un revenu : quels quartiers tiennent",
+        body: "Sur 1 850 € net, un T3 à 1 050 € en moyenne (source : data/housing.ts) est faisable. Les stratégies : (1) Le Mourillon (est, bus centre 15 min) à 900–1 250 € pour un T3, résidentiel calme, écoles publiques correctes, plages à distance de vélo, marchés — le meilleur rapport parent solo ; (2) Pont-du-Las (nord, bus centre 15 min) à 800–1 050 €, résidentiel, écoles publiques nombreuses ; (3) Saint-Jean-du-Var (est, bus) à 800–1 050 €, résidentiel avec accès plages ; (4) Saint-Roch (nord, résidentiel bourgeois modéré) à 900–1 200 €, calme, écoles publiques réputées ; (5) Communes limitrophes desservies par le TER : La Seyne-sur-Mer, Six-Fours-les-Plages, Sanary-sur-Mer, Hyères — T3 à 750–1 000 €, TER-bus vers Toulon pour l'emploi. Éviter en parent solo : Ouest Toulonnais (Saint-Jean-du-Barrucq, La Beaucaire — variance sécurité perçue), certains axes du Jonquet, centre historique nord (variance rue à rue à filtrer).",
+      },
+      {
+        heading: "Se déplacer avec un enfant : bus, bateau-bus, pas de tram",
+        body: "Toulon marque 7,0/10 en transports (source : data/cities-seed.ts) — pas de métro, pas de tram, un réseau bus Mistral dense et le bateau-bus RMTT vers la petite rade. Abonnement Mistral mensuel : 41 €, tarifs QF CAF, gratuité pour les moins de 4 ans. Le vélo est jouable sur la rade et le Mourillon (plat), plus contraignant vers Pont-du-Las ou Saint-Roch (topographie). Le TER Toulon-Marseille en 45 min et Toulon-Hyères en 15 min ouvre le bassin d'emploi métropolitain. Pour un parent solo, l'axe Mourillon–centre–Pont-du-Las se fait en bus, mais l'absence de tram fait de la ville une des rares du batch 2 où avoir une voiture reste utile — particulièrement pour crèches périphériques, marchés extérieurs et sorties week-end (Le Castellet, Sanary, Hyères plages). Le port RMTT vers La Seyne (15 min de bateau) offre un vrai plan sortie enfant sans voiture. TGV Toulon-Paris en 4 h 30, TGV Toulon-Marseille en 45 min.",
+      },
+      {
+        heading: "Écoles, cantines, périscolaire : le tissu toulonnais",
+        body: "Toulon marque 6,8/10 en écoles (source : data/cities-seed.ts) — un cran en dessous du batch 2. Les écoles publiques les mieux positionnées : Le Mourillon (Bir Hakeim, Émile Vincent), Saint-Roch (Vert Coteau), Pont-du-Las (Font-Pré), Saint-Jean-du-Var (Toulon Est), centre historique (La Rode). Le tissu privé sous contrat est présent (Sainte-Marie, Externat Saint-Joseph) — à intégrer au calcul (60–130 €/mois selon établissement, plus cantine). La cantine publique est facturée en tranches QF CAF (0,60 € à 4,80 € le repas). Le périscolaire municipal (Accueil de Loisirs Périscolaire ALP) fonctionne matin et soir, tarif QF. Le mercredi et vacances : centres de loisirs municipaux, MJC, base nautique du Mourillon (activités été à tarif QF). Les crèches municipales sont saturées : inscrire dès le début de grossesse via la Direction Petite Enfance, prévoir un plan B micro-crèche (600–800 €/mois avant CMG CAF). La « priorité famille monoparentale » CAF s'applique sur dossier. Le CHITS Sainte-Musse assure pédiatrie et maternité niveau III.",
+      },
+      {
+        heading: "Sécurité : Toulon demande un filtrage serré",
+        body: "Toulon marque 6,2/10 en sécurité (source : data/cities-seed.ts) — le score le plus bas des dix candidats parent solo du batch 2. Les quartiers calmes toute la journée et le soir pour un parent solo : Le Mourillon, Saint-Roch, Pont-du-Las centre, Saint-Jean-du-Var, Cap Brun, Colline du Faron, Sanary et Bandol (communes limitrophes). Les secteurs à filtrer selon la rue : Ouest Toulonnais (Beaucaire, Sainte-Musse ouest, Rode nord), certains axes du Jonquet et de la Rue d'Alger, Pont-du-Las nord. La vie nocturne se concentre autour de la place Puget et de la Rue Jean-Jaurès — préférer un logement à un ou deux blocs. Pour un parent solo qui rentre en bus le soir avec un enfant, la ville est comparable à Marseille sur les quartiers ouest — préférer impérativement Le Mourillon ou une commune limitrophe pour un premier bail solo. Vérifier le trajet bus-domicile après 21 h.",
+      },
+      {
+        heading: "Le verdict : Toulon pour quel parent solo",
+        body: "Toulon fonctionne pour un profil précis : parent solo qui pèse soleil-mer-nature comme critère cardinal, à partir de 1 800 € net, prêt à filtrer le quartier serré. Elle fonctionne excellemment pour les fonctionnaires civils et militaires de la Défense (marine, Direction interarmées Toulon), pour les métiers du port et de la marine marchande, et pour les télétravailleurs qui recherchent la Méditerranée sans les prix de Nice ou Cannes. Elle fonctionne bien à condition de choisir Le Mourillon ou une commune limitrophe (Sanary, Six-Fours) pour la première année. Elle fonctionne moins bien pour un parent solo qui privilégie la sécurité perçue et la densité d'écoles publiques (Nancy, Dijon, Angers plus rassurantes), et pour un enfant qui bénéficierait d'un tissu associatif enfance-parentalité très structuré (moins dense qu'à Rennes ou Nantes). Alternative géographique : Hyères (T3 à 850–1 100 €, TER Toulon 15 min, îles d'Or accessibles, sécurité 6,8/10). Choix rationnel top 15 parent solo pour un profil « soleil-mer », hors périmètre pour un profil « sécurité + écoles avant tout ».",
+      },
+    ],
+    relatedCities: ["toulon", "hyeres", "la-seyne-sur-mer", "six-fours-les-plages", "sanary-sur-mer"],
+    relatedGuides: [
+      "vivre-a-toulon-2026",
+      "acheter-a-toulon-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-toulon-2026",
+      "demenager-a-toulon-2026",
+      "travail-a-toulon-2026",
+    ],
+    tags: ["parent solo Toulon 2026", "monoparental Toulon", "T3 Mourillon budget", "écoles Toulon mer", "parent seul Var"],
+  },
+
 ];
 
 // --- Build-time integrity check -------------------------------------------
