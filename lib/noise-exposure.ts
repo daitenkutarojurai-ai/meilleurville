@@ -12,7 +12,11 @@
 //     aéroports — zones A, B, C, D classées.
 //   - OMS Europe (2018) : seuils recommandés Lden 53 dB(A) jour, Lnight 45 dB(A).
 //
-// Tous les scores 0-10. 10 = exposition maximale au bruit.
+// **Convention** : tous les scores 0-10, 10 = exposition maximale au bruit.
+// « Bruit » nomme une NUISANCE : les surfaces affichent la valeur brute, sans
+// inversion — elles doivent énoncer « 10 = exposition maximale » et nourrir
+// `scoreColor` avec l'inverse, ou passer par une palette par niveau
+// (`NOISE_LEVEL_COLOR`, comme la page FR).
 // Composite = moyenne pondérée des 4 sous-scores.
 
 import type { CityLight } from "@/lib/cities-light";

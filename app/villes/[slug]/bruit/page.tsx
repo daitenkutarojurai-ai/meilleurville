@@ -146,6 +146,10 @@ export default async function BruitPage({ params }: Props) {
             {n.composite.toFixed(1)}
             <span className="text-lg font-normal text-[var(--text-tertiary)] ml-1">/10</span>
           </div>
+          {/* La page est nommée pour la nuisance : le score brut du moteur est
+              correct (10 = pire), mais il faut le dire — sans légende, 8,2/10
+              se lit comme une bonne note. La jumelle EN affiche « 10 = loudest ». */}
+          <p className="text-xs text-[var(--text-tertiary)] mb-3">10 = exposition au bruit maximale · 0 = commune silencieuse.</p>
           <p className="text-sm text-[var(--text-primary)] leading-relaxed">{n.signature}</p>
         </Card>
 

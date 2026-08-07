@@ -13,7 +13,11 @@
 //   - Fédération Hospitalière de France : carte des centres hospitaliers avec
 //     SAU (Service d'Accueil des Urgences) et plateaux techniques.
 //
-// Tous les scores 0-10. 10 = accès aux soins le plus difficile (désert).
+// **Convention** : tous les scores 0-10, 10 = accès le plus difficile (désert),
+// cohérent avec le quartet env F40-F43. Mais les surfaces s'appellent « Santé »
+// / « Accès aux soins », c'est-à-dire une QUALITÉ : elles affichent donc
+// `10 - score` et annoncent « 10 = excellent accès ». L'inversion se fait au
+// site d'affichage seulement — tris, niveaux et classements gardent la brute.
 // Composite = moyenne pondérée des 4 sous-scores.
 
 import type { CityLight } from "@/lib/cities-light";

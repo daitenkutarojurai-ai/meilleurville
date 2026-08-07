@@ -145,6 +145,10 @@ export default async function EauPage({ params }: Props) {
             {s.composite.toFixed(1)}
             <span className="text-lg font-normal text-[var(--text-tertiary)] ml-1">/10</span>
           </div>
+          {/* La page est nommée pour la nuisance : le score brut du moteur est
+              correct (10 = pire), mais il faut le dire — sans légende, 8,2/10
+              se lit comme une bonne note. La jumelle EN affiche « 10 = most stressed ». */}
+          <p className="text-xs text-[var(--text-tertiary)] mb-3">10 = stress hydrique maximal · 0 = ressource confortable toute l&apos;année.</p>
           <p className="text-sm text-[var(--text-primary)] leading-relaxed">{s.signature}</p>
         </Card>
 

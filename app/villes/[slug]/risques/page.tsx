@@ -141,6 +141,10 @@ export default async function RisquesPage({ params }: Props) {
             {r.composite.toFixed(1)}
             <span className="text-lg font-normal text-[var(--text-tertiary)] ml-1">/10</span>
           </div>
+          {/* La page est nommée pour la nuisance : le score brut du moteur est
+              correct (10 = pire), mais il faut le dire — sans légende, 8,2/10
+              se lit comme une bonne note. La jumelle EN affiche « 10 = most exposed ». */}
+          <p className="text-xs text-[var(--text-tertiary)] mb-3">10 = exposition aux aléas maximale · 0 = aucun aléa majeur identifié.</p>
           <p className="text-sm text-[var(--text-primary)] leading-relaxed">{r.signature}</p>
         </Card>
 

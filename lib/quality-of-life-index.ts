@@ -9,6 +9,11 @@
 //   - Environnement   35 %  (impact santé long-terme + qualité quotidienne)
 //   - Santé           30 %  (vital + porte d'entrée du système de soins)
 //   - Emploi          35 %  (raison principale de relocation pour 25-55 ans)
+//
+// **Convention** : `score`, `envScore`, `healthScore` et `jobScore` sont tous
+// 0-10 avec 10 = bon — les inversions des libs sources (F44 / F47 / F50, qui
+// scorent le stress ou le déficit) sont déjà faites ici. Les surfaces affichent
+// donc ces valeurs telles quelles et peuvent nourrir `scoreColor` directement.
 
 import type { CityLight } from "@/lib/cities-light";
 import { computeEnvironmentIndex } from "@/lib/environment-index";

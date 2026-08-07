@@ -13,8 +13,12 @@
 //   - Ministère Santé / ARS : tensions sur l'eau potable (DROM, Corse, îles,
 //     petites communes karstiques en été touristique).
 //
-// Tous les scores 0-10. Composite = moyenne pondérée des 4.
-// Echelle commune avec lib/natural-risks.ts (10 = stress maximal).
+// **Convention** : tous les scores 0-10, 10 = stress hydrique maximal. Échelle
+// commune avec lib/natural-risks.ts. « Stress hydrique » nomme une NUISANCE :
+// les surfaces affichent la valeur brute, sans inversion — elles doivent
+// énoncer « 10 = stress maximal » et nourrir `scoreColor` avec l'inverse
+// (cf. `hazardColor` sur la jumelle EN).
+// Composite = moyenne pondérée des 4.
 
 import type { CityLight } from "@/lib/cities-light";
 

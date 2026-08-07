@@ -15,7 +15,12 @@
 //                   Charente, Dordogne, Var, Aude…) + (2) elevation < 50m +
 //                   (3) littoral (lat/lon en bord de mer).
 //
-// Tous les scores sont sur 0-10. Composite = moyenne pondérée des 4.
+// **Convention** : tous les scores 0-10, 10 = exposition maximale à l'aléa
+// (cohérent avec le reste du quartet env F40-F43). « Risques naturels » nomme
+// une NUISANCE : les surfaces affichent donc la valeur brute, sans inversion —
+// elles doivent en revanche énoncer « 10 = exposition maximale » et nourrir
+// `scoreColor` avec l'inverse (cf. `hazardColor` sur la jumelle EN).
+// Composite = moyenne pondérée des 4.
 // La page reste TAGGÉE comme synthèse pédagogique — pour un PPRI précis
 // l'utilisateur doit consulter Géorisques (lien sortant).
 

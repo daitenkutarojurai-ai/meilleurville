@@ -62,10 +62,14 @@ function salaryBracket(score: number): { range: string; note: string; tone: Tone
 // Département unemployment rate (INSEE Q4 2024) — brackets aligned with
 // UNEMP_VERY_LOW/LOW/HIGH/VERY_HIGH from lib/employment-market.ts.
 function unemploymentBracket(score: number): { range: string; note: string; tone: Tone } {
-  if (score <= 1.5) return { range: "< 5.5 %", note: "very low — hiring tension in several sectors", tone: "low" };
+  // `tone` drives the colour, and TONE_COLOR is a QUALITY palette
+  // (high = green, very-low = red). Low unemployment brackets are therefore the
+  // good ones. The displayed wording stays in unemployment terms — UNEMP_LABEL
+  // does that mapping. Mirrors the FR twin (/villes/[slug]/statistiques).
+  if (score <= 1.5) return { range: "< 5.5 %", note: "very low — hiring tension in several sectors", tone: "high" };
   if (score <= 3) return { range: "5.5 – 7 %", note: "below the national average (7.3 %)", tone: "good" };
   if (score <= 5.5) return { range: "7 – 8 %", note: "close to the national average", tone: "median" };
-  if (score <= 7.5) return { range: "8 – 10 %", note: "above the national average", tone: "high" };
+  if (score <= 7.5) return { range: "8 – 10 %", note: "above the national average", tone: "low" };
   return { range: "> 10 %", note: "very high (or overseas department under chronic tension)", tone: "very-low" };
 }
 
@@ -108,7 +112,7 @@ const SALARY_LABEL: Record<Tone, string> = {
   high: "high", good: "good", median: "median", low: "low", "very-low": "very low",
 };
 const UNEMP_LABEL: Record<Tone, string> = {
-  low: "very low", good: "low", median: "average", high: "high", "very-low": "very high",
+  high: "very low", good: "low", median: "average", low: "high", "very-low": "very high",
 };
 
 function formatEN(n: number): string {

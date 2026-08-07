@@ -11,7 +11,11 @@
 //   - RNSA (pollens.fr) : bulletin allergo-pollinique national, niveau de risque
 //     par espèce et bassin (graminées, cyprès, bouleau, ambroisie, etc.).
 //
-// Tous les scores 0-10. 10 = exposition maximale.
+// **Convention** : tous les scores 0-10, 10 = exposition maximale (le moteur
+// mesure la pollution). Mais les surfaces s'appellent « Qualité de l'air »,
+// c'est-à-dire une QUALITÉ : elles affichent donc `10 - score` et annoncent
+// « 10 = air le plus pur ». L'inversion se fait au site d'affichage seulement —
+// tris, niveaux et classements gardent la valeur brute.
 // Composite = moyenne pondérée des 4 sous-scores.
 
 import type { CityLight } from "@/lib/cities-light";

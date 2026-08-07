@@ -12,7 +12,14 @@
 //     d'établissements — agrégeable par département.
 //   - INSEE salaires : salaire net mensuel médian par département (DADS).
 //
-// Tous les scores 0-10. 10 = marché du travail le plus difficile.
+// **Convention** : tous les scores 0-10, 10 = marché du travail le plus
+// difficile (chômage haut, salaires bas), cohérent avec le quartet env F40-F43.
+// Mais les surfaces s'appellent « Emploi », c'est-à-dire une QUALITÉ : elles
+// affichent donc `10 - score` et annoncent « 10 = marché dynamique ».
+// L'inversion se fait au site d'affichage seulement — tris, niveaux et
+// classements gardent la valeur brute. ⚠️ Vaut aussi pour la COULEUR : une
+// tranche de chômage bas doit être verte, pas orange (bug corrigé sur
+// /villes/[slug]/statistiques + jumelle EN, 2026-08-07).
 // Composite = moyenne pondérée des 4 sous-scores.
 
 import type { CityLight } from "@/lib/cities-light";

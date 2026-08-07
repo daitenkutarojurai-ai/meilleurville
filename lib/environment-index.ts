@@ -15,6 +15,23 @@
 //   - Bruit      25 %   (effet sommeil + cardiovasculaire documenté)
 //   - Eau        25 %   (restrictions vécues quotidiennement l'été)
 //   - Risques    20 %   (probabilité × impact, mais pas quotidien)
+//
+// **Convention** — c'est la forme de référence du site : le module expose les
+// DEUX directions, chaque surface prenant celle qui correspond à son nom.
+//   - `healthScore`     10 = environnement sain  → « Santé environnementale »
+//   - `stressComposite` 10 = pire                → « Exposition », « stress »
+//   - `risques` / `eau` / `air` / `bruit` : bruts des libs F40-F43, 10 = pire.
+// Une surface nommée pour une qualité prend `healthScore` ; une surface nommée
+// pour une nuisance prend `stressComposite` et nourrit `scoreColor` avec
+// l'inverse. On n'inverse jamais dans le moteur.
+//
+// ⚠️ Défaut connu, non corrigé (constaté 2026-08-07, cf.
+// docs/integrite-2026-08-07.md) : `healthScore` est arrondi depuis le stress
+// NON arrondi, alors que `stressComposite` est arrondi séparément. Pour 22
+// villes sur 540 les deux nombres publiés sur /environnement totalisent 10,1 au
+// lieu de 10,0 (Poitiers 6,0 + 4,1 ; Ajaccio 4,5 + 5,6…). Le correctif tient en
+// une ligne — dériver `health` de `stressR` — mais il déplace un score publié,
+// donc il est laissé à l'arbitrage humain.
 
 import type { CityLight } from "@/lib/cities-light";
 import { computeNaturalRisks } from "@/lib/natural-risks";

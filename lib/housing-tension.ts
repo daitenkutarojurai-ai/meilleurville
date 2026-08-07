@@ -10,6 +10,12 @@
 //   4. Score sécurité × qualité de vie (les villes très désirables sont tendues)
 //
 // Documenté comme `estimation-proxy` pour rester honnête.
+//
+// **Convention** : `value` 0-10, 10 = très tendu. « Tension locative » nomme
+// une NUISANCE : les surfaces affichent la valeur brute, sans inversion, et
+// annoncent « 10 = marché très tendu ». La couleur ne passe PAS par
+// `scoreColor` (palette globale 10 = vert) mais par `color`, déjà calé par
+// niveau (détendu = vert … très tendu = rouge).
 
 import { CITIES_SEED, type CitySeed } from "@/data/cities-seed";
 import { HOUSING } from "@/data/housing";

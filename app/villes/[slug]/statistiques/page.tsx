@@ -70,10 +70,14 @@ function salaryBracket(score: number): { range: string; note: string; tone: "hau
 // Chômage dept, INSEE T4 2024 — fourchettes cohérentes avec
 // UNEMP_VERY_LOW/LOW/HIGH/VERY_HIGH de lib/employment-market.ts.
 function unemploymentBracket(score: number): { range: string; note: string; tone: "haut" | "correct" | "moyen" | "bas" | "tres-bas" } {
-  if (score <= 1.5) return { range: "< 5,5 %", note: "très bas — tension à l'embauche dans plusieurs secteurs", tone: "bas" };
+  // `tone` pilote la couleur, et TONE_COLOR est une palette de QUALITÉ
+  // (haut = vert, tres-bas = rouge). Les tranches basses de chômage sont donc
+  // les meilleures. Les libellés affichés restent ceux du chômage — la
+  // correspondance est faite au rendu.
+  if (score <= 1.5) return { range: "< 5,5 %", note: "très bas — tension à l'embauche dans plusieurs secteurs", tone: "haut" };
   if (score <= 3) return { range: "5,5 – 7 %", note: "sous la moyenne nationale (7,3 %)", tone: "correct" };
   if (score <= 5.5) return { range: "7 – 8 %", note: "proche de la moyenne nationale", tone: "moyen" };
-  if (score <= 7.5) return { range: "8 – 10 %", note: "au-dessus de la moyenne nationale", tone: "haut" };
+  if (score <= 7.5) return { range: "8 – 10 %", note: "au-dessus de la moyenne nationale", tone: "bas" };
   return { range: "> 10 %", note: "très élevé (ou DROM en tension chronique)", tone: "tres-bas" };
 }
 
@@ -408,13 +412,13 @@ export default async function StatistiquesPage({ params }: Props) {
                 Taux de chômage
               </div>
               <div className={`text-xs font-bold uppercase ${TONE_COLOR[unemp.tone]}`}>
-                {unemp.tone === "bas"
+                {unemp.tone === "haut"
                   ? "très bas"
                   : unemp.tone === "correct"
                     ? "bas"
                     : unemp.tone === "moyen"
                       ? "moyen"
-                      : unemp.tone === "haut"
+                      : unemp.tone === "bas"
                         ? "élevé"
                         : "très élevé"}
               </div>
