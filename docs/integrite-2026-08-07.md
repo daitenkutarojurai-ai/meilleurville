@@ -201,4 +201,21 @@ l'arbitrage.
 
 `npx tsc --noEmit` : **clean**. Aucune route ajoutée ou supprimée, aucun changement de
 `app/sitemap.ts` — les modifications sont du contenu de page et des commentaires de lib.
+
+`npm run build` lancé quand même, les cinq fichiers touchés étant des `page.tsx` :
+
+```
+✓ Compiled successfully in 32.4s
+✓ Generating static pages using 3 workers (58235/58235) in 9.2min
+  Finalizing page optimization ...        ← ENOSPC ici, EXIT=1
+```
+
+**Les 58 235 pages se génèrent.** C'est l'étape qui rend chaque page et qui valide donc les cinq
+fichiers modifiés ; elle passe. L'échec qui suit est le bundling/export, qui ne relit pas les
+données : c'est la limite de quota disque de session déjà documentée dans `CLAUDE.md`, pas un
+problème de code. `.next` et `out` ont été nettoyés après coup, comme le veut la note.
+
+À noter au passage : le compteur réel est **58 235 pages**, pas les 56 185 annoncés dans
+`CLAUDE.md` — la ligne y est simplement en retard d'un ou deux lots de contenu.
+
 Aucun déploiement (manuel, hors périmètre de l'agent).
