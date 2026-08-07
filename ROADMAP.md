@@ -820,16 +820,20 @@ Tables dans `lib/i18n.ts` : `FR_TO_EN_ROUTE`, `FR_TO_EN_CITY_SUB`, `PARITY_EXCEP
 (asymétries assumées, avec la raison — la liste doit rester courte, sinon « parité » ne veut
 plus rien dire).
 
-### État au 2026-08-06 — 6 routes, ~89 URL
+### État au 2026-08-07 — 5 routes, ~11 URL
 
 | Route FR | Jumelle EN attendue | URL |
 |---|---|---|
 | ~~`/comparer-departements` + `/[pair]`~~ | ✅ `/compare-departments` livré 04/08 | 391 |
 | ~~`/comparer/[pair]/synthese`~~ | ✅ `/compare/[pair]/synthesis` livré 05/08 | 771 |
 | ~~`/departements/[dept]/fiscalite` + `/synthese`~~ | ✅ `/departments/[dept]/tax` + `/synthesis` livrés 06/08 | 204 |
-| `/comparer-regions/[pair]/synthese` | `/compare-regions/[pair]/synthesis` | ~78 |
+| ~~`/comparer-regions/[pair]/synthese`~~ | ✅ `/compare-regions/[pair]/synthesis` livré 07/08 | 78 |
 | `/guides/categorie/[categorie]` | `/guides/category/[category]` | 7 |
 | `/avis`, `/quitter`, `/presse`, `/cgu` | `/reviews`, `/leaving`, `/press`, `/terms` | 4 |
+
+**Le gros du volume est fait.** Les 4 routes livrées portent 1 444 URL ; les 5 qui restent en
+portent 11. À partir d'ici, l'écart de parité qui compte n'est plus dans les routes mais dans
+le **corpus** (guides 903 / 532, tags 239 / 74), et il ne se comble pas par du SSG dérivé.
 
 **Écart de contenu, distinct de l'écart de routes** : guides 903 FR / 532 EN, tags 239 / 74.
 Ce n'est pas une route à créer mais du corpus à écrire, et **jamais par traduction** — les
@@ -938,6 +942,48 @@ Maillage : les deux teasers du haut de `/departments/[dept]`, symétriques des d
 (💰 fiscalité, ✨ synthèse). Sans eux les 204 pages ne seraient atteignables que par le
 sitemap. Chaque page renvoie aussi vers l'autre, et la page fiscalité liste ses communes vers
 `/cities/[slug]/tax`.
+
+### Livré le 07/08 — `/compare-regions/[pair]/synthesis` (78 URL)
+
+Jumelle EN de `/comparer-regions/[pair]/synthese` : les 78 paires de régions métropolitaines
+(C(13, 2)), même `generateStaticParams`, même `parsePair` qui balaie `METRO_REGIONS` au lieu
+de découper sur `-vs-` (les slugs de région contiennent eux-mêmes des tirets — un `split`
+casserait `provence-alpes-cote-d-azur`).
+
+**Zéro recalcul.** `computeRegionAverageSynthesis(region, CITIES_LIGHT)` est appelée telle
+quelle : les 8 moyennes par axe, le global, l'écart-type de cohérence, le nombre de villes
+agrégées et le seuil de significativité (0,3 pt) sortent de la même fonction que la page FR.
+Les deux pages sont des alternates hreflang, elles ne peuvent donc pas afficher deux nombres
+différents pour la même région. Seul l'habillage est anglais, au point d'affichage : libellés
+d'axes, hints avec les sigles explicités pour un lecteur non francophone (« A&E » plutôt
+qu'« urgences »), et liens d'axe réécrits vers les hubs `/environment`, `/healthcare`,
+`/employment`, `/cycling`, `/safety`, `/demographics`, `/public-services`,
+`/quality-of-life` — vérifiés un par un sur le disque avant d'être posés.
+
+Points de méthode :
+
+- **`pathAlternates` / `pathAlternatesEn` réutilisés** pour la troisième fois, comme annoncé
+  le 05/08 : c'est encore une famille dont le **dernier** segment est traduit
+  (`synthese` ↔ `synthesis`). La page FR ne déclarait qu'un `canonical` et perdait donc sa
+  `languages` en silence sur 78 URL — le piège n°1 du chantier s'est re-tendu à l'identique,
+  pour la troisième route consécutive. C'était la dernière des `.../synthese` annoncées
+  le 05/08 ; la série est close.
+- **Les noms de région ne sont pas traduits**, conformément au reste du site anglais : ce
+  sont des noms propres, et `/compare-regions/[pair]` les affichait déjà tels quels. Comme
+  ils sont longs (« Provence-Alpes-Côte d'Azur »), le `title` passe par un `fitTitle` qui
+  bascule sur une variante courte au-delà de 60 caractères plutôt que de se faire tronquer
+  en SERP.
+- **`images: ["/opengraph-image"]`** dans le bloc `openGraph`, dès l'écriture cette fois.
+
+Une phrase a été ajoutée sous le tableau, qui n'existe pas côté FR : une moyenne régionale
+lisse énormément, et les deux régions comparées contiennent des villes bien au-dessus et bien
+en dessous du chiffre affiché. Le lecteur EN arrive de l'étranger et n'a pas la carte mentale
+qui le lui rappelle.
+
+Maillage : la CTA « ✨ 8 data dimensions » posée sur `/compare-regions/[pair]`, symétrique de
+la CTA FR — sans elle les 78 pages ne seraient atteignables que par le sitemap. Les URL
+s'ajoutent dans `enCompareRegionsSection()`, pas de nouveau chunk, numérotation publique
+inchangée.
 
 ### Ce qui a été corrigé côté EN le 03/08
 
