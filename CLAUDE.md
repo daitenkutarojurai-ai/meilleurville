@@ -365,6 +365,32 @@ formulaire 3916). Les loyers et prix français cités viennent de `data/housing.
 page mais aucune URL déclarée. Elle est désormais dérivée de `EXPAT_COUNTRIES` (même correctif que
 `PROFILE_SLUGS` en F61) — ne pas la re-figer.
 
+### Pour qui (`lib/profile-pages.ts`)
+
+Un profil = une entrée de `PROFILE_PAGES` (slug, emoji, label, meta, intro, `weights`,
+`reasonHint`). Ajouter l'entrée suffit : `/pour-qui`, `/pour-qui/[profil]`, le sitemap et le bloc
+« parfait pour » de `lib/honest-reviews.ts` en dérivent tous les quatre. **Compteur mesuré
+(`grep -c '^    slug: "'`) : 33 profils** (2026-08-07). Dernier ajouté : **`navetteurs-hybrides`**
+(actifs en hybride, 2-3 jours au bureau) — le seul profil du site où la *distance* à un bassin
+d'emploi est le critère cardinal, là où « télétravailleurs salariés » l'ignore complètement (quand
+on ne revient jamais, l'éloignement ne coûte rien) et où « sans voiture » et « cyclistes urbains »
+mesurent la mobilité *à l'intérieur* d'une ville.
+Nouveau composite `metroAccess` / `metroAccessCommute()` : trajet estimé vers le plus proche des
+douze grands pôles d'emploi, barème 30 min = 10 → 150 min = 0. ⚠️ Trois écarts **volontaires** avec
+`lib/city-commute`, qui surestime et qu'il ne faut pas « réaligner » :
+① la branche rail directe n'est ouverte qu'aux villes ayant leur propre gare dans `TGV_STATIONS`
+(sinon le modèle invente une ligne fermée : Saint-Girons sortait à 40 min de Toulouse) ;
+② elle tourne à 140 km/h et non 220, la vitesse d'une LGV (Annecy sortait à 43 min de Grenoble, où
+le train met près de 2 h) ; ③ la branche routière porte un plancher de 15 min d'approche urbaine
+(sans lui : « Lyon en 2 min » depuis Villeurbanne). Corse et DROM valent **0** sur cet axe, et c'est
+une mesure, pas une donnée manquante : il n'existe pas de navette hebdomadaire vers un pôle
+métropolitain. En relief (Vosges, Cévennes, Alpes) le facteur de détour routier sous-estime encore
+le trajet réel — l'intro le dit.
+⚠️ `lib/profile-pages.ts` est importé **en valeur** par `app/people-like-you/PeopleLikeYouClient.tsx`
+(client) : n'y importer aucune valeur de `CITIES_SEED`. C'est pour ça que les coordonnées des douze
+pôles sont en dur et que le modèle de trajet est réimplémenté au lieu d'importer `lib/city-commute`,
+qui charge le seed à l'initialisation.
+
 ### Pending guide work
 - **Editorial rewrite (R7.8) — DONE.** Main pass ran 2026-05-30 (all guides → prose voice). Fragment-tail cleanup ran 2026-06-03: the 23 budget/acheter/investment guides the first pass missed (numbered `(N) **Label** : value` scaffolding, detected via `boldColon>=40`) rewritten into flowing prose, 228 strings, figure-integrity verified. Method: extract verbatim bodies → parallel read-only agents → single-writer exact-match apply (see `[[parallel-agents-single-file]]`). Only `intro`/`sections[].body` touched.
   - *Accent restoration — DONE 2026-06-03.* 58 tourism guides (`10-choses-a-faire-*`, incl. Paris/Bordeaux) had been saved ascii-stripped (`decoupe`, `a 57 m`, `28,30 EUR`, `m2`, `360 deg`); diacritics + `€/°/m²/m³` restored across 638 strings, word-skeleton integrity verified. Detected by accent-density < 0.09 (the earlier "~33" estimate undercounted). Legit currency-code `EUR` (EUR/USD context) left intact.

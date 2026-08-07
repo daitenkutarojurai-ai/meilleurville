@@ -1,8 +1,13 @@
 // F19 — Pages "Pour qui" thématiques.
 //
-// 10 profils éditoriaux, chacun = recombinaison pondérée des axes seed +
-// owner-scores. Top 20 villes par profil + intro/méthodo personnalisée.
-// Aucune nouvelle donnée — pure recombinaison.
+// 33 profils éditoriaux (compte mesuré 2026-08-07), chacun = recombinaison
+// pondérée des axes seed + owner-scores. Top 20 villes par profil +
+// intro/méthodo personnalisée. Aucune nouvelle donnée : pure recombinaison.
+//
+// Ce module est importé par un composant client (`PeopleLikeYouClient`), donc
+// il ne doit jamais tirer une *valeur* de `CITIES_SEED` ni de `data/guides*` :
+// les libs dont il dépend n'en importent que les types, et les coordonnées de
+// référence sont écrites en dur (même parti pris que `lib/distances`).
 
 import type { CitySeed } from "@/data/cities-seed";
 import type { CityLight } from "@/lib/cities-light";
@@ -11,7 +16,8 @@ import { computeOwnerScores } from "@/lib/owner-scores";
 import { computeSportLeisure } from "@/lib/sport-leisure";
 import { computeCyclingMobility } from "@/lib/cycling-mobility";
 import { rentalTension } from "@/lib/rental-tension";
-import { computeCityDistances } from "@/lib/distances";
+import { computeCityDistances, haversineKm } from "@/lib/distances";
+import { TGV_STATIONS, parisCommute } from "@/lib/paris-commute";
 
 type ScoreWeights = Partial<{
   // Axes seed (CityScore)
@@ -42,6 +48,7 @@ type ScoreWeights = Partial<{
   // Dérivés géographiques
   coastalProximity: number;
   mountainProximity: number;
+  metroAccess: number;
 }>;
 
 export interface ProfileDef {
@@ -128,6 +135,119 @@ export function mountainProximity(city: CityLight): number {
   return Math.max(0, Math.min(10, eased));
 }
 
+// Accès à un grand bassin d'emploi, sur 0-10 — calibré pour l'hybride (deux ou
+// trois allers-retours par semaine), pas pour le trajet quotidien.
+//
+// Les douze pôles retenus sont les plus gros bassins d'emploi tertiaire de
+// France métropolitaine. Leurs coordonnées sont écrites en dur ici, comme les
+// ancres de `lib/distances` : `lib/profile-pages` est importé par un composant
+// client (`PeopleLikeYouClient`), donc il ne doit tirer aucune valeur de
+// `CITIES_SEED` — sinon le seed entier part dans le bundle. Même raison pour
+// laquelle on réimplémente le modèle de `lib/city-commute` au lieu de
+// l'importer : il charge le seed à l'initialisation. Les deux calculs suivent
+// la même formule (le plus rapide entre passage par Paris, rail direct estimé
+// et route) et donnent donc les mêmes minutes.
+const EMPLOYMENT_HUBS: Array<{ slug: string; lat: number; lon: number; parisMin: number }> = [
+  { slug: "paris", lat: 48.8566, lon: 2.3522, parisMin: 0 },
+  ...["lyon", "marseille", "toulouse", "bordeaux", "lille", "nantes", "strasbourg", "montpellier", "rennes", "nice", "grenoble"].map(
+    (slug) => {
+      const s = TGV_STATIONS.find((st) => st.slug === slug)!;
+      return { slug, lat: s.lat, lon: s.lon, parisMin: s.parisMin };
+    },
+  ),
+];
+
+const HUB_LABEL: Record<string, string> = {
+  paris: "Paris",
+  lyon: "Lyon",
+  marseille: "Marseille",
+  toulouse: "Toulouse",
+  bordeaux: "Bordeaux",
+  lille: "Lille",
+  nantes: "Nantes",
+  strasbourg: "Strasbourg",
+  montpellier: "Montpellier",
+  rennes: "Rennes",
+  nice: "Nice",
+  grenoble: "Grenoble",
+};
+
+function formatCommute(minutes: number): string {
+  if (minutes < 60) return `${minutes} min`;
+  const h = Math.floor(minutes / 60);
+  const m = minutes % 60;
+  return m === 0 ? `${h} h` : `${h} h ${m.toString().padStart(2, "0")}`;
+}
+
+const metroAccessCache = new Map<string, { hub: string; minutes: number } | null>();
+
+/**
+ * Trajet estimé vers le pôle d'emploi le plus proche, ou `null` quand la
+ * navette n'existe pas : hors France métropolitaine (DROM) et Corse, aucun de
+ * ces douze pôles ne se rejoint par le rail ou la route. C'est une mesure, pas
+ * une donnée manquante — le modèle rail de `lib/city-commute` donnerait sinon
+ * 1 h 55 entre Ajaccio et Marseille, ce qui n'existe pas.
+ */
+export function metroAccessCommute(city: CityLight): { hub: string; minutes: number } | null {
+  const cached = metroAccessCache.get(city.slug);
+  if (cached !== undefined) return cached;
+
+  const value = (() => {
+    const self = EMPLOYMENT_HUBS.find((h) => h.slug === city.slug);
+    if (self) return { hub: self.slug, minutes: 0 };
+    const inMetro =
+      city.longitude >= -6 && city.longitude <= 10 && city.latitude >= 40 && city.latitude <= 52;
+    if (!inMetro || city.region === "Corse") return null;
+
+    const cityParis = parisCommute(city as CitySeed);
+    const cityParisMin = cityParis.source === "unavailable" ? 9999 : cityParis.minutes;
+    const cityHasStation = TGV_STATIONS.some((s) => s.slug === city.slug);
+    const pt = { lat: city.latitude, lon: city.longitude };
+
+    let best: { hub: string; minutes: number } | null = null;
+    for (const hub of EMPLOYMENT_HUBS) {
+      const km = haversineKm(pt, { lat: hub.lat, lon: hub.lon });
+      // Trois options, on garde la plus rapide.
+      // 1. Par le rail via Paris, sur les temps SNCF déjà estimés de chaque
+      //    bout (30 min de correspondance — aucune quand le pôle est Paris).
+      // 2. Route : détour routier 1,25 sur la distance à vol d'oiseau, 85 km/h
+      //    de moyenne, plus 15 min d'approche urbaine — sans ce plancher le
+      //    modèle annonce « Lyon en 2 min » depuis Villeurbanne, ce qui est faux.
+      // 3. Rail direct, seulement si la ville a elle-même une gare desservie.
+      //    Deux écarts assumés avec `lib/city-commute`, qui surestime : il
+      //    applique cette branche à toutes les villes, donc invente une liaison
+      //    là où la ligne est fermée (Saint-Girons ressortait à 40 min de
+      //    Toulouse), et il la calcule à 220 km/h, la vitesse d'une LGV, alors
+      //    que la moyenne commerciale hors LGV pure est bien plus basse
+      //    (Annecy sortait à 43 min de Grenoble, où le train met près de 2 h).
+      //    140 km/h + 20 min de gares reste favorable au rail sans l'inventer.
+      const options = [
+        hub.slug === "paris" ? cityParisMin : cityParisMin + hub.parisMin + 30,
+        Math.round(((km * 1.25) / 85) * 60 + 15),
+      ];
+      if (cityHasStation) options.push(Math.round((km / 140) * 60 + 20));
+      const minutes = Math.min(...options);
+      if (!best || minutes < best.minutes) best = { hub: hub.slug, minutes };
+    }
+    return best;
+  })();
+
+  metroAccessCache.set(city.slug, value);
+  return value;
+}
+
+// Barème : 30 min ou moins = 10 (on y va sans y penser), 60 min = 7,5 (l'heure
+// de porte à porte, seuil que la plupart des navetteurs déclarent tenir),
+// 90 min = 5, 120 min = 2,5 (soutenable deux jours par semaine, pas cinq),
+// 150 min et au-delà = 0.
+export function metroAccess(city: CityLight): number {
+  const commute = metroAccessCommute(city);
+  if (!commute) return 0;
+  if (commute.minutes <= 30) return 10;
+  if (commute.minutes >= 150) return 0;
+  return Math.max(0, Math.min(10, 10 - ((commute.minutes - 30) / 120) * 10));
+}
+
 function getScoreValue(city: CityLight, key: string): number {
   // Axes seed
   if (["life", "transport", "nature", "cost", "safety", "culture", "remoteWork", "schools"].includes(key)) {
@@ -140,6 +260,7 @@ function getScoreValue(city: CityLight, key: string): number {
   if (key === "cyclingMobility") return computeCyclingMobility(city).composite;
   if (key === "coastalProximity") return coastalProximity(city);
   if (key === "mountainProximity") return mountainProximity(city);
+  if (key === "metroAccess") return metroAccess(city);
   return ownerVal(city, key);
 }
 
@@ -688,6 +809,35 @@ export const PROFILE_PAGES: ProfileDef[] = [
     },
     reasonHint: (c) =>
       `Culture ${c.scores.culture.toFixed(1)} · vie ${c.scores.life.toFixed(1)} · transport ${c.scores.transport.toFixed(1)}`,
+  },
+  {
+    slug: "navetteurs-hybrides",
+    emoji: "🚆",
+    label: "Actifs en hybride (2-3 jours au bureau)",
+    metaTitle: "Meilleures villes télétravail hybride 2026 — Top 20",
+    metaDescription:
+      "Top 20 villes françaises pour le télétravail hybride 2-3 jours : trajet estimé vers le pôle d'emploi le plus proche, loyer, fibre, qualité de vie.",
+    intro:
+      "Actifs en hybride : deux ou trois jours au bureau, le reste à la maison. C'est le mode d'organisation le plus répandu chez les cadres depuis les accords télétravail de 2021-2022, et c'est celui qui déplace le plus la géographie du logement. Ce profil n'est pas celui des « télétravailleurs salariés », qui pondère la fibre et la qualité de vie sans regarder la distance : quand on ne revient jamais au siège, on peut s'installer à Quimper comme à Cahors, l'éloignement ne coûte rien. Ici on revient, deux à trois fois par semaine, à heure fixe, avec un abonnement à payer et une soirée à sauver. Ce n'est pas non plus « vivre sans voiture » ni « cyclistes urbains », qui mesurent la mobilité à l'intérieur d'une ville, ni « freelances », qui n'ont pas de siège du tout. Le critère cardinal est donc le temps de trajet vers le plus proche des douze grands pôles d'emploi retenus : Paris, Lyon, Marseille, Toulouse, Bordeaux, Lille, Nantes, Strasbourg, Montpellier, Rennes, Nice, Grenoble. C'est une estimation, et elle est annoncée comme telle. On garde le plus rapide entre trois options : le rail via Paris, calculé sur les temps SNCF publiés à chaque bout ; le rail direct, mais seulement quand la ville a elle-même une gare desservie, parce qu'un modèle qui suppose une ligne partout invente des liaisons fermées depuis vingt ans ; et la route, distance à vol d'oiseau majorée d'un facteur de détour, plus un quart d'heure d'approche urbaine aux deux bouts. Le barème est calé sur ce que l'hybride tient vraiment : trente minutes ou moins ne se discutent pas, une heure de porte à porte reste le seuil que la plupart des navetteurs déclarent tenir, deux heures se supportent deux jours par semaine mais pas cinq, et le compte tombe à zéro au-delà de deux heures et demie. Deux limites franches à garder en tête. En relief, dans les Vosges, les Cévennes ou les Alpes, le facteur routier sous-estime le trajet réel, parfois de moitié. Et les villes des DROM comme celles de Corse valent zéro sur cet axe : il n'existe pas de navette hebdomadaire vers un bassin d'emploi métropolitain, ce n'est pas une donnée manquante mais une mesure. Le coût vient juste derrière, parce que l'hybride n'est pas une préférence esthétique mais un arbitrage financier : on achète du mètre carré avec du temps de transport. Viennent ensuite la qualité de vie, puisque les jours non travaillés au bureau se passent sur place et pas dans un quartier d'affaires ; la fibre et l'aptitude au télétravail, parce que la moitié de la semaine se joue sur la connexion du salon ; les transports locaux, parce que rejoindre la gare tous les matins en deuxième voiture annule une partie de l'économie ; et une marge pour la nature et la sécurité. Résultat : deux réponses cohabitent dans le classement, et c'est la lecture honnête du calcul. La première consiste à rester dans le pôle ou à sa porte, avec Rennes, Nantes, Strasbourg, Lyon, Bordeaux, Toulouse et Grenoble en tête, Villeurbanne à dix-sept minutes de Lyon et Issy-les-Moulineaux à vingt et une de Paris. La seconde, plus intéressante, est la couronne des trente à cinquante minutes, où l'écart de loyer paie le trajet : Senlis, à cinquante-deux minutes de Paris, loue un T3 1 030 € quand Paris en demande 2 800 ; Vienne, à trente-huit minutes de Lyon, 940 € contre 1 380 €, et 2 200 €/m² à l'achat contre 5 000 ; Vitré, à quarante-cinq minutes de Rennes, 800 € contre 1 100 ; La Roche-sur-Yon, à quarante-six minutes de Nantes, 800 € contre 1 150 avec le mètre carré à moitié prix (2 100 € contre 4 200). Trois nuances à ne pas lire de travers. Obernai, deuxième du classement, loue son T3 1 040 € quand Strasbourg en demande 1 080 : il n'y monte pas pour son prix mais pour son cadre de vie, le plus élevé du top 20. Valbonne, à trente-quatre minutes de Nice, ne fait pas mieux non plus (1 490 € contre 1 500 €). Et Muret ne fait gagner que sur l'achat, 2 800 €/m² contre 4 000 à Toulouse, pas sur le loyer, identique à 1 150 €. La bonne question n'est jamais « quelle ville est la moins chère », c'est « combien de minutes je vends, et à quel prix le mètre carré me les rachète ».",
+    weights: {
+      metroAccess: 3.0,
+      cost: 2.5,
+      life: 1.5,
+      remoteWork: 1.0,
+      teletravail: 1.0,
+      transport: 1.0,
+      nature: 0.5,
+      safety: 0.5,
+    },
+    reasonHint: (c) => {
+      const commute = metroAccessCommute(c);
+      const label = commute
+        ? commute.minutes === 0
+          ? "sur place"
+          : `${HUB_LABEL[commute.hub]} en ${formatCommute(commute.minutes)}`
+        : "aucun pôle joignable";
+      return `${label} · coût ${c.scores.cost.toFixed(1)} · vie ${c.scores.life.toFixed(1)}`;
+    },
   },
 ];
 

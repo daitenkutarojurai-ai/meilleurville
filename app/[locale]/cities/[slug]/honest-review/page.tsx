@@ -94,6 +94,7 @@ const PROFILE_LABEL_EN: Record<string, string> = {
   "solo-femme": "Women living solo",
   "couple-sans-enfant": "Couples without children",
   "expat-retour": "Returning expats",
+  "navetteurs-hybrides": "Hybrid commuters (2-3 days on site)",
 };
 
 interface Bullet { label: string; detail: string; score: number }
