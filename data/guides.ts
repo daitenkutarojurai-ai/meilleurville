@@ -32492,47 +32492,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Annonay est une commune de l'Ardèche de 16 000 habitants, juchée à 400 m d'altitude. C'est la ville natale des frères Montgolfier, Joseph-Michel (1740-1810) et Jacques-Étienne (1745-1799), inventeurs de la montgolfière : leur premier vol de démonstration, le 4 juin 1783 à Annonay, fut l'événement fondateur de la conquête de l'air. La ville se trouve aux portes du Parc naturel régional du Pilat et des vignobles AOC Saint-Joseph. Capitale française de la papeterie industrielle du XVIIe au XXe siècle, elle a vu naître le ballon à air chaud de l'expertise papetière des Montgolfier, eux-mêmes papetiers.",
+    intro: "Le ballon à air chaud est sorti d'une papeterie. Joseph-Michel (1740-1810) et Jacques-Étienne (1745-1799) Montgolfier étaient eux-mêmes papetiers à Annonay, leur ville natale, et c'est de cette expertise qu'est née leur invention. Le premier vol de démonstration, le 4 juin 1783 ici même, fut l'événement fondateur de la conquête de l'air. Pour le reste, la commune compte 16 000 habitants et se tient à 400 m d'altitude, en Ardèche, aux portes du Parc naturel régional du Pilat et des vignobles AOC Saint-Joseph. Elle fut, du XVIIe au XXe siècle, la capitale française de la papeterie industrielle.",
     sections: [
       {
         heading: "1. Le Musée des frères Montgolfier",
-        body: "Le Musée d'Annonay (rue de Champagne, dans la fabrique papetière historique) abrite le musée des frères Montgolfier — manuscrits, reconstitution du premier ballon (12 m de hauteur, lin et papier), maquettes, gravures d'époque. Section papeterie (Annonay a été la capitale française du papier — les Montgolfier dirigeaient une manufacture, la papeterie Canson — Canson est toujours active à Annonay aujourd'hui). Gratuit le premier dimanche.",
+        body: "Le Musée d'Annonay occupe la fabrique papetière historique, rue de Champagne, et abrite le musée des frères Montgolfier : manuscrits, maquettes, gravures d'époque, et une reconstitution du premier ballon, 12 m de hauteur, lin et papier. Une section entière revient sur la papeterie, l'industrie qui a fait d'Annonay la capitale française du papier. Les Montgolfier y dirigeaient une manufacture, la papeterie Canson, toujours active dans la ville aujourd'hui. Gratuit le premier dimanche.",
       },
       {
         heading: "2. La place des Cordeliers — où eut lieu le premier vol",
-        body: "La Place des Cordeliers (cœur d'Annonay) est le lieu historique du premier vol démonstration en montgolfière (4 juin 1783, devant les autorités locales — le ballon est monté à 1 000 m d'altitude). Statue commémorative des frères Montgolfier. Marché du samedi matin sur la place. Pour info : 6 mois plus tard, à Paris, les frères Robert ont fait monter le premier homme en montgolfière (Pilâtre de Rozier — premier aéronaute).",
+        body: "C'est au cœur d'Annonay, sur la place des Cordeliers, qu'a eu lieu le premier vol de démonstration en montgolfière : le 4 juin 1783, devant les autorités locales, le ballon est monté à 1 000 m d'altitude. Une statue commémore les deux frères, et le marché se tient là le samedi matin. Pour info, 6 mois plus tard à Paris, les frères Robert ont fait monter le premier homme en montgolfière, Pilâtre de Rozier, premier aéronaute.",
       },
       {
         heading: "3. Le festival international de la Montgolfière",
-        body: "Annonay organise tous les 2 ans (années paires) le « Festival International de la Montgolfière » (en juin, anniversaire du premier vol des Montgolfier en 1783) — rassemblement de 80 montgolfières du monde entier qui décollent simultanément de la place des Cordeliers et des prés voisins. Spectacle spectaculaire. Possibilité de baptême en montgolfière (200-300€ par personne — à réserver des mois à l'avance).",
+        body: "Tous les 2 ans, les années paires, Annonay organise en juin le « Festival International de la Montgolfière », calé sur l'anniversaire du premier vol des Montgolfier en 1783. Le principe : 80 montgolfières venues du monde entier décollent simultanément de la place des Cordeliers et des prés voisins. Le baptême en montgolfière est possible, 200-300€ par personne, à réserver des mois à l'avance.",
       },
       {
         heading: "4. Le parc naturel régional du Pilat",
-        body: "Le Parc naturel régional du Pilat (créé en 1974 — 70 000 ha entre Loire et Rhône, à 5 km à l'est d'Annonay) est l'un des plus beaux parcs régionaux français. Crêts du Pilat (point culminant : Crêt de la Perdrix à 1 432 m — vue panoramique sur les Alpes), forêts, prairies. À pied (sentiers balisés), à VTT, en raquettes l'hiver. Sentier des Crêts (35 km en 3 jours, gîtes d'étape).",
+        body: "Le Parc naturel régional du Pilat commence à 5 km à l'est d'Annonay : 70 000 ha entre Loire et Rhône, créés en 1974, et l'un des plus beaux parcs régionaux français. On y monte pour les crêts, dont le point culminant, le Crêt de la Perdrix à 1 432 m, ouvre une vue panoramique sur les Alpes. Le reste est fait de forêts et de prairies, que l'on parcourt à pied sur sentiers balisés, à VTT, en raquettes l'hiver. Le Sentier des Crêts demande 3 jours pour 35 km, avec gîtes d'étape.",
       },
       {
         heading: "5. La ViaRhôna — vélo le long du Rhône",
-        body: "La ViaRhôna (EuroVélo 17, voie verte de 815 km du lac Léman à la Méditerranée — à 15 km à l'est d'Annonay) est l'une des plus belles voies vertes d'Europe. Étape Lyon-Vienne-Tournon (60 km, à travers les vignobles de Côte-Rôtie et Condrieu) — l'une des plus belles étapes œnologiques. Loueurs de vélos électriques à Tournon et Annonay.",
+        body: "La ViaRhôna passe à 15 km à l'est d'Annonay. Cette voie verte de 815 km, l'EuroVélo 17, relie le lac Léman à la Méditerranée et compte parmi les plus belles d'Europe. L'étape Lyon-Vienne-Tournon, 60 km à travers les vignobles de Côte-Rôtie et Condrieu, est l'une des plus belles étapes œnologiques. Loueurs de vélos électriques à Tournon et Annonay.",
       },
       {
         heading: "6. Le vignoble AOC Saint-Joseph",
-        body: "L'AOC Saint-Joseph (1 100 ha à l'est d'Annonay, sur la rive droite du Rhône — l'une des AOC septentrionales de la vallée du Rhône — cépage syrah pour le rouge, marsanne et roussanne pour le blanc) est l'un des grands vignobles rhodaniens. Domaines : Domaine Pierre Gaillard, Domaine Yves Cuilleron, Domaine Stéphane Robert (Domaine du Tunnel). Caves à visiter à Tournon-sur-Rhône (à 25 km à l'est). AOC Cornas (à 30 km, syrah pure) et Saint-Péray (effervescent) à proximité.",
+        body: "L'AOC Saint-Joseph déploie 1 100 ha à l'est d'Annonay, sur la rive droite du Rhône. C'est l'une des AOC septentrionales de la vallée et l'un des grands vignobles rhodaniens : cépage syrah pour le rouge, marsanne et roussanne pour le blanc. Côté domaines, Domaine Pierre Gaillard, Domaine Yves Cuilleron, Domaine Stéphane Robert (Domaine du Tunnel). Les caves se visitent à Tournon-sur-Rhône, à 25 km à l'est. À proximité encore, l'AOC Cornas à 30 km, syrah pure, et Saint-Péray, effervescent.",
       },
       {
         heading: "7. Tournon-sur-Rhône — le pont Marc Seguin",
-        body: "Tournon-sur-Rhône (à 25 km à l'est d'Annonay, sur la rive droite du Rhône) abrite le château fort de Tournon (XIVe-XVIe siècles — résidence des comtes de Tournon, vues sur le Rhône). Le pont Marc-Seguin (1825 — premier pont suspendu d'Europe à câbles métalliques, classé monument historique) traverse le Rhône — invention de Marc Seguin (lui-même natif de la région, inventeur du pont suspendu moderne et de la chaudière tubulaire).",
+        body: "Tournon-sur-Rhône, à 25 km à l'est d'Annonay sur la rive droite du Rhône, abrite le château fort de Tournon, des XIVe-XVIe siècles : résidence des comtes de Tournon, avec vues sur le fleuve. Le pont Marc-Seguin (1825) traverse le Rhône ; premier pont suspendu d'Europe à câbles métalliques, il est classé monument historique. On le doit à Marc Seguin, lui-même natif de la région, inventeur du pont suspendu moderne et de la chaudière tubulaire.",
       },
       {
         heading: "8. Saint-Étienne — à 40 km",
-        body: "Saint-Étienne (à 40 km au nord-ouest d'Annonay — préfecture de la Loire, 170 000 habitants) est l'une des grandes villes du Massif central. Musée d'Art Moderne (l'un des plus complets musées d'art contemporain français), Manufrance (musée du cycle et de l'armement — Saint-Étienne fut un grand centre français de manufacture industrielle), Stade Geoffroy-Guichard (« le Chaudron » — l'un des stades les plus emblématiques du football français — AS Saint-Étienne).",
+        body: "À 40 km au nord-ouest d'Annonay, Saint-Étienne, préfecture de la Loire et ses 170 000 habitants, est l'une des grandes villes du Massif central. Son Musée d'Art Moderne compte parmi les plus complets musées d'art contemporain français. Manufrance, musée du cycle et de l'armement, rappelle que Saint-Étienne fut un grand centre français de manufacture industrielle. Et le Stade Geoffroy-Guichard, « le Chaudron » de l'AS Saint-Étienne, reste l'un des stades les plus emblématiques du football français.",
       },
       {
         heading: "9. Les gorges du Doux et le Train de l'Ardèche",
-        body: "Les Gorges du Doux (à 30 km au sud-est d'Annonay, sur la rivière Doux — affluent du Rhône) sont l'une des plus belles gorges des Préalpes. Train de l'Ardèche (« Mastrou » — train à vapeur historique sur ligne SNCF désaffectée — circule juin-septembre, parcours de 40 km dans les gorges du Doux entre Tournon et Lamastre, 2h30 aller-retour, 25€). L'un des plus beaux trajets ferroviaires touristiques de France.",
+        body: "Les Gorges du Doux s'ouvrent à 30 km au sud-est d'Annonay, le long du Doux, rivière affluent du Rhône, et sont l'une des plus belles gorges des Préalpes. On les traverse à la vapeur : le Train de l'Ardèche, dit « Mastrou », train à vapeur historique sur ligne SNCF désaffectée, circule juin-septembre entre Tournon et Lamastre, 40 km dans les gorges du Doux, 2h30 aller-retour, 25€. L'un des plus beaux trajets ferroviaires touristiques de France.",
       },
       {
         heading: "10. Gastronomie ardéchoise — caillette et picodon",
-        body: "La cuisine d'Annonay est ardéchoise et rhodanienne : caillette (petite boule de viande hachée et bettes — apéritif emblématique), bombine (ragoût de pomme de terre et viande), maôche (estomac de cochon farci aux feuilles de chou). Fromages : Picodon AOP (chèvre fermier de 100 g), Saint-Marcellin (à 50 km au nord-est). Spécialités sucrées : tarte à la châtaigne, marrons glacés (à Privas à 80 km au sud — Maison Faugier), papillote (chocolat fourré pâte d'amande, inventée à Lyon en 1840). Vins : Saint-Joseph (rouge syrah), Cornas (rouge syrah pur), Côte-Rôtie (à 30 km — l'un des plus prestigieux rouges du Rhône).",
+        body: "La cuisine d'Annonay est ardéchoise et rhodanienne. La caillette, petite boule de viande hachée et bettes, y fait l'apéritif emblématique ; la bombine est un ragoût de pomme de terre et viande, la maôche un estomac de cochon farci aux feuilles de chou. Fromages : Picodon AOP, chèvre fermier de 100 g, et Saint-Marcellin, qui vient de 50 km au nord-est. Spécialités sucrées : tarte à la châtaigne, marrons glacés de Privas à 80 km au sud (Maison Faugier), papillote enfin, ce chocolat fourré pâte d'amande inventé à Lyon en 1840. Côté vins, Saint-Joseph et Cornas en rouge de syrah, pure pour le second, et Côte-Rôtie à 30 km, l'un des plus prestigieux rouges du Rhône.",
       },
     ],
     relatedCities: ["annonay"],
