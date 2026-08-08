@@ -44461,6 +44461,321 @@ export const GUIDES: Guide[] = [
     tags: ["vacances célibataire Bayonne", "voyage solo Bayonne", "pintxos Petit Bayonne", "sortir seul·e Bayonne", "week-end célibataire Pays basque"]
   },
   {
+    slug: "vacances-celibataire-toulouse-2026",
+    title: "Vacances célibataire à Toulouse en 2026 : Carmes, Saint-Cyprien, séjour sans voiture",
+    metaTitle: "Vacances célibataire Toulouse 2026 — Sortir seul·e, quartiers, budget",
+    metaDesc: "Toulouse en séjour célibataire : bars des Carmes, ambiance étudiante et rugby toute l'année, métro tardif le week-end, contourner le supplément single.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-08-08",
+    updatedAt: "2026-08-08",
+    intro: "Toulouse est probablement la meilleure destination française pour un séjour célibataire quand on cherche le combo climat doux et grande ville qui ne se calme jamais. La brique rose donne le cadre, mais ce qui compte pour un voyageur seul est ailleurs : quatrième ville de France avec 130 000 étudiants, une culture rugby qui rythme la ville tous les samedis d'automne à mai, un centre historique compact où l'on marche des Carmes à Saint-Cyprien en vingt minutes, et un tissu de bars qui tourne toute la semaine porté par cette masse résidente. Ce guide indique où poser ses valises, comment enchaîner un mardi soir sans se retrouver dans une salle vide, et comment lisser le supplément single dans une ville dont le parc locatif est structuré autour de la demande étudiante.",
+    sections: [
+      {
+        heading: "Pourquoi Toulouse plutôt qu'ailleurs pour un séjour célibataire",
+        body: "Toulouse coche trois cases qu'on ne trouve pas souvent ensemble. Une échelle métropolitaine qui garantit la densité d'offres, avec le meilleur score culture des grandes villes du sud-ouest et une programmation continue portée par l'ONCT, le Théâtre du Capitole, le Metronum et une constellation de scènes intermédiaires. Une masse étudiante réelle, autour de 130 000 inscrits sur l'agglomération, qui tient la vie du soir en semaine y compris en février, ce qui distingue franchement Toulouse d'une ville touristique qui se vide hors vacances. Et un climat qui allonge la saison de terrasse de mars à novembre, avec plus de 2 000 heures de soleil par an d'après le seed. C'est le combo exact qu'on cherche pour un long week-end solo qui ne dépend ni de la météo ni du calendrier scolaire."
+      },
+      {
+        heading: "Où poser ses valises : Carmes, Saint-Cyprien, Saint-Étienne",
+        body: "Trois quartiers dominent pour un séjour axé sortie. Les Carmes est la carte à jouer par défaut : cœur historique piéton avec l'un des scores nightlife les plus élevés de la ville, densité de bars à vins, de bistrots et de caves, ambiance de comptoir facile pour dîner seul·e. Loyer hôtelier raisonnable comparé à Bordeaux, un peu bruyant les jeudis, vendredis et samedis soirs, mais imbattable côté maillage. Saint-Cyprien de l'autre côté de la Garonne offre l'alternative plus jeune et plus mélangée : ancien quartier populaire en gentrification autour du marché Cristal, ambiance underground, tarifs hôteliers plus doux, à quinze minutes à pied du centre. Saint-Étienne pour un compromis calme-centre : quartier bourgeois autour de la cathédrale, tout à pied, ambiance plus habitée et moins bruyante que les Carmes. Éviter Compans-Caffarelli (quartier d'affaires, mort le soir) et le sud Le Mirail pour un premier séjour."
+      },
+      {
+        heading: "Sortir un mardi soir : bars à vins, brasseries, concerts",
+        body: "Toulouse est une ville où la sortie en semaine se fait sans effort. Les Carmes concentrent les bars à vins et les cavistes-bistrots qui rendent le dîner solo au comptoir naturel. Saint-Cyprien alterne bars étudiants, brasseries et adresses plus branchées avec une ambiance qui ne baisse pas le mardi. Côté musique, le Metronum et le Bikini programment concerts intermédiaires plusieurs soirs par semaine à des tarifs raisonnables, et le Théâtre du Capitole ainsi que la Halle aux Grains maintiennent une programmation classique et lyrique dense. La culture rugby crée un temps fort supplémentaire : les samedis de match du Stade Toulousain à Ernest-Wallon, les bars des Carmes et de Saint-Cyprien retransmettent, l'ambiance est locale, on discute au comptoir sans se connaître. Éviter le dimanche soir (beaucoup ferment), viser mardi-samedi pour la meilleure densité."
+      },
+      {
+        heading: "Se déplacer sans voiture : métro, tram, Tisséo",
+        body: "Toulouse est correctement calibrée pour le séjour sans voiture pour une ville de sa taille. Les deux lignes de métro A et B roulent jusqu'à environ minuit du dimanche au jeudi et un peu plus tard le vendredi et le samedi, avec une couverture qui inclut la gare Matabiau et l'aéroport via une correspondance tram. Le tramway T1 et T2 complète vers l'ouest et Blagnac. Les bus Noctambus prennent le relais sur les grands axes le week-end. Le vélo est très efficace en centre : Toulouse est plate hormis le coteau vers Jolimont, et le service VélôToulouse fonctionne 24 h/24. La gare Matabiau est à cinq minutes de métro des Carmes, ce qui rend l'arrivée depuis Paris ou Bordeaux fluide. L'aéroport est à trente minutes en tram T2 + navette. Pour un long week-end, la voiture n'apporte rien."
+      },
+      {
+        heading: "Le supplément single et comment le contourner à Toulouse",
+        body: "Toulouse est l'une des grandes villes françaises où le supplément chambre single joue le moins fort, parce que le parc de studios en location courte durée est très fourni, héritage direct de la demande étudiante qui structure le marché immobilier. Trois réflexes locaux fonctionnent particulièrement bien. Comparer studio meublé et hôtel dès qu'on reste deux nuits ou plus : les studios des Carmes, de Saint-Étienne et de Saint-Cyprien facturent la surface, ce qui met le solo au tarif du couple, souvent moins qu'une chambre single centrale. Viser les hôtels d'affaires du secteur Matabiau ou Compans-Caffarelli du lundi au jeudi, avec des tarifs semaine indexés sur une clientèle solo qui s'inverse le week-end. Regarder les auberges de jeunesse contemporaines du centre qui proposent chambres privatives et espaces communs, très bien positionnées pour rencontrer d'autres voyageurs seuls. Aucun tarif affiché ici : les prix bougent d'une saison et d'une plateforme à l'autre."
+      },
+      {
+        heading: "Quand y aller : la longue fenêtre douce, les temps forts et un secret d'hiver",
+        body: "Toulouse est agréable de mars à novembre avec un pic de vie de terrasse en juin et en septembre, portée par des températures méditerranéennes tempérées par la position intérieure. La fenêtre la plus intéressante pour un séjour célibataire authentique est septembre à mi-novembre : rentrée universitaire chargée, matchs de rugby toutes les deux semaines, saison de l'ONCT et du Théâtre du Capitole qui redémarre, terrasses encore ouvertes. Rio Loco en juin ajoute une programmation musicale gratuite sur la Prairie des Filtres. Le secret d'hiver : janvier à mars sont creux touristiquement, mais la vie locale continue à plein régime, avec des tarifs hôteliers plus doux et une scène culturelle qui ne baisse pas. Éviter la première quinzaine d'août (creux général, beaucoup d'adresses ferment) et le dimanche soir toute l'année. Le mardi, le mercredi et le jeudi restent les jours de plus forte densité locale, à privilégier si vous cherchez à sortir des cercles touristiques."
+      }
+    ],
+    relatedCities: ["toulouse"],
+    relatedGuides: [
+      "10-choses-a-faire-a-toulouse-2026",
+      "vivre-sans-voiture-toulouse-guide-2026",
+      "vacances-celibataire-bordeaux-2026"
+    ],
+    tags: ["vacances célibataire Toulouse", "voyage solo Toulouse", "sortir seul·e Toulouse", "Carmes Toulouse", "week-end célibataire sud-ouest"]
+  },
+  {
+    slug: "vacances-celibataire-lille-2026",
+    title: "Vacances célibataire à Lille en 2026 : Vieux-Lille, estaminets, séjour sans voiture",
+    metaTitle: "Vacances célibataire Lille 2026 — Vieux-Lille, sortir, budget",
+    metaDesc: "Lille en séjour célibataire : Vieux-Lille et Wazemmes, estaminets, TGV Paris 1 h, Eurostar Londres, contourner le supplément single sur ville étudiante.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-08-08",
+    updatedAt: "2026-08-08",
+    intro: "Lille est probablement la ville française la plus efficace pour un séjour célibataire hors des grands classiques. La géographie l'explique en partie : une heure de TGV depuis Paris, quatre-vingts minutes en Eurostar depuis Londres, trente-cinq minutes en TGV depuis Bruxelles, une gare Lille-Flandres au cœur du centre historique, un métro automatique qui dessert tout ; on arrive et on sort du sac en trente minutes. Mais l'atout réel est ailleurs : la culture flamande du café et de l'estaminet rend le dîner seul·e au comptoir absolument naturel, et la présence d'environ 110 000 étudiants sur l'agglomération tient la vie du soir en semaine toute l'année. Ce guide indique où poser ses valises, comment naviguer les bars sans faire les mêmes trois adresses en boucle, et comment optimiser un séjour solo dans une ville dont le supplément single est parmi les plus doux de France.",
+    sections: [
+      {
+        heading: "Pourquoi Lille plutôt qu'ailleurs pour un séjour célibataire",
+        body: "Lille combine ce que peu de villes françaises réunissent. Un des meilleurs scores culture des métropoles françaises, portées par LaM, le Palais des Beaux-Arts (deuxième musée de France en surface après le Louvre), l'Opéra, le Théâtre du Nord et une constellation de scènes intermédiaires. Un des meilleurs scores transport nationalement, qui simplifie tout côté logistique. Et surtout la culture flamande du café-comptoir et de l'estaminet, où l'on entre seul·e, on commande une bière au fût, on discute avec le tenancier et les voisins ; c'est une pratique quotidienne, pas un décor touristique. Ajoutez à ça l'accès international par Eurostar et Thalys, les 110 000 étudiants de la métropole, et l'écosystème festif intense de la Grand Braderie fin août, et vous obtenez la destination probablement la plus dense de France pour un séjour solo qui cherche du monde."
+      },
+      {
+        heading: "Où poser ses valises : Vieux-Lille, Wazemmes, République",
+        body: "Trois quartiers se détachent pour un séjour axé sortie. Le Vieux-Lille est la carte à jouer par défaut : cœur historique flamand entièrement piéton, ruelles pavées, densité inégalée de bars, brasseries et restaurants, tout à pied, ambiance étudiante-jeune actif du mardi au samedi. Loyer hôtelier raisonnable, un peu bruyant les jeudis-samedis soirs, mais imbattable côté maillage. Wazemmes offre l'alternative plus populaire et plus jeune : ancien quartier ouvrier en gentrification, grand marché quotidien qui explose le dimanche matin, bars à vins et adresses alternatives, à dix minutes à pied du centre. République-Beaux-Arts pour un compromis calme-centre-culture : autour du Palais des Beaux-Arts, tram et métro immédiats, ambiance plus posée, à sept minutes à pied de la Grand-Place. Éviter Euralille pour un séjour axé sortie (quartier d'affaires, mort le soir) et Fives pour un premier séjour."
+      },
+      {
+        heading: "Sortir un mardi soir : estaminets, bières, concerts",
+        body: "Lille est probablement la ville de France où la sortie en semaine est la plus vivante rapportée à la taille, essentiellement parce que la culture flamande de l'estaminet et de la brasserie tourne toute la semaine et parce que la ville concentre plus de bières artisanales et de bars à bières que n'importe quelle autre ville française. Le Vieux-Lille concentre les estaminets traditionnels où l'on mange une carbonnade au comptoir, Wazemmes les bars à vins et les adresses alternatives. Côté musique, l'Aéronef, la Malterie et le Splendid programment concerts intermédiaires plusieurs soirs par semaine à des tarifs très raisonnables. L'Opéra de Lille et le Théâtre du Nord ajoutent la dimension classique et théâtre. Un temps fort à connaître : le premier week-end de septembre, la Grande Braderie transforme la ville en marché aux puces géant pendant 48 heures avec deux nuits blanches, ambiance uniquement lilloise, mais logement à réserver plusieurs mois en amont. Éviter le dimanche soir (creux), viser mardi-samedi."
+      },
+      {
+        heading: "Se déplacer sans voiture : métro 24/24 pratiquement, tram, Eurostar",
+        body: "Lille est calibrée pour le séjour sans voiture avec l'un des tout meilleurs scores transport de France. Les deux lignes de métro VAL sont entièrement automatiques et roulent jusqu'à environ minuit et demi en semaine et vers 1 h le week-end, avec une couverture qui inclut les deux gares (Lille-Flandres et Lille-Europe) et l'ensemble des quartiers de sortie. Le tramway relie Lille à Roubaix et Tourcoing. Le vélo est très pratique : la ville est plate, avec le service V'Lille en libre-service, et le réseau cyclable s'est fortement densifié. L'aéroport de Lille-Lesquin est relié en trente minutes par la navette. Le point unique en France : l'accès international quotidien à Bruxelles en trente-cinq minutes, à Londres en quatre-vingts minutes, ce qui permet d'ajouter une journée en Belgique ou en Angleterre sans jamais louer de voiture. La ville pour laquelle la voiture est le plus inutile en France."
+      },
+      {
+        heading: "Le supplément single et comment le contourner à Lille",
+        body: "Lille est l'une des grandes villes françaises où le supplément chambre single joue le moins fort, pour deux raisons structurelles. D'abord un parc de studios en location courte durée très fourni, hérité de la demande étudiante et d'une population de jeunes actifs. Ensuite un tissu hôtelier fortement structuré par la clientèle d'affaires en semaine (Eurotunnel, transfrontalier) qui indexe ses tarifs sur des occupations solo. Trois réflexes locaux marchent. Comparer studio meublé et hôtel dès deux nuits ou plus : les studios du Vieux-Lille, de Wazemmes et de République facturent la surface, ce qui met le solo au tarif du couple, souvent moins qu'une chambre single centrale. Viser les hôtels d'affaires du secteur Euralille du lundi au jeudi, avec des tarifs semaine indexés qui s'inversent le week-end. Regarder les auberges de jeunesse du secteur République pour des chambres privatives à tarifs plus doux, avec espaces communs qui favorisent les rencontres. Aucun tarif affiché ici : les prix bougent trop vite."
+      },
+      {
+        heading: "Quand y aller : la Braderie, les fenêtres calmes et le hors saison",
+        body: "Deux fenêtres opposées à connaître. Le premier week-end de septembre, la Grande Braderie transforme la ville en événement continental de 48 heures avec plus de deux millions de visiteurs : expérience unique, ambiance électrique, mais logement à réserver six mois en amont et tarifs multipliés pendant l'événement. Hors saison, la fenêtre la plus intéressante pour un séjour célibataire authentique est septembre (hors Braderie) à mi-novembre : rentrée étudiante chargée, terrasses encore ouvertes en septembre, ambiance très locale sans le rush. Le mois de décembre a un charme particulier avec le marché de Noël sur la Grand-Place, atmosphère nordique, mais fréquentation touristique en hausse. Le printemps (avril-juin) est également agréable. Éviter la première quinzaine d'août (creux général, beaucoup d'adresses ferment) et le dimanche soir toute l'année (creux général à Lille). Le mardi, le mercredi et le jeudi restent les jours de plus forte densité locale."
+      }
+    ],
+    relatedCities: ["lille"],
+    relatedGuides: [
+      "10-choses-a-faire-a-lille-2026",
+      "vivre-sans-voiture-lille-guide-2026",
+      "vacances-celibataire-paris-2026"
+    ],
+    tags: ["vacances célibataire Lille", "voyage solo Lille", "estaminets Lille", "Vieux-Lille sortir", "week-end célibataire nord"]
+  },
+  {
+    slug: "vacances-celibataire-aix-en-provence-2026",
+    title: "Vacances célibataire à Aix-en-Provence en 2026 : Cours Mirabeau, Vieil Aix, ville étudiante",
+    metaTitle: "Vacances célibataire Aix-en-Provence 2026 — Sortir, budget",
+    metaDesc: "Aix-en-Provence en séjour célibataire : Cours Mirabeau, Vieil Aix, ville qui vit toute l'année grâce à ses étudiants, contourner le supplément single.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-08-08",
+    updatedAt: "2026-08-08",
+    intro: "Aix-en-Provence est une ville que la carte postale sert mal pour un séjour célibataire. Vue de loin, on imagine un décor patrimonial pour couples en escapade et un été saturé de festivaliers, deux images qui laissent penser à la station-fantôme le reste de l'année. La réalité est différente et c'est tout l'intérêt : Aix accueille environ 40 000 étudiants d'Aix-Marseille Université sur son campus principal, ce qui garantit une vie du soir toute l'année en semaine, et la vieille ville concentre sur un rayon de dix minutes à pied l'un des plus forts scores culture de France selon le seed (8,4/10). Ce guide indique où poser ses valises pour éviter le côté touristique, comment sortir un mardi soir de novembre sans tomber sur des salles vides, et comment contourner le supplément single dans une ville où le parc hôtelier est structuré autour des couples.",
+    sections: [
+      {
+        heading: "Pourquoi Aix-en-Provence tient pour un séjour célibataire",
+        body: "L'objection légitime à Aix pour un séjour solo est le risque de ville-vitrine morte hors saison. Trois éléments neutralisent cette crainte. D'abord la population étudiante : Aix-Marseille Université concentre environ 40 000 inscrits sur le campus aixois, dont une grande partie loge en ville, ce qui tient la vie du soir en semaine y compris en février. Ensuite la densité culturelle : score culture de 8,4/10 dans le seed, l'un des plus élevés de France, portée par le Grand Théâtre de Provence, le Festival d'Art Lyrique en juillet, la Cité du Livre et une constellation de galeries et cinémas d'art et d'essai. Et enfin la compacité extrême du Vieil Aix : tout se fait à pied entre le Cours Mirabeau et la place des Cardeurs, ce qui gomme la logistique et libère les soirées. Reste une réalité : Aix est plus chère que la moyenne (score cost 5,6/10) et le supplément single y joue franchement. La partie budget de ce guide compte davantage qu'ailleurs."
+      },
+      {
+        heading: "Où poser ses valises : Vieil Aix, Mazarin, Sextius-Mirabeau",
+        body: "Trois secteurs se détachent. Le Vieil Aix est la carte à jouer par défaut : cœur historique piéton avec la densité maximale de bars, restaurants et places, tout à pied, ambiance qui tient jusqu'à minuit passé. Loyer hôtelier élevé, un peu bruyant les jeudis-samedis soirs, mais imbattable côté maillage. Le quartier Mazarin de l'autre côté du Cours Mirabeau offre l'alternative plus calme et plus bourgeoise : hôtels particuliers du XVIIe, ambiance plus élégante, à cinq minutes à pied de la place des Cardeurs mais nettement plus tranquille le soir. Sextius-Mirabeau pour un compromis budget : quartier plus récent autour de la Cité du Livre et du Grand Théâtre, tarifs plus doux, à dix minutes à pied du centre. Éviter Jas de Bouffan pour un premier séjour (résidentiel, dépendant du bus) et surtout ne pas loger à la gare Aix-en-Provence TGV : elle est à quinze kilomètres du centre, ce qui casse tout l'intérêt d'un séjour axé sortie."
+      },
+      {
+        heading: "Sortir un mardi soir : bars étudiants, cinémas, festivals hors saison",
+        body: "Le circuit standard aixois pour un séjour solo commence place des Cardeurs et rue Verrerie, où se concentrent les bars à vins et à cocktails qui restent ouverts tard tous les jours. Le Cours Mirabeau alterne cafés historiques (Les Deux Garçons pendant longtemps, à vérifier après restauration) et adresses plus récentes. Côté musique et scène, le Grand Théâtre de Provence programme opéra et musique classique presque chaque soir, la Cité du Livre concerts et rencontres. Le Mazarin cinéma d'art et d'essai est un point de rendez-vous local. Un temps fort peu connu : le Festival de Pâques (musique classique, deux semaines en avril) et le Festival International d'Art Lyrique (opéra, juillet) sont les pics, mais des Rencontres du 9e Art (bande dessinée, mars-avril) au Jazz sur la Ville (novembre-décembre), il y a un festival presque chaque mois qui rythme la vie culturelle hors été. Éviter le dimanche soir (creux), viser mardi-samedi."
+      },
+      {
+        heading: "Se déplacer sans voiture : bus, aixe-en-Bus, TER",
+        body: "Aix a un score transport moyen pour sa taille (6,8/10 dans le seed) mais c'est trompeur pour un séjour touristique. L'atout aixois pour un séjour sans voiture est la compacité : le centre entier se traverse à pied en vingt minutes, on ne prend un transport que pour aller à la gare ou à Marseille. Le réseau Aix-en-Bus dessert le reste avec une amplitude qui va jusqu'à 20 h-21 h en semaine, ce qui suffit pour un séjour axé centre. Le point à connaître : la gare Aix-en-Provence TGV est à quinze kilomètres au sud, reliée en vingt minutes par une navette régulière ; c'est fluide si l'on est prévenu, catastrophique si l'on découvre en arrivant. Marseille Saint-Charles est à trente minutes en TER pour une escapade dans la journée. Le vélo est peu répandu à Aix, la vieille ville étant plutôt pentue et pavée. Séjour sans voiture parfaitement faisable en logeant dans le Vieil Aix, à condition de ne pas ambitionner un tour du pays cézannien qui, lui, réclame une voiture."
+      },
+      {
+        heading: "Le supplément single et comment le contourner à Aix",
+        body: "Aix est probablement la ville de France où le supplément chambre single pique le plus fort après Paris, parce que le marché hôtelier local est structuré autour de couples et de festivaliers en juillet, deux catégories qui ne compriment pas les prix. Trois réflexes marchent particulièrement. Comparer systématiquement studio en location courte durée et hôtel dès qu'on reste deux nuits ou plus : le parc de studios est fourni dans le Vieil Aix et à Sextius-Mirabeau grâce à la demande étudiante, avec des tarifs qui se justifient rapidement pour un séjour de trois nuits ou plus. Éviter précisément les deux semaines du Festival Lyrique (juillet) et les week-ends de Rencontres du 9e Art : les tarifs hôteliers doublent ou triplent. Regarder les auberges de jeunesse et hébergements alternatifs de Sextius-Mirabeau pour des chambres privatives à tarifs plus doux, avec espaces communs qui favorisent les rencontres. Aucun tarif affiché ici : les prix bougent trop vite d'une saison et d'une plateforme à l'autre."
+      },
+      {
+        heading: "Quand y aller : mars-juin, l'automne culturel, éviter juillet-août",
+        body: "La fenêtre la plus intéressante pour un séjour célibataire à Aix est mars à mi-juin. Les températures sont douces, les terrasses ouvertes, les festivals se succèdent (Pâques en avril, Rencontres du 9e Art en mars-avril), et surtout les étudiants sont là, ce qui rend la vie du soir vraiment locale. Septembre à mi-novembre est la seconde fenêtre : rentrée universitaire, ambiance très locale, saison culturelle qui redémarre. Éviter précisément juillet-août : la ville est saturée de touristes, les Aixois partent, les tarifs hôteliers explosent, et l'énergie que l'on venait chercher (une ville qui vit) s'inverse. Éviter aussi la deuxième quinzaine de décembre (partiellement creux, beaucoup d'adresses ferment) et le lundi soir toute l'année. Le mardi, le mercredi et le jeudi soir restent les jours où la scène locale aixoise est la plus vivante, à privilégier pour sortir des cercles touristiques."
+      }
+    ],
+    relatedCities: ["aix-en-provence"],
+    relatedGuides: [
+      "10-choses-a-faire-a-aix-en-provence-2026",
+      "vivre-sans-voiture-aix-en-provence-guide-2026",
+      "vacances-celibataire-montpellier-2026"
+    ],
+    tags: ["vacances célibataire Aix-en-Provence", "voyage solo Aix", "Cours Mirabeau", "Vieil Aix sortir", "week-end célibataire Provence"]
+  },
+  {
+    slug: "vacances-celibataire-angers-2026",
+    title: "Vacances célibataire à Angers en 2026 : Doutre, Cité, séjour sans voiture",
+    metaTitle: "Vacances célibataire Angers 2026 — Sortir seul·e, budget, quartiers",
+    metaDesc: "Angers en séjour célibataire : ville étudiante vivante toute l'année, Le Chabada, TGV Paris 1h30, tramway récent, contourner le supplément single.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-08",
+    updatedAt: "2026-08-08",
+    intro: "Angers est probablement la ville française la plus sous-cotée pour un séjour célibataire. La géographie l'aide : une heure trente de TGV depuis Paris, une gare Angers Saint-Laud au bord du centre historique, un tramway récent qui dessert l'essentiel, la Loire à quelques kilomètres. Mais l'atout réel est plus profond : Angers accueille environ 40 000 étudiants entre l'UCO, l'Université d'Angers et les grandes écoles, ce qui tient la vie du soir en semaine toute l'année, et sa scène musicale portée par Le Chabada et Le Quai lui donne un dynamisme culturel supérieur à sa taille. Ce guide indique où poser ses valises, comment sortir un mardi soir sans se retrouver dans une salle vide, et comment lisser le supplément single dans une ville dont le parc locatif est structuré autour de la demande étudiante.",
+    sections: [
+      {
+        heading: "Pourquoi Angers plutôt qu'ailleurs pour un séjour célibataire",
+        body: "Angers coche trois cases utiles ensemble. Une compacité rare : le centre historique tient dans un mouchoir de poche entre le château, la place du Ralliement et la Doutre, tout à pied. Une masse étudiante réelle, environ 40 000 inscrits sur l'agglomération, qui tient le rythme de sortie du lundi au samedi et distingue nettement la ville d'une destination patrimoniale qui se vide hors saison. Et une scène culturelle intermédiaire dense pour une ville de 155 000 habitants, portée par Le Chabada (l'une des salles de musiques actuelles les plus respectées à l'ouest de Paris), Le Quai (scène nationale), le Théâtre du Champ de Bataille et une constellation de bars-concerts. Ajoutez à ça un climat doux, une vraie culture Loire proche, et un score culture de 7,8/10 dans le seed, et vous obtenez une destination probablement plus intéressante pour un solo qui cherche du monde que la plupart des villes classées touristiques."
+      },
+      {
+        heading: "Où poser ses valises : centre, Doutre, Saint-Serge",
+        body: "Trois quartiers dominent pour un séjour axé sortie. Le centre autour de la place du Ralliement est la carte à jouer par défaut : cœur historique piéton avec l'un des scores nightlife les plus élevés de la ville, densité de bars, brasseries et restaurants, tout à pied. Loyer hôtelier raisonnable comparé à Nantes. La Doutre de l'autre côté de la Maine offre l'alternative plus authentique : ancien faubourg médiéval avec ses maisons à colombages, ambiance plus habitée et plus locale, à dix minutes à pied du centre par le pont. Saint-Serge pour un compromis budget-ambiance : quartier étudiant autour de l'université, adresses jeunes et moins chères, à quinze minutes à pied ou cinq minutes en tramway du centre. Éviter les quartiers périphériques nord et est pour un séjour court. Un logement à moins de dix minutes à pied de la place du Ralliement sera idéal pour un séjour axé sortie."
+      },
+      {
+        heading: "Sortir un mardi soir : bars étudiants, Chabada, Quai",
+        body: "Angers est une ville où la sortie en semaine est nettement plus intéressante que ce que la taille laisse deviner, précisément parce que les étudiants tiennent le rythme. Le triangle place du Ralliement / rue Saint-Laud / place du Pilori concentre les bars à bières, à vins et à cocktails, avec des adresses ouvertes tard tous les jours. Côté musique, Le Chabada programme concerts intermédiaires plusieurs soirs par semaine avec une programmation nationalement respectée, souvent à des tarifs très raisonnables ; c'est probablement le meilleur point d'entrée pour se glisser dans une conversation musicale. Le Quai propose théâtre et danse contemporaine. Le cinéma Les 400 Coups programme d'art et d'essai presque chaque soir. Éviter le lundi (creux général) et le dimanche soir (beaucoup ferment), viser mardi-samedi pour la meilleure densité. Le jeudi soir dans le centre est le pic étudiant, ambiance jeune et festive."
+      },
+      {
+        heading: "Se déplacer sans voiture : tramway, marche, TER",
+        body: "Angers est bien calibrée pour le séjour sans voiture avec un score transport de 7,4/10, correct pour une ville de sa taille. Les deux lignes de tramway A et B, ouvertes récemment, roulent jusqu'à environ minuit en semaine et un peu plus tard le week-end, avec une couverture qui inclut la gare Saint-Laud et l'essentiel des quartiers utiles. Les bus complètent le maillage et un service de nuit prend le relais sur les grands axes. Le vélo est très pratique : la ville est plate en bord de Maine, avec le service Vélocité en libre-service, et les pistes cyclables couvrent le centre. La gare Saint-Laud est à cinq minutes à pied du centre historique, ce qui rend l'arrivée depuis Paris (1 h 30 de TGV) immédiate. Le TER vers Nantes (40 minutes) permet une escapade dans la journée sans voiture. Séjour sans voiture strictement possible."
+      },
+      {
+        heading: "Le supplément single et comment le contourner à Angers",
+        body: "Angers est l'une des villes françaises où le supplément chambre single joue le moins fort, essentiellement parce que le parc de studios en location courte durée est très fourni : héritage direct de la demande étudiante importante et d'une population de jeunes actifs qui structure le marché immobilier. Deux réflexes marchent particulièrement bien ici. Comparer studio meublé et hôtel dès qu'on reste deux nuits ou plus : les studios du centre, de Saint-Serge et de la Doutre facturent la surface, ce qui met le solo au tarif du couple, souvent moins qu'une chambre single centrale. Viser les hôtels d'affaires du secteur gare Saint-Laud du lundi au jeudi, avec des tarifs semaine indexés sur une clientèle solo qui s'inversent le week-end. Aucun montant affiché ici : les prix bougent trop vite pour tenir sur un an."
+      },
+      {
+        heading: "Quand y aller : rentrée, printemps, festivals",
+        body: "Deux fenêtres se distinguent nettement. Septembre à mi-novembre est la période la plus intéressante pour un séjour célibataire authentique : rentrée universitaire chargée, terrasses encore ouvertes en septembre, saison du Chabada et du Quai qui redémarre, ambiance très locale sans le rush touristique. Avril à juin est également agréable, avec l'ouverture progressive des terrasses en bord de Maine et le Festival Premiers Plans (cinéma, janvier) et le Festival d'Anjou (théâtre, juin-juillet) qui rythment la vie culturelle. Éviter la première quinzaine d'août (creux général, beaucoup d'adresses ferment) et le dimanche soir toute l'année. Un temps fort local à connaître : les Accroche-Cœurs (fin août à début septembre) transforment la ville en scène géante d'arts de la rue pendant trois jours, ambiance festive et gratuite. Le mardi, le mercredi et le jeudi soir restent les jours de plus forte densité locale."
+      }
+    ],
+    relatedCities: ["angers"],
+    relatedGuides: [
+      "10-choses-a-faire-a-angers-2026",
+      "vivre-sans-voiture-angers-guide-2026",
+      "vacances-celibataire-nantes-2026"
+    ],
+    tags: ["vacances célibataire Angers", "voyage solo Angers", "Chabada Angers", "sortir seul·e Angers", "week-end célibataire Loire"]
+  },
+  {
+    slug: "vacances-celibataire-grenoble-2026",
+    title: "Vacances célibataire à Grenoble en 2026 : Berriat, hyper-centre, séjour sans voiture",
+    metaTitle: "Vacances célibataire Grenoble 2026 — Berriat, sortir, budget",
+    metaDesc: "Grenoble en séjour célibataire : Berriat et Notre-Dame, tramway tardif, ville étudiante vivante hors saison, contourner le supplément single.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-08",
+    updatedAt: "2026-08-08",
+    intro: "Grenoble est probablement la meilleure destination française pour un séjour célibataire quand on cherche le combo grande ville étudiante et évasion en montagne. Trois heures de TGV depuis Paris, une gare au bord du centre, un réseau de cinq lignes de tramway qui dessert tout, et surtout environ 60 000 étudiants sur l'agglomération qui tiennent la vie du soir en semaine toute l'année. La géographie fait le reste : centre compact, chaîne de Chartreuse et Belledonne autour, téléphérique historique vers la Bastille pour prendre l'air en trente minutes. Ce guide indique où poser ses valises, comment sortir un mardi soir sans tomber sur des salles vides, et comment optimiser un séjour solo dans une ville où le supplément single est parmi les plus doux de France.",
+    sections: [
+      {
+        heading: "Pourquoi Grenoble plutôt qu'ailleurs pour un séjour célibataire",
+        body: "Grenoble combine trois atouts rarement réunis sur une même ville. Une masse étudiante massive (environ 60 000 inscrits sur l'agglomération, entre l'UGA et Grenoble INP) qui tient la vie du soir toute la semaine y compris en février, ce qui distingue radicalement la ville d'une station qui se réveille uniquement les samedis. Une scène culturelle intermédiaire dense portée par la MC2 (scène nationale), La Belle Électrique, l'Hexagone et une constellation de bars-concerts qui programment plusieurs soirs par semaine à des tarifs très raisonnables. Et l'accès immédiat à la montagne : le téléphérique historique monte à la Bastille en cinq minutes depuis le centre, la Chartreuse et Belledonne sont à trente minutes en voiture ou TER pour une balade dans la journée. Ajoutez un score cost correct (6,8/10) qui rend la ville nettement moins chère que Lyon ou Annecy, et vous obtenez une destination très efficace pour un long week-end solo."
+      },
+      {
+        heading: "Où poser ses valises : hyper-centre, Berriat, Championnet",
+        body: "Trois quartiers se détachent pour un séjour axé sortie. L'hyper-centre autour de la place Notre-Dame et de la place Grenette est la carte à jouer par défaut : cœur historique piéton avec la densité maximale de bars, restaurants et cafés, tout à pied, tramway direct vers la gare. Loyer hôtelier raisonnable. Berriat offre l'alternative plus jeune et plus branchée : ancien quartier ouvrier en gentrification devenu le cœur de la scène culturelle alternative grenobloise (La Belle Électrique, Le 102, Le Ciel), tarifs hôteliers plus doux, à dix minutes à pied du centre ou trois minutes en tramway A. Championnet pour un compromis calme-centre : quartier résidentiel plus paisible mais bien relié, à cinq minutes à pied du centre, ambiance moins étudiante. Éviter Villeneuve (banlieue sud, pas prévue pour un séjour touristique) et les quartiers d'affaires purs qui se vident le soir."
+      },
+      {
+        heading: "Sortir un mardi soir : bars étudiants, Belle Électrique, MC2",
+        body: "Grenoble est une ville où la sortie en semaine est nettement plus vivante que dans la plupart des villes de sa taille, précisément parce que la masse étudiante étale les soirées sur toute la semaine. Le triangle place Grenette / place Notre-Dame / rue Chenoise concentre les bars étudiants, les brasseries et les bars à vins, avec des adresses ouvertes tard tous les jours. Berriat concentre les adresses alternatives et musicales : La Belle Électrique programme concerts et scènes intermédiaires plusieurs soirs par semaine, Le 102 est un lieu autogéré très actif, et la rue Ampère aligne bars à bières et adresses branchées. La MC2 propose théâtre, danse et concerts classiques à un très haut niveau. Le cinéma Le Méliès programme d'art et d'essai presque chaque soir. Éviter le lundi soir (creux) et le dimanche soir (beaucoup ferment), viser mardi-samedi. Un point spécifique : la ville se remplit particulièrement les jeudis de grands concerts à la Belle Électrique."
+      },
+      {
+        heading: "Se déplacer sans voiture : tramway, vélo, téléphérique",
+        body: "Grenoble est très bien calibrée pour le séjour sans voiture, avec un score transport de 7,5/10 dans le seed. Les cinq lignes de tramway A, B, C, D et E roulent jusqu'à environ minuit et demi en semaine et un peu plus tard le week-end, avec une couverture qui inclut la gare, l'université et l'ensemble des quartiers de sortie. Les bus complètent le maillage et un service Flexo prend le relais sur les grands axes le week-end. Le vélo est particulièrement roi ici : Grenoble figure régulièrement dans le top des villes cyclables françaises, plate en centre, avec le service Métrovélo en libre-service et location courte durée. Le téléphérique de la Bastille (les Bulles) fonctionne en journée et le soir, cinq minutes pour monter à 264 mètres et voir toute la vallée, expérience unique en centre urbain français. La gare est à cinq minutes de tram A du centre historique, ce qui rend l'arrivée depuis Paris ou Lyon fluide. Séjour sans voiture strictement possible."
+      },
+      {
+        heading: "Le supplément single et comment le contourner à Grenoble",
+        body: "Grenoble est l'une des grandes villes françaises où le supplément chambre single joue le moins fort, pour une raison structurelle : le parc de studios en location courte durée est très fourni, hérité de la demande étudiante massive qui a façonné le marché immobilier local. Trois réflexes marchent particulièrement bien ici. Comparer studio meublé et hôtel dès qu'on reste deux nuits ou plus : les studios de l'hyper-centre, de Berriat et de Championnet facturent la surface, ce qui met le solo au tarif du couple, souvent moins qu'une chambre single. Viser les hôtels d'affaires du secteur gare / Alliés du lundi au jeudi, avec des tarifs semaine indexés sur la clientèle solo. Regarder les auberges de jeunesse contemporaines du centre pour des chambres privatives à tarifs plus doux, avec espaces communs qui favorisent les rencontres. Aucun tarif affiché ici : les prix bougent trop vite pour tenir sur un an."
+      },
+      {
+        heading: "Quand y aller : les grandes fenêtres et un secret d'hiver",
+        body: "Deux fenêtres se distinguent nettement pour un séjour célibataire. Septembre à mi-novembre est la période la plus intéressante : rentrée universitaire chargée, terrasses encore ouvertes en septembre, saison de la MC2 et de la Belle Électrique qui redémarre, ambiance très locale, températures encore douces en journée. Avril à juin est également très agréable, avec l'ouverture progressive des terrasses en bord d'Isère et la possibilité de randonner à Chamechaude ou au Moucherotte en journée. Le secret d'hiver : janvier à mars sont creux touristiquement en ville, mais la vie locale continue à plein régime porté par les étudiants, avec des tarifs hôteliers plus doux et la possibilité de skier à quarante minutes de tramway + bus (Chamrousse). Éviter la première quinzaine d'août (creux général, beaucoup d'adresses ferment) et le dimanche soir toute l'année. Le mardi, le mercredi et le jeudi soir restent les jours de plus forte densité locale à Berriat comme au centre."
+      }
+    ],
+    relatedCities: ["grenoble"],
+    relatedGuides: [
+      "10-choses-a-faire-a-grenoble-2026",
+      "vivre-sans-voiture-grenoble-guide-2026",
+      "vacances-celibataire-lyon-2026"
+    ],
+    tags: ["vacances célibataire Grenoble", "voyage solo Grenoble", "Berriat sortir", "sortir seul·e Grenoble", "week-end célibataire Alpes"]
+  },
+  {
+    slug: "vacances-celibataire-dijon-2026",
+    title: "Vacances célibataire à Dijon en 2026 : centre historique, bars à vins, séjour sans voiture",
+    metaTitle: "Vacances célibataire Dijon 2026 — Sortir seul·e, budget, quartiers",
+    metaDesc: "Dijon en séjour célibataire : centre historique piéton, bars à vins de Bourgogne, TGV Paris 1h30, tramway récent, contourner le supplément single.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-08",
+    updatedAt: "2026-08-08",
+    intro: "Dijon est probablement la ville française la plus sous-cotée dans sa catégorie pour un séjour célibataire, et pour des raisons simples. Une heure et demi de TGV depuis Paris, une gare au bord du centre historique classé UNESCO, deux lignes de tramway récentes qui traversent la ville, un centre entièrement piéton où tout se fait à pied. Ajoutez environ 30 000 étudiants qui tiennent la vie du soir en semaine toute l'année, la culture des bars à vins bourguignons qui rend l'entrée seul·e dans un lieu absolument naturelle, et la Cité internationale de la gastronomie et du vin ouverte depuis 2022 qui a densifié encore l'offre du centre. Ce guide indique où poser ses valises, comment enchaîner un mardi soir sans tomber sur des salles vides, et comment optimiser un séjour solo dans une ville où le supplément single reste digérable.",
+    sections: [
+      {
+        heading: "Pourquoi Dijon plutôt qu'ailleurs pour un séjour célibataire",
+        body: "Dijon coche trois cases utiles ensemble. Une compacité rare : le secteur sauvegardé classé UNESCO tient dans un rayon de sept cents mètres autour du Palais des Ducs, tout à pied, ce qui gomme la logistique. Une culture bourguignonne du bar à vins et du bistrot qui rend le dîner solo au comptoir naturel : on commande au verre, on parle avec le tenancier, on partage éventuellement une planche avec un voisin. Et un score culture de 8,2/10 dans le seed, l'un des plus élevés parmi les villes de sa taille, porté par l'Opéra, le Zénith, La Vapeur (musiques actuelles), le Musée des Beaux-Arts nouvellement rénové, la Cité internationale de la gastronomie et du vin, et l'Espace autogéré des Tanneries pour la scène alternative. Les 30 000 étudiants de l'Université de Bourgogne tiennent le rythme de sortie du lundi au samedi. La ville est nettement moins chère que Lyon ou Beaune."
+      },
+      {
+        heading: "Où poser ses valises : secteur sauvegardé, Halles, gare",
+        body: "Trois secteurs se détachent. Le secteur sauvegardé autour du Palais des Ducs et de la place de la Libération est la carte à jouer par défaut : cœur historique classé UNESCO entièrement piéton avec la densité maximale de bars et de restaurants, tout à pied, imbattable côté maillage. Le quartier des Halles autour du marché de Dijon offre l'alternative plus vivante et plus populaire : ambiance de comptoir chaque jour de marché (mardi, vendredi, samedi), adresses moins touristiques, à cinq minutes à pied du centre. Le secteur gare pour un compromis budget : hôtels d'affaires plus doux, à sept minutes à pied ou trois minutes de tramway du centre. Éviter les quartiers résidentiels périphériques pour un séjour court. Un logement à moins de dix minutes à pied de la place de la Libération sera idéal."
+      },
+      {
+        heading: "Sortir un mardi soir : bars à vins, brasseries, concerts",
+        body: "Dijon est une ville où la sortie en semaine se fait sans effort, précisément parce que la culture bourguignonne du bar à vins tourne toute la semaine. Le circuit standard démarre autour de la place Émile Zola, se prolonge rue Berbisey (concentration maximale de bars étudiants et cavistes-bistrots) et rue Musette, avec des adresses ouvertes tard tous les jours. Côté musique, La Vapeur programme concerts intermédiaires plusieurs soirs par semaine à des tarifs très raisonnables, l'Espace autogéré des Tanneries propose une scène alternative et engagée avec concerts, débats et cantines partagées presque chaque semaine. L'Opéra de Dijon (Auditorium et Grand Théâtre) maintient une programmation classique et lyrique dense. Le cinéma L'Eldorado programme d'art et d'essai presque chaque soir. Éviter le lundi (creux) et le dimanche soir (beaucoup ferment), viser mardi-samedi pour la meilleure densité, mardi et vendredi pour les jours de marché aux Halles où l'ambiance de comptoir est la plus vivante."
+      },
+      {
+        heading: "Se déplacer sans voiture : tramway, marche, TER",
+        body: "Dijon est très bien calibrée pour le séjour sans voiture avec un score transport de 7,5/10. Les deux lignes de tramway T1 et T2, ouvertes récemment, roulent jusqu'à environ minuit en semaine et un peu plus tard le week-end, avec une couverture qui inclut la gare, l'université et l'ensemble des quartiers utiles. Les bus complètent le maillage. Le vélo est très pratique : la ville est majoritairement plate, avec le service DiviaVélodi en libre-service, et les pistes cyclables couvrent le centre. La gare est à cinq minutes à pied du centre historique, ce qui rend l'arrivée depuis Paris (1 h 30 de TGV) immédiate. Le TER vers Beaune (25 minutes), Nuits-Saint-Georges ou vers les autres villes bourguignonnes permet des escapades dans la journée sans jamais toucher une voiture. Séjour sans voiture strictement possible."
+      },
+      {
+        heading: "Le supplément single et comment le contourner à Dijon",
+        body: "Dijon est l'une des villes françaises où le supplément chambre single reste digérable, pour deux raisons structurelles. D'abord un tissu hôtelier fortement structuré par la clientèle d'affaires en semaine, qui indexe ses tarifs sur des occupations solo. Ensuite un parc de studios en location courte durée fourni, hérité de la demande étudiante. Trois réflexes locaux fonctionnent. Comparer studio meublé et hôtel dès qu'on reste deux nuits ou plus : les studios du centre et du secteur gare facturent la surface, ce qui met le solo au tarif du couple. Viser les hôtels d'affaires du secteur gare du lundi au jeudi, avec des tarifs semaine indexés qui s'inversent le week-end. Éviter précisément les week-ends de la Foire internationale et gastronomique de Dijon (fin octobre à début novembre), où les tarifs hôteliers montent sensiblement. Aucun montant affiché ici : les prix bougent trop vite pour tenir sur un an."
+      },
+      {
+        heading: "Quand y aller : rentrée, printemps, Foire gastronomique",
+        body: "Deux fenêtres se distinguent. Septembre à mi-novembre est la plus intéressante pour un séjour célibataire authentique : rentrée universitaire chargée, terrasses encore ouvertes en septembre, saison de l'Opéra et de La Vapeur qui redémarre, vendanges bourguignonnes fin septembre-début octobre qui rythment la région, et surtout la Foire internationale et gastronomique fin octobre à début novembre qui transforme la ville en scène géante pendant onze jours (mais logement à réserver en amont). Avril à juin est également très agréable, avec l'ouverture progressive des terrasses et la possibilité de descendre en TER sur la route des Grands Crus. Éviter la première quinzaine d'août (creux général, beaucoup d'adresses ferment) et le dimanche soir toute l'année. Le mardi et le vendredi soir sont les jours de plus forte densité locale grâce au marché des Halles qui prolonge l'ambiance en soirée."
+      }
+    ],
+    relatedCities: ["dijon"],
+    relatedGuides: [
+      "10-choses-a-faire-a-dijon-2026",
+      "vivre-sans-voiture-dijon-guide-2026",
+      "vacances-celibataire-strasbourg-2026"
+    ],
+    tags: ["vacances célibataire Dijon", "voyage solo Dijon", "bars à vins Dijon", "sortir seul·e Dijon", "week-end célibataire Bourgogne"]
+  },
+  {
+    slug: "vacances-celibataire-la-rochelle-2026",
+    title: "Vacances célibataire à La Rochelle en 2026 : Vieux Port, Cours des Dames, hors saison",
+    metaTitle: "Vacances célibataire La Rochelle 2026 — Sortir seul·e, budget",
+    metaDesc: "La Rochelle en séjour célibataire : la seule ville portuaire qui vit hors saison, Vieux Port, TGV Paris 2 h 30, Yélo, contourner le supplément single.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-08",
+    updatedAt: "2026-08-08",
+    intro: "La Rochelle est probablement la seule ville portuaire française où un séjour célibataire tient hors saison. La question évidente sur une destination balnéaire est celle de la station-fantôme d'octobre à mars, et la réponse rochelaise est claire : la ville accueille environ 15 000 étudiants de l'université de La Rochelle et d'écoles associées, plus une population de résidents à l'année structurée par l'activité portuaire, universitaire et de recherche, ce qui garantit une vie locale continue. TGV Paris en 2 h 30, gare au bord du centre, cœur historique piéton où tout se fait à pied, Vieux Port et Cours des Dames animés tous les soirs, et un accès immédiat à l'île de Ré à vélo. Ce guide indique où poser ses valises pour éviter le côté touristique, comment sortir un mardi soir de novembre sans tomber dans une salle vide, et comment optimiser un séjour solo dans une ville où le supplément single reste raisonnable hors juillet-août.",
+    sections: [
+      {
+        heading: "Pourquoi La Rochelle tient pour un séjour célibataire même en hors saison",
+        body: "L'objection légitime à La Rochelle pour un séjour solo est le risque station balnéaire qui se vide dès octobre. Trois éléments neutralisent cette crainte. D'abord la population étudiante : environ 15 000 inscrits à l'université de La Rochelle et écoles associées, dont beaucoup logent en ville, ce qui tient la vie du soir en semaine y compris en février. Ensuite l'activité économique continue : port de commerce, port de plaisance des Minimes (l'un des plus grands d'Europe), université, recherche, ce qui structure une population de résidents à l'année qui ne dépend pas des vacanciers. Et enfin la densité culturelle réelle : La Sirène (scène de musiques actuelles très respectée nationalement), La Coursive (scène nationale), le Musée Maritime, le Muséum d'Histoire Naturelle, et une constellation de bars et restaurants qui restent ouverts toute l'année. Ajoutez à ça le score culture de 7,7/10 dans le seed et un climat doux qui rend les balades sur les quais agréables même en novembre, et vous obtenez une destination très efficace pour un séjour solo authentique hors saison."
+      },
+      {
+        heading: "Où poser ses valises : Vieux Port, Saint-Nicolas, gare",
+        body: "Trois secteurs dominent pour un séjour axé sortie. Le secteur Vieux Port et Cours des Dames est la carte à jouer par défaut : cœur historique piéton avec la densité maximale de bars et restaurants, vue sur les tours emblématiques (Saint-Nicolas, de la Chaîne, de la Lanterne), tout à pied. Loyer hôtelier plus doux qu'à Biarritz. Bruyant les jeudis-samedis soirs en saison, plus calme mais toujours animé hors saison. Le quartier Saint-Nicolas offre l'alternative plus habitée : ancien quartier de marins entre la vieille ville et les Minimes, ambiance de village avec bars et petits restos moins touristiques, à dix minutes à pied du Vieux Port. Le secteur gare pour un compromis budget : hôtels d'affaires plus doux, à cinq minutes à pied du centre historique. Éviter les Minimes pour un premier séjour (quartier port de plaisance en périphérie, dépendant du bus le soir)."
+      },
+      {
+        heading: "Sortir un mardi soir : Cours des Dames, Saint-Nicolas, Sirène",
+        body: "La Rochelle est une ville où la sortie en semaine hors saison est nettement plus vivante que ce que la réputation balnéaire laisse deviner, précisément parce que les étudiants et les résidents tiennent le rythme quand les touristes sont partis. Le Cours des Dames et la rue Saint-Sauveur concentrent les bars à vins, bistrots à huîtres et brasseries, avec des adresses ouvertes tard tous les jours de la semaine, y compris en février. Le quartier Saint-Nicolas propose une ambiance plus locale et moins touristique. Côté musique, La Sirène programme concerts intermédiaires plusieurs soirs par semaine avec une programmation nationalement respectée, à des tarifs très raisonnables ; c'est probablement le meilleur point d'entrée pour se glisser dans une conversation musicale. La Coursive propose théâtre, danse et concerts classiques. Un temps fort à connaître : les Francofolies de La Rochelle mi-juillet transforment la ville en scène géante pendant cinq jours, ambiance festive, mais logement saturé et à réserver plusieurs mois en amont. Éviter le dimanche soir (creux général), viser mardi-samedi."
+      },
+      {
+        heading: "Se déplacer sans voiture : Yélo, vélo, TGV",
+        body: "La Rochelle a un score transport de 7,0/10 mais c'est là qu'elle brille pour un séjour solo, parce que la ville a été pionnière en libre-service vélo et voitures électriques. Le réseau Yélo comprend bus urbains, bus de mer (traversée du Vieux Port en cinq minutes), passeur des Minimes en été, vélos jaunes en libre-service et voitures électriques. Les bus circulent jusqu'à environ 22 h en semaine, ce qui suffit pour un séjour axé centre et sortie qui se fait à pied. Le vélo est particulièrement roi ici : plate, dédiée piste cyclable historique, cinquante kilomètres pour rejoindre l'île de Ré en une heure par le pont via une piste cyclable dédiée. La gare est à cinq minutes à pied du centre historique, ce qui rend l'arrivée depuis Paris (2 h 30 de TGV) immédiate. L'aéroport local est relié en bus. Séjour sans voiture strictement possible, y compris pour une escapade dans l'île de Ré à vélo dans la journée."
+      },
+      {
+        heading: "Le supplément single et comment le contourner à La Rochelle",
+        body: "La Rochelle est plus abordable qu'on ne le pense pour un séjour solo hors juillet-août, essentiellement parce que le tissu hôtelier local n'est pas structuré exclusivement autour des couples et parce que le parc de studios en location courte durée s'est développé avec la demande étudiante. Trois réflexes locaux marchent particulièrement bien. Comparer studio meublé et hôtel dès qu'on reste deux nuits ou plus : les studios du centre et de Saint-Nicolas facturent la surface, ce qui met le solo au tarif du couple, souvent moins qu'une chambre single. Éviter précisément juillet-août et le week-end des Francofolies (mi-juillet) : les tarifs hôteliers peuvent doubler ou tripler et les studios se réservent des mois en amont. Regarder les auberges de jeunesse contemporaines du centre pour des chambres privatives à tarifs plus doux avec espaces communs qui favorisent les rencontres. Le secteur gare offre également des hôtels d'affaires avec des tarifs semaine indexés sur la clientèle solo. Aucun tarif affiché ici : les prix hôteliers bougent trop vite."
+      },
+      {
+        heading: "Quand y aller : le hors saison est le vrai atout",
+        body: "La contre-intuition rochelaise vaut la peine d'être posée : la fenêtre la plus intéressante pour un séjour célibataire authentique à La Rochelle n'est pas l'été, elle est septembre à mi-novembre et mars à juin. Rentrée universitaire, saison de La Sirène et de La Coursive qui redémarre, terrasses encore ouvertes en septembre et à partir d'avril, ambiance très locale sans le rush touristique, tarifs hôteliers nettement plus doux. Juillet-août reste ambivalent : la ville se remplit de vacanciers, les Rochelais partent, les tarifs explosent et l'énergie locale se dilue, sauf pendant les Francofolies mi-juillet qui apportent une intensité culturelle réelle. L'hiver, contrairement à d'autres stations balnéaires, la ville continue de tourner à un rythme correct grâce aux étudiants et aux résidents : quelques adresses ferment mais le cœur du centre reste vivant. Éviter la première quinzaine de janvier (creux général), le lundi soir et le dimanche soir. Le mardi, le mercredi et le jeudi soir hors saison estivale restent les jours de plus forte densité locale."
+      }
+    ],
+    relatedCities: ["la-rochelle"],
+    relatedGuides: [
+      "10-choses-a-faire-a-la-rochelle-2026",
+      "vacances-monoparentales-la-rochelle-2026",
+      "vacances-celibataire-nantes-2026"
+    ],
+    tags: ["vacances célibataire La Rochelle", "voyage solo La Rochelle", "Vieux Port sortir", "Cours des Dames", "week-end célibataire hors saison"]
+  },
+  {
     slug: "vacances-monoparentales-la-rochelle-2026",
     title: "Vacances monoparentales à La Rochelle en 2026",
     metaTitle: "Vacances monoparentales à La Rochelle 2026",
