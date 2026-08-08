@@ -243,6 +243,22 @@ pour une routine planifiée :
 - Ne pas conclure « build cassé » sur un `EXIT=1` sans avoir lu la ligne d'erreur : ici la cause
   est l'environnement, pas le code. La vérification complète (export `out/`) reste une passe locale.
 
+⚠️ **Mise à jour 2026-08-08 : le « ~12,5 min » ci-dessus ne vaut plus pour une session cloud.**
+Constaté sur le batch 27 : la génération tournait encore **après 4 h 30**, `.next` à **25 Go** et
+toujours en croissance régulière (~1 Go / 10 min), sans jamais atteindre la finalisation — la
+session a été arrêtée à 3 Go d'espace libre pour ne pas figer le conteneur. Deux conséquences
+opérationnelles :
+- **Ne lance pas `npm run build` pour valider un batch de contenu depuis une routine.** Tu ne verras
+  ni `(56185/56185)` ni la moindre erreur, et tu auras brûlé plusieurs heures pour un ENOSPC.
+- Quand la sortie est tuyautée (`| tail`), rien ne s'affiche avant la fin : suivre l'avancement par
+  `du -sh .next` et `df -h`, pas par le log. Et **nettoyer `.next`/`out` avant de quitter**, sinon le
+  `/tmp` des outils sature à son tour et leurs sorties reviennent vides (constaté ce run).
+- Le substitut qui marche, et qui a validé le batch 27 : `npx tsc --noEmit` (propre), puis un script
+  `npx tsx` qui importe `@/data/guides-en` — l'import exécute `assertUniqueSlugs` — et vérifie sur
+  les nouveaux slugs longueur de `metaTitle`/`metaDesc`, nombre de sections, `category`, présence
+  des `relatedCities` dans `CITIES_SEED` et absence d'unités ascii-strippées. Une minute au lieu de
+  cinq heures, et ça couvre ce qu'un batch de guides peut casser. Le rendu réel reste une passe locale.
+
 @AGENTS.md
 
 ---
