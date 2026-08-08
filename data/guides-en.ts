@@ -21317,6 +21317,356 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["le-tampon", "saint-pierre-reunion", "saint-denis-reunion", "saint-paul-reunion"],
     tags: ["things to do in le tampon", "le tampon reunion", "travel", "city guide", "reunion"],
   },
+  {
+    slug: "things-to-do-in-saint-ouen-sur-seine-2026",
+    title: "Things to do in Saint-Ouen: the world's largest flea market",
+    metaTitle: "Things to Do in Saint-Ouen-sur-Seine (2026)",
+    metaDesc:
+      "The Puces flea market and its dozen halls, rue des Rosiers gypsy jazz, the château park, the Docks park and the converted Olympic village.",
+    category: "city-guide",
+    emoji: "🪑",
+    readMinutes: 7,
+    publishedAt: "2026-08-08",
+    updatedAt: "2026-08-08",
+    intro:
+      "Saint-Ouen-sur-Seine is a commune of about 51,000 people in Seine-Saint-Denis, pressed against the northern edge of Paris between the porte de Clignancourt and the river. It holds the Puces de Saint-Ouen, the largest antiques and second-hand market in the world, which pulls a weekend crowd few sites in France can match. The rest of the town has changed shape in fifteen years: métro line 14 now reaches it, the Docks eco-district has been built on former industrial land along the Seine, and the 2024 athletes' village has been converted into housing. Most visitors come for the market and leave; there is a full day here if you want one.",
+    sections: [
+      {
+        heading: "The flea market, and the day you turn up",
+        body: "The Puces began at the end of the nineteenth century, when the rag-and-bone traders pushed out of Paris by the sanitation works resettled just beyond the fortifications, in Saint-Ouen. The nickname came from the state of the furniture and mattresses being resold there. It is now a set of separate markets covering several hectares, with over a thousand dealers. It opens on Saturday, Sunday and Monday, which is the single most important line in this guide: arriving on a Tuesday means finding it shut, and that is the mistake foreign visitors make most often. Monday is the trade day — thinner crowds, and the best conditions for haggling. Prices are not fixed and an offer is expected, though in the high-end halls the margin is narrow.",
+      },
+      {
+        heading: "Finding your way between the markets",
+        body: "The Puces are not one market but roughly a dozen, each with its own specialism and atmosphere, and knowing which to head for changes the day completely. Vernaison is the oldest and the most maze-like, narrow lanes and small objects. Paul-Bert Serpette concentrates twentieth-century furniture and design, the most expensive segment and the one interior decorators work. Biron lines up high-end antique furniture under a glass roof. Dauphine mixes registers over two floors. Malik is the vintage clothing and streetwear market, and the youngest crowd. Jules-Vallès, Malassis, Cambo and L'Usine complete the set. Wear shoes you can walk in and allow the day: covering all of it is not a two-hour errand.",
+      },
+      {
+        heading: "Rue des Rosiers and gypsy jazz",
+        body: "Rue des Rosiers is the spine of the Puces, the street that links most of the markets together. Along it: open-air stalls, the neighbourhood restaurants, and La Chope des Puces, a tiny bistro that became an institution of gypsy jazz. Guitars play there at weekends, in the direct line of Django Reinhardt, who lived and played in the northern suburbs. It is one of the very few places in the Paris region where you hear this music played at close quarters with no ticket and no booking. Get there early if you want a seat — the room is genuinely small.",
+      },
+      {
+        heading: "The château park and a piece of French constitutional history",
+        body: "The parc du Château, in the south of the town, is the green lung of the centre and contains the château de Saint-Ouen, built in the early nineteenth century. It was on this estate that Louis XVIII signed the Declaration of Saint-Ouen on 2 May 1814, the text in which the returning king undertook to grant a constitutional charter — the Bourbon Restoration effectively starts here, a few hundred metres from the flea market. The park is freely open, with lawns, mature trees and playgrounds. It is where you recover after a morning of haggling, and it is empty compared with the market.",
+      },
+      {
+        heading: "The Grand Parc des Docks and the river",
+        body: "The Docks de Saint-Ouen occupy former industrial land on the Seine, redeveloped as an eco-district of housing and offices around a large public park that steps down to the water. The design works with themed gardens, swales handling rainwater and an open meadow, making it one of the newest and largest parks in the inner northern suburbs. The riverbank continues on foot and by bike towards L'Île-Saint-Denis and Saint-Denis, following the water with barely a break, and it gives a clear reading of how this loop of the Seine has changed. It is also the quietest part of Saint-Ouen on a Sunday, when everyone else is three streets away at the market.",
+      },
+      {
+        heading: "The converted athletes' village",
+        body: "The 2024 athletes' village spreads across Saint-Ouen, Saint-Denis and L'Île-Saint-Denis, and its conversion into a residential quarter was designed in from the start. Walking through it is a fairly rare chance to see an Olympic legacy delivered and lived in rather than left to rot: low buildings in timber and low-carbon concrete, streets that go somewhere, access to the riverbank. The contrast with the neighbouring 1960s estates is visible without any explanation, and it sets two eras of city-making side by side in the same commune. Judge it with a critical eye as well as a curious one — that is the honest way to look at it.",
+      },
+      {
+        heading: "The old centre, and eating at the Puces",
+        body: "The historic centre, around the town hall and the church of Notre-Dame-du-Rosaire, is a few streets and takes an hour. It is the least touristed part of Saint-Ouen and by far the most ordinary: municipal market, neighbourhood cafés, shops with no staging. For anyone here only for the Puces the detour has a precise value — it shows that the town exists independently of the market, which a Saturday visit does not reveal. Food at the market is a genre of its own: dealers' bistros that open only on market days, tables set out in the lanes, unfussy bistro cooking, and a handful of more ambitious places that arrived with the gentrification. The rhythm is unusual and worth planning for — everything shuts when the stalls do, and turning up at 3pm on a Sunday leaves you very little choice. Eat before 1.30pm. In the town proper the offer is more conventional and open all week, particularly around the centre and the Docks.",
+      },
+      {
+        heading: "Getting there, and what to combine it with",
+        body: "Three métro lines serve the commune: line 4 at Porte de Clignancourt, at the southern entrance to the Puces, line 13 at Garibaldi and Mairie de Saint-Ouen, and line 14 since its northern extension, which puts Saint-Ouen a few minutes from Saint-Lazare and Châtelet. RER C also stops here. Two practical points: come by public transport, because parking around the market on trading days is genuinely difficult, and keep an eye on your belongings in the crowded lanes, as in any busy market anywhere. Bulky purchases get shipped — most dealers organise it, and it is worth asking about the cost before you commit. Saint-Ouen combines easily with its neighbours: the basilica of Saint-Denis, the royal necropolis and the first Gothic building in the world, is a few minutes away by métro or tram, and the Stade de France is in the same radius. Puces on Saturday morning, basilica in the afternoon works without a car and without significant travel time.",
+      },
+    ],
+    relatedCities: ["saint-ouen-sur-seine", "saint-denis", "paris", "aubervilliers", "pantin", "asnieres-sur-seine"],
+    tags: ["things to do in saint-ouen", "saint-ouen", "travel", "city guide", "ile-de-france"],
+  },
+  {
+    slug: "things-to-do-in-vitry-sur-seine-2026",
+    title: "Things to do in Vitry-sur-Seine, France's street-art capital",
+    metaTitle: "Things to Do in Vitry-sur-Seine (2026) — Street Art",
+    metaDesc:
+      "The MAC VAL contemporary art museum, hundreds of street works including C215's stencils, the Exploradôme, the Parc des Lilas and the Seine banks.",
+    category: "city-guide",
+    emoji: "🎨",
+    readMinutes: 7,
+    publishedAt: "2026-08-08",
+    updatedAt: "2026-08-08",
+    intro:
+      "Vitry-sur-Seine is a commune of about 88,000 people in the Val-de-Marne, on the left bank of the Seine south of Paris. It became a contemporary art destination without a landmark museum building or a historic quarter to trade on: on one side the MAC VAL, the departmental contemporary art museum opened in the mid-2000s, on the other several hundred works painted directly onto the walls, garage doors and electrical cabinets of the town. Vitry is visited on foot, looking up, and it costs nothing. The rest — the riverbank, the Parc des Lilas, the Exploradôme — fills out a day that resembles nothing else in the inner suburbs.",
+    sections: [
+      {
+        heading: "The MAC VAL",
+        body: "The MAC VAL is the contemporary art museum of the Val-de-Marne, and the first contemporary art museum built by a French department. Its collection centres on the French scene since the 1950s, which is unusual: most comparable institutions prioritise international names. The building is low and largely glazed, set in an open garden, and the collection displays are rehung regularly rather than fixed. There are monographic temporary shows, a performance programme, a bookshop and a café. It closes at the start of the week, so check the calendar before travelling out. For a foreign visitor it is the most efficient introduction to sixty years of French art anywhere in the Paris region, and it is not crowded.",
+      },
+      {
+        heading: "Street art in the streets",
+        body: "Vitry is regarded as the street-art capital of France, and that is not a town-hall slogan: the density of work visible from the pavement has no equivalent in the country. The impetus came largely from C215, real name Christian Guémy, who lives in the town and has stencilled hundreds of portraits onto supports nobody normally looks at — electrical cabinets, letterboxes, bollards, doors. Dozens of other French and foreign artists have come to paint entire gable walls. Nothing is ticketed, nothing is protected, and work appears and disappears: the town you see will not be exactly the town in this guide, and that is part of the deal.",
+      },
+      {
+        heading: "Walking the route",
+        body: "The method that works is to start at the MAC VAL and fan out towards the town centre and the Port-à-l'Anglais and Gare districts. Allow two to three hours' walking for an honest crossing, more if you stop. Waymarked routes and guided walks are run by the town and by local associations, often led by residents who know the history of each wall — that is the version that adds the most, because many pieces are commissions or replies to other pieces and the context is not guessable. Go in daylight, obviously, and go on foot: from a car you see nothing.",
+      },
+      {
+        heading: "The Galerie municipale Jean-Collet",
+        body: "The Galerie municipale Jean-Collet is a municipal contemporary art centre, free to enter, showing emerging and mid-career artists. It is the logical counterpart to the MAC VAL: where the museum shows an assembled collection, the gallery takes risks on work in progress, with residencies and pieces produced on site. The scale is modest and the visit short, which makes it easy to slot in between two districts. The programme runs in seasons, and it closes between hangs.",
+      },
+      {
+        heading: "The Exploradôme",
+        body: "The Exploradôme is a fully hands-on science museum, based in Vitry since the early 2010s after starting out in Paris. The principle is the opposite of a conventional museum: you touch, handle and try things, across physics, optics, mathematics and sustainability, with staffed workshops. It is designed for children from primary-school age up and works with teenagers too. Book ahead for Wednesdays and school holidays — school groups take up much of the week. For a family stopping in Vitry it is the obvious pairing with an afternoon of walking.",
+      },
+      {
+        heading: "The Parc départemental des Lilas",
+        body: "The Parc des Lilas is one of the largest departmental parks in the Val-de-Marne, and the only one that has kept genuine farming inside it. This is an old market-gardening plateau — Vitry fed Paris vegetables and flowers for a long time, hence the name — part of which is still cultivated, in allotments and professional plots, while the rest is laid out as meadows, orchards and paths. Nothing about it is manicured: it is open, windy, with long views across the valley. Free access, and the right place for a picnic or a bike ride.",
+      },
+      {
+        heading: "Saint-Germain church and old Vitry",
+        body: "The church of Saint-Germain, listed as a historic monument, is the oldest building in the commune, with medieval fabric and Renaissance alterations. It is the reminder that Vitry was a wine-growing and market-gardening village long before industry, which the present town gives no hint of. The old core around it is a few streets by the town hall and the central market: short, but the only place where the commune reads like a country town rather than a suburb.",
+      },
+      {
+        heading: "The riverbank, the markets and getting there",
+        body: "Vitry has several kilometres of Seine frontage, industrial for a long time and progressively handed back to walkers. The Port-à-l'Anglais district, around its lock and bridge, keeps the feel of a working riverside — small houses, barges, workshops — and it is one of the richest sectors for murals. The made-up quays link into the cycle routes running up towards Ivry and Paris in one direction and down to Choisy-le-Roi and Villeneuve-Saint-Georges in the other; by bike it is the best way to string the left-bank communes together. The town has an art-house municipal cinema, an active municipal theatre and several community venues programming concerts at prices well below Paris, and the markets — the central one and the neighbourhood ones — are among the liveliest in the southern inner suburbs, reflecting who lives here: North African, Asian, Portuguese, Caribbean and African produce. You eat properly for a third of central Paris prices, in neighbourhood canteens with no shopfront styling. Getting here: RER C serves Vitry-sur-Seine station in the east of the commune, about fifteen minutes from Bibliothèque François-Mitterrand. Tram T9, opened in the early 2020s between porte de Choisy and Orly, crosses the town north to south and stops at the MAC VAL. Several bus routes fill in the gaps, and Grand Paris Express stations are due to improve things further. For a street-art visit the efficient combination is tram out, walk on the ground, RER back.",
+      },
+    ],
+    relatedCities: ["vitry-sur-seine", "ivry-sur-seine", "choisy-le-roi", "alfortville", "creteil", "paris"],
+    tags: ["things to do in vitry-sur-seine", "vitry-sur-seine", "travel", "city guide", "ile-de-france"],
+  },
+  {
+    slug: "things-to-do-in-montreuil-2026",
+    title: "Things to do in Montreuil: peach walls, Méliès and artists' studios",
+    metaTitle: "Things to Do in Montreuil, Paris (2026)",
+    metaDesc:
+      "The peach walls, the Méliès cinema, the Croix-de-Chavaux market, Parc des Beaumonts, the museum of living history and hundreds of artists' studios.",
+    category: "city-guide",
+    emoji: "🍑",
+    readMinutes: 7,
+    publishedAt: "2026-08-08",
+    updatedAt: "2026-08-08",
+    intro:
+      "Montreuil is a commune of about 108,000 people in Seine-Saint-Denis, attached to Paris on its eastern side between Vincennes and Bagnolet. Two things make it a visit rather than a suburb you pass through. The first is an agricultural site with no equivalent in Europe: the murs à pêches, the peach walls, a network of plastered walls built to ripen peach trees in the Paris climate and supply the capital. The second is a concentration of artists, studios and cultural venues matched only by Paris itself. Georges Méliès built his glass studio here at the end of the nineteenth century, and the town's cinema carries his name. People come for an afternoon and stay the day.",
+    sections: [
+      {
+        heading: "The peach walls",
+        body: "The murs à pêches are a horticultural system worked out in Montreuil from the seventeenth century onwards: walls rendered in plaster, oriented to catch heat during the day and give it back at night, against which peach trees were trained flat. The technique let Montreuil produce fruit that normally needed a warmer climate, and the crop supplied Parisian tables and then the export trade. The network once ran to hundreds of kilometres of walls; only a fraction survives, in the Saint-Antoine district, part of it protected. You visit with the associations that maintain and cultivate the site — this is campaigning urban agriculture, not a landscaped park, and the opening arrangements follow their calendar rather than a tourist one.",
+      },
+      {
+        heading: "Le Méliès",
+        body: "Le Méliès is one of the largest art-house cinemas in France and one of very few at that scale to be municipally run. It is named after Georges Méliès, who set up his glass studio in Montreuil at the end of the 1890s — one of the first film studios anywhere in the world — and shot the bulk of his work there. The programme is demanding, with original-language screenings, retrospectives, documentaries and talks, and tickets cost noticeably less than in central Paris. For an English-speaking visitor the version originale policy matters: films are subtitled rather than dubbed. It anchors the town centre, a minute from the town hall.",
+      },
+      {
+        heading: "The Croix-de-Chavaux market",
+        body: "The Croix-de-Chavaux market is one of the biggest in eastern Paris, on a square that is also the town's real centre of gravity. Fruit and vegetables, fishmongers, North African, African, Portuguese and Asian produce, fabric: prices sit well under Parisian markets and the crowd is the neighbourhood, not visitors. On market days the square spills into the surrounding streets. This is where you shop before a picnic up at the Beaumonts, and where a foreign visitor gets the clearest hour of what the town actually is.",
+      },
+      {
+        heading: "The Parc des Beaumonts",
+        body: "The Parc des Beaumonts occupies high ground on the eastern edge of town, on former quarries and then landfill reclaimed as open space. Two reasons to climb up: the view, which opens onto Paris and the Eiffel Tower in clear weather, and the birds — the ponds and rough ground make it one of the most closely watched birdwatching sites in the inner suburbs, with regular migration passage and an active community of observers. The park is deliberately under-tamed, with zones left to natural management. Free access.",
+      },
+      {
+        heading: "The Musée de l'Histoire vivante",
+        body: "The Musée de l'Histoire vivante, in the château of the Parc Montreau, was founded at the end of the 1930s and devotes its collections to social and labour history: the workers' movement, the Popular Front, the Paris Commune, the struggles of the twentieth century, with holdings of posters, photographs and objects that exist nowhere else in this form. It is a small museum, committed and open about it, which makes it more interesting than a neutral presentation would be. The Parc Montreau around it is one of the largest green spaces in the commune.",
+      },
+      {
+        heading: "The artists' studios",
+        body: "Montreuil has one of the highest densities of artists' studios in France, a direct consequence of rents that stayed low for a long time and large industrial floorplates going spare. The town runs annual open-studio days that let you walk into the working premises of hundreds of painters, sculptors, printmakers and craftspeople: it is the best time to come, and one of the rare events in the Paris region where you talk to makers directly with nobody in between. The rest of the year, several collectives and galleries open occasionally — check dates before building a trip around it.",
+      },
+      {
+        heading: "Theatres and venues",
+        body: "The Nouveau théâtre de Montreuil is a centre dramatique national, with the contemporary programme and production budget that label implies. The Théâtre Berthelot, municipal, plays closer to the neighbourhood. La Maison populaire combines a contemporary art centre, practical workshops and adult education in one building, a format inherited from the town's activist history. Les Instants Chavirés, finally, is a reference venue for improvised and experimental music, known well beyond France in that world. Very few towns this size line up four places as different from one another.",
+      },
+      {
+        heading: "The porte de Montreuil flea market, eating, and getting there",
+        body: "The porte de Montreuil flea market is the exact opposite of Saint-Ouen: no antique dealers and no shopfronts, but raw junk, second-hand clothes, spare parts and bric-a-brac spread on the ground, on Saturday, Sunday and Monday. It is a working-class place, dense and loud, where you rummage without a safety net. The site is caught up in a redevelopment scheme for the porte, which may change its footprint: check before going, and watch your belongings as in any very busy market. The food follows the town's population, and that is the point of it: Montreuil is home to one of the largest Malian communities in France, and West African cooking is represented densely and seriously, particularly around the rue de Paris and the bas Montreuil. Add North African, Portuguese, Sri Lankan and Chinese tables, and a generation of canteens, brasseries and wine shops that arrived with the artists and the Parisian families. Prices stay well below Paris for comparable quality, and many places do not take bookings, so arrive early. Getting here: métro line 9 serves Robespierre, Croix-de-Chavaux and Mairie de Montreuil, in the lower and central part of the commune. Since line 11 was extended to Rosny-Bois-Perrier the heights are served too, which has opened up the eastern districts and the peach-wall sector. Tram T1 runs to the north, and RER A and RER E are reachable from neighbouring towns. By bike, Montreuil is a quarter of an hour from place de la Nation. For a first visit: métro to Croix-de-Chavaux, walk up into haut Montreuil, come back on line 11.",
+      },
+    ],
+    relatedCities: ["montreuil", "bagnolet", "paris", "pantin", "saint-denis", "noisy-le-grand"],
+    tags: ["things to do in montreuil", "montreuil", "travel", "city guide", "ile-de-france"],
+  },
+  {
+    slug: "things-to-do-in-argenteuil-2026",
+    title: "Things to do in Argenteuil: Monet's river and the Holy Tunic",
+    metaTitle: "Things to Do in Argenteuil (2026) — Monet's Seine",
+    metaDesc:
+      "Monet's Seine basin, the basilica and the Holy Tunic, Héloïse's abbey, the Orgemont hill, rowing on the river and the famous Argenteuil asparagus.",
+    category: "city-guide",
+    emoji: "🖼️",
+    readMinutes: 7,
+    publishedAt: "2026-08-08",
+    updatedAt: "2026-08-08",
+    intro:
+      "Argenteuil is a commune of about 108,000 people in the Val-d'Oise, on the right bank of the Seine at the north-western exit from Paris. It is one of the key sites of Impressionism: Claude Monet lived here from 1871 to 1878 and painted a decisive part of his output — the bridge, the regattas, his floating studio, the poppies — while Manet, Renoir, Sisley and Caillebotte came to paint the same stretch of water. None of it is visitable as a museum: the paintings are elsewhere, and what remains are the viewpoints. So Argenteuil is walked by looking for the positions, between the riverbank, the basilica that holds the Holy Tunic, and the slopes that once carried vines. Set your expectations accordingly and it is a rewarding half-day.",
+    sections: [
+      {
+        heading: "The riverbank, in Monet's footsteps",
+        body: "The Argenteuil basin was a nineteenth-century leisure and boating spot for Parisians, connected to the capital by rail: that combination — water, sails, trains, leisure — is what drew the Impressionists. Monet settled here in 1871 and painted until 1878, often from a floating studio moored on the Seine; Manet in turn painted him at work aboard it. The made-up riverbank can now be walked and cycled, with marked viewpoints that put the canvases back against the real landscape. The bridge Monet painted has gone, but the framing of the river itself is recognisable, and that is the honest version of what this visit offers.",
+      },
+      {
+        heading: "The basilica and the Holy Tunic",
+        body: "The basilica of Saint-Denys, in the town centre, holds the Holy Tunic, a relic venerated since the Middle Ages and presented as the tunic worn by Christ. It is not on permanent display: its public showing, called an ostension, is an exceptional event separated by long intervals, and it draws tens of thousands of pilgrims when it happens. Outside an ostension the basilica is visited for itself, with the treasury and the history of the cult. It is the main religious monument in the town, and the reason Argenteuil was known long before Impressionism.",
+      },
+      {
+        heading: "The abbey and Héloïse",
+        body: "Argenteuil was the seat of a women's monastery attached to the abbey of Saint-Denis, where Héloïse was a nun and then prioress before being expelled with her community and founding the Paraclete. Her correspondence with Abelard is among the most widely read texts of the Western Middle Ages, and the Argenteuil episode is a hinge in it. Only fragments of the monastery survive, along with traces in the street pattern: this is a visit of locating and reading rather than of intact monuments. Combine it with the basilica, a few minutes away.",
+      },
+      {
+        heading: "The Orgemont hill and windmill",
+        body: "The butte d'Orgemont, in the south-east of the commune, is the high point of Argenteuil and carries an old windmill. You walk up from the lower districts, and the panorama covers the loop of the Seine, La Défense and, in clear weather, a good part of western Paris. It is the best place to understand the town's geography: the river below, the slope in the middle, the plateau behind. The ground under the slope is riddled with old gypsum quarries, worked for centuries to make Parisian plaster — hence the subsidence and the access restrictions on certain sectors, which are there for a reason and should be respected.",
+      },
+      {
+        heading: "The slopes, the vines and the asparagus",
+        body: "Before industry, Argenteuil lived off its slopes: vines first, covering much of the hillside and supplying the Parisian guinguettes, then market gardening. The town gave its name to a historic asparagus variety, the purple-tipped Argenteuil asparagus, long the French benchmark and still grown by producers committed to keeping it going. The slopes are walked on the paths linking the hill to the upper districts, between gardens, rough ground and open views. The central market is where the asparagus turns up, in season, in spring.",
+      },
+      {
+        heading: "Rowing and paddling on the Seine",
+        body: "The basin that hosted the regattas Monet painted never stopped being used: Argenteuil remains a water-sports site in the Paris region, with rowing, canoeing and dinghy sailing run by clubs based along the bank. Several offer taster sessions, and paddling this reach is the most literal way of recovering the viewpoint of the paintings, from the water rather than from the shore. Check session times and navigation conditions before coming: the Seine here is still a working river with commercial traffic.",
+      },
+      {
+        heading: "The riverside park and the industrial town",
+        body: "The Parc des Berges, along the river, is the main laid-out walking space in the town, with lawns, playgrounds and direct access to the towpath. It continues into cycle routes running towards Bezons and Colombes in one direction and towards the île Marante and Épinay in the other. Over a day, the riverbank-basilica-hill loop can be done entirely on foot and by bike without taking transport again, and that is the most efficient shape for a first visit. Argenteuil was also a factory town — aerospace, mechanical engineering, chemicals, with major plants installed in the loop during the twentieth century. That history has left halls, workers' housing and industrial land now converted or in the middle of changing, particularly around the station and the riverside sector. Walking these districts explains the present shape of the town better than any monument: a wine village that became an industrial suburb and then a working-class town, in a century and a half. The Heritage Days regularly open sites that are otherwise closed.",
+      },
+      {
+        heading: "Markets, and getting there",
+        body: "Argenteuil has several weekly markets, including the town-centre one, among the busiest in the Val-d'Oise. What you find there reflects who lives in the commune: North African, Turkish, sub-Saharan African, Portuguese and Caribbean produce, at prices well below Paris. The restaurants follow the same logic, with neighbourhood canteens that make no attempt at staging and a dense supply of oriental pastry shops. For a visitor who came for Impressionism this is the useful counterpoint: today's town does not look like the paintings, and there is no reason to hide it. Getting here: Transilien line J runs from Gare Saint-Lazare and puts Argenteuil about a quarter of an hour from central Paris, with two stations in the commune, Argenteuil and Val d'Argenteuil. It is one of the best-connected suburbs for its distance from the centre — which is already why Monet settled here in the railway age. By car, access is via the A15 and the Argenteuil bridge, but town-centre parking is tight. By bike, the riverbank links the commune to Colombes, Bezons and La Défense with no significant break.",
+      },
+    ],
+    relatedCities: ["argenteuil", "bezons", "colombes", "sartrouville", "cergy", "paris"],
+    tags: ["things to do in argenteuil", "argenteuil", "travel", "city guide", "ile-de-france"],
+  },
+  {
+    slug: "things-to-do-in-neuilly-sur-seine-2026",
+    title: "Things to do in Neuilly-sur-Seine: Seurat's island and the great axis",
+    metaTitle: "Things to Do in Neuilly-sur-Seine (2026)",
+    metaDesc:
+      "Seurat's Grande Jatte island, the historical axis from the Arc de Triomphe to La Défense, the Folie Saint-James, the Bois de Boulogne and the quays.",
+    category: "city-guide",
+    emoji: "🌳",
+    readMinutes: 7,
+    publishedAt: "2026-08-08",
+    updatedAt: "2026-08-08",
+    intro:
+      "Neuilly-sur-Seine is a commune of about 61,000 people in the Hauts-de-Seine, wedged between the Bois de Boulogne, the Seine and La Défense. Its reputation as a wealthy, quiet town hides two things a visitor can use: it is cut through the middle by the historical axis of Paris, the straight line running from the Louvre to the Grande Arche, and it holds the Île de la Grande Jatte, the island of Seurat's painting, which was also a subject for Monet, Sisley and Van Gogh. Neuilly is not visited for monuments — Louis-Philippe's château burned down in 1848 — but for a dense, green, entirely free urban walk on the edge of Paris.",
+    sections: [
+      {
+        heading: "The Île de la Grande Jatte",
+        body: "The Île de la Grande Jatte stretches along the Seine between Neuilly, Levallois and Courbevoie. It is the subject of A Sunday Afternoon on the Island of La Grande Jatte, Georges Seurat's great pointillist canvas, now in Chicago, and of a series of works by Monet, Sisley and Van Gogh who came to paint the riverside guinguettes. The island is crossed lengthwise on a planted promenade, with panels putting the paintings back in front of their viewpoints. Today it mixes apartment blocks, offices and public riverbank: the gap between that and Seurat's scene is part of the interest rather than a disappointment.",
+      },
+      {
+        heading: "The historical axis and the pont de Neuilly",
+        body: "Avenue Charles-de-Gaulle crosses Neuilly end to end on the exact prolongation of the Champs-Élysées, between the Arc de Triomphe and the pont de Neuilly, then La Défense and the Grande Arche. It is one of the few places where you can stand on this several-kilometre perspective and see it both ways: the Arc de Triomphe behind, the Arche in front. The best vantage point is the bridge itself, or the quays below it. It takes ten minutes, it is free, and it explains the geography of western Paris better than a map does.",
+      },
+      {
+        heading: "The Folie Saint-James",
+        body: "The Folie Saint-James is a late eighteenth-century garden, created for the financier Claude Baudard de Saint-James to designs by the architect François-Joseph Bélanger, who also built Bagatelle. Its centrepiece is the Grand Rocher, a monumental folly of stone blocks sheltering a columned temple — the archetype of the ancien régime folly, built to astonish. The park is open to the public and remains largely unknown, including to Parisians. It is small, takes half an hour, and is the only real piece of eighteenth-century heritage you can walk into in the commune.",
+      },
+      {
+        heading: "The Bois de Boulogne from Les Sablons",
+        body: "Neuilly borders the Bois de Boulogne along its whole western edge, and Les Sablons station on métro line 1 is the most convenient way into that part of the wood. A few minutes' walk away: the Jardin d'acclimatation, an amusement park and historic garden opened under the Second Empire; the Fondation Louis Vuitton, Frank Gehry's contemporary art building; and, further on, the parc de Bagatelle and its rose garden. These are administratively part of Paris, not of Neuilly — but you reach them from Neuilly, and that is the practical reason to get off at this station.",
+      },
+      {
+        heading: "The vanished château",
+        body: "Neuilly was a royal residence: Louis-Philippe owned a château here which he enlarged considerably and stayed in willingly. It was looted and burned during the February revolution of 1848, and almost nothing of it survives — the estate was parcelled out for building in the second half of the nineteenth century, which explains the layout of certain streets and the architectural fragments built into private properties. It is a visit in negative: you look for traces of a château that is not there, and the district reads differently once you know what stood on it.",
+      },
+      {
+        heading: "The quays",
+        body: "Between the Grande Jatte and the pont de Neuilly the riverbank offers a continuous walk at water level, looking across at the La Défense towers rising directly opposite. It is one of the pleasantest stretches of the Seine downstream of Paris, because the bank is planted and the road traffic runs above it. By bike the route connects upstream to the Bois de Boulogne and Paris, downstream to Courbevoie and Puteaux. Allow an hour on foot for the island-quays-bridge loop, which is the core of a visit here.",
+      },
+      {
+        heading: "Residential architecture and the town centre",
+        body: "The part of Neuilly between the boulevard d'Inkermann and the Bois is a catalogue of the last century and a half of residential architecture: Second Empire townhouses, Art Nouveau and then Art Deco villas and apartment buildings, modern work from the 1930s to the 1960s. Many streets are quiet to the point of silence, and the walk is done without a fixed objective, looking at façades, railings and gardens. It is the kind of visit that appears on no list and fills a late afternoon rather well. The church of Saint-Pierre, on avenue du Roule, is the main religious building in the commune, in nineteenth-century neoclassical taste; around it the town centre runs to a few shopping streets — avenue du Roule and rue de Chartres — with food shops, a covered market and terraces. Price levels are those of western Paris, no surprise, but the market is the liveliest thing in the commune on a weekend morning and the best place to assemble a picnic for the wood or the island.",
+      },
+      {
+        heading: "Culture, and getting there",
+        body: "The Théâtre des Sablons is the main auditorium in the commune, with a mainstream programme of theatre, music and shows for young audiences, in a recently refurbished building. The town also has a well-stocked media library and a programme of municipal exhibitions. Neuilly's cultural offer is not meant to rival Paris, which is one métro stop away, but it has a concrete advantage: seats can be found, including late, and prices are lower than at equivalent central venues. Getting here: métro line 1 crosses Neuilly with the stations Les Sablons, Pont de Neuilly and, on the boundary, Porte Maillot — a direct run from the Louvre, Châtelet and Bastille with no change, and La Défense one stop beyond the bridge. RER C and RER E are reachable nearby, and several bus routes link the commune to Levallois and Courbevoie. The most natural sequence for a day: Bois de Boulogne and Jardin d'acclimatation in the morning, the Grande Jatte in the afternoon, La Défense at the end of the day for the Grande Arche at sunset.",
+      },
+    ],
+    relatedCities: ["neuilly-sur-seine", "levallois-perret", "courbevoie", "puteaux", "paris", "boulogne-billancourt"],
+    tags: ["things to do in neuilly-sur-seine", "neuilly-sur-seine", "travel", "city guide", "ile-de-france"],
+  },
+  {
+    slug: "things-to-do-in-pantin-2026",
+    title: "Things to do in Pantin: the canal, the mills and the dance centre",
+    metaTitle: "Things to Do in Pantin (2026) — Canal and Mills",
+    metaDesc:
+      "The Ourcq canal towpath, the Grands Moulins, the National Dance Centre, the Magasins généraux, free art galleries and the Parc de la Bergère.",
+    category: "city-guide",
+    emoji: "🩰",
+    readMinutes: 7,
+    publishedAt: "2026-08-08",
+    updatedAt: "2026-08-08",
+    intro:
+      "Pantin is a commune of about 57,000 people in Seine-Saint-Denis, immediately north-east of Paris and cut through by the Canal de l'Ourcq. Over fifteen years it has gone through one of the fastest transformations in the inner suburbs: factories and warehouses along the water converted into corporate headquarters, international contemporary art galleries installed in former industrial halls, luxury houses moving their workshops in. The result is a town where what you visit is mostly recycled industrial architecture, strung along a canal you can reach on foot from the Bassin de la Villette. It is short, dense and almost entirely free.",
+    sections: [
+      {
+        heading: "The Canal de l'Ourcq on foot or by bike",
+        body: "The Canal de l'Ourcq enters Pantin from north-eastern Paris and crosses it end to end. The bank is laid out as a continuous, car-free promenade and cycle path, from the Bassin de la Villette out to Bobigny, Bondy and well beyond into the Seine-et-Marne. It is the structuring route of any visit to Pantin: the main buildings worth seeing are on it or fifty metres off it. Allow twenty minutes by bike from Stalingrad, a little under an hour on foot. In summer the Paris and Pantin banks fill up with open-air bars and programming.",
+      },
+      {
+        heading: "The Grands Moulins de Pantin",
+        body: "The Grands Moulins are the most spectacular building in the town: a 1920s industrial flour mill standing on the canal, silos and halls included, which supplied Paris with flour. The site has been converted into offices while keeping its silhouette, its volumes and part of its structure, which makes it one of the most legible examples of industrial reuse in the Paris region. You do not go inside, but the view from the opposite bank is more than enough: it is the landmark of Pantin and the best photograph on the walk.",
+      },
+      {
+        heading: "The Centre national de la danse",
+        body: "The CND occupies Pantin's former administrative centre, a raw concrete building designed in the 1970s by the architect Jacques Kalisz — one of the few French brutalist buildings of this scale to have been saved rather than demolished. Its conversion into the national dance centre in the early 2000s kept the structure and opened up the volumes. It is now the reference institution for dance in France: studios, artists' residencies, a specialist media library, performances and classes open to amateurs. The hall and the library can be walked into freely, and the architecture alone justifies the detour.",
+      },
+      {
+        heading: "The Magasins généraux",
+        body: "The Magasins généraux are a 1930s concrete warehouse on the bank, covered in graffiti for years while the building stood empty, then refurbished to house a large advertising agency. The façade kept its mass and its rhythm, and the building has hosted exhibitions and events open to the public. With the Grands Moulins directly opposite it forms the pair that sums Pantin up: two twentieth-century industrial monuments, saved because the service sector came and moved in. Look at both from each bank — the view changes completely.",
+      },
+      {
+        heading: "The contemporary art galleries",
+        body: "Pantin became a contemporary art address when international galleries went looking for floor areas impossible to find inside Paris. Galerie Thaddaeus Ropac moved into a former boilerworks at the start of the 2010s and puts on shows at museum scale — monumental sculpture, installations, large retrospectives — with free entry, which is the point worth underlining: you see work here for nothing that you would pay to see elsewhere. Other spaces and artists' studios have grown up around it. Check dates: galleries close between hangs, and weekend opening varies from one to the next.",
+      },
+      {
+        heading: "The Parc départemental de la Bergère",
+        body: "The Parc de la Bergère runs along the canal at the eastern end of the commune, on the boundary with Bobigny. It is one of the large departmental parks of Seine-Saint-Denis: lawns, woodland, water, playgrounds and direct access to the cycle path. It was laid out on formerly industrial land and works as the breathing space at the end of the canal walk. Open all year, free. For a family outing it is the stop to place at the end of the route, when the children have had enough of concrete buildings.",
+      },
+      {
+        heading: "Street art along the Ourcq, and the largest cemetery in France",
+        body: "The canal banks, from La Villette through Pantin to Aubervilliers, form a waymarked street-art route, with monumental murals commissioned from French and foreign artists on the gable walls fronting the water. The appeal is that it takes no detour: the work is on the walking route, visible from the bank or from a bike. As everywhere, the selection shifts and some murals disappear as conversion works advance. It is the free, no-opening-hours complement to the galleries. A short walk away, the Cimetière parisien de Pantin is the largest cemetery in France. It belongs to the City of Paris but sits on Pantin's territory, like several Parisian facilities pushed outside the walls in the nineteenth century for public-health reasons. Its scale is hard to picture before you walk in: planted avenues, a grid plan, divisions numbered in the dozens, and complete quiet a few hundred metres from the ring road. There are notable graves and an ossuary. Free entry during opening hours; take a plan at the gate, because getting lost here is not a figure of speech.",
+      },
+      {
+        heading: "Cinema, gigs, and getting there",
+        body: "Pantin has a municipal art-house cinema, the Ciné 104, with a demanding programme and low prices, and the Théâtre du Fil de l'eau for stage work. La Dynamo is the venue and home of Banlieues Bleues, a jazz and improvised-music festival that spreads each spring across several towns in Seine-Saint-Denis and is one of the major dates of its kind in the Paris region. The hall programmes year-round outside the festival. For a visitor it means an evening out at a price with no relation to the equivalent Parisian rooms. Getting here: métro line 5 serves Église de Pantin, Hoche and Bobigny-Pantin Raymond Queneau, all within walking distance of the canal. RER E stops at Pantin station, a few minutes from Gare du Nord and Magenta. Tram T3b runs to the porte de Pantin on the Paris side, by the Philharmonie and La Villette. The nicest way in, though, is along the canal itself, on foot or by bike from Stalingrad or Jaurès: the journey is part of the visit, and it removes the parking question entirely.",
+      },
+    ],
+    relatedCities: ["pantin", "aubervilliers", "paris", "montreuil", "saint-denis", "bagnolet"],
+    tags: ["things to do in pantin", "pantin", "travel", "city guide", "ile-de-france"],
+  },
+  {
+    slug: "things-to-do-in-meaux-2026",
+    title: "Things to do in Meaux: the Great War museum, the cathedral and the brie",
+    metaTitle: "Things to Do in Meaux (2026) — WWI Museum and Brie",
+    metaDesc:
+      "Europe's largest First World War collection, the Gothic cathedral where Bossuet is buried, the bishop's garden, Brie de Meaux, mustard and the Pâtis park.",
+    category: "city-guide",
+    emoji: "🧀",
+    readMinutes: 7,
+    publishedAt: "2026-08-08",
+    updatedAt: "2026-08-08",
+    intro:
+      "Meaux is a sub-prefecture of the Seine-et-Marne of about 55,000 people, half an hour from Gare de l'Est, inside a loop of the river Marne. It brings together three reasons to visit that have nothing to do with each other and are all solid: one of the most complete episcopal quarters in France, with a Gothic cathedral where Bossuet is buried; the Musée de la Grande Guerre du Pays de Meaux, which holds the largest European collection on the 1914-1918 war, on ground where the first battle of the Marne was fought in September 1914; and a protected-origin brie that carries the town's name. It is the easiest day trip east out of Paris to organise, and the one foreign visitors most often miss.",
+    sections: [
+      {
+        heading: "The Museum of the Great War",
+        body: "The Musée de la Grande Guerre du Pays de Meaux opened on 11 November 2011, built around the collection assembled over decades by the historian Jean-Pierre Verney and then acquired by the local authority. It is the largest European holding devoted to the First World War: uniforms of the main armies, weapons, artillery, aircraft, a taxi of the Marne, everyday objects from the front and the home front. The layout is thematic rather than chronological and gives a lot of room to the lives of combatants and civilians. Allow at least two hours, more with teenagers. For an English-speaking visitor this is the most substantial First World War museum in France outside the battlefield sites of the north-east.",
+      },
+      {
+        heading: "The American monument",
+        body: "In front of the museum stands the American monument known as Liberty in Distress, given by the United States to commemorate the first battle of the Marne and the fighting of 1914. It is a monumental sculpture by Frederick MacMonnies, unveiled in the 1930s: a female figure of Liberty, exhausted and furious, in a posture at the opposite end of the usual heroic imagery of war memorials. It can be seen freely from the esplanade. In good weather the site looks out over the fields where the battle was fought, and the landscape is part of the visit.",
+      },
+      {
+        heading: "Saint-Étienne cathedral",
+        body: "Saint-Étienne cathedral was built and rebuilt from the twelfth to the sixteenth century, which explains its unusual look: one tower finished, the other left truncated, and a west front whose registers belong to different periods. Inside: the Gothic elevation, the stained glass, and the funerary slab of Bossuet, bishop of Meaux at the end of the seventeenth century and one of the great orators of the French language, nicknamed the Eagle of Meaux. It is the centrepiece of the episcopal quarter, and entry is free.",
+      },
+      {
+        heading: "The episcopal quarter and the Bossuet museum",
+        body: "The episcopal quarter of Meaux is one of the best preserved in France: it gathers the cathedral, the bishop's palace, the old chapter house and the ramparts inside a single enclosure. The palace houses the Musée Bossuet, devoted to fine art and to the town's history, with the state apartments and a collection of seventeenth- and eighteenth-century painting. The whole thing is walked in a morning, and the coherence is what strikes you: few towns keep the complete organisation of an ancien régime bishopric legible in one piece.",
+      },
+      {
+        heading: "The Bossuet garden and the ramparts",
+        body: "The Jardin Bossuet, terraced behind the bishop's palace, is a formal French garden laid out in the shape of a bishop's mitre — a plan that in fact reads better from the ramparts above it than from the central path. Clipped box, yews, geometric walks and a view of the cathedral's east end. It is free, open every day, and it is the place where the relationship between cathedral, palace and lower town becomes obvious at a glance. The walk along the ramparts extends the visit by a few hundred metres.",
+      },
+      {
+        heading: "Brie de Meaux",
+        body: "Brie de Meaux is a soft cheese with a bloomy rind, made from raw cow's milk and protected by a PDO. It is no longer made in the town itself but across its appellation area in the Brie, and the cheesemongers of Meaux remain the best place to taste it at different stages of ripening — the gap between a young brie and a properly aged one is considerable, and that is the whole argument for buying it here rather than in a supermarket. The town hosts an annual competition and market devoted to cheese and wine, a significant date in the trade. Note that raw-milk cheese does not travel home to every country: check your own import rules before loading a suitcase.",
+      },
+      {
+        heading: "Meaux mustard",
+        body: "Meaux mustard is an old-style wholegrain mustard, made with crushed seeds and traditionally sold in a stoneware pot closed with a cork sealed in red wax. Its recipe has been attached to the town since the ancien régime, and the stoneware pot has remained the reference packaging. It is the obvious edible souvenir to take home alongside the brie, and it is sold in the grocers and cheesemongers of the town centre. With the brie and a loaf from the bakery next door it makes a riverside picnic for under ten euros.",
+      },
+      {
+        heading: "The Marne, the Pâtis park, the summer pageant and getting there",
+        body: "Meaux is built inside a tight meander of the Marne, cut across by a diversion canal, which gives the town an almost continuous stretch of water. The Parc naturel du Pâtis takes up much of the loop: former gravel pits turned into a natural area, with lakes, reedbeds, meadows and paths, one of the largest sites of its kind in the Seine-et-Marne. It is a waterbird watching site, free and open, walked or cycled, and the made-up Marne banks connect it to the historic centre. Each summer the town stages a large open-air historical pageant in front of the bishop's palace, performed by hundreds of volunteers with cavalry, pyrotechnics and projections onto the façades, retracing the history of the town and the region from antiquity to the wars of the twentieth century. It is one of the biggest events of its kind in France, over a handful of evenings only: dates are announced in advance and tickets go quickly. Bring something warm, because it finishes late and the site is outdoors. Getting here: Transilien line P runs from Gare de l'Est in about thirty minutes on direct trains, which makes Meaux one of the fastest historic towns to reach from Paris. By car it is the A4 then the N330. Once there the whole historic centre is walkable; the Great War museum is set apart, reached by bus or ten minutes by car. Around the town, the Brie offers villages, cheese farms and the 1914 battlefields, and Disneyland Paris is half an hour's drive to the south.",
+      },
+    ],
+    relatedCities: ["meaux", "chelles", "melun", "provins", "noisy-le-grand", "paris"],
+    tags: ["things to do in meaux", "meaux", "travel", "city guide", "ile-de-france"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

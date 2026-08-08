@@ -325,6 +325,32 @@ côtoiera `things-to-do-in-saint-denis-2026` (93) et `things-to-do-in-saint-deni
 déjà présents — garder le suffixe `-sur-seine` pour Saint-Ouen, Vitry et Neuilly évite toute
 ambiguïté avec les homonymes français.
 
+**Batch 27 — EN, rattrapage de parité, shipped 2026-08-08.** Les 7 jumelles
+`things-to-do-in-[slug]-2026` du batch 26 écrites d'un coup dans `data/guides-en.ts`
+(Saint-Ouen-sur-Seine, Vitry-sur-Seine, Montreuil, Argenteuil, Neuilly-sur-Seine, Pantin,
+Meaux). **Compteurs mesurés : FR 194 (`-a-` strict 192 + les 2 slugs en `au-`), EN 194 —
+écart nul, parité rétablie** (`EN_GUIDES` 548 → 555). Le conseil de nommage du batch 26 a été
+suivi : les slugs gardent `-sur-seine` sur Saint-Ouen, Vitry et Neuilly, donc aucune collision
+avec `things-to-do-in-saint-denis-2026` (93) ni `things-to-do-in-saint-denis-reunion-2026`.
+Écrit en anglais natif depuis les faits des guides FR (aucun chiffre qui n'y soit),
+`metaTitle` 39-51 caractères, `metaDesc` 138-154, 8 sections par guide (la série FR en compte
+10, la version EN fusionne les fins de liste — marchés + accès — comme les batches EN
+précédents). Deux prudences reprises telles quelles du FR, à ne pas diluer : le marché aux
+puces de la porte de Montreuil est annoncé comme susceptible d'être déplacé par le
+réaménagement de la porte, et le Jardin d'acclimatation, la Fondation Louis Vuitton et
+Bagatelle sont **accessibles depuis** Neuilly sans y être situés. Trois ajouts propres à
+l'angle voyageur étranger, absents du FR parce qu'inutiles à un lecteur français : la version
+originale sous-titrée du Méliès, la règle d'import du lait cru pour le brie de Meaux, et le
+rappel que les Puces ferment le mardi placé dès le premier paragraphe de section.
+Aucun tag nouveau : les 7 réutilisent `ile-de-france`. `npm run search-index` relancé
+(`data/search-index.en.json` 555 guides) — sans ça `search-index:check` échoue.
+**Prochain run : batch FR** (l'écart est nul, la série FR reprend la main). Reprendre la liste
+de gisements du batch 26 (Cergy, Issy-les-Moulineaux, Aubervilliers, Mérignac, Pessac,
+Vénissieux) plutôt que la liste brute des communes les plus peuplées. Villes DROM encore non
+couvertes des deux côtés, par population : Mamoudzou, Saint-André, Les Abymes, Saint-Louis
+(974), Saint-Laurent-du-Maroni, Le Lamentin, Saint-Joseph, Saint-Benoît, Baie-Mahault,
+Le Robert, Le François.
+
 ### Glossaire (`app/glossaire/page.tsx`)
 
 Page unique, données inline (`SECTIONS: {title, emoji, terms[]}`), `DefinedTermSet` JSON-LD généré

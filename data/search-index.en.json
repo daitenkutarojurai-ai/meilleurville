@@ -2740,18 +2740,53 @@
       "slug": "things-to-do-in-le-tampon-2026",
       "title": "Things to do in Le Tampon: the volcano, the highlands and tropical cold",
       "emoji": "🌋"
+    },
+    {
+      "slug": "things-to-do-in-saint-ouen-sur-seine-2026",
+      "title": "Things to do in Saint-Ouen: the world's largest flea market",
+      "emoji": "🪑"
+    },
+    {
+      "slug": "things-to-do-in-vitry-sur-seine-2026",
+      "title": "Things to do in Vitry-sur-Seine, France's street-art capital",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "things-to-do-in-montreuil-2026",
+      "title": "Things to do in Montreuil: peach walls, Méliès and artists' studios",
+      "emoji": "🍑"
+    },
+    {
+      "slug": "things-to-do-in-argenteuil-2026",
+      "title": "Things to do in Argenteuil: Monet's river and the Holy Tunic",
+      "emoji": "🖼️"
+    },
+    {
+      "slug": "things-to-do-in-neuilly-sur-seine-2026",
+      "title": "Things to do in Neuilly-sur-Seine: Seurat's island and the great axis",
+      "emoji": "🌳"
+    },
+    {
+      "slug": "things-to-do-in-pantin-2026",
+      "title": "Things to do in Pantin: the canal, the mills and the dance centre",
+      "emoji": "🩰"
+    },
+    {
+      "slug": "things-to-do-in-meaux-2026",
+      "title": "Things to do in Meaux: the Great War museum, the cathedral and the brie",
+      "emoji": "🧀"
     }
   ],
   "tags": [
     {
       "slug": "travel",
       "label": "travel",
-      "count": 193
+      "count": 200
     },
     {
       "slug": "city-guide",
       "label": "city guide",
-      "count": 187
+      "count": 194
     },
     {
       "slug": "buying-property-france",
@@ -2786,6 +2821,11 @@
     {
       "slug": "grand-est",
       "label": "grand est",
+      "count": 18
+    },
+    {
+      "slug": "ile-de-france",
+      "label": "ile de france",
       "count": 18
     },
     {
@@ -2837,11 +2877,6 @@
       "slug": "loire-valley",
       "label": "loire valley",
       "count": 12
-    },
-    {
-      "slug": "ile-de-france",
-      "label": "ile de france",
-      "count": 11
     },
     {
       "slug": "normandy",
