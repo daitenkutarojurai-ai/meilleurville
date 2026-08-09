@@ -3,7 +3,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { CITIES_LIGHT } from "@/lib/cities-light";
 import { RANKING_META } from "@/lib/rankings";
 import { GUIDES } from "@/data/guides";
-import { EN_GUIDES } from "@/data/guides-en";
+import { EN_GUIDES, EN_GUIDE_CATEGORIES } from "@/data/guides-en";
 import { SEO_PAIRS } from "@/lib/comparer-pairs";
 import { SEO_TRIPLETS } from "@/lib/comparer-triplets";
 import { QUITTER_PAIRS, pairToSlug } from "@/lib/quitter-pairs";
@@ -881,8 +881,11 @@ function enStaticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/contact`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.4 },
     { url: `${BASE_URL}/faq`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.55 },
     { url: `${BASE_URL}/methodology`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.55 },
+    { url: `${BASE_URL}/reviews`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE_URL}/press`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.5 },
     { url: `${BASE_URL}/legal-notice`, lastModified: LEGAL_UPDATED, changeFrequency: "yearly", priority: 0.3 },
     { url: `${BASE_URL}/privacy-policy`, lastModified: LEGAL_UPDATED, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${BASE_URL}/terms`, lastModified: LEGAL_UPDATED, changeFrequency: "yearly", priority: 0.3 },
     { url: `${BASE_URL}/from-paris`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
     { url: `${BASE_URL}/gentrification`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.65 },
     { url: `${BASE_URL}/environment`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
@@ -1183,8 +1186,26 @@ function enCompareDepartmentsSection(): MetadataRoute.Sitemap {
   return entries;
 }
 
+function latestEnGuideUpdate(): Date {
+  const max = EN_GUIDES.reduce((acc, g) => {
+    const t = new Date(g.updatedAt).getTime();
+    return t > acc ? t : acc;
+  }, 0);
+  return max ? new Date(max) : STATIC_UPDATED;
+}
+
 function enGuidesSection(): MetadataRoute.Sitemap {
-  return EN_GUIDES.map((g) => {
+  // Dérivé de EN_GUIDE_CATEGORIES, la même source que le
+  // `generateStaticParams` de app/[locale]/guides/category/[category] : les six
+  // catégories EN ne sont pas les sept du FR (le corpus anglais est natif, pas
+  // traduit), donc une liste recopiée ici dériverait au premier ajout.
+  const categories: MetadataRoute.Sitemap = Object.keys(EN_GUIDE_CATEGORIES).map((id) => ({
+    url: `${BASE_URL}/guides/category/${id}`,
+    lastModified: latestEnGuideUpdate(),
+    changeFrequency: "weekly" as const,
+    priority: 0.75,
+  }));
+  return categories.concat(EN_GUIDES.map((g) => {
     const hero = guideCityPhoto(g.slug, g.relatedCities);
     return {
       url: `${BASE_URL}/guides/${g.slug}`,
@@ -1193,7 +1214,7 @@ function enGuidesSection(): MetadataRoute.Sitemap {
       priority: 0.7,
       ...(hero ? { images: [`${BASE_URL}${hero.photo.hero.src}`] } : {}),
     };
-  });
+  }));
 }
 
 // MUST mirror EN_PROFILES[].enSlug in app/[locale]/for-who/[slug]/page.tsx.

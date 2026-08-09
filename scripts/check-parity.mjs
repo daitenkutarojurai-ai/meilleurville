@@ -131,11 +131,18 @@ for (const r of frRoutes) {
   if (!enRoutes.has(en) && !coveredByDynamic(en)) missing.push({ fr: r, expectedEn: en });
 }
 
+// Plusieurs entrées de FR_TO_EN_ROUTE visent une route EN de deux segments
+// (`calculateur-cout-reel` → `calculator/real-cost`). Comparer la valeur
+// entière à une tête EN ne tombe alors jamais en face : `calculator` et
+// `simulator` étaient rapportés « sans origine FR » alors que les deux ont
+// bien une origine. On compare donc sur la tête de la valeur mappée.
+const enHeadOf = (fr) => FR_TO_EN_ROUTE[fr]?.split("/")[0];
+
 const frHeads = new Set(frRoutes.map((r) => r.split("/").filter(Boolean)[0]).filter(Boolean));
 const enOnly = [...enRoutes]
   .map((r) => r.split("/").filter(Boolean)[0])
   .filter((h) => h && !(h in EXCEPTIONS))
-  .filter((h) => ![...frHeads].some((f) => FR_TO_EN_ROUTE[f] === h))
+  .filter((h) => ![...frHeads].some((f) => enHeadOf(f) === h))
   .filter((v, i, a) => a.indexOf(v) === i);
 
 async function sitemapCounts() {
@@ -158,7 +165,9 @@ async function sitemapCounts() {
   ]);
   return Object.entries(fr)
     .filter(([h]) => !(h in EXCEPTIONS))
-    .map(([h, n]) => ({ section: h, fr: n, en: en[FR_TO_EN_ROUTE[h] ?? h] ?? 0 }))
+    // Même raison qu'au-dessus : les compteurs de sitemap sont indexés par tête
+    // d'URL, donc il faut la tête de la valeur mappée, pas la valeur entière.
+    .map(([h, n]) => ({ section: h, fr: n, en: en[enHeadOf(h) ?? h] ?? 0 }))
     .map((r) => ({ ...r, gap: r.en - r.fr }))
     .filter((r) => r.gap !== 0)
     .sort((a, b) => a.gap - b.gap);

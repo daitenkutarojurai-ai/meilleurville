@@ -53,6 +53,7 @@ const LINKS_FR = {
 const LINKS_EN = {
   Explore: [
     { label: "All cities", href: "/cities" },
+    { label: "City ratings & reviews", href: "/reviews" },
     { label: "By region", href: "/regions" },
     { label: "By department", href: "/departments" },
     { label: "Interactive map", href: "/map" },
@@ -88,8 +89,10 @@ const LINKS_EN = {
     { label: "Glossary", href: "/glossary" },
     { label: "Contact", href: "/contact" },
     { label: "Site index", href: "/site-index" },
+    { label: "Press room", href: "/press" },
     { label: "Legal notice", href: "/legal-notice" },
     { label: "Privacy policy", href: "/privacy-policy" },
+    { label: "Terms of use", href: "/terms" },
     { label: "Affiliate disclosure", href: "/legal-notice#affiliate-disclosure" },
   ],
 };

@@ -820,20 +820,29 @@ Tables dans `lib/i18n.ts` : `FR_TO_EN_ROUTE`, `FR_TO_EN_CITY_SUB`, `PARITY_EXCEP
 (asymétries assumées, avec la raison — la liste doit rester courte, sinon « parité » ne veut
 plus rien dire).
 
-### État au 2026-08-07 — 5 routes, ~11 URL
+### État au 2026-08-09 — **0 route FR sans jumelle EN**
 
-| Route FR | Jumelle EN attendue | URL |
+```
+Routes : FR 215 · EN 164
+0 route(s) FR sans jumelle EN :
+```
+
+`npm run parity` sort en **code 0** pour la première fois depuis l'ouverture du chantier.
+
+| Route FR | Jumelle EN | URL |
 |---|---|---|
 | ~~`/comparer-departements` + `/[pair]`~~ | ✅ `/compare-departments` livré 04/08 | 391 |
 | ~~`/comparer/[pair]/synthese`~~ | ✅ `/compare/[pair]/synthesis` livré 05/08 | 771 |
 | ~~`/departements/[dept]/fiscalite` + `/synthese`~~ | ✅ `/departments/[dept]/tax` + `/synthesis` livrés 06/08 | 204 |
 | ~~`/comparer-regions/[pair]/synthese`~~ | ✅ `/compare-regions/[pair]/synthesis` livré 07/08 | 78 |
-| `/guides/categorie/[categorie]` | `/guides/category/[category]` | 7 |
-| `/avis`, `/quitter`, `/presse`, `/cgu` | `/reviews`, `/leaving`, `/press`, `/terms` | 4 |
+| ~~`/guides/categorie/[categorie]`~~ | ✅ `/guides/category/[category]` livré 09/08 | 6 |
+| ~~`/avis`, `/presse`, `/cgu`~~ | ✅ `/reviews`, `/press`, `/terms` livrés 09/08 | 3 |
+| ~~`/quitter`~~ | ✅ `/moving-from` — **existait déjà**, la table était fausse | 0 |
 
-**Le gros du volume est fait.** Les 4 routes livrées portent 1 444 URL ; les 5 qui restent en
-portent 11. À partir d'ici, l'écart de parité qui compte n'est plus dans les routes mais dans
-le **corpus** (guides 903 / 532, tags 239 / 74), et il ne se comble pas par du SSG dérivé.
+**La parité de routes est atteinte. Le chantier n'est pas fini pour autant** : l'écart qui
+reste est dans le **corpus** (guides 933 FR / 555 EN, tags 239 / 74), et il ne se comble pas
+par du SSG dérivé. Le tableau de bord qui compte à partir d'ici est
+`npm run parity --sitemaps`, pas le compte de routes.
 
 **Écart de contenu, distinct de l'écart de routes** : guides 903 FR / 532 EN, tags 239 / 74.
 Ce n'est pas une route à créer mais du corpus à écrire, et **jamais par traduction** — les
@@ -843,6 +852,85 @@ setup dans `CLAUDE.md`), pas une facilité.
 **Exceptions assumées** : `/badge` ×541 reste FR-only (la motion backlink vise mairies et
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
+
+### Livré le 09/08 — les 4 dernières routes, et une table qui mentait
+
+**Le run a d'abord trouvé que `/quitter` n'avait aucune route à écrire.** `FR_TO_EN_ROUTE`
+portait `quitter: "leaving"` et `"ou-vont-les-gens": "moving-from"` : les deux paires étaient
+**croisées**. Or `/quitter/[pair]` (comparatif origine → destination, moteur `QUITTER_PAIRS`)
+est la jumelle de `/moving-from/[pair]`, et `/ou-vont-les-gens/[ville]` (« où vont les gens
+qui partent d'ici », moteur `migrationFor`) celle de `/leaving/[city]` — les quatre pages
+existaient déjà, correctement.
+
+Le croisement était invisible parce qu'il **se compensait** : `/quitter/[pair]` → `/leaving/
+[pair]` tombait sur `/leaving/[city]` via la tolérance `coveredByDynamic`, et
+`/ou-vont-les-gens/[ville]` → `/moving-from/[ville]` sur `/moving-from/[pair]` de la même
+façon. Deux faux verts et un seul faux rouge (`/quitter` → `/leaving`, qui n'a pas de hub).
+Écrire la page réclamée par le rapport aurait produit un **doublon** de `/moving-from`.
+Leçon à garder : vérifier une correspondance par **la lib que les deux pages importent**, pas
+par la ressemblance des mots — `quitter` et `leaving` se traduisent l'un l'autre et ne
+désignent pas la même page. Corrigé côté table, zéro fichier de page créé.
+
+**Trois hubs et une famille de catégories, écrits.**
+
+- **`/reviews`** (jumelle de `/avis`) — note des 540 villes sur 8 axes + avis d'habitants.
+  Même `MIN_POP = 15 000` que le FR, donc les deux pages classent **les mêmes villes** ; les
+  scores viennent de `CITIES_LIGHT` sans recalcul. Labels de palier traduits au site
+  d'affichage (`TIER_EN`, même carte que `CityCard`), `lib/utils.ts` reste français.
+- **`/press`** (jumelle de `/presse`) — angles réécrits pour un desk anglophone plutôt que
+  traduits : la relocation vue de l'étranger, le recoupage des 19 classements, et le
+  contre-cliché sur la Provence et la Dordogne. Le mot « département » est glosé, un lecteur
+  anglophone n'a pas la maille administrative en tête. Compteur de guides = `EN_GUIDES.length`
+  (555) et non `GUIDES_COUNT` (933) : annoncer 933 guides sur un domaine qui en sert 555
+  serait faux, c'est la limite du « même chiffre des deux côtés » — les **classements** sont
+  les mêmes, les **inventaires** décrivent chaque domaine.
+- **`/terms`** (jumelle de `/cgu`) — mêmes six clauses, même fond (même service, même droit
+  français). Ce qui est ajouté est ce qu'un lecteur non français ne devine pas : que le droit
+  applicable reste français où qu'il lise le site, que les données sources gardent **leur**
+  licence (Licence Ouverte / ODbL / CC BY) indépendamment de nos CGU, et le renvoi aux
+  dispositions impératives du pays de résidence pour un consommateur de l'UE.
+- **`/guides/category/[category]`** ×6 (jumelle de `/guides/categorie/[categorie]` ×7). ⚠️ Les
+  catégories EN **ne sont pas les FR traduites** : `EN_GUIDE_CATEGORIES` en compte six
+  (`city-guide` 277, `lifestyle` 96, `moving` 87, `budget` 76, `remote-work` 10, `family` 9)
+  contre sept côté FR, parce que le corpus anglais est natif. La page dérive donc sa liste et
+  son `generateStaticParams` de `EN_GUIDE_CATEGORIES`, et le sitemap de la **même** source —
+  une liste recopiée dériverait au premier ajout. Intro écrite par catégorie (dériver une
+  phrase du label ne fait que répéter le label) et `h1` distinct du label, sinon `city-guide`
+  affiche « City guide guides ».
+
+**Le CSV presse est désormais bilingue et généré d'un seul jet.**
+`scripts/export-presse-csv.ts` émet les deux fichiers dans la même boucle sur le même seed :
+`public/presse/classement-mavilleideale-2026.csv` (inchangé, octet pour octet) et
+`public/press/ranking-bestcitiesinfrance-2026.csv` (en-têtes anglais, URL `/cities/`). C'est
+une garantie **structurelle** que les deux domaines publient les mêmes nombres : deux scripts
+séparés auraient divergé au premier recalcul sans que rien ne le signale.
+
+**Deux défauts trouvés au passage, hors périmètre initial mais corrigés.**
+
+1. **Le 404 du domaine anglais était en français.** `app/not-found.tsx` produit l'unique
+   `404.html` de l'export, et le Worker le sert sur **les deux** domaines (`serve404()`) —
+   donc chaque URL morte de bestcitiesinfrance.com répondait « Cette page n'existe pas », y
+   compris les 404 que le Worker génère lui-même quand un chemin EN n'a pas d'asset, qui sont
+   les plus probables sur ce domaine. Branché sur `DEFAULT_LOCALE`, inliné au build : sortie
+   FR inchangée, vérifiée en dev sur les deux locales.
+2. **Le rapport de parité criait au loup sur `calculator` et `simulator`.** Plusieurs entrées
+   de `FR_TO_EN_ROUTE` visent une route EN de deux segments (`calculateur-cout-reel` →
+   `calculator/real-cost`) ; comparer la valeur entière à une tête EN ne tombe jamais en face.
+   Les deux têtes étaient rapportées « sans origine FR » alors qu'elles en ont une. Le même
+   bug faussait le comptage `--sitemaps` de ces sections. Corrigé en comparant sur la tête de
+   la valeur mappée.
+
+**Découvrabilité** : les six catégories EN sont liées depuis les titres de section du hub
+`/guides` ; `/reviews` et `/press` + `/terms` entrent dans le `Footer` EN (le FR n'est pas
+touché). Sitemap : `/reviews`, `/press`, `/terms` dans `en-static`, les six catégories en tête
+de `en-guides` (miroir exact du FR).
+
+⚠️ **Reste ouvert, vu pendant le run et non traité** : le hub EN `/guides` rend les **555
+guides en cartes complètes** sur une seule page — exactement l'anti-pattern documenté dans
+CLAUDE.md § Performance constraints, celui qui avait coûté 2,5 Mo de HTML au `/guides` FR
+avant plafonnement. Le FR a été plafonné (`INITIAL_VISIBLE` + index `<details>`), l'EN non.
+Les pages de catégorie livrées aujourd'hui sont la moitié du remède (elles donnent où
+renvoyer) ; il manque le plafonnement du hub lui-même.
 
 ### Livré le 04/08 — `/compare-departments` (391 URL)
 
@@ -1001,6 +1089,20 @@ signal thématique du domaine. Noindex ou suppression — décision produit, pas
 
 **Routine** : `meilleurville-parite-en`, quotidienne 04:25 UTC, `npm run parity` comme
 tableau de bord, une route par run, sortie du contrôle collée dans chaque message de commit.
+
+---
+
+## Shipped 2026-08-09
+
+- **Parité EN ✅ — les 4 dernières routes, et la table de correspondance corrigée.**
+  `npm run parity` passe de 5 routes FR sans jumelle à **0**, et sort en code 0 pour la
+  première fois. Livré : `/reviews`, `/press`, `/terms`, `/guides/category/[category]` ×6,
+  plus le CSV presse anglais généré dans la même boucle que le français. `/quitter` n'a
+  demandé **aucune page** : sa jumelle `/moving-from` existait déjà et `FR_TO_EN_ROUTE`
+  croisait les paires `quitter`/`ou-vont-les-gens` avec `leaving`/`moving-from` — écrire la
+  page réclamée par le rapport aurait créé un doublon. Corrigés au passage : le 404 du domaine
+  anglais, qui était en français sur toutes les URL mortes, et deux fausses alertes du rapport
+  de parité (`calculator`, `simulator`). Détail complet dans § « Parité EN › Livré le 09/08 ».
 
 ---
 

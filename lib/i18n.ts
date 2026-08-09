@@ -148,7 +148,14 @@ export const FR_TO_EN_ROUTE: Record<string, string> = {
   "mes-villes": "my-cities",
   methode: "methodology",
   "orientation-politique": "political-leaning",
-  "ou-vont-les-gens": "moving-from",
+  // ⚠️ `ou-vont-les-gens` ↔ `leaving` et `quitter` ↔ `moving-from` : les deux
+  // paires étaient croisées, et le croisement se compensait au point que le
+  // contrôle de parité passait. `/ou-vont-les-gens/[ville]` (« où vont les gens
+  // qui partent d'ici », moteur `migrationFor`) est la jumelle de
+  // `/leaving/[city]` ; `/quitter/[pair]` (comparatif origine → destination,
+  // moteur `QUITTER_PAIRS`) est celle de `/moving-from/[pair]`. Vérifier par
+  // la lib importée, pas par la ressemblance des mots.
+  "ou-vont-les-gens": "leaving",
   outils: "tools",
   palmares: "overall-ranking",
   parcs: "parks",
@@ -156,7 +163,7 @@ export const FR_TO_EN_ROUTE: Record<string, string> = {
   "portraits-types": "community-profiles",
   "pour-qui": "for-who",
   presse: "press",
-  quitter: "leaving",
+  quitter: "moving-from",
   "quiz-compatibilite": "quiz/compatibility",
   recherche: "search",
   "red-flags": "red-flags",
@@ -177,6 +184,7 @@ export const FR_TO_EN_ROUTE: Record<string, string> = {
   "vivre-avec": "living-on",
   // Sous-segments : mêmes familles, vocabulaire traduit.
   activite: "activity",
+  categorie: "category",
   mois: "month",
   profil: "profile",
   personnaliser: "customise",

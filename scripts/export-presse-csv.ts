@@ -1,12 +1,27 @@
-// Régénère public/presse/classement-mavilleideale-2026.csv depuis le seed
-// calibré+normalisé. À relancer après toute retouche de scores :
+// Régénère les deux CSV presse depuis le seed calibré+normalisé.
+// À relancer après toute retouche de scores :
 //   npx tsx scripts/export-presse-csv.ts
+//
+//   public/presse/classement-mavilleideale-2026.csv  (FR, /presse)
+//   public/press/ranking-bestcitiesinfrance-2026.csv (EN, /press)
+//
+// Les deux sortent de la **même boucle** sur le même seed : c'est la garantie
+// structurelle que les deux domaines publient les mêmes nombres. Un jour où
+// l'un des deux serait régénéré seul, ils divergeraient sans que rien ne le
+// signale — d'où l'écriture conjointe plutôt que deux scripts.
+// Seuls l'en-tête et l'URL de la fiche changent d'une locale à l'autre.
 import { writeFileSync, mkdirSync } from "node:fs";
 import { CITIES_SEED } from "../data/cities-seed";
 
-const rows = [...CITIES_SEED]
-  .sort((a, b) => b.scores.global - a.scores.global)
-  .map((c, i) =>
+const FR_HEADER =
+  "rang,ville,departement,region,population,score_global,vie,securite,cout,transport,nature,culture,ecoles,teletravail,fiche";
+const EN_HEADER =
+  "rank,city,department,region,population,overall_score,quality_of_life,safety,cost_of_living,transport,nature,culture,schools,remote_work,page";
+
+const ranked = [...CITIES_SEED].sort((a, b) => b.scores.global - a.scores.global);
+
+function rows(pageUrl: (slug: string) => string): string[] {
+  return ranked.map((c, i) =>
     [
       i + 1,
       `"${c.name}"`,
@@ -22,16 +37,29 @@ const rows = [...CITIES_SEED]
       c.scores.culture.toFixed(1),
       c.scores.schools.toFixed(1),
       c.scores.remoteWork.toFixed(1),
-      `"https://www.mavilleideale.fr/villes/${c.slug}"`,
-    ].join(",")
+      `"${pageUrl(c.slug)}"`,
+    ].join(","),
   );
+}
 
-const header =
-  "rang,ville,departement,region,population,score_global,vie,securite,cout,transport,nature,culture,ecoles,teletravail,fiche";
+// Le BOM est là pour Excel, qui lit sinon l'UTF-8 en latin-1 et affiche
+// « Ile-de-France » en mojibake : les noms de communes et de départements sont
+// accentués dans les deux fichiers, l'anglais n'y change rien.
+function write(path: string, header: string, lines: string[]) {
+  writeFileSync(path, "﻿" + header + "\n" + lines.join("\n") + "\n");
+  console.log(`CSV écrit : ${path} — ${lines.length} villes`);
+}
 
 mkdirSync("public/presse", { recursive: true });
-writeFileSync(
+write(
   "public/presse/classement-mavilleideale-2026.csv",
-  "﻿" + header + "\n" + rows.join("\n") + "\n"
+  FR_HEADER,
+  rows((slug) => `https://www.mavilleideale.fr/villes/${slug}`),
 );
-console.log(`CSV écrit : ${rows.length} villes`);
+
+mkdirSync("public/press", { recursive: true });
+write(
+  "public/press/ranking-bestcitiesinfrance-2026.csv",
+  EN_HEADER,
+  rows((slug) => `https://bestcitiesinfrance.com/cities/${slug}`),
+);

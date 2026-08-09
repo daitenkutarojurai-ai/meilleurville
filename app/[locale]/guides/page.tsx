@@ -45,9 +45,11 @@ export default function EnGuidesIndex() {
           if (!guides?.length) return null;
           return (
             <section key={cat}>
-              <h2 className="text-xl font-semibold text-[var(--text-primary)] mb-4 border-b border-[var(--border)] pb-2">
-                {EN_GUIDE_CATEGORIES[cat]}
-                <span className="ml-2 text-sm font-normal text-[var(--text-tertiary)]">({guides.length})</span>
+              <h2 className="text-xl font-semibold text-[var(--text-primary)] mb-4 border-b border-[var(--border)] pb-2 flex flex-wrap items-baseline gap-2">
+                <Link href={`/guides/category/${cat}`} className="hover:text-[var(--accent)] transition-colors">
+                  {EN_GUIDE_CATEGORIES[cat]}
+                </Link>
+                <span className="text-sm font-normal text-[var(--text-tertiary)]">({guides.length})</span>
               </h2>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {guides.map((g) => (
