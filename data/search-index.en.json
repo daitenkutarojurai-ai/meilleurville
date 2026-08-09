@@ -2775,6 +2775,56 @@
       "slug": "things-to-do-in-meaux-2026",
       "title": "Things to do in Meaux: the Great War museum, the cathedral and the brie",
       "emoji": "🧀"
+    },
+    {
+      "slug": "single-parent-in-paris-2026",
+      "title": "Single Parent in Paris (2026): What It Actually Takes",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-lyon-2026",
+      "title": "Single Parent in Lyon (2026): The Metro That Makes This Doable",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-marseille-2026",
+      "title": "Single Parent in Marseille (2026): Neighbourhood-by-Neighbourhood Maths",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-toulouse-2026",
+      "title": "Single Parent in Toulouse (2026): The Car Question Decides Everything",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-nice-2026",
+      "title": "Single Parent in Nice (2026): Sun, Sea, and the €2,500 Floor",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-nantes-2026",
+      "title": "Single Parent in Nantes (2026): Lyon-Level Fit at Half the Rain",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-montpellier-2026",
+      "title": "Single Parent in Montpellier (2026): The Mediterranean Bet That Works",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-strasbourg-2026",
+      "title": "Single Parent in Strasbourg (2026): Bike, Tram, School — All Solved",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-bordeaux-2026",
+      "title": "Single Parent in Bordeaux (2026): Post-TGV Prices, Real Trade-offs",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-lille-2026",
+      "title": "Single Parent in Lille (2026): The Cheapest Top-10 T3 With a Metro",
+      "emoji": "🧑‍🍼"
     }
   ],
   "tags": [
@@ -2789,13 +2839,13 @@
       "count": 194
     },
     {
-      "slug": "buying-property-france",
-      "label": "buying property france",
-      "count": 51
-    },
-    {
       "slug": "moving-to-france",
       "label": "moving to france",
+      "count": 61
+    },
+    {
+      "slug": "buying-property-france",
+      "label": "buying property france",
       "count": 51
     },
     {
@@ -2806,32 +2856,37 @@
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 30
+      "count": 32
     },
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 23
+      "count": 24
     },
     {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 19
+      "count": 20
     },
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 18
+      "count": 19
     },
     {
       "slug": "ile-de-france",
       "label": "ile de france",
-      "count": 18
+      "count": 19
     },
     {
       "slug": "provence",
       "label": "provence",
       "count": 17
+    },
+    {
+      "slug": "auvergne-rhone-alpes",
+      "label": "auvergne-rhone-alpes",
+      "count": 15
     },
     {
       "slug": "brittany",
@@ -2864,11 +2919,6 @@
       "count": 15
     },
     {
-      "slug": "auvergne-rhone-alpes",
-      "label": "auvergne-rhone-alpes",
-      "count": 14
-    },
-    {
       "slug": "cost-of-living",
       "label": "cost of living",
       "count": 13
@@ -2879,19 +2929,29 @@
       "count": 12
     },
     {
-      "slug": "normandy",
-      "label": "normandy",
-      "count": 11
-    },
-    {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
+      "count": 12
+    },
+    {
+      "slug": "normandy",
+      "label": "normandy",
       "count": 11
     },
     {
       "slug": "provence-alpes-cote-d-azur",
       "label": "provence-alpes-cote-d-azur",
       "count": 11
+    },
+    {
+      "slug": "expat-single-parent",
+      "label": "expat single parent",
+      "count": 10
+    },
+    {
+      "slug": "single-parent-in-france",
+      "label": "single parent in france",
+      "count": 10
     },
     {
       "slug": "bretagne",

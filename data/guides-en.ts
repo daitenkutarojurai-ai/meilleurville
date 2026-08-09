@@ -21667,6 +21667,407 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["meaux", "chelles", "melun", "provins", "noisy-le-grand", "paris"],
     tags: ["things to do in meaux", "meaux", "travel", "city guide", "ile-de-france"],
   },
+  {
+    slug: "single-parent-in-paris-2026",
+    title: "Single Parent in Paris (2026): What It Actually Takes",
+    metaTitle: "Single Parent in Paris 2026: Rent, Schools, Real Budgets",
+    metaDesc: "Raising a child alone in Paris in 2026: T3 rent at €2,800, dense state schools, sliding-scale canteens, and which arrondissements actually work.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 9,
+    publishedAt: "2026-08-09",
+    updatedAt: "2026-08-09",
+    intro: "Paris is the densest French city for public schools, after-school care, GPs and child activities — and the most expensive. If you are moving to Paris solo with a child, the question is not \"Paris or somewhere else\" — it is \"which arrondissement, what type of lease, and what do you give up\". The numbers set the frame. A T3 (a 3-room flat, i.e. two bedrooms plus a living room) averages €2,800/month in rent (source: data/housing.ts), against a cost-of-living score of 3.0/10 — the worst in France. Transport scores 9.5/10 and schools 8.5/10 (source: data/cities-seed.ts), which is the reason people still make it work. This guide is for arbitrage, not reassurance.",
+    sections: [
+      {
+        heading: "The core tension: one income, one parent, the priciest city",
+        body: "The tipping point in Paris is straightforward. The average T3 rent (€2,800, per data/housing.ts) exceeds the median French net wage for Île-de-France. To make it work as a single parent, you need one of three levers: (a) a social or intermediate lease (waiting lists are long, but a well-built file with a child often lands in 12–30 months); (b) a flat in the inner suburbs (Montreuil, Vitry-sur-Seine, Boulogne-Billancourt, Saint-Denis) served by metro or RER, at 30–50% less rent; (c) child-support that covers at least a third of the rent. The offset — and it is significant — is that Paris is the one French city where not owning a car is not a handicap. You do not need a second adult to share the school-work-childcare driving load. Nowhere else in France is that true at the same scale.",
+      },
+      {
+        heading: "T3 on one income: the neighbourhoods that hold",
+        body: "On €2,500 net/month (close to the Île-de-France cadre median), an intra-muros T3 at market rent is out of reach — €2,800 rent alone exceeds the entire salary. The scenarios that hold are: (1) intermediate or social T3 inside Paris at €1,100–1,600, plus food and child €500–700, Navigo pass €89, energy €90–130, extracurriculars €60–120 — €1,900–2,700 total; (2) inner-suburb T3 in Vitry, Montreuil or Saint-Denis at €1,400–1,900 (30–50% below Paris proper), same charges plus Navigo, €2,300–3,000 total; (3) intra-muros T2 (€1,800 average per data/housing.ts, so €1,500–2,100 depending on district), shared bedroom for a single child — less comfortable but under €2,700. Under €2,200 net without a housing lever, a Paris T3 is not sustainable. Above €2,800 net, most of the arbitrage becomes about which arrondissement, not whether Paris works.",
+      },
+      {
+        heading: "Living car-free: the one Paris advantage you actually cash in",
+        body: "Paris scores 9.5/10 on transport (source: data/cities-seed.ts), the best in France. For a single parent, this is decisive: you do not need to find a second driver when your child has a 5pm speech-therapy appointment and you finish at 6pm. The Navigo Solidarité pass gives 25% or roughly two-thirds off (rate depends on RSA/CSS/AAH status — check with Île-de-France Mobilités), bringing the monthly subscription under €40 for eligible households. The Imagine R Junior card for under-18s is free or heavily discounted by CAF income bracket. Cycling on the post-2020 protected lanes (rue de Rivoli, Sébastopol, boulevard Voltaire) is a real option for children from around age 8. The trade-off: weekend \"escape to nature\" trips require RER plus walking, which limits improvised hikes — plan trips, do not wing them.",
+      },
+      {
+        heading: "Schools, canteen, after-school: the densest network in France",
+        body: "Paris scores 8.5/10 on schools (source: data/cities-seed.ts). Every child has a public school within roughly 400 metres. What sets Paris apart for a single parent is the after-school infrastructure: ARE (Aménagements Rythmes Éducatifs) on Friday afternoons, free TAP activities, Paris Ados workshops priced by CAF income bracket (the lowest tranches pay €0.50/hour), and municipal centres de loisirs on Wednesdays and school holidays. The school canteen is billed on a 10-tranche sliding scale by quotient familial: from €0.13 to €7 per meal. For a single parent in the low-income tranches (Q1–Q3), canteen plus after-school typically comes to €20–60/month per child. That price structure does not exist anywhere else in France at this density. Two things to verify before choosing a district: the number of classes recently closed (the intra-muros birth rate has fallen since 2018), and the school's own climate — the arrondissement mayor's office handles admissions, and a meeting before the start of term is useful.",
+      },
+      {
+        heading: "Safety by arrondissement: the real dividing lines",
+        body: "Paris scores 7.0/10 on safety (source: data/cities-seed.ts) — above average for a metropolis of its size. For a single parent, the question is not \"is Paris safe\" but \"which micro-neighbourhood\". Consistently calm day and evening: the 5th, 6th, 7th, 15th (excellent for families), south 14th, 16th, 17th (Batignolles), 12th (Bercy, Nation) and 13th (Butte-aux-Cailles). More street-dependent: the 10th around Gare de l'Est, the 18th (Château-Rouge is fine by day, Barbès tenser at night), the 19th (northern Belleville) and the 20th (upper Ménilmontant fine, Stalingrad edges rougher). What matters more than the arrondissement is the metro–boulevard–home axis on your evening return with a child: pick a central metro exit onto a lit boulevard over a final leg down a narrow street. Safe car-free suburbs with strong transit: Vincennes, south Montreuil, Boulogne-Billancourt, Vanves, Issy-les-Moulineaux.",
+      },
+      {
+        heading: "The verdict: which single-parent profile Paris works for",
+        body: "Paris works for three profiles. First, the professional at €2,800 net or more who accepts a T2 or an inner-suburb T3: the city genuinely makes single-parent daily life doable without a car, with dense state schools and quotient-priced after-school care. Second, the single parent eligible for social or intermediate housing, patient enough to wait 12–36 months, who then rents 30–50% below the market — the best Paris deal for this configuration. Third, the single parent temporarily hosted intra-muros by family, who uses the interval to build the school, medical and support network before signing their own lease. Paris works badly for intermediate incomes (€2,000–2,400 net) without a housing lever: the maths do not close, and a 30-minute-RER commune (Meaux, Melun, Cergy) delivers a better comfort-to-budget ratio with the same density of public schools.",
+      },
+    ],
+    relatedCities: ["paris", "boulogne-billancourt", "montreuil", "vitry-sur-seine", "saint-denis"],
+    tags: ["single parent paris", "single parent in france", "expat single parent", "moving to france", "ile-de-france"],
+  },
+  {
+    slug: "single-parent-in-lyon-2026",
+    title: "Single Parent in Lyon (2026): The Metro That Makes This Doable",
+    metaTitle: "Single Parent in Lyon 2026: Rent, Schools, Transport",
+    metaDesc: "Raising a child alone in Lyon in 2026: T3 at €1,380, four metro lines, dense state schools. Probably the best big French metro for a single parent.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 9,
+    publishedAt: "2026-08-09",
+    updatedAt: "2026-08-09",
+    intro: "Lyon ticks nearly every box for a single parent. Transport 8.4/10, schools 8.2/10, safety 7.2/10 (source: data/cities-seed.ts), and a T3 (two-bedroom flat) at €1,380/month on average (source: data/housing.ts). That is 51% below Paris for equivalent housing, on a network that actually lets you live without a car. The arbitrage is picking the right arrondissement: the Presqu'île and Croix-Rousse push T3 rent above €1,600, while Villeurbanne and the 8e hold it under €1,200. Honest guide for the profile that has to count every euro and every school-run minute.",
+    sections: [
+      {
+        heading: "Why Lyon is the rational metro pick as a single parent",
+        body: "Three concrete advantages. First, France's second-densest school and GP coverage outside Île-de-France. Second, the TCL network (four metro lines, eight tram lines, funiculars) genuinely enables car-free life for €65/month adult pass. Third, a dense associative fabric — parent-run crèches, centres sociaux, family support networks. On the numbers: transport 8.4/10 is beaten only by Paris, and the cost score of 6.3/10 vastly exceeds Paris's 3.0. For a single parent with nobody to share the driving load, that transport-to-cost ratio is probably the best of any French metropolis. The bilingual-schools option is decent (Cité Scolaire Internationale in the 7e, and several private-under-contract options), which matters for an expat single parent who wants to preserve a school route back if the France move does not stick.",
+      },
+      {
+        heading: "T3 on one income: which district holds on €2,000–2,500 net",
+        body: "On €2,200 net/month (roughly the Lyon-region cadre median), the €1,380 average T3 rent (source: data/housing.ts) is tight. Three strategies that work: (1) Villeurbanne — Charpennes, Gratte-Ciel, Cusset — where a T3 lands at €850–1,150, direct metro and tram, dense markets and public schools; the best value if you work on the Presqu'île or at Part-Dieu. (2) The 8e (Monplaisir, Bachut) at €950–1,300, tram, respected primary schools, quiet family feel. (3) The south 7e (east Guillotière, Gerland) at €900–1,200, a district in university-driven transformation, younger. Avoid as a single parent: ground-floor flats on the cours Gambetta or the Rhône quays (continuous traffic noise), fifth-floor walk-ups with a pushchair. Below €2,000 net without CAF housing aid, target Villeurbanne or the south 7e — nothing else holds.",
+      },
+      {
+        heading: "Moving with a child, without a car: what works",
+        body: "TCL is the pivot. The TCL family subscription is €65/month, with free travel for under-11s on weekends. Vélo'v (the public bike scheme) is €25/year and covers the Presqu'île and Villeurbanne. From around age 8, cycling to primary school along the segregated riverbank paths (Rhône and Saône) is a real plan B. The blind spot: if your workplace is in the east — Bron, Saint-Priest, Meyzieu, or towards Ambérieu — you fall back onto the ring road. Check the exact commute before signing a lease, not after. The Lyon ZFE (low-emission zone) is phasing out older diesels: if you own a Crit'Air 3, either fold its replacement into your relocation budget, or go car-free from day one — often the easier and cheaper choice.",
+      },
+      {
+        heading: "Schools, canteens, after-school: the Lyon fabric",
+        body: "Lyon scores 8.2/10 on schools (source: data/cities-seed.ts). Municipal after-school care is billed by CAF quotient familial (canteen meals from €0.60 to €5.30 by bracket). Wednesdays and school holidays: municipal leisure centres, again quotient-priced, with registration open two months ahead. Public schools with strong reputations: 6e (Bellecombe, Molière), 3e (Rébeval, Jean-Jaurès), 8e (Georges Charpak), 7e (Berthelot). Midwives and paediatricians cluster in the 3e, 6e and 7e — 30 minutes by metro from Villeurbanne. The crèche network is decent, but waiting lists from around 12 months of age are real: register in the second trimester of pregnancy through the arrondissement mayor's office. For a single parent, the \"famille monoparentale priority\" exists on file at the CAF — it is not automatic, you have to ask for it (use exactly that phrase at the counter, translation does not help).",
+      },
+      {
+        heading: "Safety: neighbourhoods that hold, ones to filter",
+        body: "Lyon scores 7.2/10 on safety (source: data/cities-seed.ts). Reliably calm and well-covered: the 6e Brotteaux, the 8e Monplaisir, the 4e Croix-Rousse, the 5e Fourvière-Saint-Just, Villeurbanne Gratte-Ciel and Charpennes. Street-dependent: Guillotière (7e) — the eastern part is calm, the area around the square is more mixed after dark; Perrache-Confluence, vast and sometimes empty at night. Communes to filter individually: Bron, north Vaulx-en-Velin, Vénissieux — well-served by TCL but with real perceived-safety issues for a single parent walking home with a child after 9pm. As in Paris, the axis metro–boulevard–home matters more than the district name.",
+      },
+      {
+        heading: "The verdict: Lyon is one of the strongest single-parent picks in France",
+        body: "Lyon works for the majority of single-parent profiles from €2,000 net up, with a T3 in Villeurbanne, the south 7e or the 8e. It offers the best French ratio of \"real metro + dense state schools + contained cost\". Compared to Bordeaux and Toulouse, it has more metro. Compared to Nice or Marseille, better perceived safety. Compared to Paris, it works for any budget under €2,800 net. It works less well if your job is in the poorly-served east of the metro, or if you cope badly with winter air pollution (Lyon sits in a basin, and inversions do happen). The real trigger is your workplace and your access to the childcare/school node. Sort those two before signing, and Lyon becomes probably the best French decision for solo parenting.",
+      },
+    ],
+    relatedCities: ["lyon", "villeurbanne", "saint-etienne", "grenoble", "annecy"],
+    tags: ["single parent lyon", "single parent in france", "expat single parent", "moving to france", "auvergne-rhone-alpes"],
+  },
+  {
+    slug: "single-parent-in-marseille-2026",
+    title: "Single Parent in Marseille (2026): Neighbourhood-by-Neighbourhood Maths",
+    metaTitle: "Single Parent in Marseille 2026: Rent, Schools, Safety",
+    metaDesc: "Raising a child alone in Marseille in 2026: T3 at €1,100, a short but useful metro, and a safety map that varies sharply by arrondissement.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 9,
+    publishedAt: "2026-08-09",
+    updatedAt: "2026-08-09",
+    intro: "Marseille is probably the French city with the widest quality-of-life gap between two adjacent streets. For a single parent, the real arbitrage is not the city — it is the arrondissement, the street, and the school. Marseille offers a T3 at €1,100/month on average (source: data/housing.ts), a solid cost-of-living score (6.8/10), exceptional nature (the Calanques are 20 minutes by metro plus bus) — but a safety score of 5.9/10, the lowest of France's ten biggest metros (source: data/cities-seed.ts). This guide does not sugar-coat that. It maps where and at what price this becomes rational.",
+    sections: [
+      {
+        heading: "What Marseille genuinely delivers for a single parent",
+        body: "Three concrete upsides. First, rent: €1,100 for a T3 (source: data/housing.ts) against €1,380 in Lyon and €2,800 in Paris. On €2,000 net, a T3 without social housing is feasible in Marseille — that is barely true anywhere else at metro scale. Second, climate and nature: nature score 7.8/10, roughly 300 sunny days a year, the Calanques accessible on the 21JET bus from Castellane, free municipal beaches (Prophète, Prado, Corbière) — a real quality-of-life lever when you carry the mental load alone. Third, culture and daily life are dense and cheap: the Noailles market, the Mucem (free some days), popular cinema across arrondissements — child-friendly weekends cost almost nothing. The Mediterranean climate is not a small point for an expat single parent — winter is not lost time here.",
+      },
+      {
+        heading: "T3 on one income: what Marseille makes possible",
+        body: "On €2,000 net, the €1,100 T3 (source: data/housing.ts) is achievable — that is the Marseille exception. Three configurations that hold: (1) the 8e (Périer, Vauban, Bompard) at €1,000–1,400, calm, close to the Prado, well-served by metro; (2) the 6e (Notre-Dame-du-Mont, Estrangin) at €900–1,300, walkable, central without the tourist churn; (3) the 12e (Saint-Barnabé, La Fourragère) at €800–1,150, metro to end-of-line, quieter and greener. Higher end but calmer: the 7e (Endoume, Malmousque) at €1,200–1,600 with proximity to the Corniche. What to filter as a single parent: the 1er (Belsunce, Noailles) and 3e (Belle-de-Mai, Saint-Mauront) — real dependency-on-street issues that a lease of your own has to be signed after several visits, day and night. Marseille is one of the only French metros where €1,800–2,000 net supports a viable T3 — but the neighbourhood choice cannot be outsourced to an aggregator.",
+      },
+      {
+        heading: "Getting around without a car: the short but useful metro",
+        body: "Marseille scores 7.5/10 on transport (source: data/cities-seed.ts) — real, but not Lyon or Paris. Two metro lines, three tram lines and buses, run by RTM: monthly adult pass €41.20 (one of the cheapest in France). The network covers most of the useful arc for a single parent working in the 1er/2e/6e/8e. What it does not cover well: the far east (11e, 12e outer), the north (13e, 14e, 15e, 16e) beyond the metro terminus, and evening trips from the periphery. If you work in Aubagne or Aix, a car (or ridesharing) is realistic. Le Vélo (public bikes) costs €25/year and works on the flat central spine (Prado, Canebière); it is not a hills solution. From around age 9, primary school on foot is standard in the 6e/8e/12e — school proximity is a hard constraint when picking a neighbourhood.",
+      },
+      {
+        heading: "Schools, canteens, after-school: the Marseille split",
+        body: "Marseille scores 6.5/10 on schools (source: data/cities-seed.ts) — the weakest of the big-metro tier. The average hides a two-track reality: the south arrondissements (6e, 7e, 8e, 9e) hold public schools with committed teams and stable outcomes; the north (13e, 14e, 15e) has schools chronically short of resources and staff. As a single parent choosing a district, that split is decisive. The canteen and after-school (garderie, centre aéré) are municipal, billed by CAF quotient familial: for the low tranches, count €30–90/month per child, including Wednesdays. The private-under-contract network is dense (Provence, Chevreul, Saint-Charles, Nazareth) at €80–200/month per child. The CAF famille monoparentale priority applies here as elsewhere — request it explicitly on file. Two paediatricians are hard to find outside the 6e-7e-8e cluster — plan the medical anchor at the same time as the school one.",
+      },
+      {
+        heading: "Safety: the Marseille map is not one map",
+        body: "The 5.9/10 safety score (source: data/cities-seed.ts) is a citywide average that hides the real spread. Consistently calm arrondissements: 6e (excluding a few streets near the station), 7e, 8e (excellent), 9e, most of the 12e. Street-dependent: 1er, 3e, 15e — a lease requires day-and-night visits and, if possible, a local reference. What matters for a single parent evening return: the last 300 metres from metro or bus stop to the door. In the 6e/7e/8e, that walk is a non-event. In the 15e or high 13e, it is not something to improvise with a child. If you land in Marseille on remote income with school-age children, the honest default is the southern arc (6e/7e/8e/9e) or the 12e — and the €1,000–1,400 rent that goes with it. Trying to save €200/month by moving north often erases itself in taxi and childcare costs.",
+      },
+      {
+        heading: "The verdict: Marseille rewards local knowledge and honest arbitrage",
+        body: "Marseille works for the single parent who accepts one thing: the city is picked at the street level, not the city level. Above €2,000 net and with a T3 in the 6e/7e/8e/9e or 12e, it delivers a Mediterranean-lifestyle upgrade — climate, sea, contained rent — that Lyon and Paris cannot match at the price. It works less well if your school and medical constraints push you outside the south arc and you cannot compensate with a car. For a foreign single parent unfamiliar with the local geography, the sensible default is a 12-month lease in the 8e or 12e first, then a considered move if you want to explore other districts. Marseille is not a city to enter blind on €1,000/month savings — but for the right profile, it delivers something no other French metro does at this price.",
+      },
+    ],
+    relatedCities: ["marseille", "aix-en-provence", "aubagne", "cassis", "martigues"],
+    tags: ["single parent marseille", "single parent in france", "expat single parent", "moving to france", "provence-alpes-cote-dazur"],
+  },
+  {
+    slug: "single-parent-in-toulouse-2026",
+    title: "Single Parent in Toulouse (2026): The Car Question Decides Everything",
+    metaTitle: "Single Parent in Toulouse 2026: Rent, Schools, Metro",
+    metaDesc: "Raising a child alone in Toulouse in 2026: T3 at €1,150, two metro lines, decent state schools — and one big question: can you live car-free?",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 9,
+    publishedAt: "2026-08-09",
+    updatedAt: "2026-08-09",
+    intro: "Toulouse is the fourth-largest French metro, propped up by Airbus and the wider aerospace supply chain. It scores 6.6/10 on cost, 7.2/10 on transport, 7.8/10 on schools and 6.9/10 on safety (source: data/cities-seed.ts), with a T3 at €1,150/month on average (source: data/housing.ts). On paper, the Toulouse budget for a single parent looks better than Bordeaux or Lyon. In practice, one variable decides whether that holds: can you live along a metro or tram line, or do you fall back on a car? A car adds €250–450/month and can erase the entire price advantage over Lyon.",
+    sections: [
+      {
+        heading: "The Toulouse edge — and the trap under it",
+        body: "The edge: on €2,000 net, a T3 at €1,000–1,150 in Compans-Caffarelli, the 3e or Blagnac holds without CAF housing aid (APL). That is a rare configuration at this metro scale. The trap: if your workplace is in the aerospace belt (Colomiers, Labège) and no metro or tram reaches your neighbourhood, you end up owning a car — insurance, depreciation, fuel, maintenance, €250–450/month. Add that back and Toulouse quietly loses to Lyon. So Toulouse is a strong single-parent metro only if two conditions are met: (a) your workplace is on the metro (Line A: airport-Balma; Line B: Ramonville-Borderouge) or on Tram T2 (which now serves Blagnac and Colomiers), and (b) your home is within walking or short-metro distance of your child's school. Miss either, and the Bordeaux or Rennes maths look better.",
+      },
+      {
+        heading: "T3 on one income: the districts that hold",
+        body: "Budget T3 rent at €1,150 average (source: data/housing.ts). Three configurations that work: (1) Compans-Caffarelli / Jean-Jaurès / Marengo at €1,000–1,300, dense Line A/B intersection, walkable, respected public schools; (2) Saint-Cyprien / Patte d'Oie at €900–1,200, tram T1, the Garonne on the doorstep, cheaper than the right bank for equivalent quality; (3) Blagnac (Andromède, Ritouret) at €850–1,100, T2 tram to the airport-Airbus belt, family-oriented, the best option if you work Airbus and want to stay car-free. Higher end but calm: Côte Pavée (€1,050–1,350) — the classic family district but poorly-served by transit, so a car often creeps back in. Filter as a single parent: outer Empalot and Reynerie-Bellefontaine — real perceived-safety issues; the rent gap does not compensate.",
+      },
+      {
+        heading: "Moving without a car: what actually works",
+        body: "Toulouse scores 7.2/10 on transport (source: data/cities-seed.ts). Tisséo runs two metro lines, two tram lines and buses; monthly adult pass €63. Coverage is solid in the centre and along the tram corridors, thinner on the edges than Lyon or Bordeaux. Tram T2 to Blagnac and Colomiers is the single most important line for the aerospace-employed single parent. Cycling is pleasant along the Garonne and the Canal du Midi, and Vélô'Toulouse (public bikes) costs about €15/year — but the protected-lane network is patchy off those two spines. Where a car quietly comes back: dropping the child at a suburban crèche before an office out in the Airbus belt, weekends to the Pyrenees or the Mediterranean. If you can shape your life around Line A/B or T2 and skip the car, you pocket €250–450/month.",
+      },
+      {
+        heading: "Schools, canteen, after-school: dense and reasonable",
+        body: "Toulouse scores 7.8/10 on schools (source: data/cities-seed.ts). Public school coverage is dense in the centre and stable, with a couple of well-known primary schools per district (Molière, Jules-Ferry, Marengo). The canteen is quotient-priced (roughly €1–4 per meal by bracket), and the ALAE after-school scheme (municipal, at the school) runs from end-of-day to 6pm with modest fees. Wednesdays and holidays: municipal loisirs centres, again quotient-priced. Private-under-contract options are strong (Ozenne, Notre-Dame de la Compassion), typically €80–200/month per child. For an expat single parent, the two international schools (International School of Toulouse, Lycée International Victor Hugo) offer English-medium or bilingual routes, useful if the France move is a first attempt rather than a settled decision. Register early for both crèches (from the second trimester of pregnancy, via mairie de secteur) and international schools (April prior to entry).",
+      },
+      {
+        heading: "Safety: a quiet centre, filtered peripheries",
+        body: "Toulouse scores 6.9/10 on safety (source: data/cities-seed.ts). The historic centre (Capitole, Carmes, Saint-Étienne), Compans-Caffarelli, the 3e, Côte Pavée, Saint-Cyprien north and Blagnac are all consistently calm. Areas to filter individually as a single parent: Empalot outer, Reynerie-Bellefontaine, some Mirail streets — perceived-safety issues that a lease does not want to ignore. The Toulouse pattern is different from Marseille's: the split is not left-bank versus right-bank, it is centre-and-corridors versus peripheral estates. If you can live along a metro or tram corridor and within a 400-metre walk of a well-lit street, safety is not the bottleneck.",
+      },
+      {
+        heading: "The verdict: Toulouse works if the metro map matches your life",
+        body: "Toulouse is a strong single-parent metro when three things line up: workplace on metro Line A/B or tram T2, home on the same corridor, T3 rent under €1,150. In that configuration, on €2,000–2,300 net, you get sun, dense public schools, and a monthly balance that beats Bordeaux and rivals Rennes. It works less well when your job is in the outer aerospace belt with no metro, or when your neighbourhood forces a car back in. The trigger for the decision is the commute audit before signing: pull up Tisséo's line map, drop your workplace pin and your school pin, and see if a single metro or tram line connects both to a €1,000–1,200 T3 district. If yes, Toulouse is one of the best French decisions available. If no, keep looking.",
+      },
+    ],
+    relatedCities: ["toulouse", "blagnac", "colomiers", "montauban", "albi"],
+    tags: ["single parent toulouse", "single parent in france", "expat single parent", "moving to france", "occitanie"],
+  },
+  {
+    slug: "single-parent-in-nice-2026",
+    title: "Single Parent in Nice (2026): Sun, Sea, and the €2,500 Floor",
+    metaTitle: "Single Parent in Nice 2026: Rent, Schools, Real Budgets",
+    metaDesc: "Raising a child alone in Nice in 2026: T3 at €1,500, two tram lines, low pollution — but the €2,500 net floor that decides whether Nice works.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 9,
+    publishedAt: "2026-08-09",
+    updatedAt: "2026-08-09",
+    intro: "Nice sits at the top of the French metros on climate and Mediterranean lifestyle, and near the bottom on cost. The T3 averages €1,500/month (source: data/housing.ts), the cost score is 5.8/10, transport is 7.0/10, safety is 7.0/10, schools are 7.3/10 (source: data/cities-seed.ts). For a single parent, the honest floor is close to €2,500 net/month. Below that, Nice does not close mathematically. Above it, you get a coastal metro with two tram lines, one of the lowest pollution rates in France, and a real bilingual schools ecosystem that no other French city of this size matches.",
+    sections: [
+      {
+        heading: "The Nice value proposition — and its price",
+        body: "Nice's structural advantages for a single parent: 300 days of sun (nature score 8.6/10), a low-pollution basin (protected from northern winds by the Alps), a compact walkable city where the metropolitan area works on two tram lines, and one of France's densest bilingual-school scenes (English and Italian, thanks to the international expat base and the Italian border). The catch is the rent. €1,500 for a T3 (source: data/housing.ts) is 8% higher than Lyon and 25% higher than Bordeaux for equivalent housing. A single parent under €2,500 net faces one of two outcomes: an outer commune (Cagnes-sur-Mer, Saint-Laurent-du-Var, La Trinité) at €1,100–1,350 with tram access to Nice-Ville — the sensible entry route — or a T2 intra-muros with a shared bedroom for a single child. Nice is not the city to arrive in on €1,800 net and try to figure out.",
+      },
+      {
+        heading: "T3 on one income: where the rent holds",
+        body: "T3 average €1,500 (source: data/housing.ts). Three configurations that work: (1) Riquier / Le Port at €1,200–1,500, tram Line 1, walkable to the old town and the Promenade, calmer than the centre; (2) Cimiez outer / Saint-Sylvestre at €1,250–1,600, quieter, greener, respected public schools, one tram connection away; (3) Cagnes-sur-Mer or Saint-Laurent-du-Var at €1,050–1,350, tram Line 2 direct to Nice-Ville, family-oriented outer communes with primary schools and beaches — the strongest budget play. Higher end: Musiciens or Carré d'Or (€1,500–2,000), tourist-adjacent and less family-friendly. Filter as a single parent: L'Ariane and Les Moulins — perceived-safety issues that the rent gap does not compensate for. Below €2,200 net without a co-parent, the sensible default is Cagnes or Saint-Laurent, not Nice proper.",
+      },
+      {
+        heading: "Moving without a car: the two tram lines and their limits",
+        body: "Nice scores 7.0/10 on transport (source: data/cities-seed.ts). Lignes d'Azur runs two tram lines (Line 1: north–south spine including the airport; Line 2: east–west along the coast to Saint-Laurent) and a bus network; monthly adult pass €40. Coverage is real for a coastal city — the airport is on a tram, which almost no French metro can say — but thinner off the two spines. Vélo Bleu (public bikes) works on the flat coastal corridor, less so in the hilly Cimiez and Fabron. Where a car earns its keep: weekend trips to the arrière-pays (the mountainous hinterland), Menton, the Var beaches. If you can live and work along Line 1 or Line 2, you can skip the car and save €250–400/month — which is exactly the delta that decides whether Nice's €1,500 T3 works on your salary.",
+      },
+      {
+        heading: "Schools, canteen, after-school: bilingual is a real option here",
+        body: "Nice scores 7.3/10 on schools (source: data/cities-seed.ts). Public schools are stable in the south arc (Cimiez, Carras, Riquier, Musiciens); the canteen is billed by CAF quotient (roughly €1–5 per meal); after-school (garderie municipale) runs to 6pm with modest fees. What sets Nice apart for a single expat parent is the bilingual ecosystem: the École Internationale Provence-Alpes-Côte d'Azur (EIPACA in Manosque, private but referenced by many Nice-based expats), the International School of Nice, the Lycée International in Valbonne (private, hour by tram + bus but with the IB) — a genuinely different offer from Lyon or Toulouse at the same price. Private-under-contract options (Blanche de Castille, Stanislas) run €80–220/month per child. For a single parent whose France move is a first attempt, this school flexibility is worth budgeting for.",
+      },
+      {
+        heading: "Safety: a coastal south arc that holds, filtered inland pockets",
+        body: "Nice scores 7.0/10 on safety (source: data/cities-seed.ts). Consistently calm: Cimiez, Riquier, Le Port, Musiciens, Carré d'Or, Carras, Fabron. Street-dependent: parts of Libération, Saint-Roch. Areas to filter individually: L'Ariane, Les Moulins, north Pasteur — real perceived-safety issues, not resolved by daytime visits alone. The Nice pattern is unusual: the safest neighbourhoods are also the tram-connected ones (Line 1 corridor), which means the same choice that gives you car-free life also gives you the calmer streets. For a single parent evening return with a child, sticking to the Line 1 / Line 2 axis is both the transit answer and the safety answer.",
+      },
+      {
+        heading: "The verdict: Nice works from €2,500 net, seriously above €3,200",
+        body: "Nice works for the single parent above €2,500 net who accepts an outer-commune T3 with tram access, or a Riquier / Cimiez T3 intra-muros. In that configuration, the trade — sun, low pollution, walkable coast, bilingual-schools optionality — is real and no French metro under €1,500 T3 matches it. It works seriously well above €3,200 net: a Cimiez or Musiciens T3, bilingual school route, weekend car for the arrière-pays and Italy. It works badly below €2,200 net without child-support: the Nice rent structure is calibrated for two-income households or high-earning singles, and trying to make it work on a mid-range solo salary leaves no margin for anything unexpected. If you are moving to France on remote income above €3,000 net, Nice becomes one of the strongest picks in the country for single-parent lifestyle. If not, Montpellier or Toulouse deliver more of the Mediterranean brief for the money.",
+      },
+    ],
+    relatedCities: ["nice", "cannes", "antibes", "menton", "frejus"],
+    tags: ["single parent nice", "single parent in france", "expat single parent", "moving to france", "provence-alpes-cote-dazur"],
+  },
+  {
+    slug: "single-parent-in-nantes-2026",
+    title: "Single Parent in Nantes (2026): Lyon-Level Fit at Half the Rain",
+    metaTitle: "Single Parent in Nantes 2026: Rent, Schools, Transport",
+    metaDesc: "Raising a child alone in Nantes in 2026: T3 at €1,150, dense tram + Chronobus, strong state schools. Nantes rivals Lyon on nearly every single-parent axis.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 9,
+    publishedAt: "2026-08-09",
+    updatedAt: "2026-08-09",
+    intro: "Nantes is the strongest single-parent candidate in western France, and quietly rivals Lyon on nearly every axis except climate. The T3 averages €1,150/month (source: data/housing.ts) — 17% below Lyon. Transport scores 8.1/10, schools 8.3/10, safety 7.5/10, cost 6.8/10 (source: data/cities-seed.ts). The city runs three tram lines and the Chronobus (high-frequency bus corridors), and adds the Navibus (river shuttle) for the Loire crossing. For a single parent moving to France on remote income or a local job, Nantes offers the Lyon package with fewer Alps and more Atlantic weather.",
+    sections: [
+      {
+        heading: "Why Nantes is a Lyon-level single-parent pick",
+        body: "Structural advantages: France's densest tram network per resident outside Île-de-France, a public schools scores of 8.3/10 (source: data/cities-seed.ts) matched only by Rennes at this metro size, one of the lowest big-city crime rates (safety 7.5/10), and a T3 rent 17% below Lyon at €1,150 (source: data/housing.ts). The Nantes network reaches most useful destinations — Machines de l'Île, the university hospital (CHU Nord), the north–south crèche belt — on tram and Chronobus without a car. The mental-load payoff for a single parent: no second driver to find when the school run and the paediatrician appointment overlap. The one soft spot is the climate: Atlantic, wet, 1,940 hours of sun a year (source: data/cities-seed.ts) — noticeably wetter than the southern metros but nothing like Rennes or Brest.",
+      },
+      {
+        heading: "T3 on one income: districts that hold on €1,900–2,400 net",
+        body: "T3 average €1,150 (source: data/housing.ts). Three configurations that work: (1) Zola / Procé at €1,000–1,300, tram Line 2, respected primary schools, walkable to the centre; (2) Doulon / Bottière at €900–1,150, tram Line 1, family-oriented east district with good crèche coverage and modest rents; (3) Rezé (across the Loire) at €850–1,100, tram Line 3 direct, calm suburban feel, respected schools — the strongest budget play. Higher end but calm: Île de Nantes (Beaulieu) at €1,150–1,450, contemporary architecture, good transit, closer to the Machines and the new law-and-justice quarter. Filter individually as a single parent: outer Bellevue, Malakoff-Nord — perceived-safety issues that the rent gap does not compensate. On €1,900 net, target Doulon or Rezé with CAF housing aid; above €2,200 net, Zola or Procé become realistic.",
+      },
+      {
+        heading: "Moving with a child, without a car: what actually works",
+        body: "Nantes scores 8.1/10 on transport (source: data/cities-seed.ts). TAN runs three tram lines, six Chronobus lines, the Navibus (river shuttle), regular bus and the BusWay (a fast dedicated-lane bus, effectively a fourth tram). Monthly adult pass €67.10 (Métropole zone). Coverage is dense along the tram spines and the Chronobus corridors — better than Bordeaux or Toulouse for the same city size. Bicloo (public bikes) costs €31/year and works on the flat central spine; the Loire and Erdre bike paths are separate, well-maintained and safe for cycling with a child from around age 8. Where a car earns its keep: weekend trips to the Atlantic coast (La Baule, Pornic) and inland Loire. If you live and work on tram lines 1/2/3 or the Chronobus corridors, going car-free saves €200–400/month and simplifies the school-run logistics that always crowd a single-parent day.",
+      },
+      {
+        heading: "Schools, canteen, after-school: 8.3/10 without a caveat",
+        body: "Nantes scores 8.3/10 on schools (source: data/cities-seed.ts) — top-tier for a French metro of this size. Public schools are stable across most districts, with several well-regarded primary schools per neighbourhood. The canteen is quotient-priced (roughly €0.70–5 per meal), the accueil périscolaire runs before-school and after-school with quotient-priced fees, and the ALSH (accueil de loisirs) covers Wednesdays and holidays. Registration for crèches goes through the Espace Naissance from the second trimester of pregnancy; municipal crèches are competitive but the private-under-contract network fills the gap. Bilingual education is available at the École Notre-Dame de Toutes-Aides (bilingual English section), the Collège International de Nantes and several other private-under-contract routes — thinner than Nice but real. The famille monoparentale priority applies as elsewhere — request it explicitly on your CAF file.",
+      },
+      {
+        heading: "Safety: one of the calmest big-metro maps in France",
+        body: "Nantes scores 7.5/10 on safety (source: data/cities-seed.ts) — third-best among the ten biggest French metros. Consistently calm: Zola, Procé, Île de Nantes, Beaulieu, Doulon (excluding a few outer streets), Rezé, Vertou, Orvault, Saint-Herblain south. Street-dependent: outer Bellevue, Malakoff north, a handful of Chateau-de-Rezé streets. Areas to filter individually: Dervallières, Ranzay — perceived-safety issues that a lease should visit day and night before signing. The Nantes pattern is much like Lyon: the districts that give you good transit access also give you the calmer streets. For a single-parent evening return with a child, sticking to the tram corridors is again the answer that works on both fronts.",
+      },
+      {
+        heading: "The verdict: Nantes rivals Lyon and beats Bordeaux on the maths",
+        body: "Nantes works for the majority of single-parent profiles from €1,900 net upwards, with a T3 in Doulon, Rezé, Zola or Procé. It offers a rare French combination: dense state schools, one of the country's best per-capita tram networks, contained rent, and a genuinely low-crime metro. It works less well if you cannot tolerate Atlantic weather (grey, wet, mild — but real) or if your work is in the deep eastern industrial belt with no tram or Chronobus. Compared to Lyon: cheaper rent, similar schools, similar transit density, weaker climate, less winter pollution. Compared to Bordeaux: cheaper rent, better schools, similar transit, similar climate. If you are moving to France as a single parent and can accept the Atlantic weather, Nantes is arguably the single best big-metro pick in the country for this profile.",
+      },
+    ],
+    relatedCities: ["nantes", "reze", "saint-herblain", "orvault", "saint-nazaire"],
+    tags: ["single parent nantes", "single parent in france", "expat single parent", "moving to france", "pays-de-la-loire"],
+  },
+  {
+    slug: "single-parent-in-montpellier-2026",
+    title: "Single Parent in Montpellier (2026): The Mediterranean Bet That Works",
+    metaTitle: "Single Parent in Montpellier 2026: Rent, Schools, Trams",
+    metaDesc: "Raising a child alone in Montpellier in 2026: T3 at €1,150, five tram lines, 300 sunny days — the Mediterranean bet that actually adds up on one income.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 9,
+    publishedAt: "2026-08-09",
+    updatedAt: "2026-08-09",
+    intro: "Montpellier is the affordable Mediterranean single-parent bet, and unlike Nice, the maths actually add up on one middle-income salary. T3 rent averages €1,150/month (source: data/housing.ts) — 23% below Nice for the same climate. Transport scores 7.8/10, schools 7.7/10, safety 6.8/10, cost 6.5/10, nature 8.1/10 (source: data/cities-seed.ts). Five tram lines run through a compact, flat, cyclable city, and the sea is 12 km away on tram Line 3 plus a short bus. This is a strong choice for a single expat parent — with two caveats that this guide names honestly.",
+    sections: [
+      {
+        heading: "Why Montpellier is the strongest Mediterranean pick under €1,200 T3",
+        body: "Structural advantages: 2,740 hours of sun (source: data/cities-seed.ts) — one of the highest in France, France's densest tram network per resident (five lines and still expanding), a flat cyclable city where the Vélomagg public bikes work everywhere, a strong student and cultural life (nightlife, museums, festivals), and the sea 12 km away with a tram–bus route. T3 rent at €1,150 (source: data/housing.ts) puts Montpellier at Nantes prices with Mediterranean climate — a combination Nice, Marseille and Aix simply do not offer at the same price point. The two caveats the guide flags upfront: the local job market is softer than the lifestyle suggests (arrive with remote income, a transferred contract, or as auto-entrepreneur, not on a local job hunt), and the schools score of 7.7/10 is solid but not the 8.2/10 of Lyon or the 8.3/10 of Nantes — the public network is dense but the outcomes vary by district.",
+      },
+      {
+        heading: "T3 on one income: districts that hold on €1,900–2,300 net",
+        body: "T3 average €1,150 (source: data/housing.ts). Three configurations that work: (1) Port-Marianne at €1,050–1,350, tram Line 1 and Line 3, newer construction, close to the beach axis and the CHU; (2) Beaux-Arts / Boutonnet at €950–1,250, tram Line 1, walkable to the centre, dense primary schools and a strong family scene; (3) Castelnau-le-Lez at €900–1,150, tram Line 2 direct, greener and calmer, the strongest budget play. Higher end but excellent for families: Aiguelongue at €1,100–1,400, quiet, respected schools. Filter individually as a single parent: Mosson, La Paillade — the lowest rents in the city (T3 at €700–950) but real documented safety issues; the €200/month savings do not compensate for the mental load. Between €1,800 and €2,000 net, target Castelnau-le-Lez or outer Boutonnet with CAF aid; above €2,100 net, Port-Marianne or central Beaux-Arts become realistic.",
+      },
+      {
+        heading: "Moving without a car: five tram lines and a flat city",
+        body: "Montpellier scores 7.8/10 on transport (source: data/cities-seed.ts). TaM runs five tram lines and buses; monthly adult pass €55. The tram covers roughly 80% of useful trips in the metro area — dense in the centre, extending to Castelnau, Juvignac, Pérols and (via connection) the Mediterranean lidos. Vélomagg (public bikes) costs €25/year and is genuinely useful across the whole flat city — Montpellier is one of the best French cities to cycle with a child from around age 7 on the Lironde and Lez greenways. Where a car earns its keep: the coast (Palavas 12 km, La Grande-Motte 20 km) is doable by tram + bus but easier by car for a beach afternoon with children and gear. If you can live and work along tram lines, skip the car — one small AC unit (€150–200 to buy, €30–50 added to the summer electricity bill) is the one hardware line most northern expats forget.",
+      },
+      {
+        heading: "Schools, canteen, after-school: dense with district variance",
+        body: "Montpellier scores 7.7/10 on schools (source: data/cities-seed.ts). Public school coverage is dense across all central and inner-belt districts, with roughly one primary school per neighbourhood. Canteen is quotient-priced (roughly €1–5 per meal), and the ALAE after-school runs to 6pm with quotient fees. Wednesdays and holidays: municipal loisirs centres, quotient-priced. District variance matters: the south arc (Port-Marianne, Antigone, Beaux-Arts) and the east (Aiguelongue, Millénaire) have stable, well-resourced public schools; the Mosson estates in the west face resource pressure. Bilingual and international options: the École Internationale de Montpellier (private, IB), the section internationale at Lycée Jules-Guesde, and several bilingual private-under-contract primary schools — a real option for an expat single parent who wants to keep a school route back. Register for crèche from the second trimester through the Guichet Petite Enfance.",
+      },
+      {
+        heading: "Safety: a strong south arc, filtered western estates",
+        body: "Montpellier scores 6.8/10 on safety (source: data/cities-seed.ts) — slightly below Lyon and Nantes, above Marseille. Consistently calm: Antigone, Port-Marianne, Beaux-Arts, Boutonnet, Aiguelongue, Millénaire, Castelnau-le-Lez. Street-dependent: parts of centre-ville around the station, Gambetta. Areas to filter individually: Mosson, La Paillade, La Chamberte west — real perceived-safety issues, not resolved by daytime visits alone. The Montpellier pattern: the south and east arcs (tram corridors L1, L2, L3) give you both car-free logistics and calm streets. Sticking to the tram corridors is again the right axis for a single-parent evening return with a child.",
+      },
+      {
+        heading: "The verdict: Montpellier works from €1,900 net, seriously well above €2,400",
+        body: "Montpellier works for the single parent above €1,900 net with a T3 in Castelnau, Beaux-Arts or outer Boutonnet — a rare configuration where you get Mediterranean climate, five tram lines, dense state schools and the sea nearby without needing €2,500 net like Nice. It works seriously well above €2,400 net: Port-Marianne T3, tram access to school and CHU, weekend car for beach and Cévennes. Compared to Nice: two-thirds of the rent, same tram density, similar schools, similar sun, weaker local job market — arrive with income, do not chase it. Compared to Marseille: less nature access, better perceived safety, similar rent, better schools. If you are moving to France as a single expat parent and want the Mediterranean bet without the Nice price tag, Montpellier is the answer — provided your income is portable or already set.",
+      },
+    ],
+    relatedCities: ["montpellier", "beziers", "sete", "nimes", "perpignan"],
+    tags: ["single parent montpellier", "single parent in france", "expat single parent", "moving to france", "occitanie"],
+  },
+  {
+    slug: "single-parent-in-strasbourg-2026",
+    title: "Single Parent in Strasbourg (2026): Bike, Tram, School — All Solved",
+    metaTitle: "Single Parent in Strasbourg 2026: Rent, Schools, Trams",
+    metaDesc: "Raising a child alone in Strasbourg in 2026: T3 at €1,080, six tram lines, France's best cycling city, solid state schools. Quietly excellent.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 9,
+    publishedAt: "2026-08-09",
+    updatedAt: "2026-08-09",
+    intro: "Strasbourg is the quietest strong single-parent bet in France: cheapest T3 rent in the top-10 metros (€1,080/month, per data/housing.ts), France's best cycling infrastructure, six tram lines, and a schools score of 8.0/10 (source: data/cities-seed.ts). Cost 6.9/10, safety 7.4/10, transport 8.3/10. Add a genuine European-city cultural offer (opera, museums, Christmas markets), border access to Germany, and a decent bilingual-schools ecosystem, and Strasbourg becomes one of the strongest single-parent picks that nobody talks about.",
+    sections: [
+      {
+        heading: "Why Strasbourg is a quietly excellent single-parent pick",
+        body: "Structural advantages: the cheapest T3 rent among France's ten biggest metros (€1,080, per data/housing.ts), France's densest cycling infrastructure and modal share (over 15% of trips), six tram lines running through a compact flat city, and a schools score of 8.0/10 (source: data/cities-seed.ts) that rivals Nantes and Lyon. For an expat single parent: a European Parliament and Council of Europe base means genuine international schools (International School of Strasbourg, Lycée International des Pontonniers), German is taught from primary school in most public schools, and a job market in the international-organisations and biotech sectors is thicker than Montpellier's. The one caveat: winter is cold and grey (average January temperature 4.5°C, sunshinedays 1,693 — source: data/cities-seed.ts). Manageable, but not the Mediterranean.",
+      },
+      {
+        heading: "T3 on one income: districts that hold on €1,800–2,200 net",
+        body: "T3 average €1,080 (source: data/housing.ts) — the cheapest big-metro rent in France. Three configurations that work: (1) Neudorf / Musau at €900–1,150, tram Lines A/D, walkable, dense primary schools, mixed and lively; (2) Robertsau at €950–1,250, tram Line E, greener and calmer, respected schools, near the European institutions; (3) Schiltigheim (technically outer commune but tram-connected) at €850–1,100, tram Line B direct, family-oriented, one of the strongest budget plays in France. Higher end but excellent for families: Cronenbourg outer (€1,000–1,300), calm, tram Line D. Filter individually as a single parent: outer Neuhof, Hautepierre — perceived-safety issues that the rent gap does not compensate. On €1,800 net, target Schiltigheim or Neudorf with CAF aid; above €2,100 net, Robertsau or central Neudorf become realistic. Strasbourg is one of the only French big metros where a T3 solo-parent budget closes cleanly under €2,000 net.",
+      },
+      {
+        heading: "Moving without a car: France's best cycling city",
+        body: "Strasbourg scores 8.3/10 on transport (source: data/cities-seed.ts). CTS runs six tram lines and buses; monthly adult pass €51.10. What actually makes the city work is the cycling: 650+ km of protected lanes and greenways, flat terrain, and a modal share above 15% — the highest in a big French city. Vélhop (public bikes) is €36/year for the standard annual subscription. From around age 5 in a child seat and age 8 solo, cycling is the everyday school-run mode for a large share of Strasbourg families. Where a car earns its keep: cross-border trips to the Black Forest, weekend Vosges. If you can live and work along tram corridors and adopt cycling for the school run, going car-free is trivially easy here — probably easier than any other French city.",
+      },
+      {
+        heading: "Schools, canteen, after-school: dense, bilingual, well-resourced",
+        body: "Strasbourg scores 8.0/10 on schools (source: data/cities-seed.ts). Public school coverage is dense across all central and inner districts, and — unusually for France — German is taught from primary school in most schools, with several bilingual French-German sections (classes bilangues). Canteen is quotient-priced (roughly €1–5 per meal), the accueil périscolaire runs to 6pm with quotient fees, and the ALSH covers Wednesdays and holidays. Registration for crèches goes through the Guichet Petite Enfance from the second trimester. International options: the International School of Strasbourg (private, IB, English-medium), the section internationale at Lycée International des Pontonniers (public, seven language sections), and the European School (for children of EU-institution staff). Between the international schools and the German bilingual primary schools, an expat single parent has one of the strongest school-flexibility positions in France.",
+      },
+      {
+        heading: "Safety: a calm city with a handful of filtered pockets",
+        body: "Strasbourg scores 7.4/10 on safety (source: data/cities-seed.ts) — well above the big-metro average. Consistently calm: Krutenau, Petite France, Robertsau, Cronenbourg, Neudorf south, Schiltigheim centre. Street-dependent: parts of the station area, some outer Meinau streets. Areas to filter individually as a single parent: Neuhof outer, Hautepierre — perceived-safety issues, particularly at night. The Strasbourg pattern: the tram-served districts are also the calm districts, so the same choice that gives you car-free life also gives you the safe evening return. Sticking to tram corridors A/B/D/E is the double-answer for a single parent walking home with a child.",
+      },
+      {
+        heading: "The verdict: Strasbourg is the underrated top-tier pick",
+        body: "Strasbourg works for the single parent above €1,800 net with a T3 in Schiltigheim, Neudorf or outer Robertsau. It offers the rarest French combination: the cheapest big-metro rent, dense state schools with German bilingual options, France's best cycling infrastructure, six tram lines, and genuine international schools. It works less well if you cannot tolerate a cold grey winter (December to February is real) or if your work is far from tram or cycling corridors. Compared to Lyon: cheaper rent, similar schools, weaker climate, similar transit density, better cycling. Compared to Nantes: cheaper rent, similar schools, colder winters, similar transit, stronger international-schools offer. If you are moving to France as an expat single parent, know Germany or want German-language exposure for your child, and can accept the winter, Strasbourg is one of the two or three best big-metro picks in the country — quietly, and without the marketing.",
+      },
+    ],
+    relatedCities: ["strasbourg", "schiltigheim", "illkirch-graffenstaden", "haguenau", "colmar"],
+    tags: ["single parent strasbourg", "single parent in france", "expat single parent", "moving to france", "grand-est"],
+  },
+  {
+    slug: "single-parent-in-bordeaux-2026",
+    title: "Single Parent in Bordeaux (2026): Post-TGV Prices, Real Trade-offs",
+    metaTitle: "Single Parent in Bordeaux 2026: Rent, Schools, Trams",
+    metaDesc: "Raising a child alone in Bordeaux in 2026: T3 at €1,200, four tram lines, decent state schools — and the post-TGV rent that changed the maths.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 9,
+    publishedAt: "2026-08-09",
+    updatedAt: "2026-08-09",
+    intro: "Bordeaux is the French metro where the single-parent calculus changed the most after the 2017 TGV. Rents rose ~30% in five years, pushing the T3 average to €1,200/month (source: data/housing.ts) — no longer the value pick it was for a young family. The city still holds an excellent quality-of-life score (8.1/10 global, 8.3/10 life, per data/cities-seed.ts), a schools score of 7.9/10, transport 7.6/10, safety 7.1/10. For a single parent, Bordeaux now works clearly above €2,200 net, and requires more careful district choice than it used to. Here is the honest post-TGV single-parent map.",
+    sections: [
+      {
+        heading: "Post-TGV Bordeaux: what changed, what didn't",
+        body: "What changed: rent. T3 went from ~€900 average pre-2017 to €1,200 today (source: data/housing.ts) — a Lyon-adjacent price for a smaller metro. Where the increase concentrated: the historic centre (Chartrons, Saint-Michel, Triangle d'Or). What did not change: the schools score (7.9/10, per data/cities-seed.ts), the tram network (four lines, one of the most extensive in France), the safety score (7.1/10), or the wine-country lifestyle 30 minutes out. The post-TGV shift creates a specific single-parent question: is the €200–300/month rent premium over Nantes justified by the milder Atlantic climate, the wine country and the ocean 45 minutes away? For some profiles yes, for others no. This guide names both.",
+      },
+      {
+        heading: "T3 on one income: the post-TGV neighbourhoods that still hold",
+        body: "T3 average €1,200 (source: data/housing.ts). Three configurations that work: (1) La Bastide (right bank) at €900–1,250, tram Line A direct to the centre, calmer, greener, primary schools with mixed reputations — the strongest value play post-TGV; (2) Caudéran at €1,050–1,400, tram Line D, family-oriented, respected schools, houses with small gardens; (3) Nansouty / Barrière-de-Toulouse at €950–1,250, tram Line B, walkable to Saint-Michel and Victoire, dense primary schools. Higher end for families: Chartrons at €1,200–1,600, tram Line C, walkable and lively but pricey. Filter as a single parent: outer Grand Parc, Bacalan north — some perceived-safety pockets that a lease should verify. On €2,000 net, target La Bastide or Nansouty with CAF aid; above €2,200 net, Caudéran or central Nansouty become realistic. Below €1,800 net, Bordeaux does not really close — consider Mérignac or Pessac (tram-connected) at €850–1,100 T3 instead.",
+      },
+      {
+        heading: "Moving without a car: TBM, tram and the wine-country trade-off",
+        body: "Bordeaux scores 7.6/10 on transport (source: data/cities-seed.ts). TBM runs four tram lines, buses and the river shuttle; monthly adult pass €57.20. Tram coverage is excellent within the metro and reaches Mérignac, Pessac, Talence and Bègles. VCub (public bikes) is €30/year and works on the flat central spine; the city is cyclable but not at Strasbourg's level. Where a car earns its keep: the Médoc vineyards, the Arcachon Basin, the Atlantic beaches (Lacanau, Cap Ferret) 45–60 minutes away. For a single-parent weekend without a car, the TER regional trains do reach Arcachon and Lacanau — but the 5-minute drive from the coastal station to the beach becomes 25 minutes by local bus. If you live and work along tram corridors A/B/C/D, skip the car for the week and rent one Friday to Sunday for coast trips: cleaner budget maths than owning.",
+      },
+      {
+        heading: "Schools, canteen, after-school: solid without exceptional",
+        body: "Bordeaux scores 7.9/10 on schools (source: data/cities-seed.ts) — solid, if a step below Nantes or Lyon. Public school coverage is dense in the centre and inner belt, with reliable primary schools per district. Canteen is quotient-priced (roughly €1–5 per meal), and the périscolaire runs to 6pm with quotient fees. Wednesdays and holidays: municipal loisirs centres, quotient-priced. Bilingual and international options: the Lycée François-Magendie (public, section internationale, English and Spanish), the Bordeaux International School (private, IB, English-medium in Talence), the German-French section at Collège Anatole-France (rare). Register for crèche from the second trimester through the mairie de secteur; the crèche network is decent but competitive in Chartrons and Caudéran. The famille monoparentale priority applies — request explicitly on your CAF file.",
+      },
+      {
+        heading: "Safety: a calm centre, filtered outer pockets",
+        body: "Bordeaux scores 7.1/10 on safety (source: data/cities-seed.ts). Consistently calm: Chartrons, Triangle d'Or, Caudéran, Nansouty, Saint-Genès, La Bastide (except a few streets near the tram terminus), most of Talence and Pessac inner. Street-dependent: parts of Saint-Michel and Capucins by day/night, Bacalan mixed. Areas to filter individually: Grand Parc outer, Bacalan north — perceived-safety pockets that a lease should visit at multiple hours. The Bordeaux pattern is not as neat as Lyon's or Nantes's: the tram corridors are excellent, but the safety map has more scatter. For a single-parent evening return, stick to the tram-plus-well-lit-boulevard axis, and avoid last legs down narrow poorly-lit streets.",
+      },
+      {
+        heading: "The verdict: Bordeaux works above €2,000, seriously above €2,600",
+        body: "Bordeaux works for the single parent above €2,000 net with a T3 in La Bastide, Nansouty or outer Caudéran. In that configuration, you get the Atlantic climate, wine-country access, a walkable tram-served city and solid state schools. It works seriously well above €2,600 net: a Caudéran or Chartrons T3, respected primary school, weekend car for the coast and Médoc. It works less well below €2,000 net without a housing lever — the post-TGV rent structure has priced out the profile Bordeaux used to serve best. Compared to Nantes: 4% higher T3 rent, slightly weaker schools, similar transit, milder winters, closer to coastal weekends. Compared to Toulouse: no aerospace jobs to speak of, better transit, higher rent, milder climate. If you are moving to France as a single parent on remote income and can absorb the post-TGV rent, Bordeaux delivers — but the pre-2017 bargain is gone, and the guide will not pretend otherwise.",
+      },
+    ],
+    relatedCities: ["bordeaux", "merignac", "pessac", "talence", "libourne"],
+    tags: ["single parent bordeaux", "single parent in france", "expat single parent", "moving to france", "nouvelle-aquitaine"],
+  },
+  {
+    slug: "single-parent-in-lille-2026",
+    title: "Single Parent in Lille (2026): The Cheapest Top-10 T3 With a Metro",
+    metaTitle: "Single Parent in Lille 2026: Rent, Schools, Metro",
+    metaDesc: "Raising a child alone in Lille in 2026: T3 at €1,080, two metro lines, cost score 7.5/10 — the cheapest top-10 metro, with a real safety-by-district filter.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 9,
+    publishedAt: "2026-08-09",
+    updatedAt: "2026-08-09",
+    intro: "Lille is the cheapest top-10 French metro for a single parent — cost score 7.5/10, T3 rent averaging €1,080/month (source: data/housing.ts), tied with Strasbourg for the lowest in the top-10. Transport 8.2/10 (two automated metro lines, two tram lines, buses), schools 7.5/10, safety 6.5/10 (source: data/cities-seed.ts). The safety score is the lowest of the top-10 outside Marseille, and — like Marseille — the citywide average hides real district variance. For a single parent, Lille is a strong bet if you filter by district before signing, and pick a metro-served corridor.",
+    sections: [
+      {
+        heading: "Why Lille is the cheapest strong single-parent pick",
+        body: "Structural advantages: the highest cost score in the top-10 (7.5/10, per data/cities-seed.ts), a T3 rent at €1,080 (source: data/housing.ts) — tied with Strasbourg for cheapest, two fully-automated metro lines (Line 1 and Line 2), two tram lines to Roubaix and Tourcoing, and a compact walkable centre. For a foreign single parent, the position is unusual: Brussels is 35 minutes by train, London 90 minutes, Paris 60 minutes — a real advantage if your work or family network spans the north European corridor. The catch: safety score 6.5/10 is the lowest in the top-10 outside Marseille, and the district variance is real. This guide does not smooth it over — the districts that work and the ones that need careful filtering are named below.",
+      },
+      {
+        heading: "T3 on one income: districts that hold on €1,800–2,100 net",
+        body: "T3 average €1,080 (source: data/housing.ts) — one of the cheapest in the top-10. Three configurations that work: (1) Vauban-Esquermes at €900–1,200, metro Line 1 or 2, family-oriented with respected primary schools, walkable to the Grand-Place; (2) Vieux-Lille (outer streets, not tourist-core) at €1,000–1,350, walkable, calm, but check the specific street; (3) Saint-Maurice-Pellevoisin at €850–1,100, metro Line 1 direct, quieter and more residential — the strongest value play. Higher end for families: central Vieux-Lille at €1,200–1,600, walkable and lively but pricey. Filter individually as a single parent: parts of Fives, Wazemmes (mixed by street), Moulins outer — perceived-safety issues that a lease should verify day and night before signing. Roubaix and Tourcoing (outer communes, tram-connected) at €700–950 T3 offer real rent savings — but the safety filter tightens further, and daytime visits alone are insufficient.",
+      },
+      {
+        heading: "Moving without a car: two automated metros and a flat city",
+        body: "Lille scores 8.2/10 on transport (source: data/cities-seed.ts) — third among the top-10 metros behind Paris and Lyon. Ilévia runs two automated metro lines (Line 1: 4 Cantons–Tourcoing; Line 2: Saint-Philibert–CH Dron), two tram lines and buses; monthly adult pass €59. The metro is fully driverless, runs at high frequency, and reaches most useful destinations across Lille, Villeneuve-d'Ascq, Roubaix and Tourcoing. The city centre is flat and cyclable; V'Lille (public bikes) costs €33/year. Where a car earns its keep: the coast (Berck, Le Touquet) 90 minutes away, Belgium day trips. For weekday life on a metro corridor, going car-free is easy and saves €200–400/month. The cross-border angle: monthly BeMobiel or Belgian NMBS passes for regular Brussels commutes are separate — check both if your work spans the border.",
+      },
+      {
+        heading: "Schools, canteen, after-school: solid centre, filtered periphery",
+        body: "Lille scores 7.5/10 on schools (source: data/cities-seed.ts). Public school coverage is dense in the centre and inner belt, with reliable primary schools in Vauban, Saint-Maurice, Cormontaigne and central Wazemmes. Outer estates and parts of Roubaix face resource pressure — the district you pick decides the school you get. Canteen is quotient-priced (roughly €1–5 per meal), and the accueil périscolaire runs to 6pm with quotient fees. Wednesdays and holidays: municipal centres de loisirs, quotient-priced. Bilingual and international options: the Lycée International Montebello (public, section internationale, English/Spanish/German), the École Européenne (private, EU-institutions), and the section internationale at Collège Fénelon — a stronger international offer than Rennes or Nantes, useful for a cross-border expat single parent. Register for crèche early through the Espace Petite Enfance.",
+      },
+      {
+        heading: "Safety: a real filter, not a diplomatic footnote",
+        body: "Lille scores 6.5/10 on safety (source: data/cities-seed.ts) — the lowest of the top-10 outside Marseille. This is not a marketing number: it reflects real district variance. Consistently calm: Vauban-Esquermes, Saint-Maurice-Pellevoisin, central Vieux-Lille (specific streets), Vauban north. Street-dependent: Wazemmes (mixed by block), parts of Bois-Blancs, Fives centre. Areas to filter individually as a single parent: Moulins outer, Fives outer, Lille-Sud, most of Roubaix outside the tram corridor — perceived-safety issues that a lease should visit at night. The Lille pattern is like Marseille's: the citywide average understates the safe districts and overstates the concerning ones. For a single-parent evening return with a child, stick to Line 1 or Line 2 metro corridors, exit onto a lit boulevard, and prioritise the first 300 metres from the metro exit to your door in the district-visit checklist.",
+      },
+      {
+        heading: "The verdict: Lille rewards the single parent who filters carefully",
+        body: "Lille works for the single parent above €1,800 net with a T3 in Vauban-Esquermes, Saint-Maurice-Pellevoisin or outer Vieux-Lille. The T3 rent is the cheapest in the top-10, the metro is excellent, the international-schools offer is real, and cross-border access (Brussels, London, Paris) is genuinely useful for a certain expat profile. It works seriously well above €2,100 net: a central Vieux-Lille or Vauban T3, respected primary school, cross-border weekend flexibility. It works less well if you do not filter districts carefully — Marseille-style thinking applies. Compared to Strasbourg: same rent, weaker safety, similar transit, weaker climate. Compared to Nantes: cheaper rent, weaker safety and weaker schools, similar transit, comparable climate. If you are moving to France as a single expat parent, value the cross-border position, and are willing to spend two weekends on district visits before signing, Lille delivers something the other cheap metros do not.",
+      },
+    ],
+    relatedCities: ["lille", "roubaix", "tourcoing", "armentieres", "arras"],
+    tags: ["single parent lille", "single parent in france", "expat single parent", "moving to france", "hauts-de-france"],
+  },
+
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed
