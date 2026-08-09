@@ -36,6 +36,18 @@ export function generateStaticParams() {
 
 const TRIPLET_COLORS = ["#0ea5e9", "#a78bfa", "#f97316"] as const;
 
+/**
+ * Titre court si le gabarit long dépasse les ~60 caractères rendus par Google.
+ * Même helper que la jumelle EN (`app/[locale]/compare/[pair]/synthesis`), qui
+ * l'avait et pas nous : 97 des 771 titres FR dépassaient, jusqu'à 77 caractères
+ * sur les paires de communes à nom long (Saint-Chély-d'Apcher vs
+ * Florac-Trois-Rivières). Ce qui se faisait couper était la queue de mots-clés,
+ * jamais les deux villes — mais autant ne pas la servir.
+ */
+function fitTitle(long: string, short: string): string {
+  return long.length <= 60 ? long : short;
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { pair } = await params;
   const parts = pair.split("-vs-");
@@ -44,7 +56,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     if (cities.some((c) => !c)) return {};
     const [a, b, c] = cities as NonNullable<(typeof cities)[number]>[];
     return {
-      title: `${a.name} vs ${b.name} vs ${c.name} · synthèse 8 axes 3 villes 2026`,
+      title: fitTitle(
+        `${a.name} vs ${b.name} vs ${c.name} · synthèse 8 axes 3 villes 2026`,
+        `${a.name} vs ${b.name} vs ${c.name} · synthèse 8 axes`,
+      ),
       description: `Comparatif à 3 entre ${a.name}, ${b.name} et ${c.name} : environnement, santé, emploi, cadre de vie, sécurité, démographie. Verdict axe par axe.`,
       alternates: pathAlternates(`/comparer/${pair}/synthese`, `/compare/${pair}/synthesis`),
       openGraph: {
@@ -61,7 +76,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const cityB = CITIES_SEED.find((c) => c.slug === parts[1]);
   if (!cityA || !cityB) return {};
   return {
-    title: `${cityA.name} vs ${cityB.name} · synthèse 8 axes comparée 2026`,
+    title: fitTitle(
+      `${cityA.name} vs ${cityB.name} · synthèse 8 axes comparée 2026`,
+      `${cityA.name} vs ${cityB.name} · synthèse 8 axes`,
+    ),
     description: `Comparatif ${cityA.name} vs ${cityB.name} : environnement, santé, emploi, cadre de vie, sécurité, démographie. Verdict axe par axe.`,
     alternates: pathAlternates(`/comparer/${pair}/synthese`, `/compare/${pair}/synthesis`),
     openGraph: {

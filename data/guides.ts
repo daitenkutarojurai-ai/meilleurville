@@ -44590,7 +44590,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["aix-en-provence"],
     relatedGuides: [
       "10-choses-a-faire-a-aix-en-provence-2026",
-      "vivre-sans-voiture-aix-en-provence-guide-2026",
+      "universites-aix-en-provence-2026",
       "vacances-celibataire-montpellier-2026"
     ],
     tags: ["vacances célibataire Aix-en-Provence", "voyage solo Aix", "Cours Mirabeau", "Vieil Aix sortir", "week-end célibataire Provence"]
@@ -44635,7 +44635,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["angers"],
     relatedGuides: [
       "10-choses-a-faire-a-angers-2026",
-      "vivre-sans-voiture-angers-guide-2026",
+      "etudiant-a-angers-2026",
       "vacances-celibataire-nantes-2026"
     ],
     tags: ["vacances célibataire Angers", "voyage solo Angers", "Chabada Angers", "sortir seul·e Angers", "week-end célibataire Loire"]
@@ -46049,6 +46049,7 @@ assertKnownSlugs({
 assertKnownSlugs({
   contextLabel: "guides.relatedGuides",
   known: KNOWN_GUIDE_SLUGS,
+  knownLabel: "this file's own GUIDES",
   refs: GUIDES.flatMap((g) =>
     g.relatedGuides.map((slug) => ({ slug, sourceLabel: `guide "${g.slug}"` }))
   ),

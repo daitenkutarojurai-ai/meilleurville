@@ -21671,8 +21671,24 @@ export const EN_GUIDES: EnGuide[] = [
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed
 // (getEnGuide's .find() returns the first) + a duplicate sitemap URL.
-import { assertUniqueSlugs } from "@/lib/data-integrity";
+import { CITIES_SEED } from "@/data/cities-seed";
+import { assertKnownSlugs, assertUniqueSlugs } from "@/lib/data-integrity";
 assertUniqueSlugs({ contextLabel: "guides-en.slug", slugs: EN_GUIDES.map((g) => g.slug) });
+
+// Symmetric to data/guides.ts. `relatedCities` drives the reverse lookup that
+// surfaces a guide on the EN city and region pages, so a ghost slug is filtered
+// in silence: the guide simply never appears and nothing says why. The FR side
+// has had this guard since 2026-06; EN never got it, and the ultra-audit of
+// 2026-08-09 caught the same class of bug on the FR `relatedGuides` refs.
+// (EN guides carry no `relatedGuides` field — cross-links are computed by
+// lib/guide-suggestions-en.ts — so there is nothing else to check here.)
+assertKnownSlugs({
+  contextLabel: "guides-en.relatedCities",
+  known: new Set(CITIES_SEED.map((c) => c.slug)),
+  refs: EN_GUIDES.flatMap((g) =>
+    g.relatedCities.map((slug) => ({ slug, sourceLabel: `guide "${g.slug}"` }))
+  ),
+});
 
 export function getEnGuide(slug: string): EnGuide | undefined {
   return EN_GUIDES.find((g) => g.slug === slug);

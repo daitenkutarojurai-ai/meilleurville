@@ -16,6 +16,7 @@ import { RED_FLAG_THEME_SLUGS } from "@/lib/red-flag-themes";
 import { commonOriginSlugs } from "@/lib/people-like-you";
 import { cityPhoto, guideCityPhoto } from "@/lib/city-images";
 import { VACATION_PROFILES } from "@/lib/vacation-fit";
+import { ACTIVITIES } from "@/lib/vacation-activities";
 import { OWNER_RANKING_SLUGS } from "@/lib/owner-rankings";
 import { hasParksData } from "@/lib/city-parks";
 import { hasBiodiversityData, BIODIVERSITY_PAGES_LIVE } from "@/lib/biodiversity";
@@ -948,7 +949,10 @@ function enStaticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/synthesis`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.85 },
     { url: `${BASE_URL}/glossary`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
     { url: `${BASE_URL}/site-index`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.5 },
-    { url: `${BASE_URL}/quality-of-life`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
+    // `/quality-of-life` n'est PAS listé ici : il est émis par
+    // enQualityOfLifeSection() avec ses six macro-régions. Il l'était aux deux
+    // endroits, avec des changeFrequency et des priority différentes — un même
+    // URL déclaré deux fois dans le sitemap avec des signaux contradictoires.
     { url: `${BASE_URL}/data-sources`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.55 },
     { url: `${BASE_URL}/property-calendar`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE_URL}/moving-from`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
@@ -1250,10 +1254,12 @@ function enVacationsSection(): MetadataRoute.Sitemap {
     "january", "february", "march", "april", "may", "june",
     "july", "august", "september", "october", "november", "december",
   ];
-  const ACTIVITY_SLUGS = [
-    "plage", "montagne", "ski", "citytrip", "vignobles",
-    "surf", "thermal", "road-trip", "gastro", "famille",
-  ];
+  // Dérivé de lib/vacation-activities, comme PROFILE_SLUGS l'est de
+  // VACATION_PROFILES depuis F61 : c'est ACTIVITIES qui pilote les
+  // generateStaticParams des deux routes (FR /vacances/activite/[activite] et
+  // EN /vacations/activity/[activity]). La liste recopiée coïncidait encore,
+  // mais elle était le dernier endroit du bloc vacances où elle pouvait dériver.
+  const ACTIVITY_SLUGS: readonly string[] = ACTIVITIES;
   const PROFILE_SLUGS = VACATION_PROFILES;
   const REGION_SLUGS = [
     "auvergne-rhone-alpes", "bourgogne-franche-comte", "bretagne",
@@ -1448,10 +1454,12 @@ function vacancesSection(): MetadataRoute.Sitemap {
     "janvier", "février", "mars", "avril", "mai", "juin",
     "juillet", "août", "septembre", "octobre", "novembre", "décembre",
   ];
-  const ACTIVITY_SLUGS = [
-    "plage", "montagne", "ski", "citytrip", "vignobles",
-    "surf", "thermal", "road-trip", "gastro", "famille",
-  ];
+  // Dérivé de lib/vacation-activities, comme PROFILE_SLUGS l'est de
+  // VACATION_PROFILES depuis F61 : c'est ACTIVITIES qui pilote les
+  // generateStaticParams des deux routes (FR /vacances/activite/[activite] et
+  // EN /vacations/activity/[activity]). La liste recopiée coïncidait encore,
+  // mais elle était le dernier endroit du bloc vacances où elle pouvait dériver.
+  const ACTIVITY_SLUGS: readonly string[] = ACTIVITIES;
   const PROFILE_SLUGS = VACATION_PROFILES;
   const REGION_SLUGS = [
     "auvergne-rhone-alpes", "bourgogne-franche-comte", "bretagne",

@@ -23,6 +23,10 @@ export function assertKnownSlugs(opts: {
   refs: ReadonlyArray<{ slug: string; sourceLabel: string }>;
   known: ReadonlySet<string>;
   contextLabel: string;
+  /** Où le slug aurait dû être déclaré, pour le message d'erreur. Par défaut
+   *  `CITIES_SEED`, le premier usage. La garde sert aussi à `relatedGuides`,
+   *  où « not declared in CITIES_SEED » envoyait chercher au mauvais endroit. */
+  knownLabel?: string;
 }): void {
   if (!SHOULD_VALIDATE) return;
   const missing: Array<{ slug: string; sourceLabel: string }> = [];
@@ -39,7 +43,7 @@ export function assertKnownSlugs(opts: {
   throw new Error(
     `[data-integrity] ${opts.contextLabel}: ${missing.length} ghost slug${
       missing.length > 1 ? "s" : ""
-    } referenced but not declared in CITIES_SEED.\n${summary}${overflow}`
+    } referenced but not declared in ${opts.knownLabel ?? "CITIES_SEED"}.\n${summary}${overflow}`
   );
 }
 

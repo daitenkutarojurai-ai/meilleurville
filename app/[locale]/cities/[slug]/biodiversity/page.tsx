@@ -678,14 +678,13 @@ export default async function BiodiversityPage({ params }: Props) {
             </p>
             <p>
               <strong className="text-[var(--text-primary)]">What the city is compared to.</strong>{" "}
-              The rank is read among the {BIODIVERSITY_MEASURABLE_COUNT} cities surveyed well enough
-              so far, out of the {CITIES_SEED.length} on this site: collection is still running, and
-              it started with the most populous communes. So it is not yet &ldquo;better than N% of
-              French cities&rdquo; but &ldquo;better than N% of those already measured&rdquo;. The
-              gap should stay small: between our 182-city snapshot and the current{" "}
-              {BIODIVERSITY_MEASURABLE_COUNT}, published ranks moved by 0.2 points at the median and
-              0.5 at worst, with no city shifting a full point. The raw counts do not depend on
-              other cities and will not move at all.
+              Collection now covers all {CITIES_SEED.length} cities on this site, so the population
+              is no longer a work in progress. The rank is read among the{" "}
+              {BIODIVERSITY_MEASURABLE_COUNT} of them that are surveyed well enough to be compared;
+              the rest are held back by the survey-effort and precision thresholds set out above,
+              not by any gap in our crawl. So it reads &ldquo;better than N% of the French cities we
+              can measure&rdquo; rather than &ldquo;better than N% of French cities&rdquo;. The raw
+              counts do not depend on other cities at all.
             </p>
             <p>
               <strong className="text-[var(--text-primary)]">The perimeter.</strong> A{" "}

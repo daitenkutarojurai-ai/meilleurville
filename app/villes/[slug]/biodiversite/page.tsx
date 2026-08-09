@@ -718,14 +718,13 @@ export default async function BiodiversitePage({ params }: Props) {
               <strong className="text-[var(--text-primary)]">
                 À quoi la ville est comparée.
               </strong>{" "}
-              Le rang se lit parmi les {BIODIVERSITY_MEASURABLE_COUNT} villes assez relevées à ce
-              jour, sur les {CITIES_SEED.length} du site : la collecte est en cours et elle a
-              commencé par les communes les plus peuplées. Ce n&apos;est donc pas encore « mieux que
-              N&nbsp;% des villes françaises », mais « mieux que N&nbsp;% de celles déjà mesurées ».
-              L&apos;écart devrait rester petit&nbsp;: entre notre relevé à 182 villes et celui à{" "}
-              {BIODIVERSITY_MEASURABLE_COUNT}, les rangs publiés ont bougé de 0,2 point en médiane
-              et de 0,5 au pire, aucune ville n&apos;ayant varié d&apos;un point entier. Les
-              effectifs bruts, eux, ne dépendent pas des autres villes et ne bougeront pas.
+              La collecte couvre désormais les {CITIES_SEED.length} villes du site : la population
+              de comparaison n&apos;est plus un chantier en cours. Le rang se lit parmi les{" "}
+              {BIODIVERSITY_MEASURABLE_COUNT} d&apos;entre elles assez relevées pour être
+              comparées&nbsp;; les autres sont écartées par les seuils d&apos;effort et de précision
+              énoncés plus haut, pas par un trou dans notre crawl. Cela se lit donc « mieux que
+              N&nbsp;% des villes françaises que nous savons mesurer », pas « mieux que N&nbsp;% des
+              villes françaises ». Les effectifs bruts, eux, ne dépendent pas des autres villes.
             </p>
             <p>
               <strong className="text-[var(--text-primary)]">Le périmètre.</strong> Cercle de{" "}

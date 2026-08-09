@@ -118,6 +118,9 @@ function loadTags(guidesModule) {
 
 function loadEnGuides() {
   const mod = loadModule("data/guides-en.ts", (id) => {
+    // Même raison que `loadGuides` : le seed et les asserts n'existent dans ce
+    // module que pour les contrôles de build, qui tournent au vrai build.
+    if (id === "@/data/cities-seed") return { CITIES_SEED: [] };
     if (id === "@/lib/data-integrity") {
       return { assertKnownSlugs: NOOP, assertUniqueSlugs: NOOP };
     }

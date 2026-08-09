@@ -225,6 +225,7 @@ Pattern to follow: `app/villes/[slug]/climat/page.tsx`.
 npm install
 npm run dev          # http://localhost:3000 (Turbopack)
 npx tsc --noEmit     # strict TS pass (currently clean)
+npm run integrity    # rejoue les gardes de lib/data-integrity hors build — 2 s. **À LANCER AVANT DE POUSSER UN BATCH DE CONTENU.**
 npm run build        # full SSG build — 56 185 pages, ~15 min (le « ~3 000 » historique est très obsolète)
 npm run lint         # 231 errors / 27 warnings (mostly @next/next/no-html-link-for-pages — harmless under output:"export" — plus residual react/no-unescaped-entities; none are runtime bugs). See latest docs/audit-*.md for the rule breakdown.
 ```
@@ -253,6 +254,14 @@ opérationnelles :
 - Quand la sortie est tuyautée (`| tail`), rien ne s'affiche avant la fin : suivre l'avancement par
   `du -sh .next` et `df -h`, pas par le log. Et **nettoyer `.next`/`out` avant de quitter**, sinon le
   `/tmp` des outils sature à son tour et leurs sorties reviennent vides (constaté ce run).
+- ⚠️ **Conséquence trouvée le 2026-08-09 : `tsc` ne remplace pas le build.** Les gardes
+  `assertUniqueSlugs` / `assertKnownSlugs` ne tournent qu'au **chargement** des modules de données,
+  donc au `next build` / `next dev` — et un `relatedGuides` pointant vers un slug inexistant est
+  parfaitement bien typé. Le batch `vacances-celibataire` du 08/08 a ainsi laissé `main`
+  **non-buildable pendant une nuit** sans qu'aucun contrôle ne parle. D'où **`npm run integrity`**
+  (`scripts/check-integrity.mjs`) : il exécute les vrais `cities-seed` / `guides` / `guides-en`,
+  donc les vraies gardes, en deux secondes. **Le lancer avant tout push de contenu**, au même titre
+  que `npm run search-index` après un guide EN.
 - Le substitut qui marche, et qui a validé le batch 27 : `npx tsc --noEmit` (propre), puis un script
   `npx tsx` qui importe `@/data/guides-en` — l'import exécute `assertUniqueSlugs` — et vérifie sur
   les nouveaux slugs longueur de `metaTitle`/`metaDesc`, nombre de sections, `category`, présence
