@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { VillesSearch } from "@/components/VillesSearch";
@@ -50,6 +51,13 @@ export default function EnCitiesIndex() {
             /10
           </span>
         </div>
+        <p className="mt-4 text-[var(--text-secondary)] max-w-2xl mx-auto">
+          Filter and sort here, or start from{" "}
+          <Link href="/reviews" className="text-[var(--accent)] hover:underline">
+            the ratings themselves and what residents wrote about them
+          </Link>
+          .
+        </p>
       </section>
 
       <section className="mx-auto max-w-7xl px-4 sm:px-6 py-6">

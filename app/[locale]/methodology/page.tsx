@@ -23,6 +23,11 @@ export default function EnMethodology() {
         </h1>
         <p className="text-lg text-[var(--text-secondary)] leading-relaxed mb-10">
           Every score on the site is reproducible from open data. This page is the audit trail.
+          What comes out of the calculation is published city by city:{" "}
+          <Link href="/reviews" className="text-[var(--accent)] hover:underline">
+            each rating out of 10 alongside the reviews left by residents
+          </Link>
+          .
         </p>
 
         <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-3">The eight axes</h2>

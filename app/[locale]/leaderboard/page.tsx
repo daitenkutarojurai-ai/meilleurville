@@ -87,7 +87,12 @@ export default function EnLeaderboardPage() {
         <p className="text-[var(--text-secondary)] text-lg max-w-2xl mx-auto">
           Every French city we cover, ranked by a global score weighted across eight axes
           (life, transport, nature, cost, safety, culture, schools, remote work). Calibrated
-          on official open data from Insee and the French Ministry of the Interior.
+          on official open data from Insee and the French Ministry of the Interior. A rank
+          only tells you the order;{" "}
+          <Link href="/reviews" className="text-[var(--accent)] hover:underline">
+            what each axis measures, and what residents say about it
+          </Link>
+          , is set out separately.
         </p>
       </section>
 

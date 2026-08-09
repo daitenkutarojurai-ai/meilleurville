@@ -31,6 +31,13 @@ export default function EnRankingsIndex() {
         <p className="text-[var(--text-secondary)] text-lg max-w-2xl mx-auto">
           {t("rankings.intro", "en")}
         </p>
+        <p className="mt-3 text-[var(--text-secondary)] max-w-2xl mx-auto">
+          Prefer no lifestyle filter at all?{" "}
+          <Link href="/reviews" className="text-[var(--accent)] hover:underline">
+            Every city rating sits in one place
+          </Link>
+          , best and worst side by side.
+        </p>
       </section>
 
       <section className="mx-auto max-w-6xl px-4 sm:px-6 py-6">

@@ -345,6 +345,13 @@ export default function EnOverallRankingPage() {
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Pitfalls before you move</div>
             </Card>
           </Link>
+          <Link href="/reviews" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">⭐</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">Ratings &amp; resident reviews</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">The score behind the rank</div>
+            </Card>
+          </Link>
         </div>
       </section>
 

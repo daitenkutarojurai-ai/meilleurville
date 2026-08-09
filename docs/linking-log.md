@@ -18,3 +18,4 @@ Une ligne par run de l'agent de maillage. Format :
 - 2026-08-02 app/red-flags/villes-pauvrete-elevee/page.tsx (5 liens ajoutés)
 - 2026-08-04 app/avis/page.tsx (5 liens ajoutés)
 - 2026-08-06 app/guides/categorie/[categorie]/page.tsx (6 liens ajoutés — un par thématique)
+- 2026-08-09 app/[locale]/reviews/page.tsx (5 liens ajoutés — jumelle EN de /avis, footer seul en entrant)
