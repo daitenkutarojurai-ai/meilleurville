@@ -840,9 +840,15 @@ Routes : FR 215 · EN 164
 | ~~`/quitter`~~ | ✅ `/moving-from` — **existait déjà**, la table était fausse | 0 |
 
 **La parité de routes est atteinte. Le chantier n'est pas fini pour autant** : l'écart qui
-reste est dans le **corpus** (guides 933 FR / 555 EN, tags 239 / 74), et il ne se comble pas
-par du SSG dérivé. Le tableau de bord qui compte à partir d'ici est
+reste est dans le **corpus** (guides 933 FR / **575 EN** au 10/08, tags 239 / 76), et il ne
+se comble pas par du SSG dérivé. Le tableau de bord qui compte à partir d'ici est
 `npm run parity --sitemaps`, pas le compte de routes.
+
+**Depuis le 09/08 le run travaille le corpus, série par série**, en fermant d'abord les
+séries FR qui n'ont aucune jumelle EN — c'est là que l'écart se creuse le plus vite. État :
+`single-parent-in-[city]-2026` **fermée le 10/08** (20 FR / 20 EN, batch 1 le 09/08, batch 2
+le 10/08). Prochaine série sans miroir EN : `vacances-celibataire-[destination]-2026`
+(15 FR / 0 EN).
 
 **Écart de contenu, distinct de l'écart de routes** : guides 903 FR / 532 EN, tags 239 / 74.
 Ce n'est pas une route à créer mais du corpus à écrire, et **jamais par traduction** — les
@@ -1089,6 +1095,56 @@ signal thématique du domaine. Noindex ou suppression — décision produit, pas
 
 **Routine** : `meilleurville-parite-en`, quotidienne 04:25 UTC, `npm run parity` comme
 tableau de bord, une route par run, sortie du contrôle collée dans chaque message de commit.
+
+---
+
+## Shipped 2026-08-10
+
+- **Parité EN — série `single-parent-in-[city]-2026` fermée (batch 2, +10 : Rennes, Nancy,
+  Angers, Grenoble, Dijon, Metz, Reims, Aix-en-Provence, Rouen, Toulon)** ✅ — Les dix jumelles
+  manquantes de la série FR `parent-solo-a-[ville]-2026`, écrites d'un coup dans
+  `data/guides-en.ts`. **Compteurs mesurés à l'import : FR 20, EN 20 — écart nul,
+  `EN_GUIDES` 565 → 575.** Anglais natif depuis les faits des guides FR (aucun chiffre qui n'y
+  soit) : un contrôle automatique compare, ville par ville, l'ensemble des scores cités côté EN
+  et côté FR — **zéro divergence dans les deux sens sur les dix paires**, ce que la règle
+  hreflang exige. Loyers T3 retracés à `data/housing.ts` (Reims 900 €, Metz 910 €, Nancy et
+  Dijon 950 €, Rouen 950 €, Angers 1 000 €, Grenoble 1 020 €, Toulon 1 050 €, Rennes 1 100 €,
+  Aix 1 400 €). 6 sections par guide comme le batch 1, `metaTitle` 48-55 caractères,
+  `metaDesc` 139-159. Aucun tag de région nouveau : `brittany`, `grand-est`,
+  `pays-de-la-loire`, `auvergne-rhone-alpes`, `bourgogne-franche-comte`, `normandy`,
+  `provence-alpes-cote-d-azur` existaient déjà. Ajouts propres au lecteur étranger, absents du
+  FR parce qu'inutiles à un lecteur français : ce qu'est un T3, ce que le **quotient familial**
+  CAF pilote (cantine, périscolaire, crèche), le fait que **l'adresse décide de l'école**
+  (carte scolaire) donc qu'on choisit la rue avant l'établissement, la formule exacte à
+  prononcer au guichet (« priorité famille monoparentale »), ce qu'est une maternité de
+  **niveau III**, ce qu'est un **BHNS** (Mettis, tram sur pneus), ce qu'est le **privé sous
+  contrat** et son coût, et pour Metz l'affiliation **CNS vs CPAM** d'un frontalier
+  luxembourgeois — un point que le guide FR n'avait pas besoin de poser. Deux arbitrages
+  éditoriaux repris tels quels du FR et à ne pas diluer : Grenoble porte l'épisode de pollution
+  hivernale par inversion thermique comme un **second filtre à part entière**, pas comme une
+  note de bas de page, et Aix dit explicitement que sous ~2 200 € net la ville ne fonctionne
+  pas — c'est la seule ville de la série où la réponse honnête est « non ».
+  `npm run integrity` (933 FR / 575 EN), `npx tsc --noEmit`, `npm run search-index` +
+  `search-index:check` (`data/search-index.en.json` 565 → 575 guides, 76 tags) et
+  `npm run parity` (code 0, 0 route FR sans jumelle) passent.
+
+- **Trouvé en passant, non corrigé — les guides citent les scores *bruts* du seed, les pages
+  affichent les scores *normalisés*.** Un guide qui écrit « sécurité 7,8/10 (source :
+  `data/cities-seed.ts`) » pour Rennes dit vrai sur le **fichier** — le littéral y est bien
+  7.8 — mais `/villes/rennes` affiche **5,9**, parce que `CITIES_SEED` est
+  `normalizeDistribution(RAW_CITIES_SEED.map(calibrateScores))` et que c'est cette valeur-là
+  que rendent les pages. L'écart n'est pas cosmétique : sécurité Rennes 7,8 → 5,9, Grenoble
+  6,7 → 4,3, Toulon 6,2 → 4,1 ; global Toulon 7,1 → 5,0, Aix 8,2 → 6,5 ; écoles Toulon
+  6,8 → 4,5. Un lecteur qui clique du guide vers la fiche ville voit deux nombres différents
+  pour la même chose. **Périmètre : 116 passages FR et 91 EN** portant la mention
+  `source : data/cities-seed.ts`, plus les champs `descriptionEn` / `seoDescriptionEn` du seed
+  lui-même (« quality-of-life score 8.2/10 » pour Rennes). Ce run n'a **pas** divergé : les dix
+  guides EN reprennent exactement les chiffres de leurs jumelles FR, parce qu'une divergence
+  FR/EN serait un bug de plus, pas une correction. Le correctif est corpus-wide et éditorial
+  (les phrases sont construites *sur* ces nombres : « quatre curseurs alignés au-dessus de 7 »
+  devient faux à 5,9), donc il ne tient pas dans un run de parité — à traiter comme un chantier
+  propre, en tranchant d'abord la question de fond : ce sont les **guides** qui doivent citer
+  la valeur affichée, ou le seed dont les littéraux doivent être réalignés.
 
 ---
 

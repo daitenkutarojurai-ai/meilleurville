@@ -2825,6 +2825,56 @@
       "slug": "single-parent-in-lille-2026",
       "title": "Single Parent in Lille (2026): The Cheapest Top-10 T3 With a Metro",
       "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-rennes-2026",
+      "title": "Single Parent in Rennes (2026): Two Metro Lines, T3 at €1,100",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-nancy-2026",
+      "title": "Single Parent in Nancy (2026): T3 at €950, Compact Baroque Core",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-angers-2026",
+      "title": "Single Parent in Angers (2026): T3 at €1,000, Two Tram Lines",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-grenoble-2026",
+      "title": "Single Parent in Grenoble (2026): T3 at €1,020, Five Tram Lines",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-dijon-2026",
+      "title": "Single Parent in Dijon (2026): T3 at €950, a City You Cross on Foot",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-metz-2026",
+      "title": "Single Parent in Metz (2026): T3 at €910, Luxembourg 45 Minutes Away",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-reims-2026",
+      "title": "Single Parent in Reims (2026): T3 at €900, Paris in 45 Minutes",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-aix-en-provence-2026",
+      "title": "Single Parent in Aix-en-Provence (2026): T3 at €1,400, Sun Included",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-rouen-2026",
+      "title": "Single Parent in Rouen (2026): T3 at €950, Paris in 1h15",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-toulon-2026",
+      "title": "Single Parent in Toulon (2026): T3 at €1,050, Sun and a Harbour",
+      "emoji": "🧑‍🍼"
     }
   ],
   "tags": [
@@ -2841,7 +2891,7 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 61
+      "count": 71
     },
     {
       "slug": "buying-property-france",
@@ -2864,14 +2914,24 @@
       "count": 24
     },
     {
+      "slug": "grand-est",
+      "label": "grand est",
+      "count": 22
+    },
+    {
+      "slug": "expat-single-parent",
+      "label": "expat single parent",
+      "count": 20
+    },
+    {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
       "count": 20
     },
     {
-      "slug": "grand-est",
-      "label": "grand est",
-      "count": 19
+      "slug": "single-parent-in-france",
+      "label": "single parent in france",
+      "count": 20
     },
     {
       "slug": "ile-de-france",
@@ -2886,12 +2946,12 @@
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 15
+      "count": 16
     },
     {
       "slug": "brittany",
       "label": "brittany",
-      "count": 15
+      "count": 16
     },
     {
       "slug": "budget",
@@ -2924,34 +2984,24 @@
       "count": 13
     },
     {
+      "slug": "pays-de-la-loire",
+      "label": "pays de la loire",
+      "count": 13
+    },
+    {
+      "slug": "provence-alpes-cote-d-azur",
+      "label": "provence-alpes-cote-d-azur",
+      "count": 13
+    },
+    {
       "slug": "loire-valley",
       "label": "loire valley",
       "count": 12
     },
     {
-      "slug": "pays-de-la-loire",
-      "label": "pays de la loire",
-      "count": 12
-    },
-    {
       "slug": "normandy",
       "label": "normandy",
-      "count": 11
-    },
-    {
-      "slug": "provence-alpes-cote-d-azur",
-      "label": "provence-alpes-cote-d-azur",
-      "count": 11
-    },
-    {
-      "slug": "expat-single-parent",
-      "label": "expat single parent",
-      "count": 10
-    },
-    {
-      "slug": "single-parent-in-france",
-      "label": "single parent in france",
-      "count": 10
+      "count": 12
     },
     {
       "slug": "bretagne",
@@ -3069,6 +3119,11 @@
       "count": 4
     },
     {
+      "slug": "bourgogne-franche-comte",
+      "label": "bourgogne-franche-comte",
+      "count": 4
+    },
+    {
       "slug": "corsica",
       "label": "corsica",
       "count": 4
@@ -3131,11 +3186,6 @@
     {
       "slug": "biarritz",
       "label": "biarritz",
-      "count": 3
-    },
-    {
-      "slug": "bourgogne-franche-comte",
-      "label": "bourgogne-franche-comte",
       "count": 3
     },
     {
