@@ -284,6 +284,38 @@ opérationnelles :
   des `relatedCities` dans `CITIES_SEED` et absence d'unités ascii-strippées. Une minute au lieu de
   cinq heures, et ça couvre ce qu'un batch de guides peut casser. Le rendu réel reste une passe locale.
 
+## Déploiement — manuel, sur la machine du propriétaire
+
+Aucune routine ne déploie : elles poussent sur `main`, et c'est tout. Rien ne relie `main` à la
+production, donc **pousser n'est pas publier**. Vérifié le 2026-08-10 : le site en ligne était
+**cinq jours en retard** sur `main` (les sous-pages biodiversité du 06/08, `/pour-qui/navetteurs-hybrides`
+du 07/08 et le batch `parent-solo` répondaient 404 en production alors qu'ils étaient dans le dépôt).
+C'est le mode de défaillance à surveiller : il ne produit aucune erreur, seulement du travail invisible.
+
+Le runbook complet, dans l'ordre, ~50 min par domaine :
+
+```bash
+nvm use 22                 # wrangler exige Node >= 22 ; le node par défaut de la machine est 20
+npx tsc --noEmit && npm run integrity && npm run parity
+rm -rf .next out           # le build a besoin de ~35 Go libres ; un reste de build précédent les mange
+npm run build              # FR — 58 396 pages, ~6,5 min de génération + finalisation/export
+npm run cf:deploy          # -> www.mavilleideale.fr (worker `meilleurville`)
+rm -rf .next out
+npm run build:en           # EN — même arbre, NEXT_PUBLIC_DEFAULT_LOCALE=en
+npm run cf:deploy:en       # -> bestcitiesinfrance.com (worker `meilleurville-en`)
+```
+
+**Le piège que garde `scripts/check-deploy-locale.mjs`** : les deux `wrangler.toml` pointent vers le
+**même** dossier `out/`, et la locale est figée au build. Enchaîner `npm run build` puis
+`cf:deploy:en` publierait donc le site **français** sur le domaine anglais, sans qu'aucune commande
+n'échoue. Les deux scripts `cf:deploy*` lisent maintenant le `<link rel="canonical">` réellement
+inliné dans `out/index.html` et refusent de partir si l'export ne correspond pas au worker visé.
+
+Trois points de mesure, pas d'optimisme : `wrangler` annonce le nombre d'assets téléversés (~57 000
+sur un déploiement complet, comptez ~50 min), puis on vérifie **en ligne** une page livrée depuis le
+dernier déploiement (`curl -o /dev/null -w '%{http_code}'`) — une 404 sur une page présente dans
+`out/` veut dire que le déploiement n'est pas allé au bout, quoi qu'en dise le log.
+
 @AGENTS.md
 
 ---
