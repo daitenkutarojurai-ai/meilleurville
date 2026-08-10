@@ -284,10 +284,20 @@ opérationnelles :
   des `relatedCities` dans `CITIES_SEED` et absence d'unités ascii-strippées. Une minute au lieu de
   cinq heures, et ça couvre ce qu'un batch de guides peut casser. Le rendu réel reste une passe locale.
 
-## Déploiement — manuel, sur la machine du propriétaire
+## Déploiement — automatique la nuit, manuel si tu es pressé
 
-Aucune routine ne déploie : elles poussent sur `main`, et c'est tout. Rien ne relie `main` à la
-production, donc **pousser n'est pas publier**. Vérifié le 2026-08-10 : le site en ligne était
+**Depuis le 2026-08-10, `scripts/local-deploy-runner.sh` publie `main` chaque nuit à 04h12 UTC**
+(cron de cette machine, à côté du data-runner). Il ne fait rien si `main` n'a pas bougé, refuse un
+arbre sale, ne tourne pas pendant le crawl du data-runner, passe `tsc` + `npm run integrity` avant
+de publier, déploie FR puis EN, vérifie que les deux domaines répondent 200 et n'enregistre le sha
+publié (`~/.local/state/meilleurville/deployed-sha`) que si tout est vert — un échec est donc
+réessayé la nuit suivante, pas oublié. Journal : `~/.local/state/meilleurville/deploy-runner.log`.
+`--dry-run` liste les commits qui partiraient ; `--force` republie même sans changement.
+
+La suite reste vraie pour un déploiement manuel, et explique ce que le runner fait à ta place.
+
+Aucune routine ne déploie : elles poussent sur `main`, et c'est tout. Avant l'automatisation, rien
+ne reliait `main` à la production, donc **pousser n'était pas publier**. Vérifié le 2026-08-10 : le site en ligne était
 **cinq jours en retard** sur `main` (les sous-pages biodiversité du 06/08, `/pour-qui/navetteurs-hybrides`
 du 07/08 et le batch `parent-solo` répondaient 404 en production alors qu'ils étaient dans le dépôt).
 C'est le mode de défaillance à surveiller : il ne produit aucune erreur, seulement du travail invisible.
