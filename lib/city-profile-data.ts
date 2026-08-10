@@ -83,7 +83,7 @@ export interface CityProfileData {
   biodiversity: {
     score: number | null;
     species: number;
-    pending: "effort" | "precision" | "calibration" | null;
+    pending: "incomparable" | "effort" | "precision" | "calibration" | null;
   } | null;
 }
 

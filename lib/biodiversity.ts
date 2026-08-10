@@ -194,6 +194,74 @@ export function isMeasurable(row: CityBiodiversityRaw): boolean {
   return uncertainty != null && uncertainty <= MAX_RAREFIED_UNCERTAINTY;
 }
 
+/* ── le rang de richesse est retiré (2026-08-10) ──────────────────────── */
+
+/**
+ * Part des observations que se partagent les 5 espèces les plus enregistrées.
+ * C'est le diagnostic qui a fait retirer le rang de richesse, et c'est une
+ * mesure vraie et lisible en soi : à Mayenne, 87 % des observations portent sur
+ * cinq espèces (dont 48 000 contacts d'une seule pipistrelle, un détecteur
+ * ultrasons automatique), à Saint-Omer 57 % sur cinq laridés comptés en colonie.
+ *
+ * `null` quand la facette espèces est tronquée — les effectifs du haut de liste
+ * sont alors exacts mais le total ne l'est pas.
+ */
+export function recordConcentration(row: CityBiodiversityRaw): number | null {
+  if (row.occurrences <= 0 || row.topSpecies.length < 5) return null;
+  const top5 = row.topSpecies.slice(0, 5).reduce((a, s) => a + s.count, 0);
+  return Math.min(1, top5 / row.occurrences);
+}
+
+/**
+ * Le rang centile de richesse est-il publié ?
+ *
+ * **Non, et ce n'est pas une question d'avancement du crawl.** Le crawl est
+ * terminé (540/540 depuis le 2026-08-09) ; c'est la mesure elle-même qui ne
+ * mesure pas ce que son nom annonce. Vérifié le 2026-08-10 sur le corpus
+ * complet, une fois les 540 villes disponibles — c'est-à-dire au premier moment
+ * où le contrôle était possible :
+ *
+ *   - corrélation de rang entre le score et la **concentration** des relevés
+ *     (part des observations tenue par 5 espèces) : **−0,77** ;
+ *   - corrélation de rang entre le score et le **nombre d'espèces réellement
+ *     recensées** : **+0,10** ;
+ *   - part de la variance du score expliquée par le **département** : **56 %**.
+ *
+ * Autrement dit le chiffre classait les villes selon le type de programme de
+ * saisie qui opère autour d'elles — détecteurs à ultrasons pour chauves-souris,
+ * comptages de colonies de laridés, atlas botaniques régionaux — et non selon
+ * ce qui y vit. La raréfaction de Hurlbert suppose que les enregistrements sont
+ * des tirages comparables dans une communauté ; sur des données agrégées par
+ * GBIF, un contact automatique et une observation de terrain pèsent pareil, et
+ * cette hypothèse tombe.
+ *
+ * Les conséquences se lisaient à l'écran : Douai (2 588 espèces recensées, l'un
+ * des relevés les plus fournis du corpus) affichait 0,0/10 ; Saint-Omer et son
+ * marais audomarois, réserve de biosphère, 0,1/10 ; la Guadeloupe 0,1/10 de
+ * moyenne et la Guyane 1,8/10, quand le Centre-Val de Loire sortait à 7,8/10.
+ * Le site classait la Beauce au-dessus de l'Amazonie, tout en décrivant la
+ * Guyane comme d'une « biodiversité exceptionnelle » sur sa page région.
+ *
+ * Deux réparations ont été essayées avant le retrait, et écartées : un rang
+ * fondé sur le nombre d'espèces normalisé par l'effort (loi puissance
+ * espèces/observateurs, R² = 0,75) neutralise bien la concentration mais place
+ * Arles (Camargue) 509ᵉ sur 513 et Saint-Laurent-du-Maroni dernière — il mesure
+ * alors la productivité des programmes de saisie ; et exclure les villes
+ * concentrées est impossible, elles sont **408 sur 513** au-dessus de 10 %.
+ *
+ * Le remède est côté pipeline, pas côté affichage : il demande de pondérer par
+ * jeu de données (un jeu = une unité d'échantillonnage) ou de restreindre la
+ * requête aux jeux d'observation opportuniste, donc de **recroiser GBIF** avec
+ * une agrégation par `datasetKey`. Tant que ce n'est pas fait, les effectifs
+ * bruts — espèces, observations, observateurs, groupes, espèces menacées — sont
+ * publiés tels quels : ils sont vrais. C'est le **classement** qui est retiré,
+ * pas la donnée.
+ *
+ * Remettre ce drapeau à `true` sans avoir changé la collecte republierait le
+ * même chiffre faux : ne le fais pas sans relire les corrélations ci-dessus.
+ */
+export const RICHNESS_RANKING_PUBLISHED = false;
+
 /* ── zones protégées (INPN) ───────────────────────────────────────────── */
 
 export type ProtectionKind =
@@ -527,13 +595,15 @@ export interface BiodiversityProfile {
   /** `null` quand aucun score de richesse n'est publiable. `richnessPending`
    *  dit pourquoi — les deux raisons ne se racontent pas pareil à l'écran. */
   richness: Component | null;
-  /** `"effort"` : trop peu d'observations ici. `"precision"` : les observations
+  /** `"incomparable"` : la mesure n'est pas comparable d'une ville à l'autre —
+   *  raison actuelle de **toutes** les villes, voir RICHNESS_RANKING_PUBLISHED.
+   *  `"effort"` : trop peu d'observations ici. `"precision"` : les observations
    *  sont là mais la facette espèces a été tronquée, la raréfaction n'est
    *  qu'encadrée et l'intervalle est trop large pour un rang — c'est un défaut
    *  de collecte, réparable en relançant la ville. `"calibration"` : la mesure
    *  est bonne, mais trop peu de villes sont crawlées pour situer celle-ci par
    *  rapport aux autres. `null` : un score est publié. */
-  richnessPending: "effort" | "precision" | "calibration" | null;
+  richnessPending: "incomparable" | "effort" | "precision" | "calibration" | null;
   /** `null` tant que la ville n'est pas ingérée, ou tant que trop peu de
    *  villes le sont pour situer celle-ci. `protectionPending` dit laquelle
    *  des deux. */
@@ -587,13 +657,19 @@ export function biodiversityProfile(slug: string): BiodiversityProfile | null {
     raw.occurrences >= MIN_OCCURRENCES &&
     raw.observers >= MIN_OBSERVERS &&
     !isMeasurable(raw);
-  const richnessPending: BiodiversityProfile["richnessPending"] = !measurable
-    ? imprecise
-      ? "precision"
-      : "effort"
-    : !BIODIVERSITY_CALIBRATED
-      ? "calibration"
-      : null;
+  // L'ordre compte : « incomparable » passe avant tout le reste, parce qu'il ne
+  // parle pas de CETTE ville mais du barème. Dire à Douai « effort insuffisant »
+  // alors qu'elle porte 2 588 espèces serait faux deux fois.
+  const richnessPending: BiodiversityProfile["richnessPending"] =
+    !RICHNESS_RANKING_PUBLISHED
+      ? "incomparable"
+      : !measurable
+        ? imprecise
+          ? "precision"
+          : "effort"
+        : !BIODIVERSITY_CALIBRATED
+          ? "calibration"
+          : null;
   const richness: Component | null =
     richnessPending === null
       ? { value: raw.rarefied as number, ...richnessScale(raw.rarefied as number) }

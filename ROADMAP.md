@@ -260,8 +260,11 @@ FR/EN doivent afficher le même nombre.
   vers la fiche INPN.
 - Carte 🦋 dans la grille de sous-pages de `CityProfile.tsx`, entrée `sitemap.ts`,
   `alternates.canonical`, JSON-LD `Dataset` + `BreadcrumbList`.
-- Classement `/classements/biodiversite` une fois la couverture suffisante
-  (≥ 300 villes mesurables), + `RANKING_META` et `RANKING_EN`.
+- ~~Classement `/classements/biodiversite` une fois la couverture suffisante
+  (≥ 300 villes mesurables), + `RANKING_META` et `RANKING_EN`.~~ **Abandonné le
+  2026-08-10** : le seuil est franchi (513 villes) mais la mesure de richesse ne
+  mesure pas la richesse — voir le point d'étape du 2026-08-10. Un classement ne
+  se rouvre qu'après un recrawl GBIF pondéré par jeu de données.
 
 **Licences — condition, pas décoration.** GBIF : citer le DOI du téléchargement et les
 licences par jeu (CC0 / CC BY / CC BY-NC — **filtrer NC** comme `LICENSE_OK` filtre les
@@ -319,7 +322,9 @@ les noms d'attributs INPN aussi : le selftest valide l'arithmétique et le déco
 les contrats d'API, qui demandent le réseau. `npm run biodiversity:probe` reste le
 premier geste de la passe locale. Les surfaces restent garées en `page.pending.tsx`,
 `overall` reste `null` faute de la composante zones protégées, et le classement
-`/classements/biodiversite` attend ses ~300 villes mesurables.
+`/classements/biodiversite` attend ses ~300 villes mesurables. *(Note du 2026-08-10 :
+le seuil a été franchi puis le classement abandonné — la mesure de richesse s'est
+révélée invalide. Voir le point d'étape du 2026-08-10.)*
 
 #### Point d'étape 2026-08-03 — la composante espaces verts passe au garde-fou du biais
 
@@ -451,6 +456,70 @@ composante la plus lourde — la seule insensible au biais d'observation — n'e
 rendez-vous. Le classement `/classements/biodiversite` **n'est pas créé** : 278 villes
 mesurables, sous le seuil de ~300 que la spec s'est fixé ; il devrait s'ouvrir dans un ou deux
 lots. Les 238 villes non collectées n'ont ni page ni entrée sitemap, par construction.
+
+#### Point d'étape 2026-08-10 — le rang de richesse est retiré, et le classement ne sera pas créé
+
+Le crawl GBIF est **terminé : 540/540 villes** (dernier lot du runner local le 09/08). Le seuil
+de ~300 villes mesurables était donc franchi — 513 — et ce run devait ouvrir
+`/classements/biodiversite`. **Il ne l'ouvre pas, et le rang de richesse est retiré des deux
+sous-pages.** Le corpus complet a permis, pour la première fois, de contrôler la mesure ; elle
+n'a pas tenu.
+
+**Ce qui a été mesuré** (script jetable, sur les 513 villes notées) :
+
+| contrôle | valeur |
+|---|---|
+| corrélation de rang score ↔ **concentration** des relevés (part des observations tenue par 5 espèces) | **−0,77** |
+| corrélation de rang score ↔ **nombre d'espèces réellement recensées** | **+0,10** |
+| part de la variance du score expliquée par le **département** | **56 %** |
+
+Le score ne classait pas la nature : il classait le **type de programme de saisie** qui opère
+autour de chaque ville. La raréfaction de Hurlbert suppose que les enregistrements sont des
+tirages comparables dans une communauté ; sur des données agrégées par GBIF, un contact
+automatique de détecteur à ultrasons et une observation de terrain pèsent pareil, et
+l'hypothèse tombe. À Mayenne, **87 % des observations portent sur cinq espèces**, dont 48 000
+contacts d'une seule pipistrelle ; à Saint-Omer et Douai, ce sont des comptages de colonies de
+laridés (98 984 goélands argentés à Saint-Omer).
+
+**Les conséquences étaient en ligne depuis le 06/08, sur 302 puis 540 villes ×2 locales :**
+Douai, avec **2 588 espèces recensées** — l'un des relevés les plus fournis du corpus —
+affichait **0,0/10** ; Saint-Omer et son marais audomarois (réserve de biosphère) **0,1/10** ;
+la Guadeloupe **0,1/10** de moyenne régionale et la Guyane **1,8/10**, quand le Centre-Val de
+Loire sortait à **7,8/10**. Le site classait la Beauce au-dessus de l'Amazonie — tout en
+décrivant la Guyane comme d'une « biodiversité exceptionnelle » sur sa propre page région.
+
+**Deux réparations essayées, toutes deux écartées.** ① Un rang fondé sur le nombre d'espèces
+normalisé par l'effort (loi puissance espèces/observateurs, R² = 0,75) neutralise bien la
+concentration (résidu ↔ concentration : −0,17) mais place **Arles (Camargue) 509ᵉ sur 513** et
+**Saint-Laurent-du-Maroni dernière**, avec un haut de classement entièrement picard : il mesure
+alors la productivité des programmes de saisie. ② Écarter les villes concentrées est
+impossible — elles sont **408 sur 513** au-dessus de 10 %. Ce n'est pas une queue de
+distribution, c'est la norme.
+
+**Ce que le run a livré.** `RICHNESS_RANKING_PUBLISHED = false` dans `lib/biodiversity.ts` (un
+seul point de bascule, avec les corrélations dans le docstring), un quatrième motif
+`richnessPending: "incomparable"` qui **passe avant tous les autres** — dire « effort
+insuffisant » à Douai serait faux deux fois — et sa copie dédiée sur les deux sous-pages, la
+carte 🦋 et les métadonnées. Chaque page explique le retrait avec **sa propre** concentration
+mesurée (`recordConcentration()`, exportée : médiane 14 %, de 2,6 % à 86,7 %), ce qui est une
+mesure vraie et lisible. Les effectifs bruts — espèces, observations, observateurs, groupes,
+espèces menacées, top espèces — restent affichés tels quels : **ils sont exacts, c'est le
+classement qui était faux**. Les espaces verts (529 villes) et les zones protégées ne sont pas
+touchés ; `overall` était déjà `null` partout, le retrait ne change donc rien à l'agrégat.
+
+**Ce qui n'est toujours pas couvert.** Zones protégées **0/540**, inchangé — toujours la seule
+pièce demandant une main humaine, et désormais **la seule composante notée qui reste
+crédible** à terme, puisqu'un périmètre Natura 2000 existe indépendamment de qui l'observe.
+Richesse : **aucune ville notée**, par décision. Le remède est côté pipeline et pas côté
+affichage : il faut repasser par GBIF en agrégeant par `datasetKey` (un jeu de données = une
+unité d'échantillonnage) ou en restreignant la requête aux jeux d'observation opportuniste —
+donc un `QUERY_VERSION = 3` et un recrawl complet, pas un correctif de `lib/`. **Ne pas
+remettre le drapeau à `true` sans avoir refait les trois contrôles du tableau ci-dessus.**
+Vérification de ce run : `npx tsc --noEmit` propre, `npm run integrity` propre, page FR rendue
+en dev (Douai et Gien, 200, copie et pourcentage corrects) ; la jumelle EN n'a pas pu être
+rendue — sous `next dev` les sous-pages ville EN répondent 404 quelle que soit la locale, y
+compris `climate` et `parks` que ce run n'a pas touchées, le routage EN vivant dans le Worker.
+Elle est typée et suit la même structure ; à contrôler au prochain déploiement.
 
 ### F63 — Qualité de l'air : passer du modèle à la mesure
 

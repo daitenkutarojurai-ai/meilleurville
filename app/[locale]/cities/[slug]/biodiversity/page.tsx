@@ -31,6 +31,7 @@ import {
   protectionLabel,
   inpnUrl,
   BIODIVERSITY_MEASURABLE_COUNT,
+  recordConcentration,
   SCORE_LEGEND_EN,
   GBIF_CREDIT,
   GBIF_URL,
@@ -68,7 +69,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // got cut in the SERP was the figures. Same lengths as the FR twin.
   const description = richness
     ? `${raw.species} species around ${city.name}, across ${raw.occurrences.toLocaleString("en-GB")} observations. Richness at equal survey effort: ${richness.score}/10. GBIF data.`
-    : richnessPending === "calibration"
+    : richnessPending === "incomparable" || richnessPending === "calibration"
       ? `${raw.species} species around ${city.name}, across ${raw.occurrences.toLocaleString("en-GB")} observations. Birds, insects and plants within ${raw.radiusKm} km. GBIF data.`
       : richnessPending === "precision"
         ? `Around ${city.name}, recorded richness is too imprecise to rank: our crawl cut the species list short. GBIF data.`
@@ -85,7 +86,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: `Biodiversity in ${city.name}`,
       description: richness
         ? `${raw.species} species recorded within ${raw.radiusKm} km · ${richness.score}/10 at equal survey effort`
-        : richnessPending === "calibration"
+        : richnessPending === "incomparable" || richnessPending === "calibration"
           ? `${raw.species} species recorded within ${raw.radiusKm} km`
           : richnessPending === "precision"
             ? `Richness bracketed, not yet precise enough to rank — the raw measurements are shown instead`
@@ -159,6 +160,7 @@ export default async function BiodiversityPage({ params }: Props) {
     overall,
   } = profile;
   const photo = cityPhoto(city.slug);
+  const concentration = recordConcentration(raw);
 
   const nb = (v: number) => v.toLocaleString("en-GB");
 
@@ -193,7 +195,9 @@ export default async function BiodiversityPage({ params }: Props) {
     "@context": "https://schema.org",
     "@type": "Dataset",
     name: `Biodiversity recorded around ${city.name}`,
-    description: `Species recorded within ${raw.radiusKm} km of ${city.name} since ${raw.yearFrom}, richness normalised to equal survey effort, and urban green space.`,
+    description: richness
+      ? `Species recorded within ${raw.radiusKm} km of ${city.name} since ${raw.yearFrom}, richness normalised to equal survey effort, and urban green space.`
+      : `Species recorded within ${raw.radiusKm} km of ${city.name} since ${raw.yearFrom}, and urban green space. Raw counts: these records are not comparable between cities.`,
     creator: { "@type": "Organization", name: "BestCitiesInFrance" },
     isBasedOn: GBIF_URL,
     license: "https://creativecommons.org/licenses/by/4.0/",
@@ -265,6 +269,16 @@ export default async function BiodiversityPage({ params }: Props) {
                 richness to equal survey effort — without it, you would be ranking cities by their
                 number of naturalists rather than by their nature.
               </>
+            ) : richnessPending === "incomparable" ? (
+              <>
+                {raw.species.toLocaleString("en-GB")} species have been recorded within{" "}
+                {raw.radiusKm} km since {raw.yearFrom}, across{" "}
+                {raw.occurrences.toLocaleString("en-GB")} observations submitted by{" "}
+                {raw.observers.toLocaleString("en-GB")} recorders. Those figures are what has been{" "}
+                <strong>observed and submitted</strong> here. We no longer turn them into a score
+                out of 10: the ranking we built from them tracked the kind of recording programme
+                operating around each city, not what lives there. Details at the bottom of the page.
+              </>
             ) : richnessPending === "calibration" ? (
               <>
                 {raw.species.toLocaleString("en-GB")} species have been recorded within{" "}
@@ -326,6 +340,49 @@ export default async function BiodiversityPage({ params }: Props) {
                     </>
                   )}
                 </div>
+              </div>
+            </div>
+          ) : richnessPending === "incomparable" ? (
+            <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-6">
+              <div className="text-sm font-semibold text-[var(--text-primary)] mb-2">
+                Why there is no richness score
+              </div>
+              <div className="text-sm text-[var(--text-secondary)] leading-relaxed space-y-3">
+                <p>
+                  We published a richness score until 10 August 2026, then withdrew it. Checked
+                  across all 540 cities, it correlated <strong>−0.77</strong> with how concentrated
+                  the local records are — the share of observations held by a handful of species —
+                  and only <strong>+0.10</strong> with the number of species actually recorded. It
+                  was not ranking nature; it was ranking the kind of recording programme operating
+                  around each city.
+                </p>
+                <p>
+                  The reason is technical, and fits in one sentence: a field observation and an
+                  ultrasonic detector&apos;s automatic contact count for the same thing in GBIF.
+                  Wherever such a device runs, a single species can take up most of the
+                  observations and swamp the calculation.
+                  {concentration != null && (
+                    <>
+                      {" "}
+                      Here, the five most-recorded species account for{" "}
+                      <strong>
+                        {(concentration * 100).toLocaleString("en-GB", {
+                          maximumFractionDigits: 0,
+                        })}
+                        %
+                      </strong>{" "}
+                      of observations.
+                    </>
+                  )}
+                </p>
+                <p>
+                  The result was visible on screen: Guadeloupe and French Guiana — by far the most
+                  species-rich French territories — came out last, and the département alone
+                  explained <strong>56%</strong> of the score. We would rather show the raw counts,
+                  which are exact, and draw no conclusion from them, than keep a ranking that was
+                  wrong but looked good. Fixing it means going back to GBIF and weighting by
+                  dataset: that is collection work, not display work.
+                </p>
               </div>
             </div>
           ) : richnessPending === "calibration" ? (
@@ -399,7 +456,9 @@ export default async function BiodiversityPage({ params }: Props) {
               score={richness?.score ?? null}
               detail={`${raw.species.toLocaleString("en-GB")} species recorded, normalised to a common sample of ${raw.rarefiedN} observations. GBIF, ${raw.radiusKm} km radius, since ${raw.yearFrom}.`}
               missing={
-                richnessPending === "calibration"
+                richnessPending === "incomparable"
+                  ? `${raw.species.toLocaleString("en-GB")} species recorded here — an exact count, but not comparable between cities: the score built from these records ranked recording programmes, not nature. Withdrawn on 10 August 2026.`
+                  : richnessPending === "calibration"
                   ? `${raw.rarefied?.toLocaleString("en-GB")} species expected per ${raw.rarefiedN} observations${raw.rarefiedExact ? "" : " (lower bound)"}. The rank out of 10 waits until more cities are surveyed.`
                   : richnessPending === "precision"
                     ? `Between ${raw.rarefied?.toLocaleString("en-GB")} and ${raw.rarefiedUpper?.toLocaleString("en-GB")} species expected per ${raw.rarefiedN} observations: too wide an interval to rank.`

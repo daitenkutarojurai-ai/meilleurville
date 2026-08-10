@@ -32,6 +32,7 @@ import {
   protectionLabel,
   inpnUrl,
   BIODIVERSITY_MEASURABLE_COUNT,
+  recordConcentration,
   SCORE_LEGEND_FR,
   GBIF_CREDIT,
   GBIF_URL,
@@ -76,7 +77,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // ce qui se faisait couper en SERP, c'était les chiffres.
   const description = richness
     ? `${raw.species} espèces autour de ${city.name}, sur ${raw.occurrences.toLocaleString("fr-FR")} observations. Richesse à effort d'observation égal : ${richness.score}/10. Données GBIF.`
-    : richnessPending === "calibration"
+    : richnessPending === "incomparable" || richnessPending === "calibration"
       ? `${raw.species} espèces autour de ${city.name}, sur ${raw.occurrences.toLocaleString("fr-FR")} observations. Oiseaux, insectes, flore, dans un rayon de ${raw.radiusKm} km. Données GBIF.`
       : richnessPending === "precision"
         ? `Autour de ${city.name}, la richesse relevée est trop imprécise pour un rang : notre collecte a coupé la liste d'espèces. Données GBIF.`
@@ -93,7 +94,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: `Biodiversité à ${city.name}`,
       description: richness
         ? `${raw.species} espèces recensées dans un rayon de ${raw.radiusKm} km · ${richness.score}/10 à effort d'observation égal`
-        : richnessPending === "calibration"
+        : richnessPending === "incomparable" || richnessPending === "calibration"
           ? `${raw.species} espèces recensées dans un rayon de ${raw.radiusKm} km`
           : richnessPending === "precision"
             ? `Richesse encadrée, pas encore assez précise pour un rang — les mesures brutes sont affichées`
@@ -168,6 +169,7 @@ export default async function BiodiversitePage({ params }: Props) {
     overall,
   } = profile;
   const photo = cityPhoto(city.slug);
+  const concentration = recordConcentration(raw);
 
   const nb = (v: number) => v.toLocaleString("fr-FR");
 
@@ -205,7 +207,9 @@ export default async function BiodiversitePage({ params }: Props) {
     "@context": "https://schema.org",
     "@type": "Dataset",
     name: `Biodiversité observée autour de ${city.name}`,
-    description: `Espèces recensées dans un rayon de ${raw.radiusKm} km autour de ${city.name} depuis ${raw.yearFrom}, richesse ramenée à effort d'observation égal, et espaces verts urbains.`,
+    description: richness
+      ? `Espèces recensées dans un rayon de ${raw.radiusKm} km autour de ${city.name} depuis ${raw.yearFrom}, richesse ramenée à effort d'observation égal, et espaces verts urbains.`
+      : `Espèces recensées dans un rayon de ${raw.radiusKm} km autour de ${city.name} depuis ${raw.yearFrom}, et espaces verts urbains. Effectifs bruts : ces relevés ne sont pas comparables d'une ville à l'autre.`,
     creator: { "@type": "Organization", name: "MaVilleIdéale" },
     isBasedOn: GBIF_URL,
     license: "https://creativecommons.org/licenses/by/4.0/",
@@ -277,6 +281,16 @@ export default async function BiodiversitePage({ params }: Props) {
                 cette richesse à effort d&apos;observation égal — sans quoi on classerait les villes
                 par nombre de naturalistes, pas par nature.
               </>
+            ) : richnessPending === "incomparable" ? (
+              <>
+                {raw.species.toLocaleString("fr-FR")} espèces ont été recensées dans un rayon de{" "}
+                {raw.radiusKm} km depuis {raw.yearFrom}, sur{" "}
+                {raw.occurrences.toLocaleString("fr-FR")} observations déposées par{" "}
+                {raw.observers.toLocaleString("fr-FR")} naturalistes. Ces chiffres sont ce qui a été{" "}
+                <strong>observé et saisi</strong> ici. Nous n&apos;en tirons plus de note sur 10 :
+                le classement que nous en faisions mesurait le type de programme de saisie qui
+                opère autour de la ville, pas ce qui y vit. Le détail est en bas de page.
+              </>
             ) : richnessPending === "calibration" ? (
               <>
                 {raw.species.toLocaleString("fr-FR")} espèces ont été recensées dans un rayon de{" "}
@@ -340,6 +354,51 @@ export default async function BiodiversitePage({ params }: Props) {
                     </>
                   )}
                 </div>
+              </div>
+            </div>
+          ) : richnessPending === "incomparable" ? (
+            <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-6">
+              <div className="text-sm font-semibold text-[var(--text-primary)] mb-2">
+                Pourquoi il n&apos;y a pas de note de richesse
+              </div>
+              <div className="text-sm text-[var(--text-secondary)] leading-relaxed space-y-3">
+                <p>
+                  Nous avons publié une note de richesse jusqu&apos;au 10 août 2026, puis nous
+                  l&apos;avons retirée. En la vérifiant sur les 540 villes, elle s&apos;est révélée
+                  corrélée à <strong>−0,77</strong> avec la concentration des relevés — la part des
+                  observations que se partagent quelques espèces — et à <strong>+0,10</strong>{" "}
+                  seulement avec le nombre d&apos;espèces réellement recensées. Elle ne classait pas
+                  la nature : elle classait le type de programme de saisie qui opère autour de
+                  chaque ville.
+                </p>
+                <p>
+                  La raison est technique et tient en une phrase : une observation de terrain et un
+                  contact enregistré automatiquement par un détecteur à ultrasons comptent pour la
+                  même chose dans GBIF. Là où un tel dispositif tourne, une seule espèce peut
+                  occuper l&apos;essentiel des observations et écraser le calcul.
+                  {concentration != null && (
+                    <>
+                      {" "}
+                      Ici, les cinq espèces les plus enregistrées représentent{" "}
+                      <strong>
+                        {(concentration * 100).toLocaleString("fr-FR", {
+                          maximumFractionDigits: 0,
+                        })}{" "}
+                        %
+                      </strong>{" "}
+                      des observations.
+                    </>
+                  )}
+                </p>
+                <p>
+                  Le résultat se voyait à l&apos;écran : la Guadeloupe et la Guyane, de loin les
+                  territoires français les plus riches en espèces, sortaient derniers, et le
+                  département expliquait à lui seul <strong>56 %</strong> de la note. Nous
+                  préférons afficher les effectifs bruts, qui sont exacts, et ne rien en conclure,
+                  plutôt que de garder un classement faux parce qu&apos;il était joli. Réparer
+                  demande de repasser par GBIF en pondérant par jeu de données — c&apos;est du
+                  travail de collecte, pas d&apos;affichage.
+                </p>
               </div>
             </div>
           ) : richnessPending === "calibration" ? (
@@ -416,7 +475,9 @@ export default async function BiodiversitePage({ params }: Props) {
               score={richness?.score ?? null}
               detail={`${raw.species.toLocaleString("fr-FR")} espèces recensées, ramenées à un échantillon commun de ${raw.rarefiedN} observations. Source GBIF, rayon ${raw.radiusKm} km, depuis ${raw.yearFrom}.`}
               missing={
-                richnessPending === "calibration"
+                richnessPending === "incomparable"
+                  ? `${raw.species.toLocaleString("fr-FR")} espèces recensées ici — un effectif exact, mais pas comparable d'une ville à l'autre : la note tirée de ces relevés classait les programmes de saisie, pas la nature. Retirée le 10 août 2026.`
+                  : richnessPending === "calibration"
                   ? `${raw.rarefied?.toLocaleString("fr-FR")} espèces attendues pour ${raw.rarefiedN} observations${raw.rarefiedExact ? "" : " (borne basse)"}. Le rang sur 10 attend que davantage de villes soient relevées.`
                   : richnessPending === "precision"
                     ? `Entre ${raw.rarefied?.toLocaleString("fr-FR")} et ${raw.rarefiedUpper?.toLocaleString("fr-FR")} espèces attendues pour ${raw.rarefiedN} observations : l'intervalle est trop large pour un rang.`

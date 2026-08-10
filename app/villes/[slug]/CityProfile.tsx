@@ -796,7 +796,12 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                                 `${bio.species} espèces · ${bio.score.toFixed(1).replace(".", ",")}/10 à effort égal`,
                                 `${bio.species} species · ${bio.score.toFixed(1)}/10 at equal effort`,
                               )
-                            : bio.pending === "precision"
+                            : bio.pending === "incomparable"
+                              ? L(
+                                  `${bio.species} espèces recensées autour de la ville`,
+                                  `${bio.species} species recorded around the city`,
+                                )
+                              : bio.pending === "precision"
                               ? L(
                                   `${bio.species} espèces · trop relevée pour notre collecte`,
                                   `${bio.species} species · richer than our crawl could capture`,

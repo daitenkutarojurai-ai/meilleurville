@@ -1038,6 +1038,23 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
     un `openGraph` **sans `images`**, le piège documenté plus haut. `overall` reste `null`
     (zones protégées 0/540) et `/classements/biodiversite` **n'existe pas** : 278 mesurables,
     sous le seuil de ~300. Détail complet dans `ROADMAP.md` § point d'étape 2026-08-06.
+  - **État au 2026-08-10 — crawl terminé (540/540), et le rang de richesse est RETIRÉ.**
+    Le seuil de ~300 villes mesurables était franchi (513) ; le corpus complet a permis de
+    contrôler la mesure pour la première fois, et elle n'a pas tenu : corrélation de rang
+    **−0,77** avec la concentration des relevés (part des observations tenue par 5 espèces),
+    **+0,10** seulement avec le nombre d'espèces réellement recensées, et **56 %** de la
+    variance expliquée par le seul département. Le score classait le **type de programme de
+    saisie** (détecteurs à ultrasons, comptages de colonies, atlas botaniques), pas la nature :
+    Douai et ses 2 588 espèces sortaient à 0,0/10, la Guadeloupe à 0,1 et la Guyane à 1,8 quand
+    le Centre-Val de Loire tenait 7,8. Le site classait la Beauce au-dessus de l'Amazonie.
+    ⚠️ **`/classements/biodiversite` est abandonné, pas reporté — ne pas le recréer** au motif
+    que la couverture est bonne : c'est la mesure qui est en cause, pas le nombre de villes.
+    De même, ne pas remettre `RICHNESS_RANKING_PUBLISHED` (`lib/biodiversity.ts`) à `true` sans
+    avoir refait les trois contrôles ; le remède est un recrawl GBIF agrégé par `datasetKey`
+    (`QUERY_VERSION = 3`), pas un correctif d'affichage. Les effectifs bruts restent publiés,
+    ils sont exacts — c'est le classement qui était faux. Nouveau motif
+    `richnessPending: "incomparable"`, prioritaire sur `effort` / `precision` / `calibration`.
+    Détail complet dans `ROADMAP.md` § point d'étape 2026-08-10.
 
 - [ ] **F63 — Qualité de l'air : du modèle à la mesure** — la section existe
   (`/villes/[slug]/air` ×540 + EN `air-quality`) mais `lib/air-quality.ts` **calcule
