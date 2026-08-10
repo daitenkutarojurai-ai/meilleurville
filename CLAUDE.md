@@ -311,10 +311,21 @@ npm run cf:deploy:en       # -> bestcitiesinfrance.com (worker `meilleurville-en
 n'échoue. Les deux scripts `cf:deploy*` lisent maintenant le `<link rel="canonical">` réellement
 inliné dans `out/index.html` et refusent de partir si l'export ne correspond pas au worker visé.
 
-Trois points de mesure, pas d'optimisme : `wrangler` annonce le nombre d'assets téléversés (~57 000
-sur un déploiement complet, comptez ~50 min), puis on vérifie **en ligne** une page livrée depuis le
-dernier déploiement (`curl -o /dev/null -w '%{http_code}'`) — une 404 sur une page présente dans
-`out/` veut dire que le déploiement n'est pas allé au bout, quoi qu'en dise le log.
+Chiffres réels du 2026-08-10, pour savoir à quoi s'attendre : 58 396 pages générées en 5,8–6,5 min,
+`out/` fait ~9 Go et 117 000 fichiers, dont ~57 300 nouveaux ou modifiés à téléverser ; l'upload
+prend **11 à 13 min** par domaine (`Uploaded meilleurville (799 s)`, `meilleurville-en (668 s)`).
+Compter ~35 min par domaine, build compris.
+
+Puis on vérifie **en ligne**, avec `curl -o /dev/null -w '%{http_code}'`, une page livrée depuis le
+dernier déploiement — une 404 sur une page présente dans `out/` veut dire que le déploiement n'est
+pas allé au bout, quoi qu'en dise le log. **Mais laisse passer 2 à 5 minutes** : la propagation des
+assets n'est pas instantanée, et une page vérifiée dans la minute qui suit le déploiement répond
+encore 404 avant de passer à 200 sans que rien n'ait été refait. Vérifier trop tôt, c'est fabriquer
+un faux incident.
+
+Une dernière chose sur les URL de contrôle : côté EN, l'arbre servi est `out/en/**` (le Worker
+réécrit `/<chemin>` en `/en/<chemin>`), et les départements sont **slugués**, pas numérotés
+(`/departments/ain/tax`, pas `/departments/01/tax`). Prends l'URL dans `out/`, ne la devine pas.
 
 @AGENTS.md
 
