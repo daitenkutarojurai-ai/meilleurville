@@ -53,6 +53,13 @@ export PATH="${NODE_BIN}:/usr/local/bin:/usr/bin:/bin"
 
 say() { printf '%s %s\n' "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" "$*" | tee -a "$LOG"; }
 
+# Each pass appends two full build logs (~130 KB). Keep the last run whole and
+# drop what's older, so a year of nightly deploys doesn't quietly fill the disk
+# this script is supposed to protect.
+if [[ -f "$LOG" ]] && (( $(stat -c%s "$LOG") > 5000000 )); then
+  tail -c 1000000 "$LOG" > "${LOG}.tmp" && mv "${LOG}.tmp" "$LOG"
+fi
+
 # One deploy at a time, and never alongside the data runner's crawl: both want
 # the same working tree, and a build that starts mid-`git pull` exports a
 # half-updated corpus.
