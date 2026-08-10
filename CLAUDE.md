@@ -428,7 +428,22 @@ Le Robert, Le François.
 
 Page unique, données inline (`SECTIONS: {title, emoji, terms[]}`), `DefinedTermSet` JSON-LD généré
 depuis le tableau — ajouter un terme suffit, rien d'autre à câbler. **Compteur mesuré
-(`grep -c 'term: "'`) : 115 termes, 12 sections** (2026-08-03). Dernière section ajoutée :
+(`grep -c 'term: "'`) : 127 termes, 13 sections** (2026-08-10). Dernière section ajoutée :
+« Assurance habitation et catastrophes naturelles » 🌊 — 12 termes (MRH et qui doit s'assurer,
+garantie cat-nat, arrêté de catastrophe naturelle, franchise légale, surprime, CCR, RGA, fonds
+Barnier, taxe GEMAPI, recul du trait de côte, BCT, valeur à neuf). Elle honore exactement le
+cadrage laissé en 2026-08-03 ci-dessous : **côté assurance et indemnisation uniquement**, parce
+qu'ERP/ERRIAL et PPRI/PPRT sont déjà traités sous « Diagnostics ». Le site portait
+`/villes/[slug]/risques`, `/red-flags/villes-risques-naturels`, `villes-erosion-cotiere` et
+`villes-sans-eau-ete` sans jamais expliquer ce qui est payé, par qui et sous quelle condition.
+Trois points de méthode à ne pas diluer : ① la garantie cat-nat **ne couvre ni la tempête, ni la
+grêle, ni le poids de la neige** (garantie distincte du contrat) et **ne couvre pas le recul du
+trait de côte**, phénomène lent donc hors du champ « intensité anormale » — c'est l'erreur la plus
+répandue, et les deux entrées concernées le disent explicitement ; ② les seuls chiffres cités sont réglementaires et
+nationaux (franchise 380 € / 1 520 € sécheresse, surprime 20 % et 9 % au 1ᵉʳ janvier 2025, plafond
+GEMAPI 40 €/hab./an, subvention Barnier jusqu'à 80 %) — aucun tarif d'assureur, aucune moyenne de
+prime, qui ne seraient pas sourçables ; ③ ce qui relève du contrat et non de la loi (valeur à neuf,
+plafonds) est écrit comme tel, avec « le plus souvent » et « délai contractuel ». Avant-dernière section :
 « École, garde d'enfants et scolarité » 🎒 — 15 termes (carte scolaire, dérogation, certificat de
 radiation, instruction obligatoire, REP/REP+, IPS, Affelnet, Parcoursup, privé sous contrat,
 périscolaire, quotient familial CAF, modes de garde, CMG, PAI/PAP/PPS, transport scolaire) : c'était

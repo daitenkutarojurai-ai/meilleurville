@@ -8,7 +8,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 export const metadata: Metadata = {
   title: "Glossaire immobilier, aides, rénovation & école",
   description:
-    "DPE, LMNP, TAEG, ZFE, APL, MaPrimeRénov', carte scolaire, IPS, CMG : les termes utiles pour louer, acheter, rénover ou déménager en France en 2026.",
+    "DPE, LMNP, TAEG, ZFE, APL, MaPrimeRénov', carte scolaire, IPS, cat-nat : les termes utiles pour louer, acheter, rénover, assurer ou déménager en France.",
   alternates: { canonical: "/glossaire" },
 };
 
@@ -548,6 +548,60 @@ const SECTIONS: Section[] = [
       },
     ],
   },
+  {
+    title: "Assurance habitation et catastrophes naturelles",
+    emoji: "🌊",
+    terms: [
+      {
+        term: "Multirisque habitation (MRH) : qui doit s'assurer",
+        def: "Le locataire est tenu de s'assurer contre les risques locatifs et de remettre une attestation chaque année : à défaut, le bailleur peut souscrire un contrat pour son compte et lui en refacturer le coût, ou engager la résiliation du bail. Le copropriétaire, occupant ou bailleur, doit au minimum une responsabilité civile depuis la loi ALUR. Le propriétaire qui occupe sa maison individuelle n'a, lui, aucune obligation légale — mais sa banque l'exigera tant que le prêt court, et un sinistre non assuré reste intégralement à sa charge. Un contrat qui couvre les dommages aux biens embarque obligatoirement la garantie catastrophes naturelles décrite ci-dessous.",
+      },
+      {
+        term: "Garantie catastrophes naturelles (cat-nat)",
+        def: "Régime créé par la loi du 13 juillet 1982 : tout contrat couvrant les dommages aux biens comporte d'office cette garantie, aucun assureur ne peut l'exclure et aucune franchise contractuelle ne s'y substitue. Elle indemnise les dommages matériels directs causés par l'intensité anormale d'un agent naturel — inondation, coulée de boue, submersion marine, sécheresse et réhydratation des sols, séisme, mouvement de terrain, avalanche, cyclone. Attention au périmètre : la tempête, la grêle et le poids de la neige n'en relèvent pas, ils dépendent d'une garantie distincte du contrat, généralement acquise mais avec ses propres plafonds et franchises. Vérifier laquelle joue évite de croire à tort qu'un arrêté est nécessaire.",
+      },
+      {
+        term: "Arrêté de catastrophe naturelle",
+        def: "La garantie cat-nat ne se déclenche pas parce que le sinistre est spectaculaire : il faut un arrêté interministériel publié au Journal officiel, qui nomme la commune, le phénomène et la période concernée. C'est le maire qui dépose la demande auprès de la préfecture, à partir des déclarations des habitants — d'où l'intérêt de se signaler en mairie même quand on ne sait pas encore si le dossier aboutira. Depuis la réforme de 2021, l'assuré dispose de 30 jours après publication de l'arrêté pour déclarer son sinistre, l'assureur doit verser une provision dans les deux mois et solder l'indemnité dans le mois suivant l'accord, et les frais de relogement d'urgence d'une résidence principale devenue inhabitable sont pris en charge. Un refus de reconnaissance est motivé et peut être contesté.",
+      },
+      {
+        term: "Franchise légale cat-nat",
+        def: "Elle est fixée par l'État, pas par le contrat : 380 € pour les biens à usage d'habitation, et 1 520 € lorsque les dommages sont dus à la sécheresse et à la réhydratation des sols. Elle n'est pas rachetable — aucune formule, si complète soit-elle, ne la fait disparaître, et une publicité qui promet le contraire parle d'autre chose. Conséquence pratique sur des fissures de sécheresse : les premiers 1 520 € de reprise restent à votre charge à chaque sinistre reconnu, ce qui rend le petit désordre récurrent bien moins couvert qu'on ne le croit.",
+      },
+      {
+        term: "Surprime cat-nat",
+        def: "Le régime est financé par une majoration uniforme ajoutée à la prime de tous les contrats dommages aux biens, quel que soit le niveau d'exposition du logement — c'est le mécanisme de solidarité qui permet d'assurer une maison en zone inondable au même taux qu'un appartement à l'abri. Son taux est fixé par l'État et non par l'assureur : porté au 1ᵉʳ janvier 2025 à 20 % de la prime pour les biens et 9 % pour les véhicules, contre 12 % et 6 % auparavant. Cette hausse explique une part de l'augmentation des cotisations constatée cette année-là, indépendamment de tout changement de garanties. Elle figure sur l'avis d'échéance sous une ligne dédiée.",
+      },
+      {
+        term: "CCR (Caisse centrale de réassurance)",
+        def: "Réassureur public qui bénéficie de la garantie de l'État et auprès duquel la plupart des assureurs se réassurent pour la part cat-nat de leur portefeuille. C'est ce qui permet au régime d'absorber un événement majeur sans que l'assureur d'une région sinistrée fasse défaut, et ce qui justifie que le tarif et la franchise soient fixés par la puissance publique plutôt que par le marché. La CCR publie chaque année des projections de coût du régime : c'est la source qui documente la montée en charge de la sécheresse et de l'inondation à l'horizon 2050.",
+      },
+      {
+        term: "RGA (retrait-gonflement des argiles)",
+        def: "Les sols argileux se rétractent en période sèche et gonflent en se réhydratant ; ce mouvement différentiel sous les fondations fissure les maisons individuelles, presque jamais les immeubles collectifs correctement fondés. C'est devenu, avec l'inondation, l'un des deux grands postes de coût du régime cat-nat. L'exposition se lit commune par commune sur Géorisques : en aléa moyen ou fort, la loi ÉLAN impose une étude géotechnique préalable à la vente d'un terrain constructible non bâti, puis une étude de conception ou le respect de techniques constructives définies pour la maison qui y sera bâtie. Un régime propre aux désordres de sécheresse s'applique aux sinistres les plus récents : il vise à financer la réparation durable de la cause, pas seulement les reprises esthétiques de la fissure.",
+      },
+      {
+        term: "Fonds Barnier (FPRNM)",
+        def: "Fonds de prévention des risques naturels majeurs, alimenté par un prélèvement sur la surprime cat-nat et inscrit au budget de l'État depuis 2021. Il finance deux choses très différentes : l'acquisition amiable ou l'expropriation des biens les plus gravement menacés, indemnisés sans tenir compte de la décote due au risque, et la subvention des travaux de réduction de vulnérabilité — jusqu'à 80 % du coût pour un particulier lorsque les travaux sont prescrits par un plan de prévention des risques approuvé. C'est le seul dispositif qui rend finançable la mise en sécurité d'un logement déjà exposé : à vérifier auprès de la mairie ou de la DDT avant d'écarter un bien pour son coût de mise à niveau.",
+      },
+      {
+        term: "Taxe GEMAPI",
+        def: "La gestion des milieux aquatiques et la prévention des inondations est une compétence obligatoire des intercommunalités depuis 2018 : digues, berges, ouvrages de ralentissement. Pour la financer, l'intercommunalité peut lever une taxe facultative plafonnée à 40 € par habitant et par an, répartie sur les taxes foncières et la cotisation foncière des entreprises. Elle n'apparaît pas comme une ligne « inondation » sur l'avis d'imposition mais gonfle la taxe foncière, ce qui explique une partie des écarts entre deux communes voisines. Son existence signale un territoire qui investit dans la protection : à lire comme une information sur le risque local autant que comme un coût.",
+      },
+      {
+        term: "Recul du trait de côte",
+        def: "L'érosion littorale est un phénomène lent et prévisible, donc explicitement hors du champ de la garantie cat-nat, qui ne couvre que l'intensité anormale d'un événement : une maison qui perd la falaise sous elle n'est pas indemnisée à ce titre, contrairement à la submersion marine lors d'une tempête. La loi Climat et Résilience de 2021 a créé une liste de communes exposées, fixée par décret et élargie depuis, tenues de cartographier l'horizon 0-30 ans et 30-100 ans dans leur document d'urbanisme et d'en informer acquéreurs et locataires. Dans ces zones, la constructibilité et la valeur de revente sont conditionnées par un horizon daté, et un bail réel d'adaptation à l'érosion côtière permet une occupation à durée limitée. Le vérifier avant tout achat en front de mer.",
+      },
+      {
+        term: "BCT (Bureau central de tarification)",
+        def: "Instance à saisir quand un assureur refuse de couvrir un logement jugé trop exposé — zone rouge d'un plan de prévention, sinistres cat-nat répétés, désordres de sécheresse en cours. Le BCT ne cherche pas un assureur à votre place : il fixe la prime à laquelle l'assureur que vous avez désigné est tenu de vous couvrir. La saisine est gratuite et se fait par lettre recommandée avec le refus écrit à l'appui. C'est le recours qui manque le plus souvent au dossier d'un acheteur qui s'entend dire qu'un bien est « inassurable » : l'assurabilité se négocie, elle ne s'obtient pas seulement au guichet.",
+      },
+      {
+        term: "Valeur à neuf et vétusté déduite",
+        def: "L'indemnisation de base d'un sinistre se calcule en valeur d'usage : coût de reconstruction ou de remplacement, moins un abattement de vétusté qui peut atteindre plusieurs dizaines de pourcents sur une toiture ou une installation ancienne. La garantie « valeur à neuf » rembourse tout ou partie de cette vétusté, le plus souvent dans une limite exprimée en pourcentage de la valeur du bien et à condition de reconstruire ou de remplacer dans un délai contractuel. C'est la clause qui décide de ce que vous touchez réellement après un dégât des eaux ou un incendie, bien plus que le montant du capital mobilier affiché en tête de contrat.",
+      },
+    ],
+  },
 ];
 
 const TERM_COUNT = SECTIONS.reduce((n, s) => n + s.terms.length, 0);
@@ -558,7 +612,7 @@ export default function GlossairePage() {
     "@type": "DefinedTermSet",
     name: "Glossaire immobilier et relocation",
     description:
-      "Termes clés pour acheter, louer, investir, déménager ou scolariser ses enfants en France : DPE, LMNP, ZFE, taxe foncière, fibre FTTH, encadrement des loyers, carte scolaire, IPS et plus.",
+      "Termes clés pour acheter, louer, investir, assurer, déménager ou scolariser ses enfants en France : DPE, LMNP, ZFE, taxe foncière, fibre FTTH, encadrement des loyers, carte scolaire, IPS, garantie cat-nat et plus.",
     hasDefinedTerm: SECTIONS.flatMap((s) =>
       s.terms.map((t) => ({
         "@type": "DefinedTerm",
@@ -592,8 +646,9 @@ export default function GlossairePage() {
           </h1>
           <p className="text-[var(--text-secondary)] leading-relaxed">
             {TERM_COUNT} termes clés pour comprendre l&apos;immobilier, la location, l&apos;investissement
-            locatif, le déménagement et la scolarisation des enfants en France en 2026. Pas de
-            jargon inutile, juste les définitions qu&apos;il faut connaître avant de signer.
+            locatif, l&apos;assurance du logement, le déménagement et la scolarisation des enfants en
+            France en 2026. Pas de jargon inutile, juste les définitions qu&apos;il faut connaître
+            avant de signer.
           </p>
         </div>
       </section>
