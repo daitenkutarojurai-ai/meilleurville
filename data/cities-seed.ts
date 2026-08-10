@@ -30,7 +30,7 @@ const RAW_CITIES_SEED = [
       "Annecy sits on the northern tip of its namesake lake, ringed by pre-Alpine peaks. It is one of the most expensive small cities in France — rents and home prices have run far ahead of regional wages — but residents tolerate it for the quality of the water, the year-round outdoor access, and the very low crime rate. Best fit for families and remote workers who can absorb the housing premium.",
     seoTitleEn: "Annecy — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Annecy (Haute-Savoie, Auvergne-Rhône-Alpes): quality-of-life score 8.6/10. Outdoor lifestyle, very low crime, premium housing market. Resident reviews and detailed local data.",
+      "Annecy (Haute-Savoie, Auvergne-Rhône-Alpes): quality-of-life score 7.3/10. Outdoor lifestyle, very low crime, premium housing market. Resident reviews and detailed local data.",
     scores: {
       global: 8.6,
       life: 8.9,
@@ -61,7 +61,7 @@ const RAW_CITIES_SEED = [
       "Nantes is the largest city of western France, an hour from the Atlantic by car. It carries a young, post-industrial creative scene (Quartier de la Création, Machines de l'Île), a dense tram and bike network, and a milder, wetter climate than the southern metros. Strong fit for remote workers and families who want a metropolitan culture without southern-French heat.",
     seoTitleEn: "Nantes — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Nantes (Loire-Atlantique, Pays de la Loire): quality-of-life score 8.3/10. Creative scene, strong bike network, mild Atlantic climate. Resident reviews and detailed local data.",
+      "Nantes (Loire-Atlantique, Pays de la Loire): quality-of-life score 6.9/10. Creative scene, strong bike network, mild Atlantic climate. Resident reviews and detailed local data.",
     scores: {
       global: 8.3,
       life: 8.4,
@@ -92,7 +92,7 @@ const RAW_CITIES_SEED = [
       "Rennes anchors the Brittany region — a compact student and tech city of around 220,000 inhabitants, well connected to Paris (1h25 by TGV). Cost of living stays below the national big-city average; the tram + bike network is unusually dense for its size. Weather is wet rather than cold. Strong fit for early-career professionals, students, and remote workers leaving Paris.",
     seoTitleEn: "Rennes — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Rennes (Ille-et-Vilaine, Brittany): quality-of-life score 8.2/10. Compact, affordable, well-connected to Paris. Resident reviews and detailed local data.",
+      "Rennes (Ille-et-Vilaine, Brittany): quality-of-life score 7.4/10. Compact, affordable, well-connected to Paris. Resident reviews and detailed local data.",
     scores: {
       global: 8.2,
       life: 8.3,
@@ -123,7 +123,7 @@ const RAW_CITIES_SEED = [
       "Bordeaux turned around in the 2000s: the historical centre was renovated, the tram extended, and TGV cut Paris to two hours. The city now mixes wine heritage with creative industries. Housing prices doubled in fifteen years and have since cooled but stay high. Summers are getting hot. Best fit for couples and remote workers prioritising food, climate, and an international airport.",
     seoTitleEn: "Bordeaux — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Bordeaux (Gironde, Nouvelle-Aquitaine): quality-of-life score 8.1/10. Renovated centre, fast TGV to Paris, premium housing, hot summers. Resident reviews and local data.",
+      "Bordeaux (Gironde, Nouvelle-Aquitaine): quality-of-life score 6.9/10. Renovated centre, fast TGV to Paris, premium housing, hot summers. Resident reviews and local data.",
     scores: {
       global: 8.1,
       life: 8.3,
@@ -154,7 +154,7 @@ const RAW_CITIES_SEED = [
       "Montpellier is the southern student capital — almost 80,000 students for under 300,000 residents — with Mediterranean weather, the beach 10 km away, and a fast-growing tech-and-health sector. The downside is real: petty crime and tensions in certain neighbourhoods are documented in SSMSI data. Best fit for students, single professionals, and remote workers comfortable with city density.",
     seoTitleEn: "Montpellier — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Montpellier (Hérault, Occitanie): quality-of-life score 7.9/10. Mediterranean climate, large student population, sea 10 km away. Honest data on safety and housing.",
+      "Montpellier (Hérault, Occitanie): quality-of-life score 5.6/10. Mediterranean climate, large student population, sea 10 km away. Honest data on safety and housing.",
     scores: {
       global: 7.9,
       life: 8.0,
@@ -185,7 +185,7 @@ const RAW_CITIES_SEED = [
       "Strasbourg sits on the Rhine, doubles as a seat of the European Parliament, and has the densest cycling network in France. Cultural offering punches well above its population size. Winters are properly cold by French standards. Strong fit for families, public-sector / EU professionals, and anyone who values cycling-first urban planning.",
     seoTitleEn: "Strasbourg — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Strasbourg (Bas-Rhin, Grand Est): quality-of-life score 8.0/10. European institutions, densest cycling network in France, cold winters. Detailed resident reviews.",
+      "Strasbourg (Bas-Rhin, Grand Est): quality-of-life score 7.5/10. European institutions, densest cycling network in France, cold winters. Detailed resident reviews.",
     scores: {
       global: 8.0,
       life: 8.1,
@@ -216,7 +216,7 @@ const RAW_CITIES_SEED = [
       "Toulouse is the fourth-largest French city, anchored by the Airbus headquarters and a deep aerospace ecosystem. The historical brick centre, southern climate, and ongoing tram extension make it attractive — but rapid growth has put real pressure on housing and traffic. Best fit for engineering and tech workers, students, and households who want southern weather without Mediterranean prices.",
     seoTitleEn: "Toulouse — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Toulouse (Haute-Garonne, Occitanie): quality-of-life score 7.8/10. Airbus / aerospace hub, historical brick centre, growing housing pressure. Detailed local data.",
+      "Toulouse (Haute-Garonne, Occitanie): quality-of-life score 6.6/10. Airbus / aerospace hub, historical brick centre, growing housing pressure. Detailed local data.",
     scores: {
       global: 7.8,
       life: 7.9,
@@ -247,7 +247,7 @@ const RAW_CITIES_SEED = [
       "Grenoble is wedged between three Alpine ranges — outdoor sports are not a marketing pitch, they are five minutes from any front door. A long-standing university and a dense semiconductor / nanotech cluster make it France's most research-intensive mid-size city. Air quality issues are real in winter inversion. Strong fit for STEM workers and outdoor-active households.",
     seoTitleEn: "Grenoble — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Grenoble (Isère, Auvergne-Rhône-Alpes): quality-of-life score 7.7/10. Alpine access, dense research and semiconductor cluster, winter air-quality concerns. Detailed local data.",
+      "Grenoble (Isère, Auvergne-Rhône-Alpes): quality-of-life score 6.8/10. Alpine access, dense research and semiconductor cluster, winter air-quality concerns. Detailed local data.",
     scores: {
       global: 7.7,
       life: 7.6,
@@ -278,7 +278,7 @@ const RAW_CITIES_SEED = [
       "Nice is the most international French city on the Mediterranean — large English-speaking community, airport with intercontinental connections, mild winters and hot, dry summers. Housing is expensive, tourism saturates the seafront in peak season, and public-transport coverage outside the centre is uneven. Best fit for international remote workers and retirees who prioritise climate and air access.",
     seoTitleEn: "Nice — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Nice (Alpes-Maritimes, Provence-Alpes-Côte d'Azur): quality-of-life score 7.8/10. International airport, mild winters, expensive housing, tourist-heavy seafront. Detailed local data.",
+      "Nice (Alpes-Maritimes, Provence-Alpes-Côte d'Azur): quality-of-life score 5.4/10. International airport, mild winters, expensive housing, tourist-heavy seafront. Detailed local data.",
     scores: {
       global: 7.8,
       life: 8.0,
@@ -309,7 +309,7 @@ const RAW_CITIES_SEED = [
       "Lyon is the second metropolitan area of France, two hours from Paris and the Alps alike. Deep gastronomic tradition, strong banking and pharma employers, and a four-line metro give it metropolitan amenities without the size of Paris. Summers are increasingly hot in the Rhône valley. Strong fit for senior professionals, families, and households who want a true big-city offer outside Paris.",
     seoTitleEn: "Lyon — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Lyon (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 8.0/10. Second French metro, gastronomic capital, four-line metro, two hours from Paris and the Alps.",
+      "Lyon (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 7.1/10. Second French metro, gastronomic capital, four-line metro, two hours from Paris and the Alps.",
     scores: {
       global: 8.0,
       life: 8.1,
@@ -340,7 +340,7 @@ const RAW_CITIES_SEED = [
       "Brest is Finistère's Atlantic port city, far-west Brittany, with a working naval-base identity and a refreshingly affordable cost of living. Wild coastline, mild oceanic climate, modest cultural scene compared to Rennes or Nantes, but strong value for money. Best fit: families on tighter budgets, sea-and-nature lovers, remote workers who don't need an international airport.",
     seoTitleEn: "Brest — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Brest (Finistère, Bretagne): quality-of-life score 7.2/10. Atlantic naval port, far-west Brittany, affordable, wild coast, mild oceanic climate.",
+      "Brest (Finistère, Bretagne): quality-of-life score 6.4/10. Atlantic naval port, far-west Brittany, affordable, wild coast, mild oceanic climate.",
     scores: {
       global: 7.2,
       life: 7.3,
@@ -371,7 +371,7 @@ const RAW_CITIES_SEED = [
       "Aix-en-Provence is the refined Provençal alternative to Marseille — historic, walkable, very sunny, with a major law-and-arts university. Expensive for its size (real-estate prices close to Bordeaux) but the daily-life quality is consistently top-tier. Strong fit for families, retirees with budget, and remote workers seeking Mediterranean climate without Marseille's urban edge.",
     seoTitleEn: "Aix-en-Provence — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Aix-en-Provence (Bouches-du-Rhône, PACA): quality-of-life score 8.2/10. Refined Provençal city, very sunny, historic centre, university town, expensive.",
+      "Aix-en-Provence (Bouches-du-Rhône, PACA): quality-of-life score 6.5/10. Refined Provençal city, very sunny, historic centre, university town, expensive.",
     scores: {
       global: 8.2,
       life: 8.5,
@@ -402,7 +402,7 @@ const RAW_CITIES_SEED = [
       "Clermont-Ferrand sits at the foot of the Chaîne des Puys volcanic range (UNESCO) — France's most spectacular city-with-mountains-out-the-window. Affordable, sporty, with Michelin's headquarters and a strong university. Modest cultural scene compared to Lyon, but outdoor access and cost of living are excellent. Best fit: outdoor active families, students, remote workers wanting nature on the doorstep.",
     seoTitleEn: "Clermont-Ferrand — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Clermont-Ferrand (Puy-de-Dôme, Auvergne-Rhône-Alpes): quality-of-life score 7.4/10. Volcanic mountain backdrop, affordable, sporty, Michelin HQ, strong university.",
+      "Clermont-Ferrand (Puy-de-Dôme, Auvergne-Rhône-Alpes): quality-of-life score 6.3/10. Volcanic mountain backdrop, affordable, sporty, Michelin HQ, strong university.",
     scores: {
       global: 7.4,
       life: 7.5,
@@ -433,7 +433,7 @@ const RAW_CITIES_SEED = [
       "Dijon is Burgundy's gastronomic and historic capital — exceptionally well-preserved medieval and Renaissance core, 90-minute TGV to Paris, world-class wine villages at the doorstep (Beaune, Nuits-Saint-Georges). Cycle-friendly, refined, mid-sized. Best fit: foodies, wine lovers, families wanting culture without big-city stress, remote workers within easy reach of Paris.",
     seoTitleEn: "Dijon — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Dijon (Côte-d'Or, Bourgogne-Franche-Comté): quality-of-life score 7.6/10. Burgundy capital, gastronomic, historic, 90 min TGV to Paris, cycle-friendly.",
+      "Dijon (Côte-d'Or, Bourgogne-Franche-Comté): quality-of-life score 6.4/10. Burgundy capital, gastronomic, historic, 90 min TGV to Paris, cycle-friendly.",
     scores: {
       global: 7.6,
       life: 7.7,
@@ -464,7 +464,7 @@ const RAW_CITIES_SEED = [
       "Tours is the Loire Valley capital — gentle climate, gardens, historic streets, the Loire à Vélo cycle route on its doorstep, 70 minutes to Paris by TGV. Strong university, surrounded by châteaux and wine villages. Best fit: families, retirees, cyclists, remote workers seeking Loire Valley lifestyle with quick Paris access.",
     seoTitleEn: "Tours — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Tours (Indre-et-Loire, Centre-Val de Loire): quality-of-life score 7.5/10. Loire Valley capital, gentle climate, cycle-friendly, 70 min TGV to Paris.",
+      "Tours (Indre-et-Loire, Centre-Val de Loire): quality-of-life score 6.4/10. Loire Valley capital, gentle climate, cycle-friendly, 70 min TGV to Paris.",
     scores: {
       global: 7.5,
       life: 7.6,
@@ -495,7 +495,7 @@ const RAW_CITIES_SEED = [
       "Reims sits in the heart of Champagne country — UNESCO cathedral, 45-minute TGV to Paris, and the great Champagne houses (Veuve Clicquot, Taittinger, Pommery) within walking distance. Refined gastronomy, affordable compared to its neighbours west. Best fit: wine professionals, Paris commuters wanting historic city living, families with culture-first priorities.",
     seoTitleEn: "Reims — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Reims (Marne, Grand Est): quality-of-life score 7.1/10. Champagne capital, UNESCO cathedral, 45 min TGV to Paris, historic and gastronomic.",
+      "Reims (Marne, Grand Est): quality-of-life score 5.7/10. Champagne capital, UNESCO cathedral, 45 min TGV to Paris, historic and gastronomic.",
     scores: {
       global: 7.1,
       life: 7.2,
@@ -526,7 +526,7 @@ const RAW_CITIES_SEED = [
       "Metz is a green, historic Grand Est city — Pompidou-Metz contemporary art centre, German-influenced architecture, Luxembourg 45 minutes away (cross-border worker hub). Underrated, affordable, with excellent green spaces and a quietly strong cultural scene. Best fit: cross-border professionals working in Luxembourg, families on budget, art lovers.",
     seoTitleEn: "Metz — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Metz (Moselle, Grand Est): quality-of-life score 7.3/10. Green historic city, Pompidou-Metz, Luxembourg-border, cross-border worker hub.",
+      "Metz (Moselle, Grand Est): quality-of-life score 6.0/10. Green historic city, Pompidou-Metz, Luxembourg-border, cross-border worker hub.",
     scores: {
       global: 7.3,
       life: 7.4,
@@ -557,7 +557,7 @@ const RAW_CITIES_SEED = [
       "Le Mans is famous for the 24-hour endurance race but works as a deeply affordable mid-sized family city — 1 hour TGV to Paris, Plantagenet medieval old town, low property prices. Modest cultural scene; the trade-off is real value-for-money. Best fit: Paris commuters seeking cheap housing, families on tight budgets, first-time buyers.",
     seoTitleEn: "Le Mans — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Le Mans (Sarthe, Pays de la Loire): quality-of-life score 6.9/10. Affordable mid-sized city, 1h TGV to Paris, family-friendly, 24h endurance race city.",
+      "Le Mans (Sarthe, Pays de la Loire): quality-of-life score 5.7/10. Affordable mid-sized city, 1h TGV to Paris, family-friendly, 24h endurance race city.",
     scores: {
       global: 6.9,
       life: 7.0,
@@ -588,7 +588,7 @@ const RAW_CITIES_SEED = [
       "Poitiers is a Nouvelle-Aquitaine university city — historic medieval centre, the Futuroscope theme-park nearby, affordable, calm, well-located between Paris (1h30 TGV) and Bordeaux (1h TGV). Modest urban scale but excellent value. Best fit: students, young families, remote workers wanting central-France access without big-city costs.",
     seoTitleEn: "Poitiers — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Poitiers (Vienne, Nouvelle-Aquitaine): quality-of-life score 7.0/10. Historic university city, affordable, well-connected by TGV, Futuroscope adjacent.",
+      "Poitiers (Vienne, Nouvelle-Aquitaine): quality-of-life score 6.1/10. Historic university city, affordable, well-connected by TGV, Futuroscope adjacent.",
     scores: {
       global: 7.0,
       life: 7.1,
@@ -619,7 +619,7 @@ const RAW_CITIES_SEED = [
       "Limoges is France's porcelain capital — one of the most affordable mid-sized cities in the country, surrounded by Haute-Vienne countryside, with a quiet but solid university. Modest dynamism but exceptional cost-of-living. Best fit: retirees, first-time buyers, remote workers prioritising affordability over urban scale.",
     seoTitleEn: "Limoges — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Limoges (Haute-Vienne, Nouvelle-Aquitaine): quality-of-life score 7.0/10. Porcelain capital, very affordable, quiet university town, rural surrounds.",
+      "Limoges (Haute-Vienne, Nouvelle-Aquitaine): quality-of-life score 6.1/10. Porcelain capital, very affordable, quiet university town, rural surrounds.",
     scores: {
       global: 7.0,
       life: 7.1,
@@ -650,7 +650,7 @@ const RAW_CITIES_SEED = [
       "Caen is the Normandy capital with World War II memorial history, a strong university, the D-Day beaches 15 minutes away, and dramatic but mild oceanic climate. Affordable, family-friendly, with Paris 2 hours by train. Best fit: families, history buffs, remote workers seeking Normandy lifestyle without coastal premium.",
     seoTitleEn: "Caen — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Caen (Calvados, Normandie): quality-of-life score 7.2/10. Normandy capital, D-Day adjacent, affordable, family-friendly, mild oceanic climate.",
+      "Caen (Calvados, Normandie): quality-of-life score 6.4/10. Normandy capital, D-Day adjacent, affordable, family-friendly, mild oceanic climate.",
     scores: {
       global: 7.2,
       life: 7.3,
@@ -681,7 +681,7 @@ const RAW_CITIES_SEED = [
       "Pau is the Pyrenees gateway — refined Béarn capital, dramatic mountain views, exceptionally mild winters, and a long-standing British and Anglo expat community (since the 19th century). Quality urban scale at affordable prices. Best fit: retirees, mountain lovers, anglo expats with established community, families.",
     seoTitleEn: "Pau — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Pau (Pyrénées-Atlantiques, Nouvelle-Aquitaine): quality-of-life score 7.6/10. Refined Pyrenees gateway, mild winters, historic anglo expat community.",
+      "Pau (Pyrénées-Atlantiques, Nouvelle-Aquitaine): quality-of-life score 6.4/10. Refined Pyrenees gateway, mild winters, historic anglo expat community.",
     scores: {
       global: 7.6,
       life: 7.8,
@@ -712,7 +712,7 @@ const RAW_CITIES_SEED = [
       "Biarritz is the premium Basque coast resort — Atlantic surf, refined belle-époque architecture, gastronomic Basque culture, mild oceanic climate. Property prices rival the Côte d'Azur. Best fit: surfers, retirees with budget, lifestyle-first remote workers, second-home owners.",
     seoTitleEn: "Biarritz — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Biarritz (Pyrénées-Atlantiques, Nouvelle-Aquitaine): quality-of-life score 7.9/10. Premium Basque coast, Atlantic surf, refined, very expensive.",
+      "Biarritz (Pyrénées-Atlantiques, Nouvelle-Aquitaine): quality-of-life score 5.6/10. Premium Basque coast, Atlantic surf, refined, very expensive.",
     scores: {
       global: 7.9,
       life: 8.3,
@@ -743,7 +743,7 @@ const RAW_CITIES_SEED = [
       "La Rochelle is the cycling and sailing capital of the Atlantic coast — historic harbour, exceptional sunshine for Atlantic France, free bike-share (one of France's oldest), Île de Ré bridge access. Family-friendly, walkable, increasingly expensive. Best fit: families, cyclists, retirees, sailors, lifestyle-first remote workers.",
     seoTitleEn: "La Rochelle — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "La Rochelle (Charente-Maritime, Nouvelle-Aquitaine): quality-of-life score 7.8/10. Atlantic harbour city, very sunny, cycle-friendly, family destination.",
+      "La Rochelle (Charente-Maritime, Nouvelle-Aquitaine): quality-of-life score 7.2/10. Atlantic harbour city, very sunny, cycle-friendly, family destination.",
     scores: {
       global: 7.8,
       life: 8.0,
@@ -774,7 +774,7 @@ const RAW_CITIES_SEED = [
       "Rochefort is the under-the-radar Charente-Maritime maritime-heritage city — Corderie Royale arsenal, Île d'Aix nearby, exceptionally affordable for a coast-adjacent city, very safe, calm. Best fit: retirees seeking value, history lovers, families wanting Atlantic coast without La Rochelle prices.",
     seoTitleEn: "Rochefort — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Rochefort (Charente-Maritime, Nouvelle-Aquitaine): quality-of-life score 7.0/10. Maritime heritage city, very affordable, safe, Atlantic coast adjacent.",
+      "Rochefort (Charente-Maritime, Nouvelle-Aquitaine): quality-of-life score 5.9/10. Maritime heritage city, very affordable, safe, Atlantic coast adjacent.",
     scores: {
       global: 7.0,
       life: 7.8,
@@ -805,7 +805,7 @@ const RAW_CITIES_SEED = [
       "Marseille is France's second-largest city — Mediterranean port, raw and dramatic, multicultural, with the Calanques National Park on its southern edge. Dramatically cheaper than Côte d'Azur or Paris, currently the trendiest French food scene. Real safety variation by district (central 1st-8th broadly fine; northern districts uneven). Best fit: budget-aware Mediterranean lovers, creatives, remote workers picking neighbourhoods carefully.",
     seoTitleEn: "Marseille — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Marseille (Bouches-du-Rhône, PACA): quality-of-life score 7.0/10. Mediterranean port, multicultural, trendy food scene, Calanques National Park.",
+      "Marseille (Bouches-du-Rhône, PACA): quality-of-life score 3.8/10. Mediterranean port, multicultural, trendy food scene, Calanques National Park.",
     scores: {
       global: 7.0,
       life: 7.2,
@@ -836,7 +836,7 @@ const RAW_CITIES_SEED = [
       "Perpignan is France's Catalan Mediterranean — exceptionally sunny, dramatically affordable for a coast-and-mountain access city, Pyrenees-Orientales skiing 1 hour away. Catalan identity strong; Spanish border 30 minutes. Best fit: retirees on tight budgets, sun-seekers prioritising value, families wanting Mediterranean climate without Côte d'Azur prices.",
     seoTitleEn: "Perpignan — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Perpignan (Pyrénées-Orientales, Occitanie): quality-of-life score 6.9/10. Catalan Mediterranean city, very sunny, affordable, Pyrenees skiing nearby.",
+      "Perpignan (Pyrénées-Orientales, Occitanie): quality-of-life score 4.7/10. Catalan Mediterranean city, very sunny, affordable, Pyrenees skiing nearby.",
     scores: {
       global: 6.9,
       life: 7.1,
@@ -867,7 +867,7 @@ const RAW_CITIES_SEED = [
       "Rouen is the Normandy capital — Gothic cathedral immortalised by Monet, half-timbered medieval centre, the Seine flowing through, Paris 1h15 by train. Cultural depth strong for a city of its size. Best fit: history and art lovers, Paris commuters seeking historic city living, families on moderate budget.",
     seoTitleEn: "Rouen — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Rouen (Seine-Maritime, Normandie): quality-of-life score 7.0/10. Norman capital, Gothic cathedral, half-timbered centre, 1h15 train to Paris.",
+      "Rouen (Seine-Maritime, Normandie): quality-of-life score 5.8/10. Norman capital, Gothic cathedral, half-timbered centre, 1h15 train to Paris.",
     scores: {
       global: 7.0,
       life: 7.2,
@@ -898,7 +898,7 @@ const RAW_CITIES_SEED = [
       "Toulon is the major French Mediterranean naval port — under-the-radar, dramatically cheaper than Nice or Cannes, exceptional Mediterranean climate, with the rugged Mont Faron towering over the harbour. Best fit: retirees seeking value, military-and-defence professionals, lifestyle remote workers wanting Mediterranean climate at lower cost.",
     seoTitleEn: "Toulon — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Toulon (Var, PACA): quality-of-life score 7.1/10. Mediterranean naval port, sunny, affordable Riviera alternative, dramatic mountain backdrop.",
+      "Toulon (Var, PACA): quality-of-life score 5.0/10. Mediterranean naval port, sunny, affordable Riviera alternative, dramatic mountain backdrop.",
     scores: {
       global: 7.1,
       life: 7.4,
@@ -929,7 +929,7 @@ const RAW_CITIES_SEED = [
       "Amiens is the Picardy capital — France's largest Gothic cathedral (UNESCO), the floating market gardens (hortillonnages), strong university, 1h10 to Paris by train. Genuinely affordable mid-sized city with modest cultural scene. Best fit: students, Paris commuters seeking ultra-cheap housing, history-and-architecture lovers.",
     seoTitleEn: "Amiens — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Amiens (Somme, Hauts-de-France): quality-of-life score 6.8/10. Largest French Gothic cathedral, hortillonnages, affordable, 1h10 train to Paris.",
+      "Amiens (Somme, Hauts-de-France): quality-of-life score 5.3/10. Largest French Gothic cathedral, hortillonnages, affordable, 1h10 train to Paris.",
     scores: {
       global: 6.8,
       life: 6.9,
@@ -960,7 +960,7 @@ const RAW_CITIES_SEED = [
       "Besançon is one of France's greenest cities — surrounded by Jura forested hills, Vauban citadel (UNESCO), strong university, Swiss border 1 hour away (cross-border workers). Historic clockmaking and watchmaking heritage. Best fit: nature-and-outdoor families, Switzerland-border workers, students, calm-seekers.",
     seoTitleEn: "Besançon — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Besançon (Doubs, Bourgogne-Franche-Comté): quality-of-life score 7.2/10. Greenest French city, Vauban citadel, Jura forest, Swiss-border access.",
+      "Besançon (Doubs, Bourgogne-Franche-Comté): quality-of-life score 6.5/10. Greenest French city, Vauban citadel, Jura forest, Swiss-border access.",
     scores: {
       global: 7.2,
       life: 7.4,
@@ -991,7 +991,7 @@ const RAW_CITIES_SEED = [
       "Angers consistently ranks as one of France's best cities to live — Loire Valley climate, exceptional gardens (Terra Botanica), strong university, dynamic cultural scene, 1h30 TGV to Paris. Family-friendly, walkable, growing tech sector. Best fit: families seeking quality of life, students, remote workers wanting Loire lifestyle with urban amenities.",
     seoTitleEn: "Angers — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Angers (Maine-et-Loire, Pays de la Loire): quality-of-life score 7.5/10. Top-ranked French quality-of-life city, Loire Valley, gardens, family-friendly.",
+      "Angers (Maine-et-Loire, Pays de la Loire): quality-of-life score 6.7/10. Top-ranked French quality-of-life city, Loire Valley, gardens, family-friendly.",
     scores: {
       global: 7.5,
       life: 7.7,
@@ -1022,7 +1022,7 @@ const RAW_CITIES_SEED = [
       "Le Havre is France's largest Atlantic container port — Auguste Perret's post-war reconstruction is UNESCO-listed, dramatically affordable for a coast-adjacent city, 2 hours from Paris. Modernist architecture lovers' niche choice. Best fit: ultra-budget households, architects, port-and-shipping professionals, sea-loving Paris-region workers.",
     seoTitleEn: "Le Havre — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Le Havre (Seine-Maritime, Normandie): quality-of-life score 6.7/10. Atlantic port, UNESCO modernist architecture, very affordable coastal city.",
+      "Le Havre (Seine-Maritime, Normandie): quality-of-life score 5.5/10. Atlantic port, UNESCO modernist architecture, very affordable coastal city.",
     scores: {
       global: 6.7,
       life: 6.8,
@@ -1053,7 +1053,7 @@ const RAW_CITIES_SEED = [
       "Saint-Étienne is France's design city (UNESCO Creative City of Design), former industrial hub now reinvented around design schools, sport (the football legend), and outdoor access — Pilat Regional Park on its doorstep. Among France's cheapest mid-sized cities. Best fit: designers, sport fans, ultra-budget families and remote workers, outdoor active singles.",
     seoTitleEn: "Saint-Étienne — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Étienne (Loire, Auvergne-Rhône-Alpes): quality-of-life score 6.6/10. UNESCO Design City, very affordable, Pilat outdoor park nearby.",
+      "Saint-Étienne (Loire, Auvergne-Rhône-Alpes): quality-of-life score 5.5/10. UNESCO Design City, very affordable, Pilat outdoor park nearby.",
     scores: {
       global: 6.6,
       life: 6.8,
@@ -1084,7 +1084,7 @@ const RAW_CITIES_SEED = [
       "Orléans is the Joan of Arc city on the Loire — 1 hour from Paris, affordable, with strong heritage architecture and increasing cycle infrastructure. Mid-sized, family-friendly, growing as a Paris commuter hub. Best fit: Paris commuters wanting historic city living, families on moderate budget, cyclists.",
     seoTitleEn: "Orléans — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Orléans (Loiret, Centre-Val de Loire): quality-of-life score 7.1/10. Joan of Arc city on Loire, 1 hour from Paris, affordable, cycle-friendly.",
+      "Orléans (Loiret, Centre-Val de Loire): quality-of-life score 5.8/10. Joan of Arc city on Loire, 1 hour from Paris, affordable, cycle-friendly.",
     scores: {
       global: 7.1,
       life: 7.2,
@@ -1115,7 +1115,7 @@ const RAW_CITIES_SEED = [
       "Lille is France's fourth metropolitan area — Flemish-influenced architecture, massive student population, strong food and beer scene, 1 hour to Paris and Brussels by TGV, 80 minutes to London. Dynamic, young, increasingly cycle-friendly. Best fit: students, young professionals, cross-border workers, anyone wanting French metropolitan life with Belgium and UK access.",
     seoTitleEn: "Lille — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Lille (Nord, Hauts-de-France): quality-of-life score 7.4/10. Fourth French metro, Flemish architecture, student-rich, 1h TGV to Paris/Brussels.",
+      "Lille (Nord, Hauts-de-France): quality-of-life score 5.7/10. Fourth French metro, Flemish architecture, student-rich, 1h TGV to Paris/Brussels.",
     scores: {
       global: 7.4,
       life: 7.5,
@@ -1146,7 +1146,7 @@ const RAW_CITIES_SEED = [
       "Quimper is the heart of historic Brittany — Cornouaille capital, Celtic-Breton identity strong, calm pace, sea 30 minutes away, mid-sized scale, affordable. Best fit: Breton-culture seekers, retirees wanting quiet coastal access, families on moderate budget, slow-life lovers.",
     seoTitleEn: "Quimper — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Quimper (Finistère, Bretagne): quality-of-life score 7.3/10. Historic Cornouaille capital, Celtic-Breton identity, calm, sea-adjacent.",
+      "Quimper (Finistère, Bretagne): quality-of-life score 6.3/10. Historic Cornouaille capital, Celtic-Breton identity, calm, sea-adjacent.",
     scores: {
       global: 7.3,
       life: 7.6,
@@ -1177,7 +1177,7 @@ const RAW_CITIES_SEED = [
       "Valence sits at the gateway between northern and southern France — the Provençal climate begins here. Affordable Drôme capital, dramatic Vercors mountains to the west, Rhône valley wines, 1h TGV to Lyon or Marseille. Best fit: gastronomes, mid-budget retirees, families seeking south-leaning climate without Mediterranean prices.",
     seoTitleEn: "Valence — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Valence (Drôme, Auvergne-Rhône-Alpes): quality-of-life score 7.0/10. Gateway to southern France, affordable, gastronomic, Vercors at hand.",
+      "Valence (Drôme, Auvergne-Rhône-Alpes): quality-of-life score 6.3/10. Gateway to southern France, affordable, gastronomic, Vercors at hand.",
     scores: {
       global: 7.0,
       life: 7.2,
@@ -1208,7 +1208,7 @@ const RAW_CITIES_SEED = [
       "Bayonne is the historic Basque capital — exceptional Basque-French food scene (jambon de Bayonne, chocolate), riverside old town, rugby fervour, the Atlantic 10 minutes away (Biarritz adjacent). Refined and quirky. Best fit: foodies, Basque-culture lovers, families seeking Atlantic-Basque lifestyle, rugby fans.",
     seoTitleEn: "Bayonne — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Bayonne (Pyrénées-Atlantiques, Nouvelle-Aquitaine): quality-of-life score 7.8/10. Historic Basque capital, Atlantic-adjacent, gastronomic, rugby.",
+      "Bayonne (Pyrénées-Atlantiques, Nouvelle-Aquitaine): quality-of-life score 5.9/10. Historic Basque capital, Atlantic-adjacent, gastronomic, rugby.",
     scores: {
       global: 7.8,
       life: 8.1,
@@ -1239,7 +1239,7 @@ const RAW_CITIES_SEED = [
       "Montauban is a sunny Tarn-et-Garonne city — pink-brick architecture (sister-city to nearby Toulouse), affordable Southwest cuisine country, calm pace, Toulouse 40 minutes by train. Best fit: ultra-budget households, Southwest-food lovers, retirees, families wanting Toulouse access without the price.",
     seoTitleEn: "Montauban — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Montauban (Tarn-et-Garonne, Occitanie): quality-of-life score 6.8/10. Sunny Southwest city, pink-brick architecture, affordable, near Toulouse.",
+      "Montauban (Tarn-et-Garonne, Occitanie): quality-of-life score 6.0/10. Sunny Southwest city, pink-brick architecture, affordable, near Toulouse.",
     scores: {
       global: 6.8,
       life: 6.9,
@@ -1270,7 +1270,7 @@ const RAW_CITIES_SEED = [
       "Troyes is the medieval Champagne-region city — exceptional half-timbered old town, outlet-shopping capital of France (Marques Avenue, McArthurGlen), Orient lakes nearby, 90 minutes from Paris. Affordable, calm, with strong heritage. Best fit: heritage lovers, retirees on budget, Paris-region commuters seeking historic city living.",
     seoTitleEn: "Troyes — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Troyes (Aube, Grand Est): quality-of-life score 6.9/10. Medieval Champagne city, half-timbered, outlet capital, Orient lakes nearby.",
+      "Troyes (Aube, Grand Est): quality-of-life score 6.2/10. Medieval Champagne city, half-timbered, outlet capital, Orient lakes nearby.",
     scores: {
       global: 6.9,
       life: 7.0,
@@ -1301,7 +1301,7 @@ const RAW_CITIES_SEED = [
       "Angoulême is France's comic-book capital — home of the Festival International de la Bande Dessinée, with hillside-perched historic centre and Charente river. Affordable, creative, mid-sized. Best fit: comic artists and illustrators, creative professionals, retirees and families on tight budgets seeking heritage city living.",
     seoTitleEn: "Angoulême — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Angoulême (Charente, Nouvelle-Aquitaine): quality-of-life score 6.8/10. Comic-book capital, hilltop historic centre, affordable, creative scene.",
+      "Angoulême (Charente, Nouvelle-Aquitaine): quality-of-life score 5.7/10. Comic-book capital, hilltop historic centre, affordable, creative scene.",
     scores: {
       global: 6.8,
       life: 6.9,
@@ -1332,7 +1332,7 @@ const RAW_CITIES_SEED = [
       "Lorient is the South-Brittany Atlantic port — Festival Interceltique each August (one of Europe's largest Celtic gatherings), fishing fleet still working, Île de Groix ferry on the doorstep. Affordable, sea-facing, with strong Celtic identity. Best fit: sailors, Celtic-music lovers, ultra-budget households seeking Atlantic coast.",
     seoTitleEn: "Lorient — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Lorient (Morbihan, Bretagne): quality-of-life score 7.2/10. South-Brittany port, Festival Interceltique, working fishing fleet, affordable.",
+      "Lorient (Morbihan, Bretagne): quality-of-life score 6.1/10. South-Brittany port, Festival Interceltique, working fishing fleet, affordable.",
     scores: {
       global: 7.2,
       life: 7.4,
@@ -1363,7 +1363,7 @@ const RAW_CITIES_SEED = [
       "Arles is the Roman-and-Van-Gogh Provençal city — UNESCO Roman amphitheatre still hosting events, Rencontres d'Arles photography festival each summer, Camargue wetlands and flamingos at the doorstep, LUMA arts foundation. Best fit: artists and photographers, heritage lovers, Provence-seekers wanting refined small-city living.",
     seoTitleEn: "Arles — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Arles (Bouches-du-Rhône, PACA): quality-of-life score 7.1/10. Roman UNESCO city, Van Gogh heritage, Rencontres d'Arles, Camargue at hand.",
+      "Arles (Bouches-du-Rhône, PACA): quality-of-life score 5.2/10. Roman UNESCO city, Van Gogh heritage, Rencontres d'Arles, Camargue at hand.",
     scores: {
       global: 7.1,
       life: 7.4,
@@ -1394,7 +1394,7 @@ const RAW_CITIES_SEED = [
       "Colmar is the storybook Alsatian wine capital — half-timbered houses, La Petite Venise canals, Unterlinden Museum (Grünewald's altarpiece), surrounded by Alsace Wine Route villages. Refined, very touristy in summer, mild winters. Best fit: wine professionals, refined retirees, families wanting Franco-German Alsatian lifestyle.",
     seoTitleEn: "Colmar — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Colmar (Haut-Rhin, Grand Est): quality-of-life score 7.6/10. Alsatian wine capital, half-timbered houses, La Petite Venise, refined heritage.",
+      "Colmar (Haut-Rhin, Grand Est): quality-of-life score 6.4/10. Alsatian wine capital, half-timbered houses, La Petite Venise, refined heritage.",
     scores: {
       global: 7.6,
       life: 7.9,
@@ -1425,7 +1425,7 @@ const RAW_CITIES_SEED = [
       "Saint-Malo is the Breton corsair city — granite-walled old town built on the sea, dramatic Channel tides, Mont Saint-Michel 50 minutes away. Atlantic-Channel maritime culture, refined despite the tourist crowds. Best fit: sailors, families seeking dramatic coast, retirees with budget, channel-crossing professionals.",
     seoTitleEn: "Saint-Malo — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Malo (Ille-et-Vilaine, Bretagne): quality-of-life score 7.7/10. Walled corsair city, Channel tides, refined Breton coast, near Mont Saint-Michel.",
+      "Saint-Malo (Ille-et-Vilaine, Bretagne): quality-of-life score 6.5/10. Walled corsair city, Channel tides, refined Breton coast, near Mont Saint-Michel.",
     scores: {
       global: 7.7,
       life: 8.0,
@@ -1456,7 +1456,7 @@ const RAW_CITIES_SEED = [
       "Avignon is the medieval papal Provençal city — UNESCO Palais des Papes, the legendary Pont d'Avignon, the world-class Festival d'Avignon each July. Walled centre, mistral wind, refined Provençal lifestyle, 2h40 TGV to Paris. Best fit: heritage lovers, theatre-and-arts professionals, retirees with mid-budget seeking refined Provence.",
     seoTitleEn: "Avignon — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Avignon (Vaucluse, PACA): quality-of-life score 7.2/10. UNESCO papal city, Palais des Papes, Festival d'Avignon, refined Provençal heritage.",
+      "Avignon (Vaucluse, PACA): quality-of-life score 5.6/10. UNESCO papal city, Palais des Papes, Festival d'Avignon, refined Provençal heritage.",
     scores: {
       global: 7.2,
       life: 7.4,
@@ -1487,7 +1487,7 @@ const RAW_CITIES_SEED = [
       "Chambéry is the value alternative to Annecy in the Savoie Alps — Alps on every side, Lac du Bourget (France's largest natural lake), 1h to both Lyon and Geneva, dramatically cheaper than Annecy. Best fit: mountain-active families, value-seeking Alpine residents, Geneva-region commuters wanting Savoie character without Annecy premium.",
     seoTitleEn: "Chambéry — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Chambéry (Savoie, Auvergne-Rhône-Alpes): quality-of-life score 7.5/10. Savoie Alps gateway, Lac du Bourget, cheaper Annecy alternative.",
+      "Chambéry (Savoie, Auvergne-Rhône-Alpes): quality-of-life score 6.5/10. Savoie Alps gateway, Lac du Bourget, cheaper Annecy alternative.",
     scores: {
       global: 7.5,
       life: 7.8,
@@ -1518,7 +1518,7 @@ const RAW_CITIES_SEED = [
       "Fréjus is the under-the-radar Var Mediterranean city — Roman heritage (one of the largest Roman amphitheatres outside Italy), beaches, Saint-Tropez peninsula proximity, dramatically cheaper than Cannes or Antibes. Best fit: retirees seeking Côte d'Azur climate at lower cost, families, military-and-defence professionals (large base nearby).",
     seoTitleEn: "Fréjus — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Fréjus (Var, PACA): quality-of-life score 7.0/10. Var Mediterranean coast, Roman heritage, cheaper Côte d'Azur alternative, family beach town.",
+      "Fréjus (Var, PACA): quality-of-life score 4.9/10. Var Mediterranean coast, Roman heritage, cheaper Côte d'Azur alternative, family beach town.",
     scores: {
       global: 7.0,
       life: 7.3,
@@ -1549,7 +1549,7 @@ const RAW_CITIES_SEED = [
       "Libourne sits at the heart of the great right-bank Bordeaux wine country — Saint-Émilion, Pomerol, Fronsac all within 15 minutes. Bordeaux 30 minutes by train, calm, affordable for the Gironde region. Best fit: wine professionals, wine-tourism households, retirees and families wanting Bordeaux-region access without Bordeaux prices.",
     seoTitleEn: "Libourne — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Libourne (Gironde, Nouvelle-Aquitaine): quality-of-life score 7.1/10. Right-bank Bordeaux wine country, Saint-Émilion adjacent, calm, affordable.",
+      "Libourne (Gironde, Nouvelle-Aquitaine): quality-of-life score 6.2/10. Right-bank Bordeaux wine country, Saint-Émilion adjacent, calm, affordable.",
     scores: {
       global: 7.1,
       life: 7.3,
@@ -1580,7 +1580,7 @@ const RAW_CITIES_SEED = [
       "Nîmes is the Roman Occitan city — arena (still hosting events), Maison Carrée temple, Pont du Gard 20 minutes away, dramatic Mediterranean climate (heatwaves intense). Garrigues scrubland and the Cévennes on the doorstep. Best fit: heritage lovers, Roman-history buffs, mid-budget retirees, Mediterranean-climate seekers prepared for hot summers.",
     seoTitleEn: "Nîmes — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Nîmes (Gard, Occitanie): quality-of-life score 7.0/10. Roman Occitan city, arena, Maison Carrée, Pont du Gard adjacent, intense sun.",
+      "Nîmes (Gard, Occitanie): quality-of-life score 5.1/10. Roman Occitan city, arena, Maison Carrée, Pont du Gard adjacent, intense sun.",
     scores: {
       global: 7.0,
       life: 7.1,
@@ -1611,7 +1611,7 @@ const RAW_CITIES_SEED = [
       "Gap is the Hautes-Alpes capital — 740m altitude, dry mountain climate (one of France's sunniest), Serre Chevalier and Devoluy ski areas nearby, Mediterranean influence reaches this far north. Affordable for Alpine France. Best fit: serious mountain dwellers, sun-and-snow seekers, retirees who want dry mountain air, ski-season workers.",
     seoTitleEn: "Gap — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Gap (Hautes-Alpes, PACA): quality-of-life score 7.3/10. Hautes-Alpes capital at 740m, dry sunny mountain climate, affordable Alpine living.",
+      "Gap (Hautes-Alpes, PACA): quality-of-life score 6.0/10. Hautes-Alpes capital at 740m, dry sunny mountain climate, affordable Alpine living.",
     scores: {
       global: 7.3,
       life: 7.7,
@@ -1642,7 +1642,7 @@ const RAW_CITIES_SEED = [
       "Vannes consistently ranks among France's top quality-of-life cities — medieval Gulf of Morbihan capital, walled old town, sailing paradise, family-friendly, mild oceanic climate. Property prices rising fast as the secret leaks. Best fit: sailing families, refined retirees, remote workers wanting south-Brittany lifestyle at peak quality.",
     seoTitleEn: "Vannes — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Vannes (Morbihan, Bretagne): quality-of-life score 7.9/10. Gulf of Morbihan capital, walled medieval old town, top-ranked French quality of life.",
+      "Vannes (Morbihan, Bretagne): quality-of-life score 6.9/10. Gulf of Morbihan capital, walled medieval old town, top-ranked French quality of life.",
     scores: {
       global: 7.9,
       life: 8.3,
@@ -1673,7 +1673,7 @@ const RAW_CITIES_SEED = [
       "Cherbourg-en-Cotentin is the tip of the Cotentin peninsula — major naval base, Channel ferries to Ireland and the UK, very affordable, wild coastline. Modest urban scale. Best fit: naval and defence professionals, sailors, ultra-budget households seeking Atlantic-Channel coast.",
     seoTitleEn: "Cherbourg-en-Cotentin — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Cherbourg-en-Cotentin (Manche, Normandie): quality-of-life score 6.6/10. Cotentin peninsula tip, naval base, UK ferries, very affordable.",
+      "Cherbourg-en-Cotentin (Manche, Normandie): quality-of-life score 5.6/10. Cotentin peninsula tip, naval base, UK ferries, very affordable.",
     scores: {
       global: 6.6,
       life: 6.8,
@@ -1704,7 +1704,7 @@ const RAW_CITIES_SEED = [
       "Tarbes is the under-the-radar Pyrenees-gateway city — Pic du Midi observatory and ski areas within an hour, Lourdes 20 minutes away, dramatically affordable. Lower-altitude than Gap but real mountain access. Best fit: ultra-budget mountain residents, retirees seeking Pyrenees access, families and remote workers prioritising value.",
     seoTitleEn: "Tarbes — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Tarbes (Hautes-Pyrénées, Occitanie): quality-of-life score 6.8/10. Pyrenees-gateway city, very affordable, Pic du Midi nearby, calm.",
+      "Tarbes (Hautes-Pyrénées, Occitanie): quality-of-life score 6.0/10. Pyrenees-gateway city, very affordable, Pic du Midi nearby, calm.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -1735,7 +1735,7 @@ const RAW_CITIES_SEED = [
       "Nancy is the Lorraine art-nouveau capital — Place Stanislas (UNESCO, often called Europe's most beautiful 18th-century square), École de Nancy art-nouveau heritage, strong university, 1h30 TGV to Paris. Affordable for its cultural depth. Best fit: art-nouveau lovers, students, Paris commuters, families seeking refined eastern France.",
     seoTitleEn: "Nancy — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Nancy (Meurthe-et-Moselle, Grand Est): quality-of-life score 7.6/10. Lorraine capital, UNESCO Place Stanislas, art-nouveau, refined and affordable.",
+      "Nancy (Meurthe-et-Moselle, Grand Est): quality-of-life score 6.2/10. Lorraine capital, UNESCO Place Stanislas, art-nouveau, refined and affordable.",
     scores: {
       global: 7.6,
       life: 7.8,
@@ -1766,7 +1766,7 @@ const RAW_CITIES_SEED = [
       "Montluçon is the under-the-radar Allier town in the heart of France — Bourbonnais heritage, Cher river, exceptionally affordable property, calm pace. Modest urban scale but real value. Best fit: ultra-budget households, first-time buyers seeking very cheap French property, retirees prioritising calm.",
     seoTitleEn: "Montluçon — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Montluçon (Allier, Auvergne-Rhône-Alpes): quality-of-life score 6.5/10. Allier mid-France town, very affordable property, Bourbonnais heritage, calm.",
+      "Montluçon (Allier, Auvergne-Rhône-Alpes): quality-of-life score 5.9/10. Allier mid-France town, very affordable property, Bourbonnais heritage, calm.",
     scores: {
       global: 6.5,
       life: 6.8,
@@ -1797,7 +1797,7 @@ const RAW_CITIES_SEED = [
       "Charleville-Mézières is the Ardennes capital — Rimbaud's birthplace, Place Ducale (a smaller cousin of Paris's Place des Vosges), Belgian border 20 minutes away, dramatic forested countryside. Affordable, calm, with poetry-festival heritage. Best fit: poetry-and-literature lovers, outdoor active retirees, Belgian-border workers.",
     seoTitleEn: "Charleville-Mézières — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Charleville-Mézières (Ardennes, Grand Est): quality-of-life score 6.6/10. Rimbaud's birthplace, Place Ducale, Ardennes forest, Belgian border.",
+      "Charleville-Mézières (Ardennes, Grand Est): quality-of-life score 6.2/10. Rimbaud's birthplace, Place Ducale, Ardennes forest, Belgian border.",
     scores: {
       global: 6.6,
       life: 6.8,
@@ -1828,7 +1828,7 @@ const RAW_CITIES_SEED = [
       "Boulogne-sur-Mer is France's largest fishing port — Nausicaá (Europe's largest aquarium), historic walled upper town, Channel ferries to Dover, dramatically affordable for a coastal city. Best fit: maritime professionals, ultra-budget households seeking Channel-coast living, Britain-France commuters.",
     seoTitleEn: "Boulogne-sur-Mer — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Boulogne-sur-Mer (Pas-de-Calais, Hauts-de-France): quality-of-life score 6.8/10. France's largest fishing port, Nausicaá aquarium, very affordable.",
+      "Boulogne-sur-Mer (Pas-de-Calais, Hauts-de-France): quality-of-life score 5.2/10. France's largest fishing port, Nausicaá aquarium, very affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -1859,7 +1859,7 @@ const RAW_CITIES_SEED = [
       "Niort is the insurance and mutuelle capital of France — major headquarters for MAIF, MAAF, Macif (significant white-collar employment), Marais Poitevin wetlands (Venise Verte) on the doorstep. Affordable, dynamic for its size. Best fit: insurance and mutuelle professionals, families seeking solid job market in mid-size city, Marais Poitevin nature lovers.",
     seoTitleEn: "Niort — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Niort (Deux-Sèvres, Nouvelle-Aquitaine): quality-of-life score 7.2/10. Insurance HQ city (MAIF, MAAF), Marais Poitevin nature, dynamic, affordable.",
+      "Niort (Deux-Sèvres, Nouvelle-Aquitaine): quality-of-life score 6.0/10. Insurance HQ city (MAIF, MAAF), Marais Poitevin nature, dynamic, affordable.",
     scores: {
       global: 7.2,
       life: 7.5,
@@ -1890,7 +1890,7 @@ const RAW_CITIES_SEED = [
       "Albi is the Toulouse-Lautrec city — UNESCO Episcopal city (massive red-brick Sainte-Cécile cathedral), pink-brick architecture, sunny southwest climate, Toulouse 50 minutes away. Refined yet affordable. Best fit: heritage lovers, artists, mid-budget retirees, Toulouse-region workers wanting a refined smaller-city base.",
     seoTitleEn: "Albi — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Albi (Tarn, Occitanie): quality-of-life score 7.5/10. UNESCO Episcopal city, red-brick cathedral, Toulouse-Lautrec heritage, sunny, affordable.",
+      "Albi (Tarn, Occitanie): quality-of-life score 7.1/10. UNESCO Episcopal city, red-brick cathedral, Toulouse-Lautrec heritage, sunny, affordable.",
     scores: {
       global: 7.5,
       life: 7.8,
@@ -1921,7 +1921,7 @@ const RAW_CITIES_SEED = [
       "Ajaccio is the Corsican capital — Napoleonic birthplace, dramatic Gulf of Ajaccio setting, mountains rising from the sea, exceptional Mediterranean sun (one of France's sunniest). Working year-round Corsican life (unlike many tourist-driven smaller towns). Best fit: Mediterranean-lifestyle expats accepting island logistics, retirees with mainland-level pensions, remote workers prepared for thinner job market.",
     seoTitleEn: "Ajaccio — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Ajaccio (Corse-du-Sud, Corse): quality-of-life score 7.6/10. Corsican capital, Napoleonic birthplace, dramatic Mediterranean, year-round life.",
+      "Ajaccio (Corse-du-Sud, Corse): quality-of-life score 4.9/10. Corsican capital, Napoleonic birthplace, dramatic Mediterranean, year-round life.",
     scores: {
       global: 7.6,
       life: 8.2,
@@ -1952,7 +1952,7 @@ const RAW_CITIES_SEED = [
       "Mulhouse is the southern Alsatian city — Cité de l'Automobile (world's largest automobile museum), Basel-Switzerland 30 minutes away (huge cross-border worker market), Germany 5 minutes by tram. Affordable, multicultural, industrial-heritage. Best fit: Swiss-border workers (€100k+ Swiss salaries with French costs), Franco-German-Swiss tri-border professionals.",
     seoTitleEn: "Mulhouse — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Mulhouse (Haut-Rhin, Grand Est): quality-of-life score 6.8/10. South Alsace, Basel-border, automobile museum, cross-border worker hub.",
+      "Mulhouse (Haut-Rhin, Grand Est): quality-of-life score 5.8/10. South Alsace, Basel-border, automobile museum, cross-border worker hub.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -1983,7 +1983,7 @@ const RAW_CITIES_SEED = [
       "Dunkerque is the major North-Sea industrial port — Carnaval de Dunkerque (one of France's most famous), free public transport network (a national first), dramatically affordable, Flemish-influenced. Best fit: industrial and logistics professionals, ultra-budget households, Flanders-culture lovers.",
     seoTitleEn: "Dunkerque — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Dunkerque (Nord, Hauts-de-France): quality-of-life score 6.5/10. North-Sea industrial port, free public transport, famous carnaval, very affordable.",
+      "Dunkerque (Nord, Hauts-de-France): quality-of-life score 5.4/10. North-Sea industrial port, free public transport, famous carnaval, very affordable.",
     scores: {
       global: 6.5,
       life: 6.8,
@@ -2014,7 +2014,7 @@ const RAW_CITIES_SEED = [
       "Cannes is the Côte d'Azur glamour capital — the world-famous Festival, Croisette beachfront, exceptional climate, Lérins islands offshore. Property prices premium throughout. Best fit: refined retirees with budget, entertainment professionals, lifestyle-first remote workers, second-home owners.",
     seoTitleEn: "Cannes — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Cannes (Alpes-Maritimes, PACA): quality-of-life score 7.5/10. Côte d'Azur glamour capital, the Festival, Croisette beach, premium prices.",
+      "Cannes (Alpes-Maritimes, PACA): quality-of-life score 4.8/10. Côte d'Azur glamour capital, the Festival, Croisette beach, premium prices.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -2045,7 +2045,7 @@ const RAW_CITIES_SEED = [
       "Périgueux is the Dordogne capital — Gallo-Roman heritage, Saint-Front cathedral, the heart of foie-gras, truffle and walnut country. The British retirement-community Dordogne starts here. Best fit: gastronomes, British and Anglo retirees with established community, Dordogne-region property buyers.",
     seoTitleEn: "Périgueux — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Périgueux (Dordogne, Nouvelle-Aquitaine): quality-of-life score 6.8/10. Périgord capital, foie-gras truffle walnut country, British retiree zone.",
+      "Périgueux (Dordogne, Nouvelle-Aquitaine): quality-of-life score 5.9/10. Périgord capital, foie-gras truffle walnut country, British retiree zone.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -2076,7 +2076,7 @@ const RAW_CITIES_SEED = [
       "Alès is the Cévennes-gateway Gard city — former mining town reinvented, Mediterranean climate, Cévennes National Park on the doorstep, very affordable. Best fit: nature-and-outdoor active families, ultra-budget households seeking southern France, Cévennes-walking-route enthusiasts.",
     seoTitleEn: "Alès — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Alès (Gard, Occitanie): quality-of-life score 6.5/10. Cévennes gateway, Mediterranean climate, very affordable, outdoor-active.",
+      "Alès (Gard, Occitanie): quality-of-life score 4.9/10. Cévennes gateway, Mediterranean climate, very affordable, outdoor-active.",
     scores: {
       global: 6.5,
       life: 6.5,
@@ -2107,7 +2107,7 @@ const RAW_CITIES_SEED = [
       "Chartres is the cathedral city — Notre-Dame de Chartres is one of Europe's masterpieces of Gothic architecture, with its famous blue stained glass. 1 hour from Paris by train, calm, affordable mid-sized town. Best fit: Paris commuters wanting historic city living, heritage lovers, families on moderate budget.",
     seoTitleEn: "Chartres — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Chartres (Eure-et-Loir, Centre-Val de Loire): quality-of-life score 6.7/10. Cathedral city, Gothic masterpiece, 1h from Paris, calm, affordable.",
+      "Chartres (Eure-et-Loir, Centre-Val de Loire): quality-of-life score 6.0/10. Cathedral city, Gothic masterpiece, 1h from Paris, calm, affordable.",
     scores: {
       global: 6.7,
       life: 6.5,
@@ -2138,7 +2138,7 @@ const RAW_CITIES_SEED = [
       "Blois is the royal-château Loire Valley city — François I architecture, gentle climate, mid-way between Orléans and Tours on the Loire river, 1h30 from Paris. Affordable, refined, the heart of château country. Best fit: heritage lovers, retirees, families wanting Loire Valley living without Tours premium.",
     seoTitleEn: "Blois — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Blois (Loir-et-Cher, Centre-Val de Loire): quality-of-life score 7.0/10. Royal château Loire Valley city, gentle climate, affordable, refined.",
+      "Blois (Loir-et-Cher, Centre-Val de Loire): quality-of-life score 5.9/10. Royal château Loire Valley city, gentle climate, affordable, refined.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -2169,7 +2169,7 @@ const RAW_CITIES_SEED = [
       "Béziers is the trendiest cheap Mediterranean city — surprisingly affordable Hérault property, Canal du Midi running through, dramatic Plateau des Poètes park, Montpellier 45 minutes away. Currently gentrifying. Best fit: Mediterranean-climate seekers on tight budgets, retirees with mid-pension, investment buyers betting on Montpellier-spillover.",
     seoTitleEn: "Béziers — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Béziers (Hérault, Occitanie): quality-of-life score 6.6/10. Sunny Mediterranean Hérault city, Canal du Midi, affordable, gentrifying.",
+      "Béziers (Hérault, Occitanie): quality-of-life score 4.3/10. Sunny Mediterranean Hérault city, Canal du Midi, affordable, gentrifying.",
     scores: {
       global: 6.6,
       life: 6.5,
@@ -2200,7 +2200,7 @@ const RAW_CITIES_SEED = [
       "Laval is the Mayenne capital — calm, family-friendly, dramatically affordable, Mayenne river through the centre, 1h10 TGV to Paris. Mid-sized, with quiet but real cultural scene. Best fit: families on tight budgets, first-time buyers, Paris commuters seeking very cheap housing.",
     seoTitleEn: "Laval — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Laval (Mayenne, Pays de la Loire): quality-of-life score 6.9/10. Calm family-friendly Mayenne capital, 1h10 TGV to Paris, very affordable.",
+      "Laval (Mayenne, Pays de la Loire): quality-of-life score 6.1/10. Calm family-friendly Mayenne capital, 1h10 TGV to Paris, very affordable.",
     scores: {
       global: 6.9,
       life: 7.0,
@@ -2231,7 +2231,7 @@ const RAW_CITIES_SEED = [
       "Sète is the 'Venice of Languedoc' — Mediterranean fishing port with canals, Mont Saint-Clair, exceptional seafood, working-class authentic character (Brassens was born here). Currently gentrifying but still cheaper than Montpellier. Best fit: foodies (especially seafood), authenticity-seekers, creatives, mid-budget Mediterranean lovers.",
     seoTitleEn: "Sète — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Sète (Hérault, Occitanie): quality-of-life score 7.1/10. Venice-of-Languedoc Mediterranean port, canals, exceptional seafood, gentrifying.",
+      "Sète (Hérault, Occitanie): quality-of-life score 5.4/10. Venice-of-Languedoc Mediterranean port, canals, exceptional seafood, gentrifying.",
     scores: {
       global: 7.1,
       life: 7.5,
@@ -2262,7 +2262,7 @@ const RAW_CITIES_SEED = [
       "Rodez is the Aveyron capital — Soulages Museum, dramatic cathedral, perched mid-altitude (635m), surrounded by the Aubrac and Causses plateaus. Frequently ranked among France's best quality-of-life cities. Best fit: nature-and-outdoor families, retirees with budget, artists, slow-life seekers.",
     seoTitleEn: "Rodez — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Rodez (Aveyron, Occitanie): quality-of-life score 7.5/10. Aveyron capital, Soulages Museum, mid-altitude calm, Aubrac plateau nearby.",
+      "Rodez (Aveyron, Occitanie): quality-of-life score 5.6/10. Aveyron capital, Soulages Museum, mid-altitude calm, Aubrac plateau nearby.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -2293,7 +2293,7 @@ const RAW_CITIES_SEED = [
       "Cahors is the medieval Lot Valley city — UNESCO Pont Valentré, the dramatic Lot river loop, malbec-wine country, sunny southwest climate. Authentic, mid-sized, increasingly attracting expat retirees. Best fit: wine lovers, heritage-and-medieval fans, retirees seeking refined southwest living.",
     seoTitleEn: "Cahors — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Cahors (Lot, Occitanie): quality-of-life score 7.3/10. Medieval Lot Valley city, UNESCO Pont Valentré, malbec wine country, authentic.",
+      "Cahors (Lot, Occitanie): quality-of-life score 5.5/10. Medieval Lot Valley city, UNESCO Pont Valentré, malbec wine country, authentic.",
     scores: {
       global: 7.3,
       life: 8.0,
@@ -2324,7 +2324,7 @@ const RAW_CITIES_SEED = [
       "Agen sits between Bordeaux and Toulouse — famous for its prunes (pruneaux d'Agen), Garonne river, southwest gastronomy, affordable property. Best fit: ultra-budget households wanting southwest France character, gastronomes, retirees, families wanting two-metro access without metro prices.",
     seoTitleEn: "Agen — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Agen (Lot-et-Garonne, Nouvelle-Aquitaine): quality-of-life score 6.7/10. Between Bordeaux and Toulouse, southwest gastronomy, affordable.",
+      "Agen (Lot-et-Garonne, Nouvelle-Aquitaine): quality-of-life score 5.1/10. Between Bordeaux and Toulouse, southwest gastronomy, affordable.",
     scores: {
       global: 6.7,
       life: 7.0,
@@ -2355,7 +2355,7 @@ const RAW_CITIES_SEED = [
       "Mâcon sits at the junction of Burgundy and Beaujolais — wine country in all directions, the Saône river through the centre, TGV to Paris in 1h40 and Lyon in 25 minutes. Affordable for the wine quality at hand. Best fit: wine professionals, Lyon-region workers wanting cheaper base, gastronomes.",
     seoTitleEn: "Mâcon — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Mâcon (Saône-et-Loire, Bourgogne-Franche-Comté): quality-of-life score 6.9/10. Burgundy-Beaujolais junction, 25 min TGV to Lyon, wine country.",
+      "Mâcon (Saône-et-Loire, Bourgogne-Franche-Comté): quality-of-life score 6.1/10. Burgundy-Beaujolais junction, 25 min TGV to Lyon, wine country.",
     scores: {
       global: 6.9,
       life: 7.2,
@@ -2386,7 +2386,7 @@ const RAW_CITIES_SEED = [
       "Chalon-sur-Saône is the birthplace of photography (Nicéphore Niépce) — Saône river through the historic centre, Niépce Museum, dramatically affordable Burgundy industrial-heritage town. Best fit: photographers, ultra-budget households, Burgundy wine professionals seeking cheaper base than Beaune or Dijon.",
     seoTitleEn: "Chalon-sur-Saône — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Chalon-sur-Saône (Saône-et-Loire, Bourgogne-Franche-Comté): quality-of-life score 6.8/10. Birthplace of photography, Saône river, very affordable.",
+      "Chalon-sur-Saône (Saône-et-Loire, Bourgogne-Franche-Comté): quality-of-life score 6.0/10. Birthplace of photography, Saône river, very affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -2417,7 +2417,7 @@ const RAW_CITIES_SEED = [
       "Bourg-en-Bresse is famous for poulet de Bresse — France's only AOP-protected chicken. Ain capital, mid-way between Lyon and the Jura, 40 minutes by train from Lyon, affordable. Best fit: gastronomes, Lyon-region workers wanting cheaper base, families and retirees seeking calm with metropolitan access.",
     seoTitleEn: "Bourg-en-Bresse — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Bourg-en-Bresse (Ain, Auvergne-Rhône-Alpes): quality-of-life score 6.8/10. Poulet de Bresse capital, 40 min from Lyon, affordable, gastronomic.",
+      "Bourg-en-Bresse (Ain, Auvergne-Rhône-Alpes): quality-of-life score 6.0/10. Poulet de Bresse capital, 40 min from Lyon, affordable, gastronomic.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -2448,7 +2448,7 @@ const RAW_CITIES_SEED = [
       "Évreux is the Eure capital — close to Paris (1h by train), very affordable, with a Gothic cathedral and the Iton river through the centre. Modest cultural scene; the trade-off is dramatic budget value. Best fit: Paris commuters seeking ultra-cheap housing, first-time buyers, ultra-budget families.",
     seoTitleEn: "Évreux — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Évreux (Eure, Normandie): quality-of-life score 6.2/10. Eure capital, 1h train to Paris, very affordable, Gothic cathedral, Iton river.",
+      "Évreux (Eure, Normandie): quality-of-life score 5.0/10. Eure capital, 1h train to Paris, very affordable, Gothic cathedral, Iton river.",
     scores: {
       global: 6.2,
       life: 6.5,
@@ -2479,7 +2479,7 @@ const RAW_CITIES_SEED = [
       "Antibes is the Côte d'Azur sailing capital — historic Vieux Antibes, Port Vauban (one of Europe's largest yacht marinas), Picasso Museum, Cap d'Antibes. Premium Mediterranean lifestyle between Nice and Cannes. Best fit: sailors, yachting professionals, lifestyle-first remote workers, retirees with substantial budget.",
     seoTitleEn: "Antibes — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Antibes (Alpes-Maritimes, PACA): quality-of-life score 7.5/10. Côte d'Azur yachting capital, Port Vauban, Vieux Antibes, premium lifestyle.",
+      "Antibes (Alpes-Maritimes, PACA): quality-of-life score 5.0/10. Côte d'Azur yachting capital, Port Vauban, Vieux Antibes, premium lifestyle.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -2510,7 +2510,7 @@ const RAW_CITIES_SEED = [
       "Thionville is the main Luxembourg cross-border worker hub — 25 minutes by train to Luxembourg City, Moselle river, dynamic local economy driven by border-worker incomes. Best fit: Luxembourg-employed professionals (LU salaries with FR costs), families seeking Lorraine quality of life with high purchasing power.",
     seoTitleEn: "Thionville — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Thionville (Moselle, Grand Est): quality-of-life score 7.0/10. Main Luxembourg cross-border hub, 25 min train to LU, dynamic, family-friendly.",
+      "Thionville (Moselle, Grand Est): quality-of-life score 5.7/10. Main Luxembourg cross-border hub, 25 min train to LU, dynamic, family-friendly.",
     scores: {
       global: 7.0,
       life: 7.0,
@@ -2541,7 +2541,7 @@ const RAW_CITIES_SEED = [
       "Arras is the Artois capital — UNESCO Grand'Place and Place des Héros (Flemish-baroque masterpieces), Wellington Quarry WWI memorial, Lille and Paris both within 60 minutes by train. Affordable, refined heritage. Best fit: heritage lovers, Paris-Lille commuters, families seeking historic city living at moderate price.",
     seoTitleEn: "Arras — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Arras (Pas-de-Calais, Hauts-de-France): quality-of-life score 6.6/10. Artois capital, UNESCO baroque squares, affordable, Lille and Paris adjacent.",
+      "Arras (Pas-de-Calais, Hauts-de-France): quality-of-life score 5.7/10. Artois capital, UNESCO baroque squares, affordable, Lille and Paris adjacent.",
     scores: {
       global: 6.6,
       life: 6.8,
@@ -2572,7 +2572,7 @@ const RAW_CITIES_SEED = [
       "Carcassonne is the UNESCO medieval citadel city — La Cité fortified upper town (Europe's largest), Canal du Midi crossing through, dramatic Mediterranean climate, Pyrenees and coast both nearby. Best fit: heritage lovers, Mediterranean-climate seekers on moderate budgets, families wanting iconic Occitanie living.",
     seoTitleEn: "Carcassonne — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Carcassonne (Aude, Occitanie): quality-of-life score 6.8/10. UNESCO medieval citadel, Canal du Midi, sunny, Mediterranean and Pyrenees nearby.",
+      "Carcassonne (Aude, Occitanie): quality-of-life score 5.5/10. UNESCO medieval citadel, Canal du Midi, sunny, Mediterranean and Pyrenees nearby.",
     scores: {
       global: 6.8,
       life: 7.2,
@@ -2603,7 +2603,7 @@ const RAW_CITIES_SEED = [
       "Bayeux holds the famous Bayeux Tapestry — well-preserved medieval centre, D-Day beaches 10 minutes away, refined small-Norman-town living, Caen 20 minutes by train. Best fit: history lovers (medieval and WWII), retirees, families seeking small-town Normandy character.",
     seoTitleEn: "Bayeux — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Bayeux (Calvados, Normandie): quality-of-life score 7.0/10. Bayeux Tapestry, medieval centre, D-Day beaches adjacent, refined small town.",
+      "Bayeux (Calvados, Normandie): quality-of-life score 6.1/10. Bayeux Tapestry, medieval centre, D-Day beaches adjacent, refined small town.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -2634,7 +2634,7 @@ const RAW_CITIES_SEED = [
       "Saint-Brieuc is the Côtes-d'Armor capital — bay setting, dramatic tides, affordable, north-Brittany sea access. Modest cultural scene but real value for coast-adjacent living. Best fit: families on tight budgets seeking Brittany coast, retirees, sailors prioritising value over scene.",
     seoTitleEn: "Saint-Brieuc — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Brieuc (Côtes-d'Armor, Bretagne): quality-of-life score 6.8/10. Côtes-d'Armor capital, bay setting, affordable, north-Brittany coast.",
+      "Saint-Brieuc (Côtes-d'Armor, Bretagne): quality-of-life score 6.0/10. Côtes-d'Armor capital, bay setting, affordable, north-Brittany coast.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -2665,7 +2665,7 @@ const RAW_CITIES_SEED = [
       "Saint-Nazaire is the major Loire-Atlantic shipbuilding city — Chantiers de l'Atlantique (the giant cruise ships), Airbus aerostructures, the Loire estuary opening to the Atlantic. Strong industrial job market, affordable, Nantes 45 minutes away. Best fit: shipbuilding and aerospace professionals, families wanting Atlantic-coast living at industrial-city prices.",
     seoTitleEn: "Saint-Nazaire — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Nazaire (Loire-Atlantique, Pays de la Loire): quality-of-life score 6.9/10. Shipbuilding city, Loire estuary, Airbus, Atlantic coast, affordable.",
+      "Saint-Nazaire (Loire-Atlantique, Pays de la Loire): quality-of-life score 5.9/10. Shipbuilding city, Loire estuary, Airbus, Atlantic coast, affordable.",
     scores: {
       global: 6.9,
       life: 7.0,
@@ -2696,7 +2696,7 @@ const RAW_CITIES_SEED = [
       "Clermont-l'Hérault is a small Languedoc-Hérault town in the heart of wine and nature country — Lac du Salagou (one of France's most dramatic red-earth lakes) at the doorstep, Mediterranean climate, Montpellier 45 minutes away. Best fit: nature lovers, retirees, ultra-budget households wanting Hérault inland living.",
     seoTitleEn: "Clermont-l'Hérault — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Clermont-l'Hérault (Hérault, Occitanie): quality-of-life score 7.0/10. Languedoc inland town, Lac du Salagou, vineyards, 45 min from Montpellier.",
+      "Clermont-l'Hérault (Hérault, Occitanie): quality-of-life score 5.2/10. Languedoc inland town, Lac du Salagou, vineyards, 45 min from Montpellier.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -2727,7 +2727,7 @@ const RAW_CITIES_SEED = [
       "Châlons-en-Champagne is the Marne prefecture — Reims's quieter southern cousin in Champagne country, green canals, dramatically affordable, calm. Best fit: Champagne professionals seeking value-base, ultra-budget households, retirees prioritising calm and heritage.",
     seoTitleEn: "Châlons-en-Champagne — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Châlons-en-Champagne (Marne, Grand Est): quality-of-life score 6.5/10. Marne prefecture, Champagne country, very affordable, calm green city.",
+      "Châlons-en-Champagne (Marne, Grand Est): quality-of-life score 5.5/10. Marne prefecture, Champagne country, very affordable, calm green city.",
     scores: {
       global: 6.5,
       life: 6.8,
@@ -2758,7 +2758,7 @@ const RAW_CITIES_SEED = [
       "Auxerre is the Yonne capital — northern Burgundy, Chablis wine country at the doorstep, the Yonne river through the centre, 1h45 to Paris by direct train. Affordable for the heritage quality. Best fit: wine lovers (Chablis), retirees, Paris-region workers wanting quiet historic mid-sized base.",
     seoTitleEn: "Auxerre — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Auxerre (Yonne, Bourgogne-Franche-Comté): quality-of-life score 6.8/10. Northern Burgundy, Chablis adjacent, Yonne river, 1h45 to Paris.",
+      "Auxerre (Yonne, Bourgogne-Franche-Comté): quality-of-life score 6.1/10. Northern Burgundy, Chablis adjacent, Yonne river, 1h45 to Paris.",
     scores: {
       global: 6.8,
       life: 7.2,
@@ -2789,7 +2789,7 @@ const RAW_CITIES_SEED = [
       "Belfort sits at the Burgundy-Alsace-Franche-Comté crossroads — Vauban citadel with the famous Lion of Belfort, Switzerland and Germany both 30 minutes away, industrial heritage (Alstom). Affordable, with strong tri-border access. Best fit: Switzerland-Germany cross-border professionals, industrial-engineering jobs, ultra-budget households.",
     seoTitleEn: "Belfort — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Belfort (Territoire de Belfort, Bourgogne-Franche-Comté): quality-of-life score 6.6/10. Tri-border crossroads, Vauban citadel, Alstom, affordable.",
+      "Belfort (Territoire de Belfort, Bourgogne-Franche-Comté): quality-of-life score 5.9/10. Tri-border crossroads, Vauban citadel, Alstom, affordable.",
     scores: {
       global: 6.6,
       life: 6.8,
@@ -2820,7 +2820,7 @@ const RAW_CITIES_SEED = [
       "Vichy is the historic thermal-spa Auvergne town — Belle Époque architecture, vast parks along the Allier river, UNESCO Great Spa Town listing. Quieter than its Belle-Époque heyday, refined and affordable. Best fit: retirees, thermal-spa enthusiasts, families seeking refined small-town living, architecture lovers.",
     seoTitleEn: "Vichy — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Vichy (Allier, Auvergne-Rhône-Alpes): quality-of-life score 7.0/10. UNESCO thermal-spa town, Belle Époque architecture, refined, affordable.",
+      "Vichy (Allier, Auvergne-Rhône-Alpes): quality-of-life score 6.5/10. UNESCO thermal-spa town, Belle Époque architecture, refined, affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -2851,7 +2851,7 @@ const RAW_CITIES_SEED = [
       "Alençon is the Orne prefecture in lower Normandy — UNESCO point d'Alençon lace heritage, calm, dramatically affordable, surrounded by Normandy countryside, 1h45 from Paris. Best fit: ultra-budget households, first-time buyers, retirees prioritising calm rural Normandy access.",
     seoTitleEn: "Alençon — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Alençon (Orne, Normandie): quality-of-life score 6.5/10. Orne prefecture, UNESCO lace heritage, very affordable, calm Normandy countryside.",
+      "Alençon (Orne, Normandie): quality-of-life score 5.7/10. Orne prefecture, UNESCO lace heritage, very affordable, calm Normandy countryside.",
     scores: {
       global: 6.5,
       life: 6.8,
@@ -2882,7 +2882,7 @@ const RAW_CITIES_SEED = [
       "Millau is the outdoor-sport capital of southern France — Viaduc de Millau (the world's tallest bridge) is the visual icon, paragliding, climbing, kayaking and canyon-running all on the doorstep, dramatic limestone Causses landscape. Best fit: outdoor active families, paragliders and climbers, nature retirees, slow-life seekers.",
     seoTitleEn: "Millau — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Millau (Aveyron, Occitanie): quality-of-life score 7.3/10. Outdoor-sport capital, world's tallest bridge, Causses landscape, paragliding mecca.",
+      "Millau (Aveyron, Occitanie): quality-of-life score 5.6/10. Outdoor-sport capital, world's tallest bridge, Causses landscape, paragliding mecca.",
     scores: {
       global: 7.3,
       life: 8.0,
@@ -2913,7 +2913,7 @@ const RAW_CITIES_SEED = [
       "Cognac is the eponymous brandy capital — Hennessy, Martell, Rémy Martin and Camus all headquartered here, Charente river through the centre, vineyards in every direction. Refined yet affordable. Best fit: spirits and wine professionals, gastronomes, retirees seeking refined southwest living.",
     seoTitleEn: "Cognac — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Cognac (Charente, Nouvelle-Aquitaine): quality-of-life score 7.0/10. Cognac brandy capital, major distillery HQs, Charente river, refined.",
+      "Cognac (Charente, Nouvelle-Aquitaine): quality-of-life score 5.8/10. Cognac brandy capital, major distillery HQs, Charente river, refined.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -2944,7 +2944,7 @@ const RAW_CITIES_SEED = [
       "Épinal is the Vosges-foothills city — historic image-print heritage (the famous Épinal prints), the Moselle river through the centre, Vosges forests and ski stations within an hour. Calm, affordable. Best fit: nature-and-forest lovers, ultra-budget households, retirees seeking quiet Vosges access.",
     seoTitleEn: "Épinal — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Épinal (Vosges, Grand Est): quality-of-life score 6.8/10. Vosges-foothills city, image-print heritage, Moselle river, affordable, forest access.",
+      "Épinal (Vosges, Grand Est): quality-of-life score 5.9/10. Vosges-foothills city, image-print heritage, Moselle river, affordable, forest access.",
     scores: {
       global: 6.8,
       life: 7.2,
@@ -2975,7 +2975,7 @@ const RAW_CITIES_SEED = [
       "Montélimar is the nougat capital of France — sunny Drôme provençale, gateway to Provence (the south-French climate truly begins here), Rhône Valley wines, dramatic Vercors and Ardèche nearby. Affordable. Best fit: Provence-seekers on budget, gastronomes, retirees, families.",
     seoTitleEn: "Montélimar — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Montélimar (Drôme, Auvergne-Rhône-Alpes): quality-of-life score 7.1/10. Nougat capital, gateway to Provence, sunny, Rhône Valley wines.",
+      "Montélimar (Drôme, Auvergne-Rhône-Alpes): quality-of-life score 6.3/10. Nougat capital, gateway to Provence, sunny, Rhône Valley wines.",
     scores: {
       global: 7.1,
       life: 7.5,
@@ -3006,7 +3006,7 @@ const RAW_CITIES_SEED = [
       "Figeac is the medieval Lot Valley jewel — Champollion's birthplace (he decoded the Rosetta Stone), exceptionally well-preserved Quercy heritage, the Célé and Lot rivers nearby, dramatic limestone landscapes. Authentic, refined. Best fit: heritage lovers, retirees seeking refined Lot Valley living, slow-life expats.",
     seoTitleEn: "Figeac — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Figeac (Lot, Occitanie): quality-of-life score 7.4/10. Medieval Lot Valley town, Champollion's birthplace, refined Quercy heritage, authentic.",
+      "Figeac (Lot, Occitanie): quality-of-life score 5.4/10. Medieval Lot Valley town, Champollion's birthplace, refined Quercy heritage, authentic.",
     scores: {
       global: 7.4,
       life: 8.5,
@@ -3037,7 +3037,7 @@ const RAW_CITIES_SEED = [
       "Romans-sur-Isère is the historic French shoemaking capital — Charles Jourdan and Stéphane Kélian heritage, International Shoe Museum, sunny Drôme location, Vercors massif at the doorstep. Best fit: artisans and craftspeople, leather-and-shoe industry workers, mid-budget retirees, outdoor families.",
     seoTitleEn: "Romans-sur-Isère — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Romans-sur-Isère (Drôme, Auvergne-Rhône-Alpes): quality-of-life score 6.9/10. Historic French shoemaking capital, Shoe Museum, Vercors nearby.",
+      "Romans-sur-Isère (Drôme, Auvergne-Rhône-Alpes): quality-of-life score 6.0/10. Historic French shoemaking capital, Shoe Museum, Vercors nearby.",
     scores: {
       global: 6.9,
       life: 7.2,
@@ -3068,7 +3068,7 @@ const RAW_CITIES_SEED = [
       "Cholet is the dynamic Maine-et-Loire industrial city — textile and clothing-manufacturing heritage, very low unemployment, family-friendly, sport-active culture. Modest cultural scene, strong job market. Best fit: industrial-and-manufacturing professionals, families seeking secure local jobs, sport-active households.",
     seoTitleEn: "Cholet — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Cholet (Maine-et-Loire, Pays de la Loire): quality-of-life score 7.1/10. Dynamic industrial city, low unemployment, family-friendly, sporty.",
+      "Cholet (Maine-et-Loire, Pays de la Loire): quality-of-life score 6.6/10. Dynamic industrial city, low unemployment, family-friendly, sporty.",
     scores: {
       global: 7.1,
       life: 7.5,
@@ -3099,7 +3099,7 @@ const RAW_CITIES_SEED = [
       "Draguignan is the Var-interior Provençal city — refined market town, Mediterranean climate, Verdon Gorges within an hour, dramatically cheaper than coastal Var. Best fit: Provençal-lifestyle seekers on tight budgets, retirees, families wanting Provence character at inland prices, Verdon outdoor lovers.",
     seoTitleEn: "Draguignan — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Draguignan (Var, PACA): quality-of-life score 7.0/10. Inland Var Provençal city, market-town refinement, Verdon Gorges adjacent, affordable.",
+      "Draguignan (Var, PACA): quality-of-life score 5.2/10. Inland Var Provençal city, market-town refinement, Verdon Gorges adjacent, affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -3130,7 +3130,7 @@ const RAW_CITIES_SEED = [
       "Saintes is a Gallo-Roman Charente jewel — surviving Roman amphitheatre and arch of Germanicus, refined Charente river city, Cognac 30 minutes, Atlantic coast 1 hour. Refined and affordable. Best fit: heritage lovers, retirees, families seeking refined small-Charente living.",
     seoTitleEn: "Saintes — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saintes (Charente-Maritime, Nouvelle-Aquitaine): quality-of-life score 7.2/10. Gallo-Roman heritage, refined Charente city, Cognac and Atlantic nearby.",
+      "Saintes (Charente-Maritime, Nouvelle-Aquitaine): quality-of-life score 6.1/10. Gallo-Roman heritage, refined Charente city, Cognac and Atlantic nearby.",
     scores: {
       global: 7.2,
       life: 8.0,
@@ -3161,7 +3161,7 @@ const RAW_CITIES_SEED = [
       "Aix-les-Bains sits on Lac du Bourget (France's largest natural lake) — thermal Belle-Époque heritage, Alps on every side, Geneva 1h, Lyon 1h. Dramatically cheaper than Annecy, comparable lake-and-mountain access. Best fit: lake-and-mountain lovers, retirees with budget, thermal-spa enthusiasts, value-seeking Annecy alternatives.",
     seoTitleEn: "Aix-les-Bains — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Aix-les-Bains (Savoie, Auvergne-Rhône-Alpes): quality-of-life score 7.6/10. Lac du Bourget, thermal heritage, cheaper Annecy alternative.",
+      "Aix-les-Bains (Savoie, Auvergne-Rhône-Alpes): quality-of-life score 5.8/10. Lac du Bourget, thermal heritage, cheaper Annecy alternative.",
     scores: {
       global: 7.6,
       life: 8.0,
@@ -3192,7 +3192,7 @@ const RAW_CITIES_SEED = [
       "Bergerac is the heart of the British-expat Dordogne — Bergerac wine appellation, riverside historic centre, established Anglo expat community since the 1980s, gastronomic Périgord lifestyle. Best fit: British and Anglo retirees seeking established community, gastronomes, Dordogne-region property buyers.",
     seoTitleEn: "Bergerac — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Bergerac (Dordogne, Nouvelle-Aquitaine): quality-of-life score 6.9/10. Bergerac wine country, established British retiree community, refined Périgord.",
+      "Bergerac (Dordogne, Nouvelle-Aquitaine): quality-of-life score 5.3/10. Bergerac wine country, established British retiree community, refined Périgord.",
     scores: {
       global: 6.9,
       life: 7.2,
@@ -3223,7 +3223,7 @@ const RAW_CITIES_SEED = [
       "Arcachon is the Bordeaux-region Atlantic seaside resort — Bassin d'Arcachon oyster country, Dune du Pilat (Europe's tallest sand dune), Belle-Époque villas, Bordeaux 50 minutes by train. Premium pricing, exceptional lifestyle. Best fit: oyster and seafood lovers, sailors, retirees with budget, Bordeaux-region weekend or remote workers.",
     seoTitleEn: "Arcachon — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Arcachon (Gironde, Nouvelle-Aquitaine): quality-of-life score 7.4/10. Atlantic Bassin d'Arcachon, Dune du Pilat, oyster country, premium.",
+      "Arcachon (Gironde, Nouvelle-Aquitaine): quality-of-life score 5.3/10. Atlantic Bassin d'Arcachon, Dune du Pilat, oyster country, premium.",
     scores: {
       global: 7.4,
       life: 8.0,
@@ -3254,7 +3254,7 @@ const RAW_CITIES_SEED = [
       "Thonon-les-Bains sits on the French shore of Lake Geneva (Léman) — Geneva 40 minutes by ferry across the lake, Swiss border 15 minutes by car, Alpine ski stations within an hour. Strong Swiss cross-border worker market. Best fit: Geneva-employed professionals (Swiss salaries, French residence), lake-and-mountain families, retirees with budget.",
     seoTitleEn: "Thonon-les-Bains — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Thonon-les-Bains (Haute-Savoie, Auvergne-Rhône-Alpes): quality-of-life score 7.3/10. Lake Geneva shore, Geneva ferry, Swiss cross-border hub.",
+      "Thonon-les-Bains (Haute-Savoie, Auvergne-Rhône-Alpes): quality-of-life score 5.9/10. Lake Geneva shore, Geneva ferry, Swiss cross-border hub.",
     scores: {
       global: 7.3,
       life: 7.5,
@@ -3285,7 +3285,7 @@ const RAW_CITIES_SEED = [
       "Salon-de-Provence sits between Aix-en-Provence and Avignon — sunny Provençal mid-sized town, Nostradamus heritage, Air Force base (Patrouille de France), affordable for the region. Best fit: Air Force families, Provence-seekers on moderate budget, retirees wanting Provençal mid-sized town living.",
     seoTitleEn: "Salon-de-Provence — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Salon-de-Provence (Bouches-du-Rhône, PACA): quality-of-life score 6.8/10. Between Aix and Avignon, Provençal mid-town, Patrouille de France base.",
+      "Salon-de-Provence (Bouches-du-Rhône, PACA): quality-of-life score 5.4/10. Between Aix and Avignon, Provençal mid-town, Patrouille de France base.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -3316,7 +3316,7 @@ const RAW_CITIES_SEED = [
       "Martigues is the 'Venise Provençale' — canals, fishing-village charm, Étang de Berre lagoon, dramatically cheaper than coastal Var or Bouches-du-Rhône hotspots. Petrochemical-industry adjacent. Best fit: ultra-budget Mediterranean households, fishing-and-boating enthusiasts, industrial-Marseille-area workers.",
     seoTitleEn: "Martigues — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Martigues (Bouches-du-Rhône, PACA): quality-of-life score 6.6/10. Venise Provençale canals, Étang de Berre, authentic Provençal fishing town.",
+      "Martigues (Bouches-du-Rhône, PACA): quality-of-life score 5.1/10. Venise Provençale canals, Étang de Berre, authentic Provençal fishing town.",
     scores: {
       global: 6.6,
       life: 7.0,
@@ -3347,7 +3347,7 @@ const RAW_CITIES_SEED = [
       "Calais is the major Channel ferry-and-Tunnel hub — direct rail and ferry to Dover, dramatically affordable, the historic lace and tulle industry. Going through significant urban renewal. Best fit: UK-France commuters, Channel-Tunnel professionals, ultra-budget households, freight-and-logistics workers.",
     seoTitleEn: "Calais — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Calais (Pas-de-Calais, Hauts-de-France): quality-of-life score 6.1/10. Channel ferry and Tunnel hub, dramatically affordable, UK-France gateway.",
+      "Calais (Pas-de-Calais, Hauts-de-France): quality-of-life score 4.4/10. Channel ferry and Tunnel hub, dramatically affordable, UK-France gateway.",
     scores: {
       global: 6.1,
       life: 6.5,
@@ -3378,7 +3378,7 @@ const RAW_CITIES_SEED = [
       "Lens is the post-mining Nord city — Louvre-Lens (decentralised branch of the Paris Louvre, free for permanent collection) is the cultural surprise, UNESCO mining heritage, football capital (RC Lens), exceptionally affordable. Best fit: cultural buyers seeking ultra-cheap property, football fans, ultra-budget households.",
     seoTitleEn: "Lens — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Lens (Pas-de-Calais, Hauts-de-France): quality-of-life score 6.3/10. Louvre-Lens, UNESCO mining heritage, RC Lens football, dramatically affordable.",
+      "Lens (Pas-de-Calais, Hauts-de-France): quality-of-life score 5.3/10. Louvre-Lens, UNESCO mining heritage, RC Lens football, dramatically affordable.",
     scores: {
       global: 6.3,
       life: 6.5,
@@ -3409,7 +3409,7 @@ const RAW_CITIES_SEED = [
       "Valenciennes is the Toyota-France manufacturing city — major industrial jobs (Onnaing plant), strong university, Belgian border 15 minutes, Lille 30 minutes. Watteau's birthplace, dramatically affordable. Best fit: automotive manufacturing professionals, Lille-region workers wanting cheaper base, ultra-budget households.",
     seoTitleEn: "Valenciennes — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Valenciennes (Nord, Hauts-de-France): quality-of-life score 6.2/10. Toyota France manufacturing hub, near Lille and Belgian border, very affordable.",
+      "Valenciennes (Nord, Hauts-de-France): quality-of-life score 5.1/10. Toyota France manufacturing hub, near Lille and Belgian border, very affordable.",
     scores: {
       global: 6.2,
       life: 6.5,
@@ -3440,7 +3440,7 @@ const RAW_CITIES_SEED = [
       "Castres is the Tarn rugby-and-pharma city — Pierre Fabre Laboratories headquarters (major employment), Goya Museum (largest Spanish painting collection outside Spain), rugby identity strong. Affordable, sunny. Best fit: pharma professionals, rugby fans, ultra-budget Southwest-France households, families.",
     seoTitleEn: "Castres — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Castres (Tarn, Occitanie): quality-of-life score 7.0/10. Tarn rugby town, Pierre Fabre HQ, Goya Museum, sunny, affordable.",
+      "Castres (Tarn, Occitanie): quality-of-life score 6.3/10. Tarn rugby town, Pierre Fabre HQ, Goya Museum, sunny, affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -3471,7 +3471,7 @@ const RAW_CITIES_SEED = [
       "Hyères is the Var-coast Mediterranean city — exceptional sun, Îles d'Or (Porquerolles, Port-Cros) offshore, dramatic Presqu'île de Giens, palm-lined boulevards. More accessible than Saint-Tropez, premium for mainland Var. Best fit: kite-surfers and sailors, retirees with budget, lifestyle-first remote workers, Mediterranean island lovers.",
     seoTitleEn: "Hyères — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Hyères (Var, PACA): quality-of-life score 7.5/10. Var Mediterranean coast, Îles d'Or, Presqu'île de Giens, palm boulevards, premium.",
+      "Hyères (Var, PACA): quality-of-life score 5.6/10. Var Mediterranean coast, Îles d'Or, Presqu'île de Giens, palm boulevards, premium.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -3502,7 +3502,7 @@ const RAW_CITIES_SEED = [
       "Haguenau is the north-Alsace mid-sized town — Strasbourg 30 minutes by train, Germany 15 minutes away, the Forêt de Haguenau (one of France's largest oak-and-hornbeam forests), refined Alsatian heritage. Best fit: Strasbourg-region workers seeking cheaper base, Germany-cross-border professionals, families wanting Alsatian small-town living.",
     seoTitleEn: "Haguenau — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Haguenau (Bas-Rhin, Grand Est): quality-of-life score 7.2/10. North-Alsace town, 30 min train to Strasbourg, German border, vast oak forest.",
+      "Haguenau (Bas-Rhin, Grand Est): quality-of-life score 6.1/10. North-Alsace town, 30 min train to Strasbourg, German border, vast oak forest.",
     scores: {
       global: 7.2,
       life: 7.5,
@@ -3533,7 +3533,7 @@ const RAW_CITIES_SEED = [
       "Roanne is the Loire department city famous for Troisgros (one of France's longest-running three-star Michelin family restaurants) and historic textile manufacturing. Dramatically affordable, Lyon 70 minutes by train. Best fit: gastronomes, Lyon-region workers wanting ultra-cheap base, ultra-budget households.",
     seoTitleEn: "Roanne — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Roanne (Loire, Auvergne-Rhône-Alpes): quality-of-life score 6.8/10. Loire department city, Troisgros gastronomy heritage, very affordable.",
+      "Roanne (Loire, Auvergne-Rhône-Alpes): quality-of-life score 6.3/10. Loire department city, Troisgros gastronomy heritage, very affordable.",
     scores: {
       global: 6.8,
       life: 7.2,
@@ -3564,7 +3564,7 @@ const RAW_CITIES_SEED = [
       "Douai is the Nord university city — UNESCO beffroi, the giant Gayant festival figures, École des Mines engineering school, Lille 30 minutes by train. Dramatically affordable, dynamic for its size. Best fit: engineering and tech students, Lille-region workers wanting cheaper base, ultra-budget households.",
     seoTitleEn: "Douai — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Douai (Nord, Hauts-de-France): quality-of-life score 6.4/10. Nord university city, UNESCO beffroi, École des Mines, near Lille, very affordable.",
+      "Douai (Nord, Hauts-de-France): quality-of-life score 5.4/10. Nord university city, UNESCO beffroi, École des Mines, near Lille, very affordable.",
     scores: {
       global: 6.4,
       life: 6.8,
@@ -3595,7 +3595,7 @@ const RAW_CITIES_SEED = [
       "Cambrai is the historic Flemish-Nord city — UNESCO Cambrai mint, refined cathedral, dramatically affordable, Lille 45 minutes, Paris 1h30. Famous for bêtises de Cambrai mints and exceptional pâtisserie heritage. Best fit: ultra-budget households, heritage lovers, Paris-Lille commuters seeking very cheap base.",
     seoTitleEn: "Cambrai — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Cambrai (Nord, Hauts-de-France): quality-of-life score 6.5/10. Flemish Nord city, refined cathedral, very affordable, near Lille and Paris.",
+      "Cambrai (Nord, Hauts-de-France): quality-of-life score 6.0/10. Flemish Nord city, refined cathedral, very affordable, near Lille and Paris.",
     scores: {
       global: 6.5,
       life: 7.0,
@@ -3626,7 +3626,7 @@ const RAW_CITIES_SEED = [
       "Montbéliard is the Peugeot-Stellantis manufacturing city — major automotive jobs (Sochaux plant), Swiss border 1 hour away, famous Montbéliard Christmas markets, multicultural. Affordable. Best fit: automotive industry professionals, Swiss-Franche-Comté border workers, families seeking secure industrial jobs.",
     seoTitleEn: "Montbéliard — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Montbéliard (Doubs, Bourgogne-Franche-Comté): quality-of-life score 6.7/10. Peugeot-Stellantis manufacturing, Christmas markets, multicultural.",
+      "Montbéliard (Doubs, Bourgogne-Franche-Comté): quality-of-life score 6.1/10. Peugeot-Stellantis manufacturing, Christmas markets, multicultural.",
     scores: {
       global: 6.7,
       life: 7.0,
@@ -3657,7 +3657,7 @@ const RAW_CITIES_SEED = [
       "Aurillac is the Cantal capital — 631m altitude in the Massif Central volcanic country, France's famous umbrella manufacturer (Piganiol), the iconic Festival International de Théâtre de Rue each August. Dramatically isolated and authentic. Best fit: street-theatre and arts professionals, nature retirees, ultra-budget households seeking the most rural French mid-sized town.",
     seoTitleEn: "Aurillac — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Aurillac (Cantal, Auvergne-Rhône-Alpes): quality-of-life score 7.0/10. Cantal capital, 631m altitude, street-theatre festival, authentic Massif Central.",
+      "Aurillac (Cantal, Auvergne-Rhône-Alpes): quality-of-life score 5.6/10. Cantal capital, 631m altitude, street-theatre festival, authentic Massif Central.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -3688,7 +3688,7 @@ const RAW_CITIES_SEED = [
       "Châtellerault is the Vienne sub-prefecture — historic cutlery industry, on the Paris-Bordeaux TGV line (1h45 Paris, 1h20 Bordeaux), very affordable. Best fit: Paris-Bordeaux commuters wanting cheap base, industrial-engineering workers, ultra-budget households.",
     seoTitleEn: "Châtellerault — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Châtellerault (Vienne, Nouvelle-Aquitaine): quality-of-life score 6.7/10. Vienne sub-prefecture, Paris-Bordeaux TGV line, very affordable.",
+      "Châtellerault (Vienne, Nouvelle-Aquitaine): quality-of-life score 6.3/10. Vienne sub-prefecture, Paris-Bordeaux TGV line, very affordable.",
     scores: {
       global: 6.7,
       life: 7.0,
@@ -3719,7 +3719,7 @@ const RAW_CITIES_SEED = [
       "Annemasse is the main Geneva cross-border worker hub — Geneva 15 minutes by tram (Léman Express), Mont Salève on the doorstep, dramatically cheaper than living in Geneva itself. Best fit: Geneva-employed professionals (Swiss salaries, French costs), Switzerland-border families, mountain-active commuters.",
     seoTitleEn: "Annemasse — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Annemasse (Haute-Savoie, Auvergne-Rhône-Alpes): quality-of-life score 7.4/10. Main Geneva cross-border hub, 15 min tram, Mont Salève, Swiss salaries.",
+      "Annemasse (Haute-Savoie, Auvergne-Rhône-Alpes): quality-of-life score 6.4/10. Main Geneva cross-border hub, 15 min tram, Mont Salève, Swiss salaries.",
     scores: {
       global: 7.4,
       life: 7.5,
@@ -3750,7 +3750,7 @@ const RAW_CITIES_SEED = [
       "Compiègne is the Oise royal-château city — vast Forêt de Compiègne, the imperial château of Napoleon III, Armistice clearing of November 1918, 45 minutes from Paris by train. Refined, affordable for Île-de-France-adjacent. Best fit: Paris-area workers wanting forest-and-château lifestyle, heritage lovers, families.",
     seoTitleEn: "Compiègne — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Compiègne (Oise, Hauts-de-France): quality-of-life score 7.1/10. Oise royal-château city, vast forest, 45 min train to Paris, refined.",
+      "Compiègne (Oise, Hauts-de-France): quality-of-life score 6.8/10. Oise royal-château city, vast forest, 45 min train to Paris, refined.",
     scores: {
       global: 7.1,
       life: 7.5,
@@ -3781,7 +3781,7 @@ const RAW_CITIES_SEED = [
       "Beauvais is the Oise prefecture — the world's tallest Gothic choir (Saint-Pierre cathedral), Beauvais-Tillé low-cost airport (Paris's third), 1h15 to Paris by train. Dramatically affordable for Île-de-France-adjacent. Best fit: Paris-area workers seeking cheapest commuter base, low-cost-airline frequent flyers, ultra-budget households.",
     seoTitleEn: "Beauvais — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Beauvais (Oise, Hauts-de-France): quality-of-life score 6.6/10. World's tallest Gothic choir, low-cost airport, 1h15 to Paris, very affordable.",
+      "Beauvais (Oise, Hauts-de-France): quality-of-life score 6.0/10. World's tallest Gothic choir, low-cost airport, 1h15 to Paris, very affordable.",
     scores: {
       global: 6.6,
       life: 7.0,
@@ -3812,7 +3812,7 @@ const RAW_CITIES_SEED = [
       "Narbonne is the Aude Roman-and-wine city — once the Roman capital of southern Gaul, Canal du Midi flowing through, Languedoc wine country in every direction, sea 15 minutes away. Affordable for the Mediterranean access. Best fit: wine professionals, retirees, Mediterranean-climate-and-heritage lovers on moderate budget.",
     seoTitleEn: "Narbonne — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Narbonne (Aude, Occitanie): quality-of-life score 7.1/10. Former Roman capital, Languedoc wine country, Canal du Midi, sea nearby, affordable.",
+      "Narbonne (Aude, Occitanie): quality-of-life score 4.9/10. Former Roman capital, Languedoc wine country, Canal du Midi, sea nearby, affordable.",
     scores: {
       global: 7.1,
       life: 7.5,
@@ -3843,7 +3843,7 @@ const RAW_CITIES_SEED = [
       "Saint-Quentin is the Aisne sub-prefecture — exceptional Art Deco heritage (post-WWI reconstruction), the famous Matisse pastel collection, dramatically affordable property. Best fit: Art-Deco architecture lovers, ultra-budget households, Paris-region workers seeking cheap base (Paris 1h40).",
     seoTitleEn: "Saint-Quentin — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Quentin (Aisne, Hauts-de-France): quality-of-life score 6.3/10. Art Deco heritage, Matisse collection, dramatically affordable property.",
+      "Saint-Quentin (Aisne, Hauts-de-France): quality-of-life score 6.2/10. Art Deco heritage, Matisse collection, dramatically affordable property.",
     scores: {
       global: 6.3,
       life: 6.8,
@@ -3874,7 +3874,7 @@ const RAW_CITIES_SEED = [
       "Sélestat sits between Strasbourg and Colmar on the Alsace Wine Route — Bibliothèque Humaniste UNESCO heritage, refined medieval centre, Vosges forests to the west, Black Forest visible to the east. Best fit: wine and heritage lovers, families wanting refined Alsatian small-town living, Franco-German cultural enthusiasts.",
     seoTitleEn: "Sélestat — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Sélestat (Bas-Rhin, Grand Est): quality-of-life score 7.5/10. Between Strasbourg and Colmar, UNESCO Humanist Library, Alsace Wine Route.",
+      "Sélestat (Bas-Rhin, Grand Est): quality-of-life score 6.2/10. Between Strasbourg and Colmar, UNESCO Humanist Library, Alsace Wine Route.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -3905,7 +3905,7 @@ const RAW_CITIES_SEED = [
       "Bourges is the historic Berry capital — UNESCO Saint-Étienne cathedral, Jacques-Cœur palace, the influential Printemps de Bourges music festival each spring. Refined heritage, dramatically affordable, exact centre of France. Best fit: music professionals, heritage lovers, ultra-budget households, retirees seeking refined heart-of-France living.",
     seoTitleEn: "Bourges — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Bourges (Cher, Centre-Val de Loire): quality-of-life score 7.1/10. UNESCO cathedral, Jacques-Cœur palace, Printemps de Bourges festival, affordable.",
+      "Bourges (Cher, Centre-Val de Loire): quality-of-life score 5.7/10. UNESCO cathedral, Jacques-Cœur palace, Printemps de Bourges festival, affordable.",
     scores: {
       global: 7.1,
       life: 7.5,
@@ -3936,7 +3936,7 @@ const RAW_CITIES_SEED = [
       "Châteauroux is the Indre prefecture — among France's cheapest mid-sized cities for property, military base, calm Berry countryside. Best fit: military families, ultra-budget first-time buyers (some of the lowest property prices in France), retirees seeking calm.",
     seoTitleEn: "Châteauroux — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Châteauroux (Indre, Centre-Val de Loire): quality-of-life score 6.5/10. Indre prefecture, among France's cheapest property markets, calm Berry.",
+      "Châteauroux (Indre, Centre-Val de Loire): quality-of-life score 5.4/10. Indre prefecture, among France's cheapest property markets, calm Berry.",
     scores: {
       global: 6.5,
       life: 7.0,
@@ -3967,7 +3967,7 @@ const RAW_CITIES_SEED = [
       "Brive-la-Gaillarde is the Corrèze rugby-and-gastronomy capital — exceptional weekly market, gateway to the Périgord Noir (Dordogne) and Lot, refined southwest food culture. Affordable. Best fit: rugby fans, gastronomes, retirees with established southwest-France interest, foodies wanting Périgord access.",
     seoTitleEn: "Brive-la-Gaillarde — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Brive-la-Gaillarde (Corrèze, Nouvelle-Aquitaine): quality-of-life score 7.2/10. Corrèze rugby town, exceptional market, Périgord gateway.",
+      "Brive-la-Gaillarde (Corrèze, Nouvelle-Aquitaine): quality-of-life score 6.8/10. Corrèze rugby town, exceptional market, Périgord gateway.",
     scores: {
       global: 7.2,
       life: 7.5,
@@ -3998,7 +3998,7 @@ const RAW_CITIES_SEED = [
       "Auch is the historic Gascony capital — D'Artagnan's homeland, Armagnac brandy country, refined cathedral, dramatic Pyrenees views in clear weather. Affordable. Best fit: gastronomes, Armagnac and southwest wine lovers, retirees seeking refined Gascon living, history fans.",
     seoTitleEn: "Auch — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Auch (Gers, Occitanie): quality-of-life score 6.9/10. Gascony capital, D'Artagnan country, Armagnac country, refined and affordable.",
+      "Auch (Gers, Occitanie): quality-of-life score 6.5/10. Gascony capital, D'Artagnan country, Armagnac country, refined and affordable.",
     scores: {
       global: 6.9,
       life: 7.5,
@@ -4029,7 +4029,7 @@ const RAW_CITIES_SEED = [
       "Dole is Pasteur's birthplace — historic Jura town on the Doubs river, canal-side architecture, refined heritage, dramatically affordable. Best fit: science-history lovers, retirees seeking refined small-town Jura living, ultra-budget households wanting eastern France character.",
     seoTitleEn: "Dole — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Dole (Jura, Bourgogne-Franche-Comté): quality-of-life score 7.0/10. Pasteur's birthplace, historic Jura town, Doubs river, refined and affordable.",
+      "Dole (Jura, Bourgogne-Franche-Comté): quality-of-life score 6.8/10. Pasteur's birthplace, historic Jura town, Doubs river, refined and affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -4091,7 +4091,7 @@ const RAW_CITIES_SEED = [
       "Paris is France's capital — 20 arrondissements, the densest French career and cultural market, museums, restaurants and metropolitan amenities at scale. Expensive but cheaper than London for equivalent neighborhoods. Best fit: career-driven professionals, international expats, culture-and-restaurant lovers, anyone wanting Europe-major-capital living.",
     seoTitleEn: "Paris — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Paris (Île-de-France): quality-of-life score 8.0/10. French capital, 20 arrondissements, densest career market, world-class culture, metropolitan.",
+      "Paris (Île-de-France): quality-of-life score 5.1/10. French capital, 20 arrondissements, densest career market, world-class culture, metropolitan.",
     scores: {
       global: 8.0,
       life: 7.5,
@@ -4122,7 +4122,7 @@ const RAW_CITIES_SEED = [
       "Versailles is the Yvelines royal-château city — UNESCO château, refined bourgeois centre, excellent public schools (Lycée Hoche, Notre-Dame), 30-40 minutes to central Paris by RER. Premium family-expat heartland. Best fit: corporate-package families, refined retirees, international-school families.",
     seoTitleEn: "Versailles — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Versailles (Yvelines, Île-de-France): quality-of-life score 8.0/10. Royal château UNESCO city, refined, family-expat heartland, top public schools.",
+      "Versailles (Yvelines, Île-de-France): quality-of-life score 6.5/10. Royal château UNESCO city, refined, family-expat heartland, top public schools.",
     scores: {
       global: 8.0,
       life: 8.0,
@@ -4153,7 +4153,7 @@ const RAW_CITIES_SEED = [
       "Boulogne-Billancourt is the largest Paris suburb — directly south-west of Paris, riverside, corporate-dense (Renault, TF1, Carrefour HQs), trendy, family-friendly. Apartment €8,500-12,000/m². Best fit: corporate professionals working in southwest Paris, families seeking dynamic upscale suburb.",
     seoTitleEn: "Boulogne-Billancourt — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Boulogne-Billancourt (Hauts-de-Seine, Île-de-France): quality-of-life score 8.2/10. Largest Paris suburb, corporate HQs, riverside, trendy.",
+      "Boulogne-Billancourt (Hauts-de-Seine, Île-de-France): quality-of-life score 6.0/10. Largest Paris suburb, corporate HQs, riverside, trendy.",
     scores: {
       global: 8.2,
       life: 8.5,
@@ -4184,7 +4184,7 @@ const RAW_CITIES_SEED = [
       "Montreuil is the east-of-Paris creative suburb — artists' studios, multicultural, hipster restaurants, dramatically cheaper than central Paris, metro line 9 direct. Best fit: artists, creatives, young families seeking diverse alternative Paris-adjacent living at moderate budget.",
     seoTitleEn: "Montreuil — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Montreuil (Seine-Saint-Denis, Île-de-France): quality-of-life score 7.2/10. East-Paris creative suburb, artists, multicultural, hipster.",
+      "Montreuil (Seine-Saint-Denis, Île-de-France): quality-of-life score 4.7/10. East-Paris creative suburb, artists, multicultural, hipster.",
     scores: {
       global: 7.2,
       life: 7.0,
@@ -4215,7 +4215,7 @@ const RAW_CITIES_SEED = [
       "Vincennes is the east-Paris bourgeois adjacent suburb — Château de Vincennes, Bois de Vincennes (Paris's largest park) on the doorstep, metro line 1 direct to central Paris in 10 minutes. Refined, family-friendly. Best fit: families wanting Paris adjacency with park-and-château living, corporate professionals.",
     seoTitleEn: "Vincennes — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Vincennes (Val-de-Marne, Île-de-France): quality-of-life score 8.3/10. East-Paris adjacent, Château de Vincennes, Bois park, metro direct.",
+      "Vincennes (Val-de-Marne, Île-de-France): quality-of-life score 6.3/10. East-Paris adjacent, Château de Vincennes, Bois park, metro direct.",
     scores: {
       global: 8.3,
       life: 8.5,
@@ -4246,7 +4246,7 @@ const RAW_CITIES_SEED = [
       "Cergy is the new-town northwest of Paris — built in the 1970s as a planned satellite city, ESSEC business school, large student population, Oise valley, RER A direct to central Paris. Affordable for Île-de-France. Best fit: ESSEC students, young families seeking cheap Paris-region base, suburb-modernist enthusiasts.",
     seoTitleEn: "Cergy — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Cergy (Val-d'Oise, Île-de-France): quality-of-life score 6.8/10. Planned new-town, ESSEC school, student population, RER A to Paris, affordable.",
+      "Cergy (Val-d'Oise, Île-de-France): quality-of-life score 5.7/10. Planned new-town, ESSEC school, student population, RER A to Paris, affordable.",
     scores: {
       global: 6.8,
       life: 6.5,
@@ -4277,7 +4277,7 @@ const RAW_CITIES_SEED = [
       "Saint-Denis is the major north-Paris suburb — Stade de France, the royal Saint-Denis Basilica (burial site of French kings), strongly multicultural, undergoing major Grand-Paris-Express regeneration. Mixed character. Best fit: ultra-budget Paris-region households, multicultural-life embracers, Grand-Paris transit investors.",
     seoTitleEn: "Saint-Denis — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Denis (Seine-Saint-Denis, Île-de-France): quality-of-life score 6.5/10. North-Paris major suburb, Stade de France, royal Basilica, multicultural.",
+      "Saint-Denis (Seine-Saint-Denis, Île-de-France): quality-of-life score 2.8/10. North-Paris major suburb, Stade de France, royal Basilica, multicultural.",
     scores: {
       global: 6.5,
       life: 6.0,
@@ -4308,7 +4308,7 @@ const RAW_CITIES_SEED = [
       "Levallois-Perret is the dense northwest-Paris suburb — wedged between Paris 17th and La Défense business district, very dense, refined bourgeois character, metro line 3 direct. Best fit: La Défense corporate professionals, families wanting Paris-adjacency with safety and amenities, young professionals.",
     seoTitleEn: "Levallois-Perret — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Levallois-Perret (Hauts-de-Seine, Île-de-France): quality-of-life score 8.0/10. Dense northwest Paris suburb, La Défense adjacent, bourgeois.",
+      "Levallois-Perret (Hauts-de-Seine, Île-de-France): quality-of-life score 6.2/10. Dense northwest Paris suburb, La Défense adjacent, bourgeois.",
     scores: {
       global: 8.0,
       life: 8.0,
@@ -4339,7 +4339,7 @@ const RAW_CITIES_SEED = [
       "Issy-les-Moulineaux is the Paris southwest tech-corporate suburb — Canal+, Bouygues, Microsoft France, Cisco headquarters, metro line 12 direct to central Paris. Modern, family-friendly. Best fit: tech and media professionals, families balancing corporate access with refined Île-de-France suburb living.",
     seoTitleEn: "Issy-les-Moulineaux — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Issy-les-Moulineaux (Hauts-de-Seine, Île-de-France): quality-of-life score 8.3/10. Southwest-Paris tech-corporate suburb, Canal+, Microsoft.",
+      "Issy-les-Moulineaux (Hauts-de-Seine, Île-de-France): quality-of-life score 6.6/10. Southwest-Paris tech-corporate suburb, Canal+, Microsoft.",
     scores: {
       global: 8.3,
       life: 8.5,
@@ -4370,7 +4370,7 @@ const RAW_CITIES_SEED = [
       "Neuilly-sur-Seine is Paris's most prestigious adjacent suburb — directly west of the 17th arrondissement, embassy and corporate density, Bois de Boulogne access, international schools nearby. Apartment €11,000-15,000/m². Best fit: corporate expat families with international school requirements, luxury households.",
     seoTitleEn: "Neuilly-sur-Seine — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Neuilly-sur-Seine (Hauts-de-Seine, Île-de-France): quality-of-life score 8.5/10. Paris's most prestigious adjacent suburb, expat-family heartland.",
+      "Neuilly-sur-Seine (Hauts-de-Seine, Île-de-France): quality-of-life score 6.3/10. Paris's most prestigious adjacent suburb, expat-family heartland.",
     scores: {
       global: 8.5,
       life: 8.5,
@@ -4401,7 +4401,7 @@ const RAW_CITIES_SEED = [
       "Fontainebleau is the royal-château forest city — UNESCO Château de Fontainebleau, INSEAD business school, the world-famous Fontainebleau forest with iconic bouldering, 45 minutes by train to central Paris. Refined, family-friendly. Best fit: INSEAD families and professors, climbers and outdoor lovers, Paris-region executives seeking forest-and-château living.",
     seoTitleEn: "Fontainebleau — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Fontainebleau (Seine-et-Marne, Île-de-France): quality-of-life score 7.8/10. UNESCO château, INSEAD, world-class bouldering forest, refined.",
+      "Fontainebleau (Seine-et-Marne, Île-de-France): quality-of-life score 7.9/10. UNESCO château, INSEAD, world-class bouldering forest, refined.",
     scores: {
       global: 7.8,
       life: 8.5,
@@ -4432,7 +4432,7 @@ const RAW_CITIES_SEED = [
       "Saint-Germain-en-Laye is the Yvelines royal-forest expat heartland — the Lycée International (one of France's top public international schools), royal château, vast forest, RER A direct to central Paris in 30 minutes. Best fit: international corporate families, refined retirees, expat-school families.",
     seoTitleEn: "Saint-Germain-en-Laye — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Germain-en-Laye (Yvelines, Île-de-France): quality-of-life score 8.2/10. Yvelines expat heartland, Lycée International, royal château, RER A.",
+      "Saint-Germain-en-Laye (Yvelines, Île-de-France): quality-of-life score 6.2/10. Yvelines expat heartland, Lycée International, royal château, RER A.",
     scores: {
       global: 8.2,
       life: 8.5,
@@ -4463,7 +4463,7 @@ const RAW_CITIES_SEED = [
       "Bastia is the north-Corsican port — Corsica's second city, working-class authentic character, the main ferry hub to mainland (Marseille, Nice, Toulon, Italian Riviera), cheaper than Ajaccio. Best fit: budget-aware Corsican expats, authenticity-seekers, retirees prepared for island logistics, mainland-Corsica frequent travellers.",
     seoTitleEn: "Bastia — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Bastia (Haute-Corse, Corse): quality-of-life score 7.2/10. North-Corsican port, ferry hub to mainland, authentic, cheaper than Ajaccio.",
+      "Bastia (Haute-Corse, Corse): quality-of-life score 4.4/10. North-Corsican port, ferry hub to mainland, authentic, cheaper than Ajaccio.",
     scores: {
       global: 7.2,
       life: 7.5,
@@ -4494,7 +4494,7 @@ const RAW_CITIES_SEED = [
       "Pantin is the rapidly-gentrifying north-east Paris suburb — Canal de l'Ourcq, Hermès workshop and Chanel headquarters drawing creative-luxury employment, BETC and other agencies relocating from central Paris. Metro line 5 direct. Best fit: creative-industry professionals, young expat families seeking budget-Paris-adjacency, gentrification investors.",
     seoTitleEn: "Pantin — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Pantin (Seine-Saint-Denis, Île-de-France): quality-of-life score 7.5/10. Rapidly gentrifying north-east Paris suburb, Hermès, Chanel, creative.",
+      "Pantin (Seine-Saint-Denis, Île-de-France): quality-of-life score 4.2/10. Rapidly gentrifying north-east Paris suburb, Hermès, Chanel, creative.",
     scores: {
       global: 7.5,
       life: 7.5,
@@ -4525,7 +4525,7 @@ const RAW_CITIES_SEED = [
       "Ivry-sur-Seine is the south-east-Paris adjacent suburb — working-class transforming into creative-bohemian, Seine-side, metro line 7 direct, affordable for Paris-adjacency. Best fit: artists and creatives, young families seeking diverse Paris-adjacent base at moderate budget.",
     seoTitleEn: "Ivry-sur-Seine — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Ivry-sur-Seine (Val-de-Marne, Île-de-France): quality-of-life score 7.0/10. South-east Paris adjacent, Seine-side, transforming, creative, affordable.",
+      "Ivry-sur-Seine (Val-de-Marne, Île-de-France): quality-of-life score 6.1/10. South-east Paris adjacent, Seine-side, transforming, creative, affordable.",
     scores: {
       global: 7.0,
       life: 7.0,
@@ -4556,7 +4556,7 @@ const RAW_CITIES_SEED = [
       "Créteil is the Val-de-Marne prefecture — major new-town suburb southeast of Paris, large university (UPEC), lake, metro line 8 to central Paris. Affordable for Île-de-France. Best fit: UPEC students, families seeking cheaper Paris-region base, hospital and administration workers.",
     seoTitleEn: "Créteil — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Créteil (Val-de-Marne, Île-de-France): quality-of-life score 6.8/10. Val-de-Marne prefecture, new-town, UPEC university, lake, metro to Paris.",
+      "Créteil (Val-de-Marne, Île-de-France): quality-of-life score 4.8/10. Val-de-Marne prefecture, new-town, UPEC university, lake, metro to Paris.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -4587,7 +4587,7 @@ const RAW_CITIES_SEED = [
       "Rueil-Malmaison is the west-Paris green residential suburb — Château de Malmaison (Joséphine de Beauharnais's home), Total Energies HQ, family-friendly, leafy, RER A to central Paris in 25 minutes. Best fit: corporate Total professionals, families with school-age children, refined suburb-seekers.",
     seoTitleEn: "Rueil-Malmaison — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Rueil-Malmaison (Hauts-de-Seine, Île-de-France): quality-of-life score 7.8/10. West-Paris green suburb, Total HQ, Château de Malmaison, family-friendly.",
+      "Rueil-Malmaison (Hauts-de-Seine, Île-de-France): quality-of-life score 6.2/10. West-Paris green suburb, Total HQ, Château de Malmaison, family-friendly.",
     scores: {
       global: 7.8,
       life: 8.0,
@@ -4618,7 +4618,7 @@ const RAW_CITIES_SEED = [
       "Colombes is the northwest-Paris mid-density suburb — mixed-class residential character, RER C and Transilien access, affordable for the area. Best fit: middle-class families seeking budget Paris-adjacent base, La Défense corporate professionals wanting cheaper alternative to Levallois.",
     seoTitleEn: "Colombes — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Colombes (Hauts-de-Seine, Île-de-France): quality-of-life score 7.0/10. Northwest-Paris mid-density suburb, mixed residential, RER access.",
+      "Colombes (Hauts-de-Seine, Île-de-France): quality-of-life score 5.2/10. Northwest-Paris mid-density suburb, mixed residential, RER access.",
     scores: {
       global: 7.0,
       life: 7.0,
@@ -4649,7 +4649,7 @@ const RAW_CITIES_SEED = [
       "Argenteuil is the Val-d'Oise Seine suburb — Monet's painting heritage (the famous Argenteuil bridge), working-class character, J line and Transilien direct to Saint-Lazare in 15 minutes. Best fit: Paris-region workers seeking very cheap base, ultra-budget households, Monet-history enthusiasts.",
     seoTitleEn: "Argenteuil — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Argenteuil (Val-d'Oise, Île-de-France): quality-of-life score 6.5/10. Val-d'Oise Seine suburb, Monet impressionist heritage, very affordable.",
+      "Argenteuil (Val-d'Oise, Île-de-France): quality-of-life score 5.0/10. Val-d'Oise Seine suburb, Monet impressionist heritage, very affordable.",
     scores: {
       global: 6.5,
       life: 6.5,
@@ -4680,7 +4680,7 @@ const RAW_CITIES_SEED = [
       "Nanterre is the Hauts-de-Seine prefecture — La Défense business district sprawls into it, Paris Nanterre University, Arena (one of Europe's largest concert venues), RER A direct. Mixed character. Best fit: La Défense corporate professionals seeking cheaper alternative to Levallois/Neuilly, students, concert-goers.",
     seoTitleEn: "Nanterre — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Nanterre (Hauts-de-Seine, Île-de-France): quality-of-life score 7.2/10. Hauts-de-Seine prefecture, La Défense adjacent, university, Arena venue.",
+      "Nanterre (Hauts-de-Seine, Île-de-France): quality-of-life score 4.7/10. Hauts-de-Seine prefecture, La Défense adjacent, university, Arena venue.",
     scores: {
       global: 7.2,
       life: 7.0,
@@ -4711,7 +4711,7 @@ const RAW_CITIES_SEED = [
       "Vitry-sur-Seine is the south-east Paris adjacent suburb — major MAC/VAL contemporary art museum, street-art capital of Île-de-France, Seine-side, transforming rapidly. Best fit: contemporary-art professionals, ultra-budget Paris-region households, creatives seeking affordable Paris-adjacency.",
     seoTitleEn: "Vitry-sur-Seine — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Vitry-sur-Seine (Val-de-Marne, Île-de-France): quality-of-life score 6.8/10. South-east Paris adjacent, MAC/VAL museum, street-art capital, affordable.",
+      "Vitry-sur-Seine (Val-de-Marne, Île-de-France): quality-of-life score 5.6/10. South-east Paris adjacent, MAC/VAL museum, street-art capital, affordable.",
     scores: {
       global: 6.8,
       life: 6.5,
@@ -4742,7 +4742,7 @@ const RAW_CITIES_SEED = [
       "Courbevoie sits at the heart of La Défense business district — corporate-tower dense, refined residential, metro line 1 and RER A access. Best fit: La Défense corporate professionals wanting walking-distance to office, young professionals, families with strong corporate package.",
     seoTitleEn: "Courbevoie — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Courbevoie (Hauts-de-Seine, Île-de-France): quality-of-life score 7.8/10. La Défense business district, corporate-tower dense, refined residential.",
+      "Courbevoie (Hauts-de-Seine, Île-de-France): quality-of-life score 5.9/10. La Défense business district, corporate-tower dense, refined residential.",
     scores: {
       global: 7.8,
       life: 7.5,
@@ -4773,7 +4773,7 @@ const RAW_CITIES_SEED = [
       "Noisy-le-Grand is the east-Paris Marne-la-Vallée new-town — modern architecture, RER A direct to central Paris in 25 minutes, family-friendly, affordable. Best fit: families seeking affordable Paris-adjacent base with RER A access, Disneyland-region workers, Cité Descartes university and tech professionals.",
     seoTitleEn: "Noisy-le-Grand — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Noisy-le-Grand (Seine-Saint-Denis, Île-de-France): quality-of-life score 6.8/10. East-Paris new-town, RER A to centre, family-friendly, affordable.",
+      "Noisy-le-Grand (Seine-Saint-Denis, Île-de-France): quality-of-life score 5.4/10. East-Paris new-town, RER A to centre, family-friendly, affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -4804,7 +4804,7 @@ const RAW_CITIES_SEED = [
       "Évry-Courcouronnes is the Essonne prefecture — Université d'Évry, modern new-town architecture, Saclay-tech-corridor adjacent, RER D direct to central Paris. Best fit: university students, Saclay-region tech professionals, families seeking affordable Île-de-France base south of Paris.",
     seoTitleEn: "Évry-Courcouronnes — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Évry-Courcouronnes (Essonne, Île-de-France): quality-of-life score 6.5/10. Essonne prefecture, new-town, university, Saclay-tech adjacent, RER D.",
+      "Évry-Courcouronnes (Essonne, Île-de-France): quality-of-life score 4.6/10. Essonne prefecture, new-town, university, Saclay-tech adjacent, RER D.",
     scores: {
       global: 6.5,
       life: 6.5,
@@ -4835,7 +4835,7 @@ const RAW_CITIES_SEED = [
       "Menton is the Italian-border Côte d'Azur city — France's mildest microclimate (palms, citrus, sub-tropical gardens), Italian border 5 minutes, Monaco 15 minutes, refined Belle-Époque architecture, famous Lemon Festival each February. Best fit: refined retirees with budget, Monaco professionals, lifestyle-first remote workers.",
     seoTitleEn: "Menton — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Menton (Alpes-Maritimes, PACA): quality-of-life score 7.8/10. Côte d'Azur Italian-border city, France's mildest microclimate, Lemon Festival.",
+      "Menton (Alpes-Maritimes, PACA): quality-of-life score 6.5/10. Côte d'Azur Italian-border city, France's mildest microclimate, Lemon Festival.",
     scores: {
       global: 7.8,
       life: 8.5,
@@ -4897,7 +4897,7 @@ const RAW_CITIES_SEED = [
       "Les Sables-d'Olonne is the Vendée Atlantic resort — Vendée Globe round-the-world race start, dramatic surf, long sandy beaches, sailing capital. Best fit: sailors and surfers, family beach-seekers, retirees with Atlantic-coast budget, lifestyle-first remote workers.",
     seoTitleEn: "Les Sables-d'Olonne — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Les Sables-d'Olonne (Vendée, Pays de la Loire): quality-of-life score 7.5/10. Vendée Atlantic resort, Vendée Globe, surf, sailing, long beaches.",
+      "Les Sables-d'Olonne (Vendée, Pays de la Loire): quality-of-life score 7.4/10. Vendée Atlantic resort, Vendée Globe, surf, sailing, long beaches.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -4928,7 +4928,7 @@ const RAW_CITIES_SEED = [
       "Dax is the Landes thermal-spa capital — France's leading thermal-treatment town (over 50,000 thermal patients each year), surrounded by the Landes pine forest, mild oceanic climate, Atlantic coast 30 minutes. Best fit: thermal-spa enthusiasts, retirees seeking health-tourism setting, forest-and-nature households.",
     seoTitleEn: "Dax — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Dax (Landes, Nouvelle-Aquitaine): quality-of-life score 7.0/10. France's leading thermal-spa town, Landes pine forest, mild oceanic climate.",
+      "Dax (Landes, Nouvelle-Aquitaine): quality-of-life score 5.4/10. France's leading thermal-spa town, Landes pine forest, mild oceanic climate.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -4959,7 +4959,7 @@ const RAW_CITIES_SEED = [
       "Mont-de-Marsan is the Landes prefecture — rugby-fervent (Stade Montois), surrounded by the Landes pine forest, calm, affordable, Bordeaux 1h30 by train. Best fit: rugby fans, families seeking calm southwest base, ultra-budget households wanting Landes-pine-forest character.",
     seoTitleEn: "Mont-de-Marsan — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Mont-de-Marsan (Landes, Nouvelle-Aquitaine): quality-of-life score 7.0/10. Landes prefecture, rugby town, pine forest, calm and affordable.",
+      "Mont-de-Marsan (Landes, Nouvelle-Aquitaine): quality-of-life score 5.6/10. Landes prefecture, rugby town, pine forest, calm and affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -4990,7 +4990,7 @@ const RAW_CITIES_SEED = [
       "Le Puy-en-Velay is the dramatic volcanic-needle Haute-Loire town — UNESCO Saint-Jacques pilgrimage starting point, Chapelle Saint-Michel d'Aiguilhe perched on a volcanic spire, traditional lace heritage. Best fit: pilgrims, photographers, retirees seeking dramatic Auvergne living, slow-life expats.",
     seoTitleEn: "Le Puy-en-Velay — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Le Puy-en-Velay (Haute-Loire, Auvergne-Rhône-Alpes): quality-of-life score 7.3/10. UNESCO pilgrimage town, dramatic volcanic spires, lace heritage.",
+      "Le Puy-en-Velay (Haute-Loire, Auvergne-Rhône-Alpes): quality-of-life score 7.7/10. UNESCO pilgrimage town, dramatic volcanic spires, lace heritage.",
     scores: {
       global: 7.3,
       life: 8.0,
@@ -5021,7 +5021,7 @@ const RAW_CITIES_SEED = [
       "Villeurbanne is Lyon's adjacent twin city — INSA engineering school, large student population, more diverse and affordable than central Lyon, famously progressive (the Gratte-Ciel social-housing modernist neighbourhood). Best fit: INSA students, young professionals, families seeking Lyon-adjacency at cheaper prices.",
     seoTitleEn: "Villeurbanne — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Villeurbanne (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 7.5/10. Lyon's twin city, INSA, large student community, affordable.",
+      "Villeurbanne (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 7.1/10. Lyon's twin city, INSA, large student community, affordable.",
     scores: {
       global: 7.5,
       life: 7.5,
@@ -5052,7 +5052,7 @@ const RAW_CITIES_SEED = [
       "Manosque is the Alpes-de-Haute-Provence Luberon gateway — L'Occitane en Provence headquarters, lavender fields, Jean Giono heritage, hot dry Mediterranean climate, calm pace. Best fit: retirees seeking refined Provençal Luberon living, lavender-and-nature lovers, L'Occitane and ITER (Cadarache) professionals.",
     seoTitleEn: "Manosque — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Manosque (Alpes-de-Haute-Provence, PACA): quality-of-life score 7.5/10. Luberon gateway, L'Occitane HQ, lavender, refined Provence, calm.",
+      "Manosque (Alpes-de-Haute-Provence, PACA): quality-of-life score 5.6/10. Luberon gateway, L'Occitane HQ, lavender, refined Provence, calm.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -5083,7 +5083,7 @@ const RAW_CITIES_SEED = [
       "Nevers is the Nièvre prefecture — Loire river, faïence ceramic tradition, Magny-Cours F1 circuit nearby, calm rural Burgundy adjacent, dramatically affordable. Best fit: motorsport professionals, retirees seeking ultra-cheap heritage living, ceramic and craft artisans.",
     seoTitleEn: "Nevers — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Nevers (Nièvre, Bourgogne-Franche-Comté): quality-of-life score 6.5/10. Nièvre prefecture, Loire, faïence ceramic heritage, Magny-Cours F1, affordable.",
+      "Nevers (Nièvre, Bourgogne-Franche-Comté): quality-of-life score 6.0/10. Nièvre prefecture, Loire, faïence ceramic heritage, Magny-Cours F1, affordable.",
     scores: {
       global: 6.5,
       life: 7.0,
@@ -5114,7 +5114,7 @@ const RAW_CITIES_SEED = [
       "Verdun is the WWI memory city — the famous 1916 battle, Mémorial de Verdun, Douaumont ossuary, dramatic Meuse river setting. Dramatically affordable, calm. Best fit: WWI-history professionals and researchers, retirees seeking ultra-cheap Lorraine living, memorial-tourism households.",
     seoTitleEn: "Verdun — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Verdun (Meuse, Grand Est): quality-of-life score 6.5/10. WWI memorial city, 1916 battle, Mémorial de Verdun, dramatic Meuse valley, affordable.",
+      "Verdun (Meuse, Grand Est): quality-of-life score 5.6/10. WWI memorial city, 1916 battle, Mémorial de Verdun, dramatic Meuse valley, affordable.",
     scores: {
       global: 6.5,
       life: 7.0,
@@ -5145,7 +5145,7 @@ const RAW_CITIES_SEED = [
       "Aubenas is the Ardèche gateway — dramatic Cévennes-Ardèche country, Gorges de l'Ardèche within 30 minutes, authentic terroir, calm. Best fit: outdoor active families and retirees, kayakers and canyon-runners, slow-life expats seeking the most rural French mid-sized town living.",
     seoTitleEn: "Aubenas — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Aubenas (Ardèche, Auvergne-Rhône-Alpes): quality-of-life score 7.0/10. Ardèche gateway, Gorges de l'Ardèche adjacent, authentic terroir, outdoor.",
+      "Aubenas (Ardèche, Auvergne-Rhône-Alpes): quality-of-life score 5.8/10. Ardèche gateway, Gorges de l'Ardèche adjacent, authentic terroir, outdoor.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -5176,7 +5176,7 @@ const RAW_CITIES_SEED = [
       "Pamiers is the Ariège industrial town — Pyrenees-foothills, dramatically affordable, Toulouse 1 hour by train, dramatic mountain access. Best fit: ultra-budget households seeking Pyrenees-adjacency, Toulouse-region workers wanting cheaper base, outdoor active retirees.",
     seoTitleEn: "Pamiers — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Pamiers (Ariège, Occitanie): quality-of-life score 6.5/10. Ariège industrial town, Pyrenees-foothills, near Toulouse, dramatically affordable.",
+      "Pamiers (Ariège, Occitanie): quality-of-life score 6.0/10. Ariège industrial town, Pyrenees-foothills, near Toulouse, dramatically affordable.",
     scores: {
       global: 6.5,
       life: 7.0,
@@ -5207,7 +5207,7 @@ const RAW_CITIES_SEED = [
       "Saumur is the Loire Valley equestrian capital — Cadre Noir riding school, dramatic château perched above the Loire, Saumur-Champigny wine country, refined heritage. Best fit: equestrians, wine professionals, retirees seeking refined Loire Valley living, château-region property buyers.",
     seoTitleEn: "Saumur — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saumur (Maine-et-Loire, Pays de la Loire): quality-of-life score 7.3/10. Loire equestrian capital, Cadre Noir, château, Saumur-Champigny wine.",
+      "Saumur (Maine-et-Loire, Pays de la Loire): quality-of-life score 7.1/10. Loire equestrian capital, Cadre Noir, château, Saumur-Champigny wine.",
     scores: {
       global: 7.3,
       life: 8.0,
@@ -5238,7 +5238,7 @@ const RAW_CITIES_SEED = [
       "Briançon is France's highest town at 1,326m — UNESCO Vauban fortifications, exceptional skiing (Serre Chevalier on the doorstep), dry sunny Alpine climate, dramatic Écrins National Park for summer climbing. Best fit: serious mountain dwellers, ski-season workers, mountaineers, sun-and-snow seekers tolerating quiet winter evenings.",
     seoTitleEn: "Briançon — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Briançon (Hautes-Alpes, PACA): quality-of-life score 7.5/10. France's highest town, UNESCO Vauban, Serre Chevalier ski, Écrins National Park.",
+      "Briançon (Hautes-Alpes, PACA): quality-of-life score 5.8/10. France's highest town, UNESCO Vauban, Serre Chevalier ski, Écrins National Park.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -5269,7 +5269,7 @@ const RAW_CITIES_SEED = [
       "Épernay is the Champagne wine capital — Avenue de Champagne (UNESCO, where Moët, Pol Roger, Perrier-Jouët all line up), the largest champagne cellar network in France, refined gastronomic culture. Best fit: Champagne professionals, wine investors, refined retirees, oenology students.",
     seoTitleEn: "Épernay — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Épernay (Marne, Grand Est): quality-of-life score 7.0/10. Champagne capital, UNESCO Avenue de Champagne, Moët HQ, refined wine culture.",
+      "Épernay (Marne, Grand Est): quality-of-life score 6.5/10. Champagne capital, UNESCO Avenue de Champagne, Moët HQ, refined wine culture.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -5300,7 +5300,7 @@ const RAW_CITIES_SEED = [
       "La Ciotat sits between Marseille and Cassis — birthplace of cinema (Lumière brothers' 1895 train film), dramatic calanques setting, refined Provençal harbour, dramatically cheaper than Cassis. Best fit: Marseille-region workers seeking coastal base, cinema-history lovers, retirees with moderate budget.",
     seoTitleEn: "La Ciotat — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "La Ciotat (Bouches-du-Rhône, PACA): quality-of-life score 7.5/10. Between Marseille and Cassis, cinema's birthplace, calanques, refined harbour.",
+      "La Ciotat (Bouches-du-Rhône, PACA): quality-of-life score 6.5/10. Between Marseille and Cassis, cinema's birthplace, calanques, refined harbour.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -5331,7 +5331,7 @@ const RAW_CITIES_SEED = [
       "Saint-Raphaël is the Var-coast resort city — Massif de l'Estérel dramatic red-cliff backdrop, refined Belle-Époque architecture, Fréjus adjacent, Cannes 30 minutes by train. Best fit: retirees with budget seeking refined Côte d'Azur living, lifestyle remote workers, Estérel hiking enthusiasts.",
     seoTitleEn: "Saint-Raphaël — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Raphaël (Var, PACA): quality-of-life score 7.5/10. Côte d'Azur Var resort, Massif de l'Estérel red cliffs, refined Belle-Époque heritage.",
+      "Saint-Raphaël (Var, PACA): quality-of-life score 6.2/10. Côte d'Azur Var resort, Massif de l'Estérel red cliffs, refined Belle-Époque heritage.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -5362,7 +5362,7 @@ const RAW_CITIES_SEED = [
       "Anglet sits between Biarritz and Bayonne — Atlantic surf coast, pine-shaded family beaches (Chambre d'Amour), refined Basque-coast lifestyle. Slightly cheaper than Biarritz, more family-friendly. Best fit: surfing families, lifestyle remote workers wanting Atlantic-Basque coast living, refined retirees.",
     seoTitleEn: "Anglet — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Anglet (Pyrénées-Atlantiques, Nouvelle-Aquitaine): quality-of-life score 7.8/10. Basque coast between Biarritz and Bayonne, Atlantic surf, family.",
+      "Anglet (Pyrénées-Atlantiques, Nouvelle-Aquitaine): quality-of-life score 7.6/10. Basque coast between Biarritz and Bayonne, Atlantic surf, family.",
     scores: {
       global: 7.8,
       life: 8.5,
@@ -5393,7 +5393,7 @@ const RAW_CITIES_SEED = [
       "Honfleur is the iconic Normandy harbour town — the Vieux Bassin (the most-painted French harbour by Impressionists: Boudin, Monet, Jongkind), refined heritage, Paris 2 hours, tourist-busy in summer. Best fit: artists and photographers, retirees with budget, weekend-home owners seeking refined Norman lifestyle.",
     seoTitleEn: "Honfleur — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Honfleur (Calvados, Normandie): quality-of-life score 7.5/10. Iconic Normandy harbour, Vieux Bassin, Impressionist heritage, refined small port.",
+      "Honfleur (Calvados, Normandie): quality-of-life score 5.6/10. Iconic Normandy harbour, Vieux Bassin, Impressionist heritage, refined small port.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -5424,7 +5424,7 @@ const RAW_CITIES_SEED = [
       "Cassis is the postcard-Provençal harbour — Calanques National Park starting on its doorstep, Cassis AOC wine country, dramatic Cap Canaille cliffs, premium prices. Best fit: hikers and divers, retirees with substantial budget, lifestyle-first remote workers, weekend-home owners.",
     seoTitleEn: "Cassis — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Cassis (Bouches-du-Rhône, PACA): quality-of-life score 8.0/10. Postcard Provençal harbour, Calanques National Park, Cassis AOC wine, premium.",
+      "Cassis (Bouches-du-Rhône, PACA): quality-of-life score 6.6/10. Postcard Provençal harbour, Calanques National Park, Cassis AOC wine, premium.",
     scores: {
       global: 8.0,
       life: 9.0,
@@ -5455,7 +5455,7 @@ const RAW_CITIES_SEED = [
       "Foix is the Ariège prefecture — three-tower medieval château perched on a rock, Pyrenees foothills, calm, dramatically affordable, Toulouse 1h20 away. Best fit: ultra-budget mountain-region households, retirees seeking calm Pyrenees-foothills living, medieval-heritage lovers.",
     seoTitleEn: "Foix — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Foix (Ariège, Occitanie): quality-of-life score 6.5/10. Ariège prefecture, three-tower medieval château, Pyrenees foothills, dramatically affordable.",
+      "Foix (Ariège, Occitanie): quality-of-life score 6.2/10. Ariège prefecture, three-tower medieval château, Pyrenees foothills, dramatically affordable.",
     scores: {
       global: 6.5,
       life: 7.0,
@@ -5486,7 +5486,7 @@ const RAW_CITIES_SEED = [
       "Royan is the Charente-Maritime Atlantic seaside city — exceptional 1950s Modernist architecture (rebuilt after WWII destruction), long sandy beaches, La Rochelle 1 hour, Bordeaux 1h30. Best fit: family beach-seekers, modernist-architecture lovers, retirees seeking refined Atlantic resort.",
     seoTitleEn: "Royan — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Royan (Charente-Maritime, Nouvelle-Aquitaine): quality-of-life score 7.5/10. Atlantic seaside resort, 1950s Modernist architecture, sandy beaches.",
+      "Royan (Charente-Maritime, Nouvelle-Aquitaine): quality-of-life score 6.7/10. Atlantic seaside resort, 1950s Modernist architecture, sandy beaches.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -5517,7 +5517,7 @@ const RAW_CITIES_SEED = [
       "Grasse is the world's perfume capital — UNESCO-listed perfume craftsmanship (Galimard, Molinard, Fragonard houses), 325m altitude in the Côte d'Azur hinterland, refined heritage, dramatically cooler summer climate than coastal Nice. Best fit: perfume professionals, refined retirees, lifestyle-first remote workers wanting hinterland Riviera.",
     seoTitleEn: "Grasse — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Grasse (Alpes-Maritimes, PACA): quality-of-life score 7.0/10. World's perfume capital, UNESCO craftsmanship, refined Côte d'Azur hinterland.",
+      "Grasse (Alpes-Maritimes, PACA): quality-of-life score 5.8/10. World's perfume capital, UNESCO craftsmanship, refined Côte d'Azur hinterland.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -5548,7 +5548,7 @@ const RAW_CITIES_SEED = [
       "Concarneau is the south-Finistère fishing port — the iconic Ville Close (granite-walled medieval islet), still-working tuna fleet, refined small Breton port, surf and sailing beaches. Best fit: sailors and fishermen, retirees seeking refined small Brittany port living, artists.",
     seoTitleEn: "Concarneau — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Concarneau (Finistère, Bretagne): quality-of-life score 7.0/10. South-Finistère fishing port, iconic Ville Close, working tuna fleet, refined.",
+      "Concarneau (Finistère, Bretagne): quality-of-life score 5.7/10. South-Finistère fishing port, iconic Ville Close, working tuna fleet, refined.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -5579,7 +5579,7 @@ const RAW_CITIES_SEED = [
       "Saint-Jean-de-Luz is the refined Basque-coast jewel — Louis XIV married Maria Theresa here in 1660, exceptional Basque cuisine, still-active fishing fleet, Spanish border 10 minutes. Premium prices. Best fit: refined retirees with budget, gastronomes, surfers wanting Basque-port refinement, Spanish-border professionals.",
     seoTitleEn: "Saint-Jean-de-Luz — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Jean-de-Luz (Pyrénées-Atlantiques, Nouvelle-Aquitaine): quality-of-life score 7.8/10. Refined Basque-coast jewel, Louis XIV heritage, premium.",
+      "Saint-Jean-de-Luz (Pyrénées-Atlantiques, Nouvelle-Aquitaine): quality-of-life score 6.8/10. Refined Basque-coast jewel, Louis XIV heritage, premium.",
     scores: {
       global: 7.8,
       life: 8.5,
@@ -5610,7 +5610,7 @@ const RAW_CITIES_SEED = [
       "Sanary-sur-Mer is the refined Var-coast harbour town — historic German-exile community (Thomas Mann, Brecht, Aldous Huxley lived here in the 1930s), Provençal market, Toulon 15 minutes. Refined coastal living at moderate Var-coast prices. Best fit: refined retirees, lifestyle remote workers, family beach-seekers.",
     seoTitleEn: "Sanary-sur-Mer — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Sanary-sur-Mer (Var, PACA): quality-of-life score 7.8/10. Refined Var harbour town, historic literary German exile community, Provençal market.",
+      "Sanary-sur-Mer (Var, PACA): quality-of-life score 7.2/10. Refined Var harbour town, historic literary German exile community, Provençal market.",
     scores: {
       global: 7.8,
       life: 8.5,
@@ -5641,7 +5641,7 @@ const RAW_CITIES_SEED = [
       "Dinan is one of Brittany's best-preserved medieval cities — intact ramparts, cobbled lanes descending to the Rance river, refined small-town living, Saint-Malo and the coast 30 minutes away. Best fit: heritage lovers, retirees seeking refined medieval Brittany, slow-life expats.",
     seoTitleEn: "Dinan — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Dinan (Côtes-d'Armor, Bretagne): quality-of-life score 7.5/10. Best-preserved medieval Brittany town, intact ramparts, Rance river, refined.",
+      "Dinan (Côtes-d'Armor, Bretagne): quality-of-life score 7.4/10. Best-preserved medieval Brittany town, intact ramparts, Rance river, refined.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -5672,7 +5672,7 @@ const RAW_CITIES_SEED = [
       "Hendaye sits directly on the Spanish border — Txingudi bay shared with Irun and Hondarribia (Spain), exceptional surf, Spain shopping and food 5 minutes by foot. Best fit: Spain-France cross-border workers, surfers, lifestyle remote workers, families wanting bicultural Basque-coast living.",
     seoTitleEn: "Hendaye — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Hendaye (Pyrénées-Atlantiques, Nouvelle-Aquitaine): quality-of-life score 7.5/10. Spanish-border Basque coast, Txingudi bay, exceptional surf.",
+      "Hendaye (Pyrénées-Atlantiques, Nouvelle-Aquitaine): quality-of-life score 6.9/10. Spanish-border Basque coast, Txingudi bay, exceptional surf.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -5703,7 +5703,7 @@ const RAW_CITIES_SEED = [
       "Vitré is the east-Brittany medieval gem — dramatic intact château, well-preserved medieval centre, Rennes 30 minutes by train, dynamic industrial economy (Lactalis HQ). Best fit: medieval-heritage lovers, Rennes-region workers wanting cheap historic base, families.",
     seoTitleEn: "Vitré — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Vitré (Ille-et-Vilaine, Bretagne): quality-of-life score 7.3/10. East-Brittany medieval town, intact château, 30 min to Rennes, Lactalis HQ.",
+      "Vitré (Ille-et-Vilaine, Bretagne): quality-of-life score 7.4/10. East-Brittany medieval town, intact château, 30 min to Rennes, Lactalis HQ.",
     scores: {
       global: 7.3,
       life: 7.5,
@@ -5734,7 +5734,7 @@ const RAW_CITIES_SEED = [
       "La Baule-Escoublac is the prestigious Atlantic-coast resort — one of Europe's longest sand beaches (9km), Belle-Époque villas, refined retirement-and-second-home destination, Nantes 1 hour. Premium prices. Best fit: refined retirees with budget, second-home owners, family beach-seekers.",
     seoTitleEn: "La Baule — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "La Baule-Escoublac (Loire-Atlantique, Pays de la Loire): quality-of-life score 7.8/10. Prestigious Atlantic resort, 9km beach, Belle-Époque villas.",
+      "La Baule-Escoublac (Loire-Atlantique, Pays de la Loire): quality-of-life score 7.1/10. Prestigious Atlantic resort, 9km beach, Belle-Époque villas.",
     scores: {
       global: 7.8,
       life: 8.5,
@@ -5765,7 +5765,7 @@ const RAW_CITIES_SEED = [
       "Mende is the Lozère prefecture — France's least-populated department, dramatic Causses-plateau landscapes, 731m altitude, exceptionally calm and rural. Best fit: extreme-rural-living seekers, nature retirees, slow-life expats prepared for genuine isolation.",
     seoTitleEn: "Mende — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Mende (Lozère, Occitanie): quality-of-life score 6.5/10. Lozère prefecture in France's least-populated department, Causses plateau, rural.",
+      "Mende (Lozère, Occitanie): quality-of-life score 6.2/10. Lozère prefecture in France's least-populated department, Causses plateau, rural.",
     scores: {
       global: 6.5,
       life: 7.5,
@@ -5827,7 +5827,7 @@ const RAW_CITIES_SEED = [
       "Orange is the Vaucluse Roman-heritage town — UNESCO Roman theatre (still hosting operas), Triumphal Arch, Châteauneuf-du-Pape wine country, hot dry Mediterranean climate. Best fit: wine professionals (Châteauneuf-du-Pape), heritage lovers, mid-budget retirees, Provençal climate seekers.",
     seoTitleEn: "Orange — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Orange (Vaucluse, PACA): quality-of-life score 7.2/10. UNESCO Roman theatre, Triumphal Arch, Châteauneuf-du-Pape wine country, hot Provence.",
+      "Orange (Vaucluse, PACA): quality-of-life score 6.5/10. UNESCO Roman theatre, Triumphal Arch, Châteauneuf-du-Pape wine country, hot Provence.",
     scores: {
       global: 7.2,
       life: 7.5,
@@ -5858,7 +5858,7 @@ const RAW_CITIES_SEED = [
       "Vienne is the Isère Rhône-Roman city — exceptional Roman remains, the iconic Jazz à Vienne festival each summer in the Roman theatre, Lyon 30 minutes by train, affordable. Best fit: jazz lovers, Lyon-region workers wanting cheaper historic base, gastronomes (Pyramide three-Michelin restaurant heritage).",
     seoTitleEn: "Vienne — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Vienne (Isère, Auvergne-Rhône-Alpes): quality-of-life score 7.4/10. Rhône-Roman city, Jazz à Vienne festival, 30 min train to Lyon, affordable.",
+      "Vienne (Isère, Auvergne-Rhône-Alpes): quality-of-life score 7.1/10. Rhône-Roman city, Jazz à Vienne festival, 30 min train to Lyon, affordable.",
     scores: {
       global: 7.4,
       life: 7.5,
@@ -5889,7 +5889,7 @@ const RAW_CITIES_SEED = [
       "Granville is the Cotentin Atlantic-Channel city — fortified upper town on dramatic cliffs, Christian Dior's childhood home (now museum), dramatic tides (third-largest tidal range in the world), Chausey islands offshore. Best fit: sailors, refined retirees, Cotentin-region workers, dramatic-coast lovers.",
     seoTitleEn: "Granville — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Granville (Manche, Normandie): quality-of-life score 7.5/10. Cotentin coast, fortified clifftop town, Christian Dior's childhood home, Chausey.",
+      "Granville (Manche, Normandie): quality-of-life score 5.6/10. Cotentin coast, fortified clifftop town, Christian Dior's childhood home, Chausey.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -5920,7 +5920,7 @@ const RAW_CITIES_SEED = [
       "Dinard is the Belle-Époque Brittany resort across the bay from Saint-Malo — the historic British-aristocrat seaside (Edwardian and Victorian villas), refined sandy beaches, golf and casino. Best fit: refined British-and-Anglo retirees with established community, second-home owners, Belle-Époque architecture lovers.",
     seoTitleEn: "Dinard — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Dinard (Ille-et-Vilaine, Bretagne): quality-of-life score 7.8/10. Belle-Époque Brittany resort, British-aristocrat villas, refined beaches.",
+      "Dinard (Ille-et-Vilaine, Bretagne): quality-of-life score 7.4/10. Belle-Époque Brittany resort, British-aristocrat villas, refined beaches.",
     scores: {
       global: 7.8,
       life: 8.5,
@@ -5951,7 +5951,7 @@ const RAW_CITIES_SEED = [
       "Collioure is the postcard Catalan-coast harbour — birthplace of Fauvism (Matisse and Derain painted here in 1905), the Royal Château guarding the bay, anchovy heritage, Spanish border 25 minutes. Best fit: artists, refined retirees, lifestyle remote workers wanting the most pittoresque Mediterranean France.",
     seoTitleEn: "Collioure — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Collioure (Pyrénées-Orientales, Occitanie): quality-of-life score 7.9/10. Catalan-coast Fauvism birthplace, Royal Château, refined Mediterranean.",
+      "Collioure (Pyrénées-Orientales, Occitanie): quality-of-life score 6.9/10. Catalan-coast Fauvism birthplace, Royal Château, refined Mediterranean.",
     scores: {
       global: 7.9,
       life: 9.0,
@@ -5982,7 +5982,7 @@ const RAW_CITIES_SEED = [
       "Senlis is the medieval Oise royal city — early Gothic cathedral, intact medieval centre, surrounded by the vast Chantilly and Halatte royal forests, 40 minutes from Paris. Refined, family-friendly. Best fit: Paris-region executives wanting historic forest setting, families seeking refined Oise base, heritage lovers.",
     seoTitleEn: "Senlis — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Senlis (Oise, Hauts-de-France): quality-of-life score 7.6/10. Medieval royal city, Gothic cathedral, Chantilly forest, 40 min from Paris.",
+      "Senlis (Oise, Hauts-de-France): quality-of-life score 7.7/10. Medieval royal city, Gothic cathedral, Chantilly forest, 40 min from Paris.",
     scores: {
       global: 7.6,
       life: 8.0,
@@ -6013,7 +6013,7 @@ const RAW_CITIES_SEED = [
       "Morlaix is the north-Finistère Breton port — dramatic granite viaduct over the town, distinctive 'lantern houses' medieval architecture, working harbour, dramatically affordable. Best fit: authenticity-seekers, retirees wanting authentic Breton living, ultra-budget households, artists.",
     seoTitleEn: "Morlaix — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Morlaix (Finistère, Bretagne): quality-of-life score 7.1/10. North-Finistère port, granite viaduct, lantern houses, authentic, affordable.",
+      "Morlaix (Finistère, Bretagne): quality-of-life score 6.0/10. North-Finistère port, granite viaduct, lantern houses, authentic, affordable.",
     scores: {
       global: 7.1,
       life: 7.5,
@@ -6044,7 +6044,7 @@ const RAW_CITIES_SEED = [
       "Provins is the UNESCO medieval Seine-et-Marne town — intact 12th-century ramparts, historic Champagne-fair trade-route capital, famous Provins roses, 1h25 from Paris. Refined Île-de-France countryside. Best fit: heritage lovers, Paris-region weekend-home owners, medieval-tourism households.",
     seoTitleEn: "Provins — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Provins (Seine-et-Marne, Île-de-France): quality-of-life score 7.3/10. UNESCO medieval town, intact ramparts, Provins roses, 1h25 from Paris.",
+      "Provins (Seine-et-Marne, Île-de-France): quality-of-life score 7.1/10. UNESCO medieval town, intact ramparts, Provins roses, 1h25 from Paris.",
     scores: {
       global: 7.3,
       life: 7.5,
@@ -6106,7 +6106,7 @@ const RAW_CITIES_SEED = [
       "Saint-Tropez is the legendary Var-coast jet-set village — Brigitte Bardot heritage, Pampelonne beach clubs, Côtes-de-Provence rosé country, ultra-premium prices. Mostly seasonal (Oct-April quiet). Best fit: jet-set retirees with substantial budget, lifestyle remote workers prepared for tourist intensity, second-home owners.",
     seoTitleEn: "Saint-Tropez — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Tropez (Var, PACA): quality-of-life score 7.5/10. Jet-set Var village, Pampelonne beaches, Côtes-de-Provence rosé, ultra-premium.",
+      "Saint-Tropez (Var, PACA): quality-of-life score 5.8/10. Jet-set Var village, Pampelonne beaches, Côtes-de-Provence rosé, ultra-premium.",
     scores: {
       global: 7.5,
       life: 9.0,
@@ -6137,7 +6137,7 @@ const RAW_CITIES_SEED = [
       "Hossegor (officially Soorts-Hossegor) is the world surfing capital — Pro France WSL contest each fall, world-class barrel waves, pine-forest setting, refined surf-lifestyle living. Best fit: serious surfers, surf-industry professionals (Quiksilver, Rip Curl HQ nearby), lifestyle remote workers in surf culture.",
     seoTitleEn: "Hossegor — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Hossegor (Landes, Nouvelle-Aquitaine): quality-of-life score 7.8/10. World surfing capital, Pro France WSL, world-class barrels, pine forest.",
+      "Hossegor (Landes, Nouvelle-Aquitaine): quality-of-life score 7.0/10. World surfing capital, Pro France WSL, world-class barrels, pine forest.",
     scores: {
       global: 7.8,
       life: 9.0,
@@ -6168,7 +6168,7 @@ const RAW_CITIES_SEED = [
       "Obernai consistently ranks among France's top quality-of-life small towns — postcard-Alsatian half-timbered centre, intact medieval ramparts, on the Alsace Wine Route, Strasbourg 30 minutes by train. Best fit: refined retirees, wine professionals, families seeking premium Alsatian small-town living.",
     seoTitleEn: "Obernai — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Obernai (Bas-Rhin, Grand Est): quality-of-life score 8.2/10. Top-ranked Alsatian small town, half-timbered centre, Wine Route, 30 min Strasbourg.",
+      "Obernai (Bas-Rhin, Grand Est): quality-of-life score 8.4/10. Top-ranked Alsatian small town, half-timbered centre, Wine Route, 30 min Strasbourg.",
     scores: {
       global: 8.2,
       life: 9.0,
@@ -6199,7 +6199,7 @@ const RAW_CITIES_SEED = [
       "Cagnes-sur-Mer is the value Côte d'Azur city between Nice and Cannes — Renoir spent his last years here (museum at his villa), Cagnes hippodrome (racing), Mediterranean beach, dramatically cheaper than its neighbours. Best fit: Riviera lifestyle on moderate budget, retirees, Nice-region workers.",
     seoTitleEn: "Cagnes-sur-Mer — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Cagnes-sur-Mer (Alpes-Maritimes, PACA): quality-of-life score 7.4/10. Value Côte d'Azur, between Nice and Cannes, Renoir Museum, hippodrome.",
+      "Cagnes-sur-Mer (Alpes-Maritimes, PACA): quality-of-life score 6.2/10. Value Côte d'Azur, between Nice and Cannes, Renoir Museum, hippodrome.",
     scores: {
       global: 7.4,
       life: 7.5,
@@ -6230,7 +6230,7 @@ const RAW_CITIES_SEED = [
       "Noirmoutier-en-l'Île is the Vendée Atlantic island — accessible by Passage du Gois (tidal causeway) or modern bridge, salt marshes (fleur de sel), mimosa-blooming winters, dramatic working-island character. Premium for the calm. Best fit: refined retirees, second-home owners, salt-and-oyster producers, lifestyle remote workers tolerating island logistics.",
     seoTitleEn: "Noirmoutier — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Noirmoutier-en-l'Île (Vendée, Pays de la Loire): quality-of-life score 7.7/10. Vendée Atlantic island, Passage du Gois, salt marshes, mimosa.",
+      "Noirmoutier-en-l'Île (Vendée, Pays de la Loire): quality-of-life score 7.1/10. Vendée Atlantic island, Passage du Gois, salt marshes, mimosa.",
     scores: {
       global: 7.7,
       life: 9.0,
@@ -6297,7 +6297,7 @@ const RAW_CITIES_SEED = [
       "Île de Ré is the premium Atlantic island off La Rochelle — refined whitewashed villages, vast cycle-path network, salt marshes, oyster culture, Parisian-elite second-home capital. Premium prices. Best fit: refined retirees with substantial budget, Parisian weekend-home owners, cyclists.",
     seoTitleEn: "Île de Ré — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Île de Ré (Charente-Maritime, Nouvelle-Aquitaine): quality-of-life score 8.2/10. Premium Atlantic island, whitewashed villages, cycle-friendly, refined.",
+      "Île de Ré (Charente-Maritime, Nouvelle-Aquitaine): quality-of-life score 7.6/10. Premium Atlantic island, whitewashed villages, cycle-friendly, refined.",
     scores: {
       global: 8.2,
       life: 9.5,
@@ -6328,7 +6328,7 @@ const RAW_CITIES_SEED = [
       "Quiberon is the dramatic Morbihan peninsula — wild west-coast 'Côte Sauvage,' ferries to Belle-Île, world-class thalassotherapy (Louison Bobet heritage), Atlantic surf. Best fit: thalassotherapy enthusiasts, surfers, refined retirees, lifestyle remote workers wanting dramatic Breton-coast living.",
     seoTitleEn: "Quiberon — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Quiberon (Morbihan, Bretagne): quality-of-life score 7.8/10. Morbihan peninsula, wild Côte Sauvage, thalassotherapy, Belle-Île ferries.",
+      "Quiberon (Morbihan, Bretagne): quality-of-life score 7.3/10. Morbihan peninsula, wild Côte Sauvage, thalassotherapy, Belle-Île ferries.",
     scores: {
       global: 7.8,
       life: 9.0,
@@ -6359,7 +6359,7 @@ const RAW_CITIES_SEED = [
       "Pézenas is the small Languedoc gem where Molière performed — refined 17th-century mansion centre, antiques and craft-shop capital, hot Mediterranean climate, Béziers and Sète both 20 minutes. Best fit: heritage lovers, antiques and arts professionals, retirees seeking refined Languedoc small-town living.",
     seoTitleEn: "Pézenas — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Pézenas (Hérault, Occitanie): quality-of-life score 7.4/10. Languedoc Molière town, 17th-century mansion centre, antiques capital, refined.",
+      "Pézenas (Hérault, Occitanie): quality-of-life score 6.5/10. Languedoc Molière town, 17th-century mansion centre, antiques capital, refined.",
     scores: {
       global: 7.4,
       life: 8.0,
@@ -6390,7 +6390,7 @@ const RAW_CITIES_SEED = [
       "Agde is the Greek-founded Mediterranean Hérault city — black-basalt Romanesque cathedral, Cap d'Agde resort (the famous naturist village), Canal du Midi, affordable for the coastal location. Best fit: ultra-budget Mediterranean households, naturist-tourism enthusiasts, retirees seeking value Languedoc coast.",
     seoTitleEn: "Agde — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Agde (Hérault, Occitanie): quality-of-life score 6.9/10. Greek-founded Mediterranean, black-basalt cathedral, Cap d'Agde resort, affordable.",
+      "Agde (Hérault, Occitanie): quality-of-life score 5.9/10. Greek-founded Mediterranean, black-basalt cathedral, Cap d'Agde resort, affordable.",
     scores: {
       global: 6.9,
       life: 7.5,
@@ -6421,7 +6421,7 @@ const RAW_CITIES_SEED = [
       "Douarnenez is the deep-Brittany Finistère fishing port — sardine and tuna heritage, Port-Musée maritime museum, wild Cap Sizun and Crozon coast nearby, dramatically affordable. Best fit: authenticity-seekers, retirees wanting genuine working-Breton port, ultra-budget households, sailors.",
     seoTitleEn: "Douarnenez — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Douarnenez (Finistère, Bretagne): quality-of-life score 7.0/10. Deep-Brittany fishing port, sardine heritage, wild Finistère coast, affordable.",
+      "Douarnenez (Finistère, Bretagne): quality-of-life score 5.7/10. Deep-Brittany fishing port, sardine heritage, wild Finistère coast, affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -6452,7 +6452,7 @@ const RAW_CITIES_SEED = [
       "Biscarrosse is the Landes lake-and-ocean town — Atlantic surf coast on one side, the vast Biscarrosse lake on the other, pine forests, kite-surfing capital. Best fit: surfers and kite-surfers, family beach-and-lake households, lifestyle remote workers wanting pine-forest Atlantic-coast living.",
     seoTitleEn: "Biscarrosse — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Biscarrosse (Landes, Nouvelle-Aquitaine): quality-of-life score 7.4/10. Landes lake-and-ocean town, surf coast, kite-surfing capital, pine forest.",
+      "Biscarrosse (Landes, Nouvelle-Aquitaine): quality-of-life score 7.3/10. Landes lake-and-ocean town, surf coast, kite-surfing capital, pine forest.",
     scores: {
       global: 7.4,
       life: 8.5,
@@ -6483,7 +6483,7 @@ const RAW_CITIES_SEED = [
       "Saint-Rémy-de-Provence is the iconic Alpilles Provençal town — where Van Gogh painted his most famous works (Saint-Paul-de-Mausole asylum), Nostradamus's birthplace, exceptional Wednesday market, dramatic Alpilles backdrop. Best fit: refined expat retirees, lifestyle remote workers, second-home owners.",
     seoTitleEn: "Saint-Rémy-de-Provence — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Rémy-de-Provence (Bouches-du-Rhône, PACA): quality-of-life score 8.0/10. Iconic Alpilles town, Van Gogh's painting setting, refined Provence.",
+      "Saint-Rémy-de-Provence (Bouches-du-Rhône, PACA): quality-of-life score 7.7/10. Iconic Alpilles town, Van Gogh's painting setting, refined Provence.",
     scores: {
       global: 8.0,
       life: 9.0,
@@ -6514,7 +6514,7 @@ const RAW_CITIES_SEED = [
       "Gordes is the postcard-Luberon village — perched on a limestone cliff (one of France's most photographed villages), refined Provençal-Luberon lifestyle, Sénanque lavender abbey nearby, premium prices. Best fit: refined retirees with substantial budget, second-home owners, lifestyle remote workers wanting iconic Provençal village.",
     seoTitleEn: "Gordes — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Gordes (Vaucluse, PACA): quality-of-life score 8.1/10. Postcard Luberon perched village, refined Provençal, Sénanque lavender abbey, premium.",
+      "Gordes (Vaucluse, PACA): quality-of-life score 6.5/10. Postcard Luberon perched village, refined Provençal, Sénanque lavender abbey, premium.",
     scores: {
       global: 8.1,
       life: 9.5,
@@ -6545,7 +6545,7 @@ const RAW_CITIES_SEED = [
       "Sisteron sits at the gateway between Provence and the Alps — dramatic Vauban citadel above the Durance river, AOP Sisteron lamb country, lavender fields, sunny and affordable for the dramatic setting. Best fit: ultra-budget Provence-alpine households, retirees seeking refined small-town living, mountain-and-Provence combination lovers.",
     seoTitleEn: "Sisteron — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Sisteron (Alpes-de-Haute-Provence, PACA): quality-of-life score 7.1/10. Gateway between Provence and Alps, Vauban citadel, AOP lamb, sunny.",
+      "Sisteron (Alpes-de-Haute-Provence, PACA): quality-of-life score 7.3/10. Gateway between Provence and Alps, Vauban citadel, AOP lamb, sunny.",
     scores: {
       global: 7.1,
       life: 8.0,
@@ -6576,7 +6576,7 @@ const RAW_CITIES_SEED = [
       "Saint-Paul-de-Vence is the iconic Côte d'Azur artist-village — Chagall is buried here, Fondation Maeght world-class modern art, walled medieval perched centre, gallery-dense, ultra-refined. Premium prices. Best fit: art collectors, refined retirees with budget, second-home owners, lifestyle remote workers.",
     seoTitleEn: "Saint-Paul-de-Vence — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Paul-de-Vence (Alpes-Maritimes, PACA): quality-of-life score 8.0/10. Iconic Côte d'Azur art village, Fondation Maeght, Chagall buried here.",
+      "Saint-Paul-de-Vence (Alpes-Maritimes, PACA): quality-of-life score 6.5/10. Iconic Côte d'Azur art village, Fondation Maeght, Chagall buried here.",
     scores: {
       global: 8.0,
       life: 9.5,
@@ -6607,7 +6607,7 @@ const RAW_CITIES_SEED = [
       "Valbonne is the heart of the Sophia Antipolis tech park — Europe's first science park, major international tech-and-pharma employment (SAP, IBM, Air France, Galderma), refined medieval-grid village, large expat community, the most English-speaking commune in France. Best fit: tech expats, international corporate families, refined retirees.",
     seoTitleEn: "Valbonne — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Valbonne (Alpes-Maritimes, PACA): quality-of-life score 8.3/10. Sophia Antipolis tech park, international expat heartland, medieval village.",
+      "Valbonne (Alpes-Maritimes, PACA): quality-of-life score 7.3/10. Sophia Antipolis tech park, international expat heartland, medieval village.",
     scores: {
       global: 8.3,
       life: 8.5,
@@ -6638,7 +6638,7 @@ const RAW_CITIES_SEED = [
       "Céret is the Catalan-Pyrenees art town — Matisse, Picasso, Soutine, Chagall all painted here (Musée d'Art Moderne), cherry capital of France, Spanish border 15 minutes, dramatic Mont Canigou backdrop. Best fit: artists, art-and-Catalan-culture lovers, refined retirees, Spanish-border professionals.",
     seoTitleEn: "Céret — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Céret (Pyrénées-Orientales, Occitanie): quality-of-life score 7.6/10. Catalan-Pyrenees art town, Matisse-Picasso heritage, cherry capital.",
+      "Céret (Pyrénées-Orientales, Occitanie): quality-of-life score 7.3/10. Catalan-Pyrenees art town, Matisse-Picasso heritage, cherry capital.",
     scores: {
       global: 7.6,
       life: 8.5,
@@ -6669,7 +6669,7 @@ const RAW_CITIES_SEED = [
       "Carpentras is the truffle capital of Provence — historic Friday provençal market, famous winter truffle market (one of France's largest), Mont Ventoux on the doorstep, refined Vaucluse heritage. Best fit: gastronomes (truffles), Provençal-cycling enthusiasts (Mont Ventoux), retirees seeking authentic Vaucluse living.",
     seoTitleEn: "Carpentras — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Carpentras (Vaucluse, PACA): quality-of-life score 7.2/10. Truffle capital of Provence, historic market, Mont Ventoux gateway, refined.",
+      "Carpentras (Vaucluse, PACA): quality-of-life score 6.3/10. Truffle capital of Provence, historic market, Mont Ventoux gateway, refined.",
     scores: {
       global: 7.2,
       life: 7.5,
@@ -6700,7 +6700,7 @@ const RAW_CITIES_SEED = [
       "Apt is the Luberon capital — candied-fruit production heritage, ochre-coloured cliffs of Roussillon nearby, exceptional Saturday market, Luberon Regional Natural Park headquarters. Best fit: refined retirees seeking calm Luberon living, weekend-market enthusiasts, lifestyle remote workers, slow-life expats.",
     seoTitleEn: "Apt — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Apt (Vaucluse, PACA): quality-of-life score 7.5/10. Luberon capital, candied-fruit heritage, ochre cliffs nearby, exceptional Saturday market.",
+      "Apt (Vaucluse, PACA): quality-of-life score 7.0/10. Luberon capital, candied-fruit heritage, ochre cliffs nearby, exceptional Saturday market.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -6731,7 +6731,7 @@ const RAW_CITIES_SEED = [
       "Aubagne is Marcel Pagnol's hometown — Garlaban hills setting of his novels, santons (Provençal nativity figurines) capital, Marseille 25 minutes by train, the Calanques 30 minutes. Affordable for the location. Best fit: Marseille-region workers, Pagnol-heritage lovers, families seeking value Provençal living.",
     seoTitleEn: "Aubagne — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Aubagne (Bouches-du-Rhône, PACA): quality-of-life score 7.3/10. Marcel Pagnol's hometown, santons capital, Marseille adjacent, Garlaban hills.",
+      "Aubagne (Bouches-du-Rhône, PACA): quality-of-life score 6.2/10. Marcel Pagnol's hometown, santons capital, Marseille adjacent, Garlaban hills.",
     scores: {
       global: 7.3,
       life: 7.5,
@@ -6762,7 +6762,7 @@ const RAW_CITIES_SEED = [
       "Sainte-Maxime is the value Saint-Tropez peninsula resort — across the gulf from Saint-Tropez itself but dramatically cheaper, family-friendly beaches, refined Riviera lifestyle without the jet-set premium. Best fit: refined retirees with moderate budget, families wanting Saint-Tropez-peninsula access at saner prices.",
     seoTitleEn: "Sainte-Maxime — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Sainte-Maxime (Var, PACA): quality-of-life score 7.8/10. Value Saint-Tropez gulf resort, family-friendly beaches, refined Riviera.",
+      "Sainte-Maxime (Var, PACA): quality-of-life score 6.7/10. Value Saint-Tropez gulf resort, family-friendly beaches, refined Riviera.",
     scores: {
       global: 7.8,
       life: 8.5,
@@ -6793,7 +6793,7 @@ const RAW_CITIES_SEED = [
       "Digne-les-Bains is the Alpes-de-Haute-Provence prefecture — Géoparc de Haute-Provence (UNESCO), thermal-spa heritage, lavender country, train des Pignes scenic narrow-gauge to Nice. Genuine alpine-Provence calm. Best fit: nature retirees seeking the most isolated southern-Alps living, lavender-and-geology enthusiasts.",
     seoTitleEn: "Digne-les-Bains — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Digne-les-Bains (Alpes-de-Haute-Provence, PACA): quality-of-life score 7.1/10. Haute-Provence prefecture, UNESCO Géoparc, lavender, calm.",
+      "Digne-les-Bains (Alpes-de-Haute-Provence, PACA): quality-of-life score 5.4/10. Haute-Provence prefecture, UNESCO Géoparc, lavender, calm.",
     scores: {
       global: 7.1,
       life: 7.5,
@@ -6824,7 +6824,7 @@ const RAW_CITIES_SEED = [
       "Vaison-la-Romaine is the small Vaucluse Roman-heritage town — exceptional Gallo-Roman ruins, refined medieval upper town, Mont Ventoux backdrop, Provence wine country in every direction. Best fit: heritage lovers, refined retirees, lifestyle remote workers wanting authentic Vaucluse village living.",
     seoTitleEn: "Vaison-la-Romaine — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Vaison-la-Romaine (Vaucluse, PACA): quality-of-life score 7.8/10. Vaucluse Roman heritage, refined medieval upper town, Ventoux backdrop.",
+      "Vaison-la-Romaine (Vaucluse, PACA): quality-of-life score 7.5/10. Vaucluse Roman heritage, refined medieval upper town, Ventoux backdrop.",
     scores: {
       global: 7.8,
       life: 8.5,
@@ -6886,7 +6886,7 @@ const RAW_CITIES_SEED = [
       "Évian-les-Bains sits on the French shore of Lake Geneva — the Evian mineral water source, premium Belle-Époque palaces, ferry to Lausanne 30 minutes, refined lake-and-mountain living. Premium prices. Best fit: refined retirees with substantial budget, Swiss-border professionals, lifestyle remote workers.",
     seoTitleEn: "Évian-les-Bains — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Évian-les-Bains (Haute-Savoie, Auvergne-Rhône-Alpes): quality-of-life score 8.0/10. Lake Geneva shore, Evian water, Belle-Époque palaces.",
+      "Évian-les-Bains (Haute-Savoie, Auvergne-Rhône-Alpes): quality-of-life score 5.3/10. Lake Geneva shore, Evian water, Belle-Époque palaces.",
     scores: {
       global: 8.0,
       life: 8.5,
@@ -6917,7 +6917,7 @@ const RAW_CITIES_SEED = [
       "Issoire is the small Auvergne town between Clermont-Ferrand and Le Puy — Romanesque Saint-Austremoine abbey, Chaîne des Puys nearby, dramatically affordable, Clermont-Ferrand 30 minutes. Best fit: Clermont-region workers wanting cheap base, ultra-budget households, retirees seeking calm volcanic-country living.",
     seoTitleEn: "Issoire — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Issoire (Puy-de-Dôme, Auvergne-Rhône-Alpes): quality-of-life score 7.2/10. Small Auvergne town, Romanesque abbey, near Chaîne des Puys, affordable.",
+      "Issoire (Puy-de-Dôme, Auvergne-Rhône-Alpes): quality-of-life score 6.9/10. Small Auvergne town, Romanesque abbey, near Chaîne des Puys, affordable.",
     scores: {
       global: 7.2,
       life: 7.5,
@@ -6948,7 +6948,7 @@ const RAW_CITIES_SEED = [
       "Moulins is the Allier prefecture — Anne de Beaujeu Museum, Centre National du Costume de Scène, Bourbonnais heritage, dramatically affordable. Calm rural-France centre. Best fit: ultra-budget households, retirees seeking refined small-town centre-France living, costume-and-theatre professionals.",
     seoTitleEn: "Moulins — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Moulins (Allier, Auvergne-Rhône-Alpes): quality-of-life score 6.8/10. Allier prefecture, Bourbonnais heritage, very affordable, calm centre-France.",
+      "Moulins (Allier, Auvergne-Rhône-Alpes): quality-of-life score 6.5/10. Allier prefecture, Bourbonnais heritage, very affordable, calm centre-France.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -6979,7 +6979,7 @@ const RAW_CITIES_SEED = [
       "Tulle is the Corrèze prefecture — accordion-manufacturing heritage, dramatic Corrèze gorge setting, Plateau de Millevaches nature park nearby, dramatically affordable. Best fit: nature retirees, ultra-budget households, music professionals (accordion), authenticity-seekers.",
     seoTitleEn: "Tulle — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Tulle (Corrèze, Nouvelle-Aquitaine): quality-of-life score 7.0/10. Corrèze prefecture, accordion heritage, gorge setting, very affordable, calm.",
+      "Tulle (Corrèze, Nouvelle-Aquitaine): quality-of-life score 7.2/10. Corrèze prefecture, accordion heritage, gorge setting, very affordable, calm.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -7072,7 +7072,7 @@ const RAW_CITIES_SEED = [
       "Fontenay-le-Comte is the Renaissance Vendée town — Marais Poitevin (the 'Venise Verte' green-water wetlands) on the doorstep, refined Renaissance architecture, dramatically affordable. Best fit: nature retirees, refined heritage lovers, ultra-budget households seeking authentic Vendée living.",
     seoTitleEn: "Fontenay-le-Comte — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Fontenay-le-Comte (Vendée, Pays de la Loire): quality-of-life score 7.3/10. Renaissance Vendée town, Marais Poitevin Venise Verte, refined.",
+      "Fontenay-le-Comte (Vendée, Pays de la Loire): quality-of-life score 7.5/10. Renaissance Vendée town, Marais Poitevin Venise Verte, refined.",
     scores: {
       global: 7.3,
       life: 7.8,
@@ -7103,7 +7103,7 @@ const RAW_CITIES_SEED = [
       "Vendôme is the Loir-et-Cher TGV-Paris city — 45 minutes by TGV to Paris (one of France's fastest provincial connections), refined Trinité abbey heritage, Loir river through the centre, affordable. Best fit: Paris commuters seeking ultra-fast TGV connection at low cost, remote workers, families.",
     seoTitleEn: "Vendôme — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Vendôme (Loir-et-Cher, Centre-Val de Loire): quality-of-life score 7.0/10. 45 min TGV to Paris, Trinité abbey, Loir river, refined and affordable.",
+      "Vendôme (Loir-et-Cher, Centre-Val de Loire): quality-of-life score 7.4/10. 45 min TGV to Paris, Trinité abbey, Loir river, refined and affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -7134,7 +7134,7 @@ const RAW_CITIES_SEED = [
       "Vierzon is the Cher industrial-heritage town — at the crossroads of central France, dramatically affordable property, dynamic rail-and-road junction. Best fit: ultra-budget households seeking some of the cheapest French property, industrial-heritage enthusiasts, calm-seekers.",
     seoTitleEn: "Vierzon — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Vierzon (Cher, Centre-Val de Loire): quality-of-life score 6.6/10. Cher industrial-heritage junction town, dramatically affordable, calm.",
+      "Vierzon (Cher, Centre-Val de Loire): quality-of-life score 4.8/10. Cher industrial-heritage junction town, dramatically affordable, calm.",
     scores: {
       global: 6.6,
       life: 7.0,
@@ -7165,7 +7165,7 @@ const RAW_CITIES_SEED = [
       "Montargis is the 'Venise du Gâtinais' — historic canal network through the centre, the famous Mazet de Montargis pralines (since 1636), Paris 1 hour, Gâtinais forests, dramatically affordable. Best fit: Paris commuters seeking cheap canal-town base, retirees, ultra-budget households.",
     seoTitleEn: "Montargis — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Montargis (Loiret, Centre-Val de Loire): quality-of-life score 6.8/10. Venise du Gâtinais canal town, Mazet pralines, 1h to Paris, affordable.",
+      "Montargis (Loiret, Centre-Val de Loire): quality-of-life score 6.6/10. Venise du Gâtinais canal town, Mazet pralines, 1h to Paris, affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -7227,7 +7227,7 @@ const RAW_CITIES_SEED = [
       "Lourdes is the world Catholic pilgrimage city — Marian apparition site visited by 3+ million pilgrims yearly, Pic du Midi observatory and ski areas within an hour, dramatically affordable when not in pilgrimage season. Best fit: religious-tourism professionals, Pyrenees-region workers, ultra-budget mountain-adjacent households.",
     seoTitleEn: "Lourdes — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Lourdes (Hautes-Pyrénées, Occitanie): quality-of-life score 6.8/10. World Catholic pilgrimage city, 3M+ pilgrims yearly, Pyrenees-adjacent.",
+      "Lourdes (Hautes-Pyrénées, Occitanie): quality-of-life score 7.0/10. World Catholic pilgrimage city, 3M+ pilgrims yearly, Pyrenees-adjacent.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -7258,7 +7258,7 @@ const RAW_CITIES_SEED = [
       "Sarlat-la-Canéda is the iconic Périgord Noir medieval town — Europe's densest concentration of protected historic buildings, foie-gras and truffle and walnut country, refined Dordogne gastronomy, established British retiree community. Best fit: refined British and Anglo retirees, gastronomes, heritage lovers, weekend-home owners.",
     seoTitleEn: "Sarlat-la-Canéda — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Sarlat-la-Canéda (Dordogne, Nouvelle-Aquitaine): quality-of-life score 7.8/10. Iconic Périgord medieval town, foie-gras truffle country, British retirees.",
+      "Sarlat-la-Canéda (Dordogne, Nouvelle-Aquitaine): quality-of-life score 5.5/10. Iconic Périgord medieval town, foie-gras truffle country, British retirees.",
     scores: {
       global: 7.8,
       life: 8.5,
@@ -7289,7 +7289,7 @@ const RAW_CITIES_SEED = [
       "Marmande is the Lot-et-Garonne agricultural town — the famous Marmande tomato AOP, Garonne river through the centre, Bordeaux 1 hour away, dramatically affordable. Best fit: ultra-budget households, agricultural professionals, gastronomes wanting access to southwest produce, Bordeaux-region workers seeking very cheap base.",
     seoTitleEn: "Marmande — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Marmande (Lot-et-Garonne, Nouvelle-Aquitaine): quality-of-life score 6.8/10. Agricultural town, famous Marmande tomato, near Bordeaux, very affordable.",
+      "Marmande (Lot-et-Garonne, Nouvelle-Aquitaine): quality-of-life score 6.5/10. Agricultural town, famous Marmande tomato, near Bordeaux, very affordable.",
     scores: {
       global: 6.8,
       life: 7.2,
@@ -7351,7 +7351,7 @@ const RAW_CITIES_SEED = [
       "Guéret is the Creuse prefecture — France's least-populated department after Lozère, dramatic Plateau de Millevaches nature park, dramatically affordable property (among France's cheapest). Best fit: extreme-rural-living seekers, nature retirees on tightest budgets, slow-life expats prepared for genuine isolation.",
     seoTitleEn: "Guéret — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Guéret (Creuse, Nouvelle-Aquitaine): quality-of-life score 6.5/10. Creuse prefecture, Plateau de Millevaches, ultra-rural, very cheap property.",
+      "Guéret (Creuse, Nouvelle-Aquitaine): quality-of-life score 7.0/10. Creuse prefecture, Plateau de Millevaches, ultra-rural, very cheap property.",
     scores: {
       global: 6.5,
       life: 7.0,
@@ -7413,7 +7413,7 @@ const RAW_CITIES_SEED = [
       "Dieppe is the Normandy Channel port — ferries to Newhaven (UK), dramatic chalk cliffs, working fishing fleet, refined seaside heritage, dramatically affordable. Best fit: UK-France ferry commuters, fishing-and-port professionals, ultra-budget households seeking Channel-coast living.",
     seoTitleEn: "Dieppe — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Dieppe (Seine-Maritime, Normandie): quality-of-life score 6.9/10. Normandy Channel port, UK ferries, chalk cliffs, working fishing fleet.",
+      "Dieppe (Seine-Maritime, Normandie): quality-of-life score 6.7/10. Normandy Channel port, UK ferries, chalk cliffs, working fishing fleet.",
     scores: {
       global: 6.9,
       life: 7.2,
@@ -7444,7 +7444,7 @@ const RAW_CITIES_SEED = [
       "Saint-Lô is the Manche prefecture — Normandy reconstruction city (largely destroyed in 1944, rebuilt in modernist style), Cotentin peninsula gateway, dramatic prairie landscape, dramatically affordable. Best fit: ultra-budget households, modernist-architecture lovers, ferry-to-UK frequent travellers, calm-seekers.",
     seoTitleEn: "Saint-Lô — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Lô (Manche, Normandie): quality-of-life score 6.8/10. Manche prefecture, post-1944 reconstruction city, Cotentin gateway, very affordable.",
+      "Saint-Lô (Manche, Normandie): quality-of-life score 6.9/10. Manche prefecture, post-1944 reconstruction city, Cotentin gateway, very affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -7475,7 +7475,7 @@ const RAW_CITIES_SEED = [
       "Parthenay is the medieval Deux-Sèvres Saint-Jacques pilgrimage stop — exceptional walled medieval centre, Wednesday market is a regional benchmark, dramatically affordable. Best fit: heritage lovers, pilgrims, ultra-budget households, retirees seeking authentic small-town centre-France living.",
     seoTitleEn: "Parthenay — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Parthenay (Deux-Sèvres, Nouvelle-Aquitaine): quality-of-life score 7.1/10. Medieval pilgrimage town, walled centre, Wednesday market, affordable.",
+      "Parthenay (Deux-Sèvres, Nouvelle-Aquitaine): quality-of-life score 7.2/10. Medieval pilgrimage town, walled centre, Wednesday market, affordable.",
     scores: {
       global: 7.1,
       life: 7.5,
@@ -7506,7 +7506,7 @@ const RAW_CITIES_SEED = [
       "Beaune is the heart of Burgundy wine country — Hospices de Beaune annual wine auction (the world's most important), Route des Grands Crus on the doorstep (Romanée-Conti, Montrachet, Pommard), refined heritage. Best fit: wine professionals, refined retirees, gastronomes, wine investors and traders.",
     seoTitleEn: "Beaune — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Beaune (Côte-d'Or, Bourgogne-Franche-Comté): quality-of-life score 7.8/10. Heart of Burgundy wine country, Hospices auction, Route des Grands Crus.",
+      "Beaune (Côte-d'Or, Bourgogne-Franche-Comté): quality-of-life score 7.7/10. Heart of Burgundy wine country, Hospices auction, Route des Grands Crus.",
     scores: {
       global: 7.8,
       life: 8.5,
@@ -7537,7 +7537,7 @@ const RAW_CITIES_SEED = [
       "Autun is the Saône-et-Loire Gallo-Roman city — Augustodunum founded by Augustus, exceptional Romanesque Cathédrale Saint-Lazare, Morvan Regional Park on the doorstep, dramatically affordable. Best fit: heritage lovers, ultra-budget households, retirees seeking refined small-Burgundy living.",
     seoTitleEn: "Autun — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Autun (Saône-et-Loire, Bourgogne-Franche-Comté): quality-of-life score 7.3/10. Gallo-Roman city, Augustus-era heritage, Romanesque cathedral, Morvan.",
+      "Autun (Saône-et-Loire, Bourgogne-Franche-Comté): quality-of-life score 7.8/10. Gallo-Roman city, Augustus-era heritage, Romanesque cathedral, Morvan.",
     scores: {
       global: 7.3,
       life: 7.5,
@@ -7568,7 +7568,7 @@ const RAW_CITIES_SEED = [
       "Saverne is the Vosges-foothill Alsace gateway — refined château, rose-cultivation heritage, Strasbourg 30 minutes by train, Vosges forests and trails, Canal de la Marne au Rhin. Best fit: refined Strasbourg-region workers wanting cheaper base, families seeking Alsatian small-town living with mountain access.",
     seoTitleEn: "Saverne — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saverne (Bas-Rhin, Grand Est): quality-of-life score 7.5/10. Vosges-Alsace gateway, refined château, rose cultivation, 30 min Strasbourg.",
+      "Saverne (Bas-Rhin, Grand Est): quality-of-life score 7.6/10. Vosges-Alsace gateway, refined château, rose cultivation, 30 min Strasbourg.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -7599,7 +7599,7 @@ const RAW_CITIES_SEED = [
       "Laon is the dramatic Aisne hilltop city — medieval upper town perched 100m above the plain, exceptional Gothic Notre-Dame cathedral, dramatically affordable, Paris 1h30 by train. Best fit: heritage lovers, ultra-budget households, Paris commuters wanting dramatic historic base.",
     seoTitleEn: "Laon — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Laon (Aisne, Hauts-de-France): quality-of-life score 6.9/10. Dramatic hilltop medieval city, Gothic Notre-Dame cathedral, 1h30 to Paris, affordable.",
+      "Laon (Aisne, Hauts-de-France): quality-of-life score 7.2/10. Dramatic hilltop medieval city, Gothic Notre-Dame cathedral, 1h30 to Paris, affordable.",
     scores: {
       global: 6.9,
       life: 7.2,
@@ -7661,7 +7661,7 @@ const RAW_CITIES_SEED = [
       "Chaumont is the Haute-Marne graphic-design capital — biennale International Poster Festival, dramatic 50-arch viaduct, dramatically affordable, surrounded by Champagne forests. Best fit: graphic designers, poster-and-print professionals, ultra-budget households, retirees seeking quiet Haute-Marne living.",
     seoTitleEn: "Chaumont — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Chaumont (Haute-Marne, Grand Est): quality-of-life score 6.6/10. Haute-Marne graphic-design capital, Poster Biennale, 50-arch viaduct, affordable.",
+      "Chaumont (Haute-Marne, Grand Est): quality-of-life score 6.8/10. Haute-Marne graphic-design capital, Poster Biennale, 50-arch viaduct, affordable.",
     scores: {
       global: 6.6,
       life: 7.0,
@@ -7692,7 +7692,7 @@ const RAW_CITIES_SEED = [
       "Chinon is the medieval Touraine Loire-Valley town — Rabelais's birthplace, dramatic royal fortress above the Vienne river, Chinon AOC red wine country, refined heritage. Best fit: heritage lovers, wine professionals (Loire reds), literary tourists, retirees seeking refined Loire Valley living.",
     seoTitleEn: "Chinon — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Chinon (Indre-et-Loire, Centre-Val de Loire): quality-of-life score 7.4/10. Medieval Touraine town, Rabelais heritage, royal fortress, Chinon AOC wine.",
+      "Chinon (Indre-et-Loire, Centre-Val de Loire): quality-of-life score 7.6/10. Medieval Touraine town, Rabelais heritage, royal fortress, Chinon AOC wine.",
     scores: {
       global: 7.4,
       life: 8.0,
@@ -7723,7 +7723,7 @@ const RAW_CITIES_SEED = [
       "Saint-Dié-des-Vosges is the Vosges-forest town where America was first named (1507 Cosmographiae Introductio) — annual Geography Festival, dramatic Vosges-forest setting, dramatically affordable. Best fit: geographers, ultra-budget mountain-adjacent households, retirees seeking calm Vosges-forest living.",
     seoTitleEn: "Saint-Dié-des-Vosges — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Dié-des-Vosges (Vosges, Grand Est): quality-of-life score 6.8/10. Where America was named in 1507, Vosges forest, Geography Festival.",
+      "Saint-Dié-des-Vosges (Vosges, Grand Est): quality-of-life score 7.3/10. Where America was named in 1507, Vosges forest, Geography Festival.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -7754,7 +7754,7 @@ const RAW_CITIES_SEED = [
       "Villefranche-de-Rouergue is the 13th-century Aveyron bastide town — refined grid-plan medieval centre, Lot Valley adjacent, black-truffle country, dramatically affordable. Best fit: heritage lovers, gastronomes (truffles), retirees seeking refined small-town Aveyron living, ultra-budget households.",
     seoTitleEn: "Villefranche-de-Rouergue — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Villefranche-de-Rouergue (Aveyron, Occitanie): quality-of-life score 7.2/10. 13th-century bastide, black-truffle country, refined and affordable.",
+      "Villefranche-de-Rouergue (Aveyron, Occitanie): quality-of-life score 7.6/10. 13th-century bastide, black-truffle country, refined and affordable.",
     scores: {
       global: 7.2,
       life: 7.5,
@@ -7785,7 +7785,7 @@ const RAW_CITIES_SEED = [
       "Riom is the medieval Auvergne town near Clermont-Ferrand — black-basalt heritage architecture, calm, dramatically affordable. Best fit: Clermont-region workers wanting cheaper base, heritage lovers, ultra-budget households seeking refined Auvergne small-town living.",
     seoTitleEn: "Riom — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Riom (Puy-de-Dôme, Auvergne-Rhône-Alpes): quality-of-life score 7.1/10. Medieval Auvergne town near Clermont-Ferrand, black-basalt heritage, calm.",
+      "Riom (Puy-de-Dôme, Auvergne-Rhône-Alpes): quality-of-life score 6.5/10. Medieval Auvergne town near Clermont-Ferrand, black-basalt heritage, calm.",
     scores: {
       global: 7.1,
       life: 7.3,
@@ -7816,7 +7816,7 @@ const RAW_CITIES_SEED = [
       "Thiers is France's knife-making capital — Laguiole-and-Opinel competitor, dramatic Durolle gorge setting, exceptional medieval upper town, Clermont-Ferrand 45 minutes. Affordable. Best fit: artisans, knife-and-craft enthusiasts, retirees seeking dramatic small-town setting.",
     seoTitleEn: "Thiers — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Thiers (Puy-de-Dôme, Auvergne-Rhône-Alpes): quality-of-life score 6.8/10. France's knife-making capital, dramatic Durolle gorge, medieval upper town.",
+      "Thiers (Puy-de-Dôme, Auvergne-Rhône-Alpes): quality-of-life score 6.0/10. France's knife-making capital, dramatic Durolle gorge, medieval upper town.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -7847,7 +7847,7 @@ const RAW_CITIES_SEED = [
       "Oyonnax is France's plastics-industry capital ('Plastics Valley') — Ain industrial heritage, Jura mountains at the doorstep, dramatically affordable. Best fit: plastics-and-industrial professionals, ultra-budget households, Jura outdoor active retirees.",
     seoTitleEn: "Oyonnax — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Oyonnax (Ain, Auvergne-Rhône-Alpes): quality-of-life score 6.5/10. France's plastics-industry capital, Jura adjacent, industrial, very affordable.",
+      "Oyonnax (Ain, Auvergne-Rhône-Alpes): quality-of-life score 5.6/10. France's plastics-industry capital, Jura adjacent, industrial, very affordable.",
     scores: {
       global: 6.5,
       life: 6.5,
@@ -7878,7 +7878,7 @@ const RAW_CITIES_SEED = [
       "Cluses is the heart of France's precision-machining industry (Vallée de l'Arve décolletage) — Chamonix and Mont Blanc 40 minutes away, Geneva 1 hour, affordable for Alpine Haute-Savoie. Best fit: precision-machining and Swiss-watchmaking-component professionals, mountain-active families, Geneva-Chamonix-region workers.",
     seoTitleEn: "Cluses — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Cluses (Haute-Savoie, Auvergne-Rhône-Alpes): quality-of-life score 6.8/10. Vallée de l'Arve precision-machining, Chamonix 40 min, Geneva 1h.",
+      "Cluses (Haute-Savoie, Auvergne-Rhône-Alpes): quality-of-life score 5.6/10. Vallée de l'Arve precision-machining, Chamonix 40 min, Geneva 1h.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -7909,7 +7909,7 @@ const RAW_CITIES_SEED = [
       "Rumilly is the value Annecy-adjacent town — 20 minutes south of Annecy, dramatically cheaper, family-friendly, calm, Alpine countryside. Best fit: Annecy-region workers wanting much cheaper base, families seeking value Haute-Savoie living, retirees.",
     seoTitleEn: "Rumilly — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Rumilly (Haute-Savoie, Auvergne-Rhône-Alpes): quality-of-life score 7.2/10. Value Annecy-adjacent town, 20 min south of Annecy, family-friendly.",
+      "Rumilly (Haute-Savoie, Auvergne-Rhône-Alpes): quality-of-life score 6.9/10. Value Annecy-adjacent town, 20 min south of Annecy, family-friendly.",
     scores: {
       global: 7.2,
       life: 7.5,
@@ -7940,7 +7940,7 @@ const RAW_CITIES_SEED = [
       "Annonay is the hot-air-balloon birthplace — the Montgolfier brothers's hometown (1783 first flight), Ardèche industrial-and-paper heritage, dramatic gorges nearby, Lyon 1 hour. Affordable. Best fit: ultra-budget households, industrial-heritage lovers, nature retirees, Lyon-region workers wanting cheaper base.",
     seoTitleEn: "Annonay — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Annonay (Ardèche, Auvergne-Rhône-Alpes): quality-of-life score 6.8/10. Hot-air-balloon birthplace, Montgolfier brothers, Ardèche heritage.",
+      "Annonay (Ardèche, Auvergne-Rhône-Alpes): quality-of-life score 6.1/10. Hot-air-balloon birthplace, Montgolfier brothers, Ardèche heritage.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -7971,7 +7971,7 @@ const RAW_CITIES_SEED = [
       "Lons-le-Saunier is the Jura prefecture — Rouget de Lisle's birthplace (composer of La Marseillaise), thermal-spa heritage, Jura wine country at the doorstep (vin jaune, vin de paille), affordable. Best fit: Jura wine professionals, ultra-budget households, retirees seeking refined Jura small-town living.",
     seoTitleEn: "Lons-le-Saunier — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Lons-le-Saunier (Jura, Bourgogne-Franche-Comté): quality-of-life score 7.0/10. Jura prefecture, La Marseillaise composer's birthplace, vin jaune.",
+      "Lons-le-Saunier (Jura, Bourgogne-Franche-Comté): quality-of-life score 6.5/10. Jura prefecture, La Marseillaise composer's birthplace, vin jaune.",
     scores: {
       global: 7.0,
       life: 7.2,
@@ -8002,7 +8002,7 @@ const RAW_CITIES_SEED = [
       "Saint-Flour is the high-altitude Cantal town (881m) — perched on a black-basalt outcrop, dramatic Garabit viaduct (Eiffel) nearby, calm authentic mountain-Auvergne living. Dramatically affordable. Best fit: mountain-rural-living seekers, ultra-budget households, retirees wanting altitude-and-calm.",
     seoTitleEn: "Saint-Flour — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Flour (Cantal, Auvergne-Rhône-Alpes): quality-of-life score 7.2/10. Black-basalt Cantal mountain town at 881m, Garabit viaduct nearby.",
+      "Saint-Flour (Cantal, Auvergne-Rhône-Alpes): quality-of-life score 7.1/10. Black-basalt Cantal mountain town at 881m, Garabit viaduct nearby.",
     scores: {
       global: 7.2,
       life: 7.5,
@@ -8033,7 +8033,7 @@ const RAW_CITIES_SEED = [
       "Bar-le-Duc is the Meuse prefecture — exceptional Renaissance upper town (one of France's best Renaissance ensembles), famous épépinée-by-quill redcurrant jam, dramatically affordable. Best fit: heritage lovers, ultra-budget households, retirees seeking authentic small-Meuse living.",
     seoTitleEn: "Bar-le-Duc — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Bar-le-Duc (Meuse, Grand Est): quality-of-life score 6.8/10. Meuse prefecture, exceptional Renaissance upper town, very affordable.",
+      "Bar-le-Duc (Meuse, Grand Est): quality-of-life score 6.3/10. Meuse prefecture, exceptional Renaissance upper town, very affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -8064,7 +8064,7 @@ const RAW_CITIES_SEED = [
       "Aubusson is the world capital of tapestry — UNESCO-listed Aubusson tapestry craft, Cité Internationale de la Tapisserie, dramatic Creuse countryside, dramatically affordable. Best fit: tapestry-and-textile artists, ultra-budget households, refined heritage lovers, craft-tourism households.",
     seoTitleEn: "Aubusson — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Aubusson (Creuse, Nouvelle-Aquitaine): quality-of-life score 7.0/10. UNESCO tapestry capital, Cité de la Tapisserie, Creuse countryside, affordable.",
+      "Aubusson (Creuse, Nouvelle-Aquitaine): quality-of-life score 6.8/10. UNESCO tapestry capital, Cité de la Tapisserie, Creuse countryside, affordable.",
     scores: {
       global: 7.0,
       life: 7.3,
@@ -8095,7 +8095,7 @@ const RAW_CITIES_SEED = [
       "Langres is the fortified Haute-Marne plateau city — Diderot's birthplace, intact 3.5-km medieval ramparts (one of France's best-preserved fortified circuits), dramatic 466m hilltop setting, dramatically affordable. Best fit: heritage lovers, ultra-budget households, retirees seeking refined fortified-city living.",
     seoTitleEn: "Langres — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Langres (Haute-Marne, Grand Est): quality-of-life score 7.0/10. Fortified plateau city, Diderot's birthplace, intact ramparts, very affordable.",
+      "Langres (Haute-Marne, Grand Est): quality-of-life score 6.4/10. Fortified plateau city, Diderot's birthplace, intact ramparts, very affordable.",
     scores: {
       global: 7.0,
       life: 7.3,
@@ -8126,7 +8126,7 @@ const RAW_CITIES_SEED = [
       "Guingamp is the authentic Côtes-d'Armor Breton town — strong football identity (EA Guingamp), refined Breton heritage, dramatic Trégor countryside, dramatically affordable. Best fit: ultra-budget households, retirees seeking authentic Breton living, football fans, families.",
     seoTitleEn: "Guingamp — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Guingamp (Côtes-d'Armor, Bretagne): quality-of-life score 7.0/10. Authentic Côtes-d'Armor Breton town, football identity, very affordable.",
+      "Guingamp (Côtes-d'Armor, Bretagne): quality-of-life score 6.6/10. Authentic Côtes-d'Armor Breton town, football identity, very affordable.",
     scores: {
       global: 7.0,
       life: 7.2,
@@ -8157,7 +8157,7 @@ const RAW_CITIES_SEED = [
       "Flers is the lower-Normandy Orne town — Bocage Normand setting, château-museum, dramatically affordable property, calm rural-Norman living. Best fit: ultra-budget households, first-time buyers, retirees seeking calm Normandy countryside.",
     seoTitleEn: "Flers — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Flers (Orne, Normandie): quality-of-life score 6.8/10. Lower-Normandy Bocage Normand town, château-museum, very affordable, calm.",
+      "Flers (Orne, Normandie): quality-of-life score 6.5/10. Lower-Normandy Bocage Normand town, château-museum, very affordable, calm.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -8188,7 +8188,7 @@ const RAW_CITIES_SEED = [
       "La Flèche is the Sarthe town famous for the Prytanée National Militaire (elite military prep school) and the Zoo de la Flèche (one of France's best zoos), Loir river setting, dramatically affordable. Best fit: military families, ultra-budget households, families with young children, retirees.",
     seoTitleEn: "La Flèche — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "La Flèche (Sarthe, Pays de la Loire): quality-of-life score 7.0/10. Prytanée military prep school, top-rated zoo, Loir river, very affordable.",
+      "La Flèche (Sarthe, Pays de la Loire): quality-of-life score 7.1/10. Prytanée military prep school, top-rated zoo, Loir river, very affordable.",
     scores: {
       global: 7.0,
       life: 7.3,
@@ -8219,7 +8219,7 @@ const RAW_CITIES_SEED = [
       "Cosne-Cours-sur-Loire sits on the Loire across from Pouilly-Fumé wine country — Sancerre 15 minutes away, cycle-tourism on the Loire à Vélo, refined wine-and-river living, dramatically affordable. Best fit: Sancerre-and-Pouilly wine professionals, cyclists, retirees seeking authentic Loire-wine-country living.",
     seoTitleEn: "Cosne-Cours-sur-Loire — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Cosne-Cours-sur-Loire (Nièvre, Bourgogne-Franche-Comté): quality-of-life score 7.0/10. Loire river, Pouilly-Fumé adjacent, Sancerre nearby, cycle-friendly.",
+      "Cosne-Cours-sur-Loire (Nièvre, Bourgogne-Franche-Comté): quality-of-life score 6.5/10. Loire river, Pouilly-Fumé adjacent, Sancerre nearby, cycle-friendly.",
     scores: {
       global: 7.0,
       life: 7.3,
@@ -8250,7 +8250,7 @@ const RAW_CITIES_SEED = [
       "Sens is the northern Yonne Gothic cathedral city — Saint-Étienne (the first French Gothic cathedral, predating Notre-Dame de Paris), 1 hour by train to Paris, dramatically affordable. Best fit: Paris commuters seeking cheap historic base, heritage lovers, ultra-budget households.",
     seoTitleEn: "Sens — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Sens (Yonne, Bourgogne-Franche-Comté): quality-of-life score 7.0/10. First French Gothic cathedral, 1h to Paris, very affordable, calm.",
+      "Sens (Yonne, Bourgogne-Franche-Comté): quality-of-life score 6.6/10. First French Gothic cathedral, 1h to Paris, very affordable, calm.",
     scores: {
       global: 7.0,
       life: 7.0,
@@ -8281,7 +8281,7 @@ const RAW_CITIES_SEED = [
       "Condom (yes, that's the real name) is the Armagnac capital — heart of Gascony brandy country, refined cathedral, Saint-Jacques pilgrimage stop, dramatically affordable. Best fit: spirits-and-wine professionals (Armagnac), gastronomes, ultra-budget households, retirees seeking authentic Gascon living.",
     seoTitleEn: "Condom — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Condom (Gers, Occitanie): quality-of-life score 7.2/10. Armagnac brandy capital, refined Gascon cathedral, Saint-Jacques pilgrimage, very affordable.",
+      "Condom (Gers, Occitanie): quality-of-life score 6.5/10. Armagnac brandy capital, refined Gascon cathedral, Saint-Jacques pilgrimage, very affordable.",
     scores: {
       global: 7.2,
       life: 7.5,
@@ -8312,7 +8312,7 @@ const RAW_CITIES_SEED = [
       "Moissac is the UNESCO Romanesque Tarn-et-Garonne town — exceptional Saint-Pierre abbey cloister (one of Europe's most refined Romanesque sculpture ensembles), chasselas grape capital, Saint-Jacques pilgrimage stop. Best fit: heritage lovers, ultra-budget households, retirees seeking authentic southwest living.",
     seoTitleEn: "Moissac — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Moissac (Tarn-et-Garonne, Occitanie): quality-of-life score 7.3/10. UNESCO Romanesque cloister, chasselas grape, Saint-Jacques pilgrimage.",
+      "Moissac (Tarn-et-Garonne, Occitanie): quality-of-life score 7.1/10. UNESCO Romanesque cloister, chasselas grape, Saint-Jacques pilgrimage.",
     scores: {
       global: 7.3,
       life: 7.5,
@@ -8343,7 +8343,7 @@ const RAW_CITIES_SEED = [
       "Brioude is the Haute-Loire Romanesque jewel — exceptional Saint-Julien basilica (largest Romanesque church in Auvergne), wild Allier salmon-river setting, dramatically affordable. Best fit: heritage lovers, ultra-budget households, fly-fishing enthusiasts, retirees seeking calm Auvergne living.",
     seoTitleEn: "Brioude — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Brioude (Haute-Loire, Auvergne-Rhône-Alpes): quality-of-life score 7.2/10. Largest Romanesque church in Auvergne, wild Allier river, affordable.",
+      "Brioude (Haute-Loire, Auvergne-Rhône-Alpes): quality-of-life score 7.0/10. Largest Romanesque church in Auvergne, wild Allier river, affordable.",
     scores: {
       global: 7.2,
       life: 7.5,
@@ -8374,7 +8374,7 @@ const RAW_CITIES_SEED = [
       "Issoudun is the Berry Indre town immortalised in Balzac's 'La Rabouilleuse' — calm flat-country setting, dramatically affordable, refined small-Berry-town heritage. Best fit: ultra-budget households, literary tourists, retirees seeking authentic Berry living on tight budget.",
     seoTitleEn: "Issoudun — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Issoudun (Indre, Centre-Val de Loire): quality-of-life score 6.8/10. Berry Indre town, Balzac literary setting, calm, dramatically affordable.",
+      "Issoudun (Indre, Centre-Val de Loire): quality-of-life score 6.5/10. Berry Indre town, Balzac literary setting, calm, dramatically affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -8405,7 +8405,7 @@ const RAW_CITIES_SEED = [
       "Abbeville is the gateway to the Baie de Somme — France's most spectacular bird sanctuary, dramatic Channel-coast salt marshes, Marquenterre nature reserve, dramatically affordable. Best fit: birdwatchers, ultra-budget households, nature retirees, photographers.",
     seoTitleEn: "Abbeville — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Abbeville (Somme, Hauts-de-France): quality-of-life score 6.8/10. Baie de Somme gateway, bird sanctuary, salt marshes, very affordable.",
+      "Abbeville (Somme, Hauts-de-France): quality-of-life score 6.4/10. Baie de Somme gateway, bird sanctuary, salt marshes, very affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -8467,7 +8467,7 @@ const RAW_CITIES_SEED = [
       "Dreux is the Eure-et-Loir Paris-region city — Chapelle royale Saint-Louis (Orléans family mausoleum), 1h to Paris by train, dramatically affordable, periurban character. Best fit: Paris commuters wanting cheap base, ultra-budget households.",
     seoTitleEn: "Dreux — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Dreux (Eure-et-Loir, Centre-Val de Loire): quality-of-life score 6.8/10. Paris-region commuter city, royal chapel, 1h to Paris, very affordable.",
+      "Dreux (Eure-et-Loir, Centre-Val de Loire): quality-of-life score 6.3/10. Paris-region commuter city, royal chapel, 1h to Paris, very affordable.",
     scores: {
       global: 6.8,
       life: 6.8,
@@ -8498,7 +8498,7 @@ const RAW_CITIES_SEED = [
       "Florac-Trois-Rivières is the Cévennes National Park gateway — Stevenson's Travels with a Donkey route starts here, UNESCO Causses-Cévennes pastoral landscape, dramatic three-river setting, extreme calm. Best fit: hikers and donkey-trekkers, nature retirees, slow-life expats prepared for genuine isolation.",
     seoTitleEn: "Florac-Trois-Rivières — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Florac-Trois-Rivières (Lozère, Occitanie): quality-of-life score 7.5/10. Cévennes National Park gateway, Stevenson route start, UNESCO landscape.",
+      "Florac-Trois-Rivières (Lozère, Occitanie): quality-of-life score 6.8/10. Cévennes National Park gateway, Stevenson route start, UNESCO landscape.",
     scores: {
       global: 7.5,
       life: 7.8,
@@ -8529,7 +8529,7 @@ const RAW_CITIES_SEED = [
       "Sedan is the Ardennes city with Europe's largest fortified castle — Meuse river, dramatic Ardennes-forest setting, Belgian border 15 minutes, dramatically affordable. Best fit: heritage lovers, ultra-budget households, Belgian-border professionals, retirees seeking calm Ardennes living.",
     seoTitleEn: "Sedan — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Sedan (Ardennes, Grand Est): quality-of-life score 6.8/10. Europe's largest fortified castle, Meuse river, Ardennes forest, very affordable.",
+      "Sedan (Ardennes, Grand Est): quality-of-life score 6.3/10. Europe's largest fortified castle, Meuse river, Ardennes forest, very affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -8560,7 +8560,7 @@ const RAW_CITIES_SEED = [
       "Bar-sur-Aube is the southern-Aube Champagne wine town — Côte des Bar champagne country, refined small-town heritage, dramatically affordable for Champagne-region living. Best fit: champagne professionals seeking cheaper Aube base than Reims/Épernay, retirees, ultra-budget households.",
     seoTitleEn: "Bar-sur-Aube — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Bar-sur-Aube (Aube, Grand Est): quality-of-life score 7.0/10. Southern-Aube Champagne wine town, Côte des Bar country, very affordable.",
+      "Bar-sur-Aube (Aube, Grand Est): quality-of-life score 6.7/10. Southern-Aube Champagne wine town, Côte des Bar country, very affordable.",
     scores: {
       global: 7.0,
       life: 7.3,
@@ -8591,7 +8591,7 @@ const RAW_CITIES_SEED = [
       "Gray is the Saône-side Haute-Saône town — historic river port, refined Baron-Martin museum, dramatically affordable. Best fit: ultra-budget households, retirees seeking calm river-town living, river-boating enthusiasts.",
     seoTitleEn: "Gray — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Gray (Haute-Saône, Bourgogne-Franche-Comté): quality-of-life score 6.8/10. Saône-side river port, Baron-Martin museum, calm, very affordable.",
+      "Gray (Haute-Saône, Bourgogne-Franche-Comté): quality-of-life score 6.3/10. Saône-side river port, Baron-Martin museum, calm, very affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -8622,7 +8622,7 @@ const RAW_CITIES_SEED = [
       "Saint-Yrieix-la-Perche is the Haute-Vienne porcelain-kaolin town — the kaolin clay deposits that made Limoges porcelain world-famous originate here, refined Limousin heritage, dramatically affordable. Best fit: ceramic-and-porcelain artisans, retirees seeking calm Limousin living, ultra-budget households.",
     seoTitleEn: "Saint-Yrieix-la-Perche — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Yrieix-la-Perche (Haute-Vienne, Nouvelle-Aquitaine): quality-of-life score 7.0/10. Porcelain-kaolin Limousin town, refined heritage, affordable.",
+      "Saint-Yrieix-la-Perche (Haute-Vienne, Nouvelle-Aquitaine): quality-of-life score 6.8/10. Porcelain-kaolin Limousin town, refined heritage, affordable.",
     scores: {
       global: 7.0,
       life: 7.3,
@@ -8653,7 +8653,7 @@ const RAW_CITIES_SEED = [
       "Mayenne is the eponymous-river Mayenne town — refined 11th-century medieval château above the river, calm, family-friendly, dramatically affordable. Best fit: ultra-budget households, families seeking calm small-town living, heritage lovers, retirees.",
     seoTitleEn: "Mayenne — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Mayenne (Mayenne, Pays de la Loire): quality-of-life score 7.0/10. Eponymous-river town, 11th-century medieval château, family-friendly, affordable.",
+      "Mayenne (Mayenne, Pays de la Loire): quality-of-life score 6.9/10. Eponymous-river town, 11th-century medieval château, family-friendly, affordable.",
     scores: {
       global: 7.0,
       life: 7.2,
@@ -8684,7 +8684,7 @@ const RAW_CITIES_SEED = [
       "Pont-à-Mousson sits between Nancy and Metz on the Moselle — refined 18th-century Abbaye des Prémontrés (now cultural centre), Place Duroc, both Lorraine capitals within 20 minutes by train, affordable. Best fit: Nancy-Metz commuters seeking cheap historic base, ultra-budget households, heritage lovers.",
     seoTitleEn: "Pont-à-Mousson — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Pont-à-Mousson (Meurthe-et-Moselle, Grand Est): quality-of-life score 7.0/10. Between Nancy and Metz, Abbaye des Prémontrés, refined and affordable.",
+      "Pont-à-Mousson (Meurthe-et-Moselle, Grand Est): quality-of-life score 6.6/10. Between Nancy and Metz, Abbaye des Prémontrés, refined and affordable.",
     scores: {
       global: 7.0,
       life: 7.2,
@@ -8715,7 +8715,7 @@ const RAW_CITIES_SEED = [
       "Étampes is the southern Île-de-France medieval town — refined Tour Guinette and Notre-Dame collegiate, 50 minutes from Paris by RER C/Transilien, dramatically affordable for Île-de-France. Best fit: Paris commuters seeking cheap historic base inside Île-de-France, ultra-budget Paris-region households.",
     seoTitleEn: "Étampes — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Étampes (Essonne, Île-de-France): quality-of-life score 7.0/10. South Île-de-France medieval town, 50 min to Paris, very affordable for IdF.",
+      "Étampes (Essonne, Île-de-France): quality-of-life score 6.5/10. South Île-de-France medieval town, 50 min to Paris, very affordable for IdF.",
     scores: {
       global: 7.0,
       life: 7.0,
@@ -8746,7 +8746,7 @@ const RAW_CITIES_SEED = [
       "Soissons is the Aisne historic city — early Gothic cathedral, Abbaye Saint-Jean-des-Vignes ruins, where Clovis defeated the Romans in 486, 1h30 from Paris by train, dramatically affordable. Best fit: heritage lovers, ultra-budget households, Paris-region workers seeking cheap historic base.",
     seoTitleEn: "Soissons — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Soissons (Aisne, Hauts-de-France): quality-of-life score 6.8/10. Aisne historic city, early Gothic cathedral, Clovis-486 heritage, very affordable.",
+      "Soissons (Aisne, Hauts-de-France): quality-of-life score 6.6/10. Aisne historic city, early Gothic cathedral, Clovis-486 heritage, very affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -8777,7 +8777,7 @@ const RAW_CITIES_SEED = [
       "Villefranche-sur-Saône is the Beaujolais capital — heart of Beaujolais wine country, Lyon 30 minutes by train, dynamic mid-sized economy, affordable for the Lyon-region location. Best fit: wine professionals (Beaujolais), Lyon-region workers wanting cheaper base, gastronomes, families.",
     seoTitleEn: "Villefranche-sur-Saône — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Villefranche-sur-Saône (Rhône, Auvergne-Rhône-Alpes): quality-of-life score 7.5/10. Beaujolais capital, 30 min train to Lyon, dynamic wine country.",
+      "Villefranche-sur-Saône (Rhône, Auvergne-Rhône-Alpes): quality-of-life score 7.3/10. Beaujolais capital, 30 min train to Lyon, dynamic wine country.",
     scores: {
       global: 7.5,
       life: 7.8,
@@ -8839,7 +8839,7 @@ const RAW_CITIES_SEED = [
       "Paray-le-Monial is the Sacré-Cœur Marian pilgrimage town — refined Romanesque basilica (one of Burgundy's masterpieces), dramatically affordable. Best fit: religious-tourism professionals, ultra-budget households, retirees seeking calm Burgundy living, Romanesque art lovers.",
     seoTitleEn: "Paray-le-Monial — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Paray-le-Monial (Saône-et-Loire, Bourgogne-Franche-Comté): quality-of-life score 7.0/10. Sacré-Cœur pilgrimage town, refined Romanesque basilica.",
+      "Paray-le-Monial (Saône-et-Loire, Bourgogne-Franche-Comté): quality-of-life score 7.4/10. Sacré-Cœur pilgrimage town, refined Romanesque basilica.",
     scores: {
       global: 7.0,
       life: 7.3,
@@ -8870,7 +8870,7 @@ const RAW_CITIES_SEED = [
       "Semur-en-Auxois is the dramatic Côte-d'Or medieval town — perched on a granite spur with the Armançon river looping below, intact 14th-century ramparts, refined Auxois countryside, dramatically affordable. Best fit: heritage lovers, retirees seeking refined Burgundy small-town living, photographers.",
     seoTitleEn: "Semur-en-Auxois — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Semur-en-Auxois (Côte-d'Or, Bourgogne-Franche-Comté): quality-of-life score 7.5/10. Dramatic medieval Burgundy town, intact ramparts, river loop.",
+      "Semur-en-Auxois (Côte-d'Or, Bourgogne-Franche-Comté): quality-of-life score 7.3/10. Dramatic medieval Burgundy town, intact ramparts, river loop.",
     scores: {
       global: 7.5,
       life: 7.8,
@@ -8901,7 +8901,7 @@ const RAW_CITIES_SEED = [
       "Villeneuve-sur-Lot is the 13th-century royal bastide on the Lot river — pruneaux d'Agen country, exceptional Saturday market, sunny southwest, dramatically affordable. Best fit: ultra-budget households, gastronomes, retirees seeking authentic Lot-et-Garonne living, families.",
     seoTitleEn: "Villeneuve-sur-Lot — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Villeneuve-sur-Lot (Lot-et-Garonne, Nouvelle-Aquitaine): quality-of-life score 7.0/10. 13th-century royal bastide on the Lot river, pruneaux country.",
+      "Villeneuve-sur-Lot (Lot-et-Garonne, Nouvelle-Aquitaine): quality-of-life score 6.5/10. 13th-century royal bastide on the Lot river, pruneaux country.",
     scores: {
       global: 7.0,
       life: 7.3,
@@ -8932,7 +8932,7 @@ const RAW_CITIES_SEED = [
       "Gourdon is the Quercy medieval Lot town — refined hilltop heritage, between the Périgord Noir and the Lot Valley, walnut country, dramatically affordable. Best fit: refined retirees seeking Quercy living, heritage lovers, ultra-budget households, gastronomes.",
     seoTitleEn: "Gourdon — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Gourdon (Lot, Occitanie): quality-of-life score 7.3/10. Quercy medieval hilltop Lot town, between Périgord Noir and Lot Valley, refined.",
+      "Gourdon (Lot, Occitanie): quality-of-life score 6.6/10. Quercy medieval hilltop Lot town, between Périgord Noir and Lot Valley, refined.",
     scores: {
       global: 7.3,
       life: 7.5,
@@ -8963,7 +8963,7 @@ const RAW_CITIES_SEED = [
       "Castelsarrasin is the Tarn-et-Garonne bastide town — on the Garonne river, Canal des Deux Mers (continuation of Canal du Midi) running through, sunny southwest climate, dramatically affordable. Best fit: ultra-budget households, retirees, families seeking sunny southwest small-town living, cyclists (Canal route).",
     seoTitleEn: "Castelsarrasin — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Castelsarrasin (Tarn-et-Garonne, Occitanie): quality-of-life score 6.8/10. Tarn-et-Garonne bastide, Garonne, Canal des Deux Mers, sunny, affordable.",
+      "Castelsarrasin (Tarn-et-Garonne, Occitanie): quality-of-life score 6.4/10. Tarn-et-Garonne bastide, Garonne, Canal des Deux Mers, sunny, affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -8994,7 +8994,7 @@ const RAW_CITIES_SEED = [
       "Sarrebourg is the eastern-Moselle town famous for Chagall's monumental stained-glass window in the Chapelle des Cordeliers, Vosges forests at the doorstep, German border 30 minutes, dramatically affordable. Best fit: art lovers, ultra-budget households, Vosges-forest enthusiasts, German-border professionals.",
     seoTitleEn: "Sarrebourg — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Sarrebourg (Moselle, Grand Est): quality-of-life score 7.0/10. Eastern-Moselle, Chagall stained-glass, Vosges forests, German border, affordable.",
+      "Sarrebourg (Moselle, Grand Est): quality-of-life score 6.6/10. Eastern-Moselle, Chagall stained-glass, Vosges forests, German border, affordable.",
     scores: {
       global: 7.0,
       life: 7.2,
@@ -9025,7 +9025,7 @@ const RAW_CITIES_SEED = [
       "Longwy is the Luxembourg-border Meurthe-et-Moselle town — UNESCO Longwy enamels heritage, Vauban-fortified upper town, Luxembourg City 30 minutes by train (major cross-border worker market), dramatically affordable. Best fit: Luxembourg-employed professionals seeking ultra-cheap French base, enamel-and-ceramic artisans.",
     seoTitleEn: "Longwy — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Longwy (Meurthe-et-Moselle, Grand Est): quality-of-life score 6.8/10. Luxembourg border, UNESCO Longwy enamels, Vauban citadel, very affordable.",
+      "Longwy (Meurthe-et-Moselle, Grand Est): quality-of-life score 6.2/10. Luxembourg border, UNESCO Longwy enamels, Vauban citadel, very affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -9056,7 +9056,7 @@ const RAW_CITIES_SEED = [
       "Saint-Amand-Montrond is the southern-Berry Cher town — between Sologne and Creuse, dramatically affordable property, calm rural setting. Best fit: ultra-budget households (some of France's cheapest property), retirees seeking calm centre-France living.",
     seoTitleEn: "Saint-Amand-Montrond — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Amand-Montrond (Cher, Centre-Val de Loire): quality-of-life score 6.8/10. Southern-Berry Cher town, very affordable, calm rural setting.",
+      "Saint-Amand-Montrond (Cher, Centre-Val de Loire): quality-of-life score 6.1/10. Southern-Berry Cher town, very affordable, calm rural setting.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -9088,7 +9088,7 @@ const RAW_CITIES_SEED = [
       "Bressuire is the northern Deux-Sèvres bocage town — dramatic medieval château ruins, rural Vendée-adjacent setting, dramatically affordable. Best fit: ultra-budget households, retirees seeking calm rural living, first-time buyers, families.",
     seoTitleEn: "Bressuire — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Bressuire (Deux-Sèvres, Nouvelle-Aquitaine): quality-of-life score 6.8/10. Northern Deux-Sèvres bocage town, château ruins, rural, very affordable.",
+      "Bressuire (Deux-Sèvres, Nouvelle-Aquitaine): quality-of-life score 6.2/10. Northern Deux-Sèvres bocage town, château ruins, rural, very affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -9119,7 +9119,7 @@ const RAW_CITIES_SEED = [
       "Ussel is the high-altitude Corrèze Plateau de Millevaches town — 631m altitude, dramatic isolated nature park, ultra-rural, ultra-affordable. Best fit: extreme-rural-living seekers, nature retirees on tightest budgets, slow-life expats prepared for genuine isolation and snowy winters.",
     seoTitleEn: "Ussel — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Ussel (Corrèze, Nouvelle-Aquitaine): quality-of-life score 7.0/10. High-altitude Plateau de Millevaches, 631m, ultra-rural, ultra-affordable.",
+      "Ussel (Corrèze, Nouvelle-Aquitaine): quality-of-life score 6.5/10. High-altitude Plateau de Millevaches, 631m, ultra-rural, ultra-affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -9150,7 +9150,7 @@ const RAW_CITIES_SEED = [
       "Montbrison is the Forez Loire-department town — refined Plaine du Forez setting, fourme de Montbrison cheese AOP, Saint-Étienne 30 minutes, Lyon 1h, dramatically affordable. Best fit: Saint-Étienne and Lyon-region workers seeking cheap base, gastronomes, retirees.",
     seoTitleEn: "Montbrison — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Montbrison (Loire, Auvergne-Rhône-Alpes): quality-of-life score 7.0/10. Forez Loire town, fourme de Montbrison cheese AOP, near Saint-Étienne.",
+      "Montbrison (Loire, Auvergne-Rhône-Alpes): quality-of-life score 6.7/10. Forez Loire town, fourme de Montbrison cheese AOP, near Saint-Étienne.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -9181,7 +9181,7 @@ const RAW_CITIES_SEED = [
       "Pontoise is the Val-d'Oise historic prefecture — Pissarro's painting setting, Oise river through the centre, RER A direct to central Paris, affordable for Île-de-France. Best fit: Paris commuters seeking cheaper Île-de-France base, ultra-budget households, Pissarro-and-Impressionist heritage lovers.",
     seoTitleEn: "Pontoise — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Pontoise (Val-d'Oise, Île-de-France): quality-of-life score 6.5/10. Val-d'Oise historic prefecture, Pissarro heritage, Oise river, RER access.",
+      "Pontoise (Val-d'Oise, Île-de-France): quality-of-life score 5.2/10. Val-d'Oise historic prefecture, Pissarro heritage, Oise river, RER access.",
     scores: {
       global: 6.5,
       life: 6.5,
@@ -9212,7 +9212,7 @@ const RAW_CITIES_SEED = [
       "Romorantin-Lanthenay is the Sologne capital — Leonardo da Vinci designed the planned city for François I (never completed), refined Sauldre river setting, hunting and fishing country, dramatically affordable. Best fit: ultra-budget households, hunting-and-fishing enthusiasts, retirees seeking calm Sologne living.",
     seoTitleEn: "Romorantin-Lanthenay — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Romorantin-Lanthenay (Loir-et-Cher, Centre-Val de Loire): quality-of-life score 7.0/10. Sologne capital, Leonardo da Vinci project, very affordable.",
+      "Romorantin-Lanthenay (Loir-et-Cher, Centre-Val de Loire): quality-of-life score 6.0/10. Sologne capital, Leonardo da Vinci project, very affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -9243,7 +9243,7 @@ const RAW_CITIES_SEED = [
       "Joigny is the northern-Yonne medieval Burgundy town — refined half-timbered upper town, Yonne river, vineyards on the slopes, dramatically affordable. Best fit: ultra-budget households, heritage lovers, retirees seeking refined small-Burgundy living.",
     seoTitleEn: "Joigny — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Joigny (Yonne, Bourgogne-Franche-Comté): quality-of-life score 6.8/10. Northern-Yonne medieval town, half-timbered, riverside, very affordable.",
+      "Joigny (Yonne, Bourgogne-Franche-Comté): quality-of-life score 6.1/10. Northern-Yonne medieval town, half-timbered, riverside, very affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -9275,7 +9275,7 @@ const RAW_CITIES_SEED = [
       "Privas is the Ardèche prefecture — the smallest department capital in France (population ~8,000), dramatic Castellane setting, dramatically affordable, surrounded by Ardèche countryside. Best fit: extreme-rural-living seekers, ultra-budget households, nature retirees, slow-life expats.",
     seoTitleEn: "Privas — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Privas (Ardèche, Auvergne-Rhône-Alpes): quality-of-life score 7.0/10. Smallest French department capital, Castellane setting, ultra-rural, affordable.",
+      "Privas (Ardèche, Auvergne-Rhône-Alpes): quality-of-life score 5.2/10. Smallest French department capital, Castellane setting, ultra-rural, affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -9306,7 +9306,7 @@ const RAW_CITIES_SEED = [
       "Bagnols-sur-Cèze is the Gard Rhône-valley town — sunny Mediterranean climate, refined Provençal market, ITER fusion-reactor and Marcoule nuclear site nearby (technical-engineering employment), affordable. Best fit: nuclear-and-tech engineering professionals (CEA Marcoule, ITER), ultra-budget Provence-adjacent households.",
     seoTitleEn: "Bagnols-sur-Cèze — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Bagnols-sur-Cèze (Gard, Occitanie): quality-of-life score 6.8/10. Gard Rhône-valley town, ITER and CEA Marcoule nearby, sunny, affordable.",
+      "Bagnols-sur-Cèze (Gard, Occitanie): quality-of-life score 5.7/10. Gard Rhône-valley town, ITER and CEA Marcoule nearby, sunny, affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -9337,7 +9337,7 @@ const RAW_CITIES_SEED = [
       "Muret is the major Toulouse-adjacent suburb — 20 minutes south of Toulouse by train, dramatically cheaper than central Toulouse, family-friendly, with Pyrenees views in clear weather. Best fit: Toulouse-region workers wanting cheaper base, families, aerospace professionals (Airbus 30 min).",
     seoTitleEn: "Muret — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Muret (Haute-Garonne, Occitanie): quality-of-life score 7.0/10. Toulouse-adjacent town, 20 min south, family-friendly, very affordable Pyrenees views.",
+      "Muret (Haute-Garonne, Occitanie): quality-of-life score 6.1/10. Toulouse-adjacent town, 20 min south, family-friendly, very affordable Pyrenees views.",
     scores: {
       global: 7.0,
       life: 7.0,
@@ -9368,7 +9368,7 @@ const RAW_CITIES_SEED = [
       "Meaux is the eastern Île-de-France Seine-et-Marne city — Bossuet's cathedral, Brie cheese capital (Brie de Meaux AOP), Marne river, Transilien P direct to Paris in 30 minutes, dramatically affordable for Île-de-France. Best fit: Paris commuters seeking cheaper IdF base, gastronomes (Brie), ultra-budget households.",
     seoTitleEn: "Meaux — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Meaux (Seine-et-Marne, Île-de-France): quality-of-life score 6.5/10. Eastern Île-de-France, Brie capital, 30 min to Paris, very affordable for IdF.",
+      "Meaux (Seine-et-Marne, Île-de-France): quality-of-life score 5.0/10. Eastern Île-de-France, Brie capital, 30 min to Paris, very affordable for IdF.",
     scores: {
       global: 6.5,
       life: 6.5,
@@ -9399,7 +9399,7 @@ const RAW_CITIES_SEED = [
       "Bourgoin-Jallieu is the Nord-Isère textile-heritage town — Lyon 30 minutes by train, Grenoble 1 hour, dramatically affordable, dynamic local economy. Best fit: Lyon-Grenoble corridor workers wanting cheap base, ultra-budget households, industrial-textile professionals.",
     seoTitleEn: "Bourgoin-Jallieu — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Bourgoin-Jallieu (Isère, Auvergne-Rhône-Alpes): quality-of-life score 7.0/10. Nord-Isère textile town, 30 min Lyon, 1h Grenoble, very affordable.",
+      "Bourgoin-Jallieu (Isère, Auvergne-Rhône-Alpes): quality-of-life score 6.1/10. Nord-Isère textile town, 30 min Lyon, 1h Grenoble, very affordable.",
     scores: {
       global: 7.0,
       life: 7.0,
@@ -9430,7 +9430,7 @@ const RAW_CITIES_SEED = [
       "Gaillac is the Tarn wine town — Gaillac AOC (one of France's oldest wine appellations), refined medieval centre on the Tarn river, Albi 25 minutes, Toulouse 1 hour, affordable. Best fit: wine professionals (Gaillac), refined retirees, gastronomes, families wanting refined southwest small-town living.",
     seoTitleEn: "Gaillac — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Gaillac (Tarn, Occitanie): quality-of-life score 7.5/10. Tarn wine town, Gaillac AOC, refined medieval centre, near Albi, affordable.",
+      "Gaillac (Tarn, Occitanie): quality-of-life score 7.2/10. Tarn wine town, Gaillac AOC, refined medieval centre, near Albi, affordable.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -9462,7 +9462,7 @@ const RAW_CITIES_SEED = [
       "Romilly-sur-Seine is the western-Aube textile-and-railway town — Seine river, dramatically affordable property, calm. Best fit: ultra-budget households (among France's cheapest property), retirees seeking calm Champagne-region living, first-time buyers.",
     seoTitleEn: "Romilly-sur-Seine — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Romilly-sur-Seine (Aube, Grand Est): quality-of-life score 6.5/10. Western-Aube textile-railway town, Seine river, very cheap property.",
+      "Romilly-sur-Seine (Aube, Grand Est): quality-of-life score 5.6/10. Western-Aube textile-railway town, Seine river, very cheap property.",
     scores: {
       global: 6.5,
       life: 6.5,
@@ -9493,7 +9493,7 @@ const RAW_CITIES_SEED = [
       "Saint-Dizier is the northern-Haute-Marne industrial town — De Gaulle's Colombey-les-Deux-Églises nearby, lac du Der (one of Europe's largest artificial lakes), dramatically affordable. Best fit: ultra-budget households, industrial workers, lake-and-nature enthusiasts.",
     seoTitleEn: "Saint-Dizier — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Dizier (Haute-Marne, Grand Est): quality-of-life score 6.5/10. Northern Haute-Marne industrial town, lac du Der nearby, very affordable.",
+      "Saint-Dizier (Haute-Marne, Grand Est): quality-of-life score 5.8/10. Northern Haute-Marne industrial town, lac du Der nearby, very affordable.",
     scores: {
       global: 6.5,
       life: 6.5,
@@ -9524,7 +9524,7 @@ const RAW_CITIES_SEED = [
       "Châteaudun is the southern-Eure-et-Loir medieval town — Dunois's dramatic château (Jean of Arc's companion), Loir river, Beauce wheat-plains country, dramatically affordable. Best fit: heritage lovers, ultra-budget households, retirees seeking calm Beauce small-town living.",
     seoTitleEn: "Châteaudun — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Châteaudun (Eure-et-Loir, Centre-Val de Loire): quality-of-life score 7.0/10. Southern Eure-et-Loir, Dunois château, Loir river, Beauce, affordable.",
+      "Châteaudun (Eure-et-Loir, Centre-Val de Loire): quality-of-life score 6.5/10. Southern Eure-et-Loir, Dunois château, Loir river, Beauce, affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -9555,7 +9555,7 @@ const RAW_CITIES_SEED = [
       "Vénissieux is the major south-Lyon working-class suburb — tramway direct to central Lyon, large industrial-and-logistics employment, dramatically affordable, multicultural. Best fit: Lyon-region workers wanting ultra-cheap base, ultra-budget households, multicultural-life embracers.",
     seoTitleEn: "Vénissieux — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Vénissieux (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 6.0/10. South-Lyon suburb, tramway direct to centre, very affordable, multicultural.",
+      "Vénissieux (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 4.5/10. South-Lyon suburb, tramway direct to centre, very affordable, multicultural.",
     scores: {
       global: 6.0,
       life: 6.0,
@@ -9586,7 +9586,7 @@ const RAW_CITIES_SEED = [
       "Château-Gontier-sur-Mayenne is the southern-Mayenne river town — refined Mayenne-river setting, dramatically affordable, calm bocage countryside. Best fit: ultra-budget households, retirees seeking calm small-Mayenne living, river-boating enthusiasts.",
     seoTitleEn: "Château-Gontier — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Château-Gontier-sur-Mayenne (Mayenne, Pays de la Loire): quality-of-life score 7.0/10. Southern-Mayenne river town, very affordable, calm bocage.",
+      "Château-Gontier-sur-Mayenne (Mayenne, Pays de la Loire): quality-of-life score 6.8/10. Southern-Mayenne river town, very affordable, calm bocage.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -9617,7 +9617,7 @@ const RAW_CITIES_SEED = [
       "Rambouillet is the Yvelines royal-forest town — President's official château, vast Rambouillet forest, 35 minutes from Paris by Transilien N, refined residential character. Best fit: Paris-region families seeking forest-and-château residence, equestrians (Bergerie Nationale), refined retirees.",
     seoTitleEn: "Rambouillet — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Rambouillet (Yvelines, Île-de-France): quality-of-life score 7.5/10. Yvelines royal-forest town, presidential château, 35 min to Paris, refined.",
+      "Rambouillet (Yvelines, Île-de-France): quality-of-life score 6.6/10. Yvelines royal-forest town, presidential château, 35 min to Paris, refined.",
     scores: {
       global: 7.5,
       life: 7.5,
@@ -9649,7 +9649,7 @@ const RAW_CITIES_SEED = [
       "Massy is the southern Île-de-France tech-and-TGV hub — Massy-Palaiseau TGV station (direct to Bordeaux, Marseille, Lyon without passing through Paris), Saclay tech corridor adjacent, RER B and C to central Paris. Best fit: tech and engineering professionals working the Saclay cluster, TGV-frequent travellers, Paris-region workers.",
     seoTitleEn: "Massy — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Massy (Essonne, Île-de-France): quality-of-life score 6.5/10. South Île-de-France TGV-and-tech hub, Saclay adjacent, RER B and C.",
+      "Massy (Essonne, Île-de-France): quality-of-life score 5.3/10. South Île-de-France TGV-and-tech hub, Saclay adjacent, RER B and C.",
     scores: {
       global: 6.5,
       life: 6.5,
@@ -9680,7 +9680,7 @@ const RAW_CITIES_SEED = [
       "Argentan is the Orne sub-prefecture — refined Normandy bocage countryside, dramatically affordable, calm. Best fit: ultra-budget households, retirees seeking calm Normandy living, first-time buyers.",
     seoTitleEn: "Argentan — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Argentan (Orne, Normandie): quality-of-life score 6.8/10. Orne sub-prefecture, Normandy bocage countryside, very affordable, calm.",
+      "Argentan (Orne, Normandie): quality-of-life score 6.3/10. Orne sub-prefecture, Normandy bocage countryside, very affordable, calm.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -9711,7 +9711,7 @@ const RAW_CITIES_SEED = [
       "Gérardmer is the 'Pearl of the Vosges' — Lake Gérardmer, refined mountain-resort heritage, ski-and-Nordic-ski stations at the doorstep, dramatic Vosges forest setting. Best fit: lake-and-mountain families, refined retirees, lifestyle remote workers wanting Vosges-mountain living, winter-sport enthusiasts.",
     seoTitleEn: "Gérardmer — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Gérardmer (Vosges, Grand Est): quality-of-life score 8.0/10. Pearl of the Vosges, Lake Gérardmer, refined mountain resort, ski stations.",
+      "Gérardmer (Vosges, Grand Est): quality-of-life score 7.4/10. Pearl of the Vosges, Lake Gérardmer, refined mountain resort, ski stations.",
     scores: {
       global: 8.0,
       life: 8.5,
@@ -9742,7 +9742,7 @@ const RAW_CITIES_SEED = [
       "Guebwiller is the south-Alsace Lauch-valley town — Route des Vins d'Alsace southern end, four Grand-Cru vineyards in the surrounding hills (one of France's highest concentrations), refined heritage. Best fit: wine professionals (Alsace Grand Cru), refined retirees, gastronomes, families seeking Alsatian wine-country living.",
     seoTitleEn: "Guebwiller — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Guebwiller (Haut-Rhin, Grand Est): quality-of-life score 7.5/10. South-Alsace Route des Vins town, four Grand Cru vineyards, refined.",
+      "Guebwiller (Haut-Rhin, Grand Est): quality-of-life score 7.3/10. South-Alsace Route des Vins town, four Grand Cru vineyards, refined.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -9773,7 +9773,7 @@ const RAW_CITIES_SEED = [
       "Saint-Claude is the Haut-Jura mountain town — historic French eyewear-frame manufacturing capital, briarwood pipes heritage, dramatic Bienne river gorge setting, 425m altitude. Best fit: Jura-mountain enthusiasts, artisans (eyewear, pipes, jewellery), ultra-budget households, outdoor active retirees.",
     seoTitleEn: "Saint-Claude — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Claude (Jura, Bourgogne-Franche-Comté): quality-of-life score 7.0/10. Haut-Jura mountain town, eyewear capital, briarwood pipes, affordable.",
+      "Saint-Claude (Jura, Bourgogne-Franche-Comté): quality-of-life score 6.4/10. Haut-Jura mountain town, eyewear capital, briarwood pipes, affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -9804,7 +9804,7 @@ const RAW_CITIES_SEED = [
       "Sablé-sur-Sarthe is the western-Sarthe town famous for sablés biscuits — Abbey of Solesmes (Gregorian chant world centre) 5 minutes away, refined Sarthe-river setting, dramatically affordable. Best fit: ultra-budget households, Gregorian-chant-and-monastic enthusiasts, retirees, families.",
     seoTitleEn: "Sablé-sur-Sarthe — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Sablé-sur-Sarthe (Sarthe, Pays de la Loire): quality-of-life score 7.0/10. Sablés biscuits namesake, Abbey of Solesmes adjacent, very affordable.",
+      "Sablé-sur-Sarthe (Sarthe, Pays de la Loire): quality-of-life score 6.7/10. Sablés biscuits namesake, Abbey of Solesmes adjacent, very affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -9836,7 +9836,7 @@ const RAW_CITIES_SEED = [
       "Louviers is the Eure Normandy town — between Rouen and Évreux, dramatically affordable, Eure-river setting, refined small-Norman-town heritage. Best fit: Rouen-region workers wanting cheap base, ultra-budget households, retirees seeking calm Norman living.",
     seoTitleEn: "Louviers — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Louviers (Eure, Normandie): quality-of-life score 6.8/10. Eure Norman town, between Rouen and Évreux, Eure-river setting, very affordable.",
+      "Louviers (Eure, Normandie): quality-of-life score 6.1/10. Eure Norman town, between Rouen and Évreux, Eure-river setting, very affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -9867,7 +9867,7 @@ const RAW_CITIES_SEED = [
       "Bagnères-de-Bigorre is the Hautes-Pyrénées thermal-spa town — refined Belle-Époque spa heritage, Pic du Midi observatory and ski areas at the doorstep, Lourdes 20 minutes, dramatically affordable. Best fit: thermal-spa enthusiasts, retirees, Pyrenees outdoor active families, ultra-budget mountain-region households.",
     seoTitleEn: "Bagnères-de-Bigorre — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Bagnères-de-Bigorre (Hautes-Pyrénées, Occitanie): quality-of-life score 7.5/10. Pyrenees thermal-spa town, Pic du Midi adjacent, very affordable.",
+      "Bagnères-de-Bigorre (Hautes-Pyrénées, Occitanie): quality-of-life score 7.0/10. Pyrenees thermal-spa town, Pic du Midi adjacent, very affordable.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -9898,7 +9898,7 @@ const RAW_CITIES_SEED = [
       "Lure is the Haute-Saône Vosges-foothill town — surrounded by Vosges and Jura forests, dramatically affordable property, calm rural setting. Best fit: ultra-budget households (some of France's cheapest property), retirees seeking calm forest-adjacent living, slow-life expats.",
     seoTitleEn: "Lure — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Lure (Haute-Saône, Bourgogne-Franche-Comté): quality-of-life score 6.5/10. Vosges-foothill Haute-Saône town, very cheap property, forest-adjacent.",
+      "Lure (Haute-Saône, Bourgogne-Franche-Comté): quality-of-life score 5.9/10. Vosges-foothill Haute-Saône town, very cheap property, forest-adjacent.",
     scores: {
       global: 6.5,
       life: 7.0,
@@ -9929,7 +9929,7 @@ const RAW_CITIES_SEED = [
       "Péronne is the eastern-Somme WWI memorial city — Historial de la Grande Guerre museum, dramatic 1916 Battle of the Somme heritage, dramatically affordable. Best fit: WWI-history professionals and researchers, ultra-budget households, retirees seeking quiet Somme small-town living.",
     seoTitleEn: "Péronne — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Péronne (Somme, Hauts-de-France): quality-of-life score 6.5/10. Somme WWI memorial city, Historial de la Grande Guerre, very affordable.",
+      "Péronne (Somme, Hauts-de-France): quality-of-life score 6.2/10. Somme WWI memorial city, Historial de la Grande Guerre, very affordable.",
     scores: {
       global: 6.5,
       life: 7.0,
@@ -9960,7 +9960,7 @@ const RAW_CITIES_SEED = [
       "Le Blanc is the western-Indre town — at the gateway to the Brenne Regional Park (the 'land of a thousand lakes'), Creuse river, dramatically affordable. Best fit: nature-and-birdwatching retirees, ultra-budget households, photographers, slow-life expats.",
     seoTitleEn: "Le Blanc — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Le Blanc (Indre, Centre-Val de Loire): quality-of-life score 7.0/10. Brenne Regional Park gateway, thousand-lakes country, very affordable.",
+      "Le Blanc (Indre, Centre-Val de Loire): quality-of-life score 6.5/10. Brenne Regional Park gateway, thousand-lakes country, very affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -10023,7 +10023,7 @@ const RAW_CITIES_SEED = [
       "Monistrol-sur-Loire is the northern-Haute-Loire commuter town — Loire gorges, Saint-Étienne 30 minutes, Lyon 1h15, dramatically affordable. Best fit: Saint-Étienne and Lyon-region workers seeking ultra-cheap base, families, outdoor active commuters.",
     seoTitleEn: "Monistrol-sur-Loire — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Monistrol-sur-Loire (Haute-Loire, Auvergne-Rhône-Alpes): quality-of-life score 7.0/10. Northern Haute-Loire commuter town, near Saint-Étienne.",
+      "Monistrol-sur-Loire (Haute-Loire, Auvergne-Rhône-Alpes): quality-of-life score 6.7/10. Northern Haute-Loire commuter town, near Saint-Étienne.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -10054,7 +10054,7 @@ const RAW_CITIES_SEED = [
       "Embrun is the Hautes-Alpes sub-prefecture on Lac de Serre-Ponçon (Europe's largest alpine reservoir lake) — dramatic Alpine setting, exceptional sun, water-sport paradise, Briançon and the Écrins National Park nearby. Best fit: lake-and-mountain families, water-sport enthusiasts (windsurf, kite), refined retirees with budget, lifestyle remote workers.",
     seoTitleEn: "Embrun — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Embrun (Hautes-Alpes, PACA): quality-of-life score 8.0/10. Lac de Serre-Ponçon, Hautes-Alpes sub-prefecture, water-sport paradise, sunny.",
+      "Embrun (Hautes-Alpes, PACA): quality-of-life score 6.8/10. Lac de Serre-Ponçon, Hautes-Alpes sub-prefecture, water-sport paradise, sunny.",
     scores: {
       global: 8.0,
       life: 8.5,
@@ -10085,7 +10085,7 @@ const RAW_CITIES_SEED = [
       "Saint-Girons is the Couserans Pyrenees-foothill town — dramatic Salat river setting, Ariège Pyrenees access, dramatically affordable, working-class authenticity. Best fit: ultra-budget Pyrenees-region households, outdoor active retirees, nature-and-Pyrenees-trekking enthusiasts, slow-life expats.",
     seoTitleEn: "Saint-Girons — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Girons (Ariège, Occitanie): quality-of-life score 7.5/10. Couserans Pyrenees-foothill town, Salat river, very affordable, outdoor.",
+      "Saint-Girons (Ariège, Occitanie): quality-of-life score 6.8/10. Couserans Pyrenees-foothill town, Salat river, very affordable, outdoor.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -10116,7 +10116,7 @@ const RAW_CITIES_SEED = [
       "Rethel is the Ardennes sub-prefecture — famous boudin blanc (white sausage), Aisne river setting, dramatically affordable, calm. Best fit: ultra-budget households, gastronomes, retirees seeking calm Ardennes living.",
     seoTitleEn: "Rethel — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Rethel (Ardennes, Grand Est): quality-of-life score 6.5/10. Ardennes sub-prefecture, boudin blanc heritage, very affordable, calm.",
+      "Rethel (Ardennes, Grand Est): quality-of-life score 5.9/10. Ardennes sub-prefecture, boudin blanc heritage, very affordable, calm.",
     scores: {
       global: 6.5,
       life: 6.5,
@@ -10147,7 +10147,7 @@ const RAW_CITIES_SEED = [
       "Commercy is the Meuse town famous for Madeleines — Stanislas's château, dramatically affordable, calm Lorraine countryside. Best fit: ultra-budget households, gastronomes, retirees seeking calm Lorraine living.",
     seoTitleEn: "Commercy — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Commercy (Meuse, Grand Est): quality-of-life score 6.5/10. Famous Madeleines town, Stanislas château, very affordable, calm Lorraine.",
+      "Commercy (Meuse, Grand Est): quality-of-life score 6.4/10. Famous Madeleines town, Stanislas château, very affordable, calm Lorraine.",
     scores: {
       global: 6.5,
       life: 7.0,
@@ -10209,7 +10209,7 @@ const RAW_CITIES_SEED = [
       "Fleurance is the 13th-century Gers bastide town — refined arcaded central square, weekly market, rural Gascony setting, dramatically affordable. Best fit: ultra-budget households, retirees seeking authentic Gascon small-town living, gastronomes.",
     seoTitleEn: "Fleurance — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Fleurance (Gers, Occitanie): quality-of-life score 6.3/10. 13th-century Gascon bastide, arcaded square, rural, very affordable.",
+      "Fleurance (Gers, Occitanie): quality-of-life score 4.4/10. 13th-century Gascon bastide, arcaded square, rural, very affordable.",
     scores: {
       global: 6.3,
       life: 6.8,
@@ -10240,7 +10240,7 @@ const RAW_CITIES_SEED = [
       "Bellac is the Haute-Vienne Limousin sub-prefecture — Jean Giraudoux's birthplace, dramatically affordable rural Limousin setting. Best fit: ultra-budget households seeking very cheap French property, literary tourists, slow-life expats.",
     seoTitleEn: "Bellac — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Bellac (Haute-Vienne, Nouvelle-Aquitaine): quality-of-life score 5.8/10. Limousin sub-prefecture, Giraudoux birthplace, very affordable, rural.",
+      "Bellac (Haute-Vienne, Nouvelle-Aquitaine): quality-of-life score 4.0/10. Limousin sub-prefecture, Giraudoux birthplace, very affordable, rural.",
     scores: {
       global: 5.8,
       life: 6.2,
@@ -10271,7 +10271,7 @@ const RAW_CITIES_SEED = [
       "Saint-Chély-d'Apcher is the northern-Lozère high-altitude town (1000m) — Aubrac plateau adjacent, ArcelorMittal steel plant, dramatic mountain Massif Central setting. Best fit: extreme-rural-living seekers, steel-industry professionals, ultra-budget households prepared for harsh winters.",
     seoTitleEn: "Saint-Chély-d'Apcher — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Chély-d'Apcher (Lozère, Occitanie): quality-of-life score 5.7/10. North-Lozère high-altitude town, 1000m, Aubrac plateau, ultra-rural.",
+      "Saint-Chély-d'Apcher (Lozère, Occitanie): quality-of-life score 4.3/10. North-Lozère high-altitude town, 1000m, Aubrac plateau, ultra-rural.",
     scores: {
       global: 5.7,
       life: 6.1,
@@ -10302,7 +10302,7 @@ const RAW_CITIES_SEED = [
       "Clamecy is the Nièvre Burgundy town — refined Yonne-river setting, Romain Rolland's home, dramatically affordable. Best fit: ultra-budget households, retirees seeking calm small-Burgundy living, literary tourists.",
     seoTitleEn: "Clamecy — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Clamecy (Nièvre, Bourgogne-Franche-Comté): quality-of-life score 5.9/10. Nièvre Burgundy town, refined river setting, very affordable, calm.",
+      "Clamecy (Nièvre, Bourgogne-Franche-Comté): quality-of-life score 4.3/10. Nièvre Burgundy town, refined river setting, very affordable, calm.",
     scores: {
       global: 5.9,
       life: 6.3,
@@ -10333,7 +10333,7 @@ const RAW_CITIES_SEED = [
       "Porto-Vecchio is the premium south-Corsican resort — Palombaggia and Santa Giulia beaches (some of the Mediterranean's most beautiful), refined Corsican-resort heritage, exclusively summer-focused. Best fit: refined retirees with budget, second-home owners, lifestyle remote workers prepared for seasonal swings, premium-resort lovers.",
     seoTitleEn: "Porto-Vecchio — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Porto-Vecchio (Corse-du-Sud, Corse): quality-of-life score 7.1/10. Premium south-Corsican resort, Palombaggia beach, refined, ultra-seasonal.",
+      "Porto-Vecchio (Corse-du-Sud, Corse): quality-of-life score 5.2/10. Premium south-Corsican resort, Palombaggia beach, refined, ultra-seasonal.",
     scores: {
       global: 7.1,
       life: 7.5,
@@ -10364,7 +10364,7 @@ const RAW_CITIES_SEED = [
       "Corte is the historic interior-Corsican mountain town — Università di Corsica Pasquale Paoli, dramatic eagle's-nest setting in the Restonica valley, the symbolic capital of independent Corsica (Pasquale Paoli's 1755 republic). Best fit: university students, mountain-Corsican-culture seekers, slow-life expats.",
     seoTitleEn: "Corte — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Corte (Haute-Corse, Corse): quality-of-life score 6.8/10. Historic interior-Corsican mountain town, Università di Corsica, Restonica valley.",
+      "Corte (Haute-Corse, Corse): quality-of-life score 5.2/10. Historic interior-Corsican mountain town, Università di Corsica, Restonica valley.",
     scores: {
       global: 6.8,
       life: 7.2,
@@ -10395,7 +10395,7 @@ const RAW_CITIES_SEED = [
       "Sartène is the most authentic Corsican town — Mérimée's 'most Corsican of Corsican towns,' dramatic granite-stone medieval centre, surrounded by maquis, dramatically isolated from tourist Corsica. Best fit: authenticity-seekers, slow-life expats, retirees prepared for deep-Corsican living.",
     seoTitleEn: "Sartène — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Sartène (Corse-du-Sud, Corse): quality-of-life score 6.5/10. Most authentic Corsican town, Mérimée heritage, dramatic granite medieval centre.",
+      "Sartène (Corse-du-Sud, Corse): quality-of-life score 4.3/10. Most authentic Corsican town, Mérimée heritage, dramatic granite medieval centre.",
     scores: {
       global: 6.5,
       life: 7.0,
@@ -10426,7 +10426,7 @@ const RAW_CITIES_SEED = [
       "Calvi is the premium north-west Corsican Balagne resort — Genoese citadel above the harbour, refined yacht-and-beach town, Corsica's most anglophone tourist zone, dramatic mountain-and-sea setting. Best fit: refined retirees with budget, British expat retirees, sailors, lifestyle remote workers.",
     seoTitleEn: "Calvi — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Calvi (Haute-Corse, Corse): quality-of-life score 7.0/10. Premium Balagne Corsican resort, Genoese citadel, refined yacht harbour.",
+      "Calvi (Haute-Corse, Corse): quality-of-life score 4.7/10. Premium Balagne Corsican resort, Genoese citadel, refined yacht harbour.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -10457,7 +10457,7 @@ const RAW_CITIES_SEED = [
       "Jarnac is the Charente cognac town — François Mitterrand's birthplace and burial site, Courvoisier headquarters, refined Charente-river setting. Best fit: cognac professionals, ultra-budget households, retirees seeking refined small-Charente living.",
     seoTitleEn: "Jarnac — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Jarnac (Charente, Nouvelle-Aquitaine): quality-of-life score 5.8/10. Charente cognac town, Mitterrand birthplace, Courvoisier HQ.",
+      "Jarnac (Charente, Nouvelle-Aquitaine): quality-of-life score 4.1/10. Charente cognac town, Mitterrand birthplace, Courvoisier HQ.",
     scores: {
       global: 5.8,
       life: 6.3,
@@ -10488,7 +10488,7 @@ const RAW_CITIES_SEED = [
       "Mauriac is the northern-Cantal mountain town — Massif Central volcanic landscapes, dramatic Auvergne setting, dramatically affordable, ultra-rural. Best fit: extreme-rural-living seekers, ultra-budget households, retirees prepared for harsh winters and genuine isolation.",
     seoTitleEn: "Mauriac — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Mauriac (Cantal, Auvergne-Rhône-Alpes): quality-of-life score 5.5/10. North-Cantal volcanic mountain town, ultra-rural, very affordable, isolated.",
+      "Mauriac (Cantal, Auvergne-Rhône-Alpes): quality-of-life score 4.6/10. North-Cantal volcanic mountain town, ultra-rural, very affordable, isolated.",
     scores: {
       global: 5.5,
       life: 5.9,
@@ -10519,7 +10519,7 @@ const RAW_CITIES_SEED = [
       "Delle is the Swiss-border Territoire de Belfort town — direct rail link to Switzerland's Delémont (TGV-Léman line), industrial heritage, dramatically affordable. Best fit: Swiss-border professionals (Delémont, Porrentruy), ultra-budget households, industrial workers.",
     seoTitleEn: "Delle — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Delle (Territoire de Belfort, Bourgogne-Franche-Comté): quality-of-life score 5.9/10. Swiss-border town, rail to Delémont, very affordable.",
+      "Delle (Territoire de Belfort, Bourgogne-Franche-Comté): quality-of-life score 4.2/10. Swiss-border town, rail to Delémont, very affordable.",
     scores: {
       global: 5.9,
       life: 6.2,
@@ -10550,7 +10550,7 @@ const RAW_CITIES_SEED = [
       "Ribérac is the northern-Dordogne Périgord-Vert town — exceptional weekly market, established British and Anglo retiree community, rural Périgord setting. Best fit: British and Anglo retirees seeking affordable Périgord-Vert living, gastronomes, slow-life expats.",
     seoTitleEn: "Ribérac — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Ribérac (Dordogne, Nouvelle-Aquitaine): quality-of-life score 6.0/10. Périgord-Vert market town, British retiree community, rural, affordable.",
+      "Ribérac (Dordogne, Nouvelle-Aquitaine): quality-of-life score 4.4/10. Périgord-Vert market town, British retiree community, rural, affordable.",
     scores: {
       global: 6.0,
       life: 6.5,
@@ -10582,7 +10582,7 @@ const RAW_CITIES_SEED = [
       "Saint-Denis is the capital of Réunion Island in the Indian Ocean — historic Creole-and-Indian-French capital, tropical climate, dramatic volcanic interior. Best fit: tropical-island expats from mainland France, multicultural-life embracers, hiking-and-nature enthusiasts (Piton de la Fournaise volcano).",
     seoTitleEn: "Saint-Denis (La Réunion) — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Denis (La Réunion): quality-of-life score 7.4/10. Réunion Island capital, Indian Ocean, tropical Creole French-overseas department.",
+      "Saint-Denis (La Réunion): quality-of-life score 5.7/10. Réunion Island capital, Indian Ocean, tropical Creole French-overseas department.",
     scores: { global: 7.4, life: 7.5, transport: 5.5, nature: 9.4, cost: 5.0, safety: 6.2, culture: 7.2, remoteWork: 6.5, schools: 6.5 },
   },
   {
@@ -10603,7 +10603,7 @@ const RAW_CITIES_SEED = [
       "Saint-Paul is Réunion Island's west-coast resort city — lagoon beaches, surf, refined Creole-tropical lifestyle, France's first settlement on the island. Best fit: surfers, lagoon-beach families, lifestyle remote workers, refined tropical expats.",
     seoTitleEn: "Saint-Paul (La Réunion) — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Paul (La Réunion): quality-of-life score 7.3/10. Réunion west-coast resort, lagoon beaches, surf, refined Creole-tropical lifestyle.",
+      "Saint-Paul (La Réunion): quality-of-life score 5.3/10. Réunion west-coast resort, lagoon beaches, surf, refined Creole-tropical lifestyle.",
     scores: { global: 7.3, life: 7.5, transport: 5.0, nature: 9.5, cost: 5.0, safety: 6.0, culture: 6.6, remoteWork: 6.2, schools: 6.2 },
   },
   {
@@ -10624,7 +10624,7 @@ const RAW_CITIES_SEED = [
       "Saint-Pierre is the south-Réunion city — sunny south-coast beaches, exceptional Saturday market, the 'sud sauvage' wild south on the doorstep, sub-tropical climate. Best fit: families seeking south-Réunion tropical lifestyle, refined retirees, lifestyle remote workers.",
     seoTitleEn: "Saint-Pierre (La Réunion) — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Pierre (La Réunion): quality-of-life score 7.5/10. South-Réunion sunny coast, Saturday market, sud sauvage, tropical lifestyle.",
+      "Saint-Pierre (La Réunion): quality-of-life score 5.8/10. South-Réunion sunny coast, Saturday market, sud sauvage, tropical lifestyle.",
     scores: { global: 7.5, life: 7.7, transport: 5.5, nature: 9.3, cost: 5.2, safety: 6.5, culture: 6.9, remoteWork: 6.5, schools: 6.5 },
   },
   {
@@ -10645,7 +10645,7 @@ const RAW_CITIES_SEED = [
       "Le Tampon is the Réunion 'hauts' altitude town (500-800m+) — cooler than the coast, dramatic Piton de la Fournaise volcano-and-cirques access, rural agricultural setting. Best fit: outdoor active families seeking cool tropical-altitude, hikers and volcanologists, slow-life expats.",
     seoTitleEn: "Le Tampon — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Le Tampon (La Réunion): quality-of-life score 7.0/10. Réunion altitude town, cooler than coast, Piton de la Fournaise access, rural.",
+      "Le Tampon (La Réunion): quality-of-life score 5.2/10. Réunion altitude town, cooler than coast, Piton de la Fournaise access, rural.",
     scores: { global: 7.0, life: 7.2, transport: 4.8, nature: 9.4, cost: 5.5, safety: 6.8, culture: 6.0, remoteWork: 6.0, schools: 6.5 },
   },
   {
@@ -10666,7 +10666,7 @@ const RAW_CITIES_SEED = [
       "Fort-de-France is the Martinique capital — Caribbean French-overseas department, tropical-Creole capital, refined waterfront, dramatic Mont Pelée volcano backdrop. Best fit: Caribbean-tropical-life expats, Creole-culture lovers, multicultural-life embracers, French-Caribbean professionals.",
     seoTitleEn: "Fort-de-France — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Fort-de-France (Martinique): quality-of-life score 6.8/10. Caribbean French-overseas capital, tropical Creole, Mont Pelée backdrop.",
+      "Fort-de-France (Martinique): quality-of-life score 5.1/10. Caribbean French-overseas capital, tropical Creole, Mont Pelée backdrop.",
     scores: { global: 6.8, life: 6.9, transport: 5.5, nature: 8.8, cost: 5.0, safety: 5.5, culture: 7.2, remoteWork: 6.3, schools: 6.3 },
   },
   {
@@ -10687,7 +10687,7 @@ const RAW_CITIES_SEED = [
       "Le Lamentin is the Martinique airport-and-industrial city — Aimé Césaire International Airport, business and logistics hub, dramatically affordable for a Caribbean island. Best fit: aviation and logistics professionals, industrial workers in the French Caribbean, families with airport-adjacency needs.",
     seoTitleEn: "Le Lamentin — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Le Lamentin (Martinique): quality-of-life score 6.5/10. Martinique airport-industrial city, Aimé Césaire airport, business hub.",
+      "Le Lamentin (Martinique): quality-of-life score 4.7/10. Martinique airport-industrial city, Aimé Césaire airport, business hub.",
     scores: { global: 6.5, life: 6.6, transport: 5.0, nature: 8.4, cost: 5.2, safety: 5.8, culture: 6.5, remoteWork: 6.0, schools: 6.3 },
   },
   {
@@ -10708,7 +10708,7 @@ const RAW_CITIES_SEED = [
       "Les Abymes is the largest Guadeloupean city — periurban Pointe-à-Pitre adjacent, Creole-tropical demographics, dramatically affordable for the Caribbean. Best fit: French-Caribbean professionals, ultra-budget tropical-life households, multicultural-life embracers.",
     seoTitleEn: "Les Abymes — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Les Abymes (Guadeloupe): quality-of-life score 6.3/10. Largest Guadeloupean city, Pointe-à-Pitre adjacent, Creole-tropical, affordable.",
+      "Les Abymes (Guadeloupe): quality-of-life score 4.3/10. Largest Guadeloupean city, Pointe-à-Pitre adjacent, Creole-tropical, affordable.",
     scores: { global: 6.3, life: 6.4, transport: 5.0, nature: 8.6, cost: 5.0, safety: 5.2, culture: 6.5, remoteWork: 6.0, schools: 6.0 },
   },
   {
@@ -10729,7 +10729,7 @@ const RAW_CITIES_SEED = [
       "Pointe-à-Pitre is the historic Guadeloupean port city — refined French-Caribbean architecture, working Caribbean market, dramatic islands offshore (Les Saintes, Marie-Galante). Best fit: French-Caribbean professionals, port-and-logistics workers, Creole-culture lovers.",
     seoTitleEn: "Pointe-à-Pitre — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Pointe-à-Pitre (Guadeloupe): quality-of-life score 6.4/10. Historic Caribbean port, French-Creole architecture, market, islands offshore.",
+      "Pointe-à-Pitre (Guadeloupe): quality-of-life score 4.5/10. Historic Caribbean port, French-Creole architecture, market, islands offshore.",
     scores: { global: 6.4, life: 6.5, transport: 5.5, nature: 8.5, cost: 5.0, safety: 5.0, culture: 7.0, remoteWork: 6.0, schools: 5.8 },
   },
   {
@@ -10750,7 +10750,7 @@ const RAW_CITIES_SEED = [
       "Baie-Mahault is the Guadeloupean business-and-industrial hub — major commercial zone (Jarry), aviation and logistics, somewhat better safety than Pointe-à-Pitre. Best fit: Guadeloupe business professionals, French-Caribbean industrial workers, families seeking the safer Guadeloupean urban option.",
     seoTitleEn: "Baie-Mahault — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Baie-Mahault (Guadeloupe): quality-of-life score 6.6/10. Guadeloupean business hub, Jarry industrial zone, French-Caribbean.",
+      "Baie-Mahault (Guadeloupe): quality-of-life score 5.0/10. Guadeloupean business hub, Jarry industrial zone, French-Caribbean.",
     scores: { global: 6.6, life: 6.7, transport: 5.2, nature: 8.7, cost: 5.2, safety: 5.8, culture: 6.5, remoteWork: 6.2, schools: 6.2 },
   },
   {
@@ -10771,7 +10771,7 @@ const RAW_CITIES_SEED = [
       "Cayenne is the capital of French Guiana — French-equatorial-Amazonian capital on the Atlantic, dramatic biodiversity (the Amazon rainforest at the doorstep), Kourou space center 50 km away (CNES/Arianespace). Best fit: French-Guiana professionals (space, public sector), tropical-equatorial-life expats, multicultural Creole-life embracers.",
     seoTitleEn: "Cayenne — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Cayenne (Guyane): quality-of-life score 6.2/10. French Guiana capital, equatorial-Amazon, Kourou space center adjacent.",
+      "Cayenne (Guyane): quality-of-life score 3.9/10. French Guiana capital, equatorial-Amazon, Kourou space center adjacent.",
     scores: { global: 6.2, life: 6.3, transport: 4.5, nature: 9.0, cost: 5.0, safety: 5.0, culture: 6.5, remoteWork: 5.8, schools: 5.8 },
   },
   {
@@ -10792,7 +10792,7 @@ const RAW_CITIES_SEED = [
       "Saint-Laurent-du-Maroni is the western French-Guiana frontier town on the Maroni river — Suriname border opposite, dramatic Amazonian setting, historic prison camp heritage (Papillon novel/film). Best fit: extreme-rural-living seekers, French-Guiana frontier professionals, Amazonian-life expats prepared for genuine isolation.",
     seoTitleEn: "Saint-Laurent-du-Maroni — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Laurent-du-Maroni (Guyane): quality-of-life score 5.8/10. French-Guiana Maroni-river frontier, Suriname border, Amazon setting.",
+      "Saint-Laurent-du-Maroni (Guyane): quality-of-life score 3.4/10. French-Guiana Maroni-river frontier, Suriname border, Amazon setting.",
     scores: { global: 5.8, life: 5.9, transport: 4.0, nature: 9.2, cost: 5.5, safety: 5.0, culture: 6.0, remoteWork: 5.5, schools: 5.5 },
   },
   {
@@ -10813,7 +10813,7 @@ const RAW_CITIES_SEED = [
       "Mamoudzou is the capital of Mayotte — France's youngest department (2011), Indian Ocean lagoon, Comorian-French Creole culture, the most challenging French overseas posting on safety and infrastructure. Best fit: French-Mayotte public-sector and education professionals on assignment, very-tropical-life expats prepared for challenges.",
     seoTitleEn: "Mamoudzou — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Mamoudzou (Mayotte): quality-of-life score 5.7/10. Mayotte capital, Indian Ocean lagoon, France's youngest department.",
+      "Mamoudzou (Mayotte): quality-of-life score 3.0/10. Mayotte capital, Indian Ocean lagoon, France's youngest department.",
     scores: { global: 5.7, life: 5.7, transport: 4.0, nature: 9.0, cost: 5.5, safety: 4.5, culture: 6.0, remoteWork: 5.5, schools: 5.5 },
   },
   {
@@ -10834,7 +10834,7 @@ const RAW_CITIES_SEED = [
       "Cormeilles-en-Parisis is the western Val-d'Oise Seine-side suburb — refined residential character, Transilien J direct to Saint-Lazare in 25 minutes, family-friendly. Best fit: families seeking refined affordable Paris-region base.",
     seoTitleEn: "Cormeilles-en-Parisis — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Cormeilles-en-Parisis (Val-d'Oise, Île-de-France): quality-of-life score 5.8/10. Western Val-d'Oise Seine suburb, Transilien J to Paris.",
+      "Cormeilles-en-Parisis (Val-d'Oise, Île-de-France): quality-of-life score 3.7/10. Western Val-d'Oise Seine suburb, Transilien J to Paris.",
     scores: {
       global: 5.8,
       life: 6,
@@ -10865,7 +10865,7 @@ const RAW_CITIES_SEED = [
       "Sarcelles is the major Val-d'Oise multicultural suburb — RER D direct to central Paris, one of France's largest Sephardic Jewish and African communities, dramatically affordable. Best fit: ultra-budget Paris-region households, multicultural-life embracers.",
     seoTitleEn: "Sarcelles — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Sarcelles (Val-d'Oise, Île-de-France): quality-of-life score 4.5/10. Major multicultural Val-d'Oise suburb, RER D to Paris, very affordable.",
+      "Sarcelles (Val-d'Oise, Île-de-France): quality-of-life score 2.8/10. Major multicultural Val-d'Oise suburb, RER D to Paris, very affordable.",
     scores: {
       global: 4.5,
       life: 4.5,
@@ -10896,7 +10896,7 @@ const RAW_CITIES_SEED = [
       "Ermont is the Val-d'Oise residential suburb — RER C and Transilien H direct to central Paris in 25 minutes, family-friendly, refined residential character. Best fit: Paris-region families seeking affordable refined suburb.",
     seoTitleEn: "Ermont — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Ermont (Val-d'Oise, Île-de-France): quality-of-life score 5.9/10. Val-d'Oise residential suburb, RER C/H to Paris, family-friendly.",
+      "Ermont (Val-d'Oise, Île-de-France): quality-of-life score 3.8/10. Val-d'Oise residential suburb, RER C/H to Paris, family-friendly.",
     scores: {
       global: 5.9,
       life: 6,
@@ -10927,7 +10927,7 @@ const RAW_CITIES_SEED = [
       "Franconville, Val-d'Oise, is a Paris suburb on Transilien H. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Franconville — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Franconville (Val-d'Oise, Île-de-France): quality-of-life score 5.8/10. Paris commuter belt, residential.",
+      "Franconville (Val-d'Oise, Île-de-France): quality-of-life score 3.7/10. Paris commuter belt, residential.",
     scores: {
       global: 5.8,
       life: 6,
@@ -10958,7 +10958,7 @@ const RAW_CITIES_SEED = [
       "Sannois sits in the Paris commuter belt (Val-d'Oise), served by Transilien H. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Sannois — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Sannois (Val-d'Oise, Île-de-France): quality-of-life score 5.6/10. Paris commuter belt, residential.",
+      "Sannois (Val-d'Oise, Île-de-France): quality-of-life score 3.2/10. Paris commuter belt, residential.",
     scores: {
       global: 5.6,
       life: 5.8,
@@ -10989,7 +10989,7 @@ const RAW_CITIES_SEED = [
       "Bezons sits in the Paris commuter belt (Val-d'Oise), served by tramway T2 near Seine. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Bezons — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Bezons (Val-d'Oise, Île-de-France): quality-of-life score 5.4/10. Paris commuter belt, tramway T2.",
+      "Bezons (Val-d'Oise, Île-de-France): quality-of-life score 3.1/10. Paris commuter belt, tramway T2.",
     scores: {
       global: 5.4,
       life: 5.5,
@@ -11020,7 +11020,7 @@ const RAW_CITIES_SEED = [
       "Garges-lès-Gonesse sits in the Paris commuter belt (Val-d'Oise), served by RER D. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
     seoTitleEn: "Garges-lès-Gonesse — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Garges-lès-Gonesse (Val-d'Oise, Île-de-France): quality-of-life score 4.4/10. Paris commuter belt, working-class.",
+      "Garges-lès-Gonesse (Val-d'Oise, Île-de-France): quality-of-life score 2.8/10. Paris commuter belt, working-class.",
     scores: {
       global: 4.4,
       life: 4.2,
@@ -11082,7 +11082,7 @@ const RAW_CITIES_SEED = [
       "Villiers-le-Bel, Val-d'Oise, is a Paris suburb on RER D. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
     seoTitleEn: "Villiers-le-Bel — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Villiers-le-Bel (Val-d'Oise, Île-de-France): quality-of-life score 4.3/10. Paris commuter belt, working-class.",
+      "Villiers-le-Bel (Val-d'Oise, Île-de-France): quality-of-life score 2.8/10. Paris commuter belt, working-class.",
     scores: {
       global: 4.3,
       life: 4,
@@ -11117,7 +11117,7 @@ const RAW_CITIES_SEED = [
       "Pierrefitte-sur-Seine sits in the Paris commuter belt (Seine-Saint-Denis), served by tramway T5. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
     seoTitleEn: "Pierrefitte-sur-Seine — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Pierrefitte-sur-Seine (Seine-Saint-Denis, Île-de-France): quality-of-life score 4.5/10. Paris commuter belt, tramway T5.",
+      "Pierrefitte-sur-Seine (Seine-Saint-Denis, Île-de-France): quality-of-life score 2.8/10. Paris commuter belt, tramway T5.",
     scores: {
       global: 4.5,
       life: 4.2,
@@ -11148,7 +11148,7 @@ const RAW_CITIES_SEED = [
       "Aulnay-sous-Bois, Seine-Saint-Denis, is a Paris suburb on RER B. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
     seoTitleEn: "Aulnay-sous-Bois — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Aulnay-sous-Bois (Seine-Saint-Denis, Île-de-France): quality-of-life score 4.7/10. Paris commuter belt, RER B.",
+      "Aulnay-sous-Bois (Seine-Saint-Denis, Île-de-France): quality-of-life score 2.8/10. Paris commuter belt, RER B.",
     scores: {
       global: 4.7,
       life: 4.5,
@@ -11179,7 +11179,7 @@ const RAW_CITIES_SEED = [
       "Drancy, Seine-Saint-Denis, is a Paris suburb on RER B. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Drancy — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Drancy (Seine-Saint-Denis, Île-de-France): quality-of-life score 4.9/10. Paris commuter belt, RER B.",
+      "Drancy (Seine-Saint-Denis, Île-de-France): quality-of-life score 2.8/10. Paris commuter belt, RER B.",
     scores: {
       global: 4.9,
       life: 4.8,
@@ -11210,7 +11210,7 @@ const RAW_CITIES_SEED = [
       "Bondy is a Paris-area Seine-Saint-Denis suburb on the tramway T4 + RER E corridor. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
     seoTitleEn: "Bondy — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Bondy (Seine-Saint-Denis, Île-de-France): quality-of-life score 4.5/10. Paris commuter belt, tramway T4.",
+      "Bondy (Seine-Saint-Denis, Île-de-France): quality-of-life score 2.8/10. Paris commuter belt, tramway T4.",
     scores: {
       global: 4.5,
       life: 4.3,
@@ -11241,7 +11241,7 @@ const RAW_CITIES_SEED = [
       "Saint-Ouen-sur-Seine sits in the Paris commuter belt (Seine-Saint-Denis), served by métro 13/14. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Saint-Ouen-sur-Seine — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Ouen-sur-Seine (Seine-Saint-Denis, Île-de-France): quality-of-life score 6.3/10. Paris commuter belt, office / tertiary.",
+      "Saint-Ouen-sur-Seine (Seine-Saint-Denis, Île-de-France): quality-of-life score 3.3/10. Paris commuter belt, office / tertiary.",
     scores: {
       global: 6.3,
       life: 6.5,
@@ -11272,7 +11272,7 @@ const RAW_CITIES_SEED = [
       "Aubervilliers sits in the Paris commuter belt (Seine-Saint-Denis), served by métro 7/12. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Aubervilliers — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Aubervilliers (Seine-Saint-Denis, Île-de-France): quality-of-life score 5.1/10. Paris commuter belt, métro 7/12.",
+      "Aubervilliers (Seine-Saint-Denis, Île-de-France): quality-of-life score 2.8/10. Paris commuter belt, métro 7/12.",
     scores: {
       global: 5.1,
       life: 5,
@@ -11303,7 +11303,7 @@ const RAW_CITIES_SEED = [
       "Stains is a Paris-area Seine-Saint-Denis suburb on the tramway T11 corridor. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
     seoTitleEn: "Stains — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Stains (Seine-Saint-Denis, Île-de-France): quality-of-life score 4.4/10. Paris commuter belt, working-class.",
+      "Stains (Seine-Saint-Denis, Île-de-France): quality-of-life score 2.8/10. Paris commuter belt, working-class.",
     scores: {
       global: 4.4,
       life: 4.2,
@@ -11334,7 +11334,7 @@ const RAW_CITIES_SEED = [
       "Sevran is a Paris-area Seine-Saint-Denis suburb on the RER B corridor. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
     seoTitleEn: "Sevran — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Sevran (Seine-Saint-Denis, Île-de-France): quality-of-life score 4.3/10. Paris commuter belt, RER B.",
+      "Sevran (Seine-Saint-Denis, Île-de-France): quality-of-life score 2.8/10. Paris commuter belt, RER B.",
     scores: {
       global: 4.3,
       life: 4,
@@ -11365,7 +11365,7 @@ const RAW_CITIES_SEED = [
       "La Courneuve sits in the Paris commuter belt (Seine-Saint-Denis), served by métro 7 + tramway T1. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
     seoTitleEn: "La Courneuve — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "La Courneuve (Seine-Saint-Denis, Île-de-France): quality-of-life score 4.4/10. Paris commuter belt, métro 7.",
+      "La Courneuve (Seine-Saint-Denis, Île-de-France): quality-of-life score 2.8/10. Paris commuter belt, métro 7.",
     scores: {
       global: 4.4,
       life: 4.2,
@@ -11396,7 +11396,7 @@ const RAW_CITIES_SEED = [
       "Bagnolet is a Paris-area Seine-Saint-Denis suburb on the métro 3 corridor. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Bagnolet — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Bagnolet (Seine-Saint-Denis, Île-de-France): quality-of-life score 5.7/10. Paris commuter belt, métro 3.",
+      "Bagnolet (Seine-Saint-Denis, Île-de-France): quality-of-life score 2.8/10. Paris commuter belt, métro 3.",
     scores: {
       global: 5.7,
       life: 5.8,
@@ -11427,7 +11427,7 @@ const RAW_CITIES_SEED = [
       "Asnières-sur-Seine is a Paris-area Hauts-de-Seine suburb on the tramway T1 corridor near Seine. Best fit: refined-suburb families, dual-income Paris professionals.",
     seoTitleEn: "Asnières-sur-Seine — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Asnières-sur-Seine (Hauts-de-Seine, Île-de-France): quality-of-life score 6.5/10. Paris commuter belt, Seine river.",
+      "Asnières-sur-Seine (Hauts-de-Seine, Île-de-France): quality-of-life score 4.1/10. Paris commuter belt, Seine river.",
     scores: {
       global: 6.5,
       life: 6.8,
@@ -11458,7 +11458,7 @@ const RAW_CITIES_SEED = [
       "Antony, Hauts-de-Seine, is a Paris suburb on RER B near Parc de Sceaux. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Antony — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Antony (Hauts-de-Seine, Île-de-France): quality-of-life score 6.8/10. Paris commuter belt, RER B.",
+      "Antony (Hauts-de-Seine, Île-de-France): quality-of-life score 4.9/10. Paris commuter belt, RER B.",
     scores: {
       global: 6.8,
       life: 7.2,
@@ -11489,7 +11489,7 @@ const RAW_CITIES_SEED = [
       "Suresnes is a Paris-area Hauts-de-Seine suburb near Seine, Mont-Valérien. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Suresnes — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Suresnes (Hauts-de-Seine, Île-de-France): quality-of-life score 6.9/10. Paris commuter belt, Seine river.",
+      "Suresnes (Hauts-de-Seine, Île-de-France): quality-of-life score 4.7/10. Paris commuter belt, Seine river.",
     scores: {
       global: 6.9,
       life: 7.2,
@@ -11520,7 +11520,7 @@ const RAW_CITIES_SEED = [
       "Saint-Cloud is a Paris-area Hauts-de-Seine suburb on the tramway T2 corridor. Best fit: refined-suburb families, dual-income Paris professionals.",
     seoTitleEn: "Saint-Cloud — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Cloud (Hauts-de-Seine, Île-de-France): quality-of-life score 7.5/10. Paris commuter belt, upmarket residential.",
+      "Saint-Cloud (Hauts-de-Seine, Île-de-France): quality-of-life score 5.5/10. Paris commuter belt, upmarket residential.",
     scores: {
       global: 7.5,
       life: 7.8,
@@ -11551,7 +11551,7 @@ const RAW_CITIES_SEED = [
       "Champigny-sur-Marne sits in the Paris commuter belt (Val-de-Marne), served by RER A/E near Marne. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Champigny-sur-Marne — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Champigny-sur-Marne (Val-de-Marne, Île-de-France): quality-of-life score 5.6/10. Paris commuter belt, Marne river.",
+      "Champigny-sur-Marne (Val-de-Marne, Île-de-France): quality-of-life score 3.5/10. Paris commuter belt, Marne river.",
     scores: {
       global: 5.6,
       life: 5.8,
@@ -11613,7 +11613,7 @@ const RAW_CITIES_SEED = [
       "Maisons-Alfort sits in the Paris commuter belt (Val-de-Marne), served by métro 8 near Marne. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Maisons-Alfort — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Maisons-Alfort (Val-de-Marne, Île-de-France): quality-of-life score 6.5/10. Paris commuter belt, métro 8.",
+      "Maisons-Alfort (Val-de-Marne, Île-de-France): quality-of-life score 4.7/10. Paris commuter belt, métro 8.",
     scores: {
       global: 6.5,
       life: 6.8,
@@ -11644,7 +11644,7 @@ const RAW_CITIES_SEED = [
       "Fontenay-sous-Bois sits in the Paris commuter belt (Val-de-Marne), served by RER A/E near Bois de Vincennes. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Fontenay-sous-Bois — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Fontenay-sous-Bois (Val-de-Marne, Île-de-France): quality-of-life score 6.8/10. Paris commuter belt, RER A/E.",
+      "Fontenay-sous-Bois (Val-de-Marne, Île-de-France): quality-of-life score 4.9/10. Paris commuter belt, RER A/E.",
     scores: {
       global: 6.8,
       life: 7,
@@ -11706,7 +11706,7 @@ const RAW_CITIES_SEED = [
       "Poissy is a Paris-area Yvelines suburb on the RER A corridor near Seine. Best fit: engineering and industrial-sector employees tied to the local plant.",
     seoTitleEn: "Poissy — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Poissy (Yvelines, Île-de-France): quality-of-life score 5.9/10. Paris commuter belt, RER A.",
+      "Poissy (Yvelines, Île-de-France): quality-of-life score 4.2/10. Paris commuter belt, RER A.",
     scores: {
       global: 5.9,
       life: 6.2,
@@ -11768,7 +11768,7 @@ const RAW_CITIES_SEED = [
       "Trappes, Yvelines, is a Paris suburb on Transilien N near Saint-Quentin-en-Yvelines. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
     seoTitleEn: "Trappes — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Trappes (Yvelines, Île-de-France): quality-of-life score 4.7/10. Paris commuter belt, Saint-Quentin-en-Yvelines.",
+      "Trappes (Yvelines, Île-de-France): quality-of-life score 2.8/10. Paris commuter belt, Saint-Quentin-en-Yvelines.",
     scores: {
       global: 4.7,
       life: 4.5,
@@ -11799,7 +11799,7 @@ const RAW_CITIES_SEED = [
       "Sartrouville sits in the Paris commuter belt (Yvelines), served by RER A near Seine. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Sartrouville — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Sartrouville (Yvelines, Île-de-France): quality-of-life score 5.8/10. Paris commuter belt, RER A.",
+      "Sartrouville (Yvelines, Île-de-France): quality-of-life score 4.0/10. Paris commuter belt, RER A.",
     scores: {
       global: 5.8,
       life: 6,
@@ -11892,7 +11892,7 @@ const RAW_CITIES_SEED = [
       "Tourcoing is a Lille-area Nord suburb on the métro L corridor. Best fit: students, junior academics, young professionals on Lille salaries.",
     seoTitleEn: "Tourcoing — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Tourcoing (Nord, Hauts-de-France): quality-of-life score 5.1/10. Textile historique, métro Lille.",
+      "Tourcoing (Nord, Hauts-de-France): quality-of-life score 2.8/10. Textile historique, métro Lille.",
     scores: {
       global: 5.1,
       life: 5,
@@ -11954,7 +11954,7 @@ const RAW_CITIES_SEED = [
       "Vitrolles sits in the Marseille commuter belt (Bouches-du-Rhône). Best fit: engineering and industrial-sector employees tied to the local plant.",
     seoTitleEn: "Vitrolles — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Vitrolles (Bouches-du-Rhône, Provence-Alpes-Côte d'Azur): quality-of-life score 5.5/10. Étang de Berre, industrial.",
+      "Vitrolles (Bouches-du-Rhône, Provence-Alpes-Côte d'Azur): quality-of-life score 2.8/10. Étang de Berre, industrial.",
     scores: {
       global: 5.5,
       life: 5.5,
@@ -11985,7 +11985,7 @@ const RAW_CITIES_SEED = [
       "Marignane is a Bouches-du-Rhône Mediterranean / Provençal town near Airbus Helicopters. Best fit: engineering and industrial-sector employees tied to the local plant.",
     seoTitleEn: "Marignane — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Marignane (Bouches-du-Rhône, Provence-Alpes-Côte d'Azur): quality-of-life score 5.6/10. Aéroport Marseille-Provence, Airbus Helicopters.",
+      "Marignane (Bouches-du-Rhône, Provence-Alpes-Côte d'Azur): quality-of-life score 2.8/10. Aéroport Marseille-Provence, Airbus Helicopters.",
     scores: {
       global: 5.6,
       life: 5.7,
@@ -12016,7 +12016,7 @@ const RAW_CITIES_SEED = [
       "Istres is a Bouches-du-Rhône Mediterranean / Provençal town. Best fit: settlers seeking a quieter Bouches-du-Rhône base, locals rooted in the area.",
     seoTitleEn: "Istres — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Istres (Bouches-du-Rhône, Provence-Alpes-Côte d'Azur): quality-of-life score 5.7/10. Étang de Berre, base aérienne.",
+      "Istres (Bouches-du-Rhône, Provence-Alpes-Côte d'Azur): quality-of-life score 3.2/10. Étang de Berre, base aérienne.",
     scores: {
       global: 5.7,
       life: 5.8,
@@ -12047,7 +12047,7 @@ const RAW_CITIES_SEED = [
       "La Seyne-sur-Mer is a Var Mediterranean / Provençal town. Best fit: coastal-life seekers, semi-retirees, sea-adjacent remote workers.",
     seoTitleEn: "La Seyne-sur-Mer — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "La Seyne-sur-Mer (Var, Provence-Alpes-Côte d'Azur): quality-of-life score 5.5/10. Mediterranean, Toulon.",
+      "La Seyne-sur-Mer (Var, Provence-Alpes-Côte d'Azur): quality-of-life score 3.2/10. Mediterranean, Toulon.",
     scores: {
       global: 5.5,
       life: 5.8,
@@ -12078,7 +12078,7 @@ const RAW_CITIES_SEED = [
       "Six-Fours-les-Plages is a Var Mediterranean / Provençal town. Best fit: refined-suburb families, dual-income Var professionals.",
     seoTitleEn: "Six-Fours-les-Plages — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Six-Fours-les-Plages (Var, Provence-Alpes-Côte d'Azur): quality-of-life score 6.5/10. Mediterranean, seaside resort.",
+      "Six-Fours-les-Plages (Var, Provence-Alpes-Côte d'Azur): quality-of-life score 4.6/10. Mediterranean, seaside resort.",
     scores: {
       global: 6.5,
       life: 7.2,
@@ -12109,7 +12109,7 @@ const RAW_CITIES_SEED = [
       "Le Cannet is a Alpes-Maritimes Mediterranean / Provençal town near Pierre Bonnard. Best fit: coastal-life seekers, semi-retirees, sea-adjacent remote workers.",
     seoTitleEn: "Le Cannet — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Le Cannet (Alpes-Maritimes, Provence-Alpes-Côte d'Azur): quality-of-life score 6.5/10. Mediterranean, Cannes voisin.",
+      "Le Cannet (Alpes-Maritimes, Provence-Alpes-Côte d'Azur): quality-of-life score 4.2/10. Mediterranean, Cannes voisin.",
     scores: {
       global: 6.5,
       life: 7,
@@ -12202,7 +12202,7 @@ const RAW_CITIES_SEED = [
       "Bron sits in the Lyon commuter belt (Métropole de Lyon), served by tramway T2. Best fit: engineering and industrial-sector employees tied to the local plant.",
     seoTitleEn: "Bron — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Bron (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 5.5/10. Lyon commuter belt, tramway T2/T5.",
+      "Bron (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 3.5/10. Lyon commuter belt, tramway T2/T5.",
     scores: {
       global: 5.5,
       life: 5.5,
@@ -12233,7 +12233,7 @@ const RAW_CITIES_SEED = [
       "Saint-Priest sits in the Lyon commuter belt (Métropole de Lyon), served by tramway T2 near Renault Trucks. Best fit: engineering and industrial-sector employees tied to the local plant.",
     seoTitleEn: "Saint-Priest — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Priest (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 5.7/10. Lyon commuter belt, tramway T2.",
+      "Saint-Priest (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 3.9/10. Lyon commuter belt, tramway T2.",
     scores: {
       global: 5.7,
       life: 5.8,
@@ -12295,7 +12295,7 @@ const RAW_CITIES_SEED = [
       "Décines-Charpieu sits in the Lyon commuter belt (Métropole de Lyon), served by tramway T3 near OL Stadium. Best fit: families and couples commuting into Lyon, remote workers needing a base nearby.",
     seoTitleEn: "Décines-Charpieu — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Décines-Charpieu (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 5.8/10. Lyon commuter belt, tramway T3.",
+      "Décines-Charpieu (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 4.2/10. Lyon commuter belt, tramway T3.",
     scores: {
       global: 5.8,
       life: 6,
@@ -12326,7 +12326,7 @@ const RAW_CITIES_SEED = [
       "Meyzieu is a Lyon-area Métropole de Lyon suburb on the tramway T3 corridor. Best fit: families and couples commuting into Lyon, remote workers needing a base nearby.",
     seoTitleEn: "Meyzieu — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Meyzieu (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 5.9/10. Lyon commuter belt, tramway T3 (Rhônexpress).",
+      "Meyzieu (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 4.6/10. Lyon commuter belt, tramway T3 (Rhônexpress).",
     scores: {
       global: 5.9,
       life: 6.2,
@@ -12357,7 +12357,7 @@ const RAW_CITIES_SEED = [
       "Mérignac, Gironde, is a Bordeaux suburb on tramway A near Dassault Aviation. Best fit: engineering and industrial-sector employees tied to the local plant.",
     seoTitleEn: "Mérignac — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Mérignac (Gironde, Nouvelle-Aquitaine): quality-of-life score 6.5/10. Bordeaux commuter belt, tramway A.",
+      "Mérignac (Gironde, Nouvelle-Aquitaine): quality-of-life score 5.0/10. Bordeaux commuter belt, tramway A.",
     scores: {
       global: 6.5,
       life: 6.8,
@@ -12388,7 +12388,7 @@ const RAW_CITIES_SEED = [
       "Pessac sits in the Bordeaux commuter belt (Gironde), served by tramway B near Cité Frugès Le Corbusier. Best fit: students, junior academics, young professionals on Bordeaux salaries.",
     seoTitleEn: "Pessac — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Pessac (Gironde, Nouvelle-Aquitaine): quality-of-life score 6.7/10. Bordeaux commuter belt, université Bordeaux.",
+      "Pessac (Gironde, Nouvelle-Aquitaine): quality-of-life score 5.4/10. Bordeaux commuter belt, université Bordeaux.",
     scores: {
       global: 6.7,
       life: 7,
@@ -12419,7 +12419,7 @@ const RAW_CITIES_SEED = [
       "Talence sits in the Bordeaux commuter belt (Gironde), served by tramway B. Best fit: students, junior academics, young professionals on Bordeaux salaries.",
     seoTitleEn: "Talence — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Talence (Gironde, Nouvelle-Aquitaine): quality-of-life score 6.8/10. Bordeaux commuter belt, university.",
+      "Talence (Gironde, Nouvelle-Aquitaine): quality-of-life score 5.5/10. Bordeaux commuter belt, university.",
     scores: {
       global: 6.8,
       life: 7,
@@ -12450,7 +12450,7 @@ const RAW_CITIES_SEED = [
       "Bègles, Gironde, is a Bordeaux suburb on tramway C near Garonne. Best fit: wine-trade workers, semi-retirees, settled couples seeking vineyard living.",
     seoTitleEn: "Bègles — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Bègles (Gironde, Nouvelle-Aquitaine): quality-of-life score 6.5/10. Bordeaux commuter belt, tramway C.",
+      "Bègles (Gironde, Nouvelle-Aquitaine): quality-of-life score 5.1/10. Bordeaux commuter belt, tramway C.",
     scores: {
       global: 6.5,
       life: 6.8,
@@ -12512,7 +12512,7 @@ const RAW_CITIES_SEED = [
       "Villenave-d'Ornon sits in the Bordeaux commuter belt (Gironde), served by tramway C near Garonne. Best fit: wine-trade workers, semi-retirees, settled couples seeking vineyard living.",
     seoTitleEn: "Villenave-d'Ornon — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Villenave-d'Ornon (Gironde, Nouvelle-Aquitaine): quality-of-life score 6.3/10. Bordeaux commuter belt, tramway C.",
+      "Villenave-d'Ornon (Gironde, Nouvelle-Aquitaine): quality-of-life score 4.6/10. Bordeaux commuter belt, tramway C.",
     scores: {
       global: 6.3,
       life: 6.5,
@@ -12543,7 +12543,7 @@ const RAW_CITIES_SEED = [
       "Béthune is a Pas-de-Calais town in Hauts-de-France. Best fit: heritage lovers, retirees, families wanting walkable historic centres.",
     seoTitleEn: "Béthune — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Béthune (Pas-de-Calais, Hauts-de-France): quality-of-life score 5.4/10. Grand-Place, heritage.",
+      "Béthune (Pas-de-Calais, Hauts-de-France): quality-of-life score 3.4/10. Grand-Place, heritage.",
     scores: {
       global: 5.4,
       life: 5.5,
@@ -12574,7 +12574,7 @@ const RAW_CITIES_SEED = [
       "Liévin is part of the Pas-de-Calais former coal-basin (UNESCO mining heritage). Best fit: heritage lovers, retirees, families wanting walkable historic centres.",
     seoTitleEn: "Liévin — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Liévin (Pas-de-Calais, Hauts-de-France): quality-of-life score 4.8/10. Former coal basin, UNESCO heritage.",
+      "Liévin (Pas-de-Calais, Hauts-de-France): quality-of-life score 2.8/10. Former coal basin, UNESCO heritage.",
     scores: {
       global: 4.8,
       life: 4.8,
@@ -12636,7 +12636,7 @@ const RAW_CITIES_SEED = [
       "Colomiers, Haute-Garonne, is a Toulouse suburb near Airbus. Best fit: engineering and industrial-sector employees tied to the local plant.",
     seoTitleEn: "Colomiers — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Colomiers (Haute-Garonne, Occitanie): quality-of-life score 6.5/10. Toulouse commuter belt, Airbus.",
+      "Colomiers (Haute-Garonne, Occitanie): quality-of-life score 5.1/10. Toulouse commuter belt, Airbus.",
     scores: {
       global: 6.5,
       life: 6.8,
@@ -12698,7 +12698,7 @@ const RAW_CITIES_SEED = [
       "Blagnac, Haute-Garonne, is a Toulouse suburb on tramway T1 near Airbus HQ. Best fit: engineering and industrial-sector employees tied to the local plant.",
     seoTitleEn: "Blagnac — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Blagnac (Haute-Garonne, Occitanie): quality-of-life score 6.6/10. Toulouse commuter belt, Airbus HQ.",
+      "Blagnac (Haute-Garonne, Occitanie): quality-of-life score 4.9/10. Toulouse commuter belt, Airbus HQ.",
     scores: {
       global: 6.6,
       life: 6.8,
@@ -12729,7 +12729,7 @@ const RAW_CITIES_SEED = [
       "Cugnaux sits in the Toulouse commuter belt (Haute-Garonne). Best fit: families and couples commuting into Toulouse, remote workers needing a base nearby.",
     seoTitleEn: "Cugnaux — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Cugnaux (Haute-Garonne, Occitanie): quality-of-life score 6.3/10. Toulouse commuter belt, residential.",
+      "Cugnaux (Haute-Garonne, Occitanie): quality-of-life score 4.1/10. Toulouse commuter belt, residential.",
     scores: {
       global: 6.3,
       life: 6.5,
@@ -12760,7 +12760,7 @@ const RAW_CITIES_SEED = [
       "Saint-Herblain sits in the Nantes commuter belt (Loire-Atlantique), served by tramway 1/3. Best fit: families and couples commuting into Nantes, remote workers needing a base nearby.",
     seoTitleEn: "Saint-Herblain — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Herblain (Loire-Atlantique, Pays de la Loire): quality-of-life score 6.3/10. Nantes commuter belt, tramway 1/3.",
+      "Saint-Herblain (Loire-Atlantique, Pays de la Loire): quality-of-life score 5.0/10. Nantes commuter belt, tramway 1/3.",
     scores: {
       global: 6.3,
       life: 6.5,
@@ -12791,7 +12791,7 @@ const RAW_CITIES_SEED = [
       "Rezé is a Nantes-area Loire-Atlantique suburb on the tramway 3 corridor near Loire. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
     seoTitleEn: "Rezé — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Rezé (Loire-Atlantique, Pays de la Loire): quality-of-life score 6.5/10. Nantes commuter belt, tramway 3.",
+      "Rezé (Loire-Atlantique, Pays de la Loire): quality-of-life score 5.4/10. Nantes commuter belt, tramway 3.",
     scores: {
       global: 6.5,
       life: 6.8,
@@ -12853,7 +12853,7 @@ const RAW_CITIES_SEED = [
       "Vertou, Loire-Atlantique, is a Nantes suburb. Best fit: wine-trade workers, semi-retirees, settled couples seeking vineyard living.",
     seoTitleEn: "Vertou — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Vertou (Loire-Atlantique, Pays de la Loire): quality-of-life score 6.8/10. Nantes commuter belt, vignoble Muscadet.",
+      "Vertou (Loire-Atlantique, Pays de la Loire): quality-of-life score 5.5/10. Nantes commuter belt, vignoble Muscadet.",
     scores: {
       global: 6.8,
       life: 7.2,
@@ -12884,7 +12884,7 @@ const RAW_CITIES_SEED = [
       "Schiltigheim, Bas-Rhin, is a Strasbourg suburb on tramway B/E. Best fit: refined-suburb families, dual-income Strasbourg professionals.",
     seoTitleEn: "Schiltigheim — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Schiltigheim (Bas-Rhin, Grand Est): quality-of-life score 6.4/10. Strasbourg commuter belt, tramway B/E.",
+      "Schiltigheim (Bas-Rhin, Grand Est): quality-of-life score 4.9/10. Strasbourg commuter belt, tramway B/E.",
     scores: {
       global: 6.4,
       life: 6.5,
@@ -12915,7 +12915,7 @@ const RAW_CITIES_SEED = [
       "Illkirch-Graffenstaden sits in the Strasbourg commuter belt (Bas-Rhin), served by tramway A near Ill. Best fit: students, junior academics, young professionals on Strasbourg salaries.",
     seoTitleEn: "Illkirch-Graffenstaden — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Illkirch-Graffenstaden (Bas-Rhin, Grand Est): quality-of-life score 6.6/10. Strasbourg commuter belt, tramway A.",
+      "Illkirch-Graffenstaden (Bas-Rhin, Grand Est): quality-of-life score 5.7/10. Strasbourg commuter belt, tramway A.",
     scores: {
       global: 6.6,
       life: 6.8,
@@ -12946,7 +12946,7 @@ const RAW_CITIES_SEED = [
       "Lingolsheim, Bas-Rhin, is a Strasbourg suburb on tramway B. Best fit: wine-trade workers, semi-retirees, settled couples seeking vineyard living.",
     seoTitleEn: "Lingolsheim — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Lingolsheim (Bas-Rhin, Grand Est): quality-of-life score 6.3/10. Strasbourg commuter belt, tramway B.",
+      "Lingolsheim (Bas-Rhin, Grand Est): quality-of-life score 4.5/10. Strasbourg commuter belt, tramway B.",
     scores: {
       global: 6.3,
       life: 6.5,
@@ -13039,7 +13039,7 @@ const RAW_CITIES_SEED = [
       "Saint-Martin-d'Hères sits in the Grenoble commuter belt (Isère), served by tramway B/C. Best fit: students, junior academics, young professionals on Grenoble salaries.",
     seoTitleEn: "Saint-Martin-d'Hères — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Martin-d'Hères (Isère, Auvergne-Rhône-Alpes): quality-of-life score 6.3/10. Grenoble commuter belt, tramway B/C.",
+      "Saint-Martin-d'Hères (Isère, Auvergne-Rhône-Alpes): quality-of-life score 5.3/10. Grenoble commuter belt, tramway B/C.",
     scores: {
       global: 6.3,
       life: 6.2,
@@ -13070,7 +13070,7 @@ const RAW_CITIES_SEED = [
       "Échirolles sits in the Grenoble commuter belt (Isère), served by tramway A. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
     seoTitleEn: "Échirolles — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Échirolles (Isère, Auvergne-Rhône-Alpes): quality-of-life score 5.5/10. Grenoble commuter belt, tramway A.",
+      "Échirolles (Isère, Auvergne-Rhône-Alpes): quality-of-life score 3.7/10. Grenoble commuter belt, tramway A.",
     scores: {
       global: 5.5,
       life: 5.5,
@@ -13132,7 +13132,7 @@ const RAW_CITIES_SEED = [
       "Voiron is a Isère town in Auvergne-Rhône-Alpes near Chartreuse. Best fit: heritage lovers, retirees, families wanting walkable historic centres.",
     seoTitleEn: "Voiron — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Voiron (Isère, Auvergne-Rhône-Alpes): quality-of-life score 6.5/10. Pré-Alpes, Chartreuse.",
+      "Voiron (Isère, Auvergne-Rhône-Alpes): quality-of-life score 5.3/10. Pré-Alpes, Chartreuse.",
     scores: {
       global: 6.5,
       life: 6.8,
@@ -13194,7 +13194,7 @@ const RAW_CITIES_SEED = [
       "Laxou sits in the Nancy commuter belt (Meurthe-et-Moselle), served by tramway 1. Best fit: refined-suburb families, dual-income Nancy professionals.",
     seoTitleEn: "Laxou — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Laxou (Meurthe-et-Moselle, Grand Est): quality-of-life score 6.5/10. Nancy commuter belt, tramway 1.",
+      "Laxou (Meurthe-et-Moselle, Grand Est): quality-of-life score 5.4/10. Nancy commuter belt, tramway 1.",
     scores: {
       global: 6.5,
       life: 7,
@@ -13225,7 +13225,7 @@ const RAW_CITIES_SEED = [
       "Saint-Chamond is a Loire town in Auvergne-Rhône-Alpes near the Pilat regional park. Best fit: engineering and industrial-sector employees tied to the local plant.",
     seoTitleEn: "Saint-Chamond — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Chamond (Loire, Auvergne-Rhône-Alpes): quality-of-life score 5.6/10. Vallée du Gier, industrial.",
+      "Saint-Chamond (Loire, Auvergne-Rhône-Alpes): quality-of-life score 3.9/10. Vallée du Gier, industrial.",
     scores: {
       global: 5.6,
       life: 5.8,
@@ -13256,7 +13256,7 @@ const RAW_CITIES_SEED = [
       "Firminy is a Loire town in Auvergne-Rhône-Alpes near Le Corbusier UNESCO, Pilat. Best fit: engineering and industrial-sector employees tied to the local plant.",
     seoTitleEn: "Firminy — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Firminy (Loire, Auvergne-Rhône-Alpes): quality-of-life score 5.4/10. Vallée de l'Ondaine, Le Corbusier UNESCO.",
+      "Firminy (Loire, Auvergne-Rhône-Alpes): quality-of-life score 3.8/10. Vallée de l'Ondaine, Le Corbusier UNESCO.",
     scores: {
       global: 5.4,
       life: 5.5,
@@ -13287,7 +13287,7 @@ const RAW_CITIES_SEED = [
       "Chenôve is a Dijon-area Côte-d'Or suburb on the tramway T2 corridor. Best fit: coastal-life seekers, semi-retirees, sea-adjacent remote workers.",
     seoTitleEn: "Chenôve — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Chenôve (Côte-d'Or, Bourgogne-Franche-Comté): quality-of-life score 5.8/10. Dijon commuter belt, tramway T2.",
+      "Chenôve (Côte-d'Or, Bourgogne-Franche-Comté): quality-of-life score 4.2/10. Dijon commuter belt, tramway T2.",
     scores: {
       global: 5.8,
       life: 5.8,
@@ -13318,7 +13318,7 @@ const RAW_CITIES_SEED = [
       "Saint-Louis (Haut-Rhin) is a Haut-Rhin cross-border town with Switzerland (Basel / EuroAirport) near EuroAirport. Best fit: cross-border commuters, bilingual professionals.",
     seoTitleEn: "Saint-Louis (Haut-Rhin) — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Louis (Haut-Rhin) (Haut-Rhin, Grand Est): quality-of-life score 6.5/10. Frontière Suisse/Bâle, EuroAirport.",
+      "Saint-Louis (Haut-Rhin) (Haut-Rhin, Grand Est): quality-of-life score 5.3/10. Frontière Suisse/Bâle, EuroAirport.",
     scores: {
       global: 6.5,
       life: 6.8,
@@ -13349,7 +13349,7 @@ const RAW_CITIES_SEED = [
       "Wittenheim is a Haut-Rhin town in Grand Est. Best fit: settlers seeking a quieter Haut-Rhin base, locals rooted in the area.",
     seoTitleEn: "Wittenheim — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Wittenheim (Haut-Rhin, Grand Est): quality-of-life score 5.5/10. Banlieue mulhousienne, bassin potasse.",
+      "Wittenheim (Haut-Rhin, Grand Est): quality-of-life score 4.0/10. Banlieue mulhousienne, bassin potasse.",
     scores: {
       global: 5.5,
       life: 5.8,
@@ -13380,7 +13380,7 @@ const RAW_CITIES_SEED = [
       "Puteaux is a Paris-area Hauts-de-Seine suburb on the tramway T2 corridor near La Défense. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Puteaux — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Puteaux (Hauts-de-Seine, Île-de-France): quality-of-life score 6.8/10. Paris commuter belt, La Défense.",
+      "Puteaux (Hauts-de-Seine, Île-de-France): quality-of-life score 4.5/10. Paris commuter belt, La Défense.",
     scores: {
       global: 6.8,
       life: 7,
@@ -13411,7 +13411,7 @@ const RAW_CITIES_SEED = [
       "Gennevilliers is a Paris-area Hauts-de-Seine suburb on the métro 13 + tramway T1 corridor. Best fit: engineering and industrial-sector employees tied to the local plant.",
     seoTitleEn: "Gennevilliers — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Gennevilliers (Hauts-de-Seine, Île-de-France): quality-of-life score 5.2/10. Paris commuter belt, port industriel.",
+      "Gennevilliers (Hauts-de-Seine, Île-de-France): quality-of-life score 2.8/10. Paris commuter belt, port industriel.",
     scores: {
       global: 5.2,
       life: 5,
@@ -13442,7 +13442,7 @@ const RAW_CITIES_SEED = [
       "Villeneuve-la-Garenne, Hauts-de-Seine, is a Paris suburb on tramway T1 near Seine. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Villeneuve-la-Garenne — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Villeneuve-la-Garenne (Hauts-de-Seine, Île-de-France): quality-of-life score 5.3/10. Paris commuter belt, Seine river.",
+      "Villeneuve-la-Garenne (Hauts-de-Seine, Île-de-France): quality-of-life score 3.0/10. Paris commuter belt, Seine river.",
     scores: {
       global: 5.3,
       life: 5.5,
@@ -13535,7 +13535,7 @@ const RAW_CITIES_SEED = [
       "Nogent-sur-Marne sits in the Paris commuter belt (Val-de-Marne), served by RER A/E near Marne. Best fit: refined-suburb families, dual-income Paris professionals.",
     seoTitleEn: "Nogent-sur-Marne — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Nogent-sur-Marne (Val-de-Marne, Île-de-France): quality-of-life score 7.2/10. Paris commuter belt, Marne river.",
+      "Nogent-sur-Marne (Val-de-Marne, Île-de-France): quality-of-life score 5.2/10. Paris commuter belt, Marne river.",
     scores: {
       global: 7.2,
       life: 7.8,
@@ -13566,7 +13566,7 @@ const RAW_CITIES_SEED = [
       "Choisy-le-Roi sits in the Paris commuter belt (Val-de-Marne), served by RER C + tramway T9 near Seine. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Choisy-le-Roi — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Choisy-le-Roi (Val-de-Marne, Île-de-France): quality-of-life score 5.4/10. Paris commuter belt, Seine river.",
+      "Choisy-le-Roi (Val-de-Marne, Île-de-France): quality-of-life score 3.2/10. Paris commuter belt, Seine river.",
     scores: {
       global: 5.4,
       life: 5.5,
@@ -13597,7 +13597,7 @@ const RAW_CITIES_SEED = [
       "Rosny-sous-Bois, Seine-Saint-Denis, is a Paris suburb on RER E + tramway T1 near Rosny 2 (centre commercial). Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Rosny-sous-Bois — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Rosny-sous-Bois (Seine-Saint-Denis, Île-de-France): quality-of-life score 5.7/10. Paris commuter belt, RER E.",
+      "Rosny-sous-Bois (Seine-Saint-Denis, Île-de-France): quality-of-life score 2.8/10. Paris commuter belt, RER E.",
     scores: {
       global: 5.7,
       life: 5.8,
@@ -13690,7 +13690,7 @@ const RAW_CITIES_SEED = [
       "Tremblay-en-France, Seine-Saint-Denis, is a Paris suburb on RER B. Best fit: engineering and industrial-sector employees tied to the local plant.",
     seoTitleEn: "Tremblay-en-France — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Tremblay-en-France (Seine-Saint-Denis, Île-de-France): quality-of-life score 5.5/10. Paris commuter belt, RER B.",
+      "Tremblay-en-France (Seine-Saint-Denis, Île-de-France): quality-of-life score 2.8/10. Paris commuter belt, RER B.",
     scores: {
       global: 5.5,
       life: 5.8,
@@ -13721,7 +13721,7 @@ const RAW_CITIES_SEED = [
       "Noisy-le-Sec, Seine-Saint-Denis, is a Paris suburb on RER E + tramway T1. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Noisy-le-Sec — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Noisy-le-Sec (Seine-Saint-Denis, Île-de-France): quality-of-life score 5.3/10. Paris commuter belt, RER E.",
+      "Noisy-le-Sec (Seine-Saint-Denis, Île-de-France): quality-of-life score 2.8/10. Paris commuter belt, RER E.",
     scores: {
       global: 5.3,
       life: 5.5,
@@ -13783,7 +13783,7 @@ const RAW_CITIES_SEED = [
       "Houilles sits in the Paris commuter belt (Yvelines), served by RER A near Seine. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Houilles — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Houilles (Yvelines, Île-de-France): quality-of-life score 6.3/10. Paris commuter belt, RER A.",
+      "Houilles (Yvelines, Île-de-France): quality-of-life score 4.2/10. Paris commuter belt, RER A.",
     scores: {
       global: 6.3,
       life: 6.5,
@@ -13814,7 +13814,7 @@ const RAW_CITIES_SEED = [
       "Conflans-Sainte-Honorine is a Paris-area Yvelines suburb on the Transilien J corridor near Seine. Best fit: heritage lovers, retirees, families wanting walkable historic centres.",
     seoTitleEn: "Conflans-Sainte-Honorine — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Conflans-Sainte-Honorine (Yvelines, Île-de-France): quality-of-life score 6.2/10. Paris commuter belt, Seine river.",
+      "Conflans-Sainte-Honorine (Yvelines, Île-de-France): quality-of-life score 4.7/10. Paris commuter belt, Seine river.",
     scores: {
       global: 6.2,
       life: 6.5,
@@ -13845,7 +13845,7 @@ const RAW_CITIES_SEED = [
       "Montigny-le-Bretonneux is a Paris-area Yvelines suburb on the Transilien N corridor near Saint-Quentin-en-Yvelines. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Montigny-le-Bretonneux — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Montigny-le-Bretonneux (Yvelines, Île-de-France): quality-of-life score 6.7/10. Saint-Quentin-en-Yvelines, ville nouvelle.",
+      "Montigny-le-Bretonneux (Yvelines, Île-de-France): quality-of-life score 5.1/10. Saint-Quentin-en-Yvelines, ville nouvelle.",
     scores: {
       global: 6.7,
       life: 7,
@@ -13876,7 +13876,7 @@ const RAW_CITIES_SEED = [
       "Guyancourt is a Paris-area Yvelines suburb near Saint-Quentin-en-Yvelines, Technocentre Renault. Best fit: engineering and industrial-sector employees tied to the local plant.",
     seoTitleEn: "Guyancourt — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Guyancourt (Yvelines, Île-de-France): quality-of-life score 6.5/10. Saint-Quentin-en-Yvelines, Technocentre Renault.",
+      "Guyancourt (Yvelines, Île-de-France): quality-of-life score 5.1/10. Saint-Quentin-en-Yvelines, Technocentre Renault.",
     scores: {
       global: 6.5,
       life: 6.8,
@@ -13907,7 +13907,7 @@ const RAW_CITIES_SEED = [
       "Forbach is a Moselle cross-border town with Germany (Sarrebruck just over the border). Best fit: cross-border commuters, bilingual professionals.",
     seoTitleEn: "Forbach — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Forbach (Moselle, Grand Est): quality-of-life score 5.5/10. Germany border, Saarbrücken close by.",
+      "Forbach (Moselle, Grand Est): quality-of-life score 4.7/10. Germany border, Saarbrücken close by.",
     scores: {
       global: 5.5,
       life: 5.5,
@@ -13938,7 +13938,7 @@ const RAW_CITIES_SEED = [
       "Sarreguemines is a Moselle cross-border town with Germany near Sarre. Best fit: cross-border commuters, bilingual professionals.",
     seoTitleEn: "Sarreguemines — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Sarreguemines (Moselle, Grand Est): quality-of-life score 5.8/10. Germany border, faïenceries.",
+      "Sarreguemines (Moselle, Grand Est): quality-of-life score 4.4/10. Germany border, faïenceries.",
     scores: {
       global: 5.8,
       life: 6,
@@ -13969,7 +13969,7 @@ const RAW_CITIES_SEED = [
       "Saint-Avold is a Moselle town in Grand Est. Best fit: engineering and industrial-sector employees tied to the local plant.",
     seoTitleEn: "Saint-Avold — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Avold (Moselle, Grand Est): quality-of-life score 5.4/10. Bassin houiller, Lorraine.",
+      "Saint-Avold (Moselle, Grand Est): quality-of-life score 3.6/10. Bassin houiller, Lorraine.",
     scores: {
       global: 5.4,
       life: 5.5,
@@ -14000,7 +14000,7 @@ const RAW_CITIES_SEED = [
       "Lanester sits in the Lorient commuter belt (Morbihan) near Scorff. Best fit: families and couples commuting into Lorient, remote workers needing a base nearby.",
     seoTitleEn: "Lanester — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Lanester (Morbihan, Brittany): quality-of-life score 5.8/10. Banlieue Lorient, Scorff.",
+      "Lanester (Morbihan, Brittany): quality-of-life score 4.6/10. Banlieue Lorient, Scorff.",
     scores: {
       global: 5.8,
       life: 6,
@@ -14031,7 +14031,7 @@ const RAW_CITIES_SEED = [
       "Hérouville-Saint-Clair, Calvados, is a Caen suburb on tramway T1. Best fit: families and couples commuting into Caen, remote workers needing a base nearby.",
     seoTitleEn: "Hérouville-Saint-Clair — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Hérouville-Saint-Clair (Calvados, Normandy): quality-of-life score 5.8/10. Banlieue Caen, tramway T1/T2.",
+      "Hérouville-Saint-Clair (Calvados, Normandy): quality-of-life score 4.4/10. Banlieue Caen, tramway T1/T2.",
     scores: {
       global: 5.8,
       life: 5.8,
@@ -14062,7 +14062,7 @@ const RAW_CITIES_SEED = [
       "Olivet, Loiret, is a Orléans suburb on tramway A near Loiret. Best fit: refined-suburb families, dual-income Orléans professionals.",
     seoTitleEn: "Olivet — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Olivet (Loiret, Centre-Val de Loire): quality-of-life score 6.8/10. Orléans commuter belt, Loiret.",
+      "Olivet (Loiret, Centre-Val de Loire): quality-of-life score 5.6/10. Orléans commuter belt, Loiret.",
     scores: {
       global: 6.8,
       life: 7.2,
@@ -14155,7 +14155,7 @@ const RAW_CITIES_SEED = [
       "Cavaillon is a Vaucluse Mediterranean / Provençal town. Best fit: settlers seeking a quieter Vaucluse base, locals rooted in the area.",
     seoTitleEn: "Cavaillon — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Cavaillon (Vaucluse, Provence-Alpes-Côte d'Azur): quality-of-life score 5.7/10. Provence, Luberon.",
+      "Cavaillon (Vaucluse, Provence-Alpes-Côte d'Azur): quality-of-life score 3.9/10. Provence, Luberon.",
     scores: {
       global: 5.7,
       life: 6,
@@ -14186,7 +14186,7 @@ const RAW_CITIES_SEED = [
       "Pertuis is a Vaucluse Mediterranean / Provençal town. Best fit: settlers seeking a quieter Vaucluse base, locals rooted in the area.",
     seoTitleEn: "Pertuis — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Pertuis (Vaucluse, Provence-Alpes-Côte d'Azur): quality-of-life score 6.2/10. Provence, Luberon.",
+      "Pertuis (Vaucluse, Provence-Alpes-Côte d'Azur): quality-of-life score 4.9/10. Provence, Luberon.",
     scores: {
       global: 6.2,
       life: 6.8,
@@ -14217,7 +14217,7 @@ const RAW_CITIES_SEED = [
       "Allauch is a Bouches-du-Rhône Mediterranean / Provençal town. Best fit: settlers seeking a quieter Bouches-du-Rhône base, locals rooted in the area.",
     seoTitleEn: "Allauch — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Allauch (Bouches-du-Rhône, Provence-Alpes-Côte d'Azur): quality-of-life score 6.8/10. Provence, collines.",
+      "Allauch (Bouches-du-Rhône, Provence-Alpes-Côte d'Azur): quality-of-life score 5.3/10. Provence, collines.",
     scores: {
       global: 6.8,
       life: 7.5,
@@ -14248,7 +14248,7 @@ const RAW_CITIES_SEED = [
       "Trélazé sits in the Angers commuter belt (Maine-et-Loire). Best fit: heritage lovers, retirees, families wanting walkable historic centres.",
     seoTitleEn: "Trélazé — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Trélazé (Maine-et-Loire, Pays de la Loire): quality-of-life score 5.7/10. Banlieue Angers, ardoisières.",
+      "Trélazé (Maine-et-Loire, Pays de la Loire): quality-of-life score 4.2/10. Banlieue Angers, ardoisières.",
     scores: {
       global: 5.7,
       life: 5.8,
@@ -14279,7 +14279,7 @@ const RAW_CITIES_SEED = [
       "Corbeil-Essonnes, Essonne, is a Paris suburb on RER D near Seine. Best fit: engineering and industrial-sector employees tied to the local plant.",
     seoTitleEn: "Corbeil-Essonnes — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Corbeil-Essonnes (Essonne, Île-de-France): quality-of-life score 5.2/10. South-Paris commuter belt, Seine river.",
+      "Corbeil-Essonnes (Essonne, Île-de-France): quality-of-life score 2.8/10. South-Paris commuter belt, Seine river.",
     scores: {
       global: 5.2,
       life: 5.2,
@@ -14341,7 +14341,7 @@ const RAW_CITIES_SEED = [
       "Athis-Mons is a Paris-area Essonne suburb on the RER C corridor near Seine. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Athis-Mons — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Athis-Mons (Essonne, Île-de-France): quality-of-life score 5.6/10. South-Paris commuter belt, RER C.",
+      "Athis-Mons (Essonne, Île-de-France): quality-of-life score 3.7/10. South-Paris commuter belt, RER C.",
     scores: {
       global: 5.6,
       life: 5.8,
@@ -14372,7 +14372,7 @@ const RAW_CITIES_SEED = [
       "Yerres sits in the Paris commuter belt (Essonne), served by RER D near Yerres, Caillebotte. Best fit: refined-suburb families, dual-income Paris professionals.",
     seoTitleEn: "Yerres — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Yerres (Essonne, Île-de-France): quality-of-life score 6.7/10. South-Paris commuter belt, RER D.",
+      "Yerres (Essonne, Île-de-France): quality-of-life score 5.5/10. South-Paris commuter belt, RER D.",
     scores: {
       global: 6.7,
       life: 7,
@@ -14403,7 +14403,7 @@ const RAW_CITIES_SEED = [
       "Brunoy, Essonne, is a Paris suburb on RER D near Yerres. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Brunoy — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Brunoy (Essonne, Île-de-France): quality-of-life score 6.4/10. South-Paris commuter belt, RER D.",
+      "Brunoy (Essonne, Île-de-France): quality-of-life score 5.2/10. South-Paris commuter belt, RER D.",
     scores: {
       global: 6.4,
       life: 6.8,
@@ -14434,7 +14434,7 @@ const RAW_CITIES_SEED = [
       "Sainte-Geneviève-des-Bois is a Paris-area Essonne suburb on the RER C corridor near Donjon. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Sainte-Geneviève-des-Bois — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Sainte-Geneviève-des-Bois (Essonne, Île-de-France): quality-of-life score 6.1/10. South-Paris commuter belt, RER C.",
+      "Sainte-Geneviève-des-Bois (Essonne, Île-de-France): quality-of-life score 4.6/10. South-Paris commuter belt, RER C.",
     scores: {
       global: 6.1,
       life: 6.3,
@@ -14465,7 +14465,7 @@ const RAW_CITIES_SEED = [
       "Palaiseau is a Paris-area Essonne suburb on the RER B corridor near Plateau Saclay, École Polytechnique. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Palaiseau — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Palaiseau (Essonne, Île-de-France): quality-of-life score 6.7/10. South-Paris commuter belt, Plateau Saclay.",
+      "Palaiseau (Essonne, Île-de-France): quality-of-life score 5.6/10. South-Paris commuter belt, Plateau Saclay.",
     scores: {
       global: 6.7,
       life: 7,
@@ -14496,7 +14496,7 @@ const RAW_CITIES_SEED = [
       "Draveil, Essonne, is a Paris suburb near Sénart (forêt), Seine. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Draveil — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Draveil (Essonne, Île-de-France): quality-of-life score 6.3/10. South-Paris commuter belt, Sénart (forêt).",
+      "Draveil (Essonne, Île-de-France): quality-of-life score 5.0/10. South-Paris commuter belt, Sénart (forêt).",
     scores: {
       global: 6.3,
       life: 6.5,
@@ -14527,7 +14527,7 @@ const RAW_CITIES_SEED = [
       "Viry-Châtillon, Essonne, is a Paris suburb on RER C/D near Seine. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Viry-Châtillon — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Viry-Châtillon (Essonne, Île-de-France): quality-of-life score 5.7/10. South-Paris commuter belt, RER C/D.",
+      "Viry-Châtillon (Essonne, Île-de-France): quality-of-life score 3.9/10. South-Paris commuter belt, RER C/D.",
     scores: {
       global: 5.7,
       life: 5.8,
@@ -14558,7 +14558,7 @@ const RAW_CITIES_SEED = [
       "Le Plessis-Robinson sits in the Paris commuter belt (Hauts-de-Seine), served by tramway T6. Best fit: refined-suburb families, dual-income Paris professionals.",
     seoTitleEn: "Le Plessis-Robinson — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Le Plessis-Robinson (Hauts-de-Seine, Île-de-France): quality-of-life score 7.2/10. Paris commuter belt, tramway T6.",
+      "Le Plessis-Robinson (Hauts-de-Seine, Île-de-France): quality-of-life score 5.1/10. Paris commuter belt, tramway T6.",
     scores: {
       global: 7.2,
       life: 7.5,
@@ -14589,7 +14589,7 @@ const RAW_CITIES_SEED = [
       "Sèvres is a Paris-area Hauts-de-Seine suburb on the tramway T2 corridor near Seine, Manufacture porcelaine. Best fit: refined-suburb families, dual-income Paris professionals.",
     seoTitleEn: "Sèvres — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Sèvres (Hauts-de-Seine, Île-de-France): quality-of-life score 7.3/10. Paris commuter belt, Seine river.",
+      "Sèvres (Hauts-de-Seine, Île-de-France): quality-of-life score 5.2/10. Paris commuter belt, Seine river.",
     scores: {
       global: 7.3,
       life: 7.5,
@@ -14620,7 +14620,7 @@ const RAW_CITIES_SEED = [
       "Chelles sits in the Paris commuter belt (Seine-et-Marne), served by RER E near Marne. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Chelles — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Chelles (Seine-et-Marne, Île-de-France): quality-of-life score 6.1/10. East-Paris commuter belt, RER E.",
+      "Chelles (Seine-et-Marne, Île-de-France): quality-of-life score 4.8/10. East-Paris commuter belt, RER E.",
     scores: {
       global: 6.1,
       life: 6.3,
@@ -14651,7 +14651,7 @@ const RAW_CITIES_SEED = [
       "Melun is a Seine-et-Marne town in Île-de-France near Seine. Best fit: heritage lovers, retirees, families wanting walkable historic centres.",
     seoTitleEn: "Melun — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Melun (Seine-et-Marne, Île-de-France): quality-of-life score 5.8/10. Préfecture 77, Seine river.",
+      "Melun (Seine-et-Marne, Île-de-France): quality-of-life score 4.9/10. Préfecture 77, Seine river.",
     scores: {
       global: 5.8,
       life: 6,
@@ -14682,7 +14682,7 @@ const RAW_CITIES_SEED = [
       "Pontault-Combault is a Paris-area Seine-et-Marne suburb on the RER E corridor. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Pontault-Combault — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Pontault-Combault (Seine-et-Marne, Île-de-France): quality-of-life score 6.2/10. East-Paris commuter belt, RER E.",
+      "Pontault-Combault (Seine-et-Marne, Île-de-France): quality-of-life score 5.0/10. East-Paris commuter belt, RER E.",
     scores: {
       global: 6.2,
       life: 6.5,
@@ -14713,7 +14713,7 @@ const RAW_CITIES_SEED = [
       "Savigny-le-Temple sits in the Paris commuter belt (Seine-et-Marne), served by RER D near Sénart. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Savigny-le-Temple — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Savigny-le-Temple (Seine-et-Marne, Île-de-France): quality-of-life score 5.8/10. South-east-Paris commuter belt, Sénart.",
+      "Savigny-le-Temple (Seine-et-Marne, Île-de-France): quality-of-life score 4.4/10. South-east-Paris commuter belt, Sénart.",
     scores: {
       global: 5.8,
       life: 6,
@@ -14744,7 +14744,7 @@ const RAW_CITIES_SEED = [
       "Torcy is a Paris-area Seine-et-Marne suburb on the RER A corridor near Val-d'Europe / Marne-la-Vallée. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Torcy — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Torcy (Seine-et-Marne, Île-de-France): quality-of-life score 6.3/10. East-Paris commuter belt, Val-d'Europe / Marne-la-Vallée.",
+      "Torcy (Seine-et-Marne, Île-de-France): quality-of-life score 5.1/10. East-Paris commuter belt, Val-d'Europe / Marne-la-Vallée.",
     scores: {
       global: 6.3,
       life: 6.5,
@@ -14806,7 +14806,7 @@ const RAW_CITIES_SEED = [
       "Champs-sur-Marne is a Paris-area Seine-et-Marne suburb on the RER A corridor near Cité Descartes. Best fit: students, junior academics, young professionals on Paris salaries.",
     seoTitleEn: "Champs-sur-Marne — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Champs-sur-Marne (Seine-et-Marne, Île-de-France): quality-of-life score 6.5/10. East-Paris commuter belt, RER A.",
+      "Champs-sur-Marne (Seine-et-Marne, Île-de-France): quality-of-life score 5.7/10. East-Paris commuter belt, RER A.",
     scores: {
       global: 6.5,
       life: 6.8,
@@ -14837,7 +14837,7 @@ const RAW_CITIES_SEED = [
       "Noisiel is a Paris-area Seine-et-Marne suburb on the RER A corridor near Marne. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Noisiel — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Noisiel (Seine-et-Marne, Île-de-France): quality-of-life score 6.2/10. East-Paris commuter belt, RER A.",
+      "Noisiel (Seine-et-Marne, Île-de-France): quality-of-life score 5.1/10. East-Paris commuter belt, RER A.",
     scores: {
       global: 6.2,
       life: 6.5,
@@ -14868,7 +14868,7 @@ const RAW_CITIES_SEED = [
       "Saint-André (Réunion), Réunion. Best fit: French overseas-life seekers comfortable with tropical climate and isolation.",
     seoTitleEn: "Saint-André (Réunion) — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-André (Réunion) (Réunion): quality-of-life score 5.5/10. Océan Indien, côte nord-est.",
+      "Saint-André (Réunion) (Réunion): quality-of-life score 3.6/10. Océan Indien, côte nord-est.",
     scores: {
       global: 5.5,
       life: 5.5,
@@ -14899,7 +14899,7 @@ const RAW_CITIES_SEED = [
       "Saint-Louis (Réunion) is a Réunion commune near Cilaos. Best fit: French overseas-life seekers comfortable with tropical climate and isolation.",
     seoTitleEn: "Saint-Louis (Réunion) — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Louis (Réunion) (Réunion): quality-of-life score 5.4/10. Océan Indien, Sud Réunion.",
+      "Saint-Louis (Réunion) (Réunion): quality-of-life score 3.5/10. Océan Indien, Sud Réunion.",
     scores: {
       global: 5.4,
       life: 5.5,
@@ -14930,7 +14930,7 @@ const RAW_CITIES_SEED = [
       "Saint-Joseph (Réunion) sits on the Réunion coast near Grand-Bois. Best fit: French overseas-life seekers comfortable with tropical climate and isolation.",
     seoTitleEn: "Saint-Joseph (Réunion) — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Joseph (Réunion) (Réunion): quality-of-life score 5.6/10. Océan Indien, sud sauvage.",
+      "Saint-Joseph (Réunion) (Réunion): quality-of-life score 3.8/10. Océan Indien, sud sauvage.",
     scores: {
       global: 5.6,
       life: 6,
@@ -14961,7 +14961,7 @@ const RAW_CITIES_SEED = [
       "Saint-Benoît (Réunion), Réunion near Takamaka. Best fit: coastal-life seekers, semi-retirees, sea-adjacent remote workers.",
     seoTitleEn: "Saint-Benoît (Réunion) — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Benoît (Réunion) (Réunion): quality-of-life score 5.4/10. Océan Indien, côte au vent.",
+      "Saint-Benoît (Réunion) (Réunion): quality-of-life score 3.7/10. Océan Indien, côte au vent.",
     scores: {
       global: 5.4,
       life: 5.8,
@@ -14992,7 +14992,7 @@ const RAW_CITIES_SEED = [
       "Le Robert (Martinique) is a Martinique commune. Best fit: coastal-life seekers, semi-retirees, sea-adjacent remote workers.",
     seoTitleEn: "Le Robert (Martinique) — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Le Robert (Martinique) (Martinique): quality-of-life score 5.8/10. Mer des Caraïbes, fonds blancs.",
+      "Le Robert (Martinique) (Martinique): quality-of-life score 3.9/10. Mer des Caraïbes, fonds blancs.",
     scores: {
       global: 5.8,
       life: 6.2,
@@ -15023,7 +15023,7 @@ const RAW_CITIES_SEED = [
       "Le François (Martinique) sits on the Martinique coast. Best fit: French overseas-life seekers comfortable with tropical climate and isolation.",
     seoTitleEn: "Le François (Martinique) — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Le François (Martinique) (Martinique): quality-of-life score 5.7/10. Mer des Caraïbes, fonds blancs.",
+      "Le François (Martinique) (Martinique): quality-of-life score 3.8/10. Mer des Caraïbes, fonds blancs.",
     scores: {
       global: 5.7,
       life: 6,
@@ -15054,7 +15054,7 @@ const RAW_CITIES_SEED = [
       "Saint-Médard-en-Jalles, Gironde, is a Bordeaux suburb on tramway C near ArianeGroup. Best fit: wine-trade workers, semi-retirees, settled couples seeking vineyard living.",
     seoTitleEn: "Saint-Médard-en-Jalles — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Médard-en-Jalles (Gironde, Nouvelle-Aquitaine): quality-of-life score 6.7/10. Bordeaux commuter belt, ArianeGroup.",
+      "Saint-Médard-en-Jalles (Gironde, Nouvelle-Aquitaine): quality-of-life score 5.3/10. Bordeaux commuter belt, ArianeGroup.",
     scores: {
       global: 6.7,
       life: 7,
@@ -15085,7 +15085,7 @@ const RAW_CITIES_SEED = [
       "Tassin-la-Demi-Lune is a Lyon-area Métropole de Lyon suburb on the tramway T6 corridor near Monts d'Or. Best fit: refined-suburb families, dual-income Lyon professionals.",
     seoTitleEn: "Tassin-la-Demi-Lune — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Tassin-la-Demi-Lune (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 7.2/10. Lyon commuter belt, tramway T6.",
+      "Tassin-la-Demi-Lune (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 5.9/10. Lyon commuter belt, tramway T6.",
     scores: {
       global: 7.2,
       life: 7.5,
@@ -15138,7 +15138,7 @@ const RAW_CITIES_SEED = [
       "Charenton-le-Pont is a Val-de-Marne town in Île-de-France near Bercy 2. Best fit: settlers seeking a quieter Val-de-Marne base, locals rooted in the area.",
     seoTitleEn: "Charenton-le-Pont — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Charenton-le-Pont (Val-de-Marne, Île-de-France): quality-of-life score 6.8/10. Métro 8, confluence Seine-Marne.",
+      "Charenton-le-Pont (Val-de-Marne, Île-de-France): quality-of-life score 4.6/10. Métro 8, confluence Seine-Marne.",
     scores: { global: 6.8, life: 7, transport: 8.5, nature: 6, cost: 4, safety: 7, culture: 6.5, remoteWork: 7, schools: 7 },
   },
   {
@@ -15180,7 +15180,7 @@ const RAW_CITIES_SEED = [
       "Bourg-la-Reine is a Hauts-de-Seine town in Île-de-France. Best fit: settlers seeking a quieter Hauts-de-Seine base, locals rooted in the area.",
     seoTitleEn: "Bourg-la-Reine — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Bourg-la-Reine (Hauts-de-Seine, Île-de-France): quality-of-life score 6.9/10. RER B, residential.",
+      "Bourg-la-Reine (Hauts-de-Seine, Île-de-France): quality-of-life score 4.8/10. RER B, residential.",
     scores: { global: 6.9, life: 7.2, transport: 8, nature: 6, cost: 4, safety: 7.5, culture: 6, remoteWork: 7, schools: 8 },
   },
   {
@@ -15201,7 +15201,7 @@ const RAW_CITIES_SEED = [
       "Châtillon is a Hauts-de-Seine town in Île-de-France. Best fit: settlers seeking a quieter Hauts-de-Seine base, locals rooted in the area.",
     seoTitleEn: "Châtillon — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Châtillon (Hauts-de-Seine, Île-de-France): quality-of-life score 6.4/10. Métro 13, tramway T6.",
+      "Châtillon (Hauts-de-Seine, Île-de-France): quality-of-life score 4.1/10. Métro 13, tramway T6.",
     scores: { global: 6.4, life: 6.5, transport: 8, nature: 5.5, cost: 5, safety: 6.5, culture: 6, remoteWork: 6.5, schools: 6.5 },
   },
   {
@@ -15222,7 +15222,7 @@ const RAW_CITIES_SEED = [
       "Malakoff is a Hauts-de-Seine town in Île-de-France. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
     seoTitleEn: "Malakoff — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Malakoff (Hauts-de-Seine, Île-de-France): quality-of-life score 6.3/10. Métro 13, limitrophe Paris.",
+      "Malakoff (Hauts-de-Seine, Île-de-France): quality-of-life score 4.0/10. Métro 13, limitrophe Paris.",
     scores: { global: 6.3, life: 6.5, transport: 8, nature: 5, cost: 5, safety: 6.5, culture: 6.5, remoteWork: 6.5, schools: 6.5 },
   },
   {
@@ -15243,7 +15243,7 @@ const RAW_CITIES_SEED = [
       "Bagneux is a Hauts-de-Seine town in Île-de-France. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
     seoTitleEn: "Bagneux — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Bagneux (Hauts-de-Seine, Île-de-France): quality-of-life score 5.8/10. Métro 4 prolongé, grand ensemble.",
+      "Bagneux (Hauts-de-Seine, Île-de-France): quality-of-life score 3.2/10. Métro 4 prolongé, grand ensemble.",
     scores: { global: 5.8, life: 6, transport: 7.5, nature: 5, cost: 5.5, safety: 5.5, culture: 5.5, remoteWork: 6, schools: 6 },
   },
   {
@@ -15264,7 +15264,7 @@ const RAW_CITIES_SEED = [
       "Châtenay-Malabry is a Hauts-de-Seine town in Île-de-France. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
     seoTitleEn: "Châtenay-Malabry — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Châtenay-Malabry (Hauts-de-Seine, Île-de-France): quality-of-life score 6.5/10. RER B Robinson, parc de Sceaux.",
+      "Châtenay-Malabry (Hauts-de-Seine, Île-de-France): quality-of-life score 4.4/10. RER B Robinson, parc de Sceaux.",
     scores: { global: 6.5, life: 6.8, transport: 6.5, nature: 7, cost: 5, safety: 6.5, culture: 6, remoteWork: 6.5, schools: 7 },
   },
   {
@@ -15285,7 +15285,7 @@ const RAW_CITIES_SEED = [
       "Fresnes is a Val-de-Marne town in Île-de-France. Best fit: settlers seeking a quieter Val-de-Marne base, locals rooted in the area.",
     seoTitleEn: "Fresnes — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Fresnes (Val-de-Marne, Île-de-France): quality-of-life score 5.7/10. RER B Antony, Cerise.",
+      "Fresnes (Val-de-Marne, Île-de-France): quality-of-life score 3.1/10. RER B Antony, Cerise.",
     scores: { global: 5.7, life: 5.8, transport: 6, nature: 5.5, cost: 5.5, safety: 5.5, culture: 5.5, remoteWork: 5.8, schools: 5.8 },
   },
   {
@@ -15306,7 +15306,7 @@ const RAW_CITIES_SEED = [
       "Cachan is a Val-de-Marne town in Île-de-France. Best fit: students, junior academics, young professionals on Val-de-Marne salaries.",
     seoTitleEn: "Cachan — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Cachan (Val-de-Marne, Île-de-France): quality-of-life score 6.5/10. RER B, ex-ENS Cachan.",
+      "Cachan (Val-de-Marne, Île-de-France): quality-of-life score 4.6/10. RER B, ex-ENS Cachan.",
     scores: { global: 6.5, life: 6.8, transport: 7.5, nature: 5.5, cost: 4.5, safety: 6.5, culture: 7, remoteWork: 7, schools: 7.5 },
   },
   {
@@ -15327,7 +15327,7 @@ const RAW_CITIES_SEED = [
       "Arcueil is a Val-de-Marne town in Île-de-France. Best fit: settlers seeking a quieter Val-de-Marne base, locals rooted in the area.",
     seoTitleEn: "Arcueil — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Arcueil (Val-de-Marne, Île-de-France): quality-of-life score 6.3/10. RER B, aqueduc.",
+      "Arcueil (Val-de-Marne, Île-de-France): quality-of-life score 4.3/10. RER B, aqueduc.",
     scores: { global: 6.3, life: 6.5, transport: 8, nature: 5.5, cost: 5, safety: 6, culture: 6.5, remoteWork: 6.5, schools: 6.5 },
   },
   {
@@ -15369,7 +15369,7 @@ const RAW_CITIES_SEED = [
       "Le Kremlin-Bicêtre is a Val-de-Marne town in Île-de-France. Best fit: settlers seeking a quieter Val-de-Marne base, locals rooted in the area.",
     seoTitleEn: "Le Kremlin-Bicêtre — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Le Kremlin-Bicêtre (Val-de-Marne, Île-de-France): quality-of-life score 6.4/10. Métro 7, CHU Bicêtre.",
+      "Le Kremlin-Bicêtre (Val-de-Marne, Île-de-France): quality-of-life score 4.0/10. Métro 7, CHU Bicêtre.",
     scores: { global: 6.4, life: 6.5, transport: 8.5, nature: 5, cost: 5, safety: 6, culture: 6.5, remoteWork: 6.5, schools: 6.5 },
   },
   {
@@ -15432,7 +15432,7 @@ const RAW_CITIES_SEED = [
       "Eaubonne is a Val-d'Oise town in Île-de-France. Best fit: settlers seeking a quieter Val-d'Oise base, locals rooted in the area.",
     seoTitleEn: "Eaubonne — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Eaubonne (Val-d'Oise, Île-de-France): quality-of-life score 6.2/10. Ligne H, residential.",
+      "Eaubonne (Val-d'Oise, Île-de-France): quality-of-life score 4.3/10. Ligne H, residential.",
     scores: { global: 6.2, life: 6.5, transport: 6.5, nature: 6.5, cost: 5.5, safety: 6.5, culture: 5.5, remoteWork: 6, schools: 6.5 },
   },
   {
@@ -15453,7 +15453,7 @@ const RAW_CITIES_SEED = [
       "Goussainville is a Val-d'Oise town in Île-de-France. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
     seoTitleEn: "Goussainville — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Goussainville (Val-d'Oise, Île-de-France): quality-of-life score 4.8/10. RER D, accès CDG.",
+      "Goussainville (Val-d'Oise, Île-de-France): quality-of-life score 2.8/10. RER D, accès CDG.",
     scores: { global: 4.8, life: 5, transport: 6, nature: 5, cost: 6.5, safety: 4.5, culture: 4.5, remoteWork: 5, schools: 5 },
   },
   {
@@ -15474,7 +15474,7 @@ const RAW_CITIES_SEED = [
       "Saint-Leu-la-Forêt is a Val-d'Oise town in Île-de-France. Best fit: settlers seeking a quieter Val-d'Oise base, locals rooted in the area.",
     seoTitleEn: "Saint-Leu-la-Forêt — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Leu-la-Forêt (Val-d'Oise, Île-de-France): quality-of-life score 6.5/10. Ligne H, forêt de Montmorency.",
+      "Saint-Leu-la-Forêt (Val-d'Oise, Île-de-France): quality-of-life score 4.9/10. Ligne H, forêt de Montmorency.",
     scores: { global: 6.5, life: 7, transport: 6, nature: 8, cost: 5, safety: 7, culture: 5.5, remoteWork: 6.5, schools: 7 },
   },
   {
@@ -15516,7 +15516,7 @@ const RAW_CITIES_SEED = [
       "Montmorency is a Val-d'Oise town in Île-de-France near Rousseau. Best fit: settlers seeking a quieter Val-d'Oise base, locals rooted in the area.",
     seoTitleEn: "Montmorency — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Montmorency (Val-d'Oise, Île-de-France): quality-of-life score 6.4/10. Collégiale historique, forêt de Montmorency.",
+      "Montmorency (Val-d'Oise, Île-de-France): quality-of-life score 4.8/10. Collégiale historique, forêt de Montmorency.",
     scores: { global: 6.4, life: 6.8, transport: 6, nature: 7, cost: 5, safety: 6.5, culture: 6.5, remoteWork: 6, schools: 7 },
   },
   {
@@ -15558,7 +15558,7 @@ const RAW_CITIES_SEED = [
       "Vélizy-Villacoublay is a Yvelines town in Île-de-France near Dassault Aviation, Vélizy 2. Best fit: engineering and industrial-sector employees tied to the local plant.",
     seoTitleEn: "Vélizy-Villacoublay — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Vélizy-Villacoublay (Yvelines, Île-de-France): quality-of-life score 6.5/10. Tramway T6, Dassault Aviation.",
+      "Vélizy-Villacoublay (Yvelines, Île-de-France): quality-of-life score 4.6/10. Tramway T6, Dassault Aviation.",
     scores: { global: 6.5, life: 6.8, transport: 6.5, nature: 6.5, cost: 4.5, safety: 7, culture: 6.5, remoteWork: 7, schools: 7 },
   },
   {
@@ -15579,7 +15579,7 @@ const RAW_CITIES_SEED = [
       "Le Chesnay-Rocquencourt is a Yvelines town in Île-de-France. Best fit: refined-suburb families, dual-income Yvelines professionals.",
     seoTitleEn: "Le Chesnay-Rocquencourt — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Le Chesnay-Rocquencourt (Yvelines, Île-de-France): quality-of-life score 6.8/10. Limitrophe Versailles, upmarket residential.",
+      "Le Chesnay-Rocquencourt (Yvelines, Île-de-France): quality-of-life score 4.8/10. Limitrophe Versailles, upmarket residential.",
     scores: { global: 6.8, life: 7, transport: 6, nature: 7, cost: 4.5, safety: 7.5, culture: 7, remoteWork: 6.5, schools: 7.5 },
   },
   {
@@ -15600,7 +15600,7 @@ const RAW_CITIES_SEED = [
       "Élancourt sits in the Paris commuter belt (Yvelines) near Saint-Quentin-en-Yvelines. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
     seoTitleEn: "Élancourt — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Élancourt (Yvelines, Île-de-France): quality-of-life score 6.3/10. Saint-Quentin-en-Yvelines, colline point culminant IDF.",
+      "Élancourt (Yvelines, Île-de-France): quality-of-life score 4.3/10. Saint-Quentin-en-Yvelines, colline point culminant IDF.",
     scores: { global: 6.3, life: 6.5, transport: 5.5, nature: 7, cost: 5.5, safety: 6.5, culture: 5.5, remoteWork: 6.5, schools: 6.5 },
   },
   {
@@ -15644,7 +15644,7 @@ const RAW_CITIES_SEED = [
       "Saint-Omer is a Pas-de-Calais town in Hauts-de-France near Audomarois, UNESCO biosphère. Best fit: heritage lovers, retirees, families wanting walkable historic centres.",
     seoTitleEn: "Saint-Omer — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Omer (Pas-de-Calais, Hauts-de-France): quality-of-life score 5.8/10. Audomarois, cathédrale Notre-Dame.",
+      "Saint-Omer (Pas-de-Calais, Hauts-de-France): quality-of-life score 4.1/10. Audomarois, cathédrale Notre-Dame.",
     scores: { global: 5.8, life: 6.2, transport: 5.5, nature: 7.5, cost: 6.5, safety: 6, culture: 6.5, remoteWork: 5.5, schools: 6 },
   },
   {
@@ -15665,7 +15665,7 @@ const RAW_CITIES_SEED = [
       "Hazebrouck is a Nord town in Hauts-de-France. Best fit: settlers seeking a quieter Nord base, locals rooted in the area.",
     seoTitleEn: "Hazebrouck — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Hazebrouck (Nord, Hauts-de-France): quality-of-life score 5.7/10. Flandre intérieure, gare nœud.",
+      "Hazebrouck (Nord, Hauts-de-France): quality-of-life score 4.0/10. Flandre intérieure, gare nœud.",
     scores: { global: 5.7, life: 6, transport: 6.5, nature: 6.5, cost: 6.5, safety: 6, culture: 5.5, remoteWork: 5.8, schools: 6 },
   },
   {
@@ -15686,7 +15686,7 @@ const RAW_CITIES_SEED = [
       "Armentières is a Nord town on the Belgian border near Lys. Best fit: cross-border commuters, bilingual professionals.",
     seoTitleEn: "Armentières — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Armentières (Nord, Hauts-de-France): quality-of-life score 5.5/10. Banlieue lilloise, Lys.",
+      "Armentières (Nord, Hauts-de-France): quality-of-life score 3.4/10. Banlieue lilloise, Lys.",
     scores: { global: 5.5, life: 5.8, transport: 6, nature: 5.5, cost: 6.5, safety: 5.5, culture: 5.5, remoteWork: 5.8, schools: 5.8 },
   },
   {
@@ -15707,7 +15707,7 @@ const RAW_CITIES_SEED = [
       "Maubeuge is a Nord town on the Belgian border near Sambre. Best fit: engineering and industrial-sector employees tied to the local plant.",
     seoTitleEn: "Maubeuge — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Maubeuge (Nord, Hauts-de-France): quality-of-life score 4.5/10. Sambre, Belgium border.",
+      "Maubeuge (Nord, Hauts-de-France): quality-of-life score 2.8/10. Sambre, Belgium border.",
     scores: { global: 4.5, life: 4.8, transport: 5.5, nature: 5.5, cost: 7, safety: 4.5, culture: 5, remoteWork: 4.8, schools: 4.8 },
   },
   {
@@ -15728,7 +15728,7 @@ const RAW_CITIES_SEED = [
       "Denain is part of the Nord former coal-basin (UNESCO mining heritage). Best fit: engineering and industrial-sector employees tied to the local plant.",
     seoTitleEn: "Denain — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Denain (Nord, Hauts-de-France): quality-of-life score 4.2/10. Former coal basin, ancien sidérurgique.",
+      "Denain (Nord, Hauts-de-France): quality-of-life score 2.8/10. Former coal basin, ancien sidérurgique.",
     scores: { global: 4.2, life: 4.5, transport: 5.5, nature: 5, cost: 7.5, safety: 4, culture: 4.5, remoteWork: 4.5, schools: 4.5 },
   },
   {
@@ -15749,7 +15749,7 @@ const RAW_CITIES_SEED = [
       "Hénin-Beaumont is part of the Pas-de-Calais former coal-basin (UNESCO mining heritage). Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
     seoTitleEn: "Hénin-Beaumont — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Hénin-Beaumont (Pas-de-Calais, Hauts-de-France): quality-of-life score 4.8/10. Former coal basin, UNESCO mining.",
+      "Hénin-Beaumont (Pas-de-Calais, Hauts-de-France): quality-of-life score 2.8/10. Former coal basin, UNESCO mining.",
     scores: { global: 4.8, life: 5, transport: 6, nature: 5.5, cost: 7, safety: 5, culture: 5, remoteWork: 5, schools: 5 },
   },
   {
@@ -15770,7 +15770,7 @@ const RAW_CITIES_SEED = [
       "Berck is a Pas-de-Calais town in Hauts-de-France near Côte d'Opale. Best fit: coastal-life seekers, semi-retirees, sea-adjacent remote workers.",
     seoTitleEn: "Berck — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Berck (Pas-de-Calais, Hauts-de-France): quality-of-life score 5.5/10. Côte d'Opale, cerf-volant.",
+      "Berck (Pas-de-Calais, Hauts-de-France): quality-of-life score 3.7/10. Côte d'Opale, cerf-volant.",
     scores: { global: 5.5, life: 6, transport: 4.5, nature: 8, cost: 6.5, safety: 6, culture: 5.5, remoteWork: 5.5, schools: 5.5 },
   },
   // Grand Est / Alsace
@@ -15792,7 +15792,7 @@ const RAW_CITIES_SEED = [
       "Montigny-lès-Metz is a Metz-area Moselle suburb on the Mettis BHNS corridor near Moselle. Best fit: families and couples commuting into Metz, remote workers needing a base nearby.",
     seoTitleEn: "Montigny-lès-Metz — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Montigny-lès-Metz (Moselle, Grand Est): quality-of-life score 6.2/10. Banlieue Metz, Mettis BHNS.",
+      "Montigny-lès-Metz (Moselle, Grand Est): quality-of-life score 4.8/10. Banlieue Metz, Mettis BHNS.",
     scores: { global: 6.2, life: 6.5, transport: 7, nature: 6, cost: 5.8, safety: 6.5, culture: 6, remoteWork: 6.5, schools: 6.8 },
   },
   {
@@ -15813,7 +15813,7 @@ const RAW_CITIES_SEED = [
       "Hayange is a Moselle town in Grand Est. Best fit: wine-trade workers, semi-retirees, settled couples seeking vineyard living.",
     seoTitleEn: "Hayange — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Hayange (Moselle, Grand Est): quality-of-life score 4.8/10. Sidérurgie historique, Fensch.",
+      "Hayange (Moselle, Grand Est): quality-of-life score 2.8/10. Sidérurgie historique, Fensch.",
     scores: { global: 4.8, life: 5, transport: 5.5, nature: 5.5, cost: 7, safety: 5, culture: 4.8, remoteWork: 5, schools: 5 },
   },
   {
@@ -15834,7 +15834,7 @@ const RAW_CITIES_SEED = [
       "Riedisheim sits in the Mulhouse commuter belt (Haut-Rhin). Best fit: families and couples commuting into Mulhouse, remote workers needing a base nearby.",
     seoTitleEn: "Riedisheim — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Riedisheim (Haut-Rhin, Grand Est): quality-of-life score 6.3/10. Banlieue Mulhouse, residential.",
+      "Riedisheim (Haut-Rhin, Grand Est): quality-of-life score 4.6/10. Banlieue Mulhouse, residential.",
     scores: { global: 6.3, life: 6.5, transport: 6.5, nature: 6.5, cost: 6, safety: 6.8, culture: 5.5, remoteWork: 6.2, schools: 6.5 },
   },
   {
@@ -15855,7 +15855,7 @@ const RAW_CITIES_SEED = [
       "Kingersheim is a Mulhouse-area Haut-Rhin suburb. Best fit: families and couples commuting into Mulhouse, remote workers needing a base nearby.",
     seoTitleEn: "Kingersheim — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Kingersheim (Haut-Rhin, Grand Est): quality-of-life score 6.1/10. Banlieue Mulhouse, démocratie participative.",
+      "Kingersheim (Haut-Rhin, Grand Est): quality-of-life score 4.5/10. Banlieue Mulhouse, démocratie participative.",
     scores: { global: 6.1, life: 6.3, transport: 6.5, nature: 6, cost: 6, safety: 6.5, culture: 6, remoteWork: 6, schools: 6.3 },
   },
   // Métropole de Lyon
@@ -15877,7 +15877,7 @@ const RAW_CITIES_SEED = [
       "Saint-Genis-Laval is a Lyon-area Métropole de Lyon suburb on the métro B (extended 2024) corridor near Observatoire. Best fit: families and couples commuting into Lyon, remote workers needing a base nearby.",
     seoTitleEn: "Saint-Genis-Laval — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Saint-Genis-Laval (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 6.8/10. Banlieue lyonnaise sud, métro B prolongé 2024.",
+      "Saint-Genis-Laval (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 5.4/10. Banlieue lyonnaise sud, métro B prolongé 2024.",
     scores: { global: 6.8, life: 7, transport: 7, nature: 7, cost: 5, safety: 7, culture: 6, remoteWork: 6.8, schools: 7 },
   },
   {
@@ -15919,7 +15919,7 @@ const RAW_CITIES_SEED = [
       "Rillieux-la-Pape sits in the Lyon commuter belt (Métropole de Lyon). Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
     seoTitleEn: "Rillieux-la-Pape — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Rillieux-la-Pape (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 5.6/10. Banlieue lyonnaise nord, Plateau.",
+      "Rillieux-la-Pape (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 3.9/10. Banlieue lyonnaise nord, Plateau.",
     scores: { global: 5.6, life: 5.8, transport: 6.5, nature: 6, cost: 6, safety: 5.5, culture: 5.5, remoteWork: 6, schools: 6 },
   },
   {
@@ -15961,7 +15961,7 @@ const RAW_CITIES_SEED = [
       "Oullins-Pierre-Bénite is a Lyon-area Métropole de Lyon suburb on the métro B prolongé corridor near Rhône. Best fit: families and couples commuting into Lyon, remote workers needing a base nearby.",
     seoTitleEn: "Oullins-Pierre-Bénite — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Oullins-Pierre-Bénite (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 6.4/10. Commune nouvelle 2024, métro B prolongé.",
+      "Oullins-Pierre-Bénite (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 4.6/10. Commune nouvelle 2024, métro B prolongé.",
     scores: { global: 6.4, life: 6.5, transport: 7.5, nature: 6, cost: 5.5, safety: 6, culture: 5.8, remoteWork: 6.5, schools: 6.5 },
   },
   // Haute-Savoie / Ain
@@ -15983,7 +15983,7 @@ const RAW_CITIES_SEED = [
       "Sallanches is a Haute-Savoie town in Auvergne-Rhône-Alpes. Best fit: mountain-life seekers, outdoor professionals, ski-season workers.",
     seoTitleEn: "Sallanches — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Sallanches (Haute-Savoie, Auvergne-Rhône-Alpes): quality-of-life score 6.6/10. Pays du Mont-Blanc, accès Chamonix.",
+      "Sallanches (Haute-Savoie, Auvergne-Rhône-Alpes): quality-of-life score 4.9/10. Pays du Mont-Blanc, accès Chamonix.",
     scores: { global: 6.6, life: 7, transport: 6, nature: 8.5, cost: 5, safety: 7, culture: 5.5, remoteWork: 6.5, schools: 6.5 },
   },
   {
@@ -16004,7 +16004,7 @@ const RAW_CITIES_SEED = [
       "Ambérieu-en-Bugey is a Ain town in Auvergne-Rhône-Alpes. Best fit: settlers seeking a quieter Ain base, locals rooted in the area.",
     seoTitleEn: "Ambérieu-en-Bugey — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Ambérieu-en-Bugey (Ain, Auvergne-Rhône-Alpes): quality-of-life score 5.9/10. Nœud ferroviaire, TER Lyon 35min.",
+      "Ambérieu-en-Bugey (Ain, Auvergne-Rhône-Alpes): quality-of-life score 4.0/10. Nœud ferroviaire, TER Lyon 35min.",
     scores: { global: 5.9, life: 6, transport: 6.8, nature: 7, cost: 6.5, safety: 6, culture: 5, remoteWork: 6.2, schools: 5.8 },
   },
   // Normandie
@@ -16026,7 +16026,7 @@ const RAW_CITIES_SEED = [
       "Vernon is a Eure town in Normandy near Giverny (Monet's gardens). Best fit: settlers seeking a quieter Eure base, locals rooted in the area.",
     seoTitleEn: "Vernon — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Vernon (Eure, Normandy): quality-of-life score 6.2/10. Bords de Seine, Giverny nearby.",
+      "Vernon (Eure, Normandy): quality-of-life score 4.9/10. Bords de Seine, Giverny nearby.",
     scores: { global: 6.2, life: 6.5, transport: 6, nature: 7, cost: 6, safety: 6.2, culture: 6.5, remoteWork: 6.2, schools: 6.2 },
   },
   {
@@ -16047,7 +16047,7 @@ const RAW_CITIES_SEED = [
       "Sotteville-lès-Rouen is a Rouen-area Seine-Maritime suburb. Best fit: families and couples commuting into Rouen, remote workers needing a base nearby.",
     seoTitleEn: "Sotteville-lès-Rouen — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Sotteville-lès-Rouen (Seine-Maritime, Normandy): quality-of-life score 5.9/10. Banlieue Rouen, Métrobus T4.",
+      "Sotteville-lès-Rouen (Seine-Maritime, Normandy): quality-of-life score 4.0/10. Banlieue Rouen, Métrobus T4.",
     scores: { global: 5.9, life: 6, transport: 7, nature: 5.5, cost: 6, safety: 5.8, culture: 6, remoteWork: 6.2, schools: 6 },
   },
   {
@@ -16068,7 +16068,7 @@ const RAW_CITIES_SEED = [
       "Le Grand-Quevilly, Seine-Maritime, is a Rouen suburb on tramway T. Best fit: families and couples commuting into Rouen, remote workers needing a base nearby.",
     seoTitleEn: "Le Grand-Quevilly — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Le Grand-Quevilly (Seine-Maritime, Normandy): quality-of-life score 5.9/10. Banlieue Rouen sud, tramway TEOR.",
+      "Le Grand-Quevilly (Seine-Maritime, Normandy): quality-of-life score 4.0/10. Banlieue Rouen sud, tramway TEOR.",
     scores: { global: 5.9, life: 6, transport: 6.8, nature: 5.5, cost: 6, safety: 6, culture: 5.8, remoteWork: 6.2, schools: 6 },
   },
   {
@@ -16089,7 +16089,7 @@ const RAW_CITIES_SEED = [
       "Mont-Saint-Aignan is a Rouen-area Seine-Maritime suburb. Best fit: students, junior academics, young professionals on Rouen salaries.",
     seoTitleEn: "Mont-Saint-Aignan — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Mont-Saint-Aignan (Seine-Maritime, Normandy): quality-of-life score 6.8/10. Banlieue Rouen nord, plateau.",
+      "Mont-Saint-Aignan (Seine-Maritime, Normandy): quality-of-life score 5.7/10. Banlieue Rouen nord, plateau.",
     scores: { global: 6.8, life: 7, transport: 6.5, nature: 7, cost: 5, safety: 7, culture: 6.5, remoteWork: 6.8, schools: 7.5 },
   },
   // Oise
@@ -16111,7 +16111,7 @@ const RAW_CITIES_SEED = [
       "Chantilly is a Oise town in Hauts-de-France. Best fit: heritage lovers, retirees, families wanting walkable historic centres.",
     seoTitleEn: "Chantilly — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Chantilly (Oise, Hauts-de-France): quality-of-life score 7.2/10. Château, hippodrome.",
+      "Chantilly (Oise, Hauts-de-France): quality-of-life score 6.0/10. Château, hippodrome.",
     scores: { global: 7.2, life: 7.5, transport: 7, nature: 8, cost: 4, safety: 7.5, culture: 7.5, remoteWork: 7, schools: 7.5 },
   },
   {
@@ -16153,7 +16153,7 @@ const RAW_CITIES_SEED = [
       "Méru is a Oise town in Hauts-de-France. Best fit: settlers seeking a quieter Oise base, locals rooted in the area.",
     seoTitleEn: "Méru — Quality of life, reviews & 2026 rankings",
     seoDescriptionEn:
-      "Méru (Oise, Hauts-de-France): quality-of-life score 5.7/10. Pays de Thelle, Transilien H.",
+      "Méru (Oise, Hauts-de-France): quality-of-life score 4.0/10. Pays de Thelle, Transilien H.",
     scores: { global: 5.7, life: 5.8, transport: 6.3, nature: 6.5, cost: 6.5, safety: 5.8, culture: 5.5, remoteWork: 5.8, schools: 5.8 },
   },
 ];

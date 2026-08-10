@@ -1128,23 +1128,40 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
   `search-index:check` (`data/search-index.en.json` 565 → 575 guides, 76 tags) et
   `npm run parity` (code 0, 0 route FR sans jumelle) passent.
 
-- **Trouvé en passant, non corrigé — les guides citent les scores *bruts* du seed, les pages
-  affichent les scores *normalisés*.** Un guide qui écrit « sécurité 7,8/10 (source :
-  `data/cities-seed.ts`) » pour Rennes dit vrai sur le **fichier** — le littéral y est bien
-  7.8 — mais `/villes/rennes` affiche **5,9**, parce que `CITIES_SEED` est
+- **Les guides citaient les scores *bruts* du seed, les pages affichent les *normalisés* —
+  corrigé, 1 026 chiffres, et gardé.** Un guide qui écrivait « sécurité 7,8/10 (source :
+  `data/cities-seed.ts`) » pour Rennes disait vrai sur le **fichier** — le littéral y est bien
+  7.8 — mais `/villes/rennes` affiche **5,9**, parce que `CITIES_SEED` vaut
   `normalizeDistribution(RAW_CITIES_SEED.map(calibrateScores))` et que c'est cette valeur-là
-  que rendent les pages. L'écart n'est pas cosmétique : sécurité Rennes 7,8 → 5,9, Grenoble
-  6,7 → 4,3, Toulon 6,2 → 4,1 ; global Toulon 7,1 → 5,0, Aix 8,2 → 6,5 ; écoles Toulon
-  6,8 → 4,5. Un lecteur qui clique du guide vers la fiche ville voit deux nombres différents
-  pour la même chose. **Périmètre : 116 passages FR et 91 EN** portant la mention
-  `source : data/cities-seed.ts`, plus les champs `descriptionEn` / `seoDescriptionEn` du seed
-  lui-même (« quality-of-life score 8.2/10 » pour Rennes). Ce run n'a **pas** divergé : les dix
-  guides EN reprennent exactement les chiffres de leurs jumelles FR, parce qu'une divergence
-  FR/EN serait un bug de plus, pas une correction. Le correctif est corpus-wide et éditorial
-  (les phrases sont construites *sur* ces nombres : « quatre curseurs alignés au-dessus de 7 »
-  devient faux à 5,9), donc il ne tient pas dans un run de parité — à traiter comme un chantier
-  propre, en tranchant d'abord la question de fond : ce sont les **guides** qui doivent citer
-  la valeur affichée, ou le seed dont les littéraux doivent être réalignés.
+  que rendent les pages. L'écart allait jusqu'à 2,3 points (sécurité Toulon 6,2 → 4,1, Grenoble
+  6,7 → 4,3 ; global Toulon 7,1 → 5,0, Ajaccio 7,4 → 4,9 ; écoles Toulon 6,8 → 4,5), et un
+  lecteur qui cliquait du guide vers la fiche ville voyait deux nombres pour la même chose.
+
+  **Ce qui a été repris**, en quatre passes de prudence décroissante, chacune vérifiée :
+  ① **522 chiffres** (314 FR, 208 EN) réécrits mécaniquement — la règle n'autorisait la
+  réécriture que si le chiffre valait **exactement** le littéral brut d'**une seule** ville-axe
+  plausible ; garde-fou : hors chiffres décimaux, les deux fichiers sont restés byte-identiques.
+  ② **31 citations « Score retraite / étudiant / MaVilleIdéale »** rattachées par le **titre de
+  section** (ces guides sont des listicles, le titre nomme la ville) et réalignées sur les vrais
+  moteurs — `computeNicheScores().retirement` et `.studentLife` dérivaient aussi.
+  ③ **48 cas résiduels tranchés à la main**, là où aucune attribution automatique n'était sûre.
+  ④ **31 phrases dont l'affirmation ne tenait plus** : « quatre curseurs alignés au-dessus de
+  7 » (Rennes n'en a plus que trois), « pas de curseur en dessous de 7 » (Dijon), « le score le
+  plus bas des dix candidats » (Aix en transports, Rouen en sécurité — Toulon et Grenoble sont
+  dessous), « le meilleur du top 10 » (Lille en coût — Strasbourg est devant), « the lowest of
+  the top-10 outside Marseille » (Lille — Montpellier est plus bas). Chaque superlatif conservé
+  a été **revérifié contre le seed**, pas seulement relu.
+  ⑤ **486 citations dans les champs EN du seed** (`descriptionEn` / `seoDescriptionEn`) — la
+  meta description de 502 pages ville anglaises annonçait un score que la page contredisait.
+
+  **La régression est maintenant impossible en silence** : `npm run integrity` échoue si une
+  citation collée à un nom d'axe vaut le littéral brut d'une ville alors que la page affiche
+  autre chose. Contrôle volontairement étroit (cette signature ne se produit pas par hasard,
+  donc zéro faux positif ; il ne prétend pas voir les chiffres inventés). Vérifié dans les deux
+  sens : il passe sur le corpus corrigé, et il rattrape une valeur brute réintroduite à la main.
+  ⚠️ Ce qu'il **ne** dit pas : le seed reste un fichier où l'on lit `safety: 7.8` pour une ville
+  notée 5,9. Écrire depuis les littéraux est donc toujours le réflexe naturel — le contrôle est
+  un filet, pas une correction de la source.
 
 ---
 

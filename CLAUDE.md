@@ -83,6 +83,22 @@ components/
 `score-calibration.ts`. Don't touch `score-distribution.ts` for a single
 city — the rescaler is designed to keep relative ranking stable.
 
+⚠️ **Never quote a seed literal in copy — quote what the page renders.**
+`data/cities-seed.ts` holds the *raw* values (Rennes `safety: 7.8`); every
+surface renders `CITIES_SEED`, i.e. the calibrated + normalized value (Rennes
+5,9). Writing « sécurité 7,8/10 (source : `data/cities-seed.ts`) » is therefore
+true of the *file* and contradicted by `/villes/rennes` in one click. That is
+exactly how 1 026 figures drifted across the guide corpus and the seed's own EN
+meta fields before the 2026-08-10 fix (gaps up to 2,3 points; ROADMAP § Shipped
+2026-08-10 has the full account). Read the value through the module — a scratch
+`npx tsx` that imports `@/data/cities-seed` — never by grepping the seed source.
+`npm run integrity` now fails when a figure sitting next to an axis name equals a
+city's raw literal while the page shows something else. It is a narrow guard by
+design (no false positives, and it cannot see an invented number), so it is a net,
+not a substitute for reading. Niche scores have the same trap: `Score retraite` /
+`Score étudiant` come from `computeNicheScores()` (`lib/niche-scores.ts`), not
+from any seed field.
+
 ## Score colour scale (6 tiers — applied in lib/utils.ts, CityCard, FranceHeatmap, DromStrip, CarteClient, ScoreBar, all opengraph-image.tsx)
 
 | Range  | Colour  | Count (352 cities) | Meaning        |
@@ -225,7 +241,7 @@ Pattern to follow: `app/villes/[slug]/climat/page.tsx`.
 npm install
 npm run dev          # http://localhost:3000 (Turbopack)
 npx tsc --noEmit     # strict TS pass (currently clean)
-npm run integrity    # rejoue les gardes de lib/data-integrity hors build — 2 s. **À LANCER AVANT DE POUSSER UN BATCH DE CONTENU.**
+npm run integrity    # gardes de lib/data-integrity + contrôle des scores cités dans les guides (bruts vs rendus) hors build — 2 s. **À LANCER AVANT DE POUSSER UN BATCH DE CONTENU.**
 npm run build        # full SSG build — 56 185 pages, ~15 min (le « ~3 000 » historique est très obsolète)
 npm run lint         # 231 errors / 27 warnings (mostly @next/next/no-html-link-for-pages — harmless under output:"export" — plus residual react/no-unescaped-entities; none are runtime bugs). See latest docs/audit-*.md for the rule breakdown.
 ```
