@@ -1167,6 +1167,89 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ---
 
+## Shipped 2026-08-11
+
+- **Parité EN — ouverture de la série `studying-in-[city]-2026` (batch 1, +10 : Paris, Lyon,
+  Toulouse, Lille, Bordeaux, Montpellier, Rennes, Strasbourg, Nantes, Grenoble)** ✅ —
+  `npm run parity` sort en code 0 (215 FR / 164 EN, 0 route sans jumelle) : la parité de routes
+  tient, le run a donc travaillé le corpus. **`EN_GUIDES` 575 → 585.**
+
+  **Pourquoi cette série plutôt que celle annoncée.** Le point d'étape du 10/08 désignait
+  `vacances-celibataire-[destination]-2026` (15 FR / 0 EN) comme prochaine série sans miroir.
+  Elle a été écartée après mesure : le regroupement des slugs FR par série montre des trous bien
+  plus larges et à bien plus forte intention relocation — `travail-a-[ville]` 30/0,
+  `etudiant-a-[ville]` 20/0 + `universites-[ville]` 15/0, `famille-a-[ville]` 19/0,
+  `demenager-a-[ville]` 50 contre 4 `moving-to-*`. Et surtout, la section « Point à trancher »
+  ci-dessus propose de **désindexer `/vacations/*`** (211 impressions, 0 clic, position 75-78,
+  dilution du signal thématique) : écrire 15 guides EN de vacances pendant qu'on envisage de
+  noindexer les pages de vacances existantes n'a pas de sens. Le côté étudiant international est
+  l'inverse — c'est une audience entrante réelle, et l'EN n'avait **aucun** guide par ville.
+
+  **Un seul miroir EN pour deux séries FR, volontairement.** Le FR porte `etudiant-a-[ville]`
+  (20) *et* `universites-[ville]` (15), qui se recouvrent largement. Les fusionner côté EN en une
+  seule série par ville est une décision anti-cannibalisation, exactement le défaut corrigé par
+  les trois lots de dédoublonnage du 04/06 (EN 546 → 531) : deux pages EN quasi identiques par
+  ville se seraient concurrencées sur la même requête. Les 10 villes retenues sont celles qui ont
+  les **deux** sources FR, donc la matière la plus riche. Le national existant
+  (`studying-in-france-non-eu-students-guide`, `best-french-cities-international-students`) n'est
+  pas touché : per-city contre national, ce sont des entités distinctes.
+
+  **Ce que la version EN ajoute et que le FR n'a aucune raison de contenir** — c'est le cœur du
+  « natif, jamais traduit ». ① La **bourse CROUS sur critères sociaux (145-620 €/mois) est en
+  pratique fermée aux étudiants non-UE** sous titre de séjour étudiant : les guides FR la
+  présentent comme l'aide centrale, un lecteur étranger qui construit son budget dessus se
+  trompe de plusieurs centaines d'euros par mois. Les 10 guides le disent explicitement.
+  ② À l'inverse, **APL/ALS est ouverte** aux étudiants étrangers titulaires d'un titre de séjour
+  valide, et ③ **Visale** (gratuit, moins de 30 ans) est *l'*outil qui remplace le garant
+  physique résidant en France à 3× le loyer — le vrai mur pour un candidat étranger, pas le prix.
+  ④ La procédure **Études en France / Campus France** et la validation en ligne du VLS-TS dans
+  les 3 mois. ⑤ La distinction **grade de master / titre RNCP**, qui ne se convertit pas à
+  l'étranger comme un lecteur anglophone le suppose. ⑥ Le droit au travail à 60 % de la durée
+  annuelle légale.
+
+  **Angles propres à chaque ville, pas un gabarit rempli** : la Cité Internationale Universitaire
+  (14e, 5 800 lits, dossier 12-18 mois à l'avance) comme seule voie CROUS pensée pour les
+  étrangers à Paris ; la Catho de Lille qui se lit en anglais comme « the university of Lille »
+  sans l'être, à 6 000-9 000 €/an contre ~170 € ; la Braderie de Lille (premier week-end de
+  septembre) qui tombe sur la semaine d'emménagement ; les stages rémunérés des institutions
+  européennes à Strasbourg (1 800-2 500 €/mois) dont les conditions de nationalité diffèrent
+  entre Parlement, Conseil de l'Europe et Cour, et le travail frontalier en Allemagne dont le
+  titre de séjour français **n'autorise pas** l'exercice ; les emplois cyber-défense de
+  Cesson-Sévigné fermés aux non-nationaux ; l'accès instruments à Grenoble (ILL, ESRF, CEA-Leti)
+  contre la monoculture microélectronique et la ZFE Crit'Air 3 ; l'entrée en médecine à
+  Montpellier qui suppose une scolarité secondaire française malgré la faculté de 1220 ; les
+  fusions récentes de Rennes (2023) et Nantes (2022), qui exposent un candidat étranger à un
+  diplôme émis sous un nom institutionnel transitoire — d'où le conseil de faire confirmer par
+  écrit l'établissement qui délivre.
+
+  **Contrôles.** `npx tsc --noEmit` propre (⚠️ `node_modules` était absent du conteneur au début
+  du run : `tsc` renvoyait 42 758 erreurs `Cannot find module 'next'` qui n'ont rien à voir avec
+  le code — `npm install` avant de conclure quoi que ce soit d'un `tsc` en session fraîche).
+  `npm run integrity` : 540 villes, 933 guides FR, **585 EN**, **0 score brut recopié des deux
+  côtés**. `npm run search-index` + `search-index:check` (`data/search-index.en.json` 575 → 585
+  guides, 76 → 79 tags). `npm run parity` code 0. Un contrôle *ad hoc* a comparé, ville par
+  ville, chaque nombre cité côté EN à l'ensemble des nombres du guide FR `universites-[ville]` :
+  **trois valeurs seulement** n'y figurent pas, toutes justifiées — `170` (frais d'inscription
+  en fac publique, cité par le guide FR de Lille), `750`/`1 100` (loyers parisiens, cités par le
+  guide FR de Paris, repris dans le guide de Lyon comme point de comparaison) et `60` (le taux
+  légal de travail autorisé). Les scores cités sont les valeurs **rendues** lues via
+  `CITIES_SEED`, jamais les littéraux du seed.
+
+  `metaTitle` 54-57 caractères, `metaDesc` 147-153, 6 sections par guide. Aucun tag de région
+  nouveau (`ile-de-france`, `auvergne-rhone-alpes`, `occitanie`, `hauts-de-france`,
+  `nouvelle-aquitaine`, `brittany`, `grand-est`, `pays-de-la-loire` existaient tous) ; les 10 tags
+  `studying in [city]` restent sous le seuil `MIN_GUIDES_PER_TAG = 3` et ne créent donc **aucune**
+  page `/tags/[slug]` maigre — seul `student housing france` (10 guides) en crée une. Le sitemap
+  dérive de `EN_GUIDES`, aucun chunk à éditer à la main.
+
+  **Prochain run** : batch 2 de la série, sur les villes qui n'ont que `etudiant-a-[ville]`
+  (Amiens, Angers, Besançon, Caen, Limoges, Marseille, Poitiers, Tours) ou que
+  `universites-[ville]` (Aix-en-Provence, Nice, Clermont-Ferrand, Nancy, Dijon) — Marseille, Nice
+  et Aix d'abord, ce sont les trois à plus forte notoriété internationale. La série FR pesant 35
+  guides sur deux séries, la parité de cette famille est atteinte autour de 23 guides EN.
+
+---
+
 ## Shipped 2026-08-10
 
 - **Parité EN — série `single-parent-in-[city]-2026` fermée (batch 2, +10 : Rennes, Nancy,

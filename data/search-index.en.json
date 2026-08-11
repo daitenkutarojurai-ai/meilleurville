@@ -2875,6 +2875,56 @@
       "slug": "single-parent-in-toulon-2026",
       "title": "Single Parent in Toulon (2026): T3 at €1,050, Sun and a Harbour",
       "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "studying-in-paris-2026",
+      "title": "Studying in Paris (2026): what it actually costs a foreign student",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-lyon-2026",
+      "title": "Studying in Lyon (2026): France's second campus, at half the Paris price",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-toulouse-2026",
+      "title": "Studying in Toulouse (2026): aerospace, cheap rent, and the cycle nobody warns you about",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-lille-2026",
+      "title": "Studying in Lille (2026): the cheapest big student city in France",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-bordeaux-2026",
+      "title": "Studying in Bordeaux (2026): great city, tightening housing market",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-montpellier-2026",
+      "title": "Studying in Montpellier (2026): Europe's oldest medical faculty, and the sea at 12 km",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-rennes-2026",
+      "title": "Studying in Rennes (2026): the highest-scoring student city in France",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-strasbourg-2026",
+      "title": "Studying in Strasbourg (2026): a top-4 French university on the German border",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-nantes-2026",
+      "title": "Studying in Nantes (2026): design, engineering and a tightening rental market",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-grenoble-2026",
+      "title": "Studying in Grenoble (2026): physics, microelectronics and the cheapest rooms in France",
+      "emoji": "🎓"
     }
   ],
   "tags": [
@@ -2906,17 +2956,22 @@
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 32
+      "count": 34
     },
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 24
+      "count": 25
     },
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 22
+      "count": 23
+    },
+    {
+      "slug": "hauts-de-france",
+      "label": "hauts-de-france",
+      "count": 21
     },
     {
       "slug": "expat-single-parent",
@@ -2924,8 +2979,8 @@
       "count": 20
     },
     {
-      "slug": "hauts-de-france",
-      "label": "hauts-de-france",
+      "slug": "ile-de-france",
+      "label": "ile de france",
       "count": 20
     },
     {
@@ -2934,24 +2989,19 @@
       "count": 20
     },
     {
-      "slug": "ile-de-france",
-      "label": "ile de france",
-      "count": 19
+      "slug": "auvergne-rhone-alpes",
+      "label": "auvergne-rhone-alpes",
+      "count": 18
+    },
+    {
+      "slug": "brittany",
+      "label": "brittany",
+      "count": 17
     },
     {
       "slug": "provence",
       "label": "provence",
       "count": 17
-    },
-    {
-      "slug": "auvergne-rhone-alpes",
-      "label": "auvergne-rhone-alpes",
-      "count": 16
-    },
-    {
-      "slug": "brittany",
-      "label": "brittany",
-      "count": 16
     },
     {
       "slug": "budget",
@@ -2979,13 +3029,13 @@
       "count": 15
     },
     {
-      "slug": "cost-of-living",
-      "label": "cost of living",
-      "count": 13
-    },
-    {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
+      "count": 14
+    },
+    {
+      "slug": "cost-of-living",
+      "label": "cost of living",
       "count": 13
     },
     {
@@ -3002,6 +3052,21 @@
       "slug": "normandy",
       "label": "normandy",
       "count": 12
+    },
+    {
+      "slug": "international-students",
+      "label": "international students",
+      "count": 11
+    },
+    {
+      "slug": "student-visa-france",
+      "label": "student visa france",
+      "count": 11
+    },
+    {
+      "slug": "student-housing-france",
+      "label": "student housing france",
+      "count": 10
     },
     {
       "slug": "bretagne",
