@@ -132,12 +132,53 @@ Mirror the FR script's discipline, not its content:
    campaign with an end date.
 4. **Press/directories** as a slower-burn parallel track.
 
-## What needs sign-off before it happens
+## Research pass — completed 2026-08-11
 
-Per policy, I haven't contacted anyone. Before wave 1 goes out I need:
-- Confirmation to proceed with the research pass (harmless — no outbound)
-- Review of the actual target list once built
-- Explicit go-ahead on the send, same as any outreach — this is messaging
-  third parties on your behalf
+Verified via direct fetch of each site's own contact page where possible
+(not just search-snippet guesses — same discipline as resolving mairie
+addresses by INSEE code rather than trusting a third-party directory). Emails
+marked "unverified" came back redacted or ambiguous in search results and
+need a direct visit before use. **Nothing below has been contacted.**
 
-Let me know if you want me to start the research pass.
+### Press (segment 3) — journalism angle: "a sourced, independent ranking tool for the expat wave," not "please link us"
+
+| Outlet | Contact | Source | Notes |
+|---|---|---|---|
+| FrenchEntrée | editor@frenchentree.com | fetched directly from their contact page | Largest property/relocation outlet in this space; already covers regions we have `where-to-buy-in-[city]` guides for — pitch the specific city guide, not the whole site |
+| The Local France | ben.mcpartland@thelocal.com (Managing Editor) | fetched directly from About Us page | Also has a general contact form at thelocal.fr/contact; journalist Emma Albright covers practical/lifestyle France stories |
+| The Connexion | news@connexionfrance.com | search summary — verify on connexionfrance.com/Contact-Us before use | 31,000+ subscribers, explicitly solicits reader story tips |
+| France Today Magazine | *unverified* — editor is Justin Postlethwaite, domain redacted in search results | needs direct visit to francetoday.com/contact-2/ | Lower priority — print-first, slower cycle |
+
+### Bloggers (segment 1) — resource-for-your-readers angle, NOT a guest-post pitch
+
+| Blog | Contact | Notes |
+|---|---|---|
+| FrenchEntrée (also a blog network) | see above | — |
+| Oui In France (Diane) | ouiinfrance@gmail.com | **Explicitly states no unsolicited guest posts** — fine, our ask isn't a guest post. Large, established, covers practical living-in-France topics. |
+| Annie André | contact form on annieandre.com/contact/ (email redacted) | **Also explicitly not accepting guest posts** — same note as above applies |
+| French Moments (Pierre) | pierre@frenchmoments.eu *(search returned `.com`, but the site itself is `.eu` — use the contact form at frenchmoments.eu/contact-us/ instead of guessing the domain)* | Has a "Work with us" page, so partnership-shaped asks are explicitly welcome |
+| Living Dordogne | contact form on living-dordogne.com | Regional focus fits our region-level content well |
+| Expat on a Budget (Substack) | reply to newsletter / Substack "about" page | Newsletter format — a mention here reaches an engaged inbox list, not just a static page |
+
+### Directories (segment 4) — self-serve, lowest effort, no cold email needed
+
+- **FeedSpot "35 Best Living in France Blogs"** (bloggers.feedspot.com/living_in_france_blogs/) has a live "Submit Your Blog" form. Worth trying even though we're a tools/data site rather than a personal blog — FeedSpot lists mix in resource sites.
+- **ExpatsBlog.com/blogs/france** — directory listing, likely has a submission path (not yet confirmed).
+- Complete France's "useful blogs written by expats" roundup and Expat Focus's recommended-blogs article are both existing curated lists — the ask there is "consider adding us," aimed at the article's author/editor rather than a submission form.
+
+### Forums/communities (segment 2) — not outreach, ongoing participation
+
+Confirmed active: r/IWantOut, r/expats, r/AskFrance, r/France (English-language threads), InterNations city chapters (Paris, Lyon, Strasbourg/"Americans in Alsace," Montpellier), and a set of expat Facebook groups indexed at nextchapterfrance.com's roundup. No sends here — this is a standing habit to start whenever, not a wave.
+
+## What needs sign-off before anything goes out
+
+Nothing above has been contacted — this is the verified target list only.
+Before wave 1 sends:
+- Confirm which of the press/blogger targets above you want in wave 1 (I'd
+  suggest starting with FrenchEntrée + The Local + Living Dordogne + French
+  Moments — 4 sends, mixed segments, easy to read the response rate before
+  scaling)
+- I'll draft the actual email copy per target (matched to their specific
+  content/guide, not a template) for your review before anything sends
+- Explicit go-ahead on the send itself, same as any outreach — this is
+  messaging third parties on your behalf
