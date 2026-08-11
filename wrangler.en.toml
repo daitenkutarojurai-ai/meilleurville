@@ -30,11 +30,14 @@ NEXT_PUBLIC_BASE_URL = "https://bestcitiesinfrance.com"
 BREVO_LIST_ID_FR = "4"
 BREVO_LIST_ID_EN = "5"
 AI_DAILY_BUDGET = "1500"
-# Once a dedicated GA4 property + GTM container exist for bestcitiesinfrance.com,
-# set them here — app/layout.tsx reads NEXT_PUBLIC_GA4_ID / NEXT_PUBLIC_GTM_ID
-# and falls back to the shared FR ones otherwise (see layout.tsx comment).
-# NEXT_PUBLIC_GA4_ID = "G-XXXXXXXXXX"
-# NEXT_PUBLIC_GTM_ID = "GTM-XXXXXXX"
+# Dedicated GA4 property ("BestCitiesInFrance", account daitenkutarojurai) +
+# GTM container (www.bestcitiesinfrance.com), created 2026-08-11 — previously
+# this site sent hits to the FR IDs (shared with mavilleideale.fr, and the
+# GA4 tag object was separately already claimed by an unrelated project,
+# "salon-v1"). app/layout.tsx reads these and falls back to the FR IDs
+# otherwise (see layout.tsx comment).
+NEXT_PUBLIC_GA4_ID = "G-KX52P5TMN7"
+NEXT_PUBLIC_GTM_ID = "GTM-NF5TVK9R"
 
 # Shares the FR D1 (FR/EN page slugs differ — no key collision).
 [[d1_databases]]
