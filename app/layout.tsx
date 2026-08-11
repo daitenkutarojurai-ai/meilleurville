@@ -5,8 +5,14 @@ import { CookieConsent } from "@/components/CookieConsent";
 import "./globals.css";
 import { CITIES_COUNT } from "@/lib/site-stats";
 
-const GTM_ID = "GTM-MXMF7XFJ";
-const GA4_ID = "G-4X0HKD8LC7";
+// Locale-specific containers: bestcitiesinfrance.com used to send its hits to
+// the FR GA4 property/GTM container (both hardcoded, no locale branch), so EN
+// traffic was invisible in any report scoped to the FR property — the config
+// itself made "EN analytics" unmeasurable, independent of actual visits.
+// Overridable per Worker via wrangler*.toml [vars]; falls back to the
+// long-standing FR IDs so nothing breaks until distinct EN IDs are created.
+const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID ?? "GTM-MXMF7XFJ";
+const GA4_ID = process.env.NEXT_PUBLIC_GA4_ID ?? "G-4X0HKD8LC7";
 
 const inter = Inter({
   subsets: ["latin"],
