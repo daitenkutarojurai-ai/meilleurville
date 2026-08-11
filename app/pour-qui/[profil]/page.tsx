@@ -376,6 +376,40 @@ export default async function ProfilePage({ params }: Props) {
           </section>
         )}
 
+        {/* Country-of-departure counterpart — visible only for the returning-expat
+            profile. The top-20 above ranks French cities; what it cannot rank is
+            the gap with the country you are leaving, which is where the friction
+            actually sits (net-to-gross, health cover, schooling). */}
+        {profile.slug === "expat-retour" && (
+          <section>
+            <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+              L&apos;autre moitié du problème — le pays que vous quittez
+            </h3>
+            <Link href="/expat-retour" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl" aria-hidden>✈️</span>
+                  <div>
+                    <p className="font-semibold text-[var(--text-primary)]">
+                      Rentrer en France : les fiches par pays d&apos;origine
+                    </p>
+                    <p className="text-xs text-[var(--text-secondary)] mt-1">
+                      Le classement ci-dessus compare des villes françaises entre elles.
+                      Il ne dit rien de l&apos;écart avec le pays que vous quittez — et c&apos;est
+                      là que ça coince : passage du net suisse ou émirati au net français,
+                      bascule de la couverture santé, année fiscale coupée en deux,
+                      échange du permis, scolarité des enfants. Les{" "}
+                      <span className="underline">fiches retour d&apos;expatriation</span>{" "}
+                      traitent chaque pays d&apos;origine séparément, parce que rentrer de
+                      Suisse et rentrer du Japon n&apos;ont à peu près rien en commun.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+          </section>
+        )}
+
         {/* Other profiles */}
         <section>
           <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">

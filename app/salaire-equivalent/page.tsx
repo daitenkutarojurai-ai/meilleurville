@@ -93,7 +93,14 @@ export default function SalaireEquivalentPage() {
             <Link href="/calculateur-cout-reel" className="underline">
               le calculateur par ville
             </Link>
-            .
+            . La conversion se fait entre deux villes françaises : si votre salaire de
+            départ est libellé en francs suisses, en livres ou en dirhams, la comparaison
+            passe d&apos;abord par{" "}
+            <Link href="/expat-retour" className="underline">
+              les fiches retour d&apos;expatriation
+            </Link>
+            , qui traitent le change, la couverture santé et l&apos;année fiscale coupée en
+            deux avant que le reste à vivre ait un sens.
           </p>
         </Card>
       </div>

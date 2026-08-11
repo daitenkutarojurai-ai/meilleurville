@@ -152,6 +152,12 @@ export default function PortraitsTypesPage() {
           <p className="text-[var(--text-secondary)] text-lg max-w-2xl mx-auto leading-relaxed">
             6 archétypes de déménagement interne en France, composés à partir des scores réels de chaque ville.
             Les personnages sont fictifs ; les données, elles, sont calculées.
+            Tous partent d&apos;une ville française : si vous arrivez de l&apos;étranger, les
+            paramètres ne sont pas les mêmes et se lisent plutôt sur les{" "}
+            <Link href="/expat-retour" className="underline hover:text-[var(--accent)]">
+              fiches de retour d&apos;expatriation
+            </Link>
+            .
           </p>
         </div>
       </section>

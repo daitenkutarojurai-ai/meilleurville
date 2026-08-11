@@ -150,6 +150,14 @@ const TOOLS: Tool[] = [
     cta: "Voir le calendrier",
   },
   {
+    href: "/expat-retour/quiz",
+    emoji: "✈️",
+    title: "Quiz retour d'expatriation",
+    desc:
+      "Vous rentrez de Suisse, du Luxembourg, du Royaume-Uni, du Canada, des Émirats ? Le quiz pondère le matching selon le pays quitté et le contexte du retour, puis renvoie vers la fiche pays correspondante.",
+    cta: "Faire le quiz expat",
+  },
+  {
     href: "/depuis",
     emoji: "🚄",
     title: "Destinations depuis votre ville",

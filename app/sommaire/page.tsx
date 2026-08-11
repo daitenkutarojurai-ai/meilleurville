@@ -81,6 +81,7 @@ export default function SommairePage() {
               { href: "/regions", label: "Toutes les régions" },
               { href: "/departements", label: "Tous les départements" },
               { href: "/outils", label: "Tous les outils" },
+              { href: "/expat-retour", label: "Retour d'expatriation — fiches par pays" },
               { href: "/recherche", label: "Recherche globale" },
               { href: "/glossaire", label: "Glossaire" },
               { href: "/calendrier-immobilier", label: "Calendrier immobilier" },
