@@ -271,9 +271,38 @@ posts).
 
 ---
 
+## Wave 1 — sent 2026-08-11
+
+All four sent by explicit go-ahead, via Brevo transactional API from
+`hello@bestcitiesinfrance.com` (reply-to `daitenkutarojurai@gmail.com`), same
+delivery path the site already uses for newsletter/contact mail
+(`lib/brevo.ts`). All four returned `201` from the Brevo API.
+
+| Target | Address used | Method | Status |
+|---|---|---|---|
+| FrenchEntrée | editor@frenchentree.com | Brevo transactional | Sent, 201 |
+| The Local France | ben.mcpartland@thelocal.com | Brevo transactional | Sent, 201 |
+| Living Dordogne | contact@living-dordogne.com (found directly on their contact page — no form was needed after all) | Brevo transactional | Sent, 201 |
+| French Moments | pierre@frenchmoments.com (confirmed on their own "Work with us" page — the `.com` address is correct despite the site living at `.eu`) | Brevo transactional | Sent, 201 |
+
+**Note on French Moments' contact form**: didn't use it. Clicking the
+cookie-consent "Paramètres" (settings) button on `frenchmoments.eu/contact-us/`
+opened a booking.com affiliate popunder in a new tab instead of a real
+settings panel — a sign of aggressive/hijacked ad tech on that page. Emailed
+Pierre directly instead once his real address was confirmed from a different,
+cleaner page on the same site. Worth knowing if anyone visits that contact
+page again.
+
+**201 from Brevo confirms acceptance for delivery, not that a human read it**
+— same caveat as the FR mairie campaign (0 replies on 90 sends despite 0
+bounces). Next check-in point: watch for replies at
+`daitenkutarojurai@gmail.com` (the reply-to), and re-check GSC backlinks in
+a few weeks to see if any of the four actually add a link. If wave 1 gets
+zero response the way the badge-hook mairie wave did, the lesson isn't "send
+more" — it's "the hook still isn't landing," per the FR playbook.
+
 ## What needs sign-off before anything goes out
 
-**Drafts only — nothing above has been sent.** Sending these (or submitting
-the FeedSpot form) is messaging/publishing on your behalf, which needs your
-explicit go-ahead per send, not just approval of the plan. Say the word for
-any or all of the four and I'll send them as-is, or flag edits first.
+The FeedSpot directory submission (self-serve form, no email) and any further
+wave beyond these four still need a separate go-ahead — this wave's approval
+doesn't carry forward automatically.
