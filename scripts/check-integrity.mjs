@@ -260,6 +260,74 @@ if (!failed) {
   }
 }
 
+// --- F64 · signaux publics (data/city-news.json) ---------------------------
+//
+// Ce fichier est écrit par un cron qui tourne ailleurs (`npm run news`, machine
+// du propriétaire) et atterrit ici par `git pull`. Aucune garde ne s'exécute au
+// chargement : c'est du JSON, pas un module de données. Les contrôles ci-dessous
+// vérifient donc ce que `lib/city-news.ts` et la section supposent, à chaque
+// arrivée de lot.
+//
+// Ils sont là parce que la première collecte réelle (540/540, 2026-08-11) a
+// montré que le fichier peut être structurellement parfait et quand même faire
+// dire au site quelque chose de faux — cf. le mois partiel dans ROADMAP § F64.
+if (!failed) {
+  const newsPath = path.join(ROOT, "data/city-news.json");
+  if (!existsSync(newsPath)) {
+    console.log("  ok  signaux    fichier absent (rien à contrôler)");
+  } else {
+    const file = JSON.parse(readFileSync(newsPath, "utf8"));
+    const cities = file.cities ?? {};
+    const slugs = Object.keys(cities);
+    const known = new Set(load("data/cities-seed.ts").CITIES_SEED.map((c) => c.slug));
+    const today = new Date().toISOString().slice(0, 10);
+    const cap = file.meta?.maxEntriesPerCity ?? 8;
+    const REQUIRED = ["date", "kind", "title", "source", "sourceUrl", "licence"];
+    const problems = [];
+
+    for (const slug of slugs) {
+      const rec = cities[slug];
+      // Une ligne pour un slug hors seed ne s'affichera jamais : c'est du poids
+      // mort dans le bundle et le signe que le crawl et le seed ont divergé.
+      if (!known.has(slug)) problems.push(`${slug} : absent de CITIES_SEED`);
+      if (!Array.isArray(rec?.entries)) {
+        problems.push(`${slug} : entries manquant`);
+        continue;
+      }
+      if (rec.entries.length > cap) {
+        problems.push(`${slug} : ${rec.entries.length} entrées pour un plafond de ${cap}`);
+      }
+      for (const e of rec.entries) {
+        for (const f of REQUIRED) {
+          if (!e?.[f]) problems.push(`${slug} : entrée sans « ${f} »`);
+        }
+        // La licence est portée par entrée, pas par fichier : une entrée sans
+        // licence est une republication sans titre à le faire.
+        if (!/^\d{4}-\d{2}-\d{2}$/.test(e?.date ?? "")) {
+          problems.push(`${slug} : date « ${e?.date} » hors format`);
+        } else if (e.date > today) {
+          // Une date future resterait en tête de liste indéfiniment.
+          problems.push(`${slug} : entrée datée du futur (${e.date})`);
+        }
+        if (e?.sourceUrl && !/^https:\/\//.test(e.sourceUrl)) {
+          problems.push(`${slug} : sourceUrl non https (${e.sourceUrl})`);
+        }
+      }
+    }
+
+    if (problems.length === 0) {
+      const entries = slugs.reduce((n, s) => n + cities[s].entries.length, 0);
+      console.log(`  ok  signaux    ${slugs.length} villes, ${entries} entrées`);
+    } else {
+      failed = true;
+      console.error(`\n  ÉCHEC  data/city-news.json : ${problems.length} anomalie(s)\n`);
+      for (const p of problems.slice(0, 20)) console.error(`    ${p}`);
+      if (problems.length > 20) console.error(`    … et ${problems.length - 20} autres`);
+      console.error("");
+    }
+  }
+}
+
 if (failed) {
   console.error("Intégrité des données : au moins un contrôle a échoué.");
   console.error("Le build échouerait au même endroit.");

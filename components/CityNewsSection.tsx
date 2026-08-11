@@ -6,6 +6,7 @@ import {
   newsMonthLabel,
   cityNewsRefreshedAt,
   isCityNewsStale,
+  newsPartialThrough,
   NEWS_WINDOW_MONTHS,
   type CityNewsEntry,
 } from "@/lib/city-news";
@@ -83,6 +84,7 @@ export function CityNewsSection({
   // diverge — so the footer lists the distinct ones rather than assuming the
   // first entry speaks for all of them.
   const licences = [...new Set(entries.map((e) => e.licence).filter(Boolean))];
+  const hasPartial = entries.some((e) => newsPartialThrough(slug, e));
 
   return (
     <section className="border-t border-[var(--border)] bg-[var(--bg-surface)] py-12">
@@ -101,33 +103,64 @@ export function CityNewsSection({
         </p>
 
         <ul className="mt-6 divide-y divide-[var(--border)] border-y border-[var(--border)]">
-          {entries.map((e, i) => (
-            <li
-              key={`${e.date}-${e.kind}-${i}`}
-              className="py-3 flex flex-wrap items-baseline gap-x-3 gap-y-1"
-            >
-              <span className="text-xs tabular-nums text-[var(--text-tertiary)] w-32 shrink-0">
-                {dateLabel(e, locale)}
-              </span>
-              <span
-                className={`text-xs font-semibold uppercase tracking-wide ${KIND_ACCENT[e.kind]}`}
+          {entries.map((e, i) => {
+            // A count stopped mid-month sits directly above the same metric for
+            // the previous, complete month. Both figures are exact; read as a
+            // column they state a collapse that did not happen. Marked, not
+            // dropped — see newsPartialThrough().
+            const partialThrough = newsPartialThrough(slug, e);
+            return (
+              <li
+                key={`${e.date}-${e.kind}-${i}`}
+                className="py-3 flex flex-wrap items-baseline gap-x-3 gap-y-1"
               >
-                {newsKindLabel(e.kind, locale)}
-              </span>
-              <span className="text-sm text-[var(--text-primary)] basis-full sm:basis-auto sm:flex-1 min-w-0">
-                {locale === "en" ? e.titleEn ?? e.title : e.title}
-              </span>
-              <a
-                href={e.sourceUrl}
-                rel="nofollow noopener noreferrer"
-                target="_blank"
-                className="text-xs text-[var(--text-tertiary)] underline hover:text-[var(--accent)] shrink-0"
-              >
-                {e.source}
-              </a>
-            </li>
-          ))}
+                <span className="text-xs tabular-nums text-[var(--text-tertiary)] w-32 shrink-0">
+                  {dateLabel(e, locale)}
+                  {partialThrough ? (
+                    // "partiel", not "en cours": once a month ends without a
+                    // refresh the count is still truncated but the month is no
+                    // longer ongoing, and only the first word stays true.
+                    <span className="ml-1 italic">{L("· partiel", "· partial")}</span>
+                  ) : null}
+                </span>
+                <span
+                  className={`text-xs font-semibold uppercase tracking-wide ${KIND_ACCENT[e.kind]}`}
+                >
+                  {newsKindLabel(e.kind, locale)}
+                </span>
+                <span className="text-sm text-[var(--text-primary)] basis-full sm:basis-auto sm:flex-1 min-w-0">
+                  {locale === "en" ? e.titleEn ?? e.title : e.title}
+                  {partialThrough ? (
+                    <span className="text-[var(--text-tertiary)]">
+                      {" "}
+                      {L(
+                        `— comptage arrêté au ${newsDateLabel(partialThrough, locale)}`,
+                        `— counted on ${newsDateLabel(partialThrough, locale)}`,
+                      )}
+                    </span>
+                  ) : null}
+                </span>
+                <a
+                  href={e.sourceUrl}
+                  rel="nofollow noopener noreferrer"
+                  target="_blank"
+                  className="text-xs text-[var(--text-tertiary)] underline hover:text-[var(--accent)] shrink-0"
+                >
+                  {e.source}
+                </a>
+              </li>
+            );
+          })}
         </ul>
+
+        {hasPartial ? (
+          <p className="mt-3 text-xs text-[var(--text-secondary)]">
+            {L(
+              "Un mois marqué « partiel » n'a été compté que jusqu'à la date indiquée : il porte quelques jours quand les autres portent un mois entier. Le chiffre est exact, mais le mettre en regard des mois pleins ne dit rien — ce n'est pas une baisse.",
+              "A month marked “partial” was only counted up to the date shown: it covers a few days where the others cover a whole month. The figure is exact, but reading it against the full months tells you nothing — it is not a decline.",
+            )}
+          </p>
+        ) : null}
 
         <p className="mt-4 text-xs text-[var(--text-tertiary)]">
           {L(

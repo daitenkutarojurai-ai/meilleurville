@@ -196,6 +196,57 @@ export function cityNewsSources(slug: string): string[] {
   return CITIES[slug]?.sources ?? [];
 }
 
+/** Kinds that are a count over a calendar month, as opposed to a dated act. */
+const AGGREGATE_KINDS: ReadonlySet<NewsKind> = new Set<NewsKind>([
+  "entreprises",
+  "radiations",
+  "procedures",
+  "associations",
+]);
+
+function lastDayOfMonth(year: number, month1: number): number {
+  return new Date(Date.UTC(year, month1, 0)).getUTCDate();
+}
+
+/**
+ * When a monthly aggregate was counted before its month was over, the ISO date
+ * the count stopped at. `null` when the figure covers a whole month.
+ *
+ * This is not an edge case, it is the normal state of the freshest line. The
+ * crawler buckets BODACC rows on `dateparution`, so the bucket for the month it
+ * runs in only holds the days already elapsed — and the round-robin puts that
+ * bucket at the top of the list, right above the same metric for the previous
+ * month. Found on the first real crawl (540/540, 2026-08-11): Paris read "567
+ * créations d'entreprises en août 2026" over "5356 en juillet 2026", which is a
+ * 90 % collapse to anyone scanning the column, and was four days of August. The
+ * median current-month bucket sits at 0.16 of the previous month across the 895
+ * comparable pairs in the file.
+ *
+ * Both numbers are exact; it is the invitation to compare them that misleads,
+ * so the fix is to mark the figure rather than drop it. Dropping would cost the
+ * section its freshest signal without recovering anything: the crawler already
+ * capped the city at 8 entries, so the complete month the partial one displaced
+ * is not in the file to fall back on. A marked partial also self-heals — the
+ * next refresh that lands in a later month rewrites the bucket as a full month.
+ *
+ * The cut-off returned is the day WE counted, never a claim about how far
+ * BODACC had published by then: the publisher's own lag is unknown here, and
+ * the per-family spread on the same day (Paris August held 10.6 % of July's
+ * registrations but 1.0 % of its insolvencies) shows it is not uniform.
+ */
+export function newsPartialThrough(slug: string, entry: CityNewsEntry): string | null {
+  if (!AGGREGATE_KINDS.has(entry.kind)) return null;
+  const refreshedAt = cityNewsRefreshedAt(slug);
+  if (!refreshedAt) return null;
+  const e = /^(\d{4})-(\d{2})-\d{2}$/.exec(entry.date);
+  const r = /^(\d{4})-(\d{2})-(\d{2})$/.exec(refreshedAt);
+  if (!e || !r) return null;
+  // Same calendar month as the crawl, and the crawl did not run on its last day.
+  if (e[1] !== r[1] || e[2] !== r[2]) return null;
+  if (Number(r[3]) >= lastDayOfMonth(Number(r[1]), Number(r[2]))) return null;
+  return refreshedAt;
+}
+
 const KIND_LABEL_FR: Record<NewsKind, string> = {
   entreprises: "Créations d'entreprises",
   radiations: "Radiations",

@@ -179,7 +179,7 @@ recensées à proximité, zones protégées.
 |---|---------|------|------|-----|--------|
 | F62 | **Score Biodiversité** (pipeline GBIF + INPN → sous-page ×540 + classement) | **P0** | **L** | **high** | 🚧 en cours — moteur livré 30/07, durci 02/08 (selftest + raréfaction bornée), crawl en attente d'une passe locale |
 | F63 | **Qualité de l'air — du modèle à la mesure** (ATMO + Geod'Air, hub + classement) | **P0** | **M** | **high** | 🔜 à faire |
-| F64 | **Actualité locale par ville** (open data BODACC/JO/CatNat → section CityProfile + routine hebdo) | **P1** | **M** | **low** | 🚧 en cours — moteur + section livrés 04/08 (selftest 38 ✓), **0/540 villes**, crawl en attente d'une passe locale (403 CONNECT) |
+| F64 | **Actualité locale par ville** (open data BODACC/JO/CatNat → section CityProfile + routine hebdo) | **P1** | **M** | **low** | ✅ **en ligne — 540/540 villes, 4 212 entrées** (BODACC 4 172 + CatNat 40), collectées par le cron local les 04-05/08. Section rendue sur les deux locales. RNA toujours désactivé (0 association). Mois partiel marqué depuis le 11/08 |
 
 ### F62 — Score Biodiversité
 
@@ -760,6 +760,74 @@ Ce que ce run a tranché ou appris, à lire avant le premier crawl local :
   quasiment toutes les villes en permanence, ce qui apprend au lecteur à ignorer
   l'avertissement le jour où il compte vraiment. Changer le lot par défaut oblige à
   rouvrir les deux autres nombres.
+
+#### État au 2026-08-11 — la section est EN LIGNE sur 540/540 villes
+
+Le cron local a fait le travail : `data/city-news.json` porte **540 villes et 4 212
+entrées** collectées les 04 et 05/08 (363 villes le 4, 177 le 5), soit **BODACC 4 172**
+(1 562 créations, 1 265 radiations, 1 345 procédures collectives) et **Géorisques 40
+arrêtés CatNat**. 13 villes n'ont rien dans la fenêtre et n'affichent donc pas la
+section — comportement voulu. Le RNA reste à zéro : `RNA_RESOURCE_ID` est toujours
+`null`, aucune entrée `associations` n'existe, et les villes concernées omettent la
+source au lieu d'annoncer zéro association.
+
+Contrôles passés sur le fichier réel : plafond de 8 entrées respecté partout (max
+mesuré 8), aucune date malformée ni future, aucun champ obligatoire manquant, `licence`
+présente sur les 4 212 entrées, `titleEn` présente sur les 4 212, aucun écart de chiffre
+entre `title` et `titleEn`. `npm run news:prune` ne trouve rien hors fenêtre (les entrées
+vont d'octobre 2025 à août 2026). `npm run news:selftest` : 49 contrôles verts.
+
+**Le défaut que seules les vraies valeurs pouvaient montrer : le mois en cours est
+compté partiellement et se lit comme un effondrement.** Le crawl agrège les lignes BODACC
+par mois de `dateparution` ; le seau du mois pendant lequel il tourne ne contient donc que
+les jours déjà écoulés. Le tourniquet le place **en tête de liste, juste au-dessus du même
+indicateur pour le mois précédent, complet**. Sur la page de Paris on lisait « 567 créations
+d'entreprises en août 2026 » directement au-dessus de « 5 356 en juillet 2026 » : les deux
+chiffres sont exacts, la colonne annonce une chute de 90 %, et la réalité est que le mois
+d'août comptait quatre jours. Ce n'est pas un cas limite — **899 entrées sur 4 212, dans
+452 villes**, et le rapport médian mois-en-cours / mois-précédent est de **0,16** sur les
+895 paires comparables. Ça se reproduira à chaque rafraîchissement, par construction.
+
+Corrigé **à la lecture, pas dans les données** (`newsPartialThrough()` dans
+`lib/city-news.ts`) : le crawl ne peut pas être relancé d'ici, et surtout le défaut
+reviendra à chaque lot — il appartient à la couche d'affichage. La règle est « même mois
+que le `refreshedAt` de la ville, et le crawl n'a pas tourné le dernier jour du mois »,
+donc elle reste juste quand le mois s'achève sans rafraîchissement. Trois choix à ne pas
+défaire :
+- **Marquer plutôt que masquer.** Supprimer l'entrée coûterait le signal le plus frais
+  sans rien récupérer : le crawl a déjà plafonné la ville à 8 entrées, le mois complet
+  que le mois partiel a évincé n'est pas dans le fichier. Et un mois marqué **se répare
+  tout seul** au rafraîchissement suivant, qui réécrit le seau en mois plein. Précédent
+  identique : le « au moins » des parcs tronqués en F62.
+- **Le libellé est « partiel », pas « en cours ».** Si le mois s'achève sans que la ville
+  soit repassée, le comptage reste tronqué mais le mois n'est plus en cours : seul le
+  premier mot resterait vrai.
+- **La date affichée est le jour où *nous* avons compté**, jamais une affirmation sur ce
+  que le BODACC avait publié à cette date. Le décalage de publication de l'éditeur est
+  inconnu ici, et il n'est pas uniforme : le même 4 août, Paris tenait 10,6 % des créations
+  de juillet mais 1,0 % de ses procédures collectives.
+
+Aucun chiffre n'est réécrit, ni dans le JSON ni à l'affichage. Vérifié en rendant
+réellement le composant (`renderToStaticMarkup`, FR et EN) contre les données réelles :
+20 contrôles verts, dont l'exclusivité du marquage (seules les lignes du mois de crawl
+sont marquées, jamais un mois plein, jamais un arrêté CatNat qui est un acte daté),
+`rel="nofollow"` sur tous les liens, licence affichée, absence de rendu sur une ville
+vide ou inconnue, et absence de fuite de français côté EN.
+
+**Garde permanente ajoutée à `npm run integrity`.** `data/city-news.json` arrive par
+`git pull` depuis un cron qui tourne ailleurs, et c'est du JSON : aucune garde ne
+s'exécutait au chargement, contrairement aux modules de `data/*.ts`. Le contrôle vérifie
+désormais à chaque lot le plafond d'entrées, le format des dates, l'absence de date
+future, la présence des six champs obligatoires dont `licence`, le schéma https des liens
+sortants, et que chaque slug existe dans `CITIES_SEED` — un slug orphelin ne s'afficherait
+jamais et signalerait que le crawl et le seed ont divergé.
+
+À surveiller au prochain run : la rotation. Les 540 villes ont été collectées en deux
+jours, donc elles arriveront à échéance **ensemble** (`DUE_AFTER_DAYS = 14`) au lieu de se
+répartir sur trois lots hebdomadaires. Si le cron ne rattrape pas, les lignes vieilliront
+de concert et le seuil d'affichage de 45 jours basculera lui aussi partout en même temps
+— vers le 19/09 dans le pire cas. Ce n'est pas cassé, mais le lissage supposé par les
+trois seuils n'existe pas encore.
 
 ---
 
