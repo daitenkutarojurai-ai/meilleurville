@@ -445,6 +445,48 @@ couvertes des deux côtés, par population : Mamoudzou, Saint-André, Les Abymes
 (974), Saint-Laurent-du-Maroni, Le Lamentin, Saint-Joseph, Saint-Benoît, Baie-Mahault,
 Le Robert, Le François.
 
+**Batch 28 — FR, shipped 2026-08-11 : Cergy, Issy-les-Moulineaux, Aubervilliers, Mérignac,
+Pessac, Vénissieux.** La liste de gisements laissée par les batches 26 et 27 a été honorée telle
+quelle et est désormais **épuisée** — elle ne peut plus servir de point de départ au prochain
+batch FR. Trois banlieues franciliennes et trois communes de métropole régionale (deux
+bordelaises, une lyonnaise), c'est-à-dire le premier batch de la série qui sort d'Île-de-France
+pour les grandes banlieues : Bordeaux Métropole et la Métropole de Lyon avaient exactement le
+même trou que la petite couronne avant le batch 24. Angles retenus : l'Axe majeur de Dani Karavan
+et le téléski nautique à Cergy, la Tour aux figures de Dubuffet et le seul musée de France
+consacré à la carte à jouer à Issy, la Galerie du 19M et la Maladrerie de Renée Gailhoustet à
+Aubervilliers, le parc de Bourran et le vignoble urbain Luchey-Halde à Mérignac, la cité Frugès
+de Le Corbusier (UNESCO) et Pessac-Léognan à Pessac, le parc de Parilly et la mémoire de la
+Marche de 1983 à Vénissieux.
+**Compteurs mesurés : FR 200 (`-a-` strict 198 + les 2 slugs en `au-`), EN 194 ; `GUIDES` 933 →
+939.** Aucun nouveau slug hors gabarit : les deux exceptions restent `au-puy-en-velay` et
+`au-tampon`. `metaTitle` 44-53 caractères, `metaDesc` 140-153, 10 sections par guide, densité
+d'accents 0,141-0,175 (seuil de détection ascii-strip : 0,09). `npm run search-index` relancé
+(`data/search-index.json` 939 guides) — le FR a le même piège que l'EN, `search-index:check`
+échoue sinon.
+⚠️ **Trois faits ont été corrigés en cours de rédaction par vérification en ligne, et se seraient
+lus comme des mesures s'ils étaient partis en l'état** : l'**Espace Albert Camus est à Bron**, pas
+à Vénissieux (attribution classique, la salle dessert l'est lyonnais) ; il n'existe **pas de fort
+de Vénissieux** — le fort de la ceinture lyonnaise voisine est le **fort de Bron** ; et la Marche
+pour l'égalité de 1983 est **née aux Minguettes mais partie de Marseille** le 15 octobre, pas
+partie de Vénissieux. La nuance origine / départ est le genre d'erreur qu'aucun contrôle
+automatique n'attrape. Deux prudences assumées dans la copie, à ne pas diluer : la collection du
+**CAEA à Mérignac est sur la base aérienne 106**, donc en zone militaire à accès restreint — elle
+est présentée comme telle et non comme un musée ouvert le dimanche ; et la **villa des Brillants**
+(second site du musée Rodin) est **accessible depuis** Issy sans y être située, elle relève de
+Meudon — même traitement que le Jardin d'acclimatation au batch 26. Sur Vénissieux, les Minguettes
+sont décrites en quartier habité et en histoire urbaine, sans verdict de sécurité ni jugement sur
+les habitants (cf. la décision d'écarter `quartiers-a-eviter`).
+Écart FR→EN après ce batch : **6 villes** (cergy, issy-les-moulineaux, aubervilliers, merignac,
+pessac, venissieux) — au seuil de ~6, donc **le prochain run doit être un batch EN**. Attention au
+nommage anglais : `things-to-do-in-pessac-2026` et `things-to-do-in-merignac-2026` cohabiteront
+avec `things-to-do-in-bordeaux-2026` (les trois communes sont limitrophes et les guides se citent
+mutuellement) ; garder `-les-moulineaux` sur Issy. Pour le batch FR **suivant**, la liste de
+gisements est à reconstituer : les communes non couvertes les plus peuplées restent pauvres en
+matière vérifiable, les pistes ouvertes sont plutôt les grandes banlieues de province (Villenave-d'Ornon,
+Talence, Le Bouscat côté Bordeaux ; Vaulx-en-Velin, Saint-Priest, Bron côté Lyon) et les DROM
+restants : Mamoudzou, Saint-André, Les Abymes, Saint-Louis (974), Saint-Laurent-du-Maroni,
+Le Lamentin, Saint-Joseph, Saint-Benoît, Baie-Mahault, Le Robert, Le François.
+
 ### Glossaire (`app/glossaire/page.tsx`)
 
 Page unique, données inline (`SECTIONS: {title, emoji, terms[]}`), `DefinedTermSet` JSON-LD généré

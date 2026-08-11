@@ -45553,6 +45553,372 @@ export const GUIDES: Guide[] = [
     tags: ["10 choses à faire à Meaux", "activités Meaux 2026", "que faire à Meaux", "sorties Meaux", "musée de la Grande Guerre cathédrale Saint-Étienne Bossuet brie moutarde"]
   },
   {
+    slug: "10-choses-a-faire-a-cergy-2026",
+    title: "10 choses à faire à Cergy (l'Axe majeur, le port et le vieux village)",
+    metaTitle: "10 choses à faire à Cergy 2026 — activités locales",
+    metaDesc: "Axe majeur de Dani Karavan, port de plaisance, île de loisirs, vieux village, église Saint-Christophe : 10 activités à Cergy, au terminus du RER A.",
+    category: "tourisme",
+    emoji: "🗼",
+    readMinutes: 7,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    intro: "Cergy est la préfecture du Val-d'Oise, environ 65 000 habitants, et c'est une ville nouvelle : on n'y vient pas chercher un centre médiéval, il n'y en a pas au sens où l'entend une préfecture de province. Ce qu'on y trouve à la place est plus rare — une œuvre d'art urbaine de 3,2 km conçue par un sculpteur et déroulée à l'échelle d'un quartier entier, un port de plaisance creusé de toutes pièces dans une boucle de l'Oise, un vieux village de vignerons resté intact à l'intérieur du périmètre, et une base de loisirs qui aligne deux équipements nautiques qu'on ne trouve nulle part ailleurs en Île-de-France. Le tout à trois quarts d'heure de Paris par le RER A, dont Cergy est le terminus nord-ouest.",
+    sections: [
+      {
+        heading: "1. L'Axe majeur",
+        body: "L'Axe majeur est une promenade monumentale de 3,2 km tracée dans le relief par le sculpteur israélien Dani Karavan, conçue à partir de 1980 et achevée en 2009 — près de trente ans entre le dessin et la dernière pierre. Elle se compose de douze stations, le chiffre douze structurant l'ensemble comme il structure les mois et les heures : la tour belvédère, la place des Colonnes, les jardins des Impressionnistes, l'esplanade de Paris, la terrasse, les jardins des Droits-de-l'Homme, l'amphithéâtre, la scène, la passerelle, l'île astronomique, la pyramide et le carrefour de Ham. C'est gratuit, ouvert en permanence, et ça se parcourt d'un bout à l'autre en une bonne heure de marche. Rien d'équivalent en Île-de-France."
+      },
+      {
+        heading: "2. La tour belvédère et la place des Colonnes",
+        body: "Le départ de l'Axe se fait au niveau du quartier Grand Centre, sur une esplanade bordée de douze colonnes blanches alignées et d'une tour belvédère qui sert de point de repère à toute la ville basse. De là, le tracé plonge en escalier vers l'Oise et se lit d'un seul regard : c'est le seul endroit où l'on comprend l'intention d'ensemble, une perspective ouverte en direction de Paris. Par temps clair, la ligne de fuite se prolonge visuellement jusqu'aux tours de La Défense. Venir en fin de journée : la lumière rasante donne aux colonnes leur ombre portée, qui fait partie du dessin."
+      },
+      {
+        heading: "3. La passerelle rouge et l'île astronomique",
+        body: "Au bas des terrasses, l'Axe franchit l'Oise par une passerelle rouge tendue au-dessus de l'eau, puis atteint une île artificielle plantée au milieu de la rivière. La passerelle est le morceau le plus photographié de l'ensemble et le plus simple à comprendre sur place : elle relie deux rives que rien d'autre ne reliait, et sa couleur est le seul accent vif d'un paysage de verts et de gris. On y accède à pied depuis les terrasses, ou par le bas en longeant la berge. Prévoir des chaussures correctes : le chemin de rive n'est pas partout stabilisé."
+      },
+      {
+        heading: "4. Le vieux village de Cergy",
+        body: "À l'écart de la dalle, le vieux village a gardé ses ruelles, ses maisons de pierre et ses corps de ferme. Cergy était un village agricole où la vigne resta l'activité principale jusqu'à la fin du XIXᵉ siècle, et le tissu bâti en garde la trace : murs de clos, porches charretiers, ancienne mairie-école. Le lavoir de la Rousselette, construit en 1870, ferme la promenade côté rivière. C'est un contraste utile à la visite : la ville nouvelle et le village qu'elle a englobé sans le raser tiennent dans le même code postal, à un quart d'heure de marche l'un de l'autre."
+      },
+      {
+        heading: "5. L'église Saint-Christophe",
+        body: "L'église Saint-Christophe est le seul monument ancien de Cergy, classée au titre des monuments historiques en 1913. Elle réunit deux époques très éloignées : un clocher roman, l'un des plus anciens du département, et un portail Renaissance qui fait face au village. L'intérieur se visite librement en dehors des offices, et l'édifice sert aussi de lieu de concert — l'acoustique est utilisée par le festival baroque du Pays de Pontoise. Elle donne au vieux village son point d'ancrage : c'est autour d'elle que le bâti s'est organisé, bien avant que la ville nouvelle ne soit dessinée."
+      },
+      {
+        heading: "6. Port Cergy",
+        body: "Port Cergy est le premier port de plaisance d'Île-de-France, entièrement artificiel, creusé dans les années 1980 sur des plans de François et Bernard Spoerry — les mêmes architectes que Port-Grimaud, avec la même idée d'un village idéal bâti d'un coup autour d'un bassin. Le résultat est déroutant à quelques dizaines de kilomètres de Paris : quais, pontons, façades colorées, terrasses de restaurants au bord de l'eau. C'est un quartier habité, pas un décor, et il se traverse librement. On y arrive à pied depuis le vieux village en longeant l'Oise."
+      },
+      {
+        heading: "7. L'île de loisirs de Cergy-Pontoise",
+        body: "L'île de loisirs occupe la boucle de l'Oise et porte deux équipements sans équivalent régional : un téléski nautique — une boucle de câble de 800 m qui tracte jusqu'à dix skieurs ou wakeboarders à la fois, à 30 km/h — et un stade d'eau vive, pour le kayak, le rafting et l'hydrospeed. Autour, plage surveillée l'été, voile, accrobranche, sentiers de course et de vélo. C'est le site qui justifie à lui seul une journée à Cergy avec des adolescents, et l'un des rares endroits d'Île-de-France où l'on peut apprendre le wakeboard sans bateau."
+      },
+      {
+        heading: "8. La préfecture d'Henry Bernard",
+        body: "La préfecture du Val-d'Oise, inaugurée en juillet 1970, fut le premier grand chantier du quartier de Cergy-Préfecture et reste le bâtiment le plus spectaculaire de la ville nouvelle. Henry Bernard l'a conçue en pyramide inversée : six niveaux en encorbellement au-dessus d'un socle vitré, une vingtaine de mètres de haut, sur un carré de 60 m de côté. Chaque étage déborde celui du dessous, ce qui donne au bâtiment sa silhouette impossible à confondre. On ne le visite pas, mais il se voit de loin et il se photographie depuis l'esplanade — c'est une pièce d'architecture des années 1960-1970 aussi datée qu'assumée."
+      },
+      {
+        heading: "9. Les bords de l'Oise à vélo",
+        body: "Le chemin de halage de l'Oise passe au pied de Cergy et file vers Pontoise d'un côté, vers Neuville et l'aval de l'autre. C'est plat, continu, et ça relie en quelques kilomètres des lieux sans rapport entre eux : le port, l'île de loisirs, le centre ancien de Pontoise et, un peu plus loin, Auvers-sur-Oise, où Van Gogh a passé ses derniers mois et où l'on retrouve les motifs de ses toiles à l'endroit exact où il les a peints. Location de vélos sur place selon la saison. Au-delà, le parc naturel régional du Vexin français commence tout de suite au nord."
+      },
+      {
+        heading: "10. Y aller et rayonner",
+        body: "Cergy compte trois gares du RER A — Cergy-Préfecture, Cergy-Saint-Christophe et Cergy-le-Haut — et une liaison Transilien depuis Paris Saint-Lazare, ce qui en fait l'une des villes nouvelles les mieux desservies. La gare de Cergy-Saint-Christophe se repère à son horloge monumentale, plantée en façade. Sur place, l'Axe majeur, le port et le vieux village s'enchaînent à pied ; l'île de loisirs demande un bus ou un vélo. Autour, Pontoise et son centre ancien sont limitrophes, l'abbaye cistercienne de Maubuisson, à Saint-Ouen-l'Aumône, accueille des expositions d'art contemporain, et Auvers-sur-Oise est à moins de vingt minutes de train."
+      }
+    ],
+    relatedCities: ["cergy", "pontoise", "argenteuil", "nanterre", "paris", "versailles"],
+    relatedGuides: [
+      "10-choses-a-faire-a-argenteuil-2026",
+      "10-choses-a-faire-a-versailles-2026",
+      "10-choses-a-faire-a-paris-2026"
+    ],
+    tags: ["10 choses à faire à Cergy", "activités Cergy 2026", "que faire à Cergy", "sorties Cergy", "Axe majeur Dani Karavan Port Cergy île de loisirs vieux village Saint-Christophe"]
+  },
+  {
+    slug: "10-choses-a-faire-a-issy-les-moulineaux-2026",
+    title: "10 choses à faire à Issy-les-Moulineaux (Dubuffet, les cartes à jouer et la Seine)",
+    metaTitle: "10 choses à faire à Issy-les-Moulineaux 2026",
+    metaDesc: "Tour aux figures de Dubuffet, musée de la Carte à jouer, île Saint-Germain, fort d'Issy, berceau de l'aviation : 10 activités à Issy-les-Moulineaux.",
+    category: "tourisme",
+    emoji: "🃏",
+    readMinutes: 7,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    intro: "Issy-les-Moulineaux, environ 68 000 habitants dans les Hauts-de-Seine, est surtout connue comme un pôle tertiaire et numérique collé à la porte de Versailles. Ce n'est pas ce qui vaut le déplacement. Ce qui le vaut tient en quatre points sans rapport les uns avec les autres : une sculpture habitable de Jean Dubuffet posée sur une île de la Seine, le seul musée de France consacré à la carte à jouer, un plateau qui fut le berceau de l'aviation française avant d'être un héliport, et un fort militaire du XIXᵉ siècle transformé en quartier d'habitation au-dessus de kilomètres de carrières. Métro ligne 12, tramway T2, RER C : on y est en un quart d'heure depuis le centre de Paris.",
+    sections: [
+      {
+        heading: "1. La Tour aux figures de Jean Dubuffet",
+        body: "La Tour aux figures est la dernière œuvre monumentale de Jean Dubuffet, inaugurée le 24 octobre 1988 sur l'île Saint-Germain par François Mitterrand, trois ans après la mort de l'artiste. C'est une sculpture praticable : à l'extérieur, les tracés noirs et les aplats de l'Hourloupe, la série qui a occupé Dubuffet pendant vingt ans ; à l'intérieur, un escalier en spirale que l'artiste avait baptisé le Gastrovolve, entièrement peint selon le même vocabulaire. On y entre en visite guidée, sur réservation auprès du département des Hauts-de-Seine, les samedis et dimanches après-midi de la belle saison. L'extérieur, lui, se voit toute l'année et de loin."
+      },
+      {
+        heading: "2. Le parc départemental de l'île Saint-Germain",
+        body: "La tour est plantée dans un parc départemental de plusieurs dizaines d'hectares qui occupe une île de la Seine — pelouses, prairies fauchées, jardins familiaux, aires de jeux et sentiers de bord d'eau. C'est un des rares endroits des Hauts-de-Seine où l'on marche longtemps sans croiser de voiture, et le point de vue sur les coteaux de Meudon vaut la traversée. Trois accès seulement, dont le pont d'Issy et la place Jean-Monnet, ce qui explique la tranquillité relative du site en semaine. Entrée libre."
+      },
+      {
+        heading: "3. Le musée français de la Carte à jouer",
+        body: "C'est le seul musée de France consacré à la carte à jouer, rue Auguste Gervais. Il est né en 1986 des collections de deux amateurs, Louis Chardonneret et Robert Thissen, et occupe son bâtiment actuel depuis 1997. Le fonds compte environ 11 000 pièces, dont près de 7 000 jeux de cartes, un millier de gravures, dessins et affiches, et autant d'objets. Le parcours suit l'évolution de la carte du XVᵉ au XXᵉ siècle, entre techniques de fabrication, arts décoratifs, cultures occidentales et orientales, monde du jeu et détournements d'artistes. C'est un musée de ville, à taille humaine, qui se fait en une heure et demie."
+      },
+      {
+        heading: "4. La galerie d'histoire de la ville",
+        body: "Attenante au musée et comprise dans la visite, la galerie d'histoire retrace le passé d'Issy et vaut mieux que son intitulé administratif. On y suit le château des princes de Conti, dont il ne reste presque rien mais qui a fait d'Issy une villégiature aristocratique aux portes de Paris, puis les débuts de l'aviation sur le plateau voisin, puis les liens de la commune avec Rodin, Matisse et Dubuffet. C'est le complément utile de la Tour aux figures : on comprend pourquoi une œuvre pareille a atterri ici plutôt qu'ailleurs."
+      },
+      {
+        heading: "5. Le berceau de l'aviation",
+        body: "Le champ de manœuvres d'Issy-les-Moulineaux fut, dans les toutes premières années du XXᵉ siècle, le terrain d'essai principal des pionniers français de l'aviation. Henri Farman y couvre 771 mètres en octobre 1907, puis y boucle en janvier 1908 le premier kilomètre en circuit fermé — un vol qui compte parmi les actes fondateurs de l'aéronautique. Il ne reste pas de musée sur place, mais la mémoire du terrain est portée par la galerie d'histoire de la ville et par la toponymie du quartier. C'est un détail que la plupart des visiteurs de la porte de Versailles ignorent en passant devant."
+      },
+      {
+        heading: "6. L'héliport de Paris",
+        body: "Le même plateau accueille aujourd'hui l'héliport de Paris — Issy-les-Moulineaux, le seul de la capitale, rebaptisé en 2022 du nom de Valérie André, première femme à atteindre le rang de général dans l'armée française, chirurgienne et pilote d'hélicoptère. On ne le visite pas, mais le talus qui le borde est un poste d'observation gratuit et honnête : rotations, appareils de secours, transferts sanitaires. Avec des enfants, c'est une demi-heure qui tient toute seule, et c'est la continuité directe du terrain de Farman à un siècle d'écart."
+      },
+      {
+        heading: "7. L'écoquartier du Fort d'Issy",
+        body: "Le fort d'Issy, ouvrage militaire du XIXᵉ siècle sur les hauteurs de la commune, a été racheté par la ville en 2009 et reconverti en écoquartier : dix-sept immeubles sur douze hectares, sur un terrain que l'armée avait tenu pendant plus d'un siècle. Le contraste est le sujet — on marche sur des glacis et des tracés de fortification devenus des rues et des jardins. Le quartier se traverse librement, et les vestiges du fort restent lisibles par endroits pour qui sait où regarder. La vue sur Paris depuis le haut du plateau est une des meilleures du sud-ouest francilien."
+      },
+      {
+        heading: "8. Les souterrains d'Issy",
+        body: "Sous la commune courent d'anciennes carrières de craie, transformées en champignonnières au début du XXᵉ siècle puis utilisées comme abris pendant la Seconde Guerre mondiale. Le réseau se compte en kilomètres de galeries. Il n'est pas ouvert en accès libre — pour de bonnes raisons — mais des visites guidées sont proposées ponctuellement, notamment autour du fort et lors des Journées européennes du patrimoine. Il faut réserver, les places sont rares et partent vite, et l'équipement demandé est celui d'une visite souterraine : chaussures fermées et vêtement chaud."
+      },
+      {
+        heading: "9. La vigne d'Issy",
+        body: "Issy cultive encore une petite vigne sur son coteau, au chemin des Vignes, héritière d'une viticulture encouragée dès le Moyen Âge par l'abbaye de Saint-Germain-des-Prés. La parcelle fait environ 300 m² et produit chaque année entre 200 et 300 bouteilles de vin blanc — une production symbolique, qui ne se trouve pas dans le commerce et se joue autour des vendanges d'automne, moment où le lieu s'ouvre au public. C'est anecdotique en volume et parfaitement réel : la banlieue ouest de Paris était un vignoble avant d'être un pôle tertiaire."
+      },
+      {
+        heading: "10. Y aller et longer la Seine",
+        body: "La ligne 12 du métro dessert Mairie d'Issy et Corentin Celton, le tramway T2 longe la Seine et le RER C s'arrête à Issy et Issy Val de Seine — trois réseaux pour une commune de cette taille, ce qui rend la voiture inutile. Sur place, tout se fait à pied ou en quelques stations : le musée est près de la mairie, l'île Saint-Germain au bord du fleuve, le fort sur les hauteurs. Les berges aménagées relient Boulogne-Billancourt au nord et Meudon au sud — où la villa des Brillants, seconde adresse du musée Rodin, est accessible depuis Issy sans y être située."
+      }
+    ],
+    relatedCities: ["issy-les-moulineaux", "boulogne-billancourt", "neuilly-sur-seine", "paris", "versailles"],
+    relatedGuides: [
+      "10-choses-a-faire-a-boulogne-billancourt-2026",
+      "10-choses-a-faire-a-neuilly-sur-seine-2026",
+      "10-choses-a-faire-a-paris-2026"
+    ],
+    tags: ["10 choses à faire à Issy-les-Moulineaux", "activités Issy-les-Moulineaux 2026", "que faire à Issy-les-Moulineaux", "sorties Issy-les-Moulineaux", "Tour aux figures Dubuffet musée Carte à jouer île Saint-Germain fort d'Issy héliport"]
+  },
+  {
+    slug: "10-choses-a-faire-a-aubervilliers-2026",
+    title: "10 choses à faire à Aubervilliers (le 19M, la Maladrerie et le canal)",
+    metaTitle: "10 choses à faire à Aubervilliers 2026 — activités",
+    metaDesc: "Galerie du 19M, église Notre-Dame-des-Vertus, cité de la Maladrerie, canal Saint-Denis et Street Art Avenue, théâtre de la Commune : 10 activités.",
+    category: "tourisme",
+    emoji: "🧵",
+    readMinutes: 7,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    intro: "Aubervilliers, environ 89 000 habitants en Seine-Saint-Denis, n'a rien d'une ville de carte postale et ce guide ne fera pas semblant du contraire. Elle a autre chose : une concentration d'équipements culturels que peu de communes de cette taille peuvent aligner, et qui se sont installés là précisément parce que le foncier et l'histoire ouvrière le permettaient. Un bâtiment de Rudy Ricciotti qui abrite les métiers d'art de la mode et dont la galerie est gratuite, un centre dramatique national, une cité d'habitation devenue objet d'étude pour les architectes du monde entier, une église de pèlerinage antérieure de plusieurs siècles à l'urbanisation, un campus de sciences humaines et un canal transformé en galerie de fresques à ciel ouvert. C'est à deux stations de métro de Paris, et ça se fait à pied.",
+    sections: [
+      {
+        heading: "1. La Galerie du 19M",
+        body: "Le 19M est le bâtiment que la maison Chanel a fait construire à la lisière d'Aubervilliers et de Paris pour y réunir onze Maisons d'art — broderie, plumasserie, plisse, bottier, orfèvrerie de mode — avec leurs équipes et leurs archives. L'architecture est de Rudy Ricciotti, reconnaissable à son enveloppe de fils de béton. Les ateliers ne se visitent pas, mais la Galerie du 19M, 1 200 m² au rez-de-chaussée, est ouverte à tous et gratuite depuis janvier 2022 : expositions, ateliers, rencontres, autour des savoir-faire de la mode et de la décoration. C'est l'entrée la plus simple dans un univers habituellement fermé."
+      },
+      {
+        heading: "2. L'église Notre-Dame-des-Vertus",
+        body: "Bien avant l'usine et le périphérique, Aubervilliers était un village de pèlerinage. L'église Notre-Dame-des-Vertus, des XVIᵉ et XVIIᵉ siècles, classée au titre des monuments historiques, en garde la mémoire : le culte s'y développe après ce que la tradition locale appelle le miracle de la pluie, en 1336, lorsqu'une statue de la Vierge aurait pleuré au terme d'une longue sécheresse. Il en reste des vitraux et un orgue ancien, et une nef qui n'a rien à voir avec ce qui l'entoure aujourd'hui. Ouverte selon les horaires paroissiaux, avec des visites guidées ponctuelles."
+      },
+      {
+        heading: "3. La cité de la Maladrerie",
+        body: "Construite entre 1979 et 1988 sur les plans de Renée Gailhoustet, la Maladrerie est l'un des ensembles de logement social les plus étudiés de France. Sur huit hectares, elle prend la forme d'une colline de béton brut envahie par la végétation, traversée de cheminements piétons : environ 900 logements en duplex ou triplex, tous dotés de terrasses plantées, une quarantaine d'ateliers d'artistes, des commerces et des équipements. C'est l'exact contraire de la barre et de la tour, sur le même terrain et à la même époque. Des visites guidées sont organisées, notamment lors des Journées nationales de l'architecture."
+      },
+      {
+        heading: "4. Le théâtre de la Commune",
+        body: "La Commune est le centre dramatique national d'Aubervilliers, l'un des plus anciens de la couronne parisienne, et une maison de création autant que de diffusion. La programmation est contemporaine et assumée comme telle : théâtre d'aujourd'hui, formes hybrides, travail suivi avec les habitants de la ville. Les tarifs sont sensiblement en dessous de ce que pratiquent les scènes parisiennes, ce qui est cohérent avec le projet du lieu. Vérifier la saison avant de venir — le bâtiment n'a pas d'intérêt en dehors des représentations."
+      },
+      {
+        heading: "5. Les Laboratoires d'Aubervilliers",
+        body: "Les Laboratoires d'Aubervilliers sont un lieu de recherche artistique installé dans une ancienne fabrique : résidences d'artistes, formes en cours d'élaboration, chorégraphie, écriture, arts visuels. On n'y va pas voir un spectacle fini, on y va voir du travail en train de se faire, souvent gratuitement, souvent en petit comité. C'est un fonctionnement qui ne convient pas à tout le monde et qui suppose de regarder le programme avant de se déplacer. Pour qui suit la création contemporaine, c'est une des adresses qui comptent en Île-de-France."
+      },
+      {
+        heading: "6. Le CAPA, centre d'arts plastiques",
+        body: "Le centre d'arts plastiques d'Aubervilliers est le lieu municipal d'exposition et de pratique artistique de la ville : expositions temporaires, ateliers ouverts aux habitants, travail avec les écoles. Il a notamment consacré des accrochages à la Maladrerie et à l'histoire urbaine de la commune, ce qui en fait un bon point de départ avant d'aller voir la cité elle-même. L'entrée est libre. C'est modeste en surface et sérieux en contenu — le type d'équipement qui explique pourquoi tant d'artistes se sont installés ici."
+      },
+      {
+        heading: "7. Le canal Saint-Denis et la Street Art Avenue",
+        body: "Le canal Saint-Denis traverse la commune du sud au nord, et ses berges portent la Street Art Avenue : un parcours de fresques monumentales signées par des artistes venus de toute l'Europe et au-delà, sur les pignons, les quais et les ouvrages d'art. Ça se fait à pied ou à vélo, gratuitement, en continu depuis La Villette jusqu'à Saint-Denis. L'été, la programmation de L'Été du canal ajoute croisières, navettes fluviales et rendez-vous graffiti sur les berges. C'est la meilleure façon de relier entre eux les autres points de ce guide."
+      },
+      {
+        heading: "8. Le campus Condorcet",
+        body: "Inauguré en 2019 entre la porte de la Chapelle et Aubervilliers, le campus Condorcet regroupe des établissements de sciences humaines et sociales — CNRS, EHESS, École nationale des chartes et d'autres — sur un quartier neuf conçu d'un bloc. Son grand équipement documentaire rassemble des fonds jusque-là dispersés dans Paris. Ce n'est pas un site touristique, c'est un morceau de ville récent qui vaut la traversée pour ce qu'il dit du basculement du savoir universitaire vers le nord-est : une place publique, des bâtiments contemporains et une bibliothèque à l'échelle d'un quartier."
+      },
+      {
+        heading: "9. Le marché et le parc Éli-Lotar",
+        body: "Le marché du centre-ville est le lieu où l'on comprend le mieux la composition d'Aubervilliers : produits d'Afrique du Nord, d'Afrique subsaharienne, d'Asie du Sud et du Sud-Est, et maraîchage francilien, sur les mêmes allées. Il se tient plusieurs matinées par semaine et c'est l'endroit le moins cher de la visite. À quelques minutes à pied, le parc Éli-Lotar — du nom du photographe et cinéaste qui filma les abattoirs de la Villette — fait partie des espaces verts ouverts ces dernières années sur d'anciennes emprises industrielles. La commune reste pauvre en verdure ; ces respirations comptent."
+      },
+      {
+        heading: "10. Y aller et rayonner",
+        body: "La ligne 7 du métro dessert Aubervilliers-Pantin Quatre Chemins et Fort d'Aubervilliers, et la ligne 12 y a été prolongée jusqu'à son terminus Mairie d'Aubervilliers le 31 mai 2022 — un changement récent qui a rapproché le centre-ville du sud de Paris de manière directe. Sur place, tout se fait à pied le long du canal ou d'une station à l'autre. Autour, la basilique de Saint-Denis et sa nécropole royale sont à quelques minutes, Pantin et ses Grands Moulins de l'autre côté, et le parc de la Villette est le prolongement naturel du canal vers Paris."
+      }
+    ],
+    relatedCities: ["aubervilliers", "saint-denis", "pantin", "montreuil", "saint-ouen-sur-seine", "paris"],
+    relatedGuides: [
+      "10-choses-a-faire-a-saint-denis-2026",
+      "10-choses-a-faire-a-pantin-2026",
+      "10-choses-a-faire-a-saint-ouen-sur-seine-2026"
+    ],
+    tags: ["10 choses à faire à Aubervilliers", "activités Aubervilliers 2026", "que faire à Aubervilliers", "sorties Aubervilliers", "19M Chanel Maladrerie Gailhoustet Notre-Dame-des-Vertus canal Saint-Denis campus Condorcet"]
+  },
+  {
+    slug: "10-choses-a-faire-a-merignac-2026",
+    title: "10 choses à faire à Mérignac (Bourran, la Maison carrée et le Krakatoa)",
+    metaTitle: "10 choses à faire à Mérignac 2026 — activités locales",
+    metaDesc: "Parc de Bourran, Maison carrée d'Arlac, vieille église Saint-Vincent, Krakatoa, Pin Galant, vignoble Luchey-Halde : 10 activités à Mérignac.",
+    category: "tourisme",
+    emoji: "✈️",
+    readMinutes: 7,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    intro: "Mérignac, environ 74 000 habitants en Gironde, est la deuxième commune de Bordeaux Métropole et pour la plupart des gens un nom d'aéroport. C'est réducteur. La commune a été, avant l'urbanisation, un chapelet de domaines viticoles et de folies bordelaises, et il en reste des morceaux entiers : un parc paysager du XIXᵉ siècle autour de son château, une villa néoclassique construite juste avant la Révolution, une église romane du XIIᵉ siècle devenue salle d'exposition, et un vignoble en appellation Pessac-Léognan cerné par la ville. À quoi s'ajoute une vie culturelle qui ne dépend pas de Bordeaux : une des grandes salles de spectacle de l'agglomération et une salle de musiques actuelles qui a plus de trente ans.",
+    sections: [
+      {
+        heading: "1. Le parc de Bourran",
+        body: "Le parc de Bourran est le plus beau morceau de nature de Mérignac : dix-huit hectares de parc paysager autour du château de Bourran, protégé au titre des monuments historiques. Le dessin est celui d'un jardin romantique de la fin du XIXᵉ siècle — un lac semé d'îles, un pont ouvragé, une grotte rocheuse, des arbres remarquables et des essences exotiques. Une population d'oiseaux d'eau y vit à demeure : cygnes blancs et noirs, oies, poules d'eau, hérons cendrés. Des sculptures contemporaines ponctuent le parcours. Entrée libre, et c'est le site à faire en priorité avec des enfants."
+      },
+      {
+        heading: "2. La Maison carrée d'Arlac",
+        body: "La Maison carrée d'Arlac est une folie néoclassique bâtie entre 1785 et 1789, c'est-à-dire achevée à la veille de la Révolution. C'est un objet architectural inattendu au milieu du tissu pavillonnaire : plan carré, ordonnance stricte, référence antique assumée, dans le goût des villégiatures que la bourgeoisie bordelaise se faisait construire aux portes de la ville. Restaurée par la commune, elle sert aujourd'hui de lieu culturel et accueille expositions et manifestations. Vérifier la programmation avant de se déplacer : l'intérieur ne s'ouvre pas en permanence, mais la façade se voit depuis la rue."
+      },
+      {
+        heading: "3. La vieille église Saint-Vincent",
+        body: "La vieille église Saint-Vincent, romane, date du XIIᵉ siècle et constitue le plus ancien monument de Mérignac, civil ou religieux. Endommagée puis restaurée à plusieurs reprises au fil des siècles, elle a été désaffectée du culte et sert désormais de salle d'exposition municipale. Le résultat est réussi : un volume roman nu, sans mobilier liturgique, qui met en valeur ce qu'on y accroche. C'est aussi le seul endroit de la commune où l'on touche du doigt le village médiéval qui précède la banlieue — le reste a été absorbé."
+      },
+      {
+        heading: "4. Le Krakatoa",
+        body: "Le Krakatoa a ouvert le 17 mars 1990 sous l'impulsion de l'association Transrock et il est devenu, en une trentaine d'années, l'une des salles de musiques actuelles qui comptent dans le Sud-Ouest. Rock, électro, rap, scènes émergentes et têtes d'affiche en tournée : la programmation est dense et couvre l'année scolaire. La salle est de format intermédiaire, ce qui en fait un bon endroit pour voir de près des groupes qu'on ne verrait autrement que dans un Zénith. Réserver à l'avance sur les dates connues, la jauge n'est pas extensible."
+      },
+      {
+        heading: "5. Le Pin Galant",
+        body: "Le Pin Galant est le grand théâtre de Mérignac et l'une des principales salles de spectacle de l'agglomération bordelaise par sa capacité : opéra, danse, humour, théâtre de tournée, concerts classiques et variété. C'est la salle qui reçoit les productions trop grandes pour les scènes du centre de Bordeaux. La saison est publiée en amont et les meilleures séries partent tôt. L'arrêt de tramway porte son nom, ce qui règle la question du retour de soirée sans voiture — un détail qui compte pour un équipement de cette taille en périphérie."
+      },
+      {
+        heading: "6. Le château Luchey-Halde",
+        body: "Château Luchey-Halde est un vignoble urbain au sens strict : vingt-trois hectares en appellation Pessac-Léognan, entourés par la ville, à quelques kilomètres du centre de Bordeaux. Le domaine produit chaque année entre 100 000 et 150 000 bouteilles, en rouge et en blanc, et il a la particularité d'être exploité dans un cadre pédagogique lié à l'enseignement agronomique bordelais. Il propose visites, dégustations et événements dans les chais et dans les vignes. Pour un visiteur qui n'a pas le temps de monter au Médoc, c'est la façon la plus courte de voir un vrai vignoble bordelais."
+      },
+      {
+        heading: "7. Le Conservatoire de l'air et de l'espace d'Aquitaine",
+        body: "Le CAEA est une association fondée en 1987, affiliée à la fédération française des aéronefs historiques, qui conserve et restaure une collection de près de soixante appareils — Caravelle, Dassault Mercure, Falcon 20, Mirage IVP, Canadair CL-215 entre autres. C'est un patrimoine aéronautique de premier plan. Attention toutefois : la collection est implantée sur la base aérienne 106 de Bordeaux-Mérignac, en zone militaire, ce qui limite fortement l'accès du public. Ce n'est pas un musée où l'on entre un dimanche après-midi ; il faut passer par les ouvertures exceptionnelles et les manifestations annoncées par l'association."
+      },
+      {
+        heading: "8. Mérignac-Ciné, la médiathèque et le conservatoire",
+        body: "Mérignac assume une offre culturelle de proximité qui ne dépend pas de Bordeaux : un cinéma municipal, une médiathèque et un conservatoire, tous situés dans le secteur du centre-ville, à distance de marche les uns des autres. C'est ce qui distingue une commune de banlieue qui a construit sa propre vie culturelle d'une commune-dortoir qui envoie ses habitants dans la ville-centre. Pour un visiteur, l'intérêt est pratique : une séance en version originale ou une exposition en fin d'après-midi s'enchaînent avec un concert au Krakatoa ou une soirée au Pin Galant."
+      },
+      {
+        heading: "9. L'histoire aéronautique de la commune",
+        body: "Mérignac vit avec l'aviation depuis un siècle : l'aéroport de Bordeaux-Mérignac est sur la commune, la base aérienne 106 y est implantée, et Dassault Aviation y produit. Cette histoire explique une partie de la forme urbaine — les emprises, les servitudes, les quartiers d'ouvriers et d'ingénieurs. Il n'y a pas de circuit balisé, mais les abords de l'aéroport offrent des points d'observation des mouvements d'appareils, et l'ensemble se comprend beaucoup mieux après un passage par la collection du CAEA quand elle est accessible. C'est un patrimoine industriel, pas un décor."
+      },
+      {
+        heading: "10. Y aller et rayonner",
+        body: "La ligne A du tramway traverse Mérignac d'est en ouest depuis Bordeaux, avec des arrêts au centre-ville et au Pin Galant, ce qui permet de faire l'essentiel de ce guide sans voiture. L'aéroport est sur la commune, à l'écart du centre. Autour, Pessac et sa cité Frugès de Le Corbusier sont limitrophes au sud, le centre de Bordeaux et son port de la Lune sont à un quart d'heure de tram, et le bassin d'Arcachon est à moins d'une heure de route par l'A63 — Mérignac étant, de toute l'agglomération, la commune la mieux placée pour partir vers l'ouest."
+      }
+    ],
+    relatedCities: ["merignac", "bordeaux", "pessac", "talence", "le-bouscat", "arcachon"],
+    relatedGuides: [
+      "10-choses-a-faire-a-bordeaux-2026",
+      "10-choses-a-faire-a-arcachon-2026",
+      "10-choses-a-faire-a-libourne-2026"
+    ],
+    tags: ["10 choses à faire à Mérignac", "activités Mérignac 2026", "que faire à Mérignac", "sorties Mérignac", "parc de Bourran Maison carrée d'Arlac Krakatoa Pin Galant Luchey-Halde"]
+  },
+  {
+    slug: "10-choses-a-faire-a-pessac-2026",
+    title: "10 choses à faire à Pessac (Le Corbusier, Haut-Brion et le Bourgailh)",
+    metaTitle: "10 choses à faire à Pessac 2026 — activités locales",
+    metaDesc: "Cité Frugès de Le Corbusier inscrite à l'UNESCO, châteaux Haut-Brion et Pape Clément, écosite du Bourgailh, cinéma Jean Eustache : 10 activités à Pessac.",
+    category: "tourisme",
+    emoji: "🏡",
+    readMinutes: 7,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    intro: "Pessac, environ 64 000 habitants en Gironde, cumule deux choses que peu de communes réunissent : un site inscrit au patrimoine mondial de l'UNESCO et deux des vignobles les plus anciens et les plus cotés de Bordeaux, à l'intérieur du périmètre urbain. La cité Frugès, quartier ouvrier commandé à Le Corbusier par un industriel bordelais au milieu des années 1920, est l'un des rares endroits au monde où l'on peut entrer dans une maison du maître ; Haut-Brion et Pape Clément produisent à quelques centaines de mètres des lotissements. Ajoutez le plus grand campus universitaire de Nouvelle-Aquitaine, une forêt de 110 hectares reconquise sur une ancienne décharge et un cinéma d'art et essai qui porte un festival national, et Pessac cesse d'être une banlieue de Bordeaux.",
+    sections: [
+      {
+        heading: "1. La cité Frugès-Le Corbusier",
+        body: "La cité Frugès est née de la commande d'Henry Frugès, industriel bordelais passionné d'architecture moderne, qui voulait démontrer qu'on pouvait produire du logement ouvrier de qualité en série. Le Corbusier et Pierre Jeanneret l'ont construite au milieu des années 1920 : maisons standardisées, toits-terrasses, volumes simples, polychromie extérieure destinée à faire varier la perception des masses. Elle est inscrite depuis 2016 au patrimoine mondial de l'UNESCO au titre de l'œuvre architecturale de Le Corbusier. C'est un quartier habité — on le parcourt depuis la rue, en respectant l'intimité des occupants."
+      },
+      {
+        heading: "2. La maison municipale Frugès-Le Corbusier",
+        body: "Une des maisons de la cité appartient à la commune et se visite. C'est là que la démonstration prend son sens : les volumes intérieurs, les percements, les circulations et surtout la polychromie restituée, qu'on ne peut pas deviner depuis la rue. Des visites guidées gratuites en français sont proposées sur réservation. Il faut s'y prendre à l'avance, les créneaux sont limités et les groupes petits, et ça reste l'un des très rares logements de Le Corbusier ouverts au public en France. C'est le point de départ obligatoire avant de faire le tour du quartier."
+      },
+      {
+        heading: "3. Le château Haut-Brion",
+        body: "Haut-Brion est le seul vin des Graves à figurer dans le classement de 1855, aux côtés des premiers crus du Médoc — une exception qui dit tout de son ancienneté et de sa réputation. Le vignoble est aujourd'hui enclavé dans le tissu urbain de Pessac : on longe des murs de clos en pleine ville avant de voir les rangs. Les visites se font sur réservation, en nombre restreint, et il faut s'y prendre longtemps à l'avance. Même sans entrer, le contraste entre le lotissement et la parcelle classée vaut le détour à pied."
+      },
+      {
+        heading: "4. Le château Pape Clément",
+        body: "Pape Clément est l'un des plus anciens vignobles bordelais encore en production, lié à Bertrand de Got, archevêque de Bordeaux devenu le pape Clément V au début du XIVᵉ siècle. Le domaine est aujourd'hui l'un des plus ouverts au public de la métropole : visites du parc et des chais, dégustations, ateliers d'assemblage et de vendange selon la saison. C'est le complément accessible de Haut-Brion — la même appellation, la même géologie de graves, mais une politique d'accueil pensée pour les visiteurs plutôt que pour les seuls professionnels."
+      },
+      {
+        heading: "5. L'appellation Pessac-Léognan",
+        body: "L'appellation Pessac-Léognan a été créée en 1987 pour distinguer la partie nord des Graves, celle des grands crus historiques, du reste de la région. Elle produit rouges et blancs secs, ce qui est rare dans le Bordelais où la plupart des appellations prestigieuses ne font que du rouge. Plusieurs domaines de l'appellation se trouvent sur le territoire de Pessac même, entourés de maisons. C'est le seul endroit où l'on peut faire une matinée de vignoble classé en descendant du tramway : ailleurs dans la Gironde, il faut la voiture."
+      },
+      {
+        heading: "6. L'écosite du Bourgailh",
+        body: "Le Bourgailh est une forêt de 110 hectares aménagée en site de découverte, avec une serre tropicale, des jardins thématiques et des sentiers. Sa particularité est son origine : la colline a été formée par une ancienne décharge, refermée puis revégétalisée, et l'ensemble est désormais un site pédagogique consacré à la biodiversité et au réemploi. C'est le plus grand espace naturel de la commune et l'un des plus vastes de la métropole. Entrée du parc libre, la serre et les animations relevant d'une programmation à consulter avant de venir."
+      },
+      {
+        heading: "7. Le cinéma Jean Eustache",
+        body: "Le cinéma municipal porte le nom du cinéaste Jean Eustache, né à Pessac, et c'est l'un des cinémas d'art et essai les plus fréquentés de France en dehors des grandes villes-centres. Programmation exigeante, versions originales, rétrospectives, séances accompagnées et plusieurs festivals répartis dans l'année, dont Les Toiles Filantes pour le jeune public, le festival Télérama-AFCAE et des rencontres consacrées au cinéma latino-américain. Pour un visiteur, c'est la meilleure fin de journée possible après une matinée de vignoble et un après-midi Le Corbusier."
+      },
+      {
+        heading: "8. Le Festival international du film d'histoire",
+        body: "Depuis 1990, le cinéma Jean Eustache accueille chaque mois de novembre le Festival international du film d'histoire de Pessac : une semaine de projections, de débats et de rencontres entre cinéastes, historiens et public, organisée autour d'un thème renouvelé chaque année. C'est devenu le rendez-vous national de référence entre cinéma et histoire, et l'un des rares festivals français où le débat compte autant que la projection. Les dates et le thème sont annoncés à l'avance ; la ville se remplit sur cette semaine, prévoir l'hébergement en conséquence."
+      },
+      {
+        heading: "9. Le domaine universitaire",
+        body: "Le campus de Bordeaux s'étend principalement sur Pessac et Talence, et c'est l'un des plus grands domaines universitaires de France par la superficie. Ce n'est pas un site de visite classique, mais c'est un morceau de ville en soi : architecture des années 1960 aux constructions récentes, allées plantées, équipements sportifs, bibliothèques. Il explique aussi la démographie de la commune et sa vie de quartier en période universitaire. Le tramway B le traverse de part en part, ce qui en fait une traversée facile entre le centre de Bordeaux et le sud de Pessac."
+      },
+      {
+        heading: "10. Y aller et rayonner",
+        body: "La ligne B du tramway relie le centre de Bordeaux à Pessac en traversant le domaine universitaire, et le TER dessert également la commune — la cité Frugès, les domaines viticoles et le centre-ville sont accessibles sans voiture, ce qui est exceptionnel pour un vignoble classé. Sur place, compter une journée pour enchaîner Le Corbusier le matin, un château l'après-midi et le Bourgailh ou une séance au Jean Eustache en fin de journée. Autour, Mérignac est limitrophe au nord, Bordeaux à un quart d'heure, et Léognan prolonge l'appellation vers le sud."
+      }
+    ],
+    relatedCities: ["pessac", "bordeaux", "merignac", "talence", "villenave-d-ornon", "arcachon"],
+    relatedGuides: [
+      "10-choses-a-faire-a-bordeaux-2026",
+      "10-choses-a-faire-a-libourne-2026",
+      "10-choses-a-faire-a-arcachon-2026"
+    ],
+    tags: ["10 choses à faire à Pessac", "activités Pessac 2026", "que faire à Pessac", "sorties Pessac", "cité Frugès Le Corbusier UNESCO Haut-Brion Pape Clément Bourgailh Jean Eustache"]
+  },
+  {
+    slug: "10-choses-a-faire-a-venissieux-2026",
+    title: "10 choses à faire à Vénissieux (Parilly, le bourg ancien et la mémoire de 1983)",
+    metaTitle: "10 choses à faire à Vénissieux 2026 — activités",
+    metaDesc: "Parc et hippodrome de Parilly, église Saint-Germain, vieux bourg, médiathèque Lucie-Aubrac, mémoire de la Marche de 1983 : 10 activités à Vénissieux.",
+    category: "tourisme",
+    emoji: "🌳",
+    readMinutes: 6,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    intro: "Vénissieux, environ 63 000 habitants dans la Métropole de Lyon, n'est pas une ville touristique et ne s'annonce pas comme telle. Ce guide ne va donc pas lui inventer un centre historique qu'elle n'a pas. Elle a autre chose, et c'est réellement visitable : la moitié d'un parc de 187 hectares — le plus grand de l'est lyonnais — avec un hippodrome en son cœur, un bourg médiéval avalé par la ville mais resté lisible autour de son église, et une place dans l'histoire sociale française contemporaine que peu de communes peuvent revendiquer, puisque la Marche pour l'égalité et contre le racisme de 1983 est née ici. C'est à un quart d'heure du centre de Lyon par le métro D, dont Vénissieux est le terminus.",
+    sections: [
+      {
+        heading: "1. Le parc de Parilly",
+        body: "Le parc de Parilly est un parc métropolitain de 187 hectares réparti entre Bron et Vénissieux, et c'est le grand espace vert de l'est lyonnais. Il se compose pour l'essentiel d'un boisement, complété par une zone sportive largement équipée : terrains, parcours, aires de jeux, chemins de course. On y entre librement, on y marche des heures, et sa taille fait qu'on y trouve du calme même le dimanche. Pour un visiteur qui séjourne à Lyon et cherche une matinée à l'air libre sans quitter le réseau de transport urbain, c'est le meilleur choix côté est."
+      },
+      {
+        heading: "2. L'hippodrome de Parilly",
+        body: "L'hippodrome occupe la partie centrale du parc, côté Vénissieux, et c'est l'un des rares hippodromes de France situés à l'intérieur d'un grand espace vert urbain. La saison se divise en deux réunions, de mars à juin puis de septembre à décembre, avec des courses de plat, de trot et d'obstacle. Les journées de courses sont ouvertes au public et restent une sortie peu coûteuse, y compris pour qui ne parie pas : le spectacle de la piste, les paddocks et l'ambiance suffisent. Consulter le calendrier avant de venir, l'hippodrome ne tourne pas toute l'année."
+      },
+      {
+        heading: "3. L'église Saint-Germain",
+        body: "L'église Saint-Germain est le plus ancien édifice de Vénissieux et le seul témoin substantiel du village d'avant l'industrialisation. La chapelle de la Vierge et le clocher datent du XVᵉ siècle ; la tour-clocher abrite une charpente de vieux chênes qui supporte trois cloches, dont une en bronze du milieu du XVIᵉ siècle. Le contraste avec le tissu urbain qui l'entoure est frappant et c'est justement l'intérêt de s'y arrêter : la ville dense de la métropole s'est construite autour d'un bourg rural dont il reste ce point fixe."
+      },
+      {
+        heading: "4. Le vieux bourg et la rue du Château",
+        body: "Autour de l'église subsiste le bourg ancien : une placette, une architecture sobre, quelques alignements qui n'ont pas bougé. La rue du Château est le morceau à repérer — elle épouse le tracé de l'ancienne muraille, ce qui explique sa forme circulaire autour de l'église, et c'est la plus vieille rue de la commune. La boucle se fait en vingt minutes. C'est court, et c'est la seule promenade de Vénissieux où l'on lit directement une strate antérieure au XXᵉ siècle ; pour le reste, la ville se comprend par son histoire ouvrière et sociale."
+      },
+      {
+        heading: "5. La mémoire de la Marche pour l'égalité",
+        body: "À l'été 1983, le quartier des Minguettes devient l'un des foyers des mobilisations contre le racisme, et c'est de là que naît le projet de la Marche pour l'égalité et contre le racisme. La marche elle-même part de Marseille le 15 octobre 1983 et arrive à Paris le 3 décembre : trente-deux marcheurs permanents, une quarantaine de villes traversées, des débats et des rassemblements à chaque étape. C'est un épisode fondateur de l'histoire sociale française récente, et Vénissieux en est le point d'origine. La ville et ses institutions culturelles en portent la commémoration."
+      },
+      {
+        heading: "6. Les Minguettes aujourd'hui",
+        body: "Le plateau des Minguettes est un grand ensemble des années 1960-1970, très largement remodelé depuis par les programmes de rénovation urbaine : tours démolies, îlots reconstruits, équipements neufs, desserte par le tramway. Ce n'est pas un site de visite et il faut y venir avec les intentions qu'on aurait dans n'importe quel quartier habité. Ce qu'on y trouve, c'est un point de vue : le plateau domine la vallée du Rhône et une bonne partie de l'agglomération, et il donne à voir concrètement ce que trois décennies de politique de la ville ont changé sur le terrain."
+      },
+      {
+        heading: "7. La médiathèque Lucie-Aubrac",
+        body: "La médiathèque Lucie-Aubrac est l'équipement culturel principal de la commune : environ 3 600 m² de collections adultes, jeunesse et jeunes, presse, bandes dessinées et mangas, CD et DVD, avec une programmation d'expositions et de rencontres — dont plusieurs consacrées à la mémoire de la Marche de 1983. Elle est complétée par la bibliothèque Anatole-France, aux Minguettes, plus petite et centrée sur la jeunesse. L'entrée et la consultation sur place sont libres. C'est aussi, très concrètement, le meilleur endroit pour se documenter sur l'histoire locale avant de parcourir la ville."
+      },
+      {
+        heading: "8. Les marchés forains",
+        body: "Vénissieux tient plusieurs marchés, dont celui du centre, sur les places Léon-Sublet et Barbusse et les rues Gambetta et Jaurès. C'est l'un des rendez-vous les plus vivants de la commune et un bon reflet de sa composition : produits maghrébins, turcs, portugais, asiatiques et maraîchage du Rhône sur les mêmes allées, à des prix nettement inférieurs à ceux du centre de Lyon. Les jours et horaires sont publiés par la ville. Pour un visiteur, c'est la manière la plus directe de comprendre Vénissieux sans passer par un discours institutionnel."
+      },
+      {
+        heading: "9. L'héritage industriel",
+        body: "Vénissieux s'est construite au XXᵉ siècle autour de l'automobile et du poids lourd — l'usine Berliet, devenue Renault Trucks, structure encore le sud-est de la commune. Les sites de production ne se visitent pas, et il faut le dire clairement plutôt que de laisser croire à un circuit du patrimoine industriel. Ce qui se lit, en revanche, c'est le paysage : les emprises ferroviaires, les cités ouvrières, l'échelle des voies, la manière dont la ville s'est organisée autour d'une usine plutôt qu'autour d'une place. C'est une clé de lecture, pas une visite guidée."
+      },
+      {
+        heading: "10. Y aller et rayonner",
+        body: "Le métro D a son terminus à Gare de Vénissieux, où il croise le tramway T4 et le TER — un quart d'heure suffit depuis le centre de Lyon, et c'est l'une des communes de banlieue les mieux reliées de la métropole. Sur place, le parc de Parilly, le vieux bourg et le centre-ville se font en tramway ou à pied. Autour, Bron est limitrophe et abrite le fort de Bron, l'un des mieux restaurés de la ceinture fortifiée de Lyon ; le centre de Lyon et la Presqu'île sont à portée directe de métro, et Vienne, avec son théâtre antique, à une trentaine de minutes de TER vers le sud."
+      }
+    ],
+    relatedCities: ["venissieux", "lyon", "villeurbanne", "bron", "saint-priest", "vienne"],
+    relatedGuides: [
+      "10-choses-a-faire-a-lyon-2026",
+      "10-choses-a-faire-a-villeurbanne-2026",
+      "10-choses-a-faire-a-vienne-2026"
+    ],
+    tags: ["10 choses à faire à Vénissieux", "activités Vénissieux 2026", "que faire à Vénissieux", "sorties Vénissieux", "parc de Parilly hippodrome église Saint-Germain Minguettes Marche 1983 médiathèque Lucie-Aubrac"]
+  },
+  {
     slug: "parent-solo-a-rennes-2026",
     title: "Parent solo à Rennes en 2026 : deux lignes de métro et un T3 à 1 100 €",
     metaTitle: "Parent solo à Rennes 2026 — Budget, écoles, métro",
