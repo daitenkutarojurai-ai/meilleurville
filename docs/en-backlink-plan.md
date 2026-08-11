@@ -170,15 +170,110 @@ need a direct visit before use. **Nothing below has been contacted.**
 
 Confirmed active: r/IWantOut, r/expats, r/AskFrance, r/France (English-language threads), InterNations city chapters (Paris, Lyon, Strasbourg/"Americans in Alsace," Montpellier), and a set of expat Facebook groups indexed at nextchapterfrance.com's roundup. No sends here — this is a standing habit to start whenever, not a wave.
 
+## Wave 1 — drafted copy (DRAFT ONLY — nothing below has been sent)
+
+Sender identity matches the site's existing transactional pattern
+(`worker/index.ts`/`worker/crons.ts`): **hello@bestcitiesinfrance.com**,
+display name "Best Cities in France," signed personally as Thomas — same
+shape as the FR outreach script's `SENDER`/`REPLY_TO`. Each pitch leads with
+a specific real page, not the homepage, and is explicit that it isn't a
+guest-post ask (for Oui In France / Annie André, if added to a later wave,
+that line needs to stay front and center — both explicitly decline guest
+posts).
+
+---
+
+**To:** editor@frenchentree.com
+**Subject:** A free, sourced city-data resource — not a guest-post pitch
+
+> Hi FrenchEntrée team,
+>
+> I run BestCitiesInFrance.com, an independent ranking tool covering all 540
+> French cities on 8 axes — safety from SSMSI crime data, cost from Insee and
+> the observatoires des loyers, schools, transport, and more. Full
+> methodology is published at bestcitiesinfrance.com/methodology; nothing on
+> the site is sponsored by a commune or développeur.
+>
+> FrenchEntrée covers property and relocation region by region in real depth,
+> so I thought a couple of pages might be worth linking from your own
+> coverage where relevant — no ask beyond that:
+>
+> - bestcitiesinfrance.com/guides/living-in-the-dordogne-2026 — the four
+>   Périgords, real property prices, the British community, the trade-offs
+>   that don't make the brochure
+> - bestcitiesinfrance.com/city-match — an interactive comparison tool, if
+>   useful for readers weighing options between towns
+>
+> Happy to share the underlying city data or run a custom cut if that's ever
+> useful for something you're working on.
+>
+> Thomas
+> BestCitiesInFrance.com
+
+---
+
+**To:** ben.mcpartland@thelocal.com
+**Subject:** Sourced city-ranking data, in case useful for a "best places to live" piece
+
+> Hi Ben,
+>
+> I built BestCitiesInFrance.com — an independent ranking of all 540 French
+> cities on 8 axes (safety, cost of living, schools, transport, etc.), each
+> sourced back to SSMSI, Insee, or the relevant public dataset. Full
+> methodology at bestcitiesinfrance.com/methodology, nothing sponsored.
+>
+> The Local runs "where to live in France" pieces from time to time, so
+> flagging the data in case it's useful — happy to pull a custom cut (best
+> cities under a given budget, ranked by a specific axis, whatever's useful
+> for a story) at no cost and no strings attached.
+>
+> Thomas
+> BestCitiesInFrance.com
+
+---
+
+**To:** Living Dordogne contact form (living-dordogne.com — no direct email found, form submission needed)
+**Message:**
+
+> Hi,
+>
+> I run BestCitiesInFrance.com and just published an honest, data-backed
+> guide to living in the Dordogne — the four Périgords, real property prices,
+> the British community, climate, and the trade-offs that don't make it into
+> the brochure version: bestcitiesinfrance.com/guides/living-in-the-dordogne-2026
+>
+> Living Dordogne is the best resource I've found for people actually
+> considering the move rather than just visiting, so thought this might be
+> worth a look in case it's useful to link for readers doing the research. No
+> ask beyond that — it's free, no signup, not sponsored by anyone.
+>
+> Thomas, BestCitiesInFrance.com
+
+---
+
+**To:** French Moments contact form (frenchmoments.eu/contact-us/) — *do not use the `pierre@frenchmoments.com` address from search results; the site's actual domain is `.eu`, use the form instead*
+**Message:**
+
+> Hi Pierre,
+>
+> I run BestCitiesInFrance.com — an independent, sourced tool ranking all 540
+> French cities (safety, cost, transport, schools, full methodology
+> published, nothing sponsored). Given how much depth French Moments has on
+> Alsace, I thought this might be a useful companion for readers actually
+> considering living there rather than visiting:
+> bestcitiesinfrance.com/guides/alsace-strasbourg-living-guide-2026
+>
+> No ask beyond flagging it — happy to share the underlying city data if it's
+> ever useful for anything else you're working on.
+>
+> Thomas
+> BestCitiesInFrance.com
+
+---
+
 ## What needs sign-off before anything goes out
 
-Nothing above has been contacted — this is the verified target list only.
-Before wave 1 sends:
-- Confirm which of the press/blogger targets above you want in wave 1 (I'd
-  suggest starting with FrenchEntrée + The Local + Living Dordogne + French
-  Moments — 4 sends, mixed segments, easy to read the response rate before
-  scaling)
-- I'll draft the actual email copy per target (matched to their specific
-  content/guide, not a template) for your review before anything sends
-- Explicit go-ahead on the send itself, same as any outreach — this is
-  messaging third parties on your behalf
+**Drafts only — nothing above has been sent.** Sending these (or submitting
+the FeedSpot form) is messaging/publishing on your behalf, which needs your
+explicit go-ahead per send, not just approval of the plan. Say the word for
+any or all of the four and I'll send them as-is, or flag edits first.
