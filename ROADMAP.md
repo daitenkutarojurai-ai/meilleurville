@@ -1169,6 +1169,80 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ## Shipped 2026-08-11
 
+- **Parité EN — série `studying-in-[city]-2026` FERMÉE (batch 2, +13 : Marseille, Nice,
+  Aix-en-Provence, Clermont-Ferrand, Nancy, Dijon, Angers, Caen, Tours, Poitiers, Amiens,
+  Besançon, Limoges)** ✅ — Les 13 villes restantes écrites d'un coup dans `data/guides-en.ts`.
+  **`EN_GUIDES` 585 → 598 ; série EN = 24 guides** (23 villes + le national
+  `studying-in-france-non-eu-students-guide`). Le batch 1 du matin annonçait « la parité de cette
+  famille est atteinte autour de 23 guides EN » : c'est exactement le compte, la série est close.
+
+  **Le périmètre annoncé a été dépassé volontairement.** Le batch 1 proposait 10 villes pour un
+  batch 2 ; il en restait 13 non couvertes (3 avec les deux sources FR — Nancy, Dijon,
+  Clermont-Ferrand —, 8 avec seulement `etudiant-a-[ville]`, 2 avec seulement
+  `universites-[ville]` : Aix et Nice). Laisser 3 villes orphelines aurait imposé un troisième run
+  pour trois guides et laissé la série dans un état intermédiaire pendant plusieurs jours. Les 13
+  sont écrites, la famille FR (20 `etudiant-a-` + 15 `universites-`, qui se recouvrent) a
+  désormais **un seul miroir EN par ville** — la décision anti-cannibalisation du batch 1 est
+  tenue jusqu'au bout.
+
+  **Ce que la version EN ajoute, et qui n'a pas de raison d'être dans le FR.** Le contrat de série
+  est repris tel quel sur les 13 : ① la **bourse CROUS sur critères sociaux (145-620 €/mois) est
+  en pratique fermée aux étudiants non-UE** sous titre étudiant, et le **repas RU à 1 €** en
+  dépend — les guides FR les présentent comme le socle de l'aide, un lecteur étranger qui budgète
+  dessus se trompe de plusieurs centaines d'euros ; ② **APL/ALS est ouverte** avec un titre de
+  séjour valide ; ③ **Visale** (gratuit, moins de 30 ans) remplace le garant physique résidant en
+  France à 3× le loyer, qui est le vrai mur, pas le prix ; ④ **Études en France / Campus France**
+  et la validation en ligne du VLS-TS dans les 3 mois ; ⑤ **grade de master contre titre RNCP** ;
+  ⑥ le droit au travail à 60 % de la durée annuelle légale.
+
+  **Angles propres à chaque ville, pas un gabarit rempli.** AMU est **une seule entité juridique
+  sur deux villes** : un programme annoncé « Aix-Marseille Université » peut siéger à Aix, où le
+  studio est à 620-750 € contre 500-590 € à Marseille — l'avertissement ouvre le guide de
+  Marseille, et le piège du double trajet Aix-Luminy/Timone (1 h 30 porte-à-porte) ouvre celui
+  d'Aix. Nice : le **piège saisonnier** (chercher en juillet-août est vain, les propriétaires
+  louent au touriste à 2-3× le loyer étudiant) et les 45 min de RD35 vers Sophia Antipolis.
+  Angers : **UCO est une université privée payante** dont le nom traduit en anglais se lit comme
+  une faculté de l'université publique voisine à ~170 € — même piège que la Catho de Lille au
+  batch 1, et le guide ne cite aucun montant faute de source. Caen : le **ferry
+  Ouistreham-Portsmouth** et les plages du Débarquement, qui ne valent rien à un lecteur français
+  et beaucoup à un Britannique. Besançon : le **CLA** fait de la ville le seul dossier de la série
+  bâti autour d'une population étudiante internationale, avec le passage explicite « arriver en
+  B1, séquencer CLA puis diplôme francophone ». Nancy et Besançon portent chacun l'avertissement
+  frontalier qui manque partout ailleurs : **un titre de séjour étudiant français n'autorise par
+  lui-même ni l'emploi au Luxembourg ni l'emploi en Suisse** (plus le plafond télétravail de
+  34 j/an de la convention 2023 côté luxembourgeois). Limoges : le seul argument est le coût, donc
+  le guide dit aussi ce qu'on achète en échange — un marché de l'emploi cadre étroit — et pourquoi
+  payer une école privée à titre RNCP y serait la seule mauvaise décision disponible.
+
+  **Contrôles.** ⚠️ `node_modules` était de nouveau absent au démarrage du conteneur : `npm install`
+  avant tout, sinon `tsc` renvoie des dizaines de milliers de `Cannot find module` sans rapport avec
+  le code. `npx tsc --noEmit` propre ; `npm run integrity` (540 villes, 933 guides FR, **598 EN**,
+  **0 score brut recopié des deux côtés**) ; `npm run search-index` + `search-index:check`
+  (`data/search-index.en.json` 585 → 598 guides, **79 tags inchangés**) ; `npm run parity` code 0.
+  `metaTitle` 54-58 caractères, `metaDesc` 141-156, **6 sections sur les 13**, `relatedCities`
+  toutes présentes dans `CITIES_SEED`. Aucune page `/tags/[slug]` maigre créée : les 13 tags
+  `studying in [ville]` restent à 1 guide, sous `MIN_GUIDES_PER_TAG = 3`, et les tags de région
+  réutilisent les formes majoritaires existantes (`french riviera` pour Nice,
+  `provence-alpes-cote-d-azur` — et non la variante `-dazur` qui traîne à 2 occurrences).
+
+  **Deux passes de correction que seul un contrôle chiffré pouvait produire.** ① Un script a
+  comparé **chaque nombre** de chaque guide EN à l'ensemble des nombres de ses sources FR et aux
+  scores rendus de `CITIES_SEED` : il a sorti **deux chiffres inventés** (un écart de loyer
+  « 150-250 € » entre Aix et Marseille, une facture de chauffage « 200 € » à Tours) et quatre
+  loyers-médians illustratifs (« sur un loyer de 400 € ») qui n'étaient dans aucune source —
+  tous remplacés par les fourchettes réellement publiées. ② Un contrôle des superlatifs contre le
+  classement réel des 23 villes de la série a cassé **trois affirmations fausses** : Nice n'est pas
+  la ville la plus chère de la série (Paris, coût 2,2/10, l'est), Aix n'est pas deuxième mais
+  troisième sur ce critère, et le 7,9/10 « écoles » d'Angers n'est pas le meilleur des treize
+  (Aix est à 8,3). Les scores cités sont les valeurs **rendues** lues via `CITIES_SEED`, jamais les
+  littéraux du seed. La densité de tirets cadratins a été ramenée de 2,0 à **1,16 pour 200 mots**
+  (cible R7.10 ≈ 1 ; le batch 1 du matin est à 2,27 et mériterait la même passe).
+
+  **Prochain run** : la série est close, ne pas la rouvrir. Les gros trous de parité restants,
+  mesurés côté FR : `travail-a-[ville]` 30 guides sans miroir, `demenager-a-[ville]` 50 contre
+  4 `moving-to-*`, `famille-a-[ville]` 19. `demenager-` est le plus gros écart et la plus forte
+  intention relocation pour un lecteur étranger.
+
 - **Parité EN — ouverture de la série `studying-in-[city]-2026` (batch 1, +10 : Paris, Lyon,
   Toulouse, Lille, Bordeaux, Montpellier, Rennes, Strasbourg, Nantes, Grenoble)** ✅ —
   `npm run parity` sort en code 0 (215 FR / 164 EN, 0 route sans jumelle) : la parité de routes

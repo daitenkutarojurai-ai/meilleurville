@@ -2925,6 +2925,71 @@
       "slug": "studying-in-grenoble-2026",
       "title": "Studying in Grenoble (2026): physics, microelectronics and the cheapest rooms in France",
       "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-marseille-2026",
+      "title": "Studying in Marseille (2026): France's biggest university, honestly assessed",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-nice-2026",
+      "title": "Studying in Nice (2026): the Riviera campus and what it really costs",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-aix-en-provence-2026",
+      "title": "Studying in Aix-en-Provence (2026): Sciences Po, AMU and a serious rent",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-clermont-ferrand-2026",
+      "title": "Studying in Clermont-Ferrand (2026): volcanoes, Michelin and low rent",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-nancy-2026",
+      "title": "Studying in Nancy (2026): ten public grandes écoles at €170 a year",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-dijon-2026",
+      "title": "Studying in Dijon (2026): one campus, a triple-crown school and cheap rent",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-angers-2026",
+      "title": "Studying in Angers (2026): 43,000 students in the greenest city in France",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-caen-2026",
+      "title": "Studying in Caen (2026): 30,000 students, the sea, and a ferry to England",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-tours-2026",
+      "title": "Studying in Tours (2026): the Loire, the Renaissance, and Paris in 66 minutes",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-poitiers-2026",
+      "title": "Studying in Poitiers (2026): the cheapest real university town in France",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-amiens-2026",
+      "title": "Studying in Amiens (2026): Paris in 65 minutes, at Picardy prices",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-besancon-2026",
+      "title": "Studying in Besançon (2026): the city built for foreign students",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-limoges-2026",
+      "title": "Studying in Limoges (2026): a French degree without the debt",
+      "emoji": "🎓"
     }
   ],
   "tags": [
@@ -2961,17 +3026,32 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 25
+      "count": 27
     },
     {
       "slug": "grand-est",
       "label": "grand est",
+      "count": 24
+    },
+    {
+      "slug": "international-students",
+      "label": "international students",
+      "count": 24
+    },
+    {
+      "slug": "student-visa-france",
+      "label": "student visa france",
+      "count": 24
+    },
+    {
+      "slug": "student-housing-france",
+      "label": "student housing france",
       "count": 23
     },
     {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 21
+      "count": 22
     },
     {
       "slug": "expat-single-parent",
@@ -2991,7 +3071,7 @@
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 18
+      "count": 19
     },
     {
       "slug": "brittany",
@@ -3019,6 +3099,16 @@
       "count": 15
     },
     {
+      "slug": "pays-de-la-loire",
+      "label": "pays de la loire",
+      "count": 15
+    },
+    {
+      "slug": "provence-alpes-cote-d-azur",
+      "label": "provence-alpes-cote-d-azur",
+      "count": 15
+    },
+    {
       "slug": "public-transport",
       "label": "public transport",
       "count": 15
@@ -3029,44 +3119,19 @@
       "count": 15
     },
     {
-      "slug": "pays-de-la-loire",
-      "label": "pays de la loire",
-      "count": 14
-    },
-    {
       "slug": "cost-of-living",
       "label": "cost of living",
       "count": 13
     },
     {
-      "slug": "provence-alpes-cote-d-azur",
-      "label": "provence-alpes-cote-d-azur",
+      "slug": "normandy",
+      "label": "normandy",
       "count": 13
     },
     {
       "slug": "loire-valley",
       "label": "loire valley",
       "count": 12
-    },
-    {
-      "slug": "normandy",
-      "label": "normandy",
-      "count": 12
-    },
-    {
-      "slug": "international-students",
-      "label": "international students",
-      "count": 11
-    },
-    {
-      "slug": "student-visa-france",
-      "label": "student visa france",
-      "count": 11
-    },
-    {
-      "slug": "student-housing-france",
-      "label": "student housing france",
-      "count": 10
     },
     {
       "slug": "bretagne",
@@ -3081,6 +3146,11 @@
     {
       "slug": "cote-d-azur",
       "label": "cote d'azur",
+      "count": 9
+    },
+    {
+      "slug": "french-riviera",
+      "label": "french riviera",
       "count": 9
     },
     {
@@ -3099,9 +3169,9 @@
       "count": 8
     },
     {
-      "slug": "french-riviera",
-      "label": "french riviera",
-      "count": 8
+      "slug": "centre-val-de-loire",
+      "label": "centre-val de loire",
+      "count": 7
     },
     {
       "slug": "visa",
@@ -3114,8 +3184,8 @@
       "count": 6
     },
     {
-      "slug": "centre-val-de-loire",
-      "label": "centre-val de loire",
+      "slug": "bourgogne-franche-comte",
+      "label": "bourgogne-franche-comte",
       "count": 6
     },
     {
@@ -3181,11 +3251,6 @@
     {
       "slug": "annecy",
       "label": "annecy",
-      "count": 4
-    },
-    {
-      "slug": "bourgogne-franche-comte",
-      "label": "bourgogne-franche-comte",
       "count": 4
     },
     {

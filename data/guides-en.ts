@@ -22957,6 +22957,643 @@ export const EN_GUIDES: EnGuide[] = [
       "auvergne-rhone-alpes",
     ],
   },
+  {
+    slug: "studying-in-marseille-2026",
+    title: "Studying in Marseille (2026): France's biggest university, honestly assessed",
+    metaTitle: "Studying in Marseille 2026: Universities, Housing, Cost",
+    metaDesc:
+      "Aix-Marseille is France's largest university, with a campus inside a national park. Costs, the neighbourhood rule, and what a foreign student can claim.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 9,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    intro:
+      "Aix-Marseille Université is the largest university in France, around 80,000 students across its campuses, and Marseille gives students something no other French metropolis can: the sea and the calanques as an annexe campus, rents among the lowest of the big cities, and a raw urban energy. Studios run €500-590 and a room in a flatshare €400-550, for an all-in monthly budget of €770-1,020 excluding tuition. The city scores 9.0/10 on culture and 7.0/10 on nature against 2.7/10 on safety and 2.4/10 on schools, which drags its overall score to 3.8/10 — the lowest in this series. That number is a city-wide average, and in Marseille the gap between one street and the next is wider than anywhere else in France. Which is why the local rule applies to students exactly as it applies to everyone: the neighbourhood decides.",
+    sections: [
+      {
+        heading: "What AMU actually is, and why the campus matters more than the name",
+        body: "Aix-Marseille Université is a single institution spread over two cities. Marseille holds Luminy in the south (sciences, health, STAPS, around 9,000 students, and the campus sits inside the Calanques national park — you can walk down to Sugiton between tutorials), Saint-Charles beside the main station (humanities and sciences) and La Timone (medicine, pharmacy, dentistry and the teaching hospital, one of the largest health campuses in Europe). Aix holds law, economics, management and the humanities faculty. Beyond AMU the city has Centrale Méditerranée, KEDGE Business School on the heights at Luminy, the fine arts school and the school of architecture. AMU places around 100-150th in the Shanghai ranking, one of the strongest showings of any French university outside Paris, carried by physics and mathematics at Luminy and by biology and health at La Timone. Here is the warning that matters far more to a foreign applicant than to a French one: a programme advertised as \"Aix-Marseille Université\" may physically sit in Aix, which is a different city forty minutes away, where a studio runs €620-750 against €500-590 here. Confirm the campus in writing before you sign any lease.",
+      },
+      {
+        heading: "Applying from abroad: the calendar, the permit and the diploma",
+        body: "If you hold a non-EU passport and live in a country covered by the Études en France procedure, you apply through Campus France rather than directly to the university, and the platform runs the file, the academic pre-registration and the consular interview as one chain. It opens in the autumn for the following September, and missing it costs you a year, not a few weeks. EU, EEA and Swiss nationals skip it entirely. A long-stay student visa doubles as a residence permit, but only once you validate it online within three months of arrival; skipping that step is the most common administrative mistake foreign students make, and it quietly makes your stay irregular. Enrolment at a public university costs on the order of €170 a year. Non-EU students are in principle subject to higher differentiated tuition, which many universities have chosen to waive — ask AMU in writing for your specific programme before you budget. Finally, check what actually awards your degree. Several private schools sell an RNCP level-7 title, a French professional certification, rather than the state-conferred grade de master. An RNCP title is not worthless, but it does not convert abroad the way you will assume it does.",
+      },
+      {
+        heading: "Housing: cheap by big-city standards, and entirely about the street",
+        body: "The figures are kind: €500-590 for a studio, €400-550 for a room in a flatshare, the softest of any large French city alongside Montpellier. The student geography that works: Le Camas and La Plaine in the 5th, the young epicentre, flatshares in old buildings with La Timone walkable; Baille and Saint-Pierre for medical students; Castellane and the 6th for metro access everywhere; Le Rouet as the quiet-value option. Luminy has its CROUS halls among the pines — absolute quiet, with the number 21 bus as the umbilical cord. Saint-Charles puts you next to the station and the central lecture halls. CROUS allocation runs through MesServicesÉtudiant and is weighted towards French grant-holders, so a non-EU student without a bourse starts at the back of that queue and should treat the private market as the base case. The Marseille rule applies to students as to everyone: walk the street in the evening before you sign, and take flatshare-to-flatshare word of mouth seriously, because it is the real local student rental market. That 2.7/10 safety figure is an average of a city where the variation between two adjacent districts is enormous — it is an argument for choosing carefully, not for choosing elsewhere.",
+      },
+      {
+        heading: "Money: what a foreign student can and cannot claim",
+        body: "Be clear on this, because French sources gloss over it. The CROUS bourse sur critères sociaux — €145 to €620 a month across échelons 0 bis to 7 on the 2025-2026 scale — is essentially closed to non-EU students on a standard student residence permit, because it is built around French and EU residency conditions. Do not build a budget on it. What you can claim is CAF housing benefit, APL or ALS, which is open to foreign students holding a valid residence permit; claim it from your first full month. Visale, the free state rent guarantee for under-30s, is the real unlock: French landlords normally want a physical guarantor resident in France earning three times the rent, which an international student does not have. Not every landlord accepts it, but enough do. Your student permit also allows paid work up to 60% of the full-time annual limit without a separate work permit. The monthly arithmetic, excluding tuition: rent €400-550, groceries €190-260 (the Noailles market, the largest open-air market in a French city centre, roughly halves a fruit-and-vegetable budget), the RTM youth transport pass around €18, sundries €60, going out €100-150. Total €770-1,020.",
+      },
+      {
+        heading: "Campus geography is the whole logistical decision",
+        body: "Three poles, far apart: La Timone for health, Saint-Charles for sciences and humanities near the station, Luminy in the south for sciences, KEDGE and Centrale. Marseille is a physically large city and the choice of accommodation has to be made against a real, timed commute rather than a map — the number 21 to Luminy at rush hour is a character-building experience that some students repeat twice a day for five years. For revision outside your own faculty library, the Alcazar on cours Belsunce is the cross-campus headquarters: a large central public library, open to everyone and air-conditioned, which is a serious argument in May. Each campus keeps its own university library. If you are on a health programme, the Timone-Baille axis is the only sane place to live; if you are at Luminy, either take the CROUS halls or accept that the bus is your day.",
+      },
+      {
+        heading: "What to settle before you commit",
+        body: "First, be honest about the trade-off you are buying: a cost score of 5.4/10 and a culture score of 9.0/10 against 2.7/10 on safety and 2.4/10 on schools. Half of student life here costs nothing at all (the calanques, the beaches, the Vieux-Port at sunset), and the other half depends on getting the neighbourhood right. Second, student jobs are plentiful in hospitality around the Vieux-Port and La Plaine, in seasonal beach and events work and in delivery. Third, internships concentrate in health (the AP-HM hospital group is a world of its own), the port and logistics, an unusually large social-economy sector, a real and growing tech scene, and audiovisual production. Fourth, the graduate market deserves clear eyes: outside health, port logistics and the social economy the local senior-level market is narrow, and part of every cohort leaves for Aix, Lyon or Paris. Students who stay are choosing a way of life as much as a career, which is a legitimate choice as long as you make it deliberately. Fifth, and again: confirm whether your AMU programme is taught in Marseille or in Aix before you rent anything.",
+      },
+    ],
+    relatedCities: ["marseille", "aix-en-provence", "toulon", "montpellier", "cassis"],
+    tags: [
+      "studying in marseille",
+      "international students",
+      "student visa france",
+      "student housing france",
+      "provence-alpes-cote-d-azur",
+    ],
+  },
+
+  {
+    slug: "studying-in-nice-2026",
+    title: "Studying in Nice (2026): the Riviera campus and what it really costs",
+    metaTitle: "Studying in Nice 2026: Universities, Housing, Real Cost",
+    metaDesc:
+      "Université Côte d'Azur, EDHEC, SKEMA and Sophia Antipolis. Studios at €620-780, the summer letting trap, and what a foreign student can actually claim.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 9,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    intro:
+      "Around 35,000 students study in Nice itself and roughly 50,000 across the wider Côte d'Azur, counting Sophia Antipolis, Cannes and Menton. The academic offer is genuinely international and the setting sells itself. The price does not: a studio runs €620-780, among the highest outside Paris, for an all-in monthly budget of €1,000-1,300. Nice scores 7.4/10 on nature and 7.6/10 on culture against 3.3/10 on cost, the second worst in this series behind Paris alone, and the ratio of rent to what a student job pays here is among the worst in France. This guide covers the institutions, the Sophia Antipolis commute that catches people out, the summer letting trap, and what a foreign national can and cannot claim.",
+    sections: [
+      {
+        heading: "The institutions: Université Côte d'Azur and the Sophia cluster",
+        body: "Université Côte d'Azur, an Idex regrouping created in 2016 around the former Université Nice Sophia Antipolis, is the pivot with around 30,000 students across several campuses: Valrose for sciences, in a park in the 5th; Carlone for humanities on avenue Robert-Schuman; Trotabas for law; Saint-Jean-d'Angély for economics, management and sport; Pasteur and Cimiez for medicine and pharmacy; plus the IUT and delocalised campuses at Menton (Sciences Po's Middle East programme, around 350 undergraduates) and Cannes (arts and cinema). The grandes écoles cluster is unusual: EDHEC Business School has its Nice campus on the Corniche des Fleurs alongside Lille, Paris, London and Singapore (around 9,000 students across all campuses); SKEMA Business School sits at Sophia Antipolis alongside Lille, Paris, Suzhou and Raleigh (around 8,000); Polytech Nice-Sophia is the public engineering school; Institut Eurécom is a small, very selective telecoms and cybersecurity school of around 500 students. Research runs on INRIA Sophia Antipolis, the CNRS physics institute and the Observatoire de la Côte d'Azur. Sophia Antipolis itself, founded in 1969, is Europe's leading technology park with some 35,000 high-tech jobs.",
+      },
+      {
+        heading: "Where the names actually stand, and which ones to check",
+        body: "Université Côte d'Azur places around 300-400th in the Shanghai ranking, carried by applied mathematics, physics through the Observatoire, and computer science through its proximity to INRIA. EDHEC is consistently in the top three or four French business schools and the top 15-20 in Europe, and its Financial Economics master's has ranked in the world top five of the FT Master in Finance tables — it is one of France's genuine finance flagships. SKEMA sits in the top five to eight French business schools and top 25-30 European, built around a multi-campus international identity. Polytech Nice-Sophia is in the top 15-20 of French engineering schools outside the Polytechnique-Centrale group, and Eurécom is respected well beyond its size in telecoms and security. Sciences Po Menton is a campus of Sciences Po Paris and awards the same degree under the same demands. Now the caution: private post-bac schools have multiplied along the coast since 2015 (Ynov, ESRA Nice for cinema, MyDigitalSchool, IPAG, ESGCI and others), and the film-and-culture climate attracts audiovisual schools in particular. Before committing to €7,000-14,000 a year, check the RNCP level (6 or 7) and the published twelve-month placement rate. EDHEC and SKEMA are private too, at €15,000-18,000 a year, but they are triple-accredited and the comparison is not the same. One more thing an English-speaking applicant should never assume: ask each programme in writing which language it is taught in. An international campus network does not mean every course runs in English.",
+      },
+      {
+        heading: "Housing: the tightest market in this series, and a seasonal trap",
+        body: "CROUS Nice-Toulon runs about 5,500 beds across the Nice conurbation and Sophia Antipolis-Valbonne — Fabron near Valrose, Montebello and Les Baumettes around Saint-Roch-Riquier, the Sophia Country Club residence, the Menton annexe and a few hundred beds at Cannes-La Bocca. CROUS rent is €220-490 a month all in. Allocation is selective here: échelons 5-7 are placed almost systematically, échelons 3-4 often waitlisted — and since the underlying bourse is effectively closed to non-EU students, most international arrivals should plan on the private market. There, expect €620-780 for an 18-25 m² studio in the student districts (Riquier, Libération, lower Cimiez, Saint-Roch), €700-950 in the centre and Vieux-Nice around the Carré d'Or and place Masséna, and €480-620 further out along tram lines T1 to T3 (Ariane, La Trinité, Saint-Isidore, Valbonne Sophia). Nice has been in the 2013 zone tendue since the start, so agency fees are capped at €10/m² plus €3/m² for the inventory. Flatshares in Riquier and Libération run €380-500 a person including charges; the serviced residences (Studélites, Estudines, Nemea) are the fallback. Now the trap: do not search in July or August. That is when owners let to tourists at two to three times the monthly student rent, and the market effectively closes. Search in May and June for a September start.",
+      },
+      {
+        heading: "Money: claims, aid and the Riviera job market",
+        body: "The CROUS bourse sur critères sociaux (€145-620 a month, échelons 0 bis to 7 on the 2025-2026 scale) is essentially closed to non-EU students on a student permit, so leave it out of your budget. CAF housing benefit is not: APL or ALS runs €160-220 a month for a Nice studio depending on income, and is open to foreign students holding a valid residence permit — though on a €700 rent it covers noticeably less of the bill than it would inland. Visale, the free state guarantee for under-30s, replaces the French resident guarantor earning three times the rent, and matters more here than almost anywhere because the deposits and guarantees demanded are heavier. Your permit allows paid work up to 60% of the full-time annual legal limit. Local aid worth knowing: the metropolitan authority subsidises the Lignes d'Azur student pass at €30 a month for under-26s, free for échelon 5-7 grant-holders since 2023; Région Sud runs eCoinPass equipment grants of €200-500 and PRAME international mobility grants of €150-1,000 a month depending on length and country. For work, Sophia Antipolis is the serious employer pool (Amadeus IT Group with around 5,000 staff, IBM France Sophia, SAP Labs), alongside tutoring, university library contracts, and seasonal hospitality, beach and cruise work. Note the seasonal hiring calendar: the good summer posts are filled in February and March, not in June. State-guaranteed student loans go up to €20,000.",
+      },
+      {
+        heading: "Where students live, and the Sophia Antipolis commute",
+        body: "Vieux-Nice and the Carré d'Or carry the nightlife, with pints under €6, more than you would pay in Toulouse, Lille or Grenoble because the pricing is set by tourists, and Niçois food under €20 (socca, pissaladière, salade niçoise). Libération and Riquier draw a more student and young-professional crowd and feel more alternative. Cimiez, up the hill, is residential and suits master's and doctoral students. The genuine Nice advantage is that the Valrose science campus sits inside the city, ten to fifteen minutes from the centre on tram T2. Sophia Antipolis is the opposite: 25-30 minutes by bus off-peak, 45 at rush hour on a congested RD35, and it is a pure business park with very little weekday evening life. If you are at SKEMA, Polytech, Eurécom or INRIA, seriously consider living in Antibes, Juan-les-Pins or Valbonne rather than commuting from central Nice. The sea is the differentiator that survives every criticism: the Promenade des Anglais and the public beach at Les Ponchettes are fifteen minutes' walk from the centre, and the back country (the Vésubie, the Roya, ski at Auron, Isola 2000 and Valberg) is an hour and a quarter to an hour and three quarters away by car.",
+      },
+      {
+        heading: "The traps to price in before you sign",
+        body: "First, the budget. Nice is 40-50% dearer than Toulouse or Lille for an equivalent studio, without student wages following, which is what that 3.3/10 cost score is measuring. Second, the seasonality already covered: searching in high summer is close to futile. Third, the Sophia distance, which decides where you live before your taste does. Fourth, the low-emission zone: Crit'Air 5 vehicles have been excluded since 2023 and Crit'Air 3 and 4 are being phased out towards 2026-2027, so an old second-hand diesel bought to reach Sophia is a replacement cost waiting to happen. Fifth, the private schools — verify the RNCP level and the placement figures. Sixth, heat: Nice runs 20-35 days a year above 30 °C and 5-10 above 35 °C, and a studio with no shutters or air conditioning facing south-west becomes genuinely unliveable in July and August; wildfire risk in the Alpes-Maritimes back country is structural, which matters if you hike or live towards Cimiez, Valbonne or La Trinité. Seventh, the calendar: the Cannes Film Festival in May and the Nice Ironman in June saturate traffic and accommodation for several days each.",
+      },
+    ],
+    relatedCities: ["nice", "cagnes-sur-mer", "antibes", "cannes", "menton"],
+    tags: [
+      "studying in nice",
+      "international students",
+      "student visa france",
+      "student housing france",
+      "french riviera",
+    ],
+  },
+
+  {
+    slug: "studying-in-aix-en-provence-2026",
+    title: "Studying in Aix-en-Provence (2026): Sciences Po, AMU and a serious rent",
+    metaTitle: "Studying in Aix-en-Provence 2026: Cost, Housing, Schools",
+    metaDesc:
+      "Aix-Marseille Université, Sciences Po Aix and the IAE. Studios at €620-750, the Aix-Marseille double commute, and what a foreign student can claim.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 9,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    intro:
+      "Aix-en-Provence holds around 40,000 students within the town itself, and the university it belongs to, Aix-Marseille Université, gathers roughly 80,000 across all its campuses — one of the largest in France. Aix concentrates law, economics, political science and the humanities, along with Sciences Po Aix; Marseille and Luminy hold medicine, hard sciences and the technical institutes. A studio in Aix runs €620-750, an all-in monthly budget €1,000-1,300, which puts it just behind Paris and Nice among the most expensive French university towns. The city scores 7.8/10 on quality of life and 8.3/10 on schools against 3.6/10 on cost, for an overall 6.5/10 — the trade-off is unusually explicit here. This guide covers the institutions, the campus geography that traps people, housing, and the aid a foreign national can actually claim.",
+    sections: [
+      {
+        heading: "The institutions: AMU in Aix, and Sciences Po",
+        body: "Aix-Marseille Université, created by the 2012 merger of the three former Aix-Marseille universities, spreads over five main campuses. Aix holds Schuman (law, economics and management, the historic in-town campus with around 15,000 students), Cuques and Fenouillères (languages and humanities, the ALLSH faculty); Marseille holds Saint-Charles (social sciences), Luminy (sciences, health and sport, around 9,000 students) and La Timone (medicine, pharmacy, dentistry and the teaching hospital); Aubagne, Gap and Digne are satellites. Sciences Po Aix, on place du Général-de-Gaulle with around 2,200 students, recruits straight from secondary school through the joint entrance exam of the seven regional IEPs. Aix also has the IAE Aix-Marseille Graduate School of Management on the Puyricard campus, the ENSAM engineering school, and the Aix school of fine arts. On the Marseille side of the same institution sit KEDGE Business School at Luminy, Centrale Marseille, Polytech Marseille and the national maritime school. AMU ranks around 100-150th in the Shanghai table, one of the best French results outside Paris — though that ranking reflects the Marseille science campuses more than the Aix faculties, because Shanghai weights the hard sciences.",
+      },
+      {
+        heading: "Applying from abroad, and the schools worth checking twice",
+        body: "Non-EU applicants living in a country covered by the Études en France procedure apply through Campus France rather than the university, and that platform chains together the file, the academic pre-registration and the consular interview. It opens in the autumn for the following September. EU, EEA and Swiss nationals apply as French students do. Your long-stay student visa acts as a residence permit only once validated online within three months of arrival — the single most common mistake international students make. Public enrolment costs on the order of €170 a year; non-EU differentiated tuition is waived by many institutions but not all, so ask AMU in writing for your programme. Sciences Po Aix awards the same bachelor and master's structure as the other regional IEPs. The IAE Aix-Marseille is in the top five French IAEs, KEDGE in the top five to eight business schools, Centrale Marseille in the top fifteen engineering schools outside the Polytechnique-Centrale-Paris group. Where you should slow down is the private post-bac layer, which is dense in Aix — IDRAC, EGC, MBway, ESAP and others. RNCP level 6 or 7 and a published twelve-month placement rate are the only serious markers before paying €5,000-9,000 a year. And as everywhere in France, an RNCP title is not the state-conferred grade de master, whatever the brochure implies in English.",
+      },
+      {
+        heading: "Housing: the tightest market in the south",
+        body: "CROUS Aix-Marseille-Avignon runs about 6,500 beds across all its campuses, of which roughly 2,000 in Aix — the Cuques, Gazelles, Estienne-d'Orves, Arc de Meyran and Fenouillères residences. CROUS rent is €200-480 a month all in, and allocation is very selective in Aix: échelons 5-7 are placed almost systematically, échelons 3-4 are often waitlisted. Since the underlying grant is essentially closed to non-EU students, plan on the private market. There, expect €620-750 for an 18-25 m² studio in the student districts (Sextius-Mirabeau, Fenouillères, Cuques, Ferry), €750-900 in the historic centre around cours Mirabeau, Villeneuve and Bellegarde, and €450-570 in Marseille for those willing to commute. Aix has been in the 2013 zone tendue from the start, so agency fees are capped at €10/m² plus €3/m² for the inventory. Flatshares in Sextius, Ferry and Fenouillères run €400-520 a person including charges. Many Aix students do fall back on Marseille (Cinq-Avenues, La Blancarde, La Timone at €380-500) and take the 40-minute TER or the coach; note that the Aix-Marseille low-emission zone, which excluded Crit'Air 3 vehicles in 2025, pushes that calculation back towards living in Aix. The letting season is tight from May to September, and landlords commonly ask for three months' deposit plus a guarantor at three times the rent.",
+      },
+      {
+        heading: "Money: what a foreign student can and cannot claim",
+        body: "The CROUS bourse sur critères sociaux (€145-620 a month, échelons 0 bis to 7, 2025-2026 scale) is effectively closed to non-EU students on a standard student permit — a point French guides gloss over and which is worth several hundred euros a month in a badly built budget. University restaurants at €1 for grant-holders follow the same logic. What you can claim is CAF housing benefit: APL or ALS at €150-220 a month for an Aix studio, open to foreign students with a valid residence permit. Visale, free for under-30s, replaces the French-resident guarantor at three times the rent that a landlord will otherwise demand, and in a market this tight it is close to indispensable. Your permit allows paid work up to 60% of the full-time annual legal limit. Region-level aid: Région Sud runs the eSOP student pass for culture, transport and sport, PRAME international mobility grants of €150-1,000 a month, and a regional culture voucher. The metropolitan authority subsidises the combined bus pass at roughly €25-30 a month for under-26s, free for échelon 5-7 grant-holders on certain perimeters. Student jobs: faculty tutoring, contracts at the Schuman and Cuques libraries, retail on cours Mirabeau and in the malls, and a very large tourism and hospitality sector — with the caveat that its peak is in summer, when your academic year is not running. State-guaranteed student loans go up to €20,000.",
+      },
+      {
+        heading: "Living in Aix: districts, campus life and the double commute",
+        body: "Cours Mirabeau and the streets off it (Espariat, Aude, Papassaudi, Marseille) are the student heart, with terrace cafés open all year and pints at €5-7, student bars on rue de la Verrerie and rue des Cordeliers, and place des Cardeurs for an apéritif. Sextius-Mirabeau, the newer quarter, attracts students who want something more modern. The Schuman campus to the north-east offers real campus life with a library open late and strong law and politics societies; Cuques to the north is smaller and suits the humanities faculty. Now the thing that catches people out: the Aix-Marseille double economy. A great many students take courses in Aix and at Luminy (sport and health) or La Timone (medicine), and the TER from Aix to Marseille takes 40 minutes before the metro adds 30-45 more — up to an hour and a half door to door, twice a day. Work out your actual timetable geography before you sign a lease, not after. On the calendar, the summer tourist season makes the town close to impractical in July and August, with doubled restaurant prices and gridlock on cours Mirabeau, and the Festival d'Aix in July shuts the accommodation market for three to four weeks. Fortunately the academic year is the quiet season, and Marseille, 25 minutes by coach or 40 by train, doubles your cultural options for the price of a ticket.",
+      },
+      {
+        heading: "What to settle before you commit",
+        body: "First, the money. Aix is among the most expensive French university towns for housing after Paris, groceries at the market run well above what you would pay in Toulouse, and a real student budget clears €1,200 a month before any grant. If that does not work with family support plus permitted part-time hours, Marseille is forty minutes away for €200 less a month and the same university. Second, the campus question decides everything downstream — confirm which site your programme actually runs on. Third, the climate is not decoration: Aix regularly passes 35-38 °C in July and August with 20-30 heatwave days a year, and the mistral blows 40-60 days a year. A top-floor studio with no shutters and poor insulation is unliveable in summer; check the orientation and the energy rating before signing. Fourth, the low-emission zone means an older diesel is a false economy. Fifth, on the academic side, the Aix faculties are strong in law, political science and the humanities — which is exactly what the Shanghai ranking does not measure, so read the placement survey for your own programme rather than the institutional headline. Aix rewards students who arrive with the budget honestly costed, and punishes those who priced Provence at Toulouse rates.",
+      },
+    ],
+    relatedCities: ["aix-en-provence", "marseille", "vitrolles", "salon-de-provence", "pertuis"],
+    tags: [
+      "studying in aix-en-provence",
+      "international students",
+      "student visa france",
+      "student housing france",
+      "provence-alpes-cote-d-azur",
+    ],
+  },
+
+  {
+    slug: "studying-in-clermont-ferrand-2026",
+    title: "Studying in Clermont-Ferrand (2026): volcanoes, Michelin and low rent",
+    metaTitle: "Studying in Clermont-Ferrand 2026: Cost, Housing, Schools",
+    metaDesc:
+      "Université Clermont Auvergne, SIGMA and ESC Clermont. Studios at €380-500, the rail isolation nobody mentions, and what a foreign student can claim.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 9,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    intro:
+      "Clermont-Ferrand takes around 40,000 students, roughly one resident in four of the city proper, in one of the most affordable large university towns in France. A studio runs €380-500 and an all-in monthly budget €800-1,000. The city scores 7.2/10 on nature and 6.4/10 on cost for an overall 6.3/10, and the setting is not a marketing line: the Puy de Dôme is visible from the lecture halls and volcanology students do their fieldwork on real volcanoes. Michelin has its world headquarters here, which structures engineering internships more than any other single employer in this series. What nobody tells a foreign applicant is the rail isolation: Paris is 3h15-3h30 away on a conventional Intercités line, with no high-speed link. This guide covers the institutions, the campuses, housing and the aid you can actually claim.",
+    sections: [
+      {
+        heading: "The institutions: UCA, SIGMA, ESC Clermont",
+        body: "Université Clermont Auvergne, formed by the 2017 merger of the former Université d'Auvergne and Université Blaise-Pascal, is the pivot with around 40,000 students. Its campuses: Cézeaux at Aubière to the south, a 145-hectare science and engineering campus; Carnot-Gergovia in the centre for law, economics and management; Gergovia-Rabanesse for humanities; the Estaing health cluster and the medical faculty around the teaching hospital; technical institutes at Aubière and an annexe at Vichy. Around it sit SIGMA Clermont, a public engineering school at Cézeaux of around 700 students specialising in chemistry, mechanics and process engineering; ESC Clermont Business School in the centre, a chamber-of-commerce school of around 1,400 students; ISIMA for computing and modelling and Polytech Clermont, both internal to UCA; the national school of architecture in the centre; and VetAgro Sup, whose agronomy site is at Clermont-Theix. The research ecosystem is industrial in a way few French cities match: Michelin's global R&D centre at Ladoux-Cataroux is one of the largest private research sites in the country, alongside Limagrain, the agricultural cooperative headquartered at Saint-Beauzire, Sanofi at Vertolaye, INRAE at Theix and a teaching hospital employing around 7,700 people.",
+      },
+      {
+        heading: "Where the names stand, and applying from abroad",
+        body: "UCA places around 400-500th in the Shanghai ranking, carried by engineering sciences (mechanics and process engineering), agronomy through the INRAE partnership, and applied mathematics. SIGMA Clermont sits in the top 25-35 of French engineering schools, with good placement into the local industries and less national name recognition than Grenoble INP or Compiègne. ESC Clermont is in the top 15-20 of French business schools, AACSB-accredited as confirmed in 2024, and is one of the better price-to-reputation ratios in the French private landscape at €8,000-11,000 a year against €13,000-18,000 at HEC, ESSEC or EDHEC. VetAgro Sup is one of France's four national veterinary schools and is extremely selective. Polytech Clermont belongs to the national Polytech network, and the architecture school is in the top eight to twelve of the French ENSAs. On the procedure: non-EU applicants from a country covered by Études en France go through Campus France, on an autumn deadline for the following September; the long-stay student visa must be validated online within three months of arrival to function as a residence permit; public enrolment costs on the order of €170 a year, with non-EU differentiated tuition waived by many institutions but not all — ask in writing. And check whether a private programme awards an RNCP level 6-7 title or the state grade de master: the two do not travel the same way outside France.",
+      },
+      {
+        heading: "Housing: among the most affordable in France",
+        body: "CROUS Clermont-Auvergne runs around 4,500 beds, concentrated at Aubière-Cézeaux (Le Clos Saint-Jacques, Dolet, Pré-Bourdier, Pignols) and in the centre (Pascal-Gergovia, Amboise, Renoux), plus the Vichy annexe. CROUS rent is €160-420 a month all in, one of the best value-for-money ratios in the country. Crucially for anyone not at the top of the grant scale, allocation here is genuinely accessible: échelons 3-7 are placed almost systematically and échelons 1-2 often are too with a well-built file — a very different picture from Nice or Aix. On the private market, expect €380-500 for an 18-25 m² studio in the student districts (Salins, Trudaine, Gaillard, Jaude), €420-580 in the historic centre with its black lava stone, and €300-420 further out along tram line A at Aubière, Beaumont, La Pardieu or Cournon. Clermont-Ferrand is not in the 2013 zone tendue, so agency fees fall under the ordinary cap of €8/m² plus €3/m² for the inventory — cheaper than in the tight-market cities. Flatshares in Salins and Trudaine run €250-350 a person including charges. Tram A links the Cézeaux campus to the centre at Jaude in 15-20 minutes. One local thing to check before signing: insulation. Winters are cold and the old lava-stone buildings hold the chill in both directions.",
+      },
+      {
+        heading: "Money: what a foreign student can and cannot claim",
+        body: "The CROUS bourse sur critères sociaux (€145-620 a month, échelons 0 bis to 7 on the 2025-2026 scale) is essentially closed to non-EU students on a standard student permit — do not budget on it, whatever a French-language guide implies. University restaurants at €1 for grant-holders follow the same rule, across the ten or more campus restaurants in the conurbation. What is open to you: CAF housing benefit, APL or ALS at €110-170 a month for a Clermont studio depending on income, provided you hold a valid residence permit — a proportionally large help on a €420 rent. Visale, the free state guarantee for under-30s, replaces the French resident guarantor at three times the rent. Your permit allows paid work up to 60% of the full-time annual legal limit. Regional aid: Auvergne-Rhône-Alpes runs the Pass Région (€100 towards books and culture) and Explor'AURA international mobility grants of €200-800 a month; the metropolitan authority subsidises the T2C transport pass at €25 a month for under-26s, free for échelon 5-7 grant-holders since 2023; the département runs a sport and leisure allowance of €30-100 for grant-holders. For work and internships, this is where Clermont is unusually strong for its size: Michelin takes engineering interns and apprentices in a steady flow through R&D and industry, alongside Limagrain in agronomy and biotech, Sanofi at Vertolaye, and the teaching hospital. Winter season work at Super-Besse, Le Mont-Dore and Le Lioran is an hour and a quarter to two hours away and less contested than the Alps.",
+      },
+      {
+        heading: "Where students live, and what the volcanoes actually cost",
+        body: "Jaude and Salins-Trudaine carry the nightlife: pints at €3-4, Auvergne restaurants under €15, student pubs behind place de Jaude. The black lava-stone old town around the cathedral gives Clermont an appearance no other French city has, and rents just inside the protected sector run slightly higher for it. Cézeaux at Aubière offers integrated campus life (libraries open late, engineering-school societies, university restaurants), but the social centre of gravity is Jaude, 15-20 minutes away on tram A. Beaumont and Chamalières to the west are quieter and draw business-school and postgraduate students. The compensation for everything is free: the Puy de Dôme is reachable by bus and the rack railway, the Chaîne des Puys is a shared car ride away, and the student ski pass for the Auvergne resorts runs €250-400 for a season. Two annual fixtures are worth planning around: the Clermont-Ferrand International Short Film Festival in February, one of the most important short-film events in the world, with student-priced screenings for ten days; and Europavox in June for European music. Be honest about the access, though: the volcanoes need a car or the seasonal rack railway, and Clermont is markedly harder to reach the mountains from without a licence than Grenoble or Annecy.",
+      },
+      {
+        heading: "The traps to price in before you commit",
+        body: "First, the Michelin dependency. The world headquarters employs around 10,000 people directly and shapes an ecosystem of suppliers and subcontractors on top, so the local senior job market moves with the tyre industry's cycles and strategic decisions. If you intend a career outside it, plan on either mobility to Lyon or Paris after graduation, or on the other local poles — agronomy at Limagrain, health at Sanofi and the hospital, public research. Second, the rail isolation, which foreign students consistently underestimate: Clermont to Paris is 3h15-3h30 on a conventional Intercités line with no high-speed link, Clermont to Lyon 2h40 by regional train, and the local airport is small with few direct destinations. That weighs on internships in the Paris region or elsewhere in Europe. Third, the basin climate: 30-50 foggy days a year with winter thermal inversions and particulate and nitrogen-dioxide peaks from November to February. Ground-floor studios can be damp — read the energy rating. Fourth, the mountain access already flagged. Fifth, SIGMA Clermont has been integrating institutionally into UCA since 2023, which has moved administrative and teaching processes around; check with the registrar rather than the brochure. Sixth, ESC Clermont held its AACSB accreditation in 2024, but international recruiters are thinner on the ground than for the top Paris schools — worth weighing if you intend to work outside France afterwards.",
+      },
+    ],
+    relatedCities: ["clermont-ferrand", "riom", "aurillac", "vichy", "issoire"],
+    tags: [
+      "studying in clermont-ferrand",
+      "international students",
+      "student visa france",
+      "student housing france",
+      "auvergne-rhone-alpes",
+    ],
+  },
+
+  {
+    slug: "studying-in-nancy-2026",
+    title: "Studying in Nancy (2026): ten public grandes écoles at €170 a year",
+    metaTitle: "Studying in Nancy 2026: Universities, Housing, Real Cost",
+    metaDesc:
+      "Université de Lorraine, Mines Nancy, ARTEM and Sciences Po Nancy. Studios at €380-500, the Luxembourg border mirage, and what foreign students can claim.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 9,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    intro:
+      "Nancy takes around 55,000 students across its conurbation, and the reason to look at it from abroad is unusual: it has one of the densest concentrations of public grandes écoles in France, at public tuition of about €170 a year against €8,000-15,000 for an equivalent private school. Mines Nancy, ICN Business School and the national art and design school share a single campus under the ARTEM alliance, which has no real equivalent elsewhere. A studio runs €380-500 for an all-in monthly budget of €800-1,000, one of the most affordable of the large university cities, and the setting, place Stanislas, a UNESCO site since 1983, is not what the price suggests. The city scores 7.4/10 on schools and 7.0/10 on transport for an overall 6.2/10.",
+    sections: [
+      {
+        heading: "The institutions: Université de Lorraine, ARTEM and seven engineering schools",
+        body: "Université de Lorraine, created by the 2012 merger of the former Nancy 1, Nancy 2, the Lorraine polytechnic institute and the Metz university, has around 55,000 students across all its sites. In Nancy it runs the Aiguillettes campus at Vandœuvre for the hard sciences, Brabois-Villers for health and the medical faculty beside the teaching hospital, Carnot-Léon-Blum in the centre for law, economics and management, and the humanities campus on place Godefroy-de-Bouillon. The distinctive part is ARTEM: Mines Nancy, a public engineering school in the Institut Mines-Télécom group with around 1,500 students, ICN Business School with around 2,500, and the national higher school of art and design with around 350, sharing one campus opened in 2017 on avenue du Général-Leclerc under an Art-Technology-Management alliance. Add TELECOM Nancy, the European materials engineering school EEIGM, ENSIC for industrial chemistry, ENSAIA for food science, ENSEM for electrical and mechanical engineering, ENSG for geology and ENSGSI for industrial systems — seven public engineering schools internal to the university, plus Mines. Sciences Po Nancy is a European campus of Sciences Po Paris, around 350 undergraduates, specialising in Central and Eastern Europe with a compulsory third year abroad. Research runs on a teaching hospital of 11,500 staff, the Institut Jean-Lamour in materials (one of France's largest public laboratories), the Institut Élie-Cartan in mathematics, and INRIA Nancy.",
+      },
+      {
+        heading: "Where the names stand, and the reputation gap to plan for",
+        body: "Université de Lorraine places around 300-400th in the Shanghai ranking, carried by mathematics (Élie-Cartan is in the world top 100 in its field), materials science through the Institut Jean-Lamour, and engineering sciences inherited from the polytechnic institute. Mines Nancy is consistently in the top eight to twelve of French engineering schools, strongest in materials, energy and computing. ICN Business School sits in the top 15-20 of French business schools with EQUIS and AMBA accreditation, and a genuine identity built on the management-and-art synergy of ARTEM; note that it has not obtained AACSB to date, which is worth weighing if you plan to work outside Europe. The art and design school is regularly in the top eight to twelve of French art schools. Sciences Po Nancy awards the Sciences Po Paris degree under the same standards. TELECOM Nancy, ENSIC, ENSAIA and EEIGM sit in the top 25-35 of French engineering schools. Here is the honest part, and it applies particularly to foreign graduates: Lorraine is excellent on its strengths but carries a media-visibility deficit against Paris, Lyon and Toulouse. Recruiter perception lags the real quality of the degree, so plan on doing some of the work yourself — targeted internships, the Mines Nancy alumni network, a maintained professional profile. The compensating fact is the price: ten or more public institutions at €170 in enrolment fees.",
+      },
+      {
+        heading: "Housing: one of the best value-for-money markets in France",
+        body: "CROUS Lorraine runs around 6,500 beds across Nancy and Metz, of which roughly 4,000 in Nancy — Boudonville, Monbois, Aiguillettes and Vélodrome at Vandœuvre-lès-Nancy, Brabois at Villers-lès-Nancy, Charlemagne and Saint-Georges in the centre. CROUS rent is €165-420 a month all in, among the best ratios in France alongside Lille, Clermont and Toulouse. Allocation is genuinely accessible: échelons 3-7 are placed almost systematically and échelons 1-2 often are too with a well-built file, which is a materially different situation from the tight southern markets. On the private market, expect €380-500 for an 18-25 m² studio in the student districts (Saint-Georges, Trois-Maisons, Poincaré-Rives-de-Meurthe, Villers near the campuses), €420-580 in the historic centre around place Stanislas, place de la Carrière and place Saint-Épvre, and €300-420 out along tram line 1 at Vandœuvre, Laxou, Jarville-la-Malgrange or Essey-lès-Nancy. Nancy is not in the 2013 zone tendue, so agency fees fall under the ordinary cap of €8/m² plus €3/m² for the inventory. Flatshares in Trois-Maisons and Poincaré run €250-350 a person including charges. The single tram line runs Vandœuvre-Brabois to Essey-Mouzimpré through the centre in 30-40 minutes, with the STAN bus network covering the rest. Check the heating before you sign: Nancy has a continental winter, −5 to −10 °C is common from December to February, and heating charges in an older studio can reach €80-130 a month.",
+      },
+      {
+        heading: "Money: what a foreign student can and cannot claim",
+        body: "The CROUS bourse sur critères sociaux (€145-620 a month, échelons 0 bis to 7 on the 2025-2026 scale) is effectively closed to non-EU students on a standard student permit, and the €1 university restaurant meal follows the same grant-holder condition. Build your budget without them. What you can claim: CAF housing benefit, APL or ALS at €110-170 a month for a Nancy studio depending on income, open to foreign students holding a valid residence permit. Visale, free for under-30s, replaces the French-resident guarantor earning three times the rent — the requirement that stops most international applicants, far more often than the price does. Your permit allows paid work up to 60% of the full-time annual legal limit. Regional and local aid: Grand Est runs the JeunEst multi-service card for 15-25s at €30-50 a year and international mobility grants of €150-1,000 a month; the metropolitan authority subsidises the STAN transport pass at €28 a month for under-26s, free for échelon 5-7 grant-holders since 2023; the Meurthe-et-Moselle département runs its own study grant of €300-600 a year on social criteria, cumulable with the CROUS one. Student work: faculty tutoring, university library contracts, and a very large local employer in the teaching hospital at 11,500 staff, plus regional industry and research internships through the Institut Jean-Lamour and the Mines Nancy placement pipeline. State-guaranteed student loans go up to €20,000.",
+      },
+      {
+        heading: "Where students live, and the Vandœuvre-Brabois question",
+        body: "Place Stanislas, place de la Carrière and the old town form the postcard triangle where students gather at weekends — the Christmas market in December, Nancy Jazz Pulsations for two weeks in October, and the Livre sur la Place literary fair in September, the largest open-air book festival of the French publishing season. Actual nightlife happens around Saint-Épvre, place Charles-III and rue Stanislas: pints at €3-4, Lorraine restaurants under €15 (quiche lorraine, pâté lorrain, mirabelle plums, bergamot sweets). Trois-Maisons, on the Meurthe, draws a more alternative and artistic crowd near the art school; Poincaré-Rives-de-Meurthe draws the Mines and engineering students. Vandœuvre-Brabois offers integrated campus life (libraries open late, student societies, university restaurants at Aiguillettes), but the social centre is the city, 25-30 minutes away by tram and on foot. If your courses are daily on the science campuses, that round trip twice a day is the single biggest practical variable in your choice of flat. One local fixture no guide should skip: Saint Nicolas on 6 December, the patron of Lorraine, with a traditional parade to which every university and grande école contributes a float — it is the student event of the Nancy year. Metz is 30 minutes away by regional train, and Luxembourg an hour and a half.",
+      },
+      {
+        heading: "The traps to price in, including the Luxembourg one",
+        body: "First, the reputation gap covered above: a very good degree with less recruiter recognition outside the region than its quality warrants. Second, the geography of the university itself, which spans Nancy, Metz, Longwy, Épinal, Sarreguemines and Bar-le-Duc; some programmes require moving between sites, so confirm exactly where your department sits before you sign a lease. Third, the Vandœuvre-Brabois commute. Fourth, the continental climate — cold winters, occasional 35-38 °C summer spells over five to fifteen days a year, and older studios built before 2005 whose insulation is worth checking on the energy rating. Fifth, and this is the one foreign students get wrong most often, the Luxembourg border mirage. Around 8,000 people from the département commute to Luxembourg for pay scales 40-80% above French ones, but the 2023 tax convention caps remote work at 34 days a year for someone remaining under Luxembourg tax, and the Nancy-Luxembourg trip is an hour and a half to an hour and three quarters by train. If you are planning a cross-border career from your student years, price that commute honestly — and note that a French student residence permit does not by itself authorise employment in Luxembourg. Sixth, the private art and design schools that have appeared alongside the public one: check the RNCP level before committing €6,000-12,000 a year, when the public school next door is one of the best in the country.",
+      },
+    ],
+    relatedCities: ["nancy", "laxou", "vandoeuvre-les-nancy", "metz", "epinal"],
+    tags: [
+      "studying in nancy",
+      "international students",
+      "student visa france",
+      "student housing france",
+      "grand-est",
+    ],
+  },
+
+  {
+    slug: "studying-in-dijon-2026",
+    title: "Studying in Dijon (2026): one campus, a triple-crown school and cheap rent",
+    metaTitle: "Studying in Dijon 2026: Universities, Housing, Real Cost",
+    metaDesc:
+      "Université de Bourgogne, BSB, Sciences Po Dijon and Institut Agro. Studios at €400-520, the vendanges job clash, and what foreign students can claim.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 9,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    intro:
+      "Dijon takes around 33,000 students on one of the most coherent single campuses in France (150 hectares at Montmuzard, holding essentially every faculty), plus a triple-accredited business school, a Sciences Po campus and one of the country's top agronomy schools. A studio runs €400-520 for an all-in monthly budget of €820-1,020, among the most affordable of the large university cities, with Paris an hour and thirty-five minutes away by high-speed train. The city scores 7.4/10 on schools and 7.0/10 on transport for an overall 6.4/10. For a foreign student in wine, food science or oenology it is one of the two or three obvious places in France to be; for everyone else it is a well-priced, well-organised place to study with a narrower graduate job market than Lyon.",
+    sections: [
+      {
+        heading: "The institutions: uB, BSB, Sciences Po and Institut Agro",
+        body: "Université de Bourgogne, around 28,000 students, is the pivot, and its structure is unusually simple: one main campus at Montmuzard east of the city, 150 hectares, gathering the science and technology faculty, law, economics and political science, humanities, languages, sport, the management institute and the technical institutes, with the health cluster and the medical and pharmacy faculties immediately to the south beside the Bocage teaching hospital. Four regional annexes sit at Le Creusot, Chalon-sur-Saône, Auxerre and Nevers. The grandes écoles layer is smaller than in Nancy or Lyon but well chosen: Burgundy School of Business, around 2,800 students in the centre and in Lyon; a European campus of Sciences Po Paris, around 250 undergraduates specialising in Central and Eastern Europe with a compulsory third year abroad; Institut Agro Dijon, a public engineering school in agronomy, food science and oenology with around 700 students; ESIREM for materials and infotronics, internal to the university, around 450; and the national art and design school, founded in 1766, around 250. The research base is food and health: INRAE Dijon in food science and oenology, the taste and food science centre, the molecular chemistry institute, a teaching hospital of 6,500 staff, and the university vineyard beside the oenology institute, in the Climats de Bourgogne listed by UNESCO in 2015.",
+      },
+      {
+        heading: "Where the names stand, and the wine specialisation",
+        body: "Université de Bourgogne places around 500-700th in the Shanghai ranking, carried by molecular chemistry, nutrition and health, and history and art history. Burgundy School of Business is in the top 15-20 of French business schools and holds the triple crown (EQUIS, AACSB and AMBA), which only a handful of French schools do, with a distinctive identity in wine, luxury and geopolitics. Sciences Po Dijon awards the same degree as the other European campuses of Sciences Po Paris, with post-secondary selection through Paris. Institut Agro Dijon is in the top five French agronomy engineering schools alongside AgroParisTech and the Rennes-Angers and Montpellier institutes. ESIREM sits in the top 40-50 of public engineering schools, and the art school in the top five to eight of French art schools. The private post-bac landscape here is thin compared with Grenoble, Nice or Nancy, which is a point in Dijon's favour — but the same rule applies to what does exist: check the RNCP level 6-7 and the twelve-month placement rate before committing €6,000-11,000 a year, and remember that an RNCP title is not the state-conferred grade de master. Dijon's real distinguishing combination is a generalist public university, a triple-crown business school, a Sciences Po campus and an agronomy and oenology school on one coherent site — for anyone whose subject touches wine, food or taste science, that is not a coincidence of geography.",
+      },
+      {
+        heading: "Housing: among the most affordable, and not a tight market",
+        body: "CROUS Bourgogne-Franche-Comté, headquartered in Dijon, runs around 5,500 beds in the conurbation, concentrated at Montmuzard (Mansart, Beaune, Montmuzard 1-2-3, Maret, Bousset, Rocher), plus residences at Institut Agro and the southern health cluster, and annexes at Chalon, Auxerre, Nevers and Le Creusot. CROUS rent is €170-430 a month all in, one of the best ratios in France alongside Lille, Nancy, Clermont and Toulouse. Allocation is accessible: échelons 3-7 are placed almost systematically, and échelons 1-2 often are with a well-built file. On the private market, expect €400-520 for an 18-25 m² studio in the student districts (Toison-d'Or, Grésilles, Université-Montmuzard, Bourroches), €440-580 in the historic centre around place Jean-Macé, place François-Rude and the ducal quarter, and €320-440 in the tram-served suburbs of Chenôve, Talant, Fontaine-lès-Dijon and Quetigny. Dijon is not in the 2013 zone tendue, so agency fees fall under the ordinary cap of €8/m² plus €3/m² for the inventory. Flatshares in Toison-d'Or, Bourroches and around the university run €260-360 a person including charges. Tram lines T1 and T2, in service since 2012, link Chenôve and Quetigny to the centre and the station in 20-25 minutes, and bus lines 5 and 6 reach the Montmuzard campus in about 15 minutes from the centre. The letting season tightens in August and September but nothing like Nice or Bordeaux.",
+      },
+      {
+        heading: "Money: claims, aid, and the September vendanges clash",
+        body: "The CROUS bourse sur critères sociaux (€145-620 a month, échelons 0 bis to 7 on the 2025-2026 scale) is effectively closed to non-EU students on a standard student permit, as is the €1 university restaurant meal that depends on holding it. What you can claim: CAF housing benefit, APL or ALS at €120-180 a month for a Dijon studio depending on income, open to foreign students with a valid residence permit — a substantial share of a €450 rent. Visale, free for under-30s, replaces the French-resident guarantor earning three times the rent. Your permit allows paid work up to 60% of the full-time annual legal limit. Regional aid: Bourgogne-Franche-Comté runs a youth advantages card at €8-10 a year covering culture, sport and catering, and international mobility grants of €150-1,000 a month; Dijon Métropole subsidises the DiviaMobilités student pass at €26 a month for under-26s, free for échelon 5-7 grant-holders since 2022; the Côte-d'Or département adds its own study grant of €200-500 a year on social criteria, cumulable with the CROUS one. Student work: faculty tutoring, university library contracts, the teaching hospital at 6,500 staff, and the local signature employers — the Dijon mustard makers, the Beaune wine houses, liqueur producers, INRAE. And then the September grape harvest, which pays well for the season, €800-1,400 over three to four weeks in the Côte de Nuits and Côte de Beaune, but is physically demanding and falls exactly on the start of the academic year. It is a real arbitrage, not a bonus.",
+      },
+      {
+        heading: "Where students live, and what Burgundy adds",
+        body: "Place François-Rude, place Jean-Macé and rue Berbisey carry the nightlife: pints at €3-4, Burgundian restaurants under €15 — bœuf bourguignon, œufs en meurette, jambon persillé, gougères, and the mustard the city is named for in every English-language guidebook. The ducal quarter around place de la Libération, place des Ducs, rue de la Chouette and rue des Forges is the most beautiful part of the city, and rents inside the protected sector reflect it. Toison-d'Or to the north draws a student and young-professional crowd with more alternative bars; Bourroches to the south-west is quieter and more residential. Montmuzard offers integrated campus life (two university libraries, the student union building, university restaurants, societies), while the social centre remains the old town, 15-20 minutes away by tram and on foot. Chenôve, Quetigny and Talant are cheaper and well served by the tram. The Burgundy vineyard is the genuine differentiator: Beaune is an hour away by bus or train, Nuits-Saint-Georges thirty minutes by bus, and the Route des Grands Crus is a weekend bike ride. On the calendar, the Fête de la Vigne in September is one of France's largest folklore festivals, and the international gastronomy fair in November fills the city for twelve days and around 200,000 visitors — plan housing, shopping and transport around it. Paris is 1h35 away by high-speed train, Lyon 1h40, Zurich four hours.",
+      },
+      {
+        heading: "The traps to price in before you commit",
+        body: "First, the depth of the local graduate market. Dijon is excellent to study in and narrower to start a senior career in (food and agribusiness, mutual banking, regional public administration), so a good share of business-school and Sciences Po graduates leave for Paris, Lyon or Switzerland. Plan for that if you intend to stay. Second, the high-speed rail line cuts both ways: 1h35 to Paris is a real asset, but a hybrid arrangement of two or three days a week in Paris costs €350-450 a month in season tickets, which belongs in the budget of anyone planning a Paris career straight out of a Dijon degree. Third, the September letting peak, milder here than in the south but real. Fourth, local career pace: the Dijon job market is stable rather than dynamic, senior staff often stay eight to eleven years in the same post, and pay progression is slower than in Lyon or Paris. Fifth, capacity limits — some university departments, sport and medicine in particular, have restricted intakes with selection at the national application stage or by competitive exam, so check the number of places before you build a plan around one programme. Sixth, the continental climate: −5 to −8 °C is common in December to February and heating charges in a pre-2005 studio can reach €70-120 a month; summers bring occasional 35-38 °C spells over five to twelve days. Seventh, the two big autumn events that saturate the city, already flagged. Eighth, the vendanges clash: excellent money, wrong week.",
+      },
+    ],
+    relatedCities: ["dijon", "chenove", "beaune", "chalon-sur-saone", "auxerre"],
+    tags: [
+      "studying in dijon",
+      "international students",
+      "student visa france",
+      "student housing france",
+      "bourgogne-franche-comte",
+    ],
+  },
+
+  {
+    slug: "studying-in-angers-2026",
+    title: "Studying in Angers (2026): 43,000 students in the greenest city in France",
+    metaTitle: "Studying in Angers 2026: Universities, Housing, Real Cost",
+    metaDesc:
+      "Université d'Angers, UCO, ESSCA and ESA. Rooms in a flatshare at €350-450, the public-versus-private fee gap, and what foreign students can claim.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    intro:
+      "Angers holds 43,000 students without making much noise about it: a public university, a historic Catholic one, a well-regarded business school, an engineering school and an agricultural school, in the city routinely ranked the greenest in France, with rents that leave room to live — a room in a flatshare at €350-450, a studio at €480-540, an all-in monthly budget of €700-950. It scores 7.9/10 on schools and 7.8/10 on remote-work conditions for an overall 6.7/10, the highest of the thirteen cities in this batch. For a foreign student whose subject touches plants, horticulture or agri-food, the case is even simpler: Angers is the European capital of the sector, and the local courses exist nowhere else in that concentration.",
+    sections: [
+      {
+        heading: "The institutions, and the public-private distinction that catches people out",
+        body: "Université d'Angers covers law, humanities, sciences and health, plus ESTHUA, the largest tourism faculty in Europe. Alongside it sits UCO, the historic Catholic university of the west, strong in social sciences and education; ESSCA for business; ESEO for engineering; and ESA for agriculture — because plant science is the local economic specialism, Angers being the European capital of horticulture, and the plant-sector courses here have no equivalent elsewhere in France. Here is the distinction English-speaking applicants get wrong, and it is the same trap as the Catholic university in Lille: UCO and Université d'Angers are two different institutions. The public university charges the standard national enrolment of roughly €170 a year; UCO is a private establishment and charges tuition. Its name in English translation reads like a faculty of the city's university and it is not one. Ask each institution in writing for the exact fee for your programme and your nationality before you commit to anything — and check whether what you are being awarded is a state-conferred national degree or a private-school title, which are not interchangeable outside France. The same question applies to any private business or engineering school anywhere in the country.",
+      },
+      {
+        heading: "Applying from abroad: procedure, permit and paperwork",
+        body: "Non-EU applicants living in a country covered by the Études en France procedure apply through Campus France rather than directly to the institution; the platform runs the file, the academic pre-registration and the consular interview as one chain, opening in the autumn for the following September. Miss the window and you lose a year. EU, EEA and Swiss nationals apply as French students do. Once accepted, a long-stay student visa acts as a residence permit only after you validate it online within three months of arrival — skipping this is the commonest administrative error and it quietly puts you out of status. Public enrolment costs on the order of €170 a year; non-EU differentiated tuition is waived by many universities but not all, so ask for your specific programme in writing rather than relying on a general statement. On the academic side, one point specific to Angers: ESTHUA's tourism programmes and the plant-science courses at ESA both involve substantial placement components in French-speaking workplaces, so be realistic about the level of French your programme actually requires day to day, which is not always the level stated on the admissions page.",
+      },
+      {
+        heading: "Housing: soft prices, one September pinch",
+        body: "The figures are gentle: €480-540 for a studio, €350-450 for a room in a flatshare, the softest in the west, below both Nantes and Rennes. The geography is simple. Belle-Beille to the west is the historic campus with its CROUS halls, transformed by the arrival of tram line B in 2023. Saint-Serge, just north of the centre, is the modern law and economics campus, walkable from town. The centre and La Doutre hold the character flatshares in old houses, and La Madeleine is the quiet-value option. Health sits near the teaching hospital. The CROUS here is decently stocked, with the national grant application filed in spring as everywhere — though note that the grant itself is effectively closed to non-EU students, so an international arrival should treat the private market as the base case. That market is accessible, with a real but manageable pinch on studios in September: aim for June or July, or accept a flatshare, which is the dominant local format anyway and the cheapest way to live here. The city crosses in twenty minutes by bike and the tram covers both campuses, so student logistics in Angers are close to a non-issue, and the Lac de Maine is ten minutes' pedalling from the centre and doubles as the summer revision spot.",
+      },
+      {
+        heading: "Money: what a foreign student can and cannot claim",
+        body: "The CROUS bourse sur critères sociaux (€145-620 a month, échelons 0 bis to 7 on the 2025-2026 scale) is essentially closed to non-EU students on a standard student permit — French guides present it as the central form of support, and a foreign reader who budgets around it is several hundred euros a month wrong. What you can claim is CAF housing benefit, APL or ALS, open to foreign students holding a valid residence permit; claim it from your first full month. Visale, the free state guarantee for under-30s, replaces the French-resident guarantor earning three times the rent that landlords otherwise require, and it is the practical unlock for an international applicant far more than the price is. Your permit allows paid work up to 60% of the full-time annual legal limit. The monthly arithmetic excluding tuition: rent €350-500, groceries €180-250 (the Lafayette market and place Monprofit, with the cheapest short-circuit market gardening in the west, as you would expect in the horticultural capital), the Irigo youth transport pass around €24, sundries €55, going out €90-130. Total €700-950, the softest budget of the western cities. Local jobs: hospitality, retail, childcare and youth work, and the plant sector in season, when the nurseries and glasshouses on the outskirts hire in spring — the Angers student job par excellence.",
+      },
+      {
+        heading: "Campuses, libraries and what the year looks like",
+        body: "Belle-Beille (humanities and sciences, with ESSCA next door) and Saint-Serge (law, economics, tourism) split the public university, while UCO occupies its historic buildings in town near the botanical garden and health sits by the hospital. For revision: the renovated Belle-Beille library, the modern and central Saint-Serge library, the local favourite, and the Toussaint media library in its own setting. Nightlife concentrates on rue Saint-Laud and place du Ralliement, with Le Chabada for concerts, a historic venue on the French circuit with a loyal programme, and Le Quai for theatre and dance. The register is that of a mid-sized student city that knows what it is: sociable, affordable, unspectacular, with Nantes forty minutes away by regional train serving as the big-night annexe. For weekends: the Lac de Maine for sailing, running and a summer beach; the Loire by bike towards Béhuard and Savennières for Sunday winery outings; Terra Botanica for the plant curiosity. Internships follow the local economy: plant science and agri-food through the Végépolys Valley cluster and the seed companies, tourism through ESTHUA's national partnerships, health at the teaching hospital, electronics around ESEO, and mutual insurance. On graduation, plant science, health and electronics retain their profiles locally while the wider service sector looks to Nantes, which is the classic Angers arbitrage: Nantes salary, Angers rent.",
+      },
+      {
+        heading: "What to settle before you commit",
+        body: "First, the fee question, which is the one thing that can go seriously wrong here: establish in writing which institution you are enrolling at, what it charges you as a national of your country, and what kind of qualification it awards. Public and private sit side by side in this city and the English translations of their names do not make the difference obvious. Second, French. Angers is not a city where an international student can rely on English outside a specifically international programme, and ESTHUA and ESA placements are French-speaking workplaces. Third, the format: the flatshare is the local norm and the reason the budget works, so plan on it rather than on a studio. Fourth, the timing: look in June or July rather than September if you want a studio. Fifth, the honest downside of a city this size: fewer large venues and fixtures than a metropolis, with Nantes forty minutes away covering the gap for the price of a train ticket. Sixth, if you are choosing between western cities on cost, this is the cheapest of the three, and the schools score of 7.9/10 is among the highest of the thirteen cities covered here, which is worth more to a family than a ranking position for most subjects.",
+      },
+    ],
+    relatedCities: ["angers", "nantes", "tours", "le-mans", "cholet"],
+    tags: [
+      "studying in angers",
+      "international students",
+      "student visa france",
+      "student housing france",
+      "pays-de-la-loire",
+    ],
+  },
+
+  {
+    slug: "studying-in-caen-2026",
+    title: "Studying in Caen (2026): 30,000 students, the sea, and a ferry to England",
+    metaTitle: "Studying in Caen 2026: Universities, Housing, Real Cost",
+    metaDesc:
+      "Université de Caen Normandie, ENSICAEN and the GANIL accelerator. Studios at €470-510, the sea 15 km away, and what foreign students can claim.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    intro:
+      "Caen has 30,000 students for 105,000 inhabitants, which makes it a genuine student city rather than a city with students in it. Its university was rebuilt after 1944 and took a phoenix as its official emblem, literally. The sea is fifteen kilometres away, the safety record is among the best documented in the country, and rents leave room to breathe: a studio at €470-510, a room in a flatshare at €350-450, an all-in monthly budget of €685-950. Caen scores 7.4/10 on schools and 7.0/10 on transport for an overall 6.4/10. For a British, Irish or North American student, one detail in this guide is worth more than any ranking: the ferry from Ouistreham to Portsmouth, and the D-Day beaches on the doorstep.",
+    sections: [
+      {
+        heading: "The institutions: a full university, an engineering school and a particle accelerator",
+        body: "Université de Caen Normandie covers the whole spectrum (law, humanities, sciences, health and sport) on the emblematic campus rebuilt after the destruction of 1944. Alongside it: EM Normandie for business, ENSICAEN for engineering, strong in materials and in smart-card technology (the chip card grew out of the Caen ecosystem), and GANIL, the national heavy-ion accelerator, which anchors nuclear physics research at world level. For a foreign physics student that last point is the substantive one: a large national research instrument in a mid-sized, affordable city is a rare combination, and it shapes the doctoral and postdoctoral community here. The rest of the case is about living conditions rather than prestige: the sea reachable by bike and bus, with Ouistreham forty-five minutes away along a flat towpath beside the canal; a city on a student scale where everything is walkable or a tram ride away; and a measured safety record that makes it the preferred choice of Norman parents, while the students themselves discover fairly quickly that quiet does not mean dull.",
+      },
+      {
+        heading: "Applying from abroad: procedure, permit, degree",
+        body: "Non-EU applicants from a country covered by the Études en France procedure apply through Campus France, not directly to the university; the platform chains the file, the academic pre-registration and the consular interview together and opens in the autumn for the following September. EU, EEA and Swiss nationals apply as French students do. Your long-stay student visa functions as a residence permit only once validated online within three months of arrival — the most common administrative mistake international students make, and it quietly puts you out of status. Enrolment at the public university costs on the order of €170 a year; non-EU differentiated tuition is waived by many institutions but not all, so ask in writing for your programme. Check what awards your degree: a state-conferred national qualification and a private-school RNCP title are different objects and do not convert abroad in the same way. One Caen-specific point: the university's teaching is in French across the general degree programmes, and while a mid-sized Norman city is a good place to reach fluency quickly, it is not a place to arrive expecting an English-speaking administrative environment.",
+      },
+      {
+        heading: "Housing: a relaxed market outside the September peak",
+        body: "The numbers: €470-510 for a studio, €350-450 for a room in a flatshare. The geography is unusually simple. Campus 1, the large historic campus, sits on its plateau above the centre with the CROUS halls immediately alongside — the local stock is well sized, with grant applications filed in spring as everywhere, though the underlying grant is effectively closed to non-EU students, who should plan on the private market. The centre, around Saint-Jean and the university, puts you walking distance from the lecture halls. Vaucelles and the right bank offer soft prices one bridge from the centre, and Hérouville helps tight budgets with a tram connection. Outside the September peak the market is relaxed: a search started in July concludes without drama, which is not something a student in Bordeaux or Nice can say. The one thing to check is a Norman standard: damp and heating in the older stock. Ask to see the energy rating and, if you can, the previous winter's bills, because a cheap rent with an unheatable room is not cheap.",
+      },
+      {
+        heading: "Money: what a foreign student can and cannot claim",
+        body: "The CROUS bourse sur critères sociaux (€145-620 a month, échelons 0 bis to 7 on the 2025-2026 scale) is essentially closed to non-EU students on a standard student permit; the €1 university restaurant meal depends on holding it. Budget without both. What you can claim is CAF housing benefit, APL or ALS, open to foreign students holding a valid residence permit — claim it from your first full month, because against a rent of €350-480 it is a large proportion of the bill. Visale, the free state guarantee for under-30s, replaces the French-resident guarantor earning three times the rent, which is the wall that stops most international applicants. Your permit allows paid work up to 60% of the full-time annual legal limit. The monthly arithmetic excluding tuition: rent €350-480, groceries €190-250 (the Sunday market on place Saint-Sauveur is one of the good markets of the west, with camembert, cream and apples at Norman source prices), the Twisto youth transport pass around €26, sundries €55, going out €90-140. Total €685-950. Student work: hospitality in the centre and along the coast, where the season from Ouistreham to Courseulles hires from April to September, retail, youth work, and front-of-house at the Mémorial.",
+      },
+      {
+        heading: "Campuses, libraries and the coast",
+        body: "Campus 1 is the beating heart: a monumental esplanade, the faculties, the renovated central library, the university restaurants and the mosaic phoenix presiding over exam season. Campus 2 for sciences at Côte de Nacre, shared with ENSICAEN, and the health campus at the teaching hospital complete the picture to the north, linked by tram. For revision away from campus, the Alexis-de-Tocqueville library on the peninsula is one of the finest reading buildings in France, looking over the basin and open on Sundays — the January headquarters — and the cafés of the Vaugueux are tolerant. Everything is within twenty minutes by tram, so the logistics never eat an evening. Nightlife runs on the Vaugueux, the old quarter with its bars packed under the castle, on rue Écuyère for the big nights, and Le Cargö for concerts, with an electronic music heritage from the Nördik Impakt festival. Thursday nights are solid, on the scale of a city you can walk home across. For weekends: the sea first (Ouistreham by bike along the canal, the D-Day beaches by bus for history Sundays), then the Colline aux Oiseaux and the Prairie for running, and the racecourse in the middle of town as a charming anomaly. Honfleur and the Suisse Normande are a shared car ride away.",
+      },
+      {
+        heading: "What to settle before you commit, including the ferry",
+        body: "First, the thing that makes Caen distinctive for an English-speaking student: Ouistreham is a working ferry port with a crossing to Portsmouth, which turns a trip home, or a family visit, into something you can book cheaply if you plan early — no other city in this series has that. The D-Day beaches and the Mémorial are on the same axis and are a genuine part of student life here, not a tourist footnote. Second, the graduate market, which deserves clear eyes: Caen trains well and retains moderately, with Rouen and Paris absorbing part of each cohort. What does stay is health, the smart-card and digital sector (the chip-card ecosystem, semiconductor employers and local fintech) and teaching. Third, internships follow the same map, plus Norman agri-food, GANIL for physicists and the public sector. Fourth, the climate and the housing stock go together: Norman winters are damp rather than cold, and the old buildings tell on the heating bill. Fifth, if you are comparing mid-sized options on cost, Caen at €685-950 a month sits in the soft group, with a safety record that is measurably among the country's best — which for a student living alone abroad for the first time is not a small line item.",
+      },
+    ],
+    relatedCities: ["caen", "rouen", "le-havre", "bayeux", "cherbourg"],
+    tags: [
+      "studying in caen",
+      "international students",
+      "student visa france",
+      "student housing france",
+      "normandy",
+    ],
+  },
+
+  {
+    slug: "studying-in-tours-2026",
+    title: "Studying in Tours (2026): the Loire, the Renaissance, and Paris in 66 minutes",
+    metaTitle: "Studying in Tours 2026: Universities, Housing, Real Cost",
+    metaDesc:
+      "Université de Tours, the Renaissance studies centre and Polytech. Studios at €480-540, Paris 1h06 away, and what a foreign student can claim.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    intro:
+      "Tours lines up 30,000 students in the Loire valley: place Plumereau as the official headquarters, the riverbank as the summer reading room, the châteaux as art-history field trips, and Paris an hour and six minutes away by high-speed train. Rents stay contained (a studio at €480-540, a room in a flatshare at €380-480, an all-in monthly budget of €750-1,000), and the university covers the full range. The city scores 7.9/10 on schools and 7.3/10 on remote-work conditions for an overall 6.4/10. For a foreign student in the humanities there is one asset here that exists nowhere else in Europe, and this guide starts with it.",
+    sections: [
+      {
+        heading: "The institutions, and the Renaissance centre that has no equivalent",
+        body: "Université de Tours covers the complete spectrum (law, humanities, sciences, medicine and pharmacy) alongside Polytech Tours for engineering, the school of fine arts and business-school annexes. Its distinguishing asset is the CESR, the centre for advanced Renaissance studies, which is unique in Europe and entirely logical in a valley of Renaissance châteaux: a research and graduate centre built around the period, with the primary sources and the buildings themselves within a short train ride. For an anglophone student in early modern history, art history, book history or musicology, that is a substantive reason to look at a mid-sized French city rather than a capital. The rest of the case is about scale and position: a city big enough to have a life and small enough to cross on foot, a high-speed line that keeps Paris at 1h06 — close enough for interviews, concerts and family weekends without staying overnight — and the Loire as the backbone of the year, with riverside guinguettes in summer and cycling all year round. The Garden of France is a phrase that survives contact with being twenty in it.",
+      },
+      {
+        heading: "Applying from abroad: procedure, permit, degree",
+        body: "Non-EU applicants living in a country covered by the Études en France procedure apply through Campus France rather than the university; the platform runs the file, the pre-registration and the consular interview as one chain and opens in the autumn for the following September, so missing it costs a year. EU, EEA and Swiss nationals apply as French students do. A long-stay student visa doubles as a residence permit only once validated online within three months of arrival, and skipping that step is the single most common administrative error international students make. Public enrolment costs on the order of €170 a year, with non-EU differentiated tuition waived by many institutions but not all — ask in writing for your specific programme. Check what awards your qualification: an RNCP level-7 title from a private school is a French professional certification, not the state-conferred grade de master, and the two do not travel abroad the same way. For a research-track applicant to the CESR or the doctoral school, note that the graduate application calendar and the Campus France calendar are separate processes that must both be met, and the academic contact should be established well before either.",
+      },
+      {
+        heading: "Housing: contained prices and one thing to check in the old town",
+        body: "The numbers: €480-540 for a studio, €380-480 for a room in a flatshare. The geography: the old town around Plumereau to live at the epicentre, with timber-framed flatshares and accepted Thursday-night noise; Les Halles and the cathedral quarter as quieter versions of the same centre; Velpeau behind the station as the gently rising option; Les Deux-Lions to the south, the modern law and economics campus with recent residences and a direct tram; and Grandmont for the sciences, with CROUS halls in the woods. The Tours CROUS stock is decently sized, with grant applications in spring — bearing in mind that the grant itself is effectively closed to non-EU students, who should plan on the private market. That market tightens in September without panic: a search begun in July concludes. One charm-related warning worth taking literally: the timber-framed buildings of the old town sometimes conceal period single glazing, and a beautiful room you cannot heat in January is a different proposition from the one you viewed in June. Ask for the energy rating.",
+      },
+      {
+        heading: "Money: what a foreign student can and cannot claim",
+        body: "The CROUS bourse sur critères sociaux (€145-620 a month, échelons 0 bis to 7 on the 2025-2026 scale) is essentially closed to non-EU students on a standard student permit, and the €1 university restaurant meal is conditioned on holding it. Budget without either. What you can claim is CAF housing benefit, APL or ALS, open to foreign students holding a valid residence permit, and worth claiming from your first full month. Visale, free for under-30s, replaces the French-resident guarantor earning three times the rent — the requirement that actually blocks international applicants, more than price does. Your permit allows paid work up to 60% of the full-time annual legal limit. The monthly arithmetic excluding tuition: rent €380-520, groceries €190-250 (the covered market, the belly of Tours, discounts at the end of Saturday, and rillettes and sainte-maure cheese bought direct make the riverbank picnics), the Fil Bleu youth transport pass around €25, sundries €55, going out €100-140, with Plumereau bar prices staying reasonable and the summer guinguette free to enter. Total €750-1,000. Student work: hospitality in the old town, where demand is permanent; the châteaux in season, from April to October in reception and ticketing, which is the Tours student job par excellence and requires working French; the Vouvray grape harvest in September; and retail.",
+      },
+      {
+        heading: "Campuses, libraries and the Loire",
+        body: "Three poles. Les Tanneurs on the riverbank holds humanities and social sciences, and yes, the lecture hall with a view over the Loire exists and it is here. Grandmont sits south in its park with sciences, pharmacy and halls of residence. Les Deux-Lions, across the Cher, holds law, economics and Polytech in a modern setting served by the tram. Medicine sits by the Bretonneau hospital. For revision: the Tanneurs library for the view, the central municipal library, and in summer the riverbank itself, which functions as an open-air reading room by accepted local tradition. The north-south tram and the bicycle cover everything; the city is flat, and the Loire cycle path doubles as a home-to-campus route for a good number of students. Nightlife is concentrated and unambiguous: place Plumereau is the headquarters, its half-timbered terraces having held Tours student life for generations, spilling into rue du Grand-Marché and rue de la Rôtisserie. Le Temps Machine at Joué-lès-Tours, on a direct tram, carries the concerts; the guinguettes on the Loire run from May to September. For weekends, the Loire by bike in both directions (Villandry to the west, Amboise to the east), plus the Île Simon for running, the Bergeonnerie lake, and the Vouvray and Montlouis cellars, reachable by regional train so nobody has to drive.",
+      },
+      {
+        heading: "What to settle before you commit",
+        body: "First, the Paris question, because it changes the calculation for an international student more than for a French one: at 1h06 you can hold an internship or attend interviews in the capital without moving there or paying its rent, and a good number of Tours graduates end up doing exactly that — Paris salary, Tours rent. Second, the châteaux at student rates are not a cliché but a budget line in your favour: Villandry and Amboise cost under €10, which makes the cultural outings here the cheapest in the country relative to what you are looking at, and a regional train to Amboise or Chinon is about €5. Third, French: the heritage and hospitality jobs that make the local student economy work are French-speaking, and Tours is not an English-speaking administrative environment. Fourth, the housing warning about period glazing. Fifth, the graduate market: health and the service sector (insurance and banking) retain reasonably, heritage tourism and the Renaissance research centre offer narrow but real tracks, and the rest is absorbed by Paris an hour away, increasingly without anyone moving. Sixth, on cost, Tours sits mid-pack in this series at €750-1,000 a month, more than Poitiers or Limoges and well under Nice or Aix, in exchange for a high-speed line and a valley full of UNESCO-listed buildings.",
+      },
+    ],
+    relatedCities: ["tours", "joue-les-tours", "amboise", "orleans", "poitiers"],
+    tags: [
+      "studying in tours",
+      "international students",
+      "student visa france",
+      "student housing france",
+      "centre-val-de-loire",
+    ],
+  },
+
+  {
+    slug: "studying-in-poitiers-2026",
+    title: "Studying in Poitiers (2026): the cheapest real university town in France",
+    metaTitle: "Studying in Poitiers 2026: Cost, Housing, Universities",
+    metaDesc:
+      "One resident in three is a student. Studios at €400-480, a monthly budget from €620, a university founded in 1431, and what foreign students can claim.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    intro:
+      "Poitiers holds a French record: one resident in three is a student, 30,000 for 90,000 inhabitants, in a university founded in 1431 that taught Rabelais and Descartes. The mechanical consequence is that the whole town runs on the academic calendar, with the lowest rents of any genuine university city in France — a studio at €400-480, a room in a flatshare at €300-420, an all-in monthly budget of €620-870 — and Paris an hour and twenty minutes away by high-speed train. For an international student on a tight budget, this is the strongest dossier in the country, and this guide explains both why and what you give up for it. Poitiers scores 7.4/10 on schools and 6.6/10 on cost for an overall 6.1/10.",
+    sections: [
+      {
+        heading: "Why the arithmetic works before anything else does",
+        body: "Start with the number that decides it: the total cost of living here runs about 40% below Lyon, which means a year in Poitiers costs roughly what a semester costs in Paris. For a student paying their own way, or a family supporting one from abroad, that is not a detail, it is the whole decision. Behind the price sits a complete university (a well-regarded law faculty, humanities, sciences, medicine and pharmacy, and the well-known psychology faculty), plus a Sciences Po campus and ENSMA for aeronautical engineering. The scale is the second argument: everything happens on foot on the Plateau, the lecture halls are ten minutes from the bars, and the record student density creates the sociability of a campus at the scale of an entire town. The position is the third: Paris 1h20, Bordeaux 55 minutes, La Rochelle and the Atlantic 1h20 by regional train. Whatever else Poitiers is, it is not cut off. And the Futuroscope theme park, ten minutes away by train, adds an unexpected niche in student jobs and in digital-imaging internships.",
+      },
+      {
+        heading: "Applying from abroad: procedure, permit, degree",
+        body: "Non-EU applicants from a country covered by the Études en France procedure apply through Campus France rather than the university, and that platform chains the file, the academic pre-registration and the consular interview together, opening in the autumn for the following September. EU, EEA and Swiss nationals apply as French students do. A long-stay student visa becomes a residence permit only when validated online within three months of arrival — miss that and your stay is irregular, however valid your visa looks. Public enrolment costs on the order of €170 a year; non-EU differentiated tuition is waived by many institutions but not all, so ask for your programme in writing. Check what awards your qualification: an RNCP title from a private school is not the state-conferred grade de master. Two points specific to Poitiers: the Sciences Po campus recruits through Sciences Po Paris rather than locally, on its own calendar, and the university's long teaching tradition in French as a foreign language does not mean the general degree programmes are taught in English — ask each department directly, and be realistic about the level of French your first year will actually demand.",
+      },
+      {
+        heading: "Housing: the reason people come, and the one thing to check",
+        body: "The figures that built the local reputation: €400-480 for a studio, €300-420 for a room in a flatshare, and an abundant CROUS stock — Poitiers is among the best-provided French cities in halls per student, with the spring grant application as everywhere, and even September late applications frequently succeeding. Bear in mind that the grant itself is effectively closed to non-EU students on a standard permit, so an international arrival should plan around the private market, which here is genuinely relaxed. The locations: the Plateau, the historic centre, to live in the middle of everything; the station quarter for commuters; Beaulieu and the campus to the south for scientists and the halls of residence, with a fast bus link. The dominant local format is the flatshare in one of the big old Poitiers houses, high-ceilinged and full of a slightly chilly charm — which is exactly the thing to check. Ask about the heating and read the energy rating, because the Poitiers winter is real and a high-ceilinged room in an unrenovated building is expensive to warm. That single check is the difference between the budget below working and not.",
+      },
+      {
+        heading: "Money: the lowest student budget in France, and what you can claim",
+        body: "The monthly arithmetic excluding tuition: rent €300-450, groceries €180-240 (the Notre-Dame market sits at the foot of a Romanesque façade, which is a decent setting for an art-history revision break), the local youth transport pass around €15, and the Plateau is walkable anyway, sundries €50, going out €90-130. Total €620-870, the lowest student budget in France for a real university town. That is what makes this city work: a grant-holder can live here without a compulsory side job, and a non-grant-holder with light part-time hours. Now the part that matters for a foreign national, because the French framing does not apply to you: the CROUS bourse sur critères sociaux (€145-620 a month, échelons 0 bis to 7 on the 2025-2026 scale) is essentially closed to non-EU students on a standard student permit, and the €1 university meal is conditioned on holding it. What is open to you is CAF housing benefit, APL or ALS, with a valid residence permit — and against a rent of €300-450 it covers a large share. Visale, free for under-30s, replaces the French-resident guarantor at three times the rent. Your permit allows paid work up to 60% of the full-time annual legal limit. Local employers: the Futuroscope is the largest student employer in the département, hiring for reception, entertainment and catering on weekends and seasons, alongside hospitality on the Plateau and private tutoring.",
+      },
+      {
+        heading: "Campuses, nightlife and the trade-off you are accepting",
+        body: "The city centre is the campus: law, humanities and Sciences Po occupy the historic core, where a lecture hall inside a former private mansion is a local standard, while medicine sits by the teaching hospital and the large science and sport campus is at Beaulieu to the south with its halls and library. For revision: the central law and humanities library, the François-Mitterrand media library, and tolerant cafés on the Plateau. The physical fact of the place is the hill: the Plateau has to be earned on a bicycle, and a second-hand electric bike is a classic local investment. But once you are up there everything is flat and walkable. Nightlife is at the scale of the town: concentrated around place du Marché and rue de la Regratterie, 90% student, and cheap. Le Confort Moderne, a historic converted industrial venue, carries the concerts and contemporary art with a programme that surprises for the size of the city. Now the honest trade-off: fewer big venues and big fixtures than a metropolis, which is exactly why the regional train matters — La Rochelle and the Île de Ré at 1h20, Bordeaux at 55 minutes. Poitiers weekends are often spent elsewhere, and that is already in the budget above.",
+      },
+      {
+        heading: "What to settle before you commit",
+        body: "First, be clear-eyed about the graduate market, which is the real cost of the low rent: Poitiers educates and disperses, and the majority of graduates leave for Bordeaux, Nantes or Paris. Staying concerns mainly law, health and teaching. If you are choosing a city partly for where you will work afterwards, this is not that city; if you are choosing one to graduate debt-free from, it is close to unbeatable. Second, internships follow the same map — law and public administration through the appeal court, the education authority and local government; health at the teaching hospital; digital imaging at the Futuroscope technology park; aeronautics through ENSMA. Third, French. A town where the whole social life is student and local is the fastest place in this series to become fluent, and the slowest place to get by without trying. Fourth, the heating check, which is worth repeating because it is the only line item that can break the arithmetic. Fifth, if you are comparing the cheap options, Poitiers, Limoges and Besançon are the three lowest budgets in this series; Poitiers has the highest student density and the best rail position of the three, Limoges is cheaper still, and Besançon has the largest international student community.",
+      },
+    ],
+    relatedCities: ["poitiers", "chatellerault", "niort", "angouleme", "la-rochelle"],
+    tags: [
+      "studying in poitiers",
+      "international students",
+      "student visa france",
+      "student housing france",
+      "nouvelle-aquitaine",
+    ],
+  },
+
+  {
+    slug: "studying-in-amiens-2026",
+    title: "Studying in Amiens (2026): Paris in 65 minutes, at Picardy prices",
+    metaTitle: "Studying in Amiens 2026: Universities, Housing, Real Cost",
+    metaDesc:
+      "30,000 students, canal-side Saint-Leu, studios at €470-510 and Paris 1h05 away. What a foreign student can claim, and the honest weak points.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    intro:
+      "Amiens is one of the youngest cities in France: 30,000 students for 135,000 inhabitants, a postcard student quarter in Saint-Leu with its canals at the foot of the largest Gothic cathedral in the country, Picardy rents that leave room to live, and Paris an hour and five minutes away. A studio runs €470-510, a room in a flatshare €350-450, an all-in monthly budget €700-930. The honest counterweight belongs at the top rather than buried: Amiens scores 4.2/10 on nature and 4.5/10 on safety for an overall 5.3/10, the second lowest of the thirteen cities in this batch. What it does have, and what makes the case for an international student, is the best rent-to-Paris-access ratio in this series.",
+    sections: [
+      {
+        heading: "The institutions, and what the Paris proximity is actually for",
+        body: "Université de Picardie Jules-Verne covers the spectrum (law, humanities, sciences and health, with a medical faculty and a modern hospital campus to the south) alongside ESIEE for engineering, the higher school of art and design, and a regional annexe of Sciences Po Lille. That is a solid rather than a headline offer, and the honest way to present it is against the position: at 1h05 from Paris, an Amiens student can hold internships and attend interviews in the capital without paying Paris rent, which for someone arriving from abroad on a fixed budget is a materially different proposition from studying in a city that is merely cheap. Lille is 1h20 away for the big nights and the wider graduate market. The everyday setting is the second argument and it is not marketing: classes beside the canals of the Somme, the hortillonnages (the market gardens on the water) by boat on Sundays, and the cathedral as the landmark of every journey across town. Few student cities offer that setting at this price.",
+      },
+      {
+        heading: "Applying from abroad: procedure, permit, degree",
+        body: "Non-EU applicants living in a country covered by the Études en France procedure apply through Campus France rather than the institution; the platform runs the file, the academic pre-registration and the consular interview as one chain and opens in the autumn for the following September, so missing it costs a year rather than a few weeks. EU, EEA and Swiss nationals apply as French students do. A long-stay student visa functions as a residence permit only after online validation within three months of arrival, which is the commonest administrative error and quietly puts you out of status. Public enrolment costs on the order of €170 a year, with non-EU differentiated tuition waived by many institutions but not all — ask in writing for your programme rather than relying on a general page. And check what awards your qualification: an RNCP level 6-7 title from a private school is a French professional certification, not the state-conferred grade de master, and the difference matters when you take the diploma home. Teaching at the university is in French; a mid-sized Picardy city is an efficient place to reach fluency and a poor place to avoid needing it.",
+      },
+      {
+        heading: "Housing: a relaxed market, and the canal quarter",
+        body: "The numbers: €470-510 for a studio, €350-450 for a room in a flatshare. The geography is obvious once you see the map. Saint-Leu comes first — the historic student quarter of coloured houses on the canals, walking distance from the law faculty and the cathedral-side lecture halls, where demand is real but prices stay soft. The centre around Trois-Cailloux and the covered market is the practical alternative; Henriville is the quiet, bourgeois option; and the Licorne-CHU cluster to the south suits health students, with fast buses and recent residences. CROUS halls concentrate on the Thil campus and in town. The Amiens market is relaxed: September is manageable and July is a choice rather than a scramble — which, again, is not something a student in Bordeaux or Nice can say. As everywhere in this series, the CROUS grant that drives hall allocation is effectively closed to non-EU students on a standard permit, so plan on the private market and treat a hall place as a bonus rather than a plan.",
+      },
+      {
+        heading: "Money: what a foreign student can and cannot claim",
+        body: "The CROUS bourse sur critères sociaux (€145-620 a month, échelons 0 bis to 7 on the 2025-2026 scale) is essentially closed to non-EU students on a standard student permit, and the €1 university restaurant meal is conditioned on holding it. What you can claim is CAF housing benefit, APL or ALS, open to foreign students holding a valid residence permit, and worth claiming from the first full month. Visale, free for under-30s, replaces the French-resident guarantor earning three times the rent — the requirement that stops most international applicants. Your permit allows paid work up to 60% of the full-time annual legal limit. The monthly arithmetic excluding tuition: rent €350-480, groceries €180-240 (the floating market and the covered halls sell vegetables from the hortillonnages on the shortest supply chain in the country, at Picardy prices), the Ametis youth transport pass around €24 on an electric bus network in a flat, cyclable city, sundries €55, going out €90-130, with the canal-side bars of Saint-Leu holding student prices and a ficelle picarde filling a dinner for €8. Total €700-930. Student jobs: hospitality in Saint-Leu, retail, youth work, and the Baie de Somme season from April to September, when the coastal hotel trade hires.",
+      },
+      {
+        heading: "Campuses, evenings and weekends",
+        body: "The university lives in urban clusters rather than one campus: the cathedral and Saint-Leu pole for law, economics and humanities, where a lecture hall in a former almshouse beside the canal sets the tone; the Thil campus to the north; and the southern health pole around the modern teaching hospital. For revision: the central university library, the Louis-Aragon municipal library, and the quays of the Somme when the weather allows, because Picardy light between two showers is worth the walk. The flat city crosses by bike in fifteen minutes, with the bus network filling the gaps, so no student journey here justifies a car, and the greenway reaches the hortillonnages in ten minutes' pedalling. Evenings concentrate in Saint-Leu, where the bars on the quai Bélu are the absolute epicentre and Thursday is a regional institution, with La Lune des Pirates for concerts — the historic venue, with a demanding programme — and the Zénith for large capacities. The Fête dans la Ville in June and the well-known Christmas markets punctuate the year, and the cathedral's Chroma light show is free in summer and at Christmas. For weekends: the hortillonnages by boat, at €8 a hire, the towpaths for running, the Saint-Pierre park between campus and canals, and the Baie de Somme for the great tides — seals at Le Hourdel, reachable by regional train and bike, which is the most genuinely other landscape within reach of the Paris basin.",
+      },
+      {
+        heading: "What to settle before you commit",
+        body: "First, take the scores seriously rather than around them: 4.5/10 on safety and 4.2/10 on nature are the weakest cards in this batch after Marseille, and the sensible response is the ordinary one — see the street in the evening before signing, and treat Saint-Leu, the centre and Henriville as the tested student options they are. Second, the graduate market is the lucid part: Amiens educates and disperses, with Paris and Lille absorbing the majority of each cohort, while health, teaching and the public sector retain locally. Internships follow the same lines, plus regional industry on the outskirts. Third, and this is the strategic point of the whole guide, the position turns that dispersal into an advantage rather than a defeat: at 1h05 you can accept a Paris post without leaving the canals immediately, which is a real and commonly taken option, not a theoretical one. Fourth, French is not optional here. Fifth, on cost, Amiens at €700-930 a month sits in the soft group of this series, cheaper than Tours or Dijon and dearer than Poitiers or Limoges, and no other city in that group has a capital an hour away.",
+      },
+    ],
+    relatedCities: ["amiens", "lille", "beauvais", "arras", "abbeville"],
+    tags: [
+      "studying in amiens",
+      "international students",
+      "student visa france",
+      "student housing france",
+      "hauts-de-france",
+    ],
+  },
+
+  {
+    slug: "studying-in-besancon-2026",
+    title: "Studying in Besançon (2026): the city built for foreign students",
+    metaTitle: "Studying in Besançon 2026: Universities, Housing, Cost",
+    metaDesc:
+      "France's capital for teaching French as a foreign language, plus microtechnology and the Swiss border an hour away. Rooms from €320, and what you can claim.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    intro:
+      "Besançon has 25,000 students in a setting few campuses can match (a loop of river beneath a Vauban citadel, forest ten minutes away by bike), and rents among the lowest in France, with a room in a flatshare at €320-420 and a studio at €420-490, for an all-in monthly budget of €630-890. Behind the postcard sit two things that matter specifically to a foreign student. The first is the CLA, the applied linguistics centre that makes Besançon the French capital for teaching French as a foreign language, and gives the city an international student population far out of proportion to its size. The second is Switzerland, an hour away, which changes both internships and first salaries. The city scores 7.4/10 on schools, 6.4/10 on nature and 6.4/10 on cost for an overall 6.5/10.",
+    sections: [
+      {
+        heading: "Why this city is different for an international student",
+        body: "Université de Franche-Comté holds its specialisms rather than spreading thin: microtechnology and engineering, through SupMicroTech and the FEMTO-ST institute, one of the largest laboratories of its field in Europe, whose work feeds directly into the taught programmes; health; and sport science, where the local faculty has a strong reputation. Then there is the CLA, the centre for applied linguistics, which is the reason a mid-sized city in the Jura foothills has one of the most international student bodies in France. If you are arriving with intermediate French and intending to study a French-taught degree, that infrastructure (the teaching, the assessment, the whole ecosystem of people doing the same thing) exists here at a scale it does not reach in a comparable city. The setting closes the argument: studying inside the river loop, revising by the Doubs, walking up to the citadel between exams. Nature here is not a weekend option bolted onto a campus, it is the campus, and that is worth stating plainly for anyone comparing cities from abroad on a map.",
+      },
+      {
+        heading: "Applying from abroad: procedure, permit, degree",
+        body: "Non-EU applicants from a country covered by the Études en France procedure apply through Campus France rather than the university, on a platform that chains the file, the academic pre-registration and the consular interview together and opens in the autumn for the following September. EU, EEA and Swiss nationals apply as French students do. A long-stay student visa becomes a residence permit only once validated online within three months of arrival — the commonest and quietest administrative failure among international students. Public enrolment costs on the order of €170 a year, and non-EU differentiated tuition is waived by many institutions but not all, so ask in writing for your programme. Check what awards your qualification: an RNCP title from a private school is a professional certification, not the state-conferred grade de master. One point that applies here more than in most French cities: because of the CLA, Besançon has a genuine pathway for arriving with imperfect French, doing intensive language work, and moving into a French-taught degree. If that is your plan, sequence it explicitly with both the language centre and the receiving department before you apply, rather than assuming one leads automatically to the other.",
+      },
+      {
+        heading: "Housing: among the lowest rents in France, and no scramble",
+        body: "The minimal figures: €420-490 for a studio, €320-420 for a room in a flatshare. The geography: La Bouloie to the north-west holds the main campus and the CROUS halls, with a direct tram; Battant is the young, lively quarter at the foot of the loop, with flatshares in older buildings and the bars downstairs; the loop itself is lived in as a flatshare for the setting, with the caveat that parking is non-existent — though the question rarely arises, since almost no student here has a car; and Les Chaprais near the station is the fallback. The market is relaxed: Besançon can be housed in September without stress, which is a comfort students in Bordeaux no longer know. As everywhere in this series, hall allocation follows the CROUS grant that is effectively closed to non-EU students, so plan on the private market. One thing to verify before signing, and it is not a formality: the heating. Franche-Comté winters do not forgive single glazing, and a cheap room you cannot warm is not a cheap room. Ask for the energy rating and, if possible, last winter's bills.",
+      },
+      {
+        heading: "Money: one of the three lowest budgets in France, and what you can claim",
+        body: "The monthly arithmetic excluding tuition: rent €320-450, groceries €180-240 (the Beaux-Arts covered market and the place de la Révolution market, with Comté cheese at cooperative producer prices serving as the official student protein), the Ginko youth transport pass around €26, sundries €50, going out €80-130. Total €630-890, one of the three lowest student budgets in France alongside Poitiers and Limoges. The free part does the rest: swimming in the Doubs in summer, climbing on the urban cliffs, mountain biking in the hills, cross-country skiing an hour away in winter. On what a foreign national can claim: the CROUS bourse sur critères sociaux (€145-620 a month, échelons 0 bis to 7 on the 2025-2026 scale) is essentially closed to non-EU students on a standard student permit, and the €1 university restaurant meal depends on holding it. CAF housing benefit, APL or ALS, is open to you with a valid residence permit and is proportionally large against a rent of €320-450. Visale, free for under-30s, replaces the French-resident guarantor at three times the rent. Your permit allows paid work up to 60% of the full-time annual legal limit — and here is a job specific to this city: teaching or conversation practice for the international student community is the smart local work for humanities students.",
+      },
+      {
+        heading: "Campuses, evenings, and the Swiss question",
+        body: "La Bouloie gathers sciences, law, sport science and SupMicroTech with the residences on a wooded plateau, a tram ride plus fifteen minutes from the centre; humanities and health live in town, and the CLA sits by the river loop. For revision: the two university libraries, the Pierre-Bayle media library in town, and in summer the lawns at Chamars by the water, which become an open-air reading room. Bicycles and the tram cover everything, with the climb up to La Bouloie either building your legs or justifying the classic local second-hand electric bike. Evenings happen in Battant, where the bars on rue Battant and the quays are the epicentre, with La Rodia by the Doubs for concerts, whose programme is remarkable for the size of the city, and the Bastion for contemporary music. The register is that of a mid-sized student town where everyone eventually knows everyone, which reassures some people and weighs on others. The Erasmus scene here is well known, a direct consequence of the CLA. And then Switzerland: the watchmaking valleys are an hour away and take cross-border interns, which is why the engineering track here has an unusual ending — microtechnology graduates either stay or cross to Neuchâtel or La Chaux-de-Fonds, where salaries roughly double. Note carefully that a French student residence permit does not by itself authorise employment in Switzerland; that is a separate process, and it is the part to research before you build a plan on it.",
+      },
+      {
+        heading: "What to settle before you commit",
+        body: "First, whether the language pathway is what you actually need. If you are arriving fluent, the CLA is a pleasant piece of context; if you are arriving at B1, it is the reason to choose this city over a cheaper-sounding one. Second, the size. Twenty-five thousand students in a city this compact means an intense, legible social life and fewer large cultural fixtures than a metropolis — Dijon, Lyon and Strasbourg are the escape valves, and part of every cohort looks that way after graduation. Third, internships and first jobs: microtechnology and watchmaking through FEMTO-ST and the precision engineering firms, health at the teaching hospital, sport science. Fourth, the Swiss border, which is a genuine economic fact and a genuine administrative process, not a shortcut. Fifth, the heating check, which is the only line item capable of breaking the arithmetic above. Sixth, on cost, Besançon at €630-890 a month is one of the three cheapest cities in this series, and the only one of the cheap three built around an international student population — for a first year abroad, that combination is unusual and worth more than a ranking place.",
+      },
+    ],
+    relatedCities: ["besancon", "dijon", "belfort", "montbeliard", "pontarlier"],
+    tags: [
+      "studying in besancon",
+      "international students",
+      "student visa france",
+      "student housing france",
+      "bourgogne-franche-comte",
+    ],
+  },
+
+  {
+    slug: "studying-in-limoges-2026",
+    title: "Studying in Limoges (2026): a French degree without the debt",
+    metaTitle: "Studying in Limoges 2026: Universities, Housing, Real Cost",
+    metaDesc:
+      "The lowest student budget in France: rooms at €280-380, €600-840 a month all in, a full university and a leading materials lab. What you can claim.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-08-11",
+    updatedAt: "2026-08-11",
+    intro:
+      "Limoges holds the record that matters to anyone paying their own way: the cheapest student life in France, with a room in a flatshare at €280-380, a studio at €420-450 and an all-in monthly budget of €600-840. Behind that price sits a complete university of 15,000 students, a teaching hospital that is the reference for the centre-west of the country, and two genuinely distinctive specialisms — ceramics and advanced materials, where the local laboratory is a European reference, and where the city's porcelain history turned into technical science rather than dying with it. Limoges scores 7.1/10 on cost, the best in this series, and 6.1/10 on safety for an overall 6.1/10. For an international student weighing debt against prestige, this guide argues the case honestly, including what you give up.",
+    sections: [
+      {
+        heading: "What the money actually buys",
+        body: "The total cost of a year in Limoges is roughly what a semester costs in Lyon. That is not a marketing comparison, it is the central fact of studying here, and it changes behaviour rather than just budgets: with no compulsory side job, students work more and score better, which is the quiet virtuous circle of a cheap city. What the money buys academically is a full university with two recognised peaks. Health comes first — the teaching hospital is the reference for the centre-west, and the medical and pharmacy faculties place their graduates well. Materials and ceramics come second, through the IRCER laboratory, a European reference in its field, and the combined engineering and ceramics school that trains sought-after graduates. Law and the humanities hold their rank without claiming more. The city itself is calm and green, and the Limousin countryside starts at the edge of the campus. The honest framing for a foreign applicant: you are not buying a globally recognised name, you are buying a recognised French national degree, in a real university, with no debt attached to it.",
+      },
+      {
+        heading: "Applying from abroad: procedure, permit, degree",
+        body: "Non-EU applicants living in a country covered by the Études en France procedure apply through Campus France rather than the university; the platform runs the file, the academic pre-registration and the consular interview as one chain and opens in the autumn for the following September, so missing the window costs a year. EU, EEA and Swiss nationals apply as French students do. A long-stay student visa acts as a residence permit only once validated online within three months of arrival, and skipping that step quietly makes your stay irregular. Public enrolment costs on the order of €170 a year, with non-EU differentiated tuition waived by many institutions but not all — ask in writing for your specific programme. Check what awards your qualification, because this is where the price advantage can be thrown away: an RNCP level 6-7 title sold by a private school for several thousand euros a year is a French professional certification, not the state-conferred grade de master, and it does not convert abroad the way you will assume. In a city whose entire argument is cost, paying private-school fees for a lesser qualification would be the one genuinely bad decision available.",
+      },
+      {
+        heading: "Housing: the most relaxed market in this series",
+        body: "The record figures: €280-380 for a room in a flatshare, €420-450 for a studio, with a CROUS stock well sized against demand — the halls at La Borie and in the centre accept beyond the strictly prioritised grant-holders, so it is worth applying even if you do not expect to qualify. The geography: the centre, around the covered market and the Cité, puts you walking distance from the law and humanities faculties; La Borie and Vanteaux serve the science and health campuses; Les Émailleurs is the gentle option. The market is entirely relaxed — you can view in September itself, choose between several places, and occasionally negotiate the rent, an experience students in Bordeaux have not had for years. The dominant local format is the town house shared between four or five people: around €300 each, for actual space rather than a converted corridor. Two caveats. The CROUS grant driving priority allocation is effectively closed to non-EU students on a standard permit, so treat a hall place as a possibility rather than a plan. And in older stock, ask for the energy rating before you sign, because a large shared house is only cheap if it can be heated.",
+      },
+      {
+        heading: "Money: the lowest budget in France, and what you can claim",
+        body: "The monthly arithmetic excluding tuition: rent €280-420, groceries €170-230 (the central covered market, where Limousin beef bought direct from the farmer transforms shared-house cooking, and where market prices are the lowest in this whole series), the city transport pass around €22, sundries €50, going out €80-120. Total €600-840, the French minimum for a genuine university town. On what a foreign national can claim, the framing differs from the French one and it matters here more than anywhere, because the local argument rests on the arithmetic: the CROUS bourse sur critères sociaux (€145-620 a month, échelons 0 bis to 7 on the 2025-2026 scale) is essentially closed to non-EU students on a standard student permit, and the €1 university restaurant meal is conditioned on holding it. CAF housing benefit, APL or ALS, is open to you with a valid residence permit and, against a rent of €280-420, covers a genuinely large share. Visale, free for under-30s, replaces the French-resident guarantor at three times the rent. Your permit allows paid work up to 60% of the full-time annual legal limit. Student work: hospitality, retail, homework support, and the Limousin agricultural seasons for the hardy, when the orchards and the chestnut harvest hire.",
+      },
+      {
+        heading: "Campuses, culture above the city's weight, and weekends",
+        body: "Three poles: the centre for law and humanities in the historic buildings; Vanteaux and La Borie for sciences and sport; and the health cluster around the teaching hospital at Dupuytren. The combined engineering and ceramics school sits on the ESTER technology park to the north. For revision: the central law and humanities library, the Bfm (the francophone multimedia library, the city's cultural flagship, large and generously open, and the natural headquarters), and the cafés around the covered market. Trolleybuses link everything and the city walks, so student logistics cost one ticket; a second-hand electric bike settles the question of the hills for anyone who would rather not. Evenings concentrate on rue Charles-Michels and around the market halls, with student bars at floor prices. The cultural institutions punch above the city's size: the opera house at a token student rate, Les Francophonies, the festival of French-language theatre in September and October, which for a student from a francophone country elsewhere in the world is a genuinely relevant fixture, and La Fourmi and the John-Lennon centre for concerts. The social register is that of a mid-sized town that knows itself: you see the same faces, and you make friends quickly. For weekends: the banks of the Vienne below the city with their summer guinguettes, the Lac de Vassivière forty-five minutes away for swimming, sailing and contemporary art on its island, and the Limousin countryside for the free version of everything.",
+      },
+      {
+        heading: "What you give up, stated plainly",
+        body: "First, the graduate market, which is the real price of the cheap rent: health and materials retain their graduates, and the rest disperses towards Bordeaux, Toulouse and Paris. If you intend to work where you studied, this is a narrow market. Second, the internship map is correspondingly focused — the teaching hospital absorbs the medical and paramedical cohorts, materials and ceramics run through the local industrial group, the ESTER park firms and the IRCER laboratory, and law and teaching cover the rest. Third, scale: fewer large venues, fewer big fixtures, and a nightlife measured by the size of the town. Fourth, French, which is not optional in a city with this profile. Fifth, the counter-argument to all of the above, and it is the reason this guide exists: a French degree taken here carries no debt, and that advantage is measured ten years later rather than at graduation. For a student choosing between an expensive city with a recognisable name and a modest one with a national degree and no loan, that is a real choice rather than a consolation — and it is the choice Limoges, more than any other city in France, is built to offer.",
+      },
+    ],
+    relatedCities: ["limoges", "brive-la-gaillarde", "poitiers", "gueret", "perigueux"],
+    tags: [
+      "studying in limoges",
+      "international students",
+      "student visa france",
+      "student housing france",
+      "nouvelle-aquitaine",
+    ],
+  },
+
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed
