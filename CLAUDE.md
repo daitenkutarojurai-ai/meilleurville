@@ -487,6 +487,30 @@ Talence, Le Bouscat côté Bordeaux ; Vaulx-en-Velin, Saint-Priest, Bron côté 
 restants : Mamoudzou, Saint-André, Les Abymes, Saint-Louis (974), Saint-Laurent-du-Maroni,
 Le Lamentin, Saint-Joseph, Saint-Benoît, Baie-Mahault, Le Robert, Le François.
 
+**Batch 29 — EN, rattrapage de parité, shipped 2026-08-12.** Les 6 jumelles
+`things-to-do-in-[slug]-2026` du batch 28 écrites d'un coup dans `data/guides-en.ts`
+(Cergy, Issy-les-Moulineaux, Aubervilliers, Mérignac, Pessac, Vénissieux). **Compteurs
+mesurés : FR 200 (`-a-` strict 198 + les 2 slugs en `au-`), EN 200 — écart nul, parité
+rétablie** (`EN_GUIDES` 598 → 604). Le conseil de nommage du batch 28 a été suivi :
+`things-to-do-in-pessac-2026` et `things-to-do-in-merignac-2026` cohabitent avec
+`things-to-do-in-bordeaux-2026`, et Issy garde `-les-moulineaux`. Aucun tag nouveau — les 6
+réutilisent `ile-de-france`, `nouvelle-aquitaine`, `auvergne-rhone-alpes`.
+Écrit en anglais natif depuis les faits des guides FR (aucun chiffre qui n'y soit),
+`metaTitle` 42-52 caractères, `metaDesc` 136-158, 8 sections par guide (la série FR en compte
+10, la version EN fusionne les fins de liste comme les batches EN précédents). Les quatre
+prudences du FR sont reprises telles quelles, à ne pas diluer : **CAEA sur la base aérienne
+106** (zone militaire, accès restreint), **villa des Brillants accessible depuis Issy sans y
+être située** (elle relève de Meudon), **cité Frugès = quartier habité** parcouru depuis la
+rue, et sur Vénissieux la Marche de 1983 **née aux Minguettes mais partie de Marseille** le
+15 octobre, Minguettes décrites sans verdict de sécurité, **fort de Bron** et non de
+Vénissieux. `npm run search-index` relancé (`data/search-index.en.json` 604 guides).
+**Prochain run : batch FR** (l'écart est nul, la série FR reprend la main). La liste de
+gisements du batch 26-27 étant épuisée, reprendre les pistes laissées par le batch 28 :
+grandes banlieues de province (Villenave-d'Ornon, Talence, Le Bouscat côté Bordeaux ;
+Vaulx-en-Velin, Saint-Priest, Bron côté Lyon) et les DROM restants — Mamoudzou, Saint-André,
+Les Abymes, Saint-Louis (974), Saint-Laurent-du-Maroni, Le Lamentin, Saint-Joseph,
+Saint-Benoît, Baie-Mahault, Le Robert, Le François.
+
 ### Glossaire (`app/glossaire/page.tsx`)
 
 Page unique, données inline (`SECTIONS: {title, emoji, terms[]}`), `DefinedTermSet` JSON-LD généré

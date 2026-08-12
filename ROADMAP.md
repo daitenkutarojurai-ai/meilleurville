@@ -1235,6 +1235,52 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ---
 
+## Shipped 2026-08-12
+
+- **Parité EN — série tourisme rattrapée (batch 29, +6 : Cergy, Issy-les-Moulineaux,
+  Aubervilliers, Mérignac, Pessac, Vénissieux)** ✅ — Les 6 jumelles
+  `things-to-do-in-[slug]-2026` du batch FR 28 (11/08) écrites d'un coup dans
+  `data/guides-en.ts`. **Compteurs mesurés : FR 200 (`-a-` strict 198 + les 2 slugs en
+  `au-`), EN 200 — écart nul dans les deux sens, parité de la série rétablie**
+  (`EN_GUIDES` 598 → 604). `npm run parity` reste en code 0 (215 routes FR / 164 EN).
+
+  **Le run a commencé par la mesure, pas par la mémoire.** `npm run parity` d'abord (aucune
+  route FR sans jumelle — le chantier des têtes de route reste fermé), puis le diff réel des
+  deux séries, qui a désigné exactement les 6 villes du batch FR de la veille. Le conseil de
+  nommage laissé par le batch 28 est tenu : `things-to-do-in-pessac-2026` et
+  `things-to-do-in-merignac-2026` cohabitent avec `things-to-do-in-bordeaux-2026` (les trois
+  communes sont limitrophes), et Issy garde `-les-moulineaux`. Aucun tag nouveau : les 6
+  réutilisent `ile-de-france`, `nouvelle-aquitaine` et `auvergne-rhone-alpes`, donc aucune
+  page `/tags/[slug]` créée. ⚠️ Le diff naïf continue de remonter deux **faux** trous
+  (`au-puy-en-velay` → `le-puy-en-velay`, `au-tampon` → `le-tampon`) : le contrôle mappe ces
+  deux slugs avant de comparer, ne pas « corriger » les slugs.
+
+  **Écrit en anglais natif depuis les faits des guides FR, aucun chiffre qui n'y soit.**
+  `metaTitle` 42-52 caractères, `metaDesc` 136-158, 8 sections par guide (la série FR en
+  compte 10 ; la version EN fusionne les fins de liste comme tous les batches EN précédents).
+  Trois `metaDesc` sortaient à 162-164 caractères au premier jet et ont été retaillées avant
+  commit — le contrôle est scripté, pas à l'œil.
+
+  **Les quatre prudences du FR sont reprises telles quelles, à ne pas diluer** : ① la
+  collection du **CAEA à Mérignac est sur la base aérienne 106**, en zone militaire à accès
+  restreint — présentée comme telle, pas comme un musée ouvert le dimanche ; ② la **villa des
+  Brillants** (second site du musée Rodin) est **accessible depuis** Issy sans y être située,
+  elle relève de Meudon ; ③ la **cité Frugès de Pessac est un quartier habité**, parcouru
+  depuis la rue ; ④ sur Vénissieux, la Marche pour l'égalité de 1983 est **née aux Minguettes
+  mais partie de Marseille** le 15 octobre, et les Minguettes sont décrites en quartier habité
+  et en histoire urbaine, sans verdict de sécurité — le fort voisin est le **fort de Bron**,
+  pas un fort de Vénissieux.
+
+  **Trois ajouts propres à l'angle voyageur étranger, absents du FR parce qu'inutiles à un
+  lecteur français** : la glose de *ville nouvelle* (Cergy — une des cinq villes planifiées
+  autour de Paris à partir des années 1960, ce qui explique l'absence de centre médiéval et
+  évite la déception), celle de *folie* bordelaise (Mérignac), et le rappel que la Marche de
+  1983 est souvent rapprochée à l'étranger d'une marche des droits civiques alors qu'elle naît
+  d'un contexte français propre. Rien n'est câblé à la main : la carte en vedette de
+  `/cities/[slug]/things-to-do` résout `things-to-do-in-<slug>-2026` et le sitemap EN dérive de
+  `EN_GUIDES`. `npm run search-index` relancé (`data/search-index.en.json` 604 guides), sans
+  quoi `search-index:check` échoue.
+
 ## Shipped 2026-08-11
 
 - **Parité EN — série `studying-in-[city]-2026` FERMÉE (batch 2, +13 : Marseille, Nice,

@@ -2777,6 +2777,36 @@
       "emoji": "🧀"
     },
     {
+      "slug": "things-to-do-in-cergy-2026",
+      "title": "Things to do in Cergy: the Axe Majeur, the marina and the old village",
+      "emoji": "🗼"
+    },
+    {
+      "slug": "things-to-do-in-issy-les-moulineaux-2026",
+      "title": "Things to do in Issy-les-Moulineaux: Dubuffet, playing cards and the Seine",
+      "emoji": "🃏"
+    },
+    {
+      "slug": "things-to-do-in-aubervilliers-2026",
+      "title": "Things to do in Aubervilliers: the 19M, La Maladrerie and the canal",
+      "emoji": "🧵"
+    },
+    {
+      "slug": "things-to-do-in-merignac-2026",
+      "title": "Things to do in Mérignac: Bourran park, a pre-revolutionary folly and the Krakatoa",
+      "emoji": "✈️"
+    },
+    {
+      "slug": "things-to-do-in-pessac-2026",
+      "title": "Things to do in Pessac: Le Corbusier, Haut-Brion and the Bourgailh",
+      "emoji": "🏡"
+    },
+    {
+      "slug": "things-to-do-in-venissieux-2026",
+      "title": "Things to do in Vénissieux: Parilly, the old village and the 1983 March",
+      "emoji": "🌳"
+    },
+    {
       "slug": "single-parent-in-paris-2026",
       "title": "Single Parent in Paris (2026): What It Actually Takes",
       "emoji": "🧑‍🍼"
@@ -2996,12 +3026,12 @@
     {
       "slug": "travel",
       "label": "travel",
-      "count": 200
+      "count": 206
     },
     {
       "slug": "city-guide",
       "label": "city guide",
-      "count": 194
+      "count": 200
     },
     {
       "slug": "moving-to-france",
@@ -3026,7 +3056,7 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 27
+      "count": 29
     },
     {
       "slug": "grand-est",
@@ -3044,6 +3074,11 @@
       "count": 24
     },
     {
+      "slug": "ile-de-france",
+      "label": "ile de france",
+      "count": 23
+    },
+    {
       "slug": "student-housing-france",
       "label": "student housing france",
       "count": 23
@@ -3054,24 +3089,19 @@
       "count": 22
     },
     {
-      "slug": "expat-single-parent",
-      "label": "expat single parent",
+      "slug": "auvergne-rhone-alpes",
+      "label": "auvergne-rhone-alpes",
       "count": 20
     },
     {
-      "slug": "ile-de-france",
-      "label": "ile de france",
+      "slug": "expat-single-parent",
+      "label": "expat single parent",
       "count": 20
     },
     {
       "slug": "single-parent-in-france",
       "label": "single parent in france",
       "count": 20
-    },
-    {
-      "slug": "auvergne-rhone-alpes",
-      "label": "auvergne-rhone-alpes",
-      "count": 19
     },
     {
       "slug": "brittany",

@@ -21668,6 +21668,306 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["things to do in meaux", "meaux", "travel", "city guide", "ile-de-france"],
   },
   {
+    slug: "things-to-do-in-cergy-2026",
+    title: "Things to do in Cergy: the Axe Majeur, the marina and the old village",
+    metaTitle: "Things to Do in Cergy (2026) — The Axe Majeur",
+    metaDesc:
+      "A 3.2 km land-art walk by Dani Karavan, the first marina in the Paris region, a surviving wine-growers' village and a cable-tow lake, all on the RER A.",
+    category: "city-guide",
+    emoji: "🗼",
+    readMinutes: 7,
+    publishedAt: "2026-08-12",
+    updatedAt: "2026-08-12",
+    intro:
+      "Cergy is the prefecture of the Val-d'Oise department, about 65,000 people, and one of the five villes nouvelles — planned new towns built from scratch around Paris from the 1960s onwards to absorb the region's growth. That matters for a visitor, because it sets expectations correctly: there is no medieval core here in the way a provincial prefecture would have one. What there is instead is rarer. A 3.2 km work of land art designed by one sculptor and laid out at the scale of a whole district, a marina dug from nothing into a bend of the river Oise, a wine-growers' village left standing inside the perimeter, and a watersports lake with two facilities you will not find anywhere else in the Paris region. Cergy is the north-western terminus of the RER A, the regional express line, which puts it about 45 minutes from central Paris.",
+    sections: [
+      {
+        heading: "The Axe Majeur",
+        body: "The Axe Majeur is a monumental 3.2 km promenade cut into the slope by the Israeli sculptor Dani Karavan, designed from 1980 and only completed in 2009 — nearly thirty years between the drawing and the last stone. It is built from twelve stations, the number twelve structuring the whole thing the way it structures months and hours: the belvedere tower, the Place des Colonnes, the Impressionists' gardens, the Esplanade de Paris, the terrace, the Human Rights gardens, the amphitheatre, the stage, the footbridge, the astronomical island, the pyramid and the Ham crossroads. It is free, permanently open, and takes a good hour to walk end to end. There is nothing comparable in the Paris region, and almost nobody outside the Val-d'Oise knows it exists.",
+      },
+      {
+        heading: "The belvedere tower and the Place des Colonnes",
+        body: "The walk starts up in the Grand Centre district, on an esplanade lined with twelve aligned white columns and a belvedere tower that serves as the landmark for the whole lower town. From there the route drops in steps towards the Oise and can be read in a single glance: a perspective deliberately opened in the direction of Paris. On a clear day the sightline carries visually as far as the towers of La Défense. Come late in the day — the low sun gives the columns their cast shadows, and those shadows are part of the design rather than a by-product of it.",
+      },
+      {
+        heading: "The red footbridge and the astronomical island",
+        body: "At the bottom of the terraces the Axe crosses the Oise on a red footbridge strung above the water, then reaches an artificial island set in the middle of the river. The footbridge is the most photographed piece of the whole composition and the easiest to grasp on the spot: it links two banks that nothing else linked, and its colour is the single bright note in a landscape of greens and greys. You reach it on foot down from the terraces, or from below by following the bank. Wear proper shoes — the riverside path is not surfaced the whole way.",
+      },
+      {
+        heading: "The old village and Saint-Christophe church",
+        body: "Away from the concrete deck, the old village has kept its lanes, its stone houses and its farmyards. Cergy was an agricultural village where wine growing stayed the main activity until the end of the nineteenth century, and the built fabric still shows it: walled vineyard enclosures, cart gateways, the former town hall and school. The Rousselette washhouse, built in 1870, closes the walk on the river side. At its heart, Saint-Christophe church is the only old monument in Cergy, listed as a historic monument in 1913, and it combines two very distant periods: a Romanesque bell tower, among the oldest in the department, and a Renaissance doorway facing the village. You can walk in freely outside services, and the acoustics are used by the Pays de Pontoise baroque festival. The contrast is the point of coming: the new town and the village it swallowed without demolishing sit in the same postcode, a quarter of an hour's walk apart.",
+      },
+      {
+        heading: "Port Cergy",
+        body: "Port Cergy is the first marina in the Paris region, entirely artificial, dug in the 1980s to plans by François and Bernard Spoerry — the same architects as Port-Grimaud on the Riviera, working from the same idea of an ideal village built in one go around a basin. The result is disorienting a few dozen kilometres from Paris: quays, pontoons, coloured façades, restaurant terraces at the water's edge. It is a lived-in neighbourhood rather than a stage set, and you can walk through it freely. From the old village you get there on foot along the Oise in a few minutes.",
+      },
+      {
+        heading: "The Cergy-Pontoise leisure island",
+        body: "The île de loisirs occupies the bend of the Oise and carries two facilities with no regional equivalent: a cable tow — an 800 m loop of cable pulling up to ten water-skiers or wakeboarders at a time at 30 km/h — and a whitewater stadium for kayaking, rafting and hydrospeed. Around them: a supervised beach in summer, sailing, treetop courses, running and cycling trails. This is the site that justifies a whole day in Cergy with teenagers, and one of the very few places in the Paris region where you can learn to wakeboard without a boat behind you. Sessions are booked on the day or ahead depending on the season.",
+      },
+      {
+        heading: "The upside-down prefecture, and the Oise by bike",
+        body: "The Val-d'Oise prefecture building, opened in July 1970, was the first major construction of the Cergy-Préfecture district and is still the most spectacular building in the new town. Henry Bernard designed it as an inverted pyramid: six corbelled floors above a glazed base, some twenty metres high, on a 60 m square. Each storey overhangs the one below, which gives it a silhouette you cannot mistake for anything else. You cannot go inside, but it is visible from a distance and photographs well from the esplanade — a piece of 1960s-70s architecture as dated as it is unapologetic. From the foot of the town, the Oise towpath runs to Pontoise one way and towards Neuville and downstream the other: flat, continuous, and in a few kilometres it links the marina, the leisure island, the old centre of Pontoise and, a little further, Auvers-sur-Oise, where Van Gogh spent his last months and where you can stand at the exact spots he painted. Bike hire on site depending on the season.",
+      },
+      {
+        heading: "Getting there and what is nearby",
+        body: "Cergy has three RER A stations — Cergy-Préfecture, Cergy-Saint-Christophe and Cergy-le-Haut — plus a Transilien suburban line from Paris Saint-Lazare, which makes it one of the best-connected new towns. Cergy-Saint-Christophe station is recognisable by the monumental clock set into its façade. Once here, the Axe Majeur, the marina and the old village chain together on foot; the leisure island needs a bus or a bike. Nearby, Pontoise and its old centre are immediately adjacent, the Cistercian abbey of Maubuisson at Saint-Ouen-l'Aumône hosts contemporary art exhibitions, and Auvers-sur-Oise is under twenty minutes by train. North of the town, the Vexin français regional nature park starts straight away.",
+      },
+    ],
+    relatedCities: ["cergy", "pontoise", "argenteuil", "nanterre", "paris", "versailles"],
+    tags: ["things to do in cergy", "cergy", "travel", "city guide", "ile-de-france"],
+  },
+  {
+    slug: "things-to-do-in-issy-les-moulineaux-2026",
+    title: "Things to do in Issy-les-Moulineaux: Dubuffet, playing cards and the Seine",
+    metaTitle: "Things to Do in Issy-les-Moulineaux (2026)",
+    metaDesc:
+      "Dubuffet's walk-in Tour aux Figures, the only playing-card museum in France, an island park on the Seine and a fort turned eco-district.",
+    category: "city-guide",
+    emoji: "🃏",
+    readMinutes: 7,
+    publishedAt: "2026-08-12",
+    updatedAt: "2026-08-12",
+    intro:
+      "Issy-les-Moulineaux, about 68,000 people in the Hauts-de-Seine department, is mostly known as an office and tech hub pressed against the southern edge of Paris. That is not what makes it worth the trip. What does comes down to four things with nothing in common: a walk-in sculpture by Jean Dubuffet standing on an island in the Seine, the only museum in France devoted to playing cards, a plateau that was the cradle of French aviation before it became a heliport, and a nineteenth-century military fort turned residential district on top of kilometres of quarries. Métro line 12, tram T2 and RER C all serve it, so you are here fifteen minutes after leaving central Paris.",
+    sections: [
+      {
+        heading: "Jean Dubuffet's Tour aux Figures",
+        body: "The Tour aux Figures is Jean Dubuffet's last monumental work, inaugurated on 24 October 1988 on the Île Saint-Germain by President François Mitterrand, three years after the artist's death. It is a sculpture you walk into: outside, the black outlines and flat colour of the Hourloupe, the series that occupied Dubuffet for twenty years; inside, a spiral staircase he named the Gastrovolve, painted throughout in the same vocabulary. Entry is by guided tour only, booked in advance through the Hauts-de-Seine department, on weekend afternoons in the warmer months. Book early, because the slots are few. The exterior can be seen all year and from a long way off, and it is worth the walk even if you cannot get inside.",
+      },
+      {
+        heading: "The Île Saint-Germain departmental park",
+        body: "The tower stands in a departmental park of several dozen hectares occupying an island in the Seine: lawns, meadows left to grow, allotment gardens, playgrounds and riverside paths. It is one of the few places in the Hauts-de-Seine where you can walk for a long time without meeting a car, and the view across to the slopes of Meudon is worth the crossing on its own. There are only three ways in, including the Pont d'Issy and the Place Jean-Monnet, which explains why the place stays relatively quiet midweek. Free entry, open all year.",
+      },
+      {
+        heading: "The French playing-card museum",
+        body: "This is the only museum in France devoted to the playing card, on rue Auguste Gervais. It grew out of the collections of two enthusiasts, Louis Chardonneret and Robert Thissen, in 1986, and has occupied its present building since 1997. The holdings run to roughly 11,000 items, including close to 7,000 packs of cards, a thousand prints, drawings and posters, and as many objects again. The route follows the card from the fifteenth to the twentieth century, across manufacturing techniques, decorative arts, Western and Eastern traditions, the world of gambling and artists' subversions of the form. It is a town museum on a human scale and takes about an hour and a half.",
+      },
+      {
+        heading: "The town history gallery",
+        body: "Attached to the museum and included in the same ticket, the history gallery covers Issy's past and is better than its administrative name suggests. It follows the château of the princes of Conti, of which almost nothing survives but which made Issy an aristocratic retreat on the edge of Paris, then the beginnings of aviation on the neighbouring plateau, then the town's connections with Rodin, Matisse and Dubuffet. It is the useful complement to the Tour aux Figures: you come out understanding why a work like that landed here rather than somewhere else.",
+      },
+      {
+        heading: "The cradle of French aviation, and the heliport",
+        body: "In the very first years of the twentieth century, the Issy-les-Moulineaux parade ground was the main testing field for the French aviation pioneers. Henri Farman covered 771 metres here in October 1907, then in January 1908 completed the first kilometre flown in a closed circuit — one of the founding acts of aeronautics. No museum survives on the site, but the memory is carried by the town history gallery and by the street names of the district. The same plateau now holds the Paris heliport, the capital's only one, renamed in 2022 after Valérie André, the first woman to reach general's rank in the French armed forces, a surgeon and helicopter pilot. You cannot visit it, but the embankment alongside is a free and honest viewpoint: rotations, rescue aircraft, medical transfers. With children it holds up for half an hour on its own, and it is the direct continuation of Farman's field a century apart.",
+      },
+      {
+        heading: "The Fort d'Issy eco-district",
+        body: "The Fort d'Issy, a nineteenth-century military work on the heights of the commune, was bought by the town in 2009 and converted into an eco-district: seventeen buildings on twelve hectares, on ground the army had held for over a century. The contrast is the subject — you walk on glacis and fortification lines that have become streets and gardens. The district is open to walk through, and the remains of the fort are still legible in places if you know where to look. The view over Paris from the top of the plateau is one of the best in the south-western suburbs, and it costs nothing.",
+      },
+      {
+        heading: "The quarries underneath, and the vineyard on the slope",
+        body: "Beneath the commune run former chalk quarries, turned into mushroom farms in the early twentieth century and then used as shelters during the Second World War. The network is measured in kilometres of galleries. It is not open access — for good reasons — but guided visits run occasionally, notably around the fort and during the European Heritage Days each September. You have to book, places are scarce and go fast, and the kit expected is that of an underground visit: closed shoes and something warm. Above ground, Issy still works a small vineyard on its slope, on the chemin des Vignes, inherited from wine growing encouraged as early as the Middle Ages by the abbey of Saint-Germain-des-Prés. The plot is about 300 m² and yields between 200 and 300 bottles of white a year — a symbolic output, not sold in shops, centred on the autumn harvest when the site opens to the public. Trivial in volume and perfectly real: the western suburbs of Paris were a wine region before they were an office district.",
+      },
+      {
+        heading: "Getting there and following the Seine",
+        body: "Métro line 12 serves Mairie d'Issy and Corentin Celton, tram T2 runs along the Seine and RER C stops at Issy and Issy Val de Seine — three networks for a commune this size, which makes a car pointless. On the ground everything is walkable or a few stops apart: the museum near the town hall, the Île Saint-Germain by the river, the fort up on the heights. The laid-out riverbanks link Boulogne-Billancourt to the north and Meudon to the south, where the Villa des Brillants, the second site of the Rodin museum, is reachable from Issy without being in it — it belongs to Meudon, and it is worth knowing before you plan the day.",
+      },
+    ],
+    relatedCities: ["issy-les-moulineaux", "boulogne-billancourt", "neuilly-sur-seine", "paris", "versailles"],
+    tags: ["things to do in issy-les-moulineaux", "issy-les-moulineaux", "travel", "city guide", "ile-de-france"],
+  },
+  {
+    slug: "things-to-do-in-aubervilliers-2026",
+    title: "Things to do in Aubervilliers: the 19M, La Maladrerie and the canal",
+    metaTitle: "Things to Do in Aubervilliers (2026) — The 19M",
+    metaDesc:
+      "Chanel's free 19M gallery, a listed pilgrimage church, Renée Gailhoustet's Maladrerie estate, the Saint-Denis canal street-art route and the Condorcet campus.",
+    category: "city-guide",
+    emoji: "🧵",
+    readMinutes: 7,
+    publishedAt: "2026-08-12",
+    updatedAt: "2026-08-12",
+    intro:
+      "Aubervilliers, about 89,000 people in Seine-Saint-Denis, is not a postcard town and this guide is not going to pretend otherwise. It has something else: a concentration of cultural institutions few communes of this size can match, which settled here precisely because the land prices and the industrial history allowed it. A Rudy Ricciotti building housing the craft workshops of the fashion industry, with a free ground-floor gallery. A national drama centre. A housing estate that became a case study for architects worldwide. A pilgrimage church that predates the industrial town by centuries. A humanities campus, and a canal turned into an open-air mural gallery. It is two métro stops from Paris and it is done on foot.",
+    sections: [
+      {
+        heading: "La Galerie du 19M",
+        body: "The 19M is the building Chanel commissioned on the boundary between Aubervilliers and Paris to bring together eleven Maisons d'art — embroidery, featherwork, pleating, shoemaking, fashion goldsmithing — with their teams and their archives under one roof. The architecture is by Rudy Ricciotti, recognisable by its envelope of concrete threads. The workshops themselves are not open, but the Galerie du 19M, 1,200 m² on the ground floor, has been open to everyone and free since January 2022: exhibitions, workshops and talks on the crafts behind fashion and decoration. It is the simplest way into a world that is normally closed, and for a visitor from abroad it is the one stop here that has no equivalent anywhere.",
+      },
+      {
+        heading: "Notre-Dame-des-Vertus church",
+        body: "Long before the factories and the ring road, Aubervilliers was a pilgrimage village. The church of Notre-Dame-des-Vertus, sixteenth and seventeenth century and listed as a historic monument, still carries that memory: the cult grew after what local tradition calls the miracle of the rain, in 1336, when a statue of the Virgin was said to have wept at the end of a long drought. Old stained glass and an old organ survive, in a nave that has nothing to do with what now surrounds it. Open according to parish hours, with occasional guided visits.",
+      },
+      {
+        heading: "The Maladrerie estate",
+        body: "Built between 1979 and 1988 to plans by Renée Gailhoustet, La Maladrerie is one of the most studied social-housing schemes in France. Across eight hectares it takes the form of a hill of raw concrete overrun by planting and threaded with pedestrian routes: roughly 900 flats on two or three levels, every one with a planted terrace, some forty artists' studios, shops and public facilities. It is the exact opposite of the slab block and the tower, built on the same ground and in the same period. Guided visits are organised, notably during the national architecture days in October. It is a lived-in estate, so walk it as you would any residential street.",
+      },
+      {
+        heading: "Théâtre de la Commune and the Laboratoires",
+        body: "La Commune is the national drama centre of Aubervilliers, one of the oldest in the Paris ring, and a house that creates as much as it programmes. The work is contemporary and unapologetic about it: theatre of now, hybrid forms, sustained work with people who live in the town. Prices sit well below what the Paris stages charge, which is consistent with what the place is for. Check the season before coming — the building has no interest outside performances. A few streets away, the Laboratoires d'Aubervilliers occupy a former factory as a site for artistic research: residencies, work in progress, choreography, writing, visual art. You do not go to see a finished show, you go to see work being made, often free and often in small numbers. It suits some visitors and not others, and it requires reading the programme before travelling.",
+      },
+      {
+        heading: "The CAPA arts centre",
+        body: "The town's visual-arts centre is the municipal space for exhibitions and practice: temporary shows, workshops open to residents, work with local schools. It has devoted hangs to La Maladrerie and to the urban history of the commune, which makes it a good starting point before going to look at the estate itself. Entry is free. It is modest in floor area and serious in content — the kind of facility that explains why so many artists settled here in the first place.",
+      },
+      {
+        heading: "The Saint-Denis canal and the Street Art Avenue",
+        body: "The Canal Saint-Denis crosses the commune from south to north, and its banks carry the Street Art Avenue: a route of monumental murals by artists from across Europe and beyond, on gable walls, quaysides and bridge structures. It is walked or cycled, free, continuously from La Villette in Paris up to Saint-Denis. In summer the Été du Canal programme adds boat trips, river shuttles and graffiti events along the banks. It is the best way to string the other stops in this guide together, and the towpath is flat the whole way.",
+      },
+      {
+        heading: "The Condorcet campus",
+        body: "Opened in 2019 between the Porte de la Chapelle and Aubervilliers, the Campus Condorcet brings together humanities and social-science institutions — the CNRS national research agency, the EHESS graduate school, the École nationale des chartes and others — on a new district built in one piece. Its large research library gathers collections previously scattered across Paris. It is not a tourist site; it is a recent piece of city worth crossing for what it says about the shift of academic life towards the north-east: a public square, contemporary buildings and a library at the scale of a neighbourhood.",
+      },
+      {
+        heading: "The market, the Éli-Lotar park, and getting there",
+        body: "The town-centre market is where you understand the make-up of Aubervilliers best: North African, sub-Saharan African, South and South-East Asian produce and market gardening from the Paris region, in the same aisles. It runs several mornings a week and it is the cheapest part of the visit. A few minutes away, the Parc Éli-Lotar — named after the photographer and film-maker who shot the La Villette abattoirs — is one of the green spaces opened in recent years on former industrial land. The commune is short of greenery, and these openings matter. Getting here: métro line 7 serves Aubervilliers-Pantin Quatre Chemins and Fort d'Aubervilliers, and line 12 was extended to its terminus at Mairie d'Aubervilliers on 31 May 2022, a recent change that connected the town centre directly to southern Paris. Nearby, the basilica of Saint-Denis and its royal necropolis are minutes away, Pantin and its Grands Moulins sit on the other side, and the Parc de la Villette is the natural continuation of the canal back into Paris.",
+      },
+    ],
+    relatedCities: ["aubervilliers", "saint-denis", "pantin", "montreuil", "saint-ouen-sur-seine", "paris"],
+    tags: ["things to do in aubervilliers", "aubervilliers", "travel", "city guide", "ile-de-france"],
+  },
+  {
+    slug: "things-to-do-in-merignac-2026",
+    title: "Things to do in Mérignac: Bourran park, a pre-revolutionary folly and the Krakatoa",
+    metaTitle: "Things to Do in Mérignac (2026) — Beyond the Airport",
+    metaDesc:
+      "Bourran park and its château, the neoclassical Maison Carrée d'Arlac, a Romanesque church turned gallery and an urban Pessac-Léognan vineyard.",
+    category: "city-guide",
+    emoji: "✈️",
+    readMinutes: 7,
+    publishedAt: "2026-08-12",
+    updatedAt: "2026-08-12",
+    intro:
+      "Mérignac, about 74,000 people in the Gironde, is the second commune of Bordeaux Métropole and, to most people arriving in the region, the name on their airport boarding pass. That undersells it. Before the suburbs spread, the commune was a string of wine estates and Bordeaux folies — the summer villas the city's merchant class built for itself — and whole pieces of that survive: a nineteenth-century landscape park around its château, a neoclassical villa finished just before the Revolution, a twelfth-century Romanesque church now used as a gallery, and a working Pessac-Léognan vineyard hemmed in by housing. On top of that sits a cultural life that does not depend on Bordeaux: one of the largest theatres in the conurbation and a live-music venue over thirty years old.",
+    sections: [
+      {
+        heading: "Parc de Bourran",
+        body: "Parc de Bourran is the finest piece of nature in Mérignac: eighteen hectares of landscape park around the château de Bourran, itself protected as a historic monument. The layout is that of a late nineteenth-century romantic garden — a lake dotted with islands, an ornate bridge, a rock grotto, notable trees and exotic species. A population of water birds lives there permanently: white and black swans, geese, moorhens, grey herons. Contemporary sculptures punctuate the route. Free entry, and it is the site to do first if you have children with you.",
+      },
+      {
+        heading: "The Maison Carrée d'Arlac",
+        body: "The Maison Carrée d'Arlac is a neoclassical folly built between 1785 and 1789 — that is, finished on the eve of the Revolution. It is an unexpected object in the middle of a district of detached houses: square plan, strict ordering, unashamed classical reference, in the taste of the country retreats the Bordeaux bourgeoisie built for themselves at the city gates. Restored by the town, it now serves as a cultural venue and hosts exhibitions and events. Check the programme before travelling: the interior is not permanently open, though the façade is visible from the street at any time.",
+      },
+      {
+        heading: "The old Saint-Vincent church",
+        body: "The old church of Saint-Vincent is Romanesque, dates from the twelfth century, and is the oldest monument in Mérignac, civil or religious. Damaged and restored repeatedly over the centuries, it has been deconsecrated and now serves as a municipal exhibition space. The result works well: a bare Romanesque volume, stripped of liturgical furniture, which shows off whatever is hung in it. It is also the only place in the commune where you touch the medieval village that came before the suburb — the rest has been absorbed.",
+      },
+      {
+        heading: "Le Krakatoa",
+        body: "The Krakatoa opened on 17 March 1990, driven by the Transrock association, and has become over some thirty years one of the live-music venues that count in south-west France. Rock, electronic music, rap, emerging acts and touring headliners: the programme is dense and runs across the academic year. The room is mid-sized, which makes it a good place to see bands up close that you would otherwise only catch in an arena. Book ahead for announced dates — the capacity does not stretch.",
+      },
+      {
+        heading: "Le Pin Galant",
+        body: "Le Pin Galant is Mérignac's main theatre and, by capacity, one of the principal performance venues of the Bordeaux conurbation: opera, dance, comedy, touring theatre, classical concerts and popular music. It takes the productions too big for the stages in central Bordeaux. The season is published well in advance and the best runs sell early. The tram stop carries its name, which settles the question of getting home after a show without a car — not a small detail for a venue of this size out in the suburbs.",
+      },
+      {
+        heading: "Château Luchey-Halde",
+        body: "Château Luchey-Halde is an urban vineyard in the strict sense: twenty-three hectares under the Pessac-Léognan appellation, surrounded by the town, a few kilometres from the centre of Bordeaux. The estate produces between 100,000 and 150,000 bottles a year, red and white, and is unusual in being run within a teaching framework tied to Bordeaux agronomy education. It offers visits, tastings and events in the cellars and among the vines. For a visitor without the time to drive up into the Médoc, this is the shortest way to see a real Bordeaux vineyard, and it is reachable on public transport.",
+      },
+      {
+        heading: "The aviation heritage, and the CAEA collection",
+        body: "Mérignac has lived with aviation for a century: Bordeaux-Mérignac airport is on the commune, air base 106 is stationed here, and Dassault Aviation manufactures on site. That history explains part of the urban form — the land takes, the building restrictions, the workers' and engineers' districts. There is no waymarked trail, but the approaches to the airport give viewpoints over aircraft movements. The collection to know about is the CAEA, an association founded in 1987 and affiliated to the French historic aircraft federation, which conserves and restores close to sixty aircraft — a Caravelle, a Dassault Mercure, a Falcon 20, a Mirage IVP and a Canadair CL-215 among them. It is aeronautical heritage of the first rank, with one important caveat: the collection sits on air base 106, inside a military zone, which severely restricts public access. This is not a museum you walk into on a Sunday afternoon; you have to go through the exceptional openings and events the association announces.",
+      },
+      {
+        heading: "Local culture, getting there and moving on",
+        body: "Mérignac maintains its own everyday cultural offer rather than sending its residents into the city centre: a municipal cinema, a media library and a music conservatoire, all in the town-centre area and within walking distance of each other. For a visitor that is practical rather than sentimental — an original-language screening or a late-afternoon exhibition chains straight into a gig at the Krakatoa or a show at the Pin Galant. Tram line A crosses Mérignac from east to west out of Bordeaux, with stops in the town centre and at the Pin Galant, so most of this guide can be done without a car; the airport is on the commune but away from the centre. Nearby, Pessac and its Le Corbusier housing estate adjoin to the south, central Bordeaux and its riverfront are a quarter of an hour by tram, and the Arcachon basin is under an hour by road on the A63 — of the whole conurbation, Mérignac is the best placed for heading west to the coast.",
+      },
+    ],
+    relatedCities: ["merignac", "bordeaux", "pessac", "talence", "le-bouscat", "arcachon"],
+    tags: ["things to do in merignac", "merignac", "travel", "city guide", "nouvelle-aquitaine"],
+  },
+  {
+    slug: "things-to-do-in-pessac-2026",
+    title: "Things to do in Pessac: Le Corbusier, Haut-Brion and the Bourgailh",
+    metaTitle: "Things to Do in Pessac (2026) — Le Corbusier",
+    metaDesc:
+      "A UNESCO-listed Le Corbusier estate you can go inside, Château Haut-Brion and Pape Clément, and a forest reclaimed from a former landfill.",
+    category: "city-guide",
+    emoji: "🏡",
+    readMinutes: 7,
+    publishedAt: "2026-08-12",
+    updatedAt: "2026-08-12",
+    intro:
+      "Pessac, about 64,000 people in the Gironde, combines two things few communes anywhere hold at once: a UNESCO World Heritage site and two of the oldest and most highly rated vineyards in Bordeaux, both inside the built-up area. The Cité Frugès, a workers' housing estate commissioned from Le Corbusier by a Bordeaux industrialist in the mid-1920s, is one of the very few places in the world where you can walk inside a house by the architect; Haut-Brion and Pape Clément produce a few hundred metres from ordinary suburban streets. Add the largest university campus in Nouvelle-Aquitaine, a 110-hectare forest reclaimed from a former landfill, and an art-house cinema that runs a national festival, and Pessac stops being a suburb of Bordeaux.",
+    sections: [
+      {
+        heading: "The Cité Frugès by Le Corbusier",
+        body: "The Cité Frugès came out of a commission by Henry Frugès, a Bordeaux industrialist and enthusiast of modern architecture, who wanted to prove that quality workers' housing could be mass-produced. Le Corbusier and Pierre Jeanneret built it in the mid-1920s: standardised houses, roof terraces, simple volumes, and exterior polychromy intended to make the masses read differently depending on the colour applied. It has been inscribed on the UNESCO World Heritage list since 2016 as part of the architectural work of Le Corbusier. It is a lived-in neighbourhood: you walk it from the street, and you respect the privacy of the people who live there.",
+      },
+      {
+        heading: "The municipal Frugès house you can go inside",
+        body: "One of the houses in the estate belongs to the town and is open to visitors. This is where the demonstration makes sense: the interior volumes, the openings, the circulation and above all the restored polychromy, none of which you can guess from the pavement. Free guided visits are offered in French, by prior booking. Book well ahead — slots are limited and groups are small — and bear in mind this is one of the very few Le Corbusier dwellings open to the public anywhere in France. Do it before walking the rest of the estate, not after.",
+      },
+      {
+        heading: "Château Haut-Brion",
+        body: "Haut-Brion is the only wine from the Graves included in the 1855 classification, alongside the first growths of the Médoc — an exception that says everything about its age and its standing. The vineyard is now enclosed by the urban fabric of Pessac: you walk along walled enclosures in the middle of a town before the rows come into view. Visits are by prior booking, in small numbers, and need arranging a long time in advance. Even without going in, the contrast between the housing and the classified parcel is worth the walk.",
+      },
+      {
+        heading: "Château Pape Clément",
+        body: "Pape Clément is one of the oldest Bordeaux vineyards still in production, linked to Bertrand de Got, archbishop of Bordeaux, who became Pope Clement V at the start of the fourteenth century. The estate is today among the most open to the public in the metropolitan area: tours of the grounds and cellars, tastings, blending and harvest workshops depending on the season. It is the accessible counterpart to Haut-Brion — the same appellation, the same gravel geology, but a welcome policy designed for visitors rather than for the trade alone.",
+      },
+      {
+        heading: "The Pessac-Léognan appellation",
+        body: "The Pessac-Léognan appellation was created in 1987 to distinguish the northern part of the Graves, home to the historic classed growths, from the rest of the region. It produces both reds and dry whites, which is unusual in Bordeaux, where most prestigious appellations make red only. Several estates in the appellation lie within Pessac itself, ringed by houses. It is the one place where you can spend a morning among classified vines having arrived by tram: everywhere else in the Gironde, you need a car.",
+      },
+      {
+        heading: "The Bourgailh ecosite",
+        body: "The Bourgailh is a 110-hectare forest laid out as a discovery site, with a tropical glasshouse, themed gardens and trails. Its interest lies in its origin: the hill was formed by a former landfill, capped and replanted, and the whole site is now given over to teaching about biodiversity and reuse. It is the largest natural area in the commune and one of the largest in the metropolitan area. Access to the park itself is free; the glasshouse and the activities run on a programme worth checking before you come.",
+      },
+      {
+        heading: "The Jean Eustache cinema and the history film festival",
+        body: "The municipal cinema is named after the film-maker Jean Eustache, born in Pessac, and is one of the best-attended art-house cinemas in France outside the major city centres. Demanding programming, films in their original language with subtitles, retrospectives, introduced screenings and several festivals through the year, including Les Toiles Filantes for younger audiences and the Télérama-AFCAE festival. Since 1990 it has also hosted, every November, the Festival international du film d'histoire de Pessac: a week of screenings, debates and encounters between film-makers, historians and the public, built around a theme that changes each year. It has become the national reference point where cinema and history meet, and one of the few French festivals where the debate matters as much as the screening. The town fills up that week, so sort accommodation early.",
+      },
+      {
+        heading: "The university campus, getting there and moving on",
+        body: "The Bordeaux campus spreads mainly across Pessac and Talence and is one of the largest university estates in France by area. It is not a conventional sight, but it is a piece of city in its own right: architecture from the 1960s through to recent buildings, planted avenues, sports facilities, libraries. It also explains the commune's demographics and the rhythm of its neighbourhoods in term time. Tram line B runs right through it, linking central Bordeaux to southern Pessac, and the regional TER trains stop here too — so the Cité Frugès, the wine estates and the town centre are all reachable without a car, which is exceptional for a classified vineyard. Allow a full day to chain Le Corbusier in the morning, a château in the afternoon and the Bourgailh or a screening at the Jean Eustache to finish. Mérignac adjoins to the north, Bordeaux is a quarter of an hour away, and Léognan continues the appellation to the south.",
+      },
+    ],
+    relatedCities: ["pessac", "bordeaux", "merignac", "talence", "villenave-d-ornon", "arcachon"],
+    tags: ["things to do in pessac", "pessac", "travel", "city guide", "nouvelle-aquitaine"],
+  },
+  {
+    slug: "things-to-do-in-venissieux-2026",
+    title: "Things to do in Vénissieux: Parilly, the old village and the 1983 March",
+    metaTitle: "Things to Do in Vénissieux (2026) — Parc de Parilly",
+    metaDesc:
+      "A 187-hectare park with a racecourse inside it, a fifteenth-century bell tower, the oldest street in town and the birthplace of the 1983 March for Equality.",
+    category: "city-guide",
+    emoji: "🌳",
+    readMinutes: 6,
+    publishedAt: "2026-08-12",
+    updatedAt: "2026-08-12",
+    intro:
+      "Vénissieux, about 63,000 people in the Lyon metropolitan area, is not a tourist town and does not present itself as one. This guide is not going to invent a historic centre it does not have. It has other things, and they are genuinely worth visiting: half of a 187-hectare park — the largest in eastern Lyon — with a racecourse at its heart, a medieval village swallowed by the city but still legible around its church, and a place in recent French social history that few communes can claim, since the 1983 March for Equality and against Racism began here. It is a quarter of an hour from central Lyon on métro line D, of which Vénissieux is the terminus.",
+    sections: [
+      {
+        heading: "Parc de Parilly",
+        body: "Parc de Parilly is a metropolitan park of 187 hectares split between Bron and Vénissieux, and it is the big green space of eastern Lyon. It is mostly woodland, with a well-equipped sports area alongside: pitches, fitness trails, playgrounds, running paths. Entry is free, you can walk for hours, and its sheer size means you find quiet corners even on a Sunday. For a visitor based in Lyon looking for a morning outdoors without leaving the urban transport network, this is the best option on the eastern side of the city.",
+      },
+      {
+        heading: "The Parilly racecourse",
+        body: "The racecourse occupies the central part of the park, on the Vénissieux side, and is one of the few in France set inside a large urban green space. The season splits into two meetings, March to June and then September to December, with flat, trotting and jump racing. Race days are open to the public and remain a cheap outing even if you do not bet: the track, the paddocks and the atmosphere are enough on their own. Check the calendar before coming — the racecourse does not run year-round.",
+      },
+      {
+        heading: "Saint-Germain church",
+        body: "Saint-Germain is the oldest building in Vénissieux and the only substantial witness to the village that existed before industrialisation. The Lady chapel and the bell tower date from the fifteenth century; the tower holds a frame of old oak carrying three bells, one of them cast in bronze in the middle of the sixteenth century. The contrast with the dense urban fabric around it is striking, and that is exactly why it is worth stopping: the modern metropolitan city was built around a rural village, and this is the fixed point that remains of it.",
+      },
+      {
+        heading: "The old village and the rue du Château",
+        body: "Around the church the old village survives: a small square, plain architecture, a few building lines that have not moved. The rue du Château is the piece to spot — it follows the line of the former town wall, which is why it curves in a circle around the church, and it is the oldest street in the commune. The loop takes twenty minutes. It is short, and it is the only walk in Vénissieux where you read a layer of the town predating the twentieth century directly; the rest of the place is understood through its industrial and social history instead.",
+      },
+      {
+        heading: "The memory of the March for Equality",
+        body: "In the summer of 1983 the Minguettes district became one of the centres of mobilisation against racism, and it was there that the idea of the March for Equality and against Racism was born. The march itself set off from Marseille on 15 October 1983 and reached Paris on 3 December: thirty-two permanent marchers, some forty towns crossed, debates and rallies at every stage. It is a founding episode of recent French social history — often compared abroad to a civil-rights march, though it grew from its own French context — and Vénissieux is where it started. The town and its cultural institutions carry the commemoration.",
+      },
+      {
+        heading: "Les Minguettes today",
+        body: "The Minguettes plateau is a large housing scheme from the 1960s and 1970s, extensively reshaped since by urban renewal programmes: towers demolished, blocks rebuilt, new public facilities, a tram connection. It is not a visitor attraction and you should come with the same intentions you would bring to any residential neighbourhood anywhere. What you get from it is a viewpoint: the plateau looks out over the Rhône valley and a good part of the conurbation, and it shows concretely what three decades of urban policy have changed on the ground.",
+      },
+      {
+        heading: "The Lucie-Aubrac media library and the markets",
+        body: "The médiathèque Lucie-Aubrac is the town's main cultural facility: roughly 3,600 m² of adult, youth and teen collections, press, comics and manga, CDs and DVDs, with a programme of exhibitions and talks — several of them devoted to the memory of the 1983 March. It is complemented by the smaller Anatole-France library at Les Minguettes, focused on young readers. Entry and use on site are free, and it is the most practical place to read up on local history before walking the town. Vénissieux also holds several street markets, including the central one on the places Léon-Sublet and Barbusse and the rues Gambetta and Jaurès. It is among the liveliest occasions in the commune and a fair reflection of its make-up: North African, Turkish, Portuguese and Asian produce alongside market gardening from the Rhône valley, at prices well below central Lyon. Days and times are published by the town.",
+      },
+      {
+        heading: "Industrial heritage, getting there and moving on",
+        body: "Vénissieux was built through the twentieth century around cars and heavy goods vehicles — the Berliet plant, now Renault Trucks, still shapes the south-east of the commune. The production sites cannot be visited, and it is better to say so plainly than to imply an industrial heritage trail exists. What can be read is the landscape: the railway land, the workers' housing, the scale of the roads, the way the town organised itself around a factory rather than around a square. It is a key to reading the place, not a guided tour. Getting here: métro line D terminates at Gare de Vénissieux, where it meets tram T4 and the regional TER trains — a quarter of an hour from central Lyon, making it one of the best-connected suburbs in the metropolitan area. On the ground, the park, the old village and the town centre are done by tram or on foot. Nearby, Bron adjoins the commune and holds the Fort de Bron, one of the best-restored forts of the Lyon defensive ring; central Lyon and the Presqu'île are a direct métro ride away, and Vienne, with its Roman theatre, is about thirty minutes south by train.",
+      },
+    ],
+    relatedCities: ["venissieux", "lyon", "villeurbanne", "bron", "saint-priest", "vienne"],
+    tags: ["things to do in venissieux", "venissieux", "travel", "city guide", "auvergne-rhone-alpes"],
+  },
+  {
     slug: "single-parent-in-paris-2026",
     title: "Single Parent in Paris (2026): What It Actually Takes",
     metaTitle: "Single Parent in Paris 2026: Rent, Schools, Real Budgets",
