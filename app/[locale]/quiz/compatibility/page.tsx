@@ -66,6 +66,10 @@ export default function EnQuizCompatibilityPage() {
           <Link href="/methodology" className="underline">
             methodology page
           </Link>
+          . Both approaches sit side by side on the{" "}
+          <Link href="/quiz" className="underline">
+            quiz overview
+          </Link>
           .
         </p>
       </div>

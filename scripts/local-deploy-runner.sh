@@ -110,6 +110,15 @@ if ! npx tsc --noEmit >>"$LOG" 2>&1; then say "FATAL tsc failed — main is not 
 if ! npm run integrity >>"$LOG" 2>&1; then say "FATAL integrity failed — main is not publishable"; exit 1; fi
 say "   contrôles ok"
 
+# Sitemap vs arbre de routes : signalé, jamais bloquant. Une URL déclarée en
+# trop ou une page non déclarée est un défaut de référencement, pas une raison
+# de ne pas publier — et un runner qui refuse de déployer pour ça reproduirait
+# la panne du 2026-08-10, où la prod avait cinq jours de retard sans que rien
+# ne parle. Le contrôle est bloquant côté agent, avant le push.
+if ! npm run sitemap:check >>"$LOG" 2>&1; then
+  say "   ATTENTION sitemap:check en échec (voir le journal) — publication maintenue"
+fi
+
 build_and_deploy() {
   local label="$1" build_script="$2" deploy_script="$3"
 

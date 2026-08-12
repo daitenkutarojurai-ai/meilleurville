@@ -12,6 +12,7 @@
     "lint": "eslint",
     "integrity": "node scripts/check-integrity.mjs",
   "hreflang:check": "node scripts/check-hreflang.mjs",
+    "sitemap:check": "node scripts/check-sitemap.mjs",
     "parity": "node scripts/check-parity.mjs",
     "build:en": "NEXT_PUBLIC_DEFAULT_LOCALE=en npm run build",
     "cf:dev": "wrangler dev",

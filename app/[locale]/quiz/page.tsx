@@ -59,7 +59,7 @@ export default function EnQuizPage() {
             the top 20 cities tailored to each lifestyle, no questions required.
           </p>
           <span className="text-xs font-semibold text-[var(--accent)]">
-            11 profiles · instant →
+            Top-20 per profile · instant →
           </span>
         </Link>
       </div>

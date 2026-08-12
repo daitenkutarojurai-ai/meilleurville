@@ -1237,6 +1237,50 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ## Shipped 2026-08-12
 
+- **`npm run sitemap:check` — le sitemap et l'arbre de routes se contrôlent enfin l'un
+  l'autre** ✅ — `scripts/check-sitemap.mjs`, 22 s, les deux locales, dans les deux sens.
+  Il ne réimplémente rien : il **exécute** `app/sitemap.ts` (18 chunks FR, 21 EN) et les
+  `generateStaticParams()` réels des 172 familles dynamiques (85 FR + 87 EN), puis compare.
+
+  **Pourquoi ce contrôle manquait.** Le sitemap est écrit section par section à la main,
+  les pages se génèrent depuis les données : les deux dérivent en silence, et c'est arrivé
+  trois fois documentées — les 604 URL biodiversité déclarées le 06/08 pendant que les pages
+  étaient garées en `page.pending.tsx` (604 × 404 annoncés à Google), `PROFILE_SLUGS` figé en
+  dur qui a laissé les deux profils vacances de F61 sans URL, et les deux pays
+  `/expat-retour` dans le même cas le 05/08. Aucun des trois ne produit d'erreur : le build
+  passe, les pages s'affichent, seul le sitemap ment. Et depuis qu'un `npm run build` ne va
+  plus au bout en session cloud, plus rien ne les voyait.
+
+  Trois comparaisons plus les invariants du protocole : ① toute URL déclarée doit avoir une
+  route (sinon 404) ; ② toute route statique **indexable et canonique d'elle-même** doit être
+  déclarée — les pages `noindex` (compte, callback) et les alias sont dispensés par lecture de
+  leur source, pas par liste blanche, sinon la liste dérive à son tour ; ③ par famille
+  dynamique, l'ensemble des URL déclarées doit être **exactement** l'ensemble des params
+  générés. Plus : doublons, origine unique par locale, `lastModified` valide, chunk ≤ 50 000.
+  Vérifié par test négatif avant commit (retrait de 3 villes du `citySection` → « 3 pages
+  générées sans URL », URL inventée → « répondrait 404 »).
+
+  **Deux pièges de comparaison, à ne pas défaire.** Le sitemap **encode** ses URL, comme le
+  protocole l'exige : comparer sans `decodeURIComponent` fait ressortir en faux positif les
+  12 mois de `/vacances/mois/[mois]` et les guides à slug accentué. Et une URL qui correspond
+  aussi à une route statique appartient à celle-ci : sans cette règle, les 35 pages
+  `/red-flags/villes-*` et `/palmares/personnaliser` passent pour des slugs dynamiques en trop.
+
+  **Ce qu'il a trouvé du premier coup : EN `/quiz`.** Page réelle, en anglais natif, canonique
+  d'elle-même — et **absente du sitemap EN comme de tout maillage interne** (`enQuizSection()`
+  ne déclarait que son enfant `/quiz/compatibility`). Le FR `/quiz`, lui, est un alias qui
+  canonicalise vers `/city-match` : son absence est correcte, et le contrôle fait bien la
+  différence entre les deux cas. Corrigé : entrée sitemap (priorité 0,7, sous les deux outils),
+  et lien retour depuis `/quiz/compatibility` pour qu'elle ne soit pas déclarée orpheline.
+  Au passage, la carte « profils » de cette page annonçait **11 profils** quand `/for-who` en
+  aligne 13 : le compteur est retiré plutôt que recopié une troisième fois en dur — les deux
+  fichiers `for-who` le portent déjà chacun de leur côté.
+
+  Le contrôle est **bloquant côté agent** (avant le push) et **signalé sans bloquer** dans
+  `scripts/local-deploy-runner.sh` : un défaut de sitemap est un défaut de référencement, pas
+  une raison de ne pas publier, et un runner qui refuserait de déployer pour ça reproduirait
+  la panne du 10/08, où la prod avait cinq jours de retard sans que rien ne parle.
+
 - **Parité EN — série tourisme rattrapée (batch 29, +6 : Cergy, Issy-les-Moulineaux,
   Aubervilliers, Mérignac, Pessac, Vénissieux)** ✅ — Les 6 jumelles
   `things-to-do-in-[slug]-2026` du batch FR 28 (11/08) écrites d'un coup dans

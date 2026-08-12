@@ -1391,6 +1391,10 @@ function enCalculatorsSection(): MetadataRoute.Sitemap {
 
 function enQuizSection(): MetadataRoute.Sitemap {
   return [
+    // Le hub `/quiz` présente les deux outils côte à côte. Il se déclare
+    // canonique de lui-même (contrairement au FR `/quiz`, qui est un alias de
+    // `/city-match`), donc il a sa place ici — il n'y était pas.
+    { url: `${BASE_URL}/quiz`, lastModified: STATIC_UPDATED, changeFrequency: "monthly" as const, priority: 0.7 },
     { url: `${BASE_URL}/quiz/compatibility`, lastModified: STATIC_UPDATED, changeFrequency: "monthly" as const, priority: 0.8 },
   ];
 }

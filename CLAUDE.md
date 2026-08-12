@@ -242,6 +242,7 @@ npm install
 npm run dev          # http://localhost:3000 (Turbopack)
 npx tsc --noEmit     # strict TS pass (currently clean)
 npm run integrity    # gardes de lib/data-integrity + contrôle des scores cités dans les guides (bruts vs rendus) hors build — 2 s. **À LANCER AVANT DE POUSSER UN BATCH DE CONTENU.**
+npm run sitemap:check # sitemap ↔ arbre de routes, dans les deux sens, les deux locales — 22 s. **À LANCER APRÈS TOUTE NOUVELLE ROUTE.** Exécute app/sitemap.ts et les generateStaticParams() réels : URL déclarée sans page (le défaut biodiversité du 06/08, 604 x 404), page indexable sans URL (F61, expat-retour), doublons, origine, lastModified, chunk > 50 000.
 npm run build        # full SSG build — 56 185 pages, ~15 min (le « ~3 000 » historique est très obsolète)
 npm run lint         # 231 errors / 27 warnings (mostly @next/next/no-html-link-for-pages — harmless under output:"export" — plus residual react/no-unescaped-entities; none are runtime bugs). See latest docs/audit-*.md for the rule breakdown.
 ```
