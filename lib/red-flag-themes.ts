@@ -33,6 +33,7 @@ import { haversineKm } from "@/lib/distances";
 import { sunshineDays } from "@/lib/utils";
 import { projectClimate2040 } from "@/lib/climate-2040";
 import { cityIncome } from "@/lib/city-income";
+import { cityPopulation } from "@/lib/city-population";
 
 // Tag patterns that signal a strong seasonal/touristic vocation. Matched on
 // the joined character-tags string (lowercased) of each city seed entry.
@@ -2026,6 +2027,75 @@ function rankPauvreteElevee(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity).slice(0, 15);
 }
 
+// --- THEME 36 — Villes qui se vident ---
+// Seul thème du fichier dont le classement repose sur une mesure publiée et
+// non sur un score : les populations municipales Insee 2011 / 2016 / 2022,
+// via `lib/city-population.ts` (538 des 540 villes du seed). Les trois
+// millésimes viennent du même fichier « Évolution et structure de la
+// population en 2022 », donc du même périmètre communal — une fusion de
+// communes ne crée pas de fausse envolée, l'Insee rétropole ses séries.
+//
+// Trois filtres, et chacun répond à une objection :
+//  ① perte ≥ 3 % sur 11 ans ET solde négatif sur le dernier intervalle
+//    (2016 → 2022) : on veut une tendance confirmée par deux recensements
+//    successifs, pas un accident de millésime.
+//  ② loyer T2 ≤ 1,10 × la médiane nationale (data/housing.ts) : perdre des
+//    habitants dans un marché cher n'est pas une désertion. Paris (−6,1 %
+//    depuis 2011) et Le Kremlin-Bicêtre (−9,4 %) perdent des habitants parce
+//    que les ménages rétrécissent et que le parc se transforme, pas parce que
+//    personne ne veut y vivre — leur loyer est à 2,6 et 1,6 fois la médiane.
+//    Idem pour l'arc azuréen (Le Cannet, Mandelieu, Valbonne, Saint-Mandé).
+//    Ces villes sont écartées par construction : c'est un autre phénomène.
+//  ③ population 2022 ≥ 10 000 hab., seuil commun aux thèmes démographiques.
+//
+// La différence avec « vieillissement critique » et « fuite des jeunes
+// actifs » est nette : ces deux-là classent des scores de tension calculés
+// par `lib/demography.ts`, celui-ci compte des habitants. Une ville peut
+// vieillir sans perdre personne (arrivée de retraités), et perdre des
+// habitants sans vieillir (émigration des actifs ET de leurs enfants —
+// c'est le cas des communes antillaises en tête du classement).
+function rankVillesQuiSeVident(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    const p = cityPopulation(city.slug);
+    if (!p || p.pop2011 == null || p.pop2016 == null) continue;
+    if (p.pop2022 < 10_000) continue;
+
+    const longPct = ((p.pop2022 - p.pop2011) / p.pop2011) * 100;
+    const recentPct = ((p.pop2022 - p.pop2016) / p.pop2016) * 100;
+    if (longPct > -3) continue; // recul trop faible pour être autre chose que du bruit
+    if (recentPct >= 0) continue; // le dernier intervalle a redressé : hors-cible
+
+    // Filtre marché : un recul dans un marché tendu n'est pas une désertion.
+    const tension = housingTensionFor(city);
+    const rentRatio = tension?.rentRatio ?? 1;
+    if (rentRatio > 1.1) continue;
+
+    // Accélération : le rythme annuel du dernier intervalle (6 ans) est-il
+    // pire que celui du précédent (5 ans) ? C'est ce qui distingue une ville
+    // qui a décroché une fois d'une ville qui décroche encore.
+    const earlyPct = ((p.pop2016 - p.pop2011) / p.pop2011) * 100;
+    const accelerating = recentPct / 6 < earlyPct / 5 - 0.05;
+
+    const lost = Math.round(p.pop2011 - p.pop2022);
+    let severity = Math.min(9, -longPct * 0.72); // −12,5 % → 9/10
+    if (accelerating) severity += 1.2;
+    if (lost >= 5_000) severity += 0.6;
+    else if (lost >= 2_000) severity += 0.3;
+    severity = Math.min(10, severity);
+    if (severity < 6) continue;
+
+    const n = (v: number) => Math.round(v).toLocaleString("fr-FR");
+    const pct = Math.abs(longPct).toLocaleString("fr-FR", {
+      minimumFractionDigits: 1,
+      maximumFractionDigits: 1,
+    });
+    const reason = `−${pct} % d'habitants depuis 2011 (${n(p.pop2011)} → ${n(p.pop2022)}, soit ${n(lost)} de moins)${accelerating ? " · recul accéléré depuis 2016" : ""} · loyer T2 à ${Math.round(rentRatio * 100)} % de la médiane nationale`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 15);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -2551,6 +2621,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Severity = normSeverity(taux, 20 % → 0, 45 % → 10) + 1,0 si niveau de vie médian < 16 500 €/an (0,6 si < 18 500 · 0,3 si < 20 500) + 0,5 si population ≥ 150 000 hab. (0,3 si ≥ 60 000 · 0,15 si ≥ 30 000) + 0,4 si score coût seed ≤ 4/10 (corroboration marché tendu malgré précarité locale). Clampé à 10/10, filtré à population ≥ 20 000 hab., taux ≥ 22 %, severity ≥ 6/10. Source principale : Insee Filosofi 2021 (Fichier localisé social et fiscal, publication septembre 2024 — statistiques.insee.fr/fr/statistiques/7756729) exploitée via `lib/city-income.ts` (533/540 villes couvertes). Non couvertes : Guadeloupe, Guyane et Mayotte (hors champ Filosofi) et Pierrefitte-sur-Seine (fusionnée dans Saint-Denis en 2025). Références : Insee « Les niveaux de vie en 2021 » (Insee Première n° 1959), ONPV (Observatoire national de la politique de la ville) rapport 2024, INSEE Analyses « Le taux de pauvreté par commune » 2023. Caveat : le taux de pauvreté monétaire ne mesure ni la pauvreté en conditions de vie (privations matérielles, ANAH), ni la précarité énergétique (ONPE), ni la fragilité de la trajectoire (chômage récurrent) — trois autres dimensions que documentent respectivement DREES, ONPE et Pôle Emploi. Le chiffre communal masque aussi l'écart intra-communal : à Roubaix, un IRIS peut afficher 55 % de pauvreté quand un autre du centre reste à 12 %. Vérifier le maillage IRIS Insee sur statistiques-locales.insee.fr avant tout arbitrage résidentiel précis.",
     rank: rankPauvreteElevee,
+  },
+  {
+    slug: "villes-qui-se-vident",
+    title: "Villes qui se vident — la population baisse depuis 2011",
+    metaTitle: "Villes qui se vident 2026 — le recul mesuré par l'Insee",
+    metaDescription:
+      "Classement 2026 des villes françaises qui perdent des habitants : recul confirmé par les recensements Insee 2011, 2016 et 2022, marché du logement détendu.",
+    emoji: "🏚️",
+    intro:
+      "L'annonce vante le prix au m² imbattable, la maison de ville avec jardin pour le prix d'un studio ailleurs, la ville à taille humaine où « on a tout sur place ». Ce qu'elle ne dit pas, c'est que la commune comptait 38 000 habitants en 2011 et qu'elle en compte 33 000 aujourd'hui. On ne voit rien de tout cela en visitant un samedi matin : les rues sont les mêmes, le marché a lieu, l'école est ouverte. Le recul se lit ailleurs, et plus tard. Dans les classes fermées à la rentrée suivante, la ligne de bus qui passe de six à trois rotations, la vitrine relouée puis rendue, le service de maternité regroupé à quarante minutes de route. Et le jour où l'on remet le bien en vente, dans le nombre de mois qu'il faut pour trouver un acheteur au prix payé.",
+    reality:
+      "Ce classement est le seul du Red Flag Radar à ne reposer sur aucun score : il compte des habitants. Les populations municipales 2011, 2016 et 2022 sont celles publiées par l'Insee dans un même fichier de recensement, donc sur le même périmètre communal, ce qui neutralise l'effet des fusions de communes. Sur les 538 villes du site couvertes par ce fichier, 204 comptent moins d'habitants en 2022 qu'en 2016, et 162 perdent sur les deux fenêtres à la fois. En restreignant aux 472 villes d'au moins 10 000 habitants, elles sont encore 115 dans ce cas. Le classement retient celles dont le recul dépasse 3 % sur onze ans, se poursuit sur le dernier intervalle, et se produit dans un marché du logement qui n'a pas suivi. Ce dernier filtre est décisif : Paris perd 6,1 % de ses habitants depuis 2011 et Le Kremlin-Bicêtre 9,4 %, mais leurs loyers valent 2,6 et 1,6 fois la médiane nationale. Là, ce ne sont pas les candidats qui manquent, ce sont les ménages qui rétrécissent et le parc qui se transforme. Même logique pour l'arc azuréen (Le Cannet, Mandelieu-la-Napoule, Valbonne) ou Beaune, écartés pour la même raison. Restent deux géographies très différentes. Celle des villes moyennes de l'intérieur et du Nord-Est, où le recul accompagne la fin d'un cycle industriel : Montluçon passe de 38 166 à 33 317 habitants, Belfort de 50 128 à 45 646, Calais de 72 915 à 67 585, Issoudun perd 15,3 % de sa population. Et celle des Antilles, dont plusieurs communes affichent les baisses les plus fortes du corpus : Fort-de-France tombe de 86 753 à 75 165 habitants, Le François perd 15,8 %, Les Abymes 12,7 %. Ce n'est pas un vieillissement, c'est un départ, et il concerne les actifs autant que leurs enfants. Perdre des habitants n'est pas en soi un défaut de la ville, et plusieurs villes de cette liste sont agréables à vivre, bien équipées et très abordables. C'est un fait qui change deux calculs : celui des services que la commune pourra encore financer dans dix ans, et celui de la revente.",
+    methodology:
+      "Severity = 0,72 × recul en % sur 2011-2022 (plafonné à 9) + 1,2 si le rythme annuel de perte s'est aggravé entre 2011-2016 et 2016-2022 + 0,6 si la perte dépasse 5 000 habitants (0,3 au-delà de 2 000). Clampé à 10, filtré à recul ≥ 3 % sur onze ans, solde négatif sur 2016-2022, population 2022 ≥ 10 000 habitants et loyer T2 ≤ 1,10 fois la médiane nationale. Source : Insee, recensement de la population, base « Évolution et structure de la population en 2022 » (millésimes 2011, 2016 et 2022 dans un même fichier, géographie communale 2025), exploitée via `lib/city-population.ts` (538 des 540 villes couvertes ; manquent Mamoudzou, hors du fichier France hors Mayotte, et Pierrefitte-sur-Seine, fusionnée dans Saint-Denis en 2025). Loyers : `data/housing.ts`. Trois limites à connaître avant d'en tirer une conclusion. Le recensement compte la population résidente : dans les communes littorales et de montagne, une part de la baisse correspond à la transformation de résidences principales en résidences secondaires, pas à un départ définitif, et Berck ou Briançon relèvent en partie de ce cas. Le chiffre est communal, alors que le phénomène est souvent infra-communal : le centre ancien se vide pendant que la couronne périurbaine, hors commune, gagne des habitants, si bien que l'aire d'attraction peut croître quand la ville-centre recule. Enfin le recensement décrit le passé et n'extrapole rien : une commune peut avoir enrayé sa baisse depuis 2022, ce que seul le millésime suivant dira. Pour la structure par âge et la trajectoire détaillée d'une ville, voir sa page démographie.",
+    rank: rankVillesQuiSeVident,
   },
 ];
 

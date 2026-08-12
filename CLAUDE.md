@@ -593,6 +593,33 @@ le trajet réel — l'intro le dit.
 pôles sont en dur et que le modèle de trajet est réimplémenté au lieu d'importer `lib/city-commute`,
 qui charge le seed à l'initialisation.
 
+### Red Flag Radar (`lib/red-flag-themes.ts`)
+
+Un thème = une entrée de `RED_FLAG_THEMES` (slug, titre, meta, `intro` / `reality` / `methodology`,
+`rank()`) **plus** un dossier `app/red-flags/<slug>/page.tsx` de 20 lignes qui lit
+`getRedFlagTheme()` et rend `<RedFlagThemePage>`. Le hub `/red-flags` et le sitemap dérivent tous
+les deux de la liste, il n'y a donc rien d'autre à câbler ; l'EN est une **sélection à part**
+(`EN_THEMES` dans `app/[locale]/red-flags/themes/[slug]/page.tsx`, qui réutilise le `rank()` FR via
+`frSlug`) — un thème FR sans jumelle EN est normal et ne demande pas de hreflang. **Compteurs
+mesurés (`grep -c '^    slug: "'` et `ls app/red-flags | grep -c villes-`) : 36 thèmes, 36 dossiers**
+(2026-08-12). Dernier ajouté : **`villes-qui-se-vident`** — le seul thème du fichier dont le
+classement repose sur une **mesure publiée** et non sur un score : les populations municipales Insee
+2011 / 2016 / 2022 lues via `lib/city-population.ts` (538/540 villes, mêmes millésimes dans un même
+fichier, donc immunisé aux fusions de communes). Sur les 538 villes couvertes, 204 comptent moins
+d'habitants en 2022 qu'en 2016 et 162 perdent sur les deux fenêtres ; 15 villes passent les seuils.
+Trois points de méthode à ne pas diluer : ① le **filtre marché** (loyer T2 ≤ 1,10 × la médiane
+nationale, `data/housing.ts`) est ce qui empêche le thème de devenir faux — Paris (−6,1 % depuis
+2011), Le Kremlin-Bicêtre (−9,4 %) et l'arc azuréen perdent des habitants dans des marchés à 1,5-2,6
+fois la médiane, c'est un rétrécissement des ménages, pas une désertion ; la coupure est posée à 1,10
+parce que les ratios réels sautent de 1,07 (Fort-de-France, Apt — recul bien réel) à 1,14 (Grasse,
+Beaune, Bondy) ; ② il faut un recul **sur les deux fenêtres** (2011→2022 et 2016→2022), sinon un
+millésime accidenté suffit à entrer ; ③ le recensement compte la population **résidente** : en
+littoral et en montagne (Berck, Briançon) une part de la baisse est une conversion en résidences
+secondaires, et le chiffre communal masque le cas classique du centre qui se vide pendant que l'aire
+d'attraction gagne — la méthodologie affichée le dit, ne pas l'alléger. Distinct de
+`villes-vieillissement-critique` et `villes-fuite-jeunes-actifs`, qui classent des scores de tension
+de `lib/demography.ts` : recouvrement mesuré de 4/15 et 2/15 sur le top 15.
+
 ### Pending guide work
 - **Editorial rewrite (R7.8) — DONE.** Main pass ran 2026-05-30 (all guides → prose voice). Fragment-tail cleanup ran 2026-06-03: the 23 budget/acheter/investment guides the first pass missed (numbered `(N) **Label** : value` scaffolding, detected via `boldColon>=40`) rewritten into flowing prose, 228 strings, figure-integrity verified. Method: extract verbatim bodies → parallel read-only agents → single-writer exact-match apply (see `[[parallel-agents-single-file]]`). Only `intro`/`sections[].body` touched.
   - *Accent restoration — DONE 2026-06-03.* 58 tourism guides (`10-choses-a-faire-*`, incl. Paris/Bordeaux) had been saved ascii-stripped (`decoupe`, `a 57 m`, `28,30 EUR`, `m2`, `360 deg`); diacritics + `€/°/m²/m³` restored across 638 strings, word-skeleton integrity verified. Detected by accent-density < 0.09 (the earlier "~33" estimate undercounted). Legit currency-code `EUR` (EUR/USD context) left intact.
