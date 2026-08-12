@@ -17,6 +17,8 @@ import { commonOriginSlugs } from "@/lib/people-like-you";
 import { cityPhoto, guideCityPhoto } from "@/lib/city-images";
 import { VACATION_PROFILES } from "@/lib/vacation-fit";
 import { ACTIVITIES } from "@/lib/vacation-activities";
+import { MONTHS } from "@/lib/vacation-seasons";
+import { CROSSINGS } from "@/lib/vacation-crossing";
 import { OWNER_RANKING_SLUGS } from "@/lib/owner-rankings";
 import { hasParksData } from "@/lib/city-parks";
 import { hasBiodiversityData, BIODIVERSITY_PAGES_LIVE } from "@/lib/biodiversity";
@@ -1475,10 +1477,10 @@ function badgesSection(): MetadataRoute.Sitemap {
 }
 
 function vacancesSection(): MetadataRoute.Sitemap {
-  const MONTH_SLUGS = [
-    "janvier", "février", "mars", "avril", "mai", "juin",
-    "juillet", "août", "septembre", "octobre", "novembre", "décembre",
-  ];
+  // Dérivé de lib/vacation-seasons pour la même raison que PROFILE_SLUGS :
+  // c'est MONTHS qui pilote les generateStaticParams de /vacances/mois/[mois]
+  // et du croisement /vacances/mois/[mois]/[profil].
+  const MONTH_SLUGS: readonly string[] = MONTHS;
   // Dérivé de lib/vacation-activities, comme PROFILE_SLUGS l'est de
   // VACATION_PROFILES depuis F61 : c'est ACTIVITIES qui pilote les
   // generateStaticParams des deux routes (FR /vacances/activite/[activite] et
@@ -1523,6 +1525,15 @@ function vacancesSection(): MetadataRoute.Sitemap {
       lastModified: STATIC_UPDATED,
       changeFrequency: "monthly" as const,
       priority: 0.65,
+    })),
+    // Croisement mois × profil (12 × 7) — « où partir en avril en famille
+    // monoparentale ». Même liste que le generateStaticParams de la route, donc
+    // la couverture sitemap suit toute nouvelle entrée sans recopie.
+    ...CROSSINGS.map((c) => ({
+      url: `${BASE_URL}/vacances/ou-partir/${c.slug}`,
+      lastModified: STATIC_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
     })),
     ...REGION_SLUGS.map((slug) => ({
       url: `${BASE_URL}/vacances/region/${slug}`,

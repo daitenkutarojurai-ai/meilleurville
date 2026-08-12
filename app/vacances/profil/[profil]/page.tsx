@@ -15,6 +15,8 @@ import {
   VACATION_PROFILE_DEFS,
   type VacationProfile,
 } from "@/lib/vacation-fit";
+import { MONTHS, formatMonthLabel, type MonthIndex } from "@/lib/vacation-seasons";
+import { crossingSlug } from "@/lib/vacation-crossing";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { MapPin } from "lucide-react";
 import { MonoparentalExtras } from "./MonoparentalExtras";
@@ -194,6 +196,32 @@ export default async function ProfilPage({ params }: Props) {
 
       {/* Sections enrichies propres au profil célibataire */}
       {slug === "celibataire" && <CelibataireExtras />}
+
+      {/* Croisement profil × mois */}
+      <section className="mx-auto max-w-4xl px-4 sm:px-6 py-8">
+        <h2 className="text-xl font-bold text-[var(--text-primary)] mb-2">
+          Mois par mois
+        </h2>
+        <p className="text-sm text-[var(--text-secondary)] mb-4 max-w-2xl">
+          Ce classement vaut toute l&apos;année. Une fois la date posée, la saison
+          rebat les cartes : chaque page croise le profil {def.label.toLowerCase()} avec
+          le climat et l&apos;affluence du mois.
+        </p>
+        <div className="flex flex-wrap gap-2">
+          {MONTHS.map((m, i) => {
+            const mi = (i + 1) as MonthIndex;
+            return (
+              <Link
+                key={m}
+                href={`/vacances/ou-partir/${crossingSlug(mi, slug)}`}
+                className="rounded-full border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-1.5 text-xs text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:text-[var(--text-primary)] transition-colors"
+              >
+                {formatMonthLabel(mi)}
+              </Link>
+            );
+          })}
+        </div>
+      </section>
 
       {/* Cross-links profils */}
       <section className="mx-auto max-w-4xl px-4 sm:px-6 py-8">

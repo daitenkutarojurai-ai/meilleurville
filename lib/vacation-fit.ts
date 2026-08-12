@@ -236,12 +236,17 @@ interface RankCacheKey {
   month?: MonthIndex;
   activity?: ActivitySlug;
   profile?: VacationProfile;
+  minPop?: number;
 }
 
 const rankCache = new Map<string, RankedVacationCity[]>();
 
+// `minPop` fait partie de la clé : le cache mémorise le classement **complet**
+// (le `limit` ne s'applique qu'après), donc deux appels au même mois et au même
+// profil mais à seuils de population différents doivent occuper deux entrées.
+// Sans ça, le premier appelant fixe silencieusement le vivier du second.
 function cacheKey(opts: RankCacheKey): string {
-  return `${opts.month ?? "_"}|${opts.activity ?? "_"}|${opts.profile ?? "_"}`;
+  return `${opts.month ?? "_"}|${opts.activity ?? "_"}|${opts.profile ?? "_"}|${opts.minPop ?? "_"}`;
 }
 
 export function topCitiesForMonth(
@@ -251,7 +256,7 @@ export function topCitiesForMonth(
 ): RankedVacationCity[] {
   const limit = opts.limit ?? 30;
   const minPop = opts.minPop ?? 5_000;
-  const key = cacheKey({ month, activity: opts.activity, profile: opts.profile });
+  const key = cacheKey({ month, activity: opts.activity, profile: opts.profile, minPop });
   let ranked = rankCache.get(key);
   if (!ranked) {
     ranked = cities
@@ -273,7 +278,7 @@ export function topCitiesForProfile(
 ): RankedVacationCity[] {
   const limit = opts.limit ?? 30;
   const minPop = opts.minPop ?? 8_000;
-  const key = cacheKey({ profile });
+  const key = cacheKey({ profile, minPop });
   let ranked = rankCache.get(key);
   if (!ranked) {
     ranked = cities
@@ -295,7 +300,7 @@ export function topCitiesForActivity(
 ): RankedVacationCity[] {
   const limit = opts.limit ?? 30;
   const minPop = opts.minPop ?? 3_000;
-  const key = cacheKey({ activity, profile: opts.profile });
+  const key = cacheKey({ activity, profile: opts.profile, minPop });
   let ranked = rankCache.get(key);
   if (!ranked) {
     ranked = cities

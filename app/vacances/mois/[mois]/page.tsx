@@ -22,7 +22,10 @@ import {
 import {
   topCitiesForMonth,
   BUDGET_TIER_LABEL,
+  VACATION_PROFILES,
+  VACATION_PROFILE_DEFS,
 } from "@/lib/vacation-fit";
+import { crossingSlug } from "@/lib/vacation-crossing";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import {
   MapPin,
@@ -359,6 +362,38 @@ export default async function MoisPage({ params }: Props) {
           </div>
         </section>
       )}
+
+      {/* Croisement mois × profil */}
+      <section className="mx-auto max-w-4xl px-4 sm:px-6 py-8">
+        <h2 className="text-xl font-bold text-[var(--text-primary)] mb-2">
+          Et selon avec qui vous partez
+        </h2>
+        <p className="text-sm text-[var(--text-secondary)] mb-4 max-w-2xl">
+          Le classement ci-dessus ne dit rien de qui voyage. Chacune de ces pages
+          reclasse {label.toLowerCase()} selon ce que le profil regarde en premier — et
+          montre ce que le mois fait entrer ou reculer.
+        </p>
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {VACATION_PROFILES.map((p) => {
+            const pDef = VACATION_PROFILE_DEFS[p];
+            return (
+              <Link
+                key={p}
+                href={`/vacances/ou-partir/${crossingSlug(idx, p)}`}
+                className="group flex items-center justify-between gap-2 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-4 py-3 hover:border-[var(--accent)]/40 hover:shadow-md transition-all"
+              >
+                <span className="flex items-center gap-2 min-w-0">
+                  <span aria-hidden className="text-base">{pDef.emoji}</span>
+                  <span className="text-sm font-medium text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors truncate">
+                    {pDef.label}
+                  </span>
+                </span>
+                <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
+              </Link>
+            );
+          })}
+        </div>
+      </section>
 
       {/* Cross-links autres mois */}
       <section className="mx-auto max-w-4xl px-4 sm:px-6 py-8">

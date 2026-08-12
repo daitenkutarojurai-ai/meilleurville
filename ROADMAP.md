@@ -16,7 +16,7 @@ Demande utilisateur directe. F58 / F60 / F61 livrées le jour même ; **F59 livr
 | F58 | City Match — profil « parent solo » | P1 | S | mid | ✅ shipped 2026-07-22 · sous-page `/villes/[slug]/parent-solo` ×540 + hub `/parent-solo` + miroir EN `/single-parent` + `/cities/[slug]/single-parent` ×540 shipped 2026-07-25→28 · série guides `parent-solo-a-[ville]-2026` batch 1 (+10) shipped 2026-07-24, batch 2 (+10 : Rennes, Nancy, Angers, Grenoble, Dijon, Metz, Reims, Aix-en-Provence, Rouen, Toulon) shipped 2026-08-07 · miroir EN de la série `single-parent-in-[city]-2026` batch 1 (+10 : Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux, Lille) shipped 2026-08-09 |
 | F59 | **Parcs & espaces verts par ville** (pipeline OSM + sub-page ×540) | **P0** | **L** | **high** | ✅ shipped 2026-07-27 |
 | F60 | `/departements` — finder par n° / nom / ville + carte cliquable | P1 | S | low | ✅ shipped 2026-07-22 · carte cliquable 2026-07-23 |
-| F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 · série guides `vacances-celibataire-[ville]-2026` batch 1 (+8) shipped 2026-08-01 · série `vacances-monoparentales-[ville]-2026` batch 1 (+7) shipped 2026-08-05 · `vacances-celibataire-[ville]-2026` batch 2 (+7 : Toulouse, Lille, Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle) shipped 2026-08-08 |
+| F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 · série guides `vacances-celibataire-[ville]-2026` batch 1 (+8) shipped 2026-08-01 · série `vacances-monoparentales-[ville]-2026` batch 1 (+7) shipped 2026-08-05 · `vacances-celibataire-[ville]-2026` batch 2 (+7 : Toulouse, Lille, Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle) shipped 2026-08-08 · croisement mois × profil `/vacances/ou-partir/[combo]` (12 × 7 = 84 pages SSG) shipped 2026-08-12 |
 
 ### F59 — Parcs & espaces verts par ville ✅ LIVRÉ (540/540 villes, 7 047 parcs)
 
@@ -1236,6 +1236,66 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 ---
 
 ## Shipped 2026-08-12
+
+- **F61 — croisement mois × profil : `/vacances/ou-partir/[combo]`, 84 pages SSG** ✅ —
+  Item 4 du plan agent « vacances monoparentales », le dernier de la liste à n'avoir aucune
+  surface. Le moteur savait répondre depuis F61 (`topCitiesForMonth(mois, villes, { profile })`),
+  mais rien ne l'exposait : `/vacances/mois/[mois]` classait sans savoir qui voyage,
+  `/vacances/profil/[profil]` classait sans savoir quand. Les 12 mois × 7 profils sont
+  désormais adressables — « où partir en avril en famille monoparentale » est une page, pas
+  une requête sans réponse. Sections : repères mesurés du mois (température et jours de pluie
+  **médians du top 12**, part des destinations à affluence faible), top 12 avec signal mensuel
+  par ville, **« ce que le mois change »**, **« sans voiture »**, puis les deux grilles de
+  croisement. Zéro chiffre saisi à la main : tout sort de `lib/vacation-fit`,
+  `lib/vacation-seasons` et `lib/transit`.
+  - **La section qui porte la page est « ce que le mois change »** : un diff mesuré entre le
+    classement du mois × profil et le classement du **même profil hors saison**, sur le même
+    vivier (population ≥ 8 000, le seuil de `/vacances/profil/[profil]` — c'est ce qui rend les
+    deux comparables). Le résultat est franc et il est affiché tel quel : selon la combinaison,
+    **4 à 14 des 15 premiers changent** une fois la date posée. La page l'écrit en toutes
+    lettres, avec le compte réel, et la méthodo précise que la saison pèse ~45 % contre ~25 %
+    au profil : cette page répond à « parmi ce qui se tient en avril, qu'est-ce qui va le mieux
+    à ce profil », pas à « quelle est la meilleure destination pour ce profil ». Un lecteur qui
+    cherche la seconde réponse est renvoyé au classement du profil. Les villes qui reculent sont
+    nommées avec leur relevé du mois, et la page dit qu'elles ne sont pas disqualifiées.
+  - ⚠️ **La route imbriquée `/vacances/mois/[mois]/[profil]` a été écrite, testée, puis
+    retirée — ne pas la recréer sans un `npm run build` local.** Sous Next 16.2.9 (`next dev`,
+    Turbopack) elle a montré deux défauts : ① **à froid elle n'existait pas** — démarrage propre,
+    404 sur `/vacances/mois/avril/monoparental` (slug pourtant sans accent) sans que la route
+    soit seulement compilée, jusqu'à ce qu'un `touch` du fichier la fasse découvrir ; ② les
+    slugs accentués répondaient par intermittence, la même URL alternant 200 et 500 sur
+    « Page … is missing param … which is required with `output: export` ». **Le ② n'est pas
+    imputable à l'imbrication** : vérifié, la route parente `/vacances/mois/[mois]`, inchangée
+    et en ligne depuis des mois, échoue exactement pareil en dev sur `février`, `août` et
+    `décembre` (l'erreur tombe en 10 ms, avant `generateStaticParams`) — c'est un défaut de
+    `next dev`, la production sert bien ces URL. **Ne pas partir « corriger » les slugs
+    accentués de la route mois sur la foi d'un 500 en local.** Restait ① — et surtout le fait
+    qu'un build complet ne tient pas dans une session cloud, donc qu'aucune vérification
+    d'export n'était possible. Un export qui casse, c'est tout le site qui cesse d'être
+    publiable : d'où un slug plat et ASCII (`avril-monoparental`, `aout-famille`,
+    `decembre-celibataire`) sur le modèle éprouvé de `/comparer/[a]-vs-[b]`. L'arbitrage complet
+    est en tête de `lib/vacation-crossing.ts`.
+  - **Vérifié route par route** : les **84 URL répondent 200** en dev (cold start, sans `touch`),
+    y compris les combinaisons qui flanchaient en imbriqué, re-testées quatre fois de suite ; un
+    combo inconnu (`avril-inconnu`, `nawak`) rend 404. `npx tsc --noEmit` propre,
+    `npm run integrity` propre, `npm run sitemap:check` propre dans les deux sens (86 familles
+    dynamiques FR vérifiées) — les 84 URL sont déclarées **et** servies.
+  - **Maillage** : `/vacances/mois/[mois]` gagne une grille des 7 profils, `/vacances/profil/[profil]`
+    une grille des 12 mois, et chaque page de croisement porte les 11 autres mois du même profil
+    + les 6 autres profils du même mois. Le sitemap dérive de `CROSSINGS` — même liste que le
+    `generateStaticParams`, donc pas de recopie à maintenir (`MONTH_SLUGS` y était encore codé en
+    dur, il dérive maintenant de `MONTHS`, dans la lignée de `PROFILE_SLUGS` en F61).
+  - **Correction de moteur au passage** : la clé du cache de classement de `lib/vacation-fit.ts`
+    ignorait `minPop`, alors que le cache mémorise le classement **complet** (le `limit` ne
+    s'applique qu'après). Deux appels au même mois et au même profil mais à seuils de population
+    différents se seraient partagé une entrée — le premier appelant fixant silencieusement le
+    vivier du second. Aucun appelant existant n'était touché (aucun ne passait de `minPop`
+    explicite), mais cette page est la première à le faire.
+  - **Restent ouverts sur la verticale** : batch 2 de `vacances-monoparentales-[destination]-2026`
+    sur les rangs 8-25 du profil (Bordeaux/Lyon/Colmar/Annecy/Grenoble/Chambéry/Reims/Metz/
+    Montpellier/Aix-en-Provence — vérifier transit tags et score sécurité avant écriture), et le
+    miroir EN (item 5), ni la série `single-parent-holidays-[city]-2026` ni l'équivalent du
+    croisement n'existant côté anglais.
 
 - **`npm run sitemap:check` — le sitemap et l'arbre de routes se contrôlent enfin l'un
   l'autre** ✅ — `scripts/check-sitemap.mjs`, 22 s, les deux locales, dans les deux sens.
