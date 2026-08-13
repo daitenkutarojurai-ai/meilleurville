@@ -16,7 +16,7 @@ Demande utilisateur directe. F58 / F60 / F61 livrées le jour même ; **F59 livr
 | F58 | City Match — profil « parent solo » | P1 | S | mid | ✅ shipped 2026-07-22 · sous-page `/villes/[slug]/parent-solo` ×540 + hub `/parent-solo` + miroir EN `/single-parent` + `/cities/[slug]/single-parent` ×540 shipped 2026-07-25→28 · série guides `parent-solo-a-[ville]-2026` batch 1 (+10) shipped 2026-07-24, batch 2 (+10 : Rennes, Nancy, Angers, Grenoble, Dijon, Metz, Reims, Aix-en-Provence, Rouen, Toulon) shipped 2026-08-07 · miroir EN de la série `single-parent-in-[city]-2026` batch 1 (+10 : Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux, Lille) shipped 2026-08-09 |
 | F59 | **Parcs & espaces verts par ville** (pipeline OSM + sub-page ×540) | **P0** | **L** | **high** | ✅ shipped 2026-07-27 |
 | F60 | `/departements` — finder par n° / nom / ville + carte cliquable | P1 | S | low | ✅ shipped 2026-07-22 · carte cliquable 2026-07-23 |
-| F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 · série guides `vacances-celibataire-[ville]-2026` batch 1 (+8) shipped 2026-08-01 · série `vacances-monoparentales-[ville]-2026` batch 1 (+7) shipped 2026-08-05 · `vacances-celibataire-[ville]-2026` batch 2 (+7 : Toulouse, Lille, Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle) shipped 2026-08-08 · croisement mois × profil `/vacances/ou-partir/[combo]` (12 × 7 = 84 pages SSG) shipped 2026-08-12 |
+| F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 · série guides `vacances-celibataire-[ville]-2026` batch 1 (+8) shipped 2026-08-01 · série `vacances-monoparentales-[ville]-2026` batch 1 (+7) shipped 2026-08-05 · `vacances-celibataire-[ville]-2026` batch 2 (+7 : Toulouse, Lille, Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle) shipped 2026-08-08 · croisement mois × profil `/vacances/ou-partir/[combo]` (12 × 7 = 84 pages SSG) shipped 2026-08-12 · miroir EN de la série célibataire, `solo-travel-in-[city]-2026` batch 1 (+8 : Paris, Lyon, Bordeaux, Lille, Strasbourg, Toulouse, Montpellier, Nantes) shipped 2026-08-13 |
 
 ### F59 — Parcs & espaces verts par ville ✅ LIVRÉ (540/540 villes, 7 047 parcs)
 
@@ -988,8 +988,11 @@ se comble pas par du SSG dérivé. Le tableau de bord qui compte à partir d'ici
 **Depuis le 09/08 le run travaille le corpus, série par série**, en fermant d'abord les
 séries FR qui n'ont aucune jumelle EN — c'est là que l'écart se creuse le plus vite. État :
 `single-parent-in-[city]-2026` **fermée le 10/08** (20 FR / 20 EN, batch 1 le 09/08, batch 2
-le 10/08). Prochaine série sans miroir EN : `vacances-celibataire-[destination]-2026`
-(15 FR / 0 EN).
+le 10/08). `vacances-celibataire-[ville]-2026` **ouverte le 13/08** sous le nom
+`solo-travel-in-[city]-2026` (15 FR / 8 EN, batch 1) — batch 2 = Rennes, Bayonne,
+Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle. Séries FR suivantes sans aucune
+jumelle EN : `vacances-monoparentales-[ville]-2026` (7 FR / 0 EN) et le croisement
+mois × profil, qui a sa route EN mais pas de guides.
 
 **Écart de contenu, distinct de l'écart de routes** : guides 903 FR / 532 EN, tags 239 / 74.
 Ce n'est pas une route à créer mais du corpus à écrire, et **jamais par traduction** — les
@@ -1277,6 +1280,68 @@ signal thématique du domaine. Noindex ou suppression — décision produit, pas
 
 **Routine** : `meilleurville-parite-en`, quotidienne 04:25 UTC, `npm run parity` comme
 tableau de bord, une route par run, sortie du contrôle collée dans chaque message de commit.
+
+---
+
+## Shipped 2026-08-13
+
+- **Parité EN — ouverture de la série `solo-travel-in-[city]-2026` (batch 1, +8 : Paris, Lyon,
+  Bordeaux, Lille, Strasbourg, Toulouse, Montpellier, Nantes)** ✅ — La série FR
+  `vacances-celibataire-[ville]-2026` (15 guides, batches des 01/08 et 08/08) était depuis le
+  09/08 en tête de la liste des **séries FR sans aucun miroir EN**, celle que le chantier de
+  parité travaille en priorité parce que c'est là que l'écart de corpus se creuse le plus vite.
+  Elle n'est plus à zéro : **`EN_GUIDES` 604 → 612**, 8 des 15 villes couvertes, batch 2 (les 7
+  restantes) à faire.
+
+  **Le run a commencé par la mesure.** `npm run parity` d'abord (code 0, 217 routes FR / 165 EN,
+  aucune route FR sans jumelle — la parité de routes tient), puis le diff réel des deux séries,
+  qui donne 15 FR / 0 EN. Villes retenues pour le batch 1 par intention de recherche anglophone
+  plutôt que par ordre du batch FR : Lille passe devant Rennes et Bayonne parce que c'est
+  quatre-vingts minutes d'Eurostar depuis Londres, ce qui en fait la ville française la plus
+  accessible à un lecteur britannique qui part seul un week-end. Restent pour le batch 2 :
+  Rennes, Bayonne, Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle.
+
+  **Slug `solo-travel-in-[slug]-2026`**, pas une traduction de `vacances-celibataire`. « Célibataire »
+  et *single* ne se recouvrent pas : en anglais la requête qui porte ce contenu est *solo travel*,
+  et *single* renvoie au statut matrimonial ou, précisément, au **single supplement** — qui reste
+  le sujet d'une section par guide. Aucune collision avec
+  `solo-female-expats-france-guide-2026`, qui traite de vivre en France en tant que femme seule,
+  pas d'un séjour de trois nuits.
+
+  **Écrit en anglais natif depuis les faits des guides FR, aucun chiffre qui n'y soit** : horaires
+  de fermeture des métros et trams, effectifs étudiants, temps de TGV et d'Eurostar, noms de salles
+  et de quartiers viennent tous du guide FR correspondant, lui-même passé au contrôle de citations.
+  **Aucun score n'est cité**, volontairement — les guides FR en citent (« score transport 7,0/10 »)
+  et c'est légitime chez eux, mais recopier un score dans un guide EN ajoute une surface de plus à
+  garder synchronisée avec la valeur rendue pour un bénéfice de lecture nul. `metaTitle` 52-57
+  caractères au gabarit `deux-points` de la série `studying-in-[city]`, `metaDesc` 138-153,
+  6 sections par guide (même découpage que le FR : pourquoi la ville, où dormir, manger et boire
+  seul·e, se déplacer après minuit, le supplément single, quand y aller). Zéro tiret cadratin dans
+  le corps (R7.10).
+
+  **Trois apports propres au lecteur anglophone, absents du FR parce qu'inutiles à un lecteur
+  français** : la glose des institutions locales (*bouchon*, *estaminet*, *winstub* — le mot seul
+  ne dit rien à un anglophone alors que c'est précisément la salle où dîner seul·e est banal) ; les
+  usages de comptoir (dire bonjour en entrant avant toute demande, le tarif comptoir affiché à part
+  du tarif salle, le service compris qui rend le pourboire facultatif) ; et pour Lille le rappel
+  que les contrôles frontaliers Eurostar se font **avant embarquement à Londres**. Les prudences du
+  FR sont tenues : **aucun tarif hôtelier n'est affiché**, chaque guide dit pourquoi (les prix
+  bougent d'un mois et d'une plateforme à l'autre), et les horaires de transport restent donnés en
+  approximation (« around midnight ») comme côté FR.
+
+  **Trois nouveaux tags EN** (`solo travel`, `travelling alone in france`, `single supplement`) à
+  8 guides chacun, donc au-dessus du seuil de 3 de `lib/guide-tags-en.ts` : ils créent trois pages
+  `/tags/[slug]` côté EN, déclarées automatiquement au sitemap qui dérive de `TAG_SLUGS_EN`. Les
+  tags de région réutilisent les slugs existants (`ile-de-france`, `occitanie`, `grand-est`…),
+  aucune page de région créée en double. `npm run search-index` relancé
+  (`data/search-index.en.json` 612 guides, 82 tags), sans quoi `search-index:check` échoue.
+
+  Contrôles : `npx tsc --noEmit` propre, `npm run integrity` propre (939 FR / 612 EN, 0 score brut
+  recopié des deux côtés), `npm run sitemap:check` propre dans les deux sens (29 001 URL FR /
+  28 471 EN), `npm run parity` en code 0. **Non livré** : le batch 2 (7 villes), et l'équivalent EN
+  du croisement `/vacances/ou-partir/[combo]` — la route `/vacations/where-to-go/[combo]` existe
+  depuis le 13/08 au matin, mais aucune de ces pages ne renvoie encore vers la série solo, comme
+  côté FR où la série n'est maillée que par `/guides`, les tags et les pages ville.
 
 ---
 

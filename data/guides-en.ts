@@ -23894,6 +23894,405 @@ export const EN_GUIDES: EnGuide[] = [
     ],
   },
 
+  {
+    slug: "solo-travel-in-paris-2026",
+    title: "Solo travel in Paris: where to stay, where to drink, when to go",
+    metaTitle: "Solo Travel in Paris 2026: Where to Stay, Going Out Alone",
+    metaDesc:
+      "Paris on your own: neighbourhoods that are alive on a Tuesday, business hotels to dodge the single supplement, and getting home after the last metro.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-08-13",
+    updatedAt: "2026-08-13",
+    intro:
+      "Paris is the easiest French city to travel alone in, for one structural reason: the cultural and drinking scene runs at full strength five weeknights, not just Friday and Saturday. You can land on a Tuesday in November, stay three nights, go out in a different quarter every evening and never walk into an empty room. The price is in two words, cost and single supplement, and this guide deals with both. It also deals with the thing nobody puts in a city guide: where to stay when there is no one to talk to at the end of dinner, and how to sit down at a French counter without it being awkward.",
+    sections: [
+      {
+        heading: "Why Paris works when you are on your own",
+        body: "The distinction matters. Travelling solo in the safety-first sense means ending the day quietly in a hotel; this is the opposite brief, a city where something is happening on every corner and where you can talk to the person next to you at a bar without a plan. Paris is the best-resourced city in France culturally, with a density of bars, cafes, bookshop-cafes and mid-sized music venues that has no domestic equivalent. Free and pay-what-you-can events, from repertory cinemas to church concerts, mean an evening does not have to cost anything much. And in pure arithmetic it is the city where you are most likely to run into other people out alone, simply because there are far more of them. One habit is worth acquiring before you arrive: say bonjour on entering anywhere, before asking for anything. English is widely spoken in the centre, but the greeting is what changes the temperature of the exchange, and its absence is read as rudeness rather than shyness.",
+      },
+      {
+        heading: "Where to stay if the evenings are the point",
+        body: "Three areas stand out. Le Marais is the default: one of the strongest concentrations of nightlife in the city and a fabric of bars, cafes and small restaurants where sitting alone attracts no attention, with boutique hotels and short-let studios easier to find as you drift east towards République. The Quartier Latin is the cheaper midweek option, with a student atmosphere and arthouse cinemas; the Sorbonne and the grandes écoles keep the area busy well outside the tourist season. Montmartre suits a slower trip, with a village feel on the Butte, artists' studios and softer hotel rates than the centre. Avoid pure business districts such as La Défense or the northern 8th, which empty out after 8pm. If you do not know the city, the single most useful booking rule is to stay within a ten-minute walk of a station served by at least two metro lines, so a closed connection never strands you.",
+      },
+      {
+        heading: "Eating and drinking alone, and how the counter works",
+        body: "The good nights in Paris are not Saturday, when everyone is out in groups. They are Tuesday, Wednesday and Thursday, when Parisians work the next morning and drink standing at their local rather than in a pack, and that is when conversations start. The natural wine bars of the 11th, around Charonne and Oberkampf, and of the 20th around Ménilmontant, function almost as neighbourhood clubs: go back three evenings running and you are recognised. Midweek gigs are the other way in, in the small rooms around Pigalle, the jazz clubs of the 5th and the church concerts of the Marais, usually cheaper and less full than at the weekend. Two pieces of etiquette worth knowing: standing or sitting at the counter on your own is completely normal, and many cafes still charge less at the counter than at a table, with both prices posted on the wall. Service is included in the bill, so rounding up is enough. Sunday evening, much of the city is shut or serving brunch only, which argues for arriving on a Monday and leaving on a Friday.",
+      },
+      {
+        heading: "Getting home after the last drink, without a car",
+        body: "No French city does this better. The metro runs until about 1.15am from Sunday to Thursday and about 2.15am on Friday, Saturday and the eve of public holidays. After that the Noctilien night bus network covers the city and the inner suburbs, so a late finish never turns into a problem. Vélib' bikes work around the clock, and a one-day or three-day pass pays for itself the first time you ride home from dinner. The pedestrian pockets of the Marais, the Quartier Latin and Montmartre mean whole evenings happen on foot inside a one-hour radius. Renting a car for a Paris trip is not merely unnecessary, it is actively worse: parking is expensive, much of the centre is restricted, and everywhere you want to be is faster by metro or bike.",
+      },
+      {
+        heading: "The single supplement, and three ways around it",
+        body: "Paris is where the single-room premium hurts most, because average rents drag the whole hotel stock upwards. Three moves work. First, target business hotels from Monday to Thursday: their weekday guests are overwhelmingly travelling alone, rates are set accordingly, and the gap with a tourist hotel inverts at the weekend. Second, compare a short-let studio with a hotel room as soon as you stay two nights or more; a studio is priced by floor area rather than by occupancy, so one person pays what a couple pays, which is often less than a well-placed single room. Third, the better Paris hostels sell private rooms with access to the common areas, which is where you actually meet other people travelling alone. No prices are quoted here on purpose: Paris hotel rates move from one month and one platform to the next, and a figure printed in a guide is out of date before you read it.",
+      },
+      {
+        heading: "When to go: the underrated window is winter",
+        body: "The best month for a solo trip to Paris is neither July nor August. The city empties in summer, neighbourhood bars close for three weeks, the cultural calendar idles, and the atmosphere you came for evaporates. November to March is the opposite, and it is the liveliest stretch of Parisian life, carried by exhibitions, concerts and film festivals. It is cold, but every bar, cafe and restaurant is running at full tilt. September to mid-October is also excellent, with the cultural season restarting, soft light and terraces still open. Avoid the first two weeks of August, the Christmas period when a large share of residents leave, and the big trade fairs, which lift hotel prices by 30 to 60 per cent on specific weekends and are worth checking against your dates before you book.",
+      },
+    ],
+    relatedCities: ["paris"],
+    tags: [
+      "solo travel",
+      "solo travel paris",
+      "travelling alone in france",
+      "single supplement",
+      "paris nightlife",
+      "ile-de-france",
+    ],
+  },
+
+  {
+    slug: "solo-travel-in-lyon-2026",
+    title: "Solo travel in Lyon: bouchons, quays and a city that runs midweek",
+    metaTitle: "Solo Travel in Lyon 2026: Bouchons, Bars, Where to Stay",
+    metaDesc:
+      "Lyon on your own: eating at the counter in a bouchon, which quarter to sleep in, night trams and buses, and dodging the single supplement.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-08-13",
+    updatedAt: "2026-08-13",
+    intro:
+      "Lyon runs at a rhythm that makes solo travel unusually comfortable. It is France's second cultural city, thick with bars, bouchons and barges that trade all week, and it does not depend on holidaymakers to keep the Presqu'île busy. Two hours from Paris by TGV, a metro that connects to the airport train, and a geography compact enough to walk. It is calibrated for a long weekend without a car that fits six outings into three days. This guide covers where to sleep, how to fill a Tuesday evening without landing in an empty room, and how to blunt the single supplement in a city with an unusually deep stock of studio flats.",
+    sections: [
+      {
+        heading: "Why Lyon rather than somewhere else",
+        body: "Lyon combines three things that rarely coincide. A genuinely dense cultural scene beyond the big museums, with the opera, the TNP, arthouse cinemas and, more to the point for a solo traveller, a fabric of small venues that trade all week: cellar gigs, jazz clubs on the Presqu'île, barges moored along the Rhône. A city that stays alive out of season, carried by roughly 160,000 students and its own economy, which sets it apart from showcase towns that empty in October. And a compact urban form in which four separate going-out districts are within twenty minutes of each other on foot or by tram. That combination is why a Wednesday evening in March is not a problem here. English is common in the centre and rarer in neighbourhood bars, which is not an obstacle so much as the reason the evenings are worth having.",
+      },
+      {
+        heading: "Where to stay to be in the middle of it",
+        body: "Three districts stand out. The Presqu'île is the obvious choice, with one of the highest concentrations of nightlife in the city and everything walkable between Bellecour, Terreaux and Cordeliers; hotels cost more, but you buy every connection. La Croix-Rousse is the alternative, a village on the slope with a daily market, wine bars and workshops, and a lived-in character that makes a solo stay feel less anonymous; it is a ten-minute walk down to the Presqu'île. The 7th arrondissement, around La Guillotière and Gerland, is the budget play: young, mixed, very well served by metro lines B and D and trams T1 and T2, with places to go out that do not carry Presqu'île prices. Avoid basing a longer stay in Vieux Lyon, which is magnificent by day but largely touristic and loud at weekends.",
+      },
+      {
+        heading: "Eating alone: the bouchon, the barge, the wine cellar",
+        body: "A bouchon is a traditional Lyonnais bistro, small, loud and built around a short daily menu, and it is the default answer to dining alone without feeling conspicuous: sit at the counter, follow whatever the patron is doing, order from the day's card. Five or six houses carrying the Bouchons Lyonnais label hold the real tradition, on the Presqu'île and in Vieux Lyon. The barges moored along the Rhône, a mix of bars, clubs and gig venues, programme midweek from May to September, with a student peak from Tuesday to Thursday. Out of the warm season the circuit shifts to the natural wine cellars of the Croix-Rousse and the music bars of the 7th. Mid-sized venues such as Ninkasi Gerland, Le Sonic on its barge and Le Marché Gare have something on almost every night. Monday is the dead day in Lyon, with more than half the central restaurants closed, so aim for Tuesday to Friday.",
+      },
+      {
+        heading: "Getting around, including after midnight",
+        body: "Lyon is among the best-calibrated French cities for the hours after midnight without a vehicle. The four metro lines run until around midnight from Sunday to Thursday and about 1am on Friday and Saturday; trams T1 and T2 serve Perrache and Part-Dieu stations late, and the Pleine Lune night buses take over on the main axes until about 4am at weekends. Vélo'v bikes are available around the clock, which is the easiest way home along the Rhône quays after dinner, and a three-day card can be taken out at a docking station. Saint-Exupéry airport connects directly to the centre by the Rhônexpress tram-train, so arriving by air is as workable as arriving by TGV and neither requires a hire car. For a first stay, book within ten minutes of a station on metro line A or B and everything else takes care of itself.",
+      },
+      {
+        heading: "The single supplement in Lyon, and how to blunt it",
+        body: "The single-room premium bites less here than in Paris, because the stock of short-let studios is deep, a direct legacy of student demand and remote work. Two local moves work well. Compare a short-let studio against a hotel room as soon as you are staying more than two nights: a studio on the Presqu'île or at La Guillotière is priced by floor area, so one person pays a couple's rate, generally less than a central single room. And target the business hotels of Part-Dieu or Gerland from Monday to Thursday, where the clientele is solo by default and weekday rates are set for it; Part-Dieu is five minutes by metro from the Presqu'île, so you keep the centre within reach without paying centre prices. No amounts are given here, because rates move by season and by platform.",
+      },
+      {
+        heading: "When to go: the months Lyon is loudest",
+        body: "Two windows stand out. September to mid-November is the cultural restart, with the contemporary art Biennale in odd-numbered years and a programme dense enough to fill every evening. From late November to early December the Fête des Lumières turns the city into a four-night stage; it is a genuine experience, but hotels sell out and it needs booking a long way ahead. March to June is the other good stretch, as the barges and terraces reopen. Avoid the first half of August, when the city empties and many bouchons and bars close, and treat late December as mixed: pretty, but commercial. Whatever the season, Tuesday and Wednesday remain the evenings when you are most likely to find regulars at a counter rather than closed groups at a table.",
+      },
+    ],
+    relatedCities: ["lyon"],
+    tags: [
+      "solo travel",
+      "solo travel lyon",
+      "travelling alone in france",
+      "single supplement",
+      "bouchon lyonnais",
+      "auvergne-rhone-alpes",
+    ],
+  },
+
+  {
+    slug: "solo-travel-in-bordeaux-2026",
+    title: "Solo travel in Bordeaux: wine counters, quarters and no car",
+    metaTitle: "Solo Travel in Bordeaux 2026: Wine Bars, Where to Stay",
+    metaDesc:
+      "Bordeaux on your own: wine bars where you drink at the counter, which quarter to sleep in, trams until 1am, and how to soften the single supplement.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-08-13",
+    updatedAt: "2026-08-13",
+    intro:
+      "Bordeaux suits a solo trip better than its postcard reputation suggests. Inside a two-kilometre radius it packs one of the densest concentrations of wine bars in France, a pedestrianised historic centre that makes an evening out without a car obvious rather than clever, and a cultural scene carried by its students rather than by visitors, which is what keeps it alive out of season. Two hours from Paris by TGV, a tram network that reaches everything, and the Atlantic under an hour away by train when you want a change of air. This guide covers where to stay, how to fill a Tuesday evening in November, and how to smooth out the single supplement in a city with plenty of short-let studios.",
+    sections: [
+      {
+        heading: "Why Bordeaux works for a trip on your own",
+        body: "Three things count here, and they only work taken together. A UNESCO-listed centre where everything from the Chartrons down to Saint-Michel is walkable, which removes the logistics and frees up the evenings. A density of wine merchants, wine bars and cocktail bars above the average for a city of this size, sustained both by local culture and by a young working and student population; the university system counts more than 90,000 enrolled. And a solid cultural programme that does not rely on tourists, with the national opera, the Rocher de Palmer, the Auditorium and a set of arthouse cinemas. The city stays busy midweek, which sharply distinguishes a stay here from a coastal destination that only wakes up on Friday night.",
+      },
+      {
+        heading: "Where to stay to be near the evenings",
+        body: "Three options stand out. Les Chartrons is the default: the liveliest quarter in Bordeaux, thick with brunch spots, galleries and natural wine bars, with a direct tram to Saint-Jean station and a young, mixed feel. Saint-Pierre suits anyone who wants the historic core, with the UNESCO centre, a festive atmosphere and bars and restaurants packed into a pedestrian pocket, at the cost of higher room rates and some street noise at night. Bacalan is the compromise on price: a former industrial quarter around the Cité du Vin, gentrifying, softer hotel rates, direct tram B, and a slightly more alternative feel than the Chartrons. Avoid Mériadeck, which is an office district and dead in the evening, and skip the far right bank for a first visit.",
+      },
+      {
+        heading: "Drinking and eating alone: the counter culture",
+        body: "Bordeaux is lived at the counter. The wine bars of Saint-Pierre and the Chartrons, often run by a merchant who opens the bottle in front of you, are the default way to eat alone without feeling isolated: order by the glass, talk to whoever is pouring and usually to the regulars next to you. Midweek the atmosphere is markedly more local than on a Saturday. Live music runs all week at mid-sized venues, with the Rock School Barbey in the city, the Krakatoa in Merignac and the Rocher de Palmer in Cenon programming most nights at reasonable prices. Arthouse cinemas, the Utopia in the centre and the Jean Eustache in Pessac, are the other fixed points and draw a mixed age range. Monday evening much of the centre closes, so aim for Tuesday to Friday if you want density. One practical note: ordering a glass by name rather than by colour opens more conversations than any amount of English.",
+      },
+      {
+        heading: "Getting around without a car, until closing time",
+        body: "Bordeaux is built for a car-free stay. The tram network, lines A to D, runs until roughly 1am on weekdays and slightly later at weekends, and covers most of the districts you would go out in. The Corol night buses take over on the main axes. The bike is the most efficient way home after a last glass: the city is flat, the cycle network is dense and the VCub scheme runs around the clock. Saint-Jean station is fifteen minutes by tram from the centre, which makes arriving from Paris or Toulouse painless, and Merignac airport is connected directly by the dedicated airport bus. For a long weekend, a hire car adds cost and parking problems and buys you nothing.",
+      },
+      {
+        heading: "The single supplement in Bordeaux",
+        body: "Bordeaux sits between Paris and Lyon on hotel pressure: the single-room premium exists but is far more digestible than in the capital. Three habits pay off. Ask explicitly for a single room rather than a double for single occupancy, since the second category is often the full double price with a token discount. Compare a short-let studio with a hotel as soon as you stay more than two nights; the studio stock is deep in the centre, in Bacalan and at La Bastide, and the nightly rate makes sense from three nights. And look at the better hostels around the Chartrons, which sell private rooms with access to the common areas, where meeting other people travelling alone actually happens. No figures are quoted here: rates shift by month and by platform.",
+      },
+      {
+        heading: "When to go, including a winter secret",
+        body: "Bordeaux is pleasant from May to mid-October, with terrace life peaking in June and September: mild rather than crushing, a full cultural programme and long days. Check your dates against Vinexpo, held every two years, which sends hotel prices through the roof for a week. Bordeaux Fête le Vin, in late June of even-numbered years, turns the centre into a four-day stage and is worth seeing, but accommodation has to be booked well ahead. The winter secret: January to March are quiet touristically while local life carries on at full strength, which means softer hotel rates and wine bars where you can actually hold a conversation at the counter. Avoid the first two weeks of August, thinner on the restaurant side, and Monday evening year-round.",
+      },
+    ],
+    relatedCities: ["bordeaux"],
+    tags: [
+      "solo travel",
+      "solo travel bordeaux",
+      "travelling alone in france",
+      "single supplement",
+      "wine bars bordeaux",
+      "nouvelle-aquitaine",
+    ],
+  },
+
+  {
+    slug: "solo-travel-in-lille-2026",
+    title: "Solo travel in Lille: estaminets, Eurostar and the easiest counter in France",
+    metaTitle: "Solo Travel in Lille 2026: Estaminets, Where to Stay",
+    metaDesc:
+      "Lille on your own: 80 minutes from London, estaminets where eating alone is normal, driverless metro past midnight, and a mild single supplement.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-08-13",
+    updatedAt: "2026-08-13",
+    intro:
+      "Lille is probably the most efficient French city for a solo trip outside the obvious names, and for English speakers it is also the closest. Geography explains part of it: eighty minutes from London by Eurostar, an hour from Paris by TGV, thirty-five minutes from Brussels, with Lille-Flandres station sitting inside the historic centre and a driverless metro that reaches everything. You arrive and you are out of your bag in half an hour. The real asset is elsewhere, though. The Flemish cafe and estaminet culture makes eating alone at a counter completely unremarkable, and roughly 110,000 students across the metropolitan area keep weeknights busy all year. This guide covers where to stay, how to avoid doing the same three bars on a loop, and why the single supplement is gentler here than almost anywhere in France.",
+    sections: [
+      {
+        heading: "Why Lille rather than somewhere else",
+        body: "Lille assembles what few French cities do. A cultural weight out of proportion to its size, with the Palais des Beaux-Arts, the second largest museum in France by floor area after the Louvre, plus the LaM, the opera, the Théâtre du Nord and a constellation of mid-sized stages. One of the strongest public transport networks in the country, which removes the logistics entirely. And above all the Flemish counter culture, in which you walk into an estaminet alone, order a beer on tap and end up talking to the landlord and the people either side of you; it is an everyday practice, not a tourist set-piece. Add daily international access by Eurostar and high-speed trains to Belgium, the student population, and the sheer intensity of the Braderie at the start of September, and you have arguably the densest French destination for a solo trip that is looking for company.",
+      },
+      {
+        heading: "Where to stay: Vieux-Lille, Wazemmes, République",
+        body: "Three districts stand out. Vieux-Lille is the default: an entirely pedestrian Flemish old town of cobbled lanes with an unmatched density of bars, brasseries and restaurants, all walkable, busy with students and young professionals from Tuesday to Saturday. Room rates are reasonable and the noise on Thursday to Saturday nights is the price of the location. Wazemmes is the younger, more working-class alternative, a former industrial quarter now gentrifying around a daily market that explodes on Sunday morning, with wine bars and alternative venues, ten minutes on foot from the centre. République-Beaux-Arts is the calm compromise, around the museum, with metro and tram at the door, a quieter feel and a seven-minute walk to the Grand-Place. Avoid Euralille if the evenings are the point, since it is an office district and empties after dark.",
+      },
+      {
+        heading: "Eating and drinking alone: estaminets and beer",
+        body: "An estaminet is a traditional Flemish tavern, wood-panelled, built around beer and slow-cooked food, and it is the single easiest room in France to walk into on your own. Order a carbonnade at the counter and the conversation tends to start itself. Lille concentrates more craft beer and more beer-led bars than any other French city, with the traditional estaminets in Vieux-Lille and the wine bars and alternative addresses in Wazemmes. On the music side the Aéronef, La Malterie and Le Splendid programme mid-sized gigs several nights a week at very reasonable prices, while the Opéra de Lille and the Théâtre du Nord cover the classical and theatre end. One event to know about: on the first weekend of September the Grande Braderie turns the whole city into a giant flea market for 48 hours with two all-night sessions and more than two million visitors, an experience that exists nowhere else in France and needs booking months ahead. Sunday evening is the flat spot; aim for Tuesday to Saturday.",
+      },
+      {
+        heading: "Getting around, and crossing a border for the day",
+        body: "Lille is built for travelling without a car and has one of the best transport networks in the country. The two VAL metro lines are fully automated and run until roughly half past midnight on weekdays and about 1am at weekends, covering both stations, Lille-Flandres and Lille-Europe, and every going-out district. Trams link the city to Roubaix and Tourcoing. Cycling is easy on flat ground, with the V'Lille hire scheme and a network that has thickened considerably. Lille-Lesquin airport is thirty minutes away by shuttle. The unique feature, though, is the international access: Brussels in thirty-five minutes, London in eighty, which lets you bolt a day in Belgium or England onto a French trip without ever renting a car. British travellers should factor in that border checks happen before boarding, not on arrival.",
+      },
+      {
+        heading: "The single supplement, and why it is mild here",
+        body: "Lille is one of the large French cities where the single-room premium bites least, for two structural reasons. The short-let studio stock is deep, inherited from student demand and a young working population. And the hotel trade is heavily shaped by weekday business travel, cross-border and logistics, which indexes rates to solo occupancy. Three moves work. Compare a furnished studio with a hotel from two nights onwards: studios in Vieux-Lille, Wazemmes and République are priced by floor area, so one person pays a couple's rate, usually less than a central single room. Target the business hotels around Euralille from Monday to Thursday, where weekday rates invert at the weekend. And look at the hostels near République for private rooms at softer rates with common areas that make meeting people straightforward. No rates are quoted here, because they move too fast to print.",
+      },
+      {
+        heading: "When to go: the Braderie, and the quieter windows",
+        body: "Two opposite windows are worth knowing. The first weekend of September is the Grande Braderie, a 48-hour continental event with more than two million visitors: electric, unrepeatable, and requiring accommodation booked around six months ahead at multiplied rates. For a quieter and arguably more authentic solo trip, September outside the Braderie through to mid-November is the best stretch: the student year is in full swing, terraces are still open in September, and the atmosphere is local rather than rushed. December has its own appeal with the Christmas market on the Grand-Place, though weekends get crowded. Avoid the first half of August, when neighbourhood addresses close, and Sunday evening year-round. Tuesday to Thursday remain the nights when the room around you is made of locals.",
+      },
+    ],
+    relatedCities: ["lille"],
+    tags: [
+      "solo travel",
+      "solo travel lille",
+      "travelling alone in france",
+      "single supplement",
+      "estaminets lille",
+      "hauts-de-france",
+    ],
+  },
+
+  {
+    slug: "solo-travel-in-strasbourg-2026",
+    title: "Solo travel in Strasbourg: winstubs, trams and Germany by bike",
+    metaTitle: "Solo Travel in Strasbourg 2026: Winstubs, Where to Stay",
+    metaDesc:
+      "Strasbourg on your own: shared tables in a winstub, which quarter to sleep in, trams until half past midnight, and Germany ten minutes away by bike.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-08-13",
+    updatedAt: "2026-08-13",
+    intro:
+      "Strasbourg is probably the most underrated French city for a solo trip. It combines a UNESCO-listed centre small enough to cross on foot, a cafe and winstub culture that makes eating alone at a counter or a shared table straightforward, and a resident population of students and European institution staff that keeps the city busy all year, weeknights included. Two hours from Paris by TGV, a tram network that reaches literally everything, and Germany ten minutes away by bike when you want a change of country in the middle of an afternoon. This guide covers where to stay, how to fill a Tuesday evening without landing in an empty room, and how to smooth out the single supplement in a city cheaper than its reputation.",
+    sections: [
+      {
+        heading: "Why Strasbourg suits travelling alone",
+        body: "Three things work in concert here. An unusually compact urban fabric: you walk everywhere from the Grande Île and the tram covers the rest, which removes the logistics and frees the evenings. A local culture of the cafe and the winstub that makes walking into a room alone far easier than in a city where going out happens in closed groups; you sit at the counter or at a shared table, order a pinot gris or a beer, and talk. And a very active year-round resident population, with more than 50,000 students, a large European community and the permanent presence of the institutions, which guarantees that the cultural programme runs Monday to Saturday. That is exactly the combination you want when you are travelling alone and would like company without having to force it. German is as useful as English here, and neither is necessary to be served politely.",
+      },
+      {
+        heading: "Where to stay to be in the middle of it",
+        body: "La Krutenau is the default: a lively student quarter with one of the highest concentrations of nightlife in the city, bars, canals, a strong cycling culture and a bohemian feel, five minutes on foot from the cathedral. It is where you are most likely to meet other people out on their own. The Grande Île suits anyone who wants the UNESCO core: unbeatable as a setting, everything walkable, but pricier, more touristic and slightly quieter midweek than the Krutenau. La Robertsau is the calm compromise, a village inside the city bordered by the Rhine forest, well connected by tram line E, with softer hotel rates and fifteen minutes to the centre. Avoid the Étoile-Neuhof sector for a first visit, and the purely institutional Wacken area, which empties after 8pm.",
+      },
+      {
+        heading: "Eating alone: the winstub and the shared table",
+        body: "A winstub is a traditional Alsatian tavern where you eat at the counter or at a large communal table, and it is the ideal room for dining alone without feeling isolated: you share the table, you order by the glass, conversation follows without anyone having to engineer it. La Krutenau concentrates the student bars and the more contemporary wine cellars, with places open late every day of the week. On the music side, La Laiterie and Le Molodoï programme gigs and underground nights several times a week at very reasonable prices, while the TNS and the Opéra national du Rhin cover theatre and classical. Sunday evening a lot of the outer quarters shut, so aim for Tuesday to Friday for the best local density. If you order in French, note that the local wine list is read by grape rather than by chateau, which is the opposite habit to Bordeaux.",
+      },
+      {
+        heading: "Getting around: tram, bike, and a bridge to Germany",
+        body: "Strasbourg is built for a car-free stay and has one of the strongest transport networks in the country. The six tram lines, A to F, run until about half past midnight on weekdays and slightly later at weekends, covering the station, every going-out district, Entzheim airport and even the neighbouring communes. Buses fill in the gaps and a night service takes over on the main axes at weekends. The bike is king here: Strasbourg is the leading French cycling city measured in kilometres of path relative to its area, it is flat, and the Vélhop scheme covers short-term hire. The bridge across to Kehl in Germany takes ten minutes on foot or by bike, which puts a day in another country within reach without any planning at all. A car is never needed.",
+      },
+      {
+        heading: "The single supplement, and how to blunt it",
+        body: "Strasbourg remains one of the French cities where the single-room premium is most digestible, because the hotel market is heavily shaped by solo business and institutional travel. Three local moves work particularly well. Target the business hotels of the Wacken and European quarter or the station sector from Monday to Thursday: their weekday clientele is almost entirely travelling alone, rates are set for it, and the gap with a tourist hotel on the Grande Île inverts on Friday evening. Compare a short-let studio with a hotel from two nights onwards; the studio stock is decent in the Krutenau and the Neustadt. And look at the better central hostels, which sell private rooms with common areas and are unusually well placed for meeting other solo travellers. No rates are printed here: they move by season and by platform.",
+      },
+      {
+        heading: "When to go: the Christmas market, and the quiet windows",
+        body: "Two very different windows. From late November to the end of December the Christmas market turns the Grande Île into a five-week stage, an atmosphere with no equivalent in Europe, but heavily attended at weekends and with hotels sold out months ahead. The quieter and arguably more rewarding window for a solo trip is September to mid-November: the university year is in full swing, terraces are still open, and the mood is local rather than rushed. Spring, April to June, is equally good, with quayside terraces reopening and easy rides across into Germany. Avoid the first half of August, which is flat, and check your dates against the European Parliament session weeks, roughly one per month, which push hotel prices up. Wednesday and Thursday remain the best evenings for local density.",
+      },
+    ],
+    relatedCities: ["strasbourg"],
+    tags: [
+      "solo travel",
+      "solo travel strasbourg",
+      "travelling alone in france",
+      "single supplement",
+      "winstub alsace",
+      "grand-est",
+    ],
+  },
+
+  {
+    slug: "solo-travel-in-toulouse-2026",
+    title: "Solo travel in Toulouse: Carmes, rugby Saturdays and a long terrace season",
+    metaTitle: "Solo Travel in Toulouse 2026: Carmes, Bars, Where to Stay",
+    metaDesc:
+      "Toulouse on your own: wine bars in the Carmes, rugby nights where strangers talk, metro to midnight, and a single supplement softened by student studios.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-08-13",
+    updatedAt: "2026-08-13",
+    intro:
+      "Toulouse is the best French city for a solo trip when what you want is a mild climate and a large city that never quite goes quiet. The pink brick sets the scene, but what matters to a traveller on their own is elsewhere: France's fourth city, around 130,000 students, a rugby culture that gives the calendar its rhythm from autumn to May, a compact historic centre you can cross from the Carmes to Saint-Cyprien in twenty minutes, and a bar trade that runs all week because the resident population sustains it. This guide covers where to stay, how to line up a Tuesday evening without ending up in an empty room, and how to smooth the single supplement in a city whose rental stock is built around student demand.",
+    sections: [
+      {
+        heading: "Why Toulouse rather than somewhere else",
+        body: "Toulouse ticks three boxes that rarely appear together. Metropolitan scale, which guarantees choice, with the strongest cultural offer in the south-west and a continuous programme carried by the national orchestra, the Théâtre du Capitole, the Metronum and a set of mid-sized stages. A real student mass, around 130,000 across the urban area, which keeps weeknights busy even in February and clearly separates Toulouse from a tourist town that empties outside the holidays. And a climate that stretches the terrace season from March to November, which changes how evenings work: you talk outside, you cross more people, you do not have to squeeze into a crowded room to be among others. That is the exact combination for a long solo weekend that depends on neither the weather nor the school calendar.",
+      },
+      {
+        heading: "Where to stay: Carmes, Saint-Cyprien, Saint-Étienne",
+        body: "Three districts dominate for a trip built around the evenings. Les Carmes is the default: a pedestrian historic core with one of the highest concentrations of nightlife in the city, thick with wine bars, bistros and cellars, and an easy counter culture for eating alone. Room rates are reasonable next to Bordeaux, and the Thursday to Saturday noise is the price of being central. Saint-Cyprien, across the Garonne, is the younger and more mixed alternative: a former working-class quarter gentrifying around the Cristal market, with an underground feel, softer hotel rates and fifteen minutes on foot to the centre. Saint-Étienne is the calm compromise, a bourgeois quarter around the cathedral, walkable and quieter than the Carmes. Avoid Compans-Caffarelli, which is an office district and dead in the evening, and skip the southern Mirail sector for a first visit.",
+      },
+      {
+        heading: "Eating and drinking alone: counters, brasseries and match nights",
+        body: "Going out midweek takes no effort in Toulouse. The Carmes concentrate the wine bars and merchant-bistros that make dining alone at a counter natural. Saint-Cyprien alternates student bars, brasseries and more fashionable addresses, and it does not go quiet on a Tuesday. On the music side the Metronum and Le Bikini programme mid-sized gigs several nights a week at fair prices, while the Théâtre du Capitole and the Halle aux Grains keep the classical and operatic end dense. Rugby adds something a visitor rarely expects: on Stade Toulousain match days at Ernest-Wallon, the bars of the Carmes and Saint-Cyprien show the game, the room is local, and people talk to strangers as a matter of course. It is the single easiest way into a conversation in this city, and you do not need to understand the sport to be included. Sunday evening much of the centre closes; aim for Tuesday to Saturday.",
+      },
+      {
+        heading: "Getting around without a car",
+        body: "Toulouse is correctly equipped for a car-free stay at its size. The two metro lines, A and B, run until about midnight from Sunday to Thursday and slightly later on Friday and Saturday, covering Matabiau station and, via a tram connection, the airport. Trams T1 and T2 extend west towards Blagnac. Noctambus night buses take over on the main axes at weekends. Cycling works well in the centre, which is flat apart from the rise towards Jolimont, and the VélôToulouse scheme runs around the clock. Matabiau station is five minutes by metro from the Carmes, which makes arriving from Paris or Bordeaux painless, and the airport is about thirty minutes away by tram T2 plus shuttle. For a long weekend a car adds nothing.",
+      },
+      {
+        heading: "The single supplement in Toulouse",
+        body: "Toulouse is one of the large French cities where the single-room premium bites least, because the short-let studio stock is deep, a direct legacy of the student demand that shapes the local property market. Three local habits work. Compare a furnished studio with a hotel as soon as you stay two nights or more: studios in the Carmes, Saint-Étienne and Saint-Cyprien are priced by floor area, so one person pays a couple's rate, often less than a central single room. Target the business hotels around Matabiau or Compans-Caffarelli from Monday to Thursday, where weekday rates are set for solo occupancy and invert at the weekend. And look at the contemporary central hostels, which sell private rooms with common areas and are well placed for meeting other people travelling alone. No amounts are quoted here: prices move by season and by platform.",
+      },
+      {
+        heading: "When to go, including a winter secret",
+        body: "Toulouse is pleasant from March to November, with terrace life peaking in June and September. The most rewarding window for an authentic solo trip is September to mid-November: the university year is loaded, there is a rugby fixture every couple of weeks, the orchestral and Capitole seasons restart, and terraces are still open. Rio Loco in June adds free music on the Prairie des Filtres. The winter secret is that January to March are touristically quiet while local life runs at full strength, which means softer hotel rates and a cultural calendar that does not slow down. Avoid the first half of August, when the city is flat and many addresses close, and Sunday evening year-round. Tuesday to Thursday remain the nights with the highest local density, which is what you want if the point is to get out of the visitor circuit.",
+      },
+    ],
+    relatedCities: ["toulouse"],
+    tags: [
+      "solo travel",
+      "solo travel toulouse",
+      "travelling alone in france",
+      "single supplement",
+      "les carmes toulouse",
+      "occitanie",
+    ],
+  },
+
+  {
+    slug: "solo-travel-in-montpellier-2026",
+    title: "Solo travel in Montpellier: the Écusson, long terraces and no car",
+    metaTitle: "Solo Travel in Montpellier 2026: Écusson, Where to Stay",
+    metaDesc:
+      "Montpellier on your own: a medieval centre you cross in twenty minutes, terraces open from March to November, late trams, and a mild single supplement.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-13",
+    updatedAt: "2026-08-13",
+    intro:
+      "Montpellier is the best French city for a solo trip when you want a Mediterranean climate and a place that keeps running all year. Three hours from Paris by TGV, a pedestrian medieval centre, a student population close to a third of the residents, and terraces that stay open months longer than elsewhere in France. That last point matters more than it sounds when you are travelling alone: an evening spent outside puts you among people without having to push into a crowded bar. This guide covers where to stay, how to fill a Tuesday evening without landing in an empty room, and how to smooth the single supplement in a city whose studio stock is built around student demand.",
+    sections: [
+      {
+        heading: "Why Montpellier for a solo trip",
+        body: "Three assets rarely coincide in one city. The Mediterranean climate, which stretches the terrace season from March to November and changes the shape of an evening: you talk outside, you cross more people, and you are not obliged to squeeze into a busy room to be in company. A large student population, around 70,000 across three universities, which sustains nightlife all week, including out of season. And unusual compactness: the Écusson, the medieval core, sits inside a one-kilometre radius and is crossed on foot in twenty minutes, which removes the logistics entirely. Put together, that is why a Tuesday evening in November in Montpellier feels like a Friday in an inland city of the same size.",
+      },
+      {
+        heading: "Where to stay to be near the evenings",
+        body: "The Écusson is the default: a pedestrian medieval centre with one of the highest concentrations of nightlife in France, everything walkable between the place de la Comédie and the place Jean Jaurès, and student energy all week. Hotel rates are softer than in Nice or Aix-en-Provence, and Thursday to Saturday nights are noisy, which is the price of being in the middle. Antigone is the calm compromise: a neoclassical quarter designed by Ricardo Bofill along the Lez, ten minutes on foot from the Comédie and very well served by tram. Port Marianne suits anyone who prefers the modern city and the lake, quieter in the evening, direct tram to the centre and gentler rates. Avoid the northern and eastern peripheral quarters for a short stay.",
+      },
+      {
+        heading: "Eating and drinking alone: the terraces that stay open",
+        body: "The real Montpellier advantage for a solo traveller is the extended terrace season. From March to November you eat outside, carry on with a glass next door and cross people without ever having to enter a packed bar. The place Jean Jaurès concentrates the tapas places, wine bars and restaurants that stay open late, with the student crowd as a backdrop. The place de la Canourgue and the rue de l'Aiguillerie offer a more local, less touristic alternative. On the music side the Rockstore, Le Jam and the Théâtre Jean Vilar programme mid-sized gigs several nights a week at very reasonable prices. Avoid Monday, which is flat, and Sunday evening, when many places close; aim for Tuesday to Saturday. In high summer the city fills with visitors and the local energy dilutes, which is the paradox of this destination: out of season is when you meet actual residents.",
+      },
+      {
+        heading: "Getting around: tram and walking",
+        body: "Montpellier is built for a car-free stay and has one of the strongest transport networks among mid-sized French cities. The four tram lines run until around midnight on weekdays and slightly later at weekends, covering Saint-Roch station, every going-out district, the beach at Palavas via line 3 in summer and the airport via a shuttle. Buses fill the gaps. Cycling is easy on flat ground with the Vélomagg hire scheme and a network that has thickened considerably. Saint-Roch station is a five-minute walk from the Comédie, which makes arriving from Paris or Marseille immediate, and a day trip to Sète or Nîmes is twenty-five minutes each by regional train. A stay here works entirely without a car, including the sea.",
+      },
+      {
+        heading: "The single supplement in Montpellier",
+        body: "Montpellier is one of the French cities where the single-room premium counts for least, because the property market is heavily shaped by student demand and the short-let studio stock is deep. Three local moves work. Compare a furnished studio with a hotel as soon as you stay two nights or more: studios in the Écusson, Antigone and Port Marianne are priced by floor area, so one person pays a couple's rate, often less than a central single room. Target the business hotels around the station and Odysseum from Monday to Thursday, where weekday rates are set for solo guests. And look at the contemporary central hostels, which sell private rooms with common areas and are well placed for meeting other solo travellers. No amounts are quoted: prices move too fast to print.",
+      },
+      {
+        heading: "When to go",
+        body: "The most rewarding window for an authentic solo trip is September to mid-November: the student year is loaded, terraces are open all day, temperatures are still Mediterranean and the mood is local. April to June is equally good, with terraces reopening and the best of the climate. July and August are mixed: the city fills with visitors and holidaymakers, hotel prices rise and a share of residents leave, so local energy dilutes. The Radio France festival in July and the Cinémed film festival in October add evenings if your dates match. Avoid the first half of August specifically, and Monday evening year-round. Wednesday, Thursday and Friday remain the nights with the highest local density.",
+      },
+    ],
+    relatedCities: ["montpellier"],
+    tags: [
+      "solo travel",
+      "solo travel montpellier",
+      "travelling alone in france",
+      "single supplement",
+      "ecusson montpellier",
+      "occitanie",
+    ],
+  },
+
+  {
+    slug: "solo-travel-in-nantes-2026",
+    title: "Solo travel in Nantes: Bouffay, the Île de Nantes and a midweek scene",
+    metaTitle: "Solo Travel in Nantes 2026: Bouffay, Bars, Where to Stay",
+    metaDesc:
+      "Nantes on your own: a pedestrian centre where the bars run midweek, trams past midnight, the ocean forty minutes away, and a soft single supplement.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-08-13",
+    updatedAt: "2026-08-13",
+    intro:
+      "Nantes is one of the best-placed French cities for a solo trip, for concrete reasons: a pedestrian medieval centre where everything is done on foot, a tram network that reaches absolutely everything until late, a dense cultural fabric carried by a young population and an active alternative scene, and above all a neighbourhood life that does not depend on holidaymakers to keep going. Two hours from Paris by TGV, the Atlantic forty minutes away by train for a day out, and a deserved reputation as a city that goes out on weeknights. This guide covers where to stay, how to line up a Tuesday evening without ending up in an empty room, and how to make a solo stay work in a city with a large stock of studio flats.",
+    sections: [
+      {
+        heading: "Why Nantes when you are travelling alone but want company",
+        body: "Nantes accumulates what a daytime visitor does not always see: a very active underground cultural scene, a fabric of bars and gigs that trades from Tuesday to Saturday, and a local cafe culture that makes walking into a room alone and starting a conversation straightforward. The city has close to 60,000 students and a substantial creative community around the Île de Nantes, which explains the density of midweek programming. Unlike more seaside or more heritage-led destinations, Nantes does not slow down in October: the brasseries of the Bouffay trade all year, the programmes at the Lieu Unique, TU-Nantes and Stereolux are continuous, and student life sets the tempo. That is exactly what you want from an out-of-season solo trip.",
+      },
+      {
+        heading: "Where to stay to maximise the evenings",
+        body: "Le Bouffay is the default: a pedestrian historic centre with one of the highest concentrations of nightlife in the city, everything walkable between bars, restaurants and arthouse cinemas such as Le Cinématographe and the Katorza, with a direct tram to the station. It is loud at weekends but unbeatable for a three-day trip built around going out. The Île de Nantes is the more design-led alternative: a neo-industrial new heart with startups, coworking spaces and the Machines de l'Ile, ten minutes on foot from the station, a more contemporary setting and often softer hotel rates. Saint-Félix suits anyone who prefers a quieter bourgeois quarter that is still well connected, with handsome nineteenth-century buildings and fifteen minutes to the centre by tram. Avoid Zola for a short stay, interesting but peripheral, and the purely business Euronantes area, which empties after 8pm.",
+      },
+      {
+        heading: "Eating and drinking alone: a scene that runs all week",
+        body: "Nantes is probably one of the easiest French cities in which to go out alone on a Tuesday, because the counter-and-cafe culture is real rather than decorative. The Bouffay concentrates enough that you can eat and then drink without changing quarter, with old-school addresses next to newer natural wine bars. The triangle of Stereolux, the Lieu Unique and Trempolino programmes gigs and mid-sized nights several times a week, often at fair prices, and it is probably the best way into a conversation with strangers about music. The Katorza and Le Cinématographe screen almost every evening, frequently with talks and Q and As, which is the other easy room to be alone in without being alone. Monday evening is flat, as in much of France; aim for Tuesday to Thursday for local density and Friday to Saturday if you want a crowd.",
+      },
+      {
+        heading: "Getting around: tram, Bicloo, walking",
+        body: "Nantes is built for a car-free stay and has one of the best transport networks in its category. The three tram lines run until roughly half past midnight on weekdays and slightly later at weekends, covering every going-out district, the station and the north of the city. Chronobus routes fill the daytime gaps and the Luciole night service takes over on the main axes. The Bicloo bike scheme runs around the clock, which is the easy way home along the Erdre after dinner, and short-term registration is done at the docking station. The centre is entirely flat, so cycling is obvious even without local habits. The station is five minutes by tram from the Bouffay and the airport is served by a regular shuttle. A hire car buys nothing on a long weekend here.",
+      },
+      {
+        heading: "The single supplement in Nantes",
+        body: "Nantes is one of the large French cities where the single-room premium bites least, essentially because the short-let studio stock is dense, a direct legacy of the student and remote-work demand that shapes the local market. Three habits work particularly well. Compare a furnished studio with a hotel as soon as you stay two nights or more: studios on the Île de Nantes, in the Bouffay and at La Madeleine are priced by floor area, so one person pays a couple's rate, often less than a central single room. Target the business hotels around Euronantes and the station from Monday to Thursday, where weekday rates are indexed to solo guests. And look at the contemporary central hostels for private rooms with common areas, where you actually cross other people travelling alone. No prices are printed here, because they move too fast.",
+      },
+      {
+        heading: "When to go: Le Voyage à Nantes, and the quieter window",
+        body: "Two windows stand out. From early July to early September, Le Voyage à Nantes turns the city into an open-air contemporary art trail with a programme that spills into the evenings: a very particular, very festive atmosphere, but tighter accommodation that needs booking ahead. The second window, quieter and arguably better for an authentic solo trip, is September to mid-November: a loaded cultural restart, terraces still open in September, and a local mood without the rush. Spring, April to June, is also pleasant as the quayside terraces reopen. Avoid the first half of August, when many neighbourhood addresses close, and Sunday evening year-round, which is flat here. Wednesday and Thursday remain the nights when the local scene is at its liveliest outside events.",
+      },
+    ],
+    relatedCities: ["nantes"],
+    tags: [
+      "solo travel",
+      "solo travel nantes",
+      "travelling alone in france",
+      "single supplement",
+      "le bouffay nantes",
+      "pays-de-la-loire",
+    ],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

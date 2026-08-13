@@ -3020,6 +3020,46 @@
       "slug": "studying-in-limoges-2026",
       "title": "Studying in Limoges (2026): a French degree without the debt",
       "emoji": "🎓"
+    },
+    {
+      "slug": "solo-travel-in-paris-2026",
+      "title": "Solo travel in Paris: where to stay, where to drink, when to go",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-lyon-2026",
+      "title": "Solo travel in Lyon: bouchons, quays and a city that runs midweek",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-bordeaux-2026",
+      "title": "Solo travel in Bordeaux: wine counters, quarters and no car",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-lille-2026",
+      "title": "Solo travel in Lille: estaminets, Eurostar and the easiest counter in France",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-strasbourg-2026",
+      "title": "Solo travel in Strasbourg: winstubs, trams and Germany by bike",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-toulouse-2026",
+      "title": "Solo travel in Toulouse: Carmes, rugby Saturdays and a long terrace season",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-montpellier-2026",
+      "title": "Solo travel in Montpellier: the Écusson, long terraces and no car",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-nantes-2026",
+      "title": "Solo travel in Nantes: Bouffay, the Île de Nantes and a midweek scene",
+      "emoji": "🍸"
     }
   ],
   "tags": [
@@ -3051,16 +3091,21 @@
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 34
+      "count": 36
     },
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 29
+      "count": 30
     },
     {
       "slug": "grand-est",
       "label": "grand est",
+      "count": 25
+    },
+    {
+      "slug": "ile-de-france",
+      "label": "ile de france",
       "count": 24
     },
     {
@@ -3074,8 +3119,8 @@
       "count": 24
     },
     {
-      "slug": "ile-de-france",
-      "label": "ile de france",
+      "slug": "hauts-de-france",
+      "label": "hauts-de-france",
       "count": 23
     },
     {
@@ -3084,14 +3129,9 @@
       "count": 23
     },
     {
-      "slug": "hauts-de-france",
-      "label": "hauts-de-france",
-      "count": 22
-    },
-    {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 20
+      "count": 21
     },
     {
       "slug": "expat-single-parent",
@@ -3114,6 +3154,11 @@
       "count": 17
     },
     {
+      "slug": "pays-de-la-loire",
+      "label": "pays de la loire",
+      "count": 16
+    },
+    {
       "slug": "budget",
       "label": "budget",
       "count": 15
@@ -3126,11 +3171,6 @@
     {
       "slug": "expat",
       "label": "expat",
-      "count": 15
-    },
-    {
-      "slug": "pays-de-la-loire",
-      "label": "pays de la loire",
       "count": 15
     },
     {
@@ -3196,6 +3236,21 @@
     {
       "slug": "auvergne",
       "label": "auvergne",
+      "count": 8
+    },
+    {
+      "slug": "single-supplement",
+      "label": "single supplement",
+      "count": 8
+    },
+    {
+      "slug": "solo-travel",
+      "label": "solo travel",
+      "count": 8
+    },
+    {
+      "slug": "travelling-alone-in-france",
+      "label": "travelling alone in france",
       "count": 8
     },
     {
