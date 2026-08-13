@@ -3,6 +3,7 @@
  * F62 phase 2 — protected areas (INPN / MNHN) for the 540 seed cities.
  *
  *   node scripts/city-protected-areas.mjs sources    # which files this needs, and where they come from
+ *   node scripts/city-protected-areas.mjs fetch      # download them from data.gouv.fr (--dry-run to just look)
  *   node scripts/city-protected-areas.mjs selftest   # geometry checks against analytic answers
  *   node scripts/city-protected-areas.mjs probe --slug=lyon
  *   node scripts/city-protected-areas.mjs            # ingest → data/city-protected-areas.json
@@ -16,17 +17,23 @@
  * is why it carries the heaviest weight in lib/biodiversity.ts, and why the
  * aggregate score stays null until this file has data.
  *
- * ── No network here ───────────────────────────────────────────────────────
+ * ── Two stages, one of which touches the network ──────────────────────────
  *
- * Unlike the GBIF crawler, this stage reads FILES, not an API. The INPN
- * zonings are published as national shapefile/GeoJSON downloads, which is what
- * a static build wants anyway: one download, then a deterministic local pass.
- * Put the layers in .cache/city-protected-areas/sources/ (or point --src at a
- * directory) and run the ingest. `sources` prints exactly what is expected.
+ * The ingest reads FILES, not an API: the INPN zonings are published as
+ * national shapefile/GeoJSON downloads, which is what a static build wants
+ * anyway — one download, then a deterministic local pass over
+ * .cache/city-protected-areas/sources/ (or --src=<dir>).
+ *
+ * `fetch` is the stage that fills that directory, added 2026-08-13. Until then
+ * a human had to find, download and reproject seven layers by hand, which is
+ * why this component sat at 0/540 for six weeks while the GBIF crawl finished
+ * all 540 cities. It resolves the MNHN datasets on data.gouv.fr **by slug**,
+ * downloads the resources, unpacks and reprojects them.
  *
  * The cloud runner's egress policy refuses inpn.mnhn.fr and data.gouv.fr
- * (403 CONNECT, re-tested 2026-08-01), so the download step is a local pass —
- * same constraint as the Insee, Overpass and GBIF pipelines before it.
+ * (403 CONNECT, re-tested 2026-08-13), so `fetch` runs on the local machine —
+ * same constraint as the Insee, Overpass and GBIF pipelines before it. What
+ * changed is that it is now one command there instead of a manual hunt.
  *
  * ── Method: rasterise, don't sum ──────────────────────────────────────────
  *
@@ -53,6 +60,10 @@ import fs from "node:fs/promises";
 import { createReadStream } from "node:fs";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
+import { execFile as execFileCb } from "node:child_process";
+import { promisify } from "node:util";
+
+const execFile = promisify(execFileCb);
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const CACHE_DIR = path.join(ROOT, ".cache", "city-protected-areas");
@@ -66,6 +77,7 @@ const opt = (n) => args.find((a) => a.startsWith(`--${n}=`))?.split("=")[1];
 const ONLY_SLUG = opt("slug") ?? null;
 const SRC_DIR = opt("src") ?? SOURCE_DIR;
 const LIMIT = Number(opt("limit") ?? Infinity);
+const DRY_RUN = args.includes("--dry-run");
 
 const log = (...a) => console.log(...a);
 
@@ -109,43 +121,76 @@ const PROTECTION_WEIGHT = {
 };
 
 /**
+ * Names are normalised before any `match` regex is tested: lowercased,
+ * diacritics folded, then every run of non-alphanumerics collapsed to a single
+ * space.
+ *
+ * Two things this buys. `\b` starts meaning what it looks like it means —
+ * without it, `znieff_type_ii_continental` has no word boundary around `ii`
+ * (underscore is a word character to a JS regex), so the type-I and type-II
+ * patterns had to be written with lookaheads, and one of them was wrong (see
+ * LAYERS). And « Réserves naturelles » stops being unmatchable: the accented
+ * letters are not in `[a-z]`, so folding them is the difference between
+ * recognising the file the MNHN actually publishes and reporting the layer
+ * missing.
+ */
+function normalizeName(s) {
+  return s
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+/**
  * The layers to ingest, and how to recognise their files.
  *
- * `match` is tested against the lowercased filename, so the operator can drop
- * the INPN downloads in with whatever names they arrive under. `idFields` and
- * `nameFields` are tried in order against each feature's properties, with a
- * generic fallback (see pickField) — INPN attribute names differ from layer to
- * layer and between vintages.
+ * `match` is tested against the NORMALISED filename (see normalizeName), so the
+ * operator can drop the INPN downloads in with whatever names they arrive
+ * under. `idFields` and `nameFields` are tried in order against each feature's
+ * properties, with a generic fallback (see pickField) — INPN attribute names
+ * differ from layer to layer and between vintages.
  *
  * ⚠️ @unverified — written without access to the actual files (inpn.mnhn.fr is
- * blocked from this environment). The field-name candidates below are
+ * blocked from this environment, and was itself offline from 2025-07-26 to
+ * 2026-07-22 — see SOURCE_NOTES). The field-name candidates below are
  * best-effort. The ingest PRINTS the field it picked for each layer: check
  * those lines on the first local run before trusting a full pass. If a layer
  * shows `id: <none>` or a name that is obviously a code, add the real
  * attribute name here rather than letting it through.
+ *
+ * ⚠️ A file matching TWO layers is reported as ambiguous and skipped, never
+ * assigned to whichever came first in this array. The old type-I pattern
+ * (`/znieff.*(1|i)(?!i)/`) matched `znieff type ii` — the `.*` swallowed the
+ * first `i` and the lookahead was satisfied by the end of the string — so a
+ * ZNIEFF II layer was classified as ZNIEFF I, at weight 0.4 instead of 0.25,
+ * while the ingest reported znieff-2 as missing. Nothing was ever ingested with
+ * that bug (the data file has always been `{}`), but it would have inflated
+ * coverage on the first real pass without raising anything.
  */
 const LAYERS = [
   {
     kind: "reserve-naturelle",
-    match: [/reserve.*naturelle/, /^rn[_-]/, /\brnn\b/, /\brnr\b/],
+    match: [/reserves?\s*naturelles?/, /\brn\b/, /\brnn\b/, /\brnr\b/],
     idFields: ["ID_MNHN", "ID_LOCAL", "CODE_R_ENP", "GID"],
     nameFields: ["NOM_SITE", "NOM", "NOM_ENP", "LIB_ENP"],
   },
   {
     kind: "parc-national",
-    match: [/parc.*national/, /^pn[_-]/],
+    match: [/parcs?\s*nationa(l|ux)/, /\bpn\b/],
     idFields: ["ID_MNHN", "ID_LOCAL", "CODE_R_ENP", "GID"],
     nameFields: ["NOM_SITE", "NOM", "NOM_ENP", "LIB_ENP"],
   },
   {
     kind: "parc-naturel-regional",
-    match: [/parc.*(naturel.*regional|regional)/, /^pnr[_-]/],
+    match: [/parcs?\s*(naturels?\s*)?regiona(l|ux)/, /\bpnr\b/],
     idFields: ["ID_MNHN", "ID_LOCAL", "CODE_R_ENP", "GID"],
     nameFields: ["NOM_SITE", "NOM", "NOM_ENP", "LIB_ENP"],
   },
   {
     kind: "arrete-biotope",
-    match: [/biotope/, /^apb/, /^appb/],
+    match: [/biotope/, /\bapb\b/, /\bappb\b/],
     idFields: ["ID_MNHN", "ID_LOCAL", "CODE_R_ENP", "GID"],
     nameFields: ["NOM_SITE", "NOM", "NOM_ENP", "LIB_ENP"],
   },
@@ -160,36 +205,410 @@ const LAYERS = [
   },
   {
     kind: "znieff-1",
-    match: [/znieff.*(1|i)(?!i)/, /type[_-]?1/],
+    match: [/znieff\s*(de\s*)?(type\s*)?0*(1|i)\b/],
     idFields: ["NM_SFFZN", "ID_MNHN", "CD_SIG", "ID_LOCAL"],
     nameFields: ["LB_ZN", "NOM", "LB_ZONE", "NOM_SITE"],
   },
   {
     kind: "znieff-2",
-    match: [/znieff.*(2|ii)/, /type[_-]?2/],
+    match: [/znieff\s*(de\s*)?(type\s*)?0*(2|ii)\b/],
     idFields: ["NM_SFFZN", "ID_MNHN", "CD_SIG", "ID_LOCAL"],
     nameFields: ["LB_ZN", "NOM", "LB_ZONE", "NOM_SITE"],
   },
 ];
 
 /**
+ * Every layer a normalised name matches. Returns 0, 1 or several — the callers
+ * treat "several" as an operator-visible ambiguity, never as a pick.
+ */
+function matchLayers(name) {
+  const norm = normalizeName(name);
+  return LAYERS.filter((l) => l.match.some((re) => re.test(norm)));
+}
+
+/**
  * Where the operator gets the files. Printed by `sources`.
  *
- * ⚠️ @unverified — these are the publication points as documented, not URLs
- * this script has ever fetched (egress is blocked here). Treat them as a
- * starting point for the local pass; the script never downloads on its own, so
- * a stale link costs a search, not a corrupt dataset.
+ * ⚠️ The INPN download page this script used to point at is gone. The MNHN's
+ * information systems were taken down by a cyberattack on 2025-07-26 and
+ * inpn.mnhn.fr stayed offline for about a year; a rebuilt "version zéro" came
+ * back on 2026-07-21 carrying species sheets only, with habitat sheets and the
+ * territorial synthesis pages announced for 2027. So the old
+ * `/telechargement/cartes-et-information-geographique` URL is not a stale link
+ * to re-check — it belongs to a site that no longer exists in that shape.
+ *
+ * The layers themselves never depended on that page: the MNHN publishes the
+ * same national zonings on data.gouv.fr, which stayed up throughout. That is
+ * what `fetch` resolves, and it is the route to prefer even once the INPN is
+ * fully back — one publisher, stable dataset slugs, no scraping.
  */
-const SOURCE_NOTES = [
-  "INPN — cartes et information géographique : https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
-  "data.gouv.fr — rechercher « Natura 2000 », « ZNIEFF », « réserves naturelles » (publications MNHN / MTE).",
-  "",
-  "Shapefiles are fine as a download but this script reads GeoJSON in WGS84.",
-  "Convert once per layer:",
+/**
+ * The three MNHN datasets on data.gouv.fr that carry the seven layers, keyed by
+ * their **slug** rather than by a file URL.
+ *
+ * A slug is the stable handle: data.gouv.fr rotates the file behind a resource
+ * at every vintage, and each resource also carries a permalink
+ * (`https://www.data.gouv.fr/fr/datasets/r/<id>`) that follows the rotation.
+ * Hard-coding the current file URL is what makes an ingest quietly download a
+ * 2019 shapefile two years later — the same class of defect as the BODACC
+ * constant written without seeing the API answer (see CLAUDE.md § F64).
+ *
+ * ⚠️ @unverified — the three slugs below were read off data.gouv.fr's own
+ * listings, but no request has ever been made from this environment (403
+ * CONNECT). `fetch` therefore never guesses: it prints every resource each
+ * dataset exposes, refuses to pick when a layer matches zero or several, and
+ * writes nothing it cannot name. Check the printout on the first local run.
+ */
+const DATAGOUV_API = "https://www.data.gouv.fr/api/1";
+const DATAGOUV_DATASETS = [
+  {
+    slug: "inpn-donnees-du-programme-espaces-proteges",
+    label: "INPN — Espaces protégés (réserves, parcs nationaux, PNR, arrêtés de biotope)",
+    kinds: ["reserve-naturelle", "parc-national", "parc-naturel-regional", "arrete-biotope"],
+  },
+  {
+    slug: "inpn-donnees-du-programme-natura-2000",
+    label: "INPN — Natura 2000 (ZPS et SIC/ZSC)",
+    kinds: ["natura-2000"],
+  },
+  {
+    slug: "inpn-donnees-du-programme-znieff",
+    label: "INPN — ZNIEFF (types I et II)",
+    kinds: ["znieff-1", "znieff-2"],
+  },
+];
+
+/** Resource formats worth downloading. Anything else (pdf, csv, html, ods) is
+ *  documentation or tabular companion data, not a perimeter layer. */
+const GEO_FORMATS = new Set([
+  "shp",
+  "zip",
+  "7z",
+  "geojson",
+  "json",
+  "gpkg",
+  "gml",
+  "kml",
+  "kmz",
+  "tar",
+  "gz",
+]);
+
+const CONVERT_NOTES = [
+  "Shapefiles are fine as a download but the ingest reads GeoJSON in WGS84.",
+  "`fetch` runs the conversion itself when ogr2ogr is on PATH; without it, it",
+  "prints the exact command per file:",
   "  ogr2ogr -f GeoJSON -t_srs EPSG:4326 znieff1.geojson N_ZNIEFF1_S_FXX.shp",
   "(INPN ships Lambert-93 / EPSG:2154; the ingest refuses non-WGS84 coordinates",
   " rather than reading metres as degrees.)",
 ];
+
+/** Printed by `sources`. Built from DATAGOUV_DATASETS so the listed datasets and
+ *  the ones `fetch` actually resolves can never drift apart. */
+const SOURCE_NOTES = [
+  "npm run protected-areas:fetch — resolves and downloads the layers itself.",
+  "  --dry-run lists what it would take without downloading anything.",
+  "",
+  "Publisher: MNHN / PatriNat on data.gouv.fr (Licence Ouverte Etalab).",
+  "inpn.mnhn.fr is NOT the route: its download pages went down with the MNHN",
+  "cyberattack of 2025-07-26 and the site that came back on 2026-07-21 carries",
+  "species sheets only. data.gouv.fr stayed up throughout.",
+  "",
+  ...DATAGOUV_DATASETS.map((d) => `  ${d.slug}\n      ${d.label}`),
+  "",
+  ...CONVERT_NOTES,
+];
+
+/* ── fetching the layers ─────────────────────────────────────────────────
+ *
+ * This is the one stage that touches the network, and it exists to remove the
+ * only manual step left in F62: until now the ingest read files a human had to
+ * find, download and reproject by hand, so the whole protected-areas component
+ * stayed at 0/540 while the GBIF crawl finished all 540 cities.
+ *
+ * It is deliberately timid. It resolves datasets by slug, prints every resource
+ * it sees, and refuses to choose when a layer matches zero or several — a wrong
+ * layer silently ingested would inflate coverage on real pages, which is worse
+ * than a run that stops and asks.
+ */
+
+const UA =
+  "MaVilleIdeale/1.0 (+https://www.mavilleideale.fr; contact: daitenkutarojurai@gmail.com)";
+const DOWNLOAD_DIR = path.join(CACHE_DIR, "downloads");
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+/**
+ * GET a data.gouv.fr API endpoint. Same backoff shape as the GBIF crawler, same
+ * terminal treatment of a proxy CONNECT refusal: retrying an egress-policy
+ * denial only burns the run, and this pipeline is meant to be told plainly that
+ * it must run somewhere with egress.
+ */
+async function datagouv(pathname) {
+  const url = `${DATAGOUV_API}${pathname}`;
+  let lastErr = null;
+  for (let i = 0; i < 4; i++) {
+    let res;
+    try {
+      res = await fetch(url, { headers: { "User-Agent": UA, Accept: "application/json" } });
+    } catch (err) {
+      const msg = String(err?.cause?.message ?? err?.message ?? err);
+      if (/403|CONNECT|proxy|EGRESS/i.test(msg)) {
+        throw new Error(
+          `data.gouv.fr blocked at the proxy layer (${msg}) — run this stage on a machine with egress.`,
+        );
+      }
+      lastErr = err;
+      await sleep(2000 * 2 ** i);
+      continue;
+    }
+    if (res.ok) return res.json();
+    if (res.status === 429 || res.status >= 500) {
+      const retryAfter = Number(res.headers.get("retry-after")) || 0;
+      await sleep(Math.max(retryAfter * 1000, 2000 * 2 ** i));
+      lastErr = new Error(`HTTP ${res.status}`);
+      continue;
+    }
+    if (res.status === 404) {
+      throw new Error(
+        `HTTP 404 on ${url} — the dataset slug has moved. Look it up on data.gouv.fr and ` +
+          `update DATAGOUV_DATASETS; do not paste a file URL in its place.`,
+      );
+    }
+    // An egress proxy answers the request rather than refusing the CONNECT, so
+    // a policy denial arrives as a plain 403 and looks like data.gouv.fr saying
+    // no. Naming both readings here is the difference between "run this
+    // elsewhere" and an hour spent tuning a User-Agent that was never the
+    // problem — this environment returns exactly this, tested 2026-08-13.
+    if (res.status === 403) {
+      throw new Error(
+        `HTTP 403 on ${url}\n` +
+          `  Either the network egress policy refused it (the cloud routine does, and the\n` +
+          `  refusal arrives as a 403 response rather than a failed CONNECT), or data.gouv.fr\n` +
+          `  rejected the User-Agent. On a machine with open egress this call succeeds.`,
+      );
+    }
+    throw new Error(`HTTP ${res.status} on ${url}`);
+  }
+  throw lastErr ?? new Error(`data.gouv.fr request failed: ${url}`);
+}
+
+/** Extension of a resource, from its declared format or its URL, normalised. */
+function resourceFormat(r) {
+  const declared = String(r.format ?? "").toLowerCase().trim();
+  if (declared) return declared;
+  const m = String(r.url ?? "").match(/\.([a-z0-9]{2,7})(?:\?|$)/i);
+  return m ? m[1].toLowerCase() : "";
+}
+
+/** Everything a resource offers to recognise itself by. */
+function resourceText(r) {
+  const file = String(r.url ?? "").split("/").pop() ?? "";
+  return [r.title, r.description, decodeURIComponent(file)].filter(Boolean).join(" ");
+}
+
+/**
+ * Ask data.gouv.fr what each dataset currently publishes, and work out which
+ * resource carries which layer.
+ *
+ * Returns one entry per dataset with `picks` (kind → resource) and everything
+ * that did not resolve, so the caller can print a full account rather than a
+ * verdict.
+ */
+async function resolveDatagouvSources() {
+  const out = [];
+  for (const ds of DATAGOUV_DATASETS) {
+    const payload = await datagouv(`/datasets/${ds.slug}/`);
+    if (!payload || !Array.isArray(payload.resources)) {
+      throw new Error(
+        `${ds.slug}: unexpected API shape (no resources array). Got keys: ` +
+          `${Object.keys(payload ?? {}).join(", ") || "<none>"}`,
+      );
+    }
+    const geo = payload.resources.filter((r) => GEO_FORMATS.has(resourceFormat(r)));
+    const picks = new Map();
+    const ambiguous = [];
+    for (const r of geo) {
+      const layers = matchLayers(resourceText(r)).filter((l) => ds.kinds.includes(l.kind));
+      if (layers.length === 1) {
+        const kind = layers[0].kind;
+        if (!picks.has(kind)) picks.set(kind, []);
+        picks.get(kind).push(r);
+      } else if (layers.length > 1) {
+        ambiguous.push({ resource: r, kinds: layers.map((l) => l.kind) });
+      }
+    }
+    out.push({
+      dataset: ds,
+      title: payload.title ?? ds.slug,
+      lastModified: payload.last_modified ?? payload.last_update ?? null,
+      licence: payload.license ?? null,
+      resources: payload.resources,
+      geo,
+      picks,
+      ambiguous,
+      missing: ds.kinds.filter((k) => !picks.has(k)),
+    });
+    await sleep(1000);
+  }
+  return out;
+}
+
+/** Download to `dest` unless it is already there with the expected size. */
+async function download(url, dest, expectedSize) {
+  try {
+    const st = await fs.stat(dest);
+    if (st.size > 0 && (!expectedSize || st.size === expectedSize)) return { skipped: true };
+  } catch {
+    /* not downloaded yet */
+  }
+  const res = await fetch(url, { headers: { "User-Agent": UA }, redirect: "follow" });
+  if (!res.ok) throw new Error(`HTTP ${res.status} downloading ${url}`);
+  const buf = Buffer.from(await res.arrayBuffer());
+  await fs.mkdir(path.dirname(dest), { recursive: true });
+  await fs.writeFile(dest, buf);
+  return { skipped: false, bytes: buf.length };
+}
+
+/** Is `bin` callable? Used to decide between converting and printing commands. */
+async function hasBinary(bin) {
+  try {
+    await execFile(bin, ["--version"]);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+/** Every file under `dir`, recursively. */
+async function walk(dir) {
+  const out = [];
+  for (const e of await fs.readdir(dir, { withFileTypes: true })) {
+    const p = path.join(dir, e.name);
+    if (e.isDirectory()) out.push(...(await walk(p)));
+    else out.push(p);
+  }
+  return out;
+}
+
+/**
+ * Pull the layers from data.gouv.fr into SOURCE_DIR, as GeoJSON in WGS84.
+ *
+ * Archives are unpacked, shapefiles reprojected with ogr2ogr when it is
+ * available. The output filename carries the layer kind, so the ingest's own
+ * filename matcher recognises it without the operator renaming anything.
+ */
+async function fetchSources({ dryRun }) {
+  log(`resolving ${DATAGOUV_DATASETS.length} datasets on data.gouv.fr…\n`);
+  const resolved = await resolveDatagouvSources();
+
+  let blocked = false;
+  for (const r of resolved) {
+    log(`▸ ${r.title}`);
+    log(`  slug ${r.dataset.slug}${r.lastModified ? ` · updated ${r.lastModified}` : ""}`);
+    log(`  ${r.resources.length} resources, ${r.geo.length} in a geo format`);
+    for (const [kind, list] of r.picks) {
+      for (const res of list) {
+        log(`    ✓ ${kind.padEnd(22)} ${res.title ?? "(untitled)"} [${resourceFormat(res)}]`);
+      }
+    }
+    for (const a of r.ambiguous) {
+      blocked = true;
+      log(`    ✗ ambiguous (${a.kinds.join(" / ")}): ${a.resource.title ?? a.resource.url}`);
+    }
+    if (r.missing.length) {
+      blocked = true;
+      log(`    ✗ no resource matched: ${r.missing.join(", ")}`);
+      log(`      geo resources this dataset exposes:`);
+      for (const g of r.geo) log(`        · ${g.title ?? "(untitled)"} [${resourceFormat(g)}]`);
+    }
+    log("");
+  }
+
+  if (blocked) {
+    log(
+      "Some layers did not resolve to exactly one resource. Rather than guess, this stops here:\n" +
+        "an ambiguous or wrong layer would inflate protected-area coverage on 540 live pages.\n" +
+        "Refine the `match` patterns in LAYERS against the titles printed above, then re-run.",
+    );
+    process.exitCode = 1;
+    return;
+  }
+  if (dryRun) {
+    log("--dry-run: nothing downloaded.");
+    return;
+  }
+
+  await fs.mkdir(DOWNLOAD_DIR, { recursive: true });
+  await fs.mkdir(SOURCE_DIR, { recursive: true });
+  const ogr = await hasBinary("ogr2ogr");
+  if (!ogr) {
+    log("⚠️  ogr2ogr not on PATH — archives will be unpacked but not reprojected.");
+    log("   The commands to run afterwards are printed at the end.\n");
+  }
+  const manual = [];
+
+  for (const r of resolved) {
+    for (const [kind, list] of r.picks) {
+      for (const [i, res] of list.entries()) {
+        // The permalink follows the publisher's file rotation; the direct url
+        // is the current file and can go stale under us.
+        const url = res.latest ?? res.url;
+        const fmt = resourceFormat(res);
+        const suffix = list.length > 1 ? `-${i + 1}` : "";
+        const archive = path.join(DOWNLOAD_DIR, `${kind}${suffix}.${fmt}`);
+        log(`↓ ${kind}${suffix} ← ${url}`);
+        const got = await download(url, archive, res.filesize);
+        log(got.skipped ? "  (already downloaded)" : `  ${(got.bytes / 1e6).toFixed(1)} MB`);
+        await sleep(1000);
+
+        // GeoJSON straight from the publisher still has to be checked for its
+        // CRS — a GeoJSON in Lambert-93 exists and the ingest would refuse it.
+        if (fmt === "geojson" || fmt === "json") {
+          await fs.copyFile(archive, path.join(SOURCE_DIR, `${kind}${suffix}.geojson`));
+          continue;
+        }
+
+        const unpacked = path.join(DOWNLOAD_DIR, `${kind}${suffix}`);
+        await fs.rm(unpacked, { recursive: true, force: true });
+        await fs.mkdir(unpacked, { recursive: true });
+        try {
+          await execFile("unzip", ["-qo", archive, "-d", unpacked]);
+        } catch (err) {
+          log(`  ⚠️  could not unpack (${String(err?.message ?? err).split("\n")[0]})`);
+          manual.push(`# unpack ${archive} by hand, then reproject its .shp into ${SOURCE_DIR}`);
+          continue;
+        }
+        const files = await walk(unpacked);
+        const geoFiles = files.filter((f) => /\.(shp|geojson|gpkg|gml)$/i.test(f));
+        if (!geoFiles.length) {
+          log(`  ⚠️  no vector file inside the archive`);
+          manual.push(`# no .shp/.geojson found in ${archive} — look inside`);
+          continue;
+        }
+        for (const [j, gf] of geoFiles.entries()) {
+          const dest = path.join(
+            SOURCE_DIR,
+            `${kind}${suffix}${geoFiles.length > 1 ? `-${j + 1}` : ""}.geojson`,
+          );
+          if (!ogr) {
+            manual.push(`ogr2ogr -f GeoJSON -t_srs EPSG:4326 ${dest} ${gf}`);
+            continue;
+          }
+          await execFile("ogr2ogr", ["-f", "GeoJSON", "-t_srs", "EPSG:4326", dest, gf]);
+          log(`  → ${path.basename(dest)}`);
+        }
+      }
+    }
+  }
+
+  if (manual.length) {
+    log("\nRun these, then `npm run protected-areas`:");
+    for (const c of manual) log(`  ${c}`);
+  } else {
+    log("\nLayers are in place. Next: npm run protected-areas");
+  }
+  log("\nAttribution to carry with the figures: INPN — MNHN, Licence Ouverte Etalab.");
+}
 
 /* ── seed loader ─────────────────────────────────────────────────────────
  *
@@ -466,11 +885,15 @@ async function listSources() {
   }
   const matched = [];
   const unmatched = [];
+  const ambiguous = [];
   for (const f of files) {
     if (!/\.(geojson|json|geojsonl|geojsonseq|ndjson|jsonl)$/i.test(f)) continue;
-    const lower = f.toLowerCase();
-    const layer = LAYERS.find((l) => l.match.some((re) => re.test(lower)));
-    if (layer) matched.push({ file: path.join(SRC_DIR, f), name: f, layer });
+    const layers = matchLayers(f);
+    // Two layers matching the same file is not a tie to break by array order:
+    // that is exactly how a ZNIEFF II file would have been ingested as a
+    // ZNIEFF I, at nearly twice its weight. Skip it and say so.
+    if (layers.length === 1) matched.push({ file: path.join(SRC_DIR, f), name: f, layer: layers[0] });
+    else if (layers.length > 1) ambiguous.push({ name: f, kinds: layers.map((l) => l.kind) });
     else unmatched.push(f);
   }
   const seen = new Set(matched.map((m) => m.layer.kind));
@@ -478,6 +901,7 @@ async function listSources() {
     dir: SRC_DIR,
     matched,
     unmatched,
+    ambiguous,
     missing: LAYERS.map((l) => l.kind).filter((k) => !seen.has(k)),
   };
 }
@@ -487,6 +911,10 @@ function showSources(src) {
   if (src.matched.length) {
     log("\nrecognised:");
     for (const m of src.matched) log(`  ${m.layer.kind.padEnd(22)} ${m.name}`);
+  }
+  if (src.ambiguous?.length) {
+    log("\nskipped (the filename matches more than one layer — rename it):");
+    for (const a of src.ambiguous) log(`  ${a.name.padEnd(40)} ${a.kinds.join(" / ")}`);
   }
   if (src.unmatched.length) {
     log("\nignored (no layer matches the filename):");
@@ -766,6 +1194,46 @@ function selftest() {
   // The disc denominator itself.
   check("disc cell count vs πR²", (grid.cells * 0.0625) / discArea, 1, 0.005);
 
+  /* ── layer recognition ──────────────────────────────────────────────────
+   *
+   * The geometry above was always right; the filename matcher was not. A
+   * ZNIEFF II file used to answer the type-I pattern as well, and `LAYERS.find`
+   * handed it to znieff-1 — 0.4 instead of 0.25 in the weighted coverage —
+   * while the ingest reported znieff-2 as missing. These cases pin the naming
+   * shapes the MNHN actually ships, underscores and roman numerals included.
+   */
+  const expectKind = (name, want) => {
+    const got = matchLayers(name).map((l) => l.kind);
+    const ok = got.length === 1 && got[0] === want;
+    results.push({ label: `layer «${name}»`, ok });
+    log(`  ${ok ? "ok  " : "FAIL"} layer «${name}» → ${got.join(" / ") || "<none>"} (expected ${want})`);
+  };
+  expectKind("N_ZNIEFF1_S_FXX.shp", "znieff-1");
+  expectKind("N_ZNIEFF2_S_FXX.shp", "znieff-2");
+  expectKind("znieff_type_1_continental.geojson", "znieff-1");
+  expectKind("znieff_type_ii_continental.geojson", "znieff-2");
+  expectKind("ZNIEFF de type II (métropole)", "znieff-2");
+  expectKind("ZNIEFF de type I (métropole)", "znieff-1");
+  expectKind("N_ENP_RN_S_000.shp", "reserve-naturelle");
+  expectKind("Réserves naturelles nationales", "reserve-naturelle");
+  expectKind("Parcs naturels régionaux", "parc-naturel-regional");
+  expectKind("Parcs nationaux (coeur et aire d'adhésion)", "parc-national");
+  expectKind("Arrêtés de protection de biotope", "arrete-biotope");
+  expectKind("N_ENP_APB_S_FXX.shp", "arrete-biotope");
+  expectKind("Natura 2000 — ZPS (directive Oiseaux)", "natura-2000");
+  expectKind("Natura 2000 — SIC/ZSC (directive Habitats)", "natura-2000");
+
+  const expectNoKind = (name) => {
+    const got = matchLayers(name).map((l) => l.kind);
+    const ok = got.length === 0;
+    results.push({ label: `no layer «${name}»`, ok });
+    log(`  ${ok ? "ok  " : "FAIL"} «${name}» → ${got.join(" / ") || "<none>"} (expected none)`);
+  };
+  // Companion tables and documentation ride in the same datasets; recognising
+  // one as a perimeter layer would ingest an empty file and read as "measured".
+  expectNoKind("Documentation du standard de données");
+  expectNoKind("Liste des communes");
+
   const failed = results.filter((r) => !r.ok).length;
   log(failed ? `\n${failed} check(s) FAILED` : "\nall checks passed");
   return failed;
@@ -831,6 +1299,17 @@ async function showStats() {
 // firing an ingest on import.
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   if (cmd === "sources") showSources(await listSources());
+  else if (cmd === "fetch") {
+    // A network failure here is an operating condition, not a crash: print it
+    // as a sentence rather than a stack trace, since the usual reader is
+    // someone checking whether the layers landed.
+    try {
+      await fetchSources({ dryRun: DRY_RUN });
+    } catch (err) {
+      log(`\n${String(err?.message ?? err)}`);
+      process.exitCode = 1;
+    }
+  }
   else if (cmd === "selftest") process.exitCode = selftest() ? 1 : 0;
   else if (cmd === "stats") await showStats();
   else if (cmd === "probe") {

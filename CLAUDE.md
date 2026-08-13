@@ -1149,6 +1149,20 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
     ils sont exacts — c'est le classement qui était faux. Nouveau motif
     `richnessPending: "incomparable"`, prioritaire sur `effort` / `precision` / `calibration`.
     Détail complet dans `ROADMAP.md` § point d'étape 2026-08-10.
+  - **État au 2026-08-13 — l'ingest des zones protégées télécharge ses propres sources.**
+    `npm run protected-areas:fetch` (+ `--dry-run`) résout les sept couches **par slug** sur
+    data.gouv.fr (`inpn-donnees-du-programme-espaces-proteges` / `-natura-2000` / `-znieff`),
+    télécharge, dépaquette et reprojette. ⚠️ **Ne renvoie plus personne vers `inpn.mnhn.fr` pour
+    les fichiers** : le MNHN a subi une cyberattaque le 2025-07-26, l'INPN est resté hors ligne
+    ~1 an et la « version zéro » revenue le 2026-07-21 ne porte que les fiches espèces (habitats
+    et synthèses territoriales annoncés pour 2027) — les pages de téléchargement d'origine
+    n'existent plus. Corollaire : les gabarits d'`inpnUrl()` visent l'ancien site et restent
+    `@unverified` ; les vérifier avant d'afficher le premier lien de fiche. Le résolveur **refuse
+    de choisir** quand une couche correspond à zéro ou plusieurs ressources. Bug corrigé au
+    passage : le motif ZNIEFF I acceptait aussi les fichiers ZNIEFF II (0,4 au lieu de 0,25), et
+    « Réserves naturelles » / « Parcs naturels régionaux » / « Parcs nationaux » ne
+    correspondaient à rien (accents non repliés) — 16 cas de reconnaissance épinglés dans
+    `protected-areas:selftest`. Données toujours **0/540**, `overall` toujours `null`.
 
 - [ ] **F63 — Qualité de l'air : du modèle à la mesure** — la section existe
   (`/villes/[slug]/air` ×540 + EN `air-quality`) mais `lib/air-quality.ts` **calcule

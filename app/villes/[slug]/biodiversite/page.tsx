@@ -748,45 +748,93 @@ export default async function BiodiversitePage({ params }: Props) {
             ))}
           </div>
           <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 text-xs text-[var(--text-secondary)] leading-relaxed space-y-2">
-            <p>
-              <strong className="text-[var(--text-primary)]">
-                Le piège que ce score évite.
-              </strong>{" "}
-              Le nombre brut d&apos;observations mesure d&apos;abord combien de naturalistes
-              saisissent des données sur leur téléphone. Paris écrase n&apos;importe quelle vallée
-              pyrénéenne en volume — et le nombre d&apos;espèces distinctes hérite du même biais,
-              parce que les espèces s&apos;accumulent avec l&apos;échantillonnage : cherchez dix
-              fois plus longtemps, vous trouverez plus d&apos;espèces.
-            </p>
-            <p>
-              <strong className="text-[var(--text-primary)]">La correction.</strong> On calcule le
-              nombre d&apos;espèces attendu dans un échantillon de {raw.rarefiedN} observations
-              tirées au hasard (raréfaction de Hurlbert, 1971). Toutes les villes sont donc
-              comparées au même effort. En dessous de {MIN_OCCURRENCES} observations ou{" "}
-              {MIN_OBSERVERS} observateurs, on ne publie pas de score : on ne sous-échantillonne pas
-              plus que ce qu&apos;on a.
-            </p>
-            <p>
-              <strong className="text-[var(--text-primary)]">La limite du calcul.</strong> La
-              raréfaction a besoin de la liste complète des espèces et de leurs effectifs. Quand
-              cette liste dépasse ce que la collecte ramène en une passe — le cas des villes les
-              mieux relevées — le chiffre exact n&apos;est pas connaissable&nbsp;; on l&apos;encadre
-              alors entre deux bornes sûres et on annonce la borne basse comme telle, précédée
-              d&apos;un « au moins ». Si l&apos;intervalle est trop large pour départager la ville
-              de ses voisines, aucun rang n&apos;est publié.
-            </p>
-            <p>
-              <strong className="text-[var(--text-primary)]">
-                À quoi la ville est comparée.
-              </strong>{" "}
-              La collecte couvre désormais les {CITIES_SEED.length} villes du site : la population
-              de comparaison n&apos;est plus un chantier en cours. Le rang se lit parmi les{" "}
-              {BIODIVERSITY_MEASURABLE_COUNT} d&apos;entre elles assez relevées pour être
-              comparées&nbsp;; les autres sont écartées par les seuils d&apos;effort et de précision
-              énoncés plus haut, pas par un trou dans notre crawl. Cela se lit donc « mieux que
-              N&nbsp;% des villes françaises que nous savons mesurer », pas « mieux que N&nbsp;% des
-              villes françaises ». Les effectifs bruts, eux, ne dépendent pas des autres villes.
-            </p>
+            {/* Cette moitié du bloc décrit la fabrication d'un rang. Tant qu'aucun
+                rang n'est publié — c'est le cas de toutes les villes depuis le
+                10/08 — la décrire au présent démentirait la page elle-même, qui
+                vient d'expliquer plus haut pourquoi le rang a été retiré. */}
+            {richness ? (
+              <>
+                <p>
+                  <strong className="text-[var(--text-primary)]">
+                    Le piège que ce score évite.
+                  </strong>{" "}
+                  Le nombre brut d&apos;observations mesure d&apos;abord combien de naturalistes
+                  saisissent des données sur leur téléphone. Paris écrase n&apos;importe quelle
+                  vallée pyrénéenne en volume — et le nombre d&apos;espèces distinctes hérite du
+                  même biais, parce que les espèces s&apos;accumulent avec l&apos;échantillonnage :
+                  cherchez dix fois plus longtemps, vous trouverez plus d&apos;espèces.
+                </p>
+                <p>
+                  <strong className="text-[var(--text-primary)]">La correction.</strong> On calcule
+                  le nombre d&apos;espèces attendu dans un échantillon de {raw.rarefiedN}{" "}
+                  observations tirées au hasard (raréfaction de Hurlbert, 1971). Toutes les villes
+                  sont donc comparées au même effort. En dessous de {MIN_OCCURRENCES} observations
+                  ou {MIN_OBSERVERS} observateurs, on ne publie pas de score : on ne
+                  sous-échantillonne pas plus que ce qu&apos;on a.
+                </p>
+                <p>
+                  <strong className="text-[var(--text-primary)]">La limite du calcul.</strong> La
+                  raréfaction a besoin de la liste complète des espèces et de leurs effectifs. Quand
+                  cette liste dépasse ce que la collecte ramène en une passe — le cas des villes les
+                  mieux relevées — le chiffre exact n&apos;est pas connaissable&nbsp;; on
+                  l&apos;encadre alors entre deux bornes sûres et on annonce la borne basse comme
+                  telle, précédée d&apos;un « au moins ». Si l&apos;intervalle est trop large pour
+                  départager la ville de ses voisines, aucun rang n&apos;est publié.
+                </p>
+                <p>
+                  <strong className="text-[var(--text-primary)]">
+                    À quoi la ville est comparée.
+                  </strong>{" "}
+                  La collecte couvre désormais les {CITIES_SEED.length} villes du site : la
+                  population de comparaison n&apos;est plus un chantier en cours. Le rang se lit
+                  parmi les {BIODIVERSITY_MEASURABLE_COUNT} d&apos;entre elles assez relevées pour
+                  être comparées&nbsp;; les autres sont écartées par les seuils d&apos;effort et de
+                  précision énoncés plus haut, pas par un trou dans notre crawl. Cela se lit donc
+                  « mieux que N&nbsp;% des villes françaises que nous savons mesurer », pas « mieux
+                  que N&nbsp;% des villes françaises ». Les effectifs bruts, eux, ne dépendent pas
+                  des autres villes.
+                </p>
+              </>
+            ) : (
+              <>
+                <p>
+                  <strong className="text-[var(--text-primary)]">
+                    Ce que ces chiffres disent, et ce qu&apos;ils ne disent pas.
+                  </strong>{" "}
+                  Les effectifs ci-dessus sont ceux de {city.name} : espèces, observations,
+                  observateurs, groupes représentés. Ils ne se comparent pas d&apos;une ville à
+                  l&apos;autre. Le nombre brut d&apos;observations mesure d&apos;abord combien de
+                  naturalistes saisissent des données ici, et le nombre d&apos;espèces hérite du
+                  même biais, parce que les espèces s&apos;accumulent avec l&apos;échantillonnage :
+                  cherchez dix fois plus longtemps, vous trouverez plus d&apos;espèces.
+                </p>
+                <p>
+                  <strong className="text-[var(--text-primary)]">
+                    La correction que nous appliquions ne suffisait pas.
+                  </strong>{" "}
+                  Nous ramenions chaque ville à un échantillon commun de {raw.rarefiedN}{" "}
+                  observations (raréfaction de Hurlbert, 1971) pour les comparer à effort égal. Le
+                  calcul suppose que les enregistrements sont des tirages comparables — or un
+                  contact de détecteur automatique et une sortie de terrain pèsent pareil dans
+                  GBIF, et cette hypothèse tombe. Le rang qui en sortait a été retiré le 10 août
+                  2026 ; le détail et les corrélations mesurées sont plus haut sur cette page.
+                </p>
+                <p>
+                  <strong className="text-[var(--text-primary)]">
+                    Comment lire la page en attendant.
+                  </strong>{" "}
+                  Les deux autres composantes ne dépendent pas de qui vient observer : un périmètre
+                  protégé existe par arrêté, un parc est cartographié au sol.{" "}
+                  {greenSpace
+                    ? "C'est pourquoi les espaces verts portent une note ici,"
+                    : "C'est de ce côté que la mesure est solide,"}{" "}
+                  et pourquoi les zones protégées en porteront la plus lourde le jour où elles
+                  seront intégrées. Pour les espèces, prenez les effectifs pour ce qu&apos;ils sont
+                  — l&apos;état de la connaissance naturaliste autour de {city.name}, qui est en soi
+                  une information sur le territoire, pas un palmarès.
+                </p>
+              </>
+            )}
             <p>
               <strong className="text-[var(--text-primary)]">Le périmètre.</strong> Cercle de{" "}
               {raw.radiusKm} km autour du centre-ville, observations géolocalisées depuis{" "}

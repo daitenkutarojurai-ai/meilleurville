@@ -713,38 +713,88 @@ export default async function BiodiversityPage({ params }: Props) {
             ))}
           </div>
           <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 text-xs text-[var(--text-secondary)] leading-relaxed space-y-2">
-            <p>
-              <strong className="text-[var(--text-primary)]">The trap this score avoids.</strong> A
-              raw observation count measures how many naturalists type records into a phone. Paris
-              beats any Pyrenean valley on volume — and a distinct-species count inherits the same
-              bias, because species accumulate with sampling: look ten times longer and you will
-              find more of them.
-            </p>
-            <p>
-              <strong className="text-[var(--text-primary)]">The correction.</strong> We compute the
-              number of species expected in a random sample of {raw.rarefiedN} observations
-              (Hurlbert rarefaction, 1971), so every city is compared at the same effort. Below{" "}
-              {MIN_OCCURRENCES} observations or {MIN_OBSERVERS} recorders we publish no score: you
-              cannot subsample more than you have.
-            </p>
-            <p>
-              <strong className="text-[var(--text-primary)]">The limit of the calculation.</strong>{" "}
-              Rarefaction needs the complete list of species and their counts. When that list runs
-              past what one collection pass retrieves — the case for the best-surveyed cities — the
-              exact figure is not knowable; we bracket it between two sound bounds and report the
-              lower one as such, prefixed with &ldquo;at least&rdquo;. If the interval is too wide
-              to separate the city from its neighbours, no rank is published.
-            </p>
-            <p>
-              <strong className="text-[var(--text-primary)]">What the city is compared to.</strong>{" "}
-              Collection now covers all {CITIES_SEED.length} cities on this site, so the population
-              is no longer a work in progress. The rank is read among the{" "}
-              {BIODIVERSITY_MEASURABLE_COUNT} of them that are surveyed well enough to be compared;
-              the rest are held back by the survey-effort and precision thresholds set out above,
-              not by any gap in our crawl. So it reads &ldquo;better than N% of the French cities we
-              can measure&rdquo; rather than &ldquo;better than N% of French cities&rdquo;. The raw
-              counts do not depend on other cities at all.
-            </p>
+            {/* Half of this block describes how a rank is built. While no rank is
+                published — every city since 2026-08-10 — describing it in the
+                present tense would contradict the page above, which has just
+                explained why the rank was withdrawn. Kept in step with the FR
+                twin: these are hreflang alternates and say the same thing. */}
+            {richness ? (
+              <>
+                <p>
+                  <strong className="text-[var(--text-primary)]">The trap this score avoids.</strong>{" "}
+                  A raw observation count measures how many naturalists type records into a phone.
+                  Paris beats any Pyrenean valley on volume — and a distinct-species count inherits
+                  the same bias, because species accumulate with sampling: look ten times longer and
+                  you will find more of them.
+                </p>
+                <p>
+                  <strong className="text-[var(--text-primary)]">The correction.</strong> We compute
+                  the number of species expected in a random sample of {raw.rarefiedN} observations
+                  (Hurlbert rarefaction, 1971), so every city is compared at the same effort. Below{" "}
+                  {MIN_OCCURRENCES} observations or {MIN_OBSERVERS} recorders we publish no score:
+                  you cannot subsample more than you have.
+                </p>
+                <p>
+                  <strong className="text-[var(--text-primary)]">
+                    The limit of the calculation.
+                  </strong>{" "}
+                  Rarefaction needs the complete list of species and their counts. When that list
+                  runs past what one collection pass retrieves — the case for the best-surveyed
+                  cities — the exact figure is not knowable; we bracket it between two sound bounds
+                  and report the lower one as such, prefixed with &ldquo;at least&rdquo;. If the
+                  interval is too wide to separate the city from its neighbours, no rank is
+                  published.
+                </p>
+                <p>
+                  <strong className="text-[var(--text-primary)]">
+                    What the city is compared to.
+                  </strong>{" "}
+                  Collection now covers all {CITIES_SEED.length} cities on this site, so the
+                  population is no longer a work in progress. The rank is read among the{" "}
+                  {BIODIVERSITY_MEASURABLE_COUNT} of them that are surveyed well enough to be
+                  compared; the rest are held back by the survey-effort and precision thresholds set
+                  out above, not by any gap in our crawl. So it reads &ldquo;better than N% of the
+                  French cities we can measure&rdquo; rather than &ldquo;better than N% of French
+                  cities&rdquo;. The raw counts do not depend on other cities at all.
+                </p>
+              </>
+            ) : (
+              <>
+                <p>
+                  <strong className="text-[var(--text-primary)]">
+                    What these figures say, and what they do not.
+                  </strong>{" "}
+                  The counts above are {city.name}&apos;s own: species, observations, recorders,
+                  groups represented. They do not compare across cities. A raw observation count
+                  measures how many naturalists type records in here, and the species count
+                  inherits the same bias, because species accumulate with sampling: look ten times
+                  longer and you will find more of them.
+                </p>
+                <p>
+                  <strong className="text-[var(--text-primary)]">
+                    The correction we applied was not enough.
+                  </strong>{" "}
+                  We used to bring every city down to a common sample of {raw.rarefiedN}{" "}
+                  observations (Hurlbert rarefaction, 1971) so they could be compared at equal
+                  effort. That calculation assumes records are comparable draws — but an automated
+                  detector contact and a day in the field weigh the same in GBIF, and the
+                  assumption fails. The resulting rank was withdrawn on 10 August 2026; the
+                  measured correlations are set out higher up this page.
+                </p>
+                <p>
+                  <strong className="text-[var(--text-primary)]">How to read the page meanwhile.</strong>{" "}
+                  The other two components do not depend on who comes to look: a protected
+                  perimeter exists by decree, a park is mapped on the ground.{" "}
+                  {greenSpace
+                    ? "That is why green space carries a score here,"
+                    : "That is where the measurement is solid,"}{" "}
+                  and why protected areas will carry the heaviest one once they are ingested. For
+                  species, take the counts for what they are — the state of naturalist knowledge
+                  around {city.name}, which tells you something about the area in itself, not a
+                  league table.
+                </p>
+              </>
+            )}
             <p>
               <strong className="text-[var(--text-primary)]">The perimeter.</strong> A{" "}
               {raw.radiusKm} km circle around the city centre, georeferenced observations since{" "}

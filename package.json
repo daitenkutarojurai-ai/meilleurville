@@ -35,6 +35,7 @@
     "news:stats": "node scripts/city-news.mjs stats",
     "protected-areas": "node scripts/city-protected-areas.mjs",
     "protected-areas:sources": "node scripts/city-protected-areas.mjs sources",
+    "protected-areas:fetch": "node scripts/city-protected-areas.mjs fetch",
     "protected-areas:selftest": "node scripts/city-protected-areas.mjs selftest",
     "protected-areas:stats": "node scripts/city-protected-areas.mjs stats"
   },

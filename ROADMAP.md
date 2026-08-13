@@ -521,6 +521,84 @@ rendue — sous `next dev` les sous-pages ville EN répondent 404 quelle que soi
 compris `climate` et `parks` que ce run n'a pas touchées, le routage EN vivant dans le Worker.
 Elle est typée et suit la même structure ; à contrôler au prochain déploiement.
 
+#### Point d'étape 2026-08-13 — l'ingest des zones protégées télécharge enfin ses propres sources
+
+Zones protégées **0/540**, inchangé, mais pour la première fois ce n'est plus une passe manuelle
+qui manque : `npm run protected-areas:fetch` résout et télécharge les sept couches tout seul. C'était
+la seule pièce de F62 qui demandait encore une main humaine, et elle bloquait la composante la plus
+lourde de l'agrégat (`overall` reste `null` partout) — donc la plus grosse valeur disponible ce run,
+devant n'importe quelle surface.
+
+**Pourquoi ce n'était pas qu'une question d'egress.** Le script pointait vers
+`inpn.mnhn.fr/telechargement/cartes-et-information-geographique`, une page qui n'existe plus :
+les systèmes d'information du MNHN ont été mis à terre par une **cyberattaque le 2025-07-26** et
+l'INPN est resté hors ligne environ un an ; une « version zéro » reconstruite est revenue le
+**2026-07-21**, avec les fiches espèces seulement, les fiches habitats et les synthèses
+territoriales étant annoncées pour 2027. Envoyer l'opérateur chercher les shapefiles là-bas ne
+pouvait donc pas marcher. Les mêmes zonages nationaux sont publiés par le MNHN sur **data.gouv.fr**,
+qui n'a jamais cessé de répondre : trois jeux couvrent les sept couches —
+`inpn-donnees-du-programme-espaces-proteges` (réserves, parcs nationaux, PNR, arrêtés de biotope),
+`inpn-donnees-du-programme-natura-2000`, `inpn-donnees-du-programme-znieff`.
+
+**Ce que `fetch` fait, et ce qu'il refuse de faire.** Il résout les jeux **par slug** via l'API
+data.gouv.fr, jamais par URL de fichier : la plateforme fait tourner le fichier derrière une
+ressource à chaque millésime, et chaque ressource porte un permalien qui suit la rotation — coder
+l'URL du jour en dur, c'est le pipeline qui télécharge en silence un shapefile de 2019 deux ans plus
+tard, la classe de défaut exacte de la constante BODACC écrite sans avoir vu l'API répondre (F64).
+Il imprime **toutes** les ressources de chaque jeu, et quand une couche correspond à zéro ou à
+plusieurs ressources il **s'arrête** au lieu de choisir : une mauvaise couche ingérée gonflerait la
+couverture protégée sur 540 pages en ligne, ce qui est pire qu'un run qui pose la question. Puis
+téléchargement (reprise sur fichier déjà présent, 1 req/s, User-Agent contactable), dépaquetage, et
+reprojection par `ogr2ogr` quand il est sur le PATH — sinon les commandes exactes sont imprimées.
+Un 403 est diagnostiqué dans les deux sens : ici le proxy **répond** 403 au lieu de refuser le
+CONNECT, ce qui se lit à tort comme un refus de data.gouv.fr.
+
+**Un bug silencieux trouvé en écrivant le selftest de reconnaissance des couches.** Le motif
+ZNIEFF I (`/znieff.*(1|i)(?!i)/`) **acceptait aussi les fichiers ZNIEFF II** — le `.*` avalait le
+premier `i` et la fin de chaîne satisfaisait le lookahead — et `LAYERS.find` rendant la première
+correspondance, une couche ZNIEFF II serait entrée comme ZNIEFF I, **à 0,4 au lieu de 0,25** dans la
+couverture pondérée, pendant que l'ingest annonçait znieff-2 manquante. Rien n'a jamais été ingéré
+avec ce bug (le JSON vaut `{}` depuis le début), mais il aurait faussé la première passe réelle sans
+rien lever. Corrigé en normalisant les noms avant tout test (minuscules, **diacritiques repliés**,
+non-alphanumériques → espace) et en traitant deux couches correspondantes comme une **ambiguïté
+signalée**, jamais comme une égalité tranchée par l'ordre du tableau. Le repli des diacritiques a
+révélé trois autres couches invisibles au passage : « Réserves naturelles », « Parcs naturels
+régionaux » et « Parcs nationaux » ne correspondaient à rien du tout, `é` n'étant pas dans `[a-z]`
+et les motifs étant écrits au singulier. 16 cas de reconnaissance sont désormais épinglés dans
+`protected-areas:selftest` (7 échouaient au premier lancement), dont les deux formes ZNIEFF, les
+noms de fichiers INPN collés (`N_ZNIEFF1_S_FXX.shp`), et deux ressources compagnes qui ne doivent
+surtout **pas** être reconnues comme des périmètres.
+
+**Les surfaces : la méthodologie décrivait encore le rang retiré.** Le bloc « comment ce score est
+fabriqué » des deux sous-pages expliquait au présent la raréfaction, le seuil d'effort et « le rang
+se lit parmi les 513 villes comparables » — alors que **les 540 villes sont en `richnessPending:
+"incomparable"` depuis le 10/08** et qu'aucun rang n'est publié. La page démentait donc, en bas, ce
+qu'elle venait d'expliquer en haut. Les quatre paragraphes concernés ne s'affichent plus que si un
+rang existe ; à leur place, trois paragraphes disent ce que les effectifs valent (exacts, propres à
+la ville, non comparables), pourquoi la correction ne suffisait pas, et où la mesure reste solide.
+Corrigé des deux côtés ensemble — ce sont des alternates hreflang. Le paragraphe « À quoi la ville
+est comparée », lui, disparaît complètement tant qu'il n'y a pas de rang : il ne décrivait plus rien.
+
+**Vérifications.** `npx tsc --noEmit` propre, `npm run integrity` propre,
+`protected-areas:selftest` 23/23 et `biodiversity:selftest` verts. État réel relu en important le
+vrai module, pas au regex : 540 villes crawlées, **0 avec rang** (540 `incomparable`), 529 avec une
+note d'espaces verts, 11 sans (OSM ne cartographie aucun parc nommé), `overall` `null` sur les 540,
+concentration des relevés médiane 14,0 % (2,6 % à 86,7 %). Pages FR rendues en dev sur les deux
+branches — Douai (avec note d'espaces verts) et Sallanches (sans) — 200 et copie correcte.
+`fetch --dry-run` s'arrête proprement sur le 403 du proxy avec le bon diagnostic. **Limite :** la
+jumelle EN n'a pas pu être rendue, `next dev` renvoyant 404 sur toutes les sous-pages ville EN — y
+compris `parks`, que ce run ne touche pas — le routage EN vivant dans le Worker. Même constat qu'au
+run du 10/08 ; à contrôler au prochain déploiement.
+
+**Ce qui n'est toujours pas couvert.** Aucune donnée collectée : les trois slugs data.gouv.fr et les
+noms d'attributs INPN restent `@unverified`, l'egress étant refusé ici (403 sur `api.gbif.org`,
+`inpn.mnhn.fr` et `www.data.gouv.fr`, retesté ce jour). `fetch` est écrit pour que la première passe
+locale soit lisible plutôt que confiante : elle imprime ce qu'elle trouve et s'arrête sur toute
+ambiguïté. **Prochain pas, côté machine du propriétaire** : `npm run protected-areas:fetch --dry-run`,
+relire la liste des ressources, puis `fetch` et `npm run protected-areas`. Richesse : toujours aucune
+ville notée, par décision du 10/08 — le remède reste un recrawl GBIF agrégé par `datasetKey`
+(`QUERY_VERSION = 3`), pas un correctif d'affichage.
+
 ### F63 — Qualité de l'air : passer du modèle à la mesure
 
 Demande utilisateur 2026-07-29 : *« beaucoup de requêtes en recherche Google »* sur la
