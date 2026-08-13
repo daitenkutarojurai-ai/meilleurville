@@ -17,6 +17,7 @@ import {
   VACATION_PROFILES,
   VACATION_PROFILE_DEFS,
 } from "@/lib/vacation-fit";
+import { EN_PROFILE_LABEL, enWhyLine } from "@/lib/vacation-en";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { MapPin, ChevronRight, Calendar, Sparkles } from "lucide-react";
@@ -82,17 +83,6 @@ const EN_ACTIVITY_LABELS: Record<string, string> = {
   "road-trip": "Road trip",
   gastro: "Gastronomy",
   famille: "Family holidays",
-};
-
-// EN profile labels
-const EN_PROFILE_LABELS: Record<string, string> = {
-  famille: "Families",
-  monoparental: "Single-parent families",
-  couple: "Couples",
-  solo: "Solo",
-  celibataire: "Single travellers",
-  amis: "Groups of friends",
-  seniors: "Seniors",
 };
 
 const breadcrumb = breadcrumbJsonLd([
@@ -176,7 +166,8 @@ export default function VacationsHub() {
                 </span>
               </div>
               <p className="text-xs text-[var(--text-secondary)] leading-snug">
-                {fit.whyOneLine}
+                {/* `fit.whyOneLine` est rédigé en français dans la lib. */}
+                {enWhyLine(city, { month: currentMonth })}
               </p>
               <p className="text-[11px] text-[var(--text-tertiary)] mt-1.5 flex items-center gap-1">
                 <MapPin className="h-3 w-3" />
@@ -273,7 +264,7 @@ export default function VacationsHub() {
                 <div className="flex items-center gap-1.5">
                   <span aria-hidden>{def.emoji}</span>
                   <span className="text-xs font-medium text-[var(--text-secondary)] group-hover:text-[var(--text-primary)] transition-colors">
-                    {EN_PROFILE_LABELS[p] ?? def.label}
+                    {EN_PROFILE_LABEL[p] ?? def.label}
                   </span>
                 </div>
               </Link>

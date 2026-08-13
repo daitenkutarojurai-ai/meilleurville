@@ -957,14 +957,18 @@ Tables dans `lib/i18n.ts` : `FR_TO_EN_ROUTE`, `FR_TO_EN_CITY_SUB`, `PARITY_EXCEP
 (asymétries assumées, avec la raison — la liste doit rester courte, sinon « parité » ne veut
 plus rien dire).
 
-### État au 2026-08-09 — **0 route FR sans jumelle EN**
+### État au 2026-08-13 — **0 route FR sans jumelle EN** (tenu)
 
 ```
-Routes : FR 215 · EN 164
+Routes : FR 217 · EN 165
 0 route(s) FR sans jumelle EN :
 ```
 
-`npm run parity` sort en **code 0** pour la première fois depuis l'ouverture du chantier.
+`npm run parity` sort en **code 0**. Il était sorti en **code 1** au début du run du 13/08 :
+`/vacances/ou-partir/[combo]`, livrée côté FR entre-temps, n'avait pas de jumelle. C'est le
+régime normal de ce chantier maintenant — la parité n'est pas un état atteint une fois, c'est
+une régression à rattraper chaque fois qu'une route FR apparaît (cf. § Livré le 13/08).
+Elle était sortie en code 0 pour la première fois le 09/08.
 
 | Route FR | Jumelle EN | URL |
 |---|---|---|
@@ -995,6 +999,47 @@ setup dans `CLAUDE.md`), pas une facilité.
 **Exceptions assumées** : `/badge` ×541 reste FR-only (la motion backlink vise mairies et
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
+
+### Livré le 13/08 — régression rattrapée le jour même : `/vacations/where-to-go/[combo]`
+
+`npm run parity` est sorti en **code 1** en début de run : une route FR livrée depuis le
+dernier passage, `/vacances/ou-partir/[combo]` (croisement mois × profil, 84 pages, `7f8226d`),
+n'avait pas de jumelle EN. C'est exactement le mode de défaillance que le tableau de bord
+existe pour attraper — rattrapé le jour même, il coûte une page ; un mois plus tard, cent.
+
+**Livré** : `/vacations/where-to-go/[combo]` ×84 (12 mois × 7 profils), même moteur, mêmes
+chiffres. `Crossing` (`lib/vacation-crossing.ts`) porte désormais les deux slugs dans **une
+seule liste** — un croisement ne peut pas exister d'un seul côté, ce sont des alternates
+hreflang l'un de l'autre. Le FR gagne son `languages` au passage (il n'avait qu'un canonical),
+via `pathAlternates` : le slug de combinaison n'est pas dérivable d'une locale à l'autre, donc
+`hreflangLanguages` aurait traduit la tête seule et pointé vers un 404.
+
+⚠️ **Les slugs de profil EN diffèrent volontairement de `/vacations/profile/[profile]`**
+(`april-single-parent` ici, `monoparental` là-bas). L'ancienne route sert encore des mots
+français sur le domaine anglais ; la renommer demande ses redirections, c'est un chantier à
+part. Ne pas « harmoniser » en cassant l'un ou l'autre — la raison est dans le bandeau de
+`EN_PROFILE_SLUG`.
+
+**Trois défauts de qualité trouvés en chemin, et corrigés** — la troisième priorité du
+mandat (« une jumelle qui existe mais parle français est un défaut de parité au même titre
+qu'une page absente ») :
+
+1. **`fit.whyOneLine` partait en français sur les cinq surfaces EN de la famille**
+   (`/vacations`, `month`, `activity`, `profile`, `region`). Sur les pages profil et région,
+   `vacationFit` est appelé sans mois : la phrase se réduisait à « … reste un choix correct
+   mais sans signal saisonnier marqué. » sur **chaque** carte de chaque page. Nouveau
+   `enWhyLine()` (`lib/vacation-en.ts`), reconstruit au site d'affichage plutôt qu'en
+   angliciant la lib, avec **exactement** les seuils de `buildWhyLine` — ce sont des
+   alternates hreflang, elles doivent montrer le même nombre pour la même ville.
+2. **Les 84 pages EN auraient été orphelines** : côté FR, les pages mois et profil portent
+   chacune une section vers les croisements ; côté EN elles n'existaient pas. Ajoutées.
+3. **« Single-parent families » était recopié dans trois pages EN** de la famille. Une seule
+   table (`EN_PROFILE_LABEL`), plus les libellés de mois.
+
+```
+Routes : FR 217 · EN 165
+0 route(s) FR sans jumelle EN :
+```
 
 ### Livré le 09/08 — les 4 dernières routes, et une table qui mentait
 

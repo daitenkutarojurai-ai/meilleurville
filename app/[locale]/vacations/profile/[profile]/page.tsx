@@ -15,6 +15,9 @@ import {
   VACATION_PROFILE_DEFS,
   type VacationProfile,
 } from "@/lib/vacation-fit";
+import { enCrossingSlug } from "@/lib/vacation-crossing";
+import { EN_MONTH_SLUGS, EN_PROFILE_LABEL, enMonthLabel, enWhyLine } from "@/lib/vacation-en";
+import { type MonthIndex } from "@/lib/vacation-seasons";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { MapPin } from "lucide-react";
@@ -31,39 +34,35 @@ export function generateStaticParams() {
 }
 
 // EN overrides for profile labels, intros and meta
-const EN_PROFILE_DEFS: Record<VacationProfile, { label: string; intro: string; metaDesc: string }> = {
+// Les libellés vivent dans lib/vacation-en (ils étaient recopiés dans trois
+// pages de la famille) ; l'intro et la meta restent ici, elles sont propres
+// à cette page.
+const EN_PROFILE_DEFS: Record<VacationProfile, { intro: string; metaDesc: string }> = {
   famille: {
-    label: "Families",
     intro: "Day-to-day safety, activities to keep children occupied, restaurants that actually work with kids. The destinations ranked here deliver all three — no agency top-10.",
     metaDesc: "Family holidays in France 2026: safe destinations, easy with children, manageable budget. Beach, parks, activities.",
   },
   monoparental: {
-    label: "Single-parent families",
     intro: "One adult, one or more children, one budget. Ranked on what matters when nobody takes over: getting around on foot or by public transport, activities for children within reach, and a cost that doesn't double because you're travelling alone with them.",
     metaDesc: "Single-parent holidays in France 2026: destinations that work without a car, activities for children, single-income budgets. Ranked on real data.",
   },
   couple: {
-    label: "Couples",
     intro: "Restaurants, cultural scene, walks for two. The towns that lend themselves to a romantic long weekend without falling into clichés.",
     metaDesc: "Couple holidays in France 2026: romantic destinations, gastronomy, cultural atmosphere. Away from tourist traps.",
   },
   solo: {
-    label: "Solo travellers",
     intro: "Safety (women travelling alone included), good transport options, enough cultural life to stay entertained. The cities where travelling alone is genuinely comfortable.",
     metaDesc: "Solo travel in France 2026: safe destinations, dense cultural scene, accessible by train.",
   },
   celibataire: {
-    label: "Single travellers",
     intro: "Different from travelling solo: here you want people around. Density of bars, terraces and cultural scene, and towns lively enough off-season that you don't end up alone in an empty resort in October.",
     metaDesc: "Holidays for singles in France 2026: lively towns, dense nightlife and cultural scene, easy to reach by train. Ranked on real data.",
   },
   amis: {
-    label: "Groups of friends",
     intro: "Bars, restaurants, nightlife, shared budget. The destinations that handle a group of 4–8 without breaking the bank.",
     metaDesc: "Group holidays in France 2026: destinations with nightlife, restaurants, manageable budget. Coast, mountains, city breaks.",
   },
   seniors: {
-    label: "Seniors",
     intro: "Mild climate, accessibility, calm, healthcare nearby. No \"senior\" marketing — just the cities where day-to-day life feels genuinely relaxed.",
     metaDesc: "Senior holidays in France 2026: calm destinations, mild climate, accessibility, health infrastructure.",
   },
@@ -73,15 +72,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { profile } = await params;
   if (!VACATION_PROFILES.includes(profile as VacationProfile)) return {};
   const enDef = EN_PROFILE_DEFS[profile as VacationProfile];
+  const enLabel = EN_PROFILE_LABEL[profile as VacationProfile];
   return {
-    title: `${enDef.label} holidays in France 2026 · top destinations`,
+    title: `${enLabel} holidays in France 2026 · top destinations`,
     description: enDef.metaDesc,
     alternates: { canonical: `${EN_BASE}/vacations/profile/${profile}` },
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
       images: ["/opengraph-image"],
-      title: `${enDef.label} holidays in France`,
+      title: `${enLabel} holidays in France`,
       description: enDef.intro,
     },
   };
@@ -93,19 +93,20 @@ export default async function ProfilePage({ params }: Props) {
   const slug = profile as VacationProfile;
   const def = VACATION_PROFILE_DEFS[slug];
   const enDef = EN_PROFILE_DEFS[slug];
+  const enLabel = EN_PROFILE_LABEL[slug];
 
   const top20 = topCitiesForProfile(slug, CITIES_LIGHT, { limit: 20 });
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Home", path: `${EN_BASE}/` },
     { name: "Vacations", path: `${EN_BASE}/vacations` },
-    { name: enDef.label, path: `${EN_BASE}/vacations/profile/${slug}` },
+    { name: enLabel, path: `${EN_BASE}/vacations/profile/${slug}` },
   ]);
 
   const itemList = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: `Best holiday destinations in France for ${enDef.label.toLowerCase()}`,
+    name: `Best holiday destinations in France for ${enLabel.toLowerCase()}`,
     itemListElement: top20.slice(0, 10).map(({ city }, i) => ({
       "@type": "ListItem",
       position: i + 1,
@@ -130,12 +131,12 @@ export default async function ProfilePage({ params }: Props) {
             <span className="mx-1">·</span>
             <Link href="/vacations" className="hover:underline">Vacations</Link>
             <span className="mx-1">·</span>
-            <span className="text-[var(--text-secondary)]">{enDef.label}</span>
+            <span className="text-[var(--text-secondary)]">{enLabel}</span>
           </nav>
           <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-[var(--text-primary)] mb-3 flex items-center gap-3 flex-wrap">
             <span aria-hidden>{def.emoji}</span>
             <span>
-              <span className="font-display italic gradient-text-anim">{enDef.label}</span>{" "}
+              <span className="font-display italic gradient-text-anim">{enLabel}</span>{" "}
               holidays in France
             </span>
           </h1>
@@ -152,7 +153,7 @@ export default async function ProfilePage({ params }: Props) {
       {/* Top 10 */}
       <section className="mx-auto max-w-4xl px-4 sm:px-6 py-8">
         <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">
-          Top 10 destinations for {enDef.label.toLowerCase()}
+          Top 10 destinations for {enLabel.toLowerCase()}
         </h2>
         <div className="space-y-3">
           {top20.slice(0, 10).map(({ city, fit }, i) => (
@@ -180,11 +181,14 @@ export default async function ProfilePage({ params }: Props) {
                     </span>
                   </div>
                   <p className="text-sm text-[var(--text-secondary)] leading-snug mb-2">
-                    {fit.whyOneLine}
+                    {/* `fit.whyOneLine` est rédigé en français dans la lib, et
+                        sans mois il se réduisait à la même phrase FR sur chaque
+                        carte de cette page. */}
+                    {enWhyLine(city)}
                   </p>
                   <div className="flex flex-wrap gap-2 text-[11px]">
                     <span className="inline-flex items-center rounded-full bg-[var(--bg-elevated)] px-2 py-0.5 text-[var(--text-secondary)] font-mono-data">
-                      {enDef.label} fit: {fit.profileScore.toFixed(1)}/10
+                      {enLabel} fit: {fit.profileScore.toFixed(1)}/10
                     </span>
                     <span className="inline-flex items-center rounded-full bg-[var(--bg-elevated)] px-2 py-0.5 text-[var(--text-secondary)] font-mono-data">
                       {BUDGET_TIER_LABEL[fit.budgetTier]}
@@ -222,6 +226,32 @@ export default async function ProfilePage({ params }: Props) {
         </section>
       )}
 
+      {/* Croisement profil × mois — jumelle de la section FR « Mois par mois ». */}
+      <section className="mx-auto max-w-4xl px-4 sm:px-6 py-8">
+        <h2 className="text-xl font-bold text-[var(--text-primary)] mb-2">
+          Month by month
+        </h2>
+        <p className="text-sm text-[var(--text-secondary)] mb-4 max-w-2xl">
+          This ranking holds all year. Once you fix a date, the season reshuffles it: each
+          page crosses the {enLabel.toLowerCase()} profile with that month&apos;s climate
+          and crowd levels.
+        </p>
+        <div className="flex flex-wrap gap-2">
+          {EN_MONTH_SLUGS.map((_, i) => {
+            const mi = (i + 1) as MonthIndex;
+            return (
+              <Link
+                key={mi}
+                href={`/vacations/where-to-go/${enCrossingSlug(mi, slug)}`}
+                className="rounded-full border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-1.5 text-xs text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:text-[var(--text-primary)] transition-colors"
+              >
+                {enMonthLabel(mi)}
+              </Link>
+            );
+          })}
+        </div>
+      </section>
+
       {/* Other profiles */}
       <section className="mx-auto max-w-4xl px-4 sm:px-6 py-8">
         <h2 className="text-sm font-semibold text-[var(--text-secondary)] mb-3">
@@ -230,15 +260,14 @@ export default async function ProfilePage({ params }: Props) {
         <div className="flex flex-wrap gap-2">
           {VACATION_PROFILES.filter((p) => p !== slug).map((p) => {
             const otherDef = VACATION_PROFILE_DEFS[p];
-            const otherEnDef = EN_PROFILE_DEFS[p];
-            return (
+                        return (
               <Link
                 key={p}
                 href={`/vacations/profile/${p}`}
                 className="inline-flex items-center gap-1.5 rounded-full border border-[var(--border)] px-3 py-1 text-xs text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:text-[var(--text-primary)] transition-colors"
               >
                 <span aria-hidden>{otherDef.emoji}</span>
-                {otherEnDef.label}
+                {EN_PROFILE_LABEL[p]}
               </Link>
             );
           })}
@@ -258,7 +287,7 @@ export default async function ProfilePage({ params }: Props) {
             How this ranking is built
           </h2>
           <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-            The <strong>{enDef.label.toLowerCase()}</strong> profile re-weights the
+            The <strong>{enLabel.toLowerCase()}</strong> profile re-weights the
             existing site scores (safety, quality of life, culture, transport, cost,
             nature) according to what actually matters for this type of trip. Population
             filter: 8,000+ inhabitants — smaller places show up in the city or activity

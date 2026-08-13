@@ -20,6 +20,7 @@ import {
   topCitiesForActivity,
   BUDGET_TIER_LABEL,
 } from "@/lib/vacation-fit";
+import { enWhyLine } from "@/lib/vacation-en";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { MapPin, Calendar } from "lucide-react";
@@ -213,7 +214,11 @@ export default async function ActivityPage({ params }: Props) {
                     </span>
                   </div>
                   <p className="text-sm text-[var(--text-secondary)] leading-snug mb-2">
-                    {fit.whyOneLine}
+                    {/* `fit.whyOneLine` est rédigé en français dans la lib. */}
+                    {enWhyLine(city, {
+                      activityLabel: enDef.label,
+                      activityScore: fit.activityScore,
+                    })}
                   </p>
                   <div className="flex flex-wrap gap-2 text-[11px]">
                     <span className="inline-flex items-center gap-1 rounded-full bg-[var(--bg-elevated)] px-2 py-0.5 text-[var(--text-secondary)] font-mono-data">

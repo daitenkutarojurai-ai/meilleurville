@@ -1316,6 +1316,15 @@ function enVacationsSection(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.65,
     })),
+    // Croisement mois × profil (12 × 7), jumelle EN de /vacances/ou-partir.
+    // Même liste que le generateStaticParams de la route — le slug EN est porté
+    // par `Crossing.enSlug`, il ne se devine pas depuis le slug FR.
+    ...CROSSINGS.map((c) => ({
+      url: `${BASE_URL}/vacations/where-to-go/${c.enSlug}`,
+      lastModified: STATIC_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    })),
     ...REGION_SLUGS.map((slug) => ({
       url: `${BASE_URL}/vacations/region/${slug}`,
       lastModified: STATIC_UPDATED,

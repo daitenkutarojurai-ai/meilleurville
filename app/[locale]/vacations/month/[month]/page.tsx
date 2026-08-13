@@ -19,7 +19,11 @@ import {
 import {
   topCitiesForMonth,
   BUDGET_TIER_LABEL,
+  VACATION_PROFILES,
+  VACATION_PROFILE_DEFS,
 } from "@/lib/vacation-fit";
+import { enCrossingSlug } from "@/lib/vacation-crossing";
+import { EN_PROFILE_LABEL, enWhyLine } from "@/lib/vacation-en";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import {
@@ -280,7 +284,9 @@ export default async function MonthPage({ params }: Props) {
                       </span>
                     </div>
                     <p className="text-sm text-[var(--text-secondary)] leading-snug mb-2">
-                      {fit.whyOneLine}
+                      {/* `fit.whyOneLine` est rédigé en français dans la lib :
+                          il partait tel quel sur le domaine anglais. */}
+                      {enWhyLine(city, { month: idx })}
                     </p>
                     <div className="flex flex-wrap gap-2 text-[11px]">
                       <span className="inline-flex items-center gap-1 rounded-full bg-[var(--bg-elevated)] px-2 py-0.5 text-[var(--text-secondary)]">
@@ -392,6 +398,35 @@ export default async function MonthPage({ params }: Props) {
           </div>
         </section>
       )}
+
+      {/* Croisement mois × profil — jumelle de la section FR du même nom. */}
+      <section className="mx-auto max-w-4xl px-4 sm:px-6 py-8">
+        <h2 className="text-xl font-bold text-[var(--text-primary)] mb-2">
+          And depending on who you travel with
+        </h2>
+        <p className="text-sm text-[var(--text-secondary)] mb-4 max-w-2xl">
+          The ranking above says nothing about who is travelling. Each of these pages
+          re-ranks {label} around what that profile looks at first — and shows what the
+          month brings in or pushes back.
+        </p>
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {VACATION_PROFILES.map((p) => (
+            <Link
+              key={p}
+              href={`/vacations/where-to-go/${enCrossingSlug(idx, p)}`}
+              className="group flex items-center justify-between gap-2 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-4 py-3 hover:border-[var(--accent)]/40 hover:shadow-md transition-all"
+            >
+              <span className="flex items-center gap-2 min-w-0">
+                <span aria-hidden className="text-base">{VACATION_PROFILE_DEFS[p].emoji}</span>
+                <span className="text-sm font-medium text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors truncate">
+                  {EN_PROFILE_LABEL[p]}
+                </span>
+              </span>
+              <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
+            </Link>
+          ))}
+        </div>
+      </section>
 
       {/* Other months cross-links */}
       <section className="mx-auto max-w-4xl px-4 sm:px-6 py-8">

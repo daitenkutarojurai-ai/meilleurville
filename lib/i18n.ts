@@ -156,6 +156,11 @@ export const FR_TO_EN_ROUTE: Record<string, string> = {
   // moteur `QUITTER_PAIRS`) est celle de `/moving-from/[pair]`. Vérifier par
   // la lib importée, pas par la ressemblance des mots.
   "ou-vont-les-gens": "leaving",
+  // Croisement mois × profil. Les slugs de combinaison diffèrent des deux côtés
+  // (`avril-monoparental` ↔ `april-single-parent`) : le hreflang de ces pages
+  // est donné explicitement par `pathAlternates*`, pas dérivé de cette table,
+  // qui ne traduit que la tête.
+  "ou-partir": "where-to-go",
   outils: "tools",
   palmares: "overall-ranking",
   parcs: "parks",

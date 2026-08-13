@@ -8,14 +8,19 @@ import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { BookingCTA } from "@/components/BookingCTA";
 import { CITIES_COUNT } from "@/lib/site-stats";
-import { getTransit, transitTags } from "@/lib/transit";
+import { getTransit, type Transit } from "@/lib/transit";
+import { monthSignal, type MonthIndex } from "@/lib/vacation-seasons";
 import {
-  MONTHS,
-  formatMonthLabel,
-  monthSignal,
-  type MonthIndex,
-} from "@/lib/vacation-seasons";
-import { CROSSINGS, getCrossing, crossingSlug } from "@/lib/vacation-crossing";
+  CROSSINGS,
+  enCrossingSlug,
+  getEnCrossing,
+} from "@/lib/vacation-crossing";
+import {
+  EN_MONTH_SLUGS,
+  EN_PROFILE_LABEL,
+  enMonthLabel,
+  enWhyLine,
+} from "@/lib/vacation-en";
 import {
   topCitiesForMonth,
   topCitiesForProfile,
@@ -25,7 +30,7 @@ import {
   type VacationProfile,
 } from "@/lib/vacation-fit";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { pathAlternates } from "@/lib/i18n";
+import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
 import {
   MapPin,
   Thermometer,
@@ -36,95 +41,100 @@ import {
   ArrowDownRight,
 } from "lucide-react";
 
-// Croisement mois × profil : « où partir en avril en famille monoparentale ».
-// Le moteur savait déjà répondre (`topCitiesForMonth` accepte un profil depuis
-// F61) — il manquait la surface. Aucun chiffre saisi à la main ici : tout sort
-// de lib/vacation-fit, lib/vacation-seasons et lib/transit.
+// Jumelle EN de /vacances/ou-partir/[combo] (croisement mois × profil).
 //
-// L'adressage (un seul segment, en ASCII) et la raison de ce choix sont dans
-// lib/vacation-crossing.ts — lire le bandeau avant de déplacer la route.
+// Même moteur, mêmes chiffres : ce sont des alternates hreflang, un écart de
+// nombre entre les deux serait un bug. Rien n'est saisi à la main ici — tout
+// sort de lib/vacation-fit, lib/vacation-seasons et lib/transit, comme côté FR.
+//
+// L'adressage (un seul segment ASCII, et pourquoi les slugs de profil diffèrent
+// de /vacations/profile/[profile]) est documenté dans lib/vacation-crossing.ts.
 
-// Canonical FR origin is the www host (worker/index.ts 301s the apex to it).
-// JSON-LD must name the canonical URL, not one that redirects.
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
+const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
 
-type Props = { params: Promise<{ combo: string }> };
+type Props = { params: Promise<{ locale: string; combo: string }> };
 
 export function generateStaticParams() {
-  return CROSSINGS.map((c) => ({ combo: c.slug }));
+  return CROSSINGS.map((c) => ({ locale: "en", combo: c.enSlug }));
 }
 
-// Le libellé d'un profil (« Seniors », « Célibataire ») ne s'insère pas tel
-// quel dans « Où partir en avril … » : il faut la tournure prépositionnelle.
+// « Where to go in April … » : le libellé du profil ne s'insère pas tel quel,
+// il faut la tournure prépositionnelle.
 const PROFILE_PHRASE: Record<VacationProfile, string> = {
-  famille: "en famille",
-  monoparental: "en famille monoparentale",
-  couple: "en couple",
-  solo: "en solo",
-  celibataire: "quand on est célibataire",
-  amis: "entre amis",
-  seniors: "quand on est senior",
+  famille: "with the family",
+  monoparental: "as a single parent",
+  couple: "as a couple",
+  solo: "on your own",
+  celibataire: "if you're single",
+  amis: "with friends",
+  seniors: "as a senior",
 };
 
-// Ce que le profil regarde en premier, pour dire au lecteur ce que le
-// classement pondère — les poids réels sont ceux de `profileFit`.
+// Ce que le profil regarde en premier — les poids réels sont ceux de
+// `profileFit`, cette phrase ne fait que les nommer au lecteur.
 const PROFILE_PIVOT: Record<VacationProfile, string> = {
-  famille: "sécurité du quotidien, qualité de vie, nature et écoles",
-  monoparental: "sécurité, transports et coût — un seul adulte, un seul budget",
-  couple: "culture, qualité de vie et cadre",
-  solo: "sécurité, culture et facilité de déplacement",
-  celibataire: "densité culturelle et vie locale, pour ne pas atterrir dans une station vide",
-  amis: "culture, vie nocturne, transports et budget partagé",
-  seniors: "sécurité, qualité de vie, nature et coût",
+  famille: "everyday safety, quality of life, green space and schools",
+  monoparental: "safety, public transport and cost — one adult, one budget",
+  couple: "cultural life, quality of life and setting",
+  solo: "safety, cultural life and ease of getting around",
+  celibataire:
+    "density of cultural and social life, so you don't land in an empty resort",
+  amis: "cultural life, nightlife, transport and a shared budget",
+  seniors: "safety, quality of life, green space and cost",
 };
 
 const POOL_SIZE = 60;
 const TOP_SHOWN = 12;
 const COMPARE_DEPTH = 15;
 
-// Décimale française. `dec1` pour les scores et les températures (une
-// décimale, comme partout ailleurs sur le site), `loose` pour les grandeurs
-// entières par nature — « 7,0 j de pluie » n'a pas de sens.
+// Décimale anglaise : le point, pas la virgule. Le nombre est le même que côté
+// FR, seule la façon de l'écrire change.
 function dec1(n: number): string {
-  return n.toFixed(1).replace(".", ",");
-}
-
-function loose(n: number): string {
-  return String(n).replace(".", ",");
+  return n.toFixed(1);
 }
 
 function crowdLabel(c: number): string {
-  return c <= 2 ? "Calme" : c === 3 ? "Modéré" : "Très fréquenté";
+  return c <= 2 ? "Quiet" : c === 3 ? "Moderate" : "Very busy";
+}
+
+// `transitTags` (lib/transit) rend du français. On refait la table ici plutôt
+// que d'angliciser la lib, qui sert d'abord les pages FR.
+function enTransitTags(t: Transit): string[] {
+  const out: string[] = [];
+  if (t.metro) out.push("Metro");
+  if (t.rer) out.push("RER");
+  if (t.tram) out.push("Tram");
+  if (t.tgv) out.push("TGV");
+  if (t.bhns) out.push("Bus rapid transit");
+  if (t.velo === "fort") out.push("Strong cycling network");
+  else if (t.velo === "moyen") out.push("Cycling network");
+  return out;
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { combo } = await params;
-  const crossing = getCrossing(combo);
+  const crossing = getEnCrossing(combo);
   if (!crossing) return {};
   const slug = crossing.profile;
-  const monthLower = formatMonthLabel(crossing.month).toLowerCase();
+  const month = enMonthLabel(crossing.month);
   const phrase = PROFILE_PHRASE[slug];
   return {
-    title: `Où partir en ${monthLower} ${phrase} · 2026`,
-    description: `Où partir en ${monthLower} ${phrase} : climat, affluence, budget et accès sans voiture. Classement mesuré sur ${CITIES_COUNT} villes, pas un top d'agence.`,
-    // La jumelle EN existe (/vacations/where-to-go/…) mais son slug de
-    // combinaison n'est pas dérivable du FR (`avril-monoparental` ↔
-    // `april-single-parent`) : les deux chemins sont donnés explicitement,
-    // sinon `hreflangLanguages` traduirait la tête seule et pointerait vers un
-    // 404 — pire que pas de hreflang du tout.
-    alternates: pathAlternates(
-      `/vacances/ou-partir/${combo}`,
-      `/vacations/where-to-go/${crossing.enSlug}`,
+    // 44-58 caractères selon le mois et le profil, sous la coupure SERP.
+    title: `Where to go in ${month} ${phrase} · France 2026`,
+    description: `Where to go in France in ${month} ${phrase}: climate, crowds, budget and car-free access. Ranked across ${CITIES_COUNT} towns and cities, not an agency top 10.`,
+    alternates: pathAlternatesEn(
+      `/vacances/ou-partir/${crossing.slug}`,
+      `/vacations/where-to-go/${combo}`,
     ),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaîtrait entièrement au lieu de retomber dessus.
       images: ["/opengraph-image"],
-      title: `Où partir en ${monthLower} ${phrase}`,
-      description: VACATION_PROFILE_DEFS[slug].intro,
+      title: `Where to go in ${month} ${phrase}`,
+      description: `${EN_PROFILE_LABEL[slug]}, ranked for ${month}: climate, crowds and budget on ${CITIES_COUNT} French destinations.`,
     },
   };
 }
@@ -135,32 +145,29 @@ interface CarFreePick {
   tags: string[];
 }
 
-// Arriver en train ET tenir sur place sans louer de voiture. Même règle que
-// la section « sans voiture » du profil monoparental : gare TGV/RER d'un côté,
-// réseau lourd ou score transport suffisant de l'autre.
-function carFreePicks(
-  pool: ReturnType<typeof topCitiesForMonth>,
-): CarFreePick[] {
+// Arriver en train ET tenir sur place sans louer de voiture. Mêmes seuils que
+// la page FR : gare TGV/RER d'un côté, réseau lourd ou score transport
+// suffisant de l'autre.
+function carFreePicks(pool: ReturnType<typeof topCitiesForMonth>): CarFreePick[] {
   return pool
     .map(({ city, fit }) => {
       const t = getTransit(city.slug);
       const arrivable = !!(t.tgv || t.rer);
       const local = !!(t.metro || t.tram || t.bhns) || city.scores.transport >= 6.8;
       if (!arrivable || !local) return null;
-      return { city, score: fit.score, tags: transitTags(t) };
+      return { city, score: fit.score, tags: enTransitTags(t) };
     })
     .filter((d): d is CarFreePick => d !== null)
     .slice(0, 8);
 }
 
-export default async function MoisProfilPage({ params }: Props) {
+export default async function WhereToGoPage({ params }: Props) {
   const { combo } = await params;
-  const crossing = getCrossing(combo);
+  const crossing = getEnCrossing(combo);
   if (!crossing) notFound();
-  const { month: idx, monthSlug: mois, profile: slug } = crossing;
-  const def = VACATION_PROFILE_DEFS[slug];
-  const label = formatMonthLabel(idx);
-  const monthLower = label.toLowerCase();
+  const { month: idx, profile: slug, enMonthSlug } = crossing;
+  const label = enMonthLabel(idx);
+  const profileLabel = EN_PROFILE_LABEL[slug];
   const phrase = PROFILE_PHRASE[slug];
 
   // Même seuil de population que le classement par profil (8 000 hab.), pour
@@ -173,7 +180,6 @@ export default async function MoisProfilPage({ params }: Props) {
   const top = pool.slice(0, TOP_SHOWN);
   const profileOnly = topCitiesForProfile(slug, CITIES_LIGHT, { limit: POOL_SIZE });
 
-  // Repères du mois, mesurés sur le haut de classement affiché.
   const signals = top.map(({ city }) => monthSignal(city, idx));
   const median = (xs: number[]) => {
     const s = [...xs].sort((a, b) => a - b);
@@ -195,29 +201,23 @@ export default async function MoisProfilPage({ params }: Props) {
   const entrants = entrantsAll.slice(0, 6);
   const sortants = sortantsAll.slice(0, 6);
 
-  // « Ce qu'avril », « Ce qu'août », « Ce qu'octobre » — l'élision se calcule,
-  // elle ne se rend pas en JSX (les nœuds texte y sont séparés par un blanc).
-  const ceQue = /^[aeiouâàéèêîôûù]/i.test(monthLower)
-    ? `Ce qu'${monthLower}`
-    : `Ce que ${monthLower}`;
-
   const carFree = carFreePicks(pool);
 
   const breadcrumb = breadcrumbJsonLd([
-    { name: "Accueil", path: "/" },
-    { name: "Vacances", path: "/vacances" },
-    { name: label, path: `/vacances/mois/${mois}` },
-    { name: def.label, path: `/vacances/ou-partir/${combo}` },
+    { name: "Home", path: `${EN_BASE}/` },
+    { name: "Vacations", path: `${EN_BASE}/vacations` },
+    { name: label, path: `${EN_BASE}/vacations/month/${enMonthSlug}` },
+    { name: profileLabel, path: `${EN_BASE}/vacations/where-to-go/${combo}` },
   ]);
 
   const itemList = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: `Où partir en ${monthLower} ${phrase} — meilleures destinations`,
+    name: `Where to go in France in ${label} ${phrase} — best destinations`,
     itemListElement: top.slice(0, 10).map(({ city }, i) => ({
       "@type": "ListItem",
       position: i + 1,
-      url: `${BASE_URL}/villes/${city.slug}`,
+      url: `${EN_BASE}/cities/${city.slug}`,
       name: city.name,
     })),
   };
@@ -233,30 +233,31 @@ export default async function MoisProfilPage({ params }: Props) {
           <div className="absolute inset-0 bg-aurora opacity-30" />
         </div>
         <div className="relative mx-auto max-w-4xl px-4 sm:px-6">
-          <nav className="text-xs text-[var(--text-tertiary)] mb-3" aria-label="Fil d'Ariane">
-            <Link href="/" className="hover:underline">Accueil</Link>
+          <nav className="text-xs text-[var(--text-tertiary)] mb-3" aria-label="Breadcrumb">
+            <Link href="/" className="hover:underline">Home</Link>
             <span className="mx-1">·</span>
-            <Link href="/vacances" className="hover:underline">Vacances</Link>
+            <Link href="/vacations" className="hover:underline">Vacations</Link>
             <span className="mx-1">·</span>
-            <Link href={`/vacances/mois/${mois}`} className="hover:underline">{label}</Link>
+            <Link href={`/vacations/month/${enMonthSlug}`} className="hover:underline">{label}</Link>
             <span className="mx-1">·</span>
-            <span className="text-[var(--text-secondary)]">{def.label}</span>
+            <span className="text-[var(--text-secondary)]">{profileLabel}</span>
           </nav>
           <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-[var(--text-primary)] mb-3">
-            Où partir en <span className="font-display italic gradient-text-anim">{monthLower}</span>{" "}
-            {phrase}&nbsp;?
+            Where to go in{" "}
+            <span className="font-display italic gradient-text-anim">{label}</span>{" "}
+            {phrase}?
           </h1>
           <p className="text-base text-[var(--text-secondary)] leading-relaxed max-w-2xl">
-            Le classement général du mois ne dit rien de qui voyage. Celui-ci croise les
-            deux : d&apos;un côté le climat et l&apos;affluence de {monthLower}, de
-            l&apos;autre ce que ce profil regarde en premier — {PROFILE_PIVOT[slug]}.
+            A general ranking for the month says nothing about who is travelling. This one
+            crosses the two: {label}&apos;s climate and crowd levels on one side, what this
+            profile looks at first on the other — {PROFILE_PIVOT[slug]}.
           </p>
           <div className="mt-4 flex flex-wrap items-center gap-2 text-xs">
-            <Badge>{pool.length} destinations classées</Badge>
-            <Badge>{dec1(medTemp)} °C de médiane sur le top {TOP_SHOWN}</Badge>
-            <Badge>{loose(medRain)} j de pluie</Badge>
+            <Badge>{pool.length} destinations ranked</Badge>
+            <Badge>{dec1(medTemp)} °C median across the top {TOP_SHOWN}</Badge>
+            <Badge>{medRain} rainy days</Badge>
             <Badge>
-              {calmShare}/{TOP_SHOWN} à affluence faible
+              {calmShare}/{TOP_SHOWN} with low crowds
             </Badge>
           </div>
         </div>
@@ -265,7 +266,7 @@ export default async function MoisProfilPage({ params }: Props) {
       {/* Top du mois pour ce profil */}
       <section className="mx-auto max-w-4xl px-4 sm:px-6 py-8">
         <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">
-          Top {TOP_SHOWN} en {monthLower} {phrase}
+          Top {TOP_SHOWN} in {label} {phrase}
         </h2>
         <div className="space-y-3">
           {top.map(({ city, fit }, i) => {
@@ -284,7 +285,7 @@ export default async function MoisProfilPage({ params }: Props) {
                   <div className="flex-1 min-w-0">
                     <div className="flex items-baseline justify-between flex-wrap gap-2 mb-1">
                       <Link
-                        href={`/villes/${city.slug}`}
+                        href={`/cities/${city.slug}`}
                         className="text-lg font-semibold text-[var(--text-primary)] hover:text-[var(--accent)] transition-colors"
                       >
                         {city.name}
@@ -295,7 +296,7 @@ export default async function MoisProfilPage({ params }: Props) {
                       </span>
                     </div>
                     <p className="text-sm text-[var(--text-secondary)] leading-snug mb-2">
-                      {fit.whyOneLine}
+                      {enWhyLine(city, { month: idx })}
                     </p>
                     <div className="flex flex-wrap gap-2 text-[11px]">
                       <span className="inline-flex items-center gap-1 rounded-full bg-[var(--bg-elevated)] px-2 py-0.5 text-[var(--text-secondary)]">
@@ -304,21 +305,21 @@ export default async function MoisProfilPage({ params }: Props) {
                       </span>
                       <span className="inline-flex items-center gap-1 rounded-full bg-[var(--bg-elevated)] px-2 py-0.5 text-[var(--text-secondary)]">
                         <CloudRain className="h-3 w-3" />
-                        {sig.rainDays} j pluie
+                        {sig.rainDays} rainy days
                       </span>
                       <span className="inline-flex items-center gap-1 rounded-full bg-[var(--bg-elevated)] px-2 py-0.5 text-[var(--text-secondary)]">
                         <Users className="h-3 w-3" />
                         {crowdLabel(sig.crowded)}
                       </span>
                       <span className="inline-flex items-center rounded-full bg-[var(--bg-elevated)] px-2 py-0.5 text-[var(--text-secondary)] font-mono-data">
-                        Profil {def.label.toLowerCase()} : {dec1(fit.profileScore)}/10
+                        {profileLabel} score: {dec1(fit.profileScore)}/10
                       </span>
                       <span className="inline-flex items-center rounded-full bg-[var(--bg-elevated)] px-2 py-0.5 text-[var(--text-secondary)] font-mono-data">
                         {BUDGET_TIER_LABEL[fit.budgetTier]}
                       </span>
                     </div>
                     <div className="mt-3">
-                      <BookingCTA cityName={city.name} variant="compact" month={idx} />
+                      <BookingCTA cityName={city.name} variant="compact" month={idx} locale="en" />
                     </div>
                   </div>
                 </div>
@@ -332,32 +333,32 @@ export default async function MoisProfilPage({ params }: Props) {
       {(entrants.length > 0 || sortants.length > 0) && (
         <section className="mx-auto max-w-4xl px-4 sm:px-6 py-8">
           <h2 className="text-xl font-bold text-[var(--text-primary)] mb-1">
-            {ceQue} change
+            What {label} changes
           </h2>
           <p className="text-sm text-[var(--text-secondary)] mb-4 max-w-2xl">
-            Comparaison avec le classement{" "}
-            <Link href={`/vacances/profil/${slug}`} className="underline">
-              {def.label.toLowerCase()}
+            Compared with the{" "}
+            <Link href={`/vacations/profile/${slug}`} className="underline">
+              {profileLabel.toLowerCase()}
             </Link>{" "}
-            pris hors saison, sur le même vivier de villes :{" "}
+            ranking taken across the whole year, on the same pool of towns:{" "}
             <strong>
-              {entrantsAll.length} des {COMPARE_DEPTH} premiers changent
+              {entrantsAll.length} of the top {COMPARE_DEPTH} change
             </strong>{" "}
-            une fois la date posée.{" "}
+            once you fix a date.{" "}
             {entrantsAll.length >= COMPARE_DEPTH / 2
-              ? `En ${monthLower}, la saison décide donc davantage que le profil.`
-              : `Le socle du profil tient donc largement en ${monthLower}.`}{" "}
-            Ci-dessous les mouvements les plus nets.
+              ? `In ${label}, the season decides more than the profile does.`
+              : `The profile's core holds up well in ${label}.`}{" "}
+            The clearest moves are below.
           </p>
           <div className="grid gap-4 md:grid-cols-2">
             <Card>
               <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-3 flex items-center gap-1.5">
                 <ArrowUpRight className="h-4 w-4 text-emerald-600" />
-                {monthLower.charAt(0).toUpperCase() + monthLower.slice(1)} les fait entrer
+                {label} brings these in
               </h3>
               {entrants.length === 0 ? (
                 <p className="text-xs text-[var(--text-tertiary)]">
-                  Aucune : en {monthLower}, le haut du classement de ce profil ne bouge pas.
+                  None: in {label}, the top of this profile&apos;s ranking doesn&apos;t move.
                 </p>
               ) : (
                 <ul className="space-y-2">
@@ -366,13 +367,13 @@ export default async function MoisProfilPage({ params }: Props) {
                     return (
                       <li key={city.slug} className="text-sm">
                         <Link
-                          href={`/villes/${city.slug}`}
+                          href={`/cities/${city.slug}`}
                           className="font-medium text-[var(--text-primary)] hover:text-[var(--accent)] transition-colors"
                         >
                           {city.name}
                         </Link>
                         <span className="text-xs text-[var(--text-tertiary)]">
-                          {" "}— {dec1(sig.tempAvg)} °C, {sig.rainDays} j de pluie,{" "}
+                          {" "}— {dec1(sig.tempAvg)} °C, {sig.rainDays} rainy days,{" "}
                           {crowdLabel(sig.crowded).toLowerCase()} · score {dec1(fit.score)}
                         </span>
                       </li>
@@ -384,11 +385,11 @@ export default async function MoisProfilPage({ params }: Props) {
             <Card>
               <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-3 flex items-center gap-1.5">
                 <ArrowDownRight className="h-4 w-4 text-amber-600" />
-                Et ce qu&apos;il fait reculer
+                And these it pushes back
               </h3>
               {sortants.length === 0 ? (
                 <p className="text-xs text-[var(--text-tertiary)]">
-                  Aucune : les valeurs sûres du profil tiennent aussi en {monthLower}.
+                  None: this profile&apos;s safe bets hold up in {label} too.
                 </p>
               ) : (
                 <ul className="space-y-2">
@@ -397,14 +398,14 @@ export default async function MoisProfilPage({ params }: Props) {
                     return (
                       <li key={city.slug} className="text-sm">
                         <Link
-                          href={`/villes/${city.slug}`}
+                          href={`/cities/${city.slug}`}
                           className="font-medium text-[var(--text-primary)] hover:text-[var(--accent)] transition-colors"
                         >
                           {city.name}
                         </Link>
                         <span className="text-xs text-[var(--text-tertiary)]">
-                          {" "}— {dec1(sig.tempAvg)} °C, {sig.rainDays} j de pluie,{" "}
-                          {crowdLabel(sig.crowded).toLowerCase()} ce mois-ci
+                          {" "}— {dec1(sig.tempAvg)} °C, {sig.rainDays} rainy days,{" "}
+                          {crowdLabel(sig.crowded).toLowerCase()} this month
                         </span>
                       </li>
                     );
@@ -414,8 +415,8 @@ export default async function MoisProfilPage({ params }: Props) {
             </Card>
           </div>
           <p className="mt-3 text-xs text-[var(--text-tertiary)]">
-            Reculer n&apos;est pas être disqualifié : ces villes restent bien notées pour ce
-            profil, elles sont simplement moins dans leur saison en {monthLower}.
+            Being pushed back is not being ruled out: these towns still score well for this
+            profile, they are simply less in their season in {label}.
           </p>
         </section>
       )}
@@ -425,18 +426,18 @@ export default async function MoisProfilPage({ params }: Props) {
         <section className="mx-auto max-w-4xl px-4 sm:px-6 py-8">
           <h2 className="text-xl font-bold text-[var(--text-primary)] mb-1 flex items-center gap-2">
             <TrainFront className="h-5 w-5 text-[var(--accent)]" aria-hidden />
-            En {monthLower}, sans louer de voiture
+            {label} without renting a car
           </h2>
           <p className="text-sm text-[var(--text-secondary)] mb-4 max-w-2xl">
             {slug === "monoparental"
-              ? "Un seul adulte au volant, c'est aussi un seul adulte qui ne conduit pas si on prend le train. Ces destinations du classement de ce mois se rejoignent en TGV ou en RER et se parcourent ensuite en réseau lourd — ou avec un score transport assez haut pour se passer de location."
-              : "Ces destinations du classement de ce mois se rejoignent en TGV ou en RER et se parcourent ensuite en métro, tram ou BHNS — ou avec un score transport assez haut pour se passer d'une location."}
+              ? "One adult at the wheel also means one adult who doesn't have to drive if you take the train. These destinations from this month's ranking are reachable by TGV (high-speed rail) or RER (the Paris regional network), and get around afterwards on metro, tram or bus rapid transit — or score high enough on transport to skip the rental."
+              : "These destinations from this month's ranking are reachable by TGV (high-speed rail) or RER (the Paris regional network), and get around afterwards on metro, tram or bus rapid transit — or score high enough on transport to skip the rental."}
           </p>
           <div className="grid gap-3 sm:grid-cols-2">
             {carFree.map(({ city, score, tags }) => (
               <Link
                 key={city.slug}
-                href={`/villes/${city.slug}`}
+                href={`/cities/${city.slug}`}
                 className="group rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-4 py-3 hover:border-[var(--accent)]/40 hover:shadow-md transition-all"
               >
                 <div className="flex items-baseline justify-between gap-2">
@@ -450,7 +451,7 @@ export default async function MoisProfilPage({ params }: Props) {
                 <div className="mt-1 text-xs text-[var(--text-tertiary)]">
                   {tags.length > 0
                     ? tags.join(" · ")
-                    : `Score transport ${dec1(city.scores.transport)}/10`}
+                    : `Transport score ${dec1(city.scores.transport)}/10`}
                 </div>
               </Link>
             ))}
@@ -458,52 +459,52 @@ export default async function MoisProfilPage({ params }: Props) {
         </section>
       )}
 
-      {/* Croisements : les autres mois pour ce profil */}
+      {/* Croisements */}
       <section className="mx-auto max-w-4xl px-4 sm:px-6 py-8">
         <h2 className="text-sm font-semibold text-[var(--text-secondary)] mb-3">
-          Le même profil, mois par mois
+          Same profile, month by month
         </h2>
         <div className="flex flex-wrap gap-2 mb-6">
-          {MONTHS.map((m, i) => {
+          {EN_MONTH_SLUGS.map((_, i) => {
             const mi = (i + 1) as MonthIndex;
             if (mi === idx) return null;
             return (
               <Link
-                key={m}
-                href={`/vacances/ou-partir/${crossingSlug(mi, slug)}`}
+                key={mi}
+                href={`/vacations/where-to-go/${enCrossingSlug(mi, slug)}`}
                 className="rounded-full border border-[var(--border)] px-3 py-1 text-xs text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:text-[var(--text-primary)] transition-colors"
               >
-                {formatMonthLabel(mi)}
+                {enMonthLabel(mi)}
               </Link>
             );
           })}
         </div>
 
         <h2 className="text-sm font-semibold text-[var(--text-secondary)] mb-3">
-          Le même mois, avec qui d&apos;autre
+          Same month, travelling with someone else
         </h2>
         <div className="flex flex-wrap gap-2">
           {VACATION_PROFILES.filter((p) => p !== slug).map((p) => (
             <Link
               key={p}
-              href={`/vacances/ou-partir/${crossingSlug(idx, p)}`}
+              href={`/vacations/where-to-go/${enCrossingSlug(idx, p)}`}
               className="inline-flex items-center gap-1.5 rounded-full border border-[var(--border)] px-3 py-1 text-xs text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:text-[var(--text-primary)] transition-colors"
             >
               <span aria-hidden>{VACATION_PROFILE_DEFS[p].emoji}</span>
-              {VACATION_PROFILE_DEFS[p].label}
+              {EN_PROFILE_LABEL[p]}
             </Link>
           ))}
           <Link
-            href={`/vacances/mois/${mois}`}
+            href={`/vacations/month/${enMonthSlug}`}
             className="rounded-full bg-[var(--accent)] text-white px-3 py-1 text-xs font-medium hover:bg-[var(--accent-hover)] transition-colors"
           >
-            ← Tout {monthLower}
+            ← All of {label}
           </Link>
           <Link
-            href={`/vacances/profil/${slug}`}
+            href={`/vacations/profile/${slug}`}
             className="rounded-full border border-[var(--accent)]/40 px-3 py-1 text-xs font-medium text-[var(--accent)] hover:bg-[var(--accent)]/10 transition-colors"
           >
-            Profil {def.label.toLowerCase()} toute l&apos;année
+            {profileLabel} all year round
           </Link>
         </div>
       </section>
@@ -512,35 +513,35 @@ export default async function MoisProfilPage({ params }: Props) {
       <section className="mx-auto max-w-3xl px-4 sm:px-6 pb-14">
         <Card className="bg-[var(--bg-elevated)]/40">
           <h2 className="text-sm font-semibold text-[var(--text-primary)] mb-2">
-            Comment ce classement est construit
+            How this ranking is built
           </h2>
           <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-            Score composite = adéquation saisonnière (~45 %) + profil voyageur (~25 %) +
-            qualité globale de la ville (~30 %). Le profil{" "}
-            <strong>{def.label.toLowerCase()}</strong> agrège différemment les scores du
-            site ({PROFILE_PIVOT[slug]}). Climat mensuel issu des normales Météo-France
-            1991-2020 de la station la plus proche, complété par interpolation quand la
-            station n&apos;expose pas la variable ; affluence estimée depuis les
-            caractéristiques de la ville, modulée par le mois. Filtre population
-            ≥ 8 000 hab., le même que le classement par profil — c&apos;est ce qui rend les
-            deux comparables.
+            Composite score = seasonal fit (~45%) + traveller profile (~25%) + the town&apos;s
+            overall quality (~30%). The{" "}
+            <strong>{profileLabel.toLowerCase()}</strong> profile recombines the site&apos;s
+            scores differently ({PROFILE_PIVOT[slug]}). Monthly climate comes from
+            Météo-France 1991-2020 normals at the nearest weather station, filled in by
+            interpolation where a station doesn&apos;t publish the variable; crowd levels are
+            estimated from the town&apos;s characteristics and adjusted by month. Population
+            filter ≥ 8,000, the same one the profile ranking uses — that is what makes the
+            two comparable.
             <br /><br />
-            <strong>À lire dans le bon sens :</strong> la saison pèse plus lourd que le
-            profil dans le composite. Cette page répond donc à « parmi ce qui se tient en{" "}
-            {monthLower}, qu&apos;est-ce qui va le mieux à ce profil », pas à « quelle est
-            la meilleure destination pour ce profil ». Pour cette seconde question, le{" "}
-            <Link href={`/vacances/profil/${slug}`} className="underline">
-              classement du profil
+            <strong>Read it the right way round:</strong> the season weighs more than the
+            profile in the composite. This page answers &ldquo;among what holds up in{" "}
+            {label}, what suits this profile best&rdquo;, not &ldquo;what is the best
+            destination for this profile&rdquo;. For that second question, the{" "}
+            <Link href={`/vacations/profile/${slug}`} className="underline">
+              profile ranking
             </Link>{" "}
-            est le bon point d&apos;entrée.
+            is the right entry point.
             <br /><br />
-            <strong>Limites connues :</strong> climat interpolé à ±1,5 °C, aucune donnée de
-            prix en temps réel, affluence qualitative (1-5) et non chiffrée.
-            <Link href="/methode" className="underline ml-1">Méthodologie complète</Link>.
+            <strong>Known limits:</strong> climate interpolated to ±1.5 °C, no real-time
+            pricing, crowd levels qualitative (1-5) rather than counted.
+            <Link href="/methodology" className="underline ml-1">Full methodology</Link>.
           </p>
           <div className="mt-3 flex flex-wrap gap-2">
-            <Badge>Données climat Météo-France</Badge>
-            <Badge>{CITIES_COUNT} villes scorées</Badge>
+            <Badge>Météo-France climate data</Badge>
+            <Badge>{CITIES_COUNT} towns scored</Badge>
           </div>
         </Card>
       </section>

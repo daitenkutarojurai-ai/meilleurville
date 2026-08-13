@@ -40,22 +40,59 @@ export const MONTH_ASCII = [
   "juillet", "aout", "septembre", "octobre", "novembre", "decembre",
 ] as const;
 
+/** Slug EN du mois, index 1-12 → `EN_MONTH_SLUG[index - 1]`. */
+export const EN_MONTH_SLUG = [
+  "january", "february", "march", "april", "may", "june",
+  "july", "august", "september", "october", "november", "december",
+] as const;
+
+/**
+ * Slug EN du profil dans l'URL du croisement.
+ *
+ * ⚠️ **Ils diffèrent volontairement de `/vacations/profile/[profile]`**, qui
+ * sert encore les slugs FR (`monoparental`, `celibataire`) sur le domaine
+ * anglais. Cette route-ci est neuve : rien n'y est indexé, donc rien n'oblige
+ * à reconduire un mot français dans une URL dont tout l'objet est de capter
+ * « where to go in april with kids ». Aligner les deux voudrait dire renommer
+ * l'ancienne route **avec ses redirections** — un chantier à part, pas un
+ * effet de bord de celui-ci. Ne pas « harmoniser » en cassant l'un ou l'autre.
+ */
+export const EN_PROFILE_SLUG: Record<VacationProfile, string> = {
+  famille: "family",
+  monoparental: "single-parent",
+  couple: "couple",
+  solo: "solo",
+  celibataire: "singles",
+  amis: "friends",
+  seniors: "seniors",
+};
+
 export interface Crossing {
   /** `avril-monoparental` */
   slug: string;
+  /** `april-single-parent` — la jumelle EN, cf. `EN_PROFILE_SLUG`. */
+  enSlug: string;
   month: MonthIndex;
-  /** Slug accentué de la route mois, pour les liens croisés. */
+  /** Slug accentué de la route mois FR, pour les liens croisés. */
   monthSlug: MonthSlug;
+  /** `april` — le segment de `/vacations/month/[month]`. */
+  enMonthSlug: (typeof EN_MONTH_SLUG)[number];
   profile: VacationProfile;
 }
 
-// Ni un slug de mois ni un slug de profil ne contient de tiret : la
-// concaténation reste lisible et sans ambiguïté.
+// Une seule liste pour les deux locales : les pages sont des alternates
+// hreflang l'une de l'autre, un croisement ne peut pas exister d'un seul côté.
+//
+// Ni un slug de mois ni un slug de profil FR ne contient de tiret ; côté EN
+// seul le profil en porte un (`single-parent`). Dans les deux cas la
+// concaténation reste sans ambiguïté, la lecture se faisant par table.
 export const CROSSINGS: Crossing[] = MONTH_ASCII.flatMap((ascii, i) =>
   VACATION_PROFILES.map((profile) => ({
     slug: `${ascii}-${profile}`,
+    enSlug: `${EN_MONTH_SLUG[i]}-${EN_PROFILE_SLUG[profile]}`,
     month: (i + 1) as MonthIndex,
     monthSlug: MONTHS[i],
+    enMonthSlug: EN_MONTH_SLUG[i],
     profile,
   })),
 );
@@ -68,4 +105,18 @@ export function getCrossing(slug: string): Crossing | null {
 
 export function crossingSlug(month: MonthIndex, profile: VacationProfile): string {
   return `${MONTH_ASCII[month - 1]}-${profile}`;
+}
+
+// ---------------------------------------------------------------------------
+// Jumelle EN : /vacations/where-to-go/[combo]
+// ---------------------------------------------------------------------------
+
+const BY_EN_SLUG = new Map(CROSSINGS.map((c) => [c.enSlug, c]));
+
+export function getEnCrossing(slug: string): Crossing | null {
+  return BY_EN_SLUG.get(slug) ?? null;
+}
+
+export function enCrossingSlug(month: MonthIndex, profile: VacationProfile): string {
+  return `${EN_MONTH_SLUG[month - 1]}-${EN_PROFILE_SLUG[profile]}`;
 }
