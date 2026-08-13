@@ -245,6 +245,9 @@ export default function DonneesPage() {
           <Link href="/leaderboard" className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
             Leaderboard →
           </Link>
+          <Link href="/parcs" className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
+            Parcs relevés sur OpenStreetMap →
+          </Link>
         </div>
       </div>
 

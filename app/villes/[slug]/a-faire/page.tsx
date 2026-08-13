@@ -332,6 +332,12 @@ export default async function AFairePage({ params }: Props) {
           >
             Tous les guides pratiques →
           </Link>
+          <Link
+            href="/parcs"
+            className="flex-1 flex items-center justify-center gap-2 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 transition-colors px-5 py-3 text-sm font-medium text-[var(--text-primary)]"
+          >
+            🌳 Parcs et jardins publics
+          </Link>
         </div>
 
         <DiscussionCTA cityName={city.name} citySlug={slug} />

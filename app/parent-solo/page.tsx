@@ -497,6 +497,17 @@ export default function ParentSoloHubPage() {
               </div>
             </Link>
             <Link
+              href="/parcs"
+              className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 transition-all px-4 py-3"
+            >
+              <div className="text-sm font-semibold text-[var(--text-primary)]">
+                🌳 Parcs &amp; espaces verts
+              </div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">
+                Aire de jeux, accès poussette, point d&apos;eau : changer de parc le week-end
+              </div>
+            </Link>
+            <Link
               href="/palmares"
               className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 transition-all px-4 py-3"
             >

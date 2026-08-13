@@ -348,6 +348,12 @@ export default async function ParcsPage({ params }: Props) {
           >
             ☀️ Climat de {city.name}
           </Link>
+          <Link
+            href="/parcs"
+            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+          >
+            🌳 Tous les parcs, ville par ville
+          </Link>
         </div>
       </section>
 

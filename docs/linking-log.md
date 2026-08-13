@@ -20,3 +20,4 @@ Une ligne par run de l'agent de maillage. Format :
 - 2026-08-06 app/guides/categorie/[categorie]/page.tsx (6 liens ajoutés — un par thématique)
 - 2026-08-09 app/[locale]/reviews/page.tsx (5 liens ajoutés — jumelle EN de /avis, footer seul en entrant)
 - 2026-08-11 app/expat-retour/page.tsx (5 liens ajoutés — hub 19 pays, footer seul en entrant contextuel)
+- 2026-08-13 app/parcs/page.tsx (5 liens ajoutés — hub F59, Navbar seule en entrant depuis le 27/07)
