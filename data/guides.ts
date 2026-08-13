@@ -46388,7 +46388,440 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["parent solo Toulon 2026", "monoparental Toulon", "T3 Mourillon budget", "écoles Toulon mer", "parent seul Var"],
   },
-
+  {
+    slug: "10-choses-a-faire-a-saint-laurent-du-maroni-2026",
+    title: "10 choses à faire à Saint-Laurent-du-Maroni (Guyane)",
+    metaTitle: "10 choses à faire à Saint-Laurent-du-Maroni 2026",
+    metaDesc: "Camp de la Transportation, briques rouges, pirogues vers Albina, remontée du Maroni, tortues luth d'Awala-Yalimapo : 10 activités dans l'Ouest guyanais.",
+    category: "tourisme",
+    emoji: "🛶",
+    readMinutes: 7,
+    publishedAt: "2026-08-13",
+    updatedAt: "2026-08-13",
+    intro: "Saint-Laurent-du-Maroni est la deuxième ville de Guyane, environ 50 000 habitants sur la rive française d'un fleuve qui sert de frontière avec le Suriname. Elle n'a pas été fondée comme un port ni comme un comptoir : c'est une ville-bagne, construite à partir du milieu du XIXe siècle par les transportés eux-mêmes, et ça se voit encore dans le plan en damier, dans les briques rouges des bâtiments officiels et dans le camp de la Transportation, resté au centre. Le label Ville d'art et d'histoire lui a été attribué en 2005. Le reste du séjour se joue sur le fleuve et dans les villages de l'Ouest guyanais, où l'on croise Kali'na, Bushinengué, Hmong et Surinamais dans la même journée. Compter environ 250 kilomètres de route depuis Cayenne.",
+    sections: [
+      {
+        heading: "1. Le camp de la Transportation",
+        body: "C'est la visite qui justifie le déplacement. Entre 1852 et 1938, environ 70 000 condamnés ont été envoyés au bagne de Guyane, et Saint-Laurent était le camp d'accueil : les transportés y débarquaient, y étaient répartis, y purgeaient leurs peines disciplinaires. Le décret-loi de 1938 a mis fin à la transportation, mais il a fallu attendre la fin de la Seconde Guerre mondiale pour que les pénitenciers ferment réellement. Le site se parcourt en visite guidée avec l'office de tourisme : quartier disciplinaire, cellules individuelles, cachots, et la cellule où l'on montre le passage d'Henri Charrière, dit Papillon. De juin à octobre, une visite nocturne est programmée une fois par mois, à la lampe et à la bougie. Réserver, les places sont comptées."
+      },
+      {
+        heading: "2. Le centre-ville et l'architecture pénitentiaire",
+        body: "Le centre ancien se parcourt à pied en une matinée, et il est plus cohérent que celui de Cayenne parce qu'il a été dessiné d'un coup. Les bâtiments officiels — administration pénitentiaire, hôpital, logements de fonctionnaires — sont bâtis en briques cuites sur place à partir de la terre rouge locale, ce qui donne à la ville sa couleur, entre style colonial et case créole à balcon de bois. Le camp, la mairie, les anciens entrepôts et les alignements d'arbres du bord de fleuve forment un ensemble rare : peu de villes françaises ont conservé un tissu pénitentiaire complet et habité. Beaucoup de bâtiments servent encore, ce qui rend la promenade moins muséale et plus juste."
+      },
+      {
+        heading: "3. Le fleuve et les pirogues vers Albina",
+        body: "Le Maroni est la rue principale de la région. Depuis le dégrad, les pirogues à moteur traversent en continu vers Albina, sur la rive surinamaise, et le trafic ne s'arrête pas : commerce, famille, marché, travail. Assister à ce va-et-vient en fin d'après-midi depuis les berges est la meilleure façon de comprendre comment fonctionne l'Ouest guyanais, où la frontière est une voie de passage plutôt qu'une barrière. Traverser soi-même est possible mais relève d'un franchissement de frontière internationale : se renseigner sur les formalités d'entrée au Suriname avant de monter dans une pirogue, elles ne s'improvisent pas et ne se règlent pas sur le quai."
+      },
+      {
+        heading: "4. Remonter le Maroni en pirogue",
+        body: "Saint-Laurent est le point de départ des remontées du fleuve vers l'amont, et c'est l'excursion la plus marquante de Guyane avec les îles du Salut. On part avec un piroguier, on franchit les sauts — les rapides — et on s'arrête dans les villages bushinengué et amérindiens installés sur les deux rives. Les nuits se passent en hamac sous carbet. Selon la durée retenue, l'itinéraire va de la sortie à la journée jusqu'à plusieurs jours vers l'intérieur. C'est une sortie encadrée : le niveau du fleuve, le passage des sauts et l'accès aux villages ne se décident pas seul, et le respect des règles d'accueil dans les communautés fait partie du contrat."
+      },
+      {
+        heading: "5. Awala-Yalimapo et les tortues luth",
+        body: "Le village kali'na d'Awala-Yalimapo est à une quinzaine de kilomètres à l'ouest, à l'embouchure du Maroni, dans la réserve naturelle de l'Amana. Sa plage est l'un des sites de ponte majeurs au monde pour la tortue luth, la plus grande des tortues marines, avec des pontes concentrées entre avril et juillet environ ; on y voit aussi des tortues vertes et des olivâtres. L'observation se fait de nuit, encadrée, sans lumière blanche ni flash, et sans jamais se placer devant l'animal. Hors saison de ponte, le site reste une longue plage bordée de forêt, avec un fort courant à l'embouchure : la baignade y demande de la prudence."
+      },
+      {
+        heading: "6. Les criques et la forêt aux portes de la ville",
+        body: "L'Ouest guyanais commence à la sortie du bourg. La crique Tatou, les abords de Balaté et les massifs forestiers de Saint-Jean et des Malgaches offrent des sorties courtes en forêt et des baignades en eau douce à peu de distance du centre. Contrairement aux plages de l'Atlantique, chargées de sédiments amazoniens et donc brunes, l'eau des criques est claire et fraîche. Ces sorties se font mieux accompagné : les pistes sont peu balisées, la couverture réseau est irrégulière et il n'y a pas de topoguide comparable à ce qu'on trouve en métropole. L'office de tourisme loue également des vélos, ce qui suffit pour les abords immédiats."
+      },
+      {
+        heading: "7. Le marché et la cuisine de l'Ouest",
+        body: "Le marché de Saint-Laurent est l'endroit où se lit la composition de la ville : créole guyanais, bushinengué, kali'na, hmong, surinamais, brésilien, haïtien. On y trouve le couac et la cassave tirés du manioc, les légumes-pays, les poissons du fleuve, les piments, les jus de fruits amazoniens, et l'artisanat textile des communautés. Côté table, on retrouve le bouillon d'awara à Pâques, la fricassée, le blaff, le colombo, ainsi qu'une forte présence de cuisines javanaise et chinoise venues du Suriname voisin. C'est un des rares endroits de France où le roti javanais et le colombo créole se vendent à trois mètres l'un de l'autre."
+      },
+      {
+        heading: "8. Les villages hmong et la route de Mana",
+        body: "À l'est de Saint-Laurent, la commune de Mana et le village de Javouhey ont été le lieu d'installation d'une communauté hmong réfugiée du Laos à la fin des années 1970, comme Cacao près de Cayenne. La production maraîchère y est intense et alimente une grande partie de l'Ouest ; le marché de Javouhey vaut le détour pour les légumes, les soupes et l'artisanat. Mana, sur son propre fleuve, garde un bourg ancien à l'atmosphère très différente de Saint-Laurent, sans architecture pénitentiaire. La route relie les trois points sans difficulté, mais une voiture est indispensable : il n'existe pas d'offre de transport en commun exploitable pour un visiteur."
+      },
+      {
+        heading: "9. La création contemporaine dans les murs du bagne",
+        body: "Saint-Laurent a fait un choix que peu de villes patrimoniales assument : ne pas figer le camp de la Transportation en site mémoriel fermé. Une partie des bâtiments accueille des activités culturelles, des expositions et des résidences, et la programmation locale mêle arts visuels, musique et création amérindienne et bushinengué contemporaine. Se renseigner sur l'affiche du moment auprès de l'office de tourisme avant de venir : la programmation est réelle mais irrégulière, et elle change complètement l'expérience du site. Voir un lieu de détention servir de scène est aussi une manière d'en parler."
+      },
+      {
+        heading: "10. Y aller, quand venir, ce qu'il faut prévoir",
+        body: "Saint-Laurent est à environ 250 kilomètres de Cayenne par la route nationale, soit une demi-journée avec les arrêts ; des navettes existent, mais une voiture de location donne accès aux villages et aux plages. La saison sèche, de fin août à novembre environ, offre les routes et les pistes les plus praticables ; la grande saison des pluies rend les sorties fluviales et forestières plus aléatoires. Deux points à ne pas négliger : la protection anti-moustiques, sérieuse et permanente, et la mise à jour des vaccinations recommandées pour la Guyane, à voir avec un médecin avant le départ. Si la saison de ponte des tortues motive le voyage, viser le printemps plutôt que la saison sèche."
+      }
+    ],
+    relatedCities: ["saint-laurent-du-maroni", "cayenne"],
+    relatedGuides: [
+      "10-choses-a-faire-a-cayenne-2026",
+      "vivre-en-outre-mer-guide-2026",
+      "acheter-immobilier-outre-mer-drom-france-2026",
+      "10-choses-a-faire-a-mamoudzou-2026"
+    ],
+    tags: ["10 choses à faire à Saint-Laurent-du-Maroni", "activités Saint-Laurent-du-Maroni 2026", "que faire en Guyane", "sorties Ouest guyanais", "camp de la Transportation Maroni Awala-Yalimapo pirogue bagne"]
+  },
+  {
+    slug: "10-choses-a-faire-a-mamoudzou-2026",
+    title: "10 choses à faire à Mamoudzou (Mayotte)",
+    metaTitle: "10 choses à faire à Mamoudzou (Mayotte) 2026",
+    metaDesc: "Marché couvert, barge pour Petite-Terre, lac Dziani Dzaha, lagon à double barrière, baleines à bosse, ylang-ylang : 10 activités à Mamoudzou et autour.",
+    category: "tourisme",
+    emoji: "🐋",
+    readMinutes: 7,
+    publishedAt: "2026-08-13",
+    updatedAt: "2026-08-13",
+    intro: "Mamoudzou est le chef-lieu de Mayotte et la seule commune mahoraise de notre base, environ 71 000 habitants sur la côte est de Grande-Terre, face à Petite-Terre. C'est aussi le territoire français le moins visité et le moins équipé pour le tourisme, et un guide honnête doit le dire avant la première photo de lagon : le cyclone Chido, en décembre 2024, a détruit ou endommagé une part considérable des infrastructures, dont plus des deux tiers de l'offre touristique selon les bilans dressés après coup, et la reconstruction est toujours en cours en 2026. Rien de ce qui suit ne se réserve la veille pour le lendemain. Ce qui reste intact, en revanche, est ce qui a toujours fait l'intérêt de Mayotte : un lagon fermé par une double barrière de corail, parmi les plus vastes de l'océan Indien, et une société comorienne, malgache et française qui ne ressemble à aucune autre en France.",
+    sections: [
+      {
+        heading: "1. Le marché couvert et le marché aux poissons",
+        body: "Le marché couvert de Mamoudzou, rue de l'Hôpital, ouvre en matinée du mardi au samedi : épices, vanille, ylang-ylang, fruits, plantes médicinales, samoussas vendus au comptoir. C'est la porte d'entrée la plus directe dans la vie mahoraise, et le seul endroit où l'on comprend en une heure la place des femmes dans le commerce local. En parallèle, le marché aux poissons du port fonctionne très tôt le matin, au moment où les pirogues déchargent : thon, capitaine, poisson perroquet, selon les sorties. Venir tôt, accepter qu'on n'y parle pas toujours français — le shimaoré et le kibushi sont les langues du quotidien — et demander avant de photographier quelqu'un."
+      },
+      {
+        heading: "2. La barge vers Petite-Terre",
+        body: "Mayotte est faite de deux îles, et la barge qui relie Mamoudzou à Dzaoudzi est le trajet le plus banal et le plus utile du territoire : c'est le cordon ombilical entre le chef-lieu, l'aéroport et Petite-Terre. La traversée est courte, fréquente, et donne la meilleure vue possible sur la rade, les bateaux et le relief de Grande-Terre. Les piétons et les véhicules embarquent séparément, et les horaires ainsi que la fréquence varient selon les jours et la période : les vérifier localement plutôt que se fier à une information trouvée en ligne, car le service a été affecté par les dégâts portuaires et les rotations ont évolué depuis."
+      },
+      {
+        heading: "3. Le lac Dziani Dzaha",
+        body: "Sur Petite-Terre, le Dziani Dzaha occupe un cratère volcanique et se distingue par la couleur vert émeraude de ses eaux, due à l'activité microbienne d'un milieu très particulier — c'est un objet d'étude scientifique autant qu'un point de vue. La montée jusqu'au bord du cratère est courte et sans difficulté technique, mais elle se fait en plein soleil : partir tôt, prendre de l'eau. Le tour partiel de la crête donne des panoramas sur le lac d'un côté et sur l'océan de l'autre. La baignade dans le lac n'est pas l'usage du site, et le milieu est fragile : rester sur les sentiers tracés."
+      },
+      {
+        heading: "4. Les plages de Petite-Terre : Moya et Papani",
+        body: "Toujours sur Petite-Terre, la plage de Moya est la carte postale de Mayotte : une double anse séparée par un promontoire, bordée de forêt sèche, et un site de ponte de tortues marines. La plage de Papani, plus abritée, est le spot d'initiation classique à la palme-masque-tuba, avec un platier corallien accessible depuis le bord. Deux règles à ne pas prendre à la légère : ne jamais toucher ni suivre une tortue, en mer comme à terre, et ne pas marcher sur le corail, qui meurt de ce contact. Si l'on assiste à une ponte de nuit, se tenir en retrait, derrière l'animal, sans lumière blanche."
+      },
+      {
+        heading: "5. Le lagon et sa double barrière de corail",
+        body: "C'est l'atout que Mayotte est seule à posséder à cette échelle en France : un lagon très étendu, fermé par une barrière récifale doublée d'une seconde barrière, configuration rare dans le monde. Concrètement, cela veut dire des passes, des platiers, des îlots et une eau abritée sur de grandes distances. En plongée ou en palme-masque-tuba : tortues vertes et imbriquées, raies, poissons de récif, et selon les sorties des raies manta et des dauphins. Les clubs et les prestataires de sortie bateau sont basés pour l'essentiel à Mamoudzou et sur Petite-Terre. Vérifier l'état d'activité du prestataire avant de réserver — beaucoup de structures se sont remises en route progressivement."
+      },
+      {
+        heading: "6. Les baleines à bosse",
+        body: "De juillet à octobre environ, pendant l'hiver austral, les baleines à bosse remontent dans les eaux de Mayotte pour mettre bas et élever leurs baleineaux, et le lagon leur sert d'abri. C'est la saison la plus demandée du territoire, et l'observation se fait en sortie bateau depuis Mamoudzou ou Petite-Terre. L'approche des mammifères marins est encadrée par une réglementation : distances à respecter, nombre de bateaux, durée d'observation, interdiction de couper la trajectoire. Un opérateur qui propose de nager au milieu d'un groupe ou de forcer l'approche n'est pas un bon opérateur, c'est un opérateur qui vous met en infraction. Choisir en conséquence."
+      },
+      {
+        heading: "7. Le mont Choungui et l'intérieur de Grande-Terre",
+        body: "Le mont Choungui, dans le sud de Grande-Terre, est le sommet le plus identifiable de Mayotte : un piton conique dont l'ascension est courte mais raide, avec une pente qui se termine par des passages où l'on s'aide des mains. La vue porte sur le lagon et sur une grande partie de l'île. Il n'est pas situé sur la commune de Mamoudzou mais s'atteint depuis le chef-lieu par la route, dans le sens sud. Le reste de l'intérieur — forêt, padzas ocres, villages — se parcourt de la même manière, en voiture. Prévoir de la marge : le réseau routier mahorais est unique, saturé aux heures de pointe et sensible aux intempéries."
+      },
+      {
+        heading: "8. L'ylang-ylang, la vanille et les distillateurs",
+        body: "Mayotte a été, et reste à petite échelle, une terre de plantes à parfum. L'ylang-ylang, dont la fleur jaune est distillée pour en tirer une huile essentielle utilisée en parfumerie, se visite chez des producteurs et des distillateurs qui montrent la cueillette et l'alambic ; la vanille et le poivre complètent la filière. C'est une visite courte, artisanale, sans mise en scène, et l'un des rares achats de séjour qui fait réellement vivre quelqu'un sur place. Ces exploitations sont dispersées dans les villages de Grande-Terre : demander les coordonnées et l'état d'ouverture à l'office de tourisme plutôt que de se déplacer à l'aveugle."
+      },
+      {
+        heading: "9. La table mahoraise",
+        body: "La cuisine de Mayotte croise les Comores, Madagascar et l'Inde. Le mataba, feuilles de manioc pilées mijotées au lait de coco, souvent accompagné de poisson ou de viande, est le plat emblématique. À côté : brochettes de zébu grillées en bord de rue, samoussas, bébés de riz au coco, poulet au coco, banane verte et fruit à pain en accompagnement. Les mabawas, ailes de poulet grillées, sont le plat de rue le plus répandu. Les tables ouvertes au public sont majoritairement de petites structures et de la restauration de rue ; l'offre a été durement touchée et se reconstitue, donc ne pas compter sur une réservation en ligne."
+      },
+      {
+        heading: "10. Y aller, quand venir, et ce qu'il faut savoir avant",
+        body: "Mayotte se rejoint par avion, avec une escale à La Réunion sur beaucoup d'itinéraires ; l'aéroport est sur Petite-Terre, d'où la barge pour Mamoudzou. La saison sèche, grossièrement de mai à octobre, est la période la plus praticable et recouvre la saison des baleines ; la saison des pluies apporte chaleur, humidité et risque cyclonique. Trois précautions à prendre au sérieux : la ressource en eau reste sous tension et des restrictions peuvent s'appliquer ; l'hébergement, la restauration et les prestataires nautiques sont en cours de reconstitution, donc tout se confirme avant le départ ; et il faut se renseigner sur la situation locale au moment de partir auprès des sources officielles. Mayotte se visite très bien, mais elle ne s'improvise pas."
+      }
+    ],
+    relatedCities: ["mamoudzou"],
+    relatedGuides: [
+      "vivre-en-outre-mer-guide-2026",
+      "climat-2040-outre-mer-drom-cyclones-mer",
+      "10-choses-a-faire-a-saint-denis-reunion-2026",
+      "10-choses-a-faire-a-saint-laurent-du-maroni-2026"
+    ],
+    tags: ["10 choses à faire à Mamoudzou", "activités Mamoudzou 2026", "que faire à Mayotte", "sorties Mamoudzou", "lagon Dziani Dzaha Petite-Terre baleines à bosse ylang-ylang"]
+  },
+  {
+    slug: "10-choses-a-faire-au-francois-2026",
+    title: "10 choses à faire au François (Martinique)",
+    metaTitle: "10 choses à faire au François (Martinique) 2026",
+    metaDesc: "Fonds blancs, baignoire de Joséphine, îlets Oscar et Thierry, Habitation Clément, marché du bourg, yoles rondes : 10 activités au François, côte atlantique.",
+    category: "tourisme",
+    emoji: "🏝️",
+    readMinutes: 7,
+    publishedAt: "2026-08-13",
+    updatedAt: "2026-08-13",
+    intro: "Le François est une commune de la côte atlantique de la Martinique, environ 17 500 habitants, à une vingtaine de kilomètres à l'est de Fort-de-France. Sa géographie fait tout : une grande baie protégée par une barrière de corail, huit îlets répartis dedans, et entre eux des hauts-fonds de sable blanc où l'eau ne dépasse pas la taille d'un adulte sur des centaines de mètres. Ce sont les fonds blancs, et c'est ce que les Martiniquais eux-mêmes viennent y chercher le dimanche. Le second pôle de la commune est à terre : l'Habitation Clément, domaine sucrier devenu à la fois distillerie, monument historique et centre d'art contemporain. Le François n'est pas une station balnéaire, c'est une commune habitée dont la mer est la place publique.",
+    sections: [
+      {
+        heading: "1. Les fonds blancs",
+        body: "La baie du François est fermée au large par un récif corallien, et entre le récif et la côte s'étendent de vastes bancs de sable blanc où la profondeur reste faible. Le résultat est une eau turquoise, tiède, où l'on tient debout très loin du rivage : c'est ce qu'on appelle les fonds blancs, et c'est une singularité de cette portion de côte atlantique. On y accède en bateau, pas à pied : les prestataires partent du port de pêche du bourg et des pontons voisins, en vedette, en catamaran ou en kayak selon la formule. La sortie classique dure la demi-journée ou la journée, avec plusieurs arrêts de baignade et un déjeuner sur un îlet."
+      },
+      {
+        heading: "2. La baignoire de Joséphine",
+        body: "C'est le point le plus connu des fonds blancs : un banc de sable situé entre l'îlet Thierry et l'îlet Oscar, où les bateaux mouillent et où les gens se tiennent debout dans l'eau, verre à la main. Le nom renvoie à Joséphine de Beauharnais, née en Martinique, qui s'y serait baignée — c'est une tradition orale, pas un fait établi, et mieux vaut le présenter comme tel. L'endroit reste remarquable indépendamment de la légende : profondeur constante, fond clair, récif à quelques dizaines de mètres. Le revers est la fréquentation, forte le week-end et en haute saison ; une sortie en semaine et en début de matinée change complètement l'ambiance du lieu."
+      },
+      {
+        heading: "3. Les îlets de la baie",
+        body: "La baie compte huit îlets, dont l'îlet Oscar et l'îlet Thierry sont les plus connus. Certains sont privés, d'autres accueillent une table ou un hébergement, d'autres encore sont simplement des morceaux de terre couverts de végétation sèche où l'on aborde le temps d'une baignade. Les excursions à la journée en enchaînent en général deux ou trois avec les fonds blancs. En kayak, depuis le rivage, on peut approcher les plus proches sans moteur : c'est la version silencieuse de la même sortie, et de loin la plus agréable au petit matin. Vérifier les conditions de vent avant de partir, l'alizé se lève dans la journée sur cette façade."
+      },
+      {
+        heading: "4. L'Habitation Clément",
+        body: "Au sud du bourg, le domaine de l'Acajou, plus connu sous le nom d'Habitation Clément, s'étend sur environ 160 hectares et se visite. La famille Clément s'y est installée en 1887 ; la maison créole, plus ancienne, est classée au titre des monuments historiques depuis 1996. La visite couvre la maison, les dépendances, le parc et le jardin créole, les anciennes installations de production et les chais où vieillissent les rhums. C'est l'un des sites les plus fréquentés de l'île, ce qui se ressent en milieu de journée. Le parcours est en grande partie en extérieur : chaussures correctes et chapeau."
+      },
+      {
+        heading: "5. La fondation Clément et l'art contemporain",
+        body: "Le même domaine abrite une salle d'exposition qui est devenue l'un des principaux lieux d'art contemporain de la Caraïbe, avec des expositions temporaires d'artistes caribéens et internationaux et un travail de fond sur le patrimoine martiniquais, y compris la restauration d'anciennes habitations. C'est le grand écart que le lieu assume : une propriété née de l'économie de plantation, aujourd'hui plateforme de la création caribéenne. On peut y passer une heure ou une demi-journée selon l'accrochage du moment. Se renseigner sur l'exposition en cours avant de venir : la programmation tourne, et elle vaut à elle seule un second passage."
+      },
+      {
+        heading: "6. Le bourg, le marché et le port de pêche",
+        body: "Le bourg du François est resté un bourg de travail, avec un marché couvert animé notamment les vendredis et samedis matin : fruits tropicaux, épices, punchs artisanaux, produits locaux. Le port de pêche, d'où partent aussi une partie des excursions, se visite au retour des pêcheurs. L'histoire de l'église du bourg résume à elle seule les contraintes du bâti antillais : chapelle d'origine au XVIIe siècle, reconstructions successives, incendie, puis démolition d'un édifice moderne jugé mal adapté au risque cyclonique. Une boucle à pied dans le bourg prend moins d'une heure et permet de déjeuner nettement moins cher que sur un îlet."
+      },
+      {
+        heading: "7. Les yoles rondes",
+        body: "La yole ronde est l'embarcation traditionnelle de la côte atlantique martiniquaise, sans quille, tenue à plat par des équipiers arc-boutés sur des bois dressés hors de la coque. Les communes de cette côte, dont Le François, arment des équipages, et la pratique est inscrite au patrimoine culturel immatériel de l'humanité par l'UNESCO. Le Tour de la Martinique des yoles rondes, à la fin de l'été, est l'événement sportif majeur de l'île et fait étape sur plusieurs communes du littoral. Hors compétition, on voit régulièrement des yoles s'entraîner dans la baie en fin d'après-midi : c'est gratuit, spectaculaire, et ça se regarde depuis le rivage."
+      },
+      {
+        heading: "8. Le rhum agricole et les distilleries voisines",
+        body: "Le rhum agricole de Martinique est produit à partir de jus de canne frais et non de mélasse, et il bénéficie d'une appellation d'origine contrôlée — le seul rhum au monde dans ce cas. L'Habitation Clément en est la vitrine locale, mais la côte atlantique et le centre de l'île en comptent plusieurs autres, visitables et à quelques dizaines de minutes de route. Les visites de distillerie sont souvent gratuites ou peu coûteuses et expliquent la chaîne complète, du broyage de la canne au vieillissement en fût. La dégustation fait partie de la visite : prévoir qui conduit, la gendarmerie contrôle sur ces routes."
+      },
+      {
+        heading: "9. La mangrove et la côte au vent",
+        body: "En dehors des fonds blancs, la baie porte des secteurs de mangrove, refuge de crabes, d'alevins et d'oiseaux, qui se parcourent en kayak au calme. Plus généralement, toute cette façade est la côte au vent : plus ventée, plus verte, moins aménagée que la côte caraïbe, avec une houle et des courants qui rendent la baignade en mer ouverte franchement déconseillée hors des zones abritées. C'est aussi pour cela que la vie se concentre à l'intérieur de la barrière. Vers le nord, la commune voisine du Robert prolonge exactement le même paysage, avec ses propres îlets et son îlet aux iguanes."
+      },
+      {
+        heading: "10. Y aller, quand venir, comment s'organiser",
+        body: "Le François est à une vingtaine de kilomètres de Fort-de-France par la route ; une voiture de location est indispensable, les transports en commun ne couvrent pas les besoins d'un visiteur. Le carême, de décembre à avril environ, est la saison sèche et la plus fréquentée ; l'hivernage, de juin à novembre, est plus humide et couvre la saison cyclonique. Pour les fonds blancs, réserver la sortie à l'avance en haute saison et privilégier la semaine. Dernier point pratique : le soleil sur un banc de sable réfléchissant, sans ombre et sans repère de temps, brûle beaucoup plus vite qu'on ne le croit — crème résistante à l'eau et tee-shirt en mer."
+      }
+    ],
+    relatedCities: ["le-francois", "le-robert", "fort-de-france", "le-lamentin"],
+    relatedGuides: [
+      "10-choses-a-faire-au-robert-2026",
+      "10-choses-a-faire-a-fort-de-france-2026",
+      "vivre-en-outre-mer-guide-2026",
+      "acheter-immobilier-outre-mer-drom-france-2026"
+    ],
+    tags: ["10 choses à faire au François", "activités Le François 2026", "que faire en Martinique", "sorties Le François", "fonds blancs baignoire de Joséphine îlet Oscar Habitation Clément yoles"]
+  },
+  {
+    slug: "10-choses-a-faire-au-robert-2026",
+    title: "10 choses à faire au Robert (Martinique)",
+    metaTitle: "10 choses à faire au Robert (Martinique) 2026",
+    metaDesc: "Havre du Robert, îlet Chancel et ses iguanes, fonds blancs, kayak en mangrove, Pointe Fort, Vert-Pré : 10 activités au Robert, sur la côte atlantique.",
+    category: "tourisme",
+    emoji: "🦎",
+    readMinutes: 7,
+    publishedAt: "2026-08-13",
+    updatedAt: "2026-08-13",
+    intro: "Le Robert est une commune de la côte atlantique de la Martinique, environ 21 000 habitants, à une vingtaine de kilomètres au nord-est de Fort-de-France par la route nationale. Elle occupe le fond d'une baie profonde — le havre du Robert — protégée par une constellation d'une dizaine d'îlets, et cette configuration en fait l'un des plus beaux plans d'eau abrités de la Caraïbe. Le Robert partage avec sa voisine du François les fonds blancs et l'atmosphère de côte au vent, mais elle a une chose que personne d'autre n'a en Martinique : l'îlet Chancel, dernier refuge de l'iguane des Petites Antilles sur l'île. Ancien village de pêcheurs et de cultivateurs, la commune est restée habitée et peu touristique, ce qui est précisément son intérêt.",
+    sections: [
+      {
+        heading: "1. Le havre du Robert",
+        body: "La baie s'étire sur plusieurs kilomètres de long et presque autant de large, refermée par une barrière de corail et par un chapelet d'îlets qui l'abritent de la houle atlantique. Le résultat est un plan d'eau calme, utilisé pour la voile légère, la régate et la plaisanterie côtière, avec des fonds variés entre herbiers, mangrove et sable clair. Se contenter de faire le tour de la baie par la route et de s'arrêter aux points de vue donne déjà une bonne idée de l'échelle du site. Mais l'essentiel se joue depuis l'eau : c'est de là que la baie prend son sens, et il existe des sorties pour tous les niveaux."
+      },
+      {
+        heading: "2. L'îlet Chancel et ses iguanes",
+        body: "C'est la raison de venir au Robert plutôt qu'ailleurs. L'îlet Chancel abrite la dernière population d'iguanes des Petites Antilles de la Martinique — une espèce distincte de l'iguane vert commun, et menacée. Les animaux sont libres, sur leur territoire, et se laissent approcher à distance raisonnable. Ils sont plus visibles en fin de matinée, quand le soleil a chauffé les rochers ; tôt ou tard dans la journée ils restent à couvert. L'îlet porte aussi les vestiges d'une ancienne habitation et d'une poterie, envahis par la végétation sèche. On ne nourrit pas les iguanes, on ne les touche pas, et on ne quitte pas les cheminements."
+      },
+      {
+        heading: "3. Y aller en bateau ou en kayak",
+        body: "L'accès à l'îlet Chancel se fait uniquement par la mer, depuis Le Robert. Deux formules : la navette ou l'excursion en bateau, rapide et adaptée si l'on vient en famille ou avec peu de temps ; ou le kayak de mer, qui demande un peu d'effort et une lecture correcte du vent, mais qui transforme le trajet en sortie à part entière. Dans les deux cas la visite reste courte, facile, et s'enchaîne bien avec une baignade dans les fonds blancs alentour. Réserver, surtout en haute saison, et se renseigner sur le sens du vent : l'alizé forcit en cours de journée et le retour se fait souvent face au vent."
+      },
+      {
+        heading: "4. Les autres îlets et les fonds blancs du Robert",
+        body: "Au-delà de Chancel, la baie compte une dizaine d'îlets, dont plusieurs sont accessibles ou approchables lors des sorties bateau. Comme au François, des hauts-fonds de sable blanc s'étendent entre eux, où l'eau reste basse et translucide. La différence tient à la fréquentation : les fonds blancs du Robert sont nettement plus discrets que la baignoire de Joséphine, et l'ambiance y est plus sauvage. Pour qui veut l'expérience des fonds blancs sans la file de bateaux du dimanche, c'est ici qu'il faut venir. Les excursions combinent souvent deux ou trois îlets, une baignade et un temps d'observation de la faune."
+      },
+      {
+        heading: "5. Le kayak dans la mangrove",
+        body: "Les fonds de baie et les anses du Robert portent des mangroves de palétuviers, denses et parcourues de chenaux étroits. En kayak, on entre dedans en silence : racines échasses, crabes, alevins, hérons, sternes. C'est un milieu qui joue un rôle concret — nurserie pour les poissons, protection du trait de côte contre la houle — et le voir de l'intérieur en fait comprendre l'intérêt plus vite qu'un panneau. Les sorties encadrées partent du secteur de Pointe Fort et se font en général en fin de journée ou au petit matin, quand la chaleur retombe et que la faune est active. Anti-moustiques indispensable."
+      },
+      {
+        heading: "6. Pointe Fort et la voile",
+        body: "Pointe Fort concentre l'activité nautique de la commune : club nautique, écoles de voile, départs d'excursions, découverte de la mangrove et des îlets. C'est le point d'entrée le plus simple pour qui arrive sans réservation et cherche une sortie sur l'eau à la demi-journée. La baie, abritée et régulièrement ventée, est un terrain d'apprentissage idéal pour la voile légère et la planche : conditions constantes, pas de houle, et de la place. Les régates locales et les sorties de yoles rondes se déroulent aussi dans ce plan d'eau, et se regardent très bien depuis la côte sans embarquer."
+      },
+      {
+        heading: "7. Vert-Pré et l'intérieur",
+        body: "La commune ne se limite pas à son littoral : à quelques kilomètres du bourg, le quartier de Vert-Pré occupe un plateau à plus de trois cents mètres d'altitude, dans un arrière-pays vert et vallonné. On y trouve une agriculture vivante, une ambiance de campagne martiniquaise très éloignée de la côte, et par temps clair des vues qui portent à la fois vers l'Atlantique et vers la façade caraïbe. La route qui y monte est étroite et sinueuse. C'est la sortie à garder pour un jour où le vent rend la mer désagréable, et le meilleur endroit de la commune pour voir de la canne, de la banane et des jardins créoles."
+      },
+      {
+        heading: "8. Le bourg, le marché et la pêche",
+        body: "Le Robert est né d'un village de pêcheurs et de cultivateurs, et le bourg garde cette fonction : marché, commerces de proximité, port de pêche, bord de mer aménagé. On y déjeune pour une fraction du prix d'une table d'îlet, et on y trouve les mêmes poissons, plus frais. Les accras, le blaff, le court-bouillon de poisson, la fricassée de chatrou — le poulpe — et le colombo constituent le socle de la carte. Les habitudes locales valent d'être respectées : beaucoup de commerces ferment tôt et le rythme du dimanche est celui de la sortie en mer, pas celui du service en salle."
+      },
+      {
+        heading: "9. La presqu'île de la Caravelle, depuis Le Robert",
+        body: "En remontant la côte vers le nord, la presqu'île de la Caravelle s'avance loin dans l'Atlantique : c'est une réserve naturelle, avec un sentier de randonnée en boucle passant par les ruines du château Dubuc et le phare, entre falaises, savane sèche et mangrove. Elle relève de la commune de La Trinité, pas du Robert, mais elle s'atteint en une petite demi-heure de route et constitue la meilleure journée de randonnée du secteur. Le sentier est exposé et sans point d'eau : partir tôt, emporter à boire. C'est le complément à terre logique d'un séjour dont le reste se passe sur l'eau."
+      },
+      {
+        heading: "10. Y aller, quand venir, ce qu'il faut prévoir",
+        body: "Le Robert est à une vingtaine de kilomètres de Fort-de-France par la route nationale ; la voiture est indispensable. Le carême, de décembre à avril environ, est la saison sèche ; l'hivernage, de juin à novembre, est plus humide et couvre la saison cyclonique. Pour les iguanes, viser la fin de matinée ; pour le kayak, le début de matinée avant que l'alizé ne forcisse. La baignade en mer ouverte, hors de la barrière et hors des zones abritées, est déconseillée sur toute cette côte au vent : courants et houle. Le François, juste au sud, se combine sans difficulté sur la même journée si l'on veut voir les deux baies."
+      }
+    ],
+    relatedCities: ["le-robert", "le-francois", "fort-de-france", "le-lamentin"],
+    relatedGuides: [
+      "10-choses-a-faire-au-francois-2026",
+      "10-choses-a-faire-a-fort-de-france-2026",
+      "vivre-en-outre-mer-guide-2026",
+      "acheter-immobilier-outre-mer-drom-france-2026"
+    ],
+    tags: ["10 choses à faire au Robert", "activités Le Robert 2026", "que faire en Martinique", "sorties Le Robert", "îlet Chancel iguanes havre du Robert fonds blancs mangrove kayak"]
+  },
+  {
+    slug: "10-choses-a-faire-a-saint-benoit-reunion-2026",
+    title: "10 choses à faire à Saint-Benoît (La Réunion)",
+    metaTitle: "10 choses à faire à Saint-Benoît (Réunion) 2026",
+    metaDesc: "Takamaka, Grand Étang, bassin La Paix, rafting sur la rivière des Marsouins, église Sainte-Anne, îlet Bethléem : 10 activités à Saint-Benoît, côte au vent.",
+    category: "tourisme",
+    emoji: "💦",
+    readMinutes: 7,
+    publishedAt: "2026-08-13",
+    updatedAt: "2026-08-13",
+    intro: "Saint-Benoît est la principale commune de l'est de La Réunion, environ 37 000 habitants, sur la côte au vent — celle qui prend les alizés de plein fouet et reçoit l'essentiel des précipitations de l'île. C'est exactement pour cela qu'on y va : l'eau. La commune concentre les cascades, les bassins, la seule grande étendue d'eau douce de La Réunion et les rivières qui portent les activités d'eau vive. Elle n'a pas de lagon, pas de plage de sable blanc et pas de vie nocturne, et personne n'y vient pour ça. Ce qu'elle a, c'est la vallée de Takamaka, le Grand Étang, la rivière des Marsouins et une des églises les plus surprenantes de l'île, à quinze minutes du bourg.",
+    sections: [
+      {
+        heading: "1. Le belvédère de Takamaka",
+        body: "La vallée de Takamaka est entaillée dans le flanc est du Piton des Neiges : des remparts verticaux, une végétation permanente et une série de cascades qui tombent de plusieurs centaines de mètres. La route qui remonte la vallée depuis Saint-Benoît se termine à un belvédère aménagé, avec panneaux de lecture de paysage, d'où l'on embrasse l'ensemble du cirque et les prises d'eau de la centrale hydroélectrique installée au fond. Une aire de pique-nique équipée de kiosques et de places à feu se trouve en contrebas, sur la route. Par temps couvert, la vallée disparaît complètement : viser le matin, et accepter que l'est se dégage rarement toute la journée."
+      },
+      {
+        heading: "2. Le Grand Étang",
+        body: "Le Grand Étang est le plus grand plan d'eau de La Réunion, installé dans une cuvette au pied de remparts, à l'écart de la route des Plaines. On y accède par une piste puis un sentier, et le tour du lac se fait en environ deux heures de marche sans difficulté technique, ce qui en fait l'une des rares randonnées vraiment familiales de l'île. Le décor change du tout au tout selon la pluviométrie : en période humide, une grande cascade tombe du rempart au fond du site ; en saison sèche, elle se réduit à un filet. Le sentier est souvent boueux — chaussures fermées, et vérifier la météo, la sortie est déconseillée en cas de fortes pluies."
+      },
+      {
+        heading: "3. Le bassin La Paix et le bassin La Mer",
+        body: "Sur la rivière des Roches, le bassin La Paix est l'un des plus photographiés de La Réunion : une cascade large qui tombe dans une vasque profonde, encadrée de basalte et de végétation. Point capital : la baignade y est interdite, en raison de la profondeur et des courants, et l'interdiction n'est pas décorative. On s'y arrête pour le point de vue, accessible en quelques minutes depuis le parking. Pour se baigner, il faut continuer jusqu'au bassin La Mer, en amont, où c'est autorisé et où l'eau est fraîche et claire. Comme partout en ravine, ne jamais rester dans le lit en cas de pluie sur les hauts, même si le ciel est dégagé au-dessus de vous."
+      },
+      {
+        heading: "4. Le rafting sur la rivière des Marsouins",
+        body: "La rivière des Marsouins descend des Hauts sur une trentaine de kilomètres et constitue le terrain d'eau vive de référence de La Réunion : rafting, canoë-raft, canyoning aquatique, randonnée aquatique. Le rafting y est accessible aux débutants et se pratique en groupe encadré, avec équipement fourni ; les prestataires sont basés à Saint-Benoît même. Le niveau d'eau, donc la difficulté et parfois la possibilité de sortir, dépend directement des pluies récentes : les sorties sont annulées en cas de crue, et c'est normal. C'est l'activité qui donne le mieux la mesure de ce que la côte au vent reçoit comme eau."
+      },
+      {
+        heading: "5. L'église Sainte-Anne",
+        body: "À quelques minutes au nord du bourg, dans le quartier de Sainte-Anne, se dresse une église que rien ne laisse prévoir dans le paysage réunionnais : une façade entièrement recouverte de moulures, de guirlandes, de motifs végétaux et de gargouilles en ciment, résultat d'une campagne de décoration menée au début du XXe siècle. On la décrit couramment comme baroque, faute de meilleure étiquette. Elle est classée au titre des monuments historiques depuis 1982. L'intérieur est plus sobre que la façade. La visite prend un quart d'heure, elle est gratuite, et c'est l'objet patrimonial le plus singulier de tout l'est de l'île."
+      },
+      {
+        heading: "6. L'îlet Bethléem",
+        body: "Au bord de la rivière des Marsouins, en amont du bourg, l'îlet Bethléem est un ancien lieu de pèlerinage installé dans un site de verdure et de galets. On y accède par une route puis un court chemin, et l'endroit est devenu un lieu de pique-nique et de baignade en rivière très fréquenté par les Réunionnais le week-end, tout en gardant sa dimension religieuse — chapelle, statues, chemin de croix. C'est un bon exemple de ce qu'on ne voit pas depuis la route côtière : la vie sociale de l'île se passe largement au bord de l'eau douce. Mêmes précautions qu'ailleurs en ravine sur les crues soudaines."
+      },
+      {
+        heading: "7. Le bourg, le marché et le port",
+        body: "Saint-Benoît n'est pas une ville de carte postale : c'est un centre administratif et commerçant de l'est, avec un marché forain, des commerces, un lycée, un hôpital et un petit port de pêche à Sainte-Anne. On y déjeune pour trois fois moins cher qu'à Saint-Gilles, et on y mange la cuisine réunionnaise sans adaptation touristique : cari poulet, rougail saucisse, cari boucané, achards, rougail dakatine, avec riz, grains et brèdes. Le marché est aussi l'endroit où voir la production locale de l'est — letchis en décembre, vanille, fruits tropicaux, canne. C'est la halte pratique entre deux sorties dans les Hauts."
+      },
+      {
+        heading: "8. La route des Plaines et la Plaine-des-Palmistes",
+        body: "Depuis Saint-Benoît, la route des Plaines grimpe vers l'intérieur et relie la côte au vent au sud de l'île en traversant la Plaine-des-Palmistes puis la Plaine-des-Cafres. C'est le trajet qui fait comprendre la structure de La Réunion : on part du niveau de la mer sous les tropiques et on arrive une heure plus tard dans un paysage de prairies, de brume et de bois de couleurs, avec quinze degrés de moins. La Plaine-des-Palmistes, commune voisine, propose la forêt de Bébour-Bélouve et le sentier vers le Trou de Fer. C'est aussi la route d'accès la plus courte au volcan depuis l'est."
+      },
+      {
+        heading: "9. La côte au vent vers Sainte-Rose",
+        body: "En descendant la côte au sud, on quitte Saint-Benoît pour Sainte-Rose et l'on entre dans le domaine du Piton de la Fournaise : l'Anse des Cascades et ses cascades tombant directement dans la végétation face à l'océan, l'église Notre-Dame-des-Laves épargnée par la coulée de 1977, puis les Grands Brûlés, où les coulées successives ont recouvert la route et le terrain jusqu'à la mer. Ces sites relèvent de communes voisines, pas de Saint-Benoît, mais ils s'enchaînent sur la même journée depuis le bourg et constituent la sortie côtière la plus spectaculaire de l'île."
+      },
+      {
+        heading: "10. Y aller, quand venir, et une règle de sécurité",
+        body: "Saint-Benoît est à environ une heure de route de Saint-Denis par la route du littoral et la côte est, et constitue la base la plus logique pour explorer l'est. La côte au vent est la plus arrosée de l'île : il pleut plus souvent et plus fort qu'ailleurs, y compris en saison sèche, et les matinées sont statistiquement plus dégagées que les après-midi. L'hiver austral, de mai à novembre, est la période la moins humide et la moins exposée au risque cyclonique. Une règle qui ne souffre aucune exception à La Réunion : hors des lagons de la côte ouest et des bassins surveillés, la baignade en mer est interdite en raison du risque requin — et il n'y a pas de lagon dans l'est."
+      }
+    ],
+    relatedCities: ["saint-benoit-reunion", "saint-andre-reunion", "saint-denis-reunion", "le-tampon"],
+    relatedGuides: [
+      "10-choses-a-faire-a-saint-andre-reunion-2026",
+      "10-choses-a-faire-a-saint-denis-reunion-2026",
+      "10-choses-a-faire-au-tampon-2026",
+      "vivre-en-outre-mer-guide-2026"
+    ],
+    tags: ["10 choses à faire à Saint-Benoît", "activités Saint-Benoît 2026", "que faire à La Réunion", "sorties est de La Réunion", "Takamaka Grand Étang bassin La Paix rivière des Marsouins Sainte-Anne"]
+  },
+  {
+    slug: "10-choses-a-faire-a-saint-andre-reunion-2026",
+    title: "10 choses à faire à Saint-André (La Réunion)",
+    metaTitle: "10 choses à faire à Saint-André (Réunion) 2026",
+    metaDesc: "Temple du Colosse, Dipavali, sucrerie de Bois Rouge, distillerie Savanna, église en ruine de Champ-Borne, maison Valliamé : 10 activités à Saint-André.",
+    category: "tourisme",
+    emoji: "🪔",
+    readMinutes: 7,
+    publishedAt: "2026-08-13",
+    updatedAt: "2026-08-13",
+    intro: "Saint-André est la deuxième commune de l'est de La Réunion, environ 58 000 habitants, entre l'océan et les champs de canne de la côte au vent. C'est la ville la plus indienne de France, au sens propre : l'engagisme a fait venir ici des dizaines de milliers de travailleurs du sud de l'Inde après l'abolition de l'esclavage, et leurs descendants, les Malbars, ont façonné une culture, des temples, une cuisine et un calendrier de fêtes qui n'existent nulle part ailleurs sur le territoire français. Saint-André n'a ni plage ni site naturel majeur, et n'a jamais été une commune touristique. Elle a autre chose : un temple tamoul spectaculaire, une sucrerie et une distillerie en activité qui se visitent, et la plus grande fête indienne de l'océan Indien.",
+    sections: [
+      {
+        heading: "1. Le temple tamoul du Colosse",
+        body: "Dans le quartier de Champ-Borne, le temple du Colosse est le plus spectaculaire des temples tamouls de La Réunion : édifié à la fin du XIXe siècle en l'honneur de la déesse Pandialé, il aligne sur ses façades et sa tour des centaines de statuettes de divinités peintes de couleurs vives. C'est un lieu de culte en activité, pas un monument : on ne s'y promène pas comme dans une église. Des visites guidées sont proposées et constituent la bonne façon d'y entrer — on y explique les divinités, les cérémonies et la place de ces lieux dans la communauté tamoule réunionnaise. Tenue correcte, pieds nus dans l'enceinte, et demander avant de photographier."
+      },
+      {
+        heading: "2. Le Dipavali",
+        body: "Le Dipavali, fête des lumières, se déroule fin octobre ou début novembre sur cinq jours, et Saint-André en fait le plus grand événement indien de l'océan Indien : illuminations, rangolis, concerts, et un grand défilé suivi d'un feu d'artifice qui rassemble des dizaines de milliers de personnes au parc du Colosse. Ce n'est pas un spectacle folklorique monté pour les visiteurs, c'est la fête de la ville, et c'est ce qui la rend intéressante. Si le calendrier permet de caler le séjour dessus, ça vaut la peine : hébergement à réserver très en avance dans tout l'est, et prévoir des difficultés de circulation et de stationnement le soir du défilé."
+      },
+      {
+        heading: "3. La sucrerie de Bois-Rouge",
+        body: "La canne à sucre reste l'agriculture structurante de La Réunion, et Bois-Rouge, sur le littoral de Saint-André, est l'une des deux sucreries encore en activité sur l'île. Elle se visite : réception de la canne, broyage, extraction, cristallisation, et le devenir des coproduits — la bagasse alimente une centrale thermique, la mélasse part en distillerie. C'est une usine réelle, bruyante et chaude, pas une reconstitution. La visite n'a de sens que pendant la campagne sucrière, grossièrement de juillet à décembre, quand l'usine tourne ; hors campagne, l'intérêt tombe. Vérifier les modalités et réserver avant de se déplacer."
+      },
+      {
+        heading: "4. La distillerie Savanna",
+        body: "Sur le même site industriel, la distillerie Savanna produit des rhums à partir de la mélasse et du jus de canne, et s'est fait une réputation internationale sur ses rhums très aromatiques, dits grand arôme, obtenus par des fermentations longues. La visite guidée explique la chaîne complète et permet de comprendre pourquoi le rhum réunionnais n'a pas le même profil que le rhum agricole antillais. La boutique vend des embouteillages qu'on ne trouve pas en métropole. Dégustation en fin de visite : prévoir qui conduit. C'est le complément direct de la visite de la sucrerie, et les deux se font dans la même demi-journée."
+      },
+      {
+        heading: "5. L'église en ruine de Champ-Borne",
+        body: "Au bord de la mer, à Champ-Borne, il reste d'une église Saint-Nicolas les murs d'enceinte et le chœur, à ciel ouvert, avec un cimetière amputé de plus de la moitié de sa surface. L'édifice a été emporté par le raz-de-marée du cyclone Jenny en 1962 ; le village et une nouvelle église ont été reconstruits en dur, un peu plus haut, de l'autre côté de l'ancienne route royale. La ruine a été laissée en place. C'est le monument le plus parlant de la commune sur ce que signifie vivre sur une côte cyclonique, et c'est un lieu de mémoire pour les habitants — s'y comporter comme tel. L'accès est libre."
+      },
+      {
+        heading: "6. La maison Martin Valliamé",
+        body: "Cette demeure créole du centre-ville, construite par une famille d'origine indienne enrichie dans le commerce et la canne, est l'un des rares témoins conservés de l'architecture bourgeoise de l'est : varangue, lambrequins découpés, jardin. Elle abrite aujourd'hui des fonctions publiques, dont l'accueil touristique, et se visite. Elle raconte une histoire que le reste de l'île met peu en avant : celle de l'ascension économique de familles issues de l'engagisme indien au tournant du XXe siècle. La visite est courte et se combine avec une boucle à pied dans le centre-ville, qui compte quelques autres cases anciennes."
+      },
+      {
+        heading: "7. Le parc du Colosse",
+        body: "Le parc du Colosse est le grand espace vert de bord de mer de la commune : pelouses, arbres, kiosques, aires de jeux et de pique-nique, terrains de sport. C'est le lieu de rassemblement des Saint-Andréens le week-end, et c'est là que se tient le gros des festivités du Dipavali. Hors événement, il n'y a rien de spectaculaire à y voir, et c'est précisément l'intérêt : on y observe la vie ordinaire de l'est réunionnais, pique-niques familiaux et parties de dominos comprises. Le front de mer attenant est battu par la houle et par les alizés ; la baignade y est exclue, comme sur toute cette côte."
+      },
+      {
+        heading: "8. Le marché forain et la table indo-réunionnaise",
+        body: "Le marché forain de Saint-André est l'un des plus animés de l'est, et sa dominante est indienne : massalé moulu sur place, curcuma, feuilles de cari, brèdes, lentilles, gingembre. Côté table, on trouve à Saint-André ce qu'on trouve mal ailleurs — cari et massalé cabri, biryani, samoussas, bonbons piment, gâteaux patate, et les préparations liées aux fêtes. La cuisine réunionnaise standard est là aussi : rougail saucisse, cari poulet, achards. C'est une des meilleures raisons de faire étape ici plutôt que de traverser en direction de Saint-Benoît, et la gamme de prix n'a rien à voir avec la côte ouest."
+      },
+      {
+        heading: "9. Sainte-Suzanne, Bras-Panon et les alentours",
+        body: "Les communes voisines complètent facilement une journée. Sainte-Suzanne, au nord, porte la cascade Niagara, une chute large et facile d'accès en fond de ravine, ainsi qu'un phare et des vestiges d'habitations sucrières. Bras-Panon, au sud, abrite la coopérative de vanille et se visite pour comprendre la filière — préparation, échaudage, séchage, affinage — dans le seul département français qui produit de la vanille Bourbon. Ces deux sorties sont à une quinzaine de minutes de route et se combinent avec la sucrerie et la distillerie pour une journée entièrement consacrée aux productions de l'est."
+      },
+      {
+        heading: "10. Y aller, quand venir, et une règle de sécurité",
+        body: "Saint-André est à environ quarante minutes de route de Saint-Denis par la côte est, et à un quart d'heure de Saint-Benoît : c'est une étape naturelle sur le tour de l'île. La côte au vent est la plus arrosée du département, et les matinées sont en général plus dégagées que les après-midi. Deux fenêtres calendaires structurent le choix des dates : la campagne sucrière, de juillet à décembre environ, si l'on veut voir l'usine tourner, et le Dipavali, fin octobre ou début novembre. Enfin, la même règle qu'ailleurs sur l'île : hors lagon de la côte ouest et hors bassins surveillés, la baignade en mer est interdite à La Réunion pour risque requin."
+      }
+    ],
+    relatedCities: ["saint-andre-reunion", "saint-benoit-reunion", "saint-denis-reunion", "saint-pierre-reunion"],
+    relatedGuides: [
+      "10-choses-a-faire-a-saint-benoit-reunion-2026",
+      "10-choses-a-faire-a-saint-denis-reunion-2026",
+      "10-choses-a-faire-a-saint-paul-reunion-2026",
+      "vivre-en-outre-mer-guide-2026"
+    ],
+    tags: ["10 choses à faire à Saint-André", "activités Saint-André 2026", "que faire à La Réunion", "sorties est de La Réunion", "temple du Colosse Dipavali Bois-Rouge Savanna Champ-Borne"]
+  },
+  {
+    slug: "10-choses-a-faire-aux-abymes-2026",
+    title: "10 choses à faire aux Abymes (Guadeloupe)",
+    metaTitle: "10 choses à faire aux Abymes (Guadeloupe) 2026",
+    metaDesc: "Maison de la Mangrove de Taonaba, canal Perrin, Grand Cul-de-Sac Marin, Grands-Fonds, marché, Mémorial ACTe voisin : 10 activités aux Abymes.",
+    category: "tourisme",
+    emoji: "🌳",
+    readMinutes: 7,
+    publishedAt: "2026-08-13",
+    updatedAt: "2026-08-13",
+    intro: "Les Abymes est la commune la plus peuplée de la Guadeloupe, environ 53 500 habitants, collée à Pointe-à-Pitre sur la Grande-Terre. C'est aussi celle que presque tous les visiteurs traversent sans s'arrêter, parce que l'aéroport Pôle Caraïbes est sur son territoire : on y atterrit, on prend la voiture de location, on file vers Sainte-Anne ou vers Basse-Terre. Ce guide part du principe inverse. La commune tient son nom des marais et des brumes qui la couvraient avant leur assainissement, et c'est de là qu'elle tire son intérêt : elle donne accès à la plus grande mangrove des Petites Antilles, et son arrière-pays, les Grands-Fonds, est un paysage de mornes calcaires qui ne ressemble à rien d'autre dans l'archipel. Pas de plage, peu de monuments, mais deux milieux naturels remarquables à vingt minutes de l'aéroport.",
+    sections: [
+      {
+        heading: "1. La Maison de la Mangrove, à Taonaba",
+        body: "Sur le site de Belle-Plaine, le projet Taonaba — un mot caraïbe désignant le marais et la forêt inondée — associe un espace muséographique consacré aux zones humides du littoral et des sentiers de découverte. La partie exposition explique la mangrove, la forêt marécageuse, la prairie humide, leur fonctionnement et leur rôle. C'est le meilleur point de départ possible pour comprendre ce qu'on va voir ensuite sur l'eau, et l'un des rares équipements de ce type en Guadeloupe. Vérifier les jours et horaires d'ouverture avant de venir : ce sont des équipements à petite équipe, dont les créneaux évoluent."
+      },
+      {
+        heading: "2. Le sentier sur caillebotis",
+        body: "Depuis le même site, un cheminement sur caillebotis de bois s'enfonce dans la forêt marécageuse et la mangrove sur une boucle qui se parcourt en une demi-heure environ. On marche au-dessus de l'eau, à l'ombre et à l'abri d'une bonne partie des moustiques, entre palétuviers, racines échasses et crabes. La sortie est accessible à tout le monde, y compris avec de jeunes enfants, et c'est la façon la plus simple d'entrer dans un milieu qu'on ne fait normalement qu'apercevoir depuis la route. Prendre malgré tout un répulsif et éviter la fin de journée, moment où les moustiques se réveillent."
+      },
+      {
+        heading: "3. Le canal Perrin et le canal de Belle-Plaine",
+        body: "La mangrove abymienne est traversée par des canaux, dont le canal Perrin, qui se parcourent en barque ou en kayak. C'est une balade lente, dans des chenaux bordés de palétuviers où l'on croise poissons, crabes, palourdes et une bonne partie de l'avifaune locale. À la différence des excursions au large, celle-ci se fait à l'ombre et sans houle, ce qui la rend praticable même quand la mer est mauvaise. Les départs se font depuis le site de Belle-Plaine et avec des prestataires locaux ; en kayak, choisir le début de matinée, quand l'eau est plate et les oiseaux actifs."
+      },
+      {
+        heading: "4. Le Grand Cul-de-Sac Marin",
+        body: "Les canaux débouchent sur le Grand Cul-de-Sac Marin, la grande baie fermée par une barrière de corail qui sépare Grande-Terre de Basse-Terre. La mangrove qui borde ses rives est la plus étendue des Petites Antilles, et l'ensemble relève du Parc national de la Guadeloupe et d'une réserve naturelle. Les sorties bateau à la journée y combinent en général mangrove, îlets de sable et baignade sur des hauts-fonds, avec des départs répartis sur plusieurs communes riveraines. Les règles de la réserve — zones interdites, mouillages réglementés, interdiction de prélever — ne sont pas facultatives et conditionnent la survie du site."
+      },
+      {
+        heading: "5. Les Grands-Fonds",
+        body: "À l'est de la commune commence le paysage le plus inattendu de la Grande-Terre : les Grands-Fonds, une succession de mornes calcaires arrondis, séparés de vallées étroites, couverts d'une végétation dense et parcourus de routes minuscules. L'habitat y est dispersé, l'agriculture vivrière encore présente, et l'on y trouve une Guadeloupe rurale que la côte touristique ne laisse pas soupçonner. On les visite en voiture, sans itinéraire précis, en acceptant de se perdre un peu ; quelques points hauts dégagent des vues sur les deux façades. Les routes sont étroites et sinueuses, et la signalisation approximative : prévoir du temps."
+      },
+      {
+        heading: "6. La mare Fidelin",
+        body: "Au cœur des Grands-Fonds, la mare Fidelin est un plan d'eau douce entouré de végétation, à l'écart des axes, qui sert de halte fraîche dans une balade en voiture. Ce n'est pas un site aménagé de grande ampleur ni une attraction majeure, et il faut le prendre pour ce qu'il est : un point de repère agréable dans un secteur où l'on circule sans but précis, et un bon prétexte pour s'arrêter et regarder le paysage. C'est aussi l'un des rares endroits de la commune où l'on peut manger un morceau au calme au milieu des mornes, plutôt que dans la zone urbaine du bas."
+      },
+      {
+        heading: "7. Le centre-ville et la vie culturelle",
+        body: "Le bourg des Abymes n'a pas de patrimoine monumental et ne prétend pas en avoir : c'est une ville d'habitat, de services et de commerce, avec un marché, une église, un tissu associatif dense et le centre culturel de Sonis, qui accueille spectacles, concerts et manifestations. La programmation locale, la vie sportive — la commune a une vraie tradition de basket — et les fêtes de quartier sont ce qui s'y passe réellement. Si l'on veut voir la Guadeloupe telle qu'elle se vit plutôt que telle qu'elle se photographie, c'est ici, et pas sur le front de mer de Sainte-Anne."
+      },
+      {
+        heading: "8. Le marché et la table guadeloupéenne",
+        body: "Comme partout dans l'archipel, le marché est le meilleur endroit pour attaquer la commune : fruits, racines, épices, colombo, bois d'Inde, piments, poissons. Côté table, les Abymes concentrent une restauration de quartier peu chère et sans concession touristique : accras de morue, boudin créole, bokit — le sandwich frit guadeloupéen, qui se mange debout —, colombo de cabri, court-bouillon, dombrés aux ouassous. Les lolos et les camions de bord de route valent souvent mieux que les cartes traduites en trois langues. C'est aussi un bon endroit pour le premier ou le dernier repas d'un séjour, à cause de l'aéroport."
+      },
+      {
+        heading: "9. Pointe-à-Pitre et Morne-à-l'Eau, depuis les Abymes",
+        body: "Deux voisines immédiates complètent la journée. Pointe-à-Pitre, dont les Abymes sont la banlieue continue, porte le Mémorial ACTe consacré à la traite et à l'esclavage, le marché aux épices et le centre ancien : c'est là qu'est le patrimoine urbain du secteur. Morne-à-l'Eau, au nord, abrite le cimetière le plus photographié de la Guadeloupe, dont les tombes en damier noir et blanc s'étagent en amphithéâtre — un lieu funéraire en activité, à visiter avec la retenue correspondante, particulièrement vivant à la Toussaint. Ni l'un ni l'autre ne sont sur la commune, mais ils sont à quelques minutes."
+      },
+      {
+        heading: "10. Y aller, s'organiser, et pourquoi s'y arrêter",
+        body: "L'aéroport Guadeloupe Pôle Caraïbes est sur la commune, ce qui fait des Abymes le point d'entrée de l'archipel et, accessoirement, une base de première ou de dernière nuit très pratique. La voiture est indispensable, et il faut compter avec la congestion : l'agglomération Pointe-à-Pitre–Les Abymes–Baie-Mahault concentre l'essentiel des emplois de la Guadeloupe et sature aux heures de pointe, matin et fin d'après-midi. Le carême, de décembre à avril environ, est la saison sèche ; l'hivernage, de juin à novembre, est humide et couvre la saison cyclonique. Et si l'on ne doit garder qu'une chose de la commune : la mangrove, qu'on ne verra nulle part ailleurs à cette échelle."
+      }
+    ],
+    relatedCities: ["les-abymes", "pointe-a-pitre", "baie-mahault"],
+    relatedGuides: [
+      "10-choses-a-faire-a-pointe-a-pitre-2026",
+      "vivre-en-outre-mer-guide-2026",
+      "acheter-immobilier-outre-mer-drom-france-2026",
+      "10-choses-a-faire-au-francois-2026"
+    ],
+    tags: ["10 choses à faire aux Abymes", "activités Les Abymes 2026", "que faire en Guadeloupe", "sorties Les Abymes", "mangrove Taonaba canal Perrin Grand Cul-de-Sac Marin Grands-Fonds"]
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

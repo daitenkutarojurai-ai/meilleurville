@@ -512,6 +512,63 @@ Vaulx-en-Velin, Saint-Priest, Bron côté Lyon) et les DROM restants — Mamoudz
 Les Abymes, Saint-Louis (974), Saint-Laurent-du-Maroni, Le Lamentin, Saint-Joseph,
 Saint-Benoît, Baie-Mahault, Le Robert, Le François.
 
+**Batch 30 — FR, shipped 2026-08-13 : Saint-Laurent-du-Maroni, Mamoudzou, Le François,
+Le Robert, Saint-Benoît (974), Saint-André (974), Les Abymes.** Deuxième batch outre-mer après
+le 22, et le premier à couvrir **les cinq territoires DROM d'un coup** — la Guyane de l'Ouest,
+Mayotte (qui n'avait **aucun** guide de la série alors que Mamoudzou est dans le seed depuis le
+début), deux communes de la côte atlantique martiniquaise, deux de la côte au vent réunionnaise
+et la commune la plus peuplée de Guadeloupe. Le choix est assumé contre les banlieues de province
+laissées en piste par le batch 28 (Villenave-d'Ornon, Talence, Le Bouscat, Vaulx-en-Velin,
+Saint-Priest, Bron) : à matière vérifiable comparée, ces sept-là en ont nettement plus, et le trou
+DROM traînait depuis le batch 22. Angles retenus : le camp de la Transportation et les pirogues du
+Maroni à Saint-Laurent, le lagon à double barrière et les baleines à bosse à Mamoudzou, les fonds
+blancs et l'Habitation Clément au François, l'îlet Chancel et ses iguanes au Robert, Takamaka et
+le Grand Étang à Saint-Benoît, le temple du Colosse et le Dipavali à Saint-André, la mangrove de
+Taonaba et les Grands-Fonds aux Abymes.
+⚠️ **Trois nouveaux slugs hors gabarit, dont le premier en `aux-`** : `10-choses-a-faire-**au**-francois-2026`,
+`10-choses-a-faire-**au**-robert-2026` et `10-choses-a-faire-**aux**-abymes-2026` (« au François »,
+« au Robert », « aux Abymes » — même raison grammaticale que `au-puy-en-velay` et `au-tampon`).
+Le grep du batch 24 `'10-choses-a-faire-a[u]*-.*-2026'` **en rate désormais un** : le compte réel
+se prend avec **`grep -c 'slug: "10-choses-a-faire-a[ux]*-.*-2026"'`**. Ne pas « corriger » ces
+cinq slugs, et ne pas les compter comme des trous EN au prochain diff — la table de correspondance
+à appliquer avant tout `comm` est désormais : `puy-en-velay`→`le-puy-en-velay`,
+`tampon`→`le-tampon`, `francois`→`le-francois`, `robert`→`le-robert`, `abymes`→`les-abymes`.
+**Compteurs mesurés : FR 207 (`-a-` strict 202 + 4 en `au-` + 1 en `aux-`), EN 200 ; `GUIDES`
+939 → 946.** `metaTitle` 44-48 caractères, `metaDesc` 141-156, 10 sections par guide, densité
+d'accents 0,149-0,175 (seuil de détection ascii-strip : 0,09 ; les guides déjà livrés de la série
+sont à 0,153-0,181). `npm run search-index` relancé (`data/search-index.json` 946 guides).
+⚠️ **Le guide Mamoudzou porte une contrainte que les six autres n'ont pas, à ne pas diluer** : le
+cyclone **Chido de décembre 2024** a détruit ou endommagé une part considérable des infrastructures
+mahoraises, dont plus des deux tiers de l'offre touristique selon les bilans dressés après coup, et
+la reconstruction courait toujours en 2026. L'intro le dit **avant** la première phrase sur le lagon,
+et la section pratique renvoie aux sources officielles, à la tension sur la ressource en eau et au
+fait que prestataires et hébergements se reconstituaient — présenter Mayotte comme une destination
+balnéaire clé en main aurait été faux et potentiellement dangereux pour un lecteur. Quatre autres
+prudences assumées : la baignade en mer **interdite hors lagon de la côte ouest et hors bassins
+surveillés** à La Réunion (risque requin) est rappelée dans les deux guides réunionnais, **et il n'y
+a pas de lagon dans l'est** ; la **baignade est interdite au bassin La Paix** (courants, profondeur)
+alors qu'elle est autorisée au bassin La Mer en amont ; la **baignoire de Joséphine** est donnée
+comme **tradition orale et non comme fait établi** ; et le raz-de-marée du **cyclone Jenny en 1962**
+est la cause documentée de la ruine de l'église de Champ-Borne. Suivant la convention des batches 26
+et 28, tout ce qui relève d'une commune voisine est écrit « **accessible depuis** » et non « situé
+à » : mont Choungui (Chirongui) depuis Mamoudzou, presqu'île de la Caravelle (La Trinité) depuis
+Le Robert, Anse des Cascades et Notre-Dame-des-Laves (Sainte-Rose) depuis Saint-Benoît, cascade
+Niagara (Sainte-Suzanne) et vanille (Bras-Panon) depuis Saint-André, Mémorial ACTe (Pointe-à-Pitre)
+et cimetière en damier (Morne-à-l'Eau) depuis Les Abymes, Awala-Yalimapo et Javouhey depuis
+Saint-Laurent. Aucun horaire, tarif ni hauteur n'est cité : sur des sites ultramarins à petites
+équipes et à ouverture mouvante, la copie renvoie à l'office de tourisme.
+Écart FR→EN après ce batch : **7 villes** (saint-laurent-du-maroni, mamoudzou, le-francois,
+le-robert, saint-benoit-reunion, saint-andre-reunion, les-abymes) — au-dessus du seuil de ~6, donc
+**le prochain run doit être un batch EN**. Nommage anglais à surveiller : `things-to-do-in-le-francois-2026`,
+`things-to-do-in-le-robert-2026` et `things-to-do-in-les-abymes-2026` (garder l'article, comme
+`things-to-do-in-le-tampon-2026`), et **`things-to-do-in-saint-andre-2026` doit être désambiguïsé**
+— `saint-andre-reunion` est le slug de seed, et l'EN porte déjà `things-to-do-in-saint-denis-2026`
+(93) face à `things-to-do-in-saint-denis-reunion-2026`, donc appliquer le même traitement.
+Pour le batch FR **suivant**, restent 4 villes DROM non couvertes des deux côtés : Le Lamentin (972),
+Baie-Mahault (971), Saint-Louis (974), Saint-Joseph (974) — trop peu pour un batch entier et les
+trois premières sont pauvres en matière touristique vérifiable ; les compléter avec les banlieues de
+province laissées par le batch 28.
+
 ### Glossaire (`app/glossaire/page.tsx`)
 
 Page unique, données inline (`SECTIONS: {title, emoji, terms[]}`), `DefinedTermSet` JSON-LD généré

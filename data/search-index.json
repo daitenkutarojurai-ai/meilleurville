@@ -4695,6 +4695,41 @@
       "slug": "parent-solo-a-toulon-2026",
       "title": "Parent solo à Toulon en 2026 : T3 à 1 050 €, soleil et rade",
       "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saint-laurent-du-maroni-2026",
+      "title": "10 choses à faire à Saint-Laurent-du-Maroni (Guyane)",
+      "emoji": "🛶"
+    },
+    {
+      "slug": "10-choses-a-faire-a-mamoudzou-2026",
+      "title": "10 choses à faire à Mamoudzou (Mayotte)",
+      "emoji": "🐋"
+    },
+    {
+      "slug": "10-choses-a-faire-au-francois-2026",
+      "title": "10 choses à faire au François (Martinique)",
+      "emoji": "🏝️"
+    },
+    {
+      "slug": "10-choses-a-faire-au-robert-2026",
+      "title": "10 choses à faire au Robert (Martinique)",
+      "emoji": "🦎"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saint-benoit-reunion-2026",
+      "title": "10 choses à faire à Saint-Benoît (La Réunion)",
+      "emoji": "💦"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saint-andre-reunion-2026",
+      "title": "10 choses à faire à Saint-André (La Réunion)",
+      "emoji": "🪔"
+    },
+    {
+      "slug": "10-choses-a-faire-aux-abymes-2026",
+      "title": "10 choses à faire aux Abymes (Guadeloupe)",
+      "emoji": "🌳"
     }
   ],
   "tags": [
@@ -5781,6 +5816,16 @@
     {
       "slug": "picardie",
       "label": "Picardie",
+      "count": 3
+    },
+    {
+      "slug": "que-faire-a-la-reunion",
+      "label": "que faire à La Réunion",
+      "count": 3
+    },
+    {
+      "slug": "que-faire-en-martinique",
+      "label": "que faire en Martinique",
       "count": 3
     },
     {
