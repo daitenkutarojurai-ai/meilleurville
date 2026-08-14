@@ -13,10 +13,55 @@ Demande utilisateur directe. F58 / F60 / F61 livrées le jour même ; **F59 livr
 
 | # | Feature | Prio | Cplx | SEO | Statut |
 |---|---------|------|------|-----|--------|
-| F58 | City Match — profil « parent solo » | P1 | S | mid | ✅ shipped 2026-07-22 · sous-page `/villes/[slug]/parent-solo` ×540 + hub `/parent-solo` + miroir EN `/single-parent` + `/cities/[slug]/single-parent` ×540 shipped 2026-07-25→28 · série guides `parent-solo-a-[ville]-2026` batch 1 (+10) shipped 2026-07-24, batch 2 (+10 : Rennes, Nancy, Angers, Grenoble, Dijon, Metz, Reims, Aix-en-Provence, Rouen, Toulon) shipped 2026-08-07 · miroir EN de la série `single-parent-in-[city]-2026` batch 1 (+10 : Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux, Lille) shipped 2026-08-09 |
+| F58 | City Match — profil « parent solo » | P1 | S | mid | ✅ shipped 2026-07-22 · sous-page `/villes/[slug]/parent-solo` ×540 + hub `/parent-solo` + miroir EN `/single-parent` + `/cities/[slug]/single-parent` ×540 shipped 2026-07-25→28 · série guides `parent-solo-a-[ville]-2026` batch 1 (+10) shipped 2026-07-24, batch 2 (+10 : Rennes, Nancy, Angers, Grenoble, Dijon, Metz, Reims, Aix-en-Provence, Rouen, Toulon) shipped 2026-08-07 · miroir EN de la série `single-parent-in-[city]-2026` batch 1 (+10 : Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux, Lille) shipped 2026-08-09, batch 2 (+10) shipped 2026-08-11 — **parité FR/EN atteinte à 20/20** · **batch 3 FR (+9 : Villeurbanne, Besançon, Caen, Brest, Tours, Limoges, Clermont-Ferrand, Saint-Étienne, Le Havre) shipped 2026-08-14** — FR 29, EN 20, écart 9, **le prochain run parent-solo doit être le miroir EN** |
 | F59 | **Parcs & espaces verts par ville** (pipeline OSM + sub-page ×540) | **P0** | **L** | **high** | ✅ shipped 2026-07-27 |
 | F60 | `/departements` — finder par n° / nom / ville + carte cliquable | P1 | S | low | ✅ shipped 2026-07-22 · carte cliquable 2026-07-23 |
 | F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 · série guides `vacances-celibataire-[ville]-2026` batch 1 (+8) shipped 2026-08-01 · série `vacances-monoparentales-[ville]-2026` batch 1 (+7) shipped 2026-08-05 · `vacances-celibataire-[ville]-2026` batch 2 (+7 : Toulouse, Lille, Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle) shipped 2026-08-08 · croisement mois × profil `/vacances/ou-partir/[combo]` (12 × 7 = 84 pages SSG) shipped 2026-08-12 · miroir EN de la série célibataire, `solo-travel-in-[city]-2026` batch 1 (+8 : Paris, Lyon, Bordeaux, Lille, Strasbourg, Toulouse, Montpellier, Nantes) shipped 2026-08-13 |
+
+### F58 — série `parent-solo-a-[ville]-2026`, batch 3 (2026-08-14)
+
+**+9 guides : Villeurbanne, Besançon, Caen, Brest, Tours, Limoges, Clermont-Ferrand, Saint-Étienne,
+Le Havre.** Compteur mesuré (`grep -c 'slug: "parent-solo-a'`) : **29 FR**, contre 20 EN
+(`single-parent-in-[city]-2026`). `GUIDES` 946 → 955. `npm run search-index` relancé
+(`data/search-index.json` 955 guides), sinon `search-index:check` échoue.
+
+**Sélection** : les villes non couvertes les plus peuplées, filtrées sur la disponibilité d'une
+référence de loyer dans `data/housing.ts` — sans T3, le composite ne peut pas produire de seuil de
+revenu et le guide n'a plus de colonne vertébrale. Le lot couvre volontairement toute l'amplitude du
+classement plutôt que son seul haut : Villeurbanne 21e sur 363, Le Havre 162e. Un batch qui ne
+retiendrait que les bonnes élèves ferait une page de promotion, pas un classement.
+
+**Changement de méthode par rapport aux batches 1 et 2, à conserver.** Les guides sont désormais
+construits sur `lib/parent-solo.ts` (le moteur qui alimente déjà `/parent-solo` et
+`/villes/[slug]/parent-solo`) et non sur une lecture libre du seed. Chaque guide cite donc son
+**composite** (`parentSoloFit`), son **rang sur les 363 communes de plus de 20 000 habitants**
+classées par le hub, et son **revenu net minimum** (`minIncomeForT3`, règle des 33 %) — trois
+chiffres reproductibles, cohérents avec ce que le site affiche par ailleurs.
+⚠️ **Les batches 1 et 2 citent des fourchettes de loyer par quartier et des barèmes de cantine
+(« 0,60 € à 5,80 € le repas », « 600-800 €/mois ») qui ne figurent dans aucun fichier de `data/`.**
+Le batch 3 ne les reproduit pas : les seuls prix par quartier cités sont les `avgRentT2` réels de
+`data/neighborhoods.ts`, et là où la donnée manque (barèmes CAF) le texte dit qu'elle manque plutôt
+que de l'inventer. À reprendre si les batches 1-2 sont un jour retravaillés.
+
+**Trois précautions de méthode dans la copie, à ne pas diluer** : ① les scores de quartier de
+`data/neighborhoods.ts` sont sur une **échelle propre** et ne se comparent pas au score communal —
+chaque guide le dit là où il cite les deux ; ② `data/neighborhoods.ts` ne couvre que **3 quartiers
+par ville**, ce qui est explicitement donné comme la raison pour laquelle le site ne publie aucun
+verdict de sécurité par secteur (même arbitrage que le refus de la série `quartiers-a-eviter`) ;
+③ aucun barème de cantine ni de périscolaire n'est chiffré.
+
+**Ratio loyer T3 ÷ score écoles**, calculé comme le palmarès mensuel et cité dans les guides :
+Brest 115 € par point (meilleur du lot), Tours 119, Besançon 122, Caen 126, Clermont-Ferrand et
+Limoges 129, Saint-Étienne 133, Villeurbanne 149, Le Havre 150.
+
+**Slug hors gabarit à ne pas « corriger »** : `parent-solo-a-le-havre-2026` suit la convention déjà
+retenue par le dépôt pour cette ville (`demenager-a-le-havre-2026`, `travail-a-le-havre-2026`,
+`acheter-a-le-havre-…`), alors que le titre écrit « au Havre ». Ne pas aligner le slug sur la
+grammaire, et ne pas le compter comme un trou au prochain diff de parité.
+
+**Prochain run parent-solo : le miroir EN** (`single-parent-in-[city]-2026`), l'écart étant de 9.
+Nommage à surveiller : `single-parent-in-le-havre-2026` (garder l'article, comme
+`things-to-do-in-le-tampon-2026`) et `single-parent-in-saint-etienne-2026`.
 
 ### F59 — Parcs & espaces verts par ville ✅ LIVRÉ (540/540 villes, 7 047 parcs)
 
