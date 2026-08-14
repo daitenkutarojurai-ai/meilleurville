@@ -1,6 +1,16 @@
 /**
  * Niche scores derived from base axes + tags + geography.
  * Pure functions — no extra data layer needed; keeps everything client-friendly.
+ *
+ * **Convention** : les cinq scores (`expat`, `remote`, `petFriendly`,
+ * `retirement`, `studentLife`) sont 0-10 avec **10 = bon** — chacun nomme une
+ * adéquation à un profil, jamais une difficulté. Pas d'inversion, `scoreColor`
+ * s'applique tel quel. `terrain` n'est pas un score mais une classification.
+ *
+ * ⚠️ Ces valeurs ne sont **pas** dans le seed : « Score retraite » et « Score
+ * étudiant » se lisent ici, pas dans un champ de `data/cities-seed.ts`.
+ * Chercher `retirement` dans le seed ne renvoie rien, et un chiffre recopié
+ * depuis un axe voisin serait faux (cf. CLAUDE.md § Score pipeline).
  */
 
 import type { CitySeed } from "@/data/cities-seed";

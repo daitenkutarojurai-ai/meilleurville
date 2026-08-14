@@ -1,9 +1,28 @@
 // F4 — Red Flag thématiques.
 //
-// 4 thèmes éditoriaux (regrets d'achat, sans voiture difficile, belles mais
-// invivables l'été, air irrespirable l'hiver). Chaque thème expose une
+// 36 thèmes éditoriaux (regrets d'achat, sans voiture difficile, belles mais
+// invivables l'été, air irrespirable l'hiver…). Chaque thème expose une
 // fonction `rank()` qui retourne les villes triées par "gravité" sur ce
 // thème, avec un score 0-10 et une raison citable.
+//
+// **Convention** : `severity` va de 0 à 10 avec **10 = le plus grave**. C'est
+// l'inverse de la convention globale du site (`scores.global`, 10 = bon), et
+// les deux nombres se côtoient dans une même ligne de classement — la surface
+// doit donc énoncer les deux sens (cf. la légende de `RedFlagThemePage` et de
+// sa jumelle EN) et ne jamais nourrir `scoreColor` avec `severity` : la couleur
+// passe par la palette par niveau `severityColor` (rouge en haut).
+// Les 36 `rank()` trient sans exception par `severity` décroissante, donc #1
+// est toujours la ville la plus concernée.
+//
+// ⚠️ Un `rank()` peut légitimement lire un moteur à convention **inverse**
+// (`lib/cycling-mobility` et `lib/sport-leisure` sont 10 = excellent) : dans ce
+// cas la sévérité se construit à partir de l'écart au seuil, pas de la valeur
+// brute. C'est la sévérité produite qui doit rester 10 = pire, jamais l'entrée.
+//
+// ⚠️ Un seuil écrit ici est solidaire de l'échelle **réellement produite** par
+// le moteur qu'il interroge, pas de son domaine théorique 0-10. Deux thèmes
+// filtrent aujourd'hui hors de la plage atteignable et ne peuvent donc rendre
+// aucune ville — cf. docs/integrite-2026-08-14.md.
 //
 // Toutes les valeurs viennent du seed actuel + lib/owner-scores. Aucun fetch.
 // Quand owner-scores passe en v1 (sources réelles), les classements ici se

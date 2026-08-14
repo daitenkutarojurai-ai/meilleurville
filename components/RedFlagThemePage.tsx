@@ -84,9 +84,23 @@ export function RedFlagThemePage({ theme }: { theme: RedFlagTheme }) {
 
         {/* Classement */}
         <section>
-          <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-4">
-            Les {rows.length} villes les plus concernées
+          <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-1">
+            {rows.length === 0
+              ? "Les villes les plus concernées"
+              : `Les ${rows.length} villes les plus concernées`}
           </h2>
+          {/* Deux nombres sur /10 se côtoient dans chaque ligne, en sens
+              opposés : la gravité (10 = pire, palette rouge par niveau) et le
+              score global de la ville (10 = bon, palette scoreColor). Sans
+              cette légende, rien ne dit au lecteur lequel se lit dans quel
+              sens. Cf. CLAUDE.md § Score convention, règle 3. */}
+          {rows.length > 0 && (
+            <p className="text-xs text-[var(--text-tertiary)] mb-4">
+              Gravité sur ce thème : <strong>10 = le plus grave</strong>, 0 =
+              non concerné. Le score global affiché à côté suit la convention
+              inverse du site — 10 = meilleure ville.
+            </p>
+          )}
           {rows.length === 0 ? (
             <Card>
               <p className="text-sm text-[var(--text-secondary)]">
@@ -119,7 +133,7 @@ export function RedFlagThemePage({ theme }: { theme: RedFlagTheme }) {
                           </span>
                           <span
                             className={`ml-auto inline-flex items-center rounded-full border px-2 py-0.5 text-[11px] font-bold ${severityColor(row.severity)}`}
-                            aria-label={`Severity ${row.severity} sur 10`}
+                            aria-label={`Gravité ${row.severity} sur 10, 10 étant le plus grave`}
                           >
                             {row.severity.toFixed(1)}/10
                           </span>

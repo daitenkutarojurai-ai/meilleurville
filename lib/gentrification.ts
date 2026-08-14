@@ -15,6 +15,15 @@
 // Le mot "gentrification" est sensible politiquement — le ton du site doit
 // rester neutre. On ne dit pas "investissez ici", on dit "voici les villes
 // dont les signaux de marché et démographiques montent".
+//
+// **Convention** : `score` est sur **0-100** (et non 0-10 comme les axes du
+// site), `10 = signal le plus fort` pour chacun des quatre `signals[].value`
+// qui sont eux sur 0-10. Le nom ne désigne ni une qualité ni une nuisance mais
+// une **intensité** : un score haut dit « ça monte vite », ce qui est une bonne
+// nouvelle pour un vendeur et une mauvaise pour un locataire. La surface ne
+// doit donc pas le colorer avec `scoreColor` (palette de qualité, 10 = vert) —
+// `/gentrification` le rend en `--accent` neutre, et c'est délibéré. Garder
+// l'unité `/ 100` visible : c'est elle qui empêche de le lire comme un axe.
 
 import type { CitySeed } from "@/data/cities-seed";
 import { CITIES_SEED } from "@/data/cities-seed";

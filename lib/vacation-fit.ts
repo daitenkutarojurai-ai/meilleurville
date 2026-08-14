@@ -4,6 +4,16 @@
 //                            ensemble de critères (mois, activité, profil).
 // bestMonthsFor(city)     : top 3 mois pour visiter cette ville.
 // topCitiesForMonth(opts) : classement national pour un mois donné.
+//
+// **Convention** : `score`, `profileScore` et `activityScore` sont 0-10 avec
+// **10 = bon** — « fit » nomme une adéquation. Les classements trient par score
+// décroissant, donc #1 est la meilleure destination. Aucune inversion, ni dans
+// le moteur ni à l'affichage ; `scoreColor` s'applique directement.
+//
+// ⚠️ Les entrées de `monthSignal` (lib/vacation-seasons) sont des **mesures**,
+// pas des scores : `tempAvg` en °C, `rainDays` en jours, `crowded` sur 1-5 où
+// **5 = le plus fréquenté**. Ne pas les colorer avec `scoreColor` ni les lire
+// comme des notes — une surface qui affiche `crowded` doit dire son sens.
 
 import type { CityLight } from "@/lib/cities-light";
 import {

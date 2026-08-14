@@ -10,6 +10,13 @@
 //
 // Anchors: Insee "Mobilités professionnelles" 2022 (national avg ~22 min one-way,
 // Paris metro ~40 min, big metros 25-32 min, mid cities 15-22 min, small <15 min).
+//
+// **Convention** : ce module ne produit **aucun score 0-10**. `oneWayMinutes` /
+// `roundTripMinutes` sont des **minutes** (plus haut = pire), les trois `*Share`
+// des **parts de 0 à 1** qui totalisent 1. Ne jamais nourrir `scoreColor` avec
+// l'une de ces valeurs : la palette est calibrée sur 0-10, et 38 minutes y
+// tomberaient dans le vert du haut de barème. Les surfaces affichent les
+// minutes telles quelles et les parts en pourcentage, avec leur unité.
 
 import type { CitySeed } from "@/data/cities-seed";
 

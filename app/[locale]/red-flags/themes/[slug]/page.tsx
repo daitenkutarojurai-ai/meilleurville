@@ -546,9 +546,21 @@ export default async function EnRedFlagThemePage({ params }: Props) {
         </div>
 
         <section>
-          <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-4">
-            The {rows.length} most affected cities
+          <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-1">
+            {rows.length === 0
+              ? "The most affected cities"
+              : `The ${rows.length} most affected cities`}
           </h2>
+          {/* Same legend as the FR twin: the severity badge runs 10 = worst,
+              the opposite of the site-wide score convention. Say so, or the
+              number is unreadable. Cf. CLAUDE.md § Score convention, rule 3. */}
+          {rows.length > 0 && (
+            <p className="text-xs text-[var(--text-tertiary)] mb-4">
+              Severity on this theme: <strong>10 = worst</strong>, 0 = not
+              affected. Note this is the reverse of the site-wide score
+              convention, where 10 is the best a city can score.
+            </p>
+          )}
           {rows.length === 0 ? (
             <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
               <p className="text-sm text-[var(--text-secondary)]">
@@ -579,6 +591,7 @@ export default async function EnRedFlagThemePage({ params }: Props) {
                           </span>
                           <span
                             className={`ml-auto inline-flex items-center rounded-full border px-2 py-0.5 text-[11px] font-bold ${severityColor(row.severity)}`}
+                            aria-label={`Severity ${row.severity} out of 10, 10 being the worst`}
                           >
                             {row.severity.toFixed(1)}/10
                           </span>

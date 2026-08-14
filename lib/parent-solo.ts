@@ -5,6 +5,11 @@
  *
  * Formule : coût 0,30 + transports 0,20 + écoles 0,25 + sécurité 0,25.
  * Total des poids = 1,00 → le résultat reste sur 0-10 comme les axes.
+ *
+ * **Convention** : `score` et les quatre `breakdown` sont 0-10 avec
+ * **10 = bon** (« fit » nomme une adéquation, pas une difficulté). Les entrées
+ * sont les axes du seed, déjà orientés 10 = bon : aucune inversion nulle part,
+ * ni dans le moteur ni à l'affichage, et `scoreColor` s'applique directement.
  */
 
 import type { CitySeed } from "@/data/cities-seed";
