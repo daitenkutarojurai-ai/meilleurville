@@ -24293,6 +24293,349 @@ export const EN_GUIDES: EnGuide[] = [
       "pays-de-la-loire",
     ],
   },
+  {
+    slug: "solo-travel-in-rennes-2026",
+    title: "Solo travel in Rennes: a student city that still goes out on a Tuesday",
+    metaTitle: "Solo Travel in Rennes 2026: Where to Stay, Going Out",
+    metaDesc:
+      "Rennes on your own: a compact medieval centre, 60,000 students who go out midweek, a metro running past midnight, and a mild single supplement.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-14",
+    updatedAt: "2026-08-14",
+    intro:
+      "Rennes is one of the easiest cities in France to go out alone in on a Tuesday night, and there is nothing mysterious about why. Close to one resident in five is a student, roughly 60,000 of them, and the local counter culture runs Monday to Saturday rather than clustering on the weekend. Add an hour and twenty-five minutes on the TGV from Paris, a compact historic centre where everything is walkable, a metro that runs late, and the Brittany coast under an hour away by regional train, and the logistics of a solo trip mostly disappear. This guide covers where to base yourself, how to work through the bars of the centre without doing the same three addresses on a loop, and how a city full of studio flats keeps the single supplement down.",
+    sections: [
+      {
+        heading: "Why Rennes works for a solo trip",
+        body: "Three things line up here that rarely line up together. First, compactness: the historic centre sits in a small triangle between Sainte-Anne, the river Vilaine and Saint-Germain, all on foot, which removes the planning from an evening. Second, the student mass, close to 60,000 enrolled, which holds the going-out rhythm from Monday to Saturday and sustains a genuine counter culture in the bars rather than a weekend-only rush. Third, a mid-sized cultural programme carried by solid institutions: the Trans Musicales in December, the Mythos festival in April, the Antipode and Le Diapason for gigs, the opera house for the classical end. Between them, something is on several nights a week all year. That combination is what stops a February evening in Rennes from feeling empty when you are on your own, which is more than most cities of this size manage.",
+      },
+      {
+        heading: "Where to stay: the old centre, or Thabor for quiet",
+        body: "For a short trip the historic centre is the obvious call. Half-timbered houses, the densest concentration of bars and restaurants in the city, everything walkable, and hotel rates that are reasonable next to Nantes or Bordeaux. The trade-off is noise on Thursday, Friday and Saturday nights, which is the price of being in the middle of it. Thabor is the alternative if you want calm without leaving the city: a well-heeled district around the finest park in Rennes, ten minutes on foot from the centre, softer rates, residential in feel. Skip Beauregard for a short stay, since it is suburban housing and effectively car-dependent, and skip the pure business districts, which empty after dark. The practical rule: anything within ten minutes on foot of place Sainte-Anne or place des Lices puts every evening within walking distance.",
+      },
+      {
+        heading: "Going out on a Tuesday: the city is built for it",
+        body: "Relative to its size, Rennes probably has the liveliest midweek in France, and the reason is arithmetic. Sixty thousand students and young professionals go out on Tuesday and Wednesday, the nights between exam pushes, when bar prices are gentler. The triangle formed by Saint-Michel, Sainte-Anne and rue Vasselot holds the beer and wine bars, several of them open late every day of the week. For music, the Antipode and Le Diapason programme mid-sized gigs several nights a week at sensible prices. The Arvor and the TNB cinema screen almost every evening, often with a discussion afterwards. Avoid Monday, which is flat, and Sunday evening, when a lot of places close; aim for Tuesday to Saturday. Friday night in the centre is its own thing, dense and young and loud, which suits some solo travellers and not others. One local habit worth copying: say bonjour on the way in before you ask for anything. It changes the reception.",
+      },
+      {
+        heading: "Getting around without a car, and a day at the coast",
+        body: "Rennes has one of the better transport networks for its size. The two metro lines, A and B, run until roughly half past midnight on weekdays and a little later at weekends, and cover the station along with every going-out district. STAR buses fill in the gaps, and the Noctibus service takes over on the main routes until 2am at weekends. Cycling is straightforward on mostly flat ground, with the Vélo Star hire scheme. The station is a seven-minute walk from the historic centre, so arriving from Paris involves no logistics at all. The regional train reaches Saint-Malo, Dinard and Vitré in under an hour, which makes a day on the Brittany coast possible without ever touching a car. A car-free trip here is not a compromise, it is the sensible option.",
+      },
+      {
+        heading: "The single supplement, and how to get around it",
+        body: "Rennes is one of the French cities where the single-room premium bites least, for two structural reasons. The hotel trade has been shaped by weekday business travel, since Rennes is a significant tech recruitment centre, which indexes rates to solo occupancy. And the short-let studio stock is deep. Two moves work well. Compare a furnished studio against a hotel as soon as you are staying two nights or more: studios in the centre and around Sainte-Anne are priced by floor area, so one person pays what a couple would, usually less than a central single room. And target the business hotels near the station from Monday to Thursday, where the weekday rate is built around people travelling alone. No prices are quoted here, because hotel rates move far too fast to print for a year.",
+      },
+      {
+        heading: "When to go: Trans Musicales, and the quieter windows",
+        body: "Two windows are worth knowing. From late November into early December the Trans Musicales is one of the largest new-music discovery festivals in Europe, with a very festive atmosphere and correspondingly tight accommodation; book several months ahead if those are your dates. In April, Mythos adds street arts and theatre. Outside the festivals, the best stretch for a solo trip is September to mid-November: the university year is in full swing, terraces are still open in September, and the mood is local rather than rushed. Spring, April to June outside Mythos, is also pleasant. Avoid the first half of August, when the students are gone and many addresses close, and avoid Sunday evening year-round. Tuesday, Wednesday and Thursday remain the nights when the room around you is made of locals rather than visitors.",
+      },
+    ],
+    relatedCities: ["rennes"],
+    tags: [
+      "solo travel",
+      "solo travel rennes",
+      "travelling alone in france",
+      "single supplement",
+      "trans musicales",
+      "bretagne",
+    ],
+  },
+  {
+    slug: "solo-travel-in-bayonne-2026",
+    title: "Solo travel in Bayonne: pintxos, Petit Bayonne and a counter you can walk into",
+    metaTitle: "Solo Travel in Bayonne 2026: Pintxos, Where to Stay",
+    metaDesc:
+      "Bayonne on your own: Basque pintxo bars where eating alone is normal, a walkable old town, direct TGV from Paris, and a gentle single supplement.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-14",
+    updatedAt: "2026-08-14",
+    intro:
+      "Bayonne is probably the best-placed French town outside the big cities for a trip on your own, and the reason is very concrete: Basque pintxo culture makes walking into a bar alone completely ordinary. A pintxo is a small Basque bar snack, usually skewered or served on bread, laid out along the counter; you order a drink, help yourself, and eat standing up. Dinner becomes a counter activity rather than a seated meal for two, which is the single biggest obstacle to eating alone anywhere else. Four hours from Paris by TGV, a compact old town where Grand Bayonne, Petit Bayonne and Saint-Esprit are ten minutes apart on foot, and a local life sustained year-round by rugby and a heavy festival calendar. This guide covers where to stay, how to work the bars without repeating yourself, and how to keep the single supplement down in a town that stays alive out of season.",
+    sections: [
+      {
+        heading: "Why Bayonne, specifically",
+        body: "Bayonne ticks a box no other French town does. Basque pintxo culture turns the evening meal into something you do standing at a counter, which removes the awkwardness that a restaurant table for one creates. In practice: you walk in, order a glass, take what you want from the counter, and talk to whoever is next to you. The only obstacle to speaking to a stranger is wanting to. Add a rare compactness, with Grand Bayonne, Petit Bayonne and Saint-Esprit all within a ten-minute walk of each other, and a cultural season that runs well beyond the famous Fêtes de Bayonne in August: the chocolate days, the Ravel festival, the rugby events. The climate is mild, which keeps terraces open longer than most of France. All of that sits four hours from Paris on a direct train. For a solo traveller who wants somewhere small that is not asleep, that is an unusual combination.",
+      },
+      {
+        heading: "Where to stay: Petit Bayonne, Grand Bayonne, Saint-Esprit",
+        body: "Petit Bayonne is the default if the evenings are the point. It is the historic quarter on the Nive side, with one of the highest concentrations of nightlife in south-west France, a dense run of pintxo bars, a strong rugby atmosphere and busy streets most nights. Hotel rates are gentler than in Biarritz or Saint-Jean-de-Luz. It is loud on Thursday, Friday and Saturday, which is the trade-off. Grand Bayonne is the quieter option that is still central: the listed historic core on the Adour side, around the cathedral, all walkable, more lived-in and less boisterous. Saint-Esprit is the budget compromise, on the right bank of the Adour, more affordable and slightly more residential, ten minutes on foot from the centre. Skip the business zones and the outskirts for a short stay; they add a bus ride to every evening for no benefit.",
+      },
+      {
+        heading: "Going out on a Tuesday: how the pintxo circuit works",
+        body: "Bayonne is probably the easiest place in France to go out alone midweek, precisely because pintxo culture breaks up the couple's dinner. The standard local circuit is three or four bars over an evening, one drink and two pintxos in each, five minutes of walking in between. It is an everyday practice rather than a tourist ritual, and it runs all year. Density is highest in Petit Bayonne and, to a lesser extent, in Grand Bayonne around rue Port-Neuf. For music, the Luna Negra in town and the Atabal in Biarritz, fifteen minutes away by regional train, both programme gigs several nights a week. Avoid Monday, which is flat, and Sunday evening. Thursday night in Petit Bayonne is particularly good out of season, when locals have their bars back without the summer crush. Two counter habits worth knowing: greet the room on the way in, and expect the counter price to be lower than the table price, posted separately.",
+      },
+      {
+        heading: "Getting around without a car, including the coast",
+        body: "Bayonne is far better connected than its size suggests. The Paris to Hendaye TGV stops in town, and the Bordeaux to Hendaye regional line puts Biarritz ten minutes away, Saint-Jean-de-Luz twenty and Hendaye forty, which makes a day on the Basque coast a train ticket rather than a car hire. The Chronoplus network covers the Bayonne, Anglet and Biarritz triangle, with the T1 tram-bus running until roughly midnight on weekdays and a little later at weekends. The station is a five-minute walk from the old town. Cycling works well in the centre, which is flat apart from the citadel. A car-free trip is entirely feasible here, beach days in Biarritz included, either by train or on the tram-bus.",
+      },
+      {
+        heading: "The single supplement, and how to get around it",
+        body: "The single-room premium is relatively mild in Bayonne, because the local hotel trade is not built around the couples who fill the seaside resorts along the coast. Three moves work. Compare a furnished studio with a hotel as soon as you are staying two nights or more: studios in Petit Bayonne and Saint-Esprit are priced by floor area, so one person pays a couple's rate, usually less than a central single room. Stay in Saint-Esprit rather than the dead centre: it is five to ten minutes on foot from the Nive, and rates run roughly fifteen to twenty-five per cent softer on average. And do not book a Biarritz hotel for a Bayonne trip, since Biarritz rates are noticeably higher and the single supplement bites much harder there. No prices are quoted here, because hotel rates move too fast to hold for a year.",
+      },
+      {
+        heading: "When to go: the Fêtes, or the off-season",
+        body: "Two opposite windows. In late July the Fêtes de Bayonne run for five days and draw around a million people dressed in white and red, turning the town into one continuous stage. It is a genuinely singular experience, but accommodation needs booking six months ahead and rates multiply by three or four. Out of season, the best stretch for a solo trip is September to mid-November: the local year restarts, terraces are still open in September, Aviron Bayonnais play at home every couple of weeks, and the atmosphere is properly local. Spring, April to June, is also good. Avoid the first half of January, when the town is at its flattest and many places close for holidays, and avoid Monday evenings year-round. Tuesday, Wednesday and Thursday are when Petit Bayonne is at its densest with locals rather than visitors.",
+      },
+    ],
+    relatedCities: ["bayonne"],
+    tags: [
+      "solo travel",
+      "solo travel bayonne",
+      "travelling alone in france",
+      "single supplement",
+      "pintxos petit bayonne",
+      "nouvelle-aquitaine",
+    ],
+  },
+  {
+    slug: "solo-travel-in-aix-en-provence-2026",
+    title: "Solo travel in Aix-en-Provence: a postcard town that is also a student town",
+    metaTitle: "Solo Travel in Aix-en-Provence 2026: Stay, Go Out",
+    metaDesc:
+      "Aix alone: 40,000 students keep the old town alive midweek all year, the Cours Mirabeau is walkable, and the single supplement needs planning for.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 8,
+    publishedAt: "2026-08-14",
+    updatedAt: "2026-08-14",
+    intro:
+      "The postcard does Aix-en-Provence a disservice if you are travelling alone. From a distance it looks like heritage scenery for couples on a break, plus a July saturated with festival crowds, which together suggest a ghost town for the rest of the year. The reality is the opposite, and that is the interesting part: around 40,000 Aix-Marseille University students are based on the Aix campus, which keeps weeknights busy in February as well as in June, and the old town packs an unusual amount of culture into a ten-minute walking radius. This guide covers where to stay to avoid the tourist strip, how to find a full room on a Tuesday in November, and how to handle a single supplement that is harsher here than in most of France, because the hotel trade is built around couples.",
+    sections: [
+      {
+        heading: "Why Aix holds up for a solo trip",
+        body: "The fair objection to Aix on your own is the risk of a showcase town that dies out of season. Three things neutralise it. First, the students: Aix-Marseille University has roughly 40,000 enrolled on the Aix campus, a large share of them living in town, which keeps weeknight life going through the winter. Second, cultural density: the Grand Théâtre de Provence, the opera festival in July, the Cité du Livre and a constellation of galleries and arthouse cinemas put something on most evenings. Third, the sheer compactness of the old town, where everything between the Cours Mirabeau and place des Cardeurs is walkable, which frees the evening from logistics. One thing to be clear about: Aix is expensive by French standards, and the single supplement is real here. The budget section of this guide matters more than it would elsewhere.",
+      },
+      {
+        heading: "Where to stay: Vieil Aix, Mazarin, Sextius-Mirabeau",
+        body: "Three areas stand out. Vieil Aix, the pedestrian historic core, is the default: the highest density of bars, restaurants and squares, all on foot, with life running past midnight. Rates are high and Thursday to Saturday nights are noisy, but nothing beats it for reach. The Mazarin quarter, on the other side of the Cours Mirabeau, is the calmer and grander alternative: seventeenth-century townhouses, a more elegant feel, five minutes from place des Cardeurs but much quieter after dark. Sextius-Mirabeau is the budget compromise, a newer district around the Cité du Livre and the Grand Théâtre, softer rates, ten minutes on foot from the centre. Skip Jas de Bouffan on a first visit, since it is residential and bus-dependent. And do not book near Aix-en-Provence TGV station: it sits fifteen kilometres from the centre, which defeats the entire point of a trip built around walking out in the evening.",
+      },
+      {
+        heading: "Going out on a Tuesday: student bars, cinemas, off-season festivals",
+        body: "The standard Aix circuit starts at place des Cardeurs and rue Verrerie, where the wine bars and cocktail bars stay open late every day. The Cours Mirabeau alternates historic cafes with newer addresses. For stage and music, the Grand Théâtre de Provence programmes opera and classical most evenings, and the Cité du Livre runs concerts and talks. The Mazarin arthouse cinema is a reliable local meeting point. One thing visitors rarely know: the peaks are the Easter classical festival, two weeks in April, and the international opera festival in July, but there is a festival almost every month that keeps cultural life going outside summer, from the comics festival in March and April to the jazz season in November and December. Avoid Sunday evening, which is flat, and aim for Tuesday to Saturday.",
+      },
+      {
+        heading: "Getting around without a car",
+        body: "Aix scores only moderately on public transport for its size, and that number is misleading for a visitor. The real asset is compactness: you can cross the whole centre on foot in twenty minutes, and you only need transport to reach a station or Marseille. The Aix-en-Bus network covers the rest, running until around 8pm or 9pm on weekdays, which is enough for a trip based in the centre. The one thing to know in advance: Aix-en-Provence TGV station is fifteen kilometres south, connected by a regular shuttle in about twenty minutes. Forewarned it is fine; discovered on arrival with luggage it is not. Marseille Saint-Charles is thirty minutes away by regional train for a day out. Cycling is not really a thing here, since the old town is steep and cobbled. A car-free trip works perfectly if you stay in Vieil Aix, as long as you are not planning to tour the Cézanne countryside, which does need a car.",
+      },
+      {
+        heading: "The single supplement, and how to get around it",
+        body: "After Paris, Aix is probably where the single-room premium hurts most in France, because the hotel market is built around couples and around July festival-goers, neither of which pushes prices down. Three moves help. Compare short-let studios against hotels systematically from two nights onwards: the studio stock is deep in Vieil Aix and Sextius-Mirabeau thanks to student demand, and the maths turns in your favour quickly over three nights or more. Avoid the two weeks of the July opera festival and the comics festival weekends specifically, when hotel rates double or triple. And look at hostels and alternative accommodation in Sextius-Mirabeau for private rooms at softer rates, with common areas that make meeting people straightforward. No rates are printed here, because they move too fast from one season and one platform to the next.",
+      },
+      {
+        heading: "When to go: March to June, then autumn, not July",
+        body: "The best window for a solo trip to Aix is March to mid-June. Temperatures are mild, terraces are open, festivals follow one another, and above all the students are there, which makes the evenings local rather than touristic. September to mid-November is the second window: the university year restarts and the cultural season with it. Avoid July and August precisely: the town saturates with visitors, residents leave, hotel rates spike, and the thing you came for, a town that is actually being lived in, inverts. Avoid the second half of December too, when a lot of addresses close, and avoid Monday evenings year-round. Tuesday, Wednesday and Thursday are the nights when the local scene is at its strongest, and the easiest way to end up somewhere that is not full of other visitors.",
+      },
+    ],
+    relatedCities: ["aix-en-provence"],
+    tags: [
+      "solo travel",
+      "solo travel aix-en-provence",
+      "travelling alone in france",
+      "single supplement",
+      "cours mirabeau",
+      "provence-alpes-cote-d-azur",
+    ],
+  },
+  {
+    slug: "solo-travel-in-angers-2026",
+    title: "Solo travel in Angers: the most underrated small city in France for going out alone",
+    metaTitle: "Solo Travel in Angers 2026: Where to Stay, Going Out",
+    metaDesc:
+      "Angers alone: 40,000 students, Le Chabada for gigs, 90 minutes from Paris, a recent tramway, and one of the mildest single supplements in France.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-14",
+    updatedAt: "2026-08-14",
+    intro:
+      "Angers is probably the most underrated French city for a trip on your own. Geography helps: an hour and a half from Paris by TGV, a station on the edge of the historic centre, a recent tramway that covers what matters, and the Loire a few kilometres away. The real asset runs deeper, though. Around 40,000 students across the Catholic university, the state university and the grandes écoles keep weeknights busy all year, and a music scene anchored by Le Chabada and Le Quai gives the city more cultural weight than its size suggests. This guide covers where to stay, how to go out on a Tuesday without walking into an empty room, and how a rental market shaped by student demand keeps the single supplement down.",
+    sections: [
+      {
+        heading: "Why Angers rather than somewhere better known",
+        body: "Three useful things line up here. Compactness first: the historic centre sits in a small area between the château, place du Ralliement and the Doutre, all on foot. Then a real student mass, roughly 40,000 across the metropolitan area, which holds the going-out rhythm from Monday to Saturday and clearly separates Angers from a heritage town that empties out of season. And finally a dense mid-sized cultural scene for a city of 155,000 people, carried by Le Chabada, one of the most respected contemporary music venues west of Paris, along with Le Quai for theatre and dance, the Théâtre du Champ de Bataille and a scattering of gig bars. Add a mild climate and the Loire nearby, and Angers is a better bet for a solo traveller looking for company than most places that market themselves as destinations.",
+      },
+      {
+        heading: "Where to stay: the centre, the Doutre, Saint-Serge",
+        body: "Three districts dominate if the evenings are the point. The centre around place du Ralliement is the default: pedestrian historic core, the highest concentration of bars, brasseries and restaurants in the city, everything walkable, and hotel rates that are reasonable next to Nantes. The Doutre, across the river Maine, is the more characterful alternative: a medieval faubourg of half-timbered houses, more lived-in and more local, ten minutes on foot over the bridge. Saint-Serge is the budget and atmosphere compromise, the student district around the university, younger and cheaper addresses, fifteen minutes on foot or five minutes by tram from the centre. Skip the northern and eastern outskirts for a short stay. Anything within ten minutes on foot of place du Ralliement puts the whole evening within reach.",
+      },
+      {
+        heading: "Going out on a Tuesday: student bars, Le Chabada, Le Quai",
+        body: "Midweek in Angers is considerably better than the size of the place would suggest, precisely because the students set the rhythm. The triangle of place du Ralliement, rue Saint-Laud and place du Pilori holds the beer, wine and cocktail bars, several open late every day. For music, Le Chabada programmes mid-sized gigs several nights a week with a nationally respected line-up, usually at very reasonable prices; it is probably the easiest way into a conversation about music with a stranger. Le Quai covers theatre and contemporary dance. Les 400 Coups screens arthouse films almost every evening. Avoid Monday, which is flat across the city, and Sunday evening, when many places close; aim for Tuesday to Saturday. Thursday night in the centre is the student peak, young and loud, which is either the point or the thing to avoid depending on what you are after.",
+      },
+      {
+        heading: "Getting around without a car",
+        body: "Angers is well set up for a car-free trip. The two recently opened tram lines, A and B, run until roughly midnight on weekdays and a little later at weekends, covering Saint-Laud station and most of the districts you would want. Buses fill in the network and a night service takes over on the main routes. Cycling works well: the city is flat along the Maine, there is a Vélocité hire scheme, and cycle lanes cover the centre. Saint-Laud station is five minutes on foot from the historic centre, so an arrival from Paris, ninety minutes on the TGV, is immediate. The regional train reaches Nantes in forty minutes for a day out. Nothing about this trip requires a car.",
+      },
+      {
+        heading: "The single supplement, and how to get around it",
+        body: "Angers is one of the French cities where the single-room premium is mildest, essentially because the short-let studio stock is deep: a direct inheritance of heavy student demand and a young working population that has shaped the local property market. Two moves work well. Compare a furnished studio with a hotel as soon as you are staying two nights or more, since studios in the centre, in Saint-Serge and in the Doutre are priced by floor area, which puts one person on a couple's rate, usually less than a central single room. And target the business hotels around Saint-Laud station from Monday to Thursday, where weekday rates are built around solo travellers and invert at the weekend. No prices are quoted here, because hotel rates move too fast to hold for a year.",
+      },
+      {
+        heading: "When to go: the university year, spring, and the street arts",
+        body: "Two windows stand out clearly. September to mid-November is the best stretch for a genuinely local solo trip: the university year is busy, terraces are still open in September, and the Chabada and Quai seasons restart. April to June is also good, with terraces opening along the Maine, the film festival in January and the Anjou theatre festival in June and July bracketing the year. Avoid the first half of August, when the city is flat and many addresses close, and avoid Sunday evening year-round. One local high point worth planning around: the Accroche-Coeurs, from late August into early September, turns the city into a three-day open-air stage of street arts, festive and free. Tuesday, Wednesday and Thursday remain the densest nights for local life.",
+      },
+    ],
+    relatedCities: ["angers"],
+    tags: [
+      "solo travel",
+      "solo travel angers",
+      "travelling alone in france",
+      "single supplement",
+      "le chabada angers",
+      "pays-de-la-loire",
+    ],
+  },
+  {
+    slug: "solo-travel-in-grenoble-2026",
+    title: "Solo travel in Grenoble: a big student city with mountains at the end of the tram line",
+    metaTitle: "Solo Travel in Grenoble 2026: Berriat, Stay, Go Out",
+    metaDesc:
+      "Grenoble alone: 60,000 students, five tram lines running past midnight, the Bastille cable car, and one of the mildest single supplements in France.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-14",
+    updatedAt: "2026-08-14",
+    intro:
+      "If you want a large student city with an escape into the mountains attached, Grenoble is the best solo destination in France. Three hours from Paris by TGV, a station on the edge of the centre, five tram lines that cover everything, and around 60,000 students across the metropolitan area keeping weeknights busy all year. The geography does the rest: a compact centre with the Chartreuse and Belledonne ranges standing over it, and a historic cable car that takes you up to the Bastille in five minutes when you want air. This guide covers where to base yourself, how to go out on a Tuesday without walking into an empty room, and why the single supplement is gentler here than in almost any comparable French city.",
+    sections: [
+      {
+        heading: "Why Grenoble rather than somewhere else",
+        body: "Grenoble combines three things that rarely sit together. A large student population, roughly 60,000 across the metropolitan area between the university and the engineering schools, which keeps weeknight life going in February as well as in October and separates the city completely from a resort that only wakes up on Saturdays. A dense mid-sized cultural scene carried by the MC2 national stage, La Belle Électrique, the Hexagone and a constellation of gig bars programming several nights a week at very reasonable prices. And immediate access to the mountains: the historic cable car climbs to the Bastille in five minutes from the centre, and the Chartreuse and Belledonne are half an hour away by car or regional train for a day out. Grenoble is also noticeably cheaper than Lyon or Annecy, which matters over a long weekend on your own.",
+      },
+      {
+        heading: "Where to stay: the hyper-centre, Berriat, Championnet",
+        body: "Three districts stand out for a trip built around the evenings. The hyper-centre, around place Notre-Dame and place Grenette, is the default: pedestrian historic core with the densest run of bars, restaurants and cafes, everything walkable, and a direct tram to the station. Rates are reasonable. Berriat is the younger, more alternative option: a former working-class quarter, now the heart of the city's independent cultural scene with La Belle Électrique, Le 102 and Le Ciel, softer hotel rates, ten minutes on foot or three minutes on tram A from the centre. Championnet is the calm compromise, residential and quieter but well connected, five minutes on foot from the centre and less student-heavy. Skip Villeneuve, in the southern suburbs, which is not set up for a visitor, and skip the pure office districts, which empty in the evening.",
+      },
+      {
+        heading: "Going out on a Tuesday: student bars, Belle Électrique, MC2",
+        body: "Midweek here is much livelier than in most cities this size, because the student mass spreads the week out rather than concentrating it on Friday and Saturday. The triangle of place Grenette, place Notre-Dame and rue Chenoise holds the student bars, brasseries and wine bars, several open late every day. Berriat carries the alternative and music addresses: La Belle Électrique programmes gigs several nights a week, Le 102 is an active self-run venue, and rue Ampère lines up beer bars and newer places. The MC2 covers theatre, dance and classical at a high level. Le Méliès screens arthouse almost every evening. Avoid Monday and Sunday evenings, when much of the city is flat and many places close; aim for Tuesday to Saturday. One specific pattern: the city fills up on Thursdays when there is a big gig at La Belle Électrique.",
+      },
+      {
+        heading: "Getting around without a car, and going up",
+        body: "Grenoble is one of the best-calibrated French cities for a car-free trip. The five tram lines, A to E, run until roughly half past midnight on weekdays and a little later at weekends, covering the station, the university and every going-out district. Buses fill in the gaps and the Flexo service takes over on the main routes at weekends. Cycling is genuinely dominant here: Grenoble regularly ranks among the most cyclable cities in France, the centre is flat, and the Métrovélo scheme covers both self-service and short-term hire. The Bastille cable car, known locally as les Bulles, runs during the day and into the evening, five minutes to climb 264 metres above the city for a view down the whole valley, which is not something any other French city centre offers. The station is five minutes from the historic centre on tram A.",
+      },
+      {
+        heading: "The single supplement, and how to get around it",
+        body: "Grenoble is one of the large French cities where the single-room premium bites least, for a structural reason: the short-let studio stock is deep, inherited from the heavy student demand that shaped the local property market. Three moves work well. Compare a furnished studio with a hotel as soon as you are staying two nights or more, since studios in the hyper-centre, Berriat and Championnet are priced by floor area, which puts one person on a couple's rate and usually beats a central single room. Target the business hotels around the station from Monday to Thursday, where weekday rates are indexed to people travelling alone. And look at the modern hostels in the centre for private rooms at softer rates, with common areas that make meeting people easy. No prices are printed here, because they move too fast to hold for a year.",
+      },
+      {
+        heading: "When to go, including the winter that nobody books",
+        body: "Two windows stand out. September to mid-November is the most interesting: the university year is busy, terraces are still open in September, the MC2 and Belle Électrique seasons restart, the mood is local and daytime temperatures are still mild. April to June is also excellent, with terraces opening along the Isère and hiking on Chamechaude or the Moucherotte within a day. The winter secret: January to March are quiet in tourist terms, but local life runs at full speed on the back of the students, hotel rates are softer, and Chamrousse is reachable in about forty minutes by tram and bus if you want to ski. Avoid the first half of August, when the city empties and many addresses close, and avoid Sunday evening year-round. Tuesday, Wednesday and Thursday are the densest nights, in Berriat as much as in the centre.",
+      },
+    ],
+    relatedCities: ["grenoble"],
+    tags: [
+      "solo travel",
+      "solo travel grenoble",
+      "travelling alone in france",
+      "single supplement",
+      "berriat grenoble",
+      "auvergne-rhone-alpes",
+    ],
+  },
+  {
+    slug: "solo-travel-in-dijon-2026",
+    title: "Solo travel in Dijon: a UNESCO centre you can cross on foot, and wine bars that take one",
+    metaTitle: "Solo Travel in Dijon 2026: Wine Bars, Where to Stay",
+    metaDesc:
+      "Dijon alone: a pedestrian UNESCO centre, Burgundy wine bars where drinking at the counter is normal, 90 minutes from Paris, and a manageable single supplement.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-14",
+    updatedAt: "2026-08-14",
+    intro:
+      "Dijon is probably the most underrated French city of its size for a trip on your own, for straightforward reasons. An hour and a half from Paris by TGV, a station on the edge of a UNESCO-listed historic centre, two recent tram lines across the city, and a core that is entirely pedestrian. Add around 30,000 students holding weeknights together all year, a Burgundy wine bar culture that makes walking in alone completely natural, and the Cité internationale de la gastronomie et du vin, open since 2022, which has thickened the offer in the centre again. This guide covers where to stay, how to string together a Tuesday evening without walking into an empty room, and how to keep the single supplement manageable.",
+    sections: [
+      {
+        heading: "Why Dijon rather than somewhere else",
+        body: "Three useful things line up. Rare compactness first: the UNESCO-listed protected sector sits within about seven hundred metres of the Palais des Ducs, all on foot, which takes the planning out of an evening. Then a Burgundy bar culture that makes a solo dinner at the counter ordinary: you order by the glass, you talk to whoever is pouring, and you may end up sharing a board with the person next to you. And finally a cultural weight unusual for a city this size, carried by the opera house, the Zénith, La Vapeur for contemporary music, the newly renovated fine arts museum, the Cité internationale de la gastronomie et du vin, and the self-run Tanneries venue for the alternative end. The 30,000 students of the Burgundy university hold the going-out rhythm from Monday to Saturday. Dijon is also distinctly cheaper than Lyon or Beaune.",
+      },
+      {
+        heading: "Where to stay: the protected sector, the Halles, the station",
+        body: "Three areas stand out. The protected sector around the Palais des Ducs and place de la Libération is the default: a UNESCO-listed pedestrian historic core with the densest run of bars and restaurants, all walkable, unbeatable for reach. The Halles quarter, around the covered market, is the livelier and more down-to-earth alternative, with a counter atmosphere on every market day, Tuesday, Friday and Saturday, and less touristy addresses, five minutes on foot from the centre. The station area is the budget compromise, with business hotels at softer rates, seven minutes on foot or three minutes by tram from the centre. Skip the outer residential districts for a short stay. Anything within ten minutes on foot of place de la Libération works.",
+      },
+      {
+        heading: "Going out on a Tuesday: wine bars, brasseries, gigs",
+        body: "Going out midweek takes no effort in Dijon, precisely because Burgundy wine bar culture runs all week rather than clustering at the weekend. The standard circuit starts around place Émile Zola, runs down rue Berbisey, which has the heaviest concentration of student bars and wine-merchant bistros, and continues along rue Musette, with places open late every day. For music, La Vapeur programmes mid-sized gigs several nights a week at very reasonable prices, and the self-run Tanneries space runs concerts, talks and shared meals most weeks. The Dijon opera keeps a dense classical and lyric programme across its two houses. L'Eldorado screens arthouse almost every evening. Avoid Monday and Sunday evening; aim for Tuesday to Saturday, and specifically Tuesday and Friday, the market days, when the counter atmosphere around the Halles is at its best.",
+      },
+      {
+        heading: "Getting around without a car",
+        body: "Dijon is well calibrated for a car-free trip. The two recently opened tram lines, T1 and T2, run until roughly midnight on weekdays and a little later at weekends, covering the station, the university and the districts that matter. Buses fill in the network. Cycling works well, since the city is mostly flat, with the DiviaVélodi hire scheme and cycle lanes across the centre. The station is five minutes on foot from the historic centre, so an arrival from Paris, ninety minutes on the TGV, is immediate. The regional train reaches Beaune in twenty-five minutes and Nuits-Saint-Georges beyond it, which puts a day among the Burgundy vineyards within reach without ever touching a car.",
+      },
+      {
+        heading: "The single supplement, and how to get around it",
+        body: "The single-room premium stays manageable in Dijon, for two structural reasons. The hotel trade is heavily shaped by weekday business travel, which indexes rates to solo occupancy. And the short-let studio stock is deep, inherited from student demand. Three moves work. Compare a furnished studio with a hotel from two nights onwards, since studios in the centre and around the station are priced by floor area, which puts one person on a couple's rate. Target the business hotels near the station from Monday to Thursday, where the weekday rate inverts at the weekend. And avoid the weekends of the international gastronomy fair, from late October into early November, when hotel rates rise noticeably. No prices are quoted here, because they move too fast to hold for a year.",
+      },
+      {
+        heading: "When to go: the university year, spring, the gastronomy fair",
+        body: "Two windows stand out. September to mid-November is the best for a genuinely local solo trip: the university year is busy, terraces are still open in September, the opera and La Vapeur seasons restart, the Burgundy harvest runs from late September into early October, and the international gastronomy fair turns the city into one long event for eleven days from late October, though that one needs booking ahead. April to June is also very pleasant, with terraces opening and the regional train running down the grand cru road. Avoid the first half of August, when the city is flat and many addresses close, and avoid Sunday evening year-round. Tuesday and Friday evenings are the densest for local life, because the Halles market carries into the evening.",
+      },
+    ],
+    relatedCities: ["dijon"],
+    tags: [
+      "solo travel",
+      "solo travel dijon",
+      "travelling alone in france",
+      "single supplement",
+      "burgundy wine bars",
+      "bourgogne-franche-comte",
+    ],
+  },
+  {
+    slug: "solo-travel-in-la-rochelle-2026",
+    title: "Solo travel in La Rochelle: the one French port town that still works off-season",
+    metaTitle: "Solo Travel in La Rochelle 2026: Stay, Go Out",
+    metaDesc:
+      "La Rochelle alone: a port town that stays awake off-season thanks to 15,000 students, a walkable Vieux Port, and softer rates outside July and August.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-14",
+    updatedAt: "2026-08-14",
+    intro:
+      "La Rochelle is probably the only French port town where a solo trip holds up out of season. The obvious worry about a seaside destination is the ghost-town months from October to March, and the answer here is clear: around 15,000 students at the local university and associated schools, plus a year-round resident population built around the port, the university and marine research, keep local life running. Two and a half hours from Paris by TGV, a station on the edge of the centre, a pedestrian historic core where everything is walkable, the Vieux Port and the Cours des Dames busy every evening, and the Île de Ré reachable by bike. This guide covers where to stay to avoid the tourist strip, how to go out on a Tuesday in November, and how to keep the single supplement reasonable outside high summer.",
+    sections: [
+      {
+        heading: "Why it holds up out of season",
+        body: "The fair objection to La Rochelle on your own is the seaside resort that empties in October. Three things neutralise it. First the students: around 15,000 enrolled at the university and associated schools, many of them living in town, which keeps weeknights going in February. Second, continuous economic activity: a commercial port, the Minimes marina, one of the largest in Europe, plus the university and marine research, which sustains a resident population that does not depend on holidaymakers. Third, real cultural density: La Sirène, a nationally respected contemporary music venue, La Coursive for theatre and dance, the maritime museum, the natural history museum, and a run of bars and restaurants that stay open all year. Add a mild climate that keeps a walk along the quays pleasant in November, and the off-season is the interesting version of this town rather than the compromise.",
+      },
+      {
+        heading: "Where to stay: Vieux Port, Saint-Nicolas, the station",
+        body: "Three areas dominate if the evenings are the point. The Vieux Port and Cours des Dames sector is the default: pedestrian historic core with the densest run of bars and restaurants, a view of the three landmark towers, everything walkable, and hotel rates gentler than on the Basque coast. It is loud from Thursday to Saturday in season and calmer but still busy out of it. The Saint-Nicolas quarter is the more lived-in alternative: an old sailors' district between the old town and the Minimes, village-like, with bars and small restaurants that are less touristy, ten minutes on foot from the Vieux Port. The station area is the budget compromise, with business hotels at softer rates, five minutes on foot from the historic centre. Skip the Minimes on a first visit, since it is a marina district on the edge of town and bus-dependent after dark.",
+      },
+      {
+        heading: "Going out on a Tuesday: Cours des Dames, Saint-Nicolas, La Sirène",
+        body: "Midweek out of season is far livelier here than the seaside reputation suggests, precisely because the students and residents keep going once the visitors have left. The Cours des Dames and rue Saint-Sauveur hold the wine bars, oyster bistros and brasseries, several open late every day of the week, February included. Saint-Nicolas offers a more local and less touristy version of the same evening. For music, La Sirène programmes mid-sized gigs several nights a week with a nationally respected line-up at very reasonable prices, which is probably the easiest way into a conversation with a stranger. La Coursive covers theatre, dance and classical. One date to know: the Francofolies in mid-July turn the town into a five-day stage, festive and packed, with accommodation to book several months ahead. Avoid Sunday evening and aim for Tuesday to Saturday.",
+      },
+      {
+        heading: "Getting around without a car, and cycling to the island",
+        body: "La Rochelle was a pioneer of self-service bikes and electric cars, and it shows. The Yélo network covers urban buses, the sea bus that crosses the Vieux Port in five minutes, the summer ferry to the Minimes, yellow hire bikes and electric cars. Buses run until roughly 10pm on weekdays, which is enough for a trip based in the centre where the evening happens on foot. Cycling is the real strength: the town is flat, with a long-established cycle network, and the Île de Ré is about an hour away over the bridge on a dedicated cycle path, which makes a day on the island possible without a car. The station is five minutes on foot from the historic centre, so arriving from Paris, two and a half hours on the TGV, is immediate. The local airport is served by bus.",
+      },
+      {
+        heading: "The single supplement, and how to get around it",
+        body: "La Rochelle is more affordable for a solo trip than its reputation suggests, as long as you avoid July and August, essentially because the hotel trade is not built exclusively around couples and because short-let studio stock grew with student demand. Three moves work. Compare a furnished studio with a hotel as soon as you are staying two nights or more, since studios in the centre and Saint-Nicolas are priced by floor area, which puts one person on a couple's rate and usually beats a central single room. Avoid July, August and the Francofolies weekend in mid-July specifically, when hotel rates can double or triple and studios are booked months ahead. And look at the modern hostels in the centre for private rooms at softer rates, with common areas that make meeting people easy. The station area also has business hotels with weekday rates built around solo travellers. No prices are printed here, because they move too fast.",
+      },
+      {
+        heading: "When to go: the off-season is the point",
+        body: "The counter-intuitive answer is worth stating plainly: the best window for a solo trip to La Rochelle is not summer. It is September to mid-November, and March to June. The university year restarts, the Sirène and Coursive seasons with it, terraces are still open in September and again from April, the atmosphere is properly local, and hotel rates are much softer. July and August are ambivalent: the town fills with holidaymakers, residents leave, rates spike and local energy thins out, with the exception of the Francofolies in mid-July, which bring real cultural intensity. Winter, unlike most seaside towns, keeps ticking over on the back of students and residents; a few addresses close but the centre stays alive. Avoid the first half of January, and avoid Monday and Sunday evenings. Outside summer, Tuesday to Thursday are the densest nights for local life.",
+      },
+    ],
+    relatedCities: ["la-rochelle"],
+    tags: [
+      "solo travel",
+      "solo travel la rochelle",
+      "travelling alone in france",
+      "single supplement",
+      "vieux port la rochelle",
+      "nouvelle-aquitaine",
+    ],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

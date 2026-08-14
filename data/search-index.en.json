@@ -3060,6 +3060,41 @@
       "slug": "solo-travel-in-nantes-2026",
       "title": "Solo travel in Nantes: Bouffay, the Île de Nantes and a midweek scene",
       "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-rennes-2026",
+      "title": "Solo travel in Rennes: a student city that still goes out on a Tuesday",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-bayonne-2026",
+      "title": "Solo travel in Bayonne: pintxos, Petit Bayonne and a counter you can walk into",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-aix-en-provence-2026",
+      "title": "Solo travel in Aix-en-Provence: a postcard town that is also a student town",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-angers-2026",
+      "title": "Solo travel in Angers: the most underrated small city in France for going out alone",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-grenoble-2026",
+      "title": "Solo travel in Grenoble: a big student city with mountains at the end of the tram line",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-dijon-2026",
+      "title": "Solo travel in Dijon: a UNESCO centre you can cross on foot, and wine bars that take one",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-la-rochelle-2026",
+      "title": "Solo travel in La Rochelle: the one French port town that still works off-season",
+      "emoji": "🍸"
     }
   ],
   "tags": [
@@ -3096,7 +3131,7 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 30
+      "count": 32
     },
     {
       "slug": "grand-est",
@@ -3131,7 +3166,7 @@
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 21
+      "count": 22
     },
     {
       "slug": "expat-single-parent",
@@ -3149,13 +3184,18 @@
       "count": 17
     },
     {
+      "slug": "pays-de-la-loire",
+      "label": "pays de la loire",
+      "count": 17
+    },
+    {
       "slug": "provence",
       "label": "provence",
       "count": 17
     },
     {
-      "slug": "pays-de-la-loire",
-      "label": "pays de la loire",
+      "slug": "provence-alpes-cote-d-azur",
+      "label": "provence-alpes-cote-d-azur",
       "count": 16
     },
     {
@@ -3174,11 +3214,6 @@
       "count": 15
     },
     {
-      "slug": "provence-alpes-cote-d-azur",
-      "label": "provence-alpes-cote-d-azur",
-      "count": 15
-    },
-    {
       "slug": "public-transport",
       "label": "public transport",
       "count": 15
@@ -3186,6 +3221,21 @@
     {
       "slug": "relocation",
       "label": "relocation",
+      "count": 15
+    },
+    {
+      "slug": "single-supplement",
+      "label": "single supplement",
+      "count": 15
+    },
+    {
+      "slug": "solo-travel",
+      "label": "solo travel",
+      "count": 15
+    },
+    {
+      "slug": "travelling-alone-in-france",
+      "label": "travelling alone in france",
       "count": 15
     },
     {
@@ -3206,7 +3256,7 @@
     {
       "slug": "bretagne",
       "label": "bretagne",
-      "count": 9
+      "count": 10
     },
     {
       "slug": "burgundy",
@@ -3239,19 +3289,9 @@
       "count": 8
     },
     {
-      "slug": "single-supplement",
-      "label": "single supplement",
-      "count": 8
-    },
-    {
-      "slug": "solo-travel",
-      "label": "solo travel",
-      "count": 8
-    },
-    {
-      "slug": "travelling-alone-in-france",
-      "label": "travelling alone in france",
-      "count": 8
+      "slug": "bourgogne-franche-comte",
+      "label": "bourgogne-franche-comte",
+      "count": 7
     },
     {
       "slug": "centre-val-de-loire",
@@ -3266,11 +3306,6 @@
     {
       "slug": "bordeaux",
       "label": "bordeaux",
-      "count": 6
-    },
-    {
-      "slug": "bourgogne-franche-comte",
-      "label": "bourgogne-franche-comte",
       "count": 6
     },
     {

@@ -1361,6 +1361,67 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ---
 
+## Shipped 2026-08-14
+
+- **Parité EN — série `solo-travel-in-[city]-2026` FERMÉE (batch 2, +7 : Rennes, Bayonne,
+  Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle)** ✅ — Les 7 villes laissées par le
+  batch 1 du 13/08 sont écrites, la série passe à **15 EN pour 15 FR** : la série FR
+  `vacances-celibataire-[ville]-2026` n'a plus aucune jumelle manquante, et elle sort de la
+  liste des séries FR sans miroir EN. **`EN_GUIDES` 612 → 619.**
+
+  **Le run a commencé par la mesure**, comme prévu : `npm run parity` d'abord (code 0,
+  217 routes FR / 165 EN, aucune route FR sans jumelle — la parité de routes tient depuis le
+  09/08 et n'a pas régressé), puis le diff réel des deux séries, qui donnait 15 FR / 8 EN.
+  L'ordre du batch 2 suit celui annoncé par le batch 1, sans arbitrage nouveau à faire.
+
+  **Écrit en anglais natif depuis les faits des guides FR, aucun chiffre qui n'y soit** :
+  effectifs étudiants (60 000 à Rennes et Grenoble, 40 000 à Aix et Angers, 30 000 à Dijon,
+  15 000 à La Rochelle), temps de TGV, horaires de fin de service des trams et métros, temps de
+  TER, noms de salles et de quartiers viennent tous du guide FR correspondant. **Aucun score
+  n'est cité**, comme au batch 1 : les guides FR d'Aix, d'Angers, de Grenoble, de Dijon et de
+  La Rochelle en citent (« score culture 8,4/10 », « transport 8,1/10 »), et les recopier côté
+  EN ajouterait une surface de plus à garder synchronisée avec la valeur rendue pour un bénéfice
+  de lecture nul — la qualité décrite passe par la prose. `metaTitle` 45-52 caractères,
+  `metaDesc` 143-159, 6 sections par guide (même découpage que le FR), zéro tiret cadratin dans
+  le corps (R7.10).
+
+  **Un fait du FR volontairement non repris** : le guide FR d'Aix nomme un café historique du
+  Cours Mirabeau avec la mention « à vérifier après restauration ». Un nom d'établissement
+  assorti d'un doute est utile à un lecteur français qui connaît l'adresse ; sur le domaine EN
+  il deviendrait une recommandation à un lecteur qui ne peut pas la vérifier. La phrase EN parle
+  de cafés historiques sans nommer. Même logique que les tarifs hôteliers, absents des 15 guides
+  de la série des deux côtés, chacun disant pourquoi.
+
+  **Quatre apports propres au lecteur anglophone**, absents du FR parce qu'inutiles à un lecteur
+  français : la glose du **pintxo** à Bayonne (petite bouchée basque posée sur le comptoir, qu'on
+  se sert debout — le mot seul ne dit rien à un anglophone alors que c'est précisément ce qui
+  rend le dîner solo banal là-bas) ; les usages de comptoir (dire bonjour en entrant avant toute
+  demande à Rennes, le tarif comptoir affiché à part du tarif salle à Bayonne) ; l'avertissement
+  **gare Aix-en-Provence TGV à quinze kilomètres du centre**, placé deux fois, dans la section
+  hébergement et dans la section transports, parce qu'un voyageur étranger qui réserve « près de
+  la gare » depuis l'étranger ne peut pas le deviner ; et la reformulation de l'accès à l'**île
+  de Ré**, que le FR donne en « cinquante kilomètres pour rejoindre l'île en une heure par le
+  pont » — l'EN garde l'heure de vélo et la piste cyclable dédiée, et laisse tomber le
+  kilométrage, ambigu dans la source.
+
+  **Aucun tag nouveau créé**, contrairement au batch 1 : les trois tags de série (`solo travel`,
+  `travelling alone in france`, `single supplement`) existaient déjà et passent de 8 à 15 guides,
+  les tags de ville (`solo travel rennes`…) restent à une occurrence donc sous le seuil de 3 de
+  `lib/guide-tags-en.ts`, et les tags de région réutilisent les slugs existants (`bretagne`,
+  `nouvelle-aquitaine` ×2, `provence-alpes-cote-d-azur`, `pays-de-la-loire`,
+  `auvergne-rhone-alpes`, `bourgogne-franche-comte`). Le compte de tags EN reste donc à **82**,
+  et aucune page `/tags/[slug]` n'est créée. `npm run search-index` relancé
+  (`data/search-index.en.json` 619 guides, 82 tags), sans quoi `search-index:check` échoue.
+
+  Contrôles : `npx tsc --noEmit` propre, `npm run integrity` propre (946 FR / 619 EN, 0 score
+  brut recopié des deux côtés), `npm run search-index:check` propre, `npm run sitemap:check`
+  propre dans les deux sens (29 010 URL FR / 28 478 EN, soit +7 côté EN et rien de bougé côté
+  FR), `npm run parity` en code 0. **Prochain run** : la série est close, donc reprendre la tête
+  de la liste des séries FR sans miroir EN, à re-mesurer avant de choisir — ne pas la réciter de
+  mémoire.
+
+---
+
 ## Shipped 2026-08-13
 
 - **Parité EN — ouverture de la série `solo-travel-in-[city]-2026` (batch 1, +8 : Paris, Lyon,
