@@ -35,7 +35,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!country) return {};
   return {
     title: `Rentrer en France depuis ${country.name} 2026 · Guide pratique`,
-    description: `Salaire net, loyer, fiscalité, santé, admin : ce qui change vraiment quand on rentre en France depuis ${country.name}. Avec villes recommandées (frontalières + métropoles).`,
+    // ≤ 160 caractères sur les 20 fiches (138-152). L'ancienne rédaction montait
+    // à 176 pour « Émirats arabes unis » et dépassait sur les 20 : la queue
+    // générique « Avec villes recommandées (frontalières + métropoles). »
+    // poussait hors du snippet les postes que le lecteur vient chercher.
+    description: `Salaire net, loyer, fiscalité, santé, retraite : ce qui change vraiment quand on rentre en France depuis ${country.name}, et les villes où atterrir.`,
     alternates: { canonical: `/expat-retour/${pays}` },
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine

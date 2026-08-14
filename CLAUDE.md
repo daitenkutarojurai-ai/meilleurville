@@ -605,7 +605,39 @@ les montants réglementaires seulement, et rien qui ne soit sourçable.
 Une fiche par pays de départ, données inline (`EXPAT_COUNTRIES`), rendues par
 `app/expat-retour/[pays]/page.tsx` (URL `/expat-retour/depuis-<slug>`). Ajouter une entrée au
 tableau suffit : `generateStaticParams`, le hub et le sitemap en dérivent tous les trois.
-**Compteur mesuré (`grep -c '^    slug: "'`) : 19 pays** (2026-08-05). Dernier ajouté : **Suède** —
+**Compteur mesuré (`grep -c '^    slug: "'`) : 20 pays** (2026-08-14). Dernier ajouté : **Chine** —
+le seul dossier du site où la difficulté n'est ni fiscale ni culturelle mais **mécanique** : faire
+sortir ses droits et son argent. Trois points vérifiés en ligne, et qui portent la fiche : ① **aucune
+convention de sécurité sociale n'est en vigueur** entre la France et la Chine — signée le 31/10/2016,
+arrangement administratif le 16/09/2019, avenant en 09/2023 après objection du Conseil d'État sur le
+champ territorial, **jamais ratifiée** — donc les années chinoises valent **zéro trimestre français**
+hors cotisation volontaire à la CFE, et il n'existe **ni S1 ni carte européenne** (d'où le trou de
+couverture de 3 mois si le retour se fait sans emploi : PUMa sur critère de résidence, 2-3 mois
+d'instruction) ; ② le yuan n'est pas librement convertible — quota annuel d'achat de devises plafonné
+à **50 000 USD par personne**, réservé aux dépenses personnelles, contrôle bancaire renforcé au
+**1ᵉʳ janvier 2026** au-delà de 5 000 CNY / 1 000 USD — donc l'épargne se rapatrie sur des années ;
+③ le régime d'exonération d'IIT sur **huit catégories d'avantages en nature** (logement, scolarité…)
+court jusqu'au **31/12/2027** et n'est pas cumulable avec les déductions additionnelles, si bien que
+comparer un net chinois à un net français n'a pas de sens tant que le logement et l'école ne sont pas
+réintégrés. Autres faits sourcés : règle des six ans (183 j/an, remise à zéro par une absence de plus
+de 30 jours consécutifs, 2025 premier exercice où l'imposition mondiale peut se déclencher), accord
+fiscal du 26/11/2013 en vigueur depuis le 28/12/2014, remboursement du seul **compte individuel** de
+retraite au départ (part patronale mutualisée perdue, 15 ans pour ouvrir un droit).
+⚠️ **Deux réflexes à ne pas appliquer ici.** Le permis chinois **s'échange** en France sans examen —
+accord de reconnaissance réciproque signé le 23/11/2018, **en vigueur depuis le 17/08/2021**, pour les
+permis délivrés à compter du 1ᵉʳ avril 2008 : l'intuition « hors UE donc pas d'échange » est fausse et
+avait été écrite avant vérification. Et l'animal demande **quatre mois** et non « presque rien » comme
+sur les retours intra-UE : la Chine est un **pays tiers non listé**, donc titrage sérologique ≥ 0,5 UI/ml
+en laboratoire agréé UE sur un prélèvement fait ≥ 30 jours après vaccination, **puis 3 mois d'attente**
+courant depuis la prise de sang. Les 10 `bestSuitedCities` sont vérifiées dans `CITIES_SEED` et les
+20 chiffres français cités (T3 : Grenoble 1 020 € … Paris 2 800 € ; prix/m² : Grenoble 3 200 € …
+Paris 10 500 €) sont contrôlés un à un contre `data/housing.ts`. Aucune page EN : `chine` n'est pas
+dans `EN_EXPAT_COUNTRY_SLUGS`, donc pas de hreflang à câbler.
+⚠️ La **meta description** de `app/expat-retour/[pays]/page.tsx` dépassait 160 caractères sur **les 20
+fiches** (jusqu'à 176 pour « Émirats arabes unis ») : la queue générique « Avec villes recommandées
+(frontalières + métropoles). » poussait hors du snippet les postes réellement cherchés. Réécrite,
+138-152 caractères sur les 20 — ne pas y remettre de queue générique.
+Avant-dernier ajouté : **Suède** —
 premier pays nordique de la liste, et le seul dossier du site où **le retour est fiscalement
 neutre** (kommunalskatt à taux plat ~29-35 % + 20 % d'État au-delà d'environ 600-625 k SEK, à peu
 près la fourchette effective française). Le choc est ailleurs, et dans les deux sens : gain sur le
