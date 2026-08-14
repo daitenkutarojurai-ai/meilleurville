@@ -35,3 +35,4 @@ Les données factuelles (chiffres, scores, noms) ne sont jamais modifiées.
 - 2026-08-05 data/guides.ts :: 10-choses-a-faire-a-libourne-2026
 - 2026-08-07 data/guides.ts :: 10-choses-a-faire-a-annonay-2026
 - 2026-08-12 data/guides.ts :: travail-a-aix-en-provence-2026
+- 2026-08-14 data/guides.ts :: partir-en-vacances-seul-avec-ses-enfants-2026
