@@ -153,6 +153,20 @@ function tempAvgForMonth(city: CityLight, month: MonthIndex): number {
 }
 
 // ─── Affluence touristique ────────────────────────────────────────────────
+//
+// ⚠️ **`crowded` compare des villes à un mois donné, jamais des mois entre
+// eux.** La valeur est `base + mod` : `base` dépend du type de destination,
+// `mod` **uniquement du mois** et à l'identique partout (hors stations de ski
+// en hiver). L'écart d'un mois à l'autre est donc le même pour toutes les
+// villes — août − novembre vaut 2 de Saint-Tropez à Paris — et un classement
+// trié sur cet écart est un no-op silencieux. C'est exactement le bug qu'avait
+// la section « anti-station-fantôme » de /vacances/profil/celibataire jusqu'au
+// 2026-08-15 : elle croyait mesurer la saisonnalité et ne mesurait rien, tout
+// en admettant les communes balnéaires qu'elle prétendait écarter.
+//
+// Pour « cette ville vit-elle hors saison ? », utiliser une mesure de
+// population résidente (`lib/city-population.ts` — part des 15-29 ans, part
+// des 60 ans et plus), pas `crowded`.
 
 function crowdednessForMonth(city: CityLight, month: MonthIndex): 1 | 2 | 3 | 4 | 5 {
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();

@@ -16,7 +16,7 @@ Demande utilisateur directe. F58 / F60 / F61 livrées le jour même ; **F59 livr
 | F58 | City Match — profil « parent solo » | P1 | S | mid | ✅ shipped 2026-07-22 · sous-page `/villes/[slug]/parent-solo` ×540 + hub `/parent-solo` + miroir EN `/single-parent` + `/cities/[slug]/single-parent` ×540 shipped 2026-07-25→28 · série guides `parent-solo-a-[ville]-2026` batch 1 (+10) shipped 2026-07-24, batch 2 (+10 : Rennes, Nancy, Angers, Grenoble, Dijon, Metz, Reims, Aix-en-Provence, Rouen, Toulon) shipped 2026-08-07 · miroir EN de la série `single-parent-in-[city]-2026` batch 1 (+10 : Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux, Lille) shipped 2026-08-09, batch 2 (+10) shipped 2026-08-11 — **parité FR/EN atteinte à 20/20** · **batch 3 FR (+9 : Villeurbanne, Besançon, Caen, Brest, Tours, Limoges, Clermont-Ferrand, Saint-Étienne, Le Havre) shipped 2026-08-14** — FR 29, EN 20, écart 9, **le prochain run parent-solo doit être le miroir EN** |
 | F59 | **Parcs & espaces verts par ville** (pipeline OSM + sub-page ×540) | **P0** | **L** | **high** | ✅ shipped 2026-07-27 |
 | F60 | `/departements` — finder par n° / nom / ville + carte cliquable | P1 | S | low | ✅ shipped 2026-07-22 · carte cliquable 2026-07-23 |
-| F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 · série guides `vacances-celibataire-[ville]-2026` batch 1 (+8) shipped 2026-08-01 · série `vacances-monoparentales-[ville]-2026` batch 1 (+7) shipped 2026-08-05 · `vacances-celibataire-[ville]-2026` batch 2 (+7 : Toulouse, Lille, Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle) shipped 2026-08-08 · croisement mois × profil `/vacances/ou-partir/[combo]` (12 × 7 = 84 pages SSG) shipped 2026-08-12 · miroir EN de la série célibataire, `solo-travel-in-[city]-2026` batch 1 (+8 : Paris, Lyon, Bordeaux, Lille, Strasbourg, Toulouse, Montpellier, Nantes) shipped 2026-08-13 |
+| F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 · série guides `vacances-celibataire-[ville]-2026` batch 1 (+8) shipped 2026-08-01 · série `vacances-monoparentales-[ville]-2026` batch 1 (+7) shipped 2026-08-05 · `vacances-celibataire-[ville]-2026` batch 2 (+7 : Toulouse, Lille, Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle) shipped 2026-08-08 · croisement mois × profil `/vacances/ou-partir/[combo]` (12 × 7 = 84 pages SSG) shipped 2026-08-12 · miroir EN de la série célibataire, `solo-travel-in-[city]-2026` batch 1 (+8 : Paris, Lyon, Bordeaux, Lille, Strasbourg, Toulouse, Montpellier, Nantes) shipped 2026-08-13 · série EN fermée (batch 2, +7) 2026-08-14 · guide pilier `partir-en-vacances-seul-2026` + correction de l'anti-station-fantôme (part réelle des 15-29 ans Insee au lieu d'un écart d'affluence constant) shipped 2026-08-15 |
 
 ### F58 — série `parent-solo-a-[ville]-2026`, batch 3 (2026-08-14)
 
@@ -1412,6 +1412,84 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 ---
 
 ## Shipped 2026-08-15
+
+- **Série F61 — guide pilier `partir-en-vacances-seul-2026`, et correction de la mesure sur
+  laquelle il s'appuie** ✅ — Le pilier célibataire était le gap éditorial signalé par les batches 1
+  et 2 de la série (le pendant mono, `partir-en-vacances-seul-avec-ses-enfants-2026`, existait
+  depuis le 29/07). Il est livré, **mais le run a commencé par découvrir que la section du site
+  qu'il devait citer ne mesurait rien.**
+
+  **Le bug : l'anti-station-fantôme classait sur une valeur constante.** La section 1 de
+  `/vacances/profil/celibataire` triait les villes sur l'écart d'affluence août − novembre de
+  `monthSignal`. Or `crowdednessForMonth` vaut `base + mod` où `mod` **ne dépend que du mois** et
+  à l'identique pour toutes les villes (+2 en août, −0,5 en novembre) : l'écart vaut **2 partout**,
+  de Saint-Tropez à Paris, et le tri sur cette valeur était un no-op silencieux. Pire, la condition
+  d'entrée « novembre ≥ 2/5 » ne retenait que les villes à base élevée, c'est-à-dire notamment les
+  communes balnéaires : **la section admettait exactement ce qu'elle promettait d'écarter.** Les
+  Sables-d'Olonne y sortait 3ᵉ (48,7 % de résidents de 60 ans et plus, 11,3 % de 15-29 ans), avec
+  Saint-Malo 7ᵉ. La légende affichée était fausse dans les deux sens : « un écart ≤ 1 indique une
+  ville qui tourne toute l'année » (aucune ville n'atteint 1) et « une station balnéaire passe de 4
+  à 1, elle est exclue d'office » (elle passe de 4 à 2, et elle est retenue).
+
+  **Le remède : une mesure réelle à la place d'un signal qualitatif.** La part des **15-29 ans dans
+  la population résidente**, recensement Insee 2022 (`lib/city-population.ts`, 538/540 villes).
+  C'est le meilleur proxy disponible de vie permanente, et le raisonnement est direct : les bars et
+  les salles d'un mardi soir de novembre tournent grâce à des gens qui habitent la ville à l'année,
+  pas grâce aux vacanciers. La séparation est nette et n'a pas eu besoin d'être calibrée — Rennes
+  34,1 %, Angers 31,4 %, Bordeaux 29,8 %, Nantes 28,7 %, Strasbourg 28,5 %, Aix 26,5 %, La Rochelle
+  23,4 %, Albi 22,2 % face à Arcachon 8,7 %, Royan 9,5 %, La Baule 10,2 %, Dinard 11,9 %. Seuil à
+  **20 %** (médiane nationale 18,4 %, 3ᵉ quartile 20,8 %), plancher population Insee 40 000, `life`
+  ≥ 7,0 et `culture` ≥ 6,5 conservés. La part des **60 ans et plus est affichée en regard**, sans
+  jugement : une commune où vivent beaucoup de retraités n'est pas une mauvaise commune, elle est
+  mal appariée à un séjour dont l'unité est la sortie du soir — cadrage repris tel quel dans le
+  guide, ne pas le durcir. Effet secondaire heureux : **La Rochelle est désormais justifiée par une
+  mesure** au lieu de l'être par un pari éditorial, ce que le batch 2 avançait sans preuve.
+  ⚠️ Garde-fou posé **dans `lib/vacation-seasons.ts`** au-dessus de `crowdednessForMonth` :
+  `crowded` compare des villes à un mois donné, **jamais des mois entre eux**. Tout futur
+  consommateur qui trierait sur un écart mensuel retomberait dans le même trou.
+
+  **Deux seuils affichés ne correspondaient pas au code** dans la section 3 de la même page
+  (« coût ≥ 5,5 » et « population ≥ 80 000 » alors que le filtre applique 5,0 et 60 000) : corrigés
+  sur la légende, pas sur le code, le filtre étant celui qu'on veut.
+
+  **Le guide** (`category: "lifestyle"`, emoji 🍸, 9 sections, 2 443 mots, `metaTitle` 55 car.,
+  `metaDesc` 141, **zéro tiret cadratin dans le corps** — R7.10, densité d'accents 0,16 pour un
+  seuil de détection ascii-strip à 0,09). Angle : les deux seuls vrais problèmes du voyage en
+  solitaire, l'arithmétique de la chambre et le calendrier. ① Le **supplément single n'est pas une
+  surtaxe mais une soustraction** : un hôtel vend une chambre, un prix « par personne base double »
+  suppose que quelqu'un paie l'autre moitié, et la démonstration est arithmétique, sans pourcentage
+  inventé — ce qui varie entre destinations n'est donc **pas** le supplément (il vaut la moitié de
+  la chambre partout) mais la disponibilité de formats tarifés à la personne ou à la surface.
+  ② Les villes qui vivent toute l'année, avec la mesure Insee ci-dessus. ③ Le piège inverse, stations
+  chiffrées, avec la limite honnête que le recensement ne voit pas les résidences secondaires (qui
+  jouent dans le même sens, étant vides en novembre). ④ **L'angle mort assumé du classement** : Lille
+  36,8 %, Nancy 36,4 %, Rouen 33,4 %, Caen 33,3 %, Toulouse 32,6 % dominent la mesure démographique
+  mais sortent de la grille sur le score `life` (Lille 5,7) — le guide dit que si le critère est
+  strictement la certitude de trouver du monde un mardi de février, la part des 15-29 ans bat le
+  classement composite. Un classement pondéré répond à une question moyenne, pas à celle du lecteur.
+  ⑤ Train + desserte tardive, avec **deux tensions signalées plutôt que masquées** : Aix bien classée
+  hors saison mais transport 6,1 et gare TGV excentrée (ça marche parce que le centre est compact,
+  pas parce que le réseau est bon), Albi 8ᵉ sur les 15-29 ans mais ni TGV ni tram, transport 5,5.
+  ⑥ **Le calendrier universitaire plutôt que le calendrier touristique** : les deux cycles qui font
+  vivre ces villes (année universitaire, saison culturelle) se vident en juillet-août au moment
+  précis où l'hébergement coûte le plus cher. ⑦ Distinction `solo` / `celibataire` explicitée une
+  dernière fois, avec la phrase qui borne la promesse : un classement peut mesurer une densité de
+  bars et une population résidente jeune, il ne peut **rien** mesurer de ce qui s'y passe.
+
+  **Zéro chiffre inventé, aucun tarif hôtelier.** Tous les scores sont lus **à travers les modules**
+  (`npx tsx` important `@/lib/cities-light`, `@/lib/vacation-fit`, `@/lib/city-population`,
+  `@/lib/transit`, `@/lib/vacation-seasons`), jamais par grep du seed. Températures = normales
+  Météo-France via `monthSignal` (Aix 11,7 °C en novembre contre Strasbourg 6,3 °C). `relatedCities`
+  et les 5 `relatedGuides` vérifiés présents. `GUIDES` 956 → 957, `npm run search-index` relancé
+  (957 guides, 240 tags), `search-index:check`, `npx tsc --noEmit`, `npm run integrity` et
+  `npm run sitemap:check` (29 022 URL FR) propres.
+
+  **Restent ouverts sur la verticale** : batch 3 de la série par ville (les candidats des rangs
+  suivants sont à trier sévèrement, plusieurs sont des banlieues franciliennes ou des stations que
+  la mesure 15-29 disqualifie maintenant explicitement — la retenir comme critère de sélection) ;
+  **miroir EN du pilier**, la série `solo-travel-in-[city]-2026` étant fermée à 15/15 mais sans
+  guide pilier `travelling-solo-in-france-2026` ; et un passage en revue des autres surfaces qui
+  consomment `crowded` pour vérifier qu'aucune ne le lit comme un signal de saisonnalité.
 
 - **R13.2 Palmarès mensuel — édition d'octobre 2026 : le taux d'effort logement réel** ✅ —
   Quatrième édition de la série mensuelle, guide `palmares-octobre-2026-taux-effort-logement`

@@ -8,7 +8,12 @@ import {
   BUDGET_TIER_LABEL,
 } from "@/lib/vacation-fit";
 import { getTransit, transitTags } from "@/lib/transit";
-import { monthSignal, type MonthIndex } from "@/lib/vacation-seasons";
+import {
+  cityPopulation,
+  seniorShare,
+  INSEE_POP_CREDIT,
+  INSEE_POP_YEAR,
+} from "@/lib/city-population";
 
 // Sections propres au voyage en célibataire — la distinction avec « solo »
 // (voyager seul·e, où sécurité et calme priment) tient ici :
@@ -38,55 +43,84 @@ function celibPool() {
 
 // ─── Section 1 : vivant hors saison ──────────────────────────────────────
 //
-// Le vrai piège du séjour célibataire est la station qui vit deux mois par
-// an. On croise trois signaux qui, ensemble, écartent les destinations
-// purement estivales :
+// Le vrai piège du séjour célibataire est la station qui vit deux mois par an.
+//
+// ⚠️ Cette section a longtemps classé sur l'écart d'affluence août − novembre
+// de `monthSignal`. **Cet écart ne discrimine rien** : la modulation mensuelle
+// de `crowdednessForMonth` est la même pour toutes les villes (+2 en août,
+// −0,5 en novembre), seul le niveau de base dépend de la destination. L'écart
+// vaut donc 2 partout, de Saint-Tropez à Paris, et le tri sur cette valeur
+// était un no-op. Pire, la condition « novembre ≥ 2/5 » ne retenait que les
+// villes dont la base est élevée — c'est-à-dire, entre autres, les communes
+// balnéaires : la section admettait exactement ce qu'elle promettait d'écarter
+// (Les Sables-d'Olonne y sortait 3ᵉ, avec 48,7 % de résidents de 60 ans et
+// plus). Ne pas réintroduire `crowded` ici.
+//
+// Ce qui est mesuré à la place : la **part réelle des 15-29 ans** dans la
+// population résidente, recensement Insee 2022 via `lib/city-population.ts`.
+// C'est le meilleur signal disponible de vie permanente — étudiants et jeunes
+// actifs sont la population qui fait tourner les bars et les salles un mardi
+// soir de novembre, et elle habite la ville toute l'année par définition. La
+// séparation est nette : Rennes 34,1 %, Angers 31,4 %, Bordeaux 29,8 % face à
+// Royan 9,5 %, La Baule 10,2 %, Dinard 11,9 %. Médiane nationale 18,4 %.
+//
+// Filtres retenus, tous adossés à une mesure ou à un score rendu :
 //   - `life` du seed (bars, restos, animation permanente) ≥ 7.0
 //   - `culture` ≥ 6.5 (scène culturelle qui tourne toute l'année)
-//   - Novembre pas mort : soit l'affluence estimée reste ≥ 2/5 (ville
-//     mixte tourisme+permanent), soit la population dépasse 100 000 hab.
-//     (métropole dont l'économie ne dépend plus des vacanciers). On
-//     complète par un plancher pop ≥ 40 000 : en-dessous, même une ville
-//     sympa perd sa scène de sortie un mardi soir d'octobre.
-// L'écart d'affluence août − novembre reste affiché pour information : plus
-// il est petit, plus la ville tourne à l'identique hors saison.
+//   - part des 15-29 ans ≥ 20 % (au-dessus du 3ᵉ quartile national, 20,8 %)
+//   - population Insee ≥ 40 000 : en-dessous, même une ville sympa perd sa
+//     scène de sortie un mardi soir d'octobre.
+// La part des 60 ans et plus est affichée en regard, sans jugement : une ville
+// de retraités n'est pas une mauvaise ville, elle est mal appariée à ce
+// séjour-là.
+
+const YOUTH_SHARE_FLOOR = 20;
+const RESIDENT_POP_FLOOR = 40_000;
+
+/** Part des 15-29 ans dans la population résidente (%), Insee 2022. */
+function youngAdultShare(slug: string): number | null {
+  const rec = cityPopulation(slug);
+  if (!rec) return null;
+  return Number(((rec.ages.a1529 / rec.pop2022) * 100).toFixed(1));
+}
 
 interface OffSeasonPick {
   city: CityLight;
   score: number;
   lifeScore: number;
-  crowdedAug: number;
-  crowdedNov: number;
-  seasonalityDelta: number;
+  youngShare: number;
+  seniors: number | null;
+  residents: number;
 }
 
 function offSeasonAlivePicks(): OffSeasonPick[] {
   return celibPool()
     .map(({ city, fit }) => {
-      const aug = monthSignal(city, 8);
-      const nov = monthSignal(city, 11);
+      const rec = cityPopulation(city.slug);
+      const young = youngAdultShare(city.slug);
+      if (!rec || young === null) return null;
       return {
         city,
         score: fit.score,
         lifeScore: city.scores.life,
         culture: city.scores.culture,
-        crowdedAug: aug.crowded,
-        crowdedNov: nov.crowded,
-        seasonalityDelta: aug.crowded - nov.crowded,
-        pop: city.population ?? 0,
+        youngShare: young,
+        seniors: seniorShare(city.slug),
+        residents: rec.pop2022,
       };
     })
+    .filter((p): p is NonNullable<typeof p> => p !== null)
     .filter(
       (p) =>
-        p.pop >= 40_000 &&
+        p.residents >= RESIDENT_POP_FLOOR &&
         p.lifeScore >= 7.0 &&
         p.culture >= 6.5 &&
-        (p.crowdedNov >= 2 || p.pop >= 100_000),
+        p.youngShare >= YOUTH_SHARE_FLOOR,
     )
     .sort(
       (a, b) =>
+        b.youngShare - a.youngShare ||
         b.lifeScore - a.lifeScore ||
-        a.seasonalityDelta - b.seasonalityDelta ||
         b.score - a.score,
     )
     .slice(0, 12);
@@ -227,21 +261,21 @@ export function CelibataireExtras() {
       <Section
         emoji={<CalendarClock className="h-6 w-6" />}
         title="Villes vivantes hors saison — l'anti-station-fantôme"
-        intro="Score de vie ≥ 7 et faible écart de fréquentation entre août et novembre : la ville n'a pas besoin des vacanciers pour faire tourner ses bars, ses restos et sa scène culturelle. Un séjour de novembre y ressemble à un séjour de juin, pas à un dimanche soir dans une station fermée."
+        intro="Score de vie ≥ 7 et au moins un résident sur cinq âgé de 15 à 29 ans : la ville n'a pas besoin des vacanciers pour faire tourner ses bars, ses restos et sa scène culturelle, parce que la population qui les fait tourner y habite à l'année. Un séjour de novembre y ressemble à un séjour de juin, pas à un dimanche soir dans une station fermée."
       >
         <div className="overflow-x-auto -mx-4 sm:mx-0 px-4 sm:px-0">
-          <table className="w-full text-sm min-w-[520px]">
+          <table className="w-full text-sm min-w-[560px]">
             <thead>
               <tr className="border-b border-[var(--border)] text-left text-[var(--text-tertiary)] text-xs uppercase tracking-wide">
                 <th className="py-2 pr-3">Ville</th>
                 <th className="py-2 pr-3 text-right">Vie</th>
-                <th className="py-2 pr-3 text-right">Août</th>
-                <th className="py-2 pr-3 text-right">Nov.</th>
+                <th className="py-2 pr-3 text-right">15-29 ans</th>
+                <th className="py-2 pr-3 text-right">60 ans +</th>
                 <th className="py-2 text-right">Fit</th>
               </tr>
             </thead>
             <tbody>
-              {offSeason.map(({ city, lifeScore, crowdedAug, crowdedNov, score }) => (
+              {offSeason.map(({ city, lifeScore, youngShare, seniors, score }) => (
                 <tr
                   key={city.slug}
                   className="border-b border-[var(--border)]/50 last:border-0"
@@ -261,10 +295,10 @@ export function CelibataireExtras() {
                     {lifeScore.toFixed(1)}
                   </td>
                   <td className="py-2 pr-3 text-right font-mono-data text-[var(--text-secondary)]">
-                    {crowdedAug}/5
+                    {youngShare.toFixed(1)} %
                   </td>
-                  <td className="py-2 pr-3 text-right font-mono-data text-[var(--text-secondary)]">
-                    {crowdedNov}/5
+                  <td className="py-2 pr-3 text-right font-mono-data text-[var(--text-tertiary)]">
+                    {seniors === null ? "n/a" : `${seniors.toFixed(1)} %`}
                   </td>
                   <td className="py-2 text-right font-mono-data font-bold text-[var(--accent)]">
                     {score.toFixed(1)}
@@ -275,10 +309,16 @@ export function CelibataireExtras() {
           </table>
         </div>
         <p className="mt-3 text-[11px] text-[var(--text-tertiary)] leading-relaxed">
-          Août/nov. = affluence touristique estimée (1 = très calme, 5 =
-          saturé). Un écart ≤ 1 indique une ville dont l'économie tourne toute
-          l'année. Une station balnéaire type passe typiquement de 4 à 1 sur
-          cette période — elle est exclue d'office.
+          Part des 15-29 ans et des 60 ans et plus dans la population
+          résidente ({INSEE_POP_CREDIT}, millésime {INSEE_POP_YEAR}). Seuils :
+          part des 15-29 ans ≥ {YOUTH_SHARE_FLOOR} % (médiane nationale 18,4 %,
+          3ᵉ quartile 20,8 %) · population ≥{" "}
+          {RESIDENT_POP_FLOOR.toLocaleString("fr-FR")} habitants · score de vie
+          ≥ 7 · score culture ≥ 6,5. Les communes balnéaires et thermales
+          sortent sur la première colonne, pas sur un a priori : Royan compte
+          9,5 % de 15-29 ans et 56 % de 60 ans et plus, Dinard 11,9 % et
+          51,2 %. Ce n'est pas un défaut de ces villes, c'est une inadéquation
+          avec un séjour dont l'unité est la sortie du soir.
         </p>
       </Section>
 
@@ -361,9 +401,9 @@ export function CelibataireExtras() {
           ))}
         </div>
         <p className="mt-3 text-[11px] text-[var(--text-tertiary)] leading-relaxed">
-          Proxy : score coût seed (loyer, courses, sortie) ≥ 5,5 · score
+          Proxy : score coût (loyer, courses, sortie) ≥ 5,0 · score
           télétravail ≥ 6,5 (indice indirect du parc de studios et de
-          coliving) · population ≥ 80 000 hab. Villes taggées{" "}
+          coliving) · population ≥ 60 000 hab. Villes taggées{" "}
           <em>premium</em> exclues. Les valeurs ne sont pas des prix de nuit,
           c'est un filtre.
         </p>
