@@ -3140,18 +3140,53 @@
       "slug": "solo-travel-in-la-rochelle-2026",
       "title": "Solo travel in La Rochelle: the one French port town that still works off-season",
       "emoji": "🍸"
+    },
+    {
+      "slug": "things-to-do-in-saint-laurent-du-maroni-2026",
+      "title": "Things to do in Saint-Laurent-du-Maroni: the penal colony and the river",
+      "emoji": "🛶"
+    },
+    {
+      "slug": "things-to-do-in-mamoudzou-2026",
+      "title": "Things to do in Mamoudzou: Mayotte's lagoon, and what Chido left",
+      "emoji": "🐋"
+    },
+    {
+      "slug": "things-to-do-in-le-francois-2026",
+      "title": "Things to do in Le François: the fonds blancs and Habitation Clément",
+      "emoji": "🏝️"
+    },
+    {
+      "slug": "things-to-do-in-le-robert-2026",
+      "title": "Things to do in Le Robert: iguanas, îlets and a sheltered bay",
+      "emoji": "🦎"
+    },
+    {
+      "slug": "things-to-do-in-saint-benoit-reunion-2026",
+      "title": "Things to do in Saint-Benoît: waterfalls on Réunion's windward coast",
+      "emoji": "💦"
+    },
+    {
+      "slug": "things-to-do-in-saint-andre-reunion-2026",
+      "title": "Things to do in Saint-André: Tamil Réunion, sugar and rum",
+      "emoji": "🪔"
+    },
+    {
+      "slug": "things-to-do-in-les-abymes-2026",
+      "title": "Things to do in Les Abymes: the mangrove everyone drives past",
+      "emoji": "🌳"
     }
   ],
   "tags": [
     {
       "slug": "travel",
       "label": "travel",
-      "count": 206
+      "count": 213
     },
     {
       "slug": "city-guide",
       "label": "city guide",
-      "count": 200
+      "count": 207
     },
     {
       "slug": "moving-to-france",
@@ -3379,6 +3414,11 @@
       "count": 6
     },
     {
+      "slug": "reunion",
+      "label": "reunion",
+      "count": 6
+    },
+    {
       "slug": "south-of-france",
       "label": "south-of-france",
       "count": 6
@@ -3446,11 +3486,6 @@
     {
       "slug": "rennes",
       "label": "rennes",
-      "count": 4
-    },
-    {
-      "slug": "reunion",
-      "label": "reunion",
       "count": 4
     },
     {
@@ -3531,6 +3566,11 @@
     {
       "slug": "living-in-france",
       "label": "living in france",
+      "count": 3
+    },
+    {
+      "slug": "martinique",
+      "label": "martinique",
       "count": 3
     },
     {

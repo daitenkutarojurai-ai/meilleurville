@@ -569,6 +569,54 @@ Baie-Mahault (971), Saint-Louis (974), Saint-Joseph (974) — trop peu pour un b
 trois premières sont pauvres en matière touristique vérifiable ; les compléter avec les banlieues de
 province laissées par le batch 28.
 
+**Batch 31 — EN, rattrapage de parité, shipped 2026-08-15.** Les 7 jumelles
+`things-to-do-in-[slug]-2026` du batch 30 écrites d'un coup dans `data/guides-en.ts`
+(Saint-Laurent-du-Maroni, Mamoudzou, Le François, Le Robert, Saint-Benoît 974, Saint-André 974,
+Les Abymes). **Compteurs mesurés : FR 207 (`-a-` strict 202 + 4 en `au-` + 1 en `aux-`), EN 207 —
+écart nul, parité rétablie** (`EN_GUIDES` 628 → 635). C'est le batch qui **achève la couverture EN
+de l'outre-mer** : les cinq territoires DROM ont désormais autant de guides tourisme d'un côté que
+de l'autre, et **Mayotte entre dans le corpus anglais** (le tag `mayotte` est le seul tag nouveau,
+il crée `/tags/mayotte` côté EN — les six autres réutilisent `reunion`, `martinique`, `guadeloupe`,
+`french guiana`). Le nommage annoncé par le batch 30 a été suivi : article conservé sur
+`things-to-do-in-le-francois-2026`, `-le-robert-2026` et `-les-abymes-2026` (comme
+`things-to-do-in-le-tampon-2026`), et **`things-to-do-in-saint-andre-reunion-2026` est désambiguïsé**
+au même titre que `saint-benoit-reunion`, sur le modèle `saint-denis-2026` (93) vs
+`saint-denis-reunion-2026`.
+Écrit en anglais natif depuis les faits des guides FR (aucun chiffre qui n'y soit), `metaTitle`
+41-46 caractères, `metaDesc` 150-157, 8 sections par guide (la série FR en compte 10, la version EN
+fusionne les fins de liste comme les batches EN précédents). `npm run search-index` relancé
+(`data/search-index.en.json` 635 guides, 83 tags) et `npm run sitemap:check` repassé à cause du tag
+neuf — 28 495 URL EN, chaque URL déclarée a une page.
+⚠️ **La contrainte Mamoudzou du batch 30 est reprise telle quelle et ne doit pas être diluée** : le
+cyclone **Chido de décembre 2024** et la reconstruction toujours en cours en 2026 sont dits dans
+l'intro **avant** la première phrase sur le lagon, et la section pratique répète que rien ne se
+réserve la veille, que la ressource en eau reste sous tension et qu'il faut vérifier la situation
+auprès des sources officielles. Les autres prudences du FR sont conservées : baignade en mer
+**interdite hors lagon de la côte ouest et hors bassins surveillés** à La Réunion, **rappelée dans
+les deux guides réunionnais avec la précision qu'il n'y a pas de lagon dans l'est** ; **baignade
+interdite au bassin La Paix**, autorisée au bassin La Mer en amont ; **baignoire de Joséphine**
+donnée comme tradition orale et non comme fait établi ; **cyclone Jenny 1962** comme cause de la
+ruine de l'église de Champ-Borne. Et la convention « **accessible depuis** » plutôt que « situé à »
+tient sur les sites de communes voisines : mont Choungui, presqu'île de la Caravelle, Anse des
+Cascades et Notre-Dame-des-Laves, cascade Niagara et vanille de Bras-Panon, Mémorial ACTe et
+cimetière de Morne-à-l'Eau, Awala-Yalimapo et Javouhey.
+Trois ajouts propres à l'angle voyageur étranger, absents du FR parce qu'inutiles à un lecteur
+français : le fait que le français n'est pas toujours la langue du marché de Mamoudzou (shimaoré et
+kibushi), le rappel qu'un aller-retour à Albina est un **franchissement de frontière
+internationale** dont les formalités se règlent avant d'embarquer et non sur le quai, et la mise en
+garde qu'un opérateur proposant de nager au milieu d'un groupe de baleines vous met **en
+infraction**.
+**Prochain run : batch FR** (l'écart est nul, la série FR reprend la main). Restent 4 villes DROM
+non couvertes des deux côtés — Le Lamentin (972), Baie-Mahault (971), Saint-Joseph (974) et
+Saint-Louis (974), **dont Saint-Louis n'est pas dans `CITIES_SEED`** (vérifié ce run : le slug
+`saint-louis-reunion` n'existe pas, donc la ville ne peut pas avoir de guide tant qu'elle n'est pas
+au seed) : cela ne fait que 3 candidats réels, trop peu pour un batch. Les compléter avec les
+banlieues de province laissées par le batch 28, toutes vérifiées présentes au seed et sans guide :
+**Villenave-d'Ornon, Talence, Le Bouscat** (Bordeaux Métropole) et **Vaulx-en-Velin, Saint-Priest,
+Bron** (Métropole de Lyon). Rappel utile pour Bron : le batch 28 a établi que **l'Espace Albert
+Camus et le fort de la ceinture lyonnaise sont à Bron**, pas à Vénissieux — le guide Bron doit les
+reprendre, et le guide Vénissieux ne doit pas être « corrigé » en sens inverse.
+
 ### Glossaire (`app/glossaire/page.tsx`)
 
 Page unique, données inline (`SECTIONS: {title, emoji, terms[]}`), `DefinedTermSet` JSON-LD généré

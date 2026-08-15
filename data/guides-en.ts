@@ -24996,6 +24996,372 @@ export const EN_GUIDES: EnGuide[] = [
       "nouvelle-aquitaine",
     ],
   },
+  {
+    slug: "things-to-do-in-saint-laurent-du-maroni-2026",
+    title: "Things to do in Saint-Laurent-du-Maroni: the penal colony and the river",
+    metaTitle: "Things to Do in Saint-Laurent-du-Maroni (2026)",
+    metaDesc:
+      "The Camp de la Transportation, red-brick penal architecture, pirogues across to Suriname, upriver trips on the Maroni and leatherbacks at Awala-Yalimapo.",
+    category: "city-guide",
+    emoji: "🛶",
+    readMinutes: 7,
+    publishedAt: "2026-08-15",
+    updatedAt: "2026-08-15",
+    intro:
+      "Saint-Laurent-du-Maroni is the second town of French Guiana, around 50,000 people on the French bank of a river that doubles as the border with Suriname. It was not founded as a port or a trading post: it is a penal-colony town, built from the middle of the 19th century by the convicts themselves, and it still shows — in the grid plan, in the red brick of the official buildings, and in the Camp de la Transportation, which sits in the middle of town rather than out of sight. It was designated a Ville d'art et d'histoire in 2005. The rest of a stay here happens on the river and in the villages of western Guiana, where you can meet Kali'na, Bushinengue, Hmong and Surinamese people in the same day. Reckon on about 250 km of road from Cayenne.",
+    sections: [
+      {
+        heading: "The Camp de la Transportation",
+        body: "This is the visit that justifies the journey. Between 1852 and 1938 some 70,000 convicts were sent to the penal colony of French Guiana, and Saint-Laurent was the receiving camp: this is where they were landed, sorted and where they served disciplinary sentences. The decree-law of 1938 ended transportation, but the prisons did not actually close until after the Second World War. The site is visited with a guide through the tourist office: the disciplinary quarter, individual cells, punishment blocks, and the cell shown as that of Henri Charrière, better known as Papillon. From June to October a night visit runs once a month, by lamp and candle. Book ahead — places are limited.",
+      },
+      {
+        heading: "The red-brick town",
+        body: "The old centre is walkable in a morning, and it hangs together better than Cayenne's because it was laid out in one go. The official buildings — penal administration, hospital, officials' housing — are built of brick fired on the spot from the local red earth, which gives the town its colour, somewhere between colonial style and the creole house with its timber balcony. The camp, the town hall, the old warehouses and the lines of trees along the river form an unusual ensemble: few French towns have kept a complete penal fabric that is still lived in. Many of the buildings remain in use, which makes the walk less museum-like and more honest. Saint-Laurent also made a choice few heritage towns will make, and did not freeze the camp as a closed memorial site: part of the buildings host cultural events, exhibitions and residencies, mixing visual art, music and contemporary Amerindian and Bushinengue work. Ask the tourist office what is on before you come — the programme is real but irregular, and it changes the experience of the site completely.",
+      },
+      {
+        heading: "The river and the crossings to Albina",
+        body: "The Maroni is the region's main street. From the landing, motorised pirogues cross continuously to Albina on the Surinamese bank, and the traffic never stops: trade, family, market, work. Watching that back-and-forth from the bank in the late afternoon is the quickest way to understand how western Guiana works, where the border is a thoroughfare rather than a barrier. Crossing yourself is possible but amounts to an international border crossing: check Suriname's entry requirements well before you step into a pirogue. They are not improvised, and they are not settled on the quay.",
+      },
+      {
+        heading: "Going upriver by pirogue",
+        body: "Saint-Laurent is the departure point for trips upstream, and along with the Îles du Salut it is the most striking excursion in French Guiana. You travel with a boatman, run the sauts — the rapids — and stop at the Bushinengue and Amerindian villages on both banks. Nights are spent in a hammock under a carbet. Depending on the length you choose, itineraries run from a day out to several days into the interior. This is a guided trip by necessity: river levels, running the rapids and access to the villages are not things you decide alone, and respecting the villages' rules of welcome is part of the deal.",
+      },
+      {
+        heading: "Awala-Yalimapo and the leatherback turtles",
+        body: "The Kali'na village of Awala-Yalimapo lies about fifteen kilometres west, at the mouth of the Maroni, inside the Amana nature reserve. Its beach is one of the world's major nesting sites for the leatherback, the largest of the sea turtles, with nesting concentrated roughly between April and July; green and olive ridley turtles come ashore here too. Observation is at night, guided, with no white light and no flash, and never standing in front of the animal. Outside the nesting season it remains a long beach backed by forest, with a strong current at the river mouth: swimming calls for caution.",
+      },
+      {
+        heading: "Creeks and forest on the edge of town",
+        body: "Western Guiana begins where the town ends. The crique Tatou, the approaches to Balaté and the forest blocks of Saint-Jean and des Malgaches offer short walks in the forest and freshwater swimming close to the centre. Unlike the Atlantic beaches, which are brown with Amazon sediment, the creek water is clear and cool. These outings are better done with someone who knows them: the tracks are barely waymarked, phone coverage is patchy, and there is no walking guidebook of the kind you would find in mainland France. The tourist office also hires out bikes, which is enough for the immediate surroundings.",
+      },
+      {
+        heading: "The market, the food, and the Hmong villages",
+        body: "The market is where you read the composition of the town: Guianese creole, Bushinengue, Kali'na, Hmong, Surinamese, Brazilian, Haitian. On the stalls, couac and cassava made from manioc, root vegetables, river fish, chillies, Amazonian fruit juices and the communities' textile crafts. On the table: bouillon d'awara at Easter, fricassée, blaff, colombo, and a strong presence of Javanese and Chinese cooking brought from neighbouring Suriname. It is one of the few places in France where Javanese roti and creole colombo are sold three metres apart. East of town, the commune of Mana and the village of Javouhey were settled by a Hmong community that arrived as refugees from Laos in the late 1970s, as at Cacao near Cayenne. Market gardening there is intensive and supplies much of the west; Javouhey's market is worth the detour for vegetables, soups and crafts. Mana, on its own river, has kept an old centre with a very different feel from Saint-Laurent and no penal architecture at all.",
+      },
+      {
+        heading: "Getting there, when to come, what to plan for",
+        body: "Saint-Laurent is about 250 km from Cayenne by the national road, half a day with stops; shuttles exist, but a hire car is what gives you the villages and the beaches. The dry season, roughly late August to November, gives the most usable roads and tracks; the main rainy season makes river and forest outings less predictable. Two things not to skimp on: serious and continuous mosquito protection, and the vaccinations recommended for French Guiana, which are a conversation to have with a doctor before you leave. If the turtle nesting season is the reason for the trip, aim for spring rather than the dry season.",
+      },
+    ],
+    relatedCities: ["saint-laurent-du-maroni", "cayenne"],
+    tags: [
+      "things to do in saint-laurent-du-maroni",
+      "saint-laurent-du-maroni",
+      "travel",
+      "city guide",
+      "french guiana",
+    ],
+  },
+  {
+    slug: "things-to-do-in-mamoudzou-2026",
+    title: "Things to do in Mamoudzou: Mayotte's lagoon, and what Chido left",
+    metaTitle: "Things to Do in Mamoudzou, Mayotte (2026)",
+    metaDesc:
+      "The covered market, the barge to Petite-Terre, the Dziani Dzaha crater lake, a double-barrier lagoon and humpback whales — and what to check before booking.",
+    category: "city-guide",
+    emoji: "🐋",
+    readMinutes: 7,
+    publishedAt: "2026-08-15",
+    updatedAt: "2026-08-15",
+    intro:
+      "Mamoudzou is the administrative capital of Mayotte, around 71,000 people on the east coast of Grande-Terre, facing Petite-Terre. It is also the least visited and least tourism-equipped French territory, and an honest guide has to say so before the first photograph of a lagoon: cyclone Chido, in December 2024, destroyed or damaged a considerable share of the infrastructure, including more than two-thirds of the tourism offer according to the assessments made afterwards, and reconstruction was still under way in 2026. Nothing below is something you book the night before. What is intact, on the other hand, is what has always made Mayotte interesting: a lagoon closed by a double coral barrier, among the largest in the Indian Ocean, and a Comorian, Malagasy and French society that resembles nowhere else in France.",
+    sections: [
+      {
+        heading: "The covered market and the fish market",
+        body: "Mamoudzou's covered market, on rue de l'Hôpital, opens in the morning from Tuesday to Saturday: spices, vanilla, ylang-ylang, fruit, medicinal plants, samosas sold over the counter. It is the most direct way into Mahoran life, and the one place where an hour tells you how much of local trade is run by women. Alongside it, the fish market at the port works very early, as the pirogues unload: tuna, capitaine, parrotfish, depending on what came in. Come early, accept that French is not always the language you will hear — Shimaoré and Kibushi are the everyday languages — and ask before photographing anyone.",
+      },
+      {
+        heading: "The barge to Petite-Terre",
+        body: "Mayotte is two islands, and the barge linking Mamoudzou to Dzaoudzi is the most ordinary and most useful journey on the territory: it is the umbilical cord between the capital, the airport and Petite-Terre. The crossing is short, frequent, and gives the best possible view of the roadstead, the boats and the relief of Grande-Terre. Foot passengers and vehicles board separately, and both the timetable and the frequency vary by day and by period: check locally rather than trusting something found online, because the service was affected by damage to the port and the rotations have changed since.",
+      },
+      {
+        heading: "The Dziani Dzaha crater lake",
+        body: "On Petite-Terre, the Dziani Dzaha fills a volcanic crater and stands out for the emerald green of its water, the product of microbial activity in a very particular environment — it is a subject of scientific study as much as a viewpoint. The climb to the crater rim is short and technically easy, but it is in full sun: start early and take water. Following part of the rim gives you the lake on one side and the ocean on the other. Swimming is not what the site is for, and the environment is fragile: stay on the marked paths.",
+      },
+      {
+        heading: "Moya and Papani beaches",
+        body: "Still on Petite-Terre, Moya beach is the picture-postcard of Mayotte: a double cove split by a headland, backed by dry forest, and a nesting site for sea turtles. Papani beach, more sheltered, is the standard place to learn to snorkel, with a coral flat you can reach from the shore. Two rules not to take lightly: never touch or follow a turtle, in the water or on land, and do not walk on coral, which dies from the contact. If you happen on a night nesting, keep well back, behind the animal, and use no white light.",
+      },
+      {
+        heading: "The lagoon and its double barrier",
+        body: "This is the asset Mayotte alone has at this scale in France: a very large lagoon, closed by a reef barrier that is itself doubled by a second barrier, a configuration that is rare worldwide. In practice that means passes, reef flats, islets and sheltered water over long distances. Diving or snorkelling: green and hawksbill turtles, rays, reef fish, and on some outings manta rays and dolphins. The clubs and boat operators are based mostly in Mamoudzou and on Petite-Terre. Check that the operator is actually running before you book — many have restarted only gradually.",
+      },
+      {
+        heading: "Humpback whales",
+        body: "From roughly July to October, during the austral winter, humpback whales come into Mayotte's waters to calve and raise their young, and the lagoon shelters them. It is the territory's busiest season, and observation is by boat from Mamoudzou or Petite-Terre. Approaching marine mammals is regulated: minimum distances, number of boats, length of observation, no cutting across their path. An operator who offers to put you in the water in the middle of a group, or to press the approach, is not a good operator — they are an operator putting you in breach. Choose accordingly.",
+      },
+      {
+        heading: "Mount Choungui, the interior and the ylang-ylang distillers",
+        body: "Mount Choungui, in the south of Grande-Terre, is Mayotte's most recognisable summit: a conical peak whose ascent is short but steep, ending in sections where you use your hands. The view reaches across the lagoon and much of the island. It is not in the commune of Mamoudzou, but it is reached from the capital by road, heading south. The rest of the interior — forest, ochre padzas, villages — is covered the same way, by car. Allow margin: Mayotte's road network is a single system, saturated at peak hours and sensitive to weather. Mayotte was, and on a small scale remains, a land of perfume plants. Ylang-ylang, whose yellow flower is distilled into an essential oil used in perfumery, can be seen at growers and distillers who show the picking and the still; vanilla and pepper complete the sector. It is a short, workshop-scale visit with no staging, and one of the few holiday purchases that genuinely supports someone locally. These holdings are scattered across the villages of Grande-Terre: get contacts and confirm they are open through the tourist office rather than driving out blind.",
+      },
+      {
+        heading: "Eating in Mamoudzou, getting there, and what to check first",
+        body: "Mahoran cooking crosses the Comoros, Madagascar and India. Mataba — pounded cassava leaves simmered in coconut milk, usually with fish or meat — is the emblematic dish. Alongside it: grilled zebu skewers from street stalls, samosas, coconut rice, chicken in coconut, green banana and breadfruit as sides. Mabawas, grilled chicken wings, are the most widespread street food. Places open to the public are mostly small operations and street food; the offer was badly hit and is still rebuilding, so do not count on booking online. Mayotte is reached by air, with a stop in Réunion on many itineraries; the airport is on Petite-Terre, from where the barge runs to Mamoudzou. The dry season, broadly May to October, is the most practical period and covers the whale season; the rainy season brings heat, humidity and cyclone risk. Three precautions to take seriously: the water supply remains under strain and restrictions can apply; accommodation, restaurants and water-sports operators are still being rebuilt, so confirm everything before you travel; and check the local situation through official sources at the time you go. Mayotte rewards a visit, but it is not a place to improvise.",
+      },
+    ],
+    relatedCities: ["mamoudzou"],
+    tags: ["things to do in mamoudzou", "mamoudzou", "travel", "city guide", "mayotte"],
+  },
+  {
+    slug: "things-to-do-in-le-francois-2026",
+    title: "Things to do in Le François: the fonds blancs and Habitation Clément",
+    metaTitle: "Things to Do in Le François, Martinique (2026)",
+    metaDesc:
+      "Sandbanks you can stand on far from shore, Joséphine's Bathtub, the îlets Oscar and Thierry, Habitation Clément and its art foundation, and round yoles.",
+    category: "city-guide",
+    emoji: "🏝️",
+    readMinutes: 7,
+    publishedAt: "2026-08-15",
+    updatedAt: "2026-08-15",
+    intro:
+      "Le François is a commune on the Atlantic coast of Martinique, around 17,500 people, some twenty kilometres east of Fort-de-France. Its geography does everything: a large bay protected by a coral barrier, eight îlets scattered inside it, and between them shallows of white sand where the water does not come past an adult's waist for hundreds of metres. These are the fonds blancs, and they are what Martinicans themselves come here for on a Sunday. The second pole of the commune is on land: Habitation Clément, a sugar estate that is now at once a distillery, a listed monument and a contemporary art centre. Le François is not a resort. It is a working commune whose sea is the town square.",
+    sections: [
+      {
+        heading: "The fonds blancs",
+        body: "The bay of Le François is closed offshore by a coral reef, and between the reef and the coast lie broad banks of white sand where the water stays shallow. The result is warm turquoise water in which you can stand up a long way from land: that is what the fonds blancs are, and they are a peculiarity of this stretch of Atlantic coast. You reach them by boat, not on foot: operators leave from the fishing harbour in town and from nearby pontoons, by launch, catamaran or kayak depending on the formula. The standard trip is a half day or a full day, with several swimming stops and lunch on an îlet.",
+      },
+      {
+        heading: "Joséphine's Bathtub",
+        body: "This is the best known point of the fonds blancs: a sandbank between îlet Thierry and îlet Oscar where the boats moor and people stand in the water, glass in hand. The name refers to Joséphine de Beauharnais, born in Martinique, who is said to have bathed here — that is oral tradition, not established fact, and it is better presented as such. The place is remarkable regardless of the legend: constant depth, pale bottom, the reef a few dozen metres off. The downside is the crowd, heavy at weekends and in high season; a weekday trip early in the morning changes the atmosphere completely.",
+      },
+      {
+        heading: "The îlets of the bay",
+        body: "The bay holds eight îlets, of which Oscar and Thierry are the best known. Some are private, some have a restaurant or accommodation, others are simply pieces of land under dry scrub where you land for a swim. Day trips generally chain two or three together with the fonds blancs. By kayak from the shore you can reach the nearest without a motor: that is the silent version of the same outing, and much the most pleasant at first light. Check the wind before setting off — the trade wind gets up during the day on this side of the island.",
+      },
+      {
+        heading: "Habitation Clément",
+        body: "South of the town, the domaine de l'Acajou, better known as Habitation Clément, covers around 160 hectares and is open to visitors. The Clément family settled here in 1887; the creole house, which is older, has been listed as a historic monument since 1996. The visit takes in the house, the outbuildings, the park and creole garden, the old production plant and the cellars where the rums age. It is one of the busiest sites on the island, which you feel in the middle of the day. Much of the route is outdoors: proper shoes and a hat.",
+      },
+      {
+        heading: "The Fondation Clément and contemporary art",
+        body: "The same estate houses an exhibition space that has become one of the principal contemporary art venues in the Caribbean, with temporary shows by Caribbean and international artists and sustained work on Martinican heritage, including the restoration of old estates. It is a contradiction the place takes on openly: a property born of the plantation economy, now a platform for Caribbean art. You can spend an hour or half a day there depending on what is hanging. Check the current exhibition before coming — the programme turns over, and on its own it justifies a second visit.",
+      },
+      {
+        heading: "The town, the market and the fishing harbour",
+        body: "The centre of Le François has stayed a working town, with a covered market that is busiest on Friday and Saturday mornings: tropical fruit, spices, homemade punches, local produce. The fishing harbour, from which some of the excursions also leave, is worth seeing when the boats come in. The history of the parish church sums up the constraints of Caribbean building on its own: an original chapel in the 17th century, successive rebuildings, a fire, then the demolition of a modern structure judged poorly suited to cyclone risk. A walking loop through the town takes under an hour and lets you eat for a great deal less than on an îlet.",
+      },
+      {
+        heading: "Round yoles and agricultural rum",
+        body: "The yole ronde is the traditional boat of Martinique's Atlantic coast: no keel, held flat by crew braced out on wooden spars set outside the hull. The communes of this coast, Le François among them, crew their own boats, and the practice is inscribed on UNESCO's list of the intangible cultural heritage of humanity. The Tour de la Martinique des yoles rondes, at the end of the summer, is the island's major sporting event and calls at several coastal communes. Outside competition you regularly see yoles training in the bay in the late afternoon: free, spectacular, and watchable from the shore. On land, Martinique's rhum agricole is made from fresh cane juice rather than molasses, and it holds an appellation d'origine contrôlée — the only rum in the world that does. Habitation Clément is the local shopfront, but the Atlantic coast and the centre of the island have several more distilleries, open to visitors and a few dozen minutes' drive away. Distillery visits are often free or cheap and explain the full chain, from crushing the cane to ageing in cask. Tasting is part of it: decide in advance who drives, because the gendarmerie checks these roads.",
+      },
+      {
+        heading: "Mangrove, the windward coast, and getting there",
+        body: "Away from the fonds blancs, the bay carries stretches of mangrove — a refuge for crabs, fry and birds — which are best explored by kayak in the calm. More broadly, this whole side of the island is the windward coast: windier, greener and less developed than the Caribbean coast, with a swell and currents that make open-sea swimming frankly inadvisable outside the sheltered areas. That is also why life concentrates inside the barrier. To the north, the neighbouring commune of Le Robert continues exactly the same landscape, with its own îlets and its iguana islet. Le François is about twenty kilometres from Fort-de-France by road; a hire car is essential, as public transport does not cover a visitor's needs. The carême, roughly December to April, is the dry season and the busiest; the hivernage, June to November, is wetter and covers the cyclone season. For the fonds blancs, book ahead in high season and favour weekdays. One last practical point: sun on a reflective sandbank, with no shade and no sense of time passing, burns far faster than you expect — water-resistant sunscreen, and a t-shirt in the water.",
+      },
+    ],
+    relatedCities: ["le-francois", "le-robert", "fort-de-france", "le-lamentin"],
+    tags: ["things to do in le françois", "le françois", "travel", "city guide", "martinique"],
+  },
+  {
+    slug: "things-to-do-in-le-robert-2026",
+    title: "Things to do in Le Robert: iguanas, îlets and a sheltered bay",
+    metaTitle: "Things to Do in Le Robert, Martinique (2026)",
+    metaDesc:
+      "The havre du Robert, îlet Chancel and its Lesser Antillean iguanas, quieter fonds blancs, kayaking in the mangrove and the Caravelle peninsula nearby.",
+    category: "city-guide",
+    emoji: "🦎",
+    readMinutes: 7,
+    publishedAt: "2026-08-15",
+    updatedAt: "2026-08-15",
+    intro:
+      "Le Robert is a commune on the Atlantic coast of Martinique, around 21,000 people, some twenty kilometres north-east of Fort-de-France by the national road. It sits at the head of a deep bay — the havre du Robert — sheltered by a constellation of about ten îlets, and that configuration makes it one of the finest protected stretches of water in the Caribbean. Le Robert shares the fonds blancs and the windward-coast feel with its neighbour Le François, but it has one thing nobody else in Martinique has: îlet Chancel, the last refuge of the Lesser Antillean iguana on the island. A former village of fishermen and smallholders, the commune has stayed lived-in and largely untouristed, which is precisely its interest.",
+    sections: [
+      {
+        heading: "The havre du Robert",
+        body: "The bay runs for several kilometres in length and almost as much across, closed off by a coral barrier and by a string of îlets that shelter it from the Atlantic swell. The result is calm water, used for dinghy sailing, racing and coastal boating, with varied bottoms of seagrass, mangrove and pale sand. Simply driving the shore road and stopping at the viewpoints already gives you the scale of the place. But the substance is on the water: that is where the bay makes sense, and there are trips for every level.",
+      },
+      {
+        heading: "Îlet Chancel and its iguanas",
+        body: "This is the reason to come to Le Robert rather than somewhere else. Îlet Chancel holds Martinique's last population of the Lesser Antillean iguana — a distinct species from the common green iguana, and a threatened one. The animals are free, on their own ground, and will let you approach at a reasonable distance. They are most visible in the late morning, once the sun has warmed the rocks; early or late in the day they stay under cover. The islet also carries the remains of an old estate and a pottery, overgrown by dry vegetation. You do not feed the iguanas, you do not touch them, and you do not leave the paths.",
+      },
+      {
+        heading: "Getting out there by boat or kayak",
+        body: "Îlet Chancel is reached only by sea, from Le Robert. Two options: the shuttle or a boat excursion, quick and suited to families or to a short stay; or the sea kayak, which takes some effort and a correct read of the wind, but turns the crossing into an outing in its own right. Either way the visit itself stays short and easy, and it chains well with a swim in the fonds blancs nearby. Book, especially in high season, and check the wind direction: the trade wind strengthens through the day and the return leg is often into it.",
+      },
+      {
+        heading: "The other îlets and the quieter fonds blancs",
+        body: "Beyond Chancel the bay counts about ten îlets, several of which are reachable or approachable on boat trips. As at Le François, shallows of white sand run between them, where the water stays low and clear. The difference is the crowd: the fonds blancs of Le Robert are markedly quieter than Joséphine's Bathtub, and the atmosphere is wilder. If you want the fonds blancs experience without the Sunday queue of boats, this is where to come. Excursions usually combine two or three îlets, a swim and time watching the wildlife.",
+      },
+      {
+        heading: "Kayaking in the mangrove",
+        body: "The heads of the bay and the coves of Le Robert carry dense mangrove threaded with narrow channels. By kayak you go into it in silence: stilt roots, crabs, fry, herons, terns. It is an environment that does concrete work — a nursery for fish, protection of the shoreline against swell — and seeing it from the inside explains that faster than any interpretation panel. Guided trips leave from the Pointe Fort area, generally at the end of the day or first thing in the morning, when the heat drops and the wildlife is active. Mosquito repellent is not optional.",
+      },
+      {
+        heading: "Pointe Fort and sailing",
+        body: "Pointe Fort concentrates the commune's water activity: sailing club, sailing schools, excursion departures, mangrove and îlet trips. It is the simplest entry point for anyone arriving without a booking and looking for a half day on the water. The bay, sheltered and reliably breezy, is ideal learning ground for dinghies and boards: steady conditions, no swell, and space. Local regattas and yole outings also take place on this water, and they are easy to watch from the shore without going afloat.",
+      },
+      {
+        heading: "The town, the market and Vert-Pré",
+        body: "Le Robert grew out of a village of fishermen and smallholders, and the town still does that work: market, local shops, fishing harbour, a laid-out seafront. You can eat here for a fraction of what an îlet restaurant costs, and the fish is the same, fresher. Accras, blaff, court-bouillon of fish, fricassée de chatrou — octopus — and colombo make up the backbone of the menu. Local habits are worth respecting: many businesses close early, and the rhythm of a Sunday is set by going out on the water, not by table service. A few kilometres inland, the district of Vert-Pré sits on a plateau above three hundred metres, in green rolling country. There is working agriculture up there, a Martinican countryside a long way from the coast in feel, and on a clear day views reaching both the Atlantic and the Caribbean side. The road up is narrow and winding. It is the outing to keep for a day when the wind makes the sea unpleasant, and the best place in the commune to see cane, bananas and creole gardens.",
+      },
+      {
+        heading: "The Caravelle peninsula, and getting there",
+        body: "Following the coast north, the Caravelle peninsula reaches far out into the Atlantic: a nature reserve with a circular walking trail past the ruins of the Château Dubuc and the lighthouse, between cliffs, dry savannah and mangrove. It belongs to the commune of La Trinité rather than Le Robert, but it is a short half-hour by road and makes the best day's walking in the area. The trail is exposed and has no water point: start early and carry drinks. It is the logical land counterpart to a stay otherwise spent afloat. Le Robert is about twenty kilometres from Fort-de-France by the national road; a car is essential. The carême, roughly December to April, is the dry season; the hivernage, June to November, is wetter and covers the cyclone season. For the iguanas, aim at late morning; for the kayak, early morning before the trade wind builds. Swimming in open sea, outside the barrier and away from sheltered areas, is inadvisable along this whole windward coast because of currents and swell. Le François, just to the south, combines without difficulty on the same day if you want to see both bays.",
+      },
+    ],
+    relatedCities: ["le-robert", "le-francois", "fort-de-france", "le-lamentin"],
+    tags: ["things to do in le robert", "le robert", "travel", "city guide", "martinique"],
+  },
+  {
+    slug: "things-to-do-in-saint-benoit-reunion-2026",
+    title: "Things to do in Saint-Benoît: waterfalls on Réunion's windward coast",
+    metaTitle: "Things to Do in Saint-Benoît, Réunion (2026)",
+    metaDesc:
+      "Takamaka's ramparts, the Grand Étang, the bassin La Paix, whitewater rafting, the extraordinary Sainte-Anne church — and the swimming rule with no exception.",
+    category: "city-guide",
+    emoji: "💦",
+    readMinutes: 7,
+    publishedAt: "2026-08-15",
+    updatedAt: "2026-08-15",
+    intro:
+      "Saint-Benoît is the main town of eastern Réunion, around 37,000 people, on the windward coast — the side that takes the trade winds head-on and receives most of the island's rainfall. That is exactly why you go: water. The commune concentrates the waterfalls, the pools, the only large body of fresh water on Réunion and the rivers that carry the whitewater activities. It has no lagoon, no white-sand beach and no nightlife, and nobody comes here for those. What it has is the Takamaka valley, the Grand Étang, the rivière des Marsouins, and one of the most surprising churches on the island, fifteen minutes from the town centre.",
+    sections: [
+      {
+        heading: "The Takamaka belvedere",
+        body: "The Takamaka valley is cut into the eastern flank of the Piton des Neiges: vertical ramparts, permanent vegetation and a series of waterfalls dropping several hundred metres. The road up the valley from Saint-Benoît ends at a laid-out belvedere with interpretation panels, taking in the whole amphitheatre and the water intakes of the hydroelectric station at the bottom. A picnic area with shelters and fire pits sits below, on the road. In cloud the valley disappears completely: aim for the morning, and accept that the east rarely clears for a whole day.",
+      },
+      {
+        heading: "The Grand Étang",
+        body: "The Grand Étang is the largest body of water on Réunion, set in a basin at the foot of ramparts, off the Plaines road. Access is by a track and then a path, and the circuit of the lake takes about two hours' walking with no technical difficulty, which makes it one of the island's few genuinely family-friendly hikes. The scene changes entirely with rainfall: in wet periods a large waterfall drops from the rampart at the back of the site; in the dry season it thins to a trickle. The path is often muddy — closed shoes, and check the forecast, because the walk is not advised in heavy rain.",
+      },
+      {
+        heading: "Bassin La Paix and bassin La Mer",
+        body: "On the rivière des Roches, the bassin La Paix is one of the most photographed spots on Réunion: a wide fall dropping into a deep pool, framed by basalt and vegetation. One point matters above the rest: swimming there is forbidden, because of the depth and the currents, and the ban is not decoration. You stop for the viewpoint, a few minutes from the car park. To swim, carry on upstream to the bassin La Mer, where it is allowed and the water is cool and clear. As anywhere in a ravine, never stay in the bed if it is raining on the heights, even under clear sky above you.",
+      },
+      {
+        heading: "Rafting on the rivière des Marsouins",
+        body: "The rivière des Marsouins runs down from the Hauts over some thirty kilometres and is Réunion's reference whitewater ground: rafting, canoe-raft, aquatic canyoning, river trekking. The rafting is open to beginners, run in guided groups with kit provided, and the operators are based in Saint-Benoît itself. Water level, and therefore difficulty and sometimes whether the trip runs at all, depends directly on recent rain: outings are cancelled in spate, and that is normal. It is the activity that gives you the truest measure of how much water this coast takes.",
+      },
+      {
+        heading: "The Sainte-Anne church",
+        body: "A few minutes north of the town, in the Sainte-Anne district, stands a church that nothing in the Réunionese landscape prepares you for: a façade entirely covered in mouldings, garlands, plant motifs and cement gargoyles, the result of a decoration campaign carried out in the early 20th century. It is commonly described as baroque, for want of a better label. It has been listed as a historic monument since 1982. The interior is plainer than the front. The visit takes a quarter of an hour, it is free, and it is the most singular piece of heritage in the whole east of the island.",
+      },
+      {
+        heading: "Îlet Bethléem, the town and the market",
+        body: "On the bank of the rivière des Marsouins, upstream of the town, îlet Bethléem is a former place of pilgrimage in a setting of greenery and river boulders. You reach it by road and then a short path, and it has become a picnic and river-bathing spot heavily used by Réunionese families at weekends, while keeping its religious dimension — chapel, statues, stations of the cross. It is a good illustration of what you do not see from the coast road: social life on this island happens largely beside fresh water. The same flash-flood precautions apply as in any ravine. Saint-Benoît itself is not a postcard town: it is the administrative and commercial centre of the east, with an open-air market, shops, a lycée, a hospital and a small fishing harbour at Sainte-Anne. You eat here for a third of what you would pay at Saint-Gilles, and you get Réunionese cooking with no tourist adjustment: cari poulet, rougail saucisse, cari boucané, achards, rougail dakatine, with rice, grains and brèdes. The market is also where you see what the east produces — lychees in December, vanilla, tropical fruit, cane.",
+      },
+      {
+        heading: "The Plaines road and the Plaine-des-Palmistes",
+        body: "From Saint-Benoît the route des Plaines climbs inland and links the windward coast to the south of the island, crossing the Plaine-des-Palmistes and then the Plaine-des-Cafres. It is the drive that makes the structure of Réunion click: you leave sea level in the tropics and arrive an hour later in a landscape of pasture, mist and native bois de couleurs, some fifteen degrees cooler. The Plaine-des-Palmistes, the neighbouring commune, gives access to the Bébour-Bélouve forest and the path towards the Trou de Fer. It is also the shortest way to the volcano from the east coast.",
+      },
+      {
+        heading: "The coast towards Sainte-Rose, and the swimming rule",
+        body: "Heading south along the coast you leave Saint-Benoît for Sainte-Rose and enter the domain of the Piton de la Fournaise: the Anse des Cascades, where waterfalls drop straight into the vegetation facing the ocean; the church of Notre-Dame-des-Laves, spared by the 1977 lava flow; and then the Grands Brûlés, where successive flows have covered the road and the ground down to the sea. These sites belong to neighbouring communes rather than Saint-Benoît, but they chain together in a single day from the town and make the most spectacular coastal outing on the island. Saint-Benoît is about an hour's drive from Saint-Denis by the coast road, and it is the most logical base for the east. This is the wettest coast on the island: it rains more often and harder than elsewhere, including in the dry season, and mornings are statistically clearer than afternoons. The austral winter, May to November, is the least humid period and the least exposed to cyclone risk. And one rule admits no exception on Réunion: outside the lagoons of the west coast and supervised bathing pools, sea swimming is banned because of shark risk — and there is no lagoon in the east.",
+      },
+    ],
+    relatedCities: [
+      "saint-benoit-reunion",
+      "saint-andre-reunion",
+      "saint-denis-reunion",
+      "le-tampon",
+    ],
+    tags: ["things to do in saint-benoît", "saint-benoît", "travel", "city guide", "reunion"],
+  },
+  {
+    slug: "things-to-do-in-saint-andre-reunion-2026",
+    title: "Things to do in Saint-André: Tamil Réunion, sugar and rum",
+    metaTitle: "Things to Do in Saint-André, Réunion (2026)",
+    metaDesc:
+      "The Colosse Tamil temple, the Dipavali festival, a working sugar mill and rum distillery, a church wrecked by a cyclone, and the most Indian town in France.",
+    category: "city-guide",
+    emoji: "🪔",
+    readMinutes: 7,
+    publishedAt: "2026-08-15",
+    updatedAt: "2026-08-15",
+    intro:
+      "Saint-André is the second town of eastern Réunion, around 58,000 people, between the ocean and the cane fields of the windward coast. It is the most Indian town in France, in the literal sense: indenture brought tens of thousands of workers here from southern India after the abolition of slavery, and their descendants, the Malbars, shaped a culture, a set of temples, a cuisine and a festival calendar that exist nowhere else on French territory. Saint-André has no beach and no major natural site, and it has never been a tourist town. It has something else: a spectacular Tamil temple, a working sugar mill and distillery you can visit, and the largest Indian festival in the Indian Ocean.",
+    sections: [
+      {
+        heading: "The Colosse Tamil temple",
+        body: "In the Champ-Borne district, the Colosse temple is the most spectacular of Réunion's Tamil temples: built at the end of the 19th century in honour of the goddess Pandialé, its façades and tower carry hundreds of brightly painted figures of deities. It is a working place of worship, not a monument — you do not wander around it as you would a church. Guided visits are offered and are the right way in: they explain the deities, the ceremonies and the place these sites hold in the Réunionese Tamil community. Dress appropriately, go barefoot inside the enclosure, and ask before photographing.",
+      },
+      {
+        heading: "Dipavali",
+        body: "Dipavali, the festival of lights, falls in late October or early November and runs over five days, and Saint-André makes it the largest Indian event in the Indian Ocean: illuminations, rangoli, concerts, and a large parade followed by fireworks that draws tens of thousands of people to the parc du Colosse. This is not folklore staged for visitors, it is the town's own festival, and that is what makes it interesting. If the calendar lets you build a trip around it, it is worth doing: book accommodation across the whole east well in advance, and expect traffic and parking difficulties on the evening of the parade.",
+      },
+      {
+        heading: "The Bois-Rouge sugar mill",
+        body: "Cane remains the agriculture that structures Réunion, and Bois-Rouge, on the Saint-André coast, is one of the two sugar mills still working on the island. It can be visited: cane reception, crushing, extraction, crystallisation, and what becomes of the by-products — bagasse fires a thermal power station, molasses goes to the distillery. This is a real factory, loud and hot, not a reconstruction. The visit only makes sense during the cane campaign, broadly July to December, when the mill is running; outside it the interest falls away. Check the arrangements and book before making the trip.",
+      },
+      {
+        heading: "The Savanna distillery",
+        body: "On the same industrial site, the Savanna distillery produces rums from molasses and from cane juice, and has built an international reputation on very aromatic rums, known as grand arôme, obtained through long fermentations. The guided visit explains the full chain and makes clear why Réunionese rum does not have the same profile as Caribbean rhum agricole. The shop sells bottlings you will not find in mainland France. There is a tasting at the end: decide who drives. It is the direct complement to the sugar mill, and the two fit into the same half day.",
+      },
+      {
+        heading: "The ruined church at Champ-Borne",
+        body: "By the sea at Champ-Borne, what remains of a church of Saint-Nicolas is its enclosing walls and its chancel, open to the sky, with a cemetery cut to less than half its former area. The building was carried away by the tidal wave of cyclone Jenny in 1962; the village and a new church were rebuilt in masonry a little higher up, on the other side of the old royal road. The ruin was left where it stood. It is the commune's most eloquent monument on what living on a cyclone coast means, and it is a place of memory for residents — behave accordingly. Access is free.",
+      },
+      {
+        heading: "The Martin Valliamé house and the parc du Colosse",
+        body: "This creole house in the town centre, built by a family of Indian origin who prospered in trade and cane, is one of the few surviving witnesses of bourgeois architecture in the east: varangue, cut-out lambrequins, garden. It now holds public functions, including tourist reception, and can be visited. It tells a story the rest of the island tends to play down: the economic rise of families from Indian indenture at the turn of the 20th century. The visit is short and combines with a walking loop through the centre, which has a few other old creole houses. Down by the sea, the parc du Colosse is the commune's big green space: lawns, trees, shelters, playgrounds and picnic areas, sports pitches. It is where people from Saint-André gather at weekends, and where the bulk of the Dipavali festivities take place. Outside events there is nothing spectacular to see, and that is precisely the point: you get ordinary eastern Réunionese life, family picnics and games of dominoes included. The seafront alongside is hammered by swell and trade winds, and swimming is out of the question, as along this whole coast.",
+      },
+      {
+        heading: "The open-air market and the Indo-Réunionese table",
+        body: "Saint-André's open-air market is one of the liveliest in the east, and its dominant note is Indian: massalé ground on the spot, turmeric, curry leaves, brèdes, lentils, ginger. On the table, you find here what is hard to find elsewhere — cari and massalé cabri, biryani, samosas, bonbons piment, gâteaux patate, and the preparations tied to the festivals. Standard Réunionese cooking is there too: rougail saucisse, cari poulet, achards. It is one of the best reasons to stop here rather than drive straight through towards Saint-Benoît, and the price range bears no relation to the west coast.",
+      },
+      {
+        heading: "Sainte-Suzanne, Bras-Panon, and getting there",
+        body: "The neighbouring communes fill out a day easily. Sainte-Suzanne, to the north, has the Niagara waterfall — wide and easy to reach at the bottom of a ravine — along with a lighthouse and the remains of sugar estates. Bras-Panon, to the south, houses the vanilla cooperative and is worth visiting to understand the chain from preparation and scalding through drying to curing, in the only French department that produces Bourbon vanilla. Both are about fifteen minutes away by road and combine with the mill and the distillery for a day given over entirely to what the east produces. Saint-André is around forty minutes' drive from Saint-Denis along the east coast, and a quarter of an hour from Saint-Benoît: a natural stop on a circuit of the island. The windward coast is the wettest part of the department, and mornings are generally clearer than afternoons. Two calendar windows shape the choice of dates: the cane campaign, roughly July to December, if you want to see the mill running, and Dipavali in late October or early November. Finally, the same rule as everywhere else on the island: outside the lagoons of the west coast and supervised bathing pools, sea swimming is banned on Réunion because of shark risk.",
+      },
+    ],
+    relatedCities: [
+      "saint-andre-reunion",
+      "saint-benoit-reunion",
+      "saint-denis-reunion",
+      "saint-pierre-reunion",
+    ],
+    tags: ["things to do in saint-andré", "saint-andré", "travel", "city guide", "reunion"],
+  },
+  {
+    slug: "things-to-do-in-les-abymes-2026",
+    title: "Things to do in Les Abymes: the mangrove everyone drives past",
+    metaTitle: "Things to Do in Les Abymes, Guadeloupe (2026)",
+    metaDesc:
+      "The Taonaba mangrove house, a boardwalk through swamp forest, the canal Perrin, the Grand Cul-de-Sac Marin and the Grands-Fonds — minutes from the airport.",
+    category: "city-guide",
+    emoji: "🌳",
+    readMinutes: 7,
+    publishedAt: "2026-08-15",
+    updatedAt: "2026-08-15",
+    intro:
+      "Les Abymes is the most populous commune in Guadeloupe, around 53,500 people, adjoining Pointe-à-Pitre on Grande-Terre. It is also the one almost every visitor crosses without stopping, because Pôle Caraïbes airport is on its territory: you land, collect the hire car and head for Sainte-Anne or Basse-Terre. This guide starts from the opposite premise. The commune takes its name from the marshes and mists that covered it before they were drained, and that is where its interest lies: it gives access to the largest mangrove in the Lesser Antilles, and its hinterland, the Grands-Fonds, is a landscape of limestone hillocks unlike anything else in the archipelago. No beach, few monuments, but two remarkable natural environments twenty minutes from the airport.",
+    sections: [
+      {
+        heading: "The Maison de la Mangrove at Taonaba",
+        body: "On the Belle-Plaine site, the Taonaba project — the word is Carib for the marsh and the flooded forest — brings together an exhibition space on coastal wetlands and a set of discovery trails. The exhibition covers the mangrove, the swamp forest and the wet prairie, how they work and what they do. It is the best possible starting point for understanding what you are about to see on the water, and one of very few facilities of its kind in Guadeloupe. Check opening days and times before coming: these are small-team operations and their slots change.",
+      },
+      {
+        heading: "The boardwalk",
+        body: "From the same site, a timber boardwalk runs into the swamp forest and the mangrove on a loop that takes around half an hour. You walk above the water, in shade and sheltered from a fair share of the mosquitoes, among mangrove trees, stilt roots and crabs. The walk is open to everyone, including with young children, and it is the simplest way into an environment you would otherwise only glimpse from the road. Take repellent anyway, and avoid the end of the day, when the mosquitoes wake up.",
+      },
+      {
+        heading: "The canal Perrin and the canal de Belle-Plaine",
+        body: "The mangrove of Les Abymes is threaded with canals, the canal Perrin among them, which are travelled by boat or kayak. It is a slow trip through channels lined with mangrove where you come across fish, crabs, clams and a good part of the local birdlife. Unlike trips offshore, this one is shaded and free of swell, which makes it workable even when the sea is rough. Departures are from the Belle-Plaine site with local operators; by kayak, choose early morning, when the water is flat and the birds are active.",
+      },
+      {
+        heading: "The Grand Cul-de-Sac Marin",
+        body: "The canals open into the Grand Cul-de-Sac Marin, the large bay closed by a coral barrier that separates Grande-Terre from Basse-Terre. The mangrove along its shores is the most extensive in the Lesser Antilles, and the whole comes under the Guadeloupe national park and a nature reserve. Day boat trips generally combine mangrove, sand islets and swimming over shallows, with departures spread across several communes around the bay. The reserve's rules — closed zones, regulated moorings, no collecting — are not optional, and they are what keeps the site alive.",
+      },
+      {
+        heading: "The Grands-Fonds and the mare Fidelin",
+        body: "East of the commune begins the most unexpected landscape on Grande-Terre: the Grands-Fonds, a succession of rounded limestone hillocks separated by narrow valleys, covered in dense vegetation and threaded with tiny roads. Housing is scattered, subsistence farming is still present, and you find a rural Guadeloupe that the tourist coast gives no hint of. You visit by car, with no set itinerary, accepting that you will get somewhat lost; a few high points open views towards both coasts. The roads are narrow and winding and the signage approximate: allow time. At the heart of the Grands-Fonds, the mare Fidelin is a freshwater pond ringed by vegetation, well off the main routes, which serves as a cool halt on a drive. It is not a large laid-out site or a major attraction, and it is best taken for what it is: a landmark in an area you drive around without a fixed goal, and a good excuse to stop and look at the landscape. It is also one of the few places in the commune where you can eat something quietly among the hills rather than in the built-up area below.",
+      },
+      {
+        heading: "The town and local life",
+        body: "The centre of Les Abymes has no monumental heritage and does not pretend to: it is a town of housing, services and shops, with a market, a church, a dense network of associations and the Sonis cultural centre, which hosts shows, concerts and events. Local programming, sporting life — the commune has a genuine basketball tradition — and neighbourhood festivals are what actually happens here. If you want to see Guadeloupe as it is lived rather than as it is photographed, this is the place, and not the seafront at Sainte-Anne.",
+      },
+      {
+        heading: "The market and the Guadeloupean table",
+        body: "As everywhere in the archipelago, the market is the best way into the commune: fruit, root vegetables, spices, colombo, bois d'Inde, chillies, fish. On the table, Les Abymes has a concentration of neighbourhood restaurants that are cheap and make no concessions to tourism: salt-cod accras, creole boudin, bokit — the fried Guadeloupean sandwich, eaten standing — colombo de cabri, court-bouillon, dombrés aux ouassous. The lolos and the roadside vans are often better than menus translated into three languages. It is also a good place for the first or last meal of a trip, because of the airport.",
+      },
+      {
+        heading: "Pointe-à-Pitre, Morne-à-l'Eau, and getting around",
+        body: "Two immediate neighbours round out a day. Pointe-à-Pitre, of which Les Abymes is the continuous suburb, holds the Mémorial ACTe on slavery and the slave trade, the spice market and the old centre: that is where the urban heritage of the area is. Morne-à-l'Eau, to the north, has the most photographed cemetery in Guadeloupe, its black-and-white chequerboard tombs tiered like an amphitheatre — a working burial ground, to be visited with corresponding restraint, and particularly alive at Toussaint. Neither is in the commune, but both are minutes away. Guadeloupe Pôle Caraïbes airport is on the commune, which makes Les Abymes the archipelago's point of entry and, incidentally, a very practical base for a first or last night. A car is essential, and you have to reckon with congestion: the Pointe-à-Pitre–Les Abymes–Baie-Mahault conurbation holds most of Guadeloupe's jobs and jams at peak times, morning and late afternoon. The carême, roughly December to April, is the dry season; the hivernage, June to November, is wet and covers the cyclone season. And if you keep one thing from the commune: the mangrove, which you will not see anywhere else at this scale.",
+      },
+    ],
+    relatedCities: ["les-abymes", "pointe-a-pitre", "baie-mahault"],
+    tags: ["things to do in les abymes", "les abymes", "travel", "city guide", "guadeloupe"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed
