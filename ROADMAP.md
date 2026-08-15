@@ -1413,6 +1413,72 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ## Shipped 2026-08-15
 
+- **R13.2 Palmarès mensuel — édition d'octobre 2026 : le taux d'effort logement réel** ✅ —
+  Quatrième édition de la série mensuelle, guide `palmares-octobre-2026-taux-effort-logement`
+  (`category: "budget"`, 8 sections, 2 511 mots). Le thème annoncé par l'édition de septembre a été
+  honoré tel quel : le loyer rapporté non plus à un score mais **au niveau de vie médian que l'Insee
+  publie commune par commune** (Filosofi 2021, `data/city-income.json` via `lib/city-income.ts`).
+  `GUIDES` 955 → 956, `data/search-index.json` régénéré (956 guides), sitemap FR 29 020 → 29 021.
+  Aucune page `/tags/[slug]` créée : les 5 tags du guide sont sous le seuil de 3 guides.
+
+  **Le dénominateur est toute la difficulté, et c'est là que l'édition pouvait devenir fausse.**
+  `medianIncome` est un **niveau de vie par unité de consommation**, pas un revenu de ménage : le
+  diviser tel quel par un loyer de T3 aurait publié un taux d'effort presque doublé, sous un nom qui
+  annonce autre chose. Le ménage de référence est donc explicite dans le guide — un couple avec un
+  enfant de moins de 14 ans, soit **1,8 UC** sur l'échelle OCDE modifiée, qui occupe un T3 — et le
+  revenu est reconstitué comme `niveau de vie × 1,8`. Le choix du ménage ne décide pas du classement :
+  refait pour une personne seule en T1, la corrélation de rang est de **0,99** ; pour un couple sans
+  enfant en T2, elle dépasse encore 0,99. **Ne pas rouvrir ce débat**, il est mesuré.
+
+  **Périmètre : 357 communes, pas 363.** Le filtre de septembre (pop ≥ 20 000) est repris, mais six
+  communes n'ont pas de niveau de vie publié et sortent : Les Abymes, Baie-Mahault, Cayenne,
+  Saint-Laurent-du-Maroni et Mamoudzou (hors champ Filosofi), plus Pierrefitte-sur-Seine (fusionnée
+  dans Saint-Denis en 2025). Le guide les nomme plutôt que d'annoncer un total rond.
+
+  **Résultats.** Médiane 31,1 %, quartiles 27,1 % et 35,7 %, de **Aurillac 17,1 %** à **Paris 62,8 %**.
+  5 villes sous 20 %, 56 sous 25 %, 135 au-dessus du tiers du revenu dont **86 franciliennes**.
+  L'Île-de-France aligne 114 villes éligibles et **une seule dans les cent premières** (Montmorency,
+  99e). Aucune commune de plus de 100 000 habitants ne descend sous 25 % ; le peloton de tête est
+  Limoges 74e, Brest 81e, Saint-Étienne 89e, Le Mans 91e.
+
+  **L'apport éditorial est la divergence loyer / effort**, mesurée et pas seulement affirmée :
+  corrélation de rang de **0,79** entre le classement des loyers T3 et celui du taux d'effort. Roubaix
+  a le 36e loyer le moins cher et le 197e taux d'effort ; Saint-Benoît (La Réunion) passe du 69e rang
+  au 270e ; à l'inverse Sceaux passe du 329e loyer au 103e effort, Vertou du 161e au 27e. La paire la
+  plus lisible : Mulhouse loue son T3 **moins cher** que Le Havre (780 € contre 870 €) et le logement
+  y pèse **plus lourd** (31,3 % contre 28,7 %).
+
+  **Une prévision de l'édition de septembre est corrigée à découvert, section dédiée.** Septembre
+  pariait que plusieurs villes de son top 20 perdraient des places ici, un loyer bas sur un revenu bas
+  ne faisant pas un logement abordable. Les 20 se classent en réalité **entre la 1re et la 72e place
+  sur 357**. Le raisonnement valait, la prévision non, et le guide le dit avec l'explication : ces
+  préfectures rurales ont des niveaux de vie proches de la médiane (21 420 €), le décrochage se joue
+  ailleurs. Garder ce cadrage si l'édition est reprise — c'est le seul endroit du corpus où le site
+  se dédit d'une annonce publiée.
+
+  **Trois limites portées dans le guide, à ne pas diluer** : ① revenus au millésime **Filosofi 2021**
+  contre loyers 2026, donc les taux absolus sont **surestimés** et seul le classement tient (le décalage
+  s'applique aux 357 villes de la même façon) ; ② le loyer est un **loyer de marché**, donc un coût
+  d'entrée pour qui arrive, pas ce que paient les locataires en place ni un loyer social ; ③ le revenu
+  disponible Insee **inclut les prestations, aides au logement comprises**, ce qui joue en sens inverse
+  et allège l'effort réel des ménages modestes. S'y ajoutent les charges et l'énergie, hors calcul, et
+  le rappel que la médiane communale n'est pas tout le monde.
+
+  **Contrôles.** `npx tsc --noEmit` propre, `npm run integrity` propre (956 FR / 628 EN, 0 score brut
+  recopié), `npm run search-index:check` propre, `npm run sitemap:check` propre dans les deux sens et
+  les deux locales. Vérification des chiffres **à travers les modules** (`npx tsx` important
+  `@/data/cities-seed`, `@/data/housing`, `@/lib/city-income`), jamais par grep du seed : script de
+  contrôle rejouant le classement et relisant le corps du guide — les **20 lignes du top 20** (loyer,
+  niveau de vie, taux) et les **30 rangs cités** au format « Ne à X,X % » correspondent exactement.
+  Départage à égalité de score par `name.localeCompare(…, "fr")`, comme le hub parent solo.
+  `metaTitle` 55 caractères, `metaDesc` 156, **zéro tiret cadratin dans le corps** (R7.10), densité
+  d'accents 0,144. Pas d'édition EN : la série palmarès est une motion FR, comme `/badge`.
+
+  **Prochaine édition (novembre 2026), annoncée dans le guide et donc à honorer** : la **population
+  municipale réelle** publiée par l'Insee aux millésimes 2011 / 2016 / 2022
+  (`data/city-population.json` via `lib/city-population.ts`, 538/540 villes), croisée avec nos scores.
+  Le guide pose la question sans en promettre la réponse, après la leçon de septembre.
+
 - **Parité EN — série `single-parent-in-[city]-2026` REFERMÉE (batch 3, +9 : Villeurbanne,
   Besançon, Caen, Brest, Tours, Limoges, Clermont-Ferrand, Saint-Étienne, Le Havre)** ✅ —
   La série avait été fermée le 10/08 à 20 FR / 20 EN. Le batch 3 FR du 14/08 (`fb0b219`) a

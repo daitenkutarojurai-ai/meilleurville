@@ -3777,6 +3777,11 @@
       "emoji": "🏆"
     },
     {
+      "slug": "palmares-octobre-2026-taux-effort-logement",
+      "title": "Palmarès octobre 2026 : les 20 villes où le logement pèse le moins sur le revenu local",
+      "emoji": "🏆"
+    },
+    {
       "slug": "retraite-a-dinan-2026",
       "title": "Retraite à Dinan en 2026 : santé, logement, budget, le guide",
       "emoji": "🌅"
@@ -5414,6 +5419,11 @@
       "count": 4
     },
     {
+      "slug": "classement-mensuel-villes-france",
+      "label": "classement mensuel villes France",
+      "count": 4
+    },
+    {
       "slug": "colmar",
       "label": "Colmar",
       "count": 4
@@ -5656,11 +5666,6 @@
     {
       "slug": "charente-maritime",
       "label": "Charente-Maritime",
-      "count": 3
-    },
-    {
-      "slug": "classement-mensuel-villes-france",
-      "label": "classement mensuel villes France",
       "count": 3
     },
     {
