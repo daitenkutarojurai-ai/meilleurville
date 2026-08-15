@@ -1080,7 +1080,7 @@ Tables dans `lib/i18n.ts` : `FR_TO_EN_ROUTE`, `FR_TO_EN_CITY_SUB`, `PARITY_EXCEP
 (asymétries assumées, avec la raison — la liste doit rester courte, sinon « parité » ne veut
 plus rien dire).
 
-### État au 2026-08-13 — **0 route FR sans jumelle EN** (tenu)
+### État au 2026-08-15 — **0 route FR sans jumelle EN** (tenu)
 
 ```
 Routes : FR 217 · EN 165
@@ -1110,11 +1110,16 @@ se comble pas par du SSG dérivé. Le tableau de bord qui compte à partir d'ici
 
 **Depuis le 09/08 le run travaille le corpus, série par série**, en fermant d'abord les
 séries FR qui n'ont aucune jumelle EN — c'est là que l'écart se creuse le plus vite. État :
-`single-parent-in-[city]-2026` **fermée le 10/08** (20 FR / 20 EN, batch 1 le 09/08, batch 2
-le 10/08). `vacances-celibataire-[ville]-2026` **ouverte le 13/08** sous le nom
-`solo-travel-in-[city]-2026` (15 FR / 8 EN, batch 1) — batch 2 = Rennes, Bayonne,
-Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle. Séries FR suivantes sans aucune
-jumelle EN : `vacances-monoparentales-[ville]-2026` (7 FR / 0 EN) et le croisement
+`solo-travel-in-[city]-2026` **fermée le 14/08** (15 FR / 15 EN).
+`single-parent-in-[city]-2026`, fermée une première fois le 10/08 à 20/20, **rouverte par le
+batch 3 FR du 14/08 (+9) puis refermée le 15/08** (29 FR / 29 EN).
+
+⚠️ **Une série « fermée » ne le reste pas.** C'est le deuxième mode de régression de ce
+chantier, distinct de celui des routes et moins visible : `npm run parity` sort en code 0
+pendant qu'une série FR déjà mise en miroir repart de neuf côté français. Aucun contrôle
+automatique ne le signale — il faut re-differ les deux corpus par série à chaque run, ce qui
+est précisément pourquoi le prompt dit de mesurer et non de réciter. Séries FR restant sans
+aucune jumelle EN : `vacances-monoparentales-[ville]-2026` (7 FR / 0 EN) et le croisement
 mois × profil, qui a sa route EN mais pas de guides.
 
 **Écart de contenu, distinct de l'écart de routes** : guides 903 FR / 532 EN, tags 239 / 74.
@@ -1403,6 +1408,69 @@ signal thématique du domaine. Noindex ou suppression — décision produit, pas
 
 **Routine** : `meilleurville-parite-en`, quotidienne 04:25 UTC, `npm run parity` comme
 tableau de bord, une route par run, sortie du contrôle collée dans chaque message de commit.
+
+---
+
+## Shipped 2026-08-15
+
+- **Parité EN — série `single-parent-in-[city]-2026` REFERMÉE (batch 3, +9 : Villeurbanne,
+  Besançon, Caen, Brest, Tours, Limoges, Clermont-Ferrand, Saint-Étienne, Le Havre)** ✅ —
+  La série avait été fermée le 10/08 à 20 FR / 20 EN. Le batch 3 FR du 14/08 (`fb0b219`) a
+  ajouté 9 villes côté français, rouvrant un écart de 9 le jour même. Il est refermé :
+  **29 FR / 29 EN**, `EN_GUIDES` 619 → 628.
+
+  **La leçon du run est dans ce cycle**, et elle est notée en tête de section : `npm run parity`
+  est sorti en **code 0** au début comme à la fin, parce qu'il mesure les *routes* et qu'aucune
+  route ne manquait. L'écart était dans le corpus, sur une série que la roadmap déclarait close.
+  Un run qui se serait fié au tableau de bord seul serait passé à côté et serait allé écrire
+  `vacances-monoparentales` (7 FR / 0 EN), laissant l'écart parent-solo dériver. **Le diff par
+  série, refait à chaque run, est le seul contrôle qui voit ça.**
+
+  **Vérification des chiffres avant rédaction, pas après.** Les 9 guides FR citent le composite
+  parent solo, le rang sur 363 communes, les quatre axes, les loyers T1/T2/T3, le prix au m² et
+  le revenu net minimum. Tous ont été relus **à travers les modules** (`npx tsx` important
+  `@/data/cities-seed`, `@/data/housing`, `@/lib/parent-solo`), jamais par grep du seed — les
+  36 scores d'axes, les 9 loyers T3, les 9 seuils de revenu et les 9 ratios €/point d'écoles
+  correspondent exactement. Les **rangs** ne tombaient d'abord pas juste (Tours 39 au lieu de 49) :
+  la cause est le départage, `app/parent-solo/page.tsx` triant à égalité de score par
+  `name.localeCompare(…, "fr")`. Rejoué avec ce départage, les 9 rangs FR sont exacts et ont donc
+  pu être repris. **Ne pas classer les villes à égalité sans ce tiebreak.**
+
+  Contrôle croisé automatisé FR↔EN sur les 9 paires (règle 5 : deux alternates hreflang ne
+  peuvent pas afficher deux nombres différents) : **64 scores et 122 montants en euros, zéro
+  écart**. `npm run integrity` confirme **0 score brut recopié des deux côtés**.
+
+  **Écrit en anglais natif depuis les faits des guides FR, aucun chiffre qui n'y soit.**
+  `metaTitle` 51-55 caractères, `metaDesc` 134-149, 6 sections par guide (même découpage que le
+  FR, contrairement aux batches tourisme qui fusionnent), **zéro tiret cadratin dans le corps**
+  (R7.10). Aucun tag nouveau : les 9 réutilisent `auvergne-rhone-alpes` ×3, `normandy` ×2,
+  `bourgogne-franche-comte`, `brittany`, `centre-val-de-loire`, `nouvelle-aquitaine` — le compte
+  de tags EN reste à **82**, aucune page `/tags/[slug]` créée. `npm run search-index` relancé
+  (`data/search-index.en.json` 628 guides).
+
+  **Cinq apports propres au lecteur anglophone**, absents du FR parce qu'inutiles à un lecteur
+  français : la glose du **T3** (les logements français se comptent en pièces hors cuisine et
+  salle de bains, donc séjour + deux chambres) ; le fait que **Villeurbanne est une commune
+  distincte de Lyon** avec sa propre mairie et sa propre administration scolaire, mais sur le
+  même réseau TCL au même tarif — quelqu'un qui cherche « Lyon » depuis l'étranger ne la verra
+  jamais, alors qu'elle coûte 230 € de moins par mois ; le renversement de l'intuition
+  « centre historique = agréable à vivre » sur **Caen et Le Havre**, dont les centres
+  reconstruits d'après-guerre offrent de vrais T3 familiaux traversants là où les centres
+  anciens ne proposent que des surfaces découpées ; la reformulation de l'argument famille à
+  **Brest**, le FR disant que la famille éloignée est souvent le seul relais de garde, ce qui
+  frappe autrement un parent dont la famille est déjà dans un autre pays ; et la glose de
+  **CAF / quotient familial / périscolaire / carte scolaire / maternité de niveau III**, plus
+  le rappel que le critère de priorité famille monoparentale **se déclare** et ne se déduit pas
+  d'un dossier — point qui compte davantage pour un parent étranger, dont le dossier ne signale
+  rien par défaut.
+
+  Contrôles : `npx tsc --noEmit` propre, `npm run integrity` propre (955 FR / 628 EN),
+  `npm run search-index:check` propre, `npm run sitemap:check` propre dans les deux sens
+  (29 020 URL FR inchangé / 28 487 EN, soit +9 côté EN et rien de bougé côté FR),
+  `npm run parity` en code 0. **Prochain run** : la série est close, donc reprendre la tête de
+  la liste des séries FR sans miroir EN — `vacances-monoparentales-[ville]-2026` (7 FR / 0 EN)
+  est le candidat, **à re-mesurer avant de choisir**, et en re-differrant aussi les séries
+  déjà fermées.
 
 ---
 

@@ -22767,6 +22767,366 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["toulon", "hyeres", "la-seyne-sur-mer", "six-fours-les-plages", "sanary-sur-mer"],
     tags: ["single parent toulon", "single parent in france", "expat single parent", "moving to france", "provence-alpes-cote-d-azur"],
   },
+  {
+    slug: "single-parent-in-villeurbanne-2026",
+    title: "Single Parent in Villeurbanne (2026): the Best Transport in France, if the Income Follows",
+    metaTitle: "Single Parent in Villeurbanne 2026: Transport, Rent",
+    metaDesc: "Raising a child alone in Villeurbanne in 2026: transport 9.0/10, schools 7.7/10, T3 at €1,150 and a €3,500 net floor. The trade-off, in figures.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 9,
+    publishedAt: "2026-08-15",
+    updatedAt: "2026-08-15",
+    intro: "Villeurbanne scores 6.8/10 on the site's single-parent composite, 21st of the 363 French communes above 20,000 inhabitants that we rank. The breakdown is deliberately lopsided: transport 9.0/10, the top of the scale, schools 7.7/10, safety 5.7/10, but cost of living only 5.4/10 (source: data/cities-seed.ts). The city solves the mobility problem brilliantly when there is nobody else to collect the child, and it charges for it. A T3 (living room plus two bedrooms, the standard French family flat) averages €1,150/month (source: data/housing.ts), which puts the estimated minimum net income at €3,500/month under the one-third rule applied by lib/parent-solo.ts. That is the highest entry threshold of the nine cities in this batch, and it is the first number to look at.",
+    sections: [
+      {
+        heading: "What the composite measures, and where Villeurbanne breaks",
+        body: "The single-parent composite weights four axes only: cost 0.30, schools 0.25, safety 0.25, transport 0.20. Nature, culture and remote-work capacity are deliberately excluded, because they do nothing about the question of who picks the child up at 6pm. Villeurbanne comes out at 6.8/10, in the « Bien » band: three of the four levers are aligned. The fourth, cost, carries the heaviest weight in the formula, and that is exactly where the city drops to 5.4/10. Its all-axis overall score reaches 7.1/10 and culture 8.4/10, but those points do not pay rent. The honest reading: Villeurbanne is an excellent city for a single parent who earns enough, and out of reach for one who does not. There is no grey zone, and the line runs through the payslip.",
+      },
+      {
+        heading: "A separate commune on Lyon's network, at Lyon minus €230",
+        body: "This is the point a foreign reader cannot guess from a map. Villeurbanne is not a Lyon district, it is its own commune with its own mayor, town hall and school administration, but it sits inside the Lyon metropolitan area and is served by the same TCL network at the same fares. Lyon metro lines A and B cross its territory at Charpennes, and several tram lines run through it. Anyone searching for « Lyon » from abroad will never see it. The average T3 in Lyon proper is €1,380 against €1,150 here (source: data/housing.ts): staying in Villeurbanne saves €230/month, or €2,760 a year, on identical service, because it is the same service. On a single income that gap is not cosmetic. Across the three districts recorded in data/neighborhoods.ts, Cusset has the cheapest T2 at €820, ahead of Charpennes at €870 and Gratte-Ciel at €900.",
+      },
+      {
+        heading: "The real argument: 9.0/10 on transport",
+        body: "Villeurbanne scores 9.0/10 on transport, the ceiling of the site's scale. What that buys a lone adult is measured in margin for error rather than in minutes: when the crèche calls, when the return train is late, when the child needs a doctor on a Tuesday afternoon, there is always a second route. That is precisely what the composite rewards at a weight of 0.20, and what most of the cheap cities in this batch cannot offer. All three recorded districts are well served, Gratte-Ciel and Charpennes best of all. The less pleasant corollary: nature scores 4.3/10, the lowest of the batch. Villeurbanne is a dense city, and the weekend outdoors is a regional-train ride or a car share away, not the end of the street.",
+      },
+      {
+        heading: "Schools: 7.7/10, second-best in this batch",
+        body: "At 7.7/10 Villeurbanne ranks second of the nine cities here, behind Tours. Set against rent the indicator is less flattering: €149 of T3 rent per point of school score, the worst ratio of the nine, where Brest falls to €115. That is the numerical version of what everyone discovers while flat-hunting in the Lyon area, namely that you pay for the school network twice, once through tax and once through rent. On the ground the density of state schools is high in all three recorded districts, and the commune is young, with INSA and university campuses feeding an unusually deep supply of association-run after-school activities. Canteen and périscolaire (the before- and after-school care run by the commune) are billed on the CAF income bracket, as everywhere in France. CAF is the national family-benefits agency, and the bracket is your quotient familial. We do not publish a fee scale because we do not hold that data, and an invented scale is worse than none. Ask the commune's education department directly, and state the single-parent situation explicitly on the file.",
+      },
+      {
+        heading: "Safety: 5.7/10, filter street by street",
+        body: "Villeurbanne scores 5.7/10 on safety, a middling figure covering very different situations by sector. The three districts documented in data/neighborhoods.ts hold up: Gratte-Ciel and Charpennes carry the best recorded safety marks in the commune, Cusset a notch below. Those are district scores on their own scale, not comparable with the 5.7/10 communal figure. The practical advice is the same as in any large French agglomeration and has nothing to do with raising a child alone: pick a flat one or two buildings off the nightlife axes rather than on them, and walk the route home once after 9pm before signing. The site publishes no « districts to avoid » list, and that is not squeamishness: data/neighborhoods.ts covers three districts per commune, far short of what passing judgement on a place where real people live would require.",
+      },
+      {
+        heading: "The verdict: who Villeurbanne works for",
+        body: "Villeurbanne works for a single parent above €3,500 net a month who needs a transport network that absorbs the unexpected. Managers in the Lyon metro area, hospital health professionals, university teaching staff, remote workers who have to reach Part-Dieu twice a week: on those profiles it is one of the best choices in France, and the €230 monthly saving against Lyon proper is an argument on its own. It does not work below that income threshold, and it is better to know before the viewings than during. In that case the reasonable alternatives in this batch are Brest, Besançon or Caen, which lower the entry threshold by €700 to €900 a month at the cost of two to three points of transport. The per-city page at /cities/villeurbanne/single-parent gives the axis-by-axis calculation.",
+      },
+    ],
+    relatedCities: ["villeurbanne", "lyon", "bron", "saint-priest", "vaulx-en-velin"],
+    tags: ["single parent villeurbanne", "single parent in france", "expat single parent", "moving to france", "auvergne-rhone-alpes"],
+  },
+  {
+    slug: "single-parent-in-besancon-2026",
+    title: "Single Parent in Besançon (2026): the Compact City That Buys Back Time",
+    metaTitle: "Single Parent in Besançon 2026: Rent, Tram, Schools",
+    metaDesc: "Raising a child alone in Besançon in 2026: T3 at €900, schools 7.4/10, a tram since 2014, €2,750 net floor. No weak axis below 5.7/10.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-15",
+    updatedAt: "2026-08-15",
+    intro: "Besançon scores 6.6/10 on the single-parent composite, 28th of the 363 communes above 20,000 inhabitants. It is a rare profile because it has no hole in it: cost 6.4/10, transport 7.0/10, schools 7.4/10, safety 5.7/10 (source: data/cities-seed.ts). None of the four drops below 5.7, which is exactly what you want when you are the only one carrying everything and a single weak point is enough to derail a week. The average T3 is €900 and the purchase price €2,300 per square metre (source: data/housing.ts), setting the estimated minimum net income at €2,750/month. That is €750 less than Villeurbanne, in exchange for three points of transport.",
+    sections: [
+      {
+        heading: "A profile with no hole, which is rarer than it sounds",
+        body: "Most affordable French cities pay for their cost of living in safety or in transport. Besançon does not: the lowest of its four single-parent axes is safety at 5.7/10, and the spread between its best and worst axis is 1.7 points. For comparison inside this same batch, Saint-Étienne spreads 2.8 points between its cost of living and its safety, and Villeurbanne 3.6 points between its transport and its cost. That evenness is worth more than an isolated peak to a lone parent, because daily life fails at its weakest link and not at its average. The commune's all-axis overall score is 6.5/10, nature 6.4/10 and quality of life 6.6/10, which confirms there is no hidden trade-off somewhere else.",
+      },
+      {
+        heading: "A T3 at €900: the income floor and the districts",
+        body: "The average Besançon T3 is €900, the T2 €680 and the T1 €490; the purchase price per square metre is €2,300 (source: data/housing.ts). French flats are counted by total rooms excluding kitchen and bathroom, so a T3 is a living room plus two bedrooms. The estimated minimum net income from lib/parent-solo.ts is €2,750/month, on the one-third rule. That threshold is within reach of a category-A civil service salary, of a nurse with seniority, or of one half of a two-income household in many post-separation configurations. The three districts recorded in data/neighborhoods.ts show the internal spread: Planoise has the cheapest T2 at €600, La Boucle, the historic core wrapped inside the loop of the river Doubs, the dearest at €760, and Vélotte sits between them at €730 with the best recorded safety mark of the three. The €160 monthly gap between Planoise and La Boucle is close to €2,000 a year, which is the kind of trade-off that becomes real on one income.",
+      },
+      {
+        heading: "Getting around: the tram, and above all the compactness",
+        body: "Besançon scores 7.0/10 on transport. It has had a tram since 2014, running east to west across the agglomeration, backed by the Ginko bus network. But the real asset is not the rolling stock, it is the geography: the centre fits inside the loop of the Doubs, and the city is small enough that most home-school-work trips take under twenty minutes. For a single parent, compactness is often worth more than reach, because lost time cannot be recovered and there is nobody to take over. The flip side is that the agglomeration is hemmed in by hills, which limits how far car-free districts extend. Beyond the first ring a car becomes necessary again, and its cost has to go back into the calculation before concluding that an outlying flat is a bargain.",
+      },
+      {
+        heading: "Schools: 7.4/10 for €122 of rent per point",
+        body: "Besançon scores 7.4/10 on schools, level with Brest and Caen in this batch. Against rent that gives €122 of T3 per point of score, the third-best ratio of the nine, behind Brest at €115 and Tours at €119. It says something simple: in Besançon the quality of the school network is not charged at a premium. The city is a university town, which usually translates into a denser supply of after-school and association activities than a prefecture of comparable size. As everywhere, canteen and périscolaire are billed on the CAF income bracket; the scales are not in our data and we do not invent them. The procedural step, identical in every commune in this batch: state the single-parent status explicitly on the crèche and after-school application, because it is a priority criterion that is claimed rather than inferred. That matters more for an incoming foreign parent than for a local, since nothing in an arriving file signals it by default.",
+      },
+      {
+        heading: "Safety: 5.7/10, upper-middle for a city this size",
+        body: "At 5.7/10 Besançon sits in the upper-middle range for cities of its size and level with Brest and Villeurbanne in this batch. It is a decent score, not an outstanding one, and it justifies neither worry nor complacency. Of the three documented districts, Vélotte and La Boucle carry the best recorded safety marks and Planoise the lowest of the three, which also explains its lower rent. Those district marks are on their own scale and do not compare with the communal figure. The useful reflex for a single parent is still to walk the route home once in real conditions, on a weekday evening, with the child, before signing a lease. It is more informative than any score, including ours.",
+      },
+      {
+        heading: "The verdict: one of the best value cases in the ranking",
+        body: "Besançon works from €2,750 net a month, and works well. It is a rational choice for a single parent in the state or hospital civil service, in university and research roles, and in the health professions, with a teaching hospital that structures a large share of local employment. It works less well for profiles needing a deep private-sector managerial market, where the Lyon area is out of comparison, and for anyone who wants sun, the Franche-Comté winter being no rumour. Inside this batch its direct rivals are Caen, on the same composite with slightly better safety and a T3 €30 dearer, and Brest, at 6.5/10 with rent €50 lower. The three are close, and the tiebreaker is the job market and the geography, not the scores. The calculation is on /cities/besancon/single-parent.",
+      },
+    ],
+    relatedCities: ["besancon", "dole", "pontarlier", "montbeliard", "dijon"],
+    tags: ["single parent besancon", "single parent in france", "expat single parent", "moving to france", "bourgogne-franche-comte"],
+  },
+  {
+    slug: "single-parent-in-caen-2026",
+    title: "Single Parent in Caen (2026): the Best Safety Score in the Batch, at €930",
+    metaTitle: "Single Parent in Caen 2026: Safety, Rent, Schools, Tram",
+    metaDesc: "Raising a child alone in Caen in 2026: safety 5.9/10, schools 7.4/10, T3 at €930, €2,800 net floor. The best-balanced file of the nine.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-15",
+    updatedAt: "2026-08-15",
+    intro: "Caen scores 6.6/10 on the single-parent composite, 29th of 363 ranked communes. Its main argument is one figure: 5.9/10 on safety, the best of the nine cities in this batch after Limoges, and the best among those above 100,000 inhabitants (source: data/cities-seed.ts). The rest follows without a weak spot: schools 7.4/10, transport 7.0/10, cost of living 6.2/10. The average T3 is €930 and the purchase price €2,500 per square metre (source: data/housing.ts), putting the estimated minimum net income at €2,800/month. Fifteen kilometres from the sea, with a steel-rail tram since 2019 and a teaching hospital anchoring local employment, it is one of the best-balanced files in the ranking.",
+    sections: [
+      {
+        heading: "Why safety weighs so heavily in this calculation",
+        body: "The single-parent composite gives safety a weight of 0.25, level with schools and ahead of transport. That is not a moral choice but a practical consequence: the late school pickup, the walk back from an evening activity, the wait at a bus stop at 7pm in winter are situations a lone parent faces with no relief available. Caen comes out at 5.9/10 on that axis, above every other city in this batch over 100,000 inhabitants: Villeurbanne and Brest are at 5.7, Tours and Clermont-Ferrand at 5.5, Le Havre at 4.5, Saint-Étienne at 4.3. The gap with those last two is not trivial, worth 1.4 to 1.6 points on an axis weighted at a quarter. Its overall composite of 6.6/10 owes a great deal to that single number, which is precisely what the ranking is meant to surface.",
+      },
+      {
+        heading: "A T3 at €930: the calculation and the spread between districts",
+        body: "The average Caen T3 is €930, the T2 €700 and the T1 €510; a square metre to buy costs €2,500 (source: data/housing.ts). lib/parent-solo.ts derives an estimated minimum net income of €2,800/month. The three districts documented in data/neighborhoods.ts are tightly clustered on price, which is good news: Beaulieu has the cheapest T2 at €670, Folie-Couvrechef follows at €690 and the rebuilt centre at €720. Fifty euros a month between cheapest and dearest is very little, and it means you are not forced to choose between budget and location the way you are in a tight metro market. The post-war rebuilt centre also has a useful property no score captures, and one that runs against a foreign reader's instinct: its buildings are wide, often dual-aspect, with genuine family-sized T3s, where the historic cores of other French cities offer only subdivided floor plates. « Historic » and « liveable with a child » are not the same thing here.",
+      },
+      {
+        heading: "Transport: 7.0/10, a tram and a legible agglomeration",
+        body: "Caen scores 7.0/10 on transport. The tram was rebuilt as a conventional steel-rail system and reopened in 2019, replacing the earlier rubber-tyred guided vehicles, and it is backed by the Twisto bus network. Two lines structure the agglomeration north to south, serving the campus, the teaching hospital and the centre. For a single parent the interest is less total coverage than legibility: few interchanges, straight axes, a centre you cross on foot. The train reaches Paris in around two hours, which makes remote work with a weekly office day workable without being comfortable. The sea is about fifteen kilometres away, reachable by bus and regional train towards Ouistreham and the coast, which matters for the weekends you have to fill for a child without turning it into a logistics exercise. Nature scores 5.6/10, a middling figure reflecting a fairly mineral city offset by close countryside.",
+      },
+      {
+        heading: "Schools: 7.4/10, €126 of rent per point",
+        body: "At 7.4/10 Caen sits level with Brest and Besançon. The rent-to-school-score ratio works out at €126 of T3 per point, fourth in this batch of nine. It is a long-established university town and the association-run after-school supply is proportionate. As in every commune here, canteen and périscolaire fees depend on the CAF income bracket, and we publish no scale we do not hold. The point not to miss is procedural and identical everywhere: single-parent status opens a priority criterion for crèche places, but it has to be declared explicitly on the application, it is not inferred from the rest of the file. Applications go to the commune's early-years department, and it is worth starting very early, since pressure on crèche places is general across France and not specific to Caen.",
+      },
+      {
+        heading: "Safety: what the 5.9/10 says in detail",
+        body: "The three recorded districts hold up well: the rebuilt centre carries the best recorded safety mark of the three, ahead of Beaulieu and Folie-Couvrechef, which sit level with each other. Those are district scores, on the scale proper to data/neighborhoods.ts, and must not be confused with the 5.9/10 communal figure. Three districts obviously do not cover a city of 109,000 people, and that is why the site publishes no « districts to avoid » series: passing judgement on a place where real people live demands a granularity we do not have. What the data does support is that Caen compares favourably with every city of its size in this batch, and that the filtering required here is looser than in Le Havre or Saint-Étienne.",
+      },
+      {
+        heading: "The verdict: who Caen works for",
+        body: "Caen works from €2,800 net a month, for a single parent who puts safety and a legible daily routine ahead of the depth of the job market. Hospital civil service around the teaching hospital, teaching, university, regional administration, the voluntary sector: those are the profiles it fits best. It also works for a remote worker who accepts two hours by train to Paris twice a month rather than twice a week. It works less well for tech, finance or luxury, where the local pool is thin, and for anyone wanting a metro-grade transport network, where Villeurbanne is two points ahead. Its direct rivals in this batch are Besançon, level on the composite with rent €30 lower, and Brest, €80 a month cheaper with the same school score. The detail is on /cities/caen/single-parent.",
+      },
+    ],
+    relatedCities: ["caen", "le-havre", "rouen", "cherbourg", "saint-lo"],
+    tags: ["single parent caen", "single parent in france", "expat single parent", "moving to france", "normandy"],
+  },
+  {
+    slug: "single-parent-in-brest-2026",
+    title: "Single Parent in Brest (2026): the Best Schools-to-Rent Ratio in France",
+    metaTitle: "Single Parent in Brest 2026: T3 €850, Schools 7.4/10",
+    metaDesc: "€115 of rent per point of school score, the best in the ranking. T3 at €850, €2,600 net floor, schools 7.4/10. The catch is the map, not the numbers.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-15",
+    updatedAt: "2026-08-15",
+    intro: "Brest scores 6.5/10 on the single-parent composite and ranks 38th of the 363 communes above 20,000 inhabitants. The figure that sets it apart is not in the composite: it is the relation between its school score, 7.4/10, and its average T3 rent, €850 (sources: data/cities-seed.ts and data/housing.ts). That is €115 of rent per point of school score, the best ratio of the nine cities here, ahead of Tours at €119 and Besançon at €122. The estimated minimum net income drops to €2,600/month, €900 below Villeurbanne. The catch is not in the scores, it is geographic: Brest is at the tip of Finistère, and that is not a detail when you organise a child's life alone.",
+    sections: [
+      {
+        heading: "The calculation: four axes, no black spot",
+        body: "Brest shows cost 6.4/10, transport 6.4/10, schools 7.4/10 and safety 5.7/10 (source: data/cities-seed.ts). Like Besançon it has no hole: its lowest axis stays at 5.7, and the spread between best and worst is 1.7 points. Its all-axis overall score is 6.4/10, nature 6.4/10 and quality of life 6.2/10. For a lone parent that regularity is worth more than a peak on one axis offset by a trough on another, because the daily routine always breaks at the weak link. The position, 38th of 363, puts it inside the top forty ranked communes, consistent with a 6.5/10 composite in the « Bien » band.",
+      },
+      {
+        heading: "A T3 at €850: the lowest rent among the well-scored cities",
+        body: "The Brest T3 averages €850, the T2 €650 and the T1 €480; a square metre to buy costs €2,500 (source: data/housing.ts). The estimated minimum net income from lib/parent-solo.ts is €2,600/month, second-lowest in this batch behind Saint-Étienne (€2,350) and Limoges (€2,400), but with two more points of safety than either and 1.6 more points of schools than Saint-Étienne. That crossing is what makes Brest interesting: it offers the price level of the struggling cities without their weaknesses. Of the three documented districts, Recouvrance has the cheapest T2 at €620, on the right bank of the river Penfeld looking over the naval roadstead, Europe and Rive Droite follows at €660, and Saint-Martin, the most residential of the three with the best recorded safety mark, at €720. A hundred euros a month between first and last leaves real room to manoeuvre.",
+      },
+      {
+        heading: "Transport: 6.4/10, a tram and a cable car",
+        body: "Brest scores 6.4/10 on transport, a middling figure covering a network more complete than the city's size would suggest. The tram opened in 2012 and crosses the city east to west; an urban cable car, opened in 2016 and integrated into the Bibus network at bus fare, spans the Penfeld and links the two banks without detouring via the bridges. For a single parent living in Recouvrance or on the right bank, that link changes the length of a daily trip outright. The 6.4 mostly reflects distance: Brest is far from everything else, the high-speed train takes over three hours to Paris, and a weekend at the grandparents' at the other end of the country costs a full day of travel each way. For a lone parent that is a real parameter, because distant family is often the only backup childcare available. For a parent who has moved to France from abroad the point cuts differently and harder: that backup is already in another country, so the three hours to Paris matter mainly for the airport, not for the grandparents.",
+      },
+      {
+        heading: "Schools: 7.4/10 on €850 of rent",
+        body: "This is the core of the Brest case. At 7.4/10 on schools it matches Caen and Besançon, but on rent €50 to €80 lower, hence the €115-per-point ratio that is the best of the nine. The city hosts the Université de Bretagne Occidentale and a dense associative fabric, which usually means a full and cheap after-school offer. As elsewhere, canteen and périscolaire are billed on the CAF income bracket and we publish no scale we do not hold. The step not to forget is the same: flag single-parent status on the crèche and after-school application, a priority criterion that only applies if it is declared. The Brest teaching hospital provides paediatrics and a level-III maternity unit, the highest tier, covering the whole west of the department, which counts when you are alone with a sick child.",
+      },
+      {
+        heading: "Safety: 5.7/10, comparable with Besançon and Villeurbanne",
+        body: "Brest scores 5.7/10 on safety, in the upper-middle range for its size and level with Besançon and Villeurbanne here. The three districts recorded in data/neighborhoods.ts score well on their own scale: Saint-Martin leads, then Europe and Rive Droite, then Recouvrance, which remains the most affordable and whose mark mostly reflects a working-class and steep character rather than any particular problem. Three districts do not cover a city of 139,000 people, so the site offers no blanket verdict on any sector. The concrete advice is to walk the route home on a weekday evening before signing, and to check tram-to-bus connections after 8pm in particular, since they thin out everywhere in France.",
+      },
+      {
+        heading: "The verdict: the best value in the batch",
+        body: "Brest works from €2,600 net a month and is, on paper, the best relation between what you pay and what you get among the nine cities here. It fits state and hospital civil service especially well, naval and shipbuilding trades, marine research around Ifremer and the maritime cluster, and remote workers with no weekly obligation in Paris. It fits badly for anyone who needs to stay within two hours of a large metro area or of a scattered family network, and for anyone counting on sunshine to get through winter. The honest comparison is with Caen and Besançon, €80 and €50 of rent above it for the same school score, in exchange for a far more central position on the map. If distance is not a problem for you, Brest wins. The detail is on /cities/brest/single-parent.",
+      },
+    ],
+    relatedCities: ["brest", "quimper", "lorient", "vannes", "rennes"],
+    tags: ["single parent brest", "single parent in france", "expat single parent", "moving to france", "brittany"],
+  },
+  {
+    slug: "single-parent-in-tours-2026",
+    title: "Single Parent in Tours (2026): the Best School Score in the Ranking",
+    metaTitle: "Single Parent in Tours 2026: Schools 7.9/10, Rent, Tram",
+    metaDesc: "Raising a child alone in Tours in 2026: schools 7.9/10, the best of the batch, T3 at €940, €2,850 net floor and Paris one hour away by TGV.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-15",
+    updatedAt: "2026-08-15",
+    intro: "Tours scores 6.5/10 on the single-parent composite, 49th of the 363 communes above 20,000 inhabitants ranked. Its strength is unambiguous: 7.9/10 on schools, the best of the nine cities here and one of the highest in France (source: data/cities-seed.ts). The rest holds, with transport 7.0/10 and safety 5.5/10, but cost of living slips to 5.9/10. The average T3 is €940 and the purchase price €2,700 per square metre (source: data/housing.ts), setting the estimated minimum net income at €2,850/month. One hour from Paris by high-speed train, with a tram since 2013, Tours is the most complete « well-equipped mid-size city that is not cut off from the capital » in the batch.",
+    sections: [
+      {
+        heading: "7.9/10 on schools: what it is worth in practice",
+        body: "The school score carries a weight of 0.25 in the single-parent composite, level with safety. Tours comes out at 7.9/10, two points above Le Havre and Saint-Étienne in this same batch and two tenths above Villeurbanne. Against T3 rent that gives €119 per point of score, the second-best ratio of the nine behind Brest. In other words Tours does not charge metropolitan prices for its school quality. It has been a university town for a long time, with a medical faculty and a teaching hospital feeding both the training supply and a dense associative after-school fabric. For a single parent the figure matters for a very practical reason: the denser the network of schools, the higher the odds of having a school, a canteen and evening care within walking or tram distance, which cuts the number of trips that cannot be delegated to anyone.",
+      },
+      {
+        heading: "A T3 at €940: the floor and the districts",
+        body: "The Tours T3 is €940, the T2 €700 and the T1 €510; a square metre to buy costs €2,700 (source: data/housing.ts). The minimum net income computed by lib/parent-solo.ts is €2,850/month. That is the third-highest threshold in the batch, behind Villeurbanne (€3,500) and Caen (€2,800), and it follows from a cost-of-living score of 5.9/10 that is the second-lowest of the nine. The three districts documented in data/neighborhoods.ts run from €720 for a T2 in the quartier Bordeaux to €820 in Les Prébendes, with Vieux-Tours at €760 in between. Les Prébendes is the dearest and also carries the best recorded safety mark in the commune, which is the usual correlation. A hundred euros a month separates cheapest from dearest, €1,200 a year, a sum that weighs on a single-income budget.",
+      },
+      {
+        heading: "Transport: 7.0/10, a tram inside and a TGV to Paris",
+        body: "Tours scores 7.0/10 on transport. The tram, in service since 2013, crosses the agglomeration north to south and serves the main hubs, backed by the Fil Bleu bus network. The TGV reaches Paris in about an hour, which puts Tours in the small group of mid-size French cities genuinely compatible with a Paris job on partial attendance. For a single parent that configuration has a particular value: it lets you keep a Paris-basin salary while paying Loire-basin rent, and avoids depending on evening childcare five days a week. The flip side is that a same-day return to Paris is still a long day, and the days you are in the office need a solid childcare plan. Nature scores 5.0/10, the lowest of the batch after Villeurbanne: Tours is a city of plain and river, pleasant but thin on natural space in the site's sense.",
+      },
+      {
+        heading: "Safety: 5.5/10, the usual filtering",
+        body: "Tours scores 5.5/10 on safety, level with Clermont-Ferrand and a notch below Caen and Brest. It is a middling figure, consistent with a university city of 138,000 people whose centre concentrates the nightlife. Of the three recorded districts, Les Prébendes carries the best safety mark, residential and quiet, ahead of Vieux-Tours and the quartier Bordeaux, which sit level. Those marks are on the scale proper to data/neighborhoods.ts and do not compare with the 5.5/10 communal figure. The practical point for a lone parent: Vieux-Tours concentrates the weekend going-out, and a flat one or two buildings off the busy streets rather than on them makes the whole difference on Friday and Saturday nights. The rest is common sense and is settled by walking the route once before signing.",
+      },
+      {
+        heading: "The sticking point: cost of living at 5.9/10",
+        body: "This is the one axis where Tours clearly loses points. At 5.9/10 on cost of living it sits below Besançon (6.4), Brest (6.4), Clermont-Ferrand (6.4), Caen (6.2), Le Havre (6.3), Limoges (7.1) and Saint-Étienne (7.1): seven of the eight other cities in this batch are cheaper. Proximity to Paris is paid for, as it is all along the Loire axis, and the €90 monthly gap on the T3 against Brest is close to €1,100 a year. Set that cost against what it buys: two more points of schools than Le Havre, half a point more than Brest, and above all the hour of high-speed rail to Paris. If the job is not in Paris and the school network of Brest or Besançon is enough, the argument collapses and you should go where rent is lower.",
+      },
+      {
+        heading: "The verdict: who Tours works for",
+        body: "Tours works from €2,850 net a month, for a single parent who puts the school network at the top of the list or who holds a Paris job on partial attendance. Civil service, health around the teaching hospital, higher education, insurance and services, remote work with two days in Paris: those are the profiles it fits best. It fits worse on a tight budget, where Brest offers the same school level for €90 less a month, and for anyone wanting countryside at the doorstep. It is, on the other hand, the best pick in the batch for a parent whose child is entering the collège or lycée years, the stage at which the density of schools and of subject options weighs most. The axis-by-axis calculation is on /cities/tours/single-parent.",
+      },
+    ],
+    relatedCities: ["tours", "orleans", "blois", "amboise", "poitiers"],
+    tags: ["single parent tours", "single parent in france", "expat single parent", "moving to france", "centre-val-de-loire"],
+  },
+  {
+    slug: "single-parent-in-limoges-2026",
+    title: "Single Parent in Limoges (2026): Cost and Safety Both Above 6, Which Is Rare",
+    metaTitle: "Single Parent in Limoges 2026: T3 €800, Safety 6.1/10",
+    metaDesc: "The only city in the batch where cost (7.1/10) and safety (6.1/10) both clear 6. T3 at €800, €2,400 net floor, buying at €1,600 per square metre.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-15",
+    updatedAt: "2026-08-15",
+    intro: "Limoges scores 6.4/10 on the single-parent composite, 55th of the 363 ranked communes. Its distinguishing feature is a crossing that most affordable cities fail: cost of living 7.1/10 and safety 6.1/10 (source: data/cities-seed.ts). It is the only one of the nine cities in this batch where both clear 6, and its safety is the best of the nine. The average T3 is €800 and the purchase price €1,600 per square metre, the second-lowest in the batch (source: data/housing.ts); the estimated minimum net income falls to €2,400/month. What Limoges does not supply is transport (6.1/10) and schools (6.2/10), and that is where the trade-off sits.",
+    sections: [
+      {
+        heading: "The cost-safety crossing, and why it is rare",
+        body: "In the single-parent grid, cost weighs 0.30 and safety 0.25: together they are more than half the mark. The usual French correlation works against that pairing, because the cities where housing is cheap are frequently the ones where the safety index drops, and the rest of this batch illustrates it. Saint-Étienne scores 7.1/10 on cost like Limoges, but 4.3/10 on safety. Le Havre shows 6.3/10 on cost for 4.5/10 on safety. Limoges breaks the mechanism with 7.1 and 6.1. For a lone parent, with neither a second income to fund a dearer district nor a second adult to share late trips, that is exactly the useful combination. Its all-axis overall score of 6.1/10 is more modest, but the single-parent composite is not the general average, it reweights on purpose.",
+      },
+      {
+        heading: "A T3 at €800: the second-lowest income floor",
+        body: "The Limoges T3 is €800, the T2 €600 and the T1 €440; a square metre to buy costs €1,600 (source: data/housing.ts). The estimated minimum net income from lib/parent-solo.ts is €2,400/month, second-lowest in the batch behind Saint-Étienne. The gap with Villeurbanne reaches €1,100 of required monthly income, which is not an adjustment but a change of category: in Limoges a median salary is enough to hold a T3 alone, which is true nowhere in the Lyon area. The purchase price of €1,600 per square metre also opens an option the other cities close, namely becoming an owner on one income, a 65-square-metre T3 sitting around €104,000 at the average price. For anyone arriving from a British, German or North American city, that figure usually needs reading twice. Of the three documented districts, Beaubreuil has the cheapest T2 at €520, Aurence, the most residential with the best recorded safety mark, at €640, and the historic centre at €620.",
+      },
+      {
+        heading: "What is missing: transport 6.1/10 and schools 6.2/10",
+        body: "This has to be said plainly, because it is where the decision gets made. Limoges has no tram; the network runs on buses and trolleybuses, and the 6.1/10 transport score is the lowest of the nine cities here alongside Le Havre at 6.2. For a car-free single parent that means less redundancy when a line is disrupted, and shorter evening service spans than a tram would give. Schools score 6.2/10, 1.2 points below Brest, Caen and Besançon, and 1.7 below Tours. Against rent the ratio stays decent at €129 of T3 per point, but the absolute level is lower. The practical conclusion is that Limoges probably means budgeting for a car, or picking a flat within walking distance of both school and work, which the size of the city makes possible.",
+      },
+      {
+        heading: "Safety: 6.1/10, the best score in the batch",
+        body: "Limoges scores 6.1/10 on safety, ahead of Caen (5.9) and far ahead of Le Havre (4.5) and Saint-Étienne (4.3). It is the best mark of the nine and worth taking seriously, because the axis carries a quarter of the composite. In concrete terms, for a lone parent, it means the district filtering to do before signing is looser than elsewhere, and the evening trip home demands fewer trade-offs. Of the three districts recorded in data/neighborhoods.ts, Aurence has the best safety mark, ahead of the historic centre, then Beaubreuil, which remains the most affordable of the three. Those marks are on their own scale and do not compare with the 6.1/10 communal figure. As everywhere, three districts do not describe a city of 131,000 people, and the site publishes no blanket verdict by sector for want of sufficient granularity.",
+      },
+      {
+        heading: "The rest of the file: jobs and local life",
+        body: "Limoges shows 5.9/10 on quality of life, 5.9/10 on culture, 5.6/10 on nature and 5.3/10 on remote-work capacity (source: data/cities-seed.ts). The remote score is the lowest of the batch alongside Saint-Étienne at 4.8, reflecting both the depth of the job market and connectivity. That is the main brake on the file: Limoges is financially comfortable for a single parent, but it offers fewer chances to bounce back professionally than a metro area, and for someone who has just been through a separation the ability to find another post counts as much as the rent. The teaching hospital, the university and the local civil service make up most of the stable employers. The city is, on the other hand, well connected by rail to Paris and Toulouse, which limits the isolation without removing it.",
+      },
+      {
+        heading: "The verdict: who Limoges works for",
+        body: "Limoges works from €2,400 net a month, and is the best pick in the batch for a single parent whose main constraint is budget and who refuses to pay that budget in safety. Hospital and local civil service, teaching, university, health professions: on those profiles the equation is favourable, and access to ownership at €1,600 per square metre is an argument few cities can match. It works less well for anyone living strictly without a car, where Villeurbanne, Tours and Besançon are far better equipped, and for anyone needing a deep private-sector job market. Against Saint-Étienne, which shows the same cost of living for €30 less rent, it gains 1.8 points of safety, and that is the decisive gap in this batch. The axis-by-axis detail is on /cities/limoges/single-parent.",
+      },
+    ],
+    relatedCities: ["limoges", "brive-la-gaillarde", "tulle", "gueret", "poitiers"],
+    tags: ["single parent limoges", "single parent in france", "expat single parent", "moving to france", "nouvelle-aquitaine"],
+  },
+  {
+    slug: "single-parent-in-clermont-ferrand-2026",
+    title: "Single Parent in Clermont-Ferrand (2026): Volcanoes, a Tram, and One Single Axis",
+    metaTitle: "Single Parent in Clermont-Ferrand 2026: Rent, Schools",
+    metaDesc: "Raising a child alone in Clermont-Ferrand in 2026: T3 at €900, schools 7.0/10, nature 7.2/10, €2,750 net floor. What the terrain changes day to day.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-15",
+    updatedAt: "2026-08-15",
+    intro: "Clermont-Ferrand scores 6.3/10 on the single-parent composite, 67th of the 363 communes above 20,000 inhabitants ranked, in the « Correct » band. The breakdown is balanced without excelling: cost 6.4/10, transport 6.4/10, schools 7.0/10, safety 5.5/10 (source: data/cities-seed.ts). What sets it apart in this batch shows on an axis that does not count in the composite but counts in real life, nature at 7.2/10, the best of the nine cities. The average T3 is €900 and the purchase price €2,400 per square metre (source: data/housing.ts), for an estimated minimum net income of €2,750/month, identical to Besançon.",
+    sections: [
+      {
+        heading: "The calculation: decent everywhere, remarkable nowhere",
+        body: "At 6.3/10 Clermont-Ferrand falls just below the 6.5 line separating the « Bien » band from « Correct » in lib/parent-solo.ts. It is beaten in this batch by Villeurbanne (6.8), Caen and Besançon (6.6), Brest and Tours (6.5) and Limoges (6.4). None of its four axes collapses, but none stands out either: schools at 7.0/10 are four tenths below Brest, Caen and Besançon, safety at 5.5/10 two tenths below Brest, transport at 6.4/10 six tenths below Tours. That median profile is not a defect. For a single parent a city with no black spot is worth more than a city that excels on one axis and collapses on another, and that is what Clermont-Ferrand offers. Its all-axis overall score of 6.3/10 confirms the reading.",
+      },
+      {
+        heading: "A T3 at €900: the floor and the districts",
+        body: "The Clermont T3 is €900, the T2 €680 and the T1 €480; a square metre to buy costs €2,400 (source: data/housing.ts). The estimated minimum net income from lib/parent-solo.ts is €2,750/month. That is within reach of a category-A civil service salary or a skilled post in local industry, where Michelin remains the structuring employer and has been headquartered here since the nineteenth century. Of the three districts documented in data/neighborhoods.ts, La Fontaine du Bac has the cheapest T2 at €660, the centre and Jaude follow at €720, and Montjuzet, the most residential with the best recorded safety mark, tops out at €750. Ninety euros a month between cheapest and dearest is a moderate spread, which leaves the choice of district fairly open even on a constrained budget.",
+      },
+      {
+        heading: "Transport: 6.4/10, one tram line and a slope",
+        body: "Clermont-Ferrand scores 6.4/10 on transport. The rubber-tyred tram, in service since 2006, forms a single north-south axis, backed by the T2C bus network. One tram axis is the fact to hold onto as a single parent: service is excellent if home, school and work sit on that line, and much more bus-dependent as soon as you step off it. The terrain sharpens the effect, the city being built on a slope and backed onto the Chaîne des Puys, which complicates crosstown trips on foot or by bike with a child. The practical consequence: in Clermont-Ferrand more than elsewhere, choose the flat by tram axis before choosing it by district. Once that trade-off is made, car-free daily life holds up.",
+      },
+      {
+        heading: "Nature 7.2/10: the axis that does not count and counts anyway",
+        body: "The single-parent composite deliberately excludes nature, culture and remote-work capacity, because those axes do not solve the logistical problem of one adult on their own. That does not mean they have no effect on real life. Clermont-Ferrand scores 7.2/10 on nature, the best of the nine cities here, far ahead of Villeurbanne (4.3) and Tours (5.0). For a parent organising weekends and holidays alone, a volcanic range on the World Heritage list at the edge of the city is not an amenity, it is a stock of free activities reachable by bus or twenty minutes by car, with no booking and no budget. That is the kind of asset no composite captures and which nonetheless decides whether a August without going away is feasible. The commune's quality of life stands at 6.2/10 and its culture at 6.2/10.",
+      },
+      {
+        heading: "Schools and safety: 7.0 and 5.5",
+        body: "Schools score 7.0/10, giving €129 of T3 rent per point of score, level with Limoges in this batch. The city is a university town, with a teaching hospital providing paediatrics and a level-III maternity unit, the highest tier, for the whole of Auvergne, which counts when you are alone with an emergency. Safety stands at 5.5/10, level with Tours and a notch below Caen and Brest, a middling score calling for the usual filtering rather than worry. Of the three recorded districts, Montjuzet has the best safety mark, ahead of the centre and Jaude, then La Fontaine du Bac, a student district whose mark mostly reflects night-time activity. As in the other cities here, those scores are on the scale proper to data/neighborhoods.ts and do not compare with the 5.5/10 communal figure, and three districts do not describe a commune of 148,000 people.",
+      },
+      {
+        heading: "The verdict: who Clermont-Ferrand works for",
+        body: "Clermont-Ferrand works from €2,750 net a month, for a single parent who wants a complete city without paying metropolitan prices and who values immediate access to the mountains. Industry and research around Michelin, health around the teaching hospital, the university, the local civil service: those are the most solid employment pools. It works less well for anyone living strictly car-free off the tram axis, where Villeurbanne, Tours and Besançon offer more redundancy, and for anyone putting safety first, where Limoges and Caen are ahead. Its direct rival in this batch is Besançon, at the same income floor, with four tenths more on schools and two tenths more on safety, but eight tenths less on nature. The calculation is on /cities/clermont-ferrand/single-parent.",
+      },
+    ],
+    relatedCities: ["clermont-ferrand", "vichy", "riom", "montlucon", "le-puy-en-velay"],
+    tags: ["single parent clermont-ferrand", "single parent in france", "expat single parent", "moving to france", "auvergne-rhone-alpes"],
+  },
+  {
+    slug: "single-parent-in-saint-etienne-2026",
+    title: "Single Parent in Saint-Étienne (2026): the Lowest Rent, and What It Costs Elsewhere",
+    metaTitle: "Single Parent in Saint-Étienne 2026: T3 €770, the Trade",
+    metaDesc: "T3 at €770 and a €2,350 net floor, the lowest in the ranking. But safety 4.3/10 and schools 5.8/10. The trade-off in figures, without softening.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-15",
+    updatedAt: "2026-08-15",
+    intro: "Saint-Étienne scores 6.0/10 on the single-parent composite, 116th of the 363 communes above 20,000 inhabitants ranked. The file is frontally asymmetric: cost of living 7.1/10, the best of the batch level with Limoges, and safety 4.3/10, the lowest of the nine (source: data/cities-seed.ts). Between them, transport 6.7/10 and schools 5.8/10. The average T3 is €770 and a square metre to buy €1,500, both the lowest prices in the batch (source: data/housing.ts); the estimated minimum net income drops to €2,350/month. This is a real choice, not an obvious one, and it deserves to be set out in figures rather than impressions.",
+    sections: [
+      {
+        heading: "The rent gap, in euros and over a year",
+        body: "The Saint-Étienne T3 is €770, against €800 in Limoges, €850 in Brest, €900 in Besançon and Clermont-Ferrand, €930 in Caen, €940 in Tours and €1,150 in Villeurbanne (source: data/housing.ts). The gap with Villeurbanne reaches €380 a month, €4,560 a year, and the required minimum net income goes from €3,500 to €2,350. On a single salary that is a difference of nature, not of degree. The T2 is €580 and the T1 €420, and a square metre to buy is €1,500, which puts a 65-square-metre T3 around €97,500 at the average price, a mortgage within reach of a median income. For a single parent whose immediate constraint is getting through the month, those are the only figures that count at the start. The rest of this guide explains what they buy less of.",
+      },
+      {
+        heading: "Safety 4.3/10: what the figure says, and what it does not",
+        body: "This is the hard point of the file. Saint-Étienne scores 4.3/10 on safety, against 6.1 in Limoges and 5.9 in Caen. On an axis weighted at 0.25 in the composite, a 1.8-point gap with Limoges removes nearly half a point of final score, and it accounts for most of the difference between two cities showing the same cost of living. What the figure does not say is the internal variance, which is large. Of the three districts documented in data/neighborhoods.ts, Le Crozet, residential, carries a clearly higher safety mark than Montreynaud, a working-class district which also has the cheapest T2 in the batch at €490, with the city centre between the two. The rent gap between Montreynaud and Le Crozet is €160 a month on the T2, and it maps exactly onto that gap in marks. In other words, in Saint-Étienne part of the advertised saving is paid for in the choice of district, and you have to decide consciously which of the two you are taking.",
+      },
+      {
+        heading: "Schools 5.8/10: the second weak point",
+        body: "Saint-Étienne scores 5.8/10 on schools, level with Le Havre and two points below Tours. Against rent that gives €133 of T3 per point of score, the second-worst ratio in the batch behind Villeurbanne, which is counter-intuitive for a city this cheap: the rent is low, but the score is lower still. For a single parent the consequence is not dramatic at primary level, where local catchment applies everywhere in France and your address decides the school, but it becomes real at collège and lycée, where the density of schools and of subject options shapes the choices available without moving house. The city is a university town and hosts a school of mines and a well-regarded art school, which improves the picture after the baccalauréat more than before it.",
+      },
+      {
+        heading: "Transport 6.7/10: the underrated asset",
+        body: "This is the good surprise of the file. Saint-Étienne scores 6.7/10 on transport, ahead of Clermont-Ferrand (6.4), Brest (6.4), Le Havre (6.2) and Limoges (6.1). It runs an old and continuously operated tram network, backed by trolleybuses and buses, across a linear agglomeration wedged between hills, which concentrates service instead of dispersing it. For a car-free lone parent that geometry is favourable: most of the city lines up on one axis and interchanges are few. Lyon is also under an hour away by train, which opens a metropolitan job market without its rent, a configuration worth taking seriously for a single parent whose post is in Lyon but whose budget is Stéphanois.",
+      },
+      {
+        heading: "The honest trade, in one sentence",
+        body: "Saint-Étienne trades 1.8 points of safety and 0.4 points of schools for €380 of monthly rent against Villeurbanne, and 1.8 points of safety for €30 of rent against Limoges. The second trade is a bad one and it should be said: for thirty euros a month, Limoges gives you the best safety mark in the batch instead of the lowest, with a school score four tenths higher. If budget is the only criterion and Limoges is an option, Limoges wins. The first trade, on the other hand, is defensible: €4,560 a year, on a single income, pays for childcare, an activity, a vehicle or simply a margin of safety, and a parent who does not reach €3,500 net has no choice anyway. The rest of the file is consistent with that reading: quality of life 4.9/10, remote-work capacity 4.8/10, overall score 5.5/10, nature 5.9/10.",
+      },
+      {
+        heading: "The verdict: who Saint-Étienne works for",
+        body: "Saint-Étienne works from €2,350 net a month, for a single parent whose budget constraint is genuinely tight and who accepts filtering the district closely rather than giving up a city. It works well for a Lyon job with partial remote work, the rail link making the return trip workable twice a week, and for a home-ownership plan that would be impossible elsewhere at that income. It works less well for anyone putting safety first, where Limoges does better for thirty euros more, and for a child approaching collège, where the school score weighs more. The concrete advice is to treat the choice of district as the main decision and not a detail: in this city the internal gap is wider than the gap with the neighbouring cities. The per-axis detail is on /cities/saint-etienne/single-parent.",
+      },
+    ],
+    relatedCities: ["saint-etienne", "lyon", "roanne", "le-puy-en-velay", "villeurbanne"],
+    tags: ["single parent saint-etienne", "single parent in france", "expat single parent", "moving to france", "auvergne-rhone-alpes"],
+  },
+  {
+    slug: "single-parent-in-le-havre-2026",
+    title: "Single Parent in Le Havre (2026): the Sea, Buying at €2,000, and Two Axes That Fail",
+    metaTitle: "Single Parent in Le Havre 2026: Rent, Buying, Schools",
+    metaDesc: "Raising a child alone in Le Havre in 2026: T3 at €870, buying at €2,000 per square metre, but safety 4.5/10 and schools 5.8/10. The honest maths.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-15",
+    updatedAt: "2026-08-15",
+    intro: "Le Havre is the most populous city in this batch at 172,000 inhabitants, and the lowest ranked: 5.7/10 on the single-parent composite, 162nd of the 363 communes above 20,000 inhabitants, just above the ranking's median of 5.5/10. The breakdown explains why: cost of living 6.3/10 and transport 6.2/10 are decent, but schools 5.8/10 and safety 4.5/10 weigh heavily, since those two axes together carry half the composite (source: data/cities-seed.ts). The average T3 is €870 and a square metre to buy €2,000 (source: data/housing.ts), for an estimated minimum net income of €2,650/month. Here is what those figures imply, without rounding the corners.",
+    sections: [
+      {
+        heading: "Where the composite drops, and by how much",
+        body: "The single-parent composite weights cost 0.30, schools 0.25, safety 0.25, transport 0.20. Le Havre is decent on the two axes carrying 0.50 in total and weak on the two carrying the other 0.50, hence a median result. Against the other cities in this batch it loses 1.6 points of safety to Limoges, 1.4 to Caen, 1.2 to Brest and Besançon, and 2.1 points of schools to Tours. That said, it stays above the national median of the ranking, which is worth stating: 5.7/10 is not a bad score in absolute terms, it is an average score in a batch where every other city is well placed. Its all-axis overall score is 5.5/10, culture 6.2/10, nature 5.0/10 and remote-work capacity 5.3/10.",
+      },
+      {
+        heading: "The real argument: buying at €2,000 per square metre",
+        body: "The Le Havre T3 is €870, the T2 €650 and the T1 €470; the estimated minimum net income from lib/parent-solo.ts is €2,650/month. But the most interesting figure in the file is the purchase price, €2,000 per square metre, third-lowest in the batch behind Saint-Étienne (€1,500) and Limoges (€1,600) and far below Villeurbanne (€4,200). A 65-square-metre T3 sits around €130,000 at the average price. For a single parent, becoming an owner changes the structure of the risk more than the size of the monthly payment: housing stops being a variable a landlord can move at lease renewal, and that point of stability counts for more when there is only one income. The three districts documented in data/neighborhoods.ts are close on price, with the quartier Nord showing the cheapest T2 at €560, Sainte-Marie at €660 and the rebuilt centre, listed as World Heritage, at €680.",
+      },
+      {
+        heading: "Safety 4.5/10: the filtering is not optional",
+        body: "At 4.5/10 Le Havre is second from last in this batch, ahead of Saint-Étienne only. It is a low score and it is better treated as a constraint on method than as a verdict on the city. In practice it means the choice of district is not a preference but the main decision of the project, and that a flat picked at random on rent alone has a higher probability than elsewhere of causing daily problems. Of the three recorded districts, Sainte-Marie and the rebuilt centre carry clearly better safety marks than the quartier Nord, which is also the most affordable. Those marks are on the scale proper to data/neighborhoods.ts. Three districts do not describe a city of 172,000 people and the site publishes no blacklist: the granularity is missing, and a verdict on a place where real people live demands better than three observations.",
+      },
+      {
+        heading: "Schools 5.8/10: what changes with the child's age",
+        body: "The school score stands at 5.8/10, level with Saint-Étienne and two points below Tours. The ratio is €150 of T3 rent per point, the least favourable in the batch alongside Villeurbanne. The real effect depends heavily on age: at nursery and primary level, local catchment limits the impact and the question reduces to picking a flat in a sector that suits. At collège and lycée, the density of schools and the range of subject options matter more, and that is where the gap with Tours or Caen becomes tangible. Le Havre does, on the other hand, have a university, a business school and a port economy offering vocational tracks that are rare elsewhere, which rebalances the picture for a teenager heading towards logistics, the sea or industry.",
+      },
+      {
+        heading: "Transport and setting: 6.2/10 and the sea",
+        body: "Le Havre scores 6.2/10 on transport. A tram opened in 2012 links the centre to the upper districts, backed by the LiA bus network and by a funicular climbing the cliff. That two-level topography is the local particularity and it has a direct practical consequence for a parent with a pushchair: choosing the lower town or the upper town determines your dependence on the tram and the funicular, and it is worth testing before signing. The centre rebuilt by Auguste Perret after the war is on the UNESCO World Heritage list, and it has the same built advantage as Caen, wide bright flats where the old centres of other cities offer only subdivided floor plates. Foreign readers usually assume the historic quarter is the liveable one; on this coast the opposite holds. The beach is inside the city, which is rare and worth more, to a parent filling Wednesdays and weekends alone, than any paid facility.",
+      },
+      {
+        heading: "The verdict: who Le Havre works for",
+        body: "Le Havre works from €2,650 net a month, for a single parent aiming at home ownership and whose job is tied to the port, logistics, industry or the local civil service. On that profile the equation holds and the sea in the city is not decorative. It works less well for anyone putting safety and the school network first, and this has to be clear: in this batch Brest offers a school score 1.6 points higher and safety 1.2 points higher for a T3 €20 cheaper. On the composite criteria alone Brest dominates Le Havre at near-equal budget, and the only serious counter-argument is geographic, Le Havre being two hours from Paris where Brest is more than three. If you need to stay close to the capital and to Normandy, the case holds; otherwise, look elsewhere. The axis-by-axis detail is on /cities/le-havre/single-parent.",
+      },
+    ],
+    relatedCities: ["le-havre", "caen", "rouen", "dieppe", "honfleur"],
+    tags: ["single parent le havre", "single parent in france", "expat single parent", "moving to france", "normandy"],
+  },
 
   {
     slug: "studying-in-paris-2026",

@@ -2907,6 +2907,51 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "single-parent-in-villeurbanne-2026",
+      "title": "Single Parent in Villeurbanne (2026): the Best Transport in France, if the Income Follows",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-besancon-2026",
+      "title": "Single Parent in Besançon (2026): the Compact City That Buys Back Time",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-caen-2026",
+      "title": "Single Parent in Caen (2026): the Best Safety Score in the Batch, at €930",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-brest-2026",
+      "title": "Single Parent in Brest (2026): the Best Schools-to-Rent Ratio in France",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-tours-2026",
+      "title": "Single Parent in Tours (2026): the Best School Score in the Ranking",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-limoges-2026",
+      "title": "Single Parent in Limoges (2026): Cost and Safety Both Above 6, Which Is Rare",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-clermont-ferrand-2026",
+      "title": "Single Parent in Clermont-Ferrand (2026): Volcanoes, a Tram, and One Single Axis",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-saint-etienne-2026",
+      "title": "Single Parent in Saint-Étienne (2026): the Lowest Rent, and What It Costs Elsewhere",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-le-havre-2026",
+      "title": "Single Parent in Le Havre (2026): the Sea, Buying at €2,000, and Two Axes That Fail",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "studying-in-paris-2026",
       "title": "Studying in Paris (2026): what it actually costs a foreign student",
       "emoji": "🎓"
@@ -3111,7 +3156,7 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 71
+      "count": 80
     },
     {
       "slug": "buying-property-france",
@@ -3131,7 +3176,22 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 32
+      "count": 33
+    },
+    {
+      "slug": "expat-single-parent",
+      "label": "expat single parent",
+      "count": 29
+    },
+    {
+      "slug": "single-parent-in-france",
+      "label": "single parent in france",
+      "count": 29
+    },
+    {
+      "slug": "auvergne-rhone-alpes",
+      "label": "auvergne-rhone-alpes",
+      "count": 25
     },
     {
       "slug": "grand-est",
@@ -3164,24 +3224,9 @@
       "count": 23
     },
     {
-      "slug": "auvergne-rhone-alpes",
-      "label": "auvergne-rhone-alpes",
-      "count": 22
-    },
-    {
-      "slug": "expat-single-parent",
-      "label": "expat single parent",
-      "count": 20
-    },
-    {
-      "slug": "single-parent-in-france",
-      "label": "single parent in france",
-      "count": 20
-    },
-    {
       "slug": "brittany",
       "label": "brittany",
-      "count": 17
+      "count": 18
     },
     {
       "slug": "pays-de-la-loire",
@@ -3214,6 +3259,11 @@
       "count": 15
     },
     {
+      "slug": "normandy",
+      "label": "normandy",
+      "count": 15
+    },
+    {
       "slug": "public-transport",
       "label": "public transport",
       "count": 15
@@ -3241,11 +3291,6 @@
     {
       "slug": "cost-of-living",
       "label": "cost of living",
-      "count": 13
-    },
-    {
-      "slug": "normandy",
-      "label": "normandy",
       "count": 13
     },
     {
@@ -3291,12 +3336,12 @@
     {
       "slug": "bourgogne-franche-comte",
       "label": "bourgogne-franche-comte",
-      "count": 7
+      "count": 8
     },
     {
       "slug": "centre-val-de-loire",
       "label": "centre-val de loire",
-      "count": 7
+      "count": 8
     },
     {
       "slug": "visa",
