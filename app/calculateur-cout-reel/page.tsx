@@ -135,6 +135,20 @@ export default function CalculateurCoutReelIndex() {
             {" "}remet en regard la facture T2 et le net médian INSEE — utile pour repérer
             les villes où le coût «&nbsp;chauffage&nbsp;» du calculateur mérite une majoration.
           </p>
+          <p className="text-xs text-[var(--text-tertiary)] mt-2 leading-relaxed">
+            Le calculateur suppose une ville déjà choisie. Pour prendre le problème par
+            l&apos;autre bout et partir du revenu, les pages{" "}
+            <Link href="/vivre-avec" className="text-[var(--accent)] underline hover:no-underline">
+              vivre avec X €/mois
+            </Link>{" "}
+            appliquent le même barème de charges fixes à toutes les villes et gardent celles
+            qui laissent un reste à vivre décent : c&apos;est le classement à consulter avant
+            de fixer une short-list, par exemple{" "}
+            <Link href="/vivre-avec/2000-euros" className="text-[var(--accent)] underline hover:no-underline">
+              les villes viables avec 2 000 € net
+            </Link>
+            .
+          </p>
         </Card>
       </div>
 

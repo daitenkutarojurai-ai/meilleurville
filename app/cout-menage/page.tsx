@@ -168,7 +168,22 @@ export default function CoutMenageIndexPage() {
           </table>
         </Card>
 
-        <div className="mt-10 text-xs text-[var(--text-tertiary)]">
+        <p className="mt-10 text-xs text-[var(--text-tertiary)] leading-relaxed">
+          Ces tableaux classent des charges fixes en euros absolus, sans rien savoir de ce
+          que vous gagnez. Pour rapporter le total à un revenu et voir ce qu&apos;il reste
+          une fois le loyer et les taxes payés, les pages{" "}
+          <Link href="/vivre-avec" className="text-[var(--accent)] underline hover:no-underline">
+            vivre avec X €/mois
+          </Link>{" "}
+          font le calcul par tranche de salaire net — utile notamment{" "}
+          <Link href="/vivre-avec/1500-euros" className="text-[var(--accent)] underline hover:no-underline">
+            en bas de grille, à 1 500 € net
+          </Link>
+          , où l&apos;écart entre la ville la moins chère et la plus chère du classement
+          décide à lui seul de la faisabilité.
+        </p>
+
+        <div className="mt-6 text-xs text-[var(--text-tertiary)]">
           L&apos;URL <code className="px-1 py-0.5 bg-[var(--bg-elevated)] rounded">/cout-menage/&lt;slug-ville&gt;</code>{" "}
           fonctionne pour les {CITIES_COUNT} villes du site.
         </div>

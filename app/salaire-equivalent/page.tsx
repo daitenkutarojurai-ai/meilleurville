@@ -102,6 +102,23 @@ export default function SalaireEquivalentPage() {
             , qui traitent le change, la couverture santé et l&apos;année fiscale coupée en
             deux avant que le reste à vivre ait un sens.
           </p>
+          <p className="text-xs text-[var(--text-tertiary)] mt-2 leading-relaxed">
+            Le calculateur part d&apos;une ville que vous connaissez déjà. Si vous n&apos;avez
+            en tête qu&apos;un montant, la question s&apos;inverse :{" "}
+            <Link href="/vivre-avec" className="underline">
+              quelles villes tiennent avec un salaire net donné
+            </Link>{" "}
+            liste, pour six niveaux de revenu, les villes où le reste à vivre reste
+            confortable — de{" "}
+            <Link href="/vivre-avec/1500-euros" className="underline">
+              1 500 € net par mois
+            </Link>{" "}
+            à{" "}
+            <Link href="/vivre-avec/5000-euros" className="underline">
+              5 000 €
+            </Link>
+            .
+          </p>
         </Card>
       </div>
 

@@ -75,6 +75,7 @@ export default function SommairePage() {
               { href: "/leaderboard", label: "Top 100 villes" },
               { href: "/city-match", label: "City Match" },
               { href: "/parent-solo", label: "Parent solo — villes qui tiennent" },
+              { href: "/vivre-avec", label: "Vivre avec X €/mois — villes par salaire" },
               { href: "/red-flags", label: "Red Flag Radar" },
               { href: "/guides", label: "Tous les guides" },
               { href: "/tags", label: "Tous les tags" },

@@ -94,6 +94,14 @@ const TOOLS: Tool[] = [
     cta: "Lancer le simulateur",
   },
   {
+    href: "/vivre-avec",
+    emoji: "💶",
+    title: "Vivre avec X €/mois",
+    desc:
+      "Vous connaissez votre salaire net, pas votre ville. Six niveaux de revenu, de 1 500 à 5 000 € : les villes où le reste à vivre tient une fois loyer, chauffage, mobilité et taxes payés, avec le comparatif Paris.",
+    cta: "Choisir mon niveau de salaire",
+  },
+  {
     href: "/comparer",
     emoji: "⚖️",
     title: "Comparateur de villes",
