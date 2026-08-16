@@ -25362,6 +25362,422 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["les-abymes", "pointe-a-pitre", "baie-mahault"],
     tags: ["things to do in les abymes", "les abymes", "travel", "city guide", "guadeloupe"],
   },
+  {
+    slug: "retiring-in-royan-2026",
+    title: "Retiring in Royan: the Atlantic coast at a price that still works",
+    metaTitle: "Retiring in Royan 2026 — Health, Housing, Budget",
+    metaDesc:
+      "Retiring in Royan: five town beaches, property at €2,900/m², 7°C winters, and the hospital distances to work out before you buy. Honest numbers.",
+    category: "moving",
+    emoji: "🌅",
+    readMinutes: 8,
+    publishedAt: "2026-08-16",
+    updatedAt: "2026-08-16",
+    intro:
+      "Royan is the rational Atlantic option. Five sandy bays inside the town itself, some of the best light on France's west coast, and property averaging €2,900/m² while La Rochelle and Les Sables-d'Olonne have run away upmarket. Its 1950s reconstruction architecture, mocked for decades, is now the thing people come to photograph. The real question for anyone retiring here from abroad is not July. It is November, when the summer crowd leaves and 17,000 residents get their town back. This guide goes through it line by line: care, housing, what a month costs, and where the arrangement gets thin.",
+    sections: [
+      {
+        heading: "Why Royan works, and who it works for",
+        body: "Three concrete reasons. Geography first: five sandy conches, the Grande Conche right in the centre, a flat seafront you can walk at any age, with the Gironde estuary on one side and the open ocean on the other. Climate second: mild winters at 7°C in January, summers around 22.5°C tempered by the sea breeze, and the particular clarity of light the Royan coast is known for. If you are leaving a grey northern climate but do not want Mediterranean heat, that is a rare middle point. Price third: €2,900/m² on average and a two-bed flat at €700 a month, which is 20 to 40% below the star resorts of the Atlantic for a comparable life. The town is also genuinely flat, which matters more each year: people grow old here on bicycles.",
+      },
+      {
+        heading: "Healthcare: the chain of care you would actually use",
+        body: "Royan's own hospital handles emergencies and general medicine. For heavy technical work, Saintes is 35 to 40 minutes away, La Rochelle a little over an hour, and the university teaching hospital of reference, Bordeaux, roughly an hour and three quarters. That is the Royan compromise stated plainly: decent everyday care on the spot, specialist medicine that requires a drive. For a healthy couple in their sixties it is a non-issue. For regular cardiology or oncology follow-up it deserves thought, and some people choose Saintes for exactly that reason. General practice is under strain along the whole coast, because retiree demand outruns supply, so register with a médecin traitant (your named GP, the gatekeeper for reimbursement rates in the French system) as soon as you arrive rather than at your first need. Nurses, physiotherapists and labs are plentiful and used to older patients.",
+      },
+      {
+        heading: "Residency, health cover and tax from Royan",
+        body: "If you are not an EU citizen you will most likely arrive on a long-stay visitor visa, which requires proof of income and private cover for the first year and commits you not to work in France. State health cover comes through PUMa, the residence-based scheme, once you have been living here stably for three months, and you then add a mutuelle (top-up insurance) because the state reimburses most costs at around 70%. UK state pensioners should look hard at the S1 route: where you qualify, the UK funds your French healthcare, and S1 holders are exempt from French social charges on foreign pension income, which is worth real money every year. On tax, France taxes residents on worldwide income, and the treaty decides who gets each pension. Under the UK treaty, government service pensions stay taxable in the UK while the state pension and private pensions become taxable in France. The US treaty allocates things differently again. Practical point specific to Royan: your CPAM and tax dealings run through Charente-Maritime offices, and the local administration is thoroughly used to retirees, though not to English-speaking ones. Budget for a French-speaking accountant in year one.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "The reference points: €490 for a one-bed, €700 for a two-bed, €950 for a three-bed, and €2,900/m² to buy, with seafront above €4,000 and the residential districts (Le Parc, the quieter side of Pontaillac, Marne-Chay) between €2,500 and €3,000. The local peculiarity is the 1950s stock: bright flats, generous volumes, long balconies, and insulation of its period that you check window by window before you sign. As at Les Sables, a sea view costs about €1,000/m² more and is also paid for in noisy August weeks. The sensible move is a flat ten minutes' walk from the Grande Conche in the quiet streets behind the covered market, which keeps every benefit and none of the premium. One warning for foreign buyers: French purchases run through a notaire, completion typically takes two to three months after the preliminary contract, and fees on an older property add roughly 7 to 8% on top of the price.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "For a couple renting a two- or three-bed: rent €700 to €950, service charges and energy €140 to €190 (mild winters help here), groceries €350 to €420, car €180 to €250 (you want one for Saintes, Bordeaux and the Arvert peninsula), health cover €150 to €250, leisure €180 to €220. Total €1,700 to €2,250 a month. Owners with no mortgage land at €1,150 to €1,450. That is the Atlantic coast on a controlled budget: about €300 a month less than Les Sables-d'Olonne for equivalent comfort, which is the difference between a thalassotherapy subscription and a few restaurant meals. Our cost-of-living score of 6.3/10 puts Royan among the seaside towns that are still reasonable. Add French property tax, taxe foncière, if you buy; the separate residence tax was abolished on main homes but still applies to second homes, which matters if you keep one abroad.",
+      },
+      {
+        heading: "Daily life, and getting back to see family",
+        body: "Royan is lived outdoors: nordic walking on the bays, cycling out to Saint-Palais and La Coubre on the peninsula paths, golf, sailing, boules under the pines at Pontaillac. The network of clubs for older residents is dense and welcoming, fed by decades of retirees arriving, and you can build a circle in one season if you turn up. Culturally the town leans into its own story with guided tours of the 1950s architecture, the Un Violon sur le Sable festival in summer, and a cinema and library that run all year. La Palmyre zoo and the peninsula villages handle grandchildren. On getting home: Bordeaux, about an hour and three quarters away, is the practical gateway with its airport and TGV connections, and La Rochelle's airport is closer but its international routes are seasonal, so check them before you build a plan around them. The rail link from Royan itself is weak, running via Saintes or Angoulême.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Seasonality is the genuine Royan question, more than elsewhere. Summer multiplies the population and saturates the seafront. Winter closes part of the shops and restaurants, and the town in January asks you to have a social life already built. Our overall score of 6.7/10, against 7.4 for Les Sables, reflects the gap: fewer year-round services, a shopping centre that has seen better days, and thin rail service. Add the distance to the teaching hospital already discussed. Royan is an excellent choice if you are mobile, independent and reasonably sociable. It is a fragile one for someone living alone at eighty. If you are moving from abroad, that argues for renting through one winter before buying anything.",
+      },
+    ],
+    relatedCities: ["royan", "saintes", "la-rochelle", "rochefort"],
+    tags: [
+      "retiring in Royan 2026",
+      "retire Atlantic coast France",
+      "Charente-Maritime retirement expat",
+      "affordable seaside retirement France",
+      "expat retirement",
+    ],
+  },
+  {
+    slug: "retiring-in-les-sables-d-olonne-2026",
+    title: "Retiring in Les Sables-d'Olonne: France's unofficial seaside retirement capital",
+    metaTitle: "Retiring in Les Sables-d'Olonne 2026 — The Real Numbers",
+    metaDesc:
+      "Retiring in Les Sables-d'Olonne: €3,500/m², a flat seafront, 8°C winters and a solid hospital. What it costs and what August is really like.",
+    category: "moving",
+    emoji: "🌅",
+    readMinutes: 8,
+    publishedAt: "2026-08-16",
+    updatedAt: "2026-08-16",
+    intro:
+      "Les Sables-d'Olonne is probably France's unofficial capital of seaside retirement: a long beach in the middle of town, a flat promenade you can walk at any age, a station with direct trains to Paris, and 46,000 residents who keep the place alive all year. That popularity has a price, €3,500/m² on average, and a cost, a saturated August. This guide separates the postcard from the weekday: care, housing, the real budget, and the questions worth asking before you join the town the Vendée Globe leaves from.",
+    sections: [
+      {
+        heading: "Why Les Sables works, and who it works for",
+        body: "Because the town is effectively designed for the way an older person moves. The Remblai promenade runs flat along the Grande Plage for kilometres, the covered market and the shops are within walking distance, and the sea is not a weekend backdrop but the route you take to buy bread. Size matters too: 46,000 residents is enough for cinemas, specialists, clubs and a genuinely good market, without the friction of a city. Our scores summarise it: nature 8.5/10, safety 8/10, transport 6.2/10, which is rare on the Atlantic coast and comes from the direct trains to Nantes and Paris. Add the bright Vendée microclimate and the mildest winter on the coast north of the Gironde, 8°C on average in January.",
+      },
+      {
+        heading: "Healthcare: the chain of care you would actually use",
+        body: "The Côte de Lumière hospital covers emergencies, general medicine, surgery and a decent range of specialist clinics on site. The departmental hospital at La Roche-sur-Yon, one of the largest non-teaching hospitals in France, is 35 to 40 minutes away, and the university teaching hospital in Nantes an hour and a quarter. For a seaside town that is a solid chain of care, sized by decades of an older population. The flip side is the same demographic: general practice is under heavy pressure and waits for some specialists (ophthalmology, cardiology, dermatology) stretch. The standard advice applies double here. Find a médecin traitant, your registered GP, before you move rather than after, and if you can, keep one or two consultants in your home country through the transition year. Pharmacies, nurses and physiotherapists are numerous and completely accustomed to older patients.",
+      },
+      {
+        heading: "Residency, health cover and tax from Les Sables",
+        body: "Non-EU retirees normally arrive on a long-stay visitor visa: proof of resources, private health cover for the first year, and an undertaking not to work. After three months of stable residence you can apply to join PUMa, the residence-based state health scheme, and you then take out a mutuelle to cover the roughly 30% the state does not reimburse. British state pensioners should check S1 eligibility first, because it changes both who pays for your care and whether French social charges apply to your foreign pension income. On income tax, French residents are taxed on worldwide income and the relevant double-tax treaty decides which country taxes which pension: under the UK treaty, government service pensions remain taxable in the UK while state and private pensions move to France. Two things that are locally specific. The Vendée has a large, long-established retiree population, so the CPAM and tax offices process this kind of file constantly, which helps. And the English-speaking community here is smaller than in the Dordogne or inland Brittany, so expect to operate in French sooner than you might elsewhere.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "The market runs at two speeds. On average: €790 for a two-bed, €1,050 for a three-bed, €3,500/m² to buy. But the seafront trades well above that, often €5,000 to €6,000/m² for the view, while the districts set back (La Chaume, Le Château d'Olonne, the streets around the market halls) stay near the average. Our advice is counter-intuitive: do not buy the sea view. Eight hundred metres back you keep the beach on foot, you save about €1,500/m², you get quiet in August, and you often get better insulation than the 1970s blocks facing the spray. Watch the proportion of second homes in a building, too. A block that is empty nine months a year is a bleak place to live and a co-ownership that votes badly on maintenance. Buying runs through a notaire and takes two to three months from preliminary contract, with fees around 7 to 8% on older property.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "For a couple renting a two- or three-bed: rent €790 to €1,050, service charges and energy €150 to €200, groceries €380 to €450 (the market halls are magnificent and a little dearer than an inland market), car €150 to €220 (less essential than elsewhere, since the town works on foot and by bus), health cover €150 to €250, leisure €200 to €250. Total €1,900 to €2,400 a month. Owners with no mortgage: €1,250 to €1,550. That is €300 to €400 a month more than a comparable retirement at Royan or Challans, which is the tariff for a complete seaside town. Our cost-of-living score of 5.4/10 is honest about it: you do not come to Les Sables to save money, you come for the life it lets you lead. Owners also pay taxe foncière, the annual property tax, which is not included above.",
+      },
+      {
+        heading: "Daily life, and getting back to see family",
+        body: "Integration is the town's underrated strength: new retirees arrive by the dozen every month and the whole ecosystem is organised around them. Walking clubs on the Remblai at first light, longe-côte and water aerobics all year, an open university, choirs, volunteering at the festival or with the sea rescue service. Nobody is isolated here unless they choose to be. The calendar has its peaks, and the Vendée Globe start every four years turns the town into a three-week global party. The Vendée hinterland (marshes, bocage, the Puy du Fou theme park for grandchildren) supplies year-round outings. Winter, unlike smaller resorts, stays fully alive: that is the decisive advantage of 46,000 residents. For travel home, the direct train to Paris is the practical asset, and Nantes Atlantique airport, about an hour and a quarter away, is the nearest one with a real international timetable.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "First limit: summer. From mid-July to the end of August the population explodes, parking becomes a contact sport, and regulars organise their lives around off-peak hours. You adapt, but you should know. Second: the budget above, in a market that has risen a great deal and is not coming back down. Third, more structural: demographic sameness. A town where so large a share of the population is over sixty is comfortable, but it can lack the generational friction that keeps people sharp. Some love it, others eventually find the atmosphere monotonous. Fourth, the pressure on specialists, which is the same demographic seen from the other side. If none of those four stops you, few French towns offer a better-rehearsed coastal retirement.",
+      },
+    ],
+    relatedCities: ["les-sables-d-olonne", "challans", "la-rochelle", "nantes", "royan"],
+    tags: [
+      "retiring in Les Sables-d'Olonne 2026",
+      "Vendee retirement expat",
+      "seaside retirement France",
+      "retire Atlantic coast France",
+      "expat retirement",
+    ],
+  },
+  {
+    slug: "retiring-in-ile-de-re-2026",
+    title: "Retiring on the Île de Ré: the dream, priced honestly",
+    metaTitle: "Retiring on the Île de Ré 2026 — Cost, Care, Reality",
+    metaDesc:
+      "Retiring on the Île de Ré: €7,500/m², no hospital on the island, 100km of flat cycle paths. The numbers and the constraints, stated plainly.",
+    category: "moving",
+    emoji: "🌅",
+    readMinutes: 8,
+    publishedAt: "2026-08-16",
+    updatedAt: "2026-08-16",
+    intro:
+      "The Île de Ré is the most expensive retirement in this series and the most demanding: €7,500/m² on average, a two-bed at €1,200 a month, no hospital on the island, and a summer when the population multiplies. Against that: ten villages of whitewashed walls and hollyhocks, more than 100 kilometres of flat cycle paths, salt marshes, a famous quality of light, and a safety score of 8.6/10. This guide does not decide for you. It sets out the figures and the constraints so that, if you do it, you do it with your eyes open.",
+    sections: [
+      {
+        heading: "Why the island works, and who it works for",
+        body: "Because no other French territory offers this particular life. A flat island end to end where a bicycle genuinely replaces a car, with more than 100 kilometres of dedicated paths linking ten villages. Landscapes of salt marsh, vine and beach that change every kilometre. Architecture preserved with unusual discipline, from the UNESCO-listed Vauban fortifications at Saint-Martin-de-Ré to the lanes of Ars-en-Ré. The island light, talked about forever, is real: sunshine levels are remarkable for the Atlantic seaboard and winters are mild at 8.5°C in January. Add excellent safety at 8.6/10, a settled population where a great many people know each other, and a bridge that puts La Rochelle, its TGV station and its services half an hour away. The dream has foundations.",
+      },
+      {
+        heading: "Healthcare: the chain of care you would actually use",
+        body: "This is the chapter to read twice: there is no hospital on the island. Emergencies, surgery and specialist care are at La Rochelle hospital, on the other side of the bridge, which is 30 to 45 minutes depending on your village. Reckon longer from Ars or Les Portes at the northern tip, and longer again at saturated summer hours. Island general practice exists (GPs, pharmacies and nurses in the main villages) but it is thinly staffed, ageing in its own right, and finding a médecin traitant, the registered GP who anchors your reimbursement rights, can take time. The mobile emergency service and the helicopter cover life-threatening cases, but regular cardiology or oncology follow-up means permanent round trips to La Rochelle. Our view without hedging: the Île de Ré is an excellent choice at 62 in good health, and a choice to reassess honestly at 78. If you are moving from abroad, that time horizon is the single most important thing on this page.",
+      },
+      {
+        heading: "Residency, health cover and tax from the island",
+        body: "The administrative path is the standard one for a non-EU retiree: a long-stay visitor visa with proof of resources and private cover for the first year, then PUMa, the residence-based state health scheme, after three months of stable residence, plus a mutuelle for the share the state does not reimburse. UK state pensioners should establish S1 eligibility early, since it determines both who funds their care and whether French social charges bite on foreign pension income. France taxes residents on worldwide income, with the treaty deciding each pension: under the UK treaty, government service pensions stay in the UK net while state and private pensions become French-taxable. Two island-specific points. Your administrative life (CPAM, tax office, préfecture) happens in La Rochelle, not on the island, so factor those trips in. And if you buy here and keep a property abroad, note that France's wealth tax on real estate applies to residents on their worldwide property holdings above the threshold, which on a €7,500/m² island is not a theoretical concern. Take advice before you complete, not after.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "The figures are close to the highest of our 540 towns: €1,200 for a two-bed, €1,650 for a three-bed, €7,500/m² to buy, with Saint-Martin and Les Portes above that and village houses routinely crossing a million. Our cost score of 3.7/10 is the lowest in this series. Renting long-term is hard: owners arbitrate heavily towards the holiday season, and finding a conventional twelve-month lease takes contacts and patience. Three realistic paths. The southern villages (La Flotte, Sainte-Marie, Rivedoux) sit nearer the bridge and the hospital and cost a little less than the mythologised north. Buying something modest in a back lane rather than the photographed house of character. Or the clear-eyed alternative of La Rochelle itself, which gives you the island as a neighbour at roughly half the price. A lot of happy retirees chose the third option, and no one who did has told us they regret it.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "For a couple renting a two- or three-bed, assuming you find the lease: rent €1,200 to €1,650, charges and energy €130 to €180, groceries €400 to €480 (island markets are superb and dear; many residents do the big shop in La Rochelle), car €180 to €250 (the bridge toll is modest for residents, but mainland trips accumulate), health cover €150 to €250, leisure €180 to €230. Total €2,250 to €3,050 a month, the highest here. Owners with no mortgage: €1,250 to €1,650, and that is in fact the dominant profile. The island is above all a capital retirement, reached after a substantial property sale. Below that scenario, an island budget becomes a permanent fight against island prices. Owners also pay taxe foncière on top, and it is not trivial at these valuations.",
+      },
+      {
+        heading: "Daily life, and getting back to see family",
+        body: "Off-season island life is the best-kept secret here and the real reward for living year-round: empty cycle paths under October light, winter markets at La Flotte and Saint-Martin among regulars, birdwatching in the Lilleau des Niges reserve, local oysters and island wine. For nine months of the year the ten villages are villages again, with the sociability of small communities, where integration runs through commitment: heritage associations, volunteering, cycling and walking clubs, village festivals. Newcomers who stay part-time never really enter that life; those who show up to the winter markets and the parish committees find a quality of connection that towns have lost. La Rochelle completes the picture at 30 minutes with culture, the TGV station, an airport and full-scale shops. For family visits from abroad, La Rochelle's airport has seasonal UK and northern European routes, but the TGV via Paris is the connection you can actually rely on year-round.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Plainly, then. One: the price, to buy and to live, which reserves the island for capital already accumulated. Two: healthcare, with the hospital across the bridge and thin local medicine, and this is the limit that should dominate the decision after 75. Three: summer, two months when the population explodes, the cycle path becomes a saturated boulevard and many residents leave or let their house. Four: the social winter, beautiful but demanding, which assumes you like deep quiet and have built your circle. Island isolation is real for anyone who does not get involved. Five: dependence on the bridge and on La Rochelle for everything that counts. If the dream still stands after those five, it will hold: the Île de Ré rarely disappoints the people who chose it clearly.",
+      },
+    ],
+    relatedCities: ["ile-de-re", "la-rochelle", "rochefort", "royan"],
+    tags: [
+      "retiring on the Ile de Re 2026",
+      "Ile de Re expat retirement",
+      "island retirement France",
+      "Charente-Maritime retirement expat",
+      "expat retirement",
+    ],
+  },
+  {
+    slug: "retiring-in-dinan-2026",
+    title: "Retiring in Dinan: medieval Brittany with a teaching hospital an hour away",
+    metaTitle: "Retiring in Dinan 2026 — Health, Housing, Budget",
+    metaDesc:
+      "Retiring in Dinan: safety 8.7/10, property at €2,300/m², the sea 30 minutes away and Rennes teaching hospital under an hour. The honest guide.",
+    category: "moving",
+    emoji: "🌅",
+    readMinutes: 8,
+    publishedAt: "2026-08-16",
+    updatedAt: "2026-08-16",
+    intro:
+      "Dinan ticks almost every box on a retirement checklist: one of the best safety scores in France at 8.7/10 in our data, a cultural life that is rare for 15,000 residents, property still reasonable at €2,300/m², and the sea half an hour away without paying coastal prices. The medieval town above the Rance already attracts a lot of younger retirees, and that is not an accident. This guide covers what actually matters after sixty: care, housing, the real budget, and the limits worth knowing before you sign.",
+    sections: [
+      {
+        heading: "Why Dinan works, and who it works for",
+        body: "Because the town delivers the three things retirees look for: safety, beauty and sociability. Safety first, at 8.7/10, a level of calm few French towns reach. Beauty second: three kilometres of ramparts, half-timbered streets, a port on the Rance. You never quite get used to living in a set like that, and it counts day to day. Sociability third: the Thursday market, a dense web of clubs and associations, the Fête des Remparts, and a population where arriving at sixty is the norm rather than the exception, which makes settling in considerably easier than in a village. Saint-Malo and Dinard are 30 minutes away, Rennes under an hour. For a foreign retiree, that last figure is the one to underline.",
+      },
+      {
+        heading: "Healthcare: the chain of care you would actually use",
+        body: "The René-Pleven hospital, in town, covers emergencies, hospital general medicine and a range of specialist clinics. Beyond that the map is favourable: Saint-Malo hospital is 30 minutes away, and the Rennes teaching hospital, one of the major centres in western France, under an hour. That is Dinan's genuine advantage over prettier but more isolated small towns: you grow old less than an hour from a teaching hospital. The point to watch, standard across Brittany, is general practice. Finding a médecin traitant, the registered GP who anchors your reimbursement rates, means starting the day you arrive rather than waiting for a first need, and accepting a GP in a neighbouring commune at the outset if that is what is available. Physiotherapists, nurses and labs are adequately staffed.",
+      },
+      {
+        heading: "Residency, health cover and tax from Dinan",
+        body: "Non-EU retirees normally enter on a long-stay visitor visa, which requires evidence of income and private health cover for the first year and rules out working in France. State cover comes via PUMa, the residence-based scheme, after three months of stable residence, topped up by a mutuelle for the share the state does not reimburse. British state pensioners should test S1 eligibility before anything else: where it applies, the UK funds your French healthcare and you are exempt from French social charges on foreign pension income. France taxes residents on worldwide income, and the double-tax treaty allocates each pension. Under the UK treaty, government service pensions stay taxable in the UK while the state pension and private pensions become taxable here. Locally relevant: Brittany, and the Côtes-d'Armor in particular, has one of the longest-established British communities in France, so notaires, estate agents and accountants around Dinan and Dinard deal with cross-border retirement files routinely. That does not make the paperwork lighter, but it does mean you are not explaining your situation from scratch.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "The figures: a two-bed rents for about €600 a month, a three-bed around €800, and buying averages €2,300/m². For a couple selling a house in a capital city, the arbitrage is comfortable: a good 80m² flat in the historic centre, or a house with a garden in the upper districts, stays under €250,000. Two pieces of ground-level advice. Favour the upper town, flat and close to the shops, over the port, which is magnificent but sits at the bottom of a steep hill that becomes a real subject with the years. And be wary of poorly insulated old property inside the walls; medieval charm is sometimes paid for in heating bills, and France's energy performance rating on the sale particulars is worth reading properly rather than glancing at. Purchases go through a notaire and take two to three months from preliminary contract, with fees around 7 to 8% on older property.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "For a couple renting a two- or three-bed: rent €600 to €800, charges and energy €150 to €200, groceries €350 to €420 (the Thursday market and the Rance valley producers help hold the line), car €180 to €250 (useful for the coast and the big shop), senior top-up health cover €150 to €250 for two, leisure and outings €200. Total €1,650 to €2,100 a month. A couple owning outright drops to between €1,100 and €1,400. Put differently, two average pensions live well in Dinan where the same retirement would be squeezed in any city or coastal resort. Our cost-of-living score of 7.2/10 confirms it: this is the still-affordable Brittany. Owners add taxe foncière, the annual property tax, on top of those figures.",
+      },
+      {
+        heading: "Daily life, and getting back to see family",
+        body: "A typical week here fills an agenda: market on Thursday, the Rance towpath on foot or by bike out to Léhon and its abbey, walking clubs and associations by the dozen, theatre and festivals in a town scoring 8.7/10 on culture, which is exceptional for its size. The sea is a nearby pleasure rather than a daily constraint: Saint-Cast, Dinard and Saint-Malo for beaches and thalassotherapy, without the prices or the crowds of living on the coast. In winter the town does not switch off the way a resort does; 15,000 people live here year-round and the shops stay open. On travel, this corner of Brittany is unusually well placed for British and Irish families: Brittany Ferries sails from Saint-Malo, 30 minutes away, Dinard has a small airport, and Rennes under an hour has both an airport and TGV services to Paris.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Three honest reservations. Climate first: 6.5°C in January, 20°C in July, and Breton drizzle that is entirely real. If your retirement plan looks like winters on a terrace, look at Roussillon instead. Relief second: between the upper town and the port the slope is severe, and some charming properties become unsuitable the day the knees object. Plan for ten years, not two. Tourism third: July and August pack the walled town, tolerable because seasonal, but real. Add the pressure on GPs noted above and you have the full picture. Dinan remains, for us, one of the best retirement choices in western France, provided you go in knowing all of that.",
+      },
+    ],
+    relatedCities: ["dinan", "saint-malo", "dinard", "rennes", "vannes"],
+    tags: [
+      "retiring in Dinan 2026",
+      "Brittany retirement expat",
+      "Cotes-d'Armor expat guide",
+      "affordable retirement France",
+      "expat retirement",
+    ],
+  },
+  {
+    slug: "retiring-in-lannion-2026",
+    title: "Retiring in Lannion: the Pink Granite Coast at inland prices",
+    metaTitle: "Retiring in Lannion 2026 — Health, Housing, Budget",
+    metaDesc:
+      "Retiring in Lannion: the Pink Granite Coast 15 minutes away, €600 two-beds, €2,100/m², a hospital in town. And a 19°C July you should know about.",
+    category: "moving",
+    emoji: "🌅",
+    readMinutes: 8,
+    publishedAt: "2026-08-16",
+    updatedAt: "2026-08-16",
+    intro:
+      "Lannion is probably the shrewdest way into the Pink Granite Coast: Perros-Guirec and Trégastel a quarter of an hour away, but rents and purchase prices of an inland market town, €600 for a two-bed and €2,100/m² to buy. A town of 20,000 shaped by decades of telecoms research, it has the shops, services and year-round life the neighbouring resorts do not. For a Breton retirement beside one of France's finest coastlines without paying the coastal tariff, the arithmetic is worth sitting with.",
+    sections: [
+      {
+        heading: "Why Lannion works, and who it works for",
+        body: "The central argument is geographic and financial at once: the Pink Granite Coast as a daily habit, at the price of an inland town. In Perros-Guirec or Trégastel the same flat costs considerably more and the place empties out of season. In Lannion you keep the shops, the cinema, the doctors and the clubs twelve months a year, and the coast stays fifteen minutes away by car. The town itself has character: an old half-timbered centre along the Léguer, a lively Thursday market, and a population younger than the coastal average thanks to its technology employers, which produces a balanced town rather than an open-air retirement home. Safety scores 8.2/10. For a foreign retiree, that year-round normality is worth more than a sea view.",
+      },
+      {
+        heading: "Healthcare: the chain of care you would actually use",
+        body: "Lannion hospital provides emergency and general medical services on site, which many coastal towns of this size have lost. For heavy specialties, the Brest teaching hospital is about an hour and a quarter away, and Saint-Brieuc, with its substantial hospital, 45 minutes. General practice is the point to watch: as everywhere in the Trégor, GPs are stretched, and the search for a médecin traitant, the registered GP who sets your reimbursement rate, should begin the week you move in. The useful reflex is to approach the area's multi-disciplinary health centres, which take new patients more readily than single-handed practices. For routine care (physiotherapy, district nurses, labs) provision is adequate and thoroughly used to older patients.",
+      },
+      {
+        heading: "Residency, health cover and tax from Lannion",
+        body: "The route for a non-EU retiree is the long-stay visitor visa: proof of resources, private health cover for the first year, no right to work. After three months of stable residence you join PUMa, the residence-based state scheme, and add a mutuelle for the roughly 30% the state does not reimburse. UK state pensioners should settle the S1 question early, because it decides who funds your French healthcare and whether French social charges apply to your foreign pension income. France taxes residents on worldwide income and the treaty allocates each pension: under the UK treaty, government service pensions stay taxable in the UK while state and private pensions become taxable in France. One local note that matters more here than in Dinan or Vitré: the Trégor has a smaller anglophone community, and the administrative and medical world around Lannion operates in French with little accommodation. If your French is thin, this is a town where you will improve quickly out of necessity, which some people want and others do not.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "The figures speak: around €430 for a one-bed, €600 for a two-bed, €800 for a three-bed, and an average purchase price of €2,100/m², among the gentlest on the whole north Breton coast within twenty minutes of the sea. A house with a garden in the residential districts often goes for under €250,000, a budget that buys nothing comparable in Perros-Guirec or Dinard. Ground-level advice: aim for the right bank and the high ground near the centre so you can do everything on foot; check insulation carefully, because post-war Breton building hides some poor performers that the westerly wind exposes quickly; and if the sea is your actual project, do the sums properly, because the coastal communes carry a premium measured in hundreds of euros per square metre. Purchases run through a notaire, take two to three months from preliminary contract, and add roughly 7 to 8% in fees on older property.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "For a couple renting a two- or three-bed: rent €600 to €800, energy and charges €150 to €200, groceries €350 to €420, car €200 to €250 (essential here; the transport score of 4.9/10 is the town's real weakness), top-up health cover €150 to €250 for two, leisure €150 to €200. Total €1,650 to €2,100 a month, and €1,100 to €1,400 for owners with no mortgage. The local cost of living, 7.6/10 in our data, is among the better performers in Brittany: producers' markets, fish from the nearby ports, and no tourist premium on the weekly shop away from the immediate coast. This is the sort of town where an average pension still leaves margin for grandchildren and travel. Owners pay taxe foncière, the annual property tax, on top.",
+      },
+      {
+        heading: "Daily life, and getting back to see family",
+        body: "The week organises itself around the Thursday market, the coastal paths (the GR34 long-distance trail passes through Trébeurden, ten minutes away), the beaches at Trestraou and Trégastel out of season with nobody on them, and a dense associative life where newcomers find a place quickly: walking, sailing, the university of the third age, choirs. The town also keeps real cultural programming year-round at the Théâtre de l'Arche, the cinema and the Trégor festivals. A practical point for family visits: the station connects to Plouaret-Trégor in a few minutes, from where the TGV reaches Paris in about three hours, keeping children and grandchildren within a single day's travel. For arrivals from the UK and Ireland, the Brittany Ferries crossing to Roscoff is the regional link worth knowing, though it is a drive away rather than around the corner. The local airfield does not change the picture; the train is what to plan around.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Let us be direct about the climate, the most common reason people back out: 7°C in January, but above all 19°C in July. The Trégor summer is bright, windy, beautiful and cool. If your imagined retirement involves heat, you will be disappointed, and no property argument will compensate. Second limit: the car is non-negotiable, buses replace neither the coast nor the hamlets, and you should think ahead to the day driving becomes difficult, which argues for living in the centre rather than the outskirts. Third: distance from major centres, with Brest and Rennes both over an hour, which weighs on regular medical follow-up. None of it is disqualifying, but it is better learned from your armchair than discovered in November.",
+      },
+    ],
+    relatedCities: ["lannion", "dinan", "brest", "quimper", "saint-malo"],
+    tags: [
+      "retiring in Lannion 2026",
+      "Pink Granite Coast expat",
+      "Brittany retirement expat",
+      "affordable retirement France",
+      "expat retirement",
+    ],
+  },
+  {
+    slug: "retiring-in-vitre-2026",
+    title: "Retiring in Vitré: a medieval town on the Paris line",
+    metaTitle: "Retiring in Vitré 2026 — Health, Housing, Budget",
+    metaDesc:
+      "Retiring in Vitré: safety 8.5/10, €600 two-beds, €2,200/m², Rennes in 35 minutes and a direct TGV to Paris. The rational Breton choice, examined.",
+    category: "moving",
+    emoji: "🌅",
+    readMinutes: 8,
+    publishedAt: "2026-08-16",
+    updatedAt: "2026-08-16",
+    intro:
+      "Vitré is the sensible choice of this series: an intact medieval town with a castle and half-timbered streets, one of the best safety scores among our 540 towns at 8.5/10, a two-bed at €600, and above all a rail connection that pretty Breton towns almost never have. Rennes is 35 minutes away by frequent regional train and Paris about two hours by direct TGV. For a retiree who wants heritage and quiet without cutting themselves off from family or from teaching hospitals, the gateway to Brittany combines things that rarely go together. Here is the full picture, limits included.",
+    sections: [
+      {
+        heading: "Why Vitré works, and who it works for",
+        body: "The decisive argument is the railway. Vitré sits on the Paris-Rennes-Brest line, with frequent regional services to Rennes in 35 minutes and direct high-speed trains putting Paris about two hours away. In practice: grandchildren from the capital arrive in a morning, the Rennes teaching hospital is reachable without a car, and a day of opera or shopping in Rennes needs no organising. Around that pivot the town supplies the rest: remarkable medieval heritage (the castle, the rue de la Baudrairie, one of the finest old streets in Brittany), safety at 8.5/10, a town-centre retail fabric that is holding up, and the bocage countryside for walking. Vitré also has one of the most robust local job markets in France, which keeps the town young, maintained and alive. You retire into a town that works, which is a different thing from retiring into a town that is retired.",
+      },
+      {
+        heading: "Healthcare: the chain of care you would actually use",
+        body: "The Simone-Veil hospital in Vitré covers emergencies, general medicine and routine specialist clinics: for a town of 17,000 that is a valuable piece of infrastructure and far from guaranteed elsewhere. The next tier is Rennes, whose teaching hospital, one of the major centres in western France with every advanced specialty, is 35 to 40 minutes away by car or by train. That is a proximity only a town in the Rennes orbit can offer in this series. General practice benefits from local dynamism: the strain exists, as everywhere in Brittany, but the town attracts young practitioners better than declining areas do. The full chain of care, from GP to local hospital to teaching hospital 40 minutes away, is among the most reassuring here for growing old without anxiety, and it is the reason to put Vitré on a shortlist even if the postcard appeal is lower than Dinan's.",
+      },
+      {
+        heading: "Residency, health cover and tax from Vitré",
+        body: "For a non-EU retiree the entry route is the long-stay visitor visa: proof of resources, private cover for the first year, and an undertaking not to work in France. State cover arrives through PUMa, the residence-based scheme, after three months of stable residence, with a mutuelle on top for the share the state does not reimburse. British state pensioners should resolve S1 eligibility first, since it governs who pays for their French healthcare and whether French social charges apply to foreign pension income. France taxes residents on worldwide income, with the treaty deciding each pension: under the UK treaty, government service pensions remain taxable in the UK while state and private pensions become taxable in France. Two practical Vitré notes. Your préfecture business for residence permits is handled in Ille-et-Vilaine through Rennes, which the train makes painless, unlike most small towns where every appointment costs a day. And Rennes is where you will find English-speaking professional advisers if you want one, 35 minutes away rather than a three-hour round trip.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "The figures: €430 for a one-bed, €600 for a two-bed, €800 for a three-bed, €2,200/m² to buy on average. The Vitré market is active, supported by local full employment and proximity to Rennes, but it stays very reasonable: a town house with a garden runs between €200,000 and €280,000, a modern flat with a lift around €180,000. For a retiree the right call is geographic. The historic centre gives you charm and a life on foot, provided you check accessibility, because stairs and lift-free upper floors are common in the old stock. The newer districts near the station give you absolute practicality, with trains and shops on the flat. Avoid the peripheral estates, which put the car back at the centre of everything: the whole point of Vitré is being able to do without one for the essentials. Buying goes through a notaire, takes two to three months from preliminary contract, and adds roughly 7 to 8% in fees on older property.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "For a couple renting a two- or three-bed: rent €600 to €800, charges and energy €150 to €200, groceries €340 to €400 (Saturday market on the place du Marchix, and the local supply chains of a rich farming country), car €150 to €220 (one is plenty; the train does the rest), health cover €150 to €250, leisure and outings €180 to €230 including a few trips into Rennes. Total €1,570 to €2,100 a month; owners with no mortgage, €1,050 to €1,400. It is a classic Breton budget, close to Dinan and Lannion, but with one hidden line item removed: travel. Where retirees in isolated towns count fuel and wear on the car for every missing service, the Vitré regional train absorbs a large part of that cost for a few euros. Owners add taxe foncière, the annual property tax, to the figures above.",
+      },
+      {
+        heading: "Daily life, and getting back to see family",
+        body: "Vitré has the sociability of a market town: a shopping centre that lives six days a week, the Saturday market as the social fixture, numerous associations (walking in the bocage and out to the lakes, heritage, music, the university of the third age) and a respectable cultural calendar carried by the castle museum and the arts centre. The culture score of 7.8/10 is excellent for the size. What the town lacks (big concerts, opera, major exhibitions, an airport) Rennes supplies 35 minutes away, and that is the whole philosophy of retiring here: the market town for the gentle everyday, the city on tap for the rest. The sea is a little over an hour away at Saint-Malo and Cancale, near enough for the impulse, too far for the routine. For visitors from abroad, Rennes airport and the direct Paris TGV do the work, and Saint-Malo's ferry to Portsmouth is within reach for anyone bringing a car over.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "First limit, openly stated: no sea and no mountains, an agreeable bocage with nothing spectacular about it. Anyone who wants a postcard out of the bedroom window should look at Dinan or the coast instead. Second: the inland Breton climate, grey and damp from November to February at 5.5°C in January, without the romance of sea drizzle. Third: Vitré is a sober town, busy but not festive, and retirees from big cities who like constant background hum may find it too quiet despite the Rennes escape valve. Finally, the success of the local economy is slowly tightening property prices, though on nothing like the scale of the coast. For the family-health-budget-railway profile, however, Vitré may be the most rational choice in this entire series.",
+      },
+    ],
+    relatedCities: ["vitre", "rennes", "laval", "dinan"],
+    tags: [
+      "retiring in Vitre 2026",
+      "Brittany retirement expat",
+      "Ille-et-Vilaine expat guide",
+      "affordable retirement France",
+      "expat retirement",
+    ],
+  },
+  {
+    slug: "retiring-in-anglet-2026",
+    title: "Retiring in Anglet: the Basque coast with a serious hospital next door",
+    metaTitle: "Retiring in Anglet 2026 — Health, Housing, Budget",
+    metaDesc:
+      "Retiring in Anglet: 9°C winters, ocean beaches, a major hospital next door and a tram-bus network. It costs €4,300/m². Whether that adds up.",
+    category: "moving",
+    emoji: "🌅",
+    readMinutes: 8,
+    publishedAt: "2026-08-16",
+    updatedAt: "2026-08-16",
+    intro:
+      "Anglet is what retirees choose when they want the Basque coast without the noise of Biarritz: the same ocean beaches, the Chiberta pine forest to walk in the shade, and a residential town of 38,000 wedged between Bayonne and Biarritz, with one of the largest non-teaching hospitals in France on its doorstep. The climate is among the mildest in the country at 9°C in January, and the transport score of 7.7/10 is exceptional for the coast. All of it is paid for: €4,300/m² and a two-bed at €890. This guide helps you decide whether the bill matches the life it buys.",
+    sections: [
+      {
+        heading: "Why Anglet works, and who it works for",
+        body: "Anglet combines three things that almost never occur together. An exceptional setting: several kilometres of sandy beach, the Chiberta forest with flat avenues made for a daily walk, golf, and the Pyrenees on the skyline. The services of a large conurbation: the Bayonne-Anglet-Biarritz agglomeration puts everything within twenty minutes, from hospital-grade care to concert halls, with the Tram'bus crossing the town, which is why our transport score of 7.7/10 is the highest in this series. And a calmer position than either neighbour: Anglet is residential and family-oriented, without Biarritz's tourism intensity or Bayonne's density. January at 9°C, July at 23.5°C: the Basque climate does the rest, a temperate ocean and winters without frost. For someone arriving from a northern country, that combination of mild winter and full medical infrastructure is the specific thing on offer here.",
+      },
+      {
+        heading: "Healthcare: the chain of care you would actually use",
+        body: "This is the knockout argument for a retirement planned twenty years ahead. The Côte Basque hospital, in Bayonne on the edge of Anglet, is one of the largest non-university hospitals in France, with emergency care, cardiology, oncology and nearly every specialty. The Belharra private clinic adds to the offer a few minutes away. In other words you get a level of care this series does not find in any other non-metropolitan town, without giving up the seaside. General practice is stretched, as everywhere on the Basque coast, where demand has exploded with new arrivals, but provision remains dense in absolute terms: GPs, private specialists and group practices concentrate across the agglomeration. Register with a médecin traitant, the named GP who sets your reimbursement rate, on arrival. For a couple where one partner has a heavy medical follow-up, Anglet is objectively the best coastal choice covered here.",
+      },
+      {
+        heading: "Residency, health cover and tax from Anglet",
+        body: "The standard non-EU route applies: a long-stay visitor visa with proof of resources and private cover for the first year, then PUMa, the residence-based state health scheme, after three months of stable residence, plus a mutuelle for the share the state does not reimburse. UK state pensioners should establish S1 eligibility early, since it determines both who funds their care and whether French social charges apply to foreign pension income. France taxes residents on worldwide income, and the treaty allocates each pension: under the UK treaty, government service pensions stay taxable in the UK while state and private pensions become taxable here. Two things worth knowing about this corner specifically. The Basque coast has a large, established international population, so the professional infrastructure for cross-border files is genuinely good. And the Spanish border is close enough that people are tempted to arrange their lives across it; be careful, because tax residence, health cover and vehicle registration each follow their own rules and mixing them casually creates expensive problems. Take advice before you organise anything across the border.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "The entry ticket is the highest here alongside the Île de Ré: €890 for a two-bed, €1,200 for a three-bed, €4,300/m² to buy on average, with the districts near the beaches (Chiberta, Chambre d'Amour) well above that. The market is tight, driven by retirees and remote workers, and our cost score of 4.5/10 says plainly that housing will eat your budget. The realistic paths: the inland districts (Saint-Jean, Sutar, around the town hall) hold prices 20 to 30% below the ocean frontage while staying ten minutes from the beaches by Tram'bus; and Bayonne, immediately adjacent, offers the same services for roughly €1,000/m² less if the budget is tight. Selling a house in a capital city funds a good flat in Anglet. A pension alone, with difficulty. Purchases go through a notaire, take two to three months from preliminary contract, and add roughly 7 to 8% in fees on older property.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "For a couple renting a two- or three-bed: rent €890 to €1,200, charges and energy €130 to €180 (the mildest climate in this series shows up on the heating bill), groceries €380 to €450 (the Bayonne market halls and the Basque producers are a pleasure, not an economy), transport €120 to €200 (the Tram'bus lets a couple keep one car, and eventually none), health cover €150 to €250, leisure €200 to €250. Total €1,950 to €2,550 a month; owners with no mortgage, €1,250 to €1,600. That is €400 to €700 a month more than Royan or Lannion. The question is not whether Anglet is worth the price, because it is, but whether your pension carries it durably, year after year, with a currency risk on top if your income is not in euros. Owners also pay taxe foncière, the annual property tax.",
+      },
+      {
+        heading: "Daily life, and getting back to see family",
+        body: "Daily life here reads like an advertisement for active retirement: a morning walk in the Chiberta pines or along the coastal promenade, the Quintaou markets on Thursday and Sunday, golf, Basque pelota to watch or to try in a trinquet court, thalassotherapy at the Chambre d'Amour. Basque culture is an accelerator for settling in: the Bayonne festivals in July, male voice choirs, mutxiko dances open to beginners. Newcomers who join in build a social life inside a year, and for an incomer from abroad that structure matters more than it sounds. Biarritz and its concerts are ten minutes away, San Sebastián and its food 45, and the whole of Spain is a day out. Biarritz airport, on the edge of Anglet, puts Paris an hour and twenty minutes away by air and carries international routes, which is the single best answer to family visits in this series.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "The price, obviously: the structural limit, set out above, and it worsens year on year. Second and less known: the Basque ocean is magnificent and dangerous, with rip currents and the sandbank channels the French call baïnes. Calm late-life swimming happens here in a pool or within supervised hours, not freely as in a sheltered Charente bay. Third: summer traffic across the agglomeration, heavy from June to September, even if the Tram'bus dodges part of it. Finally the climate, the reverse of its own mildness: the Basque Country is wet, with sustained rain in every season. Anyone equating south with dry will be surprised. None of that overturns the verdict. If the budget holds, Anglet is the most complete coastal retirement in this series.",
+      },
+    ],
+    relatedCities: ["anglet", "bayonne", "biarritz", "hendaye", "pau"],
+    tags: [
+      "retiring in Anglet 2026",
+      "Basque coast retirement expat",
+      "retire south west France",
+      "Pyrenees-Atlantiques expat guide",
+      "expat retirement",
+    ],
+  },
+  {
+    slug: "retiring-in-hendaye-2026",
+    title: "Retiring in Hendaye: the mildest winter in this series, and Spain across the bay",
+    metaTitle: "Retiring in Hendaye 2026 — Health, Housing, Budget",
+    metaDesc:
+      "Retiring in Hendaye: 10.5°C in January, 3km of gently shelving beach, Spain five minutes away, €3,700/m². The border effect, and the isolation.",
+    category: "moving",
+    emoji: "🌅",
+    readMinutes: 8,
+    publishedAt: "2026-08-16",
+    updatedAt: "2026-08-16",
+    intro:
+      "Hendaye has three arguments nobody else on the Atlantic coast can make: the mildest winter in this series at 10.5°C on average in January, three kilometres of gently shelving sand that make it the safest beach on the Basque coast for swimming, and Spain within walking distance, with Hondarribia across the bay of Txingudi. For a retiree that is a rare combination: calm swimming, frost-free winters, and two countries in daily use. All of it at €3,700/m², below Biarritz or Anglet. Here is the full file, including the part about being at the end of the line.",
+    sections: [
+      {
+        heading: "Why Hendaye works, and who it works for",
+        body: "First for the beach itself: three kilometres of very gently shelving sand, sheltered by the Bidassoa breakwaters, without the rip channels that make the rest of the Basque coast tricky. This is the beach where people still swim at eighty, and that detail reshapes an entire coastal retirement plan. Second for the climate: the Hendaye winter is famous for its mildness, averaging 10.5°C in January with frost almost unknown, to the point that the town was once a recognised climatic health resort. Third for the border: Hondarribia and its pintxos five minutes away by the little ferry across the bay, San Sebastián 25 minutes by the Basque local train, and dual access to Spanish services, restaurants and markets. The bay of Txingudi at sunset does the rest. For an English-speaking retiree, the practical upshot is that you get two health systems, two food cultures and two price levels within a few kilometres.",
+      },
+      {
+        heading: "Healthcare: the chain of care you would actually use",
+        body: "This needs precision, because Hendaye hosts a well-known hospital that causes confusion. The hôpital marin, part of the Paris public hospital group, is a specialist centre for rehabilitation, rare diseases and step-down care. It is not a general district hospital. For emergencies and specialties the reference is the Côte Basque hospital in Bayonne, about 30 minutes away by the A63 motorway, supplemented by the Belharra clinic. On the Spanish side, the hospital at Irun is literally across the Bidassoa and cross-border residents use it habitually, though you should understand the entitlement rules before assuming you can. Local general practice is adequate for a town of 17,000, with the usual coastal strain, so register with a médecin traitant early. In practice: everyday care on the spot, serious problems in Bayonne, and a Spanish fallback no other town in this series can offer.",
+      },
+      {
+        heading: "Residency, health cover and tax from Hendaye",
+        body: "The route for a non-EU retiree is the long-stay visitor visa, with proof of resources, private cover for the first year, and no right to work. After three months of stable residence you join PUMa, the residence-based state scheme, adding a mutuelle for the share the state does not reimburse. UK state pensioners should establish S1 eligibility first, since it decides who funds their French healthcare and whether French social charges apply to foreign pension income. France taxes residents on worldwide income, and the treaty allocates each pension: under the UK treaty, government service pensions stay taxable in the UK while state and private pensions become taxable in France. The border deserves its own warning here, more than anywhere else in this series. Living in France and shopping, banking or seeing doctors in Spain is entirely normal. Living in France while quietly treating Spain as your base is not, and tax residence, health entitlement, vehicle registration and even where you register a death each follow separate rules that do not line up neatly. If you plan to straddle the border, get advice on both sides before you arrange anything, not after.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "The reference points: €590 for a one-bed, €840 for a two-bed, €1,130 for a three-bed, €3,700/m² to buy on average. That is expensive in absolute terms, but it is the Basque coast at €600/m² below Anglet, and far below Biarritz or Saint-Jean-de-Luz, for a beach that is objectively better for swimming. The market splits between the seafront (1970s and 1980s blocks facing the beach, sought after but with dated insulation), the station quarter and the upper town (more authentic, cheaper), and Sokoburu around the marina. Watch the share of second homes, which is heavy along the beach: aim for the part of town that is inhabited rather than the summer blocks. And if the budget is tight, Irun on the Spanish side offers markedly lower prices ten minutes away, an arbitrage a growing number of cross-border retirees make, with all the caveats in the section above. French purchases go through a notaire, take two to three months, and add roughly 7 to 8% in fees on older property.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "For a couple renting a two- or three-bed: rent €840 to €1,130, charges and energy €120 to €170 (the mildest winter here, and the heating bill remembers it), groceries €350 to €420 with a unique bonus, since doing part of your shopping and eating out on the Spanish side genuinely lightens the budget, fuel included, car €150 to €220, health cover €150 to €250, leisure €180 to €230. Total €1,800 to €2,400 a month; owners with no mortgage, €1,150 to €1,500. The border effect is the hidden variable in a Hendaye budget: a couple who play the Spanish card properly, with the Irun markets and the menú del día in Hondarribia, comfortably save €100 to €150 a month on an equivalent standard of living. Owners add taxe foncière, the annual property tax, on top.",
+      },
+      {
+        heading: "Daily life, and getting back to see family",
+        body: "A typical Hendaye day: a walk along the three kilometres of beach or on the coastal path towards the Abbadia estate, with Antoine d'Abbadie's château-observatory as the local jewel, the little ferry across to Hondarribia for lunch, markets on Wednesday and Saturday, thalassotherapy for the regulars. Associative life is real but more modest than in Anglet or Les Sables: this is a town of 17,000, not an organised capital of retirement, and integration runs mostly through activities, with sea rowing, walking, choirs, and Basque or Spanish classes, which is a genuine retirement project in itself. San Sebastián, one of the finest cities in Europe and a world gastronomic centre, sits 25 minutes away on the local train and is the weekly luxury of Hendaye retirees. Travel home is the weak point: Biarritz airport is 35 minutes away and carries international routes, but Paris is over four and a half hours by TGV and Bordeaux two and a half.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "First point: remoteness. Hendaye is the end of France. Paris is more than four and a half hours by high-speed train, Bordeaux two and a half, and even Bayonne takes half an hour. Distant families will feel it, despite the airport at Biarritz. Second: Basque rainfall, the heaviest in this series. Winters are mild but wet, and November light here is nothing like the Mediterranean. Third: the season, with the population multiplying in summer and the seafront running at half speed in January, although the upper town and the cross-border flow keep more activity year-round than a pure resort would. Finally, our overall score of 6.9/10 reflects services of a mid-sized town. Hendaye is chosen for its site and its border, and it should be chosen in full knowledge of those limits.",
+      },
+    ],
+    relatedCities: ["hendaye", "anglet", "bayonne", "biarritz"],
+    tags: [
+      "retiring in Hendaye 2026",
+      "Basque coast retirement expat",
+      "France Spain border retirement",
+      "mild winter retirement France",
+      "expat retirement",
+    ],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

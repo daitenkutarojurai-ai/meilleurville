@@ -3175,6 +3175,46 @@
       "slug": "things-to-do-in-les-abymes-2026",
       "title": "Things to do in Les Abymes: the mangrove everyone drives past",
       "emoji": "🌳"
+    },
+    {
+      "slug": "retiring-in-royan-2026",
+      "title": "Retiring in Royan: the Atlantic coast at a price that still works",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retiring-in-les-sables-d-olonne-2026",
+      "title": "Retiring in Les Sables-d'Olonne: France's unofficial seaside retirement capital",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retiring-in-ile-de-re-2026",
+      "title": "Retiring on the Île de Ré: the dream, priced honestly",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retiring-in-dinan-2026",
+      "title": "Retiring in Dinan: medieval Brittany with a teaching hospital an hour away",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retiring-in-lannion-2026",
+      "title": "Retiring in Lannion: the Pink Granite Coast at inland prices",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retiring-in-vitre-2026",
+      "title": "Retiring in Vitré: a medieval town on the Paris line",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retiring-in-anglet-2026",
+      "title": "Retiring in Anglet: the Basque coast with a serious hospital next door",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retiring-in-hendaye-2026",
+      "title": "Retiring in Hendaye: the mildest winter in this series, and Spain across the bay",
+      "emoji": "🌅"
     }
   ],
   "tags": [
@@ -3349,6 +3389,11 @@
       "count": 9
     },
     {
+      "slug": "expat-retirement",
+      "label": "expat retirement",
+      "count": 9
+    },
+    {
       "slug": "french-riviera",
       "label": "french riviera",
       "count": 9
@@ -3509,6 +3554,11 @@
       "count": 4
     },
     {
+      "slug": "affordable-retirement-france",
+      "label": "affordable retirement France",
+      "count": 3
+    },
+    {
       "slug": "alps",
       "label": "alps",
       "count": 3
@@ -3521,6 +3571,11 @@
     {
       "slug": "brest",
       "label": "brest",
+      "count": 3
+    },
+    {
+      "slug": "brittany-retirement-expat",
+      "label": "Brittany retirement expat",
       "count": 3
     },
     {

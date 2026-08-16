@@ -1080,7 +1080,7 @@ Tables dans `lib/i18n.ts` : `FR_TO_EN_ROUTE`, `FR_TO_EN_CITY_SUB`, `PARITY_EXCEP
 (asymétries assumées, avec la raison — la liste doit rester courte, sinon « parité » ne veut
 plus rien dire).
 
-### État au 2026-08-15 — **0 route FR sans jumelle EN** (tenu)
+### État au 2026-08-16 — **0 route FR sans jumelle EN** (tenu)
 
 ```
 Routes : FR 217 · EN 165
@@ -1122,7 +1122,8 @@ est précisément pourquoi le prompt dit de mesurer et non de réciter. Séries 
 aucune jumelle EN : `vacances-monoparentales-[ville]-2026` (7 FR / 0 EN) et le croisement
 mois × profil, qui a sa route EN mais pas de guides.
 
-**Écart de contenu, distinct de l'écart de routes** : guides 903 FR / 532 EN, tags 239 / 74.
+**Écart de contenu, distinct de l'écart de routes** : **guides 957 FR / 643 EN, tags 240 / 86**
+(mesuré le 16/08 — les chiffres plus bas dans cette section sont datés, le réel prévaut).
 Ce n'est pas une route à créer mais du corpus à écrire, et **jamais par traduction** — les
 guides EN sont du contenu natif à angle expat, c'est une décision de fond (cf. § Bilingual
 setup dans `CLAUDE.md`), pas une facilité.
@@ -1130,6 +1131,63 @@ setup dans `CLAUDE.md`), pas une facilité.
 **Exceptions assumées** : `/badge` ×541 reste FR-only (la motion backlink vise mairies et
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
+
+### Livré le 16/08 — ouverture de la série `retiring-in-[city]-2026` (batch 1, +8)
+
+`npm run parity` sortait en **code 0** en début de run (FR 217 / EN 165, 0 route sans jumelle) :
+pas de régression de routes à rattraper, donc run de corpus.
+
+**Le trou choisi, et pourquoi celui-là.** Le FR porte 20 guides `retraite-a-[ville]-2026` ;
+l'EN portait **4** guides retraite, tous nationaux ou régionaux (`retiring-to-france-guide`,
+`retiring-in-france-best-cities`, `retiring-to-france-best-cities`, `retiring-south-of-france`)
+et **zéro par ville**. C'est le plus gros écart *pertinent pour l'audience* du corpus : la
+retraite en France est l'une des intentions de recherche anglophones les plus fortes du sujet
+(Britanniques, Irlandais, Américains, Canadiens), et le site n'avait rien au niveau ville pour
+la capter. Les séries à plus gros écart brut ne valaient pas mieux : `acheter-a-` ↔
+`where-to-buy-in-` est **déjà à 49/49** (le `comm` naïf sur les préfixes le rate), et
+`quitter-` vise un lecteur français qui part, pas un lecteur étranger qui arrive.
+
+**Les 8 villes** : Royan, Les Sables-d'Olonne, Île de Ré, Dinan, Lannion, Vitré, Anglet,
+Hendaye. Sélection géographique assumée — Atlantique, Bretagne, Côte basque, c'est-à-dire la
+carte réelle de la retraite anglophone en France, pas les 8 premières de la liste FR.
+
+**Chiffres.** Aucun chiffre inventé : les loyers, prix au m² et budgets sont repris **à
+l'identique** du guide FR jumeau et de `data/housing.ts` ; les scores cités sont lus par
+`npx tsx` depuis `CITIES_SEED` (donc calibrés + normalisés), jamais grepés dans le seed —
+`npm run integrity` confirme « 0 score brut recopié » côté EN. Les 8 `relatedCities` sont
+vérifiées présentes au seed (`assertKnownSlugs`).
+
+**Ce que la version EN ajoute et que le FR n'a pas** (c'est ce qui la rend native plutôt que
+traduite) : une 7ᵉ section « Residency, health cover and tax from [city] » absente des 6
+sections FR — visa long séjour visiteur, PUMa à 3 mois de résidence, mutuelle, **S1** pour les
+retraités de l'État britannique et l'exonération de charges sociales qui va avec, répartition
+des pensions par convention fiscale (pensions de la fonction publique imposées au UK, pension
+d'État et pensions privées imposées en France), et les frais de notaire ~7-8 % rappelés dans
+chaque section « Renting or buying ». Chaque sigle français est glosé en incise
+(`médecin traitant`, `mutuelle`, `taxe foncière`, `notaire`). La section « getting back to see
+family » remplace la fin de section FR sur les loisirs : pour un lecteur étranger, la liaison
+retour (Brittany Ferries à Saint-Malo depuis Dinan, TGV direct depuis Vitré, aéroport de
+Biarritz en bordure d'Anglet) est un critère de décision, pas un détail.
+⚠️ Deux prudences à ne pas diluer si la série est reprise : les liaisons aériennes régionales
+(La Rochelle, Biarritz) sont annoncées comme **saisonnières et à vérifier**, jamais listées
+route par route ; et sur Hendaye, l'arbitrage transfrontalier est explicitement encadré
+(résidence fiscale, droits à la couverture santé et immatriculation du véhicule suivent des
+règles distinctes qui ne s'alignent pas) plutôt que présenté comme une astuce budgétaire.
+
+**Compteurs mesurés** : `EN_GUIDES` 635 → **643** ; série `retiring-in-[city]` **8 EN / 20 FR**
+— ouverte, **pas fermée**. `metaTitle` 48-55 caractères, `metaDesc` 140-145, 7 sections par
+guide, `category: "moving"`. Trois tags neufs franchissent le seuil de 3 guides de
+`lib/guide-tags-en.ts` et créent donc 3 pages `/tags/[slug]` EN : `expat-retirement`,
+`affordable-retirement-france`, `brittany-retirement-expat` — d'où le `sitemap:check` relancé
+(EN 28 506 URL, chaque URL déclarée a une page). `npm run search-index` relancé
+(`data/search-index.en.json` 643 guides, 86 tags), sans quoi `search-index:check` échoue.
+
+**Prochain run sur cette série** : les 12 villes FR restantes sont Le Puy-en-Velay,
+Fontainebleau, Challans, Tulle, Pontarlier, Saint-Dié-des-Vosges, Château-Gontier, Albertville,
+Gaillac, Vendôme, Marmande, Saint-Lô. Elles sont nettement moins évidentes pour un lecteur
+anglophone que les 8 livrées (intérieur, montagne, petites préfectures) — les traiter en un
+seul batch de 12 est possible mais l'intérêt marginal est faible ; re-mesurer l'écart par série
+avant de décider, plutôt que de fermer celle-ci par symétrie.
 
 ### Livré le 13/08 — régression rattrapée le jour même : `/vacations/where-to-go/[combo]`
 
