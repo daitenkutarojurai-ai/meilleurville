@@ -13,7 +13,7 @@ Demande utilisateur directe. F58 / F60 / F61 livrées le jour même ; **F59 livr
 
 | # | Feature | Prio | Cplx | SEO | Statut |
 |---|---------|------|------|-----|--------|
-| F58 | City Match — profil « parent solo » | P1 | S | mid | ✅ shipped 2026-07-22 · sous-page `/villes/[slug]/parent-solo` ×540 + hub `/parent-solo` + miroir EN `/single-parent` + `/cities/[slug]/single-parent` ×540 shipped 2026-07-25→28 · série guides `parent-solo-a-[ville]-2026` batch 1 (+10) shipped 2026-07-24, batch 2 (+10 : Rennes, Nancy, Angers, Grenoble, Dijon, Metz, Reims, Aix-en-Provence, Rouen, Toulon) shipped 2026-08-07 · miroir EN de la série `single-parent-in-[city]-2026` batch 1 (+10 : Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux, Lille) shipped 2026-08-09, batch 2 (+10) shipped 2026-08-11 — **parité FR/EN atteinte à 20/20** · **batch 3 FR (+9 : Villeurbanne, Besançon, Caen, Brest, Tours, Limoges, Clermont-Ferrand, Saint-Étienne, Le Havre) shipped 2026-08-14** — FR 29, EN 20, écart 9, **le prochain run parent-solo doit être le miroir EN** |
+| F58 | City Match — profil « parent solo » | P1 | S | mid | ✅ shipped 2026-07-22 · sous-page `/villes/[slug]/parent-solo` ×540 + hub `/parent-solo` + miroir EN `/single-parent` + `/cities/[slug]/single-parent` ×540 shipped 2026-07-25→28 · série guides `parent-solo-a-[ville]-2026` batch 1 (+10) shipped 2026-07-24, batch 2 (+10 : Rennes, Nancy, Angers, Grenoble, Dijon, Metz, Reims, Aix-en-Provence, Rouen, Toulon) shipped 2026-08-07 · miroir EN de la série `single-parent-in-[city]-2026` batch 1 (+10 : Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux, Lille) shipped 2026-08-09, batch 2 (+10) shipped 2026-08-11 — **parité FR/EN atteinte à 20/20** · **batch 3 FR (+9 : Villeurbanne, Besançon, Caen, Brest, Tours, Limoges, Clermont-Ferrand, Saint-Étienne, Le Havre) shipped 2026-08-14**, **miroir EN batch 3 (+9) shipped 2026-08-15 — parité rétablie à 29/29** · **batch 4 FR (+10 : Nîmes, Saint-Denis de La Réunion, Le Mans, Amiens, Annecy, Perpignan, Orléans, Mulhouse, Poitiers, Dunkerque) shipped 2026-08-16** — FR 39, EN 29, écart 10, **le prochain run parent-solo doit être le miroir EN** |
 | F59 | **Parcs & espaces verts par ville** (pipeline OSM + sub-page ×540) | **P0** | **L** | **high** | ✅ shipped 2026-07-27 |
 | F60 | `/departements` — finder par n° / nom / ville + carte cliquable | P1 | S | low | ✅ shipped 2026-07-22 · carte cliquable 2026-07-23 |
 | F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 · série guides `vacances-celibataire-[ville]-2026` batch 1 (+8) shipped 2026-08-01 · série `vacances-monoparentales-[ville]-2026` batch 1 (+7) shipped 2026-08-05 · `vacances-celibataire-[ville]-2026` batch 2 (+7 : Toulouse, Lille, Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle) shipped 2026-08-08 · croisement mois × profil `/vacances/ou-partir/[combo]` (12 × 7 = 84 pages SSG) shipped 2026-08-12 · miroir EN de la série célibataire, `solo-travel-in-[city]-2026` batch 1 (+8 : Paris, Lyon, Bordeaux, Lille, Strasbourg, Toulouse, Montpellier, Nantes) shipped 2026-08-13 · série EN fermée (batch 2, +7) 2026-08-14 · guide pilier `partir-en-vacances-seul-2026` + correction de l'anti-station-fantôme (part réelle des 15-29 ans Insee au lieu d'un écart d'affluence constant) shipped 2026-08-15 |
@@ -59,9 +59,104 @@ retenue par le dépôt pour cette ville (`demenager-a-le-havre-2026`, `travail-a
 `acheter-a-le-havre-…`), alors que le titre écrit « au Havre ». Ne pas aligner le slug sur la
 grammaire, et ne pas le compter comme un trou au prochain diff de parité.
 
-**Prochain run parent-solo : le miroir EN** (`single-parent-in-[city]-2026`), l'écart étant de 9.
-Nommage à surveiller : `single-parent-in-le-havre-2026` (garder l'article, comme
-`things-to-do-in-le-tampon-2026`) et `single-parent-in-saint-etienne-2026`.
+Ce miroir EN a été livré le 2026-08-15 (`0084d73`), ramenant la série à 29 FR / 29 EN.
+
+### F58 — série `parent-solo-a-[ville]-2026`, batch 4 (2026-08-16)
+
+**+10 guides : Nîmes, Saint-Denis de La Réunion, Le Mans, Amiens, Annecy, Perpignan, Orléans,
+Mulhouse, Poitiers, Dunkerque.** Compteur mesuré (`grep -c 'slug: "parent-solo-a'`) : **39 FR**,
+contre 29 EN. `GUIDES` 957 → 967. `npm run search-index` relancé (`data/search-index.json`
+967 guides), sinon `search-index:check` échoue.
+
+⚠️ **Le batch 3 ci-dessus annonçait un miroir EN comme prochain run : cette note était périmée.**
+Le miroir a été livré le lendemain (`0084d73`) et la parité était revenue à 29/29 avant ce run.
+C'est le mode de régression à surveiller dans ce fichier : une consigne « prochain run » écrite
+en fin de batch survit au run qui l'exécute. **Vérifier le compteur réel avant de la suivre**,
+`grep -c` des deux côtés coûte deux secondes.
+
+**Sélection** : population d'abord parmi les communes non couvertes disposant d'une référence de
+loyer T3 dans `data/housing.ts` — sans T3, `minIncomeForT3` ne produit rien et le guide perd sa
+colonne vertébrale. Amplitude assumée, comme au batch 3 : **rang 46 (Poitiers) à 287 (Saint-Denis
+de La Réunion)** sur les 363 communes de plus de 20 000 habitants, avec trois villes sous la
+médiane du classement (5,5). Un lot qui ne retiendrait que le haut de tableau ferait une page de
+promotion, pas un classement.
+
+**Premier batch outre-mer de la série**, qui était 100 % métropolitaine alors que huit communes
+réunionnaises figurent au classement. Deux faits sont posés tels quels dans le guide plutôt
+qu'arrondis : **aucune commune de La Réunion n'atteint la médiane nationale**, et l'écart entre
+les huit est **inférieur à un point** (Le Tampon et Saint-Pierre 4,9 → Saint-André 4,1), donc le
+choix entre communes de l'île se joue sur l'emploi et le trajet, pas sur le classement. Les deux
+axes responsables sont le coût de la vie (4,1/10, le plus bas du batch) et les transports
+(4,7/10, le plus bas également — il n'existe pas de réseau ferroviaire de voyageurs sur l'île,
+donc la voiture est une charge fixe et non une variable). Trois contraintes propres à l'île
+portées par le guide et **à ne pas diluer** : l'éloignement du réseau de secours familial, qu'un
+foyer à un seul adulte ne peut pas reconstituer par un aller-retour improvisé ; la **saison
+cyclonique** et les fermetures d'établissements décidées la veille au soir, qui imposent une
+garde d'urgence identifiée à l'avance ; et le fait que **Saint-Denis est sur la côte nord, sans
+lagon**, où la baignade en mer est interdite hors bassins surveillés (risque requin) — même
+convention que les guides tourisme réunionnais.
+
+**Le cluster francilien non couvert est écarté volontairement, ne pas le reprendre par défaut au
+prochain batch.** Les communes non couvertes les plus peuplées après ce lot sont Saint-Denis (93),
+Aubervilliers, Argenteuil, Montreuil, Boulogne-Billancourt, Nanterre, Créteil, Aulnay-sous-Bois.
+Sur ces communes, le composite (coût 0,30 · transports 0,20 · écoles 0,25 · sécurité 0,25) est
+largement un proxy de la situation socio-économique des habitants — Aubervilliers sort à 4,1 avec
+écoles 2,4 et sécurité 2,2 — et un guide bâti dessus glisserait du conseil d'installation au
+commentaire sur les gens qui y vivent. **Même arbitrage que le refus de la série
+`quartiers-a-eviter`**, et il tiendra tant que la donnée reste à cette granularité.
+
+**Méthode reprise du batch 3, à conserver** : chiffres lus **à travers les modules**
+(`npx tsx` sur `@/data/cities-seed`, `@/data/housing`, `@/data/neighborhoods`,
+`@/lib/parent-solo`), jamais par grep du seed ; rang rejoué avec le départage réel de
+`app/parent-solo/page.tsx` (`name.localeCompare` à égalité de score) ; **les 50 valeurs pivots
+des 10 guides** (fit, rang, population, T3, revenu minimum, prix d'achat) revérifiées une à une
+**après** insertion, pas seulement à la rédaction. Aucun barème de cantine ni de périscolaire
+n'est chiffré, comme au batch 3 et contrairement aux batches 1-2.
+
+⚠️ **`npm run integrity` a rattrapé trois collisions que `tsc` ne peut pas voir.** Des notes de
+quartier de `data/neighborhoods.ts` (6,5 à Mulhouse et Dunkerque, 5,8 à Perpignan) tombaient par
+hasard sur le **littéral brut** de `safety` du seed, placées juste après le mot « sécurité ». Le
+garde ne distingue pas les deux échelles — et le lecteur non plus, ce qui est le vrai problème :
+les trois phrases sont réécrites avec **l'échelle annoncée avant les nombres**. À reproduire dès
+qu'un guide cite une note de quartier à côté d'un nom d'axe.
+
+⚠️ **Deux imprécisions de `data/neighborhoods.ts` contournées sans les propager**, à corriger un
+jour à la source : ① le fichier prête un **tramway à Étouvie (Amiens)** alors qu'Amiens n'a qu'un
+réseau de bus — le guide ne cite pas le mode ; ② son **T2 moyen annécien plafonne à 950 €** quand
+`data/housing.ts` donne **1 100 €** pour la commune. Les deux jeux n'ont ni le même périmètre ni
+la même date de référence : ils ne sont ni additionnés ni moyennés, et le guide Annecy le dit
+explicitement.
+
+**Trois précautions de méthode reconduites du batch 3** : ① les scores de quartier sont sur une
+**échelle propre** et ne se comparent pas au score communal ; ② `data/neighborhoods.ts` ne couvre
+que **3 quartiers par ville**, ce qui est donné comme la raison pour laquelle le site ne publie
+aucun verdict de sécurité par secteur ; ③ l'axe écoles mesure **l'offre communale**, pas la
+réussite des élèves ni la qualité du travail des enseignants, et chaque guide le redit.
+
+**Ratio loyer T3 ÷ score écoles**, calculé comme le palmarès mensuel et cité dans les guides :
+Poitiers 119 € par point (meilleur du lot), Dunkerque 129, Mulhouse 134, Amiens 136, Le Mans 140,
+Orléans 141, Saint-Denis 974 164, Annecy 167, Nîmes 181, Perpignan 193 (le pire).
+
+**Le cas Annecy mérite d'être gardé en tête** : fit 6,2 (80e), meilleures écoles (8,7) et
+meilleure sécurité (7,3) du batch, et pourtant **4 150 € net par mois** de seuil d'entrée pour un
+T3 à 1 450 €. C'est la démonstration qu'un bon score composite et un dossier finançable sur un
+seul salaire sont deux questions différentes — le composite est un **rang relatif**, pas un test
+de solvabilité. Noter que `lib/parent-solo.ts` relâche la règle des 33 % à 35 % quand le score de
+coût est sous 5 (Annecy et Saint-Denis 974 ici) : le seuil affiché est déjà la version indulgente.
+
+**Slug hors gabarit à ne pas « corriger »** : `parent-solo-a-le-mans-2026` suit la convention déjà
+retenue par le dépôt pour cette ville (`acheter-a-le-mans-…`, `demenager-a-le-mans-2026`,
+`travail-a-le-mans-2026`), alors que le titre écrit « au Mans ». Même cas que `le-havre` au batch
+3 : ne pas aligner le slug sur la grammaire, ne pas le compter comme un trou au diff de parité.
+
+**Prochain run parent-solo : le miroir EN** (`single-parent-in-[city]-2026`), l'écart étant de 10.
+Nommage à surveiller : `single-parent-in-le-mans-2026` (garder l'article, comme
+`things-to-do-in-le-tampon-2026`) et surtout **`single-parent-in-saint-denis-reunion-2026`**, à
+désambiguïser du Saint-Denis (93) sur le modèle déjà retenu côté tourisme
+(`things-to-do-in-saint-denis-2026` vs `things-to-do-in-saint-denis-reunion-2026`).
+Pour le batch FR **suivant**, le vivier métropolitain hors Île-de-France se réduit : les
+candidates non couvertes avec référence T3 sont surtout Roubaix, Tourcoing, Avignon, Cherbourg-en-Cotentin,
+Saint-Paul et Saint-Pierre (974), et le cluster francilien écarté ci-dessus reste écarté.
 
 ### F59 — Parcs & espaces verts par ville ✅ LIVRÉ (540/540 villes, 7 047 parcs)
 
