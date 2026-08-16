@@ -47358,6 +47358,496 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire aux Abymes", "activités Les Abymes 2026", "que faire en Guadeloupe", "sorties Les Abymes", "mangrove Taonaba canal Perrin Grand Cul-de-Sac Marin Grands-Fonds"]
   },
+  {
+    slug: "parent-solo-a-poitiers-2026",
+    title: "Parent solo à Poitiers en 2026 : le meilleur rapport écoles-loyer du classement",
+    metaTitle: "Parent solo à Poitiers 2026 — T3 880 €, écoles 7,4/10",
+    metaDesc:
+      "Fit 6,5/10, 46e sur 363. T3 à 880 €, écoles 7,4/10 : 119 € de loyer par point, le meilleur ratio de ce batch. Le calcul complet sur un seul revenu.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-16",
+    updatedAt: "2026-08-16",
+    intro:
+      "Poitiers est la plus petite ville de ce batch avec 89 250 habitants, et la mieux classée : 6,5/10 au composite parent solo, 46e sur les 363 communes de plus de 20 000 habitants, un point au-dessus de la médiane du classement qui s'établit à 5,5/10. Le détail se tient sur les quatre axes : coût de la vie 6,6/10, écoles 7,4/10, transports 6,4/10, sécurité 5,7/10 (source : data/cities-seed.ts). Aucun de ces chiffres n'est spectaculaire, et c'est précisément ce qui fait le résultat : le composite pénalise lourdement les villes qui décrochent sur un axe, et Poitiers ne décroche nulle part. Le T3 moyen est à 880 € et le mètre carré à l'achat à 2 100 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 650 € par mois. Voici ce que ces chiffres impliquent concrètement quand il n'y a qu'un salaire et qu'un conducteur.",
+    sections: [
+      {
+        heading: "Pourquoi Poitiers sort 46e sur 363",
+        body: "Le composite parent solo pondère coût 0,30, écoles 0,25, sécurité 0,25, transports 0,20. Ces poids sont ceux du profil correspondant de City Match, et ils traduisent une situation précise : un seul revenu, donc le coût compte plus que tout ; un seul conducteur, donc les transports comptent réellement ; et pas de second adulte pour absorber un imprévu scolaire ou un quartier qui pose problème. Poitiers marque 6,6/10 sur l'axe le plus lourd et 7,4/10 sur les écoles, ce qui suffit à la porter au-dessus des trois quarts du classement sans qu'elle soit première nulle part. C'est la mécanique qu'il faut comprendre avant de lire n'importe quel classement de ce site : une ville régulière bat une ville brillante et bancale. Poitiers est quatrième de Nouvelle-Aquitaine sur 28 communes éligibles, derrière Anglet, Brive-la-Gaillarde et Châtellerault, qui la devance de peu à 6,5 également. Ses autres axes, hors composite : score global 6,1/10, qualité de vie 5,9/10, culture 6,2/10, nature 5,0/10, télétravail 5,8/10.",
+      },
+      {
+        heading: "119 € de loyer par point d'écoles : le meilleur ratio du lot",
+        body: "Le ratio qui intéresse un parent solo n'est pas le loyer, ni le score d'écoles pris isolément, mais ce que coûte un point d'écoles. À Poitiers, un T3 à 880 € pour un score de 7,4/10 donne 119 € de loyer par point. C'est le meilleur des dix villes de ce batch, devant Dunkerque à 129, Mulhouse à 134 et Amiens à 136, et loin devant Perpignan à 193. Ce que ça veut dire en pratique : pour le même loyer, la même somme achète ici davantage d'offre scolaire qu'ailleurs. Le calcul est celui du palmarès mensuel du site, appliqué à une ville plutôt qu'à un classement. Attention à ce qu'il mesure : l'axe écoles décrit l'offre communale, la densité d'établissements et l'éventail de filières, pas la réussite des élèves ni la qualité du travail des enseignants. Un bon score d'écoles ne promet rien sur un enfant en particulier. Il dit qu'à Poitiers, un parent qui doit choisir un collège ou une option en lycée aura plus de portes ouvertes qu'à Perpignan, à budget logement quasi identique, les deux villes étant à 880 € et 870 € de T3.",
+      },
+      {
+        heading: "Le budget : 2 650 € net, et ce que ça laisse",
+        body: "Le revenu net minimum estimé par lib/parent-solo.ts est de 2 650 € par mois, calculé sur la règle des 33 % appliquée au T3 moyen de 880 €. C'est un seuil de faisabilité, pas un budget : il dit à partir de quel revenu un bailleur classique ne bloque pas le dossier. En dessous, les alternatives existent et se préparent en amont, garantie Visale, parc social, colocation entre parents solos, mais elles se demandent avant de déménager, pas après. Les autres références de loyer sont un T2 à 660 € et un T1 à 480 €. Le mètre carré à l'achat est à 2 100 €, ce qui situe un T3 de 65 mètres carrés autour de 137 000 € au prix moyen. Pour un parent seul, la bascule vers l'achat change moins la mensualité que la structure du risque : le logement cesse d'être une variable que le bailleur peut faire bouger au renouvellement du bail. Sur les trois quartiers documentés dans data/neighborhoods.ts, le T2 va de 640 € à Pont Achard à 680 € au centre historique, avec Buxerolles à 660 €. L'écart est faible, ce qui est en soi une information : à Poitiers, changer de quartier ne change pas le budget, il change le mode de vie.",
+      },
+      {
+        heading: "Sécurité 5,7/10 : correct, sans plus",
+        body: "Avec 5,7/10, Poitiers est la mieux notée de ce batch sur la sécurité après Annecy et ses 7,3/10. C'est un score moyen-haut, pas un score confortable, et il vaut mieux le lire comme tel. Concrètement, il signifie que le choix du quartier reste une décision de confort et pas une décision structurante du projet, ce qui n'est vrai ni à Nîmes ni à Perpignan dans ce même batch. Les trois quartiers relevés dans data/neighborhoods.ts obtiennent des notes de sécurité comprises entre 7,8 et 8,2 sur leur propre échelle. Cette échelle est distincte de celle des communes et ne se compare pas au 5,7/10 communal : trois quartiers choisis parmi les mieux identifiés d'une ville de 89 000 habitants ne décrivent pas cette ville, et le site ne publie aucune liste noire de quartiers. La granularité manque, et un verdict sur un lieu où vivent des gens réels demande mieux que trois observations. Ce qu'on peut dire sans se tromper : la question ne se pose pas ici avec la même urgence qu'ailleurs, et un logement pris sur le seul critère du loyer a moins de chances de poser problème.",
+      },
+      {
+        heading: "Se déplacer, et l'effet université",
+        body: "Poitiers marque 6,4/10 en transports, un score correct pour une ville de cette taille, porté par un réseau de bus urbain et non par un tramway. La conséquence pratique est nette : vivre sans voiture y est possible depuis le centre et les quartiers desservis, mais le maillage est celui d'une ville moyenne et il faut le tester sur ses propres trajets, école puis travail, avant de signer. Le centre historique et Pont Achard sont notés respectivement 8,0 et 7,5 en transports sur l'échelle de data/neighborhoods.ts, Buxerolles 7,0, ce qui reflète l'éloignement d'une commune limitrophe. L'université pèse lourd dans l'équation locale et pas seulement pour les étudiants : elle explique une part de l'offre scolaire, de l'activité culturelle et du marché locatif, et elle produit un effet secondaire utile à un parent solo, la disponibilité de garde d'appoint. Le Futuroscope est accessible depuis Poitiers sans y être situé, il relève de Chasseneuil-du-Poitou. Sur l'axe nature, la ville est à 5,0/10, la plus faible valeur de son dossier : ce n'est pas une ville de plein air, c'est une ville compacte et praticable.",
+      },
+      {
+        heading: "Le verdict : pour qui Poitiers fonctionne",
+        body: "Poitiers fonctionne à partir de 2 650 € net par mois, pour un parent solo qui met l'offre scolaire en tête et accepte une ville sans effet de manche. C'est le profil que le classement récompense et le dossier est cohérent de bout en bout : rien d'exceptionnel, rien qui coince. Elle fonctionne moins bien pour qui cherche un marché de l'emploi profond, la nature au pied de l'immeuble ou une desserte de métropole. Le comparateur honnête à l'intérieur du batch est Orléans, à 6,1 de fit, avec un tramway, une meilleure desserte vers Paris et un T3 à 930 €, soit 50 € de plus pour un score d'écoles inférieur de 0,8 point. Sur les seuls critères du composite, Poitiers domine. Si la contrainte principale est de rester à portée de la région parisienne, Orléans reprend l'avantage. Et pour un parent qui vise d'abord le prix d'entrée, Châtellerault affiche le même fit de 6,5 à 40 kilomètres, dans le même département. Le détail axe par axe est sur /villes/poitiers/parent-solo.",
+      },
+    ],
+    relatedCities: ["poitiers", "chatellerault", "niort", "angouleme", "la-rochelle"],
+    relatedGuides: [
+      "vivre-a-poitiers-2026",
+      "acheter-a-poitiers-quel-quartier-budget-2026",
+      "etudiant-a-poitiers-2026",
+      "10-choses-a-faire-a-poitiers-2026",
+      "parent-solo-a-tours-2026",
+    ],
+    tags: ["parent solo Poitiers 2026", "monoparental Vienne", "T3 Poitiers budget", "écoles Poitiers parent seul", "famille monoparentale Nouvelle-Aquitaine"],
+  },
+  {
+    slug: "parent-solo-a-annecy-2026",
+    title: "Parent solo à Annecy en 2026 : le meilleur dossier du batch, et le plus inaccessible",
+    metaTitle: "Parent solo à Annecy 2026 — il faut 4 150 € net pour un T3",
+    metaDesc:
+      "Fit 6,2/10, 80e sur 363. Écoles 8,7/10 et sécurité 7,3/10, les meilleures du batch. Mais T3 à 1 450 € : le seuil d'entrée est de 4 150 € net par mois.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-16",
+    updatedAt: "2026-08-16",
+    intro:
+      "Annecy compte 131 282 habitants et sort 6,2/10 au composite parent solo, 80e sur les 363 communes de plus de 20 000 habitants, largement au-dessus de la médiane du classement à 5,5/10. Le détail est le plus déséquilibré de ce batch : écoles 8,7/10 et sécurité 7,3/10, les deux meilleures valeurs des dix villes traitées ici, transports 6,4/10, et coût de la vie 3,1/10, la plus mauvaise (source : data/cities-seed.ts). Le T3 moyen est à 1 450 € et le mètre carré à l'achat à 5 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 4 150 € par mois. Ce guide existe surtout pour poser ce chiffre. Annecy est la démonstration qu'un bon score composite et un dossier finançable sur un seul salaire sont deux questions différentes, et qu'il vaut mieux le savoir avant de faire trois cents kilomètres pour une visite.",
+    sections: [
+      {
+        heading: "Un composite qui a raison et qui ne suffit pas",
+        body: "Le composite pondère coût 0,30, écoles 0,25, sécurité 0,25, transports 0,20. Annecy encaisse la pénalité maximale sur le poids le plus lourd, 3,1/10 en coût de la vie, et la compense par les deux axes suivants : 8,7/10 en écoles, ce qui est le troisième meilleur score de tout le classement parmi les villes de ce batch, et 7,3/10 en sécurité. Résultat, 6,2/10, un rang honorable, et une conclusion trompeuse si on s'arrête là. Un score relatif compare des villes entre elles ; il ne dit pas si un revenu donné passe le seuil d'entrée. C'est exactement ce que le revenu minimum estimé sert à corriger. Notez au passage que lib/parent-solo.ts relâche la règle des 33 % à 35 % pour les villes dont le score de coût est inférieur à 5, ce qui est le cas ici : sans cette souplesse, le seuil affiché serait encore plus haut. Autrement dit, les 4 150 € du dossier annécien sont déjà la version indulgente du calcul. Les autres axes : score global 7,3/10, qualité de vie 9,0/10, nature 8,9/10, télétravail 8,8/10, culture 6,6/10.",
+      },
+      {
+        heading: "4 150 € net : ce que ce seuil élimine",
+        body: "Le T3 moyen est à 1 450 €, le T2 à 1 100 €, le T1 à 750 €. Un parent solo qui vise un T3 doit donc présenter environ 4 150 € net mensuels pour tenir un dossier locatif classique, et 3 150 € pour un T2. Ces montants ne sont pas des budgets de vie confortables, ce sont des seuils d'acceptation. Ils placent Annecy hors de portée de la grande majorité des situations à un seul revenu, y compris de nombreux revenus de cadre. À l'achat, 5 500 € le mètre carré situent un T3 de 65 mètres carrés autour de 357 500 € au prix moyen, soit le double du même bien à Poitiers dans ce batch et plus de trois fois son équivalent à Mulhouse. Une précision de méthode : data/housing.ts donne un T2 moyen à 1 100 € pour la commune, tandis que les trois quartiers documentés dans data/neighborhoods.ts affichent 950 € en Vieille-Ville, 750 € à Novel et 680 € à Cran-Gevrier. Les deux jeux de données ne se recoupent pas exactement, ils n'ont ni le même périmètre ni la même date de référence, et il ne faut pas les additionner ni les moyenner. Le message qu'ils portent ensemble reste le même : l'écart entre le centre et la périphérie est ici plus élevé que dans toutes les autres villes de ce batch.",
+      },
+      {
+        heading: "Écoles 8,7/10 et sécurité 7,3/10 : ce que l'argent achète",
+        body: "Il faut être juste avec ce dossier : ce que le prix achète à Annecy existe réellement. Un score d'écoles à 8,7/10 et une sécurité à 7,3/10 signifient que les deux inquiétudes qui structurent le quotidien d'un parent seul, la scolarité et le fait de laisser un adolescent rentrer à pied, pèsent nettement moins ici qu'ailleurs. Le ratio est de 167 € de loyer par point d'écoles, ce qui est mauvais dans l'absolu et pourtant meilleur que Nîmes à 181 et Perpignan à 193, deux villes bien moins chères. C'est la façon la plus honnête de dire qu'Annecy n'est pas chère pour rien, alors que la cherté nîmoise, elle, n'achète pas d'école. Sur les trois quartiers relevés, les notes de sécurité vont de 7,0 à Novel à 8,5 en Vieille-Ville, sur l'échelle propre à data/neighborhoods.ts qui ne se compare pas au score communal. Trois quartiers ne décrivent pas une ville de 131 000 habitants, et le site ne publie pas de verdict de sécurité par secteur : la granularité manque, et juger un lieu où vivent des gens réels demande mieux que trois observations.",
+      },
+      {
+        heading: "Les stratégies qui font baisser le seuil",
+        body: "Trois leviers existent et méritent d'être posés froidement, sans promettre qu'ils suffisent. Le premier est la périphérie : Cran-Gevrier affiche le T2 le plus bas des quartiers documentés à 680 €, et le classement lui-même donne Annemasse à 6,4 de fit, au-dessus d'Annecy, à l'autre bout du même département. Un parent qui vise le bassin annécien sans pouvoir payer Annecy a un dossier plus solide en visant la Haute-Savoie que la commune-centre. Le deuxième est le travail frontalier, qui est la raison structurelle des prix locaux et pas un détail : les revenus qui absorbent 1 450 € de loyer sur un seul salaire viennent souvent de l'autre côté de la frontière, avec en contrepartie un temps de trajet quotidien qu'un parent seul doit chiffrer en heures de garde avant de le chiffrer en euros. Le troisième est le télétravail, et c'est là qu'Annecy a un vrai argument : 8,8/10 sur cet axe, le meilleur du batch de loin. Un poste en remote avec un salaire indexé sur un autre bassin change complètement l'équation, et c'est probablement le seul scénario dans lequel le dossier annécien devient raisonnable pour un parent solo.",
+      },
+      {
+        heading: "Transports 6,4/10 : le point faible qu'on n'attend pas",
+        body: "À 6,4/10, les transports annéciens sont le troisième axe du dossier et le plus décevant au regard du prix payé. Il n'y a pas de tramway, le réseau est un réseau de bus, et la géographie contraint tout : une ville coincée entre un lac et des reliefs a peu de couloirs de circulation, ce qui concentre les flux et allonge les trajets aux heures de pointe. Pour un parent seul, le sujet n'est pas l'agrément mais la marge : quand une seule personne assure le trajet école puis travail, quinze minutes de retard structurel se paient tous les jours. Les trois quartiers documentés sont notés entre 7,2 et 9,1 en transports sur leur propre échelle, la Vieille-Ville étant la mieux placée, ce qui renvoie encore une fois au même arbitrage : la desserte se paie au prix du centre. Le vélo est une réponse locale sérieuse, la ville étant plate le long du lac, et le guide vivre-sans-voiture-annecy-guide-2026 détaille ce qui est praticable. La contrepartie du dossier reste imbattable sur un autre plan : 8,9/10 en nature et 9,0/10 en qualité de vie, les deux meilleurs scores du batch, ce qui pour un parent qui occupe seul tous les mercredis et tous les week-ends n'est pas un argument décoratif.",
+      },
+      {
+        heading: "Le verdict : pour qui Annecy fonctionne",
+        body: "Annecy fonctionne à partir de 4 150 € net par mois pour un T3, ou à partir de 3 150 € en acceptant un T2, ce qui pour un parent avec deux enfants est un vrai arbitrage et pas un détail. Le profil pour lequel le dossier tient est étroit et identifiable : revenu élevé sur un seul salaire, travail frontalier ou poste en télétravail indexé ailleurs, et priorité donnée aux écoles et à la sécurité plutôt qu'au reste à vivre. Pour tous les autres profils, la bonne lecture de ce guide est de regarder ailleurs sans culpabilité, parce que le problème n'est pas l'organisation, c'est l'arithmétique. À l'intérieur de ce batch, Poitiers offre un score d'écoles inférieur de 1,3 point et une sécurité inférieure de 1,6 point pour un loyer T3 inférieur de 570 €, et un seuil d'entrée de 1 500 € plus bas. Sur un seul revenu, cet écart n'est pas comparable à la différence de qualité. Le détail axe par axe est sur /villes/annecy/parent-solo.",
+      },
+    ],
+    relatedCities: ["annecy", "annemasse", "aix-les-bains", "chambery", "thonon-les-bains"],
+    relatedGuides: [
+      "vivre-a-annecy-2026",
+      "acheter-a-annecy-quel-quartier-budget-2026",
+      "vivre-sans-voiture-annecy-guide-2026",
+      "10-choses-a-faire-a-annecy-2026",
+      "parent-solo-a-grenoble-2026",
+    ],
+    tags: ["parent solo Annecy 2026", "monoparental Haute-Savoie", "T3 Annecy budget", "revenu minimum location Annecy", "famille monoparentale frontalier"],
+  },
+  {
+    slug: "parent-solo-a-orleans-2026",
+    title: "Parent solo à Orléans en 2026 : le tram, Paris à portée, et 2 800 € net pour un T3",
+    metaTitle: "Parent solo à Orléans 2026 — T3 930 €, tram, écoles 6,6",
+    metaDesc:
+      "Fit 6,1/10, 102e sur 363. T3 à 930 €, écoles 6,6/10, transports 6,4/10 et deux lignes de tram. Ce que ça donne avec un seul revenu et un seul conducteur.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-16",
+    updatedAt: "2026-08-16",
+    intro:
+      "Orléans compte 115 754 habitants et obtient 6,1/10 au composite parent solo, 102e sur les 363 communes de plus de 20 000 habitants, nettement au-dessus de la médiane du classement fixée à 5,5/10. Les quatre axes se tiennent : coût de la vie 6,2/10, écoles 6,6/10, transports 6,4/10, sécurité 5,1/10 (source : data/cities-seed.ts). Le T3 moyen est à 930 € et le mètre carré à l'achat à 2 400 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 800 € par mois. Orléans est le cas typique de la ville que personne ne cite spontanément dans une conversation sur les villes où élever un enfant seul, et qui sort pourtant dans le premier tiers du classement. Voici ce que les chiffres disent, y compris là où ils ne sont pas flatteurs.",
+    sections: [
+      {
+        heading: "Où le composite se tient, et où il plie",
+        body: "Le composite pondère coût 0,30, écoles 0,25, sécurité 0,25, transports 0,20. Orléans est au-dessus de 6 sur trois axes et à 5,1 sur le quatrième, la sécurité, qui pèse un quart du total. C'est la seule prise du dossier, et elle est réelle sans être dramatique : 5,1/10 est un score médian, comparable à Reims dans ce classement, meilleur que les 4,5/10 d'Amiens, de Mulhouse et de Dunkerque dans ce même batch, et bien meilleur que les 3,7/10 de Perpignan. Orléans est quatrième de Centre-Val de Loire sur 11 communes éligibles, derrière Dreux, Tours et Chartres. Dans son propre département, elle devance Olivet à 5,9 et Fleury-les-Aubrais à 5,4, ce qui est utile à savoir : la périphérie immédiate n'offre pas ici de meilleur compromis que la ville-centre, contrairement à ce qu'on observe autour d'Annecy ou de Poitiers. Les autres axes, hors composite : score global 5,8/10, qualité de vie 5,5/10, culture 6,6/10, télétravail 5,8/10, nature 4,8/10.",
+      },
+      {
+        heading: "Le tramway change le calcul, pas seulement le confort",
+        body: "Orléans marque 6,4/10 en transports et dispose d'un vrai réseau de tramway à deux lignes, ce qui la distingue de Poitiers, d'Amiens, de Perpignan et de Nîmes dans ce batch, toutes équipées de bus seulement. Pour un parent solo, ce détail d'infrastructure a une traduction budgétaire directe. Quand une seule personne assure la chaîne école, travail, courses, retour, la voiture n'est pas un confort, c'est une infrastructure de secours permanente, et elle coûte cher en assurance, en carburant, en entretien et en stationnement. Une desserte structurante qui couvre le trajet quotidien est la seule chose qui rend crédible de s'en passer, ou de n'en garder qu'une petite. Les trois quartiers documentés dans data/neighborhoods.ts illustrent le maillage : le centre-ville est noté 8,5 en transports sur l'échelle propre à ce fichier, La Source 8,0 et ZUP Sud 7,5, toutes trois étant sur le tracé du tram. Ces notes ne se comparent pas au 6,4/10 communal, qui mesure autre chose et sur une autre échelle. Le message est simplement qu'à Orléans, un logement bien placé sur le réseau existe à plusieurs niveaux de prix.",
+      },
+      {
+        heading: "Le budget : 2 800 € net, et l'effet Paris",
+        body: "Le revenu net minimum estimé est de 2 800 € par mois pour un T3 à 930 €, sur la règle des 33 %. Les autres références sont un T2 à 700 € et un T1 à 510 €. À l'achat, 2 400 € le mètre carré placent un T3 de 65 mètres carrés autour de 156 000 € au prix moyen, dans la moyenne haute de ce batch, entre Amiens à 2 200 € et Nîmes à 2 800 €. Le T2 par quartier va de 580 € à ZUP Sud à 730 € au centre-ville, avec La Source à 660 €. La proximité de la région parisienne est l'argument le plus souvent avancé pour Orléans, et il faut le manier avec précaution dans une décision de parent solo. Elle est un atout réel quand elle permet de conserver un emploi francilien, donc un salaire francilien, en payant un loyer orléanais. Elle devient un piège quand elle se traduit par un trajet quotidien long : pour un parent seul, chaque heure de transport est une heure de garde à financer ou à demander, et cette ligne du budget est invisible dans les comparateurs de loyers. La règle pratique est simple, chiffrer le coût de garde avant de chiffrer l'écart de loyer.",
+      },
+      {
+        heading: "Écoles 6,6/10 et sécurité 5,1/10 : l'arbitrage réel",
+        body: "Le score d'écoles est à 6,6/10, ce qui donne 141 € de loyer par point, un ratio moyen dans ce batch, presque identique à celui du Mans à 140 et derrière Amiens à 136. Comme partout, cet axe mesure l'offre communale et pas le destin des élèves ; il indique la densité d'établissements et l'éventail d'options, et il devient réellement discriminant à partir du collège, quand le choix d'options et la carte des établissements pèsent davantage qu'en primaire. Sur la sécurité, 5,1/10 signifie que le choix du quartier est une décision à prendre au sérieux sans être la décision principale du projet. Les trois quartiers relevés obtiennent des notes de 6,5 à 7,5 sur l'échelle interne de data/neighborhoods.ts, ZUP Sud étant le plus bas et le moins cher, le centre-ville le plus haut et le plus cher. Cette corrélation entre prix et note est mécanique et ne dit rien de la vie quotidienne dans ces quartiers. Trois quartiers ne décrivent pas une ville de 115 000 habitants, et le site ne publie aucune liste de quartiers à éviter : la donnée manque à cette granularité, et un verdict sur un lieu habité demande mieux que trois observations.",
+      },
+      {
+        heading: "Ce que la ville offre en dehors des quatre axes",
+        body: "Le composite ne mesure que quatre choses, et il vaut la peine de regarder ce qu'il ignore. Orléans obtient 6,6/10 en culture, ce qui la place au niveau d'Amiens et au-dessus du Mans et de Dunkerque dans ce batch : pour un parent qui doit remplir seul des mercredis et des vacances scolaires, l'offre culturelle municipale est un poste de dépense évité plutôt qu'un agrément. Le Val de Loire est inscrit au patrimoine mondial entre Sully-sur-Loire et Chalonnes-sur-Loire, et Orléans se trouve dans ce périmètre : les bords de Loire sont un espace gratuit, accessible et proche, ce qui compte davantage que le score de nature à 4,8/10 ne le laisse deviner, celui-ci mesurant l'environnement communal au sens large. Le télétravail est à 5,8/10, un niveau correct qui ouvre l'option d'un emploi partiellement à distance sans exiger de déménager pour l'obtenir. Et le quartier de La Source, structuré autour du campus universitaire et de son parc floral, offre une combinaison peu fréquente pour un budget contenu : desserte tram, verdure immédiate, et un T2 à 660 €.",
+      },
+      {
+        heading: "Le verdict : pour qui Orléans fonctionne",
+        body: "Orléans fonctionne à partir de 2 800 € net par mois, pour un parent solo qui veut une ville équipée sans payer un prix de métropole, et qui a besoin de rester à portée de la région parisienne pour son emploi ou pour sa famille. C'est le profil que le dossier sert le mieux. Elle fonctionne moins bien pour qui met la sécurité en premier critère absolu, auquel cas Poitiers offre 0,6 point de plus sur cet axe pour 50 € de loyer en moins, ou pour qui cherche la nature accessible, l'axe le plus faible du dossier. Le comparateur le plus utile est Tours, à 6,5 de fit, dans la même région : écoles 7,9/10 contre 6,6, sécurité 5,5/10 contre 5,1, pour un T3 à 940 € contre 930. Sur les seuls critères du composite, Tours domine Orléans à budget quasi identique, et l'argument orléanais est alors la desserte vers Paris et le prix d'achat au mètre carré, 2 400 € contre 2 700. Le détail axe par axe est sur /villes/orleans/parent-solo.",
+      },
+    ],
+    relatedCities: ["orleans", "olivet", "fleury-les-aubrais", "blois", "chartres"],
+    relatedGuides: [
+      "vivre-a-orleans-2026",
+      "acheter-a-orleans-quel-quartier-budget-2026",
+      "famille-a-orleans-2026",
+      "travail-a-orleans-2026",
+      "parent-solo-a-tours-2026",
+    ],
+    tags: ["parent solo Orléans 2026", "monoparental Loiret", "T3 Orléans budget", "tram Orléans parent seul", "famille monoparentale Centre-Val de Loire"],
+  },
+  {
+    slug: "parent-solo-a-le-mans-2026",
+    title: "Parent solo au Mans en 2026 : 1 900 € le mètre carré, un tram, et un seul revenu",
+    metaTitle: "Parent solo au Mans 2026 — T3 870 €, achat à 1 900 €/m²",
+    metaDesc:
+      "Fit 6,0/10, 110e sur 363. T3 à 870 €, achat à 1 900 €/m², tram et TGV. Écoles 6,2/10, sécurité 5,3/10 : le calcul complet pour un parent seul.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-16",
+    updatedAt: "2026-08-16",
+    intro:
+      "Le Mans compte 148 141 habitants et obtient 6,0/10 au composite parent solo, 110e sur les 363 communes de plus de 20 000 habitants, un demi-point au-dessus de la médiane du classement établie à 5,5/10. Le détail : coût de la vie 6,4/10, écoles 6,2/10, transports 6,1/10, sécurité 5,3/10 (source : data/cities-seed.ts). Aucun axe ne brille, aucun ne s'effondre, et c'est ce profil régulier que le composite récompense. Le T3 moyen est à 870 € et le mètre carré à l'achat à 1 900 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 650 € par mois. Ce prix d'achat est le deuxième plus bas de ce batch après Mulhouse, et c'est autour de lui que tourne l'essentiel de l'intérêt du dossier manceau pour un parent seul.",
+    sections: [
+      {
+        heading: "Un dossier sans trou, ce qui est plus rare qu'il n'y paraît",
+        body: "Le composite pondère coût 0,30, écoles 0,25, sécurité 0,25, transports 0,20, et il applique une pénalité implicite aux villes qui décrochent quelque part : un axe très faible pèse plus lourd qu'un axe très fort ne rapporte. Le Mans se situe entre 5,3 et 6,4 sur les quatre, ce qui produit un résultat au-dessus de la médiane sans aucune performance individuelle. C'est le même mécanisme que pour Poitiers dans ce batch, à un niveau inférieur. Le Mans est la seule commune de plus de 20 000 habitants de la Sarthe dans ce classement, donc il n'existe pas d'alternative départementale à comparer : le choix se fait entre Le Mans et une autre région. À l'échelle des Pays de la Loire, elle est dixième sur 14, loin derrière La Roche-sur-Yon qui est première de tout le classement national à 7,5, Challans à 7,1 et Cholet à 7,0. Les autres axes du dossier : score global 5,7/10, qualité de vie 5,5/10, culture 6,2/10, télétravail 5,3/10, nature 4,8/10.",
+      },
+      {
+        heading: "1 900 € le mètre carré : l'argument central",
+        body: "Le prix d'achat manceau est de 1 900 € le mètre carré, ce qui situe un T3 de 65 mètres carrés autour de 123 500 € au prix moyen. Dans ce batch, seul Mulhouse fait mieux à 1 700 €, et l'écart avec Annecy à 5 500 € donne la mesure de ce que le classement recouvre. Pour un parent solo, l'accession change moins le montant mensuel que la nature du risque. Un loyer est une variable qu'un bailleur peut faire évoluer au renouvellement du bail, et un congé pour vente est une contrainte de calendrier qu'une personne seule absorbe mal quand elle doit aussi tenir une année scolaire. Un crédit est une charge fixe connue à l'avance, et c'est ce point qui compte le plus quand il n'y a pas de second revenu pour amortir un imprévu. Le côté à ne pas oublier : sur un seul salaire, l'apport et la capacité d'emprunt sont les deux verrous, et un prix bas au mètre carré ne les fait pas disparaître, il les rend franchissables. Les références locatives, pour comparaison, sont un T3 à 870 €, un T2 à 650 € et un T1 à 470 €.",
+      },
+      {
+        heading: "Le tram, et ce qu'il permet vraiment",
+        body: "Le Mans marque 6,1/10 en transports, un score qui sous-estime peut-être l'atout réel de la ville sur cet axe : elle dispose d'un tramway, ce que n'ont ni Poitiers, ni Amiens, ni Perpignan, ni Dunkerque, ni Nîmes dans ce batch. Les trois quartiers documentés dans data/neighborhoods.ts sont tous notés à 7,5 ou 7,8 en transports sur l'échelle interne de ce fichier, y compris Pontlieue, qui affiche par ailleurs le T2 le plus bas de la ville à 620 €. C'est la configuration la plus favorable pour un parent seul, un quartier abordable relié directement au centre par une ligne structurante, parce qu'elle permet de découpler le choix du budget et le choix de la desserte. La ville est également bien reliée à Paris par le TGV, en moins d'une heure. Comme pour Orléans, cette proximité est un atout quand elle sert à conserver un salaire francilien, et un piège quand elle produit un trajet quotidien qui se paie en heures de garde. Un parent solo doit chiffrer la garde avant de chiffrer l'écart de loyer, dans cet ordre.",
+      },
+      {
+        heading: "Écoles 6,2/10 : ce que ça change selon l'âge",
+        body: "Le score d'écoles est à 6,2/10, soit 140 € de loyer par point, un ratio moyen dans ce batch, quasiment identique à celui d'Orléans à 141 et derrière Amiens à 136, Mulhouse à 134, Dunkerque à 129 et Poitiers à 119. C'est un score correct qui traduit l'offre d'une préfecture de cette taille, sans le supplément d'une grande ville universitaire. L'effet réel dépend beaucoup de l'âge de l'enfant. En maternelle et en primaire, la carte scolaire de proximité limite l'impact et la question se réduit à choisir un logement dans un secteur qui convient. Au collège et au lycée, la densité d'établissements et l'éventail d'options comptent davantage, et c'est là que l'écart avec une ville comme Poitiers, 1,2 point plus haut sur cet axe, devient tangible. Rappel de convention : l'axe écoles mesure l'offre communale, pas la réussite des élèves, et ne porte aucun jugement sur les établissements ni sur leurs équipes. Il indique combien de portes sont ouvertes, pas ce qu'il y a derrière.",
+      },
+      {
+        heading: "Sécurité 5,3/10 : à quel point c'est structurant",
+        body: "Avec 5,3/10, Le Mans se situe au troisième rang de ce batch, derrière Annecy à 7,3 et Poitiers à 5,7, et devant Orléans à 5,1. C'est un score moyen, plus favorable que celui d'Amiens, de Mulhouse ou de Dunkerque, tous à 4,5. Traduit en décision, cela signifie que le choix du quartier est important sans être le point de bascule du projet : un logement pris sur le seul critère du loyer a ici moins de chances de poser problème qu'à Nîmes ou à Perpignan, où la question doit être traitée en premier. Les trois quartiers relevés obtiennent des notes de sécurité de 6,8 à 8,0 sur l'échelle propre à data/neighborhoods.ts, la Cité Plantagenêt étant la mieux notée et Pontlieue la plus basse et la plus abordable. Ces notes ne se comparent pas au score communal, elles sont sur une autre échelle et sur un autre périmètre. Trois quartiers ne décrivent pas une ville de 148 000 habitants et le site ne publie pas de liste noire de secteurs : la donnée n'existe pas à cette finesse, et un verdict sur un quartier habité demande mieux que trois observations.",
+      },
+      {
+        heading: "Le verdict : pour qui Le Mans fonctionne",
+        body: "Le Mans fonctionne à partir de 2 650 € net par mois en location, et il fonctionne surtout pour un parent solo qui vise l'accession à la propriété avec un revenu moyen : à 1 900 € le mètre carré, avec un tram qui relie les quartiers abordables au centre et Paris à moins d'une heure, l'équation d'achat est l'une des plus accessibles du classement pour une ville de cette taille. Il fonctionne moins bien pour qui met l'offre scolaire en tête, auquel cas Poitiers propose 1,2 point de plus sur les écoles pour un loyer supérieur de 10 €, ou pour qui cherche la nature, l'axe le plus faible du dossier à 4,8/10. Le comparateur régional est brutal et mérite d'être posé : La Roche-sur-Yon est première de tout le classement national à 7,5, et Cholet est à 7,0, deux villes des Pays de la Loire nettement mieux placées que Le Mans sur ce profil précis. Si la contrainte n'est pas géographique, elles méritent le détour avant de signer. Le détail axe par axe est sur /villes/le-mans/parent-solo.",
+      },
+    ],
+    relatedCities: ["le-mans", "laval", "angers", "alencon", "tours"],
+    relatedGuides: [
+      "acheter-a-le-mans-quel-quartier-budget-2026",
+      "demenager-a-le-mans-2026",
+      "travail-a-le-mans-2026",
+      "10-choses-a-faire-a-le-mans-2026",
+      "parent-solo-a-angers-2026",
+    ],
+    tags: ["parent solo Le Mans 2026", "monoparental Sarthe", "T3 Le Mans budget", "achat parent seul Pays de la Loire", "tram Le Mans écoles"],
+  },
+  {
+    slug: "parent-solo-a-amiens-2026",
+    title: "Parent solo à Amiens en 2026 : de bonnes écoles, un loyer bas, et une sécurité à 4,5",
+    metaTitle: "Parent solo à Amiens 2026 — T3 900 €, écoles 6,6/10",
+    metaDesc:
+      "Fit 5,9/10, 119e sur 363. T3 à 900 € et écoles 6,6/10, soit 136 € par point. Mais sécurité 4,5/10 : l'arbitrage posé sans détour pour un seul revenu.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-16",
+    updatedAt: "2026-08-16",
+    intro:
+      "Amiens compte 134 057 habitants et sort 5,9/10 au composite parent solo, 119e sur les 363 communes de plus de 20 000 habitants, au-dessus de la médiane du classement fixée à 5,5/10. Le détail est plus contrasté que le résultat ne le suggère : coût de la vie 6,4/10 et écoles 6,6/10 tirent vers le haut, transports 6,1/10 suit, et sécurité 4,5/10 pèse lourd puisque cet axe compte pour un quart du composite (source : data/cities-seed.ts). Le T3 moyen est à 900 € et le mètre carré à l'achat à 2 200 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 750 € par mois. Le dossier amiénois a une particularité utile : c'est le meilleur score d'écoles du batch après Annecy et Poitiers, obtenu à un prix de logement de ville moyenne. Reste à savoir ce que coûte l'autre côté du bilan.",
+    sections: [
+      {
+        heading: "Deux axes qui portent, un qui coûte",
+        body: "Le composite pondère coût 0,30, écoles 0,25, sécurité 0,25, transports 0,20. Amiens marque 6,4 et 6,6 sur les deux premiers, qui pèsent ensemble 0,55, et 4,5 sur la sécurité, qui pèse 0,25 à elle seule. Le résultat, 5,9/10, est donc une moyenne honnête d'un dossier réellement asymétrique, et c'est plus informatif que le chiffre global. Amiens est onzième des Hauts-de-France sur 27 communes éligibles, derrière Laon à 7,0, Soissons à 6,9 et Compiègne à 6,8, trois villes plus petites du même ensemble régional qui font nettement mieux sur ce profil. Dans la Somme, Abbeville la devance à 6,5. Ces comparaisons ne sont pas des recommandations de déménagement, elles servent à situer : un parent solo qui vise le nord de la France sans contrainte d'emploi précise a des options mieux classées qu'Amiens à proximité immédiate. Les autres axes du dossier : score global 5,3/10, culture 6,6/10, qualité de vie 5,1/10, télétravail 4,8/10, nature 4,2/10, la valeur la plus basse du batch sur cet axe.",
+      },
+      {
+        heading: "136 € par point d'écoles : le troisième meilleur ratio du batch",
+        body: "Un T3 à 900 € pour un score d'écoles de 6,6/10 donne 136 € de loyer par point, troisième meilleur ratio des dix villes traitées ici, derrière Poitiers à 119 et Dunkerque à 129, et devant Mulhouse à 134 de très peu. C'est l'argument principal du dossier amiénois et il est solide : la ville offre une densité scolaire de préfecture universitaire à un prix de logement que les métropoles comparables ne pratiquent plus. À titre de repère dans ce batch, Nîmes affiche un T3 plus cher de 60 € pour un score d'écoles inférieur de 1,3 point, soit 181 € par point contre 136. La convention vaut ici comme partout sur ce site : l'axe écoles mesure l'offre communale, la densité d'établissements et l'éventail de filières, pas la réussite des élèves ni la qualité du travail des équipes enseignantes. Il dit combien de portes sont ouvertes à un parent qui doit arbitrer un collège ou une option de lycée sans pouvoir déplacer son domicile à volonté, ce qui est exactement la contrainte d'un foyer à un seul conducteur.",
+      },
+      {
+        heading: "Sécurité 4,5/10 : ce que ça implique en pratique",
+        body: "4,5/10 est un score bas et il ne sert à rien de l'habiller. Dans ce batch, Amiens partage cette valeur avec Mulhouse et Dunkerque, et se situe au-dessus de Nîmes à 3,9 et de Perpignan à 3,7. Traduit en méthode, cela veut dire que le choix du quartier n'est pas une préférence, c'est la décision principale du projet, et qu'un logement retenu sur le seul critère du loyer a ici une probabilité plus élevée qu'ailleurs de poser problème au quotidien. C'est une contrainte d'organisation, pas un verdict sur la ville ni sur ses habitants. Sur les trois quartiers documentés dans data/neighborhoods.ts, les notes de sécurité vont de 6,5 à Étouvie à 8,0 à Henriville, sur l'échelle propre à ce fichier, qui ne se compare pas au score communal de 4,5 : ce sont deux échelles et deux périmètres différents, et les mettre côte à côte sans le dire serait trompeur. Trois quartiers ne décrivent pas une ville de 134 000 habitants. Le site ne publie pas de liste de quartiers à éviter, et la raison est constante : la donnée n'existe pas à cette granularité, et porter un jugement global sur un lieu où vivent des gens réels demanderait bien mieux que trois observations.",
+      },
+      {
+        heading: "Le budget : 2 750 € net, et les trois niveaux de prix",
+        body: "Le revenu net minimum estimé est de 2 750 € par mois pour un T3 à 900 €, sur la règle des 33 %. Les autres références locatives sont un T2 à 680 € et un T1 à 490 €. À l'achat, 2 200 € le mètre carré situent un T3 de 65 mètres carrés autour de 143 000 € au prix moyen, un niveau intermédiaire dans ce batch, entre Le Mans à 1 900 € et Perpignan à 2 300 €. Les trois quartiers documentés donnent une amplitude nette de T2, de 560 € à Étouvie à 700 € à Saint-Leu, avec Henriville à 680 €. Cet écart de 140 € entre le plus bas et le plus haut représente environ un cinquième du loyer, et c'est une somme qui compte réellement sur un seul revenu. La lecture honnête est celle-ci : à Amiens, le quartier le moins cher et le mieux noté en sécurité ne sont pas le même, ce qui pose au parent solo un arbitrage frontal entre 140 € par mois et une contrainte quotidienne. Il n'existe pas de bonne réponse générale ; il existe une réponse par situation, et elle se prend en visitant aux heures où l'on vivra réellement, pas un mardi à 14 heures.",
+      },
+      {
+        heading: "Transports, culture et ce que le composite ignore",
+        body: "Amiens marque 6,1/10 en transports, porté par un réseau de bus urbain et non par un tramway, contrairement à Orléans, au Mans et à Mulhouse dans ce batch. Pour un parent seul, la conséquence est qu'il faut valider ses propres trajets avant de signer, école puis travail, aux heures réelles, parce que le maillage d'un réseau de bus se juge sur une ligne précise et pas sur un score. Le site ne dispose pas de données de fréquence à cette échelle et ne va donc pas au-delà de ce constat. En dehors du composite, la ville tient deux atouts pour un parent qui occupe seul les mercredis et les vacances : un score culture de 6,6/10, au niveau d'Orléans et au-dessus du Mans et de Dunkerque, et un patrimoine gratuit et central, la cathédrale gothique étant inscrite au patrimoine mondial et les hortillonnages formant un espace de promenade en eau à la lisière immédiate de la ville. À l'inverse, le score de nature à 4,2/10 est le plus faible du batch, et le télétravail à 4,8/10 se situe dans le bas de tableau, ce qui limite l'option d'un emploi à distance indexé sur un autre bassin.",
+      },
+      {
+        heading: "Le verdict : pour qui Amiens fonctionne",
+        body: "Amiens fonctionne à partir de 2 750 € net par mois, pour un parent solo qui met l'offre scolaire en tête, qui accepte de faire du choix du quartier la première décision du projet et non la dernière, et dont l'emploi est ancré localement. Sur ce profil, le ratio de 136 € par point d'écoles est un vrai argument et le dossier tient. Elle fonctionne moins bien pour qui ne peut pas consacrer de temps à la recherche du logement, parce que le score de sécurité rend cette étape non négociable, ou pour qui compte sur le télétravail pour importer un salaire d'ailleurs. Le comparateur le plus utile est régional plutôt que national : Compiègne, Soissons et Laon sont toutes trois mieux classées dans les Hauts-de-France sur ce profil, et Abbeville devance Amiens à l'intérieur même de la Somme. Si la contrainte d'emploi le permet, ces villes méritent d'être regardées avant de conclure. Le détail axe par axe est sur /villes/amiens/parent-solo.",
+      },
+    ],
+    relatedCities: ["amiens", "abbeville", "beauvais", "saint-quentin", "compiegne"],
+    relatedGuides: [
+      "vivre-a-amiens-2026",
+      "acheter-a-amiens-quel-quartier-budget-2026",
+      "demenager-a-amiens-2026",
+      "travail-a-amiens-2026",
+      "parent-solo-a-lille-2026",
+    ],
+    tags: ["parent solo Amiens 2026", "monoparental Somme", "T3 Amiens budget", "écoles Amiens parent seul", "famille monoparentale Hauts-de-France"],
+  },
+  {
+    slug: "parent-solo-a-mulhouse-2026",
+    title: "Parent solo à Mulhouse en 2026 : le logement le moins cher du batch, et pourquoi",
+    metaTitle: "Parent solo à Mulhouse 2026 — T3 780 €, tram, achat 1 700 €",
+    metaDesc:
+      "Fit 5,9/10, 126e sur 363. T3 à 780 € et achat à 1 700 €/m², les plus bas du batch. Transports 7,0/10, sécurité 4,5/10 : l'arbitrage, chiffres à l'appui.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-16",
+    updatedAt: "2026-08-16",
+    intro:
+      "Mulhouse compte 108 000 habitants et obtient 5,9/10 au composite parent solo, 126e sur les 363 communes de plus de 20 000 habitants, au-dessus de la médiane du classement fixée à 5,5/10. Le détail : transports 7,0/10, la meilleure valeur des dix villes de ce batch, coût de la vie 6,4/10, écoles 5,8/10, sécurité 4,5/10 (source : data/cities-seed.ts). Le T3 moyen est à 780 € et le mètre carré à l'achat à 1 700 € (source : data/housing.ts), soit les deux montants les plus bas de tout ce batch, pour un revenu net minimum estimé à 2 350 € par mois. Un T3 sous 800 € dans une ville de plus de 100 000 habitants équipée d'un tramway est une combinaison rare, et elle mérite qu'on explique à la fois ce qu'elle permet et ce qu'elle recouvre.",
+    sections: [
+      {
+        heading: "Le meilleur score de transports du batch",
+        body: "Le composite pondère coût 0,30, écoles 0,25, sécurité 0,25, transports 0,20. Mulhouse marque 7,0/10 sur cet axe, devant Annecy et Orléans à 6,4, Nîmes, Amiens, Dunkerque et Le Mans à 6,1, Perpignan à 5,5 et Saint-Denis de La Réunion à 4,7. La ville dispose d'un réseau de tramway et d'une liaison tram-train qui prolonge le réseau urbain vers la vallée voisine, ce qui est peu courant à cette échelle. Pour un parent solo, cet axe n'est pas un critère de confort : quand une seule personne assure la chaîne école, travail, courses et retour, une desserte structurante est la seule chose qui permet de ne pas dépendre entièrement d'une voiture, poste de dépense que le budget d'un foyer à un revenu supporte mal. Les trois quartiers documentés dans data/neighborhoods.ts sont tous notés entre 7,5 et 8,0 en transports sur l'échelle propre à ce fichier, y compris Bourtzwiller, qui affiche par ailleurs le T2 le plus bas de la ville. Les autres axes du dossier : score global 5,8/10, culture 6,9/10, télétravail 6,3/10, qualité de vie 5,5/10, nature 5,0/10.",
+      },
+      {
+        heading: "780 € le T3, 1 700 € le mètre carré : le seuil d'entrée le plus bas",
+        body: "Le revenu net minimum estimé est de 2 350 € par mois, le deuxième plus bas du batch après Dunkerque à 2 250 €, et à comparer aux 4 150 € d'Annecy. Les autres références locatives sont un T2 à 580 € et un T1 à 420 €. À l'achat, 1 700 € le mètre carré placent un T3 de 65 mètres carrés autour de 110 500 € au prix moyen, le montant le plus accessible de ce batch. Pour un parent seul, cette combinaison ouvre concrètement l'accession à des revenus qui en sont exclus presque partout ailleurs, et c'est le point le plus important du dossier mulhousien. Passer du statut de locataire à celui de propriétaire change moins la mensualité que la structure du risque : le logement cesse d'être une variable qu'un bailleur peut faire bouger au renouvellement, ce qui compte davantage quand il n'y a personne pour absorber le choc. Le T2 par quartier va de 480 € à Bourtzwiller à 600 € au Nouveau Bassin, avec le centre-ville à 560 €. Un écart de 120 € seulement sépare le plus cher du moins cher, ce qui signifie qu'à Mulhouse, contrairement à Amiens, le choix du quartier ne se joue pas d'abord sur le prix.",
+      },
+      {
+        heading: "Pourquoi c'est si peu cher, et ce que ça veut dire",
+        body: "Un prix bas est une donnée, pas un cadeau, et il vaut mieux savoir ce qu'il traduit. Mulhouse marque 4,5/10 en sécurité et 5,8/10 en écoles, deux axes qui pèsent ensemble la moitié du composite, et c'est là que se loge la contrepartie du logement bon marché. Le ratio de 134 € de loyer par point d'écoles reste pourtant bon, quatrième du batch derrière Poitiers, Dunkerque et Amiens, précisément parce que le loyer est très bas : la ville n'achète pas beaucoup d'offre scolaire, mais elle la fait payer peu. Sur la sécurité, 4,5/10 signifie que le choix du quartier est la décision structurante du projet et non un ajustement de confort. Sur la sécurité, les trois quartiers relevés dans data/neighborhoods.ts obtiennent des notes allant de 6,5 à 7,0, sur une échelle de quartier qui n'est pas celle des communes et ne se compare pas au 4,5/10 communal. Trois quartiers ne décrivent pas une ville de 108 000 habitants, et le site ne publie aucun verdict de sécurité par secteur : la granularité manque, et un jugement sur un lieu habité demande mieux que trois observations. Ce qui se dit sans risque, c'est qu'ici la visite du quartier aux heures réelles n'est pas optionnelle.",
+      },
+      {
+        heading: "La frontière : le levier de revenu qui change tout",
+        body: "Mulhouse est une ville frontalière, à proximité immédiate de la Suisse et de l'Allemagne, et cette position est le facteur qui peut rendre le dossier nettement meilleur qu'il n'apparaît sur les quatre axes. La logique est mécanique : un revenu indexé sur un marché du travail suisse combiné à un T3 à 780 € produit un reste à vivre sans équivalent dans ce batch, et c'est exactement l'inverse de l'équation annécienne, où le même mécanisme frontalier a fait monter les prix locaux jusqu'à 1 450 € le T3. Le classement lui-même donne d'ailleurs Saint-Louis, commune du Haut-Rhin collée à la frontière bâloise, à 5,7 de fit, un cran sous Mulhouse. Les réserves à poser franchement : le site ne dispose d'aucune donnée sur les salaires frontaliers, sur la fiscalité applicable ou sur les conditions d'accès à ces emplois, et n'avancera donc aucun chiffre. Pour un parent solo, la question décisive n'est de toute façon pas le salaire mais le temps de trajet, parce qu'une heure quotidienne supplémentaire est une heure de garde à financer ou à demander, et cette ligne n'apparaît dans aucun comparateur de loyers.",
+      },
+      {
+        heading: "Écoles 5,8/10 : le vrai point à surveiller",
+        body: "5,8/10 en écoles place Mulhouse dans le bas de tableau de ce batch, à égalité avec Dunkerque, devant Saint-Denis de La Réunion à 5,5, Nîmes à 5,3 et Perpignan à 4,5, mais derrière Poitiers à 7,4, Amiens à 6,6, Orléans à 6,6 et Le Mans à 6,2. L'effet concret dépend beaucoup de l'âge de l'enfant : en maternelle et en primaire, la carte scolaire de proximité limite la portée du score, et la question se ramène au choix du secteur d'habitation. Au collège et au lycée, la densité d'établissements et l'éventail d'options pèsent davantage, et c'est à ce moment que l'écart avec une ville comme Poitiers, 1,6 point plus haut, devient tangible pour un parent qui ne peut pas déménager à volonté. Colmar, dans le même département, obtient 6,3 de fit contre 5,9 à Mulhouse, ce qui en fait la comparaison la plus directe à faire avant de trancher. Rappel de convention : cet axe mesure l'offre communale, pas la réussite des élèves ni la qualité du travail des enseignants.",
+      },
+      {
+        heading: "Le verdict : pour qui Mulhouse fonctionne",
+        body: "Mulhouse fonctionne à partir de 2 350 € net par mois, le seuil le plus bas du batch après Dunkerque, et elle fonctionne particulièrement bien pour deux profils. Le premier est le parent solo qui vise l'accession avec un revenu moyen : à 1 700 € le mètre carré avec un tram qui dessert les quartiers abordables, il n'existe pas d'équation d'achat plus accessible dans ce batch. Le second est le parent qui travaille de l'autre côté de la frontière, pour qui l'écart entre le revenu et le coût du logement est le plus favorable de toutes les villes traitées ici. Elle fonctionne moins bien pour qui met l'offre scolaire en premier, l'axe le plus faible du dossier avec la sécurité, ou pour qui ne peut pas consacrer du temps à choisir son quartier. Le comparateur immédiat est Colmar, à 6,3 de fit dans le même département, et il mérite d'être fait avant de signer. Le détail axe par axe est sur /villes/mulhouse/parent-solo.",
+      },
+    ],
+    relatedCities: ["mulhouse", "colmar", "saint-louis-haut-rhin", "belfort", "strasbourg"],
+    relatedGuides: [
+      "vivre-a-mulhouse-2026",
+      "acheter-a-mulhouse-quel-quartier-budget-2026",
+      "demenager-a-mulhouse-2026",
+      "10-choses-a-faire-a-mulhouse-2026",
+      "parent-solo-a-strasbourg-2026",
+    ],
+    tags: ["parent solo Mulhouse 2026", "monoparental Haut-Rhin", "T3 Mulhouse budget", "achat parent seul Alsace", "frontalier Bâle famille monoparentale"],
+  },
+  {
+    slug: "parent-solo-a-dunkerque-2026",
+    title: "Parent solo à Dunkerque en 2026 : les transports gratuits et le loyer le plus bas du batch",
+    metaTitle: "Parent solo à Dunkerque 2026 — T3 750 €, bus gratuit",
+    metaDesc:
+      "Fit 5,7/10, 158e sur 363. T3 à 750 € et seuil d'entrée à 2 250 €, les plus bas du batch. Bus gratuit depuis 2018, sécurité 4,5/10 : le calcul honnête.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-16",
+    updatedAt: "2026-08-16",
+    intro:
+      "Dunkerque compte 90 000 habitants et obtient 5,7/10 au composite parent solo, 158e sur les 363 communes de plus de 20 000 habitants, juste au-dessus de la médiane du classement établie à 5,5/10. Le détail : coût de la vie 6,4/10, transports 6,1/10, écoles 5,8/10, sécurité 4,5/10 (source : data/cities-seed.ts). Le T3 moyen est à 750 € et le mètre carré à l'achat à 1 800 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 250 € par mois, le seuil d'entrée le plus bas des dix villes de ce batch. À ce chiffre s'ajoute une donnée qui n'apparaît dans aucun de nos axes et qui pèse pourtant lourd sur un budget à un seul revenu : le réseau de bus de l'agglomération est gratuit pour tous depuis 2018. Voici ce que l'ensemble donne.",
+    sections: [
+      {
+        heading: "2 250 € net : le seuil d'entrée le plus bas du batch",
+        body: "Le revenu net minimum estimé par lib/parent-solo.ts est de 2 250 € par mois pour un T3 à 750 €, sur la règle des 33 %. C'est le montant le plus accessible de ce batch, devant Mulhouse à 2 350 € et loin devant Annecy à 4 150 €. Les autres références locatives sont un T2 à 560 € et un T1 à 400 €, ce dernier étant le loyer le plus bas de toutes les villes traitées ici. À l'achat, 1 800 € le mètre carré situent un T3 de 65 mètres carrés autour de 117 000 € au prix moyen, deuxième prix le plus bas du batch après Mulhouse. Pour un parent solo, ce niveau de seuil change la nature de la question : dans la plupart des villes, l'enjeu est de savoir si le dossier passe ; ici, il passe pour une large part des situations à un salaire, et l'enjeu redevient de savoir si la ville convient. C'est une position rare dans ce classement et elle mérite d'être dite clairement avant d'aborder les points faibles du dossier, qui sont réels.",
+      },
+      {
+        heading: "Le bus gratuit : une ligne de budget qui disparaît",
+        body: "Le réseau de bus de l'agglomération dunkerquoise est gratuit pour l'ensemble des usagers depuis 2018. Notre axe transports, à 6,1/10, mesure la qualité et la couverture de la desserte et n'intègre pas son prix : ce score est donc à lire indépendamment de la gratuité, qui vient en plus. Pour un foyer à un seul revenu, l'effet est direct. Un abonnement de transport pour un adulte et un ou deux enfants scolarisés est une dépense mensuelle fixe dans toutes les autres villes de ce batch, et elle est ici égale à zéro. À cela s'ajoute un effet moins visible mais réel pour un parent seul : quand se déplacer ne coûte rien à l'usage, un trajet supplémentaire cesse d'être un arbitrage, ce qui compte quand une seule personne enchaîne l'école, le travail, les courses et une activité le mercredi. La réserve honnête : la gratuité ne remplace pas la couverture, et un réseau gratuit mal orienté par rapport à ses propres trajets reste inutile. La vérification à faire avant de signer est la même que partout, tester la ligne école puis travail aux heures réelles.",
+      },
+      {
+        heading: "Sécurité 4,5/10 et écoles 5,8/10 : la contrepartie",
+        body: "Ces deux axes pèsent ensemble la moitié du composite et ce sont les deux points faibles du dossier. Avec 4,5/10 en sécurité, Dunkerque est au niveau d'Amiens et de Mulhouse dans ce batch, au-dessus de Nîmes à 3,9 et de Perpignan à 3,7, en dessous du Mans à 5,3 et de Poitiers à 5,7. Traduit en méthode, cela signifie que le choix du quartier est la décision principale du projet et pas un ajustement de dernière minute. Sur la sécurité, les trois quartiers documentés dans data/neighborhoods.ts affichent des notes allant de 6,5 à 7,5, sur l'échelle propre à ce fichier, qui n'est pas celle des communes et ne se compare pas au score communal. Trois quartiers ne décrivent pas une ville de 90 000 habitants, et le site ne publie pas de liste de secteurs à éviter : la donnée n'existe pas à cette finesse, et juger un lieu où vivent des gens réels demanderait mieux que trois observations. Sur les écoles, 5,8/10 donne 129 € de loyer par point, deuxième meilleur ratio du batch derrière Poitiers à 119 : l'offre scolaire est modeste, mais elle est peu chère à atteindre. Comme toujours, cet axe mesure l'offre communale et non la réussite des élèves.",
+      },
+      {
+        heading: "La mer, le carnaval, et ce qui ne coûte rien",
+        body: "Le composite ignore ce qui remplit les mercredis et les vacances, et c'est un angle mort qu'il faut compenser à la main quand on est seul à les occuper. Dunkerque affiche 5,0/10 en nature et 5,9/10 en culture, des valeurs moyennes qui ne reflètent pas complètement la situation locale. Le quartier de Malo-les-Bains est une station balnéaire intégrée à la ville, avec une plage de sable accessible sans voiture et sans billet, et c'est la donnée la plus utile du dossier pour un parent solo : une destination gratuite, proche, praticable toute l'année, qui ne suppose ni réservation ni budget. Le carnaval structure par ailleurs une part importante de la vie collective locale sur plusieurs semaines en hiver. À l'inverse, le score de télétravail est à 4,8/10, dans le bas de tableau, ce qui limite l'hypothèse d'un emploi à distance indexé sur un autre bassin. Le T2 par quartier va de 500 € à Fort-Mardyck à 580 € à Malo-les-Bains, avec le centre-ville à 540 €, une amplitude faible qui signifie que vivre près de la plage ne se paie pas ici au prix fort.",
+      },
+      {
+        heading: "Le contexte industriel, dit franchement",
+        body: "Dunkerque est un port et un bassin industriel, et deux éléments méritent d'être posés sans détour parce qu'ils font partie de la décision. Le premier est l'emploi : l'activité portuaire et industrielle est le socle du bassin, ce qui donne des débouchés réels dans la logistique, la maintenance et l'industrie, secteurs souvent organisés en horaires postés. Pour un parent solo, un poste en 3×8 pose un problème de garde qui n'a rien de théorique et qui doit être examiné avant l'acceptation d'un contrat, pas après. Le second est la centrale nucléaire de Gravelines, située dans la communauté urbaine de Dunkerque. Le site ne publie pas d'évaluation de risque à cette échelle et ne prétendra donc pas trancher, mais un parent qui s'installe a le droit de savoir qu'il entre dans le périmètre d'un plan particulier d'intervention et de se renseigner auprès des sources officielles sur les consignes qui s'y appliquent, notamment la distribution d'iode. Le guide vivre-proche-centrale-nucleaire-france-2026 traite le sujet à l'échelle du pays.",
+      },
+      {
+        heading: "Le verdict : pour qui Dunkerque fonctionne",
+        body: "Dunkerque fonctionne à partir de 2 250 € net par mois, et c'est le meilleur dossier de ce batch pour un parent solo dont la contrainte principale est le revenu. Le trio loyer bas, prix d'achat bas et transports gratuits produit un reste à vivre que peu de villes de cette taille peuvent égaler, et la mer accessible à pied règle une partie de la question des mercredis sans budget. Elle fonctionne moins bien pour qui met l'offre scolaire en tête, à 5,8/10, ou pour qui veut éviter d'avoir à choisir son quartier avec soin, ce que le score de sécurité rend nécessaire. Dans le Nord, Cambrai à 6,4 et Lille à 6,3 sont mieux classées, mais Lille se paie 330 € de plus par mois sur le T3, ce qui déplace le seuil d'entrée de 2 250 à 3 250 €. C'est l'arbitrage le plus net du dossier : à Dunkerque, on achète du reste à vivre et on paie en offre scolaire. Le détail axe par axe est sur /villes/dunkerque/parent-solo.",
+      },
+    ],
+    relatedCities: ["dunkerque", "calais", "saint-omer", "boulogne-sur-mer", "lille"],
+    relatedGuides: [
+      "10-choses-a-faire-a-dunkerque-2026",
+      "vivre-en-hauts-de-france-guide-2026",
+      "vivre-proche-centrale-nucleaire-france-2026",
+      "parent-solo-a-lille-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+    ],
+    tags: ["parent solo Dunkerque 2026", "monoparental Nord", "T3 Dunkerque budget", "transports gratuits Dunkerque", "famille monoparentale Hauts-de-France"],
+  },
+  {
+    slug: "parent-solo-a-nimes-2026",
+    title: "Parent solo à Nîmes en 2026 : le soleil ne compense pas le classement",
+    metaTitle: "Parent solo à Nîmes 2026 — T3 960 €, sécurité 3,9/10",
+    metaDesc:
+      "Fit 5,3/10, 224e sur 363, sous la médiane. T3 à 960 €, écoles 5,3/10, sécurité 3,9/10 : 181 € de loyer par point. L'arbitrage posé sans arrondir.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-16",
+    updatedAt: "2026-08-16",
+    intro:
+      "Nîmes compte 153 005 habitants et obtient 5,3/10 au composite parent solo, 224e sur les 363 communes de plus de 20 000 habitants, sous la médiane du classement qui se situe à 5,5/10. Le détail : coût de la vie 5,9/10, transports 6,1/10, écoles 5,3/10, sécurité 3,9/10 (source : data/cities-seed.ts). Le T3 moyen est à 960 € et le mètre carré à l'achat à 2 800 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 900 € par mois. C'est le deuxième loyer le plus élevé de ce batch après Annecy, associé au troisième plus mauvais score d'écoles, ce qui produit le ratio le moins favorable du lot après Perpignan. Ce guide dit pourquoi le dossier nîmois est difficile pour un parent seul, ce qui n'est pas la même chose que dire que Nîmes est une mauvaise ville.",
+    sections: [
+      {
+        heading: "Où le composite décroche, et de combien",
+        body: "Le composite pondère coût 0,30, écoles 0,25, sécurité 0,25, transports 0,20. Nîmes est correcte sur les deux axes qui pèsent 0,50 au total, coût et transports, et faible sur les deux autres, qui pèsent également 0,50 : écoles à 5,3 et sécurité à 3,9. Le résultat de 5,3/10 est donc une moyenne exacte d'un dossier réellement déséquilibré, et la moyenne masque ici la nature du problème. La sécurité à 3,9/10 est la deuxième plus basse de ce batch après Perpignan à 3,7, et elle pèse un quart du total à elle seule. Nîmes est dix-septième d'Occitanie sur 22 communes éligibles, très loin d'Albi à 7,0, d'Auch à 6,8 et de Castres à 6,5, qui occupent le haut de leur région sur ce profil. Dans le Gard, elle devance Alès de peu, 5,3 contre 5,0. Les autres axes, hors composite : culture 7,3/10, la meilleure valeur du batch, score global 5,1/10, nature 5,6/10, qualité de vie 5,1/10, télétravail 5,3/10.",
+      },
+      {
+        heading: "181 € par point d'écoles : ce que le loyer n'achète pas",
+        body: "Un T3 à 960 € pour un score d'écoles de 5,3/10 donne 181 € de loyer par point, avant-dernier ratio de ce batch, derrière Perpignan à 193 seulement. La comparaison la plus parlante est interne au batch : Poitiers affiche un T3 inférieur de 80 € et un score d'écoles supérieur de 2,1 points, soit 119 € par point contre 181. Autrement dit, un parent solo paie à Nîmes environ 50 % de plus par point d'offre scolaire qu'à Poitiers, pour un loyer plus élevé. Cet écart n'est pas un détail de classement, c'est un arbitrage financier concret sur toute la scolarité d'un enfant. Il faut rappeler ce que l'axe mesure : l'offre communale, la densité d'établissements et l'éventail de filières, pas la réussite des élèves ni la qualité du travail des enseignants, et rien ici ne juge les équipes en poste. Il indique combien de portes sont ouvertes à un parent qui ne peut pas déplacer son domicile à volonté, ce qui est précisément la contrainte d'un foyer à un seul conducteur.",
+      },
+      {
+        heading: "Sécurité 3,9/10 : la contrainte à traiter en premier",
+        body: "3,9/10 est un score bas et il structure entièrement la méthode de recherche d'un logement. Concrètement, cela signifie que le choix du quartier n'est pas une préférence mais la première décision du projet, avant même le budget, et qu'un logement retenu sur le seul critère du loyer a ici une probabilité nettement plus élevée qu'ailleurs de poser problème au quotidien. C'est une contrainte d'organisation, pas un verdict sur la ville ni sur ses habitants, et la distinction compte. Les trois quartiers documentés dans data/neighborhoods.ts obtiennent des notes de sécurité de 5,8 à Pissevin à 7,0 à l'Écusson, sur l'échelle propre à ce fichier, qui n'est ni celle des communes ni comparable au 3,9/10 communal. Le quartier le moins bien noté est aussi celui qui affiche le T2 le plus bas, 550 € contre 720 € aux Arènes : l'arbitrage entre 170 € par mois et une contrainte quotidienne est donc frontal, et il n'a pas de bonne réponse générale. Trois quartiers ne décrivent pas une ville de 153 000 habitants, et le site ne publie aucune liste noire : la donnée manque à cette granularité, et un jugement sur un lieu habité demande mieux que trois observations.",
+      },
+      {
+        heading: "Le budget : 2 900 € net, et le prix du soleil",
+        body: "Le revenu net minimum estimé est de 2 900 € par mois pour un T3 à 960 €, le deuxième seuil le plus élevé du batch après les 4 150 € d'Annecy. Les autres références sont un T2 à 720 € et un T1 à 520 €. À l'achat, 2 800 € le mètre carré situent un T3 de 65 mètres carrés autour de 182 000 € au prix moyen, le prix le plus élevé du batch après Annecy. Il faut nommer ce que ces montants recouvrent : le climat et le cadre méditerranéens sont valorisés par le marché, indépendamment des services rendus à un foyer. Un parent solo paie donc ici un supplément de désirabilité qui ne se retrouve ni dans l'offre scolaire ni dans le score de sécurité, alors qu'il pèse sur le loyer tous les mois. C'est une observation de marché, pas un reproche adressé à la ville. La conséquence pratique est simple : si l'ensoleillement est le premier critère du projet, le dossier se défend et il faut alors budgéter en conséquence ; s'il est un bonus, l'argent est mieux employé ailleurs dans ce classement.",
+      },
+      {
+        heading: "Ce qui plaide en faveur de Nîmes",
+        body: "Le dossier n'est pas vide, et l'honnêteté impose de poser aussi ce qui joue en sa faveur. La culture est à 7,3/10, la meilleure valeur des dix villes de ce batch, devant Mulhouse à 6,9 et Saint-Denis de La Réunion à 6,9. Pour un parent qui occupe seul tous les mercredis et toutes les vacances, une offre culturelle dense est un poste de dépense évité autant qu'un agrément, et le patrimoine antique de la ville, arènes et Maison Carrée, constitue un fonds de promenade urbaine gratuit ou peu coûteux au centre même de la ville. Les transports sont à 6,1/10, au niveau du Mans, d'Amiens et de Dunkerque, portés par un réseau de bus à haut niveau de service et non par un tramway : la desserte existe, elle se vérifie sur ses propres trajets. La nature est à 5,6/10, au-dessus de la moyenne du batch, les garrigues étant immédiatement accessibles. Enfin la ville est bien reliée par le rail, ce qui compte pour maintenir un lien avec une famille éloignée, sujet que les comparateurs de loyers ignorent et qu'un parent seul ne peut pas ignorer.",
+      },
+      {
+        heading: "Le verdict : pour qui Nîmes fonctionne",
+        body: "Nîmes fonctionne à partir de 2 900 € net par mois, pour un parent solo dont l'emploi est ancré localement, qui met le climat et la vie culturelle en tête de ses critères, et qui est en mesure de consacrer du temps au choix du quartier plutôt que de prendre le premier logement disponible. Sur ce profil précis, la ville tient. Elle ne fonctionne pas pour un parent qui arbitre d'abord sur les écoles et la sécurité, parce que ce sont ses deux axes les plus faibles et qu'ils pèsent ensemble la moitié du composite. Le comparateur interne au batch est net : à 80 € de loyer en moins, Poitiers offre 2,1 points d'écoles et 1,8 point de sécurité de plus. Et pour rester en Occitanie, Albi sort à 7,0, premier de sa région sur ce profil et parmi les dix premiers du classement national. Si la contrainte n'est pas l'emploi nîmois, ces options méritent d'être regardées avant de signer. Le détail axe par axe est sur /villes/nimes/parent-solo.",
+      },
+    ],
+    relatedCities: ["nimes", "ales", "arles", "avignon", "montpellier"],
+    relatedGuides: [
+      "vivre-a-nimes-2026",
+      "acheter-a-nimes-quel-quartier-budget-2026",
+      "demenager-a-nimes-2026",
+      "travail-a-nimes-2026",
+      "parent-solo-a-montpellier-2026",
+    ],
+    tags: ["parent solo Nîmes 2026", "monoparental Gard", "T3 Nîmes budget", "écoles Nîmes parent seul", "famille monoparentale Occitanie"],
+  },
+  {
+    slug: "parent-solo-a-perpignan-2026",
+    title: "Parent solo à Perpignan en 2026 : le dossier métropolitain le plus difficile du batch",
+    metaTitle: "Parent solo à Perpignan 2026 — T3 870 €, écoles 4,5/10",
+    metaDesc:
+      "Fit 5,0/10, 263e sur 363. Écoles 4,5/10 et sécurité 3,7/10, les plus basses du batch, pour un T3 à 870 €. Ce que le loyer bas ne compense pas.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-16",
+    updatedAt: "2026-08-16",
+    intro:
+      "Perpignan compte 121 875 habitants et obtient 5,0/10 au composite parent solo, 263e sur les 363 communes de plus de 20 000 habitants, un demi-point sous la médiane du classement fixée à 5,5/10. Le détail : coût de la vie 6,2/10, transports 5,5/10, écoles 4,5/10, sécurité 3,7/10 (source : data/cities-seed.ts). Ces deux dernières valeurs sont les plus basses des dix villes de ce batch, et elles pèsent ensemble la moitié du composite. Le T3 moyen est à 870 € et le mètre carré à l'achat à 2 300 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 650 € par mois. Le loyer est bas, et ce guide explique pourquoi cela ne suffit pas à faire un bon dossier de parent solo, avec les chiffres qui le montrent.",
+    sections: [
+      {
+        heading: "193 € par point d'écoles : le pire ratio du batch",
+        body: "Le rapport entre le loyer d'un T3 et le score d'écoles donne ici 193 € par point, la valeur la plus défavorable des dix villes traitées dans ce batch. La comparaison directe est la plus utile : Perpignan et Poitiers affichent des T3 quasiment identiques, 870 € contre 880 €, pour des scores d'écoles de 4,5 et 7,4. Pour dix euros de loyer en moins, un parent solo perd donc 2,9 points d'offre scolaire, soit près de deux tiers d'écart. C'est le résultat le plus net de tout ce batch et il mérite d'être posé tel quel : le loyer perpignanais n'est pas bas au sens où il donnerait accès à autre chose à moindre prix, il est aligné sur ce que le marché estime que la ville offre. Précision de convention, valable ici comme ailleurs : cet axe mesure l'offre communale, la densité d'établissements et l'éventail de filières, et il ne dit rien de la réussite des élèves ni de la qualité du travail des enseignants, qui ne sont pas en cause. Il mesure le nombre de portes ouvertes à un parent qui ne peut pas déménager à volonté.",
+      },
+      {
+        heading: "Sécurité 3,7/10 : le score le plus bas du batch",
+        body: "3,7/10 est le plus mauvais score de sécurité des dix villes de ce batch, sous les 3,9 de Nîmes et bien sous les 5,7 de Poitiers. Cet axe pèse un quart du composite, et il structure la méthode plus qu'aucun autre : le choix du quartier devient la première décision du projet, avant le budget, avant même la recherche d'emploi si le calendrier le permet. Un logement retenu sur le seul critère du loyer a ici une probabilité élevée de poser un problème quotidien, et c'est une contrainte d'organisation à intégrer, pas un verdict porté sur la ville ou sur les gens qui y vivent. Sur la sécurité, les trois quartiers documentés dans data/neighborhoods.ts affichent des notes allant de 5,8 au Bas-Vernet à 8,0 au Moulin-à-Vent, sur l'échelle propre à ce fichier, qui n'est pas celle des communes et ne se compare pas au 3,7/10 communal. Le quartier le mieux noté n'est pas le plus cher, 700 € de T2 contre 650 € à Saint-Jean, ce qui est une information utile. Trois quartiers ne décrivent pas une ville de 121 000 habitants, et le site ne publie aucune liste de secteurs à éviter : la granularité manque, et un jugement global sur un lieu habité demanderait bien mieux que trois observations.",
+      },
+      {
+        heading: "Transports 5,5/10 : le deuxième point faible, moins visible",
+        body: "Perpignan marque 5,5/10 en transports, la deuxième valeur la plus basse du batch après Saint-Denis de La Réunion à 4,7, et en dessous de Nîmes à 6,1 pour une ville de taille comparable en Occitanie. Il n'y a pas de tramway, le réseau est un réseau de bus, et cet axe pèse 0,20 du composite. Pour un parent solo, la conséquence est directe et coûteuse : quand la desserte ne couvre pas la chaîne école, travail, retour, la voiture devient une infrastructure obligatoire et non un choix, avec l'assurance, le carburant, l'entretien et le stationnement qui vont avec. Sur un seul revenu, ce poste est difficile à absorber et il n'apparaît nulle part dans une comparaison de loyers. Les trois quartiers documentés sont notés entre 6,5 et 7,5 en transports sur l'échelle interne du fichier, le Bas-Vernet étant le plus bas. La vérification à faire avant de signer un bail est toujours la même, tester la ligne réelle aux heures réelles, un mardi matin et un vendredi soir, pas un dimanche.",
+      },
+      {
+        heading: "Le budget : 2 650 € net, et où va l'argent économisé",
+        body: "Le revenu net minimum estimé est de 2 650 € par mois pour un T3 à 870 €, au même niveau que Poitiers et Le Mans dans ce batch. Les autres références sont un T2 à 650 € et un T1 à 470 €. À l'achat, 2 300 € le mètre carré placent un T3 de 65 mètres carrés autour de 149 500 € au prix moyen, ce qui n'est pas particulièrement bas pour le rang que la ville occupe : Le Mans est à 1 900 €, Mulhouse à 1 700 € et Dunkerque à 1 800 €, trois villes mieux classées. Le coût de la vie est à 6,2/10, correct, et c'est le seul axe du dossier qui joue franchement en faveur du parent solo. La question à se poser est alors celle du reste à vivre : l'écart de loyer avec une ville mieux classée est ici modeste, souvent quelques dizaines d'euros, tandis que l'écart de score sur les écoles et la sécurité se compte en points entiers. Un parent qui choisit Perpignan pour économiser sur le logement n'économise pas grand-chose ; s'il la choisit pour le climat, la mer proche ou une attache familiale, l'arbitrage change de nature et devient défendable.",
+      },
+      {
+        heading: "Ce qui joue pour la ville",
+        body: "Le dossier a des points d'appui réels et il serait malhonnête de les taire. La nature est à 6,1/10, la deuxième meilleure valeur du batch après Annecy et Saint-Denis de La Réunion : la mer est à quelques kilomètres, les Pyrénées sont accessibles dans la journée, et pour un parent qui doit occuper seul les mercredis et les vacances scolaires, ce sont des destinations gratuites ou peu coûteuses qui pèsent davantage qu'un équipement payant. La culture est à 6,2/10, une valeur moyenne, portée par une identité catalane vivante et par des marchés au centre. La ville est également la porte de l'Espagne, ce qui ouvre des perspectives d'emploi et de vie transfrontalière que le site ne chiffre pas mais qui existent. Enfin, à l'intérieur du département, Perpignan est la seule commune de plus de 20 000 habitants du classement : il n'y a donc pas d'alternative locale à comparer, et le choix se fait entre Perpignan et une autre région, ce qui n'est pas la même décision.",
+      },
+      {
+        heading: "Le verdict : pour qui Perpignan fonctionne",
+        body: "Perpignan fonctionne à partir de 2 650 € net par mois, pour un parent solo qui a une raison forte d'être là : un emploi local, une famille sur place, une attache au territoire catalan. Sur ce profil, la ville est vivable et le budget tient, à condition de traiter le choix du quartier comme la première étape du projet et pas la dernière. Elle ne fonctionne pas comme choix d'optimisation, et c'est le message principal de ce guide : un parent qui compare des villes sur le papier et retient Perpignan pour son loyer se trompe de calcul, parce que le même loyer achète 2,9 points d'écoles et 2,0 points de sécurité de plus à Poitiers. En Occitanie, Albi sort à 7,0, Auch à 6,8 et Castres à 6,5, trois villes plus petites mais nettement mieux placées sur ce profil précis. Perpignan est le dossier métropolitain le plus difficile de ce batch, et le dire clairement vaut mieux que de laisser un parent le découvrir après le déménagement. Le détail axe par axe est sur /villes/perpignan/parent-solo.",
+      },
+    ],
+    relatedCities: ["perpignan", "narbonne", "carcassonne", "ceret", "montpellier"],
+    relatedGuides: [
+      "vivre-a-perpignan-2026",
+      "acheter-a-perpignan-quel-quartier-budget-2026",
+      "demenager-a-perpignan-2026",
+      "10-choses-a-faire-a-perpignan-2026",
+      "parent-solo-a-montpellier-2026",
+    ],
+    tags: ["parent solo Perpignan 2026", "monoparental Pyrénées-Orientales", "T3 Perpignan budget", "écoles Perpignan parent seul", "famille monoparentale Occitanie"],
+  },
+  {
+    slug: "parent-solo-a-saint-denis-reunion-2026",
+    title: "Parent solo à Saint-Denis de La Réunion en 2026 : la vie chère, la voiture, et l'éloignement",
+    metaTitle: "Parent solo à Saint-Denis (974) 2026 — T3 900 €, voiture",
+    metaDesc:
+      "Fit 4,8/10, 287e sur 363. Coût 4,1/10 et transports 4,7/10, les plus bas du batch, pour un T3 à 900 €. Le premier guide outre-mer de la série.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-16",
+    updatedAt: "2026-08-16",
+    intro:
+      "Saint-Denis de La Réunion compte 153 810 habitants, ce qui en fait la ville la plus peuplée de ce batch, et elle obtient 4,8/10 au composite parent solo, 287e sur les 363 communes de plus de 20 000 habitants, nettement sous la médiane du classement fixée à 5,5/10. Le détail : écoles 5,5/10, sécurité 4,9/10, transports 4,7/10 et coût de la vie 4,1/10, ces deux dernières valeurs étant les plus basses des dix villes de ce batch (source : data/cities-seed.ts). Le T3 moyen est à 900 € et le mètre carré à l'achat à 2 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 550 € par mois. C'est le premier guide outre-mer de cette série, et il existe parce que la série était entièrement métropolitaine alors que huit communes réunionnaises figurent au classement.",
+    sections: [
+      {
+        heading: "Le meilleur dossier de son département, et ce que ça dit",
+        body: "Le composite pondère coût 0,30, transports 0,20, écoles 0,25, sécurité 0,25. Saint-Denis sort à 4,8/10, ce qui la place troisième des huit communes réunionnaises éligibles, derrière Le Tampon et Saint-Pierre à 4,9 et devant Saint-Paul à 4,4, Saint-Benoît et Saint-Joseph à 4,3, Saint-Louis à 4,2 et Saint-André à 4,1. L'information est double. D'une part, l'écart entre les communes de l'île est faible, moins d'un point du premier au dernier, ce qui signifie qu'un parent solo qui compare des communes réunionnaises entre elles compare des dossiers proches : le choix se joue sur l'emploi, la famille et le trajet, pas sur le classement. D'autre part, aucune commune de La Réunion n'atteint la médiane nationale de 5,5, et c'est un fait structurel qu'il faut nommer plutôt que contourner. Les deux axes responsables sont le coût de la vie et les transports. Les autres axes du dossier dionysien, hors composite : nature 8,4/10, la meilleure valeur du batch après Annecy, qualité de vie 6,8/10, culture 6,9/10, score global 5,7/10, télétravail 5,1/10.",
+      },
+      {
+        heading: "Coût de la vie 4,1/10 : le point central du dossier",
+        body: "C'est le score le plus bas du batch sur l'axe qui pèse le plus lourd, et c'est l'élément qui explique l'essentiel du classement. Un point de méthode important ici : lib/parent-solo.ts relâche la règle des 33 % à 35 % pour les villes dont le score de coût est inférieur à 5, ce qui est le cas de Saint-Denis comme d'Annecy. Le revenu minimum affiché, 2 550 €, est donc déjà la version indulgente du calcul, et il ne porte que sur le loyer. Le T3 est à 900 €, le T2 à 700 € et le T1 à 490 €, des niveaux comparables à ceux d'Amiens ou d'Orléans en métropole. Le problème n'est donc pas le loyer, c'est tout le reste : le score de 4,1/10 traduit un niveau général des prix supérieur, ce qui pour un foyer à un seul revenu se joue sur les courses, l'énergie et les services, c'est-à-dire sur des dépenses qu'on ne peut pas arbitrer en changeant de quartier. Le site ne publie pas de relevé de prix à la consommation par commune et n'avancera donc aucun chiffre de panier ; l'axe agrégé est ce dont on dispose, et il est clair sur la direction.",
+      },
+      {
+        heading: "Transports 4,7/10 : la voiture n'est pas une option",
+        body: "4,7/10 est le score de transports le plus bas du batch, en dessous des 5,5 de Perpignan et loin des 7,0 de Mulhouse. Il n'existe pas de réseau ferroviaire de voyageurs sur l'île ; la desserte urbaine et interurbaine repose sur des réseaux de bus, et le relief contraint les itinéraires de façon beaucoup plus rigide qu'en plaine. Pour un parent solo, la traduction est directe et coûteuse : la voiture est une infrastructure obligatoire, avec l'assurance, le carburant, l'entretien et l'usure, et ce poste doit être budgété comme une charge fixe et non comme une variable d'ajustement. C'est le vrai supplément du dossier réunionnais, plus que le loyer. Les trois quartiers documentés dans data/neighborhoods.ts sont notés entre 6,5 et 8,0 en transports sur l'échelle propre à ce fichier, La Montagne étant la plus basse et la mieux notée en sécurité : l'arbitrage entre le calme des hauteurs et la dépendance à la voiture pour descendre est posé explicitement par la donnée elle-même. Ces notes ne se comparent pas au score communal, elles sont sur une autre échelle et un autre périmètre.",
+      },
+      {
+        heading: "Écoles 5,5/10, sécurité 4,9/10 : le milieu du tableau",
+        body: "Le score d'écoles est à 5,5/10, ce qui donne 164 € de loyer par point, un ratio médiocre, meilleur que Nîmes à 181 et Perpignan à 193, moins bon que toutes les autres villes du batch. L'offre scolaire dionysienne bénéficie d'un fait structurel utile à un parent : la ville accueille l'université et le rectorat, ce qui concentre sur place une part importante de l'offre de l'île, y compris pour les filières post-bac. Cela compte davantage ici qu'en métropole, où changer d'académie signifie prendre un train. La sécurité est à 4,9/10, la valeur médiane du batch, meilleure que celles d'Amiens, de Mulhouse, de Dunkerque, de Nîmes et de Perpignan. Les trois quartiers relevés obtiennent des notes de 7,0 à 8,0 sur l'échelle interne de data/neighborhoods.ts, qui ne se compare pas au score communal. Trois quartiers ne décrivent pas une ville de 153 000 habitants et le site ne publie aucune liste de secteurs à éviter : la donnée manque à cette finesse, et un verdict sur un lieu habité demande mieux que trois observations. La lecture pratique est que le choix du quartier importe sans être ici la contrainte la plus lourde du projet.",
+      },
+      {
+        heading: "Trois contraintes propres à l'île, à intégrer avant de décider",
+        body: "La première est l'éloignement, et c'est probablement la plus décisive pour un parent seul. Un foyer à un adulte fonctionne largement sur le réseau de secours disponible autour de lui, grands-parents, fratrie, amis proches. S'installer à 9 000 kilomètres de ce réseau signifie le reconstruire entièrement sur place, et le prix des billets d'avion fait qu'un aller-retour vers la métropole n'est pas un dépannage improvisable. C'est une contrainte à évaluer avant le loyer. La deuxième est la saison cyclonique, qui court sur l'été austral et implique des fermetures d'établissements scolaires en alerte : un parent seul doit avoir une solution de garde d'urgence identifiée à l'avance, parce que ces journées se décident la veille au soir. La troisième concerne la baignade. Saint-Denis est sur la côte nord, où il n'y a pas de lagon : hors des bassins surveillés et aménagés, la baignade en mer est interdite en raison du risque requin, et cette règle n'a rien d'indicatif. Un parent qui arrive de métropole ne peut pas le deviner et doit organiser les sorties du mercredi en conséquence.",
+      },
+      {
+        heading: "Le verdict : pour qui Saint-Denis fonctionne",
+        body: "Saint-Denis fonctionne à partir de 2 550 € net par mois pour le seul loyer, à quoi il faut ajouter un budget voiture obligatoire et un niveau général des prix supérieur que l'axe coût à 4,1/10 signale sans le chiffrer. Le dossier tient pour un parent solo qui a une attache réelle sur l'île, famille, emploi stable ou origine, et qui valorise ce que le composite ne mesure pas : 8,4/10 en nature et 6,8/10 en qualité de vie, deux des meilleures valeurs de ce batch, dans un environnement où les sorties en extérieur sont possibles toute l'année et ne coûtent rien. Il ne tient pas comme choix d'optimisation depuis la métropole : aucune commune réunionnaise n'atteint la médiane du classement, et le coût du déménagement comme celui du retour éventuel sont sans commune mesure avec un changement de région. Pour un parent qui compare des communes de l'île entre elles, Le Tampon et Saint-Pierre sortent très légèrement devant, à 4,9, et le choix se jouera de toute façon sur l'emploi et le trajet plutôt que sur ce dixième de point. Le détail axe par axe est sur /villes/saint-denis-reunion/parent-solo.",
+      },
+    ],
+    relatedCities: ["saint-denis-reunion", "saint-paul-reunion", "saint-pierre-reunion", "le-tampon", "saint-andre-reunion"],
+    relatedGuides: [
+      "demenager-a-saint-denis-reunion-2026",
+      "10-choses-a-faire-a-saint-denis-reunion-2026",
+      "vivre-en-outre-mer-guide-2026",
+      "acheter-immobilier-outre-mer-drom-france-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+    ],
+    tags: ["parent solo Saint-Denis Réunion 2026", "monoparental La Réunion", "T3 Saint-Denis 974 budget", "vie chère outre-mer parent seul", "famille monoparentale DROM"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
