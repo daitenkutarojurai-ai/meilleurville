@@ -11,6 +11,7 @@ import { HOUSING } from "@/data/housing";
 import { METRO_REGIONS, REGION_EMOJIS, regionToSlug, slugToRegion } from "@/lib/regions";
 import { scoreColor, scoreHex, sunshineDays } from "@/lib/utils";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { clampMeta } from "@/lib/brand";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -70,8 +71,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!parsed) return {};
   const { a, b } = parsed;
   return {
-    title: `${a} vs ${b} — French regions compared 2026`,
-    description: `Side-by-side comparison of ${a} and ${b}: cost of living, climate, housing, quality-of-life scores and top cities. Which French region should you move to?`,
+    // Queue courte alignée sur la jumelle FR (`· Comparatif régions 2026`) :
+    // pour les paires de deux noms de région longs le titre reste au-dessus de
+    // 60 — irréductible, la seule paire de noms pesant déjà ~56 caractères.
+    title: `${a} vs ${b} — French regions 2026`,
+    // clampMeta comme la jumelle FR, qui l'utilise déjà : la description brute
+    // atteignait 195 caractères et se terminait par une question de remplissage.
+    description: clampMeta(
+      `Side-by-side comparison of ${a} and ${b}: cost of living, climate, housing, quality-of-life scores and top cities.`,
+    ),
     alternates: { canonical: `${EN_BASE}/compare-regions/${pair}` },
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine

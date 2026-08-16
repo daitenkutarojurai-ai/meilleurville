@@ -19,6 +19,7 @@ import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { regionToSlug, slugToRegion } from "@/lib/regions";
+import { clampMeta } from "@/lib/brand";
 import {
   getSynthesisRankings,
   SYNTHESIS_LEVEL_LABEL,
@@ -44,8 +45,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!region) return {};
   const count = CITIES_SEED.filter((c) => c.region === region).length;
   return {
-    title: `Synthèse 8 axes · ${region} | palmarès régional`,
-    description: `Classement synthèse des ${count} villes de la région ${region} sur les 8 dimensions data (environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics). Convention 10 = excellent.`,
+    // Titre mené par la région (comme la jumelle EN) : l'ancien gabarit
+    // « Synthèse 8 axes · … | palmarès régional » dépassait 60 caractères sur
+    // Provence-Alpes-Côte d'Azur (64) et Bourgogne-Franche-Comté (61). Cette
+    // forme plafonne à 54 sur les 18 régions.
+    title: `${region} · synthèse régionale 8 axes`,
+    // clampMeta : la description brute atteint 217 caractères et était servie
+    // telle quelle (cf. la jumelle EN, déjà clampée).
+    description: clampMeta(
+      `Classement synthèse des ${count} villes de la région ${region} sur les 8 dimensions data (environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics). Convention 10 = excellent.`,
+    ),
     alternates: { canonical: `/regions/${regionSlug}/synthese` },
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine

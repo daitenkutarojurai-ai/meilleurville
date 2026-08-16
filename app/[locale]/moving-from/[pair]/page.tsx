@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { clampMeta } from "@/lib/brand";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
@@ -44,7 +45,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       : "";
   return {
     title: `Moving from ${origin.name} to ${destination.name} · Honest comparison 2026`,
-    description: `Moving from ${origin.name} to ${destination.name}: rent, fixed costs, quality-of-life scores, climate, and a verdict on who the move makes sense for.${savingsLabel}`,
+    description: clampMeta(
+      `Moving from ${origin.name} to ${destination.name}: rent, fixed costs, quality-of-life scores, climate, and a verdict on who the move makes sense for.${savingsLabel}`,
+    ),
     alternates: { canonical: `${EN_BASE}/moving-from/${pair}` },
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine

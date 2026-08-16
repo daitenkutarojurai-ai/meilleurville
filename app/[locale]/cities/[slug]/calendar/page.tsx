@@ -23,7 +23,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
   return {
-    title: `Annual calendar of events in ${city.name} 2026 | Best Cities in France`,
+    // Pas de suffixe de marque : cf. `/cities/[slug]/questions`. Les 540
+    // titres passaient de 61-85 caractères à 39-61 en le retirant, et la
+    // jumelle FR `/villes/[slug]/agenda` n'en porte pas.
+    title: `Annual calendar of events in ${city.name} 2026`,
     description: `What to do in ${city.name} month by month: festivals, markets, national and regional events, best seasons to visit. Indicative 2026 calendar.`,
     alternates: cityAlternatesEn("calendar", slug),
   };

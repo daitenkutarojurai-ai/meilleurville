@@ -23,6 +23,16 @@ import {
 } from "@/lib/city-synthesis";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternates } from "@/lib/i18n";
+import { clampMeta } from "@/lib/brand";
+
+// Même repli que la jumelle EN `/compare-regions/[pair]/synthesis` : au-delà de
+// 60 caractères, on bascule sur un gabarit court. Les deux noms de région d'une
+// paire peuvent à eux seuls approcher 56 caractères, donc quelques paires très
+// longues restent au-dessus — irréductible, comme acté pour les paires de
+// communes (audit 2026-08-09 §4.3).
+function fitTitle(long: string, short: string): string {
+  return long.length <= 60 ? long : short;
+}
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -60,8 +70,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!parsed) return {};
   const { a, b } = parsed;
   return {
-    title: `${a} vs ${b} · synthèse 8 axes des régions 2026`,
-    description: `Comparatif régional ${a} vs ${b} sur les 8 dimensions data : environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics. Profil moyen agrégé par région.`,
+    title: fitTitle(
+      `${a} vs ${b} · synthèse 8 axes des régions 2026`,
+      `${a} vs ${b} · synthèse 2026`,
+    ),
+    description: clampMeta(
+      `Comparatif régional ${a} vs ${b} sur les 8 dimensions data : environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics. Profil moyen agrégé par région.`,
+    ),
     // La jumelle EN existe depuis 2026-08-07 : `pathAlternates` porte canonical
     // **et** hreflang. Le dernier segment étant traduit (`synthese` ↔
     // `synthesis`), les deux chemins sont donnés explicitement — la table de

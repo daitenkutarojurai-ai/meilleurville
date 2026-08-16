@@ -7,6 +7,7 @@ import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { deptToSlug, slugToDept, getAllDepartments } from "@/lib/dept-slug";
+import { clampMeta } from "@/lib/brand";
 import {
   computeCitySynthesis,
   SYNTHESIS_LEVEL_LABEL,
@@ -31,7 +32,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const count = CITIES_SEED.filter((c) => c.department === dept).length;
   return {
     title: `Synthèse 8 axes · ${dept} | palmarès des villes du département`,
-    description: `Classement synthèse des ${count} villes du département ${dept} sur les 8 dimensions data (environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics). Convention 10 = excellent.`,
+    // clampMeta : la description brute atteint 217 caractères (énumération des
+    // 8 axes) et était servie telle quelle. Même repli que la jumelle EN
+    // `/departments/[dept]/synthesis`, qui la coupe sur une frontière de
+    // proposition à ≤ 158.
+    description: clampMeta(
+      `Classement synthèse des ${count} villes du département ${dept} sur les 8 dimensions data (environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics). Convention 10 = excellent.`,
+    ),
     // Tête ET queue traduites (`departements/…/synthese` ↔ `departments/…/synthesis`),
     // donc `hreflangLanguages` ne suffit pas : elle ne traduit que la tête.
     alternates: pathAlternates(`/departements/${deptSlug}/synthese`, `/departments/${deptSlug}/synthesis`),

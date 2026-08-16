@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { clampMeta } from "@/lib/brand";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
@@ -44,7 +45,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   return {
     title: `Quitter ${city.name} : où vont les gens comme vous ? · 2026`,
-    description: `Vous envisagez de quitter ${city.name} ? Selon votre profil — famille, télétravailleur, jeune actif, retraité, étudiant, primo-accédant — voici les villes qui font mieux. Modèle estimatif transparent (scores officiels), pas du suivi.`,
+    description: clampMeta(
+      `Vous envisagez de quitter ${city.name} ? Selon votre profil — famille, télétravailleur, jeune actif, retraité, étudiant, primo-accédant — voici les villes qui font mieux. Modèle estimatif transparent (scores officiels), pas du suivi.`,
+    ),
     alternates: { canonical: `/ou-vont-les-gens/${city.slug}` },
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine

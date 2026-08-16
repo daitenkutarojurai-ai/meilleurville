@@ -14,6 +14,7 @@ import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { regionToSlug, slugToRegion, REGION_EMOJIS } from "@/lib/regions";
+import { clampMeta } from "@/lib/brand";
 import {
   getSynthesisRankings,
   SYNTHESIS_LEVEL_COLOR,
@@ -92,7 +93,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const count = CITIES_SEED.filter((c) => c.region === region).length;
   return {
     title: `${region} — 8-dimension city ranking`,
-    description: `Synthesis ranking of ${count} cities in ${region} across 8 data dimensions (environment, healthcare, employment, quality of life, cycling, safety, demographics, public services). Convention: 10 = excellent.`,
+    // clampMeta : la description brute atteint 217 caractères, servie telle
+    // quelle. Même repli que la jumelle EN département, déjà clampée.
+    description: clampMeta(
+      `Synthesis ranking of ${count} cities in ${region} across 8 data dimensions (environment, healthcare, employment, quality of life, cycling, safety, demographics, public services). Convention: 10 = excellent.`,
+    ),
     alternates: { canonical: `${EN_BASE}/regions/${regionSlug}/synthesis` },
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine

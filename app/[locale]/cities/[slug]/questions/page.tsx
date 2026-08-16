@@ -23,7 +23,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
   return {
-    title: `${city.name} — frequently asked questions 2026 | Best Cities in France`,
+    // Pas de suffixe de marque : le `title.template` de la racine est un `%s`
+    // nu, et l'ajouter à la main poussait les 540 titres au-delà de 60
+    // caractères (61-85), donc hors de ce que Google rend. La jumelle FR
+    // `/villes/[slug]/questions` n'en a jamais porté.
+    title: `${city.name} — frequently asked questions 2026`,
     description: `Everything to know before moving to ${city.name}: rents, safety, commute, 2040 climate, schools, remote work. Data-grounded 2026 answers.`,
     alternates: cityAlternatesEn("questions", slug),
     openGraph: {

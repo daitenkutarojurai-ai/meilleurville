@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { clampMeta } from "@/lib/brand";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
@@ -103,7 +104,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!origin) return {};
   return {
     title: `Leaving ${origin.name}: where do people like you move? · 2026`,
-    description: `Thinking of leaving ${origin.name}? By profile — family, remote worker, retiree, student, first-time buyer — here are the French cities that score better. Transparent model from official data, no tracking.`,
+    description: clampMeta(
+      `Thinking of leaving ${origin.name}? By profile — family, remote worker, retiree, student, first-time buyer — here are the French cities that score better. Transparent model from official data, no tracking.`,
+    ),
     alternates: { canonical: `${EN_BASE}/leaving/${origin.slug}` },
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine

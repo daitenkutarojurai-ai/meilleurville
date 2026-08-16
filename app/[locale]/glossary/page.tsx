@@ -14,7 +14,9 @@ export const revalidate = false;
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const metadata: Metadata = {
-  title: "French property & relocation glossary 2026 · BestCitiesInFrance",
+  // 63 caractères avec le suffixe de marque, 42 sans. La jumelle FR
+  // `/glossaire` n'en porte pas.
+  title: "French property & relocation glossary 2026",
   description:
     "Complete glossary: DPE energy rating, LMNP landlord status, taxe foncière, ZFE low-emission zones, rent control, notary fees, FTTH fibre... All the terms you need before buying, renting or moving in France.",
   alternates: { canonical: `${EN_BASE}/glossary` },
