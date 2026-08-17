@@ -21,6 +21,7 @@
     "photos": "node scripts/commune-images.mjs all",
     "photos:update": "node scripts/commune-images.mjs all --update",
     "parks": "node scripts/city-parks.mjs",
+    "coast": "npx --yes tsx scripts/city-coast.mjs",
     "parks:stats": "node scripts/city-parks.mjs stats",
     "income": "node scripts/city-income.mjs",
     "population": "node scripts/city-population.mjs",

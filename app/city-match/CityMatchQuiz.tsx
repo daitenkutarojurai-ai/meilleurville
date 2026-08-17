@@ -1,11 +1,12 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { ArrowLeft, ArrowRight, RotateCcw, Share2, Sparkles, Check } from "lucide-react";
 import {
   CITY_MATCH_QUESTIONS,
   computeMatches,
+  decodeAnswers,
   encodeAnswers,
   topMatchesWithSurprise,
   type CityMatchAnswer,
@@ -64,24 +65,40 @@ const OPTION_EN: Record<string, string> = {
 // display site (per the no-touch-lib constraint). Patterns mirror lib/city-match.ts.
 function translateReason(reason: string): string {
   const num = "([\\d.]+)";
+  const deg = "(-?[\\d.]+)";
   const rules: Array<[RegExp, (m: RegExpMatchArray) => string]> = [
     [new RegExp(`^coût de la vie ${num}/10$`), (m) => `cost of living ${m[1]}/10`],
     [new RegExp(`^qualité de vie ${num}/10$`), (m) => `quality of life ${m[1]}/10`],
     [new RegExp(`^nature ${num}/10$`), (m) => `nature ${m[1]}/10`],
     [new RegExp(`^culture ${num}/10$`), (m) => `culture ${m[1]}/10`],
+    [new RegExp(`^nature ${num} contre culture ${num}$`), (m) => `nature ${m[1]} vs culture ${m[2]}`],
+    [/^nature et culture à parité$/, () => "nature and culture in balance"],
     [/^grande métropole$/, () => "big metro"],
     [/^ville à taille humaine$/, () => "human-scale city"],
     [/^village ou bourg$/, () => "village or small town"],
-    [new RegExp(`^été (\\d+)°C, (\\d+)j de soleil$`), (m) => `summer ${m[1]}°C, ${m[2]} sunny days`],
-    [new RegExp(`^hiver (-?\\d+)°C$`), (m) => `winter ${m[1]}°C`],
+    // Les températures du seed sont décimales (27,5 °C) : l'ancien `(\d+)` ne
+    // matchait pas et la raison partait telle quelle, en français, sur le site EN.
+    [new RegExp(`^été ${deg}°C, (\\d+)j de soleil$`), (m) => `summer ${m[1]}°C, ${m[2]} sunny days`],
+    [new RegExp(`^hiver ${deg}°C$`), (m) => `winter ${m[1]}°C`],
+    [new RegExp(`^amplitude ${deg}°C$`), (m) => `${m[1]}°C annual swing`],
     [/^climat équilibré$/, () => "balanced climate"],
     [new RegExp(`^familles : écoles ${num} \\+ sécurité ${num}$`), (m) => `families: schools ${m[1]} + safety ${m[2]}`],
+    [new RegExp(`^parent solo : coût ${num} \\+ écoles ${num}$`), (m) => `single parent: cost ${m[1]} + schools ${m[2]}`],
+    [new RegExp(`^jeune actif : culture ${num} \\+ coût ${num}$`), (m) => `young professional: culture ${m[1]} + cost ${m[2]}`],
+    [new RegExp(`^couple : qualité de vie ${num}$`), (m) => `couple: quality of life ${m[1]}`],
+    [new RegExp(`^hybride : télétravail ${num} \\+ transport ${num}$`), (m) => `hybrid: remote ${m[1]} + transit ${m[2]}`],
     [/^retraite tranquille$/, () => "quiet retirement"],
     [new RegExp(`^télétravail ${num}/10$`), (m) => `remote work ${m[1]}/10`],
     [new RegExp(`^transport ${num}/10$`), (m) => `transit ${m[1]}/10`],
+    [new RegExp(`^transports ${num}/10 — gérable sans voiture$`), (m) => `transit ${m[1]}/10 — workable without a car`],
     [new RegExp(`^très sûr \\(${num}/10\\)$`), (m) => `very safe (${m[1]}/10)`],
+    [new RegExp(`^sécurité ${num}/10$`), (m) => `safety ${m[1]}/10`],
     [/^bord de mer$/, () => "by the sea"],
+    [/^les pieds dans l'eau$/, () => "right on the water"],
+    [/^mer à (\d+) km$/, (m) => `sea ${m[1]} km away`],
     [new RegExp(`^montagne \\((\\d+) m\\)$`), (m) => `mountains (${m[1]} m)`],
+    [/^(\d[\d\s\u202f\u00a0]*) habitants$/, (m) => `${m[1].replace(/[\s\u202f\u00a0]/g, ",")} inhabitants`],
+    [/^(\d+) m d'altitude$/, (m) => `${m[1]} m elevation`],
     [/^plaine$/, () => "plains"],
   ];
   for (const [re, fn] of rules) {
@@ -102,6 +119,22 @@ export function CityMatchQuiz({ locale = "fr", cities }: { locale?: Locale; citi
   const [copied, setCopied] = useState(false);
 
   const total = CITY_MATCH_QUESTIONS.length;
+
+  // Permalien. Le bouton « partager » distribuait `/city-match/r/<code>`, une
+  // route qui n'a jamais existé : tout lien partagé tombait en 404, et
+  // `decodeAnswers` n'était appelé nulle part. Le code voyage donc en query,
+  // que l'export statique sert sans page supplémentaire (la variante en route
+  // demanderait 14 580 pages, une par combinaison). Lecture après montage :
+  // l'URL n'existe pas au build, et l'initialiser paresseusement ferait
+  // diverger le rendu serveur de l'hydratation.
+  useEffect(() => {
+    const shared = new URLSearchParams(window.location.search).get("r");
+    if (!shared) return;
+    const restored = decodeAnswers(shared);
+    if (restored.length === 0) return;
+    setAnswers(restored);
+    setPhase("result");
+  }, []);
 
   const liveTop3 = useMemo(() => {
     if (answers.length === 0) return [];
@@ -128,6 +161,9 @@ export function CityMatchQuiz({ locale = "fr", cities }: { locale?: Locale; citi
   }
 
   function restart() {
+    // Sans ça, l'URL garde le `?r=` du match précédent : un rafraîchissement
+    // après « refaire le quiz » ramènerait l'ancien résultat.
+    window.history.replaceState(null, "", window.location.pathname);
     setPhase("intro");
     setStep(0);
     setAnswers([]);
@@ -135,7 +171,7 @@ export function CityMatchQuiz({ locale = "fr", cities }: { locale?: Locale; citi
   }
 
   async function share() {
-    const url = `${window.location.origin}/city-match/r/${code}`;
+    const url = `${window.location.origin}${window.location.pathname}?r=${code}`;
     if (navigator.share) {
       try {
         await navigator.share({
@@ -337,6 +373,7 @@ export function CityMatchQuiz({ locale = "fr", cities }: { locale?: Locale; citi
             highlight={i === 0}
             href={cityHref(r.city.slug)}
             localizeReason={localizeReason}
+            caveatPrefix={t("mais", "but")}
             ctaLabel={t("Voir la fiche →", "View the profile →")}
           />
         ))}
@@ -353,6 +390,7 @@ export function CityMatchQuiz({ locale = "fr", cities }: { locale?: Locale; citi
             highlight={false}
             href={cityHref(surprise.city.slug)}
             localizeReason={localizeReason}
+            caveatPrefix={t("mais", "but")}
             ctaLabel={t("Voir la fiche →", "View the profile →")}
           />
         </div>
@@ -381,8 +419,8 @@ export function CityMatchQuiz({ locale = "fr", cities }: { locale?: Locale; citi
 
       <p className="text-center text-xs text-[var(--text-tertiary)]">
         {t("Lien partageable :", "Shareable link:")}{" "}
-        <Link href={`/city-match/r/${code}`} className="text-[var(--accent)] underline">
-          /city-match/r/{code}
+        <Link href={`?r=${code}`} className="text-[var(--accent)] underline">
+          ?r={code}
         </Link>
       </p>
     </div>
@@ -395,6 +433,7 @@ function ResultCard({
   highlight,
   href,
   localizeReason,
+  caveatPrefix,
   ctaLabel,
 }: {
   r: CityMatchResult;
@@ -402,6 +441,7 @@ function ResultCard({
   highlight: boolean;
   href: string;
   localizeReason: (reason: string) => string;
+  caveatPrefix: string;
   ctaLabel: string;
 }) {
   return (
@@ -433,7 +473,7 @@ function ResultCard({
       </h3>
       <p className="text-xs text-[var(--text-tertiary)] truncate mt-0.5">{r.city.region}</p>
 
-      {r.topReasons.length > 0 && (
+      {(r.topReasons.length > 0 || r.caveat) && (
         <ul className="mt-3 space-y-1">
           {r.topReasons.map((reason, i) => (
             <li key={i} className="flex items-start gap-1.5 text-xs text-[var(--text-secondary)]">
@@ -441,6 +481,14 @@ function ResultCard({
               <span>{localizeReason(reason)}</span>
             </li>
           ))}
+          {r.caveat && (
+            <li className="flex items-start gap-1.5 text-xs text-[var(--text-tertiary)]">
+              <span aria-hidden>○</span>
+              <span>
+                {caveatPrefix} {localizeReason(r.caveat)}
+              </span>
+            </li>
+          )}
         </ul>
       )}
 
