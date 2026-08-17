@@ -30,6 +30,8 @@ import {
   PROTECTION_KIND_COUNT,
   protectionLabel,
   inpnUrl,
+  isMeasuredProtection,
+  type ProtectionTerritory,
   BIODIVERSITY_MEASURABLE_COUNT,
   recordConcentration,
   SCORE_LEGEND_EN,
@@ -94,6 +96,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
   };
 }
+
+/** Territory labels, at the display site (CLAUDE.md convention #6 — the lib
+ *  keeps the keys, each locale's page carries its own copy). */
+const TERRITORY_LABEL_EN: Record<ProtectionTerritory, string> = {
+  metropole: "mainland France",
+  guadeloupe: "Guadeloupe",
+  martinique: "Martinique",
+  guyane: "French Guiana",
+  reunion: "Réunion",
+  mayotte: "Mayotte",
+};
 
 function ComponentBar({
   emoji,
@@ -164,20 +177,24 @@ export default async function BiodiversityPage({ params }: Props) {
 
   const nb = (v: number) => v.toLocaleString("en-GB");
 
-  // Same three states as the French twin, and the same rule: only a commune
-  // that has not been ingested reads "not measured". One ingested with no
-  // perimeter at all has been measured, and says so.
-  const protectionDetail = protectedAreas
-    ? `${nb(protectedAreas.weightedCoverage)} % of the ${protectedAreas.radiusKm} km disc under protection, ` +
-      `weighted by level (${nb(protectedAreas.rawCoverage)} % under any designation at all). ` +
-      `${nb(protectedAreas.areasTotal)} site${protectedAreas.areasTotal > 1 ? "s" : ""} recorded.`
+  // Same four states as the French twin, and the same rule: only a commune that
+  // has not been ingested — or one the ingested layers do not reach — reads
+  // "not measured". One ingested with no perimeter at all has been measured,
+  // and says so.
+  const measuredAreas = protectedAreas && isMeasuredProtection(protectedAreas) ? protectedAreas : null;
+  const protectionDetail = measuredAreas
+    ? `${nb(measuredAreas.weightedCoverage)} % of the ${measuredAreas.radiusKm} km disc under protection, ` +
+      `weighted by level (${nb(measuredAreas.rawCoverage)} % under any designation at all). ` +
+      `${nb(measuredAreas.areasTotal)} site${measuredAreas.areasTotal > 1 ? "s" : ""} recorded.`
     : "";
   const protectionMissing =
-    protectionPending === "calibration" && protectedAreas
-      ? protectedAreas.areasTotal === 0
-        ? `No protected site within ${protectedAreas.radiusKm} km. That is a measurement, not missing data.`
-        : `${nb(protectedAreas.weightedCoverage)} % of the disc under weighted protection. The rank out of 10 waits until more cities are ingested.`
-      : `French INPN boundaries (Natura 2000, ZNIEFF, nature reserves, parks) are not integrated yet for this commune. "Not measured" means we do not know — not that there are none.`;
+    protectionPending === "scope"
+      ? `The national designation layers processed here do not cover ${TERRITORY_LABEL_EN[protectedAreas?.territory ?? "metropole"]}: the overseas boundaries are published as separate files, and Natura 2000 does not extend to the EU outermost regions. So we know nothing about protection around this commune — not that there is none.`
+      : protectionPending === "calibration" && measuredAreas
+        ? measuredAreas.areasTotal === 0
+          ? `No protected site within ${measuredAreas.radiusKm} km. That is a measurement, not missing data.`
+          : `${nb(measuredAreas.weightedCoverage)} % of the disc under weighted protection. The rank out of 10 waits until more cities are ingested.`
+        : `French INPN boundaries (Natura 2000, ZNIEFF, nature reserves, parks) are not integrated yet for this commune. "Not measured" means we do not know — not that there are none.`;
 
   const groups = GROUP_ORDER.map((g) => ({ id: g, count: raw.groups[g] ?? 0 })).filter(
     (g) => g.count > 0,
@@ -518,14 +535,14 @@ export default async function BiodiversityPage({ params }: Props) {
         </div>
       </section>
 
-      {protectedAreas && (
+      {measuredAreas && (
         <section className="relative pb-8">
           <div className="mx-auto max-w-5xl px-4 sm:px-6">
             <h2 className="text-xl font-bold text-[var(--text-primary)] mb-1">
-              Protected areas within {protectedAreas.radiusKm} km
+              Protected areas within {measuredAreas.radiusKm} km
             </h2>
             <p className="text-sm text-[var(--text-secondary)] mb-4">
-              {protectedAreas.areasTotal === 0 ? (
+              {measuredAreas.areasTotal === 0 ? (
                 <>
                   No protected site recorded within this radius. That is a measurement result, not
                   missing data: the national layers were run over this disc and found nothing.
@@ -540,9 +557,9 @@ export default async function BiodiversityPage({ params }: Props) {
                 </>
               )}
             </p>
-            {protectedAreas.areas.length > 0 && (
+            {measuredAreas.areas.length > 0 && (
               <div className="space-y-2">
-                {protectedAreas.areas.map((a, i) => {
+                {measuredAreas.areas.map((a, i) => {
                   const href = inpnUrl(a);
                   const label = a.name ?? a.id ?? protectionLabel(a.kind, "en");
                   return (
@@ -584,16 +601,16 @@ export default async function BiodiversityPage({ params }: Props) {
                 })}
               </div>
             )}
-            {protectedAreas.areasTruncated && (
+            {measuredAreas.areasTruncated && (
               <p className="text-[11px] text-[var(--text-tertiary)] mt-2">
-                {nb(protectedAreas.areasTotal)} sites in total; the {protectedAreas.areas.length}{" "}
+                {nb(measuredAreas.areasTotal)} sites in total; the {measuredAreas.areas.length}{" "}
                 largest are listed. The coverage figure above counts them all.
               </p>
             )}
-            {protectedAreas.kinds.length < PROTECTION_KIND_COUNT && (
+            {measuredAreas.kinds.length < PROTECTION_KIND_COUNT && (
               <p className="text-[11px] text-[var(--text-tertiary)] mt-2">
-                Partial pass: {protectedAreas.kinds.length} of the {PROTECTION_KIND_COUNT} national
-                layers were available ({protectedAreas.kinds.map((k) => protectionLabel(k, "en")).join(", ")}).
+                Partial pass: {measuredAreas.kinds.length} of the {PROTECTION_KIND_COUNT} national
+                layers were available ({measuredAreas.kinds.map((k) => protectionLabel(k, "en")).join(", ")}).
                 The coverage figure is therefore a floor.
               </p>
             )}
@@ -813,7 +830,7 @@ export default async function BiodiversityPage({ params }: Props) {
               {GBIF_CREDIT}
             </a>
             , retrieved {raw.crawledAt} ({raw.licenses.join(", ")}).{" "}
-            {protectedAreas && (
+            {measuredAreas && (
               <>
                 Protected areas:{" "}
                 <a
@@ -824,8 +841,8 @@ export default async function BiodiversityPage({ params }: Props) {
                 >
                   {INPN_CREDIT}
                 </a>
-                , boundaries as of {protectedAreas.crawledAt}, intersected on a{" "}
-                {protectedAreas.gridStepM} m grid.{" "}
+                , boundaries as of {measuredAreas.crawledAt}, intersected on a{" "}
+                {measuredAreas.gridStepM} m grid.{" "}
               </>
             )}
             Green space: {OSM_CREDIT_EN},

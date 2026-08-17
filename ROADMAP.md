@@ -317,7 +317,7 @@ recensées à proximité, zones protégées.
 
 | # | Feature | Prio | Cplx | SEO | Statut |
 |---|---------|------|------|-----|--------|
-| F62 | **Score Biodiversité** (pipeline GBIF + INPN → sous-page ×540 + classement) | **P0** | **L** | **high** | 🚧 en cours — moteur livré 30/07, durci 02/08 (selftest + raréfaction bornée), crawl en attente d'une passe locale |
+| F62 | **Score Biodiversité** (pipeline GBIF + INPN → sous-page ×540 + classement) | **P0** | **L** | **high** | 🚧 en cours — GBIF **540/540** (crawl clos 09/08), sous-pages en ligne des deux locales, **rang de richesse retiré le 10/08** (il classait les programmes de saisie) ; zones protégées **0/540**, ingest + téléchargement branchés sur le cron local le 17/08, `overall` `null` tant que cette composante manque |
 | F63 | **Qualité de l'air — du modèle à la mesure** (ATMO + Geod'Air, hub + classement) | **P0** | **M** | **high** | 🔜 à faire |
 | F64 | **Actualité locale par ville** (open data BODACC/JO/CatNat → section CityProfile + routine hebdo) | **P1** | **M** | **low** | ✅ **en ligne — 540/540 villes, 4 212 entrées** (BODACC 4 172 + CatNat 40), collectées par le cron local les 04-05/08. Section rendue sur les deux locales. RNA toujours désactivé (0 association). Mois partiel marqué depuis le 11/08 |
 
@@ -738,6 +738,86 @@ ambiguïté. **Prochain pas, côté machine du propriétaire** : `npm run protec
 relire la liste des ressources, puis `fetch` et `npm run protected-areas`. Richesse : toujours aucune
 ville notée, par décision du 10/08 — le remède reste un recrawl GBIF agrégé par `datasetKey`
 (`QUERY_VERSION = 3`), pas un correctif d'affichage.
+
+#### Point d'étape 2026-08-17 — la passe zones protégées est branchée sur le cron, et ne dira pas « zéro » à Cayenne
+
+Zones protégées **0/540**, inchangé — mais pour la première fois plus rien n'attend une main
+humaine. Le run du 13/08 avait écrit `npm run protected-areas:fetch`, qui résout les couches sur
+data.gouv.fr et les télécharge tout seul ; **personne ne l'appelait**. `scripts/local-data-runner.sh`
+portait encore, en dur, le commentaire d'avant (« INPN ships shapefiles behind a download page, not
+an API: this stage stays skipped until someone drops the converted GeoJSON layers in place ») et un
+test qui sautait l'étape tant que `.cache/city-protected-areas/sources/` était vide. Comme rien ne
+remplissait ce dossier, la condition ne pouvait jamais devenir vraie : le script capable de collecter
+la composante était dans le dépôt depuis quatre jours et la composante serait restée à 0/540
+indéfiniment. C'est le mode de défaillance déjà rencontré au déploiement — du travail invisible, sans
+la moindre erreur pour le signaler.
+
+**Ce que le runner fait désormais**, la nuit, sans qu'on lui demande : `fetch` quand le dossier de
+sources est vide (avec son propre plancher d'espace libre, 15 Go — ce sont des shapefiles nationaux,
+et le plancher global de 8 Go du runner protège le build, pas un téléchargement), puis l'ingest
+**quand la sortie manque, vaut `{}`, ou est plus vieille que les couches qu'elle lit**. Sans cette
+dernière condition, une passe déterministe d'une heure serait rejouée chaque nuit pour réécrire un
+JSON identique. Deux diagnostics sont écrits au journal plutôt que devinés : `ogr2ogr` absent (les
+archives se dépaquettent mais ne se reprojettent pas, donc aucune couche ne sort — `apt install
+gdal-bin`), et un dossier de sources resté vide après un `fetch`, qui renvoie au journal du fetch au
+lieu de reprendre le vieux « skipped ». Le téléchargement est passé en **flux vers le disque** au
+lieu d'un `arrayBuffer()` en mémoire, avec écriture en `.part` renommée à la fin : ces archives font
+quelques centaines de Mo, le runner tourne en cron à côté d'un build Next, et un fichier tronqué
+par une coupure ne doit pas être pris pour un fichier complet à la passe suivante.
+
+**Le défaut que la première passe réelle aurait imprimé sur 36 pages en ligne.** L'ingest écrivait
+`areasTotal: 0` et `weightedCoverage: 0` pour **toute** ville sans périmètre à moins de 15 km, et
+`lib/biodiversity.ts` publie ce zéro comme une **mesure** — « Aucun périmètre protégé recensé dans ce
+rayon. C'est un résultat de mesure, pas une donnée manquante », écrit en toutes lettres. Cette lecture
+n'est vraie que là où les couches ingérées s'appliquent. Or Natura 2000 est une directive européenne
+qui **ne s'étend pas aux régions ultrapériphériques**, et le MNHN publie les ZNIEFF et espaces
+protégés d'outre-mer dans des **fichiers séparés** des fichiers continentaux : une passe portant les
+seules couches continentales couvre 522 des 540 villes du seed et **aucune** des 18 ultramarines.
+Cayenne, à 15 km de l'Amazonie, aurait donc annoncé zéro périmètre protégé — la répétition exacte de
+l'erreur du rang de richesse retiré le 10/08, un trou de *notre* collecte imprimé comme un fait sur
+le lieu.
+
+**Le garde-fou, testable hors ligne.** L'ingest classe chaque **entité** dans l'un des six territoires
+disjoints (métropole, Guadeloupe, Martinique, Guyane, La Réunion, Mayotte) d'après son propre centre —
+pas d'après le nom du fichier : un fichier « ZNIEFF continentales » n'est continental que parce que
+son contenu l'est. Un territoire sans aucune entité, toutes couches confondues, est **hors périmètre**
+de la passe : ses villes sont enregistrées `outOfScope: true`, **sans aucun chiffre de couverture**,
+et `INGEST_VERSION` passe à 2. Côté lib, `CityProtectedAreas` devient une union discriminée
+(`MeasuredProtectedAreas` | `OutOfScopeProtectedAreas`) — le type **n'expose pas** `weightedCoverage`
+sur la branche hors périmètre, donc une surface qui l'afficherait ne compile pas ; c'est ce qui a
+désigné les six sites d'affichage à corriger. Nouveau motif `protectionPending: "scope"`, prioritaire
+sur `"calibration"` (la ville n'attend pas que d'autres soient ingérées, elle attend un fichier qui la
+couvre), et `PROTECTION_CALIBRATED` compte désormais les villes **mesurées**
+(`PROTECTED_MEASURED_SLUGS`) et non les villes ingérées : sans ça, 18 villes sans valeur seraient
+entrées dans le barème centile toutes ex æquo au plancher. Sur les deux sous-pages, la section
+« Zones protégées à moins de 15 km » **disparaît entièrement** pour ces villes — une liste vide sous
+ce titre se lit comme un zéro — et la carte dit ce qui manque et pourquoi.
+
+**Vérifications.** `npx tsc --noEmit` propre, `npm run integrity` propre,
+`protected-areas:selftest` 32/32 (les 16 cas de reconnaissance de couches, plus 9 cas de territoire :
+les six DROM, la Corse en métropole, l'océan au large de Dakar qui ne doit être revendiqué par
+personne, et **les 540 villes du seed épinglées à exactement un territoire** — 522 métropole, 8 La
+Réunion, 4 Martinique, 3 Guadeloupe, 2 Guyane, 1 Mayotte — donc une ville ajoutée hors des boîtes
+échoue au lieu de tomber en métropole par défaut). Passe d'ingest réelle jouée sur une couche
+ZNIEFF I synthétique posée sur Lyon : **522 villes avec un chiffre de couverture, 18 hors
+périmètre**, l'avertissement nommant les cinq territoires manquants. Les trois formes rendues en dev
+et relues : Lyon (couverture 4,8 %, périmètre listé), **Brest (0 % affiché comme une mesure, section
+présente)**, **Cayenne (« non mesuré » + l'explication ultramarine, section absente)**. Le fichier de
+test a été retiré, `data/city-protected-areas.json` revaut `{}`. **Limite inchangée depuis le 10/08 :**
+la jumelle EN n'a pas pu être rendue, `next dev` renvoyant 404 sur toutes les sous-pages ville EN
+(routage EN dans le Worker) ; elle est typée, porte les mêmes branches et la même copie, à contrôler
+au prochain déploiement.
+
+**Ce qui n'est toujours pas couvert.** Aucune donnée : les trois slugs data.gouv.fr et les noms
+d'attributs INPN restent `@unverified`, l'egress d'ici étant refusé (403 CONNECT sur `api.gbif.org`,
+`inpn.mnhn.fr`, `www.data.gouv.fr` — inchangé, non retesté ce run, la consigne étant de ne plus
+sonder). `overall` reste `null` sur les 540 villes tant que cette composante manque, et la richesse
+reste sans rang par décision du 10/08. **Ce qu'il faut surveiller à la première passe réelle du
+cron** : la ligne `territories:` imprimée sous chaque couche (elle dit ce que le fichier couvre
+vraiment), le champ retenu pour `id` et `name` par couche, et le compte final « X avec un chiffre de
+couverture, Y hors périmètre ». Si les 18 villes ultramarines ressortent hors périmètre, la suite est
+d'ajouter les ressources DROM des mêmes jeux data.gouv.fr dans `.cache/city-protected-areas/sources/`
+— pas de toucher au garde-fou.
 
 ### F63 — Qualité de l'air : passer du modèle à la mesure
 

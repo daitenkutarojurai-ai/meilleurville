@@ -35,6 +35,13 @@
  * same constraint as the Insee, Overpass and GBIF pipelines before it. What
  * changed is that it is now one command there instead of a manual hunt.
  *
+ * And since 2026-08-17, nobody has to type that command either:
+ * scripts/local-data-runner.sh calls `fetch` when the source directory is
+ * empty, then the ingest when the layers are newer than the JSON. Writing
+ * `fetch` had not been enough on its own — the runner still carried a hardcoded
+ * skip saying the layers had to be dropped in by hand, so the sources never
+ * appeared and the ingest never ran.
+ *
  * ── Method: rasterise, don't sum ──────────────────────────────────────────
  *
  * Coverage is computed on a grid over the 15 km disc, not by adding up the
@@ -57,7 +64,9 @@
  * notice on parks. Any surface rendering these numbers renders the credit.
  */
 import fs from "node:fs/promises";
-import { createReadStream } from "node:fs";
+import { createReadStream, createWriteStream } from "node:fs";
+import { Readable } from "node:stream";
+import { pipeline } from "node:stream/promises";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { execFile as execFileCb } from "node:child_process";
@@ -99,7 +108,55 @@ const GRID_STEP_M = 250;
 const AREAS_PER_CITY = 30;
 /** Output format version — bump when the shape or the parameters change, so a
  *  half-old JSON is recognisable rather than silently mixed. */
-const INGEST_VERSION = 1;
+const INGEST_VERSION = 2;
+
+/**
+ * The six disjoint territories the seed lives in, as lon/lat boxes.
+ *
+ * ── Why the ingest has to know about them ─────────────────────────────────
+ *
+ * Without this, a city gets `areasTotal: 0` whenever no perimeter falls within
+ * 15 km of it, and lib/biodiversity.ts publishes that as a MEASURE — "aucun
+ * périmètre protégé à moins de 15 km", written in so many words on the page.
+ * That reading is only true where the ingested layers actually apply.
+ *
+ * They may well not apply overseas. Natura 2000 is a European directive that
+ * does not extend to the outermost regions at all, and the MNHN publishes the
+ * ZNIEFF and espaces-protégés zonings of each DROM in their own files, so a
+ * pass carrying "ZNIEFF continentales" alone covers 522 of the 540 seed cities
+ * and none of the 18 overseas ones. Those 18 would then read as bare ground —
+ * Cayenne, 15 km from the Amazon, announcing no protected perimeter — which is
+ * the same failure as the richness ranking putting Douai at 0,0/10: a gap in
+ * OUR collection printed as a fact about the place.
+ *
+ * So: a territory carrying zero features across every ingested layer is out of
+ * scope, and its cities are written with `outOfScope: true` and no coverage
+ * figure. The lib turns that into "on ne sait pas", never into a zero. A
+ * territory that IS represented keeps the old behaviour, where 0 is a real
+ * measurement — the layers are national registries, not contributive maps.
+ *
+ * The boxes are far enough apart (thousands of km) that a bbox test is exact
+ * here; `assertSeedTerritories` in selftest pins all 540 seed cities to exactly
+ * one, so a city added outside them fails loudly instead of silently defaulting.
+ */
+const TERRITORIES = [
+  { key: "metropole", label: "France métropolitaine", box: [-6, 10, 41, 52] },
+  { key: "guadeloupe", label: "Guadeloupe", box: [-61.9, -60.7, 15.7, 16.6] },
+  { key: "martinique", label: "Martinique", box: [-61.3, -60.7, 14.3, 15.0] },
+  { key: "guyane", label: "Guyane", box: [-55, -51, 2, 6] },
+  { key: "reunion", label: "La Réunion", box: [55.1, 56.0, -21.5, -20.7] },
+  { key: "mayotte", label: "Mayotte", box: [44.9, 45.4, -13.2, -12.5] },
+];
+
+/** Territory a point falls in, or `null` if it falls in none of them. `null` is
+ *  never treated as "métropole by default": an unplaceable city is reported. */
+function territoryOf(lng, lat) {
+  for (const t of TERRITORIES) {
+    const [w, e, s, n] = t.box;
+    if (lng >= w && lng <= e && lat >= s && lat <= n) return t.key;
+  }
+  return null;
+}
 
 /**
  * Protection levels. A nature reserve bans and manages; a ZNIEFF is an
@@ -453,7 +510,18 @@ async function resolveDatagouvSources() {
   return out;
 }
 
-/** Download to `dest` unless it is already there with the expected size. */
+/**
+ * Download to `dest` unless it is already there with the expected size.
+ *
+ * Streamed to disk, not buffered: these are national shapefile archives of a
+ * few hundred MB, and this runs unattended from cron next to a Next.js build —
+ * holding a whole archive in memory to write it out again is the kind of thing
+ * that works on the third try and OOMs on the fourth.
+ *
+ * Written to `<dest>.part` and renamed on completion, so an interrupted run
+ * leaves nothing that the size check would mistake for a finished file (the
+ * check can only compare when the API declares a size).
+ */
 async function download(url, dest, expectedSize) {
   try {
     const st = await fs.stat(dest);
@@ -463,10 +531,20 @@ async function download(url, dest, expectedSize) {
   }
   const res = await fetch(url, { headers: { "User-Agent": UA }, redirect: "follow" });
   if (!res.ok) throw new Error(`HTTP ${res.status} downloading ${url}`);
-  const buf = Buffer.from(await res.arrayBuffer());
+  if (!res.body) throw new Error(`empty response body downloading ${url}`);
   await fs.mkdir(path.dirname(dest), { recursive: true });
-  await fs.writeFile(dest, buf);
-  return { skipped: false, bytes: buf.length };
+  const partial = `${dest}.part`;
+  await pipeline(Readable.fromWeb(res.body), createWriteStream(partial));
+  const { size } = await fs.stat(partial);
+  if (expectedSize && size !== expectedSize) {
+    await fs.rm(partial, { force: true });
+    throw new Error(
+      `${path.basename(dest)}: got ${size} bytes, the API announced ${expectedSize}. ` +
+        `Truncated download — re-run; the file was not kept.`,
+    );
+  }
+  await fs.rename(partial, dest);
+  return { skipped: false, bytes: size };
 }
 
 /** Is `bin` callable? Used to decide between converting and printing commands. */
@@ -969,6 +1047,7 @@ async function ingest() {
   for (const c of pool) {
     state.set(c.slug, {
       city: c,
+      territory: territoryOf(c.longitude, c.latitude),
       weight: new Uint8Array(grid.n * grid.n),
       areas: [],
       project: projector(c.latitude, c.longitude),
@@ -982,11 +1061,16 @@ async function ingest() {
   const scratch = new Uint8Array(grid.n * grid.n);
   const started = Date.now();
   let coordGuardChecked = 0;
+  /** Territories carrying at least one perimeter, across all layers of this
+   *  pass. A territory absent from this set is one the pass says nothing
+   *  about — see TERRITORIES. */
+  const coveredTerritories = new Set();
 
   for (const { file, name, layer } of src.matched) {
     let features = 0;
     let kept = 0;
     let fieldReport = null;
+    const layerTerritories = new Set();
     for await (const f of streamFeatures(file)) {
       features++;
       const polys = featurePolygons(f.geometry);
@@ -1014,6 +1098,15 @@ async function ingest() {
               `Reproject first: ogr2ogr -f GeoJSON -t_srs EPSG:4326 out.geojson ${name}`,
           );
         }
+      }
+
+      // Which territories this layer actually carries perimeters in. Read off
+      // the feature's own centre, not off the file's name: a file called
+      // "ZNIEFF continentales" is only continental because its contents are.
+      const featTerritory = territoryOf((minLng + maxLng) / 2, (minLat + maxLat) / 2);
+      if (featTerritory) {
+        layerTerritories.add(featTerritory);
+        coveredTerritories.add(featTerritory);
       }
 
       const props = f.properties ?? {};
@@ -1074,13 +1167,69 @@ async function ingest() {
         `${kept.toLocaleString("fr-FR")} near a seed city` +
         (fieldReport ? ` [id: ${fieldReport.id ?? "<none>"}, name: ${fieldReport.name ?? "<none>"}]` : ""),
     );
+    log(`  ${" ".repeat(22)} territories: ${[...layerTerritories].sort().join(", ") || "<none>"}`);
   }
 
   const crawledAt = new Date().toISOString().slice(0, 10);
   const current = (await readJson(OUT_JSON, {})) ?? {};
   const kinds = [...new Set(src.matched.map((m) => m.layer.kind))].sort();
 
+  // Territories the pass says nothing about. Their cities are recorded as out
+  // of scope rather than as zero — the difference between "we looked and there
+  // is nothing" and "we never had a file covering this place".
+  const outOfScope = [];
+  const unplaceable = [];
   for (const st of state.values()) {
+    if (st.territory == null) unplaceable.push(st.city.slug);
+    else if (!coveredTerritories.has(st.territory)) outOfScope.push(st.city.slug);
+  }
+  if (outOfScope.length) {
+    const missingTerr = [
+      ...new Set([...state.values()].map((s) => s.territory).filter((t) => t && !coveredTerritories.has(t))),
+    ].sort();
+    log(
+      `\n⚠️  no layer carries a perimeter in ${missingTerr.join(", ")} — ` +
+        `${outOfScope.length} cities recorded as OUT OF SCOPE, not as zero.`,
+    );
+    log(
+      "   Natura 2000 does not extend to the outermost regions, and the MNHN publishes the\n" +
+        "   overseas ZNIEFF and espaces protégés as separate resources. Add those files to\n" +
+        `   ${SRC_DIR} to cover these cities; until then their pages say the pass does not\n` +
+        "   reach them, which is true, instead of showing a protected coverage of 0 %.",
+    );
+  }
+  if (unplaceable.length) {
+    log(
+      `\n⚠️  ${unplaceable.length} cities fall outside every known territory box ` +
+        `(${unplaceable.slice(0, 5).join(", ")}${unplaceable.length > 5 ? "…" : ""}). ` +
+        "Add the territory to TERRITORIES — they are recorded as out of scope meanwhile.",
+    );
+  }
+
+  for (const st of state.values()) {
+    const inScope = st.territory != null && coveredTerritories.has(st.territory);
+    const head = {
+      crawledAt,
+      source: "inpn",
+      ingestVersion: INGEST_VERSION,
+      radiusKm: RADIUS_KM,
+      gridStepM: GRID_STEP_M,
+      /** Territory the city sits in, and whether this pass carried any layer
+       *  covering it. Out of scope ⇒ no coverage figure at all, because a 0
+       *  here would be read as a measurement. */
+      territory: st.territory,
+    };
+    if (!inScope) {
+      current[st.city.slug] = {
+        ...head,
+        outOfScope: true,
+        kinds: [],
+        areasTotal: 0,
+        areasTruncated: false,
+        areas: [],
+      };
+      continue;
+    }
     let weighted = 0;
     let covered = 0;
     for (let i = 0; i < st.weight.length; i++) {
@@ -1091,11 +1240,8 @@ async function ingest() {
     }
     const areas = st.areas.sort((a, b) => b.areaHa - a.areaHa);
     current[st.city.slug] = {
-      crawledAt,
-      source: "inpn",
-      ingestVersion: INGEST_VERSION,
-      radiusKm: RADIUS_KM,
-      gridStepM: GRID_STEP_M,
+      ...head,
+      outOfScope: false,
       /** Layers actually present in this pass — a city ingested without the
        *  ZNIEFF file is not comparable to one ingested with it. */
       kinds,
@@ -1117,8 +1263,10 @@ async function ingest() {
 
   const secs = ((Date.now() - started) / 1000).toFixed(0);
   const rows = Object.values(current);
+  const scored = rows.filter((r) => !r.outOfScope).length;
   log(
     `done: ${state.size} cities ingested in ${secs}s. total ${rows.length}/${seed.length}` +
+      ` (${scored} with a coverage figure, ${rows.length - scored} out of scope)` +
       (src.missing.length ? ` — PARTIAL (missing ${src.missing.join(", ")})` : ""),
   );
 }
@@ -1130,7 +1278,7 @@ async function ingest() {
  * canary the other pipelines have (assertAreaResolved in city-parks).
  */
 
-function selftest() {
+async function selftest() {
   const grid = makeGrid(15000, 250);
   const results = [];
   const check = (label, got, want, tol) => {
@@ -1234,6 +1382,47 @@ function selftest() {
   expectNoKind("Documentation du standard de données");
   expectNoKind("Liste des communes");
 
+  /* ── territories ────────────────────────────────────────────────────────
+   *
+   * The scope guard is only as good as the boxes: a seed city matching none of
+   * them, or two of them, would be filed out of scope for ever and read on the
+   * page as "the pass does not reach here" while the pass reached it fine.
+   * So every seed city is pinned to exactly one, and the boxes are checked to
+   * be disjoint on a few points that must not be confused.
+   */
+  const expectTerritory = (label, lng, lat, want) => {
+    const got = territoryOf(lng, lat);
+    const ok = got === want;
+    results.push({ label: `territory ${label}`, ok });
+    log(`  ${ok ? "ok  " : "FAIL"} territory ${label} → ${got ?? "<none>"} (expected ${want ?? "<none>"})`);
+  };
+  expectTerritory("Paris", 2.3522, 48.8566, "metropole");
+  expectTerritory("Ajaccio", 8.7369, 41.9192, "metropole");
+  expectTerritory("Cayenne", -52.3333, 4.9333, "guyane");
+  expectTerritory("Fort-de-France", -61.0742, 14.6036, "martinique");
+  expectTerritory("Pointe-à-Pitre", -61.5333, 16.2415, "guadeloupe");
+  expectTerritory("Saint-Denis (974)", 55.4504, -20.8789, "reunion");
+  expectTerritory("Mamoudzou", 45.2272, -12.7806, "mayotte");
+  // Open ocean off Dakar: nothing must claim it, or a mis-projected layer would
+  // silently vouch for a territory.
+  expectTerritory("Atlantic (0,0)", 0, 0, null);
+
+  const seedCities = await loadSeed();
+  const perTerritory = {};
+  const stray = [];
+  for (const c of seedCities) {
+    const t = territoryOf(c.longitude, c.latitude);
+    if (!t) stray.push(c.slug);
+    else perTerritory[t] = (perTerritory[t] ?? 0) + 1;
+  }
+  const allPlaced = stray.length === 0 && seedCities.length > 0;
+  results.push({ label: "every seed city in exactly one territory", ok: allPlaced });
+  log(
+    `  ${allPlaced ? "ok  " : "FAIL"} every seed city placed: ${seedCities.length - stray.length}/${seedCities.length} ` +
+      `(${Object.entries(perTerritory).map(([t, n]) => `${t} ${n}`).join(", ")})` +
+      (stray.length ? ` — unplaced: ${stray.slice(0, 5).join(", ")}` : ""),
+  );
+
   const failed = results.filter((r) => !r.ok).length;
   log(failed ? `\n${failed} check(s) FAILED` : "\nall checks passed");
   return failed;
@@ -1278,14 +1467,30 @@ async function showStats() {
     log("  unknown (never as zero) and publishes no aggregate score.");
     return;
   }
-  const none = rows.filter(([, r]) => r.areasTotal === 0).length;
-  const partial = rows.filter(([, r]) => r.kinds.length < LAYERS.length).length;
-  const cov = rows.map(([, r]) => r.weightedCoverage).sort((a, b) => a - b);
+  const scoped = rows.filter(([, r]) => !r.outOfScope);
+  const outOfScope = rows.filter(([, r]) => r.outOfScope);
+  if (outOfScope.length) {
+    const byTerr = {};
+    for (const [, r] of outOfScope) byTerr[r.territory ?? "?"] = (byTerr[r.territory ?? "?"] ?? 0) + 1;
+    log(
+      `  out of scope (no layer covers their territory): ${outOfScope.length} — ` +
+        Object.entries(byTerr).map(([t, n]) => `${t} ${n}`).join(", "),
+    );
+    log("    these have NO coverage figure; the pages say so rather than showing 0 %.");
+  }
+  if (!scoped.length) {
+    log("  no city has a coverage figure yet.");
+    return;
+  }
+  const none = scoped.filter(([, r]) => r.areasTotal === 0).length;
+  const partial = scoped.filter(([, r]) => r.kinds.length < LAYERS.length).length;
+  const cov = scoped.map(([, r]) => r.weightedCoverage).sort((a, b) => a - b);
   const median = cov[cov.length >> 1];
+  log(`  with a coverage figure: ${scoped.length}`);
   log(`  median weighted coverage: ${median} %`);
   log(`  cities with no protected perimeter within ${RADIUS_KM} km: ${none}`);
   if (partial) log(`  ⚠️  ingested from an incomplete layer set: ${partial}`);
-  const top = rows
+  const top = scoped
     .slice()
     .sort((a, b) => b[1].weightedCoverage - a[1].weightedCoverage)
     .slice(0, 5);
@@ -1310,7 +1515,7 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
       process.exitCode = 1;
     }
   }
-  else if (cmd === "selftest") process.exitCode = selftest() ? 1 : 0;
+  else if (cmd === "selftest") process.exitCode = (await selftest()) ? 1 : 0;
   else if (cmd === "stats") await showStats();
   else if (cmd === "probe") {
     if (!ONLY_SLUG) log("probe needs --slug=<city>");

@@ -305,12 +305,31 @@ export interface ProtectedArea {
   distanceKm: number;
 }
 
-export interface CityProtectedAreas {
+/** Territoire dans lequel la ville se trouve, tel que l'ingest le détermine
+ *  depuis les coordonnées du seed. Les six sont disjoints. */
+export type ProtectionTerritory =
+  | "metropole"
+  | "guadeloupe"
+  | "martinique"
+  | "guyane"
+  | "reunion"
+  | "mayotte";
+
+interface ProtectedAreasCommon {
   crawledAt: string;
   source: "inpn";
   ingestVersion: number;
   radiusKm: number;
   gridStepM: number;
+  /** `null` si la ville ne tombe dans aucun territoire connu de l'ingest —
+   *  elle est alors traitée comme hors périmètre, jamais comme un zéro. */
+  territory: ProtectionTerritory | null;
+}
+
+/** Ville réellement mesurée : au moins une couche de la passe couvre son
+ *  territoire, donc `0 périmètre` veut bien dire « il n'y en a pas ». */
+export interface MeasuredProtectedAreas extends ProtectedAreasCommon {
+  outOfScope?: false;
   /** Couches réellement présentes lors de la passe. Une ville ingérée sans le
    *  fichier ZNIEFF n'est pas comparable à une ville ingérée avec : le
    *  classement ne mélange que des villes au même jeu de couches. */
@@ -324,6 +343,40 @@ export interface CityProtectedAreas {
   areasTotal: number;
   areasTruncated: boolean;
   areas: ProtectedArea[];
+}
+
+/**
+ * Ville dont **aucune couche de la passe ne couvre le territoire**.
+ *
+ * Ce n'est pas une ville sans nature protégée : c'est une ville sur laquelle
+ * l'ingest n'a rien à dire. Natura 2000 est une directive européenne qui ne
+ * s'applique pas aux régions ultrapériphériques, et le MNHN publie les ZNIEFF
+ * et espaces protégés d'outre-mer dans des fichiers séparés des fichiers
+ * continentaux : une passe qui ne porte que le continental couvre 522 des 540
+ * villes du seed et aucune des 18 ultramarines. Leur écrire « aucun périmètre
+ * protégé à moins de 15 km » — Cayenne à 15 km de l'Amazonie — répéterait
+ * exactement l'erreur du rang de richesse retiré le 2026-08-10 : un trou de
+ * *notre* collecte imprimé comme un fait sur le lieu.
+ *
+ * Le type n'expose donc **aucun chiffre de couverture**. Il n'y a rien à
+ * arrondir, rien à afficher, rien à classer.
+ */
+export interface OutOfScopeProtectedAreas extends ProtectedAreasCommon {
+  outOfScope: true;
+  kinds: [];
+  areasTotal: 0;
+  areasTruncated: false;
+  areas: [];
+}
+
+export type CityProtectedAreas = MeasuredProtectedAreas | OutOfScopeProtectedAreas;
+
+/** Discrimine les deux cas. Une ligne d'ingest v1 (antérieure au champ) est lue
+ *  comme mesurée, ce qu'elle était : la passe d'alors était métropolitaine. */
+export function isMeasuredProtection(
+  record: CityProtectedAreas,
+): record is MeasuredProtectedAreas {
+  return record.outOfScope !== true;
 }
 
 const PROTECTED = PROTECTED_RAW as unknown as Record<string, CityProtectedAreas>;
@@ -342,6 +395,11 @@ export const PROTECTED_RADIUS_KM = 15;
  * couverte, avec `areasTotal: 0` et une couverture de 0 : c'est une mesure,
  * et la page l'écrit comme telle. Les deux situations ne se racontent pas
  * pareil et ne doivent pas se confondre à l'écran.
+ *
+ * Un troisième cas s'ajoute depuis l'ingest v2 : la ville est ingérée mais
+ * aucune couche de la passe ne couvre son territoire (`outOfScope`). Le record
+ * existe — on sait qu'on ne sait pas, et pourquoi — mais il ne porte aucun
+ * chiffre de couverture. Voir OutOfScopeProtectedAreas.
  */
 export function cityProtectedAreas(slug: string): CityProtectedAreas | null {
   return PROTECTED[slug] ?? null;
@@ -353,6 +411,14 @@ export function hasProtectedData(slug: string): boolean {
 
 export const PROTECTED_CRAWLED_SLUGS = Object.keys(PROTECTED);
 export const HAS_PROTECTED_DATA = PROTECTED_CRAWLED_SLUGS.length > 0;
+
+/** Villes portant réellement un chiffre de couverture. Les villes hors
+ *  périmètre sont ingérées mais n'ont rien à classer : les compter dans le
+ *  barème centile reviendrait à les ranger toutes ex æquo au plancher. */
+export const PROTECTED_MEASURED_SLUGS = PROTECTED_CRAWLED_SLUGS.filter((s) => {
+  const record = PROTECTED[s];
+  return !!record && isMeasuredProtection(record);
+});
 
 /**
  * Lien vers la fiche INPN d'un périmètre.
@@ -402,7 +468,9 @@ function protectionComponent(slug: string): Component | null {
  * fort qui la couvre, et les recouvrements ne comptent qu'une fois.
  */
 export function protectionCoverage(slug: string): number | null {
-  return cityProtectedAreas(slug)?.weightedCoverage ?? null;
+  const record = cityProtectedAreas(slug);
+  if (!record || !isMeasuredProtection(record)) return null;
+  return record.weightedCoverage;
 }
 
 /* ── composantes ──────────────────────────────────────────────────────── */
@@ -577,15 +645,19 @@ export const MIN_CALIBRATION_CITIES = 100;
 export const BIODIVERSITY_CALIBRATED =
   MEASURABLE_SLUGS.length >= MIN_CALIBRATION_CITIES;
 
-/** Nombre de villes passées par l'ingest INPN. */
+/** Nombre de villes passées par l'ingest INPN, hors périmètre comprises. */
 export const PROTECTED_CITY_COUNT = PROTECTED_CRAWLED_SLUGS.length;
+
+/** Nombre de villes portant un chiffre de couverture — c'est celui-ci qui
+ *  s'affiche quand une page dit à quoi la ville est comparée. */
+export const PROTECTED_MEASURED_COUNT = PROTECTED_MEASURED_SLUGS.length;
 
 /** Même raisonnement que BIODIVERSITY_CALIBRATED, appliqué aux zones
  *  protégées : un rang centile sur cinq villes ne situe rien. Les périmètres
  *  et la couverture en % sont vrais dès la première ville et s'affichent ;
  *  c'est le /10 qui attend d'avoir une population à laquelle se comparer. */
 export const PROTECTION_CALIBRATED =
-  PROTECTED_CRAWLED_SLUGS.length >= MIN_CALIBRATION_CITIES;
+  PROTECTED_MEASURED_SLUGS.length >= MIN_CALIBRATION_CITIES;
 
 /* ── profil par ville ─────────────────────────────────────────────────── */
 
@@ -609,9 +681,12 @@ export interface BiodiversityProfile {
    *  des deux. */
   protection: Component | null;
   /** `"data"` : la passe INPN n'a pas encore couvert cette ville — on ne sait
-   *  pas, ce n'est pas zéro. `"calibration"` : les périmètres sont relevés,
-   *  le rang sur 10 attend d'autres villes. `null` : un score est publié. */
-  protectionPending: "data" | "calibration" | null;
+   *  pas, ce n'est pas zéro. `"scope"` : la passe a tourné, mais aucune de ses
+   *  couches ne couvre le territoire de la ville (outre-mer sur une passe
+   *  continentale) — on ne sait pas non plus, et pour une raison qui se dit.
+   *  `"calibration"` : les périmètres sont relevés, le rang sur 10 attend
+   *  d'autres villes. `null` : un score est publié. */
+  protectionPending: "data" | "scope" | "calibration" | null;
   /** Périmètres relevés autour de la ville, ou `null` si non ingérée. Une
    *  ville ingérée sans aucun périmètre a bien une valeur, avec
    *  `areasTotal: 0` — c'est un résultat, pas une absence de donnée. */
@@ -686,11 +761,15 @@ export function biodiversityProfile(slug: string): BiodiversityProfile | null {
 
   const protectedAreas = cityProtectedAreas(slug);
   const protection = protectionComponent(slug);
+  // « hors périmètre » passe avant « calibration » : la ville n'attend pas que
+  // d'autres soient ingérées, elle attend un fichier qui la couvre.
   const protectionPending: BiodiversityProfile["protectionPending"] = !protectedAreas
     ? "data"
-    : !PROTECTION_CALIBRATED
-      ? "calibration"
-      : null;
+    : !isMeasuredProtection(protectedAreas)
+      ? "scope"
+      : !PROTECTION_CALIBRATED
+        ? "calibration"
+        : null;
 
   // Pas d'agrégat tant qu'une composante manque. Repondérer sur ce qui reste
   // donnerait un nombre qui ne mesure pas ce que son nom annonce.

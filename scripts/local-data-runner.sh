@@ -103,13 +103,51 @@ summary+=("biodiv $(node scripts/city-biodiversity.mjs stats 2>/dev/null | grep 
 run_stage "signaux publics (BODACC/CatNat)" 3600 npm run news -- --limit="$NEWS_LIMIT"
 summary+=("news $(node scripts/city-news.mjs stats 2>/dev/null | grep -oP '[0-9]+/[0-9]+ (cit|vill)' | head -1 || echo '?')")
 
-# INPN ships shapefiles behind a download page, not an API: this stage stays
-# skipped until someone drops the converted GeoJSON layers in place. The script
-# prints the exact ogr2ogr line — `npm run protected-areas:sources`.
-if compgen -G ".cache/city-protected-areas/sources/*.geojson" >/dev/null; then
-  run_stage "zones protégées (INPN)" 3600 npm run protected-areas
+# INPN protected areas. Two stages: `fetch` resolves the seven national zoning
+# layers on data.gouv.fr and downloads them, the ingest rasterises them against
+# the 540 cities.
+#
+# This used to be hardcoded to skip, with a comment saying the layers had to be
+# downloaded and reprojected by hand — true until 2026-08-13, when `fetch` was
+# written, and false since. Nothing called `fetch`, so the sources never
+# appeared, so the ingest never ran: the component would have sat at 0/540 for
+# ever while the script that fills it was already in the repo. That is the whole
+# point of this block.
+#
+# The layers are large national shapefiles, so the download gets its own free
+# space floor rather than riding on the one at the top of the run.
+PA_SOURCES=".cache/city-protected-areas/sources"
+PA_FREE_GB=15
+
+if compgen -G "$PA_SOURCES/*.geojson" >/dev/null; then
+  say "-> zones protégées: couches déjà en place, pas de re-téléchargement"
+elif (( free_gb < PA_FREE_GB )); then
+  say "-> zones protégées: fetch sauté, ${free_gb}G libres (il en faut ${PA_FREE_GB})"
 else
-  say "-> zones protégées: skipped, no source layer in .cache/city-protected-areas/sources"
+  # ogr2ogr converts the shapefiles to WGS84 GeoJSON, which is what the ingest
+  # reads. Without it `fetch` downloads and unpacks but produces no source
+  # layer, and the run would look like a silent no-op — so say it plainly.
+  if ! command -v ogr2ogr >/dev/null; then
+    say "   note: ogr2ogr absent (apt install gdal-bin) — fetch téléchargera sans reprojeter"
+  fi
+  run_stage "zones protégées — sources (data.gouv.fr)" 5400 npm run protected-areas:fetch
+fi
+
+if compgen -G "$PA_SOURCES/*.geojson" >/dev/null; then
+  # The ingest is a deterministic local pass over the same files: re-running it
+  # nightly would burn an hour to rewrite an identical JSON. Run it when the
+  # output is missing or older than the layers it reads.
+  newest_src="$(ls -t "$PA_SOURCES"/*.geojson 2>/dev/null | head -1)"
+  if [[ ! -s data/city-protected-areas.json ]] \
+     || [[ "$(head -c 3 data/city-protected-areas.json)" == "{}" ]] \
+     || [[ "$newest_src" -nt data/city-protected-areas.json ]]; then
+    run_stage "zones protégées (INPN)" 3600 npm run protected-areas
+    summary+=("protected $(node scripts/city-protected-areas.mjs stats 2>/dev/null | grep -oP 'covered \K[0-9]+/[0-9]+' || echo '?')")
+  else
+    say "-> zones protégées: ingest à jour (couches inchangées depuis la dernière passe)"
+  fi
+else
+  say "-> zones protégées: aucune couche dans $PA_SOURCES — voir le journal du fetch ci-dessus"
 fi
 
 changed="$(git status --porcelain -- "${OWNED[@]}")"

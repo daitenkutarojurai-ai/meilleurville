@@ -31,6 +31,8 @@ import {
   PROTECTION_KIND_COUNT,
   protectionLabel,
   inpnUrl,
+  isMeasuredProtection,
+  type ProtectionTerritory,
   BIODIVERSITY_MEASURABLE_COUNT,
   recordConcentration,
   SCORE_LEGEND_FR,
@@ -103,6 +105,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+/** Libellés des territoires, au site d'affichage (convention CLAUDE.md #6 — la
+ *  lib garde les clés, la page porte la copie, et la jumelle EN la sienne). */
+const TERRITORY_LABEL_FR: Record<ProtectionTerritory, string> = {
+  metropole: "la France métropolitaine",
+  guadeloupe: "la Guadeloupe",
+  martinique: "la Martinique",
+  guyane: "la Guyane",
+  reunion: "La Réunion",
+  mayotte: "Mayotte",
+};
+
 /** Barre d'une composante. `null` = donnée absente, et ça se lit. */
 function ComponentBar({
   emoji,
@@ -173,21 +186,25 @@ export default async function BiodiversitePage({ params }: Props) {
 
   const nb = (v: number) => v.toLocaleString("fr-FR");
 
-  // Trois états à distinguer, et un seul se dit « non mesuré » : la commune
-  // n'est pas encore ingérée. Une commune ingérée sans aucun périmètre a été
-  // mesurée — la page l'écrit, plutôt que de laisser croire à un trou de
-  // données.
-  const protectionDetail = protectedAreas
-    ? `${nb(protectedAreas.weightedCoverage)} % du disque de ${protectedAreas.radiusKm} km sous protection, ` +
-      `pondéré par le niveau (${nb(protectedAreas.rawCoverage)} % sous un zonage quelconque). ` +
-      `${nb(protectedAreas.areasTotal)} périmètre${protectedAreas.areasTotal > 1 ? "s" : ""} relevé${protectedAreas.areasTotal > 1 ? "s" : ""}.`
+  // Quatre états à distinguer, et deux seulement se disent « non mesuré » : la
+  // commune pas encore ingérée, et la commune ingérée hors du périmètre des
+  // couches (outre-mer sur une passe continentale). Une commune ingérée sans
+  // aucun périmètre, elle, a bien été mesurée — la page l'écrit, plutôt que de
+  // laisser croire à un trou de données.
+  const measuredAreas = protectedAreas && isMeasuredProtection(protectedAreas) ? protectedAreas : null;
+  const protectionDetail = measuredAreas
+    ? `${nb(measuredAreas.weightedCoverage)} % du disque de ${measuredAreas.radiusKm} km sous protection, ` +
+      `pondéré par le niveau (${nb(measuredAreas.rawCoverage)} % sous un zonage quelconque). ` +
+      `${nb(measuredAreas.areasTotal)} périmètre${measuredAreas.areasTotal > 1 ? "s" : ""} relevé${measuredAreas.areasTotal > 1 ? "s" : ""}.`
     : "";
   const protectionMissing =
-    protectionPending === "calibration" && protectedAreas
-      ? protectedAreas.areasTotal === 0
-        ? `Aucun périmètre protégé à moins de ${protectedAreas.radiusKm} km. C'est une mesure, pas une absence de donnée.`
-        : `${nb(protectedAreas.weightedCoverage)} % du disque sous protection pondérée. Le rang sur 10 attend que davantage de villes soient ingérées.`
-      : `Les périmètres INPN (Natura 2000, ZNIEFF, réserves, parcs) ne sont pas encore intégrés pour cette commune. « Non mesuré » veut dire que nous ne savons pas — pas qu'il n'y en a aucun.`;
+    protectionPending === "scope"
+      ? `L'inventaire national des zonages traité ici ne couvre pas ${TERRITORY_LABEL_FR[protectedAreas?.territory ?? "metropole"]} : les périmètres ultramarins sont publiés dans des fichiers séparés, et Natura 2000 ne s'applique pas aux régions ultrapériphériques. Nous ne savons donc rien de la protection autour de cette commune — ce n'est pas qu'il n'y en a pas.`
+      : protectionPending === "calibration" && measuredAreas
+        ? measuredAreas.areasTotal === 0
+          ? `Aucun périmètre protégé à moins de ${measuredAreas.radiusKm} km. C'est une mesure, pas une absence de donnée.`
+          : `${nb(measuredAreas.weightedCoverage)} % du disque sous protection pondérée. Le rang sur 10 attend que davantage de villes soient ingérées.`
+        : `Les périmètres INPN (Natura 2000, ZNIEFF, réserves, parcs) ne sont pas encore intégrés pour cette commune. « Non mesuré » veut dire que nous ne savons pas — pas qu'il n'y en a aucun.`;
 
   const groups = GROUP_ORDER.map((g) => ({ id: g, count: raw.groups[g] ?? 0 })).filter(
     (g) => g.count > 0,
@@ -542,14 +559,17 @@ export default async function BiodiversitePage({ params }: Props) {
       </section>
 
       {/* ── Zones protégées ────────────────────────────────────────────── */}
-      {protectedAreas && (
+      {/* Hors périmètre : la section entière disparaît. Une liste vide sous un
+          titre « Zones protégées à moins de 15 km » se lit comme un zéro, et
+          c'est précisément ce que la commune n'a pas mesuré. */}
+      {measuredAreas && (
         <section className="relative pb-8">
           <div className="mx-auto max-w-5xl px-4 sm:px-6">
             <h2 className="text-xl font-bold text-[var(--text-primary)] mb-1">
-              Zones protégées à moins de {protectedAreas.radiusKm} km
+              Zones protégées à moins de {measuredAreas.radiusKm} km
             </h2>
             <p className="text-sm text-[var(--text-secondary)] mb-4">
-              {protectedAreas.areasTotal === 0 ? (
+              {measuredAreas.areasTotal === 0 ? (
                 <>
                   Aucun périmètre protégé recensé dans ce rayon. C&apos;est un résultat de mesure,
                   pas une donnée manquante : les couches nationales ont été passées sur ce disque
@@ -565,9 +585,9 @@ export default async function BiodiversitePage({ params }: Props) {
                 </>
               )}
             </p>
-            {protectedAreas.areas.length > 0 && (
+            {measuredAreas.areas.length > 0 && (
               <div className="space-y-2">
-                {protectedAreas.areas.map((a, i) => {
+                {measuredAreas.areas.map((a, i) => {
                   const href = inpnUrl(a);
                   const label = a.name ?? a.id ?? protectionLabel(a.kind);
                   return (
@@ -609,17 +629,17 @@ export default async function BiodiversitePage({ params }: Props) {
                 })}
               </div>
             )}
-            {protectedAreas.areasTruncated && (
+            {measuredAreas.areasTruncated && (
               <p className="text-[11px] text-[var(--text-tertiary)] mt-2">
-                {nb(protectedAreas.areasTotal)} périmètres au total ; les{" "}
-                {protectedAreas.areas.length} plus étendus sont listés. La couverture affichée plus
+                {nb(measuredAreas.areasTotal)} périmètres au total ; les{" "}
+                {measuredAreas.areas.length} plus étendus sont listés. La couverture affichée plus
                 haut les compte tous.
               </p>
             )}
-            {protectedAreas.kinds.length < PROTECTION_KIND_COUNT && (
+            {measuredAreas.kinds.length < PROTECTION_KIND_COUNT && (
               <p className="text-[11px] text-[var(--text-tertiary)] mt-2">
-                Passe partielle : {protectedAreas.kinds.length} des {PROTECTION_KIND_COUNT} couches
-                nationales étaient disponibles ({protectedAreas.kinds.map((k) => protectionLabel(k)).join(", ")}).
+                Passe partielle : {measuredAreas.kinds.length} des {PROTECTION_KIND_COUNT} couches
+                nationales étaient disponibles ({measuredAreas.kinds.map((k) => protectionLabel(k)).join(", ")}).
                 La couverture est donc un minimum.
               </p>
             )}
@@ -856,7 +876,7 @@ export default async function BiodiversitePage({ params }: Props) {
               {GBIF_CREDIT}
             </a>
             , extraction du {raw.crawledAt} ({raw.licenses.join(", ")}).{" "}
-            {protectedAreas && (
+            {measuredAreas && (
               <>
                 Zones protégées :{" "}
                 <a
@@ -867,8 +887,8 @@ export default async function BiodiversitePage({ params }: Props) {
                 >
                   {INPN_CREDIT}
                 </a>
-                , périmètres du {protectedAreas.crawledAt}, croisés sur une grille de{" "}
-                {protectedAreas.gridStepM} m.{" "}
+                , périmètres du {measuredAreas.crawledAt}, croisés sur une grille de{" "}
+                {measuredAreas.gridStepM} m.{" "}
               </>
             )}
             Espaces verts :{" "}
