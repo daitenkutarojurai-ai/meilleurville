@@ -130,6 +130,32 @@ function isMountain(city: CityLight): boolean {
   return hasTag(city, TERRAIN_TAGS.mountain) || (city.elevation ?? 0) >= 500;
 }
 
+// Taille de ville. C'est la réponse la plus catégorique du questionnaire — les
+// bornes sont écrites dans l'option elle-même (« 200k+ ») — et c'était le signal
+// le plus faible du moteur : +1,0 en cas d'accord, −0,4 sinon, soit un écart de
+// 1,4 contre 2,4 pour le relief. « Grande métropole » sortait donc Céret
+// (7 800 hab.) en tête dès que le relief et le climat tiraient ailleurs (retour
+// lecteur du 2026-08-17). Le barème est désormais gradué en ordres de grandeur :
+// une ville de 180 000 habitants n'est pas ratée comme un village de 2 000.
+const SIZE_WEIGHT = 3.2;
+
+const SIZE_REASON: Record<string, string> = {
+  metro: "grande métropole",
+  mid: "ville à taille humaine",
+  small: "village ou bourg",
+};
+
+function sizeFit(size: string, pop: number): number {
+  const p = Math.max(pop, 500);
+  // Écart en décades sous la borne franchie, saturé à une décade complète.
+  const miss = (ratio: number) => Math.max(-1, Math.log10(ratio));
+  if (size === "metro") return p >= 200_000 ? 1 : miss(p / 200_000);
+  if (size === "small") return p < 30_000 ? 1 : miss(30_000 / p);
+  if (p < 30_000) return miss(p / 30_000);
+  if (p >= 200_000) return miss(200_000 / p);
+  return 1;
+}
+
 function getAnswer(answers: CityMatchAnswer[], id: CityMatchAnswer["id"]): string | undefined {
   return answers.find((x) => x.id === id)?.value;
 }
@@ -176,10 +202,11 @@ export function computeMatches(answers: CityMatchAnswer[], cities: CityLight[]):
 
       // Size
       const pop = c.population ?? 0;
-      if (size === "metro" && pop >= 200_000) { score += 1.0; reasons.push("grande métropole"); }
-      else if (size === "mid" && pop >= 30_000 && pop < 200_000) { score += 1.0; reasons.push("ville à taille humaine"); }
-      else if (size === "small" && pop < 30_000) { score += 1.0; reasons.push("village ou bourg"); }
-      else { score -= 0.4; }
+      if (size) {
+        const fit = sizeFit(size, pop);
+        score += fit * SIZE_WEIGHT;
+        if (fit === 1) reasons.push(SIZE_REASON[size]);
+      }
 
       // Climate. Hot season = max of the two readings: southern-hemisphere
       // DROM (La Réunion) peaks in January, so a July-only check would
