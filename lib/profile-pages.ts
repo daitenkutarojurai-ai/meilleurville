@@ -1,6 +1,6 @@
 // F19 — Pages "Pour qui" thématiques.
 //
-// 33 profils éditoriaux (compte mesuré 2026-08-07), chacun = recombinaison
+// 34 profils éditoriaux (compte mesuré 2026-08-17), chacun = recombinaison
 // pondérée des axes seed + owner-scores. Top 20 villes par profil +
 // intro/méthodo personnalisée. Aucune nouvelle donnée : pure recombinaison.
 //
@@ -15,6 +15,7 @@ import { HOUSING } from "@/data/housing";
 import { computeOwnerScores } from "@/lib/owner-scores";
 import { computeSportLeisure } from "@/lib/sport-leisure";
 import { computeCyclingMobility } from "@/lib/cycling-mobility";
+import { computeHealthcareAccess } from "@/lib/healthcare-access";
 import { rentalTension } from "@/lib/rental-tension";
 import { computeCityDistances, haversineKm } from "@/lib/distances";
 import { TGV_STATIONS, parisCommute } from "@/lib/paris-commute";
@@ -45,6 +46,12 @@ type ScoreWeights = Partial<{
   rentalTension: number;
   investorYield: number;
   cyclingMobility: number;
+  // Accès aux soins (F47). ⚠️ `lib/healthcare-access` compte la *difficulté*
+  // (10 = désert), comme le quartet environnement. La clé s'appelle ici
+  // « healthcareAccess », donc une qualité : `getScoreValue` la retourne
+  // inversée (10 = accès facile), au site d'affichage et jamais dans le moteur,
+  // conformément à la convention de score du projet.
+  healthcareAccess: number;
   // Dérivés géographiques
   coastalProximity: number;
   mountainProximity: number;
@@ -258,6 +265,9 @@ function getScoreValue(city: CityLight, key: string): number {
   if (key === "rentalTension") return rentalTension(city);
   if (key === "investorYield") return investorYield(city);
   if (key === "cyclingMobility") return computeCyclingMobility(city).composite;
+  // Inversion assumée : le moteur F47 mesure la difficulté d'accès, la clé
+  // nomme la facilité. Même traitement que sur /villes/[slug]/sante.
+  if (key === "healthcareAccess") return 10 - computeHealthcareAccess(city).composite;
   if (key === "coastalProximity") return coastalProximity(city);
   if (key === "mountainProximity") return mountainProximity(city);
   if (key === "metroAccess") return metroAccess(city);
@@ -838,6 +848,28 @@ export const PROFILE_PAGES: ProfileDef[] = [
         : "aucun pôle joignable";
       return `${label} · coût ${c.scores.cost.toFixed(1)} · vie ${c.scores.life.toFixed(1)}`;
     },
+  },
+  {
+    slug: "suivi-medical-regulier",
+    emoji: "🩺",
+    label: "Suivi médical régulier",
+    metaTitle: "Meilleures villes suivi médical régulier 2026 — Top 20",
+    metaDescription:
+      "Top 20 villes françaises quand une pathologie chronique impose des rendez-vous réguliers : généralistes, spécialistes, urgences, pharmacies, trajets, coût.",
+    intro:
+      "Suivi médical régulier : quand une pathologie chronique impose des rendez-vous tous les mois ou toutes les semaines (dialyse, chimiothérapie, rééducation après un AVC, suivi cardiologique, diabète insulino-dépendant, maladie inflammatoire, sclérose en plaques), la carte de France qui décide de votre quotidien n'est ni celle du dynamisme économique ni celle du cadre de vie, c'est celle de l'accès aux soins. Ce profil se distingue nettement des trois qui en approchent : « personnes à mobilité réduite » pondère d'abord l'accessibilité PMR des transports et la marchabilité du centre-ville, « proches aidants » accompagne quelqu'un d'autre et cherche avant tout du calme et un tissu médico-social, « asthmatiques et allergiques » vise l'air respirable plutôt que l'offre de soins. Aucun de ces trois-là ne regarde ce qui compte ici. Le critère cardinal est donc l'accès aux soins lui-même, agrégé sur quatre dimensions : la densité de médecins généralistes pour 35 %, parce que c'est la porte d'entrée du système et celle qui décide si vous trouverez un médecin traitant (sans médecin traitant déclaré, le remboursement d'une consultation tombe de 70 % à 30 %) ; la présence de spécialistes et d'un plateau technique pour 25 %, la distance à un service d'accueil des urgences pour 25 %, le maillage de pharmacies pour 15 %. Une précision d'emblée, parce qu'elle change la façon de lire ce classement : cet indicateur est une estimation, construite depuis le département, la taille de la commune et son statut hospitalier, calibrée sur les références publiques de la DREES, du Conseil national de l'Ordre des médecins et du zonage ARS (zones d'intervention prioritaire et zones d'action complémentaire). Ce n'est pas un relevé de cabinets commune par commune, et deux villes du même département partagent ici la même densité de généralistes alors que l'une peut avoir vu partir deux médecins l'an dernier. Le coût vient ensuite, et pas pour la raison qu'on croit : l'ALD exonérante, c'est-à-dire la liste des trente affections de longue durée, prend en charge à 100 % du tarif de la Sécurité sociale les soins liés à l'affection, mais elle ne couvre ni les dépassements d'honoraires, ni le forfait journalier hospitalier, ni ce qui relève des autres soins, et un temps partiel thérapeutique ampute le revenu au moment précis où les frais montent. Les transports pèsent autant, parce que la vraie unité de compte d'un suivi chronique n'est pas la consultation mais le trajet répété : trois séances de dialyse par semaine, ce sont plus de trois cents allers-retours par an. Le véhicule sanitaire léger et le taxi conventionné sont remboursés sur prescription en ALD, mais ils supposent une offre disponible localement, et beaucoup de traitements contre-indiquent la conduite pendant plusieurs heures. Suivent la résistance à la canicule, parce que les personnes atteintes de maladie chronique figurent parmi les publics à risque du plan national canicule : la chaleur décompense l'insuffisance cardiaque et rénale, et plusieurs traitements courants altèrent la thermorégulation. Puis la qualité de l'air, la qualité de vie générale, la sécurité et le calme. Résultat : le palmarès est tenu par les villes universitaires de taille moyenne dotées d'un CHU, où l'accès maximal se paie encore un loyer raisonnable. Rennes sort en tête (accès 7,9/10, T3 à 1 100 €), devant Strasbourg (7,9 et 1 080 €), Brest, Angers, Lille, Nantes, Dijon, Caen, Bordeaux et Besançon ; suivent Saint-Étienne, Reims, Nancy, Grenoble, Tours, Limoges, Rouen, Ivry-sur-Seine, Toulouse et Lyon. Deux d'entre elles méritent d'être regardées de près par qui doit tenir un budget : Saint-Étienne aligne l'accès maximal (7,9) avec le logement le moins cher du top 20, T3 à 770 € et mètre carré à 1 500 € ; Limoges tient 7,1 à 800 € et 1 600 €. Brest, troisième, illustre le compromis inverse : plateau hospitalier et spécialistes au plus haut, généralistes seulement dans la moyenne du Finistère, mais l'air, le calme et les étés les plus tempérés du classement. Deux pièges se lisent en creux, et ils sont l'intérêt principal de ce classement. Le premier est rural : les villes qui paraissent les plus abordables sont exactement celles où l'accès s'effondre — Guéret loue un T3 630 € et vend le mètre carré 1 000 €, avec un accès aux soins à 2,3/10 ; Aurillac 560 € pour 3,1 ; Mende 640 € pour 3,0 ; Nevers 710 € pour 3,6. Un budget qui tient sur le papier ne tient plus dès qu'il faut deux heures de route pour un rendez-vous mensuel. Vingt-deux villes du site tombent au niveau « désert » de l'échelle : elles comptent toutes moins de quinze mille habitants, et toutes affichent un mètre carré inférieur au prix médian du site. La corrélation n'a rien d'un hasard, et c'est elle qu'il faut retenir de cette page. Le second est touristique, et il cumule les deux défauts : Arcachon demande 1 500 € de T3 et 6 800 € du mètre carré pour un accès à 3,5, Gordes 1 560 € pour 3,4, Saint-Tropez 2 600 € et 12 000 € pour 4,2. Beaucoup de résidences secondaires, peu de médecins à l'année. Reste le paradoxe des très grandes villes, qui vaut d'être dit franchement : Paris, Marseille et Nice affichent toutes les trois l'accès maximal, 7,9/10, et sortent pourtant 57ᵉ, 163ᵉ et 100ᵉ. Paris décroche sur le coût seul (T3 à 2 800 €, mètre carré à 10 500 €), Nice sur le coût et la chaleur, Marseille sur la chaleur, l'air et des transports en retrait. L'accès aux soins ne se paie pas qu'en kilomètres. Un rappel pour finir, qui vaut plus que le classement lui-même : ceci est un point de départ, pas un audit. Avant tout déménagement, la vérification qui compte est de savoir si un médecin traitant accepte de nouveaux patients dans le quartier visé, si le service qui vous suit a une équivalence sur place, et sous quel délai. Trois réponses qu'aucun modèle ne peut donner, et que l'établissement concerné, la CPAM et l'ARS de la région donnent en un appel.",
+    weights: {
+      healthcareAccess: 3.0,
+      transport: 1.5,
+      cost: 1.5,
+      life: 1.0,
+      qualiteAir: 1.0,
+      canicule: 1.0,
+      safety: 0.5,
+      bruit: 0.5,
+    },
+    reasonHint: (c) =>
+      `Accès aux soins ${(10 - computeHealthcareAccess(c).composite).toFixed(1)} · transport ${c.scores.transport.toFixed(1)} · coût ${c.scores.cost.toFixed(1)}`,
   },
 ];
 

@@ -710,7 +710,25 @@ page mais aucune URL déclarée. Elle est désormais dérivée de `EXPAT_COUNTRI
 Un profil = une entrée de `PROFILE_PAGES` (slug, emoji, label, meta, intro, `weights`,
 `reasonHint`). Ajouter l'entrée suffit : `/pour-qui`, `/pour-qui/[profil]`, le sitemap et le bloc
 « parfait pour » de `lib/honest-reviews.ts` en dérivent tous les quatre. **Compteur mesuré
-(`grep -c '^    slug: "'`) : 33 profils** (2026-08-07). Dernier ajouté : **`navetteurs-hybrides`**
+(`grep -c '^    slug: "'`) : 34 profils** (2026-08-17). Dernier ajouté : **`suivi-medical-regulier`**
+(pathologie chronique imposant des rendez-vous réguliers) — le premier profil du fichier dont le
+critère cardinal est l'**accès aux soins**, alors que `lib/healthcare-access.ts` (F47) existait
+depuis longtemps sans qu'aucun des 33 profils ne le pondère, `proches-aidants` compris.
+⚠️ **Inversion de direction, à ne pas « corriger »** : F47 mesure la *difficulté* (10 = désert,
+convention du quartet environnement) ; la clé de poids s'appelle `healthcareAccess`, donc une
+qualité, et `getScoreValue()` retourne `10 - composite`. L'inversion est au site d'affichage, jamais
+dans le moteur — même traitement que `/villes/[slug]/sante`.
+L'indicateur reste une **estimation** (département + taille de commune + statut hospitalier,
+calibrée DREES / CNOM / zonage ARS), pas un relevé de cabinets : l'intro le dit avant de citer le
+moindre rang, comme `mobilite-reduite` le fait pour l'accessibilité PMR. Deux enseignements portés
+par la copie et vérifiés contre le moteur : les 22 villes de niveau « désert » comptent **toutes**
+moins de 15 000 habitants et affichent **toutes** un m² sous le prix médian du site (le loyer bas
+et l'effondrement de l'accès sont la même carte), et Paris, Marseille et Nice ont beau plafonner à
+7,9/10 d'accès, elles sortent 57ᵉ, 163ᵉ et 100ᵉ sur le coût et la chaleur. Distinct de
+`mobilite-reduite` (cardinal = transport PMR), `proches-aidants` (accompagne un tiers, cherche du
+calme) et `asthmatiques-allergiques` (cardinal = qualité de l'air) ; pendant positif du red flag
+`villes-desert-medical`, comme `cyclistes-urbains` l'est de `villes-anti-velo`.
+Avant-dernier ajouté : **`navetteurs-hybrides`**
 (actifs en hybride, 2-3 jours au bureau) — le seul profil du site où la *distance* à un bassin
 d'emploi est le critère cardinal, là où « télétravailleurs salariés » l'ignore complètement (quand
 on ne revient jamais, l'éloignement ne coûte rien) et où « sans voiture » et « cyclistes urbains »
