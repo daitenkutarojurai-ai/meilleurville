@@ -13,7 +13,7 @@ Demande utilisateur directe. F58 / F60 / F61 livrées le jour même ; **F59 livr
 
 | # | Feature | Prio | Cplx | SEO | Statut |
 |---|---------|------|------|-----|--------|
-| F58 | City Match — profil « parent solo » | P1 | S | mid | ✅ shipped 2026-07-22 · sous-page `/villes/[slug]/parent-solo` ×540 + hub `/parent-solo` + miroir EN `/single-parent` + `/cities/[slug]/single-parent` ×540 shipped 2026-07-25→28 · série guides `parent-solo-a-[ville]-2026` batch 1 (+10) shipped 2026-07-24, batch 2 (+10 : Rennes, Nancy, Angers, Grenoble, Dijon, Metz, Reims, Aix-en-Provence, Rouen, Toulon) shipped 2026-08-07 · miroir EN de la série `single-parent-in-[city]-2026` batch 1 (+10 : Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux, Lille) shipped 2026-08-09, batch 2 (+10) shipped 2026-08-11 — **parité FR/EN atteinte à 20/20** · **batch 3 FR (+9 : Villeurbanne, Besançon, Caen, Brest, Tours, Limoges, Clermont-Ferrand, Saint-Étienne, Le Havre) shipped 2026-08-14**, **miroir EN batch 3 (+9) shipped 2026-08-15 — parité rétablie à 29/29** · **batch 4 FR (+10 : Nîmes, Saint-Denis de La Réunion, Le Mans, Amiens, Annecy, Perpignan, Orléans, Mulhouse, Poitiers, Dunkerque) shipped 2026-08-16** — FR 39, EN 29, écart 10, **le prochain run parent-solo doit être le miroir EN** |
+| F58 | City Match — profil « parent solo » | P1 | S | mid | ✅ shipped 2026-07-22 · sous-page `/villes/[slug]/parent-solo` ×540 + hub `/parent-solo` + miroir EN `/single-parent` + `/cities/[slug]/single-parent` ×540 shipped 2026-07-25→28 · série guides `parent-solo-a-[ville]-2026` batch 1 (+10) shipped 2026-07-24, batch 2 (+10 : Rennes, Nancy, Angers, Grenoble, Dijon, Metz, Reims, Aix-en-Provence, Rouen, Toulon) shipped 2026-08-07 · miroir EN de la série `single-parent-in-[city]-2026` batch 1 (+10 : Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux, Lille) shipped 2026-08-09, batch 2 (+10) shipped 2026-08-11 — **parité FR/EN atteinte à 20/20** · **batch 3 FR (+9 : Villeurbanne, Besançon, Caen, Brest, Tours, Limoges, Clermont-Ferrand, Saint-Étienne, Le Havre) shipped 2026-08-14**, **miroir EN batch 3 (+9) shipped 2026-08-15 — parité rétablie à 29/29** · **batch 4 FR (+10 : Nîmes, Saint-Denis de La Réunion, Le Mans, Amiens, Annecy, Perpignan, Orléans, Mulhouse, Poitiers, Dunkerque) shipped 2026-08-16**, **miroir EN batch 4 (+10) shipped 2026-08-17 — parité rétablie à 39/39** (compteur vérifié des deux côtés avant et après le run, cf. § Parité EN) |
 | F59 | **Parcs & espaces verts par ville** (pipeline OSM + sub-page ×540) | **P0** | **L** | **high** | ✅ shipped 2026-07-27 |
 | F60 | `/departements` — finder par n° / nom / ville + carte cliquable | P1 | S | low | ✅ shipped 2026-07-22 · carte cliquable 2026-07-23 |
 | F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 · série guides `vacances-celibataire-[ville]-2026` batch 1 (+8) shipped 2026-08-01 · série `vacances-monoparentales-[ville]-2026` batch 1 (+7) shipped 2026-08-05 · `vacances-celibataire-[ville]-2026` batch 2 (+7 : Toulouse, Lille, Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle) shipped 2026-08-08 · croisement mois × profil `/vacances/ou-partir/[combo]` (12 × 7 = 84 pages SSG) shipped 2026-08-12 · miroir EN de la série célibataire, `solo-travel-in-[city]-2026` batch 1 (+8 : Paris, Lyon, Bordeaux, Lille, Strasbourg, Toulouse, Montpellier, Nantes) shipped 2026-08-13 · série EN fermée (batch 2, +7) 2026-08-14 · guide pilier `partir-en-vacances-seul-2026` + correction de l'anti-station-fantôme (part réelle des 15-29 ans Insee au lieu d'un écart d'affluence constant) shipped 2026-08-15 |
@@ -1207,7 +1207,9 @@ se comble pas par du SSG dérivé. Le tableau de bord qui compte à partir d'ici
 séries FR qui n'ont aucune jumelle EN — c'est là que l'écart se creuse le plus vite. État :
 `solo-travel-in-[city]-2026` **fermée le 14/08** (15 FR / 15 EN).
 `single-parent-in-[city]-2026`, fermée une première fois le 10/08 à 20/20, **rouverte par le
-batch 3 FR du 14/08 (+9) puis refermée le 15/08** (29 FR / 29 EN).
+batch 3 FR du 14/08 (+9) puis refermée le 15/08** (29 FR / 29 EN), **rouverte par le batch 4 FR
+du 16/08 (+10) et refermée le 17/08** (39 FR / 39 EN). Deux réouvertures en quatre jours sur la
+même série : c'est la cadence réelle, pas un accident.
 
 ⚠️ **Une série « fermée » ne le reste pas.** C'est le deuxième mode de régression de ce
 chantier, distinct de celui des routes et moins visible : `npm run parity` sort en code 0
@@ -1217,8 +1219,8 @@ est précisément pourquoi le prompt dit de mesurer et non de réciter. Séries 
 aucune jumelle EN : `vacances-monoparentales-[ville]-2026` (7 FR / 0 EN) et le croisement
 mois × profil, qui a sa route EN mais pas de guides.
 
-**Écart de contenu, distinct de l'écart de routes** : **guides 957 FR / 643 EN, tags 240 / 86**
-(mesuré le 16/08 — les chiffres plus bas dans cette section sont datés, le réel prévaut).
+**Écart de contenu, distinct de l'écart de routes** : **guides 967 FR / 653 EN, tags 240 / 86**
+(mesuré le 17/08 — les chiffres plus bas dans cette section sont datés, le réel prévaut).
 Ce n'est pas une route à créer mais du corpus à écrire, et **jamais par traduction** — les
 guides EN sont du contenu natif à angle expat, c'est une décision de fond (cf. § Bilingual
 setup dans `CLAUDE.md`), pas une facilité.
@@ -1226,6 +1228,85 @@ setup dans `CLAUDE.md`), pas une facilité.
 **Exceptions assumées** : `/badge` ×541 reste FR-only (la motion backlink vise mairies et
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
+
+### Livré le 17/08 — `single-parent-in-[city]-2026` refermée à 39/39 (batch 4, +10)
+
+`npm run parity` sortait en **code 0** en début de run (FR 217 / EN 165, 0 route sans jumelle) :
+pas de régression de routes, donc run de corpus. **Le diff par série a décidé du sujet, pas le
+tableau de bord** : le batch 4 FR du 16/08 (`490376e`, +10) avait rouvert un écart de 10 sur
+`parent-solo-a-[ville]` le jour même, la veille de ce run. C'est le trou le plus frais et le
+plus gros après `retiring-in-[city]` (12), et la règle « un écart rattrapé le jour même coûte
+une page » tranche en sa faveur.
+
+**Les 10 jumelles** : Nîmes, Saint-Denis de La Réunion, Le Mans, Amiens, Annecy, Perpignan,
+Orléans, Mulhouse, Poitiers, Dunkerque. **Compteurs mesurés : FR 39 / EN 39** (`grep -c` des
+deux côtés), `EN_GUIDES` 643 → **653**.
+
+⚠️ **La note « prochain run parent-solo = miroir EN » du batch 3 était périmée quand elle a été
+écrite** (le batch 4 FR le dit lui-même). Celle-ci ne l'est pas, elle a été vérifiée au compteur
+avant rédaction et re-vérifiée après. **Continuer à compter, jamais à suivre la note.**
+
+**Chiffres relus à travers les modules, jamais grepés dans le seed** : `npx tsx` sur
+`@/data/cities-seed`, `@/data/housing`, `@/data/neighborhoods`, `@/lib/parent-solo`. Les 10 rangs
+sont rejoués avec le départage réel de `app/parent-solo/page.tsx` (`name.localeCompare(…, "fr")`
+à égalité de score) : Poitiers 46e, Annecy 80e, Orléans 102e, Le Mans 110e, Amiens 119e,
+Mulhouse 126e, Dunkerque 158e, Nîmes 224e, Perpignan 263e, Saint-Denis 287e sur 363 éligibles,
+médiane 5,5. Les comparateurs repris du FR sont vérifiés un à un (Albi 7,0, Auch 6,8, Castres 6,5,
+La Roche-sur-Yon 7,5 première du national, Cholet 7,0, Tours 6,5, Châtellerault 6,5, Colmar 6,3,
+Cambrai 6,4, Lille 6,3, Annemasse 6,4, Laon 7,0, Soissons 6,9, Compiègne 6,8, Abbeville 6,5,
+Olivet 5,9, Fleury-les-Aubrais 5,4, Alès 5,0), ainsi que les rangs régionaux (Nîmes 17e
+d'Occitanie/22, Amiens 11e des Hauts-de-France/27, Le Mans 10e des Pays de la Loire/14, Orléans
+4e du Centre-Val de Loire/11, Poitiers 4e de Nouvelle-Aquitaine/28).
+
+**Contrôle croisé automatisé FR↔EN sur les 10 paires** (règle 5 : deux alternates hreflang ne
+peuvent pas afficher deux nombres différents) : **484 nombres distincts côté EN, 4 seulement
+absents du corpus FR du batch**, tous justifiés et vérifiés — les « 7 à 8 % » de frais de notaire
+(ajout EN, chiffre déjà publié par la série `retiring-in-`), le « 17e » d'Occitanie (écrit en
+toutes lettres côté FR), les « 24 Heures » du Mans et le « 26 décembre » férié alsacien. Zéro
+écart de score, zéro écart de montant. `npm run integrity` confirme **0 score brut recopié** des
+deux côtés.
+
+**Écrit en anglais natif depuis les faits des guides FR, aucun chiffre qui n'y soit.**
+`metaTitle` 49-55 caractères, `metaDesc` 117-136, **6 sections par guide** (même découpage que le
+FR, comme les batches 3 et 4 de cette série et contrairement aux batches tourisme qui fusionnent),
+**zéro tiret cadratin dans le corps** (R7.10). Aucun tag nouveau : les 10 réutilisent `occitanie`
+×2, `hauts-de-france` ×2, `reunion`, `pays-de-la-loire`, `auvergne-rhone-alpes`,
+`centre-val-de-loire`, `grand-est`, `nouvelle-aquitaine` — **`TAG_SLUGS_EN` reste à 86**, aucune
+page `/tags/[slug]` créée, donc pas de `sitemap:check` à relancer. `npm run search-index` relancé
+(`data/search-index.en.json` 653 guides, 86 tags).
+
+**Les prudences du FR sont reprises telles quelles et ne doivent pas être diluées** : sur
+Saint-Denis, l'éloignement du réseau de secours familial, la **saison cyclonique** et les
+fermetures décidées la veille au soir, et la **baignade interdite hors bassins surveillés sur la
+côte nord, qui n'a pas de lagon** (risque requin) ; sur Dunkerque, les **horaires postés** de
+l'industrie portuaire posés comme un problème de garde à traiter avant la signature du contrat, et
+la **centrale de Gravelines** signalée comme un périmètre de plan particulier d'intervention sans
+que le site prétende évaluer le risque ; partout, les trois quartiers de `data/neighborhoods.ts`
+sont donnés sur **leur propre échelle**, non comparable au score communal, avec le refus explicite
+de publier une liste noire — même arbitrage que le rejet de la série `quartiers-a-eviter`.
+
+**Sept apports propres au lecteur anglophone**, absents du FR parce qu'inutiles à un lecteur
+français : ① les **DROM sont hors espace Schengen**, donc un visa court séjour Schengen n'ouvre pas
+La Réunion (l'erreur classique, posée dès l'intro) ; ② le permis de conduire UE/EEE y est valable
+tel quel, les autres relèvent de règles d'échange par pays ; ③ la **garantie Visale** comme réponse
+à l'absence de garant français, à préparer avant les visites et non pendant ; ④ le **quotient
+familial CAF** qui tarife cantine et périscolaire, et le statut de parent isolé qui n'est un
+critère prioritaire en crèche **que s'il est déclaré** ; ⑤ les **7 à 8 % de frais de notaire** sur
+l'ancien, ajoutés à chaque prix d'achat cité ; ⑥ la glose du **T3** (pièces hors cuisine et salle de
+bains) et le fait que les bailleurs français appliquent le seuil de revenu à la lettre ; ⑦ les
+liaisons qui comptent quand la famille est à l'étranger et non à trois heures de train — le ferry
+transmanche depuis Dunkerque, l'aéroport partagé près de Mulhouse, le corridor ferroviaire
+Perpignan-Barcelone, et le rappel que pour un parent venu de l'étranger le « réseau de secours »
+est déjà dans un autre pays. Deux particularités locales également glosées : les **deux jours
+fériés alsaciens** (Vendredi saint et 26 décembre) qui décalent les calendriers scolaires à
+Mulhouse, et les **24 Heures** du Mans qui saturent la ville une semaine par an.
+
+**Prochain run** : re-mesurer par série avant de choisir. Au 17/08 le plus gros écart connu est
+`retiring-in-[city]` (**9 EN dont 1 national / 20 FR**), dont le batch 1 du 16/08 note que les
+12 villes FR restantes (Le Puy-en-Velay, Fontainebleau, Challans, Tulle, Pontarlier,
+Saint-Dié-des-Vosges, Château-Gontier, Albertville, Gaillac, Vendôme, Marmande, Saint-Lô) ont un
+intérêt marginal faible pour un lecteur anglophone. `vacances-monoparentales-[ville]-2026`
+(7 FR / 0 EN) reste sans aucune jumelle.
 
 ### Livré le 16/08 — ouverture de la série `retiring-in-[city]-2026` (batch 1, +8)
 

@@ -3215,6 +3215,56 @@
       "slug": "retiring-in-hendaye-2026",
       "title": "Retiring in Hendaye: the mildest winter in this series, and Spain across the bay",
       "emoji": "🌅"
+    },
+    {
+      "slug": "single-parent-in-nimes-2026",
+      "title": "Single Parent in Nîmes (2026): Sunshine Does Not Pay for Schools",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-saint-denis-reunion-2026",
+      "title": "Single Parent in Saint-Denis, Réunion (2026): Prices, the Car, and 9,000 km",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-le-mans-2026",
+      "title": "Single Parent in Le Mans (2026): €1,900 a Square Metre, a Tram, One Income",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-amiens-2026",
+      "title": "Single Parent in Amiens (2026): Good Schools, Low Rent, Safety at 4.5",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-annecy-2026",
+      "title": "Single Parent in Annecy (2026): the Best File Here, and the Least Reachable",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-perpignan-2026",
+      "title": "Single Parent in Perpignan (2026): the Hardest Mainland File Here",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-orleans-2026",
+      "title": "Single Parent in Orléans (2026): the Tram, Paris Close By, €2,800 Net",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-mulhouse-2026",
+      "title": "Single Parent in Mulhouse (2026): the Cheapest Housing Here, and Why",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-poitiers-2026",
+      "title": "Single Parent in Poitiers (2026): the Best Schools-to-Rent Ratio Here",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-dunkerque-2026",
+      "title": "Single Parent in Dunkirk (2026): Free Buses and the Lowest Rent Here",
+      "emoji": "🧑‍🍼"
     }
   ],
   "tags": [
@@ -3231,7 +3281,7 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 80
+      "count": 90
     },
     {
       "slug": "buying-property-france",
@@ -3244,33 +3294,38 @@
       "count": 50
     },
     {
-      "slug": "occitanie",
-      "label": "occitanie",
-      "count": 36
-    },
-    {
-      "slug": "nouvelle-aquitaine",
-      "label": "nouvelle-aquitaine",
-      "count": 33
-    },
-    {
       "slug": "expat-single-parent",
       "label": "expat single parent",
-      "count": 29
+      "count": 39
     },
     {
       "slug": "single-parent-in-france",
       "label": "single parent in france",
-      "count": 29
+      "count": 39
+    },
+    {
+      "slug": "occitanie",
+      "label": "occitanie",
+      "count": 38
+    },
+    {
+      "slug": "nouvelle-aquitaine",
+      "label": "nouvelle-aquitaine",
+      "count": 34
     },
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 25
+      "count": 26
     },
     {
       "slug": "grand-est",
       "label": "grand est",
+      "count": 26
+    },
+    {
+      "slug": "hauts-de-france",
+      "label": "hauts-de-france",
       "count": 25
     },
     {
@@ -3289,11 +3344,6 @@
       "count": 24
     },
     {
-      "slug": "hauts-de-france",
-      "label": "hauts-de-france",
-      "count": 23
-    },
-    {
       "slug": "student-housing-france",
       "label": "student housing france",
       "count": 23
@@ -3306,7 +3356,7 @@
     {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
-      "count": 17
+      "count": 18
     },
     {
       "slug": "provence",
@@ -3384,6 +3434,11 @@
       "count": 9
     },
     {
+      "slug": "centre-val-de-loire",
+      "label": "centre-val de loire",
+      "count": 9
+    },
+    {
       "slug": "cote-d-azur",
       "label": "cote d'azur",
       "count": 9
@@ -3419,9 +3474,9 @@
       "count": 8
     },
     {
-      "slug": "centre-val-de-loire",
-      "label": "centre-val de loire",
-      "count": 8
+      "slug": "reunion",
+      "label": "reunion",
+      "count": 7
     },
     {
       "slug": "visa",
@@ -3456,11 +3511,6 @@
     {
       "slug": "pyrenees",
       "label": "pyrenees",
-      "count": 6
-    },
-    {
-      "slug": "reunion",
-      "label": "reunion",
       "count": 6
     },
     {

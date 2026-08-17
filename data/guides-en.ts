@@ -25778,6 +25778,436 @@ export const EN_GUIDES: EnGuide[] = [
       "expat retirement",
     ],
   },
+
+  {
+    slug: "single-parent-in-nimes-2026",
+    title: "Single Parent in Nîmes (2026): Sunshine Does Not Pay for Schools",
+    metaTitle: "Single Parent in Nîmes 2026: T3 €960, Safety 3.9/10",
+    metaDesc:
+      "Fit 5.3/10, 224th of 363, below the median. T3 at €960, schools 5.3/10, safety 3.9/10: €181 of rent per point. The trade-off, unrounded.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-17",
+    updatedAt: "2026-08-17",
+    intro:
+      "Nîmes has 153,005 inhabitants and scores 5.3/10 on the single-parent composite, 224th of the 363 communes above 20,000 inhabitants, below the ranking's median of 5.5/10. The breakdown: cost of living 5.9/10, transport 6.1/10, schools 5.3/10, safety 3.9/10 (source: data/cities-seed.ts). The average T3, meaning a flat with a living room and two bedrooms since French flats are counted in rooms excluding kitchen and bathroom, rents at €960, and a square metre to buy costs €2,800 (source: data/housing.ts), for an estimated minimum net income of €2,900/month. That is the second-highest rent in this batch behind Annecy, paired with the third-worst school score, which produces the second-worst ratio of the ten. This guide says why the Nîmes case is hard for a lone parent, which is not the same as saying Nîmes is a bad city.",
+    sections: [
+      {
+        heading: "Where the composite drops, and by how much",
+        body: "The composite weights cost 0.30, schools 0.25, safety 0.25, transport 0.20. Nîmes is decent on the two axes carrying 0.50 in total, cost and transport, and weak on the two carrying the other 0.50: schools at 5.3 and safety at 3.9. The 5.3/10 result is therefore an exact average of a genuinely lopsided file, and the average hides the nature of the problem. Safety at 3.9/10 is the second-lowest in this batch behind Perpignan at 3.7, and it carries a quarter of the total on its own. Nîmes is 17th in Occitanie out of 22 eligible communes, well behind Albi at 7.0, Auch at 6.8 and Castres at 6.5, which lead the region on this profile. Inside the Gard it edges out Alès, 5.3 against 5.0. Outside the composite: culture 7.3/10, the best value in this batch, overall score 5.1/10, nature 5.6/10, quality of life 5.1/10, remote-work capacity 5.3/10.",
+      },
+      {
+        heading: "€181 per point of schools: what the rent does not buy",
+        body: "A T3 at €960 for a school score of 5.3/10 gives €181 of rent per point, second from last in this batch, ahead of Perpignan at €193 only. The clearest comparison is internal: Poitiers has a T3 €80 cheaper and a school score 2.1 points higher, so €119 per point against €181. A single parent pays roughly 50 per cent more per point of school provision in Nîmes than in Poitiers, on a higher rent. That gap is not a ranking detail, it is a concrete financial trade-off across a child's whole schooling. What the axis measures matters: municipal provision, the density of schools and the range of subject tracks, not pupil results and not the quality of the teaching, and nothing here judges the staff in post. It says how many doors are open to a parent who cannot move house at will, which is exactly the constraint of a household with one driver.",
+      },
+      {
+        heading: "Safety 3.9/10: the constraint to handle first",
+        body: "3.9/10 is a low score and it shapes the entire method for finding a flat. In practice it means the choice of district is not a preference but the first decision of the project, before the budget, and that a flat picked on rent alone has a markedly higher probability than elsewhere of causing daily problems. That is a constraint on organisation, not a verdict on the city or the people who live there, and the distinction matters. The three districts documented in data/neighborhoods.ts carry safety marks from 5.8 in Pissevin to 7.0 in L'Écusson, on the scale proper to that file, which is neither the communal scale nor comparable to the 3.9/10 city figure. The lowest-marked district is also the one with the cheapest T2, €550 against €720 at Les Arènes: the trade between €170 a month and a daily constraint is head-on, and it has no good general answer. Three districts do not describe a city of 153,000 people, and the site publishes no blacklist: the data is missing at that granularity, and judging a place where real people live demands better than three observations.",
+      },
+      {
+        heading: "The budget: €2,900 net, and the price of sunshine",
+        body: "The estimated minimum net income is €2,900/month for a T3 at €960, the second-highest floor in this batch behind Annecy's €4,150. The other references are a T2 at €720 and a T1 at €520. To buy, €2,800 per square metre puts a 65-square-metre T3 around €182,000 at the average price, the highest in this batch after Annecy. Add roughly 7 to 8 per cent in notaire fees on an existing property, the transfer costs a French buyer pays on top of the price. It is worth naming what those amounts cover: the Mediterranean climate and setting are priced by the market independently of any service rendered to a household. A single parent therefore pays a desirability premium here that shows up neither in school provision nor in the safety score, while weighing on the rent every month. That is a market observation, not a reproach aimed at the city. The practical consequence is simple: if sunshine is the first criterion of the move, the case holds and the budget follows; if it is a bonus, the money buys more elsewhere in this ranking.",
+      },
+      {
+        heading: "What argues for Nîmes",
+        body: "The file is not empty, and honesty requires setting out what works. Culture is 7.3/10, the best value of the ten cities in this batch, ahead of Mulhouse at 6.9 and Saint-Denis de La Réunion at 6.9. For a parent filling every Wednesday and every school holiday alone, dense cultural provision is an avoided expense as much as an amenity, and the Roman remains in the middle of town, the arena and the Maison Carrée, make a free or cheap walking circuit in the centre itself. Transport is 6.1/10, level with Le Mans, Amiens and Dunkerque, carried by a high-service bus network rather than a tram: coverage exists, and you check it on your own routes. Nature is 5.6/10, above this batch's average, with the garrigue scrubland immediately accessible. The city is also well connected by rail, which matters for keeping a link with distant family. For a parent who has moved to France from abroad that point is sharper than for a French reader, since the backup network is already in another country and the nearest airports are reached through Montpellier or Marseille rather than locally.",
+      },
+      {
+        heading: "The verdict: who Nîmes works for",
+        body: "Nîmes works from €2,900 net a month, for a single parent whose job is anchored locally, who puts climate and cultural life at the top of the list, and who can give real time to choosing a district rather than taking the first flat available. On that profile the city holds. It does not work for a parent arbitrating first on schools and safety, because those are its two weakest axes and together they carry half the composite. The internal comparison is blunt: for €80 less rent, Poitiers offers 2.1 more points of schools and 1.8 more points of safety. To stay in Occitanie, Albi comes out at 7.0, first in its region on this profile and inside the national top ten. If the constraint is not a Nîmes job, those options deserve a look before signing. The axis-by-axis detail is on /cities/nimes/single-parent.",
+      },
+    ],
+    relatedCities: ["nimes", "ales", "arles", "avignon", "montpellier"],
+    tags: ["single parent nimes", "single parent in france", "expat single parent", "moving to france", "occitanie"],
+  },
+
+  {
+    slug: "single-parent-in-saint-denis-reunion-2026",
+    title: "Single Parent in Saint-Denis, Réunion (2026): Prices, the Car, and 9,000 km",
+    metaTitle: "Single Parent in Saint-Denis 974 2026: T3 €900, Car",
+    metaDesc:
+      "Fit 4.8/10, 287th of 363. Cost 4.1/10 and transport 4.7/10, the lowest here, on a T3 at €900. The first overseas guide in the series.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-17",
+    updatedAt: "2026-08-17",
+    intro:
+      "Saint-Denis de La Réunion has 153,810 inhabitants, making it the most populous city in this batch, and scores 4.8/10 on the single-parent composite, 287th of the 363 communes above 20,000 inhabitants, well below the ranking's median of 5.5/10. The breakdown: schools 5.5/10, safety 4.9/10, transport 4.7/10 and cost of living 4.1/10, the last two being the lowest of the ten cities here (source: data/cities-seed.ts). The average T3 is €900 and a square metre to buy €2,500 (source: data/housing.ts), for an estimated minimum net income of €2,550/month. Réunion is a French department in the Indian Ocean and an outermost region of the EU: the currency is the euro, the school system and the health system are the national ones, and a French residence permit is valid there. One thing a foreign reader should check before anything else, because it catches people out: the overseas departments are outside the Schengen area, so a short-stay Schengen visa does not admit you, and the entry conditions are their own.",
+    sections: [
+      {
+        heading: "The best file on the island, and what that says",
+        body: "The composite weights cost 0.30, transport 0.20, schools 0.25, safety 0.25. Saint-Denis comes out at 4.8/10, third of the eight eligible Réunion communes, behind Le Tampon and Saint-Pierre at 4.9 and ahead of Saint-Paul at 4.4, Saint-Benoît and Saint-Joseph at 4.3, Saint-Louis at 4.2 and Saint-André at 4.1. The information is double. The spread between island communes is under one point from first to last, so a single parent comparing Réunion communes is comparing close files: the decision turns on the job, the family and the commute, not on the ranking. And no Réunion commune reaches the national median of 5.5, which is a structural fact better named than avoided. The two axes responsible are cost of living and transport. Outside the composite: nature 8.4/10, the best value in this batch after Annecy, quality of life 6.8/10, culture 6.9/10, overall score 5.7/10, remote-work capacity 5.1/10.",
+      },
+      {
+        heading: "Cost of living 4.1/10: the centre of the file",
+        body: "This is the lowest score in the batch on the heaviest-weighted axis, and it explains most of the ranking. A method point matters here: lib/parent-solo.ts relaxes the one-third rent rule to 35 per cent for cities scoring under 5 on cost, which covers Saint-Denis as it covers Annecy. The €2,550 floor shown is therefore already the lenient version of the calculation, and it covers rent alone. The T3 is €900, the T2 €700 and the T1 €490, levels comparable to Amiens or Orléans on the mainland. So the problem is not the rent, it is everything else: a 4.1/10 reflects a higher general price level, which for a one-income household lands on groceries, energy and services, that is, on spending you cannot arbitrate by changing district. Much of what is sold on the island is shipped from Europe, and the freight shows up in the shelf price. The site publishes no per-commune consumer price survey and will therefore quote no basket figure; the aggregate axis is what we hold, and it is clear about the direction.",
+      },
+      {
+        heading: "Transport 4.7/10: the car is not optional",
+        body: "4.7/10 is the lowest transport score in this batch, below Perpignan's 5.5 and far from Mulhouse's 7.0. There is no passenger rail network on the island; urban and intercity service runs on buses, and the relief constrains routes far more rigidly than flat country does. For a single parent the translation is direct and expensive: a car is compulsory infrastructure, with insurance, fuel, maintenance and wear, and that line has to be budgeted as a fixed charge and not as an adjustable variable. It is the real premium of the Réunion file, more than the rent. The three districts documented in data/neighborhoods.ts score between 6.5 and 8.0 on transport on the scale proper to that file, La Montagne being the lowest and the best marked on safety: the trade between quiet heights and dependence on the car to get down is set out by the data itself. Those marks do not compare with the communal score, they sit on a different scale and a different perimeter. One practical note for anyone arriving from abroad: a driving licence from an EU or EEA country is valid as it stands, while licences from elsewhere follow exchange rules that depend on the issuing country, so check yours before you commit to a car.",
+      },
+      {
+        heading: "Schools 5.5/10, safety 4.9/10: mid-table",
+        body: "The school score is 5.5/10, which gives €164 of rent per point, a mediocre ratio, better than Nîmes at €181 and Perpignan at €193, worse than every other city in this batch. School provision in Saint-Denis benefits from a useful structural fact: the city hosts the university and the education authority, which concentrates a large share of the island's provision on the spot, including post-secondary tracks. That counts for more here than on the mainland, where changing académie means taking a train. Safety is 4.9/10, the median value of the batch, better than Amiens, Mulhouse, Dunkerque, Nîmes and Perpignan. The three recorded districts score 7.0 to 8.0 on the internal scale of data/neighborhoods.ts, which does not compare with the communal figure. Three districts do not describe a city of 153,000 people and the site publishes no list of sectors to avoid: the data is missing at that resolution, and a verdict on an inhabited place demands better than three observations. The practical reading is that district choice matters without being the heaviest constraint of the project.",
+      },
+      {
+        heading: "Three island constraints to weigh before deciding",
+        body: "The first is distance, and it is probably decisive for a lone parent. A one-adult household runs largely on the backup network around it, grandparents, siblings, close friends. Settling 9,000 kilometres from that network means rebuilding it entirely on site, and the price of flights means a return trip to Europe is not an improvised fix. That is a constraint to assess before the rent. The second is cyclone season, which runs through the austral summer and brings school closures during alerts: a lone parent needs emergency childcare identified in advance, because those days are decided the evening before. The third concerns swimming. Saint-Denis is on the north coast, where there is no lagoon: outside supervised and equipped bathing areas, swimming in the sea is prohibited because of shark risk, and that rule is not advisory. A parent arriving from abroad cannot guess it and has to plan Wednesdays and weekends accordingly. Set against those, the island runs on French school holidays and the southern-hemisphere seasons, so the long break falls in the austral summer, which is worth knowing before booking flights to see family.",
+      },
+      {
+        heading: "The verdict: who Saint-Denis works for",
+        body: "Saint-Denis works from €2,550 net a month for rent alone, on top of which sit a compulsory car budget and a higher general price level that the 4.1/10 cost axis signals without quantifying. The file holds for a single parent with a real anchor on the island, family, a stable job or roots, and who values what the composite does not measure: 8.4/10 on nature and 6.8/10 on quality of life, two of the best values in this batch, in a setting where outdoor days are possible year-round and cost nothing. It does not hold as an optimisation move from Europe: no Réunion commune reaches the ranking's median, and the cost of the move, and of any move back, is on another scale entirely from a change of region. For a parent comparing island communes, Le Tampon and Saint-Pierre come out marginally ahead at 4.9, and the choice will turn on the job and the commute rather than on that tenth of a point. The axis-by-axis detail is on /cities/saint-denis-reunion/single-parent.",
+      },
+    ],
+    relatedCities: ["saint-denis-reunion", "saint-paul-reunion", "saint-pierre-reunion", "le-tampon", "saint-andre-reunion"],
+    tags: ["single parent saint-denis reunion", "single parent in france", "expat single parent", "moving to france", "reunion"],
+  },
+
+  {
+    slug: "single-parent-in-le-mans-2026",
+    title: "Single Parent in Le Mans (2026): €1,900 a Square Metre, a Tram, One Income",
+    metaTitle: "Single Parent in Le Mans 2026: T3 €870, Buy €1,900/m²",
+    metaDesc:
+      "Fit 6.0/10, 110th of 363. T3 at €870, buying at €1,900 per square metre, tram and high-speed rail. Schools 6.2/10, safety 5.3/10.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-17",
+    updatedAt: "2026-08-17",
+    intro:
+      "Le Mans has 148,141 inhabitants and scores 6.0/10 on the single-parent composite, 110th of the 363 communes above 20,000 inhabitants, half a point above the ranking's median of 5.5/10. The breakdown: cost of living 6.4/10, schools 6.2/10, transport 6.1/10, safety 5.3/10 (source: data/cities-seed.ts). No axis shines, none collapses, and that regularity is what the composite rewards. The average T3 is €870 and a square metre to buy €1,900 (source: data/housing.ts), for an estimated minimum net income of €2,650/month. That purchase price is the second-lowest in this batch behind Mulhouse, and most of what makes Le Mans interesting to a lone parent turns around it.",
+    sections: [
+      {
+        heading: "A file with no hole, which is rarer than it sounds",
+        body: "The composite weights cost 0.30, schools 0.25, safety 0.25, transport 0.20, and it applies an implicit penalty to cities that drop somewhere: one very weak axis costs more than one very strong axis earns. Le Mans sits between 5.3 and 6.4 on all four, which produces an above-median result with no individual performance at all. It is the same mechanism as Poitiers in this batch, one level down. Le Mans is the only commune above 20,000 inhabitants in the Sarthe department in this ranking, so there is no local alternative to compare: the choice is between Le Mans and another region. Across the Pays de la Loire it is 10th of 14, well behind La Roche-sur-Yon, which is first in the entire national ranking at 7.5, Challans at 7.1 and Cholet at 7.0. The other axes: overall score 5.7/10, quality of life 5.5/10, culture 6.2/10, remote-work capacity 5.3/10, nature 4.8/10.",
+      },
+      {
+        heading: "€1,900 a square metre: the central argument",
+        body: "The Le Mans purchase price is €1,900 per square metre, putting a 65-square-metre T3 around €123,500 at the average price. Only Mulhouse does better in this batch at €1,700, and the gap with Annecy at €5,500 gives the measure of what the ranking covers. Budget roughly 7 to 8 per cent on top in notaire fees, the transfer costs due on an existing property. For a single parent, ownership changes the nature of the risk more than the size of the monthly payment. A rent is a variable a landlord can move at lease renewal, and a notice to sell is a calendar constraint that one person absorbs badly when a school year also has to be held together. A mortgage is a fixed charge known in advance, and that point counts most when there is no second income to soak up a surprise. The other side, and it is a real one for anyone arriving from abroad: on a single salary the deposit and the borrowing capacity are the two locks, French lenders assess affordability strictly, and a low price per square metre does not remove those locks, it makes them clearable. Rental references for comparison: T3 €870, T2 €650, T1 €470.",
+      },
+      {
+        heading: "The tram, and what it actually allows",
+        body: "Le Mans scores 6.1/10 on transport, a figure that may understate the city's real advantage on this axis: it has a tram, which Poitiers, Amiens, Perpignan, Dunkerque and Nîmes in this batch do not. The three districts documented in data/neighborhoods.ts all score 7.5 or 7.8 on transport on that file's internal scale, including Pontlieue, which also has the city's cheapest T2 at €620. That is the most favourable configuration for a lone parent, an affordable district linked to the centre by a structuring line, because it decouples the budget decision from the service decision. The city is also well connected to Paris by high-speed rail, in under an hour. As with Orléans, that proximity is an asset when it keeps a Paris salary and a trap when it produces a daily commute paid for in childcare hours. A single parent should cost the childcare before costing the rent gap, in that order. One local particular for a foreign reader: the 24 Hours endurance race brings a large crowd to the city once a year, which is worth knowing if you are house-hunting or booking a room in June.",
+      },
+      {
+        heading: "Schools 6.2/10: what changes with the child's age",
+        body: "The school score is 6.2/10, giving €140 of rent per point, an average ratio here, almost identical to Orléans at €141 and behind Amiens at €136, Mulhouse at €134, Dunkerque at €129 and Poitiers at €119. It is a decent score reflecting the provision of a prefecture of this size, without the bonus of a large university city. The real effect depends heavily on the child's age. At nursery and primary level, local catchment limits the impact and the question reduces to picking a flat in a sector that suits. At collège and lycée, meaning lower and upper secondary, the density of schools and the range of options matter more, and that is where the gap with a city like Poitiers, 1.2 points higher on this axis, becomes tangible. Convention reminder: the schools axis measures municipal provision, not pupil results, and passes no judgement on individual schools or their staff. It says how many doors are open, not what lies behind them. Canteen and after-school care are billed on the CAF income bracket, the family benefits office scale, and single-parent status is a priority criterion on crèche and after-school applications that only applies if you declare it.",
+      },
+      {
+        heading: "Safety 5.3/10: how structuring it is",
+        body: "At 5.3/10 Le Mans is third in this batch, behind Annecy at 7.3 and Poitiers at 5.7, and ahead of Orléans at 5.1. It is a middling score, more favourable than Amiens, Mulhouse or Dunkerque, all at 4.5. Translated into a decision, it means district choice is important without being the tipping point of the project: a flat taken on rent alone is less likely to cause problems here than in Nîmes or Perpignan, where the question has to be handled first. The three recorded districts score 6.8 to 8.0 on safety on the scale proper to data/neighborhoods.ts, the Cité Plantagenêt being the best marked and Pontlieue the lowest and most affordable. Those marks do not compare with the communal score, they sit on another scale and another perimeter. Three districts do not describe a city of 148,000 people and the site publishes no blacklist of sectors: the data does not exist at that resolution, and a verdict on an inhabited district demands better than three observations.",
+      },
+      {
+        heading: "The verdict: who Le Mans works for",
+        body: "Le Mans works from €2,650 net a month to rent, and it works above all for a single parent aiming at ownership on a middling income: at €1,900 a square metre, with a tram linking affordable districts to the centre and Paris under an hour away, the purchase equation is among the most accessible in the ranking for a city of this size. It works less well for anyone putting school provision first, in which case Poitiers offers 1.2 more points on schools for €10 more rent, or for anyone after nature, the weakest axis of the file at 4.8/10. The regional comparison is brutal and worth stating: La Roche-sur-Yon is first in the entire national ranking at 7.5 and Cholet is at 7.0, two Pays de la Loire cities placed well above Le Mans on this precise profile. If the constraint is not geographic, they deserve the detour before signing. The axis-by-axis detail is on /cities/le-mans/single-parent.",
+      },
+    ],
+    relatedCities: ["le-mans", "laval", "angers", "alencon", "tours"],
+    tags: ["single parent le mans", "single parent in france", "expat single parent", "moving to france", "pays-de-la-loire"],
+  },
+
+  {
+    slug: "single-parent-in-amiens-2026",
+    title: "Single Parent in Amiens (2026): Good Schools, Low Rent, Safety at 4.5",
+    metaTitle: "Single Parent in Amiens 2026: T3 €900, Schools 6.6/10",
+    metaDesc:
+      "Fit 5.9/10, 119th of 363. T3 at €900 and schools 6.6/10, so €136 per point. But safety 4.5/10: the trade-off on a single income.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-17",
+    updatedAt: "2026-08-17",
+    intro:
+      "Amiens has 134,057 inhabitants and comes out at 5.9/10 on the single-parent composite, 119th of the 363 communes above 20,000 inhabitants, above the ranking's median of 5.5/10. The detail is more contrasted than the result suggests: cost of living 6.4/10 and schools 6.6/10 pull upward, transport 6.1/10 follows, and safety 4.5/10 weighs heavily since that axis alone carries a quarter of the composite (source: data/cities-seed.ts). The average T3 is €900 and a square metre to buy €2,200 (source: data/housing.ts), for an estimated minimum net income of €2,750/month. The Amiens file has a useful particularity: it is the best school score in this batch after Annecy and Poitiers, obtained at a mid-size-city housing price. What remains is what the other side of the balance costs.",
+    sections: [
+      {
+        heading: "Two axes carrying, one costing",
+        body: "The composite weights cost 0.30, schools 0.25, safety 0.25, transport 0.20. Amiens scores 6.4 and 6.6 on the first two, which together carry 0.55, and 4.5 on safety, which carries 0.25 on its own. The 5.9/10 result is an honest average of a genuinely asymmetric file, and that is more informative than the headline figure. Amiens is 11th in the Hauts-de-France out of 27 eligible communes, behind Laon at 7.0, Soissons at 6.9 and Compiègne at 6.8, three smaller cities in the same region doing distinctly better on this profile. Inside the Somme, Abbeville is ahead at 6.5. Those comparisons are not relocation advice, they place the city: a single parent aiming at northern France with no specific job constraint has better-ranked options within easy reach. The other axes: overall score 5.3/10, culture 6.6/10, quality of life 5.1/10, remote-work capacity 4.8/10, nature 4.2/10, the lowest value in this batch on that axis.",
+      },
+      {
+        heading: "€136 per point of schools: the third-best ratio here",
+        body: "A T3 at €900 for a school score of 6.6/10 gives €136 of rent per point, third best of the ten cities treated here, behind Poitiers at €119 and Dunkerque at €129, and just ahead of Mulhouse at €134. That is the main argument of the Amiens file and it is solid: the city offers the school density of a university prefecture at a housing price comparable metros no longer charge. For reference inside this batch, Nîmes has a T3 €60 more expensive for a school score 1.3 points lower, so €181 per point against €136. The convention applies here as everywhere on this site: the schools axis measures municipal provision, the density of schools and the range of tracks, not pupil results and not the quality of the teaching. It says how many doors are open to a parent who has to choose a collège or a lycée option without being able to move house at will, which is exactly the constraint of a household with one driver. Canteen and after-school fees are set on the CAF income bracket, the family benefits office scale, and single-parent status is a priority criterion on crèche and after-school applications, but only if you declare it.",
+      },
+      {
+        heading: "Safety 4.5/10: what that implies in practice",
+        body: "4.5/10 is a low score and dressing it up serves nobody. In this batch Amiens shares that value with Mulhouse and Dunkerque, and sits above Nîmes at 3.9 and Perpignan at 3.7. Translated into method, it means district choice is not a preference, it is the main decision of the project, and a flat picked on rent alone has a higher probability here than elsewhere of causing daily problems. That is a constraint on organisation, not a verdict on the city or its residents. Across the three districts documented in data/neighborhoods.ts, safety marks run from 6.5 at Étouvie to 8.0 at Henriville, on the scale proper to that file, which does not compare with the communal 4.5/10: two different scales and two different perimeters, and setting them side by side without saying so would mislead. Three districts do not describe a city of 134,000 people. The site publishes no list of districts to avoid, and the reason is constant: the data does not exist at that granularity, and passing a blanket judgement on a place where real people live would demand far better than three observations.",
+      },
+      {
+        heading: "The budget: €2,750 net, and three price levels",
+        body: "The estimated minimum net income is €2,750/month for a T3 at €900, on the one-third rule. The other rental references are a T2 at €680 and a T1 at €490. To buy, €2,200 per square metre puts a 65-square-metre T3 around €143,000 at the average price, an intermediate level in this batch, between Le Mans at €1,900 and Perpignan at €2,300, with roughly 7 to 8 per cent of notaire fees due on top for an existing property. The three documented districts give a clear T2 spread, from €560 at Étouvie to €700 at Saint-Leu, with Henriville at €680. That €140 gap between lowest and highest is about a fifth of the rent, and it is a sum that genuinely counts on one income. The honest reading: in Amiens the cheapest district and the best-marked district on safety are not the same, which puts a head-on trade to a lone parent between €140 a month and a daily constraint. There is no good general answer; there is an answer per situation, and it is taken by visiting at the hours you will actually live there, not at 2pm on a Tuesday. Renting without a French guarantor is the other hurdle for a newcomer: the state-backed Visale guarantee exists precisely for that and is worth arranging before the search, not during it.",
+      },
+      {
+        heading: "Transport, culture and what the composite ignores",
+        body: "Amiens scores 6.1/10 on transport, carried by an urban bus network rather than a tram, unlike Orléans, Le Mans and Mulhouse in this batch. For a lone parent the consequence is that you validate your own routes before signing, school then work, at the real hours, because the coverage of a bus network is judged on a specific line and not on a score. The site holds no frequency data at that scale and will not go further than that statement. Outside the composite, the city has two assets for a parent occupying Wednesdays and holidays alone: a culture score of 6.6/10, level with Orléans and above Le Mans and Dunkerque, and free central heritage, the Gothic cathedral being on the World Heritage list and the hortillonnages, a maze of market gardens on water, forming a walking space right at the city edge. Against that, the nature score of 4.2/10 is the weakest in this batch, and remote-work capacity at 4.8/10 sits low, which limits the option of importing a salary indexed on another job market.",
+      },
+      {
+        heading: "The verdict: who Amiens works for",
+        body: "Amiens works from €2,750 net a month, for a single parent who puts school provision first, who accepts making district choice the first decision of the project rather than the last, and whose job is anchored locally. On that profile the €136 per point of schools is a real argument and the file holds. It works less well for anyone who cannot give time to the search, because the safety score makes that step non-negotiable, or for anyone counting on remote work to import a salary from elsewhere. The most useful comparison is regional rather than national: Compiègne, Soissons and Laon are all better placed in the Hauts-de-France on this profile, and Abbeville is ahead of Amiens inside the Somme itself. If the job constraint allows, those cities deserve a look before concluding. The axis-by-axis detail is on /cities/amiens/single-parent.",
+      },
+    ],
+    relatedCities: ["amiens", "abbeville", "beauvais", "saint-quentin", "compiegne"],
+    tags: ["single parent amiens", "single parent in france", "expat single parent", "moving to france", "hauts-de-france"],
+  },
+
+  {
+    slug: "single-parent-in-annecy-2026",
+    title: "Single Parent in Annecy (2026): the Best File Here, and the Least Reachable",
+    metaTitle: "Single Parent in Annecy 2026: €4,150 Net for a T3",
+    metaDesc:
+      "Fit 6.2/10, 80th of 363. Schools 8.7/10 and safety 7.3/10, the best here. But a T3 at €1,450: the entry floor is €4,150 net a month.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-17",
+    updatedAt: "2026-08-17",
+    intro:
+      "Annecy has 131,282 inhabitants and comes out at 6.2/10 on the single-parent composite, 80th of the 363 communes above 20,000 inhabitants, well above the ranking's median of 5.5/10. The detail is the most lopsided in this batch: schools 8.7/10 and safety 7.3/10, the two best values of the ten cities here, transport 6.4/10, and cost of living 3.1/10, the worst (source: data/cities-seed.ts). The average T3 is €1,450 and a square metre to buy €5,500 (source: data/housing.ts), for an estimated minimum net income of €4,150/month. This guide exists mainly to put that figure on the table. Annecy is the demonstration that a good composite score and a file you can finance on one salary are two different questions, and it is better to know that before crossing a border for a viewing.",
+    sections: [
+      {
+        heading: "A composite that is right and not enough",
+        body: "The composite weights cost 0.30, schools 0.25, safety 0.25, transport 0.20. Annecy takes the maximum penalty on the heaviest weight, 3.1/10 on cost of living, and offsets it with the next two axes: 8.7/10 on schools, and 7.3/10 on safety. Result, 6.2/10, a respectable rank and a misleading conclusion if you stop there. A relative score compares cities with each other; it does not say whether a given income clears the entry threshold. That is exactly what the estimated minimum income is there to correct. Note in passing that lib/parent-solo.ts relaxes the one-third rent rule to 35 per cent for cities scoring under 5 on cost, which is the case here: without that leniency the floor shown would be higher still. In other words, the €4,150 of the Annecy file is already the generous version of the calculation. The other axes: overall score 7.3/10, quality of life 9.0/10, nature 8.9/10, remote-work capacity 8.8/10, culture 6.6/10.",
+      },
+      {
+        heading: "€4,150 net: what that threshold eliminates",
+        body: "The average T3 is €1,450, the T2 €1,100, the T1 €750. A single parent aiming at a T3 therefore needs around €4,150 net a month to hold a conventional rental application, and €3,150 for a T2. Those are not comfortable living budgets, they are acceptance thresholds, and French landlords apply them literally. They put Annecy out of reach for the large majority of one-income situations, including many professional salaries. To buy, €5,500 a square metre puts a 65-square-metre T3 around €357,500 at the average price, double the same flat in Poitiers in this batch and more than three times its Mulhouse equivalent, before roughly 7 to 8 per cent of notaire fees. A method note: data/housing.ts gives an average T2 at €1,100 for the commune, while the three districts documented in data/neighborhoods.ts show €950 in the Vieille-Ville, €750 at Novel and €680 at Cran-Gevrier. The two datasets do not overlap exactly, they share neither perimeter nor reference date, and they should not be added or averaged. What they say together is unchanged: the centre-to-edge gap is larger here than in any other city in this batch.",
+      },
+      {
+        heading: "Schools 8.7/10 and safety 7.3/10: what the money buys",
+        body: "Fairness to this file: what the price buys in Annecy genuinely exists. A school score of 8.7/10 and safety at 7.3/10 mean the two worries that structure a lone parent's daily life, schooling and letting a teenager walk home, weigh distinctly less here than elsewhere. The ratio is €167 of rent per point of schools, bad in absolute terms and yet better than Nîmes at €181 and Perpignan at €193, two far cheaper cities. That is the most honest way of saying Annecy is not expensive for nothing, whereas the Nîmes premium buys no schooling. Across the three recorded districts, safety marks run from 7.0 at Novel to 8.5 in the Vieille-Ville, on the scale proper to data/neighborhoods.ts, which does not compare with the communal score. Three districts do not describe a city of 131,000 people, and the site publishes no per-sector safety verdict: the granularity is missing, and judging a place where real people live demands better than three observations.",
+      },
+      {
+        heading: "The strategies that lower the threshold",
+        body: "Three levers exist and deserve setting out coldly, without promising they suffice. The first is the periphery: Cran-Gevrier has the lowest T2 of the documented districts at €680, and the ranking itself puts Annemasse at 6.4, above Annecy, at the other end of the same department. A parent aiming at the Annecy basin without being able to pay Annecy has a stronger file aiming at Haute-Savoie than at the central commune. The second is cross-border work, which is the structural reason for local prices and not a footnote: the incomes that absorb €1,450 of rent on one salary often come from the Swiss side of the border, with a daily commute a lone parent has to cost in childcare hours before costing in euros. Cross-border employment also carries its own permit and tax rules, and this site holds no data on either, so check them at source rather than assuming they mirror French ones. The third is remote work, and here Annecy has a real argument: 8.8/10 on that axis, by far the best in this batch. A remote post with a salary indexed on another market changes the equation completely, and it is probably the only scenario in which the Annecy file becomes reasonable for a single parent.",
+      },
+      {
+        heading: "Transport 6.4/10: the weak point you do not expect",
+        body: "At 6.4/10, Annecy transport is the third axis of the file and the most disappointing given the price paid. There is no tram, the network is a bus network, and geography constrains everything: a city wedged between a lake and mountains has few traffic corridors, which concentrates flows and lengthens peak-hour trips. For a lone parent the issue is not comfort but margin: when one person covers the school run and then work, fifteen structural minutes of delay are paid every day. The three documented districts score between 7.2 and 9.1 on transport on their own scale, the Vieille-Ville best placed, which points back to the same trade: service is paid for at centre prices. Cycling is a serious local answer, the city being flat along the lake, and the guide car-free-living-in-annecy-2026 covers what is practicable. The other side of the file remains unbeatable on a different plane: 8.9/10 on nature and 9.0/10 on quality of life, the two best scores in this batch, which for a parent occupying every Wednesday and every weekend alone is not a decorative argument.",
+      },
+      {
+        heading: "The verdict: who Annecy works for",
+        body: "Annecy works from €4,150 net a month for a T3, or from €3,150 accepting a T2, which for a parent with two children is a real trade and not a detail. The profile the file holds for is narrow and identifiable: a high income on a single salary, cross-border work or a remote post indexed elsewhere, and priority given to schools and safety over disposable income. For every other profile, the right reading of this guide is to look elsewhere without guilt, because the problem is not organisation, it is arithmetic. Inside this batch, Poitiers offers a school score 1.3 points lower and safety 1.6 points lower for a T3 €570 cheaper, and an entry threshold €1,500 lower. On one income that gap is not comparable to the difference in quality. The axis-by-axis detail is on /cities/annecy/single-parent.",
+      },
+    ],
+    relatedCities: ["annecy", "annemasse", "aix-les-bains", "chambery", "thonon-les-bains"],
+    tags: ["single parent annecy", "single parent in france", "expat single parent", "moving to france", "auvergne-rhone-alpes"],
+  },
+
+  {
+    slug: "single-parent-in-perpignan-2026",
+    title: "Single Parent in Perpignan (2026): the Hardest Mainland File Here",
+    metaTitle: "Single Parent in Perpignan 2026: T3 €870, Schools 4.5",
+    metaDesc:
+      "Fit 5.0/10, 263rd of 363. Schools 4.5/10 and safety 3.7/10, the lowest here, on a T3 at €870. What the cheap rent does not offset.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-17",
+    updatedAt: "2026-08-17",
+    intro:
+      "Perpignan has 121,875 inhabitants and scores 5.0/10 on the single-parent composite, 263rd of the 363 communes above 20,000 inhabitants, half a point below the ranking's median of 5.5/10. The breakdown: cost of living 6.2/10, transport 5.5/10, schools 4.5/10, safety 3.7/10 (source: data/cities-seed.ts). Those last two are the lowest of the ten cities in this batch, and together they carry half the composite. The average T3 is €870 and a square metre to buy €2,300 (source: data/housing.ts), for an estimated minimum net income of €2,650/month. The rent is low, and this guide explains why that is not enough to make a good single-parent file, with the figures that show it.",
+    sections: [
+      {
+        heading: "€193 per point of schools: the worst ratio here",
+        body: "The relation between a T3 rent and the school score gives €193 per point here, the least favourable of the ten cities in this batch. The direct comparison is the most useful: Perpignan and Poitiers have nearly identical T3 rents, €870 against €880, for school scores of 4.5 and 7.4. For ten euros less rent, a single parent loses 2.9 points of school provision, close to two-thirds of a gap. That is the sharpest result in this whole batch and it deserves stating plainly: the Perpignan rent is not low in the sense of giving access to the same thing for less, it is aligned with what the market reckons the city offers. Convention note, valid here as elsewhere: this axis measures municipal provision, the density of schools and the range of tracks, and says nothing about pupil results or the quality of the teaching, neither of which is in question. It measures the number of doors open to a parent who cannot move house at will.",
+      },
+      {
+        heading: "Safety 3.7/10: the lowest score in the batch",
+        body: "3.7/10 is the worst safety score of the ten cities here, below Nîmes at 3.9 and well below Poitiers at 5.7. That axis carries a quarter of the composite, and it shapes method more than any other: district choice becomes the first decision of the project, before the budget, before even the job search if the calendar allows. A flat picked on rent alone has a high probability here of causing a daily problem, and that is a constraint on organisation to build in, not a verdict passed on the city or the people who live there. On safety, the three districts documented in data/neighborhoods.ts show marks from 5.8 at Bas-Vernet to 8.0 at Moulin-à-Vent, on the scale proper to that file, which is not the communal scale and does not compare with the 3.7/10 city figure. The best-marked district is not the most expensive, €700 of T2 against €650 at Saint-Jean, which is useful information. Three districts do not describe a city of 121,000 people, and the site publishes no list of sectors to avoid: the granularity is missing, and a blanket judgement on an inhabited place would demand far better than three observations.",
+      },
+      {
+        heading: "Transport 5.5/10: the second weak point, less visible",
+        body: "Perpignan scores 5.5/10 on transport, the second-lowest value in this batch after Saint-Denis de La Réunion at 4.7, and below Nîmes at 6.1 for a comparable-sized city in the same region. There is no tram, the network is a bus network, and this axis carries 0.20 of the composite. For a single parent the consequence is direct and expensive: when coverage does not span the school, work and return chain, a car becomes compulsory infrastructure rather than a choice, with the insurance, fuel, maintenance and parking that go with it. On one income that line is hard to absorb and it appears nowhere in a rent comparison. The three documented districts score between 6.5 and 7.5 on transport on the file's internal scale, Bas-Vernet the lowest. The check to run before signing a lease is always the same: test the actual line at the actual hours, a Tuesday morning and a Friday evening, not a Sunday.",
+      },
+      {
+        heading: "The budget: €2,650 net, and where the saving goes",
+        body: "The estimated minimum net income is €2,650/month for a T3 at €870, the same level as Poitiers and Le Mans in this batch. The other references are a T2 at €650 and a T1 at €470. To buy, €2,300 a square metre puts a 65-square-metre T3 around €149,500 at the average price, which is not especially low for the rank the city holds: Le Mans is at €1,900, Mulhouse at €1,700 and Dunkerque at €1,800, three better-ranked cities. Cost of living is 6.2/10, decent, and it is the only axis of the file working clearly in the lone parent's favour. The question to ask is then about disposable income: the rent gap with a better-ranked city is modest here, often a few tens of euros, while the score gap on schools and safety runs into whole points. A parent choosing Perpignan to save on housing does not save much; choosing it for the climate, the nearby sea or a family tie changes the nature of the trade and makes it defensible.",
+      },
+      {
+        heading: "What argues for the city",
+        body: "The file has real supports and it would be dishonest to omit them. Nature is 6.1/10, the third-best value in this batch behind Annecy and Saint-Denis de La Réunion: the sea is a few kilometres away, the Pyrenees are reachable within the day, and for a parent who has to fill Wednesdays and school holidays alone those are free or cheap destinations that weigh more than a paid facility. Culture is 6.2/10, a middling value, carried by a living Catalan identity and by markets in the centre. The city is also the gateway to Spain, which opens employment and cross-border possibilities the site does not quantify but which exist, and which matter more to a foreign reader than to a French one: Barcelona and its airport are on the same rail corridor, and for a parent whose family flies in, that changes the practical cost of visits. Finally, inside the department, Perpignan is the only commune above 20,000 inhabitants in this ranking: there is no local alternative to compare, and the choice is between Perpignan and another region, which is not the same decision.",
+      },
+      {
+        heading: "The verdict: who Perpignan works for",
+        body: "Perpignan works from €2,650 net a month, for a single parent with a strong reason to be there: a local job, family on the spot, a tie to Catalan country. On that profile the city is liveable and the budget holds, provided district choice is treated as the first step of the project and not the last. It does not work as an optimisation choice, and that is this guide's main message: a parent comparing cities on paper and picking Perpignan for its rent has the calculation wrong, because the same rent buys 2.9 more points of schools and 2.0 more points of safety in Poitiers. In Occitanie, Albi comes out at 7.0, Auch at 6.8 and Castres at 6.5, three smaller cities placed distinctly better on this precise profile. Perpignan is the hardest mainland file in this batch, and saying so clearly beats letting a parent discover it after the move. The axis-by-axis detail is on /cities/perpignan/single-parent.",
+      },
+    ],
+    relatedCities: ["perpignan", "narbonne", "carcassonne", "ceret", "montpellier"],
+    tags: ["single parent perpignan", "single parent in france", "expat single parent", "moving to france", "occitanie"],
+  },
+
+  {
+    slug: "single-parent-in-orleans-2026",
+    title: "Single Parent in Orléans (2026): the Tram, Paris Close By, €2,800 Net",
+    metaTitle: "Single Parent in Orléans 2026: T3 €930, Tram, Schools",
+    metaDesc:
+      "Fit 6.1/10, 102nd of 363. T3 at €930, schools 6.6/10, transport 6.4/10 and two tram lines. On one income and one driver.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-17",
+    updatedAt: "2026-08-17",
+    intro:
+      "Orléans has 115,754 inhabitants and scores 6.1/10 on the single-parent composite, 102nd of the 363 communes above 20,000 inhabitants, well above the ranking's median of 5.5/10. The four axes hold together: cost of living 6.2/10, schools 6.6/10, transport 6.4/10, safety 5.1/10 (source: data/cities-seed.ts). The average T3 is €930 and a square metre to buy €2,400 (source: data/housing.ts), for an estimated minimum net income of €2,800/month. Orléans is the typical city nobody names spontaneously in a conversation about where to raise a child alone, and which nonetheless lands in the top third of the ranking. Here is what the figures say, including where they are not flattering.",
+    sections: [
+      {
+        heading: "Where the composite holds, and where it bends",
+        body: "The composite weights cost 0.30, schools 0.25, safety 0.25, transport 0.20. Orléans is above 6 on three axes and at 5.1 on the fourth, safety, which carries a quarter of the total. That is the file's only catch, and it is real without being dramatic: 5.1/10 is a median score, comparable with Reims in this ranking, better than the 4.5/10 of Amiens, Mulhouse and Dunkerque in this same batch, and much better than Perpignan's 3.7/10. Orléans is fourth in the Centre-Val de Loire out of 11 eligible communes, behind Dreux, Tours and Chartres. In its own department it is ahead of Olivet at 5.9 and Fleury-les-Aubrais at 5.4, which is worth knowing: the immediate periphery offers no better compromise here than the central city, unlike what you see around Annecy or Poitiers. The other axes: overall score 5.8/10, quality of life 5.5/10, culture 6.6/10, remote-work capacity 5.8/10, nature 4.8/10.",
+      },
+      {
+        heading: "The tram changes the calculation, not just the comfort",
+        body: "Orléans scores 6.4/10 on transport and has a real two-line tram network, which distinguishes it from Poitiers, Amiens, Perpignan and Nîmes in this batch, all bus-only. For a single parent that piece of infrastructure has a direct budget translation. When one person covers the school, work, shopping and return chain, a car is not a comfort, it is permanent backup infrastructure, and it costs real money in insurance, fuel, maintenance and parking. Structuring service covering the daily route is the only thing that makes going without it, or keeping only a small one, credible. The three districts documented in data/neighborhoods.ts show the mesh: the centre scores 8.5 on transport on the scale proper to that file, La Source 8.0 and ZUP Sud 7.5, all three on the tram alignment. Those marks do not compare with the communal 6.4/10, which measures something else on another scale. The message is simply that in Orléans a well-connected flat exists at several price levels.",
+      },
+      {
+        heading: "The budget: €2,800 net, and the Paris effect",
+        body: "The estimated minimum net income is €2,800/month for a T3 at €930, on the one-third rule. The other references are a T2 at €700 and a T1 at €510. To buy, €2,400 a square metre puts a 65-square-metre T3 around €156,000 at the average price, in the upper-middle of this batch, between Amiens at €2,200 and Nîmes at €2,800, plus roughly 7 to 8 per cent in notaire fees on an existing property. The T2 by district runs from €580 at ZUP Sud to €730 in the centre, with La Source at €660. Proximity to the Paris region is the argument most often made for Orléans, and it needs handling carefully in a single-parent decision. It is a real asset when it keeps a Paris job, and therefore a Paris salary, while paying an Orléans rent. It becomes a trap when it turns into a long daily commute: for a lone parent, every hour of travel is an hour of childcare to fund or to ask for, and that budget line is invisible in rent comparisons. The practical rule is simple, cost the childcare before costing the rent gap. If you are arriving without a French guarantor, arrange the state-backed Visale guarantee before you start viewing rather than after.",
+      },
+      {
+        heading: "Schools 6.6/10 and safety 5.1/10: the real trade",
+        body: "The school score is 6.6/10, giving €141 of rent per point, an average ratio in this batch, almost identical to Le Mans at €140 and behind Amiens at €136. As everywhere, this axis measures municipal provision and not what becomes of pupils; it indicates the density of schools and the range of options, and it becomes genuinely discriminating from collège onwards, when the choice of options and the map of schools matter more than at primary level. On safety, 5.1/10 means district choice is a decision to take seriously without being the project's main decision. The three recorded districts score 6.5 to 7.5 on the internal scale of data/neighborhoods.ts, ZUP Sud lowest and cheapest, the centre highest and dearest. That correlation between price and mark is mechanical and says nothing about daily life in those districts. Three districts do not describe a city of 115,000 people, and the site publishes no list of districts to avoid: the data is missing at that granularity, and a verdict on an inhabited place demands better than three observations.",
+      },
+      {
+        heading: "What the city offers outside the four axes",
+        body: "The composite measures four things only, and it is worth looking at what it ignores. Orléans scores 6.6/10 on culture, level with Amiens and above Le Mans and Dunkerque in this batch: for a parent who has to fill Wednesdays and school holidays alone, municipal cultural provision is an avoided expense rather than an amenity. The Loire Valley is on the World Heritage list between Sully-sur-Loire and Chalonnes-sur-Loire, and Orléans sits inside that stretch: the riverbanks are a free, accessible, nearby space, which counts for more than the nature score of 4.8/10 suggests, since that score measures the communal environment in the broad sense. Remote-work capacity is 5.8/10, a decent level that opens the option of a partly remote job without having to move to get it. And the La Source district, built around the university campus and its floral park, offers an uncommon combination on a contained budget: tram service, greenery on the doorstep, and a T2 at €660.",
+      },
+      {
+        heading: "The verdict: who Orléans works for",
+        body: "Orléans works from €2,800 net a month, for a single parent who wants an equipped city without paying metro prices, and who needs to stay within reach of the Paris region for work or for family. That is the profile the file serves best. It works less well for anyone putting safety first in absolute terms, in which case Poitiers offers 0.6 more points on that axis for €50 less rent, or for anyone after accessible nature, the file's weakest axis. The most useful comparison is Tours, at 6.5 fit, in the same region: schools 7.9/10 against 6.6, safety 5.5/10 against 5.1, for a T3 at €940 against €930. On the composite criteria alone Tours dominates Orléans at near-identical budget, and the Orléans argument is then the Paris service and the purchase price per square metre, €2,400 against €2,700. The axis-by-axis detail is on /cities/orleans/single-parent.",
+      },
+    ],
+    relatedCities: ["orleans", "olivet", "fleury-les-aubrais", "blois", "chartres"],
+    tags: ["single parent orleans", "single parent in france", "expat single parent", "moving to france", "centre-val-de-loire"],
+  },
+
+  {
+    slug: "single-parent-in-mulhouse-2026",
+    title: "Single Parent in Mulhouse (2026): the Cheapest Housing Here, and Why",
+    metaTitle: "Single Parent in Mulhouse 2026: T3 €780, Buy €1,700/m²",
+    metaDesc:
+      "Fit 5.9/10, 126th of 363. T3 at €780 and buying at €1,700 per square metre, the lowest here. Transport 7.0/10, safety 4.5/10.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-17",
+    updatedAt: "2026-08-17",
+    intro:
+      "Mulhouse has 108,000 inhabitants and scores 5.9/10 on the single-parent composite, 126th of the 363 communes above 20,000 inhabitants, above the ranking's median of 5.5/10. The breakdown: transport 7.0/10, the best value of the ten cities in this batch, cost of living 6.4/10, schools 5.8/10, safety 4.5/10 (source: data/cities-seed.ts). The average T3 is €780 and a square metre to buy €1,700 (source: data/housing.ts), the two lowest amounts in this whole batch, for an estimated minimum net income of €2,350/month. A T3 under €800 in a city of more than 100,000 people with a tram is a rare combination, and it deserves an explanation of both what it allows and what it covers.",
+    sections: [
+      {
+        heading: "The best transport score in the batch",
+        body: "The composite weights cost 0.30, transport 0.20, schools 0.25, safety 0.25. Mulhouse scores 7.0/10 on that axis, ahead of Annecy and Orléans at 6.4, Nîmes, Amiens, Dunkerque and Le Mans at 6.1, Perpignan at 5.5 and Saint-Denis de La Réunion at 4.7. The city has a tram network and a tram-train link extending the urban network into the neighbouring valley, which is uncommon at this scale. For a single parent this axis is not a comfort criterion: when one person covers the school, work, shopping and return chain, structuring service is the only thing that allows not depending entirely on a car, a cost a one-income household bears badly. The three districts documented in data/neighborhoods.ts all score between 7.5 and 8.0 on transport on the scale proper to that file, including Bourtzwiller, which also has the city's cheapest T2. The other axes: overall score 5.8/10, culture 6.9/10, remote-work capacity 6.3/10, quality of life 5.5/10, nature 5.0/10.",
+      },
+      {
+        heading: "€780 a T3, €1,700 a square metre: the lowest entry floor",
+        body: "The estimated minimum net income is €2,350/month, the second-lowest in this batch behind Dunkerque at €2,250, against Annecy's €4,150. The other rental references are a T2 at €580 and a T1 at €420. To buy, €1,700 a square metre puts a 65-square-metre T3 around €110,500 at the average price, the most accessible amount in this batch, before roughly 7 to 8 per cent of notaire fees on an existing property. For a lone parent, that combination opens ownership to incomes excluded from it almost everywhere else, and it is the most important point of the Mulhouse file. Moving from tenant to owner changes the monthly payment less than it changes the structure of the risk: housing stops being a variable a landlord can move at lease renewal, which counts for more when there is nobody to absorb the shock. The T2 by district runs from €480 at Bourtzwiller to €600 at Nouveau Bassin, with the centre at €560. Only €120 separates dearest from cheapest, meaning that in Mulhouse, unlike Amiens, district choice is not first of all a price decision.",
+      },
+      {
+        heading: "Why it is so cheap, and what that means",
+        body: "A low price is a datum, not a gift, and it is better to know what it reflects. Mulhouse scores 4.5/10 on safety and 5.8/10 on schools, two axes carrying half the composite between them, and that is where the counterpart to cheap housing sits. The €134 of rent per point of schools nevertheless stays good, fourth in this batch behind Poitiers, Dunkerque and Amiens, precisely because the rent is very low: the city does not buy much school provision, but it charges little for it. On safety, 4.5/10 means district choice is the structuring decision of the project and not a comfort adjustment. The three districts recorded in data/neighborhoods.ts score between 6.5 and 7.0 on safety, on a district scale that is not the communal one and does not compare with the 4.5/10 city figure. Three districts do not describe a city of 108,000 people, and the site publishes no per-sector safety verdict: the granularity is missing, and judging an inhabited place demands better than three observations. What can be said without risk is that here, visiting the district at real hours is not optional.",
+      },
+      {
+        heading: "The border: the income lever that changes everything",
+        body: "Mulhouse is a border city, immediately next to Switzerland and Germany, and that position is the factor that can make the file distinctly better than the four axes suggest. The logic is mechanical: an income indexed on the Swiss labour market combined with a T3 at €780 produces disposable income with no equivalent in this batch, and it is exactly the inverse of the Annecy equation, where the same cross-border mechanism pushed local prices to €1,450 a T3. The ranking itself puts Saint-Louis, a Haut-Rhin commune against the Basel border, at 5.7 fit, one notch below Mulhouse. The reservations, stated plainly: the site holds no data on cross-border salaries, on the applicable tax rules or on access conditions to those jobs, and will therefore quote no figure, and anyone counting on that lever should check the permit and tax rules at source before assuming them. For a single parent the decisive question is not the salary anyway but the travel time, because an extra daily hour is an hour of childcare to fund or to ask for, and that line appears in no rent comparison. One practical asset for a foreign reader: the shared airport on the French side near the city gives direct international connections that a city of this size would not otherwise have, which matters when family visits mean a flight.",
+      },
+      {
+        heading: "Schools 5.8/10: the real point to watch",
+        body: "5.8/10 on schools puts Mulhouse in the lower half of this batch, level with Dunkerque, ahead of Saint-Denis de La Réunion at 5.5, Nîmes at 5.3 and Perpignan at 4.5, but behind Poitiers at 7.4, Amiens at 6.6, Orléans at 6.6 and Le Mans at 6.2. The concrete effect depends heavily on the child's age: at nursery and primary level, local catchment limits the reach of the score and the question comes back to choosing the residential sector. At collège and lycée, the density of schools and the range of options weigh more, and that is when the gap with a city like Poitiers, 1.6 points higher, becomes tangible for a parent who cannot move at will. Colmar, in the same department, scores 6.3 fit against Mulhouse's 5.9, which makes it the most direct comparison to run before deciding. Convention reminder: this axis measures municipal provision, not pupil results or the quality of the teaching. Note also that Alsace runs a regional academic calendar quirk of its own, two extra public holidays, Good Friday and 26 December, which are not observed in the rest of France and which affect school and workplace calendars.",
+      },
+      {
+        heading: "The verdict: who Mulhouse works for",
+        body: "Mulhouse works from €2,350 net a month, the lowest floor in this batch after Dunkerque, and it works particularly well for two profiles. The first is the single parent aiming at ownership on a middling income: at €1,700 a square metre with a tram serving the affordable districts, there is no more accessible purchase equation in this batch. The second is the parent working across the border, for whom the gap between income and housing cost is the most favourable of all the cities treated here. It works less well for anyone putting school provision first, the file's weakest axis alongside safety, or for anyone unable to give time to choosing a district. The immediate comparison is Colmar, at 6.3 fit in the same department, and it deserves running before signing. The axis-by-axis detail is on /cities/mulhouse/single-parent.",
+      },
+    ],
+    relatedCities: ["mulhouse", "colmar", "saint-louis-haut-rhin", "belfort", "strasbourg"],
+    tags: ["single parent mulhouse", "single parent in france", "expat single parent", "moving to france", "grand-est"],
+  },
+
+  {
+    slug: "single-parent-in-poitiers-2026",
+    title: "Single Parent in Poitiers (2026): the Best Schools-to-Rent Ratio Here",
+    metaTitle: "Single Parent in Poitiers 2026: T3 €880, Schools 7.4/10",
+    metaDesc:
+      "Fit 6.5/10, 46th of 363. T3 at €880, schools 7.4/10: €119 of rent per point, the best ratio in this batch. On one income.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-17",
+    updatedAt: "2026-08-17",
+    intro:
+      "Poitiers is the smallest city in this batch at 89,250 inhabitants, and the best ranked: 6.5/10 on the single-parent composite, 46th of the 363 communes above 20,000 inhabitants, a point above the ranking's median of 5.5/10. The detail holds across all four axes: cost of living 6.6/10, schools 7.4/10, transport 6.4/10, safety 5.7/10 (source: data/cities-seed.ts). None of those figures is spectacular, and that is precisely what makes the result: the composite penalises cities that drop on one axis heavily, and Poitiers drops nowhere. The average T3 is €880 and a square metre to buy €2,100 (source: data/housing.ts), for an estimated minimum net income of €2,650/month. Here is what those numbers mean concretely when there is one salary and one driver.",
+    sections: [
+      {
+        heading: "Why Poitiers comes 46th of 363",
+        body: "The single-parent composite weights cost 0.30, schools 0.25, safety 0.25, transport 0.20. Those weights are the ones used by the matching City Match profile, and they translate a precise situation: one income, so cost counts more than anything; one driver, so transport genuinely counts; and no second adult to absorb a school emergency or a district that turns out badly. Poitiers scores 6.6/10 on the heaviest axis and 7.4/10 on schools, enough to carry it above three quarters of the ranking without being first anywhere. That mechanism is worth understanding before reading any ranking on this site: a regular city beats a brilliant, lopsided one. Poitiers is fourth in Nouvelle-Aquitaine out of 28 eligible communes, behind Anglet, Brive-la-Gaillarde and Châtellerault, which edges it at 6.5 as well. Its other axes, outside the composite: overall score 6.1/10, quality of life 5.9/10, culture 6.2/10, nature 5.0/10, remote-work capacity 5.8/10.",
+      },
+      {
+        heading: "€119 of rent per point of schools: the best of the lot",
+        body: "The ratio that interests a single parent is not the rent, nor the school score taken alone, but what a point of schools costs. In Poitiers, a T3 at €880 for a score of 7.4/10 gives €119 of rent per point. That is the best of the ten cities in this batch, ahead of Dunkerque at €129, Mulhouse at €134 and Amiens at €136, and far ahead of Perpignan at €193. In practice: for the same rent, the same money buys more school provision here than elsewhere. Watch what it measures: the schools axis describes municipal provision, the density of schools and the range of tracks, not pupil results and not the quality of the teaching. A good school score promises nothing about one particular child. It says that in Poitiers a parent choosing a collège or a lycée option will have more doors open than in Perpignan, at near-identical housing budget, the two cities being at €880 and €870 of T3. Canteen and after-school care are billed on the CAF income bracket, the family benefits office scale, and single-parent status is a priority criterion on crèche and after-school applications that only counts if declared.",
+      },
+      {
+        heading: "The budget: €2,650 net, and what it leaves",
+        body: "The minimum net income estimated by lib/parent-solo.ts is €2,650/month, on the one-third rule applied to the average T3 of €880. It is a feasibility threshold, not a budget: it says from what income a conventional landlord does not block the application. Below it, alternatives exist and are prepared in advance, the state-backed Visale guarantee, which also solves the problem of having no French guarantor when you arrive from abroad, social housing, or sharing with another single parent. They are asked for before the move, not after. The other rent references are a T2 at €660 and a T1 at €480. The purchase price is €2,100 a square metre, putting a 65-square-metre T3 around €137,000 at the average price, plus roughly 7 to 8 per cent of notaire fees. For a lone parent, the switch to buying changes the monthly payment less than it changes the structure of the risk: housing stops being a variable the landlord can move at lease renewal. Across the three districts documented in data/neighborhoods.ts, the T2 runs from €640 at Pont Achard to €680 in the historic centre, with Buxerolles at €660. The spread is small, which is itself information: in Poitiers, changing district does not change the budget, it changes the way you live.",
+      },
+      {
+        heading: "Safety 5.7/10: decent, no more",
+        body: "At 5.7/10, Poitiers is the best marked in this batch on safety after Annecy and its 7.3/10. It is an upper-middle score, not a comfortable one, and it is better read as such. Concretely it means district choice remains a comfort decision and not a structuring decision of the project, which is true neither in Nîmes nor in Perpignan in this same batch. The three districts recorded in data/neighborhoods.ts score between 7.8 and 8.2 on safety on their own scale. That scale is distinct from the communal one and does not compare with the 5.7/10 city figure: three districts chosen among the best identified in a city of 89,000 people do not describe that city, and the site publishes no blacklist of districts. The granularity is missing, and a verdict on a place where real people live demands better than three observations. What can be said without error: the question does not arise here with the same urgency as elsewhere, and a flat picked on rent alone is less likely to cause problems.",
+      },
+      {
+        heading: "Getting around, and the university effect",
+        body: "Poitiers scores 6.4/10 on transport, a decent figure for a city of this size, carried by an urban bus network rather than a tram. The practical consequence is clear: living without a car is possible from the centre and the served districts, but the mesh is that of a mid-size city and you test it on your own routes, school then work, before signing. The historic centre and Pont Achard score 8.0 and 7.5 respectively on transport on the scale of data/neighborhoods.ts, Buxerolles 7.0, reflecting the distance of a neighbouring commune. The university weighs heavily in the local equation and not only for students: it explains part of the school provision, the cultural activity and the rental market, and it produces a side effect useful to a lone parent, the availability of occasional babysitting. Futuroscope is reachable from Poitiers without being located there, it belongs to Chasseneuil-du-Poitou. On the nature axis the city is at 5.0/10, the weakest value in its file: this is not an outdoor city, it is a compact and walkable one. High-speed rail puts Paris within easy reach, which matters mainly for airport access when family visits from abroad.",
+      },
+      {
+        heading: "The verdict: who Poitiers works for",
+        body: "Poitiers works from €2,650 net a month, for a single parent who puts school provision first and accepts a city with no showmanship. That is the profile the ranking rewards and the file is coherent end to end: nothing exceptional, nothing that jams. It works less well for anyone after a deep job market, nature at the foot of the building, or metro-grade service. The honest comparison inside the batch is Orléans, at 6.1 fit, with a tram, better service towards Paris and a T3 at €930, so €50 more for a school score 0.8 points lower. On the composite criteria alone, Poitiers wins. If the main constraint is staying within reach of the Paris region, Orléans takes the advantage back. And for a parent aiming first at the entry price, Châtellerault shows the same 6.5 fit 40 kilometres away, in the same department. The axis-by-axis detail is on /cities/poitiers/single-parent.",
+      },
+    ],
+    relatedCities: ["poitiers", "chatellerault", "niort", "angouleme", "la-rochelle"],
+    tags: ["single parent poitiers", "single parent in france", "expat single parent", "moving to france", "nouvelle-aquitaine"],
+  },
+
+  {
+    slug: "single-parent-in-dunkerque-2026",
+    title: "Single Parent in Dunkirk (2026): Free Buses and the Lowest Rent Here",
+    metaTitle: "Single Parent in Dunkirk 2026: T3 €750, Free Buses",
+    metaDesc:
+      "Fit 5.7/10, 158th of 363. T3 at €750 and a €2,250 entry floor, the lowest here. Buses free since 2018, safety 4.5/10.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-17",
+    updatedAt: "2026-08-17",
+    intro:
+      "Dunkerque, which English speakers usually call Dunkirk, has 90,000 inhabitants and scores 5.7/10 on the single-parent composite, 158th of the 363 communes above 20,000 inhabitants, just above the ranking's median of 5.5/10. The breakdown: cost of living 6.4/10, transport 6.1/10, schools 5.8/10, safety 4.5/10 (source: data/cities-seed.ts). The average T3 is €750 and a square metre to buy €1,800 (source: data/housing.ts), for an estimated minimum net income of €2,250/month, the lowest entry floor of the ten cities in this batch. To that figure add something that appears in none of our axes and yet weighs heavily on a one-income budget: the buses across the urban area have been free for everyone since 2018. Here is what the whole adds up to.",
+    sections: [
+      {
+        heading: "€2,250 net: the lowest entry floor in the batch",
+        body: "The minimum net income estimated by lib/parent-solo.ts is €2,250/month for a T3 at €750, on the one-third rule. It is the most accessible amount in this batch, ahead of Mulhouse at €2,350 and far ahead of Annecy at €4,150. The other rental references are a T2 at €560 and a T1 at €400, the latter being the lowest rent of every city treated here. To buy, €1,800 a square metre puts a 65-square-metre T3 around €117,000 at the average price, the second-lowest in this batch behind Mulhouse, before roughly 7 to 8 per cent of notaire fees on an existing property. For a single parent, that threshold changes the nature of the question: in most cities the issue is whether the application clears; here it clears for a wide range of one-salary situations, and the issue goes back to whether the city suits. That is a rare position in this ranking and it deserves stating clearly before the weak points of the file, which are real.",
+      },
+      {
+        heading: "Free buses: a budget line that disappears",
+        body: "The bus network of the Dunkirk urban area has been free for all users since 2018. Our transport axis, at 6.1/10, measures the quality and coverage of the service and does not take its price into account: that score is therefore read independently of the free fares, which come on top. For a one-income household the effect is direct. A transport pass for one adult and one or two school-age children is a fixed monthly expense in every other city in this batch, and here it is zero. There is a less visible but real second effect for a lone parent: when travelling costs nothing at the point of use, an extra trip stops being a trade-off, which counts when one person chains the school run, work, shopping and a Wednesday activity. The honest reservation: free fares do not replace coverage, and a free network badly oriented relative to your own routes is still useless. The check to run before signing is the same as everywhere, test the school and work line at the real hours.",
+      },
+      {
+        heading: "Safety 4.5/10 and schools 5.8/10: the counterpart",
+        body: "Those two axes carry half the composite between them and they are the file's two weak points. At 4.5/10 on safety Dunkirk is level with Amiens and Mulhouse in this batch, above Nîmes at 3.9 and Perpignan at 3.7, below Le Mans at 5.3 and Poitiers at 5.7. Translated into method, that means district choice is the main decision of the project and not a last-minute adjustment. On safety, the three districts documented in data/neighborhoods.ts show marks from 6.5 to 7.5, on the scale proper to that file, which is not the communal scale and does not compare with the city score. Three districts do not describe a city of 90,000 people, and the site publishes no list of sectors to avoid: the data does not exist at that resolution, and judging a place where real people live would demand better than three observations. On schools, 5.8/10 gives €129 of rent per point, the second-best ratio in this batch behind Poitiers at €119: provision is modest, but it is cheap to reach. As always, this axis measures municipal provision and not pupil results.",
+      },
+      {
+        heading: "The sea, the carnival, and what costs nothing",
+        body: "The composite ignores what fills Wednesdays and school holidays, and that is a blind spot to compensate by hand when you are alone in filling them. Dunkirk shows 5.0/10 on nature and 5.9/10 on culture, middling values that do not fully reflect the local situation. The Malo-les-Bains district is a seaside resort built into the city, with a sand beach reachable without a car and without a ticket, and that is the most useful datum in the file for a single parent: a free destination, close, usable year-round, requiring neither booking nor budget. The carnival also structures a large part of local collective life over several weeks in winter, and it is a genuinely participatory one rather than a spectator event, which matters when you are new in town and looking for a way in. Against that, the remote-work score is 4.8/10, in the lower half, which limits the hypothesis of a remote job indexed on another market. The T2 by district runs from €500 at Fort-Mardyck to €580 at Malo-les-Bains, with the centre at €540, a narrow spread meaning that living near the beach is not charged at a premium here. One practical point for a British reader in particular: the port carries a cross-Channel ferry link to England, which makes visits from family on the other side cheaper and simpler than from most of France.",
+      },
+      {
+        heading: "The industrial context, said plainly",
+        body: "Dunkirk is a port and an industrial basin, and two elements deserve stating without detour because they are part of the decision. The first is employment: port and industrial activity is the base of the local economy, which gives real openings in logistics, maintenance and industry, sectors often organised in shift work. For a single parent, a three-shift post poses a childcare problem that is not theoretical and that has to be examined before accepting a contract, not after. The second is the Gravelines nuclear power station, located inside the Dunkirk urban community. The site publishes no risk assessment at that scale and will therefore not pretend to settle the question, but a parent moving in has the right to know they are entering the perimeter of a specific emergency plan and to check the applicable instructions with official sources, including the distribution of iodine tablets. The relevant sources are the prefecture of the Nord and the national nuclear safety authority, not us.",
+      },
+      {
+        heading: "The verdict: who Dunkirk works for",
+        body: "Dunkirk works from €2,250 net a month, and it is the best file in this batch for a single parent whose main constraint is income. The trio of low rent, low purchase price and free transport produces disposable income few cities of this size can match, and the sea within walking distance settles part of the Wednesday question with no budget. It works less well for anyone putting school provision first, at 5.8/10, or for anyone wanting to avoid having to choose a district carefully, which the safety score makes necessary. In the Nord department, Cambrai at 6.4 and Lille at 6.3 are better ranked, but Lille costs €330 more a month on the T3, which moves the entry floor from €2,250 to €3,250. That is the sharpest trade in the file: in Dunkirk you buy disposable income and you pay in school provision. The axis-by-axis detail is on /cities/dunkerque/single-parent.",
+      },
+    ],
+    relatedCities: ["dunkerque", "calais", "saint-omer", "boulogne-sur-mer", "lille"],
+    tags: ["single parent dunkirk", "single parent in france", "expat single parent", "moving to france", "hauts-de-france"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed
