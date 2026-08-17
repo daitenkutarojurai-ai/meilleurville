@@ -243,6 +243,7 @@ npm run dev          # http://localhost:3000 (Turbopack)
 npx tsc --noEmit     # strict TS pass (currently clean)
 npm run integrity    # gardes de lib/data-integrity + contrôle des scores cités dans les guides (bruts vs rendus) hors build — 2 s. **À LANCER AVANT DE POUSSER UN BATCH DE CONTENU.**
 npm run sitemap:check # sitemap ↔ arbre de routes, dans les deux sens, les deux locales — 22 s. **À LANCER APRÈS TOUTE NOUVELLE ROUTE.** Exécute app/sitemap.ts et les generateStaticParams() réels : URL déclarée sans page (le défaut biodiversité du 06/08, 604 x 404), page indexable sans URL (F61, expat-retour), doublons, origine, lastModified, chunk > 50 000.
+npm run coast        # data/city-coast.json : distance à la mer ouverte des 540 villes (Natural Earth, ~5 s, egress requis)
 npm run build        # full SSG build — 56 185 pages, ~15 min (le « ~3 000 » historique est très obsolète)
 npm run lint         # 231 errors / 27 warnings (mostly @next/next/no-html-link-for-pages — harmless under output:"export" — plus residual react/no-unescaped-entities; none are runtime bugs). See latest docs/audit-*.md for the rule breakdown.
 ```
@@ -890,6 +891,31 @@ R7.2 (méthodologie section already absent), R7.9 (string + soft-fallback shippe
 - **R8.3 Verticale S'installer** — `/villes/[slug]/s-installer` shipped, `/villes/[slug]/agenda` shipped, portraits-types fictivement étiquetés ("Personnages fictifs · Illustratif uniquement" + disclaimer en bas de page). **R8.3 complet.**
 
 R8.1 City Match (`/city-match` + `lib/city-match.ts`) shipped.
+
+**Refonte du barème 2026-08-17, sur retour lecteur** — « grandes métropoles » sortait Céret
+(7 800 hab.), Le Puy et Limoux. Chaque critère rend désormais un *fit* centré converti par un poids
+explicite (`W` en tête de fichier) ; le score global de la ville n'est plus la base mais une ancre
+de départage à 1,8. Trois points à ne pas défaire :
+- **Ne pas revenir à un test en escalier.** « Chaud » ne primait qu'à 24 °C **et** 2 000 h de
+  soleil : Bordeaux (23 °C, 2 065 h) comptait comme Lille. Les barèmes sont continus, et `axisFit`
+  est volontairement **non borné** — un plafond mettait Obernai (sécurité 8,6) et Fontainebleau
+  (8,1) à égalité et l'ordre entre elles devenait celui du seed.
+- **Le littoral se lit dans `lib/city-coast.ts`, jamais dans les tags.** L'ancien `isCoastal`
+  comparait par sous-chaîne : « sport » contient « port », donc Grenoble, Clermont-Ferrand,
+  Saint-Étienne et Tarbes étaient côtières, comme « côte-d'or » et « porte des alpes » ; le repli
+  `elevation <= 15 m` ajoutait les ports fluviaux. `data/city-coast.json` (via `npm run coast`)
+  porte la distance à la **mer ouverte** — filtre de largeur d'eau, donc un fleuve de 500 m n'est
+  pas la mer : La Rochelle 0,1 km, Bordeaux 19,4 km, Nantes 25,5 km, Rouen 57 km.
+- **`caveat` doit rester affiché.** Une combinaison peut être insatisfiable (aucune commune
+  française de plus de 200 000 hab. n'est en montagne) ; la fiche dit ce que la ville rate
+  (« mais 7 800 habitants ») au lieu de laisser l'arbitrage passer pour un bug.
+
+⚠️ Le permalien voyage en **query** (`/city-match?r=<code>`) et son séparateur est un **point**.
+`/city-match/r/<code>` n'a jamais existé — tout lien partagé tombait en 404 — et le tiret cassait
+le découpage positionnel dès que `single-parent` était la réponse d'étape de vie. Les libellés
+restent français dans la lib et sont traduits par `translateReason()` dans
+`app/city-match/CityMatchQuiz.tsx` : **tout nouveau libellé demande sa règle**, sinon il part en
+français sur bestcitiesinfrance.com.
 
 ### Plateforme communautaire (R9)
 R9.1 (`/auth` + `/connexion`, Supabase), R9.2 (`/favoris` + `/dashboard`), R9.3 (alertes: `lib/alertes-store.ts` + `POST /api/alertes/subscribe` + cron Mon 08:00 UTC + `components/AlerteForm.tsx` in CityProfile), R9.4 (`/villes/[slug]/questions` + EN `/cities/[slug]/questions`), R9.5 (`/projection-5ans`) shipped.
