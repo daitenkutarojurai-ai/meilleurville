@@ -429,6 +429,15 @@ export default function CityGrowthHubPage() {
               </div>
             </Card>
           </Link>
+          <Link href="/red-flags/villes-qui-se-vident" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">🏚️</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">Villes qui se vident</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">
+                L&apos;autre bout du classement : le recul confirmé sur les deux recensements
+              </div>
+            </Card>
+          </Link>
           <Link href="/carte" className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-2xl mb-1">🗺️</div>

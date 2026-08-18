@@ -348,10 +348,17 @@ export default async function DemographiePage({ params }: Props) {
           </Link>
         </div>
 
-        <div className="mt-8 text-sm">
-          <Link href="/demographie" className="text-[var(--accent)] hover:underline">
-            → Classement national démographique
-          </Link>
+        <div className="mt-8 text-sm space-y-2">
+          <div>
+            <Link href="/demographie" className="text-[var(--accent)] hover:underline">
+              → Classement national démographique
+            </Link>
+          </div>
+          <div>
+            <Link href="/red-flags/villes-qui-se-vident" className="text-[var(--accent)] hover:underline">
+              → Les villes dont la population recule depuis 2011
+            </Link>
+          </div>
         </div>
       </section>
 

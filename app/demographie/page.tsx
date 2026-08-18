@@ -266,6 +266,13 @@ export default function DemographyHubPage() {
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Palmarès brut : villes qui gagnent (et perdent) des habitants</div>
             </Card>
           </Link>
+          <Link href="/red-flags/villes-qui-se-vident" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">🏚️</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">Villes qui se vident</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">Le recul de population confirmé sur 2011, 2016 et 2022</div>
+            </Card>
+          </Link>
           <Link href="/cadre-de-vie" className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-2xl mb-1">🌿</div>

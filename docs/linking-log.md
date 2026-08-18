@@ -22,3 +22,4 @@ Une ligne par run de l'agent de maillage. Format :
 - 2026-08-11 app/expat-retour/page.tsx (5 liens ajoutés — hub 19 pays, footer seul en entrant contextuel)
 - 2026-08-13 app/parcs/page.tsx (5 liens ajoutés — hub F59, Navbar seule en entrant depuis le 27/07)
 - 2026-08-16 app/vivre-avec/page.tsx (6 liens ajoutés — hub + 6 tranches de salaire dans le sitemap mais zéro entrant sur tout le site FR : ni Navbar, ni Footer, ni /sommaire, ni /outils)
+- 2026-08-18 app/red-flags/villes-qui-se-vident/page.tsx (5 liens ajoutés — thème du 12/08, aucun entrant contextuel : seule la grille générée de /red-flags y menait, quand son pendant /villes-qui-grandissent en compte 6)

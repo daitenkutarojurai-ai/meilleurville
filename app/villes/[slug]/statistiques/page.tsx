@@ -276,6 +276,18 @@ export default async function StatistiquesPage({ params }: Props) {
               >
                 comparer au reste de la France
               </Link>
+              {trend.direction === "baisse" ? (
+                <>
+                  {" "}
+                  ·{" "}
+                  <Link
+                    href="/red-flags/villes-qui-se-vident"
+                    className="text-[var(--accent)] hover:underline"
+                  >
+                    ce que change un recul durable
+                  </Link>
+                </>
+              ) : null}
             </p>
           )}
           <p className="text-xs text-[var(--text-tertiary)]">

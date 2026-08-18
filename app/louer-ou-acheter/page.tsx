@@ -169,6 +169,17 @@ export default function LouerOuAcheterIndexPage() {
         </p>
 
         <p className="mt-4 text-sm text-[var(--text-secondary)] leading-relaxed">
+          L&apos;autre angle mort de l&apos;achat sur ces marchés très abordables est la sortie :
+          un ratio favorable suppose qu&apos;on retrouve un acheteur au terme prévu. Le classement
+          des{" "}
+          <Link href="/red-flags/villes-qui-se-vident" className="text-[var(--accent)] underline hover:no-underline">
+            communes qui perdent des habitants d&apos;un recensement à l&apos;autre
+          </Link>
+          {" "}sert précisément à repérer celles où le prix bas tient moins à la géographie
+          qu&apos;au nombre de candidats — et où la revente se compte en trimestres.
+        </p>
+
+        <p className="mt-4 text-sm text-[var(--text-secondary)] leading-relaxed">
           Le ratio arbitre entre deux façons de se loger, pas entre deux villes : il ignore les
           courses, les transports et les charges, qui pèsent souvent plus lourd que l&apos;écart
           loyer-mensualité. Nos{" "}
