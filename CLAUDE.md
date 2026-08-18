@@ -618,6 +618,77 @@ Bron** (Métropole de Lyon). Rappel utile pour Bron : le batch 28 a établi que 
 Camus et le fort de la ceinture lyonnaise sont à Bron**, pas à Vénissieux — le guide Bron doit les
 reprendre, et le guide Vénissieux ne doit pas être « corrigé » en sens inverse.
 
+**Batch 32 — FR, shipped 2026-08-18 : Le Lamentin (972), Baie-Mahault (971), Saint-Louis (974),
+Saint-Joseph (974), Les Sables-d'Olonne, Vincennes.** Ce batch **clôt la couverture outre-mer côté
+FR : les 18 villes DROM du seed ont désormais leur guide tourisme**, et il corrige au passage une
+erreur de vérification du batch 31.
+⚠️ **Saint-Louis (Réunion) EST dans `CITIES_SEED`** — sous le slug **`saint-louis-reunion-974`**, pas
+`saint-louis-reunion`. Le batch 31 avait cherché le second, ne l'avait pas trouvé et en avait conclu
+que la ville était absente du seed : elle ne l'a jamais été. Leçon générale, la même qu'ailleurs dans
+ce fichier : **une absence se constate en listant, pas en testant un slug deviné** (`CITIES_SEED.find`
+sur une liste imprimée, pas un `grep` sur une intuition).
+Les deux villes métropolitaines sont un **écart assumé avec la liste de gisements laissée par le
+batch 28** (Villenave-d'Ornon, Talence, Le Bouscat, Vaulx-en-Velin, Saint-Priest, Bron), au nom de la
+correction de méthode du batch 26 : on choisit par **matière touristique réelle**, pas par inertie de
+liste. Les Sables-d'Olonne — port de départ du Vendée Globe, station balnéaire de référence de la
+Vendée — et Vincennes — seule résidence royale médiévale conservée d'Île-de-France, au terminus de la
+ligne 1 — étaient les deux plus gros trous du corpus, très au-dessus de trois banlieues bordelaises.
+Ces six-là restent en piste pour un batch FR ultérieur.
+**Compteurs mesurés : FR 213 (`-a-` strict 206 + 5 en `au-` + 2 en `aux-`), EN 207 ; `GUIDES` 967 →
+973.** `metaTitle` 37-50 caractères, `metaDesc` 143-159, 10 sections par guide, densité d'accents
+0,139-0,174 (seuil de détection ascii-strip : 0,09). `npm run search-index` relancé
+(`data/search-index.json` 973 guides, 241 tags) et **`npm run sitemap:check` repassé** — le tag
+`que faire en Guadeloupe` a franchi le seuil des 3 guides et crée `/tags/que-faire-en-guadeloupe`.
+⚠️ **Deux nouveaux slugs hors gabarit** : `10-choses-a-faire-**au**-lamentin-2026` et
+`10-choses-a-faire-**aux**-sables-d-olonne-2026`. Le compte réel se prend toujours avec
+**`grep -c 'slug: "10-choses-a-faire-a[ux]*-.*-2026"'`**, et la table de correspondance à appliquer
+avant tout `comm` s'allonge : `puy-en-velay`→`le-puy-en-velay`, `tampon`→`le-tampon`,
+`francois`→`le-francois`, `robert`→`le-robert`, `abymes`→`les-abymes`, `lamentin`→`le-lamentin`,
+`sables-d-olonne`→`les-sables-d-olonne`.
+⚠️ **Ces slugs à article rendaient leur propre guide invisible sur la page de la ville — corrigé ce
+run.** `app/villes/[slug]/a-faire/page.tsx` ne cherchait que `10-choses-a-faire-a-${slug}-2026`, et
+`guideCityPhoto()` (`lib/city-images.ts`) n'acceptait le rapprochement que sur le slug de seed entier :
+les **7** guides concernés n'avaient donc ni carte « guide en vedette » ni photo d'en-tête, en silence,
+depuis le batch 22. Les deux sites tentent désormais les formes contractées `au-`/`aux-` sur le slug
+privé de son article. L'élision **exige la présence de l'article contracté** dans le slug du guide
+(`-au-<stem>-` / `-aux-<stem>-`) et non le seul radical : rapprocher sur `-rochelle-` ou `-havre-`
+ouvrirait la porte aux faux positifs que le commentaire de `guideCityPhoto` interdit depuis l'origine.
+Six faits ont été **vérifiés en ligne avant rédaction** et portent les guides : l'église
+Saint-Jean-Baptiste de Baie-Mahault est une **Ali Tur** de 1931 en béton armé, **classée MH en 2017**,
+reconstruite après le cyclone de 1928 ; le **temple du Gol** de Saint-Louis est le **plus ancien temple
+hindou de La Réunion**, élevé en 1856 par des engagés indiens, **inscrit MH en 1996** ; l'**église
+Saint-Louis de Vincennes** (1914-1924, Droz et Marrast, béton armé, **classée MH en 1996**) porte des
+fresques de Maurice Denis ; le **MASC** des Sables conserve les plus grandes collections publiques
+**Chaissac** et **Brauner** ; le **gecko vert de Manapany** (*Phelsuma inexpectata*) est endémique du
+seul littoral sud de La Réunion et en danger critique ; et **La Favorite**, fondée en 1842 et toujours
+mue à la vapeur, a bien une **adresse au Lamentin** tout en étant à la limite de Fort-de-France.
+Trois prudences assumées dans la copie, à ne pas diluer : ① **le bois de Vincennes n'est pas à
+Vincennes** — il appartient à la Ville de Paris et relève du 12ᵉ arrondissement, donc Parc floral,
+zoo, hippodrome, arboretum et Cartoucherie sont écrits « **accessibles depuis** », même traitement que
+le Jardin d'acclimatation au batch 26 ; la section 7 le dit explicitement plutôt que de laisser le
+lecteur le croire ; ② la règle réunionnaise est répétée dans les deux guides 974 avec sa précision
+géographique — **pas de lagon devant Saint-Louis, pas de lagon dans le sud** — et les arrêtés de
+baignade de la rivière Langevin sont donnés comme **variables et affichés sur place**, jamais résumés
+en « c'est autorisé » ; ③ le **chlordécone** est nommé dans le guide Lamentin comme un fait
+documenté de la plaine agricole, sans chiffre et sans verdict. Aucun horaire, tarif ni hauteur n'est
+cité, à la seule exception des ~52 m du donjon de Vincennes et des ~995 ha du bois, qui sont des
+constantes publiées.
+Écart FR→EN après ce batch : **6 villes** (le-lamentin, baie-mahault, saint-louis-reunion-974,
+saint-joseph-reunion, les-sables-d-olonne, vincennes) — au seuil de ~6, donc **le prochain run doit
+être un batch EN**. Nommage anglais à surveiller : garder l'article sur
+`things-to-do-in-le-lamentin-2026` et `things-to-do-in-les-sables-d-olonne-2026` (comme
+`things-to-do-in-le-tampon-2026`), et **désambiguïser les deux 974** —
+`things-to-do-in-saint-louis-reunion-2026` et `things-to-do-in-saint-joseph-reunion-2026`, sur le
+modèle déjà en place de `saint-denis-reunion` / `saint-andre-reunion` / `saint-benoit-reunion`.
+Attention : le seed écrit `saint-louis-reunion-**974**`, mais le suffixe numérique n'a pas à passer
+côté EN, où aucun autre slug ne le porte.
+Pour le batch FR **suivant**, l'outre-mer est épuisé : reprendre les six banlieues de province laissées
+intactes ici (Villenave-d'Ornon, Talence, Le Bouscat ; Vaulx-en-Velin, Saint-Priest, Bron — rappel du
+batch 28 : **l'Espace Albert Camus et le fort de la ceinture lyonnaise sont à Bron**, pas à Vénissieux)
+ou continuer sur les trous touristiques réels du corpus, dont les plus nets après ce batch sont
+**Salon-de-Provence** (château de l'Empéri, Nostradamus), **Saint-Quentin** (Art déco, pastels de
+Quentin de La Tour), **Brive-la-Gaillarde**, **La Seyne-sur-Mer** et **Saint-Herblain**.
+
 ### Glossaire (`app/glossaire/page.tsx`)
 
 Page unique, données inline (`SECTIONS: {title, emoji, terms[]}`), `DefinedTermSet` JSON-LD généré

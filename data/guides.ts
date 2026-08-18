@@ -47848,6 +47848,377 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["parent solo Saint-Denis Réunion 2026", "monoparental La Réunion", "T3 Saint-Denis 974 budget", "vie chère outre-mer parent seul", "famille monoparentale DROM"],
   },
+  {
+    slug: "10-choses-a-faire-au-lamentin-2026",
+    title: "10 choses à faire au Lamentin (Martinique)",
+    metaTitle: "10 choses à faire au Lamentin (Martinique) 2026",
+    metaDesc: "Mangrove de Morne-Cabri, kayak dans la baie de Génipa, distillerie La Favorite, Nèg Mawon, église Saint-Laurent, marché du dimanche : 10 activités au Lamentin.",
+    category: "tourisme",
+    emoji: "🌿",
+    readMinutes: 7,
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    intro: "Le Lamentin est la deuxième commune de Martinique par la population, environ 39 000 habitants, installée au fond de la baie de Fort-de-France sur la plus grande plaine agricole de l'île. C'est aussi la commune que tous les visiteurs traversent sans la voir : l'aéroport Martinique Aimé-Césaire est sur son territoire, on y atterrit, on prend la voiture et on file vers les Trois-Îlets ou vers le nord. Le Lamentin n'a pas de plage de carte postale et ne prétend pas en avoir. Ce qu'elle a, c'est la mangrove — la commune doit son nom au lamantin, le mammifère marin qui fréquentait ces eaux avant d'en disparaître — une distillerie qui tourne encore à la vapeur, et l'un des monuments les plus forts de la Martinique contemporaine sur la mémoire de l'esclavage.",
+    sections: [
+      {
+        heading: "1. La mangrove de Morne-Cabri",
+        body: "C'est le site naturel de référence de la commune : plusieurs centaines d'hectares de mangrove et de forêt marécageuse en bordure de la baie, traversés par un parcours aménagé. On y entre par une ancienne voie qui servait autrefois à sortir la production sucrière, et l'on croise en chemin des vestiges de cette activité — un four à chaux, des restes de bâtiments agricoles. Le cheminement est balisé, plat, et se pratique à pied ou en courant : c'est autant un poumon vert pour les Lamentinois qu'un site de découverte. Prendre un répulsif, éviter le milieu de journée pour la chaleur, et rester sur les cheminements : on piétine très vite les racines de palétuviers."
+      },
+      {
+        heading: "2. La mangrove en kayak, côté baie de Génipa",
+        body: "La façon la plus juste de comprendre une mangrove, c'est d'y entrer par l'eau. Des sorties encadrées en kayak partent du fond de la baie de Fort-de-France, dans les chenaux de la baie de Génipa, et remontent entre les racines échasses des palétuviers rouges. On y voit le rôle réel de ce milieu : nurserie à poissons, filtre naturel, et rempart contre la houle cyclonique. Les prestataires sont basés sur le pourtour de la baie et proposent aussi des sorties au coucher du soleil et des sorties bioluminescence selon la saison. Réserver, et vérifier la marée : les chenaux ne se pratiquent pas à n'importe quelle heure."
+      },
+      {
+        heading: "3. La distillerie La Favorite",
+        body: "Sur la route qui relie Fort-de-France au bourg, à la limite exacte des deux communes mais avec une adresse au Lamentin, La Favorite est l'une des plus anciennes distilleries encore en activité de Martinique — fondée en 1842 sur le site d'une ancienne sucrerie. Sa singularité est mécanique : elle fonctionne toujours à la vapeur, ce qui en fait un objet industriel autant qu'agricole. La visite montre la chaîne complète du rhum agricole AOC : réception de la canne, broyage, fermentation du jus, colonne de distillation, vieillissement. Dégustation en fin de parcours, donc prévoir qui conduit. C'est la distillerie la plus proche de l'aéroport, et une bonne première ou dernière étape de séjour."
+      },
+      {
+        heading: "4. Le Nèg Mawon de Khokho René-Corail",
+        body: "Sur la place d'Armes se dresse une sculpture monumentale connue sous le nom de Nèg Mawon, ou Arbre de la Liberté : une figure à mi-chemin entre l'homme et l'arbre, œuvre de Joseph-René Corail, dit Khokho, achevée avec la collaboration du sculpteur cubain Alberto Lescay. Elle commémore le cent-cinquantième anniversaire de l'abolition de l'esclavage et figure parmi les projets associés à La Route de l'esclave portée par l'UNESCO. Le nèg mawon, c'est l'esclave marron, celui qui a fui la plantation : le choisir comme figure centrale n'est pas neutre, et c'est exactement ce qui rend ce monument intéressant. Il se voit en cinq minutes et se comprend plus longtemps."
+      },
+      {
+        heading: "5. L'église Saint-Laurent et le bourg",
+        body: "L'église paroissiale Saint-Laurent occupe le centre du bourg depuis la fin du XVIIe siècle, dans la continuité d'une première chapelle établie bien avant ; le bâtiment actuel résulte de reconstructions et de restaurations successives, comme presque tout le bâti antillais soumis aux cyclones et aux séismes. Une partie de son décor — peintures et vitraux — est protégée au titre des monuments historiques. Autour, le bourg est une petite ville créole de plaine, commerçante et vivante en semaine, avec ses rues étroites et ses maisons à balcons. Ce n'est pas Saint-Pierre ni les Trois-Îlets : on y vient pour voir une ville martiniquaise qui travaille, pas pour la vue."
+      },
+      {
+        heading: "6. Le marché couvert du dimanche",
+        body: "Le marché couvert de la rue Ernest-André se tient le dimanche matin et constitue le meilleur créneau pour voir le Lamentin dans son état naturel. On y trouve la production de la plaine et des hauteurs — ignames, patates douces, christophines, bananes, mangues en saison — ainsi que les épices, les piments, les préparations de colombo et les sirops. Côté table, la commune est réputée pour ses lolos et ses restaurants de cuisine créole fréquentés par les Martiniquais eux-mêmes : accras, boudin créole, colombo de poulet, blaff de poissons, matoutou de crabe à Pâques. Les prix n'ont rien à voir avec ceux du littoral touristique."
+      },
+      {
+        heading: "7. Les hauteurs : Croix-Rivail, Long-Pré et la Lézarde",
+        body: "Le Lamentin n'est pas qu'une plaine : la commune monte vers l'intérieur en une série de quartiers ruraux — Croix-Rivail, Long-Pré, Bois-Rouge — où l'on retrouve des jardins créoles, des vergers et des routes de crête offrant des vues sur la baie. La Lézarde, le plus long cours d'eau de Martinique, traverse le territoire avant de rejoindre la mer dans la mangrove ; elle est l'axe qui explique la géographie de la commune. Certains jardins et exploitations se visitent, mais ce sont de petites structures dont les horaires bougent : appeler avant de monter, plutôt que de compter sur une porte ouverte."
+      },
+      {
+        heading: "8. Comprendre la plaine : canne, banane et sucre",
+        body: "La plaine du Lamentin est la plus vaste surface agricole de la Martinique, et elle raconte l'économie de l'île mieux qu'aucun musée. On y voit la canne, la banane et le maraîchage se partager le terrain, avec au bout de la chaîne les distilleries de rhum agricole et les filières d'exportation. Le sujet des pesticides — le chlordécone, utilisé en bananeraie jusqu'au début des années 1990 et dont la rémanence dans les sols est établie — fait partie du paysage local et se discute ouvertement en Martinique ; des arrêtés encadrent la pêche et certaines cultures sur les zones touchées. C'est une lecture du territoire moins riante qu'une plage, mais nettement plus utile."
+      },
+      {
+        heading: "9. Ce que Le Lamentin met à moins d'une demi-heure",
+        body: "Depuis la commune, presque toute la Martinique du centre est accessible en une demi-heure de route hors heures de pointe. Fort-de-France et son marché couvert, la bibliothèque Schœlcher et le fort Saint-Louis sont juste de l'autre côté de la baie. Les Trois-Îlets, avec la Pointe du Bout et la Savane des Esclaves, se rejoignent par la route ou par la navette maritime depuis Fort-de-France. Le François et son Habitation Clément sont sur la côte atlantique, à l'est. Ces sites relèvent de communes voisines, pas du Lamentin, mais c'est précisément l'argument de la commune : on y dort et on y mange moins cher, et on est au centre de tout."
+      },
+      {
+        heading: "10. Y aller, quand venir, et deux points pratiques",
+        body: "L'aéroport Martinique Aimé-Césaire est sur la commune, ce qui règle la question de l'arrivée ; la voiture reste indispensable en Martinique, les transports en commun ne desservant pas les sites naturels. La saison sèche, le carême, court grossièrement de décembre à avril : c'est la période la plus confortable et la plus fréquentée. La saison humide, l'hivernage, va de juin à novembre et coïncide avec la saison cyclonique — surveiller les bulletins de Météo-France Antilles-Guyane. Deux points pratiques : les embouteillages sur l'axe Lamentin–Fort-de-France aux heures de pointe sont réels et longs, et la mangrove n'est pas un lieu de baignade."
+      }
+    ],
+    relatedCities: ["le-lamentin", "fort-de-france", "le-francois", "le-robert"],
+    relatedGuides: [
+      "10-choses-a-faire-a-fort-de-france-2026",
+      "10-choses-a-faire-au-francois-2026",
+      "10-choses-a-faire-au-robert-2026",
+      "vivre-en-outre-mer-guide-2026"
+    ],
+    tags: ["10 choses à faire au Lamentin", "activités Lamentin 2026", "que faire en Martinique", "sorties centre Martinique", "mangrove Morne-Cabri La Favorite Nèg Mawon baie de Génipa"]
+  },
+  {
+    slug: "10-choses-a-faire-a-baie-mahault-2026",
+    title: "10 choses à faire à Baie-Mahault (Guadeloupe)",
+    metaTitle: "10 choses à faire à Baie-Mahault (Guadeloupe) 2026",
+    metaDesc: "Église Ali Tur, Grand Cul-de-Sac Marin, maison coloniale de Wonche, Jarry, pont de la Gabarre, îlets : 10 activités à Baie-Mahault, Guadeloupe.",
+    category: "tourisme",
+    emoji: "🛶",
+    readMinutes: 7,
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    intro: "Baie-Mahault est la deuxième commune de Guadeloupe par la population, environ 31 000 habitants, à l'angle nord-est de Basse-Terre, là où l'île papillon se referme sur la rivière Salée. Elle a la réputation d'être la commune économique de l'archipel plutôt qu'une commune touristique, et c'est exact : la zone de Jarry, sur son territoire, concentre l'essentiel de l'activité et du port. Ce guide part du principe que ce n'est pas une raison de la traverser au volant. Baie-Mahault borde le Grand Cul-de-Sac Marin, c'est-à-dire la plus grande mangrove des Petites Antilles, et abrite l'une des églises les plus remarquables de l'œuvre d'Ali Tur, l'architecte qui a reconstruit la Guadeloupe publique après le cyclone de 1928. Pas de plage de sable blanc, deux raisons sérieuses de s'arrêter.",
+    sections: [
+      {
+        heading: "1. L'église Saint-Jean-Baptiste, signée Ali Tur",
+        body: "C'est le monument de la commune, et il vaut le détour même pour qui n'entre jamais dans une église. Le cyclone de 1928 avait rasé l'essentiel des bâtiments publics de la Guadeloupe ; l'État confie la reconstruction à l'architecte Ali Tur, qui bâtit en béton armé, à partir de modules répétés, une série d'édifices d'une modernité franche. Saint-Jean-Baptiste, adjugée en 1931, en est l'un des exemples les plus aboutis : volumes pleins et courbes, deux tours encadrant le clocher central, une silhouette qui évoque les églises fortifiées du Sud-Ouest autant que l'Art déco. Elle est classée au titre des monuments historiques depuis 2017. L'intérieur, largement ouvert et sans piliers encombrants, est le meilleur argument du béton."
+      },
+      {
+        heading: "2. Le Grand Cul-de-Sac Marin en bateau",
+        body: "Baie-Mahault ouvre sur le Grand Cul-de-Sac Marin, vaste lagune fermée par la plus longue barrière de corail des Petites Antilles, bordée de la plus grande mangrove de l'arc antillais et classée en réserve de biosphère. Des sorties en bateau à fond de verre, en kayak ou en petite embarcation partent du secteur et remontent les chenaux entre les palétuviers rouges. On y voit les racines échasses, les crabes, les hérons, les nurseries de poissons, et parfois le raton laveur emblématique de l'archipel. C'est le milieu naturel majeur de la Guadeloupe et l'un des rares que le visiteur moyen ne voit jamais. Réserver, prendre un répulsif, et ne pas espérer une eau turquoise : la mangrove est brune, c'est normal."
+      },
+      {
+        heading: "3. Les îlets et le lagon",
+        body: "Depuis les mêmes départs, le lagon du Grand Cul-de-Sac Marin donne accès aux îlets, des bancs de sable et de mangrove posés entre la côte et la barrière. Certains sont des réserves strictes où l'on ne débarque pas, d'autres accueillent les sorties à la journée, avec baignade dans une eau peu profonde et parfaitement calme, protégée par le récif. Les fonds y sont visibles au masque et tuba. Ces sites relèvent des communes riveraines et de la zone du Parc national, pas de Baie-Mahault stricto sensu ; ce que la commune apporte, c'est l'accès. Respecter les zonages de protection : les tortues et les herbiers marins y sont réglementés, et les mouillages sauvages détruisent les herbiers."
+      },
+      {
+        heading: "4. La maison coloniale de Wonche",
+        body: "Cette maison de maître du milieu du XIXe siècle, de plan carré et ceinte d'une galerie sur ses quatre faces, est le principal témoin bâti de l'époque des plantations sur la commune. Elle a été réhabilitée et abrite aujourd'hui un équipement de quartier ouvert au public, avec des ateliers et des activités : ce n'est donc pas un musée figé mais un lieu vivant, ce qui change l'expérience. La galerie périphérique, la charpente et le rapport au jardin racontent une manière de construire adaptée à la chaleur et aux cyclones, bien avant la climatisation. Vérifier les créneaux d'ouverture, qui suivent la programmation du lieu et non des horaires de musée."
+      },
+      {
+        heading: "5. La maison Dupuy et le bourg",
+        body: "Le bourg de Baie-Mahault se parcourt à pied en une heure. Outre l'église, il conserve la maison Dupuy, construction en bois d'architecture créole dont les plans initiaux remontent au milieu du XIXe siècle, ce qui explique ses nombreuses portes-fenêtres et ses lucarnes. Le reste du centre est une petite ville antillaise ordinaire, avec sa mairie, ses commerces et son marché. C'est une halte de vingt minutes, pas une demi-journée, et il faut le savoir avant de venir : à Baie-Mahault, le patrimoine bâti se résume à trois objets, mais ces trois objets sont bons."
+      },
+      {
+        heading: "6. Jarry : ce que c'est, et pourquoi le savoir",
+        body: "Jarry-Moudong est la première zone d'activité économique de la Guadeloupe : plusieurs milliers d'entreprises, l'essentiel du port de commerce, et une part considérable de l'emploi de l'archipel. Ce n'est pas un site touristique et ce guide ne prétendra pas le contraire. Le savoir a pourtant une utilité concrète pour un visiteur : c'est là que se trouvent les grandes surfaces, les loueurs, les concessions et une bonne partie des restaurants ouverts le midi en semaine, y compris de bonnes tables créoles fréquentées par les salariés. Et c'est là que se prennent les embouteillages du matin et du soir, à intégrer dans tout trajet entre Basse-Terre et Grande-Terre."
+      },
+      {
+        heading: "7. Le pont de la Gabarre et la rivière Salée",
+        body: "La rivière Salée n'est pas une rivière : c'est un bras de mer étroit qui sépare Basse-Terre de Grande-Terre et fait de la Guadeloupe deux îles plutôt qu'une. Baie-Mahault y est reliée à Pointe-à-Pitre par le pont de la Gabarre, passage obligé de la circulation de l'archipel. Le chenal est bordé de mangrove sur presque toute sa longueur et se remonte en kayak au départ du secteur : on passe alors sous les ponts, entre deux masses de palétuviers, avec le trafic au-dessus de la tête. C'est une sortie courte, facile, et la meilleure illustration possible de ce qu'est réellement la géographie guadeloupéenne."
+      },
+      {
+        heading: "8. Manger, et faire ses courses comme un local",
+        body: "Baie-Mahault n'a pas de front de mer à restaurants, elle a des lolos, des food-trucks et des tables de midi. On y mange la cuisine guadeloupéenne sans adaptation : accras de morue, boudin créole, colombo, court-bouillon de poisson, bébélé, dombrés aux ouassous, et les sorbets coco vendus à la sortie. Côté approvisionnement, la commune concentre les plus grandes surfaces commerciales de l'archipel, ce qui en fait le point de ravitaillement logique en début de séjour si l'on loue un gîte. Les marchés de bord de route vendent les fruits de saison — mangues, corossols, maracujas — souvent moins cher qu'en zone touristique."
+      },
+      {
+        heading: "9. Ce que la commune met à une demi-heure",
+        body: "Baie-Mahault est le carrefour routier de la Guadeloupe, ce qui est son meilleur atout de base de séjour. La Route de la Traversée, qui coupe Basse-Terre par le cœur du Parc national avec la Maison de la Forêt et la cascade aux Écrevisses, s'engage juste au sud. Pointe-à-Pitre et le Mémorial ACTe, consacré à la mémoire de la traite et de l'esclavage, sont de l'autre côté du pont. Le jardin botanique de Valombreuse est à Petit-Bourg, commune voisine. Les plages de Grande-Terre, du Gosier à Sainte-Anne, sont à une trentaine de minutes. Aucun de ces sites n'est à Baie-Mahault : tous en sont accessibles dans la demi-heure."
+      },
+      {
+        heading: "10. Y aller, quand venir, et un point de prudence",
+        body: "L'aéroport Guadeloupe Pôle Caraïbes est aux Abymes, à un quart d'heure. La voiture est nécessaire : le réseau de bus ne dessert pas les sites naturels. Le carême, de décembre à avril, est la saison sèche et la haute saison ; l'hivernage, de juin à novembre, est plus humide, moins cher, et correspond à la saison cyclonique — suivre Météo-France Guadeloupe. Un point de prudence propre à la commune : les eaux du Grand Cul-de-Sac Marin sont peu profondes, chargées et traversées de chenaux de navigation, et la mangrove n'est pas un lieu de baignade libre. On s'y baigne au large, sur les îlets, dans le cadre d'une sortie encadrée."
+      }
+    ],
+    relatedCities: ["baie-mahault", "pointe-a-pitre", "les-abymes"],
+    relatedGuides: [
+      "10-choses-a-faire-a-pointe-a-pitre-2026",
+      "10-choses-a-faire-aux-abymes-2026",
+      "vivre-en-outre-mer-guide-2026"
+    ],
+    tags: ["10 choses à faire à Baie-Mahault", "activités Baie-Mahault 2026", "que faire en Guadeloupe", "sorties Basse-Terre", "Ali Tur Grand Cul-de-Sac Marin Wonche Jarry rivière Salée"]
+  },
+  {
+    slug: "10-choses-a-faire-a-saint-louis-reunion-974-2026",
+    title: "10 choses à faire à Saint-Louis (La Réunion)",
+    metaTitle: "10 choses à faire à Saint-Louis (Réunion) 2026",
+    metaDesc: "Temple du Gol, sucrerie du Gol, étang du Gol, forêt et observatoire des Makes, Fenêtre sur Cilaos, route aux 400 virages : 10 activités à Saint-Louis.",
+    category: "tourisme",
+    emoji: "🛕",
+    readMinutes: 7,
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    intro: "Saint-Louis est la quatrième commune de La Réunion par la population, environ 52 000 habitants, sur la côte sud-ouest entre Saint-Pierre et l'Étang-Salé. On la connaît surtout comme un point de passage : la route des Tamarins la franchit, la route de Cilaos y démarre, et beaucoup de visiteurs ne s'y arrêtent qu'au feu rouge. C'est dommage, parce que la commune concentre trois choses qu'on ne trouve pas ailleurs sur l'île avec cette densité : le plus ancien temple hindou de La Réunion, l'une des deux dernières sucreries en activité, et un hameau des hauts, Les Makes, qui abrite un observatoire astronomique et le meilleur belvédère existant sur le cirque de Cilaos.",
+    sections: [
+      {
+        heading: "1. Le temple tamoul du Gol",
+        body: "Dans le camp du Gol, ce temple est le plus ancien édifice hindou de La Réunion : il a été élevé en 1856 par des travailleurs engagés indiens sur les terres de la famille Le Coat de Kerveguen, à une époque où plusieurs temples avaient été construits sur les propriétés sucrières — celui-ci est le seul qui subsiste. Il est inscrit au titre des monuments historiques depuis 1996, dans son intégralité, ce qui en fait un cas rare : un lieu de culte hindou protégé au même titre qu'une église. L'intérieur conserve un décor peint représentant des épisodes du Ramayana et du Mahabharata. C'est un lieu de culte en activité : tenue correcte, pieds nus, et demander avant de photographier."
+      },
+      {
+        heading: "2. La sucrerie du Gol",
+        body: "La canne reste l'agriculture qui structure La Réunion, et le Gol est l'une des deux sucreries encore en activité sur l'île avec Bois-Rouge, à l'est. Elle se visite pendant la campagne sucrière, grossièrement de juillet à décembre : réception de la canne, broyage, extraction du jus, évaporation, cristallisation, et le devenir des coproduits, bagasse pour l'énergie et mélasse pour la distillerie. C'est une usine réelle, chaude et bruyante, pas une reconstitution pédagogique, et l'odeur reste dans les vêtements. Hors campagne, l'usine ne tourne pas et la visite perd l'essentiel de son intérêt : caler les dates, et réserver."
+      },
+      {
+        heading: "3. L'étang du Gol",
+        body: "Entre Saint-Louis et l'Étang-Salé s'étend l'étang du Gol, une zone humide littorale protégée, gérée dans le cadre d'une politique de préservation du littoral. C'est l'un des rares plans d'eau douce de basse altitude de l'île, et à ce titre un refuge pour l'avifaune : une vingtaine d'espèces d'oiseaux y sont observées, dont une part présente un intérêt patrimonial fort — poule d'eau, martin triste, héron strié. Le site se parcourt à pied, avec des aires de pique-nique sous une végétation variée. Prévoir des jumelles et venir tôt : c'est le matin que les oiseaux se montrent, et l'après-midi que le vent se lève."
+      },
+      {
+        heading: "4. Monter aux Makes",
+        body: "Les Makes sont un hameau des hauts de Saint-Louis, à quelque 1 200 mètres d'altitude, accessible par une route qui grimpe en lacets depuis le littoral. Le changement est brutal : on quitte la canne et la chaleur pour les cryptomerias, les prairies et une fraîcheur qui rend la petite laine obligatoire le soir. La forêt des Makes, plantée de cryptomerias et de tamarins des hauts, se parcourt par plusieurs sentiers balisés, dont des boucles familiales. C'est l'un des rares endroits de l'île où l'on peut passer d'un climat tropical sec à une ambiance de moyenne montagne en trois quarts d'heure de voiture."
+      },
+      {
+        heading: "5. L'observatoire astronomique des Makes",
+        body: "L'observatoire des Makes profite d'une position rare : de l'altitude, un ciel du sud peu pollué par les lumières, et une position dans l'hémisphère austral qui donne accès à des objets invisibles depuis la métropole — les Nuages de Magellan, la Croix du Sud, le centre de la Voie lactée au zénith en hiver austral. Des séances d'observation encadrées sont proposées en soirée, avec explications au télescope. C'est une structure à petite équipe : réservation obligatoire, et la sortie dépend entièrement de la couverture nuageuse, qui se dégage plus souvent en saison sèche. Prévoir de quoi se couvrir, il fait franchement froid la nuit."
+      },
+      {
+        heading: "6. La Fenêtre des Makes",
+        body: "À quelques minutes du hameau, la route se termine sur un belvédère aménagé appelé la Fenêtre : une trouée dans le rempart qui ouvre d'un coup sur le cirque de Cilaos, quelque mille mètres plus bas, avec le Piton des Neiges en fond. C'est l'un des points de vue les plus spectaculaires de l'île, et l'un des rares accessibles en voiture sans marche d'approche. La règle est la même que partout dans les hauts : y être tôt. Les nuages remontent des ravines dans la matinée et le cirque disparaît souvent avant midi, y compris quand le littoral est en plein soleil. Une aire de pique-nique complète le site."
+      },
+      {
+        heading: "7. La route de Cilaos",
+        body: "La RN5, la fameuse route aux quatre cents virages, part de Saint-Louis et remonte la ravine jusqu'au cirque de Cilaos. C'est un ouvrage de génie civil autant qu'une route : tunnels étroits, encorbellements, virages en épingle taillés dans le rempart. Elle demande de l'attention et du temps — compter bien plus longtemps que ce qu'annonce un GPS — et elle est déconseillée à qui a le mal des transports. Au bout, Cilaos, ses thermes, son vin, ses lentilles et le départ des sentiers vers le Piton des Neiges. La route est fermée ponctuellement pour éboulements ou travaux : vérifier son état avant de partir, l'information est publiée par la collectivité routière."
+      },
+      {
+        heading: "8. Le bourg, le marché et la table",
+        body: "Saint-Louis est une ville de travail plus qu'une ville de vitrine : centre commerçant, marché forain, église, et une population qui reflète toute la composition réunionnaise — créole, tamoule, musulmane, chinoise. Cela se voit dans l'assiette : cari poulet, rougail saucisse, cari boucané, mais aussi biryani, samoussas, bouchons et gâteaux de fête selon le calendrier. Le marché forain est l'endroit où voir les produits des hauts et de la plaine, letchis en décembre, brèdes, chouchous, curcuma. Les prix sont ceux d'une ville du sud, sans supplément littoral touristique, et c'est une bonne raison d'y déjeuner."
+      },
+      {
+        heading: "9. L'Entre-Deux et la rivière Saint-Étienne",
+        body: "La rivière Saint-Étienne, large lit de galets qui borde la commune à l'est, sépare Saint-Louis de Saint-Pierre et remonte vers l'Entre-Deux, village créole voisin réputé pour ses cases traditionnelles à lambrequins, ses ruelles fleuries et le sentier du Dimitile, qui grimpe vers un belvédère sur le cirque de Cilaos et un lieu de mémoire du marronnage. L'Étang-Salé, de l'autre côté, aligne une plage de sable noir volcanique — et sa surveillance limitée aux zones balisées. Ces deux communes ne sont pas Saint-Louis, mais elles sont à un quart d'heure et complètent naturellement une journée."
+      },
+      {
+        heading: "10. Y aller, quand venir, et une règle de sécurité",
+        body: "Saint-Louis est à une quarantaine de minutes de l'aéroport de Saint-Denis Roland-Garros par la route des Tamarins, et à dix minutes de Saint-Pierre. La voiture est indispensable pour les hauts. L'hiver austral, de mai à novembre, est la saison sèche : ciel plus dégagé sur les hauts, mer plus fraîche, aucun risque cyclonique. L'été austral, de décembre à avril, est chaud, humide et cyclonique. Enfin la règle qui ne souffre aucune exception à La Réunion : hors des lagons de la côte ouest et des bassins surveillés, la baignade en mer est interdite en raison du risque requin — et il n'y a pas de lagon devant Saint-Louis."
+      }
+    ],
+    relatedCities: ["saint-louis-reunion-974", "saint-pierre-reunion", "saint-joseph-reunion", "le-tampon"],
+    relatedGuides: [
+      "10-choses-a-faire-a-saint-pierre-reunion-2026",
+      "10-choses-a-faire-au-tampon-2026",
+      "10-choses-a-faire-a-saint-paul-reunion-2026",
+      "vivre-en-outre-mer-guide-2026"
+    ],
+    tags: ["10 choses à faire à Saint-Louis", "activités Saint-Louis 2026", "que faire à La Réunion", "sorties sud de La Réunion", "temple du Gol sucrerie Les Makes Fenêtre Cilaos"]
+  },
+  {
+    slug: "10-choses-a-faire-a-saint-joseph-reunion-2026",
+    title: "10 choses à faire à Saint-Joseph (La Réunion)",
+    metaTitle: "10 choses à faire à Saint-Joseph (Réunion) 2026",
+    metaDesc: "Cascade de Grand Galet, bassins de la rivière Langevin, Manapany, gecko vert, Grand Coude et son thé, curcuma de la Plaine des Grègues : 10 activités.",
+    category: "tourisme",
+    emoji: "🦎",
+    readMinutes: 7,
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    intro: "Saint-Joseph est la commune la plus méridionale de France, environ 37 000 habitants, au cœur de ce que les Réunionnais appellent le Sud sauvage : la côte qui n'a ni lagon, ni plage de sable blanc, ni complexe hôtelier, et qui prend la houle australe de plein fouet. Ce que la commune a, c'est de l'eau douce et du relief. La rivière Langevin y aligne l'une des plus belles successions de bassins et de cascades de l'île, la rivière des Remparts y creuse un canyon de plusieurs centaines de mètres de profondeur, et les hauts abritent le seul champ de thé cultivé du département ainsi qu'un lézard endémique qui ne vit nulle part ailleurs au monde.",
+    sections: [
+      {
+        heading: "1. La cascade de Grand Galet",
+        body: "Au bout de la route qui remonte la vallée de la rivière Langevin, la cascade de Grand Galet — que tout le monde appelle aussi cascade Langevin — tombe en une multitude de filets sur une large paroi tapissée de végétation, dans un bassin encaissé. C'est l'un des sites les plus photographiés de La Réunion et il mérite sa réputation. Il mérite aussi d'être vu tôt : la route est étroite, le stationnement limité, et le site sature vite le week-end et pendant les vacances scolaires. La baignade y est réglementée et les arrêtés affichés sur place font foi — ils changent, et ils ne sont pas décoratifs."
+      },
+      {
+        heading: "2. Les bassins de la rivière Langevin",
+        body: "La vallée qui mène à Grand Galet est en elle-même la sortie : une dizaine de kilomètres de route qui longent la rivière, avec des bassins successifs, des vasques de basalte, des aires de pique-nique et des kiosques pris d'assaut le dimanche par les familles réunionnaises. Certains bassins sont autorisés à la baignade, d'autres non, et la signalétique locale est la seule référence valable. La règle absolue en ravine : ne jamais rester dans le lit s'il pleut sur les hauts, même sous un ciel dégagé. Les crues arrivent en quelques minutes, sans prévenir, et c'est la première cause d'accident grave dans les ravines de l'île."
+      },
+      {
+        heading: "3. Le canyoning et la randonnée aquatique",
+        body: "La rivière Langevin est l'un des terrains de canyoning de référence de La Réunion : gorges de basalte, toboggans naturels, sauts, rappels sous cascade. Plusieurs niveaux existent, du parcours d'initiation accessible sans expérience à des descentes techniques réservées aux pratiquants. L'encadrement par un professionnel diplômé n'est pas un supplément de confort, c'est la condition d'accès : le débit dépend directement des pluies sur les hauts, et un guide local est la seule personne capable de dire si la sortie se fait ou non ce jour-là. Les annulations pour crue sont fréquentes et parfaitement normales."
+      },
+      {
+        heading: "4. Manapany-les-Bains",
+        body: "Manapany est le rendez-vous balnéaire de la commune, et il obéit à la règle du Sud sauvage : on ne se baigne pas dans la mer, on se baigne dans le bassin. Une piscine naturelle aménagée derrière une barrière de rochers permet de se mettre à l'eau à l'abri de la houle, sous surveillance selon les créneaux ; au-delà, la mer est démontée et interdite. Le site vaut aussi pour lui-même : une petite anse de galets, des vacoas, une promenade en bord de falaise, et une ambiance de village qui n'a rien à voir avec la côte ouest. C'est l'endroit où l'on comprend la différence entre les deux Réunion."
+      },
+      {
+        heading: "5. Le gecko vert de Manapany",
+        body: "Le gecko vert de Manapany, Phelsuma inexpectata, est un petit lézard vert vif d'une dizaine de centimètres, endémique de La Réunion et présent uniquement sur une étroite bande du littoral sud — Saint-Joseph, Petite-Île et le secteur de Grand Bois. Il est classé en danger critique d'extinction : son habitat, les vacoas et les jardins créoles du bord de mer, se réduit à mesure que le littoral s'urbanise, et les espèces introduites lui font concurrence. On peut l'apercevoir sur les vacoas de Manapany avec un peu de patience et beaucoup de discrétion. Ne pas le manipuler, ne pas déplacer la végétation : à ce niveau de rareté, chaque individu compte."
+      },
+      {
+        heading: "6. Grand Coude et ses belvédères",
+        body: "Grand Coude est un hameau perché des hauts de Saint-Joseph, posé sur un plateau entre deux canyons. C'est ce qui en fait l'intérêt : la route qui y monte et les points de vue aménagés donnent d'un côté sur la rivière des Remparts, de l'autre sur la vallée de la rivière Langevin, avec des remparts qui plongent de plusieurs centaines de mètres. Des aires de pique-nique sont installées aux meilleurs endroits. Le village lui-même a gardé un caractère rural et créole que le littoral a perdu. Comme partout dans les hauts, viser le matin : la mer de nuages remonte les vallées dans la journée."
+      },
+      {
+        heading: "7. Le thé de Grand Coude",
+        body: "Grand Coude abrite une plantation de thé, unique en son genre sur le territoire français, aménagée en labyrinthe végétal que l'on parcourt en découvrant la culture et la transformation de la feuille. La visite explique la cueillette, le flétrissage, le roulage, l'oxydation et le séchage, avec dégustation à la clé — un thé produit à quelque mille mètres d'altitude sous les tropiques, ce qui n'existe nulle part ailleurs dans le pays. C'est une petite exploitation familiale, pas un site industriel : réserver, et se renseigner sur les jours d'ouverture avant de faire la route, qui grimpe longuement depuis le littoral."
+      },
+      {
+        heading: "8. La Plaine des Grègues et le curcuma",
+        body: "Autre hameau des hauts, la Plaine des Grègues est le pays du curcuma — le safran péi, comme on dit à La Réunion, cultivé ici depuis des générations et transformé sur place. La Maison du Curcuma présente la plante, sa culture, sa transformation en poudre et son usage dans la cuisine créole, ainsi que les autres épices et plantes aromatiques de l'île : vanille, combava, géranium rosat, vétiver. On en repart avec des produits qu'on ne trouve pas en grande surface. C'est une halte courte, familiale, et elle se combine naturellement avec la montée à Grand Coude sur la même demi-journée."
+      },
+      {
+        heading: "9. La rivière des Remparts et le Sud sauvage",
+        body: "La rivière des Remparts creuse au nord de la commune l'une des vallées les plus impressionnantes de l'île, encaissée entre des parois de plusieurs centaines de mètres, avec au fond le hameau isolé de Roche Plate, atteignable à pied ou en 4x4 par une piste. La randonnée qui remonte le lit est longue et engagée, à réserver aux marcheurs entraînés. Côté littoral, la commune s'étend vers Vincendo et l'est ; au-delà commencent Saint-Philippe et le Cap Méchant, avec ses orgues basaltiques battues par la houle, puis le Puits arabe. Ces sites relèvent de la commune voisine mais s'enchaînent sur la même journée."
+      },
+      {
+        heading: "10. Y aller, quand venir, et une règle de sécurité",
+        body: "Saint-Joseph est à une vingtaine de minutes de Saint-Pierre et à une heure et quart de l'aéroport de Saint-Denis. La voiture est indispensable, la vallée de la Langevin et les hauts n'étant pas desservis autrement. L'hiver austral, de mai à novembre, est la saison sèche : moins de crues, plus de journées dégagées sur les hauts, pas de risque cyclonique. L'été austral est chaud, humide, et c'est la période où les ravines deviennent dangereuses. Enfin la règle qui vaut pour toute l'île et particulièrement ici : hors lagon de la côte ouest et hors bassins surveillés, la baignade en mer est interdite pour risque requin — et il n'y a pas de lagon dans le sud."
+      }
+    ],
+    relatedCities: ["saint-joseph-reunion", "saint-pierre-reunion", "saint-louis-reunion-974", "le-tampon"],
+    relatedGuides: [
+      "10-choses-a-faire-a-saint-pierre-reunion-2026",
+      "10-choses-a-faire-au-tampon-2026",
+      "10-choses-a-faire-a-saint-benoit-reunion-2026",
+      "vivre-en-outre-mer-guide-2026"
+    ],
+    tags: ["10 choses à faire à Saint-Joseph", "activités Saint-Joseph 2026", "que faire à La Réunion", "sorties Sud sauvage", "Grand Galet rivière Langevin Manapany Grand Coude curcuma"]
+  },
+  {
+    slug: "10-choses-a-faire-aux-sables-d-olonne-2026",
+    title: "10 choses à faire aux Sables-d'Olonne",
+    metaTitle: "10 choses à faire aux Sables-d'Olonne en 2026",
+    metaDesc: "Remblai, Vendée Globe et Port-Olona, île Penotte, La Chaume et la tour d'Arundel, musée de l'Abbaye Sainte-Croix, Puits d'Enfer : 10 activités aux Sables.",
+    category: "tourisme",
+    emoji: "⛵",
+    readMinutes: 7,
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    intro: "Les Sables-d'Olonne sont la station balnéaire de référence de la Vendée, environ 46 000 habitants à l'année et bien davantage l'été. Depuis le 1er janvier 2019, la commune est une commune nouvelle : elle a fusionné avec Château-d'Olonne et Olonne-sur-Mer, ce qui explique qu'un même territoire administratif porte aujourd'hui une grande plage urbaine, une côte rocheuse, une forêt domaniale et des marais salants. La ville a par ailleurs une identité que peu de stations peuvent revendiquer : c'est de son chenal que part le Vendée Globe, le tour du monde à la voile en solitaire, sans escale et sans assistance, tous les quatre ans. Le reste de l'année, elle vit de la pêche, du tourisme et d'un centre-ville qui n'est pas qu'un décor.",
+    sections: [
+      {
+        heading: "1. Le Remblai et la Grande Plage",
+        body: "Le Remblai est la digue-promenade qui borde la Grande Plage sur toute sa longueur : une baie régulière, orientée au sud, protégée par deux pointes, avec un sable fin et une pente douce qui la rend praticable avec de jeunes enfants. C'est la raison première pour laquelle la ville existe comme station depuis le XIXe siècle. La promenade se fait à toute heure et hors saison elle est aussi agréable qu'en juillet — le vent d'ouest en moins. Les immeubles qui la bordent racontent au passage un siècle d'architecture balnéaire, des villas fin de siècle aux barres des années 1960 et 1970, sans hiérarchie ni complexe."
+      },
+      {
+        heading: "2. Le port, la criée et le passeur",
+        body: "Les Sables restent un vrai port de pêche, pas une reconstitution : les chalutiers rentrent, la criée fonctionne, et l'on peut suivre l'activité depuis les quais. C'est le meilleur endroit de la ville aux heures de retour de flotte. En face, un passeur — une navette de quelques minutes à travers le chenal — relie la ville au quartier de La Chaume, service ancien et toujours en usage, qui reste le moyen le plus rapide et le plus agréable de traverser. Le trajet dure moins longtemps que la marche jusqu'au pont, et il donne le meilleur point de vue possible sur le chenal et sur les bateaux."
+      },
+      {
+        heading: "3. Port-Olona et le Vendée Globe",
+        body: "Port-Olona est le port de plaisance de la ville, et c'est de là que part le Vendée Globe : un tour du monde à la voile en solitaire, sans escale et sans assistance, organisé tous les quatre ans depuis Les Sables-d'Olonne. Les semaines qui précèdent un départ, le village de course et le ponton des IMOCA attirent des centaines de milliers de visiteurs, et le chenal du départ est bordé sur toute sa longueur. En dehors de ces périodes, le port reste ouvert à la promenade et l'on y voit toute l'année des bateaux de course à quai. La ville en a fait son identité, et cela se sent dans les commerces comme dans la signalétique."
+      },
+      {
+        heading: "4. L'île Penotte",
+        body: "L'île Penotte est un îlot de ruelles étroites du centre ancien, à deux pas de la plage, dont les murs sont recouverts de mosaïques de coquillages : fresques marines, personnages, animaux, motifs, réalisés à partir de coquilles collées. L'initiative revient à Danièle Arnaud-Aubin, dite la dame aux coquillages, qui a commencé à décorer les façades du quartier en 1997 et a fait des émules. C'est gratuit, en accès libre, et cela se parcourt en une demi-heure. Le quartier est habité : on y circule à pied, à voix normale, et l'on évite d'entrer dans les cours. C'est aussi l'un des rares coins de la ville qui reste intéressant sous la pluie."
+      },
+      {
+        heading: "5. La Chaume et la tour d'Arundel",
+        body: "De l'autre côté du chenal, La Chaume était un village de pêcheurs indépendant avant son rattachement à la ville. Le quartier a gardé ses ruelles étroites, ses maisons basses aux façades colorées et un caractère qui n'est pas celui du Remblai. À la pointe, la tour d'Arundel est un ancien donjon carré, seul vestige du château Saint-Clair, aujourd'hui coiffé d'un phare : depuis son sommet, la vue couvre la baie, le chenal, la ville et le large. À côté, la chapelle-prieuré Saint-Nicolas domine l'entrée du port et le monument aux marins disparus. C'est la meilleure demi-journée de la ville hors plage."
+      },
+      {
+        heading: "6. Le musée de l'Abbaye Sainte-Croix",
+        body: "Le MASC occupe une ancienne abbaye bénédictine fondée au XVIIe siècle et abrite depuis 1963 un musée d'art moderne et contemporain — l'un des premiers créés en France en région. Il conserve les plus importantes collections publiques consacrées à deux artistes : Gaston Chaissac, autodidacte vendéen rattaché à l'art brut, et Victor Brauner, peintre d'origine roumaine passé par le surréalisme parisien. La confrontation des deux, dans un bâtiment monastique du XVIIe siècle, produit un contraste qui fait tout l'intérêt de la visite. Programmation d'expositions temporaires en complément : vérifier ce qui est accroché avant de venir, l'accrochage tourne."
+      },
+      {
+        heading: "7. Les halles et le centre-ville",
+        body: "Les halles centrales sont le point de ravitaillement de la ville et l'endroit où la Vendée se mange : poissons et coquillages débarqués à quelques centaines de mètres, huîtres de la baie de Bourgneuf et de l'Aiguillon, mogettes, jambon de Vendée, préfou, brioche vendéenne, gâche. Autour, le centre ancien aligne des rues piétonnes commerçantes, l'église Notre-Dame-de-Bon-Port et quelques places où il fait bon s'asseoir. C'est un centre-ville qui fonctionne toute l'année, ce qui n'est pas le cas de toutes les stations de la côte atlantique — un critère utile si l'on envisage un séjour hors saison."
+      },
+      {
+        heading: "8. Le Puits d'Enfer et la côte rocheuse",
+        body: "Au sud de la ville, côté Château-d'Olonne, la côte cesse d'être sableuse et devient une falaise entaillée de criques. Le Puits d'Enfer y est une faille étroite creusée perpendiculairement dans la roche, dans laquelle la mer s'engouffre à marée haute avec un fracas considérable ; le site a nourri son lot de légendes locales. Un sentier littoral longe cette côte et permet d'enchaîner les points de vue à pied depuis la ville. Prudence élémentaire : le bord de la faille n'est pas protégé sur tout son pourtour, la roche est glissante quand elle est humide, et par gros temps on regarde de loin."
+      },
+      {
+        heading: "9. Le marais d'Olonne et la forêt",
+        body: "Côté nord, le territoire de la commune nouvelle englobe le marais d'Olonne, ancien golfe comblé devenu un ensemble de marais salants et de zones humides, et la forêt domaniale d'Olonne, pinède littorale plantée pour fixer les dunes. Les deux se parcourent à pied et à vélo par un réseau de chemins plats, et le marais est un site d'observation ornithologique sérieux : échasses, avocettes, aigrettes, spatules selon la saison. Des sauniers y produisent encore du sel. C'est l'envers exact du Remblai, à un quart d'heure de vélo, et c'est ce qui rend la commune plus intéressante que sa seule plage."
+      },
+      {
+        heading: "10. Y aller, quand venir, et ce que ça change",
+        body: "Les Sables-d'Olonne ont une gare, terminus d'une ligne depuis Nantes, avec des liaisons directes vers Paris selon les périodes ; en voiture, la ville est à environ trois quarts d'heure de La Roche-sur-Yon et à un peu plus d'une heure et demie de Nantes. Le stationnement en centre-ville et sur le Remblai est le vrai sujet de juillet et août. Hors saison, la ville reste ouverte et le rapport qualité-prix des hébergements n'a rien à voir. Deux repères de calendrier valent la peine d'être connus : les grandes marées, qui découvrent l'estran et changent complètement la plage, et la période de départ du Vendée Globe, où la ville est pleine et où il faut réserver très en avance."
+      }
+    ],
+    relatedCities: ["les-sables-d-olonne", "la-roche-sur-yon", "challans", "noirmoutier"],
+    relatedGuides: [
+      "10-choses-a-faire-a-la-rochelle-2026",
+      "10-choses-a-faire-a-nantes-2026",
+      "retraite-a-les-sables-d-olonne-2026",
+      "cote-atlantique-bordeaux-la-rochelle-bayonne"
+    ],
+    tags: ["10 choses à faire aux Sables-d'Olonne", "activités Les Sables-d'Olonne 2026", "que faire en Vendée", "sorties côte atlantique", "Remblai Vendée Globe île Penotte La Chaume MASC"]
+  },
+  {
+    slug: "10-choses-a-faire-a-vincennes-2026",
+    title: "10 choses à faire à Vincennes",
+    metaTitle: "10 choses à faire à Vincennes en 2026",
+    metaDesc: "Donjon et Sainte-Chapelle du château, fossés et mémoire, église Saint-Louis Art déco, marchés, bois de Vincennes et Parc floral : 10 activités à Vincennes.",
+    category: "tourisme",
+    emoji: "🏰",
+    readMinutes: 7,
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    intro: "Vincennes est une ville de 48 000 habitants du Val-de-Marne, collée à Paris, desservie par le terminus de la ligne 1 et par le RER A. C'est aussi, et c'est ce qui la distingue de toutes les autres communes de la petite couronne, la seule qui possède une résidence royale médiévale conservée — le château de Vincennes, dont le donjon reste la plus haute tour médiévale encore debout en Europe. Le paradoxe de la ville est là : des millions de Franciliens connaissent le nom par la station de métro et par le bois, et une minorité seulement est entrée dans le donjon. Le bois, lui, n'appartient pas à Vincennes : il relève de la Ville de Paris. Ce guide dit lequel est où.",
+    sections: [
+      {
+        heading: "1. Le donjon du château",
+        body: "Le donjon de Vincennes s'élève à environ cinquante-deux mètres et passe pour la plus haute tour médiévale encore conservée en Europe. Il a été bâti au XIVe siècle, pour l'essentiel sous Charles V, qui en fit sa résidence et y installa sa chambre et sa bibliothèque. La visite monte étage par étage, du niveau des cuisines à la terrasse, en traversant des salles voûtées d'une seule clef centrale et des cabinets aménagés dans l'épaisseur des murs. On y comprend une chose que les châteaux de la Loire ne montrent pas : à quoi ressemblait le pouvoir royal quand il vivait encore dans une forteresse. La montée est physique, l'escalier étroit."
+      },
+      {
+        heading: "2. La Sainte-Chapelle et l'enceinte",
+        body: "Dans la cour, la Sainte-Chapelle de Vincennes a été commencée sous Charles V sur le modèle de celle du Palais de la Cité, à Paris, et achevée bien plus tard : son chœur porte des vitraux de la Renaissance, remarquables par leur dessin et leur couleur. L'enceinte, longue et rectangulaire, garde ses tours arasées, son châtelet, ses pavillons du XVIIe siècle bâtis pour Mazarin et le jeune Louis XIV. Le site est géré comme monument national et accueille des expositions temporaires. Il abrite aussi le Service historique de la Défense, c'est-à-dire les archives militaires françaises — ce qui explique la présence militaire permanente sur place."
+      },
+      {
+        heading: "3. Les fossés, et ce qui s'y est passé",
+        body: "Le tour des fossés est gratuit et se fait à pied depuis la ville. Il vaut pour l'architecture, et il vaut surtout pour ce qui s'y est joué. C'est dans ces fossés que le duc d'Enghien a été fusillé en 1804, sur ordre de Bonaparte, après un enlèvement en territoire étranger et un procès expéditif — l'affaire qui a durablement isolé le Consulat en Europe. C'est là que Mata Hari a été exécutée en 1917. C'est là encore que des résistants ont été fusillés pendant l'Occupation. Des plaques rappellent ces faits. On peut faire le tour sans les voir : c'est dommage, elles constituent la moitié de l'intérêt du lieu."
+      },
+      {
+        heading: "4. L'église Saint-Louis, chef-d'œuvre Art déco",
+        body: "À dix minutes à pied du château, l'église Saint-Louis de Vincennes est l'un des tout premiers édifices religieux français à exploiter à fond le béton armé. Commencée en 1914, interrompue par la guerre, reprise en 1919 et achevée en 1924, elle est l'œuvre de deux jeunes architectes, Jacques Droz et Joseph Marrast, qui ont voulu un volume unique dégagé de murs et de piliers. Le résultat est un intérieur Art déco d'inspiration néo-byzantine, avec des fresques de Maurice Denis et d'Henri Marret, des céramiques de Maurice Dhomme, des ferronneries de Raymond Subes. Classée monument historique depuis 1996, elle reste étonnamment peu visitée."
+      },
+      {
+        heading: "5. L'hôtel de ville et le cours Marigny",
+        body: "L'hôtel de ville de Vincennes est un grand bâtiment de la fin du XIXe siècle dont les façades et les toitures sont protégées, ainsi que plusieurs espaces intérieurs : les halls d'entrée, la salle des mariages de 1891 et la salle des banquets ajoutée dans les années 1930. Il ouvre sur le cours Marigny, esplanade plantée qui sert de place centrale à la ville et accueille fêtes foraines, brocantes et manifestations. L'ensemble donne une idée assez juste de ce qu'était l'ambition d'une commune de banlieue prospère sous la Troisième République. La ville propose des parcours de découverte du patrimoine qui relient ces bâtiments au reste du centre."
+      },
+      {
+        heading: "6. Le centre-ville et les marchés",
+        body: "Vincennes a gardé un vrai centre commerçant, ce qui est plus rare qu'on ne croit en petite couronne : rue du Midi et rues adjacentes piétonnes ou apaisées, commerces indépendants, cafés en terrasse. La ville compte trois marchés sur son territoire, dont celui du quartier Carnot, au sud, près du château, qui se tient le samedi. C'est le meilleur moment pour voir la ville telle qu'elle vit. Le tout se combine facilement avec la visite du château : le centre est à quelques minutes à pied de l'entrée du monument, et la station de métro Château de Vincennes dépose exactement entre les deux."
+      },
+      {
+        heading: "7. Le bois de Vincennes — qui n'est pas à Vincennes",
+        body: "Point important et systématiquement ignoré : le bois de Vincennes, environ 995 hectares, appartient à la Ville de Paris et est rattaché administrativement au 12e arrondissement, pas à la commune de Vincennes. Il est donc accessible depuis Vincennes sans y être situé, comme le bois de Boulogne l'est depuis Neuilly. Cela dit, c'est le plus grand espace vert de Paris et il commence là où la ville finit : allées cavalières, pistes de course, lacs, guinguette, et de quoi marcher des heures sans revenir sur ses pas. Le lac Daumesnil et son île, avec ses barques, sont l'entrée la plus simple depuis le métro."
+      },
+      {
+        heading: "8. Le Parc floral et l'arboretum",
+        body: "Toujours dans le bois, donc côté parisien, le Parc floral occupe une trentaine d'hectares aménagés en jardins thématiques — vallée des fleurs, jardin de dahlias, pinède, bassins — et accueille en saison une programmation de concerts en plein air ainsi que des expositions horticoles. C'est l'un des quatre jardins botaniques de la Ville de Paris. Plus à l'est, du côté de Nogent, l'arboretum de l'école du Breuil rassemble une collection d'arbres considérable sur un site d'enseignement horticole, beaucoup plus calme et presque inconnu du grand public. Les deux se font en famille, à pied, et se rejoignent depuis Vincennes."
+      },
+      {
+        heading: "9. Le zoo, l'hippodrome et la Cartoucherie",
+        body: "Le bois concentre encore trois équipements qui n'ont rien à voir entre eux et qui valent chacun leur déplacement. Le Parc zoologique de Paris, rouvert en 2014 après une refonte complète, est organisé en biozones autour de son Grand Rocher. L'hippodrome de Vincennes est le temple français du trot et accueille chaque hiver le Prix d'Amérique, la course la plus suivie de la discipline. La Cartoucherie, ancien site militaire reconverti, abrite plusieurs théâtres dont le Théâtre du Soleil d'Ariane Mnouchkine. Là encore, ces sites sont dans le bois, donc à Paris — mais leur accès le plus commode passe par Vincennes."
+      },
+      {
+        heading: "10. Y aller, et pourquoi en faire une base",
+        body: "Vincennes est au terminus de la ligne 1 du métro, station Château de Vincennes, et sur le RER A, station Vincennes : le centre de Paris est à un quart d'heure, la gare de Lyon à moins de dix minutes. C'est ce qui fait de la ville une base de séjour sérieuse pour qui visite Paris sans vouloir y dormir : hébergement moins cher qu'intra-muros, un vrai centre-ville ouvert le soir, le bois pour respirer et un monument majeur sur place. Le château se visite toute l'année ; les fossés, le cours Marigny et le bois sont libres d'accès. Un conseil de calendrier : le donjon est nettement plus agréable hors des après-midi de plein été, l'escalier n'étant pas climatisé."
+      }
+    ],
+    relatedCities: ["vincennes", "paris", "saint-mande", "montreuil"],
+    relatedGuides: [
+      "10-choses-a-faire-a-paris-2026",
+      "10-choses-a-faire-a-montreuil-2026",
+      "10-choses-a-faire-a-versailles-2026",
+      "10-choses-a-faire-a-saint-denis-2026"
+    ],
+    tags: ["10 choses à faire à Vincennes", "activités Vincennes 2026", "que faire en Val-de-Marne", "sorties près de Paris", "château donjon Sainte-Chapelle bois de Vincennes Parc floral"]
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

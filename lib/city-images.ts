@@ -58,10 +58,22 @@ export function guideCityPhoto(
   relatedCities: string[],
 ): { slug: string; photo: CityPhoto } | null {
   for (const slug of relatedCities) {
-    if (guideSlug.includes(`-${slug}-`) || guideSlug.endsWith(`-${slug}`)) {
+    if (guideSlug.includes(`-${slug}-`) || guideSlug.endsWith(`-${slug}`) || guideCityElision(guideSlug, slug)) {
       const photo = cityPhoto(slug);
       if (photo) return { slug, photo };
     }
   }
   return null;
+}
+
+/**
+ * French contracts `à` + article, so a handful of tourism guides drop the city
+ * slug's own article: `le-tampon` → `10-choses-a-faire-au-tampon-2026`,
+ * `les-abymes` → `…-aux-abymes-2026`. Matching only the bare stem would risk a
+ * false positive on another city, so the contracted article has to be there too.
+ */
+function guideCityElision(guideSlug: string, citySlug: string): boolean {
+  const bare = citySlug.replace(/^(le|la|les)-/, "");
+  if (bare === citySlug) return false;
+  return guideSlug.includes(`-au-${bare}-`) || guideSlug.includes(`-aux-${bare}-`);
 }

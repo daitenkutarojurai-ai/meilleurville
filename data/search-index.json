@@ -4835,6 +4835,36 @@
       "slug": "parent-solo-a-saint-denis-reunion-2026",
       "title": "Parent solo à Saint-Denis de La Réunion en 2026 : la vie chère, la voiture, et l'éloignement",
       "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "10-choses-a-faire-au-lamentin-2026",
+      "title": "10 choses à faire au Lamentin (Martinique)",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "10-choses-a-faire-a-baie-mahault-2026",
+      "title": "10 choses à faire à Baie-Mahault (Guadeloupe)",
+      "emoji": "🛶"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saint-louis-reunion-974-2026",
+      "title": "10 choses à faire à Saint-Louis (La Réunion)",
+      "emoji": "🛕"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saint-joseph-reunion-2026",
+      "title": "10 choses à faire à Saint-Joseph (La Réunion)",
+      "emoji": "🦎"
+    },
+    {
+      "slug": "10-choses-a-faire-aux-sables-d-olonne-2026",
+      "title": "10 choses à faire aux Sables-d'Olonne",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "10-choses-a-faire-a-vincennes-2026",
+      "title": "10 choses à faire à Vincennes",
+      "emoji": "🏰"
     }
   ],
   "tags": [
@@ -5429,6 +5459,11 @@
       "count": 5
     },
     {
+      "slug": "que-faire-a-la-reunion",
+      "label": "que faire à La Réunion",
+      "count": 5
+    },
+    {
       "slug": "ski",
       "label": "ski",
       "count": 5
@@ -5586,6 +5621,11 @@
     {
       "slug": "pollution",
       "label": "pollution",
+      "count": 4
+    },
+    {
+      "slug": "que-faire-en-martinique",
+      "label": "que faire en Martinique",
       "count": 4
     },
     {
@@ -5924,13 +5964,8 @@
       "count": 3
     },
     {
-      "slug": "que-faire-a-la-reunion",
-      "label": "que faire à La Réunion",
-      "count": 3
-    },
-    {
-      "slug": "que-faire-en-martinique",
-      "label": "que faire en Martinique",
+      "slug": "que-faire-en-guadeloupe",
+      "label": "que faire en Guadeloupe",
       "count": 3
     },
     {
