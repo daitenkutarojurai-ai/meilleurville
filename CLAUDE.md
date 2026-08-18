@@ -1389,6 +1389,25 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
     9 621 — un chiffre qui a l'air d'une mesure et vaut 0,1 % du réel. Remplacé par
     `search()`, insensible à la casse et aux accents. **Leçon générale : un constant écrit
     sans avoir vu l'API répondre est `@unverified`, et ne mérite aucune surface au-dessus.**
+  - **État au 2026-08-18 — quatrième défaut du même filtre commune, corrigé.** Le filtre
+    cherchait le nom **d'affichage** du seed, parenthèse de désambiguïsation comprise
+    (« Saint-Denis (La Réunion) », « Le Robert (Martinique) », « Saint-Louis (Haut-Rhin) »),
+    alors que le champ `ville` du BODACC ne porte que le nom de commune. Corrélation
+    parfaite dans les deux sens : **les 10 seuls noms de seed à parenthèse sont les 10
+    villes sorties à zéro entrée** sur 540 — le site affirmait donc que Saint-Denis de La
+    Réunion n'avait rien immatriculé, rien radié et connu aucune procédure en douze mois.
+    `communeName()` retire la parenthèse **finale** uniquement ; c'est la moitié
+    `numerodepartement` de la clause qui distingue les homonymes, elle l'a toujours fait.
+    `QUERY_VERSION` = 2 → recollecte des 540 au prochain lot local. Garde permanente :
+    `news:selftest` (49 → **56 contrôles**) fait passer les **540 villes réelles** dans le
+    vrai constructeur de requête et refuse toute parenthèse dans le **terme** cherché
+    (pas dans la clause — `search(…)` en contient toujours). Et `news:stats` **nomme**
+    désormais les villes vides au lieu de les compter : c'est ce comptage muet
+    (« 13 with nothing in window ») qui a caché les dix Saint-X pendant quinze jours —
+    **un agrégat de zéros doit nommer ses membres**. Restent vides et à ne pas confondre :
+    `ile-de-re` (pas une commune : dix communes, ancrée sur Saint-Martin-de-Ré — non-correctif
+    assumé), `dinan` et `selestat` (inexpliquées, à sonder en local avec
+    `npm run news -- --slug=… --force`, ne rien écrire avant que l'API ait répondu).
   - **La collecte est automatisée, ne la relance pas depuis une routine.**
     `scripts/local-data-runner.sh` (cron local, 02h20 / 14h20 UTC) lance `npm run news` par
     lots de 180 villes (~4 s la ville), commite `data/city-news.json` et pousse.

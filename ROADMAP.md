@@ -319,7 +319,7 @@ recensées à proximité, zones protégées.
 |---|---------|------|------|-----|--------|
 | F62 | **Score Biodiversité** (pipeline GBIF + INPN → sous-page ×540 + classement) | **P0** | **L** | **high** | 🚧 en cours — GBIF **540/540** (crawl clos 09/08), sous-pages en ligne des deux locales, **rang de richesse retiré le 10/08** (il classait les programmes de saisie) ; zones protégées **0/540**, ingest + téléchargement branchés sur le cron local le 17/08, `overall` `null` tant que cette composante manque |
 | F63 | **Qualité de l'air — du modèle à la mesure** (ATMO + Geod'Air, hub + classement) | **P0** | **M** | **high** | 🔜 à faire |
-| F64 | **Actualité locale par ville** (open data BODACC/JO/CatNat → section CityProfile + routine hebdo) | **P1** | **M** | **low** | ✅ **en ligne — 540/540 villes, 4 212 entrées** (BODACC 4 172 + CatNat 40), collectées par le cron local les 04-05/08. Section rendue sur les deux locales. RNA toujours désactivé (0 association). Mois partiel marqué depuis le 11/08 |
+| F64 | **Actualité locale par ville** (open data BODACC/JO/CatNat → section CityProfile + routine hebdo) | **P1** | **M** | **low** | ✅ **en ligne — 540/540 villes, 4 212 entrées** (BODACC 4 172 + CatNat 40), collectées par le cron local les 04-05/08. Section rendue sur les deux locales. RNA toujours désactivé (0 association). Mois partiel marqué depuis le 11/08. **Filtre commune corrigé le 18/08** (`QUERY_VERSION = 2`) : les 10 villes dont le nom de seed porte une parenthèse — les Saint-X de La Réunion, Le Robert, Le François, Saint-Louis 68 — sortaient à **zéro entrée sur douze mois** ; recollecte des 540 au prochain lot local. 2 vides encore inexpliquées (dinan, selestat) |
 
 ### F62 — Score Biodiversité
 
@@ -1126,6 +1126,92 @@ répartir sur trois lots hebdomadaires. Si le cron ne rattrape pas, les lignes v
 de concert et le seuil d'affichage de 45 jours basculera lui aussi partout en même temps
 — vers le 19/09 dans le pire cas. Ce n'est pas cassé, mais le lissage supposé par les
 trois seuils n'existe pas encore.
+
+#### État au 2026-08-18 — dix communes déclaraient douze mois vides, et c'était la requête
+
+**Le défaut.** Le filtre commune du BODACC cherchait le nom **d'affichage** du seed. Or
+`data/cities-seed.ts` désambiguïse ses homonymes dans ce nom-là — « Saint-Denis (La
+Réunion) », « Saint-Louis (Haut-Rhin) », « Le Robert (Martinique) » — parce qu'un
+classement qui aligne deux « Saint-Denis » est illisible. Le champ `ville` du BODACC, lui,
+ne porte que le nom de la commune : `search(ville, "Saint-Denis (La Réunion)")` ne tombe en
+face de rien, la parenthèse étant des jetons que l'index plein texte n'a jamais vus.
+
+La corrélation est parfaite dans les deux sens, et c'est ce qui en fait un diagnostic et pas
+une intuition : **exactement 10 noms du seed portent une parenthèse, et exactement ces 10
+villes sont sorties à zéro entrée** sur les 540 du crawl des 04-05/08 —
+`saint-denis-reunion`, `saint-paul-reunion`, `saint-pierre-reunion`, `saint-andre-reunion`,
+`saint-louis-reunion-974`, `saint-joseph-reunion`, `saint-benoit-reunion`, `le-robert`,
+`le-francois`, `saint-louis-haut-rhin`. Le site affirmait donc que **Saint-Denis de La
+Réunion, plus grande commune des DROM, n'avait immatriculé aucune entreprise, radié
+personne et connu aucune procédure collective en douze mois**. Aucune erreur, aucun
+avertissement : un zéro qui se lit comme une mesure — la signature exacte du filtre en
+égalité majuscule corrigé le 04/08, et la troisième fois que ce pipeline la produit.
+
+Le code département n'y était pour rien : `deptFromInsee` rend bien « 974 », et Le Tampon,
+Fort-de-France, Les Abymes, Cayenne, Mamoudzou et Saint-Laurent-du-Maroni ont leurs 8
+entrées. C'est bien le nom, et lui seul.
+
+**Le correctif.** `communeName()` (`scripts/city-news.mjs`) retire la parenthèse **finale**,
+et seulement si quelque chose lui survit ; `bodaccWhere()` cherche ce nom-là. Rien n'est
+perdu au passage : c'est la moitié `numerodepartement` de la clause qui distingue les deux
+Saint-Denis, elle l'a toujours fait, le nom n'a jamais eu à le faire. `QUERY_VERSION` passe
+à **2**, donc `pickBatch()` traite toute ligne v1 comme échue et le prochain lot local
+recollecte les 540 — `lib/city-news.ts` ne filtre sur aucune version, les lignes déjà
+publiées restent affichées jusqu'à leur tour au lieu de vider la section entre-temps.
+
+**La garde.** `npm run news:selftest` passe de 49 à **56 contrôles** : les cas de
+`communeName()`, la clause complète pour Saint-Denis (974), et surtout la garde de fond —
+les **540 villes réelles** passées dans le vrai constructeur de requête, avec l'assertion
+qu'aucun **terme de recherche** ne contient de parenthèse et qu'aucun ne devient vide.
+(Premier jet raté à noter : l'assertion portait sur la clause entière, qui contient
+toujours les parenthèses de `search(…)` — c'est le terme qu'il faut lire, pas la clause.)
+`selftest()` devient `async` pour lire le seed sur disque ; toujours zéro réseau.
+
+**Et ce qui a permis à ça de durer quinze jours : `news:stats` comptait les villes vides
+sans les nommer.** « 13 with nothing in window » se lit comme treize petites communes où
+il ne s'est rien passé ; les dix Saint-X s'y cachaient sans que personne ait de raison de
+regarder. La commande les **liste** désormais, plus peuplées d'abord — la première ligne
+sort « saint-denis-reunion, saint-paul-reunion, saint-pierre-reunion… », et le défaut se
+voit en une seconde. Règle générale pour ce pipeline : **un agrégat de zéros doit nommer
+ses membres**, sinon un zéro faux est indiscernable d'un zéro vrai.
+
+**Trois villes vides que ce correctif ne touche pas, et qu'il ne faut pas confondre avec
+lui** :
+- `ile-de-re` (« Île de Ré ») **n'est pas une commune** : l'île en compte dix et le seed
+  l'ancre sur Saint-Martin-de-Ré. Aucun nom de commune ne peut donc être cherché sans
+  mentir dans un sens ou dans l'autre (un compte communal sous-estimerait l'île, le nom de
+  l'île n'existe pas au BODACC). **Non-correctif assumé** : la ligne reste vide et la
+  section ne s'affiche pas. Si un jour on la veut, ça passe par un champ d'ancrage explicite
+  au seed, pas par une exception codée en dur dans le crawler.
+- `dinan` (22050) et `selestat` (67462) restent **inexpliquées** : codes Insee corrects,
+  noms sans parenthèse, `sources` porte bien `bodacc` donc la requête a répondu — elle a
+  répondu zéro. Douze mois sans un seul dépôt dans deux communes de 15 000 et 17 000
+  habitants n'est pas crédible. **À faire au prochain passage local** :
+  `npm run news -- --slug=dinan --force` puis `--slug=selestat --force`, et si le zéro
+  tient, `npm run news:probe` pour voir ce que `ville` contient réellement dans le 22 et le
+  67. Ne rien écrire sur ces deux villes tant que l'API n'a pas répondu.
+
+**Correction factuelle au passage, sans changement de comportement.** Les deux fichiers
+documentaient une rotation de « ~180 villes par run **hebdomadaire**, donc ~3 semaines par
+tour ». C'est faux depuis le 04/08 : `local-data-runner.sh` tourne **deux fois par jour**,
+soit ~360 villes/jour, et le fichier le montre lui-même (540 villes collectées sur deux
+jours consécutifs, 363 + 177). Ce qui cadence le rafraîchissement est donc
+`DUE_AFTER_DAYS`, pas la taille du lot : une ligne saine ne dépasse jamais ~16 jours
+(14 + un balayage de ~2 jours). Conséquence sur le seuil d'affichage : **45 jours vaut ~3
+cycles sains au lieu des 2 annoncés** — large, pas faux (il ne peut toujours pas se
+déclencher sur un pipeline qui marche), mais il met six semaines à signaler un pipeline
+mort. Le resserrer vers ~30 est une décision à part, délibérément **non prise** ici pour
+que ce run ne porte qu'un seul changement de comportement ; le calcul est écrit dans les
+deux fichiers pour qui la prendra.
+
+**État du fichier au moment du run** (inchangé, le crawl n'est pas d'ici) : 540/540 villes,
+4 212 entrées, `refreshedAt` 2026-08-05, soit 13 jours — **nominal** : les lignes du 04/08
+arrivent à échéance le 18/08. `npm run news:prune` ne trouve rien hors fenêtre, les entrées
+courent d'octobre 2025 à août 2026. `npm run integrity` vert (540 villes, 4 212 entrées),
+`npx tsc --noEmit` propre, et le composant rendu pour de vrai (`renderToStaticMarkup`, FR
+et EN) : 12 contrôles verts, dont l'absence de fuite de français côté EN, le marquage
+« partiel » du mois d'août, `rel="nofollow"` sur tous les liens, et le fait qu'une donnée
+de 13 jours n'est **pas** étiquetée périmée.
 
 ---
 

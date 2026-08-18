@@ -66,8 +66,15 @@ const UA =
   "MaVilleIdeale/1.0 (https://www.mavilleideale.fr; daitenkutarojurai@gmail.com) node-fetch";
 
 /** Bump when a query shape changes — rows stamped with an older version are
- *  refreshed first, because their contents came from a query we no longer trust. */
-const QUERY_VERSION = 1;
+ *  refreshed first, because their contents came from a query we no longer trust.
+ *
+ *  v2 (2026-08-18): the BODACC commune filter searched the seed's DISPLAY name,
+ *  parenthetical disambiguator included, so the ten cities that carry one
+ *  returned zero rows — see communeName(). Every v1 row was produced by that
+ *  query, so every v1 row is re-fetched; `lib/city-news.ts` gates on nothing,
+ *  so the rows already published keep showing until their turn comes rather
+ *  than blanking the section in the meantime. */
+const QUERY_VERSION = 2;
 
 /** Windowing. Both are enforced here AND again in lib/city-news.ts at read
  *  time, so a JSON that stops being refreshed empties out instead of showing
@@ -76,13 +83,21 @@ const WINDOW_MONTHS = 12;
 const MAX_ENTRIES_PER_CITY = 8;
 /** A row older than this is due for a refresh.
  *
- *  Sizing note, because the two numbers below have to agree: one city costs
- *  ~3 requests at ~1 req/s, so ~3 s. The default batch of 180 is ~10 min of
- *  wall clock, and 540 / 180 = 3 weekly runs for a full rotation. A row is
- *  therefore re-fetched every ~3 weeks, which is why DUE_AFTER_DAYS is 14
- *  (a row becomes eligible before its turn comes round) and why the display
- *  threshold in lib/city-news.ts is a much looser 45 days — at 21 it would
- *  have branded almost every city "not re-checked since" permanently. */
+ *  Sizing note, because the numbers have to agree: one city costs ~3 requests
+ *  at ~1 req/s, so ~3 s, and the default batch of 180 is ~10 min of wall clock.
+ *
+ *  The "540 / 180 = 3 weekly runs, so ~3 weeks per rotation" written here until
+ *  2026-08-18 was never true in production: `local-data-runner.sh` fires twice a
+ *  day, i.e. ~360 cities/day, so a full rotation costs about a day and a half of
+ *  runner, not three weeks. The file says so itself — the first crawl covered
+ *  all 540 cities across two consecutive days (363 on 08-04, 177 on 08-05).
+ *
+ *  What actually paces the refresh is therefore DUE_AFTER_DAYS, not the batch
+ *  size: a row is picked up ~14 days after its last visit and the whole cohort
+ *  clears within ~2 days, so a healthy row is never older than ~16 days. The
+ *  45-day display threshold in lib/city-news.ts is consequently ~3 healthy
+ *  cycles of slack rather than the 2 it was meant to be — loose, not wrong, and
+ *  left alone here so this change stays one fix. */
 const DUE_AFTER_DAYS = 14;
 
 const MIN_SLEEP_MS = 1000; // ~1 req/s per the etiquette these APIs ask for.
@@ -208,6 +223,37 @@ export function deptFromInsee(insee) {
   if (insee.startsWith("2A") || insee.startsWith("2B")) return insee.slice(0, 2);
   if (insee.startsWith("97") || insee.startsWith("98")) return insee.slice(0, 3);
   return insee.slice(0, 2);
+}
+
+/**
+ * The commune's own name, stripped of the disambiguator the SEED adds for
+ * readers.
+ *
+ * `data/cities-seed.ts` disambiguates homonyms in the display name —
+ * "Saint-Denis (La Réunion)", "Saint-Louis (Haut-Rhin)", "Le Robert
+ * (Martinique)" — because a ranking listing two "Saint-Denis" is unreadable.
+ * BODACC's `ville` holds the commune name and nothing else, so handing the
+ * display name to `search()` matches no row at all: the parenthetical is extra
+ * tokens the full-text index has never seen.
+ *
+ * That is not a hypothesis. Exactly ten seed names carry a parenthetical, and
+ * exactly those ten cities came back with zero entries out of 540 on the
+ * 2026-08-04/05 crawl — so the file stated that Saint-Denis de La Réunion, the
+ * largest commune of the overseas départements, had registered no company,
+ * struck off none and had no insolvency proceeding for twelve months. Same
+ * failure shape as the uppercased-equality filter fixed on 2026-08-04: no
+ * error, no empty-result warning, just a zero that reads like a measurement.
+ *
+ * Only a TRAILING parenthetical is removed, and only when something survives
+ * it: the disambiguator is always last, and no commune is named entirely
+ * inside brackets. Nothing is lost by dropping it — the `numerodepartement`
+ * half of the where clause is what tells the two Saint-Denis apart, and it
+ * always was. The seed's own spelling is otherwise untouched, accents included.
+ */
+export function communeName(name) {
+  if (!name) return "";
+  const stripped = name.replace(/\s*\([^()]*\)\s*$/u, "").trim();
+  return stripped || name.trim();
 }
 
 /** Uppercase, accent-free, punctuation-normalised commune name — the shape
@@ -638,6 +684,11 @@ export function monthISO(year, month) {
  * there it is right — but the general case is not guaranteed). Scoped to one
  * département that stays rare, and an over-count is visible where an
  * under-count is not. The imprecision is stated on the page.
+ *
+ * The searched string is `communeName(city.name)`, never `city.name`: the seed
+ * disambiguates ten homonyms in its display name and those ten parentheticals
+ * are what zeroed every Saint-X of La Réunion on the first real crawl. See
+ * communeName().
  */
 export function bodaccWhere(city, anchor, since) {
   const date = `${BODACC_FIELDS.date} >= date'${since}'`;
@@ -645,7 +696,7 @@ export function bodaccWhere(city, anchor, since) {
     return `${BODACC_FIELDS.insee} = "${city.inseeCode}" and ${date}`;
   }
   const dept = deptFromInsee(city.inseeCode);
-  const name = city.name.replace(/"/g, "");
+  const name = communeName(city.name).replace(/"/g, "");
   return `search(${BODACC_FIELDS.city}, "${name}") and ${BODACC_FIELDS.dept} = "${dept}" and ${date}`;
 }
 
@@ -932,12 +983,25 @@ async function showStats() {
   const file = await readFile_();
   const rows = Object.values(file.cities);
   const entries = rows.reduce((s, r) => s + (r.entries?.length ?? 0), 0);
-  const empty = rows.filter((r) => !(r.entries?.length ?? 0)).length;
+  const empty = Object.entries(file.cities)
+    .filter(([, r]) => !(r.entries?.length ?? 0))
+    .map(([slug]) => slug);
   const byKind = {};
   for (const r of rows) for (const e of r.entries ?? []) byKind[e.kind] = (byKind[e.kind] ?? 0) + 1;
-  log(`covered ${rows.length}/${seed.length} cities, ${entries} entries (${empty} with nothing in window)`);
+  log(`covered ${rows.length}/${seed.length} cities, ${entries} entries (${empty.length} with nothing in window)`);
   log(`last refresh: ${file.meta.refreshedAt ?? "never"}`);
   log(`by kind: ${Object.entries(byKind).map(([k, n]) => `${k} ${n}`).join(", ") || "—"}`);
+  // Naming them, not just counting them, is the whole point: a commune with an
+  // empty twelve months is either a small commune where nothing was filed, or a
+  // query that silently matched nothing. Told as a bare count, the second hid
+  // behind the first for a fortnight — the ten Saint-X of communeName() sat in
+  // "13 with nothing in window" and no one had reason to look.
+  if (empty.length) {
+    const byPop = new Map(seed.map((c) => [c.slug, c.population ?? 0]));
+    const sorted = [...empty].sort((a, b) => (byPop.get(b) ?? 0) - (byPop.get(a) ?? 0));
+    log(`nothing in window (largest first): ${sorted.slice(0, 25).join(", ")}` +
+      (sorted.length > 25 ? ` … +${sorted.length - 25}` : ""));
+  }
 }
 
 /* ── selftest ───────────────────────────────────────────────────────────── */
@@ -948,8 +1012,11 @@ async function showStats() {
  * pure, so it can be verified without egress. This is the counterpart of the
  * commune canary in city-parks.mjs: the failure mode here is not a wrong photo,
  * it is a wrong number presented as an official count.
+ *
+ * Async only because the last block reads `data/cities-seed.ts` from disk to
+ * run the real 540 cities through the real query builder. Still no network.
  */
-function selftest() {
+async function selftest() {
   const results = [];
   const check = (label, got, want) => {
     const ok = JSON.stringify(got) === JSON.stringify(want);
@@ -1128,6 +1195,35 @@ function selftest() {
     bodaccWhere({ slug: "saint-etienne", name: "Saint-Étienne", inseeCode: "42218" }, "name+dept", "2025-08-04")
       .includes('search(ville, "Saint-Étienne")'), true);
 
+  // — the seed's homonym disambiguator must never reach the query —
+  check("communeName drops a trailing disambiguator",
+    ["Saint-Denis (La Réunion)", "Saint-Louis (Haut-Rhin)", "Le Robert (Martinique)"]
+      .map(communeName),
+    ["Saint-Denis", "Saint-Louis", "Le Robert"]);
+  check("communeName leaves a plain name alone",
+    ["Annecy", "Saint-Étienne", "L'Haÿ-les-Roses"].map(communeName),
+    ["Annecy", "Saint-Étienne", "L'Haÿ-les-Roses"]);
+  check("communeName only strips at the end", communeName("Le (vrai) Robert"), "Le (vrai) Robert");
+  check("communeName never returns nothing", communeName("(Réunion)"), "(Réunion)");
+  check("where searches the commune, not the seed label",
+    bodaccWhere({ slug: "saint-denis-reunion", name: "Saint-Denis (La Réunion)", inseeCode: "97411" },
+      "name+dept", "2025-08-04"),
+    `search(${BODACC_FIELDS.city}, "Saint-Denis") and ${BODACC_FIELDS.dept} = "974" and ${BODACC_FIELDS.date} >= date'2025-08-04'`);
+  // The regression guard proper: run the real seed through the real builder and
+  // read back the string actually handed to `search()` — the clause itself is
+  // full of brackets, it is the searched TERM that must have none. A
+  // parenthetical surviving into that term is the exact shape that made ten
+  // communes report twelve empty months without raising anything.
+  const seedCities = await loadSeed();
+  const searched = (c) =>
+    /search\([^,]+, "([^"]*)"\)/.exec(bodaccWhere(c, "name+dept", "2025-08-04"))?.[1] ?? "";
+  const withBracket = seedCities.filter((c) => /[()]/.test(searched(c))).map((c) => c.slug);
+  check(`no seed city carries a parenthetical into its search term (${seedCities.length} checked)`,
+    withBracket, []);
+  // And nothing was emptied by the stripping either.
+  check("every seed city still searches a non-empty term",
+    seedCities.filter((c) => !searched(c).trim()).map((c) => c.slug), []);
+
   // — batch rotation —
   const seed = [
     { slug: "big", population: 500000 },
@@ -1158,7 +1254,7 @@ function selftest() {
 /* ── run ────────────────────────────────────────────────────────────────── */
 
 if (cmd === "probe") await probe();
-else if (cmd === "selftest") process.exitCode = selftest() ? 1 : 0;
+else if (cmd === "selftest") process.exitCode = (await selftest()) ? 1 : 0;
 else if (cmd === "prune") await prune();
 else if (cmd === "stats") await showStats();
 else await crawlBatch();

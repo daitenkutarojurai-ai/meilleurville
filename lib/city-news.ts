@@ -105,13 +105,20 @@ export const NEWS_CITY_COUNT = NEWS_CRAWLED_SLUGS.length;
  * Beyond this, the surface must say "last successful refresh" instead of
  * "updated".
  *
- * It is deliberately much looser than the crawler's DUE_AFTER_DAYS (14). The
- * crawler rotates: ~180 cities per weekly run, so a given city's turn comes
- * round about every three weeks even when everything is working perfectly. A
- * 21-day threshold here would therefore label almost every city stale forever,
- * which would train readers to ignore the warning on the day it matters. 45
- * days means roughly two missed rotations — a routine that has actually
- * stopped, not one merely between turns.
+ * It is deliberately much looser than the crawler's DUE_AFTER_DAYS (14), so it
+ * cannot fire while a city is merely waiting its turn. A threshold of 21 days
+ * would label cities stale for being on schedule, which trains readers to
+ * ignore the warning on the day it matters.
+ *
+ * The margin is larger than intended, though, and the arithmetic that set it
+ * was wrong: it assumed ~180 cities per WEEKLY run, hence a rotation of about
+ * three weeks. The collector actually runs twice a day (~360 cities/day), and
+ * the file bears that out — all 540 cities were first collected across two
+ * consecutive days. So a healthy row is never older than DUE_AFTER_DAYS plus
+ * one ~2-day sweep, i.e. ~16 days, and 45 is roughly three healthy cycles
+ * rather than the two it was described as. Loose, not wrong: it still never
+ * fires on a working pipeline, it just takes six weeks to notice a dead one.
+ * Tightening it towards ~30 is a separate, deliberate change.
  */
 const STALE_AFTER_DAYS = 45;
 
