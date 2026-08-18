@@ -26832,6 +26832,486 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["dunkerque", "calais", "saint-omer", "boulogne-sur-mer", "lille"],
     tags: ["single parent dunkirk", "single parent in france", "expat single parent", "moving to france", "hauts-de-france"],
   },
+  {
+    slug: "working-in-paris-2026",
+    title: "Working in Paris: the deepest job market in France, and what it costs you",
+    metaTitle: "Working in Paris 2026 — Sectors, Pay, Job Search",
+    metaDesc: "Working in Paris in 2026: job market 7.2/10, median living standard €2,480 a month, T2 rent €1,800. The sectors that hire and the traps.",
+    category: "moving",
+    emoji: "💼",
+    readMinutes: 8,
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    intro: "Paris is the only French city where almost any professional field has real depth. Headquarters, consultancies, banks, luxury houses, hospitals and ministries sit within a few metro stops of each other, and the volume of managerial hiring has no equivalent elsewhere in the country. It is also the city where a good salary buys the least: a two-bed averages €1,800 a month and buying costs €10,500 per square metre. This guide covers what the local job market actually looks like, how a foreign candidate gets into it, and the traps that catch people who moved for the job title.",
+    sections: [
+      {
+        heading: "What the numbers say, and what they do not",
+        body: "Our job-market estimate puts Paris at 7.2/10, where 10 is the most favourable, third of the 363 French communes above 20,000 residents that the ranking covers. Treat it as an estimate: it is built from the departmental unemployment rate, business creation, the spread of local employers and departmental pay levels, not from a count of open vacancies. Next to it sits a measured figure. Insee reports a median standard of living of €29,730 a year in Paris, about €2,480 a month, which ranks 31st of the 533 communes covered, with a poverty rate of 16%. Be careful with that number: it is disposable income per consumption unit, benefits included, spread across a whole household and across residents who are retired or out of work. It is not a salary and it should never be compared with a job offer. What it does tell you is that Paris combines the highest incomes in the country with a poverty rate that is far from the lowest, because the city holds both ends of the distribution at once. The full axis breakdown is on /cities/paris/employment.",
+      },
+      {
+        heading: "The sectors that actually hire",
+        body: "Five blocks dominate. Banking, finance and insurance, with BNP Paribas, Société Générale, Crédit Agricole SA, AXA, Allianz France and BPCE holding their head offices in Paris or immediately west of it. Consulting and audit, meaning the Big Four alongside BCG, McKinsey, Bain, Capgemini and the large IT services firms such as Sopra Steria, Atos and Accenture. Technology, anchored by Station F in the 13th arrondissement with roughly a thousand startups, plus the French offices of Google, Meta and Salesforce. Luxury and beauty, where LVMH, Kering, L'Oréal, Chanel and Hermès keep their headquarters and creative direction in the city rather than at a factory site. Media, communications and advertising, from Publicis and Havas to France Télévisions, Radio France, TF1 and M6. Outside the private sector, AP-HP, the Paris public hospital group, employs around 100,000 people and is the largest employer in the region, ahead of the transport operators and the ministries.",
+      },
+      {
+        heading: "La Défense is a separate market",
+        body: "La Défense is not in Paris. It sits in Hauts-de-Seine, across Courbevoie, Puteaux, La Garenne-Colombes and Nanterre, and it concentrates about 180,000 jobs on 570 hectares. On paper it is the largest business district in Europe. In practice it is a single-function place: banking, insurance, energy and consulting, with very little else. The advantages are real, including modern floors, direct RER A and E access and pay that runs roughly 5 to 10% above central Paris for the same role. The costs are equally real. Lunch is expensive, the district empties in the evening and at weekends, and the commute punishes anyone living east of the city, where an hour door to door is normal. Many people end up renting in Courbevoie, Nanterre or Boulogne-Billancourt to shorten it, and that is not cheap either: a two-bed averages €1,250 in Courbevoie, €1,050 in Nanterre and €1,400 in Boulogne-Billancourt.",
+      },
+      {
+        heading: "Where the jobs are advertised, and where they are not",
+        body: "A large share of managerial roles in Paris is filled without a public advertisement, through networks, internal moves and headhunters. Assume that the job boards show you part of the market, not all of it. The channels that work are LinkedIn, which has by far the largest recruiter base in France here, the Apec, which is the public agency dedicated to cadre-level roles and runs advice sessions worth attending, France Travail for everything else, and Welcome to the Jungle for startups and scale-ups. Sector fairs matter more than newcomers expect: VivaTech in June for technology, and the general employment fairs held each autumn. For a foreign candidate the practical implication is unglamorous. Budget several months, treat coffee meetings as part of the search rather than a distraction from it, and expect the first interview to come from a person rather than from a form.",
+      },
+      {
+        heading: "The right to work: permits, diplomas, language",
+        body: "Citizens of the EU, the EEA and Switzerland need no permit and can start on day one. Everyone else needs a work authorisation, and in most cases the employer applies for it before the visa is issued, which means a company willing to do the paperwork is part of what you are looking for. The Passeport Talent route is the usual one for qualified hires and sets a salary floor indexed on the French average wage; check the current figure on France-Visas or with the préfecture rather than trusting a number from a forum, because it is revised. Foreign qualifications are not automatically recognised. ENIC-NARIC France issues a statement of comparability that most employers accept, and regulated professions, medicine, law, architecture and teaching among them, run their own separate recognition process that takes far longer. On language, Paris is the one French city where a serious career in English is possible, in finance, consulting, technology and international bodies. It is still a minority of roles, and B2 French widens the field by an order of magnitude.",
+      },
+      {
+        heading: "What a French contract actually gives you",
+        body: "The permanent contract, the CDI, is the norm for cadre roles and is what landlords and banks want to see. The fixed-term CDD exists but is limited by law in duration and in the reasons an employer may use it. Expect a trial period, usually up to four months for a cadre and renewable once, during which either side can end the contract with short notice. Statutory paid leave is five weeks, and many office jobs add RTT days on top when the working week is set above 35 hours. Your employer must reimburse half the cost of a public transport season ticket, which in Paris is not a detail. Health cover comes in two layers, the state scheme and a company mutuelle that the employer part-funds and that you are normally required to join. One number to internalise before you negotiate: French offers are quoted in gross, and net pay before income tax is roughly 78% of it, with income tax then withheld at source on top.",
+      },
+      {
+        heading: "Housing is the real salary negotiation",
+        body: "Paris rents average €1,200 for a studio, €1,800 for a two-bed and €2,800 for a three-bed, and buying averages €10,500 per square metre, the highest of any large French city by a wide margin. Landlords typically ask for proof of income around three times the rent, plus a French guarantor or the state-backed Visale guarantee, and that gatekeeping is often harder for a newcomer than the price itself. Run the arithmetic before you accept an offer rather than after: on the standard three-times rule, a two-bed alone implies a household net income in the region of €5,400 a month, which is why flat-sharing and the inner suburbs are the normal answer rather than a compromise. Our cost-of-living axis rates Paris 2.2/10, the lowest of any city in this batch, and that single figure explains why people with identical job titles feel richer in Lyon or Rennes.",
+      },
+      {
+        heading: "The traps worth knowing before you apply",
+        body: "First, title inflation. Paris hands out senior-sounding titles early and then caps the salary that goes with them, and a head-of-something at 32 can be paid less than a senior engineer in Toulouse who lives twice as well. Read the pay, not the business card. Second, the hours culture in a few corners of the market, notably early-stage startups, boutique consultancies and advertising, where a modest package is paired with a very long week. Check turnover before signing. Third, the commute. A job at La Défense from the east of the city costs around two and a half hours a day, which is a working day and a half every week. Fourth, salary drift. Annual rises are modest here and pay tends to move when people move, so staying five years in the same seat often means falling behind the market. Fifth, hybrid working. Two to three days on site is the common settlement, but a listing that says full remote frequently means one day a week in the office. Get the number written into the contract.",
+      },
+    ],
+    relatedCities: ["paris", "boulogne-billancourt", "nanterre", "courbevoie", "versailles"],
+    tags: ["working in paris 2026", "working in france", "job market france", "ile-de-france", "paris"],
+  },
+  {
+    slug: "working-in-lyon-2026",
+    title: "Working in Lyon: the best-rated job market in our ranking, examined",
+    metaTitle: "Working in Lyon 2026 — Sectors, Pay, Job Search",
+    metaDesc: "Working in Lyon in 2026: job market 7.5/10, first of 363 communes, T2 rent €1,000. Pharma, chemicals, banking, tech, and the traps.",
+    category: "moving",
+    emoji: "💼",
+    readMinutes: 8,
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    intro: "Lyon is the one French city outside Paris where a specialist can change employer without changing region. Pharmaceuticals, industrial chemistry, banking, logistics and software all have genuine depth here, the transport score is 9/10, and a two-bed rents for €1,000 against €1,800 in Paris. It also ranks first of the 363 communes in our job-market estimate, which is a strong claim and deserves to be unpacked rather than repeated. This guide covers who hires, how the local market is entered from abroad, and what the ranking does not capture.",
+    sections: [
+      {
+        heading: "First of 363, and what that means",
+        body: "Our job-market estimate rates Lyon 7.5/10, where 10 is the most favourable, first of the 363 communes above 20,000 residents in the ranking. The estimate is built from departmental unemployment, business creation, the spread of local employers and departmental pay, so it describes conditions rather than counting vacancies, and Lyon scores well on all four rather than spectacularly on one. The measured figure beside it is Insee's median standard of living: €25,430 a year, about €2,120 a month, 86th of the 533 communes covered, with a poverty rate of 16%. That figure is disposable income per consumption unit and includes benefits, retired residents and households out of work, so it is not a salary and cannot be compared with an offer. Read together, the two say something useful. Lyon is not the highest-paid city in France, it is the one where the combination of pay, rent and breadth of employers works out best. The axis detail is on /cities/lyon/employment.",
+      },
+      {
+        heading: "The sectors that actually hire",
+        body: "Five blocks carry the market. Pharmaceuticals and health, with Sanofi Pasteur at Marcy-l'Étoile employing around 5,000 in the basin, Boehringer Ingelheim at Gerland, and the Hospices Civils de Lyon, the second largest teaching hospital group in France with some 22,000 staff. Industrial chemistry along the Rhône valley south of the city, where Solvay, Arkema, Bluestar Silicones, Framatome and Bayer CropScience together account for roughly 25,000 jobs. Banking and insurance, with Crédit Agricole Centre-Est, Groupama Rhône-Alpes-Auvergne, La Banque Postale and HSBC France concentrated around Part-Dieu. Technology, with a French Tech ecosystem of about 1,200 startups including Withings, iAdvize and OpenClassrooms, alongside Sopra Steria, Atos and Capgemini. Finally vehicles and equipment: Volvo Trucks runs its European headquarters at Saint-Priest, next to Renault Trucks, Toyota Material Handling and Aldes. Logistics rides on the same geography, since Lyon is the hinge of the north-south corridor.",
+      },
+      {
+        heading: "Part-Dieu, and where people actually live",
+        body: "Part-Dieu is the second business district in France by office floor space, roughly 1.3 million square metres and about 55,000 managerial jobs on 200 hectares in the 3rd arrondissement. It has been under continuous reconstruction for a decade, which produced the Incity and To-Lyon towers and a permanent building site alongside them. What makes it work is the interchange: a TGV station with Paris in two hours and Marseille in one hour forty, plus metro, tram and a dense bike-share network. What makes it tiring is that it is an office district and behaves like one after seven in the evening. Most people who work there live somewhere else in the city and ride five stops, which is realistic because rents inside Lyon average €720 for a studio, €1,000 for a two-bed and €1,380 for a three-bed. Villeurbanne next door is cheaper at €870 for a two-bed and is on the same metro line.",
+      },
+      {
+        heading: "Where the jobs are advertised, and where they are not",
+        body: "Lyon runs on alumni networks to a degree that surprises people arriving from abroad. INSA Lyon, Centrale Lyon and EM Lyon supply a large share of local managers and their associations are genuinely active. The channels that work are LinkedIn, which is the second deepest recruiter pool in France after Paris, the Apec office at Part-Dieu, which is the public service for cadre-level roles and is unusually busy here, France Travail for everything else, and the regional arms of the recruitment firms. Industry events are worth planning around, in particular the cadre employment fair held in late winter and the French Tech Lyon programme in autumn. For pharmaceuticals and chemistry the entry route often runs through the engineering and pharmacy schools rather than through a job board. A foreign candidate with no local network should assume that the first three months produce contacts rather than offers, and plan the budget accordingly.",
+      },
+      {
+        heading: "The right to work: permits, diplomas, language",
+        body: "EU, EEA and Swiss citizens need no permit. Everyone else needs a work authorisation that the employer applies for, so the question of whether a company has sponsored anyone before is a fair one to ask early in a process. The Passeport Talent route covers most qualified hires and carries a salary floor indexed on the French average wage, revised periodically, so check the live figure on France-Visas rather than a number quoted in a forum. Qualifications earned abroad are compared, not automatically recognised: ENIC-NARIC France issues the statement of comparability that employers expect, and regulated fields such as pharmacy, medicine and engineering titles have their own procedures. Language matters more here than in Paris. International teams exist in software and in the research arms of the pharmaceutical groups, but production sites, hospitals, banking and the chemical valley run in French, and B2 is the realistic threshold for a cadre role. Lyon is a good city to learn in, with a large university system and cheap evening classes.",
+      },
+      {
+        heading: "What a French contract actually gives you",
+        body: "The CDI, the open-ended contract, is what you want and what landlords ask to see. Expect a trial period of up to four months for a cadre, renewable once. Statutory leave is five weeks, and many office roles add RTT days when the contractual week runs above 35 hours. Half of a public transport season ticket is reimbursed by the employer, which in a city with a 9/10 transport score is worth having. Company health cover, the mutuelle, is part-funded by the employer and normally compulsory. Two local specifics. Pay grids in the chemical and pharmaceutical industries are set by strong sector agreements, which means less room to negotiate the base but more predictable progression than in a startup. And Lyon reportedly pays experienced cadres in the range of €55,000 to €75,000 gross, with juniors between €40,000 and €55,000, figures reported in our French guide to the same market. Net before income tax is roughly 78% of gross, with tax withheld at source after that.",
+      },
+      {
+        heading: "Housing, and the arithmetic that follows",
+        body: "Rents average €720 for a studio, €1,000 for a two-bed and €1,380 for a three-bed, with a purchase price of €5,000 per square metre. That is less than half the Paris square metre and it is the whole argument for the city. Applying the usual three-times-rent screening that landlords use, a two-bed alone implies about €3,000 a month of net household income, which a mid-career cadre salary reaches without heroics. Our cost-of-living axis still puts Lyon at only 4.2/10, so this is affordability relative to Paris rather than in absolute terms. One practical warning specific to the metropolis: the low-emission zone excludes older diesel vehicles, and the perimeter has been tightening. If your job is in the eastern industrial belt and you were planning to buy a cheap second-hand car, price the replacement into your first year rather than discovering the rule after you sign.",
+      },
+      {
+        heading: "The traps worth knowing before you apply",
+        body: "First, the market is deep but it is not liquid. People stay in post longer here than in Paris, so openings at senior level appear less often and internal promotion does more of the work than job-hopping. Negotiate hard on entry, because catch-up later is rare. Second, the sector concentration cuts both ways. Pharmaceuticals, chemistry, banking and software are strong, but market finance, luxury, fashion and audiovisual are thin, and a specialist in those fields will hit a ceiling fast. Third, geography. The eastern belt around Bron and Saint-Priest holds much of the industry and the ring road saturates, so a commute described as twenty-five minutes can be an hour at eight in the morning. Test it at the real time of day before choosing where to live. Fourth, remote work varies by function inside the same company: head-office roles in a pharmaceutical group may have three days at home while the laboratory next door has none. Ask about your function, not about the employer.",
+      },
+    ],
+    relatedCities: ["lyon", "villeurbanne", "saint-priest", "bron", "saint-etienne"],
+    tags: ["working in lyon 2026", "working in france", "job market france", "auvergne-rhone-alpes", "lyon"],
+  },
+  {
+    slug: "working-in-marseille-2026",
+    title: "Working in Marseille: a two-speed market, read honestly",
+    metaTitle: "Working in Marseille 2026 — Sectors, Pay, Job Search",
+    metaDesc: "Working in Marseille in 2026: job market 5.8/10, poverty rate 26%, T2 rent €820. Shipping, health, tech, and what the ranking hides.",
+    category: "moving",
+    emoji: "💼",
+    readMinutes: 8,
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    intro: "Marseille has the port, the second largest teaching hospital group in France and a technology cluster shared with Aix-en-Provence, and it has an unemployment problem that has not moved in a generation. Both things are true at once, and any guide that only reports one of them is selling something. Rents are among the lowest of the large French cities at €820 for a two-bed, which is what makes the city viable on a modest salary. This guide covers who hires, how the Aix axis changes the picture, and what a newcomer without a local network should expect.",
+    sections: [
+      {
+        heading: "What the numbers say, and what they do not",
+        body: "Our job-market estimate puts Marseille at 5.8/10, where 10 is the most favourable, 156th of the 363 communes above 20,000 residents in the ranking. The weak component is unemployment, scored 7 out of 10 on difficulty at departmental level, while the spread of employers and the pay component score better. It is an estimate built from departmental indicators, not a count of local vacancies. The measured figure alongside it is harsher and should not be softened: Insee reports a median standard of living of €20,600 a year, about €1,720 a month, 332nd of the 533 communes covered, with a poverty rate of 26%. That is disposable income per consumption unit, benefits included, across all residents, so it is not a salary. What it does say is that more than a quarter of the city lives below the poverty line, which is the context any job offer here sits in. The axis breakdown is on /cities/marseille/employment.",
+      },
+      {
+        heading: "The sectors that actually hire",
+        body: "Five blocks structure the market. Shipping and logistics first: CMA CGM, the third largest container line in the world, employs about 4,500 people in the basin, and the Marseille-Fos port complex, the largest in France, supports tens of thousands of indirect jobs, with Naval Group at La Ciotat and heavy industry at Fos including ArcelorMittal and LyondellBasell. Public health second: AP-HM, the Marseille hospital group, employs around 15,000 people and is the second largest such group in France, alongside the IHU Méditerranée Infection and the private clinic networks. Technology third, and it is genuinely bi-polar, spread between Marseille sites such as Château-Gombert and Les Fabriques and the Aix side including The Camp, with a French Tech ecosystem of roughly 600 startups. Fourth, audiovisual and events, anchored by the Belle de Mai studios and the congress venues. Fifth, defence and aerospace nearby: Airbus Helicopters at Marignane employs some 7,000 people, and Naval Group at Toulon is an hour away.",
+      },
+      {
+        heading: "The Aix axis: two markets counted as one",
+        body: "The real managerial job market covers Marseille and Aix-en-Provence together, and the two behave differently. Marseille holds public employers, the head-office functions of the large local groups and a gentrifying tech scene around the Joliette and Les Fabriques. Aix, 25 km east and much smaller, holds the regional offices of the consultancies and audit firms, business-to-business software and a cluster of aerospace and defence engineering. Pay in Aix runs above Marseille for the same role, and so does rent: a two-bed averages €1,050 in Aix against €820 in Marseille, and a three-bed €1,400 against €1,100. Most people who work in Aix and want the coast live in Marseille rather than the reverse. Before you commit to that arrangement, drive or ride it at eight in the morning. The motorway between the two saturates early and the regional train timetable is the difference between a workable commute and a resented one.",
+      },
+      {
+        heading: "Where the jobs are advertised, and where they are not",
+        body: "Marseille is a network city, more so than any other large French metropolis, and this is the single most important thing to understand as a newcomer. A substantial share of managerial roles is filled on recommendation, which is not favouritism so much as a market where employers trust people they have met. The practical channels are LinkedIn, strong for the Aix-Marseille technology corridor and weak for hospitality, the Apec office in the 1st arrondissement for cadre roles, France Travail elsewhere, and the regional offices of the recruitment firms. Sector events are the fastest way in: the logistics and transport fair in June, the health and innovation events in autumn, and the coworking scene around the Vieux-Port and The Camp in Aix. Plan on six to twelve months of visible local presence before the market responds properly. That is a real cost, and it is the reason people who arrive with a signed contract have a very different experience from those who arrive to look.",
+      },
+      {
+        heading: "The right to work: permits, diplomas, language",
+        body: "EU, EEA and Swiss nationals need no permit; everyone else needs an employer-sponsored work authorisation, and it is worth asking about sponsorship in the first conversation rather than the fifth. The Passeport Talent route is the standard one for qualified roles and carries a salary floor indexed on the French average wage that is revised periodically, so read the current figure on France-Visas. Diplomas earned abroad are compared rather than recognised, through the ENIC-NARIC France statement of comparability, and the health professions run their own long recognition process, which matters here given how much of the local market is hospital work. On language, Marseille is less anglophone than its Mediterranean reputation suggests. International English-speaking roles exist in shipping and in parts of the technology cluster, but hospitals, the port administration, public bodies and most local companies work in French, and B2 is the entry level for a cadre position rather than a bonus.",
+      },
+      {
+        heading: "What a French contract actually gives you",
+        body: "The CDI is the open-ended contract and the one that unlocks housing and credit. The CDD is fixed-term and legally restricted, but it is more common here than in Lyon or Rennes because tourism, events and seasonal logistics run on it, so check the contract type in the first email rather than assuming. Trial periods run up to four months for a cadre, renewable once. Statutory leave is five weeks, with RTT days added when the week is set above 35 hours. Employers reimburse half of a public transport season ticket. Company health cover is part-funded and normally compulsory. One local point on pay: our French guide to the same market reports experienced cadres in the €45,000 to €65,000 gross range, below Lyon for equivalent work, with the Aix side sitting at the top of that band. Net before income tax is roughly 78% of gross, and income tax is then withheld at source.",
+      },
+      {
+        heading: "Housing, and the one advantage that is real",
+        body: "Rents average €590 for a studio, €820 for a two-bed and €1,100 for a three-bed, with purchase at €3,500 per square metre. Set against the salaries above, that is the strongest argument the city has: the same job pays less than in Lyon but leaves more at the end of the month for a single person or a couple without children. Landlords still apply the three-times-rent screen and will ask for a French guarantor or the state-backed Visale guarantee. Two caveats keep this from being a free lunch. Our safety axis rates Marseille 2.7/10 and the schools axis 2.4/10, both the lowest of the ten cities in this series, so the district you choose does more work here than in most French cities and the arbitration is genuinely different for a family than for a single professional. And the remote-work axis is 4.3/10, the weakest of the batch, so a plan built on working from home for a foreign employer deserves a connection check at the specific address.",
+      },
+      {
+        heading: "The traps worth knowing before you apply",
+        body: "First, undervaluation. The local market pays visibly less than Lyon or Paris for equivalent work while food and fuel cost about the same, so the discount is not proportional to the saving. Negotiate on entry. Second, the network effect described above, which penalises a candidate with a strong CV and no local presence more than it penalises a mediocre CV with contacts. Third, the commute between Aix and Marseille, which is routinely described as twenty-five minutes and routinely is not. Fourth, seasonal contracts in tourism, retail and events, where a listing that reads like a permanent role is a nine-month CDD; the difference decides whether you can rent an apartment. Fifth, the low-emission zone, which excludes older diesel vehicles from the city and has been tightening, so an old car bought to reach a job on the outskirts may need replacing within the year. None of this makes Marseille a bad move. It makes it a move to arrive at with a contract already signed.",
+      },
+    ],
+    relatedCities: ["marseille", "aix-en-provence", "aubagne", "martigues", "toulon"],
+    tags: ["working in marseille 2026", "working in france", "job market france", "provence-alpes-cote-d-azur", "marseille"],
+  },
+  {
+    slug: "working-in-toulouse-2026",
+    title: "Working in Toulouse: aerospace, space, and the risk of one industry",
+    metaTitle: "Working in Toulouse 2026 — Aerospace, Pay, Job Search",
+    metaDesc: "Working in Toulouse in 2026: job market 5.8/10, T2 rent €850, schools 9/10. Airbus, space, IT, and the cost of a single-industry city.",
+    category: "moving",
+    emoji: "💼",
+    readMinutes: 8,
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    intro: "Toulouse has something no other European city has: the assembly lines of Airbus, the civil satellite industry and the French space agency within twenty kilometres of each other, surrounded by a supply chain of a couple of thousand firms. For an aerospace engineer it is one of the few places on the continent where a career can be built without moving country. For everyone else the picture is narrower than the reputation suggests, and the city has grown faster than its infrastructure. This guide covers who hires, what a foreign candidate needs, and the concentration risk nobody mentions at the interview.",
+    sections: [
+      {
+        heading: "What the numbers say, and what they do not",
+        body: "Our job-market estimate rates Toulouse 5.8/10, where 10 is the most favourable, 161st of the 363 communes above 20,000 residents in the ranking. That mid-table position surprises people, and the reason is the unemployment component, scored 7 out of 10 on difficulty for the department, which sits above the national average despite the industrial base. The estimate is built from departmental indicators rather than a count of vacancies, so read it as conditions, not opportunity. The measured figure beside it is Insee's median standard of living: €22,140 a year, about €1,850 a month, 202nd of the 533 communes covered, with a poverty rate of 22%. It is disposable income per consumption unit including benefits, not a salary. Two other seed figures matter for a working newcomer: the schools axis is 9/10, the joint highest in this batch, and the population grew 7.6% between 2016 and 2022, which explains both the energy and the pressure. Full detail on /cities/toulouse/employment.",
+      },
+      {
+        heading: "The sectors that actually hire",
+        body: "Aerospace dominates and it is not close. Airbus employs around 27,000 people directly across the Blagnac, Colomiers and Saint-Éloi sites, with ATR, Safran, Latécoère, Daher, Ratier-Figeac and Liebherr Aerospace around it, and the wider ecosystem exceeds 90,000 jobs. Space is the second pillar and is more distinctive than the first: Thales Alenia Space employs some 3,000 people here in what is the world capital of civil satellite manufacturing, alongside Airbus Defence and Space, the CNES head office with about 2,500 staff, and roughly 350 newspace startups. Third, engineering and IT services, from Continental Automotive with around 1,200 staff and Actia to Sopra Steria, Capgemini, Atos and the aerospace-specialised firms Assystem, Alten and Segula. Fourth, pharmaceuticals and cosmetics, led by Pierre Fabre, whose group employs about 10,000 people with its base at Castres seventy kilometres away. Fifth, public health and research, with the Toulouse teaching hospital at roughly 15,000 staff and large CNRS, INRAE and INSERM presences.",
+      },
+      {
+        heading: "The western triangle, and where engineers live",
+        body: "The aerospace economy sits on three communes to the west: Blagnac, Colomiers and the Saint-Éloi site inside Toulouse. It is a single-function district that lives to the rhythm of the production programmes, with modern engineering floors, canteens and very little else after six in the evening. Rents there are lower than the city centre, at €800 for a two-bed in Blagnac and €750 in Colomiers against €850 in Toulouse itself, and the tram runs from the city to Blagnac directly, which is the reason many engineers live in the western districts rather than buying a second car. The ring road on that side is the pinch point and it saturates before eight in the morning. The east of the metropolis, around Balma and Labège, is where much of the software work has landed and it is poorly connected by public transport, so living west and working east, or the reverse, is the local mistake that costs an hour a day.",
+      },
+      {
+        heading: "Where the jobs are advertised, and where they are not",
+        body: "Engineering recruitment in Toulouse runs heavily through the schools and their alumni networks, in particular INSA Toulouse, ISAE-Supaéro and ENSEEIHT, and through referral inside the supply chain. A large share of engineering hires never reaches a public listing. What works in practice is LinkedIn, well mapped for aerospace, the Apec for cadre roles, France Travail for the rest, and the specialised recruiters that serve the sector. The events worth planning around are the space industry days in spring, the biennial aerospace show at Blagnac, and the school forums in October and November, which are open to more than graduating students. For newspace and software the entry point is the startup ecosystem around Labège rather than the primes. One caution for a foreign candidate: subcontractors hire faster than Airbus itself, and a first contract with an engineering services firm is the normal route in, not a consolation prize.",
+      },
+      {
+        heading: "The right to work: permits, diplomas, clearance",
+        body: "EU, EEA and Swiss nationals need no permit. Others need an employer-sponsored work authorisation, and the Passeport Talent route covers most engineering hires, with a salary floor indexed on the French average wage that is revised, so check France-Visas for the live figure. ENIC-NARIC France issues the statement of comparability for foreign degrees, which matters here because engineering titles are read closely by these employers. The point specific to Toulouse is access rather than paperwork. Defence-related programmes and some space work require security clearance or fall under export-control rules, and both restrict who can be placed on a given project, sometimes by nationality. This does not close the city to foreign engineers, since civil aviation and commercial space are the larger part of the market, but it does mean you should ask early which programme a role sits on. On language, English is genuinely a working language inside Airbus and parts of the space cluster, while the supply chain and the services firms run in French.",
+      },
+      {
+        heading: "What a French contract actually gives you",
+        body: "The CDI is the standard for engineering roles. Trial periods run up to four months for a cadre, renewable once. Statutory leave is five weeks, with RTT days on top in most engineering agreements, and the metallurgy sector agreement that covers much of aerospace sets classification grids that determine a good deal of your pay progression. Employers reimburse half of a public transport season ticket. Company health cover is part-funded and normally compulsory. Our French guide to the same market reports experienced engineers at €55,000 to €70,000 gross and juniors at €40,000 to €48,000. The local warning that comes with those numbers: the largest employers apply rigid entry grids with little negotiating room, and later increases arrive through internal promotion rather than annual review, so the level you enter at matters more here than in a startup market. Net before income tax is roughly 78% of gross, with tax withheld at source.",
+      },
+      {
+        heading: "Housing, and a city that grew faster than its infrastructure",
+        body: "Rents average €620 for a studio, €850 for a two-bed and €1,150 for a three-bed, with purchase at €4,000 per square metre. That is cheaper than Bordeaux and far cheaper than Nice for a market with better-paid engineering work, which is the core of the deal. The pressure comes from growth: the population rose 7.6% between 2016 and 2022, faster than any city in this batch except Montpellier, and rents, primary school places and road capacity have all felt it. Landlords apply the three-times-rent screen and ask for a French guarantor or the Visale guarantee. If you are arriving with children, the schools axis of 9/10 is the strongest single argument the city makes, and it is a measured strength rather than a marketing one. Check the specific commune rather than the metropolis, because the western communes have absorbed most of the new arrivals.",
+      },
+      {
+        heading: "The traps worth knowing before you apply",
+        body: "First and above everything, concentration. If your job depends directly or indirectly on one aircraft programme, your employability follows its production rate, and the region has been through this cycle several times. Diversify deliberately towards space, which is less cyclical, defence, or non-aerospace software. Second, the entry grids described above, which punish a weak first negotiation for years. Third, the east-west split, which is a transport problem disguised as a housing choice. Fourth, remote work is more limited here than in Lyon or Bordeaux: engineering functions typically get two days at home, production and test roles none, and listings advertising full remote at the large aerospace employers are usually misleading. Fifth, the sameness of the professional population. A market dominated by one industry and one profile offers fewer sideways moves, which is felt most by support functions and by partners arriving with a career of their own. Plan the second job of the household, not only the first.",
+      },
+    ],
+    relatedCities: ["toulouse", "blagnac", "colomiers", "montauban", "albi"],
+    tags: ["working in toulouse 2026", "working in france", "job market france", "occitanie", "toulouse"],
+  },
+  {
+    slug: "working-in-bordeaux-2026",
+    title: "Working in Bordeaux: what the high-speed line did to the job market",
+    metaTitle: "Working in Bordeaux 2026 — Sectors, Pay, Job Search",
+    metaDesc: "Working in Bordeaux in 2026: job market 6.0/10, T2 rent €900, buying €4,500/m². Aerospace, tech, wine, and the Paris commuter effect.",
+    category: "moving",
+    emoji: "💼",
+    readMinutes: 8,
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    intro: "Bordeaux is the clearest example in France of what a two-hour train to Paris does to a city. Since the high-speed line opened in 2017, a large population of Paris-employed managers has settled here and works from home three or four days a week, which lifted local pay expectations, tightened the property market and added competition for the good local jobs. Underneath that, the real Bordeaux economy is narrower than the noise: aerospace and defence, software, health research and wine. This guide covers who hires, what a foreign candidate needs, and where the reputation outruns the market.",
+    sections: [
+      {
+        heading: "What the numbers say, and what they do not",
+        body: "Our job-market estimate rates Bordeaux 6.0/10, where 10 is the most favourable, 91st of the 363 communes above 20,000 residents in the ranking. It scores steadily rather than brilliantly, with the pay component the weakest of its four parts. The estimate uses departmental unemployment, business creation, employer spread and departmental pay, so it describes conditions rather than counting vacancies. The measured figure next to it is Insee's median standard of living: €24,870 a year, about €2,070 a month, 96th of the 533 communes covered, with a poverty rate of 17%, just behind Paris and Lyon, which are both at 16%. Remember what that figure is: disposable income per consumption unit, benefits included, across all residents, not a salary. Two seed axes complete the picture for a working newcomer, remote work at 8.8/10 and transport at 7.8/10, both strong, which is exactly why the hybrid Paris arrangement took hold here. Detail on /cities/bordeaux/employment.",
+      },
+      {
+        heading: "The sectors that actually hire",
+        body: "Five blocks carry the market. Aerospace, defence and space is the largest: Dassault Aviation at Mérignac with around 3,500 staff, Thales Avionics with about 1,500, ArianeGroup at Saint-Médard-en-Jalles with roughly 1,800 working on launcher and missile propulsion, plus Safran at Le Haillan and the maintenance specialist Sabena Technics, together some 22,000 jobs across the metropolitan area. Technology follows, with a French Tech ecosystem of around 500 startups including Ubble, Betclic and Yousign, and Cdiscount employing about 2,500 people in the basin. Health and biotechnology is third: the Bordeaux teaching hospital employs some 14,000 people and is one of the largest in France, alongside the Institut Bergonié in oncology and the Bordeaux Neurocampus. Fourth, wine and agrifood, meaning the estates, the négociant houses and the cooperatives, a sector that hires in commerce, logistics and oenology rather than in offices. Fifth, regional banking and insurance head offices.",
+      },
+      {
+        heading: "The high-speed line, and the two markets it created",
+        body: "Paris is two hours and four minutes away, and the consequence is a population estimated in the tens of thousands who kept their Paris employer and moved their life here. For a local candidate this has two effects, and they pull in opposite directions. It raised pay expectations, because Bordeaux employers now have to match offers from elsewhere to retain people, and it added competition, because a candidate with a Paris CV can take a Bordeaux job without ever having lived in the region. For a foreign candidate the practical read is that a role advertised locally may be contested by people who are not in the local salary market at all. It also explains the property numbers below. Mérignac, where much of the aerospace work is, rents at €800 for a two-bed against €900 in the city, and is a fifteen-minute tram ride from the centre.",
+      },
+      {
+        heading: "Where the jobs are advertised, and where they are not",
+        body: "Bordeaux is a quieter market than Toulouse or Lyon and runs on introductions more than on volume. Alumni networks from KEDGE, Bordeaux INP and the engineering schools at Talence carry a meaningful share of the managerial hiring, and specialist headhunters do more of the work here than job boards. The channels that function are LinkedIn, good for technology and cadre roles, the Apec, France Travail, and the recruitment firms with a Bordeaux desk, including the ones specialised in aerospace and defence. Worth planning around: the general employment fair each autumn, the business school forums in November, and the digital sector event in June. Networking here concentrates in a few identifiable places on both banks, the Darwin site on the right bank being the best known. Expect a slower rhythm than Paris and more weight on whether people liked you, which is an advantage for a candidate who can be present and a disadvantage for one applying from abroad.",
+      },
+      {
+        heading: "The right to work: permits, diplomas, clearance",
+        body: "EU, EEA and Swiss nationals need no permit. Everyone else needs an employer-sponsored work authorisation, and the Passeport Talent route covers most qualified roles, with a salary floor indexed on the French average wage that is revised periodically, so read the current figure on France-Visas. ENIC-NARIC France issues the comparability statement for foreign qualifications. The Bordeaux-specific point mirrors Toulouse: a significant part of the aerospace base here is defence and launcher work, which is subject to security clearance and export-control rules that can restrict roles by nationality. That does not close the sector, but it does mean asking which programme a job sits on before investing three interviews in it. On language, English is workable in parts of the technology scene and in international wine commerce, and much less so elsewhere. B2 French is the practical entry level for a cadre position, and the wine trade in particular values the language as part of the job rather than as an accessory.",
+      },
+      {
+        heading: "What a French contract actually gives you",
+        body: "The CDI is the open-ended contract and what landlords want to see. Trial periods run up to four months for a cadre, renewable once. Statutory leave is five weeks, with RTT days in most office agreements. The employer reimburses half of a public transport season ticket, which is worth having on a 7.8/10 transport network. Company health cover is part-funded and normally compulsory. Our French guide to the same market reports experienced cadres at €50,000 to €65,000 gross and juniors at €38,000 to €45,000, a band that has been drifting upwards as employers align with Toulouse and Nantes to hold on to people. Net before income tax is roughly 78% of gross, with income tax withheld at source afterwards. One negotiating note specific to this city: because the hybrid Paris population sits alongside the local salary market, it is reasonable to ask what reference market a given offer was benchmarked against.",
+      },
+      {
+        heading: "Housing, and the number that decides the move",
+        body: "Rents average €650 for a studio, €900 for a two-bed and €1,200 for a three-bed, with purchase at €4,500 per square metre. That last number is the one that catches people: it is closer to Lyon than to Toulouse, in a city where the pay bands are lower than Lyon. Landlords apply the three-times-rent screen and ask for a French guarantor or the state-backed Visale guarantee. Our cost-of-living axis rates Bordeaux 4.5/10, which is mid-table and reflects exactly this tension between attractive incomes and an expensive market. The practical answer most people reach is one of the metropolitan communes rather than the centre: Mérignac and Pessac are on the tram, cost less and put you next to the aerospace and university employment. Decide the commune after you know where the job is, not before, because the tram lines make some combinations easy and others genuinely tiresome.",
+      },
+      {
+        heading: "The traps worth knowing before you apply",
+        body: "First, competition from candidates who are not paid on the local market, described above. Document what you bring locally, because a Paris CV does not automatically beat regional knowledge and a network. Second, the property market. A local salary and a €4,500 square metre do not go together as comfortably as the city's image suggests, and people who buy in the first year sometimes regret the district rather than the price. Third, the shallow end. Outside aerospace and defence, software, health research and wine, the ecosystem is thin; market finance, luxury, audiovisual and heavy industry barely exist here, and a specialist in those fields will end up keeping a remote employer elsewhere. Fourth, the weather is genuinely wet from November to February, which is a small thing at week two and a real thing at year three. Fifth, the gap between the metropolis and the department: unemployment outside the urban area is markedly higher, so verify the actual employment basin of a job before signing, not the postcode of the head office.",
+      },
+    ],
+    relatedCities: ["bordeaux", "merignac", "pessac", "talence", "libourne"],
+    tags: ["working in bordeaux 2026", "working in france", "job market france", "nouvelle-aquitaine", "bordeaux"],
+  },
+  {
+    slug: "working-in-lille-2026",
+    title: "Working in Lille: retail head offices, tech, and a hard labour market",
+    metaTitle: "Working in Lille 2026 — Retail, Tech, Pay, Job Search",
+    metaDesc: "Working in Lille in 2026: job market 4.9/10, T2 rent €800, Brussels 35 minutes. Retail head offices, EuraTechnologies, and the traps.",
+    category: "moving",
+    emoji: "💼",
+    readMinutes: 8,
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    intro: "Lille holds something unusual for a city of its size: a cluster of global retail head offices, built by one family of local companies, sitting beside the largest startup incubator in France outside Paris. It also has the weakest labour market of the ten cities in this series, which is not a contradiction but the whole point. Rents are low at €800 for a two-bed, transport scores 8.7/10, and Brussels is thirty-five minutes away by train. This guide covers who hires, how a foreign candidate gets in, and why the headline unemployment figure deserves reading closely.",
+    sections: [
+      {
+        heading: "The hardest market in this series, and why",
+        body: "Our job-market estimate rates Lille 4.9/10, where 10 is the most favourable, 251st of the 363 communes above 20,000 residents in the ranking, the lowest position of the ten cities covered here. The unemployment component scores 7 out of 10 on difficulty and the business-creation component 5, both dragged by departmental figures. It is an estimate from departmental indicators, not a count of vacancies, and it says nothing about whether your specific field is hiring. The measured figure beside it: Insee reports a median standard of living of €20,520 a year, about €1,710 a month, 339th of the 533 communes covered, with a poverty rate of 27%. That is disposable income per consumption unit including benefits, across all residents, so it is not a salary. Lille is a young city with a very large student population, which pushes that number down mechanically, but the post-industrial context behind it is real and the surrounding towns carry it more heavily than the city does. Detail on /cities/lille/employment.",
+      },
+      {
+        heading: "The sectors that actually hire",
+        body: "Retail is the pillar and it has no French equivalent outside Paris. The Mulliez family of companies built a cluster of head offices in the metropolitan area: Auchan Retail at Croix with around 15,000 people in the basin, Decathlon at Villeneuve-d'Ascq with some 8,000 in France, Leroy Merlin at Lezennes with about 6,000, plus Boulanger, Kiabi, Norauto and Cultura. These are genuine global head-office functions in buying, supply chain, marketing and product, which is rare outside a capital. Technology is the second pillar, around EuraTechnologies, the largest French incubator outside Paris with roughly 300 startups, and OVHcloud, whose head office is at Roubaix. Third, banking and insurance: Crédit Mutuel Nord Europe with about 4,500 staff, CIC Nord-Ouest and AG2R La Mondiale with some 8,000. Fourth, logistics, carried by the position between Belgium, the Channel ports and Paris. Fifth, health: the Lille teaching hospital employs around 13,000 people.",
+      },
+      {
+        heading: "Euralille and Villeneuve-d'Ascq, two different working lives",
+        body: "The white-collar economy splits between two places that feel nothing alike. Euralille is the business district inside the city, next to both stations, holding the banks, the audit firms and support functions, and you can walk to it from the old town. Villeneuve-d'Ascq, ten kilometres east, is a campus-style commune with the universities, the engineering and business schools, and the Decathlon and Leroy Merlin head offices, laid out around car parks and green space. Pay is comparable because the grids are national; the daily experience is not. Most people who work in Villeneuve-d'Ascq live in Lille and take the metro line from Quatre Cantons, about twenty to twenty-five minutes, because the eastern commune is pleasant by day and very quiet at night. Rents make that easy: €580 for a studio, €800 for a two-bed and €1,080 for a three-bed in Lille, with Roubaix and Tourcoing far cheaper again at €520 and €550 for a two-bed.",
+      },
+      {
+        heading: "Where the jobs are advertised, and where they are not",
+        body: "Lille is structured around its schools, EDHEC, IESEG, SKEMA and Centrale Lille among them, and around the retail profession, which has its own trade bodies and its own circuit. The channels that work are LinkedIn, well mapped for retail and technology, the Apec for cadre roles, France Travail for the rest, and the regional recruitment desks, including a few specialised in retail that do not exist elsewhere in France. The events worth planning around are the retail industry gatherings in November, the general employment fair each autumn, and the school forums. For retail head-office roles specifically, the open days run by Auchan, Decathlon and Leroy Merlin in late winter are a genuine entry point rather than a public-relations exercise. One more channel that outsiders miss: Belgium. Brussels is thirty-five minutes by high-speed train, and a Lille-based candidate can credibly apply to Belgian employers, which widens the market considerably.",
+      },
+      {
+        heading: "The right to work: permits, diplomas, language",
+        body: "EU, EEA and Swiss nationals need no permit. Everyone else needs an employer-sponsored work authorisation, with the Passeport Talent route covering most qualified roles and carrying a salary floor indexed on the French average wage, revised periodically, so check France-Visas for the live figure. ENIC-NARIC France issues the statement of comparability for foreign degrees. Two points specific to this basin. First, English is a working language in parts of the retail head offices, because these are global buying and product organisations, and in the technology cluster; it is not in banking, logistics or health. B2 French remains the practical entry level. Second, if you take a job in Belgium while living in France, or the reverse, you are a cross-border worker and your tax and social security position follows a separate set of rules under the France-Belgium framework. Do not improvise it, and do not assume that a home-working day counts the same way on both sides of the border.",
+      },
+      {
+        heading: "What a French contract actually gives you",
+        body: "The CDI is the open-ended contract and the one that unlocks housing. Trial periods run up to four months for a cadre, renewable once. Statutory leave is five weeks, with RTT days when the week is set above 35 hours. The employer reimburses half of a public transport season ticket, which is worth having on an 8.7/10 transport network. Company health cover is part-funded and normally compulsory. Our French guide to the same market reports experienced cadres at €48,000 to €60,000 gross and juniors at €36,000 to €44,000, the lowest band of the large regional cities, which reflects the weight of retail and logistics in the mix rather than a lower standard of work. That is the honest trade in Lille: a head-office job at a global brand, paid on a retail grid rather than a technology one. Net before income tax is roughly 78% of gross, with tax then withheld at source.",
+      },
+      {
+        heading: "Housing, and the strongest cost argument in this batch",
+        body: "Rents average €580 for a studio, €800 for a two-bed and €1,080 for a three-bed, with purchase at €3,500 per square metre, tied with Marseille for the cheapest of the ten cities here. Combined with an 8.7/10 transport score, that produces a rare combination: a large city where a single salary supports a central flat without a car. Landlords still apply the three-times-rent screen and ask for a French guarantor or the state-backed Visale guarantee, and student demand makes September a bad month to arrive without something arranged. The nearby towns are cheaper again, but check the commute and the local employment picture before treating a €520 two-bed in Roubaix as a bargain: the difference in rent between communes here tracks a real difference in the local labour market, which is the same reason the departmental unemployment figure is what it is.",
+      },
+      {
+        heading: "The traps worth knowing before you apply",
+        body: "First, geography inside the metropolitan area. The departmental unemployment rate hides much higher local rates in the former textile towns, and if a job sits in one of them, look hard at the employer's stability rather than at the commute alone. Second, the retail culture. The Mulliez companies share a strong internal culture with employee shareholding and long tenure, which makes moving between them easy and moving out of them harder than people expect. Think about the ten-year version before signing. Third, the pay grid. A product manager on a retail grid earns visibly less than the same person on a technology grid, in the same city; negotiate against the sector, not against the postcode. Fourth, the weather, which is genuinely grey for a large part of the year and is the most common reason people give for leaving after a few years. Fifth, the low-emission zone, which has been excluding older diesel vehicles in stages, so price a replacement car into the first year if the job is on the outskirts.",
+      },
+    ],
+    relatedCities: ["lille", "roubaix", "tourcoing", "arras", "douai"],
+    tags: ["working in lille 2026", "working in france", "job market france", "hauts-de-france", "lille"],
+  },
+  {
+    slug: "working-in-strasbourg-2026",
+    title: "Working in Strasbourg: European institutions, pharma, and Germany at ten minutes",
+    metaTitle: "Working in Strasbourg 2026 — EU Jobs, Pharma, Border",
+    metaDesc: "Working in Strasbourg in 2026: job market 7.2/10, fifth of 363 communes, T2 rent €800. EU institutions, pharma, cross-border work.",
+    category: "moving",
+    emoji: "💼",
+    readMinutes: 8,
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    intro: "Strasbourg is the only French city where three job markets overlap in one place: a French one, a European institutional one and a German one that starts across the river. The European Parliament, the Council of Europe and the European Court of Human Rights sit here, the pharmaceutical industry has been established for decades, and tens of thousands of Alsatians cross the border every morning for wages well above French levels. All three have entry conditions that are stricter than they look. This guide covers who hires, what German and English actually buy you here, and where people misjudge the border.",
+    sections: [
+      {
+        heading: "Fifth of 363, and a figure that complicates it",
+        body: "Our job-market estimate rates Strasbourg 7.2/10, where 10 is the most favourable, fifth of the 363 communes above 20,000 residents in the ranking, with all four components scoring well. It is an estimate built from departmental unemployment, business creation, employer spread and departmental pay, and the department is one of the healthier ones in France. Now the figure that complicates it, and that we are not going to hide: Insee reports a median standard of living in the commune of €20,260 a year, about €1,690 a month, 362nd of the 533 communes covered, with a poverty rate of 26%. The two are not contradictory, they measure different things. The estimate describes labour-market conditions across the department, where cross-border wages and the pharmaceutical industry lift the average; the Insee figure describes the residents of the city itself, which includes a large student population and districts where the European institutions are not the employer. Both belong in the decision. Detail on /cities/strasbourg/employment.",
+      },
+      {
+        heading: "The sectors that actually hire",
+        body: "Five blocks. The European and international institutions: the European Parliament, which fills the city during plenary sessions but keeps a smaller permanent staff here, the Council of Europe with around 2,500 people, the European Court of Human Rights with about 700, and the broadcaster ARTE with some 400. Pharmaceuticals and health: Eli Lilly at Fegersheim with roughly 1,500 staff on what is its largest European insulin site, Merck Serono at Illkirch with about 500, Sanofi, the Strasbourg teaching hospital with some 12,000 people, and the surgical research institute that made the city a reference in minimally invasive techniques. Vehicles and mechanical engineering: Punch Powertrain with around 1,100, Lohr Industrie at Duppigheim with about 1,200 building trams and military vehicles, plus Faurecia and Constellium. The river port, the second largest in France, with around 200 companies on site. And a technology scene of roughly 250 startups alongside the usual IT services firms.",
+      },
+      {
+        heading: "The border is a job market, with its own rules",
+        body: "Around 40,000 Alsatians work across the border, mostly in Baden-Württemberg, and gross pay there runs materially above French levels for equivalent work. From Strasbourg the accessible employers are in automotive, chemicals and pharmaceuticals, energy and engineering, with the Mercedes-Benz plant at Wörth alone employing some 12,000 people half an hour away. What people underestimate is the entry cost. A German employment contract is governed by German law, which differs from the French code in notice, dismissal protection and working-time rules. Tax and social security follow a separate France-Germany framework that treats cross-border workers as a specific category, and the amount of home working you may do on the French side is capped before your tax position changes. That cap is the single most common expensive mistake here. And for a cadre role, German at B2 to C1 is a condition of entry rather than an advantage. Get written confirmation of your status before signing anything across the river.",
+      },
+      {
+        heading: "Where the jobs are advertised, and where they are not",
+        body: "This market is genuinely bilingual and you should treat it as two searches. On the French side: LinkedIn, the Apec for cadre roles, France Travail, and the regional recruitment desks, several of which specialise in pharmaceuticals. On the German side: Xing and Stepstone are used far more than LinkedIn, and bilingual recruiters on both sides of the Rhine do a large share of the placement. The European institutions are a third and separate route. Permanent posts are filled through EPSO competitions, which are highly selective and run on a timeline measured in many months, and contract or temporary agent posts are the accessible entry point, published on the institutions' own career pages. Two working languages are effectively required. Events worth the diary: the regional employment fair each autumn, the cross-border job fair held on the German side, and the institutions' open days.",
+      },
+      {
+        heading: "The right to work: permits, diplomas, language",
+        body: "EU, EEA and Swiss nationals need no permit for the French side, and mobility across the border is straightforward for them. Non-EU nationals need an employer-sponsored authorisation in France, and should note that a French residence permit does not by itself grant the right to work in Germany: a cross-border job for a non-EU resident is a separate legal question that needs checking before it is planned around. The Passeport Talent route covers most qualified hires in France, with a salary floor indexed on the average French wage and revised periodically, so check France-Visas. ENIC-NARIC France handles degree comparability. On language, this city is often described as anglophone because of the institutions. In practice English works inside the institutions and in parts of research, while the hospital, the industry, the port and the local companies operate in French, and the border market operates in German. English alone is the narrowest of the three paths.",
+      },
+      {
+        heading: "What a French contract actually gives you",
+        body: "On the French side the CDI is the standard, with a trial period of up to four months for a cadre, renewable once, five weeks of statutory leave, RTT days in most office agreements, half of a public transport season ticket reimbursed and part-funded company health cover. Our French guide to the same market reports experienced cadres at €50,000 to €65,000 gross and juniors at €38,000 to €46,000, which is slightly above the regional average and reflects the pharmaceutical and institutional presence. Net before income tax is roughly 78% of gross, with tax withheld at source. Two Alsace specifics worth knowing. The local social security scheme in Alsace-Moselle reimburses more than the national one and costs a little more in contributions, which changes the calculation on how much company health cover you actually need. And employment in the international institutions is not French employment: pay, pensions and social protection follow their own rules entirely.",
+      },
+      {
+        heading: "Housing, and a city that is cheaper than it looks",
+        body: "Rents average €580 for a studio, €800 for a two-bed and €1,080 for a three-bed, with purchase at €3,800 per square metre. For a city with a 9/10 transport score, a 9/10 culture score and an international job market, that is a genuinely good deal, and it is the main reason cross-border workers live on this side of the river. Landlords apply the three-times-rent screen and ask for a French guarantor or the state-backed Visale guarantee. Two practical notes. Student demand is heavy in September, so arriving in late August without something arranged is a poor plan. And the smaller Alsatian towns on the regional rail lines, Colmar among them at €750 for a two-bed, are a real option for anyone who only needs to be in the city two or three days a week, given how good the regional network is when the weather cooperates.",
+      },
+      {
+        heading: "The traps worth knowing before you apply",
+        body: "First, underestimating German. For the border market, for binational pharmaceutical roles and for much of the institutional support work, German at B2 or above is a gate, not a bonus. Second, the illusion about the institutions. Permanent posts go through competitions with very low pass rates and long timelines; the accessible routes are contract and temporary agent posts, which are less secure than the reputation suggests. Third, cross-border tax. A badly framed status, in particular exceeding the home-working limit on the French side, can move your tax position retroactively and cost a great deal. Take advice from a specialist before signing a German contract, not after the first tax return. Fourth, the depth of the French-side market outside pharmaceuticals, institutions and mechanical engineering is thin, and specialists in finance, luxury or audiovisual usually end up commuting to Paris, two hours away by train. Fifth, the continental climate, cold winters and hot summers, which is not an employment issue but is a stamina issue over years.",
+      },
+    ],
+    relatedCities: ["strasbourg", "colmar", "mulhouse", "haguenau", "schiltigheim"],
+    tags: ["working in strasbourg 2026", "working in france", "job market france", "grand-est", "strasbourg"],
+  },
+  {
+    slug: "working-in-montpellier-2026",
+    title: "Working in Montpellier: high demand, thin supply, and the arithmetic of that",
+    metaTitle: "Working in Montpellier 2026 — Health, Tech, Job Search",
+    metaDesc: "Working in Montpellier in 2026: job market 5.1/10, poverty rate 28%, T2 rent €850. Health, tech and research, in an oversubscribed city.",
+    category: "moving",
+    emoji: "💼",
+    readMinutes: 8,
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    intro: "Montpellier is the fastest-growing city in this series, up 9.1% in population between 2016 and 2022, and it has the weakest income figures of the ten. Those two facts are connected. People move here for the climate, the university and the sea, faster than the local economy creates work for them, and the result is a labour market where good jobs draw very large numbers of applications. There is real substance underneath, in hospital medicine, biotechnology, software and research. This guide covers who hires, and what a newcomer is walking into.",
+    sections: [
+      {
+        heading: "The figures, and why they are the story here",
+        body: "Our job-market estimate rates Montpellier 5.1/10, where 10 is the most favourable, 230th of the 363 communes above 20,000 residents in the ranking. One component drives that: the departmental unemployment score is 9 out of 10 on difficulty, the worst reading in this batch. It is an estimate from departmental indicators, not a count of vacancies. The measured figures beside it are the weakest of the ten cities covered: Insee reports a median standard of living of €19,670 a year, about €1,640 a month, 405th of the 533 communes covered, with a poverty rate of 28%. That is disposable income per consumption unit, benefits included, across all residents, and a very large student population pulls it down mechanically, but the ranking is what it is. Set that against a 9.1% population rise between 2016 and 2022, the fastest here, and the market becomes legible: demand for jobs grows faster than the jobs do. Detail on /cities/montpellier/employment.",
+      },
+      {
+        heading: "The sectors that actually hire",
+        body: "Health and biomedicine come first and they are serious: the Montpellier teaching hospital employs around 14,000 people, alongside a cancer research institute and a biotechnology cluster including Horiba Medical and Sensorion. Technology second, and larger than outsiders expect: IBM has one of its bigger European sites here with roughly 2,500 people, Dell Technologies about 1,500, Ubisoft a studio of some 300, and the French Tech ecosystem counts around 600 startups, with the usual IT services firms alongside. Third, higher education and research, which is arguably the city's real specialism: the university has some 46,000 students, and the CNRS, INRAE and the tropical agronomy institute at Baillarguet make this one of the largest research concentrations in the country. Fourth, wine, agrifood and tourism across the Languedoc coast. Fifth, the public sector itself, regional and municipal administration and the hospital, which together are a cardinal employer rather than a footnote.",
+      },
+      {
+        heading: "The eastern corridor, and how the city is laid out for work",
+        body: "The white-collar economy runs east from the historic centre along the Antigone, Le Millénaire and Odysseum axis, where IBM, Dell, the regional banks and several utilities sit, roughly 25,000 managerial jobs served by the first tram line. The health and research pole sits west, around the hospital sites and the Euromédecine technology park, on the same tram line in the other direction. That layout is unusually convenient: most people live in the centre and ride the tram ten to fifteen minutes either way, which is why the city works without a car better than its size suggests. The two drawbacks are worth stating. The eastern office district is functional and empties in the evening, and summer heat in late July is punishing on a tram platform. Rents in the city average €620 for a studio, €850 for a two-bed and €1,150 for a three-bed, with the coast at Sète cheaper at €680 for a two-bed and half an hour away by train.",
+      },
+      {
+        heading: "Where the jobs are advertised, and where they are not",
+        body: "Montpellier is more digital and less networked than Toulouse or Bordeaux, partly because the national engineering and business schools have a thinner presence here, so job boards carry more of the market than they do elsewhere. LinkedIn first, then the Apec for cadre roles and France Travail for the rest, with the regional recruitment desks behind them. For technology, the entry point is the French Tech community and its monthly meetups, which are open and genuinely used for hiring. For health and biomedicine, the hospital and research institute events are the structuring moments of the year. Two warnings for a candidate applying from abroad. A meaningful share of roles at the large technology employers is still filled on internal recommendation, which is hard to reach from outside. And because the city receives so many applications, a generic application performs worse here than in any other city in this series.",
+      },
+      {
+        heading: "The right to work: permits, diplomas, language",
+        body: "EU, EEA and Swiss nationals need no permit. Everyone else needs an employer-sponsored work authorisation, with the Passeport Talent route covering most qualified hires and carrying a salary floor indexed on the average French wage, revised periodically, so check France-Visas for the current figure. ENIC-NARIC France issues the comparability statement for foreign degrees. The health professions, which matter here more than anywhere else in this batch, run their own recognition procedures through the national orders, and for a doctor or pharmacist trained outside the EU that process is long and should be started before the move rather than after. On language, the international technology employers run partly in English and the research institutes genuinely do, which makes Montpellier one of the more accessible French cities for an English-speaking scientist or engineer. Everything else, the hospital included in its clinical work, runs in French at B2 and above.",
+      },
+      {
+        heading: "What a French contract actually gives you",
+        body: "The CDI is the open-ended contract and the one landlords want to see. Trial periods run up to four months for a cadre, renewable once. Statutory leave is five weeks, with RTT days in most office agreements. Employers reimburse half of a public transport season ticket, and the tram makes that worth taking. Company health cover is part-funded and normally compulsory. Our French guide to the same market reports experienced cadres at €42,000 to €58,000 gross and juniors at €34,000 to €42,000, the lowest bands in this series, and the reason is directly the demand described above: with many candidates per role, employers do not need to stretch. Net before income tax is roughly 78% of gross, with tax withheld at source. The practical consequence is that the negotiation happens before you fall in love with the city, because once you have decided to live here, your leverage is gone and the employer knows it.",
+      },
+      {
+        heading: "Housing, and the squeeze that follows the growth",
+        body: "Rents average €620 for a studio, €850 for a two-bed and €1,150 for a three-bed, with purchase at €3,900 per square metre. Those are not extreme numbers nationally, but set against the pay bands above they bite: a junior on the lower band spends a large share of net income on a one-bedroom flat, which is the arithmetic that catches people who compared the rent to Paris and stopped there. Landlords apply the three-times-rent screen and ask for a French guarantor or the state-backed Visale guarantee, and with 46,000 students in town the competition for a flat in September is severe. Our cost-of-living axis rates the city 4.7/10, mid-table, and the safety axis 3.7/10, which is worth checking district by district rather than treating as a verdict on the city. The regional trains along the coast open cheaper options if the job is fixed and the address is not.",
+      },
+      {
+        heading: "The traps worth knowing before you apply",
+        body: "First, competition. This is the French metropolis that has absorbed the largest inflow of newcomers relative to its size, and a technology or health role here draws far more applications than the same role in Nancy or Dijon at similar pay. Differentiate on something local and verifiable. Second, pay compression, described above; compare offers against Toulouse and Lyon before accepting, and say so in the negotiation. Third, the thin end of the market: outside health, technology, research and wine there is not much, and market finance, luxury, consulting and heavy industry are effectively absent. Fourth, remote-work competition. Since 2020 the city has attracted a large number of people who kept a Paris or Lyon employer, and they occupy housing without competing for local jobs, which pushes rents up and salaries sideways. Fifth, the low-emission zone, which excludes older diesel vehicles in stages, so budget for a car replacement if the job sits outside the tram network.",
+      },
+    ],
+    relatedCities: ["montpellier", "sete", "agde", "nimes", "beziers"],
+    tags: ["working in montpellier 2026", "working in france", "job market france", "occitanie", "montpellier"],
+  },
+  {
+    slug: "working-in-nice-2026",
+    title: "Working in Nice: Sophia Antipolis, tourism, and a cost problem",
+    metaTitle: "Working in Nice 2026 — Sophia Antipolis, Pay, Jobs",
+    metaDesc: "Working in Nice in 2026: job market 5.3/10, T2 rent €1,100, buying €5,200/m². Sophia Antipolis, tourism, Monaco, and the traps.",
+    category: "moving",
+    emoji: "💼",
+    readMinutes: 8,
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    intro: "Nice is a city where the jobs are not where the people are. The largest technology campus in Europe sits in a forest twenty-five kilometres west, Monaco is twenty-five kilometres east, and the city itself lives substantially on tourism, health and retail. Housing costs are the second highest in France after Paris, at €1,100 for a two-bed and €5,200 per square metre to buy, while local pay is well below Paris levels. This guide covers who hires, how a foreign candidate reads the Sophia Antipolis market, and how people get the geography wrong.",
+    sections: [
+      {
+        heading: "What the numbers say, and what they do not",
+        body: "Our job-market estimate rates Nice 5.3/10, where 10 is the most favourable, 199th of the 363 communes above 20,000 residents in the ranking, with departmental unemployment the weak component at 7 out of 10 on difficulty. It is an estimate built from departmental indicators, and in a coastal department it is worth remembering that unemployment here moves with the season. The measured figure beside it: Insee reports a median standard of living of €21,570 a year, about €1,800 a month, 243rd of the 533 communes covered, with a poverty rate of 22%. It is disposable income per consumption unit, benefits included, not a salary. The figure that decides most moves, though, is not on that list. Our cost-of-living axis rates Nice 3.3/10, second worst in this batch after Paris, and that combination of mid-table pay with near-Parisian housing costs is the single most important thing to understand before accepting an offer. Detail on /cities/nice/employment.",
+      },
+      {
+        heading: "The sectors that actually hire",
+        body: "Five blocks. Technology at Sophia Antipolis, the first science park built in Europe, roughly 2,500 hectares with about 40,000 jobs and 2,500 companies, where Amadeus is the largest private employer of the basin with some 5,000 people, alongside IBM, SAP Labs France, Bosch and Thales Alenia Space at Cannes. Tourism and hospitality, which is the visible economy of the coast, from the palace hotels of Nice to the casino and hotel groups of Cannes and Monaco. Health, with the Nice teaching hospital employing around 7,500 people and a research base at Sophia. Audiovisual and events, structured around the Cannes festivals and markets and the historic studios in Nice, which makes for a real freelance economy with real seasonality. And luxury retail, amplified by Monaco next door, where around 55,000 people work and where the large luxury groups have subsidiaries.",
+      },
+      {
+        heading: "Sophia Antipolis is a different city, and it is not on the tram",
+        body: "Sophia Antipolis is the reason most qualified foreigners come to this coast, and it needs describing accurately. It is a technology park in the hills between Antibes and Grasse, with a strongly international culture, a large share of non-French staff, and English as a working language in several of the biggest employers. Pay there is aligned on national technology grids rather than local ones, which makes it the best-paid work in the department. The catch is access. There is no fast public transport link from Nice, so the commute is by car and takes twenty-five to forty-five minutes each way depending on the hour and the season, on a motorway that saturates. Many engineers solve this by living in Antibes or Cagnes-sur-Mer instead, and Antibes costs €1,050 for a two-bed against €1,100 in Nice, so the saving is in time rather than money. Hybrid working, common on the park, is what makes the arrangement bearable.",
+      },
+      {
+        heading: "Where the jobs are advertised, and where they are not",
+        body: "Treat this as two separate searches, because the two halves of the market do not share channels. For Sophia Antipolis: LinkedIn, the international recruitment firms, and direct applications to the large employers, all of which behave like a normal international technology market and accept applications from abroad. For Nice and Cannes: hospitality, retail, events and health hire locally, through the Apec for cadre roles, France Travail, the hotel schools, and above all through people who already work there. The seasonal calendar matters more here than anywhere else in this series: hospitality recruits for the season in January and February, and the festival economy in Cannes hires around its event dates. If you are targeting the tourism side, arriving in June to look for work is arriving after the hiring has finished.",
+      },
+      {
+        heading: "The right to work: permits, diplomas, and Monaco",
+        body: "EU, EEA and Swiss nationals need no permit. Everyone else needs an employer-sponsored work authorisation in France, with the Passeport Talent route covering most qualified technology hires and a salary floor indexed on the average French wage, revised periodically, so check France-Visas. ENIC-NARIC France issues the comparability statement for foreign qualifications. Monaco is a separate country and a separate permit regime: working there requires a Monaco work permit obtained by the employer, and hiring priority rules apply, so a Monaco job is not simply a better-paid French job. The tax point is the one people get wrong most often. French nationals resident in Monaco remain taxable in France under a bilateral convention from 1963, and residents of France who work in Monaco are French tax residents in the ordinary way. Nobody should plan a move around a zero-tax assumption without professional advice on their own nationality and residence.",
+      },
+      {
+        heading: "What a French contract actually gives you",
+        body: "The CDI is the open-ended contract. The CDD is fixed-term and legally limited, and it is far more common here than elsewhere because of the season: a hospitality or events role advertised as a job is frequently a four to nine month contract, and that distinction determines whether you can rent a flat. Trial periods run up to four months for a cadre, renewable once. Statutory leave is five weeks, with RTT days in office agreements. Employers reimburse half of a public transport season ticket. Company health cover is part-funded and normally compulsory. Our French guide to the same market reports experienced cadres at €48,000 to €62,000 gross in Nice and €55,000 to €70,000 at Sophia Antipolis, which is the clearest illustration of the two-market structure. Net before income tax is roughly 78% of gross, with tax withheld at source.",
+      },
+      {
+        heading: "Housing, and the number that ends most negotiations",
+        body: "Rents average €780 for a studio, €1,100 for a two-bed and €1,500 for a three-bed, with purchase at €5,200 per square metre, the highest of the ten cities here after Paris. Applying the three-times-rent screen landlords use, a two-bed alone implies around €3,300 a month of net household income, which a mid-level local salary does not reach comfortably. That is the whole problem: the pay is regional and the housing is not. The neighbouring communes do not rescue you, since Antibes is €1,050 and Cannes €1,250 for a two-bed. The people for whom the equation works are those on Sophia technology grids, those with a foreign or Paris employer, and dual-income households. Anyone arriving on a single local salary in tourism, retail or administration should model the budget precisely before committing, because the nature score of 7.4/10 does not pay rent.",
+      },
+      {
+        heading: "The traps worth knowing before you apply",
+        body: "First, the pay-to-housing gap described above, which is the reason people leave after two or three years. Second, seasonality. Check the contract type on the first exchange, because the coast advertises seasonal work in the language of permanent work. Third, the Nice to Sophia commute, which costs an hour to an hour and a quarter a day in the car and considerably more in summer traffic; if the role is on the park, look at Antibes or at a hybrid arrangement from the start rather than discovering the problem in month four. Fourth, Monaco, which pays more and is a different legal universe, permits and tax included. Fifth, depth. Outside technology, tourism and health the ecosystem is thin, and a specialist in industry, market finance or agrifood will find little here; the usual fallback is Marseille, two hours by train. None of this argues against the move. It argues for arriving with the contract, the commute and the postcode decided in that order.",
+      },
+    ],
+    relatedCities: ["nice", "antibes", "cannes", "cagnes-sur-mer", "menton"],
+    tags: ["working in nice 2026", "working in france", "job market france", "provence-alpes-cote-d-azur", "nice"],
+  },
+  {
+    slug: "working-in-rennes-2026",
+    title: "Working in Rennes: tech, cyber defence, and the limits of a specialism",
+    metaTitle: "Working in Rennes 2026 — Tech, Cyber, Pay, Job Search",
+    metaDesc: "Working in Rennes in 2026: job market 7.2/10, fourth of 363 communes, T2 rent €820, remote work 9/10. Tech, cyber, agrifood.",
+    category: "moving",
+    emoji: "💼",
+    readMinutes: 8,
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    intro: "Rennes has quietly become one of the most balanced places to work in France: a low unemployment department, a real technology sector, the national centre of gravity for cyber defence, an agrifood and insurance base, and Paris at an hour and a half by train. Rents are moderate at €820 for a two-bed, remote work scores 9/10 and schools 9/10. The catch is specialisation, and for a foreign candidate one of the two flagship sectors is largely closed. This guide covers who hires, what the clearance question means in practice, and where the market thins out.",
+    sections: [
+      {
+        heading: "Fourth of 363, and what sits behind it",
+        body: "Our job-market estimate rates Rennes 7.2/10, where 10 is the most favourable, fourth of the 363 communes above 20,000 residents in the ranking, with every component scoring well and departmental unemployment among the lowest in mainland France. As always it is an estimate built from departmental indicators rather than a count of vacancies. The measured figure beside it is more reassuring than in most cities on this list: Insee reports a median standard of living of €22,770 a year, about €1,900 a month, 165th of the 533 communes covered, with a poverty rate of 21%, which for a city with 67,000 students is a solid reading. That figure is disposable income per consumption unit including benefits, not a salary. Two seed axes complete the picture: remote work at 9/10, the joint highest here, and schools at 9/10. Detail on /cities/rennes/employment.",
+      },
+      {
+        heading: "The sectors that actually hire",
+        body: "Five blocks. Technology first: a French Tech ecosystem of around 300 startups including Klaxoon and Weglot, alongside the large IT services firms with Sopra Steria at roughly 2,500 people and Capgemini at about 1,800, and Orange R&D at Cesson-Sévigné with some 3,500 staff, the group's largest research site after Paris. Cyber defence second, and this is the city's genuine national specialism: the defence procurement agency's information-mastery centre at Bruz employs around 2,500 people, the cyber excellence cluster gathers some 400 organisations and roughly 3,000 jobs, and the research institute IRISA sits alongside. Third, vehicles: the Stellantis plant at La Janais employs about 3,500. Fourth, agrifood and insurance, with Groupama Loire-Bretagne headquartered here at around 4,500 people and Crédit Mutuel Arkéa strongly present. Fifth, the university and hospital system, feeding a student population of 67,000, larger than Nantes.",
+      },
+      {
+        heading: "The eastern triangle, and the clearance question",
+        body: "The technology and defence economy sits on three adjacent communes east and south of the city, Cesson-Sévigné, Bruz and the Rennes-Atalante science park, concentrating around 15,000 qualified jobs within a dozen kilometres. Pay for cleared defence work aligns on national rather than regional grids, which is why the local engineering market is stronger than the city's size implies. Now the part that matters for a foreign reader and that the French version of this guide does not need to say: posts requiring French defence clearance are in practice not open to candidates without French nationality, which removes a large share of the cyber market from consideration. The civil side is open, meaning the software industry, the operator research centre, the private cyber security firms and the services companies, and it is substantial. Ask where a role sits on that line before investing in a process, because recruiters do not always raise it early.",
+      },
+      {
+        heading: "Where the jobs are advertised, and where they are not",
+        body: "Rennes hires heavily through its schools and their alumni, INSA Rennes, CentraleSupélec, the statistics school ENSAI and the business school among them, and referral does a large part of the work in engineering. The channels that function are LinkedIn, which is well mapped for the local technology scene, the Apec for cadre roles, France Travail for the rest, and the regional recruitment desks. For cyber specifically, the European Cyber Week held here each November is the single most useful event in France for that field and is worth travelling for. For agrifood and insurance, the entry routes run through the sector's own recruitment days. One note for someone applying from abroad: the startup scene here recruited a lot of Paris-based staff after 2020 with promises of monthly visits, and several of those arrangements were revised upwards in on-site days after six to twelve months. Get the number in the contract.",
+      },
+      {
+        heading: "The right to work: permits, diplomas, language",
+        body: "EU, EEA and Swiss nationals need no permit. Everyone else needs an employer-sponsored work authorisation, with the Passeport Talent route covering most qualified hires and a salary floor indexed on the average French wage, revised periodically, so check France-Visas for the live figure. ENIC-NARIC France issues the comparability statement for foreign degrees. Beyond that, the nationality point above is the decisive one here: the defence side is effectively closed without French nationality, and no visa route changes that, so build the search around the civil technology market instead. On language, the software and services firms include English-speaking teams and international projects, but Rennes is less anglophone than Sophia Antipolis or parts of Paris, and B2 French is the realistic threshold for a cadre role. The upside is that this is a good city to learn in, with a large university and a young population.",
+      },
+      {
+        heading: "What a French contract actually gives you",
+        body: "The CDI is the standard for the roles discussed here. Trial periods run up to four months for a cadre, renewable once. Statutory leave is five weeks, with RTT days in most engineering and services agreements. Employers reimburse half of a public transport season ticket. Company health cover is part-funded and normally compulsory. Our French guide to the same market reports experienced cadres at €48,000 to €60,000 gross and juniors at €36,000 to €44,000, below Lyon and Toulouse, with cleared defence roles paying above that band. Net before income tax is roughly 78% of gross, with income tax withheld at source. The remote-work axis of 9/10 is worth using in the negotiation rather than admiring: this is one of the French cities where a three-day week at home is a realistic ask in software and services, and where the infrastructure actually supports it.",
+      },
+      {
+        heading: "Housing, and a market that has moved fast",
+        body: "Rents average €590 for a studio, €820 for a two-bed and €1,100 for a three-bed, with purchase at €3,800 per square metre. That is moderate for a city with this employment profile, and combined with the 9/10 schools axis it explains why families move here rather than to Nantes or Bordeaux. The warning is on the trajectory rather than the level: rents here have risen sharply over recent years, and September is brutal with 67,000 students arriving. Landlords apply the three-times-rent screen and ask for a French guarantor or the state-backed Visale guarantee. The regional rail network makes the smaller Breton towns realistic for a two-day-a-week role, with Saint-Malo at €800 for a two-bed and under an hour away, and Vitré closer and cheaper still. Decide that after the job, not before, because the eastern employment triangle is awkward to reach from the west of the region.",
+      },
+      {
+        heading: "The traps worth knowing before you apply",
+        body: "First, the specialisation trap in cyber defence: a career built inside cleared work transfers poorly to the civil market, and for a foreign candidate the sector is largely inaccessible in the first place. Second, competition on the civil technology roles, which attract candidates from Paris and from the whole west of France; a generic application does badly. Third, the rent trajectory described above, which means an offer benchmarked against the city three years ago is now short. Fourth, the thin end of the market: outside technology, cyber, agrifood and insurance there is not much, and finance, luxury, audiovisual and aerospace are essentially absent. Fifth, the weather, which is the reason most often given for leaving. It rains on a large share of days between November and March, in a fine and persistent way that is easy to dismiss in a job interview held in June. That is the honest list. Against it stands a city that ranks fourth of 363 on our estimate, and that is not nothing.",
+      },
+    ],
+    relatedCities: ["rennes", "vitre", "saint-malo"],
+    tags: ["working in rennes 2026", "working in france", "job market france", "bretagne", "rennes"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

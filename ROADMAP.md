@@ -1297,11 +1297,13 @@ chantier, distinct de celui des routes et moins visible : `npm run parity` sort 
 pendant qu'une série FR déjà mise en miroir repart de neuf côté français. Aucun contrôle
 automatique ne le signale — il faut re-differ les deux corpus par série à chaque run, ce qui
 est précisément pourquoi le prompt dit de mesurer et non de réciter. Séries FR restant sans
-aucune jumelle EN, mesurées le 18/08 : **`travail-a-[ville]-2026` (30 FR / 0 EN)**,
+aucune jumelle EN, mesurées le 18/08 après le batch `working-in-` de l'après-midi :
 **`famille-a-[ville]-2026` (19 FR / 0 EN)**, **`universites-[ville]-2026` (15 FR / 0 EN)**,
 `vacances-monoparentales-[ville]-2026` (7 FR / 0 EN) et le croisement mois × profil, qui a sa
-route EN mais pas de guides. Les trois premières n'avaient jamais été comptées dans cette liste :
-ce sont désormais les plus gros trous du corpus, loin devant les séries déjà ouvertes.
+route EN mais pas de guides. Ces séries n'avaient jamais été comptées dans cette liste avant le
+18/08 : ce sont les plus gros trous du corpus, loin devant les séries déjà ouvertes.
+`travail-a-[ville]-2026` en faisait partie (30 FR / 0 EN) ; la série EN `working-in-[city]-2026`
+est **ouverte depuis le 18/08** et en est à **30 FR / 10 EN**.
 Séries à parité, à re-differ et non à croire sur parole : tourisme 207/207,
 `where-to-buy-in-` 49/49, `[city]-living-guide` 52 EN contre `vivre-a-` 51 FR,
 `car-free-living-in-` 15 EN contre `vivre-sans-voiture-` 16 FR (écart de 1),
@@ -1309,8 +1311,9 @@ Séries à parité, à re-differ et non à croire sur parole : tourisme 207/207,
 Séries entamées et encore loin : `leaving-` 23 EN contre `quitter-` 55 FR,
 `moving-to-` 6 EN contre `demenager-a-` 50 FR.
 
-**Écart de contenu, distinct de l'écart de routes** : **guides 967 FR / 665 EN, tags 240 / 86**
-(mesuré le 18/08 — les chiffres plus bas dans cette section sont datés, le réel prévaut).
+**Écart de contenu, distinct de l'écart de routes** : **guides 967 FR / 675 EN, tags 240 / 88**
+(mesuré le 18/08 après le batch `working-in-` — les chiffres plus bas dans cette section sont
+datés, le réel prévaut).
 Ce n'est pas une route à créer mais du corpus à écrire, et **jamais par traduction** — les
 guides EN sont du contenu natif à angle expat, c'est une décision de fond (cf. § Bilingual
 setup dans `CLAUDE.md`), pas une facilité.
@@ -1318,6 +1321,80 @@ setup dans `CLAUDE.md`), pas une facilité.
 **Exceptions assumées** : `/badge` ×541 reste FR-only (la motion backlink vise mairies et
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
+
+### Livré le 18/08 (2ᵉ run du jour) — ouverture de `working-in-[city]-2026` (batch 1, +10)
+
+`npm run parity` sortait en **code 0** en début de run (FR 217 / EN 165, 0 route sans jumelle) :
+pas de régression de routes, donc run de corpus. Le run du matin ayant fermé `retiring-in-`, le
+diff par série a désigné le sujet que ce même run annonçait : **`travail-a-[ville]-2026`, 30 FR /
+0 EN**, le plus gros trou du corpus et une série qui n'avait jamais été entamée côté anglais.
+Compteurs mesurés (`grep -c` des deux côtés) : **FR `travail-a-` 30 / EN `working-in-` 10**,
+`EN_GUIDES` 665 → **675**. La série reste ouverte à 20 jumelles près.
+
+**Les 10 villes** : Paris, Lyon, Marseille, Toulouse, Bordeaux, Lille, Strasbourg, Montpellier,
+Nice, Rennes. `metaTitle` 47-54 caractères, `metaDesc` 124-136, 8 sections par guide (la série FR
+en compte 6, l'EN en ajoute deux qui n'ont pas d'équivalent français, cf. plus bas), 1 331 à
+1 446 mots, **zéro tiret cadratin** dans le corps. Catégorie `moving`, comme
+`french-cities-tech-jobs-2026`. `npm run search-index` relancé (`data/search-index.en.json`
+675 guides) et `npm run sitemap:check` repassé — **EN 28 540 URL**, chaque URL déclarée a une page.
+⚠️ **Deux tags neufs, donc deux pages `/tags` de plus** : `TAG_SLUGS_EN` passe de 86 à **88**
+(`working-in-france` et `job-market-france`, 10 guides chacun). Les autres tags réutilisent les
+slugs de ville et de région existants.
+
+⚠️ **Le socle chiffré n'est pas la prose des guides FR, et c'est le point de méthode du run.**
+Les guides `travail-a-` citent des taux de chômage départementaux, des effectifs Apec et des
+salaires médians « Insee DADS » qui ne figurent dans **aucun fichier de `data/`**. La version EN
+s'appuie à la place sur trois sources lues **à travers les modules** (`npx tsx` sur
+`@/lib/employment-market-rankings`, `@/lib/city-income`, `@/data/housing`, `@/data/cities-seed`) :
+① le **score marché du travail** que rend déjà `/cities/[slug]/employment`, c'est-à-dire
+`10 - composite` de `lib/employment-market.ts`, avec son **rang sur les 363 communes de plus de
+20 000 habitants** (Lyon 1ᵉʳ à 7,5/10, Rennes 4ᵉ, Strasbourg 5ᵉ, Paris 3ᵉ, Lille 251ᵉ à 4,9) ;
+② le **niveau de vie médian et le taux de pauvreté réels** d'Insee Filosofi 2021 via
+`lib/city-income.ts`, avec le rang sur 533 communes ; ③ les loyers et prix d'achat de
+`data/housing.ts`. Les seuls chiffres repris de la prose FR sont les **fourchettes de salaire brut
+cadre** et les **effectifs d'employeurs nommés**, attribués comme tels (« our French guide to the
+same market reports »), parce qu'aucune donnée du dépôt ne les porte.
+
+⚠️ **Deux pièges de vocabulaire tenus dans les dix guides, à ne pas diluer.** Le score de marché
+est une **estimation** construite depuis le chômage départemental, la création d'entreprises, la
+diversité des employeurs et le salaire départemental : chaque guide le dit avant de citer le rang,
+au même titre que `mobilite-reduite` le fait pour l'accessibilité. Et le chiffre Insee est un
+**niveau de vie par unité de consommation, prestations comprises, tous résidents confondus, pas un
+salaire** : chaque guide l'écrit et interdit explicitement de le comparer à une offre d'embauche.
+C'est la convention de `lib/city-income.ts`, et c'est ce qui permet de publier sans mentir le cas
+**Strasbourg** : 5ᵉ sur 363 au marché du travail (mesure départementale) et **362ᵉ sur 533 au
+niveau de vie communal, 26 % de pauvreté**. Les deux sont vraies, elles ne mesurent pas la même
+population ; le guide le dit en toutes lettres plutôt que de choisir celle qui arrange.
+
+**Ce que l'EN ajoute et que le FR n'a pas** : deux sections par guide sur le droit au travail
+(permis employeur, Passeport Talent dont **le plancher de salaire est renvoyé à France-Visas et
+jamais chiffré ici** parce qu'il est révisé, comparabilité ENIC-NARIC, professions réglementées,
+niveau de français réellement exigé) et sur ce que contient un contrat français (CDI/CDD, essai
+cadre, cinq semaines légales, RTT, 50 % du titre de transport, mutuelle d'entreprise, brut contre
+net d'environ 78 %, prélèvement à la source). Quatre angles propres au lecteur étranger, absents
+du FR parce qu'inutiles à un Français : ① **Rennes** — les postes sous habilitation défense (DGA MI,
+DGSE) sont en pratique fermés à qui n'a pas la nationalité française, ce qui retire une grande part
+du marché cyber local à un candidat étranger, et aucun visa n'y change rien ; ② **Strasbourg** — un
+titre de séjour français **n'ouvre pas** le droit de travailler en Allemagne, et le plafond de
+télétravail côté français dans le cadre frontalier fait basculer la fiscalité s'il est dépassé ;
+③ **Nice** — Monaco est un autre pays avec son propre permis de travail et ses règles de priorité
+à l'embauche, et la convention de 1963 maintient les Français imposables en France, donc « emploi
+monégasque » ≠ « salaire net à zéro impôt » ; ④ **Toulouse et Bordeaux** — le contrôle export et
+l'habilitation restreignent l'accès à certains programmes par nationalité, à demander avant le
+troisième entretien et non après.
+
+**Nantes est volontairement hors batch** : `nantes-living-and-working-guide-2026` existe déjà et
+son titre porte le mot *working*. Écrire `working-in-nantes-2026` par-dessus reproduirait
+exactement la cannibalisation nettoyée en juin 2026 (cf. § dédup EN, 15 guides retirés). Si la
+série va jusqu'à Nantes, ce sera en tranchant d'abord le sort du guide existant, pas en l'ignorant.
+
+**Prochain run** : re-vérifier la parité de routes d'abord, comme toujours. Si elle tient, le sujet
+est **la suite de `working-in-`** (20 jumelles manquantes : Aix-en-Provence, Amiens, Angers, Brest,
+Caen, Clermont-Ferrand, Dijon, Grenoble, Le Havre, Le Mans, Metz, Nancy, Nantes sous réserve
+ci-dessus, Nîmes, Orléans, Reims, Rouen, Saint-Étienne, Toulon, Tours), devant `famille-a-`
+(19 FR / 0 EN) et `universites-` (15 FR / 0 EN). **Compter avant de suivre cette note** : un batch
+FR livré entre-temps peut rouvrir une série déjà fermée, c'est arrivé deux fois en quatre jours sur
+`parent-solo-a-`.
 
 ### Livré le 18/08 — `retiring-in-[city]-2026` FERMÉE à 20/20 (batch 2, +12)
 

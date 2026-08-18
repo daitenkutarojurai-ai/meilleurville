@@ -3325,6 +3325,56 @@
       "slug": "single-parent-in-dunkerque-2026",
       "title": "Single Parent in Dunkirk (2026): Free Buses and the Lowest Rent Here",
       "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "working-in-paris-2026",
+      "title": "Working in Paris: the deepest job market in France, and what it costs you",
+      "emoji": "💼"
+    },
+    {
+      "slug": "working-in-lyon-2026",
+      "title": "Working in Lyon: the best-rated job market in our ranking, examined",
+      "emoji": "💼"
+    },
+    {
+      "slug": "working-in-marseille-2026",
+      "title": "Working in Marseille: a two-speed market, read honestly",
+      "emoji": "💼"
+    },
+    {
+      "slug": "working-in-toulouse-2026",
+      "title": "Working in Toulouse: aerospace, space, and the risk of one industry",
+      "emoji": "💼"
+    },
+    {
+      "slug": "working-in-bordeaux-2026",
+      "title": "Working in Bordeaux: what the high-speed line did to the job market",
+      "emoji": "💼"
+    },
+    {
+      "slug": "working-in-lille-2026",
+      "title": "Working in Lille: retail head offices, tech, and a hard labour market",
+      "emoji": "💼"
+    },
+    {
+      "slug": "working-in-strasbourg-2026",
+      "title": "Working in Strasbourg: European institutions, pharma, and Germany at ten minutes",
+      "emoji": "💼"
+    },
+    {
+      "slug": "working-in-montpellier-2026",
+      "title": "Working in Montpellier: high demand, thin supply, and the arithmetic of that",
+      "emoji": "💼"
+    },
+    {
+      "slug": "working-in-nice-2026",
+      "title": "Working in Nice: Sophia Antipolis, tourism, and a cost problem",
+      "emoji": "💼"
+    },
+    {
+      "slug": "working-in-rennes-2026",
+      "title": "Working in Rennes: tech, cyber defence, and the limits of a specialism",
+      "emoji": "💼"
     }
   ],
   "tags": [
@@ -3354,6 +3404,11 @@
       "count": 50
     },
     {
+      "slug": "occitanie",
+      "label": "occitanie",
+      "count": 40
+    },
+    {
       "slug": "expat-single-parent",
       "label": "expat single parent",
       "count": 39
@@ -3364,34 +3419,29 @@
       "count": 39
     },
     {
-      "slug": "occitanie",
-      "label": "occitanie",
-      "count": 38
-    },
-    {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 34
+      "count": 35
     },
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 26
+      "count": 27
     },
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 26
+      "count": 27
     },
     {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 25
+      "count": 26
     },
     {
       "slug": "ile-de-france",
       "label": "ile de france",
-      "count": 24
+      "count": 25
     },
     {
       "slug": "international-students",
@@ -3424,14 +3474,14 @@
       "count": 18
     },
     {
+      "slug": "provence-alpes-cote-d-azur",
+      "label": "provence-alpes-cote-d-azur",
+      "count": 18
+    },
+    {
       "slug": "provence",
       "label": "provence",
       "count": 17
-    },
-    {
-      "slug": "provence-alpes-cote-d-azur",
-      "label": "provence-alpes-cote-d-azur",
-      "count": 16
     },
     {
       "slug": "budget",
@@ -3489,13 +3539,23 @@
       "count": 12
     },
     {
+      "slug": "bretagne",
+      "label": "bretagne",
+      "count": 11
+    },
+    {
+      "slug": "working-in-france",
+      "label": "working in france",
+      "count": 11
+    },
+    {
       "slug": "affordable-retirement-france",
       "label": "affordable retirement France",
       "count": 10
     },
     {
-      "slug": "bretagne",
-      "label": "bretagne",
+      "slug": "job-market-france",
+      "label": "job market france",
       "count": 10
     },
     {
@@ -3539,19 +3599,29 @@
       "count": 8
     },
     {
+      "slug": "bordeaux",
+      "label": "bordeaux",
+      "count": 7
+    },
+    {
+      "slug": "nice",
+      "label": "nice",
+      "count": 7
+    },
+    {
       "slug": "reunion",
       "label": "reunion",
+      "count": 7
+    },
+    {
+      "slug": "strasbourg",
+      "label": "strasbourg",
       "count": 7
     },
     {
       "slug": "visa",
       "label": "visa",
       "count": 7
-    },
-    {
-      "slug": "bordeaux",
-      "label": "bordeaux",
-      "count": 6
     },
     {
       "slug": "itinerary",
@@ -3569,11 +3639,6 @@
       "count": 6
     },
     {
-      "slug": "nice",
-      "label": "nice",
-      "count": 6
-    },
-    {
       "slug": "pyrenees",
       "label": "pyrenees",
       "count": 6
@@ -3581,11 +3646,6 @@
     {
       "slug": "south-of-france",
       "label": "south-of-france",
-      "count": 6
-    },
-    {
-      "slug": "strasbourg",
-      "label": "strasbourg",
       "count": 6
     },
     {
@@ -3604,6 +3664,16 @@
       "count": 5
     },
     {
+      "slug": "lyon",
+      "label": "lyon",
+      "count": 5
+    },
+    {
+      "slug": "marseille",
+      "label": "marseille",
+      "count": 5
+    },
+    {
       "slug": "nantes",
       "label": "nantes",
       "count": 5
@@ -3611,6 +3681,16 @@
     {
       "slug": "normandie",
       "label": "normandie",
+      "count": 5
+    },
+    {
+      "slug": "rennes",
+      "label": "rennes",
+      "count": 5
+    },
+    {
+      "slug": "toulouse",
+      "label": "toulouse",
       "count": 5
     },
     {
@@ -3629,23 +3709,23 @@
       "count": 4
     },
     {
-      "slug": "lyon",
-      "label": "lyon",
+      "slug": "lille",
+      "label": "lille",
       "count": 4
     },
     {
-      "slug": "marseille",
-      "label": "marseille",
+      "slug": "montpellier",
+      "label": "montpellier",
+      "count": 4
+    },
+    {
+      "slug": "paris",
+      "label": "paris",
       "count": 4
     },
     {
       "slug": "quality-of-life",
       "label": "quality-of-life",
-      "count": 4
-    },
-    {
-      "slug": "rennes",
-      "label": "rennes",
       "count": 4
     },
     {
@@ -3656,11 +3736,6 @@
     {
       "slug": "rural-france",
       "label": "rural france",
-      "count": 4
-    },
-    {
-      "slug": "toulouse",
-      "label": "toulouse",
       "count": 4
     },
     {
@@ -3724,11 +3799,6 @@
       "count": 3
     },
     {
-      "slug": "lille",
-      "label": "lille",
-      "count": 3
-    },
-    {
       "slug": "living-in-france",
       "label": "living in france",
       "count": 3
@@ -3739,18 +3809,8 @@
       "count": 3
     },
     {
-      "slug": "montpellier",
-      "label": "montpellier",
-      "count": 3
-    },
-    {
       "slug": "notaire",
       "label": "notaire",
-      "count": 3
-    },
-    {
-      "slug": "paris",
-      "label": "paris",
       "count": 3
     },
     {
