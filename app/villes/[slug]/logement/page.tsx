@@ -13,6 +13,8 @@ import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { Home, TrendingUp, MapPin, AlertCircle, ChevronRight } from "lucide-react";
 import { scoreColor, scoreLabel } from "@/lib/utils";
 import { cityAlternates } from "@/lib/i18n";
+import { PropertyPriceTable } from "@/components/PropertyPriceTable";
+import { cityPropertyPrices } from "@/lib/property-prices";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -28,9 +30,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
   const h = getHousing(slug);
+  const p = cityPropertyPrices(slug);
+  // Les deux médianes mesurées valent mieux qu'une phrase générique dans le
+  // snippet : c'est le chiffre que le lecteur cherche, et il est sourcé.
+  const measured =
+    p?.apartment?.medianM2 && p.house?.medianM2
+      ? `${p.apartment.medianM2.toLocaleString("fr-FR")} €/m² en appartement, ${p.house.medianM2.toLocaleString("fr-FR")} € en maison (ventes ${p.years[0]}-${p.years[p.years.length - 1]})`
+      : null;
   return {
     title: `Logement à ${city.name} — loyers, prix, tension locative 2026`,
-    description: `Loyers T1/T2/T3 et prix d'achat au m² à ${city.name}. Tension du marché, quartiers abordables, comparaison location vs achat. Données Clameur 2024.`,
+    description: measured
+      ? `Loyers T1/T2/T3 et prix au m² à ${city.name} : ${measured}. Tension du marché et comparaison location vs achat.`
+      : `Loyers T1/T2/T3 et prix d'achat au m² à ${city.name}. Tension du marché, quartiers abordables, comparaison location vs achat. Données Clameur 2024.`,
     alternates: cityAlternates("logement", slug),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
@@ -201,6 +212,9 @@ export default async function LogementPage({ params }: Props) {
               Les loyers réels varient selon la surface exacte, l&apos;état du bien et le quartier.
             </p>
           </section>
+
+          {/* Prix mesurés, par type de bien */}
+          <PropertyPriceTable slug={city.slug} name={city.name} />
 
           {/* Buy vs rent */}
           {buyRatioYears && (

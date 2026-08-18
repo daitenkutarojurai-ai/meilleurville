@@ -12,6 +12,8 @@ import { cityAlternatesEn, ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { Home, TrendingUp, MapPin, AlertCircle, ChevronRight } from "lucide-react";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
+import { PropertyPriceTable } from "@/components/PropertyPriceTable";
+import { cityPropertyPrices } from "@/lib/property-prices";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -27,11 +29,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
   const h = getHousing(slug);
+  const p = cityPropertyPrices(slug);
+  // L'ancienne description dépassait 160 caractères sur toutes les villes
+  // couvertes : la queue « Clameur 2024 » poussait les prix hors du snippet.
+  const measured =
+    p?.apartment?.medianM2 && p.house?.medianM2
+      ? `Flats €${p.apartment.medianM2.toLocaleString("en-GB")}/m², houses €${p.house.medianM2.toLocaleString("en-GB")}/m² in ${city.name} (${p.years[0]}-${p.years[p.years.length - 1]} sales).`
+      : null;
   return {
     title: `Housing in ${city.name} — rents, prices, market tension 2026`,
-    description: h
-      ? `Studio €${h.avgRentT1}/mo · 1-bed €${h.avgRentT2}/mo · Buy price €${h.avgBuyPriceM2}/m² in ${city.name}. Rental market tension, neighbourhood rents, buy vs rent. Clameur 2024.`
-      : `Rental market and housing prices in ${city.name} (${city.department}). Tension score, buy vs rent analysis, neighbourhood breakdown.`,
+    description: measured
+      ? `${measured} Rents, market tension and buy vs rent.`
+      : h
+        ? `Studio €${h.avgRentT1}/mo, 1-bed €${h.avgRentT2}/mo in ${city.name}. Market tension, neighbourhood rents, buy vs rent.`
+        : `Rental market and housing prices in ${city.name} (${city.department}). Tension score, buy vs rent analysis, neighbourhood breakdown.`,
     alternates: cityAlternatesEn("housing", slug),
   };
 }
@@ -184,6 +195,8 @@ export default async function EnCityHousing({ params }: Props) {
             Actual rents vary by exact size, condition and neighbourhood.
           </p>
         </section>
+
+        <PropertyPriceTable slug={city.slug} name={city.name} locale="en" />
 
         {buyRatioYears && (
           <section>

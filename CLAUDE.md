@@ -1109,6 +1109,33 @@ computant depuis les axes existants — l'enrichissement reste utile pour des ch
   (hors fichier « France hors Mayotte ») et Pierrefitte-sur-Seine (fusionnée dans Saint-Denis en
   2025). ⚠️ Le seed conserve ses `population` approximatives, utilisées par les tris et les seuils
   (éligibilité palmarès, filtres) : les deux nombres coexistent volontairement.
+- ~~`prixM2` appartement / maison~~ — ✅ **fait 2026-08-18** : `data/city-property-prices.json`
+  (via `scripts/city-property-prices.mjs` / `npm run property-prices` + `lib/property-prices.ts`)
+  porte la **médiane des prix au m² réellement enregistrés**, appartement et maison séparément,
+  depuis **DVF géolocalisé** (DGFiP / Etalab, millésimes 2024 + 2025, 624 036 ventes retenues).
+  540/540 villes ingérées : **499 avec un prix appartement, 507 avec un prix maison**. Surfacé sur
+  `/villes/[slug]/logement` et EN `/cities/[slug]/housing` via `components/PropertyPriceTable.tsx`
+  (composant **serveur** — le JSON fait 172 Ko et n'a rien à faire dans le bundle client).
+  ⚠️ `HOUSING[slug].avgBuyPriceM2` (`data/housing.ts`) **reste** et ne mesure pas la même chose :
+  c'est un repère éditorial unique tous biens confondus, pas une médiane de transactions. Les deux
+  nombres coexistent volontairement et peuvent diverger — ne pas « aligner » l'un sur l'autre, et
+  toujours dire lequel est mesuré. Cinq points de méthode à ne pas défaire : ① `valeur_fonciere`
+  est le prix de la **mutation entière** répété sur chaque ligne, donc on regroupe par
+  `id_mutation` et on ne garde que les ventes portant **un seul** logement — sans ça une vente
+  d'immeuble rapporte le prix complet à la surface d'un lot ; ② une mutation revient sur plusieurs
+  lignes (une par parcelle), d'où la déduplication sur (parcelle, surface, type) ; ③ le prix d'une
+  **maison inclut le terrain** et les dépendances comptent au numérateur sans compter au
+  dénominateur, donc le €/m² maison n'est pas comparable au €/m² appartement à l'euro près — les
+  deux surfaces le disent ; ④ sous **20 ventes** d'un type sur la fenêtre, l'effectif est publié
+  mais **pas** la médiane (`pending: "sample"`, 15 villes sans prix appartement, 7 sans prix
+  maison) ; ⑤ **26 communes n'ont aucun prix et n'en auront jamais dans cette source** — le
+  Bas-Rhin, le Haut-Rhin et la Moselle relèvent du **livre foncier** et sont absents de DVF
+  (`coverage: "livre-foncier"` : Strasbourg, Mulhouse, Metz, Colmar…), Mayotte n'y est pas non plus
+  (`coverage: "absent"`). Le bloc s'affiche quand même et **dit pourquoi** : un blanc silencieux se
+  lit comme un oubli. `npm run property-prices:selftest` (15 contrôles hors ligne) couvre les
+  quatre pièges d'agrégation, les bornes et l'éclatement PLM (Paris → 75101-75120, Lyon → 69381-69389,
+  Marseille → 13201-13216, qui n'existent pas comme fichier sous leur code communal).
+  Egress : `files.data.gouv.fr` répond depuis une session **locale**, pas depuis une routine cloud.
 - `tauxChomage: number` — % (proxie zone emploi)
 - `densiteMedecins: number` — généralistes / 1 000 hab
 - `indiceAtmo: number` — qualité air annuelle 0–10 (1 = très pollué)
