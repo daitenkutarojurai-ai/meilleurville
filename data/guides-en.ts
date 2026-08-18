@@ -25778,6 +25778,630 @@ export const EN_GUIDES: EnGuide[] = [
       "expat retirement",
     ],
   },
+  {
+    slug: "retiring-in-le-puy-en-velay-2026",
+    title: "Retiring in Le Puy-en-Velay: heritage, volcanoes, and a light budget",
+    metaTitle: "Retiring in Le Puy-en-Velay 2026 — Health, Housing, Cost",
+    metaDesc:
+      "Retiring in Le Puy-en-Velay: culture 8.7/10, safety 8.1/10, a two-bed at €530, €1,600/m² to buy and a real hospital in town. The winters, examined.",
+    category: "moving",
+    emoji: "🌅",
+    readMinutes: 8,
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    intro:
+      "Le Puy-en-Velay is the opposite of a seaside retirement: no coast, mountain winters at 629 metres, and one of the best overall scores among our 540 towns at 7.7/10 for housing that costs almost nothing by French standards, €530 for a two-bed and €1,600/m² to buy. It is a UNESCO-listed town built on volcanic plugs, the historic starting point of the Via Podiensis route to Santiago de Compostela, and it has a serious hospital on site. For a foreign retiree the appeal is specific: heritage and landscape at a price that leaves a pension intact. This guide sets out what that actually buys, winters included.",
+    sections: [
+      {
+        heading: "Why Le Puy works, and who it works for",
+        body: "The value is the argument. On quality: an exceptional historic core with the cathedral and the pilgrimage route, the Saint-Michel d'Aiguilhe chapel perched on a volcanic spire, the Notre-Dame de France statue over the town, and a culture score of 8.7/10 that is close to unheard of for 19,000 inhabitants. Safety runs at 8.1/10, nature at 8.5/10. On price: this is among the cheapest property in our well-rated towns, where a house with character and a garden stays under €200,000. The town lives all year, carried by its role as prefecture of the Haute-Loire, by the Saturday market on the place du Plot, and by the constant flow of walkers setting out for Spain, which gives the centre a gentle animation no town of this size normally has. This is a retirement of meaning and heritage, not of sun loungers.",
+      },
+      {
+        heading: "Healthcare: the chain of care you would actually use",
+        body: "The Émile-Roux hospital is the real health argument here: it is the referral centre for the whole Haute-Loire, with emergency care, maternity, surgery, cardiology and a technical platform no other town of this size in the series can match. Above that tier, the Saint-Étienne teaching hospital is about an hour and a quarter away on the RN88 road, and Clermont-Ferrand roughly two hours. General practice is typical of a rural prefecture, meaning stretched but functional, with multi-disciplinary health centres holding the offer together. Register with a médecin traitant, the named GP who sets your reimbursement rate, as soon as you arrive rather than at the first need. One point to settle in advance rather than after: the altitude of 629 metres and genuinely cold winters are not advised for some respiratory and cardiac conditions. If that is your file, raise it with your doctor before choosing the Velay.",
+      },
+      {
+        heading: "Residency, health cover and tax from Le Puy",
+        body: "For a non-EU retiree the route in is the long-stay visitor visa: proof of resources, private cover for the first year, and an undertaking not to work in France. State cover then arrives through PUMa, the residence-based scheme, after three months of stable residence, with a mutuelle, meaning top-up insurance, for the share the state does not reimburse. British state pensioners should settle S1 eligibility first, since it governs who funds their French healthcare and whether French social charges apply to foreign pension income. France taxes residents on worldwide income, and the treaty allocates each pension: under the UK treaty, government service pensions stay taxable in the UK while state and private pensions become taxable in France. Two local notes. Le Puy is the prefecture town, so residence permit business is handled here rather than three hours away, which is a real advantage over the villages of the Massif Central. And English-speaking professional advisers are thin on the ground: expect to work with a Lyon or Saint-Étienne firm remotely, or in French.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "The figures read almost as a misprint: €380 for a one-bed, €530 for a two-bed, €700 for a three-bed, €1,600/m² to buy on average. In practice the typical retiree purchase, a bright three-room flat with a lift near the centre or a renovated town house, sits between €120,000 and €180,000, which is studio money in a coastal resort. Two cautions. The old stock in the historic core is superb and cold, so budget seriously for thermal renovation and check the windows and heating before you fall for the stonework; the DPE, France's mandatory energy rating on every listing, is the number to read first. And the topography is real: the town is built on volcanic slopes and the upper districts become hard work without a car. The right call is the flat central plateau around the boulevard Maréchal-Fayolle, where everything is walkable. Purchases go through a notaire and add roughly 7 to 8% in fees on older property.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "For a couple renting a two- or three-bed: rent €530 to €700, heating and charges €180 to €250, which is the line that rises here since winters averaging 3.5°C in January are paid for in kilowatt-hours, groceries €320 to €380 helped by the Velay producer markets and the AOP green lentils, car €200 to €250, health cover €150 to €250, leisure €150 to €200. Total €1,530 to €2,030 a month; owners with no mortgage, €1,000 to €1,350, before taxe foncière, the annual property tax owners pay. This is one of the lightest budgets among all our well-rated towns: a modest pension lives with dignity here and two average pensions live broadly, travel included. If your income is not in euros, note that the low fixed costs also cushion currency swings, which is worth more than it sounds over twenty years.",
+      },
+      {
+        heading: "Daily life, and getting back to see family",
+        body: "Life here has a rhythm and its fixtures: the Saturday market on the place du Plot, the terraces of the place du Breuil in good weather, the Roi de l'Oiseau festival in September when the whole town dresses Renaissance, and the pilgrims leaving the cathedral each morning, with the pilgrim blessing for those the rite touches. Plenty of retirees take up the route themselves, section by section, as a retirement project in its own right. Around the town the Velay offers the Loire gorges, the lac du Bouchet and the mont Mézenc, so walking is a way of life rather than a hobby. Association life is dense and there is a university of the third age. The honest note on visits from abroad: there is no TGV and no motorway, Lyon and its airport are about two hours away, and family will arrive by car or by a connection. Plan the journey before you plan the move.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Winter first and above all: long, cold, averaging 3.5°C in January with genuine weeks of snow, hard on the boiler and on morale alike. Le Puy is a four-season retirement, openly, not a substitute for the Midi. Then the isolation: no direct motorway, no high-speed rail, Saint-Étienne an hour and a quarter away and Lyon two hours or more, so family visits take organising in both directions. Then demographics: the Haute-Loire is ageing, and while the prefecture town stays alive, some services, specialists and niche shops thin out slowly. The verdict fits in a sentence. For an active walking couple, comfortable driving and immune to the call of the sea, Le Puy probably offers the best quality of life per euro of pension in France.",
+      },
+    ],
+    relatedCities: ["le-puy-en-velay", "saint-etienne", "aurillac", "clermont-ferrand"],
+    tags: [
+      "retiring in Le Puy-en-Velay 2026",
+      "Auvergne retirement expat",
+      "Haute-Loire expat guide",
+      "affordable retirement France",
+      "expat retirement",
+    ],
+  },
+  {
+    slug: "retiring-in-fontainebleau-2026",
+    title: "Retiring in Fontainebleau: 20,000 hectares of forest, Paris at 40 minutes",
+    metaTitle: "Retiring in Fontainebleau 2026 — Health, Housing, Cost",
+    metaDesc:
+      "Retiring in Fontainebleau: a UNESCO château, nature 8.5/10 in the Paris region, trains to Gare de Lyon in 40 minutes, €3,800/m². What it costs.",
+    category: "moving",
+    emoji: "🌅",
+    readMinutes: 8,
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    intro:
+      "Fontainebleau solves an equation most Paris-region retirees believe is unsolvable: moving to the green without leaving your children, your doctors or the city itself. More than 20,000 hectares of forest start at the end of the streets, a UNESCO-listed royal château sits in the middle of town, the nature score of 8.5/10 is unique in the Île-de-France, and the train reaches Gare de Lyon in about 40 minutes. All of it at €3,800/m², a provincial price for a Paris-region address. For a foreign retiree with family or medical ties to Paris, this is the compromise that holds. Here is what it costs, line by line.",
+    sections: [
+      {
+        heading: "Why Fontainebleau works, and who it works for",
+        body: "This is the transition retirement for anyone whose working life ran through the Paris region: the setting changes completely while the ecosystem stays. The forest is argument number one, more than 20,000 hectares of high woodland, sandstone boulders and paths that begin at the end of the street, walkable every day of the year, which few towns anywhere can offer. Then the heritage: the château and its gardens as an ordinary walk, an elegant town with good shops, and an overall score of 7.9/10 that puts it among our best-rated places. Then Paris: the Transilien commuter train puts Gare de Lyon around 40 minutes away, which keeps long-standing doctors, children, theatres and friends in current life rather than in memory. Safety runs at 8.1/10, excellent for the region, and schools at 8.7/10 if grandchildren visit for long stretches.",
+      },
+      {
+        heading: "Healthcare: the chain of care you would actually use",
+        body: "The Fontainebleau hospital, part of the Sud Île-de-France hospital group, covers emergencies, general medicine, surgery and a reasonable spread of specialties for a town of 25,000. But the real health argument sits elsewhere: 40 minutes by train puts the entire Paris hospital system within reach without a car, with the Pitié-Salpêtrière about fifteen minutes on the metro from Gare de Lyon. For heavy follow-up or a rare condition, nothing in this series comes close to that depth of referral. General practice matches the regional average, meaning under strain but dense in absolute terms, with a large private sector. One warning specific to the Paris region and easy to miss from abroad: dépassements d'honoraires, the fees some doctors charge above the state tariff, are far more common here than in the provinces, so calibrate the mutuelle, your top-up insurance, accordingly rather than buying the cheapest tier.",
+      },
+      {
+        heading: "Residency, health cover and tax from Fontainebleau",
+        body: "The standard non-EU route applies: a long-stay visitor visa with proof of resources and private cover for the first year, then PUMa, the residence-based state scheme, after three months of stable residence, plus a mutuelle for the share the state does not cover. UK state pensioners should establish S1 eligibility early, since it decides who funds their care and whether French social charges hit foreign pension income. France taxes residents on worldwide income, and the treaty allocates each pension: under the UK treaty, government service pensions stay taxable in the UK while state and private pensions become taxable here. Two things make Fontainebleau easier than anywhere else in this series. INSEAD, the international business school, has installed a permanent foreign population, so English-speaking notaires, accountants and doctors genuinely exist here rather than being a two-hour drive away. And préfecture business for Seine-et-Marne, plus every consulate and embassy in Paris, is a train ride rather than a day trip.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "The markers: €600 for a one-bed, €880 for a two-bed, €1,200 for a three-bed, €3,800/m² to buy on average. For the Paris region that is almost gentle, half the price of central Paris and below the inner suburbs, for an incomparably better setting. The local market has its codes. The handsome Haussmann-era and 1930s flats near the château go fast and dear; the 1960s to 1980s blocks towards the station or the hospital give the best space per euro and come with a lift, which is the natural retiree target. Worth knowing: Avon, the adjoining commune sharing the station, offers the same quiet streets at €400 to €600/m² less. Two cost lines to check before signing are the Paris-region taxe foncière, the annual property tax, which is a real item here, and the service charges on the elegant parkland residences, which are high. Purchases go through a notaire and add roughly 7 to 8% in fees on older property.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "For a couple renting a two- or three-bed: rent €880 to €1,200, charges and energy €150 to €200, groceries €380 to €450 with the Sablons market and remarkable food shops at Paris-region prices, transport €120 to €200 since the train replaces many journeys and the regional senior travel card helps, though a car stays useful for the forest and the weekly shop, health cover €180 to €280 with a reinforced top-up for the fee overruns above, leisure €200 to €250. Total €1,900 to €2,550 a month; owners with no mortgage, €1,250 to €1,600, property tax included at the top of that range. That is a budget comparable to Anglet on the Basque coast. Fontainebleau is the expensive-but-complete option in this series, not a savings plan, and the cost score of 4.6/10 says so plainly.",
+      },
+      {
+        heading: "Daily life, and getting back to see family",
+        body: "The rhythm is that of a town both bourgeois and sporting: walking or cycling in the forest in the morning, with waymarked circuits graded by climb so the effort adapts year after year, a market three times a week, an annual pass to the château and its gardens, concerts at the municipal theatre. The forest's famous bouldering circuits even have their senior regulars. Association life is dense and the social mix unusual: INSEAD and the local schools bring an international population that gives a town of this size a rare openness, conversations in English at the market included, which matters more than it sounds when you arrive without French. And Paris stays the Thursday outing: an exhibition in the morning, lunch with former colleagues, home before dinner. For visitors flying in, both Paris airports are reachable, and that is the practical answer to family visits from abroad.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "First the overall cost, set out above: housing, groceries, eating out and local taxes make for a noticeably more expensive retirement than the provinces, for an ordinary Paris-region climate at 4°C in January, grey included, with no weather bonus of any kind. Then tourism: the château draws millions of visitors, spring weekends saturate the centre and the nearest forest, and day-tripping Parisians are part of the Sunday landscape. Third, this remains a Paris-region town, with the restaurant prices and residual bustle that implies; anyone wanting a clean break with the capital will find only half a break here. That is precisely its function, a green retirement for people who do not really want to leave. For everyone else, the provinces offer more for less.",
+      },
+    ],
+    relatedCities: ["fontainebleau", "paris"],
+    tags: [
+      "retiring in Fontainebleau 2026",
+      "retire near Paris",
+      "Ile-de-France expat guide",
+      "forest retirement France",
+      "expat retirement",
+    ],
+  },
+  {
+    slug: "retiring-in-challans-2026",
+    title: "Retiring in Challans: the Vendée coast without the coastal price",
+    metaTitle: "Retiring in Challans 2026 — Health, Housing, Budget",
+    metaDesc:
+      "Retiring in Challans: safety 8.3/10, a two-bed at €640, €2,100/m², beaches 20 minutes away and a hospital in town. The Vendée value case.",
+    category: "moving",
+    emoji: "🌅",
+    readMinutes: 8,
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    intro:
+      "Challans is the clever play on the Vendée coast: the beaches of Saint-Jean-de-Monts and Notre-Dame-de-Monts twenty minutes away, the Marais Breton wetlands on the doorstep, a legendary Tuesday market, and 21,000 inhabitants keeping the town alive all year rather than for ten weeks of summer. Against Les Sables-d'Olonne or Saint-Jean-de-Monts, the price gap runs to hundreds of euros per square metre with little sacrifice in quality of life. Safety scores 8.3/10, cost 7.2/10, and the climate is bright at 2,100 hours of sunshine. This guide covers what matters at 62: care, housing, the real monthly budget and the limits worth knowing first.",
+    sections: [
+      {
+        heading: "Why Challans works, and who it works for",
+        body: "The town adds up three things a single Vendée commune rarely concentrates. A useful size: 21,000 inhabitants who keep shops, doctors and associations running twelve months a year, which no resort does. Direct access to the ocean: Saint-Jean-de-Monts twenty minutes away, Noirmoutier thirty, Saint-Gilles-Croix-de-Vie twenty-five. And inland pricing, because the town itself is not on the water. The Tuesday market is one of the largest in western France and concentrates a good part of the social life of the northern half of the department. Our figures confirm what daily life shows: safety 8.3/10, cost 7.2/10, nature 7.1/10, with a bright Vendée climate, 2,100 hours of sunshine and 6°C in January. It is a town where you feel neither at the end of the world nor crushed by tourism, which is the balance most coastal retirements fail to strike.",
+      },
+      {
+        heading: "Healthcare: the chain of care you would actually use",
+        body: "The Loire-Vendée-Océan hospital in Challans covers emergencies, general medicine, day surgery and maternity, which is a stroke of luck for a town this size and exists because decades of retirees from the north of France and the Paris region sized the demand. For heavy specialties, the departmental hospital in La Roche-sur-Yon is 45 minutes away and the Nantes teaching hospital an hour and a quarter. General practice, though, is under heavy pressure: the concentration of retirees has saturated surgeries, and finding a médecin traitant, the named GP who sets your reimbursement rate, can take months in 2026. Two useful reflexes. Contact the multi-disciplinary health centre as soon as you arrive rather than at the first need. And if you are moving from another country, keep whatever follow-up you can in place during the transition instead of assuming a French GP will be quick to find. Routine care, physiotherapy, home nursing and labs, is well covered thanks to the local habit of old age.",
+      },
+      {
+        heading: "Residency, health cover and tax from Challans",
+        body: "The non-EU route is the long-stay visitor visa: proof of resources, private cover for the first year, and an undertaking not to work. State cover follows through PUMa, the residence-based scheme, after three months of stable residence, plus a mutuelle, the top-up insurance covering what the state does not. British state pensioners should resolve S1 eligibility before anything else, since it decides who funds their French healthcare and whether French social charges apply to foreign pension income. France taxes residents on worldwide income and the treaty allocates each pension: under the UK treaty, government service pensions remain taxable in the UK while state and private pensions become taxable in France. Two local notes. Your préfecture is La Roche-sur-Yon, 45 minutes away, so allow a day for residence permit appointments. And the Vendée has a long-standing population of incoming retirees, which means notaires and estate agents here are used to buyers arriving from elsewhere, though English-speaking advisers are more reliably found in Nantes.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "The figures: €450 for a one-bed, €640 for a two-bed, €860 for a three-bed, €2,100/m² to buy on average, which is far below Saint-Jean-de-Monts and roughly half Les Sables-d'Olonne. A 1970s or 1980s house with a garden in the residential streets often trades around €250,000, a budget that buys very little on the coast itself. Two pieces of ground advice. Target the districts near the centre so that the market, the covered halls and the doctors stay walkable, and be wary of outlying estates that make a car compulsory for a loaf of bread. Unlike the resorts, there is no speculative scarcity here driven by second homes: this is a genuinely inhabited market, and property comes free regularly rather than in a scramble. Check the DPE, the mandatory energy rating shown on every listing. Purchases go through a notaire, take two to three months from preliminary contract, and add roughly 7 to 8% in fees on older property.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "For a couple renting a two- or three-bed: rent €640 to €860, charges and energy €150 to €200, groceries €350 to €420 with the Tuesday market and Vendée producers holding the line, car €200 to €260, which is unavoidable since the transport score of 4.9/10 says so without euphemism, senior health cover €150 to €250 for two, leisure €150 to €200. Total €1,640 to €2,190 a month; owners with no mortgage, €1,050 to €1,400, before taxe foncière, the annual property tax. In other words two average pensions live comfortably in Challans where the same retirement counts every cent in Les Sables-d'Olonne or on Noirmoutier. This is the affordable Vendée, the one that keeps the ocean within reach without paying the seafront tariff.",
+      },
+      {
+        heading: "Daily life, and getting back to see family",
+        body: "A retiree's week here fills an agenda: the Tuesday market and its crowd of regulars, the Foire des Minées fair in November, the cycle paths of the Marais Breton, the beaches of the Pays de Monts for a morning walk out of season, and a dense association fabric covering walking, sea walking, choirs and adult education. Unlike the neighbouring resorts, Challans does not switch off in September: shops, cinema and restaurants stay open all year, and that is exactly what separates a real town from a summer set. For visits, Nantes is an hour and a quarter by car, with the TGV putting Paris two hours from there and the airport handling international arrivals, so children and grandchildren can come without a saga. That combination, family within reach but not underfoot, is the practical reason people choose here over an island.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Three honest reservations. The climate first: bright but windy, with a cool winter at 6°C in January and a westerly that can weigh on the mood in March. If your plan looks like sunny terraces from November to March, look at Roussillon or the Riviera instead. Second, the car is non-negotiable, no urban bus really replaces the run to the beach or to the out-of-town shops, and you have to picture the day driving becomes difficult, which is exactly why living in the centre from the start matters. Third, the strain on general practice set out above, which is the genuine Vendée warning. None of it is disqualifying, but it is better known before you sell the flat back home. On that basis Challans remains one of the best retirement compromises on the Atlantic coast.",
+      },
+    ],
+    relatedCities: ["challans", "les-sables-d-olonne", "la-roche-sur-yon", "nantes"],
+    tags: [
+      "retiring in Challans 2026",
+      "Vendee retirement expat",
+      "Atlantic coast retirement France",
+      "affordable retirement France",
+      "expat retirement",
+    ],
+  },
+  {
+    slug: "retiring-in-tulle-2026",
+    title: "Retiring in Tulle: the cheapest prefecture in France, and its trade-offs",
+    metaTitle: "Retiring in Tulle 2026 — Health, Housing, Budget",
+    metaDesc:
+      "Retiring in Tulle: cost 8/10, a two-bed at €530, €1,400/m² to buy, gorges on the doorstep and a hospital in town. The rural limits, stated.",
+    category: "moving",
+    emoji: "🌅",
+    readMinutes: 8,
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    intro:
+      "Tulle is probably the most affordable prefecture town in France: €1,400/m² to buy, a two-bed at €530, and a spectacular setting wedged into the gorges of the Corrèze river. Off the main routes, it still lives off an administrative and industrial fabric, the Maugein accordion works and the state arms factory, which sets it apart from the dying villages of the plateau. For a retirement built on nature, quiet and a wide budget margin, few French towns compete. This guide separates the postcard from the daily reality: care, housing, budget and the real limits of the inland Corrèze.",
+    sections: [
+      {
+        heading: "Why Tulle works, and who it works for",
+        body: "Because Tulle combines two things few French towns manage: a rare setting, with slate roofs tumbling down the slopes towards the river, the cathedral above the lower town and the gorges carving the landscape, and a property market that leaves genuine room in a pension. At 15,000 inhabitants the prefecture keeps an administrative life, meaning public services, a court and a hospital, a lively Saturday market, a dense association fabric and a decent cultural programme for the size, with the théâtre des Sept Collines and the Nuits de Nacre accordion festival. Our figures sum it up: safety 8.1/10, cost 8.0/10, nature 7.8/10, culture 6.0/10, a balanced profile rarely found at this price. The Plateau de Millevaches, one of the wildest expanses in the Massif Central, is 45 minutes away. This suits an active, driving couple who want space and margin rather than services on tap.",
+      },
+      {
+        heading: "Healthcare: the chain of care you would actually use",
+        body: "The Tulle hospital provides emergency care, general medicine, surgery and geriatrics on site: the town kept its local hospital where many prefectures of comparable size lost theirs. For heavy specialties, the Limoges teaching hospital is an hour and twenty minutes away, and Brive-la-Gaillarde, thirty minutes off, adds a complementary technical platform with imaging, cardiology and orthopaedic surgery. The real Corrèze limit, as everywhere in deep rural France, is the supply of GPs: practices are under heavy strain, waits for some specialists stretch, and finding a médecin traitant, the named GP who sets your reimbursement rate, takes time. The advice without euphemism: contact the multi-disciplinary health centre as soon as you arrive, consider a GP in a neighbouring commune if needed, and assess your follow-up needs honestly before settling far from a metropolitan area. This is the single most important thing for a foreign retiree to test before committing, not after.",
+      },
+      {
+        heading: "Residency, health cover and tax from Tulle",
+        body: "For a non-EU retiree the entry route is the long-stay visitor visa: proof of resources, private cover for the first year, and an undertaking not to work in France. State cover arrives through PUMa, the residence-based scheme, after three months of stable residence, with a mutuelle, meaning top-up insurance, for the share the state does not reimburse. British state pensioners should resolve S1 eligibility first, since it governs who pays for their French healthcare and whether French social charges apply to foreign pension income. France taxes residents on worldwide income, with the treaty deciding each pension: under the UK treaty, government service pensions remain taxable in the UK while state and private pensions become taxable in France. Two local notes. Tulle is the prefecture, so residence permit business is handled in town rather than at the end of a long drive. And the wider Corrèze and Dordogne area has a long-established British community, which means estate agents and some professionals here are genuinely used to foreign buyers, even if English-speaking advice is easier to find towards Brive.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "The figures are among the gentlest of our 540 towns: €370 for a one-bed, €530 for a two-bed, €700 for a three-bed, €1,400/m² to buy on average. A town house with a garden in the upper districts often trades under €130,000, a renovated flat in the centre for well under €150,000. Two things to weigh. The topography is brutal, the streets climb hard, and some charming properties become unusable the day the knees object, so think ten years ahead rather than two and favour the lower town or the residential plateaux to the south. Then insulation: much of the old stock kept its slate and stone character at the cost of poor energy performance, so the DPE, the mandatory energy rating on every listing, and the winter bills should weigh as heavily in the decision as the charm. Purchases go through a notaire, take two to three months from preliminary contract, and add roughly 7 to 8% in fees on older property.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "For a couple renting a two- or three-bed: rent €530 to €700, charges and energy €180 to €250, since Corrèze winters are real and the heating line is not decorative, groceries €320 to €400 held down by the Saturday market and local producers, car €200 to €260, which is unavoidable because rural Corrèze does not work without one, health cover €150 to €250 for two, leisure €150. Total €1,530 to €2,010 a month, among the lowest in this series; owners with no mortgage, €950 to €1,250, before taxe foncière, the annual property tax. That is the Tulle argument in one line: two modest pensions live well here, and a couple with a combined net income around €1,500 to €1,700 gets through the month without painful choices, which most coastal towns make impossible.",
+      },
+      {
+        heading: "Daily life, and getting back to see family",
+        body: "Daily life organises itself around the Saturday market, one of the finest in the Massif Central, the paths through the Corrèze gorges, the Solane valley, the Plateau de Millevaches 45 minutes away, the Dordogne an hour off and Brive and its market half an hour away. The association fabric is unusually dense for 15,000 inhabitants: walking clubs, choirs, theatre workshops, a university of the third age, heritage groups. The Nuits de Nacre, an international accordion festival, set the rhythm of the summer, and the theatre programme covers the year. Integration goes better than a city-dweller expects, because the town has absorbed a lot of incomers and retirees from elsewhere and local sociability opened up accordingly. On visits: Bordeaux is three hours away, Toulouse three and a half, and Paris about five hours by train via Limoges. Family visits exist; they take more effort than from Vendôme.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Four limits to weigh seriously. The climate: 4.5°C in January, long damp winters, and a decent but short summer at 23°C in July, so anyone hoping for terraces from March to October will be disappointed by the Corrèze. Second, the car is non-negotiable, and the day driving becomes impossible the isolated Corrèze can tip quickly into dependence on family, which is why living in town with shops on foot is the key decision. Third, the medical demographics above, the real point of vigilance after 75. Fourth, distance from the big cities, which matters for anyone whose children will fly in and then need collecting. None of it disqualifies Tulle for a mobile, self-sufficient retiree, but this is not a prefecture you choose without reading the map properly first.",
+      },
+    ],
+    relatedCities: ["tulle", "brive-la-gaillarde", "limoges", "aurillac"],
+    tags: [
+      "retiring in Tulle 2026",
+      "Correze retirement expat",
+      "Limousin expat guide",
+      "affordable retirement France",
+      "expat retirement",
+    ],
+  },
+  {
+    slug: "retiring-in-pontarlier-2026",
+    title: "Retiring in Pontarlier: the Jura at 837 metres, Switzerland at ten minutes",
+    metaTitle: "Retiring in Pontarlier 2026 — Health, Housing, Budget",
+    metaDesc:
+      "Retiring in Pontarlier: nature 8.5/10, safety 8.1/10, cross-border pressure at €2,400/m² and winters averaging −0.5°C. Whether it adds up.",
+    category: "moving",
+    emoji: "🌅",
+    readMinutes: 8,
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    intro:
+      "Pontarlier is not the retirement anyone pictures first: 837 metres of altitude, a Franche-Comté winter that starts in November, a dense town centre ringed by Jura forest. It is also safety at 8.1/10, exceptional nature at 8.5/10, a dense association life, and the Swiss border ten minutes away, which pulls local purchasing power upwards and keeps the town busy all year. For an active retiree who wants open air and cross-country skiing, it is one of the few French towns that genuinely ticks every box. This guide covers care, a tighter-than-expected property market, the real budget and what a winter at zero imposes.",
+    sections: [
+      {
+        heading: "Why Pontarlier works, and who it works for",
+        body: "The town stacks up advantages that rarely appear together: the exceptional setting of the Haut-Doubs, with Malbuisson and the lac Saint-Point fifteen minutes away, the cirque de Consolation, the source of the Doubs and the Remoray lake nature reserve; safety among the best in France at 8.1/10; a decent cultural life for 18,000 inhabitants, with the théâtre Bernard-Blier and the municipal museum; and a border position that has built up shops, services and restaurants well beyond what a landlocked Jura town would otherwise support. Air quality is excellent, the water irreproachable, and the cross-country skiing at Métabief is twenty minutes away. Around 4,000 residents work across the border, which keeps the town alive year-round and separates Pontarlier from an ordinary mountain village. This suits people who intend to be outdoors in every season, not people looking for mild afternoons.",
+      },
+      {
+        heading: "Healthcare: the chain of care you would actually use",
+        body: "The Pontarlier hospital covers emergencies, general medicine, surgery and a reasonable range of specialties on site for a town this size. For heavy specialties the Besançon teaching hospital is an hour away and remains a regional reference. A less obvious point: Swiss proximity opens access to some care in Neuchâtel, 25 minutes off, useful for a fast consultation, though reimbursement has to be settled case by case and should never be assumed. Do not build a health plan on the Swiss side without written confirmation of cover. General practice is comparatively decent here thanks to the working-age population the border sustains, but pressure is rising, so register with a médecin traitant, the named GP who sets your reimbursement rate, as soon as you move in. Routine care, physiotherapy, home nursing and labs, is complete and the local habit of old age is well established.",
+      },
+      {
+        heading: "Residency, health cover and tax from Pontarlier",
+        body: "The standard non-EU route applies: a long-stay visitor visa with proof of resources and private cover for the first year, then PUMa, the residence-based state scheme, after three months of stable residence, plus a mutuelle for the share the state does not reimburse. UK state pensioners should establish S1 eligibility early, since it determines who funds their care and whether French social charges apply to foreign pension income. France taxes residents on worldwide income, and the treaty allocates each pension: under the UK treaty, government service pensions stay taxable in the UK while state and private pensions become taxable here. One warning specific to this town and worth more than everything else on the page: the border tempts people to arrange their lives across it, and tax residence, health cover and vehicle registration each follow their own rules under a separate France-Switzerland framework. Mixing them casually creates expensive problems. Take professional advice before organising anything cross-border, including a Swiss bank account or a Swiss doctor.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "This is the real point of attention: Swiss border pressure has pushed prices well above what a landlocked Jura town would otherwise cost. Expect €490 for a one-bed, €700 for a two-bed, €940 for a three-bed, and €2,400/m² to buy on average, more than double Saint-Dié-des-Vosges for an arguably comparable setting. A house with a garden in the residential districts often passes €300,000. Two pieces of advice. Target the town centre so that everything is walkable, which matters enormously in February when it snows. And accept a narrower stock than elsewhere, because what comes free goes quickly between local retirees and arriving cross-border workers. Thermal insulation is a central criterion here rather than a detail: at 837 metres a poor DPE, the mandatory energy rating on every listing, costs hundreds of euros of heating every winter. Purchases go through a notaire and add roughly 7 to 8% in fees on older property.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "For a couple renting a two- or three-bed: rent €700 to €940, charges and energy €250 to €350, with heating dominating the line because the Franche-Comté winter is not an anecdote, groceries €350 to €420, car €220 to €280, needed for the valleys and the ski areas, health cover €150 to €250 for two, leisure €150 to €200. Total €1,820 to €2,440 a month; owners with no mortgage, €1,200 to €1,550, before taxe foncière, the annual property tax. That is clearly more than a comparable deep-rural prefecture such as Tulle or Saint-Dié, and it is the price of Switzerland at ten minutes, local dynamism and an alpine-grade setting. The cost score of 6.7/10 is lucid: Pontarlier stays affordable for a border town, but you do not come here to save money, you come for a mountain setting that is genuinely rare.",
+      },
+      {
+        heading: "Daily life, and getting back to see family",
+        body: "A retiree's week here is carried by the outdoors in every season: cross-country skiing at Métabief from December to March, snowshoeing on the Larmont plateau, walking round the lac Saint-Point, cycling the Jura ridges in summer, mushrooms in September. Association life is unusually strong for the size, with alpine clubs, choirs, a university of the third age and heritage groups built around absinthe, the local spirit whose distilling history the town carries, and joining one of those circles is how integration actually happens. The theatre holds the winter, the Thursday and Saturday markets animate the town, and the table is better than outsiders guess: comté, morbier and Morteau sausage. For visits and escapes, Besançon, Lausanne by train via Vallorbe and even Geneva are all under two hours, which also gives family arriving from abroad a choice of airports.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Winter first, without hedging: an average of −0.5°C in January, but nights at −15°C several times a season, frequent snow cover that immobilises anyone not properly equipped, and modest sunshine at 1,700 hours a year. If your plan looks like terrace mornings in November, Pontarlier is a contradiction in terms. Second, the cost above, which is the highest in this series for a non-coastal town. Third, distance from big cities, with Besançon an hour away, Lyon two and a half and Paris about three hours by train via Frasne, which weighs on frequent family trips. Fourth, and least discussed, the climate demands honest physical fitness to enjoy the town at all: clearing snow, walking to the market in February, shopping on foot at −8°C. On that basis Pontarlier stays a remarkable choice for an active outdoor retirement.",
+      },
+    ],
+    relatedCities: ["pontarlier", "besancon", "belfort", "dijon"],
+    tags: [
+      "retiring in Pontarlier 2026",
+      "Jura retirement expat",
+      "Franche-Comte expat guide",
+      "Swiss border France retirement",
+      "expat retirement",
+    ],
+  },
+  {
+    slug: "retiring-in-saint-die-des-vosges-2026",
+    title: "Retiring in Saint-Dié-des-Vosges: forest, a geography festival, €1,100/m²",
+    metaTitle: "Retiring in Saint-Dié 2026 — Health, Housing, Budget",
+    metaDesc:
+      "Retiring in Saint-Dié-des-Vosges: cost 8.5/10, nature 8.5/10, a two-bed at €500 and €1,100/m² to buy. The Vosges winter, stated plainly.",
+    category: "moving",
+    emoji: "🌅",
+    readMinutes: 8,
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    intro:
+      "Saint-Dié-des-Vosges belongs to that discreet category of mid-sized French towns whose quality of life is routinely underrated: 20,000 inhabitants, the Vosges forest at the end of the street, an average purchase price of €1,100/m² among the softest in eastern France, and a cultural programme that includes, every October, an international geography festival, which is a rare thing at this scale. This is also the town where the word America was first printed, in 1507. For a retirement built on nature, budget margin and a genuine cultural fabric, it deserves a serious look. Care, housing, the real budget and a Vosges winter that cannot be talked away.",
+    sections: [
+      {
+        heading: "Why Saint-Dié works, and who it works for",
+        body: "The town ticks boxes few places of 20,000 inhabitants tick. Nature at 8.5/10, with the Vosges massif starting in the suburbs, the ridges and the col du Donon thirty minutes away and the lake at Gérardmer forty-five. A real cultural life: the Festival international de géographie every October since 1990, drawing around 40,000 visitors, plus the cathedral and its Romanesque cloister and the Tour de la Liberté by I. M. Pei. And a property market that leaves genuine margin, with cost at 8.5/10, one of the best figures in this series. Safety runs at 7.5/10 and culture at 6.9/10 for a town this size, a balanced profile that is not easy to find. Rebuilt after 1944, the town keeps medieval traces alongside modernist ones. Nancy and Strasbourg are an hour and a quarter away, which keeps urban eastern France within reach without living in it.",
+      },
+      {
+        heading: "Healthcare: the chain of care you would actually use",
+        body: "The Saint-Dié hospital provides emergency care, general medicine and surgery on site, a privilege many Vosges towns of comparable size have lost. For heavy specialties, the Nancy teaching hospital is an hour and a quarter away and Strasbourg an hour and a half: two first-rank references within reasonable reach. General practice is the thing to watch, as everywhere in the rural east. GPs are under strain, some specialists are thinning out, and finding a médecin traitant, the named GP who sets your reimbursement rate, means starting the day you move in rather than at the first need. The multi-disciplinary health centre will take new patients more readily than an individual practice. Routine care, physiotherapy, home nursing and laboratories, is adequately covered. For a foreign retiree, the practical question to test first is not the hospital, which is fine, but whether a GP will register you.",
+      },
+      {
+        heading: "Residency, health cover and tax from Saint-Dié",
+        body: "For a non-EU retiree the route in is the long-stay visitor visa: proof of resources, private cover for the first year, and an undertaking not to work in France. State cover then arrives through PUMa, the residence-based scheme, after three months of stable residence, with a mutuelle, meaning top-up insurance, for the share the state does not reimburse. British state pensioners should settle S1 eligibility first, since it governs who funds their French healthcare and whether French social charges apply to foreign pension income. France taxes residents on worldwide income, and the treaty allocates each pension: under the UK treaty, government service pensions stay taxable in the UK while state and private pensions become taxable in France. Two local notes. The préfecture of the Vosges is Épinal, so residence permit appointments mean a drive rather than a walk. And Strasbourg, an hour and a half away, is where international professional services and English-speaking advisers are realistically found.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "The figures are among the gentlest of our 540 towns: €350 for a one-bed, €500 for a two-bed, €670 for a three-bed, and €1,100/m² to buy on average. A 1960s or 1970s house with a garden in the residential districts often trades under €130,000; a renovated flat in the centre well under €150,000. Two points of attention. Thermal insulation is a central criterion at this altitude and in this climate rather than an option: the DPE, the mandatory energy rating on every listing, and the winter bills should weigh as heavily as the charm of the building. And favour the central districts so everything stays walkable, because some outlying estates make a car compulsory for the smallest errand, a handicap the day driving becomes difficult. Purchases go through a notaire, take two to three months from preliminary contract, and add roughly 7 to 8% in fees on older property.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "For a couple renting a two- or three-bed: rent €500 to €670, charges and energy €220 to €320, and do not minimise the Vosges heating line because the winters are real, groceries €320 to €400, car €200 to €260, needed for the valleys and the larger retail parks at Épinal or Nancy, senior health cover €150 to €250 for two, leisure €150. Total €1,540 to €2,050 a month; owners with no mortgage, €1,000 to €1,350, before taxe foncière, the annual property tax. The cost score of 8.5/10 is among the best in this series: Saint-Dié is clearly one of the French towns where two small pensions live well, with margin for grandchildren or travel, which most coastal towns make impossible. For an income arriving in a foreign currency, that margin is also the buffer against exchange-rate swings.",
+      },
+      {
+        heading: "Daily life, and getting back to see family",
+        body: "A retiree's week here is carried by the forest: paths through the Vosges massif, mushroom picking in autumn, nordic skiing at La Bresse-Hohneck or snowshoes at the col du Donon in winter, walks round the lakes at Pierre-Percée and Longemer. The town itself lives all year, with a Saturday market, a cinema, a theatre, a popular university and heritage and food associations built around choucroute, munster and mirabelle plums. The structuring event is the geography festival on the first weekend of October, which turns a town of this size into an intellectual meeting point, and which for an incomer is one of the easiest doors into local life. Integration goes better than a city-dweller expects, since the town has long absorbed incomers. For visits: Nancy and Strasbourg an hour and a quarter away, Paris about four hours by train via Nancy.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Three reservations to weigh seriously. The climate first: 1.5°C in January with spells at −10°C several times a winter, modest sunshine at 1,650 hours, among the lowest in this series, and a late spring. If your retirement involves sun from March to October, the Meurthe valley will disappoint you frankly. Second, the car is non-negotiable, and the ten-year question of what happens when driving becomes difficult is why living centrally from the start matters. Third, distance, with Nancy and Strasbourg an hour and a quarter off and Paris four hours by train, which weighs on frequent family trips and on anyone whose visitors fly in. None of it is disqualifying for an active retiree ready for a continental climate, but Saint-Dié is not a retirement chosen for the weather.",
+      },
+    ],
+    relatedCities: ["saint-die-des-vosges", "epinal", "nancy", "colmar"],
+    tags: [
+      "retiring in Saint-Die-des-Vosges 2026",
+      "Vosges retirement expat",
+      "Grand Est expat guide",
+      "affordable retirement France",
+      "expat retirement",
+    ],
+  },
+  {
+    slug: "retiring-in-chateau-gontier-2026",
+    title: "Retiring in Château-Gontier: a river town, safety 8.7/10, €1,300/m²",
+    metaTitle: "Retiring in Château-Gontier 2026 — Health and Budget",
+    metaDesc:
+      "Retiring in Château-Gontier-sur-Mayenne: safety 8.7/10, a two-bed at €520, €1,300/m², three hospitals within 80 minutes. Very quiet, deliberately.",
+    category: "moving",
+    emoji: "🌅",
+    readMinutes: 8,
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    intro:
+      "Château-Gontier-sur-Mayenne is the archetype of the small Loire-country town nobody notices from abroad: 16,000 inhabitants, the canalised Mayenne running through the middle, a protected old centre, safety at 8.7/10, which is among the highest figures in our whole database, and an average purchase price of €1,300/m². Rennes, Nantes and Le Mans are each about an hour and a quarter away, Laval thirty minutes. For a quiet retirement with a wide budget margin, in a real small town rather than a dying village, this is one of the under-explored options in France. Care, housing, budget and the real limits of choosing radical calm.",
+    sections: [
+      {
+        heading: "Why Château-Gontier works, and who it works for",
+        body: "Because the town adds up what matters at 65 for anyone wanting quiet without being cut off: a pedestrian old centre, with the lanes around Saint-Jean-Baptiste, the river port and the jardins du Bout du Monde; a useful size, 16,000 inhabitants keeping shops, doctors, a cinema and two markets alive; an exceptional riverside setting, with towpaths running 85 kilometres for walking and cycling; and open-country pricing. Our figures sum it up: safety 8.7/10, cost 8.0/10, nature 7.1/10, quality of life 6.8/10, a profile hard to beat for a small town. It resisted rural decline thanks to an industrial fabric that is still present, food processing and mechanical engineering, and to its position on the Laval-Angers axis, which is what separates Château-Gontier from a fossilised tourist village. If your priority is calm and margin rather than variety, this is the shape of it.",
+      },
+      {
+        heading: "Healthcare: the chain of care you would actually use",
+        body: "The Haut-Anjou hospital in Château-Gontier provides emergency care, general medicine, day surgery and geriatrics on site, which is rare for a sub-prefecture of this size. Above it, the Laval hospital is thirty minutes away, the Angers teaching hospital forty-five minutes and the Nantes teaching hospital an hour and twenty. That is the real Mayenne advantage: fast access to three hospital platforms rather than one, which matters more than any single figure when you are planning twenty years ahead. General practice stays under strain as everywhere in the rural west, but the multi-disciplinary health centre will take new patients more readily than an individual practice. Routine care is adequately covered and the local habit of old age is well established. The usual advice applies with force here: look for a médecin traitant, the named GP who sets your reimbursement rate, before you move rather than after.",
+      },
+      {
+        heading: "Residency, health cover and tax from Château-Gontier",
+        body: "The non-EU route is the long-stay visitor visa: proof of resources, private cover for the first year, and an undertaking not to work in France. State cover follows through PUMa, the residence-based scheme, after three months of stable residence, plus a mutuelle, the top-up insurance covering the share the state does not reimburse. British state pensioners should resolve S1 eligibility first, since it decides who funds their French healthcare and whether French social charges apply to foreign pension income. France taxes residents on worldwide income, and the treaty allocates each pension: under the UK treaty, government service pensions remain taxable in the UK while state and private pensions become taxable in France. Two local notes that make this town easier than its size suggests. The Mayenne has hosted a British community for decades, drawn originally by property prices, so notaires and agents here have handled foreign purchases many times. And your préfecture is Laval, thirty minutes away, which is a short trip by rural French standards.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "The figures: €370 for a one-bed, €520 for a two-bed, €700 for a three-bed, €1,300/m² to buy on average. A 1970s or 1980s house with a garden regularly trades under €160,000; a genuine period property in the old centre can reach €250,000. Two points of attention. Insulation, as always at these prices, since many properties carry a poor DPE, the mandatory energy rating on every listing, and a real renovation programme ahead of them. And the topography of the historic centre, which is mildly steep and can complicate getting about at ten or fifteen years. Favour the lower town and the districts near the river for easy daily walking rather than the picturesque heights. Supply is decent to buy and narrower to rent, though rental demand is equally moderate. Purchases go through a notaire, take two to three months from preliminary contract, and add roughly 7 to 8% in fees on older property.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "For a couple renting a two- or three-bed: rent €520 to €700, charges and energy €180 to €240, groceries €320 to €400, with the Thursday and Saturday markets and local producers keeping the line low, car €200 to €260, which is unavoidable since the Mayenne does not work without one, health cover €150 to €250 for two, leisure €150. Total €1,520 to €2,000 a month, in the lower third of this series; owners with no mortgage, €1,000 to €1,300, before taxe foncière, the annual property tax. The cost score of 8.0/10 confirms what daily life shows: two small pensions live well in Château-Gontier, with enough margin for grandchildren and an annual trip, and without painful arithmetic at the till.",
+      },
+      {
+        heading: "Daily life, and getting back to see family",
+        body: "Daily life organises itself around the river: towpaths for walking and cycling, running 85 kilometres down to Angers, fishing, canoeing, outings to the château de Craon and the Loire valley itself under an hour away. The town has a respectable cultural programme, with Le Carré, a national stage venue, the Palace cinema and the Chemins de Traverse festival, a dense association fabric of walking clubs, choirs and a university of the third age, and two lively markets that double as the social calendar. Integration goes better than a city-dweller expects, precisely because the town has spent twenty years absorbing retirees from the Paris region and British buyers settling in the Mayenne, which opened the local fabric. For visits, Nantes, Rennes and Angers are each about an hour and a quarter by car, giving access to airports and to TGV services for family arriving from abroad.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Three limits to weigh lucidly. The weather first: 5°C in January, a changeable sky, decent summers without excess at 22.5°C in July, and a Loire-country light that lacks conviction from November to February. If your plan involves retiring into the sun, this is not the address. Second, life stays calm, very calm: 16,000 inhabitants, a creditable but small cultural programme, few restaurants open late, little happening on a Sunday evening. Anyone arriving from a capital city may find the atmosphere sleepy, and it is better to test that with a long stay than to discover it in February. Third, the car is non-negotiable, and the real ten-year question is the day driving stops, which is why choosing a home within 500 metres of the shops matters more than the view. On that basis Château-Gontier remains one of the best retirement value propositions in western France.",
+      },
+    ],
+    relatedCities: ["chateau-gontier-sur-mayenne", "laval", "angers", "le-mans"],
+    tags: [
+      "retiring in Chateau-Gontier 2026",
+      "Mayenne retirement expat",
+      "Pays de la Loire expat guide",
+      "affordable retirement France",
+      "expat retirement",
+    ],
+  },
+  {
+    slug: "retiring-in-albertville-2026",
+    title: "Retiring in Albertville: the Alps at the door, a hospital in the valley",
+    metaTitle: "Retiring in Albertville 2026 — Health, Housing, Budget",
+    metaDesc:
+      "Retiring in Albertville: nature 8.5/10, transport 6.4/10, ski valleys within an hour, €2,800/m². Cheaper than Annecy, and why that is the point.",
+    category: "moving",
+    emoji: "🌅",
+    readMinutes: 8,
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    intro:
+      "Albertville is the alpine retirement few people consider, because it has neither the prestige of Chambéry nor the postcard of Annecy. What it has is better on its own terms: 19,000 inhabitants at the foot of the Tarentaise and the Beaufortain, the big resorts within an hour, a full hospital platform 45 minutes away, and an urban fabric rebuilt for the 1992 Winter Olympics with infrastructure no town this size would normally own. Alpine property prices give nothing away, but they stay below Annecy at €2,800/m². Care, housing, the real budget and the limits of an active mountain retirement.",
+    sections: [
+      {
+        heading: "Why Albertville works, and who it works for",
+        body: "The town concentrates in one commune what Savoie offers at a human scale. An exceptional setting: the Bauges, Beaufortain and Tarentaise massifs converge here and the medieval town of Conflans looks down on the lower town. A useful size: 19,000 inhabitants keeping shops, doctors, a cinema and year-round markets alive outside the tourist season, which resort villages cannot do. And access to the big ski areas in 45 to 90 minutes depending on the valley, Les Saisies, La Rosière, La Plagne, Les Arcs, Courchevel, Val-d'Isère and Les Menuires among them. Our figures confirm it: nature 8.5/10, safety 8.0/10, transport 6.4/10, which is rare in Savoie and owed to the station and direct access to the A430 motorway. The 1992 Olympic legacy is still visible in the sports facilities, and it gives the town equipment out of proportion to its population.",
+      },
+      {
+        heading: "Healthcare: the chain of care you would actually use",
+        body: "The Albertville-Moûtiers hospital covers emergencies, general medicine and surgery on site, a platform sized by winter demand from ski injuries across the valley. For heavy specialties, the Chambéry metropolitan hospital is 45 minutes away and the Grenoble-Alpes teaching hospital an hour and a half: two complete technical platforms within reasonable reach. General practice is comparatively decent thanks to the working-age and tourist population, but pressure is rising, so register with a médecin traitant, the named GP who sets your reimbursement rate, as soon as you arrive. Routine care, physiotherapy, home nursing and laboratories, is complete and the local habit of old age well established. One practical point that matters more in the mountains than anywhere else: the hospital is easily reached from most districts, which is not a neutral detail for a winter emergency when snow slows the valleys.",
+      },
+      {
+        heading: "Residency, health cover and tax from Albertville",
+        body: "The standard non-EU route applies: a long-stay visitor visa with proof of resources and private cover for the first year, then PUMa, the residence-based state scheme, after three months of stable residence, plus a mutuelle for the share the state does not reimburse. UK state pensioners should establish S1 eligibility early, since it determines who funds their care and whether French social charges apply to foreign pension income. France taxes residents on worldwide income, and the treaty allocates each pension: under the UK treaty, government service pensions stay taxable in the UK while state and private pensions become taxable here. Two local notes. Your préfecture is Chambéry, 45 minutes away, and the Savoie handles a high volume of foreign residents, so the administrative machinery is used to non-French files. And if you already own or plan to buy in a resort above the town, check the tax treatment before assuming anything: a property let out for the ski season is taxed on a different footing from a main home, and the rules are not intuitive.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "Alpine property gives nothing away, but Albertville stays clearly below Annecy and Chambéry: €520 for a one-bed, €740 for a two-bed, €1,000 for a three-bed, and €2,800/m² to buy on average. A house with a garden in the residential districts often passes €320,000. Two key pieces of advice. Target the lower town and the districts near the station, so everything is walkable and the train to Chambéry or Geneva stays easy, which is crucial in winter when driving on snow becomes wearing. And thermal insulation is a central criterion in Savoie rather than an accessory: check the DPE, the mandatory energy rating on every listing, along with the aspect and the heating system before signing, because the energy line can vary threefold between two otherwise equivalent flats. Purchases go through a notaire, take two to three months from preliminary contract, and add roughly 7 to 8% in fees on older property.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "For a couple renting a two- or three-bed: rent €740 to €1,000, charges and energy €220 to €320 for a serious alpine heating line, groceries €380 to €450, slightly above a rural prefecture because tourist demand pulls prices up, car €220 to €300, needed for the valleys plus winter tyres or a second vehicle, senior health cover €150 to €250 for two, leisure €200, to which a senior ski pass adds a significant line if skiing is part of the plan. Total €1,910 to €2,520 a month; owners with no mortgage, €1,250 to €1,600, before taxe foncière, the annual property tax. The cost score of 6.3/10 is lucid: Albertville is clearly cheaper than Annecy, but you do not come here to economise, you come for mountain access no lowland town can offer.",
+      },
+      {
+        heading: "Daily life, and getting back to see family",
+        body: "A retiree's week here is dictated by geography: walking in the Beaufortain and the Bauges in summer, cycling the passes, downhill or cross-country skiing in winter, where senior passes for the big linked areas are the sensible way in, swimming in the alpine lakes with Annecy, Roselend and Aiguebelette all under an hour, and Savoie cheese and wine at the Wednesday and Saturday markets in the town centre. Association life is particularly strong around sport and the mountains, with the French alpine club, nordic sections, walking groups and a university of the third age, and joining one is the fastest way in for an incomer. Chambéry and Geneva are 45 and 90 minutes away for city culture, and Geneva airport is the practical answer for family flying in. Turin and Milan sit under three hours through the Fréjus tunnel for an Italian escape.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Four points to weigh seriously. Winter first: 1.5°C in January, but above all several weeks of snow a year, which immobilises anyone not equipped, so proper tyres and ideally a covered garage are not optional. Second, the Albertville valley is enclosed, with a thermal inversion that can trap pollution in winter and shorter sunshine than on the ridges; the upper districts and Conflans are better exposed. Third, the car stays indispensable for most activities outside town, and the day driving becomes difficult, alpine geography can turn into a major constraint, which is why choosing a central home from the start matters. Fourth, alpine prices, less crushing than Annecy but enough to exclude modest capital from the choice. Nothing disqualifying for an active retiree who loves the mountains, but Albertville is not a retirement chosen lightly.",
+      },
+    ],
+    relatedCities: ["albertville", "chambery", "annecy", "grenoble"],
+    tags: [
+      "retiring in Albertville 2026",
+      "Savoie retirement expat",
+      "French Alps expat guide",
+      "mountain retirement France",
+      "expat retirement",
+    ],
+  },
+  {
+    slug: "retiring-in-gaillac-2026",
+    title: "Retiring in Gaillac: an old vineyard, 2,200 hours of sun, Toulouse at an hour",
+    metaTitle: "Retiring in Gaillac 2026 — Health, Housing, Budget",
+    metaDesc:
+      "Retiring in Gaillac: 2,200 hours of sun, safety 8.1/10, a two-bed at €600, €1,800/m², Albi 25 minutes and Toulouse an hour. Summers included.",
+    category: "moving",
+    emoji: "🌅",
+    readMinutes: 8,
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    intro:
+      "Gaillac is probably the best south-western alternative for a retirement built on wine, light and fast access to a big city: 15,800 inhabitants in the heart of one of the oldest vineyards in France, the Gaillac appellation going back to the eleventh century, 2,200 hours of sunshine a year, Albi 25 minutes away and Toulouse an hour by motorway. The medieval centre, with the Saint-Michel abbey church and its Renaissance townhouses, is still a place people live rather than a museum. This guide separates the Tarn promise from the daily reality: care, property, the real budget and the limits of a southern choice.",
+    sections: [
+      {
+        heading: "Why Gaillac works, and who it works for",
+        body: "The town adds up what people look for in Occitanie without the prices of Uzès, Sarlat or Aix-en-Provence: real heritage, with a medieval core, an 1876 iron market hall and Renaissance townhouses; an exceptional wine setting, with the hillsides, the Tarn valley and 3,500 hectares of appellation vineyard; and a strategic position, with Albi 25 minutes away, Toulouse and its high-speed rail an hour off, and Toulouse-Blagnac airport an hour and a quarter, which is the single most useful fact for anyone whose family flies in. Our figures confirm it: safety 8.1/10, cost 7.6/10, culture 6.9/10, nature 7.1/10, with 2,200 hours of sunshine, among the most generous in inland south-west France. The town kept a human scale that supports shops, doctors and associations without the drawbacks of the Toulouse conurbation.",
+      },
+      {
+        heading: "Healthcare: the chain of care you would actually use",
+        body: "Gaillac is served by the Castres-Mazamet intercommunal hospital and works in articulation with the Albi hospital 25 minutes away, one of the major establishments of the Tarn, with emergency care, general medicine, surgery, maternity and oncology. For heavy specialties the Toulouse teaching hospital is an hour off, one of the three largest in France, with a complete range of specialist excellence. That is an unusually good chain for a town of 15,800. General practice in Gaillac is under pressure as everywhere in the Tarn, but the multi-disciplinary health centre will take new patients more readily than an individual practice. The usual advice applies: make contact as soon as you settle rather than at the first need, and register with a médecin traitant, the named GP who sets your reimbursement rate. Routine care, physiotherapy, home nursing and laboratories, is adequately covered.",
+      },
+      {
+        heading: "Residency, health cover and tax from Gaillac",
+        body: "For a non-EU retiree the entry route is the long-stay visitor visa: proof of resources, private cover for the first year, and an undertaking not to work in France. State cover arrives through PUMa, the residence-based scheme, after three months of stable residence, with a mutuelle, meaning top-up insurance, for the share the state does not reimburse. British state pensioners should resolve S1 eligibility first, since it governs who pays for their French healthcare and whether French social charges apply to foreign pension income. France taxes residents on worldwide income, with the treaty deciding each pension: under the UK treaty, government service pensions remain taxable in the UK while state and private pensions become taxable in France. Two local notes. Your préfecture is Albi, 25 minutes away, so administrative appointments are a short trip rather than a day out. And Toulouse, an hour away, carries the consulates, the international schools and the English-speaking professional advisers, which is a real reason to prefer Gaillac to a more isolated wine town.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "The figures: €430 for a one-bed, €600 for a two-bed, €800 for a three-bed, and €1,800/m² to buy on average, well below Albi centre and roughly half Uzès or Sarlat for a comparable setting. A stone house with a garden in the outlying hamlets regularly trades under €250,000; a genuine period property in town can reach €350,000. Three pieces of advice. Target the old town and the streets near the market hall so everything stays walkable. Be wary of outlying hamlets that make a car compulsory. And check the DPE, the mandatory energy rating on every listing, without exception, because much of the stone-built stock performs poorly and southern summers now demand a serious look at summer comfort too, meaning aspect, shade and ceiling height. Purchases go through a notaire, take two to three months from preliminary contract, and add roughly 7 to 8% in fees on older property.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "For a couple renting a two- or three-bed: rent €600 to €800, charges and energy €150 to €220, budgeting air conditioning in summer against moderate winter heating, groceries €340 to €420, well supplied by the Friday market and the wine estates, car €200 to €260, needed to reach the vineyard and the back country, senior health cover €150 to €250 for two, leisure €180, since wine and estate visits are part of the pleasure here. Total €1,620 to €2,130 a month; owners with no mortgage, €1,050 to €1,400, before taxe foncière, the annual property tax. The cost score of 7.6/10 puts Gaillac among the good performers of Occitanie: it stays affordable for a sunny southern town, without the Provençal or coastal Languedoc tariff.",
+      },
+      {
+        heading: "Daily life, and getting back to see family",
+        body: "A retiree's week here has plenty to fill it: the Friday market on the place de la Libération, visits to the wine estates, since the Gaillac wine route counts more than a hundred cellars, walks in the parc de Foucaud and along the Tarn, and trips to Cordes-sur-Ciel 25 minutes away, Albi and its UNESCO cathedral 25 minutes off, Toulouse an hour away for the city, and the Pyrenees two hours off for the mountains. The Grands Jours de Gaillac wine festival in August sets the rhythm of the summer, and the association fabric is particularly active around food and heritage, with wine brotherhoods, landscape groups and a university of the third age. Integration goes well provided you join those circles rather than wait to be invited. For visitors, Toulouse-Blagnac airport an hour and a quarter away carries international routes, which is the practical answer to family arriving from abroad.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Three limits worth knowing. Summer first: 25.5°C on average in July, but regular heatwaves pushing above 38°C for several days each year, and summer comfort that depends heavily on the building, thick stone and shade against exposed concrete. Check before you buy, not after. Second, the car stays indispensable the moment you want to leave town, whether for the vineyard, the Mediterranean beaches around two hours away or the Pyrenees, and the day driving becomes difficult, isolation can arrive fast. Third, the town is quiet and can feel sleepy to anyone arriving from a metropolis: the cultural programme exists but is small for the size, and Toulouse or Albi remain necessary for a real theatre or a major exhibition. Nothing disqualifying, but better known before you sell the flat back home.",
+      },
+    ],
+    relatedCities: ["gaillac", "albi", "toulouse", "castres"],
+    tags: [
+      "retiring in Gaillac 2026",
+      "Tarn retirement expat",
+      "Occitanie expat guide",
+      "wine country retirement France",
+      "expat retirement",
+    ],
+  },
+  {
+    slug: "retiring-in-vendome-2026",
+    title: "Retiring in Vendôme: Paris in 45 minutes, at Loir-et-Cher prices",
+    metaTitle: "Retiring in Vendôme 2026 — Health, Housing, Budget",
+    metaDesc:
+      "Retiring in Vendôme: TGV to Paris in 45 minutes, transport 7.1/10, a two-bed at €540 and €1,500/m² to buy. The Paris-province compromise, tested.",
+    category: "moving",
+    emoji: "🌅",
+    readMinutes: 8,
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    intro:
+      "Vendôme is probably the best Paris-province compromise in this series: 17,000 inhabitants on the banks of the Loir, an intact medieval heritage with the Trinité abbey and its detached eleventh-century bell tower, and a high-speed rail station putting Paris 45 minutes away, one of the fastest provincial connections in France. For a couple leaving the Paris region without cutting the cord to children and grandchildren who stayed, Vendôme is one of only three or four choices that really hold. Transport scores 7.1/10, exceptional for a town this size, and property runs at €1,500/m². Care, housing, the real budget and the honest limits.",
+    sections: [
+      {
+        heading: "Why Vendôme works, and who it works for",
+        body: "Because the town ticks boxes no other place of its size ticks. A high-speed rail station putting Paris-Montparnasse 45 minutes away, close enough that lunch with the grandchildren and home in the evening is an ordinary day rather than an expedition. A remarkable medieval centre, with the Trinité abbey, the arms of the Loir crossing the old town and the Saint-Georges gate. A useful size, 17,000 inhabitants supporting shops, doctors, a cinema and two markets. And genuinely provincial property prices. Our figures confirm it: safety 7.5/10, cost 7.6/10, transport 7.1/10, which is excellent at this scale and owed precisely to the high-speed line, culture 6.9/10, and a remote-work score of 9.0/10, the highest in this series, which matters if a partner still works part-time. Blois is thirty minutes away, Tours forty-five, Chartres an hour.",
+      },
+      {
+        heading: "Healthcare: the chain of care you would actually use",
+        body: "The Vendôme hospital provides emergency care, general medicine and day surgery on site, correctly sized for a town of this population. For heavy specialties the Tours teaching hospital is 45 minutes away and the Orléans regional hospital an hour and a half: two complete technical platforms within reasonable reach. General practice stays under strain, as everywhere in the rural Loir-et-Cher, but less so than in the Corrèze or the Cantal, since the population is balanced and partly made of Paris commuters. Finding a médecin traitant, the named GP who sets your reimbursement rate, still means starting the day you move in. One practical point specific to Vendôme and genuinely useful for an incomer: the rail connection makes it possible to keep a specialist follow-up in Paris during the transition, with the major Paris hospitals about an hour and a quarter door to door, which no other town in this series can offer.",
+      },
+      {
+        heading: "Residency, health cover and tax from Vendôme",
+        body: "The non-EU route is the long-stay visitor visa: proof of resources, private cover for the first year, and an undertaking not to work in France. State cover follows through PUMa, the residence-based scheme, after three months of stable residence, plus a mutuelle, the top-up insurance covering what the state does not. British state pensioners should resolve S1 eligibility before anything else, since it decides who funds their French healthcare and whether French social charges apply to foreign pension income. France taxes residents on worldwide income and the treaty allocates each pension: under the UK treaty, government service pensions remain taxable in the UK while state and private pensions become taxable in France. Two local notes. Your préfecture is Blois, thirty minutes away. And Paris being 45 minutes off means embassies, consulates and English-speaking advisers stay accessible for a day trip, which quietly removes one of the standard frictions of retiring to a small French town.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "The figures: €380 for a one-bed, €540 for a two-bed, €720 for a three-bed, and €1,500/m² to buy on average, a rare value for a town this well connected to Paris. A substantial house with a garden in the residential streets regularly trades under €260,000; a renovated flat in the historic centre well under €200,000. Two key pieces of advice. Target the medieval centre or the districts giving easy access to the station, since both keep the town walkable and Paris close. And be wary of outlying estates that make a car compulsory and lose the main Vendôme advantage. Demand has risen over recent years with remote work, but remains reasonable against Chartres or Orléans. Check the DPE, the mandatory energy rating on every listing. Purchases go through a notaire, take two to three months from preliminary contract, and add roughly 7 to 8% in fees on older property.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "For a couple renting a two- or three-bed: rent €540 to €720, charges and energy €180 to €240, groceries €340 to €420 from the Friday and Saturday markets and the local producers, car €200 to €260, since one is plenty because the town and Paris are done by train, senior health cover €150 to €250 for two, leisure €180, to which the Paris rail line should be added if trips are frequent, as a senior discount card pays for itself quickly. Total €1,590 to €2,070 a month; owners with no mortgage, €1,100 to €1,400, before taxe foncière, the annual property tax. The cost score of 7.6/10 confirms a genuine compromise: two average pensions live well in Vendôme with the margin to keep Paris in regular reach rather than as an annual event.",
+      },
+      {
+        heading: "Daily life, and getting back to see family",
+        body: "A retiree's week here runs between the markets on Friday and Saturday, walks along the Loir and its islands, the woods and the romantic castle ruins above the town, the train to Paris two or three times a month for an exhibition or a family lunch, and outings to the Loire châteaux, with Chambord 45 minutes away, Blois thirty and Chenonceau an hour and a quarter. The cultural programme is creditable for the size, with Le Minotaure as a subsidised stage venue, the Grand Casino cinema and the Promenades photographiques festival in summer. The association fabric is dense, with choirs, a university of the third age and heritage groups. Integration goes well provided you take part: the town has absorbed a lot of Paris retirees and remote workers, which kept the local fabric open. For family flying in, Paris airports are reachable in a day.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Three honest reservations. The climate first: 4.5°C in January, 22.5°C in July, the changeable sky of the Paris basin, decent summers without excess and an often late spring. If your plan looks like sunny terraces from March to October, Vendôme is the wrong choice and Gaillac or Roussillon the right question. Second, the town stays calm, very calm, without a metropolitan programme or restaurants open late; that is exactly what most people come for, but anyone expecting to keep an exceptional Parisian life may find the atmosphere provincial. Third, the high-speed train is fast but not cheap, and the budget line needs planning in advance if the Paris runs are weekly rather than monthly. Nothing disqualifying: Vendôme remains one of the best retirement compromises within reach of the capital.",
+      },
+    ],
+    relatedCities: ["vendome", "blois", "tours", "chartres"],
+    tags: [
+      "retiring in Vendome 2026",
+      "Loir-et-Cher expat guide",
+      "retire near Paris",
+      "Loire Valley retirement expat",
+      "expat retirement",
+    ],
+  },
+  {
+    slug: "retiring-in-marmande-2026",
+    title: "Retiring in Marmande: sun, the Garonne, and the lowest budget in the series",
+    metaTitle: "Retiring in Marmande 2026 — Health, Housing, Budget",
+    metaDesc:
+      "Retiring in Marmande: 2,100 hours of sun, 25.5°C in July, a two-bed at €560 and €1,500/m², Bordeaux an hour away. The summer heat, stated.",
+    category: "moving",
+    emoji: "🌅",
+    readMinutes: 8,
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    intro:
+      "Marmande is one of those south-western sub-prefectures nobody notices from abroad and which offer a remarkable retirement value: 18,000 inhabitants on the Garonne, the protected Marmande tomato as local identity, Bordeaux an hour away by road or rail, a generous Aquitaine climate at 2,100 hours of sunshine and 25.5°C in July, and an average purchase price of €1,500/m². For a sunny retirement on a small budget in the south-west, without the Toulouse or Bordeaux tariff, Marmande is worth studying. Care, housing, the real budget and the honest limits, heat included.",
+    sections: [
+      {
+        heading: "Why Marmande works, and who it works for",
+        body: "Because the town adds up advantages few mid-sized south-western places offer at this price: a bright warm climate, 25.5°C in July, 6°C in January, 2,100 hours of sunshine; a strategic position on the Bordeaux-Toulouse axis, with Bordeaux an hour away, Agen thirty minutes and Toulouse an hour and a half; a strong farming identity that still structures the local fabric, the protected tomato but also Agen prunes, strawberries and the Duras wines twenty minutes off; and a canalised Garonne running through the town that serves as the backbone of the daily walk. Our figures sum it up: safety 7.0/10, cost 7.6/10, nature 6.4/10, transport 5.6/10, which is respectable for a town this size thanks to the station and the fast N113 road. The Friday market has stayed the central social appointment.",
+      },
+      {
+        heading: "Healthcare: the chain of care you would actually use",
+        body: "The Marmande-Tonneins hospital covers emergencies, general medicine, day surgery and maternity on site, sized for an ageing population that has long absorbed retirees from northern France and the Paris region. For heavy specialties, the Agen hospital is thirty minutes away and the Bordeaux teaching hospital an hour and a quarter: two complementary technical platforms within reasonable reach. General practice remains under pressure, as everywhere in the rural Lot-et-Garonne, though less so than in the Corrèze, since the climate and the position on the main axis attract new practitioners. Finding a médecin traitant, the named GP who sets your reimbursement rate, still means starting the day you move in, and the multi-disciplinary health centre will take new patients more readily than an individual practice. Routine care, physiotherapy, home nursing and laboratories, is adequately covered.",
+      },
+      {
+        heading: "Residency, health cover and tax from Marmande",
+        body: "For a non-EU retiree the entry route is the long-stay visitor visa: proof of resources, private cover for the first year, and an undertaking not to work in France. State cover arrives through PUMa, the residence-based scheme, after three months of stable residence, with a mutuelle, meaning top-up insurance, for the share the state does not reimburse. British state pensioners should resolve S1 eligibility first, since it governs who pays for their French healthcare and whether French social charges apply to foreign pension income. France taxes residents on worldwide income, with the treaty deciding each pension: under the UK treaty, government service pensions remain taxable in the UK while state and private pensions become taxable in France. Two local notes. Your préfecture is Agen, thirty minutes away. And the Lot-et-Garonne and neighbouring Dordogne have hosted foreign residents for decades, so agents and notaires here are used to non-French buyers, while Bordeaux an hour away carries the consular and English-speaking professional services.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "The figures are gentle: €390 for a one-bed, €560 for a two-bed, €750 for a three-bed, and €1,500/m² to buy on average, one of the best ratios for a town this sunny. A Landes-style house with a garden in the residential districts regularly trades under €180,000; a renovated flat in the centre well under €150,000. Two key pieces of advice. Target the districts near the centre so everything stays walkable, and note that the town is flat, which is a major advantage for staying mobile on foot into old age and is rarer than it sounds in the south-west. And be wary of poorly insulated older stock: the winters are not harsh, but the summers now demand a real look at summer comfort, meaning aspect, wall thickness and cross-ventilation, which few properties satisfy without work. Purchases go through a notaire and add roughly 7 to 8% in fees on older property.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "For a couple renting a two- or three-bed: rent €560 to €750, charges and energy €150 to €220, budgeting air conditioning in summer against moderate winter heating, groceries €320 to €400 from the Friday and Saturday markets and the local growers, among the lowest food costs in this series, car €200 to €260, needed for the back country, senior health cover €150 to €250 for two, leisure €150. Total €1,530 to €2,030 a month, among the lowest here; owners with no mortgage, €950 to €1,300, before taxe foncière, the annual property tax. The cost score of 7.6/10 is among the best in the south-west: Marmande is one of the rare places where two small pensions live well under a genuine summer sun, with margin for grandchildren and travel, which most coastal or Provençal towns make impossible.",
+      },
+      {
+        heading: "Daily life, and getting back to see family",
+        body: "A retiree's week here has plenty in it: the Friday and Saturday markets, among the finest in the Lot-et-Garonne, walks along the Garonne quays and the canal towpath, where the greenway runs all the way from Bordeaux to Toulouse and is flat enough to cycle for decades, trips to the bastide towns of the Duras and the Marmandais, tastings in the Duras, Buzet and Marmandais vineyards, and escapes to Bordeaux an hour away for city culture and the high-speed station, Agen thirty minutes off, and the Landes or Basque coast about two hours away. The association fabric is active, with choirs, a university of the third age, heritage groups and walking clubs, and the tomato festival in July is a social fixture. For family flying in, Bordeaux is the practical airport, an hour from the door.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Three limits to weigh honestly. Summer heat first: 25.5°C on average in July, but regular heatwaves above 38°C for several days a year, and a Garonne valley that traps the heat, so decent summer comfort, meaning aspect, shade and air conditioning, becomes a real property criterion rather than a luxury. Second, the car stays indispensable for most activities outside town, and the day driving becomes difficult, isolation can arrive fast in the rural Lot-et-Garonne, which is why choosing a home within 500 metres of the shops and the hospital matters. Third, the town is calm, very calm, with a small cultural programme for its size; anyone arriving from a metropolis may find the atmosphere sleepy. Nothing disqualifying, but better known before you sell up elsewhere.",
+      },
+    ],
+    relatedCities: ["marmande", "agen", "bordeaux", "villeneuve-sur-lot"],
+    tags: [
+      "retiring in Marmande 2026",
+      "Lot-et-Garonne expat guide",
+      "south west France retirement",
+      "affordable retirement France",
+      "expat retirement",
+    ],
+  },
+  {
+    slug: "retiring-in-saint-lo-2026",
+    title: "Retiring in Saint-Lô: the best hospital in the Manche, and a modest budget",
+    metaTitle: "Retiring in Saint-Lô 2026 — Health, Housing, Budget",
+    metaDesc:
+      "Retiring in Saint-Lô: safety 8.2/10, a two-bed at €570, €1,600/m², the main Manche hospital in town and Cherbourg ferries at 75 minutes.",
+    category: "moving",
+    emoji: "🌅",
+    readMinutes: 8,
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    intro:
+      "Saint-Lô is probably the most discreet Norman prefecture in this series, shaped by a painful history, since it was largely destroyed in 1944 and rebuilt as a functional modern town. It nonetheless offers an honest retirement: 19,000 inhabitants, safety at 8.2/10, a two-bed at €570, an average purchase price of €1,600/m², the Cotentin bays under an hour away and a genuine hospital platform on site. For a retirement built on budget margin, safety and proximity to the sea without paying the coastal tariff, Saint-Lô is one of the under-explored options, and for anyone coming from Britain or Ireland the ferry port matters more than the postcard.",
+    sections: [
+      {
+        heading: "Why Saint-Lô works, and who it works for",
+        body: "The town adds up advantages few Norman prefectures of its size offer at this price: a setting of meadow and bocage typical of the Cotentin; a strategic position, with the D-Day beaches forty minutes away, Cherbourg an hour and a quarter with its ferries to England and Ireland, Bayeux thirty minutes, Caen an hour and Rennes an hour and three quarters; a useful size, 19,000 inhabitants keeping shops, doctors, a cinema and two year-round markets alive; and a modernised reconstruction that left the town urban facilities rare at this scale, including a large media library, a municipal theatre and covered halls. Our figures confirm it: safety 8.2/10, cost 7.6/10, nature 7.1/10, with a mild Manche climate at 5.5°C in January and 20°C in July. The national stud, one of the most prestigious in France, adds to the town's character.",
+      },
+      {
+        heading: "Healthcare: the chain of care you would actually use",
+        body: "The Mémorial hospital in Saint-Lô is the major technical platform of the Manche: emergency care, general medicine, surgery, maternity, oncology and geriatrics, which is a serious privilege for a prefecture of 19,000 and exists because of the town's role as departmental capital. For rare heavy specialties, the Caen teaching hospital is an hour away and the Rennes teaching hospital an hour and three quarters: two first-rank references within reasonable reach. General practice remains the point to watch, as everywhere in rural lower Normandy, with GPs under strain and some specialists thinning out. The usual advice applies: look for a médecin traitant, the named GP who sets your reimbursement rate, before you move rather than after, and favour the multi-disciplinary health centres. Routine care, physiotherapy, home nursing and laboratories, is complete thanks to the local hospital weight.",
+      },
+      {
+        heading: "Residency, health cover and tax from Saint-Lô",
+        body: "The standard non-EU route applies: a long-stay visitor visa with proof of resources and private cover for the first year, then PUMa, the residence-based state scheme, after three months of stable residence, plus a mutuelle for the share the state does not reimburse. UK state pensioners should establish S1 eligibility early, since it determines who funds their care and whether French social charges apply to foreign pension income. France taxes residents on worldwide income, and the treaty allocates each pension: under the UK treaty, government service pensions stay taxable in the UK while state and private pensions become taxable here. Two local notes that matter here more than elsewhere. Saint-Lô is the prefecture, so residence permit business is handled in town. And the Cherbourg ferries put England and Ireland within a drivable day, which changes the practical calculation for British and Irish retirees who want to bring a car, move belongings, or travel back regularly without flying.",
+      },
+      {
+        heading: "Renting or buying",
+        body: "The figures: €400 for a one-bed, €570 for a two-bed, €760 for a three-bed, and €1,600/m² to buy on average, a rare ratio for a prefecture this well equipped medically. A 1960s or 1970s house with a garden in the residential districts regularly trades under €180,000; a renovated flat in the centre well under €150,000. Two points of attention. Thermal insulation, because Manche winters are damp rather than cold, but a poor DPE, the mandatory energy rating on every listing, is still paid for in bills and in comfort, so check it systematically. And the choice of district, since the town spreads out and some outlying estates make a car compulsory for the smallest errand, a handicap the day driving becomes difficult. Favour the rebuilt centre or the nearby heights, where everything is walkable. Purchases go through a notaire and add roughly 7 to 8% in fees on older property.",
+      },
+      {
+        heading: "What a month actually costs",
+        body: "For a couple renting a two- or three-bed: rent €570 to €760, charges and energy €180 to €250, since Manche damp makes the heating line a serious one and should not be underestimated, groceries €340 to €420 from the Saturday and Tuesday markets and the lower-Normandy produce, butter, camembert and cider, car €200 to €260, unavoidable because the rural Manche does not work without one, senior health cover €150 to €250 for two, leisure €150. Total €1,590 to €2,090 a month; owners with no mortgage, €1,050 to €1,400, before taxe foncière, the annual property tax. The cost score of 7.6/10 confirms what daily life shows: two average pensions live well in Saint-Lô, with margin for travel or regular visits to grandchildren, which the Norman coast and even Caen make markedly tighter.",
+      },
+      {
+        heading: "Daily life, and getting back to see family",
+        body: "A retiree's week here runs between the Saturday and Tuesday markets, walks along the Vire, where the towpath suits cycling and walking, the ramparts and the rock the old town sits on, visits to the national stud, and above all the Cotentin outings: the D-Day beaches at Omaha and Utah about forty-five minutes away, Bayeux and its tapestry thirty minutes off, the Mont-Saint-Michel an hour and a quarter, and the pointe de la Hague and Cherbourg an hour and a quarter. The cultural programme is decent for the size, with Le Normandy as a subsidised stage venue, the Drakkar cinema and the Court Toujours festival in October, and the association fabric is dense, with walking clubs, choirs, a university of the third age and heritage groups. Integration goes better than a city-dweller expects, since the town has long absorbed retirees arriving from elsewhere.",
+      },
+      {
+        heading: "The limits, before you commit",
+        body: "Three honest reservations. The climate first: bright but damp, with a cool wet winter at 5.5°C in January, modest sunshine at 1,700 hours, in the lower third of this series, and a decent summer without excess at 20°C in July. If your plan looks like sunny terraces from March to October, the Manche will disappoint you frankly, and Marmande or Gaillac are the better question. Second, the rebuilt town sometimes lacks the charm of the old Norman cities, since the medieval fabric was largely destroyed in 1944 and the modernist grid can feel austere to anyone dreaming of slate and half-timbering; Bayeux, thirty minutes away, offers the contrast. Third, the car is non-negotiable, with the real ten-year question of what happens when driving stops. Nothing disqualifying for a retiree who values budget margin and quality of care, but Saint-Lô is not chosen for the weather.",
+      },
+    ],
+    relatedCities: ["saint-lo", "bayeux", "caen", "cherbourg"],
+    tags: [
+      "retiring in Saint-Lo 2026",
+      "Normandy retirement expat",
+      "Manche expat guide",
+      "affordable retirement France",
+      "expat retirement",
+    ],
+  },
 
   {
     slug: "single-parent-in-nimes-2026",

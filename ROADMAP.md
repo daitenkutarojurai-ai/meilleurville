@@ -1290,17 +1290,27 @@ séries FR qui n'ont aucune jumelle EN — c'est là que l'écart se creuse le p
 batch 3 FR du 14/08 (+9) puis refermée le 15/08** (29 FR / 29 EN), **rouverte par le batch 4 FR
 du 16/08 (+10) et refermée le 17/08** (39 FR / 39 EN). Deux réouvertures en quatre jours sur la
 même série : c'est la cadence réelle, pas un accident.
+`retiring-in-[city]-2026`, ouverte le 15/08 (batch 1, +8), **fermée le 18/08** (20 FR / 20 EN).
 
 ⚠️ **Une série « fermée » ne le reste pas.** C'est le deuxième mode de régression de ce
 chantier, distinct de celui des routes et moins visible : `npm run parity` sort en code 0
 pendant qu'une série FR déjà mise en miroir repart de neuf côté français. Aucun contrôle
 automatique ne le signale — il faut re-differ les deux corpus par série à chaque run, ce qui
 est précisément pourquoi le prompt dit de mesurer et non de réciter. Séries FR restant sans
-aucune jumelle EN : `vacances-monoparentales-[ville]-2026` (7 FR / 0 EN) et le croisement
-mois × profil, qui a sa route EN mais pas de guides.
+aucune jumelle EN, mesurées le 18/08 : **`travail-a-[ville]-2026` (30 FR / 0 EN)**,
+**`famille-a-[ville]-2026` (19 FR / 0 EN)**, **`universites-[ville]-2026` (15 FR / 0 EN)**,
+`vacances-monoparentales-[ville]-2026` (7 FR / 0 EN) et le croisement mois × profil, qui a sa
+route EN mais pas de guides. Les trois premières n'avaient jamais été comptées dans cette liste :
+ce sont désormais les plus gros trous du corpus, loin devant les séries déjà ouvertes.
+Séries à parité, à re-differ et non à croire sur parole : tourisme 207/207,
+`where-to-buy-in-` 49/49, `[city]-living-guide` 52 EN contre `vivre-a-` 51 FR,
+`car-free-living-in-` 15 EN contre `vivre-sans-voiture-` 16 FR (écart de 1),
+`studying-in-` 24 EN contre `etudiant-a-` 20 FR (l'EN devance).
+Séries entamées et encore loin : `leaving-` 23 EN contre `quitter-` 55 FR,
+`moving-to-` 6 EN contre `demenager-a-` 50 FR.
 
-**Écart de contenu, distinct de l'écart de routes** : **guides 967 FR / 653 EN, tags 240 / 86**
-(mesuré le 17/08 — les chiffres plus bas dans cette section sont datés, le réel prévaut).
+**Écart de contenu, distinct de l'écart de routes** : **guides 967 FR / 665 EN, tags 240 / 86**
+(mesuré le 18/08 — les chiffres plus bas dans cette section sont datés, le réel prévaut).
 Ce n'est pas une route à créer mais du corpus à écrire, et **jamais par traduction** — les
 guides EN sont du contenu natif à angle expat, c'est une décision de fond (cf. § Bilingual
 setup dans `CLAUDE.md`), pas une facilité.
@@ -1308,6 +1318,66 @@ setup dans `CLAUDE.md`), pas une facilité.
 **Exceptions assumées** : `/badge` ×541 reste FR-only (la motion backlink vise mairies et
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
+
+### Livré le 18/08 — `retiring-in-[city]-2026` FERMÉE à 20/20 (batch 2, +12)
+
+`npm run parity` sortait en **code 0** en début de run (FR 217 / EN 165, 0 route sans jumelle) :
+pas de régression de routes, donc run de corpus. Aucun commit de contenu FR depuis le 16/08, donc
+aucune série fraîchement rouverte : le diff par série a désigné **`retiring-in-[city]`**, ouverte
+le 15/08 à 8 jumelles sur 20 et restée le plus gros trou d'une série *déjà entamée*. Le lot ferme
+la série d'un coup plutôt qu'en deux batches de 6, parce qu'une série close ne peut plus dériver
+en silence.
+
+**Les 12 jumelles** : Le Puy-en-Velay, Fontainebleau, Challans, Tulle, Pontarlier,
+Saint-Dié-des-Vosges, Château-Gontier, Albertville, Gaillac, Vendôme, Marmande, Saint-Lô.
+**Compteurs mesurés : FR `retraite-a-` 20 / EN `retiring-in-[ville]` 20** (le pilier national
+`retiring-in-france-best-cities-2026` est hors compte des deux côtés), `EN_GUIDES` 653 → **665**.
+`metaTitle` 48-56, `metaDesc` 136-147, 7 sections par guide (même gabarit que le batch 1),
+1 062 à 1 144 mots par guide, **zéro tiret cadratin** dans le corps. Aucun tag nouveau au sens des
+routes : `TAG_SLUGS_EN` reste à 86 (seuil de 3 guides par tag), donc aucune page `/tags` créée.
+`npm run search-index` relancé (`data/search-index.en.json` 665 guides) et `npm run sitemap:check`
+repassé — EN 28 528 URL, chaque URL déclarée a une page.
+
+⚠️ **Les loyers et prix viennent de `data/housing.ts`, pas de la prose des guides FR — et sur 6
+des 12 villes les deux ne disent pas la même chose.** Le batch 1 EN du 15/08 avait déjà tranché
+ainsi sans le documenter (Vitré €600 / €2 200, Anglet €890 / €4 300 sont exactement `housing.ts`),
+et c'est la bonne règle : `housing.ts` est ce que rendent `/villes/[slug]` et les palmarès, donc
+un guide EN aligné dessus ne peut pas contredire une page du site en un clic. **Écarts relevés,
+à corriger un jour côté FR et à ne pas recopier entre-temps** : Challans (guide FR T2 600 €,
+achat 2 500 €/m² ; données 640 € et 2 100 €/m²), Tulle (460 € / 1 100 €/m² contre 530 € et
+1 400 €/m²), Albertville (700 € / 2 900 €/m² contre 740 € et 2 800 €/m²), Gaillac (570 € /
+1 900 €/m² contre 600 € et 1 800 €/m²), **Vendôme (600 € / 1 900 €/m² contre 540 € et
+1 500 €/m², le plus gros écart du lot)**, Marmande (510 € / 1 350 €/m² contre 560 € et
+1 500 €/m²). Les six budgets mensuels EN ont été **recalculés** poste par poste depuis le loyer
+réel, pas recopiés : sinon le total ne serait plus la somme de ses lignes. Les six autres villes
+(Le Puy, Fontainebleau, Pontarlier, Saint-Dié, Château-Gontier, Saint-Lô) concordent déjà.
+Les scores cités, eux, concordent partout : relus via `npx tsx` sur `@/data/cities-seed`, donc
+calibrés et normalisés, jamais grepés dans le seed.
+
+**Quatre angles propres au lecteur étranger, absents du FR parce qu'inutiles à un Français.**
+① Pontarlier porte un avertissement transfrontalier qui n'existe pas côté FR : résidence fiscale,
+couverture maladie et immatriculation du véhicule suivent **chacune leur propre règle** dans le
+cadre France-Suisse, et le guide dit explicitement de ne bâtir aucun plan de soins côté suisse
+sans confirmation écrite de prise en charge. ② Saint-Lô met en avant les **ferries de Cherbourg
+vers l'Angleterre et l'Irlande** (1 h 15) comme argument pratique de retour, ce qu'un retraité
+britannique pèse davantage qu'une cathédrale. ③ Château-Gontier et Tulle signalent la **communauté
+britannique installée de longue date** en Mayenne et en Corrèze-Dordogne, qui explique que notaires
+et agents y aient l'habitude des dossiers étrangers. ④ Fontainebleau explique les **dépassements
+d'honoraires**, bien plus fréquents en Île-de-France, et la conséquence sur le calibrage de la
+mutuelle. Chaque guide explique au passage les sigles qu'un étranger ne connaît pas (PUMa, S1,
+DPE, mutuelle, médecin traitant, taxe foncière, notaire), en incise, comme le reste du corpus EN.
+
+**Deux prudences reprises du FR et à ne pas diluer** : l'altitude du Puy-en-Velay (629 m) et ses
+hivers sont **déconseillés pour certaines pathologies respiratoires ou cardiaques**, à trancher
+avec son médecin avant de choisir et non après ; et la **saturation de la médecine de ville à
+Challans**, où trouver un médecin traitant peut prendre des mois, est présentée comme le vrai
+point de vigilance vendéen, pas comme une réserve de forme.
+
+**Prochain run** : la parité de routes est à re-vérifier en premier comme toujours, mais si elle
+tient, les trois séries FR **jamais entamées côté EN** sont maintenant le sujet — `travail-a-`
+(30 FR / 0 EN), `famille-a-` (19 FR / 0 EN), `universites-` (15 FR / 0 EN) — devant
+`vacances-monoparentales-` (7 / 0). Ouvrir `travail-a-` d'abord : c'est le plus gros trou, et
+l'angle emploi est exactement ce qu'un lecteur qui envisage de s'installer en France cherche.
 
 ### Livré le 17/08 — `single-parent-in-[city]-2026` refermée à 39/39 (batch 4, +10)
 

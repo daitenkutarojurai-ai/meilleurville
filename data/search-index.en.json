@@ -3217,6 +3217,66 @@
       "emoji": "🌅"
     },
     {
+      "slug": "retiring-in-le-puy-en-velay-2026",
+      "title": "Retiring in Le Puy-en-Velay: heritage, volcanoes, and a light budget",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retiring-in-fontainebleau-2026",
+      "title": "Retiring in Fontainebleau: 20,000 hectares of forest, Paris at 40 minutes",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retiring-in-challans-2026",
+      "title": "Retiring in Challans: the Vendée coast without the coastal price",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retiring-in-tulle-2026",
+      "title": "Retiring in Tulle: the cheapest prefecture in France, and its trade-offs",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retiring-in-pontarlier-2026",
+      "title": "Retiring in Pontarlier: the Jura at 837 metres, Switzerland at ten minutes",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retiring-in-saint-die-des-vosges-2026",
+      "title": "Retiring in Saint-Dié-des-Vosges: forest, a geography festival, €1,100/m²",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retiring-in-chateau-gontier-2026",
+      "title": "Retiring in Château-Gontier: a river town, safety 8.7/10, €1,300/m²",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retiring-in-albertville-2026",
+      "title": "Retiring in Albertville: the Alps at the door, a hospital in the valley",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retiring-in-gaillac-2026",
+      "title": "Retiring in Gaillac: an old vineyard, 2,200 hours of sun, Toulouse at an hour",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retiring-in-vendome-2026",
+      "title": "Retiring in Vendôme: Paris in 45 minutes, at Loir-et-Cher prices",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retiring-in-marmande-2026",
+      "title": "Retiring in Marmande: sun, the Garonne, and the lowest budget in the series",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retiring-in-saint-lo-2026",
+      "title": "Retiring in Saint-Lô: the best hospital in the Manche, and a modest budget",
+      "emoji": "🌅"
+    },
+    {
       "slug": "single-parent-in-nimes-2026",
       "title": "Single Parent in Nîmes (2026): Sunshine Does Not Pay for Schools",
       "emoji": "🧑‍🍼"
@@ -3349,6 +3409,11 @@
       "count": 23
     },
     {
+      "slug": "expat-retirement",
+      "label": "expat retirement",
+      "count": 21
+    },
+    {
       "slug": "brittany",
       "label": "brittany",
       "count": 18
@@ -3424,6 +3489,11 @@
       "count": 12
     },
     {
+      "slug": "affordable-retirement-france",
+      "label": "affordable retirement France",
+      "count": 10
+    },
+    {
       "slug": "bretagne",
       "label": "bretagne",
       "count": 10
@@ -3441,11 +3511,6 @@
     {
       "slug": "cote-d-azur",
       "label": "cote d'azur",
-      "count": 9
-    },
-    {
-      "slug": "expat-retirement",
-      "label": "expat retirement",
       "count": 9
     },
     {
@@ -3602,11 +3667,6 @@
       "slug": "tours",
       "label": "tours",
       "count": 4
-    },
-    {
-      "slug": "affordable-retirement-france",
-      "label": "affordable retirement France",
-      "count": 3
     },
     {
       "slug": "alps",
