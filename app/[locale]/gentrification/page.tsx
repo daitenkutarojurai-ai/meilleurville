@@ -8,7 +8,7 @@ import { Badge } from "@/components/ui/Badge";
 import { rankGentrification, type GentrificationRow } from "@/lib/gentrification";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -21,7 +21,7 @@ const EN_BASE = ORIGIN_BY_LOCALE.en;
 export const metadata: Metadata = {
   title: "Gentrification index 2026 · French cities on the rise",
   description: `Ranking of French cities where gentrification is accelerating: property prices, 25-35 demographics, café/coworking openings, remote workers. ${CITIES_COUNT} cities, composite score 0-100.`,
-  alternates: { canonical: `${EN_BASE}/gentrification` },
+  alternates: pathAlternatesEn("/gentrification", "/gentrification"),
 };
 
 const breadcrumb = breadcrumbJsonLd([

@@ -5,7 +5,7 @@ import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
 import { CITIES_COUNT } from "@/lib/site-stats";
 import {
   cityParks,
@@ -34,7 +34,7 @@ export function generateStaticParams() {
 export const metadata: Metadata = {
   title: `Parks & green space · ${PARKS_TOTAL} parks in ${PARKS_CITY_COUNT} French cities`,
   description: `Parks, public gardens and playgrounds across ${PARKS_CITY_COUNT} French cities, mapped from OpenStreetMap. Playground, step-free access, drinking water — what actually decides a Saturday morning.`,
-  alternates: { canonical: `${EN_BASE}/parks` },
+  alternates: pathAlternatesEn("/parcs", "/parks"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

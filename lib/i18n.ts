@@ -185,7 +185,6 @@ export const FR_TO_EN_ROUTE: Record<string, string> = {
   "tension-locative": "rental-tension",
   vacances: "vacations",
   velo: "cycling",
-  "villes-qui-grandissent": "cheapest-cities",
   "vivre-avec": "living-on",
   // Sous-segments : mêmes familles, vocabulaire traduit.
   activite: "activity",
@@ -227,6 +226,15 @@ export const PARITY_EXCEPTIONS: Record<string, string> = {
   "my-account": "Surface de compte.",
   "sign-in": "Surface de compte.",
   "niche-rankings": "Regroupement EN des classements de niche ; côté FR ils vivent sous /classements.",
+  // `villes-qui-grandissent` pointait vers `cheapest-cities` dans FR_TO_EN_ROUTE
+  // (audit 2026-08-18). Les deux pages n'ont rien à voir : l'une classe
+  // l'évolution de population Insee 2016-2022, l'autre les loyers et les prix
+  // d'achat. Déclarer ça en hreflang aurait annoncé à Google deux traductions
+  // l'une de l'autre. La vraie jumelle de `cheapest-cities` est
+  // `/classements/villes-moins-cheres`, que la table tête-de-segment ne peut pas
+  // exprimer : les deux pages la déclarent à la main via pathAlternates*.
+  "villes-qui-grandissent": "Palmarès de démographie sans équivalent EN.",
+  "cheapest-cities": "Jumelle de /classements/villes-moins-cheres, déclarée explicitement par les deux pages (la table ne mappe que les têtes de segment).",
 };
 
 // City sub-pages do NOT share their slug across locales: the EN twin of

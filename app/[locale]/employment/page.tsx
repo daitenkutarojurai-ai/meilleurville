@@ -8,7 +8,7 @@ import { JOB_LEVEL_LABEL, JOB_LEVEL_COLOR } from "@/lib/employment-market";
 import { topMostFavorable, topMostDifficult } from "@/lib/employment-market-rankings";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 
 export const revalidate = false;
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   title: "Job market in France · best cities for employment 2026",
   description:
     "National ranking of French cities by employment conditions: unemployment rate, job creation, sector diversification. Top 30 most active vs top 20 most difficult job markets.",
-  alternates: { canonical: `${EN_BASE}/employment` },
+  alternates: pathAlternatesEn("/emploi", "/employment"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

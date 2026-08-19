@@ -6,12 +6,13 @@ import { Badge } from "@/components/ui/Badge";
 import { StaticPageCrossLink } from "@/components/StaticPageCrossLink";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CITIES_COUNT, GUIDES_COUNT, GLOSSARY_TERMS_COUNT } from "@/lib/site-stats";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Outils · Quiz, simulateur, glossaire, calendrier",
   description:
     "Tous les outils MaVilleIdéale pour choisir, comparer, simuler. Quiz IA, simulateur de pouvoir d'achat, glossaire immobilier, calendrier de saisonnalité, comparateur de villes.",
-  alternates: { canonical: "/outils" },
+  alternates: pathAlternates("/outils", "/tools"),
 };
 
 type Tool = {

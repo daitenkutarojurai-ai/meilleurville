@@ -8,11 +8,12 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { CITIES_LIGHT, LEAN_META } from "@/lib/cities-light";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Explorer toutes les villes françaises · Avis & Classements",
   description: `Découvrez les meilleures villes françaises : avis d'habitants, scores de qualité de vie, données locales. ${CITIES_COUNT} communes analysées et comparées.`,
-  alternates: { canonical: "/villes" },
+  alternates: pathAlternates("/villes", "/cities"),
 };
 
 export default function VillesPage() {

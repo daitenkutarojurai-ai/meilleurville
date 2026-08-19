@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Terms of use for BestCitiesInFrance: access, resident reviews, intellectual property, liability, and the governing law.",
   alternates: {
-    canonical: `${EN_BASE}/terms`,
+    ...pathAlternatesEn("/cgu", "/terms"),
     languages: {
       fr: "https://www.mavilleideale.fr/cgu",
       en: `${EN_BASE}/terms`,

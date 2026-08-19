@@ -5,9 +5,7 @@ import { Badge } from "@/components/ui/Badge";
 import { CityMatchQuiz } from "@/app/city-match/CityMatchQuiz";
 import { CITIES_LIGHT } from "@/lib/cities-light";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -19,7 +17,7 @@ export const metadata: Metadata = {
   title: "City Match — which French city really fits your life?",
   description:
     "8 questions, 90 seconds: we calculate your personal match across 352 French cities. Top 3 + a surprise match, live ranking as you answer, shareable link.",
-  alternates: { canonical: `${EN_BASE}/city-match` },
+  alternates: pathAlternatesEn("/city-match", "/city-match"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

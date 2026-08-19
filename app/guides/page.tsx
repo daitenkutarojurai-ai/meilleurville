@@ -7,6 +7,7 @@ import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
 import { GuidesGrid } from "@/components/GuidesGrid";
 import { getAllTagsWithCounts } from "@/lib/guide-tags";
 import { hubTitle } from "@/lib/brand";
+import { pathAlternates } from "@/lib/i18n";
 
 // Build-time freshness reference — captured once at module load so render
 // stays pure (Date.now inside the component body trips react-hooks/purity).
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
   description:
     `${GUIDES.length} guides complets pour choisir sa ville en France : télétravail, famille, budget, qualité de vie. Analyses honnêtes avec données réelles.`,
   alternates: {
-    canonical: "/guides",
+    ...pathAlternates("/guides", "/guides"),
     types: { "application/rss+xml": "/guides/feed.xml" },
   },
   openGraph: {

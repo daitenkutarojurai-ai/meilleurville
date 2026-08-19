@@ -9,7 +9,7 @@ import { CITIES_LIGHT } from "@/lib/cities-light";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -17,13 +17,11 @@ export async function generateStaticParams() {
 
 export const revalidate = false;
 
-const EN_BASE = ORIGIN_BY_LOCALE.en;
-
 export const metadata: Metadata = {
   title: "Rental market pressure in France · 2026 ranking by city",
   description:
     "Where is it hard or easy to find a rental in France? Top 30 tightest rental markets vs top 20 most relaxed, with reference 1-bed rents.",
-  alternates: { canonical: `${EN_BASE}/rental-tension` },
+  alternates: pathAlternatesEn("/tension-locative", "/rental-tension"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

@@ -5,12 +5,10 @@ import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { PeopleLikeYouClient } from "@/app/people-like-you/PeopleLikeYouClient";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { CITIES_LIGHT } from "@/lib/cities-light";
 import { commonOriginSlugs } from "@/lib/people-like-you";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -22,7 +20,7 @@ export const metadata: Metadata = {
   title: "People Like You — where profiles like yours are moving",
   description:
     "11 lifestyle personas × 50 major French cities: see where people like you (family, freelance, retiree…) gain the most by relocating from your current city.",
-  alternates: { canonical: `${EN_BASE}/people-like-you` },
+  alternates: pathAlternatesEn("/people-like-you", "/people-like-you"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

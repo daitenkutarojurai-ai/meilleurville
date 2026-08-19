@@ -7,12 +7,13 @@ import { Card } from "@/components/ui/Card";
 import { CheckCircle, Database, Bot, Shield, AlertTriangle } from "lucide-react";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { StaticPageCrossLink } from "@/components/StaticPageCrossLink";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Méthodologie · Comment sont calculés les scores ?",
   description:
     "Transparence totale : sources, formules, biais et limites. Aucune ville ne paie pour son classement.",
-  alternates: { canonical: "/methode" },
+  alternates: pathAlternates("/methode", "/methodology"),
 };
 
 const methodeBreadcrumb = breadcrumbJsonLd([

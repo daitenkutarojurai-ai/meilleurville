@@ -8,7 +8,7 @@ import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { HOUSING } from "@/data/housing";
 import { scoreColor } from "@/lib/utils";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -16,13 +16,11 @@ export async function generateStaticParams() {
 
 export const revalidate = false;
 
-const EN_BASE = ORIGIN_BY_LOCALE.en;
-
 export const metadata: Metadata = {
   title: "Cheapest cities to live in France 2026 — rent & buy prices ranked",
   description:
     "Top 50 cheapest French cities by median 2-bed rent in 2026. Real data from national rent observatories (ANIL/OLL) and DVF property transactions. Where your housing budget actually goes far.",
-  alternates: { canonical: `${EN_BASE}/cheapest-cities` },
+  alternates: pathAlternatesEn("/classements/villes-moins-cheres", "/cheapest-cities"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

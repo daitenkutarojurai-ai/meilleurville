@@ -3,9 +3,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CopilotClient } from "@/app/copilot/CopilotClient";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -17,7 +15,7 @@ export const metadata: Metadata = {
   title: "AI Relocation Copilot — ask anything about French cities",
   description:
     "Ask our AI assistant about any of 352 French cities: rents, quality-of-life scores, taxes, transport. Personalised recommendations in seconds. Ask in English or French.",
-  alternates: { canonical: `${EN_BASE}/copilot` },
+  alternates: pathAlternatesEn("/copilot", "/copilot"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

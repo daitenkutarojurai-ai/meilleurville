@@ -7,9 +7,7 @@ import { Badge } from "@/components/ui/Badge";
 import { VERDICT_META, type RentVsBuyVerdict } from "@/lib/rent-vs-buy";
 import { buildAllRentVsBuy } from "@/lib/rent-vs-buy-rankings";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export const revalidate = false;
 
@@ -21,7 +19,7 @@ export const metadata: Metadata = {
   title: "Rent or buy in France 2026 · Price-to-rent ratio by city",
   description:
     "Ranking of French cities by price-to-rent ratio (PER). Cities where buying pays off quickly vs where renting stays rational. 2026 medians + benchmarks.",
-  alternates: { canonical: `${EN_BASE}/own-vs-rent` },
+  alternates: pathAlternatesEn("/louer-ou-acheter", "/own-vs-rent"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

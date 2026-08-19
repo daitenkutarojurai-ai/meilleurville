@@ -14,13 +14,14 @@ import {
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
+import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 
 export const metadata: Metadata = {
   title: "Palmarès national 2026 · Meilleur cadre de vie en France",
   description: `Classement national unifié des ${CITIES_COUNT} villes françaises sur les 8 dimensions data du site (environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics). Top 30 profils les plus favorables vs. top 20 plus tendus.`,
-  alternates: { canonical: "/palmares" },
+  alternates: pathAlternates("/palmares", "/overall-ranking"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

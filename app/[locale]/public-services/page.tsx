@@ -8,7 +8,7 @@ import { SERVICES_LEVEL_LABEL, SERVICES_LEVEL_COLOR } from "@/lib/public-service
 import { topBestServices, topServicesDesert } from "@/lib/public-services-rankings";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 
 export const revalidate = false;
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   title: "Public services in France · school, post office, town hall access 2026",
   description:
     "National ranking of French cities by public services access: schools, post offices, town halls, libraries. Top 30 best-served vs top 20 under-served.",
-  alternates: { canonical: `${EN_BASE}/public-services` },
+  alternates: pathAlternatesEn("/services-publics", "/public-services"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

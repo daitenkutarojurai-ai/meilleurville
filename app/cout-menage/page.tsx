@@ -7,11 +7,12 @@ import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { HOUSEHOLD_PROFILES, householdBreakdownFor, type HouseholdProfile } from "@/lib/household-cost";
 import { CITIES_COUNT } from "@/lib/site-stats";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: `Coût de la vie par profil ménage · Solo, couple, famille, retraité (${CITIES_COUNT} villes)`,
   description: `Charges fixes mensuelles dans ${CITIES_COUNT} villes françaises selon 4 profils : solo (T1), couple (T2), famille 2 enfants (T3), retraité. Médians DGFiP + ADEME. Indicatif.`,
-  alternates: { canonical: "/cout-menage" },
+  alternates: pathAlternates("/cout-menage", "/household-cost"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

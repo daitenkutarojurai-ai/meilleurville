@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -11,13 +11,11 @@ export async function generateStaticParams() {
 
 export const revalidate = false;
 
-const EN_BASE = ORIGIN_BY_LOCALE.en;
-
 export const metadata: Metadata = {
   title: "French property calendar 2026 · When to buy, sell, rent or move?",
   description:
     "Best months for buying, selling, renting or moving in France. Month-by-month seasonality of the French property market. Based on notaires.fr, SeLoger and OLAP patterns since 2018.",
-  alternates: { canonical: `${EN_BASE}/property-calendar` },
+  alternates: pathAlternatesEn("/calendrier-immobilier", "/property-calendar"),
 };
 
 type Month = {

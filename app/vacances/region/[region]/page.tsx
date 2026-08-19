@@ -29,6 +29,7 @@ import {
 } from "@/lib/vacation-fit";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { MapPin, ChevronRight } from "lucide-react";
+import { pathAlternates } from "@/lib/i18n";
 
 // Canonical FR origin is the www host (worker/index.ts 301s the apex to it).
 // JSON-LD must name the canonical URL, not one that redirects.
@@ -61,7 +62,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Vacances en ${r} 2026 · top destinations`,
     description: `Où partir en vacances en ${r} : top destinations classées, meilleurs mois, activités phares. ${REGION_TAGLINES[r] ?? ""}`,
-    alternates: { canonical: `/vacances/region/${region}` },
+    alternates: pathAlternates(`/vacances/region/${region}`, `/vacations/region/${region}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

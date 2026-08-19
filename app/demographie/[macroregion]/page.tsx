@@ -13,6 +13,7 @@ import {
   DEMO_LEVEL_COLOR,
 } from "@/lib/demography";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -30,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Démographie · ${macro.label} 2026`,
     description: `Classement composite démographie (vieillissement, jeunes actifs, trajectoire, renouvellement) restreint aux villes de la macro-région ${macro.label}. Dynamiques vs. vieillissantes.`,
-    alternates: { canonical: `/demographie/${macro.slug}` },
+    alternates: pathAlternates(`/demographie/${macro.slug}`, `/demographics/${macro.slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

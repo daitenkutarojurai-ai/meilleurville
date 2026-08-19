@@ -13,13 +13,11 @@ import {
 } from "@/lib/city-commute";
 import { scoreColor, formatScore } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 import type { CitySeed } from "@/data/cities-seed";
 
 export const revalidate = false;
 export const dynamicParams = false;
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 type Props = { params: Promise<{ locale: string; slug: string }> };
 
@@ -34,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Weekend getaways from ${city.name} · Destinations under 5h 2026`,
     description: `Every French city reachable from ${city.name} in under 5 hours (TGV, Intercités or car). Ranked by travel time with a quality-of-life score.`,
-    alternates: { canonical: `${EN_BASE}/weekend-getaways/${slug}` },
+    alternates: pathAlternatesEn(`/depuis/${slug}`, `/weekend-getaways/${slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

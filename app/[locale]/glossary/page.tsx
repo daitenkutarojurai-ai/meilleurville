@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -11,15 +11,13 @@ export async function generateStaticParams() {
 
 export const revalidate = false;
 
-const EN_BASE = ORIGIN_BY_LOCALE.en;
-
 export const metadata: Metadata = {
   // 63 caractères avec le suffixe de marque, 42 sans. La jumelle FR
   // `/glossaire` n'en porte pas.
   title: "French property & relocation glossary 2026",
   description:
     "Complete glossary: DPE energy rating, LMNP landlord status, taxe foncière, ZFE low-emission zones, rent control, notary fees, FTTH fibre... All the terms you need before buying, renting or moving in France.",
-  alternates: { canonical: `${EN_BASE}/glossary` },
+  alternates: pathAlternatesEn("/glossaire", "/glossary"),
 };
 
 type Term = { term: string; def: string };

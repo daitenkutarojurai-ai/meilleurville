@@ -13,6 +13,7 @@ import {
   SAFETY_LEVEL_COLOR,
 } from "@/lib/safety-deep";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -30,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Sécurité SSMSI · ${macro.label} 2026`,
     description: `Classement composite sécurité SSMSI (biens, personnes, nuit, VFFS) restreint aux villes de la macro-région ${macro.label}. Plus calmes vs. plus tendues.`,
-    alternates: { canonical: `/securite/${macro.slug}` },
+    alternates: pathAlternates(`/securite/${macro.slug}`, `/safety/${macro.slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

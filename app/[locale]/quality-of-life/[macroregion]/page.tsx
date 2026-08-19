@@ -12,9 +12,7 @@ import {
   QOL_LEVEL_COLOR,
 } from "@/lib/quality-of-life-index";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -42,7 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Quality of life · ${enLabel} — top cities 2026`,
     description: `Quality-of-life index (environment + healthcare + employment) for all cities in the ${enLabel} macro-region. Top and bottom cities ranked.`,
-    alternates: { canonical: `${EN_BASE}/quality-of-life/${macro.slug}` },
+    alternates: pathAlternatesEn(`/cadre-de-vie/${macro.slug}`, `/quality-of-life/${macro.slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

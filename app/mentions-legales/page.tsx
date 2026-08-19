@@ -2,12 +2,13 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Mentions légales",
   description:
     "Mentions légales de MaVilleIdéale : éditeur, hébergeur, contact, propriété intellectuelle et liens partenaires.",
-  alternates: { canonical: "/mentions-legales" },
+  alternates: pathAlternates("/mentions-legales", "/legal-notice"),
 };
 
 export default function MentionsLegalesPage() {

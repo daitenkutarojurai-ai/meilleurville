@@ -13,6 +13,7 @@ import {
   SPORT_LEVEL_COLOR,
 } from "@/lib/sport-leisure";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -30,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Villes sportives · ${macro.label} 2026`,
     description: `Classement composite sport & loisirs (équipements, outdoor, clubs, climat) restreint aux villes de la macro-région ${macro.label}. Plus sportives vs. moins propices à la pratique.`,
-    alternates: { canonical: `/sport/${macro.slug}` },
+    alternates: pathAlternates(`/sport/${macro.slug}`, `/sport/${macro.slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

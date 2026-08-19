@@ -9,11 +9,12 @@ import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
 import { RANKING_META } from "@/lib/rankings";
 import { getAllTagsWithCounts } from "@/lib/guide-tags";
 import { CITIES_COUNT, GUIDES_COUNT, TAGS_COUNT, RANKINGS_COUNT, REGIONS_COUNT } from "@/lib/site-stats";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Sommaire · Index complet du site",
   description: `Index alphabétique complet : ${CITIES_COUNT} villes, ${GUIDES_COUNT} guides, ${TAGS_COUNT} tags, ${RANKINGS_COUNT} classements, ${REGIONS_COUNT} régions, départements et outils. Tout MaVilleIdéale en une page.`,
-  alternates: { canonical: "/sommaire" },
+  alternates: pathAlternates("/sommaire", "/site-index"),
 };
 
 // Group cities by first letter for an A-Z index.

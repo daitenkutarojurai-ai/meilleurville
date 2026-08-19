@@ -6,11 +6,9 @@ import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { ORIGIN_SLUGS, getOriginCity } from "@/lib/city-commute";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export const revalidate = false;
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -20,7 +18,7 @@ export const metadata: Metadata = {
   title: "Weekend getaways from your city · Destinations by travel time 2026",
   description:
     "Pick your departure city and see every French destination ranked by travel time. Ideal for planning a weekend or a short break.",
-  alternates: { canonical: `${EN_BASE}/weekend-getaways` },
+  alternates: pathAlternatesEn("/depuis", "/weekend-getaways"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

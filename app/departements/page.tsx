@@ -9,12 +9,13 @@ import { DepartementFinder, type DeptEntry } from "@/components/DepartementFinde
 import { DepartementMap, type DeptMapEntry } from "@/components/DepartementMap";
 import { deptNumber } from "@/lib/dept-slug";
 import { hubTitle } from "@/lib/brand";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: hubTitle("Villes par département · France"),
   description:
     "Explorez les meilleures villes françaises département par département : Isère, Ille-et-Vilaine, Gironde, Hérault et plus. Scores comparés, top villes.",
-  alternates: { canonical: "/departements" },
+  alternates: pathAlternates("/departements", "/departments"),
 };
 
 function deptToSlug(dept: string): string {

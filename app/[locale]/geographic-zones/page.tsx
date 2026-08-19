@@ -8,7 +8,7 @@ import { Badge } from "@/components/ui/Badge";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { citiesInMacroRegion } from "@/lib/macro-regions-rankings";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -16,13 +16,11 @@ export async function generateStaticParams() {
 
 export const revalidate = false;
 
-const EN_BASE = ORIGIN_BY_LOCALE.en;
-
 export const metadata: Metadata = {
   title: "French geographic zones 2026 · Coast, Arc, Alps",
   description:
     "6 thematic zones that match real relocation projects: Atlantic coast, Mediterranean arc, Alpine arc, South-West, Rhône Valley, Greater Paris. Beyond administrative regions.",
-  alternates: { canonical: `${EN_BASE}/geographic-zones` },
+  alternates: pathAlternatesEn("/macro-region", "/geographic-zones"),
 };
 
 const EN_ZONE_NAME: Record<string, string> = {

@@ -9,7 +9,7 @@ import { MACRO_REGIONS, getMacroRegion } from "@/lib/macro-regions";
 import { rankInMacroRegion, citiesInMacroRegion } from "@/lib/macro-regions-rankings";
 import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -64,7 +64,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${zoneName} — cities & quality of life 2026`,
     description: `Top cities in the ${zoneName} geographic zone by quality of life score. Browse rankings by theme: healthcare, cycling, safety, employment and more.`,
-    alternates: { canonical: `${EN_BASE}/geographic-zones/${slug}` },
+    alternates: pathAlternatesEn(`/macro-region/${slug}`, `/geographic-zones/${slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

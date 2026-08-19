@@ -9,6 +9,7 @@ import { MACRO_REGIONS, getMacroRegion } from "@/lib/macro-regions";
 import { rankInMacroRegion } from "@/lib/macro-regions-rankings";
 import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -28,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: macro.metaTitle,
     description: macro.metaDescription,
-    alternates: { canonical: `/macro-region/${slug}` },
+    alternates: pathAlternates(`/macro-region/${slug}`, `/geographic-zones/${slug}`),
     openGraph: { title: macro.metaTitle, description: macro.metaDescription, images: ["/opengraph-image"] },
   };
 }

@@ -9,13 +9,14 @@ import { CITIES_COUNT } from "@/lib/site-stats";
 import { scoreColor, scoreLabel } from "@/lib/utils";
 import { hubTitle } from "@/lib/brand";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 
 export const metadata: Metadata = {
   title: hubTitle("Avis et notes des villes de France"),
   description: `La note de qualité de vie des ${CITIES_COUNT} villes françaises, sur 8 critères mesurés — et l'avis des gens qui y vivent. Cherchez la vôtre, lisez, donnez le vôtre.`,
-  alternates: { canonical: "/avis" },
+  alternates: pathAlternates("/avis", "/reviews"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

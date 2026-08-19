@@ -2,15 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Which French city suits your profile? — Top 20 lists 2026",
   description:
     "13 lifestyle profiles, 13 top-20 rankings calibrated on the axes that actually matter: families, couples, young professionals, retirees, freelancers, students, first-time buyers, single parents, and more.",
-  alternates: { canonical: `${EN_BASE}/for-who` },
+  alternates: pathAlternatesEn("/pour-qui", "/for-who"),
 };
 
 const PROFILES = [

@@ -9,12 +9,13 @@ import { PurchaseSimulator } from "@/components/PurchaseSimulator";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { HOUSING } from "@/data/housing";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Simulateur achat immobilier 2026 · Où acheter avec votre budget",
   description:
     "Simulateur d'achat immobilier 2026 : entrez votre budget + surface souhaitée → top 15 villes accessibles + mensualité prêt 20/25 ans + frais de notaire estimés.",
-  alternates: { canonical: "/simulateur-achat" },
+  alternates: pathAlternates("/simulateur-achat", "/simulator/purchase"),
 };
 
 const breadcrumb = breadcrumbJsonLd([

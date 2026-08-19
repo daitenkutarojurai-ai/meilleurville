@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/Badge";
 import { parisCommuteAll } from "@/lib/paris-commute-rankings";
 import { scoreColor, formatScore } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -15,13 +15,11 @@ export async function generateStaticParams() {
 
 export const revalidate = false;
 
-const EN_BASE = ORIGIN_BY_LOCALE.en;
-
 export const metadata: Metadata = {
   title: "French cities by train from Paris · Travel time ranking 2026",
   description:
     "Rail travel time Paris ↔ every French city. Top cities under 1h, 2h, 3h from Paris. Essential tool for remote workers and weekend commuters.",
-  alternates: { canonical: `${EN_BASE}/from-paris` },
+  alternates: pathAlternatesEn("/depuis-paris", "/from-paris"),
 };
 
 const breadcrumb = breadcrumbJsonLd([

@@ -16,6 +16,7 @@ import {
 import type { City } from "@/lib/types";
 import { RANKINGS_COUNT } from "@/lib/site-stats";
 import { getRankedCities, type RankingSlug } from "@/lib/rankings";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Classements villes françaises 2026 · Famille, Budget",
@@ -27,7 +28,7 @@ export const metadata: Metadata = {
     type: "website",
   },
   twitter: { card: "summary_large_image" },
-  alternates: { canonical: "/classements" },
+  alternates: pathAlternates("/classements", "/rankings"),
 };
 
 function seedToCity(s: (typeof CITIES_SEED)[number]): City {

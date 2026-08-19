@@ -9,6 +9,7 @@ import { topSafest, topMostStressed } from "@/lib/safety-deep-rankings";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
+import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
   title: "Sécurité en France · palmarès 2026 SSMSI villes calmes vs. tendues",
   description:
     "Classement national SSMSI des villes françaises selon la sécurité : atteintes biens, personnes, nuit, violences faites aux femmes. Top 30 villes calmes vs. top 20 les plus tendues. Sources SSMSI / Insee CVS.",
-  alternates: { canonical: "/securite" },
+  alternates: pathAlternates("/securite", "/safety"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

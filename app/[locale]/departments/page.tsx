@@ -4,15 +4,13 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { deptToSlug } from "@/lib/dept-slug";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Cities by department · All French departments",
   description:
     "Explore French cities department by department. Each department lists its main cities ranked by quality of life.",
-  alternates: { canonical: `${EN_BASE}/departments` },
+  alternates: pathAlternatesEn("/departements", "/departments"),
 };
 
 export default function EnDepartmentsHub() {

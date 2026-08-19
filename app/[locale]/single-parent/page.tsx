@@ -9,7 +9,7 @@ import { parentSoloFit, fitLabel, minIncomeForT3 } from "@/lib/parent-solo";
 import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
 import { Users, ChevronRight } from "lucide-react";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
   title: "Single parent in France 2026 — French cities that actually work",
   description:
     "Top 30 French cities where single-parent life holds: cost, transit, schools, safety. Weighted composite of 4 axes, estimated minimum income to rent a T3.",
-  alternates: { canonical: `${EN_BASE}/single-parent` },
+  alternates: pathAlternatesEn("/parent-solo", "/single-parent"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

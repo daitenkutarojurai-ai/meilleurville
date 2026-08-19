@@ -9,7 +9,7 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { EN_GUIDES } from "@/data/guides-en";
 import { CITIES_COUNT, RANKINGS_COUNT, DEPARTMENTS_COUNT } from "@/lib/site-stats";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   description:
     "Journalists and institutions: the full ranking of French cities, per-city data and the method behind it. Free to reuse with attribution, CSV included.",
   alternates: {
-    canonical: `${EN_BASE}/press`,
+    ...pathAlternatesEn("/presse", "/press"),
     languages: {
       fr: "https://www.mavilleideale.fr/presse",
       en: `${EN_BASE}/press`,

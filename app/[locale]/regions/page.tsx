@@ -3,16 +3,14 @@ import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 import { regionToSlug } from "@/lib/regions";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const metadata: Metadata = {
   title: "Cities by region · All French regions",
   description:
     "Explore the best French cities region by region: Brittany, Occitanie, PACA, Auvergne-Rhône-Alpes and more. Compared scores, top cities.",
-  alternates: { canonical: `${EN_BASE}/regions` },
+  alternates: pathAlternatesEn("/regions", "/regions"),
 };
 
 const REGION_EMOJIS: Record<string, string> = {

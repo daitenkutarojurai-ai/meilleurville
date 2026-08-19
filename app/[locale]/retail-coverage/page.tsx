@@ -13,7 +13,7 @@ import { CITIES_LIGHT } from "@/lib/cities-light";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -21,13 +21,11 @@ export async function generateStaticParams() {
 
 export const revalidate = false;
 
-const EN_BASE = ORIGIN_BY_LOCALE.en;
-
 export const metadata: Metadata = {
   title: "Retail coverage in France · 2026 city ranking",
   description:
     "Where French cities have the densest retail offer and where downtown is thinning. Top 30 best-covered cities vs top 20 in retail stress (INSEE BPE, Procos).",
-  alternates: { canonical: `${EN_BASE}/retail-coverage` },
+  alternates: pathAlternatesEn("/commerces", "/retail-coverage"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

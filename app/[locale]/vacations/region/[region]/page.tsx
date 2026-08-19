@@ -28,7 +28,7 @@ import {
 } from "@/lib/vacation-fit";
 import { enWhyLine } from "@/lib/vacation-en";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
 import { MapPin, ChevronRight } from "lucide-react";
 
 export const revalidate = false;
@@ -105,7 +105,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Holidays in ${r} 2026 · top destinations`,
     description: `Where to go on holiday in ${r}: top destinations ranked, best months, key activities. ${tagline}`,
-    alternates: { canonical: `${EN_BASE}/vacations/region/${region}` },
+    alternates: pathAlternatesEn(`/vacances/region/${region}`, `/vacations/region/${region}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

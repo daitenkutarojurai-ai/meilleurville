@@ -8,12 +8,13 @@ import { Download, Newspaper, MapPin, BarChart3, Mail, Shield } from "lucide-rea
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { CITIES_COUNT, GUIDES_COUNT, RANKINGS_COUNT, DEPARTMENTS_COUNT } from "@/lib/site-stats";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Espace presse · Données et classements des villes françaises",
   description:
     "Journalistes, collectivités : accédez au classement complet des villes françaises, aux données par ville et à la méthodologie. Données libres de reprise avec attribution.",
-  alternates: { canonical: "/presse" },
+  alternates: pathAlternates("/presse", "/press"),
 };
 
 const presseBreadcrumb = breadcrumbJsonLd([

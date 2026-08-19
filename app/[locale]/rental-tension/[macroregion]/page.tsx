@@ -10,12 +10,10 @@ import { citiesInMacroRegion } from "@/lib/macro-regions-rankings";
 import { rentalTension, tensionInfo, type TensionLevel } from "@/lib/rental-tension";
 import { HOUSING } from "@/data/housing";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 type Props = { params: Promise<{ locale: string; macroregion: string }> };
 
@@ -50,7 +48,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Rental market pressure · ${label} 2026`,
     description: `Rental market across ${label} cities: where renting is tight vs where it's accessible. Reference 1-bed rents and a pressure score per city.`,
-    alternates: { canonical: `${EN_BASE}/rental-tension/${macro.slug}` },
+    alternates: pathAlternatesEn(`/tension-locative/${macro.slug}`, `/rental-tension/${macro.slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

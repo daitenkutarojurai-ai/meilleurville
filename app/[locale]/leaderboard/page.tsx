@@ -5,7 +5,7 @@ import { Footer } from "@/components/Footer";
 import { ScoreBar } from "@/components/ui/ScoreBar";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { scoreColor } from "@/lib/utils";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Leaderboard · Top French cities by quality of life (2026)",
   description:
     "The global ranking of every French city we cover, by quality of life. A weighted score across eight axes: life, transport, nature, cost, safety, culture, schools and remote work.",
-  alternates: { canonical: `${EN_BASE}/leaderboard` },
+  alternates: pathAlternatesEn("/leaderboard", "/leaderboard"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

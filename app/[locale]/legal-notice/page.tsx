@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "Publisher details, hosting provider, affiliate disclosure and contact information for BestCitiesInFrance.",
   alternates: {
-    canonical: `${EN_BASE}/legal-notice`,
+    ...pathAlternatesEn("/mentions-legales", "/legal-notice"),
     languages: {
       fr: "https://www.mavilleideale.fr/mentions-legales",
       en: `${EN_BASE}/legal-notice`,

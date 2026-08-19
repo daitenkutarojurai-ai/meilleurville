@@ -7,15 +7,13 @@ import { MAP_CITIES } from "@/lib/cities-light";
 import { scoreColor } from "@/lib/utils";
 import { FranceHeatmap, type DeptBubble } from "@/components/FranceHeatmap";
 import { deptToSlug } from "@/lib/dept-slug";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 import { CITIES_COUNT } from "@/lib/site-stats";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const metadata: Metadata = {
   title: "Map of French cities — quality of life visualised",
   description: `Interactive-style map of ${CITIES_COUNT}+ French cities. Each dot is coloured by its quality-of-life score, from red (weak) to emerald (exceptional).`,
-  alternates: { canonical: `${EN_BASE}/map` },
+  alternates: pathAlternatesEn("/carte", "/map"),
 };
 
 // Metropolitan bounding box — same as components/FranceHeatmap.tsx.

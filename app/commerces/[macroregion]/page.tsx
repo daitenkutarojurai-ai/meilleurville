@@ -17,6 +17,7 @@ import {
   COMMERCE_LEVEL_COLOR,
 } from "@/lib/commerce";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -36,7 +37,7 @@ export async function generateMetadata({
   return {
     title: `Couverture commerciale · ${macro.label} 2026`,
     description: `Offre commerciale des villes de ${macro.label} : densité, marchés & proximité, grandes surfaces, vitalité du centre-ville. Palmarès dérivé du profil INSEE / Procos.`,
-    alternates: { canonical: `/commerces/${macro.slug}` },
+    alternates: pathAlternates(`/commerces/${macro.slug}`, `/retail-coverage/${macro.slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

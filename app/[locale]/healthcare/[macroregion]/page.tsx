@@ -13,9 +13,7 @@ import {
   HEALTH_LEVEL_COLOR,
 } from "@/lib/healthcare-access";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -43,7 +41,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Healthcare access · ${label} 2026`,
     description: `Composite healthcare access ranking (GPs, specialists, A&E, pharmacies) for cities in the ${label} macro-region. Best-served cities vs medical deserts.`,
-    alternates: { canonical: `${EN_BASE}/healthcare/${macro.slug}` },
+    alternates: pathAlternatesEn(`/sante/${macro.slug}`, `/healthcare/${macro.slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

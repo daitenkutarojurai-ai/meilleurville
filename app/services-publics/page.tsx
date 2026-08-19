@@ -9,6 +9,7 @@ import { topBestServices, topServicesDesert } from "@/lib/public-services-rankin
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
+import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
   title: "Services publics en France · accès écoles, Poste, mairie, médiathèque 2026",
   description:
     "Classement national de l'accès aux services publics par ville française : écoles, La Poste & France Services, mairie, médiathèque. Top 30 mieux desservies vs. top 20 désertiques.",
-  alternates: { canonical: "/services-publics" },
+  alternates: pathAlternates("/services-publics", "/public-services"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

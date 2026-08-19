@@ -9,6 +9,7 @@ import { topMostFavorable, topMostDifficult } from "@/lib/employment-market-rank
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
+import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
   title: "Marché du travail en France · meilleures villes 2026",
   description:
     "Classement national des villes françaises selon le marché du travail : chômage INSEE, dynamisme SIRENE, mix sectoriel, salaire net médian. Top 30 villes favorables vs. top 20 marchés sinistrés.",
-  alternates: { canonical: "/emploi" },
+  alternates: pathAlternates("/emploi", "/employment"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

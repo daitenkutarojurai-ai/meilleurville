@@ -10,7 +10,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { HOUSING } from "@/data/housing";
 import { METRO_REGIONS, REGION_EMOJIS, regionToSlug, slugToRegion } from "@/lib/regions";
 import { scoreColor, scoreHex, sunshineDays } from "@/lib/utils";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
 import { clampMeta } from "@/lib/brand";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
@@ -80,7 +80,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: clampMeta(
       `Side-by-side comparison of ${a} and ${b}: cost of living, climate, housing, quality-of-life scores and top cities.`,
     ),
-    alternates: { canonical: `${EN_BASE}/compare-regions/${pair}` },
+    alternates: pathAlternatesEn(`/comparer-regions/${pair}`, `/compare-regions/${pair}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

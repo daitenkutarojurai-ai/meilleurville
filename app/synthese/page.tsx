@@ -23,13 +23,14 @@ import {
 } from "@/lib/city-synthesis";
 import { CITIES_COUNT, DEPARTMENTS_COUNT, REGIONS_COUNT } from "@/lib/site-stats";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 
 export const metadata: Metadata = {
   title: "Synthèse 8 axes · palmarès et comparatifs",
   description: `Système synthèse : 8 axes data (env / santé / emploi / cadre / vélo / sécurité / démo / services publics) unifiés sur ${CITIES_COUNT} villes, ${DEPARTMENTS_COUNT} départements, ${REGIONS_COUNT} régions, 6 macro-régions, palmarès national. Comparer 2 villes ou 2 régions, palmarès personnalisé.`,
-  alternates: { canonical: "/synthese" },
+  alternates: pathAlternates("/synthese", "/synthesis"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

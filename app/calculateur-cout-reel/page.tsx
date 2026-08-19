@@ -8,11 +8,12 @@ import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
 import { CITIES_COUNT } from "@/lib/site-stats";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Calculateur de coût réel · Toutes les villes françaises 2026",
   description: `Calculez le coût de la vie mensuel honnête pour ${CITIES_COUNT} villes françaises : loyer T2, chauffage par zone climatique, voiture ou transports, taxes. Comparatif vs Paris.`,
-  alternates: { canonical: "/calculateur-cout-reel" },
+  alternates: pathAlternates("/calculateur-cout-reel", "/calculator/real-cost"),
 };
 
 export default function CalculateurCoutReelIndex() {

@@ -8,7 +8,7 @@ import { Badge } from "@/components/ui/Badge";
 import { EXPAT_COUNTRIES, EN_EXPAT_COUNTRY_SLUGS } from "@/lib/expat-return";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -16,13 +16,11 @@ export async function generateStaticParams() {
 
 export const revalidate = false;
 
-const EN_BASE = ORIGIN_BY_LOCALE.en;
-
 export const metadata: Metadata = {
   title: "Moving back to France as an expat 2026 · Practical guide",
   description:
     "Returning to France from Switzerland, Luxembourg, Belgium, UK or Canada? Salary / cost of living / tax / admin comparison by country + quiz + city suggestions.",
-  alternates: { canonical: `${EN_BASE}/expat-return` },
+  alternates: pathAlternatesEn("/expat-retour", "/expat-return"),
 };
 
 const EN_COUNTRY_NAME: Record<string, string> = {

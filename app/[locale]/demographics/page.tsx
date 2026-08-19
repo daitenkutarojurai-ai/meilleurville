@@ -8,7 +8,7 @@ import { DEMO_LEVEL_LABEL, DEMO_LEVEL_COLOR } from "@/lib/demography";
 import { topMostDynamic, topMostAgeing } from "@/lib/demography-rankings";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 
 export const revalidate = false;
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   title: "Demographics in France · dynamic cities vs ageing 2026",
   description:
     "National ranking of French cities by demographic trajectory: population growth, age structure, birth rate. Top 30 most dynamic vs top 20 most ageing.",
-  alternates: { canonical: `${EN_BASE}/demographics` },
+  alternates: pathAlternatesEn("/demographie", "/demographics"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

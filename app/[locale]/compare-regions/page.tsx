@@ -5,15 +5,13 @@ import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { METRO_REGIONS, REGION_EMOJIS, regionToSlug } from "@/lib/regions";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Compare French regions · 78 side-by-side comparisons 2026",
   description:
     "Compare any two French regions side by side: cost of living, climate, housing, quality-of-life scores and top cities. All 78 combinations of the 13 mainland regions.",
-  alternates: { canonical: `${EN_BASE}/compare-regions` },
+  alternates: pathAlternatesEn("/comparer-regions", "/compare-regions"),
 };
 
 const PRIORITY_PAIRS: ReadonlyArray<readonly [string, string, string]> = [

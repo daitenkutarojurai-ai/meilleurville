@@ -11,12 +11,13 @@ import {
   regionToSlug,
 } from "@/lib/regions";
 import { CITIES_COUNT } from "@/lib/site-stats";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Comparer les régions françaises · 78 comparatifs 2026",
   description:
     "Comparez 2 régions françaises côte à côte : coût de la vie, climat, immobilier, scores qualité de vie, meilleures villes. 78 combinaisons des 13 régions métropolitaines.",
-  alternates: { canonical: "/comparer-regions" },
+  alternates: pathAlternates("/comparer-regions", "/compare-regions"),
 };
 
 const PRIORITY_PAIRS: ReadonlyArray<readonly [string, string, string]> = [

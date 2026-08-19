@@ -5,7 +5,7 @@ import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT, GUIDES_COUNT } from "@/lib/site-stats";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -18,7 +18,7 @@ const EN_BASE = ORIGIN_BY_LOCALE.en;
 export const metadata: Metadata = {
   title: "Tools · Quiz, calculator, map, rankings | BestCitiesInFrance",
   description: `All BestCitiesInFrance tools to choose, compare, and simulate. Compatibility quiz, cost calculator, interactive map, city comparator, leaderboard.`,
-  alternates: { canonical: `${EN_BASE}/tools` },
+  alternates: pathAlternatesEn("/outils", "/tools"),
 };
 
 const breadcrumb = breadcrumbJsonLd([

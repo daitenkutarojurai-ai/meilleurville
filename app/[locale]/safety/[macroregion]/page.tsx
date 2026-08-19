@@ -13,9 +13,7 @@ import {
   SAFETY_LEVEL_COLOR,
 } from "@/lib/safety-deep";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -43,7 +41,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Safety (SSMSI) · ${label} 2026`,
     description: `Composite safety ranking (property crime, personal crime, night-time, domestic violence) for cities in the ${label} macro-region. Quietest vs most tense cities.`,
-    alternates: { canonical: `${EN_BASE}/safety/${macro.slug}` },
+    alternates: pathAlternatesEn(`/securite/${macro.slug}`, `/safety/${macro.slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

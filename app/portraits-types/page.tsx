@@ -8,12 +8,13 @@ import { computeNicheScores } from "@/lib/niche-scores";
 import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ArrowRight, ChevronRight } from "lucide-react";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Portraits-types · Qui déménage en France et pourquoi — 2026",
   description:
     "6 profils fictifs illustrant les grandes migrations internes en France : freelances, retraités, étudiants, familles, expats, profils nature. Avec scores de compatibilité réels par ville.",
-  alternates: { canonical: "/portraits-types" },
+  alternates: pathAlternates("/portraits-types", "/community-profiles"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

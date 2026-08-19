@@ -6,6 +6,7 @@ import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { ORIGIN_SLUGS, getOriginCity } from "@/lib/city-commute";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   title: "Week-end depuis votre ville · Destinations accessibles en train 2026",
   description:
     "Choisissez votre ville de départ et découvrez toutes les destinations françaises classées par temps de trajet. Idéal pour planifier un week-end ou une escapade.",
-  alternates: { canonical: "/depuis" },
+  alternates: pathAlternates("/depuis", "/weekend-getaways"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

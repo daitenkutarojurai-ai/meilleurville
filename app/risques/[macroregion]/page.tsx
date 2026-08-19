@@ -17,6 +17,7 @@ import {
   RISK_LEVEL_COLOR,
 } from "@/lib/natural-risks";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -36,7 +37,7 @@ export async function generateMetadata({
   return {
     title: `Risques naturels · ${macro.label} 2026`,
     description: `Inondation, sismicité, argile, feux de forêt dans les villes de ${macro.label}. Top 15 les plus exposées vs top 10 les plus tranquilles.`,
-    alternates: { canonical: `/risques/${macro.slug}` },
+    alternates: pathAlternates(`/risques/${macro.slug}`, `/natural-risks/${macro.slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

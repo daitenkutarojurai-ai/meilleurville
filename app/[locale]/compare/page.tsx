@@ -4,17 +4,15 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { CITIES_LIGHT } from "@/lib/cities-light";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 import { SEO_PAIRS } from "@/lib/comparer-pairs";
 import { CompareTool } from "@/app/comparer/CompareTool";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const metadata: Metadata = {
   title: "Compare French cities — side-by-side quality of life",
   description:
     "Compare any two French cities side by side: cost of living, transport, nature, safety, schools and a verdict per lifestyle profile.",
-  alternates: { canonical: `${EN_BASE}/compare` },
+  alternates: pathAlternatesEn("/comparer", "/compare"),
 };
 
 export default function EnCompareIndex() {

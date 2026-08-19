@@ -7,11 +7,12 @@ import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { PROFILE_PAGES } from "@/lib/profile-pages";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Pour qui · Villes françaises adaptées à votre profil 2026",
   description: `${PROFILE_PAGES.length} profils de vie, ${PROFILE_PAGES.length} classements top 20 calibrés sur les axes qui comptent : familles, couples, jeunes actifs, retraités, freelances, étudiants, primo-accédants, et plus.`,
-  alternates: { canonical: "/pour-qui" },
+  alternates: pathAlternates("/pour-qui", "/for-who"),
 };
 
 const breadcrumb = breadcrumbJsonLd([

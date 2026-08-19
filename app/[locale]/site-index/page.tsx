@@ -7,7 +7,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { EN_GUIDES, EN_GUIDE_CATEGORIES } from "@/data/guides-en";
 import { RANKING_META } from "@/lib/rankings";
 import { CITIES_COUNT } from "@/lib/site-stats";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -15,12 +15,10 @@ export async function generateStaticParams() {
 
 export const revalidate = false;
 
-const EN_BASE = ORIGIN_BY_LOCALE.en;
-
 export const metadata: Metadata = {
   title: "Site index · BestCitiesInFrance",
   description: `Complete index of BestCitiesInFrance: ${CITIES_COUNT} cities, all rankings, regions, guides and tools — in one place.`,
-  alternates: { canonical: `${EN_BASE}/site-index` },
+  alternates: pathAlternatesEn("/sommaire", "/site-index"),
 };
 
 function byInitial<T extends { name: string }>(items: T[]): Map<string, T[]> {

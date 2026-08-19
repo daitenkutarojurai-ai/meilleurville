@@ -29,9 +29,7 @@ import {
 import type { SynthesisLevel } from "@/lib/city-synthesis";
 import { CITIES_COUNT } from "@/lib/site-stats";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export const revalidate = false;
 
@@ -49,7 +47,7 @@ const EN_SYNTHESIS_LABEL: Record<SynthesisLevel, string> = {
 export const metadata: Metadata = {
   title: "8-axis synthesis · French city rankings | BestCitiesInFrance",
   description: `8-dimension data synthesis (environment, healthcare, employment, quality of life, cycling, safety, demographics, public services) across ${CITIES_COUNT} cities, 102 departments, 18 regions, 6 macro-regions and a national leaderboard. Compare two cities or two regions side by side.`,
-  alternates: { canonical: `${EN_BASE}/synthesis` },
+  alternates: pathAlternatesEn("/synthese", "/synthesis"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

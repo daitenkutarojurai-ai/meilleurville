@@ -3,12 +3,13 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CopilotClient } from "./CopilotClient";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Copilote Déménagement IA",
   description:
     "Posez vos questions à notre assistant IA : il connaît les 352 villes françaises, leurs loyers, scores de qualité de vie, fiscalité et transports. Recommandations personnalisées en quelques secondes.",
-  alternates: { canonical: "/copilot" },
+  alternates: pathAlternates("/copilot", "/copilot"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

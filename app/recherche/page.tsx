@@ -8,11 +8,12 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { GUIDES } from "@/data/guides";
 import { getAllTagsWithCounts } from "@/lib/guide-tags";
 import { CITIES_COUNT, GUIDES_COUNT, TAGS_COUNT, GLOSSARY_TERMS_COUNT } from "@/lib/site-stats";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Recherche globale · Villes, guides, tags, glossaire",
   description: `Cherchez dans toute la base MaVilleIdéale : ${CITIES_COUNT} villes, ${GUIDES_COUNT} guides, ${TAGS_COUNT} tags, ${GLOSSARY_TERMS_COUNT} termes glossaire. Tout au même endroit.`,
-  alternates: { canonical: "/recherche" },
+  alternates: pathAlternates("/recherche", "/search"),
 };
 
 // Hand-picked glossary entries with anchors. Keeps the index lean rather than

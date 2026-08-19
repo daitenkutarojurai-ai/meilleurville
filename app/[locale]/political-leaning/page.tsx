@@ -16,12 +16,10 @@ import {
   CANDIDATE_BY_KEY,
   type Bloc,
 } from "@/lib/political-lean";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 import { inMetropolitanBox, project } from "@/lib/france-map-geo";
 import { PoliticalLeanTail, type LeanTailRow } from "@/components/PoliticalLeanTail";
 import { PoliticalMap, type PoliticalDot } from "@/components/PoliticalMap";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const dynamic = "force-static";
 
@@ -33,7 +31,7 @@ export const metadata: Metadata = {
   title: "Political leaning of French cities · 2026 ranking",
   description:
     "Estimated political leaning of 540 French cities based on the 2022 presidential first round (Ministry of the Interior). Ranked city by city: left, centre, right, far right.",
-  alternates: { canonical: `${EN_BASE}/political-leaning` },
+  alternates: pathAlternatesEn("/orientation-politique", "/political-leaning"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

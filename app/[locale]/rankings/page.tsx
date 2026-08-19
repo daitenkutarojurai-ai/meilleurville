@@ -5,16 +5,14 @@ import { Footer } from "@/components/Footer";
 import { RANKING_META } from "@/lib/rankings";
 import { RANKINGS_COUNT } from "@/lib/site-stats";
 import { rankingEn } from "@/lib/rankings-en";
-import { t, ORIGIN_BY_LOCALE } from "@/lib/i18n";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
+import { t, pathAlternatesEn } from "@/lib/i18n";
 
 // Le compteur est dérivé, pas écrit à la main : la page annonçait 13 thèmes
 // pour 19 classements réellement rendus juste en dessous.
 export const metadata: Metadata = {
   title: `French city rankings · ${RANKINGS_COUNT} themed leaderboards`,
   description: `Independent rankings of French cities across ${RANKINGS_COUNT} themes (remote work, families, retirees, climate, cycling, seaside living…). Calibrated on official data — Insee, SSMSI, observatoires des loyers.`,
-  alternates: { canonical: `${EN_BASE}/rankings` },
+  alternates: pathAlternatesEn("/classements", "/rankings"),
 };
 
 export default function EnRankingsIndex() {

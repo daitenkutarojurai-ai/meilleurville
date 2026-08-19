@@ -4,15 +4,13 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { VillesSearch } from "@/components/VillesSearch";
 import { CITIES_LIGHT, LEAN_META } from "@/lib/cities-light";
-import { t, ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { t, pathAlternatesEn } from "@/lib/i18n";
 import { CITIES_COUNT } from "@/lib/site-stats";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const metadata: Metadata = {
   title: "Explore every French city · Reviews & 2026 rankings",
   description: `${CITIES_COUNT} French cities profiled with calibrated quality-of-life scores (Insee + Ministry of Interior), resident reviews, and detailed local data. Filter by region, lifestyle, terrain and more.`,
-  alternates: { canonical: `${EN_BASE}/cities` },
+  alternates: pathAlternatesEn("/villes", "/cities"),
 };
 
 export default function EnCitiesIndex() {

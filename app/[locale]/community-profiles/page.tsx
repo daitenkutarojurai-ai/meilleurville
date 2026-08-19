@@ -5,11 +5,9 @@ import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { computeNicheScores } from "@/lib/niche-scores";
 import { scoreColor } from "@/lib/utils";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ArrowRight, ChevronRight } from "lucide-react";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -25,7 +23,7 @@ export async function generateMetadata(): Promise<Metadata> {
     title: "Community profiles — who's moving to French cities and why · 2026",
     description:
       "6 fictional profiles illustrating the main relocation patterns inside France: remote workers, retirees, students, families, expats, nature lovers. Real compatibility scores per city.",
-    alternates: { canonical: `${EN_BASE}/community-profiles` },
+    alternates: pathAlternatesEn("/portraits-types", "/community-profiles"),
   };
 }
 

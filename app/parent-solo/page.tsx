@@ -11,6 +11,7 @@ import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
 import { Users, ChevronRight } from "lucide-react";
+import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 
@@ -61,7 +62,7 @@ export const metadata: Metadata = {
   title: "Parent solo : les villes qui tiennent en 2026",
   description:
     "Top 30 villes françaises où la vie de parent solo tient : coût, transports, écoles, sécurité. Composite 4 axes pondérés, mêmes poids que City Match, budget T3 estimé.",
-  alternates: { canonical: "/parent-solo" },
+  alternates: pathAlternates("/parent-solo", "/single-parent"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/Badge";
 import { EnGlobalSearch } from "@/components/EnGlobalSearch";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { EN_GUIDES } from "@/data/guides-en";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -13,12 +13,10 @@ export async function generateStaticParams() {
 
 export const revalidate = false;
 
-const EN_BASE = ORIGIN_BY_LOCALE.en;
-
 export const metadata: Metadata = {
   title: "Search — cities, guides, glossary · BestCitiesInFrance",
   description: `Search across all cities, guides and glossary terms on BestCitiesInFrance. Find the right French city or relocation guide in one place.`,
-  alternates: { canonical: `${EN_BASE}/search` },
+  alternates: pathAlternatesEn("/recherche", "/search"),
 };
 
 const GLOSSARY_INDEX = [

@@ -6,12 +6,13 @@ import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { CommentSection } from "@/components/CommentSection";
 import { ContactForm } from "./ContactForm";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Contact",
   description:
     "Contactez l'équipe MaVilleIdéale : signaler une erreur, proposer une ville, partenariat presse ou data.",
-  alternates: { canonical: "/contact" },
+  alternates: pathAlternates("/contact", "/contact"),
 };
 
 export default function ContactPage() {

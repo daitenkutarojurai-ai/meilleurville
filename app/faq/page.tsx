@@ -5,11 +5,12 @@ import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { StaticPageCrossLink } from "@/components/StaticPageCrossLink";
 import { CITIES_COUNT, REGIONS_COUNT, DEPARTMENTS_COUNT } from "@/lib/site-stats";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "FAQ · Questions fréquentes",
   description: "Réponses aux questions fréquentes sur MaVilleIdéale : comment sont calculés les scores, comment contribuer, comment marche le quiz et le comparateur.",
-  alternates: { canonical: "/faq" },
+  alternates: pathAlternates("/faq", "/faq"),
 };
 
 const FAQ_SECTIONS = [

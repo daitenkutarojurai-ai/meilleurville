@@ -8,12 +8,13 @@ import { comparePairSlug } from "@/lib/comparer-pairs";
 import Link from "next/link";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { hubTitle } from "@/lib/brand";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: hubTitle("Comparer des villes"),
   description:
     "Comparez deux ou trois villes françaises côte à côte : qualité de vie, coût, transport, nature, sécurité, écoles. Outil de comparaison gratuit.",
-  alternates: { canonical: "/comparer" },
+  alternates: pathAlternates("/comparer", "/compare"),
 };
 
 const comparerBreadcrumb = breadcrumbJsonLd([

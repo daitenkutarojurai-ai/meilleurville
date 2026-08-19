@@ -16,12 +16,10 @@ import {
   type CommerceLevel,
 } from "@/lib/commerce";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 type Props = { params: Promise<{ locale: string; macroregion: string }> };
 
@@ -66,7 +64,7 @@ export async function generateMetadata({
   return {
     title: `Retail coverage · ${label} 2026`,
     description: `Retail offer across ${label} cities: density, markets & proximity, big-box, downtown vitality. Editorial ranking derived from INSEE / Procos.`,
-    alternates: { canonical: `${EN_BASE}/retail-coverage/${macro.slug}` },
+    alternates: pathAlternatesEn(`/commerces/${macro.slug}`, `/retail-coverage/${macro.slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

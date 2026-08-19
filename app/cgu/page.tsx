@@ -2,11 +2,12 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Conditions Générales d'Utilisation",
   description: "CGU de MaVilleIdéale : règles d'utilisation du service, avis, abonnements, propriété intellectuelle.",
-  alternates: { canonical: "/cgu" },
+  alternates: pathAlternates("/cgu", "/terms"),
 };
 
 const SECTIONS = [

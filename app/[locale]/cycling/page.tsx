@@ -8,7 +8,7 @@ import { CYCLING_LEVEL_COLOR } from "@/lib/cycling-mobility";
 import { topCyclable, topNonCyclable } from "@/lib/cycling-mobility-rankings";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 
 export async function generateStaticParams() {
@@ -17,13 +17,11 @@ export async function generateStaticParams() {
 
 export const revalidate = false;
 
-const EN_BASE = ORIGIN_BY_LOCALE.en;
-
 export const metadata: Metadata = {
   title: "Most cycle-friendly cities in France · 2026 ranking",
   description:
     "National ranking of French cities by everyday cyclability: cycle network, topography, safety, climate. Top 30 most cycle-friendly cities vs top 20 most challenging. Sources: FUB · Vélo & Territoires · Géovélo.",
-  alternates: { canonical: `${EN_BASE}/cycling` },
+  alternates: pathAlternatesEn("/velo", "/cycling"),
 };
 
 const EN_MACRO_LABEL: Record<string, string> = {

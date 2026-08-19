@@ -9,6 +9,7 @@ import { CITIES_LIGHT } from "@/lib/cities-light";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
+import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
   title: "Tension locative en France · palmarès 2026 par ville",
   description:
     "Où est-il difficile ou facile de se loger en France ? Top 30 villes au marché locatif le plus tendu vs. top 20 détendues, avec loyers T2 de référence.",
-  alternates: { canonical: "/tension-locative" },
+  alternates: pathAlternates("/tension-locative", "/rental-tension"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

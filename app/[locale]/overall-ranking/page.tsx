@@ -12,7 +12,7 @@ import {
 } from "@/lib/city-synthesis";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 
 export async function generateStaticParams() {
@@ -21,12 +21,10 @@ export async function generateStaticParams() {
 
 export const revalidate = false;
 
-const EN_BASE = ORIGIN_BY_LOCALE.en;
-
 export const metadata: Metadata = {
   title: `Overall ranking 2026 · Best quality of life in France across all dimensions`,
   description: `National ranking of ${CITIES_COUNT} French cities across 8 data dimensions (environment, healthcare, employment, quality of life, cycling, safety, demographics, public services). Top 30 most favourable profiles vs top 20 most strained.`,
-  alternates: { canonical: `${EN_BASE}/overall-ranking` },
+  alternates: pathAlternatesEn("/palmares", "/overall-ranking"),
 };
 
 const EN_MACRO_LABEL: Record<string, string> = {

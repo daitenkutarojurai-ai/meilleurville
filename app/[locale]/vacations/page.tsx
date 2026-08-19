@@ -19,7 +19,7 @@ import {
 } from "@/lib/vacation-fit";
 import { EN_PROFILE_LABEL, enWhyLine } from "@/lib/vacation-en";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
 import { MapPin, ChevronRight, Calendar, Sparkles } from "lucide-react";
 
 export const revalidate = false;
@@ -29,7 +29,7 @@ const EN_BASE = ORIGIN_BY_LOCALE.en;
 export const metadata: Metadata = {
   title: "Where to go on holiday in France 2026 · month-by-month guide",
   description: `Best time, best destination. Honest rankings of ${CITIES_COUNT} French cities for your holiday: beach, mountains, city breaks, wine regions. Real climate data + crowd levels + budget.`,
-  alternates: { canonical: `${EN_BASE}/vacations` },
+  alternates: pathAlternatesEn("/vacances", "/vacations"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

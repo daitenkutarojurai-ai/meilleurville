@@ -2,16 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 import { CITIES_COUNT, GUIDES_COUNT, RANKINGS_COUNT } from "@/lib/site-stats";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const metadata: Metadata = {
   title: "About · BestCitiesInFrance",
   description:
     "BestCitiesInFrance is the English-language reference for choosing where to live in France. Independent rankings, resident reviews, no fluff.",
-  alternates: { canonical: `${EN_BASE}/about` },
+  alternates: pathAlternatesEn("/about", "/about"),
 };
 
 export default function EnAbout() {

@@ -5,9 +5,7 @@ import { Badge } from "@/components/ui/Badge";
 import { TimelapseClient } from "@/app/climat-2040-timelapse/TimelapseClient";
 import { CITIES_LIGHT_METRO } from "@/lib/cities-light";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -19,7 +17,7 @@ export const metadata: Metadata = {
   title: "Climate 2040 Timelapse — France warming year by year",
   description:
     "Scrub from 2026 to 2040 and watch France warm in real time. ARPEGE/IPCC-interpolated projection by macro-region, across 352 cities.",
-  alternates: { canonical: `${EN_BASE}/climate-2040-timelapse` },
+  alternates: pathAlternatesEn("/climat-2040-timelapse", "/climate-2040-timelapse"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

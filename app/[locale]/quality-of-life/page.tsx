@@ -8,7 +8,7 @@ import { QOL_LEVEL_COLOR } from "@/lib/quality-of-life-index";
 import { topBestQol, topWorstQol } from "@/lib/quality-of-life-index-rankings";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 
 export async function generateStaticParams() {
@@ -17,12 +17,10 @@ export async function generateStaticParams() {
 
 export const revalidate = false;
 
-const EN_BASE = ORIGIN_BY_LOCALE.en;
-
 export const metadata: Metadata = {
   title: "Best quality of life in France · Composite index 2026",
   description: `Quality-of-life mega-index aggregating environment (air, noise, water, risks), healthcare access and job market for all ${CITIES_COUNT} French cities. Top 30 cities for quality of life.`,
-  alternates: { canonical: `${EN_BASE}/quality-of-life` },
+  alternates: pathAlternatesEn("/cadre-de-vie", "/quality-of-life"),
 };
 
 const EN_MACRO_LABEL: Record<string, string> = {

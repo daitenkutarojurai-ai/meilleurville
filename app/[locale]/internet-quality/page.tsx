@@ -13,7 +13,7 @@ import { CITIES_LIGHT } from "@/lib/cities-light";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -21,13 +21,11 @@ export async function generateStaticParams() {
 
 export const revalidate = false;
 
-const EN_BASE = ORIGIN_BY_LOCALE.en;
-
 export const metadata: Metadata = {
   title: "Fibre & internet coverage in France · 2026 ranking by city",
   description:
     "Where fibre is widely deployed in France and where the connection is still patchy. Top 30 best-connected cities vs top 20 worst — ARCEP Q4 2024 data.",
-  alternates: { canonical: `${EN_BASE}/internet-quality` },
+  alternates: pathAlternatesEn("/internet", "/internet-quality"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

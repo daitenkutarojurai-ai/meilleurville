@@ -8,7 +8,7 @@ import { ENV_LEVEL_COLOR } from "@/lib/environment-index";
 import { topHealthiest, topMostStressed } from "@/lib/environment-index-rankings";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 
 export async function generateStaticParams() {
@@ -17,13 +17,11 @@ export async function generateStaticParams() {
 
 export const revalidate = false;
 
-const EN_BASE = ORIGIN_BY_LOCALE.en;
-
 export const metadata: Metadata = {
   title: "Healthiest cities in France · environmental index 2026",
   description:
     "National ranking of French cities by environmental health: air quality, noise, water stress, natural risks. Top 30 healthiest cities + top 20 most exposed. Open methodology.",
-  alternates: { canonical: `${EN_BASE}/environment` },
+  alternates: pathAlternatesEn("/environnement", "/environment"),
 };
 
 const EN_MACRO_LABEL: Record<string, string> = {

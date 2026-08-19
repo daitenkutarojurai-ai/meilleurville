@@ -2,15 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Methodology · How we rank French cities",
   description:
     "Full transparency on how BestCitiesInFrance computes scores: 8 axes, weighted aggregation, worst-axis penalty, data sources, calibration, and editorial overrides.",
-  alternates: { canonical: `${EN_BASE}/methodology` },
+  alternates: pathAlternatesEn("/methode", "/methodology"),
 };
 
 export default function EnMethodology() {

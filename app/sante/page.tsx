@@ -9,6 +9,7 @@ import { topBestAccess, topDeserts } from "@/lib/healthcare-access-rankings";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
+import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
   title: "Accès aux soins en France · meilleurs hôpitaux vs. déserts médicaux 2026",
   description:
     "Classement national des villes françaises selon l'accès aux soins : médecins généralistes, spécialistes, urgences, pharmacies. Top 30 villes meilleur accès vs. top 20 désert médical. Sources DREES / CNOM / ARS.",
-  alternates: { canonical: "/sante" },
+  alternates: pathAlternates("/sante", "/healthcare"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

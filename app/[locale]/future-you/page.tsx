@@ -6,9 +6,7 @@ import { Badge } from "@/components/ui/Badge";
 import { FutureYouClient } from "@/app/future-you/FutureYouClient";
 import { CITIES_LIGHT } from "@/lib/cities-light";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -20,7 +18,7 @@ export const metadata: Metadata = {
   title: "Future You — your life in another French city, in numbers",
   description:
     "Salary, household, lifestyle, priorities: simulate monthly leftover, free hours per week, stress level, and climate match in your top 3 French cities.",
-  alternates: { canonical: `${EN_BASE}/future-you` },
+  alternates: pathAlternatesEn("/future-you", "/future-you"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

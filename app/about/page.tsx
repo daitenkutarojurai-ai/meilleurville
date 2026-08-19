@@ -5,12 +5,13 @@ import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "À propos",
   description:
     "Découvrez la mission de MaVilleIdéale : aider chaque Français à trouver la ville faite pour lui, avec des données réelles et des avis honnêtes.",
-  alternates: { canonical: "/about" },
+  alternates: pathAlternates("/about", "/about"),
 };
 
 const aboutBreadcrumb = breadcrumbJsonLd([

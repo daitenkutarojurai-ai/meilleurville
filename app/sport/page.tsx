@@ -9,6 +9,7 @@ import { topSportFriendly, bottomSportFriendly } from "@/lib/sport-leisure-ranki
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
+import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
   title: "Villes sportives en France · palmarès 2026",
   description:
     "Classement national des villes françaises selon la pratique sportive quotidienne : équipements, cadre outdoor, vie associative, climat. Top 30 villes les plus sportives vs. top 20 les moins propices.",
-  alternates: { canonical: "/sport" },
+  alternates: pathAlternates("/sport", "/sport"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

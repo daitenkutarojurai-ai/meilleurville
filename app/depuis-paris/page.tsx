@@ -6,11 +6,12 @@ import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { parisCommuteAll } from "@/lib/paris-commute-rankings";
 import { scoreColor, formatScore } from "@/lib/utils";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Les villes les plus accessibles depuis Paris en train · Classement 2026",
   description: "Temps de trajet ferroviaire Paris ↔ chaque ville française. Top villes < 1 h, < 2 h, < 3 h depuis Paris-gares. Idéal télétravailleurs et week-end commuters.",
-  alternates: { canonical: "/depuis-paris" },
+  alternates: pathAlternates("/depuis-paris", "/from-paris"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

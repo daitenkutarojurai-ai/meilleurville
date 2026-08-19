@@ -9,6 +9,7 @@ import { CITIES_LIGHT } from "@/lib/cities-light";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
+import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
   title: "Couverture fibre · palmarès internet par ville 2026",
   description:
     "Où la fibre est largement déployée et où elle manque encore en France. Top 30 villes les mieux connectées vs top 20 les moins bien fibrées, données ARCEP T4 2024.",
-  alternates: { canonical: "/internet" },
+  alternates: pathAlternates("/internet", "/internet-quality"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

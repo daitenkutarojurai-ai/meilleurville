@@ -6,11 +6,9 @@ import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { VIBE_META, topCitiesByVibe, cityVibe } from "@/lib/vibe";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 import type { VibeTone } from "@/lib/vibe";
 import type { CitySeed } from "@/data/cities-seed";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -22,7 +20,7 @@ export const metadata: Metadata = {
   title: "City Vibe Map France — energy & atmosphere by city",
   description:
     "Which energy does each French city give off? Calm, lively, festive, restorative, intense — 352 cities ranked by atmosphere. Deterministic estimates, not real-time data.",
-  alternates: { canonical: `${EN_BASE}/vibe` },
+  alternates: pathAlternatesEn("/vibe", "/vibe"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

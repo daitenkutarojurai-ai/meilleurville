@@ -7,10 +7,8 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { Badge } from "@/components/ui/Badge";
 import { CompatibilityQuizEN } from "@/components/CompatibilityQuizEN";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 import { CITIES_SEED } from "@/data/cities-seed";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -19,7 +17,7 @@ export async function generateStaticParams() {
 export const metadata: Metadata = {
   title: "City compatibility quiz · France | BestCitiesInFrance",
   description: `10 questions about your budget, climate preference, family situation, work style and lifestyle priorities. Algorithm calibrated across ${CITIES_SEED.length} French cities. Top 5 results with a % score and per-criterion breakdown.`,
-  alternates: { canonical: `${EN_BASE}/quiz/compatibility` },
+  alternates: pathAlternatesEn("/quiz-compatibilite", "/quiz/compatibility"),
 };
 
 const breadcrumb = breadcrumbJsonLd([

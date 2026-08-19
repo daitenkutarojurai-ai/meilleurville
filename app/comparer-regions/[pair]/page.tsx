@@ -18,6 +18,7 @@ import {
 } from "@/lib/regions";
 import { scoreColor, scoreHex, sunshineDays } from "@/lib/utils";
 import { clampMeta } from "@/lib/brand";
+import { pathAlternates } from "@/lib/i18n";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -81,7 +82,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${a} vs ${b} · Comparatif régions 2026`,
     description: clampMeta(`Comparaison complète entre ${a} et ${b} : coût de la vie, climat, immobilier, scores qualité de vie, meilleures villes. Données calibrées sur les ${CITIES_COUNT} villes du site.`),
-    alternates: { canonical: `/comparer-regions/${pair}` },
+    alternates: pathAlternates(`/comparer-regions/${pair}`, `/compare-regions/${pair}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

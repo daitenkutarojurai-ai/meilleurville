@@ -13,6 +13,7 @@ import {
   CYCLING_LEVEL_COLOR,
 } from "@/lib/cycling-mobility";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -30,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Villes cyclables · ${macro.label} 2026`,
     description: `Classement composite cyclabilité (réseau, relief, sécurité, climat) restreint aux villes de la macro-région ${macro.label}. Plus cyclables vs. plus difficiles à vélo.`,
-    alternates: { canonical: `/velo/${macro.slug}` },
+    alternates: pathAlternates(`/velo/${macro.slug}`, `/cycling/${macro.slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

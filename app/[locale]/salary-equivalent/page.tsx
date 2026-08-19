@@ -10,7 +10,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { HOUSING } from "@/data/housing";
 import { fiscalityForCity } from "@/lib/fiscalite";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -18,12 +18,10 @@ export async function generateStaticParams() {
 
 export const revalidate = false;
 
-const EN_BASE = ORIGIN_BY_LOCALE.en;
-
 export const metadata: Metadata = {
   title: `Salary equivalent between French cities 2026 · Disposable income calculator`,
   description: `How much do you need to earn in another French city to keep the same disposable income? Interactive calculator across ${CITIES_SEED.length} cities: rent, heating, mobility, taxes.`,
-  alternates: { canonical: `${EN_BASE}/salary-equivalent` },
+  alternates: pathAlternatesEn("/salaire-equivalent", "/salary-equivalent"),
 };
 
 const breadcrumb = breadcrumbJsonLd([

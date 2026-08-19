@@ -9,6 +9,7 @@ import { topMostDynamic, topMostAgeing } from "@/lib/demography-rankings";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
+import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
   title: "Démographie en France · villes dynamiques vs. vieillissantes 2026",
   description:
     "Classement national INSEE des villes françaises selon le profil démographique : vieillissement, attractivité jeunes actifs, trajectoire pop, renouvellement. Top 30 dynamiques vs. top 20 critiques.",
-  alternates: { canonical: "/demographie" },
+  alternates: pathAlternates("/demographie", "/demographics"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

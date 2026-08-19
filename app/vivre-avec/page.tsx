@@ -7,12 +7,13 @@ import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { SALARY_BRACKETS, slugForSalary } from "@/lib/vivre-avec";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Vivre avec X €/mois en France 2026 · Top villes par salaire",
   description:
     "Top villes françaises adaptées à votre salaire net mensuel : 1 500, 2 000, 2 500, 3 000, 4 000, 5 000 €. Simulation reste à vivre + comparatif Paris.",
-  alternates: { canonical: "/vivre-avec" },
+  alternates: pathAlternates("/vivre-avec", "/living-on"),
 };
 
 const breadcrumb = breadcrumbJsonLd([

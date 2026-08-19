@@ -9,9 +9,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { HOUSING } from "@/data/housing";
 import { computeGentrification, rankGentrification } from "@/lib/gentrification";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -73,7 +71,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Gentrification in ${city.name} 2026 · ${traj.label} · Score ${row.score.toFixed(0)}/100`,
     description: `${city.name}: ${traj.label.toLowerCase()} trajectory (composite score ${row.score.toFixed(1)}/100). 4 signals: property prices, 25–35 demographics, new openings, remote-worker influx.`,
-    alternates: { canonical: `${EN_BASE}/gentrification/${slug}` },
+    alternates: pathAlternatesEn(`/gentrification/${slug}`, `/gentrification/${slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

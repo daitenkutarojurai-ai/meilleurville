@@ -1,16 +1,14 @@
 import type { Metadata } from "next";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 import { CITIES_COUNT, GUIDES_COUNT, RANKINGS_COUNT } from "@/lib/site-stats";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const metadata: Metadata = {
   title: "FAQ · BestCitiesInFrance",
   description:
     "Answers to common questions about our French city rankings: methodology, data sources, score updates, editorial independence.",
-  alternates: { canonical: `${EN_BASE}/faq` },
+  alternates: pathAlternatesEn("/faq", "/faq"),
 };
 
 const FAQ: { q: string; a: string }[] = [

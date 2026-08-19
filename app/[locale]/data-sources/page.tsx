@@ -5,7 +5,7 @@ import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
 import { CITIES_SEED } from "@/data/cities-seed";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -13,13 +13,11 @@ export async function generateStaticParams() {
 
 export const revalidate = false;
 
-const EN_BASE = ORIGIN_BY_LOCALE.en;
-
 export const metadata: Metadata = {
   title: "Data & Sources · BestCitiesInFrance",
   description:
     "Full transparency on BestCitiesInFrance data sources: INSEE, Open Data, resident reviews. Everything is documented and verifiable.",
-  alternates: { canonical: `${EN_BASE}/data-sources` },
+  alternates: pathAlternatesEn("/donnees", "/data-sources"),
 };
 
 const SOURCES = [

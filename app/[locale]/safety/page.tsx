@@ -8,7 +8,7 @@ import { SAFETY_LEVEL_LABEL, SAFETY_LEVEL_COLOR } from "@/lib/safety-deep";
 import { topSafest, topMostStressed } from "@/lib/safety-deep-rankings";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 
 export const revalidate = false;
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   title: "Safety in France · 2026 ranking — safest cities vs most strained",
   description:
     "National ranking of French cities by safety: crime rates, vandalism, domestic violence. Top 30 safest cities vs top 20 most strained. Sources: SSMSI / Ministry of Interior.",
-  alternates: { canonical: `${EN_BASE}/safety` },
+  alternates: pathAlternatesEn("/securite", "/safety"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

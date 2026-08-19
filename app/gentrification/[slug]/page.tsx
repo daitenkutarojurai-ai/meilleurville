@@ -9,6 +9,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { HOUSING } from "@/data/housing";
 import { computeGentrification, rankGentrification, TRAJECTORY_META } from "@/lib/gentrification";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -30,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Gentrification ${city.name} 2026 · ${traj.label} · Score ${row.score.toFixed(0)}/100`,
     description: `${city.name} : trajectoire ${traj.label.toLowerCase()} (score ${row.score.toFixed(1)}/100). Évolution prix immobilier, démographie 25-35 ans, ouvertures et télétravailleurs. Analyse complète.`,
-    alternates: { canonical: `/gentrification/${slug}` },
+    alternates: pathAlternates(`/gentrification/${slug}`, `/gentrification/${slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

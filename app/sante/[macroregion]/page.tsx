@@ -13,6 +13,7 @@ import {
   HEALTH_LEVEL_COLOR,
 } from "@/lib/healthcare-access";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -30,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Accès aux soins · ${macro.label} 2026`,
     description: `Classement composite accès aux soins (médecins, spécialistes, urgences, pharmacies) restreint aux villes de la macro-région ${macro.label}. Meilleur accès vs. déserts médicaux.`,
-    alternates: { canonical: `/sante/${macro.slug}` },
+    alternates: pathAlternates(`/sante/${macro.slug}`, `/healthcare/${macro.slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

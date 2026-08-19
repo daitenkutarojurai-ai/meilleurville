@@ -5,12 +5,13 @@ import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { StaticPageCrossLink } from "@/components/StaticPageCrossLink";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Calendrier immobilier 2026 · acheter, vendre, déménager",
   description:
     "Meilleurs mois pour acheter, vendre, louer ou déménager en France. Saisonnalité du marché immobilier, locations étudiantes, prix au m² mois par mois.",
-  alternates: { canonical: "/calendrier-immobilier" },
+  alternates: pathAlternates("/calendrier-immobilier", "/property-calendar"),
 };
 
 type Month = {

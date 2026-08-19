@@ -2,12 +2,13 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Politique de confidentialité",
   description:
     "Données collectées, cookies, liens d'affiliation, droits RGPD : politique de confidentialité de MaVilleIdéale.",
-  alternates: { canonical: "/confidentialite" },
+  alternates: pathAlternates("/confidentialite", "/privacy-policy"),
 };
 
 const SECTIONS = [

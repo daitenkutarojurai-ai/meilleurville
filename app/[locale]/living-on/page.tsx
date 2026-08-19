@@ -6,7 +6,7 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { Badge } from "@/components/ui/Badge";
 import { SALARY_BRACKETS, slugForSalary } from "@/lib/vivre-avec";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -14,13 +14,11 @@ export async function generateStaticParams() {
 
 export const revalidate = false;
 
-const EN_BASE = ORIGIN_BY_LOCALE.en;
-
 export const metadata: Metadata = {
   title: "Living in France on X €/month 2026 · Top cities by salary bracket",
   description:
     "Best French cities for your net monthly salary: 1,500, 2,000, 2,500, 3,000, 4,000, 5,000 €. Disposable income simulation + Paris comparison.",
-  alternates: { canonical: `${EN_BASE}/living-on` },
+  alternates: pathAlternatesEn("/vivre-avec", "/living-on"),
 };
 
 const breadcrumb = breadcrumbJsonLd([

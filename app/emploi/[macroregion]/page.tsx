@@ -13,6 +13,7 @@ import {
   JOB_LEVEL_COLOR,
 } from "@/lib/employment-market";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -30,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Marché de l'emploi · ${macro.label} 2026`,
     description: `Classement composite marché du travail (chômage, salaire, dynamisme, mix) restreint aux villes de la macro-région ${macro.label}. Marché favorable vs. sinistré.`,
-    alternates: { canonical: `/emploi/${macro.slug}` },
+    alternates: pathAlternates(`/emploi/${macro.slug}`, `/employment/${macro.slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

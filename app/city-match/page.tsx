@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/Badge";
 import { CityMatchQuiz } from "./CityMatchQuiz";
 import { CITIES_LIGHT } from "@/lib/cities-light";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   title: "City Match — quelle ville française vous correspond vraiment ?",
   description:
     "8 questions, 90 secondes : on calcule votre match personnel parmi 540 villes françaises. Top 3 + match surprise, classement live à chaque réponse, lien partageable.",
-  alternates: { canonical: "/city-match" },
+  alternates: pathAlternates("/city-match", "/city-match"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

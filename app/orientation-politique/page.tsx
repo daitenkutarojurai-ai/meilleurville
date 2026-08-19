@@ -19,6 +19,7 @@ import {
 import { inMetropolitanBox, project } from "@/lib/france-map-geo";
 import { PoliticalLeanTail, type LeanTailRow } from "@/components/PoliticalLeanTail";
 import { PoliticalMap, type PoliticalDot } from "@/components/PoliticalMap";
+import { pathAlternates } from "@/lib/i18n";
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
 
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
   title: "Orientation politique des villes françaises · Carte et classement 2026",
   description:
     "Carte et classement de l'orientation politique de 540 villes françaises d'après le 1er tour de la présidentielle 2022 (Ministère de l'Intérieur) : gauche, centre, extrême droite.",
-  alternates: { canonical: "/orientation-politique" },
+  alternates: pathAlternates("/orientation-politique", "/political-leaning"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

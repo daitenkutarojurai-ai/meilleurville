@@ -2,16 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 import { ContactForm } from "./ContactForm";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const metadata: Metadata = {
   title: "Contact · BestCitiesInFrance",
   description:
     "Get in touch with BestCitiesInFrance — feedback on rankings, data corrections, partnerships, or just a question about France.",
-  alternates: { canonical: `${EN_BASE}/contact` },
+  alternates: pathAlternatesEn("/contact", "/contact"),
 };
 
 export default function EnContact() {

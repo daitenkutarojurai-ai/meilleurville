@@ -5,12 +5,13 @@ import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Données & Sources",
   description:
     "Transparence totale sur les sources de données MaVilleIdéale : INSEE, Open Data, avis habitants. Tout est documenté et téléchargeable.",
-  alternates: { canonical: "/donnees" },
+  alternates: pathAlternates("/donnees", "/data-sources"),
 };
 
 const SOURCES = [

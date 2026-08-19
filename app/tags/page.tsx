@@ -6,12 +6,13 @@ import { Badge } from "@/components/ui/Badge";
 import { getAllTagsWithCounts } from "@/lib/guide-tags";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { GUIDES_COUNT } from "@/lib/site-stats";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Tous les tags · Index thématique des guides",
   description:
     "Index complet des tags MaVilleIdéale. Parcourez les guides par thème : télétravail, déménagement, immobilier, ville par ville, climat, mobilité...",
-  alternates: { canonical: "/tags" },
+  alternates: pathAlternates("/tags", "/tags"),
 };
 
 export default function TagsIndexPage() {

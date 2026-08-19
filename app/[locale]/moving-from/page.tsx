@@ -6,9 +6,7 @@ import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { QUITTER_PAIRS, buildQuitterPairData } from "@/lib/quitter-pairs";
 import { CITIES_COUNT } from "@/lib/site-stats";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export function generateStaticParams() {
   return [{ locale: "en" }];
@@ -17,7 +15,7 @@ export function generateStaticParams() {
 export const metadata: Metadata = {
   title: "Moving from one French city to another — honest comparisons 2026",
   description: `${QUITTER_PAIRS.length} origin → destination comparisons: Paris → Lyon, Marseille → Aix, Lille → Amiens, and more. Fixed costs, quality-of-life delta, and a verdict on who the move actually makes sense for.`,
-  alternates: { canonical: `${EN_BASE}/moving-from` },
+  alternates: pathAlternatesEn("/quitter", "/moving-from"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

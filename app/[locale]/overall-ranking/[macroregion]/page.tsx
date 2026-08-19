@@ -12,9 +12,7 @@ import {
   SYNTHESIS_LEVEL_COLOR,
 } from "@/lib/city-synthesis";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -60,7 +58,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Overall ranking · ${label} 2026 — quality of life across all dimensions`,
     description: `Composite ranking of cities in the ${label} macro-region across 8 data dimensions: environment, healthcare, employment, quality of life, cycling, safety, demographics, public services. 10 = excellent.`,
-    alternates: { canonical: `${EN_BASE}/overall-ranking/${macro.slug}` },
+    alternates: pathAlternatesEn(`/palmares/${macro.slug}`, `/overall-ranking/${macro.slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

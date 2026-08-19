@@ -6,6 +6,7 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
+import { pathAlternates } from "@/lib/i18n";
 import {
   cityParks,
   sortedParks,
@@ -28,7 +29,7 @@ const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.
 export const metadata: Metadata = {
   title: `Parcs & espaces verts · ${PARKS_TOTAL} parcs dans ${PARKS_CITY_COUNT} villes`,
   description: `Les parcs, jardins publics et aires de jeux de ${PARKS_CITY_COUNT} villes françaises, référencés sur OpenStreetMap. Aire de jeux, accessibilité poussette, point d'eau — de quoi changer de parc ce week-end.`,
-  alternates: { canonical: "/parcs" },
+  alternates: pathAlternates("/parcs", "/parks"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

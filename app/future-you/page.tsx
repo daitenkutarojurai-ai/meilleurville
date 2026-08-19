@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/Badge";
 import { FutureYouClient } from "./FutureYouClient";
 import { CITIES_LIGHT } from "@/lib/cities-light";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
   title: "Future You — votre vie dans une autre ville en chiffres",
   description:
     "Salaire, foyer, mode de vie, priorités : on simule ce qu'il vous resterait chaque mois, combien d'heures libres par semaine et votre niveau de stress dans les 3 meilleures villes pour vous.",
-  alternates: { canonical: "/future-you" },
+  alternates: pathAlternates("/future-you", "/future-you"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

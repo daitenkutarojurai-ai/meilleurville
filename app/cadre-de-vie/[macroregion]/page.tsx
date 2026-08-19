@@ -13,6 +13,7 @@ import {
   QOL_LEVEL_COLOR,
 } from "@/lib/quality-of-life-index";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -30,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Meilleur cadre de vie · ${macro.label} 2026`,
     description: `Méga-index « Cadre de Vie » (environnement + santé + emploi) restreint aux villes de la macro-région ${macro.label}. Top villes pour vivre.`,
-    alternates: { canonical: `/cadre-de-vie/${macro.slug}` },
+    alternates: pathAlternates(`/cadre-de-vie/${macro.slug}`, `/quality-of-life/${macro.slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

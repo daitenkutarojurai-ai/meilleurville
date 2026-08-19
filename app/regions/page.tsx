@@ -7,12 +7,13 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { hubTitle } from "@/lib/brand";
 import { RegionFinder, type RegionEntry } from "@/components/RegionFinder";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: hubTitle("Villes par région · Régions françaises"),
   description:
     "Explorez les meilleures villes françaises région par région : Bretagne, Occitanie, PACA, Auvergne-Rhône-Alpes et plus. Scores comparés, top villes.",
-  alternates: { canonical: "/regions" },
+  alternates: pathAlternates("/regions", "/regions"),
 };
 
 const REGION_EMOJIS: Record<string, string> = {

@@ -5,7 +5,7 @@ import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -13,12 +13,10 @@ export async function generateStaticParams() {
 
 export const revalidate = false;
 
-const EN_BASE = ORIGIN_BY_LOCALE.en;
-
 export const metadata: Metadata = {
   title: `Household cost by city 2026 · ${CITIES_SEED.length} French cities`,
   description: `Monthly fixed costs for 4 household types — single, couple, family, retired — across ${CITIES_SEED.length} French cities. Rent, heating, mobility, taxes: honest medians.`,
-  alternates: { canonical: `${EN_BASE}/household-cost` },
+  alternates: pathAlternatesEn("/cout-menage", "/household-cost"),
 };
 
 export default function EnHouseholdCostIndexPage() {

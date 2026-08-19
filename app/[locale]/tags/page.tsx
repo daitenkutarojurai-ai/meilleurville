@@ -5,9 +5,7 @@ import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { getAllTagsWithCountsEn } from "@/lib/guide-tags-en";
 import { EN_GUIDES } from "@/data/guides-en";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -17,7 +15,7 @@ export const metadata: Metadata = {
   title: "All tags · Thematic index of the guides | BestCitiesInFrance",
   description:
     "Complete index of BestCitiesInFrance tags. Browse the guides by theme: remote work, moving, housing, city by city, climate, mobility...",
-  alternates: { canonical: `${EN_BASE}/tags` },
+  alternates: pathAlternatesEn("/tags", "/tags"),
 };
 
 export default function EnTagsIndexPage() {

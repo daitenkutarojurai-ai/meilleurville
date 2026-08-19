@@ -8,10 +8,8 @@ import { HEALTH_LEVEL_LABEL, HEALTH_LEVEL_COLOR, type HealthLevel } from "@/lib/
 import { topBestAccess, topDeserts } from "@/lib/healthcare-access-rankings";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
 
@@ -23,7 +21,7 @@ export const metadata: Metadata = {
   title: "Healthcare access in France · hospitals vs deserts 2026",
   description:
     "National ranking of French cities by healthcare access: GPs, specialists, A&E, pharmacies. Top 30 best-served cities vs top 20 medical deserts. Sources: DREES / CNOM / ARS.",
-  alternates: { canonical: `${EN_BASE}/healthcare` },
+  alternates: pathAlternatesEn("/sante", "/healthcare"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

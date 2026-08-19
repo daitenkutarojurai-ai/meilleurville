@@ -8,12 +8,13 @@ import { Badge } from "@/components/ui/Badge";
 import { EXPAT_COUNTRIES } from "@/lib/expat-return";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Expat retour France 2026 · Guide pratique pour rentrer",
   description:
     "18 pays d'origine (Suisse, USA, UK, Émirats, Singapour, Japon, Côte d'Ivoire…) : ce qui change côté salaire, fiscalité, santé, admin. Quiz retour inclus.",
-  alternates: { canonical: "/expat-retour" },
+  alternates: pathAlternates("/expat-retour", "/expat-return"),
 };
 
 const breadcrumb = breadcrumbJsonLd([

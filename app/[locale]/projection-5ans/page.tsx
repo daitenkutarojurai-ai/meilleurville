@@ -6,9 +6,7 @@ import { Badge } from "@/components/ui/Badge";
 import { ProjectionClient } from "@/app/projection-5ans/ProjectionClient";
 import { CITIES_LIGHT } from "@/lib/cities-light";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -20,7 +18,7 @@ export const metadata: Metadata = {
   title: "5-Year Projection — which French city in 5 years?",
   description:
     "Family, retirement, remote work, rising or falling budget — and a 2040 climate that changes everything. Find the French city that fits who you will be in 5 years, not who you are today.",
-  alternates: { canonical: `${EN_BASE}/projection-5ans` },
+  alternates: pathAlternatesEn("/projection-5ans", "/projection-5ans"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

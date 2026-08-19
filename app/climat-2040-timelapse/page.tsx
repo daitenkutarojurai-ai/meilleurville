@@ -7,6 +7,7 @@ import { Card } from "@/components/ui/Card";
 import { TimelapseClient } from "./TimelapseClient";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_LIGHT_METRO } from "@/lib/cities-light";
+import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
   title: "Climat 2040 timelapse — France année par année",
   description:
     "Faites défiler les années 2026 → 2040 et regardez la France se réchauffer en direct. Projection ARPEGE / GIEC interpolée par macro-région, sur 540 villes.",
-  alternates: { canonical: "/climat-2040-timelapse" },
+  alternates: pathAlternates("/climat-2040-timelapse", "/climate-2040-timelapse"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

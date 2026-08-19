@@ -4,12 +4,13 @@ import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { StaticPageCrossLink } from "@/components/StaticPageCrossLink";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Glossaire immobilier, aides, rénovation & école",
   description:
     "DPE, LMNP, TAEG, ZFE, APL, MaPrimeRénov', carte scolaire, IPS, cat-nat : les termes utiles pour louer, acheter, rénover, assurer ou déménager en France.",
-  alternates: { canonical: "/glossaire" },
+  alternates: pathAlternates("/glossaire", "/glossary"),
 };
 
 type Term = { term: string; def: string };

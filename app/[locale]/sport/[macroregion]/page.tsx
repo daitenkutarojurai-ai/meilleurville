@@ -12,12 +12,10 @@ import {
   SPORT_LEVEL_COLOR,
 } from "@/lib/sport-leisure";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export const revalidate = false;
 export const dynamicParams = false;
-
-const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 type Props = { params: Promise<{ locale: string; macroregion: string }> };
 
@@ -53,7 +51,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Sport-friendly cities · ${label} 2026`,
     description: `Composite sport & leisure ranking (facilities, outdoor, clubs, climate) restricted to cities in the ${label} macro-region. Most sport-friendly vs least sport-friendly.`,
-    alternates: { canonical: `${EN_BASE}/sport/${macro.slug}` },
+    alternates: pathAlternatesEn(`/sport/${macro.slug}`, `/sport/${macro.slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: "Leaderboard · Top villes France par qualité de vie",
   description:
     "Le classement global des meilleures villes françaises par qualité de vie, agrégé sur 9 critères : nature, transport, coût, sécurité, culture, écoles.",
-  alternates: { canonical: "/leaderboard" },
+  alternates: pathAlternates("/leaderboard", "/leaderboard"),
   openGraph: {
     title: "Leaderboard · Top villes France par qualité de vie",
     description: "Score global agrégé sur 9 critères de qualité de vie. Classement des meilleures villes françaises.",
@@ -27,6 +27,7 @@ const MEDAL = ["🥇", "🥈", "🥉"];
 const sorted = [...CITIES_SEED].sort((a, b) => b.scores.global - a.scores.global);
 
 import { scoreColor as scoreClass } from "@/lib/utils";
+import { pathAlternates } from "@/lib/i18n";
 
 export default function LeaderboardPage() {
   const podium = sorted.slice(0, 3);

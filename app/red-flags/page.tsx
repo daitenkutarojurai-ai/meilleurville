@@ -10,12 +10,13 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { vigilanceSummary } from "@/lib/red-flags-summary";
 import { RED_FLAG_THEMES } from "@/lib/red-flag-themes";
+import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Red Flag Radar · Signalements communautaires",
   description:
     "Découvrez les alertes et signalements communautaires : bruit, inondation, pollution, insécurité. Ce que l'annonce immobilière ne vous dit jamais.",
-  alternates: { canonical: "/red-flags" },
+  alternates: pathAlternates("/red-flags", "/red-flags"),
 };
 
 const redFlagsBreadcrumb = breadcrumbJsonLd([

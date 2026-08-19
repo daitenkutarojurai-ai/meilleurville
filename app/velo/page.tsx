@@ -9,6 +9,7 @@ import { topCyclable, topNonCyclable } from "@/lib/cycling-mobility-rankings";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
+import { pathAlternates } from "@/lib/i18n";
 
 export const revalidate = false;
 
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
   title: "Villes cyclables en France · palmarès 2026",
   description:
     "Classement national des villes françaises selon la cyclabilité quotidienne : réseau cyclable, topographie, sécurité, climat. Top 30 villes les plus cyclables vs. top 20 les plus difficiles à vélo.",
-  alternates: { canonical: "/velo" },
+  alternates: pathAlternates("/velo", "/cycling"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

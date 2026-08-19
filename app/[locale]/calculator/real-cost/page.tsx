@@ -7,7 +7,7 @@ import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { pathAlternatesEn } from "@/lib/i18n";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -15,12 +15,10 @@ export async function generateStaticParams() {
 
 export const revalidate = false;
 
-const EN_BASE = ORIGIN_BY_LOCALE.en;
-
 export const metadata: Metadata = {
   title: `Real cost of living calculator · ${CITIES_SEED.length} French cities 2026`,
   description: `Calculate the honest monthly cost of living across ${CITIES_SEED.length} French cities: median 1-bed rent, heating by climate zone, car or public transit, property tax, waste tax. Automatic comparison with Paris.`,
-  alternates: { canonical: `${EN_BASE}/calculator/real-cost` },
+  alternates: pathAlternatesEn("/calculateur-cout-reel", "/calculator/real-cost"),
 };
 
 export default function EnCalculatorRealCostIndexPage() {
