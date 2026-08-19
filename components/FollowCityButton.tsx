@@ -14,15 +14,18 @@ interface Props {
 // visitors are sent to /connexion. Replaces the old dead Supabase `alerts` path.
 export function FollowCityButton({ citySlug, cityName }: Props) {
   const [following, setFollowing] = useState(false);
-  const [loading, setLoading] = useState(true);
+  // Démarre à `false`, pas à `true` : un visiteur anonyme est le cas normal, et
+  // la bonne réponse pour lui est « Suivre ». Partir de `loading` affichait un
+  // spinner « Chargement » sous le H1 des 540 pages ville jusqu'à l'hydratation
+  // — plusieurs secondes, le temps que le JS de CityProfile arrive. On ne passe
+  // en chargement que quand il y a réellement une session à interroger.
+  const [loading, setLoading] = useState(false);
   const [email, setEmail] = useState<string | null>(null);
   const [unsubToken, setUnsubToken] = useState<string | null>(null);
 
   useEffect(() => {
-    if (!getToken()) {
-      setLoading(false);
-      return;
-    }
+    if (!getToken()) return;
+    setLoading(true);
     let cancelled = false;
     fetchMe().then(async (user) => {
       if (cancelled || !user) {

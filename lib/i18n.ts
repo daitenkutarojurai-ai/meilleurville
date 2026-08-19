@@ -296,7 +296,15 @@ const EN_TO_FR_CITY_SUB: Record<string, string> = Object.fromEntries(
 
 function langPair(frPath: string, enPath: string): Record<string, string> {
   return {
+    // Les codes de langue nus d'abord, les régionaux ensuite. `en-US` seul ne
+    // cible que les anglophones **des États-Unis** : un lecteur au Royaume-Uni,
+    // en Irlande, au Canada ou en Australie ne matche aucun alternate et
+    // retombe sur `x-default`, c'est-à-dire sur la page française. Or
+    // bestcitiesinfrance.com s'adresse d'abord à des expatriés qui ne sont pas
+    // américains. Le layout racine déclarait déjà `fr`/`en` ; les pages, non.
+    fr: `${ORIGIN_BY_LOCALE.fr}${frPath}`,
     "fr-FR": `${ORIGIN_BY_LOCALE.fr}${frPath}`,
+    en: `${ORIGIN_BY_LOCALE.en}${enPath}`,
     "en-US": `${ORIGIN_BY_LOCALE.en}${enPath}`,
     "x-default": `${ORIGIN_BY_LOCALE.fr}${frPath}`,
   };

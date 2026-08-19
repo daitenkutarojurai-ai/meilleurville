@@ -123,7 +123,7 @@ const BRAND_DISPLAY =
     </>
   ) : (
     <>
-      MaVille<span className="text-[var(--accent)]">Ideal</span>
+      MaVille<span className="text-[var(--accent)]">Idéale</span>
     </>
   );
 
