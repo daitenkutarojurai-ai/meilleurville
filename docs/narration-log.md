@@ -37,3 +37,4 @@ Les données factuelles (chiffres, scores, noms) ne sont jamais modifiées.
 - 2026-08-12 data/guides.ts :: travail-a-aix-en-provence-2026
 - 2026-08-14 data/guides.ts :: partir-en-vacances-seul-avec-ses-enfants-2026
 - 2026-08-15 data/guides.ts :: travail-a-brest-2026
+- 2026-08-19 data/guides.ts :: travail-a-nimes-2026
