@@ -27792,6 +27792,342 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["metz", "montigny-les-metz", "thionville", "saint-avold", "verdun"],
     tags: ["working in metz 2026", "working in france", "job market france", "grand-est", "metz"],
   },
+  {
+    slug: "single-parent-holidays-la-rochelle-2026",
+    title: "Single-parent holidays in La Rochelle: the week that works without a car",
+    metaTitle: "Single-Parent Holidays in La Rochelle 2026",
+    metaDesc:
+      "La Rochelle alone with the kids: 2h30 by TGV, the aquarium opposite the station, Yélo bikes, beaches by bus, and the weeks that price you out.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-19",
+    updatedAt: "2026-08-19",
+    intro:
+      "Travelling with children and no second adult changes which destinations are actually viable. Nobody shares the driving, nobody watches the bags while you buy tickets, and every extra transfer is a transfer you make alone with a tired child. La Rochelle is one of the few French seaside towns built the way that constraint needs: flat, compact, reachable in two and a half hours from Paris by TGV, with the aquarium a five-minute walk from the platform. Our scores put it at 8.1/10 for quality of life, 7.2/10 for nature and 6.5/10 for safety, on 2,190 hours of sunshine a year (source: data/cities-seed.ts). The honest counterweight is the cost axis at 4.6/10: this is not a cheap coast, and the whole game is choosing your fortnight.",
+    sections: [
+      {
+        heading: "Why it works with one adult",
+        body: "Three things line up. The town is flat and small enough that the historic centre, the Vieux Port and the first beach sit inside a twenty-minute walk of each other, so a day does not depend on anyone driving. The safety score of 6.5/10 (source: data/cities-seed.ts) is high for a tourist town on the Atlantic coast, which matters when the walk back to the flat at nine in the evening is yours alone. And the nature score of 7.2/10 reflects something specific rather than scenery: supervised swimming is reachable without a car, at the plage de la Concurrence a quarter of an hour on foot from the old port, and at the plage des Minimes by bus. The trade-off is money. At 4.6/10 on our cost axis La Rochelle is among the more expensive places in this series, and everything below is written around that.",
+      },
+      {
+        heading: "Getting there, and getting around, without hiring anything",
+        body: "The TGV runs Paris to La Rochelle in about two and a half hours on the Atlantique high-speed line, and the station sits under a kilometre from the Vieux Port — roughly ten minutes on foot with a child and a wheeled case. From there you are inside the Yélo network, the agglomération's combined buses, water shuttle and public hire bikes. La Rochelle was one of the first towns in France to run a public bike scheme, introduced in the 1970s under mayor Michel Crépeau, and the town is flat enough that a child of eight or nine can ride it. Check current Yélo fares on yelo.agglo-larochelle.fr before you travel; the access formulas have changed repeatedly over the years and no printed price survives long. Buses reach the Minimes beach and the aquarium, and in summer a boat crosses to the Île de Ré from the old port. Hiring a car only makes sense if you intend to push inland to Rochefort or Saintes.",
+      },
+      {
+        heading: "Where to stay when you are one adult, not a couple",
+        body: "The thing to understand about French accommodation is that hotels price the room, not the person, which sounds like it favours you and mostly does not: a single room is smaller and a room that sleeps you plus two children is a chambre familiale or a chambre triple, priced accordingly and scarce in high season. Three options hold up. A self-catering studio or two-room flat in Saint-Nicolas or out towards the Minimes, cheaper than the Vieux Port block, on a direct Yélo bus, with a kitchen that removes two restaurant meals a day from the budget — a bed plus a sofa bed covers one adult and one or two children with no surcharge. A mobil-home on one of the campsite-villages south of town, at Angoulins, Aytré or Châtelaillon, fifteen to twenty-five minutes by bus, where two bedrooms cost structurally less than the equivalent hotel and the larger sites run children's clubs. Or a two- or three-star hotel on the quays, but only outside July and August.",
+      },
+      {
+        heading: "The days that plan themselves",
+        body: "The point of a walkable destination is that you can abandon a plan at midday without it costing you anything. The aquarium is the anchor: about 12,000 animals, roughly two hours with a child, and five minutes from the station, which makes it the right thing to do on an arrival day or a wet one. The Musée maritime next door extends the same afternoon without touching transport again, with the France 1 weather ship to go aboard. The Vieux Port and its three towers — Chaîne, Saint-Nicolas, Lanterne — are half an hour on foot from there, sold on a combined ticket; the stairs are real but manageable from about six or seven. The covered market on rue Gambetta, open every day except Monday, is the cheapest good lunch in town and better with children than a terrace menu. The plage de la Concurrence closes the day, fifteen minutes from the port, with lifeguards in season, which is what lets one adult watch two children who swim at different levels.",
+      },
+      {
+        heading: "When to go: Zone A, and the September weekend that catches people out",
+        body: "French school holidays are staggered across three zones, and the dates rotate each year while the zones do not. La Rochelle belongs to the académie de Poitiers, which sits in Zone A. If you are living in France, that tells you when the town itself empties and when local families are away; confirm the actual dates on the official calendar at education.gouv.fr rather than on any aggregator. The wider pattern is simpler. The last fortnight of July and the first three weeks of August are the price peak and the crowd peak together, and on a single income that is the window to skip. April works for everything on land, though the sea is too cold. May and June are the sweet spot, with terraces open and pre-season rates. September collapses in price from about the fifth while the sea is still swimmable. One date to know that is not in any school calendar: the Grand Pavois boat show in mid-September fills the hotels with trade visitors and lifts rates for that weekend.",
+      },
+      {
+        heading: "Emergencies, and the holiday aid you may or may not qualify for",
+        body: "Dial 15 for a medical emergency, 112 from any mobile including a foreign one, and 116 117 for medical advice out of hours when it is not an emergency. Paediatric emergencies go to the Groupe Hospitalier La Rochelle-Ré-Aunis, reachable by bus from the centre; a pharmacie de garde is always posted in the window of any closed pharmacy. On money, France runs several holiday subsidy schemes and every one of them keys off residence rather than nationality. VACAF (vacaf.org) funds stays at approved centres and is assessed on your CAF quotient familial, so it applies if you are a CAF allocataire and not otherwise. Chèques-Vacances from ANCV (ancv.com) come through an employer, or directly for the self-employed through Chèque-Vacances Connect, and are widely accepted here. The Charente-Maritime CAF and the departmental council both run holiday grants — search caf.fr and charente-maritime.fr. No amounts are printed here: they are reset annually and depend on your bracket. If you are visiting from abroad rather than living in France, assume none of these are open to you and price the trip accordingly.",
+      },
+    ],
+    relatedCities: ["la-rochelle", "rochefort", "saintes", "niort"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "la rochelle with kids",
+      "car-free holidays france",
+      "nouvelle-aquitaine",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-strasbourg-2026",
+    title: "Single-parent holidays in Strasbourg: six tram lines and a walkable island",
+    metaTitle: "Single-Parent Holidays in Strasbourg 2026",
+    metaDesc:
+      "Strasbourg alone with the kids: 1h50 by TGV, six tram lines, a UNESCO island you cross on foot, Le Vaisseau, and how to do the Christmas markets.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-19",
+    updatedAt: "2026-08-19",
+    intro:
+      "Strasbourg is the best-engineered French city in this series for a parent travelling alone with children, and the reason is boring and decisive: the tram. Six lines, A to F, radiating from a station eight hundred metres from the Petite France, which means you never have to work out how to get home. Our scores put transport at 9.0/10 and culture at 9.0/10, with quality of life at 7.2/10 and safety at 5.3/10 (source: data/cities-seed.ts). The historic Grande Île is UNESCO-listed and crosses in about twenty minutes on foot, and the German-built Neustadt beside it was added to the listing in 2017. This guide covers what one adult can actually run in a week here, and how to handle the one period everybody wants and most should avoid.",
+    sections: [
+      {
+        heading: "Why the tram is the whole argument",
+        body: "A transport score of 9.0/10 (source: data/cities-seed.ts) is the highest band in our data, and for this trip it converts directly into something you can feel. Six tram lines mesh the city from the station out to Neudorf, the Orangerie, Robertsau, the Meinau and Cronenbourg, on frequencies that mean a tired child never has to be walked home to save a fare. The city is flat and cycleable, and the historic core is compact enough that the cathedral is visible from most of it, which gives you a landmark to navigate by and a place to agree to meet if anyone gets separated. Culture at 9.0/10 is not decorative either: it means the wet-weather plan is as strong as the sunny one, which is what you want somewhere with 1,693 hours of sunshine a year and a January averaging 2.6 °C.",
+      },
+      {
+        heading: "Arriving, and never needing a car",
+        body: "Paris to Strasbourg is about an hour and fifty minutes on the LGV Est. The station, re-roofed in glass in 2007, sits some eight hundred metres from the Petite France: twelve minutes on foot with a child, or five on tram A or D to Homme de Fer, which is the interchange everything passes through. The CTS network sells multi-day passes at the station — check current options on cts-strasbourg.eu, since fare products change. Vélhop is the municipal bike hire, with a shop at the station. A car earns its keep only if you intend to work the Alsace wine route village by village; Obernai, Sélestat and Colmar are all reachable by regional train, which is the version that works when you are the only adult and the only driver.",
+      },
+      {
+        heading: "Rooms, and the Christmas market trap",
+        body: "Three approaches hold. A self-catering studio or two-room flat in Krutenau, Neudorf or Cronenbourg costs less than the Grande Île and puts you on a direct tram, with a kitchen that takes two meals a day out of the budget. A three-star hotel on a tram axis away from the tourist core — Étoile, Rotonde, Baggersee — keeps rates sane year-round. Or the youth hostels, Ciarus and René Cassin, which have family rooms at moderate rates and include breakfast, and that last detail matters more than it sounds: breakfast included is one decision you do not have to make at seven in the morning while dressing two children. What to avoid is booking the Grande Île during the Christmas market weeks, from the last week of November to the 24th of December, when rates in the old town roughly double.",
+      },
+      {
+        heading: "A week of walking: cathedral, Vaisseau, boats, storks",
+        body: "The cathedral anchors the first day. Entry to the nave is free, the astronomical clock is demonstrated in the early afternoon, and the platform is a real climb but manageable from about eight. The Musée Alsacien is three minutes away and is an unusually good first museum for a child, being reconstructed interiors rather than cases of objects. Le Vaisseau, out on the Deux-Rives site via tram E to Winston Churchill, is the city's science museum built for three- to fifteen-year-olds and deserves a full half-day on its own. Batorama runs commentated forty-five-minute boat trips from beside the Palais Rohan, which is the move to have in reserve for the morning a child runs out of walking. The Petite France, with its canals, covered bridges and the Barrage Vauban terrace, is forty-five minutes on foot from the cathedral. The Parc de l'Orangerie, an eighteenth-century garden with a small farm and the storks, is a direct tram E ride from the station.",
+      },
+      {
+        heading: "When to go, including the honest version of the Christmas markets",
+        body: "Strasbourg is in Zone B for French school holidays, via the académie de Strasbourg; the zones are stable, the dates rotate annually, so confirm them at education.gouv.fr. Three windows work. May and June give 18–22 °C, the cathedral and the Petite France without the crush, and reasonable rates — probably the best fortnight of the year for this trip. The autumn half-term keeps the museums and the old town at their best at mid-season prices. Then the markets: the city has billed itself Capitale de Noël since 1992, with twelve markets across the Grande Île, some two hundred chalets on the place Broglie and the tree on the place Kléber. The version nobody sells you is that footfall roughly doubles in the week of the 20th of December, Grande Île hotels switch to peak rates, and the security perimeter introduced in 2018 means bag checks that slow every crossing when you are pushing a buggy. The workable answer is the first two weeks of December, Monday to Thursday, sleeping outside the island on a direct tram. Also worth checking: the European Parliament's published session calendar, which puts central hotels on business rates.",
+      },
+      {
+        heading: "Evenings, emergencies and the cold",
+        body: "Safety scores 5.3/10 (source: data/cities-seed.ts). In practice the Grande Île, the Petite France, Krutenau and the station quarter are all walkable in the evening with children. Neuhof-Meinau, the northern parts of Cronenbourg and Hautepierre vary street by street and hour by hour — not places to avoid in daylight, but not where you want to be walking a tired child home at ten at night, which is a question about where you book, not where you visit. Paediatric emergencies are at the Hôpital de Hautepierre, part of the CHU, on tram A from the centre. Dial 15 for an emergency, 112 from any mobile, 116 117 for out-of-hours advice. Two practical notes for anyone arriving from a milder climate: January averages 2.6 °C (source: data/cities-seed.ts) and the wind off the Ill makes it feel colder, so bring genuinely warm coats rather than optimistic ones; and Homme de Fer, where tram lines A, B, C, D and F meet, is the single most useful place to agree on as a meeting point.",
+      },
+    ],
+    relatedCities: ["strasbourg", "colmar", "selestat", "mulhouse"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "strasbourg with kids",
+      "christmas markets france",
+      "grand-est",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-nantes-2026",
+    title: "Single-parent holidays in Nantes: a mechanical elephant and three tram lines",
+    metaTitle: "Single-Parent Holidays in Nantes 2026",
+    metaDesc:
+      "Nantes alone with the kids: 2h05 by TGV, three tram lines and a river shuttle, the Machines de l'Île, and the June weekend to plan around.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-19",
+    updatedAt: "2026-08-19",
+    intro:
+      "Most cities ask children to be interested in adult things. Nantes has a forty-foot mechanical elephant that carries fifty passengers, and that is a genuine advantage when you are the only adult and the whole week depends on nobody getting bored at the wrong moment. The numbers behind it: transport 8.1/10, culture 7.8/10, quality of life 7.0/10, safety 4.6/10 (source: data/cities-seed.ts), with three tram lines, a dedicated high-frequency bus network and a river shuttle. Paris is two hours and five minutes away by TGV. This guide is about what one adult can actually sustain here across a week, and which dates to keep clear.",
+    sections: [
+      {
+        heading: "Why Nantes holds up with one adult",
+        body: "The transport score of 8.1/10 (source: data/cities-seed.ts) is doing the heavy lifting, and it is unusually well distributed: the TAN network's three tram lines, its Chronobus routes on dedicated lanes and the Navibus river crossings put most of what you would want within walking distance of a stop. The city is flat, cut by the Loire and the Erdre, and the centre puts the château, the Passage Pommeraye and the Île de Nantes within half an hour of each other on foot. Safety at 4.6/10 is the figure to read carefully: it is mid-table for a French metropolis of this size rather than a warning, and it is one of the better results among the ten largest. Culture at 7.8/10 and a quality-of-life score of 7.0/10 fill in the rest. Bicloo is the public bike scheme.",
+      },
+      {
+        heading: "Arriving, and moving without a car",
+        body: "Paris to Nantes runs about two hours and five minutes on the Atlantique high-speed line. The station sits some nine hundred metres from the Château des Ducs and about 1.4 kilometres from the Passage Pommeraye, a quarter of an hour on foot, or five minutes on tram T1 towards François-Mitterrand, getting off at Commerce. Buy a day or multi-day pass at the TAN shop in the station. The Navibus is worth knowing about specifically: it crosses the Loire to Trentemoult in about ten minutes and reads to a child as a boat trip rather than a commute. Day trips run on regional trains: Clisson in twenty-five minutes for the vineyards and the medieval castle, Pornic in fifty for the sea, Saint-Nazaire for the shipyards. On a Nantes-only stay a car is dead weight and an extra thing to park.",
+      },
+      {
+        heading: "Where to sleep without paying the couple rate",
+        body: "Three things work. A self-catering studio or two-room flat in Hauts-Pavés-Saint-Félix, Zola or Malakoff-Saint-Donatien, cheaper than the Bouffay block, direct tram to the centre, kitchen for two meals a day; a bed and a sofa bed cover one adult and one or two children without a supplement. A three-star hotel on a tram axis outside the historic core, either Beaulieu on the Île de Nantes on T2 or T3, or the Chantiers area on T1 — where rates stay reasonable all year. Or one of the holiday villages in the metropolitan area, at Rezé or Saint-Sébastien-sur-Loire with a direct tram, where the all-in format removes a lot of daily decision-making; ask whether they publish a single-parent family rate, since some do. What to skip on one income is a hotel in the Bouffay or by the conference centre in July and August.",
+      },
+      {
+        heading: "The Machines, the château, and the arcade",
+        body: "Give the Machines de l'Île a full morning and do not try to bolt anything onto it. The Grand Éléphant carries fifty passengers on a forty-five-minute walk and leaves roughly hourly; the Carrousel des Mondes Marins works across the whole age range, which is the useful property when your children are four years apart; and the Galerie des Machines holds the rest of the mechanical bestiary, the spider and the heron among them. Tram T1 to Chantiers Navals, twenty minutes from the centre. The afternoon walks back to the Château des Ducs de Bretagne, twenty-five minutes on foot or ten by tram: the moat is free to enter and is where local children run about, with the Musée d'Histoire de Nantes inside on a ticket, about an hour and a half. Day two is the Passage Pommeraye, a three-level nineteenth-century arcade that genuinely impresses children, then the place Royale and the quai de la Fosse. Day three, take the Navibus to Trentemoult, a painted fishing village on the far bank.",
+      },
+      {
+        heading: "When to go: Zone B, and the two events that fill the hotels",
+        body: "Nantes sits in Zone B for French school holidays; the dates move every year, the zones do not, so check education.gouv.fr. The climate is Atlantic and moderate — 1,940 hours of sunshine, July averaging 21.4 °C, January 5.4 °C (source: data/cities-seed.ts), which keeps most of the year usable. April works for the walkable heritage. May and June are the sweet spot at 18–22 °C with pre-season rates. September holds 20–22 °C and prices drop from about the fifth. The autumn half-term still works because the Machines are largely under cover, the château is interior and the Passage Pommeraye is a roof: almost the whole programme survives rain, which is not true of most destinations in this series. November is for people who already love the city. Two dates to plan around: Le Voyage à Nantes, the summer contemporary art trail from mid-June to mid-September, which is good with children but adds to the crowds, and the Hellfest weekend at Clisson in June, which saturates accommodation across the whole area.",
+      },
+      {
+        heading: "Evenings, landmarks and emergencies",
+        body: "The historic centre — Bouffay, Graslin, the Île Feydeau, the Passage Pommeraye — along with the quai de la Fosse and the Île de Nantes are walkable in the evening with children. Bellevue-La-Bottière to the north-west and Les Dervallières vary street by street; again, that is guidance about where you book a flat, not about where you spend an afternoon. Two landmarks are worth pointing out to children on the first day, because they are visible from most of the centre and make good rendezvous points if anyone gets separated: the Tour LU with its green and mauve dome on the quay, and the château. Paediatric emergencies are at the CHU de Nantes, with the Hôpital Enfant-Femme-Mère on the northern Laennec site, tram T2 then a shuttle. Dial 15 for an emergency, 112 from any mobile, 116 117 for out-of-hours advice. On funding, VACAF, ANCV Chèques-Vacances and the Loire-Atlantique CAF holiday grants all key off being a CAF allocataire rather than off nationality — a visitor from abroad should assume they do not apply.",
+      },
+    ],
+    relatedCities: ["nantes", "reze", "saint-nazaire", "angers"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "nantes with kids",
+      "machines de l'ile",
+      "pays-de-la-loire",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-rennes-2026",
+    title: "Single-parent holidays in Rennes: the base camp for Brittany without a car",
+    metaTitle: "Single-Parent Holidays in Rennes 2026",
+    metaDesc:
+      "Rennes alone with the kids: 1h25 by TGV, two metro lines, the Thabor park, and day trips to Saint-Malo, Dinan and Vitré by regional train.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-19",
+    updatedAt: "2026-08-19",
+    intro:
+      "The hardest part of a Brittany holiday without a car is not Brittany, it is the last twenty kilometres. Rennes solves that by being a hub rather than a destination: an hour and twenty-five minutes from Paris, two metro lines, and a regional rail network that puts Saint-Malo an hour away, Dinan an hour and Vitré twenty-five minutes, all as day returns. Our scores give it transport 8.1/10, quality of life 7.6/10, safety 5.9/10 and cost 5.7/10 (source: data/cities-seed.ts), a combination that is genuinely rare, because places that score well on safety usually score badly on transport. This guide covers a week built around one adult, one set of hands and no hire car.",
+    sections: [
+      {
+        heading: "Why the combination is unusual",
+        body: "Transport 8.1/10, quality of life 7.6/10, safety 5.9/10, cost 5.7/10 (source: data/cities-seed.ts). Individually none of those is remarkable; together they are, because the usual trade-off in this series is that a calm, affordable town makes you drive and a well-connected city makes you pay. Rennes has two metro lines, A opened in 2002 and B opened in 2022, covering the north, south and east, plus the STAR bus network and LE:vélo STAR public bikes. The city is compact: twenty minutes on foot takes you across Sainte-Anne, the covered market, Saint-Sauveur, the Breton parliament building and into the Thabor park. Schools score 9.0/10, which is not directly relevant to a holiday but tells you something about the kind of place it is. The real argument, though, is the rail map, and it is covered below.",
+      },
+      {
+        heading: "Arriving, and the day trips that make the week",
+        body: "Paris to Rennes is about an hour and twenty-five minutes on the Bretagne-Pays de la Loire high-speed line, into a station rebuilt in 2019 and sitting some eight hundred metres from the place de la République: ten minutes on foot, three on metro A. The two metro lines cross at Sainte-Anne and République, which is the detail that makes the network legible to someone who has never been here: you do not need to plan a route, you need to know one interchange. Then the regional trains, which are the point of basing yourself here: Saint-Malo in about an hour with near-hourly departures, Dinan in about an hour, medieval Vitré in twenty-five minutes, and Dinard by train plus bus or boat shuttle. Every one of those is a day return. A hire car only starts to pay once you want the Emerald Coast beyond Saint-Malo or the Breton interior.",
+      },
+      {
+        heading: "Rooms without the single surcharge",
+        body: "Three formats work. A self-catering studio or two-room flat in Sainte-Anne, Colombier, Fougères or Villejean, all on the metro, cheaper than a central hotel in season, with a kitchen and a sofa bed that covers one or two children at no extra charge. A three-star hotel along the République–Charles de Gaulle–Anatole France axis, five minutes' walk from the old town, where rates stay reasonable across the year. Or, on a tight budget, the youth hostel and the walkers' gîtes around the city, which have family rooms at moderate rates with breakfast included. One booking trap: in July, hotel stock across the Rennes area gets absorbed by the Vieilles Charrues festival at Carhaix, well over a hundred kilometres away, because the rail network makes Rennes a viable base for festival-goers. Rates that week are inflated for reasons that have nothing to do with Rennes.",
+      },
+      {
+        heading: "A city day, then a coast day",
+        body: "Day one is on foot. The Marché des Lices, Saturday mornings only, is one of the largest markets in France under 1922 covered halls, and it is the cheapest good lunch of the week: buy there and picnic in the Thabor, fifteen minutes away. The half-timbered streets around Sainte-Anne and the rue du Chapitre are the houses that survived the fire of 1720, and the carved beams turn navigation into a spotting game, which buys you twenty quiet minutes. The Parlement de Bretagne can be visited by booking through the tourist office. The Parc du Thabor is ten hectares in the centre — rose garden, botanical garden, bandstand, playground, aviary — and is the best free half-day in the city with children. The Musée des Beaux-Arts on the quai Émile Zola is small enough to do in an hour. Day two goes to the coast: Saint-Malo, where you can walk the complete circuit of the ramparts and drop onto the Sillon beach from them, or Dinan for the medieval town and the Rance port. Day three, the Écomusée du Pays de Rennes at Bintinais.",
+      },
+      {
+        heading: "When to go: Zone B, and a mild climate that widens the options",
+        body: "Rennes is in Zone B for school holidays, via the académie de Rennes; check the current dates at education.gouv.fr, since only the dates move. The climate does you a favour here: 1,700 hours of sunshine, July averaging 20.2 °C and January 4.8 °C (source: data/cities-seed.ts), which is oceanic and temperate rather than dramatic in either direction, so almost any month is defensible. April and May give 14–18 °C with the Thabor in flower and pre-season rates. June is the sweet spot, before the festival season and before the school holidays. September holds 18–21 °C with prices falling from about the fifth. The autumn half-term still works, since the museums and the old town do not depend on weather. December is the one month to reconsider: the Christmas market here is modest, and if that is the reason for the trip, Strasbourg is the destination. Two dates to avoid on crowds: the third weekend of June, when the Fête de la Musique and the Tombées de la Nuit festival overlap, and the Vieilles Charrues week in July.",
+      },
+      {
+        heading: "Evenings, meeting points and emergencies",
+        body: "Safety at 5.9/10 (source: data/cities-seed.ts) is among the better results for a French city of this size. The old town — Sainte-Anne, République, the place de la Mairie, the Thabor, the market halls — plus Sud-Gare and Colombier are walkable in the evening with children. Le Blosne to the south and Maurepas to the north-east vary street by street, which is a consideration when choosing a flat rather than a reason to avoid a district in daylight. For a meeting point if anyone gets separated, the place de la Mairie is the one to use: the opera house and the town hall face each other across it, it is unmistakable, and it is central. Paediatric emergencies are at the CHU de Rennes, Hôpital Sud, on metro B plus a bus. Dial 15 for an emergency, 112 from any mobile, 116 117 for out-of-hours advice. On funding, VACAF centres exist across Ille-et-Vilaine and the Emerald Coast, ANCV Chèques-Vacances are widely accepted, and the Ille-et-Vilaine CAF runs holiday grants — all of them assessed on your CAF bracket, so they follow residence in France rather than nationality.",
+      },
+    ],
+    relatedCities: ["rennes", "saint-malo", "vitre", "dinan"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "rennes with kids",
+      "brittany without a car",
+      "brittany",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-vannes-2026",
+    title: "Single-parent holidays in Vannes: ramparts, islands and a lot of walking",
+    metaTitle: "Single-Parent Holidays in Vannes 2026",
+    metaDesc:
+      "Vannes alone with the kids: 2h30 by TGV, a walled town you cross in ten minutes, boats to the Gulf islands — and the light local bus network.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-08-19",
+    updatedAt: "2026-08-19",
+    intro:
+      "Vannes has the highest safety score of any destination in this series, at 6.9/10, alongside 7.8/10 for quality of life and 7.2/10 for nature (source: data/cities-seed.ts), and it is small enough that a walled medieval centre, a marina and a railway station all sit within a kilometre of each other. That geometry is worth a great deal when you are the only adult. The honest limitation is stated up front: local transport scores 5.5/10, well below Rennes or Nantes. There is no tram and no metro. This is a town where you walk, and where the plan has to be built around that rather than around a bus timetable.",
+    sections: [
+      {
+        heading: "What the scores actually mean here",
+        body: "Safety at 6.9/10 (source: data/cities-seed.ts) is one of the strongest results in our data for a town of this size, and the practical translation is that the old town, the ramparts, the port and the station quarter are walkable in the evening with children without much thought. Nature at 7.2/10 reflects the Gulf of Morbihan on the doorstep, a regional natural park since 2014. Quality of life sits at 7.8/10. Against that, transport at 5.5/10 is the number that shapes the trip: the Kicéo bus network covers the agglomeration (Séné, Arradon, Saint-Avé) but at a frequency that suits residents rather than visitors improvising with tired children. The compensation is scale. The historic centre is about five hundred metres end to end and the station is eight hundred metres from the port, so on most days the bus is optional.",
+      },
+      {
+        heading: "Arriving, and the limits of getting around",
+        body: "Paris to Vannes takes about two and a half to two and three-quarter hours by TGV on the Bretagne line. The station is roughly eight hundred metres from the port and a kilometre from the ramparts — ten minutes on foot with a child and a wheeled case. Check Kicéo day-ticket prices on kiceo.fr before you travel rather than relying on any figure printed elsewhere. Beyond the town, the useful moves are by rail: Auray in twelve minutes, which is the gateway to Sainte-Anne-d'Auray, and Quiberon in about an hour by train plus a regional coach. Carnac and its alignments are served from Vannes by a seasonal Kicéo route. A hire car earns its place only for the Rhuys peninsula or for working the megalithic sites at your own pace, and that is a genuine decision rather than a default: a week here without one is entirely normal.",
+      },
+      {
+        heading: "Where to stay, and why the calendar decides the price",
+        body: "Accommodation here is a calendar problem more than a location problem. Two things work. A self-catering studio or two-room flat outside the walls — Ménimur, Kercado, or over at Séné with a direct Kicéo bus — where rates stay roughly stable across the year and a kitchen removes two meals a day from the budget. Or a three-star hotel on the port or the station-to-ramparts axis, but only outside July and August: between mid-July and the third week of August the Gulf is saturated and hotel pricing for one adult with children turns punitive. For the spring and autumn half-terms, the holiday villages and campsites at Sarzeau, Arzon, Séné and Baden run family mobil-home rates that undercut a hotel inside the walls, which is the single biggest saving available on this trip. One date to rule out entirely: the Semaine du Golfe, the biennial sailing week in late May of odd-numbered years, when hotels are full six months ahead.",
+      },
+      {
+        heading: "Ramparts, then boats",
+        body: "Day one is the town itself and costs almost nothing. The ramparts and the gardens beneath them make a complete circuit in about forty minutes, free, with restored washhouses below and a view over the medieval roofs. The cathédrale Saint-Pierre sits on the place Henri IV, with the half-timbered streets around it: rue Saint-Salomon, rue Noé, the place des Lices — where spotting the timber-framed façades keeps a child moving. The marina is five minutes from the old town, with boats at the quay and terraces that will have you. The Musée d'Histoire et d'Archéologie at the Château Gaillard is small, prehistoric and megalithic in focus, and does not outstay an hour. Day two is the boat: the crossing to the Île aux Moines or the Île d'Arz takes fifteen to thirty minutes depending on the departure point and the season, and gives you a picnic and a bike ride on the island with a return the same day. Day three, Carnac and the Musée de Préhistoire, which is a full day.",
+      },
+      {
+        heading: "When to go: Zone B, and why July is the wrong month",
+        body: "Vannes falls under the académie de Rennes and therefore Zone B; check the year's dates at education.gouv.fr. With 1,900 hours of sunshine, July averaging 21 °C and January 6.5 °C (source: data/cities-seed.ts), the climate is mild and the season is short and violently concentrated. April and May give 14–18 °C at pre-season rates. June is the sweet spot at 20–22 °C. September is the underrated one: the schools have gone back, prices fall from about the fifth, it is still 20–22 °C, and the sea holds 18–19 °C for another week or so. The autumn half-term drops to 12–15 °C but the ramparts, the museum and the island boats all still work at mid-season prices. What to avoid on a single income is the second half of July and the first three weeks of August, plus the Semaine du Golfe, plus the Festival Interceltique weekend at Lorient in August, which lifts prices across the southern Morbihan.",
+      },
+      {
+        heading: "Practicalities: dinner times, the wind, and help",
+        body: "Two logistics notes that catch people out. Out of season the old town closes early on weekdays, so aim to eat from half past seven, because kitchens in a seasonal town commonly stop around half past nine. And bring a proper coat even in June: the wind off the Gulf takes several degrees off the felt temperature on the port in the evening, which is exactly when you will be walking back. For medical matters, the Centre Hospitalier Bretagne Atlantique is in Vannes itself; dial 15 for an emergency, 112 from any mobile, and 116 117 for advice out of hours or at weekends. Paediatricians and GPs can be found through the health directory on ameli.fr with a geographic filter. On funding, VACAF-approved centres exist across the Morbihan at Sarzeau, Arzon, Carnac and Quiberon, ANCV Chèques-Vacances are accepted widely including on some boat crossings, and both the Morbihan CAF and the departmental council run holiday support — all assessed on your CAF quotient familial, so tied to living in France rather than to nationality.",
+      },
+    ],
+    relatedCities: ["vannes", "carnac", "lorient", "quimper"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "vannes with kids",
+      "gulf of morbihan",
+      "brittany",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-nancy-2026",
+    title: "Single-parent holidays in Nancy: a UNESCO square you can afford",
+    metaTitle: "Single-Parent Holidays in Nancy 2026",
+    metaDesc:
+      "Nancy alone with the kids: 1h30 by TGV, a UNESCO square 500 m from the station, Art Nouveau, a 23-hectare park — and the cheapest cost axis here.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-08-19",
+    updatedAt: "2026-08-19",
+    intro:
+      "Nancy is the value proposition in this series. On our cost axis it scores 6.2/10, against 5.6/10 for Strasbourg and 4.6/10 for La Rochelle, higher being cheaper, while still offering culture at 7.6/10, transport at 7.0/10 and quality of life at 6.2/10 (source: data/cities-seed.ts). The Place Stanislas has been UNESCO-listed since 1983 and sits five hundred metres from the station, the Art Nouveau of the École de Nancy is a tram ride away, and there is a twenty-three-hectare park in the middle of it all. Paris is an hour and a half by TGV. For a parent travelling alone on one income, that combination is worth more than another point of scenery.",
+    sections: [
+      {
+        heading: "The cost axis is the headline, and it is a real one",
+        body: "Nancy scores 6.2/10 on cost (source: data/cities-seed.ts), which puts it level with Dijon and above Strasbourg at 5.6/10, and on our scale a higher number means a cheaper city, and the gap over Strasbourg is the practical difference between a week that works and a week that does not. Culture sits at 7.6/10, transport at 7.0/10, quality of life at 6.2/10 and safety at 5.1/10: a balanced profile with no collapse anywhere, which is what you want when there is no second adult to absorb a bad day. What the money buys here is not a compromise version of a heritage city. The Stanislas–Carrière–Alliance ensemble is one of the great eighteenth-century urban compositions in Europe, the École de Nancy was a major centre of Art Nouveau around 1900, and the Parc de la Pépinière is twenty-three hectares in the city centre.",
+      },
+      {
+        heading: "Arriving, and a city you barely need transport for",
+        body: "Paris to Nancy is about an hour and a half on the LGV Est. The station is five hundred metres from the Place Stanislas, seven minutes on foot with a child and a case, which is the shortest station-to-landmark walk in this whole series and matters more than it sounds on an arrival day. The Réseau Stan runs a rubber-tyred tram line, T1, from Essey-lès-Nancy in the north to Vandœuvre-lès-Nancy in the south via the Place Stanislas and the station, plus a dense bus network and a bus rapid transit line. Check current ticket and carnet prices on reseau-stan.com. A whole week here works without a car. Day trips run on regional trains: Metz in forty minutes for the cathedral and the Centre Pompidou-Metz, Lunéville in twenty-five for the château they call the little Versailles, Pont-à-Mousson in seventeen.",
+      },
+      {
+        heading: "Where to stay: the one heritage city where the central axis is affordable",
+        body: "Three options, and the first is the unusual one. A three-star hotel on the station-to-Place Stanislas axis, on the rue Stanislas or the place Thiers, is genuinely bookable here in a way its equivalent in Strasbourg or Colmar is not, and this is probably the only heritage city in this series where a parent travelling alone on a tight budget can sleep on the historic axis without the room rate deciding the trip. Second, a self-catering studio or two-room flat in the Ville-Vieille, Charles III or Saurupt, cheaper than the streets giving onto the square, with a tram or bus into the centre and a kitchen for two meals a day. Third, the HI youth hostel at the Château de Rémicourt in Villers-lès-Nancy, tram plus bus from the station, with family rooms at moderate rates and breakfast included.",
+      },
+      {
+        heading: "A square, a park, and the Art Nouveau day",
+        body: "Day one stays in the eighteenth century and mostly costs nothing. The Place Stanislas — Jean Lamour's gilded ironwork, Héré's triumphal arch, the town hall and the opera house — is free to walk and is the photograph of the trip. The Musée des Beaux-Arts on the square runs from the fourteenth century to the twenty-first, with Rubens, Delacroix and Manet upstairs and a Daum glassworks collection in the basement; an hour and a half with children is about right. The Parc de la Pépinière is immediately alongside: twenty-three hectares with a playground, a small farm and a bandstand, and the best free half-day in the city. The Ville Vieille and the Palais des ducs de Lorraine make a thirty-minute medieval walk, though check the state of the Musée Lorrain's renovation before counting on it. Day two is Art Nouveau: the Musée de l'École de Nancy on the rue du Sergent Blandan, a house and garden that together form one of the more complete Art Nouveau sites in Europe, then the Muséum-Aquarium and the Jardin botanique Jean-Marie Pelt at Montet for an afternoon outdoors.",
+      },
+      {
+        heading: "When to go: Zone B, and a Christmas market without the crush",
+        body: "Nancy belongs to the académie de Nancy-Metz and therefore to Zone B; the dates rotate annually, so check education.gouv.fr. The climate is moderately continental: 1,700 hours of sunshine, July averaging 20.8 °C and January 2.0 °C (source: data/cities-seed.ts), with cool winters, rare snow and warm, sometimes stormy summers. May and June give 18–22 °C with the square and the Pépinière at their best and pre-season rates. September holds 19–21 °C with prices falling from about the fifth. October brings autumn colour in the park at mid-season rates with the museums untouched by weather. And December is the quiet recommendation: the Christmas market here is mid-sized rather than vast, less dense than Strasbourg or Colmar, but the Place Stanislas lit at night is remarkable and the whole thing is manageable with a buggy — which is the trade a parent alone should probably take. Dates to avoid: the second half of July, and the Livre sur la Place weekend in early September, France's oldest open-air literary festival, which fills the hotels.",
+      },
+      {
+        heading: "Evenings, emergencies and one meeting point",
+        body: "Safety scores 5.1/10 (source: data/cities-seed.ts), mid-table for a French city and just below Strasbourg at 5.3/10 and Metz at 5.3/10 — close enough that the difference should not drive the decision. The historic centre, the Ville Vieille, Charles III, the station quarter, the Pépinière and the rue Saint-Jean–rue Saint-Georges axis are walkable in the evening with children. Haussonville and the Plateau de Haye vary street by street, which is guidance for booking a flat rather than for spending an afternoon. For a meeting point, use the equestrian statue of Stanislas in the middle of the square: it is unmistakable, central, and a child can describe it. Paediatric emergencies are at the CHRU de Nancy's Hôpital d'Enfants on the Brabois site, tram T1 plus a shuttle bus. Dial 15 for an emergency, 112 from any mobile, 116 117 for out-of-hours advice. Bring a warm layer even for September evenings — the day-to-night swing is noticeable late in the season.",
+      },
+    ],
+    relatedCities: ["nancy", "metz", "pont-a-mousson", "epinal"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "nancy with kids",
+      "art nouveau france",
+      "grand-est",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-dijon-2026",
+    title: "Single-parent holidays in Dijon: an owl trail and a train to Beaune",
+    metaTitle: "Single-Parent Holidays in Dijon 2026",
+    metaDesc:
+      "Dijon alone with the kids: 1h35 by TGV, a 22-stop owl trail through the old town, free permanent collections, and Beaune 25 minutes away.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-08-19",
+    updatedAt: "2026-08-19",
+    intro:
+      "Dijon has one thing no other city in this series has: a ready-made treasure hunt built into the pavement. The Parcours de la Chouette is twenty-two waymarked stops through the old town, marked by bronze triangles with an owl's head set into the ground, and it converts a heritage walk into something a seven-year-old will lead. That is not a small advantage when you are the only adult. The rest holds up too: culture 7.3/10, transport 7.0/10, cost 6.2/10, quality of life 6.8/10 (source: data/cities-seed.ts), with a ninety-seven-hectare protected historic sector, two tram lines, Paris an hour and thirty-five minutes away, and Beaune twenty-five minutes by regional train.",
+    sections: [
+      {
+        heading: "What Dijon gets right for one adult",
+        body: "The cost axis reads 6.2/10 (source: data/cities-seed.ts), level with Nancy and above Strasbourg at 5.6/10, and on our scale a higher score means a cheaper city. Culture sits at 7.3/10, covering the Palais des Ducs, a medieval and Renaissance core that survived largely intact, and the Cité internationale de la gastronomie et du vin that opened in 2022. Transport is 7.0/10: two tram lines, T1 and T2, running since 2012, the Divia bus network and the Diviaviélo public bike scheme with around forty city-centre stations. The protected historic sector runs to ninety-seven hectares, among the largest in France, and it is pedestrian in feel, which is the property that decides whether a week with children is pleasant or exhausting. Dijon also lacks the summer tourist overheating of Strasbourg or Colmar, and that shows up directly in what a room costs in August.",
+      },
+      {
+        heading: "Arriving, and the wine country by train",
+        body: "Paris to Dijon is about an hour and thirty-five minutes on the southern branch of the LGV Sud-Est. Dijon-Ville station, refurbished in 2016, is seven hundred metres from the Palais des Ducs: ten minutes on foot with a child and a case, or three minutes on tram T1 towards Quétigny, getting off at Darcy. Check current Divia ticket prices on divia.fr. The regional trains are what make the week: Beaune in twenty-five minutes for the Hospices and a family-friendly introduction to the vineyards, Nuits-Saint-Georges in fifteen, Besançon in fifty, and Semur-en-Auxois by regional coach. A hire car only becomes worthwhile if you want to work the Route des Grands Crus village by village, which is not obviously a children's holiday. The tram runs until roughly midnight depending on the day, which is the detail that lets you stay out for an evening.",
+      },
+      {
+        heading: "Rooms, and the two weeks that fill the city",
+        body: "Three options. A three-star hotel on the station–Darcy–place Grangier–Palais des Ducs axis, where rates for one adult with children stay reasonable all year, because Dijon simply does not have the summer surge that Alsace does; direct tram T1. A self-catering studio or two-room flat in the protected sector on the Notre-Dame side or over towards the place Wilson, with a kitchen for two meals a day and a sofa bed that covers one or two children without a supplement. Or the Ethic Étapes youth hostel about fifteen minutes' walk from the centre, with family rooms at moderate rates and breakfast included. Two periods to book around: the Foire Internationale et Gastronomique in the first half of November, which saturates the city's hotels for ten days, and the Burgundy harvest from mid-September to mid-October, when rooms go to the wine trade.",
+      },
+      {
+        heading: "The owl trail, the ducal palace, and the market",
+        body: "Start with the Parcours de la Chouette, because it structures everything else. Twenty-two stops from the Palais des Ducs to the cathédrale Saint-Bénigne by way of Notre-Dame, signposted in the pavement by small bronze owl-headed triangles, taking about two hours with stops, and ending at the owl carved into the wall of Notre-Dame that you are meant to touch with your left hand for luck, which is exactly the kind of instruction a child will insist on following. The Musée des Beaux-Arts inside the Palais des Ducs has exceptional medieval holdings and the ducal tombs, and its permanent collections are free, with a ticket only for temporary exhibitions; an hour and a half is enough. The Cité internationale de la gastronomie et du vin near the market halls, tram T2, runs an interactive family route — check the programme on cite-gastronomie-dijon.fr, since the children's workshops vary. The Halles market, on Tuesday, Friday and Saturday mornings, is the cheap good lunch: buy there and picnic in the Jardin Darcy. Then a full day in Beaune.",
+      },
+      {
+        heading: "When to go: Zone A, and the November fortnight to avoid",
+        body: "Dijon is in Zone A for French school holidays, via the académie de Dijon — worth flagging because most of this series is Zone B, so if you live in France, Dijon and La Rochelle are the two destinations here whose local calendar may not match yours. Check the year's dates at education.gouv.fr. The climate is semi-continental: 1,820 hours of sunshine, July averaging 22.5 °C and January 2.9 °C (source: data/cities-seed.ts), with cool winters, occasional snow and warm summers. April and May give 14–18 °C with the Jardin Darcy in flower and pre-season rates. June is the sweet spot at 20–24 °C. The first half of September works well: schools are back, prices have dropped, it is still 20–22 °C, and the harvest has not yet peaked. The autumn half-term drops to 10–13 °C but the Palais des Ducs, the Cité and the protected sector are all indoor-tolerant. Avoid the first half of November for the Foire, and the second half of July for heat plus school holidays together.",
+      },
+      {
+        heading: "Evenings, a bronze bear, and emergencies",
+        body: "Safety scores 5.7/10 (source: data/cities-seed.ts), mid-table for a French city of this size. The protected sector — Notre-Dame, the Palais des Ducs, the place François-Rude with its statue — along with the Jardin Darcy, the place Wilson and the station-to-Darcy axis are walkable in the evening with children. Les Grésilles and Chevreul to the north-east vary street by street, which is a consideration when booking a flat rather than a reason to avoid an area by day. For a meeting point, the place Darcy is the obvious one: it has a fountain and a bronze bear, it is five minutes from the station and eight from the Palais des Ducs, and no child will confuse it with anywhere else. Paediatric emergencies are at the CHU Dijon-Bourgogne's Hôpital d'Enfants, tram T1 plus a shuttle. Dial 15 for an emergency, 112 from any mobile, 116 117 for advice out of hours. On funding, VACAF-approved centres exist in the Côte-d'Or and the neighbouring Jura, ANCV Chèques-Vacances are widely accepted including at the Cité, and both the Côte-d'Or CAF and the departmental council run holiday grants — all keyed to your CAF bracket, and therefore to living in France.",
+      },
+    ],
+    relatedCities: ["dijon", "beaune", "autun", "besancon"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "dijon with kids",
+      "burgundy with children",
+      "bourgogne-franche-comte",
+    ],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

@@ -16,7 +16,86 @@ Demande utilisateur directe. F58 / F60 / F61 livrées le jour même ; **F59 livr
 | F58 | City Match — profil « parent solo » | P1 | S | mid | ✅ shipped 2026-07-22 · sous-page `/villes/[slug]/parent-solo` ×540 + hub `/parent-solo` + miroir EN `/single-parent` + `/cities/[slug]/single-parent` ×540 shipped 2026-07-25→28 · série guides `parent-solo-a-[ville]-2026` batch 1 (+10) shipped 2026-07-24, batch 2 (+10 : Rennes, Nancy, Angers, Grenoble, Dijon, Metz, Reims, Aix-en-Provence, Rouen, Toulon) shipped 2026-08-07 · miroir EN de la série `single-parent-in-[city]-2026` batch 1 (+10 : Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux, Lille) shipped 2026-08-09, batch 2 (+10) shipped 2026-08-11 — **parité FR/EN atteinte à 20/20** · **batch 3 FR (+9 : Villeurbanne, Besançon, Caen, Brest, Tours, Limoges, Clermont-Ferrand, Saint-Étienne, Le Havre) shipped 2026-08-14**, **miroir EN batch 3 (+9) shipped 2026-08-15 — parité rétablie à 29/29** · **batch 4 FR (+10 : Nîmes, Saint-Denis de La Réunion, Le Mans, Amiens, Annecy, Perpignan, Orléans, Mulhouse, Poitiers, Dunkerque) shipped 2026-08-16**, **miroir EN batch 4 (+10) shipped 2026-08-17 — parité rétablie à 39/39** (compteur vérifié des deux côtés avant et après le run, cf. § Parité EN) |
 | F59 | **Parcs & espaces verts par ville** (pipeline OSM + sub-page ×540) | **P0** | **L** | **high** | ✅ shipped 2026-07-27 |
 | F60 | `/departements` — finder par n° / nom / ville + carte cliquable | P1 | S | low | ✅ shipped 2026-07-22 · carte cliquable 2026-07-23 |
-| F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 · série guides `vacances-celibataire-[ville]-2026` batch 1 (+8) shipped 2026-08-01 · série `vacances-monoparentales-[ville]-2026` batch 1 (+7) shipped 2026-08-05 · `vacances-celibataire-[ville]-2026` batch 2 (+7 : Toulouse, Lille, Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle) shipped 2026-08-08 · croisement mois × profil `/vacances/ou-partir/[combo]` (12 × 7 = 84 pages SSG) shipped 2026-08-12 · miroir EN de la série célibataire, `solo-travel-in-[city]-2026` batch 1 (+8 : Paris, Lyon, Bordeaux, Lille, Strasbourg, Toulouse, Montpellier, Nantes) shipped 2026-08-13 · série EN fermée (batch 2, +7) 2026-08-14 · guide pilier `partir-en-vacances-seul-2026` + correction de l'anti-station-fantôme (part réelle des 15-29 ans Insee au lieu d'un écart d'affluence constant) shipped 2026-08-15 |
+| F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 · série guides `vacances-celibataire-[ville]-2026` batch 1 (+8) shipped 2026-08-01 · série `vacances-monoparentales-[ville]-2026` batch 1 (+7) shipped 2026-08-05 · `vacances-celibataire-[ville]-2026` batch 2 (+7 : Toulouse, Lille, Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle) shipped 2026-08-08 · croisement mois × profil `/vacances/ou-partir/[combo]` (12 × 7 = 84 pages SSG) shipped 2026-08-12 · miroir EN de la série célibataire, `solo-travel-in-[city]-2026` batch 1 (+8 : Paris, Lyon, Bordeaux, Lille, Strasbourg, Toulouse, Montpellier, Nantes) shipped 2026-08-13 · série EN fermée (batch 2, +7) 2026-08-14 · guide pilier `partir-en-vacances-seul-2026` + correction de l'anti-station-fantôme (part réelle des 15-29 ans Insee au lieu d'un écart d'affluence constant) shipped 2026-08-15 · **miroir EN de la série monoparentale, `single-parent-holidays-[city]-2026` (+7 : La Rochelle, Strasbourg, Nantes, Rennes, Vannes, Nancy, Dijon) shipped 2026-08-19 — parité FR/EN atteinte à 7/7, mêmes villes des deux côtés** (+ 4 chiffres faux corrigés dans la série FR au passage, cf. § ci-dessous) |
+
+### F61 — miroir EN de la série monoparentale : `single-parent-holidays-[city]-2026` (2026-08-19)
+
+Item 5 du plan agent « vacances monoparentales », le dernier de la liste à n'avoir **aucune**
+surface : la série FR comptait 7 guides depuis le 05/08, l'anglais zéro. Les 7 jumelles sont
+écrites d'un coup dans `data/guides-en.ts` — **La Rochelle, Strasbourg, Nantes, Rennes, Vannes,
+Nancy, Dijon**. **Compteurs mesurés : FR 7, EN 7, mêmes villes des deux côtés** (`EN_GUIDES`
+685 → 692). Écrit en anglais natif depuis les faits des guides FR, jamais traduit ;
+`metaTitle` 36-42 caractères, `metaDesc` 137-145, 6 sections par guide (la série FR en compte 7,
+la version EN fusionne la fin de liste comme les batches EN précédents).
+
+**Ce que la version EN ajoute et que le FR n'a pas, parce qu'un lecteur français n'en a pas
+besoin.** ① **Le zonage des vacances scolaires**, qui est le premier levier de prix et de foule
+en France et que personne n'explique à un arrivant : cinq des sept destinations sont en **zone B**
+(académies de Strasbourg, Nantes, Rennes pour Rennes et Vannes, Nancy-Metz), **La Rochelle et
+Dijon sont en zone A** (académies de Poitiers et de Dijon) — vérifié ce run, et le guide Dijon le
+signale explicitement puisqu'il est l'exception du lot. Les **zones** sont stables, les **dates**
+tournent chaque année : la copie renvoie systématiquement au calendrier officiel
+`education.gouv.fr` et ne cite aucune date. ② **Le fait qu'un hôtel français se facture à la
+chambre et non à la personne**, ce qui n'avantage pas autant qu'il y paraît un adulte seul avec
+deux enfants — la chambre familiale ou triple est rare en haute saison, et c'est ce qui justifie
+le meublé et le mobil-home. ③ **La condition de résidence des aides** : VACAF, chèques-vacances
+ANCV et bons vacances CAF se calculent tous sur le quotient familial CAF, donc suivent le fait
+d'habiter en France et non la nationalité — les sept guides le disent, et celui de La Rochelle
+ajoute qu'un visiteur venu de l'étranger doit chiffrer son séjour sans eux. ④ Le **112** est
+donné à côté du 15 et du 116 117, parce que c'est le numéro qui marche depuis un mobile étranger.
+
+**Aucun montant n'est imprimé**, dans la lignée de la série `solo-travel-in-[city]-2026` : les
+tarifs de transport urbain, de vélo public et de musée renvoient au site de l'exploitant
+(`yelo.agglo-larochelle.fr`, `cts-strasbourg.eu`, `reseau-stan.com`, `divia.fr`, `kiceo.fr`).
+Chaque figure en `/10` a été **relue à travers le module** (`npx tsx` important
+`@/data/cities-seed`), jamais par grep du seed, puis contrôlée mécaniquement : les 64 figures des
+7 guides tracent toutes vers un score rendu d'une ville que le guide nomme.
+
+⚠️ **Quatre chiffres faux trouvés dans la série FR en la relisant pour la traduire, et corrigés
+ce run.** Ils partagent une cause : ce sont tous des **comparaisons entre villes**, écrites de
+mémoire, là où les scores de la ville-sujet, eux, étaient justes. `npm run integrity` ne pouvait
+pas les voir — sa garde compare un chiffre à la valeur brute *de la ville de la page*, pas à
+celle d'une ville citée en passant.
+- `vacances-monoparentales-nancy-2026` annonçait Nancy « nettement moins chère que Strasbourg
+  (6,9) ou Dijon (7,4) ». Réel : **Strasbourg 5,6 et Dijon 6,2**, contre Nancy 6,2. Nancy est donc
+  devant Strasbourg et **à égalité avec Dijon**, pas devant. La phrase inversait aussi le sens de
+  l'axe (sur `cost`, un score haut = abordable) ; la version corrigée le dit.
+- Le même guide plaçait Nancy (5,1) « un peu en dessous de Strasbourg (7,4) mais au-dessus de
+  Metz » en sécurité. Réel : **Strasbourg 5,3 et Metz 5,3** — Nancy est juste en dessous des
+  **deux**, et l'écart est trop faible pour arbitrer un séjour dessus, ce que la correction écrit.
+  Le « 7,4 » est vraisemblablement le score `schools` de Nancy recopié d'une ligne voisine.
+- `vacances-monoparentales-dijon-2026` situait son coût 6,2 « entre Nancy 8,2 et Strasbourg 6,9 ».
+  Réel : **Nancy 6,2, Strasbourg 5,6** — et l'encadrement était de surcroît incohérent avec
+  lui-même, 6,2 ne tombant pas entre 6,9 et 8,2.
+- `vacances-monoparentales-rennes-2026` donnait comme repère rennais « la Tour Solidor
+  Sainte-Anne visible depuis presque tout le centre ». **La tour Solidor est à Saint-Malo**
+  (Saint-Servan), pas à Rennes — le guide l'envoyait chercher à une heure de train. Remplacée par
+  la place de la Mairie, qui était déjà citée dans la même phrase et qui, elle, est le bon repère.
+  Aucune de ces quatre erreurs n'est passée dans la version anglaise.
+
+**Leçon à retenir pour les prochains batches** : dans un guide, **le chiffre d'une ville tierce
+est le point faible**, pas celui de la ville traitée — on le vérifie à la même exigence, et un
+comparatif inter-villes se relit contre le module avant d'être écrit. De même pour les repères
+géographiques : un monument attribué à la mauvaise ville ne déclenche aucun contrôle automatique.
+
+**Tags** : un seul tag neuf franchit le seuil de 3 guides, `single parent holidays` (7), qui crée
+`/tags/single-parent-holidays` côté EN — d'où le passage de `npm run sitemap:check`. Les autres
+réutilisent `single parent in france` (déjà 39 emplois), `brittany`, `grand-est`,
+`pays-de-la-loire`, `nouvelle-aquitaine`, `bourgogne-franche-comte`. `npm run search-index`
+relancé (`data/search-index.en.json` 692 guides, 96 tags).
+
+**Contrôles** : `npx tsc --noEmit` propre, `npm run integrity` propre (540 villes, FR 973,
+EN 692, 0 score brut recopié des deux côtés), `npm run search-index:check` propre,
+`npm run sitemap:check` propre dans les deux sens (FR 29 040 URL, EN 28 565), `npm run parity`
+en code 0. Densité d'em-dash ramenée sous la cible R7.10 sur les 7 guides (1 pour 207-225 mots,
+cible ~1 pour 200) — six étaient au-dessus au premier jet.
+
+**Restent ouverts sur la verticale** : le **batch 2 FR** de
+`vacances-monoparentales-[destination]-2026` sur les rangs 8-25 du profil (Bordeaux, Lyon, Colmar,
+Annecy, Grenoble, Chambéry, Reims, Metz, Montpellier, Aix-en-Provence — vérifier tags de transit
+et score sécurité **par le module** avant écriture), et l'équivalent EN du croisement mois ×
+profil, `/vacances/ou-partir/[combo]` n'ayant pas de jumelle anglaise. La série étant à parité
+7/7, la main revient au FR.
 
 ### F58 — série `parent-solo-a-[ville]-2026`, batch 3 (2026-08-14)
 

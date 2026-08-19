@@ -3425,6 +3425,41 @@
       "slug": "working-in-metz-2026",
       "title": "Working in Metz: two labour markets, one of them in Luxembourg",
       "emoji": "💼"
+    },
+    {
+      "slug": "single-parent-holidays-la-rochelle-2026",
+      "title": "Single-parent holidays in La Rochelle: the week that works without a car",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-strasbourg-2026",
+      "title": "Single-parent holidays in Strasbourg: six tram lines and a walkable island",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-nantes-2026",
+      "title": "Single-parent holidays in Nantes: a mechanical elephant and three tram lines",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-rennes-2026",
+      "title": "Single-parent holidays in Rennes: the base camp for Brittany without a car",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-vannes-2026",
+      "title": "Single-parent holidays in Vannes: ramparts, islands and a lot of walking",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-nancy-2026",
+      "title": "Single-parent holidays in Nancy: a UNESCO square you can afford",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-dijon-2026",
+      "title": "Single-parent holidays in Dijon: an owl trail and a train to Beaune",
+      "emoji": "🧑‍🍼"
     }
   ],
   "tags": [
@@ -3454,6 +3489,11 @@
       "count": 50
     },
     {
+      "slug": "single-parent-in-france",
+      "label": "single parent in france",
+      "count": 46
+    },
+    {
       "slug": "occitanie",
       "label": "occitanie",
       "count": 40
@@ -3464,23 +3504,18 @@
       "count": 39
     },
     {
-      "slug": "single-parent-in-france",
-      "label": "single parent in france",
-      "count": 39
-    },
-    {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 35
-    },
-    {
-      "slug": "auvergne-rhone-alpes",
-      "label": "auvergne-rhone-alpes",
-      "count": 30
+      "count": 36
     },
     {
       "slug": "grand-est",
       "label": "grand est",
+      "count": 32
+    },
+    {
+      "slug": "auvergne-rhone-alpes",
+      "label": "auvergne-rhone-alpes",
       "count": 30
     },
     {
@@ -3519,6 +3554,11 @@
       "count": 21
     },
     {
+      "slug": "brittany",
+      "label": "brittany",
+      "count": 20
+    },
+    {
       "slug": "job-market-france",
       "label": "job market france",
       "count": 20
@@ -3526,17 +3566,12 @@
     {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
-      "count": 19
+      "count": 20
     },
     {
       "slug": "provence-alpes-cote-d-azur",
       "label": "provence-alpes-cote-d-azur",
       "count": 19
-    },
-    {
-      "slug": "brittany",
-      "label": "brittany",
-      "count": 18
     },
     {
       "slug": "provence",
@@ -3611,7 +3646,7 @@
     {
       "slug": "bourgogne-franche-comte",
       "label": "bourgogne-franche-comte",
-      "count": 9
+      "count": 10
     },
     {
       "slug": "burgundy",
@@ -3661,6 +3696,11 @@
     {
       "slug": "reunion",
       "label": "reunion",
+      "count": 7
+    },
+    {
+      "slug": "single-parent-holidays",
+      "label": "single parent holidays",
       "count": 7
     },
     {
