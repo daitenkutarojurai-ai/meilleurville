@@ -10,7 +10,7 @@ import { CityJsonLd } from "@/components/CityJsonLd";
 import { CityGuidesList } from "@/components/CityGuidesList";
 import { CityNewsSection } from "@/components/CityNewsSection";
 import { FeedbackWidget } from "@/components/FeedbackWidget";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { ORIGIN_BY_LOCALE, pathAlternates } from "@/lib/i18n";
 import { cityFaq } from "@/lib/city-faq";
 import { cityPhoto } from "@/lib/city-images";
 
@@ -38,15 +38,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     // chars Google renders, so the rent figure — the part people actually scan
     // for — was what got cut. Without it, only 15 still overrun.
     description: `${city.name} (${city.department}, ${city.region}) : score de qualité de vie ${city.scores.global}/10. Avis d'habitants, quartiers, données locales.${rentHint}`,
-    alternates: {
-      canonical: `/villes/${slug}`,
-      // City slugs are 1:1 across locales, so the EN equivalent is exact.
-      languages: {
-        "fr-FR": `${ORIGIN_BY_LOCALE.fr}/villes/${slug}`,
-        "en-US": `${ORIGIN_BY_LOCALE.en}/cities/${slug}`,
-        "x-default": `${ORIGIN_BY_LOCALE.fr}/villes/${slug}`,
-      },
-    },
+    // City slugs are 1:1 across locales, so the EN equivalent is exact.
+    // Via pathAlternates() plutôt qu'à la main : la carte écrite ici n'annonçait
+    // que fr-FR / en-US, donc un anglophone hors des États-Unis retombait sur le
+    // x-default, c'est-à-dire sur cette page française (audit 2026-08-19).
+    alternates: pathAlternates(`/villes/${slug}`, `/cities/${slug}`),
     openGraph: {
       title: `${city.name} · MaVilleIdéale · ${city.scores.global}/10`,
       description: `Score QdV ${city.scores.global}/10 · ${city.region} · ${city.characterTags.slice(0, 3).join(", ")}`,

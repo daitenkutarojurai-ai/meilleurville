@@ -7,7 +7,7 @@ import { CityGuidesList } from "@/components/CityGuidesList";
 import { CityNewsSection } from "@/components/CityNewsSection";
 import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { CITIES_SEED } from "@/data/cities-seed";
-import { getCityTitle, getCityDescription, ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { getCityTitle, getCityDescription, ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
 import { buildCityProfileData } from "@/lib/city-profile-data";
 import { cityPhoto } from "@/lib/city-images";
 import { jsonLdScript } from "@/lib/jsonld";
@@ -42,16 +42,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
-    alternates: {
-      canonical: `${EN_BASE}/cities/${slug}`,
-      languages: {
-        "fr-FR": `${FR_BASE}/villes/${slug}`,
-        "en-US": `${EN_BASE}/cities/${slug}`,
-        // x-default must agree cluster-wide; site convention is the FR URL
-        // (matches the FR city page, langPair() and the root layout).
-        "x-default": `${FR_BASE}/villes/${slug}`,
-      },
-    },
+    // x-default must agree cluster-wide; site convention is the FR URL — c'est
+    // ce que fait langPair(), qui ajoute aussi les codes de langue nus `fr` et
+    // `en` que cette carte écrite à la main oubliait (audit 2026-08-19).
+    alternates: pathAlternatesEn(`/villes/${slug}`, `/cities/${slug}`),
     openGraph: {
       type: "website",
       locale: "en_US",
