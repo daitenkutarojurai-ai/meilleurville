@@ -289,12 +289,27 @@ opérationnelles :
 ## Déploiement — automatique la nuit, manuel si tu es pressé
 
 **Depuis le 2026-08-10, `scripts/local-deploy-runner.sh` publie `main` chaque nuit à 04h12 UTC**
-(cron de cette machine, à côté du data-runner). Il ne fait rien si `main` n'a pas bougé, refuse un
-arbre sale, ne tourne pas pendant le crawl du data-runner, passe `tsc` + `npm run integrity` avant
-de publier, déploie FR puis EN, vérifie que les deux domaines répondent 200 et n'enregistre le sha
-publié (`~/.local/state/meilleurville/deployed-sha`) que si tout est vert — un échec est donc
-réessayé la nuit suivante, pas oublié. Journal : `~/.local/state/meilleurville/deploy-runner.log`.
-`--dry-run` liste les commits qui partiraient ; `--force` republie même sans changement.
+(cron de cette machine, à côté du data-runner). Il ne fait rien si `main` n'a pas bougé, ne tourne
+pas pendant le crawl du data-runner, passe `tsc` + `npm run integrity` avant de publier, déploie FR
+puis EN, vérifie que les deux domaines répondent 200 et n'enregistre le sha publié
+(`~/.local/state/meilleurville/deployed-sha`) que si tout est vert — un échec est donc réessayé la
+nuit suivante, pas oublié. Journal : `~/.local/state/meilleurville/deploy-runner.log`.
+`--dry-run` liste les commits qui partiraient ; `--force` republie même sans changement ;
+`--status` dit en trois lignes où en est la prod (sha publié, âge, commits en attente).
+
+⚠️ **Un arbre de travail sale ne bloque plus la publication — c'est le correctif du 2026-08-19.**
+Le runner refusait de publier tant que le dépôt portait des fichiers modifiés. Refuser était juste
+(on ne publie pas du travail que personne n'a validé), mais le résultat était la panne que ce
+script existe pour empêcher : 175 fichiers laissés par une session interrompue ont gardé trois
+commits de routine en 404 pendant une journée, et la seule trace était une ligne de journal que
+personne ne lit. Désormais, dépôt sale ⇒ la publication passe par un **worktree git détaché calé
+sur `origin/main`** (`~/.cache/meilleurville-deploy`, `node_modules` et `.env.local` en liens vers
+le dépôt) : on ne publie toujours **que ce qui est commité et poussé**, et l'état du dossier de
+travail n'a plus voix au chapitre. Deux gardes ajoutées avec : une passe qui n'aboutit pas alors
+que la prod a plus de 36 h de retard **alerte** (fichier d'état, notification bureau, e-mail Brevo
+depuis `bonjour@mavilleideale.fr`, au plus un par 24 h), et un `.next`/`out` abandonné depuis plus
+de 6 h est effacé au lieu d'affamer le build suivant — les 35 Go d'un build manuel interrompu
+suffisaient à faire échouer la passe sur le plancher d'espace libre.
 
 La suite reste vraie pour un déploiement manuel, et explique ce que le runner fait à ta place.
 
