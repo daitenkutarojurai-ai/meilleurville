@@ -1341,7 +1341,7 @@ Tables dans `lib/i18n.ts` : `FR_TO_EN_ROUTE`, `FR_TO_EN_CITY_SUB`, `PARITY_EXCEP
 (asymétries assumées, avec la raison — la liste doit rester courte, sinon « parité » ne veut
 plus rien dire).
 
-### État au 2026-08-16 — **0 route FR sans jumelle EN** (tenu)
+### État au 2026-08-19 — **0 route FR sans jumelle EN** (tenu)
 
 ```
 Routes : FR 217 · EN 165
@@ -1389,7 +1389,7 @@ aucune jumelle EN, mesurées le 18/08 après le batch `working-in-` de l'après-
 route EN mais pas de guides. Ces séries n'avaient jamais été comptées dans cette liste avant le
 18/08 : ce sont les plus gros trous du corpus, loin devant les séries déjà ouvertes.
 `travail-a-[ville]-2026` en faisait partie (30 FR / 0 EN) ; la série EN `working-in-[city]-2026`
-est **ouverte depuis le 18/08** et en est à **30 FR / 10 EN**.
+est **ouverte depuis le 18/08** et en est à **30 FR / 20 EN** après le batch 2 du 19/08.
 Séries à parité, à re-differ et non à croire sur parole : tourisme 207/207,
 `where-to-buy-in-` 49/49, `[city]-living-guide` 52 EN contre `vivre-a-` 51 FR,
 `car-free-living-in-` 15 EN contre `vivre-sans-voiture-` 16 FR (écart de 1),
@@ -1397,8 +1397,8 @@ Séries à parité, à re-differ et non à croire sur parole : tourisme 207/207,
 Séries entamées et encore loin : `leaving-` 23 EN contre `quitter-` 55 FR,
 `moving-to-` 6 EN contre `demenager-a-` 50 FR.
 
-**Écart de contenu, distinct de l'écart de routes** : **guides 967 FR / 675 EN, tags 240 / 88**
-(mesuré le 18/08 après le batch `working-in-` — les chiffres plus bas dans cette section sont
+**Écart de contenu, distinct de l'écart de routes** : **guides 973 FR / 685 EN, tags 241 / 95**
+(mesuré le 19/08 après le batch 2 `working-in-` — les chiffres plus bas dans cette section sont
 datés, le réel prévaut).
 Ce n'est pas une route à créer mais du corpus à écrire, et **jamais par traduction** — les
 guides EN sont du contenu natif à angle expat, c'est une décision de fond (cf. § Bilingual
@@ -1407,6 +1407,77 @@ setup dans `CLAUDE.md`), pas une facilité.
 **Exceptions assumées** : `/badge` ×541 reste FR-only (la motion backlink vise mairies et
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
+
+### Livré le 19/08 — `working-in-[city]-2026` batch 2 (+10), série aux deux tiers
+
+`npm run parity` sortait en **code 0** en début de run (FR 217 / EN 165, 0 route sans jumelle) :
+pas de régression de routes, donc run de corpus. Le diff par série a redésigné la série ouverte
+la veille, qui reste le plus gros trou entamé : **`travail-a-[ville]-2026`, 30 FR / 10 EN**.
+Compteurs mesurés (`grep -c` des deux côtés) : **FR `travail-a-` 30 / EN `working-in-` 20**,
+`EN_GUIDES` 675 → **685**. Restent 10 jumelles, dont Nantes qui n'en aura pas :
+`nantes-living-and-working-guide-2026` existe déjà et couvre le sujet — donc 9 villes réelles,
+un batch 3 referme la série.
+
+**Les 10 villes** : Grenoble, Rouen, Reims, Saint-Étienne, Toulon, Angers, Dijon, Nancy,
+Clermont-Ferrand, Metz. `metaTitle` 42-53 caractères, `metaDesc` 137-152, 8 sections par guide
+comme au batch 1. Catégorie `moving`. `npm run search-index` relancé
+(`data/search-index.en.json` 685 guides) et `npm run sitemap:check` repassé — **EN 28 557 URL**
+(28 540 + 10 guides + 7 tags), chaque URL déclarée a une page.
+⚠️ **Sept tags neufs, donc sept pages `/tags` de plus** : `TAG_SLUGS_EN` passe de 88 à **95**
+(`angers`, `clermont-ferrand`, `metz`, `nancy`, `reims`, `rouen`, `toulon` — chacun franchit le
+seuil des 3 guides avec ce batch). `saint-etienne` et `grenoble` ne créent rien : le premier
+reste à 2 guides, le second était déjà à 3.
+
+**Le socle chiffré vient des modules, pas de la prose FR**, comme au batch 1, et un script de
+contrôle a re-vérifié les 10 guides ligne à ligne contre `lib/employment-market-rankings`,
+`lib/city-income`, `lib/city-population` et `data/housing` avant commit. ⚠️ **Écart assumé avec
+la prose FR sur trois villes** : les guides FR citent des loyers qui ne sont plus ceux de
+`data/housing.ts` (Reims T2 640 € contre 680, Saint-Étienne 490 € contre 580 et 1 350 €/m²
+contre 1 500). C'est exactement le piège documenté dans `CLAUDE.md` — **on cite ce que la page
+rend**, pas ce qu'un guide voisin a écrit un jour. Les jumelles EN publient les valeurs de
+`data/housing.ts`, celles que rend `/cities/[slug]/housing`.
+
+⚠️ **Le rang sur 363 est publié avec ses ex æquo, et c'est un durcissement par rapport au batch 1.**
+Le composite d'emploi prend peu de valeurs distinctes : Angers est 86ᵉ **à égalité avec 61 autres
+communes**, Reims, Rouen et Clermont-Ferrand partagent le même 195ᵉ rang, Nancy et Metz le même
+254ᵉ. Un rang nu se lirait comme une mesure fine alors qu'il départage des scores identiques par
+l'ordre du tri. Chaque guide écrit donc « joint Nth … level with M others on the same score ».
+Ne pas « simplifier » en retirant l'ex æquo : c'est ce qui rend le chiffre honnête, et ça dit au
+lecteur que l'estimation résout des conditions et non des différences fines.
+
+**Quatre points propres au lecteur étranger, absents des guides FR parce qu'inutiles à un
+Français.** ① **Metz** : un titre de séjour français **n'ouvre pas** le droit au travail
+luxembourgeois — c'est l'autorisation luxembourgeoise, obtenue par l'employeur, qui compte, et
+habiter Metz n'y change rien. Le plafond de **34 jours de télétravail par an** depuis la France
+(convention renégociée en 2023, appliquée en 2024) est repris tel quel du FR : il rend
+contradictoire toute offre luxembourgeoise annoncée « full remote ». ② **Toulon** : l'habilitation
+défense (4 à 8 mois, enquête sur 5 à 10 ans d'antécédents) est **plus lente quand les antécédents
+sont à l'étranger** — le guide dit de poser la question à l'employeur et de **ne pas signer de bail
+sur une date de prise de poste non confirmée**. ③ **Grenoble** : le contrôle export encadre qui
+peut travailler sur quel programme en microélectronique, indépendamment du visa, et la **thèse
+CIFRE** est l'une des rares vraies portes d'entrée pour un chercheur non-UE — c'est un contrat, pas
+une bourse. ④ **Nancy** : une grande partie du marché est académique, donc le **passeport talent
+« chercheur »** avec convention d'accueil, et non le contrat de travail ordinaire, est la voie à
+demander ; et un poste hospitalier ou universitaire ne s'obtient pas comme un CDI mais par concours.
+S'y ajoute, à **Rouen**, le fait que les sites Seveso ajoutent des semaines d'habilitation et de
+formation sécurité entre l'offre et le premier jour.
+
+**Trois prudences éditoriales assumées, à ne pas diluer.** ① **Saint-Étienne** : le label UNESCO
+Ville créative design est réel, mais la ville **signale plus qu'elle n'embauche** — le guide dit
+qu'une part des designers stéphanois vivent de commandes lyonnaises et parisiennes opérées depuis
+Saint-Étienne, et que c'est un projet de vie différent d'un poste salarié local. ② **Reims** : une
+appellation parmi les plus rentables au monde et un niveau de vie **368ᵉ sur 533** cohabitent ; le
+guide met les deux dans la même phrase plutôt que de vendre le prestige. ③ **Rouen, Reims, Dijon,
+Angers** portent tous le même avertissement sur le marché à deux étages créé par le train : un
+salaire parisien paie un loyer local et concourt pour les mêmes logements, ce qui dégrade le
+rapport loyer/salaire *local* sans que le tableau des loyers le montre. Sur **Clermont-Ferrand**,
+la dépendance à un employeur unique est chiffrée en part directe **et** en part induite, sans
+prédire de restructuration.
+
+**Prochain run** : batch 3 de `working-in-`, qui **ferme la série** — Caen, Brest, Tours, Orléans,
+Le Mans, Amiens, Le Havre, Nîmes et Aix-en-Provence (9 villes, Nantes exclue pour la raison
+ci-dessus). Ensuite, les deux plus gros trous restants sont `famille-a-[ville]-2026` (19 FR / 0 EN)
+et `universites-[ville]-2026` (15 FR / 0 EN).
 
 ### Livré le 18/08 (2ᵉ run du jour) — ouverture de `working-in-[city]-2026` (batch 1, +10)
 

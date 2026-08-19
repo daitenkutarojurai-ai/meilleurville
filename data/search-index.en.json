@@ -3375,6 +3375,56 @@
       "slug": "working-in-rennes-2026",
       "title": "Working in Rennes: tech, cyber defence, and the limits of a specialism",
       "emoji": "💼"
+    },
+    {
+      "slug": "working-in-grenoble-2026",
+      "title": "Working in Grenoble: semiconductors, public research, and one valley",
+      "emoji": "💼"
+    },
+    {
+      "slug": "working-in-rouen-2026",
+      "title": "Working in Rouen: chemicals, banking, and an hour from Paris",
+      "emoji": "💼"
+    },
+    {
+      "slug": "working-in-reims-2026",
+      "title": "Working in Reims: champagne, services, and 45 minutes from Paris",
+      "emoji": "💼"
+    },
+    {
+      "slug": "working-in-saint-etienne-2026",
+      "title": "Working in Saint-Étienne: cheap rent, design, and one shrinking employer",
+      "emoji": "💼"
+    },
+    {
+      "slug": "working-in-toulon-2026",
+      "title": "Working in Toulon: the navy, the arsenal, and very little else",
+      "emoji": "💼"
+    },
+    {
+      "slug": "working-in-angers-2026",
+      "title": "Working in Angers: plant science, electronics, and a low unemployment rate",
+      "emoji": "💼"
+    },
+    {
+      "slug": "working-in-dijon-2026",
+      "title": "Working in Dijon: food, health, banking, and 95 minutes from Paris",
+      "emoji": "💼"
+    },
+    {
+      "slug": "working-in-nancy-2026",
+      "title": "Working in Nancy: ten engineering schools and not enough employers",
+      "emoji": "💼"
+    },
+    {
+      "slug": "working-in-clermont-ferrand-2026",
+      "title": "Working in Clermont-Ferrand: one company, and everything around it",
+      "emoji": "💼"
+    },
+    {
+      "slug": "working-in-metz-2026",
+      "title": "Working in Metz: two labour markets, one of them in Luxembourg",
+      "emoji": "💼"
     }
   ],
   "tags": [
@@ -3426,12 +3476,12 @@
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 27
+      "count": 30
     },
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 27
+      "count": 30
     },
     {
       "slug": "hauts-de-france",
@@ -3464,24 +3514,39 @@
       "count": 21
     },
     {
-      "slug": "brittany",
-      "label": "brittany",
-      "count": 18
+      "slug": "working-in-france",
+      "label": "working in france",
+      "count": 21
+    },
+    {
+      "slug": "job-market-france",
+      "label": "job market france",
+      "count": 20
     },
     {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
-      "count": 18
+      "count": 19
     },
     {
       "slug": "provence-alpes-cote-d-azur",
       "label": "provence-alpes-cote-d-azur",
+      "count": 19
+    },
+    {
+      "slug": "brittany",
+      "label": "brittany",
       "count": 18
     },
     {
       "slug": "provence",
       "label": "provence",
       "count": 17
+    },
+    {
+      "slug": "normandy",
+      "label": "normandy",
+      "count": 16
     },
     {
       "slug": "budget",
@@ -3496,11 +3561,6 @@
     {
       "slug": "expat",
       "label": "expat",
-      "count": 15
-    },
-    {
-      "slug": "normandy",
-      "label": "normandy",
       "count": 15
     },
     {
@@ -3544,19 +3604,14 @@
       "count": 11
     },
     {
-      "slug": "working-in-france",
-      "label": "working in france",
-      "count": 11
-    },
-    {
       "slug": "affordable-retirement-france",
       "label": "affordable retirement France",
       "count": 10
     },
     {
-      "slug": "job-market-france",
-      "label": "job market france",
-      "count": 10
+      "slug": "bourgogne-franche-comte",
+      "label": "bourgogne-franche-comte",
+      "count": 9
     },
     {
       "slug": "burgundy",
@@ -3591,11 +3646,6 @@
     {
       "slug": "auvergne",
       "label": "auvergne",
-      "count": 8
-    },
-    {
-      "slug": "bourgogne-franche-comte",
-      "label": "bourgogne-franche-comte",
       "count": 8
     },
     {
@@ -3704,8 +3754,18 @@
       "count": 4
     },
     {
+      "slug": "dijon",
+      "label": "dijon",
+      "count": 4
+    },
+    {
       "slug": "franche-comte",
       "label": "franche-comte",
+      "count": 4
+    },
+    {
+      "slug": "grenoble",
+      "label": "grenoble",
       "count": 4
     },
     {
@@ -3749,6 +3809,11 @@
       "count": 3
     },
     {
+      "slug": "angers",
+      "label": "angers",
+      "count": 3
+    },
+    {
       "slug": "biarritz",
       "label": "biarritz",
       "count": 3
@@ -3769,8 +3834,8 @@
       "count": 3
     },
     {
-      "slug": "dijon",
-      "label": "dijon",
+      "slug": "clermont-ferrand",
+      "label": "clermont ferrand",
       "count": 3
     },
     {
@@ -3794,11 +3859,6 @@
       "count": 3
     },
     {
-      "slug": "grenoble",
-      "label": "grenoble",
-      "count": 3
-    },
-    {
       "slug": "living-in-france",
       "label": "living in france",
       "count": 3
@@ -3809,13 +3869,38 @@
       "count": 3
     },
     {
+      "slug": "metz",
+      "label": "metz",
+      "count": 3
+    },
+    {
+      "slug": "nancy",
+      "label": "nancy",
+      "count": 3
+    },
+    {
       "slug": "notaire",
       "label": "notaire",
       "count": 3
     },
     {
+      "slug": "reims",
+      "label": "reims",
+      "count": 3
+    },
+    {
+      "slug": "rouen",
+      "label": "rouen",
+      "count": 3
+    },
+    {
       "slug": "savoie",
       "label": "savoie",
+      "count": 3
+    },
+    {
+      "slug": "toulon",
+      "label": "toulon",
       "count": 3
     }
   ]
