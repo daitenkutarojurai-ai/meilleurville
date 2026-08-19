@@ -209,6 +209,28 @@ Distribution mean ≈ 5.42. Penalties:
   is the reference shape: it exposes both `healthScore` (10 = sain) and
   `stressComposite` (10 = pire) so each surface picks the one matching its name.
 
+- **Un classement ne publie un rang que là où le score départage** (convention
+  posée 2026-08-19, `lib/owner-rankings.ts`). Un `sort` suivi d'un `slice(0, N)`
+  sur un score à une décimale **fabrique** la fin de sa liste : `/classements/qualite-air`
+  remplissait 18 de ses 50 lignes en piochant dans une égalité à **411 villes**, et
+  `/classements/calme-sonore` ses 50 lignes dans une égalité à **170** — dans l'ordre
+  d'insertion du seed, présenté comme des rangs. Deux règles, à appliquer à tout nouveau
+  classement : ① une ville dont le score est un **repli constant** (même valeur pour tout
+  le monde faute de donnée propre) sort du barème, elle n'est pas triée à égalité — c'est
+  le précédent du rang de richesse biodiversité, retiré le 10/08 ; ② une **égalité ne se
+  coupe jamais en son milieu** : on groupe par valeur, on s'arrête avant le palier qui
+  déborde, et la page dit combien de villes suivaient et à quelle note. Corollaire JSON-LD :
+  `itemListOrder: ItemListUnordered` (sans `position`) dès qu'une des premières villes est
+  ex æquo — sinon l'ordre fabriqué repart en données structurées, où personne ne le relit.
+  Un tri par nom à l'intérieur d'un palier est un ordre **stable**, pas un départage, et
+  doit être annoncé comme tel.
+  ⚠️ Piège voisin, trouvé le même jour : les chaînes `methodology` / `intro` de ces
+  classements vivent **loin** de la fonction qu'elles décrivent (définition d'un côté,
+  calcul de l'autre, version EN dans une troisième file), et **7 sur 20 décrivaient un autre
+  calcul** — dont deux pages EN qui citaient les pondérations de `lib/niche-scores.ts` alors
+  qu'elles classent `lib/owner-scores.ts`. Ni `tsc` ni `npm run integrity` ne peuvent voir
+  l'écart entre une phrase et une formule : relire les deux locales dès qu'un barème bouge.
+
 ## Adding a new city
 
 1. Append a record to `RAW_CITIES_SEED` in `data/cities-seed.ts` with all

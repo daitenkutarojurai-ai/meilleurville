@@ -2029,6 +2029,89 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ---
 
+## Shipped 2026-08-19
+
+- **F16 — les classements propriétaires ne fabriquent plus l'ordre qu'ils n'ont pas mesuré**
+  ✅ (2ᵉ run du jour ; le run du matin avait fait du contenu EN, celui-ci prend du technique).
+  `lib/owner-rankings.ts` publiait un « Top 50 » par `sort` + `slice(0, 50)` sur des scores à une
+  décimale. Deux conséquences, mesurées avant d'être écrites :
+
+  **① `/classements/qualite-air` publiait 18 de ses 50 lignes en piochant dans une égalité à
+  411 villes.** `DEPT_PM25_AVG` (`lib/owner-scores.ts`) est une table de **20 départements** :
+  les **383 villes sur 540** dont le département n'y figure pas reçoivent toutes la **même
+  constante de repli**, 7,0/10, marquée `kind: "estimation-regionale"`. Sur 540 villes le score ne
+  prend que **7 valeurs distinctes** ; seules 32 villes dépassent 7,0. Les 18 places restantes du
+  top 50 étaient donc remplies dans **l'ordre d'insertion du seed**, présenté au lecteur comme les
+  rangs 33 à 50 d'un classement de qualité de l'air.
+
+  **② `/classements/calme-sonore` publiait ses 50 lignes en piochant dans une égalité à 170.**
+  `score_bruit` n'a que la population et l'appartenance à l'Île-de-France pour entrées : **9 valeurs
+  distinctes sur 540 villes**, dont un premier palier de **170 communes ex æquo** à 9,8/10. Aucune
+  des 50 « villes les plus calmes de France » publiées n'était mesurée plus calme que les 120 qui ne
+  l'étaient pas.
+
+  C'est le même défaut que le rang de richesse en biodiversité, retiré le 10/08 : la valeur est
+  exacte, c'est **l'ordre** qui était fabriqué. Même remède, mais transposable aux 10 classements
+  plutôt qu'un retrait — la page existe et est indexée, la supprimer casserait la parité de routes.
+  Deux garde-fous, documentés en tête de `lib/owner-rankings.ts` :
+  - **Les villes à repli national sortent du barème.** Trier une constante rend l'ordre du fichier,
+    pas un classement. Concerne les deux seuls scores à repli plat : `score_qualite_air` (383 villes
+    écartées, 157 classées) et `score_solitude` (314 écartées, 226 classées). Leur score reste
+    affiché sur leur fiche ville, avec sa provenance — `OwnerScoresCard` était déjà honnête, c'est
+    le classement qui ne l'était pas.
+  - **Aucune égalité n'est coupée en son milieu.** `rankByOwnerScore` rend des **paliers**
+    (`OwnerRankingTier`) avec rang de compétition ; un palier qui ferait déborder la limite n'est pas
+    publié à moitié, le classement s'arrête avant lui **et le dit**. Exception assumée : le premier
+    palier passe toujours, sinon un score grossier rendrait une page vide.
+
+  Longueurs réelles après correctif (limite 50) : qualité de l'air **32**, canicule **17**, lien
+  social 43, sécurité nocturne 43, sans voiture 45, télétravail 44, femme seule 50, jeune actif 48,
+  famille 49. Et **calme sonore 170**, seul cas où `firstTierOverflows` : la page abandonne la
+  numérotation, liste le palier par ordre alphabétique et écrit en clair que le score ne départage
+  pas. Un tri par nom n'est **pas** un départage — c'est un ordre stable et annoncé comme tel.
+
+  **JSON-LD** : `itemListOrder` vaut désormais `ItemListUnordered` (et les `position` sautent) dès
+  qu'une des 10 premières villes est à égalité, ce qui est le cas des 10 classements. Publier un
+  `ItemListOrderDescending` là où le score ne classe pas, c'est fabriquer le même ordre en données
+  structurées, où personne ne le relit.
+
+- **Sept méthodologies affichées décrivaient un calcul qui n'est pas celui du code** ✅ — trouvé en
+  relisant chaque chaîne contre sa fonction, et corrigé des deux côtés. FR : `canicule-resistance`
+  annonçait « 9 − (T juillet − 22) × 0,9 » quand le code fait `9,7 − (T − 18) × 0,7` ;
+  `calme-sonore` annonçait une base 8,5 et une pénalité IDF de 1 pt quand le code part de 9,6 avec
+  1,2. EN, plus grave : `young-professionals` et `families` renvoyaient à `lib/niche-scores.ts` avec
+  des pondérations (« culture × 2, transport × 1,5… ») **qui n'ont jamais servi à ces pages** — elles
+  classent `lib/owner-scores.ts` ; `safest-for-women` donnait la formule de la sécurité nocturne au
+  lieu de la sienne. Les descriptions qui promettaient une projection ARPEGE 2040 non branchée sont
+  ramenées à ce qui est calculé. Les surfaces disent maintenant aussi **ce que le score n'est pas** :
+  aucune mesure acoustique dans `calme-sonore`, aucune donnée d'emploi dans `jeune-actif`, une
+  valeur PM2.5 **départementale et non communale**.
+  ⚠️ Ces chaînes ont dérivé parce qu'elles vivent **loin** de la fonction qu'elles décrivent (la
+  définition du classement d'un côté, le calcul de l'autre, la version EN dans une troisième file).
+  Aucun contrôle ne peut le voir : `tsc` et `integrity` valident des types et des données, pas la
+  cohérence entre une phrase et une formule. À relire à chaque fois qu'un barème d'owner score
+  bouge — les commentaires de `lib/owner-scores.ts` notaient d'ailleurs eux-mêmes les changements de
+  base sans que les pages suivent.
+
+- **11 titres et descriptions hors bornes rentrés dans les clous** ✅, tant qu'on y était et sur les
+  mêmes fichiers : 3 `metaTitle` FR > 60 caractères (jusqu'à 70 pour qualité de l'air), 1 EN à 63, et
+  4 `metaDescription` EN > 160 (jusqu'à 181). Le « — top 50 » de 6 titres EN et du hub
+  `/niche-rankings` est retiré : il n'était plus vrai, et sa disparition suffisait à faire rentrer
+  trois titres.
+
+**Périmètre** : `lib/owner-rankings.ts`, `components/OwnerRankingPage.tsx` (les 10 pages FR) et
+`app/[locale]/niche-rankings/[slug]/page.tsx` (les 10 pages EN) + son hub. Aucune route créée ni
+supprimée, aucune entrée de sitemap touchée, `lib/owner-scores.ts` **inchangé** — les valeurs et leur
+provenance étaient justes, seul leur classement mentait. `npx tsc --noEmit`, `npm run integrity`,
+`npm run parity` (code 0, FR 217 / EN 165) et `npm run hreflang:check` repassent.
+
+**Suite possible, pas faite ici** : le vrai remède pour `qualite-air` est F63 (ATMO + Geod'Air à la
+commune), qui remplacerait la table de 20 départements et rendrait au classement ses 540 villes ;
+pour `calme-sonore`, les Cartes de Bruit Stratégiques du Cerema. Les deux demandent un crawl, donc
+une passe locale — l'egress est refusé côté routine.
+
+---
+
 ## Shipped 2026-08-15
 
 - **Série F61 — guide pilier `partir-en-vacances-seul-2026`, et correction de la mesure sur

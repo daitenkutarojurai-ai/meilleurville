@@ -63,7 +63,7 @@ export default function NicheRankingsIndex() {
                   <h2 className="text-base font-bold text-[var(--text-primary)]">{r.label}</h2>
                 </div>
                 <p className="text-xs text-[var(--text-secondary)] line-clamp-2">{r.desc}</p>
-                <p className="text-[11px] text-[var(--accent)] mt-3 underline">See top 50 →</p>
+                <p className="text-[11px] text-[var(--accent)] mt-3 underline">See the ranking →</p>
               </div>
             </Link>
           ))}
