@@ -730,8 +730,38 @@ Quentin de La Tour), **Brive-la-Gaillarde**, **La Seyne-sur-Mer** et **Saint-Her
 
 Page unique, données inline (`SECTIONS: {title, emoji, terms[]}`), `DefinedTermSet` JSON-LD généré
 depuis le tableau — ajouter un terme suffit, rien d'autre à câbler. **Compteur mesuré
-(`grep -c 'term: "'`) : 127 termes, 13 sections** (2026-08-10). Dernière section ajoutée :
-« Assurance habitation et catastrophes naturelles » 🌊 — 12 termes (MRH et qui doit s'assurer,
+(`grep -c 'term: "'`) : 142 termes, 14 sections** (2026-08-19). Dernière section ajoutée :
+« Santé, médecin traitant et accès aux soins » 🩺 — 15 termes (médecin traitant, parcours de soins
+coordonnés, ticket modérateur, participation forfaitaire et franchise médicale, secteur 1/2 et
+OPTAM, ALD, contrat responsable et 100 % Santé, CSS, carte Vitale et Mon espace santé, changer de
+caisse en déménageant, APL d'accessibilité potentielle localisée, désert médical/ZIP/ZAC,
+MSP/centre de santé/CPTS, forfait journalier hospitalier et forfait patient urgences, SAS et
+116 117). C'était le trou béant de la page : le site porte `/villes/[slug]/sante`,
+`lib/healthcare-access.ts` (F47), le red flag `villes-desert-medical` et le profil
+`suivi-medical-regulier` livré le 17/08, sans jamais définir ce que « désert médical » veut dire
+administrativement ni ce qu'un arrivant doit faire de sa carte Vitale. Quatre points de méthode à
+ne pas diluer : ① **homonymie APL assumée et signalée** — « accessibilité potentielle localisée »
+(DREES/IRDES, seuil de sous-densité 2,5 consultations/an/hab., 6,3 M de personnes sous le seuil en
+2024, soit ~9 % de la population) porte le même sigle que l'Aide personnalisée au logement, déjà
+définie deux sections plus haut ; l'entrée le dit en première ligne plutôt que de créer un doublon
+silencieux, même précédent que le quotient familial CAF vs fiscal ; ② **« désert médical » n'est pas
+une catégorie administrative** — ce qui existe est le zonage ARS ZIP/ZAC, et c'est lui qui ouvre des
+droits ; ③ les personnes **en ALD ne sont pas exonérées** de la participation forfaitaire ni des
+franchises (idée reçue très répandue, y compris dans des sources secondaires qui citent encore le
+montant de 1 € d'avant mai 2024) — les exonérés sont les moins de 18 ans, les femmes enceintes à
+partir du 6ᵉ mois et les bénéficiaires CSS/AME ; ④ le **doublement des plafonds à 100 € chacun**
+annoncé le 23/07/2026 est écrit comme une annonce datée, **décret non publié au JO à la rédaction**
+et application ~2 mois après parution — à revérifier avant de le durcir en fait acquis. Chiffres
+cités, tous réglementaires ou publiés, aucun tarif d'assureur : 2 € de participation forfaitaire
+(15/05/2024), franchises 1 €/boîte, 1 €/acte paramédical, 4 €/transport, butoirs 4 € et 8 €/jour,
+plafonds 50 € chacun ; consultation généraliste secteur 1 30 € (22/12/2024, ex-26,50 €), base
+secteur 2 hors OPTAM 23 € ; hors parcours de soins 30 % au lieu de 70 % ; CSS 868 €/1 303 € (gratuite)
+et 1 172 €/1 759 € (payante) du 01/04/2026 au 31/03/2027, participation ≤ 1 €/jour, 8 à 30 €/mois
+selon l'âge ; forfait journalier hospitalier 23 €/jour et 17 € en psychiatrie, forfait patient
+urgences 23 €, tous deux depuis le 01/03/2026 (ex-20 €, 15 €, 19,61 €) ; 2 644 MSP en 2024 pour un
+objectif de 4 000 en 2027. Le montant minoré du FPU en ALD est **volontairement omis** : les sources
+consultées divergent (8,49 € et 9,96 €), une phrase sans chiffre valant mieux qu'un chiffre faux.
+Avant-dernière section : « Assurance habitation et catastrophes naturelles » 🌊 — 12 termes (MRH et qui doit s'assurer,
 garantie cat-nat, arrêté de catastrophe naturelle, franchise légale, surprime, CCR, RGA, fonds
 Barnier, taxe GEMAPI, recul du trait de côte, BCT, valeur à neuf). Elle honore exactement le
 cadrage laissé en 2026-08-03 ci-dessous : **côté assurance et indemnisation uniquement**, parce
@@ -745,7 +775,7 @@ répandue, et les deux entrées concernées le disent explicitement ; ② les se
 nationaux (franchise 380 € / 1 520 € sécheresse, surprime 20 % et 9 % au 1ᵉʳ janvier 2025, plafond
 GEMAPI 40 €/hab./an, subvention Barnier jusqu'à 80 %) — aucun tarif d'assureur, aucune moyenne de
 prime, qui ne seraient pas sourçables ; ③ ce qui relève du contrat et non de la loi (valeur à neuf,
-plafonds) est écrit comme tel, avec « le plus souvent » et « délai contractuel ». Avant-dernière section :
+plafonds) est écrit comme tel, avec « le plus souvent » et « délai contractuel ». Section antérieure :
 « École, garde d'enfants et scolarité » 🎒 — 15 termes (carte scolaire, dérogation, certificat de
 radiation, instruction obligatoire, REP/REP+, IPS, Affelnet, Parcoursup, privé sous contrat,
 périscolaire, quotient familial CAF, modes de garde, CMG, PAI/PAP/PPS, transport scolaire) : c'était

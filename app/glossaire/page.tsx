@@ -7,9 +7,9 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
-  title: "Glossaire immobilier, aides, rénovation & école",
+  title: "Glossaire immobilier, aides, école & santé",
   description:
-    "DPE, LMNP, TAEG, ZFE, APL, MaPrimeRénov', carte scolaire, IPS, cat-nat : les termes utiles pour louer, acheter, rénover, assurer ou déménager en France.",
+    "DPE, LMNP, TAEG, ZFE, APL, MaPrimeRénov', carte scolaire, cat-nat, médecin traitant, ALD, ZIP : les termes utiles pour s'installer quelque part en France.",
   alternates: pathAlternates("/glossaire", "/glossary"),
 };
 
@@ -603,6 +603,72 @@ const SECTIONS: Section[] = [
       },
     ],
   },
+  {
+    title: "Santé, médecin traitant et accès aux soins",
+    emoji: "🩺",
+    terms: [
+      {
+        term: "Médecin traitant",
+        def: "Le médecin que vous désignez comme porte d'entrée de vos soins. La déclaration est conjointe — elle se fait en consultation, par télétransmission depuis la carte Vitale ou sur le formulaire S3704 — gratuite, et modifiable à tout moment sans avoir à vous justifier. Ce n'est pas une obligation légale, mais son absence coûte cher au remboursement (voir ci-dessous). Deux points que personne ne dit à un nouvel arrivant : un médecin n'est pas tenu d'accepter, et il peut refuser au seul motif que sa patientèle est complète ; et pour un enfant de moins de 16 ans, c'est un parent qui déclare, en général le pédiatre ou le généraliste de famille. Changer de région n'annule pas la déclaration précédente : tant que vous n'en faites pas une nouvelle, votre médecin traitant reste celui d'avant, à 500 km.",
+      },
+      {
+        term: "Parcours de soins coordonnés",
+        def: "Règle qui veut que le médecin traitant oriente vers le spécialiste. Hors de ce circuit — pas de médecin traitant déclaré, ou spécialiste consulté de sa propre initiative — le taux de remboursement de l'Assurance maladie tombe de 70 % à 30 % du tarif de base, et s'y ajoute une majoration du ticket modérateur qu'un contrat responsable n'a pas le droit de couvrir. L'accès reste direct, sans pénalité, pour le gynécologue, l'ophtalmologiste, le stomatologue, la sage-femme et le psychiatre entre 16 et 25 ans, ainsi qu'en urgence ou loin de chez soi. C'est le premier poste de reste à charge évitable après un déménagement, et il court tant que la nouvelle déclaration n'est pas faite.",
+      },
+      {
+        term: "Ticket modérateur",
+        def: "La part du tarif de base laissée à votre charge après le remboursement de l'Assurance maladie : 30 % sur une consultation remboursée à 70 %, davantage sur certains actes. C'est ce que couvre en priorité une complémentaire santé. À ne pas confondre avec le dépassement d'honoraires, qui se situe au-delà du tarif de base, ni avec les franchises ci-dessous, qu'aucune complémentaire n'a le droit de rembourser. Trois lignes différentes sur un même relevé, trois logiques différentes.",
+      },
+      {
+        term: "Participation forfaitaire et franchise médicale",
+        def: "Sommes retenues d'office sur vos remboursements, indépendantes du taux de prise en charge. La participation forfaitaire est de 2 € par consultation et par acte de biologie ou de radiologie depuis le 15 mai 2024. La franchise médicale est de 1 € par boîte de médicament, 1 € par acte paramédical et 4 € par transport sanitaire, avec des butoirs journaliers de 4 € et 8 €. Chacun des deux dispositifs est plafonné à 50 € par an et par personne. Aucun contrat responsable ne peut les rembourser — c'est le sens même du mécanisme. Sont exonérés les moins de 18 ans, les femmes enceintes à partir du 6ᵉ mois et les bénéficiaires de la CSS ou de l'AME ; les personnes en ALD, contrairement à une idée très répandue, les paient comme tout le monde. ⚠️ Le 23 juillet 2026, le gouvernement a annoncé le doublement des deux plafonds, à 100 € chacun. Le décret n'était pas publié au Journal officiel à la rédaction de cette fiche et le texte s'applique environ deux mois après sa parution : vérifiez ce qui est en vigueur avant de bâtir un budget dessus.",
+      },
+      {
+        term: "Secteur 1, secteur 2 et OPTAM",
+        def: "Un médecin de secteur 1 applique le tarif conventionné : 30 € pour une consultation de généraliste depuis le 22 décembre 2024, contre 26,50 € auparavant. Un médecin de secteur 2 fixe librement ses honoraires. La nuance qui coûte, et qui n'apparaît sur aucune plaque : s'il n'a pas adhéré à l'OPTAM (option de pratique tarifaire maîtrisée, par laquelle il s'engage à contenir ses dépassements), la base même du remboursement retombe à 23 € pour une consultation de généraliste — vous perdez donc sur le tarif de référence en plus de payer le dépassement. Adhérent OPTAM, il rembourse sur la base du secteur 1. Le secteur et l'adhésion figurent dans l'annuaire santé de l'Assurance maladie : à regarder avant de prendre rendez-vous, pas après.",
+      },
+      {
+        term: "ALD (affection de longue durée)",
+        def: "Statut ouvert par un protocole de soins rédigé par le médecin traitant et validé par le service médical de la caisse, pour une trentaine d'affections listées et quelques situations hors liste. Il exonère du ticket modérateur, à 100 %, mais uniquement sur les soins en rapport avec l'affection : le reste de la médecine courante est remboursé normalement. Restent dus dans tous les cas les dépassements d'honoraires, le forfait journalier hospitalier, les participations forfaitaires et les franchises. Un déménagement ne remet pas l'exonération en cause — le dossier suit le transfert de caisse — mais le protocole est lié au médecin traitant : le redéclarer fait partie des démarches à ne pas repousser.",
+      },
+      {
+        term: "Complémentaire santé, contrat responsable et 100 % Santé",
+        def: "La complémentaire (« mutuelle » dans le langage courant, quel que soit le statut de l'organisme) rembourse principalement le ticket modérateur et une part des dépassements. La quasi-totalité des contrats sont dits responsables, ce qui n'est pas un label commercial mais un cahier des charges fiscal : le contrat doit prendre en charge intégralement les paniers 100 % Santé en optique, en audiologie et en dentaire prothétique — lunettes, appareils auditifs et prothèses sans reste à charge — et il lui est interdit de rembourser les franchises, les participations forfaitaires et la majoration hors parcours de soins. Un salarié du secteur privé bénéficie du contrat collectif de son employeur, financé au moins pour moitié par lui : à intégrer dans la comparaison quand un déménagement s'accompagne d'un changement de statut.",
+      },
+      {
+        term: "CSS (Complémentaire santé solidaire)",
+        def: "Remplace depuis 2019 la CMU-C et l'ACS. Sous plafond de ressources elle est gratuite ; au-dessus d'un second plafond elle est payante, avec une participation plafonnée à 1 € par jour et par personne, barème par âge allant de 8 €/mois avant 30 ans à 30 €/mois à partir de 70 ans. Du 1ᵉʳ avril 2026 au 31 mars 2027, le plafond de la version gratuite est de 868 €/mois pour une personne seule et 1 303 € pour un couple ; celui de la version payante, de 1 172 € et 1 759 €. Elle couvre le ticket modérateur, le forfait journalier hospitalier et les paniers 100 % Santé, et les professionnels ne peuvent pas facturer de dépassement à ses bénéficiaires.",
+      },
+      {
+        term: "Carte Vitale et Mon espace santé",
+        def: "Deux choses distinctes qu'on confond souvent. La carte Vitale porte vos droits, pas votre dossier médical : elle est nationale, un déménagement ne la remplace pas, et sa mise à jour en pharmacie ou en borne ne sert qu'à y réinscrire des droits qui ont changé. Mon espace santé est le carnet de santé numérique, ouvert automatiquement à chaque assuré sauf refus explicite, qui héberge le dossier médical partagé : comptes rendus, résultats, vaccinations. C'est lui qui rend un changement de médecin traitant moins coûteux en informations perdues, à condition que les documents y aient été déposés — beaucoup de praticiens ne le font pas encore systématiquement, et rien ne vous empêche d'y verser vous-même ce que vous détenez avant de partir.",
+      },
+      {
+        term: "Changer de caisse en déménageant",
+        def: "Le changement d'adresse se déclare depuis le compte ameli, rubrique « Mes démarches », ou au 36 46. Si vous changez de département, votre dossier est transféré à la caisse primaire correspondante — droits, historique de remboursements, ALD — et la nouvelle caisse vous écrit une fois l'opération faite ; c'est la seule confirmation fiable que le transfert a abouti. Prévenir une quinzaine de jours avant le déménagement évite les remboursements envoyés à l'ancienne adresse. Ce qui ne se fait pas tout seul, en revanche : redéclarer un médecin traitant, et prévenir votre complémentaire, dont les tarifs sont souvent zonés.",
+      },
+      {
+        term: "APL (accessibilité potentielle localisée)",
+        def: "⚠️ Rien à voir avec l'Aide personnalisée au logement, qui porte le même sigle dans ce glossaire : c'est l'indicateur d'accès aux soins construit par la DREES et l'IRDES depuis 2012, calculé commune par commune. Il s'interprète comme le nombre de consultations accessibles par an et par habitant, en tenant compte de l'activité réelle des médecins environnants et d'une demande pondérée par l'âge de la population — donc bien plus fin qu'une densité de médecins au kilomètre carré, qui ignore aussi bien les cabinets saturés que les communes voisines. Le seuil de sous-densité usuel est de 2,5 consultations par an et par habitant chez les généralistes ; en 2024, 6,3 millions de personnes vivaient sous ce seuil, soit environ 9 % de la population. C'est la mesure à demander quand une annonce immobilière parle de « proximité des services ».",
+      },
+      {
+        term: "Désert médical, ZIP et ZAC",
+        def: "« Désert médical » est une expression de presse, pas une catégorie administrative — aucune aide, aucun droit n'y est attaché. Ce qui existe juridiquement, c'est le zonage arrêté par chaque agence régionale de santé selon une méthodologie nationale fixée en 2017 en application de la loi de modernisation du système de santé de 2016. Il distingue les zones d'intervention prioritaire (ZIP), les plus dépourvues, qui ouvrent droit aux aides conventionnelles de l'Assurance maladie à l'installation et au maintien, et les zones d'action complémentaire (ZAC), moins touchées, soutenues pour éviter que la situation ne se dégrade. Le zonage se consulte sur le site de l'ARS de la région et se révise périodiquement : regarder le millésime avant de conclure quoi que ce soit d'une carte trouvée en ligne.",
+      },
+      {
+        term: "MSP, centre de santé et CPTS",
+        def: "Trois structures qu'on croise partout dans les communes qui recrutent des médecins, et qui ne sont pas interchangeables. La maison de santé pluriprofessionnelle (MSP) réunit des professionnels libéraux, payés à l'acte, autour d'un projet de santé commun : 2 644 recensées en 2024, pour un objectif national de 4 000 en 2027. Le centre de santé emploie des soignants salariés — par une commune, une mutuelle, une association — pratique le tiers payant et les tarifs de secteur 1. La communauté professionnelle territoriale de santé (CPTS) n'est pas un lieu mais une coordination à l'échelle d'un bassin de vie, qui peut fédérer plusieurs MSP, des cabinets isolés et des centres. En pratique, quand vous cherchez un médecin traitant dans une zone tendue, ce sont souvent la MSP et le centre de santé qui prennent encore de nouveaux patients.",
+      },
+      {
+        term: "Forfait journalier hospitalier et forfait patient urgences",
+        def: "Le forfait journalier est la participation aux frais d'hébergement à l'hôpital, due par jour de séjour y compris le jour de sortie, quel que soit votre taux de remboursement et même en ALD : 23 € par jour depuis le 1ᵉʳ mars 2026, 17 € en service psychiatrique, contre 20 € et 15 € auparavant. Le forfait patient urgences (FPU) est dû pour un passage aux urgences non suivi d'une hospitalisation : 23 € depuis la même date, contre 19,61 €, avec un montant minoré pour les personnes en ALD ou en accident du travail. Ces deux forfaits-là, à la différence des franchises, sont couverts par la quasi-totalité des complémentaires — vérifiable en une ligne sur le tableau de garanties.",
+      },
+      {
+        term: "SAS (service d'accès aux soins) et 116 117",
+        def: "Cabinet fermé, aucun rendez-vous avant trois semaines : le réflexe des urgences est souvent le mauvais. Le 116 117, numéro de la permanence des soins ambulatoires, et le 15 mènent tous deux à une régulation médicale qui trie l'urgence vitale et le soin non programmé, et qui peut orienter vers un praticien de garde ou un créneau libéré, avec pour objectif affiché une prise en charge sous 48 heures. Le décret qui en fixe l'organisation date de juin 2024, mais le déploiement est inégal d'un département à l'autre et l'offre de garde varie selon les territoires. C'est une chose à vérifier à l'arrivée dans une nouvelle commune — pas le soir où l'on en a besoin.",
+      },
+    ],
+  },
 ];
 
 const TERM_COUNT = SECTIONS.reduce((n, s) => n + s.terms.length, 0);
@@ -613,7 +679,7 @@ export default function GlossairePage() {
     "@type": "DefinedTermSet",
     name: "Glossaire immobilier et relocation",
     description:
-      "Termes clés pour acheter, louer, investir, assurer, déménager ou scolariser ses enfants en France : DPE, LMNP, ZFE, taxe foncière, fibre FTTH, encadrement des loyers, carte scolaire, IPS, garantie cat-nat et plus.",
+      "Termes clés pour acheter, louer, investir, assurer, déménager, scolariser ses enfants ou se faire soigner en France : DPE, LMNP, ZFE, taxe foncière, fibre FTTH, encadrement des loyers, carte scolaire, IPS, garantie cat-nat, médecin traitant, ALD, zonage ZIP et plus.",
     hasDefinedTerm: SECTIONS.flatMap((s) =>
       s.terms.map((t) => ({
         "@type": "DefinedTerm",
@@ -647,9 +713,9 @@ export default function GlossairePage() {
           </h1>
           <p className="text-[var(--text-secondary)] leading-relaxed">
             {TERM_COUNT} termes clés pour comprendre l&apos;immobilier, la location, l&apos;investissement
-            locatif, l&apos;assurance du logement, le déménagement et la scolarisation des enfants en
-            France en 2026. Pas de jargon inutile, juste les définitions qu&apos;il faut connaître
-            avant de signer.
+            locatif, l&apos;assurance du logement, le déménagement, la scolarisation des enfants et
+            l&apos;accès aux soins en France en 2026. Pas de jargon inutile, juste les définitions
+            qu&apos;il faut connaître avant de signer.
           </p>
         </div>
       </section>
