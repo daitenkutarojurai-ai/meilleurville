@@ -2212,6 +2212,89 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ---
 
+## Shipped 2026-08-20
+
+- **Série tourisme — batch 33 EN, rattrapage de parité : `things-to-do-in-[city]-2026` (+6)** ✅
+  Les 6 jumelles du batch 32 FR (18/08) écrites d'un coup dans `data/guides-en.ts` : **Le Lamentin
+  (972), Baie-Mahault (971), Saint-Louis (974), Saint-Joseph (974), Les Sables-d'Olonne,
+  Vincennes**. **Compteurs mesurés : FR 213, EN 213 — écart nul, parité rétablie**
+  (`EN_GUIDES` 701 → 707). Le compte se prend des deux côtés avec
+  `grep -c 'slug: "10-choses-a-faire-a[ux]*-.*-2026"'` et
+  `grep -c 'slug: "things-to-do-in-.*-2026"'` — les sept slugs FR à article contracté
+  (`au-puy-en-velay`, `au-tampon`, `au-francois`, `au-robert`, `aux-abymes`, `au-lamentin`,
+  `aux-sables-d-olonne`) restent hors gabarit et ne sont pas des trous.
+
+  ⚠️ **Un conseil de nommage laissé par le batch 32 a été écarté, à raison.** Il annonçait que le
+  suffixe départemental de `saint-louis-reunion-**974**` « n'a pas à passer côté EN, où aucun autre
+  slug ne le porte ». C'est vrai du style et faux du fonctionnement : la page ville EN résout son
+  guide par `getEnGuide('things-to-do-in-' + slug + '-2026')` **sur le slug de seed**
+  (`app/[locale]/cities/[slug]/things-to-do/page.tsx:130`), donc un guide nommé
+  `things-to-do-in-saint-louis-reunion-2026` serait resté **invisible sur la page de Saint-Louis**,
+  exactement le défaut que le batch 32 venait de corriger côté FR pour les slugs à article. Le slug
+  livré est donc **`things-to-do-in-saint-louis-reunion-974-2026`**, moche et branché. Règle
+  générale : côté EN, le slug d'un guide de la série se dérive du **slug de seed tel quel**, jamais
+  d'une version « propre » de celui-ci. Vérifié après écriture — les 6 guides sont retrouvés par le
+  lookup et les 6 reçoivent bien leur photo d'en-tête via `guideCityPhoto()`.
+
+  Écrit en anglais natif depuis les faits des guides FR, jamais traduit ; `metaTitle` 42-47
+  caractères, `metaDesc` 147-154, 8 sections par guide (la série FR en compte 10, la version EN
+  fusionne les fins de liste comme tous les batches EN précédents). **Aucune figure en `/10`, aucun
+  horaire, aucun tarif** : la série tourisme n'en cite pas, donc rien à contrôler contre le module —
+  et rien de ce que `npm run integrity` ne pourrait pas voir n'a été inventé.
+
+  **Les prudences du FR sont reprises telles quelles et ne doivent pas être diluées** : la
+  **mangrove n'est pas un lieu de baignade** (Le Lamentin et Baie-Mahault) ; le **chlordécone** est
+  nommé comme fait documenté de la plaine du Lamentin, sans chiffre et sans verdict ; **La Favorite
+  a une adresse au Lamentin** tout en étant à la limite de Fort-de-France ; la baignade en mer est
+  **interdite hors lagon de la côte ouest et hors bassins surveillés** à La Réunion, avec sa
+  précision géographique dans les deux guides 974 (**pas de lagon devant Saint-Louis, pas de lagon
+  dans le sud**) ; les **arrêtés de baignade de la rivière Langevin sont affichés sur place et font
+  foi**, jamais résumés en « c'est autorisé » ; et le **bois de Vincennes n'est pas à Vincennes** —
+  il relève de la Ville de Paris et du 12ᵉ arrondissement, donc Parc floral, zoo, hippodrome,
+  arboretum et Cartoucherie sont écrits « accessible from », convention des batches 26/28/30.
+
+  **Cinq ajouts propres à l'angle voyageur étranger, absents du FR parce qu'inutiles à un lecteur
+  français.** ① Les **DROM ne sont pas dans l'espace Schengen** : un visa Schengen n'y est pas
+  valable, ce qui se règle avant de réserver et pas à l'embarquement — dit dans les quatre guides
+  ultramarins. ② La Martinique est **hors territoire TVA et accises de l'UE**, donc le rhum
+  rapporté en métropole relève d'une **franchise voyageur** et non d'une circulation intra-UE ; la
+  quantité renvoie à la douane, aucun chiffre n'est imprimé. ③ **La Réunion est à UTC+4 sans heure
+  d'été et ses saisons sont inversées** — l'hiver austral (mai-novembre) est la *bonne* saison,
+  contre-intuitif pour un anglophone. ④ Sur une plage française surveillée, **vert / jaune / rouge**
+  et la zone balisée sont une signalétique réglementaire, pas un avis — dit aux Sables. ⑤ Les
+  **vacances scolaires** commandent la foule : la Vendée est en **académie de Nantes, zone B**, mais
+  les **dates bougent chaque année**, donc renvoi au calendrier officiel et **aucune date citée**
+  (même traitement que la série `single-parent-holidays-*` du 19/08). Deux précisions mineures dans
+  la même veine : un **lolo** est expliqué la première fois qu'il apparaît, et le **Théâtre du
+  Soleil joue en français**, ce qu'un lecteur anglophone ne devine pas avant d'avoir réservé.
+
+  **Tags** : aucun tag neuf inventé, mais `guadeloupe` franchit le seuil de 3 guides avec
+  Baie-Mahault et **crée `/tags/guadeloupe` côté EN** (99 → 100 pages de tag) — d'où le passage de
+  `npm run sitemap:check`. Les cinq autres réutilisent `martinique`, `reunion`, `pays-de-la-loire`,
+  `ile-de-france`.
+
+  **Contrôles** : `npx tsc --noEmit` propre, `npm run integrity` propre (540 villes, FR 973,
+  EN 707, 0 score brut recopié des deux côtés), `npm run search-index` relancé
+  (`data/search-index.en.json` 707 guides, 100 tags) puis `search-index:check` propre,
+  `npm run sitemap:check` propre dans les deux sens (FR 29 040 URL, EN 28 584),
+  `npm run hreflang:check` propre, `npm run parity` en code 0. **0 em-dash** sur les six guides
+  (cible R7.10 : ~1 pour 200 mots), densité de caractères accentués conforme — les noms propres
+  français gardent leurs diacritiques, aucun ascii-strip.
+
+  **Prochain run de la série : batch FR** (l'écart est nul, la main revient au FR). L'outre-mer est
+  épuisé des deux côtés. Restent en piste, dans l'ordre où le batch 32 les a laissées : les six
+  banlieues de province jamais faites — **Villenave-d'Ornon, Talence, Le Bouscat** (Bordeaux
+  Métropole) et **Vaulx-en-Velin, Saint-Priest, Bron** (Métropole de Lyon ; rappel du batch 28 :
+  **l'Espace Albert Camus et le fort de la ceinture lyonnaise sont à Bron**, pas à Vénissieux) — et
+  les trous touristiques réels du corpus, les plus nets étant **Salon-de-Provence**,
+  **Saint-Quentin**, **Brive-la-Gaillarde**, **La Seyne-sur-Mer** et **Saint-Herblain**.
+
+  **Non livré ce run**, et volontairement : aucun déploiement (le runner nocturne publie `main`),
+  aucun `npm run build` (interdit depuis une routine), et aucune relecture du reste de la série
+  tourisme EN — seules les six nouvelles entrées ont été écrites et contrôlées.
+
+---
+
 ## Shipped 2026-08-19
 
 - **F16 — les classements propriétaires ne fabriquent plus l'ordre qu'ils n'ont pas mesuré**

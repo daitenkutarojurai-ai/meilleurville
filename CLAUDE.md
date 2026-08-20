@@ -726,6 +726,40 @@ ou continuer sur les trous touristiques réels du corpus, dont les plus nets apr
 **Salon-de-Provence** (château de l'Empéri, Nostradamus), **Saint-Quentin** (Art déco, pastels de
 Quentin de La Tour), **Brive-la-Gaillarde**, **La Seyne-sur-Mer** et **Saint-Herblain**.
 
+**Batch 33 — EN, rattrapage de parité, shipped 2026-08-20.** Les 6 jumelles
+`things-to-do-in-[slug]-2026` du batch 32 écrites d'un coup dans `data/guides-en.ts` (Le Lamentin,
+Baie-Mahault, Saint-Louis 974, Saint-Joseph 974, Les Sables-d'Olonne, Vincennes). **Compteurs
+mesurés : FR 213, EN 213 — écart nul, parité rétablie** (`EN_GUIDES` 701 → 707).
+⚠️ **Le conseil de nommage du batch 32 sur le suffixe `-974` a été écarté, et il faut savoir
+pourquoi.** Il annonçait que « le suffixe numérique n'a pas à passer côté EN ». C'est vrai du style
+et faux du fonctionnement : `app/[locale]/cities/[slug]/things-to-do/page.tsx` résout son guide par
+`getEnGuide('things-to-do-in-' + slug + '-2026')` **sur le slug de seed**, donc
+`things-to-do-in-saint-louis-reunion-2026` serait resté invisible sur la page de Saint-Louis — le
+défaut même que le batch 32 venait de corriger côté FR pour les slugs à article. Le slug livré est
+**`things-to-do-in-saint-louis-reunion-974-2026`**. **Règle générale : côté EN, le slug d'un guide
+de série se dérive du slug de seed tel quel, jamais d'une version « propre » de celui-ci** ; le
+rapprochement photo (`guideCityPhoto`) suit la même clé. Les 6 guides ont été vérifiés retrouvés
+par le lookup **et** pourvus de leur photo d'en-tête après écriture.
+Écrit en anglais natif depuis les faits des guides FR, `metaTitle` 42-47 caractères, `metaDesc`
+147-154, 8 sections par guide (la série FR en compte 10, l'EN fusionne les fins de liste). Aucune
+figure en `/10`, aucun horaire, aucun tarif. Les prudences du FR sont reprises telles quelles :
+mangrove non baignable, chlordécone nommé sans chiffre ni verdict, La Favorite avec adresse au
+Lamentin, baignade en mer interdite hors lagon ouest et bassins surveillés à La Réunion (**pas de
+lagon devant Saint-Louis, pas de lagon dans le sud**), arrêtés de la rivière Langevin affichés sur
+place et faisant foi, **bois de Vincennes accessible depuis Vincennes sans y être situé**.
+Cinq ajouts propres à l'angle voyageur étranger : les **DROM ne sont pas dans Schengen** (un visa
+Schengen n'y vaut pas), la Martinique est **hors territoire TVA et accises de l'UE** donc le rhum
+relève d'une franchise voyageur renvoyée à la douane sans chiffre imprimé, **La Réunion est à UTC+4
+sans heure d'été et ses saisons sont inversées**, la signalétique **vert/jaune/rouge** d'une plage
+surveillée est réglementaire, et les **vacances scolaires** commandent la foule (Vendée = académie
+de Nantes, **zone B**, dates renvoyées au calendrier officiel, aucune date citée).
+**Tags** : aucun tag neuf inventé, mais `guadeloupe` franchit le seuil de 3 guides et **crée
+`/tags/guadeloupe` côté EN** (99 → 100), d'où le passage de `npm run sitemap:check` (FR 29 040 URL,
+EN 28 584). `npm run search-index` relancé (`data/search-index.en.json` 707 guides, 100 tags).
+**Prochain run : batch FR** (l'écart est nul, la série FR reprend la main). L'outre-mer est épuisé
+des deux côtés ; reprendre les six banlieues de province jamais faites (Villenave-d'Ornon, Talence,
+Le Bouscat ; Vaulx-en-Velin, Saint-Priest, Bron) ou les trous touristiques listés au batch 32.
+
 ### Glossaire (`app/glossaire/page.tsx`)
 
 Page unique, données inline (`SECTIONS: {title, emoji, terms[]}`), `DefinedTermSet` JSON-LD généré

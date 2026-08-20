@@ -25363,6 +25363,306 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["things to do in les abymes", "les abymes", "travel", "city guide", "guadeloupe"],
   },
   {
+    slug: "things-to-do-in-le-lamentin-2026",
+    title: "Things to do in Le Lamentin: the mangrove behind the airport",
+    metaTitle: "Things to Do in Le Lamentin, Martinique (2026)",
+    metaDesc:
+      "The Morne-Cabri mangrove, kayaking the baie de Génipa, a steam-driven rum distillery and the Nèg Mawon, on Martinique's largest agricultural plain.",
+    category: "city-guide",
+    emoji: "🌿",
+    readMinutes: 7,
+    publishedAt: "2026-08-20",
+    updatedAt: "2026-08-20",
+    intro:
+      "Le Lamentin is the second most populous commune in Martinique, around 39,000 people, spread over the island's largest agricultural plain at the head of the bay of Fort-de-France. It is also the commune every visitor crosses without seeing. Martinique Aimé-Césaire airport sits on its territory: you land, pick up the hire car and drive off towards Les Trois-Îlets or the north. Le Lamentin has no postcard beach and does not pretend to. What it has is mangrove, the commune being named after the manatee that lived in these waters before it disappeared from them, a distillery still driven by steam, and one of the strongest monuments in contemporary Martinique on the memory of slavery.",
+    sections: [
+      {
+        heading: "The Morne-Cabri mangrove",
+        body: "This is the commune's reference natural site: several hundred hectares of mangrove and swamp forest along the bay, crossed by a laid-out trail. You enter along an old track once used to bring out the sugar crop, and you pass the remains of that industry on the way, a lime kiln and the shells of farm buildings. The path is waymarked and flat, walkable or runnable, and it is a green lung for people who live here as much as a discovery site, so expect local runners rather than tour groups. Take repellent, avoid the middle of the day for the heat, and stay on the walkway: mangrove roots are trampled flat very quickly.",
+      },
+      {
+        heading: "The mangrove by kayak, on the baie de Génipa side",
+        body: "The honest way to understand a mangrove is to enter it by water. Guided kayak trips leave from the head of the bay of Fort-de-France, in the channels of the baie de Génipa, and work upstream between the stilt roots of the red mangroves. You see what the environment actually does: fish nursery, natural filter, and a buffer against cyclone swell. Operators are based around the bay and also run sunset trips and, depending on the season, bioluminescence trips. Book ahead, and check the tide: the channels are not passable at any hour.",
+      },
+      {
+        heading: "La Favorite, a distillery still run on steam",
+        body: "On the road linking Fort-de-France to the town centre, on the exact boundary between the two communes but with an address in Le Lamentin, La Favorite is one of the oldest distilleries still working in Martinique, founded in 1842 on the site of a former sugar works. Its distinguishing feature is mechanical: it still runs on steam, which makes it an industrial object as much as an agricultural one. The tour covers the full agricultural rum AOC chain, from cane reception through crushing, fermentation of the juice and the distillation column to ageing, and ends with a tasting, so decide in advance who drives. It is the closest distillery to the airport and a good first or last stop of a trip. One thing worth knowing before you buy a case: Martinique is a French department but it sits outside the European Union's VAT and excise territory, so bringing rum back to mainland France is subject to a traveller's allowance rather than being an internal EU movement. Check the current quantity with the French customs service rather than at the till.",
+      },
+      {
+        heading: "The Nèg Mawon by Khokho René-Corail",
+        body: "On the place d'Armes stands a monumental sculpture known as the Nèg Mawon, or the Tree of Liberty: a figure halfway between a man and a tree, the work of Joseph-René Corail, known as Khokho, completed with the Cuban sculptor Alberto Lescay. It commemorates the hundred and fiftieth anniversary of the abolition of slavery and is among the projects associated with the Slave Route programme carried by UNESCO. A nèg mawon is a maroon, an enslaved person who fled the plantation. Choosing that figure as the central one is not a neutral decision, and it is exactly what makes the monument worth the stop. It takes five minutes to see and rather longer to take in.",
+      },
+      {
+        heading: "Saint-Laurent church and the town centre",
+        body: "The parish church of Saint-Laurent has stood at the centre of the bourg since the end of the seventeenth century, following an earlier chapel established well before that; the present building is the result of successive rebuildings and restorations, like almost all Caribbean fabric exposed to cyclones and earthquakes. Part of its decoration, paintings and stained glass, is protected as a historic monument. Around it, the bourg is a small creole town of the plain, commercial and busy on weekdays, with narrow streets and balconied houses. This is not Saint-Pierre and it is not Les Trois-Îlets: you come here to see a Martinican town that works, not for the view.",
+      },
+      {
+        heading: "The Sunday covered market, and where the food is",
+        body: "The covered market on rue Ernest-André runs on Sunday morning and is the best window on Le Lamentin in its natural state. You find the produce of the plain and the heights, yams, sweet potatoes, chayote, bananas, mangoes in season, along with spices, chillies, colombo blends and syrups. On the table, the commune is known for its lolos and its creole restaurants, the ones Martinicans themselves use: accras, creole boudin, chicken colombo, fish blaff, matoutou crab at Easter. A lolo is a small, often family-run eating house, sometimes little more than a counter and a few tables, and menus are rarely translated. Prices bear no relation to those of the tourist coast.",
+      },
+      {
+        heading: "The heights, the Lézarde, and how to read the plain",
+        body: "Le Lamentin is not only flat: the commune climbs inland through a series of rural neighbourhoods, Croix-Rivail, Long-Pré, Bois-Rouge, where you find creole gardens, orchards and ridge roads with views over the bay. The Lézarde, the longest watercourse in Martinique, crosses the territory before reaching the sea in the mangrove, and it is the axis that explains the local geography. Some gardens and smallholdings can be visited, but these are small operations whose hours move: phone before driving up rather than counting on an open gate. The plain itself is the largest farmed area in Martinique and it tells the island's economy better than any museum, with cane, bananas and market gardening sharing the ground and rum distilleries and export chains at the end of the line. Chlordecone, used in banana growing until the early 1990s and whose persistence in the soil is established, is part of the local landscape and openly discussed in Martinique; official orders regulate fishing and certain crops in the affected areas. It is a less cheerful reading of the territory than a beach, and a considerably more useful one.",
+      },
+      {
+        heading: "Getting there, what sits half an hour away, and two practical points",
+        body: "The airport is on the commune, which settles the question of arrival, and a car remains necessary in Martinique since public transport does not serve the natural sites. Driving is on the right, as in mainland France. From here almost all of central Martinique is within half an hour outside peak times: Fort-de-France with its covered market, the bibliothèque Schœlcher and fort Saint-Louis, straight across the bay; Les Trois-Îlets, with Pointe du Bout and the Savane des Esclaves, by road or by the passenger ferry from Fort-de-France; Le François and its Habitation Clément on the Atlantic side. None of these sites is in Le Lamentin. They are accessible from it, which is precisely the commune's argument: you sleep and eat here for less and you sit in the middle of everything. On timing, the carême, the dry season, runs roughly from December to April and is the most comfortable and the busiest period, while the hivernage, from June to November, is wetter and coincides with the cyclone season, so follow the Météo-France Antilles-Guyane bulletins. Two practical points: the jams on the Lamentin to Fort-de-France axis at peak times are real and long, and the mangrove is not a place to swim. One last piece of paperwork that catches people out: Martinique is a French department but it is not in the Schengen area, so a Schengen visa is not valid here. If your nationality needs a visa for France, check that it covers the overseas department before booking.",
+      },
+    ],
+    relatedCities: ["le-lamentin", "fort-de-france", "le-francois", "le-robert"],
+    tags: ["things to do in le lamentin", "le lamentin", "travel", "city guide", "martinique"],
+  },
+  {
+    slug: "things-to-do-in-baie-mahault-2026",
+    title: "Things to do in Baie-Mahault: an Ali Tur church and the mangrove",
+    metaTitle: "Things to Do in Baie-Mahault, Guadeloupe (2026)",
+    metaDesc:
+      "An Ali Tur church listed since 2017, the Grand Cul-de-Sac Marin mangrove, the maison de Wonche and the Gabarre bridge, in Guadeloupe's crossroads commune.",
+    category: "city-guide",
+    emoji: "🛶",
+    readMinutes: 7,
+    publishedAt: "2026-08-20",
+    updatedAt: "2026-08-20",
+    intro:
+      "Baie-Mahault is the second most populous commune in Guadeloupe, around 31,000 people, on the north-east corner of Basse-Terre where the butterfly island folds back on the rivière Salée. It has a reputation as the archipelago's business commune rather than a tourist one, and that is accurate: the Jarry zone, on its territory, holds most of the economic activity and the commercial port. This guide starts from the premise that none of that is a reason to drive straight through. Baie-Mahault fronts the Grand Cul-de-Sac Marin, which is to say the largest mangrove in the Lesser Antilles, and it holds one of the most striking churches in the work of Ali Tur, the architect who rebuilt public Guadeloupe after the 1928 cyclone. No white sand, then, but two serious reasons to stop.",
+    sections: [
+      {
+        heading: "Saint-Jean-Baptiste, an Ali Tur church",
+        body: "This is the monument of the commune, and it is worth the detour even for someone who never sets foot in a church. The 1928 cyclone flattened most of Guadeloupe's public buildings; the state handed the reconstruction to the architect Ali Tur, who built in reinforced concrete, from repeated modules, a series of buildings of blunt modernity. Saint-Jean-Baptiste, awarded in 1931, is among the most accomplished of them: solid curved volumes, two towers framing the central bell tower, a silhouette that calls to mind the fortified churches of south-west France as much as Art Deco. It has been listed as a historic monument since 2017. The interior, wide open and free of intrusive piers, is the best argument concrete ever made for itself.",
+      },
+      {
+        heading: "The Grand Cul-de-Sac Marin by boat",
+        body: "Baie-Mahault opens onto the Grand Cul-de-Sac Marin, a vast lagoon closed by the longest coral barrier in the Lesser Antilles, edged by the largest mangrove in the Antillean arc and classed as a biosphere reserve. Glass-bottomed boat trips, kayaks and small craft leave from the area and work up the channels between the red mangroves. You see the stilt roots, the crabs, the herons, the fish nurseries, and sometimes the racoon that serves as the archipelago's emblem. This is the major natural environment of Guadeloupe and one of the very few the average visitor never sets eyes on. Book, take repellent, and do not expect turquoise water: mangrove water is brown, and that is exactly as it should be.",
+      },
+      {
+        heading: "The islets and the lagoon",
+        body: "From the same departure points, the lagoon of the Grand Cul-de-Sac Marin gives access to the islets, banks of sand and mangrove set between the shore and the barrier. Some are strict reserves where you do not land; others take day trips, with swimming in shallow, perfectly flat water sheltered by the reef, and a bottom clearly visible with mask and snorkel. These sites belong to the shore communes and to the national park zone rather than to Baie-Mahault as such; what the commune supplies is the access. Respect the protection zoning: turtles and seagrass beds are regulated there, and wild anchoring destroys the beds.",
+      },
+      {
+        heading: "The maison coloniale de Wonche",
+        body: "This mid-nineteenth-century planter's house, square in plan and ringed by a gallery on all four sides, is the main built witness to the plantation era in the commune. It has been restored and now houses a neighbourhood facility open to the public, with workshops and activities, so it is a living place rather than a museum frozen in aspic, which changes the visit. The perimeter gallery, the roof frame and the relation to the garden set out a way of building for heat and cyclones long before air conditioning existed. Check the opening slots, which follow the venue's programme rather than museum hours.",
+      },
+      {
+        heading: "Maison Dupuy and the bourg",
+        body: "The centre of Baie-Mahault can be walked in an hour. Besides the church it keeps the maison Dupuy, a creole timber building whose first plans go back to the middle of the nineteenth century, which accounts for its many French windows and dormers. The rest of the centre is an ordinary Antillean town, with its town hall, its shops and its market. This is a twenty-minute stop rather than half a day, and it is worth knowing before you come: in Baie-Mahault the built heritage comes down to three objects, but those three objects are good ones.",
+      },
+      {
+        heading: "Jarry: what it is, and why knowing helps",
+        body: "Jarry-Moudong is the leading business zone in Guadeloupe: several thousand firms, the bulk of the commercial port, and a considerable share of the archipelago's employment. It is not a sight and this guide will not pretend otherwise. Knowing about it has a concrete use for a visitor all the same, because this is where the large shops, the hire firms, the dealerships and a good part of the weekday lunchtime restaurants are, including creole tables that are genuinely good and full of people on their break. It is also where the morning and evening jams happen, which has to be factored into any journey between Basse-Terre and Grande-Terre.",
+      },
+      {
+        heading: "The Gabarre bridge and the rivière Salée",
+        body: "The rivière Salée is not a river: it is a narrow arm of the sea separating Basse-Terre from Grande-Terre, and it is what makes Guadeloupe two islands rather than one. Baie-Mahault is linked to Pointe-à-Pitre across it by the pont de la Gabarre, the compulsory crossing for the archipelago's traffic. The channel is lined with mangrove along nearly its whole length and can be paddled from the area: you pass under the bridges, between two walls of mangrove, with the traffic overhead. It is a short, easy outing and the best possible illustration of what Guadeloupean geography actually is.",
+      },
+      {
+        heading: "Eating, stocking up, what is half an hour away, and two things to check",
+        body: "Baie-Mahault has no restaurant seafront; it has lolos, food trucks and lunchtime tables. You eat Guadeloupean food here without adaptation: salt-cod accras, creole boudin, colombo, fish court-bouillon, bébélé, dombrés aux ouassous, and the coconut sorbet sold on the way out. For supplies, the commune concentrates the largest retail floorspace in the archipelago, which makes it the logical restocking point at the start of a stay if you have rented a gîte, and the roadside stalls sell the fruit of the season, mangoes, soursop and passion fruit, often cheaper than in tourist areas. Being the road junction of Guadeloupe is the commune's best argument as a base. The Route de la Traversée, which cuts across Basse-Terre through the heart of the national park with the Maison de la Forêt and the cascade aux Écrevisses, starts just to the south. Pointe-à-Pitre and the Mémorial ACTe, devoted to the memory of the slave trade and slavery, are on the other side of the bridge. The Valombreuse botanical garden is at Petit-Bourg, the next commune along. The Grande-Terre beaches, from Le Gosier to Sainte-Anne, are around thirty minutes away. None of these is in Baie-Mahault; all are accessible from it within the half hour. Practical matters: Guadeloupe Pôle Caraïbes airport is at Les Abymes, a quarter of an hour away, and a car is necessary because the bus network does not serve the natural sites. The carême, December to April, is the dry season and the high season; the hivernage, June to November, is wetter, cheaper and covers the cyclone season, so follow Météo-France Guadeloupe. Two things to check before you come: the waters of the Grand Cul-de-Sac Marin are shallow, laden and crossed by navigation channels, so the mangrove is not a place to swim freely, and you swim offshore, on the islets, as part of a guided trip. And Guadeloupe, French department though it is, is not in the Schengen area, so a Schengen visa is not valid here; if your nationality needs a visa for France, check that it covers the overseas department before booking.",
+      },
+    ],
+    relatedCities: ["baie-mahault", "pointe-a-pitre", "les-abymes"],
+    tags: ["things to do in baie-mahault", "baie-mahault", "travel", "city guide", "guadeloupe"],
+  },
+  {
+    slug: "things-to-do-in-saint-louis-reunion-974-2026",
+    title: "Things to do in Saint-Louis: the oldest Hindu temple on Réunion",
+    metaTitle: "Things to Do in Saint-Louis, Réunion (2026)",
+    metaDesc:
+      "Réunion's oldest Hindu temple, a working sugar mill, the Gol wetland, the Makes observatory and the window onto Cilaos, plus the island's swimming rule.",
+    category: "city-guide",
+    emoji: "🛕",
+    readMinutes: 7,
+    publishedAt: "2026-08-20",
+    updatedAt: "2026-08-20",
+    intro:
+      "Saint-Louis is the fourth most populous commune on Réunion, around 52,000 people, on the south-west coast between Saint-Pierre and L'Étang-Salé. Most visitors know it as a place they pass through: the route des Tamarins crosses it, the road up to Cilaos starts here, and plenty of people only ever stop at the lights. That is a waste, because the commune concentrates three things you will not find together anywhere else on the island: the oldest Hindu temple on Réunion, one of the last two sugar mills still working, and a hamlet up in the heights, Les Makes, with an astronomical observatory and the best existing viewpoint over the cirque of Cilaos.",
+    sections: [
+      {
+        heading: "The Tamil temple at Le Gol",
+        body: "In the camp du Gol, this temple is the oldest Hindu building on Réunion: it was raised in 1856 by Indian indentured workers on land belonging to the Le Coat de Kerveguen family, at a period when several temples were built on the sugar estates. It is the only one of them left. It has been listed as a historic monument in its entirety since 1996, which makes it a rare case, a Hindu place of worship protected on exactly the same footing as a church. The interior keeps painted decoration showing episodes from the Ramayana and the Mahabharata. It is a working place of worship, not a museum: dress appropriately, take your shoes off, and ask before photographing.",
+      },
+      {
+        heading: "The Gol sugar mill",
+        body: "Cane is still the agriculture that structures Réunion, and Gol is one of two mills left running on the island alongside Bois-Rouge in the east. It can be visited during the cane campaign, roughly July to December: cane reception, crushing, juice extraction, evaporation, crystallisation, and what becomes of the by-products, bagasse for energy and molasses for the distillery. This is a real factory, hot and loud, not a teaching reconstruction, and the smell stays in your clothes afterwards. Outside the campaign the mill is idle and the visit loses most of its point, so fix the dates first, and book.",
+      },
+      {
+        heading: "The étang du Gol",
+        body: "Between Saint-Louis and L'Étang-Salé lies the étang du Gol, a protected coastal wetland managed under a coastal conservation policy. It is one of the island's few low-altitude bodies of fresh water and therefore a refuge for birds: around twenty species are observed there, several of them of real conservation interest, among them the moorhen, the common myna and the striated heron. The site is walkable, with picnic areas under varied vegetation. Bring binoculars and come early: the birds show themselves in the morning, and it is in the afternoon that the wind gets up.",
+      },
+      {
+        heading: "Going up to Les Makes",
+        body: "Les Makes is a hamlet in the heights of Saint-Louis, at some 1,200 metres, reached by a road that climbs the slope in hairpins from the coast. The change is abrupt: you leave the cane and the heat for cryptomeria, pasture and a coolness that makes a jumper compulsory in the evening. The forêt des Makes, planted with cryptomeria and mountain tamarind, is crossed by several waymarked paths including family-sized loops. It is one of the few places on the island where you can go from a dry tropical climate to something close to middle mountain in three quarters of an hour of driving.",
+      },
+      {
+        heading: "The Makes observatory",
+        body: "The observatory at Les Makes enjoys a rare position: altitude, a southern sky with little light pollution, and a southern-hemisphere vantage that gives access to objects invisible from mainland Europe, the Magellanic Clouds, the Southern Cross, the centre of the Milky Way overhead in the austral winter. Guided evening observing sessions are run, with explanation at the telescope. This is a small-team operation: booking is required, and the session depends entirely on cloud cover, which clears more often in the dry season. Bring something warm, because it gets genuinely cold at night up there.",
+      },
+      {
+        heading: "La Fenêtre des Makes",
+        body: "A few minutes from the hamlet, the road ends at a laid-out belvedere known as the Fenêtre, the window: a gap in the rampart that opens all at once onto the cirque of Cilaos, some thousand metres below, with the Piton des Neiges behind it. It is one of the most spectacular viewpoints on the island and one of the very few reachable by car with no approach walk. The rule is the same as everywhere in the heights: be there early. The cloud comes up out of the ravines during the morning and the cirque often disappears before midday, including on days when the coast is in full sun. A picnic area completes the site.",
+      },
+      {
+        heading: "The road to Cilaos",
+        body: "The RN5, the famous road of four hundred bends, leaves Saint-Louis and climbs the ravine up to the cirque of Cilaos. It is a piece of civil engineering as much as a road: narrow tunnels, corbelled sections, hairpins cut into the rampart. It demands attention and time, considerably more time than a satnav will suggest, and it is a poor idea for anyone prone to motion sickness. At the top is Cilaos, with its thermal baths, its wine, its lentils and the trailheads for the Piton des Neiges. The road closes from time to time for rockfall or works, so check its state before setting off; the roads authority publishes it.",
+      },
+      {
+        heading: "The town, the neighbours, getting there, and the swimming rule",
+        body: "Saint-Louis is a working town rather than a shop window: a commercial centre, an open-air market, a church, and a population that reflects the whole Réunionnais mix, creole, Tamil, Muslim and Chinese. It shows on the plate, with cari poulet, rougail saucisse and cari boucané but also biryani, samoussas, bouchons and festival cakes according to the calendar. The market is where the produce of the heights and the plain turns up, lychees in December, brèdes, chayote, turmeric, and prices are those of a southern town with no seaside markup, which is a good reason to eat lunch here. Two neighbours round out a day. The rivière Saint-Étienne, the broad bed of boulders along the eastern edge of the commune, separates Saint-Louis from Saint-Pierre and leads up towards L'Entre-Deux, a creole village known for its traditional houses with fretted lambrequins, its flowered lanes and the Dimitile path, which climbs towards a viewpoint over the cirque of Cilaos and a place of remembrance for marronnage. On the other side, L'Étang-Salé has a beach of black volcanic sand, supervised only within the marked zones. Neither is Saint-Louis, but both are a quarter of an hour away. Practical matters: Saint-Louis is about forty minutes from Roland-Garros airport at Saint-Denis by the route des Tamarins, and ten minutes from Saint-Pierre, and a car is essential for the heights. The seasons run the opposite way to the northern hemisphere, which surprises first-time visitors: the austral winter, May to November, is the dry season, with clearer skies in the heights, a cooler sea and no cyclone risk, while the austral summer, December to April, is hot, humid and cyclonic. Réunion runs on UTC+4 all year round, with no daylight saving. And then the rule that admits no exception on this island: outside the lagoons of the west coast and the supervised pools, swimming in the sea is prohibited because of the shark risk, and there is no lagoon in front of Saint-Louis.",
+      },
+    ],
+    relatedCities: ["saint-louis-reunion-974", "saint-pierre-reunion", "saint-joseph-reunion", "le-tampon"],
+    tags: ["things to do in saint-louis", "saint-louis reunion", "travel", "city guide", "reunion"],
+  },
+  {
+    slug: "things-to-do-in-saint-joseph-reunion-2026",
+    title: "Things to do in Saint-Joseph: the wild south of Réunion",
+    metaTitle: "Things to Do in Saint-Joseph, Réunion (2026)",
+    metaDesc:
+      "Grand Galet falls, the Langevin river pools, Manapany and its endemic gecko, Grand Coude tea and Plaine des Grègues turmeric, in Réunion's wild south.",
+    category: "city-guide",
+    emoji: "🦎",
+    readMinutes: 7,
+    publishedAt: "2026-08-20",
+    updatedAt: "2026-08-20",
+    intro:
+      "Saint-Joseph is the southernmost commune in France, around 37,000 people, at the heart of what Réunionnais call the wild south: the coast with no lagoon, no white sand and no resort, taking the southern swell full in the face. What the commune has instead is fresh water and relief. The rivière Langevin strings together one of the finest successions of pools and waterfalls on the island, the rivière des Remparts cuts a canyon several hundred metres deep, and the heights hold the only cultivated tea in the French department along with a lizard that lives nowhere else in the world.",
+    sections: [
+      {
+        heading: "The Grand Galet waterfall",
+        body: "At the end of the road that climbs the valley of the rivière Langevin, the Grand Galet waterfall, which everyone also calls the cascade Langevin, drops in a spread of separate threads down a broad face covered in vegetation, into a deep-set pool. It is one of the most photographed sites on Réunion and it earns the reputation. It also earns an early start: the road is narrow, parking is limited, and the site fills up fast at weekends and during school holidays. Swimming there is regulated and the notices posted on site are what count. They change, and they are not decorative: in France a posted prefectoral or municipal order is a legally binding instruction, not advice.",
+      },
+      {
+        heading: "The pools of the rivière Langevin",
+        body: "The valley leading to Grand Galet is the outing in itself: some ten kilometres of road along the river, with a succession of pools, basalt basins, picnic areas and shelters taken over on Sundays by Réunionnais families. Some pools are open to swimming and others are not, and the local signage is the only valid reference. The absolute rule in a ravine: never stay in the bed if it is raining up in the heights, even under a clear sky where you are standing. Floods arrive in a matter of minutes, without warning, and they are the leading cause of serious accidents in the island's ravines.",
+      },
+      {
+        heading: "Canyoning and river walking",
+        body: "The rivière Langevin is one of the reference canyoning grounds on Réunion: basalt gorges, natural slides, jumps and abseils under waterfalls. Several levels exist, from an introductory route that needs no experience to technical descents reserved for practised canyoners. Being taken by a qualified professional is not an upgrade, it is the condition of entry: the flow depends directly on rain falling up in the heights, and a local guide is the only person able to say whether the trip is on that day. Cancellations for high water are frequent and entirely normal.",
+      },
+      {
+        heading: "Manapany-les-Bains",
+        body: "Manapany is the commune's seaside meeting point, and it follows the rule of the wild south: you do not swim in the sea, you swim in the pool. A natural bathing pool laid out behind a rock barrier lets you get into the water sheltered from the swell, supervised during set hours; beyond it the sea is heavy and off limits. The site is also worth it for itself, a small cove of pebbles, screw pines, a clifftop walk and a village atmosphere that has nothing in common with the west coast. This is the place where the difference between the two Réunions becomes obvious.",
+      },
+      {
+        heading: "The Manapany day gecko",
+        body: "The Manapany day gecko, Phelsuma inexpectata, is a small bright green lizard about ten centimetres long, endemic to Réunion and present only along a narrow strip of the southern coast, around Saint-Joseph, Petite-Île and the Grand Bois sector. It is classed as critically endangered: its habitat, the screw pines and creole gardens of the shoreline, shrinks as the coast is built on, and introduced species compete with it. You can catch sight of one on the screw pines at Manapany with a little patience and a lot of discretion. Do not handle it and do not move the vegetation: at that level of rarity every individual counts.",
+      },
+      {
+        heading: "Grand Coude, its viewpoints and its tea",
+        body: "Grand Coude is a perched hamlet in the heights of Saint-Joseph, set on a plateau between two canyons, and that is precisely what makes it interesting: the road up and the laid-out viewpoints look down on one side into the rivière des Remparts and on the other into the valley of the rivière Langevin, with ramparts falling several hundred metres. Picnic areas are installed at the best spots and the village itself has kept a rural, creole character the coast has lost. As everywhere in the heights, aim for the morning, because the sea of cloud comes up the valleys during the day. Grand Coude also holds a tea plantation, unique of its kind on French territory, laid out as a plant maze that you walk while learning how the leaf is grown and processed. The visit covers picking, withering, rolling, oxidation and drying, with a tasting at the end, of a tea grown at some thousand metres in the tropics, which exists nowhere else in the country. It is a small family operation rather than an industrial site: book, and check the opening days before making the drive, which climbs a long way up from the coast.",
+      },
+      {
+        heading: "Plaine des Grègues turmeric, and the rivière des Remparts",
+        body: "Another hamlet in the heights, the Plaine des Grègues is turmeric country, safran péi as it is called on Réunion, grown here for generations and processed on the spot. The Maison du Curcuma presents the plant, its cultivation, its processing into powder and its use in creole cooking, along with the island's other spices and aromatic plants, vanilla, combava, rose geranium and vetiver, and you leave with things you will not find in a supermarket. It is a short, family-friendly stop and it combines naturally with the climb to Grand Coude in the same half day. North of the commune, the rivière des Remparts cuts one of the most impressive valleys on the island, hemmed in between walls several hundred metres high, with the isolated hamlet of Roche Plate at the bottom, reachable on foot or by four-wheel drive along a track. The walk up the bed is long and committing and should be left to trained walkers. On the coast, the commune runs east towards Vincendo; beyond that begin Saint-Philippe and the Cap Méchant, with its basalt columns hammered by the swell, and then the Puits arabe. Those sites belong to the neighbouring commune but they chain together on the same day.",
+      },
+      {
+        heading: "Getting there, when to come, and the safety rule",
+        body: "Saint-Joseph is about twenty minutes from Saint-Pierre and an hour and a quarter from the airport at Saint-Denis. A car is essential, since neither the Langevin valley nor the heights are served otherwise. The seasons run the opposite way to the northern hemisphere, which is the first thing to get straight: the austral winter, May to November, is the dry season, with fewer floods, more clear days in the heights and no cyclone risk, while the austral summer is hot and humid and is the period when the ravines turn dangerous. Réunion runs on UTC+4 all year, with no daylight saving, and it is a French department, so the euro, French plugs and French road rules apply. It is not, however, part of the Schengen area: a Schengen visa is not valid here, so if your nationality needs a visa for France, check that it covers the overseas department before booking. Finally, the rule that holds for the whole island and particularly here: outside the lagoons of the west coast and the supervised pools, swimming in the sea is prohibited because of the shark risk, and there is no lagoon in the south.",
+      },
+    ],
+    relatedCities: ["saint-joseph-reunion", "saint-pierre-reunion", "saint-louis-reunion-974", "le-tampon"],
+    tags: ["things to do in saint-joseph", "saint-joseph reunion", "travel", "city guide", "reunion"],
+  },
+  {
+    slug: "things-to-do-in-les-sables-d-olonne-2026",
+    title: "Things to do in Les Sables-d'Olonne: where the Vendée Globe starts",
+    metaTitle: "Things to Do in Les Sables-d'Olonne (2026)",
+    metaDesc:
+      "The Remblai, the Vendée Globe start at Port-Olona, the shell mosaics of île Penotte, La Chaume and the Arundel tower, the MASC and the Puits d'Enfer.",
+    category: "city-guide",
+    emoji: "⛵",
+    readMinutes: 7,
+    publishedAt: "2026-08-20",
+    updatedAt: "2026-08-20",
+    intro:
+      "Les Sables-d'Olonne is the reference seaside town of the Vendée, around 46,000 residents year-round and a great many more in summer. Since 1 January 2019 it has been a commune nouvelle, merged with Château-d'Olonne and Olonne-sur-Mer, which is why a single administrative territory now carries a large town beach, a rocky coast, a state forest and salt marshes. It also has an identity few resorts can claim: the Vendée Globe, the solo round-the-world race sailed non-stop and without assistance, starts from its channel every four years. The rest of the time the town lives on fishing, on tourism, and on a centre that is not merely a set.",
+    sections: [
+      {
+        heading: "The Remblai and the Grande Plage",
+        body: "The Remblai is the promenade running the length of the Grande Plage: a regular bay facing south, sheltered by two headlands, with fine sand and a gentle slope that makes it workable with small children. It is the first reason the town has existed as a resort since the nineteenth century. The walk is good at any hour, and out of season it is every bit as pleasant as in July, minus the westerly. The buildings along it happen to tell a century of seaside architecture in passing, from turn-of-the-century villas to the slabs of the 1960s and 1970s, with no hierarchy and no embarrassment. On the sand, look for the flags: on a supervised French beach, green means swimming allowed and watched, yellow means watched but hazardous, and red means swimming prohibited, and the supervised zone is the marked one.",
+      },
+      {
+        heading: "The fishing port, the auction and the ferry",
+        body: "Les Sables is still a working fishing port rather than a reconstruction: the trawlers come in, the auction runs, and you can follow the activity from the quays. It is the best place in town to be when the fleet returns. Opposite, a passeur, a ferry crossing of a few minutes across the channel, links the town to the La Chaume district. The service is an old one and still in daily use, and it remains the fastest and by some distance the most agreeable way to cross. The trip takes less time than the walk round to the bridge, and it gives the best view there is of the channel and the boats in it.",
+      },
+      {
+        heading: "Port-Olona and the Vendée Globe",
+        body: "Port-Olona is the town's marina, and it is where the Vendée Globe starts: a round-the-world race sailed solo, non-stop and without assistance, run from Les Sables-d'Olonne every four years. In the weeks before a start, the race village and the IMOCA pontoon draw hundreds of thousands of visitors and the departure channel is lined along its whole length. Outside those periods the port stays open to walkers and racing boats sit at the quay all year. The town has made this its identity, and it shows in the shops as much as in the signage. If your trip is meant to coincide with a start, book accommodation extremely far ahead.",
+      },
+      {
+        heading: "The île Penotte and its shell mosaics",
+        body: "The île Penotte is a knot of narrow lanes in the old centre, a couple of minutes from the beach, whose walls are covered in mosaics made of shells: marine scenes, figures, animals and patterns built up from glued shell. The initiative belongs to Danièle Arnaud-Aubin, known as the shell lady, who began decorating the façades of the quarter in 1997 and found imitators. It is free, open at all hours, and takes about half an hour to walk. The quarter is lived in: you go through on foot, at a normal speaking volume, and you stay out of the courtyards. It is also one of the few corners of the town that stays interesting in the rain.",
+      },
+      {
+        heading: "La Chaume and the tour d'Arundel",
+        body: "On the far side of the channel, La Chaume was an independent fishing village before it was attached to the town. The quarter has kept its narrow lanes, its low houses with painted fronts and a character that is not the Remblai's. At the point, the tour d'Arundel is a former square keep, the only remnant of the château Saint-Clair, now capped with a lighthouse: from the top, the view takes in the bay, the channel, the town and the open sea. Beside it, the chapel and priory of Saint-Nicolas overlooks the harbour entrance and the memorial to sailors lost at sea. This is the best half day the town has to offer away from the beach.",
+      },
+      {
+        heading: "The Musée de l'Abbaye Sainte-Croix",
+        body: "The MASC occupies a Benedictine abbey founded in the seventeenth century and has housed a museum of modern and contemporary art since 1963, one of the first created in the French regions. It holds the most important public collections devoted to two artists: Gaston Chaissac, the self-taught Vendéen associated with art brut, and Victor Brauner, the Romanian-born painter who passed through Parisian surrealism. Setting the two against each other inside a seventeenth-century monastic building produces a contrast that is the whole interest of the visit. Temporary exhibitions round out the programme, and the hang rotates, so check what is up before coming.",
+      },
+      {
+        heading: "The halles, the centre, and the Puits d'Enfer coast",
+        body: "The covered halles are the town's larder and the place where the Vendée is eaten: fish and shellfish landed a few hundred metres away, oysters from the bay of Bourgneuf and from L'Aiguillon, mogette beans, Vendée ham, préfou, Vendée brioche and gâche. Around them, the old centre runs to pedestrian shopping streets, the church of Notre-Dame-de-Bon-Port and a few squares worth sitting down in. It is a centre that works all year, which is not true of every resort on the Atlantic coast and is a useful criterion if you are considering an out-of-season stay. South of the town, on the Château-d'Olonne side, the coast stops being sandy and becomes a cliff cut by coves. The Puits d'Enfer is a narrow fissure carved at right angles into the rock, into which the sea rushes at high tide with considerable noise; the site has generated its share of local legend. A coastal path runs along this shore and lets you chain the viewpoints on foot from the town. Basic caution: the edge of the fissure is not railed all the way round, the rock is slippery when wet, and in heavy weather you look from a distance.",
+      },
+      {
+        heading: "The marsh, the forest, and getting there",
+        body: "On the northern side, the territory of the commune nouvelle takes in the marais d'Olonne, a former gulf silted up into a set of salt pans and wetlands, and the state forest of Olonne, a coastal pine plantation put in to fix the dunes. Both can be crossed on foot and by bike on a network of flat tracks, and the marsh is a serious birdwatching site, with black-winged stilts, avocets, egrets and spoonbills depending on the season. Salt makers still work there. It is the exact reverse of the Remblai, a quarter of an hour away by bike, and it is what makes the commune more interesting than its beach alone. Getting there: the town has a railway station at the end of a line from Nantes, with direct services to Paris depending on the period; by road it is around three quarters of an hour from La Roche-sur-Yon and a little over an hour and a half from Nantes. Parking in the centre and along the Remblai is the real subject of July and August, and out of season the town stays open while accommodation costs something else entirely. Two calendar points are worth knowing. The tidal range on this coast is large and the sea goes a long way out, so pick up the local tide tables: at spring tides the foreshore is uncovered and the beach becomes a different place, which is worth planning around rather than discovering. And French school holidays drive the crowds; the Vendée sits in the académie de Nantes, zone B, but the dates move every year, so check the official calendar published by the education ministry rather than assuming.",
+      },
+    ],
+    relatedCities: ["les-sables-d-olonne", "la-roche-sur-yon", "challans", "noirmoutier"],
+    tags: ["things to do in les sables-d'olonne", "les sables-d'olonne", "travel", "city guide", "pays-de-la-loire"],
+  },
+  {
+    slug: "things-to-do-in-vincennes-2026",
+    title: "Things to do in Vincennes: the tallest medieval keep in Europe",
+    metaTitle: "Things to Do in Vincennes, near Paris (2026)",
+    metaDesc:
+      "A royal keep, a Sainte-Chapelle, moats with a heavy history, an Art Deco church in concrete, and the bois, which belongs to Paris and not to Vincennes.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 7,
+    publishedAt: "2026-08-20",
+    updatedAt: "2026-08-20",
+    intro:
+      "Vincennes is a town of 48,000 people in the Val-de-Marne, pressed up against Paris, served by the terminus of métro line 1 and by RER A. It is also, and this is what sets it apart from every other commune of the inner suburbs, the only one that owns a surviving medieval royal residence: the château de Vincennes, whose keep is the tallest medieval tower still standing in Europe. The town's paradox sits right there. Millions of people in the Paris region know the name from the métro station and from the wood, and only a minority has ever been inside the keep. The wood, for its part, does not belong to Vincennes: it belongs to the City of Paris. This guide says which is which.",
+    sections: [
+      {
+        heading: "The keep",
+        body: "The keep of Vincennes rises about fifty-two metres and is held to be the tallest medieval tower still standing in Europe. It was built in the fourteenth century, essentially under Charles V, who made it his residence and installed his chamber and his library in it. The visit climbs floor by floor, from the level of the kitchens up to the terrace, through vaulted rooms carried on a single central boss and closets contrived in the thickness of the walls. You come away understanding something the Loire châteaux never show: what royal power looked like while it still lived inside a fortress. The climb is physical and the stair is narrow.",
+      },
+      {
+        heading: "The Sainte-Chapelle and the enceinte",
+        body: "In the courtyard, the Sainte-Chapelle of Vincennes was begun under Charles V on the model of the one in the Palais de la Cité in Paris, and finished a great deal later: its choir carries Renaissance glass remarkable for both drawing and colour. The enceinte, long and rectangular, keeps its truncated towers, its châtelet and the seventeenth-century pavilions built for Mazarin and the young Louis XIV. The site is run as a national monument and takes temporary exhibitions. It also houses the Service historique de la Défense, which is to say the French military archives, and that is what explains the permanent military presence on the premises.",
+      },
+      {
+        heading: "The moats, and what happened in them",
+        body: "The circuit of the moats is free and can be walked from the town. It is worth doing for the architecture, and it is worth doing above all for what took place there. It was in these moats that the duc d'Enghien was shot in 1804 on Bonaparte's orders, after being seized on foreign soil and tried in haste, the affair that durably isolated the Consulate in Europe. It was here that Mata Hari was executed in 1917. It was here again that members of the Resistance were shot during the Occupation. Plaques record these facts. You can walk the whole circuit without noticing them, which would be a pity: they are half the interest of the place.",
+      },
+      {
+        heading: "Saint-Louis church, Art Deco in concrete",
+        body: "Ten minutes' walk from the château, the church of Saint-Louis de Vincennes is among the very first French religious buildings to exploit reinforced concrete to the full. Begun in 1914, interrupted by the war, resumed in 1919 and finished in 1924, it is the work of two young architects, Jacques Droz and Joseph Marrast, who wanted a single volume clear of walls and piers. The result is an Art Deco interior of neo-Byzantine inspiration, with frescoes by Maurice Denis and Henri Marret, ceramics by Maurice Dhomme and ironwork by Raymond Subes. Listed as a historic monument since 1996, it remains astonishingly little visited.",
+      },
+      {
+        heading: "The town hall and the cours Marigny",
+        body: "The Vincennes town hall is a large building of the late nineteenth century whose façades and roofs are protected, along with several interiors: the entrance halls, the marriage room of 1891 and the banqueting room added in the 1930s. It opens onto the cours Marigny, a planted esplanade that serves as the town's central square and hosts funfairs, flea markets and public events. Taken together they give a fair idea of what a prosperous suburban commune was aiming at under the Third Republic. The town runs heritage discovery trails that link these buildings to the rest of the centre.",
+      },
+      {
+        heading: "The centre and the markets",
+        body: "Vincennes has kept a genuine shopping centre, which is rarer than people think in the inner suburbs: rue du Midi and the streets around it are pedestrianised or calmed, with independent shops and café terraces. The town has three markets on its territory, among them the one in the Carnot quarter to the south, near the château, held on Saturdays. That is the best moment to see the town as it lives. All of it combines easily with the château, since the centre is a few minutes on foot from the monument's entrance and the Château de Vincennes métro station drops you exactly between the two.",
+      },
+      {
+        heading: "The bois de Vincennes, which is not in Vincennes",
+        body: "An important point, and one systematically missed: the bois de Vincennes, about 995 hectares, belongs to the City of Paris and is administratively attached to the 12th arrondissement, not to the commune of Vincennes. It is therefore accessible from Vincennes without being situated in it, in the same way the bois de Boulogne is accessible from Neuilly. That said, it is the largest green space in Paris and it begins where the town ends: riding tracks, running paths, lakes, a guinguette, and enough ground to walk for hours without retracing your steps. Lac Daumesnil and its island, with rowing boats, are the easiest way in from the métro. Still inside the wood, and so on the Paris side, the Parc floral covers some thirty hectares laid out as themed gardens, a valley of flowers, a dahlia garden, a pine wood and pools, and runs a programme of open-air concerts and horticultural shows in season; it is one of the four botanical gardens of the City of Paris. Further east, towards Nogent, the arboretum of the école du Breuil gathers a considerable tree collection on a horticultural teaching estate, far quieter and almost unknown to the general public. Both are family outings, on foot, and both are reached from Vincennes.",
+      },
+      {
+        heading: "The zoo, the racecourse, the Cartoucherie, and using the town as a base",
+        body: "The wood holds three more facilities with nothing in common, each worth its own trip. The Parc zoologique de Paris, reopened in 2014 after a complete rebuild, is organised into biozones around its Grand Rocher. The Vincennes racecourse is the French temple of harness racing and hosts the Prix d'Amérique each winter, the most followed race in the discipline. The Cartoucherie, a former military site turned over to the arts, houses several theatres including Ariane Mnouchkine's Théâtre du Soleil, where performances are in French and often long, which is worth knowing before booking. Here too, these sites are in the wood and therefore in Paris, but the most convenient way to them runs through Vincennes. As for the town itself, it sits at the terminus of métro line 1, at Château de Vincennes, and on RER A at Vincennes station: central Paris is a quarter of an hour away and the Gare de Lyon under ten minutes. That makes it a serious base for anyone visiting Paris without wanting to sleep in it, with cheaper accommodation than intra-muros, a real centre that is open in the evening, the wood to breathe in and a major monument on site. The château is open all year, while the moats, the cours Marigny and the wood are free. Two things to check on the day: as at other French national monuments, admission is generally free for under-18s and for 18 to 25-year-olds who are nationals or long-term residents of an EU member state, on production of identity documents, so take yours; and the keep is a good deal more pleasant outside high-summer afternoons, the staircase not being air-conditioned.",
+      },
+    ],
+    relatedCities: ["vincennes", "paris", "saint-mande", "montreuil"],
+    tags: ["things to do in vincennes", "vincennes", "travel", "city guide", "ile-de-france"],
+  },
+  {
     slug: "retiring-in-royan-2026",
     title: "Retiring in Royan: the Atlantic coast at a price that still works",
     metaTitle: "Retiring in Royan 2026 — Health, Housing, Budget",

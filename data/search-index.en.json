@@ -3177,6 +3177,36 @@
       "emoji": "🌳"
     },
     {
+      "slug": "things-to-do-in-le-lamentin-2026",
+      "title": "Things to do in Le Lamentin: the mangrove behind the airport",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "things-to-do-in-baie-mahault-2026",
+      "title": "Things to do in Baie-Mahault: an Ali Tur church and the mangrove",
+      "emoji": "🛶"
+    },
+    {
+      "slug": "things-to-do-in-saint-louis-reunion-974-2026",
+      "title": "Things to do in Saint-Louis: the oldest Hindu temple on Réunion",
+      "emoji": "🛕"
+    },
+    {
+      "slug": "things-to-do-in-saint-joseph-reunion-2026",
+      "title": "Things to do in Saint-Joseph: the wild south of Réunion",
+      "emoji": "🦎"
+    },
+    {
+      "slug": "things-to-do-in-les-sables-d-olonne-2026",
+      "title": "Things to do in Les Sables-d'Olonne: where the Vendée Globe starts",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "things-to-do-in-vincennes-2026",
+      "title": "Things to do in Vincennes: the tallest medieval keep in Europe",
+      "emoji": "🏰"
+    },
+    {
       "slug": "retiring-in-royan-2026",
       "title": "Retiring in Royan: the Atlantic coast at a price that still works",
       "emoji": "🌅"
@@ -3511,12 +3541,12 @@
     {
       "slug": "travel",
       "label": "travel",
-      "count": 213
+      "count": 219
     },
     {
       "slug": "city-guide",
       "label": "city guide",
-      "count": 207
+      "count": 213
     },
     {
       "slug": "moving-to-france",
@@ -3581,7 +3611,7 @@
     {
       "slug": "ile-de-france",
       "label": "ile de france",
-      "count": 25
+      "count": 26
     },
     {
       "slug": "international-students",
@@ -3599,6 +3629,11 @@
       "count": 23
     },
     {
+      "slug": "pays-de-la-loire",
+      "label": "pays de la loire",
+      "count": 22
+    },
+    {
       "slug": "brittany",
       "label": "brittany",
       "count": 21
@@ -3606,11 +3641,6 @@
     {
       "slug": "expat-retirement",
       "label": "expat retirement",
-      "count": 21
-    },
-    {
-      "slug": "pays-de-la-loire",
-      "label": "pays de la loire",
       "count": 21
     },
     {
@@ -3714,6 +3744,11 @@
       "count": 9
     },
     {
+      "slug": "reunion",
+      "label": "reunion",
+      "count": 9
+    },
+    {
       "slug": "alsace",
       "label": "alsace",
       "count": 8
@@ -3736,11 +3771,6 @@
     {
       "slug": "nice",
       "label": "nice",
-      "count": 7
-    },
-    {
-      "slug": "reunion",
-      "label": "reunion",
       "count": 7
     },
     {
@@ -3874,6 +3904,11 @@
       "count": 4
     },
     {
+      "slug": "martinique",
+      "label": "martinique",
+      "count": 4
+    },
+    {
       "slug": "montpellier",
       "label": "montpellier",
       "count": 4
@@ -3949,6 +3984,11 @@
       "count": 3
     },
     {
+      "slug": "guadeloupe",
+      "label": "guadeloupe",
+      "count": 3
+    },
+    {
       "slug": "le-havre",
       "label": "le havre",
       "count": 3
@@ -3956,11 +3996,6 @@
     {
       "slug": "living-in-france",
       "label": "living in france",
-      "count": 3
-    },
-    {
-      "slug": "martinique",
-      "label": "martinique",
       "count": 3
     },
     {
