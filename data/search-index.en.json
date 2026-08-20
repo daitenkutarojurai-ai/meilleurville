@@ -3427,6 +3427,51 @@
       "emoji": "💼"
     },
     {
+      "slug": "working-in-caen-2026",
+      "title": "Working in Caen: hospitals, dairy, and a particle accelerator",
+      "emoji": "💼"
+    },
+    {
+      "slug": "working-in-brest-2026",
+      "title": "Working in Brest: the navy, the ocean, and a security clearance",
+      "emoji": "💼"
+    },
+    {
+      "slug": "working-in-tours-2026",
+      "title": "Working in Tours: hospitals, banking, and 55 minutes from Paris",
+      "emoji": "💼"
+    },
+    {
+      "slug": "working-in-orleans-2026",
+      "title": "Working in Orléans: pharma research, geoscience, and an hour from Paris",
+      "emoji": "💼"
+    },
+    {
+      "slug": "working-in-le-mans-2026",
+      "title": "Working in Le Mans: insurance, car parts, and one week a year that changes everything",
+      "emoji": "💼"
+    },
+    {
+      "slug": "working-in-amiens-2026",
+      "title": "Working in Amiens: food processing, factories, and a squeeze between two cities",
+      "emoji": "💼"
+    },
+    {
+      "slug": "working-in-le-havre-2026",
+      "title": "Working in Le Havre: the port, the refinery, and an industry changing shape",
+      "emoji": "💼"
+    },
+    {
+      "slug": "working-in-nimes-2026",
+      "title": "Working in Nîmes: sunshine, Roman stone, and the hardest job market in this series",
+      "emoji": "💼"
+    },
+    {
+      "slug": "working-in-aix-en-provence-2026",
+      "title": "Working in Aix-en-Provence: law, consulting, fusion research, and the rent",
+      "emoji": "💼"
+    },
+    {
       "slug": "single-parent-holidays-la-rochelle-2026",
       "title": "Single-parent holidays in La Rochelle: the week that works without a car",
       "emoji": "🧑‍🍼"
@@ -3496,7 +3541,7 @@
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 40
+      "count": 41
     },
     {
       "slug": "expat-single-parent",
@@ -3519,9 +3564,19 @@
       "count": 30
     },
     {
+      "slug": "working-in-france",
+      "label": "working in france",
+      "count": 30
+    },
+    {
+      "slug": "job-market-france",
+      "label": "job market france",
+      "count": 29
+    },
+    {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 26
+      "count": 27
     },
     {
       "slug": "ile-de-france",
@@ -3544,44 +3599,34 @@
       "count": 23
     },
     {
+      "slug": "brittany",
+      "label": "brittany",
+      "count": 21
+    },
+    {
       "slug": "expat-retirement",
       "label": "expat retirement",
       "count": 21
     },
     {
-      "slug": "working-in-france",
-      "label": "working in france",
-      "count": 21
-    },
-    {
-      "slug": "brittany",
-      "label": "brittany",
-      "count": 20
-    },
-    {
-      "slug": "job-market-france",
-      "label": "job market france",
-      "count": 20
-    },
-    {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
-      "count": 20
+      "count": 21
     },
     {
       "slug": "provence-alpes-cote-d-azur",
       "label": "provence-alpes-cote-d-azur",
-      "count": 19
+      "count": 20
+    },
+    {
+      "slug": "normandy",
+      "label": "normandy",
+      "count": 18
     },
     {
       "slug": "provence",
       "label": "provence",
       "count": 17
-    },
-    {
-      "slug": "normandy",
-      "label": "normandy",
-      "count": 16
     },
     {
       "slug": "budget",
@@ -3639,6 +3684,11 @@
       "count": 11
     },
     {
+      "slug": "centre-val-de-loire",
+      "label": "centre-val de loire",
+      "count": 11
+    },
+    {
       "slug": "affordable-retirement-france",
       "label": "affordable retirement France",
       "count": 10
@@ -3651,11 +3701,6 @@
     {
       "slug": "burgundy",
       "label": "burgundy",
-      "count": 9
-    },
-    {
-      "slug": "centre-val-de-loire",
-      "label": "centre-val de loire",
       "count": 9
     },
     {
@@ -3784,8 +3829,23 @@
       "count": 5
     },
     {
+      "slug": "tours",
+      "label": "tours",
+      "count": 5
+    },
+    {
       "slug": "annecy",
       "label": "annecy",
+      "count": 4
+    },
+    {
+      "slug": "brest",
+      "label": "brest",
+      "count": 4
+    },
+    {
+      "slug": "caen",
+      "label": "caen",
       "count": 4
     },
     {
@@ -3839,9 +3899,9 @@
       "count": 4
     },
     {
-      "slug": "tours",
-      "label": "tours",
-      "count": 4
+      "slug": "aix-en-provence",
+      "label": "aix-en-provence",
+      "count": 3
     },
     {
       "slug": "alps",
@@ -3859,18 +3919,8 @@
       "count": 3
     },
     {
-      "slug": "brest",
-      "label": "brest",
-      "count": 3
-    },
-    {
       "slug": "brittany-retirement-expat",
       "label": "Brittany retirement expat",
-      "count": 3
-    },
-    {
-      "slug": "caen",
-      "label": "caen",
       "count": 3
     },
     {
@@ -3899,6 +3949,11 @@
       "count": 3
     },
     {
+      "slug": "le-havre",
+      "label": "le havre",
+      "count": 3
+    },
+    {
       "slug": "living-in-france",
       "label": "living in france",
       "count": 3
@@ -3921,6 +3976,11 @@
     {
       "slug": "notaire",
       "label": "notaire",
+      "count": 3
+    },
+    {
+      "slug": "orleans",
+      "label": "orleans",
       "count": 3
     },
     {

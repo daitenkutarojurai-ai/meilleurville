@@ -1420,7 +1420,7 @@ Tables dans `lib/i18n.ts` : `FR_TO_EN_ROUTE`, `FR_TO_EN_CITY_SUB`, `PARITY_EXCEP
 (asymétries assumées, avec la raison — la liste doit rester courte, sinon « parité » ne veut
 plus rien dire).
 
-### État au 2026-08-19 — **0 route FR sans jumelle EN** (tenu)
+### État au 2026-08-20 — **0 route FR sans jumelle EN** (tenu)
 
 ```
 Routes : FR 217 · EN 165
@@ -1468,7 +1468,10 @@ aucune jumelle EN, mesurées le 18/08 après le batch `working-in-` de l'après-
 route EN mais pas de guides. Ces séries n'avaient jamais été comptées dans cette liste avant le
 18/08 : ce sont les plus gros trous du corpus, loin devant les séries déjà ouvertes.
 `travail-a-[ville]-2026` en faisait partie (30 FR / 0 EN) ; la série EN `working-in-[city]-2026`
-est **ouverte depuis le 18/08** et en est à **30 FR / 20 EN** après le batch 2 du 19/08.
+est **fermée depuis le 20/08** (30 FR / 29 EN, Nantes couverte par
+`nantes-living-and-working-guide-2026`). ⚠️ Les comptes de séries ci-dessous sont ceux du 19/08 :
+la § « Livré le 20/08 » plus bas porte le recensement à jour, dont la correction sur
+`demenager-a-[ville]` (50 FR / **0** EN, et non 6).
 Séries à parité, à re-differ et non à croire sur parole : tourisme 207/207,
 `where-to-buy-in-` 49/49, `[city]-living-guide` 52 EN contre `vivre-a-` 51 FR,
 `car-free-living-in-` 15 EN contre `vivre-sans-voiture-` 16 FR (écart de 1),
@@ -1486,6 +1489,107 @@ setup dans `CLAUDE.md`), pas une facilité.
 **Exceptions assumées** : `/badge` ×541 reste FR-only (la motion backlink vise mairies et
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
+
+### Livré le 20/08 — `working-in-[city]-2026` batch 3 (+9), **série fermée**
+
+`npm run parity` sortait en **code 0** en début de run (FR 217 / EN 165, 0 route sans jumelle) :
+pas de régression de routes, donc run de corpus. Le diff par série a redésigné la série ouverte
+depuis le 18/08, qui restait le plus gros trou entamé, et le batch 3 la **referme** :
+**FR `travail-a-` 30 / EN `working-in-` 29**, le seul écart restant étant **Nantes**, qui n'aura
+pas de jumelle parce que `nantes-living-and-working-guide-2026` couvre déjà le sujet (son
+`metaTitle` dit « Living and Working in Nantes »). `EN_GUIDES` 692 → **701**.
+
+**Les 9 villes** : Caen, Brest, Tours, Orléans, Le Mans, Amiens, Le Havre, Nîmes,
+Aix-en-Provence — c'est-à-dire exactement la liste annoncée par le batch 2. `metaTitle` 45-50
+caractères, `metaDesc` 144-157, 8 sections par guide, catégorie `moving`.
+`npm run search-index` relancé (`data/search-index.en.json` 701 guides, 99 tags) et
+`npm run sitemap:check` repassé — **EN 28 577 URL**, chaque URL déclarée a une page et chaque
+page indexable a une URL. ⚠️ **Trois tags neufs**, donc trois pages `/tags` de plus :
+`TAG_SLUGS_EN` passe de 96 à **99** (`aix-en-provence`, `le-havre`, `orleans` — chacun franchit
+le seuil des 3 guides avec ce batch). `caen`, `brest` et `tours` existaient déjà ; `amiens`,
+`le mans` et `nimes` ne créent rien, ils restent sous le seuil.
+
+**Le socle chiffré vient des modules, pas de la prose FR.** Un script de contrôle a repassé les
+9 guides ligne à ligne contre `lib/employment-market-rankings`, `lib/city-income`,
+`lib/city-population` et `data/housing` avant commit : score d'emploi affiché (`10 - composite`,
+comme le rend `/cities/[slug]/employment`), rang et ex æquo, niveau de vie médian annuel et
+mensuel, taux de pauvreté, rang sur 533, populations 2016 et 2022, T1/T2/T3 et prix au m².
+⚠️ **Écart assumé avec la prose FR sur sept des neuf villes** : les guides FR citent des loyers
+qui ne sont plus ceux de `data/housing.ts` — Brest T2 570 € contre 650 et 2 100 €/m² contre
+2 500, Orléans 720 € contre 700, Le Mans 610 € contre 650, Amiens 550 € contre 680, Le Havre
+620 € contre 650 et 2 200 €/m² contre 2 000, Nîmes 650 € contre 720, Aix 950 € contre 1 050 et
+4 200 €/m² contre 5 000. C'est le piège documenté dans `CLAUDE.md` : **on cite ce que la page
+rend**, pas ce qu'un guide voisin a écrit un jour. Les jumelles EN publient les valeurs de
+`data/housing.ts`. Seuls Caen et Tours étaient déjà alignés.
+
+⚠️ **Le rang sur 363 est publié avec ses ex æquo**, comme au batch 2 et pour la même raison : le
+composite d'emploi prend peu de valeurs distinctes. **Caen et Brest sont 86ᵉ à égalité avec 61
+autres communes**, Tours et Le Havre partagent le 195ᵉ rang avec douze autres, Orléans et Le Mans
+le 250ᵉ avec trois autres, Nîmes le 298ᵉ avec onze autres, Aix le 179ᵉ avec quatorze autres.
+Chaque guide écrit « joint Nth … level with M others on the same score ». Ne pas « simplifier »
+en retirant l'ex æquo : sans lui, un rang nu se lirait comme une mesure fine là où le barème
+départage des scores identiques par l'ordre du tri.
+
+**Cinq points propres au lecteur étranger, absents des guides FR parce qu'inutiles à un Français.**
+① **Brest** : l'habilitation défense n'est pas seulement lente (4 à 8 mois, enquête sur 5-10 ans
+d'antécédents, plus lente encore quand la décennie précédente s'est passée hors de France) — elle
+est **attachée au poste et demandée par l'employeur**, et certains postes classifiés sont en
+pratique fermés selon la nationalité. Le guide dit de poser la question au recruteur d'emblée,
+parce que la réponse décide si l'offre existe vraiment pour le lecteur. ② **Caen et Nîmes** : une
+grande part du marché qualifié y est publique, et le recrutement public français passe par
+**concours** — dates fixes, programmes publiés, et **condition de nationalité sur les emplois
+titulaires**, pas sur les contractuels du même établissement. Les deux guides disent de demander
+de quel type est le poste avant de bâtir un calendrier dessus. ③ **Le Mans** : la distribution
+et le conseil en assurance sont des **activités réglementées** (immatriculation, heures de
+formation, compétence professionnelle) et une qualification obtenue hors UE ne passe pas
+automatiquement ; les titres d'actuaire relèvent d'organismes professionnels, donc la
+reconnaissance dépend de qui les a délivrés. ④ **Aix** : la profession d'avocat est la porte
+réglementée la plus étroite de France — inscription à un barreau français, voie de reconnaissance
+dépendant du pays d'obtention, examen d'aptitude — et cela se commence **avant** le déménagement.
+S'y ajoute **ITER**, qui est une organisation internationale et non un employeur français : elle
+recrute par son propre canal et non par concours public, et rien de ce que dit la section visa
+ne s'y applique par défaut. ⑤ **Le Havre** : le shipping et l'assurance maritime sont la seule
+part de ce marché qui fonctionne largement **en anglais**, donc la porte d'entrée réaliste ; et
+le travail **posté** y est la norme, avec des primes et des règles de repos qui font que le
+salaire affiché et le salaire réel diffèrent.
+
+**Quatre prudences éditoriales assumées, à ne pas diluer.** ① **Amiens** est présentée comme le
+marché le plus dur du lot, chiffres à l'appui (4,3/10, niveau de vie 407ᵉ sur 533, pauvreté 26 %),
+avec la conclusion explicite qu'on y vient **avec le poste déjà signé** — un loyer bas n'achète
+pas du temps de recherche. Même cadrage à **Nîmes**, où la pauvreté atteint 31 % : le guide écrit
+que le problème est le **nombre** de postes et non ce qu'ils paient, parce que c'est ce que dit
+le détail du composite (chômage dans la pire tranche, salaires en milieu de tableau). ② **Le
+Havre** : la transition énergétique de la raffinerie et de l'usine automobile est annoncée et en
+cours ; le guide dit de privilégier les postes R&D, procédés et transition et de demander quelle
+reconversion est **contractuellement** engagée plutôt que promise oralement. ③ **Aix** : le
+guide fait passer l'arithmétique du logement avant tout le reste (T2 1 050 €, 5 000 €/m², le
+double de Caen) et dit qu'un salaire de grille publique nationale ou un poste junior ne l'absorbe
+pas, quel que soit l'ensoleillement. ④ **Le Mans** : la semaine des 24 Heures est traitée en
+**contrainte de planning** et non en couleur locale — ne pas y caler un déménagement, une
+recherche de logement ni des entretiens, et savoir que dans l'hôtellerie, l'événementiel et la
+sécurité c'est la semaine où les congés ne sont pas accordés.
+
+⚠️ **Correction de mesure à reporter : la série `demenager-a-[ville]` n'a AUCUNE jumelle EN.**
+La § du 19/08 annonçait « `moving-to-` 6 EN contre `demenager-a-` 50 FR » ; le recensement par
+préfixe fait ce run montre que les **4** guides `moving-to-` existants sont tous **nationaux**
+(`moving-to-france-from-uk`, `-from-canada`, `-where-to-live`, `-complete-checklist`) et qu'aucun
+ne vise une ville. Le rapprochement était fait sur un préfixe qui se ressemble, pas sur une série.
+Séries FR restant **sans aucune jumelle EN**, mesurées ce run : **`demenager-a-[ville]-2026`
+(50 FR / 0 EN)**, **`famille-a-[ville]-2026` (19 FR / 0 EN)**, **`universites-[ville]-2026`
+(15 FR / 0 EN)**. Séries entamées et encore loin : `leaving-` 23 EN contre `quitter-` 55 FR.
+Séries à parité, à re-differ et non à croire sur parole : tourisme 207/207, `where-to-buy-in-`
+49/49, `working-in-` 29 contre `travail-a-` 30 (Nantes couverte autrement),
+`single-parent-in-` 39/39, `single-parent-holidays-` 7/7, `solo-travel-in-` 15/15.
+
+**Écart de contenu, distinct de l'écart de routes** : **guides 973 FR / 701 EN, tags 241 / 99**
+(mesuré ce run après le batch).
+
+**Prochain run** : le plus gros trou est désormais `demenager-a-[ville]-2026`, 50 guides FR sans
+la moindre jumelle, mais c'est aussi la série la plus proche d'un doublon — vérifier d'abord ce
+que couvrent déjà `moving-to-france-complete-checklist-2026` et les `[city]-living-guide` avant
+d'ouvrir une série `moving-to-[city]`, sous peine de refabriquer la cannibalisation nettoyée en
+juin 2026. À défaut, `famille-a-[ville]-2026` (19 FR / 0 EN) est le trou net suivant et ne
+recouvre rien d'existant.
 
 ### Livré le 19/08 — `working-in-[city]-2026` batch 2 (+10), série aux deux tiers
 
