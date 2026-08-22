@@ -16,7 +16,108 @@ Demande utilisateur directe. F58 / F60 / F61 livrées le jour même ; **F59 livr
 | F58 | City Match — profil « parent solo » | P1 | S | mid | ✅ shipped 2026-07-22 · sous-page `/villes/[slug]/parent-solo` ×540 + hub `/parent-solo` + miroir EN `/single-parent` + `/cities/[slug]/single-parent` ×540 shipped 2026-07-25→28 · série guides `parent-solo-a-[ville]-2026` batch 1 (+10) shipped 2026-07-24, batch 2 (+10 : Rennes, Nancy, Angers, Grenoble, Dijon, Metz, Reims, Aix-en-Provence, Rouen, Toulon) shipped 2026-08-07 · miroir EN de la série `single-parent-in-[city]-2026` batch 1 (+10 : Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux, Lille) shipped 2026-08-09, batch 2 (+10) shipped 2026-08-11 — **parité FR/EN atteinte à 20/20** · **batch 3 FR (+9 : Villeurbanne, Besançon, Caen, Brest, Tours, Limoges, Clermont-Ferrand, Saint-Étienne, Le Havre) shipped 2026-08-14**, **miroir EN batch 3 (+9) shipped 2026-08-15 — parité rétablie à 29/29** · **batch 4 FR (+10 : Nîmes, Saint-Denis de La Réunion, Le Mans, Amiens, Annecy, Perpignan, Orléans, Mulhouse, Poitiers, Dunkerque) shipped 2026-08-16**, **miroir EN batch 4 (+10) shipped 2026-08-17 — parité rétablie à 39/39** (compteur vérifié des deux côtés avant et après le run, cf. § Parité EN) |
 | F59 | **Parcs & espaces verts par ville** (pipeline OSM + sub-page ×540) | **P0** | **L** | **high** | ✅ shipped 2026-07-27 |
 | F60 | `/departements` — finder par n° / nom / ville + carte cliquable | P1 | S | low | ✅ shipped 2026-07-22 · carte cliquable 2026-07-23 |
-| F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 · série guides `vacances-celibataire-[ville]-2026` batch 1 (+8) shipped 2026-08-01 · série `vacances-monoparentales-[ville]-2026` batch 1 (+7) shipped 2026-08-05 · `vacances-celibataire-[ville]-2026` batch 2 (+7 : Toulouse, Lille, Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle) shipped 2026-08-08 · croisement mois × profil `/vacances/ou-partir/[combo]` (12 × 7 = 84 pages SSG) shipped 2026-08-12 · miroir EN de la série célibataire, `solo-travel-in-[city]-2026` batch 1 (+8 : Paris, Lyon, Bordeaux, Lille, Strasbourg, Toulouse, Montpellier, Nantes) shipped 2026-08-13 · série EN fermée (batch 2, +7) 2026-08-14 · guide pilier `partir-en-vacances-seul-2026` + correction de l'anti-station-fantôme (part réelle des 15-29 ans Insee au lieu d'un écart d'affluence constant) shipped 2026-08-15 · **miroir EN de la série monoparentale, `single-parent-holidays-[city]-2026` (+7 : La Rochelle, Strasbourg, Nantes, Rennes, Vannes, Nancy, Dijon) shipped 2026-08-19 — parité FR/EN atteinte à 7/7, mêmes villes des deux côtés** (+ 4 chiffres faux corrigés dans la série FR au passage, cf. § ci-dessous) |
+| F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 · série guides `vacances-celibataire-[ville]-2026` batch 1 (+8) shipped 2026-08-01 · série `vacances-monoparentales-[ville]-2026` batch 1 (+7) shipped 2026-08-05 · `vacances-celibataire-[ville]-2026` batch 2 (+7 : Toulouse, Lille, Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle) shipped 2026-08-08 · croisement mois × profil `/vacances/ou-partir/[combo]` (12 × 7 = 84 pages SSG) shipped 2026-08-12 · miroir EN de la série célibataire, `solo-travel-in-[city]-2026` batch 1 (+8 : Paris, Lyon, Bordeaux, Lille, Strasbourg, Toulouse, Montpellier, Nantes) shipped 2026-08-13 · série EN fermée (batch 2, +7) 2026-08-14 · guide pilier `partir-en-vacances-seul-2026` + correction de l'anti-station-fantôme (part réelle des 15-29 ans Insee au lieu d'un écart d'affluence constant) shipped 2026-08-15 · **miroir EN de la série monoparentale, `single-parent-holidays-[city]-2026` (+7 : La Rochelle, Strasbourg, Nantes, Rennes, Vannes, Nancy, Dijon) shipped 2026-08-19 — parité FR/EN atteinte à 7/7, mêmes villes des deux côtés** (+ 4 chiffres faux corrigés dans la série FR au passage, cf. § ci-dessous) · **`vacances-celibataire-[ville]-2026` batch 3 (+7 : Nancy, Poitiers, Rouen, Caen, Clermont-Ferrand, Tours, Besançon) shipped 2026-08-22 — sélection dérivée de la mesure anti-station-fantôme, + 1 erreur de données corrigée dans `lib/transit.ts`, cf. § ci-dessous** |
+
+### F61 — série célibataire, batch 3 : `vacances-celibataire-[ville]-2026` (2026-08-22)
+
+Item 2 du plan agent « vacances célibataire ». La série comptait 15 guides FR et 15 jumelles EN
+depuis le 14/08, donc écart nul : la main revenait au FR. **+7 guides, compteur mesuré
+`grep -c 'slug: "vacances-celibataire-'` = 22 ; `GUIDES` 973 → 980.** `npm run search-index`
+relancé (`data/search-index.json` 980 guides, **241 tags, inchangé** — aucun tag neuf ne franchit
+le seuil de 3, donc aucune page `/tags/` créée) ; `npm run sitemap:check` repassé, FR 29 040 →
+**29 047 URL**, chaque URL déclarée a une page.
+
+**La sélection ne prolonge plus le classement du profil, et c'est le changement de méthode du
+run.** Les batches 1 et 2 piochaient dans `topCitiesForProfile("celibataire")`, dont le haut de
+tableau est saturé de communes de 4 000 à 15 000 habitants (Obernai, Amboise, Chinon, Carnac,
+Vaison-la-Romaine) : trier là-dedans revenait à écarter à la main, run après run, exactement les
+villes que le profil est censé refuser. Ce batch applique à la place, telle quelle, la règle que
+la section **anti-station-fantôme** de `/vacances/profil/celibataire` s'est donnée le 15/08 :
+la **part des 15-29 ans au recensement Insee 2022** (`lib/city-population.ts`), population ≥ 60 000,
+`culture` ≥ 6,0, `life` ≥ 5,5, hors banlieues et hors villes déjà couvertes. Les sept retenues sont
+les sept premières de cette liste : **Nancy 36,4 % (4ᵉ/538), Poitiers 36,0 % (5ᵉ), Rouen 33,4 %
+(8ᵉ), Caen 33,3 % (9ᵉ), Clermont-Ferrand 31,5 % (13ᵉ), Tours 29,7 % (18ᵉ), Besançon 28,9 % (23ᵉ)**,
+pour une médiane nationale de 18,4 %. Villeurbanne (29,2 %) est écartée comme banlieue d'une
+métropole déjà couverte, au même titre que Talence, Saint-Martin-d'Hères et Vandœuvre ;
+Amiens (29,0 %) tombe sur `life` 5,1.
+
+**La thèse du batch est assumée et dite dans chaque guide** : ces sept villes ont un score `life`
+de 5,7 à 6,6, en dessous des batches 1 et 2 (La Rochelle 8,1, Aix 7,8). Leur vitalité hors saison
+ne vient pas d'une densité de terrasses, elle vient d'une population résidente jeune qui habite là
+de septembre à juin. C'est le contraire d'une station balnéaire, et c'est précisément ce que le
+profil cherche. Chaque guide l'écrit au lieu de le masquer, y compris quand ça dessert la ville
+(Poitiers culture 6,2, Clermont culture 6,2, Rouen sécurité 4,7, Tours la plus chère des sept).
+
+⚠️ **Une erreur de données trouvée en écrivant, et corrigée : `lib/transit.ts` donnait un tramway
+à Nancy.** Il n'y en a pas. Le TVR (transport léger guidé sur pneus), que l'usage local appelait
+« le tram », a été retiré du service, et la ligne 1 roule en **trolleybus 100 % électrique depuis
+le 5 avril 2025**, aux côtés de lignes BHNS ; un mode ferré n'est rediscuté qu'à l'horizon 2035.
+L'entrée passe de `{ tram, tgv, bhns }` à `{ tgv, bhns }` et porte un commentaire qui dit pourquoi,
+parce que la tentation de « restaurer » le tag sur la foi de l'usage local ou d'un vieux plan est
+réelle. Portée : le badge « Tramway » disparaît de `/villes/nancy/transports` et des surfaces
+vacances ; Nancy reste éligible aux sections train de `CelibataireExtras` / `MonoparentalExtras`
+via `bhns`. Leçon de la même famille que le BODACC de F64 : **une donnée saisie à la main sans
+avoir vu la source vieillit en silence, et c'est la rédaction qui la rattrape, pas `tsc`.**
+
+⚠️ **Dix affirmations comparatives fausses ou imprécises, écrites au premier jet et corrigées avant
+commit.** C'est exactement le mode de défaillance relevé le 19/08 sur la série monoparentale, et il
+s'est reproduit à l'identique : les scores *de la ville de la page* étaient tous justes, ce sont les
+**superlatifs entre villes** qui dérapent, parce qu'on les écrit de mémoire. `npm run integrity` ne
+peut pas les voir (sa garde compare un chiffre à la valeur brute de la ville de la page). Le remède
+appliqué ici, à reprendre pour tout batch qui compare : **sortir la matrice des axes du lot avant de
+relire**, et vérifier chaque superlatif contre elle.
+- Nancy : sécurité 5,1 annoncée « le point le plus bas de ce lot » — c'est **Rouen, 4,7**.
+- Caen : nature 5,6 annoncée « le deuxième du lot » — elle est **troisième**, derrière
+  Clermont-Ferrand 7,2 et Besançon 6,4.
+- Tours : « le coût, 5,9/10, est le plus élevé de ce lot » **inversait la convention d'axe** —
+  sur `cost` un score bas veut dire cher. 5,9 est le score le **plus bas** des sept. La correction
+  écrit les deux moitiés de la phrase.
+- Poitiers : « 20 % de 60 ans et plus, soit exactement la médiane » — la médiane nationale des 538
+  villes mesurées est **27,2 %**, pas 20 %. Les sept villes du batch sont toutes très en dessous,
+  ce qui est un argument du lot et pas une banalité : la phrase le dit maintenant.
+- Cinq égalités présentées comme des rangs : transport 6,4 (Poitiers **et** Clermont), coût 6,4
+  (Clermont **et** Besançon), culture 7,3 (Rouen **et** Tours). Même principe que la convention
+  classements du 19/08 : **une égalité ne se présente pas comme un départage.**
+- Clermont : `life` 6,2 annoncé « le plus modeste du lot avec Poitiers » — **Rouen 5,7 et Poitiers
+  5,9** sont tous deux en dessous. Seule la culture était à égalité au dernier rang.
+
+**Chiffres et vérifications.** Les 54 figures en `/10` des sept guides tracent toutes vers un score
+**rendu** (`CITIES_SEED` lu via un `npx tsx`, jamais par grep du seed) d'une ville que le guide
+nomme ; les parts d'âge viennent de `lib/city-population.ts`. Six faits d'équipement ont été
+vérifiés en ligne avant rédaction, parce qu'aucun ne vit dans nos données : les SMAC **L'Autre
+Canal** (Nancy), **Le Confort Moderne** (Poitiers), **le 106** (Rouen), **Le Cargö** (Caen),
+**La Coopérative de Mai** (Clermont, club de 460 places et grande salle de 1 500, plus de 130
+concerts par an), **Le Temps Machine** (Tours, inauguré en 2011 à Joué-lès-Tours, arrêt tram A
+Joué Hôtel de Ville) et **La Rodia** (Besançon, 900 places) ; le **tramway de Caen a rouvert sur
+rails le 27 juillet 2019** ; le **tramway de Clermont** est une ligne A unique de 34 stations sur
+pneus guidés, en service depuis 2006 ; ce que Rouen appelle son **« métro » est commercialement un
+tramway** passant en souterrain dans la traversée du centre, et l'exploitant lui-même emploie le
+mot ; **Besançon a deux gares**, Viotte en ville (TGV inOui directs depuis Paris-Lyon, tram T2) et
+Besançon Franche-Comté TGV hors de la ville reliée par navette, nuance écrite dans le guide parce
+qu'elle coûte vingt minutes à qui réserve sans regarder. **Aucun tarif d'hébergement n'est imprimé**,
+comme dans toute la série : on transmet le réflexe, pas le prix. Trois prudences assumées : la
+montée gare → plateau à Poitiers est signalée comme un critère de choix d'hébergement et non comme
+un détail, le pic du **festival du court métrage de Clermont en février** et les **commémorations
+du Débarquement début juin dans le Calvados** sont donnés comme des saturations à vérifier avant de
+bloquer des dates, et Saint-Pierre-des-Corps est explicitement décrite comme une gare d'une commune
+voisine et **non** comme un quartier où loger.
+
+`metaTitle` 57-58 caractères, `metaDesc` 145-159, 6 sections et 1 134-1 196 mots par guide,
+densité d'accents 0,145-0,171 (seuil de détection ascii-strip : 0,09), **zéro em-dash dans le
+corps**. `relatedGuides` câblés sur des slugs vérifiés existants (`10-choses-a-faire-a-[ville]-2026`,
+`etudiant-a-[ville]-2026` ou `vivre-sans-voiture-clermont-ferrand-guide-2026` /
+`caen-vs-rouen-comparatif-2026`, plus un guide célibataire d'un batch précédent par affinité
+géographique). Garde-fou éditorial tenu : aucune promesse de rencontre, aucun registre « site de
+rencontres », aucun cliché sur la solitude, écriture inclusive légère (`seul·e`).
+
+**Écart FR→EN après ce batch : 7 villes** (nancy, poitiers, rouen, caen, clermont-ferrand, tours,
+besancon) — au-dessus du seuil de ~6, donc **le prochain run doit être un batch EN** de la série
+`solo-travel-in-[city]-2026`. Aucun piège de nommage : les sept slugs de seed sont sans article ni
+homonyme, `things-to-do-in-*` n'entre pas en collision. Pour le batch FR **suivant**, la liste
+dérivée de la même règle continue avec **Reims** (27,5 %, culture 7,6), **Metz** (25,6 %),
+**Brest** (28,8 %), **Pau** (24,1 %), **Troyes** (24,6 %), **Valence** (21,4 %) et **Chambéry**
+(22,7 %, `life` 7,0) — les recalculer plutôt que les recopier, la règle est reproductible en
+quelques lignes de `npx tsx`.
 
 ### F61 — miroir EN de la série monoparentale : `single-parent-holidays-[city]-2026` (2026-08-19)
 

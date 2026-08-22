@@ -42,11 +42,17 @@ const T: Record<string, Transit> = {
   valenciennes: { tram: true, bhns: true },
   mulhouse: { tram: true, tgv: true, velo: "moyen", bhns: true },
   avignon: { tram: true, tgv: true, bhns: true },
-  nancy: { tram: true, tgv: true, bhns: true },
   "clermont-ferrand": { tram: true, bhns: true, velo: "moyen" },
   aubagne: { tram: true, bhns: true },
 
   // — TGV sans métro/tram dense —
+  // ⚠️ Nancy portait `tram: true` : c'est faux depuis 2023. Le TVR (transport
+  // léger guidé sur pneus, souvent appelé « le tram » localement) a été retiré
+  // du service, et la ligne 1 roule en trolleybus 100 % électrique depuis le
+  // 5 avril 2025, aux côtés de lignes BHNS. Il n'y a pas de tramway à Nancy en
+  // 2026 ; un mode ferré n'est rediscuté qu'à l'horizon 2035. Ne pas
+  // « restaurer » le tag sur la foi de l'usage local ou d'un vieux plan.
+  nancy: { tgv: true, bhns: true },
   "aix-en-provence": { tgv: true, bhns: true },
   perpignan: { tgv: true, bhns: true },
   metz: { tgv: true, bhns: true },

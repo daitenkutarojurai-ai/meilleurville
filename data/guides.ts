@@ -44830,6 +44830,321 @@ export const GUIDES: Guide[] = [
     tags: ["vacances célibataire La Rochelle", "voyage solo La Rochelle", "Vieux Port sortir", "Cours des Dames", "week-end célibataire hors saison"]
   },
   {
+    slug: "vacances-celibataire-nancy-2026",
+    title: "Vacances célibataire à Nancy en 2026 : Ville-Vieille, place Stanislas, séjour sans voiture",
+    metaTitle: "Vacances célibataire Nancy 2026 : sortir seul·e, quartiers",
+    metaDesc: "Nancy en séjour célibataire : 36,4 % de 15-29 ans, culture 7,6/10, Ville-Vieille piétonne, TGV depuis Paris. Loger, sortir un mardi, budget solo.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-22",
+    updatedAt: "2026-08-22",
+    intro: "Nancy est la quatrième ville de France, sur les 538 que ce site mesure, pour la part des 15-29 ans dans sa population résidente : 36,4 % au recensement Insee 2022, contre une médiane nationale de 18,4 %. C'est le seul chiffre qui compte vraiment pour un séjour célibataire hors saison, parce qu'il dit qui habite la ville un mardi soir de novembre, une fois les vacanciers repartis. Ajoutez un score culture de 7,6/10, le plus élevé de ce lot de destinations, un ensemble classé qui tient dans un mouchoir de poche autour de la place Stanislas, et une gare TGV posée à dix minutes à pied de la Ville-Vieille. Ce guide indique où poser ses valises, comment enchaîner une soirée en semaine sans tomber sur des salles vides, et comment limiter la facture quand on réserve pour une personne.",
+    sections: [
+      {
+        heading: "Pourquoi Nancy plutôt qu'ailleurs pour un séjour célibataire",
+        body: "Nancy sort quatrième au classement national de la part des 15-29 ans, derrière Corte, Lille et Talence, et devant Poitiers et Rennes. Les 60 ans et plus n'y pèsent que 19,2 %, l'une des structures d'âge les plus jeunes du lot. Traduction concrète : la vie du soir ne dépend pas du calendrier des vacances scolaires, elle dépend de l'année universitaire, qui court de septembre à juin. Le score culture de 7,6/10 est le plus haut de ce batch, et il est adossé à des institutions qui programment toute la saison : l'Opéra national de Lorraine, sur la place Stanislas elle-même, le Théâtre de la Manufacture installé dans l'ancienne manufacture des tabacs et labellisé centre dramatique national, L'Autre Canal pour les musiques actuelles. Deux réserves honnêtes. Le score de vie quotidienne plafonne à 6,2/10 : Nancy n'a pas la densité de terrasses de Bordeaux ou de Montpellier, sa vitalité vient de sa population résidente, pas d'un flux touristique. Et la sécurité ressort à 5,1/10, l'avant-dernier niveau de ce lot devant Rouen, ce qui appelle la vigilance urbaine ordinaire, rien de plus."
+      },
+      {
+        heading: "Où poser ses valises : Ville-Vieille, Stanislas, secteur gare",
+        body: "Trois secteurs suffisent. La Ville-Vieille, autour de la Grande Rue et de la place Saint-Epvre, est le choix par défaut : rues médiévales étroites, la plus forte concentration de bars et de petites tables de la ville, et un pas de porte à cinq minutes de la place Stanislas. L'hypercentre, entre la place Stanislas, la rue Saint-Dizier et la rue des Dominicains, est plus commerçant et plus calme le soir, mais imbattable pour rayonner à pied. Le secteur de la gare, côté place Thiers, concentre les hôtels d'affaires : c'est l'option budget la plus fiable, à une dizaine de minutes à pied de Stanislas, et le sujet de la section sur le supplément single. Le quartier Saint-Sébastien, autour des halles centrales, ajoute une ambiance de marché en journée. Pour un séjour court, viser un logement à moins d'un quart d'heure à pied de la place Stanislas et ignorer la périphérie : le score nature de 4,8/10 dit assez que la campagne n'est pas l'argument de Nancy, le parc de la Pépinière fait office de poumon unique."
+      },
+      {
+        heading: "Sortir un mardi soir : Grande Rue, Saint-Epvre, L'Autre Canal",
+        body: "Le circuit de semaine se marche. Il démarre place Saint-Epvre, remonte la Grande Rue et redescend vers la rue des Maréchaux, où se concentrent les restaurants du centre : on y dîne au comptoir sans que cela demande d'explication. Côté salles, L'Autre Canal est la scène de musiques actuelles labellisée par le ministère de la Culture, et elle programme plusieurs soirs par semaine à des tarifs contenus, ce qui en fait la sortie la plus simple à décider la veille. L'Opéra national de Lorraine tient sa saison lyrique et symphonique sur la place Stanislas, et le Théâtre de la Manufacture sa saison de création. Un séjour célibataire réussi ici consiste à caler une soirée de salle et une soirée de comptoir plutôt que d'espérer une nuit continue : Nancy n'est pas une ville de clubs. Comme partout, éviter le dimanche soir, où beaucoup ferment, et le lundi, qui est le creux de la semaine. Mardi à samedi donnent la densité maximale."
+      },
+      {
+        heading: "Se déplacer sans voiture : marche, trolleybus, TGV",
+        body: "Le score transport de Nancy est de 7,0/10 et la ville se fait presque entièrement à pied : la gare, la place Stanislas et la Ville-Vieille tiennent dans un quart d'heure de marche les unes des autres. Un point à connaître, parce que l'usage local induit en erreur et que les vieux plans aussi : il n'y a pas de tramway à Nancy. Le transport léger guidé sur pneus, que tout le monde appelait « le tram », a été retiré du service, et la ligne 1 roule en trolleybus 100 % électrique depuis le 5 avril 2025, aux côtés de lignes de bus à haut niveau de service. Le réseau reste efficace, il n'est simplement pas ferré, et un mode sur rails n'est rediscuté qu'à un horizon lointain. La gare de Nancy-Ville est desservie en TGV direct depuis Paris-Est. Le TER ouvre les excursions à la journée sans jamais toucher un volant, Metz et Lunéville en tête. Séjour sans voiture parfaitement tenable."
+      },
+      {
+        heading: "Le supplément single et comment le contourner à Nancy",
+        body: "Deux caractéristiques structurelles jouent en faveur du voyageur seul, sur un score de coût de 6,2/10 déjà confortable. D'abord un parc hôtelier de gare orienté clientèle d'affaires, dont les tarifs de semaine sont calés sur des occupations à une personne et non sur le couple. Ensuite un parc de studios meublés hérité de la demande étudiante, cohérent avec ces 36,4 % de 15-29 ans : la location courte durée facture la surface, ce qui met le voyageur solo au même prix que deux. Trois réflexes valent ici comme ailleurs dans la série. Chercher explicitement une « chambre single » plutôt qu'une double occupée par une personne, parce que ce sont deux lignes tarifaires distinctes. Viser les hôtels d'affaires du lundi au jeudi, dont la grille s'inverse le week-end. Et comparer studio et hôtel dès la deuxième nuit. Aucun montant n'est imprimé dans ce guide : les tarifs bougent d'une saison et d'une plateforme à l'autre, ce qui se transmet est le réflexe, pas le prix."
+      },
+      {
+        heading: "Quand y aller : rentrée universitaire, Saint-Nicolas, printemps",
+        body: "La meilleure fenêtre est septembre à mi-novembre, et c'est précisément la période où une station balnéaire se vide. La rentrée universitaire remplit la ville, les saisons de l'Opéra, du Théâtre de la Manufacture et de L'Autre Canal redémarrent, et les terrasses de la place Stanislas tiennent encore en septembre. Début décembre, la Saint-Nicolas est la grande fête civique de Nancy et de la Lorraine : la ville est alors très dense, l'ambiance est réelle, mais l'hébergement se réserve largement en avance et les tarifs suivent, ce qui va à l'encontre du conseil de la section précédente. Avril à juin fonctionne également bien, avec la Pépinière ouverte et les journées longues. Deux périodes à éviter pour ce type de séjour : la première quinzaine d'août, où les étudiants sont partis et où une partie des adresses ferme, et le dimanche soir toute l'année. Le reste du temps, Nancy tient sa promesse d'une ville qui vit sans dépendre des vacanciers."
+      }
+    ],
+    relatedCities: ["nancy"],
+    relatedGuides: [
+      "10-choses-a-faire-a-nancy-2026",
+      "etudiant-a-nancy-2026",
+      "vacances-celibataire-strasbourg-2026"
+    ],
+    tags: ["vacances célibataire Nancy", "voyage solo Nancy", "sortir seul·e Nancy", "Ville-Vieille Nancy", "week-end célibataire Grand Est"]
+  },
+  {
+    slug: "vacances-celibataire-poitiers-2026",
+    title: "Vacances célibataire à Poitiers en 2026 : plateau piéton, Confort Moderne, séjour sans voiture",
+    metaTitle: "Vacances célibataire Poitiers 2026 : sortir seul·e, budget",
+    metaDesc: "Poitiers en séjour célibataire : 36 % de 15-29 ans, coût 6,6/10, plateau piéton, TGV depuis Paris. Où loger, sortir en semaine, limiter le supplément single.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-22",
+    updatedAt: "2026-08-22",
+    intro: "Poitiers est la cinquième ville de France, sur les 538 mesurées ici, pour la part des 15-29 ans dans sa population résidente : 36,0 % au recensement Insee 2022, pour une médiane nationale de 18,4 %. Avec 89 472 habitants, c'est la plus petite destination de ce lot, et c'est aussi celle où la proportion de jeunes adultes est la plus élevée rapportée à la taille. Le reste suit : un plateau central entièrement piéton, un score de coût de 6,6/10 qui est le meilleur de ce batch, une gare TGV en contrebas du centre, et deux lieux culturels qui portent la vie du soir en semaine, le Confort Moderne et le Théâtre Auditorium de Poitiers. Ce guide dit où loger, comment sortir un mardi hors période touristique, et comment éviter que le voyage seul·e coûte le prix de deux.",
+    sections: [
+      {
+        heading: "Pourquoi Poitiers plutôt qu'ailleurs pour un séjour célibataire",
+        body: "Le raisonnement de cette série est simple : une destination célibataire doit rester vivante quand les vacanciers sont partis, et le meilleur signal disponible de cette vie permanente est la part de jeunes adultes qui habitent la ville à l'année. Poitiers sort cinquième sur 538 avec 36,0 %, juste derrière Nancy. Elle affiche par ailleurs le meilleur score de coût du lot, 6,6/10, une sécurité de 5,7/10 dans la moyenne haute du batch, et 20 % de 60 ans et plus quand la médiane nationale des 538 villes mesurées ici est de 27,2 %. La contrepartie doit être dite franchement, parce qu'elle est visible dès la première soirée : le score culture plafonne à 6,2/10 et la vie quotidienne à 5,9/10. Poitiers n'a ni la densité d'offre de Nancy ni celle de Tours. Ce qu'elle a, c'est une échelle où tout se fait à pied, un public étudiant qui fait tourner les mêmes adresses toute l'année, et deux institutions qui suffisent à remplir une semaine de programmation."
+      },
+      {
+        heading: "Où poser ses valises : plateau, Cordeliers, secteur gare",
+        body: "Le centre de Poitiers occupe un plateau ceinturé par le Clain et la Boivre, et cette géographie décide de tout. Le plateau lui-même, autour de la place du Maréchal-Leclerc, de la rue Gambetta et du quartier des Cordeliers, est le seul choix pertinent pour un séjour court : c'est là que se trouvent les commerces, les cafés, Notre-Dame-la-Grande et le palais des comtes de Poitou, et tout y est piéton ou apaisé. Le secteur de la gare, en contrebas, propose des hôtels plus économiques mais impose une remontée : la dénivelée n'est pas anodine, elle se fait par des escaliers, un ascenseur urbain ou le bus, et cela change la façon dont on rentre à une heure du matin. À réserver donc à qui vise le prix avant le confort. Autour du parc de Blossac, au sud du plateau, le cadre est plus calme et reste à distance de marche du centre. La périphérie et le secteur du Futuroscope, à une dizaine de kilomètres, ne conviennent pas à ce séjour-là."
+      },
+      {
+        heading: "Sortir un mardi soir : Cordeliers, Confort Moderne, TAP",
+        body: "La sortie de semaine se joue sur deux registres. Le registre de comptoir se concentre sur le plateau, autour du quartier des Cordeliers et des rues qui descendent de la place du Maréchal-Leclerc, avec une clientèle très majoritairement étudiante du lundi au jeudi : entrer seul·e dans un bar y est banal, ce qui est précisément ce qu'on cherche. Le registre de salle repose sur deux lieux qui pèsent bien au-dessus de la taille de la ville. Le Confort Moderne est une scène de musiques actuelles doublée d'un lieu d'arts visuels, avec sa Fanzinothèque, et il programme concerts et expositions dans le même bâtiment. Le Théâtre Auditorium de Poitiers, scène nationale située boulevard de Verdun, tient une saison de spectacle vivant et de musique. Entre les deux, une semaine se remplit sans effort. Comme ailleurs, le dimanche soir et le lundi sont creux, et la fenêtre utile va du mardi au samedi."
+      },
+      {
+        heading: "Se déplacer sans voiture : marche, bus, TGV",
+        body: "Poitiers affiche un score transport de 6,4/10, le plus bas de ce lot à égalité avec Clermont-Ferrand, et il faut savoir ce que ce chiffre recouvre. Il n'y a ni métro ni tramway : le réseau repose sur des bus, dont des lignes à haut niveau de service, et sur la marche. Pour un séjour centré sur le plateau, cela suffit largement, parce que le périmètre utile fait moins d'un kilomètre de bout en bout. Le point fort est ailleurs : la gare de Poitiers est desservie en TGV direct depuis Paris-Montparnasse, ce qui met la ville à portée d'un aller-retour de week-end sans voiture. Le TER complète vers La Rochelle, Angoulême et Niort pour une journée d'excursion. La vraie contrainte du séjour sans voiture ici n'est pas le réseau, c'est la topographie : entre la gare et le plateau, prévoir la montée, et en tenir compte au moment de choisir son hébergement plutôt qu'au moment de rentrer."
+      },
+      {
+        heading: "Le supplément single et comment le contourner à Poitiers",
+        body: "Avec 6,6/10, Poitiers a le meilleur score de coût de ce batch, et c'est un avantage direct pour qui paye seul·e une chambre entière. Le parc d'hébergement est en outre marqué par la demande étudiante, avec un stock de studios meublés disponibles en location courte durée hors périodes de rentrée : ces logements se facturent à la surface, ce qui annule mécaniquement le supplément single dès deux nuits. Les hôtels du secteur de la gare, orientés clientèle professionnelle, appliquent la même logique en semaine que partout ailleurs, avec des grilles plus douces du lundi au jeudi. Les trois réflexes de la série s'appliquent : demander une chambre single et non une double occupée par une personne, privilégier la semaine, comparer studio et hôtel à partir de la deuxième nuit. Une précaution locale s'ajoute : les week-ends de rentrée universitaire et les périodes de concours tendent fortement le marché, mieux vaut décaler de quinze jours. Aucun tarif n'est cité ici, ils bougent trop vite."
+      },
+      {
+        heading: "Quand y aller : rentrée, saison culturelle, printemps",
+        body: "La fenêtre de septembre à novembre est la plus intéressante, et pour une raison mesurable : c'est le moment où la population de 15-29 ans qui fait 36 % de la ville est effectivement présente, où les saisons du Théâtre Auditorium et du Confort Moderne redémarrent, et où les tarifs d'hébergement redescendent après l'été. Les Journées du patrimoine, à la mi-septembre, ouvrent une partie du bâti roman que l'on ne visite pas le reste de l'année. Avril à juin fonctionne aussi bien, avec le parc de Blossac ouvert et des journées longues, mais les semaines de partiels vident les bars en fin de printemps. Les deux périodes à éviter pour ce type de séjour sont les mêmes que dans le reste de la série : la première quinzaine d'août, où la ville étudiante se vide et où une partie des adresses ferme, et le dimanche soir. Poitiers en août est une ville agréable, ce n'est simplement plus la ville que ce guide décrit."
+      }
+    ],
+    relatedCities: ["poitiers"],
+    relatedGuides: [
+      "10-choses-a-faire-a-poitiers-2026",
+      "etudiant-a-poitiers-2026",
+      "vacances-celibataire-la-rochelle-2026"
+    ],
+    tags: ["vacances célibataire Poitiers", "voyage solo Poitiers", "sortir seul·e Poitiers", "Confort Moderne Poitiers", "week-end célibataire Nouvelle-Aquitaine"]
+  },
+  {
+    slug: "vacances-celibataire-rouen-2026",
+    title: "Vacances célibataire à Rouen en 2026 : Vieux-Marché, Eau-de-Robec, séjour sans voiture",
+    metaTitle: "Vacances célibataire Rouen 2026 : sortir seul·e, quartiers",
+    metaDesc: "Rouen en séjour célibataire : 33,4 % de 15-29 ans, culture 7,3/10, centre médiéval piéton, métro et TEOR. Loger, sortir un mardi, limiter le supplément single.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-22",
+    updatedAt: "2026-08-22",
+    intro: "Rouen est huitième sur les 538 villes mesurées ici pour la part des 15-29 ans dans sa population résidente, avec 33,4 % au recensement Insee 2022, et c'est aussi celle de ce lot où les 60 ans et plus pèsent le moins, 18,6 %. C'est une ville jeune, et cela se voit un mardi de novembre bien plus que sur les photos de la cathédrale. Le score culture de 7,3/10 la place deuxième de ce batch à égalité avec Tours, porté par une scène qui va de l'Opéra de Rouen Normandie au 106 sur les quais. Le centre médiéval est piéton, le réseau urbain sérieux, et Paris est à portée de train depuis Saint-Lazare. Ce guide dit où loger, comment sortir en semaine, et comment ne pas payer deux places quand on voyage seul·e.",
+    sections: [
+      {
+        heading: "Pourquoi Rouen plutôt qu'ailleurs pour un séjour célibataire",
+        body: "Rouen coche la case principale de cette série : elle ne se vide pas hors saison. Avec 33,4 % de 15-29 ans elle se place huitième sur 538, et sa part de 60 ans et plus, 18,6 %, est la plus faible du lot, ce qui donne une structure d'âge nettement plus jeune que celle de Caen ou de Tours. Le score culture de 7,3/10 s'appuie sur des institutions qui programment de septembre à juin : l'Opéra de Rouen Normandie, le 106 comme scène de musiques actuelles installée sur la rive droite, un centre historique dense en musées. La ville est compacte et se marche intégralement, du Gros-Horloge à la place du Vieux-Marché. Deux réserves à poser d'emblée. Le score de sécurité, 4,7/10, est le plus bas de ce batch, et il appelle les précautions urbaines habituelles pour une sortie tardive. Et la vie quotidienne ressort à 5,7/10 : la densité de comptoirs est réelle mais concentrée sur quelques rues, elle ne se diffuse pas dans toute la ville."
+      },
+      {
+        heading: "Où poser ses valises : Vieux-Marché, Cathédrale, Saint-Marc",
+        body: "Le secteur de la place du Vieux-Marché est le choix évident pour un premier séjour : centre piéton, forte densité de restaurants et de bars, tout accessible à pied, et l'axe de la rue du Gros-Horloge qui relie directement le quartier de la cathédrale. Autour de la cathédrale et de la rue Saint-Romain, l'ambiance est plus patrimoniale et un peu plus calme le soir, mais on reste à cinq minutes du reste. La rue Eau-de-Robec et le quartier Martainville, plus à l'est, offrent l'option la plus vivante et la moins touristique, avec les maisons à pans de bois et le canal découvert, à un quart d'heure à pied du Vieux-Marché. Le secteur de la gare Rouen-Rive-Droite convient au budget, avec ses hôtels d'affaires, à dix minutes à pied ou deux stations du centre. La rive gauche, plus résidentielle, n'est pas le bon choix pour un séjour court centré sur les soirées."
+      },
+      {
+        heading: "Sortir un mardi soir : Vieux-Marché, Eau-de-Robec, le 106",
+        body: "Le circuit de semaine tient en trois rues et deux salles. Autour de la place du Vieux-Marché et dans les rues qui en partent, on trouve la plus forte concentration de bars ouverts du mardi au samedi ; la clientèle y est mixte, entre étudiants et actifs, et l'on n'y remarque personne qui dîne au comptoir. La rue Eau-de-Robec et ses abords donnent la version étudiante, plus bruyante et moins chère, avec des adresses qui tiennent tard en semaine. Côté salles, le 106 est la scène de musiques actuelles de la métropole et programme régulièrement en semaine sur les quais, à des tarifs abordables et sans qu'il soit nécessaire de s'y prendre des mois à l'avance. L'Opéra de Rouen Normandie tient une saison lyrique et symphonique dense. Le dimanche soir est très creux, le lundi aussi. Le mardi, le jeudi et le samedi donnent les meilleures soirées, et le samedi matin le marché du Vieux-Marché prolonge l'ambiance de la veille."
+      },
+      {
+        heading: "Se déplacer sans voiture : le « métro », TEOR, train pour Paris",
+        body: "Rouen affiche 6,7/10 en transport et le réseau mérite une explication, parce que son vocabulaire local est trompeur. Ce que tout le monde appelle le métro, y compris l'exploitant, est techniquement un tramway qui passe en souterrain dans la traversée du centre : il fonctionne comme un métro sur la partie utile au visiteur, et c'est ce qui compte. À cela s'ajoutent les lignes TEOR, des bus à haut niveau de service qui couvrent l'axe est-ouest et le nord-sud, et un réseau cyclable de niveau moyen. La particularité à retenir concerne le train : Rouen n'a pas de desserte TGV, elle est reliée à Paris-Saint-Lazare par la ligne classique, ce qui reste rapide et fréquent mais ne se réserve pas de la même façon. La gare de Rouen-Rive-Droite est en ville, à dix minutes à pied du centre. Le TER dessert Le Havre et Dieppe pour une journée sur la côte sans voiture."
+      },
+      {
+        heading: "Le supplément single et comment le contourner à Rouen",
+        body: "Le score de coût, 6,2/10, place Rouen dans la moyenne du lot, mais la structure du parc d'hébergement joue en faveur du voyageur seul. La ville accueille une clientèle d'affaires importante, et les hôtels du secteur de la gare et des quais indexent leurs grilles de semaine sur l'occupation individuelle : c'est le levier le plus fiable, du lundi au jeudi. Le stock de studios meublés en location courte durée, cohérent avec ces 33,4 % de 15-29 ans, offre la seconde piste, avec une facturation à la surface qui neutralise le supplément dès la deuxième nuit. Les trois réflexes de la série valent ici : demander une chambre single plutôt qu'une double, viser la semaine, comparer studio et hôtel dès deux nuits. Un point de calendrier local mérite d'être connu : les grands rassemblements maritimes qui se tiennent périodiquement sur les quais saturent l'hébergement de toute la métropole, il faut vérifier avant de bloquer des dates. Aucun montant n'est imprimé ici."
+      },
+      {
+        heading: "Quand y aller : rentrée, saison culturelle, printemps",
+        body: "Septembre à novembre est la meilleure fenêtre, et c'est vrai plus qu'ailleurs à Rouen : la ville est à la fois une destination de patrimoine, donc très fréquentée l'été, et une ville étudiante, donc pleine de résidents à l'automne. On y gagne deux fois, moins de queues et plus de vie de quartier. Les saisons de l'Opéra et du 106 démarrent en septembre. Avril à juin fonctionne aussi, avec des journées longues et les quais praticables, mais le printemps ramène une partie du flux touristique. L'hiver a un mérite propre ici : le centre médiéval couvert et les musées rendent une journée de pluie normande parfaitement supportable, et le score nature de 4,5/10 dit assez qu'on ne vient pas à Rouen pour le plein air. Les deux périodes à éviter restent la première quinzaine d'août, où la population étudiante est absente, et le dimanche soir, où le centre se ferme tôt."
+      }
+    ],
+    relatedCities: ["rouen"],
+    relatedGuides: [
+      "10-choses-a-faire-a-rouen-2026",
+      "caen-vs-rouen-comparatif-2026",
+      "vacances-celibataire-paris-2026"
+    ],
+    tags: ["vacances célibataire Rouen", "voyage solo Rouen", "sortir seul·e Rouen", "Eau-de-Robec Rouen", "week-end célibataire Normandie"]
+  },
+  {
+    slug: "vacances-celibataire-caen-2026",
+    title: "Vacances célibataire à Caen en 2026 : Vaugueux, rue Écuyère, séjour sans voiture",
+    metaTitle: "Vacances célibataire Caen 2026 : sortir seul·e, quartiers",
+    metaDesc: "Caen en séjour célibataire : 33,3 % de 15-29 ans, sécurité 5,9/10, tramway depuis 2019, mer à un quart d'heure de train. Loger, sortir un mardi, budget solo.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-22",
+    updatedAt: "2026-08-22",
+    intro: "Caen est neuvième sur les 538 villes mesurées ici pour la part des 15-29 ans, avec 33,3 % au recensement Insee 2022, et c'est la ville de ce lot qui affiche le meilleur score de sécurité, 5,9/10. C'est une combinaison rare et utile pour un séjour seul·e : une population résidente jeune, donc une vie de semaine qui ne dépend pas des vacanciers, et un contexte qui ne demande pas de calcul particulier pour rentrer à pied. Ajoutez trois lignes de tramway sur rails depuis 2019, un centre reconstruit compact ceinturé par deux abbayes, et une côte à un quart d'heure de train. Ce guide indique où loger, comment enchaîner une soirée en semaine, et comment limiter le coût d'une chambre payée par une seule personne.",
+    sections: [
+      {
+        heading: "Pourquoi Caen plutôt qu'ailleurs pour un séjour célibataire",
+        body: "Caen tient sur trois arguments mesurés. Sa part de 15-29 ans, 33,3 %, la place neuvième sur 538, presque à égalité avec Rouen, et bien au-dessus du troisième quartile national de 20,8 % : la ville est étudiante avant d'être touristique. Son score de sécurité, 5,9/10, est le plus élevé de ce batch, ce qui compte quand on sort le soir sans compagnon de route. Et son score de vie quotidienne, 6,6/10, est également en haut du lot avec Tours et Besançon. La culture ressort à 6,6/10, un niveau honnête sans être celui de Nancy ou de Rouen : Caen a le Théâtre de Caen, le Cargö pour les musiques actuelles, un tissu de cinémas et de musées, mais pas la densité d'une capitale régionale de premier rang. À cela s'ajoute un atout de position : la mer est à une quinzaine de kilomètres, accessible en transports, ce qui offre une demi-journée de respiration sans louer de voiture. Le score nature de 5,6/10 est le troisième du lot, derrière Clermont-Ferrand et Besançon."
+      },
+      {
+        heading: "Où poser ses valises : centre reconstruit, Vaugueux, Saint-Pierre",
+        body: "Le cœur utile de Caen tient entre le château, l'église Saint-Pierre et la rue Saint-Jean. Le secteur du centre reconstruit, autour de la rue Saint-Pierre et de l'avenue du Six-Juin, est le choix par défaut : c'est là que se trouvent les commerces, les hôtels et l'accès direct au tramway, tout étant à pied. Le quartier du Vaugueux, au pied du château, est le plus petit et le plus vivant le soir, avec ses rues pavées et sa concentration de restaurants : y loger met la sortie sous les fenêtres, ce qui a un revers sonore en fin de semaine. Autour de la rue Écuyère et de la rue Froide, on trouve la version étudiante et bon marché du même centre, à deux pas. Le secteur de la gare, au sud du bassin Saint-Pierre, est l'option budget, reliée au centre par le tramway. Les quartiers résidentiels périphériques et la côte n'ont pas d'intérêt pour un séjour court centré sur les soirées."
+      },
+      {
+        heading: "Sortir un mardi soir : Vaugueux, rue Écuyère, le Cargö",
+        body: "La sortie de semaine à Caen se concentre géographiquement, ce qui est une bonne nouvelle quand on est seul·e : le circuit est court et on repasse devant les mêmes portes. La rue Écuyère et la rue Froide portent l'essentiel des bars étudiants et se tiennent du mardi au samedi, avec une clientèle qui n'attend pas le week-end. Le Vaugueux ajoute le registre restaurant et bar à cocktails, plus mélangé en âge. Côté salles, le Cargö est la scène de musiques actuelles de l'agglomération et programme régulièrement en semaine, ce qui donne une soirée décidable la veille ; le Théâtre de Caen tient une saison de spectacle vivant, d'opéra et de danse de septembre à juin. La ville compte plusieurs cinémas d'art et d'essai qui complètent une semaine sans concert. Comme partout, le dimanche soir et le lundi sont creux. Du mardi au samedi, la densité est au rendez-vous, et le samedi matin le marché du bassin Saint-Pierre est le moment le plus animé de la semaine."
+      },
+      {
+        heading: "Se déplacer sans voiture : tramway, bus, train pour la côte",
+        body: "Le score transport de Caen est de 7,0/10 et il est mérité depuis la remise à niveau du réseau. Le tramway a rouvert le 27 juillet 2019, cette fois sur rails, avec trois lignes qui couvrent l'axe nord-sud, la gare, le centre et le campus : c'est l'outil principal du visiteur, et il rend la desserte de la gare immédiate. Des lignes de bus à haut niveau de service complètent le maillage. Le centre lui-même se marche intégralement, du château aux deux abbayes. Pour le train, Caen n'a pas de desserte TGV : la liaison avec Paris se fait par la ligne classique depuis Saint-Lazare, fréquente et directe. Le point qui fait la différence dans ce guide est la côte : Ouistreham, Lion-sur-Mer et Cabourg s'atteignent en transports en commun ou en TER selon la destination, ce qui permet une demi-journée de mer sans voiture. Séjour intégralement sans voiture parfaitement tenable, y compris avec une échappée littorale."
+      },
+      {
+        heading: "Le supplément single et comment le contourner à Caen",
+        body: "Le score de coût est de 6,2/10, dans la moyenne du lot, et deux leviers locaux jouent en faveur du voyageur seul. Le premier est le parc hôtelier du secteur de la gare et du centre reconstruit, largement tourné vers la clientèle professionnelle en semaine, avec des grilles plus douces du lundi au jeudi. Le second est le stock de studios meublés issu de la demande étudiante, qui se facture à la surface : dès la deuxième nuit, cela met le solo au tarif du couple, ce qui est exactement l'objectif. Les trois réflexes de la série s'appliquent tels quels : chercher une chambre single et non une double occupée par une personne, viser la semaine, comparer studio et hôtel à partir de deux nuits. Un piège de calendrier propre à la Normandie mérite d'être signalé : les commémorations du Débarquement, début juin, saturent l'hébergement dans tout le Calvados, Caen comprise, et les tarifs montent nettement. Aucun montant n'est imprimé, les prix bougent trop vite pour tenir un an."
+      },
+      {
+        heading: "Quand y aller : rentrée, printemps, éviter le pic de juin",
+        body: "Septembre à novembre reste la fenêtre la plus cohérente avec l'esprit de cette série : la rentrée universitaire remplit la rue Écuyère, les saisons du Théâtre de Caen et du Cargö redémarrent, et le littoral est encore praticable en septembre. Avril à juin est agréable, avec la réserve indiquée plus haut sur le début juin. La météo normande demande d'être prise au sérieux toute l'année, mais elle pénalise moins un séjour construit sur les soirées et les salles qu'un séjour de plein air. Deux périodes à éviter : la première quinzaine d'août, où la ville étudiante est absente et où le flux se déporte sur la côte, et le dimanche soir, où le centre ferme tôt. Une bonne semaine ici ressemble à un mardi de concert au Cargö, un jeudi rue Écuyère, un samedi de marché puis de mer, et cela ne demande ni voiture ni réservation prise six mois à l'avance."
+      }
+    ],
+    relatedCities: ["caen"],
+    relatedGuides: [
+      "10-choses-a-faire-a-caen-2026",
+      "etudiant-a-caen-2026",
+      "vacances-celibataire-rennes-2026"
+    ],
+    tags: ["vacances célibataire Caen", "voyage solo Caen", "sortir seul·e Caen", "Vaugueux Caen", "week-end célibataire Normandie"]
+  },
+  {
+    slug: "vacances-celibataire-clermont-ferrand-2026",
+    title: "Vacances célibataire à Clermont-Ferrand en 2026 : Jaude, Coopé, volcans sans voiture",
+    metaTitle: "Vacances célibataire Clermont-Ferrand 2026 : sortir seul·e",
+    metaDesc: "Clermont-Ferrand en séjour célibataire : 31,5 % de 15-29 ans, nature 7,2/10, tramway ligne A, La Coopérative de Mai. Loger, sortir un mardi, budget solo.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-22",
+    updatedAt: "2026-08-22",
+    intro: "Clermont-Ferrand est la plus peuplée des destinations de ce lot, avec 147 751 habitants au recensement Insee 2022, et la treizième de France sur 538 pour la part des 15-29 ans : 31,5 %, contre une médiane nationale de 18,4 %. Elle apporte en plus quelque chose qu'aucune autre ville de ce batch n'a, un score nature de 7,2/10 adossé à la chaîne des Puys, accessible sans voiture depuis le centre. Pour un séjour seul·e, la combinaison est intéressante : une ville étudiante qui vit en semaine toute l'année, une scène de musiques actuelles de premier plan avec La Coopérative de Mai, et une journée de montagne possible sans logistique. Ce guide dit où loger, comment sortir un mardi, et comment ne pas payer le tarif de deux personnes.",
+    sections: [
+      {
+        heading: "Pourquoi Clermont-Ferrand plutôt qu'ailleurs pour un séjour célibataire",
+        body: "Trois chiffres portent le dossier. La part des 15-29 ans, 31,5 %, place la ville treizième sur 538, très au-dessus du troisième quartile national de 20,8 % : la vie du soir en semaine repose sur une population résidente, pas sur un flux saisonnier. Le score de coût, 6,4/10, est le deuxième du lot derrière Poitiers, à égalité avec Besançon. Et le score nature, 7,2/10, écrase le reste du batch, où personne d'autre ne dépasse 6,4. À l'inverse, le score culture ressort à 6,2/10, le plus modeste de ce lot à égalité avec Poitiers, et la vie quotidienne à 6,2/10 : il serait malhonnête de vendre Clermont comme une capitale culturelle. La nuance est ailleurs. La ville dispose d'une salle qui compte à l'échelle nationale, La Coopérative de Mai, avec deux espaces de 460 et 1 500 places et plus de cent trente concerts par an ; sur le seul critère qui compte pour ce séjour, à savoir la probabilité qu'il se passe quelque chose un mardi, cela vaut mieux qu'un score moyen élevé."
+      },
+      {
+        heading: "Où poser ses valises : Jaude, centre ancien, Montferrand",
+        body: "La place de Jaude est le centre de gravité de la ville et le point de repère du réseau : loger dans son rayon immédiat met la gare, les bars et le tramway à portée. Le centre ancien, entre la cathédrale de lave noire et la place de la Victoire, est plus resserré et plus pittoresque, avec des rues qui montent, et il reste à cinq minutes à pied de Jaude. Le secteur de la gare, à l'est, propose l'option économique classique avec ses hôtels d'affaires, à une dizaine de minutes de tramway du centre. Montferrand, l'ancienne cité rivale absorbée par Clermont, offre un centre médiéval à part entière, plus calme et souvent moins cher, mais nettement excentré pour une soirée : c'est un choix de deuxième séjour, pas de premier. Les quartiers du sud et de l'ouest, plus résidentiels et parfois pentus, ne servent pas un séjour court. Viser un logement à moins d'un quart d'heure à pied de Jaude."
+      },
+      {
+        heading: "Sortir un mardi soir : Jaude, place Delille, La Coopé",
+        body: "La sortie de semaine se répartit entre le centre ancien, où les rues étroites autour de la place de la Victoire et de la place Saint-Pierre concentrent les bars, et les abords de la place Delille, plus étudiants. L'affluence en semaine est réelle du mardi au jeudi, ce qui est la signature d'une ville universitaire et pas d'une ville de passage. La sortie de salle repose d'abord sur La Coopérative de Mai, scène de musiques actuelles installée rue Serge-Gainsbourg, qui affiche plus de cent trente concerts par an entre son club de 460 places et sa grande salle de 1 500 : c'est le lieu qui rend une soirée décidable la veille. L'Opéra-Théâtre complète sur le registre lyrique et symphonique. En février, le festival international du court métrage transforme la ville pendant une semaine et remplit tout, salles comme hébergement : à viser délibérément ou à éviter délibérément, mais pas à découvrir sur place. Dimanche soir et lundi restent creux."
+      },
+      {
+        heading: "Se déplacer sans voiture : tramway ligne A, bus, chaîne des Puys",
+        body: "Le score transport, 6,4/10, est le plus bas du lot à égalité avec Poitiers, et il reflète un réseau structuré autour d'une seule ligne forte. Le tramway, mis en service en 2006, est une ligne A unique de trente-quatre stations sur près de seize kilomètres, en technologie sur pneus guidée par un rail central : elle relie la gare, la place de Jaude, le centre et le campus, ce qui couvre l'essentiel des besoins d'un visiteur. Des lignes de bus à haut niveau de service et un réseau cyclable de niveau moyen complètent. Clermont n'a pas de desserte TGV : la liaison avec Paris se fait en train classique depuis la gare de Bercy, ce qui allonge le trajet et se planifie. Le vrai atout du séjour sans voiture est ailleurs : le Panoramique des Dômes, train à crémaillère au départ du pied du puy de Dôme, rend le sommet accessible en transports, et c'est ce qui justifie le score nature de 7,2/10 dans un guide de séjour urbain."
+      },
+      {
+        heading: "Le supplément single et comment le contourner à Clermont-Ferrand",
+        body: "Clermont est structurellement favorable au voyageur seul, pour une raison qui tient à son économie : la ville accueille un siège industriel majeur et une clientèle d'affaires nombreuse, ce qui a produit un parc hôtelier calibré sur des séjours d'une personne du lundi au jeudi. C'est le levier le plus fiable, et il se combine bien avec un score de coût de 6,4/10. Le second levier est le parc de studios meublés issu de la demande étudiante, facturé à la surface, donc indifférent au nombre d'occupants. Les trois réflexes de la série s'appliquent : demander une chambre single et non une double occupée par une personne, viser la semaine plutôt que le week-end, comparer studio et hôtel dès la deuxième nuit. Deux pics locaux saturent l'hébergement et doivent être vérifiés avant de bloquer des dates : la semaine du festival du court métrage en février, et les week-ends de match au stade. Aucun tarif n'est imprimé ici, ils ne tiennent pas sur un an."
+      },
+      {
+        heading: "Quand y aller : rentrée, février du court métrage, printemps",
+        body: "Septembre à novembre reste la meilleure fenêtre pour un séjour célibataire ordinaire : la rentrée universitaire remplit le centre ancien, la saison de La Coopé et celle de l'Opéra-Théâtre redémarrent, et la chaîne des Puys est encore accessible avant l'hiver. Février est le cas particulier de cette destination : la semaine du festival du court métrage est le moment où la ville est la plus vivante de l'année, avec une programmation dense et un public jeune, mais l'hébergement se réserve très en amont et les prix montent. Avril à juin fonctionne bien, avec les journées longues et les volcans praticables. Deux réserves saisonnières : l'hiver clermontois est franc, la ville est à plus de trois cents mètres d'altitude et le Panoramique des Dômes suit une saisonnalité qu'il faut vérifier avant de partir ; et la première quinzaine d'août vide la population étudiante, comme partout dans cette série. Le dimanche soir reste à éviter."
+      }
+    ],
+    relatedCities: ["clermont-ferrand"],
+    relatedGuides: [
+      "10-choses-a-faire-a-clermont-ferrand-2026",
+      "vivre-sans-voiture-clermont-ferrand-guide-2026",
+      "vacances-celibataire-lyon-2026"
+    ],
+    tags: ["vacances célibataire Clermont-Ferrand", "voyage solo Clermont-Ferrand", "sortir seul·e Clermont-Ferrand", "Coopérative de Mai", "week-end célibataire Auvergne"]
+  },
+  {
+    slug: "vacances-celibataire-tours-2026",
+    title: "Vacances célibataire à Tours en 2026 : place Plumereau, Vieux Tours, séjour sans voiture",
+    metaTitle: "Vacances célibataire Tours 2026 : sortir seul·e, quartiers",
+    metaDesc: "Tours en séjour célibataire : 29,7 % de 15-29 ans, culture 7,3/10, tramway et TGV depuis Paris, place Plumereau. Loger, sortir un mardi, budget solo.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-22",
+    updatedAt: "2026-08-22",
+    intro: "Tours est dix-huitième sur les 538 villes mesurées ici pour la part des 15-29 ans, avec 29,7 % au recensement Insee 2022, soit près du double de la médiane nationale. C'est aussi la destination de ce lot la mieux reliée à Paris, avec une desserte TGV directe, et l'une des deux à afficher un score culture de 7,3/10. La particularité de Tours pour un séjour célibataire tient en un lieu : la place Plumereau, au cœur du Vieux Tours, est l'une des rares places françaises où la densité de terrasses tient en semaine hors saison, parce que ce sont les étudiants qui la remplissent. Ce guide dit où loger, comment enchaîner une soirée un mardi, et comment éviter que la chambre coûte le prix de deux.",
+    sections: [
+      {
+        heading: "Pourquoi Tours plutôt qu'ailleurs pour un séjour célibataire",
+        body: "Tours réunit ce que cette série cherche : une population résidente jeune, une offre culturelle qui tourne toute l'année et une accessibilité en train qui rend le week-end de trois jours réaliste. La part des 15-29 ans, 29,7 %, la classe dix-huitième sur 538. Le score culture, 7,3/10, se hisse au niveau de Rouen et derrière le seul Nancy dans ce lot. La vie quotidienne ressort à 6,6/10, en haut du batch avec Caen et Besançon, et le score transport à 7,0/10. Deux points de vigilance. Le score de coût, 5,9/10, est le plus bas de ce lot, et sur cet axe un score bas veut dire cher : Tours est la plus chère des sept, ce qui pèse directement quand on paye seul·e. La sécurité, 5,5/10, se situe au milieu du lot, sans que cela change les précautions ordinaires. À l'échelle du séjour, l'atout décisif reste l'échelle humaine du Vieux Tours, où l'on passe d'une adresse à l'autre en trois minutes, ce qui compte plus qu'on ne le croit quand on sort sans compagnon de route."
+      },
+      {
+        heading: "Où poser ses valises : Vieux Tours, Plumereau, secteur gare",
+        body: "Le Vieux Tours, autour de la place Plumereau et de la rue du Grand-Marché, est le choix par défaut et le seul qui mette la sortie sous les fenêtres. C'est aussi le quartier le plus bruyant du jeudi au samedi : à arbitrer selon la tolérance au bruit, sachant que la contrepartie est de rentrer à pied en cinq minutes. Le secteur de la gare et de la place Jean-Jaurès, sur l'axe de la rue Nationale, concentre les hôtels d'affaires et met le TGV, le tramway et le centre à portée immédiate : c'est le meilleur compromis budget et confort. Le quartier de la cathédrale et de Saint-Pierre-des-Corps ne se confondent pas : la cathédrale Saint-Gatien est en ville, à l'est du centre, plus calme et patrimonial ; Saint-Pierre-des-Corps est la gare TGV située dans une commune voisine, reliée en navette, et n'est pas un quartier où loger. Les bords de Loire, au nord, sont agréables en journée et vides le soir."
+      },
+      {
+        heading: "Sortir un mardi soir : Plumereau, Colbert, Le Temps Machine",
+        body: "La place Plumereau est le point de départ évident, et sa densité de terrasses tient en semaine parce que la clientèle est locale et étudiante : c'est exactement le critère de cette série, une place qui ne se vide pas quand les vacanciers partent. Les rues alentour, notamment la rue du Grand-Marché et la rue Colbert du côté est du centre, complètent le circuit avec des adresses plus tranquilles et plus mélangées en âge. Côté salles, Le Temps Machine est la scène de musiques actuelles de l'agglomération, inaugurée en 2011 à Joué-lès-Tours sur le site d'une ancienne maison des jeunes : elle se rejoint par le tramway jusqu'à l'arrêt Joué Hôtel de Ville, ce qui la rend accessible sans voiture y compris pour un concert en semaine. L'Opéra de Tours tient sa saison au Grand Théâtre. Dimanche soir et lundi sont creux comme partout ; du mardi au samedi, Plumereau assure un fond de soirée sans planification."
+      },
+      {
+        heading: "Se déplacer sans voiture : tramway ligne A, TGV, TER des châteaux",
+        body: "Le score transport de 7,0/10 recouvre trois choses utiles. Une ligne A de tramway qui traverse la ville du nord au sud, dessert la gare, le centre et Joué-lès-Tours, et suffit à l'essentiel des déplacements du visiteur. Un réseau de bus à haut niveau de service en complément, et un maillage cyclable de niveau moyen. Et surtout une desserte TGV directe depuis Paris, ce qui fait de Tours la destination la plus facile à atteindre de ce batch : attention simplement à distinguer la gare de Tours, en centre-ville, de celle de Saint-Pierre-des-Corps, où s'arrêtent une partie des TGV et qui est reliée par une navette de quelques minutes. Le TER ouvre enfin les excursions à la journée vers les châteaux de la Loire sans louer de voiture, ce qui est l'argument classique de la ville et reste vrai. Séjour intégralement sans voiture largement tenable, y compris avec une journée hors de Tours."
+      },
+      {
+        heading: "Le supplément single et comment le contourner à Tours",
+        body: "C'est le point faible de la destination et il faut le dire clairement : avec un score de coût de 5,9/10, Tours est la plus chère de ce lot, et le statut touristique de la vallée de la Loire tire les tarifs d'hébergement vers le haut en saison. Deux leviers restent efficaces. Le premier est le parc hôtelier du secteur de la gare, orienté clientèle d'affaires, dont les grilles de semaine sont indexées sur une occupation individuelle et se détendent du lundi au jeudi. Le second est le stock de studios meublés lié à la demande étudiante, facturé à la surface, donc neutre au nombre d'occupants dès deux nuits. Les trois réflexes de la série s'appliquent : chercher une chambre single et non une double occupée par une personne, privilégier la semaine, comparer studio et hôtel à partir de la deuxième nuit. À Tours s'ajoute une règle simple : décaler d'une saison. En octobre ou en mars, la ville reste vivante grâce à ses étudiants alors que la pression touristique est retombée."
+      },
+      {
+        heading: "Quand y aller : rentrée, hors saison des châteaux, printemps",
+        body: "La recommandation est ici plus nette qu'ailleurs dans la série. Septembre à novembre cumule tous les avantages : rentrée universitaire qui remplit Plumereau, saisons de l'Opéra de Tours et du Temps Machine qui redémarrent, châteaux de la Loire accessibles en TER sans la foule de l'été, et tarifs d'hébergement redescendus. Mars et avril offrent la même configuration à l'envers, avant que la saison touristique ne reprenne. Juillet et août sont à éviter pour ce type de séjour, non parce que la ville est morte, mais parce qu'elle change de nature : les étudiants sont partis, les vacanciers ont pris leur place, et l'ambiance de semaine qui fait l'intérêt de Tours pour un voyageur seul disparaît au profit d'une fréquentation de passage, plus chère. Le dimanche soir est creux toute l'année. Une bonne semaine ici ressemble à un mardi de terrasse à Plumereau, un jeudi de concert au Temps Machine et un samedi de TER vers un château."
+      }
+    ],
+    relatedCities: ["tours"],
+    relatedGuides: [
+      "10-choses-a-faire-a-tours-2026",
+      "etudiant-a-tours-2026",
+      "vacances-celibataire-angers-2026"
+    ],
+    tags: ["vacances célibataire Tours", "voyage solo Tours", "sortir seul·e Tours", "place Plumereau", "week-end célibataire Val de Loire"]
+  },
+  {
+    slug: "vacances-celibataire-besancon-2026",
+    title: "Vacances célibataire à Besançon en 2026 : Battant, la Boucle, séjour sans voiture",
+    metaTitle: "Vacances célibataire Besançon 2026 : sortir seul·e, budget",
+    metaDesc: "Besançon en séjour célibataire : 28,9 % de 15-29 ans, nature 6,4/10, tramway et TGV en gare Viotte, quartier Battant. Loger, sortir un mardi, budget solo.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-22",
+    updatedAt: "2026-08-22",
+    intro: "Besançon affiche le meilleur score global de ce lot de destinations, 6,5/10, et se classe vingt-troisième sur les 538 villes mesurées ici pour la part des 15-29 ans : 28,9 % au recensement Insee 2022, contre une médiane nationale de 18,4 %. Elle a la particularité rare d'être à la fois une ville étudiante, donc vivante en semaine hors saison, et une ville verte, avec un score nature de 6,4/10 et une boucle du Doubs qui enserre le centre au pied d'une citadelle de Vauban. Deux lignes de tramway, une gare Viotte en ville desservie en TGV direct, un quartier de sortie identifié. Ce guide dit où loger, comment sortir un mardi soir, et comment ne pas payer le tarif de deux personnes.",
+    sections: [
+      {
+        heading: "Pourquoi Besançon plutôt qu'ailleurs pour un séjour célibataire",
+        body: "Besançon est la destination la plus équilibrée de ce batch, et c'est son argument. Son score global de 6,5/10 est le plus haut du lot ; sa vie quotidienne, 6,6/10, est en haut avec Caen et Tours ; sa culture, 6,9/10, dépasse celles de Caen, Clermont et Poitiers ; son coût, 6,4/10, est le deuxième du lot à égalité avec Clermont-Ferrand ; sa sécurité, 5,7/10, est correcte. Aucune de ces valeurs n'est spectaculaire, aucune ne décroche, et pour un séjour où l'on fait tout seul·e, cette absence de point faible vaut mieux qu'un pic isolé. La part de 15-29 ans, 28,9 %, place la ville vingt-troisième sur 538 : la population étudiante est là, elle tient les bars du lundi au jeudi, et c'est ce qui distingue Besançon d'une ville patrimoniale de taille comparable. S'y ajoute une géographie qui rend le séjour agréable sans effort : le centre historique tient dans une boucle du Doubs, la citadelle de Vauban le domine, et la marche suffit à tout."
+      },
+      {
+        heading: "Où poser ses valises : la Boucle, Battant, secteur Viotte",
+        body: "La Boucle, c'est-à-dire le centre historique enserré par le méandre du Doubs, est le choix par défaut : la Grande Rue la traverse de part en part, tout est piéton ou apaisé, et l'on rejoint n'importe quel point du centre en un quart d'heure de marche. Battant, sur l'autre rive, est le quartier historique des vignerons devenu le secteur de sortie le plus animé de la ville : y loger met les bars à la porte, avec le revers sonore habituel en fin de semaine. Le secteur de la gare Viotte, au nord, propose l'option budget avec ses hôtels de gare, à une dizaine de minutes à pied du centre ou une station de tramway. Les quartiers des hauteurs offrent des vues et des montées : agréables pour un long séjour, pénibles pour trois nuits centrées sur les soirées. Éviter le secteur de la gare Besançon Franche-Comté TGV, qui n'est pas en ville et se rejoint par navette, comme expliqué plus bas."
+      },
+      {
+        heading: "Sortir un mardi soir : Battant, la Boucle, La Rodia",
+        body: "Battant est le cœur de la sortie bisontine, et sa clientèle est locale plutôt que touristique, ce qui est exactement le critère de cette série : les bars y tiennent du mardi au samedi et l'on n'y attend pas le week-end pour qu'il se passe quelque chose. La Boucle complète avec des adresses plus mélangées, autour de la Grande Rue et des places du centre, davantage tournées vers le dîner que vers la nuit. Côté salles, La Rodia est la scène de musiques actuelles de la ville, installée avenue de Chardonnet au bord du Doubs, avec une capacité de neuf cents places qui lui permet une programmation régulière et abordable en semaine. Les 2 Scènes, scène nationale née en 2012 de la fusion du théâtre de l'Espace et du théâtre musical, tient la saison de spectacle vivant, notamment au théâtre Ledoux en centre-ville. Le dimanche soir et le lundi sont creux ; le reste de la semaine tient sans planification."
+      },
+      {
+        heading: "Se déplacer sans voiture : tramway, gare Viotte, la nuance TGV",
+        body: "Le score transport de 7,0/10 est justifié, à condition de comprendre une subtilité ferroviaire propre à Besançon. La ville a deux gares. Besançon-Viotte est en centre-ville, desservie par la ligne T2 du tramway et par plusieurs lignes de bus, et elle reçoit des TGV inOui directs depuis Paris-Lyon en plus des TER. Besançon Franche-Comté TGV est une gare nouvelle située hors de la ville sur la ligne à grande vitesse Rhin-Rhône, reliée à Viotte par navette. Selon le train réservé, on arrive dans l'un ou l'autre lieu, et la différence est de l'ordre de vingt minutes de trajet supplémentaire : c'est le seul piège logistique de cette destination, et il se règle au moment de la réservation en vérifiant la gare d'arrivée. Sur place, les deux lignes de tramway et la marche suffisent. Le centre historique se parcourt intégralement à pied, et la montée à la citadelle se fait de même."
+      },
+      {
+        heading: "Le supplément single et comment le contourner à Besançon",
+        body: "Avec un score de coût de 6,4/10, Besançon fait partie des destinations où le voyage seul·e reste raisonnable, et deux leviers locaux aident. Le premier est le parc hôtelier du secteur Viotte, tourné vers la clientèle professionnelle en semaine, avec des grilles qui se détendent du lundi au jeudi et se tendent le week-end. Le second est le stock de studios meublés issu de la demande étudiante, facturé à la surface : dès la deuxième nuit, l'écart avec un couple disparaît. Les trois réflexes de la série s'appliquent sans modification : demander une chambre single plutôt qu'une double occupée par une personne, viser la semaine, comparer studio et hôtel à partir de deux nuits. Un point de calendrier local : les grands rendez-vous d'été, dont les festivals de plein air de la région, tendent l'hébergement sur plusieurs jours, il faut vérifier les dates avant de bloquer. Aucun montant n'est cité dans ce guide, les tarifs bougent d'une saison à l'autre."
+      },
+      {
+        heading: "Quand y aller : rentrée, printemps, hiver franc",
+        body: "Septembre à novembre reste la fenêtre la plus cohérente avec l'esprit de cette série : la rentrée universitaire remplit Battant, les saisons de La Rodia et des 2 Scènes redémarrent, et la boucle du Doubs comme la citadelle restent praticables en septembre et en octobre. Avril à juin est la seconde bonne fenêtre, sans doute la plus agréable pour marcher, avec des journées longues et un score nature de 6,4/10 qui prend enfin son sens : les rives du Doubs et les hauteurs se parcourent à pied depuis le centre. L'hiver bisontin est franc et humide, ce qui pénalise un séjour de plein air mais pas un séjour construit sur les salles et les comptoirs. Deux périodes à éviter comme partout dans cette série : la première quinzaine d'août, où la population étudiante est absente, et le dimanche soir. Une bonne semaine ici tient en un mardi à Battant, un jeudi à La Rodia et un samedi de montée à la citadelle."
+      }
+    ],
+    relatedCities: ["besancon"],
+    relatedGuides: [
+      "10-choses-a-faire-a-besancon-2026",
+      "etudiant-a-besancon-2026",
+      "vacances-celibataire-dijon-2026"
+    ],
+    tags: ["vacances célibataire Besançon", "voyage solo Besançon", "sortir seul·e Besançon", "quartier Battant Besançon", "week-end célibataire Franche-Comté"]
+  },
+  {
     slug: "partir-en-vacances-seul-2026",
     title: "Partir en vacances seul·e en 2026 : supplément single, villes vivantes, bonne saison",
     metaTitle: "Partir en vacances seul·e 2026 — Budget, villes, saison",
