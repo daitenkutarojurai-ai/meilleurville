@@ -3142,6 +3142,41 @@
       "emoji": "🍸"
     },
     {
+      "slug": "solo-travel-in-nancy-2026",
+      "title": "Solo travel in Nancy: the fourth youngest city in France, and no tram",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-poitiers-2026",
+      "title": "Solo travel in Poitiers: a pedestrian plateau and the cheapest room in this series",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-rouen-2026",
+      "title": "Solo travel in Rouen: a medieval centre, and the metro that is a tram",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-caen-2026",
+      "title": "Solo travel in Caen: a student city with three tram lines and the sea nearby",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-clermont-ferrand-2026",
+      "title": "Solo travel in Clermont-Ferrand: a student city with volcanoes at the end of the line",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-tours-2026",
+      "title": "Solo travel in Tours: place Plumereau holds up on a Tuesday in November",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-besancon-2026",
+      "title": "Solo travel in Besançon: the Boucle, Battant, and two stations that are not the same",
+      "emoji": "🍸"
+    },
+    {
       "slug": "things-to-do-in-saint-laurent-du-maroni-2026",
       "title": "Things to do in Saint-Laurent-du-Maroni: the penal colony and the river",
       "emoji": "🛶"
@@ -3502,6 +3537,11 @@
       "emoji": "💼"
     },
     {
+      "slug": "working-in-nantes-2026",
+      "title": "Working in Nantes: aerospace, shipyards, tech, and a city that keeps arriving",
+      "emoji": "💼"
+    },
+    {
       "slug": "single-parent-holidays-la-rochelle-2026",
       "title": "Single-parent holidays in La Rochelle: the week that works without a car",
       "emoji": "🧑‍🍼"
@@ -3581,27 +3621,27 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 36
+      "count": 37
     },
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 32
+      "count": 33
     },
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 30
+      "count": 31
     },
     {
       "slug": "working-in-france",
       "label": "working in france",
-      "count": 30
+      "count": 31
     },
     {
       "slug": "job-market-france",
       "label": "job market france",
-      "count": 29
+      "count": 30
     },
     {
       "slug": "hauts-de-france",
@@ -3624,13 +3664,28 @@
       "count": 24
     },
     {
+      "slug": "pays-de-la-loire",
+      "label": "pays de la loire",
+      "count": 23
+    },
+    {
       "slug": "student-housing-france",
       "label": "student housing france",
       "count": 23
     },
     {
-      "slug": "pays-de-la-loire",
-      "label": "pays de la loire",
+      "slug": "single-supplement",
+      "label": "single supplement",
+      "count": 22
+    },
+    {
+      "slug": "solo-travel",
+      "label": "solo travel",
+      "count": 22
+    },
+    {
+      "slug": "travelling-alone-in-france",
+      "label": "travelling alone in france",
       "count": 22
     },
     {
@@ -3644,14 +3699,14 @@
       "count": 21
     },
     {
-      "slug": "provence-alpes-cote-d-azur",
-      "label": "provence-alpes-cote-d-azur",
+      "slug": "normandy",
+      "label": "normandy",
       "count": 20
     },
     {
-      "slug": "normandy",
-      "label": "normandy",
-      "count": 18
+      "slug": "provence-alpes-cote-d-azur",
+      "label": "provence-alpes-cote-d-azur",
+      "count": 20
     },
     {
       "slug": "provence",
@@ -3684,24 +3739,14 @@
       "count": 15
     },
     {
-      "slug": "single-supplement",
-      "label": "single supplement",
-      "count": 15
-    },
-    {
-      "slug": "solo-travel",
-      "label": "solo travel",
-      "count": 15
-    },
-    {
-      "slug": "travelling-alone-in-france",
-      "label": "travelling alone in france",
-      "count": 15
-    },
-    {
       "slug": "cost-of-living",
       "label": "cost of living",
       "count": 13
+    },
+    {
+      "slug": "centre-val-de-loire",
+      "label": "centre-val de loire",
+      "count": 12
     },
     {
       "slug": "loire-valley",
@@ -3709,23 +3754,18 @@
       "count": 12
     },
     {
+      "slug": "bourgogne-franche-comte",
+      "label": "bourgogne-franche-comte",
+      "count": 11
+    },
+    {
       "slug": "bretagne",
       "label": "bretagne",
       "count": 11
     },
     {
-      "slug": "centre-val-de-loire",
-      "label": "centre-val de loire",
-      "count": 11
-    },
-    {
       "slug": "affordable-retirement-france",
       "label": "affordable retirement France",
-      "count": 10
-    },
-    {
-      "slug": "bourgogne-franche-comte",
-      "label": "bourgogne-franche-comte",
       "count": 10
     },
     {
@@ -3804,6 +3844,11 @@
       "count": 6
     },
     {
+      "slug": "nantes",
+      "label": "nantes",
+      "count": 6
+    },
+    {
       "slug": "pyrenees",
       "label": "pyrenees",
       "count": 6
@@ -3836,11 +3881,6 @@
     {
       "slug": "marseille",
       "label": "marseille",
-      "count": 5
-    },
-    {
-      "slug": "nantes",
-      "label": "nantes",
       "count": 5
     },
     {

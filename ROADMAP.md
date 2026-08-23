@@ -2313,6 +2313,89 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ---
 
+## Shipped 2026-08-23
+
+- **Parité EN — série `solo-travel-in-[city]-2026` REFERMÉE (batch 3, +7 : Nancy, Poitiers,
+  Rouen, Caen, Clermont-Ferrand, Tours, Besançon) + la jumelle manquante de `working-in`
+  (Nantes, +1)** ✅ — **`EN_GUIDES` 707 → 715.**
+
+  **Le run a commencé par la mesure**, comme la routine l'exige : `npm run parity` d'abord
+  (code 0, **217 routes FR / 165 EN, aucune route FR sans jumelle** — la parité de routes tient
+  depuis le 09/08 et n'a pas régressé), puis un diff de familles de slugs sur le corpus réel
+  (`FR 980 / EN 707`). Deux écarts sont sortis, tous deux des séries **déclarées fermées** qui
+  avaient rouvert dans le dos de la routine :
+
+  - `vacances-celibataire-[ville]-2026` était passée de 15 à **22 FR** le 22/08 (batch 3 d'un
+    autre agent) face à **15 EN**. Écart de 7, rattrapé le lendemain — c'est exactement le cas
+    que la routine existe pour attraper : une jumelle rattrapée le jour même coûte une page,
+    rattrapée dans un mois elle en coûte cent.
+  - `travail-a-[ville]` / `working-in-[city]` : la série EN avait été annoncée « fermée » le
+    20/08 à 29 guides pour **30 FR**. Le manquant était **Nantes**, la plus grosse ville de la
+    série. Leçon reprise du batch 32 tourisme : **une série se déclare fermée sur un diff, pas
+    sur un compte** — 29 contre 30 se lit comme fermé si on ne compare que les totaux.
+
+  **Les 7 guides `solo-travel` sont écrits en anglais natif depuis les faits des guides FR**,
+  6 sections chacun comme le reste de la série (la version FR en compte 6 aussi ici),
+  `metaTitle` 47-51 caractères, `metaDesc` 139-159, zéro tiret cadratin. **Les chiffres sont
+  contrôlés contre le moteur, pas recopiés de la prose FR** : part des 15-29 ans au recensement
+  Insee 2022 relue via `lib/city-population.ts` sur les 538 villes couvertes — Nancy 36,4 %
+  (4ᵉ), Poitiers 36,0 % (5ᵉ), Rouen 33,4 % (8ᵉ), Caen 33,3 % (9ᵉ), Clermont-Ferrand 31,5 %
+  (13ᵉ), Tours 29,7 % (18ᵉ), Besançon 28,9 % (23ᵉ), médiane nationale 18,4 % — plus les
+  populations municipales (Poitiers 89 472, Clermont-Ferrand 147 751). Les sept valeurs
+  tombent au chiffre près sur ce que la prose FR annonce.
+
+  **Aucun score `/10` n'est cité**, conformément à ce que fait déjà la série EN : les guides
+  comparent en toutes lettres (« the most affordable of this batch », « the best safety score
+  of this series ») plutôt que d'imprimer un nombre qui n'a pas la même échelle pour un lecteur
+  anglophone. Les faits qui portent chaque guide sont repris tels quels : **il n'y a pas de
+  tramway à Nancy** (le TVR a été retiré, la ligne 1 roule en trolleybus 100 % électrique
+  depuis le 5 avril 2025), le « métro » de Rouen est **techniquement un tramway** en souterrain
+  dans la traversée du centre, **Rouen, Caen et Clermont-Ferrand n'ont pas de desserte TGV**
+  (ligne classique depuis Saint-Lazare pour les deux normandes, **gare de Bercy et non gare de
+  Lyon** pour Clermont), le tramway de Caen a rouvert **sur rails le 27 juillet 2019**, celui de
+  Clermont est une **ligne A unique sur pneus** (34 stations, ~16 km, 2006), **Saint-Pierre-des-Corps
+  n'est pas un quartier de Tours** mais une gare d'une commune voisine, et Besançon a **deux
+  gares** dont une hors de la ville (~20 min de trajet supplémentaire, seul piège logistique de
+  la destination). Quatre incises sont propres au lecteur étranger et absentes du FR parce
+  qu'inutiles à un lecteur français : ce que veut dire le label **centre dramatique national**
+  et **scène nationale**, ce que sont les **Journées du patrimoine**, le fait que le centre de
+  Caen est **littéralement reconstruit** après l'été 1944, et que la pierre noire de la
+  cathédrale de Clermont est de la **lave locale**.
+
+  **`working-in-nantes-2026`** suit le gabarit de la série (8 sections, catégorie `moving`) et
+  ses chiffres viennent des libs, pas d'une intuition : estimation marché du travail **7,5/10**
+  lue par `getEmploymentRankings()`, niveau de vie médian Insee **24 170 €/an** (114ᵉ sur 533,
+  taux de pauvreté 17 %) par `lib/city-income.ts`, loyers **600 / 850 / 1 150 €** et **4 200 €/m²**
+  par `data/housing.ts`, axes seed télétravail 9/10, transport 8,1/10, écoles 7,9/10, coût
+  5,3/10.
+  ⚠️ **Nantes n'est pas écrite « première » du classement emploi, et c'est délibéré** : elle est
+  **à égalité avec Lyon** à 2,5 de composite, donc le guide dit « joint top … tied with Lyon »
+  et pose la raison en une incise. C'est la convention posée le 19/08 (`lib/owner-rankings.ts`) :
+  une égalité ne se coupe jamais en son milieu, et un rang qu'un score à une décimale ne
+  départage pas ne se publie pas.
+  ⚠️ **Défaut trouvé au passage, non corrigé ce run et à traiter en priorité au prochain** :
+  **les 29 guides `working-in-[city]-2026` déjà livrés publient tous un rang fabriqué à
+  l'intérieur d'une égalité** (« fourth of the 363 », « 86th of the 363 »…). Mesuré sur le vrai
+  moteur : Rennes/Strasbourg/Paris sont à égalité à 2,8 et s'affichent 4ᵉ, 5ᵉ et 3ᵉ ;
+  Bordeaux, Angers, Caen et Brest annoncent 86ᵉ ou 91ᵉ **dans un palier de 62 villes** ;
+  Marseille, Toulouse et Dijon se partagent un palier de 14 en affichant 148ᵉ, 156ᵉ et 161ᵉ.
+  Le calcul lui-même est juste, c'est sa **restitution** qui fabrique un ordre : `sort` +
+  `findIndex` sur un composite à une décimale. Le correctif est éditorial (une phrase par
+  guide : palier, effectif de l'égalité), pas un correctif de moteur — même remède que
+  `/classements/qualite-air` le 19/08.
+
+  Aucun tag neuf : les 8 guides réutilisent des tags existants (`grand-est`, `normandy`,
+  `centre-val-de-loire`, `bourgogne-franche-comte`, `nouvelle-aquitaine`,
+  `auvergne-rhone-alpes`, `pays-de-la-loire`), donc aucune page `/tags/` nouvelle.
+  `npx tsc --noEmit` propre, `npm run integrity` propre (guides EN 707 → 715),
+  `npm run search-index` relancé (`data/search-index.en.json` 715 guides, 100 tags),
+  `npm run sitemap:check` propre dans les deux sens (**29 047 URL FR inchangé / 28 592 EN**,
+  soit +8 côté EN et rien de bougé côté FR), `npm run parity` en code 0.
+  **Prochain run** : le rang fabriqué des 29 `working-in` ci-dessus passe avant tout nouveau
+  lot de contenu, sauf si `npm run parity` remonte une régression de route.
+
+---
+
 ## Shipped 2026-08-20
 
 - **Série tourisme — batch 33 EN, rattrapage de parité : `things-to-do-in-[city]-2026` (+6)** ✅

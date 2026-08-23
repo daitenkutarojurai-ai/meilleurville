@@ -24997,6 +24997,349 @@ export const EN_GUIDES: EnGuide[] = [
     ],
   },
   {
+    slug: "solo-travel-in-nancy-2026",
+    title: "Solo travel in Nancy: the fourth youngest city in France, and no tram",
+    metaTitle: "Solo Travel in Nancy 2026: Where to Stay, Go Out",
+    metaDesc:
+      "Nancy alone: 36.4% of residents aged 15 to 29, a pedestrian old town around place Stanislas, direct TGV from Paris, and how to keep the single supplement down.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-23",
+    updatedAt: "2026-08-23",
+    intro:
+      "Nancy is the fourth city in France, out of the 538 this site measures, for the share of residents aged 15 to 29: 36.4% at the 2022 Insee census, against a national median of 18.4%. For a solo trip that is the number that matters, because it tells you who is in town on a Tuesday evening in November once the holidaymakers have gone. Add a UNESCO-listed square, place Stanislas, with the opera house standing on it, an old town you can cross in a quarter of an hour, and a TGV station ten minutes on foot from all of it. This guide covers where to stay, how to string together a weeknight without walking into an empty room, and how to keep the single supplement reasonable.",
+    sections: [
+      {
+        heading: "Why Nancy rather than somewhere else",
+        body: "Nancy ranks fourth nationally on the share of 15 to 29 year olds, behind Corte, Lille and Talence and ahead of Poitiers and Rennes. People aged 60 and over account for only 19.2%, one of the youngest age structures in this series. The practical translation: evening life here does not follow the school holiday calendar, it follows the university year, which runs from September to June. The cultural side is carried by institutions that programme across the whole season. The Opéra national de Lorraine sits on place Stanislas itself. The Théâtre de la Manufacture, in the old tobacco factory, holds the label of centre dramatique national, which in France means a state-funded theatre with its own company and a year-round production season. L'Autre Canal covers contemporary music. Two honest reservations. Nancy does not have the terrace density of Bordeaux or Montpellier, and its energy comes from residents rather than from a tourist flow. And it scores below the middle of this series on safety, which calls for ordinary urban care after dark and nothing more.",
+      },
+      {
+        heading: "Where to stay: the Ville-Vieille, Stanislas, the station",
+        body: "Three areas cover it. The Ville-Vieille, around the Grande Rue and place Saint-Epvre, is the default: narrow medieval streets, the densest run of bars and small restaurants in the city, and a front door five minutes from place Stanislas. The hyper-centre, between place Stanislas, rue Saint-Dizier and rue des Dominicains, is more commercial and quieter in the evening, but unbeatable for walking to everything. The station area, on the place Thiers side, holds the business hotels: this is the most reliable budget option, about ten minutes on foot from Stanislas, and it is the subject of the single supplement section below. The Saint-Sébastien quarter, around the covered market, adds a market atmosphere during the day. For a short stay, aim for anywhere within a quarter of an hour on foot of place Stanislas and ignore the outskirts. Nancy is not a green city, and the Pépinière park is its single lung.",
+      },
+      {
+        heading: "Going out on a Tuesday: Grande Rue, Saint-Epvre, L'Autre Canal",
+        body: "The weeknight circuit is a walk. It starts at place Saint-Epvre, goes up the Grande Rue and comes back down towards rue des Maréchaux, where the centre's restaurants cluster. Eating alone at the counter here needs no explanation and draws no comment. For venues, L'Autre Canal is the contemporary music hall, state-labelled by the Ministry of Culture, and it programmes several nights a week at contained prices, which makes it the easiest thing to decide on the day before. The Opéra national de Lorraine runs its lyric and symphonic season on place Stanislas, and the Théâtre de la Manufacture its own production season. A good solo stay here means booking one venue evening and one counter evening rather than expecting a continuous night out: Nancy is not a club city. As everywhere, skip Sunday evening, when much of the centre closes, and Monday, which is the flat point of the week. Tuesday to Saturday give the density.",
+      },
+      {
+        heading: "Getting around without a car, and the tram that is not one",
+        body: "Nancy is done almost entirely on foot: the station, place Stanislas and the Ville-Vieille all sit within a quarter of an hour's walk of each other. One thing worth knowing, because local usage misleads and so do older maps: there is no tram in Nancy. The rubber-tyred guided light rail that everybody called the tram has been withdrawn from service, and line 1 has run as a fully electric trolleybus since 5 April 2025, alongside bus rapid transit routes. The network is efficient, it is simply not on rails, and a rail-based mode is only under discussion on a distant horizon. Nancy-Ville station is served by direct TGV from Paris-Est. Regional trains open up day trips without ever touching a steering wheel, Metz and Lunéville first among them. A completely car-free stay is straightforward.",
+      },
+      {
+        heading: "The single supplement, and how to get around it",
+        body: "Two structural features work in favour of a traveller paying for a whole room alone. First, a station hotel stock built around weekday business travel, whose rates are indexed to single occupancy rather than to couples. Second, a deep supply of furnished studios inherited from student demand, which is consistent with that 36.4% of 15 to 29 year olds: short lets are priced by floor area, which puts one person on a couple's rate. Three moves work here as elsewhere in this series. Ask explicitly for a single room rather than a double occupied by one person, because those are two separate rate lines in French hotels. Target business hotels from Monday to Thursday, where the grid inverts at the weekend. And compare a studio with a hotel from the second night onwards. No prices are printed in this guide: rates move from one season and one platform to the next, and what is worth passing on is the reflex, not the figure.",
+      },
+      {
+        heading: "When to go: the university year, Saint-Nicolas, spring",
+        body: "The best window is September to mid-November, which is precisely when a seaside resort empties. The university year fills the city, the seasons at the opera, the Manufacture and L'Autre Canal restart, and the terraces on place Stanislas still hold up in September. In early December, Saint-Nicolas is the great civic festival of Nancy and of Lorraine: the city is very full, the atmosphere is real, but accommodation books a long way ahead and rates follow, which cuts against the advice in the previous section. April to June also works well, with the Pépinière open and long days. Two periods to avoid for this kind of trip: the first half of August, when the students have gone and a share of the addresses close, and Sunday evening all year round. The rest of the time Nancy delivers what it promises, a city that lives without depending on visitors.",
+      },
+    ],
+    relatedCities: ["nancy"],
+    tags: [
+      "solo travel",
+      "solo travel nancy",
+      "travelling alone in france",
+      "single supplement",
+      "place stanislas",
+      "grand-est",
+    ],
+  },
+  {
+    slug: "solo-travel-in-poitiers-2026",
+    title: "Solo travel in Poitiers: a pedestrian plateau and the cheapest room in this series",
+    metaTitle: "Solo Travel in Poitiers 2026: Stay, Go Out, Budget",
+    metaDesc:
+      "Poitiers alone: 36% of residents aged 15 to 29, a fully pedestrian central plateau, direct TGV from Paris, the Confort Moderne, and a gentle single supplement.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-23",
+    updatedAt: "2026-08-23",
+    intro:
+      "Poitiers is the fifth city in France, out of the 538 measured here, for the share of residents aged 15 to 29: 36.0% at the 2022 Insee census, against a national median of 18.4%. With 89,472 inhabitants it is the smallest destination in this series, and also the one where the proportion of young adults is highest relative to size. The rest follows: a fully pedestrian central plateau, the cheapest accommodation of this batch, a TGV station below the centre, and two cultural venues that carry weeknight life, the Confort Moderne and the Théâtre Auditorium de Poitiers. This guide covers where to stay, how to go out on a Tuesday outside the tourist season, and how to stop a trip for one costing the price of two.",
+    sections: [
+      {
+        heading: "Why Poitiers rather than somewhere else",
+        body: "The reasoning behind this series is simple. A destination for a solo traveller has to stay alive once the holidaymakers have left, and the best available signal of that permanent life is the share of young adults who actually live in the city year-round. Poitiers comes fifth out of 538 on 36.0%, just behind Nancy. It also has the most affordable accommodation of this batch, decent safety by the standards of the series, and only 20% of residents aged 60 and over, where the median across the 538 cities measured here is 27.2%. The trade-off has to be stated plainly, because you will notice it on the first evening: the cultural offer is thinner than in Nancy or Tours, and so is the density of everyday street life. What Poitiers has instead is a scale where everything is done on foot, a student public that keeps the same addresses turning over all year, and two institutions that between them can fill a week.",
+      },
+      {
+        heading: "Where to stay: the plateau, Cordeliers, the station",
+        body: "The centre of Poitiers sits on a plateau ringed by two rivers, the Clain and the Boivre, and that geography decides everything. The plateau itself, around place du Maréchal-Leclerc, rue Gambetta and the Cordeliers quarter, is the only sensible choice for a short stay: the shops, the cafes, the church of Notre-Dame-la-Grande and the palace of the counts of Poitou are all up there, and it is pedestrian or traffic-calmed throughout. The station area, below, offers cheaper hotels but imposes a climb. The height difference is not trivial, and it is done by stairs, by an urban lift or by bus, which changes how you feel about walking home at one in the morning. Reserve it for anyone putting price before comfort. Around the parc de Blossac, at the southern end of the plateau, the setting is quieter and still within walking distance. The outskirts and the Futuroscope area, about ten kilometres out, do not suit this kind of trip.",
+      },
+      {
+        heading: "Going out on a Tuesday: Cordeliers, Confort Moderne, the TAP",
+        body: "Weeknights work on two registers. The counter register concentrates on the plateau, around the Cordeliers quarter and the streets running down from place du Maréchal-Leclerc, with an overwhelmingly student crowd from Monday to Thursday. Walking into a bar alone is completely unremarkable there, which is exactly the point. The venue register rests on two places that punch well above the size of the city. The Confort Moderne is a contemporary music venue doubled with a visual arts space and its own Fanzinothèque, programming gigs and exhibitions in the same building. The Théâtre Auditorium de Poitiers, a scène nationale on boulevard de Verdun, holds a season of theatre, dance and music. That label means a state-funded venue with a year-round programme rather than a summer festival stage. Between the two, a week fills itself. As elsewhere, Sunday evening and Monday are flat, and the useful window runs Tuesday to Saturday.",
+      },
+      {
+        heading: "Getting around without a car, and the climb",
+        body: "Poitiers has the thinnest transport network of this series, alongside Clermont-Ferrand, and it is worth knowing what that means. There is no metro and no tram: the network is buses, including bus rapid transit routes, plus walking. For a stay based on the plateau that is more than enough, because the useful perimeter is under a kilometre end to end. The strength lies elsewhere. Poitiers station is served by direct TGV from Paris-Montparnasse, which puts the city within reach of a car-free weekend return. Regional trains fill in towards La Rochelle, Angoulême and Niort for a day out. The real constraint on a car-free stay here is not the network, it is the topography: between the station and the plateau, plan for the climb, and factor it in when you choose where to stay rather than when you walk home.",
+      },
+      {
+        heading: "The single supplement, and how to get around it",
+        body: "Poitiers has the most affordable accommodation of this batch, which is a direct advantage for anyone paying for a whole room alone. The stock is also shaped by student demand, with furnished studios available on short lets outside the start-of-term weeks. Those are priced by floor area, which mechanically cancels the single supplement from two nights onwards. The hotels around the station, aimed at business travel, follow the same weekday logic as everywhere else, with softer grids from Monday to Thursday. The three reflexes of this series apply: ask for a single room rather than a double occupied by one person, favour weekdays, compare a studio with a hotel from the second night. One local precaution to add: the start-of-term weekends and exam periods tighten the market sharply, so shifting your dates by a fortnight is worth doing. No rates are quoted here, because they move too fast to hold for a year.",
+      },
+      {
+        heading: "When to go: term time, the cultural season, spring",
+        body: "September to November is the most interesting window, for a measurable reason: that is when the 15 to 29 year olds who make up 36% of the city are actually present, when the Théâtre Auditorium and Confort Moderne seasons restart, and when accommodation rates come back down after the summer. The Journées du patrimoine in mid-September, the French heritage open days, give access to Romanesque buildings you cannot see the rest of the year. April to June works just as well, with the parc de Blossac open and long days, though exam weeks empty the bars in late spring. The two periods to avoid are the same as in the rest of this series: the first half of August, when the student city empties and a share of the addresses close, and Sunday evening. Poitiers in August is a pleasant town, it is simply no longer the town this guide describes.",
+      },
+    ],
+    relatedCities: ["poitiers"],
+    tags: [
+      "solo travel",
+      "solo travel poitiers",
+      "travelling alone in france",
+      "single supplement",
+      "confort moderne poitiers",
+      "nouvelle-aquitaine",
+    ],
+  },
+  {
+    slug: "solo-travel-in-rouen-2026",
+    title: "Solo travel in Rouen: a medieval centre, and the metro that is a tram",
+    metaTitle: "Solo Travel in Rouen 2026: Where to Stay, Go Out",
+    metaDesc:
+      "Rouen alone: 33.4% of residents aged 15 to 29, a pedestrian medieval centre, the 106 on the quays, an hour and a half from Paris-Saint-Lazare, no TGV.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-23",
+    updatedAt: "2026-08-23",
+    intro:
+      "Rouen ranks eighth out of the 538 cities measured here for the share of residents aged 15 to 29, at 33.4% in the 2022 Insee census, and it is also the one in this series where people aged 60 and over weigh least, 18.6%. It is a young city, and that shows far more on a Tuesday in November than it does in photographs of the cathedral. The cultural side is carried by a scene running from the Opéra de Rouen Normandie to the 106 on the quays. The medieval centre is pedestrian, the urban network is serious, and Paris is a direct train away from Saint-Lazare. This guide covers where to stay, how to go out midweek, and how not to pay for two places when you are travelling alone.",
+    sections: [
+      {
+        heading: "Why Rouen rather than somewhere else",
+        body: "Rouen ticks this series' main box: it does not empty out of season. At 33.4% of 15 to 29 year olds it comes eighth out of 538, and its share of over-60s, 18.6%, is the lowest in this batch, giving a distinctly younger age structure than Caen or Tours. The cultural weight rests on institutions programming from September to June: the Opéra de Rouen Normandie, the 106 as the contemporary music venue on the right bank, and a historic centre dense with museums. The city is compact and entirely walkable, from the Gros-Horloge to place du Vieux-Marché. Two reservations up front. Rouen has the weakest safety score in this batch, which calls for the usual urban precautions on a late night out. And the density of counters, while real, is concentrated on a handful of streets rather than spread across the city, so choosing where you sleep matters more here than in Caen or Besançon.",
+      },
+      {
+        heading: "Where to stay: Vieux-Marché, the cathedral, Eau-de-Robec",
+        body: "The place du Vieux-Marché sector is the obvious choice for a first stay: pedestrian centre, a heavy concentration of restaurants and bars, everything on foot, and the rue du Gros-Horloge running straight through to the cathedral quarter. Around the cathedral and rue Saint-Romain the mood is more heritage and a little quieter in the evening, but you are still five minutes from the rest. Rue Eau-de-Robec and the Martainville quarter, further east, are the liveliest and least touristy option, with half-timbered houses and an uncovered channel running down the street, a quarter of an hour on foot from the Vieux-Marché. The area around Rouen-Rive-Droite station suits a budget, with its business hotels, ten minutes on foot or two stops from the centre. The left bank is more residential and is not the right choice for a short stay built around evenings.",
+      },
+      {
+        heading: "Going out on a Tuesday: Vieux-Marché, Eau-de-Robec, the 106",
+        body: "The weeknight circuit fits into three streets and two venues. Around place du Vieux-Marché and the streets leading off it sits the heaviest concentration of bars open Tuesday to Saturday. The crowd is mixed between students and working adults, and nobody notices someone eating at the counter. Rue Eau-de-Robec and its surroundings give the student version, louder and cheaper, with addresses that hold up late during the week. For venues, the 106 is the metropolitan area's contemporary music hall and programmes regularly midweek on the quays, at affordable prices and without needing to book months ahead. The Opéra de Rouen Normandie runs a dense lyric and symphonic season. Sunday evening is very flat, and so is Monday. Tuesday, Thursday and Saturday give the best nights, and on Saturday morning the Vieux-Marché market carries the previous evening's atmosphere into the day.",
+      },
+      {
+        heading: "Getting around without a car: the metro, TEOR, the Paris train",
+        body: "The network deserves an explanation, because the local vocabulary misleads. What everybody calls the metro, the operator included, is technically a tram that runs underground across the centre. It behaves like a metro on the stretch a visitor uses, which is what counts. Alongside it, the TEOR routes are bus rapid transit covering the east-west and north-south axes, and the cycle network is middling. The point to retain concerns the train: Rouen has no TGV service. It is linked to Paris-Saint-Lazare on the classic line, which stays fast and frequent but does not book the same way, since seat reservation is not compulsory and fares do not climb the same curve. Rouen-Rive-Droite station is in the city, ten minutes on foot from the centre. Regional trains serve Le Havre and Dieppe for a day on the coast without a car.",
+      },
+      {
+        heading: "The single supplement, and how to get around it",
+        body: "Accommodation costs sit in the middle of this batch, but the structure of the stock works in favour of a solo traveller. The city takes significant business travel, and the hotels around the station and the quays index their weekday grids to single occupancy: that is the most reliable lever, Monday to Thursday. The supply of furnished studios on short lets, consistent with that 33.4% of 15 to 29 year olds, is the second route, priced by floor area, which neutralises the supplement from the second night. The three reflexes of this series apply: ask for a single room rather than a double, target weekdays, compare a studio with a hotel from two nights. One local calendar point is worth knowing: the large maritime gatherings held periodically on the quays saturate accommodation across the whole metropolitan area, so check before you block dates. No amounts are printed here.",
+      },
+      {
+        heading: "When to go: term time, the cultural season, spring",
+        body: "September to November is the best window, and that is truer in Rouen than elsewhere. The city is both a heritage destination, therefore busy in summer, and a student city, therefore full of residents in autumn. You gain twice: shorter queues and more neighbourhood life. The opera and 106 seasons start in September. April to June also works, with long days and usable quays, though spring brings part of the tourist flow back. Winter has a merit of its own here, since the covered medieval centre and the museums make a wet Normandy day perfectly bearable, and Rouen is not a city you come to for the outdoors in any case. The two periods to avoid remain the first half of August, when the student population is away, and Sunday evening, when the centre shuts early.",
+      },
+    ],
+    relatedCities: ["rouen"],
+    tags: [
+      "solo travel",
+      "solo travel rouen",
+      "travelling alone in france",
+      "single supplement",
+      "rue eau-de-robec",
+      "normandy",
+    ],
+  },
+  {
+    slug: "solo-travel-in-caen-2026",
+    title: "Solo travel in Caen: a student city with three tram lines and the sea nearby",
+    metaTitle: "Solo Travel in Caen 2026: Where to Stay, Go Out",
+    metaDesc:
+      "Caen alone: 33.3% of residents aged 15 to 29, the safest city in this series, three tram lines since 2019, and the Normandy coast a short train ride away.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-23",
+    updatedAt: "2026-08-23",
+    intro:
+      "Caen ranks ninth out of the 538 cities measured here for the share of residents aged 15 to 29, at 33.3% in the 2022 Insee census, and it is the city in this series with the best safety score. That combination is rare and useful for a trip on your own: a young resident population, so weeknight life that does not depend on holidaymakers, and a setting that asks for no particular calculation when you walk home. Add three rail tram lines since 2019, a compact rebuilt centre bracketed by two abbeys, and a coastline a quarter of an hour away by train. This guide covers where to stay, how to string together a weeknight, and how to hold down the cost of a room paid for by one person.",
+    sections: [
+      {
+        heading: "Why Caen rather than somewhere else",
+        body: "Caen stands on three measured arguments. Its share of 15 to 29 year olds, 33.3%, puts it ninth out of 538, almost level with Rouen and well above the national third quartile of 20.8%: this is a student city before it is a tourist one. It has the highest safety score of this batch, which matters when you are going out in the evening without anyone to walk back with. And its everyday-life score sits at the top of the series alongside Tours and Besançon. Culture is respectable without matching Nancy or Rouen: Caen has the Théâtre de Caen, the Cargö for contemporary music, and a fabric of cinemas and museums, but not the density of a first-rank regional capital. On top of that comes a positional advantage. The sea is about fifteen kilometres away and reachable on public transport, which buys you half a day of air without hiring a car.",
+      },
+      {
+        heading: "Where to stay: the rebuilt centre, Vaugueux, rue Écuyère",
+        body: "The useful heart of Caen sits between the castle, the church of Saint-Pierre and rue Saint-Jean. The rebuilt centre, around rue Saint-Pierre and avenue du Six-Juin, is the default: shops, hotels and direct tram access, everything on foot. Rebuilt is literal here, since the city was largely destroyed in the summer of 1944 and put back up in the following decade, which is why the centre reads as post-war rather than medieval. The Vaugueux quarter, at the foot of the castle, is the smallest and the liveliest at night, with cobbled streets and a concentration of restaurants: staying there puts the evening under your window, with the noise that implies at the end of the week. Around rue Écuyère and rue Froide you get the student and cheaper version of the same centre, a couple of minutes away. The station area, south of the bassin Saint-Pierre, is the budget option, linked to the centre by tram.",
+      },
+      {
+        heading: "Going out on a Tuesday: Vaugueux, rue Écuyère, the Cargö",
+        body: "Going out midweek in Caen is geographically concentrated, which is good news when you are on your own: the circuit is short and you pass the same doors twice. Rue Écuyère and rue Froide carry most of the student bars and hold up Tuesday to Saturday, with a crowd that does not wait for the weekend. Vaugueux adds the restaurant and cocktail bar register, more mixed in age. For venues, the Cargö is the contemporary music hall for the urban area and programmes regularly midweek, which makes for an evening you can decide the day before. The Théâtre de Caen runs a season of theatre, opera and dance from September to June. Several arthouse cinemas fill in a week without a gig. As everywhere, Sunday evening and Monday are flat. From Tuesday to Saturday the density is there, and on Saturday morning the market along the bassin Saint-Pierre is the busiest moment of the week.",
+      },
+      {
+        heading: "Getting around without a car: tram, bus, the coast by train",
+        body: "Caen has a solid transport network since it was rebuilt. The tram reopened on 27 July 2019, this time on rails rather than the earlier guided rubber-tyred system, with three lines covering the north-south axis, the station, the centre and the campus. That is the visitor's main tool, and it makes the station immediate. Bus rapid transit routes fill in the mesh. The centre itself is walked end to end, from the castle to the two abbeys. On rail, Caen has no TGV service: the link to Paris runs on the classic line from Saint-Lazare, frequent and direct. The thing that makes the difference in this guide is the coast. Ouistreham, Lion-sur-Mer and Cabourg are reachable on public transport or by regional train depending on the destination, which allows half a day by the sea without a car. A fully car-free stay works, coastal escape included.",
+      },
+      {
+        heading: "The single supplement, and how to get around it",
+        body: "Accommodation costs sit in the middle of this batch, and two local levers help a solo traveller. The first is the hotel stock around the station and the rebuilt centre, largely turned towards weekday business travel, with softer grids from Monday to Thursday. The second is the supply of furnished studios thrown off by student demand, priced by floor area: from the second night that puts one person on a couple's rate, which is exactly the objective. The three reflexes of this series apply unchanged: ask for a single room rather than a double occupied by one person, target weekdays, compare a studio with a hotel from two nights. One calendar trap specific to Normandy is worth flagging: the D-Day commemorations in early June saturate accommodation across the whole Calvados department, Caen included, and rates rise sharply. No amounts are printed, because prices move too fast to hold for a year.",
+      },
+      {
+        heading: "When to go: term time, spring, and not early June",
+        body: "September to November remains the window most consistent with the spirit of this series: term restarts and fills rue Écuyère, the Théâtre de Caen and Cargö seasons begin again, and the coast is still usable in September. April to June is pleasant, with the reservation noted above about early June. Normandy weather has to be taken seriously all year, but it penalises a stay built on evenings and venues far less than one built on the outdoors. Two periods to avoid: the first half of August, when the student city is away and the flow shifts to the coast, and Sunday evening, when the centre closes early. A good week here looks like a Tuesday gig at the Cargö, a Thursday on rue Écuyère, and a Saturday of market then sea. None of that needs a car or a booking made six months ahead.",
+      },
+    ],
+    relatedCities: ["caen"],
+    tags: [
+      "solo travel",
+      "solo travel caen",
+      "travelling alone in france",
+      "single supplement",
+      "vaugueux caen",
+      "normandy",
+    ],
+  },
+  {
+    slug: "solo-travel-in-clermont-ferrand-2026",
+    title: "Solo travel in Clermont-Ferrand: a student city with volcanoes at the end of the line",
+    metaTitle: "Solo Travel in Clermont-Ferrand 2026: Stay, Go Out",
+    metaDesc:
+      "Clermont-Ferrand alone: 31.5% of residents aged 15 to 29, the Coopérative de Mai, a rack railway up the puy de Dôme, and no TGV from Paris.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-23",
+    updatedAt: "2026-08-23",
+    intro:
+      "Clermont-Ferrand is the largest destination in this series, with 147,751 inhabitants at the 2022 Insee census, and thirteenth in France out of 538 for the share of residents aged 15 to 29: 31.5%, against a national median of 18.4%. It also brings something no other city in this batch has, direct access to the Chaîne des Puys volcanoes without a car. For a trip on your own the combination is interesting: a student city that lives midweek all year, a first-rank contemporary music venue in the Coopérative de Mai, and a day in the mountains with no logistics. This guide covers where to stay, how to go out on a Tuesday, and how to avoid paying the price of two people.",
+    sections: [
+      {
+        heading: "Why Clermont-Ferrand rather than somewhere else",
+        body: "Three numbers carry the case. The share of 15 to 29 year olds, 31.5%, puts the city thirteenth out of 538, well above the national third quartile of 20.8%: weeknight life rests on a resident population rather than a seasonal flow. Accommodation is the second cheapest of this batch, behind Poitiers and level with Besançon. And the outdoors access is far ahead of everything else in the series. Against that, the cultural offer is the most modest of this batch alongside Poitiers, and everyday street life is middling. It would be dishonest to sell Clermont as a cultural capital. The nuance lies elsewhere. The city has a venue that counts nationally, the Coopérative de Mai, with two rooms of 460 and 1,500 capacity and more than a hundred and thirty gigs a year. On the only criterion that matters for this kind of trip, the probability that something is happening on a Tuesday, that is worth more than a high average.",
+      },
+      {
+        heading: "Where to stay: Jaude, the old centre, Montferrand",
+        body: "Place de Jaude is the city's centre of gravity and the reference point of the network: staying within its immediate radius puts the station, the bars and the tram within reach. The old centre, between the black lava cathedral and place de la Victoire, is tighter and more picturesque, with streets that climb, and it stays five minutes on foot from Jaude. The lava is not a metaphor, incidentally: the cathedral is built from local volcanic stone, which is why it is grey-black rather than pale. The station area, to the east, is the classic budget option with its business hotels, about ten minutes by tram from the centre. Montferrand, the former rival town absorbed into Clermont, has a medieval centre of its own, quieter and often cheaper, but distinctly off-centre for an evening: it is a second-visit choice, not a first. Aim for somewhere within a quarter of an hour on foot of Jaude.",
+      },
+      {
+        heading: "Going out on a Tuesday: Jaude, place Delille, La Coopé",
+        body: "Weeknights split between the old centre, where the narrow streets around place de la Victoire and place Saint-Pierre concentrate the bars, and the surroundings of place Delille, which are more student. Midweek turnout is real from Tuesday to Thursday, and that is the signature of a university city rather than a city people pass through. The venue side rests first on the Coopérative de Mai, the contemporary music hall on rue Serge-Gainsbourg, which posts more than a hundred and thirty gigs a year between its 460-capacity club and its 1,500-capacity main room. That is the place that makes an evening decidable the day before. The Opéra-Théâtre fills in the lyric and symphonic register. In February, the international short film festival takes over the city for a week and fills everything, venues and accommodation alike: aim for it deliberately or avoid it deliberately, but do not discover it on arrival. Sunday evening and Monday stay flat.",
+      },
+      {
+        heading: "Getting around without a car, and up the puy de Dôme",
+        body: "Clermont has the thinnest transport network of this batch alongside Poitiers, and it reflects a system built around a single strong line. The tram, opened in 2006, is a single line A of thirty-four stops over nearly sixteen kilometres, using rubber tyres guided by a central rail. It links the station, place de Jaude, the centre and the campus, which covers most of what a visitor needs. Bus rapid transit routes and a middling cycle network fill in. Clermont has no TGV service: the Paris link runs as a classic train from Gare de Bercy, not Gare de Lyon, which lengthens the journey and needs planning. The real strength of a car-free stay is elsewhere. The Panoramique des Dômes, a rack railway leaving from the foot of the puy de Dôme, makes the summit reachable on public transport, and that is what justifies talking about the mountains in an urban travel guide.",
+      },
+      {
+        heading: "The single supplement, and how to get around it",
+        body: "Clermont is structurally favourable to a solo traveller, for a reason that comes down to its economy: the city hosts a major industrial head office, that of Michelin, and a substantial business clientele, which has produced a hotel stock calibrated on single-person stays from Monday to Thursday. That is the most reliable lever, and it combines well with accommodation costs already on the low side. The second lever is the supply of furnished studios thrown off by student demand, priced by floor area and therefore indifferent to the number of occupants. The three reflexes of this series apply: ask for a single room rather than a double occupied by one person, target weekdays rather than weekends, compare a studio with a hotel from the second night. Two local peaks saturate accommodation and should be checked before you block dates: the week of the short film festival in February, and match weekends at the stadium. No rates are printed here, they do not hold for a year.",
+      },
+      {
+        heading: "When to go: term time, February shorts, spring",
+        body: "September to November remains the best window for an ordinary solo trip: term restarts and fills the old centre, the Coopé and Opéra-Théâtre seasons begin again, and the Chaîne des Puys is still accessible before winter. February is this destination's special case. The week of the short film festival is when the city is at its liveliest all year, with a dense programme and a young audience, but accommodation books a long way ahead and prices rise. April to June works well, with long days and usable volcanoes. Two seasonal reservations: the Clermont winter is a real one, the city sits above three hundred metres, and the Panoramique des Dômes follows a seasonal timetable worth checking before you travel; and the first half of August empties the student population, as everywhere in this series. Sunday evening remains one to avoid.",
+      },
+    ],
+    relatedCities: ["clermont-ferrand"],
+    tags: [
+      "solo travel",
+      "solo travel clermont-ferrand",
+      "travelling alone in france",
+      "single supplement",
+      "cooperative de mai",
+      "auvergne-rhone-alpes",
+    ],
+  },
+  {
+    slug: "solo-travel-in-tours-2026",
+    title: "Solo travel in Tours: place Plumereau holds up on a Tuesday in November",
+    metaTitle: "Solo Travel in Tours 2026: Plumereau, Stay, Go Out",
+    metaDesc:
+      "Tours alone: 29.7% of residents aged 15 to 29, direct TGV from Paris, terraces on place Plumereau that fill midweek, and Loire chateaux by regional train.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-23",
+    updatedAt: "2026-08-23",
+    intro:
+      "Tours ranks eighteenth out of the 538 cities measured here for the share of residents aged 15 to 29, at 29.7% in the 2022 Insee census, close to double the national median. It is also the best connected destination in this series, with direct TGV service, and one of the two with the strongest cultural offer. What makes Tours particular for a solo trip comes down to one place: place Plumereau, in the heart of the old town, is one of the few French squares where terrace density holds up midweek out of season, because it is students who fill it. This guide covers where to stay, how to string together a Tuesday evening, and how to stop the room costing the price of two.",
+    sections: [
+      {
+        heading: "Why Tours rather than somewhere else",
+        body: "Tours brings together what this series looks for: a young resident population, a cultural offer that runs all year, and rail access that makes a three-day weekend realistic. The share of 15 to 29 year olds, 29.7%, ranks it eighteenth out of 538. Its cultural offer sits level with Rouen and behind only Nancy in this batch, everyday street life is at the top of the series alongside Caen and Besançon, and the transport network is solid. Two points of caution. Tours is the most expensive of the seven, which weighs directly on someone paying alone. And safety sits in the middle of the batch, without changing the ordinary precautions. At the scale of an actual stay, the decisive asset remains the human scale of the old town, where you move from one address to the next in three minutes. That counts for more than you would think when you are going out without anyone to walk back with.",
+      },
+      {
+        heading: "Where to stay: the old town, Plumereau, the station",
+        body: "The old town, around place Plumereau and rue du Grand-Marché, is the default and the only choice that puts the evening under your window. It is also the noisiest quarter from Thursday to Saturday, a trade-off against walking home in five minutes. The station area and place Jean-Jaurès, on the rue Nationale axis, hold the business hotels and put the TGV, the tram and the centre within immediate reach: the best compromise between budget and comfort. Do not confuse two things that sound alike. The cathedral quarter, around Saint-Gatien, is in town, east of the centre, quieter and more heritage. Saint-Pierre-des-Corps is the TGV station located in a neighbouring commune, linked by a shuttle, and it is not a place to stay. The Loire banks, to the north, are pleasant during the day and empty in the evening.",
+      },
+      {
+        heading: "Going out on a Tuesday: Plumereau, Colbert, Le Temps Machine",
+        body: "Place Plumereau is the obvious starting point, and its terrace density holds up midweek because the crowd is local and student. That is exactly this series' criterion, a square that does not empty when the holidaymakers leave. The surrounding streets, notably rue du Grand-Marché and rue Colbert on the eastern side of the centre, fill out the circuit with quieter addresses and a wider age mix. For venues, Le Temps Machine is the urban area's contemporary music hall, opened in 2011 at Joué-lès-Tours on the site of a former youth centre. It is reached by tram to the Joué Hôtel de Ville stop, which makes it accessible without a car, including for a midweek gig. The Opéra de Tours runs its season at the Grand Théâtre. Sunday evening and Monday are flat as everywhere. From Tuesday to Saturday, Plumereau guarantees a fallback evening with no planning at all.",
+      },
+      {
+        heading: "Getting around without a car: tram, TGV, chateaux by train",
+        body: "Three useful things here. A tram line A crossing the city north to south, serving the station, the centre and Joué-lès-Tours, which covers most of a visitor's movements. A network of bus rapid transit routes alongside it, and a middling cycle mesh. And above all direct TGV service from Paris, which makes Tours the easiest destination in this batch to reach. Just take care to distinguish Tours station, in the city centre, from Saint-Pierre-des-Corps, where a share of the TGV services stop and which is linked by a shuttle of a few minutes. Regional trains then open up day trips to the Loire chateaux without hiring a car, which is the city's classic argument and remains true. A fully car-free stay is comfortably workable, including a day out of Tours.",
+      },
+      {
+        heading: "The single supplement, and how to get around it",
+        body: "This is the destination's weak point and it should be said plainly: Tours is the most expensive of this batch, and the tourist status of the Loire valley pulls accommodation rates up in season. Two levers still work. The first is the hotel stock around the station, aimed at business travel, whose weekday grids are indexed to single occupancy and relax from Monday to Thursday. The second is the supply of furnished studios tied to student demand, priced by floor area and therefore neutral to the number of occupants from two nights. The three reflexes of this series apply: ask for a single room rather than a double occupied by one person, favour weekdays, compare a studio with a hotel from the second night. Tours adds one simple rule: shift by a season. In October or March the city stays alive on the back of its students while the tourist pressure has dropped away.",
+      },
+      {
+        heading: "When to go: term time, chateaux off-season, spring",
+        body: "The recommendation is sharper here than elsewhere in this series. September to November stacks up every advantage: term restarts and fills Plumereau, the Opéra de Tours and Temps Machine seasons begin again, the Loire chateaux are reachable by regional train without the summer crowds, and accommodation rates have come back down. March and April give the same configuration in reverse, before the tourist season picks up. July and August are to be avoided for this kind of trip, not because the city is dead but because it changes character: the students have gone, the holidaymakers have taken their place, and the midweek atmosphere that makes Tours interesting for a solo traveller disappears in favour of passing trade, at a higher price. Sunday evening is flat all year. A good week here looks like a Tuesday on a Plumereau terrace, a Thursday gig at Le Temps Machine and a Saturday train to a chateau.",
+      },
+    ],
+    relatedCities: ["tours"],
+    tags: [
+      "solo travel",
+      "solo travel tours",
+      "travelling alone in france",
+      "single supplement",
+      "place plumereau",
+      "centre-val-de-loire",
+    ],
+  },
+  {
+    slug: "solo-travel-in-besancon-2026",
+    title: "Solo travel in Besançon: the Boucle, Battant, and two stations that are not the same",
+    metaTitle: "Solo Travel in Besançon 2026: Battant, Stay, Go Out",
+    metaDesc:
+      "Besançon alone: 28.9% of residents aged 15 to 29, a historic centre inside a river loop, the Battant bar quarter, and a TGV trap worth knowing before you book.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-23",
+    updatedAt: "2026-08-23",
+    intro:
+      "Besançon has the best overall score of this series and ranks twenty-third out of the 538 cities measured here for the share of residents aged 15 to 29: 28.9% at the 2022 Insee census, against a national median of 18.4%. It has the rare property of being both a student city, so alive midweek out of season, and a green one, with a loop of the river Doubs wrapped around the centre under a Vauban citadel. Two tram lines, a city-centre station with direct TGV service, and one clearly identified going-out quarter. This guide covers where to stay, how to go out on a Tuesday evening, and how to avoid paying a couple's rate on your own.",
+    sections: [
+      {
+        heading: "Why Besançon rather than somewhere else",
+        body: "Besançon is the most balanced destination in this batch, and that is its argument. Its overall score is the highest of the seven; everyday street life sits at the top alongside Caen and Tours; its cultural offer is ahead of Caen, Clermont and Poitiers; accommodation costs are the second lowest, level with Clermont-Ferrand; and safety is respectable. None of those values is spectacular, none of them collapses, and for a trip where you do everything alone that absence of a weak point is worth more than an isolated peak. The share of 15 to 29 year olds, 28.9%, ranks the city twenty-third out of 538: the student population is there, it keeps the bars turning over from Monday to Thursday, and that is what separates Besançon from a heritage town of comparable size. On top comes a geography that makes the stay easy: the historic centre sits inside a meander of the Doubs, the Vauban citadel stands over it, and walking covers everything.",
+      },
+      {
+        heading: "Where to stay: the Boucle, Battant, Viotte station",
+        body: "The Boucle, meaning the historic centre enclosed by the meander of the Doubs, is the default: the Grande Rue runs right through it, everything is pedestrian or traffic-calmed, and you reach any point of the centre within a quarter of an hour on foot. Battant, on the other bank, is the old winegrowers' quarter turned into the liveliest going-out area in the city: staying there puts the bars at your door, with the usual noise trade-off at the end of the week. The Viotte station area, to the north, is the budget option with its station hotels, about ten minutes on foot from the centre or one tram stop. The upper districts offer views and climbs, pleasant for a long stay and tiresome for three nights built around evenings. Avoid the area around Besançon Franche-Comté TGV station, which is not in the city and is reached by shuttle, as explained below.",
+      },
+      {
+        heading: "Going out on a Tuesday: Battant, the Boucle, La Rodia",
+        body: "Battant is the heart of going out in Besançon, and its crowd is local rather than touristy, which is exactly this series' criterion: the bars hold up from Tuesday to Saturday and nobody waits for the weekend for something to happen. The Boucle fills in with more mixed addresses around the Grande Rue and the central squares, tilted more towards dinner than towards the night. For venues, La Rodia is the city's contemporary music hall, on avenue de Chardonnet by the Doubs, with a capacity of nine hundred that supports a regular and affordable midweek programme. Les 2 Scènes, the national stage created in 2012 from the merger of the théâtre de l'Espace and the théâtre musical, holds the performing arts season, notably at the théâtre Ledoux in the centre. Sunday evening and Monday are flat; the rest of the week holds up without planning.",
+      },
+      {
+        heading: "Getting around without a car, and the TGV station trap",
+        body: "The network is good, provided you understand one railway subtlety specific to Besançon. The city has two stations. Besançon-Viotte is in the centre, served by tram line T2 and several bus routes, and it takes direct TGV inOui services from Paris-Gare de Lyon as well as regional trains. Besançon Franche-Comté TGV is a newer station outside the city on the Rhine-Rhône high-speed line, linked to Viotte by shuttle. Depending on which train you book you arrive at one or the other, and the difference is on the order of twenty extra minutes of travel. That is the only logistical trap at this destination, and it is settled at the moment of booking by checking the arrival station rather than the city name. On the ground, the two tram lines and walking are enough. The historic centre is covered entirely on foot, and so is the climb to the citadel.",
+      },
+      {
+        heading: "The single supplement, and how to get around it",
+        body: "Besançon is one of the destinations where travelling alone stays reasonable, and two local levers help. The first is the hotel stock around Viotte, turned towards weekday business travel, with grids that relax from Monday to Thursday and tighten at the weekend. The second is the supply of furnished studios thrown off by student demand, priced by floor area: from the second night the gap with a couple disappears. The three reflexes of this series apply without modification: ask for a single room rather than a double occupied by one person, target weekdays, compare a studio with a hotel from two nights. One local calendar point: the big summer events, including the region's open-air festivals, tighten accommodation over several days, so check the dates before you block anything. No amounts are quoted in this guide, since rates move from one season to the next.",
+      },
+      {
+        heading: "When to go: term time, spring, a hard winter",
+        body: "September to November remains the window most consistent with the spirit of this series: term restarts and fills Battant, the La Rodia and 2 Scènes seasons begin again, and both the loop of the Doubs and the citadel stay walkable through September and October. April to June is the second good window, probably the most pleasant for walking, with long days and a green setting that finally makes sense: the banks of the Doubs and the heights are covered on foot straight from the centre. The Besançon winter is hard and damp, which penalises an outdoor stay but not one built on venues and counters. Two periods to avoid, as everywhere in this series: the first half of August, when the student population is away, and Sunday evening. A good week here fits into a Tuesday in Battant, a Thursday at La Rodia and a Saturday climb to the citadel.",
+      },
+    ],
+    relatedCities: ["besancon"],
+    tags: [
+      "solo travel",
+      "solo travel besancon",
+      "travelling alone in france",
+      "single supplement",
+      "battant besancon",
+      "bourgogne-franche-comte",
+    ],
+  },
+  {
     slug: "things-to-do-in-saint-laurent-du-maroni-2026",
     title: "Things to do in Saint-Laurent-du-Maroni: the penal colony and the river",
     metaTitle: "Things to Do in Saint-Laurent-du-Maroni (2026)",
@@ -28546,6 +28889,62 @@ export const EN_GUIDES: EnGuide[] = [
       "job market france",
       "provence-alpes-cote-d-azur",
       "aix-en-provence",
+    ],
+  },
+  {
+    slug: "working-in-nantes-2026",
+    title: "Working in Nantes: aerospace, shipyards, tech, and a city that keeps arriving",
+    metaTitle: "Working in Nantes 2026 — Sectors, Pay, Job Search",
+    metaDesc:
+      "Working in Nantes in 2026: joint top of 363 communes on our job-market estimate, aerospace and shipbuilding, French Tech, €850 two-bed, remote work 9/10.",
+    category: "moving",
+    emoji: "💼",
+    readMinutes: 8,
+    publishedAt: "2026-08-23",
+    updatedAt: "2026-08-23",
+    intro:
+      "Nantes is the strongest labour market in this series, and unusually for a French city outside Paris it does not lean on one employer. Aerospace and shipbuilding on one side, a large software and IT services sector on the other, head-office functions and a hospital system in between, plus 60,000 students feeding it. Paris is two hours by TGV, the two-bed rent averages €850, remote work scores 9/10 and the transport axis 8.1/10. The catch is competition, because everyone else has worked this out too, and a rental market that has been tightening for fifteen years. This guide covers who actually hires, what the defence side means for a foreign candidate, and where the market thins out.",
+    sections: [
+      {
+        heading: "Joint top of 363, and what sits behind it",
+        body: "Our job-market estimate rates Nantes 7.5/10, where 10 is the most favourable. That is the best value of the 363 communes above 20,000 residents in the ranking, tied with Lyon on the same score, so read it as joint top rather than as first place: at one decimal the estimate does not separate the two, and we do not publish a rank the measure has not earned. All four components score well, which is the point. Departmental unemployment stood at 6.3% in Loire-Atlantique in the fourth quarter of 2024, against 7.5% nationally. It is an estimate built from departmental indicators rather than a count of vacancies. The measured figures beside it are more sober. Insee reports a median standard of living of €24,170 a year, about €2,010 a month, 114th of the 533 communes covered, with a poverty rate of 17%. That figure is disposable income per consumption unit including benefits, not a salary; our French guide to the same market reports a median net salary of €2,050 a month from a separate Insee source. Detail on /cities/nantes/employment.",
+      },
+      {
+        heading: "The sectors that actually hire",
+        body: "Five blocks. Aerospace and shipbuilding first, and this is the region's genuine industrial specialism: Airbus at Bouguenais employs around 2,500 people on central fuselage sections for the A320, A330 and A350, Airbus Atlantic at Saint-Nazaire an hour away around 6,000, the Chantiers de l'Atlantique shipyard about 3,500 on cruise ships and offshore wind, and Naval Group at Nantes-Indret around 1,500 on submarine nuclear boilermaking. Technology second: the local French Tech ecosystem counts some 1,500 startups, with Capgemini at roughly 3,500 people locally alongside the other large IT services firms. Third, head-office functions, since several banking, insurance and industrial groups run national or regional headquarters here rather than branch offices, which is what produces senior roles in finance, legal and HR. Fourth, agrifood, strong across the whole Loire basin. Fifth, the public hospital system: the Nantes teaching hospital employs around 11,000 people and is moving to a new site on the Île de Nantes in 2027, a transfer large enough to shape recruitment on its own.",
+      },
+      {
+        heading: "The Île de Nantes, and where the tech actually sits",
+        body: "The Île de Nantes is the metropolitan area's twenty-year urban project: the former shipyards converted into an office and housing district, with around 400,000 square metres of offices delivered since 2010 and several blocks still under construction. Most of the city's technology employment has concentrated there, and the new teaching hospital will land on the same island in 2027. The advantages for someone arriving are practical: modern floorplates, tram line 1 direct from the centre in about fifteen minutes, cycling, and a reworked riverfront. The trade-offs are equally practical. It is a permanent building site, evening food options are thin, and rents on the island run above the city average. A good share of technology staff live in Chantenay or Doulon and take the tram, which is worth knowing before you sign a lease near the office. Parking is difficult and the wide boulevards make the island less cyclable than the riverbanks suggest.",
+      },
+      {
+        heading: "Where the jobs are advertised, and where they are not",
+        body: "Nantes hires heavily through its schools and their alumni networks, with the business school, the engineering grande école and the national telecoms and digital institute all present, and referral does a large part of the work in engineering. The channels that function are LinkedIn, which is well mapped for the local technology scene, the Apec for cadre roles, which records roughly 18,000 cadre hires a year across the metropolitan area, France Travail for the rest, and the regional recruitment desks. One event is worth travelling for: Web2day, held at the conference centre each June, draws around 6,000 people and is one of the largest digital gatherings in France outside Paris. For aerospace and shipbuilding the entry routes run through the engineering schools' career days and the manufacturers' own open days. A note for anyone applying from abroad: the local startup scene recruited a lot of Paris-based staff after 2020 on loose remote arrangements, several of which were later revised upwards in on-site days. Get the number of office days written into the contract.",
+      },
+      {
+        heading: "The right to work: permits, diplomas, clearance, language",
+        body: "EU, EEA and Swiss nationals need no permit. Everyone else needs an employer-sponsored work authorisation, with the Passeport Talent route covering most qualified hires and a salary floor indexed on the average French wage and revised periodically, so check France-Visas for the live figure. ENIC-NARIC France issues the comparability statement for a foreign degree. The point specific to Nantes, which the French version of this guide does not need to spell out: part of the industrial base is defence work, and posts requiring French security clearance are in practice not open to candidates without French nationality. That applies to the submarine programmes at Indret and to some Airbus and shipyard work, and no visa route changes it. The civil side is large and open, meaning commercial aerospace, the software industry, IT services, agrifood, banking and the hospital. On language, the technology and services firms include English-speaking teams, but Nantes is not an anglophone city and B2 French is the realistic threshold for a cadre role.",
+      },
+      {
+        heading: "What a French contract actually gives you",
+        body: "The CDI, the open-ended contract, is the standard for the roles discussed here. Trial periods run up to four months for a cadre, renewable once. Statutory leave is five weeks, with RTT days on top in most engineering and services agreements, RTT being the compensation for a working week above 35 hours. Employers reimburse half of a public transport season ticket. Company health cover is part-funded and normally compulsory. Our French guide to the same market reports experienced cadres at €50,000 to €62,000 gross and juniors at €38,000 to €46,000, close to Lyon and Toulouse. Net before income tax is roughly 78% of gross, with income tax withheld at source. The remote-work axis of 9/10 is the joint highest in this series and is worth using in the negotiation rather than admiring: two days a week at home is the established norm in the local technology and head-office roles, and the large industrial groups have followed. Production roles in the shipyards are a different matter, and on the Saint-Nazaire engineering side remote work is capped more tightly than the metropolitan norm.",
+      },
+      {
+        heading: "Housing, and a city gaining 7,000 people a year",
+        body: "Rents average €600 for a studio, €850 for a two-bed and €1,150 for a three-bed, with purchase at €4,200 per square metre. That is moderate for a labour market of this quality, and combined with a schools axis of 7.9/10 and a transport axis of 8.1/10 it explains why families keep arriving. The warning is on the trajectory rather than the level. The metropolitan area has been gaining around 7,000 residents a year for fifteen years, the rental market has tightened continuously, and the cost axis sits at 5.3/10, the weakest of the city's headline scores after safety. Landlords apply the three-times-rent screen and ask for a French guarantor or the state-backed Visale guarantee. The regional rail network makes the smaller towns realistic for a two-day-a-week role, with Saint-Nazaire about forty minutes away and Ancenis and Clisson closer to half an hour. Decide that after the job rather than before, because a post on the Île de Nantes and a post at Bouguenais point you at different sides of the city.",
+      },
+      {
+        heading: "The traps worth knowing before you apply",
+        body: "First, competition, which is the real cost of a market this good: Nantes attracts candidates from Paris, Rennes and Angers, and the large groups receive several times more applications than Le Mans or Angers for an equivalent post. A generic application does badly here. Second, the housing arithmetic above, which people forget when they compare salaries. Third, the thin end of the market: luxury, market finance, audiovisual and energy are barely present, and if your expertise sits there the ecosystem is slight. Fourth, salary grids inside the large groups, which are regional and rigid, so negotiate hard on entry because internal catch-ups are slow. Fifth, clearance timetables on the defence side, covered above, which run into months and should never be traded against a resignation on a verbal offer. Sixth, the weather, which is the reason most often given for leaving. Our French guide records rain on around 130 days a year, concentrated between November and March, and a damp that surprises people who arrived on the strength of a June visit. It shows up in the three-to-five-year departures back to Paris or the south.",
+      },
+    ],
+    relatedCities: ["nantes", "saint-nazaire", "saint-herblain", "reze", "angers"],
+    tags: [
+      "working in nantes 2026",
+      "working in france",
+      "job market france",
+      "pays-de-la-loire",
+      "nantes",
     ],
   },
   {
