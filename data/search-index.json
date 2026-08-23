@@ -4872,6 +4872,51 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "parent-solo-a-saint-paul-reunion-2026",
+      "title": "Parent solo à Saint-Paul (La Réunion) en 2026 : 2 550 € et une voiture qui ne se supprime pas",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-avignon-2026",
+      "title": "Parent solo à Avignon en 2026 : culture 9/10, et 212e quand même",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-saint-pierre-reunion-2026",
+      "title": "Parent solo à Saint-Pierre (La Réunion) en 2026 : le meilleur dossier de l'île, et il reste difficile",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-beziers-2026",
+      "title": "Parent solo à Béziers en 2026 : 2 200 € suffisent, et c'est la seule bonne nouvelle du dossier",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-la-rochelle-2026",
+      "title": "Parent solo à La Rochelle en 2026 : 70e du classement, 3 150 € pour y entrer",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-pau-2026",
+      "title": "Parent solo à Pau en 2026 : 122 € de loyer par point d'écoles, le meilleur du batch",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-cherbourg-2026",
+      "title": "Parent solo à Cherbourg-en-Cotentin en 2026 : 2 500 €, une commune nouvelle et une voiture",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-fort-de-france-2026",
+      "title": "Parent solo à Fort-de-France en 2026 : la ville a perdu 11 588 habitants, et ça compte",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-merignac-2026",
+      "title": "Parent solo à Mérignac en 2026 : le prix de Bordeaux sans les écoles de Bordeaux",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "10-choses-a-faire-au-lamentin-2026",
       "title": "10 choses à faire au Lamentin (Martinique)",
       "emoji": "🌿"
@@ -5589,6 +5634,11 @@
       "count": 4
     },
     {
+      "slug": "famille-monoparentale-drom",
+      "label": "famille monoparentale DROM",
+      "count": 4
+    },
+    {
       "slug": "fiscalite",
       "label": "fiscalité",
       "count": 4
@@ -5864,6 +5914,16 @@
       "count": 3
     },
     {
+      "slug": "famille-monoparentale-nouvelle-aquitaine",
+      "label": "famille monoparentale Nouvelle-Aquitaine",
+      "count": 3
+    },
+    {
+      "slug": "famille-monoparentale-occitanie",
+      "label": "famille monoparentale Occitanie",
+      "count": 3
+    },
+    {
       "slug": "figeac",
       "label": "Figeac",
       "count": 3
@@ -6096,6 +6156,11 @@
     {
       "slug": "troyes",
       "label": "Troyes",
+      "count": 3
+    },
+    {
+      "slug": "vie-chere-outre-mer-parent-seul",
+      "label": "vie chère outre-mer parent seul",
       "count": 3
     },
     {

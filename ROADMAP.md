@@ -13,7 +13,7 @@ Demande utilisateur directe. F58 / F60 / F61 livrées le jour même ; **F59 livr
 
 | # | Feature | Prio | Cplx | SEO | Statut |
 |---|---------|------|------|-----|--------|
-| F58 | City Match — profil « parent solo » | P1 | S | mid | ✅ shipped 2026-07-22 · sous-page `/villes/[slug]/parent-solo` ×540 + hub `/parent-solo` + miroir EN `/single-parent` + `/cities/[slug]/single-parent` ×540 shipped 2026-07-25→28 · série guides `parent-solo-a-[ville]-2026` batch 1 (+10) shipped 2026-07-24, batch 2 (+10 : Rennes, Nancy, Angers, Grenoble, Dijon, Metz, Reims, Aix-en-Provence, Rouen, Toulon) shipped 2026-08-07 · miroir EN de la série `single-parent-in-[city]-2026` batch 1 (+10 : Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux, Lille) shipped 2026-08-09, batch 2 (+10) shipped 2026-08-11 — **parité FR/EN atteinte à 20/20** · **batch 3 FR (+9 : Villeurbanne, Besançon, Caen, Brest, Tours, Limoges, Clermont-Ferrand, Saint-Étienne, Le Havre) shipped 2026-08-14**, **miroir EN batch 3 (+9) shipped 2026-08-15 — parité rétablie à 29/29** · **batch 4 FR (+10 : Nîmes, Saint-Denis de La Réunion, Le Mans, Amiens, Annecy, Perpignan, Orléans, Mulhouse, Poitiers, Dunkerque) shipped 2026-08-16**, **miroir EN batch 4 (+10) shipped 2026-08-17 — parité rétablie à 39/39** (compteur vérifié des deux côtés avant et après le run, cf. § Parité EN) |
+| F58 | City Match — profil « parent solo » | P1 | S | mid | ✅ shipped 2026-07-22 · sous-page `/villes/[slug]/parent-solo` ×540 + hub `/parent-solo` + miroir EN `/single-parent` + `/cities/[slug]/single-parent` ×540 shipped 2026-07-25→28 · série guides `parent-solo-a-[ville]-2026` batch 1 (+10) shipped 2026-07-24, batch 2 (+10 : Rennes, Nancy, Angers, Grenoble, Dijon, Metz, Reims, Aix-en-Provence, Rouen, Toulon) shipped 2026-08-07 · miroir EN de la série `single-parent-in-[city]-2026` batch 1 (+10 : Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux, Lille) shipped 2026-08-09, batch 2 (+10) shipped 2026-08-11 — **parité FR/EN atteinte à 20/20** · **batch 3 FR (+9 : Villeurbanne, Besançon, Caen, Brest, Tours, Limoges, Clermont-Ferrand, Saint-Étienne, Le Havre) shipped 2026-08-14**, **miroir EN batch 3 (+9) shipped 2026-08-15 — parité rétablie à 29/29** · **batch 4 FR (+10 : Nîmes, Saint-Denis de La Réunion, Le Mans, Amiens, Annecy, Perpignan, Orléans, Mulhouse, Poitiers, Dunkerque) shipped 2026-08-16**, **miroir EN batch 4 (+10) shipped 2026-08-17 — parité rétablie à 39/39** (compteur vérifié des deux côtés avant et après le run, cf. § Parité EN) · **batch 5 FR (+9 : Saint-Paul 974, Avignon, Saint-Pierre 974, Béziers, La Rochelle, Pau, Cherbourg-en-Cotentin, Fort-de-France, Mérignac) shipped 2026-08-23 — 48 FR contre 39 EN, premier guide martiniquais de la série** |
 | F59 | **Parcs & espaces verts par ville** (pipeline OSM + sub-page ×540) | **P0** | **L** | **high** | ✅ shipped 2026-07-27 |
 | F60 | `/departements` — finder par n° / nom / ville + carte cliquable | P1 | S | low | ✅ shipped 2026-07-22 · carte cliquable 2026-07-23 |
 | F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 · série guides `vacances-celibataire-[ville]-2026` batch 1 (+8) shipped 2026-08-01 · série `vacances-monoparentales-[ville]-2026` batch 1 (+7) shipped 2026-08-05 · `vacances-celibataire-[ville]-2026` batch 2 (+7 : Toulouse, Lille, Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle) shipped 2026-08-08 · croisement mois × profil `/vacances/ou-partir/[combo]` (12 × 7 = 84 pages SSG) shipped 2026-08-12 · miroir EN de la série célibataire, `solo-travel-in-[city]-2026` batch 1 (+8 : Paris, Lyon, Bordeaux, Lille, Strasbourg, Toulouse, Montpellier, Nantes) shipped 2026-08-13 · série EN fermée (batch 2, +7) 2026-08-14 · guide pilier `partir-en-vacances-seul-2026` + correction de l'anti-station-fantôme (part réelle des 15-29 ans Insee au lieu d'un écart d'affluence constant) shipped 2026-08-15 · **miroir EN de la série monoparentale, `single-parent-holidays-[city]-2026` (+7 : La Rochelle, Strasbourg, Nantes, Rennes, Vannes, Nancy, Dijon) shipped 2026-08-19 — parité FR/EN atteinte à 7/7, mêmes villes des deux côtés** (+ 4 chiffres faux corrigés dans la série FR au passage, cf. § ci-dessous) · **`vacances-celibataire-[ville]-2026` batch 3 (+7 : Nancy, Poitiers, Rouen, Caen, Clermont-Ferrand, Tours, Besançon) shipped 2026-08-22 — sélection dérivée de la mesure anti-station-fantôme, + 1 erreur de données corrigée dans `lib/transit.ts`, cf. § ci-dessous** |
@@ -197,6 +197,144 @@ Annecy, Grenoble, Chambéry, Reims, Metz, Montpellier, Aix-en-Provence — véri
 et score sécurité **par le module** avant écriture), et l'équivalent EN du croisement mois ×
 profil, `/vacances/ou-partir/[combo]` n'ayant pas de jumelle anglaise. La série étant à parité
 7/7, la main revient au FR.
+
+### F58 — série `parent-solo-a-[ville]-2026`, batch 5 (2026-08-23)
+
+**+9 guides : Saint-Paul (974), Avignon, Saint-Pierre (974), Béziers, La Rochelle, Pau,
+Cherbourg-en-Cotentin, Fort-de-France, Mérignac.** Compteurs mesurés des deux côtés **avant** le
+run, comme le batch 4 l'exigeait : `grep -c 'slug: "parent-solo-a'` = 39 FR et
+`grep -c 'slug: "single-parent-in-'` = 39 EN, mêmes villes de part et d'autre — écart nul, la main
+revenait donc au FR. Après ce run : **48 FR / 39 EN**. `GUIDES` 980 → 989. `npm run search-index`
+relancé (`data/search-index.json` 989 guides, **245 tags** contre 241) et **`npm run sitemap:check`
+repassé** parce que quatre tags franchissent le seuil de 3 guides et créent autant de pages :
+`famille-monoparentale-drom`, `famille-monoparentale-nouvelle-aquitaine`,
+`famille-monoparentale-occitanie`, `vie-chere-outre-mer-parent-seul` — FR 29 060 URL, chaque URL
+déclarée a une page.
+
+**Sélection : population d'abord, parmi les communes non couvertes disposant d'une référence de
+loyer T3 dans `data/housing.ts`**, filtre inchangé depuis le batch 3 — sans T3, `minIncomeForT3` ne
+produit rien et le guide perd sa colonne vertébrale. Amplitude assumée comme aux batches 3 et 4 :
+**rang 60 (Pau) à 325 (Saint-Paul)** sur les 363 communes de plus de 20 000 habitants, cinq villes
+sur neuf sous la médiane du classement (5,5).
+
+⚠️ **Roubaix et Tourcoing, annoncées comme candidates par le batch 4, sont écartées — et l'écart
+avec la consigne est délibéré.** Le batch 4 a posé une règle et une liste, et les deux se
+contredisaient. La règle : on n'écrit pas de guide sur une commune dont le composite est
+« largement un proxy de la situation socio-économique des habitants », parce qu'un guide bâti
+dessus glisse du conseil d'installation au commentaire sur les gens qui y vivent — même arbitrage
+que le refus de la série `quartiers-a-eviter`. La liste, elle, plaçait Roubaix et Tourcoing en tête
+des candidates. Or Roubaix sort à **écoles 2,2 / sécurité 2,2**, c'est-à-dire exactement le profil
+d'Aubervilliers (2,4 / 2,2) et de Saint-Denis 93 (2,4 / 2,2), les deux communes que le batch 4
+citait pour justifier l'exclusion ; Tourcoing suit à 2,8 / 2,6. **La règle est granulaire, pas
+géographique** : elle ne parle pas du cluster francilien, elle parle du niveau de granularité de la
+donnée, et ce niveau est le même dans le Nord. Les deux communes restent donc hors série tant que
+`data/neighborhoods.ts` n'est pas enrichi. Le cluster francilien non couvert (Saint-Denis 93,
+Aubervilliers, Argenteuil, Montreuil, Nanterre, Créteil, Aulnay-sous-Bois, Drancy, Champigny) reste
+écarté pour la même raison.
+
+**Apport de méthode de ce batch : la trajectoire démographique réelle.** Les batches 1 à 4 citaient
+la population du seed. Ce batch lit **`data/city-population.json` via `lib/city-population.ts`**
+(populations municipales Insee 2011 / 2016 / 2022) et publie la trajectoire, parce que c'est un
+paramètre que le composite ne mesure pas et qui décide de choses concrètes pour un foyer à un
+adulte : une commune qui gagne des habitants voit saturer le périscolaire, la restauration et les
+dérogations — exactement les dispositifs qui remplacent le second adulte absent ; une commune qui
+en perd voit sa carte scolaire se resserrer, donc les trajets s'allonger, tout en détendant son
+marché locatif. Les neuf villes couvrent les deux extrêmes : **Mérignac +17,1 %** (65 882 → 77 136),
+Béziers +13,1 %, La Rochelle +6,8 %, Saint-Pierre +6,1 %, Saint-Paul +2,2 %, Avignon +1,7 % mais en
+repli depuis 2016, Pau −1,5 %, **Cherbourg-en-Cotentin −4,5 %** (−3 662 habitants) et
+**Fort-de-France −13,4 %** (−11 588 habitants). ⚠️ Le seed conserve ses `population` approximatives,
+qui servent au seuil des 20 000 et aux tris : **les deux nombres coexistent volontairement**, ne
+pas les aligner, et dire lequel est cité.
+
+**Premier guide martiniquais de la série** (Fort-de-France), après le premier guide réunionnais au
+batch 4. L'angle retenu est le dépeuplement plutôt que le classement, pour une raison propre au
+profil : les départs sont majoritairement le fait de jeunes actifs, et c'est **le réseau d'entraide
+de proximité** qu'ils raréfient — la ressource même qui remplace le second adulte. Aucun des quatre
+axes ne la mesure. Deux contraintes ultramarines reprises telles quelles du batch 4 et **à ne pas
+diluer** : la saison cyclonique et les fermetures d'établissements décidées la veille au soir, qui
+imposent une garde d'urgence identifiée à l'avance ; et le fait que le score de coût de la vie
+(4,1/10 à Fort-de-France comme à Saint-Paul) décrit **l'alimentaire et l'importation, pas le
+loyer** — un budget reconstruit depuis un loyer métropolitain équivalent se trompe de plusieurs
+centaines d'euros, systématiquement dans le même sens. Pour La Réunion, la règle de baignade est
+rappelée avec sa géographie exacte : **le lagon est sur la côte ouest**, donc Saint-Paul le borde
+(seul avantage concret qu'elle a sur le chef-lieu) et **il n'y a pas de lagon dans le sud**, ce qui
+concerne directement Saint-Pierre.
+
+⚠️ **Neuf affirmations comparatives fausses ont été trouvées et corrigées APRÈS insertion, par une
+passe de vérification croisée** — aucune n'aurait été vue par `tsc` ni par `npm run integrity`,
+parce qu'aucune ne porte sur un chiffre inventé : toutes portent sur un **superlatif ou un rang
+relatif** calculé de tête. Le détail, parce que c'est le mode de défaillance à surveiller :
+① Saint-Pierre annonçait « la meilleure note de sécurité de l'île » (5,2) — **Le Tampon est à 5,5** ;
+② et « le meilleur rapport écoles-loyer de l'outre-mer » (153 €) — **Le Tampon est à 142 € et Le
+Lamentin à 180 €** ; ③ et « le seuil d'entrée le plus bas des communes réunionnaises » (2 400 €) —
+**Le Tampon et Saint-Joseph sont à 2 250 €** ; ④ et « deux axes au-dessus de la moyenne, ce
+qu'aucune autre commune de l'île ne fait » — **Le Tampon en fait autant** ; ⑤ et « transports 3,7 au
+Tampon, le plus faible de l'île » — **Saint-Benoît et Saint-Joseph sont à 3,3** ; ⑥ Béziers écrivait
+que Carcassonne « fait mieux sur les quatre axes » — elle fait mieux sur deux, **égale sur les
+transports (4,9) et est en dessous sur le coût (6,2 contre 6,4)** ; ⑦ Cherbourg s'annonçait
+« deuxième seuil le plus bas du batch » — **il est troisième**, derrière Béziers (2 200 €) et
+Saint-Pierre (2 400 €) ; ⑧ Avignon et ⑨ Fort-de-France se donnaient le mauvais rang de ratio
+(septième et sixième, pas huitième tous les deux) ; et Fort-de-France s'attribuait « la meilleure
+nature des trois communes martiniquaises » — **Le Robert est à 7,8 contre 7,5**. **Leçon
+opérationnelle : un superlatif est une requête, pas une intuition.** Toute phrase en « le plus »,
+« le meilleur », « le seul » doit être rejouée contre le module avant commit, au même titre qu'un
+chiffre. Le garde-fou ajouté ce run est un script de sweep qui extrait tous les `X,Y/10` des guides
+et refuse toute valeur qui n'est l'axe rendu d'aucune ville — il ne voit pas les superlatifs, d'où
+la table comparative imprimée et relue à la main.
+
+**Vérification des pivots reconduite du batch 4, et automatisée cette fois** : un script rejoue,
+**après insertion**, fit, rang, population Insee 2022, T1/T2/T3, prix au m², revenu minimum, ratio
+loyer ÷ écoles et les quatre axes de chacune des neuf villes, et échoue si l'une des valeurs n'est
+pas retrouvée dans le texte du guide correspondant. Il a rattrapé deux omissions (le ratio de
+Saint-Paul, le T1 de Cherbourg). Tous les chiffres sont lus **à travers les modules**
+(`npx tsx` sur `@/data/cities-seed`, `@/data/housing`, `@/data/neighborhoods`,
+`@/lib/city-population`, `@/lib/parent-solo`), jamais par grep du seed, et le rang est rejoué avec
+le départage réel de `app/parent-solo/page.tsx` (`name.localeCompare(…, "fr")` à égalité de score).
+
+**Ratio loyer T3 ÷ score écoles**, calculé comme le palmarès mensuel et cité dans chaque guide :
+Pau 122 € par point (meilleur du lot, et deuxième de toute la série après Poitiers à 119 €),
+Cherbourg-en-Cotentin 141, La Rochelle 149, Saint-Pierre 153, Saint-Paul 184, Fort-de-France 188,
+Avignon 189, Mérignac 196, Béziers 200 (le pire).
+
+**Trois cas valent d'être gardés en tête.** ① **Avignon** : culture 9,0/10, l'une des plus hautes du
+site, et 212e sur 363 — la démonstration la plus nette de la série que la réputation d'une ville et
+son adéquation à un profil sont deux questions distinctes ; à moins de 40 km, Orange (6,1) et
+Carpentras (6,0) la battent d'un point pour 80 € de loyer mensuel en moins. ② **La Rochelle** : le
+cas Annecy du batch 4 rejoué — meilleur dossier qualitatif du lot (sécurité 6,5, écoles 7,4,
+global 7,2) et **3 150 € net de seuil d'entrée**, le plus élevé du batch, avec un m² à 4 200 € qui
+ferme aussi la porte de l'accession ; le composite est un **rang relatif, pas un test de
+solvabilité**, et Niort et Poitiers font le même travail 220 à 240 € moins cher. ③ **Mérignac** :
+à loyer **strictement identique** (1 080 €), Pessac offre 6,6 d'écoles contre 5,5 et un meilleur
+composite ; Bordeaux, pour 120 € de plus, offre 7,4. Le seul argument qui sauve Mérignac est son
+score de transport (7,7/10, le meilleur du batch) — c'est le seul axe du composite capable de
+**retirer une ligne entière du budget**, ce qui vaut d'être dit explicitement dans tous les guides
+où il est haut.
+
+**Précautions éditoriales reconduites, à ne pas alléger** : ① l'axe écoles mesure **l'offre
+communale**, pas la réussite des élèves ni la qualité du travail des enseignants, et chaque guide le
+redit ; ② les scores de quartier de `data/neighborhoods.ts` sont sur une **échelle propre** qui ne
+se compare pas au score communal, et ce batch ne cite d'eux que des **loyers T2**, jamais une note
+adjacente à un nom d'axe — c'est le contournement le plus simple des trois collisions que
+`npm run integrity` avait rattrapées au batch 4 ; ③ le fichier ne documente que 2 à 3 quartiers par
+ville, ce qui est donné comme la raison pour laquelle le site ne publie **aucun verdict de sécurité
+par secteur**. Sur Béziers et Fort-de-France, les deux dossiers les plus bas du lot sur écoles et
+sécurité, la copie s'en tient à ce que les indicateurs mesurent et **ne dit rien des habitants** ;
+la mention « quelques zones sensibles à éviter le soir » que porte `data/neighborhoods.ts` sur le
+centre de Fort-de-France **n'est pas reprise** — un résumé de quartier n'est pas une source.
+
+**Prochain run parent-solo : le miroir EN** (`single-parent-in-[city]-2026`), l'écart étant de 9.
+Vérifier le compteur des deux côtés avant de suivre cette phrase — c'est la consigne du batch 4, et
+elle vaut pour celle-ci. Nommage à surveiller : **`single-parent-in-saint-paul-reunion-2026`** et
+**`single-parent-in-saint-pierre-reunion-2026`**, à désambiguïser comme
+`single-parent-in-saint-denis-reunion-2026` l'est déjà, et **le slug EN se dérive du slug de seed
+tel quel** (règle posée par le batch 33 tourisme : la page ville résout son guide par
+`getEnGuide('single-parent-in-' + slug + '-2026')`, donc une version « propre » du slug rendrait le
+guide invisible sur la page de la ville). Pour le batch FR **suivant**, le vivier métropolitain hors
+Île-de-France et hors communes à donnée trop grossière se réduit nettement : restent surtout
+**Calais** (5,2), **Saint-Nazaire** (6,2), **Chambéry** (6,1), **Colmar** (6,3), **Valence** (6,4),
+**Narbonne** (4,9) et **Sète** (4,8), plus les communes réunionnaises non couvertes — **Le Tampon**
+(4,9, et le meilleur rapport écoles-loyer de l'île à 142 €), Saint-Louis, Saint-André, Saint-Benoît,
+Saint-Joseph — et **Le Lamentin** (4,5) en Martinique.
 
 ### F58 — série `parent-solo-a-[ville]-2026`, batch 3 (2026-08-14)
 

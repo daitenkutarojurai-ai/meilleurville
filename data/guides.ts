@@ -48164,6 +48164,447 @@ export const GUIDES: Guide[] = [
     tags: ["parent solo Saint-Denis Réunion 2026", "monoparental La Réunion", "T3 Saint-Denis 974 budget", "vie chère outre-mer parent seul", "famille monoparentale DROM"],
   },
   {
+    slug: "parent-solo-a-saint-paul-reunion-2026",
+    title: "Parent solo à Saint-Paul (La Réunion) en 2026 : 2 550 € et une voiture qui ne se supprime pas",
+    metaTitle: "Parent solo à Saint-Paul 974 — T3 900 €, fit 4,4/10",
+    metaDesc:
+      "Fit 4,4/10, 325e sur 363. T3 à 900 €, transports 4,0/10 : la voiture est une charge fixe, pas une variable. Le calcul complet sur un seul revenu.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-23",
+    updatedAt: "2026-08-23",
+    intro:
+      "Saint-Paul est la commune la plus peuplée de ce batch avec 106 220 habitants au recensement 2022 (source : data/city-population.json), et la moins bien classée : 4,4/10 au composite parent solo, 325e sur les 363 communes de plus de 20 000 habitants, plus d'un point sous la médiane du classement qui s'établit à 5,5/10. Le détail tient sur quatre axes : coût de la vie 4,1/10, transports 4,0/10, écoles 4,9/10, sécurité 4,7/10 (source : data/cities-seed.ts). Aucun des quatre n'atteint la moyenne, et c'est ce qui produit le résultat : le composite parent solo ne récompense pas les points forts d'une ville, il sanctionne les axes qui décrochent, et Saint-Paul décroche partout où ce profil est vulnérable. Ses points forts existent pourtant, et ils sont réels : nature 8,5/10, qualité de vie 6,8/10. Le T3 moyen est à 900 € et le mètre carré à l'achat à 2 400 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 550 € par mois. Voici ce que ces chiffres impliquent quand il n'y a qu'un salaire, qu'un conducteur, et pas de relais à moins de 9 000 kilomètres.",
+    sections: [
+      {
+        heading: "Pourquoi Saint-Paul sort 325e sur 363",
+        body: "Le composite parent solo pondère coût 0,30, écoles 0,25, sécurité 0,25, transports 0,20 : ce sont les poids du profil correspondant de City Match, et ils décrivent une situation précise — un seul revenu, un seul conducteur, personne pour absorber l'imprévu. Saint-Paul marque 4,1/10 sur l'axe le plus lourd et 4,0/10 sur les transports, elle est donc pénalisée deux fois sur la moitié de la pondération. Ce qui la sauverait dans un classement généraliste ne compte pas ici : la nature à 8,5/10, troisième meilleur score du batch, ne paie ni le loyer ni le trajet de l'école. Son score global tous axes confondus est de 5,3/10, presque un point au-dessus de son fit parent solo, et cet écart est exactement la mesure de ce que ce profil coûte. À l'intérieur de La Réunion, Saint-Paul est 4e des 8 communes éligibles, derrière Le Tampon et Saint-Pierre à 4,9 et Saint-Denis à 4,8, devant Saint-Benoît et Saint-Joseph à 4,3. Le constat posé dans le guide de Saint-Denis tient toujours et mérite d'être répété : aucune commune de l'île n'atteint la médiane nationale, et l'écart entre la première et la dernière est inférieur à un point. Le choix entre communes réunionnaises ne se joue donc pas sur ce classement. Il se joue sur l'emploi et sur le trajet.",
+      },
+      {
+        heading: "Transports 4,0/10 : le score le plus bas du batch",
+        body: "C'est la valeur la plus faible des neuf villes de ce batch, derrière Cherbourg-en-Cotentin et Béziers à 4,9/10. Elle a une cause structurelle qu'il faut nommer : il n'existe pas de réseau ferroviaire de voyageurs à La Réunion. Le seul mode collectif est le car et le bus, sur un réseau routier qui sature aux heures de pointe sur l'axe littoral. Pour un foyer à deux adultes, c'est un inconfort. Pour un parent solo, c'est une ligne budgétaire qui ne se supprime pas : la voiture cesse d'être un arbitrage et devient un coût fixe, avec l'assurance, le carburant et l'entretien, plus un risque concentré le jour où elle tombe en panne. Cette contrainte se double d'une particularité communale : Saint-Paul s'étire du littoral de la côte ouest jusqu'aux Hauts, et « habiter Saint-Paul » ne décrit donc pas un lieu mais un éventail de situations très différentes. Un logement dans les hauteurs coûte moins cher et rallonge chaque trajet scolaire, un logement sur le littoral fait l'inverse. Ce n'est pas un détail de confort quand c'est le même adulte qui dépose, qui travaille et qui récupère.",
+      },
+      {
+        heading: "Le budget : 2 550 € net, et ce que le chiffre cache",
+        body: "Le revenu net minimum estimé par lib/parent-solo.ts est de 2 550 € par mois pour le T3 moyen à 900 €. Attention à la façon dont ce seuil se calcule : le score de coût de la vie de Saint-Paul étant sous 5, le moteur relâche la règle des 33 % à 35 %, comme pour toutes les villes à marché tendu. Le seuil affiché est donc déjà la version indulgente, celle qui suppose un bailleur acceptant un tiers et demi du revenu. Les autres références sont un T2 à 700 € et un T1 à 490 €, le mètre carré à l'achat à 2 400 €, ce qui situe un T3 de 65 mètres carrés autour de 156 000 € au prix moyen. Ce que le chiffre cache, c'est la structure des dépenses ultramarines : le coût de la vie noté 4,1/10 ne décrit pas le loyer, qui est modéré, mais l'alimentaire, l'équipement et tout ce qui traverse l'océan avant d'arriver en rayon. Un budget reconstruit depuis un loyer métropolitain équivalent se trompe de plusieurs centaines d'euros par mois. Sur les deux quartiers documentés dans data/neighborhoods.ts, le T2 va de 720 € au centre de Saint-Paul à 850 € à Saint-Gilles-les-Bains : les deux sont au-dessus de la moyenne communale de 700 €, ce qui n'est pas une contradiction mais un biais de sélection — ce sont les deux quartiers les plus identifiés de la commune, pas les deux plus représentatifs.",
+      },
+      {
+        heading: "Écoles 4,9 et sécurité 4,7 : ce que ces scores disent, et ce qu'ils ne disent pas",
+        body: "Les deux axes pèsent ensemble la moitié du composite, et Saint-Paul les passe tous les deux sous la moyenne. L'axe écoles mesure l'offre communale — densité d'établissements, éventail de filières — et rien d'autre : ni la réussite des élèves, ni la qualité du travail des enseignants. Un score de 4,9/10 signifie qu'un parent qui doit choisir un collège ou une option en lycée aura moins de portes ouvertes qu'ailleurs, pas que celles qui sont ouvertes valent moins. Ramené au loyer, cela donne 184 € de T3 par point d'écoles, cinquième ratio des neuf villes de ce batch, contre 122 € à Pau et 153 € à Saint-Pierre : c'est le calcul du palmarès mensuel du site appliqué à une ville, et il dit qu'ici, à budget logement donné, la même somme achète moins d'offre scolaire qu'ailleurs. La sécurité à 4,7/10 est un score communal calibré sur les données publiques : il ne dit rien d'un quartier en particulier, et le site ne publie aucun verdict par secteur, pour une raison simple — data/neighborhoods.ts ne documente que deux quartiers pour Saint-Paul, sur une échelle qui leur est propre et qui ne se compare pas au score communal. Deux observations ne décrivent pas une commune de 106 000 habitants, et un jugement sur un lieu où vivent des gens réels demande mieux que ça. Ce qu'on peut dire honnêtement : ici, le choix du logement se teste sur place et sur ses propres trajets, il ne se décide pas depuis un tableau.",
+      },
+      {
+        heading: "Les trois contraintes qui ne figurent dans aucun score",
+        body: "Elles valent pour toute l'île et se cumulent pour un foyer à un seul adulte. La première est l'éloignement du réseau familial : un parent solo installé à La Réunion depuis la métropole ne peut pas reconstituer un relais par un aller-retour improvisé, et c'est précisément la ressource qui manque quand un enfant est malade un lundi matin. Elle ne se lit dans aucun des quatre axes et pèse plus lourd que la plupart d'entre eux. La deuxième est la saison cyclonique : les fermetures d'établissements se décident la veille au soir, parfois le matin même, et un foyer à un adulte doit avoir identifié une garde d'urgence avant d'en avoir besoin, pas le jour où l'alerte tombe. La troisième est la baignade en mer, interdite hors du lagon de la côte ouest et hors bassins surveillés, en raison du risque requin. Sur ce point précis, Saint-Paul est mieux placée que le chef-lieu : la commune borde le lagon, ce qui n'est le cas ni de la côte nord ni du sud de l'île. C'est l'un des rares avantages concrets qu'elle a sur Saint-Denis, et il concerne directement un parent qui cherche où emmener ses enfants un samedi.",
+      },
+      {
+        heading: "Le verdict : pour qui Saint-Paul fonctionne",
+        body: "Saint-Paul fonctionne à partir de 2 550 € net par mois, pour un parent solo qui a déjà un emploi dans le bassin ouest, une voiture, et un réseau local constitué. Ces trois conditions ne sont pas du confort : chacune remplace un axe que le classement note sous la moyenne. Elle ne fonctionne pas comme destination d'installation à l'aveugle, ni pour qui compte tenir sans voiture, ni pour qui met l'offre scolaire en tête. Le comparateur honnête à l'intérieur de l'île est Saint-Pierre : 4,9 de fit, un T3 à 840 €, une meilleure note de sécurité et un seuil d'entrée à 2 400 €, soit 150 € de moins par mois pour un dossier plus solide. Et pour un parent dont l'emploi est à Saint-Denis, la question ne se pose pas dans ces termes : le trajet quotidien décide avant le classement. Ce que Saint-Paul offre en propre, c'est le lagon, une nature à 8,5/10 et une qualité de vie à 6,8/10, la plus haute de l'ouest de l'île. Ce sont de vraies raisons de venir. Ce ne sont simplement pas celles que ce classement mesure. Le détail axe par axe est sur /villes/saint-paul-reunion/parent-solo.",
+      },
+    ],
+    relatedCities: ["saint-paul-reunion", "saint-denis-reunion", "saint-pierre-reunion", "le-tampon", "saint-louis-reunion-974"],
+    relatedGuides: [
+      "parent-solo-a-saint-denis-reunion-2026",
+      "10-choses-a-faire-a-saint-paul-reunion-2026",
+      "demenager-a-saint-paul-reunion-2026",
+      "vivre-en-outre-mer-guide-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+    ],
+    tags: ["parent solo Saint-Paul Réunion 2026", "monoparental La Réunion", "T3 Saint-Paul 974 budget", "vie chère outre-mer parent seul", "famille monoparentale DROM"],
+  },
+  {
+    slug: "parent-solo-a-avignon-2026",
+    title: "Parent solo à Avignon en 2026 : culture 9/10, et 212e quand même",
+    metaTitle: "Parent solo à Avignon 2026 — T3 1 000 €, fit 5,3/10",
+    metaDesc:
+      "Fit 5,3/10, 212e sur 363. Culture 9,0/10, sécurité 4,3/10, T3 à 1 000 € : pourquoi la réputation d'une ville ne pèse rien dans ce classement.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-23",
+    updatedAt: "2026-08-23",
+    intro:
+      "Avignon est la ville la mieux dotée culturellement de tout ce batch — 9,0/10 sur l'axe culture, l'une des plus hautes valeurs du site (source : data/cities-seed.ts) — et elle sort 212e sur 363 au composite parent solo, avec 5,3/10. Ce n'est pas une anomalie de calcul, c'est le résultat qu'on attend d'un classement qui pondère coût 0,30, écoles 0,25, sécurité 0,25 et transports 0,20 : la culture n'y pèse rien, et c'est assumé. Le détail : coût de la vie 5,7/10, transports 6,1/10, écoles 5,3/10, sécurité 4,3/10 — c'est ce dernier chiffre qui coûte le plus cher. La commune compte 91 760 habitants au recensement 2022 (source : data/city-population.json), une population presque stable sur onze ans et en léger repli depuis 2016. Le T3 moyen est à 1 000 € et le mètre carré à l'achat à 3 000 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 050 € par mois. Voici ce que ça change concrètement pour un foyer à un seul adulte.",
+    sections: [
+      {
+        heading: "Pourquoi une ville de festival sort 212e",
+        body: "Le composite parent solo mesure quatre choses et quatre seulement : ce que la ville coûte, ce que le réseau de transport absorbe quand personne d'autre ne peut prendre le relais, ce que l'offre scolaire propose, et le niveau de sécurité communal. Avignon est moyenne sur trois de ces axes et faible sur le quatrième. La culture à 9,0/10 n'entre pas dans le calcul, pas parce qu'elle serait sans valeur, mais parce qu'elle ne résout aucun des problèmes que pose la monoparentalité au quotidien. C'est la démonstration la plus nette de ce batch : la réputation d'une ville et son adéquation à un profil sont deux questions distinctes, et confondre les deux est exactement l'erreur que ce classement existe pour éviter. Le score global d'Avignon, tous axes confondus, est de 5,6/10 — soit 0,3 point au-dessus de son fit parent solo. En Provence-Alpes-Côte d'Azur, la ville est 10e sur 33 communes éligibles, à égalité de score avec Grasse et Manosque, derrière Gap à 5,5 et La Ciotat à 5,7. Un rang obtenu à égalité n'est pas un départage : sur ce palier, l'ordre est celui des noms, pas celui des mérites.",
+      },
+      {
+        heading: "Sécurité 4,3/10 : l'axe qui coûte le plus cher au dossier",
+        body: "C'est le point bas du dossier avignonnais, et il pèse un quart du composite. Sans lui, la ville remonterait nettement. Ce que dit ce score : il s'agit d'une note communale calibrée sur les données publiques de sécurité, sur une échelle où 10 vaut le mieux. Ce qu'il ne dit pas : rien sur un quartier, une rue, un immeuble, ni sur les personnes qui y vivent. Le site ne publie aucune liste de secteurs à éviter, et la raison est méthodologique — data/neighborhoods.ts ne documente que trois quartiers pour Avignon, sur une échelle propre aux quartiers qui ne se compare pas au score communal. Trois observations ne décrivent pas une ville de 91 760 habitants. Ce qu'un parent solo peut en tirer de pratique, c'est que le choix du logement devient ici une décision structurante du projet et pas un simple arbitrage de confort, ce qui n'est pas le cas à Pau ou à La Rochelle dans le même batch, notées 5,7 et 6,5. Concrètement : visiter le soir, pas seulement le samedi matin, et faire le trajet école-domicile à l'heure où on le fera vraiment.",
+      },
+      {
+        heading: "Le budget : 3 050 € net, et le trou de juillet",
+        body: "Le revenu net minimum estimé par lib/parent-solo.ts est de 3 050 € par mois, sur la règle des 33 % appliquée au T3 moyen de 1 000 €. C'est le troisième seuil le plus élevé du batch, derrière La Rochelle à 3 150 € et Mérignac à 3 100 €. Les autres références sont un T2 à 750 € et un T1 à 540 €, le mètre carré à l'achat à 3 000 €, ce qui situe un T3 de 65 mètres carrés autour de 195 000 € au prix moyen. Sur les trois quartiers documentés, le T2 va de 680 € du côté de la Rocade Ouest à 800 € en intra-muros, avec Montfavet à 740 € : 120 € d'écart mensuel entre le moins cher et le plus cher, soit 1 440 € par an, ce qui n'est pas rien sur un seul revenu. À ces chiffres s'ajoute un mécanisme propre à Avignon que les moyennes annuelles ne montrent pas : le festival de juillet capte une partie du parc locatif en location courte durée, et cette pression saisonnière se répercute sur les conditions du marché à l'année. Un locataire qui cherche en juin, dans une ville où le festival commence en juillet, ne cherche pas dans les mêmes conditions qu'en octobre. Décaler la recherche est gratuit ; le découvrir sur place ne l'est pas.",
+      },
+      {
+        heading: "Écoles 5,3/10, transports 6,1/10 : le milieu de tableau",
+        body: "Les deux axes restants sont dans la moyenne du classement, ce qui est déjà mieux que la sécurité mais n'apporte rien de décisif. L'axe écoles à 5,3/10 mesure l'offre communale, la densité d'établissements et l'éventail de filières — pas la réussite des élèves, pas la qualité du travail des enseignants. Ramené au loyer, cela donne 189 € de T3 par point d'écoles, septième ratio sur les neuf villes de ce batch et très loin des 122 € de Pau. C'est le calcul du palmarès mensuel du site appliqué à une ville : pour le même loyer, la même somme achète moins d'offre scolaire à Avignon qu'ailleurs. Les transports à 6,1/10 décrivent un réseau de bus et de tramway urbain, correct pour une ville de cette taille : vivre sans voiture y est possible depuis les quartiers desservis, mais cela se teste sur ses propres trajets avant de signer, école puis travail, à l'heure réelle. La desserte ferroviaire de la ville est un atout hors du composite, qui compte pour un parent gardant une attache familiale ailleurs — et ce type d'attache est, pour un foyer à un adulte, une ressource et pas un détail.",
+      },
+      {
+        heading: "Les alternatives à moins de 40 kilomètres",
+        body: "C'est là que le classement devient utile, parce qu'il compare des villes qu'un habitant du Vaucluse considère naturellement ensemble. Orange sort à 6,1 de fit avec un T3 à 920 €, Carpentras à 6,0 avec un T3 à 920 € également : deux communes du même département qui battent Avignon de près d'un point sur le composite, pour 80 € de loyer en moins par mois. Leur avantage se lit surtout sur l'axe écoles, où elles marquent 6,6/10 contre 5,3 à Avignon. Leur inconvénient est ailleurs et il faut le dire aussi : ce sont des villes plus petites, moins bien reliées, et l'accès à l'emploi y est plus étroit. De l'autre côté du Rhône, Nîmes affiche exactement le même fit de 5,3, un T3 à 960 € et le même score d'écoles, avec une sécurité un peu plus basse à 3,9 — le dossier est jumeau, l'arbitrage se fait sur autre chose. Arles, plus au sud, tombe à 4,8. Autrement dit, un parent solo qui vise le bassin avignonnais n'a pas à choisir entre Avignon et rien : deux communes proches font mieux sur les critères exacts qui l'intéressent, à condition d'accepter une ville plus petite.",
+      },
+      {
+        heading: "Le verdict : pour qui Avignon fonctionne",
+        body: "Avignon fonctionne à partir de 3 050 € net par mois, pour un parent solo dont l'emploi est déjà dans la ville ou dans sa périphérie immédiate, et qui accorde une valeur réelle à ce que la ville a de meilleur — une vie culturelle à 9,0/10, un patrimoine, un accès ferroviaire. Ce sont des raisons légitimes de s'installer quelque part, elles ne sont simplement pas mesurées ici. Elle fonctionne moins bien pour qui arrive sans attache et choisit sur pièces : sur les seuls critères du composite, Orange et Carpentras font mieux pour moins cher, et le classement dit exactement ça. Le point de vigilance qui ne se négocie pas, c'est la sécurité à 4,3/10 : pas parce que le chiffre serait dramatique, mais parce qu'un quart de la pondération repose dessus et qu'il transforme le choix du logement en décision de premier plan. Visiter aux heures réelles, tester le trajet scolaire, et se garder de conclure quoi que ce soit d'un score de quartier isolé. Le détail axe par axe est sur /villes/avignon/parent-solo.",
+      },
+    ],
+    relatedCities: ["avignon", "nimes", "orange", "carpentras", "arles"],
+    relatedGuides: [
+      "vivre-a-avignon-2026",
+      "acheter-a-avignon-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-avignon-2026",
+      "parent-solo-a-nimes-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+    ],
+    tags: ["parent solo Avignon 2026", "monoparental Vaucluse", "T3 Avignon budget", "écoles Avignon parent seul", "famille monoparentale Provence"],
+  },
+  {
+    slug: "parent-solo-a-saint-pierre-reunion-2026",
+    title: "Parent solo à Saint-Pierre (La Réunion) en 2026 : le meilleur dossier de l'île, et il reste difficile",
+    metaTitle: "Parent solo à Saint-Pierre 974 — T3 840 €, fit 4,9/10",
+    metaDesc:
+      "Fit 4,9/10, 280e sur 363. T3 à 840 €, seuil d'entrée 2 400 €, transports 4,7/10 : le dossier le mieux équilibré de La Réunion, à égalité avec Le Tampon.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-23",
+    updatedAt: "2026-08-23",
+    intro:
+      "Saint-Pierre affiche 4,9/10 au composite parent solo et sort 280e sur les 363 communes de plus de 20 000 habitants. C'est le meilleur dossier réunionnais de ce classement — à égalité stricte avec Le Tampon, également à 4,9, l'ordre entre les deux étant un départage par nom et non une mesure. C'est aussi, malgré ce titre, un dossier difficile : 280e sur 363 reste dans le dernier quart. Le détail : coût de la vie 4,3/10, transports 4,7/10, écoles 5,5/10, sécurité 5,2/10 (source : data/cities-seed.ts). Deux axes sur quatre passent la moyenne, ce que seule Le Tampon fait également parmi les huit communes réunionnaises du classement. La ville compte 85 254 habitants au recensement 2022 et en a gagné près de 5 000 depuis 2011 (source : data/city-population.json). Le T3 moyen est à 840 € et le mètre carré à l'achat à 2 200 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 400 € par mois, à comparer aux 2 550 € de Saint-Denis et de Saint-Paul et aux 2 250 € du Tampon.",
+    sections: [
+      {
+        heading: "Ce que veut dire « premier de l'île » quand l'île entière est sous la médiane",
+        body: "Les huit communes réunionnaises de plus de 20 000 habitants s'échelonnent de 4,9 pour Le Tampon et Saint-Pierre à 4,1 pour Saint-André : moins d'un point d'écart entre la première et la dernière, et aucune n'atteint la médiane du classement, qui est à 5,5/10. Cette compression a une conséquence pratique directe : à La Réunion, ce classement ne départage pas grand-chose, et un parent qui l'utiliserait pour choisir sa commune se tromperait de méthode. Ce qui départage réellement, c'est le lieu de l'emploi et la durée du trajet quotidien — deux paramètres qui ne figurent dans aucun score et qui, pour un foyer à un seul adulte, décident de tout. Saint-Pierre a néanmoins deux avantages mesurés : la meilleure note d'écoles de l'île à 5,5/10, à égalité avec Le Tampon et Saint-Denis, et la deuxième note de sécurité à 5,2/10, derrière Le Tampon à 5,5. Elle est en revanche mieux desservie que Le Tampon, avec des transports à 4,7/10 contre 3,7 — à égalité avec Saint-Denis, et c'est l'écart le plus large entre les deux communes de tête. Son score global tous axes confondus est de 5,8/10, le plus haut des communes réunionnaises du site, porté par une qualité de vie à 7,2/10 et une nature à 8,2/10 qui ne comptent pas dans le composite mais comptent dans une vie.",
+      },
+      {
+        heading: "2 400 € net : le seuil d'entrée le plus bas de l'île",
+        body: "Le revenu net minimum estimé par lib/parent-solo.ts est de 2 400 € par mois pour un T3 moyen à 840 €. Comme pour toutes les communes dont le score de coût est sous 5, le moteur applique la règle relâchée à 35 % du revenu plutôt que 33 % : le seuil affiché est déjà la version indulgente. Comparé aux autres communes de l'île présentes au classement, l'écart est réel — 2 550 € à Saint-Paul, 2 550 € à Saint-Denis pour un T3 à 900 € dans les deux cas. Saint-Pierre est donc à 150 € par mois en dessous du chef-lieu et de la commune de l'ouest, soit 1 800 € par an, pour un dossier globalement meilleur. Les autres références sont un T2 à 650 € et un T1 à 450 €, le mètre carré à l'achat à 2 200 €, ce qui situe un T3 de 65 mètres carrés autour de 143 000 € au prix moyen. Sur les deux quartiers documentés dans data/neighborhoods.ts, le T2 va de 650 € à Terre-Sainte à 700 € au centre-ville : l'écart est faible, et c'est en soi une information — ici, changer de quartier ne change pas le budget, il change le mode de vie. Rappel de méthode : ces montants de quartier relèvent d'un relevé distinct de la moyenne communale, ils ne s'additionnent ni ne se moyennent avec elle.",
+      },
+      {
+        heading: "153 € de loyer par point d'écoles : ce que vaut vraiment le rapport",
+        body: "Le rapport qui intéresse un parent solo n'est ni le loyer seul ni le score d'écoles seul, mais ce que coûte un point d'offre scolaire. À Saint-Pierre, un T3 à 840 € pour un score de 5,5/10 donne 153 € par point. C'est le quatrième meilleur ratio de ce batch de neuf villes, derrière Pau à 122 €, Cherbourg-en-Cotentin à 141 € et La Rochelle à 149 €. À l'échelle de l'outre-mer, il faut être précis : Le Tampon fait mieux avec 142 € et Le Lamentin, en Martinique, aussi avec 180 €, tandis que Saint-Paul est à 184 €, Fort-de-France à 188 € et les quatre dernières communes réunionnaises du classement au-delà de 220 €. Saint-Pierre n'a donc pas le meilleur rapport de l'île, elle a le meilleur rapport parmi les communes qui offrent en plus une desserte et un accès aux services de niveau régional. Le calcul est celui du palmarès mensuel du site, appliqué à une ville plutôt qu'à un classement. Ce qu'il mesure demande d'être répété à chaque fois : l'axe écoles décrit l'offre communale, la densité d'établissements et l'éventail de filières disponibles, pas la réussite des élèves ni la qualité du travail des enseignants. Un bon ratio ne promet rien sur un enfant en particulier. Il dit qu'à budget logement donné, un parent qui doit choisir un collège ou une option en lycée aura ici davantage de portes ouvertes qu'ailleurs sur l'île. Le sud de La Réunion concentre par ailleurs des équipements de rang régional — hospitalier, universitaire, aéroportuaire — qui expliquent une part de ce score et qui sont, eux, indépendants du classement.",
+      },
+      {
+        heading: "Transports 4,7/10 : mieux que l'ouest, insuffisant sans voiture",
+        body: "Saint-Pierre marque 4,7/10, à égalité avec Saint-Denis, au-dessus de Saint-Paul à 4,0 et du Tampon à 3,7. C'est le meilleur score de transport de l'île, les quatre communes restantes s'échelonnant de 4,0 à 3,3. Le plafond est le même pour toutes : il n'existe pas de réseau ferroviaire de voyageurs à La Réunion, et le seul mode collectif est le car et le bus. Pour un parent solo, la conséquence est budgétaire avant d'être pratique : la voiture est un coût fixe et non un arbitrage, avec l'assurance, le carburant, l'entretien, et un risque concentré le jour de la panne. Ce point mérite d'être chiffré dans son propre budget avant de comparer un loyer réunionnais à un loyer métropolitain, parce qu'il déplace la comparaison de plusieurs centaines d'euros. L'atout relatif de Saint-Pierre est la compacité de son centre : le front de mer, le marché, les commerces et une partie des services tiennent dans un périmètre marchable, ce qui rend certains trajets du quotidien réalisables à pied depuis les quartiers centraux. Cela ne remplace pas la voiture pour l'école plus le travail, mais cela réduit le nombre de trajets contraints, et c'est exactement le genre de marge qui compte quand il n'y a qu'un adulte.",
+      },
+      {
+        heading: "Les contraintes propres à l'île, et une précision géographique",
+        body: "Trois contraintes valent pour toute La Réunion et pèsent double sur un foyer à un adulte. L'éloignement du réseau familial, d'abord : pas de relais improvisable quand un enfant est malade un lundi matin, et cette ressource-là ne se lit dans aucun des quatre axes. La saison cyclonique, ensuite : les fermetures d'établissements se décident la veille au soir, parfois le matin même, et une garde d'urgence doit être identifiée avant d'être nécessaire. La baignade en mer enfin, interdite hors lagon de la côte ouest et hors bassins surveillés en raison du risque requin. Sur ce dernier point, une précision géographique s'impose et elle vaut spécifiquement pour Saint-Pierre : il n'y a pas de lagon dans le sud de l'île. Le lagon est sur la côte ouest, de l'Étang-Salé à Saint-Gilles. Un parent qui s'installe à Saint-Pierre en imaginant la baignade libre devant chez lui se trompe de côte : ce qui existe ici, ce sont des bassins et des zones surveillées, et la règle s'applique en dehors. Ce n'est pas une nuance de brochure, c'est une information de sécurité qu'un arrivant ne devine pas.",
+      },
+      {
+        heading: "Le verdict : pour qui Saint-Pierre fonctionne",
+        body: "Saint-Pierre fonctionne à partir de 2 400 € net par mois, pour un parent solo dont l'emploi est dans le sud de l'île, avec une voiture et un réseau local. C'est le compromis réunionnais le plus équilibré du classement : la meilleure note d'écoles de l'île, la deuxième note de sécurité, la meilleure desserte des trois communes de tête, et un seuil d'entrée inférieur de 150 € par mois à celui du chef-lieu. Ces avantages sont réels et cumulatifs, et aucun n'est un superlatif isolé. Ils ne suffisent pas à en faire une ville facile, et le rang de 280e sur 363 le rappelle sans ambiguïté : les quatre axes du composite restent tirés vers le bas par le coût de la vie ultramarin et par l'absence d'alternative à la voiture. Elle ne fonctionne pas pour qui travaille au nord — le trajet quotidien vers Saint-Denis annule tout le bénéfice — ni pour qui compte se passer de voiture. Le comparateur direct est Le Tampon, à 4,9 également, avec un T3 à 780 € et un seuil de 2 250 €, mais des transports à 3,7/10 contre 4,7 : 150 € de moins par mois contre un isolement supérieur. C'est l'arbitrage central du sud réunionnais, et il se tranche sur le lieu de travail. Le détail axe par axe est sur /villes/saint-pierre-reunion/parent-solo.",
+      },
+    ],
+    relatedCities: ["saint-pierre-reunion", "le-tampon", "saint-louis-reunion-974", "saint-joseph-reunion", "saint-denis-reunion"],
+    relatedGuides: [
+      "parent-solo-a-saint-denis-reunion-2026",
+      "10-choses-a-faire-a-saint-pierre-reunion-2026",
+      "vivre-en-outre-mer-guide-2026",
+      "acheter-immobilier-outre-mer-drom-france-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+    ],
+    tags: ["parent solo Saint-Pierre Réunion 2026", "monoparental sud Réunion", "T3 Saint-Pierre 974 budget", "écoles Réunion parent seul", "famille monoparentale DROM"],
+  },
+  {
+    slug: "parent-solo-a-beziers-2026",
+    title: "Parent solo à Béziers en 2026 : 2 200 € suffisent, et c'est la seule bonne nouvelle du dossier",
+    metaTitle: "Parent solo à Béziers 2026 — T3 720 €, fit 4,7/10",
+    metaDesc:
+      "Fit 4,7/10, 294e sur 363, dernière d'Occitanie. T3 à 720 €, seuil d'entrée 2 200 € : le prix le plus bas du batch, et pourquoi il se paie ailleurs.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-23",
+    updatedAt: "2026-08-23",
+    intro:
+      "Béziers est la ville la moins chère de ce batch et la moins bien classée de sa région : 4,7/10 au composite parent solo, 294e sur les 363 communes de plus de 20 000 habitants, et 22e sur 22 en Occitanie. Les deux faits sont liés et il n'y a aucune raison de les séparer. Le détail : coût de la vie 6,4/10, transports 4,9/10, écoles 3,6/10, sécurité 3,5/10 (source : data/cities-seed.ts). Les deux axes les plus faibles sont exactement ceux que le composite pondère le plus lourd ensemble — écoles et sécurité valent 0,25 chacun, soit la moitié du calcul. Le T3 moyen est à 720 € et le mètre carré à l'achat à 1 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 200 € par mois : le seuil d'entrée le plus bas des neuf villes de ce batch. La commune compte 80 815 habitants au recensement 2022 et en a gagné plus de 9 000 depuis 2011 (source : data/city-population.json), la deuxième plus forte croissance du lot. Voici ce que ces chiffres impliquent, sans les arrondir.",
+    sections: [
+      {
+        heading: "2 200 € net : le prix d'entrée le plus bas du batch",
+        body: "C'est le chiffre qui justifie qu'on écrive ce guide plutôt que de renvoyer ailleurs. Le revenu net minimum estimé par lib/parent-solo.ts est de 2 200 € par mois, calculé sur la règle des 33 % appliquée au T3 moyen de 720 €. Pour comparaison à l'intérieur de ce batch : 3 150 € à La Rochelle, 3 100 € à Mérignac, 3 050 € à Avignon, 2 750 € à Pau. L'écart avec La Rochelle est de 950 € par mois, soit 11 400 € par an de revenu exigé en moins pour se loger dans un T3. Sur un seul salaire, cet écart n'est pas un détail : c'est la différence entre un dossier qui passe et un dossier qui ne passe pas. Les autres références sont un T2 à 530 € et un T1 à 380 €, les deux plus bas du batch, et le mètre carré à l'achat à 1 500 €, ce qui situe un T3 de 65 mètres carrés autour de 97 500 € au prix moyen — moins d'un tiers du même bien à La Rochelle. Sur les trois quartiers documentés dans data/neighborhoods.ts, le T2 va de 540 € au centre historique à 570 € au Plateau, avec les allées Paul-Riquet à 560 € : 30 € d'écart, ce qui signifie qu'à Béziers, le budget ne dépend pratiquement pas du quartier.",
+      },
+      {
+        heading: "Écoles 3,6 et sécurité 3,5 : ce que le prix bas achète, et ce qu'il ne rachète pas",
+        body: "Les deux valeurs sont les plus basses du batch, et elles portent ensemble la moitié de la pondération. Il faut être précis sur ce qu'elles mesurent, parce que la tentation de lire un jugement là où il y a un indicateur est forte. L'axe écoles à 3,6/10 décrit l'offre communale : densité d'établissements, éventail de filières et d'options disponibles. Il ne dit rien de la réussite des élèves, rien de la qualité du travail des enseignants, rien d'un établissement en particulier. La sécurité à 3,5/10 est une note communale calibrée sur les données publiques, à l'échelle de la commune entière. Ni l'une ni l'autre ne décrit un quartier, et le site ne publie aucun verdict par secteur : data/neighborhoods.ts ne documente que trois quartiers biterrois, sur une échelle propre aux quartiers qui ne se compare pas au score communal. Ramené au loyer, le score d'écoles donne 200 € de T3 par point, le pire ratio des neuf villes de ce batch — contre 122 € à Pau. Autrement dit : le loyer est bas, mais l'offre scolaire l'est davantage, et le rapport entre les deux est moins bon qu'ailleurs. C'est l'arbitrage central du dossier biterrois, et il ne se maquille pas.",
+      },
+      {
+        heading: "Une ville qui gagne 9 000 habitants avec l'offre scolaire la plus basse du batch",
+        body: "C'est le fait le plus important du dossier et il ne figure dans aucun des quatre axes. Béziers passe de 71 432 habitants en 2011 à 80 815 en 2022, soit une croissance de 13,1 % en onze ans, la deuxième du batch derrière Mérignac. Une commune qui gagne des habitants à ce rythme voit sa demande scolaire progresser mécaniquement, et elle part avec l'offre la plus faible des neuf villes examinées ici. Pour un parent solo, la traduction pratique est simple : les places dans les dispositifs qui comptent — périscolaire, restauration, accueil du mercredi, dérogations — se demandent tôt et pas au dernier moment, parce que ce sont exactement les dispositifs qui saturent quand la population monte plus vite que les équipements. Ce n'est pas une prédiction, c'est une conséquence arithmétique de deux chiffres publiés. L'inverse existe et se lit dans le même batch : Cherbourg-en-Cotentin perd 4,5 % de sa population sur la même période, avec l'effet opposé sur la pression scolaire, et d'autres inconvénients à la clé. Aucune des deux situations n'est bonne ou mauvaise en soi ; les deux se préparent différemment.",
+      },
+      {
+        heading: "Transports 4,9/10 : la voiture reste nécessaire",
+        body: "Béziers marque 4,9/10 sur les transports, à égalité avec Cherbourg-en-Cotentin dans ce batch et loin derrière Mérignac à 7,7. Le score décrit un réseau de bus urbain sans mode lourd, dimensionné pour une ville moyenne. Pour un parent solo, la conséquence est directe : vivre sans voiture y est possible depuis le centre pour les trajets courts, mais l'enchaînement école puis travail puis courses tient difficilement sans elle, et il faut le tester sur ses propres adresses avant de signer un bail. Le budget doit donc intégrer une voiture en charge fixe, ce qui réduit une partie de l'avantage du loyer bas — pas tout, loin de là, mais une partie qu'il vaut mieux avoir calculée. Un point favorable existe et il est structurel : la ville est sur l'axe ferroviaire du littoral languedocien, ce qui rend Montpellier et Narbonne accessibles en train pour un rendez-vous, une garde partagée ou un emploi. Pour un foyer à un adulte qui conserve une attache ailleurs, ce type de liaison compte davantage que le score de transport interne, parce qu'il conditionne la possibilité de maintenir un relais familial à distance raisonnable.",
+      },
+      {
+        heading: "Carcassonne, Narbonne, Montpellier : les trois arbitrages à faire avant de choisir",
+        body: "C'est ici que le classement rend son meilleur service. Carcassonne, à une cinquantaine de kilomètres, sort à 5,3 de fit avec un T3 à 710 €, soit 10 € de moins que Béziers. Le détail de la comparaison mérite d'être posé axe par axe plutôt que résumé : Carcassonne fait nettement mieux sur les deux axes qui portent la moitié de la pondération — écoles 5,3/10 contre 3,6, sécurité 4,5/10 contre 3,5 — elle égale Béziers sur les transports à 4,9/10, et elle est très légèrement en dessous sur le coût de la vie, 6,2/10 contre 6,4. Autrement dit, l'unique avantage biterrois de cette comparaison porte sur le seul axe où l'écart est de 0,2 point. Pour un loyer équivalent, un parent solo obtient un meilleur dossier à Carcassonne, et c'est mesuré et non deviné. Narbonne, à mi-chemin, affiche 4,9 de fit mais un T3 à 920 €, donc 200 € de plus par mois pour un gain de 0,2 point — l'arbitrage y est nettement moins favorable. Montpellier, enfin, monte à 5,6 de fit avec des écoles à 7,0/10, mais un T3 à 1 150 € qui porte le seuil d'entrée à un tout autre niveau. Le résumé tient en une phrase : si la contrainte principale est le prix, Carcassonne fait mieux que Béziers pour le même prix ; si la contrainte principale est l'offre scolaire, il faut monter à Montpellier et accepter 430 € de loyer supplémentaire par mois. Béziers garde l'avantage pour qui a déjà un emploi sur place, une attache locale, ou vise l'achat — le mètre carré à 1 500 € est le plus bas du batch et il est réel.",
+      },
+      {
+        heading: "Le verdict : pour qui Béziers fonctionne",
+        body: "Béziers fonctionne à partir de 2 200 € net par mois, pour un parent solo qui a déjà un emploi dans le bassin biterrois ou une attache locale, et pour qui le prix d'entrée est la contrainte qui prime sur toutes les autres. Sur ce critère précis, la ville est imbattable dans ce batch, et l'achat y est accessible à des niveaux qui n'existent nulle part ailleurs sur cette liste. C'est un avantage concret, pas une consolation. Elle ne fonctionne pas pour qui arrive sans attache et choisit sur pièces : Carcassonne fait mieux au même prix, et le dire est plus utile que de vendre un classement. Elle ne fonctionne pas non plus pour qui met l'offre scolaire en tête, avec 200 € de loyer par point d'écoles et une population qui monte plus vite que les équipements. Le cadrage à garder pour finir, parce qu'il est facile de le perdre : un score bas décrit une offre communale et une statistique de sécurité, il ne décrit pas les habitants d'une ville de 80 000 personnes, et ce guide ne prétend rien dire d'eux. Le détail axe par axe est sur /villes/beziers/parent-solo.",
+      },
+    ],
+    relatedCities: ["beziers", "narbonne", "carcassonne", "sete", "montpellier"],
+    relatedGuides: [
+      "vivre-a-beziers-2026",
+      "10-choses-a-faire-a-beziers-2026",
+      "parent-solo-a-perpignan-2026",
+      "parent-solo-a-montpellier-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+    ],
+    tags: ["parent solo Béziers 2026", "monoparental Hérault", "T3 Béziers budget", "logement pas cher parent seul", "famille monoparentale Occitanie"],
+  },
+  {
+    slug: "parent-solo-a-la-rochelle-2026",
+    title: "Parent solo à La Rochelle en 2026 : 70e du classement, 3 150 € pour y entrer",
+    metaTitle: "Parent solo à La Rochelle 2026 — T3 1 100 €, fit 6,3/10",
+    metaDesc:
+      "Fit 6,3/10, 70e sur 363, sécurité 6,5/10 : le meilleur dossier du batch. Et un seuil d'entrée à 3 150 € net. Un bon rang n'est pas un test de solvabilité.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-23",
+    updatedAt: "2026-08-23",
+    intro:
+      "La Rochelle a le meilleur dossier qualitatif de ce batch et le prix d'entrée le plus élevé. Les deux affirmations sont vraies simultanément, et c'est tout l'intérêt du cas. Au composite parent solo, la ville sort à 6,3/10, 70e sur les 363 communes de plus de 20 000 habitants, avec écoles 7,4/10, sécurité 6,5/10 — la meilleure des neuf villes examinées ici — transports 7,0/10, et un coût de la vie à 4,6/10 qui plombe l'ensemble (source : data/cities-seed.ts). Son score global tous axes confondus atteint 7,2/10 et son score télétravail 8,8/10, les plus hauts du batch. Le T3 moyen est à 1 100 € et le mètre carré à l'achat à 4 200 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 150 € par mois : le seuil le plus élevé du lot. La commune compte 79 961 habitants au recensement 2022, en hausse de 6,8 % depuis 2011 (source : data/city-population.json). Voici pourquoi un bon rang et un dossier finançable sur un seul salaire sont deux questions différentes.",
+    sections: [
+      {
+        heading: "Un rang est une position relative, pas un test de solvabilité",
+        body: "C'est la leçon centrale du dossier rochelais, et elle a déjà été posée dans cette série à propos d'Annecy. Le composite parent solo pondère coût 0,30, écoles 0,25, sécurité 0,25, transports 0,20, puis compare les villes entre elles. La Rochelle marque très bien sur trois axes et mal sur le quatrième, et cette combinaison la place 70e sur 363, c'est-à-dire dans le premier cinquième du classement. Ce rang est exact. Il ne dit rien de la capacité d'un foyer donné à payer le loyer. Le seuil de 3 150 € net par mois calculé par lib/parent-solo.ts, lui, le dit : c'est le revenu à partir duquel un bailleur classique ne bloque pas le dossier, sur la règle des 33 %. Le score de coût de La Rochelle étant à 4,6, donc sous 5, le moteur applique déjà la version relâchée à 35 % — le seuil affiché est l'estimation la plus indulgente, pas la plus prudente. Un parent solo à 2 400 € net ne « rate » pas La Rochelle de peu : il est hors marché sur le T3 moyen, quel que soit le rang de la ville. Le classement et le budget doivent se lire dans cet ordre, et jamais l'un à la place de l'autre.",
+      },
+      {
+        heading: "Ce que le coût de la vie à 4,6/10 recouvre vraiment",
+        body: "Le T3 moyen à 1 100 € est le plus élevé du batch, devant Mérignac à 1 080 € et Avignon à 1 000 €. Les autres références sont un T2 à 820 € et un T1 à 600 €. Mais c'est à l'achat que l'écart devient spectaculaire : 4 200 € le mètre carré, contre 1 500 € à Béziers et 1 900 € à Cherbourg-en-Cotentin dans le même batch. Un T3 de 65 mètres carrés se situe donc autour de 273 000 € au prix moyen rochelais, contre 97 500 € à Béziers — presque trois fois plus pour le même bien. Pour un parent solo, cette différence a une conséquence qui dépasse le budget mensuel : elle décide de la possibilité même de sortir du statut de locataire, et donc de mettre le logement à l'abri d'une décision du bailleur au renouvellement du bail. Sur les deux quartiers documentés dans data/neighborhoods.ts, le T2 va de 780 € aux Minimes à 900 € au Vieux-Port. Ces montants relèvent d'un relevé distinct de la moyenne communale de 820 € et ne s'additionnent ni ne se moyennent avec elle. Ce qu'ils indiquent, c'est que les deux quartiers les mieux identifiés de la ville encadrent la moyenne plutôt qu'ils ne l'expliquent.",
+      },
+      {
+        heading: "Sécurité 6,5 et écoles 7,4 : ce que le prix achète réellement",
+        body: "Il serait malhonnête de présenter le coût rochelais sans dire ce qu'il achète. La sécurité à 6,5/10 est la meilleure des neuf villes de ce batch, devant Pau à 5,7 et Cherbourg-en-Cotentin à 5,3. Ce que cela change pour un parent solo est concret : le choix du quartier redevient une décision de confort et d'organisation, pas une décision structurante du projet. C'est exactement l'inverse de la situation d'Avignon, notée 4,3, dans ce même batch. L'axe écoles à 7,4/10 place la ville à égalité avec Pau, et le ratio du palmarès mensuel donne 149 € de T3 par point d'écoles — troisième meilleur ratio du batch, derrière Pau à 122 € et Cherbourg-en-Cotentin à 141 €. Autrement dit, le loyer rochelais est cher mais il n'est pas mal employé : l'offre scolaire suit. Rappel de portée, valable partout dans cette série : cet axe mesure la densité d'établissements et l'éventail de filières, pas la réussite des élèves ni la qualité du travail des enseignants. Il dit qu'un parent qui doit choisir un collège ou une option en lycée aura ici davantage de portes ouvertes qu'à Béziers ou à Fort-de-France.",
+      },
+      {
+        heading: "Transports 7,0/10 : le levier qui peut compenser une partie du loyer",
+        body: "C'est le deuxième meilleur score de transport du batch, derrière Mérignac à 7,7/10 et son tramway métropolitain. Pour un parent solo, ce chiffre a une valeur monétaire directe : c'est le seul axe du composite capable de retirer une ligne du budget. Une ville où l'enchaînement école, travail, courses tient sans voiture supprime l'assurance, le carburant, l'entretien et le risque de panne — l'inverse exact de la situation réunionnaise décrite ailleurs dans ce batch, où la voiture est un coût fixe non négociable. La Rochelle est historiquement organisée autour du vélo et d'un réseau urbain dense sur un territoire compact, ce qui rend cette hypothèse crédible, à une condition : elle se teste sur ses propres adresses et à l'heure réelle, école puis travail, avant de signer. Le collège ou le lycée de l'enfant, une fois affecté, dicte souvent le trajet plus sûrement que le plan du réseau. Si le calcul tient, l'écart de 280 € de loyer mensuel avec Cherbourg-en-Cotentin se réduit sensiblement une fois la voiture retirée du budget. S'il ne tient pas, l'écart reste entier et s'ajoute au coût du véhicule.",
+      },
+      {
+        heading: "Rochefort, Saintes, Niort : le même bassin à 300 € de moins",
+        body: "Le classement montre que le littoral charentais offre des alternatives sérieuses à qui ne peut pas atteindre 3 150 € net. Rochefort sort à 5,8 de fit avec un T3 à 660 €, soit 440 € de moins par mois que La Rochelle : sur un an, 5 280 € de loyer économisés, pour un score d'écoles de 5,8/10 contre 7,4 et des transports à 4,9/10 contre 7,0. Saintes affiche 5,9 de fit avec un T3 à 700 € et des écoles à 6,2/10. Niort monte à 6,1 avec un T3 à 860 €, des écoles à 6,6/10 et une sécurité à 5,9/10 — c'est l'alternative la plus équilibrée du lot, à 240 € de loyer mensuel en dessous de La Rochelle. Un cran plus loin, Poitiers sort à 6,5 de fit, soit mieux que La Rochelle, avec un T3 à 880 €. Le raisonnement à tenir n'est pas « La Rochelle ou rien » mais « qu'est-ce que je perds en m'éloignant ». La réponse honnête : de la sécurité et de l'offre scolaire à Rochefort, presque rien à Niort ou à Poitiers sur les critères du composite, et dans les deux derniers cas la mer et le rang de la ville — deux choses que ce classement ne mesure pas et qui comptent quand même.",
+      },
+      {
+        heading: "Le verdict : pour qui La Rochelle fonctionne",
+        body: "La Rochelle fonctionne à partir de 3 150 € net par mois, pour un parent solo qui atteint ce seuil et qui peut réellement se passer de voiture — les deux conditions ensemble, pas l'une ou l'autre. À ce niveau de revenu, la ville offre le meilleur ensemble du batch : la sécurité la plus haute, une offre scolaire à 7,4/10, un réseau qui tient, une qualité de vie notée 8,1/10 et un score télétravail de 8,8/10 qui en fait une base crédible pour un emploi à distance. C'est un dossier cohérent de bout en bout, à un prix qui l'est aussi. Elle ne fonctionne pas en dessous de ce seuil, et il vaut mieux le savoir avant de déménager qu'après : le marché de l'achat à 4 200 € le mètre carré ferme par ailleurs la porte de sortie que représente l'accession pour beaucoup de foyers à un revenu. Dans ce cas, Niort et Poitiers font le même travail pour 240 à 220 € de moins par mois, et Poitiers fait même mieux au classement. Le détail axe par axe est sur /villes/la-rochelle/parent-solo.",
+      },
+    ],
+    relatedCities: ["la-rochelle", "rochefort", "niort", "saintes", "poitiers"],
+    relatedGuides: [
+      "vivre-a-la-rochelle-2026",
+      "acheter-a-la-rochelle-quel-quartier-budget-2026",
+      "parent-solo-a-poitiers-2026",
+      "vacances-monoparentales-la-rochelle-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+    ],
+    tags: ["parent solo La Rochelle 2026", "monoparental Charente-Maritime", "T3 La Rochelle budget", "écoles La Rochelle parent seul", "famille monoparentale littoral"],
+  },
+  {
+    slug: "parent-solo-a-pau-2026",
+    title: "Parent solo à Pau en 2026 : 122 € de loyer par point d'écoles, le meilleur du batch",
+    metaTitle: "Parent solo à Pau 2026 — T3 900 €, écoles 7,4/10",
+    metaDesc:
+      "Fit 6,4/10, 60e sur 363. T3 à 900 € pour des écoles à 7,4/10 : 122 € par point, le meilleur ratio du batch. Le calcul complet sur un seul revenu.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-23",
+    updatedAt: "2026-08-23",
+    intro:
+      "Pau est la ville la mieux classée de ce batch : 6,4/10 au composite parent solo, 60e sur les 363 communes de plus de 20 000 habitants, presque un point au-dessus de la médiane du classement qui s'établit à 5,5/10. Le détail tient sur quatre axes sans point faible marqué : écoles 7,4/10, coût de la vie 6,2/10, transports 6,1/10, sécurité 5,7/10 (source : data/cities-seed.ts). C'est la mécanique récurrente de ce classement — une ville régulière bat une ville brillante et bancale, et Avignon, dans le même batch, en fournit la démonstration inverse avec sa culture à 9,0/10 et son 212e rang. Le T3 moyen est à 900 € et le mètre carré à l'achat à 2 400 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 750 € par mois. La commune compte 78 620 habitants au recensement 2022, un chiffre stable à 1,5 % près depuis 2011 (source : data/city-population.json). Voici le détail du calcul quand il n'y a qu'un salaire et qu'un conducteur.",
+    sections: [
+      {
+        heading: "122 € de loyer par point d'écoles : le meilleur ratio du batch",
+        body: "Le rapport qui intéresse un parent solo n'est ni le loyer seul ni le score d'écoles seul, mais ce que coûte un point d'offre scolaire. À Pau, un T3 à 900 € pour un score de 7,4/10 donne 122 € par point : le meilleur des neuf villes de ce batch, devant Cherbourg-en-Cotentin à 141 €, La Rochelle à 149 € et Saint-Pierre à 153 €, très loin de Béziers à 200 €. À l'échelle de la série entière, seule Poitiers fait mieux, à 119 €. La comparaison la plus parlante est interne à ce batch : Pau et La Rochelle affichent exactement le même score d'écoles, 7,4/10, pour des T3 à 900 € et 1 100 € respectivement. Deux cents euros de loyer d'écart par mois, 2 400 € par an, pour la même offre scolaire mesurée. Le calcul est celui du palmarès mensuel du site, appliqué à une ville plutôt qu'à un classement. Ce qu'il mesure demande d'être rappelé : l'axe écoles décrit l'offre communale, la densité d'établissements et l'éventail de filières, pas la réussite des élèves ni la qualité du travail des enseignants. Il dit qu'à budget logement donné, un parent qui doit choisir un collège ou une option en lycée aura ici davantage de portes ouvertes qu'ailleurs dans ce batch.",
+      },
+      {
+        heading: "Le budget : 2 750 € net, et 140 € d'écart entre les quartiers",
+        body: "Le revenu net minimum estimé par lib/parent-solo.ts est de 2 750 € par mois, sur la règle des 33 % appliquée au T3 moyen de 900 €. Le score de coût de la vie palois étant à 6,2, donc au-dessus de 5, le moteur applique la règle stricte et non la version relâchée à 35 % réservée aux marchés tendus : le seuil affiché est ici le plus prudent des deux, ce qui n'est pas le cas des villes réunionnaises de ce batch. Les autres références sont un T2 à 680 € et un T1 à 490 €, le mètre carré à l'achat à 2 400 €, ce qui situe un T3 de 65 mètres carrés autour de 156 000 € au prix moyen — un niveau où l'accession reste envisageable sur un seul revenu, ce qui n'est vrai ni à La Rochelle ni à Mérignac dans ce batch. Sur les trois quartiers documentés dans data/neighborhoods.ts, le T2 va de 580 € du côté de Lescar et de la ZUP à 720 € à Trespoey, avec le centre historique à 680 € : 140 € d'écart mensuel entre le moins cher et le plus cher, le plus large du batch en proportion. Sur un seul revenu, 1 680 € par an se choisissent au moment du bail, et pas ensuite.",
+      },
+      {
+        heading: "Sécurité 5,7/10 : correct, et suffisant pour ce que ça change",
+        body: "Avec 5,7/10, Pau est la deuxième mieux notée de ce batch après La Rochelle et ses 6,5/10. C'est un score moyen-haut, pas un score confortable, et il vaut mieux le lire comme tel. Ce qu'il change concrètement pour un parent solo : le choix du quartier reste une décision d'organisation et de budget, pas une décision structurante du projet — ce qui n'est le cas ni à Avignon, notée 4,3, ni à Béziers, notée 3,5, dans ce même batch. Ce que ce score ne dit pas : rien d'un quartier, d'une rue ou des personnes qui y vivent. Il s'agit d'une note communale calibrée sur les données publiques, à l'échelle de la commune entière. Le site ne publie aucun verdict par secteur, et la raison est méthodologique : data/neighborhoods.ts ne documente que trois quartiers palois, sur une échelle qui leur est propre et qui ne se compare pas au score communal. Trois observations ne décrivent pas une ville de 78 620 habitants. Ce qu'on peut dire sans se tromper : ici, un logement choisi sur le seul critère du loyer a moins de chances de poser problème qu'ailleurs dans ce batch, et c'est une marge d'erreur précieuse quand on décide seul.",
+      },
+      {
+        heading: "Transports 6,1/10 : un réseau de ville moyenne, à tester sur ses propres trajets",
+        body: "Pau marque 6,1/10, un score correct pour une ville de cette taille, porté par un réseau de bus et non par un mode lourd. La conséquence pratique est nette : vivre sans voiture y est possible depuis le centre et les quartiers desservis, mais le maillage est celui d'une ville moyenne, et l'enchaînement école puis travail se teste avant de signer, à l'heure réelle et sur ses propres adresses. Ce point mérite d'autant plus d'attention que les 140 € d'écart entre quartiers évoqués plus haut se paient souvent en minutes de trajet : le loyer le plus bas est rarement le mieux desservi, et pour un foyer à un adulte, une demi-heure quotidienne supplémentaire coûte plus cher que la somme économisée. Deux atouts hors composite complètent le dossier et méritent d'être nommés, parce qu'ils comptent dans une vie sans y compter dans un score : la nature à 7,0/10, portée par la proximité immédiate des Pyrénées, et une desserte ferroviaire et aéroportuaire qui rend les attaches familiales lointaines tenables. Pour un parent solo, garder un relais accessible ailleurs n'est pas un luxe, c'est la ressource qui manque le plus.",
+      },
+      {
+        heading: "Où Pau se situe dans sa région",
+        body: "Pau est 7e des 28 communes éligibles de Nouvelle-Aquitaine, à égalité de score avec Limoges à 6,4 — un rang obtenu à égalité n'est pas un départage, sur ce palier l'ordre est celui des noms. La Rochelle suit immédiatement à 6,3, Libourne à 6,2, Niort à 6,1. En tête de région, Anglet sort à 6,9 avec un T3 à 1 200 € : meilleur dossier, 300 € de loyer mensuel supplémentaire, et un seuil d'entrée qui monte en conséquence. Bayonne, sa voisine, retombe à 5,5 malgré un T3 également à 1 200 €, essentiellement parce que son coût de la vie est noté 3,8/10. C'est l'arbitrage classique de la côte basque : la qualité du dossier progresse, le prix progresse plus vite. À l'est, Tarbes affiche 6,3 de fit avec un T3 à 770 € et un coût de la vie à 7,4/10, le plus favorable de la zone — 130 € de loyer mensuel de moins que Pau, pour un score d'écoles inférieur de 1,6 point. Résumé : Pau occupe la position que ce classement récompense le plus, celle où aucun axe ne s'effondre et où le prix reste dans une fourchette atteignable sur un seul salaire.",
+      },
+      {
+        heading: "Le verdict : pour qui Pau fonctionne",
+        body: "Pau fonctionne à partir de 2 750 € net par mois, pour un parent solo qui met l'offre scolaire en tête et qui accepte une ville sans effet de manche. C'est exactement le profil que ce classement récompense, et le dossier est cohérent de bout en bout : aucun axe sous 5,7, le meilleur rapport écoles-loyer du batch, un prix d'achat qui laisse l'accession ouverte, et des Pyrénées à portée pour ce qui ne se mesure pas. Elle fonctionne moins bien pour qui cherche un marché de l'emploi profond, une desserte de métropole ou une vie culturelle de premier plan — la culture y est notée 6,6/10, correcte sans plus, très loin des 9,0 d'Avignon. Le comparateur honnête à l'intérieur du batch est La Rochelle : même score d'écoles, meilleure sécurité, meilleurs transports, et 400 € de revenu minimum supplémentaire par mois. Si le budget est la contrainte qui prime, Pau gagne sans discussion. Si la mer et le réseau priment et que le seuil de 3 150 € est atteignable, La Rochelle reprend l'avantage. Le détail axe par axe est sur /villes/pau/parent-solo.",
+      },
+    ],
+    relatedCities: ["pau", "tarbes", "bayonne", "anglet", "bordeaux"],
+    relatedGuides: [
+      "vivre-a-pau-2026",
+      "acheter-a-pau-quel-quartier-budget-2026",
+      "famille-a-pau-2026",
+      "10-choses-a-faire-a-pau-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+    ],
+    tags: ["parent solo Pau 2026", "monoparental Pyrénées-Atlantiques", "T3 Pau budget", "écoles Pau parent seul", "famille monoparentale Nouvelle-Aquitaine"],
+  },
+  {
+    slug: "parent-solo-a-cherbourg-2026",
+    title: "Parent solo à Cherbourg-en-Cotentin en 2026 : 2 500 €, une commune nouvelle et une voiture",
+    metaTitle: "Parent solo à Cherbourg 2026 — T3 820 €, fit 5,7/10",
+    metaDesc:
+      "Fit 5,7/10, 157e sur 363. T3 à 820 €, m² à 1 900 €, transports 4,9/10 : le deuxième meilleur rapport écoles-loyer du batch, et pourquoi il faut une voiture.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-23",
+    updatedAt: "2026-08-23",
+    intro:
+      "Cherbourg-en-Cotentin sort à 5,7/10 au composite parent solo, 157e sur les 363 communes de plus de 20 000 habitants, soit un cran au-dessus de la médiane du classement fixée à 5,5/10. Le détail : coût de la vie 6,4/10, écoles 5,8/10, sécurité 5,3/10, transports 4,9/10 (source : data/cities-seed.ts). Le dernier chiffre est le point faible du dossier et il commande la suite. Le T3 moyen est à 820 € et le mètre carré à l'achat à 1 900 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 500 € par mois — le troisième seuil le plus bas du batch, derrière Béziers à 2 200 € et Saint-Pierre de La Réunion à 2 400 €. Un fait supplémentaire, absent des quatre axes, structure pourtant le dossier : la commune compte 78 028 habitants au recensement 2022 contre 81 690 en 2011, soit 3 662 habitants de moins en onze ans (source : data/city-population.json). C'est la seule ville de ce batch, avec Fort-de-France, à perdre de la population de façon continue.",
+    sections: [
+      {
+        heading: "141 € de loyer par point d'écoles : le deuxième meilleur ratio du batch",
+        body: "Un T3 à 820 € pour un score d'écoles de 5,8/10 donne 141 € de loyer par point, deuxième meilleur rapport des neuf villes de ce batch derrière Pau et ses 122 €, devant La Rochelle à 149 €. Le calcul est celui du palmarès mensuel du site appliqué à une ville : pour un même budget logement, la même somme achète ici plus d'offre scolaire qu'à Avignon, qu'à Mérignac ou qu'à Béziers. Portée exacte de la mesure, à répéter parce qu'elle se perd vite : l'axe écoles décrit l'offre communale — densité d'établissements, éventail de filières — et rien de plus. Ni la réussite des élèves, ni la qualité du travail des enseignants, ni un établissement en particulier. À quoi s'ajoute ici une nuance que la population décroissante impose : une carte scolaire qui se resserre allège la pression sur les places disponibles, ce qui est favorable, mais expose aussi aux regroupements et aux fermetures de classes, qui rallongent les trajets. Pour un foyer à un seul adulte, un trajet scolaire rallongé de dix minutes n'est pas un inconfort, c'est vingt minutes par jour retirées à autre chose.",
+      },
+      {
+        heading: "Une commune nouvelle : « habiter Cherbourg » ne veut pas dire un seul endroit",
+        body: "Cherbourg-en-Cotentin est née en 2016 de la fusion de cinq communes, et c'est le fait le plus mal compris de son dossier. Le score, le loyer moyen et la note de transport portent sur cet ensemble, qui couvre un territoire large, alors qu'un locataire signe pour une adresse précise dans l'une des anciennes communes. Les écarts sont réels et se lisent dans les données de quartier : le T2 va de 580 € du côté de Querqueville à 630 € au centre-ville, avec Tourlaville à 590 €, quand la moyenne communale s'établit à 620 € et le T1 à 450 €. Cinquante euros mensuels séparent les deux extrêmes, soit 600 € par an, mais ce n'est pas là que se joue l'essentiel — c'est sur la desserte. Le centre concentre les services et le réseau, les communes déléguées les plus éloignées offrent des loyers plus bas, davantage d'espace, et une dépendance à la voiture accrue. Rappel de méthode : ces montants de quartier relèvent d'un relevé distinct de la moyenne communale de 620 €, sur une échelle propre, et ne s'additionnent ni ne se moyennent avec elle. Ce qu'un parent solo doit en retirer : demander la commune déléguée avant de comparer deux annonces, parce que le mot « Cherbourg » recouvre des situations quotidiennes très différentes.",
+      },
+      {
+        heading: "Transports 4,9/10 : la voiture n'est pas négociable",
+        body: "C'est le point faible du dossier, à égalité avec Béziers dans ce batch et juste au-dessus des communes réunionnaises. Le score décrit un réseau de bus urbain sans mode lourd, sur un territoire étendu depuis la fusion. Pour un parent solo, la traduction est budgétaire avant d'être pratique : la voiture est une charge fixe, avec l'assurance, le carburant, l'entretien, et un risque concentré le jour de la panne. Ce coût doit être intégré avant de comparer le loyer cherbourgeois de 820 € à celui d'une ville mieux desservie — La Rochelle, dans ce même batch, affiche 1 100 € mais des transports à 7,0/10, et l'écart réel entre les deux se réduit sensiblement si la voiture disparaît d'un côté. Le point favorable, hors composite : la ville est le port du Cotentin, avec des liaisons transmanche et une desserte ferroviaire vers Paris. Pour un foyer à un adulte qui garde une attache familiale ailleurs, ce type de liaison compte davantage que le score interne, parce qu'il conditionne la possibilité de maintenir un relais — la ressource qui manque le plus quand personne ne peut prendre le relais sur place.",
+      },
+      {
+        heading: "Une population qui baisse, et un bassin d'emploi concentré",
+        body: "Les deux faits sont liés et ils méritent d'être posés sans dramatisation. Cherbourg-en-Cotentin perd 4,5 % de sa population entre 2011 et 2022, avec une baisse continue d'un recensement à l'autre : 81 690, puis 80 076, puis 78 028. Les conséquences pratiques pour un parent solo sont mécaniques et vont dans les deux sens. Côté favorable : un marché locatif moins tendu, donc davantage de choix et un rapport de force moins défavorable au locataire, ce que confirme un mètre carré à l'achat à 1 900 €, le deuxième plus bas du batch. Côté défavorable : une offre scolaire et périscolaire qui s'ajuste à la baisse, avec les regroupements évoqués plus haut. Le second fait est le bassin d'emploi. L'économie locale du Cotentin est structurée autour de quelques grands employeurs industriels et portuaires, ce qui produit des emplois qualifiés et stables mais concentre le risque : pour un foyer à deux revenus, une restructuration se compense ; pour un foyer à un seul revenu, elle se subit. Ce n'est pas un argument contre Cherbourg, c'est un argument pour ne pas y arriver sans emploi signé.",
+      },
+      {
+        heading: "Caen, Le Havre, Rouen : ce que change un cran de métropole",
+        body: "En Normandie, Cherbourg-en-Cotentin est 5e des 11 communes éligibles, à égalité de score avec Évreux et Le Havre à 5,7 — égalité qui n'est pas un départage, l'ordre y est celui des noms. Devant, Dieppe sort à 6,6 et Rouen à 6,0. Le comparateur le plus utile reste Caen, qui affiche 6,6 de fit avec un T3 à 930 € : 110 € de loyer mensuel supplémentaire pour un score d'écoles de 7,4/10 contre 5,8, des transports à 7,0/10 contre 4,9, et une sécurité à 5,9/10 contre 5,3. Sur les critères du composite, Caen bat Cherbourg de près d'un point pour 1 320 € de loyer annuel en plus — et surtout, avec un réseau qui rend le scénario sans voiture crédible, ce qui peut plus que compenser la différence. Le Havre, à 5,7 également, propose un T3 à 870 € avec une sécurité inférieure à 4,5/10. Le raisonnement à tenir est donc simple : si l'emploi est dans le Cotentin, la question ne se pose pas ; s'il ne l'est pas encore, Caen mérite d'être regardée d'abord, parce qu'elle règle le point faible de Cherbourg sans exploser le budget.",
+      },
+      {
+        heading: "Le verdict : pour qui Cherbourg-en-Cotentin fonctionne",
+        body: "Cherbourg-en-Cotentin fonctionne à partir de 2 500 € net par mois, pour un parent solo qui a un emploi signé dans le Cotentin, une voiture, et l'intention de rester assez longtemps pour envisager l'achat — le mètre carré à 1 900 € rend l'accession réellement accessible sur un seul revenu, ce que peu de villes de ce batch permettent. Le rapport écoles-loyer est le deuxième meilleur du lot et le marché locatif est détendu. Ce sont trois avantages concrets. Elle ne fonctionne pas sans voiture, et il ne faut pas espérer que le réseau compense : 4,9/10, c'est le niveau où l'enchaînement école-travail-courses casse. Elle ne fonctionne pas non plus comme pari d'installation avant d'avoir un emploi, parce que le bassin est concentré et qu'un seul revenu ne se diversifie pas. Le point à surveiller dans la durée est la trajectoire démographique : une commune qui perd 3 662 habitants en onze ans ajuste ses équipements, et les trajets scolaires s'allongent avant que les scores ne bougent. Le détail axe par axe est sur /villes/cherbourg/parent-solo.",
+      },
+    ],
+    relatedCities: ["cherbourg", "caen", "saint-lo", "le-havre", "rouen"],
+    relatedGuides: [
+      "vivre-a-cherbourg-2026",
+      "10-choses-a-faire-a-cherbourg-2026",
+      "parent-solo-a-caen-2026",
+      "parent-solo-a-le-havre-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+    ],
+    tags: ["parent solo Cherbourg 2026", "monoparental Manche", "T3 Cherbourg budget", "acheter Cotentin parent seul", "famille monoparentale Normandie"],
+  },
+  {
+    slug: "parent-solo-a-fort-de-france-2026",
+    title: "Parent solo à Fort-de-France en 2026 : la ville a perdu 11 588 habitants, et ça compte",
+    metaTitle: "Parent solo à Fort-de-France 2026 — T3 960 €, fit 4,5/10",
+    metaDesc:
+      "Fit 4,5/10, 304e sur 363. T3 à 960 €, coût de la vie 4,1/10, et 13 % de population en moins depuis 2011 : ce que ça change pour un foyer à un adulte.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-23",
+    updatedAt: "2026-08-23",
+    intro:
+      "Fort-de-France est la première commune martiniquaise de cette série, et son dossier est difficile : 4,5/10 au composite parent solo, 304e sur les 363 communes de plus de 20 000 habitants, un point sous la médiane du classement fixée à 5,5/10. Le détail : coût de la vie 4,1/10, transports 4,7/10, écoles 5,1/10, sécurité 4,2/10 (source : data/cities-seed.ts). Un seul axe approche la moyenne. Le T3 moyen est à 960 € et le mètre carré à l'achat à 2 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 750 € par mois. Mais le chiffre qui structure vraiment ce dossier n'est dans aucun des quatre axes : la commune est passée de 86 753 habitants en 2011 à 75 165 en 2022, soit 11 588 de moins en onze ans, une baisse de 13,4 % (source : data/city-population.json). C'est la plus forte contraction démographique de ce batch, et de loin la donnée la plus utile à un parent solo qui envisage de s'y installer.",
+    sections: [
+      {
+        heading: "Le dépeuplement, et pourquoi il concerne un parent solo plus qu'un autre",
+        body: "Une commune qui perd 13,4 % de ses habitants en onze ans, sans interruption d'un recensement à l'autre, ne perd pas ses habitants au hasard : les départs sont majoritairement le fait de jeunes actifs, et c'est un phénomène documenté à l'échelle des Antilles françaises. Pour un foyer à deux adultes, la conséquence est diffuse. Pour un parent solo, elle est directe et se nomme précisément : le réseau d'entraide de proximité — un frère, une cousine, une amie disponible un mercredi ou un soir de fièvre — est exactement la ressource que ces départs raréfient, et exactement celle qui remplace le second adulte absent. Aucun des quatre axes du composite ne la mesure, et elle pèse pourtant plus lourd qu'un demi-point de score. Les autres effets sont mécaniques : une offre scolaire qui s'ajuste à la baisse, avec regroupements et fermetures de classes, donc des trajets qui s'allongent ; et un marché locatif moins tendu, ce qui joue en faveur du locataire sur le choix et sur le rapport de force. Ces deux effets vont en sens contraire, et il faut les peser tous les deux plutôt que retenir celui qui arrange.",
+      },
+      {
+        heading: "Coût de la vie 4,1/10 : le loyer n'est pas le problème principal",
+        body: "Le revenu net minimum estimé par lib/parent-solo.ts est de 2 750 € par mois pour le T3 moyen à 960 €. Comme pour toutes les communes dont le score de coût est sous 5, le moteur applique la règle relâchée à 35 % du revenu plutôt que 33 % : le seuil affiché est déjà la version indulgente. Les autres références sont un T2 à 750 € et un T1 à 530 €, le mètre carré à l'achat à 2 500 €, ce qui situe un T3 de 65 mètres carrés autour de 162 500 € au prix moyen. Ces montants ne sont pas extravagants rapportés à la métropole : ils se situent entre Avignon et Cherbourg-en-Cotentin. Ce que le score de 4,1/10 décrit, ce n'est donc pas le logement mais le reste — l'alimentaire, l'équipement, tout ce qui traverse l'Atlantique avant d'arriver en rayon, dans une économie insulaire dépendante des importations. C'est le piège classique de la comparaison : un parent solo qui reconstruit son budget martiniquais à partir d'un loyer équivalent en métropole se trompe de plusieurs centaines d'euros par mois, systématiquement dans le même sens. Le poste courses est celui qu'il faut estimer sur place, ou faire estimer par quelqu'un qui y vit, avant de décider.",
+      },
+      {
+        heading: "Écoles 5,1 et sécurité 4,2 : la portée exacte des deux scores",
+        body: "Les deux axes pèsent ensemble la moitié du composite. L'axe écoles à 5,1/10 mesure l'offre communale — densité d'établissements, éventail de filières — et rien d'autre : ni la réussite des élèves, ni la qualité du travail des enseignants. Fort-de-France est le chef-lieu et concentre à ce titre des équipements de rang régional, ce qui explique une part de ce score. Ramené au loyer, cela donne 188 € de T3 par point d'écoles, sixième ratio du batch sur neuf, et un rapport moins favorable que celui du Lamentin voisin, à 180 €. La sécurité à 4,2/10 est une note communale calibrée sur les données publiques, à l'échelle de la commune entière. Elle ne dit rien d'un quartier, d'une rue ou des personnes qui y vivent, et ce guide n'en dira rien non plus : data/neighborhoods.ts ne documente que trois quartiers foyalais, sur une échelle propre aux quartiers qui ne se compare pas au score communal, et trois observations ne décrivent pas une ville de 75 000 habitants. Ce que ces montants indiquent en revanche, c'est un écart réel entre secteurs — le T2 va de 720 € à 850 € selon le quartier relevé, contre une moyenne communale de 750 €. Pour un parent solo, la conséquence pratique est la même partout : visiter aux heures réelles, faire le trajet scolaire à l'heure où il se fera, et ne rien conclure d'un tableau.",
+      },
+      {
+        heading: "Transports 4,7/10 et saison cyclonique : les deux contraintes de terrain",
+        body: "Le score de 4,7/10 place Fort-de-France au niveau des communes réunionnaises de ce batch, et pour la même raison de fond : pas de réseau ferroviaire de voyageurs, un réseau de bus et de transport collectif urbain qui ne couvre pas l'ensemble des trajets, un relief et une géographie de baie qui concentrent la circulation sur quelques axes. Pour un parent solo, la voiture redevient donc une charge fixe et non un arbitrage, avec l'assurance, le carburant, l'entretien et le risque de panne — un poste à intégrer au budget avant toute comparaison avec une ville métropolitaine. La seconde contrainte de terrain est la saison cyclonique, et elle appelle exactement la même préparation qu'à La Réunion : les fermetures d'établissements se décident la veille au soir, parfois le matin même, et un foyer à un seul adulte doit avoir identifié une solution de garde d'urgence avant d'en avoir besoin. Ce n'est pas une précaution théorique. C'est la différence entre une journée réorganisée et une journée de travail perdue, et sur un seul revenu, les journées perdues se comptent.",
+      },
+      {
+        heading: "La Martinique compte trois communes au classement, et elles se tiennent",
+        body: "Fort-de-France, Le Lamentin et Le Robert sont les trois communes martiniquaises de plus de 20 000 habitants présentes au classement. Elles sortent respectivement à 4,5, 4,5 et 4,2 — les deux premières à égalité stricte, départagées par ordre alphabétique et non par un écart mesuré. La conclusion à en tirer est la même que pour La Réunion, et elle vaut d'être répétée : à cette échelle, le classement ne départage rien, et un parent qui l'utiliserait pour choisir sa commune se tromperait d'outil. Ce qui départage réellement, c'est le lieu de l'emploi et la durée du trajet quotidien, deux paramètres absents de tous les scores et décisifs pour un foyer à un adulte. L'argument propre à Fort-de-France n'est donc pas son rang mais sa fonction : c'est le chef-lieu, il concentre l'administration, l'hôpital, les lycées et l'essentiel de l'emploi tertiaire de l'île, et sa culture est notée 6,9/10, la meilleure des trois, sa nature 7,5/10 derrière celle du Robert. L'argument contre est celui du dépeuplement décrit plus haut. Les deux sont vrais, et ils ne se compensent pas : ils s'additionnent dans des colonnes différentes.",
+      },
+      {
+        heading: "Le verdict : pour qui Fort-de-France fonctionne",
+        body: "Fort-de-France fonctionne à partir de 2 750 € net par mois, pour un parent solo qui a déjà un emploi sur l'île, une voiture, et surtout un réseau local constitué — famille, amis, collègues sur place. Cette troisième condition n'est pas une recommandation de confort : c'est celle qui remplace le second adulte, et c'est précisément celle que la trajectoire démographique de la commune rend plus difficile à trouver qu'il y a dix ans. Un retour au pays avec un réseau intact et un emploi signé est une situation solide ; une installation à l'aveugle depuis la métropole en est une autre, et ce guide ne les mettra pas sur le même plan. Elle ne fonctionne pas pour qui compte tenir sans voiture, ni pour qui construit son budget à partir de repères métropolitains, ni pour qui met l'offre scolaire en tête — 188 € de loyer par point d'écoles est un rapport médiocre. Ce que la ville offre en propre et que ce classement ne mesure pas : une nature à 7,5/10, une vie culturelle à 6,9/10, et le fait d'être chez soi. Ce sont des raisons légitimes. Elles ne remplacent pas les quatre axes, elles s'ajoutent à côté. Le détail axe par axe est sur /villes/fort-de-france/parent-solo.",
+      },
+    ],
+    relatedCities: ["fort-de-france", "le-lamentin", "le-robert", "pointe-a-pitre", "les-abymes"],
+    relatedGuides: [
+      "parent-solo-a-saint-denis-reunion-2026",
+      "10-choses-a-faire-a-fort-de-france-2026",
+      "vivre-en-outre-mer-guide-2026",
+      "acheter-immobilier-outre-mer-drom-france-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+    ],
+    tags: ["parent solo Fort-de-France 2026", "monoparental Martinique", "T3 Fort-de-France budget", "vie chère outre-mer parent seul", "famille monoparentale DROM"],
+  },
+  {
+    slug: "parent-solo-a-merignac-2026",
+    title: "Parent solo à Mérignac en 2026 : le prix de Bordeaux sans les écoles de Bordeaux",
+    metaTitle: "Parent solo à Mérignac 2026 — T3 1 080 €, fit 5,3/10",
+    metaDesc:
+      "Fit 5,3/10, 222e sur 363. T3 à 1 080 €, écoles 5,5/10 quand Pessac fait 6,6 au même loyer : l'arbitrage chiffré dans la métropole bordelaise.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-08-23",
+    updatedAt: "2026-08-23",
+    intro:
+      "Mérignac est le cas « banlieue de métropole » de ce batch, et son dossier se résume en une phrase : on y paie le prix de l'agglomération bordelaise sans en obtenir l'offre scolaire. Au composite parent solo, la ville sort à 5,3/10, 222e sur les 363 communes de plus de 20 000 habitants, sous la médiane du classement fixée à 5,5/10. Le détail : transports 7,7/10 — le meilleur score du batch — écoles 5,5/10, sécurité 4,7/10, coût de la vie 4,0/10, l'avant-dernier du lot (source : data/cities-seed.ts). Le T3 moyen est à 1 080 € et le mètre carré à l'achat à 3 800 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 100 € par mois. La commune compte 77 136 habitants au recensement 2022 contre 65 882 en 2011, soit 11 254 de plus en onze ans et une croissance de 17,1 %, la plus forte de ce batch (source : data/city-population.json). Voici l'arbitrage, chiffré, entre les communes de la métropole.",
+    sections: [
+      {
+        heading: "Le calcul que personne ne fait : Mérignac contre Pessac contre Bordeaux",
+        body: "Trois communes limitrophes, trois dossiers, un même bassin d'emploi et un même réseau de tramway. Mérignac affiche un T3 à 1 080 € pour un score d'écoles de 5,5/10 et un fit de 5,3. Pessac affiche un T3 à 1 080 € également — au même euro — pour un score d'écoles de 6,6/10 et un fit de 5,6. À loyer strictement identique, Pessac apporte 1,1 point d'offre scolaire supplémentaire et un meilleur composite. Bordeaux, enfin, affiche un T3 à 1 200 € pour des écoles à 7,4/10 et un fit de 6,0 : 120 € de loyer mensuel de plus que Mérignac, soit 1 440 € par an, pour 1,9 point d'écoles en plus et une sécurité à 5,1/10 contre 4,7. Talence complète le tableau à 5,9 de fit, avec un T3 à 1 150 € et des écoles à 7,7/10. Le constat est net et il ne demande aucune interprétation : sur les critères précis du profil parent solo, Mérignac est le moins bon arbitrage des quatre communes, et l'écart ne se paie pas en loyer mais en offre scolaire. Ramené au ratio du palmarès mensuel, cela donne 196 € de T3 par point d'écoles, avant-dernier des neuf villes de ce batch, contre 122 € à Pau.",
+      },
+      {
+        heading: "Transports 7,7/10 : le meilleur score du batch, et ce qu'il vaut",
+        body: "C'est le vrai atout du dossier et il est considérable pour ce profil. Avec 7,7/10, Mérignac devance La Rochelle à 7,0 et laisse loin derrière Cherbourg-en-Cotentin et Béziers à 4,9, sans parler des communes ultramarines de ce batch. La commune est desservie par le tramway métropolitain, ce qui change la nature du calcul : c'est le seul axe du composite capable de retirer une ligne entière du budget. Pour un parent solo, une ville où l'enchaînement école, travail, courses tient sans voiture supprime l'assurance, le carburant, l'entretien et le risque de panne — soit un poste qui, une fois chiffré, réduit sensiblement l'écart avec des villes au loyer plus bas mais sans alternative à la voiture. C'est l'argument qui sauve le dossier mérignacais : à 1 080 € de loyer sans voiture, le budget total peut se comparer favorablement à 820 € de loyer avec voiture à Cherbourg. Ce calcul demande d'être fait sur ses propres adresses et à l'heure réelle, école puis travail : l'affectation au collège ou au lycée dicte souvent le trajet plus sûrement que le plan du réseau, et un tramway qui passe à 700 mètres de chez soi n'est pas le même service qu'un tramway au pied de l'immeuble.",
+      },
+      {
+        heading: "Le budget : 3 100 € net, et un marché à 3 800 € le mètre carré",
+        body: "Le revenu net minimum estimé par lib/parent-solo.ts est de 3 100 € par mois. Le score de coût de la vie mérignacais étant à 4,0, donc sous 5, le moteur applique la règle relâchée à 35 % du revenu plutôt que 33 % : le seuil affiché est déjà la version indulgente, celle qui suppose un bailleur acceptant un tiers et demi du revenu. C'est le deuxième seuil le plus élevé de ce batch, derrière La Rochelle à 3 150 €. Les autres références sont un T2 à 800 € et un T1 à 580 €, le mètre carré à l'achat à 3 800 €, ce qui situe un T3 de 65 mètres carrés autour de 247 000 € au prix moyen. Sur les deux quartiers documentés dans data/neighborhoods.ts, le T2 va de 760 € à Arlac à 850 € au centre de Mérignac ; ces montants relèvent d'un relevé distinct de la moyenne communale de 800 € et ne s'additionnent ni ne se moyennent avec elle. Le point à retenir sur l'achat : à 3 800 € le mètre carré, l'accession sur un seul revenu suppose un apport et une capacité d'emprunt que le seuil locatif de 3 100 € ne garantit pas. La sortie du statut de locataire, qui est ce qui met le logement à l'abri d'une décision de bailleur, reste ici difficile.",
+      },
+      {
+        heading: "Une commune qui gagne 11 254 habitants en onze ans",
+        body: "C'est la plus forte croissance démographique du batch : 17,1 % entre 2011 et 2022, contre 13,1 % à Béziers et une baisse de 13,4 % à Fort-de-France. Cette dynamique a deux effets pratiques opposés pour un parent solo, et il faut les tenir ensemble. Côté défavorable : la demande scolaire progresse mécaniquement, et les dispositifs qui comptent le plus pour un foyer à un adulte — périscolaire, restauration, accueil du mercredi, dérogations — sont exactement ceux qui saturent quand la population monte plus vite que les équipements. La conséquence opérationnelle est simple : ces places se demandent tôt, dès que l'adresse est connue, et pas à la rentrée. Côté favorable : une commune qui gagne des habitants construit, et une part de l'offre de logement est récente, donc mieux isolée et moins coûteuse à chauffer — un poste qui compte sur un budget contraint. Le score de nature à 4,3/10, le plus bas des neuf villes de ce batch, est l'autre face de cette croissance : c'est une commune dense d'agglomération, pas une banlieue verte, et l'espace extérieur du logement se vérifie avant de signer plutôt qu'il ne se suppose.",
+      },
+      {
+        heading: "Le bruit aérien, un critère qui ne figure dans aucun score",
+        body: "L'aéroport de Bordeaux se trouve sur le territoire de Mérignac, et l'exposition au bruit aérien varie fortement d'un secteur à l'autre de la commune. Aucun des quatre axes du composite ne mesure ce paramètre, et il serait malhonnête de laisser croire que le score de 5,3/10 en tient compte. Pour un parent solo, l'enjeu n'est pas le confort d'un dimanche après-midi : c'est le sommeil, le sien et celui des enfants, dans un foyer où personne ne peut prendre le relais d'une nuit hachée. C'est donc un critère de sélection du logement au même titre que le loyer, et il se vérifie de la même manière — sur place, aux heures réelles, en demandant l'exposition du secteur. Le site traite ce sujet dans un guide dédié aux villes concernées par le bruit aérien, et c'est le complément naturel de cette page. Deuxième point hors composite, plus favorable celui-là : la présence sur la commune d'un tissu industriel et aéronautique d'employeurs importants, qui explique une part de l'attractivité résidentielle et de la croissance décrite plus haut. Pour un foyer à un seul revenu, un bassin d'emploi diversifié à l'échelle métropolitaine est une garantie que Cherbourg-en-Cotentin, dans ce même batch, n'offre pas.",
+      },
+      {
+        heading: "Le verdict : pour qui Mérignac fonctionne",
+        body: "Mérignac fonctionne à partir de 3 100 € net par mois, pour un parent solo dont l'emploi est sur la commune ou sur la ligne de tramway, et qui peut réellement se passer de voiture. Les deux conditions ensemble : c'est le seul scénario où le dossier mérignacais bat ses voisins, parce qu'il transforme le meilleur score de transport du batch en économie mensuelle réelle. Il fonctionne aussi pour qui vise un bassin d'emploi profond, ce que la métropole bordelaise offre et que la plupart des villes de ce batch n'offrent pas. Il ne fonctionne pas pour qui met l'offre scolaire en tête : Pessac fait mieux au même loyer, Bordeaux fait nettement mieux pour 120 € de plus, et le dire est plus utile que de défendre un rang. Il ne fonctionne pas non plus pour qui compte sur la nature au pied de l'immeuble, notée 4,3/10, la plus basse du batch. Le résumé honnête : Mérignac est une adresse rationnelle pour qui y travaille, et un mauvais choix par défaut pour qui cherche une commune de la métropole bordelaise sans autre contrainte. Le détail axe par axe est sur /villes/merignac/parent-solo.",
+      },
+    ],
+    relatedCities: ["merignac", "bordeaux", "pessac", "talence", "saint-medard-en-jalles"],
+    relatedGuides: [
+      "parent-solo-a-bordeaux-2026",
+      "10-choses-a-faire-a-merignac-2026",
+      "vivre-pres-aeroport-france-bruit-aerien-2026",
+      "travail-a-bordeaux-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+    ],
+    tags: ["parent solo Mérignac 2026", "monoparental Gironde", "T3 Mérignac budget", "banlieue Bordeaux parent seul", "famille monoparentale Nouvelle-Aquitaine"],
+  },
+  {
     slug: "10-choses-a-faire-au-lamentin-2026",
     title: "10 choses à faire au Lamentin (Martinique)",
     metaTitle: "10 choses à faire au Lamentin (Martinique) 2026",
