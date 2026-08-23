@@ -307,7 +307,13 @@ export default async function TransportsPage({ params }: Props) {
             href="/classements/mobilite"
             className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
           >
-            Classement sans voiture 🚲
+            Classement mobilité 🚊
+          </Link>
+          <Link
+            href="/classements/sans-voiture"
+            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+          >
+            Villes où vivre sans voiture 🚲
           </Link>
           <Link
             href="/villes"

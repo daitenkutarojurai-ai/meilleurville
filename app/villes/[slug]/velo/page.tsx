@@ -231,8 +231,17 @@ export default async function VeloPage({ params }: Props) {
           </Link>
         </div>
 
-        <div className="mt-8 text-sm">
-          <Link href="/cadre-de-vie" className="text-[var(--accent)] hover:underline">
+        <div className="mt-8 space-y-3 text-sm">
+          <p className="text-[var(--text-secondary)]">
+            Le vélo ne suffit pas seul à se passer de voiture : il faut aussi un réseau lourd
+            qui prenne le relais sous la pluie et hors saison. Le classement des{" "}
+            <Link href="/classements/sans-voiture" className="text-[var(--accent)] hover:underline">
+              villes françaises où vivre sans permis
+            </Link>{" "}
+            croise les deux, et écarte les communes trop petites pour porter autre chose
+            qu&apos;une offre TER intermittente.
+          </p>
+          <Link href="/cadre-de-vie" className="block text-[var(--accent)] hover:underline">
             → Index Cadre de Vie national (env + santé + emploi)
           </Link>
         </div>

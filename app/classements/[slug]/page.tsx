@@ -361,6 +361,32 @@ export default async function RankingPage({ params }: Props) {
             </div>
           </Card>
 
+          {/* Voisin de barème — les deux classements mobilité mesurent l'offre
+              de déplacement ; celui de la vie sans voiture y ajoute la pénalité
+              des petites communes et publie ses ex æquo à égalité. */}
+          {(slug === "mobilite" || slug === "cyclistes") && (
+            <div>
+              <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-3">
+                Classement voisin
+              </p>
+              <Link
+                href="/classements/sans-voiture"
+                className="flex items-start gap-3 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 p-3 transition-colors group"
+              >
+                <span className="text-xl flex-shrink-0">🚲</span>
+                <div className="min-w-0">
+                  <p className="text-xs font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug">
+                    Se passer de voiture au quotidien
+                  </p>
+                  <p className="text-xs text-[var(--text-tertiary)] mt-0.5">
+                    Même matière, autre question : non pas quelle ville se déplace le mieux,
+                    mais laquelle rend le permis facultatif.
+                  </p>
+                </div>
+              </Link>
+            </div>
+          )}
+
           {/* Related guides */}
           {relatedGuides.length > 0 && (
             <div>

@@ -177,6 +177,37 @@ export default async function ProfilePage({ params }: Props) {
           </section>
         )}
 
+        {/* Car-free counterpart — visible for the profiles whose weighting puts
+            mobility ahead of surface area (no licence, urban cyclists, students,
+            fresh graduates). Positive companion, not a red flag: it names the
+            cities where the network makes the licence optional. */}
+        {["sans-voiture", "cyclistes-urbains", "etudiants", "jeunes-diplomes"].includes(profile.slug) && (
+          <section>
+            <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+              Le classement complémentaire — vivre sans permis
+            </h3>
+            <Link href="/classements/sans-voiture" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl" aria-hidden>🚲</span>
+                  <div>
+                    <p className="font-semibold text-[var(--text-primary)]">
+                      Les villes françaises où le réseau rend la voiture facultative
+                    </p>
+                    <p className="text-xs text-[var(--text-secondary)] mt-1">
+                      Le top ci-dessus pondère plusieurs axes à la fois ; celui-ci ne regarde
+                      que la mobilité quotidienne — tram, métro, RER, densité piétonne — et
+                      pénalise les communes trop petites pour porter autre chose qu&apos;une
+                      offre TER intermittente. Les villes en tête y sont données à égalité
+                      plutôt que numérotées, parce que le score ne les départage pas.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+          </section>
+        )}
+
         {/* Heating counterpart — visible for profiles whose budget is most
             exposed to a winter heating bill (fixed pension, single income,
             rural neo-installés, primo-accédants qui découvrent la facture
