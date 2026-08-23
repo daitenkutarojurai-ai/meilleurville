@@ -69,7 +69,13 @@ function TypingDots() {
   );
 }
 
-export function CopilotClient({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
+// `citiesCount` arrive en prop plutôt que par un import de `@/lib/site-stats` :
+// ce module lit `GUIDES` et `TAG_SLUGS`, et l'importer ici expédierait le corpus
+// entier dans le bundle client (cf. CLAUDE.md § Performance constraints).
+export function CopilotClient({
+  locale = "fr",
+  citiesCount,
+}: { locale?: "fr" | "en"; citiesCount: number }) {
   const t = (fr: string, en: string) => (locale === "en" ? en : fr);
   const STARTERS = locale === "en" ? STARTERS_EN : STARTERS_FR;
 
@@ -77,8 +83,8 @@ export function CopilotClient({ locale = "fr" }: { locale?: "fr" | "en" } = {}) 
     {
       role: "assistant",
       content: t(
-        "Bonjour ! Je suis le Copilote Déménagement — je connais les 352 villes françaises, leurs loyers, scores de qualité de vie, fiscalité et transports.\n\nDites-moi votre situation (ville actuelle, budget, profil, priorités) et je vous propose les meilleures options. Que puis-je faire pour vous ?",
-        "Hi! I'm the Relocation Copilot — I know all 352 French cities, their rents, quality-of-life scores, taxes and transport.\n\nTell me about your situation (current city, budget, profile, priorities) and I'll suggest the best options. How can I help?"
+        `Bonjour ! Je suis le Copilote Déménagement — je connais les ${citiesCount} villes françaises, leurs loyers, scores de qualité de vie, fiscalité et transports.\n\nDites-moi votre situation (ville actuelle, budget, profil, priorités) et je vous propose les meilleures options. Que puis-je faire pour vous ?`,
+        `Hi! I'm the Relocation Copilot — I know all ${citiesCount} French cities, their rents, quality-of-life scores, taxes and transport.\n\nTell me about your situation (current city, budget, profile, priorities) and I'll suggest the best options. How can I help?`
       ),
     },
   ]);
@@ -158,7 +164,7 @@ export function CopilotClient({ locale = "fr" }: { locale?: "fr" | "en" } = {}) 
             {t("Copilote Déménagement", "Relocation Copilot")}
           </p>
           <p className="text-[10px] text-[var(--text-tertiary)] uppercase tracking-widest">
-            {t("352 villes · données 2026", "352 cities · 2026 data")}
+            {t(`${citiesCount} villes · données 2026`, `${citiesCount} cities · 2026 data`)}
           </p>
         </div>
         <div className="ml-auto flex gap-2">

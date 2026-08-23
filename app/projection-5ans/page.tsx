@@ -7,6 +7,7 @@ import { ProjectionClient } from "./ProjectionClient";
 import { CITIES_LIGHT } from "@/lib/cities-light";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternates } from "@/lib/i18n";
+import { CITIES_COUNT } from "@/lib/site-stats";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Projection 5 ans — votre vie idéale dans 5 ans",
     description:
-      "352 villes analysées selon votre trajectoire : famille, carrière, budget et risque climatique 2040.",
+      `${CITIES_COUNT} villes analysées selon votre trajectoire : famille, carrière, budget et risque climatique 2040.`,
   },
 };
 

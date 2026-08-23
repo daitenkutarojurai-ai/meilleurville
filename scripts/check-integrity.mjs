@@ -328,6 +328,89 @@ if (!failed) {
   }
 }
 
+// ---------------------------------------------------------------------------
+// Redirections de guides EN retirés : `worker/index.ts` (RETIRED_EN_GUIDES) et
+// `public/_redirects` doivent dire la même chose, et viser un guide qui existe.
+//
+// Une redirection vers un slug supprimé est un 301 vers un 404 — pire que le
+// 404 qu'elle remplace. Rien ne l'attrape autrement : ce sont deux chaînes dans
+// deux fichiers qu'aucun type ne relie au corpus.
+{
+  const workerPath = path.join(ROOT, "worker/index.ts");
+  const redirectsPath = path.join(ROOT, "public/_redirects");
+  if (existsSync(workerPath) && existsSync(redirectsPath)) {
+    const problems = [];
+    const enSlugs = new Set(load("data/guides-en.ts").EN_GUIDES.map((g) => g.slug));
+
+    const block = readFileSync(workerPath, "utf8").match(
+      /const RETIRED_EN_GUIDES[^{]*\{([\s\S]*?)\n\};/,
+    );
+    const workerMap = new Map();
+    for (const [, from, to] of (block?.[1] ?? "").matchAll(
+      /"([^"]+)":\s*"([^"]+)"/g,
+    )) workerMap.set(from, to);
+
+    const fileMap = new Map();
+    for (const line of readFileSync(redirectsPath, "utf8").split("\n")) {
+      const m = line.trim().match(/^\/guides\/(\S+)\s+\/guides\/(\S+)\s+301$/);
+      if (m && !enSlugs.has(m[1])) fileMap.set(m[1], m[2]);
+    }
+
+    for (const [from, to] of workerMap) {
+      if (enSlugs.has(from)) problems.push(`worker : « ${from} » redirige alors que le guide existe`);
+      if (!enSlugs.has(to)) problems.push(`worker : « ${from} » vise « ${to} », absent d'EN_GUIDES`);
+      if (fileMap.get(from) !== to) problems.push(`worker : « ${from} » absent de _redirects ou avec une autre cible`);
+    }
+    for (const [from, to] of fileMap) {
+      if (!enSlugs.has(to)) continue; // règle FR : cible hors corpus EN, hors sujet ici
+      if (workerMap.get(from) !== to) problems.push(`_redirects : « ${from} » absent de RETIRED_EN_GUIDES (il ne partirait pas sur le domaine EN)`);
+    }
+
+    if (problems.length === 0) {
+      console.log(`  ok  301 EN     ${workerMap.size} guides retirés, cibles vivantes`);
+    } else {
+      failed = true;
+      console.error(`\n  ÉCHEC  redirections de guides EN : ${problems.length} anomalie(s)\n`);
+      for (const p of problems.slice(0, 20)) console.error(`    ${p}`);
+      console.error("");
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// GLOSSARY_TERMS_COUNT (lib/site-stats.ts) vs la page qu'il prétend compter.
+//
+// Le glossaire est écrit en dur dans app/glossaire/page.tsx, donc le compte
+// affiché sur /outils, /recherche, la carte OG et StaticPageCrossLink est un
+// littéral qu'il faut penser à bouger. Personne n'y a pensé : il est resté à 33
+// pendant que la page montait à 142 termes (audit 2026-08-23). `tsc` type un
+// nombre, il ne le compte pas — d'où ce contrôle, qui coûte deux lectures de
+// fichier. Même esprit que search-index:check : la donnée dérivée doit échouer
+// bruyamment quand sa source bouge, plutôt que mentir en silence.
+{
+  const glossaryPath = path.join(ROOT, "app/glossaire/page.tsx");
+  const statsPath = path.join(ROOT, "lib/site-stats.ts");
+  if (existsSync(glossaryPath) && existsSync(statsPath)) {
+    const real = (readFileSync(glossaryPath, "utf8").match(/^\s*term: "/gm) ?? []).length;
+    const m = readFileSync(statsPath, "utf8").match(/GLOSSARY_TERMS_COUNT\s*=\s*(\d+)/);
+    const declared = m ? Number(m[1]) : null;
+    if (declared === null) {
+      failed = true;
+      console.error("\n  ÉCHEC  lib/site-stats.ts : GLOSSARY_TERMS_COUNT introuvable\n");
+    } else if (declared !== real) {
+      failed = true;
+      console.error(
+        `\n  ÉCHEC  glossaire : app/glossaire/page.tsx contient ${real} termes, ` +
+          `lib/site-stats.ts en déclare ${declared}.\n` +
+          `    Mettre GLOSSARY_TERMS_COUNT à ${real} — le nombre est affiché sur /outils,\n` +
+          `    /recherche, la carte OG du glossaire et StaticPageCrossLink.\n`,
+      );
+    } else {
+      console.log(`  ok  glossaire  ${real} termes`);
+    }
+  }
+}
+
 if (failed) {
   console.error("Intégrité des données : au moins un contrôle a échoué.");
   console.error("Le build échouerait au même endroit.");

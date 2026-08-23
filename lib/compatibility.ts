@@ -1,6 +1,6 @@
 // F2 — City Compatibility Score.
 //
-// 10 questions → weighted matching across the 352 cities, returning Top 5
+// 10 questions → weighted matching across every seed city, returning Top 5
 // with a 0-100 score and a per-criterion breakdown explaining why each city
 // matched (or didn't).
 //

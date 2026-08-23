@@ -9,6 +9,7 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternatesEn } from "@/lib/i18n";
 import type { VibeTone } from "@/lib/vibe";
 import type { CitySeed } from "@/data/cities-seed";
+import { CITIES_COUNT } from "@/lib/site-stats";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -19,7 +20,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: "City Vibe Map France — energy & atmosphere by city",
   description:
-    "Which energy does each French city give off? Calm, lively, festive, restorative, intense — 352 cities ranked by atmosphere. Deterministic estimates, not real-time data.",
+    `Which energy does each French city give off? Calm, lively, festive, restorative, intense — ${CITIES_COUNT} cities ranked by atmosphere. Deterministic estimates, not real-time data.`,
   alternates: pathAlternatesEn("/vibe", "/vibe"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
@@ -71,7 +72,7 @@ export default function EnVibePage() {
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: "French cities by vibe",
-    description: "352 French cities grouped by atmosphere: calm, lively, festive, restorative, intense.",
+    description: `${CITIES_COUNT} French cities grouped by atmosphere: calm, lively, festive, restorative, intense.`,
     numberOfItems: CITIES_SEED.length,
     itemListElement: TONES.map((tone, i) => {
       const meta = VIBE_META[tone];

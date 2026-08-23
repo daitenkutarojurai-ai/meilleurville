@@ -265,7 +265,7 @@ export function ProjectionClient({
           </button>
         </div>
         <p className="text-xs text-[var(--text-tertiary)]">
-          {t("Aucun email. Lien partageable. 352 villes analysées.", "No email. Shareable link. 352 cities analysed.")}
+          {t(`Aucun email. Lien partageable. ${cities.length} villes analysées.`, `No email. Shareable link. ${cities.length} cities analysed.`)}
         </p>
       </div>
     );

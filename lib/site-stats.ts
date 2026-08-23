@@ -25,6 +25,13 @@ export const DEPARTMENTS_COUNT = new Set(
 export const TAGS_COUNT = TAG_SLUGS.length;
 
 // The glossary is hardcoded in app/glossaire/page.tsx — kept as a literal here
-// because there is no programmatic data source for it yet. Update this constant
-// when terms are added there.
-export const GLOSSARY_TERMS_COUNT = 33;
+// because there is no programmatic data source for it yet.
+//
+// ⚠️ Ce littéral a dérivé en silence : il est resté à 33 pendant que la page
+// montait à 142 termes (audit 2026-08-23), et il est affiché tel quel sur
+// /outils, /recherche, la carte OG du glossaire et `StaticPageCrossLink` — le
+// site annonçait donc quatre fois moins de termes qu'il n'en publie. Rien ne
+// pouvait le voir : `tsc` type un nombre, il ne le compte pas.
+// `npm run integrity` recompte désormais les `term: "` de la page et échoue si
+// les deux divergent. Ajouter un terme = mettre ce nombre à jour.
+export const GLOSSARY_TERMS_COUNT = 142;

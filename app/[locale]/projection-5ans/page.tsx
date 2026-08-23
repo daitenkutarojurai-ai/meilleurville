@@ -7,6 +7,7 @@ import { ProjectionClient } from "@/app/projection-5ans/ProjectionClient";
 import { CITIES_LIGHT } from "@/lib/cities-light";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternatesEn } from "@/lib/i18n";
+import { CITIES_COUNT } from "@/lib/site-stats";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
     images: ["/opengraph-image"],
     title: "5-Year City Projection · BestCitiesInFrance",
-    description: "352 French cities scored against your 5-year trajectory: family, career, budget and climate risk 2040.",
+    description: `${CITIES_COUNT} French cities scored against your 5-year trajectory: family, career, budget and climate risk 2040.`,
   },
 };
 
@@ -37,7 +38,7 @@ export default function EnProjection5AnsPage() {
   const faq = faqJsonLd([
     {
       q: "How does the 5-year city projection work?",
-      a: "You describe your anticipated life trajectory in 5 years (household, income, remote work %, climate priority) and the tool scores all 352 French cities against that future profile — not your current one.",
+      a: `You describe your anticipated life trajectory in 5 years (household, income, remote work %, climate priority) and the tool scores all ${CITIES_COUNT} French cities against that future profile — not your current one.`,
     },
     {
       q: "Does it account for climate change?",
@@ -63,7 +64,7 @@ export default function EnProjection5AnsPage() {
           </h1>
           <p className="max-w-2xl text-[var(--text-secondary)]">
             Family, retirement, remote work, changing budget — and a 2040 climate
-            that reshuffles the rankings. Score 352 French cities against who you
+            that reshuffles the rankings. Score {CITIES_COUNT} French cities against who you
             will be in 5 years, not who you are today.
           </p>
         </div>

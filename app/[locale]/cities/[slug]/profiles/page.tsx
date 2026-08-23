@@ -9,6 +9,7 @@ import { computeNicheScores } from "@/lib/niche-scores";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { formatScore, scoreColor } from "@/lib/utils";
 import { cityAlternatesEn } from "@/lib/i18n";
+import { CITIES_COUNT } from "@/lib/site-stats";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -344,7 +345,7 @@ export default async function CityProfilesENPage({ params }: Props) {
           scores are weighted linear combinations of the 8 quality-of-life axes (life, transport,
           nature, cost, safety, culture, remote work, schools), adjusted for city size, geography
           (coast, mountain, valley, plain) and characteristic tags. Same source, same rules for
-          all 352 cities — no city-specific coefficient tuning.
+          all {CITIES_COUNT} cities — no city-specific coefficient tuning.
         </div>
 
         <div className="text-center">

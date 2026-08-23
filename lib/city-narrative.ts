@@ -283,7 +283,7 @@ function buildIntro(city: CitySeed, locale: Locale): string {
     const popPart = city.population
       ? `${city.population.toLocaleString("en-US")} inhabitants`
       : "a French city";
-    return `${city.name} (${city.department}, ${city.region}) ${tierEn}. With its ${popPart}, it is often described as ${tagsPart}. Overall score ${g.toFixed(1)}/10, calibrated across 352 cities.`;
+    return `${city.name} (${city.department}, ${city.region}) ${tierEn}. With its ${popPart}, it is often described as ${tagsPart}. Overall score ${g.toFixed(1)}/10, calibrated across every city we cover.`;
   }
 
   const tier =
@@ -296,7 +296,10 @@ function buildIntro(city: CitySeed, locale: Locale): string {
   const popPart = city.population
     ? `${city.population.toLocaleString("fr-FR")} habitants`
     : "ville française";
-  return `${city.name} (${city.department}, ${city.region}) ${tier}. Avec ses ${popPart}, on la décrit souvent comme ${tagsPart}. Score global ${g.toFixed(1)}/10, calibré sur 352 villes.`;
+  // Pas de compte de villes en dur ici : ce module est atteint par le composant
+  // client `CityProfile`, donc importer `@/lib/site-stats` (qui lit `GUIDES`)
+  // expédierait le corpus dans le bundle. Une formule sans nombre ne périme pas.
+  return `${city.name} (${city.department}, ${city.region}) ${tier}. Avec ses ${popPart}, on la décrit souvent comme ${tagsPart}. Score global ${g.toFixed(1)}/10, calibré sur l'ensemble des villes du site.`;
 }
 
 const NARRATIVE_CACHE = new Map<string, CityNarrative>();

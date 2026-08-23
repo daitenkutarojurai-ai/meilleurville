@@ -816,6 +816,51 @@ function frPathToEn(pathname: string): string | null {
   return `${FR_ORIGIN}${pathname}`;
 }
 
+/**
+ * Guides EN retirés lors des dédoublonnages du 2026-06-04 → leur canonique.
+ *
+ * Ces 301 existaient déjà dans `public/_redirects`, et **ne pouvaient pas
+ * partir sur le domaine anglais** (trouvé à l'audit du 2026-08-23). Sur
+ * bestcitiesinfrance.com le Worker réécrit `/guides/<slug>` en
+ * `/en/guides/<slug>` *avant* de passer la main aux assets statiques : la règle
+ * `_redirects`, écrite sur `/guides/<slug>`, ne rencontre jamais ce chemin. Les
+ * URL visées étaient pourtant des URL **anglaises**, indexées sur le domaine
+ * anglais — elles y répondaient donc 404, c'est-à-dire exactement ce que ces
+ * redirections devaient éviter. (Côté FR, la même règle part mais vers un slug
+ * anglais absent du corpus français : un 301 vers un 404.)
+ *
+ * On les traite donc ici, sur le domaine EN, vers l'URL propre — pas vers
+ * `/en/guides/…`, qui est l'arbre d'assets interne et n'a pas à être exposé.
+ * Toutes les sources listées sont des slugs supprimés : aucune ne sert
+ * aujourd'hui une page, donc la règle ne peut pas masquer un contenu vivant.
+ * En ajouter une = ajouter la ligne ici **et** dans `public/_redirects`.
+ */
+const RETIRED_EN_GUIDES: Record<string, string> = {
+  "france-healthcare-how-it-works-for-expats-2026": "france-healthcare-guide-expats-2026",
+  "france-healthcare-system-expat-guide-2026": "france-healthcare-guide-expats-2026",
+  "french-healthcare-system-guide-expat-2026": "france-healthcare-guide-expats-2026",
+  "healthcare-france-expats-practical-guide-2026": "france-healthcare-guide-expats-2026",
+  "healthcare-in-france-newcomers-2026": "france-healthcare-guide-expats-2026",
+  "france-banking-for-expats-guide-2026": "france-banking-guide-expats-2026",
+  "french-driving-licence-guide-2026": "france-driving-licence-guide-expats-2026",
+  "paying-taxes-in-france-expat-guide-2026": "french-income-tax-expats-2026",
+  "france-social-security-expat-guide-2026": "french-social-security-expats-guide-2026",
+  "best-french-cities-families-2026": "best-french-cities-for-families-2026",
+  "best-french-cities-remote-work-2026": "best-french-cities-remote-workers-2026",
+  "digital-nomads-best-cities-france-2026": "france-for-digital-nomads-2026",
+  "best-french-cities-digital-nomads-updated-2026": "france-for-digital-nomads-2026",
+  "moving-to-france-with-pets-2026": "moving-pets-to-france-complete-guide-2026",
+  "french-property-purchase-guide-for-expats-2026": "buying-property-in-france-expat-guide-2026",
+};
+
+/** `/guides/<slug retiré>` sur le domaine EN → l'URL EN canonique, ou null. */
+function retiredEnGuideTarget(pathname: string): string | null {
+  const parts = pathname.replace(/\/+$/, "").split("/").filter(Boolean);
+  if (parts.length !== 2 || parts[0] !== "guides") return null;
+  const target = RETIRED_EN_GUIDES[parts[1]];
+  return target ? `${EN_ORIGIN}/guides/${target}` : null;
+}
+
 // ---- entrypoint -----------------------------------------------------------
 
 export default {
@@ -850,6 +895,13 @@ export default {
       // a corrigé le fond — mais en 404, ce qui jette l'historique de ces URL.
       // On les redirige vers leur équivalent anglais quand il existe, vers la
       // page FR sinon. Un 301 vaut toujours mieux qu'un 404 sur une URL indexée.
+      // Guides EN supprimés au dédoublonnage : leurs 301 vivent dans
+      // `_redirects`, que la réécriture `/guides/x` → `/en/guides/x` ci-dessous
+      // empêche de matcher. Même principe que la ligne suivante : un 301 vaut
+      // mieux qu'un 404 sur une URL indexée.
+      const retired = retiredEnGuideTarget(url.pathname);
+      if (retired) return Response.redirect(`${retired}${url.search}`, 301);
+
       const frTarget = frPathToEn(url.pathname);
       if (frTarget) return Response.redirect(`${frTarget}${url.search}`, 301);
     } else {

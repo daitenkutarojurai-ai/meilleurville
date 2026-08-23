@@ -9,6 +9,7 @@ import { VIBE_META, topCitiesByVibe, cityVibe } from "@/lib/vibe";
 import type { VibeTone } from "@/lib/vibe";
 import type { CitySeed } from "@/data/cities-seed";
 import { pathAlternates } from "@/lib/i18n";
+import { CITIES_COUNT } from "@/lib/site-stats";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -16,7 +17,7 @@ export const dynamicParams = false;
 export const metadata: Metadata = {
   title: "Ambiance des villes France — Vibe Map",
   description:
-    "Estimations éditoriales : quelle énergie se dégage de chaque ville française ? Calme, animé, festif, ressourcant, chargé — 352 villes classées par ambiance.",
+    `Estimations éditoriales : quelle énergie se dégage de chaque ville française ? Calme, animé, festif, ressourcant, chargé — ${CITIES_COUNT} villes classées par ambiance.`,
   alternates: pathAlternates("/vibe", "/vibe"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine

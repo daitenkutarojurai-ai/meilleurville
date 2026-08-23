@@ -6,6 +6,7 @@ import { TimelapseClient } from "@/app/climat-2040-timelapse/TimelapseClient";
 import { CITIES_LIGHT_METRO } from "@/lib/cities-light";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternatesEn } from "@/lib/i18n";
+import { CITIES_COUNT } from "@/lib/site-stats";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -16,7 +17,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: "Climate 2040 Timelapse — France warming year by year",
   description:
-    "Scrub from 2026 to 2040 and watch France warm in real time. ARPEGE/IPCC-interpolated projection by macro-region, across 352 cities.",
+    `Scrub from 2026 to 2040 and watch France warm in real time. ARPEGE/IPCC-interpolated projection by macro-region, across ${CITIES_COUNT} cities.`,
   alternates: pathAlternatesEn("/climat-2040-timelapse", "/climate-2040-timelapse"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine

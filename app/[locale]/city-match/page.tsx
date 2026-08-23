@@ -6,6 +6,7 @@ import { CityMatchQuiz } from "@/app/city-match/CityMatchQuiz";
 import { CITIES_LIGHT } from "@/lib/cities-light";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternatesEn } from "@/lib/i18n";
+import { CITIES_COUNT } from "@/lib/site-stats";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -16,7 +17,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: "City Match — which French city really fits your life?",
   description:
-    "8 questions, 90 seconds: we calculate your personal match across 352 French cities. Top 3 + a surprise match, live ranking as you answer, shareable link.",
+    `8 questions, 90 seconds: we calculate your personal match across ${CITIES_COUNT} French cities. Top 3 + a surprise match, live ranking as you answer, shareable link.`,
   alternates: pathAlternatesEn("/city-match", "/city-match"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine

@@ -2121,7 +2121,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     title: "Villes où l'on regrette d'avoir acheté",
     metaTitle: "Villes regrets d'achat 2026 — Où l'immobilier ne vaut pas le prix",
     metaDescription:
-      "Classement 2026 des villes françaises où le prix d'achat (DVF) dépasse largement la qualité de vie réelle. Score global, €/m² médian, climat. Données calibrées 352 villes.",
+      `Classement 2026 des villes françaises où le prix d'achat (DVF) dépasse largement la qualité de vie réelle. Score global, €/m² médian, climat. Données calibrées ${CITIES_SEED.length} villes.`,
     emoji: "💸",
     intro:
       "Sur le papier : marketing immobilier ronflant, agence qui promet « un investissement sûr », plaquettes office du tourisme. Sur le terrain : prix au m² qui ferait blêmir un Parisien, et une qualité de vie en réalité moyenne — voire dégradée par la canicule, l'air ou le bruit.",

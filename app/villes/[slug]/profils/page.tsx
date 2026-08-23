@@ -12,6 +12,7 @@ import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { formatScore, scoreColor } from "@/lib/utils";
 import { Users, Laptop, PawPrint, Heart, GraduationCap, MapPin, ChevronRight } from "lucide-react";
 import { cityAlternates } from "@/lib/i18n";
+import { CITIES_COUNT } from "@/lib/site-stats";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -379,7 +380,7 @@ export default async function ProfilsPage({ params }: Props) {
           compatibilité sont des combinaisons linéaires pondérées des 8 axes de qualité de vie
           (vie, transport, nature, coût, sécurité, culture, télétravail, écoles), ajustées par la
           taille de la ville, la géographie (côte, montagne, vallée, plaine) et les tags
-          caractéristiques. Même source, mêmes règles pour les 352 villes — pas de coefficient
+          caractéristiques. Même source, mêmes règles pour les {CITIES_COUNT} villes — pas de coefficient
           adapté ville par ville.
         </div>
 
