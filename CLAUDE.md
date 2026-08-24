@@ -929,8 +929,30 @@ Un thème = une entrée de `RED_FLAG_THEMES` (slug, titre, meta, `intro` / `real
 les deux de la liste, il n'y a donc rien d'autre à câbler ; l'EN est une **sélection à part**
 (`EN_THEMES` dans `app/[locale]/red-flags/themes/[slug]/page.tsx`, qui réutilise le `rank()` FR via
 `frSlug`) — un thème FR sans jumelle EN est normal et ne demande pas de hreflang. **Compteurs
-mesurés (`grep -c '^    slug: "'` et `ls app/red-flags | grep -c villes-`) : 36 thèmes, 36 dossiers**
-(2026-08-12). Dernier ajouté : **`villes-qui-se-vident`** — le seul thème du fichier dont le
+mesurés (`grep -c '^    slug: "'` et `ls app/red-flags | grep -c villes-`) : 37 thèmes, 37 dossiers**
+(2026-08-24). Dernier ajouté : **`villes-achat-hors-de-portee`** — le premier classement du site à
+confronter **deux mesures publiées et aucun score** : la médiane DVF des prix d'appartement
+(`lib/property-prices.ts`, millésimes 2024-2025) rapportée au niveau de vie médian communal
+(`lib/city-income.ts`, Filosofi 2021). Publié en **années de revenu disponible pour 65 m²** : sur les
+430 villes où les deux mesures existent, la médiane est de 5,4 années, 74 villes dépassent 8 années
+et 16 dépassent 11 — le seuil de publication. Saint-Tropez ouvre à 18,6 années, Paris suit à 14,1, et
+9 des 16 sont en petite couronne. Cinq points de méthode à ne pas défaire : ① le ménage (couple sans
+enfant, **1,5 UC**) et la surface (65 m²) entrent comme un **facteur constant** identique partout,
+donc les changer déplace le nombre d'années affiché et **jamais** l'ordre — ce qui trie est le seul
+rapport prix/revenu ; ne pas « recalibrer » ces constantes en croyant corriger un classement ;
+② `medianIncome` est un niveau de vie **par unité de consommation**, le multiplier par les UC du
+ménage cité est obligatoire (même piège que le palmarès d'octobre, sans quoi le taux est gonflé de
+moitié) ; ③ **plancher de 100 ventes d'appartement** sur la fenêtre, cinq fois le seuil de publication
+de DVF : c'est lui qui écarte `ile-de-re` (33 ventes, et un slug qui couvre dix communes) ; ④ prix
+2024-2025 contre revenus 2021, donc le nombre d'années est **surestimé en valeur absolue** et seul le
+classement tient ; ⑤ la severity démarre à **8/10 au seuil d'entrée** (11 années) et plafonne à 10 à
+vingt années, le tri portant sur la valeur non arrondie — deux villes peuvent afficher la même
+gravité à la décimale sans être à égalité. Cas de lecture à garder : **Aubervilliers** (3 951 €/m², la
+commune la moins chère du classement) et **Levallois-Perret** (8 935 €/m²) sortent au même rapport de
+11,2 années par deux mécanismes opposés. Distinct de `villes-regrets-achat` (prix face au score de
+qualité de vie, sans revenus), `villes-couts-explosifs` (dépenses mensuelles face à un proxy de
+salaire départemental) et `villes-logement-introuvable` (tension locative). Avant-dernier ajouté :
+**`villes-qui-se-vident`** — le seul autre thème du fichier dont le
 classement repose sur une **mesure publiée** et non sur un score : les populations municipales Insee
 2011 / 2016 / 2022 lues via `lib/city-population.ts` (538/540 villes, mêmes millésimes dans un même
 fichier, donc immunisé aux fusions de communes). Sur les 538 villes couvertes, 204 comptent moins

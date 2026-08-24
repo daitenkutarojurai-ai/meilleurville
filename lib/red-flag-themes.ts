@@ -1,6 +1,6 @@
 // F4 — Red Flag thématiques.
 //
-// 36 thèmes éditoriaux (regrets d'achat, sans voiture difficile, belles mais
+// 37 thèmes éditoriaux (regrets d'achat, sans voiture difficile, belles mais
 // invivables l'été, air irrespirable l'hiver…). Chaque thème expose une
 // fonction `rank()` qui retourne les villes triées par "gravité" sur ce
 // thème, avec un score 0-10 et une raison citable.
@@ -53,6 +53,7 @@ import { sunshineDays } from "@/lib/utils";
 import { projectClimate2040 } from "@/lib/climate-2040";
 import { cityIncome } from "@/lib/city-income";
 import { cityPopulation } from "@/lib/city-population";
+import { cityPropertyPrices } from "@/lib/property-prices";
 
 // Tag patterns that signal a strong seasonal/touristic vocation. Matched on
 // the joined character-tags string (lowercased) of each city seed entry.
@@ -2115,6 +2116,86 @@ function rankVillesQuiSeVident(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity).slice(0, 15);
 }
 
+// --- THEME 37 — Acheter hors de portée des habitants ---
+//
+// Le seul thème du fichier qui confronte deux mesures publiées et aucun score :
+// la médiane des prix au m² **réellement enregistrés** (DVF géolocalisé,
+// DGFiP/Etalab, millésimes 2024-2025, via `lib/property-prices.ts`) et le
+// niveau de vie médian communal (Insee Filosofi 2021, via `lib/city-income.ts`).
+//
+// Le rapport publié est un nombre d'**années de revenu disponible** : combien
+// d'années entières un ménage gagnant le niveau de vie médian de la commune
+// devrait consacrer, intégralement, à l'achat de 65 m² d'appartement au prix
+// médian du marché local.
+//
+// ⚠️ Le ménage (couple sans enfant, 1,5 UC) et la surface (65 m²) sont des
+// conventions d'affichage, pas des paramètres du classement : elles entrent
+// dans le calcul comme un facteur **constant** (65 / 1,5), identique pour
+// toutes les villes. Changer l'un ou l'autre change le nombre d'années
+// affiché et **jamais** l'ordre. Ce qui trie, c'est le seul rapport
+// prix au m² / niveau de vie. Ne pas « recalibrer » ces deux constantes en
+// croyant corriger un classement.
+//
+// ⚠️ `medianIncome` est un niveau de vie **par unité de consommation**, pas un
+// revenu de ménage (convention de `lib/city-income.ts`). Le multiplier par les
+// UC du ménage cité est obligatoire : sans ça le nombre d'années affiché est
+// gonflé de moitié. C'est le piège qu'avait déjà rencontré le palmarès
+// d'octobre sur le taux d'effort.
+//
+// Quatre filtres, et chacun répond à une objection :
+//  ① médiane appartement publiée : écarte les 26 communes sans DVF (Bas-Rhin,
+//    Haut-Rhin et Moselle relèvent du livre foncier ; Mayotte est absente) et
+//    les 15 dont l'effectif est sous le seuil de publication de DVF.
+//  ② au moins MIN_SALES_FOR_RATIO ventes d'appartement sur la fenêtre, soit
+//    cinq fois le seuil de publication : une médiane fondée sur vingt ventes
+//    suffit à décrire un marché, pas à départager deux villes au centième.
+//    C'est ce filtre qui écarte `ile-de-re` (33 ventes), dont le slug couvre
+//    d'ailleurs une île de dix communes et non une commune.
+//  ③ niveau de vie Filosofi publié : écarte la Guadeloupe, la Guyane et
+//    Mayotte (hors champ) et Pierrefitte-sur-Seine (fusionnée en 2025).
+//  ④ rapport ≥ MIN_YEARS : le seuil de publication est le seuil de gravité.
+//
+// Distinct de `villes-regrets-achat` (prix élevé face au score de qualité de
+// vie du site, sans revenus), de `villes-couts-explosifs` (dépenses mensuelles
+// face à un proxy de salaire départemental) et de `villes-logement-introuvable`
+// (tension du marché locatif). Aucun de ces trois ne rapporte un prix mesuré à
+// un revenu mesuré.
+const RATIO_SURFACE_M2 = 65;
+const RATIO_HOUSEHOLD_UC = 1.5; // couple sans enfant, échelle OCDE modifiée
+const MIN_SALES_FOR_RATIO = 100;
+const MIN_YEARS_FOR_RATIO = 11;
+
+function rankAchatHorsDePortee(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    const prices = cityPropertyPrices(city.slug);
+    const apartment = prices?.apartment;
+    if (!apartment?.medianM2) continue;
+    if (apartment.sales < MIN_SALES_FOR_RATIO) continue;
+
+    const income = cityIncome(city.slug);
+    if (!income) continue;
+
+    const years =
+      (RATIO_SURFACE_M2 * apartment.medianM2) /
+      (RATIO_HOUSEHOLD_UC * income.medianIncome);
+    if (years < MIN_YEARS_FOR_RATIO) continue;
+
+    // Le seuil d'entrée EST le plancher de gravité : toute ville publiée ici
+    // demande plus de onze années entières de revenu disponible. La pente
+    // porte ensuite jusqu'à 10/10 à vingt années.
+    const severity = Math.min(10, 8 + (years - MIN_YEARS_FOR_RATIO) * (2 / 9));
+
+    const eur = (v: number) => Math.round(v).toLocaleString("fr-FR");
+    const reason = `${years.toLocaleString("fr-FR", { minimumFractionDigits: 1, maximumFractionDigits: 1 })} années de revenu disponible pour 65 m² · appartement à ${eur(apartment.medianM2)} €/m² médian (${eur(apartment.sales)} ventes 2024-2025) · niveau de vie médian ${eur(income.medianIncome)} €/an${income.povertyRate != null ? ` · ${income.povertyRate.toLocaleString("fr-FR")} % de pauvreté` : ""}`;
+    // Le tri se fait sur la valeur non arrondie : deux villes peuvent afficher
+    // la même gravité à la décimale sans être à égalité (leurs rapports
+    // diffèrent, et le €/m² de la raison les départage à l'œil).
+    rows.push({ city, severity, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -2655,6 +2736,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Severity = 0,72 × recul en % sur 2011-2022 (plafonné à 9) + 1,2 si le rythme annuel de perte s'est aggravé entre 2011-2016 et 2016-2022 + 0,6 si la perte dépasse 5 000 habitants (0,3 au-delà de 2 000). Clampé à 10, filtré à recul ≥ 3 % sur onze ans, solde négatif sur 2016-2022, population 2022 ≥ 10 000 habitants et loyer T2 ≤ 1,10 fois la médiane nationale. Source : Insee, recensement de la population, base « Évolution et structure de la population en 2022 » (millésimes 2011, 2016 et 2022 dans un même fichier, géographie communale 2025), exploitée via `lib/city-population.ts` (538 des 540 villes couvertes ; manquent Mamoudzou, hors du fichier France hors Mayotte, et Pierrefitte-sur-Seine, fusionnée dans Saint-Denis en 2025). Loyers : `data/housing.ts`. Trois limites à connaître avant d'en tirer une conclusion. Le recensement compte la population résidente : dans les communes littorales et de montagne, une part de la baisse correspond à la transformation de résidences principales en résidences secondaires, pas à un départ définitif, et Berck ou Briançon relèvent en partie de ce cas. Le chiffre est communal, alors que le phénomène est souvent infra-communal : le centre ancien se vide pendant que la couronne périurbaine, hors commune, gagne des habitants, si bien que l'aire d'attraction peut croître quand la ville-centre recule. Enfin le recensement décrit le passé et n'extrapole rien : une commune peut avoir enrayé sa baisse depuis 2022, ce que seul le millésime suivant dira. Pour la structure par âge et la trajectoire détaillée d'une ville, voir sa page démographie.",
     rank: rankVillesQuiSeVident,
+  },
+  {
+    slug: "villes-achat-hors-de-portee",
+    title: "Villes où acheter est hors de portée des habitants",
+    metaTitle: "Villes où acheter est hors de portée — classement 2026",
+    metaDescription:
+      "Classement 2026 des villes où le prix d'achat mesuré (DVF 2024-2025) s'éloigne le plus des revenus locaux : jusqu'à 18,6 années de revenu pour 65 m².",
+    emoji: "🔑",
+    intro:
+      "On visite un week-end, on regarde les annonces le dimanche soir, et le calcul paraît tenable : un 65 m² à ce prix-là, avec un apport et vingt-cinq ans de crédit, ça se discute. Ce que le calcul du dimanche soir ne dit jamais, c'est ce que gagnent les gens qui habitent déjà là. Dans certaines communes l'écart entre les deux est devenu tel que le marché ne s'adresse plus à eux : ni au boulanger, ni à l'infirmière de l'hôpital voisin, ni aux enfants de ceux qui ont acheté il y a trente ans. La ville reste belle, l'école reste ouverte, le marché a toujours lieu le mercredi. Elle a simplement cessé d'être achetable par ceux qui y vivent, et c'est un fait qui rattrape l'arrivant deux fois : le jour où il veut passer du loyer à la propriété, et le jour où il veut revendre pour acheter plus grand sans quitter la commune.",
+    reality:
+      "Le rapport publié ici confronte deux mesures et aucun score : la médiane des prix d'appartement réellement enregistrés dans la commune, et le niveau de vie médian de ses habitants. Il s'exprime en années de revenu disponible pour 65 m², parce qu'un prix seul ne dit rien tant qu'on ignore ce que gagne le voisin. Sur les 430 villes du site où les deux mesures existent, la médiane s'établit à 5,4 années. Cent neuf communes sont sous quatre années, soixante-quatorze dépassent huit, seize dépassent onze : ce sont ces seize-là que le classement retient. Deux géographies s'y côtoient et elles ne racontent pas la même histoire. La première est celle de la petite couronne parisienne, neuf des seize villes : Saint-Ouen-sur-Seine à 13,5 années, Clichy 13,3, Pantin 12,9, Montreuil 12,2, Bagnolet 11,9. Quatre d'entre elles, Saint-Ouen, Pantin, Montreuil et Bagnolet, cumulent les deux moitiés du problème : un prix d'appartement supérieur au double de la médiane nationale mesurée (2 533 €/m²), et un niveau de vie inférieur à la médiane des villes du site (21 330 €) avec un quart de leur population sous le seuil de pauvreté. Aubervilliers en est le cas extrême, et il est instructif : c'est la commune la moins chère du classement, 3 951 €/m², et pourtant 11,2 années, parce que son niveau de vie médian tombe à 15 330 € et que 42 % de ses habitants vivent sous le seuil de pauvreté. Levallois-Perret affiche le même rapport à la décimale, 11,2 années, avec un prix plus de deux fois supérieur, 8 935 €/m², et un niveau de vie de 34 500 €. Un chiffre identique, deux mécanismes opposés : à Levallois le marché suit les revenus, à Aubervilliers il s'en est détaché. La seconde géographie est littorale. Saint-Tropez ouvre le classement à 18,6 années, un record que rien n'approche (Paris, deuxième, est à 14,1), devant Arcachon 12,2, Biarritz 12,1, Cannes 11,7, Cassis 11,4 et Hossegor 11,2. Là, l'écart ne vient pas d'un effondrement des revenus locaux : Cassis déclare 28 740 € de niveau de vie médian et Hossegor 29 760 €, très au-dessus de la médiane des villes du site. L'explication la plus probable est un marché largement alimenté par des acheteurs qui ne résident pas sur place, mais nos données ne la mesurent pas ; elles constatent l'écart, pas sa cause. Saint-Paul de La Réunion est le seul cas mixte du classement, 5 304 €/m² pour un niveau de vie de 18 910 € et 30 % de pauvreté, et la seule ville où la maison se négocie moins cher que l'appartement, 3 934 €/m² contre 5 304. À l'autre extrémité du corpus, le rapport descend à 1,5 année à Montluçon, où l'appartement médian vaut 680 €/m² pour un niveau de vie de 19 420 €. Ce n'est pas la bonne nouvelle qu'on croit : Montluçon figure aussi dans les villes qui se vident. Un marché qu'aucun habitant ne peut atteindre et un marché que plus personne ne vient chercher sont deux façons différentes, et symétriques, de ne plus fonctionner pour ceux qui vivent là.",
+    methodology:
+      "Rapport = (65 m² × prix médian au m² d'un appartement) ÷ (1,5 UC × niveau de vie médian annuel). Severity = 8 + 0,222 × (années − 11), plafonnée à 10/10 : le seuil de publication est le plancher de gravité, et vingt années de revenu valent 10. Prix : DGFiP, Demandes de valeurs foncières (DVF géolocalisé, Etalab, Licence Ouverte 2.0), millésimes 2024 et 2025, via `lib/property-prices.ts`. Ce sont des médianes de transactions enregistrées, pas des estimations d'agence, et elles ne se confondent pas avec le repère éditorial `avgBuyPriceM2` de `data/housing.ts`, qui mêle appartements et maisons et peut diverger : à Saint-Paul de La Réunion, 5 304 €/m² mesurés côté appartement contre 2 400 € au repère tous biens confondus. Revenus : Insee, Filosofi 2021, niveau de vie médian communal (revenu disponible du ménage rapporté à ses unités de consommation), via `lib/city-income.ts`. Filtres : médiane d'appartement publiée, au moins 100 ventes d'appartement sur la fenêtre, niveau de vie publié, rapport ≥ 11 années. 430 des 540 villes du site réunissent les trois conditions de données. Sont écartées : 26 communes sans aucun prix DVF (le Bas-Rhin, le Haut-Rhin et la Moselle relèvent du livre foncier et ne sont pas publiés dans DVF, Mayotte est absente de la source), 15 sous le seuil de publication de DVF, 64 sous les 100 ventes exigées ici (cinq fois le seuil de publication : vingt ventes suffisent à décrire un marché, pas à départager deux villes), et 5 hors du champ Filosofi (Guadeloupe, Guyane, Mayotte, plus Pierrefitte-sur-Seine, fusionnée dans Saint-Denis en 2025). Seize villes se situent entre 10 et 11 années et ne sont donc pas publiées, de Saint-Jean-de-Luz (10,9) à Nanterre (10,0). Le ménage retenu (couple sans enfant, 1,5 unité de consommation) et la surface (65 m²) sont des conventions de lecture et non des paramètres du classement : ils entrent dans le calcul comme un facteur constant, identique pour toutes les villes, si bien que les changer déplace le nombre d'années affiché sans jamais modifier l'ordre. Ce qui trie, c'est le seul rapport prix au m² sur niveau de vie. Le tri porte sur la valeur non arrondie : deux villes peuvent afficher la même gravité à la décimale sans être à égalité. Quatre limites à connaître avant d'en tirer une conclusion. Les prix sont de 2024-2025 et les revenus de 2021, dernier millésime Filosofi publié à la commune : les revenus nominaux ayant progressé depuis, le nombre d'années est surestimé en valeur absolue, et seul le classement tient. Le rapport ne décrit pas un plan de financement, personne n'achetant en versant cent pour cent de son revenu ; il mesure la distance entre un marché et les revenus qu'il surplombe. Le niveau de vie Insee inclut les prestations sociales, aides au logement comprises, ce qui joue en sens inverse et resserre l'écart réel. Enfin la médiane est communale alors que le phénomène est souvent infra-communal : dans les grandes villes, le rapport d'un arrondissement n'est pas celui de son voisin. Pour le détail par type de bien, l'effectif de ventes et les quartiles d'une ville, voir sa page logement.",
+    rank: rankAchatHorsDePortee,
   },
 ];
 
