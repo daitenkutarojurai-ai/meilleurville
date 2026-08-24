@@ -3575,6 +3575,56 @@
       "slug": "single-parent-holidays-dijon-2026",
       "title": "Single-parent holidays in Dijon: an owl trail and a train to Beaune",
       "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "family-in-lyon-2026",
+      "title": "Family life in Lyon (2026): districts, schools, the real budget",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-nantes-2026",
+      "title": "Family life in Nantes (2026): the house-with-a-garden metro",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-bordeaux-2026",
+      "title": "Family life in Bordeaux (2026): the district decides everything",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-toulouse-2026",
+      "title": "Family life in Toulouse (2026): second-best schools in France",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-rennes-2026",
+      "title": "Family life in Rennes (2026): the best schools in France",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-strasbourg-2026",
+      "title": "Family life in Strasbourg (2026): free bilingual schooling",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-lille-2026",
+      "title": "Family life in Lille (2026): where the family house still exists",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-montpellier-2026",
+      "title": "Family life in Montpellier (2026): the sea, and the school map",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-marseille-2026",
+      "title": "Family life in Marseille (2026): the school question comes first",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-nice-2026",
+      "title": "Family life in Nice (2026): the mildest winter, at Riviera prices",
+      "emoji": "👨‍👩‍👧‍👦"
     }
   ],
   "tags": [
@@ -3611,7 +3661,7 @@
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 41
+      "count": 43
     },
     {
       "slug": "expat-single-parent",
@@ -3621,7 +3671,7 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 37
+      "count": 38
     },
     {
       "slug": "grand-est",
@@ -3631,7 +3681,7 @@
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 31
+      "count": 32
     },
     {
       "slug": "working-in-france",
@@ -3646,7 +3696,7 @@
     {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 27
+      "count": 28
     },
     {
       "slug": "ile-de-france",
@@ -3659,19 +3709,24 @@
       "count": 24
     },
     {
+      "slug": "pays-de-la-loire",
+      "label": "pays de la loire",
+      "count": 24
+    },
+    {
       "slug": "student-visa-france",
       "label": "student visa france",
       "count": 24
     },
     {
-      "slug": "pays-de-la-loire",
-      "label": "pays de la loire",
-      "count": 23
-    },
-    {
       "slug": "student-housing-france",
       "label": "student housing france",
       "count": 23
+    },
+    {
+      "slug": "brittany",
+      "label": "brittany",
+      "count": 22
     },
     {
       "slug": "single-supplement",
@@ -3689,23 +3744,18 @@
       "count": 22
     },
     {
-      "slug": "brittany",
-      "label": "brittany",
-      "count": 21
-    },
-    {
       "slug": "expat-retirement",
       "label": "expat retirement",
       "count": 21
     },
     {
-      "slug": "normandy",
-      "label": "normandy",
-      "count": 20
-    },
-    {
       "slug": "provence-alpes-cote-d-azur",
       "label": "provence-alpes-cote-d-azur",
+      "count": 21
+    },
+    {
+      "slug": "normandy",
+      "label": "normandy",
       "count": 20
     },
     {
@@ -3764,18 +3814,33 @@
       "count": 11
     },
     {
+      "slug": "french-school-system",
+      "label": "french school system",
+      "count": 11
+    },
+    {
       "slug": "affordable-retirement-france",
       "label": "affordable retirement France",
       "count": 10
     },
     {
-      "slug": "burgundy",
-      "label": "burgundy",
+      "slug": "cote-d-azur",
+      "label": "cote d'azur",
+      "count": 10
+    },
+    {
+      "slug": "moving-to-france-with-children",
+      "label": "moving to france with children",
+      "count": 10
+    },
+    {
+      "slug": "alsace",
+      "label": "alsace",
       "count": 9
     },
     {
-      "slug": "cote-d-azur",
-      "label": "cote d'azur",
+      "slug": "burgundy",
+      "label": "burgundy",
       "count": 9
     },
     {
@@ -3787,11 +3852,6 @@
       "slug": "reunion",
       "label": "reunion",
       "count": 9
-    },
-    {
-      "slug": "alsace",
-      "label": "alsace",
-      "count": 8
     },
     {
       "slug": "atlantic-coast",
@@ -3806,21 +3866,26 @@
     {
       "slug": "bordeaux",
       "label": "bordeaux",
-      "count": 7
+      "count": 8
     },
     {
       "slug": "nice",
       "label": "nice",
+      "count": 8
+    },
+    {
+      "slug": "strasbourg",
+      "label": "strasbourg",
+      "count": 8
+    },
+    {
+      "slug": "nantes",
+      "label": "nantes",
       "count": 7
     },
     {
       "slug": "single-parent-holidays",
       "label": "single parent holidays",
-      "count": 7
-    },
-    {
-      "slug": "strasbourg",
-      "label": "strasbourg",
       "count": 7
     },
     {
@@ -3839,13 +3904,18 @@
       "count": 6
     },
     {
-      "slug": "mediterranean",
-      "label": "mediterranean",
+      "slug": "lyon",
+      "label": "lyon",
       "count": 6
     },
     {
-      "slug": "nantes",
-      "label": "nantes",
+      "slug": "marseille",
+      "label": "marseille",
+      "count": 6
+    },
+    {
+      "slug": "mediterranean",
+      "label": "mediterranean",
       "count": 6
     },
     {
@@ -3854,8 +3924,18 @@
       "count": 6
     },
     {
+      "slug": "rennes",
+      "label": "rennes",
+      "count": 6
+    },
+    {
       "slug": "south-of-france",
       "label": "south-of-france",
+      "count": 6
+    },
+    {
+      "slug": "toulouse",
+      "label": "toulouse",
       "count": 6
     },
     {
@@ -3874,28 +3954,18 @@
       "count": 5
     },
     {
-      "slug": "lyon",
-      "label": "lyon",
+      "slug": "lille",
+      "label": "lille",
       "count": 5
     },
     {
-      "slug": "marseille",
-      "label": "marseille",
+      "slug": "montpellier",
+      "label": "montpellier",
       "count": 5
     },
     {
       "slug": "normandie",
       "label": "normandie",
-      "count": 5
-    },
-    {
-      "slug": "rennes",
-      "label": "rennes",
-      "count": 5
-    },
-    {
-      "slug": "toulouse",
-      "label": "toulouse",
       "count": 5
     },
     {
@@ -3939,18 +4009,8 @@
       "count": 4
     },
     {
-      "slug": "lille",
-      "label": "lille",
-      "count": 4
-    },
-    {
       "slug": "martinique",
       "label": "martinique",
-      "count": 4
-    },
-    {
-      "slug": "montpellier",
-      "label": "montpellier",
       "count": 4
     },
     {

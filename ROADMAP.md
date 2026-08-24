@@ -1718,9 +1718,14 @@ Séries à parité, à re-differ et non à croire sur parole : tourisme 207/207,
 Séries entamées et encore loin : `leaving-` 23 EN contre `quitter-` 55 FR,
 `moving-to-` 6 EN contre `demenager-a-` 50 FR.
 
-**Écart de contenu, distinct de l'écart de routes** : **guides 973 FR / 685 EN, tags 241 / 95**
-(mesuré le 19/08 après le batch 2 `working-in-` — les chiffres plus bas dans cette section sont
-datés, le réel prévaut).
+**Écart de contenu, distinct de l'écart de routes** : **guides 989 FR / 725 EN, tags 245 / 102**
+(mesuré le 24/08 après le batch 1 `family-in-` — les chiffres plus bas dans cette section sont
+datés, le réel prévaut). Séries FR restant **sans aucune jumelle EN** au 24/08 :
+`universites-[ville]` (15/0) et `vacances-monoparentales-` croisé mois × profil.
+`famille-a-[ville]` en sortait ce run (19 FR / **10** EN). `demenager-a-[ville]` reste à 50 FR / 0
+jumelle per-city, et **c'est un non-correctif assumé** : une série `moving-to-[city]` recouvrirait
+`[city]-living-guide` (52 EN), donc elle ne se rouvre qu'avec un angle logistique distinct
+(conteneur, douane, visa) et non par symétrie de compteur.
 Ce n'est pas une route à créer mais du corpus à écrire, et **jamais par traduction** — les
 guides EN sont du contenu natif à angle expat, c'est une décision de fond (cf. § Bilingual
 setup dans `CLAUDE.md`), pas une facilité.
@@ -1728,6 +1733,101 @@ setup dans `CLAUDE.md`), pas une facilité.
 **Exceptions assumées** : `/badge` ×541 reste FR-only (la motion backlink vise mairies et
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
+
+### Livré le 24/08 — ouverture de `family-in-[city]-2026` (batch 1, +10)
+
+`npm run parity` en **code 0** en début de run (FR 217 / EN 165, 0 route sans jumelle) : pas de
+régression de routes, donc run de corpus. Le diff par famille de slugs sur le corpus réel
+(FR 989 / EN 715) a redonné la même hiérarchie de trous qu'au 18/08, à ceci près qu'elle n'avait
+toujours pas bougé : **`famille-a-[ville]` 19 FR / 0 EN**, `universites-` 15/0, `demenager-a-`
+50/4 (les 4 sont des guides nationaux, aucune jumelle per-city), `quitter-` 55/23, `vivre-en-`
+56/31. La série famille a été choisie contre le rattrapage de `parent-solo` (48 FR / 39 EN depuis
+le batch 5 FR du 23/08) et contre `demenager-a-`, pour deux raisons tenables : c'est le plus gros
+trou **à couverture nulle** après six jours de signalement, et une série `moving-to-[city]`
+entrerait en recouvrement frontal avec `[city]-living-guide` (52 EN), soit exactement la
+cannibalisation qui a coûté 15 guides EN en juin. **`EN_GUIDES` 715 → 725**, série
+**19 FR / 10 EN**.
+
+**Les 10 villes** : Lyon, Nantes, Bordeaux, Toulouse, Rennes, Strasbourg, Lille, Montpellier,
+Marseille, Nice. `metaTitle` 51-57 caractères, `metaDesc` 135-158, 7 sections par guide (la série
+FR en compte 5 ; la 6ᵉ et la 7ᵉ portent l'angle qui n'existe pas côté français, cf. plus bas),
+catégorie `family`. **Zéro tiret cadratin sur les 10** (R7.10 : la première passe en comptait 9 à
+16 par guide, soit 2 à 3 pour 200 mots, réécrits en parenthèses, deux-points et virgules — les
+gloses récurrentes « T3 » et « assistante maternelle » en faisaient la moitié).
+
+**Le socle chiffré vient des modules, jamais de la prose FR.** Loyers T1/T2/T3 lus dans
+`data/housing.ts`, médianes de transaction dans `lib/property-prices.ts` (DVF 2024-2025, avec le
+nombre de ventes), populations et part des 0-14 ans dans `lib/city-population.ts` (Insee 2022),
+niveau de vie et taux de pauvreté dans `lib/city-income.ts` (Filosofi 2021), rang scolaire calculé
+sur `CITIES_SEED`. ⚠️ **Les guides FR de cette série chiffrent des T4** — un format qui n'existe
+nulle part dans nos données. Les jumelles EN publient donc le **T3**, qui est ce que rend
+`/cities/[slug]/housing`, en expliquant la nomenclature française une fois par guide. Recopier le
+T4 de la prose FR aurait été le piège documenté dans `CLAUDE.md` : on cite ce que la page rend.
+**Aucun score `/10` n'est imprimé**, comme dans les batches EN depuis le 23/08 : les comparaisons
+passent par le rang (« 1st of 540 », « 505th of 540 ») ou par des mots.
+
+**Cinq affirmations ont été corrigées avant commit parce que le contrôle contre les modules les a
+démenties**, et elles se seraient toutes lues comme des mesures : Lille n'a **pas** le pire score
+de sécurité du lot (Marseille 2,7 contre 3,9) ; Nice a le meilleur score nature du lot **seule**,
+pas à égalité avec Marseille (7,4 contre 7,0) ; Toulouse n'est **pas** la moins chère des quatre
+plus grandes villes du lot au m² appartement (Marseille 3 154 € contre 3 222 €) ; Rennes n'est pas
+non plus la moins au-dessus de la médiane nationale hors Toulouse et Marseille (Nantes +35 % et
+Montpellier +32 % sont sous ses +45 %) ; et Toulouse est la ville qui **gagne le plus d'habitants
+en valeur absolue** depuis 2011, pas celle qui croît le plus vite (Montpellier +16,1 % contre
++14,4 %). Neuf `relatedCities` pointaient vers des communes absentes du seed (Cesson-Sévigné, Bruz,
+Betton, Lambersart, Marcq-en-Barœul, Villeneuve-d'Ascq, Castelnau-le-Lez, Lattes,
+Saint-Laurent-du-Var) : `assertKnownSlugs` les aurait attrapées au build, pas `tsc`. Remplacées par
+des villes du seed du même département ; les communes elles-mêmes restent nommées dans la prose,
+où elles sont justes.
+
+**Le fait qui structure tout le lot, et qu'aucun guide FR n'énonce** : huit des dix villes ont une
+part de 0-14 ans **sous** la médiane des 538 villes couvertes (16,5 %). Bordeaux est à 13,4 %,
+452ᵉ sur 538. Seuls Strasbourg (16,7 %) et Marseille (17,6 %) tiennent le milieu. Autrement dit,
+les grandes villes françaises ne sont pas là où sont les enfants : la couronne l'est. Chaque guide
+le dit avec son chiffre, ce qui évite de vendre un centre-ville à une famille qui cherche une
+troisième chambre. Deux autres mesures méritaient d'être publiées telles quelles : **Lille est la
+seule ville du lot où la maison est moins chère au m² que l'appartement** (2 815 € contre 3 705 €,
+et sous la médiane nationale de 2 840 €), et **Strasbourg est la seule sans médiane DVF** — le
+Bas-Rhin, le Haut-Rhin et la Moselle relèvent du **livre foncier** et sont absents du fichier
+national. Le guide le dit au lieu de laisser un blanc, qui se lirait comme un oubli.
+
+**Sept incises sont propres au lecteur étranger et absentes du FR parce qu'inutiles à un Français** :
+① l'école est **obligatoire à 3 ans** et la maternelle est une école gratuite, pas une garderie ;
+② on **inscrit à la mairie**, pas à l'école, et la carte scolaire découle de l'adresse — donc le
+bail décide de l'école, et se signe après vérification, pas avant ; ③ les **onze vaccinations
+obligatoires** pour tout enfant né à partir du 1ᵉʳ janvier 2018 sont exigées à l'inscription, et un
+carnet étranger doit être mis en regard du calendrier français **avant** l'arrivée ; ④ la plupart
+des communes appliquent la **semaine de quatre jours**, donc l'élémentaire public est fermé toute
+la journée du mercredi — ce qui prend de court à peu près tous les parents anglophones ; ⑤ cantine
+et périscolaire sont facturés au **quotient familial CAF**, pas à tarif unique ; ⑥ les
+**allocations familiales ne démarrent qu'au deuxième enfant** en métropole et sont modulées selon
+les revenus depuis 2015 (aucun montant n'est imprimé : il changerait plus vite que le guide) ;
+⑦ les **zones de vacances A/B/C** décident des semaines de congés et donc du prix des billets —
+vérifiées à la source ce run : Lyon et Bordeaux en A, Toulouse et Montpellier en C, les six autres
+en B. Ajouts locaux du même ordre : les **sections internationales publiques sont gratuites** et
+ferment leurs candidatures bien plus tôt que les écoles internationales payantes (Bordeaux, Nice),
+les **classes bilingues à parité horaire** alsaciennes et les **Kitas de Kehl** (Strasbourg), et le
+poids réel du **privé sous contrat** dans l'Ouest et le Nord, qui ne porte pas la connotation
+sociale qu'il aurait au Royaume-Uni ou aux États-Unis.
+
+**Deux villes reçoivent un cadrage franc plutôt qu'une brochure**, dans la ligne du refus de
+`quartiers-a-eviter` : Marseille est donnée avec son rang scolaire réel (**505ᵉ sur 540**) et la
+méthode que les familles y appliquent — sécuriser l'école avant le logement — sans verdict sur les
+quartiers ni sur leurs habitants ; Montpellier avec ses **28 % de taux de pauvreté** et l'écart
+inter-secteurs le plus large du lot, en disant que le secteur décide, pas la ville.
+
+**Tags** : aucun tag inventé, mais deux franchissent le seuil de 3 guides d'un coup et **créent
+deux pages `/tags` côté EN** — `moving-to-france-with-children` et `french-school-system` :
+`TAG_SLUGS_EN` passe de 100 à **102**. Les dix tags de ville et les tags de région réutilisent
+l'existant. `npm run search-index` relancé (`data/search-index.en.json` 725 guides, 102 tags) et
+**`npm run sitemap:check` repassé** à cause des tags neufs — **EN 28 604 URL**, chaque URL déclarée
+a une page et chaque page indexable a une URL.
+
+**Prochain run** : `family-in-[city]-2026` batch 2 (+9) referme la série — Angers, Caen, Dijon,
+Tours, Metz, Clermont-Ferrand, Orléans, Pau, Besançon, c'est-à-dire exactement le reste de la liste
+FR. Si `parent-solo` a encore creusé d'ici là, il passe devant. Les trous à couverture nulle qui
+restent ensuite, par taille : `universites-` (15 FR / 0 EN) et
+`vacances-monoparentales-` croisé mois × profil.
 
 ### Livré le 20/08 — `working-in-[city]-2026` batch 3 (+9), **série fermée**
 
