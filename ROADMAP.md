@@ -1137,6 +1137,80 @@ couverture, Y hors périmètre ». Si les 18 villes ultramarines ressortent hors
 d'ajouter les ressources DROM des mêmes jeux data.gouv.fr dans `.cache/city-protected-areas/sources/`
 — pas de toucher au garde-fou.
 
+#### Point d'étape 2026-08-24 — la collecte était morte depuis trois semaines, et rien ne le disait
+
+Zones protégées **0/540**, inchangé pour la huitième nuit d'affilée. Le run du 17/08 avait branché
+`protected-areas:fetch` sur `scripts/local-data-runner.sh` et conclu que « plus rien n'attend une
+main humaine ». Sept passes nocturnes plus tard, `data/city-protected-areas.json` vaut toujours `{}`.
+En cherchant pourquoi, on trouve pire : **`npm run news:stats` annonce `last refresh: 2026-08-05`**,
+alors que le correctif du 18/08 (`QUERY_VERSION = 2`) devait faire rejouer les 540 villes au lot
+suivant. Les deux pipelines qui avaient du travail n'ont rien produit depuis **trois semaines**, et
+le seul pipeline qui paraît sain — biodiversité 540/540 — l'est parce qu'il était **déjà terminé le
+09/08** : il n'a rien à faire, donc son silence ne prouve rien. Aucune erreur nulle part. C'est le
+mode de défaillance que ce dépôt documente déjà deux fois (le déploiement cinq jours en retard du
+10/08, l'ingest jamais appelé du 17/08) : **du travail invisible**.
+
+**Ce que le runner ne pouvait pas dire, et pourquoi.** Trois défauts, tous dans
+`scripts/local-data-runner.sh`, tous corrigés ce run :
+
+1. **Un arbre de travail sale arrêtait la passe.** Le runner refusait de continuer dès que le dépôt
+   portait un fichier modifié hors des trois JSON qu'il possède, et sortait en erreur ; même sans ce
+   garde-fou, le `git pull --rebase` qui suit échoue sur un dépôt sale et était traité en `FATAL`.
+   C'est **exactement** la panne que le runner de déploiement a connue et corrigée le 19/08 — 175
+   fichiers laissés par une session interrompue avaient gardé trois commits en 404 pendant une
+   journée — sauf que la correction n'avait été appliquée qu'à **l'un des deux runners**. Désormais,
+   dépôt sale ⇒ la collecte passe par un **worktree git calé sur `origin/main`**
+   (`~/.cache/meilleurville-data`), `node_modules`, `.env.local` et **`.cache`** en liens vers le
+   dépôt — sans ce dernier lien, chaque passe en worktree repartirait d'un crawl vierge et
+   n'aboutirait jamais. On ne pousse toujours que ce qui est commité, et l'état du dossier de travail
+   du propriétaire n'a plus voix au chapitre.
+2. **Un échec ne réveillait personne.** `run_stage` avale tous les codes de retour — il le doit, un
+   GBIF en panne ne doit pas empêcher le BODACC — si bien qu'une étape qui échoue chaque nuit est
+   indiscernable dans le journal d'une étape qui n'a rien à faire, et personne ne lit le journal.
+   Chaque pipeline a maintenant sa **couverture suivie dans le temps** (`pipeline-progress` :
+   composant, couverture, date du dernier *changement*). Un pipeline **incomplet et immobile depuis
+   plus de 48 h** déclenche l'alarme : fichier d'état, notification bureau, e-mail Brevo depuis
+   `bonjour@mavilleideale.fr`, au plus un par 24 h — même mécanique que le runner de déploiement,
+   avec un **tampon distinct** (sinon une alerte de publication étoufferait une alerte de collecte).
+   Le corps du mail porte le diagnostic, pas seulement le symptôme : les pipelines à l'arrêt, la
+   raison précise pour les zones protégées (disque insuffisant / `ogr2ogr` absent / aucune couche
+   après le fetch) et les étapes tombées dans la nuit. C'est mesuré sur l'**immobilité**, pas sur
+   l'échec : une étape peut échouer sans conséquence, et « réussir » sans rien écrire.
+3. **`local code=$?` après un `if` lisait le code du `if`, qui vaut 0.** Toute panne s'écrivait donc
+   « FAILED (exit 0) », et surtout la branche `124` — le lot coupé par le *time cap*, qui est un
+   résultat partiel légitime et non une panne — **ne pouvait jamais sortir** : un crawl arrêté par
+   la limite de temps se lisait comme un plantage. Trouvé par le banc d'essai, pas à la lecture.
+
+**Un quatrième défaut, trouvé en écrivant le banc d'essai.** Le worktree du runner de déploiement est
+détaché, et ce runner-ci **commite et pousse**. Depuis un HEAD détaché, `git pull --rebase origin main`
+refuse de choisir une base et `git push origin main` pousserait le `main` **du dépôt** — c'est-à-dire
+pas le commit qu'on vient d'écrire, sans que rien n'échoue. Le worktree porte donc une branche
+(`local-data-runner`) et la passe pousse `HEAD:main`. Et le recalage se fait par **`rebase FETCH_HEAD`,
+jamais `reset --hard`** : après trois échecs de push le script promet que « la passe suivante
+reprendra le commit », et un reset l'aurait effacé en silence.
+
+**Vérifications.** `bash -n` propre, `npx tsc --noEmit` propre, `npm run integrity` propre,
+`protected-areas:selftest` et `biodiversity:selftest` verts. Surtout, le script a été **joué de bout
+en bout** contre un dépôt factice (origin nu, pipelines bouchons, `~/.nvm` reconstitué pour vérifier
+la réécriture du `PATH` de cron) sur cinq scénarios : `--status` sur une installation neuve ; dépôt
+**sale** → worktree, collecte, commit, push vers `origin/main` (le chemin qui était cassé) ; dépôt
+**propre** → chemin direct, commit sur `main` ; couverture **immobile depuis 72 h avec une étape en
+échec** → alerte écrite avec le bon corps ; et un **commit non poussé** déposé dans le worktree,
+retrouvé sur `origin/main` après la passe suivante. Le code de retour d'une étape en panne s'écrit
+maintenant `exit 7` et non `exit 0`.
+
+**Ce qui n'est toujours pas couvert.** Aucune donnée collectée : ce run répare le collecteur, il ne
+collecte pas — l'egress d'ici reste refusé et la consigne est de ne plus sonder. `overall` reste
+`null` sur les 540 villes, la richesse reste sans rang par décision du 10/08, et les trois slugs
+data.gouv.fr comme les noms d'attributs INPN restent `@unverified`. **Ce que ce run ne peut pas
+trancher** : laquelle des causes ci-dessus a réellement figé la machine du propriétaire — dépôt sale,
+`fetch` en échec, plancher de 15 Go non atteint, `ogr2ogr` absent, ou cron décroché. Les cinq sont
+plausibles depuis ici et aucune n'est observable à distance ; c'est précisément l'argument de
+l'alerte. **La prochaine passe le dira d'elle-même**, par e-mail — ou, en trois lignes et à la
+demande, par `scripts/local-data-runner.sh --status`, qui donne les trois couvertures, depuis quand
+chacune n'a pas bougé, la présence des couches INPN et celle d'`ogr2ogr`. Si le cron lui-même est
+décroché, rien de tout cela ne partira : c'est la première chose à vérifier (`crontab -l`).
+
 ### F63 — Qualité de l'air : passer du modèle à la mesure
 
 Demande utilisateur 2026-07-29 : *« beaucoup de requêtes en recherche Google »* sur la
