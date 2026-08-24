@@ -879,7 +879,7 @@ function rankPauvreEnSport(): RedFlagRow[] {
 // --- THEME 23 — Fiscalité immobilière lourde ---
 // Cible : villes des départements en tier fiscal `elevee`, `tres-elevee` ou
 // `particulier` (Paris) selon `lib/fiscalite` (DGFiP / OFL 2024). On amplifie
-// par le prix d'achat médian au m² (DVF / Meilleurs Agents) — un taux élevé
+// par le prix d'achat au m² de référence (`avgBuyPriceM2`) — un taux élevé
 // sur une base cadastrale faible reste supportable, c'est la combinaison
 // « taux élevé + base élevée » qui plombe vraiment le primo-accédant et le
 // propriétaire occupant. Bonus quand la commune est en zone tendue (THRS
@@ -2200,16 +2200,16 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
     title: "Villes où l'on regrette d'avoir acheté",
-    metaTitle: "Villes regrets d'achat 2026 — Où l'immobilier ne vaut pas le prix",
+    metaTitle: "Villes regrets d'achat 2026 — payer cher pour moins bien",
     metaDescription:
-      `Classement 2026 des villes françaises où le prix d'achat (DVF) dépasse largement la qualité de vie réelle. Score global, €/m² médian, climat. Données calibrées ${CITIES_SEED.length} villes.`,
+      `Classement 2026 des villes où le prix d'achat dépasse largement la qualité de vie réelle : score global, €/m² de référence, canicule et air. ${CITIES_SEED.length} villes.`,
     emoji: "💸",
     intro:
       "Sur le papier : marketing immobilier ronflant, agence qui promet « un investissement sûr », plaquettes office du tourisme. Sur le terrain : prix au m² qui ferait blêmir un Parisien, et une qualité de vie en réalité moyenne — voire dégradée par la canicule, l'air ou le bruit.",
     reality:
-      "Le calcul croise le prix d'achat médian par m² (DVF / Meilleurs Agents 2024) avec le score qualité de vie global du site, et pénalise les villes faibles en canicule ou en air. Toutes les villes affichées sont dans le quartile supérieur des prix (p75 national) ET ont un score global inférieur à 6,5/10 — la définition la plus exigeante du « payé trop cher ».",
+      "Le calcul croise le prix d'achat au m² de référence du site avec le score qualité de vie global, et pénalise les villes faibles en canicule ou en air. Toutes les villes affichées sont dans le quartile supérieur des prix (p75 national) ET ont un score global inférieur à 6,5/10, la définition la plus exigeante du « payé trop cher ».",
     methodology:
-      "Severity = 40% prix relatif au P75 + 40% écart au score global 6,5 + 20% bonus canicule/air faibles. Source prix : DVF (Demandes de Valeurs Foncières) + observatoires loyer 2024.",
+      "Severity = 40 % prix relatif au P75 + 40 % écart au score global 6,5 + 20 % bonus canicule/air faibles. Source prix : `avgBuyPriceM2` de `data/housing.ts`, repère éditorial unique tous biens confondus (appartements et maisons mêlés), pas une médiane de transactions. Le site publie aussi, depuis août 2026, les médianes DVF réellement enregistrées, appartement et maison séparément, sur la page logement de chaque ville et dans le classement « acheter hors de portée » : les deux nombres mesurent des choses différentes et peuvent diverger sans que l'un soit faux. C'est le repère éditorial qui trie ici, parce que ce thème a besoin d'un prix disponible pour les 540 villes, y compris les 26 communes d'Alsace-Moselle et de Mayotte que DVF ne couvre pas.",
     rank: rankRegrets,
   },
   {
@@ -2537,9 +2537,9 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     intro:
       "L'annonce vante le quartier qui monte, le bien rare, le prix au m² « encore raisonnable ». Personne ne sort le dernier avis de taxe foncière du vendeur, ni ne mentionne que la commune est en zone tendue (THRS majoration jusqu'à +60 % depuis 2023), ni que les DMTO ajouteront près de 6 % au prix d'achat le jour de la signature. La fiscalité immobilière ne se voit pas sur la plaquette — elle se découvre sur le premier appel de taxe foncière, six mois après l'emménagement.",
     reality:
-      "On classe les villes dont le département figure en tier `élevée` ou `très élevée` selon `lib/fiscalité` (DGFiP / Observatoire des finances locales 2024), Paris incluse comme cas particulier. On amplifie par le prix d'achat médian au m² (DVF / observatoires loyer 2024) — un taux élevé sur une base cadastrale faible reste supportable, c'est la combinaison « taux élevé + base élevée » qui plombe vraiment le primo-accédant. Bonus de gravité quand la commune est en zone tendue (THRS majoration disponible) et quand la densité urbaine tire les bases cadastrales vers le haut. Toutes les villes affichées dépassent 6,5/10 de severity composite.",
+      "On classe les villes dont le département figure en tier `élevée` ou `très élevée` selon `lib/fiscalité` (DGFiP / Observatoire des finances locales 2024), Paris incluse comme cas particulier. On amplifie par le prix d'achat au m² de référence du site (`avgBuyPriceM2`, `data/housing.ts`) : un taux élevé sur une base cadastrale faible reste supportable, c'est la combinaison « taux élevé + base élevée » qui plombe vraiment le primo-accédant. Bonus de gravité quand la commune est en zone tendue (THRS majoration disponible) et quand la densité urbaine tire les bases cadastrales vers le haut. Toutes les villes affichées dépassent 6,5/10 de severity composite.",
     methodology:
-      "Severity = base tier (`élevée` 6 / `très élevée` 8 / Paris 7,5) + bonus prix (3 000 €/m² → 0, 6 000 €/m² → +2) + 0,8 si zone tendue + max(0 ; log₁₀(pop/50 000) × 1,05) plafonné à +1,5. Clampé à 10/10, filtré à severity ≥ 6,5. Sources : DGFiP cahiers OFL 2024 (taux moyens taxe foncière par dépt), décrets zone tendue 2023 (THRS), DVF + observatoires loyer 2024 (prix au m²), INSEE (population). Caveat : la taxe foncière communale varie de ±30 % autour de la moyenne dépt — vérifier impérativement l'avis du vendeur.",
+      "Severity = base tier (`élevée` 6 / `très élevée` 8 / Paris 7,5) + bonus prix (3 000 €/m² → 0, 6 000 €/m² → +2) + 0,8 si zone tendue + max(0 ; log₁₀(pop/50 000) × 1,05) plafonné à +1,5. Clampé à 10/10, filtré à severity ≥ 6,5. Sources : DGFiP cahiers OFL 2024 (taux moyens taxe foncière par dépt), décrets zone tendue 2023 (THRS), `data/housing.ts` (prix au m² de référence, tous biens confondus, pas une médiane de transactions — les médianes DVF mesurées figurent sur la page logement de chaque ville), INSEE (population). Caveat : la taxe foncière communale varie de ±30 % autour de la moyenne dépt — vérifier impérativement l'avis du vendeur.",
     rank: rankFiscaliteLourde,
   },
   {
