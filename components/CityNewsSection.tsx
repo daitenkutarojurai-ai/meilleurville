@@ -8,6 +8,7 @@ import {
   isCityNewsStale,
   newsPartialThrough,
   NEWS_WINDOW_MONTHS,
+  NEWS_REFRESH_INTERVAL_DAYS,
   type CityNewsEntry,
 } from "@/lib/city-news";
 
@@ -167,18 +168,30 @@ export function CityNewsSection({
             `Sources : ${sources.join(", ")} · ${licences.join(" · ")} · consultables librement.`,
             `Sources: ${sources.join(", ")} · ${licences.join(" · ")} · openly available.`,
           )}
+          {/* The date is published as a CEILING, not as a badge of freshness.
+              "Mis à jour le 4 août" reads as reassurance and stops being the
+              point the day the collector dies — which it did on 2026-08-05,
+              while 527 city pages went on saying it for three weeks. "Relevé
+              arrêté au 4 août" says the same date and the thing the reader
+              actually needs: the list has a top, and nothing published above it
+              was counted. True on day one, still true on day two hundred. The
+              overdue sentence is then an addition, not a substitution. */}
           {refreshedAt ? (
             <>
               {" "}
-              {stale
-                ? L(
-                    `Dernier rafraîchissement réussi le ${newsDateLabel(refreshedAt, locale)} — les chiffres ci-dessus n'ont pas été revérifiés depuis.`,
-                    `Last successful refresh on ${newsDateLabel(refreshedAt, locale)} — the figures above have not been re-checked since.`,
-                  )
-                : L(
-                    `Mis à jour le ${newsDateLabel(refreshedAt, locale)}.`,
-                    `Updated on ${newsDateLabel(refreshedAt, locale)}.`,
+              {L(
+                `Relevé arrêté au ${newsDateLabel(refreshedAt, locale)} : ce qui a été publié après cette date n'est pas compté ici.`,
+                `Counted up to ${newsDateLabel(refreshedAt, locale)}: anything published after that date is not counted here.`,
+              )}
+              {stale ? (
+                <>
+                  {" "}
+                  {L(
+                    `Le relevé est repris tous les ${NEWS_REFRESH_INTERVAL_DAYS} jours ; il ne l'a pas été depuis.`,
+                    `The count is retaken every ${NEWS_REFRESH_INTERVAL_DAYS} days; it has not been retaken since.`,
                   )}
+                </>
+              ) : null}
             </>
           ) : null}
         </p>

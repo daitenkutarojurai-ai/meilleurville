@@ -1246,6 +1246,24 @@ async function selftest() {
   check("batch: --slug overrides everything",
     pickBatch(seed, cities, NOW, { onlySlug: "fresh" }).map((c) => c.slug), ["fresh"]);
 
+  // — the surface quotes this collector's cadence; keep the two pinned —
+  //
+  // lib/city-news.ts tells the reader "le relevé est repris tous les N jours",
+  // and sizes its staleness threshold from the same number. Nothing else ties
+  // that N to DUE_AFTER_DAYS, so changing the interval here would silently turn
+  // the sentence on the page into a false statement about our own schedule.
+  // Read as text rather than imported: the lib is TypeScript and this is a .mjs
+  // run by node with no loader.
+  const libSrc = await fs.readFile(path.join(ROOT, "lib", "city-news.ts"), "utf8");
+  const declared = Number(/NEWS_REFRESH_INTERVAL_DAYS\s*=\s*(\d+)/.exec(libSrc)?.[1]);
+  check("the surface quotes the collector's real refresh interval",
+    declared, DUE_AFTER_DAYS);
+  // The threshold must sit above one full cycle (due + at most a ~1.5-day
+  // sweep) or it fires on rows that are merely waiting their turn.
+  const staleAfter = Number(/STALE_AFTER_DAYS\s*=\s*(\d+)/.exec(libSrc)?.[1]);
+  check("staleness threshold cannot fire on an on-schedule row",
+    staleAfter > DUE_AFTER_DAYS + 2, true);
+
   const failed = results.filter((r) => !r).length;
   log(failed ? `\n${failed} check(s) FAILED of ${results.length}` : `\nall ${results.length} checks passed`);
   return failed;

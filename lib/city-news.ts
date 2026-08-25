@@ -26,8 +26,15 @@
 // at read time against the build date. The second pass is what protects us when
 // the weekly refresh routine breaks: a JSON committed 14 months ago yields zero
 // in-window entries, so the section disappears instead of presenting stale
-// filings as current. `NEWS_REFRESHED_AT` / `isNewsStale()` let the surface say
-// when it last managed to refresh rather than pretending it just did.
+// filings as current.
+//
+// Between those two states there is a long middle where the file is neither
+// current nor out of window, and that is where the surface has to be careful:
+// what it publishes is a list with a CEILING, and the ceiling is
+// `cityNewsRefreshedAt()`. It is stated on every render, in the shape of a
+// cut-off ("counted up to X") rather than an update ("updated on X"), because
+// only the first wording keeps meaning something the day the collector dies.
+// `isCityNewsStale()` then adds that the refresh has not run since.
 //
 // Licence is carried per ENTRY, not per file: the three sources are all Licence
 // Ouverte today, but the schema must not assume the fourth one will be.
@@ -102,25 +109,42 @@ export const NEWS_CRAWLED_SLUGS = Object.keys(CITIES);
 export const NEWS_CITY_COUNT = NEWS_CRAWLED_SLUGS.length;
 
 /**
- * Beyond this, the surface must say "last successful refresh" instead of
- * "updated".
+ * Beyond this, the surface adds that the refresh has not run since — on top of
+ * the cut-off date, which it states unconditionally (see below).
  *
- * It is deliberately much looser than the crawler's DUE_AFTER_DAYS (14), so it
- * cannot fire while a city is merely waiting its turn. A threshold of 21 days
- * would label cities stale for being on schedule, which trains readers to
- * ignore the warning on the day it matters.
+ * The arithmetic, done properly this time. The collector is `npm run news` at
+ * `--limit=180`, fired twice a day by scripts/local-data-runner.sh (02h20 and
+ * 14h20 UTC), i.e. 360 refreshes a day for 540 rows. A row becomes due at
+ * DUE_AFTER_DAYS (14); the whole due queue can never exceed 540 rows, so it is
+ * drained within 1.5 days of a row coming due. A healthy row therefore peaks at
+ * ~16 days, never more.
  *
- * The margin is larger than intended, though, and the arithmetic that set it
- * was wrong: it assumed ~180 cities per WEEKLY run, hence a rotation of about
- * three weeks. The collector actually runs twice a day (~360 cities/day), and
- * the file bears that out — all 540 cities were first collected across two
- * consecutive days. So a healthy row is never older than DUE_AFTER_DAYS plus
- * one ~2-day sweep, i.e. ~16 days, and 45 is roughly three healthy cycles
- * rather than the two it was described as. Loose, not wrong: it still never
- * fires on a working pipeline, it just takes six weeks to notice a dead one.
- * Tightening it towards ~30 is a separate, deliberate change.
+ * 21 is that bound plus a full week: the collector can miss nine consecutive
+ * passes before a reader is told anything, so this cannot fire on a pipeline
+ * that is merely running late, and it never fires on one that is on schedule.
+ *
+ * It replaces 45, which was set from a wrong premise (~180 cities per WEEKLY
+ * run, hence a three-week rotation) and took six weeks to notice a dead
+ * collector. That margin was not theoretical: the collector stopped after the
+ * 2026-08-05 sweep and, twenty days later, all 527 cities carrying the section
+ * still read "Mis à jour le 4 août 2026" — the wording reserved for a pipeline
+ * that is working.
+ *
+ * The threshold only governs that extra sentence. What protects the reader
+ * before it fires is that the surface states `cityNewsRefreshedAt()` as a
+ * CUT-OFF from day one — the date is a fact about the data, not a verdict on
+ * the plumbing, and "counted up to 4 August" stays true forever where "updated
+ * on 4 August" quietly stops being the point.
  */
-const STALE_AFTER_DAYS = 45;
+const STALE_AFTER_DAYS = 21;
+
+/**
+ * The crawler's own refresh interval, in days — quoted on the surface so a
+ * reader can tell an overdue row from a fresh one without knowing our
+ * schedule. Mirrors DUE_AFTER_DAYS in scripts/city-news.mjs; the two are
+ * pinned together by news:selftest.
+ */
+export const NEWS_REFRESH_INTERVAL_DAYS = 14;
 
 function daysBetween(from: string, to: Date): number {
   const a = Date.parse(`${from}T00:00:00Z`);

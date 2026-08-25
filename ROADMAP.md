@@ -637,7 +637,7 @@ recensées à proximité, zones protégées.
 |---|---------|------|------|-----|--------|
 | F62 | **Score Biodiversité** (pipeline GBIF + INPN → sous-page ×540 + classement) | **P0** | **L** | **high** | 🚧 en cours — GBIF **540/540** (crawl clos 09/08), sous-pages en ligne des deux locales, **rang de richesse retiré le 10/08** (il classait les programmes de saisie) ; zones protégées **0/540**, ingest + téléchargement branchés sur le cron local le 17/08, `overall` `null` tant que cette composante manque |
 | F63 | **Qualité de l'air — du modèle à la mesure** (ATMO + Geod'Air, hub + classement) | **P0** | **M** | **high** | 🔜 à faire |
-| F64 | **Actualité locale par ville** (open data BODACC/JO/CatNat → section CityProfile + routine hebdo) | **P1** | **M** | **low** | ✅ **en ligne — 540/540 villes, 4 212 entrées** (BODACC 4 172 + CatNat 40), collectées par le cron local les 04-05/08. Section rendue sur les deux locales. RNA toujours désactivé (0 association). Mois partiel marqué depuis le 11/08. **Filtre commune corrigé le 18/08** (`QUERY_VERSION = 2`) : les 10 villes dont le nom de seed porte une parenthèse — les Saint-X de La Réunion, Le Robert, Le François, Saint-Louis 68 — sortaient à **zéro entrée sur douze mois** ; recollecte des 540 au prochain lot local. 2 vides encore inexpliquées (dinan, selestat) |
+| F64 | **Actualité locale par ville** (open data BODACC/JO/CatNat → section CityProfile + routine hebdo) | **P1** | **M** | **low** | ✅ **en ligne — 540/540 villes, 4 212 entrées** (BODACC 4 172 + CatNat 40), collectées par le cron local les 04-05/08. Section rendue sur les deux locales. RNA toujours désactivé (0 association). Mois partiel marqué depuis le 11/08. **Filtre commune corrigé le 18/08** (`QUERY_VERSION = 2`) : les 10 villes dont le nom de seed porte une parenthèse — les Saint-X de La Réunion, Le Robert, Le François, Saint-Louis 68 — sortaient à **zéro entrée sur douze mois** ; recollecte des 540 attendue au prochain lot local. 2 vides encore inexpliquées (dinan, selestat). ⚠️ **Données gelées au 05/08 : le collecteur n'a rien produit depuis 20 jours**, ni après le `QUERY_VERSION = 2` du 18/08 ni après la réparation du runner du 24/08 (deux créneaux écoulés, aucun commit) — la cause restante est la machine du propriétaire, pas le dépôt. Le 25/08 a rendu la section honnête sans elle : la date est publiée comme un **plafond** (« Relevé arrêté au… ») et non plus comme un « Mis à jour », et `STALE_AFTER_DAYS` passe de 45 à **21** (~16 j = âge sain maximum, + une semaine de marge) |
 
 ### F62 — Score Biodiversité
 
@@ -1604,6 +1604,74 @@ courent d'octobre 2025 à août 2026. `npm run integrity` vert (540 villes, 4 21
 et EN) : 12 contrôles verts, dont l'absence de fuite de français côté EN, le marquage
 « partiel » du mois d'août, `rel="nofollow"` sur tous les liens, et le fait qu'une donnée
 de 13 jours n'est **pas** étiquetée périmée.
+
+#### État au 2026-08-25 — la date était publiée comme un gage de fraîcheur, elle est publiée comme un plafond
+
+**Le collecteur n'a rien produit depuis vingt jours, et la section disait « Mis à jour ».**
+`refreshedAt` vaut toujours **2026-08-05** : ni le `QUERY_VERSION = 2` du 18/08 (qui devait
+rejouer les 540 villes au lot suivant) ni la réparation du runner du 24/08 n'ont donné lieu
+à la moindre passe. Deux créneaux se sont écoulés depuis cette réparation — 24/08 14h20 et
+25/08 02h20 — sans un commit de données. Le fichier est donc gelé au 04-05/08 : les dix
+Saint-X du correctif précédent restent à zéro entrée, et rien de ce que le BODACC a publié
+depuis trois semaines n'est compté.
+
+**Ce que 527 pages ville affirmaient pendant ce temps** : « Mis à jour le 4 août 2026. »
+C'est la formule réservée à un pipeline qui marche, et le seuil qui la gouvernait
+(`STALE_AFTER_DAYS = 45`) ne pouvait pas la retirer avant le **19 septembre** — le run du
+18/08 avait calculé cette marge, écrit qu'elle « met six semaines à signaler un pipeline
+mort », et laissé délibérément le resserrage à un run suivant. Le pipeline est mort dans
+l'intervalle : c'est ce run-là.
+
+**Le correctif, et pourquoi il ne porte pas sur le seuil en premier.** Un seuil répond à
+« faut-il alerter ? », qui est un jugement sur la plomberie. Le lecteur, lui, a besoin d'un
+fait sur la donnée : **cette liste a un plafond**. Les deux étaient confondus. La date est
+donc désormais publiée **inconditionnellement comme un plafond** —
+« Relevé arrêté au 4 août 2026 : ce qui a été publié après cette date n'est pas compté
+ici. » / « Counted up to 4 August 2026: anything published after that date is not counted
+here. » Même date, même octet de donnée, mais l'énoncé reste vrai au premier jour comme au
+deux-centième, là où « Mis à jour le 4 août » cesse d'être le sujet dès le lendemain. Ça
+compte surtout pour les **75 villes dont la ligne la plus récente est juillet 2026** : elles
+n'ont aucun marqueur « partiel » pour avertir, leur liste s'arrête simplement, et
+« Mis à jour » invitait à lire ce silence comme « août : rien à signaler ».
+
+**Puis le seuil, avec l'arithmétique réelle.** `STALE_AFTER_DAYS` passe de **45 à 21**.
+Le collecteur tourne à `--limit=180` deux fois par jour, soit 360 rafraîchissements/jour
+pour 540 lignes ; une ligne échoit à `DUE_AFTER_DAYS` (14) et la file d'échéance, qui ne
+peut pas dépasser 540 lignes, se vide en 1,5 jour. Une ligne saine plafonne donc à ~16
+jours. 21 = cette borne **plus une semaine entière** : le collecteur peut sauter neuf
+passes consécutives avant qu'on dise quoi que ce soit au lecteur, donc aucun risque de
+crier au loup sur une ligne qui attend son tour — et le délai de détection tombe de six
+semaines à trois. La phrase ajoutée quand le seuil se déclenche cite la cadence
+(« Le relevé est repris tous les 14 jours ; il ne l'a pas été depuis »), pour que le lecteur
+calibre sans connaître notre planning.
+⚠️ Le seuil **ne se déclenche pas le jour de ce run** (20-21 jours d'âge, il faut passer
+21) et c'est voulu : le nombre sort du calcul de cadence, pas d'un ajustement pour tomber
+sur aujourd'hui. Il parlera à partir du 26-27/08 si le collecteur reste muet. Le gain
+immédiat, lui, est dans la formulation, qui ne dépend d'aucun seuil.
+
+**La garde.** `news:selftest` passe de 56 à **58 contrôles**, toujours zéro réseau. Rien ne
+reliait la cadence citée sur la page à `DUE_AFTER_DAYS` : la lib est du TypeScript, le
+script du `.mjs` lancé sans loader, donc le selftest **lit `lib/city-news.ts` comme texte**
+et épingle `NEWS_REFRESH_INTERVAL_DAYS` sur `DUE_AFTER_DAYS`. Sans ça, changer l'intervalle
+du collecteur transformerait silencieusement la phrase affichée en fausse déclaration sur
+notre propre planning. Le second contrôle interdit qu'un futur seuil descende sous un cycle
+complet (`> DUE_AFTER_DAYS + 2`), c'est-à-dire qu'il se déclenche sur une ligne à l'heure.
+
+**Vérifications.** `npx tsc --noEmit` propre, `npm run integrity` vert (540 villes, 4 212
+entrées), `news:selftest` 58/58, `news:prune` ne trouve toujours rien hors fenêtre (les
+entrées courent d'octobre 2025 à août 2026, la fenêtre remonte au 25/08/2025). Simulation
+sur les 540 villes réelles au 25/08 : 527 sections rendues, 13 masquées, 0 marquée en
+retard ; rejouée au 27/08, les 527 le sont.
+
+**Ce que le prochain run doit regarder en premier.** Si `news:stats` annonce encore
+`last refresh: 2026-08-05`, le problème n'est plus dans ce dépôt : le script du runner a été
+réparé et rejoué au banc d'essai le 24/08, donc ce qui reste est la machine du propriétaire
+(cron non chargé, machine éteinte, dépôt local dans un état que la réparation n'a pas
+prévu). Rien de tout ça n'est observable d'ici — c'est exactement ce que l'alerte e-mail
+ajoutée le 24/08 doit produire, et son silence est en soi une information. Ne pas
+« corriger » le pipeline une quatrième fois à l'aveugle : les trois défauts BODACC connus
+ont tous été trouvés contre l'API réelle, aucun ne l'a été par relecture. Et ne pas toucher
+à `dinan` / `selestat` sans réponse d'API (cf. section du 18/08).
 
 ---
 
