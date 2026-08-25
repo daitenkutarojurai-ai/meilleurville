@@ -48975,6 +48975,378 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Vincennes", "activités Vincennes 2026", "que faire en Val-de-Marne", "sorties près de Paris", "château donjon Sainte-Chapelle bois de Vincennes Parc floral"]
   },
+  {
+    slug: "10-choses-a-faire-a-salon-de-provence-2026",
+    title: "10 choses à faire à Salon-de-Provence",
+    metaTitle: "10 choses à faire à Salon-de-Provence en 2026",
+    metaDesc: "Château et musée de l'Empéri, maison et tombeau de Nostradamus, fontaine moussue, savonnerie Marius Fabre, Patrouille de France : 10 activités à Salon.",
+    category: "tourisme",
+    emoji: "🔮",
+    readMinutes: 7,
+    publishedAt: "2026-08-25",
+    updatedAt: "2026-08-25",
+    intro: "Salon-de-Provence compte un peu moins de 44 600 habitants au recensement de 2022 et occupe une position que peu de villes de cette taille peuvent revendiquer : à peu près à égale distance d'Aix, d'Arles et d'Avignon, entre les Alpilles et l'étang de Berre. C'est aussi la ville où Nostradamus a passé les vingt dernières années de sa vie et où il est enterré, et la base de la Patrouille de France depuis 1964. Deux notoriétés mondiales, une forteresse médiévale intacte au milieu du centre — et une ville que la plupart des visiteurs de Provence traversent sans s'arrêter. Ce guide dit ce qu'il y a à voir, et surtout ce qui se visite vraiment.",
+    sections: [
+      {
+        heading: "1. Le château de l'Empéri",
+        body: "Il domine le centre depuis le rocher du Puech et compte parmi les trois plus grandes forteresses de Provence — c'est la plus ancienne des trois. Bâti entre le Xe et le XIVe siècle, il a été le fief des archevêques d'Arles, qui en ont fait leur résidence principale pendant plusieurs siècles. Cela explique son état de conservation : un château habité sans interruption ne s'écroule pas. Son nom vient de la suzeraineté du Saint-Empire romain germanique sur la Provence, l'« Empéri ». On y monte à pied depuis le centre, la côte est courte, et la cour intérieure vaut à elle seule le déplacement."
+      },
+      {
+        heading: "2. Le musée de l'Empéri, dans le château",
+        body: "Le château abrite un musée d'art et d'histoire militaires qui couvre les armées françaises du XVIIIe siècle à la Première Guerre mondiale : uniformes, armes blanches et à feu, coiffures, drapeaux, équipements, objets personnels. L'ensemble vient de la collection réunie par deux frères marseillais, Raoul et Jean Brunon, à partir du début du XXe siècle ; Raoul meurt pendant la Grande Guerre, Jean poursuit seul dans l'entre-deux-guerres. En 1967, un accord entre les ministères concernés, le musée de l'Armée, la ville et Jean Brunon fait entrer la collection dans les collections nationales, déposée à Salon. Ce n'est pas une salle d'appoint dans un monument : c'est la raison d'y monter."
+      },
+      {
+        heading: "3. La maison de Nostradamus",
+        body: "Michel de Nostredame, né en 1503, achète cette maison en 1547 pour y fonder une famille avec Anne Ponsard. Il y écrit l'essentiel de son œuvre et y meurt en 1566. La ville, propriétaire des lieux, en a fait un musée en 1992, doté du label Maison des Illustres et d'un parcours audioguidé. Précision utile pour ne pas se tromper d'attente : ce n'est pas un intérieur d'époque conservé, c'est une scénographie. Elle a le mérite de montrer le médecin et l'astrophile du XVIe siècle, contemporain de Rabelais et correspondant des grands de son temps, plutôt que le devin de bazar auquel les almanachs l'ont réduit."
+      },
+      {
+        heading: "4. La collégiale Saint-Laurent et le tombeau",
+        body: "À deux minutes à pied de la maison, la collégiale Saint-Laurent est un exemple franc de gothique méridional, reconstruite au XVe siècle après l'effondrement de l'édifice précédent, et classée monument historique depuis 1840. Elle abrite le tombeau de Nostradamus — qui n'y a pas toujours été. Il avait d'abord été inhumé au couvent des Cordeliers de Salon ; l'église a été détruite à la Révolution, et la dépouille transférée ici. Le trio château, maison, collégiale se boucle en une matinée sans jamais reprendre la voiture, ce qui est rare en Provence."
+      },
+      {
+        heading: "5. La fontaine moussue et le centre ancien",
+        body: "La grande fontaine de la place Crousillat est la mascotte de la ville. Le monument actuel a été élevé en 1775 par le sculpteur Maurice Bernus, et l'eau calcaire a fait le reste : mousse et concrétions l'ont peu à peu recouverte au point de lui donner sa silhouette de champignon, d'où son surnom. Elle servait d'abreuvoir aux troupeaux en transhumance. Autour, le centre ancien tient dans un mouchoir de poche : ruelles, places plantées, terrasses. C'est la partie de Salon qu'on peut faire sans plan, et le meilleur moment pour la faire est le matin, avant que le soleil ne prenne la place."
+      },
+      {
+        heading: "6. La savonnerie Marius Fabre",
+        body: "Marius Fabre fonde sa savonnerie à Salon en 1900. Elle fabrique toujours, sur place, du savon de Marseille à l'huile d'olive et du savon noir, et elle se visite : chaudrons, cuisson, séchage, découpe, plus un musée du savon de Marseille. Un point qui donne son sens à la visite : le savon de Marseille n'est protégé par aucune appellation, n'importe quel produit peut en porter le nom. Voir la fabrication là où elle a lieu encore est donc la seule façon simple de comprendre ce que recouvre l'étiquette. Salon a bâti sa prospérité sur l'huile et le savon, cette savonnerie en est le dernier témoin en activité au centre."
+      },
+      {
+        heading: "7. Musique à l'Empéri, chaque été",
+        body: "Le festival international de musique de chambre de Salon a été créé en 1993 par Éric Le Sage, Paul Meyer et Emmanuel Pahud. Il réunit chaque été une trentaine de solistes dans la cour Renaissance du château, dont l'acoustique est devenue presque aussi réputée que la programmation elle-même. C'est un festival de musique de chambre au sens strict, pas un festival de plein air à grand spectacle : petits effectifs, public proche, programmes construits. Les dates et la billetterie changent d'une année sur l'autre, elles se vérifient auprès du festival avant de réserver un hébergement."
+      },
+      {
+        heading: "8. La Patrouille de France et la base aérienne 701",
+        body: "La Patrouille de France est stationnée à Salon-de-Provence depuis 1964, et la base aérienne 701 abrite l'École de l'air, qui forme les officiers de l'armée de l'Air et de l'Espace. Précision qui évite un déplacement pour rien : c'est une emprise militaire, on n'y entre pas librement, et les journées portes ouvertes ou meetings sont annoncés par l'armée de l'Air quand il y en a. Ce qui est accessible à tout le monde, en revanche, ce sont les entraînements au-dessus de la plaine. Ils se regardent depuis le sol, ils sont fréquents hors saison de tournée, et ils ne coûtent rien."
+      },
+      {
+        heading: "9. L'eau, l'huile et la plaine de la Crau",
+        body: "Salon n'a pas poussé là par hasard, et c'est une histoire d'eau. Au XVIe siècle, l'ingénieur salonais Adam de Craponne fait dériver l'eau de la Durance pour irriguer la Crau, plaine de galets réputée stérile, et transforme un désert de cailloux en terre agricole. Le canal qui porte son nom traverse toujours le pays et fait vivre le foin de Crau et l'oléiculture locale. C'est le genre d'ouvrage qu'on ne visite pas comme un monument, mais que l'on croise partout dès qu'on sort de la ville : biefs, moulins, alignements de platanes. La compréhension du paysage passe par lui."
+      },
+      {
+        heading: "10. Y aller, et en faire une base",
+        body: "Salon est desservie par l'autoroute et par le TER, à mi-chemin des trois villes que tout le monde vient voir en Provence. C'est précisément ce qui en fait une base sérieuse : hébergement moins cher qu'à Aix ou en Arles, ville qui vit à l'année et pas seulement en juillet, et les Alpilles, Arles, Aix, Avignon et l'étang de Berre à moins d'une heure. Le noyau à voir sur place — château, musée, maison de Nostradamus, collégiale, fontaine — se fait à pied en une demi-journée. Un conseil de saison : la ville est très exposée au soleil et au mistral, il vaut mieux visiter tôt."
+      }
+    ],
+    relatedCities: ["salon-de-provence", "aix-en-provence", "arles", "marseille"],
+    relatedGuides: [
+      "10-choses-a-faire-a-aix-en-provence-2026",
+      "10-choses-a-faire-a-arles-2026",
+      "10-choses-a-faire-a-avignon-2026",
+      "10-choses-a-faire-a-marseille-2026"
+    ],
+    tags: ["10 choses à faire à Salon-de-Provence", "activités Salon-de-Provence 2026", "que faire en Provence", "sorties Bouches-du-Rhône", "château Empéri Nostradamus fontaine moussue Marius Fabre Patrouille de France"]
+  },
+  {
+    slug: "10-choses-a-faire-a-saint-quentin-2026",
+    title: "10 choses à faire à Saint-Quentin",
+    metaTitle: "10 choses à faire à Saint-Quentin en 2026",
+    metaDesc: "Basilique gothique, hôtel de ville flamboyant et Art déco, pastels de Quentin de La Tour, marais d'Isle, mémoire de 1918 : 10 activités à Saint-Quentin.",
+    category: "tourisme",
+    emoji: "🎨",
+    readMinutes: 7,
+    publishedAt: "2026-08-25",
+    updatedAt: "2026-08-25",
+    intro: "Saint-Quentin, environ 53 000 habitants au recensement de 2022, est la ville la plus peuplée de l'Aisne et l'une des grandes oubliées du tourisme français. Elle a deux raisons d'être vue, et elles se contredisent : une église gothique parmi les plus vastes du nord de la France, et un centre reconstruit dans les années 1920 après avoir été détruit pendant la Première Guerre mondiale. Résultat, on passe d'un chœur du XIIIe siècle à une façade Art déco en traversant une rue. À cela s'ajoute la plus grosse collection de pastels de Maurice-Quentin de La Tour au monde, et une réserve naturelle en pleine ville. Ce guide dit dans quel ordre prendre tout ça.",
+    sections: [
+      {
+        heading: "1. La basilique",
+        body: "Elle est bâtie du XIIe au XVe siècle, ce qui se lit dans l'élévation : les campagnes successives y ont empilé les états du gothique, du plus sobre au plus travaillé. C'est la plus grande église gothique des Hauts-de-France après la cathédrale d'Amiens, et on la surnomme « la septième cathédrale de Picardie » alors qu'elle n'a jamais été siège d'évêché — d'où le titre de basilique et non de cathédrale. Le vaisseau est énorme, le double transept rare, et l'échelle du lieu surprend d'autant plus qu'on ne l'attend pas dans une ville de cette taille. L'édifice a beaucoup souffert de la guerre de 1914-1918 et a été restauré ensuite."
+      },
+      {
+        heading: "2. L'hôtel de ville, gothique flamboyant puis Art déco",
+        body: "Le chantier commence en 1331 et s'achève en 1509 : la façade est un morceau de gothique flamboyant à influence flamande, sur trois niveaux, avec ses arcades, ses gâbles et ses dais. C'est déjà remarquable, et ce n'est que la moitié de l'histoire. Le bâtiment est ravagé pendant la Première Guerre mondiale, puis restauré en 1926 par l'architecte Louis Guindez, qui traite l'intérieur en Art déco. On entre donc par une façade du XVIe siècle pour trouver des salles des années 1920. Cette collision, c'est Saint-Quentin en un seul bâtiment, et elle se visite."
+      },
+      {
+        heading: "3. Le circuit Art déco de la ville reconstruite",
+        body: "La ville a été occupée puis systématiquement détruite pendant la Grande Guerre, et reconstruite dans les années qui ont suivi, au moment exact où l'Art déco s'imposait. D'où un centre entier dessiné dans un même vocabulaire : ferronneries, mosaïques, verrières, bow-windows, motifs géométriques en façade, jusque sur des immeubles de rapport très ordinaires. C'est l'un des ensembles Art déco les plus cohérents de France, et il est en accès libre puisqu'il est dans la rue. L'office de tourisme propose un parcours balisé ; sans lui, on passe devant sans lever la tête, ce qui est exactement le problème de cette ville."
+      },
+      {
+        heading: "4. Le musée Antoine-Lécuyer et les pastels de La Tour",
+        body: "Antoine Lécuyer (1793-1878), banquier saint-quentinois, lègue son hôtel particulier à la ville en 1876 pour y présenter une collection exceptionnelle : les pastels de Maurice-Quentin de La Tour (1704-1788), né et mort à Saint-Quentin, provenant du fonds d'atelier de l'artiste. C'est la plus grande collection de pastels de La Tour au monde. Voir ensemble une centaine de portraits d'un même praticien, y compris des préparations non achevées, donne quelque chose qu'aucun musée généraliste ne peut donner : on suit la main. Le musée présente aussi d'autres collections de beaux-arts, mais c'est pour La Tour qu'on vient."
+      },
+      {
+        heading: "5. Le monument aux morts",
+        body: "Il est inauguré le 31 juillet 1927 et il n'a rien d'un monument communal ordinaire : un mur de granit d'une trentaine de mètres de long et de plusieurs mètres de haut, scandé de baies et de pilastres, réalisé par l'architecte Paul Bigot avec les sculpteurs Henri Bouchard et Paul Landowski. Landowski — celui du Christ de Rio — signe notamment le bas-relief de 1870 et les extrémités de la frise centrale, dont l'exode de la population civile. Le grand bas-relief central est consacré au combat de tranchée et à l'exode de mars 1917. Dans une ville détruite puis reconstruite, ce mur est le document, pas la décoration."
+      },
+      {
+        heading: "6. La réserve naturelle des marais d'Isle",
+        body: "Créée en 1981, la réserve naturelle nationale des marais d'Isle protège 47 hectares de zone humide — et elle est en pleine agglomération, ce qui est rare pour une réserve de ce statut. Roselières, plans d'eau, prairies humides : c'est une halte migratoire et une zone de reproduction pour de nombreux oiseaux, et un observatoire permet de regarder sans déranger. On y va pour ce qui vole, pas pour le paysage spectaculaire. Les milieux sont fragiles et la fréquentation encadrée : les sentiers balisés ne sont pas une suggestion, ils sont ce qui permet à la réserve d'exister au milieu d'une ville."
+      },
+      {
+        heading: "7. Le parc d'Isle et la sortie en bacôve",
+        body: "Autour de la réserve, le parc d'Isle offre la version promenade du même milieu : chemins, plans d'eau, aires de jeux, et un accès facile depuis le centre. Le meilleur moyen de comprendre un marais reste toutefois d'y entrer par l'eau. Des sorties en bacôve — la barque à fond plat traditionnelle des marais du Nord, menée à la perche — sont organisées sur le site. C'est lent, c'est silencieux, et c'est ce qui met le visiteur à la hauteur des berges plutôt qu'au-dessus. Les créneaux sont saisonniers et limités : on réserve, on ne se présente pas au bord de l'eau."
+      },
+      {
+        heading: "8. Le canal et les quais",
+        body: "Le canal de Saint-Quentin traverse la ville et relie le bassin de l'Escaut à celui de l'Oise, ce qui a fait de Saint-Quentin, pendant tout le XIXe siècle, un nœud de transport de charbon et de céréales entre le Nord et Paris. Le port de plaisance et les berges aménagées se parcourent à pied ou à vélo, et donnent une lecture directe de ce que la ville a été : une place industrielle et textile, pas une ville d'art. Les deux ne s'opposent pas — c'est cette richesse-là qui a permis le legs Lécuyer et la reconstruction ambitieuse des années 1920."
+      },
+      {
+        heading: "9. Les champs de bataille de 1918, au nord",
+        body: "Saint-Quentin est au cœur du secteur de la ligne Hindenburg, position fortifiée allemande enfoncée à l'automne 1918 par les troupes britanniques, australiennes et américaines. Les mémoriaux, cimetières militaires et vestiges se trouvent au nord de la ville, dans un rayon de quelques kilomètres, et se visitent en une demi-journée en voiture. Ce n'est pas un supplément touristique : c'est la raison pour laquelle le centre-ville que l'on visite date des années 1920. Faire l'un sans l'autre revient à regarder une reconstruction sans savoir de quoi elle est la réponse."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Saint-Quentin est reliée directement à Paris-Nord par le train et se trouve sur les axes routiers qui montent vers Lille et la Belgique, ce qui en fait une étape naturelle plutôt qu'une destination de séjour long. Compter une journée pleine pour la basilique, l'hôtel de ville, le musée Lécuyer et le circuit Art déco, une demi-journée de plus pour les marais et une autre pour le secteur de 1918. La ville est peu chère et rarement saturée, ce qui a un avantage concret : on visite le musée Lécuyer à peu près seul, ce qui ne se produit dans aucune collection comparable."
+      }
+    ],
+    relatedCities: ["saint-quentin", "amiens", "laon", "reims"],
+    relatedGuides: [
+      "10-choses-a-faire-a-amiens-2026",
+      "10-choses-a-faire-a-laon-2026",
+      "10-choses-a-faire-a-compiegne-2026",
+      "10-choses-a-faire-a-reims-2026"
+    ],
+    tags: ["10 choses à faire à Saint-Quentin", "activités Saint-Quentin 2026", "que faire dans l'Aisne", "sorties Hauts-de-France", "basilique Art déco pastels La Tour marais d'Isle ligne Hindenburg"]
+  },
+  {
+    slug: "10-choses-a-faire-a-brive-la-gaillarde-2026",
+    title: "10 choses à faire à Brive-la-Gaillarde",
+    metaTitle: "10 choses à faire à Brive-la-Gaillarde en 2026",
+    metaDesc: "Marché sous la halle Brassens, collégiale et crypte, musée Labenche, distillerie Denoix, musée Michelet, Foire du livre : 10 activités à Brive-la-Gaillarde.",
+    category: "tourisme",
+    emoji: "🛒",
+    readMinutes: 7,
+    publishedAt: "2026-08-25",
+    updatedAt: "2026-08-25",
+    intro: "Brive-la-Gaillarde compte environ 46 800 habitants au recensement de 2022 et souffre d'un malentendu : beaucoup de gens connaissent le nom par une chanson de Brassens ou par le rugby, et croient qu'il n'y a rien d'autre. Il y a un centre ancien complet, un musée dans un hôtel Renaissance, une crypte archéologique en accès libre sous la collégiale, une distillerie qui tourne depuis 1839 et l'un des plus gros rendez-vous littéraires français. Il y a surtout un marché qui n'est pas une reconstitution pour visiteurs, mais le marché où la ville fait ses courses. Ce guide commence par lui, parce que c'est l'ordre logique.",
+    sections: [
+      {
+        heading: "1. Le marché sous la halle Georges-Brassens",
+        body: "Il se tient le mardi, le jeudi et le samedi matin, et c'est le samedi qu'il déborde de la halle dans les rues alentour. Producteurs de la Corrèze, du Lot et de la Dordogne : noix, cèpes en saison, foie gras, veau sous la mère, fromages, fraises. La halle porte le nom de Georges Brassens parce que « Hécatombe » situe à Brive une bagarre mémorable entre des marchandes et des gendarmes mal inspirés ; les Brivistes, beaux joueurs, lui ont dédié leur halle. Le marché est le meilleur point de départ pour tout le reste : il est au centre, il finit vers midi, et il fixe le rythme de la journée."
+      },
+      {
+        heading: "2. La collégiale Saint-Martin et sa crypte",
+        body: "La collégiale est dédiée à saint Martin dit l'Espagnol, l'un des trois saints patrons de la ville. L'édifice est roman à l'origine, plusieurs fois repris, et son clocher relève du néo-roman limousin du XIXe siècle. L'essentiel est en dessous : la crypte archéologique, en accès libre, laisse voir les vestiges de la basilique du Ve siècle dégagés lors des fouilles de 1986 et 1987. Descendre de quelques marches pour passer de l'église visible à ce qu'il y avait avant elle est un raccourci rare, et gratuit. Les chapiteaux romans du chœur méritent qu'on lève la tête au retour."
+      },
+      {
+        heading: "3. Le musée Labenche",
+        body: "L'hôtel Labenche a été construit vers le milieu du XVIe siècle par un notable local, et c'est l'un des plus beaux édifices Renaissance du Limousin — classé monument historique, avec ses bustes en haut-relief penchés aux fenêtres. Il abrite aujourd'hui le musée d'art et d'histoire de la ville, réparti sur dix-sept salles : archéologie, tapisseries, histoire de Brive et de sa région, arts et traditions populaires. Le bâtiment justifierait la visite à lui seul ; les collections lui donnent une matinée. C'est le point où l'on comprend que Brive n'est pas seulement une ville de passage sur l'axe Paris-Toulouse."
+      },
+      {
+        heading: "4. Le centre ancien, dit « la coquille »",
+        body: "Les Brivistes appellent leur centre historique « la coquille », parce que le tracé des anciens boulevards dessine un ovale autour de la collégiale. À l'intérieur, rues étroites, maisons à tourelles, hôtels particuliers en grès et en calcaire, et un tissu commerçant qui tient encore — ce qui, dans une ville moyenne française, n'est pas acquis. La promenade se fait sans plan, la coquille est petite et on retombe toujours sur la collégiale. C'est le complément direct du marché : mêmes rues, deux heures plus tard, quand les étals sont pliés et que les cafés prennent la place."
+      },
+      {
+        heading: "5. La distillerie Denoix",
+        body: "Fondée en 1839, la distillerie Denoix est labellisée Entreprise du patrimoine vivant et fabrique toujours à Brive. Sa production tourne autour de la noix, qui est la culture emblématique du bassin : liqueur de noix, mais aussi la moutarde violette de Brive, moutarde au moût de raisin dont la recette locale remonte loin. La visite montre les alambics et les foudres, et se termine évidemment par une dégustation. C'est un des rares endroits de la ville où l'on voit une production, pas seulement un patrimoine — et cela complète le marché mieux qu'une boutique de souvenirs."
+      },
+      {
+        heading: "6. Le musée Edmond-Michelet",
+        body: "Le musée de la Résistance et de la Déportation occupe la maison d'Edmond Michelet, résistant briviste déporté à Dachau, puis ministre du général de Gaulle. C'est un musée de ville, sobre, documenté, tenu par des gens qui connaissent le dossier. Il rappelle un fait que l'on oublie : Brive a été, le 15 août 1944, l'une des premières villes de France libérées par ses propres forces. Le lieu ne joue pas sur l'émotion et ne cherche pas l'effet ; c'est ce qui le rend efficace. Une heure suffit, et elle change la lecture du reste de la ville."
+      },
+      {
+        heading: "7. La Foire du livre, en novembre",
+        body: "La Foire du livre de Brive se tient chaque année dans la première quinzaine de novembre, et elle est devenue l'un des grands rendez-vous littéraires français : plusieurs centaines d'auteurs, dédicaces et rencontres, dans la halle Georges-Brassens transformée pour l'occasion. Le fait qu'une ville de moins de 50 000 habitants attire cette densité d'éditeurs et de public n'est pas anodin, et le week-end concerné, l'hébergement se réserve des semaines à l'avance. Si vous venez à cette période, prévoyez-le ; si vous cherchez le calme, choisissez un autre moment."
+      },
+      {
+        heading: "8. Le rugby, et le stade",
+        body: "Le CA Brive Corrèze Limousin joue au stade Amédée-Domenech, et le club a remporté la Coupe d'Europe en 1997 — un résultat qui reste, presque trente ans après, l'événement sportif de référence de la ville. Assister à un match de Top 14 ou de Pro D2 à Brive n'a pas grand-chose à voir avec un stade de grande métropole : le public est local, bruyant, et connaît les joueurs. C'est une façon de voir la ville qu'aucun monument ne remplace. Les dates de matchs dépendent du calendrier de la saison et se vérifient auprès du club."
+      },
+      {
+        heading: "9. Ce qui est autour, et qui est considérable",
+        body: "Brive est la porte d'entrée d'un des secteurs les plus denses de France en villages classés. Collonges-la-Rouge, en grès rouge, est le village où l'association des Plus Beaux Villages de France a été fondée ; Turenne et sa forteresse, Curemonte, Beaulieu-sur-Dordogne, les gouffres du causse corrézien et la vallée de la Dordogne sont tous à moins d'une heure, et Sarlat un peu plus loin. Ces sites sont accessibles depuis Brive sans y être situés : la ville sert de base, avec des tarifs d'hébergement sans rapport avec ceux du Périgord noir en été."
+      },
+      {
+        heading: "10. Y aller, et pourquoi s'y arrêter",
+        body: "Brive est sur l'axe ferroviaire Paris-Toulouse et sur l'A20, ce qui explique que tant de gens la traversent. Elle dispose aussi de son aéroport, situé sur la commune voisine de Nespouls, au sud. L'erreur classique consiste à en faire une pause déjeuner : la ville mérite une journée, deux avec les villages alentour. Le meilleur montage, si vous avez le choix, est d'arriver la veille au soir et de commencer par le marché du samedi matin — le reste du programme, collégiale, Labenche, Denoix et coquille, se cale ensuite à pied dans un rayon de dix minutes."
+      }
+    ],
+    relatedCities: ["brive-la-gaillarde", "tulle", "sarlat-la-caneda", "limoges"],
+    relatedGuides: [
+      "10-choses-a-faire-a-tulle-2026",
+      "10-choses-a-faire-a-sarlat-la-caneda-2026",
+      "10-choses-a-faire-a-perigueux-2026",
+      "10-choses-a-faire-a-limoges-2026"
+    ],
+    tags: ["10 choses à faire à Brive-la-Gaillarde", "activités Brive 2026", "que faire en Corrèze", "sorties Nouvelle-Aquitaine", "marché Brassens collégiale crypte Labenche Denoix Foire du livre"]
+  },
+  {
+    slug: "10-choses-a-faire-a-la-seyne-sur-mer-2026",
+    title: "10 choses à faire à La Seyne-sur-Mer",
+    metaTitle: "10 choses à faire à La Seyne-sur-Mer en 2026",
+    metaDesc: "Pont levant des chantiers, fort Balaguier, Tamaris et Michel Pacha, hameau Pouillon des Sablettes, cap Sicié : 10 activités à La Seyne-sur-Mer.",
+    category: "tourisme",
+    emoji: "⚓",
+    readMinutes: 7,
+    publishedAt: "2026-08-25",
+    updatedAt: "2026-08-25",
+    intro: "La Seyne-sur-Mer, près de 62 900 habitants au recensement de 2022, est la deuxième ville du Var et la moins visitée des grandes communes de la rade de Toulon. Elle a longtemps été une ville de chantiers navals, et ce passé structure encore tout : un pont levant classé au milieu du port, un fort du XVIIe siècle devenu musée, un quartier balnéaire orientaliste construit par un armateur enrichi en Turquie, et un front de mer reconstruit par Fernand Pouillon après les bombardements de 1944. Le tout face à une rade que peu de villes méditerranéennes peuvent montrer. Ce guide dit quoi voir, et où l'on se baigne vraiment.",
+    sections: [
+      {
+        heading: "1. Le pont levant des chantiers",
+        body: "Construit en 1917 par la société Daydé pour permettre au rail d'atteindre les chantiers navals depuis la gare, ce pont levant est l'emblème de la ville. Il cesse de fonctionner en 1986, avec l'arrêt de l'activité, et il est inscrit à l'inventaire supplémentaire des monuments historiques le 3 novembre 1987. Après travaux, il a rouvert au public en 2009 : on y monte, et la plateforme donne une vue dégagée sur l'une des plus belles rades d'Europe. C'est le meilleur point de repère pour comprendre la géographie du lieu avant de commencer à marcher."
+      },
+      {
+        heading: "2. Ce qu'il reste des chantiers navals",
+        body: "Les chantiers de La Seyne ont fermé à la fin des années 1980, et la ville a mis des décennies à s'en remettre — c'est le fait central de son histoire récente, et il vaut mieux le savoir avant d'arriver. Le site a été reconverti : port de plaisance, esplanade sur l'eau, équipements publics, avec le pont levant conservé comme signal. Le résultat est un front de port aéré, très fréquenté le soir par les Seynois eux-mêmes. On ne visite pas un musée de la construction navale : on marche sur un chantier devenu ville, ce qui est plus intéressant et moins raconté."
+      },
+      {
+        heading: "3. Le fort Balaguier",
+        body: "Bâti au XVIIe siècle, le fort Balaguier défendait l'entrée de la petite rade avec la tour Royale, sur l'autre rive. Il abrite aujourd'hui un musée consacré à l'histoire maritime locale, au bagne de Toulon et au monde sous-marin, complété par un jardin botanique en terrasse. Le lieu tient sur trois atouts : un bâtiment militaire ramassé et lisible, une collection qui traite du bagne sans complaisance, et une position sur l'eau qui explique à elle seule pourquoi on a fortifié ce point précis. C'est la visite la plus dense de la commune."
+      },
+      {
+        heading: "4. Tamaris, le quartier de Michel Pacha",
+        body: "Marius Michel, dit Michel Pacha, fit fortune en construisant et en exploitant les phares de l'Empire ottoman, puis revint aménager sa côte natale à la fin du XIXe siècle. Sur une soixantaine d'hectares, il fit bâtir villas de location, hôtels, casino et institut, dans un goût orientaliste assumé : coupoles, briques polychromes, loggias sur la mer. Le quartier de Tamaris est resté, et il se parcourt à pied depuis la corniche. L'effet est étrange et vaut le détour : une baie provençale traitée comme un bord de Bosphore, ce que l'on ne trouve nulle part ailleurs sur la côte."
+      },
+      {
+        heading: "5. La villa Tamaris, centre d'art",
+        body: "Construite à la fin du XIXe siècle pour Michel Pacha, la villa Tamaris a un plan cubique d'inspiration toscane, de grandes ouvertures et des terrasses à balustres. Elle a été réhabilitée par la ville en 1995 et sert depuis de lieu d'exposition pour les arts visuels, avec une programmation régulière d'art contemporain et de photographie. C'est l'endroit où le patrimoine du quartier cesse d'être une façade à photographier pour redevenir un lieu où il se passe quelque chose. La vue depuis les terrasses sur la rade est, accessoirement, l'une des meilleures de la commune."
+      },
+      {
+        heading: "6. Les Sablettes et le hameau de Fernand Pouillon",
+        body: "Les Sablettes étaient une station balnéaire du XIXe siècle. Bombardées en 1944, elles ont été reconstruites entre 1950 et 1953 par Fernand Pouillon, qui a conçu un hameau entier plutôt qu'un alignement d'immeubles : arcades, calades de galets, dalles de calcaire polychrome, menuiseries à motifs, céramiques émaillées, le tout selon des principes d'urbanisme provençal. L'ensemble a reçu le label Patrimoine du XXe siècle en 2004. Il a servi de modèle à beaucoup de villages de vacances méditerranéens construits ensuite, et c'est le seul qui ait été pensé comme une ville."
+      },
+      {
+        heading: "7. Les plages, et laquelle choisir",
+        body: "La plage des Sablettes est la principale : sable fin, longue, familiale, face aux rochers des Deux Frères au large du cap Sicié. Mar Vivo et la Verne complètent l'offre côté isthme. Le cas particulier est Fabrégas, dont le sable est sombre — un fait géologique local qui surprend les visiteurs habitués au blanc des calanques — et qui est plus sauvage, plus difficile d'accès et plus exposée à la houle d'ouest. Le choix se fait donc simplement : Sablettes avec des enfants et pour les services, Fabrégas si vous cherchez autre chose qu'une plage aménagée."
+      },
+      {
+        heading: "8. Le cap Sicié et la forêt de Janas",
+        body: "Le massif du cap Sicié ferme la commune au sud et tombe dans la mer par des falaises hautes et abruptes, à l'opposé exact de l'image de carte postale de la Méditerranée aménagée. La forêt de Janas, plantée de pins d'Alep, le couvre et se parcourt par des sentiers balisés jusqu'aux points de vue sur la côte. La chapelle Notre-Dame du Mai, au sommet, est accessible depuis La Seyne mais relève de la commune voisine de Six-Fours-les-Plages. Le massif est très sensible au risque incendie : l'accès peut être fermé en été, et l'arrêté préfectoral fait foi."
+      },
+      {
+        heading: "9. Traverser la rade en bateau",
+        body: "Le réseau de transport de l'agglomération exploite des navettes maritimes qui relient La Seyne et Les Sablettes au centre de Toulon. C'est un transport en commun, pas une excursion : tarif de ticket, horaires réguliers, habitués à bord. C'est aussi, de loin, la plus belle façon de rejoindre Toulon, et la seule qui montre la rade depuis l'eau — les bâtiments de la marine nationale, les formes de radoub, le mont Faron en face. Le trajet vaut d'être fait dans les deux sens, à des heures différentes, la lumière n'étant pas la même sur les deux rives."
+      },
+      {
+        heading: "10. Y aller, et en faire une base",
+        body: "La Seyne est reliée à Toulon par la route, par le bus et par le bateau, et Toulon est sur la ligne ferroviaire de la côte. Comme base de séjour, la ville a un avantage net sur le reste du Var littoral : elle est nettement moins chère que Sanary, Bandol ou Hyères en été, tout en donnant accès aux mêmes destinations. On y trouve de quoi remplir deux jours sur place — pont, fort, Tamaris, Sablettes, cap Sicié — et le reste du département autour. Précision d'usage : c'est une ville portuaire qui vit à l'année, pas une station, et cela s'entend."
+      }
+    ],
+    relatedCities: ["la-seyne-sur-mer", "toulon", "hyeres", "marseille"],
+    relatedGuides: [
+      "10-choses-a-faire-a-toulon-2026",
+      "10-choses-a-faire-a-hyeres-2026",
+      "10-choses-a-faire-a-cassis-2026",
+      "10-choses-a-faire-a-marseille-2026"
+    ],
+    tags: ["10 choses à faire à La Seyne-sur-Mer", "activités La Seyne 2026", "que faire dans le Var", "sorties rade de Toulon", "pont levant fort Balaguier Tamaris Sablettes Pouillon cap Sicié"]
+  },
+  {
+    slug: "10-choses-a-faire-a-valenciennes-2026",
+    title: "10 choses à faire à Valenciennes",
+    metaTitle: "10 choses à faire à Valenciennes en 2026",
+    metaDesc: "Musée des Beaux-Arts, Watteau et Carpeaux, bibliothèque des Jésuites, Mont-de-Piété, parc de la Rhonelle, le phénix : 10 activités à Valenciennes.",
+    category: "tourisme",
+    emoji: "🖼️",
+    readMinutes: 7,
+    publishedAt: "2026-08-25",
+    updatedAt: "2026-08-25",
+    intro: "Valenciennes, environ 43 000 habitants au recensement de 2022, se fait appeler « l'Athènes du Nord » — surnom hérité de son effervescence artistique aux XVIIIe et XIXe siècles, et qui, pour une fois, repose sur quelque chose de vérifiable : le peintre Antoine Watteau y est né en 1684, le sculpteur Jean-Baptiste Carpeaux en 1827, et le musée des Beaux-Arts de la ville conserve les deux. Ajoutez une bibliothèque d'Ancien Régime restée en l'état, un mont-de-piété du début du XVIIe siècle et un parc à l'anglaise de 1904, et vous avez une ville moyenne dotée d'un patrimoine de capitale régionale. Ce guide dit par où commencer.",
+    sections: [
+      {
+        heading: "1. Le musée des Beaux-Arts",
+        body: "Le bâtiment actuel a été ouvert en 1909, puis entièrement rénové en 1995 avec des espaces d'exposition agrandis et un sous-sol consacré aux vestiges archéologiques. La collection couvre de l'archéologie gallo-romaine au XXe siècle, avec deux points forts : la peinture flamande du XVIIe siècle — Rubens, Jordaens, Van Dyck — et la grande sculpture du XIXe. C'est un musée de province au sens ancien du terme, c'est-à-dire l'un de ces établissements dont les collections dépassent nettement la taille de leur ville. Comptez une demi-journée, pas une heure de passage."
+      },
+      {
+        heading: "2. Watteau, et la place qui porte son nom",
+        body: "Antoine Watteau naît à Valenciennes en 1684 et invente, à Paris, le genre de la fête galante. Le musée conserve plusieurs de ses œuvres, dont « Le Faune », et sa présence est le fil rouge de la ville. La place Watteau, à l'ombre de l'église Saint-Géry, la plus ancienne de la ville, en est le point de repère. Il faut savoir ce qu'on va voir : Watteau est un peintre de petits formats et de nuances, pas de grandes machines. Ses toiles se regardent de près, et un musée peu fréquenté est de ce point de vue un luxe."
+      },
+      {
+        heading: "3. Carpeaux, une salle entière",
+        body: "Jean-Baptiste Carpeaux naît à Valenciennes en 1827, et le musée lui consacre un espace entier, peintures et sculptures, ouvrant sur une rotonde centrale et un jardin de sculptures où figurent aussi Lemaire, Hiolle, Crauk, Chapu et Degas. Voir réunis les plâtres, les esquisses et les marbres d'un même sculpteur montre le processus plutôt que le résultat : on suit une figure du croquis au bronze. Carpeaux étant l'un des sculpteurs français les plus copiés du XIXe siècle, cette salle est la meilleure explication de ce qui distingue l'original des dizaines de reprises."
+      },
+      {
+        heading: "4. L'hôtel de ville et son fronton",
+        body: "Construit de 1867 à 1870 sur les plans de l'architecte Jules Batigny, l'hôtel de ville reçut un fronton monumental de Carpeaux, enfant du pays — qui avait proposé un programme sculpté bien plus ambitieux que celui qu'on lui accorda. L'histoire du bâtiment tient à une nuit : celle du 21 au 22 mai 1940, où un incendie détruisit la quasi-totalité de l'édifice. La façade tint. Le fronton de Carpeaux, lui, tomba, et fut refait à l'identique d'après le modèle original par le sculpteur Albert Patrisse. Ce qu'on regarde depuis la place est donc une reprise fidèle, pas la pierre d'origine."
+      },
+      {
+        heading: "5. La bibliothèque des Jésuites",
+        body: "L'ancien collège des Jésuites, bâti au XVIIe siècle et reconstruit au XVIIIe, servit à l'enseignement jusqu'à l'expulsion de l'ordre en 1763. Sa bibliothèque est l'une des rares bibliothèques françaises d'avant la Révolution à avoir été conservée dans son état d'origine : boiseries, tribunes, rangements, disposition des volumes. C'est un intérieur, pas une collection : ce qu'on vient voir, c'est la pièce elle-même et la façon dont on rangeait le savoir au XVIIIe siècle. L'accès se fait en visite guidée organisée par l'office de tourisme, ce qui suppose de réserver plutôt que de se présenter."
+      },
+      {
+        heading: "6. Le Mont-de-Piété",
+        body: "Construit de 1622 à 1625 sur les plans de l'architecte anversois Wenceslas Cobergher, à l'initiative des archiducs Albert et Isabelle, gouverneurs des Pays-Bas espagnols, le mont-de-piété de Valenciennes est un morceau d'architecture flamande de brique et de pierre remarquablement conservé. Sa fonction d'origine — prêter sur gage à taux modéré pour concurrencer l'usure — est inscrite dans la façade : c'était un équipement public, pensé comme tel. Le bâtiment est protégé, et il a été reconverti ; c'est aujourd'hui l'un des projets patrimoniaux visibles du centre-ville."
+      },
+      {
+        heading: "7. La maison espagnole",
+        body: "Cette maison à pans de bois et à encorbellement, dite scaldienne, date du XVIe siècle, époque où Valenciennes relevait des Pays-Bas espagnols — d'où son nom. C'est l'un des rares témoins civils de cette période dans une ville qui a beaucoup souffert des guerres, et sa silhouette étroite au milieu de façades postérieures se repère immédiatement. Elle a longtemps abrité l'accueil de l'office de tourisme, qui a préparé son transfert vers le Mont-de-Piété : mieux vaut vérifier l'adresse en cours avant de s'y rendre pour chercher un plan ou un billet de visite guidée."
+      },
+      {
+        heading: "8. Le parc de la Rhonelle",
+        body: "Dessiné par l'architecte paysagiste Henri Martinet et achevé en 1904, ce parc à l'anglaise couvre environ cinq hectares. Martinet a utilisé le passage de la rivière et les différences de niveau pour creuser un bassin, tracer des allées sinueuses et installer fausses ruines et rocailles, selon la grammaire pittoresque de l'époque. Il compte plusieurs milliers d'arbres et d'arbustes d'essences variées. C'est le poumon du centre, à quelques minutes à pied des musées, et le meilleur endroit pour couper une journée de visites sans reprendre la voiture."
+      },
+      {
+        heading: "9. Le phénix, scène nationale",
+        body: "Inauguré le 26 janvier 1998 après deux ans de travaux, le phénix est la scène nationale de Valenciennes et l'un des équipements culturels les plus actifs des Hauts-de-France : théâtre, musique et danse, avec une activité de production internationale et pas seulement de diffusion. Pour un visiteur, c'est ce qui distingue un séjour à Valenciennes d'une visite de patrimoine : il y a une programmation le soir. La saison et la billetterie se consultent avant de venir, la salle affichant complet sur les spectacles les plus attendus."
+      },
+      {
+        heading: "10. Y aller, et ce qu'il y a autour",
+        body: "Valenciennes est sur l'axe ferroviaire qui relie Lille au Hainaut et à la Belgique, dont la frontière est toute proche, et sur le réseau autoroutier du Nord. La ville se visite à pied : musée, hôtel de ville, maison espagnole, Mont-de-Piété et Saint-Géry tiennent dans un rayon de dix minutes, le parc de la Rhonelle à peine plus loin. Autour, le parc naturel régional Scarpe-Escaut, l'abbaye de Saint-Amand-les-Eaux et le bassin minier classé par l'UNESCO sont accessibles depuis la ville sans y être situés, et se font en excursion à la journée."
+      }
+    ],
+    relatedCities: ["valenciennes", "lille", "douai", "arras"],
+    relatedGuides: [
+      "10-choses-a-faire-a-lille-2026",
+      "10-choses-a-faire-a-arras-2026",
+      "10-choses-a-faire-a-lens-2026",
+      "10-choses-a-faire-a-amiens-2026"
+    ],
+    tags: ["10 choses à faire à Valenciennes", "activités Valenciennes 2026", "que faire dans le Nord", "sorties Hauts-de-France", "musée Beaux-Arts Watteau Carpeaux Jésuites Mont-de-Piété Rhonelle"]
+  },
+  {
+    slug: "10-choses-a-faire-a-thionville-2026",
+    title: "10 choses à faire à Thionville",
+    metaTitle: "10 choses à faire à Thionville en 2026",
+    metaDesc: "Tour aux Puces et son musée, beffroi, fort de Guentrange, château de La Grange, Hackenberg, Puzzle : 10 activités à Thionville, aux portes du Luxembourg.",
+    category: "tourisme",
+    emoji: "🛡️",
+    readMinutes: 7,
+    publishedAt: "2026-08-25",
+    updatedAt: "2026-08-25",
+    intro: "Thionville, environ 42 800 habitants au recensement de 2022, a une particularité que nos propres données rendent visible : c'est l'une des rares villes moyennes françaises qui gagne des habitants — elle en comptait un peu plus de 40 500 en 2016. La raison tient en un mot, Luxembourg, dont la frontière est à une trentaine de kilomètres. Cette position frontalière n'est pas nouvelle : la ville a été luxembourgeoise, bourguignonne, espagnole, française, allemande, et chaque camp y a laissé une fortification. C'est ce qui fait son intérêt de visite, et ce que ce guide raconte — un millénaire de frontière lisible en une journée de marche.",
+    sections: [
+      {
+        heading: "1. La tour aux Puces et son musée",
+        body: "C'est le bâtiment le plus ancien et le plus étrange de la ville : un donjon polygonal à quatorze pans, vestige du château élevé par les comtes de Luxembourg à la fin du XIe siècle. Le plan à quatorze côtés n'a pas d'équivalent régional, et il se voit d'autant mieux qu'on tourne autour. La tour abrite aujourd'hui un musée d'archéologie labellisé Musée de France, dont les collections vont de la Préhistoire à la Renaissance à travers huit salles thématiques. C'est le point de départ logique : on y prend l'histoire du site avant d'aller voir ce qu'elle a produit en surface."
+      },
+      {
+        heading: "2. Le beffroi",
+        body: "La charte de franchise accordée en 1239 par les comtes de Luxembourg aux bourgeois de Thionville les autorisait à bâtir une enceinte fortifiée et une tour de guet : le premier beffroi, symbole des libertés communales, est élevé au XIVe siècle. La tour actuelle est une reconstruction de la première moitié du XVIe siècle, pendant les grands travaux de fortification commandés sous Charles Quint. En 1699, la ville fait refaire la partie haute avec un niveau d'horloge coiffé d'un toit impérial, la silhouette qu'on voit aujourd'hui. Trois États, trois siècles, une seule tour : c'est Thionville en résumé."
+      },
+      {
+        heading: "3. Le centre ancien et les quais de Moselle",
+        body: "Le centre tient dans quelques rues autour du beffroi et de la place du Marché, avec ce mélange lorrain-mosellan de façades classiques françaises et d'immeubles de la période allemande — Thionville ayant été annexée de 1871 à 1918, comme toute la Moselle. Les quais de Moselle, en contrebas, ont été aménagés en promenade et donnent à la ville sa respiration. C'est là qu'on mesure ce que le fleuve a représenté : le trafic fluvial, la sidérurgie de la vallée, et la raison pour laquelle tant d'armées ont voulu tenir ce point de passage."
+      },
+      {
+        heading: "4. Le fort de Guentrange",
+        body: "Sur les hauteurs de Guentrange, ancien village de vignerons qui fait partie de Thionville, se dresse un ouvrage fortifié allemand dont la construction a commencé en avril 1899 et qui est devenu opérationnel en 1905. Il appartenait au programme de fortification de la Moselle entre Metz et la frontière luxembourgeoise, et sa mission était de protéger Thionville et son nœud ferroviaire d'une attaque française. Sans usage militaire depuis 1971, il est ouvert et entretenu par une association. Les créneaux de visite sont limités et saisonniers : ils se vérifient auprès de l'association ou de l'office de tourisme avant de monter."
+      },
+      {
+        heading: "5. Le château de La Grange, à Manom",
+        body: "Il est accessible depuis Thionville sans y être situé : le château de La Grange relève de la commune voisine de Manom, au nord. Le domaine médiéval mentionné dès le XIIe siècle a disparu ; le bâtiment actuel a été reconstruit à partir de 1731 pour Christophe Gomé des Hazards, sur des plans de Robert de Cotte — le premier architecte du roi, ce qui explique l'allure très parisienne de la façade au milieu de la campagne mosellane. Le château se visite en saison et en visite guidée, et son jardin s'ajoute à l'intérêt du lieu. Vérifiez les jours d'ouverture, ils sont restreints."
+      },
+      {
+        heading: "6. Le fort du Hackenberg, à Veckring",
+        body: "Autre site accessible depuis Thionville sans y être situé, à l'est : le Hackenberg est le plus grand ouvrage de la ligne Maginot, dix-neuf blocs de surface reliés par des kilomètres de galeries souterraines, construit entre 1929 et 1935. Seul le Hochwald, en Alsace du Nord, lui est comparable. La visite se fait avec l'association qui l'entretient et emprunte le train électrique des galeries ; il y fait une douzaine de degrés toute l'année, prévoyez une veste même en août. Enchaîné avec Guentrange, cela donne deux systèmes défensifs opposés à trente ans d'écart."
+      },
+      {
+        heading: "7. Puzzle, l'équipement culturel",
+        body: "Ouvert fin septembre 2016, Puzzle regroupe dans un même bâtiment de plusieurs milliers de mètres carrés une médiathèque, un pôle dédié aux arts visuels, des espaces d'exposition, des studios de création numérique et un café. Sa silhouette blanche et arrondie tranche franchement dans une ville de fortifications, et c'est délibéré. Pour un visiteur, l'intérêt n'est pas seulement architectural : c'est un lieu ouvert, chauffé, avec des expositions et de la presse, donc la bonne solution pour une après-midi de pluie mosellane — ce qui, ici, se produit souvent."
+      },
+      {
+        heading: "8. Les parcs et la ville verte",
+        body: "Thionville a gardé des espaces plantés en plein centre, dont le parc Wilson et le parc Napoléon, hérités de la période où l'on a démantelé les fortifications urbaines pour dégager la ville. Le tracé de ces parcs suit d'ailleurs souvent celui des anciens glacis, ce qui explique leurs formes allongées. Ils servent moins de destination que de liaison : ils permettent de traverser la ville d'un site à l'autre à pied et à l'ombre. Avec les quais de Moselle, ils font de Thionville une ville qui se visite sans voiture, ce qui n'est pas courant en Lorraine du Nord."
+      },
+      {
+        heading: "9. La vallée de la Moselle à vélo",
+        body: "La vallée est plate, le fleuve canalisé, et les berges aménagées : le vélo est le bon moyen de sortir de la ville sans dénivelé. Vers le nord, on remonte en direction de la frontière luxembourgeoise ; vers le sud, on descend vers Metz. Le paysage est celui d'une vallée industrielle en reconversion, avec ses friches sidérurgiques, ses villages viticoles sur les coteaux et ses écluses — un décor qui n'a rien de carte postale et beaucoup à raconter. Les vélos se louent en ville et les itinéraires sont balisés ; l'ensemble se fait en famille."
+      },
+      {
+        heading: "10. Y aller, et en faire une base transfrontalière",
+        body: "Thionville est sur la ligne ferroviaire Metz-Luxembourg, l'une des plus circulées de France par les travailleurs frontaliers, ce qui donne une fréquence de trains inhabituelle pour une ville de cette taille. C'est ce qui en fait une base intéressante : Luxembourg-ville, Metz et son Centre Pompidou, et Trèves, la capitale romaine de la Germanie, sont tous accessibles à la journée. Et l'hébergement y coûte une fraction de ce qu'il coûte au Luxembourg. Deux jours suffisent pour la ville et ses forts ; le reste dépend de combien de frontières vous voulez traverser."
+      }
+    ],
+    relatedCities: ["thionville", "metz", "nancy"],
+    relatedGuides: [
+      "10-choses-a-faire-a-metz-2026",
+      "10-choses-a-faire-a-nancy-2026",
+      "10-choses-a-faire-a-strasbourg-2026",
+      "10-choses-a-faire-a-colmar-2026"
+    ],
+    tags: ["10 choses à faire à Thionville", "activités Thionville 2026", "que faire en Moselle", "sorties Grand Est frontière Luxembourg", "tour aux Puces beffroi Guentrange La Grange Hackenberg Puzzle"]
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

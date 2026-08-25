@@ -760,6 +760,83 @@ EN 28 584). `npm run search-index` relancé (`data/search-index.en.json` 707 gui
 des deux côtés ; reprendre les six banlieues de province jamais faites (Villenave-d'Ornon, Talence,
 Le Bouscat ; Vaulx-en-Velin, Saint-Priest, Bron) ou les trous touristiques listés au batch 32.
 
+**Batch 34 — FR, shipped 2026-08-25 : Salon-de-Provence, Saint-Quentin, Brive-la-Gaillarde,
+La Seyne-sur-Mer, Valenciennes, Thionville.** Les cinq trous touristiques listés au batch 32 ont été
+honorés (Saint-Herblain écarté, voir plus bas) et **Valenciennes et Thionville s'y ajoutent** : ce
+sont les deux plus gros manques restants après eux, et l'un comme l'autre pèsent plus lourd, en
+matière vérifiable, que les six banlieues bordelaises et lyonnaises encore en piste — Valenciennes
+tient un musée des Beaux-Arts de rang national et deux artistes majeurs nés sur place, Thionville un
+millénaire de fortifications frontalières. C'est le même arbitrage qu'au batch 32, et pour la même
+raison : **on choisit par matière touristique réelle, pas par inertie de liste.** Les six banlieues
+(Villenave-d'Ornon, Talence, Le Bouscat ; Vaulx-en-Velin, Saint-Priest, Bron) **restent en piste** et
+n'ont toujours pas été faites — rappel du batch 28 : l'Espace Albert Camus et le fort de la ceinture
+lyonnaise sont **à Bron**, pas à Vénissieux.
+**Compteurs mesurés : FR 219 (`-a-` strict 212 + 5 en `au-` + 2 en `aux-`), EN 213 ; `GUIDES` 989 →
+995.** Aucun nouveau slug hors gabarit : les sept exceptions restent `au-puy-en-velay`, `au-tampon`,
+`au-francois`, `au-robert`, `au-lamentin`, `aux-abymes`, `aux-sables-d-olonne`. `metaTitle` 38-46
+caractères, `metaDesc` 143-156, 10 sections par guide, densité d'accents 0,150-0,179 (les guides déjà
+livrés de la série sont à 0,154-0,179 ; seuil de détection ascii-strip 0,09 — **la densité se mesure
+par mot, pas par lettre**, une confusion qui fait sortir 0,035 et croire à une régression).
+`npm run search-index` relancé (`data/search-index.json` 995 guides, 245 tags — aucun tag neuf, donc
+aucune page `/tags/` créée) et `npm run sitemap:check` repassé (FR 29 067 URL, EN 28 623). Les six
+guides ont été vérifiés **retrouvés par le lookup de `app/villes/[slug]/a-faire/page.tsx` et pourvus
+de leur photo d'en-tête** (`guideCityPhoto`) après écriture — le contrôle que le batch 32 a dû
+ajouter après coup.
+⚠️ **Faits vérifiés en ligne avant rédaction, et qui portent les guides** : le château de l'Empéri
+(Salon) est un fief des **archevêques d'Arles**, et son musée d'art et d'histoire militaires vient de
+la **collection Raoul et Jean Brunon**, entrée dans les collections nationales par l'accord de 1967 et
+déposée à Salon ; Nostradamus achète sa maison en **1547** et y meurt en **1566**, mais son tombeau
+est à la collégiale Saint-Laurent **par transfert** — il avait d'abord été inhumé au couvent des
+Cordeliers, détruit à la Révolution ; le festival **Musique à l'Empéri** a été créé en 1993 par Éric
+Le Sage, Paul Meyer et Emmanuel Pahud ; l'hôtel de ville de Saint-Quentin est un chantier **1331-1509**
+restauré **en Art déco en 1926** par Louis Guindez, soit gothique flamboyant dehors et années 1920
+dedans ; le monument aux morts de Saint-Quentin (inauguré le **31 juillet 1927**) est de **Paul Bigot**
+avec **Bouchard et Landowski** ; la crypte de la collégiale de Brive montre les vestiges d'une
+basilique du **Ve siècle** dégagés en **1986-1987** ; le pont levant de La Seyne date de **1917**
+(société Daydé), est inscrit MH le **3 novembre 1987** et a rouvert au public en **2009** ; les
+Sablettes ont été reconstruites **entre 1950 et 1953 par Fernand Pouillon** (label Patrimoine du XXe
+siècle en 2004) ; le fronton de Carpeaux de l'hôtel de ville de Valenciennes est **tombé dans
+l'incendie de la nuit du 21 au 22 mai 1940** et a été **refait à l'identique par Albert Patrisse** —
+ce qu'on regarde depuis la place n'est pas la pierre d'origine ; le Mont-de-Piété de Valenciennes est
+de **Wenceslas Cobergher, 1622-1625** ; le fort de **Guentrange** est allemand (chantier ouvert en
+**avril 1899**, opérationnel en **1905**) et Guentrange **fait partie de Thionville**, ce n'a jamais
+été une commune autonome.
+Trois prudences assumées dans la copie, à ne pas diluer : ① la **base aérienne 701** de Salon est une
+**emprise militaire** — la Patrouille de France y est stationnée depuis 1964 et l'École de l'air y
+forme les officiers, mais on n'y entre pas librement ; le guide le dit avant de parler de la
+Patrouille, même traitement que le CAEA sur la base 106 à Mérignac (batch 28) ; ② convention
+« **accessible depuis** » plutôt que « situé à » sur tout ce qui relève d'une commune voisine —
+**Notre-Dame du Mai** (Six-Fours-les-Plages) depuis La Seyne, **château de La Grange** (Manom) et
+**fort du Hackenberg** (Veckring) depuis Thionville, **Collonges-la-Rouge / Turenne / Sarlat** depuis
+Brive, l'**aéroport de Brive** étant lui-même sur **Nespouls** ; ③ la **maison espagnole** de
+Valenciennes a longtemps abrité l'office de tourisme, dont le **transfert vers le Mont-de-Piété** est
+engagé : le guide dit de vérifier l'adresse plutôt que d'affirmer l'une ou l'autre. Aucun horaire,
+aucun tarif, aucune hauteur n'est cité, et le seul chiffre non patrimonial est la population Insee
+2022 lue dans `data/city-population.json` (Salon 44 553, Saint-Quentin 52 995, Brive 46 769, La Seyne
+62 905, Valenciennes 42 979, Thionville 42 778) — pas les `population` approximatives du seed.
+⚠️ **`npm run build` n'a pas été lancé, volontairement** : c'est ce que la section Commands interdit
+depuis le batch 27 (4 h 30 de génération, `.next` à 25 Go, aucun signal utile). Le substitut prescrit
+a été exécuté en entier et passe : `npx tsc --noEmit` **propre**, `npm run integrity`, `search-index`
++ `search-index:check`, `sitemap:check`, plus le contrôle de lookup / photo ci-dessus. Note
+d'environnement pour le prochain run : le conteneur de routine démarre **sans `node_modules`**, et
+`npx tsc --noEmit` y renvoie alors **43 762 erreurs réparties sur tout le dépôt** (`Property 'key'
+does not exist`, `Type 'undefined' is not assignable`, `Cannot find module 'zod'`). Ce n'est pas une
+régression, c'est l'installation absente — **lancer `npm install` avant de conclure quoi que ce soit
+d'un `tsc` massivement rouge**.
+Écart FR→EN après ce batch : **6 villes** (salon-de-provence, saint-quentin, brive-la-gaillarde,
+la-seyne-sur-mer, valenciennes, thionville) — au seuil de ~6, donc **le prochain run doit être un
+batch EN**. Rappel de la règle tranchée au batch 33 : côté EN, le slug se dérive du **slug de seed
+tel quel** (`getEnGuide('things-to-do-in-' + slug + '-2026')`), jamais d'une version « propre » —
+donc `things-to-do-in-la-seyne-sur-mer-2026` garde son article et son `-sur-mer`, et
+`things-to-do-in-brive-la-gaillarde-2026` garde `-la-gaillarde`. Attention à
+`things-to-do-in-saint-quentin-2026` : c'est la ville de l'Aisne, à ne pas confondre avec le
+**mont Saint-Quentin** de la Somme, qui revient dans les sources anglophones sur 1918.
+Pour le batch FR **suivant**, les gisements restants sont les six banlieues de province ci-dessus et,
+côté trous touristiques, **Saint-Herblain** (écarté ici faute de matière : Zénith, ONYX et vallée du
+Cens ne font pas dix entrées vérifiables), **Mantes-la-Jolie** (collégiale Notre-Dame, tour
+Saint-Maclou), **Istres** (étang de Berre, vieux village) et **Cambrai**, seule ville du Nord de cette
+taille encore sans guide.
+
 ### Glossaire (`app/glossaire/page.tsx`)
 
 Page unique, données inline (`SECTIONS: {title, emoji, terms[]}`), `DefinedTermSet` JSON-LD généré
