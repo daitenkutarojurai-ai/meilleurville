@@ -3638,12 +3638,12 @@
     },
     {
       "slug": "family-in-toulouse-2026",
-      "title": "Family life in Toulouse (2026): second-best schools in France",
+      "title": "Family life in Toulouse (2026): top-scoring schools, ring-commune prices",
       "emoji": "👨‍👩‍👧‍👦"
     },
     {
       "slug": "family-in-rennes-2026",
-      "title": "Family life in Rennes (2026): the best schools in France",
+      "title": "Family life in Rennes (2026): top-scoring schools, and a close ring",
       "emoji": "👨‍👩‍👧‍👦"
     },
     {
@@ -3669,6 +3669,51 @@
     {
       "slug": "family-in-nice-2026",
       "title": "Family life in Nice (2026): the mildest winter, at Riviera prices",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-angers-2026",
+      "title": "Family life in Angers (2026): where the house costs what the flat costs",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-caen-2026",
+      "title": "Family life in Caen (2026): the sea at 15 km, and the fewest children",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-dijon-2026",
+      "title": "Family life in Dijon (2026): the highest incomes of the batch",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-tours-2026",
+      "title": "Family life in Tours (2026): top-35 schools on the Loire",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-metz-2026",
+      "title": "Family life in Metz (2026): local law, Luxembourg, and no price data",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-clermont-ferrand-2026",
+      "title": "Family life in Clermont-Ferrand (2026): volcanoes and the cheapest flats",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-orleans-2026",
+      "title": "Family life in Orléans (2026): the one city here with children in it",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-pau-2026",
+      "title": "Family life in Pau (2026): the Pyrenees at the end of the street",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-besancon-2026",
+      "title": "Family life in Besançon (2026): forest at the end of every street",
       "emoji": "👨‍👩‍👧‍👦"
     }
   ],
@@ -3716,17 +3761,17 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 41
+      "count": 42
     },
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 33
+      "count": 34
     },
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 32
+      "count": 33
     },
     {
       "slug": "working-in-france",
@@ -3749,13 +3794,13 @@
       "count": 26
     },
     {
-      "slug": "international-students",
-      "label": "international students",
-      "count": 24
-    },
-    {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
+      "count": 25
+    },
+    {
+      "slug": "international-students",
+      "label": "international students",
       "count": 24
     },
     {
@@ -3771,6 +3816,11 @@
     {
       "slug": "brittany",
       "label": "brittany",
+      "count": 22
+    },
+    {
+      "slug": "normandy",
+      "label": "normandy",
       "count": 22
     },
     {
@@ -3799,9 +3849,14 @@
       "count": 21
     },
     {
-      "slug": "normandy",
-      "label": "normandy",
-      "count": 21
+      "slug": "french-school-system",
+      "label": "french school system",
+      "count": 20
+    },
+    {
+      "slug": "moving-to-france-with-children",
+      "label": "moving to france with children",
+      "count": 19
     },
     {
       "slug": "provence",
@@ -3834,14 +3889,19 @@
       "count": 15
     },
     {
-      "slug": "cost-of-living",
-      "label": "cost of living",
+      "slug": "centre-val-de-loire",
+      "label": "centre-val de loire",
+      "count": 14
+    },
+    {
+      "slug": "bourgogne-franche-comte",
+      "label": "bourgogne-franche-comte",
       "count": 13
     },
     {
-      "slug": "centre-val-de-loire",
-      "label": "centre-val de loire",
-      "count": 12
+      "slug": "cost-of-living",
+      "label": "cost of living",
+      "count": 13
     },
     {
       "slug": "loire-valley",
@@ -3849,18 +3909,8 @@
       "count": 12
     },
     {
-      "slug": "bourgogne-franche-comte",
-      "label": "bourgogne-franche-comte",
-      "count": 11
-    },
-    {
       "slug": "bretagne",
       "label": "bretagne",
-      "count": 11
-    },
-    {
-      "slug": "french-school-system",
-      "label": "french school system",
       "count": 11
     },
     {
@@ -3876,11 +3926,6 @@
     {
       "slug": "cote-d-azur",
       "label": "cote d'azur",
-      "count": 10
-    },
-    {
-      "slug": "moving-to-france-with-children",
-      "label": "moving to france with children",
       "count": 10
     },
     {
@@ -3984,6 +4029,11 @@
       "count": 6
     },
     {
+      "slug": "tours",
+      "label": "tours",
+      "count": 6
+    },
+    {
       "slug": "affordable-france",
       "label": "affordable france",
       "count": 5
@@ -3994,8 +4044,18 @@
       "count": 5
     },
     {
+      "slug": "caen",
+      "label": "caen",
+      "count": 5
+    },
+    {
       "slug": "champagne",
       "label": "champagne",
+      "count": 5
+    },
+    {
+      "slug": "dijon",
+      "label": "dijon",
       "count": 5
     },
     {
@@ -4019,9 +4079,9 @@
       "count": 5
     },
     {
-      "slug": "tours",
-      "label": "tours",
-      "count": 5
+      "slug": "angers",
+      "label": "angers",
+      "count": 4
     },
     {
       "slug": "annecy",
@@ -4034,18 +4094,13 @@
       "count": 4
     },
     {
-      "slug": "caen",
-      "label": "caen",
+      "slug": "clermont-ferrand",
+      "label": "clermont ferrand",
       "count": 4
     },
     {
       "slug": "corsica",
       "label": "corsica",
-      "count": 4
-    },
-    {
-      "slug": "dijon",
-      "label": "dijon",
       "count": 4
     },
     {
@@ -4056,6 +4111,16 @@
     {
       "slug": "grenoble",
       "label": "grenoble",
+      "count": 4
+    },
+    {
+      "slug": "metz",
+      "label": "metz",
+      "count": 4
+    },
+    {
+      "slug": "orleans",
+      "label": "orleans",
       "count": 4
     },
     {
@@ -4089,11 +4154,6 @@
       "count": 3
     },
     {
-      "slug": "angers",
-      "label": "angers",
-      "count": 3
-    },
-    {
       "slug": "biarritz",
       "label": "biarritz",
       "count": 3
@@ -4101,11 +4161,6 @@
     {
       "slug": "brittany-retirement-expat",
       "label": "Brittany retirement expat",
-      "count": 3
-    },
-    {
-      "slug": "clermont-ferrand",
-      "label": "clermont ferrand",
       "count": 3
     },
     {
@@ -4144,11 +4199,6 @@
       "count": 3
     },
     {
-      "slug": "metz",
-      "label": "metz",
-      "count": 3
-    },
-    {
       "slug": "nancy",
       "label": "nancy",
       "count": 3
@@ -4159,8 +4209,8 @@
       "count": 3
     },
     {
-      "slug": "orleans",
-      "label": "orleans",
+      "slug": "pau",
+      "label": "pau",
       "count": 3
     },
     {

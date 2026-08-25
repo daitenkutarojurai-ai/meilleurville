@@ -29719,11 +29719,11 @@ export const EN_GUIDES: EnGuide[] = [
     publishedAt: "2026-08-24",
     updatedAt: "2026-08-24",
     intro:
-      "Nantes is the metro that keeps coming out of the shortlist exercise for relocating families, and unlike most reputations this one survives contact with the data. Schools rank 31st of the 540 cities on this site, the poverty rate is 17%, and the population has grown from 287,845 in 2011 to 325,070 in 2022 (Insee), a 13% rise that is almost entirely families and young workers arriving. It is also one of the few French metros where a house with a garden, twenty minutes from the centre, is a normal purchase rather than a fantasy. This guide covers the districts, the school paperwork and the real numbers.",
+      "Nantes is the metro that keeps coming out of the shortlist exercise for relocating families, and unlike most reputations this one survives contact with the data. Schools score 7.9 on our axis, inside the top 35 of the 540 cities on this site, the poverty rate is 17%, and the population has grown from 287,845 in 2011 to 325,070 in 2022 (Insee), a 13% rise that is almost entirely families and young workers arriving. It is also one of the few French metros where a house with a garden, twenty minutes from the centre, is a normal purchase rather than a fantasy. This guide covers the districts, the school paperwork and the real numbers.",
     sections: [
       {
         heading: "Is Nantes a family city? What the numbers actually say",
-        body: "On the measures that matter for children, Nantes sits high without being extreme. Schools rank 31st of 540, top 6% nationally. The median standard of living is €24,170 a year, roughly €2,010 a month per consumption unit (Insee Filosofi 2021), the 114th highest of 533 communes, with a 17% poverty rate. Housing is the argument: a T3 averages €1,150 a month against €1,380 in Lyon and €1,500 in Nice, and the median recorded flat sale is €3,413 per m² (DGFiP, DVF 2024-2025). The caveat is the same as everywhere: children aged 0-14 are 15.6% of the city's residents, below the 16.5% median of the 538 cities with census data, because the family market is in Rezé, Vertou, Sainte-Luce and Orvault rather than in the centre. The difference from Lyon or Bordeaux is that in Nantes the ring is genuinely affordable and genuinely connected.",
+        body: "On the measures that matter for children, Nantes sits high without being extreme. Schools sit inside the top 35 of 540, top 7% nationally, in a five-way tie at 7.9 with Paris, Tours, Angers and Lille that nothing in our engine separates. The median standard of living is €24,170 a year, roughly €2,010 a month per consumption unit (Insee Filosofi 2021), the 114th highest of 533 communes, with a 17% poverty rate. Housing is the argument: a T3 averages €1,150 a month against €1,380 in Lyon and €1,500 in Nice, and the median recorded flat sale is €3,413 per m² (DGFiP, DVF 2024-2025). The caveat is the same as everywhere: children aged 0-14 are 15.6% of the city's residents, below the 16.5% median of the 538 cities with census data, because the family market is in Rezé, Vertou, Sainte-Luce and Orvault rather than in the centre. The difference from Lyon or Bordeaux is that in Nantes the ring is genuinely affordable and genuinely connected.",
       },
       {
         heading: "The districts that work with children",
@@ -29769,7 +29769,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "Is Bordeaux a family city? What the numbers actually say",
-        body: "The city is prosperous and the schools are good without being exceptional: 87th of 540 on our schools axis, a median standard of living of €24,870 a year (around €2,070 a month per consumption unit, Insee Filosofi 2021, 96th of 533 communes) and a 17% poverty rate. Population has grown steadily, 239,399 in 2011 to 265,328 in 2022. But the 13.4% child share is the number that should shape your search. It is not that Bordeaux is hostile to children; it is that a city of small, expensive, sought-after houses converted into two-bedroom flats prices out the third bedroom. The median flat sale over 2024-2025 was €4,171 per m² and the median house €4,899 per m² (DGFiP, DVF), against national medians on this site of €2,533 and €2,840. Families arriving with a fixed budget end up in Le Bouscat, Bruges, Bègles or Talence, and that is the normal outcome rather than a failure.",
+        body: "The city is prosperous and the schools are good without being exceptional: inside the 87th to 97th band of 540 on our schools axis, an eleven-city tie at 7.4, a median standard of living of €24,870 a year (around €2,070 a month per consumption unit, Insee Filosofi 2021, 96th of 533 communes) and a 17% poverty rate. Population has grown steadily, 239,399 in 2011 to 265,328 in 2022. But the 13.4% child share is the number that should shape your search. It is not that Bordeaux is hostile to children; it is that a city of small, expensive, sought-after houses converted into two-bedroom flats prices out the third bedroom. The median flat sale over 2024-2025 was €4,171 per m² and the median house €4,899 per m² (DGFiP, DVF), against national medians on this site of €2,533 and €2,840. Families arriving with a fixed budget end up in Le Bouscat, Bruges, Bègles or Talence, and that is the normal outcome rather than a failure.",
       },
       {
         heading: "The districts that work with children",
@@ -29801,10 +29801,10 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-toulouse-2026",
-    title: "Family life in Toulouse (2026): second-best schools in France",
+    title: "Family life in Toulouse (2026): top-scoring schools, ring-commune prices",
     metaTitle: "Family Life in Toulouse 2026: Schools, Suburbs, Budget",
     metaDesc:
-      "Raising children in Toulouse in 2026: schools 2nd of 540 cities, a €1,150 T3, flats at €3,222/m², and why the family market is in the ring communes.",
+      "Raising children in Toulouse in 2026: schools tied for first of 540, a €1,150 T3, flats at €3,222/m², and why the family market is in the ring communes.",
     category: "family",
     emoji: "👨‍👩‍👧‍👦",
     readMinutes: 9,
@@ -29815,7 +29815,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "Is Toulouse a family city? What the numbers actually say",
-        body: "The schooling figure is the headline: 2nd of 540 on our schools axis, which is as high as a large city gets in France. Housing is comparatively reasonable for a metro of half a million: a T3 at €1,150 a month, and a median recorded flat sale of €3,222 per m² over 2024-2025 against a €2,533 median across the cities on this site (DGFiP, DVF). The counterweights are social: the median standard of living is €22,140 a year, about €1,850 a month per consumption unit, 202nd of 533 communes, and the poverty rate is 22%, meaningfully higher than Lyon, Nantes or Bordeaux, and concentrated in specific sectors rather than spread evenly. Children aged 0-14 are 14.1% of residents, 412th of 538. Read together: excellent schooling on average, a wide spread between districts, and a family housing market that sits outside the périphérique.",
+        body: "The schooling figure is the headline: 9.0 on our schools axis, the top score any city on this site records, shared with twelve others including Rennes and Grenoble. No large French city does better. Housing is comparatively reasonable for a metro of half a million: a T3 at €1,150 a month, and a median recorded flat sale of €3,222 per m² over 2024-2025 against a €2,533 median across the cities on this site (DGFiP, DVF). The counterweights are social: the median standard of living is €22,140 a year, about €1,850 a month per consumption unit, 202nd of 533 communes, and the poverty rate is 22%, meaningfully higher than Lyon, Nantes or Bordeaux, and concentrated in specific sectors rather than spread evenly. Children aged 0-14 are 14.1% of residents, 412th of 538. Read together: excellent schooling on average, a wide spread between districts, and a family housing market that sits outside the périphérique.",
       },
       {
         heading: "The districts that work with children",
@@ -29847,10 +29847,10 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-rennes-2026",
-    title: "Family life in Rennes (2026): the best schools in France",
+    title: "Family life in Rennes (2026): top-scoring schools, and a close ring",
     metaTitle: "Family Life in Rennes 2026: Schools, Districts, Budget",
     metaDesc:
-      "Raising children in Rennes in 2026: schools ranked 1st of 540 cities, a €1,100 T3, houses at €4,529/m², and the sea 55 minutes away by train.",
+      "Raising children in Rennes in 2026: schools tied for first of 540, a €1,100 T3, houses at €4,529/m², and the sea 55 minutes away by train.",
     category: "family",
     emoji: "👨‍👩‍👧‍👦",
     readMinutes: 9,
@@ -29861,7 +29861,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "Is Rennes a family city? What the numbers actually say",
-        body: "The schools axis puts Rennes 1st of 540, and the Brittany académie's consistency across national indicators is the reason. The rest is solid rather than spectacular, which is the honest reading: a median standard of living of €22,770 a year, about €1,900 a month per consumption unit (Insee Filosofi 2021), 165th of 533 communes, with a 21% poverty rate that reflects a large student population as much as deprivation. Housing is the second argument: a T3 at €1,100 a month is the cheapest of the western and southern cities in this series, and the median recorded flat sale is €3,667 per m² (DGFiP, DVF 2024-2025). Children aged 0-14 are 14.2% of residents, 406th of 538, again the ring effect, and again the ring here is close, cheap and served by a metro that was extended in 2022.",
+        body: "The schools axis puts Rennes on 9.0, the highest score it records, shared with twelve other cities including Toulouse and Grenoble, and the Brittany académie's consistency across national indicators is the reason. The rest is solid rather than spectacular, which is the honest reading: a median standard of living of €22,770 a year, about €1,900 a month per consumption unit (Insee Filosofi 2021), 165th of 533 communes, with a 21% poverty rate that reflects a large student population as much as deprivation. Housing is the second argument: a T3 at €1,100 a month is the cheapest of the western and southern cities in this series, and the median recorded flat sale is €3,667 per m² (DGFiP, DVF 2024-2025). Children aged 0-14 are 14.2% of residents, 406th of 538, again the ring effect, and again the ring here is close, cheap and served by a metro that was extended in 2022.",
       },
       {
         heading: "The districts that work with children",
@@ -29907,7 +29907,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "Is Strasbourg a family city? What the numbers actually say",
-        body: "Strasbourg ranks 16th of 540 on our schools axis and 1st equal on transport among the cities in this batch, and unusually for a large French city, families have not been squeezed out: 16.7% of its 291,709 residents are aged 0-14, 257th of the 538 cities with census data, which is around the national middle rather than far below it. The honest counterweight is income. The median standard of living is €20,260 a year, roughly €1,690 a month per consumption unit (Insee Filosofi 2021), which ranks 362nd of 533 communes, and the poverty rate is 26%. That spread is concentrated in specific western and northern sectors rather than diffuse, so the district you choose matters more here than in Nantes or Rennes. Housing, by contrast, is the cheapest of any city in this series alongside Lille: €1,080 a month for a T3.",
+        body: "Strasbourg sits inside the top 30 of 540 on our schools axis, in a fifteen-city tie at 8.7 and 1st equal on transport among the cities in this batch, and unusually for a large French city, families have not been squeezed out: 16.7% of its 291,709 residents are aged 0-14, 257th of the 538 cities with census data, which is around the national middle rather than far below it. The honest counterweight is income. The median standard of living is €20,260 a year, roughly €1,690 a month per consumption unit (Insee Filosofi 2021), which ranks 362nd of 533 communes, and the poverty rate is 26%. That spread is concentrated in specific western and northern sectors rather than diffuse, so the district you choose matters more here than in Nantes or Rennes. Housing, by contrast, is the cheapest of any city in this series alongside Lille: €1,080 a month for a T3.",
       },
       {
         heading: "The districts that work with children",
@@ -29942,7 +29942,7 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Family life in Lille (2026): where the family house still exists",
     metaTitle: "Family Life in Lille 2026: Houses, Schools, Real Budget",
     metaDesc:
-      "Raising children in Lille in 2026: houses at €2,815/m² — cheaper per m² than flats — a €1,080 T3, and three capitals within 90 minutes.",
+      "Raising children in Lille in 2026: houses at €2,815/m², cheaper per m² than flats, a €1,080 T3, and three capitals within 90 minutes.",
     category: "family",
     emoji: "👨‍👩‍👧‍👦",
     readMinutes: 9,
@@ -29953,7 +29953,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "Is Lille a family city? What the numbers actually say",
-        body: "Schooling ranks 34th of 540 on our axis, and transport is among the strongest in this batch: the metro is fully automated and the network is dense. Housing is the argument: a T3 at €1,080 a month ties Strasbourg for the cheapest here, and the house market is a genuine outlier at €2,815 per m² on 1,773 recorded sales (DGFiP, DVF 2024-2025). The counterweights are real and should not be softened. The median standard of living is €20,520 a year, about €1,710 a month per consumption unit, 339th of 533 communes, and the poverty rate is 27%, the highest of the ten cities here after Montpellier. Our safety axis is among the weaker readings in this batch. Children aged 0-14 are 14.4% of the city's 238,695 residents. The gaps between sectors in Lille are wide, so this is a city where the specific address does more work than the city average.",
+        body: "Schooling sits inside the top 35 of 540 on our axis, in the same five-way tie at 7.9 as Paris, Nantes, Tours and Angers, and transport is among the strongest in this batch: the metro is fully automated and the network is dense. Housing is the argument: a T3 at €1,080 a month ties Strasbourg for the cheapest here, and the house market is a genuine outlier at €2,815 per m² on 1,773 recorded sales (DGFiP, DVF 2024-2025). The counterweights are real and should not be softened. The median standard of living is €20,520 a year, about €1,710 a month per consumption unit, 339th of 533 communes, and the poverty rate is 27%, the highest of the ten cities here after Montpellier. Our safety axis is among the weaker readings in this batch. Children aged 0-14 are 14.4% of the city's 238,695 residents. The gaps between sectors in Lille are wide, so this is a city where the specific address does more work than the city average.",
       },
       {
         heading: "The districts that work with children",
@@ -29988,18 +29988,18 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Family life in Montpellier (2026): the sea, and the school map",
     metaTitle: "Family Life in Montpellier 2026: Schools, Districts, Cost",
     metaDesc:
-      "Raising children in Montpellier in 2026: a €1,150 T3, flats at €3,354/m², the Mediterranean after school — and the widest school gaps in this series.",
+      "Raising children in Montpellier in 2026: a €1,150 T3, flats at €3,354/m², the Mediterranean after school, and the widest school gaps in this series.",
     category: "family",
     emoji: "👨‍👩‍👧‍👦",
     readMinutes: 9,
     publishedAt: "2026-08-24",
     updatedAt: "2026-08-24",
     intro:
-      "Montpellier sells the accessible Mediterranean: the beach after school in June, a tram network that spares you the parent-taxi years, and prices still below Bordeaux. The promise holds, with two conditions attached that the brochures skip. The school map here has some of the widest district-to-district variation of any large French city (our schools axis puts Montpellier 98th of 540, well behind Rennes, Toulouse or Nantes), and the poverty rate is 28%, the highest in this series. This guide is about how families make the good version of Montpellier happen, and what it costs.",
+      "Montpellier sells the accessible Mediterranean: the beach after school in June, a tram network that spares you the parent-taxi years, and prices still below Bordeaux. The promise holds, with two conditions attached that the brochures skip. The school map here has some of the widest district-to-district variation of any large French city (our schools axis puts Montpellier in the 98th to 101st band of 540, well behind Rennes, Toulouse or Nantes), and the poverty rate is 28%, the highest in this series. This guide is about how families make the good version of Montpellier happen, and what it costs.",
     sections: [
       {
         heading: "Is Montpellier a family city? What the numbers actually say",
-        body: "Growth first: 264,538 residents in 2011, 307,101 in 2022 (Insee), one of the fastest expansions in France, and it is young. Children aged 0-14 make up 15.2% of residents. Housing is moderate for a city of this size and desirability: €1,150 a month for a T3, and a median recorded flat sale of €3,354 per m² over 2024-2025 (DGFiP, DVF) against a €2,533 median across the cities on this site. Then the numbers that should govern your search. The median standard of living is €19,670 a year, about €1,640 a month per consumption unit (the lowest of the ten cities here, 405th of 533 communes), with a 28% poverty rate, and a schools ranking of 98th of 540 that reflects a genuinely uneven distribution rather than uniform mediocrity. In Montpellier, more than in Rennes or Nantes, the sector decides the schooling.",
+        body: "Growth first: 264,538 residents in 2011, 307,101 in 2022 (Insee), one of the fastest expansions in France, and it is young. Children aged 0-14 make up 15.2% of residents. Housing is moderate for a city of this size and desirability: €1,150 a month for a T3, and a median recorded flat sale of €3,354 per m² over 2024-2025 (DGFiP, DVF) against a €2,533 median across the cities on this site. Then the numbers that should govern your search. The median standard of living is €19,670 a year, about €1,640 a month per consumption unit (the lowest of the ten cities here, 405th of 533 communes), with a 28% poverty rate, and a schools score that lands in the 98th to 101st band of 540, reflecting a genuinely uneven distribution rather than uniform mediocrity. In Montpellier, more than in Rennes or Nantes, the sector decides the schooling.",
       },
       {
         heading: "The districts that work with children",
@@ -30045,7 +30045,7 @@ export const EN_GUIDES: EnGuide[] = [
     sections: [
       {
         heading: "Is Marseille a family city? What the numbers actually say",
-        body: "Start with the hard number, because softening it would not help anyone: Marseille ranks 505th of 540 on our schools axis. The city's school buildings and their maintenance have been a public controversy for years and the renovation programme is moving slowly. The median standard of living is €20,600 a year, roughly €1,720 a month per consumption unit (Insee Filosofi 2021), 332nd of 533 communes, with a 26% poverty rate, and our safety axis is the lowest in this batch. Against that: property is the cheapest per square metre of any city in this series, at €3,154 per m² median on 19,801 recorded flat sales in 2024-2025 (DGFiP, DVF); a T3 is €1,100 a month, and the child share is the highest in the series. Marseille is not a city families avoid. It is a city where the district-level differences are enormous and the average tells you almost nothing about any given address.",
+        body: "Start with the hard number, because softening it would not help anyone: Marseille sits in the 505th to 521st band of 540 on our schools axis, a seventeen-city tie at 2.4. The city's school buildings and their maintenance have been a public controversy for years and the renovation programme is moving slowly. The median standard of living is €20,600 a year, roughly €1,720 a month per consumption unit (Insee Filosofi 2021), 332nd of 533 communes, with a 26% poverty rate, and our safety axis is the lowest in this batch. Against that: property is the cheapest per square metre of any city in this series, at €3,154 per m² median on 19,801 recorded flat sales in 2024-2025 (DGFiP, DVF); a T3 is €1,100 a month, and the child share is the highest in the series. Marseille is not a city families avoid. It is a city where the district-level differences are enormous and the average tells you almost nothing about any given address.",
       },
       {
         heading: "The districts that work with children",
@@ -30087,11 +30087,11 @@ export const EN_GUIDES: EnGuide[] = [
     publishedAt: "2026-08-24",
     updatedAt: "2026-08-24",
     intro:
-      "Nice is a climate decision before it is anything else. The mildest winter in mainland France changes childhood in concrete ways: break times outdoors all year, the beach in October, and the Alpes du Sud ski resorts still an hour and a half away. The bill arrives in the same envelope. A T3 averages €1,500 a month and the median recorded flat sale is €4,802 per m², both the highest in this series, while our schools axis puts Nice 351st of 540. This guide covers the districts, the international-school question that brings many expat families here, and the arithmetic.",
+      "Nice is a climate decision before it is anything else. The mildest winter in mainland France changes childhood in concrete ways: break times outdoors all year, the beach in October, and the Alpes du Sud ski resorts still an hour and a half away. The bill arrives in the same envelope. A T3 averages €1,500 a month and the median recorded flat sale is €4,802 per m², both the highest in this series, while our schools axis puts Nice in the 351st to 382nd band of 540. This guide covers the districts, the international-school question that brings many expat families here, and the arithmetic.",
     sections: [
       {
         heading: "Is Nice a family city? What the numbers actually say",
-        body: "The honest picture is mixed and worth having in advance. Housing is the most expensive of the ten cities here: €1,500 a month for a T3, €4,802 per m² median on 13,740 recorded flat sales in 2024-2025, and €6,455 per m² for houses, though only 541 house sales were recorded in two years, so the house market is thin as well as expensive (DGFiP, DVF). Schooling ranks 351st of 540, which is the second-weakest in this batch after Marseille. The median standard of living is €21,570 a year, about €1,800 a month per consumption unit, 243rd of 533 communes, with a 22% poverty rate. Children aged 0-14 are 15.6% of the city's 353,701 residents. What Nice does hold that no other city here does: the highest nature score of this batch, and a climate that removes the six-month indoor season from the equation entirely.",
+        body: "The honest picture is mixed and worth having in advance. Housing is the most expensive of the ten cities here: €1,500 a month for a T3, €4,802 per m² median on 13,740 recorded flat sales in 2024-2025, and €6,455 per m² for houses, though only 541 house sales were recorded in two years, so the house market is thin as well as expensive (DGFiP, DVF). Schooling lands in the 351st to 382nd band of 540, a thirty-two-city tie at 5.3, which is the second-weakest in this batch after Marseille. The median standard of living is €21,570 a year, about €1,800 a month per consumption unit, 243rd of 533 communes, with a 22% poverty rate. Children aged 0-14 are 15.6% of the city's 353,701 residents. What Nice does hold that no other city here does: the highest nature score of this batch, and a climate that removes the six-month indoor season from the equation entirely.",
       },
       {
         heading: "The districts that work with children",
@@ -30120,6 +30120,420 @@ export const EN_GUIDES: EnGuide[] = [
     ],
     relatedCities: ["nice", "cagnes-sur-mer", "antibes", "cannes", "toulon"],
     tags: ["nice", "moving to france with children", "french school system", "cote-d-azur"],
+  },
+  {
+    slug: "family-in-angers-2026",
+    title: "Family life in Angers (2026): where the house costs what the flat costs",
+    metaTitle: "Family Life in Angers 2026: Schools, Districts, Budget",
+    metaDesc:
+      "Raising children in Angers in 2026: schools in the national top 35, a €1,000 T3, and houses at €3,235/m² against flats at €3,143. The full picture.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 9,
+    publishedAt: "2026-08-25",
+    updatedAt: "2026-08-25",
+    intro:
+      "Angers is the city French family rankings keep putting near the top, and for once the reputation survives the data. On our schools axis it scores 7.9, which places it inside the top 35 of the 540 cities on this site, in a five-way tie with Paris, Nantes, Lille and Tours. The population has gone from 148,803 in 2011 to 157,555 in 2022 (Insee). And the number that matters most to a family arriving from abroad: a house here costs €3,235 per m² against €3,143 for a flat, a gap of under 3%, on 1,095 recorded house sales in two years. In most French cities of this size the house carries a fifth to a quarter premium. This guide covers the districts, the enrolment paperwork and what a family actually spends.",
+    sections: [
+      {
+        heading: "Is Angers a family city? What the numbers actually say",
+        body: "Three measures, pulling in the same direction for once. Schooling: 7.9 on our schools axis, top 35 of 540, and Paris, Nantes, Lille and Tours hold exactly the same score, and nothing in our engine separates them, so treat it as a band rather than a position. Household economics: a median standard of living of €21,450 a year, about €1,790 a month per consumption unit (Insee Filosofi 2021), which lands almost exactly in the middle of the 533 communes with published figures, with a 21% poverty rate. Growth: nearly 9,000 more residents than in 2011, the fastest rise of the nine cities in this batch. The counterweight is the same one that runs through the whole series. Children aged 0 to 14 are 14.9% of residents, 363rd of the 538 cities we hold census data for, against a 16.5% national median. The families are in Avrillé, Beaucouzé and Les Ponts-de-Cé, not in the centre, and that is a normal French pattern rather than an Angers problem.",
+      },
+      {
+        heading: "The districts that work with children",
+        body: "Les Justices and La Madeleine are the standard family answer: schist houses with gardens, primaries, shops within walking distance. La Doutre is the version with character, medieval and on foot, for parents who want the old town rather than a lawn. The Lac de Maine sector is the modern green option, apartment blocks with a 220-hectare leisure park at the bottom of the building. In the ring, Avrillé and Beaucouzé hold the new-build family stock, Trélazé is the former slate town in the middle of a long renovation, and Les Ponts-de-Cé sits on the Loire. The local claim that everything is fifteen minutes from everything is close enough to true to plan around, which is why the tram and the Irigo network work here in a way they do not in bigger metros. Angers is also flat and genuinely cyclable, so a school run by bike with a child on the back is ordinary rather than heroic.",
+      },
+      {
+        heading: "Schools: how enrolment actually works here",
+        body: "The national frame first, because it surprises nearly every arriving parent. School is compulsory from age 3: école maternelle is a school, free, staffed by qualified teachers, and your three-year-old is expected there. You enrol at the mairie, not at the school, and the placement follows the carte scolaire, the catchment attached to your registered address. That means the lease chooses the school. Check the catchment, then sign. You will also be asked for proof of the eleven childhood vaccinations that are mandatory for any child born from 1 January 2018; a foreign record is normally accepted but has to be matched onto the French schedule, so get that done before you land. The Angers-specific point is the calendar. Enrolment for a September start opens in the winter and runs through the spring. Arrive in July and the catchment school will still take your child, but any choice inside the system, a bilingual stream or a school with a particular reputation, is already gone.",
+      },
+      {
+        heading: "Crèche, childminders and the Wednesday problem",
+        body: "Municipal crèche places are applied for during pregnancy, through the mairie, and an arriving family with a toddler should assume the answer is no. The workable fallback is an assistante maternelle, a registered childminder looking after a few children in her own home, which is the most common form of childcare in France and unusually well supplied around Angers. The CAF, the family benefits agency, refunds part of the cost through the CMG, but only once your file is open, and the file takes weeks. Then Wednesday. Most French communes run a four-day school week, so state primaries close all day on Wednesday, which catches out practically every foreign parent. Angers fills it with municipal leisure centres, a well-regarded conservatoire, sailing clubs on the Lac de Maine and the usual sports network, all billed on your CAF quotient familial, the income bracket that also sets what you pay for school lunches.",
+      },
+      {
+        heading: "What a family actually pays",
+        body: "Our housing data gives €1,000 a month for a T3 and €750 for a T2. A T3 is a three-room flat, meaning two bedrooms plus a living room, which is the standard starting point for a couple with one or two young children; French agents will push you towards a T4 for three bedrooms, and that format is not something we hold a figure for. That €1,000 is the highest rent of the nine cities in this batch, and still €80 below the cheapest of the ten large cities covered earlier in this series. On purchase, the median price actually recorded is €3,143 per m² for a flat on 3,219 sales and €3,235 per m² for a house on 1,095 sales over 2024 and 2025 (DGFiP, DVF). Both sit above the national medians of €2,533 and €2,840, and remember that a house price per m² includes its land, so the two are not comparable to the euro. One cost that catches new owners: the taxe d'habitation was abolished on main homes, but the taxe foncière was not, and it is the owner who pays it. Tenants do not.",
+      },
+      {
+        heading: "Daily life with kids: the lake, weekends, paediatrics",
+        body: "The Lac de Maine does the work a coastline does elsewhere: supervised summer swimming, dinghy sailing on Wednesdays, cycling all year, ten minutes from the centre and free. The Parc Balzac and the Jardin des Plantes take the everyday traffic. Terra Botanica, the plant-themed park, is the recurring family outing, and the château earns its place because the Apocalypse tapestry holds children's attention far better than anyone expects. Weekends run along the Loire by bike towards Béhuard and Savennières on protected paths. Health goes through the CHU, and general-practitioner density holds up better here than in most cities of this size, though the standing advice applies: register with a doctor in your first weeks, not in your first crisis. Paris is about an hour and a half by TGV, which makes visiting grandparents a day trip. Angers is in school holiday zone B, so its February and spring breaks fall on different weeks from Lyon, Dijon or Bordeaux; the ministry publishes the dates each autumn.",
+      },
+      {
+        heading: "Who Angers works for, and who should look elsewhere",
+        body: "Angers works for families who want a house with a garden as a starting condition rather than a ten-year plan, and who do not need a very large labour market to get there. The near-identical price per m² for houses and flats is the whole argument: in most cities that choice costs you a fifth more per square metre, and here it costs almost nothing. It works for remote workers, for public-sector and healthcare households, and for anyone who wants Nantes and Paris reachable without living in either. It works less well for two-career couples who need depth in a specialist private-sector market, where the local ceiling is real and the Nantes commute exists for a reason, and for teenagers who want a city that is awake at midnight. Tighter budgets look at Trélazé or Cholet. Families weighing the Loire alternative should read the Tours guide next: the two cities score identically on schools and Tours is the more expensive of the pair.",
+      },
+    ],
+    relatedCities: ["angers", "trelaze", "cholet", "saumur", "nantes"],
+    tags: ["angers", "moving to france with children", "french school system", "pays-de-la-loire"],
+  },
+  {
+    slug: "family-in-caen-2026",
+    title: "Family life in Caen (2026): the sea at 15 km, and the fewest children",
+    metaTitle: "Family Life in Caen 2026: Schools, the Sea, Real Costs",
+    metaDesc:
+      "Raising children in Caen in 2026: a €930 T3, houses at €3,545/m², the Channel 15 km away, and the lowest child share of any city in this series.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 9,
+    publishedAt: "2026-08-25",
+    updatedAt: "2026-08-25",
+    intro:
+      "Caen is the rational choice on almost every family measure: schools in the national top 100, the Channel fifteen kilometres away, a teaching hospital with a paediatric department, and a T3 at €930 a month, which is exactly the median rent across the 540 cities on this site. Then there is the figure nobody puts in a brochure. Children aged 0 to 14 make up 11.8% of residents, which is 499th of the 538 cities we hold census data for, the lowest in this series and close to the national floor. Caen is a student city whose families live in the ring, and understanding that before you start looking saves months. This guide covers where they actually live, how enrolment works and what it costs.",
+    sections: [
+      {
+        heading: "Is Caen a family city? What the numbers actually say",
+        body: "The favourable side is real. Our schools axis gives Caen 7.4, which sits in the band running from 87th to 97th of 540, shared with ten other cities including Bordeaux, Nancy and Dijon, so read it as top fifth rather than as a precise position. It also has the strongest safety score of the nine cities in this batch. The median standard of living is €21,600 a year, about €1,800 a month per consumption unit (Insee Filosofi 2021), 242nd of the 533 communes with published figures, with a 21% poverty rate. The unfavourable side is demographic. The commune had 108,793 residents in 2011 and 108,398 in 2022, so it has not grown at all, and its 11.8% child share is the lowest in this batch by a clear margin, with the next city up at 12.8%. That is what a large student population inside a compact commune does to the arithmetic. It is not a verdict on the city; it is an instruction to look at Hérouville, Ifs, Épron and the coast.",
+      },
+      {
+        heading: "The districts that work with children",
+        body: "Venoix is the canonical family district: houses, well-regarded primaries, a village feel inside the city, and the local demand to match. La Folie-Couvrechef near the Mémorial follows. Vaucelles, on the left bank, is where younger families have been moving. The rebuilt centre suits parents who want to be urban and walk everywhere. The ring is where the space is: Ouistreham and Lion-sur-Mer for households who genuinely want the sea on a weekday, at the price of two car journeys a day; Ifs and Fleury-sur-Orne for budget; Épron and Biéville-Beuville for quiet to the north; and Hérouville-Saint-Clair, a whole commune of its own, for the widest range of stock. The useful local rule is that almost everything is inside twenty minutes, so the decision is not really about distance. It is about the school and about whether you want the beach after school or not.",
+      },
+      {
+        heading: "Schools: who assigns which school, and how",
+        body: "Start with the national frame: compulsory from age 3, école maternelle free and genuinely a school, and proof of the eleven vaccinations mandatory for children born from 1 January 2018. Then the piece that is rarely explained to foreign parents and that matters as soon as you have a child over ten. Three different authorities assign the three stages. The mairie handles maternelle and élémentaire, and the catchment comes from your registered address. The collège, from age eleven, is assigned by the département, that is the Conseil départemental of Calvados working through the education authority, on its own sectorisation map, which is not always drawn on the same lines as the primary one. The lycée is assigned by the rectorat, here the académie de Normandie, on a wider map again. So an address that puts you in a primary you like can put you in a different collège sector than the neighbouring street, and asking about all three at the point of signing a lease is the difference between one move and two.",
+      },
+      {
+        heading: "Crèche, childminders and the Wednesday problem",
+        body: "Crèche provision is reasonable for a city of this size, but the application still goes in during pregnancy through the mairie, so an arriving family should plan around an assistante maternelle, a registered childminder working from her own home, part-refunded by the CAF through the CMG once your file is open. Allow several weeks for the file. Wednesdays follow the national four-day-week pattern, with state primaries closed all day, and Caen fills them with municipal leisure centres, the conservatoire and clubs, billed on your CAF quotient familial, the same income bracket that sets your school-lunch rate. The local flavour is nautical: sailing schools at Ouistreham take children from about seven, and riding is unusually well established across the Calvados countryside. Neither is priced like a metropolitan hobby, and neither has a metropolitan waiting list.",
+      },
+      {
+        heading: "What a family actually pays",
+        body: "Rent first: €930 a month for a T3 (three rooms, so two bedrooms and a living room) and €700 for a T2, which puts Caen exactly on the median rent across the cities on this site. Buying is where Caen is unusual. The median flat sale over 2024 and 2025 was €2,893 per m² on 3,216 transactions, moderately above the €2,533 national median. The median house was €3,545 per m² on 573 transactions, which is the highest house price per m² of the nine cities in this batch and more than a fifth above the local flat price. Bear in mind that a house price per m² includes the land it sits on, so it is never comparable euro for euro with a flat. The practical reading is that flats in Caen are affordable and houses in Caen are not, which is precisely why the family market has moved to Ifs, Fleury and the coastal communes. Two costs newcomers underestimate: school meals and after-school care are billed on your CAF income bracket, and the allocations familiales only start from your second dependent child in mainland France and have been income-modulated since 2015, so a one-child family should budget as though there is none.",
+      },
+      {
+        heading: "Daily life with kids: the coast, weekends, paediatrics",
+        body: "The Colline aux Oiseaux is the family park, with its themed gardens; La Prairie is the flat green rectangle in the middle of the city that absorbs pushchairs and running shoes; and the ducal castle is free to walk into. The sea is the through-line. The greenway to Ouistreham runs fourteen flat kilometres along the canal and is the founding family bike ride. The D-Day beaches turn history into something a child can stand on, and Arromanches in particular lands with children in a way that a museum does not. The cross-Channel ferry from Ouistreham to Portsmouth is worth knowing about beyond the birthday-outing angle: for a British family it is a car-and-cabin link home that does not involve an airport. Wet days go to the Mémorial, which works from about ten, to Festyland, and to the pools. Paediatrics runs through the CHU. Caen sits in school holiday zone B, and the tram, which reopened on rails in July 2019, covers the north-south axis.",
+      },
+      {
+        heading: "Who Caen works for, and who should look elsewhere",
+        body: "Caen works for families who put a low-friction daily life above urban prestige: short journeys, schools that do not require a strategy, the sea as a Sunday rather than a holiday, and a rent at the national median. It works particularly well for healthcare and public-sector households, and for hybrid workers doing two days in Paris, since the train to Saint-Lazare is around two hours, which is liveable twice a week and punishing five times. It works less well if you need a deep private-sector market for two careers, or if you want to buy a house inside the commune, where the price per m² is the highest in this batch. It works badly for anyone who will resent Norman weather, which is not a joke made by southerners. Constrained budgets should look at Ifs, Fleury-sur-Orne or Hérouville-Saint-Clair before compromising on the school. The regional alternative is Rouen, which offers a bigger job market and no coastline.",
+      },
+    ],
+    relatedCities: ["caen", "herouville-saint-clair", "bayeux", "cherbourg", "rouen"],
+    tags: ["caen", "moving to france with children", "french school system", "normandy"],
+  },
+  {
+    slug: "family-in-dijon-2026",
+    title: "Family life in Dijon (2026): the highest incomes of the batch",
+    metaTitle: "Family Life in Dijon 2026: Schools, Districts, Budget",
+    metaDesc:
+      "Raising children in Dijon in 2026: a €950 T3, flats at €2,625/m², the lowest poverty rate in this series, and the ring communes families buy in.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 9,
+    publishedAt: "2026-08-25",
+    updatedAt: "2026-08-25",
+    intro:
+      "Dijon is the regional capital that behaves like a much larger city on the things families need and like a much smaller one on the things they pay for. It has a teaching hospital, a regional conservatoire, a tram network and a lycée sector that feeds the classes préparatoires, on a median standard of living of €22,720 a year, the highest of the nine cities in this batch, and a 17% poverty rate, the lowest. A T3 rents for €950. The reservation is demographic and it is shared with most of this series: children aged 0 to 14 are 12.8% of residents, 469th of the 538 cities we hold census data for. This guide covers the districts where that number is different, how school enrolment works, and what the whole thing costs.",
+    sections: [
+      {
+        heading: "Is Dijon a family city? What the numbers actually say",
+        body: "On schooling, Dijon scores 7.4 on our axis, inside the band running from 87th to 97th of 540, tied with ten other cities, so read it as a top-fifth position rather than a rank. On money it is the most comfortable city in this batch: €22,720 a year of median standard of living, roughly €1,890 a month per consumption unit (Insee Filosofi 2021), 166th of the 533 communes with published figures, with a 17% poverty rate that is four points below the next city in this batch and eight below the highest. The population has grown from 151,672 in 2011 to 159,941 in 2022. Against that, the child share of 12.8% is the second lowest here, and the honest reading is the same as everywhere else in France: the commune holds students and older households, and the families are in Fontaine-lès-Dijon, Talant, Saint-Apollinaire and Chenôve. The metropolitan area is small enough that this costs you fifteen minutes, not an hour.",
+      },
+      {
+        heading: "The districts that work with children",
+        body: "Montchapet is the family district, quiet and residential, with primaries people move for and the largest flats in the city. Victor Hugo and Darcy cover the smart central option. The Clemenceau sector towards the Toison d'Or is the modern practical one, close to shopping and sports facilities. Les Bourroches offers accessible prices in a calm setting, and the Fontaine d'Ouche is the large renovation project, with the price to match. In the ring, Fontaine-lès-Dijon is the reference family commune, with sought-after schools and a housing market that reflects it; Talant and Saint-Apollinaire are the alternatives; Chenôve is the budget end and is inside the tram network. Dijon is compact and flat, so the tram and a bicycle genuinely replace a second car, which is not true in Clermont-Ferrand or Besançon.",
+      },
+      {
+        heading: "Schools: how enrolment actually works here",
+        body: "Compulsory from age 3, école maternelle free and genuinely a school rather than a nursery, enrolment through the mairie, placement by the carte scolaire attached to your registered address, and proof of the eleven vaccinations mandatory for any child born from 1 January 2018. The lease decides the school, so check the catchment before signing. Dijon's own strength is at the far end of the system: the central lycées feed classes préparatoires, the two-year post-baccalauréat course that leads to the grandes écoles, and the whole route from maternelle to that point exists inside a city you can cross by tram. The under-explained piece for arriving families is the health side. Every child in France has a carnet de santé, a paper health record, and a schedule of compulsory medical examinations running from birth to age sixteen. Until age six these are largely handled free by the PMI, the maternal and child health service run by the département. Crèches and schools will ask for the carnet, so bring your child's foreign records and have a French doctor transcribe them early.",
+      },
+      {
+        heading: "Crèche, childminders and the Wednesday problem",
+        body: "Crèche supply is decent for the size of the city, but the application still goes in during pregnancy through the mairie, so a family arriving with a small child should plan on an assistante maternelle, a registered childminder working from her own home, partly refunded by the CAF through the CMG once your file is open. That file takes weeks, not days. Wednesdays follow the four-day-week pattern, primaries shut all day, and Dijon's answer is unusually strong for a city of 160,000: a regional conservatoire, a dense club network in which handball and fencing are locally serious, music schools, and the Vapeur for older children. Everything is priced on your CAF quotient familial, which also sets your school-lunch rate. The extracurricular offer here genuinely exceeds what the population would predict, and it is one of the concrete reasons families stay.",
+      },
+      {
+        heading: "What a family actually pays",
+        body: "Our housing data gives €950 a month for a T3, a three-room flat meaning two bedrooms and a living room, and €720 for a T2. On purchase, the median flat sale over 2024 and 2025 was €2,625 per m² on 4,898 transactions, the largest number of recorded flat sales of the nine cities in this batch, so the median is well supported. The median house was €3,264 per m² on 730 transactions, a quarter above the flat figure; a house price per m² includes the land, so the two are not directly comparable. Against national medians of €2,533 for flats and €2,840 for houses, Dijon is a little above the middle on flats and moderately above on houses, which for a regional capital with this income level is the whole point. Two recurring costs: school meals and after-school care are billed on your CAF income bracket, and the allocations familiales start only from your second dependent child in mainland France and are income-modulated, so a one-child household should assume none.",
+      },
+      {
+        heading: "Daily life with kids: the lake, weekends, paediatrics",
+        body: "Lac Kir is the local base, ten minutes from the centre, with supervised summer swimming, canoeing and a cycle path. The Parc de la Colombière, with its deer and its playgrounds, is the default Wednesday. The Ouche greenway links the two. Wet days have a good answer: the renovated Musée des Beaux-Arts is free, and the tombs of the Dukes of Burgundy hold children better than most museum contents, with the Cité internationale de la gastronomie et du vin and the municipal pools taking the rest. Paediatrics runs through the CHU. The weekend geography is the underrated part: the vineyard slopes, the Morvan lakes and a dense set of châteaux are all inside an hour, so family outings cost fuel rather than tickets. Paris is about an hour and thirty-five minutes by TGV. Dijon is in school holiday zone A, so its February and spring breaks fall on different weeks from Angers, Tours or Metz. Burgundy winters are real, and the city is not built to pretend otherwise.",
+      },
+      {
+        heading: "Who Dijon works for, and who should look elsewhere",
+        body: "Dijon works for families who want the full apparatus of a regional capital, a teaching hospital, a conservatoire, a preparatory-class pipeline, on a budget that leaves something over, and it is the batch's best combination of income and low poverty. It works for public-sector, healthcare and agri-pharmaceutical households, and for hybrid workers doing two Paris days a week. It works for anyone who wants their children walking and cycling to things by eleven or twelve, which a compact flat city delivers. It works less well if your career needs a deep private-sector market, where Lyon is the honest comparison and is two hours away, and it works badly if the sea is a requirement, because there is no version of Dijon where the sea is close. Tighter budgets look at Chenôve or Talant. The direct regional rival is Besançon, which is greener and cheaper and has a smaller job market; the two cities are an hour apart and families genuinely do choose between them.",
+      },
+    ],
+    relatedCities: ["dijon", "chenove", "beaune", "chalon-sur-saone", "besancon"],
+    tags: ["dijon", "moving to france with children", "french school system", "bourgogne-franche-comte"],
+  },
+  {
+    slug: "family-in-tours-2026",
+    title: "Family life in Tours (2026): top-35 schools on the Loire",
+    metaTitle: "Family Life in Tours 2026: Schools, the Loire, Budget",
+    metaDesc:
+      "Raising children in Tours in 2026: schools in the national top 35, a €940 T3, flats at €2,827/m², and the classes for children who arrive without French.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 9,
+    publishedAt: "2026-08-25",
+    updatedAt: "2026-08-25",
+    intro:
+      "Tours scores 7.9 on our schools axis, which puts it inside the top 35 of the 540 cities on this site, level with Angers, Nantes and Lille and ahead of every other city in this batch. It has a teaching hospital with a dedicated children's site, a river classified by UNESCO running through the middle of it, châteaux within cycling distance, and a high-speed line to Paris. It is also the most expensive of the nine cities here relative to local means, on our cost-of-living axis. This guide covers the districts, the enrolment paperwork, the provision for children arriving without any French, and what a family spends.",
+    sections: [
+      {
+        heading: "Is Tours a family city? What the numbers actually say",
+        body: "Schooling is the headline: 7.9 on our axis, inside the top 35 of 540, shared with four other cities at exactly the same score, so treat it as a band. The rest is mixed in an informative way. The median standard of living is €21,250 a year, about €1,770 a month per consumption unit (Insee Filosofi 2021), 276th of the 533 communes with published figures, with a 21% poverty rate; that is mid-table, and Tours is nonetheless the most expensive city of this batch on our cost-of-living axis, which is the definition of a squeeze. The population has risen from 134,633 in 2011 to 138,668 in 2022. Children aged 0 to 14 are 14.0% of residents, 422nd of 538, below the 16.5% national median, and the reason is the same as everywhere: family stock is in Saint-Cyr-sur-Loire, Saint-Avertin, Fondettes and Joué-lès-Tours rather than in the centre. What Tours buys with that premium is the schooling band and the Paris link.",
+      },
+      {
+        heading: "The districts that work with children",
+        body: "Les Prébendes is the top of the family market, built around its park, with the schools and the prices that follow. Strasbourg-Velpeau, behind the station, is where younger families have been buying town houses, and it has moved fast. Saint-Symphorien, on the right bank, is the established detached-house district with a view over the Loire. In the ring, Saint-Cyr-sur-Loire is the reference family commune, Saint-Avertin sits on the Cher to the south, and Fondettes is the quieter countryside version. Joué-lès-Tours is the largest ring commune and covers the affordable end. The rule locals apply and newcomers learn the hard way: a bridge can cost twenty minutes at peak times, so putting home, school and work on the same side of the river saves years of small aggravations. Heat is the other planning variable. Loire valley summers now deliver real heatwaves, and a through-ventilated flat or a house on the north side is worth paying for.",
+      },
+      {
+        heading: "Schools, and what happens if your child speaks no French",
+        body: "The frame: compulsory from age 3, école maternelle free and a genuine school, enrolment through the mairie, placement by the catchment attached to your address, and proof of the eleven vaccinations mandatory for children born from 1 January 2018. Now the part that matters most to a family arriving mid-life rather than mid-pregnancy. The French state school system has a dedicated route for children who arrive without French, the UPE2A, a support unit for newly arrived allophone pupils. The child is assessed by the académie, here Orléans-Tours, through its CASNAV service, then placed in an ordinary class for their age with intensive French lessons pulled out of the timetable, tapering over the year. It is free, it is a national scheme rather than a local favour, and it is the single most useful thing an arriving parent can ask about by name. Not every school hosts a unit, so the assessment can send you to a school outside your catchment, which is one of the few situations where the carte scolaire bends. At the other end, the central lycées feed classes préparatoires.",
+      },
+      {
+        heading: "Crèche, childminders and the Wednesday problem",
+        body: "Crèche applications go in during pregnancy through the mairie, so arriving families should plan on an assistante maternelle, the registered childminder working from her own home who is the default form of childcare in France, part-refunded by the CAF through the CMG once your file is open. Supply of childminders is good in the ring communes and thinner in the centre. Wednesdays follow the four-day pattern with primaries closed all day, covered by municipal leisure centres, the conservatoire and clubs, priced on your CAF quotient familial, which also sets your school-lunch rate. The Tours specialities are aquatic: rowing and canoe clubs on the Cher take children young, and enough of them do it that it reads as an ordinary childhood activity rather than a niche sport. The CCC OD, the contemporary art centre, runs the wet-weather workshops.",
+      },
+      {
+        heading: "What a family actually pays",
+        body: "A T3, meaning two bedrooms and a living room, averages €940 a month in our housing data, with a T2 at €700. On purchase, the median recorded flat sale over 2024 and 2025 was €2,827 per m² on 3,239 transactions and the median house €3,246 per m² on 923 transactions (DGFiP, DVF), against national medians of €2,533 and €2,840. As always a house price per m² includes its land, so the two figures are not comparable to the euro. Where Tours differs from the cheaper cities in this batch is the ratio between what things cost and what people here earn, and that is what our cost-of-living axis is measuring when it puts Tours last of the nine. If a Paris season ticket is part of the plan, price it before you commit rather than after: the arithmetic that makes Tours work for hybrid workers depends on two or three days a week, not five. And note that most Paris high-speed services leave from Saint-Pierre-des-Corps, which is a separate commune next door, not a district of Tours.",
+      },
+      {
+        heading: "Daily life with kids: the Loire, weekends, paediatrics",
+        body: "The Loire à Vélo network is the spine of childhood here: protected paths, the île Simon and the summer guinguettes in town, and Villandry with its garden maze about half an hour of pedalling away. Amboise and the Clos Lucé, where Leonardo da Vinci spent his last years, absorb the Sunday traffic, and the working models of his machines are the rare museum content that holds a seven-year-old. Wet days go to the Muséum and the municipal pools, and the Aquarium du Val de Loire is reachable from Tours although it sits in Lussault-sur-Loire, a neighbouring commune. The Lac de la Bergeonnerie adds summer swimming. Paediatrics runs through the CHU, whose Clocheville site is the historic children's hospital. Paris is a little over an hour by TGV, which makes extended family logistics as simple as they get outside the Paris basin itself. Tours is in school holiday zone B.",
+      },
+      {
+        heading: "Who Tours works for, and who should look elsewhere",
+        body: "Tours works for families who want ambitious schooling and a river-and-château childhood with Paris genuinely within reach, and who can fund a small premium to get it. The winning arrangements are the hybrid Paris job paired with a local healthcare or service-sector second income, or two solid local salaries in a city that respects them. It works less well on a single modest income, because Tours is the most expensive of the nine cities here relative to what people earn, and it works badly for anyone who needs a large specialist labour market. Constrained budgets have two good answers in the same landscape: Orléans, which is cheaper and has the widest house market in this batch, and Blois, which splits the difference. Families weighing the western alternative should compare with Angers, which shares the same schools band and rents for €60 more, and has a house market where the price per m² is barely above the flat price.",
+      },
+    ],
+    relatedCities: ["tours", "joue-les-tours", "amboise", "blois", "orleans"],
+    tags: ["tours", "moving to france with children", "french school system", "centre-val-de-loire"],
+  },
+  {
+    slug: "family-in-metz-2026",
+    title: "Family life in Metz (2026): local law, Luxembourg, and no price data",
+    metaTitle: "Family Life in Metz 2026: Schools, Local Law, Budget",
+    metaDesc:
+      "Raising children in Metz in 2026: a €910 T3, the Alsace-Moselle local law that changes school and health cover, and what Luxembourg does to a family budget.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 9,
+    publishedAt: "2026-08-25",
+    updatedAt: "2026-08-25",
+    intro:
+      "Metz is two family propositions in one commune. The first is an ordinary one: a green, walkable city of 121,695 people with a €910 T3, water everywhere and a Centre Pompidou outpost that runs children's workshops. The second is the reason a lot of households actually come, which is that Luxembourg is around forty-five minutes away by regional train and pays on a different scale. Between the two sits something no other city in this batch has except Strasbourg: Moselle keeps a body of local law inherited from 1871 to 1918 that changes how school and health insurance work. This guide covers all three, plus the districts and the numbers.",
+    sections: [
+      {
+        heading: "Is Metz a family city? What the numbers actually say",
+        body: "The demographic answer is better here than almost anywhere else in this series: children aged 0 to 14 are 15.1% of residents, 355th of the 538 cities with census data, which is the second highest of the nine cities in this batch and much closer to the 16.5% national median than Caen or Dijon manage. The population has risen slightly since 2011, from 119,962 to 121,695. Schooling is mid-table: 6.6 on our schools axis, which sits in a very large tie, a band running from 102nd to 208th of 540 shared with more than a hundred cities, so any precise rank there would be invented rather than measured. The economic picture is the weak side. The median standard of living is €20,940 a year, about €1,750 a month per consumption unit (Insee Filosofi 2021), in the bottom half of the 533 communes with published figures, and the poverty rate is 24%, the second highest of this batch. That average, though, is measured on residents, and a household with a Luxembourg salary is not the household the average describes.",
+      },
+      {
+        heading: "The districts that work with children",
+        body: "Queuleu is the family district: houses with gardens, primaries with reputations, and quiet. Le Sablon to the south is the practical one, with schools, the Mettis rapid-bus line and quick access to the station, which matters more here than anywhere else in this batch. Plantières and La Grange-aux-Bois cover the suburban housing stock inside the commune. Outside it, Montigny-lès-Metz is the reference family commune of the agglomeration, a small town inside the big one, with the schools and prices that go with that; Longeville-lès-Metz and Le Ban-Saint-Martin follow along the Moselle. Households commuting to Luxembourg tend north, towards Woippy and Maizières-lès-Metz, for the train. The organising rule in Metz is not the school or the park, it is the station: every minute shaved off the seven o'clock train comes back as an evening at home, and it is why identical houses two kilometres apart do not cost the same.",
+      },
+      {
+        heading: "Schools: the national frame, plus the local law",
+        body: "The national frame holds: compulsory from age 3, école maternelle free and genuinely a school, enrolment through the mairie, placement by the catchment attached to your registered address, and proof of the eleven vaccinations mandatory for children born from 1 January 2018. Then the part unique to this corner of France. Moselle, together with Bas-Rhin and Haut-Rhin, kept a body of local law when the territory returned to France in 1918, and two pieces of it will reach you as a parent. First, religious instruction is a normal timetabled subject in state schools here, unlike the rest of the country: it is delivered by recognised faiths, and families who do not want it request a written exemption, which is routine and granted, but it has to be asked for rather than assumed. Second, the same territory keeps two extra public holidays, Good Friday and 26 December, so the school and working calendar does not match the national one on those dates. Neither is a problem. Both are surprises if nobody tells you.",
+      },
+      {
+        heading: "Crèche, childminders, and the cross-border question",
+        body: "Crèche applications go in during pregnancy through the mairie, and the realistic fallback is an assistante maternelle, a registered childminder working from her own home, part-refunded by the CAF through the CMG once your file is open. Provision around Metz is shaped by the border: some structures are organised around Luxembourg working hours, which is a genuine local advantage if your day starts at six. Wednesdays follow the national four-day pattern, with primaries closed all day, covered by leisure centres, the conservatoire and clubs, priced on your CAF quotient familial. The cross-border point to settle before you arrive is which country pays your family benefits. Under EU coordination rules the country where you work pays first and the country where you live tops up any difference, so a Metz-resident household with one parent employed in Luxembourg is dealing with two administrations at once. Ask the CAF at the outset rather than discovering it from a payment that does not arrive.",
+      },
+      {
+        heading: "What a family actually pays, and the price data we do not have",
+        body: "Rent first: €910 a month for a T3, meaning two bedrooms and a living room, and €680 for a T2, which is the lowest rent of the nine cities in this batch behind the three that tie at €900. On purchase, Metz is one of two cities in this whole series, with Strasbourg, where we cannot publish a median transaction price, and the reason is worth knowing rather than skipping. Moselle, Bas-Rhin and Haut-Rhin keep a livre foncier, a land register inherited from the same German period as the local law above, so their sales do not appear in the national DVF file the tax authority publishes. That is a gap in the source, not a sign of a thin market. What can be said with confidence is that the rent sits below the national median and that Metz is materially cheaper than Nancy's or Strasbourg's family stock. The other local-law item is financial and in your favour: employees here fall under the régime local d'assurance maladie, which reimburses basic healthcare above the national rate, so the top-up insurance a French household normally buys costs less. Ask about it when you sign a contract, because it is automatic but nobody mentions it.",
+      },
+      {
+        heading: "Daily life with kids: water, weekends, paediatrics",
+        body: "The plan d'eau and the Moselle banks organise the weekends, with flat family cycling, pedalos and a summer city beach. The Parc de la Seille is the modern playground and the Esplanade the formal one. The cultural anchor is unusual for a city this size: the Centre Pompidou-Metz runs children's workshops of a standard you would expect in a capital, and the Musée de la Cour d'Or covers the Roman and medieval layers for older children. Amnéville, a neighbouring commune, holds the regional wet-weather complex with its well-known zoo and aquarium, and Saarbrücken, across the German border, is about an hour away, which turns German pools and parks into ordinary Sunday options. Health runs through the CHR Metz-Thionville across its Bon-Secours and Mercy sites. Paris is about an hour and twenty-five minutes by TGV. Metz is in school holiday zone B, and note the two local public holidays above, which the national calendar does not show.",
+      },
+      {
+        heading: "Who Metz works for, and who should look elsewhere",
+        body: "Metz works overwhelmingly well for one profile: a household with at least one parent working in Luxembourg, living in Montigny or Queuleu, on Lorraine prices with a Luxembourg income. Thousands of families run exactly that arrangement, and it is the local demographic engine. It works, more quietly, for public-sector and healthcare households who want a green city with short journeys and a child-friendly age structure. It works less well for a two-career couple depending entirely on the local private-sector market, which is thin outside the border effect, and the 24% poverty rate is a reminder that the city average and the cross-border household are different populations. It works badly for anyone who needs a published price history before buying, because the livre foncier means there is not one. The obvious regional comparison is Nancy, which is livelier and more student-centred; with young children, Metz's parks and water usually decide it.",
+      },
+    ],
+    relatedCities: ["metz", "montigny-les-metz", "thionville", "nancy", "strasbourg"],
+    tags: ["metz", "moving to france with children", "french school system", "grand-est"],
+  },
+  {
+    slug: "family-in-clermont-ferrand-2026",
+    title: "Family life in Clermont-Ferrand (2026): volcanoes and the cheapest flats",
+    metaTitle: "Family Life in Clermont-Ferrand 2026: Schools, Costs",
+    metaDesc:
+      "Raising children in Clermont-Ferrand in 2026: flats at €2,105/m², a €900 T3, volcanoes on the doorstep, and the highest poverty rate in this batch.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 9,
+    publishedAt: "2026-08-25",
+    updatedAt: "2026-08-25",
+    intro:
+      "Clermont-Ferrand has the cheapest housing of the nine cities in this batch and the best access to open country of any of them. The median recorded flat sale is €2,105 per m², below the €2,533 median across the 540 cities on this site, and the volcanic range starts where the suburbs stop. It also has the highest poverty rate here, 25%, and the lowest median standard of living, which is the other half of the same sentence: this is an affordable city because incomes are modest, not because it is undervalued. For a household arriving with an income from elsewhere, that combination is unusually favourable. This guide covers the districts, the schools, the slope problem and the numbers.",
+    sections: [
+      {
+        heading: "Is Clermont-Ferrand a family city? What the numbers actually say",
+        body: "The favourable measures are nature and price. Clermont has the strongest nature score of the nine cities in this batch and the cheapest recorded flat market. It also has the youngest age structure here: residents aged 60 and over are 21.0% of the total, the lowest of the nine, and the population has grown from 140,957 in 2011 to 147,751 in 2022. Schooling is respectable: 7.0 on our axis, in a narrow band from 98th to 101st of 540 shared with three other cities. The unfavourable measures are economic. The median standard of living is €20,430 a year, about €1,700 a month per consumption unit (Insee Filosofi 2021), 347th of the 533 communes with published figures and the lowest of this batch, with a 25% poverty rate that is the highest. Children aged 0 to 14 are 14.6% of residents, 384th of 538. The city also has the weakest culture score of the nine, which is a fair description: this is a place organised around the outdoors.",
+      },
+      {
+        heading: "The districts that work with children",
+        body: "Chamalières is the historic family address, a separate commune pressed against the city, with sought-after schools and the prices that follow. Beaumont and Aubière sit near the university campuses and offer houses, markets and a small-town feel. Royat adds the wooded, thermal-spa version. Inside the city, the sector around the Jardin Lecoq and the botanical garden holds the urban family stock, and Montferrand is the old town core, cheaper and with genuine character. Ceyrat, Romagnat and Pérignat step up towards the volcanoes. The variable nobody warns you about is the gradient. Clermont is built on a slope, and the difference between a street a pushchair can handle and one it cannot is not visible on a map or in a listing. Walk the school run before you sign, in both directions, with whatever you will actually be pushing.",
+      },
+      {
+        heading: "Schools, and the insurance nobody mentions",
+        body: "The national frame applies: compulsory from age 3, école maternelle free and a genuine school, enrolment through the mairie, placement by the catchment tied to your address, proof of the eleven vaccinations mandatory for children born from 1 January 2018. The central lycées here run classes préparatoires, so the route from maternelle to the competitive entrance examinations exists inside one medium-sized city. The specific thing to add to your list is assurance scolaire, school insurance. Ordinary classes are covered by the state, but anything optional, a school trip, a swimming session outside class hours, a leisure centre on a Wednesday, requires a personal liability and accident policy that the school will ask you to produce in September. It is inexpensive and usually comes as an extension of your home insurance or through a parents' association, but it is not automatic, no one issues it to you, and in a city where school outings mean mountains and water it gets asked for more often than in most.",
+      },
+      {
+        heading: "Crèche, childminders and the Wednesday problem",
+        body: "Crèche applications go in during pregnancy through the mairie, with the assistante maternelle, a registered childminder working from her own home, as the realistic fallback, part-refunded by the CAF through the CMG once your file is open. Allow weeks for that file. Wednesdays follow the national four-day pattern with primaries closed all day. Clermont's answer is more physical than most: the local rugby club runs a youth section that functions as a social institution as much as a sport, mountain clubs start children on climbing and cross-country skiing early, and the conservatoire covers the rest. Everything is priced on your CAF quotient familial, which also sets your school-lunch rate. The practical consequence is that childhood here is unusually outdoor and unusually cheap to run, because the equipment-heavy activities are subsidised and close rather than distant and commercial.",
+      },
+      {
+        heading: "What a family actually pays",
+        body: "A T3, meaning two bedrooms plus a living room, averages €900 a month here, tied with Pau and Besançon for the cheapest in this batch, with a T2 at €680. On purchase, the median flat sale over 2024 and 2025 was €2,105 per m² on 3,430 transactions and the median house €2,401 per m² on 663 transactions (DGFiP, DVF). Both are below the national medians of €2,533 and €2,840. Three cities in this batch clear that double test, Clermont-Ferrand, Pau and Besançon, and Clermont is the cheapest of the three on both counts. A house price per m² includes the land, so the two are not comparable to the euro, but the gap between them here, about 14%, is narrow enough that a house is a realistic purchase rather than a stretch. The caution attached to all of this is the income side: the low prices reflect what local salaries can carry. A household bringing an income from outside the region is arbitraging that, and should be clear-eyed that it is arbitrage rather than a bargain the market has missed.",
+      },
+      {
+        heading: "Daily life with kids: volcanoes, weekends, paediatrics",
+        body: "The puy de Dôme is the founding outing, reached by the rack railway that runs to the summit. Vulcania, the volcano theme park, is the recurring one, and a family season pass pays for itself over a few Wednesdays. Lac d'Aydat covers summer swimming and Super-Besse is the winter resort, about an hour away, which is what makes skiing an ordinary school-holiday activity here rather than an annual expedition. In town, the Jardin Lecoq is the institution, the Aventure Michelin genuinely works with children, and the pools handle the rest. Health runs through the CHU, with its Estaing site covering paediatrics. Clermont is in school holiday zone A. The one structural drawback for a family with relatives abroad is the rail link: there is no high-speed line, and the Paris train takes well over three hours, so visits are planned rather than spontaneous.",
+      },
+      {
+        heading: "Who Clermont works for, and who should look elsewhere",
+        body: "Clermont works for families who want open country as a weekday fact rather than a holiday promise, and who arrive with an income that the local market does not have to generate: remote workers, industrial and research engineers, hospital and university staff. For them the equation is genuinely rare in France, real mountains and a real teaching hospital at a price below the national median for both flats and houses. It works for children, who get an outdoor and sporting childhood cheaply. It works less well for a household that has to find two ordinary local salaries and then live on them, which is what the 25% poverty rate is describing. It works badly for anyone who needs frequent easy travel, because the rail isolation is not going to change, and for anyone who wants a dense cultural programme, where our culture score is the lowest of this batch. Families weighing the region should compare with Limoges, which is cheaper again with a thinner job market.",
+      },
+    ],
+    relatedCities: ["clermont-ferrand", "riom", "issoire", "vichy", "saint-etienne"],
+    tags: ["clermont-ferrand", "moving to france with children", "french school system", "auvergne-rhone-alpes"],
+  },
+  {
+    slug: "family-in-orleans-2026",
+    title: "Family life in Orléans (2026): the one city here with children in it",
+    metaTitle: "Family Life in Orléans 2026: Schools, Houses, Budget",
+    metaDesc:
+      "Raising children in Orléans in 2026: the only city in this batch above the national child share, houses at €2,572/m², a €930 T3, and the Paris commute.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 9,
+    publishedAt: "2026-08-25",
+    updatedAt: "2026-08-25",
+    intro:
+      "Every other city in this series has the same demographic footnote: the commune holds fewer children than the national average because families have moved to the ring. Orléans is the exception. Children aged 0 to 14 are 17.5% of its residents, 212th of the 538 cities we hold census data for, above the 16.5% national median and the only city in this batch to clear it. The second unusual number is the housing market: the median recorded house sale is €2,572 per m² against €2,538 for a flat, a difference of a little over 1%, which is the narrowest gap of the nine. A house here costs what a flat costs. This guide covers where, how the schools work, and what the Paris commute really involves.",
+    sections: [
+      {
+        heading: "Is Orléans a family city? What the numbers actually say",
+        body: "The case for is demographic and financial. That 17.5% child share is genuinely unusual for a French commune of this size, and it means the primaries, the clubs and the Wednesday provision are sized for families who live inside the city rather than commuting into it. The median standard of living is €21,370 a year, about €1,780 a month per consumption unit (Insee Filosofi 2021), 263rd of the 533 communes with published figures, with a 22% poverty rate. The case against is that Orléans has the weakest overall score of the nine cities in this batch, and specifically the weakest scores here on daily life and on safety, with schooling level with Metz at the bottom of the batch. On our schools axis it scores 6.6, which sits in a very large tie running from 102nd to 208th of 540, so no precise rank is measurable. Population growth has been modest, from 114,185 in 2011 to 116,344 in 2022. The honest summary: Orléans is not the best city in this batch, and it is the one where the family arithmetic is easiest.",
+      },
+      {
+        heading: "The districts that work with children",
+        body: "Saint-Marceau, on the south bank, is the family district: houses from the 1920s to the 1960s with gardens, schools, markets, and ten minutes on foot from the centre across the bridge. The Argonne to the north is the accessible version, and the old town serves parents who want a flat and the shops. In the ring, Olivet is the reference family commune, built along the Loiret with sought-after schools and prices to match; Saint-Jean-de-Braye and Fleury-les-Aubrais cover east and north; Saint-Cyr-en-Val is the countryside option. La Source, to the south, holds the university and the hospital and is a world of its own. The local rule is geographic and blunt: the Loire cuts the city into two, with a family-and-nature south and a services-and-transport north, so choosing your bridge is choosing your daily life. Two tram lines cover the north-south axis.",
+      },
+      {
+        heading: "Schools: how enrolment works, and how to ask to leave your catchment",
+        body: "The frame: compulsory from age 3, école maternelle free and genuinely a school, enrolment through the mairie, placement by the carte scolaire attached to your registered address, and proof of the eleven vaccinations mandatory for children born from 1 January 2018. The Orléans-relevant addition, because the school map here is uneven and parents do act on it, is the dérogation, the request to attend a school outside your catchment. It exists, it is made to the mairie for primary schools and to the education authority for collèges, and it is decided on a defined list of grounds: a sibling already in the school, a medical reason, a documented care arrangement, a course of study only offered there. Convenience and reputation are not on that list. Places are granted from whatever capacity remains after catchment children are seated, so the answer often comes late in the summer. Treat it as a possibility, never as a plan, and pick the address you would accept if the answer is no.",
+      },
+      {
+        heading: "Crèche, childminders and the Wednesday problem",
+        body: "Crèche applications go in during pregnancy through the mairie. The fallback is the assistante maternelle, the registered childminder working from her own home, part-refunded by the CAF through the CMG once your file is open, and supply is good in the suburban belt where the houses are. Wednesdays follow the national four-day pattern with primaries closed all day, covered by the conservatoire, municipal leisure centres and clubs, priced on your CAF quotient familial, the bracket that also fixes your school-lunch rate. The local specialities are on the water and in the woods: rowing and canoeing on a wild river, and riding in the Sologne next door. Basketball is the city sport and the youth sections are the easiest way into local life for a child arriving mid-year, which is worth knowing in September.",
+      },
+      {
+        heading: "What a family actually pays, including the commute",
+        body: "A T3, two bedrooms and a living room, averages €930 a month, with a T2 at €700. The purchase market is the interesting part. Over 2024 and 2025 the median recorded flat sale was €2,538 per m² on 2,419 transactions and the median house €2,572 per m² on 731 transactions (DGFiP, DVF). The flat figure is within €5 of the €2,533 national median and the house figure is €268 below the €2,840 national median, which is why the family stock here is houses. A house price per m² includes its land, so it is never comparable euro for euro with a flat, but a 1% gap is as close as this series gets. Then the commute, which is the real cost of choosing Orléans. There is no high-speed line: Paris is served by Intercités trains into Gare d'Austerlitz, around an hour and a bit, and the seat comfort and reliability are not those of a TGV. Two or three days a week works well. Five days a week is a different life, and the sensible test is to do the journey for a week before you sign anything.",
+      },
+      {
+        heading: "Daily life with kids: the Loire, weekends, paediatrics",
+        body: "The Loire here is an unembanked, shifting river with sandbanks and bird islands, and it is the local inheritance: the redeveloped quays for Sunday walks, the Loire à Vélo path out to the hamlet of Combleux, the Festival de Loire in September when the river traffic comes back for a week. Olivet adds the Loiret, its mills and its waterside cafés. The Île Charlemagne is the summer swimming spot. Wet days go to the renovated Muséum, which is genuinely good with children, and the pools. Further out, the Sologne is the mushroom-and-château weekend, and Chambord is about forty-five minutes away. Health runs through the hospital at La Source. Orléans is in school holiday zone B. And Paris being an hour away by road as well as rail is the underrated part of the deal: grandparents can come for lunch.",
+      },
+      {
+        heading: "Who Orléans works for, and who should look elsewhere",
+        body: "Orléans works for families priced out of the Paris basin who want a house with a garden without a rupture, and it offers the best price-to-distance compromise in this batch for that specific plan. It works for anyone who wants their children in a city that still has children in it, which the 17.5% share is telling you and which almost no other commune in this series can say. It works for households in the local cosmetics, pharmaceutical and logistics employers. It works less well for anyone expecting a lively urban centre, where our daily-life score is the lowest of the nine, and for anyone who will commute to Paris five days a week on Intercités, which wears people down. Tighter budgets look at Fleury-les-Aubrais or Saint-Jean-de-Braye. The Loire alternative is Tours, an hour upstream, which has the high-speed line and the stronger schools band, and costs more for both.",
+      },
+    ],
+    relatedCities: ["orleans", "olivet", "fleury-les-aubrais", "blois", "tours"],
+    tags: ["orleans", "moving to france with children", "french school system", "centre-val-de-loire"],
+  },
+  {
+    slug: "family-in-pau-2026",
+    title: "Family life in Pau (2026): the Pyrenees at the end of the street",
+    metaTitle: "Family Life in Pau 2026: Schools, Mountains, Budget",
+    metaDesc:
+      "Raising children in Pau in 2026: a €900 T3, flats at €2,135/m², ski resorts an hour away, and the oldest population of any city in this series.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 9,
+    publishedAt: "2026-08-25",
+    updatedAt: "2026-08-25",
+    intro:
+      "Pau sells one thing better than any other city in this series: a mountain range visible from the main promenade and reachable in about an hour, with the Atlantic on the other side at roughly the same distance. Flats change hands at a median €2,135 per m², below the €2,533 median across the 540 cities on this site, and a T3 rents for €900. The counterweights are demographic and they are not small. Pau has 78,620 residents against 79,798 in 2011, so it has been shrinking, and 28.3% of them are aged 60 or over, far the highest of the nine cities in this batch, where the next figure is 23.5%. This guide covers the districts, the schools, the car question and the numbers.",
+    sections: [
+      {
+        heading: "Is Pau a family city? What the numbers actually say",
+        body: "The schooling is solid: 7.4 on our schools axis, inside the band running from 87th to 97th of 540 that Pau shares with ten other cities, so read it as top fifth rather than a rank. Nature is the second strength, with the second highest score of this batch after Clermont-Ferrand. The economics are mid-to-low: a median standard of living of €20,970 a year, about €1,750 a month per consumption unit (Insee Filosofi 2021), 302nd of the 533 communes with published figures, and a 22% poverty rate. Then the demographics, which deserve to be stated plainly rather than buried. This is the smallest city in this batch, the only one besides Caen that has fewer residents than in 2011, and by some distance the oldest: children aged 0 to 14 are 13.2% of residents, 460th of 538, while the over-60s are 28.3%. Pau is a comfortable place to retire to, and that shows up in the age pyramid before it shows up anywhere else.",
+      },
+      {
+        heading: "The districts that work with children",
+        body: "Trespoey is the historic family address: villas under mature trees, sought-after schools, complete quiet, and a premium that stays modest by national standards. Les Lilas and San Carlos follow. The central boulevard sector suits families who want the view and an apartment. Across the gave, Jurançon is the wine-village version and materially cheaper. Lescar and Billère hold the suburban housing stock to the west, Idron and Bizanos to the east. The local variable is orientation: a south-facing address with the mountain view carries a premium everywhere in the city, and it is not sentimental, because the Pyrenees are genuinely in the field of vision on a clear day. The other thing to check is the school run in practice. Pau's public transport score is the weakest of the nine cities here, and the ring communes are built for cars.",
+      },
+      {
+        heading: "Schools, and the licence you may need first",
+        body: "The frame applies as everywhere: compulsory from age 3, école maternelle free and genuinely a school, enrolment through the mairie, catchment from your registered address, and proof of the eleven vaccinations mandatory for children born from 1 January 2018. The private-under-contract sector is unusually well established across Béarn: these schools teach the national curriculum, charge modest fees, and carry none of the social signalling that a private school would in Britain or the United States, so using one is an ordinary local choice. The practical item to sort before the school year, and the reason it appears in a family guide, is your driving licence. Pau is the one city in this batch where a family cannot realistically run without a car: the ski resorts, the valleys and half the ring communes assume one. An EU or EEA licence stays valid. A licence from elsewhere depends on whether your issuing country has a reciprocal exchange agreement with France, and where one exists the exchange has to be started within a limited window that begins with your first residence permit. Miss it and the route is a French test, in French.",
+      },
+      {
+        heading: "Crèche, childminders and the Wednesday problem",
+        body: "Crèche applications go in during pregnancy through the mairie, with the assistante maternelle, the registered childminder working from her own home, as the fallback, part-refunded by the CAF through the CMG once your file is open. Wednesdays follow the national four-day pattern with primaries closed all day. The Béarn version of Wednesday afternoon is genuinely distinctive: club-run coach transfers up to the ski resorts run through the winter and are used by ordinary families rather than by a sporting elite, the rugby club's youth section is the main social institution for children in the town, pelota is a living local sport rather than a heritage display, and the conservatoire covers the rest. Everything is priced on your CAF quotient familial, which also sets your school-lunch rate. Junior season passes in the Pyrenees are among the cheapest in France, which is what makes the whole arrangement work on a normal income.",
+      },
+      {
+        heading: "What a family actually pays",
+        body: "A T3, meaning two bedrooms and a living room, averages €900 a month, tied with Clermont-Ferrand and Besançon for the cheapest in this batch, with a T2 at €680. On purchase, the median recorded flat sale over 2024 and 2025 was €2,135 per m² on 2,870 transactions and the median house €2,525 per m² on 481 transactions (DGFiP, DVF). Both sit below the national medians of €2,533 and €2,840, which only Clermont-Ferrand and Besançon also manage in this batch. A house price per m² includes its land, so the two figures are not directly comparable. Budget for the car that the transport score implies, and note that the local employment base is narrow: an energy research centre, a helicopter-engine plant at Bordes nearby, the hospital, the university, the army. That concentration is why the arithmetic works for the households it works for, and why it does not travel.",
+      },
+      {
+        heading: "Daily life with kids: mountains, weekends, paediatrics",
+        body: "The Boulevard des Pyrénées is the founding walk, with the whole chain laid out in front of it, and the funicular that drops from it to the station is free and functions as a daily fairground ride for small children. The Parc Beaumont is the family park and the banks of the gave take the bikes. The real programme is outside the city: Gourette and La Pierre Saint-Martin for winter, about an hour and a bit away, the Ossau and Aspe valleys for summer walking with marmots, and the Artouste mountain railway as the high-altitude expedition. The Basque coast is roughly an hour and a quarter by motorway, so children here can genuinely ski and surf in the same season, which very few French children can. Health runs through the hospital in Pau, and specialist paediatrics for anything serious means travelling. Pau follows the Bordeaux académie and is therefore in school holiday zone A.",
+      },
+      {
+        heading: "Who Pau works for, and who should look elsewhere",
+        body: "Pau works for families whose life is organised around the mountains, whether by taste or by employer: engineers in energy and aerospace, hospital and university staff, military households, and remote workers who want the range in the window. For them it delivers an outdoor childhood at below-median prices with schooling in the national top fifth. It works less well for two-career couples outside those few employers, because the local market is narrow and the rail links are slow, so a commuting plan is not a realistic fallback. It works badly for anyone who wants a large young city: the age structure is the oldest here, the population is not growing, and a teenager will notice. Tighter budgets look at Jurançon or Billère. The regional comparisons are Tarbes, cheaper and less of a city, and Bayonne, which puts you on the coast at a considerably higher price; Pau sits deliberately between them.",
+      },
+    ],
+    relatedCities: ["pau", "tarbes", "bayonne", "anglet", "dax"],
+    tags: ["pau", "moving to france with children", "french school system", "nouvelle-aquitaine"],
+  },
+  {
+    slug: "family-in-besancon-2026",
+    title: "Family life in Besançon (2026): forest at the end of every street",
+    metaTitle: "Family Life in Besançon 2026: Schools, Nature, Costs",
+    metaDesc:
+      "Raising children in Besançon in 2026: a €900 T3, flats at €2,178/m², a UNESCO citadel with a zoo in it, and what working in Switzerland really involves.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 9,
+    publishedAt: "2026-08-25",
+    updatedAt: "2026-08-25",
+    intro:
+      "Besançon offers the strongest nature-to-services ratio of the nine cities in this batch: forest and river inside the city limits, a teaching hospital, a conservatoire, lycées that feed the preparatory classes, and a T3 at €900 a month, the joint cheapest here. Flats change hands at a median €2,178 per m², below the €2,533 median across the 540 cities on this site. It is also within reach of the Swiss watchmaking valleys, which is a real financial option for some households and a misunderstood one for most. This guide covers the districts, the schools, the cross-border question and what a family spends.",
+    sections: [
+      {
+        heading: "Is Besançon a family city? What the numbers actually say",
+        body: "Schooling scores 7.4 on our axis, in the band from 87th to 97th of 540 shared with ten other cities, so a top-fifth position rather than a rank. Nature is the third strongest of this batch, behind Clermont-Ferrand and Pau, and unlike either of those the green is inside the city rather than an hour outside it. The population has grown from 115,879 in 2011 to 120,057 in 2022. The economics are the modest side: a median standard of living of €20,680 a year, about €1,720 a month per consumption unit (Insee Filosofi 2021), in the bottom half of the 533 communes with published figures, with a 23% poverty rate. Children aged 0 to 14 are 14.7% of residents, 379th of the 538 cities with census data, below the 16.5% national median, which is the usual student-city effect on a compact commune. The overall picture is a well-equipped city with low incomes and low prices, and the ratio between the last two is what people move here for.",
+      },
+      {
+        heading: "The districts that work with children",
+        body: "La Mouillère and Les Chaprais are the standard family answer: nineteenth-century blocks and town houses, primaries, and the station within reach for a parent who travels. Saint-Ferjeux and Les Tilleroyes hold the suburban housing stock. La Boucle, the old town inside the river loop, works for families who want to live in the monument and accept that a car is more nuisance than help there. In the ring, École-Valentin and Pirey to the north have newer houses and newer schools; Morre and Montfaucon sit up on the heights with the countryside at the door and a view over the citadel. The local claim that green space is never more than a few hundred metres away is close enough to plan around, so the choice really comes down to the school and the journey. The gradient matters here as in Clermont: the heights are lovely and they are heights.",
+      },
+      {
+        heading: "Schools: how enrolment actually works here",
+        body: "Compulsory from age 3, école maternelle free and genuinely a school rather than childcare, enrolment through the mairie, placement by the carte scolaire attached to your registered address, and proof of the eleven vaccinations mandatory for any child born from 1 January 2018. The lease decides the school, so check the catchment before you sign. Besançon's strength is the completeness of the chain for a city of 120,000: the central lycées feed classes préparatoires, the university is long-established, and the microtechnology and medical-device sector gives the technical streams somewhere local to lead. One practical note that applies with more force here than in the flat cities of this batch: school transport across the agglomeration is organised by the region and is not automatic, so if you settle in a hillside commune, check how the collège run works and what it costs before you commit, rather than assuming a bus will be there.",
+      },
+      {
+        heading: "Crèche, childminders and the Wednesday problem",
+        body: "Crèche applications go in during pregnancy through the mairie, and the fallback is the assistante maternelle, a registered childminder working from her own home, part-refunded by the CAF through the CMG once your file is open. Budget weeks for that file. Wednesdays follow the national four-day pattern with primaries closed all day. The Franche-Comté version leans vertical and outdoor: climbing clubs start children young on the cliffs inside the city, cross-country skiing runs through the winter via club transfers to the high Doubs, and the conservatoire and music schools carry a serious local reputation. Everything is billed on your CAF quotient familial, the income bracket that also fixes your school-lunch rate. The citadel is the other permanent answer, and a family season pass to it is close to compulsory in practice.",
+      },
+      {
+        heading: "What a family actually pays, and the Swiss question",
+        body: "A T3, meaning two bedrooms and a living room, averages €900 a month, joint cheapest of this batch with Pau and Clermont-Ferrand, and a T2 €680. On purchase, the median recorded flat sale over 2024 and 2025 was €2,178 per m² on 3,099 transactions, below the €2,533 national median. The median house was €2,733 per m² but on only 375 recorded sales, the smallest house sample of the nine cities here, and it sits a quarter above the local flat price, the widest gap in this batch; treat that house figure as indicative rather than precise, and remember a house price per m² includes its land. Then the Swiss option, which is usually described too loosely. Besançon is about an hour from the Neuchâtel and Le Locle watchmaking area, so it is commutable but it is not the frontalier belt: that is the high Doubs, around Pontarlier and Morteau, where the daily flows actually are. Working in Switzerland while living in France means a cross-border worker permit and a one-off, time-limited choice between Swiss and French health cover that is difficult to reverse. Take advice before the deadline rather than after it.",
+      },
+      {
+        heading: "Daily life with kids: the citadel, weekends, paediatrics",
+        body: "The Vauban citadel, a UNESCO site, contains a zoo, an aquarium and museums inside its ramparts, which makes it the rare monument that is also the town's main family facility. The Doubs supplies summer swimming in the city, the Chailluz forest supplies the canonical Sunday walk with its deer enclosures, and the EuroVelo 6 route along the river gives flat, protected family cycling in both directions. Wet days go to the Musée du Temps, where the clockwork holds children unexpectedly well, to the university science centre, and to the pools. Winter opens the high Doubs an hour away, with sledging and cross-country skiing at prices that bear no relation to the Alps. Health runs through the CHU at Jean-Minjoz. Besançon is in school holiday zone A. One travel note worth having early: there are two stations, Viotte in the city with direct services to Paris, and Besançon Franche-Comté TGV outside it, linked by shuttle, and booking the wrong one costs you twenty minutes and a connection.",
+      },
+      {
+        heading: "Who Besançon works for, and who should look elsewhere",
+        body: "Besançon works for families who put outdoor daily life first and are not willing to give up a teaching hospital, preparatory classes and a real conservatoire to get it. On the ratio of nature to services to price it is the strongest offer in this batch. It works for healthcare and university households, for microtechnology and medical-device engineers, for remote workers, and for a minority who commute to Switzerland with their eyes open. It works less well if your career needs a broad tertiary market, which plateaus quickly here, and if you need frequent high-speed travel, since the TGV station is outside town. It works badly for anyone who will resent a grey, enclosed winter in a river valley, which is the honest local drawback and the reason daylight lamps sell well. The regional comparison is Dijon, an hour away: more of a city, better connected, higher incomes; Besançon is greener and cheaper, and families genuinely split on it.",
+      },
+    ],
+    relatedCities: ["besancon", "pontarlier", "dole", "belfort", "montbeliard"],
+    tags: ["besancon", "moving to france with children", "french school system", "bourgogne-franche-comte"],
   },
 ];
 

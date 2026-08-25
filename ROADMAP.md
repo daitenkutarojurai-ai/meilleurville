@@ -1792,11 +1792,13 @@ Séries à parité, à re-differ et non à croire sur parole : tourisme 207/207,
 Séries entamées et encore loin : `leaving-` 23 EN contre `quitter-` 55 FR,
 `moving-to-` 6 EN contre `demenager-a-` 50 FR.
 
-**Écart de contenu, distinct de l'écart de routes** : **guides 989 FR / 734 EN, tags 245 / 102**
-(mesuré le 25/08 après la refermeture de `single-parent-in-` — les chiffres plus bas dans cette
+**Écart de contenu, distinct de l'écart de routes** : **guides 989 FR / 743 EN, tags 245 / 103**
+(mesuré le 25/08 au 2ᵉ run, après la fermeture de `family-in-` — les chiffres plus bas dans cette
 section sont datés, le réel prévaut). Séries FR restant **sans aucune jumelle EN** au 25/08 :
 `universites-[ville]` (15/0) et `vacances-monoparentales-` croisé mois × profil.
-`famille-a-[ville]` en sortait ce run (19 FR / **10** EN). `demenager-a-[ville]` reste à 50 FR / 0
+`famille-a-[ville]` est **fermée** depuis le 2ᵉ run du 25/08 (19 FR / **19** EN, cf. § Shipped
+2026-08-25) ; ⚠️ `universites-` ne se rouvre qu'avec un angle distinct de `studying-in-` (24 EN),
+sinon c'est la cannibalisation de juin qui recommence. `demenager-a-[ville]` reste à 50 FR / 0
 jumelle per-city, et **c'est un non-correctif assumé** : une série `moving-to-[city]` recouvrirait
 `[city]-living-guide` (52 EN), donc elle ne se rouvre qu'avec un angle logistique distinct
 (conteneur, douane, visa) et non par symétrie de compteur.
@@ -2695,6 +2697,126 @@ signal thématique du domaine. Noindex ou suppression — décision produit, pas
 
 **Routine** : `meilleurville-parite-en`, quotidienne 04:25 UTC, `npm run parity` comme
 tableau de bord, une route par run, sortie du contrôle collée dans chaque message de commit.
+
+---
+
+## Shipped 2026-08-25 (2e run du jour)
+
+- **Parité EN — série `family-in-[city]-2026` FERMÉE (batch 2, +9 : Angers, Caen, Dijon, Tours,
+  Metz, Clermont-Ferrand, Orléans, Pau, Besançon)** ✅ — **`EN_GUIDES` 734 → 743, série 19 FR /
+  19 EN, écart nul.** `npm run parity` en **code 0** en début de run (FR 218 / EN 165, 0 route
+  sans jumelle) : pas de régression de routes, donc run de corpus. Le diff par série sur le
+  corpus réel (FR 989 / EN 734) a redonné `famille-a-[ville]` 19 FR / 10 EN comme le trou le
+  plus avancé, et le batch 1 du 24/08 avait nommé ces neuf villes exactement : la liste FR est
+  honorée telle quelle et la série est close.
+
+  **Le socle chiffré vient des modules, jamais de la prose FR** (même méthode que le batch 1) :
+  loyers T2/T3 dans `data/housing.ts`, médianes de transaction et effectifs de ventes dans
+  `lib/property-prices.ts` (DVF 2024-2025), populations 2011/2022 et part des 0-14 ans dans
+  `lib/city-population.ts` (Insee 2022), niveau de vie et taux de pauvreté dans
+  `lib/city-income.ts` (Filosofi 2021), axes lus dans `CITIES_SEED` via un `npx tsx`. **Aucun
+  score en `/10` imprimé**, `metaTitle` 51-54 caractères, `metaDesc` 143-156, 7 sections et
+  1 209-1 284 mots par guide, **zéro tiret cadratin**, `relatedCities` toutes vérifiées présentes
+  au seed, photo d'en-tête retrouvée sur les 9 (`guideCityPhoto`).
+
+  ⚠️ **La trouvaille du run : la série publiait des rangs que le score ne départage pas, des
+  deux côtés du batch.** L'axe `schools` a une décimale, donc ses paliers sont larges, et un
+  `indexOf` sur un tableau trié rend une position d'insertion, pas un rang. Mesuré : 7,9 est un
+  palier de **5 villes** (Paris, Nantes, Tours, Angers, Lille, rangs 31-35), 7,4 un palier de
+  **11** (rangs 87-97), 6,6 un palier de **107** (rangs 102-208), et 9,0 un palier de **13 villes
+  ex æquo en tête**. Le batch 1 du 24/08 avait donc écrit « Rennes 1st of 540 » et « Toulouse
+  2nd of 540 » alors que les deux villes ont le **même** score et que onze autres le partagent,
+  « Nantes 31st », « Lille 34th », « Strasbourg 16th », « Bordeaux 87th », « Montpellier 98th »,
+  « Marseille 505th » et « Nice 351st » — **9 des 10 guides du batch 1**, seul Lyon (8,9, valeur
+  unique) était juste. C'est très exactement la convention posée le 19/08 dans
+  `lib/owner-rankings.ts` : **une égalité ne se présente pas comme un départage**. Les 9 guides
+  sont corrigés en paliers (« inside the top 35 of 540, in a five-way tie », « in the 505th to
+  521st band of 540 »), titres compris — « second-best schools in France » et « the best schools
+  in France » ne pouvaient pas être vrais tous les deux à partir de deux 9,0 identiques. Les 9
+  nouveaux guides sont écrits en paliers dès le premier jet. **Corollaire pour tout futur batch :
+  ne jamais publier un rang tiré d'un `sort` + `indexOf` sur un axe à une décimale sans avoir
+  compté le palier** ; les rangs de part des 0-14 ans (538 valeurs distinctes) et de niveau de vie
+  sont sûrs, sauf pour Angers, Metz et Besançon dont le niveau de vie est ex æquo — ces trois
+  guides disent la position en mots, pas en rang.
+
+  **Sept affirmations comparatives fausses corrigées avant commit**, le mode de défaillance
+  documenté le 19/08 et le 22/08 qui se reproduit à chaque batch : les scores de la ville de la
+  page sont justes, ce sont les **superlatifs entre villes** qui dérapent. Trois villes et non une
+  passent sous les deux médianes nationales de prix (Clermont-Ferrand **et** Pau **et** Besançon,
+  chacune l'annonçait à sa façon comme un cas isolé) ; l'écart de pauvreté entre Dijon (17 %) et
+  le haut du lot est de **huit** points, pas onze ; la maison caennaise est à **plus d'un
+  cinquième** au-dessus de l'appartement, pas à un quart ; Metz n'est pas « troisième moins chère »
+  mais la suivante derrière **trois villes ex æquo à 900 €** ; Orléans est au dernier rang du lot
+  sur la vie quotidienne et la sécurité mais **à égalité avec Metz** sur les écoles ; et quatre
+  guides annonçaient « eleven other cities » pour un palier qui compte 11 villes **en tout**.
+  Deux tirets cadratins résiduels du batch 1 (Lille, Montpellier) supprimés au passage.
+
+  **Le fait qui structure le lot** : les neuf sont toutes moins chères que les dix grandes villes
+  du batch 1, dans les deux marchés. Le T3 va de **900 € (Clermont-Ferrand, Pau, Besançon) à
+  1 000 € (Angers)** quand le batch 1 allait de 1 080 € à 1 500 €, et **les huit qui ont une
+  médiane DVF sont sous la moins chère des dix premières** (Marseille, 3 154 €/m²) — Angers de
+  11 € seulement. Deux mesures publiées telles quelles parce qu'elles renversent une intuition :
+  **Orléans est la seule des neuf au-dessus de la médiane nationale de 0-14 ans** (17,5 %, 212ᵉ sur
+  538, contre 16,5 %), c'est-à-dire la seule commune du lot où les familles habitent encore la
+  ville et non la couronne ; et **la maison y coûte 1,3 % de plus que l'appartement au m²**
+  (2 572 € contre 2 538 €), le plus petit écart des neuf, devant Angers (+2,9 %) et loin de
+  Besançon (+25,5 %). À l'inverse **Caen affiche 11,8 % de 0-14 ans, 499ᵉ sur 538**, le plancher
+  de toute la série, et **Pau 28,3 % de 60 ans et plus** quand la suivante est à 23,5 % : les deux
+  seules villes du lot qui ont moins d'habitants qu'en 2011 sont précisément celles-là.
+
+  **Neuf incises propres au lecteur étranger, une par ville, toutes absentes du batch 1** :
+  ① la **taxe d'habitation supprimée sur la résidence principale mais la taxe foncière non**, et
+  c'est le propriétaire qui la paie (Angers) ; ② **trois autorités différentes affectent les trois
+  niveaux** — la mairie pour maternelle et élémentaire, le département pour le collège, le rectorat
+  pour le lycée, sur trois cartes qui ne se superposent pas (Caen) ; ③ le **carnet de santé** et le
+  calendrier d'examens obligatoires suivis gratuitement par la **PMI** jusqu'à six ans (Dijon) ;
+  ④ le dispositif **UPE2A** pour un enfant qui arrive sans français, évalué par le CASNAV de
+  l'académie, gratuit, national, et qui peut légitimement envoyer hors carte scolaire (Tours) ;
+  ⑤ le **droit local d'Alsace-Moselle** : enseignement religieux comme matière ordinaire à l'école
+  publique avec dispense **à demander par écrit**, deux jours fériés de plus (Vendredi saint et
+  26 décembre) et le **régime local d'assurance maladie** qui rembourse au-dessus du taux national
+  (Metz) ; ⑥ l'**assurance scolaire**, obligatoire pour tout ce qui est facultatif, jamais
+  automatique (Clermont-Ferrand) ; ⑦ la **dérogation** à la carte scolaire, ses motifs limitatifs
+  et le fait qu'elle se décide sur les places restantes, donc tard (Orléans) ; ⑧ l'**échange de
+  permis de conduire**, valable de droit pour l'UE, soumis à accord de réciprocité et à un délai
+  courant depuis le premier titre de séjour ailleurs, dans la seule ville du lot où la voiture
+  n'est pas optionnelle (Pau) ; ⑨ le **permis frontalier** et le **droit d'option** irréversible
+  entre couverture santé suisse et française (Besançon).
+
+  **Trois prudences assumées, à ne pas diluer.** ① Le **livre foncier** prive Metz de médiane DVF
+  au même titre que Strasbourg, et le guide le dit au lieu de laisser un blanc, qui se lirait comme
+  un oubli. ② La médiane maison de Besançon repose sur **375 ventes**, le plus petit échantillon du
+  lot : elle est donnée comme indicative. ③ Clermont-Ferrand est bon marché **parce que les revenus
+  y sont bas** (niveau de vie le plus faible du lot, 25 % de pauvreté, le plus haut) : le guide écrit
+  qu'un ménage qui arrive avec un revenu d'ailleurs fait un arbitrage, pas une bonne affaire. Et,
+  suivant la convention des batches précédents, tout ce qui relève d'une commune voisine est écrit
+  « accessible depuis » : Amnéville et Sarrebruck depuis Metz, l'Aquarium du Val de Loire
+  (Lussault-sur-Loire) depuis Tours, Saint-Pierre-des-Corps nommée comme **gare d'une autre
+  commune**, Bordes depuis Pau, la gare Besançon Franche-Comté TGV comme extérieure à la ville.
+
+  **Tags** : aucun tag inventé, mais `pau` franchit le seuil de 3 guides et **crée `/tags/pau`
+  côté EN** — `TAG_SLUGS_EN` passe de 102 à **103**. `npm run search-index` relancé
+  (`data/search-index.en.json` 743 guides, 103 tags) et **`npm run sitemap:check` repassé** à cause
+  du tag neuf : FR 29 061 URL, **EN 28 623**, chaque URL déclarée a une page.
+  `npx tsc --noEmit`, `npm run integrity`, `npm run search-index:check`, `npm run hreflang:check`
+  et `npm run parity` passent tous.
+
+  **Ce qui n'est PAS livré** : aucun guide FR (la série `famille-a-` reste à 19, elle n'est pas
+  rouverte) ; aucune correction des rangs publiés par les **autres** séries EN, qui utilisent
+  peut-être le même `sort` + `indexOf` sur un axe à une décimale — le contrôle n'a été fait que sur
+  `family-in-`, et c'est le premier endroit où regarder au prochain run. Le crawl reste bloqué
+  (egress 403), donc rien n'a été tenté côté F62/F63/F64.
+
+  **Prochain run** : la série `family-in-` est fermée, donc reprendre le diff par série. Les plus
+  gros trous à couverture **nulle** restent `universites-[ville]` (15 FR / 0 EN) et
+  `vacances-monoparentales-` croisé mois × profil ; ensuite `quitter-` (55 FR / 23 EN `leaving-`),
+  `vivre-en-` et `parent-solo-` si un batch 6 FR repart. ⚠️ `universites-` demande un **angle
+  distinct** avant d'être ouverte : `studying-in-[city]` compte déjà 24 guides EN et recouvrirait
+  frontalement une série « universités » écrite par symétrie de compteur, exactement la
+  cannibalisation qui a coûté 15 guides EN en juin. L'angle qui tient, s'il est pris : les
+  **établissements et l'admission** vus d'un candidat étranger (Campus France, DAP, niveau de
+  français exigé, frais différenciés), pas la vie étudiante. Rappel inchangé :
+  `demenager-a-[ville]` (50 FR / 0) est un **non-correctif assumé**.
 
 ---
 
