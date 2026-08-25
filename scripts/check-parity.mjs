@@ -146,24 +146,49 @@ const enOnly = [...enRoutes]
   .filter((v, i, a) => a.indexOf(v) === i);
 
 async function sitemapCounts() {
+  // Un sitemap injoignable ne doit surtout pas se lire comme une parité atteinte.
+  // Sans egress (routine cloud : 403 CONNECT sur le proxy), les 20 chunks
+  // revenaient tous en `!res.ok`, la table sortait vide et la ligne TOTAL
+  // affichait « 0 » — c'est-à-dire exactement ce qu'affiche un écart nul.
+  // On compte donc les chunks réellement lus et on le dit quand il n'y en a
+  // aucun, au lieu de publier un agrégat de zéros.
   const grab = async (origin) => {
     const counts = {};
+    let chunks = 0;
+    let lastError = null;
     for (let i = 0; i < 20; i++) {
-      const res = await fetch(`${origin}/sitemap/${i}.xml`);
-      if (!res.ok) continue;
+      let res;
+      try {
+        res = await fetch(`${origin}/sitemap/${i}.xml`);
+      } catch (err) {
+        lastError = err?.message ?? String(err);
+        continue;
+      }
+      if (!res.ok) {
+        lastError = `HTTP ${res.status}`;
+        continue;
+      }
+      chunks++;
       const xml = await res.text();
       for (const m of xml.matchAll(/<loc>([^<]+)<\/loc>/g)) {
         const head = m[1].replace(origin, "").split("/").filter(Boolean)[0] ?? "(root)";
         counts[head] = (counts[head] ?? 0) + 1;
       }
     }
-    return counts;
+    return { counts, chunks, lastError };
   };
-  const [fr, en] = await Promise.all([
+  const [frRes, enRes] = await Promise.all([
     grab("https://www.mavilleideale.fr"),
     grab("https://bestcitiesinfrance.com"),
   ]);
-  return Object.entries(fr)
+  const unreachable = [
+    frRes.chunks === 0 ? `FR (${frRes.lastError ?? "aucun chunk"})` : null,
+    enRes.chunks === 0 ? `EN (${enRes.lastError ?? "aucun chunk"})` : null,
+  ].filter(Boolean);
+  if (unreachable.length) return { unreachable };
+  const fr = frRes.counts;
+  const en = enRes.counts;
+  const rows = Object.entries(fr)
     .filter(([h]) => !(h in EXCEPTIONS))
     // Même raison qu'au-dessus : les compteurs de sitemap sont indexés par tête
     // d'URL, donc il faut la tête de la valeur mappée, pas la valeur entière.
@@ -171,6 +196,7 @@ async function sitemapCounts() {
     .map((r) => ({ ...r, gap: r.en - r.fr }))
     .filter((r) => r.gap !== 0)
     .sort((a, b) => a.gap - b.gap);
+  return { rows, chunks: { fr: frRes.chunks, en: enRes.chunks } };
 }
 
 const report = { frRoutes: frRoutes.length, enRoutes: enRoutes.size, missing, unmapped, enOnly };
@@ -187,13 +213,17 @@ if (AS_JSON) {
     for (const r of unmapped) console.log(`  ${r}`);
   }
   if (enOnly.length) console.log(`\nTêtes EN sans origine FR : ${enOnly.join(", ")}`);
-  if (report.sections) {
-    console.log(`\nURL par section (sitemaps en ligne) :`);
+  if (report.sections?.unreachable) {
+    console.log(`\nURL par section : NON MESURÉ — sitemap injoignable : ${report.sections.unreachable.join(", ")}.`);
+    console.log(`  (egress sortant requis ; depuis une routine cloud le proxy refuse le CONNECT.`);
+    console.log(`   Absence de mesure, pas un écart nul — relancer depuis une session locale.)`);
+  } else if (report.sections) {
+    console.log(`\nURL par section (sitemaps en ligne, ${report.sections.chunks.fr} chunks FR / ${report.sections.chunks.en} EN) :`);
     console.log(`  ${"section".padEnd(26)}${"FR".padStart(7)}${"EN".padStart(7)}${"écart".padStart(8)}`);
-    for (const s of report.sections) {
+    for (const s of report.sections.rows) {
       console.log(`  ${s.section.padEnd(26)}${String(s.fr).padStart(7)}${String(s.en).padStart(7)}${String(s.gap).padStart(8)}`);
     }
-    const total = report.sections.reduce((a, s) => a + s.gap, 0);
+    const total = report.sections.rows.reduce((a, s) => a + s.gap, 0);
     console.log(`  ${"TOTAL".padEnd(26)}${"".padStart(14)}${String(total).padStart(8)}`);
   }
 }

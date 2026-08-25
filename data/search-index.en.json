@@ -3392,6 +3392,51 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "single-parent-in-pau-2026",
+      "title": "Single parent in Pau (2026): the best rent-per-school-point in this batch",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-la-rochelle-2026",
+      "title": "Single parent in La Rochelle (2026): the best file here, and the highest price of entry",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-cherbourg-2026",
+      "title": "Single parent in Cherbourg-en-Cotentin (2026): €2,500, a merged commune and a car",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-merignac-2026",
+      "title": "Single parent in Mérignac (2026): Bordeaux prices without Bordeaux schools",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-avignon-2026",
+      "title": "Single parent in Avignon (2026): culture 9/10, and 212th all the same",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-beziers-2026",
+      "title": "Single parent in Béziers (2026): €2,200 is enough, and that is the only good news",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-saint-pierre-reunion-2026",
+      "title": "Single parent in Saint-Pierre, Réunion (2026): the island's best file, and still hard",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-fort-de-france-2026",
+      "title": "Single parent in Fort-de-France (2026): the city lost 11,588 residents, and it counts",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-saint-paul-reunion-2026",
+      "title": "Single parent in Saint-Paul, Réunion (2026): €2,550 and a car you cannot drop",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "working-in-paris-2026",
       "title": "Working in Paris: the deepest job market in France, and what it costs you",
       "emoji": "💼"
@@ -3641,7 +3686,12 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 90
+      "count": 99
+    },
+    {
+      "slug": "single-parent-in-france",
+      "label": "single parent in france",
+      "count": 55
     },
     {
       "slug": "buying-property-france",
@@ -3654,24 +3704,19 @@
       "count": 50
     },
     {
-      "slug": "single-parent-in-france",
-      "label": "single parent in france",
-      "count": 46
+      "slug": "expat-single-parent",
+      "label": "expat single parent",
+      "count": 48
     },
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 43
-    },
-    {
-      "slug": "expat-single-parent",
-      "label": "expat single parent",
-      "count": 39
+      "count": 44
     },
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 38
+      "count": 41
     },
     {
       "slug": "grand-est",
@@ -3729,6 +3774,11 @@
       "count": 22
     },
     {
+      "slug": "provence-alpes-cote-d-azur",
+      "label": "provence-alpes-cote-d-azur",
+      "count": 22
+    },
+    {
       "slug": "single-supplement",
       "label": "single supplement",
       "count": 22
@@ -3749,14 +3799,9 @@
       "count": 21
     },
     {
-      "slug": "provence-alpes-cote-d-azur",
-      "label": "provence-alpes-cote-d-azur",
-      "count": 21
-    },
-    {
       "slug": "normandy",
       "label": "normandy",
-      "count": 20
+      "count": 21
     },
     {
       "slug": "provence",
@@ -3819,6 +3864,11 @@
       "count": 11
     },
     {
+      "slug": "reunion",
+      "label": "reunion",
+      "count": 11
+    },
+    {
       "slug": "affordable-retirement-france",
       "label": "affordable retirement France",
       "count": 10
@@ -3846,11 +3896,6 @@
     {
       "slug": "french-riviera",
       "label": "french riviera",
-      "count": 9
-    },
-    {
-      "slug": "reunion",
-      "label": "reunion",
       "count": 9
     },
     {
@@ -3959,6 +4004,11 @@
       "count": 5
     },
     {
+      "slug": "martinique",
+      "label": "martinique",
+      "count": 5
+    },
+    {
       "slug": "montpellier",
       "label": "montpellier",
       "count": 5
@@ -4006,11 +4056,6 @@
     {
       "slug": "grenoble",
       "label": "grenoble",
-      "count": 4
-    },
-    {
-      "slug": "martinique",
-      "label": "martinique",
       "count": 4
     },
     {

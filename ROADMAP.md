@@ -13,7 +13,7 @@ Demande utilisateur directe. F58 / F60 / F61 livrées le jour même ; **F59 livr
 
 | # | Feature | Prio | Cplx | SEO | Statut |
 |---|---------|------|------|-----|--------|
-| F58 | City Match — profil « parent solo » | P1 | S | mid | ✅ shipped 2026-07-22 · sous-page `/villes/[slug]/parent-solo` ×540 + hub `/parent-solo` + miroir EN `/single-parent` + `/cities/[slug]/single-parent` ×540 shipped 2026-07-25→28 · série guides `parent-solo-a-[ville]-2026` batch 1 (+10) shipped 2026-07-24, batch 2 (+10 : Rennes, Nancy, Angers, Grenoble, Dijon, Metz, Reims, Aix-en-Provence, Rouen, Toulon) shipped 2026-08-07 · miroir EN de la série `single-parent-in-[city]-2026` batch 1 (+10 : Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux, Lille) shipped 2026-08-09, batch 2 (+10) shipped 2026-08-11 — **parité FR/EN atteinte à 20/20** · **batch 3 FR (+9 : Villeurbanne, Besançon, Caen, Brest, Tours, Limoges, Clermont-Ferrand, Saint-Étienne, Le Havre) shipped 2026-08-14**, **miroir EN batch 3 (+9) shipped 2026-08-15 — parité rétablie à 29/29** · **batch 4 FR (+10 : Nîmes, Saint-Denis de La Réunion, Le Mans, Amiens, Annecy, Perpignan, Orléans, Mulhouse, Poitiers, Dunkerque) shipped 2026-08-16**, **miroir EN batch 4 (+10) shipped 2026-08-17 — parité rétablie à 39/39** (compteur vérifié des deux côtés avant et après le run, cf. § Parité EN) · **batch 5 FR (+9 : Saint-Paul 974, Avignon, Saint-Pierre 974, Béziers, La Rochelle, Pau, Cherbourg-en-Cotentin, Fort-de-France, Mérignac) shipped 2026-08-23 — 48 FR contre 39 EN, premier guide martiniquais de la série** |
+| F58 | City Match — profil « parent solo » | P1 | S | mid | ✅ shipped 2026-07-22 · sous-page `/villes/[slug]/parent-solo` ×540 + hub `/parent-solo` + miroir EN `/single-parent` + `/cities/[slug]/single-parent` ×540 shipped 2026-07-25→28 · série guides `parent-solo-a-[ville]-2026` batch 1 (+10) shipped 2026-07-24, batch 2 (+10 : Rennes, Nancy, Angers, Grenoble, Dijon, Metz, Reims, Aix-en-Provence, Rouen, Toulon) shipped 2026-08-07 · miroir EN de la série `single-parent-in-[city]-2026` batch 1 (+10 : Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux, Lille) shipped 2026-08-09, batch 2 (+10) shipped 2026-08-11 — **parité FR/EN atteinte à 20/20** · **batch 3 FR (+9 : Villeurbanne, Besançon, Caen, Brest, Tours, Limoges, Clermont-Ferrand, Saint-Étienne, Le Havre) shipped 2026-08-14**, **miroir EN batch 3 (+9) shipped 2026-08-15 — parité rétablie à 29/29** · **batch 4 FR (+10 : Nîmes, Saint-Denis de La Réunion, Le Mans, Amiens, Annecy, Perpignan, Orléans, Mulhouse, Poitiers, Dunkerque) shipped 2026-08-16**, **miroir EN batch 4 (+10) shipped 2026-08-17 — parité rétablie à 39/39** (compteur vérifié des deux côtés avant et après le run, cf. § Parité EN) · **batch 5 FR (+9 : Saint-Paul 974, Avignon, Saint-Pierre 974, Béziers, La Rochelle, Pau, Cherbourg-en-Cotentin, Fort-de-France, Mérignac) shipped 2026-08-23 — 48 FR contre 39 EN, premier guide martiniquais de la série**, **miroir EN batch 5 (+9) shipped 2026-08-25 — parité rétablie à 48/48** (rang publié = fit décroissant puis nom croissant, cf. § Parité EN) |
 | F59 | **Parcs & espaces verts par ville** (pipeline OSM + sub-page ×540) | **P0** | **L** | **high** | ✅ shipped 2026-07-27 |
 | F60 | `/departements` — finder par n° / nom / ville + carte cliquable | P1 | S | low | ✅ shipped 2026-07-22 · carte cliquable 2026-07-23 |
 | F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 · série guides `vacances-celibataire-[ville]-2026` batch 1 (+8) shipped 2026-08-01 · série `vacances-monoparentales-[ville]-2026` batch 1 (+7) shipped 2026-08-05 · `vacances-celibataire-[ville]-2026` batch 2 (+7 : Toulouse, Lille, Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle) shipped 2026-08-08 · croisement mois × profil `/vacances/ou-partir/[combo]` (12 × 7 = 84 pages SSG) shipped 2026-08-12 · miroir EN de la série célibataire, `solo-travel-in-[city]-2026` batch 1 (+8 : Paris, Lyon, Bordeaux, Lille, Strasbourg, Toulouse, Montpellier, Nantes) shipped 2026-08-13 · série EN fermée (batch 2, +7) 2026-08-14 · guide pilier `partir-en-vacances-seul-2026` + correction de l'anti-station-fantôme (part réelle des 15-29 ans Insee au lieu d'un écart d'affluence constant) shipped 2026-08-15 · **miroir EN de la série monoparentale, `single-parent-holidays-[city]-2026` (+7 : La Rochelle, Strasbourg, Nantes, Rennes, Vannes, Nancy, Dijon) shipped 2026-08-19 — parité FR/EN atteinte à 7/7, mêmes villes des deux côtés** (+ 4 chiffres faux corrigés dans la série FR au passage, cf. § ci-dessous) · **`vacances-celibataire-[ville]-2026` batch 3 (+7 : Nancy, Poitiers, Rouen, Caen, Clermont-Ferrand, Tours, Besançon) shipped 2026-08-22 — sélection dérivée de la mesure anti-station-fantôme, + 1 erreur de données corrigée dans `lib/transit.ts`, cf. § ci-dessous** |
@@ -1792,9 +1792,9 @@ Séries à parité, à re-differ et non à croire sur parole : tourisme 207/207,
 Séries entamées et encore loin : `leaving-` 23 EN contre `quitter-` 55 FR,
 `moving-to-` 6 EN contre `demenager-a-` 50 FR.
 
-**Écart de contenu, distinct de l'écart de routes** : **guides 989 FR / 725 EN, tags 245 / 102**
-(mesuré le 24/08 après le batch 1 `family-in-` — les chiffres plus bas dans cette section sont
-datés, le réel prévaut). Séries FR restant **sans aucune jumelle EN** au 24/08 :
+**Écart de contenu, distinct de l'écart de routes** : **guides 989 FR / 734 EN, tags 245 / 102**
+(mesuré le 25/08 après la refermeture de `single-parent-in-` — les chiffres plus bas dans cette
+section sont datés, le réel prévaut). Séries FR restant **sans aucune jumelle EN** au 25/08 :
 `universites-[ville]` (15/0) et `vacances-monoparentales-` croisé mois × profil.
 `famille-a-[ville]` en sortait ce run (19 FR / **10** EN). `demenager-a-[ville]` reste à 50 FR / 0
 jumelle per-city, et **c'est un non-correctif assumé** : une série `moving-to-[city]` recouvrirait
@@ -1807,6 +1807,79 @@ setup dans `CLAUDE.md`), pas une facilité.
 **Exceptions assumées** : `/badge` ×541 reste FR-only (la motion backlink vise mairies et
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
+
+### Livré le 25/08 — `single-parent-in-[city]-2026` REFERMÉE une troisième fois (batch 5, +9)
+
+`npm run parity` en **code 0** en début de run (FR 218 / EN 165, 0 route sans jumelle) : pas de
+régression de routes, donc run de corpus. Le diff par série sur le corpus réel a sorti la série
+`parent-solo-a-[ville]` / `single-parent-in-[city]` comme le trou le plus net et le plus récent —
+**48 FR contre 39 EN**, l'écart ouvert par le batch 5 FR du 23/08. Les 9 jumelles manquantes
+écrites d'un coup dans `data/guides-en.ts` : **Saint-Paul 974, Avignon, Saint-Pierre 974, Béziers,
+La Rochelle, Pau, Cherbourg-en-Cotentin, Fort-de-France, Mérignac**. **Compteurs mesurés :
+48 FR / 48 EN — écart nul, série refermée** (`EN_GUIDES` 725 → 734). C'est la **troisième**
+réouverture-refermeture de cette série depuis le 10/08 (20/20, 29/29, 39/39, 48/48) : la cadence
+réelle du chantier, pas un accident.
+
+⚠️ **Le rang publié par cette série se calcule avec un départage par nom, et il fallait le
+retrouver avant d'écrire.** Un tri stable par fit décroissant sur les 363 communes ≥ 20 000 hab.
+donne Pau 53ᵉ, La Rochelle 66ᵉ, Saint-Paul 317ᵉ ; les guides FR livrés le 23/08 disent 60ᵉ, 70ᵉ,
+325ᵉ. L'écart n'est pas une erreur : les paliers sont larges (16 communes à 5,3, 13 à 4,4) et la
+série ordonne **fit décroissant puis nom croissant** (`localeCompare` en `fr`). Vérifié contre
+neuf guides EN déjà livrés — Nîmes 224ᵉ, Le Mans 110ᵉ, Amiens 119ᵉ, Annecy 80ᵉ, Perpignan 263ᵉ,
+Orléans 102ᵉ, Mulhouse 126ᵉ, Poitiers 46ᵉ, Dunkerque 158ᵉ : **9/9 reproduits** par cette méthode
+et 2/9 seulement par le tri stable. Un rang recalculé « au plus simple » aurait donc publié un
+chiffre différent de celui de la jumelle FR sur 7 des 9 guides. **Reprendre cette méthode pour
+toute nouvelle jumelle de la série**, et se rappeler qu'un ordre à l'intérieur d'un palier est
+stable, pas un départage (convention `lib/owner-rankings.ts`).
+
+Cinq chiffres ont été **corrigés contre le moteur** avant écriture plutôt que recopiés du FR :
+le coût de la vie de Mérignac à 4,0/10 est **le plus bas des neuf**, pas l'avant-dernier ;
+Niort est à **deux dixièmes** de La Rochelle au composite, pas à un demi-point ; un T3 de 65 m²
+à Cherbourg vaut **123 500 €** et non 124 000 ; à Fort-de-France **162 500 €** et non 163 000 ;
+et 97 500 € font **un peu plus** du tiers des 273 000 € rochelais, pas moins. Contrôlés au
+passage et confirmés justes : le score global de La Rochelle à **7,2/10** (c'est
+`scores.global`, pas un champ `global` de premier niveau — le piège du dump), la nature du
+Robert **7,8** devant Fort-de-France 7,5, et Béziers **22ᵉ sur 22** en Occitanie.
+
+Écrit en anglais natif depuis les faits des guides FR (aucun chiffre qui n'y soit),
+`metaTitle` 44-53 caractères, `metaDesc` 115-136, 6 sections par guide comme le reste de la
+série. **Aucun tag neuf** : les 9 réutilisent `reunion`, `martinique`, `occitanie`,
+`nouvelle-aquitaine`, `normandy`, `provence-alpes-cote-d-azur` — attention, ce dernier existe en
+**deux graphies** dans le corpus EN (`provence-alpes-cote-dazur`, 2 guides, sous le seuil de 3) et
+prendre la mauvaise aurait créé une page `/tags` de plus.
+Les prudences du FR sont reprises telles quelles, à ne pas diluer : **baignade en mer interdite
+hors lagon de la côte ouest et hors bassins surveillés** à La Réunion, avec la précision
+géographique **qu'il n'y a pas de lagon dans le sud** (Saint-Pierre) et que Saint-Paul, elle,
+borde le lagon ; **saison cyclonique** et fermetures décidées la veille au soir dans les trois
+guides ultramarins ; **bruit aérien à Mérignac** présenté comme un critère qu'aucun des quatre
+axes ne mesure ; et aucun verdict par quartier nulle part — 2 ou 3 quartiers documentés ne
+décrivent pas une commune de 80 000 habitants.
+Six ajouts propres à l'angle voyageur étranger, absents du FR parce qu'inutiles à un lecteur
+français : **Visale** comme réponse au garant qu'un arrivant n'a pas, la **carte scolaire** et la
+dérogation qui se demande et ne se suppose pas, l'**allocation de soutien familial** versée par la
+CAF et l'intermédiation des pensions, le fait que **les DROM ne sont pas dans Schengen** et que
+**La Réunion est à UTC+4 sans heure d'été**, donc hors calendrier scolaire A/B/C, le **ferry
+transManche de Cherbourg** vers l'Angleterre et l'Irlande, et le **chlordécone** nommé comme fait
+documenté de la Martinique, sans chiffre et sans verdict, sources renvoyées à l'ARS et à la
+préfecture.
+`npm run search-index` relancé (`data/search-index.en.json` 734 guides, 102 tags) et
+`npm run sitemap:check` repassé (FR 29 061 URL, EN 28 613) — chaque URL déclarée a une page.
+
+**Correctif d'outil du même run — `npm run parity --sitemaps` mentait par omission.** Sans egress
+(routine cloud : le proxy refuse le CONNECT), les 20 chunks revenaient en `!res.ok`, la table
+sortait vide et la ligne `TOTAL` affichait **`0`** — c'est-à-dire exactement ce qu'affiche une
+parité atteinte. Le tableau de bord du chantier annonçait donc « écart nul » précisément quand il
+n'avait rien pu mesurer. `sitemapCounts()` compte désormais les chunks réellement lus, attrape
+l'exception réseau, et **dit `NON MESURÉ — sitemap injoignable`** au lieu de publier un agrégat de
+zéros. Même principe que `news:stats` le 18/08 : un agrégat de zéros doit nommer ce qu'il n'a pas
+vu. Le code de sortie est inchangé (routes seules), une routine sans egress ne doit pas échouer
+pour ça.
+
+**Prochain run** : la série `single-parent-` est à parité, donc reprendre le diff par série. Les
+plus gros trous restants au 25/08 sont `universites-[ville]` (15 FR / 0 EN), `famille-a-[ville]`
+(19 FR / 10 EN, batch 2 de `family-in-` à écrire), `quitter-` (55 FR / 23 EN `leaving-`) et
+`parent-solo-` si un batch 6 FR repart. Rappel : `demenager-a-[ville]` (50 FR / 0) reste un
+**non-correctif assumé**, recouvrement avec `[city]-living-guide`.
 
 ### Livré le 24/08 — ouverture de `family-in-[city]-2026` (batch 1, +10)
 
