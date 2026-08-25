@@ -263,10 +263,20 @@ export default async function MacroRegionSafetyPage({ params }: Props) {
           ))}
         </div>
 
-        <div className="mt-8 text-sm">
-          <Link href="/securite" className="text-[var(--accent)] hover:underline">
-            → Voir le classement national sécurité complet
-          </Link>
+        <div className="mt-8 text-sm space-y-2">
+          <div>
+            <Link href="/securite" className="text-[var(--accent)] hover:underline">
+              → Voir le classement national sécurité complet
+            </Link>
+          </div>
+          <div>
+            <Link href="/classements/securite-femme-seule" className="text-[var(--accent)] hover:underline">
+              → Les villes où une femme seule rentre le soir le plus sereinement
+            </Link>
+            <span className="text-[var(--text-tertiary)]">
+              {" "}— même matière SSMSI, pondérée par la densité du réseau de transport.
+            </span>
+          </div>
         </div>
       </section>
 

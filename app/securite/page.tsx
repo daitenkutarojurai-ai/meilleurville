@@ -275,6 +275,13 @@ export default function SafetyHubPage() {
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Classement dédié owner-score</div>
             </Card>
           </Link>
+          <Link href="/classements/securite-femme-seule" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">👤</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">Sécurité femme seule</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">Sécurité pondérée par le transport du soir</div>
+            </Card>
+          </Link>
           <Link href="/red-flags" className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-2xl mb-1">🚩</div>

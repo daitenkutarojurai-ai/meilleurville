@@ -208,6 +208,37 @@ export default async function ProfilePage({ params }: Props) {
           </section>
         )}
 
+        {/* Evening-return counterpart — solo-femme weights `securiteFemmeSeule`
+            at 3.0, so the ranking below is literally its cardinal criterion read
+            alone; celibataires names that profile in its own intro to say where
+            it stops. Both audiences arrive at the same practical question. */}
+        {["solo-femme", "celibataires"].includes(profile.slug) && (
+          <section>
+            <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+              Le classement complémentaire — le retour du soir
+            </h3>
+            <Link href="/classements/securite-femme-seule" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl" aria-hidden>👤</span>
+                  <div>
+                    <p className="font-semibold text-[var(--text-primary)]">
+                      Les villes où une femme seule rentre le soir le plus sereinement
+                    </p>
+                    <p className="text-xs text-[var(--text-secondary)] mt-1">
+                      Le top ci-dessus pondère plusieurs axes à la fois ; celui-ci n&apos;en
+                      retient que deux — la sécurité SSMSI, dominante, et la densité du réseau
+                      de transport en proxy du trajet de fin de soirée. C&apos;est un composite
+                      d&apos;indicateurs existants, pas un relevé de violences faites aux
+                      femmes : la page le dit avant de citer le moindre rang.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+          </section>
+        )}
+
         {/* Heating counterpart — visible for profiles whose budget is most
             exposed to a winter heating bill (fixed pension, single income,
             rural neo-installés, primo-accédants qui découvrent la facture

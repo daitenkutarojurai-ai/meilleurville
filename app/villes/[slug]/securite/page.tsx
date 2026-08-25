@@ -223,10 +223,20 @@ export default async function SecuritePage({ params }: Props) {
           </Link>
         </div>
 
-        <div className="mt-8 text-sm">
-          <Link href="/securite" className="text-[var(--accent)] hover:underline">
-            → Classement national sécurité SSMSI
-          </Link>
+        <div className="mt-8 text-sm space-y-2">
+          <div>
+            <Link href="/securite" className="text-[var(--accent)] hover:underline">
+              → Classement national sécurité SSMSI
+            </Link>
+          </div>
+          <div>
+            <Link href="/classements/securite-femme-seule" className="text-[var(--accent)] hover:underline">
+              → Le même socle SSMSI, vu du retour tardif d&apos;une femme seule
+            </Link>
+            <span className="text-[var(--text-tertiary)]">
+              {" "}— la sécurité y reste dominante, la desserte du soir fait le reste de l&apos;écart.
+            </span>
+          </div>
         </div>
       </section>
 

@@ -387,6 +387,33 @@ export default async function RankingPage({ params }: Props) {
             </div>
           )}
 
+          {/* Voisin de barème — le classement sécurité agrège l'axe SSMSI seul ;
+              celui de la sécurité femme seule repart du même socle et y ajoute la
+              desserte du soir, ce qui redistribue les grandes villes bien
+              desservies face aux petites communes tranquilles mais sans réseau. */}
+          {slug === "securite" && (
+            <div>
+              <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-3">
+                Classement voisin
+              </p>
+              <Link
+                href="/classements/securite-femme-seule"
+                className="flex items-start gap-3 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 p-3 transition-colors group"
+              >
+                <span className="text-xl flex-shrink-0">👤</span>
+                <div className="min-w-0">
+                  <p className="text-xs font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug">
+                    Sécurité d&apos;une femme seule, transport du soir compris
+                  </p>
+                  <p className="text-xs text-[var(--text-tertiary)] mt-0.5">
+                    Même socle SSMSI, autre question : non pas où l&apos;on relève le moins de
+                    faits, mais d&apos;où l&apos;on rentre le soir sans dépendre d&apos;une voiture.
+                  </p>
+                </div>
+              </Link>
+            </div>
+          )}
+
           {/* Related guides */}
           {relatedGuides.length > 0 && (
             <div>
