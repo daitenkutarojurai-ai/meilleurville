@@ -16,7 +16,118 @@ Demande utilisateur directe. F58 / F60 / F61 livrées le jour même ; **F59 livr
 | F58 | City Match — profil « parent solo » | P1 | S | mid | ✅ shipped 2026-07-22 · sous-page `/villes/[slug]/parent-solo` ×540 + hub `/parent-solo` + miroir EN `/single-parent` + `/cities/[slug]/single-parent` ×540 shipped 2026-07-25→28 · série guides `parent-solo-a-[ville]-2026` batch 1 (+10) shipped 2026-07-24, batch 2 (+10 : Rennes, Nancy, Angers, Grenoble, Dijon, Metz, Reims, Aix-en-Provence, Rouen, Toulon) shipped 2026-08-07 · miroir EN de la série `single-parent-in-[city]-2026` batch 1 (+10 : Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux, Lille) shipped 2026-08-09, batch 2 (+10) shipped 2026-08-11 — **parité FR/EN atteinte à 20/20** · **batch 3 FR (+9 : Villeurbanne, Besançon, Caen, Brest, Tours, Limoges, Clermont-Ferrand, Saint-Étienne, Le Havre) shipped 2026-08-14**, **miroir EN batch 3 (+9) shipped 2026-08-15 — parité rétablie à 29/29** · **batch 4 FR (+10 : Nîmes, Saint-Denis de La Réunion, Le Mans, Amiens, Annecy, Perpignan, Orléans, Mulhouse, Poitiers, Dunkerque) shipped 2026-08-16**, **miroir EN batch 4 (+10) shipped 2026-08-17 — parité rétablie à 39/39** (compteur vérifié des deux côtés avant et après le run, cf. § Parité EN) · **batch 5 FR (+9 : Saint-Paul 974, Avignon, Saint-Pierre 974, Béziers, La Rochelle, Pau, Cherbourg-en-Cotentin, Fort-de-France, Mérignac) shipped 2026-08-23 — 48 FR contre 39 EN, premier guide martiniquais de la série**, **miroir EN batch 5 (+9) shipped 2026-08-25 — parité rétablie à 48/48** (rang publié = fit décroissant puis nom croissant, cf. § Parité EN) |
 | F59 | **Parcs & espaces verts par ville** (pipeline OSM + sub-page ×540) | **P0** | **L** | **high** | ✅ shipped 2026-07-27 |
 | F60 | `/departements` — finder par n° / nom / ville + carte cliquable | P1 | S | low | ✅ shipped 2026-07-22 · carte cliquable 2026-07-23 |
-| F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 · série guides `vacances-celibataire-[ville]-2026` batch 1 (+8) shipped 2026-08-01 · série `vacances-monoparentales-[ville]-2026` batch 1 (+7) shipped 2026-08-05 · `vacances-celibataire-[ville]-2026` batch 2 (+7 : Toulouse, Lille, Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle) shipped 2026-08-08 · croisement mois × profil `/vacances/ou-partir/[combo]` (12 × 7 = 84 pages SSG) shipped 2026-08-12 · miroir EN de la série célibataire, `solo-travel-in-[city]-2026` batch 1 (+8 : Paris, Lyon, Bordeaux, Lille, Strasbourg, Toulouse, Montpellier, Nantes) shipped 2026-08-13 · série EN fermée (batch 2, +7) 2026-08-14 · guide pilier `partir-en-vacances-seul-2026` + correction de l'anti-station-fantôme (part réelle des 15-29 ans Insee au lieu d'un écart d'affluence constant) shipped 2026-08-15 · **miroir EN de la série monoparentale, `single-parent-holidays-[city]-2026` (+7 : La Rochelle, Strasbourg, Nantes, Rennes, Vannes, Nancy, Dijon) shipped 2026-08-19 — parité FR/EN atteinte à 7/7, mêmes villes des deux côtés** (+ 4 chiffres faux corrigés dans la série FR au passage, cf. § ci-dessous) · **`vacances-celibataire-[ville]-2026` batch 3 (+7 : Nancy, Poitiers, Rouen, Caen, Clermont-Ferrand, Tours, Besançon) shipped 2026-08-22 — sélection dérivée de la mesure anti-station-fantôme, + 1 erreur de données corrigée dans `lib/transit.ts`, cf. § ci-dessous** |
+| F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 · série guides `vacances-celibataire-[ville]-2026` batch 1 (+8) shipped 2026-08-01 · série `vacances-monoparentales-[ville]-2026` batch 1 (+7) shipped 2026-08-05 · `vacances-celibataire-[ville]-2026` batch 2 (+7 : Toulouse, Lille, Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle) shipped 2026-08-08 · croisement mois × profil `/vacances/ou-partir/[combo]` (12 × 7 = 84 pages SSG) shipped 2026-08-12 · miroir EN de la série célibataire, `solo-travel-in-[city]-2026` batch 1 (+8 : Paris, Lyon, Bordeaux, Lille, Strasbourg, Toulouse, Montpellier, Nantes) shipped 2026-08-13 · série EN fermée (batch 2, +7) 2026-08-14 · guide pilier `partir-en-vacances-seul-2026` + correction de l'anti-station-fantôme (part réelle des 15-29 ans Insee au lieu d'un écart d'affluence constant) shipped 2026-08-15 · **miroir EN de la série monoparentale, `single-parent-holidays-[city]-2026` (+7 : La Rochelle, Strasbourg, Nantes, Rennes, Vannes, Nancy, Dijon) shipped 2026-08-19 — parité FR/EN atteinte à 7/7, mêmes villes des deux côtés** (+ 4 chiffres faux corrigés dans la série FR au passage, cf. § ci-dessous) · **`vacances-celibataire-[ville]-2026` batch 3 (+7 : Nancy, Poitiers, Rouen, Caen, Clermont-Ferrand, Tours, Besançon) shipped 2026-08-22 — sélection dérivée de la mesure anti-station-fantôme, + 1 erreur de données corrigée dans `lib/transit.ts`, cf. § ci-dessous** · **`vacances-monoparentales-[ville]-2026` batch 2 (+8 : Lyon, Angers, Bordeaux, Besançon, Grenoble, Brest, Tours, Valence) shipped 2026-08-26 — sélection dérivée de la règle « accessible en train sans voiture » de la page profil elle-même, palier d'ex æquo pris entier, cf. § ci-dessous** |
+
+### F61 — série monoparentale, batch 2 : `vacances-monoparentales-[ville]-2026` (2026-08-26)
+
+Item 2 du plan agent « vacances monoparentales ». La série comptait 7 guides FR et 7 jumelles EN
+depuis le 19/08, donc écart nul : la main revenait au FR. **+8 guides, compteur mesuré
+`grep -c 'slug: "vacances-monoparentales-'` = 15 ; `GUIDES` 995 → 1003.** `npm run search-index`
+relancé (`data/search-index.json` 1 003 guides, **246 tags** contre 245 — un seul tag neuf franchit
+le seuil de 3 guides, `vacances-sans-voiture`, d'où le passage de `npm run sitemap:check`, FR
+29 067 → **29 078 URL**, chaque URL déclarée a une page et réciproquement).
+
+**La sélection est dérivée de la page profil, pas du classement générique, et c'est le point de
+méthode du run.** `topCitiesForProfile("monoparental")` est saturé de communes de 8 000 à 25 000
+habitants (Obernai, Amboise, Fontainebleau, Autun, Le Puy-en-Velay, Anglet, Vitré et Senlis
+occupent les huit premières places) : trier
+là-dedans revient à écarter à la main, run après run, des villes qui n'ont ni gare TGV ni réseau
+urbain, c'est-à-dire l'inverse de ce que le profil promet. Ce batch applique donc **la règle que
+`MonoparentalExtras.tsx` s'est donnée le 22/07 pour sa section « accessibles en train sans
+voiture »** : arriver par TGV ou RER **et** pouvoir circuler sur place en métro, tram ou BHNS, ou
+à défaut un score transport ≥ 6,8. Passée sur les 540 villes, elle en retient **53**. Deux filtres
+d'éligibilité ensuite : les 7 villes déjà couvertes, et **les communes d'Île-de-France** — Issy-les-
+Moulineaux (fit 6,7), Versailles et Neuilly-sur-Seine (6,3) sortent non pour leur classement mais
+parce qu'une commune de la petite couronne est une excursion depuis Paris et non un séjour, et que
+son axe coût, à 2,2/10, mesure un marché résidentiel francilien et pas un budget de vacances.
+Restent, par fit décroissant : Lyon et Angers à 6,6, Bordeaux et Besançon à 6,4, puis **un palier
+d'ex æquo à 6,3 pris entier** (Grenoble, Brest, Tours, Valence) plutôt que coupé en son milieu,
+comme la convention de `lib/owner-rankings.ts` l'impose depuis le 19/08. D'où 8 guides et non 7.
+
+⚠️ **La liste de candidates laissée par le run du 19/08 ne survit pas à cette règle, et c'est
+utile à savoir.** Elle annonçait « Bordeaux, Lyon, Colmar, Annecy, Grenoble, Chambéry, Reims, Metz,
+Montpellier, Aix-en-Provence ». **Colmar, Annecy et Chambéry ne passent pas** : Annecy est bien
+desservie en TGV mais sort à transport 6,4/10, sous le seuil de 6,8, et sans tram ni BHNS déclarés
+dans `lib/transit.ts` ; Chambéry porte le drapeau TGV mais aucun mode local et sort à 6,1 ; Colmar
+n'a aucune entrée de transit du tout. Les recalculer plutôt que les recopier — la règle tient en
+dix lignes de `npx tsx`.
+
+**La thèse éditoriale du batch, et elle vient d'une limite de nos propres données.** Le drapeau
+`tgv: true` de `lib/transit.ts` dit qu'une ville est desservie par le TGV ; il **ne dit pas dans
+quelle gare**. Or trois des huit villes retenues ont une gare TGV qui n'est pas celle du centre, ce
+qui est exactement le genre de détail qui coûte une heure et une crise de nerfs à un adulte seul
+avec des enfants et des bagages : **Besançon Franche-Comté TGV** est aux Auxons, à une dizaine de
+kilomètres, reliée à Besançon-Viotte par une liaison ferroviaire de quelques minutes (une partie
+des TGV dessert directement Viotte) ; **Valence TGV** est à Alixan, une dizaine de kilomètres au
+nord-est, le bâtiment abritant les quais TGV et ceux de la ligne régionale ; **une partie des TGV
+de Tours** s'arrête à Saint-Pierre-des-Corps, commune voisine, avec une correspondance ferroviaire
+de quelques minutes qui **n'existe pas derrière chaque TGV**. Les trois guides le disent avant de
+parler du reste, et aucun ne cite de durée de correspondance : l'offre a bougé plusieurs fois et
+une minute imprimée vieillit mal. Les cinq autres (Lyon, Angers, Bordeaux, Grenoble, Brest)
+arrivent en gare de centre-ville, ce que les guides disent aussi, parce que c'est un avantage.
+
+⚠️ **Trois affirmations comparatives fausses, écrites au premier jet et corrigées avant commit.**
+Même cause qu'au 19/08 et qu'au 22/08 : les scores de la ville de la page étaient tous justes, ce
+sont les **comparaisons entre villes** qui dérapent. Le remède appliqué, et à reprendre : sortir la
+matrice des sept axes des huit villes **avant** de relire, puis vérifier chaque superlatif contre
+elle, plus un contrôle mécanique qui rattache chaque figure en `/10` à un axe rendu d'une ville que
+le guide nomme (96 figures, 0 non rattachée).
+- Angers : « deux points de sécurité et deux points de coût de plus que Lyon ». Le coût, oui
+  (6,2 contre 4,2). La sécurité, non : **0,6 point** (5,7 contre 5,1).
+- Bordeaux : transports 7,8/10 annoncés « deuxième de cette sélection derrière Lyon ». C'est la
+  **troisième**, Grenoble étant à 8,1.
+- Grenoble : « nature 8,4/10, Besançon suit à 6,4 » présentait **une égalité comme un rang** —
+  Brest est aussi à 6,4, et Lyon et Tours ferment ex æquo à 5,0. Corrigé dans les deux moitiés
+  de la phrase.
+
+⚠️ **Une erreur trouvée dans un guide voisin en préparant le batch, et corrigée** :
+`10-choses-a-faire-a-valence-2026` intitulait sa section 6 « Ardèche depuis Valence — Gorges et
+**Baume les Messieurs** ». Baume-les-Messieurs est **dans le Jura**, à environ 200 km, et le corps
+de la section ne parle que des gorges de l'Ardèche et du Pont d'Arc. Titre corrigé. C'est le même
+mode de défaillance que la tour Solidor attribuée à Rennes le 19/08 : **un lieu attribué à la
+mauvaise région ne déclenche aucun contrôle automatique**, seule une relecture le voit.
+
+**Honnêteté sur le climat, à ne pas diluer.** Trois des huit villes snapent sur une station
+Météo-France lointaine (`nearestStation`, `lib/climate-normals.ts`) : Angers sur Nantes à 87 km,
+Besançon sur Dijon à 71 km, **Valence sur Grenoble-Saint-Geoirs à 59 km et dans un tout autre
+relief** — les moyennes mensuelles de Valence sortent identiques à celles de Grenoble, ce qui est
+un artefact de rattachement et non une mesure. Les trois guides concernés citent donc uniquement
+les ancres de juillet et de janvier du seed, qui sont bien celles de la ville, et **nomment la
+station de référence et sa distance**. Les cinq autres ont une station à moins de 10 km, Grenoble
+à 37 km.
+
+**Ce que les guides ne font pas.** Aucun tarif, aucun horaire, aucune durée de trajet en train :
+tout ce qui bouge d'une année sur l'autre renvoie à l'exploitant. Les loyers de `data/housing.ts`
+sont cités **explicitement comme des repères de marché résidentiel et non comme des tarifs de
+vacances** (« indicateur de niveau de prix local »), parce qu'un T3 en location annuelle ne dit pas
+ce que coûte une semaine. Les montants d'aide ne sont jamais imprimés : VACAF, chèques-vacances
+ANCV, bons vacances CAF et CSE sont décrits comme dispositifs, avec le rappel que les trois
+derniers se calculent sur le quotient familial, donc sur la résidence en France et pas sur la
+nationalité. Et la clarification sur le **supplément single** est reprise dans les huit guides :
+l'hôtellerie française facture la chambre et non la personne, le supplément par adulte existe dans
+les formules à forfait, et le vrai goulot du parent seul est la rareté des chambres familiales.
+
+**Contrôles** : `npx tsc --noEmit` propre, `npm run integrity` propre (540 villes, FR 1 003,
+EN 749, 0 score brut recopié des deux côtés), `npm run search-index:check` propre,
+`npm run sitemap:check` propre dans les deux sens, `npm run parity` en code 0. Les 8 guides sont
+vérifiés **pourvus de leur photo d'en-tête** (`guideCityPhoto`, contrôle imposé depuis le batch 32
+du tourisme). `metaTitle` 35-39 caractères, `metaDesc` 147-156, 7 sections par guide, densité
+d'accents 0,131-0,160 par mot (seuil de détection ascii-strip 0,09), **0 em-dash** sur les huit
+(cible R7.10 : ~1 pour 200 mots). `npm run build` n'a pas été lancé, conformément à
+CLAUDE.md § Commands.
+
+**Écart FR→EN après ce batch : 8 villes** (lyon, angers, bordeaux, besancon, grenoble, brest,
+tours, valence) — au-dessus du seuil de ~6, donc **le prochain run doit être un batch EN** de la
+série `single-parent-holidays-[city]-2026`. Aucun piège de nommage : les huit slugs de seed sont
+sans article ni homonyme. Attention à un point de fond côté EN, en revanche : le zonage des
+vacances scolaires, que le miroir EN du 19/08 a établi comme son apport propre, place ces huit
+villes dans **trois zones différentes** (à vérifier académie par académie avant d'écrire, pas de
+mémoire), là où le premier lot en couvrait deux. Pour le batch FR **suivant**, la même règle
+« accessible en train sans voiture » continue avec, par fit décroissant et hors Île-de-France :
+**Toulouse, Pau et Mâcon à 6,2**, **Aix-en-Provence, Poitiers et Saint-Raphaël à 6,1**, **Metz à
+6,0**, puis Reims, Le Mans, Lille et Mulhouse à 5,8 — les recalculer plutôt que les recopier, et
+noter que ce palier fait entrer des villes à sécurité basse (Lille 3,9) qu'il faudra traiter comme
+Grenoble l'est ici : le chiffre dit, sans verdict sur les habitants.
 
 ### F61 — série célibataire, batch 3 : `vacances-celibataire-[ville]-2026` (2026-08-22)
 

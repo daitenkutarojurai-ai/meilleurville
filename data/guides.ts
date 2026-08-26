@@ -24651,7 +24651,7 @@ export const GUIDES: Guide[] = [
         body: "Le parc Jouvet, sur les bords du Rhône avec sa roseraie de 5 000 rosiers, est le poumon vert de Valence. Le belvédère Jouvet offre une vue sur le Rhône et le Vivarais (l'Ardèche en face). En été, les bords du Rhône, au niveau du parc et de la plage des Couleures, s'animent avec les locaux le week-end.",
       },
       {
-        heading: "6. Ardèche depuis Valence — Gorges et Baume les Messieurs",
+        heading: "6. Ardèche depuis Valence — Gorges de l'Ardèche et Pont d'Arc",
         body: "Les Gorges de l'Ardèche (départ de Vallon-Pont-d'Arc, 45 min de Valence) sont l'un des sites naturels les plus spectaculaires de France. Le Pont d'Arc (arche naturelle de 60 m de haut) et la descente en canoë (34 km en 2 jours) sont les activités signatures. La réservation du gîte intermédiaire à Gaud est indispensable en juillet-août.",
       },
       {
@@ -49346,6 +49346,414 @@ export const GUIDES: Guide[] = [
       "10-choses-a-faire-a-colmar-2026"
     ],
     tags: ["10 choses à faire à Thionville", "activités Thionville 2026", "que faire en Moselle", "sorties Grand Est frontière Luxembourg", "tour aux Puces beffroi Guentrange La Grange Hackenberg Puzzle"]
+  },
+  {
+    slug: "vacances-monoparentales-lyon-2026",
+    title: "Vacances monoparentales à Lyon en 2026",
+    metaTitle: "Vacances monoparentales à Lyon 2026",
+    metaDesc: "Lyon en parent solo : transports 9/10, tout se fait sans voiture, mais c'est la ville la plus chère de la sélection. Les mois et les quartiers qui tiennent.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-08-26",
+    updatedAt: "2026-08-26",
+    intro: "Lyon est la destination la mieux classée de ce lot au composite « famille monoparentale », à égalité avec Angers : 6,6/10, calculé sur sécurité 5,1/10, transports 9,0/10, coût de la vie 4,2/10 et qualité de vie 6,8/10 (source : data/cities-seed.ts). Ces quatre chiffres racontent un séjour très particulier. Les transports sont au maximum de l'échelle, donc un adulte seul avec un ou deux enfants n'a strictement aucune raison de louer une voiture. Mais le coût est le plus bas des huit villes de cette sélection, c'est-à-dire le plus cher : le loyer T3 de référence est à 1 380 € et le mètre carré à l'achat à 5 000 € (source : data/housing.ts), ce qui situe le niveau de prix local sans dire ce que coûte une semaine. Ce guide dit à quelles conditions Lyon reste tenable sur un seul revenu.",
+    sections: [
+      {
+        heading: "Transports 9,0/10 : le seul argument qui supprime une ligne du budget",
+        body: "C'est le score maximal de l'échelle, et Lyon est la seule ville de cette sélection à cumuler métro, tramway, TGV, bus à haut niveau de service et un réseau cyclable classé fort (source : lib/transit.ts). Pour un parent qui part seul, cet axe ne vaut pas un confort, il vaut une ligne entière du budget : pas de location, pas de carburant, pas de parking en centre-ville, pas de créneau de retour d'agence à tenir avec deux enfants fatigués. Les funiculaires de Fourvière et de Saint-Just font partie du réseau urbain et se prennent avec un titre de transport ordinaire, ce qui règle la montée à la basilique sans négociation. À titre de comparaison interne à ce lot, Grenoble suit à 8,1/10, Bordeaux à 7,8/10 et Brest ferme la marche à 6,4/10. Les tarifs et les gammes de titres évoluent chaque année : ils sont à vérifier sur le site de l'exploitant avant le départ plutôt que dans un guide."
+      },
+      {
+        heading: "Coût 4,2/10 : le point noir, et il est structurel",
+        body: "Sur l'axe coût de la vie du site, un score haut veut dire abordable. Lyon sort à 4,2/10, le plus bas de cette sélection, derrière Bordeaux à 4,5/10 et très loin de Valence à 6,7/10 (source : data/cities-seed.ts). L'écart n'est pas anecdotique pour un foyer à un seul revenu : ce sont les mêmes activités payées à un niveau de prix supérieur d'un cran, tous les jours du séjour. Le loyer résidentiel donne l'ordre de grandeur du marché local, T3 à 1 380 € contre 850 € à Brest (source : data/housing.ts) ; ce n'est pas un tarif de vacances, c'est un indicateur de niveau de prix. Trois leviers réels : viser les mois où l'hébergement se négocie, cuisiner dans un meublé plutôt que de payer trois services par jour, et s'appuyer sur ce que la ville offre gratuitement, à commencer par le parc de la Tête d'Or, dont l'entrée et celle du zoo ne se paient pas."
+      },
+      {
+        heading: "Se loger : le « supplément single » n'existe pas là où vous croyez",
+        body: "Un hôtel français facture la chambre, pas la personne : un adulte avec deux enfants ne paie donc pas double, contrairement à ce que la réputation du supplément single laisse croire. Le vrai problème est ailleurs et il est concret. Les chambres familiales ou triples sont rares, elles partent en premier, et un adulte seul se retrouve souvent devant l'alternative deux chambres ou rien. Le supplément single, lui, apparaît dans les formules à forfait par adulte, clubs et séjours organisés, où il est bien réel. Conséquence pratique pour Lyon : le meublé de courte durée avec cuisine est presque toujours l'arbitrage gagnant, et il faut le réserver tôt, la ville accueillant assez de congrès et de salons pour que des semaines entières sortent du marché sans lien avec les vacances scolaires."
+      },
+      {
+        heading: "Des activités enfants qui tiennent sur une carte de transport",
+        body: "L'atout lyonnais pour ce profil, c'est la densité : on ne perd pas une demi-journée en trajet entre deux visites. Le parc de la Tête d'Or, l'un des plus vastes espaces verts urbains recensés sur la commune (source : data/city-parks.json), réunit dans une seule enceinte un zoo, un lac, une roseraie et de la place pour courir, sans billetterie à l'entrée. Le Musée des Confluences, à la pointe sud, se rejoint en tramway. Le Vieux-Lyon et ses traboules se parcourent à pied, et la montée à Fourvière se règle par le funiculaire. Les berges du Rhône et les rives de Saône offrent des kilomètres de promenade plane, ce qui compte quand on pousse une poussette seul. Le marché de la Croix-Rousse est une sortie du matin, pas une visite : prévoir de quoi déjeuner ensuite."
+      },
+      {
+        heading: "Quand partir : ici la contrainte n'est pas la météo, c'est la foule",
+        body: "Notre indicateur d'affluence, calculé à partir du profil de la ville et de la saison et non de son climat, place Lyon à 5 sur 5 en juillet, c'est-à-dire saturé, à 4 en juin et en septembre, et redescend à 3 en avril et en octobre (source : lib/vacation-seasons.ts). Avec Bordeaux, c'est la seule ville de ce lot à atteindre le maximum de l'échelle. Côté climat, la ville affiche 23,7 °C de moyenne en juillet et 4,2 °C en janvier (source : data/cities-seed.ts) : l'été est franchement chaud dans une cuvette urbaine, ce qui rend les après-midi de juillet pénibles avec de jeunes enfants. La fenêtre qui coche tout pour ce profil est donc le printemps, avril et mai, puis octobre : affluence à 3, températures tenables, hébergement moins tendu. La Toussaint fonctionne aussi, à condition d'assumer un programme majoritairement intérieur."
+      },
+      {
+        heading: "Sécurité 5,1/10 : ce que le chiffre dit et ce qu'il ne dit pas",
+        body: "Lyon sort à 5,1/10 sur l'axe sécurité, à égalité avec Bordeaux, au-dessus de Grenoble à 4,3/10 et en dessous d'Angers, Besançon et Brest qui partagent 5,7/10 (source : data/cities-seed.ts). C'est un indicateur communal agrégé : il décrit une commune entière, il ne décrit ni un quartier ni une heure, et il ne dit rien des gens qui y habitent. Ce qu'il faut en retirer, en pratique, c'est que Lyon demande les réflexes d'une grande métropole plutôt que ceux d'une ville moyenne. Les quartiers de gare, Part-Dieu et Perrache, sont des lieux de passage nocturne animés ; les berges du Rhône et de Saône sont très fréquentées les soirs d'été. Un point logistique qui vaut mieux qu'un conseil vague : repérer avant le départ l'adresse du service d'urgences pédiatriques le plus proche de l'hébergement, composer le 15 en urgence vitale et le 116 117 pour un conseil médical le soir et le week-end."
+      },
+      {
+        heading: "Aides : les dispositifs existent, les montants ne s'inventent pas",
+        body: "Quatre dispositifs sont à examiner avant de réserver, et aucun barème n'est cité ici parce qu'ils sont réévalués et qu'ils dépendent du quotient familial. VACAF, sur vacaf.org, conventionne des structures d'accueil et applique une aide directement déduite de la facture, à condition que le séjour se déroule dans un établissement agréé. Les chèques-vacances de l'ANCV, sur ancv.com, sont largement acceptés dans les sites culturels et une partie de l'hébergement. Les bons vacances de la caisse d'allocations familiales du Rhône se demandent sur caf.fr, rubrique vacances, et se travaillent plusieurs mois à l'avance. Le comité social et économique de l'employeur, enfin, est le levier le plus souvent oublié : il négocie de la billetterie sur des équipements précis. Ces trois derniers se calculent sur le quotient familial, donc sur le fait de résider en France, pas sur la nationalité."
+      }
+    ],
+    relatedCities: ["lyon", "villeurbanne", "vienne", "grenoble"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-lyon-2026",
+      "parent-solo-a-lyon-2026",
+      "vivre-sans-voiture-lyon-guide-2026",
+      "vacances-monoparentales-strasbourg-2026"
+    ],
+    tags: ["vacances monoparentales Lyon", "parent solo Rhône", "vacances sans voiture", "Lyon avec enfants", "hors saison Lyon"]
+  },
+  {
+    slug: "vacances-monoparentales-angers-2026",
+    title: "Vacances monoparentales à Angers en 2026",
+    metaTitle: "Vacances monoparentales à Angers 2026",
+    metaDesc: "Angers en parent solo : même classement que Lyon au composite, à un niveau de prix bien inférieur, et une affluence à 1 sur 5 en avril et en octobre.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-08-26",
+    updatedAt: "2026-08-26",
+    intro: "Angers est la trouvaille de ce lot. Elle sort au même composite « famille monoparentale » que Lyon, 6,6/10, mais avec un profil inverse : sécurité 5,7/10, transports 7,0/10, coût de la vie 6,2/10 et qualité de vie 7,2/10 (source : data/cities-seed.ts). Deux points de coût de la vie et 0,6 point de sécurité de plus que la métropole lyonnaise, deux points de transports de moins. Traduit en séjour, cela donne une ville où l'on paie sensiblement moins cher un niveau d'équipement suffisant, avec un loyer T3 de référence à 1 000 € contre 1 380 € à Lyon (source : data/housing.ts), indicateur du niveau de prix local et non tarif de vacances. Voici ce que ça change concrètement quand on part seul avec ses enfants.",
+    sections: [
+      {
+        heading: "Le meilleur rapport du lot entre ce qu'on paie et ce qu'on obtient",
+        body: "À composite égal avec Lyon, Angers affiche un coût de la vie de 6,2/10 contre 4,2/10 (source : data/cities-seed.ts). Sur cet axe, un score haut veut dire abordable : l'écart de deux points sépare une ville où chaque poste se paie au tarif métropolitain d'une ville où il se paie au tarif de province. Pour un foyer à un seul revenu, c'est la différence entre un séjour arbitré activité par activité et un séjour où l'on n'a pas à compter chaque entrée. La qualité de vie à 7,2/10 est la meilleure de cette sélection avec Bordeaux, et la sécurité à 5,7/10 la meilleure avec Besançon et Brest. Le seul axe où la ville cède, c'est le transport, 7,0/10 contre 9,0 à Lyon, ce qui reste largement au-dessus du seuil qui permet de se passer de voiture."
+      },
+      {
+        heading: "Arriver et bouger : TGV en centre-ville, tramway, et rien à louer",
+        body: "Angers cumule TGV, tramway, bus à haut niveau de service et un réseau cyclable classé moyen (source : lib/transit.ts). Le point qui compte pour un adulte seul chargé de bagages et d'enfants, et que ce guide répète pour trois villes de ce lot où ce n'est pas le cas, c'est que la gare TGV est la gare du centre. On descend du train et on est en ville, sans navette, sans correspondance à négocier, sans quart d'heure de flottement sur un quai de plaine. Le tramway relie la gare, le centre et les quartiers périphériques ; les lignes de bus complètent. Le vélo se prête au bord de Maine, plat sur des kilomètres, y compris avec une remorque ou un siège enfant. La conclusion pratique tient en une ligne : sur un séjour Angers, la voiture ne sert qu'à sortir du département."
+      },
+      {
+        heading: "Ce que « supplément single » veut dire, et ce qu'il ne veut pas dire",
+        body: "L'hôtellerie française facture la chambre et non la personne, donc un adulte avec un ou deux enfants ne paie pas une double addition. Le supplément single au sens strict apparaît dans les formules à forfait par adulte, séjours organisés et clubs, où il est bien réel et où il faut le chiffrer avant de comparer. Le vrai obstacle du parent seul est la rareté des chambres familiales et triples, qui partent tôt et laissent le choix entre deux chambres et un autre type d'hébergement. Angers est justement une ville où l'alternative fonctionne : le niveau de prix local laisse le meublé de courte durée avec cuisine accessible, et le camping ou le village de vacances du Maine-et-Loire s'ouvre hors juillet et août à des conditions que la Bretagne sud ou la côte atlantique ne pratiquent plus."
+      },
+      {
+        heading: "Les activités enfants sont groupées, et c'est mesurable",
+        body: "Le château d'Angers concentre en un seul billet une forteresse, ses jardins et la tenture de l'Apocalypse, ce qui règle une demi-journée sans transport intermédiaire. Le parc de loisirs du lac de Maine et le parc Balzac figurent parmi les plus grands espaces verts recensés sur la commune (source : data/city-parks.json), tous deux accessibles depuis le centre sans voiture, avec de la place pour une journée entière sans programme. Terra Botanica, parc à thème végétal implanté sur la commune, est la sortie payante à arbitrer en premier si les enfants ont l'âge. Le quartier de la Doutre et les bords de Maine se font à pied. Une réserve utile de mise en perspective : l'abbaye de Fontevraud, souvent citée comme sortie angevine, est accessible depuis Angers sans y être située, et la journée y est pleine."
+      },
+      {
+        heading: "Avril et octobre à 1 sur 5 d'affluence : la vraie proposition d'Angers",
+        body: "Notre indicateur d'affluence, dérivé du profil de la ville et de la saison plutôt que de son climat, place Angers à 1 sur 5 en avril, en mai et en octobre, à 2 en juin et en septembre, et ne dépasse pas 3 au cœur de juillet (source : lib/vacation-seasons.ts). C'est le régime le plus calme de cette sélection avec Besançon, Grenoble, Tours et Valence, quand Lyon et Bordeaux montent à 5. Côté climat, la ville affiche 21,8 °C de moyenne en juillet et 4,6 °C en janvier (source : data/cities-seed.ts). Une précision d'honnêteté sur ce point : la station de référence la plus proche retenue par notre moteur climatique est celle de Nantes, à environ 87 km, donc les moyennes mensuelles fines sont à lire comme régionales et non comme angevines. Les deux ancres de juillet et de janvier, elles, sont bien celles de la ville."
+      },
+      {
+        heading: "Sécurité 5,7/10 et logistique du soir",
+        body: "Angers partage avec Besançon et Brest le meilleur score de sécurité de cette sélection, 5,7/10, devant Tours à 5,5 et Grenoble à 4,3 (source : data/cities-seed.ts). C'est un indicateur communal agrégé : il vaut pour une commune entière, pas pour un quartier ni pour une heure, et il ne porte aucun jugement sur ses habitants. En usage, cela décrit une ville moyenne où le centre historique et les bords de Maine se pratiquent le soir sans réserve particulière. Deux points de logistique valent mieux qu'un conseil général. Un, hors saison, les cuisines ferment tôt en semaine : dîner à partir de 19 h 30 évite de chercher à 21 h avec des enfants qui n'ont plus faim mais qui doivent manger. Deux, en cas de besoin médical, le 15 pour l'urgence vitale et le 116 117 pour un conseil le soir et le week-end, l'annuaire santé d'ameli.fr permettant de repérer un cabinet à l'avance."
+      },
+      {
+        heading: "Aides mobilisables : les dispositifs, pas les barèmes",
+        body: "Quatre pistes, sans montant cité, parce que les barèmes sont revus régulièrement et dépendent du quotient familial. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, à condition de séjourner dans un établissement agréé, ce qui se vérifie avant de réserver et non après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés largement dans la billetterie culturelle et une partie de l'hébergement. Les bons vacances de la caisse d'allocations familiales du Maine-et-Loire se demandent sur caf.fr, rubrique vacances, plusieurs mois en avance. Le comité social et économique de l'employeur négocie souvent des tarifs sur des équipements nommés, ce qui vaut la question. Ces dispositifs se calculent sur le quotient familial, donc sur la résidence en France, pas sur la nationalité."
+      }
+    ],
+    relatedCities: ["angers", "saumur", "nantes", "tours"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-angers-2026",
+      "parent-solo-a-angers-2026",
+      "vivre-a-angers-2026",
+      "vacances-monoparentales-nantes-2026"
+    ],
+    tags: ["vacances monoparentales Angers", "parent solo Maine-et-Loire", "vacances sans voiture", "Angers avec enfants", "hors saison Val de Loire"]
+  },
+  {
+    slug: "vacances-monoparentales-bordeaux-2026",
+    title: "Vacances monoparentales à Bordeaux en 2026",
+    metaTitle: "Vacances monoparentales à Bordeaux 2026",
+    metaDesc: "Bordeaux en parent solo : tram partout, hiver le plus doux du lot à 6,9 °C, mais coût 4,5/10 et affluence à 5 sur 5 en juillet. Le calendrier fait tout.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-08-26",
+    updatedAt: "2026-08-26",
+    intro: "Bordeaux sort à 6,4/10 au composite « famille monoparentale », troisième de cette sélection à égalité avec Besançon, sur sécurité 5,1/10, transports 7,8/10, coût de la vie 4,5/10 et qualité de vie 7,2/10 (source : data/cities-seed.ts). Le dossier bordelais se résume à un arbitrage de calendrier plutôt qu'à un arbitrage de ville. L'équipement est là, le tramway couvre l'agglomération, la culture sort à 8,4/10 et l'hiver est le plus doux des huit villes du lot avec 6,9 °C de moyenne en janvier. Mais le coût de la vie est l'avant-dernier de la sélection et notre indicateur d'affluence atteint le maximum de l'échelle en juillet. Autrement dit : Bordeaux est une excellente destination parent solo hors été, et une mauvaise idée en août.",
+    sections: [
+      {
+        heading: "Le calendrier décide tout le reste",
+        body: "Notre indicateur d'affluence, dérivé du profil de la ville et de la saison et non de sa météo, donne Bordeaux à 5 sur 5 en juillet, 4 en juin et en septembre, 3 en avril et en octobre (source : lib/vacation-seasons.ts). Avec Lyon, c'est la seule ville de cette sélection à saturer. Croisez cela avec un coût de la vie à 4,5/10, l'avant-dernier du lot devant Lyon à 4,2 (source : data/cities-seed.ts), et le résultat est mécanique : partir en juillet, c'est payer le tarif le plus élevé de l'année dans la ville la plus tendue du calendrier, ce qu'un budget à un seul revenu absorbe mal. Le même séjour en avril, en mai ou en octobre change de catégorie de prix sans rien perdre du programme, l'essentiel de ce qu'on vient voir à Bordeaux étant urbain et praticable toute l'année."
+      },
+      {
+        heading: "L'hiver le plus doux du lot, et ce que ça permet",
+        body: "Bordeaux affiche 6,9 °C de moyenne en janvier et 23,0 °C en juillet (source : data/cities-seed.ts). Ce 6,9 de janvier est le plus élevé des huit villes de cette sélection, loin devant Besançon à 2,1 °C et Grenoble à 2,8 °C. Pour un parent seul, cette douceur hivernale a une conséquence pratique et sous-estimée : les vacances de la Toussaint et de février deviennent des fenêtres utilisables en extérieur, quand la moitié de la France impose un programme intérieur intégral. Les quais de Garonne, le Jardin public et le parc Bordelais, parmi les plus grands espaces verts recensés sur la commune (source : data/city-parks.json), restent praticables. C'est aussi la période où les tarifs d'hébergement sont les plus négociables de l'année, ce qui règle une partie du problème posé par l'axe coût."
+      },
+      {
+        heading: "Se déplacer : tramway, TGV en ville, et la côte en TER",
+        body: "La ville cumule tramway, TGV, bus à haut niveau de service et un réseau cyclable classé fort (source : lib/transit.ts), pour un score transports de 7,8/10, troisième de cette sélection derrière Lyon à 9,0 et Grenoble à 8,1. La gare Saint-Jean est en ville et desservie par le tramway, donc l'arrivée avec bagages et enfants ne demande aucune navette. Le point vraiment intéressant pour ce profil est ce que le TER permet : l'océan et le bassin se rejoignent en train depuis la même gare, sans location de voiture et sans conduite après une journée de plage. Une précision qui évite une déception : la dune du Pilat n'a pas de gare, elle se rejoint depuis Arcachon par un service routier saisonnier dont les horaires et l'existence même varient selon la période, à vérifier auprès du réseau départemental avant de fonder une journée dessus."
+      },
+      {
+        heading: "Se loger : la chambre familiale est le vrai goulot",
+        body: "Un hôtel français facture la chambre et non la personne : un adulte avec deux enfants ne paie pas double, contrairement à ce que suggère la réputation du supplément single. Ce supplément existe, mais dans les formules à forfait par adulte, clubs et séjours organisés, où il faut le chiffrer avant de comparer. Le vrai goulot d'étranglement du parent seul est ailleurs : les chambres familiales et triples sont rares et partent tôt, ce qui laisse le choix entre deux chambres et un autre type d'hébergement. À Bordeaux, avec un niveau de prix local élevé, T3 de référence à 1 200 € contre 850 € à Brest (source : data/housing.ts, indicateur de marché résidentiel et non tarif de vacances), le meublé avec cuisine est l'arbitrage qui tient. Ajoutez une contrainte locale : la ville accueille des salons et des congrès qui retirent des semaines entières du marché sans rapport avec le calendrier scolaire."
+      },
+      {
+        heading: "Culture 8,4/10 : de quoi remplir des journées sans dépenser à chaque étape",
+        body: "Bordeaux sort à 8,4/10 sur l'axe culture, deuxième de cette sélection derrière Lyon à 9,0 (source : data/cities-seed.ts). Pour un parent solo, la valeur d'un score culturel n'est pas le prestige, c'est la densité : elle réduit les temps de trajet entre deux activités et elle multiplie les options gratuites quand le budget serre. Le miroir d'eau, les quais et le Jardin public entrent dans cette catégorie et occupent des heures. La Cité du Vin est la sortie payante à arbitrer, et le quartier de Darwin, sur la rive droite, la sortie d'après-midi qui demande peu. Le marché des Capucins est une sortie du matin plutôt qu'une visite. Ce qui manque à Bordeaux pour ce profil, il faut le dire, c'est un grand équipement enfants couvert : par temps de pluie, le programme se reporte sur les musées."
+      },
+      {
+        heading: "Sécurité 5,1/10, et la logistique qui va avec",
+        body: "Bordeaux sort à 5,1/10 sur l'axe sécurité, à égalité avec Lyon, au-dessus de Grenoble à 4,3 et en dessous d'Angers, Besançon et Brest à 5,7 (source : data/cities-seed.ts). C'est un indicateur communal agrégé : il décrit une commune, pas un quartier, pas une heure de la nuit, et il ne dit rien de ses habitants. En pratique, il faut lire ce chiffre comme celui d'une grande métropole et adopter les réflexes correspondants, notamment autour de la gare et sur les quais les soirs d'été très fréquentés. Deux points de logistique concrets. Un, le tramway s'arrête tôt par rapport à la vie nocturne : vérifier le dernier passage avant de prévoir une soirée hors du quartier de l'hébergement. Deux, pour un besoin médical, le 15 en urgence vitale, le 116 117 pour un conseil le soir et le week-end, et l'annuaire santé d'ameli.fr pour repérer un cabinet avant d'en avoir besoin."
+      },
+      {
+        heading: "Aides : quatre dispositifs, aucun montant",
+        body: "Aucun barème n'est cité ici, et c'est volontaire : ils sont réévalués et dépendent du quotient familial. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, à condition que le séjour se déroule dans un établissement agréé, ce qui se vérifie avant de réserver. Les chèques-vacances de l'ANCV, sur ancv.com, sont largement acceptés en billetterie culturelle et dans une partie de l'hébergement. Les bons vacances de la caisse d'allocations familiales de la Gironde se demandent sur caf.fr, rubrique vacances, et se travaillent plusieurs mois à l'avance. Le comité social et économique de l'employeur, souvent oublié, négocie de la billetterie sur des équipements précis. Ces dispositifs se calculent sur le quotient familial : ils suivent le fait de résider en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["bordeaux", "arcachon", "merignac", "la-rochelle"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-bordeaux-2026",
+      "parent-solo-a-bordeaux-2026",
+      "vivre-sans-voiture-bordeaux-guide-2026",
+      "vacances-monoparentales-la-rochelle-2026"
+    ],
+    tags: ["vacances monoparentales Bordeaux", "parent solo Gironde", "vacances sans voiture", "Bordeaux avec enfants", "hors saison Nouvelle-Aquitaine"]
+  },
+  {
+    slug: "vacances-monoparentales-besancon-2026",
+    title: "Vacances monoparentales à Besançon en 2026",
+    metaTitle: "Vacances monoparentales à Besançon 2026",
+    metaDesc: "Besançon en parent solo : la Citadelle réunit muséum, zoo, insectarium et aquarium en un seul billet. Le meilleur regroupement d'activités de la sélection.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-08-26",
+    updatedAt: "2026-08-26",
+    intro: "Besançon sort à 6,4/10 au composite « famille monoparentale », troisième de cette sélection à égalité avec Bordeaux, sur sécurité 5,7/10, transports 7,0/10, coût de la vie 6,4/10 et qualité de vie 6,6/10 (source : data/cities-seed.ts). Elle partage avec Angers et Brest le meilleur score de sécurité du lot, et son niveau de prix est le plus bas des huit à l'achat, 2 300 € le mètre carré, pour un loyer T3 de référence à 900 € (source : data/housing.ts). Mais l'argument décisif pour un adulte qui part seul avec ses enfants n'est aucun de ces chiffres : c'est que la Citadelle réunit dans une seule enceinte, sous un seul billet, à peu près tout ce qu'un enfant veut voir. Ce guide dit à quelles conditions cela suffit à faire une semaine.",
+    sections: [
+      {
+        heading: "La Citadelle : un seul billet, un seul déplacement, une journée pleine",
+        body: "C'est le meilleur regroupement d'activités enfants de cette sélection, et il n'est pas théorique. À l'intérieur de l'enceinte fortifiée classée cohabitent un muséum avec son jardin zoologique, un insectarium, un aquarium et un noctarium consacré aux espèces nocturnes, l'ensemble étant couvert par un billet unique donnant accès à tous les sites. Pour un parent seul, cette configuration règle trois problèmes d'un coup : aucun trajet intermédiaire à organiser, aucune file de billetterie à refaire, et un lieu clos où l'on peut s'asseoir pendant que les enfants regardent. La réserve est franche et il faut la connaître avant d'arriver : la montée depuis le centre-ville prend une bonne vingtaine de minutes à pied et grimpe sérieusement. Avec une poussette ou de jeunes enfants qui marchent peu, il vaut mieux prévoir l'accès par les transports urbains."
+      },
+      {
+        heading: "Le niveau de prix le plus bas du lot, avec Brest",
+        body: "Sur l'axe coût de la vie, un score haut veut dire abordable. Besançon sort à 6,4/10, à égalité exacte avec Brest, derrière Valence à 6,7/10 et devant Angers à 6,2 (source : data/cities-seed.ts). Le marché résidentiel confirme l'ordre de grandeur : 900 € le T3 de référence et 2 300 € le mètre carré à l'achat, le plus bas des huit villes de cette sélection (source : data/housing.ts). Ce sont des repères de marché local, pas des tarifs de vacances, mais ils disent quelque chose de réel : une ville où le mètre carré vaut 2 300 € n'affiche pas les mêmes semaines de location qu'une ville à 5 000 €. Pour un foyer à un seul revenu, Besançon appartient donc à la moitié confortable du lot, avec la sécurité en prime."
+      },
+      {
+        heading: "Attention à la gare : TGV ne veut pas dire centre-ville",
+        body: "Besançon est indiquée desservie par le TGV et dotée d'un tramway et de bus à haut niveau de service (source : lib/transit.ts). Ce drapeau est exact, mais il masque une distinction qui compte énormément quand on voyage seul avec des enfants et des bagages. La gare Besançon Franche-Comté TGV, ouverte en 2011, se trouve aux Auxons, à une dizaine de kilomètres au nord de la ville, sur la ligne à grande vitesse. Elle est reliée à la gare de Besançon-Viotte, en ville, par une liaison ferroviaire de quelques minutes, et une partie des TGV dessert directement Viotte. La conséquence pratique est simple : au moment de réserver, il faut lire le nom de la gare d'arrivée sur le billet, pas seulement la mention TGV, et vérifier la correspondance. Une fois en ville, le tramway et le réseau urbain suffisent, la voiture ne sert qu'à sortir du Doubs."
+      },
+      {
+        heading: "Ce qui se fait à pied autour de la boucle du Doubs",
+        body: "Le centre historique tient dans la boucle de la rivière, ce qui donne une ville compacte et plate au niveau du sol, une fois la Citadelle mise à part. La promenade Micaud, les Glacis et Chamars figurent parmi les espaces verts recensés sur la commune (source : data/city-parks.json) et se rejoignent à pied depuis le centre. La cathédrale Saint-Jean abrite l'horloge astronomique, une visite courte qui tient l'attention d'un enfant mieux qu'une nef. Le musée du Temps prolonge le sujet horloger, qui est l'identité de la ville. Nature 6,4/10 (source : data/cities-seed.ts) : la forêt de Chailluz, sur le territoire communal, offre une demi-journée en extérieur sans quitter Besançon. Une réserve d'usage : la baignade dans le Doubs dépend d'arrêtés municipaux et préfectoraux qui changent, ils font foi et s'affichent sur place."
+      },
+      {
+        heading: "Quand y aller : affluence à 1 sur 5 au printemps, mais un hiver franc",
+        body: "Notre indicateur d'affluence, dérivé du profil de la ville et de la saison plutôt que de son climat, place Besançon à 1 sur 5 en avril, en mai et en octobre, 2 en juin et en septembre, et 3 au plus haut de juillet (source : lib/vacation-seasons.ts). C'est le régime le plus calme de cette sélection, avec Angers, Grenoble, Tours et Valence. Côté climat, la ville affiche 21,5 °C de moyenne en juillet et 2,1 °C en janvier (source : data/cities-seed.ts), soit l'hiver le plus froid des huit villes du lot, à comparer aux 6,9 °C bordelais. Cela oriente clairement le calendrier : le printemps et le début de l'automne sont les fenêtres à viser ; la Toussaint fonctionne à condition d'assumer un programme largement intérieur, ce que la Citadelle et les musées permettent justement de faire. Une précision d'honnêteté : la station climatique de référence la plus proche retenue par notre moteur est celle de Dijon, à environ 71 km."
+      },
+      {
+        heading: "Sécurité 5,7/10 : le meilleur du lot, avec Angers et Brest",
+        body: "Besançon partage le meilleur score de sécurité de cette sélection, 5,7/10, avec Angers et Brest, devant Tours à 5,5, Valence à 5,2, Lyon et Bordeaux à 5,1 et Grenoble à 4,3 (source : data/cities-seed.ts). C'est un indicateur communal agrégé, qui décrit une commune entière et ni un quartier ni une heure, et qui ne porte aucun jugement sur ses habitants. En usage, il décrit une ville moyenne dont le centre se pratique le soir sans réserve particulière pour un adulte seul avec des enfants. Deux points de logistique. Un, hors saison, les cuisines ferment tôt en semaine : viser 19 h 30 pour dîner. Deux, pour un besoin médical, le 15 en urgence vitale et le 116 117 pour un conseil le soir et le week-end ; l'annuaire santé d'ameli.fr permet de repérer un cabinet avant le départ plutôt que dans l'urgence."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont revus régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés largement en billetterie culturelle et dans une partie de l'hébergement. Les bons vacances de la caisse d'allocations familiales du Doubs se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie sur des équipements nommés. Tous se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["besancon", "dole", "pontarlier", "dijon"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-besancon-2026",
+      "parent-solo-a-besancon-2026",
+      "vivre-a-besancon-2026",
+      "vacances-monoparentales-dijon-2026"
+    ],
+    tags: ["vacances monoparentales Besançon", "parent solo Doubs", "Citadelle Besançon enfants", "vacances sans voiture", "hors saison Franche-Comté"]
+  },
+  {
+    slug: "vacances-monoparentales-grenoble-2026",
+    title: "Vacances monoparentales à Grenoble en 2026",
+    metaTitle: "Vacances monoparentales à Grenoble 2026",
+    metaDesc: "Grenoble en parent solo : nature 8,4/10, le meilleur du lot, tram et téléphérique depuis le centre. Mais sécurité 4,3/10 et la montagne demande une voiture.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-08-26",
+    updatedAt: "2026-08-26",
+    intro: "Grenoble sort à 6,3/10 au composite « famille monoparentale », dans le peloton d'égalité qui ferme cette sélection, sur sécurité 4,3/10, transports 8,1/10, coût de la vie 5,5/10 et qualité de vie 6,2/10 (source : data/cities-seed.ts). Le dossier est le plus contrasté du lot. D'un côté, un score nature de 8,4/10, largement le meilleur des huit villes, et des transports à 8,1/10, deuxième derrière Lyon. De l'autre, le score de sécurité le plus bas de la sélection, 4,3/10, et une promesse montagne qui, pour un adulte seul sans voiture, se révèle plus étroite qu'annoncée. Ce guide dit ce que Grenoble tient réellement en séjour parent solo, et ce qu'elle ne tient pas.",
+    sections: [
+      {
+        heading: "Nature 8,4/10 : le meilleur du lot, et il commence en ville",
+        body: "Aucune autre ville de cette sélection n'approche ce score : Grenoble sort à 8,4/10 quand Besançon et Brest suivent à égalité à 6,4 et que Lyon et Tours ferment, eux aussi ex æquo, à 5,0 (source : data/cities-seed.ts). La particularité grenobloise, et c'est ce qui la rend jouable pour un parent seul, c'est que le relief est visible et accessible depuis le centre. Le téléphérique de la Bastille part des quais de l'Isère : on monte en quelques minutes, on regarde trois massifs, et on redescend à pied par un sentier si les enfants suivent. Le parc Paul Mistral et les berges de l'Isère figurent parmi les grands espaces verts recensés sur la commune (source : data/city-parks.json), tous deux plats et accessibles en tramway. Le Musée de Grenoble complète le programme les jours de pluie. Cette combinaison, montagne en toile de fond et ville plate au sol, est rare."
+      },
+      {
+        heading: "La limite qu'il faut dire : la montagne sans voiture est étroite",
+        body: "C'est le point où beaucoup de guides promettent trop. Les transports urbains sortent à 8,1/10 et couvrent très bien l'agglomération, tramway, TGV en gare de centre-ville et bus à haut niveau de service (source : lib/transit.ts), mais un réseau urbain n'est pas un accès aux massifs. Le Vercors, la Chartreuse et les stations se rejoignent par des cars régionaux dont la fréquence, la saisonnalité et les points d'arrêt varient d'une période à l'autre, et dont la desserte se réduit hors vacances scolaires. Pour un adulte seul avec des enfants, cela veut dire une chose : soit on construit la journée montagne autour d'une liaison vérifiée à l'avance sur le site du réseau régional, soit on renonce à la voiture et on reste sur ce que la ville et la Bastille offrent, ce qui est déjà substantiel. L'entre-deux, partir en espérant trouver un car, est le scénario qui coûte une journée."
+      },
+      {
+        heading: "Sécurité 4,3/10 : le chiffre le plus bas de la sélection",
+        body: "Il faut le poser sans le contourner. Grenoble sort à 4,3/10, dernière des huit villes de ce lot, derrière Lyon et Bordeaux à 5,1, Valence à 5,2 et le trio Angers, Besançon et Brest à 5,7 (source : data/cities-seed.ts). C'est un indicateur communal agrégé : il décrit une commune entière, ni un quartier ni une heure de la journée, et il ne dit rien des personnes qui y vivent. Ce qu'il faut en faire est concret plutôt que moral. Choisir un hébergement dans un secteur qu'on aura vérifié sur une carte du réseau de tramway, plutôt qu'au prix le plus bas trouvé. Rentrer avant l'arrêt du service en soirée, ce qui se vérifie sur le site de l'exploitant. Et garder les réflexes qu'on aurait dans n'importe quelle métropole plutôt que ceux d'une ville de vacances. Le 15 en urgence vitale, le 116 117 pour un conseil médical le soir et le week-end."
+      },
+      {
+        heading: "Se loger : un niveau de prix médian et un supplément single mal compris",
+        body: "Le loyer T3 de référence est à 1 020 € et le mètre carré à l'achat à 3 200 € (source : data/housing.ts), ce qui place Grenoble au milieu de cette sélection, loin de Besançon à 2 300 € et loin de Lyon à 5 000 €. Ces chiffres décrivent le marché résidentiel, pas un tarif de vacances, mais ils donnent l'ordre de grandeur d'une semaine de location. Sur le supplément single, une clarification utile : l'hôtellerie française facture la chambre et non la personne, donc un adulte avec deux enfants ne paie pas une double addition ; le supplément par adulte existe dans les formules à forfait, clubs et séjours organisés, où il faut le chiffrer avant de comparer. L'obstacle réel du parent seul reste la rareté des chambres familiales et triples, ce qui pousse vers le meublé avec cuisine, économiquement plus sain sur une semaine."
+      },
+      {
+        heading: "Quand partir : affluence basse toute l'année, chaleur d'été en cuvette",
+        body: "Notre indicateur d'affluence, dérivé du profil de la ville et de la saison et non de sa météo, donne Grenoble à 1 sur 5 en avril, en mai et en octobre, 2 en juin et en septembre, 3 au plus haut de juillet (source : lib/vacation-seasons.ts). C'est le régime le plus calme du lot, partagé avec Angers, Besançon, Tours et Valence, et l'inverse exact de Lyon et Bordeaux qui saturent à 5. Côté climat, la ville affiche 23,8 °C de moyenne en juillet et 2,8 °C en janvier (source : data/cities-seed.ts). Ce 23,8 est le deuxième plus élevé du lot derrière Valence, et il se ressent : Grenoble est une cuvette entourée de montagnes, où la chaleur d'été stagne. Avec de jeunes enfants, les après-midi de juillet se planifient à l'ombre ou en altitude. Les fenêtres les plus confortables sont mai, juin et septembre."
+      },
+      {
+        heading: "Le budget d'un seul revenu, poste par poste",
+        body: "Coût de la vie 5,5/10 (source : data/cities-seed.ts), soit le milieu de cette sélection : plus abordable que Bordeaux à 4,5 et Lyon à 4,2, moins que Valence à 6,7, Besançon et Brest à 6,4, Angers à 6,2 et Tours à 5,9. Ce qui joue vraiment pour ce profil, c'est la structure du séjour plutôt que le niveau général. Trois postes se maîtrisent. Le transport local, d'abord, puisqu'un titre de réseau urbain remplace intégralement une location de voiture sur un séjour en ville, et que le téléphérique se prend au ticket. Les repas ensuite, un meublé avec cuisine évitant trois services quotidiens payés pour un adulte et des enfants qui mangent peu. Les activités enfin, la ville offrant assez d'extérieur gratuit, berges de l'Isère et parcs, pour n'acheter qu'une ou deux entrées par semaine. La ligne qui déraille, si elle déraille, sera la journée montagne mal organisée."
+      },
+      {
+        heading: "Aides : les dispositifs, sans barème inventé",
+        body: "Aucun montant n'est cité ici, parce que les barèmes sont réévalués et calculés sur le quotient familial. Quatre pistes à instruire avant de réserver, pas après. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de vérifier l'agrément de l'établissement au moment de choisir. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés largement en billetterie culturelle et dans une partie de l'hébergement. Les bons vacances de la caisse d'allocations familiales de l'Isère se demandent sur caf.fr, rubrique vacances, avec plusieurs mois d'avance. Le comité social et économique de l'employeur, enfin, négocie souvent de la billetterie sur des équipements précis, y compris des remontées mécaniques. Tous se calculent sur le quotient familial et suivent donc la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["grenoble", "chambery", "valence", "lyon"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-grenoble-2026",
+      "parent-solo-a-grenoble-2026",
+      "vivre-sans-voiture-grenoble-guide-2026",
+      "vacances-monoparentales-nancy-2026"
+    ],
+    tags: ["vacances monoparentales Grenoble", "parent solo Isère", "montagne sans voiture", "Grenoble avec enfants", "hors saison Alpes"]
+  },
+  {
+    slug: "vacances-monoparentales-brest-2026",
+    title: "Vacances monoparentales à Brest en 2026",
+    metaTitle: "Vacances monoparentales à Brest 2026",
+    metaDesc: "Brest en parent solo : le niveau de prix le plus bas du lot, un téléphérique dans le réseau de bus, et un plan B couvert obligatoire. Juillet à 18,6 °C.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-08-26",
+    updatedAt: "2026-08-26",
+    intro: "Brest sort à 6,3/10 au composite « famille monoparentale », dans le peloton d'égalité qui ferme cette sélection, sur sécurité 5,7/10, transports 6,4/10, coût de la vie 6,4/10 et qualité de vie 6,2/10 (source : data/cities-seed.ts). Deux chiffres portent le dossier : la sécurité, meilleure du lot à égalité avec Angers et Besançon, et le niveau de prix, le plus bas des huit villes avec un loyer T3 de référence à 850 € (source : data/housing.ts). Un troisième le nuance : les transports à 6,4/10 sont les plus faibles de la sélection. Et une donnée climatique commande tout le reste, 18,6 °C de moyenne en juillet, la plus fraîche du lot. Brest est une très bonne destination parent solo à condition d'accepter que le programme ne soit pas balnéaire.",
+    sections: [
+      {
+        heading: "Le niveau de prix le plus bas de la sélection",
+        body: "Sur l'axe coût de la vie, un score haut veut dire abordable : Brest sort à 6,4/10, à égalité exacte avec Besançon et juste derrière Valence à 6,7 (source : data/cities-seed.ts). Le marché résidentiel place la ville encore plus nettement en bas de gamme de prix : 850 € le T3 de référence, le plus bas des huit villes de ce lot, contre 1 380 € à Lyon, et 2 500 € le mètre carré à l'achat (source : data/housing.ts). Ce sont des repères de marché local et non des tarifs de vacances, mais l'écart est trop large pour ne rien signifier sur une semaine de location. Pour un foyer à un seul revenu, c'est l'argument qui met Brest devant des destinations mieux classées : la même semaine y coûte structurellement moins cher, et le budget passe des lignes fixes vers les activités."
+      },
+      {
+        heading: "Un téléphérique qui est une ligne de bus, et ce que ça change",
+        body: "Le score transports, 6,4/10, est le plus bas de cette sélection (source : data/cities-seed.ts), mais il sous-estime ce que la ville offre à un piéton chargé d'enfants. Brest cumule tramway, TGV en gare de centre-ville et bus à haut niveau de service (source : lib/transit.ts), et surtout elle exploite un téléphérique urbain intégré au réseau de transports en commun comme une ligne à part entière, entre le centre et le plateau des Capucins par-dessus la Penfeld. Concrètement, la traversée en cabine est un transport ordinaire, pas une attraction à billet séparé, et c'est un des rares trajets qu'un enfant réclame de refaire. Les tarifs et les horaires relèvent de l'exploitant et se vérifient avant le départ. La conclusion pratique tient : sur un séjour Brest urbain, la voiture n'est pas nécessaire ; pour la presqu'île de Crozon et la pointe Saint-Mathieu, elle ou le bateau le deviennent."
+      },
+      {
+        heading: "Le plan B couvert n'est pas une option ici, c'est la structure du séjour",
+        body: "18,6 °C de moyenne en juillet et 6,2 °C en janvier (source : data/cities-seed.ts) : Brest a l'été le plus frais et l'un des hivers les plus doux de cette sélection, ce qui est exactement le climat océanique de la pointe bretonne. Un parent seul qui construit un séjour uniquement sur l'extérieur se retrouve, un jour sur deux, à improviser avec des enfants et sans second adulte pour prendre le relais. La ville est bien équipée pour l'inverse. Océanopolis, centre de culture scientifique consacré aux océans, tient une journée entière à couvert. Les Ateliers des Capucins, ancienne halle industrielle reconvertie, abritent une médiathèque et de grands espaces intérieurs librement accessibles, ce qui est précieux quand il faut occuper deux heures sans payer. Le château et le musée national de la Marine complètent. Le bon réflexe est de garder ces trois-là en réserve plutôt que de les caler d'avance."
+      },
+      {
+        heading: "Sécurité 5,7/10 : le meilleur du lot, avec Angers et Besançon",
+        body: "Brest partage le meilleur score de sécurité de cette sélection, 5,7/10, avec Angers et Besançon, devant Tours à 5,5, Valence à 5,2, Lyon et Bordeaux à 5,1 et Grenoble à 4,3 (source : data/cities-seed.ts). C'est un indicateur communal agrégé : il vaut pour une commune entière, ni pour un quartier ni pour une heure, et il ne porte aucun jugement sur ses habitants. En pratique, il décrit une ville où un adulte seul avec des enfants circule le soir sans réserve particulière, ce que la configuration de la rue de Siam et du plateau des Capucins confirme. Deux points de logistique. Un, le vent : la température ressentie sur les quais descend nettement au-dessous de la mesure, y compris en juin, et un enfant qui a froid met fin à la sortie. Deux, pour un besoin médical, le 15 en urgence vitale et le 116 117 pour un conseil le soir et le week-end."
+      },
+      {
+        heading: "La mer, oui, mais pas comme on l'imagine",
+        body: "Nature 6,4/10 (source : data/cities-seed.ts) : le score est correct sans être celui de Grenoble à 8,4. La rade est le décor permanent de la ville, mais Brest n'est pas une station balnéaire et il vaut mieux le savoir avant de réserver. Les rives de Penfeld, le vallon du Stangalar et le cours Dajot figurent parmi les espaces verts recensés sur la commune (source : data/city-parks.json) et donnent des promenades de bord d'eau accessibles à pied ou en bus. Le conservatoire botanique du vallon du Stangalar est une sortie gratuite qui occupe une matinée. Pour la baignade et les plages franches, il faut sortir de la commune, ce qui suppose un bateau ou une voiture, et pour un adulte seul cela se décide à l'avance plutôt que le matin même. Les traversées de la rade dépendent de la saison et de la météo : la compagnie fait foi, pas le programme prévu la veille."
+      },
+      {
+        heading: "Quand partir : une affluence modérée et un pic d'été réel",
+        body: "Notre indicateur d'affluence, dérivé du profil de la ville et de la saison plutôt que de son climat, place Brest à 2 sur 5 en avril, en mai et en octobre, 3 en juin et en septembre, et 4 en juillet (source : lib/vacation-seasons.ts). C'est un régime intermédiaire : plus animé que le quatuor Angers, Besançon, Tours et Valence qui tombe à 1 au printemps, nettement moins tendu que Lyon et Bordeaux qui saturent à 5. Le pic d'été est réel et il tient à la Bretagne entière plutôt qu'à la ville. Pour ce profil, les meilleures fenêtres sont mai, juin et septembre, où l'affluence reste tenable et où la lumière du soir permet des journées longues. La Toussaint fonctionne à condition d'assumer le programme couvert décrit plus haut, ce que la douceur de l'hiver breton rend moins pénible qu'ailleurs."
+      },
+      {
+        heading: "Aides : dispositifs à instruire, montants non cités",
+        body: "Les barèmes sont réévalués et calculés sur le quotient familial, donc ils ne sont pas écrits ici. Quatre pistes, à traiter avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui impose de vérifier l'agrément de l'établissement au moment du choix et non après le paiement. Les chèques-vacances de l'ANCV, sur ancv.com, sont largement acceptés en billetterie culturelle et dans une partie de l'hébergement. Les bons vacances de la caisse d'allocations familiales du Finistère se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie fréquemment de la billetterie sur des équipements nommés, ce qui vaut toujours la question. Ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["brest", "quimper", "lorient", "vannes"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-brest-2026",
+      "parent-solo-a-brest-2026",
+      "vivre-a-brest-2026",
+      "vacances-monoparentales-vannes-2026"
+    ],
+    tags: ["vacances monoparentales Brest", "parent solo Finistère", "vacances pluie plan B", "Brest avec enfants", "hors saison Bretagne"]
+  },
+  {
+    slug: "vacances-monoparentales-tours-2026",
+    title: "Vacances monoparentales à Tours en 2026",
+    metaTitle: "Vacances monoparentales à Tours 2026",
+    metaDesc: "Tours en parent solo : Chenonceaux à 400 m de sa gare, Amboise en TER, châteaux sans voiture. Et le piège de la gare TGV de Saint-Pierre-des-Corps.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-08-26",
+    updatedAt: "2026-08-26",
+    intro: "Tours sort à 6,3/10 au composite « famille monoparentale », dans le peloton d'égalité qui ferme cette sélection, sur sécurité 5,5/10, transports 7,0/10, coût de la vie 5,9/10 et qualité de vie 6,6/10 (source : data/cities-seed.ts). Le dossier tourangeau tient sur un argument que peu de destinations françaises peuvent produire : les châteaux de la Loire se visitent en train, depuis une ville moyenne, sans louer de voiture. Pour un adulte qui part seul avec ses enfants, cela retire d'un coup la conduite de fin de journée, le stationnement et le poste automobile du budget. Reste un piège d'arrivée, la gare TGV n'étant pas toujours celle du centre, et une nature à 5,0/10, la plus basse du lot avec Lyon : Tours est une base de visites, pas une destination de plein air.",
+    sections: [
+      {
+        heading: "Les châteaux en TER : l'argument central, et il est vérifiable",
+        body: "Chenonceaux a sa propre gare sur la ligne qui relie Tours à Vierzon, à quelques centaines de mètres du château, et le trajet depuis Tours prend une vingtaine de minutes pour une poignée d'allers-retours par jour. Amboise est desservie sur l'axe de la Loire. Chinon et Azay-le-Rideau sont sur la ligne du Chinonais, avec des gares plus éloignées de leur monument. La conséquence pour ce profil est directe : une journée château se construit autour d'un horaire de train, pas d'un itinéraire routier, et un adulte seul n'a pas à conduire au retour avec des enfants endormis. Le point de vigilance est la fréquence, faible sur ces lignes secondaires et variable selon les jours : il faut lire l'horaire de retour avant de partir le matin, et non sur le quai en fin d'après-midi. Villandry, en revanche, n'a pas de desserte ferroviaire propre."
+      },
+      {
+        heading: "Le piège de l'arrivée : TGV ne veut pas toujours dire gare de Tours",
+        body: "Tours est indiquée desservie par le TGV, avec tramway, bus à haut niveau de service et un réseau cyclable classé moyen (source : lib/transit.ts). Le drapeau est exact et il masque une nuance qui coûte cher quand on voyage seul avec des enfants et des bagages : une partie des TGV s'arrête à Saint-Pierre-des-Corps, gare de la commune voisine située à l'est de Tours, et non à la gare de Tours en centre-ville. Des trains assurent la liaison entre les deux gares en quelques minutes, mais pas derrière chaque TGV, et l'offre de correspondance a bougé plusieurs fois ces dernières années. Ce qu'il faut en faire est simple : lire le nom de la gare d'arrivée sur le billet, vérifier la correspondance au moment de réserver, et prévoir la marge plutôt que de la découvrir sur place. Une fois en ville, le tramway relie la gare de Tours au centre et aux quartiers nord."
+      },
+      {
+        heading: "Ce que Tours offre à pied, et ce qu'elle n'offre pas",
+        body: "Le Vieux-Tours, autour de la place Plumereau et de ses maisons à pans de bois, se parcourt à pied et tient une demi-journée avec des enfants, jeu de repérage des colombages compris. La cathédrale Saint-Gatien est à quelques rues. Le parc de la Gloriette et le parc du lac de la Bergeonnerie comptent parmi les grands espaces verts recensés sur la commune (source : data/city-parks.json) et se rejoignent sans voiture. Mais il faut dire la limite : nature 5,0/10 (source : data/cities-seed.ts), le plus bas de cette sélection avec Lyon, contre 8,4 à Grenoble. Tours est une ville de patrimoine bâti et de bord de Loire, pas une ville de plein air. Le complément naturel s'appelle la Loire à Vélo, qui longe le fleuve sur des kilomètres plats, praticables avec une remorque ou un siège enfant, et qui se prend directement depuis la ville."
+      },
+      {
+        heading: "Le budget d'un seul revenu : dans la moitié abordable",
+        body: "Coût de la vie 5,9/10 (source : data/cities-seed.ts), soit devant Grenoble à 5,5, Bordeaux à 4,5 et Lyon à 4,2, derrière Valence à 6,7, Besançon et Brest à 6,4 et Angers à 6,2. Le marché résidentiel donne l'ordre de grandeur du niveau de prix local : 940 € le T3 de référence et 2 700 € le mètre carré à l'achat (source : data/housing.ts), là encore des repères de marché et non des tarifs de vacances. Sur le supplément single, une clarification qui revient dans toute cette série : l'hôtellerie française facture la chambre et non la personne, donc un adulte avec deux enfants ne paie pas double ; le supplément par adulte existe bel et bien dans les formules à forfait, clubs et séjours organisés. L'obstacle réel du parent seul reste la rareté des chambres familiales, qui pousse vers le meublé avec cuisine, plus économique sur une semaine de visites."
+      },
+      {
+        heading: "Quand partir : avril et octobre à 1 sur 5, juillet à 3",
+        body: "Notre indicateur d'affluence, dérivé du profil de la ville et de la saison plutôt que de sa météo, place Tours à 1 sur 5 en avril, en mai et en octobre, 2 en juin et en septembre, 3 au plus haut de juillet (source : lib/vacation-seasons.ts). C'est le régime calme du lot, partagé avec Angers, Besançon, Grenoble et Valence. Attention toutefois à ne pas transposer ce chiffre aux châteaux eux-mêmes : il décrit la ville, et les monuments de la Loire connaissent leur propre pic estival, indépendant de l'affluence tourangelle. Côté climat, la ville affiche 22,6 °C de moyenne en juillet et 5,0 °C en janvier (source : data/cities-seed.ts), un régime tempéré sans excès dans les deux sens. Les fenêtres les plus confortables pour ce profil sont mai, juin et septembre, où les jardins des châteaux sont en état et où les trains régionaux circulent normalement."
+      },
+      {
+        heading: "Sécurité 5,5/10 et logistique du soir",
+        body: "Tours sort à 5,5/10 sur l'axe sécurité, quatrième de cette sélection, derrière le trio Angers, Besançon et Brest à 5,7 et devant Valence à 5,2, Lyon et Bordeaux à 5,1, Grenoble à 4,3 (source : data/cities-seed.ts). C'est un indicateur communal agrégé, valable pour une commune entière et non pour un quartier ou une heure, et qui ne dit rien de ses habitants. En usage, il décrit une ville moyenne dont le centre historique se pratique le soir sans réserve particulière. Deux points de logistique. Un, la place Plumereau est le pôle nocturne de la ville et devient bruyante tard : un hébergement à deux rues de là change la nuit d'un enfant. Deux, pour un besoin médical, le 15 en urgence vitale et le 116 117 pour un conseil le soir et le week-end, avec l'annuaire santé d'ameli.fr pour repérer un cabinet à l'avance."
+      },
+      {
+        heading: "Aides : les dispositifs, les montants restent chez l'organisme",
+        body: "Aucun barème n'est écrit ici : ils sont réévalués et dépendent du quotient familial. Quatre pistes à instruire avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier au moment de réserver. Les chèques-vacances de l'ANCV, sur ancv.com, sont largement acceptés dans la billetterie des monuments et dans une partie de l'hébergement, ce qui compte particulièrement sur un séjour bâti autour de visites payantes. Les bons vacances de la caisse d'allocations familiales d'Indre-et-Loire se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie sur des monuments nommés. Tous se calculent sur le quotient familial et suivent donc la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["tours", "amboise", "chinon", "saumur"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-tours-2026",
+      "parent-solo-a-tours-2026",
+      "vivre-a-tours-2026",
+      "vacances-monoparentales-rennes-2026"
+    ],
+    tags: ["vacances monoparentales Tours", "parent solo Indre-et-Loire", "châteaux de la Loire en train", "Tours avec enfants", "hors saison Val de Loire"]
+  },
+  {
+    slug: "vacances-monoparentales-valence-2026",
+    title: "Vacances monoparentales à Valence en 2026",
+    metaTitle: "Vacances monoparentales à Valence 2026",
+    metaDesc: "Valence en parent solo : le seul budget €€ de la sélection, coût 6,7/10, juillet à 25,8 °C. Mais pas de tram, et une gare TGV à l'écart de la ville.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-08-26",
+    updatedAt: "2026-08-26",
+    intro: "Valence sort à 6,3/10 au composite « famille monoparentale », dans le peloton d'égalité qui ferme cette sélection, sur sécurité 5,2/10, transports 7,4/10, coût de la vie 6,7/10 et qualité de vie 6,2/10 (source : data/cities-seed.ts). C'est la seule des huit villes classée en budget €€ par notre moteur vacances, toutes les autres étant en €€€ ou €€€€, et son coût de la vie est le plus favorable du lot. C'est aussi la plus chaude, 25,8 °C de moyenne en juillet contre 18,6 °C à Brest (source : data/cities-seed.ts), et la plus petite, 64 288 habitants au recensement 2022 (source : data/city-population.json). Deux réserves franches, à connaître avant de réserver : il n'y a ni métro ni tramway, et la gare TGV n'est pas en ville.",
+    sections: [
+      {
+        heading: "Le seul budget €€ de la sélection",
+        body: "Notre moteur vacances classe les destinations en quatre paliers de budget dérivés du coût de la vie. Valence est la seule des huit villes de ce lot en €€, quand Besançon, Angers, Brest, Grenoble et Tours sortent en €€€ et que Lyon et Bordeaux sortent en €€€€ (source : lib/vacation-fit.ts). Le chiffre derrière ce palier est un coût de la vie de 6,7/10, le plus élevé de la sélection, donc le plus abordable, devant Besançon et Brest à 6,4 et loin devant Lyon à 4,2 (source : data/cities-seed.ts). Le marché résidentiel va dans le même sens : 900 € le T3 de référence et 2 400 € le mètre carré à l'achat (source : data/housing.ts), repères de niveau de prix local et non tarifs de vacances. Pour un foyer à un seul revenu qui veut du soleil sans les tarifs de la vallée du Rhône touristique, c'est l'arbitrage le plus efficace du lot."
+      },
+      {
+        heading: "La gare TGV n'est pas la gare de la ville",
+        body: "Valence est indiquée desservie par le TGV et par des bus à haut niveau de service, sans tramway ni métro (source : lib/transit.ts). Deux précisions changent tout pour un adulte seul chargé d'enfants et de bagages. La première : la gare Valence TGV se trouve à une dizaine de kilomètres du centre, sur la commune d'Alixan, et elle est reliée à la gare de Valence-Ville par une liaison ferroviaire régionale de quelques minutes, le bâtiment abritant les deux niveaux de quais. La seconde : la gare de Valence-Ville, elle, est bien en centre-ville et reçoit les trains régionaux et une partie des liaisons classiques. Il faut donc lire le nom de la gare sur le billet et vérifier la correspondance avant de réserver, pas en arrivant. Une fois en ville, le réseau de bus et la marche suffisent au centre, mais l'absence de tramway se ressent."
+      },
+      {
+        heading: "Ce que la chaleur d'été implique quand on est seul avec des enfants",
+        body: "25,8 °C de moyenne en juillet, la plus élevée de cette sélection, et 5,2 °C en janvier (source : data/cities-seed.ts). Ce climat est le vrai attrait de Valence et sa contrainte principale. Avec de jeunes enfants et un seul adulte, une journée à ces températures se construit autrement : programme le matin, retour à l'hébergement en début d'après-midi, ressortie en fin de journée quand la chaleur retombe. Le parc Jouvet, au bord du Rhône et parmi les plus grands espaces verts recensés sur la commune (source : data/city-parks.json), est le point d'ancrage évident pour ce rythme, avec de l'ombre et de l'eau. Une précision d'honnêteté sur nos chiffres mensuels : la station climatique de référence la plus proche retenue par notre moteur est celle de Grenoble, à environ 59 km et dans un tout autre relief, donc les moyennes mois par mois sont à lire comme régionales. Les ancres de juillet et de janvier ci-dessus, elles, sont bien valentinoises."
+      },
+      {
+        heading: "Une petite ville : ce que ça gagne et ce que ça coûte",
+        body: "64 288 habitants au recensement 2022, contre 62 477 en 2016 et 63 148 en 2011, soit une croissance de 2,9 % sur la dernière fenêtre intercensitaire (source : data/city-population.json). C'est de loin la plus petite des huit villes de cette sélection, Lyon en comptant 520 774. Pour ce profil, la petite taille est d'abord un avantage : tout est proche, le centre se traverse à pied, on ne perd pas de temps en trajets internes, et la pression touristique reste basse. Notre indicateur d'affluence, dérivé du profil de la ville et de la saison plutôt que de son climat, donne d'ailleurs Valence à 1 sur 5 en avril, en mai et en octobre, 2 en juin et en septembre, 3 au plus haut de juillet (source : lib/vacation-seasons.ts). Le revers est l'offre : culture 6,6/10, le plus bas du lot avec Brest (source : data/cities-seed.ts), donc moins d'équipements couverts pour un jour de mauvais temps qu'à Lyon ou Bordeaux."
+      },
+      {
+        heading: "Le Rhône, le Vercors, et où s'arrête le sans-voiture",
+        body: "Nature 6,3/10 (source : data/cities-seed.ts) : correct, au-dessus de Tours et de Lyon à 5,0, en dessous de Grenoble à 8,4. Le fleuve est l'atout accessible à pied ou à vélo, avec un itinéraire cyclable qui longe le Rhône sur de longues distances et qui se prend depuis la ville, plat, praticable avec une remorque ou un siège enfant. Le Vercors et le Diois, en revanche, demandent une organisation : ils se rejoignent par des cars régionaux ou par le train pour la vallée de la Drôme, avec des fréquences faibles et saisonnières qu'il faut vérifier avant de bâtir une journée dessus. Pour un adulte seul, la règle est la même qu'à Grenoble : soit la liaison est vérifiée à l'avance, soit on renonce à la sortie. L'improvisation coûte une journée entière quand il n'y a personne pour prendre le relais."
+      },
+      {
+        heading: "Sécurité 5,2/10 et logistique du soir",
+        body: "Valence sort à 5,2/10 sur l'axe sécurité, au milieu de cette sélection : derrière Angers, Besançon et Brest à 5,7 et Tours à 5,5, devant Lyon et Bordeaux à 5,1 et Grenoble à 4,3 (source : data/cities-seed.ts). C'est un indicateur communal agrégé, valable pour une commune entière et non pour un quartier ni pour une heure, et il ne porte aucun jugement sur ses habitants. En pratique, il décrit une ville moyenne dont le centre se pratique le soir sans réserve particulière pour un adulte seul avec des enfants. Deux points de logistique. Un, l'absence de tramway et un réseau de bus qui s'allège en soirée : vérifier le dernier passage avant de prévoir une sortie loin de l'hébergement. Deux, pour un besoin médical, le 15 en urgence vitale et le 116 117 pour un conseil le soir et le week-end, l'annuaire santé d'ameli.fr permettant de repérer un cabinet avant d'en avoir besoin."
+      },
+      {
+        heading: "Aides : les dispositifs, jamais les montants",
+        body: "Les barèmes sont réévalués et calculés sur le quotient familial, donc ils ne figurent pas ici. Quatre pistes à instruire avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture : cela impose de vérifier l'agrément de l'établissement au moment de choisir, ce qui est particulièrement pertinent dans la Drôme où l'offre de villages de vacances et de campagnes familiales est fournie. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés largement en billetterie et dans une partie de l'hébergement. Les bons vacances de la caisse d'allocations familiales de la Drôme se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie sur des équipements nommés. Tous suivent le quotient familial, donc la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["valence", "grenoble", "vienne", "montelimar"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-valence-2026",
+      "vivre-a-valence-2026",
+      "vacances-monoparentales-dijon-2026",
+      "vacances-monoparentales-nancy-2026"
+    ],
+    tags: ["vacances monoparentales Valence", "parent solo Drôme", "vacances pas chères en famille", "Valence avec enfants", "vallée du Rhône hors saison"]
   },
 ];
 
