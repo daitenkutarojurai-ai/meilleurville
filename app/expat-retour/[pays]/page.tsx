@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!country) return {};
   return {
     title: `Rentrer en France depuis ${country.name} 2026 · Guide pratique`,
-    // ≤ 160 caractères sur les 20 fiches (138-152). L'ancienne rédaction montait
+    // ≤ 160 caractères sur les 21 fiches (138-152). L'ancienne rédaction montait
     // à 176 pour « Émirats arabes unis » et dépassait sur les 20 : la queue
     // générique « Avec villes recommandées (frontalières + métropoles). »
     // poussait hors du snippet les postes que le lecteur vient chercher.

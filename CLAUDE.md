@@ -939,7 +939,46 @@ les montants réglementaires seulement, et rien qui ne soit sourçable.
 Une fiche par pays de départ, données inline (`EXPAT_COUNTRIES`), rendues par
 `app/expat-retour/[pays]/page.tsx` (URL `/expat-retour/depuis-<slug>`). Ajouter une entrée au
 tableau suffit : `generateStaticParams`, le hub et le sitemap en dérivent tous les trois.
-**Compteur mesuré (`grep -c '^    slug: "'`) : 20 pays** (2026-08-14). Dernier ajouté : **Chine** —
+**Compteur mesuré (`grep -c '^    slug: "'`) : 21 pays** (2026-08-26). Dernier ajouté : **Brésil** — la
+première fiche d'Amérique latine, région qui n'avait aucun pays sur les vingt précédents. Le fil
+conducteur est que **la sortie fiscale brésilienne est un dépôt, pas un départ** : sans la
+*Comunicação de Saída Definitiva do País* (à déposer de la date de départ jusqu'au **dernier jour de
+février de l'année suivante**), la Receita Federal tient le partant pour résident pendant les **douze
+mois d'absence** qui suivent, donc imposable au Brésil sur ses revenus mondiaux, salaire français
+compris ; la *Declaração de Saída Definitiva* est un second document, déposé dans la fenêtre annuelle
+de l'impôt (**23/03 → 29/05** pour l'exercice 2026). Trois autres faits vérifiés portent la fiche :
+① l'accord de sécurité sociale signé le **15/12/2011** (accord d'application 22/04/2013, décret
+n° 2014-1013) est **en vigueur depuis le 01/09/2014** et permet la totalisation des périodes INSS —
+c'est l'exact inverse du dossier chinois, et son champ territorial vise **expressément les DOM,
+Guyane comprise** ; ② le real est librement convertible (aucun quota, contrairement au yuan) mais les
+décrets **12.466/2025 et 12.499/2025** ont porté l'**IOF de 1,1 % à 3,5 %** sur les virements vers un
+compte de même titularité à l'étranger hors finalité d'investissement ; ③ la loi **15.270/2025**, en
+vigueur depuis janvier 2026, exonère d'impôt les revenus jusqu'à **5 000 R$/mois** (réduction
+jusqu'à 7 350 R$), le barème progressif à 27,5 % restant par ailleurs.
+⚠️ **Quatre réflexes faux, corrigés par vérification avant rédaction.** ① **Partir n'ouvre aucun droit
+de retrait du FGTS** : le départ définitif ne figure pas à l'article 20 de la loi 8.036/90 ; les voies
+réelles sont le licenciement sans juste cause ou **trois ans consécutifs hors du régime**, déblocage au
+mois anniversaire du titulaire. ② **Un expatrié payé en PJ n'a souvent rien cotisé** (ni FGTS ni part
+patronale INSS) : l'accord permet de totaliser des périodes, pas d'en inventer — d'où la consigne de
+sortir l'extrait **CNIS** avant de rentrer. ③ **L'accord de sécurité sociale ne fabrique pas de
+S1** : un rentrant sans emploi retombe sur la PUMa de droit commun (trois mois de résidence + 2-3 mois
+d'instruction), alors que l'accord couvre formellement le risque maladie-maternité. ④ La **prova de
+vida annuelle** suit le pensionné INSS en France (blocage puis suppression du versement à défaut ;
+certificat valable **90 jours**). Autres chiffres cités, tous sourcés : retenue à la source du
+non-résident **25 %** sur le travail, **15 %** sur les loyers bruts, plus-values **15 à 22,5 %** ;
+FipeZAP juin 2026 **64,98 R$/m²** de loyer à São Paulo, **59,87** à Rio ; EUR/BRL **5,94** de moyenne
+en août 2026 (5,81-6,15 dans le mois) ; convention fiscale du **10/09/1971**, en vigueur depuis le
+**10/05/1972** ; franchise de déménagement (12 mois de résidence hors UE, biens détenus > 6 mois,
+**cerfa n° 10070**) ; frontière franco-brésilienne de **730 km** dont 430 sur l'Oyapock. Les 20
+chiffres français viennent de `data/housing.ts` et les deux scores cités (Cayenne 3,9, Lyon 7,1) sont
+lus dans `CITIES_SEED`, pas dans le seed source. Aucune page EN : `bresil` n'est pas dans
+`EN_EXPAT_COUNTRY_SLUGS`, donc pas de hreflang à câbler.
+⚠️ **Trouvé ce run, non corrigé, à traiter comme une dette de perf** : `components/ExpatQuiz.tsx` est
+un composant **client** qui importe `EXPAT_COUNTRIES` **en valeur** alors qu'il n'a besoin que de
+`slug` / `name` / `flag` / `bestSuitedCities`. Les 195 Ko de prose de `lib/expat-return.ts` partent
+donc dans le bundle du quiz — le piège exact décrit en § Performance pour `@/data/guides`. Le remède
+est une projection légère (précédent `lib/search-index.ts`), pas un allègement des fiches.
+Avant-dernier ajouté : **Chine** —
 le seul dossier du site où la difficulté n'est ni fiscale ni culturelle mais **mécanique** : faire
 sortir ses droits et son argent. Trois points vérifiés en ligne, et qui portent la fiche : ① **aucune
 convention de sécurité sociale n'est en vigueur** entre la France et la Chine — signée le 31/10/2016,
@@ -968,10 +1007,10 @@ courant depuis la prise de sang. Les 10 `bestSuitedCities` sont vérifiées dans
 Paris 10 500 €) sont contrôlés un à un contre `data/housing.ts`. Aucune page EN : `chine` n'est pas
 dans `EN_EXPAT_COUNTRY_SLUGS`, donc pas de hreflang à câbler.
 ⚠️ La **meta description** de `app/expat-retour/[pays]/page.tsx` dépassait 160 caractères sur **les 20
-fiches** (jusqu'à 176 pour « Émirats arabes unis ») : la queue générique « Avec villes recommandées
+fiches d'alors** (jusqu'à 176 pour « Émirats arabes unis ») : la queue générique « Avec villes recommandées
 (frontalières + métropoles). » poussait hors du snippet les postes réellement cherchés. Réécrite,
-138-152 caractères sur les 20 — ne pas y remettre de queue générique.
-Avant-dernier ajouté : **Suède** —
+138-152 caractères sur les 20, 139 pour la fiche Brésil ajoutée depuis — ne pas y remettre de queue générique.
+Ajouté avant lui : **Suède** —
 premier pays nordique de la liste, et le seul dossier du site où **le retour est fiscalement
 neutre** (kommunalskatt à taux plat ~29-35 % + 20 % d'État au-delà d'environ 600-625 k SEK, à peu
 près la fourchette effective française). Le choc est ailleurs, et dans les deux sens : gain sur le
