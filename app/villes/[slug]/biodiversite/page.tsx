@@ -44,6 +44,10 @@ import {
   PARKS_PER_CITY_CAP,
   type SpeciesGroup,
 } from "@/lib/biodiversity";
+import {
+  PROTECTION_MEDIAN_COVERAGE,
+  PROTECTION_RANKED_COUNT,
+} from "@/lib/protected-areas-ranking";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -204,7 +208,7 @@ export default async function BiodiversitePage({ params }: Props) {
         ? measuredAreas.areasTotal === 0
           ? `Aucun périmètre protégé à moins de ${measuredAreas.radiusKm} km. C'est une mesure, pas une absence de donnée.`
           : `${nb(measuredAreas.weightedCoverage)} % du disque sous protection pondérée. Le rang sur 10 attend que davantage de villes soient ingérées.`
-        : `Les périmètres INPN (Natura 2000, ZNIEFF, réserves, parcs) ne sont pas encore intégrés pour cette commune. « Non mesuré » veut dire que nous ne savons pas — pas qu'il n'y en a aucun.`;
+        : `Les périmètres réglementaires (réserves, parcs nationaux et régionaux, arrêtés de biotope, Natura 2000) ne sont pas encore intégrés pour cette commune. « Non mesuré » veut dire que nous ne savons pas — pas qu'il n'y en a aucun.`;
 
   const groups = GROUP_ORDER.map((g) => ({ id: g, count: raw.groups[g] ?? 0 })).filter(
     (g) => g.count > 0,
@@ -578,10 +582,10 @@ export default async function BiodiversitePage({ params }: Props) {
               ) : (
                 <>
                   Surfaces mesurées sur la part du périmètre qui tombe dans le rayon, pas sur le
-                  site entier. Les zonages s&apos;emboîtent — une ZNIEFF I est presque toujours
-                  incluse dans une ZNIEFF II — donc la couverture ci-dessus ne les additionne pas :
-                  chaque parcelle de terrain compte une fois, au niveau de protection le plus fort
-                  qui s&apos;y applique.
+                  site entier. Les zonages s&apos;emboîtent — un site Natura 2000 chevauche
+                  couramment une réserve et un parc régional — donc la couverture ci-dessus ne les
+                  additionne pas : chaque parcelle de terrain compte une fois, au niveau de
+                  protection le plus fort qui s&apos;y applique.
                 </>
               )}
             </p>
@@ -643,6 +647,14 @@ export default async function BiodiversitePage({ params }: Props) {
                 La couverture est donc un minimum.
               </p>
             )}
+            <p className="text-[11px] text-[var(--text-tertiary)] mt-3">
+              Repère : la médiane des {PROTECTION_RANKED_COUNT} villes mesurées est de{" "}
+              {nb(PROTECTION_MEDIAN_COVERAGE)} % du disque.{" "}
+              <Link href="/espaces-proteges" className="text-[var(--accent)] hover:underline">
+                Voir le classement national
+              </Link>
+              .
+            </p>
           </div>
         </section>
       )}
@@ -733,7 +745,8 @@ export default async function BiodiversitePage({ params }: Props) {
                 <strong>mondiale</strong> de l&apos;UICN. Attention à la lecture : c&apos;est le
                 statut mondial de l&apos;espèce, pas la liste rouge nationale française — une espèce
                 commune ici peut être menacée ailleurs, et l&apos;inverse. Les statuts nationaux
-                viendront de l&apos;INPN.
+                demanderaient la liste rouge du MNHN, dont la publication n&apos;est pas revenue
+                en ligne depuis la cyberattaque de juillet 2025.
               </p>
             </div>
           </div>

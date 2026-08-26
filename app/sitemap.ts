@@ -263,6 +263,9 @@ function staticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/services-publics/sud-ouest-gascon`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/services-publics/vallee-du-rhone`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/services-publics/ile-de-france-elargie`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
+    // F62 — hub national de la composante « zones protégées » (540 villes
+    // mesurées, BD TOPO / MNHN). Jumelle EN : /protected-areas.
+    { url: `${BASE_URL}/espaces-proteges`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/tension-locative`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/tension-locative/cote-atlantique`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/tension-locative/arc-mediterraneen`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
@@ -891,6 +894,8 @@ function enStaticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/from-paris`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
     { url: `${BASE_URL}/gentrification`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.65 },
     { url: `${BASE_URL}/environment`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
+    // F62 — EN twin of /espaces-proteges.
+    { url: `${BASE_URL}/protected-areas`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.65 },
     { url: `${BASE_URL}/cycling`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
     { url: `${BASE_URL}/sport`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/sport/cote-atlantique`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.6 },

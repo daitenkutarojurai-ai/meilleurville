@@ -635,7 +635,7 @@ recensées à proximité, zones protégées.
 
 | # | Feature | Prio | Cplx | SEO | Statut |
 |---|---------|------|------|-----|--------|
-| F62 | **Score Biodiversité** (pipeline GBIF + INPN → sous-page ×540 + classement) | **P0** | **L** | **high** | 🚧 en cours — GBIF **540/540** (crawl clos 09/08), sous-pages en ligne des deux locales, **rang de richesse retiré le 10/08** (il classait les programmes de saisie) ; zones protégées **0/540**, ingest + téléchargement branchés sur le cron local le 17/08, `overall` `null` tant que cette composante manque |
+| F62 | **Score Biodiversité** (pipeline GBIF + zones protégées → sous-page ×540 + classement) | **P0** | **L** | **high** | 🚧 en cours — GBIF **540/540** (crawl clos 09/08), sous-pages en ligne des deux locales, **rang de richesse retiré le 10/08** (il classait les programmes de saisie) ; zones protégées **540/540** depuis la bascule INPN → **IGN BD TOPO** du 26/08 (la source INPN est morte depuis la cyberattaque de 07/2025), **hub national `/espaces-proteges` + `/protected-areas` livré le 26/08** ; `overall` reste `null` — deux composantes sur trois publiables ne font pas un agrégat qui mesure ce que son nom annonce |
 | F63 | **Qualité de l'air — du modèle à la mesure** (ATMO + Geod'Air, hub + classement) | **P0** | **M** | **high** | 🔜 à faire |
 | F64 | **Actualité locale par ville** (open data BODACC/JO/CatNat → section CityProfile + routine hebdo) | **P1** | **M** | **low** | ✅ **en ligne — 540/540 villes, 4 212 entrées** (BODACC 4 172 + CatNat 40), collectées par le cron local les 04-05/08. Section rendue sur les deux locales. RNA toujours désactivé (0 association). Mois partiel marqué depuis le 11/08. **Filtre commune corrigé le 18/08** (`QUERY_VERSION = 2`) : les 10 villes dont le nom de seed porte une parenthèse — les Saint-X de La Réunion, Le Robert, Le François, Saint-Louis 68 — sortaient à **zéro entrée sur douze mois** ; recollecte des 540 attendue au prochain lot local. 2 vides encore inexpliquées (dinan, selestat). ⚠️ **Données gelées au 05/08 : le collecteur n'a rien produit depuis 20 jours**, ni après le `QUERY_VERSION = 2` du 18/08 ni après la réparation du runner du 24/08 (deux créneaux écoulés, aucun commit) — la cause restante est la machine du propriétaire, pas le dépôt. Le 25/08 a rendu la section honnête sans elle : la date est publiée comme un **plafond** (« Relevé arrêté au… ») et non plus comme un « Mis à jour », et `STALE_AFTER_DAYS` passe de 45 à **21** (~16 j = âge sain maximum, + une semaine de marge) |
 
@@ -2825,6 +2825,84 @@ signal thématique du domaine. Noindex ou suppression — décision produit, pas
 
 **Routine** : `meilleurville-parite-en`, quotidienne 04:25 UTC, `npm run parity` comme
 tableau de bord, une route par run, sortie du contrôle collée dans chaque message de commit.
+
+---
+
+## Shipped 2026-08-26 (2e run du jour)
+
+- **F62 — la composante zones protégées se lit enfin d'une ville à l'autre : hub `/espaces-proteges`
+  + jumelle EN `/protected-areas`** ✅ — Le run du matin ayant fait du contenu (batch 35 EN, parité
+  tourisme refermée à 219/219), ce run prend l'autre zone et **finit ce que la bascule BD TOPO du
+  matin même a rendu possible**. Depuis le commit `85d4da8`, `data/city-protected-areas.json` porte
+  **540/540 villes** mesurées sur les cinq protections réglementaires (réserves naturelles, parcs
+  nationaux et régionaux, arrêtés de biotope, Natura 2000), ingest v3, source `bdtopo`, périmètres
+  arrêtés au **2026-08-19**. `PROTECTION_CALIBRATED` est donc vrai depuis ce matin et chaque ville
+  publie un /10 — mais la mesure ne se lisait **qu'une ville à la fois**, sur
+  `/villes/[slug]/biodiversite`. Aucune comparaison nationale nulle part.
+
+  **Pourquoi celle-ci se classe alors que la richesse a été retirée le 10/08.** Un arrêté de biotope
+  existe qu'un naturaliste passe par là ou non ; la raréfaction GBIF mesurait d'abord la densité
+  d'observateurs. C'est la seule des trois composantes insensible au biais d'effort, et c'est
+  exactement l'argument qui a servi à retirer l'autre. ⚠️ **Ce n'est pas une réouverture de
+  `/classements/biodiversite`**, abandonné et à ne pas recréer : le hub ne publie aucun rang de
+  richesse, `RICHNESS_RANKING_PUBLISHED` reste `false`, et `overall` reste `null`.
+
+  **Ce que le hub publie** (`lib/protected-areas-ranking.ts`, aucune mesure nouvelle — tout vient du
+  JSON) : le **top 40 national** en paliers d'ex æquo, les **42 communes de plus de 100 000
+  habitants entre elles** (top 20), et le bas de tableau. Chiffres mesurés ce run : médiane
+  **6,8 %** du disque de 15 km sur les 540 villes ; **Digne-les-Bains 96,4 %** (réserve géologique
+  de Haute-Provence), Florac-Trois-Rivières 93,2 %, Apt 78,3 %, Baie-Mahault 77,4 % ; **Marseille
+  47,9 %, seule commune de plus de 100 000 habitants du top 40** ; **14 villes** s'arrondissent à
+  0,0 %, dont **5 sans aucun périmètre à moins de 15 km** (Albi, Auch, Fleurance, Longwy, Vitré),
+  listées **alphabétiquement et sans rang** — elles portent la même valeur.
+
+  **La convention de classement du 19/08 est appliquée telle quelle** : groupement par valeur, aucun
+  palier coupé en son milieu (le classement s'arrête à 40 et dit que la 41ᵉ, Chambéry, est à
+  36,8 %), rang de compétition partagé par les ex æquo, tri par nom **à l'intérieur** d'un palier
+  annoncé comme un ordre stable et non un départage, et `itemListOrder` calculé : le JSON-LD passe
+  en `ItemListUnordered` dès qu'une des dix premières villes est ex æquo (aujourd'hui elles ne le
+  sont pas, la tête est donc ordonnée — mais ce n'est pas codé en dur).
+
+  ⚠️ **Trois limites écrites dans les deux pages, à ne pas diluer.** ① **Cœur de parc et aire
+  d'adhésion pèsent pareil** (1,0) : la BD TOPO les publie comme deux polygones du même type, alors
+  que l'aire d'adhésion est une zone de charte sans interdiction générale. Sur **11 villes** le seul
+  polygone de parc national relevé est une aire d'adhésion (Alès, Bagnères-de-Bigorre, Gap,
+  La Seyne-sur-Mer, Lourdes, Marignane, Pau, Sainte-Maxime, Saint-Tropez, Six-Fours,
+  **Toulon — 4ᵉ des grandes villes**) : leur couverture est un **majorant**, et la colonne
+  « protection la plus forte » l'affiche ligne par ligne (« aire d'adhésion » / « buffer zone
+  only »), pas seulement en méthodologie. La détection se fait sur le **nom** du périmètre, faute
+  d'attribut qui distingue les deux dans la source — c'est documenté dans la lib pour que personne
+  ne la prenne pour une donnée. ② **Protégé ne veut pas dire accessible** : un site Natura 2000
+  recouvre souvent des terres agricoles ou privées, sans sentier. ③ **C'est un disque, pas une
+  commune** : 15 km débordent largement les limites communales, volontairement, mais ne disent rien
+  de ce qu'on a au pied de son immeuble.
+
+  **Corrections de copie ramassées au passage sur les deux sous-pages ville** (héritées de l'époque
+  INPN, fausses depuis ce matin) : le message « non mesuré » citait des périmètres **INPN et des
+  ZNIEFF** alors que les ZNIEFF sont désormais hors calcul ; l'exemple d'emboîtement des zonages
+  était « une ZNIEFF I est presque toujours incluse dans une ZNIEFF II », remplacé par un site
+  Natura 2000 chevauchant une réserve et un parc régional ; et la section espèces menacées promettait
+  que « les statuts nationaux viendront de l'INPN », ce qui ne peut plus arriver — la phrase dit
+  maintenant que la liste rouge du MNHN n'est pas revenue en ligne depuis la cyberattaque de
+  juillet 2025. Les deux pages ville gagnent aussi un **repère de médiane nationale + lien vers le
+  hub**, dans les deux locales.
+
+  **Câblage** : `FR_TO_EN_ROUTE` (`espaces-proteges` → `protected-areas`), une entrée sitemap par
+  locale, `pathAlternates` / `pathAlternatesEn` donc canonical **et** hreflang sur les deux pages,
+  `generateStaticParams` limité à `locale: "en"` côté EN. Titres **51 (FR) et 47 (EN)** caractères, descriptions
+  **157 et 153**, `openGraph` avec `images: ["/opengraph-image"]` (le piège documenté). Rendu **vérifié
+  en `next dev`** sur les quatre routes (hub FR, hub EN, `/villes/digne-les-bains/biodiversite`,
+  `/en/cities/digne-les-bains/biodiversity`) : 200 partout, hreflang et canonical présents dans le
+  `<head>`, liens croisés présents dans le HTML — aucun JS requis pour lire les deux tableaux.
+
+  **Contrôles** : `npx tsc --noEmit` propre, `npm run integrity`, `npm run parity` (FR 219 · EN 166,
+  **0 route FR sans jumelle EN**), `npm run hreflang:check`, `npm run sitemap:check` (FR 29 067 →
+  **29 068**, EN 28 629 → **28 630**, chaque URL déclarée a une page). `npm run build` volontairement
+  pas lancé, comme la consigne l'impose depuis le batch 27.
+
+  **Suite possible** : une vue par région ou par macro-région (le top 40 est très PACA / Occitanie),
+  et le rebranchement des liens de fiche `inpnUrl()` le jour où l'INPN resert des fiches — la
+  BD TOPO porte le code MNHN dans `identifiants_sources`, il suffira de le remonter à l'ingest.
 
 ---
 

@@ -1678,6 +1678,31 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
     « Réserves naturelles » / « Parcs naturels régionaux » / « Parcs nationaux » ne
     correspondaient à rien (accents non repliés) — 16 cas de reconnaissance épinglés dans
     `protected-areas:selftest`. Données toujours **0/540**, `overall` toujours `null`.
+  - **État au 2026-08-26 — les zones protégées sont collectées (540/540) et publiées en
+    comparaison nationale.** La source INPN est morte pour de bon : les `.zip` que data.gouv.fr
+    référence répondent 200 en `text/html` depuis la cyberattaque de 07/2025. L'ingest bascule sur
+    la **BD TOPO de l'IGN**, qui redistribue les mêmes tracés du MNHN (`sources: "MNHN 2024"`) —
+    `source: "bdtopo"`, `ingestVersion: 3`, périmètres arrêtés au **2026-08-19**, 540/540 villes,
+    **même jeu de cinq couches partout** (réserves naturelles, parcs nationaux, parcs naturels
+    régionaux, arrêtés de biotope, Natura 2000), DROM compris. **Les deux ZNIEFF sont hors calcul** :
+    un inventaire sans portée juridique n'entre pas dans un score de protection, et les pages le
+    disent. `PROTECTION_CALIBRATED` est donc vrai et chaque ville publie son /10 ; **`overall` reste
+    `null`** — deux composantes sur trois ne font pas un agrégat qui mesure ce que son nom annonce.
+    Hub national livré le même jour : **`/espaces-proteges` (FR) + `/protected-areas` (EN)**, moteur
+    dans `lib/protected-areas-ranking.ts` (aucune mesure nouvelle, tout vient du JSON), convention
+    de paliers d'ex æquo de `lib/owner-rankings.ts` appliquée telle quelle. Repères mesurés :
+    médiane **6,8 %** du disque de 15 km, Digne-les-Bains **96,4 %**, Marseille **47,9 %** (seule
+    commune > 100 000 hab. du top 40), **14 villes à 0,0 %** dont **5 sans aucun périmètre**
+    (Albi, Auch, Fleurance, Longwy, Vitré). ⚠️ **Ce n'est pas la réouverture de
+    `/classements/biodiversite`** : aucun rang de richesse n'est publié, `RICHNESS_RANKING_PUBLISHED`
+    reste `false`. ⚠️ **Cœur de parc national et aire d'adhésion pèsent pareil** (1,0) faute
+    d'attribut qui les distingue dans la source, alors que l'aire d'adhésion est une zone de charte :
+    sur **11 villes** (dont Toulon) le seul polygone relevé est une aire d'adhésion, leur couverture
+    est un **majorant**, et les tableaux l'affichent ligne par ligne. La détection se fait sur le
+    **nom** du périmètre — ne pas la prendre pour une donnée. ⚠️ `inpnUrl()` renvoie `null` par
+    construction : toutes les URL de `inpn.mnhn.fr` répondent 200 en HTML de coquille, donc aucun
+    lien de fiche n'est affiché. Pour le rebrancher un jour, la BD TOPO porte le code MNHN dans
+    `identifiants_sources`.
 
 - [ ] **F63 — Qualité de l'air : du modèle à la mesure** — la section existe
   (`/villes/[slug]/air` ×540 + EN `air-quality`) mais `lib/air-quality.ts` **calcule

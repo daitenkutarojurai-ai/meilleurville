@@ -135,6 +135,7 @@ export const FR_TO_EN_ROUTE: Record<string, string> = {
   donnees: "data-sources",
   emploi: "employment",
   environnement: "environment",
+  "espaces-proteges": "protected-areas",
   "expat-retour": "expat-return",
   favoris: "favorites",
   gentrification: "gentrification",

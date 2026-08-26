@@ -43,6 +43,10 @@ import {
   PARKS_PER_CITY_CAP,
   type SpeciesGroup,
 } from "@/lib/biodiversity";
+import {
+  PROTECTION_MEDIAN_COVERAGE,
+  PROTECTION_RANKED_COUNT,
+} from "@/lib/protected-areas-ranking";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -194,7 +198,7 @@ export default async function BiodiversityPage({ params }: Props) {
         ? measuredAreas.areasTotal === 0
           ? `No protected site within ${measuredAreas.radiusKm} km. That is a measurement, not missing data.`
           : `${nb(measuredAreas.weightedCoverage)} % of the disc under weighted protection. The rank out of 10 waits until more cities are ingested.`
-        : `French INPN boundaries (Natura 2000, ZNIEFF, nature reserves, parks) are not integrated yet for this commune. "Not measured" means we do not know — not that there are none.`;
+        : `Statutory boundaries (nature reserves, national and regional parks, biotope orders, Natura 2000) are not integrated yet for this commune. "Not measured" means we do not know — not that there are none.`;
 
   const groups = GROUP_ORDER.map((g) => ({ id: g, count: raw.groups[g] ?? 0 })).filter(
     (g) => g.count > 0,
@@ -550,10 +554,10 @@ export default async function BiodiversityPage({ params }: Props) {
               ) : (
                 <>
                   Areas are measured on the share of each site that falls inside the radius, not on
-                  the whole site. French designations nest inside one another — a ZNIEFF I almost
-                  always sits within a ZNIEFF II — so the coverage above does not add them up: every
-                  patch of ground counts once, at the strongest level of protection that applies to
-                  it.
+                  the whole site. French designations nest inside one another — a Natura 2000 site
+                  routinely overlaps a reserve and a regional park — so the coverage above does not
+                  add them up: every patch of ground counts once, at the strongest level of
+                  protection that applies to it.
                 </>
               )}
             </p>
@@ -614,6 +618,14 @@ export default async function BiodiversityPage({ params }: Props) {
                 The coverage figure is therefore a floor.
               </p>
             )}
+            <p className="text-[11px] text-[var(--text-tertiary)] mt-3">
+              For scale: the median across the {PROTECTION_RANKED_COUNT} measured cities is{" "}
+              {PROTECTION_MEDIAN_COVERAGE.toFixed(1)}% of the disc.{" "}
+              <Link href="/protected-areas" className="text-[var(--accent)] hover:underline">
+                See the national ranking
+              </Link>
+              .
+            </p>
           </div>
         </section>
       )}
@@ -698,7 +710,8 @@ export default async function BiodiversityPage({ params }: Props) {
                 Listed as vulnerable, endangered or critically endangered on the{" "}
                 <strong>global</strong> IUCN Red List. Read it carefully: that is the species'
                 global status, not the French national red list — a species common here can be
-                threatened elsewhere, and the reverse. National statuses will come from the INPN.
+                threatened elsewhere, and the reverse. National statuses would require the
+                MNHN red list, which has not been republished since the July 2025 cyberattack.
               </p>
             </div>
           </div>
