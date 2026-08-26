@@ -1878,6 +1878,66 @@ setup dans `CLAUDE.md`), pas une facilité.
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
 
+### Livré le 26/08 — série tourisme rattrapée (batch 35 EN, +6), parité refermée à 219/219
+
+`npm run parity` en **code 0** en début de run (FR 218 / EN 165, 0 route sans jumelle) : pas de
+régression de routes, donc run de corpus. Le diff par série sur le corpus réel a sorti la série
+tourisme comme le seul écart ouvert — **219 FR contre 213 EN**, exactement les six villes du
+batch 34 FR livré la veille. Les 6 jumelles `things-to-do-in-[slug]-2026` écrites d'un coup dans
+`data/guides-en.ts` : **Salon-de-Provence, Saint-Quentin, Brive-la-Gaillarde, La Seyne-sur-Mer,
+Valenciennes, Thionville**. **Compteurs mesurés : FR 219 / EN 219 — écart nul, parité rétablie**
+(`EN_GUIDES` 743 → 749). Le diff est propre dans les deux sens après application de la table de
+correspondance des sept slugs FR à article (`puy-en-velay`→`le-puy-en-velay`, `tampon`→`le-tampon`,
+`francois`→`le-francois`, `robert`→`le-robert`, `abymes`→`les-abymes`, `lamentin`→`le-lamentin`,
+`sables-d-olonne`→`les-sables-d-olonne`) : aucun faux trou, aucun slug EN orphelin.
+
+Aucun nouveau slug hors gabarit : les six slugs de seed s'écrivent tels quels, donc la règle
+tranchée au batch 33 (**le slug EN se dérive du slug de seed tel quel, jamais d'une version
+« propre »**) n'avait rien à arbitrer ici. Les 6 guides ont été **vérifiés retrouvés par
+`getEnGuide('things-to-do-in-' + slug + '-2026')` et pourvus de leur photo d'en-tête**
+(`guideCityPhoto`) après écriture — le contrôle que le batch 32 a dû ajouter après coup.
+`metaTitle` 35-52 caractères, `metaDesc` 143-155, 8 sections par guide (la série FR en compte 10,
+l'EN fusionne les fins de liste comme tous les batches EN précédents). Aucune figure en `/10`,
+aucun horaire, aucun tarif : les seuls chiffres sont ceux des guides FR, à commencer par les
+populations Insee 2022 (Salon 44 600, Saint-Quentin 53 000, Brive 46 800, La Seyne 62 900,
+Valenciennes 43 000, Thionville 42 800 et 40 500 en 2016).
+
+**Tags** : aucun tag neuf, les six réutilisent `provence-alpes-cote-d-azur`, `hauts-de-france`,
+`nouvelle-aquitaine` et `grand-est`, tous très au-dessus du seuil de 3 guides.
+`npm run search-index` relancé (`data/search-index.en.json` 749 guides, 103 tags — inchangé) et
+`npm run sitemap:check` repassé (FR 29 067 URL, EN 28 623 → **28 629**, chaque URL déclarée a une
+page).
+
+⚠️ **Les prudences du FR sont reprises telles quelles et ne doivent pas être diluées** : la
+**base aérienne 701** de Salon est une emprise militaire, dite comme telle *avant* la première
+phrase sur la Patrouille de France ; le **fronton de l'hôtel de ville de Valenciennes** est la
+reprise d'Albert Patrisse après l'incendie du 21-22 mai 1940, pas la pierre d'origine ; la
+**maison espagnole** de Valenciennes voit son office de tourisme partir vers le Mont-de-Piété,
+donc le guide dit de vérifier l'adresse plutôt que d'affirmer l'une ou l'autre ; le **savon de
+Marseille n'est protégé par aucune appellation** ; et la convention « **accessible depuis** »
+plutôt que « situé à » tient sur **Notre-Dame du Mai** (Six-Fours) depuis La Seyne, **château de
+La Grange** (Manom) et **fort du Hackenberg** (Veckring) depuis Thionville,
+**Collonges-la-Rouge / Turenne / Sarlat** et l'**aéroport de Nespouls** depuis Brive.
+
+Six ajouts propres à l'angle voyageur étranger, absents du FR parce qu'inutiles à un lecteur
+français : la **Patrouille de France** présentée par son équivalent (les Red Arrows) et le
+**mistral** expliqué en une incise ; « **collégiale** » et « **basilique** » définis comme titres
+(collège de chanoines, titre honorifique romain) et non comme rangs épiscopaux ; la
+**désambiguïsation Saint-Quentin (Aisne) vs mont Saint-Quentin (Somme)**, celui que visent les
+récits anglophones de 1918, posée **dans l'intro** ; **Top 14 / Pro D2** nommés comme les deux
+divisions professionnelles du rugby français ; la **fermeture préfectorale du massif du cap
+Sicié** pour risque incendie donnée comme une règle opposable et non comme un conseil, et les
+**navettes maritimes** de la rade dites transport en commun au tarif d'un ticket, pour éviter la
+réservation d'une croisière ; et côté Thionville-Valenciennes, le fait que ces frontières sont
+des **passages Schengen intérieurs sans formalité mais avec pièce d'identité**, et que
+**Trèves s'appelle Trier** en allemand.
+
+**Prochain run** : côté tourisme l'écart est nul, la série FR reprend la main — le prochain batch
+FR est attendu sur les six banlieues de province jamais faites (Villenave-d'Ornon, Talence,
+Le Bouscat ; Vaulx-en-Velin, Saint-Priest, Bron) ou les trous listés au batch 34
+(Saint-Herblain, Mantes-la-Jolie, Istres, Cambrai). Le prochain run de parité doit donc rediffer
+**toutes** les séries, pas seulement celle-ci.
+
 ### Livré le 25/08 — `single-parent-in-[city]-2026` REFERMÉE une troisième fois (batch 5, +9)
 
 `npm run parity` en **code 0** en début de run (FR 218 / EN 165, 0 route sans jumelle) : pas de

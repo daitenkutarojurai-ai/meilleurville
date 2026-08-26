@@ -837,6 +837,42 @@ Cens ne font pas dix entrées vérifiables), **Mantes-la-Jolie** (collégiale No
 Saint-Maclou), **Istres** (étang de Berre, vieux village) et **Cambrai**, seule ville du Nord de cette
 taille encore sans guide.
 
+**Batch 35 — EN, rattrapage de parité, shipped 2026-08-26.** Les 6 jumelles
+`things-to-do-in-[slug]-2026` du batch 34 écrites d'un coup dans `data/guides-en.ts`
+(Salon-de-Provence, Saint-Quentin, Brive-la-Gaillarde, La Seyne-sur-Mer, Valenciennes, Thionville).
+**Compteurs mesurés : FR 219, EN 219 — écart nul dans les deux sens, parité rétablie**
+(`EN_GUIDES` 743 → 749). Aucun nouveau slug hors gabarit : les six slugs de seed s'écrivent tels
+quels, donc la règle du batch 33 (**côté EN le slug se dérive du slug de seed tel quel**) n'avait
+rien à arbitrer. Les 6 guides ont été vérifiés **retrouvés par le lookup de
+`app/[locale]/cities/[slug]/things-to-do/page.tsx` et pourvus de leur photo d'en-tête**
+(`guideCityPhoto`) après écriture. `metaTitle` 35-52 caractères, `metaDesc` 143-155, 8 sections par
+guide (la série FR en compte 10, l'EN fusionne les fins de liste). Aucune figure en `/10`, aucun
+horaire, aucun tarif : les seuls chiffres sont ceux des guides FR. Aucun tag neuf — les six
+réutilisent `provence-alpes-cote-d-azur`, `hauts-de-france`, `nouvelle-aquitaine`, `grand-est`.
+`npm run search-index` relancé (`data/search-index.en.json` 749 guides, 103 tags, inchangé) et
+`npm run sitemap:check` repassé (EN 28 623 → 28 629).
+Les prudences du FR sont reprises telles quelles, à ne pas diluer : **base aérienne 701 = emprise
+militaire**, dite avant la première phrase sur la Patrouille de France ; **fronton de l'hôtel de
+ville de Valenciennes = reprise d'Albert Patrisse** après l'incendie du 21-22 mai 1940, pas la
+pierre d'origine ; **maison espagnole**, adresse de l'office de tourisme à vérifier ; **savon de
+Marseille protégé par aucune appellation** ; et « **accessible depuis** » plutôt que « situé à »
+sur Notre-Dame du Mai (Six-Fours), La Grange (Manom), le Hackenberg (Veckring),
+Collonges-la-Rouge / Turenne / Sarlat et l'aéroport de Nespouls.
+Six ajouts propres à l'angle voyageur étranger, absents du FR : la Patrouille de France présentée
+par son équivalent (Red Arrows) et le mistral expliqué en une incise ; « collégiale » et
+« basilique » définis comme titres et non comme rangs épiscopaux ; la **désambiguïsation
+Saint-Quentin (Aisne) vs mont Saint-Quentin (Somme)** — celui des récits anglophones de 1918 —
+posée dès l'intro ; Top 14 et Pro D2 nommés comme les deux divisions professionnelles du rugby
+français ; la **fermeture préfectorale du cap Sicié** pour risque incendie donnée comme règle
+opposable, et les navettes maritimes de la rade dites transport en commun au tarif d'un ticket ;
+et le fait que les frontières belge et luxembourgeoise sont des **passages Schengen intérieurs
+sans formalité mais avec pièce d'identité**, Trèves s'appelant **Trier** en allemand.
+**Prochain run : batch FR** (l'écart est nul, la série FR reprend la main). Gisements inchangés :
+les six banlieues de province jamais faites (Villenave-d'Ornon, Talence, Le Bouscat ;
+Vaulx-en-Velin, Saint-Priest, Bron — rappel : l'Espace Albert Camus et le fort de la ceinture
+lyonnaise sont **à Bron**) et les trous listés au batch 34 (Saint-Herblain, Mantes-la-Jolie,
+Istres, Cambrai).
+
 ### Glossaire (`app/glossaire/page.tsx`)
 
 Page unique, données inline (`SECTIONS: {title, emoji, terms[]}`), `DefinedTermSet` JSON-LD généré

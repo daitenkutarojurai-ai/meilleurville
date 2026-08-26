@@ -3715,18 +3715,48 @@
       "slug": "family-in-besancon-2026",
       "title": "Family life in Besançon (2026): forest at the end of every street",
       "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "things-to-do-in-salon-de-provence-2026",
+      "title": "Things to do in Salon-de-Provence: Nostradamus and a fortress",
+      "emoji": "🔮"
+    },
+    {
+      "slug": "things-to-do-in-saint-quentin-2026",
+      "title": "Things to do in Saint-Quentin: Gothic, Art Deco, and 1918",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "things-to-do-in-brive-la-gaillarde-2026",
+      "title": "Things to do in Brive-la-Gaillarde: the market comes first",
+      "emoji": "🛒"
+    },
+    {
+      "slug": "things-to-do-in-la-seyne-sur-mer-2026",
+      "title": "Things to do in La Seyne-sur-Mer: shipyards and a bay",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "things-to-do-in-valenciennes-2026",
+      "title": "Things to do in Valenciennes: Watteau, Carpeaux, and Flanders",
+      "emoji": "🖼️"
+    },
+    {
+      "slug": "things-to-do-in-thionville-2026",
+      "title": "Things to do in Thionville: a thousand years of frontier",
+      "emoji": "🛡️"
     }
   ],
   "tags": [
     {
       "slug": "travel",
       "label": "travel",
-      "count": 219
+      "count": 225
     },
     {
       "slug": "city-guide",
       "label": "city guide",
-      "count": 213
+      "count": 219
     },
     {
       "slug": "moving-to-france",
@@ -3761,12 +3791,12 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 42
+      "count": 43
     },
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 34
+      "count": 35
     },
     {
       "slug": "auvergne-rhone-alpes",
@@ -3779,14 +3809,14 @@
       "count": 31
     },
     {
-      "slug": "job-market-france",
-      "label": "job market france",
+      "slug": "hauts-de-france",
+      "label": "hauts-de-france",
       "count": 30
     },
     {
-      "slug": "hauts-de-france",
-      "label": "hauts-de-france",
-      "count": 28
+      "slug": "job-market-france",
+      "label": "job market france",
+      "count": 30
     },
     {
       "slug": "ile-de-france",
@@ -3801,6 +3831,11 @@
     {
       "slug": "international-students",
       "label": "international students",
+      "count": 24
+    },
+    {
+      "slug": "provence-alpes-cote-d-azur",
+      "label": "provence-alpes-cote-d-azur",
       "count": 24
     },
     {
@@ -3821,11 +3856,6 @@
     {
       "slug": "normandy",
       "label": "normandy",
-      "count": 22
-    },
-    {
-      "slug": "provence-alpes-cote-d-azur",
-      "label": "provence-alpes-cote-d-azur",
       "count": 22
     },
     {

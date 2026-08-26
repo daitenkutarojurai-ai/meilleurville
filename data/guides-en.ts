@@ -30535,6 +30535,306 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["besancon", "pontarlier", "dole", "belfort", "montbeliard"],
     tags: ["besancon", "moving to france with children", "french school system", "bourgogne-franche-comte"],
   },
+  {
+    slug: "things-to-do-in-salon-de-provence-2026",
+    title: "Things to do in Salon-de-Provence: Nostradamus and a fortress",
+    metaTitle: "Things to Do in Salon-de-Provence (2026)",
+    metaDesc:
+      "A tenth-century fortress, Nostradamus's house and tomb, a mossy fountain, a working soap works, and the home base of the French air force display team.",
+    category: "city-guide",
+    emoji: "🔮",
+    readMinutes: 7,
+    publishedAt: "2026-08-26",
+    updatedAt: "2026-08-26",
+    intro:
+      "Salon-de-Provence has just under 44,600 residents and sits at roughly equal distance from Aix, Arles and Avignon, between the Alpilles and the étang de Berre. It is the town where Nostradamus spent the last twenty years of his life and where he is buried, and it has been the base of the Patrouille de France — the French air force aerobatic display team, the equivalent of the Red Arrows — since 1964. Two pieces of world-level fame, an intact medieval fortress in the middle of the centre, and a town that most visitors to Provence drive straight past. This guide covers what is there and, more usefully, what can actually be visited.",
+    sections: [
+      {
+        heading: "The château de l'Empéri",
+        body: "It stands over the centre on the rock of the Puech and is one of the three largest fortresses in Provence — the oldest of the three. Built between the tenth and the fourteenth centuries, it was the fief of the archbishops of Arles, who made it their principal residence for several centuries. That is why it survives so well: a castle lived in without interruption does not fall down. The name comes from the suzerainty of the Holy Roman Empire over Provence, the Empéri. You walk up from the centre, the climb is short, and the inner courtyard alone justifies the trip.",
+      },
+      {
+        heading: "The Empéri museum, inside the castle",
+        body: "The castle houses a museum of military art and history covering the French armies from the eighteenth century to the First World War: uniforms, edged weapons and firearms, headgear, flags, equipment, personal effects. The whole thing comes from the collection assembled by two Marseille brothers, Raoul and Jean Brunon, from the beginning of the twentieth century. Raoul died in the Great War and Jean carried on alone between the wars. In 1967 an agreement between the ministries concerned, the musée de l'Armée, the town and Jean Brunon brought the collection into the national collections, on deposit at Salon. This is not a side room in a monument: it is the reason to climb up.",
+      },
+      {
+        heading: "Nostradamus's house",
+        body: "Michel de Nostredame, born in 1503, bought this house in 1547 to start a family with Anne Ponsard. He wrote most of his work here and died here in 1566. The town owns the building and turned it into a museum in 1992, with the Maison des Illustres label and an audio-guided route. One thing to know so you arrive with the right expectations: this is not a preserved period interior, it is a staged presentation. Its merit is that it shows the sixteenth-century physician and student of the sky, a contemporary of Rabelais who corresponded with the powerful of his day, rather than the fairground seer the almanacs reduced him to.",
+      },
+      {
+        heading: "The collegiate church and the tomb",
+        body: "Two minutes' walk from the house, Saint-Laurent is a plain example of southern Gothic, rebuilt in the fifteenth century after its predecessor collapsed, and listed as a historic monument since 1840. A collégiale, for anyone meeting the word for the first time, is a church served by a college of canons rather than by a bishop, which is why a town this size has one on this scale. It holds the tomb of Nostradamus — which has not always been here. He was first buried in the Franciscan convent of Salon; that church was destroyed at the Revolution and the remains were moved. Castle, house and church make a morning without ever going back to the car, which in Provence is rare.",
+      },
+      {
+        heading: "The mossy fountain and the old centre",
+        body: "The big fountain on place Crousillat is the town's mascot. The present monument was put up in 1775 by the sculptor Maurice Bernus, and the hard local water did the rest: moss and mineral deposits have gradually covered it until it took on its mushroom silhouette, hence the nickname. It served as a drinking trough for transhumant flocks. Around it, the old centre fits in a handkerchief: lanes, planted squares, terraces. This is the part of Salon you can do without a map, and the best time to do it is the morning, before the sun takes the square.",
+      },
+      {
+        heading: "The Marius Fabre soap works",
+        body: "Marius Fabre founded his soap works in Salon in 1900. It still manufactures on site — savon de Marseille made with olive oil, and black soap — and it can be visited: cauldrons, cooking, drying, cutting, plus a museum of Marseille soap. One point gives the visit its meaning. Savon de Marseille is protected by no appellation whatsoever, so any product at all can carry the name, including bars made on another continent from other fats. Watching it made where it is still made is therefore the simplest way to understand what the label does and does not cover. Salon built its prosperity on oil and soap; this is the last working witness of it in the centre.",
+      },
+      {
+        heading: "Musique à l'Empéri, and the air base",
+        body: "Salon's international chamber music festival was created in 1993 by Éric Le Sage, Paul Meyer and Emmanuel Pahud. Each summer it gathers some thirty soloists in the castle's Renaissance courtyard, whose acoustics have become almost as celebrated as the programming. It is chamber music in the strict sense — small forces, close audience, built programmes — not an open-air spectacular. Dates and ticketing change from year to year and should be checked with the festival before you book a room. The other thing Salon is known for needs a warning that saves a wasted trip: air base 701, home of the Patrouille de France and of the École de l'air, which trains officers of the French air and space force, is a military site. You do not walk in. Open days and displays are announced by the air force when there are any. What is open to everyone is the training flying over the plain: it happens from the ground, it is frequent outside the touring season, and it costs nothing.",
+      },
+      {
+        heading: "Water, oil, and using Salon as a base",
+        body: "Salon did not grow here by accident, and the reason is water. In the sixteenth century a local engineer, Adam de Craponne, diverted water from the Durance to irrigate the Crau, a plain of stones considered barren, and turned a desert of pebbles into farmland. The canal that carries his name still crosses the country and still supports the Crau hay and the local olive growing. It is not a monument you visit, but you meet it everywhere as soon as you leave town: mill races, mills, lines of plane trees. Read the landscape through it. As a base, Salon is served by the motorway and by regional trains, halfway between the three towns everyone comes to Provence to see, so accommodation costs less than in Aix or Arles and the town lives all year rather than in July only. The core — castle, museum, Nostradamus's house, church, fountain — is half a day on foot; the Alpilles, Arles, Aix, Avignon and the étang de Berre are all under an hour. One seasonal note: the town is very exposed both to the sun and to the mistral, the cold dry north wind that can blow for days, so visit early and pack a windproof layer even in summer.",
+      },
+    ],
+    relatedCities: ["salon-de-provence", "aix-en-provence", "arles", "marseille"],
+    tags: ["things to do in salon-de-provence", "salon-de-provence", "travel", "city guide", "provence-alpes-cote-d-azur"],
+  },
+  {
+    slug: "things-to-do-in-saint-quentin-2026",
+    title: "Things to do in Saint-Quentin: Gothic, Art Deco, and 1918",
+    metaTitle: "Things to Do in Saint-Quentin, Aisne (2026)",
+    metaDesc:
+      "A vast Gothic basilica, a town rebuilt in Art Deco after 1918, the world's largest collection of La Tour pastels, and a marsh reserve inside the town.",
+    category: "city-guide",
+    emoji: "🎨",
+    readMinutes: 7,
+    publishedAt: "2026-08-26",
+    updatedAt: "2026-08-26",
+    intro:
+      "Saint-Quentin, about 53,000 residents, is the largest town in the Aisne and one of the great overlooked stops in France. It has two reasons to be seen and they contradict each other: one of the biggest Gothic churches in northern France, and a centre rebuilt in the 1920s after being destroyed in the First World War. You cross a street and go from a thirteenth-century choir to an Art Deco façade. Add the largest collection of Maurice-Quentin de La Tour pastels anywhere, and a national nature reserve inside the built-up area. One thing to settle before you set off: this is Saint-Quentin in the Aisne, not the Mont Saint-Quentin near Péronne in the Somme, which is what English-language accounts of 1918 usually mean.",
+    sections: [
+      {
+        heading: "The basilica",
+        body: "It was built from the twelfth to the fifteenth century, and that shows in the elevation: successive campaigns piled up states of the Gothic, from the soberest to the most worked. It is the largest Gothic church in the Hauts-de-France after Amiens cathedral, and it is nicknamed the seventh cathedral of Picardy although it was never a bishop's seat — which is exactly why it is a basilica and not a cathedral, basilica being an honorific title granted by Rome rather than a rank in the church hierarchy. The vessel is enormous, the double transept is rare, and the scale surprises all the more because nobody expects it in a town this size. The building suffered badly in 1914-1918 and was restored afterwards.",
+      },
+      {
+        heading: "The town hall: Flamboyant Gothic outside, Art Deco inside",
+        body: "Work began in 1331 and finished in 1509: the façade is a piece of Flamboyant Gothic with Flemish influence, on three levels, with arcades, gables and canopies. That would be remarkable on its own, and it is only half the story. The building was wrecked in the First World War, then restored in 1926 by the architect Louis Guindez, who treated the interior in Art Deco. So you go in through a sixteenth-century front and find 1920s rooms. That collision is Saint-Quentin in a single building, and it is open to visitors.",
+      },
+      {
+        heading: "The Art Deco circuit of the rebuilt town",
+        body: "The town was occupied and then systematically destroyed during the Great War, and rebuilt in the years that followed — at precisely the moment Art Deco was taking hold. The result is a whole centre drawn in one vocabulary: ironwork, mosaics, glazed screens, bow windows, geometric motifs on façades, right down to very ordinary rental blocks. It is one of the most coherent Art Deco ensembles in France and it is free, because it is in the street. The tourist office runs a marked route; without it you walk past without looking up, which is exactly this town's problem.",
+      },
+      {
+        heading: "Musée Antoine-Lécuyer and the La Tour pastels",
+        body: "Antoine Lécuyer (1793-1878), a local banker, left his town house to the town in 1876 to display an exceptional holding: the pastels of Maurice-Quentin de La Tour (1704-1788), born and died in Saint-Quentin, coming from the artist's studio estate. It is the largest collection of La Tour pastels in the world. Seeing a hundred or so portraits by one practitioner together, unfinished preparatory heads included, gives you something no general museum can: you follow the hand. The museum shows other fine-art collections too, but La Tour is what you come for.",
+      },
+      {
+        heading: "The war memorial",
+        body: "Inaugurated on 31 July 1927, it is nothing like an ordinary municipal memorial: a granite wall some thirty metres long and several metres high, articulated by bays and pilasters, by the architect Paul Bigot with the sculptors Henri Bouchard and Paul Landowski. Landowski — the man behind the Christ in Rio — did the 1870 relief and the ends of the central frieze, including the flight of the civilian population. The great central relief is given over to trench fighting and to the forced evacuation of March 1917. In a town destroyed and then rebuilt, this wall is the document, not the decoration.",
+      },
+      {
+        heading: "The marshes of the Isle, on foot and by boat",
+        body: "Created in 1981, the national nature reserve of the marais d'Isle protects 47 hectares of wetland — inside the built-up area, which is rare for a reserve of that status. Reed beds, open water, wet meadows: it is a migratory staging post and a breeding ground for many birds, and a hide lets you watch without disturbing them. You go for what flies, not for spectacular scenery, and the marked paths are not a suggestion, they are what allows a reserve to exist in the middle of a town. Around it, the parc d'Isle is the strolling version of the same habitat, easy to reach from the centre. The best way to understand a marsh, though, is to enter it by water: trips run on site in a bacôve, the traditional flat-bottomed punt of the northern marshes, poled rather than rowed. It is slow, it is silent, and it puts you at bank height instead of above it. Slots are seasonal and limited, so book rather than turning up at the water's edge.",
+      },
+      {
+        heading: "The canal, and the 1918 battlefields to the north",
+        body: "The Saint-Quentin canal crosses the town and links the Escaut basin to that of the Oise, which made the town a hub for coal and grain moving between the north and Paris throughout the nineteenth century. The marina and the made-up banks can be walked or cycled, and they give you a direct reading of what this place was: an industrial and textile centre, not a town of art. The two are not opposites — that wealth is what paid for the Lécuyer bequest and for the ambitious rebuilding of the 1920s. To the north, within a few kilometres, lies the heart of the Hindenburg Line sector, the fortified German position broken in the autumn of 1918 by British, Australian and American troops. Memorials, war cemeteries and remains can be covered in half a day by car. This is not a tourist extra: it is the reason the town centre you are visiting dates from the 1920s. Doing one without the other means looking at a reconstruction without knowing what it answers.",
+      },
+      {
+        heading: "Getting there, and how long to stay",
+        body: "Saint-Quentin has direct trains from Paris-Nord and sits on the road axes running up towards Lille and Belgium, which makes it a natural stop rather than a long-stay destination. Allow a full day for the basilica, the town hall, the Lécuyer museum and the Art Deco route, another half day for the marshes and one more for the 1918 sector. The town is cheap and rarely crowded, and that has a concrete benefit: you will have the Lécuyer museum more or less to yourself, which happens in no comparable collection anywhere. If you are coming for the battlefields, note that the surrounding villages have little in the way of restaurants outside the middle of the day, so the town is where you eat.",
+      },
+    ],
+    relatedCities: ["saint-quentin", "amiens", "laon", "reims"],
+    tags: ["things to do in saint-quentin", "saint-quentin", "travel", "city guide", "hauts-de-france"],
+  },
+  {
+    slug: "things-to-do-in-brive-la-gaillarde-2026",
+    title: "Things to do in Brive-la-Gaillarde: the market comes first",
+    metaTitle: "Things to Do in Brive-la-Gaillarde (2026)",
+    metaDesc:
+      "A working market hall, a free archaeological crypt, a Renaissance museum, a walnut distillery running since 1839, and the red villages an hour away.",
+    category: "city-guide",
+    emoji: "🛒",
+    readMinutes: 7,
+    publishedAt: "2026-08-26",
+    updatedAt: "2026-08-26",
+    intro:
+      "Brive-la-Gaillarde has around 46,800 residents and suffers from a misunderstanding: plenty of people know the name from a Georges Brassens song or from rugby and assume there is nothing else. There is a complete old centre, a museum in a Renaissance mansion, a free archaeological crypt under the collegiate church, a distillery that has been running since 1839 and one of the biggest literary events in France. Above all there is a market that is not a reconstruction for visitors but the market where the town does its shopping. This guide starts there, because that is the logical order.",
+    sections: [
+      {
+        heading: "The market under the halle Georges-Brassens",
+        body: "It runs on Tuesday, Thursday and Saturday mornings, and Saturday is when it spills out of the hall into the surrounding streets. Producers from the Corrèze, the Lot and the Dordogne: walnuts, ceps in season, foie gras, veal raised on the cow, cheeses, strawberries. The hall carries Brassens's name because his song Hécatombe sets in Brive a memorable brawl between market women and ill-advised gendarmes; the town, being good sports, dedicated the hall to him. The market is the best starting point for everything else: it is central, it finishes around midday, and it sets the rhythm of the day.",
+      },
+      {
+        heading: "The collegiate church and its crypt",
+        body: "Saint-Martin is dedicated to Martin the Spaniard, one of the town's three patron saints. The building is Romanesque in origin, reworked several times, and its bell tower belongs to the nineteenth-century Limousin neo-Romanesque. The essential part is underneath: the archaeological crypt, free to enter, shows the remains of a fifth-century basilica uncovered in the digs of 1986 and 1987. Going down a few steps to pass from the visible church to what stood there before it is a rare shortcut, and it costs nothing. Look up at the Romanesque capitals of the choir on the way back.",
+      },
+      {
+        heading: "The Labenche museum",
+        body: "The hôtel Labenche was built around the middle of the sixteenth century by a local notable and is one of the finest Renaissance buildings in the Limousin — a listed historic monument, with its high-relief busts leaning out of the windows. It now holds the town's museum of art and history across seventeen rooms: archaeology, tapestries, the history of Brive and its region, popular arts and traditions. The building alone would justify the visit; the collections give it a morning. This is where you grasp that Brive is not merely a stop on the Paris-Toulouse axis.",
+      },
+      {
+        heading: "The old centre, known as la coquille",
+        body: "Locals call their historic centre la coquille, the shell, because the line of the former boulevards traces an oval around the collegiate church. Inside it: narrow streets, turreted houses, sandstone and limestone mansions, and a retail fabric that still holds — which in a mid-sized French town is not a given. Walk it without a map, the shell is small and you always come back out at the church. It is the direct complement to the market: the same streets two hours later, once the stalls are folded away and the cafés take the space.",
+      },
+      {
+        heading: "The Denoix distillery",
+        body: "Founded in 1839, Denoix carries the Entreprise du patrimoine vivant label for living heritage crafts and still manufactures in Brive. Its production turns around the walnut, the emblematic crop of the basin: walnut liqueur, but also moutarde violette de Brive, a violet mustard made with grape must whose local recipe goes back a long way. The tour shows the stills and the vats and ends, inevitably, in a tasting. It is one of the few places in town where you see something being produced rather than merely preserved — and it completes the market far better than a souvenir shop would.",
+      },
+      {
+        heading: "The Edmond-Michelet museum",
+        body: "The museum of the Resistance and the Deportation occupies the house of Edmond Michelet, a Brive résistant deported to Dachau who later served as a minister under de Gaulle. It is a town museum: sober, documented, run by people who know the file. It recalls a fact that gets forgotten — that on 15 August 1944 Brive was one of the first towns in France liberated by its own forces. The place does not play on emotion and does not chase effect, and that is what makes it work. An hour is enough, and it changes how you read the rest of the town.",
+      },
+      {
+        heading: "The book fair, and the rugby",
+        body: "The Foire du livre de Brive is held every year in the first half of November and has become one of the major French literary gatherings: several hundred authors, signings and talks, in the halle Georges-Brassens converted for the occasion. That a town of under 50,000 draws that density of publishers and public is not trivial, and on that weekend accommodation books out weeks ahead. If you are coming then, plan for it; if you want quiet, choose another date. The other fixture is rugby. CA Brive Corrèze Limousin plays at the stade Amédée-Domenech and won the European Cup in 1997, a result that nearly thirty years later remains the town's sporting reference. Watching a Top 14 or Pro D2 match here — the two tiers of French professional rugby union — has little to do with a big-city stadium: the crowd is local, loud, and knows the players by name. Fixtures depend on the season calendar and should be checked with the club.",
+      },
+      {
+        heading: "What is around, and getting there",
+        body: "Brive is the gateway to one of the densest concentrations of classified villages in France. Collonges-la-Rouge, built in red sandstone, is where the Plus Beaux Villages de France association was founded; Turenne and its fortress, Curemonte, Beaulieu-sur-Dordogne, the chasms of the Corrèze causse and the Dordogne valley are all under an hour, with Sarlat a little further. These are accessible from Brive without being in it: the town works as a base, at accommodation prices bearing no relation to the Périgord noir in summer. Getting there, Brive is on the Paris-Toulouse rail line and the A20 motorway, which is why so many people pass through it, and it has its own airport, located in the neighbouring commune of Nespouls to the south. The classic mistake is to make it a lunch stop: the town deserves a day, two with the villages. The best arrangement, if you have the choice, is to arrive the evening before and start with the Saturday morning market — church, Labenche, Denoix and the shell all fall into place afterwards within ten minutes on foot.",
+      },
+    ],
+    relatedCities: ["brive-la-gaillarde", "tulle", "sarlat-la-caneda", "limoges"],
+    tags: ["things to do in brive-la-gaillarde", "brive-la-gaillarde", "travel", "city guide", "nouvelle-aquitaine"],
+  },
+  {
+    slug: "things-to-do-in-la-seyne-sur-mer-2026",
+    title: "Things to do in La Seyne-sur-Mer: shipyards and a bay",
+    metaTitle: "Things to Do in La Seyne-sur-Mer, Var (2026)",
+    metaDesc:
+      "A listed lifting bridge, a seventeenth-century fort, an Ottoman-flavoured seaside quarter, a Pouillon hamlet, and a commuter boat across the bay of Toulon.",
+    category: "city-guide",
+    emoji: "⚓",
+    readMinutes: 7,
+    publishedAt: "2026-08-26",
+    updatedAt: "2026-08-26",
+    intro:
+      "La Seyne-sur-Mer, close to 62,900 residents, is the second town of the Var and the least visited of the big communes on the bay of Toulon. It was a shipbuilding town for a long time and that past still structures everything: a listed lifting bridge in the middle of the port, a seventeenth-century fort turned museum, a seaside quarter in Orientalist taste built by a shipowner who made his fortune in Turkey, and a seafront rebuilt by Fernand Pouillon after the bombing of 1944. All of it faces a bay few Mediterranean towns can match. This guide covers what to see, and where people actually swim.",
+    sections: [
+      {
+        heading: "The lifting bridge of the shipyards",
+        body: "Built in 1917 by the Daydé company so that the railway could reach the shipyards from the station, this lifting bridge is the town's emblem. It stopped working in 1986 when the yards closed, and it was listed on the supplementary inventory of historic monuments on 3 November 1987. After works it reopened to the public in 2009: you go up, and the platform gives a clear view over one of the finest natural harbours in Europe. It is the best reference point for understanding the geography of the place before you start walking.",
+      },
+      {
+        heading: "What is left of the shipyards",
+        body: "The La Seyne yards closed at the end of the 1980s and the town took decades to recover — that is the central fact of its recent history and it is worth knowing before you arrive. The site has been converted: marina, esplanade over the water, public facilities, with the lifting bridge kept as a marker. The result is an open port front, heavily used in the evening by the people who live here. You are not visiting a shipbuilding museum; you are walking across a shipyard that became a town, which is more interesting and far less written about.",
+      },
+      {
+        heading: "Fort Balaguier",
+        body: "Built in the seventeenth century, fort Balaguier defended the entrance to the inner bay together with the tour Royale on the opposite shore. It now holds a museum devoted to local maritime history, to the Toulon penal colony and to the underwater world, with a terraced botanical garden alongside. The place works on three counts: a compact and legible military building, a collection that handles the bagne without flinching, and a position on the water that on its own explains why this particular point was fortified. It is the densest visit in the commune.",
+      },
+      {
+        heading: "Tamaris, Michel Pacha's quarter",
+        body: "Marius Michel, known as Michel Pacha, made his fortune building and running the lighthouses of the Ottoman Empire, then came back at the end of the nineteenth century to develop the coast he came from. Across some sixty hectares he had villas to let, hotels, a casino and an institute built, in a frankly Orientalist taste: domes, polychrome brick, loggias facing the sea. The Tamaris quarter is still there and can be walked from the corniche. The effect is strange and worth the detour — a Provençal bay handled like a stretch of the Bosphorus, which exists nowhere else on this coast.",
+      },
+      {
+        heading: "Villa Tamaris, art centre",
+        body: "Built at the end of the nineteenth century for Michel Pacha, the villa Tamaris has a cubic, Tuscan-inspired plan, large openings and balustraded terraces. The town restored it in 1995 and it has served since as a visual arts venue, with a steady programme of contemporary art and photography. It is where the quarter's heritage stops being a façade to photograph and goes back to being a place where something happens. The view over the bay from the terraces is, incidentally, one of the best in the commune.",
+      },
+      {
+        heading: "Les Sablettes and Fernand Pouillon's hamlet",
+        body: "Les Sablettes was a nineteenth-century seaside resort. Bombed in 1944, it was rebuilt between 1950 and 1953 by Fernand Pouillon, who designed a whole hamlet rather than a row of blocks: arcades, pebble calades, polychrome limestone paving, patterned joinery, glazed ceramics, all following the principles of Provençal urbanism. The ensemble received the Patrimoine du XXe siècle label in 2004. It served as a model for many Mediterranean holiday villages built afterwards, and it is the only one conceived as a town.",
+      },
+      {
+        heading: "The beaches, cap Sicié and the Janas forest",
+        body: "The Sablettes beach is the main one: fine sand, long, family-friendly, facing the Deux Frères rocks off cap Sicié. Mar Vivo and La Verne fill out the offer on the isthmus side. The odd one out is Fabrégas, whose sand is dark — a local geological fact that surprises visitors used to the white of the calanques — and which is wilder, harder to reach and more exposed to the westerly swell. So the choice is simple: Sablettes with children and for the services, Fabrégas if you want something other than a serviced beach. South of them, the cap Sicié massif closes the commune and drops into the sea down high, sheer cliffs, the exact opposite of the postcard image of a tamed Mediterranean. The Janas forest, planted with Aleppo pines, covers it and is crossed by waymarked paths to the viewpoints. The chapel of Notre-Dame du Mai at the summit is accessible from La Seyne but belongs to the neighbouring commune of Six-Fours-les-Plages. One rule that catches out foreign visitors every summer: the massif is highly exposed to wildfire and access can be closed at short notice, sometimes daily, by prefectoral order. Check the day's ruling before you set off; the order is the law, not advice.",
+      },
+      {
+        heading: "Crossing the bay by boat, and using the town as a base",
+        body: "The transport network of the conurbation runs maritime shuttles linking La Seyne and Les Sablettes to central Toulon. This is public transport, not an excursion: a normal ticket fare, regular timetables, regulars on board. It is also by far the finest way to reach Toulon, and the only one that shows you the bay from the water — the navy's ships, the dry docks, Mont Faron opposite. It is worth doing in both directions at different hours, since the light is not the same on the two shores. La Seyne is linked to Toulon by road, by bus and by boat, and Toulon is on the coastal rail line. As a base it has a clear advantage over the rest of the Var coast: it is markedly cheaper than Sanary, Bandol or Hyères in summer while giving access to the same places. There is enough here for two days on site — bridge, fort, Tamaris, Sablettes, cap Sicié — with the rest of the department around it. One practical note: this is a working port town that lives all year, not a resort, and you can hear the difference.",
+      },
+    ],
+    relatedCities: ["la-seyne-sur-mer", "toulon", "hyeres", "marseille"],
+    tags: ["things to do in la seyne-sur-mer", "la seyne-sur-mer", "travel", "city guide", "provence-alpes-cote-d-azur"],
+  },
+  {
+    slug: "things-to-do-in-valenciennes-2026",
+    title: "Things to do in Valenciennes: Watteau, Carpeaux, and Flanders",
+    metaTitle: "Things to Do in Valenciennes (2026)",
+    metaDesc:
+      "A fine arts museum well above the town's weight, two major artists born here, an intact pre-Revolution library, and a Flemish pawnshop of 1622.",
+    category: "city-guide",
+    emoji: "🖼️",
+    readMinutes: 7,
+    publishedAt: "2026-08-26",
+    updatedAt: "2026-08-26",
+    intro:
+      "Valenciennes, about 43,000 residents, calls itself the Athens of the North — a nickname inherited from its artistic ferment in the eighteenth and nineteenth centuries which, for once, rests on something checkable. The painter Antoine Watteau was born here in 1684, the sculptor Jean-Baptiste Carpeaux in 1827, and the town's fine arts museum holds both. Add a pre-Revolution library kept as it was, a pawnshop of the early seventeenth century and an English-style park of 1904, and you have a mid-sized town with the heritage of a regional capital. The Belgian border is a few minutes away, which explains a good deal of the architecture. This guide says where to start.",
+    sections: [
+      {
+        heading: "The fine arts museum",
+        body: "The present building opened in 1909 and was completely refurbished in 1995 with enlarged exhibition space and a basement given over to archaeological remains. The collection runs from Gallo-Roman archaeology to the twentieth century, with two strong suits: seventeenth-century Flemish painting — Rubens, Jordaens, Van Dyck — and nineteenth-century sculpture on a large scale. It is a provincial museum in the old sense of the term, meaning one of those institutions whose holdings far exceed the size of their town. Allow half a day, not an hour in passing.",
+      },
+      {
+        heading: "Watteau, and the square that carries his name",
+        body: "Antoine Watteau was born in Valenciennes in 1684 and, in Paris, invented the genre of the fête galante — courtly figures at leisure in parkland, half theatre and half daydream. The museum holds several of his works, among them Le Faune, and his presence is the thread running through the town. Place Watteau, in the shade of Saint-Géry, the oldest church here, is the landmark. Know what you are going to see: Watteau is a painter of small formats and nuance, not of grand machines. His canvases are looked at close up, and an uncrowded museum is, from that point of view, a luxury.",
+      },
+      {
+        heading: "Carpeaux, a room of his own",
+        body: "Jean-Baptiste Carpeaux was born in Valenciennes in 1827 — the sculptor of the Ugolino group and of La Danse on the façade of the Paris opera house — and the museum gives him an entire space, paintings and sculpture, opening onto a central rotunda and a sculpture garden where Lemaire, Hiolle, Crauk, Chapu and Degas also appear. Seeing the plasters, the sketches and the marbles of one sculptor together shows the process rather than the result: you follow a figure from drawing to bronze. Since Carpeaux is among the most copied French sculptors of the nineteenth century, this room is the best available explanation of what separates an original from its dozens of reprises.",
+      },
+      {
+        heading: "The town hall and its pediment",
+        body: "Built from 1867 to 1870 to the designs of the architect Jules Batigny, the town hall was given a monumental pediment by Carpeaux, the local boy — who had proposed a far more ambitious sculpted programme than the one he was allowed. The building's history turns on a single night: that of 21 to 22 May 1940, when fire destroyed almost the whole edifice. The façade held. Carpeaux's pediment did not: it fell, and was remade to the original model by the sculptor Albert Patrisse. What you look at from the square is therefore a faithful reprise, not the original stone.",
+      },
+      {
+        heading: "The Jesuit library",
+        body: "The former Jesuit college, built in the seventeenth century and rebuilt in the eighteenth, was used for teaching until the order was expelled in 1763. Its library is one of the few French libraries from before the Revolution to have been kept in its original state: panelling, galleries, shelving, the arrangement of the volumes. It is an interior, not a collection: what you come to see is the room itself and the way knowledge was filed in the eighteenth century. Access is by guided tour arranged through the tourist office, which means booking rather than turning up.",
+      },
+      {
+        heading: "The Mont-de-Piété and the Spanish house",
+        body: "Built from 1622 to 1625 to the designs of the Antwerp architect Wenceslas Cobergher, at the initiative of the archdukes Albert and Isabella, governors of the Spanish Netherlands, the Valenciennes mont-de-piété is a remarkably well preserved piece of Flemish brick-and-stone architecture. A mont-de-piété is a public pawnshop: it lent against pledges at a moderate rate to undercut private usury, and that public purpose is written into the façade. The building is protected and has been converted, and it is now one of the visible heritage projects of the centre. A few streets away, the maison espagnole is a sixteenth-century timber-framed house with a jettied upper floor, from the period when Valenciennes belonged to the Spanish Netherlands, and one of the rare civil survivors of it in a town badly used by war. It long housed the tourist office reception, whose move to the Mont-de-Piété has been in preparation: check the current address before going there for a map or a guided-tour ticket.",
+      },
+      {
+        heading: "Parc de la Rhonelle, and le phénix",
+        body: "Laid out by the landscape architect Henri Martinet and finished in 1904, this English-style park covers about five hectares. Martinet used the course of the river and the changes of level to sink a basin, trace winding walks and install false ruins and rockwork, in the picturesque grammar of the period, and it holds several thousand trees and shrubs of varied species. It is the lung of the centre, a few minutes on foot from the museums, and the best place to break a day of visits without going back to the car. For the evening, le phénix — opened on 26 January 1998 after two years of building — is the national stage of Valenciennes and one of the most active cultural venues in the Hauts-de-France: theatre, music and dance, with international production and not only touring work. That is what separates a stay here from a heritage visit: there is a programme after dark. Check the season and ticketing before you come, since the most awaited shows sell out.",
+      },
+      {
+        heading: "Getting there, and what is around",
+        body: "Valenciennes is on the rail axis linking Lille to the Hainaut and to Belgium, whose border is very close, and on the motorway network of the north. The town is walkable: museum, town hall, Spanish house, Mont-de-Piété and Saint-Géry all sit within ten minutes of each other, with the parc de la Rhonelle barely further. Around it, the Scarpe-Escaut regional nature park, the abbey of Saint-Amand-les-Eaux and the UNESCO-listed mining basin are accessible from the town without being in it, and make day trips. One point that matters if you are coming from abroad: the border here is an internal Schengen crossing with no formalities, so a day in Mons or Tournai is simply a train ride — but carry identity documents, since spot checks are permitted and the two countries are separate jurisdictions for everything from phone roaming to pharmacy prescriptions.",
+      },
+    ],
+    relatedCities: ["valenciennes", "lille", "douai", "arras"],
+    tags: ["things to do in valenciennes", "valenciennes", "travel", "city guide", "hauts-de-france"],
+  },
+  {
+    slug: "things-to-do-in-thionville-2026",
+    title: "Things to do in Thionville: a thousand years of frontier",
+    metaTitle: "Things to Do in Thionville, on the Luxembourg Border",
+    metaDesc:
+      "A fourteen-sided keep, a belfry rebuilt by three states, a German fort of 1899, the largest Maginot Line work, and Luxembourg half an hour away.",
+    category: "city-guide",
+    emoji: "🛡️",
+    readMinutes: 7,
+    publishedAt: "2026-08-26",
+    updatedAt: "2026-08-26",
+    intro:
+      "Thionville, about 42,800 residents, has a distinction our own data makes visible: it is one of the rare mid-sized French towns that is gaining people — it had a little over 40,500 in 2016. The reason is one word, Luxembourg, whose border is some thirty kilometres away. That frontier position is nothing new. The town has been Luxembourgish, Burgundian, Spanish, French and German, and every side left a fortification behind. That is what makes it worth visiting, and it is what this guide is about: a thousand years of border, legible in a day on foot.",
+    sections: [
+      {
+        heading: "The tour aux Puces and its museum",
+        body: "This is the oldest and the strangest building in town: a polygonal keep of fourteen sides, what remains of the castle raised by the counts of Luxembourg at the end of the eleventh century. The fourteen-sided plan has no regional equivalent, and it reads all the better if you walk right round it. The tower now holds an archaeology museum with the Musée de France label, its collections running from prehistory to the Renaissance across eight thematic rooms. It is the logical starting point: you take in the history of the site before going to see what that history produced above ground.",
+      },
+      {
+        heading: "The belfry",
+        body: "The charter of franchise granted in 1239 by the counts of Luxembourg to the burghers of Thionville allowed them to build a fortified wall and a watchtower: the first belfry, symbol of communal liberties, went up in the fourteenth century. The present tower is a rebuilding from the first half of the sixteenth century, during the great fortification works ordered under Charles V. In 1699 the town had the upper part remade with a clock stage under an imperial roof, which is the silhouette you see today. Three states, three centuries, one tower: that is Thionville in summary.",
+      },
+      {
+        heading: "The old centre and the Moselle quays",
+        body: "The centre fits into a few streets around the belfry and the market square, with that Moselle mixture of classical French fronts and buildings from the German period — Thionville having been annexed from 1871 to 1918, like the whole of the Moselle. It is also why so many places here have a German form of their name, Diedenhofen for the town itself. The quays below have been laid out as a promenade and give the town its breathing space. That is where you measure what the river meant: barge traffic, the steelworks of the valley, and the reason so many armies wanted to hold this crossing point.",
+      },
+      {
+        heading: "The fort de Guentrange",
+        body: "On the heights of Guentrange, a former wine-growers' village that is part of Thionville and never was a separate commune, stands a German fortified work whose construction began in April 1899 and which became operational in 1905. It belonged to the fortification programme of the Moselle between Metz and the Luxembourg border, and its job was to protect Thionville and its railway junction from a French attack. Out of military use since 1971, it is open and maintained by a volunteer association. Visiting slots are limited and seasonal, so check with the association or the tourist office before making the climb.",
+      },
+      {
+        heading: "The château de La Grange, at Manom",
+        body: "This one is accessible from Thionville without being in it: the château de La Grange belongs to the neighbouring commune of Manom, to the north. The medieval estate recorded from the twelfth century has gone; the present building was rebuilt from 1731 for Christophe Gomé des Hazards, to plans by Robert de Cotte — the king's first architect, which explains the very Parisian look of the façade in the middle of the Moselle countryside. The château opens in season and by guided tour, and its garden adds to the interest. Check the opening days, which are restricted.",
+      },
+      {
+        heading: "The fort du Hackenberg, at Veckring",
+        body: "Another site accessible from Thionville without being in it, this time to the east: the Hackenberg is the largest work of the Maginot Line, nineteen surface blocks linked by kilometres of underground galleries, built between 1929 and 1935. Only the Hochwald, in northern Alsace, is comparable. The visit is run by the association that maintains it and uses the electric train in the galleries. It stays around twelve degrees down there all year, so bring a jacket even in August. Taken together with Guentrange, you get two opposed defensive systems thirty years apart — the German answer of 1899 and the French answer of the 1930s, both of which were bypassed rather than broken.",
+      },
+      {
+        heading: "Puzzle, and the parks",
+        body: "Opened at the end of September 2016, Puzzle brings together in one building of several thousand square metres a media library, a visual arts department, exhibition space, digital creation studios and a café. Its white, rounded silhouette cuts sharply against a town of fortifications, and that is deliberate. For a visitor the interest is not only architectural: it is an open, heated place with exhibitions and the press, which makes it the answer to a wet Moselle afternoon — and here that happens often. The town has also kept planted space in the centre, notably the parc Wilson and the parc Napoléon, inherited from the period when the urban fortifications were dismantled to open the town up. Their outlines often follow the former glacis, which is why they are long and narrow. They work less as destinations than as links: they let you cross town from one site to the next on foot and in the shade.",
+      },
+      {
+        heading: "The Moselle valley by bike, and a cross-border base",
+        body: "The valley is flat, the river canalised and the banks made up, so cycling is the right way out of town without any climbing. Northwards you head up towards the Luxembourg border; southwards you drop towards Metz. The landscape is that of an industrial valley in transition, with its steel wasteland, its wine villages on the slopes and its locks — nothing like a postcard and plenty to tell. Bikes hire in town and the routes are waymarked; the whole thing works with children. Thionville itself sits on the Metz-Luxembourg railway, one of the most heavily used lines in France thanks to cross-border commuters, which gives a train frequency unusual for a town this size. That makes it a genuinely useful base: Luxembourg City, Metz with its Centre Pompidou, and Trier — the Roman capital of Germania, which French signage calls Trèves — are all day trips, and a room here costs a fraction of one in Luxembourg. Both borders are internal Schengen crossings with no formalities, but carry identity documents, and remember you are changing country for everything else: pharmacies, emergency numbers and fuel prices all differ across the line. Two days cover the town and its forts; the rest depends on how many frontiers you want to cross.",
+      },
+    ],
+    relatedCities: ["thionville", "metz", "nancy"],
+    tags: ["things to do in thionville", "thionville", "travel", "city guide", "grand-est"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed
