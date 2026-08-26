@@ -87,6 +87,12 @@ const ONLY_SLUG = opt("slug") ?? null;
 const SRC_DIR = opt("src") ?? SOURCE_DIR;
 const LIMIT = Number(opt("limit") ?? Infinity);
 const DRY_RUN = args.includes("--dry-run");
+// `fetch` va chercher la Géoplateforme par défaut : les fichiers INPN
+// référencés par data.gouv.fr répondent 200 en text/html depuis la cyberattaque
+// du MNHN (voir le bloc GEOPF_*). `--datagouv` garde l'ancienne route pour le
+// jour où elle revient — elle résout correctement, c'est le dernier saut qui est
+// mort, donc le résolveur reste utile pour le constater en une commande.
+const USE_DATAGOUV = args.includes("--datagouv");
 
 const log = (...a) => console.log(...a);
 
@@ -108,7 +114,10 @@ const GRID_STEP_M = 250;
 const AREAS_PER_CITY = 30;
 /** Output format version — bump when the shape or the parameters change, so a
  *  half-old JSON is recognisable rather than silently mixed. */
-const INGEST_VERSION = 2;
+// 3 : la source passe de l'INPN (fichiers disparus) à la BD TOPO de l'IGN, qui
+// redistribue les mêmes périmètres MNHN — et les ZNIEFF sortent du calcul, la
+// BD TOPO ne les portant pas. Le contenu mesuré n'est donc pas le même qu'en 2.
+const INGEST_VERSION = 3;
 
 /**
  * The six disjoint territories the seed lives in, as lon/lat boxes.
@@ -230,26 +239,26 @@ const LAYERS = [
   {
     kind: "reserve-naturelle",
     match: [/reserves?\s*naturelles?/, /\brn\b/, /\brnn\b/, /\brnr\b/],
-    idFields: ["ID_MNHN", "ID_LOCAL", "CODE_R_ENP", "GID"],
-    nameFields: ["NOM_SITE", "NOM", "NOM_ENP", "LIB_ENP"],
+    idFields: ["ID_MNHN", "ID_LOCAL", "CODE_R_ENP", "GID", "cleabs"],
+    nameFields: ["NOM_SITE", "NOM", "NOM_ENP", "LIB_ENP", "toponyme"],
   },
   {
     kind: "parc-national",
     match: [/parcs?\s*nationa(l|ux)/, /\bpn\b/],
-    idFields: ["ID_MNHN", "ID_LOCAL", "CODE_R_ENP", "GID"],
-    nameFields: ["NOM_SITE", "NOM", "NOM_ENP", "LIB_ENP"],
+    idFields: ["ID_MNHN", "ID_LOCAL", "CODE_R_ENP", "GID", "cleabs"],
+    nameFields: ["NOM_SITE", "NOM", "NOM_ENP", "LIB_ENP", "toponyme"],
   },
   {
     kind: "parc-naturel-regional",
     match: [/parcs?\s*(naturels?\s*)?regiona(l|ux)/, /\bpnr\b/],
-    idFields: ["ID_MNHN", "ID_LOCAL", "CODE_R_ENP", "GID"],
-    nameFields: ["NOM_SITE", "NOM", "NOM_ENP", "LIB_ENP"],
+    idFields: ["ID_MNHN", "ID_LOCAL", "CODE_R_ENP", "GID", "cleabs"],
+    nameFields: ["NOM_SITE", "NOM", "NOM_ENP", "LIB_ENP", "toponyme"],
   },
   {
     kind: "arrete-biotope",
     match: [/biotope/, /\bapb\b/, /\bappb\b/],
-    idFields: ["ID_MNHN", "ID_LOCAL", "CODE_R_ENP", "GID"],
-    nameFields: ["NOM_SITE", "NOM", "NOM_ENP", "LIB_ENP"],
+    idFields: ["ID_MNHN", "ID_LOCAL", "CODE_R_ENP", "GID", "cleabs"],
+    nameFields: ["NOM_SITE", "NOM", "NOM_ENP", "LIB_ENP", "toponyme"],
   },
   {
     // Both directives land in the same bucket: the habitats one (SIC/ZSC) and
@@ -257,22 +266,78 @@ const LAYERS = [
     // under two headings and the grid resolves the overlap.
     kind: "natura-2000",
     match: [/natura/, /\bsic\b/, /\bzsc\b/, /\bzps\b/],
-    idFields: ["SITECODE", "SITE_CODE", "CODE", "ID_MNHN"],
-    nameFields: ["SITENAME", "SITE_NAME", "NOM_SITE", "NOM"],
+    idFields: ["SITECODE", "SITE_CODE", "CODE", "ID_MNHN", "cleabs"],
+    nameFields: ["SITENAME", "SITE_NAME", "NOM_SITE", "NOM", "toponyme"],
   },
   {
     kind: "znieff-1",
     match: [/znieff\s*(de\s*)?(type\s*)?0*(1|i)\b/],
-    idFields: ["NM_SFFZN", "ID_MNHN", "CD_SIG", "ID_LOCAL"],
-    nameFields: ["LB_ZN", "NOM", "LB_ZONE", "NOM_SITE"],
+    idFields: ["NM_SFFZN", "ID_MNHN", "CD_SIG", "ID_LOCAL", "cleabs"],
+    nameFields: ["LB_ZN", "NOM", "LB_ZONE", "NOM_SITE", "toponyme"],
   },
   {
     kind: "znieff-2",
     match: [/znieff\s*(de\s*)?(type\s*)?0*(2|ii)\b/],
-    idFields: ["NM_SFFZN", "ID_MNHN", "CD_SIG", "ID_LOCAL"],
-    nameFields: ["LB_ZN", "NOM", "LB_ZONE", "NOM_SITE"],
+    idFields: ["NM_SFFZN", "ID_MNHN", "CD_SIG", "ID_LOCAL", "cleabs"],
+    nameFields: ["LB_ZN", "NOM", "LB_ZONE", "NOM_SITE", "toponyme"],
   },
 ];
+
+/**
+ * Les couches INPN sont publiées **par territoire** : une ressource par zonage
+ * et par collectivité, 108 en tout. Le seed ne couvre que la métropole et les
+ * cinq DROM, donc tout le reste est du téléchargement et de l'ingestion pour
+ * rien — la Nouvelle-Calédonie pèse à elle seule sept ressources de réserves.
+ * On les écarte nommément plutôt qu'en gardant « ce qui matche » : une liste
+ * d'exclusion explicite se relit, un silence non.
+ *
+ * Une ressource sans marqueur de territoire (Natura 2000 est publié en deux
+ * fichiers nationaux) est conservée.
+ */
+const OUT_OF_SCOPE = [
+  { re: /nouvelle\s*caledonie/, why: "hors seed (Nouvelle-Calédonie)" },
+  { re: /polynesie/, why: "hors seed (Polynésie française)" },
+  { re: /saint\s*pierre/, why: "hors seed (Saint-Pierre-et-Miquelon)" },
+  { re: /saint\s*martin/, why: "hors seed (Saint-Martin)" },
+  { re: /saint\s*barthelemy/, why: "hors seed (Saint-Barthélemy)" },
+  { re: /clipperton/, why: "hors seed (Clipperton)" },
+  { re: /wallis|futuna/, why: "hors seed (Wallis-et-Futuna)" },
+  { re: /terres\s*australes|\btaaf\b/, why: "hors seed (TAAF)" },
+];
+
+/**
+ * Ce qu'on refuse alors même que le nom correspond à une couche.
+ *
+ * ① Les ZNIEFF **marines** décrivent un périmètre en mer. Les compter
+ *    reviendrait à récompenser une ville côtière pour de l'eau : la couverture
+ *    mesurée ici est celle du sol autour de la commune, et le disque de calcul
+ *    ne distingue pas la mer de la terre. Les ZNIEFF continentales, elles,
+ *    entrent normalement.
+ * ② Les « réserves intégrales de parc national » sont le cœur d'un parc déjà
+ *    ingéré sous `parc-national` : même sol, deux lignes dans la liste affichée
+ *    au lecteur, et un intitulé qui laisserait croire à un second espace.
+ */
+const EXCLUDED = [
+  { re: /znieff\s*marines?/, why: "périmètre en mer" },
+  { re: /reserves?\s*integrales?\s*de\s*parc\s*national/, why: "cœur d'un parc déjà compté" },
+];
+
+/**
+ * Deux ressources qui portent le même titre sont la même couche republiée
+ * (l'INPN laisse l'ancien millésime en ligne — « Réserves naturelles nationales
+ * (Métropole) » existe en double, 2025-02 et 2026-08). On garde la plus
+ * récente : télécharger les deux ingérerait deux fois le même périmètre.
+ */
+function dedupeByTitle(list) {
+  const byTitle = new Map();
+  for (const r of list) {
+    const key = normalizeName(String(r.title ?? r.url ?? ""));
+    const seen = byTitle.get(key);
+    const date = String(r.last_modified ?? "");
+    if (!seen || date > String(seen.last_modified ?? "")) byTitle.set(key, r);
+  }
+  return [...byTitle.values()];
+}
 
 /**
  * Every layer a normalised name matches. Returns 0, 1 or several — the callers
@@ -338,6 +403,12 @@ const DATAGOUV_DATASETS = [
 /** Resource formats worth downloading. Anything else (pdf, csv, html, ods) is
  *  documentation or tabular companion data, not a perimeter layer. */
 const GEO_FORMATS = new Set([
+  // data.gouv.fr déclare les couches INPN en « shapefile » (et une en « shape »),
+  // pas en « shp ». Sans ces deux valeurs, le résolveur voyait 0 ressource
+  // géographique dans 108 ressources et concluait « aucune couche ne
+  // correspond » — vérifié contre l'API le 2026-08-19, pas supposé.
+  "shapefile",
+  "shape",
   "shp",
   "zip",
   "7z",
@@ -463,6 +534,127 @@ function resourceText(r) {
   return [r.title, r.description, decodeURIComponent(file)].filter(Boolean).join(" ");
 }
 
+/* ── source vivante : la Géoplateforme de l'IGN ───────────────────────────
+ *
+ * ⚠️ **Les fichiers INPN que data.gouv.fr référence n'existent plus.** Vérifié
+ * le 2026-08-19, et le mode de défaillance est le pire qui soit : chaque
+ * `https://inpn.mnhn.fr/docs/Shape/*.zip` répond **200 avec du text/html** — la
+ * coquille de l'application reconstruite après la cyberattaque du 2025-07-26.
+ * Les permaliens data.gouv (`/api/1/datasets/r/<id>`) redirigent droit dessus,
+ * et les fiches de jeu de données sont pourtant à jour (2026-08-19) : rien, dans
+ * la métadonnée, ne dit que le dernier saut est mort. Un téléchargement « réussi »
+ * rapporte donc une page HTML, qu'`unzip` refuse — c'est le seul signal.
+ *
+ * La même donnée reste publiée, vivante, par l'IGN : la BD TOPO reprend les
+ * périmètres du MNHN (`sources: "MNHN 2024"`, `identifiants_sources: "MNHN:…"`)
+ * dans sa couche `parc_ou_reserve`, servie en WFS, déjà en WGS84 et en GeoJSON —
+ * donc sans shapefile à reprojeter, sans ogr2ogr, et sans archive nationale de
+ * 200 Mo. C'est la route par défaut de `fetch` depuis ce constat.
+ *
+ * Ce qu'on n'y trouve pas : les **ZNIEFF**. C'est un inventaire sans portée
+ * réglementaire, absent de la BD TOPO ; la couche reste déclarée dans LAYERS
+ * pour le jour où une source revient, et l'ingest signale l'absence au lieu de
+ * la compenser en silence.
+ */
+const GEOPF_WFS = "https://data.geopf.fr/wfs/ows";
+const GEOPF_TYPENAME = "BDTOPO_V3:parc_ou_reserve";
+/** Le serveur plafonne une réponse à 5 000 objets ; on pagine bien en dessous. */
+const GEOPF_PAGE = 1000;
+
+/**
+ * `nature` de la BD TOPO → couche de ce pipeline, sur les noms normalisés.
+ *
+ * Les natures absentes de cette table sont ignorées **volontairement**, et la
+ * plus grosse d'abord : les 2 067 « sites acquis ou assimilés des conservatoires
+ * d'espaces naturels » sont une propriété foncière, pas un statut de protection
+ * opposable, et les faire entrer doublerait la couverture mesurée sans qu'aucun
+ * arrêté ne l'ait décidé. Même raisonnement pour les réserves biologiques, les
+ * terrains du Conservatoire du littoral, Ramsar, les réserves de biosphère et
+ * les biens UNESCO : réels, mais d'une autre nature que ce que la page annonce.
+ */
+const GEOPF_NATURE = {
+  "reserve naturelle": "reserve-naturelle",
+  "parc national": "parc-national",
+  "parc naturel regional": "parc-naturel-regional",
+  "arrete de protection": "arrete-biotope",
+  "site natura 2000": "natura-2000",
+};
+
+/** Une page WFS. Retourne les features, et de quoi savoir s'il en reste. */
+async function geopfPage(startIndex) {
+  const url =
+    `${GEOPF_WFS}?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature` +
+    `&TYPENAMES=${encodeURIComponent(GEOPF_TYPENAME)}` +
+    `&OUTPUTFORMAT=${encodeURIComponent("application/json")}` +
+    `&SRSNAME=EPSG:4326&SORTBY=cleabs&COUNT=${GEOPF_PAGE}&STARTINDEX=${startIndex}`;
+  const res = await fetch(url, { headers: { "User-Agent": UA } });
+  if (!res.ok) throw new Error(`HTTP ${res.status} sur le WFS Géoplateforme (startIndex=${startIndex})`);
+  const payload = await res.json();
+  if (!Array.isArray(payload?.features)) {
+    throw new Error("réponse WFS inattendue : pas de tableau `features`");
+  }
+  return payload;
+}
+
+/**
+ * Télécharge la couche nationale, la découpe par couche de protection et écrit
+ * un GeoJSON par couche dans le dossier que lit l'ingest.
+ */
+async function fetchFromGeopf({ dryRun }) {
+  log(`couche ${GEOPF_TYPENAME} — WFS ${GEOPF_WFS}\n`);
+  const buckets = new Map();
+  const ignored = new Map();
+  let start = 0;
+  let total = null;
+  for (;;) {
+    const page = await geopfPage(start);
+    total ??= page.totalFeatures ?? page.numberMatched ?? null;
+    for (const f of page.features) {
+      const nature = normalizeName(String(f.properties?.nature ?? ""));
+      const kind = GEOPF_NATURE[nature];
+      if (!kind) {
+        ignored.set(nature, (ignored.get(nature) ?? 0) + 1);
+        continue;
+      }
+      if (!buckets.has(kind)) buckets.set(kind, []);
+      buckets.get(kind).push(f);
+    }
+    start += page.features.length;
+    log(`  ${start}${total ? ` / ${total}` : ""} objets lus`);
+    if (!page.features.length || (total && start >= total)) break;
+    await sleep(700);
+  }
+
+  log("");
+  for (const [kind, feats] of [...buckets].sort()) log(`  ✓ ${kind.padEnd(22)} ${feats.length} périmètres`);
+  const skipped = [...ignored].sort((a, b) => b[1] - a[1]);
+  if (skipped.length) {
+    log(`  – ignorées (hors périmètre du score) : ${skipped.map(([n, c]) => `${c} ${n}`).join(", ")}`);
+  }
+  const absent = LAYERS.map((l) => l.kind).filter((k) => !buckets.has(k));
+  if (absent.length) log(`  ⚠️  aucune donnée pour : ${absent.join(", ")}`);
+
+  if (dryRun) {
+    log("\n--dry-run: rien écrit.");
+    return;
+  }
+  await fs.mkdir(SOURCE_DIR, { recursive: true });
+  for (const [kind, features] of buckets) {
+    const dest = path.join(SOURCE_DIR, `${kind}--bdtopo.geojson`);
+    await fs.writeFile(dest, JSON.stringify({ type: "FeatureCollection", features }));
+    const { size } = await fs.stat(dest);
+    log(`  → ${path.basename(dest)} (${(size / 1e6).toFixed(1)} Mo)`);
+  }
+  log("\nCouches en place. Suite : npm run protected-areas");
+  log("Attribution à porter avec les chiffres : IGN BD TOPO® (périmètres MNHN), Licence Ouverte Etalab.");
+}
+
+/** Nom de fichier stable et lisible pour une ressource, dérivé de son titre. */
+function resourceSlug(r) {
+  const base = normalizeName(String(r.title ?? "")).replace(/^contours geographi\w* d[eu]s? /, "");
+  return (base.replace(/\s+/g, "-").slice(0, 60) || "sans-titre").replace(/-+$/, "");
+}
+
 /**
  * Ask data.gouv.fr what each dataset currently publishes, and work out which
  * resource carries which layer.
@@ -484,7 +676,14 @@ async function resolveDatagouvSources() {
     const geo = payload.resources.filter((r) => GEO_FORMATS.has(resourceFormat(r)));
     const picks = new Map();
     const ambiguous = [];
+    const skipped = [];
     for (const r of geo) {
+      const norm = normalizeName(resourceText(r));
+      const off = OUT_OF_SCOPE.find((t) => t.re.test(norm)) ?? EXCLUDED.find((e) => e.re.test(norm));
+      if (off) {
+        skipped.push({ resource: r, why: off.why });
+        continue;
+      }
       const layers = matchLayers(resourceText(r)).filter((l) => ds.kinds.includes(l.kind));
       if (layers.length === 1) {
         const kind = layers[0].kind;
@@ -494,8 +693,10 @@ async function resolveDatagouvSources() {
         ambiguous.push({ resource: r, kinds: layers.map((l) => l.kind) });
       }
     }
+    for (const [kind, list] of picks) picks.set(kind, dedupeByTitle(list));
     out.push({
       dataset: ds,
+      skipped,
       title: payload.title ?? ds.slug,
       lastModified: payload.last_modified ?? payload.last_update ?? null,
       licence: payload.license ?? null,
@@ -589,6 +790,11 @@ async function fetchSources({ dryRun }) {
         log(`    ✓ ${kind.padEnd(22)} ${res.title ?? "(untitled)"} [${resourceFormat(res)}]`);
       }
     }
+    if (r.skipped?.length) {
+      const by = new Map();
+      for (const k of r.skipped) by.set(k.why, (by.get(k.why) ?? 0) + 1);
+      log(`    – écartées : ${[...by].map(([w, n]) => `${n} ${w}`).join(", ")}`);
+    }
     for (const a of r.ambiguous) {
       blocked = true;
       log(`    ✗ ambiguous (${a.kinds.join(" / ")}): ${a.resource.title ?? a.resource.url}`);
@@ -627,12 +833,17 @@ async function fetchSources({ dryRun }) {
 
   for (const r of resolved) {
     for (const [kind, list] of r.picks) {
-      for (const [i, res] of list.entries()) {
+      for (const res of list) {
         // The permalink follows the publisher's file rotation; the direct url
         // is the current file and can go stale under us.
         const url = res.latest ?? res.url;
         const fmt = resourceFormat(res);
-        const suffix = list.length > 1 ? `-${i + 1}` : "";
+        // Le nom porte la couche *et* le titre de la ressource. Un simple
+        // numéro d'ordre ne suffisait plus : « Réserves naturelles nationales
+        // (Métropole) », « régionales (Métropole) » et « de Corse (Métropole) »
+        // sont trois fichiers de la même couche sur le même territoire, et le
+        // matcher de l'ingest travaille sur le nom de fichier.
+        const suffix = `--${resourceSlug(res)}`;
         const archive = path.join(DOWNLOAD_DIR, `${kind}${suffix}.${fmt}`);
         log(`↓ ${kind}${suffix} ← ${url}`);
         const got = await download(url, archive, res.filesize);
@@ -870,7 +1081,18 @@ async function* streamFeatures(file) {
     return;
   }
 
+  // ⚠️ L'état de l'automate (profondeur, chaîne en cours, début d'objet) vit
+  // d'un morceau de flux à l'autre, donc la position de lecture doit vivre avec
+  // lui. La version d'origine repartait de l'indice 0 à chaque morceau alors que
+  // le tampon contenait encore ce qui venait d'être lu : les accolades déjà
+  // comptées l'étaient une seconde fois, la profondeur ne revenait jamais à
+  // zéro, et le fichier rendait une poignée d'objets au lieu de ses milliers.
+  // Personne ne pouvait le voir : ce lecteur n'avait jamais reçu de vraies
+  // données (le JSON de sortie était `{}` depuis le premier jour), et sur des
+  // objets plus petits qu'un morceau le défaut se cache. Constaté le
+  // 2026-08-19 sur la couche natura-2000 : 14 objets lus sur 1 761.
   let buf = "";
+  let pos = 0;
   let started = false;
   let depth = 0;
   let inStr = false;
@@ -878,19 +1100,20 @@ async function* streamFeatures(file) {
   let start = -1;
   for await (const chunk of stream) {
     buf += chunk;
-    let i = 0;
     if (!started) {
       const m = buf.match(/"features"\s*:\s*\[/);
       if (!m) {
-        // Keep a tail long enough that the marker can't be split across chunks.
+        // Garder une queue assez longue pour que le marqueur ne puisse pas être
+        // coupé entre deux morceaux.
         if (buf.length > 1 << 20) buf = buf.slice(-64);
         continue;
       }
       buf = buf.slice(m.index + m[0].length);
+      pos = 0;
       started = true;
     }
-    for (; i < buf.length; i++) {
-      const c = buf[i];
+    for (; pos < buf.length; pos++) {
+      const c = buf[pos];
       if (inStr) {
         if (esc) esc = false;
         else if (c === "\\") esc = true;
@@ -899,19 +1122,25 @@ async function* streamFeatures(file) {
       }
       if (c === '"') inStr = true;
       else if (c === "{") {
-        if (depth === 0) start = i;
+        if (depth === 0) start = pos;
         depth++;
       } else if (c === "}") {
         depth--;
         if (depth === 0 && start >= 0) {
-          yield JSON.parse(buf.slice(start, i + 1));
-          buf = buf.slice(i + 1);
-          i = -1;
+          yield JSON.parse(buf.slice(start, pos + 1));
+          buf = buf.slice(pos + 1);
+          pos = -1;
           start = -1;
         }
       }
     }
-    if (depth === 0) buf = "";
+    // Entre deux objets, tout ce qui précède la position de lecture n'est que
+    // des séparateurs : on peut le jeter, mais pas le tampon entier — il porte
+    // peut-être le début de l'objet suivant.
+    if (depth === 0 && start < 0 && !inStr) {
+      buf = buf.slice(pos);
+      pos = 0;
+    }
   }
   if (!started) {
     throw new Error(
@@ -1210,7 +1439,7 @@ async function ingest() {
     const inScope = st.territory != null && coveredTerritories.has(st.territory);
     const head = {
       crawledAt,
-      source: "inpn",
+      source: "bdtopo",
       ingestVersion: INGEST_VERSION,
       radiusKm: RADIUS_KM,
       gridStepM: GRID_STEP_M,
@@ -1509,7 +1738,8 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
     // as a sentence rather than a stack trace, since the usual reader is
     // someone checking whether the layers landed.
     try {
-      await fetchSources({ dryRun: DRY_RUN });
+      if (USE_DATAGOUV) await fetchSources({ dryRun: DRY_RUN });
+      else await fetchFromGeopf({ dryRun: DRY_RUN });
     } catch (err) {
       log(`\n${String(err?.message ?? err)}`);
       process.exitCode = 1;

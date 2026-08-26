@@ -71,6 +71,19 @@ export const GBIF_CREDIT = "GBIF.org — Global Biodiversity Information Facilit
 export const GBIF_URL = "https://www.gbif.org";
 export const INPN_CREDIT = "INPN — MNHN, Licence Ouverte Etalab";
 export const INPN_URL = "https://inpn.mnhn.fr";
+/**
+ * Les périmètres affichés ne viennent plus de l'INPN mais de la **BD TOPO de
+ * l'IGN**, qui redistribue les mêmes tracés du MNHN (`sources: "MNHN 2024"`).
+ * Ce n'est pas un choix éditorial : depuis la cyberattaque du 2025-07-26, les
+ * fichiers `inpn.mnhn.fr/docs/Shape/*.zip` que data.gouv.fr référence répondent
+ * 200 en `text/html` — la coquille du site reconstruit (vérifié 2026-08-19).
+ * L'attribution suit la source réellement utilisée.
+ */
+export const PROTECTED_AREAS_CREDIT =
+  "IGN BD TOPO® — périmètres MNHN, Licence Ouverte Etalab";
+export const PROTECTED_AREAS_CREDIT_EN =
+  "IGN BD TOPO® — perimeters from MNHN, Etalab Open Licence";
+export const PROTECTED_AREAS_URL = "https://geoservices.ign.fr/bdtopo";
 /** Rappel : les parcs viennent d'OSM et gardent leur attribution ODbL. */
 export { OSM_CREDIT, OSM_CREDIT_EN };
 
@@ -317,7 +330,7 @@ export type ProtectionTerritory =
 
 interface ProtectedAreasCommon {
   crawledAt: string;
-  source: "inpn";
+  source: "inpn" | "bdtopo";
   ingestVersion: number;
   radiusKm: number;
   gridStepM: number;
@@ -431,16 +444,20 @@ export const PROTECTED_MEASURED_SLUGS = PROTECTED_CRAWLED_SLUGS.filter((s) => {
  * que la donnée n'est pas là.
  */
 export function inpnUrl(area: ProtectedArea): string | null {
-  if (!area.id) return null;
-  switch (area.kind) {
-    case "natura-2000":
-      return `${INPN_URL}/site/natura2000/${encodeURIComponent(area.id)}`;
-    case "znieff-1":
-    case "znieff-2":
-      return `${INPN_URL}/zone/znieff/${encodeURIComponent(area.id)}`;
-    default:
-      return `${INPN_URL}/espace/protege/${encodeURIComponent(area.id)}`;
-  }
+  // Vérifié le 2026-08-19, depuis une machine avec egress : **toutes** les URL
+  // de inpn.mnhn.fr répondent 200 avec du `text/html` — la coquille Angular du
+  // site reconstruit après la cyberattaque, y compris sur une fiche Natura 2000
+  // bien formée. On ne peut donc pas affirmer qu'un lien mène quelque part, et
+  // la règle du projet est explicite : un lien mort vaut moins que pas de lien.
+  // Les surfaces affichent déjà le nom sans lien quand cette fonction renvoie
+  // `null`, donc il n'y a rien d'autre à changer.
+  //
+  // De quoi le rebrancher le jour où l'INPN sert à nouveau des fiches : la
+  // BD TOPO porte le code MNHN du site dans `identifiants_sources`
+  // (« MNHN:FR8201770 » sur les 1 761 sites Natura 2000), il suffira de le
+  // remonter dans `ProtectedArea.id` côté ingest.
+  void area;
+  return null;
 }
 
 /**

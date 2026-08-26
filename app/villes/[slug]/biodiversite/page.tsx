@@ -38,8 +38,8 @@ import {
   SCORE_LEGEND_FR,
   GBIF_CREDIT,
   GBIF_URL,
-  INPN_CREDIT,
-  INPN_URL,
+  PROTECTED_AREAS_CREDIT,
+  PROTECTED_AREAS_URL,
   OSM_CREDIT,
   PARKS_PER_CITY_CAP,
   type SpeciesGroup,
@@ -880,15 +880,18 @@ export default async function BiodiversitePage({ params }: Props) {
               <>
                 Zones protégées :{" "}
                 <a
-                  href={INPN_URL}
+                  href={PROTECTED_AREAS_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[var(--accent)] hover:underline"
                 >
-                  {INPN_CREDIT}
+                  {PROTECTED_AREAS_CREDIT}
                 </a>
                 , périmètres du {measuredAreas.crawledAt}, croisés sur une grille de{" "}
-                {measuredAreas.gridStepM} m.{" "}
+                {measuredAreas.gridStepM} m. Seules les protections
+                réglementaires sont comptées — réserves naturelles, parcs nationaux et
+                régionaux, arrêtés de protection, Natura 2000. Une ZNIEFF est un
+                inventaire sans portée juridique : elle n&apos;entre pas dans le calcul.{" "}
               </>
             )}
             Espaces verts :{" "}
