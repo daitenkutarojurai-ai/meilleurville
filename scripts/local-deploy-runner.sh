@@ -216,8 +216,19 @@ prepare_worktree() {
   # -fd sans -x : on efface les fichiers non suivis, pas les ignorés (les liens
   # node_modules / .env.local et les restes de build survivent à la passe).
   git -C "$WORKTREE" clean -fd >>"$LOG" 2>&1
-  ln -sfn "$REPO/node_modules" "$WORKTREE/node_modules"
-  [[ -f "$REPO/.env.local" ]] && ln -sfn "$REPO/.env.local" "$WORKTREE/.env.local"
+  # `node_modules` en copie de liens durs, pas en lien symbolique : Turbopack
+  # refuse un lien qui sort de la racine du projet ("Symlink [project]/
+  # node_modules is invalid, it points out of the filesystem root") et c'est ce
+  # qui a gelé la prod du 20 au 26/08/2026 — sept passes de suite, chacune en
+  # trente secondes, pendant qu'un arbre sale renvoyait la publication ici. Les
+  # liens durs ne coûtent rien sur le même système de fichiers ; le lien
+  # symbolique reste en secours si la copie échoue (montages séparés).
+  if [[ ! -d "$WORKTREE/node_modules" || "$REPO/package-lock.json" -nt "$WORKTREE/node_modules" ]]; then
+    rm -rf "$WORKTREE/node_modules"
+    cp -al "$REPO/node_modules" "$WORKTREE/node_modules" 2>>"$LOG" ||
+      ln -sfn "$REPO/node_modules" "$WORKTREE/node_modules"
+  fi
+  [[ -f "$REPO/.env.local" ]] && cp -f "$REPO/.env.local" "$WORKTREE/.env.local"
   if ! cmp -s "$REPO/package-lock.json" "$WORKTREE/package-lock.json"; then
     say "   ATTENTION package-lock.json diffère du dépôt — node_modules partagé peut être périmé"
   fi
