@@ -414,6 +414,35 @@ export default async function RankingPage({ params }: Props) {
             </div>
           )}
 
+          {/* Voisin de barème — le classement retraite pondère les axes du seed
+              (santé, calme, coût, climat) ; celui du lien social repart d'une
+              mesure du recensement, la part des ménages d'une personne, qui est
+              le risque que ces axes ne voient pas : bien vieillir quelque part
+              suppose quelqu'un à qui parler. */}
+          {slug === "retraite" && (
+            <div>
+              <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-3">
+                Classement voisin
+              </p>
+              <Link
+                href="/classements/lien-social"
+                className="flex items-start gap-3 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 p-3 transition-colors group"
+              >
+                <span className="text-xl flex-shrink-0">🤝</span>
+                <div className="min-w-0">
+                  <p className="text-xs font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug">
+                    Les villes où l&apos;on vit le moins souvent seul
+                  </p>
+                  <p className="text-xs text-[var(--text-tertiary)] mt-0.5">
+                    Autre matière, autre question : non pas quelle ville accueille le mieux une
+                    retraite, mais où la part des ménages d&apos;une seule personne reste basse.
+                    Tous les départements n&apos;y sont pas classés, et la page le dit.
+                  </p>
+                </div>
+              </Link>
+            </div>
+          )}
+
           {/* Related guides */}
           {relatedGuides.length > 0 && (
             <div>

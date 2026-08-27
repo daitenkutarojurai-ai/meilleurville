@@ -472,6 +472,41 @@ export default async function ProfilePage({ params }: Props) {
           </section>
         )}
 
+        {/* Solitude counterpart — visible for the profiles who arrive somewhere
+            with a social circle to rebuild rather than to keep: célibataires
+            (whose own intro derives its "densité de célibataires" from that very
+            score), retraités et futurs retraités (isolement après la sortie du
+            travail), néo-ruraux (une petite commune choisie pour son calme),
+            expat-retour (le carnet d'adresses est resté dans l'autre pays). */}
+        {["celibataires", "retraites", "futurs-retraites", "neo-ruraux", "expat-retour"].includes(profile.slug) && (
+          <section>
+            <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+              Le classement complémentaire — vivre entouré
+            </h3>
+            <Link href="/classements/lien-social" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl" aria-hidden>🤝</span>
+                  <div>
+                    <p className="font-semibold text-[var(--text-primary)]">
+                      Les villes françaises où l&apos;on vit le moins souvent seul
+                    </p>
+                    <p className="text-xs text-[var(--text-secondary)] mt-1">
+                      Le top ci-dessus pondère plusieurs axes du site ; celui-ci n&apos;en
+                      retient aucun. Il repart d&apos;une mesure du recensement — la part des
+                      ménages d&apos;une seule personne — parce que c&apos;est la dimension
+                      qu&apos;une bonne note en santé, en calme ou en coût ne garantit
+                      jamais. Tous les départements n&apos;y sont pas couverts : les villes
+                      qui n&apos;ont pas de valeur propre sont écartées du barème plutôt que
+                      classées à égalité sur un repli national.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+          </section>
+        )}
+
         {/* Other profiles */}
         <section>
           <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">

@@ -359,6 +359,11 @@ export default async function DemographiePage({ params }: Props) {
               → Les villes dont la population recule depuis 2011
             </Link>
           </div>
+          <div>
+            <Link href="/classements/lien-social" className="text-[var(--accent)] hover:underline">
+              → Où la part des ménages d&apos;une seule personne reste la plus basse
+            </Link>
+          </div>
         </div>
       </section>
 

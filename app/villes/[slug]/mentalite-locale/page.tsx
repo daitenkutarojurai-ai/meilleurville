@@ -131,6 +131,17 @@ export default async function MentalitePage({ params }: Props) {
               ))}
             </ul>
 
+            <p className="mt-6 text-sm text-[var(--text-secondary)] leading-relaxed">
+              Ces six dimensions décrivent l&apos;ambiance ; elles ne disent pas avec
+              qui on la partage. Pour ça, le classement des{" "}
+              <Link href="/classements/lien-social" className="text-[var(--accent)] hover:underline">
+                villes où l&apos;on vit le moins souvent seul
+              </Link>{" "}
+              repart d&apos;une mesure et non d&apos;une règle : la part des ménages d&apos;une
+              seule personne au recensement. Il ne couvre pas tous les départements, et
+              il le dit avant de citer le moindre rang.
+            </p>
+
             <p className="mt-8 text-xs text-[var(--text-tertiary)] leading-relaxed">
               Méthode : chaque dimension est dérivée par règles transparentes des 8 axes du seed (population, transport, culture, sécurité, nature, télétravail), du climat (ensoleillement, températures), des character-tags éditoriaux et de l'archetype régional. Aucune donnée d'enquête sociologique n'est mobilisée — c'est une synthèse honnête de signaux quantitatifs, pas un portrait psychologique.
             </p>

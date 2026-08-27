@@ -295,6 +295,13 @@ export default function DemographyHubPage() {
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Jeunes actifs → dynamisme</div>
             </Card>
           </Link>
+          <Link href="/classements/lien-social" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">🤝</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">Ménages d&apos;une personne</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">L&apos;autre lecture du recensement : où l&apos;on vit le moins souvent seul</div>
+            </Card>
+          </Link>
         </div>
       </section>
 
