@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { CITIES_LIGHT } from "@/lib/cities-light";
+import { EXPAT_COUNTRY_OPTIONS } from "@/lib/expat-return";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
@@ -45,7 +46,7 @@ export default function ExpatQuizPage() {
       </section>
 
       <div className="mx-auto max-w-3xl px-4 sm:px-6 py-8">
-        <ExpatQuiz cities={CITIES_LIGHT} />
+        <ExpatQuiz cities={CITIES_LIGHT} countries={EXPAT_COUNTRY_OPTIONS} />
       </div>
 
       <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-16">

@@ -62,6 +62,23 @@ export const EN_EXPAT_COUNTRY_SLUGS = new Set([
   "etats-unis",
 ]);
 
+/**
+ * Projection maigre pour `components/ExpatQuiz.tsx`, qui est un composant
+ * client et n'a besoin que de l'étiquette du bouton et de la liste de villes
+ * frontalières. Ce module fait 190 Ko — vingt et une fiches de prose, de
+ * chiffres et de liens administratifs — et un tableau de littéraux n'est pas
+ * tree-shakable : l'importer en **valeur** depuis le quiz expédiait tout au
+ * navigateur (CLAUDE.md § Performance, même piège que `@/data/guides`).
+ *
+ * La page serveur `app/expat-retour/quiz` passe cette liste en prop, comme elle
+ * passe déjà `CITIES_LIGHT` — donc rien à maintenir en double : un pays ajouté
+ * à `EXPAT_COUNTRIES` apparaît dans le quiz sans autre geste.
+ */
+export type ExpatCountryOption = Pick<
+  ExpatCountryProfile,
+  "slug" | "name" | "flag" | "bestSuitedCities"
+>;
+
 export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
   {
     slug: "suisse",
@@ -843,3 +860,8 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
 export function getExpatCountry(slug: string): ExpatCountryProfile | undefined {
   return EXPAT_COUNTRIES.find((c) => c.slug === slug);
 }
+
+/** Dérivée du tableau ci-dessus — cf. le commentaire d'`ExpatCountryOption`. */
+export const EXPAT_COUNTRY_OPTIONS: ExpatCountryOption[] = EXPAT_COUNTRIES.map(
+  ({ slug, name, flag, bestSuitedCities }) => ({ slug, name, flag, bestSuitedCities }),
+);

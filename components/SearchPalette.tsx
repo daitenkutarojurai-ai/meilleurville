@@ -4,15 +4,17 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { Search, MapPin, BookOpen, Trophy, Globe2, Tag as TagIcon, BookText, X } from "lucide-react";
-import { CITIES_SEED } from "@/data/cities-seed";
-import { RANKING_META } from "@/lib/rankings";
+import { RANKING_META } from "@/lib/rankings-meta";
 import { rankingEn } from "@/lib/rankings-en";
 import { DEFAULT_LOCALE } from "@/lib/i18n";
 import { scoreColor, scoreHex } from "@/lib/utils";
 // Projections maigres : importer @/data/guides ici expédierait le corpus
-// éditorial entier au navigateur pour afficher une liste de titres.
+// éditorial entier au navigateur pour afficher une liste de titres, et
+// @/data/cities-seed les 588 Ko du seed pour afficher un nom et un score.
 // Cf. lib/search-index.ts — qui sert aussi le corpus de la bonne langue.
-import { SEARCH_GUIDES, SEARCH_TAGS } from "@/lib/search-index";
+// `RANKING_META` vient de @/lib/rankings-meta et non de @/lib/rankings, qui
+// importe le seed et data/housing.ts pour ses fonctions de tri.
+import { SEARCH_CITIES, SEARCH_GUIDES, SEARCH_TAGS } from "@/lib/search-index";
 import POSTAL_BY_SLUG from "@/data/city-postal-codes.json";
 
 const POSTAL: Record<string, string[]> = POSTAL_BY_SLUG;
@@ -89,12 +91,12 @@ function normalize(s: string): string {
 }
 
 const INDEX: Entry[] = [
-  ...CITIES_SEED.map<Entry>((c) => ({
+  ...SEARCH_CITIES.map<Entry>((c) => ({
     kind: "city",
     slug: c.slug,
     name: c.name,
     region: c.region,
-    score: c.scores.global,
+    score: c.score,
   })),
   ...SEARCH_GUIDES.map<Entry>((g) => ({
     kind: "guide",
@@ -257,15 +259,15 @@ export function SearchPalette({
   const results = useMemo<Entry[]>(() => {
     if (!query.trim()) {
       // Default suggestions: top 6 cities by score
-      return [...CITIES_SEED]
-        .sort((a, b) => b.scores.global - a.scores.global)
+      return [...SEARCH_CITIES]
+        .sort((a, b) => b.score - a.score)
         .slice(0, 6)
         .map((c) => ({
           kind: "city" as const,
           slug: c.slug,
           name: c.name,
           region: c.region,
-          score: c.scores.global,
+          score: c.score,
         }));
     }
     const q = normalize(query);

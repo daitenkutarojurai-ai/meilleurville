@@ -1,5 +1,3247 @@
 {
   "//": "Généré par scripts/build-search-index.mjs — ne pas éditer à la main (npm run search-index).",
+  "cities": [
+    {
+      "slug": "annecy",
+      "name": "Annecy",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 7.3
+    },
+    {
+      "slug": "nantes",
+      "name": "Nantes",
+      "region": "Pays de la Loire",
+      "score": 6.9
+    },
+    {
+      "slug": "rennes",
+      "name": "Rennes",
+      "region": "Bretagne",
+      "score": 7.4
+    },
+    {
+      "slug": "bordeaux",
+      "name": "Bordeaux",
+      "region": "Nouvelle-Aquitaine",
+      "score": 6.9
+    },
+    {
+      "slug": "montpellier",
+      "name": "Montpellier",
+      "region": "Occitanie",
+      "score": 5.6
+    },
+    {
+      "slug": "strasbourg",
+      "name": "Strasbourg",
+      "region": "Grand Est",
+      "score": 7.5
+    },
+    {
+      "slug": "toulouse",
+      "name": "Toulouse",
+      "region": "Occitanie",
+      "score": 6.6
+    },
+    {
+      "slug": "grenoble",
+      "name": "Grenoble",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 6.8
+    },
+    {
+      "slug": "nice",
+      "name": "Nice",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 5.4
+    },
+    {
+      "slug": "lyon",
+      "name": "Lyon",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 7.1
+    },
+    {
+      "slug": "brest",
+      "name": "Brest",
+      "region": "Bretagne",
+      "score": 6.4
+    },
+    {
+      "slug": "aix-en-provence",
+      "name": "Aix-en-Provence",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 6.5
+    },
+    {
+      "slug": "clermont-ferrand",
+      "name": "Clermont-Ferrand",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 6.3
+    },
+    {
+      "slug": "dijon",
+      "name": "Dijon",
+      "region": "Bourgogne-Franche-Comté",
+      "score": 6.4
+    },
+    {
+      "slug": "tours",
+      "name": "Tours",
+      "region": "Centre-Val de Loire",
+      "score": 6.4
+    },
+    {
+      "slug": "reims",
+      "name": "Reims",
+      "region": "Grand Est",
+      "score": 5.7
+    },
+    {
+      "slug": "metz",
+      "name": "Metz",
+      "region": "Grand Est",
+      "score": 6
+    },
+    {
+      "slug": "le-mans",
+      "name": "Le Mans",
+      "region": "Pays de la Loire",
+      "score": 5.7
+    },
+    {
+      "slug": "poitiers",
+      "name": "Poitiers",
+      "region": "Nouvelle-Aquitaine",
+      "score": 6.1
+    },
+    {
+      "slug": "limoges",
+      "name": "Limoges",
+      "region": "Nouvelle-Aquitaine",
+      "score": 6.1
+    },
+    {
+      "slug": "caen",
+      "name": "Caen",
+      "region": "Normandie",
+      "score": 6.4
+    },
+    {
+      "slug": "pau",
+      "name": "Pau",
+      "region": "Nouvelle-Aquitaine",
+      "score": 6.4
+    },
+    {
+      "slug": "biarritz",
+      "name": "Biarritz",
+      "region": "Nouvelle-Aquitaine",
+      "score": 5.6
+    },
+    {
+      "slug": "la-rochelle",
+      "name": "La Rochelle",
+      "region": "Nouvelle-Aquitaine",
+      "score": 7.2
+    },
+    {
+      "slug": "rochefort",
+      "name": "Rochefort",
+      "region": "Nouvelle-Aquitaine",
+      "score": 5.9
+    },
+    {
+      "slug": "marseille",
+      "name": "Marseille",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 3.8
+    },
+    {
+      "slug": "perpignan",
+      "name": "Perpignan",
+      "region": "Occitanie",
+      "score": 4.7
+    },
+    {
+      "slug": "rouen",
+      "name": "Rouen",
+      "region": "Normandie",
+      "score": 5.8
+    },
+    {
+      "slug": "toulon",
+      "name": "Toulon",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 5
+    },
+    {
+      "slug": "amiens",
+      "name": "Amiens",
+      "region": "Hauts-de-France",
+      "score": 5.3
+    },
+    {
+      "slug": "besancon",
+      "name": "Besançon",
+      "region": "Bourgogne-Franche-Comté",
+      "score": 6.5
+    },
+    {
+      "slug": "angers",
+      "name": "Angers",
+      "region": "Pays de la Loire",
+      "score": 6.7
+    },
+    {
+      "slug": "le-havre",
+      "name": "Le Havre",
+      "region": "Normandie",
+      "score": 5.5
+    },
+    {
+      "slug": "saint-etienne",
+      "name": "Saint-Étienne",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 5.5
+    },
+    {
+      "slug": "orleans",
+      "name": "Orléans",
+      "region": "Centre-Val de Loire",
+      "score": 5.8
+    },
+    {
+      "slug": "lille",
+      "name": "Lille",
+      "region": "Hauts-de-France",
+      "score": 5.7
+    },
+    {
+      "slug": "quimper",
+      "name": "Quimper",
+      "region": "Bretagne",
+      "score": 6.3
+    },
+    {
+      "slug": "valence",
+      "name": "Valence",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 6.3
+    },
+    {
+      "slug": "bayonne",
+      "name": "Bayonne",
+      "region": "Nouvelle-Aquitaine",
+      "score": 5.9
+    },
+    {
+      "slug": "montauban",
+      "name": "Montauban",
+      "region": "Occitanie",
+      "score": 6
+    },
+    {
+      "slug": "troyes",
+      "name": "Troyes",
+      "region": "Grand Est",
+      "score": 6.2
+    },
+    {
+      "slug": "angouleme",
+      "name": "Angoulême",
+      "region": "Nouvelle-Aquitaine",
+      "score": 5.7
+    },
+    {
+      "slug": "lorient",
+      "name": "Lorient",
+      "region": "Bretagne",
+      "score": 6.1
+    },
+    {
+      "slug": "arles",
+      "name": "Arles",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 5.2
+    },
+    {
+      "slug": "colmar",
+      "name": "Colmar",
+      "region": "Grand Est",
+      "score": 6.4
+    },
+    {
+      "slug": "saint-malo",
+      "name": "Saint-Malo",
+      "region": "Bretagne",
+      "score": 6.5
+    },
+    {
+      "slug": "avignon",
+      "name": "Avignon",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 5.6
+    },
+    {
+      "slug": "chambery",
+      "name": "Chambéry",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 6.5
+    },
+    {
+      "slug": "frejus",
+      "name": "Fréjus",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 4.9
+    },
+    {
+      "slug": "libourne",
+      "name": "Libourne",
+      "region": "Nouvelle-Aquitaine",
+      "score": 6.2
+    },
+    {
+      "slug": "nimes",
+      "name": "Nîmes",
+      "region": "Occitanie",
+      "score": 5.1
+    },
+    {
+      "slug": "gap",
+      "name": "Gap",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 6
+    },
+    {
+      "slug": "vannes",
+      "name": "Vannes",
+      "region": "Bretagne",
+      "score": 6.9
+    },
+    {
+      "slug": "cherbourg",
+      "name": "Cherbourg-en-Cotentin",
+      "region": "Normandie",
+      "score": 5.6
+    },
+    {
+      "slug": "tarbes",
+      "name": "Tarbes",
+      "region": "Occitanie",
+      "score": 6
+    },
+    {
+      "slug": "nancy",
+      "name": "Nancy",
+      "region": "Grand Est",
+      "score": 6.2
+    },
+    {
+      "slug": "montlucon",
+      "name": "Montluçon",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 5.9
+    },
+    {
+      "slug": "charleville-mezieres",
+      "name": "Charleville-Mézières",
+      "region": "Grand Est",
+      "score": 6.2
+    },
+    {
+      "slug": "boulogne-sur-mer",
+      "name": "Boulogne-sur-Mer",
+      "region": "Hauts-de-France",
+      "score": 5.2
+    },
+    {
+      "slug": "niort",
+      "name": "Niort",
+      "region": "Nouvelle-Aquitaine",
+      "score": 6
+    },
+    {
+      "slug": "albi",
+      "name": "Albi",
+      "region": "Occitanie",
+      "score": 7.1
+    },
+    {
+      "slug": "ajaccio",
+      "name": "Ajaccio",
+      "region": "Corse",
+      "score": 4.9
+    },
+    {
+      "slug": "mulhouse",
+      "name": "Mulhouse",
+      "region": "Grand Est",
+      "score": 5.8
+    },
+    {
+      "slug": "dunkerque",
+      "name": "Dunkerque",
+      "region": "Hauts-de-France",
+      "score": 5.4
+    },
+    {
+      "slug": "cannes",
+      "name": "Cannes",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 4.8
+    },
+    {
+      "slug": "perigueux",
+      "name": "Périgueux",
+      "region": "Nouvelle-Aquitaine",
+      "score": 5.9
+    },
+    {
+      "slug": "ales",
+      "name": "Alès",
+      "region": "Occitanie",
+      "score": 4.9
+    },
+    {
+      "slug": "chartres",
+      "name": "Chartres",
+      "region": "Centre-Val de Loire",
+      "score": 6
+    },
+    {
+      "slug": "blois",
+      "name": "Blois",
+      "region": "Centre-Val de Loire",
+      "score": 5.9
+    },
+    {
+      "slug": "beziers",
+      "name": "Béziers",
+      "region": "Occitanie",
+      "score": 4.3
+    },
+    {
+      "slug": "laval",
+      "name": "Laval",
+      "region": "Pays de la Loire",
+      "score": 6.1
+    },
+    {
+      "slug": "sete",
+      "name": "Sète",
+      "region": "Occitanie",
+      "score": 5.4
+    },
+    {
+      "slug": "rodez",
+      "name": "Rodez",
+      "region": "Occitanie",
+      "score": 5.6
+    },
+    {
+      "slug": "cahors",
+      "name": "Cahors",
+      "region": "Occitanie",
+      "score": 5.5
+    },
+    {
+      "slug": "agen",
+      "name": "Agen",
+      "region": "Nouvelle-Aquitaine",
+      "score": 5.1
+    },
+    {
+      "slug": "macon",
+      "name": "Mâcon",
+      "region": "Bourgogne-Franche-Comté",
+      "score": 6.1
+    },
+    {
+      "slug": "chalon-sur-saone",
+      "name": "Chalon-sur-Saône",
+      "region": "Bourgogne-Franche-Comté",
+      "score": 6
+    },
+    {
+      "slug": "bourg-en-bresse",
+      "name": "Bourg-en-Bresse",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 6
+    },
+    {
+      "slug": "evreux",
+      "name": "Évreux",
+      "region": "Normandie",
+      "score": 5
+    },
+    {
+      "slug": "antibes",
+      "name": "Antibes",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 5
+    },
+    {
+      "slug": "thionville",
+      "name": "Thionville",
+      "region": "Grand Est",
+      "score": 5.7
+    },
+    {
+      "slug": "arras",
+      "name": "Arras",
+      "region": "Hauts-de-France",
+      "score": 5.7
+    },
+    {
+      "slug": "carcassonne",
+      "name": "Carcassonne",
+      "region": "Occitanie",
+      "score": 5.5
+    },
+    {
+      "slug": "bayeux",
+      "name": "Bayeux",
+      "region": "Normandie",
+      "score": 6.1
+    },
+    {
+      "slug": "saint-brieuc",
+      "name": "Saint-Brieuc",
+      "region": "Bretagne",
+      "score": 6
+    },
+    {
+      "slug": "saint-nazaire",
+      "name": "Saint-Nazaire",
+      "region": "Pays de la Loire",
+      "score": 5.9
+    },
+    {
+      "slug": "clermont-herault",
+      "name": "Clermont-l'Hérault",
+      "region": "Occitanie",
+      "score": 5.2
+    },
+    {
+      "slug": "chalons-en-champagne",
+      "name": "Châlons-en-Champagne",
+      "region": "Grand Est",
+      "score": 5.5
+    },
+    {
+      "slug": "auxerre",
+      "name": "Auxerre",
+      "region": "Bourgogne-Franche-Comté",
+      "score": 6.1
+    },
+    {
+      "slug": "belfort",
+      "name": "Belfort",
+      "region": "Bourgogne-Franche-Comté",
+      "score": 5.9
+    },
+    {
+      "slug": "vichy",
+      "name": "Vichy",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 6.5
+    },
+    {
+      "slug": "alencon",
+      "name": "Alençon",
+      "region": "Normandie",
+      "score": 5.7
+    },
+    {
+      "slug": "millau",
+      "name": "Millau",
+      "region": "Occitanie",
+      "score": 5.6
+    },
+    {
+      "slug": "cognac",
+      "name": "Cognac",
+      "region": "Nouvelle-Aquitaine",
+      "score": 5.8
+    },
+    {
+      "slug": "epinal",
+      "name": "Épinal",
+      "region": "Grand Est",
+      "score": 5.9
+    },
+    {
+      "slug": "montelimar",
+      "name": "Montélimar",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 6.3
+    },
+    {
+      "slug": "figeac",
+      "name": "Figeac",
+      "region": "Occitanie",
+      "score": 5.4
+    },
+    {
+      "slug": "romans-sur-isere",
+      "name": "Romans-sur-Isère",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 6
+    },
+    {
+      "slug": "cholet",
+      "name": "Cholet",
+      "region": "Pays de la Loire",
+      "score": 6.6
+    },
+    {
+      "slug": "draguignan",
+      "name": "Draguignan",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 5.2
+    },
+    {
+      "slug": "saintes",
+      "name": "Saintes",
+      "region": "Nouvelle-Aquitaine",
+      "score": 6.1
+    },
+    {
+      "slug": "aix-les-bains",
+      "name": "Aix-les-Bains",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 5.8
+    },
+    {
+      "slug": "bergerac",
+      "name": "Bergerac",
+      "region": "Nouvelle-Aquitaine",
+      "score": 5.3
+    },
+    {
+      "slug": "arcachon",
+      "name": "Arcachon",
+      "region": "Nouvelle-Aquitaine",
+      "score": 5.3
+    },
+    {
+      "slug": "thonon-les-bains",
+      "name": "Thonon-les-Bains",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 5.9
+    },
+    {
+      "slug": "salon-de-provence",
+      "name": "Salon-de-Provence",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 5.4
+    },
+    {
+      "slug": "martigues",
+      "name": "Martigues",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 5.1
+    },
+    {
+      "slug": "calais",
+      "name": "Calais",
+      "region": "Hauts-de-France",
+      "score": 4.4
+    },
+    {
+      "slug": "lens",
+      "name": "Lens",
+      "region": "Hauts-de-France",
+      "score": 5.3
+    },
+    {
+      "slug": "valenciennes",
+      "name": "Valenciennes",
+      "region": "Hauts-de-France",
+      "score": 5.1
+    },
+    {
+      "slug": "castres",
+      "name": "Castres",
+      "region": "Occitanie",
+      "score": 6.3
+    },
+    {
+      "slug": "hyeres",
+      "name": "Hyères",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 5.6
+    },
+    {
+      "slug": "haguenau",
+      "name": "Haguenau",
+      "region": "Grand Est",
+      "score": 6.1
+    },
+    {
+      "slug": "roanne",
+      "name": "Roanne",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 6.3
+    },
+    {
+      "slug": "douai",
+      "name": "Douai",
+      "region": "Hauts-de-France",
+      "score": 5.4
+    },
+    {
+      "slug": "cambrai",
+      "name": "Cambrai",
+      "region": "Hauts-de-France",
+      "score": 6
+    },
+    {
+      "slug": "montbeliard",
+      "name": "Montbéliard",
+      "region": "Bourgogne-Franche-Comté",
+      "score": 6.1
+    },
+    {
+      "slug": "aurillac",
+      "name": "Aurillac",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 5.6
+    },
+    {
+      "slug": "chatellerault",
+      "name": "Châtellerault",
+      "region": "Nouvelle-Aquitaine",
+      "score": 6.3
+    },
+    {
+      "slug": "annemasse",
+      "name": "Annemasse",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 6.4
+    },
+    {
+      "slug": "compiegne",
+      "name": "Compiègne",
+      "region": "Hauts-de-France",
+      "score": 6.8
+    },
+    {
+      "slug": "beauvais",
+      "name": "Beauvais",
+      "region": "Hauts-de-France",
+      "score": 6
+    },
+    {
+      "slug": "narbonne",
+      "name": "Narbonne",
+      "region": "Occitanie",
+      "score": 4.9
+    },
+    {
+      "slug": "saint-quentin",
+      "name": "Saint-Quentin",
+      "region": "Hauts-de-France",
+      "score": 6.2
+    },
+    {
+      "slug": "selestat",
+      "name": "Sélestat",
+      "region": "Grand Est",
+      "score": 6.2
+    },
+    {
+      "slug": "bourges",
+      "name": "Bourges",
+      "region": "Centre-Val de Loire",
+      "score": 5.7
+    },
+    {
+      "slug": "chateauroux",
+      "name": "Châteauroux",
+      "region": "Centre-Val de Loire",
+      "score": 5.4
+    },
+    {
+      "slug": "brive-la-gaillarde",
+      "name": "Brive-la-Gaillarde",
+      "region": "Nouvelle-Aquitaine",
+      "score": 6.8
+    },
+    {
+      "slug": "auch",
+      "name": "Auch",
+      "region": "Occitanie",
+      "score": 6.5
+    },
+    {
+      "slug": "dole",
+      "name": "Dole",
+      "region": "Bourgogne-Franche-Comté",
+      "score": 6.8
+    },
+    {
+      "slug": "lannion",
+      "name": "Lannion",
+      "region": "Bretagne",
+      "score": 7.3
+    },
+    {
+      "slug": "paris",
+      "name": "Paris",
+      "region": "Île-de-France",
+      "score": 5.1
+    },
+    {
+      "slug": "versailles",
+      "name": "Versailles",
+      "region": "Île-de-France",
+      "score": 6.5
+    },
+    {
+      "slug": "boulogne-billancourt",
+      "name": "Boulogne-Billancourt",
+      "region": "Île-de-France",
+      "score": 6
+    },
+    {
+      "slug": "montreuil",
+      "name": "Montreuil",
+      "region": "Île-de-France",
+      "score": 4.7
+    },
+    {
+      "slug": "vincennes",
+      "name": "Vincennes",
+      "region": "Île-de-France",
+      "score": 6.3
+    },
+    {
+      "slug": "cergy",
+      "name": "Cergy",
+      "region": "Île-de-France",
+      "score": 5.7
+    },
+    {
+      "slug": "saint-denis",
+      "name": "Saint-Denis",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "levallois-perret",
+      "name": "Levallois-Perret",
+      "region": "Île-de-France",
+      "score": 6.2
+    },
+    {
+      "slug": "issy-les-moulineaux",
+      "name": "Issy-les-Moulineaux",
+      "region": "Île-de-France",
+      "score": 6.6
+    },
+    {
+      "slug": "neuilly-sur-seine",
+      "name": "Neuilly-sur-Seine",
+      "region": "Île-de-France",
+      "score": 6.3
+    },
+    {
+      "slug": "fontainebleau",
+      "name": "Fontainebleau",
+      "region": "Île-de-France",
+      "score": 7.9
+    },
+    {
+      "slug": "saint-germain-en-laye",
+      "name": "Saint-Germain-en-Laye",
+      "region": "Île-de-France",
+      "score": 6.2
+    },
+    {
+      "slug": "bastia",
+      "name": "Bastia",
+      "region": "Corse",
+      "score": 4.4
+    },
+    {
+      "slug": "pantin",
+      "name": "Pantin",
+      "region": "Île-de-France",
+      "score": 4.2
+    },
+    {
+      "slug": "ivry-sur-seine",
+      "name": "Ivry-sur-Seine",
+      "region": "Île-de-France",
+      "score": 6.1
+    },
+    {
+      "slug": "creteil",
+      "name": "Créteil",
+      "region": "Île-de-France",
+      "score": 4.8
+    },
+    {
+      "slug": "rueil-malmaison",
+      "name": "Rueil-Malmaison",
+      "region": "Île-de-France",
+      "score": 6.2
+    },
+    {
+      "slug": "colombes",
+      "name": "Colombes",
+      "region": "Île-de-France",
+      "score": 5.2
+    },
+    {
+      "slug": "argenteuil",
+      "name": "Argenteuil",
+      "region": "Île-de-France",
+      "score": 5
+    },
+    {
+      "slug": "nanterre",
+      "name": "Nanterre",
+      "region": "Île-de-France",
+      "score": 4.7
+    },
+    {
+      "slug": "vitry-sur-seine",
+      "name": "Vitry-sur-Seine",
+      "region": "Île-de-France",
+      "score": 5.6
+    },
+    {
+      "slug": "courbevoie",
+      "name": "Courbevoie",
+      "region": "Île-de-France",
+      "score": 5.9
+    },
+    {
+      "slug": "noisy-le-grand",
+      "name": "Noisy-le-Grand",
+      "region": "Île-de-France",
+      "score": 5.4
+    },
+    {
+      "slug": "evry-courcouronnes",
+      "name": "Évry-Courcouronnes",
+      "region": "Île-de-France",
+      "score": 4.6
+    },
+    {
+      "slug": "menton",
+      "name": "Menton",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 6.5
+    },
+    {
+      "slug": "la-roche-sur-yon",
+      "name": "La Roche-sur-Yon",
+      "region": "Pays de la Loire",
+      "score": 7
+    },
+    {
+      "slug": "les-sables-d-olonne",
+      "name": "Les Sables-d'Olonne",
+      "region": "Pays de la Loire",
+      "score": 7.4
+    },
+    {
+      "slug": "dax",
+      "name": "Dax",
+      "region": "Nouvelle-Aquitaine",
+      "score": 5.4
+    },
+    {
+      "slug": "mont-de-marsan",
+      "name": "Mont-de-Marsan",
+      "region": "Nouvelle-Aquitaine",
+      "score": 5.6
+    },
+    {
+      "slug": "le-puy-en-velay",
+      "name": "Le Puy-en-Velay",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 7.7
+    },
+    {
+      "slug": "villeurbanne",
+      "name": "Villeurbanne",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 7.1
+    },
+    {
+      "slug": "manosque",
+      "name": "Manosque",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 5.6
+    },
+    {
+      "slug": "nevers",
+      "name": "Nevers",
+      "region": "Bourgogne-Franche-Comté",
+      "score": 6
+    },
+    {
+      "slug": "verdun",
+      "name": "Verdun",
+      "region": "Grand Est",
+      "score": 5.6
+    },
+    {
+      "slug": "aubenas",
+      "name": "Aubenas",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 5.8
+    },
+    {
+      "slug": "pamiers",
+      "name": "Pamiers",
+      "region": "Occitanie",
+      "score": 6
+    },
+    {
+      "slug": "saumur",
+      "name": "Saumur",
+      "region": "Pays de la Loire",
+      "score": 7.1
+    },
+    {
+      "slug": "briancon",
+      "name": "Briançon",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 5.8
+    },
+    {
+      "slug": "epernay",
+      "name": "Épernay",
+      "region": "Grand Est",
+      "score": 6.5
+    },
+    {
+      "slug": "la-ciotat",
+      "name": "La Ciotat",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 6.5
+    },
+    {
+      "slug": "saint-raphael",
+      "name": "Saint-Raphaël",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 6.2
+    },
+    {
+      "slug": "anglet",
+      "name": "Anglet",
+      "region": "Nouvelle-Aquitaine",
+      "score": 7.6
+    },
+    {
+      "slug": "honfleur",
+      "name": "Honfleur",
+      "region": "Normandie",
+      "score": 5.6
+    },
+    {
+      "slug": "cassis",
+      "name": "Cassis",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 6.6
+    },
+    {
+      "slug": "foix",
+      "name": "Foix",
+      "region": "Occitanie",
+      "score": 6.2
+    },
+    {
+      "slug": "royan",
+      "name": "Royan",
+      "region": "Nouvelle-Aquitaine",
+      "score": 6.7
+    },
+    {
+      "slug": "grasse",
+      "name": "Grasse",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 5.8
+    },
+    {
+      "slug": "concarneau",
+      "name": "Concarneau",
+      "region": "Bretagne",
+      "score": 5.7
+    },
+    {
+      "slug": "saint-jean-de-luz",
+      "name": "Saint-Jean-de-Luz",
+      "region": "Nouvelle-Aquitaine",
+      "score": 6.8
+    },
+    {
+      "slug": "sanary-sur-mer",
+      "name": "Sanary-sur-Mer",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 7.2
+    },
+    {
+      "slug": "dinan",
+      "name": "Dinan",
+      "region": "Bretagne",
+      "score": 7.4
+    },
+    {
+      "slug": "hendaye",
+      "name": "Hendaye",
+      "region": "Nouvelle-Aquitaine",
+      "score": 6.9
+    },
+    {
+      "slug": "vitre",
+      "name": "Vitré",
+      "region": "Bretagne",
+      "score": 7.4
+    },
+    {
+      "slug": "la-baule",
+      "name": "La Baule-Escoublac",
+      "region": "Pays de la Loire",
+      "score": 7.1
+    },
+    {
+      "slug": "mende",
+      "name": "Mende",
+      "region": "Occitanie",
+      "score": 6.2
+    },
+    {
+      "slug": "amboise",
+      "name": "Amboise",
+      "region": "Centre-Val de Loire",
+      "score": 7.9
+    },
+    {
+      "slug": "orange",
+      "name": "Orange",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 6.5
+    },
+    {
+      "slug": "vienne",
+      "name": "Vienne",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 7.1
+    },
+    {
+      "slug": "granville",
+      "name": "Granville",
+      "region": "Normandie",
+      "score": 5.6
+    },
+    {
+      "slug": "dinard",
+      "name": "Dinard",
+      "region": "Bretagne",
+      "score": 7.4
+    },
+    {
+      "slug": "collioure",
+      "name": "Collioure",
+      "region": "Occitanie",
+      "score": 6.9
+    },
+    {
+      "slug": "senlis",
+      "name": "Senlis",
+      "region": "Hauts-de-France",
+      "score": 7.7
+    },
+    {
+      "slug": "morlaix",
+      "name": "Morlaix",
+      "region": "Bretagne",
+      "score": 6
+    },
+    {
+      "slug": "provins",
+      "name": "Provins",
+      "region": "Île-de-France",
+      "score": 7.1
+    },
+    {
+      "slug": "gex",
+      "name": "Gex",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 7.7
+    },
+    {
+      "slug": "saint-tropez",
+      "name": "Saint-Tropez",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 5.8
+    },
+    {
+      "slug": "hossegor",
+      "name": "Hossegor",
+      "region": "Nouvelle-Aquitaine",
+      "score": 7
+    },
+    {
+      "slug": "obernai",
+      "name": "Obernai",
+      "region": "Grand Est",
+      "score": 8.4
+    },
+    {
+      "slug": "cagnes-sur-mer",
+      "name": "Cagnes-sur-Mer",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 6.2
+    },
+    {
+      "slug": "noirmoutier",
+      "name": "Noirmoutier-en-l'Île",
+      "region": "Pays de la Loire",
+      "score": 7.1
+    },
+    {
+      "slug": "carnac",
+      "name": "Carnac",
+      "region": "Bretagne",
+      "score": 7.6
+    },
+    {
+      "slug": "ile-de-re",
+      "name": "Île de Ré",
+      "region": "Nouvelle-Aquitaine",
+      "score": 7.6
+    },
+    {
+      "slug": "quiberon",
+      "name": "Quiberon",
+      "region": "Bretagne",
+      "score": 7.3
+    },
+    {
+      "slug": "pezenas",
+      "name": "Pézenas",
+      "region": "Occitanie",
+      "score": 6.5
+    },
+    {
+      "slug": "agde",
+      "name": "Agde",
+      "region": "Occitanie",
+      "score": 5.9
+    },
+    {
+      "slug": "douarnenez",
+      "name": "Douarnenez",
+      "region": "Bretagne",
+      "score": 5.7
+    },
+    {
+      "slug": "biscarrosse",
+      "name": "Biscarrosse",
+      "region": "Nouvelle-Aquitaine",
+      "score": 7.3
+    },
+    {
+      "slug": "saint-remy-de-provence",
+      "name": "Saint-Rémy-de-Provence",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 7.7
+    },
+    {
+      "slug": "gordes",
+      "name": "Gordes",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 6.5
+    },
+    {
+      "slug": "sisteron",
+      "name": "Sisteron",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 7.3
+    },
+    {
+      "slug": "saint-paul-de-vence",
+      "name": "Saint-Paul-de-Vence",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 6.5
+    },
+    {
+      "slug": "valbonne",
+      "name": "Valbonne",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 7.3
+    },
+    {
+      "slug": "ceret",
+      "name": "Céret",
+      "region": "Occitanie",
+      "score": 7.3
+    },
+    {
+      "slug": "carpentras",
+      "name": "Carpentras",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 6.3
+    },
+    {
+      "slug": "apt",
+      "name": "Apt",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 7
+    },
+    {
+      "slug": "aubagne",
+      "name": "Aubagne",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 6.2
+    },
+    {
+      "slug": "sainte-maxime",
+      "name": "Sainte-Maxime",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 6.7
+    },
+    {
+      "slug": "digne-les-bains",
+      "name": "Digne-les-Bains",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 5.4
+    },
+    {
+      "slug": "vaison-la-romaine",
+      "name": "Vaison-la-Romaine",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 7.5
+    },
+    {
+      "slug": "albertville",
+      "name": "Albertville",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 7.4
+    },
+    {
+      "slug": "evian-les-bains",
+      "name": "Évian-les-Bains",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 5.3
+    },
+    {
+      "slug": "issoire",
+      "name": "Issoire",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 6.9
+    },
+    {
+      "slug": "moulins",
+      "name": "Moulins",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 6.5
+    },
+    {
+      "slug": "tulle",
+      "name": "Tulle",
+      "region": "Nouvelle-Aquitaine",
+      "score": 7.2
+    },
+    {
+      "slug": "pontarlier",
+      "name": "Pontarlier",
+      "region": "Bourgogne-Franche-Comté",
+      "score": 7.5
+    },
+    {
+      "slug": "challans",
+      "name": "Challans",
+      "region": "Pays de la Loire",
+      "score": 7.1
+    },
+    {
+      "slug": "fontenay-le-comte",
+      "name": "Fontenay-le-Comte",
+      "region": "Pays de la Loire",
+      "score": 7.5
+    },
+    {
+      "slug": "vendome",
+      "name": "Vendôme",
+      "region": "Centre-Val de Loire",
+      "score": 7.4
+    },
+    {
+      "slug": "vierzon",
+      "name": "Vierzon",
+      "region": "Centre-Val de Loire",
+      "score": 4.8
+    },
+    {
+      "slug": "montargis",
+      "name": "Montargis",
+      "region": "Centre-Val de Loire",
+      "score": 6.6
+    },
+    {
+      "slug": "gien",
+      "name": "Gien",
+      "region": "Centre-Val de Loire",
+      "score": 6.9
+    },
+    {
+      "slug": "lourdes",
+      "name": "Lourdes",
+      "region": "Occitanie",
+      "score": 7
+    },
+    {
+      "slug": "sarlat-la-caneda",
+      "name": "Sarlat-la-Canéda",
+      "region": "Nouvelle-Aquitaine",
+      "score": 5.5
+    },
+    {
+      "slug": "marmande",
+      "name": "Marmande",
+      "region": "Nouvelle-Aquitaine",
+      "score": 6.5
+    },
+    {
+      "slug": "limoux",
+      "name": "Limoux",
+      "region": "Occitanie",
+      "score": 7
+    },
+    {
+      "slug": "gueret",
+      "name": "Guéret",
+      "region": "Nouvelle-Aquitaine",
+      "score": 7
+    },
+    {
+      "slug": "saint-gaudens",
+      "name": "Saint-Gaudens",
+      "region": "Occitanie",
+      "score": 7
+    },
+    {
+      "slug": "dieppe",
+      "name": "Dieppe",
+      "region": "Normandie",
+      "score": 6.7
+    },
+    {
+      "slug": "saint-lo",
+      "name": "Saint-Lô",
+      "region": "Normandie",
+      "score": 6.9
+    },
+    {
+      "slug": "parthenay",
+      "name": "Parthenay",
+      "region": "Nouvelle-Aquitaine",
+      "score": 7.2
+    },
+    {
+      "slug": "beaune",
+      "name": "Beaune",
+      "region": "Bourgogne-Franche-Comté",
+      "score": 7.7
+    },
+    {
+      "slug": "autun",
+      "name": "Autun",
+      "region": "Bourgogne-Franche-Comté",
+      "score": 7.8
+    },
+    {
+      "slug": "saverne",
+      "name": "Saverne",
+      "region": "Grand Est",
+      "score": 7.6
+    },
+    {
+      "slug": "laon",
+      "name": "Laon",
+      "region": "Hauts-de-France",
+      "score": 7.2
+    },
+    {
+      "slug": "vesoul",
+      "name": "Vesoul",
+      "region": "Bourgogne-Franche-Comté",
+      "score": 6.7
+    },
+    {
+      "slug": "chaumont",
+      "name": "Chaumont",
+      "region": "Grand Est",
+      "score": 6.8
+    },
+    {
+      "slug": "chinon",
+      "name": "Chinon",
+      "region": "Centre-Val de Loire",
+      "score": 7.6
+    },
+    {
+      "slug": "saint-die-des-vosges",
+      "name": "Saint-Dié-des-Vosges",
+      "region": "Grand Est",
+      "score": 7.3
+    },
+    {
+      "slug": "villefranche-de-rouergue",
+      "name": "Villefranche-de-Rouergue",
+      "region": "Occitanie",
+      "score": 7.6
+    },
+    {
+      "slug": "riom",
+      "name": "Riom",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 6.5
+    },
+    {
+      "slug": "thiers",
+      "name": "Thiers",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 6
+    },
+    {
+      "slug": "oyonnax",
+      "name": "Oyonnax",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 5.6
+    },
+    {
+      "slug": "cluses",
+      "name": "Cluses",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 5.6
+    },
+    {
+      "slug": "rumilly",
+      "name": "Rumilly",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 6.9
+    },
+    {
+      "slug": "annonay",
+      "name": "Annonay",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 6.1
+    },
+    {
+      "slug": "lons-le-saunier",
+      "name": "Lons-le-Saunier",
+      "region": "Bourgogne-Franche-Comté",
+      "score": 6.5
+    },
+    {
+      "slug": "saint-flour",
+      "name": "Saint-Flour",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 7.1
+    },
+    {
+      "slug": "bar-le-duc",
+      "name": "Bar-le-Duc",
+      "region": "Grand Est",
+      "score": 6.3
+    },
+    {
+      "slug": "aubusson",
+      "name": "Aubusson",
+      "region": "Nouvelle-Aquitaine",
+      "score": 6.8
+    },
+    {
+      "slug": "langres",
+      "name": "Langres",
+      "region": "Grand Est",
+      "score": 6.4
+    },
+    {
+      "slug": "guingamp",
+      "name": "Guingamp",
+      "region": "Bretagne",
+      "score": 6.6
+    },
+    {
+      "slug": "flers",
+      "name": "Flers",
+      "region": "Normandie",
+      "score": 6.5
+    },
+    {
+      "slug": "la-fleche",
+      "name": "La Flèche",
+      "region": "Pays de la Loire",
+      "score": 7.1
+    },
+    {
+      "slug": "cosne-cours-sur-loire",
+      "name": "Cosne-Cours-sur-Loire",
+      "region": "Bourgogne-Franche-Comté",
+      "score": 6.5
+    },
+    {
+      "slug": "sens",
+      "name": "Sens",
+      "region": "Bourgogne-Franche-Comté",
+      "score": 6.6
+    },
+    {
+      "slug": "condom",
+      "name": "Condom",
+      "region": "Occitanie",
+      "score": 6.5
+    },
+    {
+      "slug": "moissac",
+      "name": "Moissac",
+      "region": "Occitanie",
+      "score": 7.1
+    },
+    {
+      "slug": "brioude",
+      "name": "Brioude",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 7
+    },
+    {
+      "slug": "issoudun",
+      "name": "Issoudun",
+      "region": "Centre-Val de Loire",
+      "score": 6.5
+    },
+    {
+      "slug": "abbeville",
+      "name": "Abbeville",
+      "region": "Hauts-de-France",
+      "score": 6.4
+    },
+    {
+      "slug": "les-andelys",
+      "name": "Les Andelys",
+      "region": "Normandie",
+      "score": 7.2
+    },
+    {
+      "slug": "dreux",
+      "name": "Dreux",
+      "region": "Centre-Val de Loire",
+      "score": 6.3
+    },
+    {
+      "slug": "florac-trois-rivieres",
+      "name": "Florac-Trois-Rivières",
+      "region": "Occitanie",
+      "score": 6.8
+    },
+    {
+      "slug": "sedan",
+      "name": "Sedan",
+      "region": "Grand Est",
+      "score": 6.3
+    },
+    {
+      "slug": "bar-sur-aube",
+      "name": "Bar-sur-Aube",
+      "region": "Grand Est",
+      "score": 6.7
+    },
+    {
+      "slug": "gray",
+      "name": "Gray",
+      "region": "Bourgogne-Franche-Comté",
+      "score": 6.3
+    },
+    {
+      "slug": "saint-yrieix-la-perche",
+      "name": "Saint-Yrieix-la-Perche",
+      "region": "Nouvelle-Aquitaine",
+      "score": 6.8
+    },
+    {
+      "slug": "mayenne",
+      "name": "Mayenne",
+      "region": "Pays de la Loire",
+      "score": 6.9
+    },
+    {
+      "slug": "pont-a-mousson",
+      "name": "Pont-à-Mousson",
+      "region": "Grand Est",
+      "score": 6.6
+    },
+    {
+      "slug": "etampes",
+      "name": "Étampes",
+      "region": "Île-de-France",
+      "score": 6.5
+    },
+    {
+      "slug": "soissons",
+      "name": "Soissons",
+      "region": "Hauts-de-France",
+      "score": 6.6
+    },
+    {
+      "slug": "villefranche-sur-saone",
+      "name": "Villefranche-sur-Saône",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 7.3
+    },
+    {
+      "slug": "montbard",
+      "name": "Montbard",
+      "region": "Bourgogne-Franche-Comté",
+      "score": 6.8
+    },
+    {
+      "slug": "paray-le-monial",
+      "name": "Paray-le-Monial",
+      "region": "Bourgogne-Franche-Comté",
+      "score": 7.4
+    },
+    {
+      "slug": "semur-en-auxois",
+      "name": "Semur-en-Auxois",
+      "region": "Bourgogne-Franche-Comté",
+      "score": 7.3
+    },
+    {
+      "slug": "villeneuve-sur-lot",
+      "name": "Villeneuve-sur-Lot",
+      "region": "Nouvelle-Aquitaine",
+      "score": 6.5
+    },
+    {
+      "slug": "gourdon",
+      "name": "Gourdon",
+      "region": "Occitanie",
+      "score": 6.6
+    },
+    {
+      "slug": "castelsarrasin",
+      "name": "Castelsarrasin",
+      "region": "Occitanie",
+      "score": 6.4
+    },
+    {
+      "slug": "sarrebourg",
+      "name": "Sarrebourg",
+      "region": "Grand Est",
+      "score": 6.6
+    },
+    {
+      "slug": "longwy",
+      "name": "Longwy",
+      "region": "Grand Est",
+      "score": 6.2
+    },
+    {
+      "slug": "saint-amand-montrond",
+      "name": "Saint-Amand-Montrond",
+      "region": "Centre-Val de Loire",
+      "score": 6.1
+    },
+    {
+      "slug": "bressuire",
+      "name": "Bressuire",
+      "region": "Nouvelle-Aquitaine",
+      "score": 6.2
+    },
+    {
+      "slug": "ussel",
+      "name": "Ussel",
+      "region": "Nouvelle-Aquitaine",
+      "score": 6.5
+    },
+    {
+      "slug": "montbrison",
+      "name": "Montbrison",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 6.7
+    },
+    {
+      "slug": "pontoise",
+      "name": "Pontoise",
+      "region": "Île-de-France",
+      "score": 5.2
+    },
+    {
+      "slug": "romorantin-lanthenay",
+      "name": "Romorantin-Lanthenay",
+      "region": "Centre-Val de Loire",
+      "score": 6
+    },
+    {
+      "slug": "joigny",
+      "name": "Joigny",
+      "region": "Bourgogne-Franche-Comté",
+      "score": 6.1
+    },
+    {
+      "slug": "privas",
+      "name": "Privas",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 5.2
+    },
+    {
+      "slug": "bagnols-sur-ceze",
+      "name": "Bagnols-sur-Cèze",
+      "region": "Occitanie",
+      "score": 5.7
+    },
+    {
+      "slug": "muret",
+      "name": "Muret",
+      "region": "Occitanie",
+      "score": 6.1
+    },
+    {
+      "slug": "meaux",
+      "name": "Meaux",
+      "region": "Île-de-France",
+      "score": 5
+    },
+    {
+      "slug": "bourgoin-jallieu",
+      "name": "Bourgoin-Jallieu",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 6.1
+    },
+    {
+      "slug": "gaillac",
+      "name": "Gaillac",
+      "region": "Occitanie",
+      "score": 7.2
+    },
+    {
+      "slug": "romilly-sur-seine",
+      "name": "Romilly-sur-Seine",
+      "region": "Grand Est",
+      "score": 5.6
+    },
+    {
+      "slug": "saint-dizier",
+      "name": "Saint-Dizier",
+      "region": "Grand Est",
+      "score": 5.8
+    },
+    {
+      "slug": "chateaudun",
+      "name": "Châteaudun",
+      "region": "Centre-Val de Loire",
+      "score": 6.5
+    },
+    {
+      "slug": "venissieux",
+      "name": "Vénissieux",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 4.5
+    },
+    {
+      "slug": "chateau-gontier-sur-mayenne",
+      "name": "Château-Gontier-sur-Mayenne",
+      "region": "Pays de la Loire",
+      "score": 6.8
+    },
+    {
+      "slug": "rambouillet",
+      "name": "Rambouillet",
+      "region": "Île-de-France",
+      "score": 6.6
+    },
+    {
+      "slug": "massy",
+      "name": "Massy",
+      "region": "Île-de-France",
+      "score": 5.3
+    },
+    {
+      "slug": "argentan",
+      "name": "Argentan",
+      "region": "Normandie",
+      "score": 6.3
+    },
+    {
+      "slug": "gerardmer",
+      "name": "Gérardmer",
+      "region": "Grand Est",
+      "score": 7.4
+    },
+    {
+      "slug": "guebwiller",
+      "name": "Guebwiller",
+      "region": "Grand Est",
+      "score": 7.3
+    },
+    {
+      "slug": "saint-claude",
+      "name": "Saint-Claude",
+      "region": "Bourgogne-Franche-Comté",
+      "score": 6.4
+    },
+    {
+      "slug": "sable-sur-sarthe",
+      "name": "Sablé-sur-Sarthe",
+      "region": "Pays de la Loire",
+      "score": 6.7
+    },
+    {
+      "slug": "louviers",
+      "name": "Louviers",
+      "region": "Normandie",
+      "score": 6.1
+    },
+    {
+      "slug": "bagneres-de-bigorre",
+      "name": "Bagnères-de-Bigorre",
+      "region": "Occitanie",
+      "score": 7
+    },
+    {
+      "slug": "lure",
+      "name": "Lure",
+      "region": "Bourgogne-Franche-Comté",
+      "score": 5.9
+    },
+    {
+      "slug": "peronne",
+      "name": "Péronne",
+      "region": "Hauts-de-France",
+      "score": 6.2
+    },
+    {
+      "slug": "le-blanc",
+      "name": "Le Blanc",
+      "region": "Centre-Val de Loire",
+      "score": 6.5
+    },
+    {
+      "slug": "montmorillon",
+      "name": "Montmorillon",
+      "region": "Nouvelle-Aquitaine",
+      "score": 7
+    },
+    {
+      "slug": "monistrol-sur-loire",
+      "name": "Monistrol-sur-Loire",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 6.7
+    },
+    {
+      "slug": "embrun",
+      "name": "Embrun",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 6.8
+    },
+    {
+      "slug": "saint-girons",
+      "name": "Saint-Girons",
+      "region": "Occitanie",
+      "score": 6.8
+    },
+    {
+      "slug": "rethel",
+      "name": "Rethel",
+      "region": "Grand Est",
+      "score": 5.9
+    },
+    {
+      "slug": "commercy",
+      "name": "Commercy",
+      "region": "Grand Est",
+      "score": 6.4
+    },
+    {
+      "slug": "la-souterraine",
+      "name": "La Souterraine",
+      "region": "Nouvelle-Aquitaine",
+      "score": 7
+    },
+    {
+      "slug": "fleurance",
+      "name": "Fleurance",
+      "region": "Occitanie",
+      "score": 4.4
+    },
+    {
+      "slug": "bellac",
+      "name": "Bellac",
+      "region": "Nouvelle-Aquitaine",
+      "score": 4
+    },
+    {
+      "slug": "saint-chely-d-apcher",
+      "name": "Saint-Chély-d'Apcher",
+      "region": "Occitanie",
+      "score": 4.3
+    },
+    {
+      "slug": "clamecy",
+      "name": "Clamecy",
+      "region": "Bourgogne-Franche-Comté",
+      "score": 4.3
+    },
+    {
+      "slug": "porto-vecchio",
+      "name": "Porto-Vecchio",
+      "region": "Corse",
+      "score": 5.2
+    },
+    {
+      "slug": "corte",
+      "name": "Corte",
+      "region": "Corse",
+      "score": 5.2
+    },
+    {
+      "slug": "sartene",
+      "name": "Sartène",
+      "region": "Corse",
+      "score": 4.3
+    },
+    {
+      "slug": "calvi",
+      "name": "Calvi",
+      "region": "Corse",
+      "score": 4.7
+    },
+    {
+      "slug": "jarnac",
+      "name": "Jarnac",
+      "region": "Nouvelle-Aquitaine",
+      "score": 4.1
+    },
+    {
+      "slug": "mauriac",
+      "name": "Mauriac",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 4.6
+    },
+    {
+      "slug": "delle",
+      "name": "Delle",
+      "region": "Bourgogne-Franche-Comté",
+      "score": 4.2
+    },
+    {
+      "slug": "riberac",
+      "name": "Ribérac",
+      "region": "Nouvelle-Aquitaine",
+      "score": 4.4
+    },
+    {
+      "slug": "saint-denis-reunion",
+      "name": "Saint-Denis (La Réunion)",
+      "region": "La Réunion",
+      "score": 5.7
+    },
+    {
+      "slug": "saint-paul-reunion",
+      "name": "Saint-Paul (La Réunion)",
+      "region": "La Réunion",
+      "score": 5.3
+    },
+    {
+      "slug": "saint-pierre-reunion",
+      "name": "Saint-Pierre (La Réunion)",
+      "region": "La Réunion",
+      "score": 5.8
+    },
+    {
+      "slug": "le-tampon",
+      "name": "Le Tampon",
+      "region": "La Réunion",
+      "score": 5.2
+    },
+    {
+      "slug": "fort-de-france",
+      "name": "Fort-de-France",
+      "region": "Martinique",
+      "score": 5.1
+    },
+    {
+      "slug": "le-lamentin",
+      "name": "Le Lamentin",
+      "region": "Martinique",
+      "score": 4.7
+    },
+    {
+      "slug": "les-abymes",
+      "name": "Les Abymes",
+      "region": "Guadeloupe",
+      "score": 4.3
+    },
+    {
+      "slug": "pointe-a-pitre",
+      "name": "Pointe-à-Pitre",
+      "region": "Guadeloupe",
+      "score": 4.5
+    },
+    {
+      "slug": "baie-mahault",
+      "name": "Baie-Mahault",
+      "region": "Guadeloupe",
+      "score": 5
+    },
+    {
+      "slug": "cayenne",
+      "name": "Cayenne",
+      "region": "Guyane",
+      "score": 3.9
+    },
+    {
+      "slug": "saint-laurent-du-maroni",
+      "name": "Saint-Laurent-du-Maroni",
+      "region": "Guyane",
+      "score": 3.4
+    },
+    {
+      "slug": "mamoudzou",
+      "name": "Mamoudzou",
+      "region": "Mayotte",
+      "score": 3
+    },
+    {
+      "slug": "cormeilles-en-parisis",
+      "name": "Cormeilles-en-Parisis",
+      "region": "Île-de-France",
+      "score": 3.7
+    },
+    {
+      "slug": "sarcelles",
+      "name": "Sarcelles",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "ermont",
+      "name": "Ermont",
+      "region": "Île-de-France",
+      "score": 3.8
+    },
+    {
+      "slug": "franconville",
+      "name": "Franconville",
+      "region": "Île-de-France",
+      "score": 3.7
+    },
+    {
+      "slug": "sannois",
+      "name": "Sannois",
+      "region": "Île-de-France",
+      "score": 3.2
+    },
+    {
+      "slug": "bezons",
+      "name": "Bezons",
+      "region": "Île-de-France",
+      "score": 3.1
+    },
+    {
+      "slug": "garges-les-gonesse",
+      "name": "Garges-lès-Gonesse",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "gonesse",
+      "name": "Gonesse",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "villiers-le-bel",
+      "name": "Villiers-le-Bel",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "pierrefitte-sur-seine",
+      "name": "Pierrefitte-sur-Seine",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "aulnay-sous-bois",
+      "name": "Aulnay-sous-Bois",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "drancy",
+      "name": "Drancy",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "bondy",
+      "name": "Bondy",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "saint-ouen-sur-seine",
+      "name": "Saint-Ouen-sur-Seine",
+      "region": "Île-de-France",
+      "score": 3.3
+    },
+    {
+      "slug": "aubervilliers",
+      "name": "Aubervilliers",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "stains",
+      "name": "Stains",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "sevran",
+      "name": "Sevran",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "la-courneuve",
+      "name": "La Courneuve",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "bagnolet",
+      "name": "Bagnolet",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "asnieres-sur-seine",
+      "name": "Asnières-sur-Seine",
+      "region": "Île-de-France",
+      "score": 4.1
+    },
+    {
+      "slug": "antony",
+      "name": "Antony",
+      "region": "Île-de-France",
+      "score": 4.9
+    },
+    {
+      "slug": "suresnes",
+      "name": "Suresnes",
+      "region": "Île-de-France",
+      "score": 4.7
+    },
+    {
+      "slug": "saint-cloud",
+      "name": "Saint-Cloud",
+      "region": "Île-de-France",
+      "score": 5.5
+    },
+    {
+      "slug": "champigny-sur-marne",
+      "name": "Champigny-sur-Marne",
+      "region": "Île-de-France",
+      "score": 3.5
+    },
+    {
+      "slug": "saint-maur-des-fosses",
+      "name": "Saint-Maur-des-Fossés",
+      "region": "Île-de-France",
+      "score": 5.1
+    },
+    {
+      "slug": "maisons-alfort",
+      "name": "Maisons-Alfort",
+      "region": "Île-de-France",
+      "score": 4.7
+    },
+    {
+      "slug": "fontenay-sous-bois",
+      "name": "Fontenay-sous-Bois",
+      "region": "Île-de-France",
+      "score": 4.9
+    },
+    {
+      "slug": "clichy",
+      "name": "Clichy",
+      "region": "Île-de-France",
+      "score": 3.4
+    },
+    {
+      "slug": "poissy",
+      "name": "Poissy",
+      "region": "Île-de-France",
+      "score": 4.2
+    },
+    {
+      "slug": "mantes-la-jolie",
+      "name": "Mantes-la-Jolie",
+      "region": "Île-de-France",
+      "score": 3.7
+    },
+    {
+      "slug": "trappes",
+      "name": "Trappes",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "sartrouville",
+      "name": "Sartrouville",
+      "region": "Île-de-France",
+      "score": 4
+    },
+    {
+      "slug": "cernay",
+      "name": "Cernay",
+      "region": "Grand Est",
+      "score": 4.6
+    },
+    {
+      "slug": "roubaix",
+      "name": "Roubaix",
+      "region": "Hauts-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "tourcoing",
+      "name": "Tourcoing",
+      "region": "Hauts-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "wattrelos",
+      "name": "Wattrelos",
+      "region": "Hauts-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "vitrolles",
+      "name": "Vitrolles",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 2.8
+    },
+    {
+      "slug": "marignane",
+      "name": "Marignane",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 2.8
+    },
+    {
+      "slug": "istres",
+      "name": "Istres",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 3.2
+    },
+    {
+      "slug": "la-seyne-sur-mer",
+      "name": "La Seyne-sur-Mer",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 3.2
+    },
+    {
+      "slug": "six-fours-les-plages",
+      "name": "Six-Fours-les-Plages",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 4.6
+    },
+    {
+      "slug": "le-cannet",
+      "name": "Le Cannet",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 4.2
+    },
+    {
+      "slug": "mandelieu-la-napoule",
+      "name": "Mandelieu-la-Napoule",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 4.5
+    },
+    {
+      "slug": "vaulx-en-velin",
+      "name": "Vaulx-en-Velin",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 2.8
+    },
+    {
+      "slug": "bron",
+      "name": "Bron",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 3.5
+    },
+    {
+      "slug": "saint-priest",
+      "name": "Saint-Priest",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 3.9
+    },
+    {
+      "slug": "caluire-et-cuire",
+      "name": "Caluire-et-Cuire",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 5.5
+    },
+    {
+      "slug": "decines-charpieu",
+      "name": "Décines-Charpieu",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 4.2
+    },
+    {
+      "slug": "meyzieu",
+      "name": "Meyzieu",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 4.6
+    },
+    {
+      "slug": "merignac",
+      "name": "Mérignac",
+      "region": "Nouvelle-Aquitaine",
+      "score": 5
+    },
+    {
+      "slug": "pessac",
+      "name": "Pessac",
+      "region": "Nouvelle-Aquitaine",
+      "score": 5.4
+    },
+    {
+      "slug": "talence",
+      "name": "Talence",
+      "region": "Nouvelle-Aquitaine",
+      "score": 5.5
+    },
+    {
+      "slug": "begles",
+      "name": "Bègles",
+      "region": "Nouvelle-Aquitaine",
+      "score": 5.1
+    },
+    {
+      "slug": "le-bouscat",
+      "name": "Le Bouscat",
+      "region": "Nouvelle-Aquitaine",
+      "score": 5.5
+    },
+    {
+      "slug": "villenave-d-ornon",
+      "name": "Villenave-d'Ornon",
+      "region": "Nouvelle-Aquitaine",
+      "score": 4.6
+    },
+    {
+      "slug": "bethune",
+      "name": "Béthune",
+      "region": "Hauts-de-France",
+      "score": 3.4
+    },
+    {
+      "slug": "lievin",
+      "name": "Liévin",
+      "region": "Hauts-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "bruay-la-buissiere",
+      "name": "Bruay-la-Buissière",
+      "region": "Hauts-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "colomiers",
+      "name": "Colomiers",
+      "region": "Occitanie",
+      "score": 5.1
+    },
+    {
+      "slug": "tournefeuille",
+      "name": "Tournefeuille",
+      "region": "Occitanie",
+      "score": 5.7
+    },
+    {
+      "slug": "blagnac",
+      "name": "Blagnac",
+      "region": "Occitanie",
+      "score": 4.9
+    },
+    {
+      "slug": "cugnaux",
+      "name": "Cugnaux",
+      "region": "Occitanie",
+      "score": 4.1
+    },
+    {
+      "slug": "saint-herblain",
+      "name": "Saint-Herblain",
+      "region": "Pays de la Loire",
+      "score": 5
+    },
+    {
+      "slug": "reze",
+      "name": "Rezé",
+      "region": "Pays de la Loire",
+      "score": 5.4
+    },
+    {
+      "slug": "orvault",
+      "name": "Orvault",
+      "region": "Pays de la Loire",
+      "score": 5.8
+    },
+    {
+      "slug": "vertou",
+      "name": "Vertou",
+      "region": "Pays de la Loire",
+      "score": 5.5
+    },
+    {
+      "slug": "schiltigheim",
+      "name": "Schiltigheim",
+      "region": "Grand Est",
+      "score": 4.9
+    },
+    {
+      "slug": "illkirch-graffenstaden",
+      "name": "Illkirch-Graffenstaden",
+      "region": "Grand Est",
+      "score": 5.7
+    },
+    {
+      "slug": "lingolsheim",
+      "name": "Lingolsheim",
+      "region": "Grand Est",
+      "score": 4.5
+    },
+    {
+      "slug": "bischheim",
+      "name": "Bischheim",
+      "region": "Grand Est",
+      "score": 4.2
+    },
+    {
+      "slug": "joue-les-tours",
+      "name": "Joué-lès-Tours",
+      "region": "Centre-Val de Loire",
+      "score": 4.8
+    },
+    {
+      "slug": "saint-martin-d-heres",
+      "name": "Saint-Martin-d'Hères",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 5.3
+    },
+    {
+      "slug": "echirolles",
+      "name": "Échirolles",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 3.7
+    },
+    {
+      "slug": "fontaine",
+      "name": "Fontaine",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 4.8
+    },
+    {
+      "slug": "voiron",
+      "name": "Voiron",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 5.3
+    },
+    {
+      "slug": "vandoeuvre-les-nancy",
+      "name": "Vandœuvre-lès-Nancy",
+      "region": "Grand Est",
+      "score": 4.9
+    },
+    {
+      "slug": "laxou",
+      "name": "Laxou",
+      "region": "Grand Est",
+      "score": 5.4
+    },
+    {
+      "slug": "saint-chamond",
+      "name": "Saint-Chamond",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 3.9
+    },
+    {
+      "slug": "firminy",
+      "name": "Firminy",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 3.8
+    },
+    {
+      "slug": "chenove",
+      "name": "Chenôve",
+      "region": "Bourgogne-Franche-Comté",
+      "score": 4.2
+    },
+    {
+      "slug": "saint-louis-haut-rhin",
+      "name": "Saint-Louis (Haut-Rhin)",
+      "region": "Grand Est",
+      "score": 5.3
+    },
+    {
+      "slug": "wittenheim",
+      "name": "Wittenheim",
+      "region": "Grand Est",
+      "score": 4
+    },
+    {
+      "slug": "puteaux",
+      "name": "Puteaux",
+      "region": "Île-de-France",
+      "score": 4.5
+    },
+    {
+      "slug": "gennevilliers",
+      "name": "Gennevilliers",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "villeneuve-la-garenne",
+      "name": "Villeneuve-la-Garenne",
+      "region": "Île-de-France",
+      "score": 3
+    },
+    {
+      "slug": "alfortville",
+      "name": "Alfortville",
+      "region": "Île-de-France",
+      "score": 3.6
+    },
+    {
+      "slug": "le-perreux-sur-marne",
+      "name": "Le Perreux-sur-Marne",
+      "region": "Île-de-France",
+      "score": 5
+    },
+    {
+      "slug": "nogent-sur-marne",
+      "name": "Nogent-sur-Marne",
+      "region": "Île-de-France",
+      "score": 5.2
+    },
+    {
+      "slug": "choisy-le-roi",
+      "name": "Choisy-le-Roi",
+      "region": "Île-de-France",
+      "score": 3.2
+    },
+    {
+      "slug": "rosny-sous-bois",
+      "name": "Rosny-sous-Bois",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "neuilly-sur-marne",
+      "name": "Neuilly-sur-Marne",
+      "region": "Île-de-France",
+      "score": 3.4
+    },
+    {
+      "slug": "le-blanc-mesnil",
+      "name": "Le Blanc-Mesnil",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "tremblay-en-france",
+      "name": "Tremblay-en-France",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "noisy-le-sec",
+      "name": "Noisy-le-Sec",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "plaisir",
+      "name": "Plaisir",
+      "region": "Île-de-France",
+      "score": 4.3
+    },
+    {
+      "slug": "houilles",
+      "name": "Houilles",
+      "region": "Île-de-France",
+      "score": 4.2
+    },
+    {
+      "slug": "conflans-sainte-honorine",
+      "name": "Conflans-Sainte-Honorine",
+      "region": "Île-de-France",
+      "score": 4.7
+    },
+    {
+      "slug": "montigny-le-bretonneux",
+      "name": "Montigny-le-Bretonneux",
+      "region": "Île-de-France",
+      "score": 5.1
+    },
+    {
+      "slug": "guyancourt",
+      "name": "Guyancourt",
+      "region": "Île-de-France",
+      "score": 5.1
+    },
+    {
+      "slug": "forbach",
+      "name": "Forbach",
+      "region": "Grand Est",
+      "score": 4.7
+    },
+    {
+      "slug": "sarreguemines",
+      "name": "Sarreguemines",
+      "region": "Grand Est",
+      "score": 4.4
+    },
+    {
+      "slug": "saint-avold",
+      "name": "Saint-Avold",
+      "region": "Grand Est",
+      "score": 3.6
+    },
+    {
+      "slug": "lanester",
+      "name": "Lanester",
+      "region": "Bretagne",
+      "score": 4.6
+    },
+    {
+      "slug": "herouville-saint-clair",
+      "name": "Hérouville-Saint-Clair",
+      "region": "Normandie",
+      "score": 4.4
+    },
+    {
+      "slug": "olivet",
+      "name": "Olivet",
+      "region": "Centre-Val de Loire",
+      "score": 5.6
+    },
+    {
+      "slug": "fleury-les-aubrais",
+      "name": "Fleury-les-Aubrais",
+      "region": "Centre-Val de Loire",
+      "score": 4.3
+    },
+    {
+      "slug": "creil",
+      "name": "Creil",
+      "region": "Hauts-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "cavaillon",
+      "name": "Cavaillon",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 3.9
+    },
+    {
+      "slug": "pertuis",
+      "name": "Pertuis",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 4.9
+    },
+    {
+      "slug": "allauch",
+      "name": "Allauch",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "score": 5.3
+    },
+    {
+      "slug": "trelaze",
+      "name": "Trélazé",
+      "region": "Pays de la Loire",
+      "score": 4.2
+    },
+    {
+      "slug": "corbeil-essonnes",
+      "name": "Corbeil-Essonnes",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "savigny-sur-orge",
+      "name": "Savigny-sur-Orge",
+      "region": "Île-de-France",
+      "score": 4.4
+    },
+    {
+      "slug": "athis-mons",
+      "name": "Athis-Mons",
+      "region": "Île-de-France",
+      "score": 3.7
+    },
+    {
+      "slug": "yerres",
+      "name": "Yerres",
+      "region": "Île-de-France",
+      "score": 5.5
+    },
+    {
+      "slug": "brunoy",
+      "name": "Brunoy",
+      "region": "Île-de-France",
+      "score": 5.2
+    },
+    {
+      "slug": "sainte-genevieve-des-bois",
+      "name": "Sainte-Geneviève-des-Bois",
+      "region": "Île-de-France",
+      "score": 4.6
+    },
+    {
+      "slug": "palaiseau",
+      "name": "Palaiseau",
+      "region": "Île-de-France",
+      "score": 5.6
+    },
+    {
+      "slug": "draveil",
+      "name": "Draveil",
+      "region": "Île-de-France",
+      "score": 5
+    },
+    {
+      "slug": "viry-chatillon",
+      "name": "Viry-Châtillon",
+      "region": "Île-de-France",
+      "score": 3.9
+    },
+    {
+      "slug": "le-plessis-robinson",
+      "name": "Le Plessis-Robinson",
+      "region": "Île-de-France",
+      "score": 5.1
+    },
+    {
+      "slug": "sevres",
+      "name": "Sèvres",
+      "region": "Île-de-France",
+      "score": 5.2
+    },
+    {
+      "slug": "chelles",
+      "name": "Chelles",
+      "region": "Île-de-France",
+      "score": 4.8
+    },
+    {
+      "slug": "melun",
+      "name": "Melun",
+      "region": "Île-de-France",
+      "score": 4.9
+    },
+    {
+      "slug": "pontault-combault",
+      "name": "Pontault-Combault",
+      "region": "Île-de-France",
+      "score": 5
+    },
+    {
+      "slug": "savigny-le-temple",
+      "name": "Savigny-le-Temple",
+      "region": "Île-de-France",
+      "score": 4.4
+    },
+    {
+      "slug": "torcy",
+      "name": "Torcy",
+      "region": "Île-de-France",
+      "score": 5.1
+    },
+    {
+      "slug": "combs-la-ville",
+      "name": "Combs-la-Ville",
+      "region": "Île-de-France",
+      "score": 4.4
+    },
+    {
+      "slug": "champs-sur-marne",
+      "name": "Champs-sur-Marne",
+      "region": "Île-de-France",
+      "score": 5.7
+    },
+    {
+      "slug": "noisiel",
+      "name": "Noisiel",
+      "region": "Île-de-France",
+      "score": 5.1
+    },
+    {
+      "slug": "saint-andre-reunion",
+      "name": "Saint-André (Réunion)",
+      "region": "La Réunion",
+      "score": 3.6
+    },
+    {
+      "slug": "saint-louis-reunion-974",
+      "name": "Saint-Louis (Réunion)",
+      "region": "La Réunion",
+      "score": 3.5
+    },
+    {
+      "slug": "saint-joseph-reunion",
+      "name": "Saint-Joseph (Réunion)",
+      "region": "La Réunion",
+      "score": 3.8
+    },
+    {
+      "slug": "saint-benoit-reunion",
+      "name": "Saint-Benoît (Réunion)",
+      "region": "La Réunion",
+      "score": 3.7
+    },
+    {
+      "slug": "le-robert",
+      "name": "Le Robert (Martinique)",
+      "region": "Martinique",
+      "score": 3.9
+    },
+    {
+      "slug": "le-francois",
+      "name": "Le François (Martinique)",
+      "region": "Martinique",
+      "score": 3.8
+    },
+    {
+      "slug": "saint-medard-en-jalles",
+      "name": "Saint-Médard-en-Jalles",
+      "region": "Nouvelle-Aquitaine",
+      "score": 5.3
+    },
+    {
+      "slug": "tassin-la-demi-lune",
+      "name": "Tassin-la-Demi-Lune",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 5.9
+    },
+    {
+      "slug": "saint-mande",
+      "name": "Saint-Mandé",
+      "region": "Île-de-France",
+      "score": 5.3
+    },
+    {
+      "slug": "charenton-le-pont",
+      "name": "Charenton-le-Pont",
+      "region": "Île-de-France",
+      "score": 4.6
+    },
+    {
+      "slug": "sceaux",
+      "name": "Sceaux",
+      "region": "Île-de-France",
+      "score": 5.1
+    },
+    {
+      "slug": "bourg-la-reine",
+      "name": "Bourg-la-Reine",
+      "region": "Île-de-France",
+      "score": 4.8
+    },
+    {
+      "slug": "chatillon-92",
+      "name": "Châtillon",
+      "region": "Île-de-France",
+      "score": 4.1
+    },
+    {
+      "slug": "malakoff",
+      "name": "Malakoff",
+      "region": "Île-de-France",
+      "score": 4
+    },
+    {
+      "slug": "bagneux",
+      "name": "Bagneux",
+      "region": "Île-de-France",
+      "score": 3.2
+    },
+    {
+      "slug": "chatenay-malabry",
+      "name": "Châtenay-Malabry",
+      "region": "Île-de-France",
+      "score": 4.4
+    },
+    {
+      "slug": "fresnes",
+      "name": "Fresnes",
+      "region": "Île-de-France",
+      "score": 3.1
+    },
+    {
+      "slug": "cachan",
+      "name": "Cachan",
+      "region": "Île-de-France",
+      "score": 4.6
+    },
+    {
+      "slug": "arcueil",
+      "name": "Arcueil",
+      "region": "Île-de-France",
+      "score": 4.3
+    },
+    {
+      "slug": "gentilly",
+      "name": "Gentilly",
+      "region": "Île-de-France",
+      "score": 3.6
+    },
+    {
+      "slug": "le-kremlin-bicetre",
+      "name": "Le Kremlin-Bicêtre",
+      "region": "Île-de-France",
+      "score": 4
+    },
+    {
+      "slug": "bois-colombes",
+      "name": "Bois-Colombes",
+      "region": "Île-de-France",
+      "score": 4.9
+    },
+    {
+      "slug": "la-garenne-colombes",
+      "name": "La Garenne-Colombes",
+      "region": "Île-de-France",
+      "score": 4.7
+    },
+    {
+      "slug": "eaubonne",
+      "name": "Eaubonne",
+      "region": "Île-de-France",
+      "score": 4.3
+    },
+    {
+      "slug": "goussainville",
+      "name": "Goussainville",
+      "region": "Île-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "saint-leu-la-foret",
+      "name": "Saint-Leu-la-Forêt",
+      "region": "Île-de-France",
+      "score": 4.9
+    },
+    {
+      "slug": "soisy-sous-montmorency",
+      "name": "Soisy-sous-Montmorency",
+      "region": "Île-de-France",
+      "score": 4.1
+    },
+    {
+      "slug": "montmorency",
+      "name": "Montmorency",
+      "region": "Île-de-France",
+      "score": 4.8
+    },
+    {
+      "slug": "domont",
+      "name": "Domont",
+      "region": "Île-de-France",
+      "score": 3.8
+    },
+    {
+      "slug": "velizy-villacoublay",
+      "name": "Vélizy-Villacoublay",
+      "region": "Île-de-France",
+      "score": 4.6
+    },
+    {
+      "slug": "le-chesnay-rocquencourt",
+      "name": "Le Chesnay-Rocquencourt",
+      "region": "Île-de-France",
+      "score": 4.8
+    },
+    {
+      "slug": "elancourt",
+      "name": "Élancourt",
+      "region": "Île-de-France",
+      "score": 4.3
+    },
+    {
+      "slug": "maurepas",
+      "name": "Maurepas",
+      "region": "Île-de-France",
+      "score": 3.8
+    },
+    {
+      "slug": "saint-omer",
+      "name": "Saint-Omer",
+      "region": "Hauts-de-France",
+      "score": 4.1
+    },
+    {
+      "slug": "hazebrouck",
+      "name": "Hazebrouck",
+      "region": "Hauts-de-France",
+      "score": 4
+    },
+    {
+      "slug": "armentieres",
+      "name": "Armentières",
+      "region": "Hauts-de-France",
+      "score": 3.4
+    },
+    {
+      "slug": "maubeuge",
+      "name": "Maubeuge",
+      "region": "Hauts-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "denain",
+      "name": "Denain",
+      "region": "Hauts-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "henin-beaumont",
+      "name": "Hénin-Beaumont",
+      "region": "Hauts-de-France",
+      "score": 2.8
+    },
+    {
+      "slug": "berck",
+      "name": "Berck",
+      "region": "Hauts-de-France",
+      "score": 3.7
+    },
+    {
+      "slug": "montigny-les-metz",
+      "name": "Montigny-lès-Metz",
+      "region": "Grand Est",
+      "score": 4.8
+    },
+    {
+      "slug": "hayange",
+      "name": "Hayange",
+      "region": "Grand Est",
+      "score": 2.8
+    },
+    {
+      "slug": "riedisheim",
+      "name": "Riedisheim",
+      "region": "Grand Est",
+      "score": 4.6
+    },
+    {
+      "slug": "kingersheim",
+      "name": "Kingersheim",
+      "region": "Grand Est",
+      "score": 4.5
+    },
+    {
+      "slug": "saint-genis-laval",
+      "name": "Saint-Genis-Laval",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 5.4
+    },
+    {
+      "slug": "givors",
+      "name": "Givors",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 3
+    },
+    {
+      "slug": "rillieux-la-pape",
+      "name": "Rillieux-la-Pape",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 3.9
+    },
+    {
+      "slug": "sainte-foy-les-lyon",
+      "name": "Sainte-Foy-lès-Lyon",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 5.6
+    },
+    {
+      "slug": "oullins-pierre-benite",
+      "name": "Oullins-Pierre-Bénite",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 4.6
+    },
+    {
+      "slug": "sallanches",
+      "name": "Sallanches",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 4.9
+    },
+    {
+      "slug": "amberieu-en-bugey",
+      "name": "Ambérieu-en-Bugey",
+      "region": "Auvergne-Rhône-Alpes",
+      "score": 4
+    },
+    {
+      "slug": "vernon",
+      "name": "Vernon",
+      "region": "Normandie",
+      "score": 4.9
+    },
+    {
+      "slug": "sotteville-les-rouen",
+      "name": "Sotteville-lès-Rouen",
+      "region": "Normandie",
+      "score": 4
+    },
+    {
+      "slug": "le-grand-quevilly",
+      "name": "Le Grand-Quevilly",
+      "region": "Normandie",
+      "score": 4
+    },
+    {
+      "slug": "mont-saint-aignan",
+      "name": "Mont-Saint-Aignan",
+      "region": "Normandie",
+      "score": 5.7
+    },
+    {
+      "slug": "chantilly",
+      "name": "Chantilly",
+      "region": "Hauts-de-France",
+      "score": 6
+    },
+    {
+      "slug": "crepy-en-valois",
+      "name": "Crépy-en-Valois",
+      "region": "Hauts-de-France",
+      "score": 4.6
+    },
+    {
+      "slug": "meru",
+      "name": "Méru",
+      "region": "Hauts-de-France",
+      "score": 4
+    }
+  ],
   "guides": [
     {
       "slug": "moving-to-france-where-to-live-2026",

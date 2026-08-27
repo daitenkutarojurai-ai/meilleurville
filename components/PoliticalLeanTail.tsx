@@ -2,7 +2,15 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { BLOC_COLORS, BLOC_ORDER, type Bloc } from "@/lib/political-lean";
+// `-meta` et non `@/lib/political-lean` : ce dernier réexporte bien ces
+// constantes, mais lit `data/political-lean.json` (289 Ko) à l'initialisation
+// du module. Mesuré, le bundler l'élimine aujourd'hui — les fonctions qui
+// touchent le JSON ne sont pas appelées ici, donc le chunk est identique dans
+// les deux sens (3 584 octets minifiés). On ne dépend pas de cette élimination
+// pour autant : elle tient tant que personne n'appelle une de ces fonctions
+// depuis ce fichier, et `-meta` a été extraite précisément pour ne pas avoir
+// à s'en remettre à ça.
+import { BLOC_COLORS, BLOC_ORDER, type Bloc } from "@/lib/political-lean-meta";
 
 export type LeanTailRow = {
   slug: string;

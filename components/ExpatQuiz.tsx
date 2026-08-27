@@ -19,7 +19,11 @@ import {
   type CompatibilityMatch,
 } from "@/lib/compatibility";
 import type { CityLight } from "@/lib/cities-light";
-import { EXPAT_COUNTRIES, getExpatCountry, type ExpatCountry } from "@/lib/expat-return";
+// Projection maigre : `lib/expat-return` fait 190 Ko de prose et de chiffres
+// par pays, et le quiz n'en lit que le drapeau, le nom et les villes
+// frontalières. La liste descend en prop depuis la page serveur, comme
+// `cities` — cf. `ExpatCountryOption` dans la lib.
+import type { ExpatCountry, ExpatCountryOption } from "@/lib/expat-return";
 
 type Step =
   | { id: "originCountry"; type: "country"; question: string }
@@ -93,7 +97,17 @@ function scoreColorBadge(score: number): string {
   return "bg-orange-100 text-orange-700 border-orange-300";
 }
 
-export function ExpatQuiz({ cities }: { cities: CityLight[] }) {
+export function ExpatQuiz({
+  cities,
+  countries,
+}: {
+  cities: CityLight[];
+  countries: ExpatCountryOption[];
+}) {
+  const countryBySlug = useMemo(
+    () => new Map(countries.map((c) => [c.slug, c])),
+    [countries],
+  );
   const [step, setStep] = useState(0);
   const [answers, setAnswers] = useState<ExpatAnswers>(INITIAL);
   const [submitted, setSubmitted] = useState(false);
@@ -119,7 +133,7 @@ export function ExpatQuiz({ cities }: { cities: CityLight[] }) {
       heat: (answers.heat as CompatibilityAnswers["heat"]) ?? "supporte",
     };
     const base = rankCompatibility(compatibilityInput, cities, 50);
-    const country = answers.originCountry ? getExpatCountry(answers.originCountry) : undefined;
+    const country = answers.originCountry ? countryBySlug.get(answers.originCountry) : undefined;
     const frontierSlugs = new Set(country?.bestSuitedCities ?? []);
     // Apply frontier bonus + re-rank
     const boosted = base.map((m) => ({
@@ -128,10 +142,10 @@ export function ExpatQuiz({ cities }: { cities: CityLight[] }) {
     }));
     boosted.sort((a, b) => b.score - a.score);
     return boosted.slice(0, 5);
-  }, [submitted, answers]);
+  }, [submitted, answers, cities, countryBySlug]);
 
   if (submitted) {
-    const country = answers.originCountry ? getExpatCountry(answers.originCountry) : undefined;
+    const country = answers.originCountry ? countryBySlug.get(answers.originCountry) : undefined;
     return (
       <div className="space-y-6">
         <div className="text-center">
@@ -258,7 +272,7 @@ export function ExpatQuiz({ cities }: { cities: CityLight[] }) {
 
       {current.type === "country" ? (
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
-          {EXPAT_COUNTRIES.map((c) => {
+          {countries.map((c) => {
             const selected = answers.originCountry === c.slug;
             return (
               <button

@@ -28,6 +28,14 @@
 import RAW_FR from "@/data/search-index.json";
 import RAW_EN from "@/data/search-index.en.json";
 
+export interface SearchIndexCity {
+  slug: string;
+  name: string;
+  region: string;
+  /** Score global **rendu** (seed calibré puis normalisé), pas le littéral du seed. */
+  score: number;
+}
+
 export interface SearchIndexGuide {
   slug: string;
   title: string;
@@ -41,6 +49,15 @@ export interface SearchIndexTag {
 }
 
 const RAW = process.env.NEXT_PUBLIC_DEFAULT_LOCALE === "en" ? RAW_EN : RAW_FR;
+
+/**
+ * Les 540 villes du seed, dans l'ordre du seed — quatre champs. Le seed entier
+ * fait 588 Ko (descriptions FR et EN, tags de caractère, normales climatiques,
+ * codes Insee) : l'importer depuis la palette, montée par la Navbar sur toutes
+ * les pages, expédiait tout ça au navigateur pour afficher un nom et un score.
+ * Liste identique dans les deux locales — un nom de commune ne se traduit pas.
+ */
+export const SEARCH_CITIES: readonly SearchIndexCity[] = RAW.cities;
 
 /** Tous les guides de la locale du build, dans l'ordre du corpus. */
 export const SEARCH_GUIDES: readonly SearchIndexGuide[] = RAW.guides;

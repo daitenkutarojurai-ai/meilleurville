@@ -2939,6 +2939,86 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ---
 
+## Shipped 2026-08-27 (2e run du jour)
+
+- **Perf — la palette de recherche embarquait le seed entier sur toutes les pages ; le quiz expat,
+  les 190 Ko de `lib/expat-return`. Mesuré avant/après, pas estimé.**
+  C'est le piège « Projections, not entities » de CLAUDE.md § Performance, appliqué aux deux
+  composants clients où il restait. `components/SearchPalette.tsx` importait `CITIES_SEED` pour en
+  lire **quatre champs** (slug, nom, région, score global) et `RANKING_META` depuis `lib/rankings.ts`,
+  qui tire le seed **et** `data/housing.ts` pour ses fonctions de tri. La palette est montée par la
+  `Navbar`, donc sur **toutes** les pages du site : les 588 Ko du seed — descriptions FR et EN, tags
+  de caractère, codes Insee, normales climatiques — partaient au navigateur pour afficher un nom et
+  une pastille de couleur. La correction de 2026-08-04 avait sorti le corpus de guides de ce même
+  fichier (5,9 Mo → 668 Ko) ; **le seed était ce qu'il restait dans les 668 Ko.**
+
+  **Mesures réelles** (esbuild, `--bundle --minify`, mêmes réglages et mêmes externals des deux
+  côtés, `NEXT_PUBLIC_DEFAULT_LOCALE=fr`, arbre HEAD contre arbre de travail) :
+
+  | Composant | avant | après | gzip avant → après |
+  |---|---|---|---|
+  | `SearchPalette` | 741 182 o | **266 235 o** | 154 557 → **61 263 o** (−60 %) |
+  | `ExpatQuiz` | 280 441 o | **88 484 o** | 74 991 → **22 867 o** (−70 %) |
+
+  ⚠️ **C'est esbuild, pas Turbopack** : l'instrument n'est pas celui qui produit la prod, l'écart
+  relatif est ce qui est mesuré. Ne pas recopier ces octets comme des tailles de chunk livrées.
+
+  Trois changements, tous sur le même patron — **une frontière qui n'importe rien** :
+  - **`lib/rankings-meta.ts` (neuf)** — `RANKING_META` et `RankingSlug` déménagent tels quels
+    (aucune valeur touchée) dans un module **sans un seul import**. `lib/rankings.ts` les réexporte,
+    donc les ~16 surfaces qui l'importent depuis lui n'ont rien à changer. Le tri des villes
+    (`getRankedCities`, les scorers climat/littoral/logement) reste où il est, avec le seed.
+  - **`SEARCH_CITIES` dans les index de recherche générés** — `scripts/build-search-index.mjs` émet
+    désormais un tableau `cities` (slug, nom, région, score) dans `data/search-index.json` et
+    `data/search-index.en.json`, à côté de `guides` et `tags`. Le script **évalue le vrai module**
+    `data/cities-seed.ts` avec son vrai `calibrateScores` et son vrai `normalizeDistribution` : la
+    projection porte donc le score **rendu**, jamais le littéral du seed — la règle que CLAUDE.md
+    répète depuis le correctif du 10/08. Vérifié champ par champ contre `CITIES_SEED` importé par
+    `npx tsx` : **540/540 identiques, longueur et ordre compris**. Le garde existant
+    `npm run search-index:check` couvre le nouveau tableau sans une ligne de plus, et `prebuild`
+    le rejoue, donc la prod ne peut pas partir avec une liste périmée. Coût : +65 Ko par fichier,
+    dont **un seul part par build** (le ternaire sur `NEXT_PUBLIC_DEFAULT_LOCALE` est inliné) — en
+    échange des 588 Ko du seed.
+  - **`ExpatCountryOption` / `EXPAT_COUNTRY_OPTIONS`** — `components/ExpatQuiz.tsx` lisait
+    `EXPAT_COUNTRIES` en **valeur** pour n'en tirer que drapeau, nom et `bestSuitedCities` ; les 190 Ko
+    de prose, de chiffres et de liens administratifs des 21 fiches pays suivaient. La liste descend
+    maintenant en **prop depuis la page serveur** `app/expat-retour/quiz`, exactement comme
+    `CITIES_LIGHT` le fait déjà juste à côté — donc **rien à maintenir en double** : une fiche pays
+    ajoutée à `EXPAT_COUNTRIES` apparaît dans le quiz sans autre geste. Le composant n'importe plus
+    que des **types** de la lib, qui sont effacés à la compilation. C'était la dette notée noir sur
+    blanc au § « Expat retour » de CLAUDE.md le 2026-08-26 (« trouvé ce run, non corrigé »).
+
+  **Ce qui n'est PAS un gain, et qu'il faut lire comme tel.** `components/PoliticalLeanTail.tsx`
+  importait `BLOC_COLORS` / `BLOC_ORDER` depuis `@/lib/political-lean`, qui lit
+  `data/political-lean.json` (289 Ko) à l'initialisation. L'audit du graphe de modules le donnait
+  pour le 2ᵉ plus gros passager du site ; **la mesure dit 3 584 octets avant comme après** — le
+  bundler élimine le JSON, les fonctions qui le touchent n'étant pas appelées ici. L'import a
+  quand même été repointé sur `lib/political-lean-meta` (la moitié client-safe, extraite pour ça),
+  parce qu'une élimination n'est acquise que tant que personne n'appelle une de ces fonctions depuis
+  ce fichier — mais **le gain annoncé est zéro**, et le commentaire du fichier le dit. Leçon de
+  méthode, à garder : *un graphe d'imports dit ce qui est atteignable, pas ce qui est livré.*
+
+  **Ce que ce run ne fait pas.** L'audit (script jetable, 84 modules clients balayés) laisse trois
+  passagers réels, aucun corrigeable en une passe :
+  - `data/city-population.json` (140 Ko) dans **`CityProfile`**, via
+    `DemographyCard → lib/demography → lib/city-population` — donc sur les 540 pages ville, FR et EN.
+    Le remède est le patron déjà en place à côté : calculer dans `lib/city-profile-data.ts`
+    (serveur) et descendre le résultat en props. C'est le prochain vrai levier, et il touche le rendu
+    des pages ville — à faire avec un build local, pas depuis une routine.
+  - Le même JSON dans `components/PersonalSynthesisQuiz` via `lib/city-synthesis` : celui-là est
+    **légitime**, le quiz recalcule la synthèse dans le navigateur.
+  - `data/housing.ts` (53 Ko) et `data/city-cards.json` (63 Ko) dans les six quiz et grilles de
+    villes : légitimes aussi, les loyers servent au filtrage et au classement côté client.
+
+  **Contrôles** : `npx tsc --noEmit` propre, `npm run integrity` propre (540 villes, FR 1 003,
+  EN 757), `npm run search-index:check` propre après régénération, `npm run parity` en code 0,
+  `npx eslint` sur les sept fichiers touchés — 0 erreur, 1 avertissement préexistant
+  (`react-hooks/exhaustive-deps` sur le `useEffect` d'échappement de la palette, hors diff).
+  Aucune route ajoutée, donc `app/sitemap.ts` inchangé et `sitemap:check` non requis.
+  `npm run build` n'a pas été lancé, conformément à CLAUDE.md § Commands.
+
+---
+
 ## Shipped 2026-08-27
 
 - **Parité EN — série `single-parent-holidays-[city]-2026` REFERMÉE (batch 2, +8 : Lyon, Angers,

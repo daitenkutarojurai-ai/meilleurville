@@ -157,22 +157,71 @@ function projectTags(list) {
   return list.map((t) => ({ slug: t.slug, label: t.label, count: t.count }));
 }
 
+/**
+ * Villes. Même piège que les guides, dans une autre forme : la palette lisait
+ * `CITIES_SEED` pour quatre champs (slug, nom, région, score global) et
+ * embarquait les 588 Ko du seed — descriptions FR **et** EN, tags de caractère,
+ * codes Insee, normales climatiques — dans le bundle de toutes les pages, la
+ * Navbar montant la palette partout.
+ *
+ * Le module réel est évalué, jamais lu au grep : `CITIES_SEED` est le seed
+ * calibré **puis** normalisé (`normalizeDistribution(RAW.map(calibrateScores))`),
+ * et c'est cette valeur-là que les pages affichent. Projeter le littéral brut
+ * republierait les chiffres que CLAUDE.md interdit de citer.
+ *
+ * La liste est identique dans les deux locales — les noms de communes et de
+ * régions ne se traduisent pas — mais elle est écrite dans les deux fichiers
+ * pour qu'un seul JSON par build suffise à la palette.
+ */
+function loadCities() {
+  const mod = loadModule("data/cities-seed.ts", (id) => {
+    if (id === "@/lib/score-calibration") {
+      return loadModule("lib/score-calibration.ts", () => null);
+    }
+    if (id === "@/lib/score-distribution") {
+      return loadModule("lib/score-distribution.ts", () => null);
+    }
+    // Les gardes tournent au vrai build (et dans `npm run integrity`) ; les
+    // rejouer ici ne validerait rien de plus.
+    if (id === "@/lib/data-integrity") {
+      return { assertUniqueInseeCodes: NOOP, assertUniqueSlugs: NOOP };
+    }
+    return null;
+  });
+  if (!Array.isArray(mod.CITIES_SEED) || mod.CITIES_SEED.length === 0) {
+    throw new Error("data/cities-seed.ts n'a pas exporté de CITIES_SEED exploitable");
+  }
+  return mod.CITIES_SEED;
+}
+
+function projectCities(list) {
+  return list.map((c) => {
+    const score = c.scores?.global;
+    if (!c.slug || !c.name || !c.region || typeof score !== "number") {
+      throw new Error(`ville incomplète dans le seed : ${JSON.stringify(c.slug ?? c.name)}`);
+    }
+    return { slug: c.slug, name: c.name, region: c.region, score };
+  });
+}
+
 const HEADER =
   "Généré par scripts/build-search-index.mjs — ne pas éditer à la main (npm run search-index).";
 
-function buildFr() {
+function buildFr(cities) {
   const guidesModule = loadGuides();
   return {
     "//": HEADER,
+    cities,
     guides: projectGuides(guidesModule.GUIDES),
     tags: projectTags(loadTags(guidesModule)),
   };
 }
 
-function buildEn() {
+function buildEn(cities) {
   const enGuidesModule = loadEnGuides();
   return {
     "//": HEADER,
+    cities,
     guides: projectGuides(enGuidesModule.EN_GUIDES),
     tags: projectTags(loadEnTags(enGuidesModule)),
   };
@@ -184,9 +233,11 @@ function serialize(index) {
 
 const check = process.argv.includes("--check");
 
+const CITIES = projectCities(loadCities());
+
 const OUTPUTS = [
-  { label: "data/search-index.json", file: OUT_FR, payload: serialize(buildFr()) },
-  { label: "data/search-index.en.json", file: OUT_EN, payload: serialize(buildEn()) },
+  { label: "data/search-index.json", file: OUT_FR, payload: serialize(buildFr(CITIES)) },
+  { label: "data/search-index.en.json", file: OUT_EN, payload: serialize(buildEn(CITIES)) },
 ];
 
 if (check) {
@@ -212,7 +263,7 @@ if (check) {
     writeFileSync(file, payload);
     const parsed = JSON.parse(payload);
     console.log(
-      `${label} écrit : ${parsed.guides.length} guides, ${parsed.tags.length} tags, ${(payload.length / 1024).toFixed(0)} Ko.`
+      `${label} écrit : ${parsed.cities.length} villes, ${parsed.guides.length} guides, ${parsed.tags.length} tags, ${(payload.length / 1024).toFixed(0)} Ko.`
     );
   }
 }

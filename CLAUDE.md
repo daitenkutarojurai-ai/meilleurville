@@ -973,11 +973,15 @@ en août 2026 (5,81-6,15 dans le mois) ; convention fiscale du **10/09/1971**, e
 chiffres français viennent de `data/housing.ts` et les deux scores cités (Cayenne 3,9, Lyon 7,1) sont
 lus dans `CITIES_SEED`, pas dans le seed source. Aucune page EN : `bresil` n'est pas dans
 `EN_EXPAT_COUNTRY_SLUGS`, donc pas de hreflang à câbler.
-⚠️ **Trouvé ce run, non corrigé, à traiter comme une dette de perf** : `components/ExpatQuiz.tsx` est
-un composant **client** qui importe `EXPAT_COUNTRIES` **en valeur** alors qu'il n'a besoin que de
-`slug` / `name` / `flag` / `bestSuitedCities`. Les 195 Ko de prose de `lib/expat-return.ts` partent
-donc dans le bundle du quiz — le piège exact décrit en § Performance pour `@/data/guides`. Le remède
-est une projection légère (précédent `lib/search-index.ts`), pas un allègement des fiches.
+✅ **Dette de perf soldée le 2026-08-27** (elle était notée ici « trouvée ce run, non corrigée ») :
+`components/ExpatQuiz.tsx` importait `EXPAT_COUNTRIES` **en valeur** alors qu'il n'a besoin que de
+`slug` / `name` / `flag` / `bestSuitedCities`, et embarquait les 190 Ko de prose de
+`lib/expat-return.ts` dans le bundle du quiz. Le remède retenu n'est ni un allègement des fiches ni
+un JSON généré : `EXPAT_COUNTRY_OPTIONS` (projection dérivée du tableau, en bas du même fichier)
+descend **en prop depuis la page serveur** `app/expat-retour/quiz`, comme `CITIES_LIGHT` juste à
+côté — donc rien à maintenir en double, une fiche ajoutée apparaît dans le quiz sans autre geste. Le
+composant n'importe plus que des **types**, effacés à la compilation. Mesuré : 280 441 → 88 484 o
+minifiés, 74 991 → 22 867 o gzip. **Ne pas réintroduire un import en valeur ici.**
 Avant-dernier ajouté : **Chine** —
 le seul dossier du site où la difficulté n'est ni fiscale ni culturelle mais **mécanique** : faire
 sortir ses droits et son argent. Trois points vérifiés en ligne, et qui portent la fiche : ① **aucune
@@ -1231,6 +1235,21 @@ payload the browser must parse.
   inlinée au build, donc un seul des deux JSON part dans le bundle (mesuré :
   187 Ko côté FR, 98 Ko côté EN). Ajouter un guide EN sans relancer
   `npm run search-index` fait échouer `search-index:check`, comme côté FR.
+- **Le même piège vaut pour `@/data/cities-seed`, et il a tenu plus longtemps** (corrigé
+  2026-08-27) : `SearchPalette` importait le seed pour en lire **quatre champs**, et `RANKING_META`
+  depuis `@/lib/rankings`, qui tire le seed *et* `data/housing.ts` pour ses fonctions de tri. La
+  palette étant montée par la `Navbar`, ces 588 Ko partaient sur **toutes** les pages. Deux
+  frontières neuves : **`lib/rankings-meta.ts`** (la table éditoriale des 19 classements, **zéro
+  import** ; `lib/rankings.ts` la réexporte, les appelants historiques n'ont rien à changer) et
+  **`SEARCH_CITIES`** dans les index générés (slug/nom/région/score, émis par
+  `scripts/build-search-index.mjs`, qui **évalue le vrai module** donc porte le score *rendu* et
+  jamais le littéral). Mesuré : 741 182 → 266 235 o minifiés, 154 557 → 61 263 o gzip. Un composant
+  client qui a besoin d'un champ de ville l'ajoute **à la projection** ; il n'importe pas le seed.
+- **Un graphe d'imports dit ce qui est *atteignable*, pas ce qui est *livré*.** Le même audit
+  donnait `data/political-lean.json` (289 Ko) pour passager de `PoliticalLeanTail` ; à la mesure, le
+  bundler l'élimine déjà (3 584 o avant comme après), les fonctions qui touchent le JSON n'étant pas
+  appelées là. Avant d'annoncer un gain, le mesurer — un `esbuild --bundle --minify` sur le composant,
+  mêmes externals des deux côtés, suffit et coûte deux secondes, là où `npm run build` est interdit.
 - **No framer-motion.** It was pulled in by `ScrollReveal` alone (~110 kB) and has
   been rebuilt on IntersectionObserver + a CSS transition. Don't reintroduce it
   for an effect the compositor can run. Note `ScrollReveal` renders its children
@@ -1239,7 +1258,16 @@ payload the browser must parse.
 - **Known remaining lever:** city pages still ship ~1 MB of JS because
   `CityProfile` is one client component importing ~30 sub-components, most of
   which render static text. Decoupling it (client only for tabs + action buttons)
-  is the next real win, and is a refactor of its own.
+  is the next real win, and is a refactor of its own. **Le plus gros passager
+  identifié est nommé** (audit 2026-08-27) : `data/city-population.json`, 140 Ko,
+  atteint par `DemographyCard → lib/demography → lib/city-population`, donc sur
+  les 540 pages ville des deux locales. Le remède est le patron déjà en place à
+  côté — calculer dans `lib/city-profile-data.ts` (serveur) et descendre le
+  résultat en props — mais il touche le rendu des pages ville : **à faire avec un
+  build local, pas depuis une routine**. Les autres passagers relevés sont
+  légitimes : `city-synthesis` dans `PersonalSynthesisQuiz` (le quiz recalcule
+  dans le navigateur), `data/housing.ts` et `data/city-cards.json` dans les six
+  quiz et grilles (loyers et photos servent au filtrage côté client).
 
 ---
 
