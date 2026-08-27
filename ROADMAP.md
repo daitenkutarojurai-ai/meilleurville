@@ -746,7 +746,7 @@ recensées à proximité, zones protégées.
 
 | # | Feature | Prio | Cplx | SEO | Statut |
 |---|---------|------|------|-----|--------|
-| F62 | **Score Biodiversité** (pipeline GBIF + zones protégées → sous-page ×540 + classement) | **P0** | **L** | **high** | 🚧 en cours — GBIF **540/540** (crawl clos 09/08), sous-pages en ligne des deux locales, **rang de richesse retiré le 10/08** (il classait les programmes de saisie) ; zones protégées **540/540** depuis la bascule INPN → **IGN BD TOPO** du 26/08 (la source INPN est morte depuis la cyberattaque de 07/2025), **hub national `/espaces-proteges` + `/protected-areas` livré le 26/08** ; `overall` reste `null` — deux composantes sur trois publiables ne font pas un agrégat qui mesure ce que son nom annonce |
+| F62 | **Score Biodiversité** (pipeline GBIF + zones protégées → sous-page ×540 + classement) | **P0** | **L** | **high** | 🚧 en cours — GBIF **540/540** (crawl clos 09/08), sous-pages en ligne des deux locales, **rang de richesse retiré le 10/08** (il classait les programmes de saisie) ; zones protégées **540/540** depuis la bascule INPN → **IGN BD TOPO** du 26/08 (la source INPN est morte depuis la cyberattaque de 07/2025), **hub national `/espaces-proteges` + `/protected-areas` livré le 26/08** ; **passe d'honnêteté des deux sous-pages ville le 27/08** (elles annonçaient encore les zones protégées comme « pas encore intégrées », et publiaient un effectif d'espèces plafonné comme un total sur 27 villes) ; `overall` reste `null` — deux composantes sur trois publiables ne font pas un agrégat qui mesure ce que son nom annonce |
 | F63 | **Qualité de l'air — du modèle à la mesure** (ATMO + Geod'Air, hub + classement) | **P0** | **M** | **high** | 🔜 à faire |
 | F64 | **Actualité locale par ville** (open data BODACC/JO/CatNat → section CityProfile + routine hebdo) | **P1** | **M** | **low** | ✅ **en ligne — 540/540 villes, 4 212 entrées** (BODACC 4 172 + CatNat 40), collectées par le cron local les 04-05/08. Section rendue sur les deux locales. RNA toujours désactivé (0 association). Mois partiel marqué depuis le 11/08. **Filtre commune corrigé le 18/08** (`QUERY_VERSION = 2`) : les 10 villes dont le nom de seed porte une parenthèse — les Saint-X de La Réunion, Le Robert, Le François, Saint-Louis 68 — sortaient à **zéro entrée sur douze mois** ; recollecte des 540 attendue au prochain lot local. 2 vides encore inexpliquées (dinan, selestat). ⚠️ **Données gelées au 05/08 : le collecteur n'a rien produit depuis 20 jours**, ni après le `QUERY_VERSION = 2` du 18/08 ni après la réparation du runner du 24/08 (deux créneaux écoulés, aucun commit) — la cause restante est la machine du propriétaire, pas le dépôt. Le 25/08 a rendu la section honnête sans elle : la date est publiée comme un **plafond** (« Relevé arrêté au… ») et non plus comme un « Mis à jour », et `STALE_AFTER_DAYS` passe de 45 à **21** (~16 j = âge sain maximum, + une semaine de marge) |
 
@@ -1321,6 +1321,88 @@ l'alerte. **La prochaine passe le dira d'elle-même**, par e-mail — ou, en tro
 demande, par `scripts/local-data-runner.sh --status`, qui donne les trois couvertures, depuis quand
 chacune n'a pas bougé, la présence des couches INPN et celle d'`ogr2ogr`. Si le cron lui-même est
 décroché, rien de tout cela ne partira : c'est la première chose à vérifier (`crontab -l`).
+
+#### Point d'étape 2026-08-27 — les sous-pages parlaient encore d'une composante qui est arrivée
+
+Aucune collecte ce run : les trois JSON sont pleins (biodiversité **540/540**, dont **513
+mesurables**, zones protégées **540/540** toutes mesurées, parcs **540/540** dont 11 sans parc
+nommé). Le travail est en aval, et c'est celui que la bascule BD TOPO du 26/08 a laissé derrière
+elle : la composante zones protégées est passée de « pas encore intégrée » à « relevée partout et
+notée », et **les deux sous-pages ville ne l'avaient pas appris**. Quatre écarts entre ce que les
+pages disent et ce que les données valent, corrigés des deux côtés, mêmes nombres.
+
+**1. Une phrase fausse sur les 540 pages des deux locales.** Le paragraphe « Comment lire la page
+en attendant » finissait par « et pourquoi les zones protégées en porteront la plus lourde **le
+jour où elles seront intégrées** » (EN : « once they are ingested »). Elles le sont depuis huit
+jours, et la même page affichait leur note trois écrans plus haut. La branche est désormais pilotée
+par `protection` : quand la note existe, la page dit que c'est **la** mesure à lire, relevée sur les
+540 villes à partir des mêmes tracés ; l'ancienne phrase reste, au futur, pour une commune qui
+serait un jour ingérée après les autres.
+
+**2. « Il manque encore » racontait un retard là où il y a une décision.** Le bloc « Pas de score
+global » énumérait les composantes absentes sans dire pourquoi : sur les 540 villes il affichait
+« la richesse d'espèces manque encore ici », alors que la mesure existe et que c'est son **rang**
+qui a été retiré le 10/08 comme invalide. Chaque absence porte maintenant sa raison
+(`incomparable` / `precision` / `calibration` / `effort` pour la richesse, `scope` / `data` pour la
+protection, `mapping` pour les espaces verts), et la clause finale — jusqu'ici réservée au cas
+`!protection`, donc morte — dit à la place que les zones protégées, elles, portent bien une note :
+c'est le seul chiffre comparable de la page.
+
+**3. Un effectif plafonné annoncé comme un total, et contredit deux écrans plus bas.** La
+pagination GBIF coupe la liste d'espèces sur **27 des 540 villes** — les mieux relevées, Paris et
+la petite couronne en tête. Le JSON-LD le disait depuis toujours (`minValue`), la prose écrivait
+« 6 000 espèces ont été recensées » puis, plus bas, « un effectif **exact** ». Les deux pages
+portent désormais « au moins » / « at least » partout où le chiffre s'affiche — titre de section,
+chapô, carte de composante, description meta, carte 🦋 du profil ville — et la mention
+« effectif exact » devient « sûr, mais plafonné par notre pagination » sur ces 27 villes. Même
+traitement que le « au moins » déjà en place sur les espaces verts plafonnés par F59.
+
+**4. La carte 🦋 du profil ville n'annonçait qu'un effectif incomparable.** Depuis le retrait du
+rang de richesse, sa ligne se résumait à « N espèces recensées autour de la ville » — un nombre
+exact dont la page elle-même dit qu'il ne se compare pas. Elle porte maintenant la note des zones
+protégées à la suite, **nommée** (« zones protégées 6,8/10 ») : sous un titre « Biodiversité », un
+/10 nu se lirait comme une note de biodiversité, qui n'existe pas. Nouveau champ `protection` (et
+`speciesTruncated`) dans la projection serveur `lib/city-profile-data.ts` — `CityProfile` est
+`"use client"`, il ne lit pas la lib.
+
+**Deux corrections d'affichage arrivées avec, mesurées sur les 540 :**
+
+- **Les descriptions meta ne citaient pas la seule mesure comparable de la page.** La queue
+  « Oiseaux, insectes, flore, dans un rayon de N km » ne portait aucun chiffre ; elle cède la place
+  à la couverture protégée (« 47,9 % du disque de 15 km sous protection (9,6/10) »), ou à
+  « Aucun périmètre protégé à moins de 15 km » pour les 5 villes sans aucun périmètre. Mesuré sur
+  les 540 et les deux locales : **151 caractères au pire côté FR, 149 côté EN**, aucune au-dessus
+  de 160, et la clause saute d'elle-même si elle devait faire dépasser. Les titres, eux, dépassaient
+  60 sur **1** ville (Château-Gontier-sur-Mayenne, 62 et 61) : le suffixe éditorial saute quand il
+  ne rentre pas, plus rien au-dessus de 60.
+- **88 villes lisaient du faux français.** « Biodiversité à Le Havre », « autour de Albi »,
+  « Parcs de Les Abymes » : les noms du seed portent leur article, et rien dans le dépôt n'élide ni
+  ne contracte (vérifié, aucun helper de ce genre nulle part). 69 noms à initiale vocalique,
+  16 en « Le », 3 en « Les » — soit 16 % du corpus, dans le titre SERP **et** dans le chapô.
+  Deux helpers locaux à la page FR (`deVille` / `aVille`) donnent « au Havre », « d'Albi »,
+  « aux Abymes », en laissant hors élision le h aspiré (Honfleur, Hyères) et le y. C'est la règle
+  que les slugs de la série tourisme appliquent déjà (`-au-tampon-`, `-aux-abymes-`).
+  ⚠️ **Le défaut est le même sur les autres sous-pages ville** (« Parcs de Le Havre »…) : le
+  corriger partout est une passe à part, volontairement pas faite ici.
+
+**Vérifications.** `npx tsc --noEmit` propre, `npm run integrity` propre (540 villes, 1 003 guides
+FR, 757 EN), `eslint` sur les quatre fichiers touchés : **aucune erreur nouvelle** (les 3 remontées
+préexistent à l'identique sur `main`). Les métadonnées ont été rendues **par le vrai
+`generateMetadata`** des deux pages sur les 540 villes, pas approximées : longueurs ci-dessus,
+clause de protection présente sur 540/540, et les jumelles FR/EN vérifiées sur les mêmes nombres
+(Marseille 47,9 % et 9,6/10 des deux côtés). Élision contrôlée à la main sur les cas durs :
+Le Havre, Les Abymes, Le Robert (Martinique), La Rochelle, Albi, Aix-en-Provence, Orléans,
+Honfleur, Hyères, Île de Ré, Le Mans. **`npm run build` volontairement non lancé** (interdit
+depuis une routine, cf. CLAUDE.md § Commands).
+
+**Ce qui n'est toujours pas couvert.** `overall` reste **`null` sur les 540 villes**, et ce n'est
+plus un retard de collecte mais l'état stable de F62 : deux composantes sur trois portent une note,
+la troisième ne peut pas en porter tant que la richesse n'est pas recollectée en pondérant par
+`datasetKey` (`QUERY_VERSION = 3`). Le rang de richesse reste retiré (`RICHNESS_RANKING_PUBLISHED`
+= `false`), `/classements/biodiversite` reste abandonné, et les 27 villes en troncature d'espèces
+le resteront tant que le recrawl n'a pas eu lieu — elles n'ont plus de raison de mentir sur leur
+effectif, c'est tout ce que ce run change pour elles. Les 11 communes sans parc nommé dans OSM
+n'ont toujours pas de note d'espaces verts, par construction.
 
 ### F63 — Qualité de l'air : passer du modèle à la mesure
 

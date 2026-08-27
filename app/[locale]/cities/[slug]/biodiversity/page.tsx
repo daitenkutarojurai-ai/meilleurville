@@ -68,21 +68,44 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const profile = biodiversityProfile(slug);
   if (!city || !profile) return {};
 
-  const { raw, richness, richnessPending } = profile;
-  // Title and description held under 60 / 160 characters across all 302 cities
-  // (measured, not estimated — long names like Sainte-Geneviève-des-Bois set the
-  // bound). The original ran over on 117 titles and 239 descriptions, and what
-  // got cut in the SERP was the figures. Same lengths as the FR twin.
-  const description = richness
-    ? `${raw.species} species around ${city.name}, across ${raw.occurrences.toLocaleString("en-GB")} observations. Richness at equal survey effort: ${richness.score}/10. GBIF data.`
+  const { raw, richness, richnessPending, protection, protectedAreas } = profile;
+  // Title and description held under 60 / 160 characters across all 540 cities
+  // (measured, not estimated — Château-Gontier-sur-Mayenne sets the bound on
+  // both sides). The original ran over on 117 titles and 239 descriptions, and
+  // what got cut in the SERP was the figures. Same structure as the FR twin,
+  // and the same figures: the generic "Birds, insects and plants within N km"
+  // tail gave way to the protected-area coverage, which since 26/08 is the only
+  // comparable measurement the page publishes.
+  const areas = protectedAreas && isMeasuredProtection(protectedAreas) ? protectedAreas : null;
+  const protectionClause = !areas
+    ? null
+    : areas.areasTotal === 0
+      ? `No protected perimeter within ${areas.radiusKm} km.`
+      : `${areas.weightedCoverage}% of a ${areas.radiusKm} km radius under protection${protection ? ` (${protection.score}/10)` : ""}.`;
+  const sources = `GBIF${areas ? " and IGN" : ""} data.`;
+  // Same "at least" as the page body: on the 27 cities whose species list the
+  // pagination cut short, the count is a floor. Same figures as the FR twin.
+  const species = raw.speciesTruncated
+    ? `At least ${raw.species.toLocaleString("en-GB")}`
+    : raw.species.toLocaleString("en-GB");
+  const head = richness
+    ? `${species} species around ${city.name}, across ${raw.occurrences.toLocaleString("en-GB")} observations. Richness at equal survey effort: ${richness.score}/10.`
     : richnessPending === "incomparable" || richnessPending === "calibration"
-      ? `${raw.species} species around ${city.name}, across ${raw.occurrences.toLocaleString("en-GB")} observations. Birds, insects and plants within ${raw.radiusKm} km. GBIF data.`
+      ? `${species} species around ${city.name}, across ${raw.occurrences.toLocaleString("en-GB")} observations.`
       : richnessPending === "precision"
-        ? `Around ${city.name}, recorded richness is too imprecise to rank: our crawl cut the species list short. GBIF data.`
-        : `Around ${city.name}, too few observations to publish a score: ${raw.occurrences.toLocaleString("en-GB")} observations from ${raw.observers} recorders. GBIF data.`;
+        ? `Around ${city.name}, recorded richness is too imprecise to rank: our crawl cut the species list short.`
+        : `Around ${city.name}, too few observations to publish a score: ${raw.occurrences.toLocaleString("en-GB")} observations from ${raw.observers} recorders.`;
+  // Length guard: the protection clause drops rather than let the description
+  // be cut in the SERP. Measured, none of the 540 reaches it (144 at worst).
+  const withClause = [head, protectionClause, sources].filter(Boolean).join(" ");
+  const description = withClause.length <= 160 ? withClause : `${head} ${sources}`;
+
+  // The editorial suffix drops when it would push past 60: on a long name it
+  // was "nature" that got cut, not the city.
+  const title = `${city.name} biodiversity · species and nature`;
 
   return {
-    title: `${city.name} biodiversity · species and nature`,
+    title: title.length <= 60 ? title : `${city.name} biodiversity`,
     description,
     alternates: cityAlternatesEn("biodiversity", slug),
     openGraph: {
@@ -91,9 +114,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       images: ["/opengraph-image"],
       title: `Biodiversity in ${city.name}`,
       description: richness
-        ? `${raw.species} species recorded within ${raw.radiusKm} km · ${richness.score}/10 at equal survey effort`
+        ? `${species} species recorded within ${raw.radiusKm} km · ${richness.score}/10 at equal survey effort`
         : richnessPending === "incomparable" || richnessPending === "calibration"
-          ? `${raw.species} species recorded within ${raw.radiusKm} km`
+          ? `${species} species recorded within ${raw.radiusKm} km${protection ? ` · protected areas ${protection.score}/10` : ""}`
           : richnessPending === "precision"
             ? `Richness bracketed, not yet precise enough to rank — the raw measurements are shown instead`
             : `Survey effort too thin for a score — the raw measurements are shown instead`,
@@ -181,6 +204,16 @@ export default async function BiodiversityPage({ params }: Props) {
 
   const nb = (v: number) => v.toLocaleString("en-GB");
 
+  // 27 of the 540 cities had their species list cut short by the API's
+  // pagination — the best-surveyed ones, Paris and its inner suburbs first.
+  // Their count is a FLOOR, not a total: the JSON-LD already said so
+  // (`minValue`), the prose read "6,000 species have been recorded" and, two
+  // screens down, "an exact count". Same treatment as the "at least" already
+  // used for green space capped by F59.
+  const speciesPhraseCap = raw.speciesTruncated
+    ? `At least ${nb(raw.species)}`
+    : nb(raw.species);
+
   // Same four states as the French twin, and the same rule: only a commune that
   // has not been ingested — or one the ingested layers do not reach — reads
   // "not measured". One ingested with no perimeter at all has been measured,
@@ -199,6 +232,33 @@ export default async function BiodiversityPage({ params }: Props) {
           ? `No protected site within ${measuredAreas.radiusKm} km. That is a measurement, not missing data.`
           : `${nb(measuredAreas.weightedCoverage)} % of the disc under weighted protection. The rank out of 10 waits until more cities are ingested.`
         : `Statutory boundaries (nature reserves, national and regional parks, biotope orders, Natura 2000) are not integrated yet for this commune. "Not measured" means we do not know — not that there are none.`;
+
+  // What the aggregate is missing, and why each piece is missing. Mirrors the
+  // French twin: a component withdrawn because its measurement did not measure
+  // what it claimed is not a component running late.
+  const missingComponents: string[] = [];
+  if (!richness)
+    missingComponents.push(
+      richnessPending === "incomparable"
+        ? "species richness, whose rank was withdrawn on 10 August 2026 because it ranked recording programmes"
+        : richnessPending === "precision"
+          ? "species richness, bracketed too widely here to be ranked"
+          : richnessPending === "calibration"
+            ? "species richness, measured but not yet comparable"
+            : "species richness, for want of enough survey effort here",
+    );
+  if (!protection)
+    missingComponents.push(
+      protectionPending === "scope"
+        ? "protected areas, which none of the layers run here cover"
+        : "protected areas, not yet surveyed for this commune",
+    );
+  if (!greenSpace)
+    missingComponents.push(
+      greenSpacePending === "mapping"
+        ? "green space, which OpenStreetMap does not map here"
+        : "green space, not yet surveyed for this commune",
+    );
 
   const groups = GROUP_ORDER.map((g) => ({ id: g, count: raw.groups[g] ?? 0 })).filter(
     (g) => g.count > 0,
@@ -283,7 +343,7 @@ export default async function BiodiversityPage({ params }: Props) {
           <p className="text-[var(--text-secondary)] text-lg max-w-2xl leading-relaxed">
             {richness ? (
               <>
-                {raw.species.toLocaleString("en-GB")} species have been recorded within{" "}
+                {speciesPhraseCap} species have been recorded within{" "}
                 {raw.radiusKm} km since {raw.yearFrom}, across{" "}
                 {raw.occurrences.toLocaleString("en-GB")} observations submitted by{" "}
                 {raw.observers.toLocaleString("en-GB")} recorders. The score below normalises that
@@ -292,7 +352,7 @@ export default async function BiodiversityPage({ params }: Props) {
               </>
             ) : richnessPending === "incomparable" ? (
               <>
-                {raw.species.toLocaleString("en-GB")} species have been recorded within{" "}
+                {speciesPhraseCap} species have been recorded within{" "}
                 {raw.radiusKm} km since {raw.yearFrom}, across{" "}
                 {raw.occurrences.toLocaleString("en-GB")} observations submitted by{" "}
                 {raw.observers.toLocaleString("en-GB")} recorders. Those figures are what has been{" "}
@@ -302,7 +362,7 @@ export default async function BiodiversityPage({ params }: Props) {
               </>
             ) : richnessPending === "calibration" ? (
               <>
-                {raw.species.toLocaleString("en-GB")} species have been recorded within{" "}
+                {speciesPhraseCap} species have been recorded within{" "}
                 {raw.radiusKm} km since {raw.yearFrom}. The score out of 10 arrives once enough
                 cities have been surveyed for &ldquo;better than N% of the others&rdquo; to mean
                 anything — the measurements themselves are already here.
@@ -475,10 +535,10 @@ export default async function BiodiversityPage({ params }: Props) {
               emoji="🦋"
               title="Species richness"
               score={richness?.score ?? null}
-              detail={`${raw.species.toLocaleString("en-GB")} species recorded, normalised to a common sample of ${raw.rarefiedN} observations. GBIF, ${raw.radiusKm} km radius, since ${raw.yearFrom}.`}
+              detail={`${speciesPhraseCap} species recorded, normalised to a common sample of ${raw.rarefiedN} observations. GBIF, ${raw.radiusKm} km radius, since ${raw.yearFrom}.`}
               missing={
                 richnessPending === "incomparable"
-                  ? `${raw.species.toLocaleString("en-GB")} species recorded here — an exact count, but not comparable between cities: the score built from these records ranked recording programmes, not nature. Withdrawn on 10 August 2026.`
+                  ? `${speciesPhraseCap} species recorded here — a ${raw.speciesTruncated ? "safe count, but capped by our pagination" : "count that is exact"}, and either way not comparable between cities: the score built from these records ranked recording programmes, not nature. Withdrawn on 10 August 2026.`
                   : richnessPending === "calibration"
                   ? `${raw.rarefied?.toLocaleString("en-GB")} species expected per ${raw.rarefiedN} observations${raw.rarefiedExact ? "" : " (lower bound)"}. The rank out of 10 waits until more cities are surveyed.`
                   : richnessPending === "precision"
@@ -515,18 +575,24 @@ export default async function BiodiversityPage({ params }: Props) {
           {overall == null && (
             <p className="text-xs text-[var(--text-tertiary)] mt-3 leading-relaxed max-w-3xl">
               <strong className="text-[var(--text-secondary)]">No overall score yet.</strong> It
+              {/* Each absent component says WHY it is absent. "Still missing"
+                  fitted while all three were being collected; it is wrong for
+                  richness, whose measurement exists and whose RANK was withdrawn
+                  as invalid, and it would be wrong for a commune OSM does not
+                  map. An aggregate withheld by decision does not read like an
+                  aggregate withheld by delay. Same wording as the French twin. */}
               needs all three components, and{" "}
-              {[
-                richness ? null : "species richness",
-                protection ? null : "protected areas",
-                greenSpace ? null : "green space",
-              ]
-                .filter(Boolean)
-                .join(" and ")}{" "}
-              {[richness, protection, greenSpace].filter((c) => !c).length > 1 ? "are" : "is"} still
-              missing here. Reweighting the components we do have to paper over the gap would
-              produce a number that does not measure what its name claims.
-              {!protection && (
+              {[richness, protection, greenSpace].filter((c) => !c).length > 1 ? "some are" : "one is"}{" "}
+              absent here: {missingComponents.join("; ")}. Reweighting the components we do have to
+              paper over the gap would produce a number that does not measure what its name claims.
+              {protection ? (
+                <>
+                  {" "}
+                  Protected areas do carry a score above: a Natura 2000 boundary exists regardless
+                  of who turns up to record it, so it is the one component immune to the effort
+                  bias, and the comparable figure on this page.
+                </>
+              ) : (
                 <>
                   {" "}
                   Protected areas are the heaviest of the three: a Natura 2000 boundary exists
@@ -815,11 +881,24 @@ export default async function BiodiversityPage({ params }: Props) {
                   <strong className="text-[var(--text-primary)]">How to read the page meanwhile.</strong>{" "}
                   The other two components do not depend on who comes to look: a protected
                   perimeter exists by decree, a park is mapped on the ground.{" "}
-                  {greenSpace
-                    ? "That is why green space carries a score here,"
-                    : "That is where the measurement is solid,"}{" "}
-                  and why protected areas will carry the heaviest one once they are ingested. For
-                  species, take the counts for what they are — the state of naturalist knowledge
+                  {protection ? (
+                    <>
+                      Protected areas are therefore the measurement to read here: they are surveyed
+                      across all {CITIES_SEED.length} cities on the site, from the same set of
+                      boundaries for every one of them, and theirs is the component that would
+                      weigh heaviest in the aggregate the day richness becomes comparable again
+                      {greenSpace ? ". Green space carries a score too" : ""}.
+                    </>
+                  ) : (
+                    <>
+                      {greenSpace
+                        ? "That is why green space carries a score here,"
+                        : "That is where the measurement is solid,"}{" "}
+                      and why protected areas will carry the heaviest one once they are surveyed for
+                      this commune.
+                    </>
+                  )}{" "}
+                  For species, take the counts for what they are — the state of naturalist knowledge
                   around {city.name}, which tells you something about the area in itself, not a
                   league table.
                 </p>

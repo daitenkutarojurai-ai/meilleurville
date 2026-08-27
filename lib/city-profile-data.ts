@@ -84,6 +84,17 @@ export interface CityProfileData {
     score: number | null;
     species: number;
     pending: "incomparable" | "effort" | "precision" | "calibration" | null;
+    /** Note de la composante « zones protégées » (10 = bon). Depuis la bascule
+     *  INPN → IGN BD TOPO du 2026-08-26, elle est relevée sur les 540 villes et
+     *  c'est le SEUL /10 que la sous-page publie : le rang de richesse est
+     *  retiré depuis le 10/08. Une carte qui n'affiche qu'un effectif
+     *  d'espèces cache donc la seule mesure comparable de la page. `null`
+     *  seulement si la ville n'est pas ingérée ou tombe hors des couches. */
+    protection: number | null;
+    /** La liste d'espèces a-t-elle été coupée par la pagination GBIF ? 27 des
+     *  540 villes sont dans ce cas — les mieux relevées. Leur effectif est un
+     *  plancher, et la carte doit l'annoncer comme tel. */
+    speciesTruncated: boolean;
   } | null;
 }
 
@@ -96,6 +107,8 @@ function biodiversityProjection(city: CitySeed) {
       score: profile.richness?.score ?? null,
       species: profile.raw.species,
       pending: profile.richnessPending,
+      protection: profile.protection?.score ?? null,
+      speciesTruncated: profile.raw.speciesTruncated,
     },
   };
 }

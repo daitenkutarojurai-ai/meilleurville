@@ -76,37 +76,99 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const profile = biodiversityProfile(slug);
   if (!city || !profile) return {};
 
-  const { raw, richness, richnessPending } = profile;
-  // Titre et description tenus sous 60 / 160 caractères pour les 302 villes
-  // (mesuré, pas estimé — les noms longs type Sainte-Geneviève-des-Bois font la
-  // borne). La version d'origine dépassait sur 117 titres et 239 descriptions :
+  const { raw, richness, richnessPending, protection, protectedAreas } = profile;
+  // Titre et description tenus sous 60 / 160 caractères sur les 540 villes
+  // (mesuré, pas estimé — Château-Gontier-sur-Mayenne fait la borne des deux
+  // côtés). La version d'origine dépassait sur 117 titres et 239 descriptions :
   // ce qui se faisait couper en SERP, c'était les chiffres.
-  const description = richness
-    ? `${raw.species} espèces autour de ${city.name}, sur ${raw.occurrences.toLocaleString("fr-FR")} observations. Richesse à effort d'observation égal : ${richness.score}/10. Données GBIF.`
+  //
+  // La queue générique « Oiseaux, insectes, flore, dans un rayon de N km » a
+  // laissé la place au chiffre de couverture protégée : depuis le 26/08 c'est
+  // la seule mesure comparable que la page publie, et un tail sans chiffre
+  // pousse hors du snippet ce qu'un lecteur cherche (CLAUDE.md § meta ≤ 160).
+  const areas = protectedAreas && isMeasuredProtection(protectedAreas) ? protectedAreas : null;
+  const protectionClause = !areas
+    ? null
+    : areas.areasTotal === 0
+      ? `Aucun périmètre protégé à moins de ${areas.radiusKm} km.`
+      : `${areas.weightedCoverage.toLocaleString("fr-FR")} % du disque de ${areas.radiusKm} km sous protection${protection ? ` (${protection.score.toLocaleString("fr-FR")}/10)` : ""}.`;
+  const sources = `Données GBIF${areas ? " et IGN" : ""}.`;
+  // Même « au moins » que dans le corps de page : sur les 27 villes dont la
+  // pagination a coupé la liste d'espèces, l'effectif est un plancher.
+  const species = raw.speciesTruncated
+    ? `Au moins ${raw.species.toLocaleString("fr-FR")}`
+    : raw.species.toLocaleString("fr-FR");
+  const head = richness
+    ? `${species} espèces autour ${deVilleStr(city.name)}, sur ${raw.occurrences.toLocaleString("fr-FR")} observations. Richesse à effort d'observation égal : ${richness.score}/10.`
     : richnessPending === "incomparable" || richnessPending === "calibration"
-      ? `${raw.species} espèces autour de ${city.name}, sur ${raw.occurrences.toLocaleString("fr-FR")} observations. Oiseaux, insectes, flore, dans un rayon de ${raw.radiusKm} km. Données GBIF.`
+      ? `${species} espèces autour ${deVilleStr(city.name)}, sur ${raw.occurrences.toLocaleString("fr-FR")} observations.`
       : richnessPending === "precision"
-        ? `Autour de ${city.name}, la richesse relevée est trop imprécise pour un rang : notre collecte a coupé la liste d'espèces. Données GBIF.`
-        : `Autour de ${city.name}, trop peu d'observations pour un score : ${raw.occurrences.toLocaleString("fr-FR")} observations, ${raw.observers} observateurs. Données GBIF.`;
+        ? `Autour ${deVilleStr(city.name)}, la richesse relevée est trop imprécise pour un rang : notre collecte a coupé la liste d'espèces.`
+        : `Autour ${deVilleStr(city.name)}, trop peu d'observations pour un score : ${raw.occurrences.toLocaleString("fr-FR")} observations, ${raw.observers} observateurs.`;
+  // Garde de longueur : la clause de protection saute plutôt que de faire
+  // couper la description en SERP. Mesuré, aucune des 540 ne l'atteint (147 au
+  // pire) — elle couvre les branches rares et les noms qui s'allongeraient.
+  const withClause = [head, protectionClause, sources].filter(Boolean).join(" ");
+  const description = withClause.length <= 160 ? withClause : `${head} ${sources}`;
+
+  // Le suffixe éditorial saute quand il ferait dépasser 60 : sur un nom long,
+  // c'est « nature » qui se faisait couper, pas le nom de la ville.
+  const title = `Biodiversité ${aVille(city.name)} · espèces et nature`;
 
   return {
-    title: `Biodiversité à ${city.name} · espèces et nature`,
+    title: title.length <= 60 ? title : `Biodiversité ${aVille(city.name)}`,
     description,
     alternates: cityAlternates("biodiversite", slug),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
       images: ["/opengraph-image"],
-      title: `Biodiversité à ${city.name}`,
+      title: `Biodiversité ${aVille(city.name)}`,
       description: richness
-        ? `${raw.species} espèces recensées dans un rayon de ${raw.radiusKm} km · ${richness.score}/10 à effort d'observation égal`
+        ? `${species} espèces recensées dans un rayon de ${raw.radiusKm} km · ${richness.score}/10 à effort d'observation égal`
         : richnessPending === "incomparable" || richnessPending === "calibration"
-          ? `${raw.species} espèces recensées dans un rayon de ${raw.radiusKm} km`
+          ? `${species} espèces recensées dans un rayon de ${raw.radiusKm} km${protection ? ` · zones protégées ${protection.score.toLocaleString("fr-FR")}/10` : ""}`
           : richnessPending === "precision"
             ? `Richesse encadrée, pas encore assez précise pour un rang — les mesures brutes sont affichées`
             : `Effort d'observation insuffisant pour un score — les mesures brutes sont affichées`,
     },
   };
+}
+
+/**
+ * « autour de Albi », « Biodiversité à Le Havre », « Parcs de Les Abymes » :
+ * les 540 noms du seed portent leur article, et les coller derrière une
+ * préposition sans élider ni contracter donnait du faux français sur **88
+ * villes** — 69 à initiale vocalique, 16 en « Le », 3 en « Les ». C'est la même
+ * règle que les slugs de la série tourisme (`-au-tampon-`, `-aux-abymes-`,
+ * cf. CLAUDE.md), appliquée cette fois à la copie.
+ *
+ * Volontairement local à cette page : le dépôt n'a aucun helper de ce genre
+ * (vérifié ce run), et les autres sous-pages ville ont le même défaut — le
+ * corriger partout est une passe à part, pas un effet de bord de F62.
+ *
+ * Le « h » est laissé hors élision (Honfleur, Hyères, Hendaye : h aspiré), et
+ * le « y » aussi — les deux usages coexistent et « de Yerres » ne choque pas,
+ * là où un « d'Yerres » erroné se verrait.
+ */
+function deVille(name: string): { prefix: string; rest: string } {
+  if (name.startsWith("Le ")) return { prefix: "du ", rest: name.slice(3) };
+  if (name.startsWith("Les ")) return { prefix: "des ", rest: name.slice(4) };
+  if (/^[AEIOUÀÂÉÈÊÎÏÔÖÛÜ]/.test(name)) return { prefix: "d'", rest: name };
+  return { prefix: "de ", rest: name };
+}
+
+/** Même chose pour « à » : à Albi, au Havre, aux Abymes, à La Rochelle. */
+function aVille(name: string): string {
+  if (name.startsWith("Le ")) return `au ${name.slice(3)}`;
+  if (name.startsWith("Les ")) return `aux ${name.slice(4)}`;
+  return `à ${name}`;
+}
+
+/** Forme plate de deVille, pour les chaînes (métadonnées, JSON-LD). */
+function deVilleStr(name: string): string {
+  const { prefix, rest } = deVille(name);
+  return `${prefix}${rest}`;
 }
 
 /** Libellés des territoires, au site d'affichage (convention CLAUDE.md #6 — la
@@ -190,6 +252,16 @@ export default async function BiodiversitePage({ params }: Props) {
 
   const nb = (v: number) => v.toLocaleString("fr-FR");
 
+  // 27 des 540 villes ont vu leur liste d'espèces coupée par la pagination de
+  // l'API — les mieux relevées, Paris et sa petite couronne en tête. Leur
+  // effectif est un PLANCHER, pas un total : le JSON-LD le disait déjà
+  // (`minValue`), la prose écrivait « 6 000 espèces ont été recensées » et,
+  // deux écrans plus bas, « un effectif exact ». Même traitement que le « au
+  // moins » des espaces verts plafonnés par F59.
+  const speciesPhraseCap = raw.speciesTruncated
+    ? `Au moins ${nb(raw.species)}`
+    : nb(raw.species);
+
   // Quatre états à distinguer, et deux seulement se disent « non mesuré » : la
   // commune pas encore ingérée, et la commune ingérée hors du périmètre des
   // couches (outre-mer sur une passe continentale). Une commune ingérée sans
@@ -210,6 +282,35 @@ export default async function BiodiversitePage({ params }: Props) {
           : `${nb(measuredAreas.weightedCoverage)} % du disque sous protection pondérée. Le rang sur 10 attend que davantage de villes soient ingérées.`
         : `Les périmètres réglementaires (réserves, parcs nationaux et régionaux, arrêtés de biotope, Natura 2000) ne sont pas encore intégrés pour cette commune. « Non mesuré » veut dire que nous ne savons pas — pas qu'il n'y en a aucun.`;
 
+  // Ce qui manque à l'agrégat, et la raison de chaque absence. Une composante
+  // retirée parce que sa mesure ne mesurait pas ce qu'elle annonçait n'est pas
+  // une composante en retard de collecte : les deux se disaient « manque
+  // encore » avant, ce qui laissait croire que la note de richesse allait
+  // arriver — elle demande un recrawl GBIF pondéré par jeu de données.
+  const missingComponents: string[] = [];
+  if (!richness)
+    missingComponents.push(
+      richnessPending === "incomparable"
+        ? "la richesse d'espèces, dont le rang a été retiré le 10 août 2026 parce qu'il classait les programmes de saisie"
+        : richnessPending === "precision"
+          ? "la richesse d'espèces, encadrée ici trop largement pour être classée"
+          : richnessPending === "calibration"
+            ? "la richesse d'espèces, mesurée mais pas encore comparable"
+            : "la richesse d'espèces, faute d'un effort d'observation suffisant ici",
+    );
+  if (!protection)
+    missingComponents.push(
+      protectionPending === "scope"
+        ? "les zones protégées, qu'aucune des couches passées ici ne couvre"
+        : "les zones protégées, pas encore relevées pour cette commune",
+    );
+  if (!greenSpace)
+    missingComponents.push(
+      greenSpacePending === "mapping"
+        ? "les espaces verts, qu'OpenStreetMap ne cartographie pas ici"
+        : "les espaces verts, pas encore relevés pour cette commune",
+    );
+
   const groups = GROUP_ORDER.map((g) => ({ id: g, count: raw.groups[g] ?? 0 })).filter(
     (g) => g.count > 0,
   );
@@ -227,10 +328,10 @@ export default async function BiodiversitePage({ params }: Props) {
   const datasetJsonLd = {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    name: `Biodiversité observée autour de ${city.name}`,
+    name: `Biodiversité observée autour ${deVilleStr(city.name)}`,
     description: richness
-      ? `Espèces recensées dans un rayon de ${raw.radiusKm} km autour de ${city.name} depuis ${raw.yearFrom}, richesse ramenée à effort d'observation égal, et espaces verts urbains.`
-      : `Espèces recensées dans un rayon de ${raw.radiusKm} km autour de ${city.name} depuis ${raw.yearFrom}, et espaces verts urbains. Effectifs bruts : ces relevés ne sont pas comparables d'une ville à l'autre.`,
+      ? `Espèces recensées dans un rayon de ${raw.radiusKm} km autour ${deVilleStr(city.name)} depuis ${raw.yearFrom}, richesse ramenée à effort d'observation égal, et espaces verts urbains.`
+      : `Espèces recensées dans un rayon de ${raw.radiusKm} km autour ${deVilleStr(city.name)} depuis ${raw.yearFrom}, et espaces verts urbains. Effectifs bruts : ces relevés ne sont pas comparables d'une ville à l'autre.`,
     creator: { "@type": "Organization", name: "MaVilleIdéale" },
     isBasedOn: GBIF_URL,
     license: "https://creativecommons.org/licenses/by/4.0/",
@@ -289,13 +390,15 @@ export default async function BiodiversitePage({ params }: Props) {
             🦋 Biodiversité
           </p>
           <h1 className="text-4xl sm:text-5xl font-bold text-[var(--text-primary)] mb-3 tracking-tight leading-[1.05]">
-            Ce qui vit autour de{" "}
-            <span className="font-display gradient-text-anim italic">{city.name}</span>
+            Ce qui vit autour {deVille(city.name).prefix}
+            <span className="font-display gradient-text-anim italic">
+              {deVille(city.name).rest}
+            </span>
           </h1>
           <p className="text-[var(--text-secondary)] text-lg max-w-2xl leading-relaxed">
             {richness ? (
               <>
-                {raw.species.toLocaleString("fr-FR")} espèces ont été recensées dans un rayon de{" "}
+                {speciesPhraseCap} espèces ont été recensées dans un rayon de{" "}
                 {raw.radiusKm} km depuis {raw.yearFrom}, sur{" "}
                 {raw.occurrences.toLocaleString("fr-FR")} observations déposées par{" "}
                 {raw.observers.toLocaleString("fr-FR")} naturalistes. Le score ci-dessous ramène
@@ -304,7 +407,7 @@ export default async function BiodiversitePage({ params }: Props) {
               </>
             ) : richnessPending === "incomparable" ? (
               <>
-                {raw.species.toLocaleString("fr-FR")} espèces ont été recensées dans un rayon de{" "}
+                {speciesPhraseCap} espèces ont été recensées dans un rayon de{" "}
                 {raw.radiusKm} km depuis {raw.yearFrom}, sur{" "}
                 {raw.occurrences.toLocaleString("fr-FR")} observations déposées par{" "}
                 {raw.observers.toLocaleString("fr-FR")} naturalistes. Ces chiffres sont ce qui a été{" "}
@@ -314,7 +417,7 @@ export default async function BiodiversitePage({ params }: Props) {
               </>
             ) : richnessPending === "calibration" ? (
               <>
-                {raw.species.toLocaleString("fr-FR")} espèces ont été recensées dans un rayon de{" "}
+                {speciesPhraseCap} espèces ont été recensées dans un rayon de{" "}
                 {raw.radiusKm} km depuis {raw.yearFrom}. La note sur 10 arrivera quand assez de
                 villes auront été relevées pour que « mieux que N&nbsp;% des autres » veuille dire
                 quelque chose — les mesures, elles, sont déjà là.
@@ -371,7 +474,7 @@ export default async function BiodiversitePage({ params }: Props) {
                       {" "}
                       La liste d&apos;espèces ayant été coupée à la collecte, ce chiffre est une
                       borne basse (au plus {raw.rarefiedUpper?.toLocaleString("fr-FR")}) : le rang
-                      réel de {city.name} ne peut être que meilleur.
+                      réel {deVilleStr(city.name)} ne peut être que meilleur.
                     </>
                   )}
                 </div>
@@ -428,7 +531,7 @@ export default async function BiodiversitePage({ params }: Props) {
                 Mesure faite, comparaison pas encore possible
               </div>
               <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
-                Le relevé de {city.name} est solide :{" "}
+                Le relevé {deVilleStr(city.name)} est solide :{" "}
                 <strong>{raw.occurrences.toLocaleString("fr-FR")} observations</strong> par{" "}
                 <strong>{raw.observers.toLocaleString("fr-FR")}</strong> naturalistes, et{" "}
                 <strong>{raw.rarefied?.toLocaleString("fr-FR")} espèces</strong> attendues pour{" "}
@@ -494,10 +597,10 @@ export default async function BiodiversitePage({ params }: Props) {
               emoji="🦋"
               title="Richesse d'espèces"
               score={richness?.score ?? null}
-              detail={`${raw.species.toLocaleString("fr-FR")} espèces recensées, ramenées à un échantillon commun de ${raw.rarefiedN} observations. Source GBIF, rayon ${raw.radiusKm} km, depuis ${raw.yearFrom}.`}
+              detail={`${speciesPhraseCap} espèces recensées, ramenées à un échantillon commun de ${raw.rarefiedN} observations. Source GBIF, rayon ${raw.radiusKm} km, depuis ${raw.yearFrom}.`}
               missing={
                 richnessPending === "incomparable"
-                  ? `${raw.species.toLocaleString("fr-FR")} espèces recensées ici — un effectif exact, mais pas comparable d'une ville à l'autre : la note tirée de ces relevés classait les programmes de saisie, pas la nature. Retirée le 10 août 2026.`
+                  ? `${speciesPhraseCap} espèces recensées ici — un effectif ${raw.speciesTruncated ? "sûr, mais plafonné par notre pagination" : "exact"}, et de toute façon pas comparable d'une ville à l'autre : la note tirée de ces relevés classait les programmes de saisie, pas la nature. Retirée le 10 août 2026.`
                   : richnessPending === "calibration"
                   ? `${raw.rarefied?.toLocaleString("fr-FR")} espèces attendues pour ${raw.rarefiedN} observations${raw.rarefiedExact ? "" : " (borne basse)"}. Le rang sur 10 attend que davantage de villes soient relevées.`
                   : richnessPending === "precision"
@@ -536,20 +639,26 @@ export default async function BiodiversitePage({ params }: Props) {
               <strong className="text-[var(--text-secondary)]">
                 Pas de score global pour l&apos;instant.
               </strong>{" "}
-              Il demande les trois composantes, et{" "}
-              {[
-                richness ? null : "la richesse d'espèces",
-                protection ? null : "les zones protégées",
-                greenSpace ? null : "les espaces verts",
-              ]
-                .filter(Boolean)
-                .join(" et ")}{" "}
-              {[richness, protection, greenSpace].filter((c) => !c).length > 1
-                ? "manquent"
-                : "manque"}{" "}
-              encore ici. Repondérer les composantes disponibles pour combler le trou donnerait un
-              nombre qui ne mesure pas ce que son nom annonce.
-              {!protection && (
+              {/* Chaque composante absente dit POURQUOI elle l'est. « Manque »
+                  convenait quand les trois étaient en cours de collecte ; il est
+                  faux pour la richesse, dont la mesure existe et dont c'est le
+                  RANG qui a été retiré comme invalide, et il le serait pour une
+                  commune qu'OSM ne cartographie pas. Un agrégat absent par
+                  décision ne se raconte pas comme un agrégat absent par retard. */}
+              Il demande les trois composantes, et il en manque{" "}
+              {[richness, protection, greenSpace].filter((c) => !c).length > 1 ? "plusieurs" : "une"}{" "}
+              ici :{" "}
+              {missingComponents.join(" ; ")}. Repondérer les composantes disponibles pour combler
+              le trou donnerait un nombre qui ne mesure pas ce que son nom annonce.
+              {protection ? (
+                <>
+                  {" "}
+                  Les zones protégées, elles, portent bien une note ci-dessus : un périmètre Natura
+                  2000 existe indépendamment de qui vient l&apos;observer, donc c&apos;est la seule
+                  des trois qui échappe au biais d&apos;effort, et c&apos;est le chiffre comparable
+                  de cette page.
+                </>
+              ) : (
                 <>
                   {" "}
                   Les zones protégées sont la plus lourde des trois : un périmètre Natura 2000
@@ -834,7 +943,7 @@ export default async function BiodiversitePage({ params }: Props) {
                   <strong className="text-[var(--text-primary)]">
                     Ce que ces chiffres disent, et ce qu&apos;ils ne disent pas.
                   </strong>{" "}
-                  Les effectifs ci-dessus sont ceux de {city.name} : espèces, observations,
+                  Les effectifs ci-dessus sont ceux {deVilleStr(city.name)} : espèces, observations,
                   observateurs, groupes représentés. Ils ne se comparent pas d&apos;une ville à
                   l&apos;autre. Le nombre brut d&apos;observations mesure d&apos;abord combien de
                   naturalistes saisissent des données ici, et le nombre d&apos;espèces hérite du
@@ -858,12 +967,25 @@ export default async function BiodiversitePage({ params }: Props) {
                   </strong>{" "}
                   Les deux autres composantes ne dépendent pas de qui vient observer : un périmètre
                   protégé existe par arrêté, un parc est cartographié au sol.{" "}
-                  {greenSpace
-                    ? "C'est pourquoi les espaces verts portent une note ici,"
-                    : "C'est de ce côté que la mesure est solide,"}{" "}
-                  et pourquoi les zones protégées en porteront la plus lourde le jour où elles
-                  seront intégrées. Pour les espèces, prenez les effectifs pour ce qu&apos;ils sont
-                  — l&apos;état de la connaissance naturaliste autour de {city.name}, qui est en soi
+                  {protection ? (
+                    <>
+                      Les zones protégées sont donc la mesure à lire ici : elles sont relevées sur
+                      les {CITIES_SEED.length} villes du site, à partir des mêmes tracés pour
+                      toutes, et c&apos;est la composante qui pèserait le plus lourd dans
+                      l&apos;agrégat le jour où la richesse redeviendrait comparable
+                      {greenSpace ? ". Les espaces verts portent une note eux aussi" : ""}.
+                    </>
+                  ) : (
+                    <>
+                      {greenSpace
+                        ? "C'est pourquoi les espaces verts portent une note ici,"
+                        : "C'est de ce côté que la mesure est solide,"}{" "}
+                      et pourquoi les zones protégées en porteront la plus lourde une fois relevées
+                      pour cette commune.
+                    </>
+                  )}{" "}
+                  Pour les espèces, prenez les effectifs pour ce qu&apos;ils sont
+                  — l&apos;état de la connaissance naturaliste autour {deVilleStr(city.name)}, qui est en soi
                   une information sur le territoire, pas un palmarès.
                 </p>
               </>
@@ -921,13 +1043,13 @@ export default async function BiodiversitePage({ params }: Props) {
             href={`/villes/${slug}`}
             className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
           >
-            ← Profil complet de {city.name}
+            ← Profil complet {deVilleStr(city.name)}
           </Link>
           <Link
             href={`/villes/${slug}/parcs`}
             className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
           >
-            🌳 Parcs de {city.name}
+            🌳 Parcs {deVilleStr(city.name)}
           </Link>
           <Link
             href={`/villes/${slug}/air`}

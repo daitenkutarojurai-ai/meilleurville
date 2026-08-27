@@ -775,6 +775,11 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                   // insuffisant" is a real answer, and the page explains it.
                   const bio = data.biodiversity;
                   if (!bio) return null;
+                  // Effectif plafonné par la pagination GBIF sur 27 villes : il
+                  // s'annonce comme un plancher, ici comme sur la sous-page.
+                  const sp = bio.speciesTruncated
+                    ? L(`au moins ${bio.species}`, `at least ${bio.species}`)
+                    : `${bio.species}`;
                   return (
                     <a
                       href={sub("biodiversite", "biodiversity")}
@@ -791,30 +796,42 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                               dire à Paris et à toute sa petite couronne — les
                               villes les MIEUX relevées de France — qu'on y
                               observait trop peu. */}
-                          {bio.score != null
-                            ? L(
-                                `${bio.species} espèces · ${bio.score.toFixed(1).replace(".", ",")}/10 à effort égal`,
-                                `${bio.species} species · ${bio.score.toFixed(1)}/10 at equal effort`,
-                              )
-                            : bio.pending === "incomparable"
+                          {/* Le second segment porte la note des zones protégées,
+                              relevée sur les 540 villes depuis le 26/08 et seule
+                              note publiée par la sous-page. Sans lui, la carte
+                              n'annonçait qu'un effectif d'espèces — un nombre
+                              exact mais incomparable d'une ville à l'autre, donc
+                              rien à quoi se raccrocher. Il est nommé : sous un
+                              titre « Biodiversité », un /10 nu se lirait comme
+                              une note de biodiversité, qui n'existe pas. */}
+                          {[
+                            bio.score != null
                               ? L(
-                                  `${bio.species} espèces recensées autour de la ville`,
-                                  `${bio.species} species recorded around the city`,
+                                  `${sp} espèces · ${bio.score.toFixed(1).replace(".", ",")}/10 à effort égal`,
+                                  `${sp} species · ${bio.score.toFixed(1)}/10 at equal effort`,
                                 )
-                              : bio.pending === "precision"
+                              : bio.pending === "incomparable"
+                                ? L(`${sp} espèces recensées`, `${sp} species recorded`)
+                                : bio.pending === "precision"
+                                  ? L(
+                                      `${sp} espèces · trop relevée pour notre collecte`,
+                                      `${sp} species · richer than our crawl could capture`,
+                                    )
+                                  : bio.pending === "calibration"
+                                    ? L(`${sp} espèces recensées`, `${sp} species recorded`)
+                                    : L(
+                                        `${sp} espèces · effort d'observation trop faible`,
+                                        `${sp} species · survey effort too thin`,
+                                      ),
+                            bio.protection != null
                               ? L(
-                                  `${bio.species} espèces · trop relevée pour notre collecte`,
-                                  `${bio.species} species · richer than our crawl could capture`,
+                                  `zones protégées ${bio.protection.toFixed(1).replace(".", ",")}/10`,
+                                  `protected areas ${bio.protection.toFixed(1)}/10`,
                                 )
-                              : bio.pending === "calibration"
-                                ? L(
-                                    `${bio.species} espèces recensées`,
-                                    `${bio.species} species recorded`,
-                                  )
-                                : L(
-                                    `${bio.species} espèces · effort d'observation trop faible`,
-                                    `${bio.species} species · survey effort too thin`,
-                                  )}
+                              : null,
+                          ]
+                            .filter(Boolean)
+                            .join(" · ")}
                         </div>
                       </div>
                       <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
