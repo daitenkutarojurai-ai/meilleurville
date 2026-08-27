@@ -2939,6 +2939,55 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ---
 
+## Shipped 2026-08-27
+
+- **Parité EN — série `single-parent-holidays-[city]-2026` REFERMÉE (batch 2, +8 : Lyon, Angers,
+  Bordeaux, Besançon, Grenoble, Brest, Tours, Valence).** `npm run parity` sort en **code 0**, 0 route
+  FR sans jumelle EN : la parité de routes tient, donc le run est allé sur l'écart de corpus. La cible
+  s'est choisie toute seule — le batch 2 FR `vacances-monoparentales` a été poussé **la veille**
+  (`493091b`, 2026-08-26) et laissait 15 guides FR contre 7 EN. C'est exactement le cas que le prompt
+  de la routine désigne comme prioritaire : un écart rattrapé le jour même coûte huit pages, rattrapé
+  un mois plus tard il en coûte cent. **Compteurs mesurés : FR 15, EN 15 — écart nul, parité rétablie**
+  (`EN_GUIDES` 749 → 757).
+  **Tous les chiffres ont été relus dans les modules, pas dans les sources**, conformément à la règle
+  « ne jamais citer un littéral du seed ». Vérifiés un à un avant rédaction et identiques aux jumelles
+  FR : les huit composites (Lyon 6,6 · Angers 6,6 · Bordeaux 6,4 · Besançon 6,4 · Grenoble/Brest/Tours/
+  Valence 6,3) sortent de `vacationFit(city, { profile: "monoparental" })` — ⚠️ **pas** de
+  `rankByProfile(familles-monoparentales)`, qui donne d'autres valeurs (Lyon 6,40, Bordeaux 6,10) et
+  qui est le piège de ce lot ; les axes de `CITIES_SEED` ; les loyers T3 et prix m² de `data/housing.ts` ;
+  l'affluence 1-5 de `allMonthSignals()` ; les paliers de budget de `vacationFit` (Valence seule en €€,
+  Lyon et Bordeaux en €€€€) ; les drapeaux de `getTransit()` (Valence sans tram, confirmé) ; la
+  population Insee 2022 de Valence, 64 288, et sa hausse de 2,9 % ; et les distances de station
+  climatique (Angers → Nantes 87 km, Besançon → Dijon 71 km, Valence → Grenoble 59 km).
+  Écrit en anglais natif depuis les faits des guides FR, `metaTitle` 35-39 caractères, `metaDesc`
+  145-158, 6 sections par guide (la série FR en compte 7, l'EN fusionne aides et logistique du soir
+  comme le batch 1). Densité de tirets cadratins ramenée sous la cible R7.10 après première passe
+  (0,18-0,93 pour 200 mots ; Grenoble était à 1,78, Lyon à 1,39).
+  Les prudences du FR sont reprises telles quelles : **gare TGV ≠ gare de centre-ville** pour Besançon
+  (Les Auxons, ~10 km), Tours (Saint-Pierre-des-Corps) et Valence (Alixan) ; **la montagne sans voiture
+  est étroite** à Grenoble comme à Valence, la liaison se vérifie avant de bâtir la journée ; **Brest
+  n'est pas une station balnéaire** et le plan B couvert est la structure du séjour, pas une option ;
+  **Fontevraud est accessible depuis Angers sans y être située** ; **la dune du Pilat n'a pas de gare**.
+  Aucun horaire, aucun tarif, aucun barème d'aide — les montants VACAF / ANCV / CAF sont renvoyés à
+  l'organisme parce qu'ils sont réévalués et calculés sur le quotient familial.
+  Cinq ajouts propres à l'angle voyageur étranger, absents du FR : la **zone de vacances scolaires** de
+  chaque ville (A pour Lyon, Bordeaux, Besançon, Grenoble, Valence ; B pour Angers, Brest, Tours) avec
+  renvoi des dates à education.gouv.fr, parce que c'est ce qui commande les prix ; le **112** ajouté au
+  15 et au 116 117 ; le **quotient familial** et la **CAF** définis en incise ; le **TER** présenté
+  comme un réseau distinct du TGV ; et les **traboules**, le **miroir d'eau** et la **tenture de
+  l'Apocalypse** expliqués plutôt que nommés.
+  **Tags** : aucun tag inventé, mais `car-free holidays france` franchit le seuil de 3 guides et
+  **crée `/tags/car-free-holidays-france` côté EN** (103 → 104), d'où le passage de
+  `npm run sitemap:check` (FR 29 078 URL, EN 28 639 — chaque URL déclarée a une page).
+  `npm run search-index` relancé (`data/search-index.en.json` 757 guides, 104 tags).
+  **Prochain écart de corpus, mesuré ce run et non récité** : `demenager-a-[city]` ×50 côté FR n'a
+  aucune jumelle EN (`moving-to-[city]` n'existe pas, seul `moving-to-france` ×4), et
+  `quitter-[city]-guide` ×49 face à `leaving-[city]-where-to-go` ×15. Ce sont les deux plus gros trous
+  de série restants ; `vivre-a-[city]` ×48 est en revanche déjà couvert par les variantes
+  `[city]-living-guide` (47), donc **ne pas le rouvrir**.
+
+---
+
 ## Shipped 2026-08-26 (2e run du jour)
 
 - **F62 — la composante zones protégées se lit enfin d'une ville à l'autre : hub `/espaces-proteges`

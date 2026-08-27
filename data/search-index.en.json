@@ -3745,6 +3745,46 @@
       "slug": "things-to-do-in-thionville-2026",
       "title": "Things to do in Thionville: a thousand years of frontier",
       "emoji": "🛡️"
+    },
+    {
+      "slug": "single-parent-holidays-lyon-2026",
+      "title": "Single-parent holidays in Lyon: transport 9/10, and what it costs",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-angers-2026",
+      "title": "Single-parent holidays in Angers: Lyon's score at provincial prices",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-bordeaux-2026",
+      "title": "Single-parent holidays in Bordeaux: the calendar decides everything",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-besancon-2026",
+      "title": "Single-parent holidays in Besançon: four attractions, one ticket",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-grenoble-2026",
+      "title": "Single-parent holidays in Grenoble: mountains in view, and the limit",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-brest-2026",
+      "title": "Single-parent holidays in Brest: the cheapest week in this series",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-tours-2026",
+      "title": "Single-parent holidays in Tours: Loire châteaux by train, no car",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-valence-2026",
+      "title": "Single-parent holidays in Valence: the only cheap tier in this series",
+      "emoji": "🧑‍🍼"
     }
   ],
   "tags": [
@@ -3766,7 +3806,7 @@
     {
       "slug": "single-parent-in-france",
       "label": "single parent in france",
-      "count": 55
+      "count": 63
     },
     {
       "slug": "buying-property-france",
@@ -3784,24 +3824,24 @@
       "count": 48
     },
     {
+      "slug": "nouvelle-aquitaine",
+      "label": "nouvelle-aquitaine",
+      "count": 44
+    },
+    {
       "slug": "occitanie",
       "label": "occitanie",
       "count": 44
     },
     {
-      "slug": "nouvelle-aquitaine",
-      "label": "nouvelle-aquitaine",
-      "count": 43
+      "slug": "auvergne-rhone-alpes",
+      "label": "auvergne-rhone-alpes",
+      "count": 36
     },
     {
       "slug": "grand-est",
       "label": "grand est",
       "count": 35
-    },
-    {
-      "slug": "auvergne-rhone-alpes",
-      "label": "auvergne-rhone-alpes",
-      "count": 33
     },
     {
       "slug": "working-in-france",
@@ -3826,7 +3866,7 @@
     {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
-      "count": 25
+      "count": 26
     },
     {
       "slug": "international-students",
@@ -3844,14 +3884,14 @@
       "count": 24
     },
     {
-      "slug": "student-housing-france",
-      "label": "student housing france",
+      "slug": "brittany",
+      "label": "brittany",
       "count": 23
     },
     {
-      "slug": "brittany",
-      "label": "brittany",
-      "count": 22
+      "slug": "student-housing-france",
+      "label": "student housing france",
+      "count": 23
     },
     {
       "slug": "normandy",
@@ -3899,6 +3939,11 @@
       "count": 15
     },
     {
+      "slug": "centre-val-de-loire",
+      "label": "centre-val de loire",
+      "count": 15
+    },
+    {
       "slug": "cycling",
       "label": "cycling",
       "count": 15
@@ -3919,24 +3964,24 @@
       "count": 15
     },
     {
-      "slug": "centre-val-de-loire",
-      "label": "centre-val de loire",
-      "count": 14
+      "slug": "single-parent-holidays",
+      "label": "single parent holidays",
+      "count": 15
     },
     {
       "slug": "bourgogne-franche-comte",
       "label": "bourgogne-franche-comte",
-      "count": 13
+      "count": 14
+    },
+    {
+      "slug": "loire-valley",
+      "label": "loire valley",
+      "count": 14
     },
     {
       "slug": "cost-of-living",
       "label": "cost of living",
       "count": 13
-    },
-    {
-      "slug": "loire-valley",
-      "label": "loire valley",
-      "count": 12
     },
     {
       "slug": "bretagne",
@@ -4001,11 +4046,6 @@
     {
       "slug": "nantes",
       "label": "nantes",
-      "count": 7
-    },
-    {
-      "slug": "single-parent-holidays",
-      "label": "single parent holidays",
       "count": 7
     },
     {
@@ -4109,6 +4149,11 @@
       "count": 5
     },
     {
+      "slug": "alps",
+      "label": "alps",
+      "count": 4
+    },
+    {
       "slug": "angers",
       "label": "angers",
       "count": 4
@@ -4179,11 +4224,6 @@
       "count": 3
     },
     {
-      "slug": "alps",
-      "label": "alps",
-      "count": 3
-    },
-    {
       "slug": "biarritz",
       "label": "biarritz",
       "count": 3
@@ -4191,6 +4231,11 @@
     {
       "slug": "brittany-retirement-expat",
       "label": "Brittany retirement expat",
+      "count": 3
+    },
+    {
+      "slug": "car-free-holidays-france",
+      "label": "car-free holidays france",
       "count": 3
     },
     {

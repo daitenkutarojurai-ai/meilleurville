@@ -30835,6 +30835,390 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["thionville", "metz", "nancy"],
     tags: ["things to do in thionville", "thionville", "travel", "city guide", "grand-est"],
   },
+  {
+    slug: "single-parent-holidays-lyon-2026",
+    title: "Single-parent holidays in Lyon: transport 9/10, and what it costs",
+    metaTitle: "Single-Parent Holidays in Lyon 2026",
+    metaDesc:
+      "Lyon alone with the kids: transport scores 9/10, so no hire car — but it is the priciest city in this series. The months and districts that hold up.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-08-27",
+    updatedAt: "2026-08-27",
+    intro:
+      "Lyon is the best-placed destination in this batch on our single-parent composite, level with Angers at 6.6/10, built on safety 5.1/10, transport 9.0/10, cost of living 4.2/10 and quality of life 6.8/10 (source: data/cities-seed.ts). Those four numbers describe a very particular kind of trip. Transport is at the top of the scale, which means one adult with one or two children has no reason at all to hire a car. But the cost axis is the lowest of the eight cities here, and on our scale a low score means expensive: the reference three-room rent is 1,380 € and the purchase price 5,000 € per square metre (source: data/housing.ts), which sets the local price level without telling you what a week costs. This is about the conditions under which Lyon still works on one income.",
+    sections: [
+      {
+        heading: "Transport 9.0/10: the one argument that deletes a budget line",
+        body: "This is the maximum on our scale, and Lyon is the only city in this batch that combines a metro, trams, TGV, bus rapid transit and a cycle network rated strong (source: lib/transit.ts). For a parent travelling alone this is not a comfort, it is an entire line removed from the budget: no hire car, no fuel, no city-centre parking, no rental-desk closing time to meet with two tired children. The two funiculars up to Fourvière and Saint-Just are part of the ordinary urban network and take an ordinary ticket, which settles the climb to the basilica without negotiation. For comparison inside this batch, Grenoble follows at 8.1/10, Bordeaux at 7.8/10 and Brest closes it at 6.4/10. Fares and pass ranges change every year, so check them with the operator, TCL, before you travel rather than trusting any figure printed in a guide.",
+      },
+      {
+        heading: "Cost 4.2/10: the weak point, and it is structural",
+        body: "On our cost-of-living axis a high score means affordable. Lyon comes out at 4.2/10, the lowest in this selection, behind Bordeaux at 4.5/10 and a long way from Valence at 6.7/10 (source: data/cities-seed.ts). For a household on one income that gap is not a detail: it is the same activities paid one notch higher, every day of the trip. The residential market gives the order of magnitude, a reference three-room flat at 1,380 € against 850 € in Brest (source: data/housing.ts): a market indicator, not a holiday rate. Three real levers. Aim for the months when accommodation is negotiable. Cook in a self-catering flat rather than paying for three restaurant meals a day. And lean on what the city gives away, starting with the Parc de la Tête d'Or, where neither the gates nor the zoo inside them charge admission.",
+      },
+      {
+        heading: "Rooms: the single supplement is not where you think",
+        body: "A French hotel charges for the room, not per person, so one adult with two children does not pay double, whatever the reputation of the single supplement suggests. The real problem is elsewhere and it is concrete: family and triple rooms are scarce, they go first, and a lone adult is often left choosing between two rooms and nothing. The single supplement in the strict sense turns up in per-adult package pricing, clubs and organised trips, where it is entirely real and needs costing before you compare anything. The practical consequence for Lyon is that a short-let flat with a kitchen is almost always the winning call, and that it has to be booked early: the city hosts enough congresses and trade fairs to take whole weeks off the market for reasons that have nothing to do with school holidays.",
+      },
+      {
+        heading: "A week that fits on one transport pass",
+        body: "The Lyon advantage for this profile is density: you do not lose half a day travelling between two visits. The Parc de la Tête d'Or, one of the largest green spaces recorded in the commune (source: data/city-parks.json), puts a zoo, a lake, a rose garden and room to run inside one enclosure with no ticket office at the gate. The Musée des Confluences, at the southern tip where the rivers meet, is a tram ride away. Vieux-Lyon and its traboules — covered passageways cutting through Renaissance courtyards, a genuinely good hunt for a child — are walkable, and the climb to Fourvière is settled by the funicular. The banks of the Rhône and Saône give kilometres of flat, level walking, which matters when you are pushing a buggy on your own. The Croix-Rousse market is a morning outing rather than a visit: plan lunch after it, not in it.",
+      },
+      {
+        heading: "When to go: the constraint here is crowds, not weather",
+        body: "Lyon sits in Zone A for French school holidays, through the académie de Lyon; the zones are stable but the dates rotate every year, so confirm them at education.gouv.fr, since they drive prices far more than the weather does. Our crowding indicator, derived from the city's profile and the season rather than from its climate, puts Lyon at 5 out of 5 in July, meaning saturated, 4 in June and September, and back to 3 in April and October (source: lib/vacation-seasons.ts). With Bordeaux it is the only city in this batch to hit the top of the scale. On climate, the city averages 23.7 °C in July and 4.2 °C in January (source: data/cities-seed.ts): summer is frankly hot in what is effectively a river basin, which makes July afternoons hard going with young children. The window that ticks every box for this profile is spring, April and May, then October. The autumn half-term works too, if you accept a largely indoor programme.",
+      },
+      {
+        heading: "Evenings, emergencies and money help",
+        body: "Safety scores 5.1/10, level with Bordeaux, above Grenoble at 4.3/10 and below Angers, Besançon and Brest, which share 5.7/10 (source: data/cities-seed.ts). This is an aggregate figure for a whole commune: it describes neither a street nor an hour of the night, and it says nothing about the people who live there. What to take from it is that Lyon asks for big-city reflexes rather than small-town ones. The station quarters, Part-Dieu and Perrache, are busy night-time thoroughfares, and the river banks are heavily used on summer evenings. Paediatric emergencies are handled at the Hôpital Femme Mère Enfant, part of the Hospices Civils de Lyon, at Bron on the eastern edge of the city; dial 15 for an emergency, 112 from any mobile, and 116 117 for out-of-hours advice. On funding, four schemes are worth checking before you book and none of them is quoted here with a figure, because the scales are revised and depend on your quotient familial — the means-tested family coefficient the CAF, France's family benefits agency, calculates for each household. VACAF (vacaf.org) approves holiday centres and takes its help straight off the bill; ANCV Chèques-Vacances (ancv.com) are accepted widely in cultural ticketing; the Rhône CAF runs holiday grants through caf.fr; and your employer's works council, the comité social et économique, often negotiates ticket prices. All of them follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["lyon", "villeurbanne", "vienne", "grenoble"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "lyon with kids",
+      "car-free holidays france",
+      "auvergne-rhone-alpes",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-angers-2026",
+    title: "Single-parent holidays in Angers: Lyon's score at provincial prices",
+    metaTitle: "Single-Parent Holidays in Angers 2026",
+    metaDesc:
+      "Angers alone with the kids: the same composite as Lyon at a far lower price level, a TGV station in the centre, and crowding at 1 out of 5 in April.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-08-27",
+    updatedAt: "2026-08-27",
+    intro:
+      "Angers is the find of this batch. It scores the same 6.6/10 on our single-parent composite as Lyon, but with the opposite profile: safety 5.7/10, transport 7.0/10, cost of living 6.2/10 and quality of life 7.2/10 (source: data/cities-seed.ts). Two points more on cost and 0.6 more on safety than the Lyon metropolis, two points less on transport. Translated into a trip, that is a city where you pay noticeably less for a level of equipment that is still enough, with a reference three-room rent of 1,000 € against 1,380 € in Lyon (source: data/housing.ts): an indicator of the local price level, not a holiday rate. Here is what it changes in practice when you are the only adult.",
+    sections: [
+      {
+        heading: "The best ratio in the batch between what you pay and what you get",
+        body: "At an equal composite with Lyon, Angers posts a cost of living of 6.2/10 against 4.2/10 (source: data/cities-seed.ts). On this axis a high score means affordable, and two points is the difference between a city where every line is charged at metropolitan rates and one where it is charged at provincial rates. For a household on a single income that is the difference between a holiday arbitrated activity by activity and one where you do not have to count each entry ticket. Quality of life at 7.2/10 is the best in this selection alongside Bordeaux, and safety at 5.7/10 the best alongside Besançon and Brest. The one axis where the city gives ground is transport, 7.0/10 against Lyon's 9.0, which is still comfortably above the threshold at which you can do without a car.",
+      },
+      {
+        heading: "Arriving and getting about: a TGV station in the centre, nothing to hire",
+        body: "Angers combines TGV, a tram, bus rapid transit and a cycle network rated medium (source: lib/transit.ts). The point that matters for an adult alone with luggage and children, repeated here for three cities in this batch where it is not true, is that the TGV station is the city station. Paris is about an hour and a half away; you get off the train and you are in town, with no shuttle, no connection to negotiate, no quarter of an hour standing on a platform in open country. The tram links the station, the centre and the outer districts, and bus routes fill the gaps. Bikes work along the Maine, flat for kilometres, including with a trailer or a child seat. The practical conclusion is one line long: on an Angers trip, a car is only for leaving the department.",
+      },
+      {
+        heading: "What the single supplement means, and what it does not",
+        body: "French hotels charge the room rather than the head, so an adult with one or two children does not pay twice. The single supplement in the strict sense appears in per-adult package pricing, organised trips and clubs, where it is real and has to be costed before you compare anything. The genuine obstacle for a lone parent is the scarcity of family and triple rooms, which sell out early and leave you choosing between two rooms and a different kind of accommodation altogether. Angers is precisely a city where the alternative works: the local price level keeps short-let flats with a kitchen within reach, and the campsites and holiday villages of the Maine-et-Loire open outside July and August at rates that southern Brittany and the Atlantic coast no longer offer.",
+      },
+      {
+        heading: "The children's activities are grouped, and that is measurable",
+        body: "The Château d'Angers puts a fortress, its gardens and the Apocalypse Tapestry — a fourteenth-century woven cycle, the largest surviving medieval tapestry in the world — behind a single ticket, which settles half a day with no transport in the middle. The Parc de Loisirs du Lac de Maine and the Parc Balzac are among the largest green spaces recorded in the commune (source: data/city-parks.json), both reachable from the centre without a car and both big enough for a whole day with no programme at all. Terra Botanica, a plant-themed park inside the commune, is the paid outing to arbitrate first if the children are the right age. The Doutre quarter and the riverbanks are done on foot. One useful correction to a common assumption: the abbey of Fontevraud, routinely listed as an Angers outing, is reachable from Angers without being in it, and it is a full day when you go.",
+      },
+      {
+        heading: "April and October at 1 out of 5: the real Angers proposition",
+        body: "Angers falls under the académie de Nantes and therefore Zone B for school holidays; the dates rotate annually, so check education.gouv.fr. Our crowding indicator, derived from the city's profile and the season rather than its climate, puts Angers at 1 out of 5 in April, May and October, 2 in June and September, and no higher than 3 at the peak of July (source: lib/vacation-seasons.ts). That is the quietest regime in this selection, alongside Besançon, Grenoble, Tours and Valence, where Lyon and Bordeaux climb to 5. On climate the city averages 21.8 °C in July and 4.6 °C in January (source: data/cities-seed.ts). One point of honesty about that: the nearest reference weather station our climate engine picks is the Nantes one, roughly 87 km away, so month-by-month averages should be read as regional rather than strictly local. The July and January anchors above are the city's own.",
+      },
+      {
+        heading: "Safety 5.7/10, evenings, and money help",
+        body: "Angers shares the best safety score in this selection, 5.7/10, with Besançon and Brest, ahead of Tours at 5.5 and Grenoble at 4.3 (source: data/cities-seed.ts). It is an aggregate communal figure: it holds for a whole commune, not for a street or an hour, and it passes no judgement on the people who live there. In use it describes a mid-sized city where the historic centre and the riverbanks are walkable in the evening with children without particular reservation. Two practical notes. Out of season, kitchens close early on weekdays, so aim to eat from half past seven rather than hunting at nine with children who are past hungry. And for anything medical, the CHU d'Angers is in the city; dial 15 for an emergency, 112 from any mobile, 116 117 for out-of-hours advice, and use the health directory on ameli.fr to locate a doctor before you need one. On funding, four routes are worth investigating before you book, with no amounts quoted here because the scales are revised and depend on your quotient familial — the means-tested family coefficient calculated by the CAF, France's family benefits agency. VACAF (vacaf.org) approves holiday centres and deducts its help from the bill, which is something to verify when choosing rather than after paying; ANCV Chèques-Vacances (ancv.com) are widely accepted; the Maine-et-Loire CAF runs holiday grants through caf.fr, several months ahead; and your employer's works council often negotiates ticketing. All follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["angers", "saumur", "nantes", "tours"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "angers with kids",
+      "loire valley",
+      "pays-de-la-loire",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-bordeaux-2026",
+    title: "Single-parent holidays in Bordeaux: the calendar decides everything",
+    metaTitle: "Single-Parent Holidays in Bordeaux 2026",
+    metaDesc:
+      "Bordeaux alone with the kids: trams everywhere, the mildest winter in this series at 6.9 °C — but cost 4.5/10 and crowding at 5 out of 5 in July.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-08-27",
+    updatedAt: "2026-08-27",
+    intro:
+      "Bordeaux scores 6.4/10 on our single-parent composite, third in this selection level with Besançon, on safety 5.1/10, transport 7.8/10, cost of living 4.5/10 and quality of life 7.2/10 (source: data/cities-seed.ts). The Bordeaux case comes down to a calendar decision rather than a city decision. The equipment is there, the tram covers the conurbation, culture scores 8.4/10 and the winter is the mildest of the eight cities here at 6.9 °C in January. But the cost axis is second from bottom and our crowding indicator hits the top of the scale in July. Put plainly: Bordeaux is an excellent single-parent destination outside summer, and a bad idea in August.",
+    sections: [
+      {
+        heading: "The calendar decides the rest",
+        body: "Bordeaux is in Zone A for French school holidays, through the académie de Bordeaux; the dates rotate each year, so confirm them at education.gouv.fr, because they move prices more than the weather does. Our crowding indicator, derived from the city's profile and the season rather than its weather, gives Bordeaux 5 out of 5 in July, 4 in June and September, and 3 in April and October (source: lib/vacation-seasons.ts). With Lyon it is the only city in this selection to saturate. Cross that with a cost of living of 4.5/10, second from bottom in the batch ahead of Lyon at 4.2 (source: data/cities-seed.ts), and the result is mechanical: going in July means paying the highest rates of the year in the tightest week of the calendar, which a single income absorbs badly. The same trip in April, May or October changes price bracket without losing any of the programme, because most of what you come to Bordeaux for is urban and works all year.",
+      },
+      {
+        heading: "The mildest winter in the batch, and what it allows",
+        body: "Bordeaux averages 6.9 °C in January and 23.0 °C in July (source: data/cities-seed.ts). That 6.9 is the highest January figure of the eight cities here, well ahead of Besançon at 2.1 °C and Grenoble at 2.8 °C. For a lone parent this mildness has an underrated practical consequence: the autumn and February half-terms become usable outdoors, at a time when half of France forces an entirely indoor programme. The Garonne quays, the Jardin Public and the Parc Bordelais, among the largest green spaces recorded in the commune (source: data/city-parks.json), all stay workable. It is also the period when accommodation rates are at their most negotiable, which deals with part of the problem the cost axis sets out.",
+      },
+      {
+        heading: "Getting about: trams, a TGV station in town, and the coast by regional train",
+        body: "The city combines trams, TGV, bus rapid transit and a cycle network rated strong (source: lib/transit.ts), for a transport score of 7.8/10, third in this selection behind Lyon at 9.0 and Grenoble at 8.1. Gare Saint-Jean is in the city and served by the tram, so arriving with bags and children needs no shuttle; Paris is a little over two hours away. The genuinely interesting part for this profile is what the TER, the regional train network, allows: the ocean and the Arcachon basin are reachable by train from the same station, with no hire car and no driving at the end of a beach day. One clarification that saves a disappointment: the Dune du Pilat has no station of its own. It is reached from Arcachon by a seasonal road service whose timetable, and indeed existence, varies with the period, so check with the departmental network before building a day around it.",
+      },
+      {
+        heading: "Rooms: the family room is the real bottleneck",
+        body: "A French hotel charges for the room and not per person, so one adult with two children does not face a double bill, whatever the reputation of the single supplement suggests. That supplement does exist, but in per-adult package pricing, clubs and organised trips, where it needs costing before you compare. The real bottleneck for a lone parent is elsewhere: family and triple rooms are scarce and go early, leaving a choice between two rooms and a different kind of accommodation. In Bordeaux, with a high local price level (a reference three-room flat at 1,200 € against 850 € in Brest, source: data/housing.ts, a residential market indicator rather than a holiday rate), a self-catering flat with a kitchen is the arrangement that holds. Add one local constraint: the city hosts trade fairs and congresses that take whole weeks off the market with no relation to the school calendar.",
+      },
+      {
+        heading: "Culture 8.4/10: days that fill without spending at every step",
+        body: "Bordeaux scores 8.4/10 on the culture axis, second in this selection behind Lyon at 9.0 (source: data/cities-seed.ts). For a lone parent the value of a culture score is not prestige, it is density: it cuts the travel time between two activities and multiplies the free options when the budget tightens. The miroir d'eau (a shallow reflecting pool on the quays that children treat as a splash pad), the riverside and the Jardin Public all fall into that category and absorb hours. La Cité du Vin is the paid outing to arbitrate, and Darwin, on the right bank, the low-effort afternoon. The Marché des Capucins is a morning rather than a visit. What Bordeaux lacks for this profile, and it should be said, is a large covered children's attraction: on a wet day the programme falls back on the museums.",
+      },
+      {
+        heading: "Safety 5.1/10, evenings, and money help",
+        body: "Bordeaux scores 5.1/10 on safety, level with Lyon, above Grenoble at 4.3 and below Angers, Besançon and Brest at 5.7 (source: data/cities-seed.ts). This is an aggregate communal figure: it describes a commune, not a street, not an hour of the night, and it says nothing about its residents. In practice, read it as a big-city number and adopt the matching reflexes, particularly around the station and on the quays on busy summer evenings. Two concrete logistics points. The tram stops earlier than the nightlife does, so check the last departure before planning an evening away from where you are sleeping. And for anything medical, paediatric emergencies are at the Hôpital des Enfants on the Pellegrin site of the CHU de Bordeaux; dial 15 for an emergency, 112 from any mobile, 116 117 for out-of-hours advice, with the health directory on ameli.fr to find a doctor before you need one. On funding, four schemes, no figures quoted because the scales are revised and depend on your quotient familial — the means-tested family coefficient the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves centres and deducts its help from the bill; ANCV Chèques-Vacances (ancv.com) are widely accepted; the Gironde CAF runs holiday grants through caf.fr, months in advance; and your employer's works council negotiates ticketing on named sites. All follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["bordeaux", "arcachon", "merignac", "la-rochelle"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "bordeaux with kids",
+      "car-free holidays france",
+      "nouvelle-aquitaine",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-besancon-2026",
+    title: "Single-parent holidays in Besançon: four attractions, one ticket",
+    metaTitle: "Single-Parent Holidays in Besançon 2026",
+    metaDesc:
+      "Besançon alone with the kids: the Citadel holds a natural history museum, zoo, insectarium and aquarium on one ticket. The tightest grouping in this series.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-08-27",
+    updatedAt: "2026-08-27",
+    intro:
+      "Besançon scores 6.4/10 on our single-parent composite, third in this selection level with Bordeaux, on safety 5.7/10, transport 7.0/10, cost of living 6.4/10 and quality of life 6.6/10 (source: data/cities-seed.ts). It shares the best safety score in the batch with Angers and Brest, and its price level is the lowest of the eight to buy, 2,300 € per square metre, with a reference three-room rent of 900 € (source: data/housing.ts). But the decisive argument for an adult travelling alone with children is none of those numbers: it is that the Citadel gathers, inside one enclosure and behind one ticket, more or less everything a child wants to see.",
+    sections: [
+      {
+        heading: "The Citadel: one ticket, one journey, a full day",
+        body: "This is the tightest grouping of children's attractions in the selection, and it is not theoretical. Inside Vauban's fortified enclosure — a UNESCO-listed seventeenth-century work — sit a natural history museum with its zoological garden, an insectarium, an aquarium and a noctarium devoted to nocturnal species, all covered by a single ticket giving access to every site. For a lone parent that layout solves three problems at once: no intermediate journey to organise, no ticket queue to join twice, and an enclosed place where you can sit down while the children look. The caveat is blunt and worth knowing before you arrive: the climb from the centre takes a good twenty minutes on foot and is genuinely steep. With a buggy, or with young children who do not walk far, plan the approach on the urban network instead.",
+      },
+      {
+        heading: "The lowest price level in the batch, alongside Brest",
+        body: "On the cost-of-living axis a high score means affordable. Besançon comes out at 6.4/10, exactly level with Brest, behind Valence at 6.7/10 and ahead of Angers at 6.2 (source: data/cities-seed.ts). The residential market confirms the order of magnitude: 900 € for the reference three-room flat and 2,300 € per square metre to buy, the lowest of the eight cities here (source: data/housing.ts). These are local market benchmarks rather than holiday rates, but they say something real — a city where a square metre costs 2,300 € does not price its weekly lets like one at 5,000 €. For a household on one income Besançon therefore sits in the comfortable half of the batch, with the safety score thrown in.",
+      },
+      {
+        heading: "Mind the station: TGV does not mean city centre",
+        body: "Besançon is flagged as TGV-served and equipped with a tram and bus rapid transit (source: lib/transit.ts). The flag is accurate, and it hides a distinction that matters enormously when you are travelling alone with children and luggage. Besançon Franche-Comté TGV station, opened in 2011, sits at Les Auxons, some ten kilometres north of the city on the high-speed line. It is linked to Besançon-Viotte, the station in town, by a rail shuttle of a few minutes, and some TGV services call at Viotte directly. The practical consequence is simple: when booking, read the name of the arrival station on the ticket rather than the TGV label alone, and check the connection. Once in town the tram and the urban network are enough, and a car is only for leaving the Doubs.",
+      },
+      {
+        heading: "What is walkable inside the loop of the Doubs",
+        body: "The historic centre sits inside a bend of the river, which gives a compact city that is flat at ground level once you set the Citadel aside. The Promenade Micaud, the Glacis and Chamars are among the green spaces recorded in the commune (source: data/city-parks.json) and are all walkable from the centre. The Saint-Jean cathedral houses the astronomical clock, a short visit that holds a child's attention better than a nave does, and the Musée du Temps extends the watchmaking theme that is the city's own identity. Nature scores 6.4/10 (source: data/cities-seed.ts): the Chailluz forest, inside the communal boundary, gives half a day outdoors without leaving Besançon. One rule to respect: swimming in the Doubs depends on municipal and prefectural orders that change, and those are the authority — they are posted locally, and they override any plan made the night before.",
+      },
+      {
+        heading: "When to go: crowding at 1 out of 5 in spring, but a real winter",
+        body: "Besançon is in Zone A for school holidays, through the académie de Besançon; check the year's dates at education.gouv.fr. Our crowding indicator, derived from the city's profile and the season rather than its climate, puts Besançon at 1 out of 5 in April, May and October, 2 in June and September, and 3 at the height of July (source: lib/vacation-seasons.ts). That is the quietest regime in this selection, shared with Angers, Grenoble, Tours and Valence. On climate the city averages 21.5 °C in July and 2.1 °C in January (source: data/cities-seed.ts), the coldest winter of the eight cities here, against Bordeaux's 6.9 °C. That points the calendar clearly: spring and early autumn are the windows; the autumn half-term works provided you accept a largely indoor programme, which the Citadel and the museums are precisely built to supply. One point of honesty: the nearest reference weather station our engine picks is the Dijon one, about 71 km away.",
+      },
+      {
+        heading: "Safety 5.7/10, evenings, and money help",
+        body: "Besançon shares the best safety score in this selection, 5.7/10, with Angers and Brest, ahead of Tours at 5.5, Valence at 5.2, Lyon and Bordeaux at 5.1 and Grenoble at 4.3 (source: data/cities-seed.ts). It is an aggregate communal figure, describing a whole commune rather than a street or an hour, and passing no judgement on its residents. In use it describes a mid-sized city whose centre is walkable in the evening without particular reservation for one adult with children. Two logistics points. Out of season, kitchens close early on weekdays: aim to eat from half past seven. And for anything medical, the CHU is at the Hôpital Jean-Minjoz; dial 15 for an emergency, 112 from any mobile, 116 117 for out-of-hours advice, and use the health directory on ameli.fr to locate a doctor before you need one rather than in the middle of it. On funding, four routes and no amounts, because the scales are revised and calculated on your quotient familial — the means-tested family coefficient the CAF, France's family benefits agency, works out per household. VACAF (vacaf.org) approves holiday centres and deducts its help from the bill, so check a centre's approval when choosing, not after paying; ANCV Chèques-Vacances (ancv.com) are widely accepted; the Doubs CAF runs holiday grants through caf.fr; and the employer's works council often negotiates ticketing. All follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["besancon", "dole", "pontarlier", "dijon"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "besancon with kids",
+      "vauban citadel",
+      "bourgogne-franche-comte",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-grenoble-2026",
+    title: "Single-parent holidays in Grenoble: mountains in view, and the limit",
+    metaTitle: "Single-Parent Holidays in Grenoble 2026",
+    metaDesc:
+      "Grenoble alone with the kids: nature 8.4/10, the best in this series, trams and a cable car from the centre. But safety 4.3/10, and the peaks need a car.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-08-27",
+    updatedAt: "2026-08-27",
+    intro:
+      "Grenoble scores 6.3/10 on our single-parent composite, in the group that closes this selection, on safety 4.3/10, transport 8.1/10, cost of living 5.5/10 and quality of life 6.2/10 (source: data/cities-seed.ts). It is the most contrasted case in the batch. On one side a nature score of 8.4/10, comfortably the best of the eight cities, and transport at 8.1/10, second behind Lyon. On the other, the lowest safety score in the selection, 4.3/10, and a mountain promise that turns out narrower than advertised for a lone adult without a car. This is what Grenoble genuinely delivers on a single-parent trip, and what it does not.",
+    sections: [
+      {
+        heading: "Nature 8.4/10: the best in the batch, and it starts in town",
+        body: "No other city in this selection comes close: Grenoble scores 8.4/10 where Besançon and Brest follow level at 6.4 and Lyon and Tours close, also level, at 5.0 (source: data/cities-seed.ts). What makes it workable for a lone parent is that the relief is visible and reachable from the centre. The Bastille cable car leaves from the Isère quays: a few minutes up, three mountain ranges in view, and a footpath down again if the children are up to it. The Parc Paul Mistral and the Isère riverbanks are among the largest green spaces recorded in the commune (source: data/city-parks.json), both flat and both on the tram. The Musée de Grenoble fills the wet days. That combination, mountains as backdrop over a flat city at ground level, is rare, and it is the reason the trip works with a buggy.",
+      },
+      {
+        heading: "The limit worth stating: the mountains without a car are narrow",
+        body: "This is where a lot of guides promise too much. Urban transport scores 8.1/10 and covers the conurbation very well, with trams, a TGV station in the city centre and bus rapid transit (source: lib/transit.ts) — but an urban network is not access to the massifs. The Vercors, the Chartreuse and the ski resorts are served by regional coaches whose frequency, seasonality and stops vary from one period to the next, and whose service thins outside school holidays. For one adult with children that means one thing: either you build the mountain day around a connection verified in advance on the regional network's own site, or you drop the car idea and stay with what the city and the Bastille offer, which is already substantial. The middle path, setting off and hoping to find a coach, is the scenario that costs a whole day.",
+      },
+      {
+        heading: "Safety 4.3/10: the lowest figure in the selection",
+        body: "It needs stating rather than working around. Grenoble scores 4.3/10, last of the eight cities in this batch, behind Lyon and Bordeaux at 5.1, Valence at 5.2 and the trio of Angers, Besançon and Brest at 5.7 (source: data/cities-seed.ts). It is an aggregate communal figure: it describes a whole commune, neither a street nor a time of day, and it says nothing about the people who live there. What to do with it is practical rather than moral. Book accommodation in a sector you have checked against a tram map, rather than at the lowest price you can find. Get back before the evening service ends, which the operator publishes. And keep the reflexes you would use in any large city rather than those of a resort town. Dial 15 for an emergency, 112 from any mobile, 116 117 for out-of-hours medical advice; paediatric emergencies are at the CHU Grenoble Alpes on the La Tronche site, just across the Isère.",
+      },
+      {
+        heading: "Rooms: a mid-range price level and a misunderstood supplement",
+        body: "The reference three-room rent is 1,020 € and the purchase price 3,200 € per square metre (source: data/housing.ts), which puts Grenoble in the middle of this selection, far from Besançon at 2,300 € and far from Lyon at 5,000 €. Those figures describe the residential market rather than a holiday rate, but they give the order of magnitude of a week's let. On the single supplement, a useful clarification: French hotels charge the room and not the person, so an adult with two children does not face a double bill; the per-adult supplement exists in package pricing, clubs and organised trips, where it has to be costed before you compare. The real obstacle for a lone parent remains the scarcity of family and triple rooms, which pushes towards a self-catering flat with a kitchen — economically the sounder call over a week.",
+      },
+      {
+        heading: "When to go: low crowding all year, summer heat in the bowl",
+        body: "Grenoble is in Zone A for school holidays, through the académie de Grenoble; the dates rotate annually, so check education.gouv.fr. Our crowding indicator, derived from the city's profile and the season rather than its weather, gives Grenoble 1 out of 5 in April, May and October, 2 in June and September, and 3 at the peak of July (source: lib/vacation-seasons.ts). That is the quietest regime in the batch, shared with Angers, Besançon, Tours and Valence, and the exact opposite of Lyon and Bordeaux, which saturate at 5. On climate the city averages 23.8 °C in July and 2.8 °C in January (source: data/cities-seed.ts). That 23.8 is the second highest in the batch behind Valence, and it is felt: Grenoble sits in a basin ringed by mountains, where summer heat stagnates. With young children, July afternoons need planning in the shade or at altitude. The most comfortable windows are May, June and September.",
+      },
+      {
+        heading: "A single income, line by line, and the help available",
+        body: "Cost of living 5.5/10 (source: data/cities-seed.ts), the middle of this selection: more affordable than Bordeaux at 4.5 and Lyon at 4.2, less than Valence at 6.7, Besançon and Brest at 6.4, Angers at 6.2 and Tours at 5.9. What really counts for this profile is the structure of the trip rather than the general level. Three lines are controllable. Local transport first, since an urban network pass replaces a hire car outright on a city stay, and the cable car takes a ticket. Meals second, a self-catering flat removing three paid services a day for one adult and children who eat little. Activities third, the city offering enough free outdoors, the Isère banks and the parks, to buy only one or two entries a week. The line that derails, if one does, will be a badly organised mountain day. On funding, four schemes and no figures, because the scales are revised and calculated on your quotient familial, the means-tested family coefficient the CAF, France's family benefits agency, works out per household. VACAF (vacaf.org) approves holiday centres and deducts its help from the bill; ANCV Chèques-Vacances (ancv.com) are widely accepted; the Isère CAF runs holiday grants through caf.fr; and the employer's works council often negotiates ticketing, ski lifts included. All follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["grenoble", "chambery", "valence", "lyon"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "grenoble with kids",
+      "alps",
+      "auvergne-rhone-alpes",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-brest-2026",
+    title: "Single-parent holidays in Brest: the cheapest week in this series",
+    metaTitle: "Single-Parent Holidays in Brest 2026",
+    metaDesc:
+      "Brest alone with the kids: the lowest price level in this series, a cable car that is a bus route, and an indoor plan B that is not optional. July at 18.6 °C.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-08-27",
+    updatedAt: "2026-08-27",
+    intro:
+      "Brest scores 6.3/10 on our single-parent composite, in the group that closes this selection, on safety 5.7/10, transport 6.4/10, cost of living 6.4/10 and quality of life 6.2/10 (source: data/cities-seed.ts). Two numbers carry the case: safety, the best in the batch level with Angers and Besançon, and the price level, the lowest of the eight cities with a reference three-room rent of 850 € (source: data/housing.ts). A third qualifies it: transport at 6.4/10 is the weakest in the selection. And one climate figure governs everything else — 18.6 °C average in July, the coolest in the batch. Brest is a very good single-parent destination provided you accept that the programme is not a beach holiday.",
+    sections: [
+      {
+        heading: "The lowest price level in the selection",
+        body: "On the cost-of-living axis a high score means affordable: Brest comes out at 6.4/10, exactly level with Besançon and just behind Valence at 6.7 (source: data/cities-seed.ts). The residential market places the city even more clearly at the cheap end: 850 € for the reference three-room flat, the lowest of the eight cities here against 1,380 € in Lyon, and 2,500 € per square metre to buy (source: data/housing.ts). These are local market benchmarks rather than holiday rates, but the gap is too wide to mean nothing over a week's let. For a household on one income this is the argument that puts Brest ahead of better-ranked destinations: the same week costs structurally less, and the budget shifts from fixed lines towards activities.",
+      },
+      {
+        heading: "A cable car that is a bus route, and what that changes",
+        body: "The transport score, 6.4/10, is the lowest in this selection (source: data/cities-seed.ts), but it understates what the city offers a pedestrian loaded with children. Brest combines a tram, a TGV station in the city centre and bus rapid transit (source: lib/transit.ts) — and above all it runs an urban cable car integrated into the public transport network as a line in its own right, between the centre and the Capucins plateau, crossing high over the Penfeld river. In practice the cabin crossing is ordinary transport rather than an attraction with its own ticket, and it is one of the few journeys a child asks to do twice. Fares and timetables belong to the operator and should be checked before you travel. The practical conclusion holds: on an urban Brest trip a car is not needed; for the Crozon peninsula and the Pointe Saint-Mathieu, a car or a boat becomes necessary.",
+      },
+      {
+        heading: "The indoor plan B is not an option here, it is the structure of the trip",
+        body: "18.6 °C average in July and 6.2 °C in January (source: data/cities-seed.ts): Brest has the coolest summer and one of the mildest winters in this selection, which is exactly the oceanic climate of the Breton tip. A lone parent who builds a trip entirely around the outdoors will be improvising every other day, with children and no second adult to take over. The city is well set up for the reverse. Océanopolis, a science centre devoted to the oceans, holds a full day under cover. The Ateliers des Capucins, a former industrial hall converted into a public space, house a media library and large indoor areas that are freely accessible, which is precious when two hours have to be filled without spending. The castle and the Musée national de la Marine complete the set. The right instinct is to keep those three in reserve rather than booking them in advance.",
+      },
+      {
+        heading: "Safety 5.7/10: the best in the batch, with Angers and Besançon",
+        body: "Brest shares the best safety score in this selection, 5.7/10, with Angers and Besançon, ahead of Tours at 5.5, Valence at 5.2, Lyon and Bordeaux at 5.1 and Grenoble at 4.3 (source: data/cities-seed.ts). It is an aggregate communal figure: it holds for a whole commune, not a street and not an hour, and it passes no judgement on its residents. In practice it describes a city where one adult with children moves about in the evening without particular reservation, which the layout of the rue de Siam and the Capucins plateau bears out. Two logistics points. The wind: the felt temperature on the quays drops well below the measured one, June included, and a cold child ends the outing. And for anything medical, the CHRU de Brest has its main site at the Hôpital de la Cavale Blanche with paediatrics at Morvan, in the centre; dial 15 for an emergency, 112 from any mobile, 116 117 for out-of-hours advice.",
+      },
+      {
+        heading: "The sea, yes, but not the way you picture it",
+        body: "Nature scores 6.4/10 (source: data/cities-seed.ts): respectable without being Grenoble's 8.4. The roadstead is the city's permanent backdrop, but Brest is not a seaside resort and it is better to know that before booking. The banks of the Penfeld, the Vallon du Stangalar and the cours Dajot are among the green spaces recorded in the commune (source: data/city-parks.json) and give waterside walks reachable on foot or by bus. The Conservatoire botanique in the Stangalar valley is a free outing that fills a morning. For swimming and proper beaches you have to leave the commune, which means a boat or a car, and for a lone adult that is a decision taken in advance rather than on the morning. Crossings of the roadstead depend on the season and the weather: the operator is the authority, not the plan you made the night before.",
+      },
+      {
+        heading: "When to go, and the money help worth chasing",
+        body: "Brest falls under the académie de Rennes and therefore Zone B for school holidays; the dates rotate annually, so check education.gouv.fr. Our crowding indicator, derived from the city's profile and the season rather than its climate, puts Brest at 2 out of 5 in April, May and October, 3 in June and September, and 4 in July (source: lib/vacation-seasons.ts). That is an intermediate regime: busier than the quartet of Angers, Besançon, Tours and Valence, which drop to 1 in spring, and much less tight than Lyon and Bordeaux, which saturate at 5. The summer peak is real and belongs to Brittany as a whole rather than to the city. For this profile the best windows are May, June and September, when crowding stays manageable and the long evening light stretches the day. The autumn half-term works if you accept the indoor programme described above, which the mildness of the Breton winter makes less punishing than elsewhere. On funding, four routes and no amounts quoted, because the scales are revised and calculated on your quotient familial — the means-tested family coefficient the CAF, France's family benefits agency, works out per household. VACAF (vacaf.org) approves holiday centres and deducts its help from the bill, so verify the approval when choosing rather than after paying; ANCV Chèques-Vacances (ancv.com) are widely accepted; the Finistère CAF runs holiday grants through caf.fr, months in advance; and the employer's works council frequently negotiates ticketing. All follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["brest", "quimper", "lorient", "vannes"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "brest with kids",
+      "brittany without a car",
+      "brittany",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-tours-2026",
+    title: "Single-parent holidays in Tours: Loire châteaux by train, no car",
+    metaTitle: "Single-Parent Holidays in Tours 2026",
+    metaDesc:
+      "Tours alone with the kids: Chenonceaux has its own station 400 m from the château, Amboise by regional train — and the Saint-Pierre-des-Corps arrival trap.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-08-27",
+    updatedAt: "2026-08-27",
+    intro:
+      "Tours scores 6.3/10 on our single-parent composite, in the group that closes this selection, on safety 5.5/10, transport 7.0/10, cost of living 5.9/10 and quality of life 6.6/10 (source: data/cities-seed.ts). The case rests on an argument few French destinations can produce: the Loire châteaux can be visited by train, from a mid-sized city, without hiring a car. For an adult travelling alone with children that removes the end-of-day drive, the parking and the car line of the budget in one move. What remains is an arrival trap — the TGV station is not always the city one — and a nature score of 5.0/10, the lowest in the batch alongside Lyon: Tours is a base for visits, not an outdoor destination.",
+    sections: [
+      {
+        heading: "The châteaux by regional train: the central argument, and it checks out",
+        body: "Chenonceaux has its own station on the line linking Tours to Vierzon, a few hundred metres from the château, and the journey from Tours takes about twenty minutes for a handful of return services a day. Amboise is served on the Loire axis. Chinon and Azay-le-Rideau sit on the Chinon line, with stations further from their monuments. The consequence for this profile is direct: a château day is built around a train time rather than a road itinerary, and a lone adult does not have to drive home with sleeping children. The point to watch is frequency, which is low on these secondary lines and varies by day: read the return timetable before you leave in the morning, not on the platform at five in the afternoon. Villandry, by contrast, has no rail service of its own. TER, incidentally, is what the French call these regional trains — a separate network from the TGV, cheaper and unreserved.",
+      },
+      {
+        heading: "The arrival trap: TGV does not always mean the Tours station",
+        body: "Tours is flagged as TGV-served, with a tram, bus rapid transit and a cycle network rated medium (source: lib/transit.ts). The flag is accurate and it hides a nuance that costs dearly when travelling alone with children and luggage: some TGV services stop at Saint-Pierre-des-Corps, a station in the neighbouring commune east of Tours, and not at the Tours city-centre station. Shuttle trains link the two in a few minutes, but not behind every TGV, and the connection offer has changed several times in recent years. What to do about it is simple: read the arrival station name on the ticket, check the connection when booking, and build in the margin rather than discovering you need it on arrival. Once in town, the tram links the Tours station to the centre and the northern districts.",
+      },
+      {
+        heading: "What Tours offers on foot, and what it does not",
+        body: "Vieux-Tours, around the place Plumereau and its half-timbered houses, is walkable and holds half a day with children, spot-the-timber-frame game included. The Saint-Gatien cathedral is a few streets away. The Parc de la Gloriette and the Parc du Lac de la Bergeonnerie are among the largest green spaces recorded in the commune (source: data/city-parks.json) and are reachable without a car. But the limit has to be stated: nature 5.0/10 (source: data/cities-seed.ts), the lowest in this selection alongside Lyon, against 8.4 in Grenoble. Tours is a city of built heritage and riverbank, not of open country. The outdoor complement is called the Loire à Vélo, a waymarked cycle route running flat along the river for kilometres, usable with a trailer or a child seat, and joinable directly from the city.",
+      },
+      {
+        heading: "One income: in the affordable half",
+        body: "Cost of living 5.9/10 (source: data/cities-seed.ts), ahead of Grenoble at 5.5, Bordeaux at 4.5 and Lyon at 4.2, behind Valence at 6.7, Besançon and Brest at 6.4 and Angers at 6.2. The residential market gives the order of magnitude of the local price level: 940 € for the reference three-room flat and 2,700 € per square metre to buy (source: data/housing.ts), again market benchmarks rather than holiday rates. On the single supplement, the clarification that recurs throughout this series: French hotels charge the room and not the person, so an adult with two children does not pay twice; the per-adult supplement does exist in package pricing, clubs and organised trips. The real obstacle for a lone parent stays the scarcity of family rooms, which pushes towards a self-catering flat with a kitchen — cheaper over a week of visits, and it also solves the problem of eating at a child's hour rather than a French one.",
+      },
+      {
+        heading: "When to go: April and October at 1 out of 5, July at 3",
+        body: "Tours falls under the académie d'Orléans-Tours and therefore Zone B for school holidays; the dates rotate annually, so check education.gouv.fr. Our crowding indicator, derived from the city's profile and the season rather than its weather, puts Tours at 1 out of 5 in April, May and October, 2 in June and September, and 3 at the peak of July (source: lib/vacation-seasons.ts). That is the quiet regime of the batch, shared with Angers, Besançon, Grenoble and Valence. Do not transpose that figure to the châteaux themselves, though: it describes the city, and the Loire monuments have their own summer peak, independent of how busy Tours is. On climate the city averages 22.6 °C in July and 5.0 °C in January (source: data/cities-seed.ts), a temperate regime without excess in either direction. The most comfortable windows for this profile are May, June and September, when the château gardens are in condition and the regional trains run their normal service.",
+      },
+      {
+        heading: "Safety 5.5/10, evenings, and money help",
+        body: "Tours scores 5.5/10 on safety, fourth in this selection behind the trio of Angers, Besançon and Brest at 5.7 and ahead of Valence at 5.2, Lyon and Bordeaux at 5.1 and Grenoble at 4.3 (source: data/cities-seed.ts). It is an aggregate communal figure, valid for a whole commune rather than a street or an hour, and it says nothing about its residents. In use it describes a mid-sized city whose historic centre is walkable in the evening without particular reservation. Two logistics points. The place Plumereau is the city's nightlife hub and gets loud late: accommodation two streets away changes a child's night. And for anything medical, paediatric care at the CHRU de Tours is at the Hôpital Clocheville, in the centre; dial 15 for an emergency, 112 from any mobile, 116 117 for out-of-hours advice, with the health directory on ameli.fr to find a doctor in advance. On funding, four routes and no figures, because the scales are revised and depend on your quotient familial — the means-tested family coefficient the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves holiday centres and deducts its help from the bill; ANCV Chèques-Vacances (ancv.com) are widely accepted in monument ticketing, which matters especially on a trip built around paid visits; the Indre-et-Loire CAF runs holiday grants through caf.fr; and the employer's works council often negotiates entry to named monuments. All follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["tours", "amboise", "chinon", "saumur"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "tours with kids",
+      "loire valley",
+      "centre-val-de-loire",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-valence-2026",
+    title: "Single-parent holidays in Valence: the only cheap tier in this series",
+    metaTitle: "Single-Parent Holidays in Valence 2026",
+    metaDesc:
+      "Valence alone with the kids: the only €€ destination in this series, cost 6.7/10, July at 25.8 °C. But no tram, and the TGV station is outside town.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-08-27",
+    updatedAt: "2026-08-27",
+    intro:
+      "Valence scores 6.3/10 on our single-parent composite, in the group that closes this selection, on safety 5.2/10, transport 7.4/10, cost of living 6.7/10 and quality of life 6.2/10 (source: data/cities-seed.ts). It is the only one of the eight cities our holiday engine rates €€ on budget, every other one being €€€ or €€€€, and its cost of living is the most favourable in the batch. It is also the hottest, averaging 25.8 °C in July against 18.6 °C in Brest (source: data/cities-seed.ts), and the smallest, with 64,288 inhabitants at the 2022 census (source: data/city-population.json). Two blunt reservations to know before booking: there is no metro and no tram, and the TGV station is not in town.",
+    sections: [
+      {
+        heading: "The only €€ tier in the selection",
+        body: "Our holiday engine sorts destinations into four budget tiers derived from the cost of living. Valence is the only one of the eight cities in this batch rated €€, while Besançon, Angers, Brest, Grenoble and Tours come out €€€ and Lyon and Bordeaux €€€€ (source: lib/vacation-fit.ts). The number behind that tier is a cost of living of 6.7/10, the highest in the selection and therefore the most affordable, ahead of Besançon and Brest at 6.4 and a long way ahead of Lyon at 4.2 (source: data/cities-seed.ts). The residential market points the same way: 900 € for the reference three-room flat and 2,400 € per square metre to buy (source: data/housing.ts), local price benchmarks rather than holiday rates. For a household on one income that wants sun without the pricing of the touristic Rhône valley, this is the most efficient trade in the batch.",
+      },
+      {
+        heading: "The TGV station is not the city station",
+        body: "Valence is flagged as TGV-served and equipped with bus rapid transit, but with no tram and no metro (source: lib/transit.ts). Two clarifications change everything for one adult loaded with children and luggage. First, Valence TGV station sits about ten kilometres from the centre, in the commune of Alixan, and is linked to Valence-Ville by a regional rail service of a few minutes, the building housing both levels of platform. Second, Valence-Ville station is genuinely in the city centre and takes the regional trains and part of the classic long-distance service. So read the station name on the ticket and check the connection when booking, not on arrival. Once in town, the bus network and walking are enough for the centre, but the absence of a tram is felt — evening service thins, and that shapes where you choose to sleep.",
+      },
+      {
+        heading: "What the summer heat means when you are the only adult",
+        body: "25.8 °C average in July, the highest in this selection, and 5.2 °C in January (source: data/cities-seed.ts). This climate is both Valence's real attraction and its main constraint. With young children and one adult, a day at those temperatures is built differently: programme in the morning, back to the accommodation in the early afternoon, out again late when the heat drops. The Parc Jouvet, on the bank of the Rhône and among the largest green spaces recorded in the commune (source: data/city-parks.json), is the obvious anchor for that rhythm, with shade and water. One point of honesty about our monthly figures: the nearest reference weather station our engine picks is the Grenoble one, about 59 km away and in an entirely different relief, so the month-by-month averages should be read as regional. The July and January anchors above are Valence's own.",
+      },
+      {
+        heading: "A small city: what that gains and what it costs",
+        body: "64,288 inhabitants at the 2022 census, against 62,477 in 2016 and 63,148 in 2011, a rise of 2.9 % over the latest intercensal window (source: data/city-population.json). It is by far the smallest of the eight cities in this selection — Lyon counts 520,774. For this profile the small scale is first of all an advantage: everything is close, the centre is crossed on foot, no time is lost in internal journeys, and tourist pressure stays low. Our crowding indicator, derived from the city's profile and the season rather than its climate, accordingly gives Valence 1 out of 5 in April, May and October, 2 in June and September, and 3 at the peak of July (source: lib/vacation-seasons.ts). The downside is supply: culture 6.6/10, the lowest in the batch alongside Brest (source: data/cities-seed.ts), meaning fewer covered venues for a wet day than Lyon or Bordeaux offer. Valence is in Zone A for school holidays, through the académie de Grenoble; check the year's dates at education.gouv.fr.",
+      },
+      {
+        heading: "The Rhône, the Vercors, and where car-free stops",
+        body: "Nature 6.3/10 (source: data/cities-seed.ts): respectable, above Tours and Lyon at 5.0, below Grenoble at 8.4. The river is the asset reachable on foot or by bike, with the ViaRhôna cycle route running long, flat distances along the Rhône and joinable from the city, usable with a trailer or a child seat. The Vercors and the Diois, by contrast, take organising: they are reached by regional coaches, or by train up the Drôme valley, with low and seasonal frequencies that have to be checked before a day is built on them. For one adult the rule is the same as in Grenoble: either the connection is verified in advance, or the outing is dropped. Improvising costs a whole day when there is nobody to take over.",
+      },
+      {
+        heading: "Safety 5.2/10, evenings, and money help",
+        body: "Valence scores 5.2/10 on safety, mid-table in this selection: behind Angers, Besançon and Brest at 5.7 and Tours at 5.5, ahead of Lyon and Bordeaux at 5.1 and Grenoble at 4.3 (source: data/cities-seed.ts). It is an aggregate communal figure, valid for a whole commune and not for a street or an hour, and it passes no judgement on its residents. In practice it describes a mid-sized city whose centre is walkable in the evening without particular reservation for one adult with children. Two logistics points. The absence of a tram, and a bus network that thins in the evening: check the last departure before planning an outing away from where you are staying. And for anything medical, the Centre Hospitalier de Valence is in the city; dial 15 for an emergency, 112 from any mobile, 116 117 for out-of-hours advice, and use the health directory on ameli.fr to locate a doctor before you need one. On funding, four routes and no amounts, because the scales are revised and calculated on your quotient familial — the means-tested family coefficient the CAF, France's family benefits agency, works out per household. VACAF (vacaf.org) approves holiday centres and deducts its help from the bill, which is particularly relevant in the Drôme where holiday villages and family campsites are plentiful; ANCV Chèques-Vacances (ancv.com) are widely accepted; the Drôme CAF runs holiday grants through caf.fr; and the employer's works council often negotiates ticketing. All follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["valence", "grenoble", "vienne", "montelimar"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "valence with kids",
+      "rhone valley",
+      "auvergne-rhone-alpes",
+    ],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed
