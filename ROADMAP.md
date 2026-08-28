@@ -13,7 +13,7 @@ Demande utilisateur directe. F58 / F60 / F61 livrées le jour même ; **F59 livr
 
 | # | Feature | Prio | Cplx | SEO | Statut |
 |---|---------|------|------|-----|--------|
-| F58 | City Match — profil « parent solo » | P1 | S | mid | ✅ shipped 2026-07-22 · sous-page `/villes/[slug]/parent-solo` ×540 + hub `/parent-solo` + miroir EN `/single-parent` + `/cities/[slug]/single-parent` ×540 shipped 2026-07-25→28 · série guides `parent-solo-a-[ville]-2026` batch 1 (+10) shipped 2026-07-24, batch 2 (+10 : Rennes, Nancy, Angers, Grenoble, Dijon, Metz, Reims, Aix-en-Provence, Rouen, Toulon) shipped 2026-08-07 · miroir EN de la série `single-parent-in-[city]-2026` batch 1 (+10 : Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux, Lille) shipped 2026-08-09, batch 2 (+10) shipped 2026-08-11 — **parité FR/EN atteinte à 20/20** · **batch 3 FR (+9 : Villeurbanne, Besançon, Caen, Brest, Tours, Limoges, Clermont-Ferrand, Saint-Étienne, Le Havre) shipped 2026-08-14**, **miroir EN batch 3 (+9) shipped 2026-08-15 — parité rétablie à 29/29** · **batch 4 FR (+10 : Nîmes, Saint-Denis de La Réunion, Le Mans, Amiens, Annecy, Perpignan, Orléans, Mulhouse, Poitiers, Dunkerque) shipped 2026-08-16**, **miroir EN batch 4 (+10) shipped 2026-08-17 — parité rétablie à 39/39** (compteur vérifié des deux côtés avant et après le run, cf. § Parité EN) · **batch 5 FR (+9 : Saint-Paul 974, Avignon, Saint-Pierre 974, Béziers, La Rochelle, Pau, Cherbourg-en-Cotentin, Fort-de-France, Mérignac) shipped 2026-08-23 — 48 FR contre 39 EN, premier guide martiniquais de la série**, **miroir EN batch 5 (+9) shipped 2026-08-25 — parité rétablie à 48/48** (rang publié = fit décroissant puis nom croissant, cf. § Parité EN) |
+| F58 | City Match — profil « parent solo » | P1 | S | mid | ✅ shipped 2026-07-22 · sous-page `/villes/[slug]/parent-solo` ×540 + hub `/parent-solo` + miroir EN `/single-parent` + `/cities/[slug]/single-parent` ×540 shipped 2026-07-25→28 · série guides `parent-solo-a-[ville]-2026` batch 1 (+10) shipped 2026-07-24, batch 2 (+10 : Rennes, Nancy, Angers, Grenoble, Dijon, Metz, Reims, Aix-en-Provence, Rouen, Toulon) shipped 2026-08-07 · miroir EN de la série `single-parent-in-[city]-2026` batch 1 (+10 : Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux, Lille) shipped 2026-08-09, batch 2 (+10) shipped 2026-08-11 — **parité FR/EN atteinte à 20/20** · **batch 3 FR (+9 : Villeurbanne, Besançon, Caen, Brest, Tours, Limoges, Clermont-Ferrand, Saint-Étienne, Le Havre) shipped 2026-08-14**, **miroir EN batch 3 (+9) shipped 2026-08-15 — parité rétablie à 29/29** · **batch 4 FR (+10 : Nîmes, Saint-Denis de La Réunion, Le Mans, Amiens, Annecy, Perpignan, Orléans, Mulhouse, Poitiers, Dunkerque) shipped 2026-08-16**, **miroir EN batch 4 (+10) shipped 2026-08-17 — parité rétablie à 39/39** (compteur vérifié des deux côtés avant et après le run, cf. § Parité EN) · **batch 5 FR (+9 : Saint-Paul 974, Avignon, Saint-Pierre 974, Béziers, La Rochelle, Pau, Cherbourg-en-Cotentin, Fort-de-France, Mérignac) shipped 2026-08-23 — 48 FR contre 39 EN, premier guide martiniquais de la série**, **miroir EN batch 5 (+9) shipped 2026-08-25 — parité rétablie à 48/48** (rang publié = fit décroissant puis nom croissant, cf. § Parité EN) · **batch 6 FR (+9 : Valence, Colmar, Saint-Nazaire, Chambéry, Bourges, Pessac, Calais, Le Tampon 974, Ajaccio) shipped 2026-08-28 — 57 FR contre 48 EN, premier guide corse de la série** (+ 5 superlatifs faux corrigés, dont un dans le guide Pau du batch 5, cf. § ci-dessous) |
 | F59 | **Parcs & espaces verts par ville** (pipeline OSM + sub-page ×540) | **P0** | **L** | **high** | ✅ shipped 2026-07-27 |
 | F60 | `/departements` — finder par n° / nom / ville + carte cliquable | P1 | S | low | ✅ shipped 2026-07-22 · carte cliquable 2026-07-23 |
 | F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 · série guides `vacances-celibataire-[ville]-2026` batch 1 (+8) shipped 2026-08-01 · série `vacances-monoparentales-[ville]-2026` batch 1 (+7) shipped 2026-08-05 · `vacances-celibataire-[ville]-2026` batch 2 (+7 : Toulouse, Lille, Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle) shipped 2026-08-08 · croisement mois × profil `/vacances/ou-partir/[combo]` (12 × 7 = 84 pages SSG) shipped 2026-08-12 · miroir EN de la série célibataire, `solo-travel-in-[city]-2026` batch 1 (+8 : Paris, Lyon, Bordeaux, Lille, Strasbourg, Toulouse, Montpellier, Nantes) shipped 2026-08-13 · série EN fermée (batch 2, +7) 2026-08-14 · guide pilier `partir-en-vacances-seul-2026` + correction de l'anti-station-fantôme (part réelle des 15-29 ans Insee au lieu d'un écart d'affluence constant) shipped 2026-08-15 · **miroir EN de la série monoparentale, `single-parent-holidays-[city]-2026` (+7 : La Rochelle, Strasbourg, Nantes, Rennes, Vannes, Nancy, Dijon) shipped 2026-08-19 — parité FR/EN atteinte à 7/7, mêmes villes des deux côtés** (+ 4 chiffres faux corrigés dans la série FR au passage, cf. § ci-dessous) · **`vacances-celibataire-[ville]-2026` batch 3 (+7 : Nancy, Poitiers, Rouen, Caen, Clermont-Ferrand, Tours, Besançon) shipped 2026-08-22 — sélection dérivée de la mesure anti-station-fantôme, + 1 erreur de données corrigée dans `lib/transit.ts`, cf. § ci-dessous** · **`vacances-monoparentales-[ville]-2026` batch 2 (+8 : Lyon, Angers, Bordeaux, Besançon, Grenoble, Brest, Tours, Valence) shipped 2026-08-26 — sélection dérivée de la règle « accessible en train sans voiture » de la page profil elle-même, palier d'ex æquo pris entier, cf. § ci-dessous** |
@@ -308,6 +308,143 @@ Annecy, Grenoble, Chambéry, Reims, Metz, Montpellier, Aix-en-Provence — véri
 et score sécurité **par le module** avant écriture), et l'équivalent EN du croisement mois ×
 profil, `/vacances/ou-partir/[combo]` n'ayant pas de jumelle anglaise. La série étant à parité
 7/7, la main revient au FR.
+
+### F58 — série `parent-solo-a-[ville]-2026`, batch 6 (2026-08-28)
+
+**+9 guides : Valence, Colmar, Saint-Nazaire, Chambéry, Bourges, Pessac, Calais, Le Tampon (974),
+Ajaccio.** Compteurs mesurés des deux côtés **avant** le run, comme les batches 4 et 5 l'exigent :
+`grep -c 'slug: "parent-solo-a'` = 48 FR et `grep -c 'slug: "single-parent-in-'` = 48 EN, mêmes
+villes de part et d'autre — écart nul, la main revenait donc au FR. Après ce run : **57 FR / 48 EN**.
+`GUIDES` 1 003 → 1 012. `npm run search-index` relancé (`data/search-index.json` 1 012 guides,
+**248 tags** contre 245) et **`npm run sitemap:check` repassé** parce que trois tags franchissent le
+seuil de 3 guides — FR 29 089 URL, chaque URL déclarée a une page. Les 9 guides ont été vérifiés
+**retrouvés par le lookup de `app/villes/[slug]/parent-solo/page.tsx`** (ligne 64,
+`parent-solo-a-${slug}-2026` sur le **slug de seed tel quel**) **et pourvus de leur photo d'en-tête**
+(`guideCityPhoto`) après écriture.
+
+**Sélection : population d'abord, parmi les communes non couvertes disposant d'une référence de
+loyer T3 dans `data/housing.ts`**, filtre inchangé depuis le batch 3 — sans T3, `minIncomeForT3` ne
+produit rien et le guide perd sa colonne vertébrale. Six des sept candidates laissées en piste par
+le batch 5 sont honorées (Calais, Saint-Nazaire, Chambéry, Colmar, Valence, Le Tampon) ; **Narbonne
+et Sète sont écartées au profit de Bourges, Pessac et Ajaccio, toutes trois plus peuplées** et
+absentes de la liste du batch 5, qui n'avait pas repassé le vivier. Amplitude assumée : **rang 63
+(Valence) à 316 (Ajaccio)** sur les 363 communes de plus de 20 000 habitants, quatre villes sur neuf
+sous la médiane du classement (5,5).
+
+⚠️ **Exclusions maintenues et exclusions nouvelles, toutes documentées.** ① Le cluster francilien
+non couvert (Saint-Denis 93, Aubervilliers, Argenteuil, Montreuil, Nanterre, Créteil,
+Aulnay-sous-Bois, Drancy, Champigny) et le cluster nordiste (Roubaix, Tourcoing) restent hors série
+au titre de la règle posée au batch 4 et durcie au batch 5 : on n'écrit pas de guide sur une commune
+dont le composite est largement un proxy de la situation socio-économique des habitants, parce que
+le guide glisserait du conseil d'installation au commentaire sur les gens. **La règle est
+granulaire, pas géographique**, et elle attrape ce run **La Seyne-sur-Mer** (écoles 2,4 / sécurité
+3,7), qui aurait été éligible par la population. ② **Mamoudzou et Cayenne sont écartées pour une
+raison différente et il faut la distinguer** : leurs composites (3,5 et 3,8, soit 363e et 360e sur
+363) ne sont pas un proxy socio-économique communal mais une mesure d'infrastructure territoriale,
+donc écrivables sur le fond. Elles sont écartées parce que **Mamoudzou n'a pas de population Insee**
+(hors fichier « France hors Mayotte »), ce qui prive le guide de l'apport de méthode du batch 5, et
+parce qu'un guide « faut-il élever seul son enfant dans la commune classée dernière de France » se
+tient mal sans données infracommunales, la reconstruction post-Chido en plus côté Mayotte. À
+reprendre le jour où l'une de ces deux conditions change, pas avant.
+
+**Quatre superlatifs faux ont été corrigés AVANT insertion, et un cinquième trouvé dans le corpus
+existant.** C'est le mode de défaillance identifié au batch 5 et la leçon tient : **un superlatif est
+une requête, pas une intuition.** Toutes les affirmations en « le plus », « le meilleur », « le seul »
+de ce batch ont été rejouées contre les modules avant écriture, et quatre sont tombées :
+① Saint-Nazaire s'annonçait « troisième prix d'achat le plus bas du batch » — **Le Tampon est à
+2 100 € le m² contre 2 200 €**, elle est quatrième ; ② et « trois villes de la région font mieux pour
+un loyer inférieur » — **elles sont quatre** (La Roche-sur-Yon, Cholet, Laval, Saumur) ; ③ Le Tampon
+s'attribuait « le seuil d'entrée le plus bas de l'île » — **Saint-Joseph est à 2 250 € également**,
+c'est une égalité (le batch 5 avait déjà corrigé la même phrase dans le guide Saint-Pierre) ;
+④ Ajaccio écrivait « quatrième transport le plus bas du batch » alors qu'elle est **deuxième**
+derrière Le Tampon. ⑤ Enfin, le guide **Pau du batch 5 affirmait « à l'échelle de la série entière,
+seule Poitiers fait mieux, à 119 € »** sur le rapport loyer ÷ point d'écoles : **quatre villes font
+mieux** (Grenoble 113 €, Brest 115 €, Tours et Poitiers 119 €), et Rennes et Besançon l'égalent à
+122 €. La phrase est réécrite ce run. Deux arrondis ont également été repris avant insertion, le
+seuil relâché de Pessac (3 250 € et non 3 300 €) et celui du Tampon (2 350 € et non 2 400 €) : le
+moteur arrondit au multiple de 50 le plus proche, pas à la centaine.
+
+⚠️ **`npm run integrity` a rattrapé une collision figure/axe de plus, la quatrième de la série.**
+Le guide Bourges citait « des transports à 7,0 et 6,4 » pour Tours et Orléans — 7,0 est le **littéral
+brut du seed pour Bourges elle-même**, dont la valeur rendue est 5,2, et la garde refuse toute figure
+collée à un nom d'axe qui égale le littéral brut de la ville du guide. La valeur citée était juste
+(Tours est bien à 7,0 rendu), le voisinage ne l'était pas. Le contournement reste celui du batch 5 :
+**attribuer explicitement chaque note à sa ville**, ne jamais laisser une note flotter à côté du nom
+d'un axe. Ne pas assouplir la garde pour ça — elle est étroite par construction.
+
+**Vérification des pivots automatisée, reconduite des batches 4 et 5** : un script rejoue **après
+insertion** fit, rang, T1/T2/T3, prix au m², revenu minimum, ratio loyer ÷ écoles, populations Insee
+2011 et 2022 et les quatre axes de chacune des neuf villes, et échoue si l'une des valeurs n'est pas
+retrouvée dans le texte du guide correspondant. Les 9 passent du premier coup. Tous les chiffres sont
+lus **à travers les modules** (`npx tsx` sur `@/data/cities-seed`, `@/data/housing`,
+`@/lib/city-population`, `@/lib/parent-solo`), jamais par grep du seed, et le rang est rejoué avec le
+départage réel de `app/parent-solo/page.tsx` (`name.localeCompare(…, "fr")` à égalité de score).
+`metaTitle` 49-54 caractères, `metaDesc` 141-153, 6 sections par guide, densité d'accents 0,148-0,168
+(seuil de détection ascii-strip 0,09 ; **la densité se mesure par mot, pas par lettre**).
+
+**Ratio loyer T3 ÷ score écoles**, calculé comme le palmarès mensuel et cité dans chaque guide :
+Saint-Nazaire 129 € par point (meilleur du lot), Bourges 131, Valence 136, **Le Tampon et Calais 142
+à égalité**, Chambéry 149, Colmar 152, Pessac 164, **Ajaccio 293 — le troisième plus mauvais rapport
+des 57 guides de la série, derrière Marseille (458 €) et Paris (354 €) seulement**.
+
+**Quatre cas valent d'être gardés en tête.** ① **Calais** ouvre à **1 950 € net, le seuil d'entrée le
+plus bas des 57 villes de la série**, avec le m² le moins cher également (1 350 €, soit 87 750 € pour
+65 m²) — et **perd 7 393 habitants entre 2016 et 2022, la contraction la plus forte de la série sur
+cette fenêtre** (−9,9 %, devant Fort-de-France à −7,2 %). Le comparateur qui devrait décider d'un
+projet est interne à la région : **Cambrai affiche le même T3 à 640 € et fait mieux sur les quatre
+axes**, et cinq communes des Hauts-de-France font mieux pour un T3 sous 700 €. ② **Colmar** est la
+**seule du batch dont les quatre axes dépassent tous 6,0**, ce que le composite récompense, et sa
+stabilité démographique apparente (−49 habitants sur onze ans) masque **−2 539 depuis le pic de
+2016**, quatrième recul de la série sur cette fenêtre. ③ **Pessac** est la contrepartie annoncée par
+le guide Mérignac du batch 5 : **T3 et m² strictement identiques (1 080 € et 3 800 €), 1,1 point
+d'écoles de plus** (6,6 contre 5,5), 170e contre 222e. ④ **Ajaccio**, premier guide corse de la
+série, cumule un seuil d'entrée de **3 650 € — supérieur à celui de Bordeaux (3 450 €)** — avec des
+écoles à 4,1/10 ; et **l'insularité change la nature du conseil** : la Corse ne compte que 2 communes
+éligibles (Ajaccio 4,4, Bastia 4,3), donc la mécanique « regardez à trente kilomètres » sur laquelle
+se terminent tous les autres guides de la série n'y a aucun objet. Le guide le dit explicitement.
+
+**Précautions éditoriales reconduites, à ne pas alléger** : ① l'axe écoles mesure **l'offre
+communale**, pas la réussite des élèves ni la qualité du travail des enseignants, et chaque guide le
+redit ; ② **aucune des neuf communes n'a de quartier documenté** dans `data/neighborhoods.ts`, ce que
+les guides disent au lieu de le taire, et qui sert de raison affichée au fait que le site ne publie
+**aucun verdict de sécurité par secteur** ; ce batch ne cite donc **aucun loyer de quartier**, ce qui
+supprime par construction le risque de collision d'échelle des batches 4 et 5 ; ③ sur Calais et
+Ajaccio, les deux dossiers les plus bas du lot sur écoles et sécurité, la copie s'en tient à ce que
+les indicateurs mesurent et **ne dit rien des habitants**. ④ Pour Le Tampon, les contraintes
+réunionnaises du batch 5 sont reprises telles quelles : le score de coût de la vie (4,6/10) décrit
+**l'alimentaire et l'importation, pas le loyer** — un budget reconstruit depuis un loyer
+métropolitain équivalent se trompe de plusieurs centaines d'euros, systématiquement dans le même
+sens ; la **baignade en mer est interdite hors du lagon de la côte ouest et hors bassins surveillés,
+et Le Tampon n'a pas de littoral** ; et la **saison cyclonique impose une garde d'urgence identifiée
+à l'avance**, les fermetures d'établissements se décidant la veille au soir.
+
+**Apport de méthode reconduit du batch 5, la trajectoire démographique réelle**, lue dans
+`data/city-population.json` via `lib/city-population.ts` : Pessac **+13,8 %** (58 743 → 66 874),
+Ajaccio +12,8 %, Le Tampon +9,3 %, Saint-Nazaire +9,0 %, Chambéry +3,1 %, Valence +1,8 % **après un
+creux en 2016, seule trajectoire en V du batch**, Colmar −0,1 % sur onze ans mais −3,6 % depuis 2016,
+Bourges −3,5 %, **Calais −7,3 %**. Chaque guide en tire la même paire d'effets contraires, jamais
+l'un sans l'autre : une commune qui grandit **sature** crèche, périscolaire, restauration et
+dérogations, c'est-à-dire les dispositifs qui remplacent le second adulte ; une commune qui se vide
+**détend son marché locatif** tout en resserrant sa carte scolaire, donc allonge les trajets.
+⚠️ Le seed conserve ses `population` approximatives, qui servent au seuil des 20 000 et aux tris :
+**les deux nombres coexistent volontairement**, ne pas les aligner, et dire lequel est cité. L'écart
+est spectaculaire sur **Chambéry** (seed 68 000, recensement 60 251) et le guide l'explique plutôt
+que de le taire.
+
+**Prochain run parent-solo : le miroir EN** (`single-parent-in-[city]-2026`), l'écart étant de 9.
+Vérifier le compteur des deux côtés avant de suivre cette phrase — consigne des batches 4 et 5, elle
+vaut pour celle-ci. Nommage à surveiller : **le slug EN se dérive du slug de seed tel quel** (règle
+du batch 33 tourisme, confirmée par le batch 33 parent-solo sur `saint-louis-reunion-974`), donc
+**`single-parent-in-le-tampon-2026`** garde son article, comme `things-to-do-in-le-tampon-2026` —
+la page ville résout son guide par `getEnGuide('single-parent-in-' + slug + '-2026')`, et une version
+« propre » du slug rendrait le guide invisible. Attention aussi à
+**`single-parent-in-saint-nazaire-2026`**, à ne pas confondre avec les Saint-X réunionnais déjà
+présents. Pour le batch FR **suivant**, le vivier métropolitain hors Île-de-France et hors communes à
+donnée trop grossière est désormais très réduit : restent **Quimper** (6,1), **Montauban** (6,3),
+**Narbonne** (4,9), **Sète** (4,8) et **Vénissieux** (5,6, à examiner au regard de la règle
+granulaire : écoles 4,5 / sécurité 4,2, au-dessus du seuil d'exclusion mais pas de beaucoup), plus
+les communes réunionnaises non couvertes — Saint-Louis, Saint-André, Saint-Benoît, Saint-Joseph — et
+**Le Lamentin** (4,5) en Martinique. Sous ce vivier, la série approche de sa fermeture naturelle.
 
 ### F58 — série `parent-solo-a-[ville]-2026`, batch 5 (2026-08-23)
 

@@ -8257,6 +8257,51 @@
       "slug": "vacances-monoparentales-valence-2026",
       "title": "Vacances monoparentales à Valence en 2026",
       "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-valence-2026",
+      "title": "Parent solo à Valence en 2026 : 2 750 € net, et le meilleur transport du lot après Pessac",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-colmar-2026",
+      "title": "Parent solo à Colmar en 2026 : la seule du batch sans axe faible, et 2 539 habitants de moins",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-saint-nazaire-2026",
+      "title": "Parent solo à Saint-Nazaire en 2026 : le meilleur ratio du batch, dans la région qui fait mieux ailleurs",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-chambery-2026",
+      "title": "Parent solo à Chambéry en 2026 : le meilleur dossier du batch, et 3 350 € pour y accéder",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-bourges-2026",
+      "title": "Parent solo à Bourges en 2026 : 123 500 € pour 65 m², et une voiture à intégrer au calcul",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-pessac-2026",
+      "title": "Parent solo à Pessac en 2026 : même loyer que Mérignac, un point d'écoles de plus",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-calais-2026",
+      "title": "Parent solo à Calais en 2026 : 1 950 € net, le seuil d'entrée le plus bas de toute la série",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-le-tampon-2026",
+      "title": "Parent solo au Tampon en 2026 : premier de La Réunion sur ce classement, 274e en France",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-ajaccio-2026",
+      "title": "Parent solo à Ajaccio en 2026 : 3 650 € net pour des écoles à 4,1/10",
+      "emoji": "🧑‍🍼"
     }
   ],
   "tags": [
@@ -8811,6 +8856,11 @@
       "count": 5
     },
     {
+      "slug": "famille-monoparentale-drom",
+      "label": "famille monoparentale DROM",
+      "count": 5
+    },
+    {
       "slug": "hauts-de-france",
       "label": "Hauts-de-France",
       "count": 5
@@ -8946,8 +8996,8 @@
       "count": 4
     },
     {
-      "slug": "famille-monoparentale-drom",
-      "label": "famille monoparentale DROM",
+      "slug": "famille-monoparentale-nouvelle-aquitaine",
+      "label": "famille monoparentale Nouvelle-Aquitaine",
       "count": 4
     },
     {
@@ -9078,6 +9128,11 @@
     {
       "slug": "vichy",
       "label": "Vichy",
+      "count": 4
+    },
+    {
+      "slug": "vie-chere-outre-mer-parent-seul",
+      "label": "vie chère outre-mer parent seul",
       "count": 4
     },
     {
@@ -9231,8 +9286,8 @@
       "count": 3
     },
     {
-      "slug": "famille-monoparentale-nouvelle-aquitaine",
-      "label": "famille monoparentale Nouvelle-Aquitaine",
+      "slug": "famille-monoparentale-hauts-de-france",
+      "label": "famille monoparentale Hauts-de-France",
       "count": 3
     },
     {
@@ -9328,6 +9383,11 @@
     {
       "slug": "mobilite-douce",
       "label": "mobilité douce",
+      "count": 3
+    },
+    {
+      "slug": "monoparental-la-reunion",
+      "label": "monoparental La Réunion",
       "count": 3
     },
     {
@@ -9473,11 +9533,6 @@
     {
       "slug": "troyes",
       "label": "Troyes",
-      "count": 3
-    },
-    {
-      "slug": "vie-chere-outre-mer-parent-seul",
-      "label": "vie chère outre-mer parent seul",
       "count": 3
     },
     {
