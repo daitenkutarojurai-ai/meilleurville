@@ -13,6 +13,26 @@
 // CRITICAL: when upgrading a score, keep the SourceKind and `source` string
 // honest. A score derived from a real feed must say so; a proxy must say so.
 // Per CLAUDE.md: "No silent fake data."
+//
+// **Convention** : les 10 scores sortent tous sur 0-10 avec **10 = bon**, et
+// c'est vrai y compris de ceux qui mesurent une nuisance en amont — canicule,
+// bruit et solitude sont **inversés au calcul**, dans ce module, pour que
+// l'affichage n'ait jamais à le refaire. Vérifié par exécution sur les 540
+// villes (bornes réelles : canicule 2,0-10,0 · bruit 5,6-9,8 · solitude
+// 3,3-8,6). Conséquences :
+//   - `ownerScoreColor` peut nourrir la palette globale `scoreColor` sans
+//     inversion, contrairement aux libs de hazard (bruit F41, eau F42…) ;
+//   - le libellé d'une surface doit rester du côté de la qualité (« Calme
+//     sonore », pas « Bruit » ; « Lien social », pas « Solitude »), sinon le
+//     nom et la direction du nombre se contredisent ;
+//   - ne PAS ré-inverser dans `lib/owner-rankings.ts` ni sur une page : le
+//     classement trie du meilleur au pire en lisant `value` telle quelle.
+//
+// Second point, sans rapport avec la direction mais de la même famille : un
+// score dont le `kind` vaut `estimation-regionale` porte la **même constante
+// pour toutes** les villes non couvertes (repli national). Il s'affiche sur la
+// fiche ville avec sa provenance, mais il ne se trie pas — cf. la convention
+// d'honnêteté de `lib/owner-rankings.ts`.
 
 import type { City } from "@/lib/types";
 import type { CityLight } from "@/lib/cities-light";

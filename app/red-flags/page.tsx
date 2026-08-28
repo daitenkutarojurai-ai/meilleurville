@@ -76,6 +76,13 @@ const FLAG_CATEGORIES = [
 ];
 
 
+// `/parent-solo` classe les communes au-dessus de 20 000 habitants (`MIN_POP`
+// dans `app/parent-solo/page.tsx`), pas les 540 du site : le nombre annoncé ici
+// est dérivé du même filtre pour qu'il ne puisse pas dériver de la page qu'il
+// décrit — elle imprime elle-même « N villes classées ».
+const PARENT_SOLO_MIN_POP = 20_000;
+const PARENT_SOLO_RANKED = CITIES_SEED.filter((c) => c.population >= PARENT_SOLO_MIN_POP).length;
+
 // Featured fiches: highest-vigilance cities surface first — that's what users
 // land on /red-flags to read. Limited to top 18 to keep the section scannable.
 function featuredFiches() {
@@ -194,7 +201,8 @@ export default function RedFlagsPage() {
                 villes qui tiennent en parent solo
               </Link>{" "}
               re-priorise coût, transports, écoles et sécurité (mêmes poids que le
-              profil City Match dédié) sur les 540 villes ≥ 20 000 hab., avec le
+              profil City Match dédié) sur les {PARENT_SOLO_RANKED} villes du site
+              qui dépassent 20 000 habitants, avec le
               loyer T3 moyen et le revenu net minimum estimé par ville — les
               red flags budget-énergie et crèche s&apos;y lisent en creux.
             </p>

@@ -115,7 +115,11 @@ export default async function EnRegionDetail({ params }: Props) {
         name: `Best cities in ${regionName}`,
         url: `${EN_BASE}/regions/${region}`,
         numberOfItems: cities.length,
-        itemListOrder: "https://schema.org/ItemListOrderAscending",
+        // `cities` est trié par score global décroissant (voir plus haut) :
+        // `ItemListOrderAscending` annonçait donc l'inverse de la liste publiée,
+        // et la jumelle FR (`app/regions/[region]`) ne déclare aucun ordre.
+        // Retiré plutôt que remplacé, pour que les deux locales disent la même
+        // chose. Cf. docs/integrite-2026-08-28.md.
         itemListElement: cities.slice(0, 25).map((c, i) => ({
           "@type": "ListItem",
           position: i + 1,

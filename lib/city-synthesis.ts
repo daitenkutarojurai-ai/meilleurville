@@ -5,12 +5,20 @@
 // pur agrégat de F44 (env), F47 (santé), F50 (emploi), F52 (cadre de vie),
 // F57 (vélo), F58 (sécurité), F59 (démographie), F60 (services publics).
 //
-// Convention métriques pour la synthèse : tous les composites sont
-// normalisés vers une échelle « 10 = excellent » (orientation positive)
-// pour faciliter le radar et le verdict. Les clusters dont la convention
-// d'origine est « 10 = pire » (env, sécurité, démo, services) sont
-// inversés via `10 - composite`. Vélo (F57) et QoL (F52) sont déjà
-// orientés positif, gardés tels quels.
+// **Convention** métriques pour la synthèse : les 8 axes sont tous rendus sur
+// une échelle « 10 = excellent », pour que le radar et le verdict se lisent
+// dans un seul sens. Trois traitements, à ne pas confondre (relu contre le
+// code le 2026-08-28) :
+//   - inversés via `10 - composite` : **santé** (F47), **emploi** (F50),
+//     **sécurité** (F58), **démographie** (F59), **services publics** (F60) —
+//     leurs moteurs mesurent une difficulté, `10 = pire` ;
+//   - **environnement** (F44) n'est pas inversé ici : le module expose déjà
+//     `healthScore` (`10 = sain`), c'est lui qu'on lit — la forme de référence
+//     du site, cf. le bloc en tête de `lib/environment-index.ts` ;
+//   - **cadre de vie** (F52) et **vélo** (F57) sont déjà orientés positif et
+//     sont gardés tels quels.
+// L'inversion est faite ICI, au site d'affichage. Les moteurs, leurs niveaux
+// et leurs classements gardent la valeur brute.
 
 import type { CityLight } from "@/lib/cities-light";
 import { computeEnvironmentIndex } from "@/lib/environment-index";
@@ -75,7 +83,8 @@ export function computeCitySynthesis(city: CityLight): CitySynthesis {
   const services = computePublicServices(city);
 
   // Normalisation : tout vers « 10 = excellent ».
-  // - env, santé, emploi, sécurité, démo, services : composite « 10 = pire » → inverser
+  // - santé, emploi, sécurité, démo, services : composite « 10 = pire » → inverser
+  // - env (F44) : lire `healthScore`, déjà « 10 = sain » — pas d'inversion
   // - cadre-de-vie (F52) : déjà « 10 = excellent », gardé tel quel
   // - vélo (F57) : déjà « 10 = excellent », gardé tel quel
   const axes: SynthesisAxis[] = [

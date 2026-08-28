@@ -38,7 +38,7 @@ const EN_NICHE_RANKINGS: EnNicheRanking[] = [
     intro:
       "Air quality varies enormously across France. Atlantic and coastal cities benefit from clean westerly airflow; valley cities — particularly Grenoble and the Arve valley — suffer from winter thermal inversions that trap particulates. Score inversely correlated with PM2.5 (lower PM2.5 = higher score). The figure is departmental, not municipal: two cities in the same department carry the same number.",
     methodology:
-      "Score = 9.5 − (PM2.5 µg/m³ − 5) × 0.5. WHO 2021 threshold: >5 µg/m³ already harmful. Source: ATMO France 2023 departmental averages, covering 20 departments — 157 cities are ranked, the other 383 carry a national fallback identical for all of them and are left out rather than sorted on a constant. Future: commune-level data.",
+      "Score = 9.5 − (PM2.5 µg/m³ − 5) × 0.5. WHO 2021 threshold: >5 µg/m³ already harmful. Source: ATMO France 2023 departmental averages, covering 19 departments — 157 cities are ranked, the other 383 carry a national fallback identical for all of them and are left out rather than sorted on a constant. Future: commune-level data.",
   },
   {
     enSlug: "quietest",

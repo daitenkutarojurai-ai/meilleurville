@@ -39,6 +39,23 @@ export function formatSunshineDays(value: number | null | undefined): string {
  * Single source of truth for the 6-tier score colour scale.
  * Documented in CLAUDE.md — every UI surface that paints a score must
  * route through this function so a change here applies everywhere.
+ *
+ * **Convention** : l'échelle est celle du site, `10 = bon` — violet au-dessus
+ * de 7,5, rouge sous 4. Elle vaut donc UNIQUEMENT pour une valeur orientée
+ * « plus c'est haut, mieux c'est ». Trois pièges, tous déjà rencontrés :
+ *
+ *   ① Une valeur de NUISANCE (`10 = pire` : bruit, stress hydrique, risques
+ *      naturels, tension locative, gravité Red Flag) passée telle quelle ici
+ *      ressort **verte au pire de l'échelle**. Une telle surface nourrit
+ *      `scoreColor` avec l'inverse (`hazardColor = (v) => scoreColor(10 - v)`,
+ *      cf. les pages EN bruit / eau / risques) ou utilise une palette par
+ *      niveau (`NOISE_LEVEL_COLOR`, `SAFETY_LEVEL_COLOR`, `housingTension.color`…).
+ *   ② L'échelle est calée sur 0-10 : un score sur 100 (compatibilité,
+ *      `people-like-you`), un pourcentage ou des minutes (`commute-estimate`)
+ *      n'ont rien à y faire sans conversion — 38 minutes y tombent dans le vert.
+ *   ③ Inverser au moteur plutôt qu'ici est l'erreur inverse : tris, niveaux et
+ *      classements doivent garder la valeur brute. L'inversion est toujours au
+ *      site d'affichage.
  */
 export const SCORE_TIERS = [
   // text = darker -600/-700 shades: the -400/-500 hues fail WCAG AA on white

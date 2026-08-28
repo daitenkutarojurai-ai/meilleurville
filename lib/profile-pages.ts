@@ -8,6 +8,25 @@
 // il ne doit jamais tirer une *valeur* de `CITIES_SEED` ni de `data/guides*` :
 // les libs dont il dépend n'en importent que les types, et les coordonnées de
 // référence sont écrites en dur (même parti pris que `lib/distances`).
+//
+// **Convention** : toute entrée de `weights` est lue par `getScoreValue()` en
+// **`10 = bon`**, et le score de profil qui en sort l'est aussi. Deux entrées
+// sortent du cas général, toutes deux volontaires — ne pas les « corriger » :
+//
+//   ① `healthcareAccess` — `lib/healthcare-access` (F47) mesure la DIFFICULTÉ
+//      d'accès (`10 = désert`). La clé nomme une facilité, donc `getScoreValue`
+//      retourne `10 - composite`. L'inversion est ici, au site de lecture,
+//      jamais dans le moteur : les niveaux et le classement santé gardent la
+//      valeur brute.
+//   ② `rentalTension` — `lib/rental-tension` est une NUISANCE (`10 = très
+//      tendu`) et elle entre **sans inversion**, avec un poids positif, sur le
+//      seul profil `investisseurs-locatifs` : pour un bailleur, un marché tendu
+//      est un délai de relocation court, et l'intro du profil le dit. La même
+//      clé sur un profil de locataire serait un bug.
+//
+// Rappel de direction pour le reste : les axes seed, `sportLeisure`,
+// `cyclingMobility`, `investorYield`, `coastalProximity`, `mountainProximity`,
+// `metroAccess` et les owner scores sont déjà orientés `10 = bon`.
 
 import type { CitySeed } from "@/data/cities-seed";
 import type { CityLight } from "@/lib/cities-light";

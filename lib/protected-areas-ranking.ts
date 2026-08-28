@@ -18,6 +18,21 @@
 // valeur, un palier qui ferait déborder la limite n'est pas publié à moitié, et
 // la page dit combien de villes suivaient et à quelle couverture. Le premier
 // palier fait exception — sinon un score grossier rendrait une page vide.
+//
+// **Convention de direction** : ce module ne publie **aucune note sur 10**. Il
+// classe une `coverage` — la part du disque de 15 km sous protection, pondérée
+// par le niveau — c'est-à-dire un **pourcentage, 100 = le plus protégé**. Deux
+// conséquences pratiques :
+//   - ne jamais nourrir `scoreColor` / `scoreHex` avec cette valeur : la
+//     palette du site est calée sur 0-10, une couverture de 47,9 % y tomberait
+//     hors barème (les deux hubs n'utilisent aucune couleur de score, et c'est
+//     volontaire) ;
+//   - la note sur 10 de la composante, elle, vient de `lib/biodiversity`
+//     (`biodiversityProfile(slug).protection.score`, `10 = le plus protégé`,
+//     publiée seulement quand `PROTECTION_CALIBRATED`), et sa `value` est
+//     précisément cette couverture. Une surface qui affiche les deux doit dire
+//     laquelle est laquelle : ce sont deux échelles, pas deux écritures de la
+//     même.
 
 import type { CitySeed } from "@/data/cities-seed";
 import { CITIES_SEED } from "@/data/cities-seed";

@@ -110,7 +110,7 @@ export const OWNER_RANKINGS: OwnerRankingDef[] = [
     metaTitle: "Villes avec la meilleure qualité de l'air en France 2026",
     metaDescription: "Villes françaises au meilleur air : score dérivé du PM2.5 moyen annuel du département (ATMO France 2023), sur les 157 villes couvertes.",
     intro: "Score inversé vs la moyenne PM2.5 du département. Les villes côtières et atlantiques dominent — Grenoble et la vallée de l'Arve restent en bas (inversion d'hiver). La valeur est départementale, pas communale : deux villes d'un même département portent le même chiffre.",
-    methodology: "Score = 9,5 − (PM2.5 µg/m³ − 5) × 0,5. Seuil OMS 2021 : > 5 µg/m³ déjà nocif. Source : ATMO France 2023. La table de PM2.5 couvre 20 départements : 157 villes sont classées, les 383 autres portent un repli national identique pour toutes et sont écartées du barème — les trier reviendrait à trier une constante. À préciser par commune.",
+    methodology: "Score = 9,5 − (PM2.5 µg/m³ − 5) × 0,5. Seuil OMS 2021 : > 5 µg/m³ déjà nocif. Source : ATMO France 2023. La table de PM2.5 couvre 19 départements : 157 villes sont classées, les 383 autres portent un repli national identique pour toutes et sont écartées du barème — les trier reviendrait à trier une constante. À préciser par commune.",
   },
   {
     slug: "securite-femme-seule",

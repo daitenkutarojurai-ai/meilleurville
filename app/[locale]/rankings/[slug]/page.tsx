@@ -52,7 +52,13 @@ export default async function EnRankingDetailPage({ params }: Props) {
         name: en.headline,
         url: `${EN_BASE}/rankings/${slug}`,
         numberOfItems: ranked.length,
-        itemListOrder: "https://schema.org/ItemListOrderAscending",
+        // Pas d'`itemListOrder` : la jumelle FR (`app/classements/[slug]`) n'en
+        // déclare pas non plus, et la valeur qui était ici — `ItemListOrderAscending`
+        // — annonçait aux moteurs une liste du pire au meilleur alors qu'elle est
+        // publiée du meilleur au pire. Le sens de tri restant à trancher au fond
+        // (les 19 classements ont des ex æquo stricts dans leur top 10, cf.
+        // docs/integrite-2026-08-28.md), on retire l'affirmation fausse plutôt
+        // que d'en écrire une autre que le FR ne porte pas.
         itemListElement: top30.slice(0, 25).map((r, i) => ({
           "@type": "ListItem",
           position: i + 1,
