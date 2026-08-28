@@ -877,7 +877,39 @@ Istres, Cambrai).
 
 Page unique, données inline (`SECTIONS: {title, emoji, terms[]}`), `DefinedTermSet` JSON-LD généré
 depuis le tableau — ajouter un terme suffit, rien d'autre à câbler. **Compteur mesuré
-(`grep -c 'term: "'`) : 142 termes, 14 sections** (2026-08-19). Dernière section ajoutée :
+(`grep -c 'term: "'`) : 155 termes, 15 sections** (2026-08-28). ⚠️ Un terme ajouté oblige à
+remonter `GLOSSARY_TERMS_COUNT` (`lib/site-stats.ts`, 142 → 155 ce run) : `npm run integrity`
+recompte la page et **échoue** sinon — le nombre est affiché sur `/outils`, `/recherche`, la carte
+OG et `StaticPageCrossLink`. Dernière section ajoutée : « Transports, voiture et stationnement » 🚉
+— 13 termes (AOM, versement mobilité, prise en charge à 50 % de l'abonnement, forfait mobilités
+durables, vignette Crit'Air, FPS, gratuité des réseaux, changement d'adresse sur la carte grise,
+CMI stationnement, barème kilométrique, stationnement vélo sécurisé en gare, aides à l'achat d'un
+vélo, tarification TER). C'était le trou béant de la page : sur 142 termes, **un seul** parlait de
+mobilité (ZFE), alors que le site porte `/villes/[slug]/transports`, `/villes/[slug]/velo`, la
+série `vivre-sans-voiture-[ville]` et les profils `cyclistes-urbains`, `sans-voiture` et
+`navetteurs-hybrides`. Cinq points de méthode à ne pas diluer : ① **l'entrée ZFE existante a été
+réécrite, pas dupliquée** — la nouvelle section pose « Vignette Crit'Air » et renvoie à la
+définition d'urbanisme, même précédent que l'homonymie APL et que le quotient familial CAF vs
+fiscal ; ② le fait ZFE est daté et à revérifier avant de le durcir : la suppression des ZFE, **votée
+le 15 avril 2026** dans la loi de simplification de la vie économique, a été **censurée par le
+Conseil constitutionnel le 21 mai 2026 comme cavalier législatif** (article 45), donc sur la
+procédure et non sur le fond — le cadre légal tient, mais les calendriers d'exclusion et les
+régimes de sanction sont décidés métropole par métropole et bougent, d'où le renvoi au site de la
+métropole plutôt qu'une liste qui périmerait ; ③ **il n'existe plus d'aide nationale à l'achat d'un
+vélo** — bonus vélo et prime à la conversion ont pris fin le 14 février 2025, ce qui reste est
+local, donc c'est devenu un fait *géographique*, exactement le sujet du site ; ④ les seuls chiffres
+cités sont réglementaires ou publiés et **tous vérifiés en ligne avant rédaction** (600 €/900 €/300 €
+du FMD, 50 % obligatoires et 75 % exonérés jusqu'au 31/12/2026, 135 € et redevance d'acheminement
+2,76 € sur la carte grise, majoration FPS de 50 €, 12 h plancher de la CMI, décret n° 2021-741 et
+ses 1 133 gares à 4 % / 2 % de la fréquentation entrante, 46 % puis 54 % de gares conformes,
+barème kilométrique gelé pour la 4ᵉ année et +20 % électrique, ~40 réseaux gratuits, Montpellier
+21/12/2023) — aucun tarif d'opérateur, aucune moyenne de prime, aucun taux de versement mobilité
+commune par commune (seul le plafond légal est cité, sans le chiffrer au dixième) ; ⑤ deux entrées
+disent explicitement ce qu'un chiffre ne dirait pas : la gratuité d'un réseau **est réservée aux
+résidents et ne dit rien de la fréquence**, et l'obligation de stationnement vélo en gare
+**n'a pas été tenue**, donc elle se vérifie sur place et ne se déduit pas du texte.
+Le titre de la page passe à « Glossaire immobilier, aides, école, santé & mobilité » (52 car.) et sa
+`description` reste à 153. Section ajoutée juste avant :
 « Santé, médecin traitant et accès aux soins » 🩺 — 15 termes (médecin traitant, parcours de soins
 coordonnés, ticket modérateur, participation forfaitaire et franchise médicale, secteur 1/2 et
 OPTAM, ALD, contrat responsable et 100 % Santé, CSS, carte Vitale et Mon espace santé, changer de
@@ -1038,7 +1070,23 @@ page mais aucune URL déclarée. Elle est désormais dérivée de `EXPAT_COUNTRI
 Un profil = une entrée de `PROFILE_PAGES` (slug, emoji, label, meta, intro, `weights`,
 `reasonHint`). Ajouter l'entrée suffit : `/pour-qui`, `/pour-qui/[profil]`, le sitemap et le bloc
 « parfait pour » de `lib/honest-reviews.ts` en dérivent tous les quatre. **Compteur mesuré
-(`grep -c '^    slug: "'`) : 34 profils** (2026-08-17). Dernier ajouté : **`suivi-medical-regulier`**
+(`grep -c '^    slug: "'`) : 34 profils** (2026-08-17).
+⚠️ **Avant d'ajouter un 35ᵉ profil, mesurer son bas de classement — `rankByProfile` trie sur le
+score *arrondi* au dixième**, donc un palier d'ex æquo est coupé en son milieu et les rangs
+qui suivent sont l'ordre d'insertion du seed, exactement le défaut que `lib/owner-rankings.ts`
+interdit ailleurs. Constaté le 2026-08-28 sur un profil candidat « horaires décalés / travail de
+nuit », écarté pour cette raison : **24 villes à égalité à 7,6 au rang 20**, les rangs 15 à 25
+partageant la même note. La cause est en amont, dans les pondérations : `score_bruit`
+(`lib/owner-scores.ts`) est un proxy en **paliers de population** qui rend 9,8 pour à peu près
+toute commune sous 60 000 habitants — ce n'est donc pas un critère mais une constante, et un
+classement bâti dessus ne départage rien (précédent du rang de richesse biodiversité, retiré le
+10/08). Un nouveau profil doit s'appuyer sur un axe **continu** (`metroAccess`, `coastalProximity`,
+`healthcareAccess`, `investorYield`…), et le contrôle à faire avant d'écrire une ligne de prose est
+un `npx tsx` de scratch qui imprime le nombre d'ex æquo à la note du 20ᵉ. Les mesures publiées
+jamais pondérées par un profil, si l'on cherche un cardinal neuf : `lib/city-income.ts` (Filosofi,
+533/540), `lib/property-prices.ts` (DVF, 499/507) et la structure d'âge réelle de
+`lib/city-population.ts` (538/540).
+Dernier ajouté : **`suivi-medical-regulier`**
 (pathologie chronique imposant des rendez-vous réguliers) — le premier profil du fichier dont le
 critère cardinal est l'**accès aux soins**, alors que `lib/healthcare-access.ts` (F47) existait
 depuis longtemps sans qu'aucun des 33 profils ne le pondère, `proches-aidants` compris.

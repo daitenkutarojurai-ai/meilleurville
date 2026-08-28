@@ -7,9 +7,9 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
-  title: "Glossaire immobilier, aides, école & santé",
+  title: "Glossaire immobilier, aides, école, santé & mobilité",
   description:
-    "DPE, LMNP, TAEG, ZFE, APL, MaPrimeRénov', carte scolaire, cat-nat, médecin traitant, ALD, ZIP : les termes utiles pour s'installer quelque part en France.",
+    "DPE, TAEG, ZFE, Crit'Air, APL, MaPrimeRénov', carte scolaire, cat-nat, médecin traitant, FPS : les termes utiles pour s'installer quelque part en France.",
   alternates: pathAlternates("/glossaire", "/glossary"),
 };
 
@@ -95,7 +95,7 @@ const SECTIONS: Section[] = [
     terms: [
       {
         term: "ZFE (Zone à Faibles Émissions)",
-        def: "Périmètre urbain interdisant progressivement les véhicules les plus polluants. Obligatoire pour agglomérations >150 000 hab. depuis 2024 (Lyon, Marseille, Toulouse, Bordeaux, Nantes, Strasbourg, Montpellier, Nice, etc.). Calendrier d'exclusion : Crit'Air 5 → 4 → 3 → 2 selon villes. À vérifier avant achat voiture diesel ancienne ou avant déménagement.",
+        def: "Périmètre urbain où les véhicules les plus polluants sont progressivement interdits, obligatoire dans les agglomérations de plus de 150 000 habitants (Lyon, Marseille, Toulouse, Bordeaux, Nantes, Strasbourg, Montpellier, Nice…). Le dispositif a été donné pour mort au printemps 2026, à tort : sa suppression, votée le 15 avril 2026 dans la loi de simplification de la vie économique, a été censurée par le Conseil constitutionnel le 21 mai 2026 comme cavalier législatif — une censure de procédure au titre de l'article 45 de la Constitution, et non sur le fond. Le cadre légal des ZFE reste donc en vigueur, et la vignette Crit'Air reste exigée pour y circuler. Ce qui varie, et beaucoup, c'est le calendrier d'exclusion des vignettes et le régime de sanction, décidés métropole par métropole et souvent repoussés : à vérifier sur le site de la métropole concernée avant d'acheter un véhicule ancien ou de déménager.",
       },
       {
         term: "PLU (Plan Local d'Urbanisme)",
@@ -669,6 +669,64 @@ const SECTIONS: Section[] = [
       },
     ],
   },
+  {
+    title: "Transports, voiture et stationnement",
+    emoji: "🚉",
+    terms: [
+      {
+        term: "AOM (autorité organisatrice de la mobilité)",
+        def: "La collectivité qui décide du réseau : tracés, fréquences, tarifs, et s'il y aura un tramway ou seulement des bus. C'est presque toujours l'intercommunalité, pas la commune — d'où le fait qu'un réseau s'arrête à la limite de l'agglomération et non à celle de la ville. La loi d'orientation des mobilités (LOM) laissait aux communautés de communes jusqu'au 31 décembre 2020 pour prendre la compétence ; à défaut, la région est devenue AOM à leur place le 1ᵉʳ juillet 2021, l'objectif étant qu'aucun territoire ne reste sans autorité responsable. Avant de signer un bail en périphérie, la question utile n'est donc pas « y a-t-il un bus » mais « quelle AOM couvre cette commune » : c'est elle qui répond de la desserte, et elle seule qui peut la faire évoluer.",
+      },
+      {
+        term: "Versement mobilité",
+        def: "Contribution due par les employeurs d'au moins 11 salariés implantés sur le territoire d'une AOM qui l'a instituée. Collectée par l'Urssaf puis reversée à l'autorité, elle finance l'essentiel de l'exploitation des réseaux urbains ; le taux est fixé librement par l'AOM dans la limite d'un plafond légal qui dépend du type de territoire (le plus élevé, en Île-de-France, dépasse 3 % de la masse salariale), et il est révisé deux fois par an, au 1ᵉʳ janvier et au 1ᵉʳ juillet. C'est la mécanique qui explique une bonne part de la carte des transports français : un réseau se paie d'abord avec les salaires versés sur place. À population égale, une ville qui concentre des emplois peut financer un tramway là où une ville résidentielle tient difficilement un réseau de bus — la qualité de desserte suit l'emploi avant de suivre le nombre d'habitants.",
+      },
+      {
+        term: "Prise en charge à 50 % de l'abonnement de transport",
+        def: "Une obligation de l'employeur, pas un avantage à négocier : l'article L3261-2 du code du travail lui impose de rembourser au moins la moitié du coût de l'abonnement de transport en commun ou de vélo en libre-service utilisé pour le trajet domicile-travail, sur présentation du titre. Elle vaut pour tout le monde — CDI, CDD, apprentis, intérimaires, temps partiel. L'employeur peut aller au-delà : la part facultative reste exonérée de cotisations sociales et d'impôt jusqu'à 75 % du prix de l'abonnement, régime prolongé jusqu'au 31 décembre 2026. À intégrer dans la comparaison de deux villes : un abonnement urbain affiché 600 €/an coûte au maximum 300 € au salarié.",
+      },
+      {
+        term: "Forfait mobilités durables (FMD)",
+        def: "Somme que l'employeur peut verser — facultative, à la différence des 50 % ci-dessus — au salarié qui vient travailler à vélo, en covoiturage, en trottinette électrique ou en autopartage peu émetteur. Exonérée de cotisations et d'impôt jusqu'à 600 €/an dans le secteur privé et 300 €/an dans la fonction publique d'État ; cumulable avec la prise en charge de l'abonnement de transport dans une limite globale de 900 €/an. Beaucoup d'accords d'entreprise l'ont ouvert sans que personne ne le demande : le réclamer suppose d'abord de savoir qu'il existe.",
+      },
+      {
+        term: "Vignette Crit'Air (certificat qualité de l'air)",
+        def: "Pastille qui classe un véhicule d'après sa motorisation et sa norme Euro, obligatoire pour circuler dans une ZFE (définie plus haut, section urbanisme) et lors des épisodes de pollution. Le classement dépend de la date de première immatriculation et de la motorisation, pas de l'état apparent du véhicule, et la vignette se commande sur le site officiel de l'État. Les dérogations existent mais sont locales et datées : la métropole de Lyon a par exemple ouvert aux véhicules Crit'Air 3 une dérogation pour les personnes travaillant entre 21 h et 6 h plus de 52 jours par an, valable du 1ᵉʳ janvier 2025 au 31 décembre 2026. Avant d'acheter un diesel ancien ou de déménager dans une métropole, le calendrier à lire est celui de cette métropole, pas la règle nationale.",
+      },
+      {
+        term: "FPS (forfait post-stationnement)",
+        def: "Depuis le 1ᵉʳ janvier 2018, ne pas payer son stationnement en voirie n'est plus une amende pénale mais un forfait dont chaque commune fixe le montant, rue par rue si elle le souhaite : l'ancien tarif national de 17 € a disparu, et deux villes voisines peuvent afficher des barèmes sans rapport l'un avec l'autre. La contestation passe obligatoirement par un RAPO (recours administratif préalable obligatoire) déposé dans le mois suivant la notification, puis, en cas de rejet ou de silence d'un mois, par la Commission du contentieux du stationnement payant, juridiction spécialisée qui siège à Limoges. Le piège est là : le RAPO n'interrompt pas le délai de paiement de trois mois, et le forfait impayé est majoré de 50 € au-delà.",
+      },
+      {
+        term: "Gratuité des transports et tarification solidaire",
+        def: "Une quarantaine de réseaux français sont aujourd'hui entièrement gratuits, presque tous portés par des agglomérations moyennes : le Niortais en 2017, Dunkerque en 2018, Grand Calais en 2020. Montpellier a franchi le pas le 21 décembre 2023 pour les habitants des 31 communes de la métropole, ce qui en fait la plus grande métropole européenne à l'avoir fait. Deux précisions avant d'en faire un critère de choix : la gratuité est réservée aux résidents et suppose de demander un pass, elle ne couvre donc ni les visiteurs ni les salariés qui habitent hors du périmètre ; et elle est financée par le versement mobilité, pas par la billetterie. Gratuit ne veut pas dire bon : la question qui décide d'un quotidien reste la fréquence.",
+      },
+      {
+        term: "Carte grise : changement d'adresse",
+        def: "Un déménagement oblige à déclarer sa nouvelle adresse sur le certificat d'immatriculation dans le mois qui suit l'installation, en ligne sur l'ANTS ; au-delà, c'est 135 € en cas de contrôle. Pour un véhicule déjà immatriculé au format SIV, les trois premiers changements d'adresse sont gratuits : l'ANTS envoie une étiquette autocollante à apposer sur la carte grise existante. Au quatrième, un titre neuf est édité et facturé au tarif de la redevance d'acheminement, 2,76 € en 2026. La démarche se fait seul sur le site officiel — les intermédiaires payants n'accélèrent rien.",
+      },
+      {
+        term: "CMI stationnement (carte mobilité inclusion)",
+        def: "Donne le droit de stationner gratuitement et sans limitation de durée sur toutes les places ouvertes au public, y compris celles qui ne sont pas réservées aux personnes handicapées. Une commune peut plafonner cette durée, mais jamais en dessous de douze heures. Les places réservées, matérialisées par arrêté du maire, sont destinées aux seuls titulaires de cette carte ou de la carte européenne de stationnement. À regarder avant un déménagement concernant une personne à mobilité réduite : le droit est national et identique partout, mais la densité de places réservées est une décision communale, donc très variable d'une ville à l'autre.",
+      },
+      {
+        term: "Barème kilométrique",
+        def: "Barème publié par l'administration fiscale, croisant la puissance fiscale du véhicule et les kilomètres parcourus, qui sert à déduire ses trajets domicile-travail en frais réels plutôt que par l'abattement forfaitaire de 10 %. Il n'a pas été revalorisé en 2026, pour la quatrième année consécutive — la dernière hausse remonte à 2023 — alors que le prix d'achat et l'entretien d'un véhicule, eux, ont bougé. Les véhicules électriques bénéficient d'une majoration de 20 % du barème. C'est l'outil qui rend chiffrable l'arbitrage central d'un déménagement en périphérie : un loyer plus bas contre trente kilomètres de plus, deux fois par jour.",
+      },
+      {
+        term: "Stationnement vélo sécurisé en gare",
+        def: "Le décret n° 2021-741 du 8 juin 2021, pris pour l'application de la LOM, impose des stationnements vélo sécurisés à 1 133 gares — celles dont la fréquentation dépasse 100 000 voyageurs par an, soit environ 37 % des gares françaises — avec un nombre minimal de places calculé sur la fréquentation quotidienne entrante (4 %, 2 % en Île-de-France) et une échéance fixée au 1ᵉʳ janvier 2024. L'échéance n'a pas été tenue : 46 % des gares concernées atteignaient l'objectif à la date limite, 54 % six mois plus tard. Pour qui envisage un quotidien vélo + train, l'équipement de sa gare se vérifie donc sur place et ne se déduit pas du texte.",
+      },
+      {
+        term: "Aides à l'achat d'un vélo",
+        def: "Le bonus vélo national et la prime à la conversion ont pris fin le 14 février 2025 : il n'existe plus d'aide de l'État à l'achat d'un vélo, électrique ou non. Ce qui subsiste est local — région, département, métropole, parfois commune — donc très inégal d'un territoire à l'autre, avec des montants, des plafonds de ressources et des conditions de résidence qui changent d'une année sur l'autre. C'est un critère rarement regardé au moment de choisir une ville alors qu'il peut valoir plusieurs centaines d'euros, et il se vérifie auprès de la collectivité, pas auprès du vendeur.",
+      },
+      {
+        term: "TER : c'est la région qui fixe les prix",
+        def: "La région est l'autorité organisatrice du transport express régional : elle décide de l'offre, et depuis la réforme ferroviaire de 2014 elle fixe librement les tarifs des lignes qu'elle organise, avec ses propres abonnements et cartes de réduction. Conséquence pratique pour un navetteur : deux trajets de longueur comparable peuvent coûter des sommes très différentes de part et d'autre d'une limite régionale, et un déménagement qui traverse cette limite change la grille tarifaire et pas seulement la distance. Le prix réel se lit sur le site TER de la région d'arrivée, jamais sur une moyenne nationale.",
+      },
+    ],
+  },
 ];
 
 const TERM_COUNT = SECTIONS.reduce((n, s) => n + s.terms.length, 0);
@@ -679,7 +737,7 @@ export default function GlossairePage() {
     "@type": "DefinedTermSet",
     name: "Glossaire immobilier et relocation",
     description:
-      "Termes clés pour acheter, louer, investir, assurer, déménager, scolariser ses enfants ou se faire soigner en France : DPE, LMNP, ZFE, taxe foncière, fibre FTTH, encadrement des loyers, carte scolaire, IPS, garantie cat-nat, médecin traitant, ALD, zonage ZIP et plus.",
+      "Termes clés pour acheter, louer, investir, assurer, déménager, scolariser ses enfants, se faire soigner ou se déplacer en France : DPE, LMNP, ZFE, taxe foncière, fibre FTTH, encadrement des loyers, carte scolaire, IPS, garantie cat-nat, médecin traitant, ALD, zonage ZIP, Crit'Air, forfait mobilités durables, FPS et plus.",
     hasDefinedTerm: SECTIONS.flatMap((s) =>
       s.terms.map((t) => ({
         "@type": "DefinedTerm",

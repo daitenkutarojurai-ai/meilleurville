@@ -34,4 +34,4 @@ export const TAGS_COUNT = TAG_SLUGS.length;
 // pouvait le voir : `tsc` type un nombre, il ne le compte pas.
 // `npm run integrity` recompte désormais les `term: "` de la page et échoue si
 // les deux divergent. Ajouter un terme = mettre ce nombre à jour.
-export const GLOSSARY_TERMS_COUNT = 142;
+export const GLOSSARY_TERMS_COUNT = 155;
