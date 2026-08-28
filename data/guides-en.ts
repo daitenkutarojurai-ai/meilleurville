@@ -31219,6 +31219,342 @@ export const EN_GUIDES: EnGuide[] = [
       "auvergne-rhone-alpes",
     ],
   },
+  {
+    slug: "living-in-the-vaucluse-2026",
+    title: "Living in the Vaucluse: Provence without the postcard",
+    metaTitle: "Living in the Vaucluse 2026: Avignon, Luberon, Carpentras",
+    metaDesc:
+      "Moving to the Vaucluse? Honest 2026 guide to Avignon, the Luberon and Carpentras: rents, €/m², the mistral, 40 °C summers, doctors and who it suits.",
+    category: "moving",
+    emoji: "🌻",
+    readMinutes: 8,
+    publishedAt: "2026-08-28",
+    updatedAt: "2026-08-28",
+    intro:
+      "The Vaucluse is the Provence most foreigners think they already know: Avignon and its broken bridge, Mont Ventoux, lavender rows, the hill villages of the Luberon. Almost all of that is real. What the postcards leave out is that the department contains at least four separate housing markets, that one of them has been priced by second-home buyers since the 1990s, and that the two things which shape daily life here are a wind and a water shortage. This guide walks through where to actually base yourself, what it costs, and what nobody mentions before the second August.",
+    sections: [
+      {
+        heading: "Four Vaucluses, not one",
+        body: "Start by splitting the department, because the four parts have almost nothing in common. Avignon and its ring is the only proper city: a TGV station, a teaching hospital, a university, and a cultural calendar that peaks in July. The Orange-Carpentras-Cavaillon triangle is farming and wine country with mid-size towns of 25,000 to 30,000 people and reachable prices. The Luberon (Apt, Gordes, Bonnieux, Lourmarin, Ménerbes) is the famous bit and the expensive bit. The Haut-Vaucluse around Vaison-la-Romaine and Valréas is rougher, emptier, cheaper, and has the thinnest medical cover. Which of the four you pick determines your budget, whether you can live without a car, and whether your village has a school in five years. Deciding between them is the single most useful thing you can do before you look at a single property listing.",
+      },
+      {
+        heading: "Avignon: the pivot, and the two-station trap",
+        body: "Avignon holds just over 90,000 people and is the practical base for anyone who needs a hospital, a university or a fast train. Paris is 2h40 away, Lyon an hour, Marseille around 35 minutes. Our reference figures for the city are a T2 (one-bedroom) at €750 a month, a T3 at €1,000, and roughly €3,000/m² to buy, with wide swings by quarter. One thing to get right before you book viewings: Avignon has two stations. Avignon TGV sits outside the city to the south and is where the high-speed trains stop; Avignon Centre is next to the walls and is where the regional TER trains run. A short shuttle link joins them, but an address chosen on the assumption that \"the TGV station\" is walkable from the ramparts is a mistake people make every year. The other thing to know is July: the Festival d'Avignon fills every bed in the city, and long lets effectively vanish for the month.",
+      },
+      {
+        heading: "The Luberon: beautiful, and priced for someone else",
+        body: "The Luberon villages are where the English-speaking idea of Provence was manufactured, and they have been shaped by it ever since. Around 30% of the housing stock is second homes. Prices run €4,500 to €6,000/m² for ordinary property and past €8,000/m² for anything with a view and a pool, and year-round rentals are scarce because owners make more from seasonal lets. The social consequence is the part buyers underestimate: in January a good number of these villages are shuttered, the restaurants are closed, and the school is down to a single mixed class. Apt is the exception and the practical choice, a working town of around 12,000 with a market, services and reference figures of €740 for a T2 and about €2,600/m² to buy. The Luberon works beautifully for well-off retirees, high-earning remote workers and gîte owners. It works badly for young families on ordinary incomes and for anyone who needs a social life between November and March.",
+      },
+      {
+        heading: "Carpentras, Orange and Cavaillon: the sensible middle",
+        body: "This is where most people who move here for good end up. Carpentras (around 29,000) has the biggest Friday market in Provence, a live high street, a 25-minute TER link to Avignon and Mont Ventoux on its doorstep for cyclists; our references are €680 for a T2 and about €2,200/m². Orange (around 30,000) carries a UNESCO-listed Roman theatre and triumphal arch, runs an opera festival in the ancient theatre each summer, and sits at similar prices, €690 for a T2 and about €2,400/m². Cavaillon is the cheapest of the three, visibly post-industrial, but strategically placed between Avignon and Aix with both the A7 and a TER line. None of these towns is picturesque in the Luberon sense. All three let you live in Provence on a normal income, which the Luberon does not.",
+      },
+      {
+        heading: "The mistral, the heat and the water",
+        body: "Three climate facts should go into your decision, not be discovered afterwards. The mistral, the cold north wind funnelled down the Rhône valley, blows 100 to 130 days a year, averages around 50 km/h with gusts over 100, and often runs for three to nine days at a stretch. Residents from elsewhere consistently report it wears on them; local building orientation exists precisely to hide from it. Summer heat is the second: Avignon recorded 42.9 °C in 2023, and older housing here has thick walls but rarely air conditioning, so shutters, orientation and a shaded courtyard are functional requirements rather than charm. Third, water. The department has been under drought restriction orders from June to October most years since 2022. If you buy rural property with a well or borehole, check its legal status and which aquifer it draws on, because much of the Vaucluse sits on a karst system that responds fast to a dry winter. Autumn brings the opposite risk: intense Cévennes rain events and flooding in the Sorgue and Coulon valleys.",
+      },
+      {
+        heading: "Healthcare, transport and who it suits",
+        body: "Medical density in the Vaucluse runs at about 102 doctors per 100,000 residents against a national figure near 110, and specialists are concentrated in Avignon: four to six months is a normal wait for cardiology or dermatology, and paediatrics is stretched across the whole department. Register with a médecin traitant (your named GP, which the health system routes everything through) as your first administrative act, not your tenth. On transport, the Paris-Avignon-Marseille high-speed spine plus the TER lines to Carpentras and Orange make car-free life realistic in Avignon, awkward in Carpentras or Orange, and impossible in the villages. Cycling is excellent along the Rhône on the ViaRhôna route and genuinely dangerous on the narrow departmental roads elsewhere. Honest summary: the Vaucluse suits remote workers and active retirees who want real Provence and will take the wind and the heat as the price. It suits families on average incomes only in the middle towns. And Avignon carries a real security problem concentrated in specific quarters, ranking fifth among French cities for offences against the person per resident in the 2024 interior-ministry statistics, which is worth checking street by street rather than dismissing or exaggerating.",
+      },
+    ],
+    relatedCities: ["avignon", "carpentras", "orange", "apt"],
+    tags: ["living in the vaucluse", "luberon expat", "moving to france", "avignon", "provence-alpes-cote-d-azur"],
+  },
+  {
+    slug: "living-in-the-gard-2026",
+    title: "Living in the Gard: Roman Nîmes, Uzès and the Cévennes",
+    metaTitle: "Living in the Gard 2026: Nîmes, Uzès, Alès Expat Guide",
+    metaDesc:
+      "Moving to the Gard? Honest 2026 guide to Nîmes, Uzès and Alès: property prices, 2,700 hours of sun, flash-flood risk, ferias and who the department suits.",
+    category: "moving",
+    emoji: "🏛️",
+    readMinutes: 8,
+    publishedAt: "2026-08-28",
+    updatedAt: "2026-08-28",
+    intro:
+      "The Gard is the cheap end of the French Mediterranean, and it is cheap for reasons that are worth understanding rather than ignoring. You get around 2,700 hours of sunshine a year, one of the densest concentrations of Roman monuments outside Italy, the Cévennes on one side and the Camargue on the other, and property prices a fraction of what the same light costs on the Côte d'Azur. You also get a prefecture with a genuine safety problem and a flash-flood regime that has a name of its own. Here is the honest version.",
+    sections: [
+      {
+        heading: "Where the Gard is, and why it costs less",
+        body: "The Gard sits in Occitanie, between the Rhône and the Cévennes foothills, with Nîmes as its prefecture, Alès in the old coalfield to the north-west, and Uzès in the limestone garrigue between them. The Mediterranean is close but not quite on the doorstep: Palavas and the Petite Camargue beaches are about half an hour from Nîmes. What makes prices lower than in the Vaucluse next door or the Hérault to the south is not a defect in the landscape. It is that the Gard has less second-home demand, weaker average incomes, and a prefecture whose reputation has kept buyers away. Montpellier, 50 minutes down the A9, is the metropolitan area a lot of Gard residents actually use for work, flights and specialist medicine, and it is worth thinking of the two together.",
+      },
+      {
+        heading: "Nîmes: Rome, ferias, and an honest safety problem",
+        body: "Nîmes has the best-preserved Roman amphitheatre in France, the Tour Magne, and the Maison Carrée, a first-century temple that UNESCO added to the World Heritage list in September 2023. The TGV reaches Paris in about 2h45. Our reference figures are €720 for a T2, €960 for a T3, and roughly €2,800/m² to buy. Two things a newcomer should know. First, the ferias in May and September are not a tourist show; they are the city's civic calendar, and they include corridas in which bulls are killed, which visitors from countries where that is unthinkable should decide about before signing a lease rather than after. Second, Nîmes scores 3.9 out of 10 on our safety measure, among the weaker figures on this site. That reflects real, geographically concentrated problems rather than a city-wide state of siege, but it means neighbourhood choice here matters more than in most French cities, and a viewing at 10 p.m. tells you more than one at 11 a.m.",
+      },
+      {
+        heading: "Uzès and Sommières: the expensive charm",
+        body: "Uzès is a town of about 8,000 that has been attracting wealthy French buyers, artists and foreign residents since the 1980s, and it prices accordingly: roughly €3,000 to €5,000/m², which is high for the Gard and still modest for what it is, the first duchy of France with a ducal castle, a cathedral and a Saturday market that people drive an hour for. Nîmes is 25 km away. Sommières, a listed medieval town on a Roman bridge between Nîmes and Montpellier, is the other one that has been discovered: Lawrence Durrell lived and wrote there, the Pic Saint-Loup vineyards are close, and property runs about €2,000 to €2,800/m². Both are lovely and both are places where you will be one of several English speakers on the street, which some people want and others move to France specifically to avoid.",
+      },
+      {
+        heading: "Alès, the Cévennes and the Pont du Gard villages",
+        body: "Alès, a town of around 42,000, was the capital of the Gard coalfield and has spent thirty years converting itself into green industry and tourism, with a renovated centre, the Bambouseraie bamboo park nearby and the Cévennes national park on its doorstep. It is the cheapest real town in the department: €520 for a T2 and about €1,600/m² to buy, which in southern France buys an entire different life. West and north of it, Le Vigan, Sauve and Quissac put you into the Cévennes proper at prices that read like a misprint. In the other direction, the villages around the Pont du Gard aqueduct, Vers-Pont-du-Gard and Remoulins, let you live a few kilometres from a UNESCO site among vines and olives for roughly €1,500 to €2,200/m². The trade-off in all of these is identical: no public transport worth the name and a long drive to a specialist.",
+      },
+      {
+        heading: "The épisode cévenol, and why it belongs in your search",
+        body: "This is the one risk that should change how you look at property here. An épisode cévenol is what happens when warm, wet Mediterranean air is forced up against the Cévennes: rainfall that elsewhere would fall over a month arrives in a day, and the small dry riverbeds of the garrigue become torrents within an hour. It is a September-to-November phenomenon, it is well documented in the Gard, and the flooding of September 2002 remains the reference event locally. Practically, this means two acronyms. The PPRI is the commune's flood-risk plan, which tells you what may be built where and how. The état des risques, generated from the ERRIAL service, is a document the seller or landlord must give you and which lists the natural risks attached to a specific address. Read both before you commit, ask whether the ground floor has flooded, and treat a bargain in a valley bottom as a question rather than an opportunity. Insurers here are not naive about this, and neither should you be.",
+      },
+      {
+        heading: "Getting around, and who the Gard suits",
+        body: "Nîmes is the transport hub: TGV to Paris and Marseille, a TER network, and Montpellier airport around 45 minutes away for European flights. Alès has a rail link to Nîmes; almost everywhere else assumes a car, and in the Cévennes it assumes a car you do not mind driving on hairpins in winter. The Gard is a strong fit for three groups. Remote workers on outside income get Mediterranean light at Occitan prices, which is the clearest arbitrage on this coast. Retirees who want heat, heritage and a market town without Provence pricing do well in Uzès, Sommières or the Pont du Gard villages. Buyers renovating stone property get the best raw material to money ratio in the south. It suits you badly if you need a dense local job market, if you cannot drive, or if the combination of summer heat, autumn storms and a prefecture with real security problems is going to grate. The Gard rewards people who choose their commune carefully and punishes people who buy the light and ignore the map.",
+      },
+    ],
+    relatedCities: ["nimes", "ales", "montpellier"],
+    tags: ["living in the gard", "gard expat", "moving to france", "nimes", "occitanie"],
+  },
+  {
+    slug: "living-in-gascony-the-gers-2026",
+    title: "Living in Gascony: the Gers, France's slowest department",
+    metaTitle: "Living in the Gers 2026: Gascony Expat Guide",
+    metaDesc:
+      "Moving to the Gers? Honest 2026 guide to Auch, Condom and Lectoure: property from €1,000/m², 2,000 hours of sun, no motorway, no TGV, and who it suits.",
+    category: "moving",
+    emoji: "🦆",
+    readMinutes: 8,
+    publishedAt: "2026-08-28",
+    updatedAt: "2026-08-28",
+    intro:
+      "The Gers is the part of France that never industrialised, never got a motorway, and never quite emptied out. It is hills, sunflowers, armagnac, duck, bastide villages and Saturday markets, an hour west of Toulouse and an hour and a half north of the Pyrenees. Property is among the cheapest in the French south, sunshine runs past 2,000 hours a year, and there is a long-established community of British, Dutch and Parisian incomers. It also has effectively no public transport, no high-speed rail, and a thin medical map. If you can drive and your income comes from elsewhere, that trade is one of the best in France. If not, it is a hard place to live.",
+    sections: [
+      {
+        heading: "What Gascony actually is",
+        body: "Gascony is a historic region rather than an administrative one, and the Gers is its heart: a department of rolling hills between the Garonne and the Adour, with no city, no motorway crossing it, and a population spread across small bastide towns founded in the thirteenth century. Administratively it belongs to Occitanie. Culturally it belongs to the south-west: rugby, foie gras, armagnac and a genuine tradition of eating slowly and at length. The nearest metropolitan area is Toulouse, roughly an hour from Auch, which is where the airport, the teaching hospitals and the jobs are. Everything in this guide assumes you will drive there several times a year, and that you understand you are moving to countryside, not to a small town with countryside nearby.",
+      },
+      {
+        heading: "Auch: the capital, and the only real town",
+        body: "Auch has around 22,000 residents and is the only place in the Gers with a full set of services: a hospital, secondary schools, supermarkets, a cinema, a proper high street. Its Gothic cathedral holds a set of carved wooden choir stalls and Renaissance stained glass of genuinely museum quality, and the Thursday market is one of the liveliest in the south-west. Toulouse is about an hour away. Our reference figures for Auch are €480 a month for a T2, €640 for a T3, and roughly €1,500/m² to buy, which puts it among the cheapest prefectures in the French south, and it scores 8.0 out of 10 on our cost-of-living measure and 7.5 on safety. If you want the Midi at the price of rural Normandy and you still want a hospital within fifteen minutes, Auch is the answer to that question.",
+      },
+      {
+        heading: "Condom and Lectoure: armagnac, pilgrims and €1,000/m²",
+        body: "Condom, in the north of the department, is the armagnac town: cellars, producers, a cathedral and seventeenth-century townhouses. It is also a stage on the GR65, the Via Podiensis branch of the Camino de Santiago, so from spring to autumn there is a steady traffic of walkers from all over the world through a town of 6,800 people. Property runs roughly €1,000 to €1,500/m², our reference rent for a T2 is €510, and Condom scores 8.6 out of 10 on safety, one of the highest figures on this site. Lectoure sits on a ridge with a 360-degree view over the Gascon hills and, on a clear day, the Pyrenees; it has thermal baths, a Gallo-Roman museum, and property from about €900/m². Both are beautiful, both are quiet in a way that is either the point or the problem, and neither has a train.",
+      },
+      {
+        heading: "The numbers: what your money buys",
+        body: "The Gers is one of the few places in France where the standard European expat calculation still works in your favour without compromise on climate. A T2 rental in the prefecture is under €500 a month. A village house needing work is routinely under €100,000. A restored farmhouse with land, the kind of property that costs €800,000 in the Dordogne and well over a million in Provence, is a different order of magnitude here. What you are buying, in effect, is the difference between a department that tourism found and one it did not. The costs that offset this are real and should be budgeted: a car per adult, higher heating bills in old stone, and the fact that any significant renovation means finding artisans in a thin local market where good ones are booked months ahead. Fibre has been rolling out steadily but coverage is uneven commune by commune, so check the specific address rather than the department, and budget for a 4G router as a fallback if you work online.",
+      },
+      {
+        heading: "No motorway, no TGV, no bus",
+        body: "This deserves its own section because it is the thing that decides whether the Gers works for you. There is no high-speed rail station in the department and public transport between villages is close to non-existent. In practice everything within the Gers is under thirty minutes by car, which is genuinely convenient, but only if you drive. Two consequences follow. First, a household here needs one car per adult, and you should price that in from the start rather than discovering it. Second, teenagers are stranded: this is the standard complaint of incoming families with children between twelve and eighteen, and it is not solvable locally. For a retired couple, a remote-working household, or anyone whose social life is built around neighbours and markets rather than a city centre, none of this matters much. For a family with adolescents or a single person without a licence, it is close to disqualifying.",
+      },
+      {
+        heading: "Who it suits, and the honest downsides",
+        body: "The Gers works exceptionally well for three profiles. Retirees on a French or foreign pension get sunshine, safety, food and a low cost base, and the medical situation in Auch is adequate even if specialists mean a trip to Toulouse. Remote workers with outside income get the largest gap between quality of life and outlay available in the French south. Renovators get stone at prices that make the maths work. The honest downsides: the local job market is agricultural, artisanal and public-sector, so if you need salaried employment locally, look hard before you commit. Winters are grey and quiet in a way that surprises people who visited in July. Medical density is thin outside Auch and getting a médecin traitant, the named GP the French system routes everything through, can take persistence. And the summer festivals, above all Jazz in Marciac, briefly turn the department into somewhere very busy before it goes back to being the emptiest quarter of the Midi.",
+      },
+    ],
+    relatedCities: ["auch", "condom"],
+    tags: ["living in the gers", "gascony expat", "moving to france", "auch", "occitanie", "rural france"],
+  },
+  {
+    slug: "living-in-the-landes-2026",
+    title: "Living in the Landes: pine forest, Atlantic surf, low prices",
+    metaTitle: "Living in the Landes 2026: Dax, Mont-de-Marsan, Hossegor",
+    metaDesc:
+      "Moving to the Landes? Honest 2026 guide to Dax, Mont-de-Marsan and the surf coast: rents, €/m², forest fire risk, rip currents and who it suits.",
+    category: "moving",
+    emoji: "🌲",
+    readMinutes: 8,
+    publishedAt: "2026-08-28",
+    updatedAt: "2026-08-28",
+    intro:
+      "The Landes is the emptiest department in mainland France, and the least written about. It has 106 km of Atlantic coast that is almost entirely undeveloped, the largest planted forest in western Europe covering about 70% of its surface, a spa town that treats more patients than anywhere else in the country, and prices roughly half those of the Basque Country an hour to the south. Relocation guides skip it because it is neither a metropolis nor a mass-tourism destination. That is usually an argument for it rather than against.",
+    sections: [
+      {
+        heading: "The emptiest department in mainland France",
+        body: "Only French Guiana has a lower population density. The Landes covers a large, flat area of pine forest between the Gironde estuary and the Basque Country, with the ocean on one side and the Gers on the other. There is no big city: Mont-de-Marsan, the prefecture, has around 32,000 residents and Dax around 21,000, and everything else is small. The identity is Gascon rather than Basque, and it shows in bullfighting, in pelota courts in most villages, and in a calendar of local fêtes that are a serious part of the social year. What newcomers usually get wrong is scale. The forest means distances that look short on a map take longer than expected, and it means that outside the towns and the coast strip you are living in a working forestry landscape, not a park.",
+      },
+      {
+        heading: "Mont-de-Marsan and Dax: the two towns",
+        body: "Mont-de-Marsan sits where two rivers named the Douze and the Midou meet, has a strong sculpture museum in the Despiau-Wlérick, and runs on three things: the 118 air base, the Landes food industry (foie gras, Label Rouge poultry) and public administration. Our reference figures are €550 a month for a T2 and about €1,900/m² to buy. Dax is the more distinctive of the two: it is the most-visited spa town in France, with around 70,000 patients a year coming to treat rheumatic conditions in warm mud from the Adour. That gives it an older population but also a real year-round economy, active bullrings and a good position, roughly 45 minutes from Pau, 35 from Bayonne and an hour and a quarter from Bordeaux. References for Dax are €580 for a T2 and about €2,200/m². Neither town is glamorous. Both are functional, cheap and quietly liveable.",
+      },
+      {
+        heading: "The coast: Biscarrosse to Hossegor, and the price step",
+        body: "The Landes coast runs from the Bassin d'Arcachon down to Capbreton and Hossegor at the Basque border, and the price gradient along it is steep. Biscarrosse, which has both a lake and the ocean, is the northern anchor: €780 for a T2 and about €2,900/m². Mimizan, a family surf town, runs around €3,200/m². Hossegor at the southern end is a different market entirely, one of the best-known beach breaks in world surfing and priced accordingly at about €5,500/m² with T2 rents near €990. The useful point is that between those endpoints, in Lit-et-Mixe, Vieux-Boucau and the smaller communes, the Landes coast is still a place where families buy a main residence rather than a holiday home, which is no longer true of the Basque coast an hour south. Commuting is realistic: Bordeaux is about 90 minutes from the northern coast, Bayonne 45 to 60 minutes from the southern.",
+      },
+      {
+        heading: "The forest is a crop, and it burns",
+        body: "The Landes de Gascogne forest is the largest planted forest in western Europe, roughly a million hectares, sown from the nineteenth century onward to drain what had been marshland. It is a maritime-pine monoculture managed for timber, not an ancient woodland, and understanding that changes how you read it: the clear-cuts, the straight rows and the machinery are the point of the landscape, not a violation of it. It also burns. The exceptional fires of summer 2022 destroyed more than 30,000 hectares of this massif, concentrated on the Gironde side at Landiras, La Teste-de-Buch and Saumos, and required tens of thousands of precautionary evacuations. If you buy near or in the forest, three checks are not optional: whether the plot carries an obligation légale de débroussaillement (a legally enforceable duty to clear vegetation around buildings), how the access road works for an evacuation, and what your insurer says about fire cover in that commune. This is a risk to manage, and it is managed by most people who live here, but it is not a risk to discover in July.",
+      },
+      {
+        heading: "The ocean: flags, baïnes and the rule that keeps you alive",
+        body: "The Landes coast is a long, straight, exposed Atlantic beach with a powerful shore break and no reef or headland to break the swell, and it kills swimmers every summer. The mechanism has a local name: baïnes are the temporary sandbank pools that form between the beach and the first bar, and the channel that drains them pulls hard out to sea on a falling tide. It is invisible from the sand and it is stronger than a strong swimmer. The rule that keeps you safe is simple and non-negotiable, and it is worth stating plainly for anyone arriving from a country with gentler water: swim only at a supervised beach, only between the blue flags, and only when the flag is green or yellow. A red flag means the beach is closed and swimming there is an offence, not a personal risk assessment. Surf schools here are excellent and know the coast; use one before you go out alone.",
+      },
+      {
+        heading: "Who it suits, and what is missing",
+        body: "Three profiles do well in the Landes. Remote workers who wanted the Basque Country and cannot afford it get the same ocean, the same surf and the Pyrenees an hour away for roughly half the money. Families leaving a big metropolis get space, low crime, real nature and schools at a human scale. Active retirees get spa treatment, gastronomy and a mild climate without a resort price tag. And the food is a genuine argument rather than a cliché: this is the department behind the best-known French foie gras, Label Rouge poultry, and the white asparagus of the sand country, and buying at markets and farm gates measurably lowers a household food bill. What is missing is equally clear. There is no tech or startup scene. There is no direct high-speed rail from the inland towns. Cultural provision is small-town, not metropolitan. And the flatness and the endless pines, which some people find restful, others find monotonous by the second winter. Visit in February before you decide.",
+      },
+    ],
+    relatedCities: ["mont-de-marsan", "dax", "biscarrosse", "hossegor"],
+    tags: ["living in the landes", "landes expat", "moving to france", "dax", "nouvelle-aquitaine"],
+  },
+  {
+    slug: "living-in-the-vendee-2026",
+    title: "Living in the Vendée: Atlantic coast, bocage and actual jobs",
+    metaTitle: "Living in the Vendée 2026: Les Sables, La Roche, Challans",
+    metaDesc:
+      "Moving to the Vendée? Honest 2026 guide to La Roche-sur-Yon, Les Sables-d'Olonne and Challans: rents, €/m², 2,100 hours of sun, jobs and who it suits.",
+    category: "moving",
+    emoji: "🌊",
+    readMinutes: 8,
+    publishedAt: "2026-08-28",
+    updatedAt: "2026-08-28",
+    intro:
+      "The Vendée is the part of Atlantic France that has been quietly winning for a decade. It gets about 2,100 hours of sunshine a year, the same order as Bordeaux and unusual this far north. It has a genuinely dense fabric of family-owned manufacturers, so unlike most attractive rural France there are salaried jobs here that are not tourism or public sector. And it still has beaches, a bocage of hedged fields, and the Marais Poitevin wetlands. The catch is that everyone has noticed, that the coast now prices like it, and that August is not a normal month.",
+    sections: [
+      {
+        heading: "Where the Vendée is, and why people keep arriving",
+        body: "The Vendée is the southern department of the Pays de la Loire region, below the Loire estuary and above La Rochelle, with Nantes an hour north for its airport and its big-city functions. It divides into three: a coast of long sandy beaches and resort towns, an inland bocage of hedgerows and small industrial towns, and the marshland of the Marais Breton in the north and the Marais Poitevin, the so-called Green Venice, in the south-east. Since 2020 it has absorbed a steady flow of arrivals from Paris, Lyon and Bordeaux, and the reasons stack up: sun, sea, a working economy, and property that was still reasonable when they started arriving. It is also, culturally, a conservative and family-centred department with a strong local identity, which some newcomers find warm and others find closed. Both reports are accurate; it depends on whether you join things.",
+      },
+      {
+        heading: "La Roche-sur-Yon: the working prefecture",
+        body: "La Roche-sur-Yon has around 57,000 residents and an unusual origin: Napoleon had it laid out on a grid in 1804 to hold a rebellious region, which is why the centre looks nothing like a Breton or Poitevin old town. That has historically made it unloved and is now making it good value, because the centre has been steadily improved, there is a tram-style bus network, and the local economy in food processing and healthcare actually employs people. Our reference figures are €600 a month for a T2, €800 for a T3 and about €2,100/m² to buy, and the city scores 7.0 out of 10 overall on this site. The beaches are around 45 minutes away. If you need a salaried job in the Vendée and want to be able to reach the coast on a Saturday without paying coastal prices to sleep, this is the obvious base, and it is the one most incomers overlook because it is not pretty on a first pass.",
+      },
+      {
+        heading: "Les Sables-d'Olonne: a resort that lives all year",
+        body: "Les Sables-d'Olonne, around 45,000 people, is the exception among French seaside towns in that it does not shut in October. It has a working fishing port, a real high street, a hospital, and it is the start and finish of the Vendée Globe, the solo non-stop round-the-world race, which every four years turns the town into a global sailing venue. Three kilometres of white sand, surf and kitesurf, and a promenade that people actually use in January. Our references are €790 for a T2 and about €3,500/m² to buy, and sea-view property runs far above that, past €6,500/m² at the top. It scores 7.4 out of 10 overall, among the strongest coastal figures on this site. The honest caveat is the summer: the population multiplies, parking becomes a sport, and if you work from home your July and August will be noisier than your brochure suggested.",
+      },
+      {
+        heading: "Challans and Fontenay-le-Comte: the affordable inland",
+        body: "Twenty-five minutes back from the sea, the arithmetic changes completely. Challans, around 21,000 people, is the market town of the northern bocage, known for its Label Rouge duck and a Tuesday market that is a social institution: our references are €640 for a T2 and about €2,100/m². It is where a lot of families end up who wanted the coast and did the maths. Fontenay-le-Comte, around 14,000, is the quiet surprise: a Renaissance town of sixteenth-century townhouses at the gateway to the Marais Poitevin, a Ramsar-listed wetland you explore by flat-bottomed boat under a canopy of pollarded ash. Prices are at the floor, €560 for a T2 and about €1,700/m², and it scores 8.8 out of 10 on safety and 7.5 overall, the strongest combination in this guide. Neither town has a beach. Both have one within half an hour, which for a main residence is usually the better trade.",
+      },
+      {
+        heading: "Work, schools and the July problem",
+        body: "Three practical points. On work, the Vendée genuinely has a labour market: it is built on family-owned manufacturing, food processing, boatbuilding and, at scale, tourism, with the Puy du Fou historical theme park in the east one of the largest single private employers in the department. That is rare among attractive rural French departments and it is the main reason the Vendée has kept its young people. On schools, the department has an unusually high share of pupils in private Catholic schools under state contract, which are inexpensive and academically ordinary but a cultural fact worth knowing before you arrive rather than after. On seasonality: the Vendée is one of France's biggest holiday destinations, its school-holiday rhythm follows the Nantes académie in zone B, and the coast in July and August is a different place from the coast in May. Rent for a summer before you buy on the seafront. Everyone who did says it was the useful decision.",
+      },
+      {
+        heading: "Who it suits, and the honest downsides",
+        body: "The Vendée is one of the easiest recommendations in this series for families: sun, sea, low crime, a real job market and schools that work. It suits remote workers well too, provided they base inland and treat the coast as a weekend. Retirees do well on the coast if the budget stretches and very well inland if it does not. The downsides are honest and short. The coastal property market has run hard and a sea view now costs Riviera-adjacent money. There is no TGV to the Vendée itself, so Paris means going via Nantes or La Roche-sur-Yon with a change, and Nantes airport is the realistic international link. Winters on this coast are mild but wet and windy, and the flat bocage is not dramatic scenery. And the department's social life is dense but organised around clubs, parishes and associations: if you join them you will have friends within a year, and if you do not, you can live here for five and know nobody.",
+      },
+    ],
+    relatedCities: ["la-roche-sur-yon", "les-sables-d-olonne", "challans", "fontenay-le-comte"],
+    tags: ["living in the vendee", "vendee expat", "moving to france", "les sables-d'olonne", "pays-de-la-loire"],
+  },
+  {
+    slug: "living-in-the-correze-and-limousin-2026",
+    title: "Living in the Corrèze and Limousin: France's cheapest stone houses",
+    metaTitle: "Living in the Corrèze & Limousin 2026: Brive, Tulle, Limoges",
+    metaDesc:
+      "Moving to the Limousin? Honest 2026 guide to Limoges, Brive and Tulle: houses from €80,000, real train times, medical access and the resale question.",
+    category: "moving",
+    emoji: "🌿",
+    readMinutes: 8,
+    publishedAt: "2026-08-28",
+    updatedAt: "2026-08-28",
+    intro:
+      "If your search has reached the point where the number matters more than the postcode, this is where it ends. The Corrèze and the Haute-Vienne hold the best ratio of quality of life to price anywhere in France: green, quiet, safe, with granite and stone houses at figures that read like errors to anyone arriving from a British, Dutch or Californian market. There is a reason the price is low, and it is not that anything is wrong with the landscape. It is distance, demographics and a train that is slower than the brochures suggest. Here is the honest ledger.",
+    sections: [
+      {
+        heading: "What this guide covers, and what it does not",
+        body: "The historic Limousin is three departments: the Haute-Vienne around Limoges, the Corrèze around Tulle and Brive, and the Creuse to the north-east. This guide covers the first two, which between them hold the region's city, its transport and most of its jobs. The Creuse is a genuinely different proposition, emptier, poorer and cheaper again, and it has its own guide on this site; if your budget is under €80,000 and your income is entirely portable, read that one instead. Administratively all three now sit inside Nouvelle-Aquitaine, which is a bureaucratic fact rather than a lived one: nothing about the Limousin resembles Bordeaux or the Basque coast, and the drive to either is long.",
+      },
+      {
+        heading: "The price: what your money actually buys",
+        body: "Across the two departments, property runs roughly €800 to €1,600/m², among the lowest figures in mainland France. In practice that means a village house with a garden between €80,000 and €150,000, and a restored stone farmhouse with three hectares of land between €180,000 and €280,000, the same property that costs around €800,000 in the Dordogne one department west and well past a million in Provence. Rents follow: our reference T2 figures are €600 in Limoges, €580 in Brive and €530 in Tulle. The two costs that surprise people are heating an old stone house through a Limousin winter, which is longer and wetter than the south, and renovation, where the good local artisans are competent and cheaper than elsewhere but booked well ahead. Prices have risen roughly 15% since 2020 on the back of remote-working arrivals, so the window is narrowing rather than closed.",
+      },
+      {
+        heading: "Limoges: a full-size city at small-town prices",
+        body: "Limoges has just over 130,000 residents and a slightly dated reputation that has not caught up with the city. It has a modern tramway-style network, a renovated centre, a genuinely excellent fine arts museum, a university, a teaching hospital, and the porcelain and enamel industries that made its name. Our references are €600 a month for a T2, €800 for a T3 and about €1,600/m² to buy, and it scores 7.1 out of 10 on cost of living. The point is the ratio: this is a city with every urban function you would expect, at prices found elsewhere in towns a tenth its size. For a family that wants hospitals, lycées and a cultural calendar without a metropolitan budget, Limoges is one of the strongest value propositions in France, and it is chronically undersold.",
+      },
+      {
+        heading: "Brive and Tulle: the Corrèze proper",
+        body: "Brive-la-Gaillarde, around 47,000 people, is the liveliest town in the Corrèze: a famous Saturday market, a working commercial centre, an airport with seasonal routes, and rugby as the civic religion, with a professional club that has spent most of its recent history at the top of the French game. References are €580 for a T2 and about €2,000/m². Tulle, the prefecture, is smaller at around 15,000 and sits in a steep, narrow valley of corbelled houses that is genuinely striking; it hosts an internationally known accordion festival, and the gorges of the Dordogne are close. Prices are at the floor, €530 for a T2 and about €1,400/m², and it scores 8.0 on cost and 7.2 overall. Brive is the practical choice, Tulle the atmospheric one. Between and around them, the Corrèze villages, Collonges-la-Rouge, Turenne, Beaulieu, are as beautiful as anything in the Dordogne at a fraction of the money.",
+      },
+      {
+        heading: "The train is slower than you think",
+        body: "This is where relocation write-ups, including some French ones, get it wrong, so it is worth stating carefully. There is no TGV to the Limousin. Limoges and Brive sit on the POLT line, the classic Paris-Orléans-Limoges-Toulouse route served by Intercités trains from Paris Austerlitz, not from Montparnasse or Gare de Lyon. Limoges to Paris is around 3h25 to 3h30 at best. Brive to Paris is around 4h20 to 4h30. Those are real numbers and they should shape your expectations of weekend trips and of visitors. Limoges-Bellegarde airport has long carried seasonal routes to the UK, which is part of why the British presence here is what it is, but airline schedules on small regional airports change from year to year and should be checked rather than assumed. By road, Brive is on the A20 and about two and a quarter hours from Bordeaux or Toulouse. The Limousin is not remote in kilometres. It is remote in journey time, which is the number that matters.",
+      },
+      {
+        heading: "Who it suits, and the resale question",
+        body: "This region suits remote workers with outside income better than almost anywhere in France, and it has known that since 2020. It suits retirees on a fixed pension, for whom the low cost base does the work an investment portfolio would otherwise have to do. It suits renovators. It suits people who genuinely like green, wet, quiet countryside and rivers, and it does not suit people who need heat, coastline or crowds. Two downsides deserve to be said plainly. The first is healthcare: this is an ageing region with thin doctor coverage outside Limoges and Brive, and securing a médecin traitant, the named GP the French system routes everything through, can take real persistence, so make it your first task rather than your tenth. The second is resale. Buying cheap in a department with a shrinking, ageing population means the exit is slower than the entrance; a house here can take a year or more to sell. That is a reason to buy something you want to live in for a long time, not a reason to stay away.",
+      },
+    ],
+    relatedCities: ["limoges", "brive-la-gaillarde", "tulle"],
+    tags: ["living in the limousin", "correze expat", "moving to france", "limoges", "nouvelle-aquitaine", "rural france"],
+  },
+  {
+    slug: "living-in-the-ain-2026",
+    title: "Living in the Ain: Geneva salaries, French prices",
+    metaTitle: "Living in the Ain 2026: Pays de Gex & Geneva Border Guide",
+    metaDesc:
+      "Moving to the Ain? Honest 2026 guide to the Pays de Gex and Geneva cross-border work: rents, €/m², where you pay tax, health cover and who it suits.",
+    category: "moving",
+    emoji: "🐔",
+    readMinutes: 9,
+    publishedAt: "2026-08-28",
+    updatedAt: "2026-08-28",
+    intro:
+      "Most people cross the Ain without stopping, wedged as it is between Lyon, Savoie and Switzerland. That is a mistake, because it contains one of the most specific financial propositions in France: live on the French side of the Geneva border, earn a Swiss salary, and pay French housing costs. Tens of thousands of people do it. It also contains three other places that have nothing to do with that, from a thousand medieval fish ponds to a plastics industry to a Jura vineyard nobody has heard of. This guide covers the cross-border arithmetic first, because that is the part that goes wrong, then the rest of the department.",
+    sections: [
+      {
+        heading: "One department, four separate places",
+        body: "The Ain does not have a centre of gravity. In the north-east, the Pays de Gex is a French salient wedged between the Jura ridge and Lake Geneva, twenty to forty minutes from central Geneva and functionally part of the Geneva metropolitan area. In the middle sits Bourg-en-Bresse, the prefecture, a Burgundy-adjacent market town best known for its poultry. West of that, the Dombes is a plateau scattered with around a thousand medieval fish ponds, one of the richest bird habitats in France and forty to sixty minutes from Lyon. In the south-east, the Bugey is the southern tip of the Jura: gorges, a small AOC vineyard, and Belley as its capital. These are four different housing markets and four different reasons to move, and nothing that is true of one is true of the others.",
+      },
+      {
+        heading: "The Pays de Gex: what a Geneva job costs you in rent",
+        body: "Cross-border workers in the Geneva basin earn Swiss salaries, typically 40 to 60% above the French equivalent for the same role, and the local property market has fully absorbed that fact. Our reference figures for the town of Gex are €1,100 a month for a T2, €1,490 for a T3 and about €5,200/m² to buy, which is Paris-adjacent pricing in a town of 13,000 people; Ferney-Voltaire, right on the airport side of the border, runs around €5,500/m² and Divonne-les-Bains around €6,000/m². Gex scores 7.7 out of 10 overall on this site, the highest figure in this guide, which reflects genuinely good schools, safety, air and mountain access rather than value for money. The two structural advantages are that Geneva airport is effectively local, and that the Jura is on your doorstep. The structural disadvantage is that if you are not a cross-border worker, this market is not priced for you.",
+      },
+      {
+        heading: "Tax: Geneva is the exception, and it catches people out",
+        body: "This trips up nearly everyone, including French sources, so read it carefully. There are two regimes for French residents working in Switzerland. Under the 1983 Franco-Swiss agreement, workers commuting to cantons such as Vaud, Valais, Neuchâtel, Jura, Bern and Basel are exempt from Swiss tax and pay income tax in France. Geneva is not party to that agreement. It operates under a separate 1973 arrangement, and salaries there are taxed at source in Geneva, with Geneva paying compensation to the French communes concerned. Since the Pays de Gex commutes to Geneva, the practical answer for most people reading this is: your salary is taxed at source in Switzerland. You still declare the Swiss income in France on forms 2042 and 2047, and France grants a tax credit equal to the French tax on that income, so you generally owe no additional French income tax on the salary, but the declaration is not optional. One more current rule: the France-Switzerland arrangement lets a cross-border worker do up to 40% of annual working time remotely from France without changing which state taxes the salary, which in practice is around two days a week. Get all of this checked by an accountant who does cross-border files, because the difference between the two regimes is thousands of euros a year.",
+      },
+      {
+        heading: "Health insurance: the three-month choice you cannot undo",
+        body: "The second cross-border decision is health cover, and it has a deadline most arrivals miss. Under the EU-Switzerland free movement agreement, a frontier worker has a droit d'option, a one-off right to choose between Swiss LAMal insurance and the French system. You have three months from the start of the Swiss job to exercise it and notify the competent cantonal authority. If you say nothing, Swiss LAMal is assigned automatically. And once made, the choice is in principle irrevocable: the only reopening grounds are narrow, essentially retiring on a Swiss pension alone, resuming Swiss work after a break, or changing country of residence. The two systems differ substantially in premium structure, in whether children are covered separately, and in where you can be treated, so this is a genuine calculation rather than a formality. Both CLEISS and the national cross-border workers' centre publish comparison tools. Do it in month one, not month four.",
+      },
+      {
+        heading: "Bourg-en-Bresse, the Dombes and the Bugey",
+        body: "Away from the border, the Ain becomes ordinary French value. Bourg-en-Bresse is a mid-size prefecture that scores 6.0 out of 10 on this site, with references of €630 for a T2, €840 for a T3 and about €2,300/m². Its claim to fame is the Bresse chicken, which holds an AOP, the protected designation of origin that is otherwise mostly reserved for wine and cheese, and is raised within thirty kilometres of the town. Lyon is about an hour by TER. The Dombes, between Bourg and Lyon, is genuinely unusual: a plateau of a thousand man-made fish ponds and one of France's best bird-watching areas, with the Parc des Oiseaux at Villars-les-Dombes at its centre, property around €1,600 to €1,900/m², and Lyon reachable by road in forty to sixty minutes. Belley and the Bugey, in the south, give you a small medieval town, a cathedral, a little-known AOC vineyard including the sparkling Cerdon rosé, and about €1,900/m², with Chambéry fifty minutes away and Lyon an hour and a quarter. Oyonnax, in the north, is the heart of France's Plastics Valley and its industrial base is real, with the cheapest housing in the department at around €1,500/m² and €600 for a T2.",
+      },
+      {
+        heading: "Who it suits, and the honest downsides",
+        body: "The Ain is not a lifestyle destination; it is a department of specific niches, and it rewards people who match one of them precisely. If you have a Geneva job offer, the Pays de Gex is close to unbeatable in Europe on the salary-to-cost ratio, provided you do the tax and health-cover homework above. If you are a remote worker who cooks, Bourg-en-Bresse and its covered market are seriously underrated. If you are a naturalist, the Dombes has no equivalent in France. If you are an engineer or technician in materials, Oyonnax and Ambérieu-en-Bugey have real employment at a low cost base. The downsides: the Pays de Gex is expensive, congested at the border crossings, and socially somewhat transient, with a population that turns over as contracts end. Bourg-en-Bresse and the Dombes are flat, grey in winter and quiet. And the department has no unifying identity, so if you are looking for the sense of place that Brittany or Provence hands you on arrival, the Ain will not give it to you.",
+      },
+    ],
+    relatedCities: ["bourg-en-bresse", "oyonnax", "gex"],
+    tags: ["living in the ain", "geneva cross-border workers", "moving to france", "bourg-en-bresse", "auvergne-rhone-alpes"],
+  },
+  {
+    slug: "living-in-the-ardeche-and-drome-2026",
+    title: "Living in the Ardèche and Drôme: sun, space and no trains",
+    metaTitle: "Living in the Ardèche & Drôme 2026: Valence, Aubenas, Die",
+    metaDesc:
+      "Moving to the Ardèche or Drôme? Honest 2026 guide to Valence, Montélimar, Die and Aubenas: rents, €/m², 2,400 hours of sun and the rail problem.",
+    category: "moving",
+    emoji: "☀️",
+    readMinutes: 8,
+    publishedAt: "2026-08-28",
+    updatedAt: "2026-08-28",
+    intro:
+      "The Ardèche and the Drôme face each other across the Rhône, an hour south of Lyon, and they are where a great many French people go when they want the south without paying Provence prices. You get 2,400 to 2,600 hours of sunshine on the river axis, lavender and oak scrub in the south, mountains behind, an organic-farming and alternative-living culture that has been there since the 1970s, and property that is still reachable. The two departments could hardly be more different in one respect, though, and it is a decisive one: one has a TGV station and the other has no passenger railway at all.",
+    sections: [
+      {
+        heading: "Two departments, one river, very different lives",
+        body: "The Rhône is the spine. On its left bank, the Drôme runs from the hills below Lyon down through Valence and Montélimar into the Drôme Provençale, with the Vercors massif and the Diois valleys folded in behind. On the right bank, the Ardèche climbs almost immediately: a department of gorges, chestnut forests, volcanic plateaux and small towns, with no motorway, no airport and no passenger station. As a rule of thumb, the closer you are to the Rhône the more infrastructure and the more jobs you have, and the further you go from it the cheaper and more beautiful things become. Both departments have absorbed decades of arrivals from Lyon and Paris looking for space and sun, and both have a well-established culture of organic farming, small producers and alternative schooling that newcomers either find delightful or find slightly much.",
+      },
+      {
+        heading: "The Rhône corridor: Valence and Montélimar",
+        body: "Valence is the practical capital of the area: around 64,000 residents, a university, a renovated centre, an economy that has picked up markedly, and a TGV station that puts Paris under two hours away. Our reference figures are €680 a month for a T2 and about €2,400/m² to buy, and it scores 7.4 out of 10 on transport, the strongest figure in this guide. Montélimar, half an hour south and best known for nougat, is cheaper and keeps a distinctly Provençal feel: €580 for a T2 and about €2,200/m². This corridor is where the sunshine figures come from, 2,400 to 2,600 hours a year, and it is the compromise most people should look at first: you get the light, the access and the services, and you pay perhaps a third of what the same climate costs an hour and a half south in the Vaucluse or the Var.",
+      },
+      {
+        heading: "The Drôme des Collines and Die",
+        body: "North of Valence, the Drôme des Collines is the semi-countryside that Lyon buys into: Romans-sur-Isère, a shoe-making town with a lively centre, at €550 for a T2 and about €1,900/m²; Tain-l'Hermitage on the river, with the steep Hermitage vineyard above it and the Valrhona chocolate works below; Saint-Marcellin just over the departmental line, with its cheese. All are within about an hour of Lyon and run roughly €2,000 to €2,800/m². East of Valence, up the Drôme valley, Die is something else again: capital of the sparkling Clairette, surrounded by the Vercors and the Diois mountains, with a Saturday organic market and a community of urban incomers that has been settling there since the 1980s. Property runs about €2,000 to €3,000/m². Die is the reference point for families who care about food sourcing, alternative schools and short supply chains, and it is a small, intense, self-selecting place. Visit twice.",
+      },
+      {
+        heading: "The Ardèche: Annonay in the north, Aubenas in the south",
+        body: "Annonay is the northern gateway, 50 km from Lyon and 30 km from Saint-Étienne, an industrial town of paper and textiles that is being revived by Lyonnais priced out of the metropolis. Our references are €570 for a T2 and about €1,400/m², with a cost-of-living score of 7.6. The southern Ardèche is the famous half: the Ardèche gorges, the replica of the Chauvet cave whose original is a UNESCO site, lavender, garrigue and medieval villages such as Largentière and Joyeuse. Aubenas is its service town, with references of €560 for a T2 and about €1,900/m², a nature score of 8.5 and a transport score of 2.7, which is the whole department in two numbers. Houses with land in the southern Ardèche start around €900 to €1,500/m², which is why artisans, artists and retirees have been quietly buying here for thirty years while everyone else looked at Provence.",
+      },
+      {
+        heading: "The Ardèche has no passenger railway. None.",
+        body: "This is not a figure of speech and it is the single most important practical fact about the department. The Ardèche is the only department in mainland France with no passenger station, no motorway and no commercial airport. Scheduled passenger services ended in 1973 when the right-bank Rhône line from Givors to Nîmes closed to travellers; the line still carries freight and occasionally diverted passenger trains, but nothing stops in the department. A reopening to passengers at Le Teil has been studied for years, was pencilled in for 2024, then 2026, and is currently targeted at 2027, with a public consultation on the wider Nîmes-Le Teil reopening held over the winter of 2025-26. Treat it as a project, not a plan you can move house on. Practically: everyone in the Ardèche drives, the nearest usable stations are Valence TGV and Montélimar across the river, and Lyon Saint-Exupéry is the airport. If you cannot drive, the Ardèche is not available to you, and no amount of enthusiasm for the gorges changes that.",
+      },
+      {
+        heading: "Who it suits, and the honest downsides",
+        body: "The Rhône corridor suits people who want southern light with real infrastructure, and Valence in particular is one of the better-value mid-size cities in France for a family that needs a TGV. The Drôme des Collines suits Lyon commuters and hybrid workers. Die and the Diois suit households for whom food, schooling and community are the deciding factors rather than an amenity list. The southern Ardèche suits remote workers, artisans and retirees who want space, quiet and heat for very little money and are content to drive for everything else. The downsides are consistent across all of them. Summers are getting hot and dry, with drought restrictions now routine and wildfire a real concern in the garrigue and chestnut country. Medical coverage thins fast away from Valence. The tourist season transforms the Ardèche gorges from empty to gridlocked between mid-July and mid-August. And the mistral reaches the lower Rhône valley here too, so if you are moving for calm, check which way your valley faces before you sign anything.",
+      },
+    ],
+    relatedCities: ["valence", "montelimar", "annonay", "romans-sur-isere", "aubenas"],
+    tags: ["living in the ardeche", "living in the drome", "moving to france", "valence", "auvergne-rhone-alpes"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

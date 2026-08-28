@@ -7027,6 +7027,46 @@
       "slug": "single-parent-holidays-valence-2026",
       "title": "Single-parent holidays in Valence: the only cheap tier in this series",
       "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "living-in-the-vaucluse-2026",
+      "title": "Living in the Vaucluse: Provence without the postcard",
+      "emoji": "🌻"
+    },
+    {
+      "slug": "living-in-the-gard-2026",
+      "title": "Living in the Gard: Roman Nîmes, Uzès and the Cévennes",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "living-in-gascony-the-gers-2026",
+      "title": "Living in Gascony: the Gers, France's slowest department",
+      "emoji": "🦆"
+    },
+    {
+      "slug": "living-in-the-landes-2026",
+      "title": "Living in the Landes: pine forest, Atlantic surf, low prices",
+      "emoji": "🌲"
+    },
+    {
+      "slug": "living-in-the-vendee-2026",
+      "title": "Living in the Vendée: Atlantic coast, bocage and actual jobs",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "living-in-the-correze-and-limousin-2026",
+      "title": "Living in the Corrèze and Limousin: France's cheapest stone houses",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "living-in-the-ain-2026",
+      "title": "Living in the Ain: Geneva salaries, French prices",
+      "emoji": "🐔"
+    },
+    {
+      "slug": "living-in-the-ardeche-and-drome-2026",
+      "title": "Living in the Ardèche and Drôme: sun, space and no trains",
+      "emoji": "☀️"
     }
   ],
   "tags": [
@@ -7043,7 +7083,7 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 99
+      "count": 107
     },
     {
       "slug": "single-parent-in-france",
@@ -7068,17 +7108,17 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 44
+      "count": 46
     },
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 44
+      "count": 46
     },
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 36
+      "count": 38
     },
     {
       "slug": "grand-est",
@@ -7101,23 +7141,23 @@
       "count": 30
     },
     {
+      "slug": "pays-de-la-loire",
+      "label": "pays de la loire",
+      "count": 27
+    },
+    {
       "slug": "ile-de-france",
       "label": "ile de france",
       "count": 26
     },
     {
-      "slug": "pays-de-la-loire",
-      "label": "pays de la loire",
-      "count": 26
+      "slug": "provence-alpes-cote-d-azur",
+      "label": "provence-alpes-cote-d-azur",
+      "count": 25
     },
     {
       "slug": "international-students",
       "label": "international students",
-      "count": 24
-    },
-    {
-      "slug": "provence-alpes-cote-d-azur",
-      "label": "provence-alpes-cote-d-azur",
       "count": 24
     },
     {
@@ -7331,6 +7371,11 @@
       "count": 6
     },
     {
+      "slug": "rural-france",
+      "label": "rural france",
+      "count": 6
+    },
+    {
       "slug": "south-of-france",
       "label": "south-of-france",
       "count": 6
@@ -7456,13 +7501,13 @@
       "count": 4
     },
     {
-      "slug": "rural-france",
-      "label": "rural france",
-      "count": 4
-    },
-    {
       "slug": "aix-en-provence",
       "label": "aix-en-provence",
+      "count": 3
+    },
+    {
+      "slug": "avignon",
+      "label": "avignon",
       "count": 3
     },
     {
@@ -7518,6 +7563,11 @@
     {
       "slug": "nancy",
       "label": "nancy",
+      "count": 3
+    },
+    {
+      "slug": "nimes",
+      "label": "nimes",
       "count": 3
     },
     {

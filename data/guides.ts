@@ -3558,7 +3558,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Brive-la-Gaillarde : la porte d'entrée la plus accessible",
-        body: "Brive et ses 46 000 habitants forment la ville la plus dynamique du Limousin, avec un pôle TGV (Paris en 3h30, Bordeaux en 1h), un aéroport, des zones d'activités et une vie culturelle active. Le centre-ville est animé, le marché du samedi légendaire et le rugby joue en Top 14. Le prix au m² va de 1 400 à 2 200 €, et les loyers T2 de 480 à 650 €. Pour les actifs qui veulent la « vraie vie de province » sans sacrifier les services d'une ville moyenne bien équipée.",
+        body: "Brive et ses 46 000 habitants forment la ville la plus dynamique du Limousin, avec une gare sur la ligne POLT (Paris-Austerlitz en Intercités, environ 4h20 ; il n'y a pas de TGV en Limousin), un aéroport, des zones d'activités et une vie culturelle active. Le centre-ville est animé, le marché du samedi légendaire et le rugby joue en Top 14. Le prix au m² va de 1 400 à 2 200 €, et les loyers T2 de 480 à 650 €. Pour les actifs qui veulent la « vraie vie de province » sans sacrifier les services d'une ville moyenne bien équipée.",
       },
       {
         heading: "Tulle : la capitale de l'accordéon et des cascades",
@@ -3566,7 +3566,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Limoges : réhabilitation d'une capitale porcelainière",
-        body: "Limoges et ses 130 000 habitants souffrent d'une image un peu désuète, mais la ville s'est considérablement améliorée : tramway moderne, centre-ville rénové, gastronomie reconnue et musée des Beaux-Arts exceptionnel. Le TGV rejoint Paris en 2h10. Le prix au m² reste très bas, entre 1 400 et 2 200 €. C'est une grande ville avec toutes les commodités à prix de petite ville. Pour les familles qui veulent les services d'une grande ville avec les prix d'une ville moyenne.",
+        body: "Limoges et ses 130 000 habitants souffrent d'une image un peu désuète, mais la ville s'est considérablement améliorée : tramway moderne, centre-ville rénové, gastronomie reconnue et musée des Beaux-Arts exceptionnel. Paris est à environ 3h25 en Intercités depuis Paris-Austerlitz (ligne POLT) : le Limousin n'est pas desservi par le TGV. Le prix au m² reste très bas, entre 1 400 et 2 200 €. C'est une grande ville avec toutes les commodités à prix de petite ville. Pour les familles qui veulent les services d'une grande ville avec les prix d'une ville moyenne.",
       },
       {
         heading: "Maisons de caractère : le marché qu'il faut saisir",
@@ -7208,7 +7208,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "La forêt landaise : comprendre ce qu'on habite",
-        body: "La forêt des Landes de Gascogne est la plus grande forêt artificielle d'Europe de l'Ouest (1 million d'hectares, créée au XIXe pour assécher les marécages). Elle couvre 70 % du département. Ce n'est pas une forêt de diversité botanique maximale : c'est une monoculture de pins maritimes plantée par l'État et régulièrement entretenue pour la sylviculture. La forêt brûle régulièrement : l'incendie de l'été 2022 a détruit 35 000 hectares. Vivre dans les Landes, c'est comprendre ce rapport particulier à la forêt : beau, apaisante, mais vulnérable.",
+        body: "La forêt des Landes de Gascogne est la plus grande forêt artificielle d'Europe de l'Ouest (1 million d'hectares, créée au XIXe pour assécher les marécages). Elle couvre 70 % du département. Ce n'est pas une forêt de diversité botanique maximale : c'est une monoculture de pins maritimes plantée par l'État et régulièrement entretenue pour la sylviculture. La forêt brûle régulièrement : les incendies exceptionnels de l'été 2022 ont détruit plus de 30 000 hectares du massif des Landes de Gascogne, principalement côté Gironde (Landiras, La Teste-de-Buch, Saumos), avec des dizaines de milliers d'évacuations préventives. Vivre dans les Landes, c'est comprendre ce rapport particulier à la forêt : beau, apaisante, mais vulnérable.",
       },
       {
         heading: "La gastronomie landaise : la France qui mange le mieux",
@@ -7713,11 +7713,11 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Le Pays de Gex : l'eldorado frontalier",
-        body: "Le Pays de Gex est une enclave française entre le Jura et le lac Léman, à 20-40 minutes de Genève. C'est une des zones les plus prospères de France par le revenu médian, alimentée par les frontaliers dont les salaires suisses sont en moyenne 40-60 % supérieurs aux équivalents français. Prix immobilier à Ferney-Voltaire : ≈ 5 500 €/m², Divonne-les-Bains : ≈ 6 000 €/m², Gex ville : ≈ 4 500 €/m². Avantage fiscal : les frontaliers résidant en France paient leurs impôts en France (taux français) tout en percevant un salaire suisse.",
+        body: "Le Pays de Gex est une enclave française entre le Jura et le lac Léman, à 20-40 minutes de Genève. C'est une des zones les plus prospères de France par le revenu médian, alimentée par les frontaliers dont les salaires suisses sont en moyenne 40-60 % supérieurs aux équivalents français. Prix immobilier à Ferney-Voltaire : ≈ 5 500 €/m², Divonne-les-Bains : ≈ 6 000 €/m², Gex ville : ≈ 4 500 €/m². Fiscalité, et c'est le piège du Pays de Gex : Genève n'est pas partie à l'accord franco-suisse de 1983. Les frontaliers travaillant dans le canton de Vaud, du Valais, de Neuchâtel, du Jura, de Berne ou de Bâle sont exonérés en Suisse et imposés en France ; ceux qui travaillent à Genève — c'est-à-dire la quasi-totalité des Gessiens — sont imposés à la source à Genève, en vertu de l'accord de 1973, Genève reversant une compensation aux communes françaises. Le revenu suisse se déclare quand même en France (2042 et 2047), un crédit d'impôt égal à l'impôt français neutralisant la double imposition.",
       },
       {
         heading: "Bourg-en-Bresse : la préfecture gastronomique méconnue",
-        body: "Score MaVilleIdéale : 6.6/10. Bourg-en-Bresse est une des préfectures françaises les moins connues pour sa taille (60 000 habitants), et l'une des plus gastronomiques. La volaille de Bresse AOP (poulet, poularde, chapon) est le seul produit carné classé AOC/AOP en Europe, produit à moins de 30 km du centre. Prix ≈ 2 100 €/m². Lyon est à 1h de TER, Genève à 1h30 de TGV. Pour un télétravailleur gastronome, c'est un choix cohérent et sous-estimé.",
+        body: "Score MaVilleIdéale : 6,0/10. Bourg-en-Bresse est une des préfectures françaises les moins connues pour sa taille (60 000 habitants), et l'une des plus gastronomiques. La volaille de Bresse AOP (poulet, poularde, chapon) est le seul produit carné classé AOC/AOP en Europe, produit à moins de 30 km du centre. Prix ≈ 2 100 €/m². Lyon est à 1h de TER, Genève à 1h30 de TGV. Pour un télétravailleur gastronome, c'est un choix cohérent et sous-estimé.",
       },
       {
         heading: "La Dombes : mille étangs et tranquillité radicale",

@@ -3021,6 +3021,105 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ---
 
+## Shipped 2026-08-28
+
+- **Parité EN — ouverture d'un lot `living-in-[sous-région]-2026` (+8 : le Vaucluse, le Gard, la
+  Gascogne/le Gers, les Landes, la Vendée, la Corrèze-Limousin, l'Ain, l'Ardèche-Drôme).**
+  `npm run parity` sort en **code 0**, 0 route FR sans jumelle EN : la parité de routes tient, donc
+  le run est allé sur l'**écart de corpus**, mesuré ce run à **FR 1 003 / EN 757**. Les sitemaps en
+  ligne sont injoignables depuis une routine cloud (403 CONNECT sur les deux domaines) : l'écart par
+  section est donc **non mesuré**, pas nul. **Compteurs mesurés : `EN_GUIDES` 757 → 765**,
+  `data/search-index.en.json` 765 guides, 106 tags.
+
+  **Pourquoi cette série et pas une autre.** Le diff FR↔EN par famille de slugs donne trois gros
+  écarts : `quitter-` 55 / `leaving-` 23, `meilleures-villes` 52 / `best-french-cities` 29, et
+  `vivre-en|dans-[sous-région]` face à `living-in-`. Les deux premiers ont été écartés — « quitter
+  Amiens » n'a pas de lecteur anglophone, et le contrôle thème par thème montre que les classements
+  à forte intention (santé, écoles internationales, LGBT, vélo, air, vins, seniors, étudiants
+  étrangers, accessibilité, durabilité) ont **déjà** leur jumelle EN, le reliquat FR étant les
+  thèmes que CLAUDE.md classe lui-même en faible intention expatriée. Restait la **France
+  sous-régionale**, qui est exactement l'espace de recherche de l'acheteur anglophone et où l'EN
+  n'avait rien. Les sous-régions déjà couvertes par un autre angle ont été **écartées pour éviter la
+  cannibalisation** que CLAUDE.md documente : Lot/Aveyron/Tarn (`occitanie-rural-lot-aveyron-tarn-expat-guide-2026`),
+  la Touraine (`loire-valley-living-guide-2026` + `tours-loire-valley-living-guide-2026`), la Côte
+  d'Azur (`french-riviera-cote-dazur-living-2026`), le Jura (`living-in-bourgogne-franche-comte-2026`).
+  Le guide Corrèze-Limousin dit **en première section** ce qu'il couvre et renvoie explicitement à
+  `living-in-creuse-2026` pour la Creuse, plutôt que de recouvrir un guide existant en silence.
+
+  **Chiffres.** Tous les loyers et prix des villes du seed sont lus **dans les modules**
+  (`data/housing.ts`, `CITIES_SEED`), jamais dans les littéraux du seed ni dans le texte des guides
+  FR — c'est ce que rendent les deux pages ville, donc les jumelles hreflang affichent le même
+  nombre. Les fourchettes €/m² des lieux **absents du seed** (villages du Luberon, Uzès, Sommières,
+  Mimizan, Ferney-Voltaire, Divonne, Lectoure, Die, Ardèche méridionale) viennent des guides FR
+  correspondants et sont données comme fourchettes. Les scores cités (Nîmes sécurité 3,9 · Condom
+  8,6 · Fontenay-le-Comte 8,8 · Gex 7,7 · Aubenas nature 8,5 / transport 2,7 · Valence transport 7,4
+  · Bourg-en-Bresse 6,0) sortent de `CITIES_SEED`, donc de la valeur **rendue**. Aucun horaire,
+  aucun tarif. `metaTitle` 44-60 caractères, `metaDesc` 144-154, 6 sections par guide, ~1 000 mots.
+
+  **Quatre faits FR corrigés en cours de sourcing, tous vérifiés en ligne, tous des erreurs qu'aucun
+  contrôle automatique ne peut voir.** Ils étaient dans les guides FR sources et seraient partis tels
+  quels côté EN si le run s'était contenté de traduire :
+  1. **Pays de Gex, fiscalité du frontalier** (`vivre-dans-l-ain-guide-2026`). Le guide écrivait que
+     « les frontaliers résidant en France paient leurs impôts en France ». C'est vrai des cantons de
+     Vaud, Valais, Neuchâtel, Jura, Berne et Bâle (accord de 1983) et **faux de Genève**, qui n'y est
+     pas partie : le salaire genevois est **imposé à la source à Genève** (accord de 1973), Genève
+     reversant une compensation aux communes françaises, le revenu se déclarant quand même en France
+     (2042/2047) avec crédit d'impôt. Or le Pays de Gex travaille à Genève — la phrase était fausse
+     pour la quasi-totalité de ses lecteurs, sur la question qui vaut des milliers d'euros par an.
+  2. **Bourg-en-Bresse** (même guide) : « Score MaVilleIdéale : 6.6/10 » alors que
+     `/villes/bourg-en-bresse` affiche **6,0**. Exactement la classe de dérive que CLAUDE.md décrit,
+     et que `npm run integrity` ne voit pas ici : le garde-fou cherche un chiffre **à côté d'un nom
+     d'axe**, or « Score MaVilleIdéale » n'en est pas un. Corrigé en 6,0.
+  3. **Incendies 2022** (`vivre-dans-les-landes-guide-2026`) : « l'incendie de l'été 2022 a détruit
+     35 000 hectares », attribué aux Landes. Le bilan officiel est de **plus de 30 000 ha** du massif
+     des Landes de Gascogne, **principalement en Gironde** (Landiras 13 300 ha, La Teste-de-Buch,
+     Saumos 3 720 ha), avec des dizaines de milliers d'évacuations préventives. Surestimation **et**
+     erreur de département.
+  4. **Le Limousin n'a pas de TGV** (`vivre-en-correze-limousin-guide-2025`) : le guide donnait
+     « TGV Paris en 2h10 » pour Limoges et « pôle TGV, Paris en 3h30 » pour Brive. Les deux villes
+     sont sur la **ligne POLT**, desservie en **Intercités depuis Paris-Austerlitz** : Limoges
+     ≈ 3h25-3h30, Brive ≈ 4h20-4h30. Deux heures d'écart sur le trajet, c'est la décision
+     d'installation elle-même. Corrigé des deux côtés, et la section EN correspondante s'appelle
+     « The train is slower than you think ».
+
+  **Cinq apports propres au lecteur anglophone, absents du FR parce qu'inutiles à un lecteur
+  français**, et à ne pas diluer : ① le **droit d'option** d'assurance maladie du frontalier suisse —
+  **3 mois** à compter de la prise de poste, **LAMal par défaut** si rien n'est notifié, et choix
+  **irrévocable** en principe (réouverture limitée à la retraite sur pension suisse seule, la reprise
+  d'activité après interruption, ou le changement de pays de résidence) ; ② le seuil de **40 %** de
+  télétravail annuel depuis la France sans changement d'État d'imposition ; ③ **l'Ardèche est le seul
+  département de France métropolitaine sans gare voyageurs, sans autoroute et sans aéroport** —
+  service supprimé en **1973** (rive droite du Rhône, Givors-Nîmes), réouverture du Teil repoussée de
+  2024 à 2026 puis **2027**, concertation Nîmes-Le Teil tenue à l'hiver 2025-26 : à présenter comme
+  un projet, pas comme un calendrier sur lequel on déménage ; ④ les **baïnes** de la côte landaise,
+  avec la règle opposable (baignade en plage surveillée, entre les drapeaux, drapeau rouge = plage
+  fermée, pas une appréciation personnelle) — même précédent que la règle réunionnaise ; ⑤ les
+  **corridas avec mise à mort** des ferias de Nîmes, à décider avant de signer un bail et non après.
+  S'y ajoutent trois pièges pratiques : les **deux gares d'Avignon** (Avignon TGV hors les murs vs
+  Avignon Centre), le sigle **ERRIAL / état des risques** et le **PPRI** expliqués en incise pour
+  l'épisode cévenol du Gard, et l'**OLD** (obligation légale de débroussaillement) pour la forêt
+  landaise.
+
+  **Tags** : aucun tag inventé, mais `avignon` et `nimes` franchissent le seuil de 3 guides et créent
+  **`/tags/avignon`** et **`/tags/nimes`** côté EN (104 → 106 slugs), d'où le passage de
+  `npm run sitemap:check`. Les huit guides ont été vérifiés **retrouvés par la remontée inverse
+  `relatedCities`** sur leurs pages ville et région EN après écriture : Condom, Biscarrosse,
+  Fontenay-le-Comte, Gex, Oyonnax, Romans-sur-Isère et Aubenas passent de **zéro à un** guide EN sur
+  leur page ville.
+
+  **Contrôles** : `npx tsc --noEmit` propre, `npm run integrity` propre (540 villes, FR 1 003,
+  EN 765), `npm run search-index` relancé puis `search-index:check` propre, `npm run sitemap:check`
+  propre (FR 29 078 URL, EN 28 629 → **28 649**), `npm run parity` en **code 0**.
+  `npm run build` n'a pas été lancé, conformément à CLAUDE.md § Commands.
+
+  **Gisements restants pour le prochain lot de sous-régions EN**, tous avec un guide FR source et
+  sans jumelle EN : le Périgord hors Dordogne, la Champagne hors Reims, la Lorraine et sa frontière
+  luxembourgeoise, la Normandie intérieure, l'Auvergne profonde, la Sarthe-Maine, les Pyrénées, la
+  Savoie, et l'outre-mer, qui n'a **aucune vue d'ensemble EN** alors que ses 18 villes ont désormais
+  leur guide tourisme des deux côtés.
+
+---
+
 ## Shipped 2026-08-27 (2e run du jour)
 
 - **Perf — la palette de recherche embarquait le seed entier sur toutes les pages ; le quiz expat,
