@@ -873,6 +873,112 @@ Vaulx-en-Velin, Saint-Priest, Bron — rappel : l'Espace Albert Camus et le fort
 lyonnaise sont **à Bron**) et les trous listés au batch 34 (Saint-Herblain, Mantes-la-Jolie,
 Istres, Cambrai).
 
+**Batch 36 — FR, shipped 2026-08-29 : Orange, Saint-Germain-en-Laye, La Ciotat, Rochefort, Dieppe,
+Douai, Sens.** Sept villes, sept régions différentes, et le même arbitrage qu'aux batches 26, 32 et
+34, assumé une fois de plus contre la liste de gisements : **on choisit par matière touristique
+réelle, pas par inertie de liste**. Les six banlieues de province (Villenave-d'Ornon, Talence,
+Le Bouscat ; Vaulx-en-Velin, Saint-Priest, Bron) **restent en piste et n'ont toujours pas été
+faites** — mais laisser **Orange**, qui porte deux monuments romains inscrits à l'UNESCO depuis
+1981, sans guide pour écrire Le Bouscat n'était pas défendable. Le constat qui a décidé du batch :
+en listant les 322 villes du seed non couvertes par population, le haut de liste est presque
+entièrement francilien et pauvre en matière vérifiable, alors que sept trous **majeurs** dormaient
+plus bas — la première cathédrale gothique de la chrétienté (Sens), la plus ancienne salle de cinéma
+du monde (La Ciotat), la plus longue manufacture d'Europe à sa construction (Rochefort), la première
+station balnéaire de France (Dieppe), le plus important carillon de France (Douai) et le musée
+d'archéologie de référence du pays (Saint-Germain-en-Laye).
+**Compteurs mesurés : FR 226 (`-a-` strict 219 + 5 en `au-` + 2 en `aux-`), EN 219 ; `GUIDES` 1012 →
+1019.** Aucun nouveau slug hors gabarit : les sept villes prennent toutes « à » sans contraction, les
+sept exceptions restent `au-puy-en-velay`, `au-tampon`, `au-francois`, `au-robert`, `au-lamentin`,
+`aux-abymes`, `aux-sables-d-olonne`. `metaTitle` 32-41 caractères, `metaDesc` 141-155, 10 sections
+par guide, densité d'accents 0,135-0,180 (**par mot, pas par lettre** — seuil ascii-strip 0,09).
+`npm run search-index` relancé (`data/search-index.json` 1019 guides, 245 → **248 tags**, donc trois
+pages `/tags/` neuves) et **`npm run sitemap:check` repassé** à cause d'elles (FR 29 096 URL,
+EN 28 666). Les sept guides ont été vérifiés **retrouvés par le lookup de
+`app/villes/[slug]/a-faire/page.tsx` et pourvus de leur photo d'en-tête** (`guideCityPhoto`).
+⚠️ **Le fait le plus important du batch est une correction : l'Hermione n'est pas à Rochefort.** La
+réplique a bien été construite dans l'arsenal à partir de juillet 1997 et mise à l'eau le 7 septembre
+2014, mais elle est **immobilisée en cale sèche à Anglet, dans le port de Bayonne, depuis l'automne
+2021**, et l'association qui la porte a connu de graves difficultés financières. Un guide qui envoie
+un lecteur à Rochefort voir l'Hermione l'envoie à 300 km de la frégate : la section le dit
+explicitement et invite à vérifier avant de se déplacer pour elle. Deux autres pièges de calendrier
+et d'attribution écartés de la même façon : le **festival de cerf-volant de Dieppe est biennal et
+tombe les années impaires** (édition 2025, prochaine attendue en 2027, **donc rien en 2026** — une
+page qui promet le contraire recopie une édition précédente) ; et **Louis XIV est né au Château-Neuf
+de Saint-Germain-en-Laye, pas dans le château qu'on visite**, lequel abrite le Musée d'Archéologie
+nationale — le Château-Neuf est détruit, il n'en reste que le Pavillon Henri IV. La légende des
+spectateurs fuyant *L'Arrivée d'un train* est donnée pour ce qu'elle est, **une histoire construite
+après coup** : la première projection publique payante des vues Lumière a eu lieu à Paris en décembre
+1895, et à l'Eden c'est le 21 mars 1899 qui fait date.
+Faits vérifiés en ligne avant rédaction et qui portent les guides : mur de scène d'Orange **103 m ×
+37 m, 1,80 m d'épaisseur**, seul mur de scène romain conservé entier en Occident, statue d'Auguste de
+**3,55 m**, arc élevé vers **20-25** pour les victoires de Germanicus sur la **via Agrippa**, classé
+MH dès **1840** ; **cadastres romains découverts en 1949**, 416 fragments, ordonnés sous **Vespasien
+en 77**, les mieux conservés au monde ; Chorégies nées des Fêtes romaines de **1869**, nom adopté en
+**1903**, plus ancien festival de France ; MAN créé par décret impérial du **8 mars 1862**, inauguré
+le **12 mai 1867**, restauration d'**Eugène Millet**, élève de Viollet-le-Duc ; Grande Terrasse de
+Le Nôtre, **2,4 km**, **1669-1673** ; Debussy né le **22 août 1862** au 38 rue au Pain, musée ouvert
+en **1990** ; Le Prieuré de Maurice Denis, **ancien hôpital royal voulu par Mme de Montespan**,
+acheté en **1914**, donation de **1976** ; Eden Théâtre ouvert le **15 juin 1889** ; **pétanque née
+en 1907** (Jules Hugues dit Lenoir, terrain des frères Pitiot, premier concours en **1910**, du
+provençal *pèd tanca*) ; **île Verte, seule île boisée des Bouches-du-Rhône**, 13 ha, acquise par le
+département en **1963** ; Corderie Royale **374 m** ; **maison de Pierre Loti rouverte le 10 juin
+2025** après douze ans de fermeture, **visites guidées uniquement, groupes de dix, ~1 h 30, donc
+réservation obligatoire** ; pont transbordeur de Martrou **1898-1900**, Ferdinand Arnodin, **dernier
+de France** et huit dans le monde, MH le **30 avril 1976**, restauré 2016-2020, réinauguré le
+**29 juillet 2020**, ouvert d'avril à début novembre ; bains de mer de Dieppe en **1824**, bain de la
+duchesse de Berry le **3 août 1824**, séjours jusqu'en 1829 ; **plus grande collection d'ivoires
+d'Europe** au château-musée ; Estran Cité de la Mer créé le **20 mai 1987** ; opération **Jubilee du
+19 août 1942**, un peu plus de 6 000 hommes dont près de 5 000 Canadiens, cinq points sur une
+quinzaine de kilomètres, journée la plus meurtrière de la guerre pour le Canada ; beffroi de Douai
+commencé en **1391**, UNESCO **2005**, **carillon de 62 cloches**, le plus important de France ;
+**Gayant né en 1530** (procession de saint Maurand, *gayant* = géant en picard), M. Gayant **8,50 m
+et 370 kg**, Marie Cagenon **6,25 m**, Jacquot, Fillon et Binbin, fêtes le **dimanche suivant le
+5 juillet** et les deux jours suivants ; musée de la Chartreuse dans l'**hôtel d'Abancourt (1559)** et
+l'**aile Montmorency (1608)**, musée depuis **1958**, plus de 10 000 œuvres ; **Lewarde, plus grand
+musée de la mine de France**, ancienne fosse Delloye, plus de 150 000 visiteurs/an, **270 ans**
+d'exploitation ; cathédrale de Sens ouverte **vers 1135** sous Henri Sanglier, consacrée en **1164**,
+**première cathédrale gothique**, **Guillaume de Sens** appelé ensuite à reconstruire le chœur de
+**Cantorbéry après l'incendie de 1174** ; **vêtements liturgiques de Thomas Becket** au trésor (venu à
+Sens en **1164** puis **1170**), trésor parmi les plus riches de France avec Conques ; marché couvert
+de Sens inauguré en **1882**, style Baltard, MH **1975**, architectes Horace Lefort et Benoni Roblot.
+Les seuls chiffres de population sont ceux de l'Insee 2022 lus dans `data/city-population.json`
+(Orange 29 357, Saint-Germain-en-Laye 45 286, La Ciotat 37 599, Rochefort 23 188, Dieppe 28 599,
+Douai 39 833, Sens 27 275) — **pas les `population` approximatives du seed**. Aucun horaire, aucun
+tarif. Convention « **accessible depuis** » plutôt que « situé à » tenue partout : Châteauneuf-du-Pape,
+Gigondas et Vacqueyras depuis Orange, la **Maison du Transbordeur qui est à Échillais** et l'île d'Aix
+depuis Rochefort, le **cimetière militaire canadien de Hautot-sur-Mer** et Varengeville depuis Dieppe,
+le **Centre historique minier qui est à Lewarde** depuis Douai. Deux prudences de sécurité assumées :
+la baignade à **Figuerolles se fait sans surveillance permanente**, et les **falaises de craie
+s'effondrent par plaques** sur la côte d'Albâtre, donc distance au bord et balisage respectés.
+⚠️ **`npm run build` n'a pas été lancé, volontairement** — c'est ce que la section Commands interdit
+depuis le batch 27 (4 h 30 de génération, `.next` à 25 Go, aucun signal utile, ENOSPC avant la
+finalisation). Le substitut prescrit a été exécuté en entier et passe : `npx tsc --noEmit` **propre**,
+`npm run integrity`, `search-index` + `search-index:check`, `sitemap:check`, plus le contrôle de
+lookup / photo et un contrôle de charge des vraies gardes (`assertUniqueSlugs` / `assertKnownSlugs`)
+par import du module.
+Écart FR→EN après ce batch : **7 villes** (orange, saint-germain-en-laye, la-ciotat, rochefort,
+dieppe, douai, sens) — au-dessus du seuil de ~6, donc **le prochain run doit être un batch EN**.
+Rappel de la règle tranchée au batch 33 : côté EN, le slug se dérive du **slug de seed tel quel**
+(`getEnGuide('things-to-do-in-' + slug + '-2026')`), jamais d'une version « propre » — donc
+`things-to-do-in-la-ciotat-2026` et `things-to-do-in-saint-germain-en-laye-2026` gardent leur forme
+complète. Trois points de vigilance pour ces jumelles : **`things-to-do-in-orange-2026` est un slug
+ambigu en anglais** (le mot *orange*, la maison d'Orange-Nassau, le comté d'Orange en Californie) —
+l'intro doit poser la ville dès la première ligne ; l'angle voyageur étranger a de la matière propre
+sur trois de ces villes (le lien **Orange / Orange-Nassau / maillot néerlandais**, la filiation
+**Sens → Cantorbéry** qui parle beaucoup plus à un lecteur britannique qu'à un français, et
+**Jubilee**, qui est de l'histoire canadienne avant d'être de l'histoire française — la liaison
+transmanche **Dieppe-Newhaven** rend d'ailleurs Dieppe atteignable sans avion depuis l'Angleterre) ;
+et l'avertissement **Hermione** doit être repris tel quel, un lecteur étranger étant encore plus
+susceptible de faire le détour pour un bateau qui n'est pas là.
+Pour le batch FR **suivant**, les gisements restants sont les six banlieues de province ci-dessus et,
+côté trous touristiques réels mesurés ce run, **Rueil-Malmaison** (château de Malmaison, Joséphine),
+**Poissy** (villa Savoye, Le Corbusier, UNESCO), **Dole** (ville natale de Pasteur), **Soissons**
+(abbaye Saint-Jean-des-Vignes), **Bergerac**, **Carpentras** (synagogue, cathédrale Saint-Siffrein),
+**Agde**, **Thonon-les-Bains** et **Vernon** (d'où Giverny est accessible) — tous vérifiés présents
+au seed et sans guide, et tous plus riches en matière vérifiable que le haut de la liste par
+population. Les trous listés au batch 34 (Saint-Herblain, Mantes-la-Jolie, Istres, Cambrai) restent
+ouverts.
+
 ### Glossaire (`app/glossaire/page.tsx`)
 
 Page unique, données inline (`SECTIONS: {title, emoji, terms[]}`), `DefinedTermSet` JSON-LD généré

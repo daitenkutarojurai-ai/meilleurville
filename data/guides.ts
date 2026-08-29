@@ -50196,6 +50196,440 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["parent solo Ajaccio 2026", "monoparental Corse-du-Sud", "T3 Ajaccio budget", "vie chère insulaire parent seul", "famille monoparentale Corse"],
   },
+  {
+    slug: "10-choses-a-faire-a-orange-2026",
+    title: "10 choses à faire à Orange",
+    metaTitle: "10 choses à faire à Orange en 2026",
+    metaDesc: "Théâtre antique et son mur de scène unique, arc de triomphe, cadastres romains, Chorégies, colline Saint-Eutrope : 10 activités à Orange, dans le Vaucluse.",
+    category: "tourisme",
+    emoji: "🏛️",
+    readMinutes: 7,
+    publishedAt: "2026-08-29",
+    updatedAt: "2026-08-29",
+    intro: "Orange comptait 29 357 habitants au recensement de 2022, un chiffre à peu près stable depuis quinze ans, et c'est ce qui rend la ville singulière : une commune de moins de trente mille habitants y garde deux monuments romains inscrits au patrimoine mondial de l'UNESCO depuis 1981. Le rapport entre la taille de la ville et l'importance de ce qu'elle conserve n'a pas d'équivalent en France. Ce guide part de là et assume la conséquence pratique : Orange se visite en une journée pleine, elle ne prétend pas retenir une semaine, et elle a tout intérêt à être combinée avec le reste du Vaucluse.",
+    sections: [
+      {
+        heading: "1. Le théâtre antique et son mur de scène",
+        body: "C'est le seul théâtre romain du monde occidental à avoir conservé son mur de scène entier, et cette phrase, qu'on lit partout, se comprend vraiment sur place. La façade mesure 103 mètres de long, 37 mètres de haut et 1,80 mètre d'épaisseur : ce n'est pas une ruine dont on devine le volume, c'est un mur debout qui ferme l'horizon. Louis XIV, en visite, l'aurait qualifié de plus belle muraille de son royaume, et la formule est restée. Le théâtre a été construit au Ier siècle de notre ère, sous le règne d'Auguste, avec des gradins adossés à la colline pour éviter d'avoir à bâtir la structure porteuse. L'acoustique qui en résulte est encore utilisée telle quelle."
+      },
+      {
+        heading: "2. La statue d'Auguste dans la niche centrale",
+        body: "Au milieu du mur de scène, dans sa niche, se dresse une statue impériale d'Auguste haute de 3,55 mètres, représenté en imperator, cuirassé et le bâton de commandement à la main. Elle est le point de fuite de tout l'édifice : le regard du spectateur, où qu'il soit assis, finit par y revenir, ce qui était exactement l'intention. C'est le détail qui fait comprendre à quoi servait un théâtre romain en province — pas seulement à jouer des pièces, mais à rappeler à une colonie de vétérans qui gouvernait. Prenez le temps de monter dans les gradins hauts avant de la regarder : le rapport d'échelle change du tout au tout selon l'endroit d'où on la voit."
+      },
+      {
+        heading: "3. Les Chorégies, dans le théâtre lui-même",
+        body: "Les Fêtes romaines qui ont donné naissance aux Chorégies remontent à 1869, et le nom de Chorégies d'Orange a été officiellement adopté en 1903 : c'est le plus ancien festival de France, et il se tient chaque été dans le théâtre antique. L'intérêt n'est pas seulement historique. Un mur de scène complet renvoie le son vers les gradins au lieu de le laisser se perdre, si bien que le lieu fonctionne encore comme une salle, sans sonorisation lourde pour l'essentiel du répertoire lyrique. Les dates et la programmation changent chaque année et les places partent tôt : elles se vérifient auprès du festival plutôt que sur une page recopiée d'une édition précédente."
+      },
+      {
+        heading: "4. L'arc de triomphe, à l'entrée nord",
+        body: "Le second monument inscrit à l'UNESCO se trouve à l'autre bout de la ville, sur ce qui était l'entrée nord d'Arausio. Il a probablement été élevé entre 20 et 25 de notre ère pour commémorer les victoires de Germanicus, mort en 19, et il est posé directement sur la via Agrippa, la grande route romaine qui reliait Lyon à Arles et traversait la ville de part en part. Il figurait déjà sur la toute première liste des monuments historiques français, en 1840. Le calcaire blond local change de couleur selon l'heure, et l'arc se regarde mieux en fin de journée qu'en plein midi, quand la lumière écrase les reliefs sculptés."
+      },
+      {
+        heading: "5. Les cadastres romains du musée d'Art et d'Histoire",
+        body: "C'est la pièce la plus méconnue de la ville et sans doute la plus extraordinaire. En 1949, des ouvriers creusant pour une banque tombent à trois mètres de profondeur sur un lit de marbres gravés : les plans cadastraux de la colonie, ordonnés sous Vespasien en 77, parcelle par parcelle, avec le nom des attributaires et le statut des terres. Quatre cent seize fragments ont été dégagés, et ce sont les cadastres romains les mieux conservés au monde. Ils sont exposés au musée d'Art et d'Histoire, en face du théâtre. On y voit littéralement comment Rome a découpé et distribué un territoire conquis, ce qu'aucun monument, si spectaculaire soit-il, ne raconte aussi précisément."
+      },
+      {
+        heading: "6. Monter sur la colline Saint-Eutrope",
+        body: "La colline contre laquelle s'appuient les gradins se monte à pied depuis le centre, et c'est le meilleur point de vue sur la ville. De là-haut, on voit le théâtre par-dessus, ce qui donne la seule vue qui fait comprendre son plan d'ensemble, et par temps clair le regard porte sur la plaine du Rhône et le mont Ventoux. Le parc en haut est ombragé, ce qui compte réellement de juin à septembre dans cette partie du Vaucluse. Il reste des vestiges du château des princes d'Orange sur le plateau, démantelé au XVIIe siècle : peu de choses à voir en soi, mais l'emplacement explique pourquoi la colline a été fortifiée pendant si longtemps."
+      },
+      {
+        heading: "7. La principauté d'Orange, et pourquoi les Pays-Bas s'habillent en orange",
+        body: "La ville a été la capitale d'une principauté souveraine, indépendante du royaume de France, et cette principauté est passée par héritage à la maison de Nassau : c'est de là que vient le nom de la maison d'Orange-Nassau, qui règne aux Pays-Bas, et la couleur nationale néerlandaise. Autrement dit, un supporter néerlandais en maillot orange porte, sans forcément le savoir, le nom d'une commune du Vaucluse. Il reste peu de traces bâties de cette période, le rattachement à la France ayant été suivi du démantèlement des fortifications. Mais c'est la clé de lecture d'une ville dont la trajectoire n'a rien de provençal ordinaire, et l'office de tourisme la documente bien."
+      },
+      {
+        heading: "8. Le centre ancien et le marché du jeudi",
+        body: "Le centre tient dans un périmètre serré entre le théâtre et l'arc, avec des places plantées de platanes, des façades ocre et un rythme de vie qui reste celui d'une petite ville plutôt que d'une destination. Le marché du jeudi matin s'étend sur une bonne partie du centre et c'est le moment où la ville est la plus vivante de la semaine. Pour un visiteur, l'intérêt est simple : c'est là qu'on achète de quoi déjeuner avant de monter sur la colline, et c'est nettement plus intéressant que de chercher un restaurant à midi dans les rues immédiatement voisines du théâtre, qui vivent du passage."
+      },
+      {
+        heading: "9. Les vignobles autour, accessibles depuis Orange",
+        body: "Aucun de ces vignobles n'est situé à Orange, mais tous sont accessibles depuis la ville en moins d'une demi-heure de voiture, et c'est ce qui justifie d'y dormir plutôt que d'y passer. Châteauneuf-du-Pape est au sud, Gigondas et Vacqueyras à l'est au pied des Dentelles de Montmirail, dont les crêtes calcaires se voient depuis la colline Saint-Eutrope. La combinaison antique et viticole est la vraie proposition d'Orange, et elle est plus économique que la même journée organisée depuis Avignon. Les domaines qui reçoivent sans rendez-vous sont nombreux mais leurs horaires varient beaucoup hors saison : c'est un point à vérifier la veille."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Orange est sur l'axe rhodanien, desservie par la ligne classique Paris-Marseille, et la gare TGV la plus proche est celle d'Avignon. En voiture, la ville est à un échangeur de l'autoroute A7, ce qui en fait une étape naturelle sur la descente vers le sud. Comptez une journée pleine pour le théâtre, le musée et l'arc, avec le musée après le théâtre et non l'inverse : les cadastres se lisent beaucoup mieux quand on a déjà vu ce que la colonie a bâti. Deux nuits se justifient si vous ajoutez les vignobles ou une soirée aux Chorégies. Au-delà, la ville se combine avec Avignon, Vaison-la-Romaine et le Ventoux."
+      }
+    ],
+    relatedCities: ["orange", "avignon", "carpentras"],
+    relatedGuides: [
+      "10-choses-a-faire-a-avignon-2026",
+      "10-choses-a-faire-a-nimes-2026",
+      "10-choses-a-faire-a-arles-2026",
+      "10-choses-a-faire-a-aix-en-provence-2026"
+    ],
+    tags: ["10 choses à faire à Orange", "activités Orange 2026", "que faire en Vaucluse", "sorties Provence antique", "théâtre antique arc de triomphe cadastres Chorégies"]
+  },
+  {
+    slug: "10-choses-a-faire-a-saint-germain-en-laye-2026",
+    title: "10 choses à faire à Saint-Germain-en-Laye",
+    metaTitle: "10 choses à faire à Saint-Germain-en-Laye",
+    metaDesc: "Château et Musée d'Archéologie nationale, terrasse de Le Nôtre, maison natale de Debussy, musée Maurice-Denis : 10 activités à Saint-Germain-en-Laye.",
+    category: "tourisme",
+    emoji: "🏰",
+    readMinutes: 7,
+    publishedAt: "2026-08-29",
+    updatedAt: "2026-08-29",
+    intro: "Saint-Germain-en-Laye comptait 45 286 habitants au recensement de 2022, en hausse par rapport à 2016, et c'est une ville que beaucoup de Franciliens connaissent comme un terminus de RER sans être jamais descendus du train pour autre chose qu'un déjeuner. C'est dommage, parce qu'elle réunit trois choses qu'on trouve rarement ensemble : une résidence royale majeure devenue le musée d'archéologie de référence en France, un jardin de Le Nôtre dont la terrasse porte à plus de deux kilomètres, et deux maisons d'artistes de premier plan. Le tout à quarante minutes du centre de Paris, sans changement.",
+    sections: [
+      {
+        heading: "1. Le château et le Musée d'Archéologie nationale",
+        body: "Le château abrite depuis le XIXe siècle le musée d'archéologie de référence en France. La décision revient à Napoléon III, par décret impérial du 8 mars 1862, et le musée a été inauguré le 12 mai 1867 en présence de l'empereur. La restauration du bâtiment a été confiée à Eugène Millet, élève de Viollet-le-Duc, et engagée dès 1862 : ce qu'on visite est donc autant une lecture du XIXe siècle sur le Moyen Âge qu'un château médiéval. Les collections vont du paléolithique à l'époque mérovingienne et se comptent en dizaines de milliers d'objets exposés. C'est le musée qu'il faut avoir vu avant de visiter n'importe quel site archéologique français."
+      },
+      {
+        heading: "2. La Grande Terrasse de Le Nôtre",
+        body: "André Le Nôtre a remanié les jardins entre 1669 et 1673, et il en reste la Grande Terrasse : une allée rectiligne de 2,4 kilomètres taillée au bord du plateau, au-dessus de la vallée de la Seine. C'est un des rares ouvrages de Le Nôtre dont l'effet ne dépend d'aucun parterre ni d'aucun bassin, seulement de la longueur et du vide sur la droite. Par temps clair, la vue porte sur la boucle de la Seine et sur Paris. Elle se parcourt à pied ou en courant, elle est plate, elle est gratuite, et c'est probablement la plus belle promenade d'Île-de-France qui ne coûte rien."
+      },
+      {
+        heading: "3. Le Domaine national et ses jardins",
+        body: "Autour du château, le domaine national déroule une quarantaine d'hectares de jardins dessinés en terrasses successives, avec le Grand Parterre entre le château et la forêt. L'ensemble se traverse librement et sert autant aux habitants qu'aux visiteurs, ce qui donne une atmosphère très différente de Versailles : on y croise des poussettes et des joggeurs, pas seulement des groupes. Pour un visiteur qui arrive par le RER, l'enchaînement logique est simple : sortir de la gare, traverser la place, entrer dans le domaine et aller directement au bord de la terrasse avant même de visiter le musée, pour comprendre pourquoi la cour s'est installée là."
+      },
+      {
+        heading: "4. Savoir où Louis XIV est réellement né",
+        body: "C'est la confusion la plus répandue de la ville, et elle mérite d'être levée. Louis XIV est né le 5 septembre 1638 à Saint-Germain-en-Laye, mais au Château-Neuf, un second palais bâti sur le rebord du plateau, et non dans le château qu'on visite aujourd'hui. Le Château-Neuf a été démantelé et il n'en subsiste presque rien : le Pavillon Henri IV, aujourd'hui hôtel-restaurant, en est le vestige le plus visible. Le roi a fait de Saint-Germain sa résidence en 1660 avant que la cour ne parte pour Versailles en 1682. Dire qu'il est né « au château » n'est donc pas faux à l'échelle de la ville, et faux à l'échelle du bâtiment."
+      },
+      {
+        heading: "5. La maison natale de Claude Debussy",
+        body: "Claude Debussy est né le 22 août 1862 au 38 rue au Pain, dans une maison du XVIIe siècle où son père tenait un commerce de porcelaine au rez-de-chaussée. Le lieu est aujourd'hui partagé entre l'office de tourisme, en bas, et un musée consacré au compositeur, ouvert en 1990 et labellisé Maison des illustres par le ministère de la Culture. C'est petit, et c'est le bon format : on n'y passe pas une demi-journée, on y comprend d'où vient quelqu'un. L'adresse est en plein centre piéton, à quelques minutes du château, donc il n'y a aucune raison de la sauter même dans une visite courte."
+      },
+      {
+        heading: "6. Le musée départemental Maurice-Denis, au Prieuré",
+        body: "Maurice Denis, figure majeure du mouvement nabi, a acheté en 1914 une ancienne maison qu'il a baptisée Le Prieuré et où il a installé sa famille et son atelier. Le bâtiment est en réalité un ancien hôpital royal, élevé au XVIIe siècle à la demande de Madame de Montespan. Le musée départemental qui l'occupe s'est constitué autour d'une donation exceptionnelle faite en 1976 par la famille de l'artiste. C'est le seul endroit où l'on voit les nabis chez eux, dans les pièces et le jardin qui ont servi de motif, et non accrochés sur une cimaise blanche. Vérifiez les jours d'ouverture avant de monter, ils sont plus restreints que ceux du château."
+      },
+      {
+        heading: "7. La forêt de Saint-Germain",
+        body: "Au nord de la ville s'étend une forêt domaniale considérable, ancienne réserve de chasse royale, aujourd'hui quadrillée de routes forestières et de sentiers balisés. C'est ce qui explique la géographie de la ville : Saint-Germain est coincée entre la boucle de la Seine et le massif, et ne s'est donc jamais étalée comme ses voisines. Pour un visiteur, l'usage évident est la marche ou le vélo, et l'accès depuis le domaine se fait à pied sans avoir à reprendre un transport. Les étoiles forestières et les carrefours portent encore leurs noms d'Ancien Régime, ce qui rend la carte plus lisible qu'on ne s'y attend."
+      },
+      {
+        heading: "8. Le centre ancien et le marché",
+        body: "Le centre est un quadrillage de rues piétonnes autour de l'église et de la place du Marché-Neuf, avec une densité de commerces inhabituelle pour une ville de cette taille — conséquence directe d'une clientèle aisée et d'un terminus de RER qui draine tout l'ouest des Yvelines. Le marché se tient dans les halles et sur la place, et c'est le moment où la ville ressemble le plus à une petite ville de province déposée à vingt kilomètres de Paris. C'est aussi la solution la plus simple pour déjeuner correctement sans réserver, ce qui n'est pas garanti dans les restaurants du bord de la place les jours de beau temps."
+      },
+      {
+        heading: "9. Descendre vers la Seine",
+        body: "La terrasse domine la vallée, mais on peut aussi y descendre : les coteaux mènent au fleuve et aux communes de la boucle, Le Pecq juste en contrebas, puis Le Vésinet et Chatou plus loin, avec les berges aménagées. C'est le paysage que les impressionnistes ont peint, et il se parcourt aujourd'hui à vélo par les chemins de halage. La descente est franche et la remontée l'est autant : ce n'est pas une promenade plate, contrairement à la terrasse. Comptez-la comme une demi-journée à part entière, et regardez les horaires du RER pour remonter par le train plutôt qu'à pied si vous êtes allé loin."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Saint-Germain-en-Laye est le terminus ouest de la ligne A du RER, et la gare est souterraine, débouchant directement en face du château : c'est la desserte la plus simple qui soit pour un site de cette importance, et la raison pour laquelle une visite ne demande aucune organisation. Une journée suffit largement pour le musée, la terrasse et le centre. Ajoutez une demi-journée si vous voulez le musée Maurice-Denis et la forêt. La ville se combine facilement avec Versailles, sur une autre branche du même réseau, mais il vaut mieux ne pas faire les deux le même jour : ce sont deux visites longues et l'une écrase l'autre."
+      }
+    ],
+    relatedCities: ["saint-germain-en-laye", "versailles", "paris"],
+    relatedGuides: [
+      "10-choses-a-faire-a-versailles-2026",
+      "10-choses-a-faire-a-paris-2026",
+      "10-choses-a-faire-a-fontainebleau-2026",
+      "10-choses-a-faire-a-chantilly-2026"
+    ],
+    tags: ["10 choses à faire à Saint-Germain-en-Laye", "activités Saint-Germain-en-Laye 2026", "que faire dans les Yvelines", "sorties Île-de-France RER A", "château archéologie nationale terrasse Le Nôtre Debussy Maurice Denis"]
+  },
+  {
+    slug: "10-choses-a-faire-a-la-ciotat-2026",
+    title: "10 choses à faire à La Ciotat",
+    metaTitle: "10 choses à faire à La Ciotat en 2026",
+    metaDesc: "Eden Théâtre, plus ancien cinéma du monde, berceau de la pétanque, Bec de l'Aigle, île Verte, calanque de Figuerolles : 10 activités à La Ciotat.",
+    category: "tourisme",
+    emoji: "🎬",
+    readMinutes: 7,
+    publishedAt: "2026-08-29",
+    updatedAt: "2026-08-29",
+    intro: "La Ciotat comptait 37 599 habitants au recensement de 2022, contre 33 738 en 2011 : c'est une des rares villes du littoral des Bouches-du-Rhône à gagner nettement des habitants, et ce n'est pas un hasard de calendrier. La ville a perdu ses chantiers navals de construction dans les années 1980 et a mis trente ans à se réinventer autour de la réparation de grands yachts, du tourisme et d'un patrimoine qu'elle avait sous les yeux sans l'exploiter. Elle a deux titres à faire valoir que peu de communes de cette taille peuvent revendiquer : le cinéma y est né en salle, et la pétanque y est née tout court.",
+    sections: [
+      {
+        heading: "1. L'Eden Théâtre, plus ancienne salle de cinéma du monde",
+        body: "L'Eden a ouvert le 15 juin 1889, d'abord comme salle de spectacle et de musique, et il est aujourd'hui reconnu comme la plus ancienne salle de cinéma du monde encore en activité, ce que le Guinness des records formule comme le plus ancien cinéma construit pour cet usage et toujours exploité. Il a failli disparaître : fermé pendant des décennies, sauvé par une mobilisation associative, restauré, il fonctionne de nouveau comme un cinéma normal, avec une programmation et des séances. C'est ce qui rend la visite intéressante — on n'entre pas dans un monument sous vitrine, on entre dans une salle qui projette encore des films."
+      },
+      {
+        heading: "2. Les Lumière à La Ciotat, sans la légende",
+        body: "Louis Lumière a filmé plusieurs de ses premières vues à La Ciotat pendant l'été 1895, dont la plus célèbre de toutes, L'Arrivée d'un train en gare de La Ciotat. La légende veut que les spectateurs se soient enfuis devant la locomotive : c'est une histoire construite après coup, et elle ne s'est pas produite ici. La première projection publique payante des vues Lumière a eu lieu à Paris, au Grand Café, en décembre 1895 ; à l'Eden, c'est la date du 21 mars 1899 qui est retenue comme celle de la première séance payante. La ville mérite mieux qu'une anecdote inventée : elle est un décor de tournage fondateur, ce qui suffit."
+      },
+      {
+        heading: "3. La gare, telle qu'elle a été filmée",
+        body: "La gare de La Ciotat est toujours là, en service, sur les hauteurs à l'écart du centre — configuration fréquente sur cette ligne, où la voie ferrée passe derrière les collines. Elle a été peu transformée dans ses volumes, si bien qu'on reconnaît sans effort le cadrage du film en se plaçant sur le quai. C'est une visite qui prend dix minutes et ne coûte rien, et c'est probablement le seul endroit au monde où l'on peut se tenir dans le champ d'un plan de 1895 qui fonctionne encore comme gare. Prévoyez la montée : le dénivelé depuis le vieux port n'est pas anodin, et il fait chaud l'été."
+      },
+      {
+        heading: "4. Le Bec de l'Aigle et le poudingue",
+        body: "La silhouette qui ferme la baie à l'ouest est un promontoire de poudingue, une roche formée d'un conglomérat de sable et de galets cimentés, dont la couleur ocre tranche franchement avec le calcaire blanc des calanques marseillaises. La forme évoque un bec d'aigle vue sous un certain angle, d'où le nom. Le même poudingue se retrouve au parc du Mugel et sur l'île Verte, et c'est ce qui donne à ce bout de côte une identité géologique distincte du reste du parc national des Calanques. On le voit de partout dans la ville ; on le voit le mieux depuis la mer ou depuis l'île."
+      },
+      {
+        heading: "5. Le parc du Mugel",
+        body: "Adossé au Bec de l'Aigle, le parc du Mugel occupe un vallon abrité du mistral par la masse rocheuse, ce qui y crée un microclimat où poussent bambous, palmiers et espèces méditerranéennes qui ne tiendraient pas cinquante mètres plus loin. C'est un jardin public, il descend jusqu'à une petite plage de galets, et il est gratuit. Pour un visiteur avec des enfants ou par forte chaleur, c'est la meilleure adresse de la ville : de l'ombre dense, de l'eau au bout du chemin, et des sentiers courts. Les hauts du parc donnent des points de vue sur la baie qu'on n'a pas depuis le front de mer."
+      },
+      {
+        heading: "6. La calanque de Figuerolles",
+        body: "Figuerolles est une calanque étroite encaissée entre deux parois de poudingue, à quelques minutes à pied du parc du Mugel, avec une plage de galets au fond et un rocher caractéristique planté au milieu de l'entrée. Elle est nettement plus accessible que les calanques de Marseille ou de Cassis, puisqu'on y descend par un escalier depuis la route au lieu de marcher une heure : c'est son intérêt et c'est aussi sa limite, elle est fréquentée. Venez tôt le matin en été. L'eau y est claire et le fond rocheux se prête au masque et tuba, mais la baignade s'y fait sans surveillance permanente : prudence avec les enfants."
+      },
+      {
+        heading: "7. L'île Verte, la seule île boisée du département",
+        body: "À quelques centaines de mètres au large, l'île Verte est la seule île boisée des Bouches-du-Rhône. Elle fait treize hectares, elle a été acquise par le conseil général du département en 1963, et elle fait aujourd'hui partie du parc national des Calanques. Un sentier balisé en fait le tour en une heure environ, avec des panneaux sur la faune et la flore et des vues sur le Bec de l'Aigle, la ville et ses chantiers. Une navette la dessert depuis le vieux port en saison ; les rotations dépendent de la météo et de la période, donc elles se vérifient le jour même auprès de l'exploitant."
+      },
+      {
+        heading: "8. La pétanque est née ici, en 1907",
+        body: "Le jeu provençal se jouait avec trois pas d'élan. En 1907, sur le terrain de boules tenu par les frères Pitiot, un ancien champion nommé Jules Hugues, dit Lenoir, que ses rhumatismes empêchaient de courir, obtient de jouer les pieds joints en traçant un rond et en envoyant le but à cinq ou six mètres. C'est la pétanque, du provençal « pèd tanca », les pieds plantés. Les frères Pitiot ont compris ce qu'ils tenaient et organisé le premier concours sous ces règles en 1910. Le boulodrome de la ville porte aujourd'hui le nom de Jules Lenoir, et jouer une partie ici a le charme d'être exactement à sa place."
+      },
+      {
+        heading: "9. Le vieux port et les chantiers navals",
+        body: "Le vieux port et sa rangée de façades colorées est la carte postale de la ville, mais l'intérêt est juste à côté : les formes de radoub et les grues des anciens chantiers, reconverties dans la réparation et la maintenance de très grands yachts. On voit donc, dans le même champ, des barques de pêche et des navires de cent mètres en carénage, ce qui est une image assez juste de ce qu'est devenue la ville. La grande grue est visible de loin et sert de repère. Le front de mer se parcourt à pied du vieux port aux plages de la baie, en une promenade plate et facile."
+      },
+      {
+        heading: "10. Y aller, et quand",
+        body: "La Ciotat est sur la ligne Marseille-Toulon, avec une gare desservie par les TER, et la navette de bus relie la gare au centre — utile, car la gare est en hauteur et à l'écart. En voiture, la ville est à une sortie de l'autoroute A50. Deux jours suffisent pour l'Eden, les calanques et l'île. La bonne période est le printemps ou septembre : en juillet et août le stationnement devient difficile, les navettes sont pleines et Figuerolles se remplit dès le matin. Hors saison, la ville reste vivante parce qu'elle vit de ses habitants et de ses chantiers, pas seulement des vacanciers, ce qui n'est pas le cas partout sur cette côte."
+      }
+    ],
+    relatedCities: ["la-ciotat", "marseille", "cassis"],
+    relatedGuides: [
+      "10-choses-a-faire-a-cassis-2026",
+      "10-choses-a-faire-a-marseille-2026",
+      "10-choses-a-faire-a-toulon-2026",
+      "10-choses-a-faire-a-aubagne-2026"
+    ],
+    tags: ["10 choses à faire à La Ciotat", "activités La Ciotat 2026", "que faire dans les Bouches-du-Rhône", "sorties calanques Provence littoral", "Eden Théâtre pétanque Bec de l'Aigle île Verte Mugel"]
+  },
+  {
+    slug: "10-choses-a-faire-a-rochefort-2026",
+    title: "10 choses à faire à Rochefort",
+    metaTitle: "10 choses à faire à Rochefort en 2026",
+    metaDesc: "Corderie Royale, arsenal, maison de Pierre Loti rouverte en 2025, pont transbordeur de Martrou : 10 activités à Rochefort, en Charente-Maritime.",
+    category: "tourisme",
+    emoji: "⚓",
+    readMinutes: 7,
+    publishedAt: "2026-08-29",
+    updatedAt: "2026-08-29",
+    intro: "Rochefort comptait 23 188 habitants au recensement de 2022, contre 25 183 en 2011, et cette érosion démographique dit quelque chose de la ville : elle a été créée de toutes pièces pour une fonction, l'arsenal de la marine royale, et elle a passé le dernier siècle à vivre avec un patrimoine trop grand pour elle. C'est précisément ce qui la rend intéressante à visiter. Une ville dessinée au cordeau sur une boucle de la Charente, avec une manufacture de 374 mètres au bord de l'eau et une maison d'écrivain qui vient de rouvrir après douze ans de fermeture, cela n'existe nulle part ailleurs en France.",
+    sections: [
+      {
+        heading: "1. La Corderie Royale",
+        body: "Colbert voulait pour Louis XIV un arsenal qui soit le plus grand et le plus beau du monde, et il l'a implanté sur une boucle de la Charente, assez loin de l'océan pour être à l'abri d'un coup de main anglais. La Corderie Royale en est la pièce maîtresse : 374 mètres de long, la plus longue manufacture d'Europe lors de sa construction, une longueur dictée par une contrainte technique simple — il fallait pouvoir commettre un cordage d'un seul tenant sur la longueur d'une encablure. Le bâtiment se déroule au bord du fleuve, dans un jardin, et sa façade classique en pierre blanche est d'une élégance inattendue pour une usine à cordes."
+      },
+      {
+        heading: "2. L'arsenal et le musée national de la Marine",
+        body: "Autour de la Corderie, l'ancien arsenal forme un quartier entier : formes de radoub, magasins, ateliers, et le musée national de la Marine installé dans l'hôtel de Cheusses. C'est l'un des rares endroits où l'on comprend qu'une marine de guerre à voile était d'abord une affaire industrielle et logistique, faite de bois, de chanvre, de fer et de milliers d'ouvriers, bien avant d'être une affaire de batailles. Le site propose aujourd'hui plusieurs visites sous une billetterie commune ; c'est l'ensemble qui vaut la journée, pas un bâtiment isolé, et l'ordre logique est de commencer par la Corderie."
+      },
+      {
+        heading: "3. L'Hermione : savoir où elle est avant de venir",
+        body: "C'est le point sur lequel un guide doit être franc. La réplique de la frégate de La Fayette a bien été construite ici, dans l'ancien arsenal, à partir de juillet 1997, et mise à l'eau le 7 septembre 2014 avant de traverser l'Atlantique en 2015 sur les traces de La Fayette. Mais depuis l'automne 2021, elle est immobilisée en cale sèche à Anglet, dans le port de Bayonne, pour des travaux lourds sur sa coque, et l'association qui la porte a connu de graves difficultés financières. Elle n'est donc pas visible à Rochefort. Vérifiez sa situation avant de faire le déplacement pour elle : ne venez pas ici pour le bateau, venez pour l'arsenal qui l'a produit."
+      },
+      {
+        heading: "4. La maison de Pierre Loti, rouverte depuis 2025",
+        body: "C'est l'événement patrimonial récent de la ville. La maison de l'écrivain-officier, qui avait transformé deux maisons bourgeoises en un décor invraisemblable — salon turc, mosquée, pagode japonaise, salle gothique —, était fermée depuis douze ans. Après près de cinq ans de restauration, elle a rouvert le 10 juin 2025, dans l'état où Loti l'a laissée à sa mort en 1923, et des pièces jusque-là inaccessibles sont désormais ouvertes. Toutes les visites sont guidées, par groupes d'une dizaine de personnes, et durent environ une heure et demie : la réservation à l'avance n'est pas une précaution, c'est une nécessité, et c'est la première chose à faire en planifiant le séjour."
+      },
+      {
+        heading: "5. Le pont transbordeur de Martrou",
+        body: "Construit entre 1898 et 1900 par l'ingénieur Ferdinand Arnodin, c'est le dernier pont transbordeur de France, et il en reste huit dans le monde. Le principe est spectaculaire : un tablier suspendu très haut au-dessus du fleuve, et une nacelle qui glisse en dessous pour porter les passagers d'une rive à l'autre, de façon à laisser passer les navires. Classé monument historique le 30 avril 1976 pour empêcher sa destruction, il a été restauré entre 2016 et 2020 et réinauguré le 29 juillet 2020. Il fonctionne d'avril à début novembre. La Maison du Transbordeur, centre d'interprétation gratuit, est sur la rive d'Échillais, donc accessible depuis Rochefort sans y être située."
+      },
+      {
+        heading: "6. La ville en damier",
+        body: "Rochefort n'a pas de centre médiéval, parce qu'elle n'a pas de Moyen Âge : elle a été créée au XVIIe siècle et tracée d'un coup, en damier, autour de son arsenal. Cela se marche très bien — les rues sont droites, larges, et bordées de façades de pierre claire assez homogènes. La place Colbert, avec sa fontaine, en est le centre. C'est une ville qui se comprend en une heure de marche, ce qui est rare, et la régularité du plan est elle-même le monument : on lit dans le tracé une décision d'État, pas une croissance. Les hôtels particuliers d'officiers de marine ponctuent le quadrillage."
+      },
+      {
+        heading: "7. La place Colbert et Les Demoiselles de Rochefort",
+        body: "Jacques Demy a tourné ici, en 1967, Les Demoiselles de Rochefort, et il a fait de la place Colbert son décor principal, repeignant les façades en couleurs pastel pour l'occasion. Le film a durablement changé l'image de la ville, au point que la place reste identifiable au premier coup d'œil pour qui l'a vu. Les couleurs d'origine ont disparu depuis longtemps, donc n'attendez pas de retrouver la palette du film : ce qu'on retrouve, c'est le cadrage, les arcades et les proportions. C'est un plaisir de cinéphile plus que de touriste, et il se combine bien avec une terrasse en fin d'après-midi."
+      },
+      {
+        heading: "8. La Charente et l'estuaire",
+        body: "Le fleuve est la raison d'être de la ville et il reste le meilleur angle pour la comprendre. Les bords de Charente se parcourent à pied et à vélo depuis la Corderie, et la navigation fluviale propose en saison des sorties vers l'aval et l'embouchure. Le paysage est celui d'un estuaire large et bas, avec des marais, des carrelets sur pilotis et une lumière très plate qui explique une bonne partie de la peinture locale. C'est aussi ce qui rend le climat doux et l'endroit humide : prévoyez de quoi vous couvrir même en été, le vent d'ouest remonte le fleuve sans obstacle."
+      },
+      {
+        heading: "9. Les jardins et le patrimoine botanique",
+        body: "L'arsenal avait besoin de bois, de chanvre et de plantes médicinales pour ses équipages, et la marine a fait de Rochefort un point d'entrée des espèces rapportées par ses navires. Il en reste un patrimoine végétal réel, avec le jardin de la Marine devant la Corderie, la Corderie elle-même bordée de plantations, et des collections botaniques dans la ville. Pour un visiteur, cela donne une promenade agréable et une clé de lecture supplémentaire : ces jardins ne sont pas décoratifs à l'origine, ils sont un appendice de l'arsenal, au même titre que les formes de radoub."
+      },
+      {
+        heading: "10. Y aller, et ce qu'on visite autour",
+        body: "Rochefort est desservie par le rail depuis La Rochelle et Bordeaux, et la gare est à distance de marche du centre. Comptez deux jours : un pour l'arsenal et la Corderie, un pour la maison de Loti, le transbordeur et la ville. La position en fait une bonne base pour la côte : Fouras, Brouage et son enceinte, l'île d'Oléron par le pont, et l'île d'Aix, où l'on accède par bateau et où Napoléon a passé ses derniers jours en France. Tous sont accessibles depuis la ville sans y être situés. La Rochelle est assez proche pour une journée, et assez différente pour ne pas faire doublon."
+      }
+    ],
+    relatedCities: ["rochefort", "la-rochelle", "royan"],
+    relatedGuides: [
+      "10-choses-a-faire-a-la-rochelle-2026",
+      "10-choses-a-faire-a-royan-2026",
+      "10-choses-a-faire-a-saintes-2026",
+      "10-choses-a-faire-a-cognac-2026"
+    ],
+    tags: ["10 choses à faire à Rochefort", "activités Rochefort 2026", "que faire en Charente-Maritime", "sorties arsenal patrimoine maritime", "Corderie Royale Pierre Loti pont transbordeur Hermione"]
+  },
+  {
+    slug: "10-choses-a-faire-a-dieppe-2026",
+    title: "10 choses à faire à Dieppe",
+    metaTitle: "10 choses à faire à Dieppe en 2026",
+    metaDesc: "Première station balnéaire de France, château-musée et sa collection d'ivoires, Cité de la Mer, falaises, mémoire du 19 août 1942 : 10 activités à Dieppe.",
+    category: "tourisme",
+    emoji: "🪁",
+    readMinutes: 7,
+    publishedAt: "2026-08-29",
+    updatedAt: "2026-08-29",
+    intro: "Dieppe comptait 28 599 habitants au recensement de 2022, contre 31 148 en 2011 : la ville perd des habitants, comme beaucoup de ports de la Manche, et elle n'en est pas moins l'une des destinations les plus denses de Normandie en matière à visiter. Elle a inventé les bains de mer en France, elle a été pendant trois siècles la capitale française de l'ivoire, elle porte la mémoire de l'une des journées les plus meurtrières de la Seconde Guerre mondiale pour le Canada, et elle reste un port de pêche en activité. Le tout entre deux falaises, à deux heures de Paris.",
+    sections: [
+      {
+        heading: "1. La première station balnéaire de France",
+        body: "Un établissement de bains ouvre à Dieppe en 1824, et c'est la duchesse de Berry qui lance véritablement la mode : son bain du 3 août 1824, annoncé au canon, devant une foule massée sur la plage, est un événement médiatique au sens propre. Elle revient chaque saison jusqu'en 1829, et l'aristocratie puis la grande bourgeoisie suivent. Toute la côte normande et l'idée même de villégiature balnéaire française découlent de cette décennie. On mesure mal aujourd'hui à quel point se baigner dans la mer était alors une pratique médicale plutôt qu'un loisir : c'est l'ancêtre direct de la thalassothérapie, pas de la plage de vacances."
+      },
+      {
+        heading: "2. Le château-musée et sa collection d'ivoires",
+        body: "Le château domine la ville depuis la falaise ouest et abrite le musée municipal. Sa collection d'ivoires est la plus importante d'Europe : Dieppe a été pendant plus de trois siècles le principal centre français de travail de l'ivoire, à partir du XVIe siècle, alimenté par les navires qui touchaient les côtes africaines. Les pièces sculptées ici entre le XVIe et le XXe siècle vont du crucifix au râpe à tabac, avec une virtuosité technique qui frappe même quand le sujet ne parle pas. C'est le musée qui explique le mieux ce que Dieppe a été : un port dont la richesse venait du grand large, pas du cabotage."
+      },
+      {
+        heading: "3. Le front de mer et ses pelouses",
+        body: "Entre la ville et la plage de galets s'étend une bande de pelouses de plusieurs hectares, dégagée de toute construction, face au château. Cette largeur vide est une singularité : la plupart des stations de la Manche ont laissé bâtir jusqu'au bord. Ici, elle est le résultat des destructions de la guerre et d'un choix de reconstruction, et elle donne à Dieppe une respiration qu'aucune autre station normande n'a. C'est un espace de jeu, de marche et de cerf-volant, et c'est la meilleure façon d'aborder la ville en arrivant : marcher la longueur des pelouses avant d'entrer dans les rues."
+      },
+      {
+        heading: "4. Le festival international de cerf-volant, une année sur deux",
+        body: "Ces pelouses accueillent depuis 1980, tous les deux ans en septembre, un festival international de cerf-volant qui rassemble une quarantaine de nations invitées et qui est le plus grand rassemblement du genre. Il a valu à la ville son surnom de capitale du cerf-volant. Attention au calendrier : les éditions tombent les années impaires, la dernière ayant eu lieu en septembre 2025 et la prochaine étant attendue en 2027. Il n'y a donc pas d'édition en 2026, et une page qui vous promet le contraire recopie une année précédente. Les dates précises se vérifient auprès de l'organisation."
+      },
+      {
+        heading: "5. L'Estran Cité de la Mer",
+        body: "Créé le 20 mai 1987, l'Estran est un centre de culture scientifique consacré à la côte de Haute-Normandie, organisé en quatre espaces : la construction navale, la pêche de la mer à l'assiette, les falaises et les galets, et des aquariums présentant la faune de la Manche. C'est franchement pédagogique et c'est fait pour, notamment avec des enfants. Sa vraie valeur est de donner les clés du paysage qu'on va ensuite regarder à l'extérieur : pourquoi la falaise recule, d'où viennent les galets, comment ils se déplacent le long de la côte. On en sort en lisant la plage autrement."
+      },
+      {
+        heading: "6. Le port de pêche et le quai Henri IV",
+        body: "Dieppe reste un port de pêche en activité, et le port pénètre au cœur de la ville, ce qui est devenu rare. Les bateaux déchargent, la criée fonctionne, et le quai Henri IV aligne les restaurants face aux bassins. La coquille Saint-Jacques est le produit local emblématique et la saison de pêche court l'hiver, ce qui fait de Dieppe une destination qui a un intérêt gastronomique réel hors saison estivale. Le marché du samedi matin, qui s'étire dans les rues du centre, est l'un des plus réputés de Normandie et se combine bien avec une visite du port juste avant."
+      },
+      {
+        heading: "7. Le 19 août 1942, l'opération Jubilee",
+        body: "À l'aube du 19 août 1942, un peu plus de six mille hommes, dont près de cinq mille Canadiens, un millier de Britanniques, une cinquantaine de rangers américains et quelques Français libres, débarquent en cinq points répartis sur une quinzaine de kilomètres de côte tenue par les Allemands. L'opération est un échec total et devient la journée la plus meurtrière de la guerre pour le Canada. La ville porte cette mémoire de façon très présente : plaques, mémorial, et le cimetière militaire canadien situé à Hautot-sur-Mer, accessible depuis Dieppe sans y être situé. C'est un des rares endroits de France où le lien avec le Canada est vécu et pas seulement commémoré."
+      },
+      {
+        heading: "8. L'église Saint-Jacques et le centre",
+        body: "L'église Saint-Jacques, au cœur du centre, est un vaisseau gothique bâti et remanié sur plusieurs siècles, dont le portail et la tour dominent une place commerçante. Autour, le centre reconstruit après-guerre alterne avec des rues plus anciennes, et le résultat est moins homogène que Le Havre mais plus habité. La Grande Rue piétonne relie l'église au front de mer. C'est une ville qui se fait à pied intégralement, château compris si l'on accepte la montée, et il n'y a aucune raison de prendre la voiture une fois arrivé — ce qui n'est pas le cas de la plupart des stations de la côte."
+      },
+      {
+        heading: "9. Les falaises, Pourville et Varengeville",
+        body: "De part et d'autre de la ville, la côte d'Albâtre reprend ses falaises de craie, et le sentier littoral les longe. Vers l'ouest, on rejoint Pourville puis Varengeville-sur-Mer, communes voisines accessibles depuis Dieppe : c'est le paysage que Monet, Braque et beaucoup d'autres sont venus peindre, et Braque est enterré au cimetière marin de Varengeville, face à la mer. La marche est exposée et le vent y est constant. Vérifiez le balisage et respectez les distances au bord : la falaise de craie s'effondre par plaques, sans prévenir, et les reculs sont réels d'une année sur l'autre."
+      },
+      {
+        heading: "10. Y aller, et pourquoi c'est facile",
+        body: "Dieppe a une ligne ferroviaire directe depuis Paris-Saint-Lazare via Rouen, ce qui en fait la plage de la Manche la plus simple à atteindre sans voiture depuis la capitale — argument décisif pour un week-end. Le port assure par ailleurs une liaison transmanche vers Newhaven, en Angleterre. Deux jours suffisent pour la ville, le château et le front de mer ; trois si vous marchez sur les falaises ou poussez jusqu'à Varengeville. La ville se combine naturellement avec Rouen, à une heure, et le contraste entre le port et la ville-musée normande vaut le détour."
+      }
+    ],
+    relatedCities: ["dieppe", "rouen", "le-havre"],
+    relatedGuides: [
+      "10-choses-a-faire-a-rouen-2026",
+      "10-choses-a-faire-a-le-havre-2026",
+      "10-choses-a-faire-a-honfleur-2026",
+      "10-choses-a-faire-a-bayeux-2026"
+    ],
+    tags: ["10 choses à faire à Dieppe", "activités Dieppe 2026", "que faire en Seine-Maritime", "sorties côte d'Albâtre Normandie", "château-musée ivoires cerf-volant Cité de la Mer Jubilee"]
+  },
+  {
+    slug: "10-choses-a-faire-a-douai-2026",
+    title: "10 choses à faire à Douai",
+    metaTitle: "10 choses à faire à Douai en 2026",
+    metaDesc: "Beffroi UNESCO et son carillon de 62 cloches, géants de Gayant, musée de la Chartreuse, mine de Lewarde : 10 activités à Douai, dans le Nord.",
+    category: "tourisme",
+    emoji: "🔔",
+    readMinutes: 7,
+    publishedAt: "2026-08-29",
+    updatedAt: "2026-08-29",
+    intro: "Douai comptait 39 833 habitants au recensement de 2022, un chiffre stable depuis 2016 après une décennie de baisse. La ville a une réputation injuste dans le Nord : on la traverse en allant à Lille ou à Arras, et on la range dans le bassin minier sans regarder. Or elle n'est pas une ville de mine — elle a été ville de justice, d'université et d'imprimerie, et elle a gardé de cette histoire un beffroi inscrit à l'UNESCO, le plus important carillon de France et une famille de géants qui sort chaque été depuis près de cinq siècles. La mine, elle, est à côté, et elle se visite aussi.",
+    sections: [
+      {
+        heading: "1. Le beffroi et sa silhouette",
+        body: "Le beffroi de Douai a été commencé en 1391, et il est inscrit au patrimoine mondial de l'UNESCO depuis 2005, avec l'ensemble des beffrois de Belgique et du nord de la France. Un beffroi n'est ni une église ni un donjon : c'est la tour d'une ville libre, le lieu où l'on gardait la charte des libertés communales et d'où l'on sonnait le rythme de la vie collective. Celui de Douai est le plus haut et le plus ouvragé du département, avec sa forêt de tourelles et son couronnement gothique. On le monte, et la vue depuis le sommet porte sur la plaine de la Scarpe et, par temps clair, jusqu'aux terrils."
+      },
+      {
+        heading: "2. Le carillon, 62 cloches",
+        body: "Le beffroi abrite un carillon de 62 cloches, le plus important de France. Ce n'est pas un détail d'érudit : un carillon de cette taille permet de jouer un vrai répertoire, et pas seulement des ritournelles, et Douai entretient un carillonneur titulaire qui donne des concerts réguliers depuis le clavier. Le mécanisme automatique se déclenche par ailleurs plusieurs fois par heure. L'usage à connaître est simple : renseignez-vous sur l'horaire du concert hebdomadaire et installez-vous sur la place à ce moment-là. Écouter le carillon assis en bas, gratuitement, est une expérience très différente de la montée dans la tour, et les deux se complètent."
+      },
+      {
+        heading: "3. Les géants de Gayant",
+        body: "Gayant — le mot signifie géant en picard — est né en 1530, son corps d'osier tressé par la corporation des vanniers pour une procession en l'honneur de saint Maurand, patron de la ville. Il n'a jamais cessé de sortir depuis. Monsieur Gayant mesure 8,50 mètres et pèse 370 kilos ; son épouse Marie Cagenon mesure 6,25 mètres ; ils ont trois enfants, Jacquot, Fillon et Binbin. Toute la famille est portée par des hommes cachés à l'intérieur, et le pas de marche est réglé sur la musique. C'est une des traditions vivantes les plus anciennes de France, et les Douaisiens en parlent comme d'une famille réelle, ce qu'il faut prendre au sérieux."
+      },
+      {
+        heading: "4. Les Fêtes de Gayant, en juillet",
+        body: "Les fêtes se tiennent traditionnellement le dimanche qui suit le 5 juillet et les deux jours suivants. Le programme est immuable : sortie des géants de la Maison des Géants, grand cortège dans les rues, bals populaires, fête foraine, défilé de géants venus d'ailleurs, et retraite aux flambeaux. Les géants et dragons processionnels de Belgique et de France sont inscrits par l'UNESCO au patrimoine culturel immatériel de l'humanité depuis 2005. Hors période de fête, la Maison des Géants permet de voir les figures de près et de comprendre comment elles sont construites et portées, ce qui est franchement plus instructif que de les apercevoir de loin dans une foule."
+      },
+      {
+        heading: "5. Le musée de la Chartreuse",
+        body: "Installé depuis 1958 dans une ancienne chartreuse, le musée occupe des bâtiments remarquables en eux-mêmes : l'hôtel d'Abancourt, de 1559, et l'aile élevée par les Montmorency en 1608, dans un style Renaissance flamande qu'on ne voit pas ailleurs en France à cette qualité. Les collections dépassent dix mille œuvres et se parcourent chronologiquement, du Moyen Âge à l'époque moderne, avec de la peinture, de la sculpture française et des objets d'art. C'est un musée de beaux-arts de rang réellement national dans une ville de quarante mille habitants, et c'est peu connu hors des Hauts-de-France."
+      },
+      {
+        heading: "6. La Scarpe et les quais",
+        body: "La rivière traverse la ville et explique son implantation : la Scarpe a fait de Douai un point de passage et un port intérieur, et l'eau est restée présente dans le tissu urbain sous forme de bras, de quais et de ponts. La promenade le long des berges est plate, ombragée par endroits, et elle relie plusieurs des sites de la ville sans passer par les axes routiers. C'est aussi le bon moyen de voir les arrières de la ville ancienne, les jardins et les façades sur l'eau, qui donnent une image assez différente de celle des places. Comptez une heure tranquille."
+      },
+      {
+        heading: "7. Le centre, la place d'Armes et les façades",
+        body: "Le centre s'organise autour de la place d'Armes et de la rue de la Mairie, avec un tissu de maisons en brique et pierre typiquement flamandes, des pignons à redents et des façades XVIIIe en pierre blanche. Douai a été épargnée par certaines destructions qui ont frappé ses voisines, ce qui laisse un ensemble ancien plus continu qu'à Lens ou Valenciennes. C'est une ville de brique, avec ce que cela suppose de tonalité chaude en fin de journée. Le centre est compact et se parcourt en une heure de flânerie, terrasses comprises."
+      },
+      {
+        heading: "8. Le Centre historique minier de Lewarde",
+        body: "Il est accessible depuis Douai sans y être situé : le Centre historique minier occupe l'ancienne fosse Delloye, sur la commune de Lewarde, à quelques kilomètres à l'est. C'est le plus grand musée de la mine de France, il reçoit plus de 150 000 visiteurs par an, et son exposition retrace les changements du paysage industriel et des techniques sur les 270 ans d'exploitation du charbon dans le Nord-Pas-de-Calais. La visite passe par des galeries reconstituées et, quand le calendrier le permet, elle est menée par d'anciens mineurs. C'est la visite qui donne son sens au bassin minier alentour, terrils et corons compris."
+      },
+      {
+        heading: "9. Comprendre la ville de justice et d'imprimerie",
+        body: "Douai a été une ville de droit et de livres. Elle a hébergé une université à partir du XVIe siècle, une importante activité d'imprimerie, notamment de livres destinés aux catholiques anglais réfugiés, et plus tard une cour souveraine pour les provinces du Nord. Il en reste un tissu de bâtiments publics massifs et une bibliothèque au fonds ancien considérable. Ce n'est pas un circuit fléché, mais c'est la clé qui manque à la plupart des visiteurs : elle explique pourquoi une ville de cette taille possède un tel beffroi, un tel musée et une telle densité d'hôtels particuliers, alors qu'elle n'a jamais été une capitale."
+      },
+      {
+        heading: "10. Y aller, et avec quoi la combiner",
+        body: "Douai est sur la ligne Paris-Lille, avec des dessertes rapides, et la gare est à distance de marche du centre. Une journée pleine couvre le beffroi, le musée et le centre ; deux jours permettent d'ajouter Lewarde, qui demande une demi-journée à lui seul. La ville est un point de départ commode pour le bassin minier inscrit à l'UNESCO, pour Arras et sa Grand-Place, à une vingtaine de minutes de train, et pour Lille. Si vous ne devez venir qu'une fois, visez le début juillet pour les Fêtes de Gayant : c'est le moment où la ville montre ce qu'elle est vraiment."
+      }
+    ],
+    relatedCities: ["douai", "lille", "arras"],
+    relatedGuides: [
+      "10-choses-a-faire-a-lille-2026",
+      "10-choses-a-faire-a-arras-2026",
+      "10-choses-a-faire-a-valenciennes-2026",
+      "10-choses-a-faire-a-lens-2026"
+    ],
+    tags: ["10 choses à faire à Douai", "activités Douai 2026", "que faire dans le Nord", "sorties Hauts-de-France beffrois", "beffroi carillon Gayant Chartreuse Lewarde"]
+  },
+  {
+    slug: "10-choses-a-faire-a-sens-2026",
+    title: "10 choses à faire à Sens",
+    metaTitle: "10 choses à faire à Sens en 2026",
+    metaDesc: "La première cathédrale gothique de France, le trésor et les vêtements de Thomas Becket, les musées, le marché couvert de 1882 : 10 activités à Sens.",
+    category: "tourisme",
+    emoji: "⛪",
+    readMinutes: 7,
+    publishedAt: "2026-08-29",
+    updatedAt: "2026-08-29",
+    intro: "Sens comptait 27 275 habitants au recensement de 2022, contre 25 146 en 2011, et c'est une des rares villes moyennes de Bourgogne qui gagne des habitants — la proximité de l'Île-de-France y est pour beaucoup. Sa cathédrale est la première cathédrale gothique jamais construite, chantier ouvert une génération avant Notre-Dame de Paris, et son trésor conserve les vêtements liturgiques de Thomas Becket. Autrement dit : une ville d'un peu plus de vingt-cinq mille habitants, à une heure de Paris, détient le point de départ de toute l'architecture gothique. Peu de monde le sait, et c'est exactement pour ça que ce guide existe.",
+    sections: [
+      {
+        heading: "1. La cathédrale Saint-Étienne, première du genre",
+        body: "Le chantier s'ouvre vers 1135 à l'initiative de l'archevêque Henri Sanglier, et la cathédrale est consacrée en 1164 : c'est la première cathédrale gothique de la chrétienté, commencée une trentaine d'années avant Notre-Dame de Paris. On y voit donc le gothique en train de s'inventer, avec des solutions encore expérimentales — des supports alternés, des proportions plus trapues que dans les édifices postérieurs, une élévation qui n'ose pas encore ce que Chartres osera. Ce n'est pas la plus haute ni la plus vertigineuse des cathédrales françaises, et c'est le sujet : elle est la première, et tout ce qui suit vient de là."
+      },
+      {
+        heading: "2. L'architecte Guillaume de Sens",
+        body: "L'homme du chantier s'appelle Guillaume de Sens, et sa trajectoire dit l'importance du lieu : après Sens, c'est lui qui est appelé en Angleterre pour reconstruire le chœur de la cathédrale de Cantorbéry après l'incendie de 1174. Le gothique français passe la Manche par cet homme et par ce chantier. Quand on regarde l'élévation de la nef de Sens, on regarde donc aussi la matrice de ce qui se construira à Cantorbéry, et par contrecoup dans une grande partie de l'Angleterre. C'est le genre de filiation qui ne se voit pas sans être signalée, et qui change complètement la façon de regarder le bâtiment."
+      },
+      {
+        heading: "3. Le trésor de la cathédrale",
+        body: "Le trésor de Sens est l'un des plus riches de France, avec celui de Sainte-Foy de Conques. Il conserve des étoffes, des ivoires, de l'orfèvrerie et des reliquaires, et son fonds textile médiéval est d'une rareté exceptionnelle — le tissu survit très mal, et une collection de cette ampleur n'a que peu d'équivalents en Europe. Il est présenté dans les bâtiments accolés à la cathédrale, avec les musées de la ville, sous une billetterie commune. C'est la visite à ne pas sauter : la cathédrale est gratuite et impressionnante, mais c'est le trésor qui contient les objets dont on se souvient."
+      },
+      {
+        heading: "4. Les vêtements de Thomas Becket",
+        body: "Thomas Becket, archevêque de Cantorbéry en conflit ouvert avec Henri II d'Angleterre, s'est réfugié en France et est venu à Sens : une première fois en 1164 pour rencontrer le pape Alexandre III, une seconde en 1170 juste avant de rentrer en Angleterre, où il fut assassiné dans sa cathédrale quelques semaines plus tard. Le trésor de Sens conserve ses vêtements liturgiques du XIIe siècle, et la cathédrale possède un vitrail du début du XIIIe siècle qui raconte son martyre. Voir les habits d'un homme dont on connaît la fin précise, dans la ville qui l'a hébergé, produit un effet que peu de reliques procurent."
+      },
+      {
+        heading: "5. Les musées de Sens, dans le palais des archevêques",
+        body: "Les musées occupent l'ancien palais des archevêques, accolé à la cathédrale, dont l'aile dite Henri II a été élevée au XVIe siècle par le cardinal Louis de Bourbon. Les collections archéologiques gallo-romaines sont le point fort : Sens était Agedincum, capitale de cité, et la ville a livré un matériel considérable, dont des éléments lapidaires remployés dans les remparts et redécouverts au XIXe siècle. L'ensemble cathédrale, trésor, palais et musées forme un bloc unique qu'on visite d'un tenant. Comptez une demi-journée complète, sans essayer de faire vite : c'est la moitié de l'intérêt de la ville."
+      },
+      {
+        heading: "6. Le marché couvert de 1882",
+        body: "Inauguré en 1882, le marché couvert est un exemple rare d'architecture métallique de type Baltard conservé en province, avec sa charpente de fer et son remplissage de brique. Il est classé au titre des monuments historiques depuis 1975. Les plans sont de deux architectes locaux, Horace Lefort et Benoni Roblot, retenus au terme d'un concours à la fin des années 1870. Il fonctionne toujours comme marché, ce qui est la meilleure façon de visiter ce genre d'édifice : les jours de marché, on y va pour acheter, et l'architecture se regarde par-dessus les étals. Le contraste avec la cathédrale voisine, à deux siècles et demi de distance, est saisissant."
+      },
+      {
+        heading: "7. Le centre ancien et les maisons à pans de bois",
+        body: "Autour de la cathédrale subsiste un tissu médiéval avec plusieurs maisons à pans de bois, dont la maison dite d'Abraham, à l'angle de deux rues, avec son poteau cornier sculpté. Le centre est compact, en partie piéton, et il se parcourt en une heure. C'est une ville qui a gardé son échelle : les rues sont étroites, les commerces sont au rez-de-chaussée d'immeubles anciens, et la cathédrale surgit au détour d'une rue au lieu d'être posée sur un parvis dégagé — configuration médiévale d'origine, que beaucoup de villes ont perdue en creusant des perspectives au XIXe siècle."
+      },
+      {
+        heading: "8. Les bords de l'Yonne",
+        body: "L'Yonne traverse la ville et ses quais ont été aménagés en promenade. La rivière a été la voie de flottage du bois vers Paris pendant des siècles, ce qui explique une bonne partie de la prospérité locale : Sens est sur la route qui chauffait la capitale. Aujourd'hui, les berges servent à la marche et au vélo, et le chemin s'inscrit dans les itinéraires cyclables de la vallée. C'est plat, c'est ombragé, et c'est le contrepoint reposant d'une matinée passée dans le trésor. Le parc du Moulin à Tan, sur la rive opposée, ajoute des serres et un espace de jeux pour les familles."
+      },
+      {
+        heading: "9. La ville primatiale",
+        body: "La cathédrale porte le titre de métropolitaine et primatiale, et ce n'est pas un ornement : l'archevêque de Sens a exercé pendant des siècles une autorité qui dépassait largement le nord de la Bourgogne actuelle, sur une province ecclésiastique considérable. C'est ce qui explique la disproportion entre la taille de la ville et l'ambition de son chantier, et pourquoi c'est ici, plutôt que dans une capitale, que le gothique a été tenté en premier. Garder cette clé en tête change la visite : on ne regarde plus une grande église dans une petite ville, on regarde le siège d'un pouvoir qui n'existe plus."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Sens est desservie directement depuis Paris-Bercy et Paris-Gare de Lyon par la ligne de l'Yonne, en un peu plus d'une heure, et la gare est à dix minutes à pied de la cathédrale. C'est donc une excursion à la journée parfaitement réaliste depuis Paris, ce qui est rare pour un site de cette importance. Comptez une journée pleine pour la cathédrale, le trésor et les musées, et une seconde si vous voulez le marché et la vallée. La ville se combine ensuite avec Troyes vers l'est et Auxerre vers le sud, deux villes qui n'ont ni la même époque ni le même sujet."
+      }
+    ],
+    relatedCities: ["sens", "auxerre", "troyes"],
+    relatedGuides: [
+      "10-choses-a-faire-a-auxerre-2026",
+      "10-choses-a-faire-a-troyes-2026",
+      "10-choses-a-faire-a-fontainebleau-2026",
+      "10-choses-a-faire-a-provins-2026"
+    ],
+    tags: ["10 choses à faire à Sens", "activités Sens 2026", "que faire dans l'Yonne", "sorties Bourgogne gothique", "cathédrale Saint-Étienne trésor Thomas Becket marché couvert"]
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
