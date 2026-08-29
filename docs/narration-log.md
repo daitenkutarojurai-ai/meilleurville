@@ -40,3 +40,4 @@ Les données factuelles (chiffres, scores, noms) ne sont jamais modifiées.
 - 2026-08-19 data/guides.ts :: travail-a-nimes-2026
 - 2026-08-26 data/guides.ts :: travail-a-le-mans-2026
 - 2026-08-28 data/guides.ts :: acheter-immobilier-outre-mer-drom-france-2026
+- 2026-08-29 data/guides.ts :: vivre-dans-bourg-2000-habitants-france-2026
