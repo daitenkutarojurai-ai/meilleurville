@@ -3158,6 +3158,107 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ---
 
+## Shipped 2026-08-29
+
+- **Parité EN — deuxième lot `living-in-[sous-région]-2026` (+6 : les Pyrénées, la Lorraine, la
+  Sarthe, l'Auvergne, la Bretagne intérieure, les DROM).** `npm run parity` sort en **code 0**,
+  0 route FR sans jumelle EN : la parité de routes tient depuis le 09/08, le run est donc allé sur
+  l'**écart de corpus**, mesuré ce run à **FR 1 012 / EN 765**. Les sitemaps en ligne restent
+  injoignables depuis une routine cloud, donc l'écart par section est **non mesuré, pas nul**.
+  **Compteurs mesurés : `EN_GUIDES` 765 → 771**, `data/search-index.en.json` 771 guides, 108 tags
+  (103 → 108, d'où le passage de `sitemap:check` : EN 28 629 → 28 657 URL).
+
+  **Le diff par série est à refaire avant tout autre lot : il n'y a presque plus de trou par ville.**
+  Le contrôle ville par ville sur les huit séries per-city apparie **`etudiant-a-`/`studying-in-`,
+  `retraite-a-`/`retiring-in-`, `travail-a-`/`working-in-`, `famille-a-`/`family-in-`,
+  `acheter-a-`/`where-to-buy-in-`, `budget-mensuel-realiste-`/`cost-of-living-` et
+  `vivre-sans-voiture-`/`car-free-living-in-` à zéro manque**, et `single-parent-in-` (63) dépasse
+  déjà `parent-solo-a-` (57). L'écart de 247 guides est donc presque entièrement dans des **grappes
+  thématiques FR sans jumelle** (`vivre-en-` 56, `meilleures-villes-` 52, `vivre-a-` 51,
+  `demenager-a-` 50, `quitter-` 55), pas dans des villes oubliées. Ne pas repartir d'un comptage de
+  préfixes : il fabrique des faux manques (`vivre-sans-voiture-paris-guide` face à
+  `car-free-living-in-paris-2026` sort « 16 manquants » sur une série complète).
+
+  **⚠️ Le Jura a été écrit puis RETIRÉ avant commit — ne pas le réécrire.** Le lot du 28/08 l'avait
+  déjà écarté au motif que `living-in-bourgogne-franche-comte-2026` le couvre ; le contrôle a été
+  refait ce run et l'exclusion est **confirmée et plus forte que notée** : ce guide s'intitule
+  « An Expat Guide to Burgundy **and the Jura** », cite le Jura 9 fois, la Suisse 4 fois, et porte
+  le **même squelette de sections** (« Where to base yourself », « Property and cost of living »,
+  « Who it suits — and the honest downsides »). Deux pages dont le titre revendique le même massif,
+  c'est exactement la cannibalisation que CLAUDE.md documente. Le guide rédigé (Besançon, Pontarlier,
+  Dole, Belfort, Lons-le-Saunier, Montbéliard + la règle fiscale de l'accord de 1983) a donc été
+  jeté, pas commité. **Condition de réouverture** : réécrire d'abord le guide Bourgogne-Franche-Comté
+  pour qu'il cesse de revendiquer le Jura, sinon les deux se mangent.
+
+  **Le test qui décide, et pourquoi les cinq autres passent.** Le critère retenu est le **titre**,
+  pas le nombre de mentions : une grappe sous-régionale sous un guide de région administrative est un
+  patron **déjà établi** dans le corpus (`living-in-the-gard` sous `living-in-occitanie`,
+  `living-in-haute-savoie` sous `living-in-auvergne-rhone-alpes`, `living-in-the-dordogne` sous
+  `living-in-nouvelle-aquitaine`) et il est à parité avec le FR, qui fait pareil. L'exclusion ne se
+  déclenche que quand le guide large **nomme la sous-région dans son titre**. Vérifié un par un :
+  `living-in-grand-est` s'intitule « France's Border Region » (Lorraine seulement dans le corps),
+  `living-in-auvergne-rhone-alpes` « Lyon, the Alps and Beyond », `living-in-pays-de-la-loire`
+  « the Atlantic West » (aucune mention de la Sarthe), `living-in-brittany` « France's Celtic
+  Coast » — cadré littoral, quand le nouveau guide prend l'Argoat que le premier ne fait
+  qu'indiquer en quatre phrases. Et `living-in-ariege` (« Rural Pyrenees ») ne cite **ni Pau, ni
+  Bayonne, ni Tarbes, ni Perpignan, ni le Pays basque, ni le catalan** : un guide de chaîne entière
+  Atlantique→Méditerranée est un autre objet. Mitigation appliquée aux quatre voisinages, sur le
+  précédent Corrèze-Limousin→Creuse du 28/08 : **chaque nouveau guide dit en première section ce
+  qu'il couvre et renvoie nommément au guide adjacent**, plutôt que de le recouvrir en silence.
+
+  **Chiffres.** Tous les loyers, prix et scores sont lus **dans les modules** (`data/housing.ts`,
+  `CITIES_SEED` via un `npx tsx` de scratch), jamais dans les littéraux du seed ni dans le texte des
+  guides FR — `integrity` confirme « 0 score brut recopié » côté EN. Aucun horaire, aucun tarif.
+  `metaTitle` 44-54 caractères, `metaDesc` 141-155, 6 à 8 sections, 1 045 à 1 729 mots. Densité
+  d'accents 0,022-0,028 par mot, dans la bande des guides EN déjà livrés (0,012-0,034 mesuré sur
+  `living-in-the-ain`, `-brittany`, `-the-dordogne`, `-alsace`) — **le seuil ascii-strip de 0,09 est
+  un seuil FR et ne s'applique pas à de l'anglais**. Les 6 guides ont été vérifiés **retrouvés par
+  `getEnGuide()`** et **remontés par la recherche inverse `relatedCities`** sur 11 régions, dont les
+  cinq DROM.
+
+  **Trois erreurs des sources FR corrigées avant rédaction, qu'aucun contrôle automatique ne voit.**
+  1. **Fuseaux horaires des DROM** (`vivre-en-outre-mer-guide-2026`) : le guide FR écrit « −1h
+     Antilles/Guyane, +1h ou +3h Mayotte/Réunion ». C'est faux dans les deux sens. Les valeurs
+     retenues : Guadeloupe et Martinique **UTC−4**, Guyane **UTC−3**, Mayotte **UTC+3**, Réunion
+     **UTC+4**, aucun ne pratiquant l'heure d'été — donc l'écart avec la métropole **bouge d'une
+     heure deux fois par an**, ce qui est le fait utile pour qui garde un employeur métropolitain.
+     Cohérent avec le batch 33, qui avait déjà établi « La Réunion est à UTC+4 sans heure d'été ».
+  2. **Paris–Clermont-Ferrand n'est pas un TGV** (`vivre-en-auvergne-guide-2025` annonce « liaisons
+     TGV vers Paris (3h) »). C'est une ligne **Intercités** classique et le trajet dépasse trois
+     heures. Le guide EN le dit explicitement, sans chiffre au quart d'heure, parce que c'est
+     précisément le point qui disqualifie la région pour qui a besoin de Paris régulièrement.
+  3. **Population de Saint-Denis de La Réunion** : 153 810 au seed contre « 154 000 » dans le guide
+     FR. Le rendu prime, comme partout ailleurs.
+
+  **Prudences portées par la copie, à ne pas diluer.** ① **Mayotte passe en première section**, avant
+  toute phrase sur le lagon : le cyclone **Chido de décembre 2024** et la reconstruction toujours en
+  cours en 2026, la ressource en eau sous tension, et le fait que c'est une affectation professionnelle
+  et non un projet lifestyle — même cadrage qu'aux batches 30 et 31. ② **La baignade en mer est
+  interdite à La Réunion** hors lagon de la côte ouest et hors zones surveillées (risque requin),
+  avec la précision géographique qu'**il n'y a pas de lagon à l'est ni au sud** : c'est une
+  interdiction, pas un conseil. ③ Les **DROM ne sont pas dans Schengen** et sont **hors territoire
+  TVA et accises de l'UE** — un visa Schengen n'y vaut pas, point que le lecteur anglophone ne peut
+  pas deviner et que le guide FR n'a aucune raison de porter. ④ La **prime d'indexation des
+  fonctionnaires** (1,4 à ~1,53) est présentée avec son revers : salariés du privé, indépendants et
+  télétravailleurs **n'y ont pas droit** et absorbent la majoration de prix sans contrepartie.
+  ⑤ Sur la Bretagne intérieure, la **sous-densité médicale** est écrite comme rédhibitoire pour qui a
+  des besoins de soins réguliers, et la **faible liquidité à la revente** comme une raison de n'acheter
+  que pour y vivre. ⑥ **Vichy** : le guide nomme en une incise l'origine du nom pour un lecteur
+  anglophone (le régime de 1940-1944 y a réquisitionné les hôtels) avant de parler de la ville thermale
+  UNESCO — l'omettre serait une lacune, s'y appesantir une faute. ⑦ Le seuil de **34 jours** de
+  télétravail France-Luxembourg est donné avec la consigne de vérifier l'année en cours, parce qu'il a
+  déjà été renégocié plusieurs fois.
+
+  **Reste à faire.** Les grappes FR sans jumelle EN, par taille : `vivre-a-[ville]` (51),
+  `demenager-a-[ville]` (50) — attention, `[city]-living-guide-for-expats` et `moving-to-` couvrent
+  déjà une partie, à comparer ville par ville avant d'écrire —, `meilleures-villes-` (52, mais le
+  reliquat est en faible intention expatriée selon le contrôle du 28/08) et `quitter-` (55, écarté :
+  « quitter Amiens » n'a pas de lecteur anglophone). Sous-régions encore non couvertes et sans
+  recouvrement de titre : la Champagne hors Reims, la Savoie hors Haute-Savoie, la Normandie
+  intérieure. Le Jura est **fermé** tant que la condition ci-dessus n'est pas remplie.
+
+---
+
 ## Shipped 2026-08-28
 
 - **Parité EN — ouverture d'un lot `living-in-[sous-région]-2026` (+8 : le Vaucluse, le Gard, la

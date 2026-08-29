@@ -31555,6 +31555,274 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["valence", "montelimar", "annonay", "romans-sur-isere", "aubenas"],
     tags: ["living in the ardeche", "living in the drome", "moving to france", "valence", "auvergne-rhone-alpes"],
   },
+  {
+    slug: "living-in-the-pyrenees-2026",
+    title: "Living in the Pyrenees: the foothill towns",
+    metaTitle: "Living in the Pyrenees 2026: Pau, Tarbes & Foothills",
+    metaDesc:
+      "Moving to the Pyrenees? Honest 2026 guide to Pau, Bayonne, Tarbes, Foix and Perpignan: rents, €/m², mountain and sea access, and who each town suits.",
+    category: "moving",
+    emoji: "⛰️",
+    readMinutes: 10,
+    publishedAt: "2026-08-29",
+    updatedAt: "2026-08-29",
+    intro:
+      "The Pyrenees are the mountain range most foreign buyers overlook in favour of the Alps, and the price difference is the reason to look again. The range runs 430 kilometres from the Atlantic to the Mediterranean, and almost nobody lives in the mountains themselves. What you actually buy is a foothill town, sitting on the plain with the peaks in view and forty to sixty minutes away. This guide covers those towns from west to east, because the Basque end and the Catalan end have almost nothing in common beyond the skyline, and treats the price gap between them as the main decision you have to make.",
+    sections: [
+      {
+        heading: "The geography that makes this range different",
+        body: "The Pyrenees have two coasts. From the western end, Bayonne, Pau and Tarbes are forty-five to ninety minutes from the Atlantic. From the eastern end, Foix, Pamiers and Perpignan are one to one and a half hours from the Mediterranean. No other mountain range in Europe puts a choice of two seas and a 3,000-metre skyline within the same morning. The second thing that matters is Spain: the border runs along the crest, and from Perpignan you are half an hour from it. For an incomer that is not a curiosity, it is a supermarket, a fuel price and a second set of airports. The third is language. Basque in the west, Occitan and Gascon in the middle, Catalan in the east are living languages here rather than heritage signage, and the cultural border between them is sharper than the departmental one. This guide covers the whole range from coast to coast; if you already know you want the central Pyrenees, we have a separate, deeper guide to living in the Ariège.",
+      },
+      {
+        heading: "Pau: the best all-round value on the range",
+        body: "Pau is a town of about 77,000 with a royal château, a university, a teaching hospital and the Boulevard des Pyrénées, a terrace laid out to look straight at the mountains. It has an unusual history for a French provincial town: it was a Victorian winter resort with a large British colony, and the golf club founded there in 1856 by Scottish officers is the oldest on the European continent. TotalEnergies has a major research base in the town, which gives it a professional job market that most foothill towns lack. Our reference figures are €680 for a T2, €900 for a T3 and about €2,400/m², and it scores 6.4 out of 10 overall with 7.0 for nature. The mountains are forty-five minutes, Bayonne and the Atlantic about an hour, Bordeaux around an hour and a half by train. If you want one recommendation from this guide and do not have a reason to prefer elsewhere, it is Pau.",
+      },
+      {
+        heading: "Bayonne and the Basque coast: the expensive end",
+        body: "Bayonne is the real capital of the French Basque Country, a walled town of around 52,000 at the confluence of two rivers, with a Gothic cathedral, a chocolate trade dating to the sixteenth century, and summer festivals that bring in crowds on a scale the town is not otherwise built for. Biarritz and the Atlantic surf beaches are ten minutes away. It is also, by a distance, the most expensive place in this guide: €900 for a T2, €1,200 for a T3 and about €4,500/m². Biarritz next door runs €1,000, €1,400 and roughly €6,500/m². The site's cost axis, where a high score means affordable, puts Bayonne at 3.8 and Biarritz at 2.9, among the worst figures in France outside Paris and the Riviera. The lifestyle is exceptional and the price is not negotiable, so if the coast is the point but the budget is not there, look inland to Orthez or Mourenx in the same department, where the same weather costs a fraction.",
+      },
+      {
+        heading: "Tarbes and the Hautes-Pyrénées: mountains on a budget",
+        body: "Tarbes is the practical answer for anyone whose priority is the mountains rather than the sea. It is a working town of about 42,000, forty to sixty minutes from the ski resorts of Cauterets, Barèges and Luz-Saint-Sauveur, with a hospital, a university presence, and Pau forty-five minutes away for anything it lacks. The figures are €580 for a T2, €770 for a T3 and around €1,600/m², with a cost score of 7.4. Lourdes, which draws pilgrims by the million and is the reason this corner has an airport and more hotel beds than its population would suggest, is twenty minutes down the road. Tarbes will not charm you on arrival. It is flat, plain and quiet, and that is precisely why a house with a garden and a view of the Cirque de Gavarnie skyline costs what it does.",
+      },
+      {
+        heading: "The Ariège and the Catalan end",
+        body: "East of Toulouse the range gets wilder and emptier. Foix, the prefecture of the Ariège, is a town of only 10,000 under a three-towered medieval castle, at €530 for a T2 and about €1,700/m², scoring 8.1 for safety and 7.8 for nature but only 3.4 for transport, which tells you the whole story. Pamiers, twenty minutes north and half again as large, is better equipped at €570 and €1,800/m². Both are around an hour from Toulouse by regional train, which is what makes them viable: you get a genuinely mountainous setting with a major city in reach for work and flights. Perpignan, at the Mediterranean end, is the outlier of this guide. It is a Catalan city of about 122,000 with the sea, the mountains and Spain each half an hour away and property at only €2,300/m² and €650 for a T2, but it scores 4.7 overall and 3.7 on safety, the weakest figures here by a wide margin. That combination is the honest trade-off, and you should spend time in specific neighbourhoods before committing rather than buying the postcard.",
+      },
+      {
+        heading: "Practicalities an incomer should check first",
+        body: "Three things catch people out. Healthcare access thins fast with altitude and distance: registering a médecin traitant, the GP you must nominate to get full reimbursement through the French system, is straightforward in Pau, Tarbes and Perpignan and can take months in the Ariège valleys. Second, the weather is not uniform. The Atlantic side is genuinely wet, with the Basque Country among the rainiest parts of France, while the Catalan end is dry, hot and windy; people who move for the mountain views and did not check which side they were on are the most common regretful buyers here. Third, the transport scores in this guide are low for a reason. Away from Bayonne and Perpignan there is no fast rail, and mountain valleys are dead ends, so a fifteen-kilometre journey can take forty minutes. Budget for a car, and in the higher valleys for winter tyres, which are mandatory in designated mountain communes between November and March.",
+      },
+      {
+        heading: "Who it suits, and the honest downsides",
+        body: "The Pyrenees suit outdoor people with portable income, retirees who want mountains without alpine prices, and families willing to trade career ceiling for space and air quality. The food is a genuine draw rather than a brochure line: Basque, Gascon and Catalan cooking are three distinct traditions and all three are alive here. The downsides are structural. The job market is thin outside Pau's energy sector and the Toulouse orbit, so a relocation that depends on finding local work is risky. Rail links to the rest of France are poor except at the two ends. Winters in the valleys are dark early because the sun goes behind the ridge in the afternoon, which surprises people who visited in July. And the range is a border, not a corridor: getting from the Basque end to the Catalan end means going the long way round, so the two halves of this guide are, in practice, separate decisions.",
+      },
+    ],
+    relatedCities: ["pau", "bayonne", "biarritz", "tarbes", "foix", "pamiers", "perpignan", "dax"],
+    tags: ["living in the pyrenees", "occitanie", "nouvelle-aquitaine", "moving to france", "pau", "mountains"],
+  },
+  {
+    slug: "living-in-lorraine-2026",
+    title: "Living in Lorraine: Metz, Nancy and the Luxembourg effect",
+    metaTitle: "Living in Lorraine 2026: Metz, Nancy & Luxembourg",
+    metaDesc:
+      "Moving to Lorraine? Honest 2026 guide to Metz, Nancy, Thionville and Épinal: rents, €/m², Luxembourg cross-border work, tax and remote-work limits.",
+    category: "moving",
+    emoji: "⚜️",
+    readMinutes: 11,
+    publishedAt: "2026-08-29",
+    updatedAt: "2026-08-29",
+    intro:
+      "Lorraine has an image problem in France and almost no image at all abroad. It is remembered as a steel and coal region that lost both, and the reputation has outlasted the fact by about twenty years. What is actually there in 2026 is two handsome university cities with rents forty per cent below Lyon, a UNESCO square, the first regional outpost of the Pompidou Centre, and a border with Luxembourg that pulls in more than a hundred thousand French commuters. It is also genuinely uneven: the Moselle valley is booming and the Vosges and the Meuse are not. This guide separates them, because the difference decides whether a move here works.",
+    sections: [
+      {
+        heading: "One name, two economies",
+        body: "Lorraine stopped being an administrative region on 1 January 2016, when it was merged with Alsace and Champagne-Ardenne into Grand Est. The identity survived the reform and the mail did not, so you will see both names in listings and official letters. Geographically it covers about 23,500 km² and 2.3 million people, organised around Metz and Nancy. The single most useful thing to understand before you look at property is that the region splits in two. The Moselle corridor running north from Metz through Thionville to the Luxembourg border is being pulled upwards by Luxembourg salaries and behaves like an expensive region. The Vosges to the south-east and the Meuse to the west are losing population and behave like a cheap one. Nothing true of Thionville is true of Épinal. Work out which Lorraine you mean before you compare a single price. This guide is the Lorraine half only; for Alsace, Strasbourg and Champagne, see our guide to Grand Est as a whole.",
+      },
+      {
+        heading: "Metz: glass, cathedral and a fast line to Paris",
+        body: "Metz has about 119,000 residents and is the prefecture of the Moselle. Its Gothic cathedral has the largest expanse of stained glass of any cathedral in the world, roughly 6,500 m², including twentieth-century windows by Chagall and Cocteau, and the Centre Pompidou-Metz, opened in 2010, was the first decentralised outpost of the Paris museum. The city scores 6.0 out of 10 here, with €680 for a T2, €910 for a T3 and around €2,300/m² to buy. Paris is one hour twenty by TGV from Gare de l'Est and Luxembourg City is about fifty-five minutes by regional train, which is the combination that makes Metz work: you can hold a Luxembourg job without living in the commuter belt's prices. The teaching hospital is large, the student population real, and the historic centre is built in the local golden limestone that gives the city its nickname. For most incomers wanting a city rather than a commute, this is the strongest option in the region.",
+      },
+      {
+        heading: "Nancy: the finest square in France, and a softer job market",
+        body: "Nancy has around 105,000 residents and one genuinely world-class thing: the Place Stanislas, an eighteenth-century ensemble of gilded ironwork and pale stone that has been UNESCO-listed since 1983 and is regularly called the most beautiful square in France. The city was also the birthplace of the École de Nancy, the French wing of Art Nouveau, and the glass and furniture of Gallé and Daum are everywhere from the museums to the brasserie windows. The Université de Lorraine, spread across Nancy and Metz, is one of the largest in the country. Reference figures are €710 for a T2, €950 for a T3 and about €2,400/m², with an overall score of 6.2, marginally above Metz. Paris is an hour and a half by TGV. The catch is the border: Luxembourg City is about an hour and ten by road from Nancy against thirty-five minutes from Thionville, which puts Nancy outside comfortable daily commuting range and leaves it more dependent on the local economy.",
+      },
+      {
+        heading: "Thionville and the Luxembourg arithmetic",
+        body: "Thionville, a town of about 43,000 thirty kilometres from Luxembourg City, has been transformed by the border. Luxembourg employs well over a hundred thousand French cross-border workers, the majority of them living in the Moselle, and their salaries have been converted into local property: Thionville is the most expensive town in the department after Metz, at €660 for a T2, €880 for a T3 and roughly €2,400/m², despite scoring 5.7 overall. The financial case is strong, because Luxembourg's statutory minimum wage is among the highest in Europe and salaries scale from there. Three rules decide whether it works for you. Your salary is taxed at source in Luxembourg and exempted in France with a credit, but you still declare it. Your health cover runs through the Luxembourg CNS rather than the French system, with dependants and reimbursement rules that differ from the French ones. And there is a cap on how much you may work remotely from France before part of your salary becomes taxable in France instead, set at 34 days a year under the current Franco-Luxembourg arrangement; that figure has been renegotiated more than once, so confirm the number for the year you arrive. The other caution is simpler: without a Luxembourg job, Thionville is a small town with a modest local market and border-town prices.",
+      },
+      {
+        heading: "Épinal, the Vosges and the cheap west",
+        body: "South-east of Nancy the economics invert. Épinal, the prefecture of the Vosges with about 32,000 residents, is where the printed images that gave French the phrase image d'Épinal have been produced since 1796. It runs €490 for a T2, €660 for a T3 and around €1,500/m², among the lowest figures for any prefecture in France, and unemployment in its employment zone is well above the regional average, which is the flip side of the same coin. What you get for it is immediate access to the Vosges massif: forest, the Route des Crêtes, mountain lakes, the ski resorts and the regional park within half an hour. Saint-Dié-des-Vosges goes further, at €500 for a T2 and roughly €1,100/m², and scores 7.3 overall with 8.5 for nature and 8.5 on cost, one of the strongest value profiles in eastern France. West towards the Meuse, Verdun and Bar-le-Duc sit at about €1,400 and €1,200/m² with cost scores of 8.5. Verdun is worth naming for English-speaking readers specifically: the 1916 battlefield, its ossuary and its forest of unrebuilt villages are a short drive from the town, and it shapes the place. Longwy, on the Luxembourg and Belgian border in the far north, is the exception that proves the rule of this section, with rents matching Metz on a population of 14,500 purely because of where it sits; its Vauban fortifications are part of the same UNESCO listing as Besançon's citadel.",
+      },
+      {
+        heading: "Practicalities: language, weather and the German border",
+        body: "Three things an incomer should know. First, Moselle has a distinct legal history: along with Alsace it kept a local body of law from the period of German administration, which is why Good Friday and 26 December are public holidays there and nowhere else in France, and why some property and inheritance formalities are handled through a land register rather than the national system. Your notaire will handle it, but do not be surprised when the paperwork differs from what a guide written for Bordeaux told you. Second, German is genuinely useful in the north of the region and Luxembourgish workplaces commonly run in French, German and English at once, so the language barrier for a professional job is lower here than almost anywhere in France. Third, the weather is continental: colder winters and warmer summers than the Atlantic side of the country, with real snow in the Vosges. It is not a sunny region, and the winter light is short.",
+      },
+      {
+        heading: "Who it suits, and the honest downsides",
+        body: "Lorraine suits three profiles. Anyone with a Luxembourg job or the professional profile to get one, for whom the region is simply the cheapest place to live within reach of that salary. Culture-minded people on a modest budget, because Metz and Nancy deliver museums, opera and architecture at prices no comparable French city matches. And outdoor families willing to live in the Vosges and accept a weak local job market in exchange for a house, forest and clean air. The downsides: the region is not beautiful in the way that sells France abroad, and much of the industrial landscape between the cities is plain. Winters are long and grey. Away from the Moselle corridor the demographics are shrinking, which over twenty years shows up in school closures and resale values. And the border prosperity is a genuine dependency, so if Luxembourg's tax or remote-work rules move, the northern property market moves with them.",
+      },
+    ],
+    relatedCities: ["metz", "nancy", "thionville", "epinal", "verdun", "saint-die-des-vosges", "bar-le-duc", "longwy"],
+    tags: ["living in lorraine", "grand-est", "moving to france", "luxembourg cross-border workers", "metz", "nancy"],
+  },
+  {
+    slug: "living-in-the-sarthe-2026",
+    title: "Living in the Sarthe: Le Mans, the Loir and the forests",
+    metaTitle: "Living in the Sarthe 2026: Le Mans & the Loir Valley",
+    metaDesc:
+      "Moving to the Sarthe? Honest 2026 guide to Le Mans, La Flèche and Sablé: rents, €/m², 55 minutes to Paris by TGV, and who the department suits.",
+    category: "moving",
+    emoji: "🏎️",
+    readMinutes: 8,
+    publishedAt: "2026-08-29",
+    updatedAt: "2026-08-29",
+    intro:
+      "Most English speakers know exactly one thing about the Sarthe, and it happens for one week in June. The 24 Hours of Le Mans is a fair introduction but a poor description: the department is a quiet, wooded, thoroughly rural corner of the Loire region with a prefecture that reaches Paris in under an hour by train and property at a third of Paris prices. It is also the birthplace of an English king, which nobody selling it to you will mention. This guide covers what living here is actually like once the grandstands come down.",
+    sections: [
+      {
+        heading: "Where the Sarthe is, and what it is not",
+        body: "The Sarthe is the north-eastern department of the Pays de la Loire region, between Normandy and the Loire Valley proper. It is worth clearing up a name straight away, because it confuses foreign buyers constantly: the river running through the south of the department is the Loir, without an e, and it is a different and much smaller river from the Loire. Estate agents use both names freely and a listing for a house on the Loir is not a listing for a château on the Loire. The landscape is bocage, meaning small fields divided by thick hedgerows, with two large forests and a great deal of nothing in between. Angers, Tours and Rennes are each around an hour away, and Paris is closer by train than most Paris suburbs are by road.",
+      },
+      {
+        heading: "Le Mans: an underrated city with a fast line",
+        body: "Le Mans has about 148,000 residents and is systematically underestimated. The TGV reaches Paris-Montparnasse in around 55 minutes, which is the single most important fact about the city: it makes a house here compatible with a Paris job two or three days a week. Our reference figures are €650 for a T2, €870 for a T3 and about €1,900/m² to buy, roughly a third of central Paris and well under Tours. The Cité Plantagenêt, the walled old town, is the largest surviving Gallo-Roman enclosure in France and one of the best-preserved medieval quarters in the country, which is where the English connection sits: Henry II, the first Plantagenet king of England, was born in Le Mans in 1133 and his father is buried in the cathedral. The city scores 5.7 out of 10 overall, held down by a middling nature score of 4.8; it is an urban, working place rather than a scenic one, and the motor racing museum and the circuit are a genuine part of local identity rather than a tourist add-on.",
+      },
+      {
+        heading: "La Flèche and Sablé-sur-Sarthe: the small-town alternative",
+        body: "South of Le Mans the department gets prettier and cheaper. La Flèche, a town of about 14,500 on the Loir, scores 7.1 out of 10, one of the higher figures in western France, with 8.1 for safety. It runs €590 for a T2, €790 for a T3 and around €1,500/m². It has a nationally known zoo and the Prytanée National Militaire, a military academy occupying a seventeenth-century Jesuit college founded under Henri IV, which gives a town of that size an unusually solid set of schools and shops. Angers is about forty-five minutes and Le Mans fifty. Sablé-sur-Sarthe, further west with around 12,400 residents, is quieter still at €510 for a T2, €680 for a T3 and roughly €1,400/m², scoring 6.7 overall and 8.0 on cost. Its draw is the abbey of Solesmes just outside, the house that led the nineteenth-century revival of Gregorian chant and still sings the offices daily. Both towns are on regional rail lines, which in a rural department is not a given.",
+      },
+      {
+        heading: "Forests, rivers and what there is to do",
+        body: "The two forests are the reason a lot of people stay. The Forêt de Bercé, south-east of Le Mans, is one of the great oak forests of France, grown for centuries to produce the tall straight timber used for barrels and shipbuilding, and some of its stands are several hundred years old. The Forêt de Perseigne in the north, covering around 5,000 hectares on a ridge of hills, is smaller and wilder. Between them the bocage country carries a dense network of marked walking and mountain-bike routes, and the Loir and Sarthe rivers are both navigable in stretches and lined with towpaths. This is a department for people whose weekends involve boots, bikes or a boat rather than restaurants and galleries, and it is honest to say that the cultural offer outside Le Mans is thin.",
+      },
+      {
+        heading: "The race week, and what it does to the department",
+        body: "For one week in June the population of Le Mans effectively doubles. Around a quarter of a million spectators arrive, a large share of them British, Dutch and German, and the effect reaches well beyond the circuit: hotels and gîtes across the department are booked a year ahead, roads on the south side of the city are heavily managed, and short-term rental rates for that week are several times the normal level. For a resident this cuts two ways. If you own a spare property, race week is a meaningful annual income and many locals let their own houses and leave. If you do not, it is a week of traffic. Either way it is worth knowing before you buy a house near the circuit, because the noise from testing and the smaller race weekends is not confined to June.",
+      },
+      {
+        heading: "Who it suits, and the honest downsides",
+        body: "The Sarthe suits hybrid commuters who need Paris a couple of days a week and want a garden for the price of a Paris studio, families who want space and safety in a small town with real services, and retirees who want quiet, greenery and a hospital within twenty minutes. It suits motorsport people for obvious reasons. It does not suit anyone who needs an active social or cultural life outside a city, anyone under thirty-five without a specific reason to be there, or anyone whose work has to be found locally: the departmental job market is modest and concentrated in Le Mans. Two practical downsides. Resale outside Le Mans and the two towns above is slow, because the buyer pool for rural houses here is small, so treat a purchase as somewhere to live rather than an investment. And the weather is Atlantic and grey: mild, wet winters and unremarkable summers, with none of the light that sells the south.",
+      },
+    ],
+    relatedCities: ["le-mans", "la-fleche", "sable-sur-sarthe"],
+    tags: ["living in the sarthe", "pays-de-la-loire", "moving to france", "le mans", "loir valley"],
+  },
+  {
+    slug: "living-in-the-auvergne-2026",
+    title: "Living in the Auvergne: volcanoes and cheap houses",
+    metaTitle: "Living in the Auvergne 2026: Volcanoes, Cheap Property",
+    metaDesc:
+      "Moving to the Auvergne? Honest 2026 guide to Clermont-Ferrand, Vichy, Thiers and Aurillac: rents, €/m², the volcano country and who it suits.",
+    category: "moving",
+    emoji: "🌋",
+    readMinutes: 10,
+    publishedAt: "2026-08-29",
+    updatedAt: "2026-08-29",
+    intro:
+      "The Auvergne is the volcanic heart of France and the cheapest large landscape in the country. It has a UNESCO-listed chain of eighty extinct volcanoes, the mineral water brands half of Europe drinks, some of the best cheeses in France, and houses that cost less per square metre than a parking space in Paris. It also has the thinnest population of any part of metropolitan France outside the high Alps, and that is the trade. This guide covers the towns worth considering, the honest state of the job market, and the two things about the region that foreign buyers consistently misjudge.",
+    sections: [
+      {
+        heading: "What and where the Auvergne is",
+        body: "The Auvergne is an old province in the Massif Central, the upland block that fills the middle of France. Like Lorraine, it stopped being an administrative region in 2016, when it was merged into Auvergne-Rhône-Alpes, a region now dominated by Lyon and the Alps; the name survives in everything except the letterhead. The defining feature is volcanic. The Chaîne des Puys, a line of around eighty cinder cones and lava domes running north to south west of Clermont-Ferrand, was inscribed as a UNESCO World Heritage site in 2018, together with the fault it sits on. The volcanoes are extinct, the youngest around 7,000 years old, and their legacy is everywhere: black building stone, mineral springs, high pasture and the cheeses that come off it. Altitude runs from about 300 metres in the plains to over 1,800 at the Puy de Sancy, and altitude here matters more than latitude for what your winter will be like. This guide covers the Auvergne side only; for Lyon, Grenoble and the Alps, which sit in the same administrative region but are a different proposition entirely, see our guide to Auvergne-Rhône-Alpes.",
+      },
+      {
+        heading: "Clermont-Ferrand: the only metropolis",
+        body: "Clermont-Ferrand has around 148,000 residents and is the region's single real city, with a university of roughly 25,000 students, a teaching hospital, and the global headquarters of Michelin, which has shaped the place for over a century. Its cathedral is built from black Volvic lava, which makes it unlike any other in France. Reference figures are €680 for a T2, €900 for a T3 and about €2,400/m², with an overall score of 6.3 and 7.2 for nature, unusually high for a city that size, because the Chaîne des Puys begins at the western edge of the suburbs. One correction to make early, because French sources repeat it loosely: the Paris link is not a TGV. It is a conventional Intercités line and it takes over three hours, which is longer than Marseille. If regular Paris access is a requirement, this is the wrong region, and no amount of cheap property fixes it. Toulouse and Lyon are both around two and a half hours by road, and the airport has a modest set of domestic and European routes.",
+      },
+      {
+        heading: "Vichy, Riom and Issoire: the comfortable middle",
+        body: "Vichy is the most complicated name in this guide for an English-speaking reader, and it is better to say so plainly: the town lent its name to the collaborationist French state of 1940 to 1944 because the government requisitioned its hotels, and it has spent eighty years being known abroad for something it did not choose. What it is otherwise is one of the great European spa towns, inscribed on the UNESCO World Heritage list in 2021 as part of that group, with Belle Époque villas, a covered thermal park and an opera house. It is also cheap: €480 for a T2, €640 for a T3 and about €1,700/m², scoring 6.5 overall and 8.2 on cost. Riom, fifteen minutes from Clermont by regional train, is the best-preserved historic town in the region, built in the same black Volvic stone, at €620 for a T2 and roughly €1,600/m². Issoire, on the main road and rail axis south of Clermont, scores 6.9 overall at €540 for a T2 and around €1,600/m², and has a strong aerospace and metals industrial base plus an airfield with an established gliding community. Any of the three works as a base with Clermont in reach.",
+      },
+      {
+        heading: "Thiers, Aurillac and Le Puy: the cheap and the spectacular",
+        body: "Further out the prices fall to levels that surprise people. Thiers, a town of about 11,500 built down the side of a gorge, has been the centre of French knife-making for six centuries and still is; its timber-framed houses hang over the Durolle and property runs around €1,200/m² with a T2 at €510. Montluçon and Moulins, in the Allier to the north, sit at roughly €1,100 and €1,300/m² with cost scores of 8.5. Aurillac, deep in the Cantal at around 26,000 people, has the cheapest T2 in this entire guide at €420 a month and property near €1,200/m²; it is also the most isolated town here, which is the reason, and it hosts one of Europe's largest street theatre festivals every August. Le Puy-en-Velay is the standout of the region on our figures, scoring 7.7 out of 10 overall with 8.5 for nature, at €530 for a T2 and about €1,600/m². It is a genuinely extraordinary place, a town built among volcanic pinnacles with a chapel on top of one of them, and it is the traditional starting point of the Via Podiensis, the busiest French route of the Camino de Santiago, which is why you will hear more foreign languages on its streets than its size would suggest.",
+      },
+      {
+        heading: "Work, connectivity and the practical picture",
+        body: "The regional economy is more solid than the emptiness suggests, but it is narrow. It rests on industry, with Michelin, the seed group Limagrain, Volvic and the Vichy water business as the anchors, plus the public sector through the hospitals and the university. Outside those, professional openings are limited and salaries run below the national average. For remote workers the picture is better than it was: fibre coverage across the Puy-de-Dôme is now extensive, though you must check the exact address rather than the commune, and coworking spaces have opened in Clermont, Riom and Issoire. Two practical cautions. Altitude drives the winter: a house at 300 metres near Issoire and a house at 1,000 metres in the Cantal are different climates and different heating bills, so ask for the DPE energy rating before you fall for a stone farmhouse. And healthcare access thins sharply away from Clermont and Vichy; in parts of the Cantal registering with a GP takes real persistence.",
+      },
+      {
+        heading: "Who it suits, and the honest downsides",
+        body: "The Auvergne suits remote workers who want land, quiet and mountain air at a price no other part of France matches; retirees who prefer walking and thermal spas to beaches; and anyone in the trades, farming or rural tourism, where there is genuine unmet demand and cheap premises. Outdoor people are extremely well served, with volcanoes, gorges, Nordic skiing, whitewater and long-distance paths all local. The downsides are consistent and should be taken seriously. The region is remote from everywhere: three hours to Paris on a slow line, no high-speed rail, and long drives to the coast in any direction. Winters are cold, long and snowy at altitude. Many rural communes are losing population, which means school closures and slow resale. And the social side is a real factor, because these are small, long-settled communities, welcoming to those who make an effort with the language and impenetrable to those who do not. The standard local advice applies: rent through a winter before you buy.",
+      },
+    ],
+    relatedCities: ["clermont-ferrand", "vichy", "riom", "thiers", "issoire", "aurillac", "le-puy-en-velay", "moulins", "montlucon"],
+    tags: ["living in the auvergne", "auvergne", "auvergne-rhone-alpes", "moving to france", "clermont-ferrand", "volcanoes"],
+  },
+  {
+    slug: "living-in-inland-brittany-2026",
+    title: "Living in inland Brittany: the Argoat",
+    metaTitle: "Living in Inland Brittany 2026: The Argoat Guide",
+    metaDesc:
+      "Brittany away from the coast: Pontivy, Loudéac and Carhaix. Houses under €150,000, near-total fibre, mild winters, and the medical problem nobody mentions.",
+    category: "moving",
+    emoji: "🍀",
+    readMinutes: 9,
+    publishedAt: "2026-08-29",
+    updatedAt: "2026-08-29",
+    intro:
+      "Everyone who moves to Brittany wants the coast, and everyone pays for it. There is another Brittany that the Bretons themselves call the Argoat, the wooded country, as against the Armor, the country by the sea. It is the middle of the peninsula: Pontivy, Loudéac, Rostrenen, Carhaix. Whole houses with land change hands there for under €150,000, fibre coverage is close to complete, and the winters are milder than most of England. It also has a medical access problem serious enough to rule it out for some people, and a resale market thin enough to matter. This guide is about whether the trade is worth it.",
+    sections: [
+      {
+        heading: "What inland Brittany actually is",
+        body: "The area meant here is roughly the triangle between Pontivy, Carhaix-Plouguer and Loudéac, covering the north-west of the Morbihan and the centre and east of the Côtes-d'Armor, with around 250,000 people spread over about 7,000 km². The land is not flat: the Monts d'Arrée in the west top out at 384 metres at the Roc'h Trevezel, the Landes de Lanvaux run across the south-east, and the Blavet and Aulne cut deep wooded valleys through the middle. There is no coastline. The sea is forty to sixty kilometres away in any direction, which in practice is a forty-five minute drive to a beach rather than a walk. Rennes is one hour to one hour forty-five depending where you are, Brest one to two hours, Vannes thirty minutes to an hour. The road that makes it work is the RN164, the free dual carriageway that runs the width of the peninsula from Rennes to Brest. If the coast is what you are after, our guide to Brittany as a whole covers the Armor and the coastal cities; this one is deliberately about the half of the peninsula that guide tells you to look at only if budget matters.",
+      },
+      {
+        heading: "Property: about a third of the coastal price",
+        body: "This is the reason people come. A 100 m² house with a garden costs roughly €90,000 to €140,000 in Pontivy, Loudéac or Rostrenen. The same house in Vannes is €320,000 to €450,000, and on the coast at Carnac it passes half a million. For reference, our figures for the nearest cities in our database are €3,900/m² in Vannes, €3,800 in Rennes, €2,800 in Lorient and Quimper and €2,500 in Brest; Loudéac trades at around €1,200/m². Inland Brittany is one of the last areas in France where an ordinary family can buy a whole house outright. There is a hard counterpart to that, and it deserves a paragraph of its own rather than a footnote. Resale is slow. The buyer pool is small, demand concentrates on properties that are already renovated to current standards, and an average house needing work can sit on the market for a long time. If you buy here, buy somewhere you intend to live in for many years. Do not buy it as an investment, and do not assume renovation spending comes back out.",
+      },
+      {
+        heading: "The weather is not what you think",
+        body: "The reputation of Brittany abroad is relentless rain, and inland it is simply not accurate. Rainfall in the interior is comparable to Rennes at around 700 mm a year, against roughly 900 mm on the north coast, and it falls as frequent light rain rather than downpours. Pontivy records about 1,750 hours of sunshine a year, which is on a par with Reims and well ahead of Lille at around 1,600. Winters are very mild, typically a couple of degrees either side of zero at night and 7 to 10 °C by day in January, and summers are temperate, mostly 22 to 27 °C and rarely above 30 even in a heatwave. For anyone coming from Britain, Ireland, the Netherlands or Germany this is a familiar climate with better light and less cold, and it has a practical consequence: heating costs are low and air conditioning is unnecessary, which matters when you are buying an old stone house.",
+      },
+      {
+        heading: "Connectivity, and the medical problem",
+        body: "Two services decide whether a life here works, and they point in opposite directions. Internet is excellent. Fibre coverage across rural Morbihan and the Côtes-d'Armor is around 92 per cent, thanks to a regional public rollout, and you should check the specific address on the regional coverage site rather than trusting the commune. Mobile coverage is good except in the deeper valleys. Coworking exists in Pontivy and Carhaix, and every market town above about 3,000 people still has a proper weekly market. Healthcare is the opposite, and this is the single most important paragraph in this guide. The area is medically under-served. Registering a médecin traitant, the GP you must nominate for the French system to reimburse you at the full rate, is very difficult in Carhaix and possible but not quick in Pontivy. Dentists run three to six months. Anything specialist means travelling to Lorient, Quimper, Brest or Rennes. For a healthy remote worker this is an inconvenience. For a family with a chronic condition, or for anyone retiring who expects to need regular care, it is a reason not to come, and it should be checked before an offer rather than after.",
+      },
+      {
+        heading: "The three towns, and the culture",
+        body: "Pontivy, around 14,500 people, is the most complete option: a sub-prefecture on the Blavet and the Nantes-Brest canal, with the administrative offices, a hospital, and a shopping street that is still alive. Loudéac, about 9,800, is more agricultural and industrial, plainer, and the cheapest of the three. Carhaix-Plouguer, around 7,500 and technically in the Finistère, is the cultural one: it hosts the Vieilles Charrues, the largest music festival in France by attendance, and it is a centre of the Breton-language movement, with a Diwan immersion school and an active associative network. That last point is worth expanding for an incomer. Breton is a living Celtic language here, related to Welsh and Cornish, and while everyone speaks French you will see bilingual signage and hear it used. The associative life generally, from music to sport to language, is unusually dense, and it is the main route into local society for a newcomer. The corollary is that people who do not join anything stay outsiders.",
+      },
+      {
+        heading: "Who it suits, and who it does not",
+        body: "It works for remote workers with secure income from outside the area, for active retirees who want nature and a dense club and festival scene, for people with Breton family roots buying back in, and for anyone setting up in craft, farming or rural tourism, where there is real demand. It does not work for single people under about thirty-five, who will find very few peers; for anyone with frequent medical needs, per the section above; for households that need to find a local salaried job outside farming and the public sector; or for people who want cafés, shops and things happening within walking distance. The most common mistake is underestimating the isolation, and the local test for it is a good one: rent for a month in November or December, in the dark and the wet, before you commit. If you are still happy at the end of it, you will be happy long-term. One last practical point for British buyers specifically: the ferry ports at Roscoff and Saint-Malo are each about an hour and a half away, which is a genuine advantage of this part of France over almost anywhere else.",
+      },
+    ],
+    relatedCities: ["vannes", "lorient", "brest", "rennes", "quimper"],
+    tags: ["living in inland brittany", "brittany", "bretagne", "moving to france", "rural france", "buying property france"],
+  },
+  {
+    slug: "living-in-the-french-overseas-departments-2026",
+    title: "Living in France's overseas departments",
+    metaTitle: "Living in France's Overseas Departments 2026",
+    metaDesc:
+      "Réunion, Martinique, Guadeloupe, Guiana and Mayotte: cost of living, visas, salaries, healthcare and schooling. What moving to the DROM is really like.",
+    category: "moving",
+    emoji: "🌴",
+    readMinutes: 12,
+    publishedAt: "2026-08-29",
+    updatedAt: "2026-08-29",
+    intro:
+      "France has five overseas departments: Guadeloupe and Martinique in the Caribbean, French Guiana on the South American mainland, Réunion in the Indian Ocean and Mayotte in the Mozambique Channel. They are not colonies, territories or dependencies. They are departments of the French Republic and outermost regions of the European Union, with the euro, the same civil law and the same school curriculum as Lille. They are also expensive, geographically constrained, and professionally narrower than mainland France, and one of them is still rebuilding from a cyclone. This guide compares the five on the things that actually decide whether a move works.",
+    sections: [
+      {
+        heading: "Mayotte first, because the situation there is different",
+        body: "This has to come before anything else. In December 2024 Cyclone Chido struck Mayotte directly and destroyed or damaged a very large share of the island's housing, infrastructure and tourist capacity, and reconstruction was still under way through 2026. Mayotte became France's 101st department in 2011 and is the poorest and most strained of the five. Mamoudzou, the main town with around 71,400 residents, concentrates most of the activity. The lagoon is one of the largest in the world at about 1,100 km² and the marine life is genuinely exceptional. Against that: water supply is intermittent and has been under severe stress for years, public services are overloaded, security incidents are frequent, and schooling is difficult in parts of the island. Our figures put Mamoudzou at 3.0 out of 10 overall, the lowest of any city on this site, with a T2 at €900 a month and property near €3,500/m², the most expensive rent and the highest price per square metre in this entire guide. Mayotte is a posting for people with a specific professional reason to be there, in health, education, public administration or the security forces. It is not a lifestyle move, and anyone presenting it as one is not being straight with you.",
+      },
+      {
+        heading: "The cost of living, and the tax that causes it",
+        body: "Everything in the overseas departments costs more than the mainland, and the gap is measured. INSEE's 2022 comparison put consumer prices above mainland France by 9 per cent in Martinique, 13 per cent in Guadeloupe, 14 per cent in Réunion, 20 per cent in French Guiana and 38 per cent in Mayotte. The headline cause is the octroi de mer, a dock dues tax levied on goods entering each department that has no equivalent anywhere else in France or the EU, compounded by long supply chains and a concentrated retail sector. In practice a family of four should expect to add a few hundred euros a month to the grocery bill against a mainland budget. Housing is the partial offset: our reference rents run from €600 a month for a T2 in Le Tampon and €650 in Saint-Pierre and Saint-Laurent-du-Maroni up to €800 in Cayenne and €900 in Mamoudzou, which is broadly mainland provincial pricing rather than Paris pricing. The site's cost axis, where a high score means affordable, puts every one of these cities between 3.9 and 4.6, among the weakest bands in France. Note also that the departments sit outside the EU VAT and excise territory, so allowances on alcohol and tobacco brought back to the mainland are the traveller allowances that apply to third countries, not the generous intra-EU ones.",
+      },
+      {
+        heading: "Réunion: the most complete of the five",
+        body: "Réunion has around 870,000 residents and is the department where a qualified mainland or foreign professional settles most easily. It has a full university, engineering schools, a teaching hospital and a real entrepreneurial scene. Geographically it packs an improbable amount into 2,500 km²: an active volcano, a coral lagoon on the west coast, three UNESCO-listed cirques and a mountainous interior that rises above 3,000 metres. The four main towns in our database are Saint-Denis, the prefecture with about 153,800 residents, Saint-Paul with 105,200, Saint-Pierre with 86,000 and Le Tampon with 80,700, the last sitting at over 500 metres where the climate is noticeably cooler. Reference rents run €700 for a T2 in Saint-Denis and Saint-Paul down to €600 in Le Tampon, with property between €2,100 and €2,500/m². Nature scores across the island are 8.2 to 8.5, the highest band on this site. Two things a visitor learns late and a resident needs on day one. The seasons are inverted and the cyclone season runs roughly November to April, with the dry southern winter from May to October the pleasanter half of the year. And swimming in the open sea is prohibited outside the west-coast lagoon and supervised bathing areas because of shark risk; this is a legal restriction, not a caution, and there is no lagoon on the east or south coasts.",
+      },
+      {
+        heading: "Martinique and Guadeloupe: the Caribbean pair",
+        body: "The two Antilles departments share a climate, a Creole culture, a sugar and rum heritage and a rhythm of life built around a long lunch. The dry season, carême, runs roughly December to April and the hurricane season June to November. They differ in shape. Martinique is denser and more service-based, with Fort-de-France as the prefecture at about 75,500 residents and Le Lamentin, which holds the airport and much of the industry, at 38,800. Guadeloupe is a butterfly-shaped archipelago with two poles: Pointe-à-Pitre and Les Abymes on the flatter Grande-Terre side, with Baie-Mahault as its commercial centre, and the volcanic Basse-Terre opposite. Rents cluster tightly between €700 and €750 for a T2 across both, with property from €2,400/m² in Le Lamentin to €3,000 in Pointe-à-Pitre. Overall scores sit between 4.3 and 5.1, with nature between 7.0 and 7.5 and safety between 3.9 and 4.5, which is the honest summary: superb natural setting, weak urban indicators. The usual arbitrage among people who have lived in both is that Guadeloupe offers more variety, with quiet beaches, rainforest and a climbable volcano, while Martinique offers a denser urban life.",
+      },
+      {
+        heading: "French Guiana: the least understood",
+        body: "French Guiana is the only overseas department on a continental landmass, bordering Brazil and Suriname, and it is the size of Portugal with about 290,000 people, over 90 per cent of it Amazon rainforest. Cayenne, the prefecture, has around 65,500 residents and Saint-Laurent-du-Maroni, on the Suriname border, about 50,300. It is also the site of the Guiana Space Centre at Kourou, Europe's spaceport, which is the anchor of the professional economy and the reason a significant engineering community lives there. The population is strikingly young, with a median age around 25, and the biodiversity is on a scale nothing in Europe approaches. The counterweights are serious: an equatorial climate that is hot and humid all year with no dry relief, limited infrastructure outside the coastal strip, real security problems in some areas, and specialist medical care concentrated in Cayenne. Our figures give Cayenne 3.9 overall and Saint-Laurent 3.4, with nature at 7.8 and 8.1 and transport at 3.3 and 2.5, the lowest transport scores on the site. Rents are €800 for a T2 in Cayenne and €650 in Saint-Laurent. Guiana rewards people who go for a defined professional reason and prepare properly. It punishes improvisation.",
+      },
+      {
+        heading: "Money: the civil service premium, and who does not get it",
+        body: "The financial case for moving overseas is widely misunderstood because it applies to a minority of people. State civil servants posted to the overseas departments receive a salary index multiplier, roughly 1.4 in Réunion and French Guiana and up to about 1.53 in the Antilles, plus in some cases a relocation allowance. That is the arithmetic that makes the cost of living manageable and it is why so many teachers, nurses, police officers and administrators go. Private-sector employees, freelancers and remote workers get none of it. They absorb the full price differential from the first section with no compensation whatsoever, and that is the single most common budgeting error people make. There are two partial offsets available to everyone: income tax is reduced overseas, by roughly 30 to 40 per cent depending on the department and subject to a cap, and VAT rates are lower. Work the whole calculation net of housing, groceries, flights and school costs before you accept an offer, not after.",
+      },
+      {
+        heading: "Immigration, distance and time zones",
+        body: "Three practical points that mainland guides do not cover. First, and most important for non-EU readers: the overseas departments are not in the Schengen area. A Schengen visa is not valid for them, and each has its own visa regime, so a non-EU national must apply for the correct document for the specific department. EU and EEA citizens have free movement there as elsewhere in France. Second, distance is not a detail. Return flights to Paris run roughly €800 to €1,400 in high season, and there are no cheap alternatives, so factor several thousand euros a year for a family that intends to visit home. Third, the time zones. Guadeloupe and Martinique are UTC−4, French Guiana UTC−3, Mayotte UTC+3 and Réunion UTC+4, and none of them observes daylight saving. Because mainland France does, the gap shifts by an hour twice a year: from Réunion, for instance, the mainland is three hours behind in the northern winter and two in summer. Anyone planning to keep a mainland or foreign employer needs to think about which meetings that makes impossible.",
+      },
+      {
+        heading: "Schools, careers and the risk of leaving again",
+        body: "Primary and lower-secondary provision is complete everywhere. Above that the choice narrows. There are full universities in Réunion, in the Antilles across Martinique and Guadeloupe, and in Guiana, and Réunion has an engineering school, but the classes préparatoires that feed France's selective grandes écoles are few, and many families send teenagers to the mainland for the last stage of schooling. If higher education is a decisive criterion, Réunion has the deepest ecosystem, followed by the Antilles. On careers, three profiles integrate well: medical staff, where shortages are chronic and severe across all five; teachers, where posts open regularly; and state employees. Harder: tech and engineering outside the space sector, communications, and cultural professions, because the markets are small. Remote work changes this for anyone who can keep an outside employer, subject to the time zones above. Finally, the thing people underestimate most. Moving to an overseas department from the mainland is closer to emigrating than to relocating: you arrive without a network, the mainland professional community turns over every few years, flights home are expensive, and some people put down roots while many leave within three or four years. The standard local advice is sound. Rent for six months before you buy anything or make any decision you cannot reverse.",
+      },
+    ],
+    relatedCities: ["saint-denis-reunion", "saint-paul-reunion", "saint-pierre-reunion", "le-tampon", "fort-de-france", "le-lamentin", "pointe-a-pitre", "les-abymes", "baie-mahault", "cayenne", "saint-laurent-du-maroni", "mamoudzou"],
+    tags: ["french overseas departments", "drom", "moving to france", "reunion", "martinique", "guadeloupe", "french guiana", "mayotte"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

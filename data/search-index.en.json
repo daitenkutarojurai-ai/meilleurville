@@ -7067,6 +7067,36 @@
       "slug": "living-in-the-ardeche-and-drome-2026",
       "title": "Living in the Ardèche and Drôme: sun, space and no trains",
       "emoji": "☀️"
+    },
+    {
+      "slug": "living-in-the-pyrenees-2026",
+      "title": "Living in the Pyrenees: the foothill towns",
+      "emoji": "⛰️"
+    },
+    {
+      "slug": "living-in-lorraine-2026",
+      "title": "Living in Lorraine: Metz, Nancy and the Luxembourg effect",
+      "emoji": "⚜️"
+    },
+    {
+      "slug": "living-in-the-sarthe-2026",
+      "title": "Living in the Sarthe: Le Mans, the Loir and the forests",
+      "emoji": "🏎️"
+    },
+    {
+      "slug": "living-in-the-auvergne-2026",
+      "title": "Living in the Auvergne: volcanoes and cheap houses",
+      "emoji": "🌋"
+    },
+    {
+      "slug": "living-in-inland-brittany-2026",
+      "title": "Living in inland Brittany: the Argoat",
+      "emoji": "🍀"
+    },
+    {
+      "slug": "living-in-the-french-overseas-departments-2026",
+      "title": "Living in France's overseas departments",
+      "emoji": "🌴"
     }
   ],
   "tags": [
@@ -7083,7 +7113,7 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 107
+      "count": 113
     },
     {
       "slug": "single-parent-in-france",
@@ -7093,7 +7123,7 @@
     {
       "slug": "buying-property-france",
       "label": "buying property france",
-      "count": 51
+      "count": 52
     },
     {
       "slug": "real-estate",
@@ -7108,22 +7138,22 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 46
+      "count": 47
     },
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 46
+      "count": 47
     },
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 38
+      "count": 39
     },
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 35
+      "count": 36
     },
     {
       "slug": "working-in-france",
@@ -7143,7 +7173,7 @@
     {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
-      "count": 27
+      "count": 28
     },
     {
       "slug": "ile-de-france",
@@ -7156,6 +7186,11 @@
       "count": 25
     },
     {
+      "slug": "brittany",
+      "label": "brittany",
+      "count": 24
+    },
+    {
       "slug": "international-students",
       "label": "international students",
       "count": 24
@@ -7164,11 +7199,6 @@
       "slug": "student-visa-france",
       "label": "student visa france",
       "count": 24
-    },
-    {
-      "slug": "brittany",
-      "label": "brittany",
-      "count": 23
     },
     {
       "slug": "student-housing-france",
@@ -7268,12 +7298,12 @@
     {
       "slug": "bretagne",
       "label": "bretagne",
-      "count": 11
+      "count": 12
     },
     {
       "slug": "reunion",
       "label": "reunion",
-      "count": 11
+      "count": 12
     },
     {
       "slug": "affordable-retirement-france",
@@ -7291,6 +7321,11 @@
       "count": 9
     },
     {
+      "slug": "auvergne",
+      "label": "auvergne",
+      "count": 9
+    },
+    {
       "slug": "burgundy",
       "label": "burgundy",
       "count": 9
@@ -7303,11 +7338,6 @@
     {
       "slug": "atlantic-coast",
       "label": "atlantic coast",
-      "count": 8
-    },
-    {
-      "slug": "auvergne",
-      "label": "auvergne",
       "count": 8
     },
     {
@@ -7328,6 +7358,11 @@
     {
       "slug": "nantes",
       "label": "nantes",
+      "count": 7
+    },
+    {
+      "slug": "rural-france",
+      "label": "rural france",
       "count": 7
     },
     {
@@ -7356,6 +7391,11 @@
       "count": 6
     },
     {
+      "slug": "martinique",
+      "label": "martinique",
+      "count": 6
+    },
+    {
       "slug": "mediterranean",
       "label": "mediterranean",
       "count": 6
@@ -7368,11 +7408,6 @@
     {
       "slug": "rennes",
       "label": "rennes",
-      "count": 6
-    },
-    {
-      "slug": "rural-france",
-      "label": "rural france",
       "count": 6
     },
     {
@@ -7411,6 +7446,11 @@
       "count": 5
     },
     {
+      "slug": "clermont-ferrand",
+      "label": "clermont ferrand",
+      "count": 5
+    },
+    {
       "slug": "dijon",
       "label": "dijon",
       "count": 5
@@ -7421,8 +7461,8 @@
       "count": 5
     },
     {
-      "slug": "martinique",
-      "label": "martinique",
+      "slug": "metz",
+      "label": "metz",
       "count": 5
     },
     {
@@ -7456,11 +7496,6 @@
       "count": 4
     },
     {
-      "slug": "clermont-ferrand",
-      "label": "clermont ferrand",
-      "count": 4
-    },
-    {
       "slug": "corsica",
       "label": "corsica",
       "count": 4
@@ -7476,8 +7511,13 @@
       "count": 4
     },
     {
-      "slug": "metz",
-      "label": "metz",
+      "slug": "guadeloupe",
+      "label": "guadeloupe",
+      "count": 4
+    },
+    {
+      "slug": "nancy",
+      "label": "nancy",
       "count": 4
     },
     {
@@ -7488,6 +7528,11 @@
     {
       "slug": "paris",
       "label": "paris",
+      "count": 4
+    },
+    {
+      "slug": "pau",
+      "label": "pau",
       "count": 4
     },
     {
@@ -7546,8 +7591,8 @@
       "count": 3
     },
     {
-      "slug": "guadeloupe",
-      "label": "guadeloupe",
+      "slug": "french-guiana",
+      "label": "french guiana",
       "count": 3
     },
     {
@@ -7556,13 +7601,13 @@
       "count": 3
     },
     {
-      "slug": "living-in-france",
-      "label": "living in france",
+      "slug": "le-mans",
+      "label": "le mans",
       "count": 3
     },
     {
-      "slug": "nancy",
-      "label": "nancy",
+      "slug": "living-in-france",
+      "label": "living in france",
       "count": 3
     },
     {
@@ -7573,11 +7618,6 @@
     {
       "slug": "notaire",
       "label": "notaire",
-      "count": 3
-    },
-    {
-      "slug": "pau",
-      "label": "pau",
       "count": 3
     },
     {
