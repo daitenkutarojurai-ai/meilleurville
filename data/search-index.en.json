@@ -7097,6 +7097,51 @@
       "slug": "living-in-the-french-overseas-departments-2026",
       "title": "Living in France's overseas departments",
       "emoji": "🌴"
+    },
+    {
+      "slug": "single-parent-in-valence-2026",
+      "title": "Single parent in Valence (2026): the strongest file in this batch, and what the safety score costs",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-colmar-2026",
+      "title": "Single parent in Colmar (2026): the only file here with no weak axis, and 2,539 fewer residents",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-saint-nazaire-2026",
+      "title": "Single parent in Saint-Nazaire (2026): the best rent-per-school-point here, in a region that beats it",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-chambery-2026",
+      "title": "Single parent in Chambéry (2026): the best schools and safety here, and €3,350 to reach them",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-bourges-2026",
+      "title": "Single parent in Bourges (2026): €123,500 for 65 square metres, and a car to put in the budget",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-pessac-2026",
+      "title": "Single parent in Pessac (2026): the same rent as Mérignac, a point more of schools",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-calais-2026",
+      "title": "Single parent in Calais (2026): €1,950 net, the lowest entry floor in the whole series",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-le-tampon-2026",
+      "title": "Single parent in Le Tampon (2026): first on Réunion in this ranking, 274th in France",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-ajaccio-2026",
+      "title": "Single parent in Ajaccio (2026): €3,650 net for schools at 4.1/10",
+      "emoji": "🧑‍🍼"
     }
   ],
   "tags": [
@@ -7113,12 +7158,17 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 113
+      "count": 122
     },
     {
       "slug": "single-parent-in-france",
       "label": "single parent in france",
-      "count": 63
+      "count": 72
+    },
+    {
+      "slug": "expat-single-parent",
+      "label": "expat single parent",
+      "count": 57
     },
     {
       "slug": "buying-property-france",
@@ -7131,14 +7181,9 @@
       "count": 50
     },
     {
-      "slug": "expat-single-parent",
-      "label": "expat single parent",
-      "count": 48
-    },
-    {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 47
+      "count": 48
     },
     {
       "slug": "occitanie",
@@ -7148,22 +7193,22 @@
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 39
+      "count": 41
     },
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 36
+      "count": 37
+    },
+    {
+      "slug": "hauts-de-france",
+      "label": "hauts-de-france",
+      "count": 31
     },
     {
       "slug": "working-in-france",
       "label": "working in france",
       "count": 31
-    },
-    {
-      "slug": "hauts-de-france",
-      "label": "hauts-de-france",
-      "count": 30
     },
     {
       "slug": "job-market-france",
@@ -7173,7 +7218,7 @@
     {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
-      "count": 28
+      "count": 29
     },
     {
       "slug": "ile-de-france",
@@ -7246,13 +7291,13 @@
       "count": 17
     },
     {
-      "slug": "budget",
-      "label": "budget",
-      "count": 15
-    },
-    {
       "slug": "centre-val-de-loire",
       "label": "centre-val de loire",
+      "count": 16
+    },
+    {
+      "slug": "budget",
+      "label": "budget",
       "count": 15
     },
     {
@@ -7296,13 +7341,13 @@
       "count": 13
     },
     {
-      "slug": "bretagne",
-      "label": "bretagne",
-      "count": 12
-    },
-    {
       "slug": "reunion",
       "label": "reunion",
+      "count": 13
+    },
+    {
+      "slug": "bretagne",
+      "label": "bretagne",
       "count": 12
     },
     {
@@ -7451,6 +7496,11 @@
       "count": 5
     },
     {
+      "slug": "corsica",
+      "label": "corsica",
+      "count": 5
+    },
+    {
       "slug": "dijon",
       "label": "dijon",
       "count": 5
@@ -7493,11 +7543,6 @@
     {
       "slug": "brest",
       "label": "brest",
-      "count": 4
-    },
-    {
-      "slug": "corsica",
-      "label": "corsica",
       "count": 4
     },
     {

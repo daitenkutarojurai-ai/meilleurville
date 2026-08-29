@@ -13,7 +13,7 @@ Demande utilisateur directe. F58 / F60 / F61 livrées le jour même ; **F59 livr
 
 | # | Feature | Prio | Cplx | SEO | Statut |
 |---|---------|------|------|-----|--------|
-| F58 | City Match — profil « parent solo » | P1 | S | mid | ✅ shipped 2026-07-22 · sous-page `/villes/[slug]/parent-solo` ×540 + hub `/parent-solo` + miroir EN `/single-parent` + `/cities/[slug]/single-parent` ×540 shipped 2026-07-25→28 · série guides `parent-solo-a-[ville]-2026` batch 1 (+10) shipped 2026-07-24, batch 2 (+10 : Rennes, Nancy, Angers, Grenoble, Dijon, Metz, Reims, Aix-en-Provence, Rouen, Toulon) shipped 2026-08-07 · miroir EN de la série `single-parent-in-[city]-2026` batch 1 (+10 : Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux, Lille) shipped 2026-08-09, batch 2 (+10) shipped 2026-08-11 — **parité FR/EN atteinte à 20/20** · **batch 3 FR (+9 : Villeurbanne, Besançon, Caen, Brest, Tours, Limoges, Clermont-Ferrand, Saint-Étienne, Le Havre) shipped 2026-08-14**, **miroir EN batch 3 (+9) shipped 2026-08-15 — parité rétablie à 29/29** · **batch 4 FR (+10 : Nîmes, Saint-Denis de La Réunion, Le Mans, Amiens, Annecy, Perpignan, Orléans, Mulhouse, Poitiers, Dunkerque) shipped 2026-08-16**, **miroir EN batch 4 (+10) shipped 2026-08-17 — parité rétablie à 39/39** (compteur vérifié des deux côtés avant et après le run, cf. § Parité EN) · **batch 5 FR (+9 : Saint-Paul 974, Avignon, Saint-Pierre 974, Béziers, La Rochelle, Pau, Cherbourg-en-Cotentin, Fort-de-France, Mérignac) shipped 2026-08-23 — 48 FR contre 39 EN, premier guide martiniquais de la série**, **miroir EN batch 5 (+9) shipped 2026-08-25 — parité rétablie à 48/48** (rang publié = fit décroissant puis nom croissant, cf. § Parité EN) · **batch 6 FR (+9 : Valence, Colmar, Saint-Nazaire, Chambéry, Bourges, Pessac, Calais, Le Tampon 974, Ajaccio) shipped 2026-08-28 — 57 FR contre 48 EN, premier guide corse de la série** (+ 5 superlatifs faux corrigés, dont un dans le guide Pau du batch 5, cf. § ci-dessous) |
+| F58 | City Match — profil « parent solo » | P1 | S | mid | ✅ shipped 2026-07-22 · sous-page `/villes/[slug]/parent-solo` ×540 + hub `/parent-solo` + miroir EN `/single-parent` + `/cities/[slug]/single-parent` ×540 shipped 2026-07-25→28 · série guides `parent-solo-a-[ville]-2026` batch 1 (+10) shipped 2026-07-24, batch 2 (+10 : Rennes, Nancy, Angers, Grenoble, Dijon, Metz, Reims, Aix-en-Provence, Rouen, Toulon) shipped 2026-08-07 · miroir EN de la série `single-parent-in-[city]-2026` batch 1 (+10 : Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux, Lille) shipped 2026-08-09, batch 2 (+10) shipped 2026-08-11 — **parité FR/EN atteinte à 20/20** · **batch 3 FR (+9 : Villeurbanne, Besançon, Caen, Brest, Tours, Limoges, Clermont-Ferrand, Saint-Étienne, Le Havre) shipped 2026-08-14**, **miroir EN batch 3 (+9) shipped 2026-08-15 — parité rétablie à 29/29** · **batch 4 FR (+10 : Nîmes, Saint-Denis de La Réunion, Le Mans, Amiens, Annecy, Perpignan, Orléans, Mulhouse, Poitiers, Dunkerque) shipped 2026-08-16**, **miroir EN batch 4 (+10) shipped 2026-08-17 — parité rétablie à 39/39** (compteur vérifié des deux côtés avant et après le run, cf. § Parité EN) · **batch 5 FR (+9 : Saint-Paul 974, Avignon, Saint-Pierre 974, Béziers, La Rochelle, Pau, Cherbourg-en-Cotentin, Fort-de-France, Mérignac) shipped 2026-08-23 — 48 FR contre 39 EN, premier guide martiniquais de la série**, **miroir EN batch 5 (+9) shipped 2026-08-25 — parité rétablie à 48/48** (rang publié = fit décroissant puis nom croissant, cf. § Parité EN) · **batch 6 FR (+9 : Valence, Colmar, Saint-Nazaire, Chambéry, Bourges, Pessac, Calais, Le Tampon 974, Ajaccio) shipped 2026-08-28 — 57 FR contre 48 EN, premier guide corse de la série** (+ 5 superlatifs faux corrigés, dont un dans le guide Pau du batch 5, cf. § ci-dessous) · **miroir EN batch 6 (+9) shipped 2026-08-29 — parité rétablie à 57/57**, premier guide corse côté EN (+ 2 comparatifs faux des guides FR du 28/08 corrigés des deux côtés, cf. § Parité EN) |
 | F59 | **Parcs & espaces verts par ville** (pipeline OSM + sub-page ×540) | **P0** | **L** | **high** | ✅ shipped 2026-07-27 |
 | F60 | `/departements` — finder par n° / nom / ville + carte cliquable | P1 | S | low | ✅ shipped 2026-07-22 · carte cliquable 2026-07-23 |
 | F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 · série guides `vacances-celibataire-[ville]-2026` batch 1 (+8) shipped 2026-08-01 · série `vacances-monoparentales-[ville]-2026` batch 1 (+7) shipped 2026-08-05 · `vacances-celibataire-[ville]-2026` batch 2 (+7 : Toulouse, Lille, Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle) shipped 2026-08-08 · croisement mois × profil `/vacances/ou-partir/[combo]` (12 × 7 = 84 pages SSG) shipped 2026-08-12 · miroir EN de la série célibataire, `solo-travel-in-[city]-2026` batch 1 (+8 : Paris, Lyon, Bordeaux, Lille, Strasbourg, Toulouse, Montpellier, Nantes) shipped 2026-08-13 · série EN fermée (batch 2, +7) 2026-08-14 · guide pilier `partir-en-vacances-seul-2026` + correction de l'anti-station-fantôme (part réelle des 15-29 ans Insee au lieu d'un écart d'affluence constant) shipped 2026-08-15 · **miroir EN de la série monoparentale, `single-parent-holidays-[city]-2026` (+7 : La Rochelle, Strasbourg, Nantes, Rennes, Vannes, Nancy, Dijon) shipped 2026-08-19 — parité FR/EN atteinte à 7/7, mêmes villes des deux côtés** (+ 4 chiffres faux corrigés dans la série FR au passage, cf. § ci-dessous) · **`vacances-celibataire-[ville]-2026` batch 3 (+7 : Nancy, Poitiers, Rouen, Caen, Clermont-Ferrand, Tours, Besançon) shipped 2026-08-22 — sélection dérivée de la mesure anti-station-fantôme, + 1 erreur de données corrigée dans `lib/transit.ts`, cf. § ci-dessous** · **`vacances-monoparentales-[ville]-2026` batch 2 (+8 : Lyon, Angers, Bordeaux, Besançon, Grenoble, Brest, Tours, Valence) shipped 2026-08-26 — sélection dérivée de la règle « accessible en train sans voiture » de la page profil elle-même, palier d'ex æquo pris entier, cf. § ci-dessous** |
@@ -2208,6 +2208,88 @@ setup dans `CLAUDE.md`), pas une facilité.
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
 
+### Livré le 29/08 (2ᵉ run) — `single-parent-in-[city]-2026` refermée une quatrième fois (batch 6, +9)
+
+`npm run parity` en **code 0** en début et en fin de run (FR 219 / EN 166, 0 route FR sans jumelle) :
+pas de régression de routes, donc run de corpus. Le diff par série a confirmé le seul écart annoncé
+par le batch 6 FR du 28/08 — **57 FR contre 48 EN**, les neuf mêmes villes : Valence, Colmar,
+Saint-Nazaire, Chambéry, Bourges, Pessac, Calais, Le Tampon (974), Ajaccio. **Compteurs mesurés
+après écriture : 57 FR / 57 EN, écart nul** (`EN_GUIDES` 771 → 780).
+
+⚠️ **Le comptage du 29/08 (1er run) confondait deux séries et annonçait un faux dépassement.** Il
+écrivait « `single-parent-in-` (63) dépasse déjà `parent-solo-a-` (57) » : 63 = 48 guides
+`single-parent-in-` **plus** les 15 `single-parent-holidays-` de la série vacances (F61), qui n'a
+rien à voir. Un préfixe qui en contient un autre se compte avec le tiret et le millésime, pas au
+`grep` court — même famille de piège que le `comm` naïf sur les slugs à article du tourisme.
+
+**Le rang publié se calcule fit décroissant puis nom croissant** (`localeCompare` en `fr`), méthode
+établie le 25/08 : rejouée ici, elle reproduit **9/9** les rangs des jumelles FR (Valence 63e,
+Colmar 68e, Saint-Nazaire 90e, Chambéry 97e, Bourges 139e, Pessac 170e, Calais 227e, Le Tampon 274e,
+Ajaccio 316e). Un tri stable en aurait publié d'autres.
+
+**Deux affirmations comparatives fausses trouvées dans les guides FR du 28/08, corrigées des deux
+côtés.** ① Le guide Chambéry annonçait un T3 « troisième plus cher du batch » : à 1 100 € il est le
+**deuxième**, derrière les 1 200 € d'Ajaccio. ② Le guide Saint-Nazaire présentait les Pays de la
+Loire comme « la région la plus favorable de France à ce profil » : à la mesure, la **moyenne
+régionale la plus haute est celle de la Bourgogne-Franche-Comté** (6,54 contre 6,36 sur les communes
+éligibles). Ce qui tient, et qui est repris dans les deux locales, c'est le **haut de tableau** :
+les Pays de la Loire placent trois communes dans les huit premières nationales (La Roche-sur-Yon 1re,
+Challans 4e, Cholet 8e). Le reste du raisonnement régional du guide est confirmé au chiffre près —
+quatre communes de la région font mieux au composite **pour un loyer inférieur** (La Roche-sur-Yon,
+Cholet, Laval, Saumur).
+
+Écrit en anglais natif depuis les faits des guides FR (aucun chiffre qui n'y soit), `metaTitle`
+38-49 caractères, `metaDesc` 120-148, **6 sections par guide** comme le reste de la série,
+1 358-1 475 mots, **0 em-dash** (cible R7.10). **Aucun tag neuf** : les 9 réutilisent
+`auvergne-rhone-alpes`, `grand est`, `pays de la loire`, `centre-val de loire`, `nouvelle-aquitaine`,
+`hauts-de-france`, `reunion`, `corsica` — le tag de ville est nominatif (« single parent valence »)
+précisément pour ne pas pousser `valence`, `besancon` ou `limoges`, tous à 2 occurrences, au-dessus
+du seuil de 3 qui crée une page `/tags`. `data/search-index.en.json` reste donc à **108 tags**
+(780 guides), et `npm run sitemap:check` repasse (FR 29 089 URL, EN 28 666).
+
+**Contrôle après insertion, reconduit des batches FR** : un script rejoue fit, rang, les quatre axes,
+T1/T2/T3, prix au m², revenu minimum, ratio loyer ÷ écoles, prix d'un 65 m² et populations 2011 et
+2022 de chaque ville, et échoue si l'une des valeurs n'est pas retrouvée dans le texte de la jumelle.
+**9/9 au premier passage.** Les 9 guides sont vérifiés **retrouvés par `getEnGuide()`**, **pourvus de
+leur photo d'en-tête** (`guideCityPhoto`) et **remontés en 1re ou 2e position** par la recherche
+inverse `relatedCities` de `CityGuidesList` sur leur page ville EN. Contrôle mécanique
+complémentaire : **166 figures en `/10`, toutes égales à une valeur de score rendue** — aucune n'est
+un littéral du seed.
+
+Les prudences du FR sont reprises telles quelles, à ne pas diluer : l'axe écoles mesure **l'offre
+communale**, pas la réussite des élèves ni le travail des enseignants ; **aucun verdict par quartier**
+nulle part (les neuf communes n'ont aucun quartier documenté dans `data/neighborhoods.ts`, ce que les
+guides disent au lieu de le taire) ; le **seuil affiché est déjà la version indulgente à 35 %** pour
+Pessac et Le Tampon, et la **règle stricte** ailleurs, Chambéry et Ajaccio étant à 5,0 pile ; le score
+de coût de la vie du Tampon décrit **l'importation, pas le loyer** ; la **baignade en mer est
+interdite hors lagon de la côte ouest et hors bassins surveillés**, et **Le Tampon n'a pas de
+littoral** ; la **saison cyclonique impose une garde d'urgence identifiée à l'avance** ; et sur
+Calais et Ajaccio, les deux dossiers les plus bas sur écoles et sécurité, la copie s'en tient à ce que
+les indicateurs mesurent et **ne dit rien des habitants**.
+
+Sept ajouts propres à l'angle voyageur étranger, absents du FR parce qu'inutiles à un lecteur
+français : **Visale** comme réponse au garant qu'un arrivant n'a pas (Valence) ; le fait que
+**Valence TGV est à Alixan**, hors de la ville, et qu'il faut lire le nom de la gare sur le billet
+(seul chiffre repris du corpus FR, sans durée de correspondance) ; le **travail frontalier vers
+l'Allemagne et la Suisse** depuis l'Alsace, dont le régime fiscal et social relève d'accords
+bilatéraux et se vérifie cas par cas (Colmar) ; l'**allocation de soutien familial** et
+l'intermédiation CAF des pensions (Saint-Nazaire) ; le fait qu'une **population française est celle
+de la commune et non de l'aire urbaine**, ce qui explique l'écart seed / recensement (Chambéry) ;
+l'**absence de restriction de nationalité à l'achat** en France mais des conditions de prêt
+différentes pour un non-résident (Bourges) ; la **dérogation à la carte scolaire qui se demande et ne
+se suppose pas** (Pessac) ; et, côté Calais, le fait que **le Royaume-Uni est un pays tiers depuis le
+Brexit**, donc formalités de frontière à chaque traversée, enfants compris — l'atout « relais
+familial atteignable » du guide FR devient ici une information de procédure. Ajaccio et Le Tampon
+portent les rappels déjà établis : **DROM hors Schengen**, **La Réunion à UTC+4 sans heure d'été et
+calendrier scolaire propre**, **Corse pleinement en France et dans l'UE**, mais liaisons continentales
+à budgéter.
+
+**Prochain run parent-solo : batch FR** (l'écart est nul, la main revient au FR). Vivier laissé par le
+batch 6 et à recalculer plutôt qu'à recopier : **Quimper** (6,1), **Montauban** (6,3), **Narbonne**
+(4,9), **Sète** (4,8), **Vénissieux** (5,6, à examiner au regard de la règle granulaire), les communes
+réunionnaises non couvertes (Saint-Louis, Saint-André, Saint-Benoît, Saint-Joseph) et **Le Lamentin**
+(4,5). Sous ce vivier, la série approche de sa fermeture naturelle.
+
 ### Livré le 26/08 — série tourisme rattrapée (batch 35 EN, +6), parité refermée à 219/219
 
 `npm run parity` en **code 0** en début de run (FR 218 / EN 165, 0 route sans jumelle) : pas de
@@ -3158,7 +3240,26 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ---
 
-## Shipped 2026-08-29
+## Shipped 2026-08-29 (2e run du jour)
+
+- **Parité EN — `single-parent-in-[city]-2026` batch 6 (+9 : Valence, Colmar, Saint-Nazaire,
+  Chambéry, Bourges, Pessac, Calais, Le Tampon 974, Ajaccio), série refermée à 57/57.** Les neuf
+  jumelles du batch FR du 28/08, écrites d'un coup dans `data/guides-en.ts`. **Compteurs mesurés
+  avant et après : 57 FR / 48 EN → 57 / 57** (`EN_GUIDES` 771 → 780). `npm run parity` en code 0
+  aux deux bouts. Détail complet, méthode de rang, contrôles et vivier suivant : § Parité EN,
+  « Livré le 29/08 (2ᵉ run) ».
+  - ⚠️ **Le comptage du run précédent confondait deux séries** : « EN 63 » agrégeait
+    `single-parent-in-` (48) et `single-parent-holidays-` (15, série vacances F61). Un préfixe qui
+    en contient un autre se compte avec son tiret et son millésime.
+  - **Deux comparatifs faux des guides FR du 28/08, corrigés dans les deux locales** : le T3 de
+    Chambéry à 1 100 € est le **deuxième** plus cher du batch (Ajaccio 1 200 €) et non le
+    troisième ; et les Pays de la Loire ne sont pas « la région la plus favorable de France à ce
+    profil » — la meilleure moyenne régionale est celle de la **Bourgogne-Franche-Comté** (6,54
+    contre 6,36). Ce qui tient et qui est publié à la place : les Pays de la Loire placent **trois
+    communes dans les huit premières nationales**.
+  - **Ce qui n'est pas livré** : rien d'autre. Aucune route neuve, aucun tag neuf (EN reste à 108),
+    aucune page `/tags` créée, et le rang de richesse biodiversité reste fermé. `npm run build` n'a
+    pas été lancé, conformément à CLAUDE.md § Commands ; le rendu réel reste une passe locale.
 
 - **Parité EN — deuxième lot `living-in-[sous-région]-2026` (+6 : les Pyrénées, la Lorraine, la
   Sarthe, l'Auvergne, la Bretagne intérieure, les DROM).** `npm run parity` sort en **code 0**,
