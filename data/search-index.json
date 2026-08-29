@@ -7829,6 +7829,41 @@
       "emoji": "🍸"
     },
     {
+      "slug": "vacances-celibataire-brest-2026",
+      "title": "Vacances célibataire à Brest en 2026 : Saint-Martin, les Capucins, séjour sans voiture",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-reims-2026",
+      "title": "Vacances célibataire à Reims en 2026 : centre cathédrale, Cartonnerie, séjour sans voiture",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-orleans-2026",
+      "title": "Vacances célibataire à Orléans en 2026 : centre piéton, Astrolabe, séjour sans voiture",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-metz-2026",
+      "title": "Vacances célibataire à Metz en 2026 : centre Pompidou, Trinitaires, séjour sans voiture",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-troyes-2026",
+      "title": "Vacances célibataire à Troyes en 2026 : bouchon de champagne, Chapelle Argence, séjour sans voiture",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-pau-2026",
+      "title": "Vacances célibataire à Pau en 2026 : boulevard des Pyrénées, Le Foirail, séjour sans voiture",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "vacances-celibataire-chambery-2026",
+      "title": "Vacances célibataire à Chambéry en 2026 : vieille ville, Malraux, séjour sans voiture",
+      "emoji": "🍸"
+    },
+    {
       "slug": "partir-en-vacances-seul-2026",
       "title": "Partir en vacances seul·e en 2026 : supplément single, villes vivantes, bonne saison",
       "emoji": "🍸"
@@ -9168,6 +9203,11 @@
     {
       "slug": "vie-chere-outre-mer-parent-seul",
       "label": "vie chère outre-mer parent seul",
+      "count": 4
+    },
+    {
+      "slug": "week-end-celibataire-grand-est",
+      "label": "week-end célibataire Grand Est",
       "count": 4
     },
     {

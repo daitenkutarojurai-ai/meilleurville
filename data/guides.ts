@@ -45145,6 +45145,321 @@ export const GUIDES: Guide[] = [
     tags: ["vacances célibataire Besançon", "voyage solo Besançon", "sortir seul·e Besançon", "quartier Battant Besançon", "week-end célibataire Franche-Comté"]
   },
   {
+    slug: "vacances-celibataire-brest-2026",
+    title: "Vacances célibataire à Brest en 2026 : Saint-Martin, les Capucins, séjour sans voiture",
+    metaTitle: "Vacances célibataire Brest 2026 : sortir seul·e, quartiers",
+    metaDesc: "Brest en séjour célibataire : 28,8 % de 15-29 ans, 24e ville de France sur ce critère, tramway et téléphérique. Loger, sortir un mardi, budget solo.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-29",
+    updatedAt: "2026-08-29",
+    intro: "Brest est la 24e ville de France, sur les 538 que ce site mesure, pour la part des 15-29 ans dans sa population résidente : 28,8 % au recensement Insee 2022, contre une médiane nationale de 18,4 %. C'est la plus jeune des sept destinations de ce lot, et c'est le chiffre qui compte pour un séjour célibataire hors saison, parce qu'il dit qui habite la ville un mardi soir de novembre. Brest ajoute quelque chose que les six autres n'ont pas au même degré : un score de nature de 6,4/10 et une façade maritime, sans être pour autant une station qui se vide en septembre. Ce guide indique où poser ses valises, comment enchaîner une soirée en semaine, et comment limiter la facture quand on réserve pour une personne.",
+    sections: [
+      {
+        heading: "Pourquoi Brest plutôt qu'ailleurs pour un séjour célibataire",
+        body: "Brest ouvre ce lot de destinations sur la part des 15-29 ans, avec 28,8 % contre une médiane nationale de 18,4 %. Cette population n'est pas saisonnière : elle tient à l'université de Bretagne occidentale, aux écoles d'ingénieurs et à l'activité maritime et militaire de la rade, qui fonctionnent de septembre à juin. La conséquence pratique est simple, et c'est tout l'objet de ce guide : la vie du soir ne dépend pas du calendrier des vacances. Deux salles structurent la programmation. La Carène est la scène de musiques actuelles labellisée SMAC par le ministère de la Culture, et elle programme entre 70 et 90 concerts par an, ce qui met une sortie à portée de décision la veille presque toute l'année. Le Quartz est la scène nationale de Brest, et la première de France en fréquentation, avec du théâtre, de la danse et des concerts. Deux réserves honnêtes. Le score de vie quotidienne de Brest est de 6,2/10, en troisième position de ce lot derrière Chambéry et Pau : c'est correct, ce n'est pas la densité de terrasses d'une ville méditerranéenne. Et le score de culture, 6,6/10, est à égalité avec Orléans et Pau, loin derrière les 7,6/10 de Reims. Brest se choisit pour sa jeunesse résidente et sa rade, pas pour une densité d'institutions culturelles."
+      },
+      {
+        heading: "Où poser ses valises : Siam, Saint-Martin, les Capucins",
+        body: "Trois secteurs suffisent. La rue de Siam et l'hypercentre reconstruit forment l'axe par défaut, celui qui descend vers le port et dessert tout à pied. Le quartier Saint-Martin, immédiatement au nord du centre, est le plus dense en petites tables et en bars de la ville, avec une ambiance de quartier qui reste vivante en semaine : c'est le meilleur compromis pour un séjour court en célibataire. Le plateau des Capucins, sur la rive droite de la Penfeld, occupe une ancienne caserne et une usine du XIXe siècle transformées en ateliers ouverts, avec une médiathèque et des cafés, et il se rejoint depuis le centre par le téléphérique. Le secteur Europe, du côté de l'université, concentre les logements étudiants : loyers courts plus bas, mais soirées plus dispersées. Pour un séjour de deux à quatre nuits, viser Saint-Martin ou le haut de Siam et ignorer la périphérie."
+      },
+      {
+        heading: "Sortir un mardi soir : Saint-Martin, La Carène, Le Quartz",
+        body: "Le circuit de semaine se marche, et il tient dans un rectangle. Il part du haut de la rue de Siam, bifurque dans les rues de Saint-Martin où se concentrent les comptoirs et les petites cuisines, et redescend vers le port de commerce, dont les hangars abritent plusieurs salles et bars à concerts qui ouvrent en soirée. Côté programmation, La Carène aligne ses 70 à 90 concerts annuels dans le port de commerce, ce qui en fait la sortie la plus simple à décider au dernier moment. Le Quartz tient sa saison de scène nationale, et sa fréquentation dit assez qu'elle n'est pas réservée à un public d'initiés. Un séjour célibataire réussi ici consiste à caler une soirée de salle et une ou deux soirées de comptoir plutôt qu'à espérer une nuit continue. Comme partout, le dimanche soir et le lundi sont les creux de la semaine ; du mardi au samedi, la densité est là. Un mot sur le climat, parce qu'il change la façon de sortir : à Brest on choisit des adresses où l'on entre, pas des terrasses où l'on s'installe pour la soirée."
+      },
+      {
+        heading: "Se déplacer sans voiture : tramway, téléphérique, TGV",
+        body: "Le score de transport de Brest est de 6,4/10, à égalité avec Reims et Orléans dans ce lot. La ville dispose d'un tramway, d'un réseau de bus à haut niveau de service et d'une desserte TGV directe depuis Paris-Montparnasse, ce qui rend le séjour sans voiture entièrement tenable. La particularité locale mérite d'être connue : la ligne C du réseau urbain est un téléphérique, franchissant la Penfeld entre le quartier de Siam et le plateau des Capucins. C'est le premier ouvrage de ce type construit en France depuis celui de la Bastille à Grenoble, et il se prend avec un titre de transport ordinaire, pas un billet touristique. La gare de Brest est au bas du centre, ce qui met l'arrivée à quelques minutes de la plupart des hébergements de Siam et de Saint-Martin. Le TER ouvre les excursions à la journée sans jamais toucher un volant, vers Quimper, Morlaix ou Landerneau. Une réserve : la pointe bretonne est un terminus, l'arrivée depuis Paris est longue, ce qui plaide pour trois nuits plutôt que deux."
+      },
+      {
+        heading: "Le supplément single et comment le contourner à Brest",
+        body: "Le score de coût de Brest est de 6,4/10, le deuxième meilleur de ce lot derrière Troyes, et deux caractéristiques structurelles jouent en faveur du voyageur seul. D'abord un parc hôtelier orienté clientèle professionnelle, lié à l'activité portuaire et militaire, dont les grilles de semaine sont calées sur des occupations à une personne et non sur le couple. Ensuite un parc de studios meublés hérité de la demande étudiante, cohérent avec ces 28,8 % de 15-29 ans : la location courte durée facture la surface, ce qui met le voyageur solo au même prix que deux. Trois réflexes valent ici comme ailleurs dans la série. Chercher explicitement une chambre single plutôt qu'une double occupée par une personne, parce que ce sont deux lignes tarifaires distinctes. Viser les hôtels d'affaires du lundi au jeudi, dont la grille s'inverse le week-end. Et comparer studio et hôtel dès la deuxième nuit. Aucun montant n'est imprimé dans ce guide : les tarifs bougent d'une saison et d'une plateforme à l'autre, ce qui se transmet est le réflexe, pas le prix."
+      },
+      {
+        heading: "Quand y aller : rentrée universitaire, printemps, hors août",
+        body: "La meilleure fenêtre est septembre à mi-novembre, et c'est précisément la période où une station balnéaire se vide. La rentrée universitaire remplit la ville, les saisons de La Carène et du Quartz redémarrent, et les journées restent utilisables. Avril à juin fonctionne aussi bien, avec des jours longs qui permettent de finir la soirée dehors sur le port. Deux périodes appellent une réserve. La première quinzaine d'août voit partir les étudiants, et c'est le moment où la ville ressemble le plus à ce que ce guide cherche à éviter. Et les grands rassemblements maritimes qui font la réputation de la rade saturent l'hébergement quand ils tombent : leur calendrier n'est pas annuel, il se vérifie avant de bloquer des dates plutôt que de se déduire d'une édition précédente. Le reste de l'année, Brest tient sa promesse d'une ville qui vit sans dépendre des vacanciers, ce qui est exactement le critère de ce profil."
+      }
+    ],
+    relatedCities: ["brest"],
+    relatedGuides: [
+      "10-choses-a-faire-a-brest-2026",
+      "vacances-monoparentales-brest-2026",
+      "vacances-celibataire-rennes-2026"
+    ],
+    tags: ["vacances célibataire Brest", "voyage solo Brest", "sortir seul·e Brest", "quartier Saint-Martin Brest", "week-end célibataire Bretagne"]
+  },
+  {
+    slug: "vacances-celibataire-reims-2026",
+    title: "Vacances célibataire à Reims en 2026 : centre cathédrale, Cartonnerie, séjour sans voiture",
+    metaTitle: "Vacances célibataire Reims 2026 : sortir seul·e, quartiers",
+    metaDesc: "Reims en séjour célibataire : 27,5 % de 15-29 ans, culture 7,6/10, la plus élevée de ce lot, tramway et TGV. Loger, sortir un mardi, budget solo.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-29",
+    updatedAt: "2026-08-29",
+    intro: "Reims cumule deux atouts que peu de villes réunissent pour un séjour célibataire hors saison : une part de 15-29 ans de 27,5 % au recensement Insee 2022, la 27e de France sur les 538 villes mesurées ici, contre une médiane nationale de 18,4 %, et un score de culture de 7,6/10, le plus élevé des sept destinations de ce lot. La première donnée dit qui habite la ville un mardi de novembre ; la seconde dit ce qu'il y a à y faire. S'y ajoute une position ferroviaire qui met Paris à portée de trajet court. Ce guide indique où poser ses valises, comment enchaîner une soirée en semaine, et comment limiter la facture quand on réserve pour une personne.",
+    sections: [
+      {
+        heading: "Pourquoi Reims plutôt qu'ailleurs pour un séjour célibataire",
+        body: "Reims est la plus peuplée de ce lot, avec 178 478 habitants au recensement 2022, et sa part de 15-29 ans atteint 27,5 %, juste derrière Brest parmi les sept destinations. Cette jeunesse tient à l'université de Reims Champagne-Ardenne et aux écoles installées en ville, dont l'année court de septembre à juin : la vie du soir suit le calendrier universitaire, pas celui des vacances. Le score de culture de 7,6/10 est le plus haut de ce lot, et il est adossé à des institutions qui programment toute la saison. La Cartonnerie est la scène de musiques actuelles labellisée SMAC. L'Opéra de Reims occupe une salle Art déco. La Comédie de Reims est un centre dramatique national. S'y ajoutent Le Manège, scène nationale, et le FRAC Champagne-Ardenne pour l'art contemporain. Deux réserves honnêtes, et elles sont réelles. Le score de sécurité de Reims est de 5,1/10, à égalité avec Orléans au niveau le plus bas de ce lot, ce qui appelle la vigilance urbaine ordinaire, rien de plus. Et le score de nature, 4,2/10, est le plus faible des sept : Reims est une ville de pierre et de vignoble périurbain, pas une destination de plein air."
+      },
+      {
+        heading: "Où poser ses valises : centre cathédrale, Clairmarais, secteur gare",
+        body: "Le centre autour de la cathédrale et du palais du Tau est le choix par défaut : immeubles de centre-ville, rues commerçantes, la plus forte densité de tables et de comptoirs, et tout à pied. Clairmarais, entre le parc de Champagne et le centre, est le quartier de report quand le centre est plein : cafés indépendants, ambiance de jeunes actifs, et le tramway pour rentrer. Le secteur de la gare concentre les hôtels d'affaires, et c'est l'option budget la plus fiable, à une dizaine de minutes à pied de la cathédrale : c'est le sujet de la section sur le supplément single. Croix-Rouge, autour du campus de l'université, offre les loyers courts les plus bas et une ambiance étudiante qui tourne toute l'année universitaire, au prix d'un trajet en tramway pour rejoindre le centre le soir. Pour un séjour court, viser le centre ou Clairmarais et ignorer la périphérie."
+      },
+      {
+        heading: "Sortir un mardi soir : place Drouet-d'Erlon, Cartonnerie, Opéra",
+        body: "Le circuit de semaine se marche, et il a un centre de gravité évident : la place Drouet-d'Erlon et les rues qui y débouchent concentrent la plus grande partie des brasseries, bars et petites tables du centre, à quelques minutes de la cathédrale. On y dîne au comptoir sans que cela demande d'explication, ce qui est le vrai critère d'un séjour seul·e. Côté salles, La Cartonnerie programme les musiques actuelles à des tarifs contenus, et c'est la sortie la plus simple à décider la veille. L'Opéra de Reims et la Comédie de Reims tiennent leurs saisons respectives de septembre à juin, et Le Manège complète en cirque et en danse. Sur la question du champagne, un mot d'honnêteté pratique : les grandes maisons de l'avenue de Champagne et des Crayères proposent des visites, mais elles se réservent, et une visite à une personne n'a rien d'inhabituel. Comme partout, le dimanche soir et le lundi sont les creux ; du mardi au samedi, la densité est là."
+      },
+      {
+        heading: "Se déplacer sans voiture : tramway, TGV, TER",
+        body: "Le score de transport de Reims est de 6,4/10, à égalité avec Brest et Orléans dans ce lot. La ville dispose d'un tramway, d'un réseau de bus à haut niveau de service, et d'une desserte TGV directe depuis Paris-Est, ce qui fait de Reims l'une des destinations les plus faciles de la série à atteindre sans voiture pour un séjour court. La gare centrale est à quelques minutes à pied de la place Drouet-d'Erlon et du centre, ce qui supprime la question du transfert à l'arrivée comme au départ. Le tramway relie le centre aux quartiers universitaires et à la gare, ce qui rend viable un hébergement hors hypercentre sans dépendre d'un dernier bus. Le TER ouvre les excursions à la journée, vers Épernay et la vallée de la Marne notamment, sans jamais toucher un volant. Séjour sans voiture parfaitement tenable, y compris sur deux nuits, ce que la distance ne permet pas partout dans ce lot."
+      },
+      {
+        heading: "Le supplément single et comment le contourner à Reims",
+        body: "Le score de coût de Reims est de 6,0/10, l'avant-dernier de ce lot devant Chambéry, ce qui en fait l'une des destinations où le réflexe compte le plus. Deux caractéristiques structurelles jouent malgré tout en faveur du voyageur seul. D'abord un parc hôtelier de gare orienté clientèle d'affaires, dont les tarifs de semaine sont calés sur des occupations à une personne et non sur le couple. Ensuite un parc de studios meublés hérité de la demande étudiante, cohérent avec ces 27,5 % de 15-29 ans : la location courte durée facture la surface, ce qui met le voyageur solo au même prix que deux. Trois réflexes. Chercher explicitement une chambre single plutôt qu'une double occupée par une personne, parce que ce sont deux lignes tarifaires distinctes. Viser les hôtels d'affaires du lundi au jeudi, dont la grille s'inverse le week-end. Et comparer studio et hôtel dès la deuxième nuit. Aucun montant n'est imprimé dans ce guide : les tarifs bougent d'une saison et d'une plateforme à l'autre, ce qui se transmet est le réflexe, pas le prix. Une réserve propre à Reims : la proximité de Paris fait du week-end un marché tendu, la semaine est nettement plus favorable."
+      },
+      {
+        heading: "Quand y aller : rentrée universitaire, printemps, hors vendanges",
+        body: "La meilleure fenêtre est septembre à mi-novembre, et c'est précisément la période où une station balnéaire se vide. La rentrée universitaire remplit la ville, les saisons de La Cartonnerie, de l'Opéra et de la Comédie redémarrent, et les terrasses de la place Drouet-d'Erlon tiennent encore en septembre. Avril à juin fonctionne aussi bien. Deux périodes appellent une réserve. Les vendanges, fin août et début septembre selon les millésimes, tendent l'hébergement dans toute la Champagne et les dates bougent d'une année sur l'autre : elles se vérifient avant de réserver plutôt que de se déduire de l'année précédente. Et la première quinzaine d'août voit partir les étudiants, ce qui est exactement la situation que ce profil cherche à éviter. Le reste de l'année, Reims tient sa promesse d'une ville qui vit sans dépendre des vacanciers, avec la programmation culturelle la plus fournie de ce lot pour l'accompagner."
+      }
+    ],
+    relatedCities: ["reims"],
+    relatedGuides: [
+      "10-choses-a-faire-a-reims-2026",
+      "travail-a-reims-2026",
+      "vacances-celibataire-nancy-2026"
+    ],
+    tags: ["vacances célibataire Reims", "voyage solo Reims", "sortir seul·e Reims", "place Drouet-d'Erlon", "week-end célibataire Grand Est"]
+  },
+  {
+    slug: "vacances-celibataire-orleans-2026",
+    title: "Vacances célibataire à Orléans en 2026 : centre piéton, Astrolabe, séjour sans voiture",
+    metaTitle: "Vacances célibataire Orléans 2026 : sortir seul·e, budget",
+    metaDesc: "Orléans en séjour célibataire : 25,6 % de 15-29 ans, deux lignes de tramway, Paris en une heure. Loger, sortir un mardi, contourner le supplément single.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-29",
+    updatedAt: "2026-08-29",
+    intro: "Orléans affiche 25,6 % de 15-29 ans au recensement Insee 2022, la 35e part de France sur les 538 villes mesurées ici, pour une médiane nationale de 18,4 %. C'est aussi la ville de ce lot dont la population est la plus jeune par l'autre bout : 21,1 % de 60 ans et plus, la proportion la plus faible des sept destinations, là où la médiane nationale s'établit à 27,2 %. Une ville qui vit toute l'année, donc, et à une heure de train de Paris. Il contient aussi, en dernière section, une mise en garde de calendrier qui piège chaque année des visiteurs : le grand événement d'Orléans ne se tient pas en 2026. Il indique où poser ses valises, comment enchaîner une soirée en semaine, et comment limiter la facture quand on réserve pour une personne.",
+    sections: [
+      {
+        heading: "Pourquoi Orléans plutôt qu'ailleurs pour un séjour célibataire",
+        body: "Orléans et Metz sont à égalité à 25,6 % de 15-29 ans dans ce lot, et l'écart entre elles ne se départage pas à la décimale affichée. Ce qui distingue Orléans, c'est le bas de sa pyramide des âges : avec 21,1 % de 60 ans et plus, elle a la structure la plus jeune des sept, très en dessous de la médiane nationale de 27,2 %. Cette population tient à l'université d'Orléans et aux écoles installées à La Source, dont l'année court de septembre à juin. La conséquence pratique est celle de tout ce lot : la vie du soir suit le calendrier universitaire, pas celui des vacances. Côté salles, L'Astrolabe est la scène de musiques actuelles labellisée SMAC, avec deux salles, l'Astrolabe et l'Astroclub, et environ 80 concerts programmés de septembre à juin, ce qui met une sortie à portée de décision la veille sur toute la saison. Deux réserves franches, et ce guide préfère les écrire. Le score de vie quotidienne d'Orléans est de 5,5/10, le plus bas de ce lot : la densité de terrasses et de commerces du soir n'est pas l'argument de la ville. Et le score de sécurité, 5,1/10, est à égalité avec Reims au niveau le plus bas des sept. Orléans se choisit pour sa jeunesse résidente, sa taille maniable et sa liaison ferroviaire, pas pour une effervescence permanente."
+      },
+      {
+        heading: "Où poser ses valises : centre intra-muros, bords de Loire, La Source",
+        body: "Le centre intra-muros est le choix par défaut, et il n'y a pas vraiment de concurrent pour un séjour court. Le secteur piéton autour de la cathédrale Sainte-Croix, de la rue de Bourgogne et de la rue de la République concentre les tables, les comptoirs et les commerces, et il se traverse à pied de bout en bout. La rue de Bourgogne est l'axe historique des sorties du soir, et c'est là que se joue l'essentiel d'un mardi. Les bords de Loire, en contrebas du centre, ajoutent une promenade et quelques adresses saisonnières : agréables d'avril à septembre, plus calmes ensuite. La Source, au sud, est le quartier universitaire, organisé autour du campus et du parc floral : loyers courts plus bas, ambiance étudiante réelle, mais un trajet de tramway pour rejoindre le centre le soir, ce qui en fait un choix de budget plutôt qu'un choix de confort. Pour deux à quatre nuits, viser l'intra-muros à moins d'un quart d'heure à pied de la rue de Bourgogne."
+      },
+      {
+        heading: "Sortir un mardi soir : rue de Bourgogne, Astrolabe, scène nationale",
+        body: "Le circuit de semaine se marche, et il est compact. Il part de la place du Martroi, descend la rue de Bourgogne où se concentrent les bars et les petites cuisines, et s'achève vers les quais quand la saison le permet. On y dîne au comptoir sans que cela demande d'explication, ce qui est le vrai critère d'un séjour seul·e. Côté salles, L'Astrolabe est l'adresse à connaître : équipement municipal labellisé SMAC, deux salles de tailles différentes, environ 80 concerts entre septembre et juin, et un accès direct par la ligne B du tramway à l'arrêt Madeleine, ce qui règle la question du retour. La scène nationale d'Orléans complète en théâtre et en danse sur la même saison. Un séjour célibataire réussi ici consiste à caler une soirée de salle et une ou deux soirées de comptoir plutôt qu'à espérer une nuit continue : Orléans est une ville de taille moyenne, avec les horaires qui vont avec. Comme partout, le dimanche soir et le lundi sont les creux ; du mardi au samedi, la densité est là."
+      },
+      {
+        heading: "Se déplacer sans voiture : deux lignes de tramway, train pour Paris",
+        body: "Le score de transport d'Orléans est de 6,4/10, à égalité avec Brest et Reims dans ce lot. La ville dispose de deux lignes de tramway et d'un réseau de bus à haut niveau de service, ce qui suffit très largement à l'échelle du centre et rend viable un hébergement à La Source sans dépendre d'un dernier bus. Un point de vocabulaire à connaître avant de réserver : Orléans n'est pas desservie par le TGV, et elle n'en a pas besoin. La liaison avec Paris se fait par train classique depuis Paris-Austerlitz, en environ une heure, ce qui place la ville parmi les plus accessibles de la série pour un séjour de deux nuits. Attention en revanche à la gare choisie par le moteur de réservation : les trains s'arrêtent selon les cas à Orléans centre ou aux Aubrais, à Fleury-les-Aubrais, qui est une commune voisine reliée au centre par le tramway. Ce n'est pas un problème, à condition de l'avoir vu avant et non sur le quai. Le TER ouvre les excursions à la journée vers les châteaux de la Loire sans jamais toucher un volant."
+      },
+      {
+        heading: "Le supplément single et comment le contourner à Orléans",
+        body: "Le score de coût d'Orléans est de 6,2/10, à égalité avec Metz et Pau dans ce lot, et deux caractéristiques structurelles jouent en faveur du voyageur seul. D'abord un parc hôtelier de gare et de centre orienté clientèle d'affaires, nourri par la proximité de Paris, dont les grilles de semaine sont calées sur des occupations à une personne et non sur le couple. Ensuite un parc de studios meublés hérité de la demande étudiante de La Source : la location courte durée facture la surface, ce qui met le voyageur solo au même prix que deux. Trois réflexes valent ici comme ailleurs dans la série. Chercher explicitement une chambre single plutôt qu'une double occupée par une personne, parce que ce sont deux lignes tarifaires distinctes. Viser les hôtels d'affaires du lundi au jeudi, dont la grille s'inverse le week-end. Et comparer studio et hôtel dès la deuxième nuit. Aucun montant n'est imprimé dans ce guide : les tarifs bougent d'une saison et d'une plateforme à l'autre, ce qui se transmet est le réflexe, pas le prix."
+      },
+      {
+        heading: "Quand y aller : rentrée universitaire, printemps, et le piège du Festival de Loire",
+        body: "La meilleure fenêtre est septembre à mi-novembre, quand la rentrée universitaire remplit la ville et que les saisons de L'Astrolabe et de la scène nationale redémarrent. Avril à juin fonctionne aussi bien, avec les quais praticables et les journées longues. Une mise en garde de calendrier mérite d'être lue avant de bloquer des dates, parce qu'elle piège chaque année des visiteurs qui recopient une page ancienne. Le Festival de Loire, le grand rassemblement de marine fluviale qui occupe les quais et qui est l'événement le plus connu d'Orléans, est biennal et se tient les années impaires : la 12e édition s'est tenue du 24 au 28 septembre 2025, et la suivante est attendue en septembre 2027. Il n'y a donc pas de Festival de Loire en 2026. Une page qui vous en promet un pour cette année recopie une édition précédente. Les fêtes de Jeanne d'Arc, début mai, sont l'autre grand moment civique de la ville, et celui-là est annuel. Deux périodes à éviter pour ce profil : la première quinzaine d'août, où les étudiants sont partis, et le dimanche soir toute l'année."
+      }
+    ],
+    relatedCities: ["orleans"],
+    relatedGuides: [
+      "10-choses-a-faire-a-orleans-2026",
+      "vivre-a-orleans-2026",
+      "vacances-celibataire-tours-2026"
+    ],
+    tags: ["vacances célibataire Orléans", "voyage solo Orléans", "sortir seul·e Orléans", "rue de Bourgogne Orléans", "week-end célibataire Centre-Val de Loire"]
+  },
+  {
+    slug: "vacances-celibataire-metz-2026",
+    title: "Vacances célibataire à Metz en 2026 : centre Pompidou, Trinitaires, séjour sans voiture",
+    metaTitle: "Vacances célibataire Metz 2026 : sortir seul·e, quartiers",
+    metaDesc: "Metz en séjour célibataire : 25,6 % de 15-29 ans, culture 7,3/10, Cité musicale et Centre Pompidou. Loger, sortir un mardi, budget solo sans voiture.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-29",
+    updatedAt: "2026-08-29",
+    intro: "Metz affiche 25,6 % de 15-29 ans au recensement Insee 2022, contre une médiane nationale de 18,4 % sur les 538 villes mesurées ici, et un score de culture de 7,3/10, le deuxième de ce lot derrière Reims. La ville a surtout une particularité que peu de villes de sa taille partagent : ses trois salles principales et son orchestre sont réunis dans une même structure, ce qui donne une programmation continue de septembre à juin plutôt qu'une saison en pointillé. Ajoutez un score de transport de 6,7/10, le plus élevé de ce lot avec Troyes, et une desserte TGV directe depuis Paris. Ce guide indique où poser ses valises, comment enchaîner une soirée en semaine, et comment limiter la facture quand on réserve pour une personne.",
+    sections: [
+      {
+        heading: "Pourquoi Metz plutôt qu'ailleurs pour un séjour célibataire",
+        body: "Metz et Orléans sont à égalité à 25,6 % de 15-29 ans dans ce lot, et l'écart entre elles ne se départage pas à la décimale affichée. Cette population tient à l'université de Lorraine et aux écoles installées en ville, dont l'année court de septembre à juin : la vie du soir suit le calendrier universitaire, pas celui des vacances, ce qui est le critère de ce profil. Le score de culture de 7,3/10 place Metz au deuxième rang de ce lot derrière Reims, et l'organisation locale explique pourquoi il tient toute l'année. La Cité musicale-Metz réunit trois salles et l'Orchestre national de Metz Grand Est : l'Arsenal pour le symphonique, le baroque, le jazz et la danse, la BAM pour les musiques actuelles et les artistes émergents, les Trinitaires pour le rock, le hip-hop et les musiques électroniques. À cela s'ajoute le Centre Pompidou-Metz, bâtiment de Shigeru Ban reconnaissable à sa toiture courbe, qui est la principale institution d'art moderne et contemporain de la ville. Deux réserves honnêtes. Le score de vie quotidienne de Metz est de 5,9/10, à égalité avec Reims et Troyes dans ce lot. Et le score de nature, 4,8/10, à égalité avec Orléans, est parmi les plus bas des sept."
+      },
+      {
+        heading: "Où poser ses valises : centre, Outre-Seille, secteur gare",
+        body: "Trois secteurs suffisent. Le centre, entre la cathédrale Saint-Étienne, la place Saint-Louis et la place de Chambre, est le choix par défaut : c'est la plus forte concentration de tables et de comptoirs, et tout se fait à pied. Le quartier Outre-Seille, à l'est du centre, est le secteur de report, plus discret et plus ancré, avec des adresses de quartier qui restent ouvertes en semaine. Le secteur de la gare mérite une mention particulière à Metz, parce que la gare elle-même est un monument de l'époque impériale allemande et qu'elle est entourée du quartier impérial, avec ses hôtels d'affaires : c'est l'option budget la plus fiable, à une dizaine de minutes à pied de la cathédrale, et c'est le sujet de la section sur le supplément single. Le plateau universitaire du Saulcy, sur son île, concentre la vie étudiante en journée. Pour un séjour court, viser le centre ou Outre-Seille et ignorer la périphérie."
+      },
+      {
+        heading: "Sortir un mardi soir : place Saint-Louis, Trinitaires, BAM",
+        body: "Le circuit de semaine se marche et tient dans un mouchoir. Il part de la place Saint-Louis et de ses arcades, passe par la place de Chambre au pied de la cathédrale, où se concentrent les terrasses et les tables, et rejoint Outre-Seille pour les adresses plus confidentielles. On y dîne au comptoir sans que cela demande d'explication. Côté salles, les Trinitaires sont installés dans un ancien couvent et programment rock, hip-hop et musiques électroniques avec une direction artistique volontiers exigeante ; la BAM, dans le quartier de Borny, est l'autre salle de musiques actuelles de la Cité musicale, tournée vers les scènes émergentes ; l'Arsenal tient la saison symphonique et de danse. Cette répartition en trois lieux est ce qui rend une sortie décidable la veille presque n'importe quel soir de la saison, ce qui n'est pas fréquent à cette échelle de ville. Comme partout, le dimanche soir et le lundi sont les creux ; du mardi au samedi, la densité est là."
+      },
+      {
+        heading: "Se déplacer sans voiture : Mettis, TGV, pas de tramway",
+        body: "Le score de transport de Metz est de 6,7/10, le plus élevé de ce lot avec Troyes. Un point à connaître, parce que l'usage local et les guides recopiés induisent en erreur : il n'y a pas de tramway à Metz. Le réseau s'appuie sur le Mettis, un bus à haut niveau de service mis en service le 5 octobre 2013, qui roule en site propre avec des véhicules bi-articulés de 24 mètres. Il en a l'allure et la fréquence, il n'est simplement pas ferré, et ce guide préfère le nommer correctement plutôt que de reprendre une approximation répandue. Deux lignes traversent la ville, complétées par le reste du réseau urbain. La gare de Metz-Ville est desservie en TGV direct depuis Paris-Est et se trouve à une dizaine de minutes à pied du centre, ce qui supprime la question du transfert à l'arrivée comme au départ. Le TER ouvre les excursions à la journée sans jamais toucher un volant, Nancy et Thionville en tête. Séjour sans voiture parfaitement tenable, y compris sur deux nuits."
+      },
+      {
+        heading: "Le supplément single et comment le contourner à Metz",
+        body: "Le score de coût de Metz est de 6,2/10, à égalité avec Orléans et Pau dans ce lot, et deux caractéristiques structurelles jouent en faveur du voyageur seul. D'abord un parc hôtelier de gare et du quartier impérial orienté clientèle d'affaires, dont les tarifs de semaine sont calés sur des occupations à une personne et non sur le couple. Ensuite un parc de studios meublés hérité de la demande étudiante, cohérent avec ces 25,6 % de 15-29 ans : la location courte durée facture la surface, ce qui met le voyageur solo au même prix que deux. Trois réflexes valent ici comme ailleurs dans la série. Chercher explicitement une chambre single plutôt qu'une double occupée par une personne, parce que ce sont deux lignes tarifaires distinctes. Viser les hôtels d'affaires du lundi au jeudi, dont la grille s'inverse le week-end. Et comparer studio et hôtel dès la deuxième nuit. Aucun montant n'est imprimé dans ce guide : les tarifs bougent d'une saison et d'une plateforme à l'autre, ce qui se transmet est le réflexe, pas le prix."
+      },
+      {
+        heading: "Quand y aller : rentrée universitaire, Constellations, marché de Noël",
+        body: "La meilleure fenêtre est septembre à mi-novembre, et c'est précisément la période où une station balnéaire se vide. La rentrée universitaire remplit la ville, les saisons de l'Arsenal, de la BAM et des Trinitaires redémarrent ensemble, et les terrasses de la place de Chambre tiennent encore en septembre. Avril à juin fonctionne aussi bien : le festival Constellations de Metz occupe alors la ville avec des parcours d'art et des concerts dans les salles de la Cité musicale et jusqu'au Centre Pompidou-Metz, et c'est le moment où la ville est la plus vivante dehors. Deux périodes appellent une réserve, pour des raisons opposées. Le marché de Noël, de fin novembre à fin décembre, remplit la ville et l'ambiance est réelle, mais l'hébergement se réserve largement en avance et les tarifs suivent, ce qui va à l'encontre du conseil de la section précédente. Et la première quinzaine d'août voit partir les étudiants, ce qui est exactement la situation que ce profil cherche à éviter."
+      }
+    ],
+    relatedCities: ["metz"],
+    relatedGuides: [
+      "10-choses-a-faire-a-metz-2026",
+      "metz-vs-nancy-comparatif-2026",
+      "vacances-celibataire-nancy-2026"
+    ],
+    tags: ["vacances célibataire Metz", "voyage solo Metz", "sortir seul·e Metz", "place Saint-Louis Metz", "week-end célibataire Grand Est"]
+  },
+  {
+    slug: "vacances-celibataire-troyes-2026",
+    title: "Vacances célibataire à Troyes en 2026 : bouchon de champagne, Chapelle Argence, séjour sans voiture",
+    metaTitle: "Vacances célibataire Troyes 2026 : sortir seul·e, budget",
+    metaDesc: "Troyes en séjour célibataire : 24,6 % de 15-29 ans, coût 7,1/10, le plus favorable de ce lot, Paris-Est en 1 h 30 sans TGV. Loger, sortir, budget solo.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-29",
+    updatedAt: "2026-08-29",
+    intro: "Troyes est la destination la moins chère de ce lot, avec un score de coût de 7,1/10, le plus favorable des sept, et elle affiche 24,6 % de 15-29 ans au recensement Insee 2022 pour une médiane nationale de 18,4 % sur les 538 villes mesurées ici. C'est aussi la seule ville de la série à n'avoir ni TGV ni réseau urbain sur rails, ce qui n'est pas un défaut pour un séjour célibataire : le centre médiéval se traverse à pied de bout en bout, et Paris-Est est à environ une heure et demie de train direct. Ce guide indique où poser ses valises, comment enchaîner une soirée en semaine, et comment limiter la facture quand on réserve pour une personne.",
+    sections: [
+      {
+        heading: "Pourquoi Troyes plutôt qu'ailleurs pour un séjour célibataire",
+        body: "Troyes est la destination la plus économique de ce lot, et de loin : son score de coût de 7,1/10 est le plus élevé des sept, devant Brest à 6,4. Sur la convention d'axe du site, un score de coût élevé signifie une ville accessible, pas une ville chère, et c'est bien le cas ici. Sa part de 15-29 ans atteint 24,6 % contre une médiane nationale de 18,4 %, portée par l'université de technologie de Troyes et les écoles installées en ville, dont l'année court de septembre à juin. La vie du soir suit donc le calendrier universitaire et non celui des vacances, ce qui est le critère de ce profil. Le score de culture, 7,1/10, place Troyes au troisième rang de ce lot derrière Reims et Metz, ce qui est notable pour une ville de 62 443 habitants : le centre médiéval à colombages, l'exceptionnel ensemble de vitraux des églises troyennes et la Cité du Vitrail, qui présente plus de 150 m² de verrières originales de toutes les périodes, y sont pour beaucoup. Deux réserves honnêtes. Le score de vie quotidienne de 5,9/10 est à égalité avec Reims et Metz dans ce lot : Troyes est une petite ville, avec les horaires d'une petite ville. Et l'absence de réseau urbain structurant se sent dès qu'on s'éloigne du centre."
+      },
+      {
+        heading: "Où poser ses valises : le bouchon de champagne, et rien d'autre",
+        body: "Pour une fois la réponse est simple. Le centre historique de Troyes, dont le tracé dessine une forme de bouchon de champagne, concentre les maisons à colombages, les ruelles, les tables et les comptoirs, et il se traverse à pied en une vingtaine de minutes de bout en bout. C'est le seul secteur à viser pour un séjour court, et il n'y a pas d'argument sérieux pour s'en écarter. À l'intérieur, la partie basse autour de la ruelle des Chats et de la rue Champeaux est la plus dense en adresses du soir. Le quartier Saint-Martin, à l'ouest du centre, est calme et résidentiel : correct si le centre est plein, sans plus. La zone des magasins d'usine, en périphérie, est ce qui amène le plus de visiteurs à Troyes, et c'est précisément le secteur à ne pas choisir pour dormir : elle est pavillonnaire, sans vie de soirée, et pratiquement inaccessible sans voiture. Se loger dans le bouchon et laisser les marques pour une demi-journée si l'envie vient."
+      },
+      {
+        heading: "Sortir un mardi soir : ruelle des Chats, Chapelle Argence",
+        body: "Le circuit de semaine est l'un des plus courts de la série, et c'est un avantage quand on sort seul·e : tout est à portée de marche, sans arbitrage de transport en fin de soirée. Il part de la place Alexandre-Israël, s'engage dans la rue Champeaux et la ruelle des Chats, dont les colombages se touchent presque au-dessus de la tête, et se prolonge vers les places du centre où se concentrent les terrasses et les tables. On y dîne au comptoir sans que cela demande d'explication. Côté salles, la Chapelle Argence, installée dans une chapelle du XIXe siècle de l'ancien lycée impérial, boulevard Gambetta, accueille une programmation ouverte à toutes les esthétiques, du classique aux musiques actuelles, portée par différents acteurs locaux. C'est le lieu à consulter en premier pour caler une soirée. Il faut être honnête sur l'échelle : Troyes n'a pas la densité de salles de Metz ou de Reims, et le lundi comme le dimanche soir y sont plus creux qu'ailleurs. Du jeudi au samedi, la ville est nettement plus animée qu'un mardi, et un séjour se cale utilement sur cette réalité."
+      },
+      {
+        heading: "Se déplacer sans voiture : marche, train direct, pas de TGV",
+        body: "Le score de transport de Troyes est de 6,7/10, le plus élevé de ce lot avec Metz, ce qui peut surprendre pour une ville sans tramway ni bus à haut niveau de service. L'explication tient à la taille : le centre se fait intégralement à pied, et la gare est au bord du centre historique, à quelques minutes de la rue Champeaux. Il faut savoir ce qu'on achète avant de réserver. Troyes n'est pas desservie par le TGV. La liaison avec Paris se fait par TER ou Intercités depuis Paris-Est, sur 141 kilomètres, en une heure et demie environ, avec une quinzaine d'allers par jour. C'est direct, c'est simple, et cela suffit largement pour un séjour de deux à trois nuits, mais un moteur de réservation qui affiche un TGV pour Troyes se trompe de ville ou de gare. Sur place, le réseau de bus urbain complète la marche. En revanche, les excursions dans l'Aube, notamment vers les lacs de la forêt d'Orient, supposent une voiture ou un autocar : c'est la limite honnête d'un séjour sans voiture ici, et elle ne concerne pas la ville elle-même."
+      },
+      {
+        heading: "Le supplément single et comment le contourner à Troyes",
+        body: "C'est la destination de ce lot où le voyageur seul s'en sort le mieux, avec un score de coût de 7,1/10, le meilleur des sept. Deux caractéristiques structurelles y contribuent. D'abord un parc hôtelier dimensionné pour une clientèle de passage et d'affaires, dont les grilles de semaine sont calées sur des occupations à une personne et non sur le couple. Ensuite un parc de studios meublés hérité de la demande étudiante, cohérent avec ces 24,6 % de 15-29 ans : la location courte durée facture la surface, ce qui met le voyageur solo au même prix que deux. Trois réflexes valent ici comme ailleurs dans la série. Chercher explicitement une chambre single plutôt qu'une double occupée par une personne, parce que ce sont deux lignes tarifaires distinctes. Viser les hôtels d'affaires du lundi au jeudi, dont la grille s'inverse le week-end. Et comparer studio et hôtel dès la deuxième nuit. Une réserve propre à Troyes : les week-ends de forte affluence commerciale, la ville se remplit d'une clientèle venue pour les magasins d'usine, et l'hébergement suit. La semaine est nettement plus favorable, ce qui tombe bien pour ce profil."
+      },
+      {
+        heading: "Quand y aller : rentrée universitaire, printemps, hors week-ends de soldes",
+        body: "La meilleure fenêtre est septembre à mi-novembre, quand la rentrée universitaire remplit la ville et que les programmations redémarrent. Avril à juin fonctionne aussi bien, avec des journées longues et des terrasses utilisables dans les places du centre. Deux périodes appellent une réserve. Les grands week-ends commerciaux, autour des soldes et des fêtes de fin d'année, tendent l'hébergement pour une raison qui n'a rien à voir avec ce que ce guide propose : la ville se remplit de visiteurs venus pour les magasins d'usine en périphérie, et les tarifs montent sans que l'ambiance du centre change beaucoup. Et la première quinzaine d'août voit partir les étudiants, ce qui est exactement la situation que ce profil cherche à éviter. Le reste de l'année, Troyes offre le meilleur rapport entre ce qu'on dépense et ce qu'on trouve de ce lot, à condition d'accepter l'échelle d'une ville de 62 000 habitants et de caler son séjour plutôt en fin de semaine qu'en début."
+      }
+    ],
+    relatedCities: ["troyes"],
+    relatedGuides: [
+      "10-choses-a-faire-a-troyes-2026",
+      "vivre-a-troyes-2026",
+      "vacances-celibataire-dijon-2026"
+    ],
+    tags: ["vacances célibataire Troyes", "voyage solo Troyes", "sortir seul·e Troyes", "ruelle des Chats Troyes", "week-end célibataire Grand Est"]
+  },
+  {
+    slug: "vacances-celibataire-pau-2026",
+    title: "Vacances célibataire à Pau en 2026 : boulevard des Pyrénées, Le Foirail, séjour sans voiture",
+    metaTitle: "Vacances célibataire Pau 2026 : sortir seul·e, budget solo",
+    metaDesc: "Pau en séjour célibataire : 24,1 % de 15-29 ans, nature 7,0/10, funiculaire gratuit et BHNS à hydrogène. Loger, sortir un mardi, contourner le single.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-29",
+    updatedAt: "2026-08-29",
+    intro: "Pau affiche 24,1 % de 15-29 ans au recensement Insee 2022, contre une médiane nationale de 18,4 % sur les 538 villes mesurées ici, et un score de vie quotidienne de 6,6/10, le deuxième de ce lot derrière Chambéry. C'est la destination des sept qui concilie le mieux une ville qui vit en semaine et un accès direct à la montagne, avec un score de nature de 7,0/10. Elle a aussi la particularité de transporter ses visiteurs de la gare au centre par un funiculaire gratuit, ce qui règle la première question d'un séjour sans voiture. Ce guide indique où poser ses valises, comment enchaîner une soirée en semaine, et comment limiter la facture quand on réserve pour une personne.",
+    sections: [
+      {
+        heading: "Pourquoi Pau plutôt qu'ailleurs pour un séjour célibataire",
+        body: "Pau tient un équilibre rare dans ce lot. Sa part de 15-29 ans, 24,1 %, reste très au-dessus de la médiane nationale de 18,4 %, portée par l'université de Pau et des Pays de l'Adour, dont l'année court de septembre à juin : la vie du soir ne dépend pas du calendrier des vacances. Et son score de vie quotidienne de 6,6/10 est le deuxième des sept derrière Chambéry, avec un score global de 6,4/10 à égalité avec Brest. Le boulevard des Pyrénées, long balcon urbain ouvert sur la chaîne, est le symbole de cette double nature : on y est en ville, avec la montagne en face. Le château de Pau, où naquit Henri IV, ancre le centre historique. Deux réserves honnêtes, et elles comptent. Pau a la population la plus âgée de ce lot, avec 28,3 % de 60 ans et plus, au-dessus de la médiane nationale de 27,2 % : c'est la seule des sept dans ce cas, et cela se sent dans le rythme de la ville. Et son score de culture, 6,6/10, est à égalité avec Brest et Orléans, devant le seul Chambéry : la programmation ne rivalise pas avec celle de Reims ou de Metz."
+      },
+      {
+        heading: "Où poser ses valises : centre historique, Hédas, boulevard des Pyrénées",
+        body: "Trois secteurs suffisent, et ils se touchent. Le centre historique, autour du château et de la rue Henri-IV, est le choix par défaut : commerces, tables, et un pas de porte à quelques minutes du boulevard. Le quartier du Hédas, ancien fond de vallon aménagé en contrebas du centre, est devenu l'un des secteurs les plus animés le soir, avec une concentration de bars et de petites tables dans un espace piéton : c'est le meilleur choix pour un séjour court en célibataire. Le boulevard des Pyrénées lui-même et ses abords offrent les vues et quelques hôtels, avec la contrepartie d'être plus exposés tarifairement. Le quartier Trespoey, à l'est, est résidentiel, calme et cossu, sans vie de soirée : à éviter pour ce type de séjour. Pour deux à quatre nuits, viser le centre historique ou les abords immédiats du Hédas, et ignorer la périphérie."
+      },
+      {
+        heading: "Sortir un mardi soir : le Hédas, les Halles, Le Foirail",
+        body: "Le circuit de semaine se marche et il descend. Il part de la rue Henri-IV et du secteur des Halles, dont le bâtiment rénové concentre en journée les producteurs et en soirée une partie de la restauration, puis plonge dans le Hédas, qui est le cœur des sorties du soir de Pau : les adresses y sont serrées, ce qui permet d'en changer sans reprendre un transport, un vrai critère quand on sort seul·e. On y dîne au comptoir sans que cela demande d'explication. Côté programmation, Le Foirail, ancien marché aux bestiaux reconverti en équipement culturel, est l'un des lieux à consulter en premier, et il est desservi par la ligne de bus à haut niveau de service. Le Zénith accueille les tournées de grande jauge, qui se réservent en avance. Un séjour célibataire réussi ici consiste à caler une soirée programmée et deux soirées de comptoir dans le Hédas. Comme partout, le dimanche soir et le lundi sont les creux ; du mardi au samedi, la densité est là. Sur le rugby, dont la ville est un fief, un match se vit très bien seul·e depuis un comptoir du centre."
+      },
+      {
+        heading: "Se déplacer sans voiture : funiculaire gratuit, Fébus, TGV",
+        body: "Le score de transport de Pau est de 6,1/10, à égalité avec Chambéry au niveau le plus bas de ce lot, et pourtant c'est l'une des villes les plus commodes de la série à l'arrivée. La raison tient à un ouvrage centenaire : un funiculaire relie la gare, en contrebas, au boulevard des Pyrénées et au centre-ville, et il est gratuit. Arriver en train à Pau signifie donc monter au centre sans bagage à porter dans une côte et sans ticket à acheter, ce qui est exactement ce qu'on veut quand on voyage seul·e. Le réseau urbain s'appuie par ailleurs sur Fébus, un bus à haut niveau de service qui a la particularité d'avoir été la première ligne au monde équipée de véhicules de 18 mètres à hydrogène, inaugurée en décembre 2019, et qui dessert notamment Le Foirail. La gare de Pau est desservie en TGV direct depuis Paris, avec la réserve que le trajet est long : c'est un argument pour trois nuits plutôt que deux. Le TER ouvre les excursions vers Lourdes, Orthez ou Oloron sans jamais toucher un volant."
+      },
+      {
+        heading: "Le supplément single et comment le contourner à Pau",
+        body: "Le score de coût de Pau est de 6,2/10, à égalité avec Orléans et Metz dans ce lot, et deux caractéristiques structurelles jouent en faveur du voyageur seul. D'abord un parc hôtelier orienté clientèle d'affaires, nourri par l'activité économique du bassin, dont les grilles de semaine sont calées sur des occupations à une personne et non sur le couple. Ensuite un parc de studios meublés hérité de la demande étudiante, cohérent avec ces 24,1 % de 15-29 ans : la location courte durée facture la surface, ce qui met le voyageur solo au même prix que deux. Trois réflexes valent ici comme ailleurs dans la série. Chercher explicitement une chambre single plutôt qu'une double occupée par une personne, parce que ce sont deux lignes tarifaires distinctes. Viser les hôtels d'affaires du lundi au jeudi, dont la grille s'inverse le week-end. Et comparer studio et hôtel dès la deuxième nuit. Une réserve propre à Pau : la ville est aussi une base d'accès aux Pyrénées, et les week-ends de saison de ski comme ceux de belle saison en montagne tendent l'hébergement. La semaine reste nettement plus favorable."
+      },
+      {
+        heading: "Quand y aller : rentrée universitaire, printemps, hors grands événements",
+        body: "La meilleure fenêtre est septembre à mi-novembre, quand la rentrée universitaire remplit la ville et que les programmations redémarrent, avec l'avantage propre à Pau que le boulevard des Pyrénées reste utilisable et que la vue sur la chaîne est souvent meilleure qu'en plein été. Avril à juin fonctionne aussi bien. Deux périodes appellent une réserve. Les grands rendez-vous sportifs et festifs qui rythment l'année paloise, et le passage éventuel des grandes courses cyclistes dans la région, saturent l'hébergement à des dates qui changent d'une année sur l'autre : elles se vérifient avant de bloquer un séjour plutôt que de se déduire d'une édition précédente. Et la première quinzaine d'août voit partir les étudiants, ce qui est exactement la situation que ce profil cherche à éviter, d'autant que la chaleur y est plus marquée qu'en Bretagne ou en Savoie. Le reste de l'année, Pau tient sa promesse d'une ville qui vit sans dépendre des vacanciers, avec la montagne en supplément."
+      }
+    ],
+    relatedCities: ["pau"],
+    relatedGuides: [
+      "10-choses-a-faire-a-pau-2026",
+      "pau-vs-bayonne-comparatif-2026",
+      "vacances-celibataire-bayonne-2026"
+    ],
+    tags: ["vacances célibataire Pau", "voyage solo Pau", "sortir seul·e Pau", "quartier du Hédas Pau", "week-end célibataire Nouvelle-Aquitaine"]
+  },
+  {
+    slug: "vacances-celibataire-chambery-2026",
+    title: "Vacances célibataire à Chambéry en 2026 : vieille ville, Malraux, séjour sans voiture",
+    metaTitle: "Vacances célibataire Chambéry 2026 : sortir seul·e, budget",
+    metaDesc: "Chambéry en séjour célibataire : 22,7 % de 15-29 ans, vie 7,0/10 et nature 8,1/10, les meilleures de ce lot. Loger, sortir un mardi, budget solo.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-08-29",
+    updatedAt: "2026-08-29",
+    intro: "Chambéry ferme ce lot de destinations sur la part des 15-29 ans, avec 22,7 % au recensement Insee 2022, et l'ouvre sur à peu près tout le reste : score de vie quotidienne de 7,0/10, sécurité de 6,3/10, nature de 8,1/10 et score global de 6,5/10, quatre valeurs qui sont les plus élevées des sept. La médiane nationale des 15-29 ans étant de 18,4 % sur les 538 villes mesurées ici, une ville reste jeune à 22,7 %. C'est la destination du lot qui demande l'arbitrage le plus explicite : on y gagne en qualité de séjour ce qu'on y perd en budget et en programmation. Ce guide indique où poser ses valises, comment enchaîner une soirée en semaine, et comment limiter la facture quand on réserve pour une personne.",
+    sections: [
+      {
+        heading: "Pourquoi Chambéry plutôt qu'ailleurs pour un séjour célibataire",
+        body: "Chambéry est la ville la mieux notée de ce lot sur presque tous les axes qui font le confort d'un séjour : vie quotidienne 7,0/10, sécurité 6,3/10, nature 8,1/10, score global 6,5/10, quatre premières places sur sept. Sa part de 15-29 ans, 22,7 %, est la plus basse du lot mais reste très au-dessus de la médiane nationale de 18,4 %, portée par l'université Savoie Mont Blanc dont l'année court de septembre à juin : la ville n'est pas une station qui se vide, elle a une population résidente qui l'habite en semaine. C'est précisément la distinction que ce profil cherche à faire, et elle mérite d'être posée clairement pour une ville de Savoie : Chambéry n'est pas une station de montagne, c'est une préfecture de 60 251 habitants avec une université, un tribunal, une activité tertiaire et une vieille ville commerçante, qui se trouve avoir les Alpes autour. Deux réserves franches. Le score de culture de 6,2/10 est le plus bas des sept : la programmation est celle d'une ville moyenne, portée pour l'essentiel par Malraux, scène nationale de Chambéry et de la Savoie, installée au Carré Curial, dont la grande salle compte 950 places. Et le score de coût de 5,0/10 est le plus défavorable du lot, très loin des 7,1 de Troyes : sur la convention d'axe du site, un score bas signifie une ville chère, et Chambéry l'est."
+      },
+      {
+        heading: "Où poser ses valises : vieille ville, Curial, abords de la gare",
+        body: "Deux secteurs suffisent, et ils se touchent. La vieille ville, autour du château des ducs de Savoie, de la fontaine des Éléphants et du réseau d'allées couvertes qui la traversent, est le choix par défaut : c'est là que se concentrent les tables, les comptoirs et les commerces, et tout se fait à pied. Le secteur du Carré Curial, ancienne caserne reconvertie qui abrite Malraux, prolonge le centre et met la scène nationale à quelques minutes du logement. Les abords de la gare, à la lisière nord du centre, concentrent quelques hôtels d'affaires : c'est l'option budget la plus fiable dans une ville où le budget est le vrai sujet, et c'est à moins de dix minutes à pied de la vieille ville. Deux secteurs à écarter pour ce type de séjour, malgré leur qualité de vie : Jacob-Bellecombette et Challes-les-Eaux sont des communes résidentielles voisines, calmes et vertes, mais elles n'ont pas de vie de soirée et supposent un trajet pour rentrer. Pour un séjour court, viser la vieille ville et rien d'autre."
+      },
+      {
+        heading: "Sortir un mardi soir : les allées, la place Saint-Léger, Malraux",
+        body: "Le circuit de semaine est compact, ce qui est un vrai avantage quand on sort seul·e : tout est à portée de marche, sans arbitrage de transport en fin de soirée. Il s'organise autour de la place Saint-Léger et des rues piétonnes qui en partent, et se ramifie dans les allées couvertes qui sont la signature urbaine de Chambéry. Les tables et les comptoirs y sont serrés, on en change sans reprendre un transport, et on y dîne au comptoir sans que cela demande d'explication. Côté programmation, Malraux tient la saison de scène nationale au Carré Curial, avec du théâtre, de la danse, du cirque et des concerts sur un plateau et une grande salle de 950 places : c'est le premier endroit à consulter pour caler une soirée. Il faut être honnête sur l'échelle, et le score de culture de 6,2/10 le dit : Chambéry n'a pas la densité de salles de Metz ou de Reims, et une soirée s'y décide plus volontiers autour d'une table que d'une programmation. Comme partout, le dimanche soir et le lundi sont les creux ; du mardi au samedi, la densité est là."
+      },
+      {
+        heading: "Se déplacer sans voiture : marche, TGV, pas de réseau sur rails",
+        body: "Le score de transport de Chambéry est de 6,1/10, à égalité avec Pau au niveau le plus bas de ce lot, et il faut savoir ce que cela recouvre avant de réserver. Chambéry n'a ni tramway ni bus à haut niveau de service : le réseau urbain est un réseau de bus, et le centre se fait intégralement à pied, ce qui suffit très largement à l'échelle de la ville. L'atout est ailleurs, à l'arrivée : la gare de Chambéry-Challes-les-Eaux est desservie en TGV direct depuis Paris et se trouve à moins de dix minutes à pied de la vieille ville, ce qui supprime la question du transfert. Le TER ouvre les excursions à la journée sans jamais toucher un volant, vers Aix-les-Bains et le lac du Bourget, Annecy ou Grenoble, ce qui est le vrai bénéfice de la position de Chambéry. En revanche, atteindre une station de montagne ou un départ de randonnée suppose un autocar ou une voiture : c'est la limite honnête d'un séjour sans voiture ici, et le score de nature de 8,1/10 mesure l'environnement de la ville, pas la facilité d'y accéder sans volant."
+      },
+      {
+        heading: "Le supplément single et comment le contourner à Chambéry",
+        body: "C'est la destination de ce lot où le voyageur seul doit être le plus attentif, avec un score de coût de 5,0/10, le plus défavorable des sept. Deux mécanismes se cumulent, et il vaut mieux les connaître. D'abord la proximité des stations de Savoie, qui tire les tarifs d'hébergement de toute la vallée pendant les saisons de montagne, hiver comme été. Ensuite un parc hôtelier de vallée en partie tarifé à la chambre double, logique de séjour, qui est exactement la structure qui fabrique le supplément single. Deux éléments jouent en sens inverse et sont à exploiter. Les hôtels d'affaires des abords de la gare sont calés sur des occupations à une personne du lundi au jeudi, et leur grille s'inverse le week-end. Et le parc de studios meublés hérité de la demande étudiante facture la surface, ce qui met le voyageur solo au même prix que deux. Trois réflexes, donc, avec une insistance particulière ici : chercher explicitement une chambre single plutôt qu'une double occupée par une personne, viser la semaine et non le week-end, et comparer studio et hôtel dès la deuxième nuit. Aucun montant n'est imprimé dans ce guide : les tarifs bougent d'une saison et d'une plateforme à l'autre, ce qui se transmet est le réflexe, pas le prix."
+      },
+      {
+        heading: "Quand y aller : hors saisons de montagne, rentrée, printemps",
+        body: "La règle est inverse de celle des autres guides de la série, et c'est ce qui rend Chambéry intéressante pour ce profil. Les meilleures fenêtres sont les intersaisons : de mi-septembre à fin novembre, et de mi-avril à juin. Ce sont les périodes où la rentrée universitaire ou la fin d'année scolaire remplit la ville, où les programmations tournent, et surtout où les tarifs d'hébergement redescendent parce que les stations sont fermées ou vides. C'est le seul moment où le score de coût de 5,0/10 cesse d'être un handicap. Deux périodes appellent une réserve. Les vacances scolaires d'hiver, de février à début mars, sont le pic tarifaire de la vallée, sans que l'ambiance de la ville change beaucoup pour autant : on paie une saison à laquelle on ne participe pas. Et la première quinzaine d'août cumule le départ des étudiants et l'afflux de la saison estivale de montagne. Le reste de l'année, Chambéry offre la meilleure qualité de séjour de ce lot, à condition de la réserver au bon moment."
+      }
+    ],
+    relatedCities: ["chambery"],
+    relatedGuides: [
+      "10-choses-a-faire-a-chambery-2026",
+      "annecy-vs-chambery-comparatif-2026",
+      "vacances-celibataire-grenoble-2026"
+    ],
+    tags: ["vacances célibataire Chambéry", "voyage solo Chambéry", "sortir seul·e Chambéry", "vieille ville Chambéry", "week-end célibataire Savoie"]
+  },
+  {
     slug: "partir-en-vacances-seul-2026",
     title: "Partir en vacances seul·e en 2026 : supplément single, villes vivantes, bonne saison",
     metaTitle: "Partir en vacances seul·e 2026 — Budget, villes, saison",
