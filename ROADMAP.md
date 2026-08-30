@@ -2347,6 +2347,67 @@ setup dans `CLAUDE.md`), pas une facilité.
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
 
+### Livré le 30/08 — tourisme batch 37 EN (+7), la série refermée à 226/226
+
+`npm run parity` en **code 0** en début et en fin de run (FR 219 / EN 166, 0 route FR sans jumelle) :
+pas de régression de routes, donc run de corpus. **Deux séries se sont rouvertes le 29/08**, toutes
+deux par un batch FR livré la veille : tourisme 226 FR / 219 EN et `vacances-celibataire-` 29 FR /
+22 EN (`solo-travel-in-`). La tourisme a été prise en premier — c'est la plus grosse série du corpus
+et `CLAUDE.md` § batch 36 nommait déjà les sept villes. **`vacances-celibataire-` reste ouverte à
+7 et devient la tâche du prochain run** (Brest, Reims, Orléans, Metz, Troyes, Pau, Chambéry).
+
+Les 7 jumelles `things-to-do-in-[slug]-2026` du batch 36 FR écrites d'un coup (Orange,
+Saint-Germain-en-Laye, La Ciotat, Rochefort, Dieppe, Douai, Sens). **Compteurs mesurés : FR 226 /
+EN 226, écart nul** (`EN_GUIDES` 780 → 787). Aucun slug hors gabarit : les sept villes prennent « à »
+sans contraction, donc la règle du batch 33 (**côté EN le slug se dérive du slug de seed tel quel**)
+n'avait rien à arbitrer. `metaTitle` 46-53 caractères, `metaDesc` 145-159, **8 sections par guide**
+(la série FR en compte 10, l'EN fusionne les fins de liste), 1 100-1 207 mots, **0 em-dash**.
+**Aucun tag neuf** : les 7 réutilisent `provence`, `ile-de-france`, `atlantic coast`, `normandy`,
+`hauts-de-france`, `burgundy` — les tags de ville sont à 1 occurrence, sous le seuil de 3 qui crée
+une page `/tags`. `data/search-index.en.json` reste donc à **108 tags** (787 guides) et
+`npm run sitemap:check` repasse (FR 29 104 URL, EN 28 666 → **28 673**).
+
+⚠️ **Une erreur de fait trouvée dans le guide FR du 29/08, corrigée des deux côtés.** Le guide Sens
+datait le contraste entre le marché couvert et la cathédrale « à deux siècles et demi de distance »,
+alors que le même guide ouvre le chantier de la cathédrale **vers 1135** et inaugure le marché en
+**1882** : sept siècles et demi, pas deux et demi. La FR est corrigée et l'EN écrit « seven and a
+half centuries apart ». Même famille que les comparatifs faux du 28/08 : les dates prises une à une
+sont justes, c'est **l'écart calculé entre elles** qui dérape, et ni `tsc` ni `integrity` ne peuvent
+le voir.
+
+**Contrôle mécanique des figures, reconduit des batches précédents** : chaque nombre du texte EN est
+cherché dans la jumelle FR après normalisation des séparateurs (« 29 357 » ↔ « 29,357 », « 1,80 » ↔
+« 1.80 ») — **112 figures, 112 retrouvées**. Le seul écart signalé est de forme et non de fond
+(« 40 minutes » côté EN contre « quarante minutes » écrit en toutes lettres côté FR). ⚠️ Le premier
+jet du contrôle sortait **8 faux positifs** parce que son `(?!\d.)` rejetait tout nombre suivi d'un
+point de fin de phrase : un contrôle qui échoue doit être suspecté avant le texte qu'il accuse.
+Les 7 guides sont vérifiés **retrouvés par `getEnGuide()`**, **pourvus de leur photo d'en-tête**
+(`guideCityPhoto`, appelée avec `relatedCities`) et **remontés en 1re position** par la recherche
+inverse de `CityGuidesList` sur leur page ville EN.
+
+Les prudences du FR sont reprises telles quelles, à ne pas diluer : ① **l'Hermione n'est pas à
+Rochefort** — en cale sèche à Anglet, port de Bayonne, depuis l'automne 2021, l'avertissement étant
+même appuyé côté EN (« Bayonne is a long way south »), un lecteur étranger étant plus susceptible de
+faire le détour pour un bateau absent ; ② **pas d'édition 2026 du festival de cerf-volant de Dieppe**,
+biennal en années impaires, dernière en septembre 2025, prochaine attendue en 2027 ; ③ **Louis XIV est
+né au Château-Neuf**, détruit, et non dans le château qu'on visite ; ④ la légende des spectateurs
+fuyant *L'Arrivée d'un train* est donnée comme **une histoire construite après coup** ; ⑤ **baignade
+sans surveillance permanente à Figuerolles** et **falaises de craie qui s'effondrent par plaques** sur
+la côte d'Albâtre ; ⑥ convention « **accessible depuis** » tenue partout (vignobles depuis Orange,
+Maison du Transbordeur à Échillais, île d'Aix, cimetière canadien de Hautot-sur-Mer, Pourville et
+Varengeville, Centre historique minier de Lewarde).
+
+Six ajouts propres à l'angle voyageur étranger, absents du FR parce qu'inutiles à un lecteur français :
+la **désambiguïsation d'Orange** dès la première ligne (ni le fruit, ni l'opérateur, ni le comté
+californien — et la maison d'Orange-Nassau tient son nom de la ville, pas l'inverse) ; le **RER A**
+expliqué comme réseau express traversant Paris ; la **pétanque** et le **mistral** définis en une
+incise ; le **carillon** défini comme un jeu de cloches joué au clavier et le **beffroi** comme tour
+civique et non religieuse, avec les **corons** ; la filiation **Sens → Cantorbéry** posée comme un
+pèlerinage bien plus direct pour un lecteur britannique que son obscurité ne le laisse croire, avec
+le siège **primatial** expliqué ; et la **liaison transmanche Dieppe-Newhaven**, qui fait de Dieppe
+une des rares stations françaises atteignables depuis la Grande-Bretagne sans avion, l'opération
+**Jubilee** étant par ailleurs de l'histoire canadienne avant d'être de l'histoire française.
+
 ### Livré le 29/08 (2ᵉ run) — `single-parent-in-[city]-2026` refermée une quatrième fois (batch 6, +9)
 
 `npm run parity` en **code 0** en début et en fin de run (FR 219 / EN 166, 0 route FR sans jumelle) :

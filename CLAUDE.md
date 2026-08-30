@@ -984,6 +984,43 @@ au seed et sans guide, et tous plus riches en matière vérifiable que le haut d
 population. Les trous listés au batch 34 (Saint-Herblain, Mantes-la-Jolie, Istres, Cambrai) restent
 ouverts.
 
+**Batch 37 — EN, rattrapage de parité, shipped 2026-08-30.** Les 7 jumelles
+`things-to-do-in-[slug]-2026` du batch 36 écrites d'un coup dans `data/guides-en.ts` (Orange,
+Saint-Germain-en-Laye, La Ciotat, Rochefort, Dieppe, Douai, Sens). **Compteurs mesurés : FR 226,
+EN 226 — écart nul, parité rétablie** (`EN_GUIDES` 780 → 787). Aucun slug hors gabarit : les sept
+villes prennent « à » sans contraction, donc la règle du batch 33 (**côté EN le slug se dérive du
+slug de seed tel quel**) n'avait rien à arbitrer, et les sept exceptions restent `au-puy-en-velay`,
+`au-tampon`, `au-francois`, `au-robert`, `au-lamentin`, `aux-abymes`, `aux-sables-d-olonne`.
+`metaTitle` 46-53 caractères, `metaDesc` 145-159, 8 sections par guide (la série FR en compte 10,
+l'EN fusionne les fins de liste), 0 em-dash. Aucun tag neuf — les 7 réutilisent `provence`,
+`ile-de-france`, `atlantic coast`, `normandy`, `hauts-de-france`, `burgundy`, et les tags de ville
+restent à 1 occurrence, sous le seuil de 3 qui crée une page `/tags`. `npm run search-index`
+relancé (`data/search-index.en.json` 787 guides, **108 tags**, inchangé) et `npm run sitemap:check`
+repassé (FR 29 104 URL, EN 28 673). Les 7 guides sont vérifiés **retrouvés par
+`getEnGuide()`**, **pourvus de leur photo d'en-tête** (`guideCityPhoto`) et **remontés en 1re
+position** par la recherche inverse `relatedCities` de `CityGuidesList` sur leur page ville EN.
+⚠️ **Une erreur de fait du guide FR corrigée des deux côtés** : le guide Sens datait le contraste
+entre le marché couvert et la cathédrale « à deux siècles et demi de distance » alors que le même
+guide ouvre le chantier **vers 1135** et inaugure le marché en **1882** — sept siècles et demi. Les
+dates prises une à une étaient justes, c'est **l'écart calculé entre elles** qui dérapait, et aucun
+contrôle automatique ne peut le voir. Contrôle mécanique des figures : chaque nombre du texte EN
+cherché dans la jumelle FR après normalisation des séparateurs, **112 figures, 112 retrouvées**.
+Les prudences du FR sont reprises telles quelles, à ne pas diluer : **l'Hermione n'est pas à
+Rochefort** (cale sèche à Anglet depuis l'automne 2021, avertissement appuyé côté EN), **pas
+d'édition 2026 du festival de cerf-volant de Dieppe** (biennal, années impaires), **Louis XIV né au
+Château-Neuf** détruit et non dans le château visitable, la fuite des spectateurs devant
+*L'Arrivée d'un train* donnée comme **histoire construite après coup**, **baignade sans surveillance
+permanente à Figuerolles**, **falaises de craie qui s'effondrent par plaques**, et la convention
+« accessible depuis » tenue partout. Six ajouts propres à l'angle voyageur étranger : la
+**désambiguïsation d'Orange** dès la première ligne (ni le fruit, ni l'opérateur, ni le comté
+californien), le **RER A**, la **pétanque** et le **mistral** expliqués en une incise, le
+**carillon** et le **beffroi** définis, la filiation **Sens → Cantorbéry** posée pour un lecteur
+britannique, et la **liaison transmanche Dieppe-Newhaven** avec Jubilee présentée comme de
+l'histoire canadienne.
+**Prochain run : batch FR** (l'écart est nul, la série FR reprend la main). Gisements inchangés :
+les six banlieues de province jamais faites (Villenave-d'Ornon, Talence, Le Bouscat ;
+Vaulx-en-Velin, Saint-Priest, Bron) et les trous listés aux batches 34 et 36 ci-dessus.
+
 ### Glossaire (`app/glossaire/page.tsx`)
 
 Page unique, données inline (`SECTIONS: {title, emoji, terms[]}`), `DefinedTermSet` JSON-LD généré

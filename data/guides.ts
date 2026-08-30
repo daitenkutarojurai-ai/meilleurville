@@ -50917,7 +50917,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "6. Le marché couvert de 1882",
-        body: "Inauguré en 1882, le marché couvert est un exemple rare d'architecture métallique de type Baltard conservé en province, avec sa charpente de fer et son remplissage de brique. Il est classé au titre des monuments historiques depuis 1975. Les plans sont de deux architectes locaux, Horace Lefort et Benoni Roblot, retenus au terme d'un concours à la fin des années 1870. Il fonctionne toujours comme marché, ce qui est la meilleure façon de visiter ce genre d'édifice : les jours de marché, on y va pour acheter, et l'architecture se regarde par-dessus les étals. Le contraste avec la cathédrale voisine, à deux siècles et demi de distance, est saisissant."
+        body: "Inauguré en 1882, le marché couvert est un exemple rare d'architecture métallique de type Baltard conservé en province, avec sa charpente de fer et son remplissage de brique. Il est classé au titre des monuments historiques depuis 1975. Les plans sont de deux architectes locaux, Horace Lefort et Benoni Roblot, retenus au terme d'un concours à la fin des années 1870. Il fonctionne toujours comme marché, ce qui est la meilleure façon de visiter ce genre d'édifice : les jours de marché, on y va pour acheter, et l'architecture se regarde par-dessus les étals. Le contraste avec la cathédrale voisine, à sept siècles et demi de distance, est saisissant."
       },
       {
         heading: "7. Le centre ancien et les maisons à pans de bois",

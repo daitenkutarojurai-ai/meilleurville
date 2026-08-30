@@ -32201,7 +32201,356 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["ajaccio", "bastia", "bordeaux", "marseille", "toulon"],
     tags: ["single parent ajaccio", "single parent in france", "expat single parent", "moving to france", "corsica"],
   },
-];
+  {
+    slug: "things-to-do-in-orange-2026",
+    title: "Things to do in Orange: two Roman monuments, one small town",
+    metaTitle: "Things to Do in Orange, Provence: the Roman Theatre",
+    metaDesc:
+      "The only Roman theatre in the West with its stage wall intact, a triumphal arch, the best-preserved Roman land registers, and France's oldest festival.",
+    category: "city-guide",
+    emoji: "🏛️",
+    readMinutes: 7,
+    publishedAt: "2026-08-30",
+    updatedAt: "2026-08-30",
+    intro:
+      "First, the name. This is not the fruit, not the telecoms company, and not the county in California: Orange is a town of 29,357 people in the Vaucluse, in Provence, and the Dutch royal house is named after it rather than the other way round. What makes it worth a detour is a ratio. A commune of under thirty thousand residents holds two Roman monuments that have been on the UNESCO World Heritage list since 1981, and nothing else in France comes close on that measure. This guide takes that as its starting point and accepts the consequence: Orange is a full day, it does not pretend to hold you for a week, and it is much better combined with the rest of the Vaucluse.",
+    sections: [
+      {
+        heading: "The Roman theatre and its stage wall",
+        body: "This is the only Roman theatre in the western world to have kept its stage wall complete, and that sentence, which you read everywhere, only really lands on site. The façade is 103 metres long, 37 metres high and 1.80 metres thick: not a ruin whose volume you have to imagine, but a standing wall that closes off the horizon. Louis XIV, visiting, is said to have called it the finest wall in his kingdom, and the phrase stuck. The theatre was built in the first century AD, under Augustus, with the tiers set against the hillside to avoid having to build the supporting structure. The acoustics that result are still used as they are.",
+      },
+      {
+        heading: "The statue of Augustus in the central niche",
+        body: "In the middle of the stage wall, in its niche, stands an imperial statue of Augustus 3.55 metres high, shown as imperator, in a cuirass with the baton of command in his hand. It is the vanishing point of the whole building: wherever a spectator sits, the eye ends up coming back to it, which was exactly the intention. This is the detail that explains what a Roman theatre was for in the provinces. Not only to stage plays, but to remind a colony of veterans who governed them. Climb to the upper tiers before you look at it: the sense of scale changes completely depending on where you see it from.",
+      },
+      {
+        heading: "The Chorégies, in the theatre itself",
+        body: "The Roman Fêtes that gave rise to the Chorégies go back to 1869, and the name Chorégies d'Orange was formally adopted in 1903: it is the oldest festival in France, and it is held every summer in the ancient theatre. The interest is not only historical. A complete stage wall throws the sound back towards the tiers instead of letting it escape, so the place still works as an auditorium, without heavy amplification for most of the operatic repertoire. Dates and programme change every year and seats go early, so check with the festival rather than on a page copied from a previous edition.",
+      },
+      {
+        heading: "The triumphal arch, at the northern entrance",
+        body: "The second UNESCO-listed monument stands at the other end of town, on what was the northern entrance to Arausio, the Roman name for the place. It was probably raised between AD 20 and 25 to commemorate the victories of Germanicus, who died in 19, and it sits directly on the via Agrippa, the great Roman road that linked Lyon to Arles and ran straight through the town. It was already on the very first list of French historic monuments, drawn up in 1840. The local honey-coloured limestone changes colour through the day, and the arch is better looked at in late afternoon than at midday, when the light flattens the carved reliefs.",
+      },
+      {
+        heading: "The Roman land registers at the museum",
+        body: "This is the least known thing in town and probably the most extraordinary. In 1949, workmen digging for a bank hit a bed of engraved marble three metres down: the cadastral plans of the colony, ordered under Vespasian in 77, plot by plot, with the names of the holders and the status of the land. Four hundred and sixteen fragments were recovered, and they are the best-preserved Roman land registers in the world. They are displayed in the museum of art and history, opposite the theatre. You are looking, literally, at how Rome carved up and handed out conquered territory, which no monument, however spectacular, tells you as precisely.",
+      },
+      {
+        heading: "Walking up the Saint-Eutrope hill",
+        body: "The hill the tiers lean against is walkable from the centre, and it gives the best view over the town. From up there you see the theatre from above, which is the only view that makes its overall plan legible, and in clear weather the eye carries across the Rhône plain to Mont Ventoux. The park at the top is shaded, which matters a great deal from June to September in this part of the Vaucluse. There are remains of the castle of the princes of Orange on the plateau, dismantled in the seventeenth century: little to see in itself, but the position explains why the hill stayed fortified for so long.",
+      },
+      {
+        heading: "Why the Dutch wear orange",
+        body: "The town was the capital of a sovereign principality, independent of the kingdom of France, and that principality passed by inheritance to the house of Nassau. That is where the name of the house of Orange-Nassau comes from, the family that reigns in the Netherlands, and with it the Dutch national colour. Put plainly: a Dutch supporter in an orange shirt is wearing, without necessarily knowing it, the name of a commune in the Vaucluse. Few built traces of that period survive, the annexation to France having been followed by the dismantling of the fortifications. But it is the key to a town whose trajectory is nothing like that of an ordinary Provençal one, and the tourist office documents it well.",
+      },
+      {
+        heading: "The old centre, the Thursday market, the vineyards, and getting there",
+        body: "The centre sits in a tight perimeter between the theatre and the arch, with squares planted with plane trees, ochre fronts and the rhythm of a small town rather than a destination. The Thursday morning market spreads across much of it and is the moment the town is at its liveliest. For a visitor the point is simple: this is where you buy lunch before walking up the hill, and it beats hunting for a restaurant at midday in the streets immediately around the theatre, which live off passing trade. None of the vineyards is in Orange, but all are accessible from the town in under half an hour by car, and that is what justifies sleeping here rather than passing through. Châteauneuf-du-Pape lies south, Gigondas and Vacqueyras east at the foot of the Dentelles de Montmirail, whose limestone crests you can see from the Saint-Eutrope hill. The Roman-and-wine combination is the real proposition of Orange, and it costs less than the same day organised out of Avignon. Plenty of estates receive visitors without an appointment, but their hours vary a lot off season, so that is worth checking the day before. Orange sits on the Rhône corridor, served by the classic Paris to Marseille line, and the nearest high-speed station is Avignon. By car it is one junction off the A7, which makes it a natural stop on the way south. Allow a full day for the theatre, the museum and the arch, taking the museum after the theatre and not the other way round: the land registers read far better once you have seen what the colony built. Two nights are worth it if you add the vineyards or an evening at the Chorégies. Beyond that, the town combines with Avignon, Vaison-la-Romaine and the Ventoux.",
+      },
+    ],
+    relatedCities: ["orange", "avignon", "carpentras"],
+    tags: ["things to do in orange", "orange", "travel", "city guide", "provence"],
+  },
+  {
+    slug: "things-to-do-in-saint-germain-en-laye-2026",
+    title: "Things to do in Saint-Germain-en-Laye: the end of the RER A",
+    metaTitle: "Things to Do in Saint-Germain-en-Laye, near Paris",
+    metaDesc:
+      "France's national archaeology museum in a royal château, a 2.4 km Le Nôtre terrace, Debussy's birthplace and the Nabis at home, 40 minutes from central Paris.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 7,
+    publishedAt: "2026-08-30",
+    updatedAt: "2026-08-30",
+    intro:
+      "Saint-Germain-en-Laye had 45,286 residents at the 2022 census, up on 2016, and plenty of people who live in the Paris region know it only as the end of a commuter line they have never got off at for anything but lunch. That is a waste, because it brings together three things you rarely find in one place: a major royal residence turned into the reference archaeology museum in France, a Le Nôtre garden whose terrace runs for over two kilometres, and two houses of first-rank artists. All of it forty minutes from central Paris, without changing trains. The line is the RER A, the express suburban network that runs under Paris and out the other side, and this town is its western terminus.",
+    sections: [
+      {
+        heading: "The château and the Musée d'Archéologie nationale",
+        body: "The château has held the reference archaeology museum in France since the nineteenth century. The decision was Napoleon III's, by imperial decree of 8 March 1862, and the museum was inaugurated on 12 May 1867 in the emperor's presence. Restoration of the building was entrusted to Eugène Millet, a pupil of Viollet-le-Duc, and begun in 1862: what you visit is therefore as much a nineteenth-century reading of the Middle Ages as a medieval castle. The collections run from the palaeolithic to the Merovingian period and are counted in tens of thousands of objects on display. This is the museum to have seen before visiting any archaeological site in France.",
+      },
+      {
+        heading: "Le Nôtre's Grande Terrasse",
+        body: "André Le Nôtre reworked the gardens between 1669 and 1673, and what remains of that is the Grande Terrasse: a dead straight walk of 2.4 kilometres cut along the edge of the plateau, above the Seine valley. It is one of the few Le Nôtre works whose effect depends on no parterre and no basin, only on length and on the drop away to the right. In clear weather the view carries over the loop of the Seine and as far as Paris. You can walk or run it, it is flat, it is free, and it is probably the finest walk in the Paris region that costs nothing.",
+      },
+      {
+        heading: "The Domaine national and its gardens",
+        body: "Around the château, the national estate unrolls some forty hectares of gardens laid out in successive terraces, with the Grand Parterre between the château and the forest. The whole thing is freely crossed and serves residents as much as visitors, which gives it an atmosphere very different from Versailles: you pass pushchairs and joggers, not only tour groups. For a visitor arriving by train the logical sequence is simple. Come out of the station, cross the square, go into the estate and head straight for the edge of the terrace before you visit anything, because that is what explains why the court settled here.",
+      },
+      {
+        heading: "Where Louis XIV was actually born",
+        body: "This is the commonest confusion in town and it is worth clearing up. Louis XIV was born on 5 September 1638 at Saint-Germain-en-Laye, but at the Château-Neuf, a second palace built on the lip of the plateau, and not in the château you visit today. The Château-Neuf was dismantled and almost nothing of it survives: the Pavillon Henri IV, now a hotel and restaurant, is the most visible remnant. The king made Saint-Germain his residence in 1660, before the court left for Versailles in 1682. Saying he was born at the château is therefore true at the scale of the town and false at the scale of the building.",
+      },
+      {
+        heading: "Claude Debussy's birthplace",
+        body: "Claude Debussy was born on 22 August 1862 at 38 rue au Pain, in a seventeenth-century house where his father kept a china shop on the ground floor. The place is now shared between the tourist office downstairs and a museum devoted to the composer, opened in 1990 and carrying the culture ministry's Maison des Illustres label for houses of notable figures. It is small, and that is the right format: you do not spend half a day there, you understand where someone came from. The address is in the middle of the pedestrian centre, minutes from the château, so there is no reason to skip it even on a short visit.",
+      },
+      {
+        heading: "The Musée Maurice-Denis, at Le Prieuré",
+        body: "Maurice Denis, a leading figure of the Nabi movement, the group of post-impressionist painters who worked in flat colour and decorative pattern, bought an old house in 1914 which he named Le Prieuré and where he installed his family and his studio. The building is in fact a former royal hospital, raised in the seventeenth century at the request of Madame de Montespan. The departmental museum that occupies it was formed around an exceptional donation made in 1976 by the artist's family. It is the only place where you see the Nabis at home, in the rooms and the garden that served as their subject, rather than hung on a white wall. Check the opening days before walking up, they are more restricted than the château's.",
+      },
+      {
+        heading: "The forest, and going down to the Seine",
+        body: "North of the town spreads a considerable state forest, a former royal hunting reserve, now gridded with forest roads and waymarked paths. It explains the geography of the place: Saint-Germain is wedged between the loop of the Seine and the massif, and so has never sprawled the way its neighbours have. For a visitor the obvious use is walking or cycling, and you get in from the estate on foot without taking any transport. The forest stars and crossroads still carry their pre-revolutionary names, which makes the map easier to read than you would expect. The terrace looks down on the valley, but you can also go down into it: the slopes lead to the river and the communes of the loop, Le Pecq immediately below, then Le Vésinet and Chatou further on, with made-up banks. This is the landscape the impressionists painted, and today you cover it by bike on the towpaths. The descent is steep and the climb back just as much: this is not the flat stroll the terrace is. Count it as a half-day in its own right, and check the train times so you can come back up by rail rather than on foot if you have gone far.",
+      },
+      {
+        heading: "The old centre, the market, and getting there",
+        body: "The centre is a grid of pedestrian streets around the church and the place du Marché-Neuf, with a density of shops unusual for a town this size, a direct consequence of a wealthy clientele and of a rail terminus that draws in the whole western Yvelines, the department immediately west of Paris. The market is held in the covered halls and on the square, and it is the moment the town most resembles a provincial one set down twenty kilometres from Paris. It is also the simplest way to eat well without booking, which is not guaranteed in the restaurants around the square in good weather. Saint-Germain-en-Laye is the western terminus of RER line A, and the station is underground, coming out directly opposite the château: it is about the simplest access there is to a site of this importance, and the reason a visit needs no organising at all. A day is ample for the museum, the terrace and the centre. Add a half-day if you want the Maurice-Denis museum and the forest. The town combines easily with Versailles, on another branch of the same network, but it is better not to do both on the same day: they are two long visits and one crushes the other.",
+      },
+    ],
+    relatedCities: ["saint-germain-en-laye", "versailles", "paris"],
+    tags: ["things to do in saint-germain-en-laye", "saint-germain-en-laye", "travel", "city guide", "ile-de-france"],
+  },
+  {
+    slug: "things-to-do-in-la-ciotat-2026",
+    title: "Things to do in La Ciotat: where cinema and pétanque began",
+    metaTitle: "Things to Do in La Ciotat: Cinema and Pétanque",
+    metaDesc:
+      "The world's oldest working cinema, the town where pétanque was invented in 1907, the Bec de l'Aigle, the Mugel park and the Figuerolles calanque.",
+    category: "city-guide",
+    emoji: "🎬",
+    readMinutes: 7,
+    publishedAt: "2026-08-30",
+    updatedAt: "2026-08-30",
+    intro:
+      "La Ciotat had 37,599 residents at the 2022 census, against 33,738 in 2011: it is one of the few towns on the Bouches-du-Rhône coast to be clearly gaining people, and the timing is not an accident. The town lost its shipbuilding yards in the 1980s and took thirty years to reinvent itself around the repair of large yachts, around tourism, and around a heritage it had in front of it without using. It has two claims few communes of this size can make: cinema was born here as a public venue, and pétanque was born here full stop.",
+    sections: [
+      {
+        heading: "The Eden Théâtre, the oldest cinema in the world",
+        body: "The Eden opened on 15 June 1889, first as a hall for shows and music, and it is now recognised as the oldest cinema in the world still in operation, which the Guinness records formulate as the oldest purpose-built cinema still running. It came close to disappearing: shut for decades, saved by a volunteer campaign, restored, it now works as a normal cinema again, with a programme and screenings. That is what makes the visit interesting. You are not walking into a monument under glass, you are walking into a room that still shows films.",
+      },
+      {
+        heading: "The Lumières here, without the legend",
+        body: "Louis Lumière shot several of his first views at La Ciotat during the summer of 1895, including the most famous of all, L'Arrivée d'un train en gare de La Ciotat, the arrival of a train at La Ciotat station. The legend has it that the audience fled before the locomotive: that is a story built after the fact, and it did not happen here. The first paying public screening of the Lumière views took place in Paris, at the Grand Café, in December 1895; at the Eden it is the date of 21 March 1899 that is kept as the first paying screening. The town deserves better than an invented anecdote: it is a founding film location, and that is enough.",
+      },
+      {
+        heading: "The station, as it was filmed",
+        body: "La Ciotat station is still there and still in service, up on the heights away from the centre, a common arrangement on this line where the track runs behind the hills. Its volumes have been little altered, so you recognise the framing of the film without effort by standing on the platform. It is a ten-minute visit and it costs nothing, and it is probably the only place in the world where you can stand in the frame of an 1895 shot that still works as a railway station. Allow for the climb: the height gain from the old port is not trivial, and it is hot in summer.",
+      },
+      {
+        heading: "The Bec de l'Aigle and the puddingstone",
+        body: "The silhouette closing the bay to the west is a headland of puddingstone, a rock formed of sand and pebbles cemented together, whose ochre colour breaks sharply with the white limestone of the Marseille calanques. Seen from a certain angle the shape suggests an eagle's beak, hence the name. The same puddingstone reappears in the Mugel park and on the Île Verte, and it gives this stretch of coast a geological identity distinct from the rest of the Calanques national park. You see it from everywhere in town; you see it best from the water or from the island.",
+      },
+      {
+        heading: "The Parc du Mugel",
+        body: "Set against the Bec de l'Aigle, the Mugel park occupies a valley sheltered from the mistral, the cold dry north wind that funnels down the Rhône and dominates the weather here, by the mass of rock. That produces a microclimate where bamboo, palms and Mediterranean species grow that would not survive fifty metres further on. It is a public garden, it runs down to a small pebble beach, and it is free. For a visitor with children or in real heat it is the best address in town: dense shade, water at the end of the path, and short trails. The upper part of the park gives views over the bay that you do not get from the seafront.",
+      },
+      {
+        heading: "The Figuerolles calanque",
+        body: "Figuerolles is a narrow inlet wedged between two walls of puddingstone, a few minutes on foot from the Mugel park, with a pebble beach at the back and a distinctive rock planted in the middle of the entrance. It is far more accessible than the calanques of Marseille or Cassis, since you go down a staircase from the road instead of walking for an hour: that is its appeal and also its limit, because it gets busy. Come early in the morning in summer. The water is clear and the rocky bottom suits a mask and snorkel, but there is no permanent lifeguard cover here, so take care with children.",
+      },
+      {
+        heading: "The Île Verte, the old port and the yards",
+        body: "A few hundred metres offshore, the Île Verte is the only wooded island in the Bouches-du-Rhône. It covers thirteen hectares, it was bought by the department's council in 1963, and it is now part of the Calanques national park. A waymarked path goes round it in about an hour, with panels on the wildlife and plants and views of the Bec de l'Aigle, the town and its yards. A shuttle serves it from the old port in season; the crossings depend on the weather and the time of year, so check on the day with the operator. Back on shore, the old port and its row of coloured fronts is the postcard image, but the interest is right next to it: the dry docks and cranes of the former shipyards, converted to the repair and maintenance of very large yachts. So in the same view you get fishing boats and hundred-metre vessels in refit, which is a fair picture of what the town has become. The big crane is visible from a distance and works as a landmark. The seafront walks easily from the old port to the beaches of the bay, flat and undemanding.",
+      },
+      {
+        heading: "Pétanque was invented here in 1907, and getting there",
+        body: "Pétanque is the boules game you see played on gravel in every French town, and this is where it started. The older jeu provençal was played with a three-step run-up. In 1907, on the boules pitch run by the Pitiot brothers, a former champion called Jules Hugues, known as Lenoir, whose rheumatism stopped him running, got permission to play with his feet together, drawing a circle and throwing the jack five or six metres. That is pétanque, from the Provençal pèd tanca, feet planted. The Pitiot brothers understood what they had and organised the first contest under those rules in 1910. The town's boulodrome now carries Jules Lenoir's name, and playing a game here has the charm of being exactly in the right place. As for getting here, La Ciotat is on the Marseille to Toulon line, with a station served by regional trains, and a bus shuttle links the station to the centre, which is useful because the station is high up and out of the way. By car the town is one exit off the A50. Two days cover the Eden, the calanques and the island. The right period is spring or September: in July and August parking becomes difficult, the shuttles are full and Figuerolles fills from the morning. Off season the town stays alive because it lives off its residents and its yards, not only off holidaymakers, which is not the case everywhere on this coast.",
+      },
+    ],
+    relatedCities: ["la-ciotat", "marseille", "cassis"],
+    tags: ["things to do in la ciotat", "la ciotat", "travel", "city guide", "provence"],
+  },
+  {
+    slug: "things-to-do-in-rochefort-2026",
+    title: "Things to do in Rochefort: a town built to be an arsenal",
+    metaTitle: "Things to Do in Rochefort, France's Royal Arsenal",
+    metaDesc:
+      "A 374-metre rope factory, the last transporter bridge in France, Pierre Loti's house reopened in 2025, and why the Hermione is not here any more.",
+    category: "city-guide",
+    emoji: "⚓",
+    readMinutes: 7,
+    publishedAt: "2026-08-30",
+    updatedAt: "2026-08-30",
+    intro:
+      "Rochefort had 23,188 residents at the 2022 census, against 25,183 in 2011, and that erosion says something about the town: it was created from nothing for a single function, the royal navy's arsenal, and it has spent the last century living with a heritage too big for it. Which is exactly what makes it worth visiting. A town drawn with a ruler on a bend of the Charente, with a 374-metre manufactory at the water's edge and a writer's house that has just reopened after twelve years shut, exists nowhere else in France.",
+    sections: [
+      {
+        heading: "The Corderie Royale",
+        body: "Colbert wanted for Louis XIV an arsenal that would be the largest and the finest in the world, and he put it on a bend of the Charente, far enough from the ocean to be safe from an English raid. The Corderie Royale is its centrepiece: 374 metres long, the longest manufactory in Europe when it was built, a length dictated by a simple technical constraint, since a rope had to be laid in a single piece over the length of a cable. The building unfolds along the river, in a garden, and its classical white stone façade has an elegance you do not expect from a rope factory.",
+      },
+      {
+        heading: "The arsenal and the Musée national de la Marine",
+        body: "Around the Corderie, the former arsenal forms a whole quarter: dry docks, stores, workshops, and the national maritime museum installed in the hôtel de Cheusses. It is one of the few places where you grasp that a sailing navy was first of all an industrial and logistical business, made of timber, hemp, iron and thousands of workers, long before it was a matter of battles. The site now offers several visits under a single ticket; it is the ensemble that is worth the day, not one building on its own, and the logical order is to start with the Corderie.",
+      },
+      {
+        heading: "The Hermione: find out where she is before you come",
+        body: "This is the point on which a guide has to be straight with you. The replica of Lafayette's frigate was indeed built here, in the old arsenal, from July 1997, and launched on 7 September 2014 before crossing the Atlantic in 2015 on Lafayette's route. But since the autumn of 2021 she has been laid up in dry dock at Anglet, in the port of Bayonne, for heavy work on her hull, and the association behind her has been through serious financial difficulties. She is therefore not on view at Rochefort, and Bayonne is a long way south. Check her situation before travelling for her: do not come here for the ship, come for the arsenal that produced her.",
+      },
+      {
+        heading: "Pierre Loti's house, reopened in 2025",
+        body: "This is the town's recent heritage event. The house of the writer and naval officer, who turned two bourgeois houses into an improbable stage set with a Turkish salon, a mosque, a Japanese pagoda and a gothic hall, had been closed for twelve years. After nearly five years of restoration it reopened on 10 June 2025, in the state Loti left it at his death in 1923, with rooms that had been inaccessible now open. Every visit is guided, in groups of about ten, and lasts around an hour and a half: booking ahead is not a precaution here, it is a necessity, and it is the first thing to sort out when planning the trip.",
+      },
+      {
+        heading: "The Martrou transporter bridge",
+        body: "Built between 1898 and 1900 by the engineer Ferdinand Arnodin, this is the last transporter bridge in France, and eight survive worldwide. The principle is spectacular: a deck suspended high above the river, and a gondola that slides beneath it carrying passengers from bank to bank, so that ships can pass underneath. Listed as a monument historique on 30 April 1976 to prevent its demolition, it was restored between 2016 and 2020 and reopened on 29 July 2020. It runs from April to early November. The Maison du Transbordeur, a free interpretation centre, is on the Échillais bank, so it is accessible from Rochefort without being in it.",
+      },
+      {
+        heading: "The grid town, place Colbert and the Demy film",
+        body: "Rochefort has no medieval centre because it has no Middle Ages: it was created in the seventeenth century and laid out in one go, on a grid, around its arsenal. That walks very well, the streets being straight, wide and lined with fairly homogeneous pale stone fronts. The place Colbert, with its fountain, is the centre of it. This is a town you understand in an hour on foot, which is rare, and the regularity of the plan is itself the monument: you read a state decision in it, not a growth. Naval officers' town houses punctuate the grid. Jacques Demy filmed Les Demoiselles de Rochefort here in 1967, released in English as The Young Girls of Rochefort, and made the place Colbert his main set, repainting the façades in pastel colours for the shoot. The film durably changed the town's image, to the point that the square is recognisable at a glance to anyone who has seen it. The original colours are long gone, so do not expect to find the film's palette: what you find is the framing, the arcades and the proportions. It is a pleasure for film enthusiasts more than for sightseers, and it goes well with a late afternoon on a terrace.",
+      },
+      {
+        heading: "The Charente, the estuary and the gardens",
+        body: "The river is the town's reason for existing and remains the best angle from which to understand it. The banks of the Charente can be walked and cycled from the Corderie, and river boats run trips downstream and towards the mouth in season. The landscape is that of a wide, low estuary, with marshes, carrelets on stilts, the square lift-nets on wooden platforms that are a signature of this coast, and a very flat light that explains a good part of the local painting. It is also what makes the climate mild and the place damp: bring something to cover up even in summer, because the west wind comes up the river without obstacle. The arsenal needed timber, hemp and medicinal plants for its crews, and the navy made Rochefort an entry point for species brought back by its ships. A real plant heritage remains, with the jardin de la Marine in front of the Corderie, the Corderie itself bordered by planting, and botanical collections in the town. For a visitor that means a pleasant walk and an extra key to the place: these gardens were not decorative to begin with, they were an appendix of the arsenal, in the same way as the dry docks.",
+      },
+      {
+        heading: "Getting there, and what to visit around",
+        body: "Rochefort is served by rail from La Rochelle and Bordeaux, and the station is within walking distance of the centre. Allow two days: one for the arsenal and the Corderie, one for Loti's house, the transporter bridge and the town itself. Its position makes it a good base for the coast: Fouras, Brouage with its enclosure of walls, the île d'Oléron over the bridge, and the île d'Aix, reached by boat, where Napoleon spent his last days on French soil. All of those are accessible from the town without being in it, so plan them as excursions rather than as things you can stroll to. La Rochelle is close enough for a day out and different enough not to duplicate what you have already seen.",
+      },
+    ],
+    relatedCities: ["rochefort", "la-rochelle", "royan"],
+    tags: ["things to do in rochefort", "rochefort", "travel", "city guide", "atlantic coast"],
+  },
+  {
+    slug: "things-to-do-in-dieppe-2026",
+    title: "Things to do in Dieppe: the first seaside resort in France",
+    metaTitle: "Things to Do in Dieppe, France's First Seaside Resort",
+    metaDesc:
+      "Sea bathing began here in 1824, the largest ivory collection in Europe, a working fishing port, the Canadian memory of 19 August 1942, and a ferry to England.",
+    category: "city-guide",
+    emoji: "🪁",
+    readMinutes: 7,
+    publishedAt: "2026-08-30",
+    updatedAt: "2026-08-30",
+    intro:
+      "Dieppe had 28,599 residents at the 2022 census, against 31,148 in 2011: the town is losing people, like many Channel ports, and it is nonetheless one of the densest destinations in Normandy in terms of things to see. It invented sea bathing in France, it was the French capital of ivory for three centuries, it carries the memory of one of the deadliest days of the Second World War for Canada, and it is still a working fishing port. All of that between two cliffs, two hours from Paris, and reachable from England by ferry without flying.",
+    sections: [
+      {
+        heading: "The first seaside resort in France",
+        body: "A bathing establishment opened at Dieppe in 1824, and it was the duchesse de Berry who really launched the fashion: her bathe of 3 August 1824, announced by cannon in front of a crowd packed onto the beach, was a media event in the literal sense. She came back every season until 1829, and the aristocracy, then the upper middle class, followed. The whole Norman coast, and the very idea of the French seaside holiday, comes out of that decade. It is easy to forget today how far bathing in the sea was then a medical practice rather than a leisure one: this is the direct ancestor of thalassotherapy, not of the holiday beach.",
+      },
+      {
+        heading: "The château-musée and its ivories",
+        body: "The château dominates the town from the western cliff and houses the municipal museum. Its ivory collection is the largest in Europe: for more than three centuries, from the sixteenth, Dieppe was the main French centre for working ivory, supplied by the ships that touched the African coast. The pieces carved here between the sixteenth and twentieth centuries run from crucifixes to tobacco rasps, with a technical virtuosity that impresses even when the subject does not. This is the museum that best explains what Dieppe was: a port whose wealth came from the deep ocean, not from coastal trade.",
+      },
+      {
+        heading: "The seafront lawns",
+        body: "Between the town and the shingle beach lies a band of lawns several hectares across, clear of any building, facing the château. That empty width is a singularity, because most Channel resorts allowed building right to the edge. Here it is the result of wartime destruction and of a reconstruction decision, and it gives Dieppe a breathing space no other Norman resort has. It is a place for playing, for walking and for kite flying, and it is the best way to approach the town on arrival: walk the length of the lawns before going into the streets.",
+      },
+      {
+        heading: "The kite festival, every other year, and not in 2026",
+        body: "Those lawns have hosted, since 1980, every two years in September, an international kite festival that brings together some forty invited nations and is the largest gathering of its kind. It earned the town its nickname as the kite capital. Watch the calendar: the editions fall in odd years, the last having taken place in September 2025 and the next expected in 2027. There is therefore no edition in 2026, and a page promising you otherwise is copying a previous year. Exact dates should be checked with the organisers.",
+      },
+      {
+        heading: "The Estran Cité de la Mer",
+        body: "Created on 20 May 1987, the Estran is a science centre devoted to the coast of upper Normandy, organised in four spaces: shipbuilding, fishing from sea to plate, the cliffs and the shingle, and aquariums showing the wildlife of the Channel. It is frankly educational and meant to be, particularly with children. Its real value is to hand you the keys to the landscape you are about to go and look at outside: why the cliff retreats, where the pebbles come from, how they travel along the coast. You come out reading the beach differently.",
+      },
+      {
+        heading: "The fishing port and the quai Henri IV",
+        body: "Dieppe is still a working fishing port, and the port comes right into the heart of the town, which has become rare. Boats unload, the auction runs, and the quai Henri IV lines up restaurants facing the basins. The scallop is the emblematic local catch and the season runs through the winter, which makes Dieppe a destination with real gastronomic interest outside the summer. The Saturday morning market, which stretches through the streets of the centre, is one of the most highly regarded in Normandy and goes well with a look at the port just beforehand.",
+      },
+      {
+        heading: "19 August 1942, Operation Jubilee",
+        body: "At dawn on 19 August 1942, a little over six thousand men, of whom nearly five thousand were Canadians, a thousand British, some fifty American rangers and a few Free French, landed at five points spread over some fifteen kilometres of German-held coast. The operation was a total failure and became the deadliest day of the war for Canada. The town carries that memory very visibly, with plaques, a memorial, and the Canadian military cemetery at Hautot-sur-Mer, accessible from Dieppe without being in it. It is one of the few places in France where the link with Canada is lived rather than only commemorated, and Canadian visitors will find it addressed to them directly.",
+      },
+      {
+        heading: "Saint-Jacques, the cliffs, and getting there",
+        body: "The church of Saint-Jacques, in the middle of the centre, is a gothic vessel built and remodelled across several centuries, its porch and tower dominating a shopping square. Around it the post-war rebuilt centre alternates with older streets, and the result is less homogeneous than Le Havre but more lived in. The pedestrian Grande Rue links the church to the seafront. This is a town done entirely on foot, château included if you accept the climb, and there is no reason to use a car once you have arrived, which is not the case in most resorts on this coast. On either side of the town the côte d'Albâtre resumes its chalk cliffs and the coast path follows them. Westwards you reach Pourville and then Varengeville-sur-Mer, neighbouring communes accessible from Dieppe: this is the landscape Monet, Braque and many others came to paint, and Braque is buried in the seaside cemetery at Varengeville, facing the water. The walk is exposed and the wind is constant. Check the waymarking and keep your distance from the edge: chalk cliff collapses in slabs, without warning, and the retreat is real from one year to the next. Dieppe has a direct railway line from Paris-Saint-Lazare via Rouen, which makes it the easiest Channel beach to reach from the capital without a car, a decisive argument for a weekend. The port also runs a cross-Channel service to Newhaven in England, so this is one of the few French seaside towns you can reach from Britain without taking a plane. Two days cover the town, the château and the seafront; three if you walk the cliffs or push on to Varengeville. The town combines naturally with Rouen, an hour away, and the contrast between the port and the museum-city inland is worth the detour.",
+      },
+    ],
+    relatedCities: ["dieppe", "rouen", "le-havre"],
+    tags: ["things to do in dieppe", "dieppe", "travel", "city guide", "normandy"],
+  },
+  {
+    slug: "things-to-do-in-douai-2026",
+    title: "Things to do in Douai: a belfry, 62 bells and a family of giants",
+    metaTitle: "Things to Do in Douai: Belfry, Carillon and Giants",
+    metaDesc:
+      "A UNESCO belfry, the largest carillon in France with 62 bells, giants paraded since 1530, a national-rank museum, and the Lewarde mining centre next door.",
+    category: "city-guide",
+    emoji: "🔔",
+    readMinutes: 7,
+    publishedAt: "2026-08-30",
+    updatedAt: "2026-08-30",
+    intro:
+      "Douai had 39,833 residents at the 2022 census, a figure stable since 2016 after a decade of decline. The town has an unfair reputation in the north: people drive through it on the way to Lille or Arras and file it under the coal basin without looking. But it is not a mining town. It was a town of law, of university and of printing, and from that history it kept a UNESCO-listed belfry, the largest carillon in France and a family of giants that has come out every summer for nearly five centuries. The mine is next door, and it can be visited too.",
+    sections: [
+      {
+        heading: "The belfry",
+        body: "The belfry of Douai was begun in 1391, and it has been on the UNESCO World Heritage list since 2005, along with the belfries of Belgium and northern France. A belfry is neither a church tower nor a castle keep: it is the tower of a free town, the place where the charter of communal liberties was kept and from which the rhythm of collective life was rung. That civic meaning is the whole point of the building type, and it is why this region has so many of them. Douai's is the tallest and the most elaborate in the department, with its forest of turrets and its gothic crown. You can climb it, and the view from the top carries across the plain of the Scarpe and, in clear weather, as far as the slag heaps.",
+      },
+      {
+        heading: "The carillon, 62 bells",
+        body: "The belfry holds a carillon of 62 bells, the largest in France. A carillon is a set of tuned bells played from a keyboard, and the size matters: an instrument of this scale can play a real repertoire rather than a few jingles. Douai keeps a titular carillonneur who gives regular concerts from the keyboard, and the automatic mechanism fires several times an hour besides. The practical tip is simple. Find out the time of the weekly concert and sit on the square for it. Listening to the carillon from below, for nothing, is a very different experience from climbing the tower, and the two complement each other.",
+      },
+      {
+        heading: "The giants of Gayant",
+        body: "Gayant, the word means giant in Picard, the regional language of the far north, was born in 1530, his body woven in wicker by the basketmakers' guild for a procession in honour of Saint Maurand, the town's patron. He has never stopped coming out since. Monsieur Gayant stands 8.50 metres and weighs 370 kilos; his wife Marie Cagenon stands 6.25 metres; they have three children, Jacquot, Fillon and Binbin. The whole family is carried by men hidden inside, and the walking step is set to the music. It is one of the oldest living traditions in France, and the people of Douai talk about them as a real family, which is worth taking seriously rather than smiling at.",
+      },
+      {
+        heading: "The Fêtes de Gayant, in July",
+        body: "The festival is traditionally held on the Sunday following 5 July and the two days after it. The programme does not change: the giants come out of the Maison des Géants, a great procession goes through the streets, and there are popular dances, a funfair, a parade of giants from elsewhere and a torchlit retreat. The processional giants and dragons of Belgium and France have been on UNESCO's intangible cultural heritage list since 2005. Outside the festival, the Maison des Géants lets you see the figures close up and understand how they are built and carried, which is frankly more instructive than glimpsing them at a distance over a crowd.",
+      },
+      {
+        heading: "The Musée de la Chartreuse",
+        body: "Housed since 1958 in a former charterhouse, the museum occupies buildings that are remarkable in themselves: the hôtel d'Abancourt of 1559, and the wing raised by the Montmorency family in 1608, in a Flemish Renaissance style you do not see elsewhere in France at this quality. The collections exceed ten thousand works and are laid out chronologically from the Middle Ages to the modern period, with painting, French sculpture and decorative arts. It is a fine arts museum of genuinely national rank in a town of forty thousand people, and it is barely known outside the Hauts-de-France.",
+      },
+      {
+        heading: "The Scarpe, the quays and the centre",
+        body: "The river crosses the town and explains why it is here: the Scarpe made Douai a crossing point and an inland port, and water is still present in the urban fabric as arms, quays and bridges. The walk along the banks is flat, shaded in places, and links several of the town's sites without going near the traffic routes. It is also the way to see the back of the old town, the gardens and the façades on the water, which give a rather different picture from the squares. Count a quiet hour. The centre itself is organised around the place d'Armes and the rue de la Mairie, with a fabric of brick and stone houses in the Flemish manner, crow-stepped gables and eighteenth-century fronts in white stone. Douai escaped some of the destruction that hit its neighbours, which leaves an older ensemble more continuous than at Lens or Valenciennes. It is a brick town, with the warm tone that implies at the end of the day, and the centre is compact enough to cover in an hour of strolling, terraces included.",
+      },
+      {
+        heading: "The Lewarde mining centre",
+        body: "It is accessible from Douai without being in it: the Centre historique minier occupies the former Delloye pit, in the commune of Lewarde, a few kilometres east. It is the largest mining museum in France, it receives more than 150,000 visitors a year, and its exhibition traces the changes in the industrial landscape and in techniques across the 270 years of coal working in the Nord-Pas-de-Calais. The visit goes through reconstructed galleries and, when the calendar allows, is led by former miners. This is the visit that gives the surrounding mining basin its meaning, slag heaps and corons included, the corons being the terraces of miners' housing you see in rows along the roads.",
+      },
+      {
+        heading: "A town of law and printing, and getting there",
+        body: "Douai was a town of law and of books. It housed a university from the sixteenth century, an important printing trade, notably of books for English Catholic exiles, which is why English readers may know the town's name from the title page of a bible translation, and later a sovereign court for the northern provinces. What remains is a fabric of massive public buildings and a library with a considerable early collection. It is not a signposted circuit, but it is the key most visitors lack: it explains why a town of this size has such a belfry, such a museum and such a density of town houses, when it was never a capital. Douai sits on the Paris to Lille line with fast services, and the station is within walking distance of the centre. A full day covers the belfry, the museum and the centre; two days let you add Lewarde, which needs a half-day of its own. The town is a convenient base for the UNESCO-listed mining basin, for Arras and its Grand-Place some twenty minutes away by train, and for Lille. If you are only going to come once, aim for the beginning of July and the Fêtes de Gayant: that is when the town shows you what it actually is.",
+      },
+    ],
+    relatedCities: ["douai", "lille", "arras"],
+    tags: ["things to do in douai", "douai", "travel", "city guide", "hauts-de-france"],
+  },
+  {
+    slug: "things-to-do-in-sens-2026",
+    title: "Things to do in Sens: the first gothic cathedral ever built",
+    metaTitle: "Things to Do in Sens: the First Gothic Cathedral",
+    metaDesc:
+      "The first gothic cathedral ever built, the architect who went on to rebuild Canterbury, Thomas Becket's vestments, and an 1882 market hall, an hour from Paris.",
+    category: "city-guide",
+    emoji: "⛪",
+    readMinutes: 7,
+    publishedAt: "2026-08-30",
+    updatedAt: "2026-08-30",
+    intro:
+      "Sens had 27,275 residents at the 2022 census, against 25,146 in 2011, and it is one of the few mid-sized towns in Burgundy that is gaining people, largely because the Paris region is close. Its cathedral is the first gothic cathedral ever built, a site opened a generation before Notre-Dame de Paris, and its treasury holds the liturgical vestments of Thomas Becket. Put another way: a town of a little over twenty-five thousand people, an hour from Paris, holds the starting point of all gothic architecture. Very few people know it, and that is exactly why this guide exists. For a British visitor in particular, it is a much more direct pilgrimage than its obscurity suggests.",
+    sections: [
+      {
+        heading: "Saint-Étienne, the first of its kind",
+        body: "Work opened around 1135 at the initiative of archbishop Henri Sanglier, and the cathedral was consecrated in 1164: it is the first gothic cathedral in Christendom, begun some thirty years before Notre-Dame de Paris. What you see is gothic in the act of being invented, with solutions that are still experimental: alternating supports, proportions stockier than in later buildings, an elevation that does not yet dare what Chartres would dare. It is not the tallest or the most vertiginous of French cathedrals, and that is the subject. It is the first, and everything that follows comes out of it.",
+      },
+      {
+        heading: "William of Sens, and Canterbury",
+        body: "The man in charge of the works is called Guillaume de Sens, William of Sens, and his career shows what the place counted for: after Sens it was he who was called to England to rebuild the choir of Canterbury Cathedral after the fire of 1174. French gothic crossed the Channel through this man and this building site. So when you look at the elevation of the nave at Sens, you are also looking at the matrix of what was built at Canterbury and, by knock-on effect, across a large part of England. It is the kind of filiation you cannot see unless someone points it out, and it changes completely how you look at the building.",
+      },
+      {
+        heading: "The cathedral treasury",
+        body: "The treasury of Sens is one of the richest in France, alongside that of Sainte-Foy de Conques. It holds textiles, ivories, goldsmith's work and reliquaries, and its medieval textile holding is exceptionally rare, because fabric survives very badly and a collection on this scale has few equivalents in Europe. It is shown in the buildings attached to the cathedral, together with the town museums, under a single ticket. This is the visit not to skip: the cathedral is free and impressive, but it is the treasury that holds the objects you remember afterwards.",
+      },
+      {
+        heading: "Thomas Becket's vestments",
+        body: "Thomas Becket, archbishop of Canterbury and in open conflict with Henry II of England, took refuge in France and came to Sens: once in 1164 to meet Pope Alexander III, and a second time in 1170, just before returning to England, where he was murdered in his own cathedral a few weeks later. The treasury of Sens keeps his twelfth-century liturgical vestments, and the cathedral has an early thirteenth-century window telling the story of his martyrdom. Seeing the clothes of a man whose end you know in precise detail, in the town that sheltered him, produces an effect that few relics manage.",
+      },
+      {
+        heading: "The museums, in the archbishops' palace",
+        body: "The museums occupy the former archbishops' palace, attached to the cathedral, whose Henri II wing was raised in the sixteenth century by cardinal Louis de Bourbon. The Gallo-Roman archaeology is the strong point: Sens was Agedincum, the capital of a civitas, and the town has yielded a considerable body of material, including carved stone reused in the ramparts and rediscovered in the nineteenth century. Cathedral, treasury, palace and museums form a single block that is visited in one go. Allow a full half-day without trying to rush it, because it is half the interest of the town.",
+      },
+      {
+        heading: "The market hall of 1882",
+        body: "Inaugurated in 1882, the covered market is a rare provincial survival of Baltard-type metal architecture, the iron-framed market type named after the architect of the old Halles in Paris, with its iron frame and its brick infill. It has been listed as a monument historique since 1975. The plans are by two local architects, Horace Lefort and Benoni Roblot, chosen through a competition at the end of the 1870s. It still works as a market, which is the best way to visit a building of this kind: on market days you go in to buy something, and you look at the architecture over the top of the stalls. The contrast with the cathedral next door, seven and a half centuries apart, is striking.",
+      },
+      {
+        heading: "The old centre and the banks of the Yonne",
+        body: "Around the cathedral a medieval fabric survives, with several timber-framed houses, among them the so-called maison d'Abraham on a street corner, with its carved corner post. The centre is compact, partly pedestrian, and covered in an hour. It is a town that kept its scale: the streets are narrow, the shops are on the ground floor of old buildings, and the cathedral appears suddenly at a turn in the street instead of sitting on a cleared forecourt, which is the original medieval arrangement that many towns lost when they cut avenues through in the nineteenth century. The Yonne crosses the town and its quays have been laid out as a promenade. The river was the route by which timber was floated to Paris for centuries, which explains much of the local prosperity: Sens is on the road that heated the capital. Today the banks serve walkers and cyclists, and the path forms part of the valley's cycle routes. It is flat, it is shaded, and it is the restful counterpoint to a morning spent in the treasury. The parc du Moulin à Tan, on the opposite bank, adds glasshouses and a play area for families.",
+      },
+      {
+        heading: "The primatial city, and getting there",
+        body: "The cathedral carries the title of metropolitan and primatial, and that is not an ornament. A primatial see ranks above the ordinary archbishoprics around it, and the archbishop of Sens exercised for centuries an authority reaching well beyond what is now northern Burgundy, over a considerable ecclesiastical province. That is what explains the disproportion between the size of the town and the ambition of its building site, and why it was here, rather than in a capital, that gothic was attempted first. Keeping that key in mind changes the visit: you are no longer looking at a large church in a small town, you are looking at the seat of a power that no longer exists. Sens is served directly from Paris-Bercy and Paris-Gare de Lyon by the Yonne line, in a little over an hour, and the station is ten minutes on foot from the cathedral. It is therefore a perfectly realistic day trip from Paris, which is rare for a site of this importance. Allow a full day for the cathedral, the treasury and the museums, and a second if you want the market and the valley. The town then combines with Troyes to the east and Auxerre to the south, two places with neither the same period nor the same subject.",
+      },
+    ],
+    relatedCities: ["sens", "auxerre", "troyes"],
+    tags: ["things to do in sens", "sens", "travel", "city guide", "burgundy"],
+  },];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed
 // (getEnGuide's .find() returns the first) + a duplicate sitemap URL.

@@ -7142,18 +7142,53 @@
       "slug": "single-parent-in-ajaccio-2026",
       "title": "Single parent in Ajaccio (2026): €3,650 net for schools at 4.1/10",
       "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "things-to-do-in-orange-2026",
+      "title": "Things to do in Orange: two Roman monuments, one small town",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "things-to-do-in-saint-germain-en-laye-2026",
+      "title": "Things to do in Saint-Germain-en-Laye: the end of the RER A",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "things-to-do-in-la-ciotat-2026",
+      "title": "Things to do in La Ciotat: where cinema and pétanque began",
+      "emoji": "🎬"
+    },
+    {
+      "slug": "things-to-do-in-rochefort-2026",
+      "title": "Things to do in Rochefort: a town built to be an arsenal",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "things-to-do-in-dieppe-2026",
+      "title": "Things to do in Dieppe: the first seaside resort in France",
+      "emoji": "🪁"
+    },
+    {
+      "slug": "things-to-do-in-douai-2026",
+      "title": "Things to do in Douai: a belfry, 62 bells and a family of giants",
+      "emoji": "🔔"
+    },
+    {
+      "slug": "things-to-do-in-sens-2026",
+      "title": "Things to do in Sens: the first gothic cathedral ever built",
+      "emoji": "⛪"
     }
   ],
   "tags": [
     {
       "slug": "travel",
       "label": "travel",
-      "count": 225
+      "count": 232
     },
     {
       "slug": "city-guide",
       "label": "city guide",
-      "count": 219
+      "count": 226
     },
     {
       "slug": "moving-to-france",
@@ -7203,7 +7238,7 @@
     {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 31
+      "count": 32
     },
     {
       "slug": "working-in-france",
@@ -7223,7 +7258,7 @@
     {
       "slug": "ile-de-france",
       "label": "ile de france",
-      "count": 26
+      "count": 27
     },
     {
       "slug": "provence-alpes-cote-d-azur",
@@ -7246,14 +7281,14 @@
       "count": 24
     },
     {
-      "slug": "student-housing-france",
-      "label": "student housing france",
+      "slug": "normandy",
+      "label": "normandy",
       "count": 23
     },
     {
-      "slug": "normandy",
-      "label": "normandy",
-      "count": 22
+      "slug": "student-housing-france",
+      "label": "student housing france",
+      "count": 23
     },
     {
       "slug": "single-supplement",
@@ -7288,7 +7323,7 @@
     {
       "slug": "provence",
       "label": "provence",
-      "count": 17
+      "count": 19
     },
     {
       "slug": "centre-val-de-loire",
@@ -7356,6 +7391,11 @@
       "count": 10
     },
     {
+      "slug": "burgundy",
+      "label": "burgundy",
+      "count": 10
+    },
+    {
       "slug": "cote-d-azur",
       "label": "cote d'azur",
       "count": 10
@@ -7366,24 +7406,19 @@
       "count": 9
     },
     {
-      "slug": "auvergne",
-      "label": "auvergne",
+      "slug": "atlantic-coast",
+      "label": "atlantic coast",
       "count": 9
     },
     {
-      "slug": "burgundy",
-      "label": "burgundy",
+      "slug": "auvergne",
+      "label": "auvergne",
       "count": 9
     },
     {
       "slug": "french-riviera",
       "label": "french riviera",
       "count": 9
-    },
-    {
-      "slug": "atlantic-coast",
-      "label": "atlantic coast",
-      "count": 8
     },
     {
       "slug": "bordeaux",
