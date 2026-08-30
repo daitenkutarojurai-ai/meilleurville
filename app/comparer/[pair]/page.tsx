@@ -67,6 +67,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Comparaison complète entre ${a.name} (${a.scores.global}/10) et ${b.name} (${b.scores.global}/10) : coût de vie, transport, nature, sécurité, écoles. Laquelle choisir ?`,
     alternates: { canonical: `/comparer/${pair}`, languages: hreflangLanguages(`/comparer/${pair}`) },
     openGraph: {
+      // Même raison qu'au-dessus, et le correctif du 2026-08-03 avait manqué
+      // cette branche : les 722 paires partaient sans `og:image` pendant que
+      // les 49 triplets et la jumelle EN en avaient une.
+      images: ["/opengraph-image"],
       title: `${a.name} vs ${b.name} · Quelle ville choisir ?`,
       description: `${a.name} : ${a.scores.global}/10 · ${b.name} : ${b.scores.global}/10. Comparez tous les critères.`,
     },

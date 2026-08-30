@@ -46,7 +46,7 @@ app/
   quiz/                          # Lifestyle → city match
   red-flags/                     # Pitfalls per city archetype
 data/
-  cities-seed.ts                 # 352 cities, raw seed (calibrated + normalized at module load)
+  cities-seed.ts                 # 540 cities, raw seed (calibrated + normalized at module load)
   guides.ts                      # 195 long-form guides
   neighborhoods.ts               # Quartier-level data (subset of cities)
   housing.ts                     # Rent/price benchmarks per city
@@ -101,16 +101,21 @@ from any seed field.
 
 ## Score colour scale (6 tiers — applied in lib/utils.ts, CityCard, FranceHeatmap, DromStrip, CarteClient, ScoreBar, all opengraph-image.tsx)
 
-| Range  | Colour  | Count (352 cities) | Meaning        |
-|--------|---------|-------------------|----------------|
-| ≥ 7.5  | Violet (`#A855F7`) | ~3 (0.9%) | Exceptionnel — très rare |
-| ≥ 7.0  | Green   | ~22 (6.3%)        | Excellent      |
-| ≥ 6.0  | Lime    | ~116 (33%)        | Bon            |
-| ≥ 5.0  | Amber   | ~116 (33%)        | Moyen          |
-| ≥ 4.0  | Orange  | ~63 (18%)         | En dessous     |
-| < 4.0  | Red     | ~48 (14%)         | Mauvais        |
+Effectifs mesurés le 2026-08-30 en exécutant `CITIES_SEED` (donc après calibrage et
+normalisation), pas en lisant le seed source. La table d'avant portait les comptes des
+**352** villes d'alors et sous-estimait le haut de l'échelle d'un facteur 6 : le violet
+n'est plus « très rare », il tient 3,5 % du corpus. Recompter après tout ajout de villes.
 
-Distribution mean ≈ 5.42. Penalties:
+| Range  | Colour  | Count (540 cities) | Meaning        |
+|--------|---------|-------------------|----------------|
+| ≥ 7.5  | Violet (`#A855F7`) | 19 (3.5%) | Exceptionnel   |
+| ≥ 7.0  | Green   | 50 (9.3%)         | Excellent      |
+| ≥ 6.0  | Lime    | 151 (28.0%)       | Bon            |
+| ≥ 5.0  | Amber   | 141 (26.1%)       | Moyen          |
+| ≥ 4.0  | Orange  | 100 (18.5%)       | En dessous     |
+| < 4.0  | Red     | 79 (14.6%)        | Mauvais        |
+
+Distribution mean ≈ 5.46. Penalties:
 - `worstPenalty = max(0, 4.5 − worst_axis) × 0.35` — fires when any axis < 4.5
 - `safetyPenalty = (4.5 − safety) × 0.25` when safety < 4.5
 - `standoutBonus = max(0, top3_mean − 7.5) × 0.35` — only truly exceptional top-3
@@ -1525,7 +1530,7 @@ Same repo, same build, two Vercel projects, two domains.
 - **Never break FR routes.** Existing `app/villes/[slug]/page.tsx` etc. stay as-is.
 - **No new npm dependency.** The translation system is two flat TypeScript objects
   + a typed accessor.
-- **Stay SSG.** EN pages use the same `generateStaticParams` pattern (352 cities at build).
+- **Stay SSG.** EN pages use the same `generateStaticParams` pattern (540 cities at build).
 - **Cross-domain canonical.** FR canonical → `mavilleideale.fr/...`,
   EN canonical → `bestcitiesinfrance.com/...`. `hreflang` cross-links the two.
 - **Adding EN content for a 11th city.** Add `descriptionEn`, `seoTitleEn`,

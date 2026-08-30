@@ -21,7 +21,7 @@
  *
  *   npm run integrity
  */
-import { readFileSync, existsSync } from "node:fs";
+import { readFileSync, existsSync, readdirSync, statSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import ts from "typescript";
@@ -408,6 +408,65 @@ if (!failed) {
     } else {
       console.log(`  ok  glossaire  ${real} termes`);
     }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// `openGraph` sans `images` — le piège documenté dans CLAUDE.md, version
+// « une seule branche oubliée ».
+//
+// Rappel du piège : un `openGraph` de page **remplace** celui hérité de la
+// racine, donc en déclarer un sans `images` n'émet aucun `og:image` du tout.
+// 237 pages avaient été livrées comme ça le 2026-08-03.
+//
+// Le balayage prescrit alors — « un page.tsx qui contient `openGraph` mais pas
+// `images:` ni `opengraph-image.tsx` voisin » — a un angle mort : il suffit
+// qu'**une** des branches du `generateMetadata` porte `images` pour que le
+// fichier passe. C'est exactement ce qui est arrivé à `app/comparer/[pair]`,
+// où le correctif de 08-03 n'avait touché que la branche triplet : les 722
+// pages de paires partaient sans carte sociale pendant que les 49 triplets et
+// la jumelle EN en avaient une (audit 2026-08-30). Aucun contrôle ne pouvait
+// le voir, `tsc` moins que les autres.
+//
+// D'où le comptage par fichier : autant de blocs `openGraph: {` que de
+// `images:`. Un fichier voisin d'un `opengraph-image.tsx` est dispensé — ce
+// sibling-là, lui, est bien hérité par toutes les branches.
+{
+  const appDir = path.join(ROOT, "app");
+  const pages = [];
+  (function walk(dir) {
+    for (const entry of readdirSync(dir)) {
+      const p = path.join(dir, entry);
+      if (statSync(p).isDirectory()) walk(p);
+      else if (entry === "page.tsx") pages.push(p);
+    }
+  })(appDir);
+
+  const problems = [];
+  for (const file of pages) {
+    if (existsSync(path.join(path.dirname(file), "opengraph-image.tsx"))) continue;
+    const src = readFileSync(file, "utf8");
+    const blocks = (src.match(/openGraph:\s*\{/g) ?? []).length;
+    if (blocks === 0) continue;
+    const images = (src.match(/images:\s*\[/g) ?? []).length;
+    if (images < blocks) {
+      problems.push(
+        `${path.relative(ROOT, file)} : ${blocks} bloc(s) openGraph, ${images} avec images`,
+      );
+    }
+  }
+
+  if (problems.length === 0) {
+    console.log(`  ok  og:image   ${pages.length} page.tsx, aucun openGraph sans images`);
+  } else {
+    failed = true;
+    console.error(`\n  ÉCHEC  openGraph sans images : ${problems.length} fichier(s)\n`);
+    for (const p of problems.slice(0, 20)) console.error(`    ${p}`);
+    console.error(
+      "\n    Un openGraph de page remplace celui de la racine : sans `images`,\n" +
+        "    la page n'émet AUCUN og:image. Ajouter `images: [\"/opengraph-image\"]`\n" +
+        "    dans chaque branche, ou poser un opengraph-image.tsx à côté.\n",
+    );
   }
 }
 
