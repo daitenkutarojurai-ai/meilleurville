@@ -487,6 +487,17 @@ export default function ParentSoloHubPage() {
               </div>
             </Link>
             <Link
+              href="/classements/famille-proprietaire"
+              className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 transition-all px-4 py-3"
+            >
+              <div className="text-sm font-semibold text-[var(--text-primary)]">
+                👨‍👩‍👧 Familles, prix compris
+              </div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">
+                Écoles, sécurité et nature, moins une pénalité sur les villes les plus chères
+              </div>
+            </Link>
+            <Link
               href="/vacances/profil/monoparental"
               className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 transition-all px-4 py-3"
             >

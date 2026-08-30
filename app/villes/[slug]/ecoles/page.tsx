@@ -271,6 +271,15 @@ export default async function EcolesPage({ params }: Props) {
           >
             Classement étudiant 🎓
           </Link>
+          {/* Même matière que le classement famille ci-contre, autre arbitrage :
+              écoles, sécurité et nature seules, moins une pénalité sur les
+              villes les plus chères. */}
+          <Link
+            href="/classements/famille-proprietaire"
+            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+          >
+            Écoles et sécurité à prix tenable 👨‍👩‍👧
+          </Link>
         </div>
       </section>
 

@@ -443,6 +443,36 @@ export default async function RankingPage({ params }: Props) {
             </div>
           )}
 
+          {/* Voisin de barème — le classement famille pondère cinq axes, coût
+              et transport compris, ce qui remonte les métropoles bien
+              desservies ; le composite propriétaire ne retient qu'écoles,
+              sécurité et nature puis retranche une pénalité aux villes les plus
+              chères, si bien que son haut de tableau est fait de communes
+              moyennes. Même sujet, arbitrage inverse sur le prix. */}
+          {slug === "famille" && (
+            <div>
+              <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-3">
+                Classement voisin
+              </p>
+              <Link
+                href="/classements/famille-proprietaire"
+                className="flex items-start gap-3 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 p-3 transition-colors group"
+              >
+                <span className="text-xl flex-shrink-0">👨‍👩‍👧</span>
+                <div className="min-w-0">
+                  <p className="text-xs font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug">
+                    Élever des enfants sans que le loyer décide de tout
+                  </p>
+                  <p className="text-xs text-[var(--text-tertiary)] mt-0.5">
+                    Même sujet, arbitrage inverse : écoles, sécurité et nature seules, moins une
+                    pénalité pour les villes les plus chères. Les ex æquo y sont donnés par
+                    paliers plutôt que numérotés un à un.
+                  </p>
+                </div>
+              </Link>
+            </div>
+          )}
+
           {/* Related guides */}
           {relatedGuides.length > 0 && (
             <div>

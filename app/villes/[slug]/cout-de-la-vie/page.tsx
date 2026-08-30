@@ -207,7 +207,15 @@ export default async function CoutDeLaViePage({ params }: Props) {
             </div>
             <p className="mt-3 text-xs text-[var(--text-tertiary)]">
               Hypothèses : actif célibataire, T2 médian, mode de vie urbain. Les retraités et
-              familles ont une structure de coûts différente — voir notre simulateur par profil.
+              familles ont une structure de coûts différente — voir notre simulateur par profil,
+              ou le classement des{" "}
+              <Link
+                href="/classements/famille-proprietaire"
+                className="text-[var(--accent)] hover:underline"
+              >
+                villes où écoles, sécurité et nature ne se paient pas au prix fort
+              </Link>
+              , qui retranche justement une pénalité aux communes les plus chères.
             </p>
           </section>
 

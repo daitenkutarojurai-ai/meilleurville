@@ -239,6 +239,39 @@ export default async function ProfilePage({ params }: Props) {
           </section>
         )}
 
+        {/* Family counterpart — the four profiles whose weighting is built on
+            schools + safety + green space. The owner ranking reads those three
+            axes alone and subtracts a penalty on the most expensive cities,
+            which is precisely the arbitrage a household with one income (or
+            several children) makes; the official /classements/famille adds cost
+            and transport, so its top pulls toward well-served metro areas. */}
+        {["familles-avec-enfants", "jeunes-parents", "familles-nombreuses", "familles-monoparentales"].includes(profile.slug) && (
+          <section>
+            <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+              Le classement complémentaire — quand le prix pèse dans l&apos;équation familiale
+            </h3>
+            <Link href="/classements/famille-proprietaire" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl" aria-hidden>👨‍👩‍👧</span>
+                  <div>
+                    <p className="font-semibold text-[var(--text-primary)]">
+                      Élever des enfants sans que le loyer décide de tout
+                    </p>
+                    <p className="text-xs text-[var(--text-secondary)] mt-1">
+                      Le top ci-dessus pondère l&apos;ensemble des axes du profil ; celui-ci n&apos;en
+                      retient que trois — écoles, sécurité, nature — et retranche une pénalité aux
+                      villes les plus chères. Le résultat n&apos;est pas le même palmarès en plus
+                      court : il déplace le haut de tableau des métropoles vers des communes
+                      moyennes, et donne ses ex æquo par paliers plutôt qu&apos;en rangs fabriqués.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+          </section>
+        )}
+
         {/* Heating counterpart — visible for profiles whose budget is most
             exposed to a winter heating bill (fixed pension, single income,
             rural neo-installés, primo-accédants qui découvrent la facture
