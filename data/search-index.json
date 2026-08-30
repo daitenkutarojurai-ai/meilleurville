@@ -8339,6 +8339,51 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "parent-solo-a-la-roche-sur-yon-2026",
+      "title": "Parent solo à La Roche-sur-Yon en 2026 : la seule ville de France que ce classement note « Excellent »",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-dole-2026",
+      "title": "Parent solo à Dole en 2026 : 101 € de loyer par point d'écoles, le meilleur rapport de la série",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-lannion-2026",
+      "title": "Parent solo à Lannion en 2026 : 8,2 de sécurité, 4,9 de transports, et un arbitrage à faire",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-challans-2026",
+      "title": "Parent solo à Challans en 2026 : la meilleure note de sécurité de France, et 20,9 % d'habitants en plus",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-saint-die-des-vosges-2026",
+      "title": "Parent solo à Saint-Dié-des-Vosges en 2026 : 71 500 € pour 65 m², et une ville qui perd des habitants",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-albi-2026",
+      "title": "Parent solo à Albi en 2026 : 2 550 € de seuil pour 7,7 d'écoles, la meilleure combinaison d'Occitanie",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-cholet-2026",
+      "title": "Parent solo à Cholet en 2026 : 800 € de T3 pour 7,7 d'écoles, et 650 € de revenu de moins qu'à Angers",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-laon-2026",
+      "title": "Parent solo à Laon en 2026 : 2 250 € de seuil, et trois villes de l'Aisne à comparer avant de signer",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-anglet-2026",
+      "title": "Parent solo à Anglet en 2026 : même loyer qu'à Bayonne, 1,7 point d'écoles de plus",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "10-choses-a-faire-a-orange-2026",
       "title": "10 choses à faire à Orange",
       "emoji": "🏛️"
@@ -8931,6 +8976,11 @@
       "count": 5
     },
     {
+      "slug": "famille-monoparentale-nouvelle-aquitaine",
+      "label": "famille monoparentale Nouvelle-Aquitaine",
+      "count": 5
+    },
+    {
       "slug": "hauts-de-france",
       "label": "Hauts-de-France",
       "count": 5
@@ -9066,8 +9116,18 @@
       "count": 4
     },
     {
-      "slug": "famille-monoparentale-nouvelle-aquitaine",
-      "label": "famille monoparentale Nouvelle-Aquitaine",
+      "slug": "famille-monoparentale-hauts-de-france",
+      "label": "famille monoparentale Hauts-de-France",
+      "count": 4
+    },
+    {
+      "slug": "famille-monoparentale-occitanie",
+      "label": "famille monoparentale Occitanie",
+      "count": 4
+    },
+    {
+      "slug": "famille-monoparentale-pays-de-la-loire",
+      "label": "famille monoparentale Pays de la Loire",
       "count": 4
     },
     {
@@ -9358,16 +9418,6 @@
     {
       "slug": "exode-urbain",
       "label": "exode urbain",
-      "count": 3
-    },
-    {
-      "slug": "famille-monoparentale-hauts-de-france",
-      "label": "famille monoparentale Hauts-de-France",
-      "count": 3
-    },
-    {
-      "slug": "famille-monoparentale-occitanie",
-      "label": "famille monoparentale Occitanie",
       "count": 3
     },
     {
