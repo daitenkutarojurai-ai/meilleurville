@@ -21,6 +21,8 @@ import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor, scoreBg } from "@/lib/utils";
 import {
   biodiversityProfile,
+  greenSpacePerCapita,
+  greenSpaceCrossBorder,
   hasBiodiversityData,
   groupLabel,
   speciesName,
@@ -141,12 +143,18 @@ function ComponentBar({
   score,
   detail,
   missing,
+  noScoreLabel,
 }: {
   emoji: string;
   title: string;
   score: number | null;
   detail: string;
   missing?: string;
+  /** What stands in for the /10. "not measured" by default — which is wrong for
+   *  a component whose measurement exists and whose RANK was withdrawn
+   *  (richness on 10 Aug, green space on 31 Aug): the card printed it right
+   *  above the measured figure. Same as the French twin. */
+  noScoreLabel?: string;
 }) {
   return (
     <div className="rounded-2xl glass border border-white/50 p-5 shadow-sm">
@@ -161,7 +169,7 @@ function ComponentBar({
           </div>
         ) : (
           <div className="text-xs text-[var(--text-tertiary)] uppercase tracking-wider">
-            not measured
+            {noScoreLabel ?? "not measured"}
           </div>
         )}
       </div>
@@ -233,6 +241,28 @@ export default async function BiodiversityPage({ params }: Props) {
           : `${nb(measuredAreas.weightedCoverage)} % of the disc under weighted protection. The rank out of 10 waits until more cities are ingested.`
         : `Statutory boundaries (nature reserves, national and regional parks, biotope orders, Natura 2000) are not integrated yet for this commune. "Not measured" means we do not know — not that there are none.`;
 
+  // Green space: the raw figure stays on the page, the rank does not (see
+  // GREEN_SPACE_RANKING_PUBLISHED). Where the data shows the flaw for this very
+  // commune, name the park and the towns it is credited to as well — that beats
+  // a general sentence about a method limit. Same numbers as the French twin.
+  const greenValue = greenSpacePerCapita(slug);
+  const crossBorder = greenSpaceCrossBorder(slug);
+  const listEn = (names: string[]) =>
+    names.length <= 1
+      ? (names[0] ?? "")
+      : `${names.slice(0, -1).join(", ")} and ${names[names.length - 1]}`;
+  const greenFloor = greenSpaceTruncated ? "At least " : "";
+  const greenMissing =
+    greenSpacePending === "incomparable" && greenValue != null
+      ? `${greenFloor}${greenValue.toLocaleString("en-GB")} m² of named parks per resident — an exact figure for what it is, but one we no longer rank. ` +
+        (crossBorder.length > 0
+          ? `The survey counts the whole polygon of every park that straddles a boundary: "${crossBorder[0].name}" (${nb(Math.round(crossBorder[0].areaM2 / 10000))} ha) is credited here, and to ${listEn(crossBorder[0].otherCities)} as well. `
+          : `The survey counts the whole polygon of parks that spill over into neighbouring communes, which inflates small towns sitting next to a large park. `) +
+        `Rank withdrawn on 31 August 2026.`
+      : greenSpacePending === "data"
+        ? "The OpenStreetMap survey has not covered this commune yet."
+        : "OpenStreetMap lists no named park for this commune, and that is a gap in the map rather than a finding on the ground: an unmapped town and a town without greenery are indistinguishable in the data. So we publish no score rather than a misleading zero.";
+
   // What the aggregate is missing, and why each piece is missing. Mirrors the
   // French twin: a component withdrawn because its measurement did not measure
   // what it claimed is not a component running late.
@@ -255,9 +285,11 @@ export default async function BiodiversityPage({ params }: Props) {
     );
   if (!greenSpace)
     missingComponents.push(
-      greenSpacePending === "mapping"
-        ? "green space, which OpenStreetMap does not map here"
-        : "green space, not yet surveyed for this commune",
+      greenSpacePending === "incomparable"
+        ? "green space, whose rank was withdrawn on 31 August 2026 because a park straddling a boundary is counted in full in every commune it touches"
+        : greenSpacePending === "mapping"
+          ? "green space, which OpenStreetMap does not map here"
+          : "green space, not yet surveyed for this commune",
     );
 
   const groups = GROUP_ORDER.map((g) => ({ id: g, count: raw.groups[g] ?? 0 })).filter(
@@ -535,6 +567,7 @@ export default async function BiodiversityPage({ params }: Props) {
               emoji="🦋"
               title="Species richness"
               score={richness?.score ?? null}
+              noScoreLabel={richnessPending === "incomparable" ? "rank withdrawn" : undefined}
               detail={`${speciesPhraseCap} species recorded, normalised to a common sample of ${raw.rarefiedN} observations. GBIF, ${raw.radiusKm} km radius, since ${raw.yearFrom}.`}
               missing={
                 richnessPending === "incomparable"
@@ -557,6 +590,7 @@ export default async function BiodiversityPage({ params }: Props) {
               emoji="🌳"
               title="Urban green space"
               score={greenSpace?.score ?? null}
+              noScoreLabel={greenSpacePending === "incomparable" ? "rank withdrawn" : undefined}
               detail={
                 greenSpace
                   ? greenSpaceTruncated
@@ -564,11 +598,7 @@ export default async function BiodiversityPage({ params }: Props) {
                     : `${greenSpace.value.toLocaleString("en-GB")} m² of named parks per resident. Mapped on OpenStreetMap, whose coverage varies from town to town.`
                   : ""
               }
-              missing={
-                greenSpacePending === "data"
-                  ? "The OpenStreetMap survey has not covered this commune yet."
-                  : "OpenStreetMap maps no named park for this commune. That is a gap in the map rather than a finding on the ground: an unmapped commune and a commune without greenery look identical in the data. We publish no score rather than a misleading zero."
-              }
+              missing={greenMissing}
             />
           </div>
 
@@ -590,7 +620,7 @@ export default async function BiodiversityPage({ params }: Props) {
                   {" "}
                   Protected areas do carry a score above: a Natura 2000 boundary exists regardless
                   of who turns up to record it, so it is the one component immune to the effort
-                  bias, and the comparable figure on this page.
+                  bias, and the only comparable figure on this page.
                 </>
               ) : (
                 <>
@@ -879,25 +909,31 @@ export default async function BiodiversityPage({ params }: Props) {
                 </p>
                 <p>
                   <strong className="text-[var(--text-primary)]">How to read the page meanwhile.</strong>{" "}
-                  The other two components do not depend on who comes to look: a protected
-                  perimeter exists by decree, a park is mapped on the ground.{" "}
+                  {/* Green space lost its rank on 31 Aug 2026: a park straddling
+                      a boundary is counted in full in every commune it touches,
+                      so the scale ranked proximity to one large polygon. Only
+                      one of the three components still carries a comparable
+                      score, and the page has to say so instead of implying two
+                      do. Same wording as the French twin. */}
+                  Only one of the three components depends neither on who comes to look nor on how
+                  we cut the surfaces up: the protected perimeter, which exists by decree.{" "}
                   {protection ? (
                     <>
-                      Protected areas are therefore the measurement to read here: they are surveyed
-                      across all {CITIES_SEED.length} cities on the site, from the same set of
-                      boundaries for every one of them, and theirs is the component that would
-                      weigh heaviest in the aggregate the day richness becomes comparable again
-                      {greenSpace ? ". Green space carries a score too" : ""}.
+                      It is therefore the measurement to read here: it is surveyed across all{" "}
+                      {CITIES_SEED.length} cities on the site, from the same set of boundaries for
+                      every one of them, and it is the component that would weigh heaviest in the
+                      aggregate the day the other two become comparable again.
                     </>
                   ) : (
                     <>
-                      {greenSpace
-                        ? "That is why green space carries a score here,"
-                        : "That is where the measurement is solid,"}{" "}
-                      and why protected areas will carry the heaviest one once they are surveyed for
-                      this commune.
+                      That is where the measurement is solid, and protected areas will carry the
+                      heaviest weight once they are surveyed for this commune.
                     </>
                   )}{" "}
+                  Green space, for its part, lost its rank on 31 August 2026: the OpenStreetMap
+                  survey counts a park&apos;s whole polygon in each of the communes it touches, so
+                  the scale ranked proximity to a large park rather than green area per resident.
+                  The surveyed area is still shown as it stands.{" "}
                   For species, take the counts for what they are — the state of naturalist knowledge
                   around {city.name}, which tells you something about the area in itself, not a
                   league table.

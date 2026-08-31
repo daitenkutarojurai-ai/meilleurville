@@ -1157,7 +1157,7 @@ recensées à proximité, zones protégées.
 
 | # | Feature | Prio | Cplx | SEO | Statut |
 |---|---------|------|------|-----|--------|
-| F62 | **Score Biodiversité** (pipeline GBIF + zones protégées → sous-page ×540 + classement) | **P0** | **L** | **high** | 🚧 en cours — GBIF **540/540** (crawl clos 09/08), sous-pages en ligne des deux locales, **rang de richesse retiré le 10/08** (il classait les programmes de saisie) ; zones protégées **540/540** depuis la bascule INPN → **IGN BD TOPO** du 26/08 (la source INPN est morte depuis la cyberattaque de 07/2025), **hub national `/espaces-proteges` + `/protected-areas` livré le 26/08** ; **passe d'honnêteté des deux sous-pages ville le 27/08** (elles annonçaient encore les zones protégées comme « pas encore intégrées », et publiaient un effectif d'espèces plafonné comme un total sur 27 villes) ; `overall` reste `null` — deux composantes sur trois publiables ne font pas un agrégat qui mesure ce que son nom annonce |
+| F62 | **Score Biodiversité** (pipeline GBIF + zones protégées → sous-page ×540 + classement) | **P0** | **L** | **high** | 🚧 en cours — GBIF **540/540** (crawl clos 09/08), sous-pages en ligne des deux locales, **rang de richesse retiré le 10/08** (il classait les programmes de saisie) ; zones protégées **540/540** depuis la bascule INPN → **IGN BD TOPO** du 26/08 (la source INPN est morte depuis la cyberattaque de 07/2025), **hub national `/espaces-proteges` + `/protected-areas` livré le 26/08** ; **passe d'honnêteté des deux sous-pages ville le 27/08** (elles annonçaient encore les zones protégées comme « pas encore intégrées », et publiaient un effectif d'espèces plafonné comme un total sur 27 villes) ; **rang d'espaces verts retiré le 31/08** (un parc à cheval était compté en entier dans chaque commune qu'il touche : corrélation de rang +0,86 avec la surface du seul plus grand polygone, 26 des 53 villes du top 10 % concernées) ; **une seule des trois composantes porte encore une note, les zones protégées**, et `overall` reste `null` — deux composantes retirées et une publiable ne font pas un agrégat qui mesure ce que son nom annonce |
 | F63 | **Qualité de l'air — du modèle à la mesure** (ATMO + Geod'Air, hub + classement) | **P0** | **M** | **high** | 🔜 à faire |
 | F64 | **Actualité locale par ville** (open data BODACC/JO/CatNat → section CityProfile + routine hebdo) | **P1** | **M** | **low** | ✅ **en ligne — 540/540 villes, 4 212 entrées** (BODACC 4 172 + CatNat 40), collectées par le cron local les 04-05/08. Section rendue sur les deux locales. RNA toujours désactivé (0 association). Mois partiel marqué depuis le 11/08. **Filtre commune corrigé le 18/08** (`QUERY_VERSION = 2`) : les 10 villes dont le nom de seed porte une parenthèse — les Saint-X de La Réunion, Le Robert, Le François, Saint-Louis 68 — sortaient à **zéro entrée sur douze mois** ; recollecte des 540 attendue au prochain lot local. 2 vides encore inexpliquées (dinan, selestat). ⚠️ **Données gelées au 05/08 : le collecteur n'a rien produit depuis 20 jours**, ni après le `QUERY_VERSION = 2` du 18/08 ni après la réparation du runner du 24/08 (deux créneaux écoulés, aucun commit) — la cause restante est la machine du propriétaire, pas le dépôt. Le 25/08 a rendu la section honnête sans elle : la date est publiée comme un **plafond** (« Relevé arrêté au… ») et non plus comme un « Mis à jour », et `STALE_AFTER_DAYS` passe de 45 à **21** (~16 j = âge sain maximum, + une semaine de marge) |
 
@@ -1732,6 +1732,100 @@ l'alerte. **La prochaine passe le dira d'elle-même**, par e-mail — ou, en tro
 demande, par `scripts/local-data-runner.sh --status`, qui donne les trois couvertures, depuis quand
 chacune n'a pas bougé, la présence des couches INPN et celle d'`ogr2ogr`. Si le cron lui-même est
 décroché, rien de tout cela ne partira : c'est la première chose à vérifier (`crontab -l`).
+
+#### Point d'étape 2026-08-31 — le rang d'espaces verts est retiré : un parc à cheval était compté en entier dans chaque commune
+
+Aucune collecte ce run (les trois JSON sont pleins : biodiversité **540/540** dont 513 mesurables,
+zones protégées **540/540** toutes mesurées, parcs **540/540** dont 11 sans parc nommé). Le travail
+est le contrôle que la composante **espaces verts** n'avait jamais subi. La richesse a été auditée le
+10/08 et son rang retiré ; les zones protégées ont été calibrées le 26/08 ; les espaces verts, eux,
+publiaient un **/10 sur 529 villes des deux locales depuis le 06/08 sans qu'aucun contrôle n'ait été
+passé dessus**. Il ne tient pas.
+
+**Le mécanisme, lisible dans le code de collecte — ce n'est pas une inférence statistique.**
+`scripts/city-parks.mjs` interroge Overpass en `way["leisure"="park"](area.a)` sur l'aire
+administrative de la commune. Un filtre d'aire Overpass retourne tout élément qui **intersecte**
+l'aire, et `out geom` en rend la géométrie **entière** : le shoelace calcule la surface du polygone
+complet, jamais de sa part communale. Un parc à cheval est donc porté **en entier** au crédit de
+chaque commune qu'il touche, puis divisé par la population de chacune. La donnée le montre à
+l'identique : **45 polygones** sont enregistrés dans 2 à 4 communes du seed, **11 au-dessus de
+100 ha**, avec la même surface partout — bois de Vincennes **979,7 ha** compté tel quel à Paris,
+Saint-Mandé, Charenton-le-Pont et Vincennes ; bois de Boulogne **805,7 ha** à Paris, Neuilly et
+Boulogne-Billancourt ; parc Georges-Valbon **337,9 ha** à Stains, Garges-lès-Gonesse, La Courneuve et
+Saint-Denis.
+
+**Ce qui a été mesuré** (script jetable, sur les 529 villes notées) :
+
+| contrôle | valeur |
+|---|---|
+| corrélation de rang score ↔ surface du **seul plus grand polygone** | **+0,86** |
+| villes du top 10 % dont ce polygone est compté aussi dans une autre commune du seed | **26 / 53** |
+| villes du top 10 % situées en Île-de-France | **27 / 53** |
+| villes dont un seul polygone fait plus de la moitié de la « surface verte » | **284 / 529** (médiane **52 %**) |
+
+47 des 56 villes notées ≥ 9,0 doivent leur place à un polygone de plus de 50 ha, alors que 76 villes
+seulement en portent un. **Saint-Mandé** (1 km², 21 223 hab.) sortait **10,0/10** avec 462 m²/hab,
+c'est-à-dire les 980 ha du bois de Vincennes — qui est à Paris — divisés par sa propre population ;
+**Charenton-le-Pont** 10,0 et **Vincennes** 9,9 par le même bois ; **Stains** 9,8 avec un parc de
+La Courneuve. Le barème classait la **proximité d'un grand polygone**, pas la surface verte par
+habitant qu'il annonçait. Quatre villes tiraient **100 %** de leur « surface verte » d'un polygone
+partagé, 42 plus de la moitié, 78 au moins une partie.
+
+**Pourquoi un retrait, et pas un correctif ciblé.** Le défaut n'est **détectable** que lorsque la
+commune voisine est elle-même dans nos 540 : le domaine de Rambouillet (1 032 ha, 391 m²/hab,
+10,0/10), l'Arche de la Nature du Mans ou la Combe à la Serpent de Dijon débordent tout autant sur
+des communes absentes du seed, sans qu'aucune ligne du JSON ne le montre. Retirer les 78 cas visibles
+aurait nettoyé la moitié dense du corpus, laissé l'autre intacte, et donné le barème pour réparé —
+pire que les deux extrêmes. Et rien dans la donnée ne dit à quelle commune revient quelle part :
+réaffecter au centroïde le plus proche attribue le bois de Vincennes à **Charenton**, pas à Paris.
+Le remède est côté pipeline, comme pour la richesse : découper les anneaux sur la limite communale
+(ou n'accepter que les polygones dont le centroïde y tombe) dans `scripts/city-parks.mjs`, donc un
+`queryVersion` neuf et un recrawl.
+
+⚠️ **F59 n'est pas touchée, et ne doit pas l'être.** Pour un **répertoire de destinations**, lister
+le bois de Vincennes à Saint-Mandé est juste : on y va à pied. C'est seulement comme **surface verte
+par habitant** que le même polygone devient faux — la symétrie exacte du zéro OSM, vrai pour `/parcs`
+(« aucun parc nommé »), faux ici (03/08). `/parcs` trie d'ailleurs par **nombre** de parcs, pas par
+surface : aucun classement du site ne repose sur la surface cumulée.
+
+**Ce que le run a livré.** `GREEN_SPACE_RANKING_PUBLISHED = false` dans `lib/biodiversity.ts` (point
+unique de bascule, corrélations et mécanisme dans le docstring), un motif
+`greenSpacePending: "incomparable"`, et `greenSpaceCrossBorder()` / `greenSpaceCrossBorderShare()` +
+`GREEN_SPACE_CROSS_BORDER_COUNT` (78) / `_PARK_COUNT` (45), qui permettent à chaque page de nommer
+**son propre** cas plutôt que d'énoncer une limite de méthode en général. ⚠️ L'ordre des motifs est
+**l'inverse** de celui de la richesse, et c'est voulu : là-bas la mesure existait dans tous les cas,
+donc la raison de barème passait devant ; ici **11 communes n'ont aucun parc nommé**, donc aucune
+surface à montrer, et leur dire « le barème est retiré » masquerait qu'il n'y a rien à comparer —
+`"mapping"` reste prioritaire pour elles.
+Sur les deux sous-pages ville : la carte 🌳 affiche le m²/hab brut (« au moins » quand F59 a plafonné
+à 40 parcs), la raison du retrait, et le parc partagé nommé avec les communes qui se le partagent —
+« *Le relevé compte le polygone entier de chaque parc à cheval : « Bois de Vincennes » (980 ha) est
+porté ici au crédit de la commune, et aussi à Charenton-le-Pont, Paris et Vincennes.* » ; le bloc
+« Pas de score global » porte la raison ; le paragraphe « Comment lire la page » ne dit plus que deux
+composantes échappent au biais, mais **une seule**. Correctif d'affichage arrivé avec : la carte de
+composante écrivait **« non mesuré » au-dessus du chiffre mesuré** dès qu'un rang était retiré (donc
+sur la richesse depuis le 10/08, et sur les espaces verts depuis ce run) — nouveau `noScoreLabel`,
+« rang retiré » / « rank withdrawn ». Les deux hubs `/espaces-proteges` et `/protected-areas`
+disaient « la seule des trois composantes qui se classe honnêtement » en n'expliquant que le retrait
+de la richesse : la phrase nomme désormais les deux retraits et dit que la protection est la seule
+note **encore publiée**.
+
+**Vérifications.** `npx tsc --noEmit` propre, `npm run integrity` propre (540 villes, 1 035 guides FR,
+795 EN), `eslint` sur les fichiers touchés : **aucune erreur nouvelle** (les 2 remontées sur la page
+EN préexistent à l'identique, décalées de 30 lignes). Pages **rendues en dev** et lues, les quatre
+branches : Saint-Mandé (partagé, 100 %), Paris (partagé + effectif plafonné, « Au moins 10,8 m² »),
+Rambouillet (aucun partage détecté → phrase générale), Sallanches (aucun parc nommé → `"mapping"`
+inchangé). La jumelle EN a répondu **200 cette fois** (elle 404ait le 10/08 sous `next dev`) et
+affiche les **mêmes nombres** : 462 m², 980 ha, protection 2,3/10 des deux côtés.
+`npm run build` volontairement non lancé (interdit depuis une routine, cf. CLAUDE.md § Commands) ;
+`.next` et `out` effacés en fin de run.
+
+**Ce qui n'est toujours pas couvert.** `overall` reste `null` sur les 540 villes, et il l'est
+désormais pour **deux** raisons de fond et non plus une : la richesse demande un recrawl GBIF agrégé
+par `datasetKey` (`QUERY_VERSION = 3`), les espaces verts un recrawl OSM découpé sur la limite
+communale. **Une seule des trois composantes porte encore une note : les zones protégées.** Les
+chiffres bruts des deux autres restent publiés — ils sont exacts pour ce qu'ils sont — et c'est le
+classement qui est retiré, pas la donnée. `/classements/biodiversite` reste abandonné.
 
 #### Point d'étape 2026-08-27 — les sous-pages parlaient encore d'une composante qui est arrivée
 

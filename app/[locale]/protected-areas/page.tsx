@@ -195,9 +195,12 @@ export default function EnProtectedAreasPage() {
         </p>
         <p className="mt-3 text-sm text-[var(--text-secondary)] max-w-3xl leading-relaxed">
           Of the three components behind our biodiversity indicator, this is the only one that
-          ranks honestly from one city to the next. A biotope order exists whether or not a
-          naturalist ever walks past; a species count mostly measures how many naturalists do —
-          which is why we withdrew our species-richness ranking in August 2026.
+          ranks honestly from one city to the next, and now the only one still carrying a score.
+          A biotope order exists whether or not a naturalist ever walks past; a species count
+          mostly measures how many naturalists do — which is why we withdrew our species-richness
+          ranking on 10 August 2026 — and the green-space figure, mapped on OpenStreetMap, counts
+          a park&apos;s whole polygon in each of the communes it touches, which cost it its own
+          rank on 31 August.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">

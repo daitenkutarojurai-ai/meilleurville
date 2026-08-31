@@ -2004,6 +2004,34 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
     lien de fiche n'est affiché. Pour le rebrancher un jour, la BD TOPO porte le code MNHN dans
     `identifiants_sources`.
 
+  - **État au 2026-08-31 — le rang d'espaces verts est retiré à son tour ; il ne reste qu'une note.**
+    Aucune collecte (les trois JSON sont pleins). La composante **espaces verts** publiait un /10 sur
+    529 villes depuis le 06/08 **sans avoir jamais été contrôlée** : elle ne tient pas. Le mécanisme
+    est dans le code de collecte, pas dans une statistique — `scripts/city-parks.mjs` interroge
+    Overpass en `(area.a)`, qui retourne tout élément **intersectant** la commune, et `out geom` rend
+    la géométrie **entière** : un parc à cheval est porté **en entier** au crédit de chaque commune
+    qu'il touche, puis divisé par la population de chacune. **45 polygones** sont enregistrés dans 2 à
+    4 communes du seed avec la même surface (bois de Vincennes 979,7 ha à Paris, Saint-Mandé,
+    Charenton-le-Pont et Vincennes ; Georges-Valbon 337,9 ha à Stains, Garges, La Courneuve et
+    Saint-Denis). Mesures sur les 529 notées : corrélation de rang **+0,86** avec la surface du **seul
+    plus grand polygone**, **26 des 53 villes du top 10 %** portant un polygone compté aussi ailleurs,
+    **27/53** en Île-de-France, **284/529** dont un seul polygone fait plus de la moitié de la surface.
+    Saint-Mandé (1 km²) sortait **10,0/10** avec les 980 ha d'un bois qui est à Paris.
+    ⚠️ **Retrait complet et pas correctif ciblé** : le défaut n'est *détectable* que si la commune
+    voisine est dans nos 540 — Rambouillet, Le Mans ou Dijon débordent pareil sur des communes absentes
+    du seed — donc nettoyer les 78 cas visibles aurait donné le barème pour réparé. Le remède est un
+    recrawl découpé sur la limite communale, pas un correctif d'affichage.
+    ⚠️ **F59 n'est pas touchée** : pour un répertoire de destinations, lister le bois de Vincennes à
+    Saint-Mandé est juste — c'est seulement comme **surface par habitant** que le polygone devient faux
+    (symétrie exacte du zéro OSM, vrai pour `/parcs`, faux ici). `/parcs` trie par **nombre** de parcs.
+    Livré : `GREEN_SPACE_RANKING_PUBLISHED = false`, motif `greenSpacePending: "incomparable"`
+    (⚠️ prioritaire **après** `"mapping"`, à l'inverse de la richesse : 11 communes n'ont aucun parc
+    nommé, donc rien à comparer, et le leur cacher serait faux), `greenSpaceCrossBorder()` pour que
+    chaque page nomme **son** parc partagé, et un `noScoreLabel` (« rang retiré ») parce que les cartes
+    de composante écrivaient **« non mesuré » au-dessus du chiffre mesuré**. **`overall` reste `null`
+    sur les 540 et une seule composante porte encore une note : les zones protégées.** Les effectifs
+    bruts des deux autres restent publiés, ils sont exacts — c'est le classement qui est retiré.
+
 - [ ] **F63 — Qualité de l'air : du modèle à la mesure** — la section existe
   (`/villes/[slug]/air` ×540 + EN `air-quality`) mais `lib/air-quality.ts` **calcule
   tout par heuristique** depuis le seed (population, département, `characterTags`),

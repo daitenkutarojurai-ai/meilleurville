@@ -22,6 +22,8 @@ import { scoreColor, scoreBg } from "@/lib/utils";
 import { cityAlternates } from "@/lib/i18n";
 import {
   biodiversityProfile,
+  greenSpacePerCapita,
+  greenSpaceCrossBorder,
   hasBiodiversityData,
   groupLabel,
   speciesName,
@@ -189,12 +191,18 @@ function ComponentBar({
   score,
   detail,
   missing,
+  noScoreLabel,
 }: {
   emoji: string;
   title: string;
   score: number | null;
   detail: string;
   missing?: string;
+  /** Ce qui s'affiche à la place du /10. « non mesuré » par défaut — faux pour
+   *  une composante dont la mesure existe et dont c'est le RANG qui a été
+   *  retiré (richesse le 10/08, espaces verts le 31/08) : la carte l'écrivait
+   *  au-dessus du chiffre mesuré, juste à côté. */
+  noScoreLabel?: string;
 }) {
   return (
     <div className="rounded-2xl glass border border-white/50 p-5 shadow-sm">
@@ -209,7 +217,7 @@ function ComponentBar({
           </div>
         ) : (
           <div className="text-xs text-[var(--text-tertiary)] uppercase tracking-wider">
-            non mesuré
+            {noScoreLabel ?? "non mesuré"}
           </div>
         )}
       </div>
@@ -282,6 +290,28 @@ export default async function BiodiversitePage({ params }: Props) {
           : `${nb(measuredAreas.weightedCoverage)} % du disque sous protection pondérée. Le rang sur 10 attend que davantage de villes soient ingérées.`
         : `Les périmètres réglementaires (réserves, parcs nationaux et régionaux, arrêtés de biotope, Natura 2000) ne sont pas encore intégrés pour cette commune. « Non mesuré » veut dire que nous ne savons pas — pas qu'il n'y en a aucun.`;
 
+  // Espaces verts : le chiffre brut reste affiché, le rang ne l'est plus (voir
+  // GREEN_SPACE_RANKING_PUBLISHED). La commune dit son propre cas quand il est
+  // visible dans la donnée — nommer le parc et les communes qui se le partagent
+  // vaut mieux qu'une phrase générale sur une limite de méthode.
+  const greenValue = greenSpacePerCapita(slug);
+  const crossBorder = greenSpaceCrossBorder(slug);
+  const listFr = (names: string[]) =>
+    names.length <= 1
+      ? (names[0] ?? "")
+      : `${names.slice(0, -1).join(", ")} et ${names[names.length - 1]}`;
+  const greenFloor = greenSpaceTruncated ? "Au moins " : "";
+  const greenMissing =
+    greenSpacePending === "incomparable" && greenValue != null
+      ? `${greenFloor}${greenValue.toLocaleString("fr-FR")} m² de parcs nommés par habitant — un chiffre exact pour ce qu'il est, mais qu'on ne classe plus. ` +
+        (crossBorder.length > 0
+          ? `Le relevé compte le polygone entier de chaque parc à cheval : « ${crossBorder[0].name} » (${nb(Math.round(crossBorder[0].areaM2 / 10000))} ha) est porté ici au crédit de la commune, et aussi à ${listFr(crossBorder[0].otherCities)}. `
+          : `Le relevé compte le polygone entier des parcs qui débordent sur les communes voisines, ce qui gonfle les petites communes bordant un grand parc. `) +
+        `Rang retiré le 31 août 2026.`
+      : greenSpacePending === "data"
+        ? "Le relevé OpenStreetMap n'a pas encore couvert cette commune."
+        : "OpenStreetMap ne référence aucun parc nommé pour cette commune, et c'est une lacune de la carte, pas un constat sur le terrain : une commune non cartographiée et une commune sans verdure y sont indiscernables. On ne publie donc pas de score plutôt qu'un zéro trompeur.";
+
   // Ce qui manque à l'agrégat, et la raison de chaque absence. Une composante
   // retirée parce que sa mesure ne mesurait pas ce qu'elle annonçait n'est pas
   // une composante en retard de collecte : les deux se disaient « manque
@@ -306,9 +336,11 @@ export default async function BiodiversitePage({ params }: Props) {
     );
   if (!greenSpace)
     missingComponents.push(
-      greenSpacePending === "mapping"
-        ? "les espaces verts, qu'OpenStreetMap ne cartographie pas ici"
-        : "les espaces verts, pas encore relevés pour cette commune",
+      greenSpacePending === "incomparable"
+        ? "les espaces verts, dont le rang a été retiré le 31 août 2026 parce qu'un parc à cheval est compté en entier dans chaque commune qu'il touche"
+        : greenSpacePending === "mapping"
+          ? "les espaces verts, qu'OpenStreetMap ne cartographie pas ici"
+          : "les espaces verts, pas encore relevés pour cette commune",
     );
 
   const groups = GROUP_ORDER.map((g) => ({ id: g, count: raw.groups[g] ?? 0 })).filter(
@@ -597,6 +629,7 @@ export default async function BiodiversitePage({ params }: Props) {
               emoji="🦋"
               title="Richesse d'espèces"
               score={richness?.score ?? null}
+              noScoreLabel={richnessPending === "incomparable" ? "rang retiré" : undefined}
               detail={`${speciesPhraseCap} espèces recensées, ramenées à un échantillon commun de ${raw.rarefiedN} observations. Source GBIF, rayon ${raw.radiusKm} km, depuis ${raw.yearFrom}.`}
               missing={
                 richnessPending === "incomparable"
@@ -619,6 +652,7 @@ export default async function BiodiversitePage({ params }: Props) {
               emoji="🌳"
               title="Espaces verts urbains"
               score={greenSpace?.score ?? null}
+              noScoreLabel={greenSpacePending === "incomparable" ? "rang retiré" : undefined}
               detail={
                 greenSpace
                   ? greenSpaceTruncated
@@ -626,11 +660,7 @@ export default async function BiodiversitePage({ params }: Props) {
                     : `${greenSpace.value.toLocaleString("fr-FR")} m² de parcs nommés par habitant. Relevé OpenStreetMap, complétude inégale d'une commune à l'autre.`
                   : ""
               }
-              missing={
-                greenSpacePending === "data"
-                  ? "Le relevé OpenStreetMap n'a pas encore couvert cette commune."
-                  : "OpenStreetMap ne référence aucun parc nommé pour cette commune, et c'est une lacune de la carte, pas un constat sur le terrain : une commune non cartographiée et une commune sans verdure y sont indiscernables. On ne publie donc pas de score plutôt qu'un zéro trompeur."
-              }
+              missing={greenMissing}
             />
           </div>
 
@@ -655,8 +685,8 @@ export default async function BiodiversitePage({ params }: Props) {
                   {" "}
                   Les zones protégées, elles, portent bien une note ci-dessus : un périmètre Natura
                   2000 existe indépendamment de qui vient l&apos;observer, donc c&apos;est la seule
-                  des trois qui échappe au biais d&apos;effort, et c&apos;est le chiffre comparable
-                  de cette page.
+                  des trois qui échappe au biais d&apos;effort, et le seul chiffre comparable de
+                  cette page.
                 </>
               ) : (
                 <>
@@ -965,25 +995,33 @@ export default async function BiodiversitePage({ params }: Props) {
                   <strong className="text-[var(--text-primary)]">
                     Comment lire la page en attendant.
                   </strong>{" "}
-                  Les deux autres composantes ne dépendent pas de qui vient observer : un périmètre
-                  protégé existe par arrêté, un parc est cartographié au sol.{" "}
+                  {/* Les espaces verts ont perdu leur rang le 31/08/2026 : un
+                      parc à cheval est compté en entier dans chaque commune
+                      qu'il touche, donc le barème classait la proximité d'un
+                      grand polygone. Une seule des trois composantes porte
+                      encore une note comparable, et la page doit le dire au
+                      lieu de laisser croire qu'il en reste deux. */}
+                  Une seule des trois composantes ne dépend ni de qui vient observer, ni de la
+                  façon dont nous découpons les surfaces : le périmètre protégé, qui existe par
+                  arrêté.{" "}
                   {protection ? (
                     <>
-                      Les zones protégées sont donc la mesure à lire ici : elles sont relevées sur
-                      les {CITIES_SEED.length} villes du site, à partir des mêmes tracés pour
-                      toutes, et c&apos;est la composante qui pèserait le plus lourd dans
-                      l&apos;agrégat le jour où la richesse redeviendrait comparable
-                      {greenSpace ? ". Les espaces verts portent une note eux aussi" : ""}.
+                      C&apos;est donc la mesure à lire ici : elle est relevée sur les{" "}
+                      {CITIES_SEED.length} villes du site, à partir des mêmes tracés pour toutes,
+                      et c&apos;est la composante qui pèserait le plus lourd dans l&apos;agrégat le
+                      jour où les deux autres redeviendraient comparables.
                     </>
                   ) : (
                     <>
-                      {greenSpace
-                        ? "C'est pourquoi les espaces verts portent une note ici,"
-                        : "C'est de ce côté que la mesure est solide,"}{" "}
-                      et pourquoi les zones protégées en porteront la plus lourde une fois relevées
-                      pour cette commune.
+                      C&apos;est de ce côté que la mesure est solide, et les zones protégées
+                      porteront le plus lourd une fois relevées pour cette commune.
                     </>
                   )}{" "}
+                  Les espaces verts, eux, ont perdu leur rang le 31 août 2026 : le relevé
+                  OpenStreetMap compte le polygone entier d&apos;un parc dans chacune des communes
+                  qu&apos;il touche, si bien que le barème classait la proximité d&apos;un grand
+                  parc plutôt que la surface verte par habitant. La surface relevée reste affichée
+                  telle quelle.{" "}
                   Pour les espèces, prenez les effectifs pour ce qu&apos;ils sont
                   — l&apos;état de la connaissance naturaliste autour {deVilleStr(city.name)}, qui est en soi
                   une information sur le territoire, pas un palmarès.

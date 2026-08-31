@@ -24,6 +24,14 @@
 // existent : pondérer deux composantes sur trois puis appeler ça un « score
 // biodiversité » serait un chiffre faux présenté comme complet.
 //
+// ⚠️ **Deux des trois barèmes sont retirés, et une seule note est publiée
+// aujourd'hui : les zones protégées.** La richesse le 2026-08-10 (elle classait
+// les programmes de saisie, `RICHNESS_RANKING_PUBLISHED`), les espaces verts le
+// 2026-08-31 (un parc à cheval est compté en entier dans chaque commune qu'il
+// touche, `GREEN_SPACE_RANKING_PUBLISHED`). Dans les deux cas les mesures brutes
+// restent affichées — elles sont exactes — et le remède est un recrawl, pas un
+// correctif d'affichage. `overall` reste donc `null` sur les 540 villes.
+//
 // ── Le biais d'effort d'observation ────────────────────────────────────────
 //
 // Le volume d'occurrences GBIF mesure d'abord combien de naturalistes saisissent
@@ -48,7 +56,13 @@
 // que les crédits Commons et l'ODbL des parcs.
 import RAW from "@/data/city-biodiversity.json";
 import PROTECTED_RAW from "@/data/city-protected-areas.json";
-import { cityParks, hasParksData, OSM_CREDIT, OSM_CREDIT_EN } from "@/lib/city-parks";
+import {
+  cityParks,
+  hasParksData,
+  PARKS_CRAWLED_SLUGS,
+  OSM_CREDIT,
+  OSM_CREDIT_EN,
+} from "@/lib/city-parks";
 import { cityPopulation } from "@/lib/city-population";
 import { CITIES_SEED } from "@/data/cities-seed";
 
@@ -604,6 +618,151 @@ export function greenSpacePerCapita(slug: string): number | null {
   return +(area / pop).toFixed(1);
 }
 
+/* ── espaces verts : polygones à cheval sur plusieurs communes ────────── */
+
+/**
+ * `osmId` → communes du seed auxquelles F59 rattache CE polygone.
+ *
+ * Une entrée à plusieurs communes n'est pas une curiosité : c'est la preuve,
+ * dans la donnée, que la surface d'un même parc est comptée **en entier**
+ * plusieurs fois. Voir `GREEN_SPACE_RANKING_PUBLISHED`.
+ */
+const PARK_CITIES: Map<string, string[]> = (() => {
+  const m = new Map<string, string[]>();
+  for (const slug of PARKS_CRAWLED_SLUGS)
+    for (const p of cityParks(slug)?.parks ?? []) {
+      const seen = m.get(p.osmId);
+      if (seen) seen.push(slug);
+      else m.set(p.osmId, [slug]);
+    }
+  return m;
+})();
+
+const CITY_NAME_BY_SLUG: Map<string, string> = new Map(
+  CITIES_SEED.map((c) => [c.slug, c.name]),
+);
+
+/** Un parc dont la surface entière est portée au crédit de plusieurs communes. */
+export interface CrossBorderPark {
+  osmId: string;
+  name: string;
+  areaM2: number;
+  /** Part de la surface d'espaces verts de CETTE commune que ce seul polygone
+   *  représente, 0–1. */
+  share: number;
+  /** Les autres communes du seed auxquelles le même polygone est compté, en
+   *  entier lui aussi. Noms d'affichage, pas slugs. */
+  otherCities: string[];
+}
+
+/**
+ * Parcs de la commune qu'OSM rattache aussi à une autre commune du seed, du
+ * plus grand au plus petit. Liste vide quand il n'y en a pas — ce qui ne prouve
+ * pas l'absence du défaut, seulement que le voisin concerné n'est pas dans nos
+ * 540 villes (cf. `GREEN_SPACE_RANKING_PUBLISHED`).
+ */
+export function greenSpaceCrossBorder(slug: string): CrossBorderPark[] {
+  const parks = cityParks(slug)?.parks ?? [];
+  const total = parks.reduce((s, p) => s + (p.areaM2 || 0), 0);
+  return parks
+    .map((p) => ({ park: p, cities: PARK_CITIES.get(p.osmId) ?? [slug] }))
+    .filter(({ cities }) => cities.length > 1)
+    .map(({ park, cities }) => ({
+      osmId: park.osmId,
+      name: park.name,
+      areaM2: park.areaM2,
+      share: total > 0 ? park.areaM2 / total : 0,
+      otherCities: cities
+        .filter((s) => s !== slug)
+        .map((s) => CITY_NAME_BY_SLUG.get(s) ?? s),
+    }))
+    .sort((a, b) => b.areaM2 - a.areaM2);
+}
+
+/** Part de la surface d'espaces verts de la commune qui vient de polygones
+ *  comptés aussi ailleurs, 0–1. `0` quand rien n'est détecté. */
+export function greenSpaceCrossBorderShare(slug: string): number {
+  return greenSpaceCrossBorder(slug).reduce((s, p) => s + p.share, 0);
+}
+
+/** Communes portant au moins un polygone compté aussi ailleurs. */
+export const GREEN_SPACE_CROSS_BORDER_COUNT = CITIES_SEED.filter(
+  (c) => greenSpaceCrossBorder(c.slug).length > 0,
+).length;
+
+/** Polygones distincts comptés dans plusieurs communes du seed. */
+export const GREEN_SPACE_CROSS_BORDER_PARK_COUNT = [...PARK_CITIES.values()].filter(
+  (cities) => cities.length > 1,
+).length;
+
+/**
+ * Le rang d'espaces verts est-il publiable ? **Non — retiré le 2026-08-31**,
+ * pour la même raison que `RICHNESS_RANKING_PUBLISHED` et par la même méthode :
+ * on a contrôlé la mesure sur le corpus complet, et elle ne mesure pas ce que
+ * son nom annonce.
+ *
+ * ── Le mécanisme, lisible dans le code de collecte ─────────────────────
+ *
+ * `scripts/city-parks.mjs` interroge Overpass en `way["leisure"="park"](area.a)`
+ * sur l'aire administrative de la commune. Un filtre d'aire Overpass retourne
+ * tout élément qui **intersecte** l'aire, et `out geom` en rend la géométrie
+ * **entière** : la surface calculée au shoelace est celle du polygone complet,
+ * jamais de sa part communale. Un parc à cheval est donc porté en entier au
+ * crédit de chaque commune qu'il touche — puis divisé par la population de
+ * chacune.
+ *
+ * Ce n'est pas une hypothèse : 45 polygones sont comptés dans 2 à 4 communes du
+ * seed, 11 d'entre eux au-dessus de 100 ha, et la surface enregistrée est
+ * identique d'une commune à l'autre (bois de Vincennes, 979,7 ha, compté tel
+ * quel à Paris, Saint-Mandé, Charenton-le-Pont et Vincennes ; bois de Boulogne,
+ * 805,7 ha, à Paris, Neuilly et Boulogne-Billancourt ; parc Georges-Valbon,
+ * 337,9 ha, à Stains, Garges-lès-Gonesse, La Courneuve et Saint-Denis).
+ *
+ * ── Ce que ça faisait au barème (529 villes notées) ────────────────────
+ *
+ * | contrôle | valeur |
+ * |---|---|
+ * | corrélation de rang score ↔ surface du **seul plus grand polygone** | **+0,86** |
+ * | villes du top 10 % dont ce polygone est compté aussi dans une autre commune | **26 / 53** |
+ * | villes du top 10 % situées en Île-de-France | **27 / 53** |
+ * | villes dont un seul polygone fait plus de la moitié de la « surface verte » | **284 / 529** (médiane 52 %) |
+ *
+ * 47 des 56 villes notées ≥ 9,0 doivent leur place à un polygone de plus de
+ * 50 ha, alors que 76 villes seulement en portent un. Saint-Mandé (1 km²,
+ * 21 223 hab.) sortait **10,0/10** avec 462 m²/hab, c'est-à-dire les 980 ha du
+ * bois de Vincennes — qui est à Paris — divisés par sa propre population ;
+ * Charenton-le-Pont et Vincennes de même, Stains 9,8/10 avec un parc de
+ * La Courneuve. Le rang classait la proximité d'un grand polygone, pas la
+ * surface verte par habitant qu'il annonçait.
+ *
+ * ── Pourquoi un retrait, et pas un correctif ciblé ─────────────────────
+ *
+ * Le défaut n'est **détectable** que lorsque la commune voisine est elle-même
+ * dans nos 540 : le domaine de Rambouillet, l'Arche de la Nature du Mans ou la
+ * Combe à la Serpent de Dijon débordent tout autant sur des communes absentes du
+ * seed, sans qu'aucune ligne du JSON ne le montre. Retirer les 78 cas visibles
+ * aurait nettoyé la moitié dense du corpus et laissé l'autre intacte, en donnant
+ * le barème pour réparé. Et rien dans la donnée ne dit à quelle commune revient
+ * quelle part : réaffecter au plus proche centroïde attribue le bois de
+ * Vincennes à Charenton, pas à Paris.
+ *
+ * Le remède est donc côté pipeline, comme pour la richesse : découper les
+ * anneaux sur la limite communale (ou n'accepter que les polygones dont le
+ * centroïde y tombe) dans `scripts/city-parks.mjs`, donc un `queryVersion`
+ * neuf et un recrawl, pas un correctif d'affichage.
+ *
+ * ⚠️ **F59 n'est pas touchée.** Pour un répertoire de destinations, lister le
+ * bois de Vincennes à Saint-Mandé est juste : on y va à pied. C'est seulement
+ * comme **surface verte par habitant** que le même polygone devient faux — la
+ * symétrie exacte du zéro OSM, vrai pour `/parcs`, faux ici.
+ *
+ * Les chiffres bruts restent publiés : nombre de parcs, surface relevée,
+ * m²/hab. Ils sont exacts pour ce qu'ils sont — la surface des parcs
+ * qu'OpenStreetMap rattache à la commune, débordements compris. C'est le
+ * **classement** qui est retiré, pas la donnée.
+ */
+export const GREEN_SPACE_RANKING_PUBLISHED = false;
+
 /* ── barèmes calibrés au chargement ───────────────────────────────────── */
 
 const MEASURABLE_SLUGS = BIODIVERSITY_CRAWLED_SLUGS.filter((s) => isMeasurable(DATA[s]));
@@ -716,8 +875,10 @@ export interface BiodiversityProfile {
    *  pas de score (voir `greenSpacePerCapita`). `"data"` : F59 n'a pas encore
    *  crawlé la commune (aucune aujourd'hui, 540/540 — mais une ville ajoutée au
    *  seed avant son crawl passerait par là, et les deux ne se racontent pas
-   *  pareil). `null` : un score est publié. */
-  greenSpacePending: "mapping" | "data" | null;
+   *  pareil). `"incomparable"` : la commune a bien une surface relevée, mais le
+   *  barème est retiré — raison actuelle des 529 villes qui portent un chiffre,
+   *  voir `GREEN_SPACE_RANKING_PUBLISHED`. `null` : un score est publié. */
+  greenSpacePending: "incomparable" | "mapping" | "data" | null;
   /** La surface additionnée est-elle plafonnée par F59 (40 parcs max) ? Si oui,
    *  `greenSpace.value` est un minorant et la surface doit l'afficher comme tel. */
   greenSpaceTruncated: boolean;
@@ -768,13 +929,23 @@ export function biodiversityProfile(slug: string): BiodiversityProfile | null {
       : null;
 
   const green = greenSpacePerCapita(slug);
+  // L'ordre est l'inverse de celui de la richesse, et c'est voulu : là-bas la
+  // mesure existait dans tous les cas, donc la raison de barème passait devant.
+  // Ici 11 communes n'ont aucun parc nommé, donc aucune surface à montrer — leur
+  // dire « le barème est retiré » masquerait qu'il n'y a rien à comparer.
+  // « incomparable » ne concerne que les villes qui portent bien un chiffre.
+  const greenSpacePending: BiodiversityProfile["greenSpacePending"] =
+    green == null
+      ? hasParksData(slug)
+        ? "mapping"
+        : "data"
+      : !GREEN_SPACE_RANKING_PUBLISHED
+        ? "incomparable"
+        : null;
   const greenSpace: Component | null =
-    green == null ? null : { value: green, ...greenScale(green) };
-  const greenSpacePending: BiodiversityProfile["greenSpacePending"] = greenSpace
-    ? null
-    : hasParksData(slug)
-      ? "mapping"
-      : "data";
+    green != null && greenSpacePending === null
+      ? { value: green, ...greenScale(green) }
+      : null;
 
   const protectedAreas = cityProtectedAreas(slug);
   const protection = protectionComponent(slug);

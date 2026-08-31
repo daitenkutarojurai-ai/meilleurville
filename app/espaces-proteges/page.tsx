@@ -197,10 +197,13 @@ export default function EspacesProtegesPage() {
         </p>
         <p className="mt-3 text-sm text-[var(--text-secondary)] max-w-3xl leading-relaxed">
           C&apos;est la seule des trois composantes de notre indicateur biodiversité qui se
-          classe honnêtement d&apos;une ville à l&apos;autre : un arrêté de biotope existe
-          qu&apos;un naturaliste passe par là ou non, alors que le nombre d&apos;espèces
-          recensées mesure d&apos;abord la densité d&apos;observateurs — raison pour laquelle
-          notre rang de richesse a été retiré en août 2026.
+          classe honnêtement d&apos;une ville à l&apos;autre, et c&apos;est désormais la seule
+          qui porte encore une note : un arrêté de biotope existe qu&apos;un naturaliste passe
+          par là ou non, alors que le nombre d&apos;espèces recensées mesure d&apos;abord la
+          densité d&apos;observateurs — d&apos;où le retrait de notre rang de richesse le 10 août
+          2026 — et que la surface d&apos;espaces verts, relevée sur OpenStreetMap, compte le
+          polygone entier d&apos;un parc dans chacune des communes qu&apos;il touche, ce qui lui
+          a coûté son rang le 31 août.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
