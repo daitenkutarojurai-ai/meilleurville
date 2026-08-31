@@ -1,6 +1,6 @@
 // F19 — Pages "Pour qui" thématiques.
 //
-// 34 profils éditoriaux (compte mesuré 2026-08-17), chacun = recombinaison
+// 35 profils éditoriaux (compte mesuré 2026-08-31), chacun = recombinaison
 // pondérée des axes seed + owner-scores. Top 20 villes par profil +
 // intro/méthodo personnalisée. Aucune nouvelle donnée : pure recombinaison.
 //
@@ -26,7 +26,8 @@
 //
 // Rappel de direction pour le reste : les axes seed, `sportLeisure`,
 // `cyclingMobility`, `investorYield`, `coastalProximity`, `mountainProximity`,
-// `metroAccess` et les owner scores sont déjà orientés `10 = bon`.
+// `metroAccess`, `borderAccess` et les owner scores sont déjà orientés
+// `10 = bon`.
 
 import type { CitySeed } from "@/data/cities-seed";
 import type { CityLight } from "@/lib/cities-light";
@@ -75,6 +76,7 @@ type ScoreWeights = Partial<{
   coastalProximity: number;
   mountainProximity: number;
   metroAccess: number;
+  borderAccess: number;
 }>;
 
 export interface ProfileDef {
@@ -274,6 +276,88 @@ export function metroAccess(city: CityLight): number {
   return Math.max(0, Math.min(10, 10 - ((commute.minutes - 30) / 120) * 10));
 }
 
+// Pôles d'emploi transfrontaliers, coordonnées en dur pour la même raison que
+// `EMPLOYMENT_HUBS` ci-dessus : ce module part dans un bundle client.
+//
+// La liste n'est pas « toutes les villes derrière la frontière ». Elle suit les
+// flux réellement mesurés par l'Insee (recensement 2021, 465 000 résidents de
+// France métropolitaine travaillant dans un des huit pays limitrophes) :
+// Suisse 224 000, Luxembourg 105 000, Allemagne 50 000, Belgique 46 000,
+// Monaco 33 000. L'Espagne et l'Italie pèsent environ 5 000 chacune, soit un
+// ordre de grandeur en dessous du plus petit pôle retenu : Irun et Vintimille
+// sont donc volontairement absents, et Hendaye ou Menton-côté-italien valent
+// zéro sur cet axe. C'est un arbitrage, pas un oubli — l'ajouter mettrait une
+// commune de 16 000 habitants en haut d'un classement qui parle d'un flux
+// quarante fois plus petit que celui de Genève.
+const BORDER_HUBS: Array<{ name: string; country: string; lat: number; lon: number }> = [
+  { name: "Genève", country: "Suisse", lat: 46.2044, lon: 6.1432 },
+  { name: "Lausanne", country: "Suisse", lat: 46.5197, lon: 6.6323 },
+  { name: "Neuchâtel", country: "Suisse", lat: 46.993, lon: 6.931 },
+  { name: "Bâle", country: "Suisse", lat: 47.5596, lon: 7.5886 },
+  { name: "Luxembourg", country: "Luxembourg", lat: 49.6116, lon: 6.1319 },
+  { name: "Esch-sur-Alzette", country: "Luxembourg", lat: 49.4958, lon: 5.9806 },
+  { name: "Monaco", country: "Monaco", lat: 43.7384, lon: 7.4246 },
+  { name: "Sarrebruck", country: "Allemagne", lat: 49.2402, lon: 6.9969 },
+  { name: "Karlsruhe", country: "Allemagne", lat: 49.0069, lon: 8.4037 },
+  { name: "Offenbourg", country: "Allemagne", lat: 48.4711, lon: 7.9448 },
+  { name: "Fribourg-en-Brisgau", country: "Allemagne", lat: 47.999, lon: 7.8421 },
+  { name: "Mouscron", country: "Belgique", lat: 50.7333, lon: 3.2167 },
+  { name: "Tournai", country: "Belgique", lat: 50.6056, lon: 3.3883 },
+  { name: "Mons", country: "Belgique", lat: 50.4542, lon: 3.9564 },
+];
+
+// Facteur de détour appliqué à la distance à vol d'oiseau, pour approcher des
+// kilomètres de route. Volontairement plus bas que le 1,25 → route de
+// `metroAccessCommute` converti en minutes : ici on ne publie pas de temps de
+// trajet. Un franchissement de frontière est le cas où un modèle horaire ment
+// le plus — la douane de Bardonnex, le pont de Huningue et la Basse Corniche
+// se mesurent en files d'attente, pas en kilomètres.
+const BORDER_DETOUR = 1.3;
+const BORDER_FULL_KM = 20;
+const BORDER_ZERO_KM = 110;
+
+const borderCache = new Map<string, { hub: string; country: string; km: number } | null>();
+
+/**
+ * Pôle transfrontalier le plus proche et distance routière estimée, ou `null`
+ * au-delà de 110 km — la limite au-delà de laquelle aucun de ces bassins n'est
+ * un lieu de travail quotidien. Corse et DROM tombent dans ce cas par
+ * construction : c'est une mesure, pas une donnée manquante.
+ */
+export function borderCommute(city: CityLight): { hub: string; country: string; km: number } | null {
+  const cached = borderCache.get(city.slug);
+  if (cached !== undefined) return cached;
+  let best: { hub: string; country: string; km: number } | null = null;
+  for (const h of BORDER_HUBS) {
+    const km = Math.round(
+      haversineKm({ lat: city.latitude, lon: city.longitude }, { lat: h.lat, lon: h.lon }) * BORDER_DETOUR,
+    );
+    if (!best || km < best.km) best = { hub: h.name, country: h.country, km };
+  }
+  const value = best && best.km <= BORDER_ZERO_KM ? best : null;
+  borderCache.set(city.slug, value);
+  return value;
+}
+
+/**
+ * Accès à un bassin d'emploi transfrontalier, sur 0-10. Barème calé sur ce
+ * qu'un aller-retour quotidien supporte vraiment : 20 km ou moins = 10 (on
+ * passe la frontière comme on change de quartier — Saint-Louis et Bâle, Forbach
+ * et Sarrebruck, Longwy et Esch), puis décroissance en puissance 1,4, donc plus
+ * sévère qu'une droite au milieu de la fourchette, et zéro à 110 km. La
+ * pénalité accélérée est volontaire : entre 40 et 70 km, le trajet cesse d'être
+ * une navette et devient un choix de vie, et la statistique le dit — l'Insee
+ * relève qu'un frontalier sur cinq parcourt plus de 50 km, donc quatre sur cinq
+ * restent en deçà.
+ */
+export function borderAccess(city: CityLight): number {
+  const commute = borderCommute(city);
+  if (!commute) return 0;
+  if (commute.km <= BORDER_FULL_KM) return 10;
+  const raw = 1 - (commute.km - BORDER_FULL_KM) / (BORDER_ZERO_KM - BORDER_FULL_KM);
+  return Math.max(0, Math.min(10, Math.pow(raw, 1.4) * 10));
+}
+
 function getScoreValue(city: CityLight, key: string): number {
   // Axes seed
   if (["life", "transport", "nature", "cost", "safety", "culture", "remoteWork", "schools"].includes(key)) {
@@ -290,6 +374,7 @@ function getScoreValue(city: CityLight, key: string): number {
   if (key === "coastalProximity") return coastalProximity(city);
   if (key === "mountainProximity") return mountainProximity(city);
   if (key === "metroAccess") return metroAccess(city);
+  if (key === "borderAccess") return borderAccess(city);
   return ownerVal(city, key);
 }
 
@@ -889,6 +974,29 @@ export const PROFILE_PAGES: ProfileDef[] = [
     },
     reasonHint: (c) =>
       `Accès aux soins ${(10 - computeHealthcareAccess(c).composite).toFixed(1)} · transport ${c.scores.transport.toFixed(1)} · coût ${c.scores.cost.toFixed(1)}`,
+  },
+  {
+    slug: "travailleurs-frontaliers",
+    emoji: "🛂",
+    label: "Travailleurs frontaliers",
+    metaTitle: "Meilleures villes travailleurs frontaliers 2026 — Top 20",
+    metaDescription:
+      "Top 20 des villes où habiter quand on travaille en Suisse, au Luxembourg, en Allemagne, en Belgique ou à Monaco : distance au pôle, loyer, transports, fibre.",
+    intro:
+      "Travailleurs frontaliers : on dort en France, on est payé de l'autre côté, et le loyer qu'on paie a déjà été fixé par les voisins qui font la même chose. Ils étaient 465 000 en 2021 à résider en France métropolitaine et à travailler dans l'un des huit pays limitrophes, selon le recensement de l'Insee. La Suisse en absorbe près de la moitié avec 224 000 personnes, le Luxembourg près d'un quart avec 105 000, l'Allemagne 50 000, la Belgique 46 000, Monaco 33 000 ; l'Espagne et l'Italie tournent autour de 5 000 chacune. Ce profil ne recoupe aucun des trente-quatre autres. « Actifs en hybride » vise un pôle d'emploi français et deux à trois allers-retours par semaine ; ici on y va cinq jours, et la frontière change le régime fiscal, la caisse maladie et le bulletin de paie. « Expatriés de retour » traite du retour définitif, pas d'une vie quotidienne à cheval sur deux pays. Et « télétravailleurs salariés » ignore la distance par construction, alors qu'elle est ici le premier des critères. Le critère cardinal est donc l'accès à un bassin d'emploi transfrontalier, mesuré vers quatorze pôles répartis sur cinq pays : Genève, Lausanne, Neuchâtel et Bâle côté suisse, Luxembourg-Ville et Esch-sur-Alzette côté luxembourgeois, Sarrebruck, Karlsruhe, Offenbourg et Fribourg-en-Brisgau côté allemand, Mouscron, Tournai et Mons côté belge, plus Monaco. L'Espagne et l'Italie en sont volontairement absentes : à cinq mille personnes, le flux y est un ordre de grandeur en dessous du plus petit pôle retenu, et faire entrer Irun mettrait Hendaye en haut d'un classement qui parle d'autre chose. Hendaye vaut donc zéro sur cet axe, comme la Corse et les DROM, et c'est une mesure, pas une donnée manquante. Le barème publie des kilomètres, pas des minutes, et c'est une décision. Un franchissement de frontière est précisément le cas où un modèle horaire ment le plus : la douane de Bardonnex, le pont de Huningue et la Basse Corniche se mesurent en files d'attente, pas en vitesse moyenne. On garde donc la distance à vol d'oiseau majorée d'un facteur de détour routier, avec un plein score jusqu'à vingt kilomètres, une décroissance accélérée ensuite et zéro à cent dix. La sévérité du milieu de fourchette est voulue : entre quarante et soixante-dix kilomètres, le trajet cesse d'être une navette pour devenir un choix de vie, et l'Insee relève qu'un frontalier sur cinq parcourt plus de cinquante kilomètres, donc que quatre sur cinq restent en deçà. Le coût vient juste derrière, et il porte le vrai sujet de cette page. Viennent ensuite les transports, parce que passer la frontière en tram ou en TER plutôt qu'en deuxième voiture change le budget autant que le loyer ; la qualité de vie, puisque c'est le côté français qu'on habite le soir ; puis la fibre et l'aptitude au télétravail, qui ne sont plus un confort mais un paramètre fiscal depuis que les accords chiffrent les jours passés à la maison ; et une marge pour la sécurité et la nature. Résultat en tête : Gex, à vingt et un kilomètres de Genève, devance Strasbourg, Annemasse, Lille, Menton et Longwy. Mais le classement se lit moins par son ordre que par sa ligne de fracture. Onze villes du site sont à vingt kilomètres ou moins d'un pôle étranger, et elles se répartissent en deux familles que tout oppose sur le loyer. La frontière chère, celle des bassins genevois, lémanique et monégasque : Nice à 1 500 € le T3, Menton à 1 450 €, Annemasse à 1 350 €, Évian-les-Bains à 1 250 €, avec le mètre carré à 5 200 € à Nice comme à Menton et 4 800 € à Annemasse. La frontière bon marché, celle du Nord, de la Moselle-Est et du pays-haut lorrain : Forbach à 670 €, Sarreguemines à 690 €, Roubaix à 700 €, Wattrelos à 730 €, Tourcoing à 740 €, Longwy à 910 €, Saint-Louis à 1 010 €. Du simple au double sur le loyer, et de 1 200 € à 4 800 € le mètre carré entre Forbach et Annemasse, pour le même privilège de passer la frontière en un quart d'heure. La géographie du salaire étranger n'est donc pas la géographie du prix français : les bassins genevois et monégasque ont déjà capitalisé le différentiel dans la pierre, les bassins sarrois, lorrain et du Nord ne l'ont pas fait. Reste à dire pourquoi, et le site le mesure sans le commenter : Forbach affiche 4,7 sur 10 de qualité de vie, Longwy 5,9, quand Obernai monte à 9,0 et Annecy à 9,0. Le charbon a quitté la Moselle-Est par étapes, les puits de Petite-Rosselle fermant entre 1962 et 2001, et la dernière mine française, La Houve à Creutzwald, s'est arrêtée le 23 avril 2004. Le loyer bas de cette frontière-là est le prix d'un demi-siècle de désindustrialisation, et le salaire allemand ou luxembourgeois est ce qui la repeuple. Trois limites franches, à garder en tête avant de faire un carton. La première tient au modèle : à distance égale, une vallée alpine, un col du Jura et la plaine d'Alsace ne se franchissent pas au même rythme, et le calcul les traite pareil. La deuxième est la conséquence directe de la première, et Saint-Paul-de-Vence, vingtième, en est l'exemple le plus net : trente-deux kilomètres de Monaco à vol d'oiseau, mais une commune de 3 600 habitants où le T3 se loue 1 780 € et le mètre carré s'achète 7 000 €, reliée par une route littorale saturée. La troisième est un partage de rangs : cinq villes sortent à 6,5 pour trois places, Mulhouse, Thonon-les-Bains et Saint-Paul-de-Vence entrant dans le top 20 quand Lingolsheim et Bischheim, à la même note, s'arrêtent juste derrière ; entre elles, l'ordre n'est pas un départage. Enfin, ce que ce classement ne décide pas, et qui décidera pourtant de votre feuille de paie : le régime fiscal et social ne se choisit pas commune par commune, il dépend du pays et parfois du canton. Côté suisse, l'accord de 1983 couvre Berne, Soleure, Bâle-Ville, Bâle-Campagne, Vaud, Valais, Neuchâtel et le Jura, et impose le frontalier en France, la France reversant aux cantons 4,5 % de la masse salariale. Genève relève d'un accord distinct de 1973 et impose à la source, en reversant 3,5 % des salaires bruts à l'Ain et à la Haute-Savoie. Autrement dit, Gex et Annemasse ne sont pas dans le même régime que Saint-Louis, alors que les trois figurent dans ce top 20. Sur le télétravail, l'avenant franco-suisse signé le 27 juin 2023 est entré en vigueur le 24 juillet 2025 et s'applique depuis le 1er janvier 2026 : jusqu'à 40 % du temps de travail annuel depuis la France sans changement de l'État d'imposition, dont au plus dix jours de missions temporaires, avec un échange automatique de données salariales entre les deux pays dont le premier envoi est attendu en 2027 sur l'année 2026. Côté luxembourgeois la règle n'est pas un pourcentage mais un compteur de jours : la convention tolère 34 jours par an travaillés hors du Grand-Duché, et au-delà le télétravail devient imposable en France dès le premier jour. Et le seuil social est encore un troisième nombre, indépendant des deux premiers : depuis le 1er juillet 2023, un accord-cadre européen permet, sur demande, de télétravailler jusqu'à 49,9 % de son temps en restant affilié à la sécurité sociale du pays de l'employeur. Confondre ces trois plafonds est l'erreur la plus coûteuse du dossier. Dernier point qui se joue en trois mois et pas trois ans : un frontalier en Suisse doit exercer son droit d'option entre la LAMal et l'assurance maladie française dans les trois mois qui suivent sa prise de poste, faute de quoi il bascule sur le régime suisse, et l'assurance privée française n'est plus une option depuis le 1er juin 2014. Le loyer se compare sur une page. Le reste se vérifie auprès du service des impôts, de la caisse concernée et du groupement transfrontalier de la zone visée, avant de signer quoi que ce soit.",
+    weights: {
+      borderAccess: 3.0,
+      cost: 2.0,
+      transport: 1.5,
+      life: 1.5,
+      teletravail: 1.0,
+      safety: 0.5,
+      nature: 0.5,
+    },
+    reasonHint: (c) => {
+      const b = borderCommute(c);
+      return `${b ? `${b.hub} à ${b.km} km` : "aucun pôle frontalier"} · coût ${c.scores.cost.toFixed(1)} · transports ${c.scores.transport.toFixed(1)}`;
+    },
   },
 ];
 

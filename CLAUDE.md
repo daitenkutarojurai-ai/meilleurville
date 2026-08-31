@@ -1218,7 +1218,7 @@ page mais aucune URL déclarée. Elle est désormais dérivée de `EXPAT_COUNTRI
 Un profil = une entrée de `PROFILE_PAGES` (slug, emoji, label, meta, intro, `weights`,
 `reasonHint`). Ajouter l'entrée suffit : `/pour-qui`, `/pour-qui/[profil]`, le sitemap et le bloc
 « parfait pour » de `lib/honest-reviews.ts` en dérivent tous les quatre. **Compteur mesuré
-(`grep -c '^    slug: "'`) : 34 profils** (2026-08-17).
+(`grep -c '^    slug: "'`) : 35 profils** (2026-08-31).
 ⚠️ **Avant d'ajouter un 35ᵉ profil, mesurer son bas de classement — `rankByProfile` trie sur le
 score *arrondi* au dixième**, donc un palier d'ex æquo est coupé en son milieu et les rangs
 qui suivent sont l'ordre d'insertion du seed, exactement le défaut que `lib/owner-rankings.ts`
@@ -1234,7 +1234,44 @@ un `npx tsx` de scratch qui imprime le nombre d'ex æquo à la note du 20ᵉ. Le
 jamais pondérées par un profil, si l'on cherche un cardinal neuf : `lib/city-income.ts` (Filosofi,
 533/540), `lib/property-prices.ts` (DVF, 499/507) et la structure d'âge réelle de
 `lib/city-population.ts` (538/540).
-Dernier ajouté : **`suivi-medical-regulier`**
+Dernier ajouté : **`travailleurs-frontaliers`** (2026-08-31) — le seul profil du fichier dont le
+critère cardinal pointe **hors de France**. Nouveau composite `borderAccess` / `borderCommute()` :
+distance routière estimée au plus proche de **14 pôles d'emploi transfrontaliers sur 5 pays**,
+plein score à 20 km, décroissance en puissance 1,4, zéro à 110 km — **89 villes sur 540** sont dans
+le champ, 11 à 20 km ou moins. Quatre points de méthode à ne pas défaire : ① la liste des pôles suit
+les **flux mesurés par l'Insee** (recensement 2021 : 465 000 frontaliers, Suisse 224 000,
+Luxembourg 105 000, Allemagne 50 000, Belgique 46 000, Monaco 33 000), donc **l'Espagne et l'Italie
+en sont absentes** — 5 000 chacune, un ordre de grandeur sous le plus petit pôle retenu ; ajouter
+Irun mettrait Hendaye en tête d'un classement qui parle d'autre chose, et son 0 est une mesure au
+même titre que celui de la Corse et des DROM ; ② le barème publie des **kilomètres, pas des
+minutes**, à l'inverse de `metroAccess` : un franchissement de frontière se mesure en files
+d'attente (Bardonnex, Huningue, Basse Corniche), et un modèle horaire y mentirait plus qu'ailleurs ;
+③ le facteur de détour est **1,3** et la décroissance est plus sévère qu'une droite au milieu de
+fourchette, calée sur le fait que l'Insee compte un frontalier sur cinq au-delà de 50 km ;
+④ à distance égale, une vallée alpine, un col du Jura et la plaine d'Alsace sont traités pareil, et
+Saint-Paul-de-Vence (20ᵉ, 32 km de Monaco, 3 600 hab., T3 1 780 €) est le cas où le modèle est le
+plus généreux — l'intro le dit. **Ex æquo mesurés avant écriture** (contrôle prescrit ci-dessus) :
+5 villes à 6,5 pour 3 places au rang 20, 1 seule au rang 10, très loin des 24 qui ont fait écarter
+le profil « horaires décalés ». Recouvrement maximal avec les 34 autres profils : **4/20**
+(`couple-sans-enfant`, `familles-avec-ados`, `amateurs-de-montagne`) — le classement est
+réellement neuf. Le résultat éditorial est la **ligne de fracture du loyer sur les 11 villes à
+10/10** : frontière chère au sud et au Léman (Nice T3 1 500 €, Menton 1 450 €, Annemasse 1 350 € et
+4 800 €/m²) contre frontière bon marché au nord et à l'est (Forbach 670 € et 1 200 €/m²,
+Sarreguemines 690 €, Roubaix 700 €, Tourcoing 740 €, Longwy 910 €) — du simple au double sur le
+loyer, du simple au quadruple sur le mètre carré, pour le même quart d'heure de trajet. Les règles
+fiscales et sociales citées dans l'intro sont **datées et vérifiées ce run**, à revérifier avant de
+les durcir : accord suisse de 1983 (8 cantons, imposition en France, 4,5 % de la masse salariale
+reversés) contre accord genevois de 1973 (imposition à la source, 3,5 % reversés à l'Ain et à la
+Haute-Savoie) ; avenant télétravail signé le 27/06/2023, **en vigueur le 24/07/2025 et applicable
+depuis le 01/01/2026**, 40 % du temps annuel dont 10 jours de missions, échange automatique de
+données salariales à partir de 2027 sur l'année 2026 ; **34 jours** par an hors du Grand-Duché côté
+Luxembourg (compteur de jours, pas un pourcentage) ; **49,9 %** de télétravail côté sécurité sociale
+depuis l'accord-cadre européen du 01/07/2023, un troisième plafond indépendant des deux premiers ;
+droit d'option LAMal / assurance maladie française à exercer sous **3 mois**, l'assurance privée
+française n'étant plus une option depuis le 01/06/2014. Aucun `descriptionEn` ni jumelle EN :
+`app/[locale]/for-who/[slug]` est une **sélection de 13 profils** (comme `EN_THEMES` pour les red
+flags), un profil FR sans jumelle est normal et ne demande pas de hreflang.
+Avant-dernier ajouté : **`suivi-medical-regulier`**
 (pathologie chronique imposant des rendez-vous réguliers) — le premier profil du fichier dont le
 critère cardinal est l'**accès aux soins**, alors que `lib/healthcare-access.ts` (F47) existait
 depuis longtemps sans qu'aucun des 33 profils ne le pondère, `proches-aidants` compris.
@@ -1252,7 +1289,7 @@ et l'effondrement de l'accès sont la même carte), et Paris, Marseille et Nice 
 `mobilite-reduite` (cardinal = transport PMR), `proches-aidants` (accompagne un tiers, cherche du
 calme) et `asthmatiques-allergiques` (cardinal = qualité de l'air) ; pendant positif du red flag
 `villes-desert-medical`, comme `cyclistes-urbains` l'est de `villes-anti-velo`.
-Avant-dernier ajouté : **`navetteurs-hybrides`**
+Ajouté avant lui : **`navetteurs-hybrides`**
 (actifs en hybride, 2-3 jours au bureau) — le seul profil du site où la *distance* à un bassin
 d'emploi est le critère cardinal, là où « télétravailleurs salariés » l'ignore complètement (quand
 on ne revient jamais, l'éloignement ne coûte rien) et où « sans voiture » et « cyclistes urbains »
