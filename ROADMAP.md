@@ -2482,6 +2482,62 @@ setup dans `CLAUDE.md`), pas une facilité.
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
 
+### Livré le 31/08 — `france-climate-2040-[région]` batch 1 (+8), une série FR de 15 guides qui n'avait qu'une jumelle nationale
+
+`npm run parity` en **code 0** en début et en fin de run (FR 219 · EN 166, 0 route FR sans jumelle) :
+pas de régression de routes, donc run de corpus. Compteurs mesurés avant/après : **FR 1 035, EN 787 →
+795**.
+
+**Le choix du run, et pourquoi il n'est pas le choix évident.** Deux candidats. ① `solo-travel-in-`,
+rouverte le 29/08 par un batch FR et laissée ouverte par le run du 30/08, à **29 FR / 22 EN**.
+② `climat-2040-*`, **15 guides FR** face à **un seul** guide EN, le panorama national
+`france-climate-change-outlook-expats-2026` — c'est-à-dire zéro couverture régionale. Le second l'a
+emporté : un écart de 7 dans une série déjà en miroir se rattrape n'importe quel jour, une série de
+15 sans aucune jumelle régionale est le plus gros trou de corpus qui restait, et son sujet est
+exactement ce que le lecteur EN cherche (il achète en France sur un horizon de dix à quinze ans, et
+personne ne lui dit ce que devient le bien qu'il vise). C'est l'arbitrage « matière réelle plutôt
+qu'inertie de liste » déjà posé pour la série tourisme. **⚠️ `solo-travel-in-` reste donc ouverte à
+29 FR / 22 EN, et c'est la tâche du prochain run** — deux runs consécutifs à la laisser de côté
+serait de la dérive, pas un arbitrage.
+
+**Les 8 livrés** : `france-climate-2040-` + `mediterranean-south` / `atlantic-coast` /
+`south-west-pyrenees` / `brittany` / `alps-savoie` / `normandy` / `paris-ile-de-france` /
+`rhone-valley`, tous en `category: "lifestyle"`, 6 sections chacun (la série FR en compte 6 à 7),
+`metaTitle` 22-48 caractères, `metaDesc` 146-155, **0 em-dash**. Restent sans jumelle EN les 7
+régions FR de la série : Massif central, Nord-Hauts-de-France, Grand Est, Centre-Val de Loire,
+Bourgogne-Franche-Comté-Jura, Corse et outre-mer — de quoi un batch 2 exactement.
+
+**Contrôle mécanique des chiffres, et ce qu'il a trouvé.** Chaque nombre du texte EN a été cherché
+dans sa jumelle FR après normalisation des séparateurs (l'espace fine française contre la virgule
+anglaise) : **189 figures distinctes, 187 retrouvées**. Les deux écarts étaient réels et ont été
+traités, pas justifiés après coup : ① `30 000` / `60 000` € dans le guide Normandie est l'expansion
+du `30 à 60 k€` du FR, un lecteur anglophone ne lisant pas `k€` — conservé ; ② le guide Paris
+opposait « 2040 » à « 2010 », un millésime purement rhétorique qu'aucune source ne portait, réécrit
+sans date. C'est le même contrôle qu'au batch 37 tourisme, et il attrape la même classe de défaut :
+un chiffre qui a l'air d'une mesure sans en être une.
+
+**Tags** : 108 → **114**, donc six pages `/tags/` neuves — `france-climate-2040` (8 guides),
+`climate` (2 → 10), `heatwave` (4), `sea-level-rise` (3), `drought` (3),
+`buying-property-in-france` (3). Les tags de région réutilisent l'existant (`provence`, `brittany`,
+`normandy`, `ile-de-france`, `pyrenees`, `atlantic coast`, `alps`, `savoie`, `paris`, `lyon`).
+`npm run sitemap:check` repassé à cause d'elles : **EN 28 673 → 28 687 URL** (8 guides + 6 tags),
+chaque URL déclarée a une page. `npm run search-index` relancé (`data/search-index.en.json`
+795 guides, 114 tags) — sans quoi `search-index:check` échoue.
+
+**Accents** : la convention du corpus EN a été mesurée avant d'écrire, pas supposée — les noms
+propres français gardent leurs diacritiques (`Chambéry` 144 occurrences contre 0 sans, `Rhône` 139
+contre 3, `Pyrénées-Orientales` 13 contre 0), à la seule exception de **`Pyrenees`**, exonyme
+anglais majoritaire (125 contre 51). Une passe de normalisation a été appliquée aux champs de prose
+uniquement, jamais aux `slug` ni aux `tags`, qui restent ASCII.
+
+**Contrôles de surface après écriture**, le même jeu qu'au batch 32 avait dû ajouter après coup :
+les 8 guides sont retrouvés par `getEnGuide()`, leurs 40 `relatedCities` existent tous dans
+`CITIES_SEED` (donc la recherche inverse les remonte sur les pages ville EN), et
+`suggestNextEnGuides()` rend des voisins non vides pour chacun. `npx tsc --noEmit` propre,
+`npm run integrity` vert (795 guides EN, 0 score brut recopié, aucun `openGraph` sans `images`).
+**`npm run build` n'a pas été lancé** — interdit depuis le batch 27 (4 h 30, `.next` à 25 Go,
+ENOSPC avant la finalisation, aucun signal utile) ; le substitut prescrit a été exécuté en entier.
+
 ### Livré le 30/08 — tourisme batch 37 EN (+7), la série refermée à 226/226
 
 `npm run parity` en **code 0** en début et en fin de run (FR 219 / EN 166, 0 route FR sans jumelle) :

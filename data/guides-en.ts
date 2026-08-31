@@ -32550,7 +32550,344 @@ export const EN_GUIDES: EnGuide[] = [
     ],
     relatedCities: ["sens", "auxerre", "troyes"],
     tags: ["things to do in sens", "sens", "travel", "city guide", "burgundy"],
-  },];
+  },
+  {
+    slug: "france-climate-2040-mediterranean-south-2026",
+    title: "France Climate 2040: the Mediterranean South",
+    metaTitle: "Climate 2040: Provence, the Riviera, Languedoc",
+    metaDesc:
+      "What Provence, the Riviera and Languedoc look like by 2040: 50 days above 30 C, water restrictions, a six-month fire season, and which towns hold up.",
+    category: "lifestyle",
+    emoji: "🥵",
+    readMinutes: 9,
+    publishedAt: "2026-08-31",
+    updatedAt: "2026-08-31",
+    intro:
+      "The Mediterranean south is the part of France most foreign buyers picture first, and it is also the part warming fastest. It has already gained 2.5 C since 1900 against a French average of 1.4 C, and the trajectory points at 4 to 5 C by 2100. For 2040 the numbers are no longer abstract, and they change the answer to a question most people ask too late: not whether the region is pleasant now, but whether the specific house is still liveable in fifteen years without a renovation you did not budget for. This is the regional detail behind our national climate outlook, written for someone deciding where in the south to actually buy.",
+    sections: [
+      {
+        heading: "What changes by 2040",
+        body: "Météo-France's ARPEGE projections are specific. Marseille moves from around a dozen days a year above 30 C on the 1981-2010 average to roughly fifty by 2040, five to ten of them above 35 C. Avignon and Carcassonne, both inland and without sea breeze, reach 60 or more such days. Tropical nights, meaning nights that never drop below 20 C, rise to 30-50 a year across the region and as many as 80 in Marseille, which matters more than the daytime peak because a house that does not cool overnight never recovers. Summer rainfall falls by 15 to 25 per cent, with restrictions becoming a permanent summer feature in the Var, the Bouches-du-Rhône, the Vaucluse and the Pyrénées-Orientales. The fire season stretches across six months, April to October, and burns around 30 per cent more ground.",
+      },
+      {
+        heading: "The most exposed towns",
+        body: "Marseille's problem is its urban heat island rather than its latitude. Districts like Belsunce and Saint-Charles run up to 5 C hotter than the shoreline during peaks. Water supply itself is secure thanks to the Canal de Provence, the network that carries water down from the Verdon, but the bill rises. Avignon, Carcassonne and Béziers are the textbook cases: inland, no sea breeze, heat that never evacuates. On the coast proper, Nice, Cannes and Antibes stay more temperate than the interior, but urban density and a sea level rising 15 to 25 cm by 2050 both press on the seafront. Perpignan and the Roussillon stack strong drought, recurring water restrictions and a dry tramontane wind that makes everything worse. None of these places becomes uninhabitable by 2040. All of them become places where the building matters more than the view.",
+      },
+      {
+        heading: "Towns that hold up better",
+        body: "Aix-en-Provence does better than its larger neighbour thanks to a modest altitude of about 170 m, real tree cover and moderate sprawl. In a heat peak it stays workable. Higher up, Manosque, Sisteron and Digne sit between 300 and 600 m and get a mountain breeze that makes the air genuinely more breathable than the plain. Gap, at 735 m, keeps a tempered continental climate and has long been where Provençaux go to escape. In the hinterland behind Nice, Carros, Vence and Saint-Paul-de-Vence offer the useful altitude in a milder register. The catch is consistent and worth stating plainly to anyone shopping from abroad: these are also places with strong tourist seasonality and scarce building land, so the combination of charm and climate resilience is priced accordingly.",
+      },
+      {
+        heading: "What to check before buying here in 2026-2030",
+        body: "First, insulation and cooling, and this one is not negotiable. A property rated E, F or G on the DPE, the energy performance certificate every French listing must display, will simply be unliveable in a southern summer by 2035. Aim for A to C, ideally with a reversible heat pump that both heats and cools. Second, orientation: avoid south-west facades with no overhang and no shutters, and prefer east, or a south facade properly equipped with external shutters or a loggia. Third, private green space. A garden or a shaded terrace is now air conditioning you do not pay to run, and a ground floor with a small garden will often beat a top floor facing south with nothing above it. Fourth, water: check where the commune draws its supply, from the Canal de Provence, the Verdon or elsewhere, and ask at the mairie, the town hall, for the history of local restrictions. Over a ten-year hold that record tells you more than any brochure.",
+      },
+      {
+        heading: "Who should think about somewhere else",
+        body: "This is the part that gets left out of relocation advice. For older people with chronic respiratory or cardiac conditions, extreme heat is dangerous in a way that builds quietly over days rather than announcing itself. For families with very young children in a home without cooling, several consecutive weeks each summer become genuinely hard. Severe asthmatics face rising ozone peaks and lengthening pollen seasons. And anyone renting or buying a poorly rated property with no budget left for insulation is better off anticipating than enduring. If the appeal is a mild south rather than the Mediterranean specifically, the Atlantic coast around Bayonne and La Rochelle, Brittany around Quimper and Vannes, or the Auvergne around Clermont-Ferrand all offer a real climate margin. Different light, and a very different set of trade-offs, but the margin is real.",
+      },
+      {
+        heading: "The honest calculation",
+        body: "Stay if you accept spending on adaptation, meaning cooling, insulation and outdoor space, if nobody in the household has a heat-sensitive health condition, and if the sea, the culture and the food still outweigh the rest. Leave, or never arrive, if the purchase leaves no adaptation budget, if health is fragile, or if there are very young children at home. Over the long run a property in the Mediterranean south will increasingly be valued on how adaptable it is rather than on how close it sits to a beach. Buying in 2026 with no cooling and no route to installing it is setting up a difficult resale around 2035, which is exactly the horizon most foreign buyers are actually working to even when they tell themselves otherwise.",
+      },
+    ],
+    relatedCities: ["marseille", "aix-en-provence", "avignon", "montpellier", "nice"],
+    tags: ["france climate 2040", "climate", "provence", "heatwave", "drought"],
+  },
+  {
+    slug: "france-climate-2040-atlantic-coast-2026",
+    title: "France Climate 2040: the Atlantic Coast",
+    metaTitle: "Climate 2040: the French Atlantic Coast",
+    metaDesc:
+      "Sea level, storms and coastal erosion on France's Atlantic coast by 2040: which stretches to avoid, which inland towns hold up, and what to check first.",
+    category: "lifestyle",
+    emoji: "🌊",
+    readMinutes: 9,
+    publishedAt: "2026-08-31",
+    updatedAt: "2026-08-31",
+    intro:
+      "The Atlantic coast is where a lot of climate-aware buyers end up after ruling out the Mediterranean, and on the whole they are right. The summers stay tempered, the water is there, the landscape holds. But the coast itself carries three pressures that converge by 2040: a sea rising 15 to 25 cm, winter storms gaining intensity, and erosion that on some stretches removes one to three metres of shoreline a year. The difference between a good Atlantic purchase and a bad one is rarely the town. It is the exact address, and how far above the water it sits.",
+    sections: [
+      {
+        heading: "What changes by 2040",
+        body: "Sea level rises 15 to 25 cm by 2050 and probably 30 to 60 cm by 2100, on IPCC and Cerema figures, Cerema being the French public body that maps coastal risk. The practical consequence is that the areas covered by a PPRL, the coastal risk prevention plan that constrains what can be built and rebuilt, keep expanding in the Charente-Maritime, the bay of Bourgneuf, the Cotentin and the Médoc. Erosion does its quieter work at 0.5 to 3 m a year on parts of the Aquitaine coast, at Lacanau, Soulac and Capbreton. Storms gain intensity. Rainfall redistributes: 5 to 10 per cent more in winter, around 10 per cent less in summer, which has already produced noticeable summer droughts in the Charente-Maritime, the Vendée and the Pays de la Loire.",
+      },
+      {
+        heading: "Stretches to avoid for a 2040-plus horizon",
+        body: "The Île de Ré and the Île d'Oléron are heavily exposed, properties in flood-prone zones are already losing value, and the PPRL steadily tightens what can be built. The bay of l'Aiguillon, Marennes-Oléron and the Médoc still carry the record of the 2010 Xynthia storm surge, which confirmed their vulnerability rather than revealing it. On the Aquitaine seafront, at Lacanau, Soulac, Capbreton and Hossegor, erosion is severe: the Le Signal apartment block at Soulac, evacuated and eventually demolished, is the case everyone in French coastal planning cites. In the Cotentin, whole sectors of the Manche and Calvados polders sit in flood-risk zones that need documenting before any purchase, not after. A British or American buyer will not be shown any of this by an agent, and none of it is hidden: it is public.",
+      },
+      {
+        heading: "Well-placed towns on the Atlantic",
+        body: "Bordeaux city centre sits 25 km from the estuary at 5 to 10 m of altitude, so exposure is minimal and its 2040 position is excellent. Nantes centre is protected by its estuary and its core is high enough. Rennes, inland in Brittany, has no direct sea exposure at all. Brest, Lorient and Vannes benefit from a rade or an estuary, a sheltered natural harbour, and hold up well as soon as you buy in their higher districts. Poitiers, Tours and Angers are inland, out of direct reach, and keep the oceanic climate without the coastal risk. La Rochelle keeps a well-protected historic centre behind its old fortifications, but there the PPRL needs reading street by street before signing anything, because the protection is not uniform across the commune.",
+      },
+      {
+        heading: "The good news on inland temperature",
+        body: "Unlike the Mediterranean, the Atlantic side stays temperate to 2040. Bordeaux runs at around 25 days a year above 30 C against roughly ten today, which is warm but a long way from the fifty-plus that Marseille reaches. Nantes, Rennes and Brest stay between 5 and 15 such days, a climate that remains comfortable without mechanical cooling in a well-built house. Rising winter rainfall recharges the water table, which is a genuine advantage over the south. The counterpart is violent rainfall, as Mediterranean-type storm episodes extend north, with a real risk of inland flooding in some Charente and Sèvre valleys. That risk is local rather than regional, which means it is checked commune by commune and not assumed away.",
+      },
+      {
+        heading: "What to check before buying, 2026-2030",
+        body: "Before any purchase in a coastal commune, read the PPRL. It is a public document, held at the mairie and visible on Géoportail, the national mapping portal. A house classed in a high storm-surge hazard zone will lose value by 2040, with no appeal. Aim for a minimum of 5 m NGF, the French altitude datum measured from mean sea level, anywhere within a kilometre of the shoreline. Keep at least 100 m of setback on the sandy Aquitaine coast and 50 m on Breton or Norman cliffs. Check the commune's flood history on Géorisques.gouv.fr, the free national risk database. And prefer old centres established two centuries or more, because erosion has already filtered them. The 1970s estates built on dunes were a reasonable idea at the time and are a poor bet now.",
+      },
+      {
+        heading: "The honest calculation",
+        body: "The Atlantic coast remains one of the better climate bets in France for 2040: mild, watered, ecologically intact. The single real risk is a badly placed purchase on the shoreline itself. In practice that means preferring Bordeaux, Nantes or Rennes, or the inland Atlantic towns, over direct seafront. If seafront is the point, look at Vannes, Brest centre, Quimper or Lorient, sheltered harbours rather than the open sandy Aquitaine. Check the PPRL, the altitude and the erosion setback in that order. And note that communes two to five kilometres inland are frequently both cheaper and safer, which is an unusual combination and the reason experienced buyers keep ending up there.",
+      },
+    ],
+    relatedCities: ["bordeaux", "nantes", "la-rochelle", "rennes", "brest"],
+    tags: ["france climate 2040", "climate", "atlantic coast", "sea level rise", "buying property in france"],
+  },
+  {
+    slug: "france-climate-2040-south-west-pyrenees-2026",
+    title: "France Climate 2040: the South-West and the Pyrenees",
+    metaTitle: "Climate 2040: South-West France and the Pyrenees",
+    metaDesc:
+      "Toulouse at 40 days above 30 C, Aquitaine drought, the Basque coast and the Pyrenees as a climate refuge: where to settle in south-west France by 2040.",
+    category: "lifestyle",
+    emoji: "🌞",
+    readMinutes: 10,
+    publishedAt: "2026-08-31",
+    updatedAt: "2026-08-31",
+    intro:
+      "The south-west is caught between two opposite movements. The Aquitaine basin is heating quickly, with Toulouse converging on a moderate Mediterranean profile, while the Pyrenees are becoming a climate refuge. The Basque coast and the Landes stay favoured by the ocean, but summer droughts are settling in behind them. For anyone shopping the Dordogne and the Gers on the strength of a photograph, this is the region where the gap between a hot valley and an altitude town becomes spectacular by 2040, and where that gap is not yet in the asking prices.",
+    sections: [
+      {
+        heading: "What changes by 2040",
+        body: "Expect 2 to 3 C of warming by 2040 against the 1981-2010 baseline, strongest inland at Toulouse, Albi and Tarbes and more moderate on the Basque coast. Toulouse moves to 40 days a year above 30 C against roughly fifteen today, with peaks of 38 to 40 C and frequent tropical nights. Bordeaux runs around 30 such days with peaks at 38 C. Pau and Tarbes stay near 25, but the Pyrenean foehn, a dry downslope wind, can push them briefly to 40 C. Bayonne and Biarritz, held by the ocean, stay between 12 and 15. On water, Aquitaine takes a 30 to 50 per cent increase in hydrological deficit, with summer restrictions now chronic in the Gers, the Lot-et-Garonne and the Dordogne. In the Pyrenees, snow cover collapses at resorts below 1800 m, at Hautacam, Gourette and Ax-les-Thermes among others, and the ski season shortens. In the vineyards, Bordeaux is in rapid transition, trialling southern grape varieties as Merlot shows visible stress.",
+      },
+      {
+        heading: "The Basque coast and the Landes",
+        body: "The BAB agglomeration, meaning Bayonne, Biarritz and Anglet, keeps a very mild oceanic climate, tempered summers and mild winters. The market is correspondingly tight, at roughly 4,500 to 7,000 euros per square metre with rising tourist pressure. Dax and Mont-de-Marsan, inland in the Landes, take a warmer climate at around 25 days a year above 30 C but come with accessible property and a spa economy that gives them year-round substance. The Landes coast at Hossegor, Capbreton and Mimizan keeps its oceanic climate, but coastal erosion there is documented rather than speculative. Saint-Jean-de-Luz and Hendaye keep their mildness and their strong appeal to retirees, and are saturated accordingly. None of this is a warning against the Basque coast. It is a warning that its climate advantage is already fully priced.",
+      },
+      {
+        heading: "The Pyrenees as a refuge in the making",
+        body: "Pau, at 205 m with the mountains in view, is a proper city with a mild oceanic-Pyrenean climate, accessible property, a TGV to Paris in about 4h30 and an airport. It is one of the better 2040 bets in France. Tarbes, at 330 m, sits right against the range with a temperate climate, very accessible property at around 1,500 euros per square metre and adequate services. Lourdes is temperate and affordable, with a pronounced religious seasonality that shapes the town. Bagnères-de-Bigorre, Saint-Lary and Cauterets are mountain towns between 600 and 1200 m, genuine climate refuges with limited services and a tourism-dominated economy. The Ariège valleys, at Foix, Ax-les-Thermes and Saint-Girons, keep a temperate mountain climate and low prices, with real isolation as the cost. In the Pyrénées-Orientales, Prades and Vernet-les-Bains offer altitude within reach of a hot Mediterranean, an unusual profile worth knowing about.",
+      },
+      {
+        heading: "The Aquitaine basin and Toulouse need adapting now",
+        body: "By 2040 Toulouse, Bordeaux, Agen, Albi and Montauban are effectively semi-Mediterranean cities: long hot summers, drought, water restrictions. The consequences are concrete. Cooling becomes necessary in a main residence and is expensive to run during peaks. A DPE rating of E to G will be unliveable in summer by 2030-2035, so either budget the renovation before you buy or do not buy. Private green space shifts into the premium bracket. In Toulouse the leafy residential districts of Montaudran, Borderouge and Lardenne gain ground on denser Compans-Caffarelli or Saint-Cyprien. In Bordeaux, Chartrons, Caudéran and Le Bouscat come out ahead of Saint-Michel or central La Bastide, which sit squarely in the urban heat island. These are not marginal differences by 2040; they are several degrees at the moment it matters.",
+      },
+      {
+        heading: "Where to be careful",
+        body: "The communes of the Lot-et-Garonne, the deep Gers and the dry Dordogne combine chronic drought, agriculture in transition and contracting services. The heritage is genuinely beautiful and the climate resilience is genuinely weak, and both things are true at once. This matters because these are precisely the areas foreign buyers, and British buyers in particular, have favoured for thirty years. The sandy Landes seafront at Soulac and Lacanau has confirmed erosion and properties under threat. The drier Bordeaux vineyards, the lower Médoc and exposed Entre-deux-Mers, carry land-value risk if the vines enter a structural climate crisis. The exposed Toulouse plains of the southern Lauragais combine foehn and drought. And the south-facing inner Pyrenean valleys of the lower Ariège take a marked foehn effect.",
+      },
+      {
+        heading: "The honest calculation",
+        body: "The 2040 winner in the south-west is the Pyrenean arc from Pau to Tarbes and the valleys behind them: a climate refuge with property still reasonably priced, adequate services and real accessibility. The Basque coast stays desirable and stays saturated. Toulouse and Bordeaux remain liveable with rigorous adaptation, but their old selling point of gentle south-western mildness is disappearing. The deep interior of the Gers, the Lot and the Périgord keeps its beauty and has weak climate resilience, which is a choice to make with open eyes rather than one to stumble into. For a long-horizon bet, Pau, Tarbes and the Aspe, Ossau and Aure valleys combine climate, price and quality of life without the tourist saturation. In 2026 that is probably the most interesting angle in the region.",
+      },
+    ],
+    relatedCities: ["toulouse", "bordeaux", "pau", "bayonne", "tarbes"],
+    tags: ["france climate 2040", "climate", "pyrenees", "heatwave", "drought"],
+  },
+  {
+    slug: "france-climate-2040-brittany-2026",
+    title: "France Climate 2040: Brittany",
+    metaTitle: "Climate 2040: Brittany",
+    metaDesc:
+      "Brittany is France's obvious climate bet for 2040, and not for the reason most people think. Summer drought, storms and where to buy, without the postcard.",
+    category: "lifestyle",
+    emoji: "🌧️",
+    readMinutes: 9,
+    publishedAt: "2026-08-31",
+    updatedAt: "2026-08-31",
+    intro:
+      "Brittany is routinely presented as France's climate winner: mild summers, few heatwaves, plenty of rain. That is partly true for 2040 and only partly. The oceanic climate is changing too, with harder summer droughts, more intense storms and erosion on specific stretches of coast. The reason to buy in Brittany is real, but it is not the reason usually given, and the thing that catches newcomers out is not heat. It is water.",
+    sections: [
+      {
+        heading: "What changes by 2040",
+        body: "Brittany warms 1.5 to 2.5 C by 2040 against the 1981-2010 baseline. Concretely, Rennes goes to around fifteen days a year above 30 C against five today. Brest and Quimper stay more modest, around five to seven days. There is no Mediterranean-style heatwave regime coming, and the region stays comfortable. The real change is summer drought: hydrological deficits of 30 to 50 per cent, with water restrictions more frequent inland, in the Morbihan and the south of the Ille-et-Vilaine. Annual rainfall stays broadly stable but redistributes, more in winter and less in summer. Winter storms gain intensity, with winds above 130 km/h becoming more frequent on the north coast. Sea level rises 15 to 25 cm by 2050, with moderate exposure on the south and north coasts and strong exposure on some low headlands.",
+      },
+      {
+        heading: "Well-positioned places for 2040",
+        body: "Rennes ticks nearly every box. It is inland, so no direct sea exposure, temperate, with a solid white-collar job market and the best rail links in the region at 1h25 to Paris. Vannes has a sheltered gulf, a very mild year-round climate, complete services and a square-metre price still accessible compared with the Atlantic coast further south. Lorient offers the same configuration: mild climate, a working port both military and civil, a sheltered harbour, reasonable property. Quimper runs a cool oceanic climate with little storm exposure and a high quality of life. Saint-Brieuc is on the north coast but its upper town stays temperate. Brest combines strong wind exposure and cool summers with full metropolitan services. And the inland market towns of the Morbihan and Ille-et-Vilaine, Pontivy, Loudéac, Fougères and Vitre, combine a sheltered climate with property at roughly 1,500 to 2,200 euros per square metre.",
+      },
+      {
+        heading: "Where to weigh things carefully",
+        body: "The wild coast of Finistère, around the Pointe du Raz and the Crozon peninsula, carries strong wind and storm exposure. The raw beauty is paid for in recurring repairs, and the fabric of any house there needs serious inspection for storm resistance and weathertightness. The Emerald Coast at Saint-Malo, Dinard and Cancale is exposed to sea-level rise over the long term, with some low-lying zones under a strict PPRL, the coastal risk prevention plan. Belle-Ile, Houat and Hoëdic stay attractive with limited services, boat dependency and storm exposure, which makes them a lifestyle decision as much as a purchase. Very rural inland Brittany, the Centre-Bretagne, the Monts d'Arrée and the deep Argoat, keeps an acceptable climate while medical and school desertification advances quickly. And some low districts of Brest and Lorient deserve a proper local flood check before any purchase.",
+      },
+      {
+        heading: "The real 2040 subject is water",
+        body: "This is the point almost everyone underestimates, and it is the opposite of what the region's reputation suggests. Brittany is intensively farmed, its soils are shallow, its water table recharges poorly, and it has neither an Alpine river nor a large reservoir to draw on. The summers of 2022 and 2023 already brought strict restrictions: no garden watering, no car washing, no filling pools. By 2040 summer restrictions are likely to become chronic from June to September, particularly inland in the Morbihan and southern Ille-et-Vilaine. The consequences are practical rather than dramatic. Vegetable gardens yield unevenly. A private pool becomes hard to justify. Washing a car or a facade falls under regulation. A thirsty garden has to be rethought, and Mediterranean planting, lavender, rosemary and gaura, adapts perfectly well to Breton conditions.",
+      },
+      {
+        heading: "What to check before buying, 2026-2030",
+        body: "On the coast, read the PPRL first, and aim for a minimum of 5 m NGF, the French altitude datum, within a kilometre of the shoreline. Inland, confirm the property is connected to the commune's mains water rather than depending on a private well that may run dry. On the building itself, look at storm resistance: a sound slate roof, reinforced fixings, wind-rated double glazing. A rainwater tank of 5 to 10 cubic metres for the garden and the toilets pays for itself quickly by 2030 given where water prices are heading. On the DPE, the energy performance certificate, aim for C or better, because damp winters plus poor insulation is a mould problem waiting to happen rather than a theoretical concern. And check fibre coverage: excellent in the metropolitan areas, still very uneven in central Brittany, which matters if your income is remote.",
+      },
+      {
+        heading: "The honest calculation",
+        body: "Brittany remains one of the best climate bets in France for 2040: temperate, ecologically rich, high quality of life, prices still reasonable next to the south-west. But it is not the immobile climate people imagine. New summer droughts, more intense storms, localised erosion. The sensible move is a metropolitan city, Rennes, Vannes or Quimper, or a substantial inland market town, rather than a direct seafront or a very isolated village. The mistake to avoid is assuming that because Brittany is wet today it will always be wet in August, and buying a house whose garden, well and roof all quietly assume that. Buy with that assumption removed and it is one of the most resilient parts of the country.",
+      },
+    ],
+    relatedCities: ["rennes", "brest", "quimper", "vannes", "lorient"],
+    tags: ["france climate 2040", "climate", "brittany", "drought", "sea level rise"],
+  },
+  {
+    slug: "france-climate-2040-alps-savoie-2026",
+    title: "France Climate 2040: the Alps and Savoie",
+    metaTitle: "Climate 2040: the French Alps and Savoie",
+    metaDesc:
+      "Warm valleys, altitude refuges and the end of mid-mountain skiing: what the French Alps look like by 2040, and where a purchase still makes sense.",
+    category: "lifestyle",
+    emoji: "🏔️",
+    readMinutes: 10,
+    publishedAt: "2026-08-31",
+    updatedAt: "2026-08-31",
+    intro:
+      "The Alps are simultaneously a climate refuge, because of altitude, and one of the fastest-transforming regions in Europe, because of what warming does to snow and ice. For 2040 the Alpine arc shows the sharpest internal contrast in France: valleys tipping towards a Mediterranean summer, plateaux a thousand metres above them staying temperate. For a foreign buyer the practical translation is that the word Alps tells you almost nothing about a property. The altitude does.",
+    sections: [
+      {
+        heading: "What changes by 2040",
+        body: "Expect 2.5 to 4 C of warming by 2040 against the 1981-2010 baseline, among the highest rates in Europe. The altitude gradient is pronounced: roughly 2 C at 1000 m, 3 C at 2000 m, 4 C at 3000 m. In the warm valleys, Grenoble moves to 30 days a year above 30 C against about a dozen today, Chambéry to 25 and Annecy to 22. The Arve valley, the lower Tarentaise and the Maurienne climb to between 25 and 35 such days. Snow cover falls sharply at resorts below 1500 m, at lower Megève, Les Carroz, lower Pralognan and La Norma, with the ski season shortening by 30 to 40 days. Resorts above 1800 m, Val Thorens, Tignes, Val d'Isère and upper Avoriaz, keep their reliability. The glaciers are already in heavy retreat: the Mer de Glace has lost 200 m of thickness since 1900 and continues to lose. Precipitation redistributes, with more intense autumns and drier summers.",
+      },
+      {
+        heading: "Cities and towns well placed for 2040",
+        body: "Annecy keeps a relatively temperate climate thanks to the regulating effect of its lake, with complete services and a high quality of life, on a saturated market at around 5,500 euros per square metre. Excellent climate for 2040, and expensive. Chambéry, the prefecture of the Savoie, has a moderate continental climate, a university, accessible property at around 3,500 euros per square metre and TGV access. Grenoble is the full metropolitan option: a warmer valley climate but maximum services, with a university, a teaching hospital and a research base. Its higher districts, at the foot of the Chartreuse and the Vercors, gain on the central valley. Aix-les-Bains benefits from the Lac du Bourget's moderating effect, with spa services and accessible property. Albertville and Saint-Jean-de-Maurienne are working industrial valley towns with very accessible property and a valley climate.",
+      },
+      {
+        heading: "The genuine refuges: plateaux and altitude towns",
+        body: "The Bauges massif, around Le Châtelard and Lescheraines, is a plateau between 600 and 900 m with a preserved climate, reasonable prices and both Annecy and Chambéry within reach. It is the model case. The Vercors, at Villard-de-Lans, Lans-en-Vercors, Autrans and Méaudre, sits at 1000 to 1100 m, keeps temperate summers and winter snow, and has fibre and adequate services. It is one of the strongest 2040 bets in the country. The Chartreuse, at Saint-Pierre-de-Chartreuse and Le Sappey, runs 900 to 1200 m close to Grenoble. The Briançonnais, above 1300 m around Briançon and the Vallouise, keeps a preserved climate and real towns, with skiing in transition at Serre-Chevalier across 1400 to 2800 m. The Beaufortain, around Beaufort and Hauteluce at 700 to 1000 m, keeps its climate with prices rising but still accessible. And the upper Tarentaise and Maurienne, at Bourg-Saint-Maurice and Saint-Michel-de-Maurienne, pair a warm valley floor with direct access to high-altitude resorts.",
+      },
+      {
+        heading: "Where to be careful",
+        body: "Mid-mountain ski resorts between 1000 and 1500 m, lower Megève, Combloux, lower Saint-Gervais, Pralognan, Aussois, La Norma and Notre-Dame-de-Bellecombe, face falling snow cover, an economic model in transition and long-term downward pressure on property. The Arve valley, at Bonneville, Cluses and Sallanches, suffers chronic winter air pollution from combustion trapped by the relief, which warming aggravates. The Grésivaudan valley, at Crolles and lower Le Touvet, combines a warm valley climate with summer ozone, offset by good access to Grenoble and Chambéry. The low Lake Geneva shore at Évian and Thonon keeps its mildness with tourist saturation and high prices. And the lower-altitude plains around Embrun and Gap are tipping towards a hot dry climate with rising drought.",
+      },
+      {
+        heading: "The ski economy in transition",
+        body: "This deserves stating plainly, because a very large share of foreign purchases in the Alps are second homes bought on the assumption that snow is a permanent feature of the asset. Below 1500 m the all-snow model becomes obsolete and forces a costly public transition to four-season activity, mountain biking, hiking and spa. Between 1500 and 1800 m, snow cover becomes increasingly dependent on artificial snowmaking, with its water, electricity and cost implications stacking up. Above 1800 m the model stays viable beyond 2040, with tourist concentration increasing as a result. For a purchase, that means a second home in the mid-mountain is a risky long-term bet. A main residence in a substantial town above 700 m, with services and access to high-altitude resorts, remains a good one. For seasonal rental investment, aim above 1800 m or at credible four-season alternatives such as the Vercors, the Chartreuse and the Briançonnais.",
+      },
+      {
+        heading: "The honest calculation",
+        body: "Three sound bets for 2040. First, a metropolitan base at Annecy, Chambéry or Grenoble for services plus a climate still workable with adaptation, meaning a higher district, a DPE of A to C and a reversible heat pump. Second, a plateau or substantial town between 700 and 1200 m as a strong climate refuge at reasonable prices, checking fibre coverage, winter road access and medical services, none of which can be assumed. Third, avoiding a sub-1800 m ski second home unless there is a clear reason beyond the skiing. The underrated trio is the Beaufortain, the Bauges and the Briançonnais, which combine altitude, services, accessible property and real beauty. The region as a whole is well positioned for 2040, on the single condition that you get the altitude question right rather than the postcard one.",
+      },
+    ],
+    relatedCities: ["annecy", "chambery", "grenoble", "briancon", "albertville"],
+    tags: ["france climate 2040", "climate", "alps", "savoie", "buying property in france"],
+  },
+  {
+    slug: "france-climate-2040-normandy-2026",
+    title: "France Climate 2040: Normandy",
+    metaTitle: "Climate 2040: Normandy",
+    metaDesc:
+      "Normandy is one of France's best-placed regions for 2040, but the strength is inland. Cliff retreat, Channel storms and where to buy, coast by coast.",
+    category: "lifestyle",
+    emoji: "🐄",
+    readMinutes: 9,
+    publishedAt: "2026-08-31",
+    updatedAt: "2026-08-31",
+    intro:
+      "Normandy is often read as a northern European climate refuge: reliable rain, tempered summers, permanent green. For 2040 that is partly right, and the part that is right is the interior. The coast, from the Cotentin to the Seine bay and the Alabaster cliffs, is entering a period of serious trade-offs between storms, erosion and marine flooding. For a buyer within reach of Paris and looking for something that still works in twenty years, this is one of the better regions in the country, provided you know which half of it you are buying into.",
+    sections: [
+      {
+        heading: "What changes by 2040",
+        body: "Expect 1.5 to 2.5 C of warming by 2040 against the 1981-2010 baseline, among the most moderate in mainland France thanks to oceanic influence. Caen and Rouen move to 12 to 15 days a year above 30 C against five today, with peaks around 35 C. Cherbourg stays at five days, a strictly oceanic climate. Le Havre sits near ten. Winter storms gain intensity over the Channel, with winds above 130 km/h becoming more frequent. Sea level rises 15 to 25 cm by 2050, with strong exposure in parts of the eastern Cotentin, the Seine bay and the Alabaster coast, where the chalk cliffs erode. Rainfall stays broadly stable with a slight winter increase, but new summer droughts are appearing in the Bessin and the Pays d'Auge, which is not what the region's reputation would lead you to expect.",
+      },
+      {
+        heading: "Cities and towns well placed for 2040",
+        body: "Caen is the balanced option: a university, a teaching hospital, Paris in about two hours by train, a tempered oceanic climate and accessible property at around 2,500 euros per square metre. Rouen offers complete services, Paris in 1h15 and a temperate climate at reasonable prices. Cherbourg keeps its cool oceanic climate and a naval port that anchors the local economy, with very accessible property at around 1,800 euros per square metre and real transport isolation as the trade-off. Alençon, the prefecture of the Orne, is temperate with very low prices and moderate isolation. Saint-Lô, the rebuilt prefecture of the Manche, is affordable and temperate. And the inland market towns, Vire, Lisieux, Évreux and central Dieppe, keep a temperate climate with prices that vary with local demand.",
+      },
+      {
+        heading: "The Norman coast needs weighing",
+        body: "The Alabaster coast, at Étretat, Fécamp, Yport and Veules-les-Roses, is watching its chalk cliffs retreat, with documented rates of up to 50 cm a year on some sectors. The landscape is spectacular and the value of clifftop property will be under pressure by 2040-2050, which are two facts that sit together uncomfortably and are both true. The Côte Fleurie, at Deauville, Trouville, Houlgate and Cabourg, keeps its seafront appeal with storm-surge exposure in the low-lying zones, marked beach erosion and a strict PPRL, the coastal risk prevention plan. The eastern Cotentin coast at Carentan, Saint-Vaast and Barfleur stacks sea-level rise and Channel storms. The Cotentin tip and western shore, at Granville, Coutances and Avranches, are more moderately exposed but still take strong storms. And Le Havre, a rebuilt industrial port, has low-lying districts such as Saint-François that need reading under the PPRL.",
+      },
+      {
+        heading: "Inland Normandy is the strong bet",
+        body: "The Pays d'Auge, around Lisieux, Pont-l'Évêque and Beaumont-en-Auge, combines hedgerow country, a temperate climate, real architectural heritage and rail access via Lisieux. The Suisse Normande, at Clécy, Thury-Harcourt and Falaise, adds the Orne valley and its hills, a temperate climate and a natural refuge within reach of Caen. The inland Bessin, around Bayeux and inland Saint-Lô, keeps its bocage, a temperate climate and accessible property. The Pays de Bray, at Forges-les-Eaux and Gournay-en-Bray, combines hills, hedgerows, a mild climate and regional-train access to Paris. The Norman Perche, around Mortagne and Bellême, stays remote-work friendly with a temperate climate and low prices. And the inland Eure, at Bernay and Verneuil, offers bocage, rail access to Paris and accessible property.",
+      },
+      {
+        heading: "Storms, flooding and what to check",
+        body: "Beyond warming, the Norman risk for 2040 is the intensification of winter storms, in the line of Xynthia and Ciaran in 2023. Winds above 130 km/h become more frequent, which puts roofs and mature trees on the maintenance list. Flooding on the Seine, the Risle, the Orne and the Vire is rising, so read the PPRI, the inland flood risk prevention plan, before buying anywhere on a valley floor. Cliff falls on the Alabaster coast are multiplying, so avoid property overhanging or sitting at the foot of a cliff, and check the commune's incident record on Géorisques.gouv.fr. Flooding of the eastern Cotentin polders and the Carentan marshes needs serious examination. On the coast, aim for 5 m NGF minimum within a kilometre of the shore and a 50 m setback from cliffs.",
+      },
+      {
+        heading: "The honest calculation",
+        body: "Normandy is one of the best-placed regions in mainland France for 2040, and that strength is concentrated inland. The coast, meaning the Alabaster cliffs, the eastern Cotentin and the Seine bay, is entering genuine uncertainty on storms, erosion and flooding. For stable, accessible, intact country, inland Normandy ticks every box: the Pays d'Auge, the Suisse Normande, the Perche, the inland Bessin and the Pays de Bray, all temperate, all affordable, all within reach of Paris, Caen or Rouen. One practical note for a foreign buyer: stone and half-timbered buildings here are frequently rated E to G on the DPE, the energy performance certificate, and budgeting 30,000 to 60,000 euros of renovation is realistic rather than pessimistic. On the coast, prefer an elevated town, upper Cherbourg, the Roc at Granville, or Caen rather than Ouistreham, over a direct seafront address.",
+      },
+    ],
+    relatedCities: ["caen", "rouen", "cherbourg", "le-havre", "alencon"],
+    tags: ["france climate 2040", "climate", "normandy", "sea level rise", "buying property in france"],
+  },
+  {
+    slug: "france-climate-2040-paris-ile-de-france-2026",
+    title: "France Climate 2040: Paris and the Île-de-France",
+    metaTitle: "Climate 2040: Paris and the Île-de-France",
+    metaDesc:
+      "Paris heads for 35 days above 30 C by 2040 with an 8 C urban heat island. Which arrondissements and suburbs stay liveable, and what to check before you sign.",
+    category: "lifestyle",
+    emoji: "🌡️",
+    readMinutes: 9,
+    publishedAt: "2026-08-31",
+    updatedAt: "2026-08-31",
+    intro:
+      "The Île-de-France tips towards Mediterranean summers by 2040: 30 to 40 days a year above 30 C, five to ten of them above 35 C, and an urban heat island that can add 6 to 8 C in some Paris districts compared with a wooded suburb. Twelve million people are concerned, which makes this the largest adaptation problem in the country. If you are moving to Paris for work and expect to stay a decade, the arrondissement you pick is now a climate decision as much as a budget one, and most newcomers do not know that when they sign.",
+    sections: [
+      {
+        heading: "What changes by 2040",
+        body: "Paris moves from around ten days a year above 30 C today to roughly 35 by 2040, five to eight of them above 35 C. Tropical nights, meaning nights that stay above 20 C, rise to between 5 and 15 a year, and up to 25 in the centre. The 2003 heatwave, which killed around 60,000 people across Europe and 15,000 in France, becomes a frequent event rather than an exceptional one. Rainfall gets more erratic, with more violent storms and more pronounced summer droughts. And then there is the urban heat island: 5 to 8 C more in central Paris than in a wooded suburb during heatwave nights. This is measured, not modelled. Central Paris has been recorded 8 C above the Forêt de Saint-Germain on the western edge of the region.",
+      },
+      {
+        heading: "The most heat-vulnerable Paris districts",
+        body: "The 11th, the eastern 10th, the eastern 19th and the 20th combine maximum density with few trees and little water, which is the worst possible combination during a peak. Bercy, Tolbiac and the Quai d'Ivry are near the Seine but surrounded by concrete. The older sections of the 17th around Batignolles are very dense. The Olympiades towers in the 13th stack height with a shortage of trees. Mortality during the 2003 heatwave correlated strongly with three factors together: density, age and the absence of through-ventilation. Older Paris apartments, with low ceilings and single glazing, are poorly adapted and will stay that way until a deep renovation happens. For a renter that is worth knowing before signing a lease, because a top-floor room under a zinc roof is a very different proposition by 2040 than it used to be.",
+      },
+      {
+        heading: "Better-adapted Paris districts",
+        body: "The 16th, around Auteuil and La Muette, benefits from the Bois de Boulogne, a genuine thermal refuge worth 5 to 7 C during a peak. The 12th has the equivalent on the eastern side with Bercy and the Bois de Vincennes. The 7th with the Champ de Mars and the Esplanade, the 5th with the Jardin des Plantes and the 6th with the Luxembourg all play the same green-density card. The Parc Montsouris sector in the 14th and the Buttes-Chaumont in the 19th work the same way. The western Front de Seine in the 15th ventilates well thanks to the river. The measured park effect is 3 to 5 C of felt temperature against a mineral street. A large park or wood within walking distance has become a real property argument rather than a pleasant extra, and it is starting to show in prices.",
+      },
+      {
+        heading: "The suburbs that actually cool down",
+        body: "Direct access to forest does most of the work. Fontainebleau in the Seine-et-Marne, Saint-Germain and Rambouillet in the Yvelines, Sénart in the Essonne and Chantilly just over the border in the Oise all show a 5 to 8 C differential during heatwaves. The widened Seine banks at Conflans, Andrésy and Triel combine river wind and greenery, which is natural air conditioning. The Saclay plateau and Versailles play on slight altitude and their parks. The Bièvre valley, at Bièvres and Massy, forms a cool corridor. The limit is consistent and should be priced in: these places have the trees and they impose either a car or a long commute to reach central Paris. That is not a hidden cost, it is simply a different one.",
+      },
+      {
+        heading: "What to check before renting or buying, 2026-2030",
+        body: "On the DPE, the energy performance certificate, a property rated F or G will be close to unsellable by 2035 as well as being genuinely stifling, so aim for A to C. Mechanical cooling becomes hard to avoid inside Paris by 2035, ideally through a reversible heat pump rather than a window unit. Orientation matters more than it used to: direct south with no shutters, external blind or awning is now a serious defect rather than a preference. For bedrooms, prefer east or north-east. On outdoor space, a planted balcony and a large park within 500 m weigh more than an extra room with no exterior, because use value has shifted. And on water, demand is climbing between cooling and urban irrigation, and communes are already anticipating restrictions. For a house with a garden, the ability to sink a well is becoming a real asset.",
+      },
+      {
+        heading: "The honest calculation",
+        body: "Leave, or do not come, if there is a respiratory or cardiac vulnerability in the household, if there are very young children, or if you are renting or own in dense Paris with no cooling and no budget to adapt. Adapt and stay if you can invest in cooling and insulation, if you are in Paris for reasons that hold up, and if a major park or wood is within walking distance. If the goal is a milder French climate, the gentle Atlantic at Rennes, Brest, Nantes and La Rochelle is the obvious alternative. Within the Île-de-France itself, the green option exists: Saint-Germain-en-Laye, Fontainebleau, Marly and the wider Versailles area keep you within an hour of the office at 5 C less during a peak. For a decade-long posting, that trade is worth running the numbers on properly.",
+      },
+    ],
+    relatedCities: ["paris", "versailles", "vincennes", "fontainebleau", "boulogne-billancourt"],
+    tags: ["france climate 2040", "climate", "ile-de-france", "heatwave", "paris"],
+  },
+  {
+    slug: "france-climate-2040-rhone-valley-2026",
+    title: "France Climate 2040: the Rhône Valley",
+    metaTitle: "Climate 2040: the Rhône Valley, Lyon to Avignon",
+    metaDesc:
+      "Heat, ozone and drought make the Lyon-Valence-Avignon corridor France's most trapped axis by 2040. Where to live along it, and the refuges either side.",
+    category: "lifestyle",
+    emoji: "🌡️",
+    readMinutes: 10,
+    publishedAt: "2026-08-31",
+    updatedAt: "2026-08-31",
+    intro:
+      "The Rhône valley is a geographic corridor that concentrates everything at once: heat, the mistral wind, ozone and heavy traffic. By 2040 it is the French axis most affected by the combination of warming, pollution and urban density. Lyon, Valence, Montélimar, Orange and Avignon each read differently, but the pattern is the same one, and it is the most counter-intuitive finding in this whole series. The valley remains economically indispensable and is becoming a poor place to actually live, while the hills on either side of it stay affordable.",
+    sections: [
+      {
+        heading: "What changes by 2040",
+        body: "Expect 2.5 to 3.5 C of warming by 2040 against the 1981-2010 baseline, among the highest rates in the country. Lyon moves to 30 days a year above 30 C against about a dozen today, with peaks of 39 to 41 C and 15 to 25 tropical nights a year. Valence climbs to 40 such days with peaks at 41 C. Montélimar, Orange and Avignon pass 50 days a year, a fully continental Mediterranean profile. The mistral keeps its intensity, with winds of 80 to 100 km/h, worsening drought while cleaning the air. Ozone produces frequent summer peaks along the Lyon-Avignon axis, exceeding World Health Organization thresholds on more than 80 days a year. Drought becomes chronic in the Drôme, the Vaucluse and the Ardèche, with regular summer restrictions. Rainfall redistributes: more violent autumns as Cévenol storm episodes intensify, and dry summers.",
+      },
+      {
+        heading: "Lyon: adaptable, but a heat island",
+        body: "Lyon in 2040 has the summer Marseille had in the 2000s. In the Croix-Rousse, Confluence and the dense central districts, heat stagnates and the urban island is pronounced. Better-placed districts are the Tête d'Or with its park, the tree-lined Brotteaux, Vaise near the Saone and well ventilated, and the lower part of Vieux-Lyon where the river helps. Districts to avoid for a long-term main residence without heavy adaptation are the Part-Dieu, all concrete and little shade, and northern Perrache. The western suburbs at Tassin, Écully and Sainte-Foy benefit from 150 to 200 m of extra altitude, tree cover and better ventilation, which makes them a good urban refuge. The eastern suburbs at Villeurbanne and Vénissieux, dense and lightly wooded, stay hotter. For anyone relocating to Lyon for work, that west-east split is the single most useful thing to know.",
+      },
+      {
+        heading: "Valence, Montélimar, Orange and Avignon",
+        body: "Valence keeps a TGV to Paris in 2h10 and an already hot climate, with metropolitan services and accessible property. Its ozone risk is high and belongs in the decision. Montélimar is very hot, a mid-size town with affordable property and chronic congestion on the A7 motorway. Orange has a continental Mediterranean climate and accessible property, with mistral and heat exposure combined. Avignon has a dry Mediterranean climate, good services and a TGV to Paris in 2h40, with a summer tourist season that is stifling. All of these become effectively Mediterranean towns by 2040 and require the same equipment as Marseille: cooling, insulation and shading. Buying any of them at the price of a temperate town, on the assumption that the Rhône valley is somehow milder than Provence, is the error to avoid.",
+      },
+      {
+        heading: "Altitude refuges either side of the corridor",
+        body: "In the Drôme valley, Crest, Die and Saillans sit around 200 to 400 m with a more temperate climate, an active alternative community and reasonable prices. Aubenas, Largentière and Privas in the Ardèche are mid-mountain between 300 and 700 m, workable and affordable. The Vercors, at Villard-de-Lans and Lans-en-Vercors above 1000 m, is a strong climate refuge provided you accept tourist seasonality. Annonay and Tournon on the northern Rhône hillsides keep a continental climate and adequate services. The Ardèche plateau, at Saint-Agrève and Coucouron above 1000 m, is a real refuge with accepted isolation, suited to remote work and self-sufficiency. And in the Monts du Lyonnais, Saint-Symphorien, Brindas and Sainte-Foy-l'Argentière at 300 to 600 m offer a close-in refuge 30 minutes from Lyon, which is the best daily compromise available in the region.",
+      },
+      {
+        heading: "Ozone and air quality, the underrated 2040 subject",
+        body: "This is the point most people miss entirely. The Rhône valley combines A7 motorway traffic, the chemical industry corridor south of Lyon, and the sunshine that turns nitrogen oxides into ozone. By 2040 the WHO thresholds will be exceeded on more than 80 days a year from Lyon to Avignon. The direct consequences are medical: asthmatics, people with COPD, young children and older people are at increased risk from June to September. The residential districts to favour are ventilated, wooded and 100 m or more above the valley floor, because altitude damps the ozone. The areas to avoid for respiratory health are those next to the A7 and A6 motorways and the chemical corridor at Saint-Fons, Pierre-Bénite and Feyzin. Air quality readings are published by the regional monitoring bodies ATMO AURA and ATMO Sud, and they are free to consult before you sign anything.",
+      },
+      {
+        heading: "The honest calculation",
+        body: "The Rhône valley in 2040 is functionally precious, with the TGV, the A7, services and an economy, and climatically trapped, with heat, ozone and drought together. If you must be in it, take the Lyon heights first, then western Valence, then Avignon outside the centre, with heavy adaptation: cooling, roof insulation, a planted garden, east or north orientation. If you can move 30 to 50 km sideways, the Drôme provençale around Crest and Die, the middle Ardèche around Aubenas, the Vercors, the Diois and the Monts du Lyonnais offer a remarkable lateral refuge at prices that are still accessible. The real 2040 strategy in this region is to stop living in the valley while staying connected to it through remote work and a car. The corridor becomes a place to work and pass through rather than a place to sleep.",
+      },
+    ],
+    relatedCities: ["lyon", "valence", "avignon", "orange", "nimes"],
+    tags: ["france climate 2040", "climate", "rhone valley", "heatwave", "lyon"],
+  },
+];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed
 // (getEnGuide's .find() returns the first) + a duplicate sitemap URL.

@@ -7177,6 +7177,46 @@
       "slug": "things-to-do-in-sens-2026",
       "title": "Things to do in Sens: the first gothic cathedral ever built",
       "emoji": "⛪"
+    },
+    {
+      "slug": "france-climate-2040-mediterranean-south-2026",
+      "title": "France Climate 2040: the Mediterranean South",
+      "emoji": "🥵"
+    },
+    {
+      "slug": "france-climate-2040-atlantic-coast-2026",
+      "title": "France Climate 2040: the Atlantic Coast",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "france-climate-2040-south-west-pyrenees-2026",
+      "title": "France Climate 2040: the South-West and the Pyrenees",
+      "emoji": "🌞"
+    },
+    {
+      "slug": "france-climate-2040-brittany-2026",
+      "title": "France Climate 2040: Brittany",
+      "emoji": "🌧️"
+    },
+    {
+      "slug": "france-climate-2040-alps-savoie-2026",
+      "title": "France Climate 2040: the Alps and Savoie",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "france-climate-2040-normandy-2026",
+      "title": "France Climate 2040: Normandy",
+      "emoji": "🐄"
+    },
+    {
+      "slug": "france-climate-2040-paris-ile-de-france-2026",
+      "title": "France Climate 2040: Paris and the Île-de-France",
+      "emoji": "🌡️"
+    },
+    {
+      "slug": "france-climate-2040-rhone-valley-2026",
+      "title": "France Climate 2040: the Rhône Valley",
+      "emoji": "🌡️"
     }
   ],
   "tags": [
@@ -7258,7 +7298,12 @@
     {
       "slug": "ile-de-france",
       "label": "ile de france",
-      "count": 27
+      "count": 28
+    },
+    {
+      "slug": "brittany",
+      "label": "brittany",
+      "count": 25
     },
     {
       "slug": "provence-alpes-cote-d-azur",
@@ -7266,24 +7311,19 @@
       "count": 25
     },
     {
-      "slug": "brittany",
-      "label": "brittany",
+      "slug": "international-students",
+      "label": "international students",
       "count": 24
     },
     {
-      "slug": "international-students",
-      "label": "international students",
+      "slug": "normandy",
+      "label": "normandy",
       "count": 24
     },
     {
       "slug": "student-visa-france",
       "label": "student visa france",
       "count": 24
-    },
-    {
-      "slug": "normandy",
-      "label": "normandy",
-      "count": 23
     },
     {
       "slug": "student-housing-france",
@@ -7316,13 +7356,13 @@
       "count": 20
     },
     {
-      "slug": "moving-to-france-with-children",
-      "label": "moving to france with children",
-      "count": 19
-    },
-    {
       "slug": "provence",
       "label": "provence",
+      "count": 20
+    },
+    {
+      "slug": "moving-to-france-with-children",
+      "label": "moving to france with children",
       "count": 19
     },
     {
@@ -7391,8 +7431,18 @@
       "count": 10
     },
     {
+      "slug": "atlantic-coast",
+      "label": "atlantic coast",
+      "count": 10
+    },
+    {
       "slug": "burgundy",
       "label": "burgundy",
+      "count": 10
+    },
+    {
+      "slug": "climate",
+      "label": "climate",
       "count": 10
     },
     {
@@ -7403,11 +7453,6 @@
     {
       "slug": "alsace",
       "label": "alsace",
-      "count": 9
-    },
-    {
-      "slug": "atlantic-coast",
-      "label": "atlantic coast",
       "count": 9
     },
     {
@@ -7426,6 +7471,11 @@
       "count": 8
     },
     {
+      "slug": "france-climate-2040",
+      "label": "france climate 2040",
+      "count": 8
+    },
+    {
       "slug": "nice",
       "label": "nice",
       "count": 8
@@ -7436,8 +7486,18 @@
       "count": 8
     },
     {
+      "slug": "lyon",
+      "label": "lyon",
+      "count": 7
+    },
+    {
       "slug": "nantes",
       "label": "nantes",
+      "count": 7
+    },
+    {
+      "slug": "pyrenees",
+      "label": "pyrenees",
       "count": 7
     },
     {
@@ -7461,11 +7521,6 @@
       "count": 6
     },
     {
-      "slug": "lyon",
-      "label": "lyon",
-      "count": 6
-    },
-    {
       "slug": "marseille",
       "label": "marseille",
       "count": 6
@@ -7478,11 +7533,6 @@
     {
       "slug": "mediterranean",
       "label": "mediterranean",
-      "count": 6
-    },
-    {
-      "slug": "pyrenees",
-      "label": "pyrenees",
       "count": 6
     },
     {
@@ -7508,6 +7558,11 @@
     {
       "slug": "affordable-france",
       "label": "affordable france",
+      "count": 5
+    },
+    {
+      "slug": "alps",
+      "label": "alps",
       "count": 5
     },
     {
@@ -7561,9 +7616,9 @@
       "count": 5
     },
     {
-      "slug": "alps",
-      "label": "alps",
-      "count": 4
+      "slug": "paris",
+      "label": "paris",
+      "count": 5
     },
     {
       "slug": "angers",
@@ -7596,6 +7651,11 @@
       "count": 4
     },
     {
+      "slug": "heatwave",
+      "label": "heatwave",
+      "count": 4
+    },
+    {
       "slug": "nancy",
       "label": "nancy",
       "count": 4
@@ -7603,11 +7663,6 @@
     {
       "slug": "orleans",
       "label": "orleans",
-      "count": 4
-    },
-    {
-      "slug": "paris",
-      "label": "paris",
       "count": 4
     },
     {
@@ -7623,6 +7678,11 @@
     {
       "slug": "rhone-alpes",
       "label": "rhone alpes",
+      "count": 4
+    },
+    {
+      "slug": "savoie",
+      "label": "savoie",
       "count": 4
     },
     {
@@ -7646,6 +7706,11 @@
       "count": 3
     },
     {
+      "slug": "buying-property-in-france",
+      "label": "buying property in france",
+      "count": 3
+    },
+    {
       "slug": "car-free-holidays-france",
       "label": "car-free holidays france",
       "count": 3
@@ -7653,6 +7718,11 @@
     {
       "slug": "dordogne",
       "label": "dordogne",
+      "count": 3
+    },
+    {
+      "slug": "drought",
+      "label": "drought",
       "count": 3
     },
     {
@@ -7711,8 +7781,8 @@
       "count": 3
     },
     {
-      "slug": "savoie",
-      "label": "savoie",
+      "slug": "sea-level-rise",
+      "label": "sea level rise",
       "count": 3
     },
     {
