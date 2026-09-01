@@ -878,6 +878,137 @@ Vaulx-en-Velin, Saint-Priest, Bron — rappel : l'Espace Albert Camus et le fort
 lyonnaise sont **à Bron**) et les trous listés au batch 34 (Saint-Herblain, Mantes-la-Jolie,
 Istres, Cambrai).
 
+**Batch 38 — FR, shipped 2026-09-01 : Poissy, Rueil-Malmaison, Vernon, Dole, Soissons, Cambrai,
+Carpentras.** Sept villes, six régions, prises **dans la liste de gisements laissée par les batches
+34 et 36** — pour la première fois depuis longtemps le batch n'a rien eu à arbitrer contre elle :
+Cambrai était le trou nommé par le batch 34, Poissy, Rueil-Malmaison, Vernon, Dole, Soissons et
+Carpentras étaient six des neuf trous nommés par le batch 36. Il en reste trois de cette liste
+(**Bergerac, Agde, Thonon-les-Bains**), plus Saint-Herblain, Mantes-la-Jolie et Istres du batch 34,
+plus les six banlieues de province jamais faites (Villenave-d'Ornon, Talence, Le Bouscat ;
+Vaulx-en-Velin, Saint-Priest, Bron — rappel du batch 28 : **l'Espace Albert Camus et le fort de la
+ceinture lyonnaise sont à Bron**, pas à Vénissieux).
+**Compteurs mesurés : FR 233 (`-a-` strict 226 + 5 en `au-` + 2 en `aux-`), EN 226 ; `GUIDES` 1035
+→ 1042.** Aucun nouveau slug hors gabarit : les sept villes prennent « à » sans contraction, les
+sept exceptions restent `au-puy-en-velay`, `au-tampon`, `au-francois`, `au-robert`, `au-lamentin`,
+`aux-abymes`, `aux-sables-d-olonne`. `metaTitle` 32-43 caractères, `metaDesc` 141-155, 10 sections
+par guide, densité d'accents 0,131-0,174 **par mot** (seuil ascii-strip 0,09), 0 à 5 em-dashes par
+guide pour ~1 050 mots (cible R7.10 : ~1 pour 200 mots). `npm run search-index` relancé
+(`data/search-index.json` 1 042 guides, 250 → **251 tags** : « que faire dans le Nord » franchit le
+seuil de 3 guides et crée `/tags/que-faire-dans-le-nord`), d'où le passage de
+`npm run sitemap:check` (FR 29 123 URL, EN 28 694, chaque URL déclarée a une page et
+réciproquement). Les sept guides sont vérifiés **retrouvés par le lookup de
+`app/villes/[slug]/a-faire/page.tsx` et pourvus de leur photo d'en-tête** (`guideCityPhoto`).
+⚠️ **Le fait le plus utile du batch est une correction de la liste de gisements elle-même : le musée
+de Vernon ne s'appelle plus musée Alphonse-Georges-Poulain.** Il a été **rebaptisé musée Blanche
+Hoschedé-Monet en 2024**, nom choisi par les habitants pour la belle-fille de Monet, peintre à part
+entière ; l'ancien nom lui avait été donné en 1966 pour l'archéologue conservateur en poste depuis
+1922. Le batch 36 l'avait inscrit au vivier sous son ancien nom, et une page qui envoie un lecteur
+chercher une enseigne qui n'existe plus se lit comme une page périmée. Trois pièges de localisation
+écartés de la même façon, convention « **accessible depuis** » plutôt que « situé à » : le **parc du
+Peuple de l'herbe est à Carrières-sous-Poissy**, de l'autre côté de la Seine, pas à Poissy ; le char
+**Deborah est à Flesquières**, à une dizaine de kilomètres de Cambrai ; **Giverny est une commune à
+part entière** à cinq à sept kilomètres de Vernon, pas un quartier de Vernon ; et la **forêt de
+Chaux** relève des communes voisines de Dole, dont La Vieille-Loye.
+Faits vérifiés en ligne avant rédaction et qui portent les guides : villa Savoye **1928-1931**,
+**classée MH le 12 décembre 1965**, quatre mois après la mort de Le Corbusier, **UNESCO juillet
+2016** dans la série transnationale de **dix-sept** réalisations, loge du jardinier comprise dans le
+bien ; collégiale de Poissy fondée **vers 1016** par Robert le Pieux ; **Louis IX né le 25 avril
+1214** à Poissy et baptisé quelques jours plus tard, fonts devenus relique après la canonisation de
+**1297**, restaurés en **1630**, grille dessinée par **Viollet-le-Duc** ; prieuré royal décidé par
+Philippe le Bel après la canonisation du **11 août 1297**, détruit à la Révolution, **seule la
+porterie subsiste**, inscrite MH en **1933**, aujourd'hui musée du Jouet ; **parc Meissonier** 12 ha,
+cèdre du Liban centenaire, **Ernest Meissonier (1815-1891)** installé à Poissy en **1846**, parc
+propriété de la ville depuis **1952** ; usine **Ford SAF ouverte en 1938**, rachetée par **Simca en
+juillet 1954**, nouvelle usine inaugurée en **octobre 1958** (château d'eau de **75 m**, un millier
+de véhicules par jour), **Stellantis depuis 2021**, campus en **2025** ; **parc du Peuple de l'herbe
+113 ha**, ouvert depuis **2016** ; Malmaison achetée par Joséphine le **21 avril 1799** pour
+**325 000 francs**, résidence privée jusqu'en 1814, **divorce en 1809**, **Joséphine y meurt le 29
+mai 1814**, domaine racheté par **Daniel Iffla dit Osiris en 1896** et donné à l'État, **musée ouvert
+en 1905** ; **parc de Bois-Préau 17 ha**, fermé le mardi ; **monument funéraire de Joséphine élevé en
+1825** par Eugène et Hortense dans la chapelle Saint-Nicolas à droite du chœur, **cénotaphe
+d'Hortense élevé en 1858** par Napoléon III à gauche, corps en crypte dans un sarcophage antique ;
+**orgue Cavaillé-Coll classé MH depuis 1970**, restauré en **2017** ; **Atelier Grognard**, ancienne
+usine de plaques de cuivre, zinc et étain pour la gravure, **plus de 650 m²** ; **Vieux-Moulin** de
+Vernon sur deux piles du pont du **XIIe siècle**, dernier des **six** moulins, peint par Monet sous
+le titre *Vieille maison sur le pont* (musée de La Nouvelle-Orléans) ; **château des Tourelles**
+élevé après la prise de Vernon par **Philippe Auguste en 1196**, tour carrée et quatre tourelles
+rondes, une vingtaine de mètres, quasi inchangé depuis huit cents ans ; **musée des impressionnismes
+de Giverny créé en 2009** ; **Pasteur né à Dole le 27 décembre 1822**, maison devenue musée en
+**1923** ; **clocher de la collégiale de Dole 73 m**, achevé en **1596** sur un dessin de **Hugues
+Sambin** inspiré de Santa Maria di Carignano à Gênes, **82 m à l'origine**, abaissé de **9 m** après
+le siège de **1636** et une tempête ; Dole capitale de la Franche-Comté **jusqu'en 1678** (traité de
+Nimègue), **université transférée à Besançon en mai 1691** par lettres patentes de Louis XIV ;
+**Hôtel-Dieu de Dole réhabilité entre 1998 et 2000** en médiathèque, bibliothèque patrimoniale et
+archives ; **forêt de Chaux 20 493 ha**, deuxième massif feuillu de France après Orléans ; tours de
+**Saint-Jean-des-Vignes 75 et 80 m**, site vendu à l'évêque en **1804**, **démontage de 1805 à
+1825** pour restaurer la cathédrale, façade sauvée après une campagne à laquelle **Victor Hugo** a
+prêté sa voix ; cathédrale de Soissons **nef 110 m**, **30,33 m sous voûte**, **tour 66 m**,
+**croisillon sud arrondi construit vers 1176-1190** face à un bras nord à mur plat ; **Adoration des
+bergers de Rubens, vers 1618-1620**, bras **nord** du transept, armes de **Simon Le Gras
+(1624-1656)** ajoutées, évacuée pendant les deux guerres, restaurée en **1949** et **1993** ; musée
+de Soissons **inauguré en 1857**, installé **depuis 1933** dans l'abbaye Saint-Léger ; vase de
+Soissons raconté par **Grégoire de Tours, livre II**, bataille de **486** ; **beffroi de Cambrai**,
+ancien clocher Saint-Martin **1447-1474**, **62 m**, **UNESCO 2005** ; cathédrale actuelle = ancienne
+**abbatiale du Saint-Sépulcre rebâtie 1696-1702** sous **Fénelon**, **cathédrale en 1804** par
+**Louis Belmas** ; **cathédrale gothique disparue**, flèche de **110 m**, « merveille des Pays-Bas » ;
+**mausolée de Fénelon par David d'Angers, 1826** ; **icône Notre-Dame de Grâce vers 1340** ; **maison
+espagnole de 1595**, office de tourisme ; musée de Cambrai dans l'**hôtel de Francqueville (1720)**,
+**dépôts de l'État à partir de 1923** ; **bataille de Cambrai du 20 novembre au 7 décembre 1917**,
+**476 chars engagés dont 378 au combat**, ligne Hindenburg percée sur **9 à 12 km** sauf à
+Flesquières, contre-attaque allemande le **30 novembre** ; **Deborah D51**, Mark IV femelle, **28 t,
+8 m, 2,5 m**, retrouvé en **novembre 1998** par **Philippe Gorczynski** sous **3 m** de terre après
+**81 ans**, centre d'interprétation **inauguré le 25 novembre 2017**, **4 des 8** membres d'équipage
+au cimetière du Commonwealth voisin ; **bêtise de Cambrai vers 1830**, procès conclu en **1889**
+(Afchain « seul inventeur », Despinoy « créateur ») ; **synagogue de Carpentras 1367**, la plus
+ancienne de France en activité, restaurée au XVIIIe par **Antoine d'Allemand**, bains rituels et deux
+fours au rez-de-chaussée ; **expulsion des juifs du royaume de France en 1306** et résidence
+autorisée dans **quatre villes** du Comtat (Carpentras, Cavaillon, Avignon, L'Isle-sur-la-Sorgue) ;
+**cathédrale Saint-Siffrein commencée en 1404** sur ordre de l'antipape **Benoît XIII**, achevée en
+**1519**, façade baroque du XVIIe, **portail sud dit porte Juive** ; **arc romain du Ier siècle** ;
+**hôtel-Dieu financé par Malachie d'Inguimbert, chantier 1750-1769**, travaux **2014-2017**,
+**Inguimbertine ouverte début novembre 2017** (inauguration le samedi **4 novembre**), **~1 800 m²**,
+**~60 000 documents**, une quarantaine de tableaux, plus de cent objets ; **marché aux truffes le
+vendredi de novembre à mars** ; **berlingot** au sirop de fruits confits, sorti du statut médicinal
+en **1844** par **François Pascal Long** ; **ligne Avignon-Carpentras rouverte aux voyageurs en avril
+2015**, une quinzaine de kilomètres, une trentaine de minutes.
+⚠️ **Six affirmations écrites au premier jet et corrigées avant commit**, toutes du même genre — un
+écart calculé, une comparaison ou une distance qu'aucun contrôle automatique ne voit : ① « les cinq
+points qu'il défendait **depuis dix ans** » (ils sont formulés quelques années avant le chantier, pas
+dix) ; ② les fonts de Saint Louis « **à huit cents mètres** » de la villa Savoye, alors que le même
+guide dit deux sections plus loin que la villa est à l'écart du centre ; ③ Poissy résidence royale
+« **bien avant** que Saint-Germain-en-Laye ou Versailles n'existent comme lieux de pouvoir »,
+comparaison invérifiable retirée ; ④ Rueil « **à vingt minutes de La Défense** », chiffre non vérifié ;
+⑤ Percier et Fontaine crédités de « l'architecture » de Malmaison plutôt que des aménagements qui leur
+ont été confiés ; ⑥ musée de Soissons donné « en accès libre » sans source. C'est le même mode de
+défaillance qu'au batch 37 (l'écart de sept siècles et demi lu « deux siècles et demi » à Sens) : les
+dates prises une à une étaient justes, ce sont les **écarts et les comparaisons** qui dérapent.
+Les seuls chiffres de population sont ceux de l'Insee 2022 lus dans `data/city-population.json`
+(Poissy 40 792, Rueil-Malmaison 80 842, Vernon 24 841, Dole 23 784, Soissons 28 667, Cambrai 31 568,
+Carpentras 30 854) — **pas les `population` approximatives du seed**. Aucun tarif, aucun horaire ;
+quatre équipements à ouverture instable sont explicitement renvoyés à une vérification préalable
+(musée du Jouet, château de Bois-Préau **resté longtemps fermé et réduit à des expositions
+temporaires**, chapelle du Grand Séminaire, apothicairerie de l'hôtel-Dieu). Deux cadrages assumés à
+ne pas diluer : la **porte Juive** de Carpentras est nommée pour ce qu'elle était — les convertis y
+passaient pour le baptême — et la section « carrières » dit que le refuge pontifical était un régime
+juridique contraint, pas une harmonie ; et le **vase de Soissons n'existe pas**, c'est un récit de
+Grégoire de Tours écrit un siècle après les faits, le guide le dit plutôt que d'envoyer un lecteur
+chercher une vitrine.
+⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. § Commands depuis le batch 27). Le
+substitut prescrit passe en entier : `npx tsc --noEmit` **propre**, `npm run integrity`,
+`search-index` + `search-index:check`, `sitemap:check`, `npm run parity` (0 route FR sans jumelle),
+plus le contrôle de lookup / photo ci-dessus.
+Écart FR→EN après ce batch : **7 villes** (poissy, rueil-malmaison, vernon, dole, soissons, cambrai,
+carpentras) — au-dessus du seuil de ~6, donc **le prochain run doit être un batch EN**. Rappel de la
+règle du batch 33 : côté EN, le slug se dérive du **slug de seed tel quel**
+(`getEnGuide('things-to-do-in-' + slug + '-2026')`), et aucun de ces sept ne porte d'article, donc
+rien à arbitrer. Trois points de vigilance pour ces jumelles : **`things-to-do-in-vernon-2026` doit
+poser Vernon (Eure) dès la première ligne** — les sources anglophones ramènent Vernon (Colombie-
+Britannique), Vernon (Texas) et le Mount Vernon de Washington ; le nom du musée de Vernon doit être
+le **nouveau** des deux côtés ; et la **bataille de Cambrai est de l'histoire britannique avant
+d'être de l'histoire française** (476 chars, Flesquières, cimetières du Commonwealth), donc la
+jumelle anglaise a de la matière propre là où le guide FR reste sobre — même arbitrage qu'avec
+Jubilee à Dieppe au batch 37.
+
 **Batch 36 — FR, shipped 2026-08-29 : Orange, Saint-Germain-en-Laye, La Ciotat, Rochefort, Dieppe,
 Douai, Sens.** Sept villes, sept régions différentes, et le même arbitrage qu'aux batches 26, 32 et
 34, assumé une fois de plus contre la liste de gisements : **on choisit par matière touristique

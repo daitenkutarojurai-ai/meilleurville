@@ -8417,6 +8417,41 @@
       "slug": "10-choses-a-faire-a-sens-2026",
       "title": "10 choses à faire à Sens",
       "emoji": "⛪"
+    },
+    {
+      "slug": "10-choses-a-faire-a-poissy-2026",
+      "title": "10 choses à faire à Poissy",
+      "emoji": "🏗️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-rueil-malmaison-2026",
+      "title": "10 choses à faire à Rueil-Malmaison",
+      "emoji": "👑"
+    },
+    {
+      "slug": "10-choses-a-faire-a-vernon-2026",
+      "title": "10 choses à faire à Vernon",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "10-choses-a-faire-a-dole-2026",
+      "title": "10 choses à faire à Dole",
+      "emoji": "🔬"
+    },
+    {
+      "slug": "10-choses-a-faire-a-soissons-2026",
+      "title": "10 choses à faire à Soissons",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "10-choses-a-faire-a-cambrai-2026",
+      "title": "10 choses à faire à Cambrai",
+      "emoji": "🔔"
+    },
+    {
+      "slug": "10-choses-a-faire-a-carpentras-2026",
+      "title": "10 choses à faire à Carpentras",
+      "emoji": "🕍"
     }
   ],
   "tags": [
@@ -9558,6 +9593,11 @@
     {
       "slug": "picardie",
       "label": "Picardie",
+      "count": 3
+    },
+    {
+      "slug": "que-faire-dans-le-nord",
+      "label": "que faire dans le Nord",
       "count": 3
     },
     {

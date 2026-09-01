@@ -3802,6 +3802,31 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ---
 
+## Shipped 2026-09-01
+
+- **Série tourisme FR — batch 38 (+7 : Poissy, Rueil-Malmaison, Vernon, Dole, Soissons, Cambrai,
+  Carpentras).** Le premier batch depuis longtemps qui n'a **rien eu à arbitrer contre la liste de
+  gisements** : Cambrai venait du batch 34, les six autres du batch 36. **Compteurs mesurés : FR 233
+  (`-a-` strict 226 + 5 `au-` + 2 `aux-`), EN 226 ; `GUIDES` 1035 → 1042**, donc écart FR→EN de 7 et
+  **prochain run = batch EN**. Détail complet, faits vérifiés et vivier restant : CLAUDE.md
+  § « Batch 38 ».
+- **Ce que le run corrige au passage** : le vivier laissé par le batch 36 nommait le musée de Vernon
+  « musée Alphonse-Georges-Poulain », nom qu'il ne porte plus — il a été **rebaptisé musée Blanche
+  Hoschedé-Monet en 2024**. Une liste de gisements vieillit comme le reste, et rien dans le dépôt ne
+  peut le signaler : c'est la vérification en ligne avant rédaction qui l'attrape, pas `tsc`.
+  Trois localisations remises à leur commune réelle sous la convention « accessible depuis » (parc du
+  **Peuple de l'herbe à Carrières-sous-Poissy**, char **Deborah à Flesquières**, **Giverny** commune
+  à part entière), et **six affirmations fausses écrites au premier jet** — toutes des écarts
+  calculés, des comparaisons ou des distances, la même classe de défaut que l'« deux siècles et
+  demi » de Sens au batch 37.
+- **Contrôles** : `npx tsc --noEmit` propre, `npm run integrity` propre (540 villes, FR 1 042,
+  EN 802, 0 score brut recopié), `search-index` + `search-index:check` (251 tags, un seul neuf :
+  `/tags/que-faire-dans-le-nord`), `npm run sitemap:check` propre dans les deux sens (FR 29 123 URL,
+  EN 28 694), `npm run parity` en code 0, lookup `a-faire` + photo d'en-tête vérifiés sur les 7.
+  `npm run build` volontairement non lancé (CLAUDE.md § Commands).
+
+---
+
 ## Shipped 2026-08-29 (2e run du jour)
 
 - **Parité EN — `single-parent-in-[city]-2026` batch 6 (+9 : Valence, Colmar, Saint-Nazaire,

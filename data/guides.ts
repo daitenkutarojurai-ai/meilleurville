@@ -51386,6 +51386,440 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Sens", "activités Sens 2026", "que faire dans l'Yonne", "sorties Bourgogne gothique", "cathédrale Saint-Étienne trésor Thomas Becket marché couvert"]
   },
+  {
+    slug: "10-choses-a-faire-a-poissy-2026",
+    title: "10 choses à faire à Poissy",
+    metaTitle: "10 choses à faire à Poissy en 2026",
+    metaDesc: "La villa Savoye de Le Corbusier, la collégiale du baptême de Saint Louis, le musée du Jouet, le parc Meissonier : 10 activités à Poissy, dans les Yvelines.",
+    category: "tourisme",
+    emoji: "🏗️",
+    readMinutes: 7,
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    intro: "Poissy comptait 40 792 habitants au recensement de 2022, contre 37 662 en 2011. La ville est connue pour deux choses qui ne sont pas des raisons d'y aller : un terminus du RER A et une usine automobile. Elle abrite pourtant la villa Savoye, un des bâtiments les plus commentés du XXe siècle, et la collégiale où Saint Louis a été baptisé quelques jours après sa naissance. Sept siècles séparent ces deux monuments, et c'est ce grand écart qui fait tout l'intérêt d'une journée sur place.",
+    sections: [
+      {
+        heading: "1. La villa Savoye, manifeste de l'architecture moderne",
+        body: "Le Corbusier la construit entre 1928 et 1931 pour la famille Savoye, et elle applique d'un coup les cinq points d'une architecture nouvelle qu'il avait formulés quelques années plus tôt : pilotis, plan libre, façade libre, fenêtre en bandeau, toit-terrasse. Elle a été classée au titre des monuments historiques le 12 décembre 1965, quatre mois après la mort de son architecte, ce qui était alors exceptionnel pour un bâtiment aussi récent. Elle est inscrite au patrimoine mondial de l'UNESCO depuis juillet 2016, dans la série transnationale de dix-sept réalisations de Le Corbusier. On la visite, et c'est la raison numéro un de venir à Poissy."
+      },
+      {
+        heading: "2. La loge du jardinier, qu'on traverse sans la regarder",
+        body: "Le même chantier a produit un second bâtiment, beaucoup plus petit, posé à l'entrée du terrain : la loge du jardinier. Elle applique le même vocabulaire à une échelle domestique, avec les moyens d'un logement de service, et elle fait partie du bien inscrit à l'UNESCO au même titre que la villa. Presque tout le monde la dépasse sans s'arrêter pour foncer vers la maison blanche. C'est dommage, parce qu'elle répond à la question que la villa ne pose jamais : ce langage architectural tient-il quand le budget et la surface sont ceux de tout le monde ?"
+      },
+      {
+        heading: "3. La collégiale Notre-Dame",
+        body: "Fondée vers 1016 par le roi Robert le Pieux, la collégiale est le monument le plus ancien de la ville et le point de départ du centre historique. Elle a été fortement restaurée au XIXe siècle, période dont elle garde plusieurs aménagements visibles, et elle reste une église paroissiale en activité. L'entrée est libre. C'est aussi le meilleur endroit pour comprendre que Poissy n'est pas une banlieue née avec le chemin de fer mais une ville royale : les rois de France y ont eu une résidence, et l'un d'eux y est né."
+      },
+      {
+        heading: "4. Les fonts baptismaux de Saint Louis",
+        body: "Louis IX naît à Poissy le 25 avril 1214 et y est baptisé quelques jours plus tard. Les fonts qui ont servi à ce baptême ont pris statut de relique après sa canonisation, en 1297 ; ils ont été restaurés en 1630 et réinstallés dans la chapelle Saint-Louis, derrière une grille dessinée par Viollet-le-Duc. Voir la cuve de pierre où un roi a été baptisé sept siècles avant que la villa Savoye ne sorte de terre, dans la même commune, est le raccourci historique que cette ville propose et que personne n'attend d'elle."
+      },
+      {
+        heading: "5. Le prieuré royal, dont il reste une porte",
+        body: "Peu après la canonisation de son grand-père, le 11 août 1297, Philippe le Bel décide de fonder à Poissy un monastère de dominicaines, sur le lieu même de la naissance du roi — ce qui a supposé de démolir le château neuf voisin de la collégiale. L'ensemble a été presque entièrement détruit à la Révolution. Il n'en subsiste que la porterie, inscrite au titre des monuments historiques en 1933. Une porte pour un monastère royal entier : c'est peu, mais c'est ce que la Révolution a laissé de beaucoup de fondations de ce type, et celle-ci a trouvé un second usage."
+      },
+      {
+        heading: "6. Le musée du Jouet, dans cette porterie",
+        body: "La porterie du prieuré abrite aujourd'hui le musée du Jouet, ce qui donne à la visite un double sujet : les collections d'un côté, le bâtiment médiéval de l'autre, avec ses tours d'entrée qu'on gravit. Le musée est de petite taille et se fait en une heure, il fonctionne très bien avec des enfants, et il a l'avantage d'être au cœur du centre ancien plutôt qu'en périphérie. Vérifiez les jours d'ouverture avant de vous déplacer : comme beaucoup d'équipements municipaux de cette taille, il ne suit pas les horaires d'un grand musée."
+      },
+      {
+        heading: "7. Le parc Meissonier",
+        body: "Douze hectares de parc à l'anglaise avec pièce d'eau, roseraie et arbres remarquables, dont un cèdre du Liban plusieurs fois centenaire. Il porte le nom d'Ernest Meissonier (1815-1891), peintre considérable de son vivant, qui s'installe à Poissy en 1846 dans l'enclos de l'ancienne abbaye et y reste jusqu'à sa mort. La ville est propriétaire du parc depuis 1952 et il est ouvert au public. C'est le contrepoint évident d'une matinée passée dans les monuments, et le seul endroit de Poissy où l'on comprend à quoi ressemblait la ville quand un peintre à succès choisissait d'y vivre."
+      },
+      {
+        heading: "8. L'usine, et pourquoi elle explique la ville",
+        body: "Le chantier de l'usine automobile est ouvert en 1938 par Ford SAF. En juillet 1954, Simca la rachète à Ford, et la nouvelle usine est inaugurée en octobre 1958, le nom de la marque affiché sur un château d'eau de 75 mètres, pour une production qui atteindra un millier de véhicules par jour. Le site passe ensuite sous pavillon Chrysler puis Peugeot, et appartient à Stellantis depuis la fusion de 2021, qui y a ouvert un campus en 2025. On ne visite pas une usine en activité, mais sans elle on ne comprend ni la taille de Poissy ni sa population."
+      },
+      {
+        heading: "9. Le parc du Peuple de l'herbe, accessible depuis Poissy",
+        body: "Attention à l'adresse : ce parc départemental de 113 hectares, ouvert au public depuis 2016 et présenté comme le plus grand parc naturel des Yvelines, est sur la commune de Carrières-sous-Poissy, de l'autre côté de la Seine, et non à Poissy. Il est conçu pour la préservation des insectes et des oiseaux d'eau, avec une maison des insectes qui se visite. C'est une demi-journée à part entière si vous venez avec des enfants, et le meilleur endroit du secteur pour marcher longtemps au bord du fleuve sans croiser de voiture."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Poissy est le terminus d'une des branches du RER A et est également desservie depuis Paris-Saint-Lazare, ce qui en fait une excursion à la journée sans organisation particulière. Prévoyez la villa Savoye le matin — elle est à l'écart du centre, donc comptez un trajet en bus ou une marche — et le centre ancien l'après-midi : collégiale, porterie, musée du Jouet, parc Meissonier tiennent dans un rayon de quelques centaines de mètres. La ville se combine ensuite avec Saint-Germain-en-Laye, à quelques minutes de train, qui ne raconte ni la même époque ni la même histoire."
+      }
+    ],
+    relatedCities: ["poissy", "saint-germain-en-laye", "versailles"],
+    relatedGuides: [
+      "10-choses-a-faire-a-saint-germain-en-laye-2026",
+      "10-choses-a-faire-a-versailles-2026",
+      "10-choses-a-faire-a-vincennes-2026",
+      "10-choses-a-faire-a-boulogne-billancourt-2026"
+    ],
+    tags: ["10 choses à faire à Poissy", "activités Poissy 2026", "que faire dans les Yvelines", "sorties Île-de-France architecture", "villa Savoye Le Corbusier collégiale Saint Louis"]
+  },
+  {
+    slug: "10-choses-a-faire-a-rueil-malmaison-2026",
+    title: "10 choses à faire à Rueil-Malmaison",
+    metaTitle: "10 choses à faire à Rueil-Malmaison en 2026",
+    metaDesc: "Le château de Malmaison, la roseraie de Joséphine, ses tombeaux à Saint-Pierre-Saint-Paul, Bois-Préau, l'Atelier Grognard : 10 activités à Rueil-Malmaison.",
+    category: "tourisme",
+    emoji: "👑",
+    readMinutes: 7,
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    intro: "Rueil-Malmaison comptait 80 842 habitants au recensement de 2022, contre 79 855 en 2011 : c'est une des grandes villes des Hauts-de-Seine, et la seule qui possède une résidence impériale complète, avec son parc, son mobilier et la tombe de celle qui y a vécu. Le château de Malmaison a été la maison privée de Bonaparte et de Joséphine, puis la maison de Joséphine seule après le divorce, jusqu'à sa mort. Aux portes de La Défense, c'est un morceau d'histoire de France qu'on visite sans quitter le RER.",
+    sections: [
+      {
+        heading: "1. Le château de Malmaison",
+        body: "Joséphine achète le domaine le 21 avril 1799, pour 325 000 francs, pendant que Bonaparte est en Égypte. Le couple en fait sa résidence privée, et Malmaison est un lieu de gouvernement autant qu'une maison de campagne pendant le Consulat. Après le divorce de 1809, Joséphine y reste seule et y meurt le 29 mai 1814. Le domaine est racheté en 1896 par le mécène Daniel Iffla, dit Osiris, qui le restaure et le donne à l'État ; le musée napoléonien ouvre en 1905. Les intérieurs sont l'attraction : c'est du mobilier et du décor Consulat et Empire dans les pièces pour lesquelles ils ont été faits."
+      },
+      {
+        heading: "2. La botanique de Joséphine",
+        body: "Malmaison n'était pas seulement une résidence, c'était un jardin d'expérimentation : plusieurs centaines d'espèces rares y ont été introduites, et la maîtresse des lieux faisait venir des plantes du monde entier au milieu d'une guerre européenne. Les roses de la collection ont été peintes par Pierre-Joseph Redouté, ce qui a fixé pour deux siècles l'image de ce jardin. Une roseraie subsiste dans le parc. Cette dimension-là est plus intéressante que l'anecdote impériale : c'est un des grands jardins de collection de l'histoire européenne, et son influence sur la rosiculture a été durable."
+      },
+      {
+        heading: "3. Le parc du château",
+        body: "Le parc actuel est une fraction de ce qu'était le domaine, mais il suffit à comprendre l'échelle et l'agrément du lieu, avec ses arbres, ses allées et ses perspectives depuis la façade. Il se parcourt en une heure et il est indissociable de la visite intérieure : les pièces de réception donnent dessus, et le rapport entre la maison et le jardin est tout le sujet des aménagements confiés par Joséphine à Percier et Fontaine. Prévoyez d'y passer du temps plutôt que d'enchaîner les salles, surtout si vous venez à la belle saison."
+      },
+      {
+        heading: "4. Le parc de Bois-Préau",
+        body: "À quelques centaines de mètres, le parc de Bois-Préau occupe dix-sept hectares en pleine ville, avec une statue de Joséphine qui rappelle que le terrain appartenait au domaine de Malmaison. Le parc est ouvert au public et fermé le mardi. Le château qu'il abrite, second site du musée national, est resté longtemps fermé et n'accueille que des expositions temporaires : ne venez pas pour lui sans avoir vérifié qu'il est ouvert le jour de votre visite. Le parc, lui, se suffit à lui-même et c'est le plus beau grand jardin public de la commune."
+      },
+      {
+        heading: "5. Les tombeaux de Joséphine et d'Hortense",
+        body: "L'église Saint-Pierre-Saint-Paul, dans le centre, abrite les tombeaux de l'impératrice Joséphine et de sa fille la reine Hortense. Le monument funéraire de Joséphine, en marbre blanc, a été élevé en 1825 par ses enfants Eugène et Hortense dans la chapelle Saint-Nicolas, à droite du chœur ; son corps repose dans le socle. Napoléon III a fait élever en 1858, dans la chapelle symétrique à gauche du chœur, un cénotaphe à la mémoire de sa mère, dont le corps repose dans une crypte, en dessous, dans un sarcophage antique. L'entrée est libre."
+      },
+      {
+        heading: "6. L'orgue Cavaillé-Coll",
+        body: "La même église possède un orgue d'Aristide Cavaillé-Coll, classé au titre des monuments historiques depuis 1970 et remis en état lors d'une campagne de restauration en 2017. C'est le genre d'instrument qu'on ne remarque pas en poussant la porte d'une église de banlieue, et qui vaut pourtant le détour : le facteur en question a signé les orgues de Saint-Sulpice et de Notre-Dame de Paris. Renseignez-vous sur les concerts et les auditions : un orgue de cette qualité s'écoute, et une visite silencieuse ne dit rien de ce qu'il vaut."
+      },
+      {
+        heading: "7. L'Atelier Grognard",
+        body: "À une centaine de mètres du château, l'Atelier Grognard est une ancienne usine du XIXe siècle qui produisait des plaques de cuivre, de zinc et d'étain pour la gravure et la photogravure. Reconvertie, elle offre plus de 650 m² d'exposition, dont une grande salle éclairée par une verrière, et accueille les expositions organisées par la ville. La programmation change plusieurs fois par an : c'est donc à vérifier avant de venir, mais c'est aussi ce qui permet de revenir à Rueil sans revoir la même chose, ce que Malmaison seul ne permet pas."
+      },
+      {
+        heading: "8. Le parc des Impressionnistes et les bords de Seine",
+        body: "La commune s'étend jusqu'à la Seine, et le parc des Impressionnistes, aménagé côté fleuve, rappelle que cette boucle a été un motif de peinture avant d'être une banlieue. C'est un espace récent, dessiné, sans monument à visiter, et c'est très bien ainsi : après une matinée de mobilier Empire, une heure au bord de l'eau remet les idées en place. Les berges se prêtent à la marche et au vélo, et c'est le seul endroit d'où l'on regarde Rueil comme une ville de fleuve plutôt que comme une ville de RER."
+      },
+      {
+        heading: "9. Faire le tour en petit train",
+        body: "La ville propose un circuit en petit train touristique d'environ une heure et quart, qui passe par les bords de Seine, le parc des Impressionnistes et le parc de Bois-Préau, et longe le château de Malmaison. Ce n'est pas la formule la plus sérieuse du monde, et c'est précisément l'intérêt : les sites de Rueil sont éloignés les uns des autres, la commune est étendue, et faire ce parcours à pied prend une demi-journée. Avec des enfants ou par temps incertain, c'est le moyen le plus efficace de relier les points."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Le RER A dessert Rueil-Malmaison, ce qui met la ville à une vingtaine de minutes du centre de Paris. La gare est à l'écart du château : prévoyez une marche ou un bus, et ne comptez pas sortir du train devant Malmaison. Une journée suffit largement pour le château, le parc, l'église et Bois-Préau ; une demi-journée si vous ne faites que Malmaison. La ville se combine ensuite avec Saint-Germain-en-Laye sur la même ligne, ou avec Boulogne-Billancourt et Neuilly-sur-Seine, qui racontent une tout autre époque de l'ouest parisien."
+      }
+    ],
+    relatedCities: ["rueil-malmaison", "boulogne-billancourt", "neuilly-sur-seine"],
+    relatedGuides: [
+      "10-choses-a-faire-a-boulogne-billancourt-2026",
+      "10-choses-a-faire-a-neuilly-sur-seine-2026",
+      "10-choses-a-faire-a-versailles-2026",
+      "10-choses-a-faire-a-poissy-2026"
+    ],
+    tags: ["10 choses à faire à Rueil-Malmaison", "activités Rueil-Malmaison 2026", "que faire dans les Hauts-de-Seine", "sorties Île-de-France Empire", "château de Malmaison Joséphine Bois-Préau"]
+  },
+  {
+    slug: "10-choses-a-faire-a-vernon-2026",
+    title: "10 choses à faire à Vernon",
+    metaTitle: "10 choses à faire à Vernon en 2026",
+    metaDesc: "Le Vieux-Moulin sur la Seine, le château des Tourelles, le musée Blanche Hoschedé-Monet, Giverny à côté : 10 activités à Vernon, dans l'Eure.",
+    category: "tourisme",
+    emoji: "🎨",
+    readMinutes: 7,
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    intro: "Vernon comptait 24 841 habitants au recensement de 2022, contre 24 772 en 2011 : une population stable, dans une ville que des centaines de milliers de visiteurs traversent chaque année sans la voir. Ils descendent en gare de Vernon-Giverny, prennent la navette et vont chez Monet. Ils ont raison d'aller à Giverny, et tort de ne pas s'arrêter : Vernon possède un moulin à colombages posé sur les piles d'un pont médiéval, un château de Philippe Auguste presque inchangé depuis huit cents ans, et un musée dont les collections impressionnistes sont réelles.",
+    sections: [
+      {
+        heading: "1. Le Vieux-Moulin",
+        body: "C'est l'image de Vernon : un bâtiment à colombages posé à cheval sur deux piles de l'ancien pont sur la Seine. Le pont date du XIIe siècle, le moulin lui-même est vraisemblablement du XVIe, et c'est le dernier survivant des six moulins à farine qui étaient installés sur les piles du pont médiéval. Claude Monet l'a peint sous le titre Vieille maison sur le pont, toile aujourd'hui conservée au musée des beaux-arts de La Nouvelle-Orléans. Il ne se visite pas : il se regarde depuis la berge, et c'est de loin le plus beau point de vue de la ville."
+      },
+      {
+        heading: "2. Le château des Tourelles",
+        body: "Sur la rive droite, face au Vieux-Moulin, le château des Tourelles a été élevé après 1196, quand Philippe Auguste s'empare de Vernon et en fait une place militaire sur la frontière avec le duché de Normandie anglo-normand. C'est une tour carrée flanquée de quatre tourelles rondes, haute d'une vingtaine de mètres, et c'est l'un des rares châteaux français qui n'ait pratiquement pas changé en huit cents ans. On comprend en une minute pourquoi il est là : il tient le pont, et le pont tient la vallée de la Seine."
+      },
+      {
+        heading: "3. La collégiale Notre-Dame",
+        body: "La collégiale domine le centre-ville avec une façade de gothique flamboyant normand qui est le morceau de bravoure de l'édifice. Le chantier s'est étalé sur plusieurs siècles, ce qui se lit dans le bâtiment : les parties les plus anciennes et la façade ne racontent pas la même chose. L'entrée est libre. Elle a survécu à ce qui a détruit une grande partie du reste, et c'est autour d'elle que se reconstitue le centre historique de la ville pour qui prend le temps de lever les yeux plutôt que de traverser vers l'arrêt de la navette."
+      },
+      {
+        heading: "4. Le musée Blanche Hoschedé-Monet",
+        body: "Attention au nom : le musée municipal a été rebaptisé musée Blanche Hoschedé-Monet en 2024, et de nombreux guides et panneaux le désignent encore comme musée Alphonse-Georges-Poulain, nom qui lui avait été donné en 1966 en hommage à l'archéologue et conservateur qui dirigeait l'établissement depuis 1922. Le musée est né en 1862 d'un legs de collections d'histoire naturelle, et il occupe depuis 1983 un ancien hôtel particulier du centre ancien. Ses collections vont de Claude Monet à Pierre Bonnard : c'est de la peinture impressionniste sur la Seine, à quelques kilomètres de l'endroit où elle a été faite."
+      },
+      {
+        heading: "5. Blanche Hoschedé-Monet, qui donne son nom au musée",
+        body: "Le nouveau nom du musée a été choisi par les habitants de Vernon, et il désigne une peintre longtemps réduite à sa situation familiale : belle-fille de Claude Monet, elle a peint elle-même, et son œuvre est aujourd'hui reconsidérée. C'est une entrée intéressante dans le sujet, parce qu'elle déplace le regard : Giverny n'a pas été l'atelier d'un homme seul mais un milieu, avec une famille recomposée, des élèves, des visiteurs et des peintres américains. La visite du musée avant celle de Giverny change ce que l'on voit ensuite dans le jardin."
+      },
+      {
+        heading: "6. Giverny, accessible depuis Vernon",
+        body: "Giverny est une commune à part entière, à cinq à sept kilomètres du centre de Vernon selon le point de départ : ce n'est pas un quartier de Vernon, et le dire évite les mauvaises surprises. On y trouve la maison et les jardins de Claude Monet, gérés par la Fondation Claude Monet, et le musée des impressionnismes, créé en 2009. La liaison depuis la gare se fait par navette, à vélo le long d'une voie verte, ou à pied pour qui accepte une bonne heure de marche. Réservez la maison de Monet à l'avance : c'est un des sites les plus fréquentés de Normandie."
+      },
+      {
+        heading: "7. La tour des Archives",
+        body: "Dans le centre ancien, la tour des Archives est le vestige du château médiéval de Vernon, côté ville, et elle a survécu aux bombardements. C'est un donjon massif que l'on aperçoit de plusieurs rues et qui donne, avec le château des Tourelles sur l'autre rive, la mesure de ce qu'était le verrou militaire de Vernon. Les deux ouvrages se répondent de part et d'autre du fleuve : les regarder l'un après l'autre est la meilleure façon de comprendre pourquoi cette ville, qui n'a jamais été grande, a été disputée pendant des siècles."
+      },
+      {
+        heading: "8. Ce que 1944 a emporté",
+        body: "Le patrimoine médiéval de Vernon était bien plus abondant avant les bombardements de la Seconde Guerre mondiale, qui en ont détruit une grande partie. C'est l'explication de ce que l'on voit aujourd'hui : des monuments isolés, souvent remarquables, au milieu d'un tissu urbain reconstruit. Le savoir change la promenade, parce qu'on cesse de chercher un centre médiéval continu qui n'existe plus et qu'on regarde chaque bâtiment ancien pour ce qu'il est — un survivant. C'est une histoire que partagent beaucoup de villes de la vallée de la Seine, rarement dite aussi clairement sur place."
+      },
+      {
+        heading: "9. Le château de Bizy",
+        body: "Sur la commune de Vernon, le château de Bizy est un château classique du XVIIIe siècle, surnommé le petit Versailles normand, avec des écuries monumentales, des fontaines du XVIIIe et un parc à l'anglaise d'une vingtaine d'hectares. Il conserve des souvenirs napoléoniens. C'est la visite qui manque à la plupart des programmes de la journée, parce qu'elle demande de rester à Vernon au lieu de filer à Giverny. Si vous avez deux jours dans le secteur, c'est le complément le plus évident : ni le même siècle, ni le même sujet que la peinture."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "La gare de Vernon-Giverny est desservie depuis Paris-Saint-Lazare en moins d'une heure sur la ligne de Rouen, et la navette pour Giverny part devant la gare. Le piège classique est de tout donner à Giverny : comptez une demi-journée pour la maison et les jardins, et gardez l'autre moitié pour Vernon, où le musée, la collégiale, le Vieux-Moulin et les deux tours tiennent dans un périmètre de marche. Deux jours permettent d'ajouter Bizy et une remontée de la Seine vers Les Andelys, en aval de la vallée."
+      }
+    ],
+    relatedCities: ["vernon", "rouen", "dieppe"],
+    relatedGuides: [
+      "10-choses-a-faire-a-rouen-2026",
+      "10-choses-a-faire-a-dieppe-2026",
+      "10-choses-a-faire-a-honfleur-2026",
+      "10-choses-a-faire-a-bayeux-2026"
+    ],
+    tags: ["10 choses à faire à Vernon", "activités Vernon 2026", "que faire dans l'Eure", "sorties Normandie impressionnisme", "Vieux-Moulin Giverny musée Blanche Hoschedé-Monet"]
+  },
+  {
+    slug: "10-choses-a-faire-a-dole-2026",
+    title: "10 choses à faire à Dole",
+    metaTitle: "10 choses à faire à Dole en 2026",
+    metaDesc: "La maison natale de Pasteur, le canal des Tanneurs, le clocher de 73 mètres, l'Hôtel-Dieu, la forêt de Chaux : 10 activités à Dole, dans le Jura.",
+    category: "tourisme",
+    emoji: "🔬",
+    readMinutes: 7,
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    intro: "Dole comptait 23 784 habitants au recensement de 2022, contre 24 009 en 2011. C'est peu pour une ville qui a été la capitale de la Franche-Comté et qui a eu son université pendant près de trois siècles : Dole est une ancienne capitale, et cela s'entend dans la disproportion entre la taille de la ville et celle de ses monuments. Elle est aussi la ville natale de Louis Pasteur, et sa maison est là, au bord d'un canal, exactement où on l'attend.",
+    sections: [
+      {
+        heading: "1. La maison natale de Pasteur",
+        body: "Louis Pasteur naît à Dole le 27 décembre 1822, dans une maison de tanneur au bord du canal des Tanneurs. La maison est devenue un musée en 1923, pour le centenaire de sa naissance, et elle se visite. L'intérêt tient à la modestie du lieu autant qu'à la trajectoire de l'homme : c'est un logement d'artisan, dans un quartier d'artisans, et le décalage avec la statue mondiale de Pasteur est précisément ce que la visite raconte. Le musée met en scène les grandes étapes de ses travaux sans faire d'un scientifique un saint."
+      },
+      {
+        heading: "2. Le canal des Tanneurs",
+        body: "Le canal traverse le bas de la vieille ville et donne à ce quartier son surnom de petite Venise, avec ses maisons pied dans l'eau, ses lavoirs et ses passerelles. C'est un canal de travail : le nom dit l'activité qui l'a creusé, et la maison de Pasteur est là parce que son père était tanneur, pas parce que le décor est joli. La promenade se fait en vingt minutes et c'est le plus court chemin pour comprendre la topographie de Dole : la ville basse au bord de l'eau, la ville haute au-dessus, et un escalier entre les deux."
+      },
+      {
+        heading: "3. La collégiale Notre-Dame et son clocher",
+        body: "Le clocher domine la ville de ses 73 mètres, et son histoire explique sa silhouette. Achevé en 1596 sur un dessin de Hugues Sambin inspiré du dôme de l'église Santa Maria di Carignano à Gênes, il culminait alors à 82 mètres. Endommagé pendant le siège de 1636 par les troupes de Condé, puis par une tempête, il a été reconstruit neuf mètres plus bas. On regarde donc aujourd'hui un clocher amputé de sa flèche d'origine, ce que rien n'indique sur place et qui change la lecture de la façade."
+      },
+      {
+        heading: "4. Dole, capitale de la Franche-Comté",
+        body: "Dole a été la capitale de la Franche-Comté jusqu'en 1678, année où le traité de Nimègue confirme le rattachement de la province à la France. La ville en garde une échelle de monuments qui ne correspond pas à sa population actuelle : hôtels particuliers, édifices publics, fortifications. C'est la clé de lecture à garder pendant toute la visite, sans quoi on trouve simplement que la ville a de belles pierres. Après 1678, Besançon prend la place, et Dole devient ce qu'elle est restée : une ville moyenne avec un patrimoine de capitale."
+      },
+      {
+        heading: "5. L'université partie à Besançon",
+        body: "L'université de Franche-Comté est née à Dole et y est restée jusqu'en 1691, année où Louis XIV ordonne par lettres patentes, en pleine guerre de la Ligue d'Augsbourg, son transfert dans sa ville de Besançon. C'est le second coup dur après la perte du statut de capitale, et à treize ans d'intervalle. Aucun bâtiment ne le raconte vraiment, mais c'est l'information qui explique pourquoi une ville de vingt-quatre mille habitants a un centre ancien de cette densité : elle a hébergé pendant des siècles une population d'étudiants, de juristes et d'administrateurs."
+      },
+      {
+        heading: "6. L'Hôtel-Dieu devenu médiathèque",
+        body: "L'ancien Hôtel-Dieu déploie sa longue façade et sa balustrade sculptée au-dessus du canal des Tanneurs. Réhabilité entre 1998 et 2000, il abrite aujourd'hui la médiathèque centrale, la bibliothèque patrimoniale et les archives. C'est une des reconversions les plus réussies de ce genre de bâtiment en France : on entre librement, on traverse une cour, et on lit dans des volumes conçus pour soigner. Passez-y même sans emprunter de livre, ne serait-ce que pour voir ce qu'un ancien hôpital peut devenir quand on ne le transforme pas en logements."
+      },
+      {
+        heading: "7. La montée vers la ville haute",
+        body: "Entre le canal et la collégiale, la vieille ville se gravit par des rues étroites, des escaliers et des passages, avec des portes anciennes et des cours qu'on aperçoit. C'est un centre compact, en grande partie protégé, qui se fait en une heure sans plan précis — l'essentiel est de monter, puis de redescendre par un autre chemin. Le contraste entre le quartier des tanneurs, au ras de l'eau, et la ville haute des chanoines et des parlementaires, est la meilleure leçon d'histoire sociale que Dole propose, et elle est gratuite."
+      },
+      {
+        heading: "8. Le Doubs et le canal du Rhône au Rhin",
+        body: "Dole est sur le Doubs, doublé par le canal du Rhône au Rhin, ce qui lui donne un port de plaisance et de longues berges praticables. C'est une des grandes voies fluviales de l'est de la France, et Dole en est une étape naturelle : on y voit passer des bateaux, on y loue des vélos, et les chemins de halage offrent des dizaines de kilomètres de plat, ce qui est rare dans une région qui monte vite. Pour une famille, c'est le complément évident d'une matinée de monuments."
+      },
+      {
+        heading: "9. La forêt de Chaux, accessible depuis Dole",
+        body: "À l'est de la ville commence la forêt de Chaux, deuxième massif forestier feuillu de France après celui d'Orléans, avec 20 493 hectares s'étirant sur une trentaine de kilomètres de long. Elle relève des communes voisines, dont La Vieille-Loye, et non de Dole : on y accède depuis la ville, on n'y est pas. C'est un massif de charbonniers et de bûcherons, avec des sentiers balisés et une histoire industrielle qui se lit encore dans le sol. Comptez une demi-journée, et de vraies chaussures."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Dole est sur la ligne de Dijon à Besançon et dispose d'une gare en centre-ville : le centre ancien se fait entièrement à pied depuis le train. Une journée pleine suffit pour la maison de Pasteur, la collégiale, l'Hôtel-Dieu et la vieille ville ; une seconde permet d'ajouter la forêt ou le canal. La ville se combine ensuite avec Besançon à l'est et Dijon à l'ouest, deux capitales qui lui ont pris respectivement son université et une part de son rôle régional, ce qui rend la comparaison instructive."
+      }
+    ],
+    relatedCities: ["dole", "besancon", "lons-le-saunier"],
+    relatedGuides: [
+      "10-choses-a-faire-a-besancon-2026",
+      "10-choses-a-faire-a-lons-le-saunier-2026",
+      "10-choses-a-faire-a-beaune-2026",
+      "10-choses-a-faire-a-dijon-2026"
+    ],
+    tags: ["10 choses à faire à Dole", "activités Dole 2026", "que faire dans le Jura", "sorties Bourgogne-Franche-Comté patrimoine", "maison natale Pasteur canal des Tanneurs forêt de Chaux"]
+  },
+  {
+    slug: "10-choses-a-faire-a-soissons-2026",
+    title: "10 choses à faire à Soissons",
+    metaTitle: "10 choses à faire à Soissons en 2026",
+    metaDesc: "Les tours de Saint-Jean-des-Vignes, la cathédrale et son Rubens, le musée Saint-Léger, le vase de Clovis : 10 activités à Soissons, dans l'Aisne.",
+    category: "tourisme",
+    emoji: "⛪",
+    readMinutes: 7,
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    intro: "Soissons comptait 28 667 habitants au recensement de 2022, contre 28 551 en 2011. Deux choses y attirent : une abbaye dont il ne reste que la façade, et dont cette façade seule suffit à faire le voyage, et une cathédrale qui contient un Rubens. Ajoutez un vase cassé en 486 que tout le monde connaît sans savoir où c'était, et vous avez une ville moyenne de l'Aisne qui possède un des paysages monumentaux les plus spectaculaires du nord de la France, à une heure et quelque de Paris.",
+    sections: [
+      {
+        heading: "1. La façade de Saint-Jean-des-Vignes",
+        body: "C'est la silhouette de Soissons : la façade de l'ancienne abbatiale Saint-Jean-des-Vignes, avec ses deux tours de 75 et 80 mètres coiffées de flèches ajourées, dans le vocabulaire du gothique flamboyant du XVe siècle. Derrière, il n'y a rien : ni nef, ni chœur, ni voûte. On regarde un mur monumental et le ciel au travers. C'est ce vide qui fait l'impression, et aucune photographie ne le rend correctement. L'ensemble est en accès libre et il vaut la peine d'y revenir en fin de journée, quand la lumière passe dans les baies."
+      },
+      {
+        heading: "2. Pourquoi il ne reste que la façade",
+        body: "Le site est vendu en 1804 à l'évêque de Soissons, et en 1805 l'autorisation est donnée d'employer les matériaux de l'abbatiale aux travaux de restauration de la cathédrale. Le démontage s'étale de 1805 à 1825 : l'abbaye a été utilisée comme carrière pour réparer l'autre grand monument de la ville. La façade a été sauvée in extremis, plusieurs voix s'étant élevées pour sa conservation, dont celle de Victor Hugo. C'est une des affaires fondatrices de la notion de monument historique en France, et elle s'est jouée ici."
+      },
+      {
+        heading: "3. Le cloître et les bâtiments conventuels",
+        body: "Autour de la façade subsistent des parties du cloître, le réfectoire et le cellier, qui donnent la mesure de ce qu'était l'abbaye avant sa démolition. Ces bâtiments accueillent aujourd'hui des expositions et des activités culturelles, et le site est un lieu de vie de la ville plutôt qu'une ruine sous cloche. La combinaison est étrange et réussie : on passe d'un mur de quatre-vingts mètres à des salles voûtées de dimensions humaines, et on comprend qu'une abbaye était une petite ville avant d'être une église."
+      },
+      {
+        heading: "4. La cathédrale Saint-Gervais-et-Saint-Protais",
+        body: "La cathédrale est un des grands édifices gothiques du nord de la France : la nef fait 110 mètres de long et 30,33 mètres sous voûte, et la tour s'élève à 66 mètres. Elle a beaucoup souffert des combats de la Première Guerre mondiale et a été restaurée après-guerre, ce qui se lit dans certaines parties. L'entrée est libre. Elle est moins connue que ses voisines de Laon et de Reims, elle est de la même famille et de la même ambition, et c'est une des raisons pour lesquelles Soissons mérite mieux que sa réputation."
+      },
+      {
+        heading: "5. Le croisillon sud arrondi",
+        body: "C'est la singularité architecturale de l'édifice, et elle est visible sans connaissances particulières : le bras sud du transept est arrondi, avec un déambulatoire et une grande chapelle ronde à étage, alors que le bras nord se termine par un mur plat. Cette partie appartient à la seconde moitié du XIIe siècle, construite autour de 1176-1190, et c'est la plus ancienne de la cathédrale. Il n'existe presque aucun autre exemple français de transept traité ainsi. Entrez, tournez à droite, et regardez au-dessus de vous."
+      },
+      {
+        heading: "6. Le Rubens de la cathédrale",
+        body: "L'Adoration des bergers de Pierre Paul Rubens, peinte vers 1618-1620, est accrochée dans le bras nord du transept, dans un cadre doré du XVIIIe siècle. Le tableau est arrivé à Soissons peu après sa réalisation, sous l'épiscopat de Simon Le Gras, dont les armes ont été ajoutées en bas de la toile. Il a été évacué pendant les deux guerres mondiales pour le protéger, puis restauré en 1949 et en 1993. Un Rubens de ce format dans une cathédrale de sous-préfecture, en accès libre : c'est rare, et cela ne s'annonce nulle part."
+      },
+      {
+        heading: "7. Le musée Saint-Léger",
+        body: "Le musée d'art et d'histoire occupe depuis 1933 les bâtiments de l'ancienne abbaye Saint-Léger, ce qui fait de la visite deux visites : l'abbaye et les collections. Celles-ci couvrent l'archéologie, les beaux-arts et la création contemporaine. Le musée municipal de Soissons est ancien — il avait été inauguré en 1857 — et il a la densité des collections de ville de province constituées au XIXe siècle. Renseignez-vous sur les jours et les conditions d'accès avant de venir. C'est le troisième grand édifice religieux du parcours, après l'abbatiale disparue et la cathédrale, et le plus tranquille des trois."
+      },
+      {
+        heading: "8. Le vase de Soissons",
+        body: "L'épisode est raconté pour la première fois par Grégoire de Tours au livre II de son Histoire des Francs : après le pillage qui suit la bataille de 486, un vase d'une taille et d'une beauté remarquables est pris dans une église, Clovis veut le rendre à l'évêque, un guerrier le brise, et le roi le tue un an plus tard. Le vase n'existe pas, personne ne l'a jamais retrouvé, et il n'y a rien à voir. C'est un récit, écrit un siècle après les faits, et savoir cela vaut mieux que de chercher une vitrine."
+      },
+      {
+        heading: "9. Soissons, capitale des premiers rois francs",
+        body: "La bataille de 486 contre Syagrius fait de Soissons une des bases du pouvoir de Clovis, et la ville sera ensuite capitale d'un royaume mérovingien. C'est l'information qui donne du sens au reste : cette ville a été un centre politique majeur pendant plusieurs siècles, bien avant que Paris ne prenne toute la place, et sa densité monumentale médiévale en découle. Elle a payé cher au XXe siècle — le front de 1914-1918 est passé ici — et ce qu'elle a gardé n'en est que plus remarquable."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Soissons est desservie depuis Paris-Nord par la ligne de Laon, en un peu plus d'une heure, et la gare est à distance de marche du centre. Une journée suffit largement : l'abbaye, la cathédrale, le musée et le centre tiennent dans un périmètre réduit, et l'ensemble se fait à pied sans jamais reprendre un transport. La ville se combine ensuite avec Laon, dont la cathédrale se voit à des kilomètres, et avec Compiègne : trois villes, trois échelles, et le même moment de l'histoire de l'architecture."
+      }
+    ],
+    relatedCities: ["soissons", "laon", "reims"],
+    relatedGuides: [
+      "10-choses-a-faire-a-laon-2026",
+      "10-choses-a-faire-a-compiegne-2026",
+      "10-choses-a-faire-a-saint-quentin-2026",
+      "10-choses-a-faire-a-reims-2026"
+    ],
+    tags: ["10 choses à faire à Soissons", "activités Soissons 2026", "que faire dans l'Aisne", "sorties Hauts-de-France gothique", "Saint-Jean-des-Vignes cathédrale Rubens vase de Soissons"]
+  },
+  {
+    slug: "10-choses-a-faire-a-cambrai-2026",
+    title: "10 choses à faire à Cambrai",
+    metaTitle: "10 choses à faire à Cambrai en 2026",
+    metaDesc: "Le beffroi inscrit à l'UNESCO, la cathédrale et le mausolée de Fénelon, le musée, la bataille de chars de 1917 : 10 activités à Cambrai, dans le Nord.",
+    category: "tourisme",
+    emoji: "🔔",
+    readMinutes: 7,
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    intro: "Cambrai comptait 31 568 habitants au recensement de 2022, contre 32 770 en 2011 : la ville perd des habitants, comme une grande partie du Cambrésis. Elle garde une cité épiscopale complète, un beffroi inscrit à l'UNESCO, un musée dont les dépôts de l'État valent le voyage, et le souvenir de la première grande offensive de chars de l'histoire, en novembre 1917. C'est aussi la ville d'un bonbon dont deux familles se sont disputé la paternité devant un tribunal.",
+    sections: [
+      {
+        heading: "1. Le beffroi",
+        body: "Le beffroi de Cambrai est l'ancien clocher de l'église Saint-Martin, construit entre 1447 et 1474, haut de 62 mètres, et devenu beffroi officiel après la Révolution. Il est inscrit au patrimoine mondial de l'UNESCO depuis 2005, dans l'ensemble des beffrois de Belgique et de France. Un beffroi n'est pas un clocher : c'est une tour civile, symbole des libertés communales, où l'on gardait les chartes de la ville et d'où l'on sonnait l'alerte. Celui-ci a été une église avant d'être une mairie, ce qui résume assez bien l'histoire du Nord."
+      },
+      {
+        heading: "2. La cathédrale, qui était une abbatiale",
+        body: "L'actuelle cathédrale Notre-Dame-de-Grâce est l'ancienne abbatiale du Saint-Sépulcre, entièrement rebâtie entre 1696 et 1702 dans le style classique, sous l'épiscopat de Fénelon. Elle n'est devenue cathédrale qu'en 1804, quand l'évêque Louis Belmas lui a transféré ce statut. C'est donc un bâtiment conçu pour une abbaye qui remplit depuis deux siècles la fonction d'une autre. L'intérieur est vaste, clair et sobre, très loin de l'idée qu'on se fait d'une cathédrale du Nord, et c'est justement pour cette raison qu'il faut y entrer."
+      },
+      {
+        heading: "3. La cathédrale gothique qui n'existe plus",
+        body: "Avant elle, Cambrai possédait une cathédrale gothique dont la flèche atteignait 110 mètres et qu'on comptait parmi les merveilles des Pays-Bas. Elle a été détruite à la suite de la Révolution. Il n'en reste rien à visiter, et c'est précisément ce qu'il faut savoir avant d'entrer dans l'édifice actuel : on ne regarde pas la grande cathédrale de Cambrai, on regarde ce qui a pris sa place. Cette disparition explique aussi pourquoi la ville, qui fut un siège archiépiscopal de premier plan, ne le montre plus au premier coup d'œil."
+      },
+      {
+        heading: "4. Le mausolée de Fénelon et l'icône",
+        body: "La cathédrale abrite deux pièces majeures. Le mausolée de Fénelon, archevêque de Cambrai et auteur du Télémaque, a été sculpté par David d'Angers en 1826 : c'est une des grandes sculptures funéraires du XIXe siècle français. L'icône de Notre-Dame de Grâce, peinte vers 1340 dans un style italo-byzantin, est l'objet de dévotion qui donne son nom à l'édifice. Deux œuvres séparées de cinq siècles, dans un bâtiment qui n'a été conçu ni pour l'une ni pour l'autre : la visite se joue là."
+      },
+      {
+        heading: "5. La chapelle du Grand Séminaire",
+        body: "L'ancien collège des jésuites, devenu Grand Séminaire, conserve une chapelle qui figure parmi les monuments historiques de la ville et qui est un des rares témoins du baroque jésuite dans le Nord. C'est un édifice qu'on longe sans le voir si personne ne le signale, et sa façade mérite un arrêt. Comme beaucoup d'édifices de ce type, il n'est pas ouvert en permanence : renseignez-vous à l'office de tourisme sur les jours d'accès, plutôt que de compter sur une porte ouverte au hasard d'une promenade."
+      },
+      {
+        heading: "6. La maison espagnole",
+        body: "Construite en 1595, pendant l'occupation espagnole qui lui a valu son nom, la maison espagnole est une maison à pans de bois à pignon sur rue, avec un encorbellement de bois, un pignon couvert d'ardoise et des murs de pierre blanche destinés à limiter le risque d'incendie. C'est le dernier exemplaire de ce type de construction à Cambrai, alors qu'il était courant du Moyen Âge au XVIIe siècle. Elle abrite l'office de tourisme : c'est donc le premier arrêt logique de la visite, et le bâtiment fait partie de ce qu'on vient voir."
+      },
+      {
+        heading: "7. Le musée des Beaux-Arts",
+        body: "Installé dans l'hôtel de Francqueville, bâti en 1720, le musée de Cambrai possède une des collections les plus riches du Nord, présentée avec un soin de muséographie qui n'est pas la norme dans les villes de cette taille. Le parcours va de l'archéologie du Cambrésis à la création contemporaine, et le XIXe siècle y est particulièrement bien servi : l'État y a déposé des œuvres majeures à partir de 1923, et on y voit Ingres, Carpeaux, Chassériau, Rodin, Camille Claudel, Boudin, Bourdelle et Le Sidaner. C'est la visite la plus sous-estimée de la ville."
+      },
+      {
+        heading: "8. La bataille de Cambrai, novembre 1917",
+        body: "Du 20 novembre au 7 décembre 1917 se joue ici la première offensive de chars menée à grande échelle. Les Britanniques engagent 476 chars, dont 378 au combat, et perforent la ligne Hindenburg sur neuf à douze kilomètres — sauf devant Flesquières, où la défense allemande et une mauvaise coordination entre l'infanterie et les chars bloquent l'avance. La contre-attaque allemande commence le 30 novembre et le terrain gagné est perdu début décembre. C'est une bataille sans vainqueur, et une date fondatrice pour tout ce qui suivra en matière de guerre blindée."
+      },
+      {
+        heading: "9. Le char Deborah, accessible depuis Cambrai",
+        body: "Deborah D51 est un Mark IV femelle, c'est-à-dire armé de mitrailleuses, de 28 tonnes pour 8 mètres de long et 2,5 mètres de haut, l'un des 378 chars engagés le 20 novembre 1917. Il a été retrouvé en novembre 1998 par l'historien Philippe Gorczynski, sous trois mètres de terre où il était resté 81 ans. Le centre d'interprétation Cambrai Tank 1917, inauguré le 25 novembre 2017, l'abrite à Flesquières, commune située à une dizaine de kilomètres de Cambrai — pas dans la ville. Quatre des huit hommes de l'équipage reposent dans le cimetière du Commonwealth voisin."
+      },
+      {
+        heading: "10. Les bêtises, et comment venir",
+        body: "La bêtise de Cambrai naît vers 1830 d'une erreur de dosage dans une confiserie de la ville, et deux familles s'en sont disputé la paternité : le procès s'achève en 1889 sur un compromis, Afchain reconnu seul inventeur et Despinoy créateur. Les deux maisons existent toujours. Côté accès, Cambrai est desservie par le train depuis Lille et depuis Paris via Douai ou Saint-Quentin, et le centre se fait entièrement à pied. Comptez une journée pour la ville, une seconde si vous poussez jusqu'à Flesquières et aux cimetières militaires du Cambrésis."
+      }
+    ],
+    relatedCities: ["cambrai", "douai", "valenciennes"],
+    relatedGuides: [
+      "10-choses-a-faire-a-douai-2026",
+      "10-choses-a-faire-a-valenciennes-2026",
+      "10-choses-a-faire-a-arras-2026",
+      "10-choses-a-faire-a-lille-2026"
+    ],
+    tags: ["10 choses à faire à Cambrai", "activités Cambrai 2026", "que faire dans le Nord", "sorties Hauts-de-France beffrois", "beffroi UNESCO Fénelon bataille de chars 1917"]
+  },
+  {
+    slug: "10-choses-a-faire-a-carpentras-2026",
+    title: "10 choses à faire à Carpentras",
+    metaTitle: "10 choses à faire à Carpentras en 2026",
+    metaDesc: "La plus ancienne synagogue de France en activité, la cathédrale Saint-Siffrein, l'Inguimbertine, le marché du vendredi : 10 activités à Carpentras.",
+    category: "tourisme",
+    emoji: "🕍",
+    readMinutes: 7,
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    intro: "Carpentras comptait 30 854 habitants au recensement de 2022, contre 28 815 en 2011 : la ville gagne des habitants, ce qui n'est pas si courant dans le Vaucluse intérieur. Elle a été la capitale du Comtat Venaissin, territoire pontifical resté hors du royaume de France jusqu'à la Révolution, et cette histoire particulière lui a laissé la plus ancienne synagogue de France encore en activité. Ajoutez un arc romain, une cathédrale, une bibliothèque-musée sans équivalent et un des grands marchés de Provence.",
+    sections: [
+      {
+        heading: "1. La synagogue de 1367",
+        body: "C'est le monument qui rend Carpentras unique : la synagogue a été construite en 1367 et c'est la plus ancienne synagogue de France encore en activité. Elle a été restaurée au XVIIIe siècle par l'architecte Antoine d'Allemand, et la salle de prière porte un décor baroque de cette époque, avec ses colonnes et ses faux marbres. Le rez-de-chaussée conserve les parties les plus anciennes du bâtiment : les bains rituels et deux fours, dont l'un était réservé à la préparation du pain azyme. C'est un lieu de culte : la visite se fait aux horaires prévus et avec la tenue qui convient."
+      },
+      {
+        heading: "2. Les carrières et le Comtat Venaissin",
+        body: "L'explication tient en une date : les juifs sont expulsés du royaume de France en 1306, et beaucoup trouvent refuge en terre pontificale, dans le Comtat, où ils sont autorisés à résider dans quatre villes — Carpentras, Cavaillon, Avignon et L'Isle-sur-la-Sorgue. Ces quartiers, appelés carrières, étaient contraints et surpeuplés : le statut de refuge n'était pas celui d'égalité. Connaître ce cadre change la visite de la synagogue, qui n'est pas le vestige pittoresque d'une communauté disparue mais la trace matérielle d'un régime juridique précis, dans une ville qui n'était pas française."
+      },
+      {
+        heading: "3. La cathédrale Saint-Siffrein",
+        body: "Le chantier de la cathédrale est ouvert en 1404 sur ordre de l'antipape Benoît XIII et s'achève en 1519, avec une façade baroque ajoutée au XVIIe siècle. C'est un gothique méridional, à nef unique et large, très différent des cathédrales du nord : on y entre en s'attendant à de la verticalité, on y trouve un grand volume unifié. L'entrée est libre. Le décalage entre l'ampleur du bâtiment et la taille de la ville s'explique par le même fait que le reste : Carpentras était une capitale, dans un État qui n'était pas la France."
+      },
+      {
+        heading: "4. La porte juive",
+        body: "Le portail sud de la cathédrale, de style gothique tardif, est traditionnellement appelé porte Juive parce que les juifs convertis y étaient conduits pour recevoir le baptême. Le nom est ancien et il dit sans détour ce qu'était la coexistence dans le Comtat : une tolérance encadrée, assortie d'une pression continue à la conversion. C'est le pendant exact de la synagogue, à trois cents mètres de là, et regarder les deux dans la même matinée est la façon honnête de visiter Carpentras — l'une n'est pas le témoignage d'une harmonie que l'autre dément."
+      },
+      {
+        heading: "5. L'arc romain",
+        body: "Derrière la cathédrale subsiste un arc romain du Ier siècle, seul vestige monumental notable de la ville antique. Il est de petites dimensions et coincé entre des bâtiments postérieurs, ce qui lui donne un air d'objet oublié — mais ses reliefs, notamment ses représentations de captifs, sont d'un intérêt réel. Il rappelle que Carpentras existait bien avant les papes, sur une voie de passage entre le Rhône et les Alpes. Comptez dix minutes : c'est une étape, pas une visite, et elle se fait naturellement en sortant de la cathédrale."
+      },
+      {
+        heading: "6. L'Inguimbertine à l'hôtel-Dieu",
+        body: "C'est la curiosité culturelle de la ville : une bibliothèque-musée, institution sans équivalent à l'échelle municipale en France, installée dans l'hôtel-Dieu. Le bâtiment a été financé par Malachie d'Inguimbert, évêque de Carpentras ; le chantier s'ouvre en 1750 et s'achève en 1769. Après des travaux menés de 2014 à 2017, la première tranche a ouvert au public début novembre 2017, l'inauguration ayant eu lieu le samedi 4 novembre. Le parcours muséal couvre environ 1 800 m², avec quelque 60 000 documents présentés, une quarantaine de tableaux et plus de cent objets."
+      },
+      {
+        heading: "7. L'apothicairerie de l'hôtel-Dieu",
+        body: "Le même hôtel-Dieu conserve son apothicairerie, avec ses boiseries, ses pots de faïence et son mobilier d'origine : c'est un des ensembles pharmaceutiques anciens les mieux conservés de Provence, et il se visite. La force du lieu tient à ce qu'il n'a pas été déplacé — on regarde une pharmacie d'hôpital du XVIIIe siècle dans l'hôpital du XVIIIe siècle qui l'abritait. L'accès peut être limité à certains créneaux ou à des visites guidées : c'est à vérifier sur place le jour même plutôt qu'à supposer acquis."
+      },
+      {
+        heading: "8. Le marché du vendredi",
+        body: "Le marché du vendredi matin est un des grands marchés de Provence, il occupe le centre-ville entier et il est la principale raison pour laquelle beaucoup de gens connaissent le nom de Carpentras. De novembre à mars s'y ajoute le marché aux truffes, qui se tient également le vendredi et qui est un marché professionnel avant d'être une attraction : on y observe des transactions, on n'y fait pas ses courses comme sur un étal de légumes. Organisez votre venue sur un vendredi si vous le pouvez : la ville n'a pas le même visage les autres jours."
+      },
+      {
+        heading: "9. Le berlingot",
+        body: "Le berlingot de Carpentras est un bonbon dur et translucide, en petites pyramides colorées toujours rayées de blanc, fabriqué à partir du sirop de cuisson des fruits confits — c'est-à-dire d'un sous-produit de l'autre spécialité de la ville. Il a d'abord été vendu comme produit médicinal par les apothicaires ; c'est le pâtissier-confiseur carpentrassien François Pascal Long qui, en 1844, lui fait quitter ce statut en le préparant au sirop de fruits confits. Plusieurs confiseries perpétuent la fabrication et certaines se visitent."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "La ligne ferroviaire d'Avignon à Carpentras, longtemps fermée aux voyageurs, a rouvert en avril 2015 : une quinzaine de kilomètres, une trentaine de minutes depuis Avignon-Centre, avec des prolongements vers la gare TGV. C'est ce qui rend Carpentras faisable sans voiture depuis Paris ou Marseille. Une journée suffit pour la synagogue, la cathédrale, l'arc et l'Inguimbertine, en visant un vendredi pour le marché. La ville sert ensuite de base pour le Ventoux, les dentelles de Montmirail et les villages du Comtat, tous à moins d'une heure."
+      }
+    ],
+    relatedCities: ["carpentras", "avignon", "orange"],
+    relatedGuides: [
+      "10-choses-a-faire-a-avignon-2026",
+      "10-choses-a-faire-a-orange-2026",
+      "10-choses-a-faire-a-gordes-2026",
+      "10-choses-a-faire-a-aix-en-provence-2026"
+    ],
+    tags: ["10 choses à faire à Carpentras", "activités Carpentras 2026", "que faire dans le Vaucluse", "sorties Provence patrimoine juif", "synagogue 1367 Saint-Siffrein Inguimbertine berlingot"]
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
