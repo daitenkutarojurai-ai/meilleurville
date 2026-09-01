@@ -1264,6 +1264,25 @@ async function selftest() {
   check("staleness threshold cannot fire on an on-schedule row",
     staleAfter > DUE_AFTER_DAYS + 2, true);
 
+  // — a partial month must state its coverage, not be described —
+  //
+  // The regression this pins: the note under the list was written the day the
+  // only crawl on record had stopped on the 4th, and said a partial month held
+  // "quelques jours". The collector later swept on the 26th and the sentence
+  // kept telling readers that 26 days of 31 were a few and that comparing them
+  // to a full month said nothing. Any fixed adjective is wrong for one of the
+  // two regimes the file carries at the same time, so the wording has to be
+  // computed from the row. Text again — TypeScript, .mjs, no loader.
+  // Comments are stripped first: the rule is about the copy a reader sees, and
+  // the comment explaining the rule necessarily quotes the wording it forbids.
+  const uiSrc = await fs.readFile(path.join(ROOT, "components", "CityNewsSection.tsx"), "utf8");
+  const uiCopy = uiSrc.replace(/\/\*[\s\S]*?\*\//g, " ").replace(/^\s*\/\/.*$/gm, " ");
+  check("the lib exposes the coverage, not just the cut-off",
+    /export function newsPartialCoverage/.test(libSrc), true);
+  check("the partial-month note is computed from the row, not characterised",
+    /daysCounted/.test(uiCopy) && /daysInMonth/.test(uiCopy)
+      && !/quelques jours|a few days/.test(uiCopy), true);
+
   const failed = results.filter((r) => !r).length;
   log(failed ? `\n${failed} check(s) FAILED of ${results.length}` : `\nall ${results.length} checks passed`);
   return failed;

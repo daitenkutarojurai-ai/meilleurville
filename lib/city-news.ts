@@ -239,9 +239,19 @@ function lastDayOfMonth(year: number, month1: number): number {
   return new Date(Date.UTC(year, month1, 0)).getUTCDate();
 }
 
+/** What a mid-month count actually covered. */
+export interface NewsPartialCoverage {
+  /** The day WE stopped counting, ISO. Never a claim about the publisher. */
+  through: string;
+  /** Days of the month our count window spanned (the 1st through `through`). */
+  daysCounted: number;
+  /** Days the month holds. */
+  daysInMonth: number;
+}
+
 /**
- * When a monthly aggregate was counted before its month was over, the ISO date
- * the count stopped at. `null` when the figure covers a whole month.
+ * When a monthly aggregate was counted before its month was over, what the
+ * count covered. `null` when the figure covers a whole month.
  *
  * This is not an edge case, it is the normal state of the freshest line. The
  * crawler buckets BODACC rows on `dateparution`, so the bucket for the month it
@@ -264,8 +274,27 @@ function lastDayOfMonth(year: number, month1: number): number {
  * BODACC had published by then: the publisher's own lag is unknown here, and
  * the per-family spread on the same day (Paris August held 10.6 % of July's
  * registrations but 1.0 % of its insolvencies) shows it is not uniform.
+ *
+ * `daysCounted` / `daysInMonth` exist because the surface must state HOW MUCH
+ * of the month it holds, not describe it. The first write-up of this section
+ * called a partial month "quelques jours", which was exact on 2026-08-11 — the
+ * only crawl that had ever run stopped on the 4th, i.e. 4 days of 31. The
+ * collector then swept again on the 26th and 27th, and the same fixed sentence
+ * went on telling readers that a bucket covering 26 or 27 days of 31 held "a
+ * few days" and that comparing it to a full month "tells you nothing". The file
+ * carries both regimes at once — measured 2026-09-01: 208 entries at 13-16 % of
+ * their month, 1 011 at 84-87 % — so no adjective can be true of all of them.
+ * The denominator can: it is derived from the row itself and stays right at 4/31
+ * and at 27/31 alike, and it lets the reader do the arithmetic instead of being
+ * told what the figure is worth.
+ *
+ * The span is a fact about OUR query window (rows dated from the 1st through
+ * `through`), not an assertion that the publisher had filled it.
  */
-export function newsPartialThrough(slug: string, entry: CityNewsEntry): string | null {
+export function newsPartialCoverage(
+  slug: string,
+  entry: CityNewsEntry,
+): NewsPartialCoverage | null {
   if (!AGGREGATE_KINDS.has(entry.kind)) return null;
   const refreshedAt = cityNewsRefreshedAt(slug);
   if (!refreshedAt) return null;
@@ -274,8 +303,15 @@ export function newsPartialThrough(slug: string, entry: CityNewsEntry): string |
   if (!e || !r) return null;
   // Same calendar month as the crawl, and the crawl did not run on its last day.
   if (e[1] !== r[1] || e[2] !== r[2]) return null;
-  if (Number(r[3]) >= lastDayOfMonth(Number(r[1]), Number(r[2]))) return null;
-  return refreshedAt;
+  const daysInMonth = lastDayOfMonth(Number(r[1]), Number(r[2]));
+  const daysCounted = Number(r[3]);
+  if (daysCounted >= daysInMonth) return null;
+  return { through: refreshedAt, daysCounted, daysInMonth };
+}
+
+/** The cut-off alone, for callers that only need to know a row is partial. */
+export function newsPartialThrough(slug: string, entry: CityNewsEntry): string | null {
+  return newsPartialCoverage(slug, entry)?.through ?? null;
 }
 
 const KIND_LABEL_FR: Record<NewsKind, string> = {

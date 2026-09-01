@@ -2226,6 +2226,34 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
     `ile-de-re` (pas une commune : dix communes, ancrée sur Saint-Martin-de-Ré — non-correctif
     assumé), `dinan` et `selestat` (inexpliquées, à sonder en local avec
     `npm run news -- --slug=… --force`, ne rien écrire avant que l'API ait répondu).
+  - **État au 2026-09-01 — le collecteur a repris, puis s'est arrêté après deux lots.**
+    Passes des **26 et 27/08** (180 villes chacune) : le fichier porte **540 villes et 4 284
+    entrées**, `meta.refreshedAt` au 27/08, et le correctif du 18/08 est confirmé contre les
+    vraies données — **9 des 10 Saint-X portent leurs 8 entrées**, le dixième (`le-francois`)
+    est encore en `queryVersion` 1 et guérira à son tour. Mais **180 lignes n'ont jamais été
+    reprises** (v1, 04-05/08, 27-28 jours) : le seuil ramené à 21 jours le 25/08 **parle pour
+    la première fois, sur 177 villes**. ⚠️ Deux lots puis plus rien ressemble davantage à une
+    passe lancée à la main qu'à un cron rétabli — le tell à vérifier au prochain run est que
+    ces 180 lignes v1 soient toujours là (`pickBatch` sert d'abord les versions périmées, donc
+    un cron sain les aurait prises au troisième lot).
+    **Ce que ce run a mesuré, et qui était listé « inconnu » depuis le 11/08 : un mois clos ne
+    bouge plus.** 360 villes comptées deux fois à 22 jours d'écart, 2 471 seaux
+    (ville, mois, famille) comparables : **aucun en baisse**, et les **1 769 seaux de juin et
+    juillet identiques à l'unité près**. Seul août grossit (×5,5). Donc les lignes datées d'un
+    mois sont dans l'index dans les jours qui suivent sa fin, **la seule ligne qui bouge d'un
+    rafraîchissement à l'autre est celle du mois en cours**, et un écart entre deux mois pleins
+    de la colonne est réel.
+    **Défaut corrigé : la note du mois partiel qualifiait au lieu de mesurer.** « Il porte
+    quelques jours quand les autres portent un mois entier » était exact le 11/08 (arrêt au 4,
+    soit 4/31) et **faux après les passes du 26-27** (26-27/31) : elle invitait à écarter un
+    chiffre couvrant 84-87 % de son mois. Le fichier porte **les deux régimes à la fois** —
+    208 entrées à 13-16 %, 1 011 à 84-87 % — donc aucun adjectif ne vaut pour les deux.
+    `newsPartialCoverage()` rend `{ through, daysCounted, daysInMonth }` et la surface **cite
+    la couverture** (« soit 26 des 31 jours du mois »), vrai à 4/31 comme à 27/31. Le comptage
+    reste une affirmation sur **notre fenêtre de requête**, jamais sur ce que le BODACC avait
+    publié. `news:selftest` 58 → **60 contrôles** : la note doit interpoler les jours et ne
+    peut plus contenir d'adjectif fixe (lecture du composant **commentaires retirés** — le
+    commentaire qui pose la règle cite forcément la formule qu'elle interdit).
   - **La collecte est automatisée, ne la relance pas depuis une routine.**
     `scripts/local-data-runner.sh` (cron local, 02h20 / 14h20 UTC) lance `npm run news` par
     lots de 180 villes (~4 s la ville), commite `data/city-news.json` et pousse.

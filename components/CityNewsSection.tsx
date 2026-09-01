@@ -6,7 +6,7 @@ import {
   newsMonthLabel,
   cityNewsRefreshedAt,
   isCityNewsStale,
-  newsPartialThrough,
+  newsPartialCoverage,
   NEWS_WINDOW_MONTHS,
   NEWS_REFRESH_INTERVAL_DAYS,
   type CityNewsEntry,
@@ -85,7 +85,10 @@ export function CityNewsSection({
   // diverge — so the footer lists the distinct ones rather than assuming the
   // first entry speaks for all of them.
   const licences = [...new Set(entries.map((e) => e.licence).filter(Boolean))];
-  const hasPartial = entries.some((e) => newsPartialThrough(slug, e));
+  // Every partial row of one city shares its `refreshedAt`, and a row is only
+  // partial when it falls in that same month — so one coverage describes them
+  // all, and the footnote can quote it instead of guessing at an adjective.
+  const partial = entries.map((e) => newsPartialCoverage(slug, e)).find(Boolean) ?? null;
 
   return (
     <section className="border-t border-[var(--border)] bg-[var(--bg-surface)] py-12">
@@ -109,7 +112,7 @@ export function CityNewsSection({
             // the previous, complete month. Both figures are exact; read as a
             // column they state a collapse that did not happen. Marked, not
             // dropped — see newsPartialThrough().
-            const partialThrough = newsPartialThrough(slug, e);
+            const cov = newsPartialCoverage(slug, e);
             return (
               <li
                 key={`${e.date}-${e.kind}-${i}`}
@@ -117,7 +120,7 @@ export function CityNewsSection({
               >
                 <span className="text-xs tabular-nums text-[var(--text-tertiary)] w-32 shrink-0">
                   {dateLabel(e, locale)}
-                  {partialThrough ? (
+                  {cov ? (
                     // "partiel", not "en cours": once a month ends without a
                     // refresh the count is still truncated but the month is no
                     // longer ongoing, and only the first word stays true.
@@ -131,12 +134,12 @@ export function CityNewsSection({
                 </span>
                 <span className="text-sm text-[var(--text-primary)] basis-full sm:basis-auto sm:flex-1 min-w-0">
                   {locale === "en" ? e.titleEn ?? e.title : e.title}
-                  {partialThrough ? (
+                  {cov ? (
                     <span className="text-[var(--text-tertiary)]">
                       {" "}
                       {L(
-                        `— comptage arrêté au ${newsDateLabel(partialThrough, locale)}`,
-                        `— counted on ${newsDateLabel(partialThrough, locale)}`,
+                        `— comptage arrêté au ${newsDateLabel(cov.through, locale)}, soit ${cov.daysCounted} des ${cov.daysInMonth} jours du mois`,
+                        `— counted up to ${newsDateLabel(cov.through, locale)}, i.e. ${cov.daysCounted} of the month's ${cov.daysInMonth} days`,
                       )}
                     </span>
                   ) : null}
@@ -154,11 +157,18 @@ export function CityNewsSection({
           })}
         </ul>
 
-        {hasPartial ? (
+        {/* The note quotes the coverage instead of characterising it. It used to
+            read "quelques jours" — exact while the only crawl on record had
+            stopped on the 4th of the month, and false from the sweep of the 26th
+            on, when the same sentence told readers that 26 days of 31 were "a
+            few" and that comparing them to a full month said nothing. Naming the
+            denominator is true at 4/31 and at 27/31, and leaves the arithmetic
+            to the reader rather than ruling on what the figure is worth. */}
+        {partial ? (
           <p className="mt-3 text-xs text-[var(--text-secondary)]">
             {L(
-              "Un mois marqué « partiel » n'a été compté que jusqu'à la date indiquée : il porte quelques jours quand les autres portent un mois entier. Le chiffre est exact, mais le mettre en regard des mois pleins ne dit rien — ce n'est pas une baisse.",
-              "A month marked “partial” was only counted up to the date shown: it covers a few days where the others cover a whole month. The figure is exact, but reading it against the full months tells you nothing — it is not a decline.",
+              `Un mois marqué « partiel » a été compté sur ${partial.daysCounted} des ${partial.daysInMonth} jours du mois, là où les lignes voisines portent un mois entier. Le chiffre est exact sur cette fenêtre : c'est le dénominateur qui diffère, pas la mesure — l'écart avec le mois plein qui suit n'est donc pas une évolution.`,
+              `A month marked “partial” was counted over ${partial.daysCounted} of the month's ${partial.daysInMonth} days, where the lines around it cover a whole month. The figure is exact over that window: what differs is the denominator, not the measurement — so the gap with the full month below it is not a trend.`,
             )}
           </p>
         ) : null}

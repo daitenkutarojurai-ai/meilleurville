@@ -1159,7 +1159,7 @@ recensées à proximité, zones protégées.
 |---|---------|------|------|-----|--------|
 | F62 | **Score Biodiversité** (pipeline GBIF + zones protégées → sous-page ×540 + classement) | **P0** | **L** | **high** | 🚧 en cours — GBIF **540/540** (crawl clos 09/08), sous-pages en ligne des deux locales, **rang de richesse retiré le 10/08** (il classait les programmes de saisie) ; zones protégées **540/540** depuis la bascule INPN → **IGN BD TOPO** du 26/08 (la source INPN est morte depuis la cyberattaque de 07/2025), **hub national `/espaces-proteges` + `/protected-areas` livré le 26/08** ; **passe d'honnêteté des deux sous-pages ville le 27/08** (elles annonçaient encore les zones protégées comme « pas encore intégrées », et publiaient un effectif d'espèces plafonné comme un total sur 27 villes) ; **rang d'espaces verts retiré le 31/08** (un parc à cheval était compté en entier dans chaque commune qu'il touche : corrélation de rang +0,86 avec la surface du seul plus grand polygone, 26 des 53 villes du top 10 % concernées) ; **une seule des trois composantes porte encore une note, les zones protégées**, et `overall` reste `null` — deux composantes retirées et une publiable ne font pas un agrégat qui mesure ce que son nom annonce |
 | F63 | **Qualité de l'air — du modèle à la mesure** (ATMO + Geod'Air, hub + classement) | **P0** | **M** | **high** | 🔜 à faire |
-| F64 | **Actualité locale par ville** (open data BODACC/JO/CatNat → section CityProfile + routine hebdo) | **P1** | **M** | **low** | ✅ **en ligne — 540/540 villes, 4 212 entrées** (BODACC 4 172 + CatNat 40), collectées par le cron local les 04-05/08. Section rendue sur les deux locales. RNA toujours désactivé (0 association). Mois partiel marqué depuis le 11/08. **Filtre commune corrigé le 18/08** (`QUERY_VERSION = 2`) : les 10 villes dont le nom de seed porte une parenthèse — les Saint-X de La Réunion, Le Robert, Le François, Saint-Louis 68 — sortaient à **zéro entrée sur douze mois** ; recollecte des 540 attendue au prochain lot local. 2 vides encore inexpliquées (dinan, selestat). ⚠️ **Données gelées au 05/08 : le collecteur n'a rien produit depuis 20 jours**, ni après le `QUERY_VERSION = 2` du 18/08 ni après la réparation du runner du 24/08 (deux créneaux écoulés, aucun commit) — la cause restante est la machine du propriétaire, pas le dépôt. Le 25/08 a rendu la section honnête sans elle : la date est publiée comme un **plafond** (« Relevé arrêté au… ») et non plus comme un « Mis à jour », et `STALE_AFTER_DAYS` passe de 45 à **21** (~16 j = âge sain maximum, + une semaine de marge) |
+| F64 | **Actualité locale par ville** (open data BODACC/JO/CatNat → section CityProfile + routine hebdo) | **P1** | **M** | **low** | ✅ **en ligne — 540/540 villes, 4 284 entrées** (BODACC 4 244 + CatNat 40). Section rendue sur les deux locales, 536 villes l'affichent, 4 masquées. RNA toujours désactivé (0 association). **Le collecteur a repris les 26-27/08** après vingt jours de silence : 360 lignes recollectées en `QUERY_VERSION = 2`, ce qui **confirme le correctif du 18/08** — 9 des 10 Saint-X portent leurs 8 entrées (`le-francois`, encore en v1, guérira à son tour). ⚠️ **Puis il s'est arrêté de nouveau** : rien depuis le 27/08, et **180 lignes n'ont jamais été reprises** (v1, 04-05/08, 27-28 jours) — le seuil ramené à 21 jours le 25/08 **se déclenche pour la première fois, sur 177 villes**, comme dimensionné. Mesuré ce run sur les 360 villes comptées deux fois à 22 jours d'intervalle : **un mois clos ne bouge plus** (1 769 seaux de juin-juillet identiques à l'unité, 0 en baisse sur 2 471), seul le mois en cours grossit (×5,5). **Note du mois partiel corrigée le 01/09** : elle qualifiait (« quelques jours », exact au 4 août, faux au 26) au lieu de mesurer — elle publie désormais la couverture, « soit 26 des 31 jours du mois » |
 
 ### F62 — Score Biodiversité
 
@@ -2370,6 +2370,84 @@ ajoutée le 24/08 doit produire, et son silence est en soi une information. Ne p
 « corriger » le pipeline une quatrième fois à l'aveugle : les trois défauts BODACC connus
 ont tous été trouvés contre l'API réelle, aucun ne l'a été par relecture. Et ne pas toucher
 à `dinan` / `selestat` sans réponse d'API (cf. section du 18/08).
+
+#### État au 2026-09-01 — le collecteur a repris, et un mot juste au 4 août est devenu faux au 26
+
+**Le collecteur a bien tourné.** Deux passes, les **26 et 27/08**, 180 villes chacune :
+`data/city-news.json` porte **540 villes et 4 284 entrées** (BODACC 4 244, CatNat 40),
+`meta.refreshedAt` au **2026-08-27**. Le diagnostic du 25/08 (« ce qui reste est la machine
+du propriétaire ») était donc juste **et** l'obstacle a été levé — sans qu'on sache d'ici
+comment. Le correctif du 18/08 est confirmé contre les vraies données : **9 des 10 Saint-X
+portent leurs 8 entrées** (`saint-denis-reunion` 153 créations en août, `saint-louis-haut-rhin`,
+`le-robert`…). Le dixième, **`le-francois`, est encore en v1** et reste donc à zéro : il n'a
+pas eu son tour, il guérira au sien. Ne pas l'inscrire comme un défaut. Vides restantes,
+inchangées : `dinan`, `selestat` (toujours sans réponse d'API, ne rien écrire dessus) et
+`ile-de-re` (non-correctif assumé).
+
+**Et il s'est arrêté de nouveau.** Rien depuis le 27/08, soit **cinq jours** à ce run, et
+surtout **180 lignes n'ont jamais été reprises** : elles sont restées en `queryVersion` 1 au
+04-05/08, soit **27-28 jours**. Conséquence directe : le seuil ramené de 45 à 21 jours le
+25/08 **se déclenche pour la première fois**, sur **177 villes** (les 3 autres v1 sont vides,
+donc masquées). C'est exactement ce pour quoi il a été dimensionné — une ligne saine plafonne
+à ~16 jours, ces lignes en sont à 28 — et le lecteur lit désormais « Le relevé est repris tous
+les 14 jours ; il ne l'a pas été depuis » là où l'ancien seuil aurait attendu le 19/09.
+
+**La mesure que ce run permet pour la première fois : un mois clos ne bouge plus.** 360 villes
+ont été comptées **deux fois à 22 jours d'intervalle**, ce qui donne 2 471 seaux
+(ville, mois, famille) comparables. Résultat : **aucun n'a baissé**, et les **1 769 seaux de
+juin et juillet — des mois déjà clos aux deux comptages — sont identiques à l'unité près**.
+Seul août bouge : 5 253 → 28 863 (×5,5), 672 paires sur 691 en hausse. Le décalage de
+publication de l'éditeur était listé « inconnu ici » depuis le 11/08 ; il est maintenant borné.
+**Les lignes datées d'un mois sont toutes dans l'index dans les jours qui suivent sa fin**
+(juillet ne s'est pas clos plus de quatre jours avant le premier comptage et n'a rien gagné
+depuis), donc **la seule ligne qui bouge d'un rafraîchissement à l'autre est celle du mois en
+cours**. Deux conséquences à garder : ① le marquage « partiel » n'a jamais à couvrir un mois
+plein rétroactivement, et un mois marqué **guérit** au passage suivant, comme annoncé ; ② un
+écart entre deux mois pleins de la colonne est un écart réel, pas un artefact de collecte.
+
+**Le défaut corrigé ce run : la note expliquait le mois partiel par un adjectif, pas par une
+mesure.** Elle disait qu'un mois marqué « partiel » « porte quelques jours quand les autres
+portent un mois entier » et que « le mettre en regard des mois pleins ne dit rien ». C'était
+**exact le 11/08**, où la seule passe jamais faite s'était arrêtée le 4 — 4 jours sur 31. Après
+les passes des 26 et 27/08, la même phrase fixe annonce que 26 ou 27 jours sur 31 sont
+« quelques jours », et invite à **écarter** un chiffre qui couvre 84 à 87 % de son mois : la
+faute exactement symétrique de celle qu'elle avait été écrite pour empêcher. Le fichier porte
+**les deux régimes en même temps** — mesuré ce run : **208 entrées à 13-16 % de leur mois,
+1 011 à 84-87 %**, sur 1 219 marquées — donc aucun adjectif ne peut être vrai des deux.
+Le dénominateur, lui, le peut : `newsPartialCoverage()` (`lib/city-news.ts`) rend
+`{ through, daysCounted, daysInMonth }` et la surface **cite la couverture au lieu de la
+qualifier** — « comptage arrêté au 26 août 2026, **soit 26 des 31 jours du mois** », et la note
+de bas de liste énonce que ce qui diffère est le dénominateur, pas la mesure. Vrai à 4/31 comme
+à 27/31, et l'arithmétique est rendue au lecteur au lieu de lui dire ce que le chiffre vaut.
+`newsPartialThrough()` survit comme enveloppe, aucun appelant n'a changé de contrat. Le
+comptage reste une affirmation sur **notre fenêtre de requête** (les lignes datées du 1er au
+jour d'arrêt), jamais sur ce que le BODACC avait publié à cette date.
+
+**La garde.** `news:selftest` passe de 58 à **60 contrôles**, toujours zéro réseau : le
+premier épingle l'existence de `newsPartialCoverage` dans la lib, le second lit
+`components/CityNewsSection.tsx` **comme texte, commentaires retirés** (le commentaire qui
+explique la règle cite forcément la formule qu'elle interdit — premier jet raté, même famille
+que l'assertion sur la clause au lieu du terme le 18/08) et exige que la note interpole
+`daysCounted` / `daysInMonth` et ne contienne ni « quelques jours » ni « a few days ». C'est
+la classe de régression exacte : une phrase calée à la main sur le calendrier d'une seule
+passe.
+
+**Vérifications.** `npx tsc --noEmit` propre, `npm run integrity` vert (540 villes, 4 284
+entrées), `news:selftest` 60/60, `news:prune` ne trouve rien hors fenêtre (les entrées courent
+d'octobre 2025 à août 2026). Composant rendu pour de vrai contre les données réelles
+(`renderToStaticMarkup`, les 540 villes, FR et EN) : **536 sections rendues, 4 masquées,
+177 étiquetées en retard, 488 portant un mois partiel**, zéro lien sans `rel="nofollow"`,
+zéro fuite de français côté EN. Les deux régimes relus à l'œil : Allauch (arrêt au 4 août,
+« soit 4 des 31 jours ») et Rennes (arrêt au 26, « soit 26 des 31 jours »).
+
+**Ce que le prochain run doit regarder en premier.** Si `news:stats` annonce encore
+`last refresh: 2026-08-27`, le collecteur est retombé en panne après deux passes — et cette
+fois le symptôme est **différent** de celui d'août : il n'a pas cessé de tourner d'un coup, il
+a fait **exactement deux lots** puis rien, ce qui ressemble davantage à une passe lancée à la
+main qu'à un cron rétabli. Le tell à vérifier alors : les 180 lignes v1 restantes. Un cron sain
+les aurait prises au troisième lot (`pickBatch` sert d'abord les `queryVersion` périmés) ; si
+elles sont toujours là, aucune troisième passe n'a eu lieu. Ne pas « corriger » le pipeline à
+l'aveugle pour autant, et ne toucher ni à `dinan` ni à `selestat` sans réponse d'API.
 
 ---
 
