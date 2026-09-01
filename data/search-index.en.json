@@ -6419,6 +6419,41 @@
       "emoji": "🍸"
     },
     {
+      "slug": "solo-travel-in-brest-2026",
+      "title": "Solo travel in Brest: the youngest city in this batch, and a cable car on the bus network",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-chambery-2026",
+      "title": "Solo travel in Chambéry: not a ski resort, and the best stay of this batch",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-metz-2026",
+      "title": "Solo travel in Metz: three halls, one orchestra, and no tram",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-orleans-2026",
+      "title": "Solo travel in Orléans: an hour from Paris, and no Festival de Loire in 2026",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-pau-2026",
+      "title": "Solo travel in Pau: a free funicular from the station, and the Pyrenees facing you",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-reims-2026",
+      "title": "Solo travel in Reims: the strongest cultural offer of this batch, and champagne for one",
+      "emoji": "🍸"
+    },
+    {
+      "slug": "solo-travel-in-troyes-2026",
+      "title": "Solo travel in Troyes: the cheapest of this batch, and no TGV",
+      "emoji": "🍸"
+    },
+    {
       "slug": "things-to-do-in-saint-laurent-du-maroni-2026",
       "title": "Things to do in Saint-Laurent-du-Maroni: the penal colony and the river",
       "emoji": "🛶"
@@ -7258,7 +7293,7 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 48
+      "count": 49
     },
     {
       "slug": "occitanie",
@@ -7273,7 +7308,7 @@
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 37
+      "count": 40
     },
     {
       "slug": "hauts-de-france",
@@ -7296,6 +7331,21 @@
       "count": 29
     },
     {
+      "slug": "single-supplement",
+      "label": "single supplement",
+      "count": 29
+    },
+    {
+      "slug": "solo-travel",
+      "label": "solo travel",
+      "count": 29
+    },
+    {
+      "slug": "travelling-alone-in-france",
+      "label": "travelling alone in france",
+      "count": 29
+    },
+    {
       "slug": "ile-de-france",
       "label": "ile de france",
       "count": 28
@@ -7303,7 +7353,7 @@
     {
       "slug": "brittany",
       "label": "brittany",
-      "count": 25
+      "count": 26
     },
     {
       "slug": "provence-alpes-cote-d-azur",
@@ -7331,21 +7381,6 @@
       "count": 23
     },
     {
-      "slug": "single-supplement",
-      "label": "single supplement",
-      "count": 22
-    },
-    {
-      "slug": "solo-travel",
-      "label": "solo travel",
-      "count": 22
-    },
-    {
-      "slug": "travelling-alone-in-france",
-      "label": "travelling alone in france",
-      "count": 22
-    },
-    {
       "slug": "expat-retirement",
       "label": "expat retirement",
       "count": 21
@@ -7368,7 +7403,7 @@
     {
       "slug": "centre-val-de-loire",
       "label": "centre-val de loire",
-      "count": 16
+      "count": 17
     },
     {
       "slug": "budget",
@@ -7621,6 +7656,11 @@
       "count": 5
     },
     {
+      "slug": "savoie",
+      "label": "savoie",
+      "count": 5
+    },
+    {
       "slug": "angers",
       "label": "angers",
       "count": 4
@@ -7678,11 +7718,6 @@
     {
       "slug": "rhone-alpes",
       "label": "rhone alpes",
-      "count": 4
-    },
-    {
-      "slug": "savoie",
-      "label": "savoie",
       "count": 4
     },
     {

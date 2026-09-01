@@ -2576,6 +2576,83 @@ setup dans `CLAUDE.md`), pas une facilité.
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
 
+### Livré le 01/09 — `solo-travel-in-[city]-2026` batch 5 (+7), la série refermée à 29/29
+
+`npm run parity` en **code 0** en début et en fin de run (FR 219 · EN 166, 0 route FR sans jumelle) :
+pas de régression de routes, donc run de corpus. Compteurs mesurés avant/après : **FR 1 035, EN 795 →
+802**. Écart de corpus restant : **guides 1 035 FR / 802 EN, tags 250 / 114**.
+
+**Le choix du run n'en était pas un, et c'est le point.** Le run du 31/08 avait laissé
+`solo-travel-in-` ouverte à 29 FR / 22 EN en écrivant noir sur blanc que deux runs consécutifs à la
+laisser de côté seraient de la dérive. La consigne a été honorée telle quelle : les 7 jumelles du
+batch FR du 29/08 (Brest, Chambéry, Metz, Orléans, Pau, Reims, Troyes) écrites d'un coup dans
+`data/guides-en.ts`. **Compteurs mesurés : FR 29, EN 29 — écart nul, série refermée.** Aucun piège
+de nommage : les sept slugs de seed s'écrivent tels quels, donc la règle du batch 33 tourisme
+(**côté EN le slug se dérive du slug de seed tel quel**) n'avait rien à arbitrer.
+
+**Contrôles de surface, ceux que les batches précédents ont dû ajouter après coup.** Les 7 guides
+sont vérifiés **retrouvés par `getEnGuide()`**, **pourvus de leur photo d'en-tête**
+(`guideCityPhoto`, qui prend `relatedCities` en second argument — un appel à un seul argument
+lève) et **présents dans la liste `relatedCities` de leur page ville EN**. `metaTitle` 45-49
+caractères, `metaDesc` 148-159, 6 sections par guide (la série FR en compte 6), **0 em-dash** sur
+les sept. Aucun tag neuf : les six tags par guide réutilisent `solo travel`,
+`travelling alone in france`, `single supplement`, les tags de région existants (`brittany`,
+`savoie`, `grand-est`, `centre-val-de-loire`, `nouvelle-aquitaine`) et un tag de repère à une
+occurrence, sous le seuil de 3 qui crée une page `/tags`. `npm run search-index` relancé
+(`data/search-index.en.json` 802 guides, **114 tags, inchangé**) et `npm run sitemap:check`
+repassé : **EN 28 687 → 28 694 URL**, soit exactement les 7 guides, chaque URL déclarée a une page.
+
+**Contrôle mécanique des chiffres, et ce qu'il a trouvé.** Chaque nombre du texte EN cherché dans
+sa jumelle FR après normalisation des séparateurs : **116 figures, 113 retrouvées**. Les trois
+écarts ont été traités et non justifiés après coup. ① Le guide Brest datait la reconstruction du
+centre « in the 1950s », un millésime que le FR ne porte pas et qui est en réalité une fourchette
+(le chantier court bien au-delà de la décennie) : **retiré**, la phrase dit « rebuilt afterwards ».
+② et ③ `1871`-`1918` (Metz dans l'Empire allemand) et `1429` (siège d'Orléans levé) sont des
+**dates d'histoire, pas des mesures de la ville**, et elles portent précisément l'incise
+d'explication que le lecteur anglophone n'a pas : conservées. La distinction à reprendre au
+prochain run : un chiffre qui a l'air d'une mesure de la ville doit exister dans la jumelle FR ;
+une date historique qu'une encyclopédie porte n'est pas soumise à cette règle.
+
+⚠️ **Une erreur géographique du guide FR, trouvée en écrivant la jumelle et corrigée des deux
+côtés.** `vacances-celibataire-reims-2026` écrivait « les grandes maisons de l'avenue de Champagne
+et des Crayères proposent des visites » dans une section consacrée à Reims. **L'avenue de Champagne
+est à Épernay**, à une trentaine de kilomètres, et le corpus lui-même le dit : `data/neighborhoods.ts`
+la porte sous le slug `avenue-champagne-epernay`, et `data/cities-seed.ts` la rattache à Épernay avec
+son classement UNESCO. Le FR est corrigé et l'EN écrit correct dès l'origine : maisons rémoises dans
+le secteur des Crayères, avenue de Champagne située à Épernay et donnée comme accessible en TER.
+C'est le même mode de défaillance que la tour Solidor attribuée à Rennes le 19/08 et que
+Baume-les-Messieurs mis en Ardèche le 26/08 : **un lieu attribué à la mauvaise commune ne déclenche
+aucun contrôle automatique**, seule une relecture le voit, et la relecture la plus efficace reste
+l'écriture de la jumelle.
+
+**Six apports propres à l'angle voyageur étranger**, absents du FR parce qu'inutiles à un lecteur
+français : les **terminus parisiens** sont des gares distinctes et éloignées les unes des autres
+(Montparnasse, Est, Austerlitz), donc une arrivée de Charles-de-Gaulle est une traversée de Paris
+et non un changement de quai — dit sur Brest, Metz, Orléans et Reims ; **SMAC**, **scène nationale**
+et **centre dramatique national** définis comme des labels d'État et non comme des rangs ; l'ambiguïté
+de gare d'Orléans (**Orléans centre** contre **Les Aubrais**, commune voisine) posée avant la
+réservation et non sur le quai ; **TER** et **Intercités** définis comme réseau régional et réseau
+classique, ni l'un ni l'autre à grande vitesse, pour un lecteur qui croit que toute ville française
+a un TGV ; **Chambéry n'est pas une station de ski** et **Brest n'a pas de vieille ville médiévale**,
+deux attentes que les noms « Savoie » et « Bretagne » fabriquent chez un anglophone ; et les
+**soldes françaises sont fixées nationalement**, ce qui rend prévisibles les week-ends où Troyes se
+remplit pour ses magasins d'usine.
+
+**Contrôles** : `npx tsc --noEmit` propre, `npm run integrity` propre (540 villes, FR 1 035,
+EN 802, 0 score brut recopié des deux côtés), `npm run search-index:check` propre,
+`npm run sitemap:check` propre dans les deux sens, `npm run parity` en code 0.
+`npm run build` n'a pas été lancé, conformément à CLAUDE.md § Commands.
+
+**Prochain run.** Deux séries mesurées ce run et laissées ouvertes, dans cet ordre :
+① **`france-climate-2040-` batch 2**, annoncé par le run du 31/08 et toujours à **15 FR / 8 EN** —
+les 7 régions qui restent (Massif central, Nord-Hauts-de-France, Grand Est, Centre-Val de Loire,
+Bourgogne-Franche-Comté-Jura, Corse, outre-mer) font exactement un batch ; ② **`single-parent-in-`
+rouverte par le batch 7 FR du 30/08**, à **66 FR / 57 EN**, neuvième réouverture de la série la plus
+volatile du chantier. Les deux plus gros trous structurels restent inchangés et ne se referment pas
+par symétrie de compteur : `quitter-` 55 FR / `leaving-` 23 EN, et `demenager-a-` 50 FR /
+`moving-to-` 4 EN, ce dernier étant un **non-correctif assumé** tant qu'aucun angle logistique
+distinct de `[city]-living-guide` n'est trouvé.
+
 ### Livré le 31/08 — `france-climate-2040-[région]` batch 1 (+8), une série FR de 15 guides qui n'avait qu'une jumelle nationale
 
 `npm run parity` en **code 0** en début et en fin de run (FR 219 · EN 166, 0 route FR sans jumelle) :

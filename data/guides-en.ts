@@ -25340,6 +25340,368 @@ export const EN_GUIDES: EnGuide[] = [
     ],
   },
   {
+    slug: "solo-travel-in-brest-2026",
+    title:
+      "Solo travel in Brest: the youngest city in this batch, and a cable car on the bus network",
+    metaTitle: "Solo Travel in Brest 2026: Where to Stay, Go Out",
+    metaDesc:
+      "Brest alone: 28.8% of residents aged 15 to 29, 24th in France, a tram, a cable car you board on an ordinary ticket, and how to keep the single supplement down.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    intro:
+      "Brest ranks 24th out of the 538 cities measured here for the share of residents aged 15 to 29: 28.8% at the 2022 Insee census, against a national median of 18.4%. It is the youngest of the seven destinations in this batch, and for an off-season solo trip that is the number that matters, because it tells you who is in town on a Tuesday evening in November. Brest adds something the other six do not have to the same degree: a nature score of 6.4/10 and a working sea front, without being a resort that empties in September. One thing to recalibrate before you arrive, because the name says Brittany and the mind fills in a medieval old town: the city centre was destroyed in the Second World War and rebuilt afterwards. What Brest offers is a port city and a roadstead, not half-timbering. This guide covers where to stay, how to string together a weeknight, and how to stop the room costing the price of two.",
+    sections: [
+      {
+        heading: "Why Brest rather than somewhere else",
+        body: "Brest opens this batch on the share of 15 to 29 year olds, at 28.8% against a national median of 18.4%. That population is not seasonal: it rests on the Université de Bretagne Occidentale, the engineering schools, and the naval and maritime activity of the roadstead, all of which run from September to June. The practical consequence is the whole point of this guide: evening life does not depend on the holiday calendar. Two venues structure the programme. La Carène is the contemporary music hall holding the SMAC label, a state designation from the Ministry of Culture for a venue with a year-round season, and it programmes between 70 and 90 concerts a year, which puts a night out within a day-before decision almost all year. Le Quartz is the scène nationale of Brest, meaning a state-funded multidisciplinary theatre, and it is the busiest in France by attendance, with theatre, dance and concerts. Two honest reservations. The everyday-life score is 6.2/10, third in this batch behind Chambéry and Pau: that is respectable, it is not the terrace density of a Mediterranean city. And the culture score, 6.6/10, is level with Orléans and Pau, well behind the 7.6/10 of Reims. Brest is chosen for its resident youth and its roadstead, not for a density of cultural institutions.",
+      },
+      {
+        heading: "Where to stay: Siam, Saint-Martin, les Capucins",
+        body: "Three areas cover it. Rue de Siam and the rebuilt hyper-centre form the default axis, running down to the port and putting everything within walking distance. The Saint-Martin quarter, immediately north of the centre, has the densest run of small restaurants and bars in the city, with a neighbourhood atmosphere that stays alive midweek: it is the best compromise for a short solo stay. The plateau des Capucins, on the right bank of the Penfeld, occupies former naval workshops and a nineteenth-century plant converted into open workshops, with a media library and cafés, and it is reached from the centre by cable car. The Europe sector, near the university, concentrates student housing: cheaper short lets, but evenings scattered across a wider area. For a stay of two to four nights, aim for Saint-Martin or the top of Siam and ignore the outskirts.",
+      },
+      {
+        heading: "Going out on a Tuesday: Saint-Martin, La Carène, Le Quartz",
+        body: "The weeknight circuit is a walk, and it fits inside a rectangle. It starts at the top of rue de Siam, turns into the Saint-Martin streets where the counters and small kitchens cluster, and comes back down towards the port de commerce, whose sheds hold several concert venues and bars that open in the evening. Eating alone at the counter here needs no explanation and draws no comment. On programming, La Carène lines up its 70 to 90 concerts a year in the port de commerce, which makes it the easiest thing to decide on at the last minute. Le Quartz runs its scène nationale season, and its attendance says clearly enough that it is not reserved for an initiated audience. A good solo stay here means booking one venue evening and one or two counter evenings rather than expecting a continuous night out. As everywhere, skip Sunday evening and Monday, which are the flat points of the week; Tuesday to Saturday give the density. A word on the weather, because it changes how you go out: in Brest you pick addresses you go inside, not terraces you settle on for the evening.",
+      },
+      {
+        heading: "Getting around without a car: tram, cable car, TGV",
+        body: "Brest scores 6.4/10 on transport, level with Reims and Orléans in this batch. The city has a tram, a bus rapid transit network and direct TGV service from Paris-Montparnasse, which makes a car-free stay entirely workable. The local particularity is worth knowing: line C of the urban network is a cable car, crossing the Penfeld between the Siam quarter and the plateau des Capucins. It is the first urban cable car built in France since the Bastille line in Grenoble, and you board it on an ordinary transport ticket, not a tourist one. Brest station sits at the bottom of the centre, which puts your arrival minutes from most accommodation in Siam and Saint-Martin. Regional trains open up day trips without ever touching a steering wheel, to Quimper, Morlaix or Landerneau. One reservation: the Breton tip is a terminus and the run from Paris is long, which argues for three nights rather than two. Note also that Paris-Montparnasse is one of several separate main-line terminals in Paris, on the south side, so an arrival from Charles-de-Gaulle means a transfer across the city rather than a change of platform.",
+      },
+      {
+        heading: "The single supplement, and how to get around it",
+        body: "Brest scores 6.4/10 on cost, the second best of this batch behind Troyes. That reads backwards at first, so it is worth stating: on this site's axis convention a high cost score means an affordable city, not an expensive one. Two structural features work in favour of a traveller paying for a whole room alone. First a hotel stock oriented towards business travel, tied to port and naval activity, whose weekday grids are indexed to single occupancy rather than to couples. Second a deep supply of furnished studios inherited from student demand, consistent with that 28.8% of 15 to 29 year olds: short lets are priced by floor area, which puts one person on a couple's rate. Three moves work here as elsewhere in this series. Ask explicitly for a single room rather than a double occupied by one person, because those are two separate rate lines in French hotels. Target business hotels from Monday to Thursday, where the grid inverts at the weekend. And compare a studio with a hotel from the second night onwards. No prices are printed in this guide: rates move from one season and one platform to the next, and what is worth passing on is the reflex, not the figure.",
+      },
+      {
+        heading: "When to go: the university year, spring, and not August",
+        body: "The best window is September to mid-November, which is precisely when a seaside resort empties. The university year fills the city, the seasons at La Carène and Le Quartz restart, and the days stay usable. April to June works just as well, with long evenings that let you finish outside on the port. Two periods call for a reservation. The first half of August sees the students leave, and that is when the city most resembles what this guide is trying to avoid. And the large maritime gatherings that made the roadstead's name saturate accommodation when they fall: their calendar is not annual, so check it before blocking dates rather than inferring it from a previous edition. The rest of the year Brest delivers what it promises, a city that lives without depending on visitors.",
+      },
+    ],
+    relatedCities: [
+      "brest",
+    ],
+    tags: [
+      "solo travel",
+      "solo travel brest",
+      "travelling alone in france",
+      "single supplement",
+      "saint-martin brest",
+      "brittany",
+    ],
+  },
+  {
+    slug: "solo-travel-in-chambery-2026",
+    title:
+      "Solo travel in Chambéry: not a ski resort, and the best stay of this batch",
+    metaTitle: "Solo Travel in Chambéry 2026: Old Town, Costs",
+    metaDesc:
+      "Chambéry alone: 22.7% aged 15 to 29, the best everyday-life, safety and nature scores of this batch, the worst on cost, and how to book around that.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    intro:
+      "Chambéry closes this batch on the share of residents aged 15 to 29, at 22.7% in the 2022 Insee census, and opens it on almost everything else: an everyday-life score of 7.0/10, safety 6.3/10, nature 8.1/10 and an overall 6.5/10, four values that are the highest of the seven. With a national median of 18.4% across the 538 cities measured here, a city is still young at 22.7%. This is the destination in the batch that demands the most explicit trade-off: what you gain in quality of stay you pay for in budget and in programming. One thing to settle before anything else, because the word Savoie does the damage: Chambéry is not a ski resort. This guide covers where to stay, how to string together a weeknight, and how to stop the room costing the price of two.",
+    sections: [
+      {
+        heading: "Why Chambéry rather than somewhere else",
+        body: "Chambéry is the best rated city of this batch on almost every axis that makes a stay comfortable: everyday life 7.0/10, safety 6.3/10, nature 8.1/10, overall 6.5/10, four first places out of seven. Its share of 15 to 29 year olds, 22.7%, is the lowest of the batch but stays well above the national median of 18.4%, carried by the Université Savoie Mont Blanc whose year runs from September to June: this is not a resort that empties, it is a town with a resident population that lives there midweek. That distinction deserves stating plainly, and it matters more to a foreign reader than to a French one. Chambéry is a préfecture, the administrative capital of its department, with 60,251 residents, a university, a court, an office economy and a shopping old town, which happens to have the Alps around it. The ski lifts are a bus or a car ride away, not at the end of the street. Two frank reservations. The culture score of 6.2/10 is the lowest of the seven: the programme is that of a mid-sized town, carried mainly by Malraux, the scène nationale for Chambéry and Savoie, meaning a state-funded multidisciplinary theatre, housed in the Carré Curial, whose main hall seats 950. And the cost score of 5.0/10 is the least favourable of the batch, a long way from the 7.1 of Troyes: on this site's axis convention a low cost score means an expensive city, and Chambéry is one.",
+      },
+      {
+        heading: "Where to stay: the old town, Curial, the station",
+        body: "Two areas are enough, and they touch. The old town, around the château des ducs de Savoie, the fontaine des Éléphants and the network of covered passages that cross it, is the default choice: the tables, the counters and the shops are concentrated there, and everything is done on foot. The Carré Curial sector, a former barracks converted into a cultural venue that houses Malraux, extends the centre and puts the theatre minutes from your door. The station area, on the northern edge of the centre, holds a handful of business hotels: it is the most reliable budget option in a town where budget is the real subject, and it is under ten minutes on foot from the old town. Two areas to rule out for this kind of trip, despite their quality of life: Jacob-Bellecombette and Challes-les-Eaux are neighbouring residential communes, quiet and green, but they have no evening life and imply a journey home. For a short stay, aim for the old town and nothing else.",
+      },
+      {
+        heading: "Going out on a Tuesday: the passages, place Saint-Léger, Malraux",
+        body: "The weeknight circuit is compact, which is a real advantage when you are going out alone: everything is within walking distance, with no transport decision at the end of the evening. It is built around place Saint-Léger and the pedestrian streets running off it, and it branches into the covered passages that are Chambéry's urban signature. The tables and counters are packed close, you move from one to the next without taking transport, and eating alone at the counter needs no explanation. On programming, Malraux runs the scène nationale season at the Carré Curial, with theatre, dance, circus and concerts on a studio stage and a 950-seat main hall: it is the first place to check when fixing an evening. Be honest about the scale, and the 6.2/10 culture score says it: Chambéry does not have the venue density of Metz or Reims, and an evening here is decided around a table more readily than around a programme. As everywhere, Sunday evening and Monday are the flat points; Tuesday to Saturday give the density.",
+      },
+      {
+        heading: "Getting around without a car: walking, TGV, and no rail network",
+        body: "Chambéry scores 6.1/10 on transport, level with Pau at the lowest of this batch, and it is worth knowing what that covers before booking. Chambéry has neither a tram nor bus rapid transit: the urban network is a bus network, and the centre is done entirely on foot, which is more than sufficient at the scale of the town. The asset is at the other end, on arrival: Chambéry-Challes-les-Eaux station has direct TGV service from Paris and sits under ten minutes' walk from the old town, which removes the transfer question altogether. Regional trains open up day trips without ever touching a steering wheel, to Aix-les-Bains and Lac du Bourget, Annecy or Grenoble, and that is the real benefit of Chambéry's position. Reaching a ski resort or a trailhead, on the other hand, means a coach or a car: that is the honest limit of a car-free stay here, and the 8.1/10 nature score measures the town's setting, not the ease of getting into it without a steering wheel.",
+      },
+      {
+        heading: "The single supplement, and how to get around it",
+        body: "This is the destination in the batch where a solo traveller has to pay the most attention, with a cost score of 5.0/10, the least favourable of the seven. Two mechanisms compound, and it is better to know them. First the proximity of the Savoie resorts, which pulls accommodation rates across the whole valley during the mountain seasons, winter and summer alike. Second a valley hotel stock partly priced per double room on a holiday logic, which is exactly the structure that manufactures the single supplement. Two things work the other way and should be used. The business hotels around the station are indexed to single occupancy from Monday to Thursday, and their grid inverts at the weekend. And the stock of furnished studios inherited from student demand is priced by floor area, which puts one person on a couple's rate. Three moves, then, with particular insistence here. Ask explicitly for a single room rather than a double occupied by one person, because those are two separate rate lines in French hotels. Aim at the week rather than the weekend. And compare a studio with a hotel from the second night onwards. No prices are printed in this guide: rates move from one season and one platform to the next, and what is worth passing on is the reflex, not the figure.",
+      },
+      {
+        heading: "When to go: the shoulder seasons, not the ski weeks",
+        body: "The rule here is the reverse of the other guides in this series, and that is what makes Chambéry interesting for this profile. The best windows are the shoulder seasons: mid-September to late November, and mid-April to June. Those are the periods when the university term or the end of the school year fills the town, when the programmes are running, and above all when accommodation rates come back down because the resorts are shut or empty. It is the only moment when the 5.0/10 cost score stops being a handicap. Two periods call for a reservation. The February to early March school holidays are the valley's rate peak, without the atmosphere of the town changing much for it: you pay for a season you are not taking part in. And the first half of August combines the students leaving with the summer mountain influx. The rest of the year Chambéry offers the best quality of stay in this batch, provided you book it at the right moment.",
+      },
+    ],
+    relatedCities: [
+      "chambery",
+    ],
+    tags: [
+      "solo travel",
+      "solo travel chambery",
+      "travelling alone in france",
+      "single supplement",
+      "chambery old town",
+      "savoie",
+    ],
+  },
+  {
+    slug: "solo-travel-in-metz-2026",
+    title: "Solo travel in Metz: three halls, one orchestra, and no tram",
+    metaTitle: "Solo Travel in Metz 2026: Where to Stay, Go Out",
+    metaDesc:
+      "Metz alone: 25.6% aged 15 to 29, a culture score of 7.3/10, three concert halls under one organisation, the Centre Pompidou-Metz and direct TGV from Paris.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    intro:
+      "Metz shows 25.6% of residents aged 15 to 29 at the 2022 Insee census, against a national median of 18.4% across the 538 cities measured here, and a culture score of 7.3/10, the second of this batch behind Reims. It has above all a feature that few cities its size share: its three main halls and its orchestra are gathered inside a single organisation, which produces continuous programming from September to June rather than a season in fits and starts. Add a transport score of 6.7/10, the highest of this batch alongside Troyes, and direct TGV service from Paris-Est. This guide covers where to stay, how to string together a weeknight, and how to stop the room costing the price of two.",
+    sections: [
+      {
+        heading: "Why Metz rather than somewhere else",
+        body: "Metz and Orléans are level at 25.6% of 15 to 29 year olds in this batch, and the gap between them does not resolve at the decimal shown. That population rests on the Université de Lorraine and the schools in town, whose year runs from September to June: evening life follows the academic calendar, not the holiday one, which is this profile's criterion. The culture score of 7.3/10 puts Metz second in the batch behind Reims, and the local organisation explains why it holds up all year. La Cité musicale-Metz brings together three halls and the Orchestre national de Metz Grand Est: the Arsenal for symphonic music, baroque, jazz and dance, the BAM for contemporary music and emerging artists, and Les Trinitaires for rock, hip-hop and electronic music. To that add the Centre Pompidou-Metz, a Shigeru Ban building recognisable by its curved roof, which is the city's main modern and contemporary art institution and the regional offshoot of the Paris museum of the same name. One piece of context a French reader takes for granted and an English-speaking visitor does not: Metz belonged to the German Empire from 1871 to 1918, which is why the station and the quarter around it look nothing like the rest of the city. Two honest reservations. The everyday-life score is 5.9/10, level with Reims and Troyes in this batch. And the nature score, 4.8/10, level with Orléans, is among the lowest of the seven.",
+      },
+      {
+        heading: "Where to stay: the centre, Outre-Seille, the station quarter",
+        body: "Three areas cover it. The centre, between the cathedral of Saint-Étienne, place Saint-Louis and place de Chambre, is the default: the densest concentration of tables and counters, all of it on foot. The Outre-Seille quarter, east of the centre, is the fallback, quieter and more rooted, with neighbourhood addresses that stay open midweek. The station area deserves a particular mention in Metz, because the station itself is a monument of the German imperial period and it is surrounded by the quartier impérial and its business hotels: it is the most reliable budget option, about ten minutes on foot from the cathedral, and it is the subject of the single supplement section below. The Saulcy university campus, on its island, concentrates student life during the day. For a short stay, aim for the centre or Outre-Seille and ignore the outskirts.",
+      },
+      {
+        heading: "Going out on a Tuesday: place Saint-Louis, Les Trinitaires, the BAM",
+        body: "The weeknight circuit is a walk and it fits in a handkerchief. It starts at place Saint-Louis and its arcades, passes through place de Chambre at the foot of the cathedral where the terraces and tables cluster, and reaches Outre-Seille for the more discreet addresses. You eat alone at the counter there without it needing any explanation. On venues, Les Trinitaires occupy a former convent and programme rock, hip-hop and electronic music with a deliberately demanding line; the BAM, in the Borny quarter, is the Cité musicale's other contemporary music hall, turned towards emerging acts; and the Arsenal carries the symphonic and dance season. That split across three places is what makes an evening decidable the day before on almost any night of the season, which is not common at this scale of city. As everywhere, Sunday evening and Monday are the flat points; Tuesday to Saturday give the density.",
+      },
+      {
+        heading: "Getting around without a car: the Mettis, TGV, and no tram",
+        body: "Metz scores 6.7/10 on transport, the highest of this batch alongside Troyes. One point is worth knowing, because local usage and copied guidebooks both mislead: there is no tram in Metz. The network runs on the Mettis, a bus rapid transit system that entered service on 5 October 2013, running in its own lane with 24-metre bi-articulated vehicles. It has the look and the frequency of a tram, it is simply not on rails, and this guide prefers to name it correctly rather than repeat a widespread approximation. Two lines cross the city, backed by the rest of the urban network. Metz-Ville station has direct TGV service from Paris-Est and sits about ten minutes on foot from the centre, which removes the transfer question on arrival and departure alike. Regional trains open up day trips without ever touching a steering wheel, Nancy and Thionville first among them. A car-free stay is entirely workable, including over two nights. One note for an arrival by air: Paris-Est is one of several separate main-line terminals in Paris, on the north-east side, so coming from Charles-de-Gaulle means a transfer across the city rather than a change of platform.",
+      },
+      {
+        heading: "The single supplement, and how to get around it",
+        body: "Metz scores 6.2/10 on cost, level with Orléans and Pau in this batch, and two structural features work in favour of a traveller paying for a whole room alone. First a hotel stock around the station and the imperial quarter oriented towards business travel, whose weekday rates are indexed to single occupancy rather than to couples. Second a deep supply of furnished studios inherited from student demand, consistent with that 25.6% of 15 to 29 year olds: short lets are priced by floor area, which puts one person on a couple's rate. Three moves work here as elsewhere in this series. Ask explicitly for a single room rather than a double occupied by one person, because those are two separate rate lines in French hotels. Target business hotels from Monday to Thursday, where the grid inverts at the weekend. And compare a studio with a hotel from the second night onwards. No prices are printed in this guide: rates move from one season and one platform to the next, and what is worth passing on is the reflex, not the figure.",
+      },
+      {
+        heading: "When to go: the university year, Constellations, the Christmas market",
+        body: "The best window is September to mid-November, which is precisely when a seaside resort empties. The university year fills the city, the seasons at the Arsenal, the BAM and Les Trinitaires restart together, and the terraces on place de Chambre still hold up in September. April to June works just as well: the Constellations de Metz festival then takes over the city with art trails and concerts in the Cité musicale halls and as far as the Centre Pompidou-Metz, and that is when the city is at its most alive outdoors. Two periods call for a reservation, for opposite reasons. The Christmas market, from late November to late December, fills the city and the atmosphere is real, but accommodation books a long way ahead and rates follow, which cuts against the advice in the previous section. And the first half of August sees the students leave, which is exactly the situation this profile is trying to avoid.",
+      },
+    ],
+    relatedCities: [
+      "metz",
+    ],
+    tags: [
+      "solo travel",
+      "solo travel metz",
+      "travelling alone in france",
+      "single supplement",
+      "place saint-louis metz",
+      "grand-est",
+    ],
+  },
+  {
+    slug: "solo-travel-in-orleans-2026",
+    title:
+      "Solo travel in Orléans: an hour from Paris, and no Festival de Loire in 2026",
+    metaTitle: "Solo Travel in Orléans 2026: Stay, Go Out, Budget",
+    metaDesc:
+      "Orléans alone: 25.6% aged 15 to 29, the youngest age structure of this batch, two tram lines, an hour by train from Paris, and one calendar trap to avoid.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    intro:
+      "Orléans shows 25.6% of residents aged 15 to 29 at the 2022 Insee census, the 35th highest share in France across the 538 cities measured here, against a national median of 18.4%. It is also the city in this batch whose population is youngest at the other end: 21.1% aged 60 and over, the lowest of the seven destinations, where the national median is 27.2%. A city that lives all year, then, and an hour by train from Paris. This guide also carries, in its last section, a calendar warning that catches visitors out every year: the great Orléans event is not happening in 2026. It covers where to stay, how to string together a weeknight, and how to stop the room costing the price of two.",
+    sections: [
+      {
+        heading: "Why Orléans rather than somewhere else",
+        body: "Orléans and Metz are level at 25.6% of 15 to 29 year olds in this batch, and the gap between them does not resolve at the decimal shown. What sets Orléans apart is the bottom of its age pyramid: with 21.1% aged 60 and over it has the youngest structure of the seven, well below the national median of 27.2%. That population rests on the Université d'Orléans and the schools at La Source, whose year runs from September to June, so evening life follows the academic calendar rather than the holiday one. On venues, L'Astrolabe is the contemporary music hall holding the SMAC label, a state designation from the Ministry of Culture, with two rooms, the Astrolabe and the Astroclub, and around 80 concerts programmed from September to June, which puts a night out within a day-before decision across the whole season. Two frank reservations, and this guide would rather write them down. The everyday-life score of 5.5/10 is the lowest of this batch: density of terraces and evening trade is not the city's argument. And the safety score, 5.1/10, is level with Reims at the lowest of the seven, which calls for ordinary urban care and nothing more. Orléans is chosen for its resident youth, its manageable size and its rail link, not for permanent buzz. For an English-speaking visitor there is one more reason it feels familiar: Joan of Arc lifted the English siege of the city in 1429, which is why she is everywhere here and why the city's civic festival carries her name.",
+      },
+      {
+        heading: "Where to stay: the walled centre, the Loire banks, La Source",
+        body: "The centre inside the old walls is the default, and there is not really a competitor for a short stay. The pedestrian area around the cathedral of Sainte-Croix, rue de Bourgogne and rue de la République concentrates the tables, the counters and the shops, and it crosses on foot from end to end. Rue de Bourgogne is the historic going-out axis, and that is where most of a Tuesday plays out. The Loire banks, below the centre, add a walk and a few seasonal addresses: pleasant from April to September, quieter afterwards. La Source, to the south, is the university quarter, built around the campus and the floral park: cheaper short lets and a real student atmosphere, but a tram ride to reach the centre in the evening, which makes it a budget choice rather than a comfort one. For two to four nights, aim inside the old walls, within a quarter of an hour on foot of rue de Bourgogne.",
+      },
+      {
+        heading: "Going out on a Tuesday: rue de Bourgogne, L'Astrolabe, the scène nationale",
+        body: "The weeknight circuit is a walk, and it is compact. It starts at place du Martroi, goes down rue de Bourgogne where the bars and small kitchens cluster, and ends towards the quays when the season allows. You eat alone at the counter there without it needing any explanation, which is the real criterion of a solo stay. On venues, L'Astrolabe is the address to know: a municipal facility with the SMAC label, two rooms of different sizes, around 80 concerts between September and June, and direct access on tram line B at the Madeleine stop, which settles the question of getting back. The Orléans scène nationale, a state-funded multidisciplinary theatre, adds theatre and dance across the same season. A good solo stay here means booking one venue evening and one or two counter evenings rather than expecting a continuous night out: Orléans is a mid-sized city, with the closing times that go with it. As everywhere, Sunday evening and Monday are the flat points; Tuesday to Saturday give the density.",
+      },
+      {
+        heading: "Getting around without a car: two tram lines, and which Paris station",
+        body: "Orléans scores 6.4/10 on transport, level with Brest and Reims in this batch. The city has two tram lines and a bus rapid transit network, which is more than enough at the scale of the centre and which makes a room at La Source viable without depending on a last bus. One point of vocabulary is worth knowing before booking: Orléans is not served by TGV, and it does not need to be. The Paris link runs on conventional trains from Paris-Austerlitz, in about an hour, which puts the city among the most accessible in this series for a two-night stay. Watch which station your booking engine picks, though. Depending on the service, trains stop either at Orléans centre or at Les Aubrais, in Fleury-les-Aubrais, a neighbouring commune linked to the centre by tram. That is not a problem, provided you have seen it beforehand rather than on the platform. Regional trains open up day trips to the Loire chateaux without ever touching a steering wheel. Note also that Paris-Austerlitz is a different terminal from the ones serving most other cities in this series, on the south-east side of Paris, so an arrival from Charles-de-Gaulle means a transfer across the city.",
+      },
+      {
+        heading: "The single supplement, and how to get around it",
+        body: "Orléans scores 6.2/10 on cost, level with Metz and Pau in this batch, and two structural features work in favour of a traveller paying for a whole room alone. First a hotel stock around the station and the centre oriented towards business travel, fed by the proximity of Paris, whose weekday grids are indexed to single occupancy rather than to couples. Second a supply of furnished studios inherited from the student demand at La Source: short lets are priced by floor area, which puts one person on a couple's rate. Three moves work here as elsewhere in this series. Ask explicitly for a single room rather than a double occupied by one person, because those are two separate rate lines in French hotels. Target business hotels from Monday to Thursday, where the grid inverts at the weekend. And compare a studio with a hotel from the second night onwards. No prices are printed in this guide: rates move from one season and one platform to the next, and what is worth passing on is the reflex, not the figure.",
+      },
+      {
+        heading: "When to go: the university year, spring, and the Festival de Loire trap",
+        body: "The best window is September to mid-November, when the university year fills the city and the seasons at L'Astrolabe and the scène nationale restart. April to June works just as well, with usable quays and long days. One calendar warning deserves reading before you block dates, because it catches out visitors every year who copy an old page. The Festival de Loire, the great river-boat gathering that takes over the quays and is the best known event in Orléans, is biennial and falls in odd-numbered years: the twelfth edition ran from 24 to 28 September 2025, and the next is expected in September 2027. There is therefore no Festival de Loire in 2026. A page promising you one this year is copying a previous edition. The Joan of Arc festivities in early May are the city's other great civic moment, and that one is annual. Two periods to avoid for this profile: the first half of August, when the students have gone, and Sunday evening all year round.",
+      },
+    ],
+    relatedCities: [
+      "orleans",
+    ],
+    tags: [
+      "solo travel",
+      "solo travel orleans",
+      "travelling alone in france",
+      "single supplement",
+      "rue de bourgogne orleans",
+      "centre-val-de-loire",
+    ],
+  },
+  {
+    slug: "solo-travel-in-pau-2026",
+    title:
+      "Solo travel in Pau: a free funicular from the station, and the Pyrenees facing you",
+    metaTitle: "Solo Travel in Pau 2026: Where to Stay, Go Out",
+    metaDesc:
+      "Pau alone: 24.1% aged 15 to 29, a nature score of 7.0/10, a free funicular from the station to the centre, the Hédas at night and the single supplement.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    intro:
+      "Pau shows 24.1% of residents aged 15 to 29 at the 2022 Insee census, against a national median of 18.4% across the 538 cities measured here, and an everyday-life score of 6.6/10, the second of this batch behind Chambéry. It is the destination of the seven that best reconciles a city which lives midweek with direct access to the mountains, with a nature score of 7.0/10. It also has the particularity of carrying its visitors from the station up to the centre on a free funicular, which settles the first question of a car-free stay. This guide covers where to stay, how to string together a weeknight, and how to stop the room costing the price of two.",
+    sections: [
+      {
+        heading: "Why Pau rather than somewhere else",
+        body: "Pau holds a balance that is rare in this batch. Its share of 15 to 29 year olds, 24.1%, stays well above the national median of 18.4%, carried by the Université de Pau et des Pays de l'Adour whose year runs from September to June: evening life does not depend on the holiday calendar. And its everyday-life score of 6.6/10 is the second of the seven behind Chambéry, with an overall score of 6.4/10 level with Brest. The boulevard des Pyrénées, a long urban balcony open onto the range, is the symbol of that double nature: you are in a city, with the mountains facing you. The château de Pau, birthplace of Henri IV, anchors the historic centre. Pau was also a fashionable winter station for British visitors in the nineteenth century, which is part of why an English-speaking traveller finds the place unexpectedly legible. Two honest reservations, and they count. Pau has the oldest population of this batch, with 28.3% aged 60 and over, above the national median of 27.2%: it is the only one of the seven in that position, and you feel it in the rhythm of the city. And its culture score, 6.6/10, is level with Brest and Orléans and ahead of Chambéry alone: the programme does not rival Reims or Metz.",
+      },
+      {
+        heading: "Where to stay: the historic centre, the Hédas, the boulevard",
+        body: "Three areas are enough, and they touch. The historic centre, around the château and rue Henri-IV, is the default: shops, tables, and a front door minutes from the boulevard. The Hédas quarter, a former valley floor laid out below the centre, has become one of the liveliest areas at night, with bars and small restaurants packed into a pedestrian space: it is the best choice for a short solo stay. The boulevard des Pyrénées itself and its surroundings offer the views and a few hotels, with the trade-off of being more exposed on price. The Trespoey quarter, to the east, is residential, quiet and well-off, with no evening life: avoid it for this kind of trip. For two to four nights, aim for the historic centre or the immediate approaches to the Hédas, and ignore the outskirts.",
+      },
+      {
+        heading: "Going out on a Tuesday: the Hédas, the covered market, Le Foirail",
+        body: "The weeknight circuit is a walk, and it goes downhill. It starts at rue Henri-IV and the covered market, whose renovated building holds the producers by day and part of the eating out in the evening, then drops into the Hédas, which is the heart of going out in Pau: the addresses are packed close, so you move between them without taking transport, a real criterion when you are out alone. You eat alone at the counter there without it needing any explanation. On programming, Le Foirail, a former cattle market converted into a cultural venue, is one of the first places to check, and it is served by the bus rapid transit line. The Zénith takes the large-capacity touring shows, which book ahead. A good solo stay here means fixing one programmed evening and two counter evenings in the Hédas. As everywhere, Sunday evening and Monday are the flat points; Tuesday to Saturday give the density. On rugby, of which the city is a stronghold, a match is watched perfectly well alone from a counter in the centre: the French club season runs roughly from September to June, and a bar showing a match is one of the easier ways into a room full of strangers.",
+      },
+      {
+        heading: "Getting around without a car: a free funicular, Fébus, TGV",
+        body: "Pau scores 6.1/10 on transport, level with Chambéry at the lowest of this batch, and yet it is one of the most convenient cities in the series on arrival. The reason is a hundred-year-old piece of engineering: a funicular links the station, below, to the boulevard des Pyrénées and the town centre, and it is free. Arriving by train in Pau therefore means going up to the centre without hauling a bag up a hill and without buying a ticket, which is exactly what you want when you are travelling alone. The urban network otherwise runs on Fébus, a bus rapid transit line with the distinction of having been the first in the world equipped with 18-metre hydrogen vehicles, inaugurated in December 2019, and it serves Le Foirail among other places. Pau station has direct TGV service from Paris, with the reservation that the journey is long: an argument for three nights rather than two. Regional trains open up trips to Lourdes, Orthez or Oloron without ever touching a steering wheel.",
+      },
+      {
+        heading: "The single supplement, and how to get around it",
+        body: "Pau scores 6.2/10 on cost, level with Orléans and Metz in this batch, and two structural features work in favour of a traveller paying for a whole room alone. First a hotel stock oriented towards business travel, fed by the economic activity of the basin, whose weekday grids are indexed to single occupancy rather than to couples. Second a supply of furnished studios inherited from student demand, consistent with that 24.1% of 15 to 29 year olds: short lets are priced by floor area, which puts one person on a couple's rate. Three moves work here as elsewhere in this series. Ask explicitly for a single room rather than a double occupied by one person, because those are two separate rate lines in French hotels. Target business hotels from Monday to Thursday, where the grid inverts at the weekend. And compare a studio with a hotel from the second night onwards. No prices are printed in this guide: rates move from one season and one platform to the next, and what is worth passing on is the reflex, not the figure. One reservation particular to Pau: the city is also a base for reaching the Pyrenees, and ski-season weekends as much as fine-weather mountain weekends tighten accommodation. Midweek is markedly more favourable.",
+      },
+      {
+        heading: "When to go: the university year, spring, and around the big fixtures",
+        body: "The best window is September to mid-November, when the university year fills the city and the programmes restart, with the advantage particular to Pau that the boulevard des Pyrénées stays usable and the view of the range is often better than in high summer. April to June works just as well. Two periods call for a reservation. The big sporting and festive fixtures that punctuate the Pau year, and the possible passage of the major cycling races through the region, saturate accommodation on dates that change from one year to the next: check them before blocking a stay rather than inferring them from a previous edition. And the first half of August sees the students leave, exactly the situation this profile is trying to avoid, all the more so as the heat is more marked here than in Brittany or Savoie. The rest of the year Pau delivers what it promises, a city that lives without depending on visitors, with the mountains thrown in.",
+      },
+    ],
+    relatedCities: [
+      "pau",
+    ],
+    tags: [
+      "solo travel",
+      "solo travel pau",
+      "travelling alone in france",
+      "single supplement",
+      "hedas pau",
+      "nouvelle-aquitaine",
+    ],
+  },
+  {
+    slug: "solo-travel-in-reims-2026",
+    title:
+      "Solo travel in Reims: the strongest cultural offer of this batch, and champagne for one",
+    metaTitle: "Solo Travel in Reims 2026: Where to Stay, Go Out",
+    metaDesc:
+      "Reims alone: 27.5% aged 15 to 29, a culture score of 7.6/10, the highest of this batch, a tram, direct TGV from Paris-Est, and cellar visits for one person.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    intro:
+      "Reims brings together two assets that few cities combine for an off-season solo trip: a share of residents aged 15 to 29 of 27.5% at the 2022 Insee census, the 27th highest in France across the 538 cities measured here against a national median of 18.4%, and a culture score of 7.6/10, the highest of the seven destinations in this batch. The first number tells you who is in town on a Tuesday in November; the second tells you what there is to do about it. Add a rail position that puts Paris within a short run. This guide covers where to stay, how to string together a weeknight, and how to stop the room costing the price of two.",
+    sections: [
+      {
+        heading: "Why Reims rather than somewhere else",
+        body: "Reims is the most populous city of this batch, with 178,478 residents at the 2022 census, and its share of 15 to 29 year olds reaches 27.5%, just behind Brest among the seven. That youth rests on the Université de Reims Champagne-Ardenne and the schools in town, whose year runs from September to June: evening life follows the academic calendar, not the holiday one. The culture score of 7.6/10 is the highest of the batch, and it is backed by institutions that programme across the whole season. La Cartonnerie is the contemporary music hall holding the SMAC label, a state designation from the Ministry of Culture. The Opéra de Reims occupies an Art Deco house. La Comédie de Reims is a centre dramatique national, which in France means a state-funded theatre with its own company and a year-round production season. Add Le Manège, a scène nationale, and the FRAC Champagne-Ardenne for contemporary art. Two honest reservations, and they are real. The safety score is 5.1/10, level with Orléans at the lowest of this batch, which calls for ordinary urban care after dark and nothing more. And the nature score, 4.2/10, is the weakest of the seven: Reims is a city of stone with vineyards around it, not an outdoor destination.",
+      },
+      {
+        heading: "Where to stay: the cathedral centre, Clairmarais, the station",
+        body: "The centre around the cathedral and the Palais du Tau is the default: city-centre blocks, shopping streets, the densest run of tables and counters, and everything on foot. Clairmarais, between the parc de Champagne and the centre, is the fallback when the centre is full: independent cafés, a young working population, and the tram to get back. The station area holds the business hotels and is the most reliable budget option, about ten minutes on foot from the cathedral: it is the subject of the single supplement section below. Croix-Rouge, around the university campus, offers the cheapest short lets and a student atmosphere that runs across the academic year, at the cost of a tram ride back to the centre in the evening. For a short stay, aim for the centre or Clairmarais and ignore the outskirts.",
+      },
+      {
+        heading: "Going out on a Tuesday: place Drouet-d'Erlon, La Cartonnerie, the opera",
+        body: "The weeknight circuit is a walk, and it has an obvious centre of gravity: place Drouet-d'Erlon and the streets running off it hold most of the brasseries, bars and small restaurants of the centre, minutes from the cathedral. You eat alone at the counter there without it needing any explanation, which is the real criterion of a solo stay. On venues, La Cartonnerie programmes contemporary music at contained prices, and it is the easiest thing to decide on the day before. The Opéra de Reims and La Comédie de Reims run their respective seasons from September to June, and Le Manège adds circus and dance. On champagne, one piece of practical honesty and one geographic correction that is easy to get wrong. The great houses of Reims run cellar visits, most of them in and around the Crayères district south-east of the centre, where the chalk workings are; the avenue de Champagne, which is the other famous address of the region and the one that carries the UNESCO listing, is in Épernay, about thirty kilometres away and reachable by regional train. Either way, visits are booked in advance, and a booking for one person is entirely unremarkable. As everywhere, Sunday evening and Monday are the flat points; Tuesday to Saturday give the density.",
+      },
+      {
+        heading: "Getting around without a car: tram, TGV, regional trains",
+        body: "Reims scores 6.4/10 on transport, level with Brest and Orléans in this batch. The city has a tram, a bus rapid transit network and direct TGV service from Paris-Est, which makes it one of the easiest destinations in the series to reach without a car for a short stay. The central station is minutes on foot from place Drouet-d'Erlon and the centre, which removes the transfer question on arrival and departure alike. The tram links the centre to the university quarters and the station, which makes a room outside the hyper-centre viable without depending on a last bus. Regional trains open up day trips, to Épernay and the Marne valley in particular, without ever touching a steering wheel. A car-free stay is entirely workable, including over two nights, which the distance does not allow everywhere in this batch. One note for an arrival by air: Paris-Est is one of several separate main-line terminals in Paris, on the north-east side, so coming from Charles-de-Gaulle means a transfer across the city rather than a change of platform.",
+      },
+      {
+        heading: "The single supplement, and how to get around it",
+        body: "Reims scores 6.0/10 on cost, second from last in this batch ahead of Chambéry, which makes it one of the destinations where the reflex counts most. Two structural features nonetheless work in favour of a traveller paying for a whole room alone. First a station hotel stock oriented towards business travel, whose weekday rates are indexed to single occupancy rather than to couples. Second a deep supply of furnished studios inherited from student demand, consistent with that 27.5% of 15 to 29 year olds: short lets are priced by floor area, which puts one person on a couple's rate. Three moves work here as elsewhere in this series. Ask explicitly for a single room rather than a double occupied by one person, because those are two separate rate lines in French hotels. Target business hotels from Monday to Thursday, where the grid inverts at the weekend. And compare a studio with a hotel from the second night onwards. No prices are printed in this guide: rates move from one season and one platform to the next, and what is worth passing on is the reflex, not the figure. One reservation particular to Reims: the proximity of Paris makes the weekend a tight market, and midweek is markedly more favourable.",
+      },
+      {
+        heading: "When to go: the university year, spring, and not the harvest",
+        body: "The best window is September to mid-November, which is precisely when a seaside resort empties. The university year fills the city, the seasons at La Cartonnerie, the opera and La Comédie restart, and the terraces on place Drouet-d'Erlon still hold up in September. April to June works just as well. Two periods call for a reservation. The grape harvest, in late August and early September depending on the vintage, tightens accommodation across the whole of Champagne, and the dates move from one year to the next: check them before booking rather than inferring them from last year. And the first half of August sees the students leave, which is exactly the situation this profile is trying to avoid. The rest of the year Reims delivers what it promises, a city that lives without depending on visitors, with the fullest cultural programme of this batch to go with it.",
+      },
+    ],
+    relatedCities: [
+      "reims",
+    ],
+    tags: [
+      "solo travel",
+      "solo travel reims",
+      "travelling alone in france",
+      "single supplement",
+      "place drouet-d-erlon reims",
+      "grand-est",
+    ],
+  },
+  {
+    slug: "solo-travel-in-troyes-2026",
+    title: "Solo travel in Troyes: the cheapest of this batch, and no TGV",
+    metaTitle: "Solo Travel in Troyes 2026: Stay, Go Out, Budget",
+    metaDesc:
+      "Troyes alone: 24.6% aged 15 to 29, a cost score of 7.1/10, the best of this batch, a medieval centre you cross on foot, and direct trains from Paris-Est.",
+    category: "lifestyle",
+    emoji: "🍸",
+    readMinutes: 7,
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    intro:
+      "Troyes is the cheapest destination in this batch, with a cost score of 7.1/10, the most favourable of the seven, and it shows 24.6% of residents aged 15 to 29 at the 2022 Insee census against a national median of 18.4% across the 538 cities measured here. It is also the only city in the series with neither TGV service nor a rail-based urban network, which is not a defect for a solo trip: the medieval centre crosses on foot from end to end, and Paris-Est is about an hour and a half away by direct train. This guide covers where to stay, how to string together a weeknight, and how to stop the room costing the price of two.",
+    sections: [
+      {
+        heading: "Why Troyes rather than somewhere else",
+        body: "Troyes is the most economical destination of this batch, and by a distance: its cost score of 7.1/10 is the highest of the seven, ahead of Brest at 6.4. On this site's axis convention a high cost score means an affordable city, not an expensive one, and that is indeed the case here. Its share of 15 to 29 year olds reaches 24.6% against a national median of 18.4%, carried by the Université de technologie de Troyes and the schools in town, whose year runs from September to June. Evening life therefore follows the academic calendar and not the holiday one, which is this profile's criterion. The culture score, 7.1/10, puts Troyes third in this batch behind Reims and Metz, which is notable for a city of 62,443 residents: the half-timbered medieval centre, the exceptional set of stained glass in the Troyes churches and the Cité du Vitrail, which shows more than 150 m² of original glazing from every period, account for much of it. Two honest reservations. The everyday-life score of 5.9/10 is level with Reims and Metz in this batch: Troyes is a small city, with a small city's opening hours. And the absence of a structuring urban network is felt as soon as you leave the centre.",
+      },
+      {
+        heading: "Where to stay: the champagne cork, and nothing else",
+        body: "For once the answer is simple. The historic centre of Troyes, whose outline draws the shape of a champagne cork, concentrates the half-timbered houses, the lanes, the tables and the counters, and it crosses on foot in about twenty minutes from end to end. It is the only area to aim for on a short stay, and there is no serious argument for leaving it. Inside it, the lower part around the ruelle des Chats and rue Champeaux is the densest in evening addresses. The Saint-Martin quarter, west of the centre, is quiet and residential: acceptable if the centre is full, no more. The factory outlet zone on the outskirts is what brings the most visitors to Troyes, and it is precisely the area not to choose for sleeping: it is suburban, it has no evening life, and it is effectively unreachable without a car. Stay in the cork and leave the outlets for half a day if the urge comes.",
+      },
+      {
+        heading: "Going out on a Tuesday: ruelle des Chats, the Chapelle Argence",
+        body: "The weeknight circuit is one of the shortest in the series, and that is an advantage when you are going out alone: everything is within walking distance, with no transport decision at the end of the evening. It starts at place Alexandre-Israël, enters rue Champeaux and the ruelle des Chats, whose timber frames almost touch overhead, and continues towards the squares of the centre where the terraces and tables cluster. You eat alone at the counter there without it needing any explanation. On venues, the Chapelle Argence, housed in a nineteenth-century chapel of the former imperial lycée on boulevard Gambetta, hosts programming open to every aesthetic, from classical to contemporary music, carried by a range of local organisations. It is the first place to check when fixing an evening. Be honest about the scale: Troyes does not have the venue density of Metz or Reims, and Monday and Sunday evening are flatter here than elsewhere. From Thursday to Saturday the city is markedly livelier than on a Tuesday, and a stay is usefully set against that reality rather than against the ideal.",
+      },
+      {
+        heading: "Getting around without a car: walking, direct trains, and no TGV",
+        body: "Troyes scores 6.7/10 on transport, the highest of this batch alongside Metz, which may surprise for a city with neither a tram nor bus rapid transit. The explanation is scale: the centre is done entirely on foot, and the station sits on the edge of the historic centre, minutes from rue Champeaux. Know what you are buying before booking. Troyes is not served by TGV. The Paris link runs by TER or Intercités from Paris-Est, over 141 kilometres, in about an hour and a half, with around fifteen return services a day. TER is the regional network and Intercités the national conventional network: both are ordinary trains, neither is high speed. It is direct, it is simple, and it is more than enough for a stay of two to three nights, but a booking engine showing you a TGV to Troyes has the wrong city or the wrong station. Locally the urban bus network supplements walking. Day trips into the Aube, to the lakes of the Forêt d'Orient in particular, do require a car or a coach: that is the honest limit of a car-free stay here, and it does not concern the city itself.",
+      },
+      {
+        heading: "The single supplement, and how to get around it",
+        body: "This is the destination in this batch where a solo traveller does best, with a cost score of 7.1/10, the best of the seven. Two structural features contribute. First a hotel stock sized for passing and business trade, whose weekday grids are indexed to single occupancy rather than to couples. Second a supply of furnished studios inherited from student demand, consistent with that 24.6% of 15 to 29 year olds: short lets are priced by floor area, which puts one person on a couple's rate. Three moves work here as elsewhere in this series. Ask explicitly for a single room rather than a double occupied by one person, because those are two separate rate lines in French hotels. Target business hotels from Monday to Thursday, where the grid inverts at the weekend. And compare a studio with a hotel from the second night onwards. No prices are printed in this guide: rates move from one season and one platform to the next, and what is worth passing on is the reflex, not the figure. One reservation particular to Troyes: on heavy retail weekends the city fills with visitors who have come for the outlets, and accommodation follows. Midweek is markedly more favourable, which suits this profile.",
+      },
+      {
+        heading: "When to go: the university year, spring, and not the sales weekends",
+        body: "The best window is September to mid-November, when the university year fills the city and the programmes restart. April to June works just as well, with long days and usable terraces in the squares of the centre. Two periods call for a reservation. The big retail weekends, around the sales and the end-of-year holidays, tighten accommodation for a reason that has nothing to do with what this guide is proposing: the city fills with visitors who have come for the outlet villages on the outskirts, and rates rise without the atmosphere of the centre changing much. Worth knowing if you are planning from abroad: France's two sales periods are fixed nationally rather than left to each shop, so those weekends are predictable, and the dates are published each year. And the first half of August sees the students leave, exactly the situation this profile is trying to avoid. The rest of the year Troyes offers the best ratio in this batch between what you spend and what you find, provided you accept the scale of a city of 62,000 and set your stay towards the end of the week rather than the start.",
+      },
+    ],
+    relatedCities: [
+      "troyes",
+    ],
+    tags: [
+      "solo travel",
+      "solo travel troyes",
+      "travelling alone in france",
+      "single supplement",
+      "ruelle des chats troyes",
+      "grand-est",
+    ],
+  },
+  {
     slug: "things-to-do-in-saint-laurent-du-maroni-2026",
     title: "Things to do in Saint-Laurent-du-Maroni: the penal colony and the river",
     metaTitle: "Things to Do in Saint-Laurent-du-Maroni (2026)",
