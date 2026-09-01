@@ -214,10 +214,21 @@ export default async function EmploiPage({ params }: Props) {
           </Link>
         </div>
 
-        <div className="mt-8 text-sm">
-          <Link href="/emploi" className="text-[var(--accent)] hover:underline">
-            → Classement national des marchés du travail
-          </Link>
+        <div className="mt-8 text-sm space-y-2">
+          <p>
+            <Link href="/emploi" className="text-[var(--accent)] hover:underline">
+              → Classement national des marchés du travail
+            </Link>
+          </p>
+          <p className="text-[var(--text-secondary)]">
+            Les scores ci-dessus décrivent un bassin d&apos;emploi, pas ce qu&apos;on peut y
+            construire en début de carrière :{" "}
+            <Link href="/classements/jeune-actif" className="text-[var(--accent)] hover:underline">
+              le classement jeune actif
+            </Link>{" "}
+            croise pour cela scène culturelle, aptitude au télétravail et coût de la vie, à
+            poids égal.
+          </p>
         </div>
       </section>
 

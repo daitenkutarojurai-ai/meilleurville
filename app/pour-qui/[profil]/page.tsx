@@ -540,6 +540,41 @@ export default async function ProfilePage({ params }: Props) {
           </section>
         )}
 
+        {/* Jeune-actif counterpart — visible for the three profiles whose top
+            weight is `jeuneActif` (jeunes-actifs 2,5 ; jeunes-diplômés 2,0 en
+            second derrière le coût ; célibataires 2,0, dont l'intro dérive déjà
+            sa "vitalité du bassin jeune-actif" de ce score). Le classement est
+            ce même score lu seul, sans les axes que le profil ajoute autour. */}
+        {["jeunes-actifs", "jeunes-diplomes", "celibataires"].includes(profile.slug) && (
+          <section>
+            <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+              Le classement complémentaire — le critère lu seul
+            </h3>
+            <Link href="/classements/jeune-actif" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl" aria-hidden>🚀</span>
+                  <div>
+                    <p className="font-semibold text-[var(--text-primary)]">
+                      Les villes françaises qui portent le mieux un début de carrière
+                    </p>
+                    <p className="text-xs text-[var(--text-secondary)] mt-1">
+                      Le top ci-dessus combine plusieurs axes autour de ce critère ; ce
+                      classement-ci publie le critère seul — culture, télétravail et coût à
+                      poids égal, plus un bonus forfaitaire pour les villes de plus de
+                      100 000 habitants. Il n&apos;y a pas d&apos;axe transport, ce qui laisse
+                      remonter des communes petites, bon marché et culturellement actives. La
+                      page dit aussi ce qu&apos;elle est : un indicateur de substitution, en
+                      attente d&apos;une mesure directe de la tranche 25-35 ans et des
+                      ouvertures d&apos;établissements.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+          </section>
+        )}
+
         {/* Other profiles */}
         <section>
           <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">

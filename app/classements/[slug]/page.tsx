@@ -473,6 +473,37 @@ export default async function RankingPage({ params }: Props) {
             </div>
           )}
 
+          {/* Voisin de barème — le classement jeunes actifs pondère cinq axes,
+              transport et qualité de vie compris, ce qui suppose une métropole
+              desservie ; le composite propriétaire n'en garde que trois — culture,
+              télétravail, coût — à poids égal, si bien qu'une petite ville bon
+              marché et vivante peut y devancer une capitale régionale. Même
+              sujet, deux idées différentes de ce qu'un début de carrière exige. */}
+          {slug === "jeunes-actifs" && (
+            <div>
+              <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-3">
+                Classement voisin
+              </p>
+              <Link
+                href="/classements/jeune-actif"
+                className="flex items-start gap-3 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 p-3 transition-colors group"
+              >
+                <span className="text-xl flex-shrink-0">🚀</span>
+                <div className="min-w-0">
+                  <p className="text-xs font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug">
+                    Démarrer sa carrière ailleurs que dans une métropole
+                  </p>
+                  <p className="text-xs text-[var(--text-tertiary)] mt-0.5">
+                    Même sujet, arbitrage plus étroit : culture, télétravail et coût à poids
+                    égal, sans axe transport, plus un bonus forfaitaire au-dessus de
+                    100 000 habitants. Des communes petites et vivantes y côtoient les
+                    métropoles, et les ex æquo sont publiés par paliers.
+                  </p>
+                </div>
+              </Link>
+            </div>
+          )}
+
           {/* Related guides */}
           {relatedGuides.length > 0 && (
             <div>

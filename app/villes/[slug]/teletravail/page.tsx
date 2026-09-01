@@ -268,6 +268,11 @@ export default async function VilleTeletravailPage({ params }: Props) {
               💻 Classement national
             </Badge>
           </Link>
+          <Link href="/classements/jeune-actif">
+            <Badge variant="default" className="px-4 py-2 text-sm cursor-pointer">
+              🚀 Télétravail + culture + coût
+            </Badge>
+          </Link>
         </div>
       </div>
 
