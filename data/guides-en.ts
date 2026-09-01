@@ -33249,6 +33249,356 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["lyon", "valence", "avignon", "orange", "nimes"],
     tags: ["france climate 2040", "climate", "rhone valley", "heatwave", "lyon"],
   },
+  {
+    slug: "things-to-do-in-poissy-2026",
+    title: "Things to do in Poissy: Le Corbusier and a royal font",
+    metaTitle: "Things to Do in Poissy, Yvelines (2026)",
+    metaDesc:
+      "The Villa Savoye, the collegiate church where Saint Louis was baptised, a toy museum in a medieval gatehouse, and a park a painter chose to live beside.",
+    category: "city-guide",
+    emoji: "🏗️",
+    readMinutes: 7,
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    intro:
+      "Poissy had 40,792 residents at the 2022 census, against 37,662 in 2011, and it is known in the Paris region for two things that are not reasons to go: it is the terminus of a branch of the RER A, and it has a car plant. It also has the Villa Savoye, one of the most written-about buildings of the twentieth century, and the collegiate church where Louis IX was baptised days after his birth in 1214. Seven centuries separate those two monuments, they are in the same small town, and that gap is the whole point of a day here.",
+    sections: [
+      {
+        heading: "The Villa Savoye",
+        body: "Le Corbusier built it between 1928 and 1931 for the Savoye family, and it applies in one go the five points of a new architecture he had set out a few years earlier: pilotis, free plan, free façade, ribbon window, roof garden. It was listed as a historic monument on 12 December 1965, four months after its architect's death, which was exceptional at the time for a building that recent, and it has been a UNESCO World Heritage site since July 2016, as part of the transnational series of seventeen works by Le Corbusier spread across several countries. It is open to visitors, and it is reason number one to come to Poissy.",
+      },
+      {
+        heading: "The gardener's lodge nobody stops at",
+        body: "The same building site produced a second, much smaller structure at the entrance to the grounds: the gardener's lodge. It applies the same vocabulary at domestic scale, on the budget of staff housing, and it is part of the UNESCO listing exactly as the villa is. Almost everyone walks straight past it towards the white house. That is a pity, because it answers the question the villa never has to face: does this architectural language still work when the money and the floor area are what ordinary people have?",
+      },
+      {
+        heading: "The collegiate church and the font of a saint",
+        body: "Founded around 1016 by King Robert the Pious, Notre-Dame is the oldest building in town and the anchor of the old centre. It was heavily restored in the nineteenth century and is still a working parish church; entry is free. A collegiate church, for anyone meeting the word here, is one served by a college of canons rather than by a bishop. Inside is the reason the building matters: Louis IX was born in Poissy on 25 April 1214 and baptised here days later, and the font used became a relic after his canonisation in 1297. It was restored in 1630 and reinstalled in the Saint-Louis chapel behind a screen designed by Viollet-le-Duc. A stone basin in which a king was baptised, in the same commune as the Villa Savoye — that is the short cut through French history this town offers and nobody expects from it.",
+      },
+      {
+        heading: "The royal priory, of which one gate survives",
+        body: "Shortly after his grandfather's canonisation, on 11 August 1297, Philip the Fair decided to found a Dominican convent in Poissy on the very spot where the king had been born, which meant demolishing the castle next to the collegiate church. The Revolution destroyed almost all of it. What is left is the gatehouse, listed as a historic monument in 1933. One gate for an entire royal monastery is not much, but it is what the Revolution left of a great many foundations of the kind, and this one found a second use: it now holds the Toy Museum, so the visit has two subjects at once, the collections and the medieval building with its entrance towers you can climb. It is small, an hour does it, it works very well with children, and it sits in the old centre rather than out on a ring road. Check the opening days before you travel: like most municipal sites this size, it does not keep national-museum hours.",
+      },
+      {
+        heading: "Parc Meissonier",
+        body: "Twelve hectares of English-style park with a lake, a rose garden and notable trees, among them a cedar of Lebanon several centuries old. It is named after Ernest Meissonier (1815-1891), a painter of considerable standing in his lifetime, who settled in Poissy in 1846 inside the grounds of the former abbey and stayed until his death. The town has owned the park since 1952 and it is open to all. It is the obvious counterweight to a morning spent in monuments, and the only place in Poissy where you can see what the town looked like when a successful painter chose to live in it.",
+      },
+      {
+        heading: "The car plant, and why it explains the town",
+        body: "Work on the car plant began in 1938 under Ford SAF. In July 1954 Simca bought it from Ford, and the new factory was inaugurated in October 1958 with the marque's name on a 75-metre water tower, going on to build a thousand vehicles a day. The site then passed to Chrysler, then Peugeot, and has belonged to Stellantis since the 2021 merger, which opened a campus there in 2025. You cannot visit a working plant, and this is not a stop on any itinerary. It is here because without it you understand neither the size of Poissy nor who lives in it — a useful corrective if you arrive expecting a heritage town.",
+      },
+      {
+        heading: "The Parc du Peuple de l'herbe, reachable from Poissy",
+        body: "Mind the address on this one. The 113-hectare departmental park, open since 2016 and billed as the largest nature park in the Yvelines, is in the commune of Carrières-sous-Poissy on the other side of the Seine — not in Poissy. It is designed around the conservation of insects and water birds, with an insect house you can visit. With children it is a half-day in its own right, and it is the best place in the area to walk a long way beside the river without meeting a car.",
+      },
+      {
+        heading: "Getting there, and how long to stay",
+        body: "Poissy is the terminus of one branch of the RER A — the regional express line that crosses Paris underground and comes out well beyond the city on both sides — and is also served from Paris-Saint-Lazare, which makes it a day trip needing no planning at all. Do the Villa Savoye in the morning: it is away from the centre, so allow for a bus or a walk. Keep the afternoon for the old town, where the collegiate church, the gatehouse, the Toy Museum and Parc Meissonier all sit within a few hundred metres of each other. Poissy then combines naturally with Saint-Germain-en-Laye, a few minutes away by train, which tells neither the same period nor the same story.",
+      },
+    ],
+    relatedCities: ["poissy", "saint-germain-en-laye", "versailles"],
+    tags: ["things to do in poissy", "poissy", "travel", "city guide", "ile-de-france"],
+  },
+  {
+    slug: "things-to-do-in-rueil-malmaison-2026",
+    title: "Things to do in Rueil-Malmaison: Joséphine's house",
+    metaTitle: "Things to Do in Rueil-Malmaison (2026)",
+    metaDesc:
+      "An imperial residence with its furniture, Joséphine's rose garden and tomb, a seventeen-hectare park, and a Cavaillé-Coll organ, all on the RER A.",
+    category: "city-guide",
+    emoji: "👑",
+    readMinutes: 7,
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    intro:
+      "Rueil-Malmaison had 80,842 residents at the 2022 census, against 79,855 in 2011. It is one of the large towns of the Hauts-de-Seine, and the only one that owns a complete imperial residence — house, park, furniture, and the grave of the woman who lived there. The château de Malmaison was the private home of Bonaparte and Joséphine, then of Joséphine alone after the divorce, until her death. Joséphine, for readers meeting her here, was Napoleon's first wife, born in Martinique and widowed by the Revolution before she married him. Malmaison is where the Napoleonic story is domestic rather than imperial, and it is twenty minutes from central Paris on a commuter line.",
+    sections: [
+      {
+        heading: "The château de Malmaison",
+        body: "Joséphine bought the estate on 21 April 1799, for 325,000 francs, while Bonaparte was in Egypt. The couple made it their private residence, and under the Consulate Malmaison was as much a seat of government as a country house. After the divorce of 1809 Joséphine stayed on alone and died here on 29 May 1814. The estate was bought in 1896 by the patron Daniel Iffla, known as Osiris, who restored it and gave it to the state; the Napoleonic museum opened in 1905. The interiors are the attraction, and the reason is specific: this is Consulate and Empire furniture and decoration in the rooms it was made for, which is rare anywhere.",
+      },
+      {
+        heading: "Joséphine's botany",
+        body: "Malmaison was not only a residence, it was an experimental garden. Several hundred rare species were introduced here, and its mistress had plants shipped from around the world in the middle of a European war. The roses of the collection were painted by Pierre-Joseph Redouté, which fixed the image of this garden for two centuries, and a rose garden survives in the park. This is the more interesting half of the place. It is one of the great collection gardens of European history, and its influence on rose growing outlasted the empire that paid for it.",
+      },
+      {
+        heading: "The château park",
+        body: "The present park is a fraction of the old estate, but it is enough to grasp the scale and the pleasantness of the place — the trees, the walks, the views back at the façade. It takes an hour and it is inseparable from the interior: the reception rooms open onto it, and the relationship between house and garden is the whole subject of the works Joséphine entrusted to the architects Percier and Fontaine. Plan to spend time in it rather than marching through the rooms, particularly in the warmer months.",
+      },
+      {
+        heading: "The parc de Bois-Préau",
+        body: "A few hundred metres away, Bois-Préau covers seventeen hectares in the middle of the town, with a statue of Joséphine that records the fact that the land belonged to the Malmaison estate. The park is open to the public and closed on Tuesdays. The house it contains, the second site of the national museum, was shut for a long time and now takes only temporary exhibitions: do not come for it without checking that it is open on the day. The park stands on its own and is the finest large public garden in the commune.",
+      },
+      {
+        heading: "The tombs of Joséphine and Hortense",
+        body: "The church of Saint-Pierre-Saint-Paul in the centre holds the tombs of the Empress Joséphine and of her daughter Queen Hortense. Joséphine's white marble funerary monument was raised in 1825 by her children Eugène and Hortense in the Saint-Nicolas chapel, to the right of the choir; her body lies in the base. In 1858 Napoleon III — Hortense's son — raised a cenotaph to his mother in the matching chapel on the left, her body resting in a crypt below in an antique sarcophagus. Entry is free, which for two graves of this rank is worth stating plainly.",
+      },
+      {
+        heading: "The Cavaillé-Coll organ",
+        body: "The same church has an organ by Aristide Cavaillé-Coll, listed as a historic monument since 1970 and overhauled in a restoration campaign in 2017. It is the kind of instrument you would never notice pushing open the door of a suburban church, and it is worth the detour: the same builder signed the organs of Saint-Sulpice and of Notre-Dame de Paris. Ask about recitals and concerts. An organ of this quality is meant to be heard, and a silent visit tells you nothing about what it is.",
+      },
+      {
+        heading: "The Atelier Grognard and the riverside",
+        body: "A hundred metres or so from the château, the Atelier Grognard is a nineteenth-century works that produced copper, zinc and tin plates for engraving and photogravure. Converted, it offers more than 650 m² of exhibition space, including a large hall lit by a glass roof, and hosts the town's exhibitions; the programme changes several times a year, so check it before travelling, but it is also what lets you come back to Rueil without seeing the same thing twice, which Malmaison alone does not. The commune runs down to the Seine, and the parc des Impressionnistes on the river is a reminder that this loop of the Seine was a subject for painters before it was a suburb. There is nothing to visit there, and that is the point: after a morning of Empire furniture, an hour by the water resets the eye, and it is the only place from which Rueil looks like a river town rather than a commuter one.",
+      },
+      {
+        heading: "The road train, getting there, and how long to stay",
+        body: "The town runs a tourist road train on a circuit of about an hour and a quarter that takes in the riverside, the parc des Impressionnistes and Bois-Préau, and passes the château. It is not the most serious proposition in French tourism, and that is exactly its use: Rueil's sites are far apart, the commune is large, and doing the same round on foot costs half a day. With children, or in doubtful weather, it is the efficient way to join the dots. The RER A serves Rueil-Malmaison, putting it about twenty minutes from central Paris, but the station is not next to the château — allow a walk or a bus, and do not expect to step off the train in front of Malmaison. A full day covers the château, the park, the church and Bois-Préau; half a day does Malmaison alone. The town then combines with Saint-Germain-en-Laye on the same line, or with Boulogne-Billancourt and Neuilly-sur-Seine, which tell a completely different chapter of west Paris.",
+      },
+    ],
+    relatedCities: ["rueil-malmaison", "boulogne-billancourt", "neuilly-sur-seine"],
+    tags: ["things to do in rueil-malmaison", "rueil-malmaison", "travel", "city guide", "ile-de-france"],
+  },
+  {
+    slug: "things-to-do-in-vernon-2026",
+    title: "Things to do in Vernon, Normandy: more than the stop for Giverny",
+    metaTitle: "Things to Do in Vernon, Normandy (2026)",
+    metaDesc:
+      "A timber mill on a medieval bridge, a keep of Philip Augustus, an impressionist museum renamed in 2024, and Giverny five kilometres away.",
+    category: "city-guide",
+    emoji: "🎨",
+    readMinutes: 7,
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    intro:
+      "This is Vernon in the Eure, in Normandy, on the Seine between Paris and Rouen — not Vernon in British Columbia, not Vernon in Texas, and nothing to do with Mount Vernon. It had 24,841 residents at the 2022 census against 24,772 in 2011, a stable population in a town that hundreds of thousands of visitors pass through every year without seeing. They get off at Vernon-Giverny station, take the shuttle, and go to Monet's house. They are right to go to Giverny and wrong not to stop: Vernon has a timber-framed mill standing on the piers of a medieval bridge, a castle of Philip Augustus barely changed in eight hundred years, and a museum whose impressionist holdings are real.",
+    sections: [
+      {
+        heading: "The Vieux-Moulin",
+        body: "This is the image of Vernon: a timber-framed building straddling two piers of the old bridge over the Seine. The bridge is twelfth-century, the mill itself most likely sixteenth, and it is the last survivor of the six flour mills that stood on the piers of the medieval bridge. Claude Monet painted it under the title Old House on the Bridge, a canvas now in the museum of fine arts in New Orleans. You cannot go in. You look at it from the bank, and it is by a distance the best view in the town.",
+      },
+      {
+        heading: "The château des Tourelles",
+        body: "On the right bank, facing the Vieux-Moulin, the château des Tourelles was raised after 1196, when Philip Augustus took Vernon and made it a military post on the frontier with the Anglo-Norman duchy — which is to say, against the kings of England, who were also dukes of Normandy. It is a square tower flanked by four round turrets, some twenty metres high, and one of the few French castles that has barely changed in eight centuries. You understand in a minute why it is there: it holds the bridge, and the bridge holds the Seine valley.",
+      },
+      {
+        heading: "The collegiate church of Notre-Dame",
+        body: "The collegiate church dominates the centre with a Norman flamboyant Gothic façade that is the set piece of the building. Work ran over several centuries and the building shows it: the oldest parts and the façade are not telling the same story. Entry is free. It survived what destroyed much of the rest of the town, and it is around it that the historic centre reassembles itself for anyone who takes the time to look up rather than crossing towards the shuttle stop.",
+      },
+      {
+        heading: "The musée Blanche Hoschedé-Monet, and the name",
+        body: "Get the name right, because most guidebooks and some signs have not caught up: the municipal museum was renamed musée Blanche Hoschedé-Monet in 2024. It had been called musée Alphonse-Georges-Poulain since 1966, after the archaeologist and curator who ran it from 1922. The institution itself dates from an 1862 bequest of natural history collections and has occupied a former town house in the old centre since 1983. Its holdings run from Claude Monet to Pierre Bonnard: impressionist painting made on the Seine, a few kilometres from where it was made. The new name was chosen by the residents of Vernon, and it points at a painter long reduced to her family position — Monet's stepdaughter, who painted in her own right and whose work is now being reconsidered. That reframing is useful before Giverny rather than after it: the place was not one man's studio but a household, with a blended family, pupils, visitors and a colony of American painters. Seeing the museum first changes what you look at in the garden.",
+      },
+      {
+        heading: "Giverny, reachable from Vernon",
+        body: "Giverny is a separate commune, five to seven kilometres from the centre of Vernon depending where you start. It is not a district of Vernon, and saying so avoids an unpleasant surprise on foot. There you find Monet's house and gardens, run by the Fondation Claude Monet, and the musée des impressionnismes, created in 2009. You get there by shuttle from the station, by bike on a greenway, or on foot if you accept a good hour's walk. Book Monet's house in advance: it is one of the most visited sites in Normandy, and turning up on the day in season is not a plan.",
+      },
+      {
+        heading: "The tour des Archives",
+        body: "In the old centre, the tour des Archives is what remains of Vernon's medieval castle on the town side, and it survived the bombing. It is a massive keep visible from several streets, and together with the château des Tourelles on the far bank it gives the measure of what the military lock at Vernon actually was. The two works answer each other across the river. Looking at one after the other is the best way to understand why a town that was never large was fought over for centuries.",
+      },
+      {
+        heading: "What 1944 took",
+        body: "Vernon's medieval fabric was far denser before the Second World War, and bombing destroyed much of it. That is the explanation for what you see now: isolated monuments, often remarkable, in a rebuilt townscape. Knowing it changes the walk, because you stop hunting for a continuous medieval centre that no longer exists and start reading each old building as a survivor. For English-speaking visitors there is a second reason the name may ring a bell: in late August 1944 the British 43rd (Wessex) Division forced a crossing of the Seine here, beginning on the evening of 25 August, under the codename Operation Neptune — not the Normandy landings of the same codename, but the river crossing that opened the pursuit across northern France. This is a story shared by many towns in the Seine valley and rarely told this plainly on site.",
+      },
+      {
+        heading: "The château de Bizy, getting there, and how long to stay",
+        body: "Within the commune of Vernon, the château de Bizy is an eighteenth-century classical house nicknamed the little Norman Versailles, with monumental stables, eighteenth-century fountains and an English park of some twenty hectares, and it keeps Napoleonic mementoes. It is the visit missing from almost every day plan, because it requires staying in Vernon instead of bolting for Giverny; with two days in the area it is the obvious addition, being neither the same century nor the same subject as the painting. Vernon-Giverny station is under an hour from Paris-Saint-Lazare on the Rouen line, and the Giverny shuttle leaves from outside it. The classic mistake is to give the whole day to Giverny: allow half a day for the house and gardens and keep the other half for Vernon, where the museum, the church, the Vieux-Moulin and the two towers are all within walking distance. Two days let you add Bizy and a run down the Seine towards Les Andelys.",
+      },
+    ],
+    relatedCities: ["vernon", "rouen", "dieppe"],
+    tags: ["things to do in vernon", "vernon", "travel", "city guide", "normandy"],
+  },
+  {
+    slug: "things-to-do-in-dole-2026",
+    title: "Things to do in Dole: Pasteur's town and a lost capital",
+    metaTitle: "Things to Do in Dole, Jura (2026)",
+    metaDesc:
+      "Pasteur's birthplace on a tanners' canal, a 73-metre belfry that was once taller, a hospital turned library, and France's second-largest broadleaf forest.",
+    category: "city-guide",
+    emoji: "🔬",
+    readMinutes: 7,
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    intro:
+      "Dole had 23,784 residents at the 2022 census, against 24,009 in 2011. That is small for a town that was the capital of Franche-Comté and held its university for the best part of three centuries, and the mismatch is the thing to hold on to: Dole is a former capital, and you hear it in the disproportion between the size of the town and the size of its monuments. It is also where Louis Pasteur was born, and the house is still there, on the edge of a canal, exactly where you would expect it.",
+    sections: [
+      {
+        heading: "Pasteur's birthplace",
+        body: "Louis Pasteur was born in Dole on 27 December 1822, in a tanner's house on the canal des Tanneurs. The house became a museum in 1923, for the centenary of his birth, and it can be visited. The interest is as much in the modesty of the place as in the trajectory of the man: this is an artisan's dwelling in an artisans' quarter, and the gap between it and Pasteur's global standing is what the visit is actually about. The museum sets out the stages of his work without turning a scientist into a saint.",
+      },
+      {
+        heading: "The canal des Tanneurs",
+        body: "The canal runs through the lower old town and gives the quarter its nickname of little Venice, with houses standing in the water, washhouses and footbridges. It is a working canal: the name states the trade that dug it, and Pasteur's house is there because his father was a tanner, not because the setting is pretty. The walk takes twenty minutes and it is the quickest way to understand the shape of Dole — the low town at the water, the high town above it, and a staircase in between.",
+      },
+      {
+        heading: "The collegiate church and its belfry",
+        body: "The belfry dominates the town at 73 metres, and its history explains its silhouette. Completed in 1596 to a design by Hugues Sambin inspired by the dome of Santa Maria di Carignano in Genoa, it then stood 82 metres. Damaged during the siege of 1636 by Condé's troops, and later by a storm, it was rebuilt nine metres lower. So what you are looking at is a belfry shorn of its original spire — nothing on site says so, and it changes how the façade reads.",
+      },
+      {
+        heading: "A capital, and a university that left",
+        body: "Dole was the capital of Franche-Comté until 1678, the year the Treaty of Nijmegen confirmed the province's attachment to France. The town kept a scale of monuments that does not match its present population: town houses, public buildings, fortifications. Keep that as the key to the whole visit, or you will simply conclude the place has nice stonework. Then came the second blow, thirteen years later. The university of Franche-Comté was born in Dole and stayed until 1691, when Louis XIV ordered by letters patent, in the middle of the War of the League of Augsburg, that it move to his city of Besançon. No building really tells that story, but it is the fact that explains why a town of twenty-four thousand people has an old centre of this density: for centuries it housed students, lawyers and administrators.",
+      },
+      {
+        heading: "The Hôtel-Dieu turned library",
+        body: "The former Hôtel-Dieu, a hospital in the old sense of a charitable foundation, spreads its long façade and carved balustrade above the canal des Tanneurs. Rehabilitated between 1998 and 2000, it now holds the central media library, the heritage library and the archives. It is one of the most successful conversions of its kind in France: you walk in freely, cross a courtyard, and read in volumes built for healing. Go in even if you are not borrowing a book, if only to see what an old hospital can become when it is not turned into flats.",
+      },
+      {
+        heading: "The climb to the upper town",
+        body: "Between the canal and the collegiate church, the old town is climbed by narrow streets, staircases and passages, with old doorways and courtyards glimpsed on the way. It is a compact centre, largely protected, and it takes an hour without any particular plan — the point is to go up, then come down by a different route. The contrast between the tanners' quarter at water level and the high town of canons and parliamentarians is the best lesson in social history Dole has to offer, and it is free.",
+      },
+      {
+        heading: "The Doubs and the Rhône-Rhine canal",
+        body: "Dole stands on the Doubs, doubled by the Rhône-Rhine canal, which gives it a marina and long usable banks. This is one of the major inland waterways of eastern France and Dole is a natural stop on it: boats go past, bikes can be hired, and the towpaths offer tens of kilometres of flat going, which is rare in a region that climbs fast. For a family it is the obvious complement to a morning of monuments.",
+      },
+      {
+        heading: "The forêt de Chaux, and getting there",
+        body: "East of the town begins the forêt de Chaux, the second-largest broadleaf forest in France after Orléans, with 20,493 hectares running some thirty kilometres end to end. It belongs to neighbouring communes, among them La Vieille-Loye, and not to Dole: you reach it from the town, you are not in it. This is a forest of charcoal burners and woodcutters, with waymarked paths and an industrial history still legible in the ground. Allow half a day, and real shoes. Dole itself is on the Dijon-Besançon line with a station in the centre, so the old town can be done entirely on foot from the train. A full day covers Pasteur's house, the collegiate church, the Hôtel-Dieu and the old town; a second adds the forest or the canal. The town then combines with Besançon to the east and Dijon to the west — the two cities that took, respectively, its university and part of its regional role, which makes the comparison instructive rather than merely scenic.",
+      },
+    ],
+    relatedCities: ["dole", "besancon", "lons-le-saunier"],
+    tags: ["things to do in dole", "dole", "travel", "city guide", "bourgogne-franche-comte"],
+  },
+  {
+    slug: "things-to-do-in-soissons-2026",
+    title: "Things to do in Soissons: a façade with no church behind it",
+    metaTitle: "Things to Do in Soissons, Aisne (2026)",
+    metaDesc:
+      "Two abbey towers standing in front of nothing, a Gothic cathedral with a Rubens hanging free to view, a rounded transept found almost nowhere else in France.",
+    category: "city-guide",
+    emoji: "⛪",
+    readMinutes: 7,
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    intro:
+      "Soissons had 28,667 residents at the 2022 census, against 28,551 in 2011. Two things bring people here: an abbey of which only the front wall survives, that front wall alone being worth the journey, and a cathedral with a Rubens in it. Add a vase smashed in 486 that every French schoolchild knows about and nobody can locate, and you have a middling town in the Aisne holding one of the most striking monumental landscapes in northern France, a little over an hour from Paris.",
+    sections: [
+      {
+        heading: "The façade of Saint-Jean-des-Vignes",
+        body: "This is the silhouette of Soissons: the front of the former abbey church of Saint-Jean-des-Vignes, two towers of 75 and 80 metres topped with openwork spires, in fifteenth-century flamboyant Gothic. Behind it there is nothing — no nave, no choir, no vault. You are looking at a monumental wall with the sky through it. The emptiness is what makes the impression, and no photograph carries it. The site is freely accessible and it repays a second visit at the end of the day, when the light comes through the openings.",
+      },
+      {
+        heading: "Why only the façade is left",
+        body: "The site was sold in 1804 to the bishop of Soissons, and in 1805 permission was granted to use the abbey church's stone for restoration work on the cathedral. The dismantling ran from 1805 to 1825: the abbey was quarried to repair the other great monument in town. The façade was saved at the last moment after several voices were raised for its preservation, Victor Hugo's among them. This is one of the founding cases in the French idea of a historic monument, and it was fought out here — which is worth knowing in a country whose heritage protection laws are often assumed to have always existed.",
+      },
+      {
+        heading: "The cloister and the conventual buildings",
+        body: "Around the façade, parts of the cloister survive along with the refectory and the cellar, which give the measure of what the abbey was before the demolition. These buildings now host exhibitions and cultural activities, so the site is a living part of the town rather than a ruin under glass. The combination is odd and it works: you go from an eighty-metre wall to vaulted rooms of human scale, and you grasp that an abbey was a small town before it was a church.",
+      },
+      {
+        heading: "The cathedral of Saint-Gervais-et-Saint-Protais",
+        body: "The cathedral is one of the great Gothic buildings of northern France: the nave is 110 metres long and 30.33 metres to the vault, and the tower rises to 66 metres. It suffered badly in the fighting of the First World War and was restored afterwards, which shows in places. Entry is free. It is less famous than its neighbours at Laon and Reims, it belongs to the same family and the same ambition, and it is one of the reasons Soissons deserves better than its reputation.",
+      },
+      {
+        heading: "The rounded south transept",
+        body: "This is the architectural oddity of the building, and you need no training to see it: the south arm of the transept is rounded, with an ambulatory and a large two-storey round chapel, while the north arm ends in a flat wall. This part belongs to the second half of the twelfth century, built around 1176-1190, and is the oldest section of the cathedral. There is almost no other French example of a transept treated this way. Go in, turn right, and look up.",
+      },
+      {
+        heading: "The Rubens",
+        body: "The Adoration of the Shepherds by Peter Paul Rubens, painted around 1618-1620, hangs in the north arm of the transept in an eighteenth-century gilt frame. The painting reached Soissons soon after it was made, under bishop Simon Le Gras, whose arms were added at the foot of the canvas. It was evacuated during both world wars for safety, then restored in 1949 and again in 1993. A Rubens of this size in the cathedral of a sub-prefecture town, free to walk in and see, with no queue and no timed ticket: that is rare, and nothing outside announces it.",
+      },
+      {
+        heading: "The musée Saint-Léger",
+        body: "The museum of art and history has occupied the buildings of the former abbey of Saint-Léger since 1933, which makes the visit two visits — the abbey, and the collections. Those cover archaeology, fine arts and contemporary work. The municipal museum in Soissons is an old institution, inaugurated in 1857, and it has the density typical of provincial collections assembled in the nineteenth century. Check the days and conditions of access before you come. It is the third great religious building of the walk, after the vanished abbey church and the cathedral, and the quietest of the three.",
+      },
+      {
+        heading: "The vase, the Frankish capital, and getting there",
+        body: "The story of the vase of Soissons is told first by Gregory of Tours in book II of his History of the Franks: after the looting that followed the battle of 486, a vessel of remarkable size and beauty is taken from a church, Clovis wants to return it to the bishop, a warrior smashes it, and the king kills him a year later. The vase does not exist, nobody has ever found it, and there is nothing to see. It is a narrative written a century after the events, and knowing that is better than hunting for a display case. The battle behind it is real enough: the victory of 486 over Syagrius made Soissons one of the bases of Clovis's power, and the town went on to be the capital of a Merovingian kingdom. That is what gives the rest its meaning — this was a major centre of power for centuries, long before Paris took all the room, and its medieval density follows from it. It paid heavily in the twentieth century, the 1914-1918 front having run through here, which makes what survived more remarkable, not less. Soissons is served from Paris-Nord on the Laon line in a little over an hour, and the station is a walk from the centre. A day is plenty: abbey, cathedral, museum and centre sit close together and the whole thing is done on foot. The town then combines with Laon, whose cathedral is visible for miles, and with Compiègne — three towns, three scales, and the same moment in the history of architecture.",
+      },
+    ],
+    relatedCities: ["soissons", "laon", "reims"],
+    tags: ["things to do in soissons", "soissons", "travel", "city guide", "hauts-de-france"],
+  },
+  {
+    slug: "things-to-do-in-cambrai-2026",
+    title: "Things to do in Cambrai: a UNESCO belfry and the first tank battle",
+    metaTitle: "Things to Do in Cambrai, Nord (2026)",
+    metaDesc:
+      "A UNESCO-listed belfry, a cathedral that was an abbey, an underrated museum, and the 1917 battle for which British church bells rang.",
+    category: "city-guide",
+    emoji: "🔔",
+    readMinutes: 8,
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    intro:
+      "Cambrai had 31,568 residents at the 2022 census, against 32,770 in 2011: the town is losing people, as much of the Cambrésis is. It keeps a complete cathedral quarter, a UNESCO-listed belfry, a museum whose state deposits justify the trip, and the memory of the first large-scale tank offensive in history, in November 1917. For British and Commonwealth visitors that last one is the reason the name is familiar, and it is why this guide gives it more room than the French edition does.",
+    sections: [
+      {
+        heading: "The belfry",
+        body: "Cambrai's belfry is the former bell tower of the church of Saint-Martin, built between 1447 and 1474, 62 metres high, and made the official belfry after the Revolution. It has been a UNESCO World Heritage site since 2005, within the group of belfries of Belgium and France. A belfry is not a church tower: it is a civic building, the symbol of communal liberties, where the town's charters were kept and from which the alarm was rung. Its independence from the church is the whole point of it, so a belfry that was a church before it was a town hall is a fair summary of the history of the French north.",
+      },
+      {
+        heading: "The cathedral that was an abbey, and the one that vanished",
+        body: "The present cathedral of Notre-Dame-de-Grâce is the former abbey church of the Holy Sepulchre, entirely rebuilt between 1696 and 1702 in the classical style under Fénelon's episcopate. It only became a cathedral in 1804, when bishop Louis Belmas transferred the status to it. So it is a building designed for an abbey that has spent two centuries doing another job. The interior is vast, light and plain, a long way from what you expect of a northern cathedral, and that is exactly why you should go in. Before it, Cambrai had a Gothic cathedral whose spire reached 110 metres and which was counted among the wonders of the Low Countries. It was destroyed in the aftermath of the Revolution. Nothing of it is left to visit, and that is what to know before entering the present church: you are not looking at the great cathedral of Cambrai, you are looking at what took its place. The loss also explains why a town that was a leading archiepiscopal see no longer looks like one at first glance.",
+      },
+      {
+        heading: "Fénelon's tomb and the icon",
+        body: "The cathedral holds two major pieces. The mausoleum of Fénelon, archbishop of Cambrai and author of Telemachus, a book that got him into serious trouble at the court of Louis XIV, was carved by David d'Angers in 1826, and is one of the great French funerary sculptures of the nineteenth century. The icon of Notre-Dame de Grâce, painted around 1340 in an Italo-Byzantine style, is the devotional object that gives the building its name. Two works five centuries apart, in a building designed for neither: that is where the visit happens.",
+      },
+      {
+        heading: "The seminary chapel and the Spanish house",
+        body: "The former Jesuit college, later the Grand Séminaire, keeps a chapel that is among the town's listed monuments and one of the few witnesses of Jesuit baroque in the north. You walk past it without seeing it unless somebody points it out, and the façade is worth a stop; like many buildings of the kind it is not permanently open, so ask at the tourist office about access days rather than counting on an open door. The tourist office itself is part of the sightseeing: the Spanish house, built in 1595 during the Spanish occupation that gave it its name, is a timber-framed house with its gable to the street, a wooden overhang, a slate-covered gable and white stone walls meant to limit the risk of fire. It is the last example of its type in Cambrai, in a style that was common from the Middle Ages to the seventeenth century, which makes it the logical first stop of any visit.",
+      },
+      {
+        heading: "The fine arts museum",
+        body: "Housed in the hôtel de Francqueville, built in 1720, the Cambrai museum holds one of the richest collections in the north, presented with a care for display that is not the norm in towns this size. The route runs from the archaeology of the Cambrésis to contemporary work, and the nineteenth century is particularly well served: the state deposited major works here from 1923, and you will find Ingres, Carpeaux, Chassériau, Rodin, Camille Claudel, Boudin, Bourdelle and Le Sidaner. It is the most underrated visit in town.",
+      },
+      {
+        heading: "The Battle of Cambrai, November 1917",
+        body: "From 20 November to 7 December 1917 the first large-scale tank offensive was fought here. The British committed 476 tanks, 378 of them in action, and broke the Hindenburg Line over nine to twelve kilometres — except in front of Flesquières, where German defence and poor coordination between infantry and tanks stopped the advance. The German counter-attack began on 30 November and the ground gained was lost in early December. It is a battle with no victor, and a founding date for everything that followed in armoured warfare. It is also the battle for which church bells were rung in Britain on 23 November 1917, in celebration of the opening breakthrough — the only occasion in the whole war that bells were rung for a victory, and they were rung three days before the position began to fall apart. If you grew up in Britain, that is the detail that puts this quiet town in the right place in your head.",
+      },
+      {
+        heading: "The tank Deborah, reachable from Cambrai",
+        body: "Deborah D51 is a Mark IV female, meaning armed with machine guns rather than cannon: 28 tonnes, 8 metres long and 2.5 metres high, one of the 378 tanks in action on 20 November 1917. She was found in November 1998 by the historian Philippe Gorczynski under three metres of earth, where she had lain for 81 years. The Cambrai Tank 1917 interpretation centre, opened on 25 November 2017, houses her at Flesquières, a commune about ten kilometres from Cambrai — not in the town, so plan transport. Four of her eight crew lie in the neighbouring Commonwealth cemetery, which is the part of the visit that tends to stay with people.",
+      },
+      {
+        heading: "The bêtises, and getting there",
+        body: "The bêtise de Cambrai — the word means both a blunder and a trifle — is a hard mint sweet born around 1830 from a mistake in the proportions at a local confectioner's, and two families disputed the credit for it. The case ended in 1889 on a compromise: Afchain recognised as sole inventor, Despinoy as creator. Both houses still exist and both still sell it. As for access, Cambrai is served by train from Lille and from Paris via Douai or Saint-Quentin, and the centre is entirely walkable. Allow a day for the town, and a second if you are going out to Flesquières and the Commonwealth cemeteries of the Cambrésis, which are numerous, well kept, and free to enter.",
+      },
+    ],
+    relatedCities: ["cambrai", "douai", "valenciennes"],
+    tags: ["things to do in cambrai", "cambrai", "travel", "city guide", "hauts-de-france"],
+  },
+  {
+    slug: "things-to-do-in-carpentras-2026",
+    title: "Things to do in Carpentras: the oldest working synagogue in France",
+    metaTitle: "Things to Do in Carpentras, Vaucluse (2026)",
+    metaDesc:
+      "A synagogue of 1367 still in use, a cathedral built for an antipope, a library-museum without equivalent, and one of the great markets of Provence.",
+    category: "city-guide",
+    emoji: "🕍",
+    readMinutes: 7,
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    intro:
+      "Carpentras had 30,854 residents at the 2022 census, against 28,815 in 2011, so it is gaining people, which is not common in the inland Vaucluse. It was the capital of the Comtat Venaissin, a papal territory that stayed outside the kingdom of France until the Revolution, and that peculiar history left it the oldest synagogue in France still in use. Add a Roman arch, a cathedral, a library-museum with no equivalent anywhere, and one of the great markets of Provence, and you have a town most people driving to the Ventoux go straight past.",
+    sections: [
+      {
+        heading: "The synagogue of 1367",
+        body: "This is what makes Carpentras unique: the synagogue was built in 1367 and is the oldest in France still in use. It was restored in the eighteenth century by the architect Antoine d'Allemand, and the prayer hall carries a baroque scheme from that period, with its columns and painted false marbles. The ground floor keeps the oldest parts of the building — the ritual baths and two ovens, one of which was reserved for preparing unleavened bread. It is a working place of worship, not a monument: visits happen at set times and dress accordingly.",
+      },
+      {
+        heading: "The carrières and the Comtat Venaissin",
+        body: "The explanation is one date. Jews were expelled from the kingdom of France in 1306, and many found refuge on papal land in the Comtat, where they were permitted to live in four towns: Carpentras, Cavaillon, Avignon and L'Isle-sur-la-Sorgue. These quarters, called carrières, were confined and overcrowded: refuge was not equality. Knowing that changes the visit to the synagogue, which is not the picturesque remnant of a vanished community but the material trace of a specific legal regime, in a town that was not French.",
+      },
+      {
+        heading: "The cathedral of Saint-Siffrein",
+        body: "Work on the cathedral began in 1404 by order of the antipope Benedict XIII, the Avignon claimant during the Great Schism, when Latin Christendom had rival popes at once, and finished in 1519, with a baroque façade added in the seventeenth century. This is southern Gothic, a single wide nave, very different from the cathedrals of the north: you go in expecting height and find one large unified volume instead. Entry is free. The gap between the scale of the building and the size of the town comes from the same fact as everything else here: Carpentras was a capital, in a state that was not France.",
+      },
+      {
+        heading: "The Jewish door",
+        body: "The south doorway of the cathedral, in late Gothic, is traditionally called the porte Juive, the Jewish door, because converted Jews were led through it to receive baptism. The name is old and it states plainly what coexistence in the Comtat was: a regulated tolerance with continuous pressure to convert. It is the exact counterpart of the synagogue three hundred metres away, and looking at both in the same morning is the honest way to visit Carpentras. One is not evidence of a harmony that the other contradicts.",
+      },
+      {
+        heading: "The Roman arch",
+        body: "Behind the cathedral stands a Roman arch of the first century, the only notable monumental remnant of the ancient town. It is small and wedged between later buildings, which gives it the air of a forgotten object — but its reliefs, in particular the figures of captives, are of real interest. It is a reminder that Carpentras existed long before the popes, on a route between the Rhône and the Alps. Allow ten minutes: it is a stop, not a visit, and it happens naturally on the way out of the cathedral.",
+      },
+      {
+        heading: "The Inguimbertine at the Hôtel-Dieu",
+        body: "This is the cultural curiosity of the town: a library and museum in one institution, without equivalent at municipal level in France, installed in the former Hôtel-Dieu. The building was paid for by Malachie d'Inguimbert, bishop of Carpentras; work began in 1750 and finished in 1769. After works carried out from 2014 to 2017, the first phase opened to the public in early November 2017, the inauguration having taken place on Saturday 4 November. The museum route covers about 1,800 m², with some 60,000 documents on show, around forty paintings and more than a hundred objects.",
+      },
+      {
+        heading: "The apothecary, and the Friday market",
+        body: "The same Hôtel-Dieu keeps its apothecary, with the original panelling, faience jars and furniture: one of the best-preserved old pharmacy interiors in Provence, and it can be visited. Its strength is that nothing was moved — you are looking at an eighteenth-century hospital pharmacy inside the eighteenth-century hospital it served. Access may be limited to certain slots or to guided tours, so check on the day rather than assuming. The other fixed point of the week is Friday morning: the market is one of the great markets of Provence, it takes over the whole town centre, and it is why most people know the name of Carpentras at all. From November to March the truffle market is added, also on Friday, and it is a trade market before it is an attraction — you watch transactions, you do not shop there as you would at a vegetable stall. Plan your visit for a Friday if you possibly can: the town is not the same place on other days.",
+      },
+      {
+        heading: "The berlingot, and getting there",
+        body: "The berlingot of Carpentras is a hard translucent sweet in small coloured pyramids always striped with white, made from the cooking syrup of candied fruit, which is to say from a by-product of the town's other speciality. It was first sold as a medicinal product by apothecaries; it was a local pastry cook and confectioner, François Pascal Long, who in 1844 moved it out of that category by making it with candied fruit syrup. Several confectioners still make it and some can be visited. On access: the Avignon-Carpentras railway, long closed to passengers, reopened in April 2015 — some fifteen kilometres, about thirty minutes from Avignon-Centre, with connections towards the TGV station, which is what makes Carpentras doable without a car from Paris or Marseille. A day covers the synagogue, the cathedral, the arch and the Inguimbertine, ideally on a Friday for the market. The town then works as a base for Mont Ventoux, the Dentelles de Montmirail and the villages of the Comtat, all under an hour away.",
+      },
+    ],
+    relatedCities: ["carpentras", "avignon", "orange"],
+    tags: ["things to do in carpentras", "carpentras", "travel", "city guide", "provence"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

@@ -1009,6 +1009,66 @@ d'être de l'histoire française** (476 chars, Flesquières, cimetières du Comm
 jumelle anglaise a de la matière propre là où le guide FR reste sobre — même arbitrage qu'avec
 Jubilee à Dieppe au batch 37.
 
+**Batch 39 — EN, rattrapage de parité, shipped 2026-09-01.** Les 7 jumelles
+`things-to-do-in-[slug]-2026` du batch 38 écrites d'un coup dans `data/guides-en.ts` (Poissy,
+Rueil-Malmaison, Vernon, Dole, Soissons, Cambrai, Carpentras). **Compteurs mesurés : FR 233
+(`-a-` strict 226 + 5 en `au-` + 2 en `aux-`), EN 233 — écart nul dans les deux sens, parité
+rétablie** (`EN_GUIDES` 802 → 809). Aucun slug hors gabarit : les sept villes prennent « à » sans
+contraction, donc la règle du batch 33 (**côté EN le slug se dérive du slug de seed tel quel**)
+n'avait rien à arbitrer, et les sept exceptions restent `au-puy-en-velay`, `au-tampon`,
+`au-francois`, `au-robert`, `au-lamentin`, `aux-abymes`, `aux-sables-d-olonne`. `metaTitle` 33-43
+caractères, `metaDesc` 133-157, 8 sections par guide (la série FR en compte 10, l'EN fusionne les
+fins de liste). Les 7 guides sont vérifiés **retrouvés par `getEnGuide()` depuis le slug de seed**
+et **pourvus de leur photo d'en-tête** (`guideCityPhoto`) après écriture. Aucun tag neuf : les 7
+réutilisent `ile-de-france`, `normandy`, `bourgogne-franche-comte`, `hauts-de-france`, `provence`
+— `search-index.en.json` reste à **114 tags**, donc aucune page `/tags/` créée ; `sitemap:check`
+repassé quand même (FR 29 123 URL, EN 28 694 → **28 701**, soit exactement les 7 guides neufs).
+Densité d'em-dash ramenée à la cible R7.10 après une première passe qui la dépassait sur quatre
+guides (Carpentras était à 1 pour 100 mots) : **1 pour 199 à 266 mots** sur les sept.
+⚠️ **Trois figures du texte EN ne sont pas dans la jumelle FR, et c'est délibéré — le contrôle
+mécanique les remontera à chaque run, ne pas les « corriger ».** Le contrôle (chaque suite de
+chiffres du texte EN cherchée dans le guide FR, séparateurs normalisés) donne **166 figures, 163
+retrouvées** ; les 3 restantes sont `43` et `25` (Vernon) et `23` (Cambrai), toutes vérifiées en
+ligne avant écriture et introduites au titre de la matière propre à l'angle voyageur anglophone
+que le batch 38 avait explicitement demandée : ① la **43ᵉ division (Wessex)** britannique force le
+franchissement de la Seine à Vernon à partir du soir du **25 août 1944**, sous le nom d'opération
+**Neptune** — le guide précise que ce n'est pas le débarquement de Normandie qui porte le même nom
+de code, et cela donne enfin une raison à la section « ce que 1944 a emporté », qui côté FR
+constate la destruction sans la dater ; ② les cloches ont sonné en Grande-Bretagne le **23 novembre
+1917** pour la percée de Cambrai, **seule occasion de toute la guerre** où l'on a sonné pour une
+victoire, et trois jours avant que la position ne cède — c'est par là qu'un lecteur britannique
+situe la ville. Le guide Cambrai est le seul du batch à 8 minutes de lecture pour cette raison.
+Les prudences du FR sont reprises telles quelles, à ne pas diluer : **parc du Peuple de l'herbe à
+Carrières-sous-Poissy** et non à Poissy, **Giverny commune à part entière** à cinq à sept km de
+Vernon, **char Deborah à Flesquières** à une dizaine de km de Cambrai, **forêt de Chaux** relevant
+des communes voisines dont La Vieille-Loye, **château de Bois-Préau** longtemps fermé et réduit aux
+expositions temporaires (à vérifier avant de venir), **chapelle du Grand Séminaire** et
+**apothicairerie de l'hôtel-Dieu** à ouverture instable, **maison espagnole** office de tourisme,
+**vase de Soissons inexistant** (récit de Grégoire de Tours écrit un siècle après les faits), et
+**musée de Vernon sous son nouveau nom** (Blanche Hoschedé-Monet depuis 2024, l'ancien
+Alphonse-Georges-Poulain étant encore sur les panneaux — le guide EN le dit, c'était le point de
+vigilance nº 2 du batch 38). Cinq autres ajouts propres au lecteur étranger, sans chiffre :
+**Vernon (Eure) posé dès la première ligne** contre Vernon (Colombie-Britannique), Vernon (Texas)
+et Mount Vernon — le point de vigilance nº 1 du batch 38 ; **RER A** et **collégiale** définis en
+une incise ; **Joséphine** présentée comme la première épouse de Napoléon, née en Martinique ;
+**beffroi** défini comme tour civile et non clocher ; **Hôtel-Dieu** rendu par « a hospital in the
+old sense of a charitable foundation » ; et **Philippe Auguste face au duché anglo-normand**
+explicité comme « contre les rois d'Angleterre, également ducs de Normandie ».
+⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. § Commands depuis le batch 27 : 4 h 30
+de génération, `.next` à 25 Go, ENOSPC avant la finalisation, aucun signal utile). Le substitut
+prescrit passe en entier : `npx tsc --noEmit` **propre**, `npm run integrity`, `search-index` +
+`search-index:check`, `sitemap:check`, `npm run parity` (0 route FR sans jumelle), plus le contrôle
+de lookup / photo, le contrôle de figures ci-dessus et une vérification d'encodage (`m²` intact,
+aucun `m2` / `EUR` / `deg` ascii, aucun mojibake). Note d'environnement confirmée : le conteneur de
+routine démarre **sans `node_modules`** — `npm install` d'abord, sinon `tsc` sort des dizaines de
+milliers d'erreurs qui ne sont pas des régressions.
+**Prochain run : batch FR** (l'écart est nul, la série FR reprend la main). Gisements inchangés :
+les trois villes de la liste du batch 36 jamais faites (**Bergerac, Agde, Thonon-les-Bains**), les
+trous du batch 34 (**Saint-Herblain, Mantes-la-Jolie, Istres**) et les six banlieues de province
+jamais faites (Villenave-d'Ornon, Talence, Le Bouscat ; Vaulx-en-Velin, Saint-Priest, Bron —
+rappel du batch 28 : **l'Espace Albert Camus et le fort de la ceinture lyonnaise sont à Bron**, pas
+à Vénissieux).
+
 **Batch 36 — FR, shipped 2026-08-29 : Orange, Saint-Germain-en-Laye, La Ciotat, Rochefort, Dieppe,
 Douai, Sens.** Sept villes, sept régions différentes, et le même arbitrage qu'aux batches 26, 32 et
 34, assumé une fois de plus contre la liste de gisements : **on choisit par matière touristique

@@ -7252,18 +7252,53 @@
       "slug": "france-climate-2040-rhone-valley-2026",
       "title": "France Climate 2040: the Rhône Valley",
       "emoji": "🌡️"
+    },
+    {
+      "slug": "things-to-do-in-poissy-2026",
+      "title": "Things to do in Poissy: Le Corbusier and a royal font",
+      "emoji": "🏗️"
+    },
+    {
+      "slug": "things-to-do-in-rueil-malmaison-2026",
+      "title": "Things to do in Rueil-Malmaison: Joséphine's house",
+      "emoji": "👑"
+    },
+    {
+      "slug": "things-to-do-in-vernon-2026",
+      "title": "Things to do in Vernon, Normandy: more than the stop for Giverny",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "things-to-do-in-dole-2026",
+      "title": "Things to do in Dole: Pasteur's town and a lost capital",
+      "emoji": "🔬"
+    },
+    {
+      "slug": "things-to-do-in-soissons-2026",
+      "title": "Things to do in Soissons: a façade with no church behind it",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "things-to-do-in-cambrai-2026",
+      "title": "Things to do in Cambrai: a UNESCO belfry and the first tank battle",
+      "emoji": "🔔"
+    },
+    {
+      "slug": "things-to-do-in-carpentras-2026",
+      "title": "Things to do in Carpentras: the oldest working synagogue in France",
+      "emoji": "🕍"
     }
   ],
   "tags": [
     {
       "slug": "travel",
       "label": "travel",
-      "count": 232
+      "count": 239
     },
     {
       "slug": "city-guide",
       "label": "city guide",
-      "count": 226
+      "count": 233
     },
     {
       "slug": "moving-to-france",
@@ -7313,12 +7348,17 @@
     {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 32
+      "count": 34
     },
     {
       "slug": "working-in-france",
       "label": "working in france",
       "count": 31
+    },
+    {
+      "slug": "ile-de-france",
+      "label": "ile de france",
+      "count": 30
     },
     {
       "slug": "job-market-france",
@@ -7346,14 +7386,14 @@
       "count": 29
     },
     {
-      "slug": "ile-de-france",
-      "label": "ile de france",
-      "count": 28
-    },
-    {
       "slug": "brittany",
       "label": "brittany",
       "count": 26
+    },
+    {
+      "slug": "normandy",
+      "label": "normandy",
+      "count": 25
     },
     {
       "slug": "provence-alpes-cote-d-azur",
@@ -7363,11 +7403,6 @@
     {
       "slug": "international-students",
       "label": "international students",
-      "count": 24
-    },
-    {
-      "slug": "normandy",
-      "label": "normandy",
       "count": 24
     },
     {
@@ -7386,13 +7421,13 @@
       "count": 21
     },
     {
-      "slug": "french-school-system",
-      "label": "french school system",
-      "count": 20
-    },
-    {
       "slug": "provence",
       "label": "provence",
+      "count": 21
+    },
+    {
+      "slug": "french-school-system",
+      "label": "french school system",
       "count": 20
     },
     {
@@ -7404,6 +7439,11 @@
       "slug": "centre-val-de-loire",
       "label": "centre-val de loire",
       "count": 17
+    },
+    {
+      "slug": "bourgogne-franche-comte",
+      "label": "bourgogne-franche-comte",
+      "count": 15
     },
     {
       "slug": "budget",
@@ -7434,11 +7474,6 @@
       "slug": "single-parent-holidays",
       "label": "single parent holidays",
       "count": 15
-    },
-    {
-      "slug": "bourgogne-franche-comte",
-      "label": "bourgogne-franche-comte",
-      "count": 14
     },
     {
       "slug": "loire-valley",
