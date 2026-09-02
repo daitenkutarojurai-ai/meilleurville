@@ -7024,6 +7024,11 @@
       "emoji": "🏆"
     },
     {
+      "slug": "palmares-novembre-2026-ou-la-france-emmenage",
+      "title": "Palmarès novembre 2026 : les 20 villes où la France emménage vraiment",
+      "emoji": "🏆"
+    },
+    {
       "slug": "retraite-a-dinan-2026",
       "title": "Retraite à Dinan en 2026 : santé, logement, budget, le guide",
       "emoji": "🌅"
@@ -9001,6 +9006,11 @@
       "count": 5
     },
     {
+      "slug": "classement-mensuel-villes-france",
+      "label": "classement mensuel villes France",
+      "count": 5
+    },
+    {
       "slug": "expatries",
       "label": "expatriés",
       "count": 5
@@ -9103,11 +9113,6 @@
     {
       "slug": "chartres",
       "label": "Chartres",
-      "count": 4
-    },
-    {
-      "slug": "classement-mensuel-villes-france",
-      "label": "classement mensuel villes France",
       "count": 4
     },
     {
