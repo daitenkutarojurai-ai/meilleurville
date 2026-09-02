@@ -7287,6 +7287,51 @@
       "slug": "things-to-do-in-carpentras-2026",
       "title": "Things to do in Carpentras: the oldest working synagogue in France",
       "emoji": "🕍"
+    },
+    {
+      "slug": "single-parent-in-la-roche-sur-yon-2026",
+      "title": "Single parent in La Roche-sur-Yon (2026): the only city this ranking rates Excellent",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-dole-2026",
+      "title": "Single parent in Dole (2026): €101 of rent per school point, the best ratio in the series",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-lannion-2026",
+      "title": "Single parent in Lannion (2026): safety 8.2, transport 4.9, and a trade-off to make",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-challans-2026",
+      "title": "Single parent in Challans (2026): the best safety mark in France, and 20.9 per cent more residents",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-saint-die-des-vosges-2026",
+      "title": "Single parent in Saint-Dié-des-Vosges (2026): €71,500 for 65 square metres, in a town losing residents",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-albi-2026",
+      "title": "Single parent in Albi (2026): a €2,550 floor for schools at 7.7, the best combination in Occitanie",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-cholet-2026",
+      "title": "Single parent in Cholet (2026): a €800 T3 for schools at 7.7, and €650 less income than Angers",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-laon-2026",
+      "title": "Single parent in Laon (2026): a €2,250 floor, and three towns in the Aisne to compare before signing",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-anglet-2026",
+      "title": "Single parent in Anglet (2026): the same rent as Bayonne, 1.7 more points of schools",
+      "emoji": "🧑‍🍼"
     }
   ],
   "tags": [
@@ -7303,17 +7348,17 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 122
+      "count": 131
     },
     {
       "slug": "single-parent-in-france",
       "label": "single parent in france",
-      "count": 72
+      "count": 81
     },
     {
       "slug": "expat-single-parent",
       "label": "expat single parent",
-      "count": 57
+      "count": 66
     },
     {
       "slug": "buying-property-france",
@@ -7321,19 +7366,19 @@
       "count": 52
     },
     {
+      "slug": "nouvelle-aquitaine",
+      "label": "nouvelle-aquitaine",
+      "count": 50
+    },
+    {
       "slug": "real-estate",
       "label": "real estate",
       "count": 50
     },
     {
-      "slug": "nouvelle-aquitaine",
-      "label": "nouvelle-aquitaine",
-      "count": 49
-    },
-    {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 47
+      "count": 48
     },
     {
       "slug": "auvergne-rhone-alpes",
@@ -7343,12 +7388,17 @@
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 40
+      "count": 41
     },
     {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 34
+      "count": 35
+    },
+    {
+      "slug": "pays-de-la-loire",
+      "label": "pays de la loire",
+      "count": 32
     },
     {
       "slug": "working-in-france",
@@ -7364,11 +7414,6 @@
       "slug": "job-market-france",
       "label": "job market france",
       "count": 30
-    },
-    {
-      "slug": "pays-de-la-loire",
-      "label": "pays de la loire",
-      "count": 29
     },
     {
       "slug": "single-supplement",
@@ -7388,7 +7433,7 @@
     {
       "slug": "brittany",
       "label": "brittany",
-      "count": 26
+      "count": 27
     },
     {
       "slug": "normandy",
@@ -7443,7 +7488,7 @@
     {
       "slug": "bourgogne-franche-comte",
       "label": "bourgogne-franche-comte",
-      "count": 15
+      "count": 16
     },
     {
       "slug": "budget",
