@@ -8299,6 +8299,41 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "vacances-monoparentales-toulouse-2026",
+      "title": "Vacances monoparentales à Toulouse en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-pau-2026",
+      "title": "Vacances monoparentales à Pau en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-macon-2026",
+      "title": "Vacances monoparentales à Mâcon en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-aix-en-provence-2026",
+      "title": "Vacances monoparentales à Aix-en-Provence en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-poitiers-2026",
+      "title": "Vacances monoparentales à Poitiers en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-saint-raphael-2026",
+      "title": "Vacances monoparentales à Saint-Raphaël en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-metz-2026",
+      "title": "Vacances monoparentales à Metz en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "parent-solo-a-valence-2026",
       "title": "Parent solo à Valence en 2026 : 2 750 € net, et le meilleur transport du lot après Pessac",
       "emoji": "🧑‍🍼"
@@ -8901,6 +8936,11 @@
       "count": 7
     },
     {
+      "slug": "vacances-sans-voiture",
+      "label": "vacances sans voiture",
+      "count": 7
+    },
+    {
       "slug": "amiens",
       "label": "Amiens",
       "count": 6
@@ -9278,11 +9318,6 @@
     {
       "slug": "tram",
       "label": "tram",
-      "count": 4
-    },
-    {
-      "slug": "vacances-sans-voiture",
-      "label": "vacances sans voiture",
       "count": 4
     },
     {
@@ -9703,6 +9738,11 @@
     {
       "slug": "troyes",
       "label": "Troyes",
+      "count": 3
+    },
+    {
+      "slug": "vacances-pas-cheres-en-famille",
+      "label": "vacances pas chères en famille",
       "count": 3
     },
     {

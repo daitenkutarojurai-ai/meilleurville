@@ -16,7 +16,107 @@ Demande utilisateur directe. F58 / F60 / F61 livrées le jour même ; **F59 livr
 | F58 | City Match — profil « parent solo » | P1 | S | mid | ✅ shipped 2026-07-22 · sous-page `/villes/[slug]/parent-solo` ×540 + hub `/parent-solo` + miroir EN `/single-parent` + `/cities/[slug]/single-parent` ×540 shipped 2026-07-25→28 · série guides `parent-solo-a-[ville]-2026` batch 1 (+10) shipped 2026-07-24, batch 2 (+10 : Rennes, Nancy, Angers, Grenoble, Dijon, Metz, Reims, Aix-en-Provence, Rouen, Toulon) shipped 2026-08-07 · miroir EN de la série `single-parent-in-[city]-2026` batch 1 (+10 : Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux, Lille) shipped 2026-08-09, batch 2 (+10) shipped 2026-08-11 — **parité FR/EN atteinte à 20/20** · **batch 3 FR (+9 : Villeurbanne, Besançon, Caen, Brest, Tours, Limoges, Clermont-Ferrand, Saint-Étienne, Le Havre) shipped 2026-08-14**, **miroir EN batch 3 (+9) shipped 2026-08-15 — parité rétablie à 29/29** · **batch 4 FR (+10 : Nîmes, Saint-Denis de La Réunion, Le Mans, Amiens, Annecy, Perpignan, Orléans, Mulhouse, Poitiers, Dunkerque) shipped 2026-08-16**, **miroir EN batch 4 (+10) shipped 2026-08-17 — parité rétablie à 39/39** (compteur vérifié des deux côtés avant et après le run, cf. § Parité EN) · **batch 5 FR (+9 : Saint-Paul 974, Avignon, Saint-Pierre 974, Béziers, La Rochelle, Pau, Cherbourg-en-Cotentin, Fort-de-France, Mérignac) shipped 2026-08-23 — 48 FR contre 39 EN, premier guide martiniquais de la série**, **miroir EN batch 5 (+9) shipped 2026-08-25 — parité rétablie à 48/48** (rang publié = fit décroissant puis nom croissant, cf. § Parité EN) · **batch 6 FR (+9 : Valence, Colmar, Saint-Nazaire, Chambéry, Bourges, Pessac, Calais, Le Tampon 974, Ajaccio) shipped 2026-08-28 — 57 FR contre 48 EN, premier guide corse de la série** (+ 5 superlatifs faux corrigés, dont un dans le guide Pau du batch 5, cf. § ci-dessous) · **miroir EN batch 6 (+9) shipped 2026-08-29 — parité rétablie à 57/57**, premier guide corse côté EN (+ 2 comparatifs faux des guides FR du 28/08 corrigés des deux côtés, cf. § Parité EN) · **batch 7 FR (+9 : La Roche-sur-Yon, Dole, Lannion, Challans, Saint-Dié-des-Vosges, Albi, Cholet, Laon, Anglet) shipped 2026-08-30 — 66 FR contre 57 EN. Le run change la règle de sélection : population → rang. Six batches « par population » avaient couvert 9 des 40 premières villes du classement et laissé La Roche-sur-Yon, 1re sur 363, sans guide ; ce batch referme le top 11 en entier** (+ 3 superlatifs faux corrigés et le vivier du batch 6 démenti par la mesure, cf. § ci-dessous) · **miroir EN batch 7 (+9) shipped 2026-09-02 — parité rétablie à 66/66**, neuvième réouverture refermée ; 532 figures contrôlées contre les jumelles FR, 0 écart, et aucun superlatif faux trouvé cette fois (cf. § Parité EN) |
 | F59 | **Parcs & espaces verts par ville** (pipeline OSM + sub-page ×540) | **P0** | **L** | **high** | ✅ shipped 2026-07-27 |
 | F60 | `/departements` — finder par n° / nom / ville + carte cliquable | P1 | S | low | ✅ shipped 2026-07-22 · carte cliquable 2026-07-23 |
-| F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 · série guides `vacances-celibataire-[ville]-2026` batch 1 (+8) shipped 2026-08-01 · série `vacances-monoparentales-[ville]-2026` batch 1 (+7) shipped 2026-08-05 · `vacances-celibataire-[ville]-2026` batch 2 (+7 : Toulouse, Lille, Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle) shipped 2026-08-08 · croisement mois × profil `/vacances/ou-partir/[combo]` (12 × 7 = 84 pages SSG) shipped 2026-08-12 · miroir EN de la série célibataire, `solo-travel-in-[city]-2026` batch 1 (+8 : Paris, Lyon, Bordeaux, Lille, Strasbourg, Toulouse, Montpellier, Nantes) shipped 2026-08-13 · série EN fermée (batch 2, +7) 2026-08-14 · guide pilier `partir-en-vacances-seul-2026` + correction de l'anti-station-fantôme (part réelle des 15-29 ans Insee au lieu d'un écart d'affluence constant) shipped 2026-08-15 · **miroir EN de la série monoparentale, `single-parent-holidays-[city]-2026` (+7 : La Rochelle, Strasbourg, Nantes, Rennes, Vannes, Nancy, Dijon) shipped 2026-08-19 — parité FR/EN atteinte à 7/7, mêmes villes des deux côtés** (+ 4 chiffres faux corrigés dans la série FR au passage, cf. § ci-dessous) · **`vacances-celibataire-[ville]-2026` batch 3 (+7 : Nancy, Poitiers, Rouen, Caen, Clermont-Ferrand, Tours, Besançon) shipped 2026-08-22 — sélection dérivée de la mesure anti-station-fantôme, + 1 erreur de données corrigée dans `lib/transit.ts`, cf. § ci-dessous** · **`vacances-monoparentales-[ville]-2026` batch 2 (+8 : Lyon, Angers, Bordeaux, Besançon, Grenoble, Brest, Tours, Valence) shipped 2026-08-26 — sélection dérivée de la règle « accessible en train sans voiture » de la page profil elle-même, palier d'ex æquo pris entier, cf. § ci-dessous** · **`vacances-celibataire-[ville]-2026` batch 4 (+7 : Brest, Reims, Orléans, Metz, Troyes, Pau, Chambéry) shipped 2026-08-29 — règle du batch 3 recalculée et non recopiée, ce qui a rattrapé Orléans que la liste annoncée avait sauté ; + 4 erreurs de mode de transport corrigées dans `data/neighborhoods.ts` (Metz, Limoges, Amiens, Valence), cf. § ci-dessous** |
+| F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 · série guides `vacances-celibataire-[ville]-2026` batch 1 (+8) shipped 2026-08-01 · série `vacances-monoparentales-[ville]-2026` batch 1 (+7) shipped 2026-08-05 · `vacances-celibataire-[ville]-2026` batch 2 (+7 : Toulouse, Lille, Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle) shipped 2026-08-08 · croisement mois × profil `/vacances/ou-partir/[combo]` (12 × 7 = 84 pages SSG) shipped 2026-08-12 · miroir EN de la série célibataire, `solo-travel-in-[city]-2026` batch 1 (+8 : Paris, Lyon, Bordeaux, Lille, Strasbourg, Toulouse, Montpellier, Nantes) shipped 2026-08-13 · série EN fermée (batch 2, +7) 2026-08-14 · guide pilier `partir-en-vacances-seul-2026` + correction de l'anti-station-fantôme (part réelle des 15-29 ans Insee au lieu d'un écart d'affluence constant) shipped 2026-08-15 · **miroir EN de la série monoparentale, `single-parent-holidays-[city]-2026` (+7 : La Rochelle, Strasbourg, Nantes, Rennes, Vannes, Nancy, Dijon) shipped 2026-08-19 — parité FR/EN atteinte à 7/7, mêmes villes des deux côtés** (+ 4 chiffres faux corrigés dans la série FR au passage, cf. § ci-dessous) · **`vacances-celibataire-[ville]-2026` batch 3 (+7 : Nancy, Poitiers, Rouen, Caen, Clermont-Ferrand, Tours, Besançon) shipped 2026-08-22 — sélection dérivée de la mesure anti-station-fantôme, + 1 erreur de données corrigée dans `lib/transit.ts`, cf. § ci-dessous** · **`vacances-monoparentales-[ville]-2026` batch 2 (+8 : Lyon, Angers, Bordeaux, Besançon, Grenoble, Brest, Tours, Valence) shipped 2026-08-26 — sélection dérivée de la règle « accessible en train sans voiture » de la page profil elle-même, palier d'ex æquo pris entier, cf. § ci-dessous** · **`vacances-celibataire-[ville]-2026` batch 4 (+7 : Brest, Reims, Orléans, Metz, Troyes, Pau, Chambéry) shipped 2026-08-29 — règle du batch 3 recalculée et non recopiée, ce qui a rattrapé Orléans que la liste annoncée avait sauté ; + 4 erreurs de mode de transport corrigées dans `data/neighborhoods.ts` (Metz, Limoges, Amiens, Valence), cf. § ci-dessous** · **`vacances-monoparentales-[ville]-2026` batch 3 (+7 : Toulouse, Pau, Mâcon, Aix-en-Provence, Poitiers, Saint-Raphaël, Metz) shipped 2026-09-02 — premier lot où le profil classe haut des destinations chères, règle de sélection recalculée et non recopiée ; 7 comparaisons inter-villes fausses corrigées avant commit, cf. § ci-dessous** |
+
+### F61 — série monoparentale, batch 3 : `vacances-monoparentales-[ville]-2026` (2026-09-02)
+
+Item 2 du plan agent « vacances monoparentales ». La série était à parité 15 FR / 15 EN depuis le
+27/08, donc écart nul : la main revenait au FR. **+7 guides, compteur mesuré
+`grep -c 'slug: "vacances-monoparentales-'` = 22 ; `GUIDES` 1043 → 1050.** `npm run search-index`
+relancé (`data/search-index.json` 1 050 guides, **252 tags** contre 251 — un seul tag franchit le
+seuil de 3 guides, `vacances pas chères en famille`, porté de 1 à 3 par Mâcon et Poitiers, d'où le
+passage de `npm run sitemap:check`, FR 29 125 → **29 133 URL**, soit exactement les 7 guides plus
+la page de tag ; chaque URL déclarée a une page et réciproquement). `npm run parity` et
+`npm run hreflang:check` repassés, verts.
+
+**La règle de sélection du batch 2 a été recalculée et non recopiée**, comme le batch 4 de la série
+célibataire l'avait établi le 29/08 : la règle « arriver en TGV/RER **et** circuler sur place en
+métro, tram ou BHNS, ou à défaut transport ≥ 6,8 » de `MonoparentalExtras.tsx` retient toujours
+**53 villes sur 540**, dont **39 non couvertes**. Après retrait des communes d'Île-de-France (motif
+inchangé du batch 2 : une excursion depuis Paris n'est pas un séjour, et leur axe coût à 2,2 mesure
+un marché résidentiel), il reste, par fit décroissant : Toulouse, Pau et Mâcon à 6,2, Aix-en-Provence,
+Poitiers et Saint-Raphaël à 6,1, Metz à 6,0. **On s'arrête là parce que le palier suivant, à 5,8,
+compte quatre villes** (Reims, Le Mans, Lille, Mulhouse) et déborderait la fourchette de 6 à 8 : la
+convention de `lib/owner-rankings.ts` interdit de couper une égalité en son milieu, donc 7 et non 8.
+
+**Thèse du batch : c'est le premier lot où le profil classe haut des destinations chères, et chaque
+guide dit ce qui a payé.** Les 15 guides précédents tenaient tous dans la moitié abordable ou juste
+en dessous. Ici, **Aix-en-Provence sort à 3,6/10 sur l'axe coût, le plus bas des 22 destinations de
+la série** (un score bas signifie cher), et Saint-Raphaël à 3,9 la suit : 1 400 € et 1 300 € le T3
+de référence, 5 000 € et 4 500 € le mètre carré (source `data/housing.ts`). À l'autre bout, **Mâcon
+est la destination la moins chère des 22** (T3 800 €, m² 2 100 € à égalité avec Poitiers). Le guide
+Aix nomme donc explicitement ce qui compense son coût dans un profil qui le pondère à 0,25 —
+qualité de vie 7,8, culture 8,4, sécurité 5,9 — et le guide Saint-Raphaël pose l'arbitrage réel :
+on y paie l'hébergement plus cher, mais les postes voiture, carburant et parking tombent à zéro, ce
+qui n'est vrai d'aucune autre destination littorale de la série.
+
+**Trois faits vérifiés en ligne avant rédaction, et qui portent leurs guides.** ① Le **funiculaire
+de Pau**, mis en service en 1908 et **gratuit depuis 1978**, relie la gare à la place Royale : la
+gare est au pied du coteau et la ville au sommet, donc c'est le fait qui décide d'une arrivée seul
+avec enfants et bagages. ② La **sortie sud de la gare de Metz-Ville donne sur le parvis du Centre
+Pompidou-Metz** — zéro correspondance entre la descente du train et la première activité. ③ Le
+**Futuroscope a sa propre gare TGV**, à une dizaine de kilomètres au nord de Poitiers, et le réseau
+urbain relie la gare de Poitiers au site : c'est le seul grand parc à thème de la série atteignable
+sans louer de voiture. Le piège de gare du batch 2 est par ailleurs confirmé sur deux villes de
+plus (**Mâcon-Loché-TGV à ~7 km du centre** contre Mâcon-Ville en ville, **Aix TGV à une quinzaine
+de kilomètres** sur la limite avec Cabriès contre Aix-Centre en TER) et **Saint-Raphaël en est le
+contre-exemple** : gare dans le centre, à environ 800 m de son cœur, plages à pied.
+
+⚠️ **Deux limites de nos propres données ont été mesurées ce run et sont écrites dans les guides
+concernés, pas seulement ici.**
+- **La station climatique de référence peut être très loin, et Pau est le pire cas de la série.**
+  `distanceToNearestKm()` donne **146 km** pour Pau, rattachée à **Toulouse-Blagnac** : les valeurs
+  mensuelles affichées pour Pau sont littéralement celles de Toulouse, prises de l'autre côté du
+  Gers, alors que Pau est adossée aux Pyrénées. Metz est à 125 km (Strasbourg-Entzheim) et Poitiers
+  à 99 km (Tours). Les trois guides le disent et renvoient aux ancres annuelles du seed. Toulouse
+  est la seule des sept dont la station porte son propre nom (6 km).
+- **L'indicateur d'affluence n'a que trois régimes, et il sous-estime Aix-en-Provence.**
+  `crowdednessForMonth()` attribue un palier de base (1, 2 ou 3) selon les `characterTags` et la
+  population, puis module par la saison : sur les 22 destinations de la série, **il n'existe donc
+  que trois profils annuels distincts**. Aix tombe au palier bas par construction — 147 933
+  habitants, sous le seuil de 200 000, et aucun tag littoral — alors que le cours Mirabeau un
+  14 août dit autre chose. **Ne pas écrire qu'une ville est « la seule jamais calme » de la série** :
+  Saint-Raphaël partage son palier avec Lyon, Bordeaux, Nantes, Rennes, Strasbourg et Toulouse. Le
+  guide Aix nomme la sous-estimation, le guide Mâcon explique que son palier 2 vient du tag « vins ».
+
+⚠️ **Le plafond de collecte des parcs a failli produire une comparaison fausse.** `PARKS_PER_CITY`
+vaut 40 et **14 des 22 destinations de la série l'atteignent**, dont Toulouse, Pau, Poitiers et Metz
+dans ce lot : leur compte est un **plancher**, pas un total, et ne se compare pas à Aix (31),
+Mâcon (21) ou Saint-Raphaël (13). Les quatre guides concernés le disent. Saint-Raphaël, avec le
+total le plus faible des 22, porte en plus la réserve OSM déjà posée le 03/08 : notre source est une
+carte contributive, où « personne n'a cartographié » et « il n'y a rien » se ressemblent — ici
+l'espace ouvert est le massif de l'Estérel et le littoral, qui ne sont pas des parcs urbains.
+
+⚠️ **Sept comparaisons inter-villes fausses au premier jet, corrigées avant commit.** Même mode de
+défaillance qu'aux batches précédents et qu'au palmarès de novembre : les scores pris un à un
+étaient justes, ce sont les **rangs et les égalités** qui dérapaient. ① et ② Toulouse puis Poitiers
+donnés « derniers du lot » en nature à 5,0 alors que **Metz est à 4,8** ; ③ Pau annoncée
+« quatrième plus abordable derrière Metz » alors qu'elle est **à égalité exacte avec Metz** à 6,2 ;
+④ Metz donnée troisième en transports derrière « le trio à 7,0 » qui n'est **qu'un duo**
+(Mâcon, Saint-Raphaël), ce qui la met quatrième ; ⑤ Metz donnée devant « Mâcon et Pau à 6,6 » en
+culture alors que **Mâcon est à 6,9** ; ⑥ Poitiers annoncée à 10-12 jours de pluie « d'octobre à
+mars » alors que **mars est à 9** ; ⑦ Metz annoncée pluvieuse « pendant la moitié froide de
+l'année » alors qu'elle est à **9-12 jours tous les mois**, sans mois sec. **Le contrôle qui les a
+trouvées est un tri complet des 22 villes sur chaque axe cité, pas une relecture.**
+
+Contrôles passés : `npx tsc --noEmit` **propre**, `npm run integrity` (guides FR 1043 → 1050),
+`search-index` + `search-index:check`, `sitemap:check`, `parity`, `hreflang:check`, plus la
+vérification que les 7 guides sont **retrouvés par `guideCityPhoto()`** avec leur photo d'en-tête
+**et remontés par la recherche inverse `relatedCities`** sur leur page ville. `metaTitle` 34-46
+caractères, `metaDesc` 147-160, 7 sections par guide, densité d'accents 0,117-0,143 par mot (seuil
+ascii-strip 0,09), **0 em-dash** sur les sept. `npm run build` **non lancé, volontairement**
+(cf. CLAUDE.md § Commands depuis le batch 27).
+
+**Prochain run : batch EN** (`single-parent-holidays-[city]-2026`, +7), l'écart FR→EN étant de 7
+villes — toulouse, pau, macon, aix-en-provence, poitiers, saint-raphael, metz. Aucun slug à
+arbitrer : les sept slugs de seed s'écrivent tels quels, et la règle du batch 33 de la série
+tourisme (**côté EN le slug se dérive du slug de seed tel quel**) n'a rien à trancher. Deux points
+de vigilance pour ces jumelles : **`single-parent-holidays-metz-2026` a de la matière propre à
+l'angle expat** que le FR n'a pas (Metz est à courte distance du Luxembourg et de l'Allemagne, et
+`travailleurs-frontaliers` a établi le 31/08 que les frontières y sont des passages Schengen
+intérieurs sans formalité mais avec pièce d'identité) ; et **Saint-Raphaël demande que la
+signalétique vert/jaune/rouge des plages surveillées soit posée comme règle opposable**, comme le
+batch 33 de la série tourisme l'a fait, un lecteur étranger ne la connaissant pas.
 
 ### F61 — série monoparentale, batch 2 : `vacances-monoparentales-[ville]-2026` (2026-08-26)
 

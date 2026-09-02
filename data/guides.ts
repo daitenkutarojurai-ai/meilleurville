@@ -50125,6 +50125,377 @@ export const GUIDES: Guide[] = [
     tags: ["vacances monoparentales Valence", "parent solo Drôme", "vacances pas chères en famille", "Valence avec enfants", "vallée du Rhône hors saison"]
   },
   {
+    slug: "vacances-monoparentales-toulouse-2026",
+    title: "Vacances monoparentales à Toulouse en 2026",
+    metaTitle: "Vacances monoparentales à Toulouse 2026",
+    metaDesc:
+      "Toulouse en parent solo : le meilleur réseau de ce lot, 7,5/10, pour des sites enfants tous en périphérie. Et le score de sécurité le plus bas de la série.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-09-02",
+    updatedAt: "2026-09-02",
+    intro:
+      "Toulouse sort à 6,2/10 au composite « famille monoparentale », en tête de cette sélection à égalité avec Pau et Mâcon, sur sécurité 4,3/10, transports 7,5/10, coût de la vie 5,3/10 et qualité de vie 6,6/10 (source : data/cities-seed.ts). Les deux chiffres qui comptent ici sont les deux extrêmes : 7,5 en transports, le meilleur de ce lot de sept, et 4,3 en sécurité, le plus bas des vingt-deux villes que cette série a couvertes jusqu'ici, à égalité avec Grenoble. Le premier n'est pas un confort et le second n'est pas un détail. Ce guide dit pourquoi, quand on part seul avec des enfants, Toulouse se joue entièrement sur le réseau de transport, et ce que le score de sécurité veut dire exactement.",
+    sections: [
+      {
+        heading: "Un réseau à 7,5/10 parce que rien de ce que veulent les enfants n'est au centre",
+        body: "Toulouse est signalée avec métro, tramway, bus à haut niveau de service et un réseau cyclable classé au niveau le plus élevé de notre échelle (source : lib/transit.ts). C'est le meilleur équipement de cette sélection de sept, devant Mâcon et Saint-Raphaël à 7,0/10 et loin devant Aix-en-Provence et Pau à 6,1 (source : data/cities-seed.ts). La raison pour laquelle cela change tout ici est géographique : la Cité de l'espace se trouve sur la frange est de la commune, la Halle de La Machine du côté de Montaudran, et aucune des deux n'a de station de métro à sa porte. On y va en métro puis en correspondance bus, ce qui, avec un adulte et deux enfants, reste une opération simple à condition de l'avoir prévue. Sans réseau, il faudrait une voiture de location pour chaque sortie, et c'est précisément le coût que le profil monoparental cherche à éviter. Vérifiez les lignes et les correspondances sur le site de l'exploitant avant de partir : les numéros de bus changent plus souvent que les stations de métro."
+      },
+      {
+        heading: "Sécurité 4,3/10 : le plus bas de la série, et ce que ce chiffre est",
+        body: "Il faut le poser franchement plutôt que de le noyer. Toulouse affiche 4,3/10 sur l'axe sécurité, le plus bas des vingt-deux destinations que cette série a traitées, à égalité exacte avec Grenoble et derrière Nantes à 4,6 (source : data/cities-seed.ts). Le profil monoparental pondère la sécurité à 0,30, plus que n'importe quel autre critère (source : lib/vacation-fit.ts), donc ce 4,3 est ce qui empêche Toulouse de dominer un classement où elle a par ailleurs 8,0 en culture et 7,5 en transports. Deux précisions d'usage. Un, c'est un indicateur communal agrégé : il décrit une commune entière, ni un quartier ni une heure de la journée, et il ne porte aucun jugement sur les gens qui y habitent. Deux, en pratique il décrit une grande métropole, où les réflexes valent ce qu'ils valent partout ailleurs dans une ville de cette taille. La commune comptait 511 684 habitants au recensement de 2022, contre 447 340 en 2011 (source : data/city-population.json)."
+      },
+      {
+        heading: "Ce qui se fait à pied, entre la place du Capitole et la Garonne",
+        body: "Le centre est compact et plat, ce qui compte quand on avance au rythme du plus petit. Le Jardin des Plantes et le jardin de Compans-Caffarelli figurent parmi les espaces verts recensés sur la commune (source : data/city-parks.json) et se rejoignent depuis le centre sans transport. Le Muséum est adossé au premier, ce qui donne l'enchaînement le plus économique de la ville pour un parent seul : une visite intérieure et un parc contigu, sans trajet entre les deux. La basilique Saint-Sernin et la place du Capitole se font dans la même demi-journée. Les berges de la Garonne offrent la promenade de fin d'après-midi, celle où l'on n'a plus rien à organiser. Culture 8,0/10 (source : data/cities-seed.ts), le deuxième score de ce lot derrière Aix-en-Provence à 8,4 : l'offre est là, la question n'est pas de la trouver mais de choisir."
+      },
+      {
+        heading: "Nature 5,0/10 : ici, les grands espaces sont des bases de loisirs",
+        body: "Toulouse affiche 5,0/10 sur l'axe nature, à égalité avec Poitiers, avant-dernier de cette sélection devant Metz à 4,8 et loin derrière Saint-Raphaël à 7,1 et Pau à 7,0 (source : data/cities-seed.ts). Le mot juste n'est pas « pauvre » mais « aménagé » : la base de loisirs de la Ramée, celle de Pech David, la zone verte des Argoulets et le parc de la Maourine sont recensés sur la commune (source : data/city-parks.json), et ce sont des équipements de plein air plutôt que des forêts. Pour un parent seul, ce n'est pas une mauvaise nouvelle : un espace clôturé, avec des sanitaires et un point d'eau, se gère mieux qu'un sentier. Une précision de méthode qu'il faut donner ici et pas seulement dans une note de bas de page : notre relevé de parcs plafonne à quarante par commune, et Toulouse atteint ce plafond. Le chiffre est donc un plancher, pas un total, et il ne permet aucune comparaison avec une ville qui n'y arrive pas."
+      },
+      {
+        heading: "Quand y aller : le régime le plus fréquenté de la série",
+        body: "Notre indicateur d'affluence ne descend jamais sous 3 sur 5 à Toulouse, monte à 4 en juin et en septembre et atteint 5 en juillet et en août (source : lib/vacation-seasons.ts). C'est le régime le plus chargé de la série, partagé avec Lyon, Bordeaux, Nantes, Rennes, Strasbourg et Saint-Raphaël. Il faut savoir ce que cet indicateur est : un modèle qui croise le type de destination et la saison, pas un comptage de visiteurs. Toulouse hérite du palier haut parce qu'elle dépasse 200 000 habitants, donc parce qu'elle est lue comme une destination de city-break. Côté climat, Toulouse est la seule ville de ce lot dont les valeurs mensuelles sont réellement les siennes : la station de référence retenue est Toulouse-Blagnac, à 6 km. Elle donne 22,6 °C de moyenne en juillet pour 6 jours de pluie et 8,3 heures de soleil par jour, contre 6,3 °C en janvier (source : lib/climate-normals.ts). La fenêtre à viser est donc mai, puis la deuxième quinzaine de septembre et octobre."
+      },
+      {
+        heading: "Budget : au milieu du lot, et pas au milieu de la série",
+        body: "Toulouse est classée €€€ sur notre échelle de budget de séjour (source : lib/vacation-fit.ts), avec un axe coût de la vie à 5,3/10 où un score haut signifie abordable. Les repères de marché local disent la même chose : 1 150 € pour le T3 de référence et 4 000 € le mètre carré à l'achat (source : data/housing.ts). Dans ce lot de sept, cela la place troisième plus chère derrière Aix-en-Provence à 1 400 € et Saint-Raphaël à 1 300 €, et loin devant Mâcon à 800 €. Ce sont des repères résidentiels, pas des tarifs de vacances, mais ils ordonnent correctement les marchés locaux. La conséquence concrète pour un foyer à un seul revenu est double : l'hébergement pèsera plus qu'à Poitiers ou à Mâcon, et le poste transport pèsera moins, puisque le réseau remplace la voiture de location. Sur une semaine, le second compense une partie du premier, ce qui n'est pas vrai partout."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont revus régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés largement en billetterie culturelle et dans une partie de l'hébergement. Les bons vacances de la caisse d'allocations familiales de la Haute-Garonne se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie sur des équipements nommés, et les grands sites toulousains en font partie. Tous se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["toulouse", "montauban", "albi", "castres"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-toulouse-2026",
+      "parent-solo-a-toulouse-2026",
+      "vivre-a-toulouse-2026",
+      "vacances-monoparentales-bordeaux-2026"
+    ],
+    tags: ["vacances monoparentales Toulouse", "parent solo Haute-Garonne", "vacances sans voiture", "Toulouse avec enfants", "hors saison Occitanie"]
+  },
+  {
+    slug: "vacances-monoparentales-pau-2026",
+    title: "Vacances monoparentales à Pau en 2026",
+    metaTitle: "Vacances monoparentales à Pau 2026",
+    metaDesc:
+      "Pau en parent solo : un funiculaire gratuit relie la gare au centre haut, nature 7,0/10. Mais transports 6,1 : la montagne ne s'atteint pas sans plan.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-09-02",
+    updatedAt: "2026-09-02",
+    intro:
+      "Pau sort à 6,2/10 au composite « famille monoparentale », en tête de cette sélection à égalité avec Toulouse et Mâcon, sur sécurité 5,7/10, transports 6,1/10, coût de la vie 6,2/10 et qualité de vie 6,6/10 (source : data/cities-seed.ts). Elle porte le meilleur score de nature du lot après Saint-Raphaël, 7,0/10, et le T3 de référence y vaut 900 € pour 2 400 € le mètre carré à l'achat (source : data/housing.ts), soit la moitié abordable de la sélection. L'argument décisif quand on arrive seul avec des enfants et des bagages n'est pourtant aucun de ces chiffres : c'est qu'un funiculaire gratuit monte de la gare au centre-ville. Ce guide dit ce que cela règle, et ce que le 6,1 en transports ne règle pas.",
+    sections: [
+      {
+        heading: "Le funiculaire : la gare est en bas, la ville est en haut, et la montée est gratuite",
+        body: "Pau est bâtie sur un coteau. La gare est au pied, le centre est au sommet, et entre les deux il y a une dénivellation qu'on ne franchit pas de gaieté de cœur avec une valise dans une main et un enfant dans l'autre. Le funiculaire du boulevard des Pyrénées, mis en service en 1908, relie la gare à la place Royale, et son usage est gratuit depuis 1978. Pour un adulte qui voyage seul avec des enfants, c'est le genre de détail qui décide d'une arrivée réussie : pas de taxi à chercher, pas de bus à trouver, pas de montée à négocier. On sort du train, on prend la cabine, on est au centre. Le service ferme certains jours fériés et ses horaires varient entre semaine et dimanche : les vérifier avant d'arriver tard évite la seule mauvaise surprise possible. Arrivé en haut, le boulevard des Pyrénées ouvre sur la chaîne, ce qui règle aussi la première question des enfants."
+      },
+      {
+        heading: "Nature 7,0/10, mais transports 6,1 : les Pyrénées se regardent mieux qu'elles ne s'atteignent",
+        body: "Pau affiche 7,0/10 sur l'axe nature, deuxième de ce lot derrière Saint-Raphaël à 7,1 et devant Aix-en-Provence à 6,4 (source : data/cities-seed.ts). C'est la promesse de la ville, et il faut immédiatement la borner. Sur l'axe transports, Pau sort à 6,1/10, à égalité avec Aix-en-Provence et au dernier rang de cette sélection ; elle est signalée desservie par le TGV et dotée de bus à haut niveau de service, sans tramway ni métro (source : lib/transit.ts). En ville, cela suffit largement pour une commune de 78 620 habitants au recensement de 2022 (source : data/city-population.json). Pour aller dans la montagne, non. Les vallées béarnaises se rejoignent en autocar régional ou en excursion organisée, avec des fréquences qui n'ont rien à voir avec celles d'un réseau urbain. La position honnête est donc celle-ci : Pau se pratique très bien sans voiture, les Pyrénées depuis Pau se pratiquent avec un plan, et ce plan se fait avant de réserver, pas sur place."
+      },
+      {
+        heading: "Ce qui se fait à pied : le château, le boulevard, les parcs",
+        body: "Le centre tient dans un périmètre qu'un enfant de six ans traverse sans protester. Le château de Pau, où naquit Henri IV, est au bout du boulevard ; c'est une visite intérieure courte, avec une histoire qui se raconte en trois phrases, ce qui vaut mieux qu'une enfilade de salles. Le parc Beaumont, les sentiers du Roy et de la Palmeraie, le parc Lawrance, le parc Noulibos et le square des Anglais figurent parmi les espaces verts recensés sur la commune (source : data/city-parks.json). Le parc Beaumont est celui qui règle une fin d'après-midi : il est central, clos et suffisamment grand pour qu'on s'y assoie pendant que les enfants courent. Notre relevé plafonne à quarante parcs par commune et Pau atteint ce plafond, donc ce nombre est un plancher et non un total. Culture 6,6/10 (source : data/cities-seed.ts) : l'offre existe, elle est de format moyen, et c'est plutôt une bonne nouvelle quand on doit tenir le rythme d'un seul adulte."
+      },
+      {
+        heading: "Le climat affiché n'est pas celui de Pau, et il faut le savoir",
+        body: "C'est la réserve la plus importante de ce guide, et elle tient à nos données plutôt qu'à la ville. Notre moteur climatique rattache chaque commune à la station Météo-France la plus proche qu'il connaît. Pour Pau, cette station est Toulouse-Blagnac, à 146 kilomètres (source : lib/climate-normals.ts). C'est le plus grand écart de toute cette série, très au-delà des 71 km de Besançon. Les valeurs mensuelles affichées pour Pau sont donc littéralement celles de Toulouse, prises de l'autre côté du Gers, alors que Pau est adossée aux Pyrénées et arrosée par un régime océanique plus humide. À l'échelle du seed, les ancres annuelles propres à la ville donnent 6 °C de moyenne en janvier et 23 °C en juillet (source : data/cities-seed.ts) : c'est ce qu'il faut retenir, et il faut traiter le détail mensuel comme une indication de tendance, pas comme une mesure. En pratique, prévoyez de la pluie plus souvent que le tableau ne le suggère."
+      },
+      {
+        heading: "Quand y aller : huit mois à 1 sur 5",
+        body: "Notre indicateur d'affluence place Pau à 1 sur 5 pendant huit mois de l'année, 2 en juin et en septembre, et 3 seulement au plus haut de juillet et d'août (source : lib/vacation-seasons.ts). C'est le régime le plus calme de notre échelle, celui d'Aix-en-Provence, de Poitiers et de Metz dans ce lot. Il s'agit d'un modèle qui croise le type de destination et la saison, pas d'un comptage : Pau y hérite du palier bas parce qu'elle n'est ni littorale, ni station de montagne, ni métropole. Concrètement, cela vise avril, mai, la fin septembre et octobre, avec l'avantage que le funiculaire et les parcs fonctionnent toute l'année. La Toussaint tient à condition d'assumer un programme largement intérieur, ce que le château et les musées permettent. Une dernière chose sur la lecture du panorama : la chaîne se voit par temps clair et disparaît par temps couvert, et aucun calendrier ne garantit l'un plutôt que l'autre."
+      },
+      {
+        heading: "Sécurité 5,7/10 et un budget dans la moitié basse",
+        body: "Pau affiche 5,7/10 sur l'axe sécurité, à égalité avec Poitiers dans ce lot, derrière Saint-Raphaël à 6,2 et Aix-en-Provence à 5,9, et très au-dessus de Toulouse à 4,3 (source : data/cities-seed.ts). C'est un indicateur communal agrégé, qui décrit une commune entière et ni un quartier ni une heure, sans jugement sur ses habitants. En usage, il décrit une ville moyenne dont le centre se pratique le soir sans réserve particulière pour un adulte seul avec des enfants. Côté budget, Pau est classée €€€ (source : lib/vacation-fit.ts) avec un axe coût de la vie à 6,2/10, un T3 de référence à 900 € et 2 400 € le mètre carré (source : data/housing.ts). Sur l'axe coût, Pau est à égalité exacte avec Metz et derrière Mâcon et Poitiers, tous deux à 6,6. Pour un besoin médical, le 15 en urgence vitale et le 116 117 pour un conseil le soir et le week-end ; l'annuaire santé d'ameli.fr permet de repérer un cabinet avant le départ."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont revus régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés largement en billetterie culturelle et dans une partie de l'hébergement. Les bons vacances de la caisse d'allocations familiales des Pyrénées-Atlantiques se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie sur des équipements nommés. Tous se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["pau", "tarbes", "bayonne", "biarritz"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-pau-2026",
+      "parent-solo-a-pau-2026",
+      "vivre-a-pau-2026",
+      "vacances-monoparentales-toulouse-2026"
+    ],
+    tags: ["vacances monoparentales Pau", "parent solo Pyrénées-Atlantiques", "funiculaire de Pau", "vacances sans voiture", "hors saison Béarn"]
+  },
+  {
+    slug: "vacances-monoparentales-macon-2026",
+    title: "Vacances monoparentales à Mâcon en 2026",
+    metaTitle: "Vacances monoparentales à Mâcon 2026",
+    metaDesc:
+      "Mâcon en parent solo : la destination la moins chère des vingt-deux de la série, T3 à 800 €. Mais le TGV s'arrête à Loché, à 7 km, et pas en ville.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-09-02",
+    updatedAt: "2026-09-02",
+    intro:
+      "Mâcon sort à 6,2/10 au composite « famille monoparentale », en tête de cette sélection à égalité avec Toulouse et Pau, sur sécurité 5,5/10, transports 7,0/10, coût de la vie 6,6/10 et qualité de vie 6,2/10 (source : data/cities-seed.ts). C'est la destination la moins chère des vingt-deux que cette série a couvertes : 800 € pour le T3 de référence et 2 100 € le mètre carré à l'achat, ce dernier chiffre à égalité avec Poitiers (source : data/housing.ts), et le seul classement €€ du lot avec Poitiers (source : lib/vacation-fit.ts). Pour un foyer à un seul revenu, c'est l'argument principal. Ce guide dit ce qu'on obtient à ce prix dans une commune de 34 759 habitants, et le piège d'arrivée qu'il faut connaître avant de réserver un billet.",
+    sections: [
+      {
+        heading: "Le piège du billet : le TGV s'arrête à Loché, pas à Mâcon",
+        body: "Mâcon est signalée desservie par le TGV (source : lib/transit.ts), et ce drapeau est exact. Il masque pourtant la distinction qui décide de la qualité d'une arrivée quand on porte des bagages et qu'on tient une main. La gare Mâcon-Loché-TGV est située à environ sept kilomètres du centre-ville, sur la ligne à grande vitesse, dans la commune voisine de Loché ; la gare de Mâcon-Ville, elle, est en plein centre, à quelques minutes à pied de l'essentiel, et elle est desservie par les TER. Autrement dit, le train le plus rapide vous dépose le plus loin. La conséquence pratique est simple et vaut d'être répétée : au moment de réserver, lisez le nom de la gare d'arrivée sur le billet, pas seulement la mention TGV, et si c'est Loché, prévoyez la liaison vers le centre avant de partir. C'est exactement le même piège qu'à Besançon et à Valence, et c'est celui qui coûte le plus cher en fatigue le premier jour."
+      },
+      {
+        heading: "Le budget le plus bas de la série, et ce que ça veut dire",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Mâcon sort à 6,6/10, à égalité avec Poitiers, deuxième de toute la série derrière Valence à 6,7 (source : data/cities-seed.ts). Le marché résidentiel confirme l'ordre de grandeur et le pousse même plus loin : 800 € le T3 de référence, le plus bas des vingt-deux villes traitées, et 2 100 € le mètre carré (source : data/housing.ts). Ce sont des repères de marché local et non des tarifs de vacances, mais ils disent quelque chose de réel : une ville où le mètre carré vaut 2 100 € n'affiche pas les mêmes semaines de location qu'une ville à 5 000 €, et Aix-en-Provence, dans ce même lot, est à 5 000 €. Pour un adulte qui paie seul l'hébergement d'un foyer entier, sans personne avec qui partager une chambre, c'est le poste où l'écart se creuse le plus vite. Mâcon est le choix de ce lot quand le budget commande."
+      },
+      {
+        heading: "Une ville de 34 000 habitants se fait à pied, et c'est le vrai transport",
+        body: "Mâcon affiche 7,0/10 sur l'axe transports (source : data/cities-seed.ts), à égalité avec Saint-Raphaël dans ce lot, mais sans tramway, sans métro et sans bus à haut niveau de service : c'est un score de maillage de bus dans une commune compacte (source : lib/transit.ts). La bonne façon de le lire est qu'à cette taille, le transport principal, ce sont les jambes. Le centre et le quai de Saône se parcourent sans jamais reprendre un véhicule, ce qui, avec des enfants, supprime le poste logistique le plus pénible d'un séjour. Le parc Nord, le vallon des Rigolettes, l'arboretum, le parc de l'Abîme, l'esplanade Du Breuil et le jardin Pierre Semard figurent parmi les vingt et un espaces verts recensés sur la commune (source : data/city-parks.json). Ce total-là, contrairement à celui des grandes villes du lot, n'est pas plafonné par notre collecte : Mâcon en a réellement moins, parce qu'elle est plus petite."
+      },
+      {
+        heading: "La Saône, la roche de Solutré, et la limite qu'il faut poser",
+        body: "La Saône traverse la ville et donne la promenade qui structure un séjour : les quais sont plats, larges et continus, ce qui est la meilleure configuration possible pour un adulte seul qui surveille deux enfants à vélo ou en trottinette. Nature 5,7/10 (source : data/cities-seed.ts), un score moyen qui correspond à ce qu'on voit : une ville de rivière plus qu'une ville de campagne. Les grands sites du Mâconnais, à commencer par la roche de Solutré et son musée de préhistoire, relèvent de communes voisines et ne s'atteignent pas à pied depuis Mâcon. Ils sont accessibles depuis Mâcon, ce qui n'est pas la même chose qu'y être situés : sans voiture, cela suppose un autocar régional ou une excursion, à vérifier avant de bâtir une journée dessus. Le vignoble, qui fait la réputation du pays, n'est pas un programme d'enfant : il vaut mieux le traiter comme un décor de trajet que comme une visite."
+      },
+      {
+        heading: "Quand y aller : 2 sur 5 hors saison, et pourquoi ce n'est pas 1",
+        body: "Notre indicateur d'affluence place Mâcon à 2 sur 5 pendant huit mois, 3 en juin et en septembre, et 4 en juillet et en août (source : lib/vacation-seasons.ts). C'est un cran au-dessus de Pau, de Poitiers, de Metz et d'Aix-en-Provence, qui descendent à 1, et il faut dire pourquoi : l'indicateur est un modèle qui croise le type de destination et la saison, et Mâcon hérite du palier intermédiaire parce que ses caractéristiques la classent en pays viticole. Ce n'est donc pas un comptage de visiteurs, c'est une lecture de profil, et un lecteur qui trouverait la ville plus calme que le tableau ne le dit n'aurait pas tort. Côté climat, la station de référence retenue est Lyon-Bron, à 65 kilomètres (source : lib/climate-normals.ts) : c'est un rattachement raisonnable, la vallée de la Saône et celle du Rhône partagent l'essentiel de leur régime. Les ancres propres à la ville donnent 3,5 °C en janvier et 22,5 °C en juillet (source : data/cities-seed.ts)."
+      },
+      {
+        heading: "Sécurité 5,5/10 et logistique du soir",
+        body: "Mâcon affiche 5,5/10 sur l'axe sécurité (source : data/cities-seed.ts), au milieu de ce lot, derrière Saint-Raphaël à 6,2, Aix-en-Provence à 5,9, Pau et Poitiers à 5,7, et devant Metz à 5,3 et Toulouse à 4,3. C'est un indicateur communal agrégé, qui décrit une commune entière et ni un quartier ni une heure, sans jugement sur ses habitants. En usage, il décrit une ville moyenne dont le centre se pratique le soir sans réserve particulière pour un adulte seul avec des enfants. Deux points de logistique qui comptent plus qu'ailleurs dans une ville de cette taille. Un, hors saison, les cuisines ferment tôt en semaine : viser 19 h 30 pour dîner, et ne pas compter sur un dépannage à 21 h. Deux, pour un besoin médical, le 15 en urgence vitale et le 116 117 pour un conseil le soir et le week-end ; l'annuaire santé d'ameli.fr permet de repérer un cabinet avant le départ plutôt que dans l'urgence."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont revus régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés largement en billetterie culturelle et dans une partie de l'hébergement. Les bons vacances de la caisse d'allocations familiales de Saône-et-Loire se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie sur des équipements nommés. Tous se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["macon", "bourg-en-bresse", "chalon-sur-saone", "lyon"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-macon-2026",
+      "vacances-monoparentales-lyon-2026",
+      "vacances-monoparentales-dijon-2026",
+      "vacances-monoparentales-valence-2026"
+    ],
+    tags: ["vacances monoparentales Mâcon", "parent solo Saône-et-Loire", "vacances pas chères en famille", "gare TGV excentrée", "hors saison Bourgogne du sud"]
+  },
+  {
+    slug: "vacances-monoparentales-aix-en-provence-2026",
+    title: "Vacances monoparentales à Aix-en-Provence en 2026",
+    metaTitle: "Vacances monoparentales à Aix-en-Provence 2026",
+    metaDesc:
+      "Aix en parent solo : la destination la plus chère des vingt-deux de la série, T3 à 1 400 €. Ce que la qualité de vie 7,8/10 et la culture 8,4 achètent vraiment.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-09-02",
+    updatedAt: "2026-09-02",
+    intro:
+      "Aix-en-Provence sort à 6,1/10 au composite « famille monoparentale », quatrième de cette sélection à égalité avec Poitiers et Saint-Raphaël, sur sécurité 5,9/10, transports 6,1/10, coût de la vie 3,6/10 et qualité de vie 7,8/10 (source : data/cities-seed.ts). Ce 3,6 en coût est le plus bas des vingt-deux destinations que cette série a traitées : sur cet axe, un score bas signifie cher, et Aix est donc la ville la plus chère du corpus, avec 1 400 € pour le T3 de référence et 5 000 € le mètre carré à l'achat (source : data/housing.ts). Elle se classe pourtant quatrième d'un profil qui pondère le coût à 0,25. Ce guide dit exactement ce qui a payé ce classement, et ce que cela coûte à un foyer à un seul revenu.",
+    sections: [
+      {
+        heading: "La ville la plus chère de la série, et ce qui la maintient dans le classement",
+        body: "Il faut commencer par là, parce que c'est la seule question qui compte quand on paie seul. Le profil monoparental pondère la sécurité à 0,30, les transports à 0,25, le coût à 0,25 et la qualité de vie à 0,20 (source : lib/vacation-fit.ts). Aix perd lourdement sur le coût, à 3,6/10, et rattrape sur les trois autres : qualité de vie 7,8/10, la meilleure de ce lot à égalité avec Saint-Raphaël, culture 8,4/10, la meilleure du lot, et sécurité 5,9/10, deuxième du lot (source : data/cities-seed.ts). Le classement est donc honnête mais il faut le lire pour ce qu'il est : Aix n'est pas ici parce qu'elle est abordable, elle est ici malgré son prix. Concrètement, pour un adulte qui ne partage aucune chambre et aucun budget, l'écart avec Mâcon dans ce même lot est de 600 € sur le T3 de référence et de 2 900 € sur le mètre carré. La décision se prend en connaissance de cause, et hors saison plutôt qu'en août."
+      },
+      {
+        heading: "La gare TGV est à quinze kilomètres, la gare du centre est une autre gare",
+        body: "Aix est signalée desservie par le TGV et dotée de bus à haut niveau de service (source : lib/transit.ts), et là encore le drapeau cache une distinction décisive. La gare d'Aix-en-Provence TGV se trouve à une quinzaine de kilomètres au sud-ouest du centre, sur la limite entre Aix et Cabriès ; elle est reliée à la gare routière d'Aix par une navette régulière, et la gare routière est elle-même à quelques centaines de mètres du centre. La gare d'Aix-en-Provence Centre, elle, est en ville, et elle est desservie par les TER, notamment vers Marseille. Pour un parent seul, cela se traduit par une règle simple : un billet TGV signifie une correspondance en bus avec les bagages, un billet TER signifie une arrivée au centre. Ni l'un ni l'autre n'est mauvais, mais les deux ne se préparent pas pareil, et c'est au moment de réserver qu'on choisit."
+      },
+      {
+        heading: "Un centre compact, et des parcs qui règlent les fins d'après-midi",
+        body: "L'atout d'Aix pour un adulte seul est la compacité : la vieille ville se traverse à pied, le cours Mirabeau la structure, et on n'a pratiquement jamais besoin d'un transport à l'intérieur du périmètre touristique. Le parc Jourdan, le parc de la Torse, le parc Saint-Mitre, le parc Rambot, le parc Vendôme, le jardin japonais et le parc de la Bastide du Jas de Bouffan figurent parmi les trente et un espaces verts recensés sur la commune (source : data/city-parks.json) ; ce total n'atteint pas le plafond de quarante de notre collecte, c'est donc un compte et pas un plancher. Le parc Jourdan est le plus utile des sept : central, ombragé et assez grand pour qu'un adulte s'assoie. Culture 8,4/10 (source : data/cities-seed.ts) : entre les musées, l'atelier de Cézanne et les fondations, l'offre dépasse largement ce qu'un séjour d'une semaine absorbe, ce qui autorise à choisir sans regret."
+      },
+      {
+        heading: "Notre indicateur d'affluence sous-estime Aix, et il faut le dire",
+        body: "Notre modèle place Aix à 1 sur 5 pendant huit mois, 2 en juin et en septembre, et 3 seulement en juillet et en août (source : lib/vacation-seasons.ts). C'est le régime le plus calme de notre échelle, et pour cette ville-là il faut le prendre avec précaution. L'indicateur croise le type de destination et la saison : il attribue le palier haut aux communes de plus de 200 000 habitants et aux destinations littorales. Aix comptait 147 933 habitants au recensement de 2022 (source : data/city-population.json) et n'est pas classée littorale, donc elle tombe au palier bas par construction. Un lecteur qui a déjà vu le cours Mirabeau un 14 août sait que ce 3 est optimiste. La conclusion pratique ne change pas, elle se renforce : viser avril, mai, la fin septembre et octobre, où le climat est bon et où le prix suit l'affluence. Sur ce point, notre indicateur et l'expérience disent la même chose."
+      },
+      {
+        heading: "Le climat, avec la station et sa distance",
+        body: "La station de référence retenue par notre moteur pour Aix est Marseille-Marignane, à 21 kilomètres (source : lib/climate-normals.ts). C'est un rattachement proche, mais il n'est pas neutre : Marignane est au bord de l'étang de Berre et Aix est à l'intérieur, un peu plus haut, ce qui rend les nuits d'été plus fraîches à Aix que le tableau ne le laisse penser. Les valeurs affichées donnent 25,2 °C de moyenne en juillet, 2 jours de pluie et 12 heures de soleil par jour, contre 7,7 °C en janvier avec 6 jours de pluie. Les ancres propres à la ville, dans le seed, portent 6,8 °C en janvier et 27,3 °C en juillet (source : data/cities-seed.ts). L'ordre de grandeur est clair et il commande le programme : en juillet et en août, un séjour avec des enfants s'organise tôt le matin et en fin d'après-midi, avec un intérieur au milieu de la journée, et l'eau se porte, elle ne s'achète pas en route."
+      },
+      {
+        heading: "Sécurité 5,9/10, et un mot sur ce que le score n'est pas",
+        body: "Aix affiche 5,9/10 sur l'axe sécurité, deuxième de ce lot derrière Saint-Raphaël à 6,2 et devant Pau et Poitiers à 5,7 (source : data/cities-seed.ts). C'est un indicateur communal agrégé : il décrit une commune entière, ni un quartier ni une heure de la journée, et il ne porte aucun jugement sur ses habitants. En usage, il décrit une ville universitaire de taille moyenne dont le centre se pratique le soir sans réserve particulière pour un adulte seul avec des enfants. Deux points de logistique propres à la saison chaude. Un, les fins de journée sont longues et animées, ce qui joue en votre faveur : dîner à 20 h en terrasse avec des enfants n'y est pas une anomalie. Deux, pour un besoin médical, le 15 en urgence vitale et le 116 117 pour un conseil le soir et le week-end ; l'annuaire santé d'ameli.fr permet de repérer un cabinet avant le départ plutôt que dans l'urgence."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont revus régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. C'est sur une destination chère comme Aix que ces dispositifs pèsent le plus lourd, et qu'il faut donc s'y prendre le plus tôt. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés largement en billetterie culturelle et dans une partie de l'hébergement. Les bons vacances de la caisse d'allocations familiales des Bouches-du-Rhône se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie sur des équipements nommés. Tous se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["aix-en-provence", "marseille", "salon-de-provence", "avignon"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-aix-en-provence-2026",
+      "parent-solo-a-aix-en-provence-2026",
+      "vivre-a-aix-en-provence-2026",
+      "vacances-monoparentales-saint-raphael-2026"
+    ],
+    tags: ["vacances monoparentales Aix-en-Provence", "parent solo Bouches-du-Rhône", "vacances hors saison Provence", "gare TGV excentrée", "budget parent seul"]
+  },
+  {
+    slug: "vacances-monoparentales-poitiers-2026",
+    title: "Vacances monoparentales à Poitiers en 2026",
+    metaTitle: "Vacances monoparentales à Poitiers 2026",
+    metaDesc:
+      "Poitiers en parent solo : le Futuroscope a sa propre gare TGV et un bus depuis la ville. Un grand parc à thème sans louer de voiture, à 2 100 € le m².",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-09-02",
+    updatedAt: "2026-09-02",
+    intro:
+      "Poitiers sort à 6,1/10 au composite « famille monoparentale », quatrième de cette sélection à égalité avec Aix-en-Provence et Saint-Raphaël, sur sécurité 5,7/10, transports 6,4/10, coût de la vie 6,6/10 et qualité de vie 5,9/10 (source : data/cities-seed.ts). Avec Mâcon, c'est l'une des deux seules destinations classées €€ de ce lot (source : lib/vacation-fit.ts), à 880 € le T3 de référence et 2 100 € le mètre carré à l'achat, ce dernier chiffre le plus bas de la série avec Mâcon (source : data/housing.ts). Mais l'argument qui décide, pour un adulte qui part seul avec des enfants et sans voiture, tient en une phrase : le Futuroscope a sa propre gare TGV. Ce guide dit ce que cela permet, et ce que Poitiers ne fait pas.",
+    sections: [
+      {
+        heading: "Un grand parc à thème sans louer de voiture, ce qui est rare",
+        body: "C'est le fait structurant du séjour et il n'a pas d'équivalent dans les vingt-deux destinations traitées jusqu'ici par cette série. Le Futuroscope est implanté au nord de Poitiers, sur les communes de Chasseneuil-du-Poitou et de Jaunay-Marigny, et il dispose d'une gare TGV à son pied, à une dizaine de kilomètres de Poitiers. Le réseau urbain Vitalis relie par ailleurs la gare de Poitiers au site. Pour un parent seul, cela règle le problème le plus coûteux de ce type de sortie : pas de location de voiture pour une journée, pas de parking à chercher au retour, pas de conduite après une journée entière de marche avec des enfants fatigués. Deux réserves d'usage à traiter avant de partir. Les lignes et les fréquences de bus changent, donc elles se vérifient auprès de l'exploitant et pas dans un guide. Et le parc est un site voisin, accessible depuis Poitiers, il n'est pas situé à Poitiers."
+      },
+      {
+        heading: "Le prix : deuxième plus abordable de la série, à égalité avec Mâcon",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Poitiers sort à 6,6/10, à égalité exacte avec Mâcon et deuxième de toute la série derrière Valence à 6,7 (source : data/cities-seed.ts). Le marché résidentiel confirme : 880 € le T3 de référence et 2 100 € le mètre carré à l'achat, à égalité avec Mâcon pour le plus bas de la série (source : data/housing.ts). Ce sont des repères de marché local, pas des tarifs de vacances, mais ils ordonnent correctement les marchés : l'écart avec Aix-en-Provence, dans ce même lot, est de 520 € sur le T3 et de 2 900 € sur le mètre carré. Quand on paie seul l'hébergement d'un foyer entier, sans chambre à partager, c'est le poste où l'écart se creuse le plus vite, et c'est ce qui fait de Poitiers un candidat sérieux malgré des scores de confort moyens."
+      },
+      {
+        heading: "Ce que Poitiers ne fait pas : culture 6,2 et qualité de vie 5,9",
+        body: "Il faut le dire aussi clairement que le reste. Poitiers affiche 6,2/10 en culture, le plus bas de ce lot de sept, derrière Aix-en-Provence à 8,4 et Toulouse à 8,0 (source : data/cities-seed.ts), et 5,9/10 en qualité de vie, à égalité avec Metz pour le plus bas des vingt-deux destinations de la série. Ce n'est pas un jugement sur la ville, c'est une description de ce qu'un séjour d'une semaine y trouve : une offre urbaine de format moyen, pas une capitale culturelle. La conséquence pratique est qu'un séjour à Poitiers s'organise autour d'un ou deux temps forts, le Futuroscope en premier, et non autour d'une accumulation. Pour un parent seul, ce n'est d'ailleurs pas une mauvaise structure : deux journées pleines et bien préparées fatiguent moins qu'une semaine de programme dense, et coûtent moins cher. Nature 5,0/10, à égalité avec Toulouse et avant-dernier du lot, devant Metz à 4,8."
+      },
+      {
+        heading: "Le centre à pied, et le parc de Blossac",
+        body: "Le centre historique est ramassé, ce qui est la configuration qui convient. Notre-Dame-la-Grande et le baptistère Saint-Jean se voient dans la même matinée, et ce sont des visites courtes, ce qui vaut mieux qu'une longue avec des enfants. Le parc de Blossac, le parc naturel et ludique Les Sablons, l'îlot Tison, le parc de la Gibauderie et le jardin des Plantes figurent parmi les espaces verts recensés sur la commune (source : data/city-parks.json). Le parc de Blossac est celui qui règle une fin d'après-midi : central, clos et de taille suffisante. Une précision de méthode : notre relevé plafonne à quarante parcs par commune et Poitiers atteint ce plafond, donc quarante est un plancher et pas un total, et il ne se compare pas à une ville qui n'y arrive pas. Transports 6,4/10 avec TGV et bus à haut niveau de service, sans tramway (source : lib/transit.ts et data/cities-seed.ts)."
+      },
+      {
+        heading: "Quand y aller : huit mois à 1 sur 5, et un climat emprunté à Tours",
+        body: "Notre indicateur d'affluence place Poitiers à 1 sur 5 pendant huit mois, 2 en juin et en septembre, et 3 en juillet et en août (source : lib/vacation-seasons.ts) : le régime le plus calme de notre échelle, celui de Pau, de Metz et d'Aix-en-Provence dans ce lot. Il s'agit d'un modèle croisant type de destination et saison, pas d'un comptage. Une réserve d'honnêteté sur le climat : la station de référence retenue par notre moteur est Tours-Saint-Symphorien, à 99 kilomètres (source : lib/climate-normals.ts), donc les valeurs mensuelles affichées pour Poitiers sont en réalité tourangelles. L'écart de régime entre les deux villes est modeste, mais il existe. Les ancres propres à Poitiers donnent 4,8 °C en janvier et 22,5 °C en juillet (source : data/cities-seed.ts). Le tableau mensuel annonce par ailleurs 10 à 12 jours de pluie par mois d'octobre à février : un séjour de Toussaint ou d'hiver ici se conçoit avec un intérieur en réserve."
+      },
+      {
+        heading: "Sécurité 5,7/10 et logistique du soir",
+        body: "Poitiers affiche 5,7/10 sur l'axe sécurité, à égalité avec Pau dans ce lot, derrière Saint-Raphaël à 6,2 et Aix-en-Provence à 5,9, et bien au-dessus de Toulouse à 4,3 (source : data/cities-seed.ts). C'est un indicateur communal agrégé, qui décrit une commune entière et ni un quartier ni une heure, sans jugement sur ses habitants. En usage, il décrit une ville universitaire moyenne dont le centre se pratique le soir sans réserve particulière pour un adulte seul avec des enfants. La commune comptait 89 472 habitants au recensement de 2022 (source : data/city-population.json). Deux points de logistique. Un, hors période universitaire et hors saison, les cuisines ferment tôt en semaine : viser 19 h 30 pour dîner. Deux, pour un besoin médical, le 15 en urgence vitale et le 116 117 pour un conseil le soir et le week-end ; l'annuaire santé d'ameli.fr permet de repérer un cabinet avant le départ."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont revus régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver, et il faut le faire tôt si le Futuroscope est au programme, parce que la billetterie des grands parcs est justement le terrain de ces dispositifs. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés largement en billetterie de loisirs et dans une partie de l'hébergement. Les bons vacances de la caisse d'allocations familiales de la Vienne se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie sur des équipements nommés. Tous se calculent sur le quotient familial."
+      }
+    ],
+    relatedCities: ["poitiers", "chatellerault", "niort", "angouleme"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-poitiers-2026",
+      "parent-solo-a-poitiers-2026",
+      "vivre-a-poitiers-2026",
+      "vacances-monoparentales-macon-2026"
+    ],
+    tags: ["vacances monoparentales Poitiers", "parent solo Vienne", "Futuroscope sans voiture", "vacances pas chères en famille", "hors saison Poitou"]
+  },
+  {
+    slug: "vacances-monoparentales-saint-raphael-2026",
+    title: "Vacances monoparentales à Saint-Raphaël en 2026",
+    metaTitle: "Vacances monoparentales à Saint-Raphaël 2026",
+    metaDesc:
+      "Saint-Raphaël en parent solo : la gare est au centre, la plage à quelques minutes à pied. Meilleure sécurité du lot, 6,2/10, et le deuxième prix le plus élevé.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-09-02",
+    updatedAt: "2026-09-02",
+    intro:
+      "Saint-Raphaël sort à 6,1/10 au composite « famille monoparentale », quatrième de cette sélection à égalité avec Aix-en-Provence et Poitiers, sur sécurité 6,2/10, transports 7,0/10, coût de la vie 3,9/10 et qualité de vie 7,8/10 (source : data/cities-seed.ts). Elle porte la meilleure sécurité de ce lot de sept et le meilleur score de nature, 7,1/10, mais aussi le deuxième coût le plus élevé des vingt-deux destinations de la série, derrière Aix-en-Provence : 1 300 € pour le T3 de référence et 4 500 € le mètre carré à l'achat (source : data/housing.ts). L'arbitrage est net et il vaut d'être posé d'emblée : on paie ici pour un endroit où l'on n'a jamais besoin de voiture, la gare étant dans le centre et la mer à quelques minutes à pied.",
+    sections: [
+      {
+        heading: "La gare est en ville, et c'est le contre-exemple de cette série",
+        body: "Cette série a passé deux batches à prévenir que le drapeau TGV ne dit pas dans quelle gare on descend : Besançon aux Auxons, Valence à Alixan, Mâcon à Loché, Aix à Cabriès. Saint-Raphaël est le contraire, et c'est son principal argument. La gare de Saint-Raphaël-Valescure est située dans le centre-ville, à environ 800 mètres de son cœur, sur la ligne Marseille-Vintimille ; elle est desservie à la fois par les TGV et par les TER régionaux, et les plages comme le vieux port se rejoignent à pied en quelques minutes. Pour un adulte qui arrive seul avec des enfants et des bagages, la conséquence est immédiate : aucune correspondance, aucune navette, aucun taxi. On descend du train et on est arrivé. Le même axe ferroviaire longe ensuite la côte vers Cannes et Nice, ce qui transforme les excursions en trajets de TER plutôt qu'en journées de conduite."
+      },
+      {
+        heading: "Sécurité 6,2/10, la meilleure du lot",
+        body: "Saint-Raphaël affiche 6,2/10 sur l'axe sécurité, en tête de cette sélection devant Aix-en-Provence à 5,9, Pau et Poitiers à 5,7, Mâcon à 5,5, Metz à 5,3 et Toulouse à 4,3 (source : data/cities-seed.ts). Sur l'ensemble des vingt-deux destinations traitées par la série, elle arrive troisième, derrière Vannes à 6,9 et La Rochelle à 6,5. C'est un indicateur communal agrégé : il décrit une commune entière, ni un quartier ni une heure de la journée, et il ne porte aucun jugement sur ses habitants. En usage, il décrit une station balnéaire de taille moyenne, 36 632 habitants au recensement de 2022 (source : data/city-population.json), dont le front de mer se pratique le soir sans réserve particulière pour un adulte seul avec des enfants. La réserve à connaître n'est pas là : elle est dans la fréquentation, traitée plus bas, et dans la baignade, qui obéit à une signalétique et à des arrêtés."
+      },
+      {
+        heading: "Le prix : ce que coûte une ville où l'on n'a besoin de rien",
+        body: "L'axe coût de la vie sort à 3,9/10, un score bas signifiant cher, et c'est le deuxième plus élevé de la série derrière Aix-en-Provence à 3,6 (source : data/cities-seed.ts). Les repères de marché local disent la même chose : 1 300 € le T3 de référence et 4 500 € le mètre carré à l'achat (source : data/housing.ts), soit 500 € de plus que Mâcon sur le T3 dans ce même lot. Saint-Raphaël est classée €€€€ sur notre échelle de budget de séjour (source : lib/vacation-fit.ts). Pour un foyer à un seul revenu, l'arbitrage se pose ainsi : le poste hébergement est élevé, mais les postes voiture, carburant et parking tombent à zéro, ce qui n'est vrai d'aucune autre destination littorale de cette série. Le calcul dépend donc entièrement de la durée. Sur trois jours, le prix de la chambre domine ; sur dix jours avec des sorties quotidiennes, l'absence de voiture rattrape une partie de l'écart."
+      },
+      {
+        heading: "Nature 7,1/10 : l'Estérel commence au bout de la ville",
+        body: "C'est le meilleur score de nature de ce lot, devant Pau à 7,0 et Aix-en-Provence à 6,4 (source : data/cities-seed.ts), et il correspond à une réalité géographique : le massif de l'Estérel et son roche rouge bordent la commune, et le littoral alterne criques et plages sur plusieurs kilomètres. Une précision de méthode qui compte ici plus qu'ailleurs. Notre relevé d'espaces verts ne compte que treize parcs nommés sur la commune, dont le jardin Bonaparte, le jardin des Corailleurs, le square Alphonse Karr et le jardin Pierre Fernez (source : data/city-parks.json). C'est le total le plus faible des vingt-deux destinations de la série, et il ne veut pas dire que Saint-Raphaël manque de verdure : notre source est une carte contributive, où « personne n'a cartographié » et « il n'y a rien » se ressemblent. Ici, l'espace ouvert est le massif et le littoral, qui ne sont pas des parcs urbains."
+      },
+      {
+        heading: "Quand y aller : le régime le plus fréquenté de notre échelle",
+        body: "Notre indicateur d'affluence ne descend jamais sous 3 sur 5 à Saint-Raphaël, monte à 4 en juin et en septembre et atteint 5 en juillet et en août (source : lib/vacation-seasons.ts). C'est le palier haut, partagé dans cette série avec Lyon, Bordeaux, Nantes, Rennes, Strasbourg et Toulouse. Il s'agit d'un modèle croisant type de destination et saison : Saint-Raphaël y hérite du palier haut parce qu'elle est lue comme une destination littorale méditerranéenne, ce qui est exact. Côté climat, la station de référence retenue est Nice-Côte d'Azur, à 44 kilomètres (source : lib/climate-normals.ts) ; elle donne 24,1 °C de moyenne en juillet pour 2 jours de pluie, et 9,5 °C en janvier. Les ancres propres à la ville portent 10 °C en janvier, la plus douce du lot, et 27 °C en juillet (source : data/cities-seed.ts). La fenêtre à viser pour un parent seul est donc mai, juin avant le 20, et la seconde quinzaine de septembre, où l'eau est encore chaude et où les prix ont baissé."
+      },
+      {
+        heading: "La baignade : une signalétique réglementaire, et elle fait foi",
+        body: "C'est le point de sécurité de ce guide, et il ne se délègue pas. Sur une plage surveillée, la signalétique verte, jaune et rouge est réglementaire et elle s'impose : elle décrit l'état de la mer et le niveau de surveillance à l'instant où on la lit, pas la météo de la journée. Hors des zones et des horaires de surveillance, personne ne regarde l'eau, et c'est exactement la configuration la plus délicate pour un adulte seul avec plusieurs enfants, puisqu'on ne peut pas suivre deux nageurs à la fois. Les criques de l'Estérel sont belles et pour la plupart non surveillées : elles se traitent comme des lieux de promenade et de pique-nique, pas comme des piscines. Les arrêtés municipaux et préfectoraux peuvent par ailleurs fermer une plage pour des raisons sanitaires ou de sécurité ; ils s'affichent sur place et font foi, quoi qu'en dise n'importe quel guide, celui-ci compris."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont revus régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Sur une destination littorale chère, c'est le levier qui change le plus la note finale, et il se déclenche des mois à l'avance. VACAF, sur vacaf.org, conventionne des structures d'accueil, dont des villages et des campings du littoral, et déduit son aide de la facture : cela suppose de choisir un établissement agréé et de le vérifier avant, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés largement en hébergement de plein air et en billetterie de loisirs. Les bons vacances de la caisse d'allocations familiales du Var se demandent sur caf.fr, rubrique vacances. Le comité social et économique de l'employeur négocie souvent des séjours entiers sur ce type de destination. Tous se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["saint-raphael", "frejus", "cannes", "draguignan"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-saint-raphael-2026",
+      "vacances-monoparentales-aix-en-provence-2026",
+      "vacances-monoparentales-la-rochelle-2026",
+      "vacances-monoparentales-vannes-2026"
+    ],
+    tags: ["vacances monoparentales Saint-Raphaël", "parent solo Var", "plage sans voiture", "baignade surveillée enfants", "hors saison Côte d'Azur"]
+  },
+  {
+    slug: "vacances-monoparentales-metz-2026",
+    title: "Vacances monoparentales à Metz en 2026",
+    metaTitle: "Vacances monoparentales à Metz 2026",
+    metaDesc:
+      "Metz en parent solo : la sortie sud de la gare donne sur le parvis du Centre Pompidou. Zéro correspondance avec les bagages, et un T3 de référence à 910 €.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-09-02",
+    updatedAt: "2026-09-02",
+    intro:
+      "Metz sort à 6,0/10 au composite « famille monoparentale », septième de cette sélection, sur sécurité 5,3/10, transports 6,7/10, coût de la vie 6,2/10 et qualité de vie 5,9/10 (source : data/cities-seed.ts). C'est le dernier rang du lot, et il faut dire pourquoi avant de dire ce qui rachète : la qualité de vie à 5,9 est la plus basse des vingt-deux destinations de la série, à égalité avec Poitiers, et la nature à 4,8 est la plus basse du lot. Ce qui rachète tient en une phrase et en un détail d'architecture : la sortie sud de la gare de Metz-Ville donne sur le parvis du Centre Pompidou-Metz. Pour un adulte qui voyage seul avec des enfants et des bagages, cette absence de correspondance vaut plusieurs points de confort.",
+    sections: [
+      {
+        heading: "Descendre du train et être arrivé : la gare et le Centre Pompidou",
+        body: "Le Centre Pompidou-Metz a été construit dans le quartier de l'Amphithéâtre, immédiatement au sud de la gare, et la sortie sud de celle-ci débouche sur son parvis. Il n'y a donc ni bus à trouver, ni tram à comprendre, ni taxi à négocier entre l'arrivée du train et la première activité du séjour. Quand on voyage seul avec des enfants, ce genre de configuration ne se remplace pas : la première heure après l'arrivée est celle où tout le monde est fatigué, où les bagages pèsent, et où une correspondance ratée décide de l'humeur du reste de la journée. La gare elle-même, monumentale, vaut d'ailleurs le coup d'œil avant de sortir. Metz est signalée desservie par le TGV et dotée de bus à haut niveau de service (source : lib/transit.ts), sans tramway, pour un axe transports à 6,7/10 (source : data/cities-seed.ts), au quatrième rang de ce lot derrière Toulouse à 7,5 et le duo Mâcon-Saint-Raphaël à 7,0."
+      },
+      {
+        heading: "Culture 7,3/10 : ce que Metz a et que le reste du lot n'a pas",
+        body: "Metz affiche 7,3/10 sur l'axe culture, troisième de ce lot derrière Aix-en-Provence à 8,4 et Toulouse à 8,0, et devant Mâcon à 6,9 puis Pau et Saint-Raphaël à 6,6 (source : data/cities-seed.ts). Dans une ville où la qualité de vie générale sort à 5,9, c'est la culture qui porte le séjour, et elle le porte bien. La cathédrale Saint-Étienne est le monument que les enfants regardent réellement, à cause de la lumière : ses verrières couvrent une surface considérable, ce qui lui a valu son surnom de lanterne du Bon Dieu, et une nef de cette hauteur produit son effet sans qu'on ait à expliquer quoi que ce soit. Le Centre Pompidou-Metz complète avec un format d'exposition qui tient mieux l'attention d'un enfant qu'un musée permanent. Deux temps forts en deux jours, à quelques centaines de mètres l'un de l'autre : c'est exactement le rythme qu'un adulte seul peut tenir."
+      },
+      {
+        heading: "Nature 4,8/10, le plus bas du lot, et ce que ça change",
+        body: "Metz sort à 4,8/10 sur l'axe nature, dernier de cette sélection derrière Toulouse et Poitiers à 5,0, et à égalité avec Nancy dans l'ensemble de la série (source : data/cities-seed.ts). Il faut le prendre au sérieux : ce n'est pas la destination où l'on vient chercher du grand air, et un séjour construit sur des journées en extérieur y sera contrarié plus souvent qu'ailleurs. Cela dit, la ville n'est pas minérale. Les jardins Jean-Marie Pelt, l'Esplanade, le parc de la Roseraie, le parc du Pas du Loup et le parc de Gloucester figurent parmi les espaces verts recensés sur la commune (source : data/city-parks.json), et l'Esplanade descend vers le plan d'eau, ce qui donne la promenade de fin d'après-midi. Notre relevé plafonne à quarante parcs par commune et Metz atteint ce plafond : le nombre est donc un plancher, pas un total."
+      },
+      {
+        heading: "Le prix : dans la moitié abordable, à 910 € le T3",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Metz sort à 6,2/10, à égalité avec Pau dans ce lot, derrière Mâcon et Poitiers à 6,6 (source : data/cities-seed.ts). Le marché résidentiel confirme : 910 € le T3 de référence et 2 300 € le mètre carré à l'achat (source : data/housing.ts), soit le troisième prix le plus bas de la sélection. Metz est classée €€€ sur notre échelle de budget de séjour (source : lib/vacation-fit.ts). Ce sont des repères de marché local et non des tarifs de vacances, mais l'ordre qu'ils donnent est fiable, et l'écart avec Aix-en-Provence dans ce même lot est de 490 € sur le T3 et de 2 700 € sur le mètre carré. Pour un foyer à un seul revenu qui cherche une ville d'art sans le prix d'une ville d'art, c'est la proposition la plus cohérente des sept."
+      },
+      {
+        heading: "Quand y aller : huit mois à 1 sur 5, mais un hiver franc et pluvieux",
+        body: "Notre indicateur d'affluence place Metz à 1 sur 5 pendant huit mois, 2 en juin et en septembre, et 3 en juillet et en août (source : lib/vacation-seasons.ts) : le régime le plus calme de notre échelle, celui de Pau, Poitiers et Aix-en-Provence dans ce lot. C'est un modèle croisant type de destination et saison, pas un comptage. Le climat, lui, commande davantage. Les ancres propres à la ville donnent 2,7 °C de moyenne en janvier et 21,2 °C en juillet (source : data/cities-seed.ts) : c'est l'hiver le plus froid de cette sélection et l'été le moins chaud. Le tableau mensuel ajoute 9 à 12 jours de pluie par mois sur la totalité de l'année, sans mois réellement sec. Une réserve d'honnêteté : la station de référence retenue par notre moteur est Strasbourg-Entzheim, à 125 kilomètres (source : lib/climate-normals.ts), donc le détail mensuel affiché pour Metz est en réalité alsacien, et il se lit comme une tendance."
+      },
+      {
+        heading: "Sécurité 5,3/10 et logistique du soir",
+        body: "Metz affiche 5,3/10 sur l'axe sécurité, sixième de ce lot devant Toulouse à 4,3 et derrière Mâcon à 5,5 (source : data/cities-seed.ts). C'est un indicateur communal agrégé : il décrit une commune entière, ni un quartier ni une heure de la journée, et il ne porte aucun jugement sur ses habitants. En usage, il décrit une ville moyenne, 121 695 habitants au recensement de 2022 (source : data/city-population.json), dont le centre se pratique le soir sans réserve particulière pour un adulte seul avec des enfants. Deux points de logistique. Un, en hiver la nuit tombe tôt et les journées utiles sont courtes : un programme de deux activités par jour, pas trois, et de l'intérieur en réserve. Deux, pour un besoin médical, le 15 en urgence vitale et le 116 117 pour un conseil le soir et le week-end ; l'annuaire santé d'ameli.fr permet de repérer un cabinet avant le départ plutôt que dans l'urgence."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont revus régulièrement et dépendent du quotient familial, donc les citer dans un guide revient à publier un chiffre faux à moyen terme. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés largement en billetterie culturelle et dans une partie de l'hébergement, ce qui tombe bien sur une destination dont le programme est essentiellement muséal. Les bons vacances de la caisse d'allocations familiales de la Moselle se demandent sur caf.fr, rubrique vacances, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie sur des équipements nommés. Tous se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["metz", "nancy", "thionville", "verdun"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026",
+      "10-choses-a-faire-a-metz-2026",
+      "parent-solo-a-metz-2026",
+      "vivre-a-metz-2026",
+      "vacances-monoparentales-nancy-2026"
+    ],
+    tags: ["vacances monoparentales Metz", "parent solo Moselle", "Centre Pompidou-Metz famille", "vacances sans voiture", "hors saison Lorraine"]
+  },
+  {
     slug: "parent-solo-a-valence-2026",
     title: "Parent solo à Valence en 2026 : 2 750 € net, et le meilleur transport du lot après Pessac",
     metaTitle: "Parent solo à Valence 2026 — T3 900 €, fit 6,4/10",
