@@ -18,6 +18,7 @@ import {
 import { MONTHS, formatMonthLabel, type MonthIndex } from "@/lib/vacation-seasons";
 import { crossingSlug } from "@/lib/vacation-crossing";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 import { MapPin } from "lucide-react";
 import { MonoparentalExtras } from "./MonoparentalExtras";
 import { CelibataireExtras } from "./CelibataireExtras";
@@ -49,7 +50,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description: def.metaDesc,
-    alternates: { canonical: `/vacances/profil/${profil}` },
+    // ⚠️ La jumelle EN sert **les slugs FR** (`/vacations/profile/monoparental`,
+    // `…/celibataire`) : les deux `generateStaticParams` dérivent du même
+    // `VACATION_PROFILES`, donc le segment est identique des deux côtés. Ne pas
+    // le traduire ici en `single-parent` / `singles` — ces formes-là sont
+    // celles du croisement mois × profil (`EN_PROFILE_SLUG`), route neuve et
+    // distincte ; les employer ici annoncerait un 404.
+    alternates: pathAlternates(
+      `/vacances/profil/${profil}`,
+      `/vacations/profile/${profil}`,
+    ),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

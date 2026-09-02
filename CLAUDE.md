@@ -164,6 +164,19 @@ Distribution mean ≈ 5.46. Penalties:
   **not** shared across locales (`sante` ↔ `healthcare`): never derive the EN
   URL by translating the head segment alone — a hreflang pointing at a 404 is
   worse than none.
+  Hors sous-pages ville, la paire s'écrit **à la main** avec
+  `pathAlternates(frPath, enPath)` / `pathAlternatesEn(...)` — c'est la seule
+  façon de déclarer une paire dont la **queue** est traduite
+  (`/vacances/mois/février` ↔ `/vacations/month/february`). Depuis le
+  2026-09-02, `npm run hreflang:check` relit aussi ces **195 appels** : les deux
+  chemins doivent correspondre à une route réelle (littéral face à littéral,
+  dynamique face à dynamique), le canonical doit être celui de la page qui
+  l'émet, et la variante FR ne doit pas être appelée depuis une page EN.
+  ⚠️ **Un `npm run parity` vert ne prouve pas qu'une URL existe** : son
+  `coveredByDynamic` accepte n'importe quelle route EN dynamique de même
+  profondeur, donc `/vacations/quiz` y passe pour couvert par
+  `/vacations/[city]` alors que c'est un 404. Vérifier sur le
+  `generateStaticParams` d'en face, jamais sur la ressemblance des slugs.
 - **`openGraph` has the exact same trap as `alternates`** (found 2026-08-03):
   a page-level `openGraph` object **replaces the inherited one wholesale**, so
   declaring `openGraph: { title, description }` without `images` doesn't fall

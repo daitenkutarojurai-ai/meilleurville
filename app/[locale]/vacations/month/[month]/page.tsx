@@ -9,6 +9,7 @@ import { Badge } from "@/components/ui/Badge";
 import { BookingCTA } from "@/components/BookingCTA";
 import { CITIES_COUNT } from "@/lib/site-stats";
 import {
+  indexToMonthSlug,
   monthSignal,
   type MonthIndex,
 } from "@/lib/vacation-seasons";
@@ -25,7 +26,7 @@ import {
 import { enCrossingSlug } from "@/lib/vacation-crossing";
 import { EN_PROFILE_LABEL, enWhyLine } from "@/lib/vacation-en";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
 import {
   MapPin,
   ChevronRight,
@@ -165,7 +166,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Best places to visit in France in ${label} 2026 · top destinations`,
     description: `Top French destinations in ${label}: climate, crowds, activities. ${CITIES_COUNT} cities ranked by fit score. ${MONTH_ANGLES[idx].hook.slice(0, 70)}…`,
-    alternates: { canonical: `${EN_BASE}/vacations/month/${month}` },
+    // Réciproque du hreflang déclaré par /vacances/mois/[mois]. Le slug FR est
+    // accentué (`février`, `août`, `décembre`) et le sitemap FR l'émet tel
+    // quel : on reprend `indexToMonthSlug` plutôt qu'une translittération, une
+    // URL devinée valant moins que pas de hreflang du tout.
+    alternates: pathAlternatesEn(
+      `/vacances/mois/${indexToMonthSlug(idx)}`,
+      `/vacations/month/${month}`,
+    ),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

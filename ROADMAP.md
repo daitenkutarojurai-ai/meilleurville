@@ -3989,6 +3989,80 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ---
 
+## Shipped 2026-09-02
+
+- **hreflang sur la famille vacances — 1 138 pages, et un garde-fou pour les 195 paires écrites à
+  la main.** Suite directe du chantier ouvert le 2026-08-02, qui avait rétabli le hreflang sur les
+  ~42 000 sous-pages ville et laissé une liste de familles à traiter « une par run » :
+  `vacances`/`vacations`, `red-flags`, les calculateurs, `gentrification`, `pour-qui`/`for-who`.
+  Les quatre dernières ont été faites depuis (vérifié ce run : leurs hubs appellent
+  `pathAlternates`) ; **`vacances` restait à moitié faite** — le hub, `region` et le croisement
+  `ou-partir`/`where-to-go` déclaraient leur paire, les quatre familles de fond, non.
+  - **Ce qui gagne un hreflang** : `/vacances/[ville]` ↔ `/vacations/[city]` (540 paires, les deux
+    `generateStaticParams` bouclent sur `CITIES_SEED`), `/vacances/mois/[mois]` ↔
+    `/vacations/month/[month]` (12), `/vacances/profil/[profil]` ↔ `/vacations/profile/[profile]`
+    (7), `/vacances/activite/[activite]` ↔ `/vacations/activity/[activity]` (10). Soit **569 pages
+    FR et 569 EN**. Chaque équivalence a été vérifiée sur les `generateStaticParams` réels des deux
+    côtés, jamais sur la ressemblance des slugs.
+  - **Pourquoi ça comptait ici plus qu'ailleurs** : ces pages sont le **même moteur, les mêmes
+    chiffres, sur deux domaines** (`topCitiesForMonth`, `topCitiesForProfile`,
+    `topCitiesForActivity`, `bestMonthsFor`). Sans hreflang, ce sont des quasi-doublons
+    inter-domaines que rien ne relie ; c'est exactement le cas que la balise existe pour traiter.
+  - **Le mois est le seul cas où le slug se traduit**, et le piège est le même qu'en août :
+    `hreflangLanguages` ne traduit que la **tête** de route, elle aurait annoncé
+    `/vacations/month/février`, un 404. Le passage se fait donc par l'index du mois, via
+    `EN_MONTH_SLUG` (`lib/vacation-crossing`) côté FR et `indexToMonthSlug` côté EN — deux tables
+    déjà en place, aucune n'a été créée pour l'occasion. Réciprocité vérifiée sur les 12 : le
+    slug FR → slug EN → slug FR revient à l'identique, `février` ↔ `february`, `août` ↔ `august`.
+    Le slug FR reste **accentué** dans le hreflang, comme dans le canonical et dans le sitemap.
+  - ⚠️ **`/vacations/profile/[profile]` sert les slugs FR** (`monoparental`, `celibataire`) sur le
+    domaine anglais : les deux routes dérivent du même `VACATION_PROFILES`, donc le segment est
+    identique des deux côtés. Ne pas le « traduire » en `single-parent` / `singles` — ces
+    formes-là sont celles du croisement mois × profil (`EN_PROFILE_SLUG`), une route distincte, et
+    les employer ici annoncerait un 404. Le commentaire est posé dans les deux pages.
+  - ⚠️ **`/vacances/quiz` n'a pas de jumelle EN et n'en déclare donc pas.** C'est la seule
+    exception de la famille, et elle est piégeuse : **`npm run parity` la donne pour couverte**,
+    parce que son `coveredByDynamic` accepte n'importe quelle route EN dynamique de même
+    profondeur — ici `/vacations/[city]`. Un rapport de parité vert ne prouve donc pas qu'une URL
+    existe. Le commentaire est dans le fichier pour qu'un run futur ne « corrige » pas l'absence.
+  - **Le garde-fou, et pourquoi il ne pouvait pas être une règle de type.** Les sous-pages ville
+    passent par `cityAlternates*`, qui dérive la jumelle d'une table contrôlée depuis août. Partout
+    ailleurs, les deux chemins sont **écrits à la main** dans la page — seule façon de déclarer une
+    paire dont la queue est traduite — et rien ne les relit : une faute de frappe, un slug qui
+    n'existe pas de l'autre côté, un copier-coller qui laisse le chemin de la page voisine,
+    tout ça compile et part dans le `<head>`. `npm run hreflang:check` gagne donc une seconde
+    section : il extrait **les 195 appels à `pathAlternates` / `pathAlternatesEn`** des 385
+    `page.tsx`, normalise les `${…}` en segment dynamique et rapproche les deux chemins des deux
+    arbres de routes réels. Il vérifie aussi que le **canonical est celui de la page qui l'émet**
+    (1ᵉʳ argument pour `pathAlternates`, 2ᵉ pour `pathAlternatesEn`) et que la variante FR n'est pas
+    appelée depuis une page EN, ce qui publierait le canonical de l'autre locale.
+  - ⚠️ **La règle de correspondance est stricte, et l'assouplir casse le contrôle.** Première
+    version écrite avec la règle lâche de `check-parity.mjs` (un segment dynamique de la route
+    absorbe un segment littéral demandé) : elle **laissait passer `/vacations/quiz`**, absorbé par
+    `/vacations/[city]` — dont le `generateStaticParams` n'émet que les 540 slugs de ville et qui
+    porte `dynamicParams = false`. Le contrôle validait donc précisément le seul défaut qu'il
+    existe pour attraper. Désormais littéral face à littéral, dynamique face à dynamique. Coût
+    mesuré avant de trancher : **les 390 chemins des 195 paires tombent tous sur une
+    correspondance exacte**, aucun ne dépendait de la règle lâche. Une page statique dont la
+    jumelle serait servie par une route dynamique sera signalée — c'est voulu, seul l'auteur peut
+    savoir si le slug est bien dans le `generateStaticParams` d'en face.
+  - **Testé dans les quatre sens**, chaque fois en cassant volontairement une page puis en la
+    restaurant : cible EN inexistante → erreur ; canonical d'une page voisine → erreur ; variante
+    FR appelée depuis une page EN → erreur ; `/vacations/quiz` → erreur, code de sortie 1. État
+    propre : code 0.
+  - **Note pour le point à trancher ci-dessus** (`/vacations/*`, 211 impressions et 0 clic) :
+    déclarer le hreflang ne pousse rien à l'indexation, il désambiguïse deux versions linguistiques
+    d'une même page. Si la décision produit est un `noindex`, la balise part avec les pages ; rien
+    ici ne préjuge de cet arbitrage.
+  - **Contrôles** : `npx tsc --noEmit` propre, `npm run integrity` propre, `npm run hreflang:check`
+    (39 paires de sous-pages ville + 195 paires à la main), `npm run parity` en code 0,
+    `npm run search-index:check` propre, `npm run sitemap:check` propre dans les deux sens
+    (FR 29 123 URL, EN 28 710 — inchangés, aucune route n'est créée). Aucune URL canonique ne
+    bouge, aucune donnée, aucune copie. `npm run build` n'a pas été lancé, conformément à
+    CLAUDE.md § Commands.
+
+---
+
 ## Shipped 2026-09-01
 
 - **Série tourisme FR — batch 38 (+7 : Poissy, Rueil-Malmaison, Vernon, Dole, Soissons, Cambrai,

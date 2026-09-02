@@ -12,6 +12,13 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: "Quiz vacances en France 2026 · où partir selon votre profil",
   description: "5 questions, 3 destinations françaises adaptées : mois, activité, profil voyageur, budget, durée. Sélection data-driven, sans listicle d'agence.",
+  // ⚠️ Pas de hreflang ici, et c'est volontaire : **il n'existe pas de
+  // `/vacations/quiz`**. Le reste de la famille vacances déclare sa paire
+  // depuis le 2026-09-02, celle-ci est la seule exception. `npm run parity` ne
+  // le voit pas — une route EN dynamique de même profondeur (`/vacations/[city]`)
+  // la fait passer pour couverte, cf. `coveredByDynamic` — donc ne pas ajouter
+  // `pathAlternates` sur la foi d'un rapport de parité vert : ça annoncerait un
+  // 404 à Google. Le jour où la jumelle EN est écrite, la déclarer ici.
   alternates: { canonical: "/vacances/quiz" },
   openGraph: {
     title: "Quiz vacances",

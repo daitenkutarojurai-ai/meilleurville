@@ -19,7 +19,7 @@ import { enCrossingSlug } from "@/lib/vacation-crossing";
 import { EN_MONTH_SLUGS, EN_PROFILE_LABEL, enMonthLabel, enWhyLine } from "@/lib/vacation-en";
 import { type MonthIndex } from "@/lib/vacation-seasons";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
 import { MapPin } from "lucide-react";
 
 export const revalidate = false;
@@ -76,7 +76,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${enLabel} holidays in France 2026 · top destinations`,
     description: enDef.metaDesc,
-    alternates: { canonical: `${EN_BASE}/vacations/profile/${profile}` },
+    // Réciproque du hreflang de /vacances/profil/[profil]. Le segment est le
+    // même des deux côtés : cette route sert les slugs FR sur le domaine
+    // anglais, cf. le bandeau de `EN_PROFILE_SLUG` (lib/vacation-crossing).
+    alternates: pathAlternatesEn(
+      `/vacances/profil/${profile}`,
+      `/vacations/profile/${profile}`,
+    ),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

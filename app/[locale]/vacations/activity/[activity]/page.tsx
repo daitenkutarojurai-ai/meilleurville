@@ -22,7 +22,7 @@ import {
 } from "@/lib/vacation-fit";
 import { enWhyLine } from "@/lib/vacation-en";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
 import { MapPin, Calendar } from "lucide-react";
 
 export const revalidate = false;
@@ -107,7 +107,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${enDef.label} holidays in France 2026 · top destinations`,
     description: enDef.metaDesc,
-    alternates: { canonical: `${EN_BASE}/vacations/activity/${activity}` },
+    // Réciproque du hreflang de /vacances/activite/[activite] : même slug
+    // d'activité des deux côtés, seuls la tête et le sous-segment diffèrent.
+    alternates: pathAlternatesEn(
+      `/vacances/activite/${activity}`,
+      `/vacations/activity/${activity}`,
+    ),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

@@ -22,6 +22,7 @@ import {
   BUDGET_TIER_LABEL,
 } from "@/lib/vacation-fit";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 import { MapPin, Calendar } from "lucide-react";
 
 // Canonical FR origin is the www host (worker/index.ts 301s the apex to it).
@@ -44,7 +45,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Vacances ${def.label.toLowerCase()} en France 2026 · top destinations`,
     description: def.metaDesc,
-    alternates: { canonical: `/vacances/activite/${activite}` },
+    // Les deux routes dérivent leur `generateStaticParams` du même `ACTIVITIES`
+    // (lib/vacation-activities) : le slug est identique des deux côtés, seule
+    // la tête et le sous-segment changent (`activite` → `activity`). C'est
+    // exactement ce que `hreflangLanguages` ne sait pas faire — elle ne
+    // traduit que la tête — d'où les deux chemins explicites.
+    alternates: pathAlternates(
+      `/vacances/activite/${activite}`,
+      `/vacations/activity/${activite}`,
+    ),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

@@ -28,6 +28,7 @@ import {
 } from "@/lib/vacation-fit";
 import { nearestStation, distanceToNearestKm } from "@/lib/climate-normals";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 import { MapPin, ChevronRight, Thermometer, CloudRain, Sun, Users, Calendar } from "lucide-react";
 
 export const revalidate = false;
@@ -48,7 +49,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Vacances à ${city.name} 2026 · quand y aller, quoi y faire`,
     description: `Quand partir à ${city.name} (${city.department}) : meilleurs mois ${months}. Climat, affluence, activités où la ville excelle.`,
-    alternates: { canonical: `/vacances/${city.slug}` },
+    // Les deux routes bouclent sur `CITIES_SEED` : mêmes 540 slugs des deux
+    // côtés, seule la tête change (`vacances` → `vacations`). La tête est bien
+    // dans `FR_TO_EN_SEGMENT`, mais `hreflangLanguages` ne s'applique qu'aux
+    // familles dont elle sait traduire la queue ; on donne donc les deux
+    // chemins, comme le reste de la famille vacances.
+    alternates: pathAlternates(
+      `/vacances/${city.slug}`,
+      `/vacations/${city.slug}`,
+    ),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

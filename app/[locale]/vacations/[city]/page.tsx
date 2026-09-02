@@ -24,7 +24,7 @@ import {
 } from "@/lib/vacation-fit";
 import { nearestStation, distanceToNearestKm } from "@/lib/climate-normals";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
 import {
   MapPin,
   ChevronRight,
@@ -107,7 +107,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Holidays in ${city.name} 2026 · when to go, what to do`,
     description: `When to visit ${city.name} (${city.department}): best months ${months}. Climate, crowds, activities where the city excels. Holiday fit score + hotels.`,
-    alternates: { canonical: `${EN_BASE}/vacations/${city.slug}` },
+    // Réciproque du hreflang de /vacances/[ville] : même slug de ville des
+    // deux côtés, les deux routes dérivant de `CITIES_SEED`.
+    alternates: pathAlternatesEn(
+      `/vacances/${city.slug}`,
+      `/vacations/${city.slug}`,
+    ),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

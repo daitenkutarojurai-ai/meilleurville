@@ -25,8 +25,9 @@ import {
   VACATION_PROFILES,
   VACATION_PROFILE_DEFS,
 } from "@/lib/vacation-fit";
-import { crossingSlug } from "@/lib/vacation-crossing";
+import { crossingSlug, EN_MONTH_SLUG } from "@/lib/vacation-crossing";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { pathAlternates } from "@/lib/i18n";
 import {
   MapPin,
   ChevronRight,
@@ -124,7 +125,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Où partir en France en ${label.toLowerCase()} 2026 · meilleures destinations`,
     description: `Le top des destinations françaises en ${label.toLowerCase()} : climat, affluence, activités. ${CITIES_COUNT} villes classées par score d'adéquation au mois. ${MONTH_ANGLES[idx].hook.slice(0, 60)}…`,
-    alternates: { canonical: `/vacances/mois/${mois}` },
+    // La jumelle EN existe (/vacations/month/…) mais son slug n'est pas
+    // dérivable du FR (`février` ↔ `february`) : `hreflangLanguages` ne
+    // traduit que la tête et annoncerait `/vacations/month/février`, un 404.
+    // Les deux chemins sont donc donnés explicitement, le passage de l'un à
+    // l'autre se faisant par l'index du mois — `EN_MONTH_SLUG` est la table
+    // qui pilote déjà les slugs EN du croisement mois × profil.
+    alternates: pathAlternates(
+      `/vacances/mois/${mois}`,
+      `/vacations/month/${EN_MONTH_SLUG[idx - 1]}`,
+    ),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
