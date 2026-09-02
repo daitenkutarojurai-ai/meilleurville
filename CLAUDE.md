@@ -1323,7 +1323,49 @@ les montants réglementaires seulement, et rien qui ne soit sourçable.
 Une fiche par pays de départ, données inline (`EXPAT_COUNTRIES`), rendues par
 `app/expat-retour/[pays]/page.tsx` (URL `/expat-retour/depuis-<slug>`). Ajouter une entrée au
 tableau suffit : `generateStaticParams`, le hub et le sitemap en dérivent tous les trois.
-**Compteur mesuré (`grep -c '^    slug: "'`) : 21 pays** (2026-08-26). Dernier ajouté : **Brésil** — la
+**Compteur mesuré (`grep -c '^    slug: "'`) : 22 pays** (2026-09-02). Dernier ajouté : **Thaïlande** — la
+première fiche dont le fil conducteur n'est ni l'argent ni la fiscalité mais **la santé** : on rentre de
+Thaïlande le plus souvent pour se faire soigner, et c'est exactement là que le dossier est le plus mal
+armé. **Il n'existe aucune convention de sécurité sociale France-Thaïlande** (vérifié ce run) : ni
+totalisation, ni portabilité, ni S1 — les années thaïlandaises valent **zéro trimestre** hors cotisation
+volontaire à la CFE, et un rentrant sans emploi retombe sur la PUMa de droit commun (3 mois de résidence
++ 2-3 mois d'instruction). C'est le même trou qu'au dossier chinois, mais le rentrant type n'est pas le
+même : le cadre de Shanghai a un contrat français qui l'attend, le retraité de Hua Hin a un diagnostic.
+⚠️ **Quatre réflexes faux, corrigés par vérification avant rédaction.** ① **Le permis thaïlandais ne
+s'échange pas** : la France échange ceux de la Chine, du Japon, de la Corée du Sud, du Vietnam et des
+Philippines, pas ceux de la Thaïlande, faute d'accord de réciprocité — l'analogie « c'est l'Asie, comme
+la Chine » est fausse, et c'est l'exact inverse du dossier chinois où l'échange marche. ② **Le
+remboursement des cotisations SSO ne se demande pas depuis la France** : dépôt en personne au bureau du
+SSO, part **salariale seulement** (celle de l'employeur est perdue), virement **uniquement sur un compte
+bancaire thaïlandais**, 2 à 4 mois de délai, demande recevable 2 ans après le départ — fermer son compte
+avant de partir revient à renoncer à l'argent. ③ **Il n'y a pas de matelas à rapatrier** : l'assiette de
+cotisation est plafonnée (5 % sur 15 000 THB/mois jusqu'en 2025, **17 500 THB au 1ᵉʳ janvier 2026**, soit
+**875 THB/mois** de chaque côté, une vingtaine d'euros) — un cadre bien payé a cotisé le même montant
+qu'un employé au plafond, à l'inverse d'un compte individuel chinois ou d'un FGTS brésilien. ④ **La
+pension française n'est pas imposable en Thaïlande**, mais l'écart entre le texte français de la
+convention du **27 décembre 1974** et sa version anglaise traduite du thaï a exposé ~**1 500** pensionnés
+à un risque de double imposition après la réinterprétation du 1ᵉʳ janvier 2024, avant que l'administration
+thaïlandaise ne confirme l'exemption. Autres faits vérifiés : décrets **Por 161 / Por 162** (tout revenu
+étranger rapatrié est imposable quelle que soit l'année d'acquisition, **sauf** les revenus acquis avant
+le 01/01/2024, définitivement à l'abri), résidence fiscale à **180 jours**, déclaration avant le **31
+mars**, barème 0-35 % avec 150 000 THB exonérés ; **quota de 49 %** de la surface des lots pour la pleine
+propriété d'un appartement, **terrain non détenable** par un étranger, bail typique de 30 ans, et
+**formulaire FET (ex-Tor Tor 3)** exigé pour rapatrier le produit d'une revente ; visa retraite à
+**65 000 THB/mois** de revenu ou **800 000 THB** de dépôt, assurance O-A obligatoire depuis 2019
+(40 000 THB ambulatoire / 400 000 THB hospitalisation) ; exonération LTR « Wealthy Pensioner » qui **tombe
+avec le visa** ; année scolaire thaïlandaise de la mi-mai à début mars, **LFIB** (1957, réseau AEFE) au
+calendrier français ; EUR/THB moyen **38,29** en août 2026 (38,10-38,55 dans le mois).
+Le choix des 10 `bestSuitedCities` n'est pas éditorial : il sort d'un `npx tsx` de scratch croisant
+`avgTempJanuary`, `sunshinedays`, `HOUSING` et `computeHealthcareAccess()` sur les 540 villes. Il donne
+le résultat qui structure la fiche : **la communauté française de Thaïlande est littorale et retraitée**
+(15 838 inscrits au registre en octobre 2025, +4,05 % sur un an, communauté réelle estimée > 40 000 ;
+Bangkok 7 351 mais Pattaya 1 965, Phuket 1 905, Samui 1 323, Chiang Mai 1 200, Isan 1 034, Hua Hin 800),
+donc **le retour atterrit sur la Méditerranée bien plus que sur l'Île-de-France**. Les 20 chiffres français
+viennent de `data/housing.ts` et les scores cités sont lus dans `CITIES_SEED` via le module, pas dans le
+seed source. Aucune page EN : `thailande` n'est pas dans `EN_EXPAT_COUNTRY_SLUGS`, donc pas de hreflang à
+câbler (`parity` et `hreflang:check` repassés, verts). `sitemap:check` : FR 29 123 → **29 124 URL**, soit
+exactement la fiche neuve.
+Avant-dernier ajouté : **Brésil** — la
 première fiche d'Amérique latine, région qui n'avait aucun pays sur les vingt précédents. Le fil
 conducteur est que **la sortie fiscale brésilienne est un dépôt, pas un départ** : sans la
 *Comunicação de Saída Definitiva do País* (à déposer de la date de départ jusqu'au **dernier jour de
@@ -1366,7 +1408,7 @@ descend **en prop depuis la page serveur** `app/expat-retour/quiz`, comme `CITIE
 côté — donc rien à maintenir en double, une fiche ajoutée apparaît dans le quiz sans autre geste. Le
 composant n'importe plus que des **types**, effacés à la compilation. Mesuré : 280 441 → 88 484 o
 minifiés, 74 991 → 22 867 o gzip. **Ne pas réintroduire un import en valeur ici.**
-Avant-dernier ajouté : **Chine** —
+Ajouté avant eux : **Chine** —
 le seul dossier du site où la difficulté n'est ni fiscale ni culturelle mais **mécanique** : faire
 sortir ses droits et son argent. Trois points vérifiés en ligne, et qui portent la fiche : ① **aucune
 convention de sécurité sociale n'est en vigueur** entre la France et la Chine — signée le 31/10/2016,
@@ -1397,7 +1439,8 @@ dans `EN_EXPAT_COUNTRY_SLUGS`, donc pas de hreflang à câbler.
 ⚠️ La **meta description** de `app/expat-retour/[pays]/page.tsx` dépassait 160 caractères sur **les 20
 fiches d'alors** (jusqu'à 176 pour « Émirats arabes unis ») : la queue générique « Avec villes recommandées
 (frontalières + métropoles). » poussait hors du snippet les postes réellement cherchés. Réécrite,
-138-152 caractères sur les 20, 139 pour la fiche Brésil ajoutée depuis — ne pas y remettre de queue générique.
+138-152 caractères sur les 20, 139 pour la fiche Brésil et 142 pour la fiche Thaïlande ajoutées depuis — ne
+pas y remettre de queue générique.
 Ajouté avant lui : **Suède** —
 premier pays nordique de la liste, et le seul dossier du site où **le retour est fiscalement
 neutre** (kommunalskatt à taux plat ~29-35 % + 20 % d'État au-delà d'environ 600-625 k SEK, à peu
