@@ -2315,6 +2315,29 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
     lien de fiche n'est affiché. Pour le rebrancher un jour, la BD TOPO porte le code MNHN dans
     `identifiants_sources`.
 
+  - **État au 2026-09-03 — deux zéros silencieux, trouvés en recomptant les champs que personne
+    n'avait jamais relus.** Aucune collecte (les trois JSON sont pleins), et le collecteur GBIF
+    n'avait plus rien à faire depuis le 08/08 : `crawlBatch` ne servait que les villes **absentes**
+    du JSON. ① **`groups.reptiles` valait 0 sur les 540 villes et dans les deux locales** — le
+    pipeline interrogeait `taxonKey: 358` (Reptilia), que la dorsale GBIF n'utilise pas ; **notre
+    propre corpus le prouve**, ses fiches espèces portent `class: "Squamata"` / `"Testudines"` et
+    jamais `"Reptilia"`. Le graphe filtrait `count > 0`, donc la ligne **disparaissait** : Longwy
+    listait le lézard des murailles (1 203 obs.) au-dessus d'un graphe sans reptiles, comme
+    Saint-Joseph (gecko de Manapany) et Saint-Paul (tortue franche). ② **`vernacularEn` valait `null`
+    sur 6 480 entrées sur 6 480** (FR : 6 001) — le nom anglais était lu dans `vernacularName` de
+    `/species/{key}`, jamais peuplé, alors que le nom français sortait de la liste
+    `/vernacularNames` **déjà téléchargée dans la même fonction**. Les 540 pages EN listaient donc
+    des noms latins. Livré : reptiles **résolus par nom** (`Squamata`/`Testudines`/`Crocodylia`, un
+    nom qui ne résout plus **lève** au lieu de vider son seau), `QUERY_VERSION = 3` **et un
+    `crawlBatch` qui sert enfin les lignes périmées** (il ne le faisait pas — le piège du 18/08 côté
+    BODACC), `npm run biodiversity:vernacular` qui comble le trou en ~412 requêtes au lieu d'un
+    recrawl de 7 h et ne remplit que des trous, `groupSpecies()` comme **seul** accès au compte d'un
+    groupe (`null` = non mesuré, lire `raw.groups[g]` fait revenir le zéro), la ligne « non mesuré /
+    not measured » affichée avec sa raison sur les deux sous-pages, une étape dans
+    `local-data-runner.sh`, et deux garde-fous : `biodiversity:stats` **crie** quand un groupe vaut 0
+    partout, `biodiversity:selftest` passe de 23 à 43 contrôles. ⚠️ Les deux corrections ne se voient
+    qu'après un passage du collecteur local — à cette heure la donnée porte encore les deux zéros,
+    mais les pages ne les présentent plus comme des mesures.
   - **État au 2026-08-31 — le rang d'espaces verts est retiré à son tour ; il ne reste qu'une note.**
     Aucune collecte (les trois JSON sont pleins). La composante **espaces verts** publiait un /10 sur
     529 villes depuis le 06/08 **sans avoir jamais été contrôlée** : elle ne tient pas. Le mécanisme

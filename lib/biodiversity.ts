@@ -149,8 +149,14 @@ export interface CityBiodiversityRaw {
    *  encadrable. Voir `rarefy()` dans scripts/city-biodiversity.mjs. */
   rarefiedExact: boolean;
   rarefiedUpper: number | null;
-  groups: Partial<Record<SpeciesGroup, number>>;
+  /** Espèces distinctes par grand groupe. `null` = **non mesuré** : le taxon
+   *  n'a pas été résolu, ce n'est pas un zéro. Lire par `groupSpecies()`, qui
+   *  écarte en plus les comptes rendus faux par une version de requête périmée. */
+  groups: Partial<Record<SpeciesGroup, number | null>>;
   groupsTruncated: SpeciesGroup[];
+  /** Groupes dont le taxon n'a pas pu être résolu au crawl. Absent des lignes
+   *  écrites avant le 2026-09-03. */
+  groupsUnresolved?: SpeciesGroup[];
   /** Espèces classées VU / EN / CR sur la liste rouge **mondiale** UICN. Ce
    *  n'est pas la liste rouge nationale française : les statuts nationaux
    *  viennent de l'INPN, dans une phase ultérieure. */
@@ -191,6 +197,52 @@ export const MIN_OBSERVERS = 20;
  *  une ligne v1 n'est pas comparable à une ligne v2 et ne doit pas entrer dans
  *  le barème. Corrigé le 2026-08-02. */
 export const MIN_QUERY_VERSION = 2;
+
+/**
+ * Version de requête à partir de laquelle le compte d'un grand groupe veut dire
+ * quelque chose. Un groupe absent de la table est bon depuis toujours.
+ *
+ * ⚠️ `reptiles` a valu **0 sur les 540 villes et dans les deux locales** de la
+ * fin du crawl au 2026-09-03 : le pipeline interrogeait `taxonKey 358`
+ * (Reptilia), que la dorsale GBIF n'utilise pas — elle range les reptiles sous
+ * `Squamata`, `Testudines` et `Crocodylia`, ce que **notre propre corpus
+ * prouve**, les fiches espèces qu'il stocke ne portant jamais la classe
+ * Reptilia. Les pages ne masquaient pas le défaut, elles l'aggravaient : le
+ * graphe par groupe filtre `count > 0`, donc la ligne disparaissait purement et
+ * simplement, et trois villes se contredisaient à l'écran — Longwy listait le
+ * lézard des murailles (1 203 observations) parmi ses espèces les plus
+ * observées au-dessus d'un graphe sans reptiles, comme Saint-Joseph avec le
+ * gecko de Manapany et Saint-Paul avec la tortue franche.
+ *
+ * Un zéro faux ne se corrige pas à l'affichage : tant que la ligne n'a pas été
+ * rejouée en v3, le compte est **inconnu**, et c'est ce que la page doit dire.
+ */
+export const GROUP_MIN_QUERY_VERSION: Partial<Record<SpeciesGroup, number>> = {
+  reptiles: 3,
+};
+
+/**
+ * Espèces distinctes d'un grand groupe, ou `null` quand le chiffre n'est pas
+ * une mesure : taxon non résolu au crawl, ou ligne écrite par une version de
+ * requête dont on sait qu'elle se trompait sur ce groupe.
+ *
+ * **Toute surface passe par ici** — lire `raw.groups[g]` directement fait
+ * réapparaître le zéro.
+ */
+export function groupSpecies(
+  row: CityBiodiversityRaw,
+  group: SpeciesGroup,
+): number | null {
+  if (row.queryVersion < (GROUP_MIN_QUERY_VERSION[group] ?? 0)) return null;
+  if (row.groupsUnresolved?.includes(group)) return null;
+  return row.groups[group] ?? null;
+}
+
+/** Groupes dont le compte n'est pas publiable pour cette ligne, dans l'ordre
+ *  d'affichage — ce que la page doit annoncer comme « non mesuré ». */
+export function unmeasuredGroups(row: CityBiodiversityRaw): SpeciesGroup[] {
+  return GROUP_ORDER.filter((g) => groupSpecies(row, g) === null);
+}
 
 /** Largeur d'intervalle tolérée quand la raréfaction est encadrée plutôt
  *  qu'exacte, en part de la borne inférieure.

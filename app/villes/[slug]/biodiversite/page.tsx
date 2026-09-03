@@ -28,6 +28,8 @@ import {
   groupLabel,
   speciesName,
   GROUP_ORDER,
+  groupSpecies,
+  unmeasuredGroups,
   MIN_OCCURRENCES,
   MIN_OBSERVERS,
   PROTECTION_KIND_COUNT,
@@ -343,10 +345,15 @@ export default async function BiodiversitePage({ params }: Props) {
           : "les espaces verts, pas encore relevés pour cette commune",
     );
 
-  const groups = GROUP_ORDER.map((g) => ({ id: g, count: raw.groups[g] ?? 0 })).filter(
-    (g) => g.count > 0,
+  // `groupSpecies()` et jamais `raw.groups[g]` : un groupe non mesuré vaut
+  // `null` et doit s'afficher comme tel. Le filtre `count > 0` d'avant faisait
+  // disparaître la ligne reptiles, qui valait 0 par un bug de requête — sur
+  // trois villes le graphe contredisait la liste d'espèces juste en dessous.
+  const groups = GROUP_ORDER.map((g) => ({ id: g, count: groupSpecies(raw, g) })).filter(
+    (g) => g.count === null || g.count > 0,
   );
-  const groupMax = Math.max(1, ...groups.map((g) => g.count));
+  const groupMax = Math.max(1, ...groups.map((g) => g.count ?? 0));
+  const unmeasured = unmeasuredGroups(raw);
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Accueil", path: "/" },
@@ -816,17 +823,42 @@ export default async function BiodiversitePage({ params }: Props) {
                     {groupLabel(g.id as SpeciesGroup)}
                   </div>
                   <div className="flex-1 h-5 rounded-md bg-[var(--border)] overflow-hidden">
-                    <div
-                      className="h-full rounded-md bg-emerald-500/70"
-                      style={{ width: `${Math.max(2, (g.count / groupMax) * 100)}%` }}
-                    />
+                    {g.count !== null && (
+                      <div
+                        className="h-full rounded-md bg-emerald-500/70"
+                        style={{ width: `${Math.max(2, (g.count / groupMax) * 100)}%` }}
+                      />
+                    )}
                   </div>
                   <div className="w-16 shrink-0 text-right text-sm font-mono-data text-[var(--text-primary)]">
-                    {g.count.toLocaleString("fr-FR")}
+                    {g.count === null ? (
+                      <span className="text-[11px] font-normal text-[var(--text-tertiary)]">
+                        non mesuré
+                      </span>
+                    ) : (
+                      g.count.toLocaleString("fr-FR")
+                    )}
                   </div>
                 </div>
               ))}
             </div>
+            {unmeasured.length > 0 && (
+              <p className="text-[11px] text-[var(--text-tertiary)] mt-2">
+                {unmeasured.map((g) => groupLabel(g)).join(", ")} :{" "}
+                {unmeasured.length > 1
+                  ? "ces groupes n'ont pas été comptés lors du relevé, et afficher un zéro à leur place aurait été faux. Ils seront relevés"
+                  : "ce groupe n'a pas été compté lors du relevé, et afficher un zéro à sa place aurait été faux. Il sera relevé"}{" "}
+                au prochain passage du collecteur.
+                {unmeasured.includes("reptiles") && (
+                  <>
+                    {" "}
+                    Pour les reptiles, la requête visait la classe « Reptilia », que la dorsale
+                    taxonomique de GBIF n&apos;utilise pas : elle range lézards, serpents et
+                    tortues sous Squamata, Testudines et Crocodylia.
+                  </>
+                )}
+              </p>
+            )}
             {raw.groupsTruncated.length > 0 && (
               <p className="text-[11px] text-[var(--text-tertiary)] mt-2">
                 Groupes plafonnés par la pagination de l&apos;API (le vrai total est plus élevé) :{" "}

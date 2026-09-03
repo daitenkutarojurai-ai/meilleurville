@@ -1833,6 +1833,88 @@ demande, par `scripts/local-data-runner.sh --status`, qui donne les trois couver
 chacune n'a pas bougé, la présence des couches INPN et celle d'`ogr2ogr`. Si le cron lui-même est
 décroché, rien de tout cela ne partira : c'est la première chose à vérifier (`crontab -l`).
 
+#### Point d'étape 2026-09-03 — deux zéros silencieux : aucun reptile nulle part, aucun nom d'espèce en anglais
+
+Aucune collecte ce run (les trois JSON sont pleins : biodiversité **540/540**, zones protégées
+**540/540**, parcs **540/540**), et le collecteur GBIF n'avait plus rien à faire depuis le 08/08 :
+`crawlBatch` ne sert que les villes **absentes** du JSON, donc l'étape nocturne imprimait « nothing
+to do » chaque nuit. Le travail est l'audit que cette immobilité rendait possible, sur les deux
+champs que personne n'avait jamais recomptés. Les deux étaient à **zéro sur tout le corpus**, ce qui
+est la signature d'un bug de requête et jamais celle d'un fait de nature.
+
+**1. Les reptiles n'existaient pas.** `groups.reptiles` valait **0 sur les 540 villes**, dans les
+deux locales, depuis la fin du crawl — pour 11,7 espèces d'amphibiens par ville en moyenne. La cause
+est une clé : le pipeline interrogeait `taxonKey: 358` (Reptilia), que la dorsale taxonomique de
+GBIF n'utilise pas. **Notre propre corpus le prouve sans réseau** : les fiches espèces qu'il stocke
+portent `class: "Squamata"` et `class: "Testudines"`, jamais `"Reptilia"`.
+
+Les pages ne masquaient pas le défaut, elles l'aggravaient : le graphe « Par grand groupe » filtrait
+`count > 0`, donc la ligne reptiles **disparaissait** au lieu d'afficher un zéro visible. Trois
+villes se contredisaient donc à l'écran, six pages avec les jumelles — **Longwy** listait le *lézard
+des murailles* (1 203 observations) parmi ses espèces les plus observées, deux paragraphes sous un
+graphe sans reptiles ; **Saint-Joseph** faisait pareil avec le *gecko de Manapany*, **Saint-Paul**
+avec la *tortue franche*. C'est le même mode de défaillance que la facette `SPECIES_KEY` du 02/08 et
+que le filtre commune du BODACC du 18/08 : une valeur parfaitement plausible, produite par une
+question mal posée, qu'aucun type et aucun test ne peut voir.
+
+**2. Aucun nom d'espèce en anglais.** `vernacularEn` valait `null` sur **6 480 entrées sur 6 480**,
+quand `vernacularFr` en couvrait 6 001. Les 540 pages EN listaient donc *Columba palumbus* là où la
+jumelle FR écrit « Palombe ». Cause : le nom anglais était lu dans le champ `vernacularName` de la
+fiche `/species/{key}`, qui n'est pas peuplé pour les taxons de la dorsale, alors que le nom français
+venait de la liste `/species/{key}/vernacularNames` **déjà téléchargée dans la même fonction**. Le
+correctif ne coûte pas une requête de plus.
+
+**Ce que le run a livré.**
+- `pickVernacular()` lit les deux langues dans la même liste, tolère `fra`/`fr`/`ENG` et préfère
+  l'entrée `preferred`. `SPECIES_INFO_VERSION = 2` invalide le cache disque, sans quoi le correctif
+  aurait été annulé par des fiches en cache portant déjà `vernacularEn: null`.
+- **`npm run biodiversity:vernacular`** — rattrapage sans recrawl : le corpus compte 6 480 entrées
+  mais **412 clés d'espèces distinctes**, donc le trou entier coûte ~412 requêtes (un quart d'heure)
+  contre ~7 h pour un `--force` sur les 540 villes. `fillNames()` ne remplit que des trous : un nom
+  déjà affiché n'est jamais réécrit, donc la passe ne peut pas modifier les 6 001 noms FR en place.
+  Idempotent, et un nom que GBIF ne publie pas reste `null`.
+- **Reptiles résolus par nom** (`Squamata`, `Testudines`, `Crocodylia`) via `/species/match` en
+  `strict`, plus `groupParams()` qui accepte plusieurs `taxonKey`. C'est le correctif de la *classe*
+  de défaut : un numéro écrit en dur vide son seau en silence le jour où la dorsale bouge, un nom qui
+  ne résout plus **lève**, et la ville enregistre `groups.reptiles = null` + `groupsUnresolved` —
+  « non mesuré », jamais zéro.
+- `QUERY_VERSION = 3`, **et `crawlBatch` sert désormais les lignes périmées avant les villes
+  absentes**. Il ne le faisait pas : un bump de version ne rejouait rien, exactement le piège où
+  `city-news.mjs` est tombé le 18/08. Les 540 lignes sont donc en file de rejeu, ~9 nuits à 60/nuit.
+- Côté lib, `groupSpecies(row, group)` est le **seul** accès autorisé au compte d'un groupe : il rend
+  `null` sous `GROUP_MIN_QUERY_VERSION` (reptiles ⇒ v3) ou quand le taxon n'a pas été résolu. Lire
+  `raw.groups[g]` fait revenir le zéro, le docstring le dit. `unmeasuredGroups()` donne à la page ce
+  qu'elle doit annoncer.
+- Les deux sous-pages affichent la ligne **« non mesuré » / « not measured »** au lieu de la faire
+  disparaître, avec la raison en note et la mention de Reptilia. Vérifié en `next dev` sur Longwy,
+  les deux locales, **mêmes nombres** (136 / 56 / 1 137 / 11 / 1 068 et reptiles non mesuré des deux
+  côtés) ; l'EN a répondu 200.
+- Deux garde-fous pour la prochaine fois : `biodiversity:stats` **nomme** désormais la couverture des
+  noms par langue et **crie** quand un groupe vaut 0 sur toutes les villes mesurées (il crie sur les
+  reptiles aujourd'hui, et se taira quand le rejeu sera passé) ; `biodiversity:selftest` monte de 23
+  à **43 contrôles** — 10 sur `pickVernacular`, 5 sur la règle de fusion, 5 sur les taxons, dont
+  « aucun groupe n'est interrogé via Reptilia (358) ».
+- `scripts/local-data-runner.sh` gagne l'étape `noms d'espèces (GBIF)`, sans quoi le rattrapage
+  n'aurait jamais tourné : le collecteur ne revisite pas les lignes déjà écrites. La commande sort en
+  **code 1** si elle n'a rien pu résoudre — une étape morte qui rend 0 est invisible dans le runner,
+  et c'est la panne que ce runner existe pour empêcher.
+
+**Vérifications.** `npx tsc --noEmit` propre, `npm run integrity` propre (540 villes, 1 057 guides
+FR, 825 EN), `biodiversity:selftest` 43/43, `eslint` sur les trois fichiers touchés : **aucune erreur
+nouvelle** (les 2 de la page EN préexistent, `API's` et `species'`). `npm run build` volontairement
+non lancé (interdit depuis une routine) ; `.next` et `out` effacés en fin de run. Le rattrapage a été
+lancé ici pour vérifier son **mode d'échec** : GBIF répond 403 depuis la routine, la passe abandonne
+après 5 échecs consécutifs, sort en 1 et laisse `data/city-biodiversity.json` **inchangé au bit
+près**.
+
+**Ce qui n'est toujours pas couvert.** Les deux corrections ne se voient qu'après un passage du
+collecteur local : à cette heure les pages EN listent encore des noms latins et les 540 lignes
+portent encore `reptiles: 0` — mais elles ne l'affichent plus comme une mesure, ce qui est la moitié
+qui dépendait de nous. `overall` reste `null` sur les 540, et pour les deux raisons de fond du 31/08
+(richesse : recrawl agrégé par `datasetKey` ; espaces verts : recrawl découpé sur la limite
+communale) ; **une seule composante porte encore une note, les zones protégées**.
+`/classements/biodiversite` reste abandonné.
+
 #### Point d'étape 2026-08-31 — le rang d'espaces verts est retiré : un parc à cheval était compté en entier dans chaque commune
 
 Aucune collecte ce run (les trois JSON sont pleins : biodiversité **540/540** dont 513 mesurables,

@@ -27,6 +27,8 @@ import {
   groupLabel,
   speciesName,
   GROUP_ORDER,
+  groupSpecies,
+  unmeasuredGroups,
   MIN_OCCURRENCES,
   MIN_OBSERVERS,
   PROTECTION_KIND_COUNT,
@@ -292,10 +294,15 @@ export default async function BiodiversityPage({ params }: Props) {
           : "green space, not yet surveyed for this commune",
     );
 
-  const groups = GROUP_ORDER.map((g) => ({ id: g, count: raw.groups[g] ?? 0 })).filter(
-    (g) => g.count > 0,
+  // `groupSpecies()`, never `raw.groups[g]`: an unmeasured group is null and
+  // has to say so. The old `count > 0` filter dropped the reptile row, which
+  // read 0 through a query bug — on three cities the chart contradicted the
+  // species list right below it.
+  const groups = GROUP_ORDER.map((g) => ({ id: g, count: groupSpecies(raw, g) })).filter(
+    (g) => g.count === null || g.count > 0,
   );
-  const groupMax = Math.max(1, ...groups.map((g) => g.count));
+  const groupMax = Math.max(1, ...groups.map((g) => g.count ?? 0));
+  const unmeasured = unmeasuredGroups(raw);
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Home", path: "/" },
@@ -741,17 +748,42 @@ export default async function BiodiversityPage({ params }: Props) {
                     {groupLabel(g.id as SpeciesGroup, "en")}
                   </div>
                   <div className="flex-1 h-5 rounded-md bg-[var(--border)] overflow-hidden">
-                    <div
-                      className="h-full rounded-md bg-emerald-500/70"
-                      style={{ width: `${Math.max(2, (g.count / groupMax) * 100)}%` }}
-                    />
+                    {g.count !== null && (
+                      <div
+                        className="h-full rounded-md bg-emerald-500/70"
+                        style={{ width: `${Math.max(2, (g.count / groupMax) * 100)}%` }}
+                      />
+                    )}
                   </div>
                   <div className="w-16 shrink-0 text-right text-sm font-mono-data text-[var(--text-primary)]">
-                    {g.count.toLocaleString("en-GB")}
+                    {g.count === null ? (
+                      <span className="text-[11px] font-normal text-[var(--text-tertiary)]">
+                        not measured
+                      </span>
+                    ) : (
+                      g.count.toLocaleString("en-GB")
+                    )}
                   </div>
                 </div>
               ))}
             </div>
+            {unmeasured.length > 0 && (
+              <p className="text-[11px] text-[var(--text-tertiary)] mt-2">
+                {unmeasured.map((g) => groupLabel(g, "en")).join(", ")}:{" "}
+                {unmeasured.length > 1
+                  ? "these groups were not counted in the survey, and printing a zero in their place would have been wrong. They will be counted"
+                  : "this group was not counted in the survey, and printing a zero in its place would have been wrong. It will be counted"}{" "}
+                on the collector&apos;s next pass.
+                {unmeasured.includes("reptiles") && (
+                  <>
+                    {" "}
+                    For reptiles, the query asked for the class &quot;Reptilia&quot;, which the
+                    GBIF taxonomic backbone does not use: it files lizards, snakes and turtles
+                    under Squamata, Testudines and Crocodylia.
+                  </>
+                )}
+              </p>
+            )}
             {raw.groupsTruncated.length > 0 && (
               <p className="text-[11px] text-[var(--text-tertiary)] mt-2">
                 Groups capped by the API's facet paging (the true total is higher):{" "}

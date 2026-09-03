@@ -336,7 +336,16 @@ run_stage() {
 }
 
 # GBIF: ~45 s a city, so 60 cities is about 45 min. 540 cities = 9 nights.
+# Now that the 540 are covered this stage prints "nothing to do" and returns in
+# a second; it stays because a city added to the seed must get crawled.
 run_stage "biodiversité (GBIF)" 4200 npm run biodiversity -- --limit="$BIODIV_LIMIT"
+
+# Species names, which the crawl above does not revisit: it only ever looks at
+# cities missing from the JSON, so a naming bug fixed after the crawl would
+# never reach the rows already written. ~412 distinct species keys across the
+# corpus, one lookup each, cached — a quarter of an hour the first time and a
+# no-op afterwards. Fills holes only, never overwrites a name already on a page.
+run_stage "noms d'espèces (GBIF)" 1800 npm run biodiversity:vernacular
 
 # BODACC + Géorisques: ~4 s a city, the whole seed fits in one pass.
 run_stage "signaux publics (BODACC/CatNat)" 3600 npm run news -- --limit="$NEWS_LIMIT"

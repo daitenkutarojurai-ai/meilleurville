@@ -6,6 +6,7 @@
  *   node scripts/city-biodiversity.mjs --limit=20    # cap the batch (default 60)
  *   node scripts/city-biodiversity.mjs --slug=lyon   # crawl a single city
  *   node scripts/city-biodiversity.mjs --force       # re-crawl cities already in the JSON
+ *   node scripts/city-biodiversity.mjs vernacular    # fill the missing species names, no recrawl
  *   node scripts/city-biodiversity.mjs stats         # what's in data/city-biodiversity.json today
  *   node scripts/city-biodiversity.mjs probe         # one city, verbose — validates the query shape
  *   node scripts/city-biodiversity.mjs selftest      # offline checks on the maths + the facet reader
@@ -99,8 +100,17 @@ const API = "https://api.gbif.org/v1";
 const UA =
   "MaVilleIdeale/1.0 (https://www.mavilleideale.fr; daitenkutarojurai@gmail.com) node-fetch";
 
-/** Bumped when the query shape changes, so a stale cached row is recognisable. */
-const QUERY_VERSION = 2;
+/**
+ * Bumped when the query shape changes, so a stale row is recognisable — and,
+ * since 2026-09-03, actually replayed: `crawlBatch` now serves rows below this
+ * version before uncrawled cities. It did not, which is the same trap
+ * scripts/city-news.mjs fell into on 18/08 — a version bump nobody re-ran is a
+ * fix that never reaches a reader.
+ *
+ * 3 (2026-09-03): reptiles resolved by name instead of the empty `taxonKey 358`.
+ * 2 (2026-08-02): rarefaction bracketed when the species facet is truncated.
+ */
+const QUERY_VERSION = 3;
 
 const RADIUS_KM = 10;
 const YEAR_FROM = 2015;
@@ -111,19 +121,31 @@ const LICENSES = ["CC0_1_0", "CC_BY_4_0"];
 const TOP_SPECIES = 12;
 
 /**
- * GBIF backbone keys for the groups we break richness down by. These are
- * stable identifiers in the GBIF taxonomic backbone, and `taxonKey` matches
- * descendants, so `212` is "every bird".
- * @unverified — confirm each key resolves to the expected name with
- * `curl https://api.gbif.org/v1/species/212` before trusting a batch.
+ * The taxa we break richness down by. `taxonKey` matches descendants, so the
+ * key for Aves is "every bird". Five of the six are given as backbone keys,
+ * verified the only way that matters — the completed 540-city crawl returned a
+ * plausible non-zero count for each of them on every single city.
+ *
+ * ⚠️ The sixth was not, and that is why `taxa` exists. Until 2026-09-03 reptiles
+ * were queried as `taxonKey: 358` (Reptilia) and came back **0 on all 540
+ * cities**, in both locales, since the crawl. Reptilia is not where the GBIF
+ * backbone puts reptiles: our own corpus proves it, since the species records
+ * it stores carry `class: "Squamata"` and `class: "Testudines"` and never
+ * `"Reptilia"` — Longwy lists the wall lizard among its most-recorded species
+ * (1 203 observations) on a page whose group chart claims no reptiles at all.
+ *
+ * So reptiles are resolved **by name** against the backbone at crawl time
+ * rather than by a number typed here. That is the fix for the defect class, not
+ * just for this taxon: a hardcoded key that stops matching empties its bucket in
+ * silence, while a name that stops resolving says so and writes `null`.
  */
 const GROUPS = [
-  { id: "birds", taxonKey: 212, label: "Oiseaux" },
-  { id: "mammals", taxonKey: 359, label: "Mammifères" },
-  { id: "insects", taxonKey: 216, label: "Insectes" },
-  { id: "amphibians", taxonKey: 131, label: "Amphibiens" },
-  { id: "reptiles", taxonKey: 358, label: "Reptiles" },
-  { id: "plants", taxonKey: 6, label: "Flore" },
+  { id: "birds", taxonKeys: [212], label: "Oiseaux" },
+  { id: "mammals", taxonKeys: [359], label: "Mammifères" },
+  { id: "insects", taxonKeys: [216], label: "Insectes" },
+  { id: "amphibians", taxonKeys: [131], label: "Amphibiens" },
+  { id: "reptiles", taxa: ["Squamata", "Testudines", "Crocodylia"], label: "Reptiles" },
+  { id: "plants", taxonKeys: [6], label: "Flore" },
 ];
 
 /** IUCN global categories we count as threatened. Global, NOT the French
@@ -400,23 +422,64 @@ export function rarefy(counts, n, { total = null, truncated = false } = {}) {
 /* ── species naming ─────────────────────────────────────────────────────── */
 
 /**
- * Scientific name, French vernacular name and IUCN category for a species key.
+ * The vernacular name for one language, out of a GBIF /vernacularNames payload.
+ *
+ * GBIF tags languages in ISO 639-3 ("fra", "eng"), but not always: some
+ * checklists write the two-letter code and some write it uppercase. Matching on
+ * one exact lowercase string therefore misses names that are right there in the
+ * response, and returns null instead of throwing — the same class of silent
+ * miss as the SPECIES_KEY facet case fixed on 2026-08-02.
+ *
+ * Where a language carries several names (English usually does), a `preferred`
+ * entry wins; otherwise the first, which is the order GBIF returns.
+ */
+function pickVernacular(results, langs) {
+  const want = new Set(langs);
+  const hits = (results ?? []).filter(
+    (v) => v?.vernacularName && want.has(String(v.language ?? "").toLowerCase()),
+  );
+  if (!hits.length) return null;
+  return (hits.find((v) => v.preferred === true) ?? hits[0]).vernacularName;
+}
+
+/**
+ * Bumped when the shape of a cached species record changes, so a stale entry is
+ * refetched instead of trusted. Without it the 2026-09-03 fix below would have
+ * been undone by the cache: every cached record already held
+ * `vernacularEn: null`, and a cache hit never asks why.
+ */
+const SPECIES_INFO_VERSION = 2;
+
+/**
+ * Scientific name, vernacular names (FR + EN) and taxonomy for a species key.
  * Cached on disk across cities and across runs: the top species of one city are
  * overwhelmingly the top species of its neighbours, so the cache turns a
  * per-city cost into a one-off one.
+ *
+ * ⚠️ Both vernacular names come from the SAME /vernacularNames list, which is
+ * fetched once. Until 2026-09-03 the English one was read from the species
+ * record's own `vernacularName` field, which is not populated for GBIF backbone
+ * taxa: **0 of the 412 species in the corpus carried an English name** while
+ * 375 carried a French one, so the 540 EN pages listed Latin names only. Zero
+ * out of a population that large is a bug, not a source gap — and it cost no
+ * extra request to fix, the list was already on the wire.
  */
 async function speciesInfo(key) {
   await fs.mkdir(SPECIES_CACHE, { recursive: true });
   const file = path.join(SPECIES_CACHE, `${key}.json`);
-  try { return JSON.parse(await fs.readFile(file, "utf8")); } catch {}
+  try {
+    const cached = JSON.parse(await fs.readFile(file, "utf8"));
+    if (cached?.infoVersion === SPECIES_INFO_VERSION) return cached;
+  } catch {}
 
   const sp = await gbif(`/species/${key}`, []);
   await sleep(MIN_SLEEP_MS);
   let vernacularFr = null;
+  let vernacularEn = null;
   try {
     const vn = await gbif(`/species/${key}/vernacularNames`, [["limit", "100"]]);
-    const fr = (vn?.results ?? []).find((v) => v.language === "fra" || v.language === "fr");
-    vernacularFr = fr?.vernacularName ?? null;
+    vernacularFr = pickVernacular(vn?.results, ["fra", "fr"]);
+    vernacularEn = pickVernacular(vn?.results, ["eng", "en"]);
     await sleep(MIN_SLEEP_MS);
   } catch {
     // A missing vernacular list is not a failure: the scientific name stands
@@ -424,14 +487,68 @@ async function speciesInfo(key) {
   }
   const info = {
     key: Number(key),
+    infoVersion: SPECIES_INFO_VERSION,
     scientificName: sp?.canonicalName ?? sp?.scientificName ?? null,
     vernacularFr,
-    vernacularEn: sp?.vernacularName ?? null,
+    vernacularEn,
     kingdom: sp?.kingdom ?? null,
     class: sp?.class ?? null,
   };
   await fs.writeFile(file, JSON.stringify(info));
   return info;
+}
+
+/**
+ * Merges a freshly fetched species record into a `topSpecies` entry already in
+ * the JSON. Fills holes only: a name that is already there is never overwritten,
+ * so a backfill pass can never silently rewrite what the 540 FR pages display.
+ * Returns true when something was actually filled.
+ */
+function fillNames(sp, info) {
+  let changed = false;
+  for (const field of ["scientificName", "vernacularFr", "vernacularEn"]) {
+    if (sp[field] == null && info?.[field] != null) {
+      sp[field] = info[field];
+      changed = true;
+    }
+  }
+  return changed;
+}
+
+/* ── taxon resolution ───────────────────────────────────────────────────── */
+
+/**
+ * Backbone key for a taxon named in `GROUPS.taxa`, resolved once per run.
+ *
+ * Resolving by name is the point: a number typed into this file empties its
+ * bucket in silence the day the backbone moves the taxon, which is exactly what
+ * happened to Reptilia. A name that stops resolving throws instead, and the
+ * caller records `null` — "we did not measure this", never a zero.
+ *
+ * `/species/match` answers with `usageKey` plus a `matchType`; anything other
+ * than an exact match on the expected rank is refused rather than guessed at.
+ */
+const taxonKeyCache = new Map();
+async function resolveTaxonKey(name) {
+  if (taxonKeyCache.has(name)) return taxonKeyCache.get(name);
+  const m = await gbif("/species/match", [["name", name], ["strict", "true"]]);
+  await sleep(MIN_SLEEP_MS);
+  const key = m?.usageKey ?? null;
+  if (!key || (m.matchType && m.matchType !== "EXACT")) {
+    throw new Error(
+      `GBIF did not match the taxon "${name}" exactly (matchType=${m?.matchType ?? "none"}) — ` +
+      "refusing to count a group through a key we cannot stand behind",
+    );
+  }
+  taxonKeyCache.set(name, key);
+  return key;
+}
+
+/** The taxonKey params for one group, resolving names when it has them. */
+async function groupParams(g) {
+  const keys = [...(g.taxonKeys ?? [])];
+  for (const name of g.taxa ?? []) keys.push(await resolveTaxonKey(name));
+  return keys.map((k) => ["taxonKey", k]);
 }
 
 /* ── per-city crawl ─────────────────────────────────────────────────────── */
@@ -479,8 +596,20 @@ async function crawlOne(city, { verbose = false } = {}) {
   //    just re-describe which group birdwatchers photograph most.
   const groups = {};
   const groupsTruncated = [];
+  const groupsUnresolved = [];
   for (const g of GROUPS) {
-    const r = await facetAll(city, "speciesKey", [["taxonKey", g.taxonKey]], 3);
+    let params;
+    try {
+      params = await groupParams(g);
+    } catch (err) {
+      // A group whose taxon we could not resolve is unknown, not empty. Writing
+      // 0 here is what put "no reptiles" on 540 pages for a month.
+      groups[g.id] = null;
+      groupsUnresolved.push(g.id);
+      say(`group ${g.id} unresolved: ${err.message}`);
+      continue;
+    }
+    const r = await facetAll(city, "speciesKey", params, 3);
     groups[g.id] = r.counts.length;
     if (r.truncated) groupsTruncated.push(g.id);
     await sleep(MIN_SLEEP_MS);
@@ -528,6 +657,9 @@ async function crawlOne(city, { verbose = false } = {}) {
     rarefiedUpper: rare.upper,
     groups,
     groupsTruncated,
+    // Groups whose taxon could not be resolved this run: their count is null,
+    // and the surfaces must say "not measured" rather than skip the row.
+    groupsUnresolved,
     threatenedSpecies: threatened.counts.length,
     topSpecies: top,
     accessedAt: new Date().toISOString(),
@@ -547,14 +679,25 @@ async function writeJson(f, data) {
 async function crawlBatch() {
   const seed = await loadSeed();
   const current = (await readJson(OUT_JSON, {})) ?? {};
+  // A row written by an older query shape is not "already crawled": it answers
+  // a question we have since corrected. Serving stale versions here is what
+  // makes a QUERY_VERSION bump actually reach a reader — city-news.mjs bumped
+  // to 2 on 18/08 and replayed nothing for a fortnight because it did not.
+  const stale = (c) => current[c.slug] && (current[c.slug].queryVersion ?? 1) < QUERY_VERSION;
   const pool = ONLY_SLUG
     ? seed.filter((c) => c.slug === ONLY_SLUG)
-    : seed.filter((c) => FORCE || !current[c.slug]);
-  pool.sort((a, b) => (b.population ?? 0) - (a.population ?? 0));
+    : seed.filter((c) => FORCE || !current[c.slug] || stale(c));
+  // Stale rows first: an uncrawled city shows nothing, a stale one shows a
+  // wrong number, and a wrong number is the more urgent of the two.
+  pool.sort(
+    (a, b) => Number(stale(b)) - Number(stale(a)) || (b.population ?? 0) - (a.population ?? 0),
+  );
   const batch = pool.slice(0, LIMIT);
 
+  const staleCount = seed.filter(stale).length;
   log(`seed: ${seed.length} cities`);
   log(`state: ${Object.keys(current).length} already crawled, ${seed.length - Object.keys(current).length} remaining`);
+  if (staleCount) log(`       ${staleCount} rows below queryVersion ${QUERY_VERSION} — queued for replay`);
   log(`batch: ${batch.length} cities this run (limit ${LIMIT})`);
   if (!batch.length) { log("nothing to do"); return; }
 
@@ -599,6 +742,107 @@ async function probe() {
   log(JSON.stringify(row, null, 2));
 }
 
+/**
+ * Backfills the vernacular names missing from the rows already in
+ * data/city-biodiversity.json — without recrawling a single city.
+ *
+ * The corpus holds 6 480 `topSpecies` entries but only **412 distinct species
+ * keys**, because the top species of one city are the top species of its
+ * neighbours. So the whole hole costs ~412 species lookups (a quarter of an
+ * hour at one request a second), against ~7 h for a `--force` pass over the 540
+ * cities that would re-measure everything else for nothing.
+ *
+ * Idempotent by construction: it only ever fills a null, so running it twice
+ * changes nothing the second time, and a name GBIF simply does not have stays
+ * null rather than being invented.
+ */
+async function backfillVernacular() {
+  const current = (await readJson(OUT_JSON, {})) ?? {};
+  const rows = Object.values(current);
+  if (!rows.length) { log("data/city-biodiversity.json is empty — nothing to backfill"); return; }
+
+  // One entry per species key, ordered by how many cities display it, so a pass
+  // cut short by the runner's timeout has fixed the most-read names first.
+  const need = new Map();
+  let entries = 0;
+  for (const row of rows) {
+    for (const sp of row.topSpecies ?? []) {
+      entries++;
+      if (sp.vernacularFr != null && sp.vernacularEn != null && sp.scientificName != null) continue;
+      need.set(sp.key, (need.get(sp.key) ?? 0) + 1);
+    }
+  }
+  const keys = [...need.entries()].sort((a, b) => b[1] - a[1]).map(([k]) => k);
+  // Unlike a crawl batch, the default here is "all of them": the whole hole is
+  // ~412 lookups, and leaving a locale half-named is worse than either extreme.
+  const batch = keys.slice(0, opt("limit") ? Number(opt("limit")) : keys.length);
+
+  log(`corpus: ${rows.length} cities, ${entries} species entries`);
+  log(`missing a name: ${keys.length} distinct species keys`);
+  log(`batch: ${batch.length} lookups this run`);
+  if (!batch.length) { log("nothing to do"); return; }
+
+  const save = async () =>
+    writeJson(OUT_JSON, Object.fromEntries(Object.entries(current).sort(([a], [b]) => a.localeCompare(b))));
+
+  let filled = 0, looked = 0, failed = 0, streak = 0;
+  const started = Date.now();
+  for (const [i, key] of batch.entries()) {
+    let info;
+    try {
+      info = await speciesInfo(key);
+      looked++;
+      streak = 0;
+    } catch (err) {
+      failed++;
+      streak++;
+      log(`  [${i + 1}/${batch.length}] ${key} — FAILED: ${err.message}`);
+      if (err.message.includes("blocked at proxy layer")) {
+        log("GBIF is blocked by the environment's egress policy — aborting run.");
+        break;
+      }
+      // An egress wall does not always announce itself as a CONNECT refusal:
+      // this environment's proxy answers a plain HTTP 403 on every request, so
+      // without this the pass would log 412 identical failures and still exit 0.
+      if (streak >= 5) {
+        log(`${streak} consecutive failures — GBIF is not answering, aborting run.`);
+        break;
+      }
+      continue;
+    }
+    let touched = 0;
+    for (const row of rows) {
+      for (const sp of row.topSpecies ?? []) {
+        if (sp.key === key && fillNames(sp, info)) touched++;
+      }
+    }
+    filled += touched;
+    log(
+      `  [${i + 1}/${batch.length}] ${key} ${info.scientificName ?? "?"} — ` +
+      `fr=${info.vernacularFr ?? "—"} / en=${info.vernacularEn ?? "—"} → ${touched} entrée(s)`,
+    );
+    if ((i + 1) % 25 === 0) await save();
+  }
+  await save();
+
+  const still = { fr: 0, en: 0 };
+  for (const row of rows) for (const sp of row.topSpecies ?? []) {
+    if (sp.vernacularFr == null) still.fr++;
+    if (sp.vernacularEn == null) still.en++;
+  }
+  const secs = ((Date.now() - started) / 1000).toFixed(0);
+  log(`done: ${looked} looked up, ${failed} failed, ${filled} entries filled in ${secs}s`);
+  log(`  still without a French name: ${still.fr}/${entries}`);
+  log(`  still without an English name: ${still.en}/${entries}`);
+  log("  (a name GBIF does not publish stays null — the surfaces fall back to the scientific name)");
+  // A pass that looked nothing up did not succeed, whatever the shell thinks:
+  // exiting 0 here is how a dead stage stays invisible in the nightly runner.
+  if (looked === 0 && failed > 0) {
+    log("nothing could be looked up — reporting failure so the runner does not call this a pass");
+    process.exitCode = 1;
+  }
+}
+
 async function showStats() {
   const seed = await loadSeed();
   const current = (await readJson(OUT_JSON, {})) ?? {};
@@ -608,6 +852,28 @@ async function showStats() {
   log(`  measurable (≥ ${RAREFY_N} observations): ${measurable}`);
   log(`  below the effort floor: ${rows.length - measurable}`);
   log(`  species-facet truncated: ${rows.filter((r) => r.speciesTruncated).length}`);
+  // Named per locale, because a hole on one side only is exactly how the EN
+  // pages spent a month listing Latin names without anything complaining.
+  const all = rows.flatMap((r) => r.topSpecies ?? []);
+  const distinct = new Set(all.map((s) => s.key)).size;
+  const named = (f) => all.filter((s) => s[f] != null).length;
+  log(`  species entries: ${all.length} (${distinct} distinct keys)`);
+  log(`    with a French name: ${named("vernacularFr")}/${all.length}`);
+  log(`    with an English name: ${named("vernacularEn")}/${all.length}`);
+
+  const stale = rows.filter((r) => (r.queryVersion ?? 1) < QUERY_VERSION).length;
+  if (stale) log(`  below queryVersion ${QUERY_VERSION} (queued for replay): ${stale}`);
+
+  // A group that is empty on EVERY city is a query bug, not a fact about
+  // France: that is how reptiles read 0 on all 540 rows for a month while the
+  // pages simply dropped the row. Named here so the next one is loud.
+  for (const g of GROUPS) {
+    const measured = rows.filter((r) => (r.groups?.[g.id] ?? null) != null);
+    const nonZero = measured.filter((r) => r.groups[g.id] > 0).length;
+    if (measured.length && nonZero === 0) {
+      log(`  ⚠️  group "${g.id}" is 0 on all ${measured.length} measured cities — suspect the query, not the wildlife`);
+    }
+  }
 }
 
 /* ── selftest ───────────────────────────────────────────────────────────── */
@@ -654,6 +920,73 @@ function selftest() {
   check("null payload → null", pickFacet(null, "speciesKey") === null);
   check("present but empty facet → []",
     pickFacet({ facets: [{ field: "SPECIES_KEY", counts: [] }] }, "speciesKey")?.length === 0);
+
+  log("pickVernacular");
+  // The bug this pins (2026-09-03): the English name was read from the species
+  // record's own `vernacularName`, not from this list — 0 hits on 412 species.
+  const vn = [
+    { language: "fra", vernacularName: "Mésange charbonnière" },
+    { language: "eng", vernacularName: "Great Tit" },
+  ];
+  check("finds the French name", pickVernacular(vn, ["fra", "fr"]) === "Mésange charbonnière");
+  check("finds the English name", pickVernacular(vn, ["eng", "en"]) === "Great Tit");
+  check("accepts the two-letter code",
+    pickVernacular([{ language: "en", vernacularName: "Robin" }], ["eng", "en"]) === "Robin");
+  check("is case-insensitive on the language tag",
+    pickVernacular([{ language: "ENG", vernacularName: "Robin" }], ["eng", "en"]) === "Robin");
+  check("prefers the entry flagged preferred",
+    pickVernacular(
+      [
+        { language: "eng", vernacularName: "Wood Pigeon" },
+        { language: "eng", vernacularName: "Common Wood-pigeon", preferred: true },
+      ],
+      ["eng", "en"],
+    ) === "Common Wood-pigeon");
+  check("falls back to the first when none is preferred",
+    pickVernacular(
+      [
+        { language: "eng", vernacularName: "Wood Pigeon" },
+        { language: "eng", vernacularName: "Ringdove" },
+      ],
+      ["eng", "en"],
+    ) === "Wood Pigeon");
+  check("another language is not a match", pickVernacular(vn, ["deu", "de"]) === null);
+  check("an entry with no name is not a match",
+    pickVernacular([{ language: "eng" }], ["eng", "en"]) === null);
+  check("empty list → null", pickVernacular([], ["eng", "en"]) === null);
+  check("absent list → null", pickVernacular(undefined, ["eng", "en"]) === null);
+
+  log("fillNames — the backfill merge rule");
+  const kept = { key: 1, scientificName: "Columba palumbus", vernacularFr: "Palombe", vernacularEn: null };
+  const changed = fillNames(kept, {
+    scientificName: "Something else",
+    vernacularFr: "Pigeon ramier",
+    vernacularEn: "Common Wood-pigeon",
+  });
+  check("fills the missing name", kept.vernacularEn === "Common Wood-pigeon");
+  check("never overwrites a name already displayed", kept.vernacularFr === "Palombe");
+  check("never overwrites the scientific name", kept.scientificName === "Columba palumbus");
+  check("reports that it changed something", changed === true);
+  const unknown = { key: 2, scientificName: "Animalia spec", vernacularFr: null, vernacularEn: null };
+  check("a name GBIF does not have stays null",
+    fillNames(unknown, { vernacularFr: null, vernacularEn: null }) === false &&
+      unknown.vernacularEn === null);
+
+  log("taxon groups");
+  // The 2026-09-03 defect: a class key that matches nothing empties its bucket
+  // and nothing complains. Reptiles must go through name resolution, and no
+  // group may carry the Reptilia key that produced 0 on all 540 cities.
+  const reptiles = GROUPS.find((g) => g.id === "reptiles");
+  check("reptiles are resolved by name, not by a hardcoded key",
+    (reptiles?.taxa?.length ?? 0) > 0 && !reptiles?.taxonKeys?.length);
+  check("reptiles cover the three orders GBIF actually uses",
+    ["Squamata", "Testudines", "Crocodylia"].every((t) => reptiles.taxa.includes(t)));
+  check("no group is queried through Reptilia (358) any more",
+    GROUPS.every((g) => !(g.taxonKeys ?? []).includes(358)));
+  check("every group has one source of keys or the other",
+    GROUPS.every((g) => (g.taxonKeys?.length ?? 0) > 0 || (g.taxa?.length ?? 0) > 0));
+  check("the six groups are the six the surfaces render",
+    GROUPS.map((g) => g.id).join(",") === "birds,mammals,insects,amphibians,reptiles,plants");
 
   log("rarefaction — closed forms");
   // Enumerated by hand: subsamples of 2 from {A,A,B,B} are AA, BB and 4×AB,
@@ -722,5 +1055,6 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
   if (cmd === "stats") await showStats();
   else if (cmd === "selftest") selftest();
   else if (cmd === "probe") await probe();
+  else if (cmd === "vernacular") await backfillVernacular();
   else await crawlBatch();
 }
