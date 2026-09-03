@@ -2754,6 +2754,93 @@ setup dans `CLAUDE.md`), pas une facilité.
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
 
+### Livré le 03/09 — `single-parent-holidays-[city]-2026` batch 3 (+7), la série refermée à 22/22
+
+`npm run parity` en **code 0** en début et en fin de run (FR 219 · EN 166, 0 route FR sans jumelle) :
+pas de régression de routes, donc run de corpus. Compteurs mesurés avant/après : **FR 1 050, EN 818 →
+825**. Écart de corpus restant : **guides 1 050 FR / 825 EN, tags 252 / 114**.
+
+**La cible s'est choisie toute seule, comme au batch 2 de cette même série.** Le batch 3 FR
+`vacances-monoparentales` a été poussé **la veille** (`30fac72`, 2026-09-02) et laissait **22 guides FR
+contre 15 EN** — Toulouse, Pau, Mâcon, Aix-en-Provence, Poitiers, Saint-Raphaël et Metz sans jumelle.
+C'est le cas que le prompt de la routine désigne comme prioritaire : un écart rattrapé le jour même
+coûte sept pages, rattrapé un mois plus tard il en coûte cent. **Compteurs mesurés dans les deux sens :
+FR 22, EN 22 — écart nul, parité rétablie.**
+
+**Tous les chiffres ont été relus dans les modules, jamais dans les sources.** Un `npx tsx` de scratch a
+réexécuté `CITIES_LIGHT`, `HOUSING`, `cityPopulation()`, `getTransit()`, `vacationFit(…, {profile:
+"monoparental"})`, `monthSignal()`, `nearestStation()` / `normalsForCityMonth()` et `data/city-parks.json`
+sur les sept villes : les scores, loyers, populations, paliers de budget, indices d'affluence, stations
+climatiques et effectifs de parcs cités par les guides FR sont confirmés un à un. Contrôle mécanique des
+figures ensuite : chaque suite de chiffres du texte EN cherchée dans la jumelle FR après normalisation
+des séparateurs — **418 figures sur les sept guides, toutes retrouvées sauf le bloc d'urgence**.
+
+⚠️ **Les seules figures EN absentes du FR sont les numéros d'urgence, et c'est délibéré — le contrôle
+mécanique les remontera à chaque run, ne pas les « corriger ».** Le **112** est ajouté sur les sept
+(c'est le numéro qu'un lecteur étranger compose depuis un mobile ; le FR se contente du 15, que personne
+hors de France ne connaît), et le bloc **15 / 112 / 116 117 / ameli.fr** est ajouté sur Toulouse et
+Saint-Raphaël, dont les guides FR n'ont pas de paragraphe médical. C'est le bloc que porte déjà toute la
+série EN depuis le batch 1, Valence comprise.
+
+Écrit en anglais natif depuis les faits des guides FR, `metaTitle` 34-46 caractères, `metaDesc` 144-159,
+**6 sections par guide** (la série FR en compte 7, l'EN fusionne les fins de liste comme les deux batches
+EN précédents), 1 168 à 1 218 mots. Densité d'em-dash **0 sur six guides et 1 sur le septième** (Pau,
+dans la `metaDesc`), très au-dessus de la cible R7.10. Les sept guides sont vérifiés **retrouvés par
+`getEnGuide()` depuis le slug de seed** et **pourvus de leur photo d'en-tête** (`guideCityPhoto`) après
+écriture. Aucun mojibake, `€` et `°C` intacts.
+
+**Les prudences des guides FR sont reprises telles quelles, à ne pas diluer** : le **Futuroscope est sur
+Chasseneuil-du-Poitou et Jaunay-Marigny**, accessible depuis Poitiers sans y être situé ; la **Roche de
+Solutré** relève des communes voisines de Mâcon, même traitement ; le **relevé de parcs plafonne à
+quarante** et Toulouse, Pau, Poitiers et Metz atteignent ce plafond, donc leur nombre est un **plancher**
+là où les 31 d'Aix et les 21 de Mâcon sont des comptes ; les **13 parcs de Saint-Raphaël** sont le total
+le plus bas des 22 et ne veulent pas dire que la ville manque de verdure (OSM est une carte contributive,
+« personne n'a cartographié » et « il n'y a rien » s'y ressemblent) ; le **score de sécurité est un
+indicateur communal agrégé**, ni un quartier ni une heure, sans jugement sur les habitants, répété sur les
+sept ; l'**indicateur d'affluence sous-estime Aix** par construction (palier haut réservé aux communes
+> 200 000 hab. et aux destinations littorales, Aix est à 147 933 et n'est pas classée littorale) ; les
+**stations climatiques empruntées** sont nommées avec leur distance à chaque fois — Pau à **146 km** de
+Toulouse-Blagnac, le plus grand écart de la série, Metz à 125 km de Strasbourg-Entzheim, Poitiers à 99 km
+de Tours ; et la **signalétique vert/jaune/rouge des plages est réglementaire et fait foi**, les criques
+de l'Estérel étant non surveillées.
+
+Cinq ajouts propres à l'angle voyageur étranger, absents du FR parce qu'inutiles à un lecteur français :
+le **112** ci-dessus ; la **zone de vacances scolaires** de chaque ville avec son académie (Toulouse
+zone C ; Pau via Bordeaux, Mâcon via Dijon et Poitiers zone A ; Aix-Marseille, Nice et Nancy-Metz zone B)
+**et la précision que le zonage ne sépare que les vacances d'hiver et de printemps**, le reste du
+calendrier étant national ; le **TER défini comme le train régional** face au TGV, distinction sur
+laquelle repose la moitié des pièges de gare de cette série ; le **Centre Pompidou-Metz présenté comme
+l'antenne régionale du musée parisien** et la **Cité de l'espace rattachée à l'industrie aérospatiale
+toulousaine**, sans quoi ni l'un ni l'autre ne veut rien dire vu de l'étranger ; et le rappel que les
+frontières **luxembourgeoise et allemande** depuis Metz sont des passages Schengen intérieurs, sans
+formalité mais avec pièce d'identité. Deux notes de mœurs plutôt que de chiffres : les cuisines qui
+ferment tôt en semaine hors saison à Mâcon et à Poitiers **surprennent un visiteur habitué à dîner plus
+tard**, et dîner à 20 h en terrasse avec des enfants à Aix n'est pas une anomalie.
+
+**Aucun tag neuf n'a créé de page** : `search-index.en.json` reste à **114 tags** (les sept tags de ville,
+plus `pyrenees`, `futuroscope` et `centre pompidou metz`, restent sous le seuil de 3 guides), les tags de
+région réutilisent `occitanie`, `nouvelle-aquitaine`, `bourgogne-franche-comte`, `burgundy`, `provence`,
+`provence-alpes-cote-d-azur`, `french riviera` et `grand-est`.
+
+Contrôles passés : `npx tsc --noEmit` **propre**, `npm run integrity` (guides EN 818 → 825),
+`search-index` + `search-index:check`, `npm run sitemap:check` (FR 29 133 URL, EN **28 717**, chaque URL
+déclarée a une page et réciproquement), `npm run hreflang:check`, `npm run parity` (code 0). `npm run
+build` **non lancé, volontairement** (cf. CLAUDE.md § Commands depuis le batch 27 : 4 h 30 de génération,
+`.next` à 25 Go, ENOSPC avant la finalisation, aucun signal utile). Note d'environnement confirmée une
+fois de plus : le conteneur de routine démarre **sans `node_modules`** et en **HEAD détachée** —
+`git checkout main` puis `npm install` d'abord, sinon `tsc` sort des dizaines de milliers d'erreurs qui ne
+sont pas des régressions.
+
+**Prochain run** : la série `single-parent-holidays` est refermée, donc reprendre l'écart de corpus par la
+plus grosse série FR sans miroir EN. Mesuré ce run en regroupant les deux corpus par gabarit de slug, les
+trous réels sont **`demenager-a-[ville]` (50 FR, aucune série EN de logistique de déménagement en face)**,
+**`vivre-a-[ville]` (48 FR contre 20 `[city]-living-guide` + 12 `-for-expats` + 6 `-expats` côté EN, donc
+un recouvrement partiel à vérifier ville par ville avant d'écrire)**, **`etudiant-a-[ville]` + `universites-[ville]`
+(35 FR contre 23 `studying-in-[city]`)** et **`investir-locatif-[ville]` (5 FR, rien en face)**. Les séries
+suivantes sont à parité stricte et n'ont rien à rattraper : `10-choses-a-faire` 233/233, `parent-solo`
+66/66, `travail-a` 30/30, `vacances-celibataire` 29/29, `acheter-a` 49/49, `vivre-sans-voiture` 15/15,
+`budget-mensuel-realiste` 10/10 et désormais `vacances-monoparentales` 22/22.
+
 ### Livré le 02/09 — `single-parent-in-[city]-2026` batch 7 (+9), la série refermée à 66/66
 
 `npm run parity` en **code 0** en début et en fin de run (FR 219 · EN 166, 0 route FR sans jumelle) :

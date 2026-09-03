@@ -34038,6 +34038,342 @@ export const EN_GUIDES: EnGuide[] = [
       "nouvelle-aquitaine",
     ],
   },
+  {
+    slug: "single-parent-holidays-toulouse-2026",
+    title: "Single-parent holidays in Toulouse: the best network, the lowest safety score",
+    metaTitle: "Single-Parent Holidays in Toulouse 2026",
+    metaDesc:
+      "Toulouse alone with the kids: transport 7.5/10, the best of this batch, because nothing children want is central. And safety 4.3/10, the series low.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    intro:
+      "Toulouse scores 6.2/10 on our single-parent composite, top of this selection alongside Pau and Mâcon, on safety 4.3/10, transport 7.5/10, cost of living 5.3/10 and quality of life 6.6/10 (source: data/cities-seed.ts). The two figures that matter here are the two extremes: 7.5 on transport, the best of this batch of seven, and 4.3 on safety, the lowest of the twenty-two destinations this series has covered so far, level with Grenoble. The first is not a comfort and the second is not a detail. This guide explains why, when you travel alone with children, Toulouse is decided entirely by its transport network, and what the safety score actually is.",
+    sections: [
+      {
+        heading: "Transport 7.5/10, because nothing the children want is in the centre",
+        body: "Toulouse is flagged with a metro, a tram, bus rapid transit and a cycling network rated at the top of our scale (source: lib/transit.ts). That is the best equipment of this batch of seven, ahead of Mâcon and Saint-Raphaël at 7.0/10 and well ahead of Aix-en-Provence and Pau at 6.1 (source: data/cities-seed.ts). The reason it changes everything here is geographic. The Cité de l'espace, the space museum this aerospace city built for itself, sits on the eastern fringe of the commune, and the Halle de La Machine, home to the giant street-theatre machines, is out at Montaudran. Neither has a metro station at its door. You take the metro and then a bus, which with one adult and two children stays a simple operation provided it was planned. Without the network, every outing would need a hire car, and that is precisely the cost this profile is trying to avoid. Check lines and connections on the operator's website before you leave: bus numbers change more often than metro stations do.",
+      },
+      {
+        heading: "Safety 4.3/10: the lowest in the series, and what that number is",
+        body: "Better said plainly than buried. Toulouse shows 4.3/10 on the safety axis, the lowest of the twenty-two destinations this series has treated, exactly level with Grenoble and behind Nantes at 4.6 (source: data/cities-seed.ts). The single-parent profile weights safety at 0.30, more than any other criterion (source: lib/vacation-fit.ts), so that 4.3 is what stops Toulouse from dominating a ranking in which it otherwise holds 8.0 on culture and 7.5 on transport. Two clarifications on how to use it. First, it is an aggregate communal figure: it describes a whole commune, not a district and not an hour of the day, and it passes no judgement on the people who live there. Second, in practice it describes a large metropolis, where the ordinary reflexes are worth what they are worth in any city of that size. The commune counted 511,684 inhabitants at the 2022 census, against 447,340 in 2011 (source: data/city-population.json).",
+      },
+      {
+        heading: "What is walkable, between the place du Capitole and the Garonne",
+        body: "The centre is compact and flat, which counts when you move at the pace of the smallest. The Jardin des Plantes and the Jardin de Compans-Caffarelli are among the green spaces recorded in the commune (source: data/city-parks.json) and are reached from the centre without transport. The natural history museum backs onto the first of those, which gives the most economical sequence in the city for a lone parent: an indoor visit and an adjoining park, with no journey between them. The Saint-Sernin basilica and the place du Capitole fit into the same half-day. The banks of the Garonne provide the late-afternoon walk, the one where nothing is left to organise. Culture 8.0/10 (source: data/cities-seed.ts), the second score of this batch behind Aix-en-Provence at 8.4: the supply is there, and the question is not finding it but choosing.",
+      },
+      {
+        heading: "Nature 5.0/10: here the open space is engineered",
+        body: "Toulouse shows 5.0/10 on the nature axis, level with Poitiers, second from last in this selection ahead of Metz at 4.8 and a long way behind Saint-Raphaël at 7.1 and Pau at 7.0 (source: data/cities-seed.ts). The right word is not poor but laid out: the Base de Loisirs de la Ramée, the Pech David leisure base, the Argoulets green zone and the Parc de la Maourine are recorded in the commune (source: data/city-parks.json), and they are open-air facilities rather than forests. For a lone parent that is not bad news. A fenced site with toilets and a water point is easier to manage than a trail. One method point that belongs here rather than in a footnote: our park survey caps at forty per commune, and Toulouse reaches that cap. The figure is therefore a floor and not a total, and it supports no comparison with a city that does not reach it.",
+      },
+      {
+        heading: "When to go: the busiest regime in the series",
+        body: "Our crowding indicator never drops below 3 out of 5 in Toulouse, rises to 4 in June and September and reaches 5 in July and August (source: lib/vacation-seasons.ts). That is the heaviest regime in the series, shared with Lyon, Bordeaux, Nantes, Rennes, Strasbourg and Saint-Raphaël. It is worth knowing what the indicator is: a model crossing destination type with season, not a headcount. Toulouse inherits the top tier because it is over 200,000 inhabitants, that is, because it reads as a city-break destination. On climate, Toulouse is the only city in this batch whose monthly values are genuinely its own: the reference station our engine picks is Toulouse-Blagnac, 6 km away. It gives a July average of 22.6 °C with 6 rain days and 8.3 hours of sun a day, against 6.3 °C in January (source: lib/climate-normals.ts). The window to aim for is May, then the second half of September and October. Toulouse is in Zone C for school holidays, through the académie de Toulouse; the zones only split the February and spring breaks, and the year's dates are at education.gouv.fr.",
+      },
+      {
+        heading: "Budget, evenings and money help",
+        body: "Toulouse is rated €€€ on our stay-budget scale (source: lib/vacation-fit.ts), with a cost-of-living axis of 5.3/10 where a high score means affordable. The local market benchmarks say the same: 1,150 € for the reference three-room flat and 4,000 € per square metre to buy (source: data/housing.ts). Within this batch of seven that makes it the third most expensive, behind Aix-en-Provence at 1,400 € and Saint-Raphaël at 1,300 €, and far above Mâcon at 800 €. These are residential benchmarks, not holiday rates, but they rank local markets correctly. For a one-income household the consequence runs both ways: accommodation will weigh more than in Poitiers or Mâcon, and transport will weigh less, since the network replaces the hire car. Over a week the second offsets part of the first, which is not true everywhere. For anything medical, dial 15 for a life-threatening emergency, 112 from any mobile, and 116 117 for out-of-hours advice; the health directory on ameli.fr locates a doctor before you need one. On funding, four routes and no amounts, because the scales are revised and calculated on your quotient familial, the means-tested family coefficient the CAF, France's family benefits agency, works out per household. VACAF (vacaf.org) approves holiday centres and deducts its help from the bill, so the establishment has to be checked as approved before booking and not after; ANCV Chèques-Vacances (ancv.com) are widely accepted for cultural ticketing; the Haute-Garonne CAF runs holiday grants through caf.fr; and the employer's works council often negotiates ticketing on named venues, the big Toulouse sites among them. All follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["toulouse", "montauban", "albi", "castres"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "toulouse with kids",
+      "car-free holidays france",
+      "occitanie",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-pau-2026",
+    title: "Single-parent holidays in Pau: a free funicular from the station",
+    metaTitle: "Single-Parent Holidays in Pau 2026",
+    metaDesc:
+      "Pau alone with the kids: a free funicular lifts you from the station to the centre, nature 7.0/10. But transport 6.1 — the Pyrenees need a plan.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    intro:
+      "Pau scores 6.2/10 on our single-parent composite, top of this selection alongside Toulouse and Mâcon, on safety 5.7/10, transport 6.1/10, cost of living 6.2/10 and quality of life 6.6/10 (source: data/cities-seed.ts). It carries the second-best nature score of the batch after Saint-Raphaël, 7.0/10, and the reference three-room flat costs 900 € against 2,400 € per square metre to buy (source: data/housing.ts), which puts it in the affordable half of the selection. The decisive argument when you arrive alone with children and luggage is none of those figures, though: a free funicular railway climbs from the station to the town centre. This guide says what that settles, and what the 6.1 on transport does not.",
+    sections: [
+      {
+        heading: "The funicular: the station is at the bottom, the town is at the top, and the climb is free",
+        body: "Pau is built on a ridge. The station sits at the foot, the centre sits at the top, and between them is a change of level nobody tackles cheerfully with a suitcase in one hand and a child in the other. The boulevard des Pyrénées funicular, in service since 1908, links the station to the place Royale, and it has been free to use since 1978. For an adult travelling alone with children, that is the kind of detail that decides whether an arrival goes well: no taxi to find, no bus to work out, no climb to negotiate. You come out of the train, you take the car, you are in the centre. The service closes on some public holidays and its hours differ between weekdays and Sundays, so checking before a late arrival removes the only bad surprise available. At the top, the boulevard des Pyrénées opens onto the mountain range, which also settles the children's first question.",
+      },
+      {
+        heading: "Nature 7.0/10 but transport 6.1: the Pyrenees are easier to look at than to reach",
+        body: "Pau shows 7.0/10 on the nature axis, second in this batch behind Saint-Raphaël at 7.1 and ahead of Aix-en-Provence at 6.4 (source: data/cities-seed.ts). That is the town's promise, and it has to be bounded straight away. On the transport axis Pau comes out at 6.1/10, level with Aix-en-Provence and last in this selection; it is flagged as TGV-served and equipped with bus rapid transit, with no tram and no metro (source: lib/transit.ts). Inside the town that is amply enough for a commune of 78,620 inhabitants at the 2022 census (source: data/city-population.json). For going into the mountains, it is not. The Béarn valleys are reached by regional coach or by organised excursion, at frequencies that have nothing to do with an urban network. The honest position is therefore this: Pau itself works very well without a car, the Pyrenees from Pau work with a plan, and that plan is made before booking, not on arrival.",
+      },
+      {
+        heading: "What is walkable: the château, the boulevard, the parks",
+        body: "The centre fits inside a perimeter a six-year-old crosses without protest. The Château de Pau, where Henri IV was born, stands at the end of the boulevard; it is a short indoor visit with a story that can be told in three sentences, which is worth more than a succession of rooms. The Parc Beaumont, the sentiers du Roy and the Palmeraie, the Parc Lawrance, the Parc Noulibos and the Square des Anglais are among the green spaces recorded in the commune (source: data/city-parks.json). The Parc Beaumont is the one that settles a late afternoon: central, enclosed and big enough for you to sit down while the children run. Our survey caps at forty parks per commune and Pau reaches that cap, so the number is a floor and not a total. Culture 6.6/10 (source: data/cities-seed.ts): the supply exists, it is mid-format, and that is rather good news when one adult has to keep the pace.",
+      },
+      {
+        heading: "The climate shown is not Pau's, and you should know it",
+        body: "This is the most important reservation in this guide, and it comes from our data rather than from the town. Our climate engine attaches each commune to the nearest Météo-France station it knows. For Pau, that station is Toulouse-Blagnac, 146 kilometres away (source: lib/climate-normals.ts). That is the widest gap in the whole series, far beyond the 71 km of Besançon. The monthly values displayed for Pau are therefore literally Toulouse's, taken on the far side of the Gers, whereas Pau backs onto the Pyrenees under a wetter oceanic regime. At seed level, the annual anchors that belong to the town give 6 °C on average in January and 23 °C in July (source: data/cities-seed.ts): those are the figures to keep, and the month-by-month detail should be treated as an indication of trend, not as a measurement. In practice, expect rain more often than the table suggests.",
+      },
+      {
+        heading: "When to go: eight months at 1 out of 5",
+        body: "Our crowding indicator puts Pau at 1 out of 5 for eight months of the year, 2 in June and September, and 3 only at the height of July and August (source: lib/vacation-seasons.ts). That is the calmest regime on our scale, shared in this batch with Aix-en-Provence, Poitiers and Metz. It is a model crossing destination type with season, not a headcount: Pau inherits the low tier because it is neither coastal, nor a ski resort, nor a metropolis. Concretely that points at April, May, late September and October, with the advantage that the funicular and the parks work all year. The All Saints half-term holds up provided you accept a largely indoor programme, which the château and the museums allow. One last thing about the view: the range is visible in clear weather and gone under cloud, and no calendar guarantees either. Pau is in Zone A for school holidays, through the académie de Bordeaux; the zones only split the February and spring breaks, and the year's dates are at education.gouv.fr.",
+      },
+      {
+        heading: "Safety 5.7/10, a budget in the lower half, and money help",
+        body: "Pau shows 5.7/10 on the safety axis, level with Poitiers in this batch, behind Saint-Raphaël at 6.2 and Aix-en-Provence at 5.9, and far above Toulouse at 4.3 (source: data/cities-seed.ts). It is an aggregate communal figure describing a whole commune, not a district and not an hour, and it passes no judgement on its residents. In use it describes a mid-sized town whose centre is walkable in the evening without particular reservation for one adult with children. On budget, Pau is rated €€€ (source: lib/vacation-fit.ts) with a cost-of-living axis of 6.2/10, a reference three-room flat at 900 € and 2,400 € per square metre (source: data/housing.ts). On the cost axis Pau is exactly level with Metz and behind Mâcon and Poitiers, both at 6.6. For anything medical, dial 15 for a life-threatening emergency, 112 from any mobile, and 116 117 for out-of-hours advice; the health directory on ameli.fr locates a doctor before you need one. On funding, four routes and no amounts, because the scales are revised and calculated on your quotient familial, the means-tested family coefficient the CAF, France's family benefits agency, works out per household. VACAF (vacaf.org) approves holiday centres and deducts its help from the bill, so check the establishment is approved before booking; ANCV Chèques-Vacances (ancv.com) are widely accepted; the Pyrénées-Atlantiques CAF runs holiday grants through caf.fr, several months ahead; and the employer's works council often negotiates ticketing on named venues. All follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["pau", "tarbes", "bayonne", "biarritz"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "pau with kids",
+      "pyrenees",
+      "nouvelle-aquitaine",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-macon-2026",
+    title: "Single-parent holidays in Mâcon: the cheapest stop in this series",
+    metaTitle: "Single-Parent Holidays in Mâcon 2026",
+    metaDesc:
+      "Mâcon alone with the kids: the cheapest of the twenty-two destinations in this series, 800 € for a three-room flat. But the TGV stops at Loché, 7 km out.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    intro:
+      "Mâcon scores 6.2/10 on our single-parent composite, top of this selection alongside Toulouse and Pau, on safety 5.5/10, transport 7.0/10, cost of living 6.6/10 and quality of life 6.2/10 (source: data/cities-seed.ts). It is the cheapest of the twenty-two destinations this series has covered: 800 € for the reference three-room flat and 2,100 € per square metre to buy, the latter level with Poitiers (source: data/housing.ts), and one of only two €€ ratings in the batch, with Poitiers (source: lib/vacation-fit.ts). For a one-income household that is the main argument. This guide says what you get for that price in a commune of 34,759 inhabitants, and the arrival trap to know about before booking a ticket.",
+    sections: [
+      {
+        heading: "The ticket trap: the TGV stops at Loché, not at Mâcon",
+        body: "Mâcon is flagged as TGV-served (source: lib/transit.ts), and the flag is accurate. It hides the distinction that decides how good an arrival is when you are carrying bags and holding a hand. Mâcon-Loché-TGV station sits about seven kilometres from the town centre, on the high-speed line, in the neighbouring commune of Loché; Mâcon-Ville station is right in the centre, a few minutes on foot from everything that matters, and is served by TER, the regional trains. In other words, the fastest train drops you furthest away. The practical consequence is simple and worth repeating: when booking, read the name of the arrival station on the ticket rather than just the letters TGV, and if it says Loché, arrange the link into town before you leave. It is exactly the trap Besançon and Valence set in earlier batches, and it is the one that costs most in exhaustion on day one.",
+      },
+      {
+        heading: "The lowest budget in the series, and what that means",
+        body: "On the cost-of-living axis a high score means affordable. Mâcon comes out at 6.6/10, level with Poitiers, second in the whole series behind Valence at 6.7 (source: data/cities-seed.ts). The residential market confirms the order of magnitude and pushes it further: 800 € for the reference three-room flat, the lowest of the twenty-two cities treated, and 2,100 € per square metre (source: data/housing.ts). These are local market benchmarks rather than holiday rates, but they say something real. A town where the square metre goes for 2,100 € does not post the same weekly rentals as a town at 5,000 €, and Aix-en-Provence, in this same batch, is at 5,000 €. For an adult paying alone for a whole household's accommodation, with nobody to share a room with, that is where the gap opens fastest. Mâcon is this batch's choice when the budget gives the orders.",
+      },
+      {
+        heading: "A town of 34,000 is walked, and walking is the real transport",
+        body: "Mâcon shows 7.0/10 on the transport axis (source: data/cities-seed.ts), level with Saint-Raphaël in this batch, but with no tram, no metro and no bus rapid transit: it is a bus-coverage score in a compact commune (source: lib/transit.ts). The right way to read it is that at this size the main transport is your legs. The centre and the Saône quayside are covered without ever getting back into a vehicle, which with children removes the most tiresome logistical item of a stay. The Parc Nord, the Vallon des Rigolettes, the arboretum, the Parc de l'Abîme, the Esplanade Du Breuil and the Jardin Pierre Semard are among the twenty-one green spaces recorded in the commune (source: data/city-parks.json). Unlike the totals for the big cities in this batch, that one is not capped by our survey: Mâcon genuinely has fewer, because it is smaller.",
+      },
+      {
+        heading: "The Saône, the Roche de Solutré, and the limit worth setting",
+        body: "The Saône runs through the town and provides the walk a stay is built around: the quays are flat, wide and continuous, which is the best possible configuration for one adult watching two children on bikes or scooters. Nature 5.7/10 (source: data/cities-seed.ts), a middling score matching what you see: a river town rather than a country one. The great sites of the Mâconnais, starting with the Roche de Solutré and its prehistory museum, belong to neighbouring communes and are not reached on foot from Mâcon. They are accessible from Mâcon, which is not the same as being located there: without a car that means a regional coach or an excursion, to be checked before a day is built on it. The vineyards that made the district's name are not a children's programme, and are better treated as scenery on the way than as a visit.",
+      },
+      {
+        heading: "When to go: 2 out of 5 off-season, and why it is not 1",
+        body: "Our crowding indicator puts Mâcon at 2 out of 5 for eight months, 3 in June and September, and 4 in July and August (source: lib/vacation-seasons.ts). That is one notch above Pau, Poitiers, Metz and Aix-en-Provence, which drop to 1, and the reason should be stated: the indicator is a model crossing destination type with season, and Mâcon inherits the middle tier because its characteristics class it as wine country. So it is not a visitor count, it is a reading of a profile, and a reader who finds the town quieter than the table says would not be wrong. On climate, the reference station is Lyon-Bron, 65 kilometres away (source: lib/climate-normals.ts), which is a reasonable attachment: the Saône valley and the Rhône valley share most of their regime. The town's own anchors give 3.5 °C in January and 22.5 °C in July (source: data/cities-seed.ts). Mâcon is in Zone A for school holidays, through the académie de Dijon; the zones only split the February and spring breaks, and the dates are at education.gouv.fr.",
+      },
+      {
+        heading: "Safety 5.5/10, evening logistics and money help",
+        body: "Mâcon shows 5.5/10 on the safety axis (source: data/cities-seed.ts), mid-table in this batch, behind Saint-Raphaël at 6.2, Aix-en-Provence at 5.9, Pau and Poitiers at 5.7, and ahead of Metz at 5.3 and Toulouse at 4.3. It is an aggregate communal figure describing a whole commune, not a district and not an hour, and it passes no judgement on its residents. In use it describes a mid-sized town whose centre is walkable in the evening without particular reservation for one adult with children. Two logistics points that count more here than in a big city. First, off-season the kitchens close early on weekdays: aim for 19:30 to eat, and do not count on being rescued at 21:00, which surprises visitors used to later dining. Second, for anything medical, dial 15 for a life-threatening emergency, 112 from any mobile, and 116 117 for out-of-hours advice; the health directory on ameli.fr locates a doctor before you need one rather than in a hurry. On funding, four routes and no amounts, because the scales are revised and calculated on your quotient familial, the means-tested family coefficient the CAF, France's family benefits agency, works out per household. VACAF (vacaf.org) approves holiday centres and deducts its help from the bill; ANCV Chèques-Vacances (ancv.com) are widely accepted; the Saône-et-Loire CAF runs holiday grants through caf.fr, several months ahead; and the employer's works council often negotiates ticketing. All follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["macon", "bourg-en-bresse", "chalon-sur-saone", "lyon"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "macon with kids",
+      "burgundy",
+      "bourgogne-franche-comte",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-aix-en-provence-2026",
+    title: "Single-parent holidays in Aix-en-Provence: the most expensive in this series",
+    metaTitle: "Single-Parent Holidays in Aix-en-Provence 2026",
+    metaDesc:
+      "Aix alone with the kids: the priciest of the twenty-two destinations here, 1,400 € for a three-room flat. What quality of life 7.8 and culture 8.4 buy.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    intro:
+      "Aix-en-Provence scores 6.1/10 on our single-parent composite, fourth in this selection level with Poitiers and Saint-Raphaël, on safety 5.9/10, transport 6.1/10, cost of living 3.6/10 and quality of life 7.8/10 (source: data/cities-seed.ts). That 3.6 on cost is the lowest of the twenty-two destinations this series has treated: on this axis a low score means expensive, so Aix is the priciest town in the corpus, at 1,400 € for the reference three-room flat and 5,000 € per square metre to buy (source: data/housing.ts). It still comes fourth on a profile that weights cost at 0.25. This guide says exactly what paid for that ranking, and what it costs a household on one income.",
+    sections: [
+      {
+        heading: "The most expensive town in the series, and what keeps it in the ranking",
+        body: "Start there, because it is the only question that matters when you pay alone. The single-parent profile weights safety at 0.30, transport at 0.25, cost at 0.25 and quality of life at 0.20 (source: lib/vacation-fit.ts). Aix loses heavily on cost, at 3.6/10, and makes it back on the other three: quality of life 7.8/10, the best of this batch level with Saint-Raphaël, culture 8.4/10, the best of the batch, and safety 5.9/10, second in the batch (source: data/cities-seed.ts). The ranking is honest but should be read for what it is: Aix is not here because it is affordable, it is here in spite of its price. In concrete terms, for an adult sharing neither a room nor a budget, the gap with Mâcon in this same batch is 600 € on the reference three-room flat and 2,900 € per square metre. Take the decision knowingly, and off-season rather than in August.",
+      },
+      {
+        heading: "The TGV station is fifteen kilometres out, and the town station is a different station",
+        body: "Aix is flagged as TGV-served and equipped with bus rapid transit (source: lib/transit.ts), and here again the flag hides a decisive distinction. Aix-en-Provence TGV station sits about fifteen kilometres south-west of the centre, on the boundary between Aix and Cabriès; it is linked to the Aix bus station by a regular shuttle, and the bus station is itself a few hundred metres from the centre. Aix-en-Provence Centre station, by contrast, is in the town, and is served by TER, the regional trains, notably towards Marseille. For a lone parent that translates into a simple rule: a TGV ticket means a bus connection with the luggage, a TER ticket means arriving in the centre. Neither is bad, but the two are not prepared the same way, and the choice is made when you book.",
+      },
+      {
+        heading: "A compact centre, and parks that settle the late afternoon",
+        body: "Aix's asset for a lone adult is compactness: the old town is crossed on foot, the cours Mirabeau organises it, and you practically never need transport inside the visitor perimeter. The Parc Jourdan, the Parc de la Torse, the Parc Saint-Mitre, the Parc Rambot, the Parc Vendôme, the Japanese garden and the Parc de la Bastide du Jas de Bouffan are among the thirty-one green spaces recorded in the commune (source: data/city-parks.json); that total does not reach our forty-park cap, so it is a count and not a floor. The Parc Jourdan is the most useful of the seven: central, shaded and big enough for an adult to sit down. Culture 8.4/10 (source: data/cities-seed.ts): between the museums, Cézanne's studio and the art foundations, the supply goes well beyond what a week absorbs, which means you can choose without regret.",
+      },
+      {
+        heading: "Our crowding indicator underrates Aix, and it should be said",
+        body: "Our model puts Aix at 1 out of 5 for eight months, 2 in June and September, and 3 only in July and August (source: lib/vacation-seasons.ts). That is the calmest regime on our scale, and for this town it should be taken with care. The indicator crosses destination type with season: it gives the top tier to communes of more than 200,000 inhabitants and to coastal destinations. Aix counted 147,933 inhabitants at the 2022 census (source: data/city-population.json) and is not classed as coastal, so it falls to the bottom tier by construction. Anyone who has seen the cours Mirabeau on 14 August knows that 3 is optimistic. The practical conclusion does not change, it is reinforced: aim for April, May, late September and October, when the climate is good and the price follows the crowds. On that point our indicator and experience say the same thing.",
+      },
+      {
+        heading: "The climate, with the station and its distance",
+        body: "The reference station our engine picks for Aix is Marseille-Marignane, 21 kilometres away (source: lib/climate-normals.ts). That is a close attachment, but it is not neutral: Marignane sits on the edge of the Étang de Berre lagoon and Aix is inland and slightly higher, which makes summer nights cooler in Aix than the table suggests. The values shown give a July average of 25.2 °C with 2 rain days and 12 hours of sun a day, against 7.7 °C in January with 6 rain days. The town's own seed anchors carry 6.8 °C in January and 27.3 °C in July (source: data/cities-seed.ts). The order of magnitude is clear and it dictates the programme: in July and August, a stay with children is organised early in the morning and late in the afternoon, with something indoors in the middle of the day, and you carry the water rather than buying it on the way. Aix is in Zone B for school holidays, through the académie d'Aix-Marseille; the zones only split the February and spring breaks, and the dates are at education.gouv.fr.",
+      },
+      {
+        heading: "Safety 5.9/10, evenings, and why the funding starts early",
+        body: "Aix shows 5.9/10 on the safety axis, second in this batch behind Saint-Raphaël at 6.2 and ahead of Pau and Poitiers at 5.7 (source: data/cities-seed.ts). It is an aggregate communal figure: it describes a whole commune, not a district and not an hour of the day, and it passes no judgement on its residents. In use it describes a mid-sized university town whose centre is walkable in the evening without particular reservation for one adult with children. Two logistics points belonging to the warm season. First, evenings run long and lively, which works in your favour: eating at 20:00 on a terrace with children is not an anomaly here. Second, for anything medical, dial 15 for a life-threatening emergency, 112 from any mobile, and 116 117 for out-of-hours advice; the health directory on ameli.fr locates a doctor before you need one. On funding, four routes and no amounts, because the scales are revised and calculated on your quotient familial, the means-tested family coefficient the CAF, France's family benefits agency, works out per household. It is on an expensive destination like Aix that these schemes weigh most, so start earliest. VACAF (vacaf.org) approves holiday centres and deducts its help from the bill; ANCV Chèques-Vacances (ancv.com) are widely accepted for cultural ticketing; the Bouches-du-Rhône CAF runs holiday grants through caf.fr; and the employer's works council often negotiates ticketing on named venues. All follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["aix-en-provence", "marseille", "salon-de-provence", "avignon"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "aix-en-provence with kids",
+      "provence",
+      "provence-alpes-cote-d-azur",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-poitiers-2026",
+    title: "Single-parent holidays in Poitiers: a theme park you reach by train",
+    metaTitle: "Single-Parent Holidays in Poitiers 2026",
+    metaDesc:
+      "Poitiers alone with the kids: the Futuroscope has its own TGV station and a city bus. A big theme park without hiring a car, at 2,100 € per square metre.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    intro:
+      "Poitiers scores 6.1/10 on our single-parent composite, fourth in this selection level with Aix-en-Provence and Saint-Raphaël, on safety 5.7/10, transport 6.4/10, cost of living 6.6/10 and quality of life 5.9/10 (source: data/cities-seed.ts). With Mâcon it is one of only two €€ destinations in this batch (source: lib/vacation-fit.ts), at 880 € for the reference three-room flat and 2,100 € per square metre to buy, the latter the lowest in the series alongside Mâcon (source: data/housing.ts). But the argument that decides it, for an adult travelling alone with children and without a car, fits in one sentence: the Futuroscope has its own TGV station. This guide says what that allows, and what Poitiers does not do.",
+    sections: [
+      {
+        heading: "A big theme park without hiring a car, which is rare",
+        body: "This is the structuring fact of the stay and it has no equivalent in the twenty-two destinations this series has treated so far. The Futuroscope, a science and moving-image theme park, sits north of Poitiers, on the communes of Chasseneuil-du-Poitou and Jaunay-Marigny, and it has a TGV station at its foot, about ten kilometres from Poitiers. The Vitalis urban network also links Poitiers station to the site. For a lone parent that settles the most expensive problem of this kind of outing: no car hire for a single day, no parking to find on the way back, no driving after a whole day walking with tired children. Two practical reservations to handle before leaving. Bus lines and frequencies change, so they are checked with the operator and not in a guide. And the park is a neighbouring site, accessible from Poitiers; it is not located in Poitiers.",
+      },
+      {
+        heading: "The price: second most affordable in the series, level with Mâcon",
+        body: "On the cost-of-living axis a high score means affordable. Poitiers comes out at 6.6/10, exactly level with Mâcon and second in the whole series behind Valence at 6.7 (source: data/cities-seed.ts). The residential market confirms it: 880 € for the reference three-room flat and 2,100 € per square metre to buy, level with Mâcon for the lowest in the series (source: data/housing.ts). These are local market benchmarks and not holiday rates, but they rank markets correctly: the gap with Aix-en-Provence, in this same batch, is 520 € on the flat and 2,900 € per square metre. When you pay alone for a whole household's accommodation, with no room to share, that is where the gap opens fastest, and it is what makes Poitiers a serious candidate despite middling comfort scores.",
+      },
+      {
+        heading: "What Poitiers does not do: culture 6.2 and quality of life 5.9",
+        body: "This needs saying as plainly as the rest. Poitiers shows 6.2/10 on culture, the lowest of this batch of seven, behind Aix-en-Provence at 8.4 and Toulouse at 8.0 (source: data/cities-seed.ts), and 5.9/10 on quality of life, level with Metz for the lowest of the twenty-two destinations in the series. That is not a judgement on the town, it is a description of what a week there finds: a mid-format urban offer, not a cultural capital. The practical consequence is that a stay in Poitiers is organised around one or two set pieces, the Futuroscope first, rather than around an accumulation. For a lone parent that is not a bad structure, in fact: two full, well-prepared days are less tiring than a week of dense programming, and they cost less. Nature 5.0/10, level with Toulouse and second from last in the batch, ahead of Metz at 4.8.",
+      },
+      {
+        heading: "The centre on foot, and the Parc de Blossac",
+        body: "The historic centre is tightly packed, which is the configuration that suits. Notre-Dame-la-Grande and the Baptistère Saint-Jean, one of the oldest Christian buildings in France, are seen in the same morning, and both are short visits, which beats one long one with children. The Parc de Blossac, the Parc naturel et ludique Les Sablons, the Îlot Tison, the Parc de la Gibauderie and the Jardin des Plantes are among the green spaces recorded in the commune (source: data/city-parks.json). The Parc de Blossac is the one that settles a late afternoon: central, enclosed and big enough. One method point: our survey caps at forty parks per commune and Poitiers reaches that cap, so forty is a floor and not a total, and it does not compare with a town that falls short of it. Transport 6.4/10, with TGV and bus rapid transit but no tram (sources: lib/transit.ts and data/cities-seed.ts). The commune counted 89,472 inhabitants at the 2022 census (source: data/city-population.json).",
+      },
+      {
+        heading: "When to go: eight months at 1 out of 5, and a climate borrowed from Tours",
+        body: "Our crowding indicator puts Poitiers at 1 out of 5 for eight months, 2 in June and September, and 3 in July and August (source: lib/vacation-seasons.ts): the calmest regime on our scale, shared in this batch with Pau, Metz and Aix-en-Provence. It is a model crossing destination type with season, not a headcount. One point of honesty on climate: the reference station our engine picks is Tours-Saint-Symphorien, 99 kilometres away (source: lib/climate-normals.ts), so the monthly values displayed for Poitiers are in fact those of Tours. The difference in regime between the two towns is modest, but it exists. The anchors that belong to Poitiers give 4.8 °C in January and 22.5 °C in July (source: data/cities-seed.ts). The monthly table also shows 10 to 12 rain days a month from October to February: a half-term or winter stay here is planned with something indoors in reserve. Poitiers is in Zone A for school holidays, through the académie de Poitiers; the zones only split the February and spring breaks, and the dates are at education.gouv.fr.",
+      },
+      {
+        heading: "Safety 5.7/10, evenings and money help",
+        body: "Poitiers shows 5.7/10 on the safety axis, level with Pau in this batch, behind Saint-Raphaël at 6.2 and Aix-en-Provence at 5.9, and well above Toulouse at 4.3 (source: data/cities-seed.ts). It is an aggregate communal figure describing a whole commune, not a district and not an hour, and it passes no judgement on its residents. In use it describes a mid-sized university town whose centre is walkable in the evening without particular reservation for one adult with children. Two logistics points. First, outside term time and off-season the kitchens close early on weekdays: aim for 19:30 to eat. Second, for anything medical, dial 15 for a life-threatening emergency, 112 from any mobile, and 116 117 for out-of-hours advice; the health directory on ameli.fr locates a doctor before you need one. On funding, four routes and no amounts, because the scales are revised and calculated on your quotient familial, the means-tested family coefficient the CAF, France's family benefits agency, works out per household, and it pays to start early if the Futuroscope is on the programme, because big-park ticketing is precisely where these schemes operate. VACAF (vacaf.org) approves holiday centres and deducts its help from the bill; ANCV Chèques-Vacances (ancv.com) are widely accepted in leisure ticketing; the Vienne CAF runs holiday grants through caf.fr; and the employer's works council often negotiates ticketing on named venues. All follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["poitiers", "chatellerault", "niort", "angouleme"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "poitiers with kids",
+      "futuroscope",
+      "nouvelle-aquitaine",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-saint-raphael-2026",
+    title: "Single-parent holidays in Saint-Raphaël: the station is in the town",
+    metaTitle: "Single-Parent Holidays in Saint-Raphaël 2026",
+    metaDesc:
+      "Saint-Raphaël alone with the kids: the station is central, the beach minutes away on foot. Best safety of this batch at 6.2/10, and the second-highest price.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    intro:
+      "Saint-Raphaël scores 6.1/10 on our single-parent composite, fourth in this selection level with Aix-en-Provence and Poitiers, on safety 6.2/10, transport 7.0/10, cost of living 3.9/10 and quality of life 7.8/10 (source: data/cities-seed.ts). It carries the best safety score of this batch of seven and the best nature score, 7.1/10, but also the second-highest cost of the twenty-two destinations in the series, behind Aix-en-Provence: 1,300 € for the reference three-room flat and 4,500 € per square metre to buy (source: data/housing.ts). The trade-off is clear and worth stating up front: you pay here for a place where you never need a car, the station being in the centre and the sea a few minutes away on foot.",
+    sections: [
+      {
+        heading: "The station is in the town, and that is this series' counter-example",
+        body: "This series has spent two batches warning that the TGV flag does not tell you which station you get off at: Besançon at Les Auxons, Valence at Alixan, Mâcon at Loché, Aix at Cabriès. Saint-Raphaël is the opposite, and that is its main argument. Saint-Raphaël-Valescure station stands in the town centre, about 800 metres from its heart, on the Marseille to Ventimiglia line; it is served both by TGV and by TER regional trains, and the beaches and the old harbour are a few minutes away on foot. For an adult arriving alone with children and luggage, the consequence is immediate: no connection, no shuttle, no taxi. You get off the train and you have arrived. The same coastal line then runs on towards Cannes and Nice, which turns excursions into regional train rides rather than days of driving.",
+      },
+      {
+        heading: "Safety 6.2/10, the best of the batch",
+        body: "Saint-Raphaël shows 6.2/10 on the safety axis, top of this selection ahead of Aix-en-Provence at 5.9, Pau and Poitiers at 5.7, Mâcon at 5.5, Metz at 5.3 and Toulouse at 4.3 (source: data/cities-seed.ts). Across the twenty-two destinations this series has treated, it comes third, behind Vannes at 6.9 and La Rochelle at 6.5. It is an aggregate communal figure: it describes a whole commune, not a district and not an hour of the day, and it passes no judgement on its residents. In use it describes a mid-sized seaside town of 36,632 inhabitants at the 2022 census (source: data/city-population.json), whose seafront is walkable in the evening without particular reservation for one adult with children. The reservation is not there: it is in the crowding, dealt with below, and in the swimming, which obeys signage and municipal orders.",
+      },
+      {
+        heading: "The price: what a town where you need nothing costs",
+        body: "The cost-of-living axis comes out at 3.9/10, a low score meaning expensive, and it is the second highest in the series behind Aix-en-Provence at 3.6 (source: data/cities-seed.ts). The local market benchmarks say the same: 1,300 € for the reference three-room flat and 4,500 € per square metre to buy (source: data/housing.ts), which is 500 € more than Mâcon on the flat in this same batch. Saint-Raphaël is rated €€€€ on our stay-budget scale (source: lib/vacation-fit.ts). For a one-income household the trade sets up like this: the accommodation line is high, but the car, fuel and parking lines fall to zero, which is true of no other coastal destination in this series. So the arithmetic depends entirely on length of stay. Over three days the price of the room dominates; over ten days with daily outings, the absence of a car recovers part of the gap.",
+      },
+      {
+        heading: "Nature 7.1/10: the Estérel starts at the edge of town",
+        body: "That is the best nature score of this batch, ahead of Pau at 7.0 and Aix-en-Provence at 6.4 (source: data/cities-seed.ts), and it matches a geographic reality: the Estérel massif and its red rock border the commune, and the coast alternates coves and beaches over several kilometres. One method point counts more here than elsewhere. Our green-space survey records only thirteen named parks in the commune, among them the Jardin Bonaparte, the Jardin des Corailleurs, the Square Alphonse Karr and the Jardin Pierre Fernez (source: data/city-parks.json). That is the lowest total of the twenty-two destinations in the series, and it does not mean Saint-Raphaël is short of greenery: our source is a contributory map, on which nobody having mapped it and there being nothing there look the same. Here the open space is the massif and the shoreline, which are not urban parks.",
+      },
+      {
+        heading: "When to go: the busiest regime on our scale",
+        body: "Our crowding indicator never drops below 3 out of 5 in Saint-Raphaël, rises to 4 in June and September and reaches 5 in July and August (source: lib/vacation-seasons.ts). That is the top tier, shared in this series with Lyon, Bordeaux, Nantes, Rennes, Strasbourg and Toulouse. It is a model crossing destination type with season: Saint-Raphaël inherits the top tier because it reads as a Mediterranean coastal destination, which is accurate. On climate, the reference station is Nice-Côte d'Azur, 44 kilometres away (source: lib/climate-normals.ts); it gives a July average of 24.1 °C with 2 rain days, and 9.5 °C in January. The town's own anchors carry 10 °C in January, the mildest of the batch, and 27 °C in July (source: data/cities-seed.ts). The window to aim for as a lone parent is therefore May, June before the 20th, and the second half of September, when the sea is still warm and prices have come down. Saint-Raphaël is in Zone B for school holidays, through the académie de Nice; the zones only split the February and spring breaks, and the dates are at education.gouv.fr.",
+      },
+      {
+        heading: "Swimming: the flags are statutory, and money help",
+        body: "This is the safety point of this guide, and it cannot be delegated. On a supervised beach the green, yellow and red signage is statutory and binding: it describes the state of the sea and the level of supervision at the moment you read it, not the weather for the day. Outside the supervised zones and hours nobody is watching the water, and that is exactly the hardest configuration for one adult with several children, since you cannot follow two swimmers at once. The Estérel coves are beautiful and mostly unsupervised: treat them as places to walk and picnic, not as swimming pools. Municipal and prefectoral orders can also close a beach for health or safety reasons; they are posted on site and they prevail, whatever any guide says, this one included. For anything medical, dial 15 for a life-threatening emergency, 112 from any mobile, and 116 117 for out-of-hours advice; the health directory on ameli.fr locates a doctor before you need one. On funding, four routes and no amounts, because the scales are revised and calculated on your quotient familial, the means-tested family coefficient the CAF, France's family benefits agency, works out per household. On an expensive coastal destination it is the lever that changes the final bill most, and it is triggered months ahead. VACAF (vacaf.org) approves holiday centres, including coastal holiday villages and campsites, and deducts its help from the bill, so check the establishment is approved before booking; ANCV Chèques-Vacances (ancv.com) are widely accepted in open-air accommodation and leisure ticketing; the Var CAF runs holiday grants through caf.fr; and the employer's works council often negotiates whole stays on this kind of destination. All follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["saint-raphael", "frejus", "cannes", "draguignan"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "saint-raphael with kids",
+      "french riviera",
+      "provence-alpes-cote-d-azur",
+    ],
+  },
+  {
+    slug: "single-parent-holidays-metz-2026",
+    title: "Single-parent holidays in Metz: the station exit is the museum forecourt",
+    metaTitle: "Single-Parent Holidays in Metz 2026",
+    metaDesc:
+      "Metz alone with the kids: the station's south exit opens onto the Centre Pompidou-Metz forecourt. No connection with the bags, and 910 € for a three-room flat.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    intro:
+      "Metz scores 6.0/10 on our single-parent composite, seventh in this selection, on safety 5.3/10, transport 6.7/10, cost of living 6.2/10 and quality of life 5.9/10 (source: data/cities-seed.ts). It closes the batch, and the reason should come before what redeems it: quality of life at 5.9 is the lowest of the twenty-two destinations in this series, level with Poitiers, and nature at 4.8 is the lowest of the batch. What redeems it fits in a sentence and an architectural detail: the south exit of Metz-Ville station opens onto the forecourt of the Centre Pompidou-Metz. For an adult travelling alone with children and luggage, that absence of a connection is worth several points of comfort.",
+    sections: [
+      {
+        heading: "Get off the train and you have arrived: the station and the Centre Pompidou",
+        body: "The Centre Pompidou-Metz, the regional offshoot of the Paris modern-art museum, was built in the Amphithéâtre quarter immediately south of the station, and the station's south exit opens onto its forecourt. So there is no bus to find, no tram to work out and no taxi to negotiate between the train arriving and the first activity of the stay. When you travel alone with children, that configuration cannot be replaced: the first hour after arrival is when everyone is tired, the bags weigh most, and a missed connection decides the mood of the rest of the day. The station building itself, monumental, is worth a look before you step outside. Metz is flagged as TGV-served and equipped with bus rapid transit (source: lib/transit.ts), with no tram, for a transport axis of 6.7/10 (source: data/cities-seed.ts), fourth in this batch behind Toulouse at 7.5 and the Mâcon and Saint-Raphaël pair at 7.0.",
+      },
+      {
+        heading: "Culture 7.3/10: what Metz has and the rest of the batch does not",
+        body: "Metz shows 7.3/10 on the culture axis, third in this batch behind Aix-en-Provence at 8.4 and Toulouse at 8.0, and ahead of Mâcon at 6.9 and then Pau and Saint-Raphaël at 6.6 (source: data/cities-seed.ts). In a city whose general quality of life comes out at 5.9, culture is what carries the stay, and it carries it well. The Saint-Étienne cathedral is the monument children actually look at, because of the light: its stained glass covers a considerable area, which earned it the nickname of the Good Lord's lantern, and a nave of that height makes its effect without anything needing to be explained. The Centre Pompidou-Metz completes it with an exhibition format that holds a child's attention better than a permanent collection does. Two set pieces in two days, a few hundred metres apart: exactly the rhythm one adult on their own can keep.",
+      },
+      {
+        heading: "Nature 4.8/10, the lowest of the batch, and what that changes",
+        body: "Metz comes out at 4.8/10 on the nature axis, last in this selection behind Toulouse and Poitiers at 5.0, and level with Nancy across the series as a whole (source: data/cities-seed.ts). Take it seriously: this is not the destination you come to for open air, and a stay built on days outdoors will be thwarted more often here than elsewhere. That said, the city is not mineral. The Jardins Jean-Marie Pelt, the Esplanade, the Parc de la Roseraie, the Parc du Pas du Loup and the Parc de Gloucester are among the green spaces recorded in the commune (source: data/city-parks.json), and the Esplanade drops towards the water, which supplies the late-afternoon walk. Our survey caps at forty parks per commune and Metz reaches that cap: the number is therefore a floor, not a total.",
+      },
+      {
+        heading: "The price: in the affordable half, at 910 € for a three-room flat",
+        body: "On the cost-of-living axis a high score means affordable. Metz comes out at 6.2/10, level with Pau in this batch, behind Mâcon and Poitiers at 6.6 (source: data/cities-seed.ts). The residential market confirms it: 910 € for the reference three-room flat and 2,300 € per square metre to buy (source: data/housing.ts), the third lowest price of the selection. Metz is rated €€€ on our stay-budget scale (source: lib/vacation-fit.ts). These are local market benchmarks and not holiday rates, but the ordering they give is reliable, and the gap with Aix-en-Provence in this same batch is 490 € on the flat and 2,700 € per square metre. For a one-income household after a city of art without the price of a city of art, this is the most coherent proposition of the seven.",
+      },
+      {
+        heading: "When to go: eight months at 1 out of 5, but a blunt, wet winter",
+        body: "Our crowding indicator puts Metz at 1 out of 5 for eight months, 2 in June and September, and 3 in July and August (source: lib/vacation-seasons.ts): the calmest regime on our scale, shared in this batch with Pau, Poitiers and Aix-en-Provence. It is a model crossing destination type with season, not a headcount. The climate gives more orders. The town's own anchors give 2.7 °C on average in January and 21.2 °C in July (source: data/cities-seed.ts): the coldest winter and the least hot summer of this selection. The monthly table adds 9 to 12 rain days a month across the whole year, with no genuinely dry month. One point of honesty: the reference station our engine picks is Strasbourg-Entzheim, 125 kilometres away (source: lib/climate-normals.ts), so the monthly detail displayed for Metz is in fact Alsatian, and reads as a trend. Metz is in Zone B for school holidays, through the académie de Nancy-Metz; the zones only split the February and spring breaks, and the dates are at education.gouv.fr.",
+      },
+      {
+        heading: "Safety 5.3/10, evenings and money help",
+        body: "Metz shows 5.3/10 on the safety axis, sixth in this batch ahead of Toulouse at 4.3 and behind Mâcon at 5.5 (source: data/cities-seed.ts). It is an aggregate communal figure: it describes a whole commune, not a district and not an hour of the day, and it passes no judgement on its residents. In use it describes a mid-sized city of 121,695 inhabitants at the 2022 census (source: data/city-population.json), whose centre is walkable in the evening without particular reservation for one adult with children. Two logistics points. First, in winter darkness falls early and the useful day is short: plan two activities a day rather than three, with something indoors in reserve. Second, for anything medical, dial 15 for a life-threatening emergency, 112 from any mobile, and 116 117 for out-of-hours advice; the health directory on ameli.fr locates a doctor before you need one rather than in a hurry. Metz sits close to both the Luxembourg and German borders, so a day trip across is easy, and both are internal Schengen crossings with no formality but with identity documents carried. On funding, four routes and no amounts, because the scales are revised and calculated on your quotient familial, the means-tested family coefficient the CAF, France's family benefits agency, works out per household. VACAF (vacaf.org) approves holiday centres and deducts its help from the bill; ANCV Chèques-Vacances (ancv.com) are widely accepted for cultural ticketing, which suits a destination whose programme is essentially museum-based; the Moselle CAF runs holiday grants through caf.fr; and the employer's works council often negotiates ticketing on named venues. All follow residence in France, not nationality.",
+      },
+    ],
+    relatedCities: ["metz", "nancy", "thionville", "verdun"],
+    tags: [
+      "single parent holidays",
+      "single parent in france",
+      "metz with kids",
+      "centre pompidou metz",
+      "grand-est",
+    ],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

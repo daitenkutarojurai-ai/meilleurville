@@ -7332,6 +7332,41 @@
       "slug": "single-parent-in-anglet-2026",
       "title": "Single parent in Anglet (2026): the same rent as Bayonne, 1.7 more points of schools",
       "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-toulouse-2026",
+      "title": "Single-parent holidays in Toulouse: the best network, the lowest safety score",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-pau-2026",
+      "title": "Single-parent holidays in Pau: a free funicular from the station",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-macon-2026",
+      "title": "Single-parent holidays in Mâcon: the cheapest stop in this series",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-aix-en-provence-2026",
+      "title": "Single-parent holidays in Aix-en-Provence: the most expensive in this series",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-poitiers-2026",
+      "title": "Single-parent holidays in Poitiers: a theme park you reach by train",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-saint-raphael-2026",
+      "title": "Single-parent holidays in Saint-Raphaël: the station is in the town",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-metz-2026",
+      "title": "Single-parent holidays in Metz: the station exit is the museum forecourt",
+      "emoji": "🧑‍🍼"
     }
   ],
   "tags": [
@@ -7353,7 +7388,7 @@
     {
       "slug": "single-parent-in-france",
       "label": "single parent in france",
-      "count": 81
+      "count": 88
     },
     {
       "slug": "expat-single-parent",
@@ -7368,7 +7403,7 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 50
+      "count": 52
     },
     {
       "slug": "real-estate",
@@ -7378,16 +7413,16 @@
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 48
-    },
-    {
-      "slug": "auvergne-rhone-alpes",
-      "label": "auvergne-rhone-alpes",
-      "count": 41
+      "count": 49
     },
     {
       "slug": "grand-est",
       "label": "grand est",
+      "count": 42
+    },
+    {
+      "slug": "auvergne-rhone-alpes",
+      "label": "auvergne-rhone-alpes",
       "count": 41
     },
     {
@@ -7436,13 +7471,13 @@
       "count": 27
     },
     {
-      "slug": "normandy",
-      "label": "normandy",
-      "count": 25
-    },
-    {
       "slug": "provence-alpes-cote-d-azur",
       "label": "provence-alpes-cote-d-azur",
+      "count": 27
+    },
+    {
+      "slug": "normandy",
+      "label": "normandy",
       "count": 25
     },
     {
@@ -7461,13 +7496,18 @@
       "count": 23
     },
     {
-      "slug": "expat-retirement",
-      "label": "expat retirement",
-      "count": 21
-    },
-    {
       "slug": "provence",
       "label": "provence",
+      "count": 22
+    },
+    {
+      "slug": "single-parent-holidays",
+      "label": "single parent holidays",
+      "count": 22
+    },
+    {
+      "slug": "expat-retirement",
+      "label": "expat retirement",
       "count": 21
     },
     {
@@ -7481,14 +7521,14 @@
       "count": 19
     },
     {
-      "slug": "centre-val-de-loire",
-      "label": "centre-val de loire",
+      "slug": "bourgogne-franche-comte",
+      "label": "bourgogne-franche-comte",
       "count": 17
     },
     {
-      "slug": "bourgogne-franche-comte",
-      "label": "bourgogne-franche-comte",
-      "count": 16
+      "slug": "centre-val-de-loire",
+      "label": "centre-val de loire",
+      "count": 17
     },
     {
       "slug": "budget",
@@ -7516,11 +7556,6 @@
       "count": 15
     },
     {
-      "slug": "single-parent-holidays",
-      "label": "single parent holidays",
-      "count": 15
-    },
-    {
       "slug": "loire-valley",
       "label": "loire valley",
       "count": 14
@@ -7541,6 +7576,11 @@
       "count": 12
     },
     {
+      "slug": "burgundy",
+      "label": "burgundy",
+      "count": 11
+    },
+    {
       "slug": "affordable-retirement-france",
       "label": "affordable retirement France",
       "count": 10
@@ -7548,11 +7588,6 @@
     {
       "slug": "atlantic-coast",
       "label": "atlantic coast",
-      "count": 10
-    },
-    {
-      "slug": "burgundy",
-      "label": "burgundy",
       "count": 10
     },
     {
@@ -7566,6 +7601,11 @@
       "count": 10
     },
     {
+      "slug": "french-riviera",
+      "label": "french riviera",
+      "count": 10
+    },
+    {
       "slug": "alsace",
       "label": "alsace",
       "count": 9
@@ -7573,11 +7613,6 @@
     {
       "slug": "auvergne",
       "label": "auvergne",
-      "count": 9
-    },
-    {
-      "slug": "french-riviera",
-      "label": "french riviera",
       "count": 9
     },
     {
@@ -7596,6 +7631,11 @@
       "count": 8
     },
     {
+      "slug": "pyrenees",
+      "label": "pyrenees",
+      "count": 8
+    },
+    {
       "slug": "strasbourg",
       "label": "strasbourg",
       "count": 8
@@ -7608,11 +7648,6 @@
     {
       "slug": "nantes",
       "label": "nantes",
-      "count": 7
-    },
-    {
-      "slug": "pyrenees",
-      "label": "pyrenees",
       "count": 7
     },
     {
@@ -7756,6 +7791,11 @@
       "count": 4
     },
     {
+      "slug": "car-free-holidays-france",
+      "label": "car-free holidays france",
+      "count": 4
+    },
+    {
       "slug": "franche-comte",
       "label": "franche-comte",
       "count": 4
@@ -7823,11 +7863,6 @@
     {
       "slug": "buying-property-in-france",
       "label": "buying property in france",
-      "count": 3
-    },
-    {
-      "slug": "car-free-holidays-france",
-      "label": "car-free holidays france",
       "count": 3
     },
     {
