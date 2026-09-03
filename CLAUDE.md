@@ -1082,6 +1082,65 @@ jamais faites (Villenave-d'Ornon, Talence, Le Bouscat ; Vaulx-en-Velin, Saint-Pr
 rappel du batch 28 : **l'Espace Albert Camus et le fort de la ceinture lyonnaise sont à Bron**, pas
 à Vénissieux).
 
+**Batch 40 — FR, shipped 2026-09-03 : Bergerac, Agde, Thonon-les-Bains, Rambouillet, Béthune,
+Montélimar, Cavaillon.** Trois villes sortent de la liste de gisements laissée par les batches 36
+et 39 (Bergerac, Agde, Thonon-les-Bains) ; les quatre autres sont le même arbitrage qu'aux batches
+26, 32, 34 et 36, **par matière touristique réelle et non par inertie de liste** — le comptage fait
+ce run donne **308 villes du seed sur 540 sans guide tourisme**, dont un haut de liste par
+population presque entièrement francilien et pauvre en matière vérifiable, pendant que
+**Rambouillet** (château national, laiterie de Marie-Antoinette, Bergerie nationale, premier sommet
+du G6), **Béthune** (beffroi UNESCO, Grand-Place Art déco), **Montélimar** et **Cavaillon**
+dormaient sans guide. **Béthune et Cavaillon n'avaient jusqu'ici aucun guide les citant.**
+**Compteurs mesurés : FR 240 (`-a-` strict 233 + 5 en `au-` + 2 en `aux-`), EN 233 ; `GUIDES`
+1050 → 1057.** Aucun nouveau slug hors gabarit. `metaTitle` 32-44 caractères, `metaDesc` 137-151,
+10 sections par guide, densité d'accents 0,133-0,171 **par mot** (seuil ascii-strip 0,09), **0
+em-dash**. `npm run search-index` relancé (1 057 guides, 252 → **254 tags** : `que faire dans les
+Yvelines` et `sorties Hauts-de-France beffrois` franchissent le seuil de 3 guides), d'où le passage
+de `npm run sitemap:check` (FR 29 133 → **29 142 URL**, soit les 7 guides plus les 2 pages de tag).
+Les sept guides sont vérifiés retrouvés par le lookup de `app/villes/[slug]/a-faire/page.tsx`,
+pourvus de leur photo d'en-tête et remontés en 1re position par la recherche inverse
+`relatedCities`.
+⚠️ **Le fait le plus utile du batch est une correction : le vrai Cyrano n'a jamais vécu à Bergerac.**
+Savinien de Cyrano de Bergerac est né à Paris en 1619 ; son père était seigneur de Mauvières et de
+Bergerac, **deux fiefs de la vallée de Chevreuse, à Saint-Forget dans les Yvelines**, le second
+ainsi nommé par un propriétaire du XVIe siècle récompensé pour son aide à la reprise de la ville
+périgourdine aux Anglais. Il ajoute « de Bergerac » à son nom en **1645**, après la revente des
+terres, et l'accent gascon est une invention de Rostand. Même genre de correction côté Thonon :
+**« faire ripaille » ne vient pas du château de Ripaille** — l'expression précède de plusieurs
+décennies le premier pavillon d'Amédée VIII et dérive de « riper », le lieu tenant son nom de
+« rispe », la broussaille.
+⚠️ **Dix affirmations corrigées avant commit, dont six démenties par une mesure sur nos propres
+données et non par une relecture** : Bergerac donnée en recul « alors que la Dordogne attire » (les
+4 villes du département sont plates ou en recul, Bergerac étant la 2e moins mauvaise) ; Agde
+sous-vendue en « une des communes qui grossit le plus vite » alors qu'elle est **la première du
+corpus héraultais à +23,4 %, devant Montpellier** ; Thonon et Montélimar comparés sans chiffre
+(+11,1 % entre Annemasse et Annecy ; +14,1 %, 1re de la Drôme) ; Cavaillon comparée à un « Luberon
+voisin qui gagne » (invérifiable, et 5 des 8 communes vauclusiennes du corpus reculent) ; Béthune
+« stable dans un bassin qui a perdu » sans chiffre (−0,3 % contre −4,1 à −6,2 % chez ses voisines).
+Quatre erreurs de fait pur : Marseille fondée « quelques décennies » avant Agde (600 vs 525 av.
+J.-C. = trois quarts de siècle) ; Cap d'Agde annoncé à 4 km du centre au lieu de **5** ; mérinos
+présents « deux siècles et demi » après 1786 au lieu de **240 ans** ; label patrimoine du XXe siècle
+prêté au Cap d'Agde sans source, supprimé. **Le contrôle qui les a trouvées est un tri complet des
+villes du département sur la population Insee, pas une relecture.**
+Trois prudences à ne pas diluer : convention « **accessible depuis** » sur **Monbazillac** (commune
+à part, ~8 km), **l'Espace Rambouillet qui est à Sonchamp** malgré son nom, et
+**Notre-Dame-de-Lorette / l'Anneau de la Mémoire, à Ablain-Saint-Nazaire** ; le **quartier naturiste
+du Cap d'Agde** traité en une section factuelle et sans jugement, la confusion jouant dans les deux
+sens ; et la **carrière de Cavaillon** nommée pour ce qu'elle était, un quartier contraint sous
+tolérance encadrée, même cadrage que la porte Juive de Carpentras au batch 38. Aucun horaire, aucun
+tarif ; populations Insee 2022 de `data/city-population.json`, **pas les `population` du seed**.
+Écart FR→EN après ce batch : **7 villes** — donc **le prochain run doit être un batch EN**. Quatre
+points de vigilance : `things-to-do-in-agde-2026` doit distinguer Agde du Cap d'Agde dès la
+première ligne ; **la correction Cyrano est de la matière propre à l'angle anglophone** (Rostand est
+joué en anglais depuis un siècle) ; **Béthune a de la matière 14-18 que le FR n'a pas** (l'Anneau de
+la Mémoire porte des noms britanniques et allemands), même arbitrage que Dieppe au batch 37 et
+Cambrai au batch 39 ; et la traversée Thonon-Lausanne demande que le franchissement Schengen soit
+posé comme règle opposable, la Suisse n'étant pas dans l'UE. Pour le batch FR **suivant**, les
+gisements restants sont Saint-Herblain, Mantes-la-Jolie, Istres et les six banlieues de province
+jamais faites, à compléter par les trous mesurés ce run : **Villefranche-sur-Saône**, **Melun**,
+**Alès**, **Le Cannet**, **Conflans-Sainte-Honorine**, **Pontoise**, **Haguenau**, **Blagnac** et
+**Six-Fours-les-Plages**.
+
 **Batch 36 — FR, shipped 2026-08-29 : Orange, Saint-Germain-en-Laye, La Ciotat, Rochefort, Dieppe,
 Douai, Sens.** Sept villes, sept régions différentes, et le même arbitrage qu'aux batches 26, 32 et
 34, assumé une fois de plus contre la liste de gisements : **on choisit par matière touristique

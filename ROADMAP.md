@@ -4176,6 +4176,167 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ---
 
+## Shipped 2026-09-03
+
+- **Série tourisme, batch 40 (FR) : Bergerac, Agde, Thonon-les-Bains, Rambouillet, Béthune,
+  Montélimar, Cavaillon.** La parité était nulle depuis le batch 39 du 01/09 (233 FR / 233 EN),
+  donc la main revenait au FR. **Compteurs mesurés : FR 240 (`grep -c 'slug: "10-choses-a-faire-a[ux]*-.*-2026"'`,
+  soit 233 en `-a-` strict + 5 en `au-` + 2 en `aux-`), EN 233 ; `GUIDES` 1050 → 1057.** Aucun
+  nouveau slug hors gabarit : les sept villes prennent « à » sans contraction, les sept exceptions
+  restent `au-puy-en-velay`, `au-tampon`, `au-francois`, `au-robert`, `au-lamentin`, `aux-abymes`,
+  `aux-sables-d-olonne`. `metaTitle` 32-44 caractères, `metaDesc` 137-151, 10 sections par guide,
+  densité d'accents 0,133-0,171 **par mot** (seuil ascii-strip 0,09), **0 em-dash sur les sept**.
+  `npm run search-index` relancé (`data/search-index.json` 1 057 guides, 252 → **254 tags** : deux
+  tags franchissent le seuil de 3 guides, `que faire dans les Yvelines` (Saint-Germain-en-Laye,
+  Poissy, Rambouillet) et `sorties Hauts-de-France beffrois` (Douai, Cambrai, Béthune)), d'où le
+  passage de `npm run sitemap:check` — FR 29 133 → **29 142 URL**, soit exactement les 7 guides plus
+  les 2 pages de tag. Les sept guides sont vérifiés **retrouvés par le lookup de
+  `app/villes/[slug]/a-faire/page.tsx`**, **pourvus de leur photo d'en-tête** (`guideCityPhoto`) et
+  **remontés en 1re position** par la recherche inverse `relatedCities` sur leur page ville. Béthune
+  et Cavaillon n'avaient jusqu'ici **aucun** guide les citant : ce batch leur en donne un premier.
+
+  **Trois des sept sortent de la liste de gisements laissée par les batches 34, 36 et 39** (Bergerac,
+  Agde, Thonon-les-Bains). Les quatre autres sont un écart assumé avec elle, dans la ligne des
+  batches 26, 32, 34 et 36 : **on choisit par matière touristique réelle, pas par inertie de liste.**
+  Le contrôle qui a décidé du batch est un `npx tsx` important `@/data/guides` et `@/data/cities-seed` :
+  **308 villes du seed sur 540 n'ont pas de guide tourisme**, et le haut de cette liste par population
+  est presque intégralement francilien et pauvre en matière vérifiable (Nanterre, Créteil, Colombes,
+  Asnières, Aulnay…), alors que **Rambouillet** — château national, laiterie de Marie-Antoinette,
+  Bergerie nationale, premier sommet du G6 — dormait à 27 000 habitants sans guide. **Béthune**
+  (beffroi UNESCO et Grand-Place Art déco reconstruite d'un geste), **Montélimar** (la ville de la
+  Drôme qui grossit le plus vite du corpus, et qui n'avait rien) et **Cavaillon** (deuxième synagogue
+  comtadine conservée, face à Carpentras livrée au batch 38) sont du même ordre.
+
+  ⚠️ **Le fait le plus utile du batch est une correction, et elle est dans le guide Bergerac : le vrai
+  Cyrano n'a jamais vécu à Bergerac.** Savinien de Cyrano de Bergerac est né à Paris en 1619, fils
+  d'Abel de Cyrano, seigneur de Mauvières et de Bergerac — **deux fiefs de la vallée de Chevreuse, sur
+  la commune de Saint-Forget, dans l'actuel département des Yvelines**. Le domaine de Mauvières avait
+  reçu le nom de Bergerac d'un propriétaire du XVIe siècle récompensé pour son aide à la reprise de la
+  ville périgourdine aux Anglais. Savinien ajoute « de Bergerac » à son nom en **1645**, alors que la
+  famille avait déjà revendu les terres ; l'accent gascon est une invention d'Edmond Rostand. La ville
+  de Dordogne le sait et l'assume, et le guide le dit plutôt que de laisser chercher une maison natale
+  — même traitement que le vase de Soissons au batch 38. Correction du même genre côté Thonon :
+  **« faire ripaille » ne vient pas du château de Ripaille.** L'expression est attestée plusieurs
+  décennies avant la construction du premier pavillon d'Amédée VIII et dérive probablement du verbe
+  « riper » ; le nom du lieu vient de « rispe », la broussaille, qui couvrait la lande avant tout
+  bâtiment.
+
+  Autres faits vérifiés en ligne avant rédaction et qui portent les guides : cloître des Récollets du
+  XVIIe siècle, couvent bâti pour reconquérir une ville passée au protestantisme, racheté par les
+  autorités protestantes à la Révolution, aujourd'hui **Maison des vins intégrée depuis l'été 2019 au
+  Quai Cyrano** ; deux statues de Cyrano, **Jean Varoqueau 1977** place de la Mirpe et **Mauro Corda
+  2005** place Pélissière ; **musée du Tabac à la maison Peyrarède**, dite château Henri IV, hôtel
+  particulier du XVIIe (⚠️ **pas à l'hôtel de ville**, comme l'affirmait une des sources consultées) ;
+  **église Notre-Dame de Bergerac par Paul Abadie, 1856-1865, clocher 80 m**, sculptures Léon Baleyre
+  et Michel Pascal, vitraux Édouard Didron ; **cathédrale Saint-Étienne d'Agde en basalte du mont
+  Saint-Loup, 35 m**, avec donjon, mâchicoulis et créneaux ; **mont Saint-Loup, ancien volcan, 113 m** ;
+  **Éphèbe d'Agde découvert le 13 septembre 1964** par le plongeur **Jacky Fanjaud** dans le lit de
+  l'Hérault, **bronze de 1,33 m, IIe siècle av. J.-C.**, revenu définitivement à Agde en **1987**, dans
+  un musée bâti en **1984 par Jean Le Couteur** — l'architecte de la station — et ouvert en **1985** ;
+  **Agde fondée vers 525 av. J.-C.** par des Phocéens ; **écluse ronde** du canal du Midi à trois
+  sorties ; **Cap d'Agde bâti dans les années 1970 au titre de la mission Racine** ; **funiculaire de
+  Thonon mis en service le 2 avril 1888**, rénové en 1951, en **1989** avec un automatisme **Poma**,
+  premier du genre en France, puis en 2010 ; **Ripaille**, quatre tours du XVe restaurées au XIXe,
+  chanoines augustins installés par **Amédée VIII en 1410**, bâtiment de l'ordre de saint Maurice en
+  **1431**, retraite du duc en **1434** ; **fresques de Maurice Denis** à la basilique
+  Saint-François-de-Sales, parmi ses dernières œuvres ; **source de la Versoie** ; **François Ier meurt
+  à Rambouillet le 31 mars 1547**, chez **Jacques d'Angennes**, capitaine de ses gardes ; **laiterie de
+  la Reine 1787**, **chaumière aux coquillages 1779** (duc de Penthièvre) ; **ferme expérimentale
+  décidée en 1785**, **mérinos offerts en 1786 par Charles III d'Espagne** ; **résidence présidentielle
+  de 1895 (Félix Faure) à 2009**, soit 114 ans ; **premier sommet du G6 les 15, 16 et 17 novembre 1975**,
+  voulu par Giscard d'Estaing dans une résidence privée plutôt qu'à Versailles ; **Espace Rambouillet,
+  250 ha** ; **beffroi de Béthune** autorisé en **octobre 1346** par Eudes de Bourgogne, tour de bois
+  effondrée, reconstruction en grès accordée en **1388** par Guillaume de Namur, **33 m plus un
+  campanile de 17 m** surmonté du dragon **Beffy**, **UNESCO juillet 2005** ; carillon de **6 cloches en
+  1546**, **36 en 1773** par Philippe Le Corsin, **35 en 1951** ; **reconstruction 1920-1927** par
+  Alleman, Guthmann, Degez et Cordonnier, **Saint-Vaast 1927**, **monument aux morts 11 novembre 1928**,
+  **hôtel de ville 7 avril 1929** ; **Labanque ouvert en mai 2016** ; **Anneau de la Mémoire** de
+  **Philippe Prost**, inauguré le **11 novembre 2014**, **576 606 noms de quarante nationalités** ;
+  **nougat de Montélimar en IGP depuis 2023**, miel ≥ 25 % des matières sucrantes, amandes ≥ 30 % (ou
+  28 % d'amandes + 2 % de pistaches) ; **Palais des bonbons et du nougat, > 130 000 visiteurs/an** ;
+  **château des Adhémar** bâti au XIIe par **Géraud Adhémar de Monteil**, **chapelle Saint-Pierre du
+  XIe**, **département de la Drôme depuis 1947** ; **collégiale Sainte-Croix** mentionnée en **1183**,
+  collégiale en **1449**, flamboyante à la fin du XVe, rebâtie au XVIIIe ; **synagogue de Cavaillon
+  1772-1774** sur fondations du XVe, **musée juif comtadin depuis les années 1960** ; **arc romain classé
+  MH en 1840** et **transporté pierre par pierre en 1880** sur l'esplanade du Clos, ancienne place du
+  marché aux melons, **la frise de la cathédrale copiant son décor** ; **cloître du début du XIIIe** ;
+  **chapelle Saint-Jacques du XIIe** sur l'oppidum du mont Caveau, **ermite installé en 1300 et maintenu
+  jusqu'en 1804** ; et **Alexandre Dumas, en 1864, échangeant ses œuvres complètes contre une rente
+  viagère de douze melons par an**, votée à l'unanimité le **13 novembre 1864** et servie jusqu'à sa mort
+  en 1870.
+
+  ⚠️ **Dix affirmations écrites au premier jet et corrigées avant commit — et six d'entre elles ont été
+  démenties par une mesure sur nos propres données, pas par une relecture.** C'est le même mode de
+  défaillance qu'aux batches 38 et au palmarès de novembre : les faits pris un à un étaient justes, ce
+  sont les **écarts calculés, les rangs et les comparaisons** qui dérapent. ① Bergerac donnée en recul
+  « alors que la Dordogne attire » : **les quatre villes du département dans le corpus sont plates ou en
+  recul** (Périgueux +0,2 %, Bergerac −3,0 %, Ribérac −7,0 %, Sarlat −8,2 %), et Bergerac est la
+  deuxième moins mauvaise — l'intro dit désormais l'inverse de ce qu'elle disait. ② Agde donnée
+  « une des communes du littoral héraultais qui grossit le plus vite » alors qu'elle est **la première du
+  corpus héraultais, à +23,4 %, devant Montpellier** : la mesure était plus forte que la prudence.
+  ③ Thonon donnée au rythme « du bassin franco-genevois tout entier » sans chiffre : **+11,1 %, entre
+  Annemasse (+15,1 %) et Annecy (+9,9 %)**. ④ Montélimar donnée « une des villes de la vallée du Rhône
+  qui grossit le plus régulièrement » : c'est **la première de la Drôme, +14,1 %, loin devant Valence
+  (+1,8 %)**. ⑤ Cavaillon donnée en recul « alors que le Luberon voisin gagne » : invérifiable en l'état,
+  et **cinq des huit communes vauclusiennes du corpus reculent** — la comparaison est retirée. ⑥ Béthune
+  donnée « stable dans un bassin minier qui a beaucoup perdu » sans chiffre : **−0,3 % contre −4,4 % à
+  Lens, −4,1 % à Hénin-Beaumont, −5,3 % à Liévin et −6,2 % à Bruay-la-Buissière**, ce qui rend la phrase
+  bien meilleure une fois mesurée. Quatre corrections de fait pur complètent la liste : ⑦ Marseille
+  fondée « quelques décennies » avant Agde alors que **600 et 525 av. J.-C. font trois quarts de siècle** ;
+  ⑧ le Cap d'Agde annoncé **à quatre kilomètres** du centre historique quand la route en fait **cinq**
+  (chiffre répété dans l'intro et dans une section) ; ⑨ le troupeau de mérinos donné là « deux siècles et
+  demi » après 1786 alors que cela fait **deux cent quarante ans** ; ⑩ le Cap d'Agde crédité du label
+  **patrimoine du XXe siècle**, invérifiable, mention supprimée. Deux affirmations ont par ailleurs été
+  **desserrées faute de source** : le village naturiste est « couramment présenté comme » le plus grand
+  d'Europe et non déclaré tel, et la gare de Béthune est dite « reliée à Lille et à Arras par le TER »
+  plutôt que posée « sur l'axe Lille-Arras », ce qui n'est pas la même chose.
+
+  Trois prudences assumées dans la copie, à ne pas diluer. ① Convention « **accessible depuis** » plutôt
+  que « situé à » sur tout ce qui relève d'une commune voisine : **Monbazillac est une commune à part
+  entière**, à environ 8 km de Bergerac, donc son château n'est pas en ville ; **l'Espace Rambouillet est
+  à Sonchamp**, pas à Rambouillet, alors qu'il porte le nom de la ville — c'est le piège de nommage le
+  plus net du batch ; **Notre-Dame-de-Lorette et l'Anneau de la Mémoire sont à Ablain-Saint-Nazaire**, à
+  une vingtaine de kilomètres de Béthune. ② Le **quartier naturiste du Cap d'Agde** est traité en une
+  section, factuellement et sans jugement, parce que la confusion joue dans les deux sens : on ne tombe
+  pas dessus depuis les plages familiales, et le reste de la station n'a rien de naturiste — le taire
+  aurait été plus trompeur que le dire. ③ La **carrière de Cavaillon** est nommée pour ce qu'elle était,
+  un quartier contraint et fermé sous un régime de tolérance encadrée, et non le décor d'une harmonie :
+  même cadrage que la porte Juive de Carpentras au batch 38. Aucun horaire, aucun tarif ; les seuls
+  chiffres de population sont ceux de l'**Insee 2022 lus dans `data/city-population.json`** (Bergerac
+  26 852, Agde 29 612, Thonon 37 689, Rambouillet 27 145, Béthune 25 342, Montélimar 40 356, Cavaillon
+  25 890) — **pas les `population` approximatives du seed**, qui en diffèrent jusqu'à 1 500 habitants.
+
+  ⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. CLAUDE.md § Commands depuis le batch 27 :
+  4 h 30 de génération, `.next` à 25 Go, ENOSPC avant la finalisation, aucun signal utile). Le substitut
+  prescrit passe en entier : `npx tsc --noEmit` **propre**, `npm run integrity` (guides FR 1050 → 1057),
+  `search-index` + `search-index:check`, `sitemap:check`, `npm run parity` (0 route FR sans jumelle),
+  `npm run hreflang:check`, plus les contrôles de lookup, de photo et de recherche inverse ci-dessus.
+
+  **Prochain run : batch EN** (`things-to-do-in-[city]-2026`, +7), l'écart FR→EN étant de 7 villes —
+  bergerac, agde, thonon-les-bains, rambouillet, bethune, montelimar, cavaillon. Aucun slug à arbitrer :
+  les sept slugs de seed s'écrivent tels quels et la règle du batch 33 (**côté EN le slug se dérive du
+  slug de seed tel quel**) n'a rien à trancher. Quatre points de vigilance pour ces jumelles :
+  **`things-to-do-in-agde-2026` doit poser Agde contre le Cap d'Agde dès la première ligne**, la station
+  étant bien plus connue à l'étranger que la ville ; **la correction Cyrano est de la matière propre à
+  l'angle anglophone**, puisque la pièce de Rostand est jouée et filmée en anglais depuis un siècle et
+  que le lecteur arrive avec la Gascogne en tête ; **l'Anneau de la Mémoire porte des noms
+  britanniques et allemands** et le bassin de Béthune est un secteur du front de 1914-1918 très présent
+  dans l'historiographie anglophone, donc la jumelle Béthune a de la matière que le FR n'a pas — même
+  arbitrage qu'avec Jubilee à Dieppe (batch 37) et la bataille de Cambrai (batch 39) ; et **la traversée
+  Thonon-Lausanne demande que le franchissement Schengen soit posé comme règle opposable** (pièce
+  d'identité obligatoire, la Suisse n'étant pas dans l'UE), un lecteur non européen ne le devinant pas.
+  Pour le batch FR **suivant**, la liste de gisements se réduit à **Saint-Herblain, Mantes-la-Jolie,
+  Istres** (batch 34) et aux six banlieues de province jamais faites (Villenave-d'Ornon, Talence,
+  Le Bouscat ; Vaulx-en-Velin, Saint-Priest, Bron — rappel du batch 28 : **l'Espace Albert Camus et le
+  fort de la ceinture lyonnaise sont à Bron**, pas à Vénissieux). Elle est à compléter, et les trous
+  mesurés ce run qui tiennent le mieux la comparaison sont **Villefranche-sur-Saône** (capitale du
+  Beaujolais, cours Renaissance de la rue Nationale), **Melun**, **Alès** (Cévennes, mine témoin),
+  **Le Cannet** (musée Bonnard), **Conflans-Sainte-Honorine** (batellerie), **Pontoise** (Pissarro),
+  **Haguenau**, **Blagnac** (Aeroscopia) et **Six-Fours-les-Plages**, déjà citée comme commune voisine
+  par le guide La Seyne-sur-Mer du batch 34.
+
+---
+
 ## Shipped 2026-09-02
 
 - **hreflang sur la famille vacances — 1 138 pages, et un garde-fou pour les 195 paires écrites à

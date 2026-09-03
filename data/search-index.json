@@ -8492,6 +8492,41 @@
       "slug": "10-choses-a-faire-a-carpentras-2026",
       "title": "10 choses à faire à Carpentras",
       "emoji": "🕍"
+    },
+    {
+      "slug": "10-choses-a-faire-a-bergerac-2026",
+      "title": "10 choses à faire à Bergerac",
+      "emoji": "🍇"
+    },
+    {
+      "slug": "10-choses-a-faire-a-agde-2026",
+      "title": "10 choses à faire à Agde",
+      "emoji": "🌋"
+    },
+    {
+      "slug": "10-choses-a-faire-a-thonon-les-bains-2026",
+      "title": "10 choses à faire à Thonon-les-Bains",
+      "emoji": "🚡"
+    },
+    {
+      "slug": "10-choses-a-faire-a-rambouillet-2026",
+      "title": "10 choses à faire à Rambouillet",
+      "emoji": "🐑"
+    },
+    {
+      "slug": "10-choses-a-faire-a-bethune-2026",
+      "title": "10 choses à faire à Béthune",
+      "emoji": "🐉"
+    },
+    {
+      "slug": "10-choses-a-faire-a-montelimar-2026",
+      "title": "10 choses à faire à Montélimar",
+      "emoji": "🍬"
+    },
+    {
+      "slug": "10-choses-a-faire-a-cavaillon-2026",
+      "title": "10 choses à faire à Cavaillon",
+      "emoji": "🍈"
     }
   ],
   "tags": [
@@ -9641,6 +9676,11 @@
       "count": 3
     },
     {
+      "slug": "que-faire-dans-les-yvelines",
+      "label": "que faire dans les Yvelines",
+      "count": 3
+    },
+    {
       "slug": "que-faire-en-guadeloupe",
       "label": "que faire en Guadeloupe",
       "count": 3
@@ -9713,6 +9753,11 @@
     {
       "slug": "seine",
       "label": "Seine",
+      "count": 3
+    },
+    {
+      "slug": "sorties-hauts-de-france-beffrois",
+      "label": "sorties Hauts-de-France beffrois",
       "count": 3
     },
     {

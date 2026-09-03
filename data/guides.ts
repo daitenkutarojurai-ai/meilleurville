@@ -52245,6 +52245,440 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Carpentras", "activités Carpentras 2026", "que faire dans le Vaucluse", "sorties Provence patrimoine juif", "synagogue 1367 Saint-Siffrein Inguimbertine berlingot"]
   },
+  {
+    slug: "10-choses-a-faire-a-bergerac-2026",
+    title: "10 choses à faire à Bergerac",
+    metaTitle: "10 choses à faire à Bergerac en 2026",
+    metaDesc: "Le cloître des Récollets, le musée du Tabac, les gabares sur la Dordogne, Monbazillac : 10 activités à Bergerac, et la vérité sur Cyrano.",
+    category: "tourisme",
+    emoji: "🍇",
+    readMinutes: 7,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    intro: "Bergerac comptait 26 852 habitants au recensement de 2022, contre 27 687 en 2011 : la ville perd doucement des habitants, et elle n'est pas seule, Sarlat et Ribérac reculant davantage encore. La Dordogne attire beaucoup de visiteurs et assez peu de nouveaux résidents, ce qui en dit long sur l'écart entre le tourisme et la vie ordinaire d'une sous-préfecture. On y vient pour trois choses qui tiennent ensemble : un vignoble, une rivière navigable et une vieille ville en pierre blonde. On y vient aussi pour un personnage de théâtre qui n'a jamais mis les pieds ici, et c'est une histoire qui vaut d'être racontée correctement.",
+    sections: [
+      {
+        heading: "1. Le cloître des Récollets et le Quai Cyrano",
+        body: "C'est le cœur du Bergerac que l'on vient voir : un cloître du XVIIe siècle, avec sa galerie à arcades et sa terrasse ouverte sur la Dordogne. Son origine est un épisode de guerre de religion. Bergerac était devenue une place protestante, et l'évêque de Périgueux fit venir des religieux pour y raviver la foi catholique ; on leur donna un terrain pour bâtir couvent et église. À la Révolution, les religieux partent, le bâtiment est abandonné puis racheté par les autorités protestantes, qui en font un temple. Il abrite aujourd'hui la Maison des vins de Bergerac et Duras, intégrée depuis l'été 2019 à l'ensemble Quai Cyrano, qui réunit l'office de tourisme et l'espace de dégustation."
+      },
+      {
+        heading: "2. Le vrai Cyrano n'a jamais vécu ici",
+        body: "Savinien de Cyrano de Bergerac est né à Paris en 1619. Il était le fils d'Abel de Cyrano, seigneur de Mauvières et de Bergerac : deux fiefs de la vallée de Chevreuse, sur la commune de Saint-Forget, dans l'actuel département des Yvelines. Le domaine de Mauvières avait reçu le nom de Bergerac d'un propriétaire du XVIe siècle, récompensé pour son aide à la reprise de la ville périgourdine aux Anglais. Savinien ajoute « de Bergerac » à son nom en 1645, alors que la famille avait déjà revendu les terres. Quant à l'accent gascon et au panache, ils sont d'Edmond Rostand. La ville de Dordogne le sait, l'assume et en a fait son emblème : c'est plus honnête que de laisser croire à une maison natale."
+      },
+      {
+        heading: "3. Les deux statues de la vieille ville",
+        body: "Il y en a deux, sculptées à vingt-huit ans d'écart, et les comparer occupe un quart d'heure agréable. La première est de Jean Varoqueau, installée en 1977 place de la Mirpe : un Cyrano frontal, cape et grand nez, tel qu'on se le figure au sortir du texte de Rostand. La seconde est de Mauro Corda, posée en 2005 place Pélissière : traitement contemporain, silhouette plus élancée, moins d'attributs. Les deux places sont à deux minutes l'une de l'autre, au milieu des maisons à pans de bois, et servent de repère commode pour se promener dans un centre ancien où l'on se perd volontiers."
+      },
+      {
+        heading: "4. Le musée du Tabac, à la maison Peyrarède",
+        body: "C'est le seul musée de France consacré au tabac, et il est installé dans la maison Peyrarède, dite château Henri IV : un hôtel particulier du XVIIe siècle bâti pour une famille de la bourgeoisie locale, où l'on voit le passage de la Renaissance au classicisme dans la façade elle-même. Les collections couvrent trois mille ans d'histoire et tous les continents, avec des pipes et des objets de consommation en écume de mer, corne, ambre, cuir et porcelaine, plus des peintures et des gravures. Le sujet n'est pas anecdotique ici : la culture du tabac a façonné le paysage agricole du Bergeracois pendant des générations, et le musée raconte cette économie autant que l'objet."
+      },
+      {
+        heading: "5. L'église Notre-Dame, un Abadie complet",
+        body: "Elle a été construite de 1856 à 1865 sur les plans de Paul Abadie, l'architecte à qui l'on doit le Sacré-Cœur de Montmartre, pour absorber une population en croissance. C'est du néogothique assumé, avec le clocher-porche caractéristique de l'architecte et une flèche qui monte à quatre-vingts mètres, visible de toute la vallée. Le décor sculpté est de Léon Baleyre et Michel Pascal, les vitraux d'Édouard Didron. On peut trouver le style froid, c'est un débat vieux d'un siècle et demi ; ce qui ne se discute pas, c'est que l'édifice donne à Bergerac sa silhouette et qu'il se visite librement, à quelques minutes des places anciennes."
+      },
+      {
+        heading: "6. La vieille ville à pied",
+        body: "Le centre ancien tient dans un mouchoir de poche et se parcourt sans plan : rues étroites, maisons à pans de bois, pierre blonde, et deux places emboîtées qui portent l'essentiel de la vie de terrasse. Comptez une heure pour en faire le tour, deux si vous entrez dans les boutiques et les caves. C'est la partie de Bergerac qui ressemble le plus à l'image que l'on se fait du Périgord, et c'est aussi la plus petite : dès que l'on remonte vers la gare, on retrouve une sous-préfecture ordinaire, avec ses commerces de rue et ses immeubles des années 1970. Les deux existent, autant le savoir avant de venir."
+      },
+      {
+        heading: "7. Une gabare sur la Dordogne",
+        body: "La gabare est un bateau à fond plat qui servait au transport de marchandises sur la rivière : du vin, de la pierre, du papier, et cela depuis l'époque gallo-romaine. Des promenades commentées partent du quai de la Salvette, en contrebas de la vieille ville, d'avril à octobre, sur des durées différentes selon le parcours choisi. C'est la meilleure façon de comprendre pourquoi la ville est là : Bergerac n'a pas de site défensif remarquable, elle a un point de passage et un port fluvial, et toute son histoire économique en découle. Vérifiez les horaires du jour avant de descendre au quai, la navigation dépend du niveau d'eau."
+      },
+      {
+        heading: "8. Le vignoble, et Monbazillac",
+        body: "L'appellation Bergerac couvre une large palette, du rouge au blanc sec, et le liquoreux le plus connu de la région porte le nom de Monbazillac. Attention à la géographie : Monbazillac est une commune à part entière, à environ huit kilomètres au sud de Bergerac, et son château Renaissance à quatre tours n'est donc pas en ville. Il est accessible depuis Bergerac en une dizaine de minutes de voiture, et la route qui y monte offre la vue sur la vallée que les brochures utilisent. Si vous n'avez pas de voiture, l'espace vin du Quai Cyrano permet de goûter les appellations du secteur sans quitter le centre."
+      },
+      {
+        heading: "9. Les marchés",
+        body: "Bergerac tient plusieurs marchés par semaine dans le centre, et c'est là que la ville se montre telle qu'elle est plutôt que telle qu'elle se présente aux visiteurs : produits du Périgord, fromages, volailles, fruits, avec la saisonnalité que cela suppose. Les jours changent selon les emplacements et selon la période de l'année, donc demandez le calendrier à l'office de tourisme du Quai Cyrano plutôt que de vous fier à un guide imprimé. Un conseil d'usage : venez tôt. Sur les marchés du Sud-Ouest, la matinée est finie bien avant midi et les meilleurs étals ferment les premiers."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Bergerac est sur la ligne ferroviaire Bordeaux-Sarlat, ce qui la rend faisable sans voiture depuis Bordeaux. La ville a aussi son aéroport, Bergerac Dordogne Périgord, dont le trafic est largement britannique et saisonnier : c'est ce qui explique la présence anglophone visible dans le centre en été. Une journée suffit pour le cloître, le musée du Tabac, Notre-Dame et la vieille ville. Comptez deux jours si vous voulez ajouter une promenade en gabare et une matinée dans le vignoble. Au-delà, Bergerac devient une base pour le Périgord : Sarlat et la vallée de la Vézère sont à moins d'une heure et demie."
+      }
+    ],
+    relatedCities: ["bergerac", "sarlat-la-caneda", "perigueux"],
+    relatedGuides: [
+      "10-choses-a-faire-a-sarlat-la-caneda-2026",
+      "10-choses-a-faire-a-perigueux-2026",
+      "10-choses-a-faire-a-agen-2026",
+      "10-choses-a-faire-a-bordeaux-2026"
+    ],
+    tags: ["10 choses à faire à Bergerac", "activités Bergerac 2026", "que faire en Dordogne", "sorties Périgord vignoble", "Cyrano cloître des Récollets musée du Tabac Monbazillac"]
+  },
+  {
+    slug: "10-choses-a-faire-a-agde-2026",
+    title: "10 choses à faire à Agde",
+    metaTitle: "10 choses à faire à Agde en 2026",
+    metaDesc: "Une cathédrale en basalte, un volcan, l'Éphèbe de bronze, l'écluse ronde du canal du Midi : 10 activités à Agde, la ville noire de l'Hérault.",
+    category: "tourisme",
+    emoji: "🌋",
+    readMinutes: 7,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    intro: "Agde comptait 29 612 habitants au recensement de 2022, contre 23 999 en 2011, soit près d'un quart d'habitants en plus en onze ans : c'est la commune de l'Hérault qui grossit le plus vite parmi celles que suit ce site, devant Montpellier, et cela se voit sur le terrain. Mais Agde n'est pas une station balnéaire qui aurait vieilli, c'est l'inverse : une des plus anciennes villes de France, fondée par des Grecs, à laquelle on a greffé dans les années 1970 une station entière. Les deux cohabitent à cinq kilomètres de distance et ne se ressemblent en rien.",
+    sections: [
+      {
+        heading: "1. La cathédrale Saint-Étienne, en pierre noire",
+        body: "C'est le monument qui donne à Agde son surnom de perle noire. La cathédrale est bâtie en basalte, la pierre volcanique tirée du mont Saint-Loup tout proche, et l'effet est saisissant : un édifice roman entièrement sombre, qui monte à trente-cinq mètres et qui a tous les attributs d'une forteresse médiévale plutôt que d'une église. Donjon, mâchicoulis, créneaux, meurtrières, chemin de ronde : la façade est militaire avant d'être religieuse, parce que l'évêque d'Agde était aussi seigneur d'une ville exposée aux raids venus de la mer. On entre dans un volume austère et frais, à quelques dizaines de mètres du fleuve Hérault."
+      },
+      {
+        heading: "2. Le mont Saint-Loup, un volcan",
+        body: "La pierre noire de la cathédrale vient de là : le mont Saint-Loup est un ancien volcan, culminant à 113 mètres entre la ville et le Cap d'Agde. Son éruption remonte à plusieurs centaines de milliers d'années et elle a découpé le littoral, créant les criques, les îlots et les falaises noires qui font l'originalité de cette portion de côte, entièrement plate ailleurs. On y monte à pied par des sentiers balisés, en une petite heure, et le panorama couvre l'étang de Thau, la station et la plaine viticole. Ne cherchez pas de cratère spectaculaire : ce qui se voit, c'est la butte, la roche et le point de vue."
+      },
+      {
+        heading: "3. L'Éphèbe d'Agde",
+        body: "Le 13 septembre 1964, le plongeur Jacky Fanjaud remonte du lit de l'Hérault une statue de bronze d'un mètre trente-trois, un jeune homme nu de style grec daté du IIe siècle avant notre ère. C'est l'Éphèbe d'Agde, une des pièces majeures de l'archéologie sous-marine française. Elle est partie au Louvre, puis revenue définitivement dans sa ville en 1987. On la voit aujourd'hui au musée de l'Éphèbe et d'archéologie sous-marine, dont le bâtiment a été construit en 1984 par Jean Le Couteur, l'architecte de la station elle-même, et ouvert au public en 1985. Le reste des collections vient de décennies de fouilles dans le fleuve, en mer et dans l'étang de Thau."
+      },
+      {
+        heading: "4. Agde grecque",
+        body: "Agde a été fondée vers 525 avant notre ère par des Phocéens, ces Grecs d'Ionie qui avaient créé Marseille vers 600, soit trois quarts de siècle plus tôt. Le nom antique, Agathé Tyché, signifie « bonne fortune ». La ville tenait l'embouchure de l'Hérault, c'est-à-dire l'accès au commerce fluvial depuis la Méditerranée, et c'est ce qui a fait sa fortune pendant des siècles. Cette ancienneté explique quelque chose d'utile au visiteur : le centre d'Agde ne ressemble à aucune station littorale parce qu'il n'a pas été construit pour la mer, mais pour un fleuve, avec des quais, des ruelles resserrées et une orientation qui tourne le dos au rivage."
+      },
+      {
+        heading: "5. L'écluse ronde du canal du Midi",
+        body: "C'est une singularité d'ingénierie du XVIIe siècle, unique sur le canal : un sas circulaire qui permet à un bateau de pivoter et de choisir sa sortie, vers Béziers, vers l'étang de Thau ou vers Agde par une branche latérale. Le principe se comprend en trois minutes en regardant une péniche manœuvrer, et il y a presque toujours du passage en saison. C'est aussi un rappel de ce qu'était le projet de Riquet : relier deux mers, ce qui supposait de résoudre à Agde le raccordement du canal, du fleuve et de la lagune. Accès libre, en bord de canal, et un endroit agréable même sans bateau à regarder."
+      },
+      {
+        heading: "6. Le Cap d'Agde et la mission Racine",
+        body: "La station a été construite à partir des années 1970 dans le cadre de la mission Racine, le programme interministériel d'aménagement du littoral du Languedoc-Roussillon. Son architecte, Jean Le Couteur, a imposé une règle qui la distingue des barres d'immeubles de la même époque ailleurs sur cette côte : hauteur limitée, volumes bas, tuiles et enduits clairs, plan en village. Que l'on aime ou non, c'est un objet d'histoire de l'urbanisme balnéaire et il se visite comme tel, en regardant les volumes plutôt que les vitrines. Comptez cinq kilomètres par la route depuis le centre historique d'Agde, que des bus urbains desservent en saison."
+      },
+      {
+        heading: "7. Le quartier naturiste",
+        body: "Le Cap d'Agde abrite un village naturiste couramment présenté comme le plus grand d'Europe, un quartier fermé avec ses propres commerces, résidences et plages, distinct du reste de la station. Il faut le dire parce que la confusion est fréquente et qu'elle produit des malentendus dans les deux sens : on ne tombe pas dessus par hasard depuis les plages familiales, et le reste du Cap d'Agde n'a rien de naturiste. Le quartier a ses règles d'accès et son fonctionnement propres, qui se vérifient auprès de ses gestionnaires. Le mentionner sans jugement est la façon la plus utile de traiter le sujet : c'est une réalité de la commune, ni un secret ni un argument."
+      },
+      {
+        heading: "8. Le Grau d'Agde et l'embouchure",
+        body: "Le Grau d'Agde est le quartier de l'embouchure de l'Hérault, à l'endroit où le fleuve rejoint la mer, et c'est un troisième visage de la commune : ni ville ancienne, ni station, mais un port de pêche avec une criée, des quais et des plages de sable. Les bateaux rentrent en fin de journée, ce qui donne le moment le plus vivant de la journée. C'est aussi le point de départ de la promenade le long du fleuve vers le centre historique, à faire à pied ou à vélo. En saison, une navette fluviale relie les différents quartiers, ce qui évite la voiture et les problèmes de stationnement."
+      },
+      {
+        heading: "9. Le centre ancien et ses ruelles noires",
+        body: "Le centre historique se parcourt en une heure et il faut prendre le temps de regarder les murs : ici, le basalte n'est pas réservé à la cathédrale, il est partout dans les encadrements de portes, les linteaux et les soubassements. Cette pierre sombre, associée aux rues étroites tracées pour couper le soleil, donne à Agde une atmosphère que l'on ne trouve nulle part ailleurs sur ce littoral. La ville a longtemps eu la réputation d'être délaissée au profit de la station, et une partie du bâti ancien porte encore les marques de cette période. Les rénovations sont visibles, le contraste avec le Cap d'Agde reste net."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Agde a sa gare, sur la ligne littorale entre Montpellier et Narbonne, ce qui la rend accessible sans voiture depuis les deux métropoles voisines. Comptez une journée pour le centre historique, la cathédrale et l'écluse ronde, une seconde pour le musée de l'Éphèbe et le Cap d'Agde, une troisième si vous voulez marcher sur le mont Saint-Loup et descendre au Grau. En juillet et en août, la commune change complètement d'échelle et la circulation devient difficile : si vous venez pour le patrimoine plutôt que pour la plage, le printemps et l'automne rendent la visite bien plus agréable."
+      }
+    ],
+    relatedCities: ["agde", "sete", "beziers"],
+    relatedGuides: [
+      "10-choses-a-faire-a-sete-2026",
+      "10-choses-a-faire-a-beziers-2026",
+      "10-choses-a-faire-a-narbonne-2026",
+      "10-choses-a-faire-a-montpellier-2026"
+    ],
+    tags: ["10 choses à faire à Agde", "activités Agde 2026", "que faire dans l'Hérault", "sorties Occitanie littoral", "cathédrale basalte Éphèbe écluse ronde mont Saint-Loup"]
+  },
+  {
+    slug: "10-choses-a-faire-a-thonon-les-bains-2026",
+    title: "10 choses à faire à Thonon-les-Bains",
+    metaTitle: "10 choses à faire à Thonon-les-Bains en 2026",
+    metaDesc: "Un funiculaire de 1888, le château de Ripaille, les fresques de Maurice Denis, le Léman : 10 activités à Thonon-les-Bains, capitale du Chablais.",
+    category: "tourisme",
+    emoji: "🚡",
+    readMinutes: 7,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    intro: "Thonon-les-Bains comptait 37 689 habitants au recensement de 2022, contre 33 928 en 2011 : un peu plus de onze pour cent en onze ans, soit le rythme du bassin franco-genevois, entre Annemasse qui monte plus vite et Annecy qui monte un peu moins. C'est la capitale historique du Chablais, ancienne résidence des ducs de Savoie, posée sur une terrasse qui domine le lac Léman de plusieurs dizaines de mètres. Cette configuration explique presque tout de la visite : la ville est en haut, le port est en bas, et il existe depuis 1888 un moyen mécanique de passer de l'un à l'autre.",
+    sections: [
+      {
+        heading: "1. Le funiculaire de 1888",
+        body: "Il a été mis en service le 2 avril 1888 et il relie le Belvédère, en centre-ville, au port de Rives, sur la rive du Léman. C'est un objet de transport et un objet de patrimoine à la fois : rénové en 1951, puis en 1989 avec un système entièrement automatisé conçu par Poma, le premier du genre en France, et de nouveau en 2010. Le trajet dure moins de trois minutes et il remplace une descente à pied raide, ce qui en fait un vrai service urbain plutôt qu'une attraction. Commencez la visite par là : arriver au port par le funiculaire donne d'emblée l'échelle du dénivelé entre la ville haute et le lac."
+      },
+      {
+        heading: "2. Le port de Rives",
+        body: "En bas, on trouve un ancien village de pêcheurs devenu quartier de port : maisons basses, guérites de pêche alignées le long de l'eau, bateaux de plaisance et une promenade au bord du lac. Le lieu a gardé une mémoire professionnelle réelle, celle de la pêche lacustre, présentée dans un écomusée consacré au lac et à ses métiers. C'est l'endroit où l'on comprend que le Léman n'est pas un décor mais une ressource, avec ses espèces, ses saisons et ses règles. C'est aussi le point de départ des bateaux, et le meilleur endroit de la ville pour regarder la rive suisse en face."
+      },
+      {
+        heading: "3. Le belvédère et la vue sur le Léman",
+        body: "En haut du funiculaire, les jardins du belvédère offrent le point de vue qui définit Thonon : le lac dans toute sa largeur, la rive vaudoise en face avec Lausanne, et par temps clair les Alpes bernoises au fond. Le Léman fait ici près de treize kilomètres de large, ce qui donne une impression de mer intérieure plutôt que de lac. La promenade est libre, plate et ombragée, et elle constitue la meilleure introduction gratuite à la géographie du Chablais. Prenez le temps de repérer les bateaux de la compagnie de navigation : ce sont eux qui font le lien quotidien entre les deux rives."
+      },
+      {
+        heading: "4. Le château de Ripaille",
+        body: "À la sortie nord de la ville, Ripaille est un des grands domaines de la rive sud du Léman : un château à quatre tours du XVe siècle, restauré au XIXe, entouré de vignes, d'un parc et d'un bois. Le lieu est lié à Amédée VIII de Savoie, qui y installe en 1410 une communauté de chanoines augustins, puis fait bâtir en 1431 un bâtiment pour un ordre de chevalerie dédié à saint Maurice, avant de s'y retirer en 1434 pour y mener une vie religieuse. Le domaine se visite, château et parc, et il produit toujours du vin. Comptez une demi-journée si vous voulez y marcher."
+      },
+      {
+        heading: "5. « Faire ripaille » ne vient pas du château",
+        body: "L'histoire est trop belle pour être vraie, et elle est effectivement fausse. La tradition populaire veut que l'expression « faire ripaille » vienne des festins qu'Amédée VIII aurait donnés dans son château. Les étymologistes n'y croient pas : l'expression est attestée dans des textes plusieurs décennies avant la construction du premier pavillon, et le mot dérive probablement du verbe « riper ». Quant au nom du lieu, il vient du terme « rispe », qui désigne la broussaille : Ripaille était une lande couverte de broussailles avant que l'on y bâtisse quoi que ce soit. Le duc a donc donné son nom à rien du tout, et l'expression est plus vieille que sa retraite."
+      },
+      {
+        heading: "6. La basilique Saint-François-de-Sales et Maurice Denis",
+        body: "Achevée au début du XXe siècle et accolée à une église baroque plus ancienne, la basilique conserve un ensemble de peintures murales de Maurice Denis, parmi les dernières œuvres du peintre. C'est la raison d'y entrer : Denis est un des fondateurs du groupe des Nabis et un des grands décorateurs religieux de son siècle, et voir un de ses derniers chantiers dans une ville de province est une occasion rare. L'entrée est libre. Le contraste entre le décor baroque de l'église ancienne et le traitement moderne des fresques est frappant, et il se lit sans connaissance préalable de l'histoire de l'art."
+      },
+      {
+        heading: "7. Le centre ancien et les places",
+        body: "Le centre de Thonon tient dans quelques rues piétonnes autour de la place du Château et de la place des Arts, avec des arcades, des façades savoyardes et une densité de commerces qui surprend pour une ville de cette taille. La proximité de la Suisse y est pour beaucoup : le pouvoir d'achat des travailleurs frontaliers irrigue le commerce local, et cela se voit aux enseignes. Comptez une heure de promenade. Un jour de marché, la place se remplit de producteurs du Chablais et des vallées, et c'est le moment où la ville ressemble le moins à une station et le plus à un chef-lieu de montagne."
+      },
+      {
+        heading: "8. L'eau de Thonon et le thermalisme",
+        body: "Le « les-Bains » du nom n'est pas décoratif : Thonon est une station thermale, l'eau y est captée et embouteillée sous le nom de la ville, et un établissement thermal fonctionne toujours. La source de la Versoie est aménagée en promenade, ce qui permet de comprendre l'origine de l'activité sans passer par une cure. Le thermalisme a façonné l'urbanisme de la ville au tournant du XXe siècle, avec ses grands hôtels et ses jardins ; on en retrouve les traces dans le bâti. C'est le fil qui relie Thonon à sa voisine Évian, à une dizaine de kilomètres, sur le même modèle économique."
+      },
+      {
+        heading: "9. Traverser le lac vers Lausanne",
+        body: "La compagnie de navigation qui exploite le Léman assure une liaison régulière et annuelle entre le port de Rives et Lausanne, sur la rive vaudoise. C'est un franchissement de frontière internationale : la Suisse applique les règles de l'espace Schengen, donc il n'y a pas de formalité de visa pour un ressortissant européen, mais une pièce d'identité en cours de validité reste obligatoire et peut être contrôlée. La traversée est en elle-même la plus belle promenade de la région, et elle ouvre une journée complète à Lausanne. Vérifiez les horaires de la saison en cours avant de vous organiser : la desserte n'est pas la même en hiver et en été."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Thonon a sa gare, reliée à Genève et à Annemasse par le réseau régional transfrontalier, ce qui la rend accessible sans voiture depuis l'aéroport de Genève. Une journée suffit pour le funiculaire, le port, le belvédère et la basilique. Une seconde permet d'ajouter Ripaille et une traversée du lac. Au-delà, Thonon devient une base pour le Chablais : Évian et ses jardins sont accessibles depuis la ville en une vingtaine de minutes, et les vallées d'Abondance et du Giffre sont à moins d'une heure, ce qui met la moyenne montagne à portée sans changer d'hébergement."
+      }
+    ],
+    relatedCities: ["thonon-les-bains", "evian-les-bains", "annecy"],
+    relatedGuides: [
+      "10-choses-a-faire-a-evian-les-bains-2026",
+      "10-choses-a-faire-a-annecy-2026",
+      "10-choses-a-faire-a-aix-les-bains-2026",
+      "10-choses-a-faire-a-chambery-2026"
+    ],
+    tags: ["10 choses à faire à Thonon-les-Bains", "activités Thonon 2026", "que faire en Haute-Savoie", "sorties Léman Chablais", "funiculaire 1888 Ripaille Maurice Denis traversée Lausanne"]
+  },
+  {
+    slug: "10-choses-a-faire-a-rambouillet-2026",
+    title: "10 choses à faire à Rambouillet",
+    metaTitle: "10 choses à faire à Rambouillet en 2026",
+    metaDesc: "Le château où meurt François Ier, la laiterie de Marie-Antoinette, la Bergerie nationale et ses mérinos : 10 activités à Rambouillet, en Yvelines.",
+    category: "tourisme",
+    emoji: "🐑",
+    readMinutes: 7,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    intro: "Rambouillet comptait 27 145 habitants au recensement de 2022, contre 25 860 en 2011. C'est une petite ville des Yvelines qui porte un domaine hors de proportion avec sa taille, pour une raison simple : elle a été successivement résidence royale, impériale et présidentielle, et chaque régime y a laissé quelque chose. On y trouve donc le lieu de mort d'un roi de France, une laiterie construite pour Marie-Antoinette, un troupeau de mérinos offert par le roi d'Espagne et la salle où s'est tenu le premier sommet du G6.",
+    sections: [
+      {
+        heading: "1. Le château",
+        body: "Le château est géré par le Centre des monuments nationaux et se visite. Sa singularité est d'être un empilement plutôt qu'un ensemble : une grosse tour médiévale conservée, des appartements du XVIIIe siècle, des aménagements impériaux et des pièces réaménagées pour l'usage présidentiel au XXe siècle. Cela peut dérouter quand on arrive avec Versailles en tête, mais c'est précisément ce qui rend la visite intéressante : on lit dans les murs quatre siècles de manières d'habiter le pouvoir. Le domaine est vaste et une partie des visites se fait sur des créneaux définis, donc vérifiez le programme du jour avant de vous déplacer, surtout hors saison."
+      },
+      {
+        heading: "2. François Ier y meurt en 1547",
+        body: "Le 31 mars 1547, François Ier meurt à Rambouillet, alors que la demeure appartient à Jacques d'Angennes, capitaine de ses gardes. Le roi, grand chasseur, s'y était arrêté comme il le faisait souvent dans les résidences de ses proches. C'est le fait historique le plus important attaché au lieu et il est peu connu, y compris des visiteurs français, parce qu'on associe la fin du règne à Fontainebleau ou au Louvre. La chambre qui porte son souvenir fait partie du parcours de visite. Une précision utile : le bâtiment a été largement remanié depuis, on ne regarde donc pas un décor de 1547 mais l'emplacement d'un événement."
+      },
+      {
+        heading: "3. La laiterie de la Reine",
+        body: "En 1787, Louis XVI fait construire dans le parc une laiterie d'apparat destinée à Marie-Antoinette. Le mot laiterie induit en erreur : il ne s'agit pas d'une exploitation mais d'un pavillon néoclassique, avec une rotonde, des marbres et une grotte artificielle ornée de sculptures, où l'on venait goûter le lait dans un décor conçu comme un objet d'art. C'est un des rares exemples conservés de ce genre de bâtiment, très à la mode dans les cours européennes de la fin du XVIIIe siècle. Il se visite avec le château et il constitue, avec la chaumière voisine, l'ensemble le plus surprenant du domaine."
+      },
+      {
+        heading: "4. La chaumière aux coquillages",
+        body: "Elle est antérieure de huit ans à la laiterie : le duc de Penthièvre la fait aménager en 1779. De l'extérieur, une simple chaumière rustique ; à l'intérieur, un décor entièrement composé de coquillages et de nacre, assemblés en panneaux, en frises et en motifs géométriques. C'est un caprice aristocratique au sens exact du terme, et il est intact. La visite est courte, la surprise est réelle, et le contraste entre l'enveloppe paysanne et l'intérieur précieux résume assez bien ce que la fin de l'Ancien Régime faisait de l'idée de nature. Prévoyez de l'enchaîner avec la laiterie, les deux sont voisines dans le parc."
+      },
+      {
+        heading: "5. La Bergerie nationale et les mérinos",
+        body: "En 1785, Louis XVI décide d'installer à Rambouillet une ferme expérimentale destinée à acclimater plusieurs espèces. En 1786, son cousin Charles III, roi d'Espagne, lui offre un troupeau de mérinos, race à laine fine dont l'Espagne interdisait alors l'exportation. Le troupeau est toujours là, deux cent quarante ans plus tard, et la Bergerie nationale est aujourd'hui à la fois un établissement d'enseignement agricole, une ferme en activité et un lieu ouvert au public. C'est le seul endroit du domaine où l'on visite quelque chose qui fonctionne encore comme au premier jour, et c'est ce qui en fait la visite la plus intéressante pour des enfants."
+      },
+      {
+        heading: "6. Le parc et les jardins",
+        body: "Le parc du château combine plusieurs états successifs : parterres réguliers à la française, canaux et îles, et un jardin anglais aménagé plus tard, avec des perspectives d'eau qui structurent l'ensemble. Il se parcourt librement et il est assez grand pour occuper une demi-journée à pied, laiterie et chaumière comprises. C'est aussi ce qui rend Rambouillet agréable en dehors des heures de visite des bâtiments : le parc reste ouvert quand les intérieurs ferment, et il fait la jonction entre la ville et la forêt sans rupture. Prenez de bonnes chaussures, les distances entre les fabriques du parc sont réelles."
+      },
+      {
+        heading: "7. La résidence présidentielle, de 1895 à 2009",
+        body: "Le château devient résidence officielle du président de la République en 1895, sous Félix Faure, et le reste jusqu'en 2009, date à laquelle il quitte la liste des résidences présidentielles. Cent quatorze ans de fonction diplomatique ont laissé des traces matérielles : mobilier, aménagements, salons de réception adaptés aux réunions internationales. C'est un cas rare de monument dont la couche la plus récente est aussi une des plus documentées, et le parcours de visite en tient compte. Depuis la sortie du dispositif présidentiel, l'ouverture au public s'est étendue à des espaces qui étaient auparavant inaccessibles."
+      },
+      {
+        heading: "8. Le sommet de novembre 1975",
+        body: "Les 15, 16 et 17 novembre 1975, Valéry Giscard d'Estaing réunit à Rambouillet les dirigeants de la France, des États-Unis, de l'Allemagne de l'Ouest, de l'Italie, du Japon et du Royaume-Uni. C'est le premier sommet du G6, tenu dans le contexte du premier choc pétrolier et de l'effondrement du système monétaire de Bretton Woods. Le choix du lieu était délibéré : le président français voulait une résidence privée, à l'écart du protocole de Versailles ou de Paris, pour obtenir des conversations directes. Cinquante ans plus tard, c'est l'épisode qui rattache ce château de chasse à l'histoire économique mondiale."
+      },
+      {
+        heading: "9. La forêt, et l'Espace Rambouillet",
+        body: "Le massif forestier qui entoure la ville dépasse vingt mille hectares : c'est un des grands ensembles boisés d'Île-de-France, parcouru de routes forestières, d'étangs et de sentiers balisés, et c'est la raison pour laquelle les rois venaient ici. Attention à une confusion fréquente : l'Espace Rambouillet, parc animalier et forestier de deux cent cinquante hectares où l'on observe cerfs, daims, sangliers et rapaces, n'est pas sur la commune de Rambouillet mais sur celle de Sonchamp. Il est accessible depuis la ville en voiture, en une quinzaine de minutes, et il constitue la sortie nature la plus complète du secteur."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Rambouillet est sur la ligne N du Transilien depuis Paris-Montparnasse, ce qui en fait une des grandes sorties franciliennes faisables sans voiture, gare à quelques minutes à pied du château. Une journée suffit largement pour le château, la laiterie, la chaumière et le parc. Ajoutez une demi-journée si vous voulez la Bergerie nationale, et une journée entière si vous visez la forêt ou l'Espace Rambouillet. En haute saison et pendant les vacances scolaires, réservez vos créneaux de visite en amont : le domaine est un but de sortie familiale classique pour toute l'Île-de-France."
+      }
+    ],
+    relatedCities: ["rambouillet", "versailles", "chartres"],
+    relatedGuides: [
+      "10-choses-a-faire-a-versailles-2026",
+      "10-choses-a-faire-a-fontainebleau-2026",
+      "10-choses-a-faire-a-chartres-2026",
+      "10-choses-a-faire-a-saint-germain-en-laye-2026"
+    ],
+    tags: ["10 choses à faire à Rambouillet", "activités Rambouillet 2026", "que faire dans les Yvelines", "sorties Île-de-France châteaux", "laiterie de la Reine Bergerie nationale mérinos G6 1975"]
+  },
+  {
+    slug: "10-choses-a-faire-a-bethune-2026",
+    title: "10 choses à faire à Béthune",
+    metaTitle: "10 choses à faire à Béthune en 2026",
+    metaDesc: "Un beffroi inscrit à l'UNESCO, une Grand-Place Art déco reconstruite, un centre dramatique national : 10 activités à Béthune, dans le Pas-de-Calais.",
+    category: "tourisme",
+    emoji: "🐉",
+    readMinutes: 7,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    intro: "Béthune comptait 25 342 habitants au recensement de 2022, contre 25 430 en 2011 : une population stable, ce qui n'est pas rien ici, puisque Lens, Liévin, Hénin-Beaumont et Bruay-la-Buissière ont toutes reculé de quatre à six pour cent sur la même période. La ville n'est pas une destination évidente et elle ne prétend pas l'être, mais elle a deux choses que peu de villes de cette taille possèdent : un beffroi inscrit au patrimoine mondial et une place entière reconstruite d'un seul geste dans les années 1920, en Art déco. Les deux se regardent depuis le même point, et cela suffit à justifier le détour.",
+    sections: [
+      {
+        heading: "1. Le beffroi",
+        body: "En octobre 1346, Eudes de Bourgogne autorise les bourgeois de la ville à bâtir un beffroi. La tour de bois s'effondre rapidement ; en 1388, Guillaume de Namur, seigneur de Béthune, accorde sa reconstruction en grès local, et c'est cette tour-là que l'on voit. Elle mesure trente-trois mètres, surmontée d'un campanile de dix-sept mètres. Le beffroi a été inscrit sur la liste du patrimoine mondial de l'UNESCO en juillet 2005, avec les autres beffrois de Belgique et de France. Il n'est pas accolé à un hôtel de ville : il se dresse seul au milieu de la Grand-Place, ce qui est le cas le plus pur de ce type de monument."
+      },
+      {
+        heading: "2. Beffy, le dragon",
+        body: "Au sommet du campanile tourne une girouette en forme de dragon, que les Béthunois appellent Beffy. Elle est l'emblème de la ville et elle apparaît partout, des enseignes aux manifestations locales. Le détail vaut d'être connu parce qu'il change la façon de regarder la tour : un beffroi n'est pas un clocher, c'est un monument civil, symbole des libertés communales arrachées au seigneur, et son sommet porte donc un signe de la ville et non une croix. Levez la tête depuis la place, la silhouette est reconnaissable de loin, et repérez-la ensuite sur les façades du centre."
+      },
+      {
+        heading: "3. Le carillon",
+        body: "Le beffroi sonne, et l'histoire de ses cloches est mouvementée. Un carillon de six cloches est installé par les échevins en 1546. En 1773, le campaniste Philippe Le Corsin le remplace par trente-six cloches neuves. Le carillon actuel, composé de trente-cinq cloches, a été inauguré en 1951, après les destructions du siècle. Les concerts de carillon ont lieu à jours fixes et s'écoutent depuis la place, gratuitement, ce qui en fait l'activité la plus économique de la ville. Renseignez-vous sur les créneaux à l'office de tourisme : c'est une pratique vivante, pas un enregistrement diffusé en boucle."
+      },
+      {
+        heading: "4. La Grand-Place et ses façades Art déco",
+        body: "C'est l'autre grande raison de venir, et elle tient à une catastrophe. Béthune a été détruite pendant la Première Guerre mondiale, et reconstruite entre 1920 et 1927 par une équipe d'architectes emmenée par Jacques Alleman, Léon Guthmann, Paul Degez et Louis Marie Cordonnier. La Grand-Place a donc été rebâtie d'un coup, dans un vocabulaire Art déco appliqué à des volumes flamands traditionnels : pignons à redents, briques, mais avec des ferronneries, des mosaïques et des motifs géométriques des années 1920. Le résultat est cohérent parce qu'il est contemporain de lui-même, et il n'a pas d'équivalent immédiat dans la région."
+      },
+      {
+        heading: "5. La reconstruction, bâtiment par bâtiment",
+        body: "Le chantier ne s'est pas arrêté à la place. L'église Saint-Vaast est reconstruite en 1927, le monument aux morts inauguré le 11 novembre 1928, l'hôtel de ville le 7 avril 1929. Parcourir le centre revient donc à lire une décennie d'architecture française, appliquée à une ville entière et non à un bâtiment isolé. C'est un exercice que peu de villes permettent avec cette netteté, parce qu'ailleurs la reconstruction s'est étalée ou mélangée à des états antérieurs. Béthune fait partie du réseau des villes et pays d'art et d'histoire, et l'office de tourisme propose des parcours qui suivent précisément ce fil."
+      },
+      {
+        heading: "6. L'église Saint-Vaast",
+        body: "L'église reconstruite en 1927 mérite qu'on y entre. Elle applique à un programme religieux le même vocabulaire que la place : volumes massifs, brique, décor géométrique, et un traitement de la lumière qui doit beaucoup aux recherches des années 1920 sur le vitrail. C'est un exemple de ce que l'on appelle parfois l'architecture de la reconstruction, catégorie longtemps méprisée et réévaluée depuis. L'entrée est libre. Si vous ne deviez visiter qu'un intérieur à Béthune en dehors du beffroi, c'est celui-là, parce qu'il montre que le geste architectural de 1920 n'était pas décoratif mais complet."
+      },
+      {
+        heading: "7. Labanque",
+        body: "Ouvert en mai 2016, Labanque est un centre de production et de diffusion en arts visuels installé, comme son nom l'indique, dans une ancienne banque. Le bâtiment lui-même vaut le coup d'œil, avec ses volumes et son décor d'établissement financier du début du XXe siècle, détournés en espace d'exposition. La programmation est contemporaine et exigeante, et elle change au fil de l'année : consultez l'affiche du moment avant de venir, il peut y avoir des périodes de montage entre deux expositions. C'est le signe le plus visible que Béthune ne mise pas uniquement sur son patrimoine ancien."
+      },
+      {
+        heading: "8. La Comédie de Béthune",
+        body: "La Comédie de Béthune est le centre dramatique national des Hauts-de-France. Un CDN est un label de l'État : il implique une compagnie permanente, une direction artistique et une production de spectacles, pas seulement une salle qui accueille des tournées. Cela signifie qu'une ville de vingt-cinq mille habitants dispose d'un outil théâtral de rang national, ce qui est rare et ce qui structure une bonne partie de la vie culturelle locale. Regardez la saison en cours si vous passez une soirée sur place : les tarifs d'un CDN de province sont sans rapport avec ceux d'une salle parisienne."
+      },
+      {
+        heading: "9. Notre-Dame-de-Lorette et l'Anneau de la Mémoire",
+        body: "À une vingtaine de kilomètres de Béthune, sur la commune d'Ablain-Saint-Nazaire, la nécropole nationale de Notre-Dame-de-Lorette est la plus vaste de France. Depuis 2014, elle est complétée par l'Anneau de la Mémoire, mémorial conçu par l'architecte Philippe Prost et inauguré le 11 novembre 2014, quatre-vingt-seizième anniversaire de l'armistice. Il porte les noms de 576 606 soldats de quarante nationalités morts dans le Nord-Pas-de-Calais, gravés sans distinction de camp, de grade ou de religion. Le site n'est pas à Béthune mais il est accessible depuis la ville en une trentaine de minutes de voiture, et il change la compréhension de toute la région."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Béthune a sa gare, reliée à Lille et à Arras par le TER, ce qui la rend accessible sans voiture depuis les deux villes. Une demi-journée suffit pour le beffroi, la Grand-Place, Saint-Vaast et Labanque, et c'est un usage honnête de la ville : Béthune est une étape, pas un séjour. Une journée complète devient justifiée si vous ajoutez Notre-Dame-de-Lorette, ou si vous enchaînez avec le bassin minier voisin, dont les paysages sont inscrits à l'UNESCO depuis 2012. Le Louvre-Lens est à une vingtaine de kilomètres, et c'est la combinaison la plus évidente pour une journée dans le secteur."
+      }
+    ],
+    relatedCities: ["bethune", "lens", "arras"],
+    relatedGuides: [
+      "10-choses-a-faire-a-lens-2026",
+      "10-choses-a-faire-a-arras-2026",
+      "10-choses-a-faire-a-douai-2026",
+      "10-choses-a-faire-a-lille-2026"
+    ],
+    tags: ["10 choses à faire à Béthune", "activités Béthune 2026", "que faire dans le Pas-de-Calais", "sorties Hauts-de-France beffrois", "beffroi UNESCO Art déco Labanque Anneau de la Mémoire"]
+  },
+  {
+    slug: "10-choses-a-faire-a-montelimar-2026",
+    title: "10 choses à faire à Montélimar",
+    metaTitle: "10 choses à faire à Montélimar en 2026",
+    metaDesc: "Le nougat et son IGP, le château des Adhémar, la collégiale Sainte-Croix, un musée d'avions de chasse : 10 activités à Montélimar, dans la Drôme.",
+    category: "tourisme",
+    emoji: "🍬",
+    readMinutes: 7,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    intro: "Montélimar comptait 40 356 habitants au recensement de 2022, contre 35 372 en 2011 : c'est la ville de la Drôme qui grossit le plus vite parmi celles que suit ce site, loin devant Valence et Romans-sur-Isère. Elle a la réputation d'être un lieu où l'on s'arrête pour acheter du nougat avant de repartir, et c'est en partie mérité, parce que l'autoroute et la ligne à grande vitesse passent à côté sans y entrer. C'est dommage : la ville a un château du XIIe siècle, un centre ancien complet et un statut de porte de la Provence qui se vérifie dès qu'on descend de voiture.",
+    sections: [
+      {
+        heading: "1. Le nougat, et ce que dit l'IGP",
+        body: "Le nougat de Montélimar est une recette précise, protégée depuis 2023 par une indication géographique protégée reconnue par l'Union européenne. Le cahier des charges fixe une pâte blanche montée aux blancs d'œufs, cuite au miel et au sucre, le miel devant représenter au moins un quart des matières sucrantes, et une garniture d'au moins trente pour cent d'amandes douces entières torréfiées, la formule classique associant vingt-huit pour cent d'amandes et deux pour cent de pistaches. Cela veut dire qu'un nougat vendu ailleurs sous ce nom sans respecter ces règles n'est pas du nougat de Montélimar. Plusieurs fabriques de la ville ouvrent leurs ateliers à la visite."
+      },
+      {
+        heading: "2. Le Palais des bonbons et du nougat",
+        body: "C'est l'attraction familiale de la ville, avec plus de cent trente mille visiteurs par an, et elle assume complètement son registre : un parcours qui mêle bonbons, chocolat, nougat, jouets anciens, poupées et une salle de classe reconstituée, avec films, orgue à parfums et panneaux tactiles. Ce n'est pas un musée au sens patrimonial du terme et il ne prétend pas l'être. Pour des enfants, c'est de loin la visite la plus efficace de Montélimar, et elle occupe facilement une demi-journée. Pour des adultes venus pour le patrimoine, ce sera probablement l'inverse : mieux vaut le savoir avant de choisir."
+      },
+      {
+        heading: "3. Le château des Adhémar",
+        body: "Il domine la ville depuis une butte et il est plus ancien qu'on ne le suppose : le logis seigneurial est construit au XIIe siècle par Géraud Adhémar de Monteil, dont la famille a donné son nom à la ville. La tour de Narbonne et l'enceinte viennent ensuite, après un partage entre les deux frères Adhémar, Géraud et Lambert. Propriété du département de la Drôme depuis 1947, le château abrite aujourd'hui un centre d'art contemporain qui présente des expositions temporaires dans l'architecture médiévale. La confrontation est volontaire et elle fonctionne : c'est un des rares endroits où l'on regarde de l'art d'aujourd'hui sous des voûtes du XIIe siècle."
+      },
+      {
+        heading: "4. La chapelle Saint-Pierre, la partie la plus vieille",
+        body: "Dans l'enceinte du château, la chapelle Saint-Pierre est le bâtiment le plus ancien encore visible, daté du XIe siècle. Elle est antérieure au logis lui-même, ce qui indique que la butte était déjà occupée avant l'installation des Adhémar. Elle se visite avec le château. Le détail a son importance pour comprendre la ville : Montélimar n'est pas née d'une décision seigneuriale du XIIe siècle mais d'un site de contrôle beaucoup plus ancien, au débouché de la vallée du Rhône vers le sud. C'est aussi le point de vue le plus haut du centre, et la montée se fait à pied depuis la vieille ville."
+      },
+      {
+        heading: "5. La collégiale Sainte-Croix",
+        body: "Mentionnée dès 1183, l'église devient collégiale en 1449 et elle est reconstruite en gothique flamboyant à la fin du XVe siècle, avec l'ajout d'un clocher. Pillée et incendiée pendant les guerres de Religion, elle est rebâtie dans sa forme actuelle au XVIIIe siècle. Ce feuilletage se voit à l'œil nu et c'est ce qui rend la visite intéressante : on lit les ruptures dans les matériaux et dans les proportions. L'entrée est libre. La Drôme a été un des départements les plus violemment travaillés par les guerres de Religion, et la collégiale en porte la trace mieux que n'importe quel panneau explicatif."
+      },
+      {
+        heading: "6. La vieille ville et la rue Pierre-Julien",
+        body: "Le centre ancien de Montélimar s'organise autour de la rue Pierre-Julien, artère commerçante qui traverse la vieille ville de part en part, et de la place du Marché. Ruelles étroites, façades colorées, passages voûtés : c'est un centre provençal plutôt que dauphinois, ce qui n'est pas un détail puisque la ville se présente comme la porte de la Provence. Comptez une heure de promenade. Les enseignes de nougat y sont nombreuses, certaines historiques, d'autres non : les fabriques qui produisent réellement sur place le signalent, et cela vaut la peine de poser la question avant d'acheter."
+      },
+      {
+        heading: "7. Le musée européen de l'aviation de chasse",
+        body: "Installé sur l'aérodrome de Montélimar-Ancône, ce musée associatif présente une soixantaine d'avions, essentiellement des appareils de chasse militaires, avec beaucoup d'autres en réserve dans les hangars. C'est une collection de plein air et d'atelier, pas une scénographie de musée national : on tourne autour des machines, on voit des restaurations en cours, et l'accueil est assuré par des bénévoles souvent d'anciens mécaniciens ou pilotes. Pour qui s'intéresse à l'aéronautique, c'est un des ensembles les plus complets de France sur ce créneau. Vérifiez les jours d'ouverture avant de vous déplacer, ils varient selon la saison."
+      },
+      {
+        heading: "8. Le Rhône et la ViaRhôna",
+        body: "Le fleuve passe à quelques kilomètres à l'ouest de la ville, et la ViaRhôna, itinéraire cyclable qui relie le lac Léman à la Méditerranée, longe cette portion de vallée. C'est la meilleure façon de sortir de Montélimar sans voiture : quelques kilomètres suffisent pour se retrouver entre le fleuve, les canaux et les vergers. Le tronçon est plat et bien balisé, ce qui le rend accessible en famille. Attention au mistral, qui souffle ici avec régularité et qui transforme un aller-retour facile en effort sérieux dans un sens : regardez la direction du vent avant de partir, pas au retour."
+      },
+      {
+        heading: "9. La porte de la Provence",
+        body: "Montélimar revendique ce titre et il repose sur quelque chose de vérifiable : c'est à peu près à cette latitude que le paysage bascule, avec l'apparition des toits de tuiles romaines, des oliviers et de la lavande vers l'est, et l'accentuation du mistral dans le couloir rhodanien. La Drôme provençale commence ici, avec Grignan, Nyons et le pays de Dieulefit à moins d'une heure. Cela donne à la ville une fonction précise pour un voyageur : elle n'est pas une destination de séjour mais une excellente base, avec des hébergements moins chers que dans les villages perchés qu'elle dessert."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Montélimar a sa gare en centre-ville, sur la ligne classique de la rive gauche du Rhône, ce qui la rend accessible sans voiture depuis Valence et Avignon. La gare TGV la plus proche n'est pas dans la ville : les trains à grande vitesse passent par Valence TGV, à une cinquantaine de kilomètres au nord, et il faut compter une correspondance. Une journée suffit pour le château, la collégiale, la vieille ville et une fabrique de nougat. Ajoutez une demi-journée pour le musée de l'aviation ou le Palais des bonbons, et une journée entière si vous partez vers la Drôme provençale."
+      }
+    ],
+    relatedCities: ["montelimar", "valence", "orange"],
+    relatedGuides: [
+      "10-choses-a-faire-a-valence-2026",
+      "10-choses-a-faire-a-orange-2026",
+      "10-choses-a-faire-a-privas-2026",
+      "10-choses-a-faire-a-avignon-2026"
+    ],
+    tags: ["10 choses à faire à Montélimar", "activités Montélimar 2026", "que faire dans la Drôme", "sorties Drôme provençale", "nougat IGP château des Adhémar collégiale Sainte-Croix"]
+  },
+  {
+    slug: "10-choses-a-faire-a-cavaillon-2026",
+    title: "10 choses à faire à Cavaillon",
+    metaTitle: "10 choses à faire à Cavaillon en 2026",
+    metaDesc: "Une synagogue du XVIIIe siècle, un arc romain déplacé pierre à pierre, la colline Saint-Jacques, le melon : 10 activités à Cavaillon, dans le Vaucluse.",
+    category: "tourisme",
+    emoji: "🍈",
+    readMinutes: 7,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    intro: "Cavaillon comptait 25 890 habitants au recensement de 2022, contre 26 492 en 2016 : la commune perd des habitants. Cavaillon n'est pas un village perché, c'est une ville de plaine, agricole et commerçante, qui vit du maraîchage plus que du tourisme. Elle a pourtant deux monuments que personne n'attend là : une synagogue du XVIIIe siècle parmi les plus belles de France et un arc romain que l'on a déménagé pierre par pierre.",
+    sections: [
+      {
+        heading: "1. La synagogue et le musée juif comtadin",
+        body: "Reconstruite entre 1772 et 1774 sur des fondations du XVe siècle, la synagogue de Cavaillon est un des deux édifices comtadins conservés, avec celui de Carpentras. Son décor mêle les codes du culte juif et le vocabulaire provençal du XVIIIe siècle : boiseries, ferronneries, couleurs claires, dans une élévation en deux volumes superposés reliés par un escalier extérieur. Le bâtiment servait de lieu de prière, d'école et d'assemblée communautaire. Il abrite depuis les années 1960 le musée juif comtadin, qui présente des objets rituels du XVIe au XIXe siècle, des archives de la communauté et des pièces provenant de la gueniza, le dépôt des livres hors d'usage."
+      },
+      {
+        heading: "2. Ce qu'était une carrière",
+        body: "Le contexte est le même qu'à Carpentras et il faut le connaître pour visiter correctement. Les juifs sont expulsés du royaume de France en 1306 ; beaucoup trouvent refuge en terre pontificale, dans le Comtat Venaissin, où ils sont autorisés à résider dans quatre villes seulement : Carpentras, Cavaillon, Avignon et L'Isle-sur-la-Sorgue. Ces quartiers, appelés carrières, étaient contraints, fermés et surpeuplés. Une plaque au pied de la colline Saint-Jacques rappelle l'emplacement du premier cimetière. Le mot refuge est exact mais insuffisant : il s'agissait d'un régime juridique de tolérance encadrée, et la synagogue est la trace matérielle de ce régime, pas d'une harmonie."
+      },
+      {
+        heading: "3. L'arc romain, et son déménagement",
+        body: "L'arc antique de Cavaillon a été classé monument historique en 1840, ce qui en fait un des tout premiers monuments protégés de France. Il ne se trouve pourtant plus là où il a été bâti : découvert au pied de la cathédrale, il a été transporté pierre par pierre en 1880 à l'extrémité de l'esplanade du Clos, l'ancienne place du marché aux melons. C'est un cas d'école du rapport du XIXe siècle au patrimoine, où l'on déplaçait un monument pour le mettre en valeur. Le résultat est un arc romain planté au milieu d'une place urbaine, à regarder pour ses reliefs autant que pour cette histoire."
+      },
+      {
+        heading: "4. La cathédrale Notre-Dame-et-Saint-Véran",
+        body: "L'ancienne cathédrale date de la fin du XIe siècle, surélevée au XIIe et agrandie du XVIe au XVIIIe siècle par l'ajout de chapelles latérales. Un détail mérite d'être cherché : la frise décorative de l'édifice est directement copiée sur le décor de l'arc romain, qui était son voisin immédiat jusqu'au XIXe siècle. Autrement dit, les sculpteurs médiévaux ont recopié le monument antique qu'ils avaient sous les yeux, et cette citation est restée en place quand l'arc est parti. C'est le genre de lien que l'on ne voit pas si personne ne l'indique, et il justifie à lui seul d'enchaîner les deux visites."
+      },
+      {
+        heading: "5. Le cloître",
+        body: "Entre la cathédrale et l'église des chanoines, aujourd'hui disparue, subsiste un cloître dont la construction commence au début du XIIIe siècle. Il est petit, roman, et il a l'avantage d'être rarement fréquenté : on peut s'y asseoir dix minutes sans croiser personne, ce qui n'est le cas d'aucun cloître comparable dans le Luberon touristique. L'accès se fait par la cathédrale. C'est le contrepoint utile à la visite de la synagogue : les deux édifices se trouvent à quelques centaines de mètres l'un de l'autre et racontent la même ville sous deux régimes différents, à la même époque."
+      },
+      {
+        heading: "6. La colline Saint-Jacques",
+        body: "La colline qui domine la ville s'appelait le mont Caveau et portait un oppidum : les Cavares, peuple celto-ligure, occupaient la région entre Durance et Isère, et ce promontoire contrôlait la voie de circulation entre la vallée du Rhône et les Alpes. C'est de là que vient le nom de la ville. Un sentier en escaliers permet d'y monter en une vingtaine de minutes depuis le centre, et des boucles de randonnée partent du sommet. Le panorama couvre les toits de tuiles de Cavaillon dans la plaine, le Luberon, le mont Ventoux et la Durance. C'est la plus belle chose à faire ici, et elle est gratuite."
+      },
+      {
+        heading: "7. La chapelle et l'ermitage",
+        body: "Au sommet se tient la chapelle Saint-Jacques, bâtie au XIIe siècle sur ce site naturellement défendu : un petit édifice rural, au décor simple, agrandi entre le XVIe et le XVIIe siècle de deux travées, d'un porche et de bâtiments d'ermitage. Un ermite y a été installé par le chapitre de Cavaillon en 1300, et la fonction s'est maintenue jusqu'en 1804, soit un demi-millénaire d'occupation continue. L'ensemble comprend aujourd'hui la chapelle, son porche, les pièces d'ermitage et un jardin. Le lieu se mérite par la montée, et c'est précisément ce qui le rend calme aux heures où le Luberon est saturé."
+      },
+      {
+        heading: "8. Le melon, et Alexandre Dumas",
+        body: "Cavaillon est associée au melon depuis assez longtemps pour que l'anecdote la plus racontée de la ville en découle. En 1864, Alexandre Dumas offre à la bibliothèque municipale l'intégralité de ses œuvres publiées, à une condition : qu'on lui constitue par délibération une rente viagère de douze melons par an. Le conseil municipal vote à l'unanimité le 13 novembre 1864, et la rente est servie au romancier jusqu'à sa mort en 1870. La bibliothèque atteint 876 volumes à la fin de 1864 et double l'année suivante. C'est un contrat public, pas une légende, et il figure dans les registres de la commune."
+      },
+      {
+        heading: "9. Le marché et la ville agricole",
+        body: "Cavaillon est d'abord une place agricole : le marché de gros et la filière fruits et légumes structurent l'économie locale, et cela se voit dans la ville, dans ses entrepôts comme dans son marché de détail. Venir un jour de marché est la meilleure façon de comprendre à quoi sert cette ville, qui n'a pas été conçue pour les visiteurs. Les jours et les emplacements sont à vérifier auprès de l'office de tourisme. C'est aussi le lieu où l'écart avec les villages du Luberon apparaît le plus nettement : les mêmes produits y coûtent nettement moins cher, parce qu'ils sont vendus là où ils poussent."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Cavaillon a sa gare, sur la ligne TER qui relie Avignon à Marseille par Pertuis et Aix-en-Provence, et Avignon TGV est à une trentaine de kilomètres. Une demi-journée suffit pour la synagogue, l'arc, la cathédrale et le cloître, et une matinée de plus pour la colline Saint-Jacques, à faire tôt en été. La ville se prête bien au rôle de base pour le Luberon : Gordes, l'Isle-sur-la-Sorgue et les villages des Monts de Vaucluse sont à moins de quarante minutes, et l'hébergement y coûte moins cher que dans les villages eux-mêmes. C'est un arbitrage assumé entre le charme et le budget."
+      }
+    ],
+    relatedCities: ["cavaillon", "avignon", "carpentras"],
+    relatedGuides: [
+      "10-choses-a-faire-a-carpentras-2026",
+      "10-choses-a-faire-a-avignon-2026",
+      "10-choses-a-faire-a-gordes-2026",
+      "10-choses-a-faire-a-apt-2026"
+    ],
+    tags: ["10 choses à faire à Cavaillon", "activités Cavaillon 2026", "que faire dans le Vaucluse", "sorties Luberon patrimoine juif", "synagogue comtadine arc romain colline Saint-Jacques melon"]
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
