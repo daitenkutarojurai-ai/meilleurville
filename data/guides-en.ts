@@ -34374,6 +34374,362 @@ export const EN_GUIDES: EnGuide[] = [
       "grand-est",
     ],
   },
+  {
+    slug: "things-to-do-in-bergerac-2026",
+    title: "Things to do in Bergerac: wine, a river, and a Cyrano who never lived here",
+    metaTitle: "Things to Do in Bergerac, Dordogne (2026)",
+    metaDesc:
+      "A seventeenth-century cloister, the only tobacco museum in France, flat-bottomed boats on the Dordogne, and the truth about Cyrano.",
+    category: "city-guide",
+    emoji: "🍇",
+    readMinutes: 7,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    intro:
+      "First, the disambiguation, because British readers of a certain age need it: this is not the Jersey of the BBC detective series that ran from 1981 to 1991 with John Nettles, and was rebooted in 2025. Jim Bergerac never set foot here either. This Bergerac is a sub-prefecture of the Dordogne with 26,852 residents at the 2022 census, against 27,687 in 2011, and it is losing people slowly while the surrounding countryside fills with visitors every summer. That gap between tourism and ordinary life is worth keeping in mind. The town runs on three things that hold together: a wine appellation, a navigable river and an old quarter in pale stone.",
+    sections: [
+      {
+        heading: "The Récollets cloister and Quai Cyrano",
+        body: "This is the building people come to see: a seventeenth-century cloister with an arcaded gallery and a terrace open to the Dordogne. Its origin is an episode of the wars of religion. Bergerac had become a Protestant stronghold, and the bishop of Périgueux brought in a religious order to revive Catholic practice; they were given land to build a convent and a church. At the Revolution the order left, the building was abandoned, then bought by the Protestant authorities, who turned it into a temple. It now holds the wine house of the Bergerac and Duras appellations, part since the summer of 2019 of the Quai Cyrano complex, which also houses the tourist office and a tasting room. Start here: it settles the geography of the town in ten minutes.",
+      },
+      {
+        heading: "The real Cyrano never lived here",
+        body: "Savinien de Cyrano de Bergerac was born in Paris in 1619. His father Abel was lord of Mauvières and of Bergerac, two estates in the Chevreuse valley in what is now the Yvelines, west of Paris, on the commune of Saint-Forget. The Mauvières estate had been given the name Bergerac by a sixteenth-century owner rewarded for his part in taking the Dordogne town back from the English. Savinien added the name to his own in 1645, by which point his family had already sold the land. The Gascon accent and the panache are Edmond Rostand's invention, from a play of 1897 that has been staged and filmed in English ever since. The town knows all this, says so, and has made him its emblem anyway, which is a good deal more honest than showing you a birthplace.",
+      },
+      {
+        heading: "Two statues, twenty-eight years apart",
+        body: "There are two of him, and comparing them is a pleasant quarter of an hour. The first is by Jean Varoqueau, installed in 1977 on the place de la Mirpe: a frontal Cyrano, cloak and nose, exactly as you picture him coming out of Rostand. The second is by Mauro Corda, placed in 2005 on the place Pélissière: contemporary treatment, a leaner figure, fewer props. The two squares are two minutes apart among the half-timbered houses, and they make a convenient pair of landmarks in an old centre where getting lost is part of the point.",
+      },
+      {
+        heading: "The tobacco museum",
+        body: "It is the only museum in France devoted to tobacco, and it sits in the maison Peyrarède, known locally as the château Henri IV: a seventeenth-century town house built for a local merchant family, whose façade shows the passage from Renaissance to classical taste in a single elevation. The collections cover three thousand years and every continent, with pipes and smoking objects in meerschaum, horn, amber, leather and porcelain, plus paintings and prints. The subject is not a curiosity here. Tobacco growing shaped the farmed landscape of the Bergeracois for generations, and the museum tells that economy as much as the object.",
+      },
+      {
+        heading: "Notre-Dame, a complete Abadie",
+        body: "The church was built from 1856 to 1865 to plans by Paul Abadie, the architect of the Sacré-Cœur in Paris, to absorb a growing population. It is unapologetic neo-Gothic, with the porch-tower that is Abadie's signature and a spire reaching eighty metres, visible from anywhere in the valley. The carved decoration is by Léon Baleyre and Michel Pascal, the glass by Édouard Didron. You may find the style cold; that argument is a century and a half old. What is not in dispute is that the building gives Bergerac its skyline, that entry is free, and that it stands a few minutes from the old squares.",
+      },
+      {
+        heading: "The old town, and the markets",
+        body: "The old centre is small enough to walk without a map: narrow streets, half-timbering, pale stone, and two linked squares carrying most of the terrace life. Allow an hour, two if you go into the shops and cellars. This is the part of Bergerac that looks like the Périgord of the brochures, and it is also the smallest part: walk back up towards the station and you are in an ordinary sub-prefecture of high-street shops and 1970s blocks. Both exist, and it is better to know that before arriving. The town holds several markets a week in the centre, with Périgord produce, cheeses, poultry and fruit in season. Days and locations change through the year, so ask at the tourist office rather than trusting a printed guide, and go early: a south-western market is finished well before noon.",
+      },
+      {
+        heading: "A gabare on the river, and the vineyard",
+        body: "A gabare is the flat-bottomed boat that carried goods on the Dordogne — wine, stone, paper — from Gallo-Roman times onwards. Commentated trips leave from the quai de la Salvette below the old town from April to October, with different routes and lengths. It is the best way to understand why the town is here at all: Bergerac has no defensible site, it has a crossing point and a river port, and its whole economic history follows from that. Check the day's departures before walking down, since sailing depends on the water level. As for the wine, the Bergerac appellation covers everything from reds to dry whites, and the sweet wine the region is known for carries the name Monbazillac. Mind the geography: Monbazillac is a separate commune about eight kilometres south, so its four-towered Renaissance château is not in town. It is a ten-minute drive, and if you have no car the tasting room at Quai Cyrano covers the local appellations without leaving the centre.",
+      },
+      {
+        heading: "Getting there, and how long to stay",
+        body: "Bergerac is on the Bordeaux to Sarlat railway line, which makes it doable without a car from Bordeaux. It also has its own airport, Bergerac Dordogne Périgord, whose traffic is largely British and seasonal; that is the reason for the number of English voices in the centre in summer. A day covers the cloister, the tobacco museum, Notre-Dame and the old town. Two days let you add a boat trip and a morning in the vineyard. Beyond that, Bergerac becomes a base for the Périgord, with Sarlat and the Vézère valley under an hour and a half away.",
+      },
+    ],
+    relatedCities: ["bergerac", "sarlat-la-caneda", "perigueux"],
+    tags: ["things to do in bergerac", "bergerac", "travel", "city guide", "nouvelle-aquitaine"],
+  },
+  {
+    slug: "things-to-do-in-agde-2026",
+    title: "Things to do in Agde: the black town, which is not the resort",
+    metaTitle: "Things to Do in Agde, Hérault (2026)",
+    metaDesc:
+      "A cathedral of black volcanic stone, an extinct volcano, a Greek bronze pulled from the river, and the round lock on the Canal du Midi.",
+    category: "city-guide",
+    emoji: "🌋",
+    readMinutes: 7,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    intro:
+      "Agde and Cap d'Agde are two different places five kilometres apart and they have almost nothing in common, which is the single most useful thing to know before booking. Agde is one of the oldest towns in France, founded by Greeks, built of black volcanic stone, turned towards a river rather than the sea. Cap d'Agde is a resort planned in the 1970s. The commune had 29,612 residents at the 2022 census against 23,999 in 2011, close to a quarter more in eleven years, which makes it the fastest-growing town in the Hérault among those this site tracks, ahead of Montpellier. Most guides describe the resort. This one starts with the town.",
+    sections: [
+      {
+        heading: "Saint-Étienne cathedral, built of black stone",
+        body: "This is the monument behind the town's nickname, the black pearl. The cathedral is built of basalt quarried from the volcano next door, and the effect is startling: a Romanesque building entirely dark, rising thirty-five metres, with the attributes of a medieval fortress rather than a church. Keep, machicolations, crenellations, arrow slits, a wall walk: the elevation is military before it is religious, because the bishop of Agde was also the lord of a town exposed to raids from the sea. Inside it is austere and cool, a few dozen metres from the river Hérault.",
+      },
+      {
+        heading: "Mont Saint-Loup, an extinct volcano",
+        body: "The black stone comes from here. Mont Saint-Loup is an old volcano rising to 113 metres between the town and the resort, and its eruption, hundreds of thousands of years ago, cut up a coastline that is otherwise entirely flat, creating the coves, islets and dark cliffs that make this stretch unusual. Waymarked paths take you up in a little under an hour, and the view covers the étang de Thau, the resort and the vineyard plain. Do not expect a dramatic crater: what you get is the hill, the rock and the panorama.",
+      },
+      {
+        heading: "The Ephebe of Agde",
+        body: "On 13 September 1964 the diver Jacky Fanjaud brought up from the bed of the Hérault a bronze statue one metre thirty-three high, a nude young man in Greek style dated to the second century BC. This is the Ephebe of Agde, one of the major finds of French underwater archaeology. It went to the Louvre, then came back to the town for good in 1987. It is now shown at the museum of the Ephebe and underwater archaeology, in a building put up in 1984 by Jean Le Couteur, the architect of the resort itself, and opened to the public in 1985. The rest of the collection comes from decades of excavation in the river, at sea and in the étang de Thau.",
+      },
+      {
+        heading: "Greek Agde",
+        body: "Agde was founded around 525 BC by Phocaeans, the Ionian Greeks who had established Marseille around 600 BC, three quarters of a century earlier. The ancient name, Agathé Tyché, means good fortune. The town held the mouth of the Hérault, and therefore access to river trade from the Mediterranean, and that is what made it rich for centuries. The antiquity explains something practically useful to a visitor: the centre of Agde looks nothing like a seaside town because it was not built for the sea. It was built for a river, with quays, tight lanes and an orientation that turns its back on the shore.",
+      },
+      {
+        heading: "The round lock on the Canal du Midi",
+        body: "This is a seventeenth-century engineering oddity, unique on the canal: a circular chamber that lets a boat turn and choose its exit, towards Béziers, towards the étang de Thau, or down a side branch into Agde. Watch a barge manoeuvre for three minutes and the principle explains itself, and in season there is almost always traffic. It is also a reminder of what Riquet's project actually involved: joining two seas meant solving, here at Agde, the junction of a canal, a river and a lagoon. Access is free, on the canal bank, and it is a pleasant spot even with no boat to watch.",
+      },
+      {
+        heading: "Cap d'Agde and the Mission Racine",
+        body: "The resort was built from the 1970s under the Mission Racine, the interministerial programme that developed the Languedoc-Roussillon coast. Its architect, Jean Le Couteur, imposed a rule that sets it apart from the tower blocks of the same period elsewhere on this coast: limited height, low volumes, tiles and pale render, laid out as a village. Whether or not you like it, it is a document in the history of seaside planning and it is worth walking as one, looking at the massing rather than the shopfronts. It is five kilometres by road from the historic centre, served by town buses in season.",
+      },
+      {
+        heading: "The naturist quarter",
+        body: "Cap d'Agde contains a naturist village commonly described as the largest in Europe, a gated quarter with its own shops, residences and beaches, separate from the rest of the resort. It is worth stating plainly because the confusion is frequent and runs in both directions: you do not wander into it from the family beaches, and the rest of Cap d'Agde is not naturist in any way. The quarter has its own access rules and its own management, which is who to ask. Mentioning it without a verdict is the most useful way to handle it. It is a fact about the commune, neither a secret nor a selling point.",
+      },
+      {
+        heading: "The Grau d'Agde, the old lanes, and getting there",
+        body: "The Grau d'Agde is the quarter at the river mouth, where the Hérault meets the sea, and it is a third face of the commune: neither old town nor resort but a fishing port with an auction hall, quays and sand beaches. The boats come in at the end of the day, which is the liveliest hour. In season a river shuttle links the quarters, which saves the car and the parking problem. Back in the old centre, walk with your eyes on the walls: basalt is not reserved for the cathedral, it is in the door surrounds, the lintels and the footings everywhere, and combined with lanes cut narrow against the sun it gives Agde an atmosphere found nowhere else on this coast. As for access, Agde has its own station on the coastal line between Montpellier and Narbonne. Allow a day for the old town, the cathedral and the round lock, a second for the museum and the resort, a third for the volcano and the Grau. In July and August the commune changes scale entirely and driving becomes difficult: if you are coming for the heritage rather than the beach, spring and autumn are a different holiday.",
+      },
+    ],
+    relatedCities: ["agde", "sete", "beziers"],
+    tags: ["things to do in agde", "agde", "travel", "city guide", "occitanie"],
+  },
+  {
+    slug: "things-to-do-in-thonon-les-bains-2026",
+    title: "Things to do in Thonon-les-Bains: a funicular, a lake and a duke's retreat",
+    metaTitle: "Things to Do in Thonon-les-Bains (2026)",
+    metaDesc:
+      "A funicular running since 1888, the château de Ripaille, late Maurice Denis murals, and a boat across Lake Geneva to Lausanne.",
+    category: "city-guide",
+    emoji: "🚡",
+    readMinutes: 7,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    intro:
+      "Thonon-les-Bains had 37,689 residents at the 2022 census against 33,928 in 2011, a little over eleven percent in eleven years, which is the pace of the Franco-Genevan basin: faster than Annecy, slower than Annemasse. It is the historic capital of the Chablais and a former seat of the dukes of Savoy, set on a terrace tens of metres above the water of what the French call the Léman and the English-speaking world calls Lake Geneva. That layout explains most of a visit here. The town is at the top, the harbour is at the bottom, and since 1888 there has been a mechanical way of getting between the two.",
+    sections: [
+      {
+        heading: "The funicular of 1888",
+        body: "It entered service on 2 April 1888 and links the Belvédère, in the town centre, to the harbour at Rives on the lake shore. It is a piece of transport and a piece of heritage at once: refitted in 1951, then in 1989 with a fully automated system built by Poma, the first of its kind in France, and again in 2010. The ride takes under three minutes and replaces a steep walk down, which makes it a genuine urban service rather than an attraction. Start with it. Arriving at the harbour this way gives you the scale of the drop between the upper town and the water straight away.",
+      },
+      {
+        heading: "The harbour at Rives",
+        body: "At the bottom you find an old fishing village turned harbour quarter: low houses, fishing huts in a row along the water, pleasure boats and a lakeside walk. The place has kept a real working memory, that of lake fishing, presented in a small museum devoted to the lake and its trades. This is where you grasp that the Léman is not scenery but a resource, with its species, its seasons and its rules. It is also where the boats leave from, and the best place in town to look at the Swiss shore opposite.",
+      },
+      {
+        heading: "The belvedere and the view",
+        body: "At the top of the funicular, the belvedere gardens give the view that defines Thonon: the lake across its full width, the Vaud shore opposite with Lausanne on it, and in clear weather the Bernese Alps behind. The Léman is close to thirteen kilometres wide at this point, which reads as an inland sea rather than a lake. The walk is free, flat and shaded, and it is the best introduction to the geography of the Chablais that costs nothing. Take the time to pick out the boats of the lake navigation company: they are the daily link between the two shores.",
+      },
+      {
+        heading: "The château de Ripaille",
+        body: "On the northern edge of town, Ripaille is one of the great estates of the southern shore: a four-towered fifteenth-century château, restored in the nineteenth, surrounded by vines, a park and woodland. The place is bound up with Amadeus VIII of Savoy, who installed a community of Augustinian canons here in 1410, had a building put up in 1431 for an order of chivalry dedicated to Saint Maurice, then withdrew here himself in 1434 to live a religious life. The château and the park can be visited, and the estate still makes wine. Allow half a day if you intend to walk it.",
+      },
+      {
+        heading: "Faire ripaille does not come from the château",
+        body: "The story is too good to be true, and it is duly false. Popular tradition holds that the French expression faire ripaille, meaning to feast lavishly, comes from the banquets Amadeus VIII is supposed to have thrown in his château. Etymologists do not accept it: the expression is attested in texts several decades before the first pavilion was built, and the word probably derives from the verb riper. As for the name of the place, it comes from rispe, meaning scrub: Ripaille was a heath covered in brush before anything was built on it. The duke therefore gave his name to nothing, and the phrase is older than his retirement.",
+      },
+      {
+        heading: "The basilica and Maurice Denis",
+        body: "Completed in the early twentieth century and attached to an older baroque church, the basilica of Saint François de Sales holds a set of wall paintings by Maurice Denis, among the last works of the painter. That is the reason to go in. Denis was one of the founders of the Nabis group and one of the great religious decorators of his century, and seeing one of his final commissions in a provincial town is a rare opportunity. Entry is free. The contrast between the baroque decoration of the older church and the modern treatment of the murals is striking, and it reads without any prior knowledge of art history.",
+      },
+      {
+        heading: "The old centre, the spa water, and Évian",
+        body: "The centre of Thonon fits into a few pedestrian streets around the place du Château and the place des Arts, with arcades, Savoyard façades and a density of shops that is surprising for a town this size. Proximity to Switzerland has much to do with it: the spending power of cross-border workers feeds the local trade, and you can read it in the shopfronts. Allow an hour. On market days the square fills with producers from the Chablais and the valleys, and that is when the town looks least like a resort and most like a mountain county town. The les-Bains in the name is not decorative either. Thonon is a spa town, the water is captured and bottled under the town's name, a thermal establishment still operates, and the Versoie spring is laid out as a walk so you can see where the business came from without taking a cure. Spa building shaped the town at the turn of the twentieth century, with its large hotels and gardens, and it is the thread that connects Thonon to Évian, ten kilometres along the shore on the same model.",
+      },
+      {
+        heading: "Crossing to Lausanne, and getting there",
+        body: "The lake navigation company runs a regular year-round service between the harbour at Rives and Lausanne on the Vaud shore. This is an international border crossing, and it is worth being precise about what that means for a non-EU traveller. Switzerland applies the Schengen rules, so there is no visa formality for a European national, but a valid identity document remains compulsory and is checked. Switzerland is not in the European Union or its customs union, however, so customs allowances apply in both directions, which catches out people who assume that no passport check means no rules at all. The crossing is the finest outing in the region in its own right, and it opens a full day in Lausanne; check the current season's timetable, because winter and summer services differ. On land, Thonon has its own station, linked to Geneva and Annemasse by the cross-border regional network, which makes it reachable from Geneva airport without a car. A day covers the funicular, the harbour, the belvedere and the basilica. A second adds Ripaille and a lake crossing. Beyond that Thonon becomes a base for the Chablais, with the Abondance and Giffre valleys under an hour away.",
+      },
+    ],
+    relatedCities: ["thonon-les-bains", "evian-les-bains", "annecy"],
+    tags: [
+      "things to do in thonon-les-bains",
+      "thonon-les-bains",
+      "travel",
+      "city guide",
+      "auvergne-rhone-alpes",
+    ],
+  },
+  {
+    slug: "things-to-do-in-rambouillet-2026",
+    title: "Things to do in Rambouillet: a royal château, a merino flock and two summits",
+    metaTitle: "Things to Do in Rambouillet, Yvelines (2026)",
+    metaDesc:
+      "The château where François I died, Marie-Antoinette's dairy, the merino flock behind an American sheep breed, and the 1999 Kosovo talks.",
+    category: "city-guide",
+    emoji: "🐑",
+    readMinutes: 7,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    intro:
+      "Rambouillet had 27,145 residents at the 2022 census against 25,860 in 2011. It is a small town in the Yvelines carrying an estate out of all proportion to its size, for a simple reason: it was in turn a royal, an imperial and a presidential residence, and each regime left something behind. So you get the place where a king of France died, a dairy built for Marie-Antoinette, a flock of merinos given by the king of Spain, and the room where the first G6 summit was held. Two of those will mean more to an English-speaking visitor than the guidebooks suggest.",
+    sections: [
+      {
+        heading: "The château",
+        body: "The château is run by the Centre des monuments nationaux and can be visited. Its peculiarity is that it is an accumulation rather than an ensemble: a surviving medieval tower, eighteenth-century apartments, imperial alterations and rooms refitted for presidential use in the twentieth century. That can be disorienting if you arrive with Versailles in your head, but it is exactly what makes the visit interesting, because you read four centuries of ways of inhabiting power in the fabric. The estate is large and some rooms are shown only at set times, so check the day's programme before travelling, especially out of season.",
+      },
+      {
+        heading: "François I dies here in 1547",
+        body: "On 31 March 1547 François I died at Rambouillet, when the house belonged to Jacques d'Angennes, captain of his guard. The king, a great hunter, had stopped here as he often did at the houses of his circle. It is the most important historical fact attached to the place and it is little known, including to French visitors, because the end of that reign is generally associated with Fontainebleau or the Louvre. The room that commemorates it is on the visitor route. One caveat: the building has been heavily remodelled since, so you are looking at the site of an event rather than at a 1547 interior.",
+      },
+      {
+        heading: "The Queen's dairy and the shell cottage",
+        body: "In 1787 Louis XVI had a ceremonial dairy built in the park for Marie-Antoinette. The word dairy misleads: this is not a working farm but a neoclassical pavilion with a rotunda, marbles and an artificial grotto full of sculpture, where milk was drunk in a setting conceived as a work of art. It is one of the few surviving examples of a building type that was fashionable in European courts at the end of the eighteenth century. Eight years earlier, in 1779, the duc de Penthièvre had the shell cottage fitted out nearby: a plain thatched cottage outside, and inside a decorative scheme made entirely of shells and mother-of-pearl assembled into panels, friezes and geometric patterns. It is an aristocratic caprice in the exact sense of the word, and it is intact. Do the two together; they are neighbours in the park, and the contrast between the peasant shell and the precious interior sums up what the end of the Ancien Régime did with the idea of nature.",
+      },
+      {
+        heading: "The Bergerie nationale, and a sheep breed you may know",
+        body: "In 1785 Louis XVI decided to establish an experimental farm at Rambouillet to acclimatise several species. In 1786 his cousin Charles III, king of Spain, sent him a flock of merinos, the fine-wool breed whose export Spain then prohibited. The flock is still here, and the Bergerie nationale is at once an agricultural college, a working farm and a site open to the public. It is the only part of the estate where you visit something still doing the job it was built for, which also makes it the best stop with children. For readers from the United States or Australia there is a second reason to come: Rambouillet is a recognised breed name in both countries, and the American Rambouillet descends from this flock, which reached North America in the nineteenth century and became one of the foundations of the western range flock. The sheep in the field are the source of the name on the wool label.",
+      },
+      {
+        heading: "The park and gardens",
+        body: "The park combines several successive states: formal French parterres, canals and islands, and an English garden laid out later, with water perspectives that structure the whole. It is freely open and large enough to fill half a day on foot, dairy and cottage included. It is also what makes Rambouillet pleasant outside opening hours, since the park stays open when the interiors close, and it joins the town to the forest without a break. Wear proper shoes: the distances between the follies are real.",
+      },
+      {
+        heading: "A presidential residence, 1895 to 2009",
+        body: "The château became an official residence of the President of the Republic in 1895 under Félix Faure and remained one until 2009, when it left the list. A hundred and fourteen years of diplomatic duty left physical traces: furniture, fittings, reception rooms adapted for international meetings. It is a rare case of a monument whose most recent layer is also among its best documented, and the visitor route takes account of that. Since it left the presidential estate, public access has extended to spaces that were previously closed.",
+      },
+      {
+        heading: "Two summits, 1975 and 1999",
+        body: "On 15, 16 and 17 November 1975 Valéry Giscard d'Estaing brought the leaders of France, the United States, West Germany, Italy, Japan and the United Kingdom to Rambouillet. That was the first G6 summit, held against the background of the first oil shock and the collapse of the Bretton Woods monetary system. The choice of venue was deliberate: the French president wanted a private house, away from the protocol of Versailles or Paris, in order to get direct conversation. Fifty years on, that is what attaches a hunting lodge to the history of the world economy. The second date will be the familiar one for many English-speaking readers. The talks on Kosovo opened at the château on 6 February 1999 and ran here until 23 February; they resumed in Paris in March, and it was there, not at Rambouillet, that the Kosovo Albanian delegation signed on 18 March, the Yugoslav refusal leading to the NATO air campaign days later. The name Rambouillet attached itself to the whole process anyway. There is no exhibition about it: the interest is in standing in a small French town and realising that this is the place.",
+      },
+      {
+        heading: "The forest, the wildlife park, and getting there",
+        body: "The forest around the town runs to more than twenty thousand hectares, one of the great wooded blocks of the Île-de-France, threaded with forest roads, ponds and waymarked paths, and the reason kings came here in the first place. Watch out for a common confusion: the Espace Rambouillet, the two hundred and fifty hectare wildlife and forest park where you can see red deer, fallow deer, wild boar and birds of prey, is not on the commune of Rambouillet but on that of Sonchamp, about fifteen minutes away by car. As for access, Rambouillet is on line N of the Transilien from Paris-Montparnasse, which makes it one of the great days out from Paris without a car, with the station a few minutes' walk from the château. A day is plenty for the château, the dairy, the cottage and the park. Add half a day for the Bergerie nationale, and a full day if you are going for the forest or the wildlife park. In high season and French school holidays, book timed entry in advance: this is a standard family outing for the whole Paris region.",
+      },
+    ],
+    relatedCities: ["rambouillet", "versailles", "chartres"],
+    tags: ["things to do in rambouillet", "rambouillet", "travel", "city guide", "ile-de-france"],
+  },
+  {
+    slug: "things-to-do-in-bethune-2026",
+    title: "Things to do in Béthune: a UNESCO belfry and a square rebuilt after 1918",
+    metaTitle: "Things to Do in Béthune, Pas-de-Calais (2026)",
+    metaDesc:
+      "A UNESCO belfry, a Grand-Place rebuilt in Art Deco after the town burned in 1918, a national drama centre and the Ring of Remembrance.",
+    category: "city-guide",
+    emoji: "🐉",
+    readMinutes: 8,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    intro:
+      "Béthune had 25,342 residents at the 2022 census against 25,430 in 2011: a stable population, which is not nothing here, since Lens, Liévin, Hénin-Beaumont and Bruay-la-Buissière all fell by four to six percent over the same period. It is not an obvious destination and does not claim to be, but it has two things few towns this size possess: a belfry on the World Heritage list, and an entire square rebuilt in one campaign in the 1920s, in Art Deco. British and Commonwealth visitors have a third reason, which the French edition of this guide passes over quickly and this one does not: for four years Béthune was a British town in everything but name, and that is why the square had to be rebuilt at all.",
+    sections: [
+      {
+        heading: "The belfry",
+        body: "In October 1346 Eudes de Bourgogne authorised the burgesses of the town to build a belfry. The wooden tower soon collapsed; in 1388 Guillaume de Namur, lord of Béthune, granted its rebuilding in local sandstone, and that is the tower you see. It stands thirty-three metres, topped by a seventeen-metre campanile. The belfry was inscribed on the UNESCO World Heritage list in July 2005, with the other belfries of Belgium and France. It is not attached to a town hall: it stands alone in the middle of the Grand-Place, which is the purest form this kind of monument takes.",
+      },
+      {
+        heading: "Beffy the dragon, and what a belfry is for",
+        body: "At the top of the campanile a weathervane in the shape of a dragon turns, and the townspeople call it Beffy. It is the emblem of Béthune and it turns up everywhere, from shop signs to local festivals. The detail is worth knowing because it changes how you look at the tower. A belfry is not a church tower. It is a civic building, the symbol of communal liberties wrested from the lord, so its summit carries a sign of the town and not a cross. Look up from the square, then start spotting the dragon on the façades around you.",
+      },
+      {
+        heading: "The carillon",
+        body: "The belfry rings, and the history of its bells is eventful. A carillon of six bells was installed by the aldermen in 1546. In 1773 the bellfounder Philippe Le Corsin replaced it with thirty-six new bells. The present carillon, of thirty-five bells, was inaugurated in 1951, after the destructions of the century. Carillon concerts happen on set days and are heard from the square for nothing, which makes them the cheapest thing to do in town. Ask the tourist office about the slots: this is a living practice, not a recording on a loop.",
+      },
+      {
+        heading: "Why the square is Art Deco: 1918",
+        body: "For most of the First World War Béthune sat just behind the line and was largely spared shelling, serving as a railway and hospital centre and as a corps and divisional headquarters for the British army; the Indian Corps held the sector in 1914 and 1915. That relative safety ended in the spring of 1918, when the German offensive on the Lys came within a few kilometres. Having failed to take the town, the German artillery burned it: the bombardment of 21 May 1918 did enormous damage, and the main square and the buildings around it were destroyed. Béthune Town Cemetery, in the town itself, holds 3,004 Commonwealth burials of the First World War. If you have come from Britain to see the Loos and Artois battlefields, the square you are standing in is part of the story rather than a detour from it.",
+      },
+      {
+        heading: "The Grand-Place and its Art Deco façades",
+        body: "The town was rebuilt between 1920 and 1927 by a team of architects led by Jacques Alleman, Léon Guthmann, Paul Degez and Louis Marie Cordonnier. The Grand-Place therefore went up in one go, in an Art Deco vocabulary applied to traditional Flemish massing: crow-stepped gables and brick, but with 1920s ironwork, mosaic and geometric motifs. The result is coherent because it is contemporary with itself, and it has no immediate equivalent in the region. The building campaign did not stop at the square: the church of Saint-Vaast was rebuilt in 1927, the war memorial unveiled on 11 November 1928, the town hall on 7 April 1929. Walking the centre means reading a decade of French architecture applied to a whole town rather than a single building. Béthune belongs to the national network of towns of art and history, and the tourist office runs walks that follow precisely this thread.",
+      },
+      {
+        heading: "The church of Saint-Vaast",
+        body: "The church rebuilt in 1927 is worth going into. It applies to a religious programme the same vocabulary as the square: massive volumes, brick, geometric decoration, and a handling of light that owes a great deal to 1920s work on stained glass. It is an example of what is sometimes called reconstruction architecture, a category long despised and since reassessed. Entry is free. If you visit only one interior in Béthune besides the belfry, make it this one, because it shows that the architectural gesture of 1920 was not decorative but complete.",
+      },
+      {
+        heading: "Labanque and the Comédie de Béthune",
+        body: "Opened in May 2016, Labanque is a visual arts production and exhibition centre installed, as the name says, in a former bank. The building itself repays a look, with the volumes and fittings of an early twentieth-century financial house turned into exhibition space. The programme is contemporary and demanding and changes through the year, so check what is on before coming; there can be install periods between shows. A few streets away, the Comédie de Béthune is the centre dramatique national for the Hauts-de-France. A CDN is a state label: it implies a permanent company, an artistic director and the production of new work, not simply a hall that receives touring shows. So a town of twenty-five thousand people has a theatre operation of national rank, which is rare and which shapes much of the local cultural year. Ticket prices at a provincial CDN bear no relation to a London or Paris equivalent.",
+      },
+      {
+        heading: "The Ring of Remembrance, and getting there",
+        body: "About twenty kilometres from Béthune, on the commune of Ablain-Saint-Nazaire, the national necropolis of Notre-Dame-de-Lorette is the largest in France. Since 2014 it has been completed by the Ring of Remembrance, a memorial designed by the architect Philippe Prost and inaugurated on 11 November 2014, the ninety-sixth anniversary of the armistice. It carries the names of 576,606 soldiers of forty nationalities who died in the Nord-Pas-de-Calais, engraved with no distinction of side, rank or religion, which means British, German, French and Commonwealth names run into one another in a single alphabetical sequence. It is not in Béthune but is reachable in about thirty minutes by car, and it changes how you understand the whole region. As for access, Béthune has its own station, linked to Lille and Arras by regional trains. Half a day covers the belfry, the Grand-Place, Saint-Vaast and Labanque, and that is an honest use of the town: Béthune is a stop, not a stay. A full day is justified if you add Notre-Dame-de-Lorette, or if you carry on into the mining basin next door, whose landscapes have been UNESCO-listed since 2012. The Louvre-Lens is about twenty kilometres away, and that is the obvious pairing for a day in the area.",
+      },
+    ],
+    relatedCities: ["bethune", "lens", "arras"],
+    tags: ["things to do in bethune", "bethune", "travel", "city guide", "hauts-de-france"],
+  },
+  {
+    slug: "things-to-do-in-montelimar-2026",
+    title: "Things to do in Montélimar: nougat, a castle, and the gate to Provence",
+    metaTitle: "Things to Do in Montélimar, Drôme (2026)",
+    metaDesc:
+      "Nougat with a protected geographical indication, a twelfth-century castle turned art centre, and the point where Provence begins.",
+    category: "city-guide",
+    emoji: "🍬",
+    readMinutes: 7,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    intro:
+      "Montélimar had 40,356 residents at the 2022 census against 35,372 in 2011, which makes it the fastest-growing town in the Drôme among those this site tracks, well ahead of Valence and Romans-sur-Isère. It has a reputation as a place where you stop to buy nougat before driving on, and the reputation is partly earned, since the motorway and the high-speed line both pass it without entering. That is a pity. The town has a twelfth-century castle, a complete old centre, and a claim to be the gate of Provence that holds up the moment you get out of the car.",
+    sections: [
+      {
+        heading: "Nougat, and what the PGI actually requires",
+        body: "Nougat de Montélimar is a defined recipe, protected since 2023 by a protected geographical indication recognised by the European Union. The specification requires a white paste whipped with egg white and cooked with honey and sugar, with honey making up at least a quarter of the sweetening, and a filling of at least thirty percent whole roasted sweet almonds, the classic formula being twenty-eight percent almonds and two percent pistachios. In practice that means a bar sold elsewhere under the name without meeting those rules is not nougat de Montélimar, whatever the packet says. Several factories in town open their workshops to visitors, which is the quickest way to see the difference between the industrial and the traditional article.",
+      },
+      {
+        heading: "The Palais des bonbons et du nougat",
+        body: "This is the family attraction, with more than a hundred and thirty thousand visitors a year, and it makes no pretence about its register: a route mixing sweets, chocolate, nougat, antique toys, dolls and a reconstructed classroom, with films, a scent organ and touch panels. It is not a museum in the heritage sense and does not claim to be. For children it is easily the most effective thing to do in Montélimar and it fills half a day. For adults who have come for the heritage it will probably be the reverse, and it is better to know that before choosing.",
+      },
+      {
+        heading: "The château des Adhémar",
+        body: "It dominates the town from a knoll and it is older than you would guess: the seigneurial hall was built in the twelfth century by Géraud Adhémar de Monteil, whose family gave the town its name. The tour de Narbonne and the curtain wall came later, after a division of the estate between the two Adhémar brothers, Géraud and Lambert. Property of the Drôme department since 1947, the castle now houses a contemporary art centre showing temporary exhibitions inside the medieval architecture. The confrontation is deliberate and it works: this is one of the few places where you look at current art under twelfth-century vaults.",
+      },
+      {
+        heading: "The Saint-Pierre chapel, the oldest part",
+        body: "Inside the castle enclosure, the chapel of Saint-Pierre is the oldest visible building, dated to the eleventh century. It predates the hall itself, which tells you the knoll was already occupied before the Adhémars arrived. It is visited with the castle. The detail matters for understanding the town: Montélimar was not born of a twelfth-century seigneurial decision but of a much older control point, where the Rhône valley opens towards the south. It is also the highest viewpoint in the centre, and the climb is made on foot from the old town.",
+      },
+      {
+        heading: "The collegiate church of Sainte-Croix",
+        body: "Mentioned as early as 1183, the church became collegiate in 1449 and was rebuilt in Flamboyant Gothic at the end of the fifteenth century, with a bell tower added. Looted and burned during the wars of religion, it was rebuilt in its present form in the eighteenth century. That layering is visible to the naked eye and it is what makes the visit interesting, since you can read the breaks in the materials and the proportions. Entry is free. The Drôme was one of the departments most violently worked over by the wars of religion, and the church carries the trace of it better than any information panel.",
+      },
+      {
+        heading: "The old town and the rue Pierre-Julien",
+        body: "The old centre is organised around the rue Pierre-Julien, the shopping street that crosses it end to end, and the place du Marché. Narrow lanes, coloured façades, vaulted passages: this is a Provençal centre rather than a Dauphinois one, which is not a detail given that the town presents itself as the gate of Provence. Allow an hour on foot. Nougat shops are numerous, some of them long-established and some not: the makers who actually produce on the premises say so, and it is worth asking before you buy.",
+      },
+      {
+        heading: "The fighter aircraft museum, and the Rhône",
+        body: "On the Montélimar-Ancône airfield, an association-run museum shows around sixty aircraft, mostly military fighters, with many more in reserve in the hangars. It is an open-air and workshop collection rather than a national museum display: you walk round the machines, you see restorations in progress, and you are met by volunteers who are often former mechanics or pilots. For anyone interested in aviation it is one of the most complete collections in France in its field. Check the opening days before travelling, since they vary by season. Separately, the Rhône runs a few kilometres west of town and the ViaRhôna, the cycle route linking Lake Geneva to the Mediterranean, follows this stretch of valley. It is the best way out of Montélimar without a car, and a few kilometres put you among the river, the canals and the orchards. The section is flat and well signed, so it works with children. Mind the mistral, which blows here with some regularity and turns an easy there-and-back into serious work in one direction: check the wind before setting off rather than on the way home.",
+      },
+      {
+        heading: "The gate of Provence, and getting there",
+        body: "The town claims the title and it rests on something you can verify. It is at roughly this latitude that the landscape tips over, with Roman tiles, olives and lavender appearing to the east and the mistral strengthening in the Rhône corridor. Provençal Drôme begins here, with Grignan, Nyons and the Dieulefit country under an hour away. That gives the town a precise function for a traveller: it is not a destination for a stay but an excellent base, with accommodation cheaper than in the hill villages it serves. Montélimar has its own station in the centre, on the classic line along the left bank of the Rhône, which makes it reachable without a car from Valence and Avignon. The nearest high-speed station is not in town: TGV services call at Valence TGV, some fifty kilometres north, so allow for a connection. A day covers the castle, the church, the old town and a nougat workshop. Add half a day for the aircraft museum or the sweet palace, and a full day if you are heading into the Provençal Drôme.",
+      },
+    ],
+    relatedCities: ["montelimar", "valence", "orange"],
+    tags: ["things to do in montelimar", "montelimar", "travel", "city guide", "auvergne-rhone-alpes"],
+  },
+  {
+    slug: "things-to-do-in-cavaillon-2026",
+    title: "Things to do in Cavaillon: a synagogue, a Roman arch and Dumas's melons",
+    metaTitle: "Things to Do in Cavaillon, Vaucluse (2026)",
+    metaDesc:
+      "An eighteenth-century synagogue, a Roman arch moved stone by stone, a hill fort above the plain, and the melons Alexandre Dumas took as a fee.",
+    category: "city-guide",
+    emoji: "🍈",
+    readMinutes: 7,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    intro:
+      "Cavaillon had 25,890 residents at the 2022 census against 26,492 in 2016: the town is losing people. It is not a hill village, and visitors who come to the Luberon expecting one are usually disappointed for about ten minutes and then relieved, because Cavaillon is a working town on the plain, agricultural and commercial, living off market gardening rather than tourism. It also holds two monuments nobody expects to find there: one of the finest eighteenth-century synagogues in France, and a Roman arch that was taken down and moved stone by stone.",
+    sections: [
+      {
+        heading: "The synagogue and the Comtadin Jewish museum",
+        body: "Rebuilt between 1772 and 1774 on fifteenth-century foundations, the synagogue of Cavaillon is one of two surviving Comtadin buildings of its kind, the other being at Carpentras. Its decoration combines the requirements of Jewish worship with the Provençal vocabulary of the eighteenth century: panelling, ironwork and pale colours, in two stacked volumes joined by an outside stair. The building served as a place of prayer, a school and a community assembly hall. Since the 1960s it has housed the Comtadin Jewish museum, which shows ritual objects from the sixteenth to the nineteenth century, community archives and pieces from the genizah, the store of books withdrawn from use.",
+      },
+      {
+        heading: "What a carrière was",
+        body: "The context is the same as at Carpentras and you need it to visit properly. The Jews were expelled from the kingdom of France in 1306; many took refuge on papal territory, in the Comtat Venaissin, where they were permitted to live in four towns only: Carpentras, Cavaillon, Avignon and L'Isle-sur-la-Sorgue. These quarters, called carrières, were constrained, closed and overcrowded. A plaque at the foot of the Saint-Jacques hill marks the site of the first cemetery. The word refuge is accurate but insufficient: this was a legal regime of regulated tolerance, and the synagogue is the material trace of that regime, not of any harmony.",
+      },
+      {
+        heading: "The Roman arch, and its move",
+        body: "The ancient arch of Cavaillon was listed as a historic monument in 1840, which makes it one of the very first protected monuments in France. It no longer stands where it was built. Found at the foot of the cathedral, it was carried stone by stone in 1880 to the end of the esplanade du Clos, the old melon market square. It is a textbook case of the nineteenth-century approach to heritage, in which a monument was moved in order to display it. The result is a Roman arch planted in the middle of an urban square, to be looked at for its reliefs and for that history in equal measure.",
+      },
+      {
+        heading: "The cathedral of Notre-Dame-et-Saint-Véran",
+        body: "The former cathedral dates from the end of the eleventh century, was raised in the twelfth and enlarged from the sixteenth to the eighteenth by the addition of side chapels. One detail is worth looking for: the decorative frieze of the building is copied directly from the ornament of the Roman arch, which stood immediately next to it until the nineteenth century. In other words the medieval carvers copied the ancient monument in front of them, and the quotation stayed put when the arch left. It is the kind of link you will not see unless somebody points it out, and on its own it justifies doing the two together.",
+      },
+      {
+        heading: "The cloister",
+        body: "Between the cathedral and the canons' church, now gone, a cloister survives whose construction began in the early thirteenth century. It is small, Romanesque, and it has the advantage of being rarely visited: you can sit in it for ten minutes without meeting anyone, which is true of no comparable cloister in the tourist Luberon. Access is through the cathedral. It is the useful counterpoint to the synagogue: the two buildings stand a few hundred metres apart and tell the story of the same town under two different legal regimes, in the same period.",
+      },
+      {
+        heading: "The Saint-Jacques hill, the chapel and the hermitage",
+        body: "The hill above the town was called the mont Caveau and carried an oppidum: the Cavares, a Celto-Ligurian people, occupied the country between the Durance and the Isère, and this promontory controlled the route between the Rhône valley and the Alps. That is where the town's name comes from. A stepped path takes you up in about twenty minutes from the centre, and walking loops start at the top. The panorama covers the tiled roofs of Cavaillon on the plain, the Luberon, Mont Ventoux and the Durance. It is the finest thing to do here and it is free. At the summit stands the chapel of Saint-Jacques, built in the twelfth century on this naturally defended site: a small rural building with plain decoration, enlarged between the sixteenth and seventeenth centuries by two bays, a porch and hermitage quarters. A hermit was installed here by the chapter of Cavaillon in 1300 and the post was maintained until 1804, half a millennium of continuous occupation. The place has to be earned by the climb, which is exactly what keeps it quiet at the hours when the Luberon is saturated.",
+      },
+      {
+        heading: "The melon, and Alexandre Dumas",
+        body: "Cavaillon has been associated with melons for long enough that the town's best-known story turns on them. In 1864 Alexandre Dumas, the author of The Three Musketeers and The Count of Monte Cristo, offered the municipal library the complete set of his published works on one condition: that the council grant him, by formal resolution, a life annuity of twelve melons a year. The council voted unanimously on 13 November 1864, and the annuity was paid to the novelist until his death in 1870. The library reached 876 volumes by the end of 1864 and doubled the following year. This is a public contract rather than a legend, and it is in the commune's records.",
+      },
+      {
+        heading: "The market, the working town, and getting there",
+        body: "Cavaillon is first of all an agricultural marketplace: the wholesale market and the fruit and vegetable trade structure the local economy, and you can see it in the town, in its warehouses as much as in its retail market. Coming on a market day is the best way to understand what this town is for, since it was not designed for visitors; ask the tourist office for days and locations. It is also where the gap with the Luberon villages shows most clearly, because the same produce costs noticeably less where it is grown. As for access, Cavaillon has its own station, on the regional line linking Avignon to Marseille via Pertuis and Aix-en-Provence, and Avignon TGV is about thirty kilometres away. Half a day covers the synagogue, the arch, the cathedral and the cloister, with an extra morning for the Saint-Jacques hill, best done early in summer. The town works well as a base for the Luberon: Gordes, L'Isle-sur-la-Sorgue and the Monts de Vaucluse villages are all under forty minutes, and a bed costs less here than in the villages themselves. That is a deliberate trade of charm against budget, and for a week's stay it is usually the right one.",
+      },
+    ],
+    relatedCities: ["cavaillon", "avignon", "carpentras"],
+    tags: ["things to do in cavaillon", "cavaillon", "travel", "city guide", "provence"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

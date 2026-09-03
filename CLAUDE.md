@@ -1141,6 +1141,76 @@ jamais faites, à compléter par les trous mesurés ce run : **Villefranche-sur-
 **Alès**, **Le Cannet**, **Conflans-Sainte-Honorine**, **Pontoise**, **Haguenau**, **Blagnac** et
 **Six-Fours-les-Plages**.
 
+**Batch 41 — EN, rattrapage de parité, shipped 2026-09-03.** Les 7 jumelles
+`things-to-do-in-[slug]-2026` du batch 40 écrites d'un coup dans `data/guides-en.ts` (Bergerac,
+Agde, Thonon-les-Bains, Rambouillet, Béthune, Montélimar, Cavaillon). **Compteurs mesurés : FR 240
+(`-a-` strict 233 + 5 en `au-` + 2 en `aux-`), EN 240 — écart nul dans les deux sens, parité
+rétablie** (`EN_GUIDES` 825 → 832). Aucun slug hors gabarit : les sept villes prennent « à » sans
+contraction, donc la règle du batch 33 (**côté EN le slug se dérive du slug de seed tel quel**)
+n'avait rien à arbitrer. `metaTitle` 36-45 caractères, `metaDesc` 126-142, 8 sections par guide (la
+série FR en compte 10, l'EN fusionne les fins de liste). Les 7 guides sont vérifiés **retrouvés par
+`getEnGuide()` depuis le slug de seed** et **pourvus de leur photo d'en-tête** (`guideCityPhoto`).
+Aucun tag neuf — les 7 réutilisent `nouvelle-aquitaine`, `occitanie`, `auvergne-rhone-alpes`,
+`ile-de-france`, `hauts-de-france`, `provence` ; `search-index.en.json` reste à **114 tags**, donc
+aucune page `/tags/` créée, et `sitemap:check` confirme EN **28 724 URL**, soit exactement les 7
+guides neufs. Densité d'em-dash très en dessous de la cible R7.10 : 2 sur les sept guides réunis.
+⚠️ **Onze figures du texte EN ne sont pas dans les jumelles FR, et c'est délibéré — le contrôle
+mécanique les remontera à chaque run, ne pas les « corriger ».** Le contrôle (chaque suite de
+chiffres du texte EN cherchée dans le guide FR, séparateurs normalisés) donne **109 figures, 98
+retrouvées** ; les 11 restantes sont toutes vérifiées en ligne avant écriture et relèvent de la
+matière propre à l'angle anglophone que le batch 40 avait explicitement demandée. ① **Bergerac** :
+`1981`, `1991`, `2025` et `1897`. Pour un lecteur britannique, « Bergerac » n'est pas une ville du
+Périgord mais **une série de la BBC diffusée de 1981 à 1991 avec John Nettles, rebootée en 2025 —
+et située à Jersey**. La désambiguïsation ouvre l'intro, exactement comme celle d'Orange au batch 37
+et de Vernon au batch 39. `1897` date la pièce de Rostand, jouée et filmée en anglais depuis, ce qui
+donne son poids à la correction Cyrano du batch 40 : le vrai Savinien est né à Paris et les fiefs de
+Bergerac sont dans les Yvelines. ② **Rambouillet** : `1999` et `23`. Les pourparlers sur le Kosovo
+se sont ouverts **au château le 6 février 1999** et y ont tenu **jusqu'au 23 février** ; ils ont
+repris **à Paris**, et c'est là, pas à Rambouillet, que la délégation kosovare albanaise a signé le
+**18 mars**. Le guide le dit dans cet ordre : attribuer la signature au château est l'erreur
+courante. Le même paragraphe garde le G6 de novembre 1975, dont quatre des six pays sont
+anglophones ou lus en anglais. ③ **Béthune** : `1914`, `1915`, `1918`, `21` et `3004`. C'est le
+guide où l'écart FR/EN est le plus fort, et le batch 40 l'avait annoncé. Béthune a été pendant
+l'essentiel de la guerre **un quartier général de corps et de division britannique, un centre
+ferroviaire et hospitalier** — l'Indian Corps y tient le secteur en 1914-1915 — et c'est le
+**bombardement du 21 mai 1918**, après l'échec allemand sur la Lys, qui a détruit la Grand-Place
+que la ville a reconstruite en Art déco. Le cimetière communal porte **3 004 sépultures du
+Commonwealth de la Première Guerre mondiale**. Autrement dit la section « pourquoi la place est Art
+déco » n'est pas un ajout décoratif : elle donne enfin sa cause au monument que le guide FR décrit
+sans la dater.
+Les prudences du FR sont reprises telles quelles, à ne pas diluer : **Monbazillac est une commune à
+part** (~8 km) et non un quartier de Bergerac, **l'Espace Rambouillet est à Sonchamp** malgré son
+nom, **Notre-Dame-de-Lorette et l'Anneau de la Mémoire sont à Ablain-Saint-Nazaire**, le **quartier
+naturiste du Cap d'Agde** est traité en une section factuelle et sans jugement (la confusion joue
+dans les deux sens, et le reste de la station n'a rien de naturiste), la **carrière de Cavaillon**
+est nommée pour ce qu'elle était — un régime juridique de tolérance encadrée, pas une harmonie —,
+**« faire ripaille » ne vient pas du château de Ripaille**, et le **CAEA-style « accessible
+depuis »** tient partout ailleurs. Sept ajouts sans chiffre propres au lecteur étranger : Agde et
+**Cap d'Agde posés en première ligne comme deux endroits distincts à cinq kilomètres** (point de
+vigilance nº 1 du batch 40) ; **Léman rendu « Lake Geneva »** ; la traversée Rives-Lausanne écrite
+comme le batch 40 le demandait, **Schengen sans visa mais pièce d'identité obligatoire, et la Suisse
+hors UE et hors union douanière donc franchises douanières applicables** — le piège étant de déduire
+« pas de contrôle de passeport » de « pas de règles » ; **« Rambouillet » est un nom de race ovine
+aux États-Unis et en Australie**, et l'American Rambouillet descend du troupeau toujours présent à
+la Bergerie nationale, ce qui donne au visiteur anglophone une raison d'y aller que le FR n'a pas ;
+**Dumas présenté par *The Three Musketeers* et *The Count of Monte Cristo*** avant sa rente de douze
+melons ; **beffroi, collégiale et CDN définis en une incise** ; et les tarifs d'un CDN de province
+comparés à Londres plutôt qu'à Paris.
+⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. § Commands depuis le batch 27 : 4 h 30
+de génération, `.next` à 25 Go, ENOSPC avant la finalisation, aucun signal utile). Le substitut
+prescrit passe en entier : `npx tsc --noEmit` **propre**, `npm run integrity` (guides EN 825 → 832),
+`search-index` + `search-index:check`, `sitemap:check`, `npm run parity` (0 route FR sans jumelle),
+`npm run hreflang:check`, plus le contrôle de lookup / photo, le contrôle de figures ci-dessus et
+une vérification d'encodage (aucun `m2` / `EUR` / `deg` ascii, aucun mojibake, accents intacts).
+Note d'environnement reconfirmée : le conteneur de routine démarre **sans `node_modules`** —
+`npm install` d'abord.
+**Prochain run : batch FR** (l'écart est nul, la série FR reprend la main). Gisements inchangés :
+Saint-Herblain, Mantes-la-Jolie, Istres, les six banlieues de province jamais faites
+(Villenave-d'Ornon, Talence, Le Bouscat ; Vaulx-en-Velin, Saint-Priest, Bron — rappel du batch 28 :
+**l'Espace Albert Camus et le fort de la ceinture lyonnaise sont à Bron**, pas à Vénissieux) et les
+trous mesurés au batch 40 : Villefranche-sur-Saône, Melun, Alès, Le Cannet, Conflans-Sainte-Honorine,
+Pontoise, Haguenau, Blagnac, Six-Fours-les-Plages.
+
 **Batch 36 — FR, shipped 2026-08-29 : Orange, Saint-Germain-en-Laye, La Ciotat, Rochefort, Dieppe,
 Douai, Sens.** Sept villes, sept régions différentes, et le même arbitrage qu'aux batches 26, 32 et
 34, assumé une fois de plus contre la liste de gisements : **on choisit par matière touristique

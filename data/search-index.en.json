@@ -7367,18 +7367,53 @@
       "slug": "single-parent-holidays-metz-2026",
       "title": "Single-parent holidays in Metz: the station exit is the museum forecourt",
       "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "things-to-do-in-bergerac-2026",
+      "title": "Things to do in Bergerac: wine, a river, and a Cyrano who never lived here",
+      "emoji": "🍇"
+    },
+    {
+      "slug": "things-to-do-in-agde-2026",
+      "title": "Things to do in Agde: the black town, which is not the resort",
+      "emoji": "🌋"
+    },
+    {
+      "slug": "things-to-do-in-thonon-les-bains-2026",
+      "title": "Things to do in Thonon-les-Bains: a funicular, a lake and a duke's retreat",
+      "emoji": "🚡"
+    },
+    {
+      "slug": "things-to-do-in-rambouillet-2026",
+      "title": "Things to do in Rambouillet: a royal château, a merino flock and two summits",
+      "emoji": "🐑"
+    },
+    {
+      "slug": "things-to-do-in-bethune-2026",
+      "title": "Things to do in Béthune: a UNESCO belfry and a square rebuilt after 1918",
+      "emoji": "🐉"
+    },
+    {
+      "slug": "things-to-do-in-montelimar-2026",
+      "title": "Things to do in Montélimar: nougat, a castle, and the gate to Provence",
+      "emoji": "🍬"
+    },
+    {
+      "slug": "things-to-do-in-cavaillon-2026",
+      "title": "Things to do in Cavaillon: a synagogue, a Roman arch and Dumas's melons",
+      "emoji": "🍈"
     }
   ],
   "tags": [
     {
       "slug": "travel",
       "label": "travel",
-      "count": 239
+      "count": 246
     },
     {
       "slug": "city-guide",
       "label": "city guide",
-      "count": 233
+      "count": 240
     },
     {
       "slug": "moving-to-france",
@@ -7396,14 +7431,19 @@
       "count": 66
     },
     {
+      "slug": "nouvelle-aquitaine",
+      "label": "nouvelle-aquitaine",
+      "count": 53
+    },
+    {
       "slug": "buying-property-france",
       "label": "buying property france",
       "count": 52
     },
     {
-      "slug": "nouvelle-aquitaine",
-      "label": "nouvelle-aquitaine",
-      "count": 52
+      "slug": "occitanie",
+      "label": "occitanie",
+      "count": 50
     },
     {
       "slug": "real-estate",
@@ -7411,9 +7451,9 @@
       "count": 50
     },
     {
-      "slug": "occitanie",
-      "label": "occitanie",
-      "count": 49
+      "slug": "auvergne-rhone-alpes",
+      "label": "auvergne-rhone-alpes",
+      "count": 43
     },
     {
       "slug": "grand-est",
@@ -7421,14 +7461,9 @@
       "count": 42
     },
     {
-      "slug": "auvergne-rhone-alpes",
-      "label": "auvergne-rhone-alpes",
-      "count": 41
-    },
-    {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 35
+      "count": 36
     },
     {
       "slug": "pays-de-la-loire",
@@ -7436,14 +7471,14 @@
       "count": 32
     },
     {
-      "slug": "working-in-france",
-      "label": "working in france",
+      "slug": "ile-de-france",
+      "label": "ile de france",
       "count": 31
     },
     {
-      "slug": "ile-de-france",
-      "label": "ile de france",
-      "count": 30
+      "slug": "working-in-france",
+      "label": "working in france",
+      "count": 31
     },
     {
       "slug": "job-market-france",
@@ -7491,14 +7526,14 @@
       "count": 24
     },
     {
-      "slug": "student-housing-france",
-      "label": "student housing france",
+      "slug": "provence",
+      "label": "provence",
       "count": 23
     },
     {
-      "slug": "provence",
-      "label": "provence",
-      "count": 22
+      "slug": "student-housing-france",
+      "label": "student housing france",
+      "count": 23
     },
     {
       "slug": "single-parent-holidays",
