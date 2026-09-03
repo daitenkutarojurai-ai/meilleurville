@@ -10,6 +10,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
 import { computeOwnerScores } from "@/lib/owner-scores";
 import { climateZoneFor, transitPassFor } from "@/lib/cost-living";
+import { borderCommute } from "@/lib/profile-pages";
 import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityAlternates } from "@/lib/i18n";
@@ -120,6 +121,10 @@ export default async function VilleTeletravailPage({ params }: Props) {
   const housing = getHousing(city.slug);
   const zone = climateZoneFor(city.department);
   const transitPass = transitPassFor(city.slug);
+  // Pôle d'emploi étranger le plus proche, s'il en existe un dans le champ du
+  // barème frontalier : là où il y en a un, le nombre de jours télétravaillés
+  // n'est plus un confort mais un paramètre fiscal.
+  const border = borderCommute(city);
 
   // Rough monthly fixed budget for a remote worker (single, T2)
   const ROUGH_HEATING = { H1a: 95, H1b: 90, H1c: 80, H2a: 65, H2b: 60, H2c: 55, H2d: 70, H3: 40 } as const;
@@ -273,6 +278,13 @@ export default async function VilleTeletravailPage({ params }: Props) {
               🚀 Télétravail + culture + coût
             </Badge>
           </Link>
+          {border && (
+            <Link href="/pour-qui/travailleurs-frontaliers">
+              <Badge variant="default" className="px-4 py-2 text-sm cursor-pointer">
+                🛂 Employeur à {border.hub} : les jours à la maison se comptent
+              </Badge>
+            </Link>
+          )}
         </div>
       </div>
 

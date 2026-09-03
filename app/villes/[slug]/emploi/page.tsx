@@ -14,6 +14,7 @@ import {
   JOB_LEVEL_BG,
   type JobDimension,
 } from "@/lib/employment-market";
+import { borderCommute } from "@/lib/profile-pages";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { clampMeta } from "@/lib/brand";
 import { cityAlternates } from "@/lib/i18n";
@@ -71,6 +72,11 @@ export default async function EmploiPage({ params }: Props) {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) notFound();
   const e = computeEmploymentMarket(city);
+  // Le pôle d'emploi étranger le plus proche, quand il y en a un dans le champ du
+  // barème (89 villes sur 540). Sert uniquement à décider si le renvoi frontalier
+  // en bas de page a un sens ici : aucun kilométrage n'est publié, il vit sur
+  // /pour-qui/travailleurs-frontaliers.
+  const border = borderCommute(city);
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Accueil", path: "/" },
@@ -229,6 +235,23 @@ export default async function EmploiPage({ params }: Props) {
             croise pour cela scène culturelle, aptitude au télétravail et coût de la vie, à
             poids égal.
           </p>
+          {border && (
+            <p className="text-[var(--text-secondary)]">
+              Ce bassin s&apos;arrête à la frontière, et {city.name} en est proche : de tous
+              les pôles d&apos;emploi transfrontaliers suivis par le site, le plus proche
+              d&apos;ici est {border.hub} ({border.country}). Quand on est payé de
+              l&apos;autre côté, ni le salaire ni la caisse maladie ne dépendent plus du
+              marché décrit sur cette page —{" "}
+              <Link
+                href="/pour-qui/travailleurs-frontaliers"
+                className="text-[var(--accent)] hover:underline"
+              >
+                où habiter quand on travaille de l&apos;autre côté de la frontière
+              </Link>{" "}
+              classe les communes concernées sur la distance au pôle, le loyer et les
+              transports.
+            </p>
+          )}
         </div>
       </section>
 

@@ -8,6 +8,7 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getTransit, transitTags, type Transit } from "@/lib/transit";
 import { commuteEstimate } from "@/lib/commute-estimate";
+import { borderCommute } from "@/lib/profile-pages";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityAlternates } from "@/lib/i18n";
 
@@ -105,6 +106,9 @@ export default async function TransportsPage({ params }: Props) {
   const score = city.scores.transport;
   const ce = commuteEstimate(city);
   const vsAvg = +(score - SCORE_AVG).toFixed(1);
+  // Pôle d'emploi étranger le plus proche, s'il en existe un dans le champ du
+  // barème frontalier. Sert à décider si le renvoi ci-dessous a un sens ici.
+  const border = borderCommute(city);
 
   // Rank by transport score
   const sorted = [...CITIES_SEED].sort((a, b) => b.scores.transport - a.scores.transport);
@@ -315,6 +319,14 @@ export default async function TransportsPage({ params }: Props) {
           >
             Villes où vivre sans voiture 🚲
           </Link>
+          {border && (
+            <Link
+              href="/pour-qui/travailleurs-frontaliers"
+              className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+            >
+              Habiter ici et travailler à {border.hub} 🛂
+            </Link>
+          )}
           <Link
             href="/villes"
             className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"

@@ -289,6 +289,18 @@ export default function EmploymentHubPage() {
               </div>
             </Card>
           </Link>
+          <Link href="/pour-qui/travailleurs-frontaliers" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">🛂</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">
+                Travailler de l&apos;autre côté
+              </div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">
+                Quand l&apos;employeur est suisse, luxembourgeois, allemand, belge ou
+                monégasque, ce n&apos;est plus le marché local qui décide
+              </div>
+            </Card>
+          </Link>
           <Link href="/classements/jeune-actif" className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-2xl mb-1">🚀</div>

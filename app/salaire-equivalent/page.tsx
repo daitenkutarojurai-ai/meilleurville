@@ -101,7 +101,14 @@ export default function SalaireEquivalentPage() {
               les fiches retour d&apos;expatriation
             </Link>
             , qui traitent le change, la couverture santé et l&apos;année fiscale coupée en
-            deux avant que le reste à vivre ait un sens.
+            deux avant que le reste à vivre ait un sens. Être payé en francs suisses ou en
+            euros luxembourgeois <em>sans</em> avoir quitté la France est encore un autre
+            cas : le salaire est étranger, le loyer est français, et c&apos;est celui-là que
+            traite{" "}
+            <Link href="/pour-qui/travailleurs-frontaliers" className="underline">
+              la page des travailleurs frontaliers
+            </Link>
+            , qui compare les communes d&apos;où l&apos;on passe la frontière chaque matin.
           </p>
           <p className="text-xs text-[var(--text-tertiary)] mt-2 leading-relaxed">
             Le calculateur part d&apos;une ville que vous connaissez déjà. Si vous n&apos;avez
