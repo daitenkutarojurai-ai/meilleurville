@@ -4214,7 +4214,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Cluses - Faucigny (74) : le royaume du décolletage",
-        body: "La vallée de l'Arve autour de Cluses concentre 60 % de la production mondiale de pièces décolletées (petites pièces de précision pour horlogerie, automobile, médical). Les entreprises peinent régulièrement à recruter des tourneuses-fraiseurs et des usineurs CNC. Salaires supérieurs à la moyenne régionale. Combiné aux stations de ski voisines, c'est l'un des meilleurs marchés emploi/qualité de vie de France.",
+        body: "La vallée de l'Arve autour de Cluses concentre plus de 70 % de la production française de pièces décolletées (petites pièces de précision pour horlogerie, automobile, médical) et reste le premier centre mondial du métier — attention, le chiffre circule souvent sous la forme fausse « 60 % de la production mondiale ». Les entreprises peinent régulièrement à recruter des tourneuses-fraiseurs et des usineurs CNC. Salaires supérieurs à la moyenne régionale. Combiné aux stations de ski voisines, c'est l'un des meilleurs marchés emploi/qualité de vie de France.",
       },
       {
         heading: "Thiers (63) : la coutellerie qui résiste",

@@ -34730,6 +34730,381 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["cavaillon", "avignon", "carpentras"],
     tags: ["things to do in cavaillon", "cavaillon", "travel", "city guide", "provence"],
   },
+
+  {
+    slug: "best-french-cities-cheap-rent-2026",
+    title: "Cheapest French Cities to Rent In (2026)",
+    metaTitle: "Cheapest French Cities to Rent In 2026",
+    metaDesc:
+      "Where a two-room flat rents for under €600 in a town that still works: 22 French cities ranked by rent, with the ones we deliberately left out.",
+    category: "budget",
+    emoji: "💸",
+    readMinutes: 8,
+    publishedAt: "2026-09-04",
+    updatedAt: "2026-09-04",
+    intro:
+      "The median two-room rent across the 540 cities on this site is €700 a month. Nearly a third of them (164 of the 540) sit under €600, which is the number that makes people from London, Dublin, Amsterdam or Toronto look twice. The catch is that rent alone is a bad filter: several of the very cheapest towns in France are cheap because the local economy collapsed and never came back, and a €450 flat in a place scoring 2.8 out of 10 is not a bargain, it is a warning. This guide does the filter properly. It ranks French cities of at least 20,000 residents by our reference rent for a two-room flat (a T2, meaning one bedroom plus a living room), and it only lists the ones that also clear 6.0 out of 10 on our overall quality-of-life score. Then it names the cheaper towns we excluded, and why, because that list is the more useful half.",
+    sections: [
+      {
+        heading: "How this list is built, and what a T2 is",
+        body: "Two numbers do the work. The first is our reference monthly rent for a T2: one bedroom, one living room, typically 40 to 50 m², the standard unit a couple or a single person rents in France. It is a market asking rent, so it is what you would pay moving in this year, not what long-standing tenants pay. The second is the overall score each city carries across the site, built from eight axes: everyday life, transport, nature, cost, safety, culture, remote-work readiness and schools. The filter is 20,000 residents or more on the 2022 census, a T2 rent that puts the city in the cheap half of the country, and a score of at least 6.0. That last threshold is doing more than it looks: it removes fourteen towns that undercut most of what is listed below. Where a purchase price appears, it is the median price per square metre actually recorded in registered sales over 2024 and 2025, not an estimate, which is why some of the figures will look lower than any listing you find online.",
+      },
+      {
+        heading: "Under €500: Chaumont, and a five-way tie",
+        body: "Chaumont, in the Haute-Marne, is the cheapest city in our data that still clears the quality bar: €470 for a T2, 21,418 residents, 6.8 out of 10 overall. Apartments there change hands at a median of €1,231 per m² and houses at €1,528, so a three-bedroom house is a five-figure purchase rather than a six-figure one. Below it, five cities are tied at exactly €480 and we are not going to invent an order between them, so here they are alphabetically: Auch in the Gers (6.5, apartments €1,689/m²), Cambrai in the Nord (6.0, houses at a median €1,370/m²), Châtellerault in the Vienne (6.3, apartments €1,163/m²), Saint-Quentin in the Aisne (6.2, and the cheapest houses of the group at €1,087/m²) and Vichy in the Allier (6.5, the old spa town, apartments €1,796/m²). Two more sit at €490: Auxerre in Burgundy and Laval in the Mayenne, both 6.1, both prefectures with a full set of public services. That is eight cities under €500 a month.",
+      },
+      {
+        heading: "€500 to €600: where the list gets interesting",
+        body: "Four cities tie at €520: Castres in the Tarn (6.3), Charleville-Mézières in the Ardennes (6.2, apartments €1,306/m²), Roanne in the Loire (6.3, apartments €1,257/m²) and Saintes in Charente-Maritime (6.1, and the only one of the four within reach of the Atlantic). Nevers follows at €530 (6.0, apartments €1,050/m²) and Montbéliard at €540 — the Stellantis town in the Doubs, where the median apartment costs €934 per m², the lowest figure in this entire guide. At €550 come Chalon-sur-Saône, Romans-sur-Isère and Laon. Laon deserves its own sentence: at 7.2 out of 10 it carries the highest score in this guide, it is a medieval hill town whose cathedral was begun in 1155, eight years before Notre-Dame de Paris, and a T2 there costs €550 with apartments at a median €1,136 per m². If you want one name from this page, that is the one to look at first.",
+      },
+      {
+        heading: "€580: five cities that are not compromises",
+        body: "The €580 tier is where the list stops being about scarcity and starts being about value. Brive-la-Gaillarde in the Corrèze (6.8) and Dole in the Jura (6.8) are the two highest-scoring names in the tier, both handsome, both with working town centres. Montélimar in the Drôme (6.3) puts you in the Rhône valley with Provence starting an hour south. Saint-Brieuc (6.0) is on the Breton north coast. Tarbes (6.0) sits at the foot of the Pyrenees, and its median house price of €1,658 per m² is remarkable for a city with mountains on the horizon. All five are prefectures or near-prefectures, meaning a hospital, a full secondary-school offer and a working railway station. At €580 you are still paying seventeen per cent below the national median rent.",
+      },
+      {
+        heading: "The cheaper cities we left out, and why",
+        body: "This is the part most cheap-rent lists skip. Fourteen cities of over 20,000 residents rent a T2 at €490 or less and were excluded here on quality. Some are marginal calls: Aurillac in the Cantal (€420, the cheapest city over 20,000 residents in our data) scores 5.6, Millau 5.6, Alençon 5.7, Rochefort 5.9 — all just under the line, all defensible places to live, and worth checking individually. Others are not marginal at all. Denain and Liévin, both in the former coal basin of the Nord and Pas-de-Calais, rent at €450 and €480 and score 2.8 out of 10, with safety at 2.4 and 3.2 respectively. Lens is €440 at 5.3, Calais €480 at 4.4, Vierzon €480 at 4.8. These are places with real communities and real histories, and the low scores reflect measured local conditions rather than a verdict on anyone who lives there — but if you are choosing a French city sight unseen from another country on the basis of rent, they are precisely where that method fails. Rent is the last filter, not the first.",
+      },
+      {
+        heading: "What a foreign renter should check before signing",
+        body: "Three things catch new arrivals, none of them about price. First, the guarantor. A French landlord normally wants a garant, a person resident in France earning three times the rent who is legally liable if you default. Foreign employment contracts and foreign guarantors are routinely refused. The state scheme Visale covers under-30s and, under conditions, other tenants, costs nothing and is the standard workaround; not every landlord accepts it, but in the cities on this list, where flats sit empty for weeks, most will. Second, charges. An advertised rent is often hors charges, excluding the building charges and sometimes the heating, so ask for the loyer charges comprises, and note that in an old, badly insulated building in Chaumont or Charleville a winter heating bill can add a third to what you thought you were paying. Ask for the DPE, the energy rating, which is on every legal listing. Third, the housing benefit: the CAF pays APL or ALS to tenants, including foreign nationals with a valid residence permit, and in this rent bracket it can cover a meaningful share. Claim it from your first full month, not later, because it is not backdated far.",
+      },
+      {
+        heading: "Who this list actually suits",
+        body: "Be honest about the trade-off. Every city here is cheap partly because the labour market is thin, so this list works for people who bring their income with them: remote employees on a foreign or Paris contract, freelancers, early retirees, and anyone buying outright rather than borrowing against a local salary. It works badly for someone who needs to find work locally in a specialised field, and it works badly for a household that needs an international school, because none of these places has one. If the plan is a French job in tech, aerospace or finance, look at the larger cities instead and accept the rent. If the plan is to hold a foreign income and spend it in France, this page is the whole argument: €550 a month in Laon buys a life that costs three times as much in most of northern Europe, and the trains still run.",
+      },
+    ],
+    relatedCities: ["chaumont", "laon", "vichy", "auch", "brive-la-gaillarde"],
+    tags: [
+      "cheapest places to live in france",
+      "cost of living",
+      "moving to france",
+      "budget",
+      "renting in france",
+    ],
+  },
+
+  {
+    slug: "best-french-cities-retire-by-the-sea-budget-2026",
+    title: "Retiring by the Sea in France on a Budget (2026)",
+    metaTitle: "Retire by the Sea in France on a Budget 2026",
+    metaDesc:
+      "Sun, sea and a rent under €700: the Mediterranean towns where retiring cheaply in France still works, and the honest reason they cost less.",
+    category: "budget",
+    emoji: "☀️",
+    readMinutes: 9,
+    publishedAt: "2026-09-04",
+    updatedAt: "2026-09-04",
+    intro:
+      "The postcard version of retiring to the south of France (Nice, Antibes, Biarritz) is now priced for people who sold a house in London or Zurich. A two-room flat in Nice rents for €1,100 a month and apartments there change hands at a median €4,802 per m². The cheap version has not disappeared, it has moved west, to the Languedoc coast between the Rhône and the Spanish border, where the sun figures are the highest in metropolitan France and the rents are half. This guide lists the coastal and near-coastal towns with at least 2,400 hours of sun a year, open sea within 25 km and a two-room rent of €800 or less. It also does something the French-language version of this pitch usually avoids: it tells you what the cheap towns score on safety and overall quality of life, because that is the actual reason they are cheap.",
+    sections: [
+      {
+        heading: "The rule: sun is cheap in the Aude and the Hérault, expensive in the Var",
+        body: "The Mediterranean coast is not one market. East of Marseille, along the Côte d'Azur, you are paying for a scarce, mountainous, internationally desired strip. West of the Rhône, across the Gard, the Hérault, the Aude and the Pyrénées-Orientales, the coast is long, flat, lined with 1960s state-planned resorts, and priced accordingly. The sunshine does not vary in the way the price does: Narbonne records 2,900 hours a year and Béziers 2,850, against 2,694 for Nice and 2,750 for Toulon. Sète, on its own lagoon-bound island of a town, gets 2,800. In other words the western coast is at least as sunny as the eastern one and costs roughly half as much to rent in. If you want warmth for a fixed pension, that single geographic fact is the whole strategy.",
+      },
+      {
+        heading: "The cheapest: Béziers, Perpignan, Narbonne",
+        body: "Béziers is the cheapest by a distance: €530 for a two-room flat, 2,850 hours of sun, 11.5 km from open sea, and a median apartment price of €1,667 per m² on nearly 1,800 recorded sales — meaning a small flat is a €100,000 purchase, not a €400,000 one. Perpignan follows at €650, with 2,750 hours of sun and the cheapest apartments on this page at a median €1,500 per m². Narbonne is €680, has the highest sun figure in the guide at 2,900 hours, sits 13 km from the beaches and holds a proper Roman and medieval town centre plus the Canal de la Robine. These three are the honest budget answer to retiring in the French sun. They are also the three where you need to read the next section before you commit.",
+      },
+      {
+        heading: "The reason they are cheap, stated plainly",
+        body: "Béziers scores 4.3 out of 10 overall and 3.5 on safety. Perpignan is 4.7 and 3.7. Narbonne is 4.9 and 4.1. Those are among the weaker readings on this site, and they are not an artefact — this stretch of coast has high unemployment, real deprivation in parts of the old town centres, and the property market reflects it. That does not make these bad places to retire: retired people are not the demographic most exposed to the problems those scores measure, the town centres have been restored substantially over the past decade, and a €1,667 per m² apartment in a Mediterranean climate has no equivalent anywhere else in western Europe. But it does mean the visit matters more than usual. Spend a week, walk the specific streets in the evening, and do not buy from photographs. The gap between one quarter and the next in Béziers or Perpignan is wider than the gap between two different towns further east.",
+      },
+      {
+        heading: "Paying a little more for a better score: Agde, Sète, Grasse",
+        body: "Three towns cost €680 to €800 and score materially better. Agde, at €690 with 2,750 hours of sun and 2.1 km from the sea, is the best of them at 5.9 out of 10; it is a real Mediterranean town of Greek origin with the modern resort of Cap d'Agde five kilometres away — two different places, and it matters which one you look at. Sète, at €680, is the fishing and canal town on the Bassin de Thau, 5.4 out of 10, with apartments at €3,415 per m² — twice Béziers, and worth it if the town itself is the point. Grasse, at €800, is the perfume town in the hills behind Cannes, 5.8 out of 10, 13 km from the coast, with apartments at €2,999 per m²: the cheapest way into the Alpes-Maritimes by a wide margin, at the cost of needing a car. Salon-de-Provence, €780 and 5.4, is the equivalent trick in the Bouches-du-Rhône.",
+      },
+      {
+        heading: "What to avoid on price alone",
+        body: "Three towns in the Étang de Berre industrial basin (Istres at €700, Marignane at €710, Vitrolles at €720) appear in any filter built purely on sun, sea and rent. They score 3.2, 2.8 and 2.8 out of 10 respectively, with safety readings between 2.3 and 2.8, the lowest on this page. They sit around a lagoon ringed by petrochemical plants, a refinery and Marseille's airport. The sunshine is genuine and the rents are genuine; nothing else about them recommends a retirement. If a cheap listing on this coast looks too good, check which side of the Étang de Berre it is on before enquiring.",
+      },
+      {
+        heading: "Residence and healthcare: what a non-French retiree actually needs",
+        body: "Two different regimes, and people confuse them constantly. If you hold an EU, EEA or Swiss passport, you may simply move; there is no visa, and if you draw a state pension from another EU or EEA country you register with the French health system using an S1 form issued by your home country, which makes your home country pay for your French healthcare. British state pensioners retain S1 rights under the Withdrawal Agreement, which is a genuinely valuable entitlement and the single biggest financial variable in a British retirement to France. If you hold a passport from anywhere else, the United States, Canada or Australia, the route is a long-stay visitor visa (VLS-TS visiteur), which requires proof of stable income at least at the level of the French minimum wage, private health cover for the first period, and an undertaking not to work in France. It is renewable and it leads to residence, but it is granted on your means, so the budget arithmetic above is also part of your application file. After three months of stable residence, most people qualify for PUMa, the residence-based French health scheme, and take a complementary top-up policy on top. None of this is quick: allow a year between the decision and the move.",
+      },
+      {
+        heading: "The overseas alternative, and why it is not a shortcut",
+        body: "If you run the same filter without excluding the overseas départements, the cheapest sun-and-sea results in France are not on the Mediterranean at all: Saint-Joseph on Réunion rents a T2 at €580 with January averaging 26 °C, Le Robert in Martinique at €670, Le François at €680. These are France in full legal terms (euro, French health system, French pensions), and for a retirement in real warmth rather than Mediterranean warmth they are a serious option. They are also seven to nine hours' flying from the mainland, outside the Schengen area and outside the EU customs and VAT territory, with a different cost structure for imported goods and thin specialist healthcare that sends complex cases back to the mainland. The Mediterranean towns above are a change of country; these are a change of hemisphere. Both are defensible, but do not treat the second as a cheaper version of the first.",
+      },
+    ],
+    relatedCities: ["beziers", "perpignan", "narbonne", "agde", "sete"],
+    tags: [
+      "retire in france",
+      "expat retirement",
+      "affordable retirement France",
+      "south of france",
+      "mediterranean",
+    ],
+  },
+
+  {
+    slug: "best-french-cities-family-budget-2026",
+    title: "Best French Towns for Families on a Tight Budget (2026)",
+    metaTitle: "Best French Towns for Families on a Budget 2026",
+    metaDesc:
+      "Good schools, high safety and a three-room rent under €800: the French towns that work for a family without a metropolitan income, and the real catch.",
+    category: "family",
+    emoji: "👨‍👩‍👧",
+    readMinutes: 9,
+    publishedAt: "2026-09-04",
+    updatedAt: "2026-09-04",
+    intro:
+      "France runs one of the cheapest family setups in the developed world if you are outside the big cities: public school costs nothing, the school canteen is priced on household income, healthcare is largely reimbursed, and a three-bedroom house in a working small town costs less than a garage in Paris. The constraint is not money, it is choosing the right town — because the same country that offers a €1,200 per m² house in the Aveyron also offers a two-hour round trip to the nearest secondary school. This guide lists towns of 10,000 to 60,000 residents where a three-room flat rents for €800 or less and where both the schools and the safety readings are strong. It ends with the trade-off that no French-language version of this list bothers to spell out, because it only affects foreign families.",
+    sections: [
+      {
+        heading: "The filter, and why two axes rather than one",
+        body: "Every town below meets four conditions: between 10,000 and 60,000 residents on the 2022 census, a reference rent of €800 or less for a T3 (two bedrooms plus a living room, the standard family flat), a schools score of at least 6.5 out of 10 and a safety score of at least 7. The size band is deliberate. Under about 10,000 residents a French town starts losing the things a family needs (a collège, a paediatrician, a swimming pool, a music school), while above about 60,000 the rent stops being remarkable. Twenty-eight towns clear all four conditions. The schools axis measures the local public-education offer, not the destiny of any individual pupil, and it moves in coarse steps, so several towns share an identical reading; where that happens they are grouped rather than ranked, because inventing an order inside a tie would be inventing data.",
+      },
+      {
+        heading: "The strongest schools readings",
+        body: "La Flèche in the Sarthe stands alone at the top with a schools score of 8.7 and safety 8.1: a town of 15,081 built around the Prytanée national militaire, the state boarding school that occupies the college Henri IV founded in 1604 and handed to the Jesuits, where Descartes was a pupil and which Napoleon turned into a military school two centuries later. That is why the education offer here is out of proportion to the size of the place. A three-room flat rents for €790 and houses change hands at a median €1,719 per m² across 264 recorded sales. Four towns then share a schools reading of 7.7: Vitré in Ille-et-Vilaine (safety 8.5, a walled medieval town 40 minutes from Rennes, houses at €2,500/m²), Lannion in the Côtes-d'Armor (safety 8.2, houses at €2,291/m²), Le Puy-en-Velay in the Haute-Loire (safety 8.1, the cheapest of the four at €700 for a T3, houses at €1,835/m², and 7.7 out of 10 overall) and La Roche-sur-Yon in the Vendée (safety 8.0, the largest at 54,699 residents, houses at €2,369/m²). Any of those five is a defensible answer.",
+      },
+      {
+        heading: "The safest towns, where the schools reading is a step lower",
+        body: "Three towns tie on the highest safety reading in the guide, 8.8, with schools at 6.6: Fontenay-le-Comte in the Vendée (T3 €760, houses €1,582/m²), Mayenne in the Mayenne (T3 €760, houses €1,606/m²) and Villefranche-de-Rouergue in the Aveyron — a bastide town of 11,502 where houses record a median €1,221 per m², and 7.6 out of 10 overall. Dinan in the Côtes-d'Armor follows at 8.7, the best-looking town in the group and the priciest to buy in at €2,900 per m². Autun in Burgundy carries the highest overall score of any town in this guide, 7.8 out of 10, with safety 8.1, a T3 at €720 and houses at a median €1,310 per m². The cheapest houses of the twenty-eight are recorded elsewhere in the group, Issoudun at €1,026 per m² and Flers at €1,211, and both towns appear below. For a family whose income does not depend on the local labour market, Autun and Villefranche-de-Rouergue are the two names that give away the most house for the least money.",
+      },
+      {
+        heading: "The cheapest to run",
+        body: "If the monthly outgoing is the binding constraint rather than the purchase price, the order changes. Auch in the Gers rents a T3 at €640 (schools 6.6, safety 7.5), as does Vichy in the Allier. Saint-Dié-des-Vosges is €670 with an overall score of 7.3 and a nature reading of 8.5 — forest on three sides. Villefranche-de-Rouergue is €710, Autun, Gien, Issoire, Issoudun and Vendôme are all €720. At those rents a family with one modest French salary or one foreign remote income is not budgeting, it is banking. Vendôme has a particular advantage worth naming: it is on the Paris–Tours high-speed line, which puts central Paris around three quarters of an hour away, so a household with one parent commuting to the capital two days a week can genuinely live there.",
+      },
+      {
+        heading: "Getting a foreign child into a French school",
+        body: "The process is simpler than most arrivals expect and has one step people miss. Schooling is compulsory from three to sixteen and public school is free, including for children of foreign residents, whatever the parents' immigration status. You register at the mairie of your commune with proof of address, the child's birth certificate and vaccination record; the mairie assigns the school by catchment, the carte scolaire, so the address determines the school and not the other way round. The step people miss is that a child arriving with little or no French is entitled to be assessed by the local CASNAV service and placed in a UPE2A class (intensive French alongside mainstream lessons), and you often have to ask for it by name rather than wait to be offered it. Expect the assessment to place your child by level rather than strictly by age. Canteen and after-school care are charged on the quotient familial, a household-income coefficient calculated by the CAF, which in these towns typically means one or two euros for a hot lunch.",
+      },
+      {
+        heading: "The catch that only affects foreign families",
+        body: "None of the towns on this page has an international school, a bilingual stream or an IB programme. Not one. That offer exists in France, but it is concentrated in Paris, Lyon, Toulouse, Bordeaux, Strasbourg, Nice and a handful of other cities, and it is the single thing that a €700 rent in the Mayenne cannot buy you. For a family with young children this is usually fine, and often better than fine: children under about ten acquire French quickly through UPE2A and mainstream classes, and full immersion in a small town is the fastest route to fluency there is. For a teenager arriving at fifteen with two years to a school-leaving qualification, it is a serious problem, and moving to a cheap small town at that point can cost the child a year. The honest rule is that this list works brilliantly for families with primary-age children and badly for families with children already deep into secondary school. Decide which one you are before you fall in love with the house prices.",
+      },
+      {
+        heading: "What to verify before committing",
+        body: "Four checks, all doable from abroad. Confirm the town has a collège and, ideally, a lycée — otherwise your eleven-year-old is on a bus; the Éducation nationale directory lists every establishment by commune. Confirm there is a paediatrician or at least a general practitioner accepting new patients, because rural medical shortage is real in France and registering with a médecin traitant is what unlocks full reimbursement rates. Check the fibre broadband status at the exact address if anyone works remotely, since coverage in these towns is generally good but not universal. And check the actual journey to whichever city holds the jobs, in real conditions rather than on a map: Vitré to Rennes, Vendôme to Paris and Issoire to Clermont-Ferrand are all easy, but several other towns on this list are an hour from anywhere, and that hour is the price of the rent.",
+      },
+    ],
+    relatedCities: ["la-fleche", "vitre", "le-puy-en-velay", "autun", "villefranche-de-rouergue"],
+    tags: [
+      "moving to france with children",
+      "french school system",
+      "budget",
+      "family",
+      "cost of living",
+    ],
+  },
+
+  {
+    slug: "best-french-cities-tech-jobs-2026",
+    title: "Best French Cities for Tech Jobs (2026)",
+    metaTitle: "Best French Cities for Tech Jobs 2026",
+    metaDesc:
+      "Where the French tech jobs actually are outside Paris: Lyon, Toulouse, Grenoble, Rennes and Nantes compared on rent, and which ones work in English.",
+    category: "moving",
+    emoji: "💻",
+    readMinutes: 9,
+    publishedAt: "2026-09-04",
+    updatedAt: "2026-09-04",
+    intro:
+      "France has the largest startup ecosystem in continental Europe and it stopped being a Paris-only story around 2015. For someone moving from abroad, that decentralisation is the whole opportunity: Paris pays the most and takes it all back in rent, while five or six regional cities pay somewhat less for a life that costs half as much. This guide is about jobs you take with a French employer, not remote work for a foreign one — a different decision with a different visa attached. It ranks the cities by what is actually hiring in each, gives the rent and the recorded purchase price for each, and is blunt about the thing job boards never mention: which of these places you can work in without speaking French, and which you cannot.",
+    sections: [
+      {
+        heading: "Paris: unavoidable, and expensive in a specific way",
+        body: "Station F, the largest startup campus in the world, sits in the 13th arrondissement; La Défense holds the headquarters of the big consultancies and systems integrators; 42 and EPITA feed the junior developer market. Nothing in the regions comes close for recruiter density, investor density or the number of events you can walk to. The price is not subtle: our reference rent for a two-room flat in Paris is €1,800 a month, apartments changed hands at a median of €9,646 per m² across more than 54,000 recorded sales in 2024 and 2025, and the city scores 2.2 out of 10 on cost, the lowest reading of any city on this site. It scores 9.0 on transport, culture and remote-work readiness, which is why people stay. The honest framing for an arriving engineer: Paris is where you go if the specific job or the specific network is the point, and where you leave from once it is not.",
+      },
+      {
+        heading: "Lyon: the serious second city",
+        body: "Lyon is the clearest alternative and the least romantic pitch, which is why it is a good one. It has a mature services-and-consulting sector, a labelled French Tech ecosystem, the tertiary district at Part-Dieu and the redeveloped Confluence, and two of the strongest engineering schools in the country, INSA Lyon and École Centrale de Lyon, producing local talent every year. On our data it scores 9.0 for remote-work readiness and 9.0 for transport, identical to Paris, on an overall 7.1 out of 10 against Paris's 5.1. A two-room flat rents at €1,000 against Paris's €1,800, and the median recorded apartment price is €4,475 per m² against €9,646. Salaries are lower than Paris, but not by anything approaching the housing differential, and that arithmetic is the reason Lyon keeps winning transfers from the capital.",
+      },
+      {
+        heading: "Toulouse and Grenoble: where the deep engineering is",
+        body: "These two are not startup cities and pretending otherwise wastes your time. Toulouse is the European capital of aerospace (Airbus, Thales, Dassault and the supply chain around them), and the demand is for embedded software, systems engineering, safety-critical development and avionics. It scores 8.3 on remote-work readiness, rents a T2 at €850 and records apartment sales at a median €3,222 per m². Grenoble is the R&D city: CEA, Minatec and the semiconductor cluster around STMicroelectronics give it a concentration in physics, microelectronics and energy that is unusual anywhere in Europe. Its remote-work reading is a more modest 7.3, but it rents at €750 and records €2,500 per m², the cheapest square metre of any large city in this guide, and it scores 8.4 on nature, because the Alps start at the end of the tram line. For a semiconductor or energy engineer, Grenoble offers more relevant openings than Paris does.",
+      },
+      {
+        heading: "Nantes, Bordeaux, Rennes: the growth trio",
+        body: "Nantes and Bordeaux are the two ecosystems that grew fastest after 2015 and they now hold real depth: Nantes in mobility, digital commerce and industrial software, Bordeaux in a younger startup scene clustered around the Darwin site and the technology park to the north-west. Nantes scores 9.0 on remote-work readiness, rents at €850 and records €3,413 per m²; Bordeaux is 8.8, €900 and €4,171 per m² — a fifth dearer than Nantes, which is the price of its decade of popularity, though still under Lyon. Rennes is the underrated one and the best value of the three: 9.0 on remote-work readiness, 7.4 out of 10 overall (higher than Lyon, higher than Paris by a distance), a T2 at €820 and apartments at €3,667 per m². Its strength is telecoms and networking, historically fed by Orange, Nokia and the Breton engineering schools.",
+      },
+      {
+        heading: "Lannion: the one nobody outside France has heard of",
+        body: "Lannion, on the Breton north coast, has 20,525 residents and is one of the world's serious telecoms research sites: Orange Labs is here, and the town has fed optical and network research for decades. It scores 7.3 out of 10 overall, 7.5 on remote-work readiness and 8.2 on safety, rents a two-room flat at €600 and records apartment sales at a median €2,232 per m². If your field is optical networking, radio or embedded systems, this is a place where a specialist can earn a metropolitan salary against a rent that is a third of Paris's, twenty minutes from the Côte de Granit Rose. The trade-off is the obvious one: it is a small town with a narrow labour market, so if the one employer that wants you lets you go, your next job is probably in Rennes.",
+      },
+      {
+        heading: "Working in English, and where you cannot",
+        body: "This is the question that decides most moves and it splits by sector rather than by city. Venture-funded startups and scaleups in Paris, Lyon, Bordeaux and Nantes frequently run in English, especially above about thirty employees, and it is normal to be hired with no French at all. Aerospace in Toulouse, microelectronics in Grenoble, telecoms in Lannion and anything with a defence or public-sector customer generally do not: the documentation, the certification work and the meetings are in French, and a job advert saying 'English is a plus' means the working language is French. Consultancies and systems integrators sit in between and depend on the client. Whatever the sector, the administrative half of your life, the préfecture, the bank, the landlord, the school, is in French from day one, and the arrivals who struggle are almost always the ones who assumed an English-speaking office meant an English-speaking country.",
+      },
+      {
+        heading: "The visa, in one paragraph",
+        body: "EU, EEA and Swiss nationals need nothing. Everyone else needs a residence permit, and the relevant one for tech is the Passeport Talent, a multi-year permit built for qualified employees, researchers and founders rather than the standard salaried route: it avoids the labour-market test, it is issued for up to four years, and it carries a family permit so a spouse can accompany you and work. The common qualifying paths are a qualified graduate hired above a salary threshold, a recognised researcher, and the innovative-company founder route. Your employer's HR department will normally drive the file; if they do not know what a Passeport Talent is, that tells you something about how often they hire internationally. Budget several months, expect to start the process at a French consulate in your country of residence rather than after arrival, and validate the permit online within three months of landing — the step people forget, and the one that quietly makes your stay irregular.",
+      },
+      {
+        heading: "How to choose",
+        body: "Match the city to the field rather than to the ranking. Embedded, avionics or safety-critical software: Toulouse. Semiconductors, physics, energy research: Grenoble. Telecoms and networking: Rennes, or Lannion if you want the specialist version. Product, web, data or a first job in a scaleup: Lyon, then Nantes and Bordeaux. Anything where the network matters more than the salary, or a niche too narrow to have a regional cluster: Paris, for two or three years. And run the number that decides it in practice: take the offered salary, subtract twelve months of the rent figures above, and compare what is left. On that arithmetic Lyon, Rennes and Grenoble usually beat a Paris offer that looks fifteen per cent better on paper.",
+      },
+    ],
+    relatedCities: ["lyon", "toulouse", "grenoble", "rennes", "lannion"],
+    tags: [
+      "tech jobs france",
+      "job market france",
+      "working in france",
+      "moving to france",
+      "visa",
+    ],
+  },
+
+  {
+    slug: "best-french-cities-dog-owners-2026",
+    title: "Moving to France With a Dog: Best Cities (2026)",
+    metaTitle: "Moving to France With a Dog: Best Cities 2026",
+    metaDesc:
+      "The import rules that catch people out, the breeds France bans outright, and the French cities that actually suit a large dog — with rents.",
+    category: "lifestyle",
+    emoji: "🐕",
+    readMinutes: 9,
+    publishedAt: "2026-09-04",
+    updatedAt: "2026-09-04",
+    intro:
+      "France keeps around 7.5 million dogs, one of the highest rates of ownership in Europe, and the country is genuinely relaxed about them: dogs on café terraces, dogs in shops, dogs on regional trains. What it is not relaxed about is which dogs you may bring, and that is where people moving from outside the EU get caught — sometimes four months too late to fix it. This guide starts with the rules, because they have a hard deadline built into them, and then covers where in France a dog actually has a good life. It does not publish a league table of parks: our park data comes from OpenStreetMap and is capped at forty entries per commune, so a city showing forty parks may have fifty and a city showing six may simply be under-mapped. Counting them would produce a ranking of mapping effort, not of green space.",
+    sections: [
+      {
+        heading: "The import rule with a three-month fuse",
+        body: "Every dog entering France needs an ISO microchip fitted before the rabies vaccination, a valid rabies vaccination, and paperwork: an EU pet passport if you are coming from another EU country, or an official EU health certificate issued shortly before travel if you are not. If you are coming from a country the EU classifies as unlisted for rabies (and that includes much of Asia, Africa and Latin America), there is an extra step that no vet abroad will necessarily flag in time. Your dog needs a rabies antibody titration test showing at least 0.5 IU/ml, taken by an EU-approved laboratory on a blood sample drawn at least thirty days after the vaccination, and then you must wait three months from the date of that blood draw before the animal may enter the EU. The three months cannot be shortened for any reason. Counting backwards from a microchip, a vaccination, the thirty-day wait, the laboratory turnaround and then the three months, allow four to five months. Owners coming from the United States, Canada, the United Kingdom, Australia and the rest of the listed countries skip the titration and can move in weeks, which is why the advice you read in an expat forum may not be the advice that applies to you. Check your own country's EU listing status first, and check it before you book anything.",
+      },
+      {
+        heading: "The breeds France will not let in",
+        body: "France has classified dangerous dogs into two categories since the law of 6 January 1999, and category 1 dogs may not be imported, bought, sold or given away at all; acquisition or import is a criminal offence carrying up to six months' imprisonment and a €15,000 fine. Category 1 covers pit-bull-type dogs, Boerbulls and Tosas that have no recognised pedigree. The distinction that matters, and that surprises Americans in particular, is that the classification turns on paperwork rather than looks: an American Staffordshire Terrier registered in a recognised stud book falls into category 2, which is legal to bring but carries real obligations: a muzzle and lead in all public places, third-party insurance, a behavioural assessment, an owner's licence issued by the mairie, and a ban from public transport and public parks in many communes. The same dog without pedigree papers is category 1 and cannot come. If your dog is anywhere near these types, get a written assessment from a French vet before you ship, not after.",
+      },
+      {
+        heading: "The best cities for a large, active dog",
+        body: "La Rochelle is the strongest all-round answer on the Atlantic. The city was rebuilt around walking and cycling rather than cars, which is what makes it work: you can chain five to ten kilometres of walking from the centre through the Parc Charruyer, out along the Minimes jetties and into the peri-urban marshes without ever getting into a vehicle, and the terraces are dog-friendly as a default rather than an exception. It scores 7.2 out of 10 overall and 7.2 on nature, and a two-room flat rents at €820. Annecy is the mountain version, scoring 8.9 on nature, the highest reading in this guide, with the 37 km lakeside path open to walkers and the Semnoz forest above the town for off-lead hiking. It is also the most expensive place on this page, at €1,100 for a T2 and a median recorded apartment price of €5,092 per m², and the old town in August is no place for a nervous dog.",
+      },
+      {
+        heading: "The value picks: Pau, Besançon, Brest",
+        body: "Pau, at the foot of the Pyrenees, is the best combination of nature and price here: 7.0 on nature, a T2 at €680, apartments at a median €2,135 per m², and the Parc Beaumont in the middle of town with the mountains visible from the boulevard. The Béarn's outdoor culture of hiking, trail running and mountain biking produces a genuine social tolerance for dogs that a visitor notices within a day, and the low rents make a house with a garden reachable rather than aspirational. Besançon is the same idea in the east: 6.4 on nature, €680 for a T2, a city wrapped in a loop of the Doubs with forested hills on every side. Brest, at €650, is the cheapest of the three, with the Atlantic weather that comes with it. All three suit the specific case this guide is really about: a big dog, a modest budget and an owner who walks daily.",
+      },
+      {
+        heading: "The cities with the best urban infrastructure",
+        body: "If the dog is small and the life is urban, the calculation changes and two cities stand out. Rennes has the Thabor, an 8.5-hectare park in the centre with an official off-lead area, and green corridors along the Vilaine that take you out of the city on foot in about twenty minutes; it scores 7.4 out of 10 overall. Strasbourg is the other: parks at the Orangerie and the Contades with dog areas, the Rhine embankments, and a cycle network that doubles as a walking network, on the cleanest streets of any large French city, which matters more than it sounds, because street cleanliness is what determines whether pedestrians and dogs coexist peacefully. Strasbourg scores 9.0 on transport and 7.5 out of 10 overall, and rents a T2 at €800.",
+      },
+      {
+        heading: "Paris: the case against",
+        body: "Paris concentrates a large share of France's dogs into two per cent of its territory and the arithmetic does not work. The Bois de Boulogne and the Bois de Vincennes give real space but are at the edges; inside the city, many parks either exclude dogs or confine them to token enclosures, and the lead is compulsory on the pavement. Our data reads the same way: Paris scores 2.3 on nature, among the very lowest figures on this site. The rental market compounds it, since landlords in a market this tight can and do filter out tenants with animals, and a house with a garden is priced beyond nearly everyone. A small dog in an apartment near a usable park is perfectly viable. A Labrador or a husky in Paris is a daily logistical problem you will get tired of.",
+      },
+      {
+        heading: "Practical things nobody tells you",
+        body: "Three. Veterinary density varies enormously: a city with a veterinary school nearby (Nantes, the Lyon area, Maisons-Alfort near Paris) has referral clinics within reach, while a rural commune can mean a forty-kilometre drive to the nearest practice, which is a real problem in an emergency. Check before you sign, not after. On transport, SNCF carries dogs under six kilos in a carrier for a small flat fee and larger dogs on a half-price ticket, muzzled; metro and tram rules are set locally and differ from city to city, so verify for the network you will actually use. And on housing, French law since the loi Alur means a tenant cannot be evicted simply for keeping a domestic pet — but a landlord is free to refuse you at the point of signing, and in tight markets they routinely do. The cheap cities in this guide are also, not coincidentally, the ones where a landlord will not care.",
+      },
+    ],
+    relatedCities: ["la-rochelle", "pau", "annecy", "rennes", "besancon"],
+    tags: [
+      "moving to france with a dog",
+      "pets",
+      "moving to france",
+      "lifestyle",
+      "relocation",
+    ],
+  },
+
+  {
+    slug: "best-french-cities-alps-property-2026",
+    title: "Buying Property in the French Alps (2026)",
+    metaTitle: "Buying Property in the French Alps 2026",
+    metaDesc:
+      "Recorded sale prices for the Alpine valley towns, from €2,278/m² in Albertville to €5,092 in Annecy, plus what a foreign buyer actually pays on top.",
+    category: "budget",
+    emoji: "⛷️",
+    readMinutes: 9,
+    publishedAt: "2026-09-04",
+    updatedAt: "2026-09-04",
+    intro:
+      "The French Alps are two property markets pretending to be one. There are the resorts, where a small apartment costs what a large house costs anywhere else and the market is driven by foreign second-home buyers. And there are the valley towns twenty to forty-five minutes below them (Albertville, Cluses, Chambéry, Gap), where people live all year, prices are a fraction of the resort figures and the skiing is the same skiing. This guide covers the second market, because it is the one where the arithmetic works and the one that almost no English-language coverage bothers with. Every price below is the median price per square metre actually recorded in registered sales across 2024 and 2025, with the number of sales behind it, not an agent's estimate.",
+    sections: [
+      {
+        heading: "The spread, in one comparison",
+        body: "Annecy is the reference point at the top: apartments changed hands at a median €5,092 per m² across 2,992 recorded sales, houses at €6,237, and a two-room flat rents for €1,100 a month. Albertville, under an hour away and the host of the 1992 Winter Olympics, recorded a median of €2,278 per m² for apartments over 491 sales and €2,650 for houses, with a T2 at €740. That is a factor of 2.2 on the apartment price, for a drive of under an hour. Both towns are in Savoie or Haute-Savoie, both have hospitals and secondary schools, and both put you within an hour of major lift-served skiing. What Annecy has that Albertville does not is a lake, a preserved old town and an international reputation, which is precisely what you are paying the other €2,800 per square metre for.",
+      },
+      {
+        heading: "Albertville: the best value in the Alps",
+        body: "Albertville has 19,706 residents and scores 7.4 out of 10 overall — the highest figure of any Alpine town in this guide, ahead of Annecy's 7.3 and well ahead of Chambéry's 6.5. It also scores 8.5 on nature and 8.0 on safety. It sits at the mouth of the Tarentaise valley, which means Les Arcs, La Plagne, Les Menuires and Val Thorens are all reachable in under about 45 minutes, and it has the things a resort does not: shops that open in May, a hospital, secondary schools and a working town centre. Apartments at €2,278 per m² and a T2 rent of €740 make it the one place in this guide where a normal salary buys a normal home with the Tarentaise on the doorstep. The catch is that it is a working valley town, not a picture postcard: the Olympic-era architecture is what it is, and the medieval quarter of Conflans above the town is the pretty part.",
+      },
+      {
+        heading: "Chambéry, Grenoble and Gap: the cities with mountains",
+        body: "Chambéry, the historic Savoyard capital, has 60,251 residents, a median apartment price of €2,895 per m² over 1,441 sales, a T2 at €820 and a score of 6.5 out of 10 with 8.1 on nature — Chartreuse on one side, Bauges and Belledonne on the others. Grenoble is the larger option: 156,389 residents, apartments at €2,500 per m² over 4,561 sales, cheaper than Chambéry and far cheaper than any French city of comparable size, a T2 at €750, and the best transport reading in the Alps at 8.1, with a university, a hospital complex and the R&D employers that make it a place you can have a career as well as a season. Its overall score of 6.8 is held down by a safety reading of 4.3, which is real and worth investigating quarter by quarter. Gap, over in the Hautes-Alpes, is the southern alternative: 40,656 residents, apartments at €2,276 per m², a T2 at €680, more sun and considerably more isolation, with a transport reading of 4.6.",
+      },
+      {
+        heading: "The towns to look at twice",
+        body: "Cluses, in the Arve valley, records apartments at €2,234 per m² and looks like a bargain next to the Mont Blanc resorts above it. It is also an industrial valley town scoring 5.6 out of 10, in a corridor with a documented air-quality problem caused by heavy lorry traffic and winter temperature inversions — a genuine health consideration, not a matter of taste. Sallanches, closer to Chamonix, records €3,673 per m² and scores 4.9. Briançon, the smallest town here at 10,748 residents and the highest in altitude, records €3,081 per m² and scores 5.8 with a nature reading of 8.4, but its transport reading of 4.0 tells you how far it is from anywhere. Thonon-les-Bains (€3,594/m²) and Aix-les-Bains (€4,153/m²) are lakeside towns priced accordingly, and Annemasse (€3,506/m², a transport score of 9.0) is really a suburb of Geneva with a cost reading of 3.4 to match. Rumilly is the quiet outlier: €3,047 per m², 6.9 out of 10 and a safety score of 8.7, twenty minutes from Annecy at about sixty per cent of the Annecy price.",
+      },
+      {
+        heading: "What a foreign buyer actually pays on top",
+        body: "There is no restriction on a non-resident buying French property, and no nationality condition. What there is, is a cost structure that surprises people. Purchase costs on an existing property, universally called frais de notaire although most of the money is transfer tax rather than the notaire's fee, run to roughly seven to eight per cent of the price, payable in cash on completion and not financeable. Agency commission is typically included in the advertised price in France but check which party owes it. Once you own it, you pay taxe foncière annually as owner; and if the property is a second home rather than your main residence you also continue to pay taxe d'habitation, which was abolished for main residences but not for second homes, and which many Alpine communes have surcharged precisely because of second-home pressure. Budget for both before you decide whether this is an investment or a holiday.",
+      },
+      {
+        heading: "Letting it out: the seasonality problem",
+        body: "The rental case for a ski property is the part where the spreadsheets usually cheat. A single-season resort earns its money between the Christmas holidays and the end of March and sits empty for much of the rest of the year, so the headline weekly rate is being multiplied by a small number of weeks. Towns and resorts that work in both seasons (the lake towns, the Mont Blanc valley, anywhere with summer hiking and mountain biking traffic) let for far more of the year and are the better commercial proposition even at a higher entry price. The French furnished-letting regime, LMNP, is favourable for tax and is why so many Alpine purchases are structured as furnished lets, but it comes with registration and accounting obligations and the rules have been tightened repeatedly in recent years; take French advice on the current position rather than a forum post from three years ago. And check the commune's own rules: short-term letting is regulated locally, and several Alpine communes under housing pressure have restricted it.",
+      },
+      {
+        heading: "Two things to check about the snow and the road",
+        body: "First, altitude. The reliability of a season depends on the altitude of the skiing you can actually reach, not the altitude of the town you buy in, and low-lying resorts have had a visibly harder decade than high ones. If the purchase is partly an investment, look at where the lifts top out. Second, the commute. The Tarentaise and the Arve on a Saturday in February are among the most congested roads in France, because the entire country changes over on the same day; a forty-five-minute drive in October is a three-hour drive in high season. If you are buying to live rather than to visit, test the journey you will make daily on a weekday morning in winter, and test it in the snow. Those two checks separate the people who are happy with an Alpine purchase from the people who sell after three years.",
+      },
+    ],
+    relatedCities: ["albertville", "chambery", "grenoble", "annecy", "gap"],
+    tags: [
+      "buying property france",
+      "alps",
+      "savoie",
+      "real estate",
+      "moving to france",
+    ],
+  },
+
+  {
+    slug: "best-french-cities-industrial-jobs-2026",
+    title: "Where the Industrial Jobs Are in France (2026)",
+    metaTitle: "Where the Industrial Jobs Are in France 2026",
+    metaDesc:
+      "Precision machining, cutlery, shipbuilding, electronics: the French towns with real industrial labour shortages and apartments from €703 per m².",
+    category: "moving",
+    emoji: "🏭",
+    readMinutes: 9,
+    publishedAt: "2026-09-04",
+    updatedAt: "2026-09-04",
+    intro:
+      "Almost everything written in English about working in France describes Paris offices, startups or teaching English. It misses the part of the country where employers genuinely cannot fill posts: the industrial basins outside the metropolitan areas, where a specialised trade has been concentrated for a century or more and where the constraint is not demand but the number of trained people willing to live there. These are small towns with narrow labour markets, and that is the risk. They are also the places where a machinist, welder, toolmaker or maintenance technician can buy an apartment for less than the price of a car. Every purchase price below is the median actually recorded in registered sales over 2024 and 2025, with the sale count behind it.",
+    sections: [
+      {
+        heading: "The Arve valley: precision machining, and a persistent shortage",
+        body: "The valley running from Cluses up towards Chamonix is the largest concentration of décolletage (bar turning, the machining of small precision parts) anywhere in the world, and it supplies watchmaking, automotive and medical devices. It accounts for something like seventy per cent of French output in the trade, and over three hundred specialised firms cluster around Cluses, Scionzier, Marnaz and Bonneville. Note the correction there, because the figure circulates in a wrong form: the valley is the world's leading centre for this work, but the seventy per cent is a share of French production, not of world production. Employers here have struggled for years to recruit CNC machinists and turners, and pay above the regional average as a result. Cluses records apartments at a median €2,234 per m² across 337 sales, with a two-room flat at €790. It scores 5.6 out of 10 overall and 7.8 on nature, and the air-quality problem of the valley, caused by lorry traffic in a steep corridor with winter inversions, is documented and worth taking seriously if you have children or a respiratory condition.",
+      },
+      {
+        heading: "Oyonnax: plastics, and the cheapest entry in the guide's engineering towns",
+        body: "Oyonnax, in the Ain at the edge of the Jura, is the French capital of plasturgie, or plastics processing, a sector feeding automotive, medical and food packaging, and it employs thousands across the valley. It has 22,378 residents, scores 5.6 out of 10 with a cost reading of 7.6, rents a T2 at €600 and records apartments at a median €1,364 per m² over 203 sales and houses at €2,045. The profile it suits is precise: technicians, process and tooling engineers, and people retraining into precision manufacturing. It is not a beautiful town and it does not pretend to be; what it is, is a place where a skilled trade is genuinely wanted and where an ordinary industrial salary buys a house outright within a decade.",
+      },
+      {
+        heading: "Thiers: cutlery, and property at €703 per square metre",
+        body: "Thiers, in the Puy-de-Dôme, has made knives since the Middle Ages and the town puts its share of French cutting-instrument production at around eighty per cent, employing roughly two thousand people across workshops strung along the gorges of the Durolle. It is a genuinely striking place, a medieval town stacked on a slope above a river gorge, and it scores 6.0 out of 10 with 7.5 on safety and 7.1 on nature. It also holds the lowest recorded property prices anywhere in this guide: a median €703 per m² for apartments over 68 sales, and €1,000 per m² for houses over 209. A two-room flat rents for €510. That combination of a living craft industry, a listed-quality town centre and prices at a fraction of anywhere comparable is why designers and independent makers have been taking on old workshops here. The constraint is access: Thiers scores 3.4 on transport, and Clermont-Ferrand is the nearest city of any size.",
+      },
+      {
+        heading: "Montbéliard, Saint-Nazaire, Laval: the bigger employers",
+        body: "Montbéliard in the Doubs sits beside the Stellantis plant at Sochaux, one of the largest car factories in France and the historic Peugeot site; the town itself has 25,516 residents, scores 6.1 out of 10, rents a T2 at €540, and records a median €934 per m² for apartments over 431 sales, the fourteenth-lowest of the 499 cities where we hold a recorded median. Saint-Nazaire, on the Loire estuary, is the shipbuilding town, cruise liners and offshore wind structures, with 73,111 residents, a T2 at €640, apartments at €2,849 per m² and the Atlantic at the end of the road. Laval in the Mayenne is the quiet surprise: an electronics cluster and a large food-processing sector, 49,474 residents, a T2 at €490 (among the cheapest rents in France for a city of that size), apartments at €2,035 per m², and Rennes fifty kilometres away for anything the town does not have. Cholet, in Maine-et-Loire, is the same shape at a slightly higher price and a better overall score of 6.6.",
+      },
+      {
+        heading: "Saint-Dié-des-Vosges: the best place to live on this page",
+        body: "Saint-Dié-des-Vosges is an industrial town of textiles, timber and printing, in a region whose manufacturing base held up better than its reputation suggests. It is also, on our data, clearly the most liveable town in this guide: 7.3 out of 10 overall, 8.5 on nature, 8.5 on cost and 7.5 on safety, with forest on three sides. A two-room flat rents for €500, apartments record a median €1,080 per m² over 258 sales and houses €1,522. Its other claim is genuinely unusual: the name America was coined here, in the Cosmographiae Introductio printed in the town in 1507. For a technical worker who wants forest, cheap housing and a real town rather than a dormitory, this is the strongest combination on the page, set against a transport reading of 4.9, which is the standing cost of the Vosges.",
+      },
+      {
+        heading: "The work-permit reality for a non-EU tradesperson",
+        body: "This is where the honest version differs sharply from the tech guide. EU, EEA and Swiss nationals can simply take these jobs. For everyone else, a standard salaried work permit requires the employer to advertise the post and demonstrate they could not fill it locally: a slow, discouraging process that small industrial firms often will not undertake. The exception that matters is the shortage-occupation list, the liste des métiers en tension, which waives that labour-market test for occupations the state recognises as short-staffed; several industrial and skilled-trade occupations appear on it, the list is revised periodically and it varies by region. Check the current list for the specific region before assuming anything, and be aware the Passeport Talent route used by engineers is generally out of reach at technician level because of its salary and qualification thresholds. The practical consequence: these towns are an excellent option for someone who already has the right to work in France, and a difficult one for someone who does not.",
+      },
+      {
+        heading: "What to weigh before committing",
+        body: "Three things. French on the shop floor is not optional: safety instructions, work orders and toolroom conversation are in French, and unlike a Paris scaleup no one here will switch languages for you. A narrow labour market is a real risk: in a town of 12,000 built on one industry, losing your job means moving, not job-hunting, so weigh the second-largest employer as carefully as the first. And check the school and medical situation for your household before the property price seduces you, because the same isolation that makes housing cheap makes a specialist appointment a drive. If those three come out acceptable, this is the best value in France: a skilled trade, an employer who actually needs you, and a house at a price that has no equivalent in northern Europe.",
+      },
+    ],
+    relatedCities: ["oyonnax", "cluses", "thiers", "laval", "saint-die-des-vosges"],
+    tags: [
+      "job market france",
+      "working in france",
+      "moving to france",
+      "budget",
+      "rural france",
+    ],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

@@ -7402,6 +7402,41 @@
       "slug": "things-to-do-in-cavaillon-2026",
       "title": "Things to do in Cavaillon: a synagogue, a Roman arch and Dumas's melons",
       "emoji": "🍈"
+    },
+    {
+      "slug": "best-french-cities-cheap-rent-2026",
+      "title": "Cheapest French Cities to Rent In (2026)",
+      "emoji": "💸"
+    },
+    {
+      "slug": "best-french-cities-retire-by-the-sea-budget-2026",
+      "title": "Retiring by the Sea in France on a Budget (2026)",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "best-french-cities-family-budget-2026",
+      "title": "Best French Towns for Families on a Tight Budget (2026)",
+      "emoji": "👨‍👩‍👧"
+    },
+    {
+      "slug": "best-french-cities-tech-jobs-2026",
+      "title": "Best French Cities for Tech Jobs (2026)",
+      "emoji": "💻"
+    },
+    {
+      "slug": "best-french-cities-dog-owners-2026",
+      "title": "Moving to France With a Dog: Best Cities (2026)",
+      "emoji": "🐕"
+    },
+    {
+      "slug": "best-french-cities-alps-property-2026",
+      "title": "Buying Property in the French Alps (2026)",
+      "emoji": "⛷️"
+    },
+    {
+      "slug": "best-french-cities-industrial-jobs-2026",
+      "title": "Where the Industrial Jobs Are in France (2026)",
+      "emoji": "🏭"
     }
   ],
   "tags": [
@@ -7418,7 +7453,7 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 131
+      "count": 136
     },
     {
       "slug": "single-parent-in-france",
@@ -7431,23 +7466,23 @@
       "count": 66
     },
     {
+      "slug": "buying-property-france",
+      "label": "buying property france",
+      "count": 53
+    },
+    {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
       "count": 53
     },
     {
-      "slug": "buying-property-france",
-      "label": "buying property france",
-      "count": 52
+      "slug": "real-estate",
+      "label": "real estate",
+      "count": 51
     },
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 50
-    },
-    {
-      "slug": "real-estate",
-      "label": "real estate",
       "count": 50
     },
     {
@@ -7466,6 +7501,16 @@
       "count": 36
     },
     {
+      "slug": "working-in-france",
+      "label": "working in france",
+      "count": 33
+    },
+    {
+      "slug": "job-market-france",
+      "label": "job market france",
+      "count": 32
+    },
+    {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
       "count": 32
@@ -7474,16 +7519,6 @@
       "slug": "ile-de-france",
       "label": "ile de france",
       "count": 31
-    },
-    {
-      "slug": "working-in-france",
-      "label": "working in france",
-      "count": 31
-    },
-    {
-      "slug": "job-market-france",
-      "label": "job market france",
-      "count": 30
     },
     {
       "slug": "single-supplement",
@@ -7536,24 +7571,29 @@
       "count": 23
     },
     {
+      "slug": "expat-retirement",
+      "label": "expat retirement",
+      "count": 22
+    },
+    {
       "slug": "single-parent-holidays",
       "label": "single parent holidays",
       "count": 22
     },
     {
-      "slug": "expat-retirement",
-      "label": "expat retirement",
-      "count": 21
-    },
-    {
       "slug": "french-school-system",
       "label": "french school system",
-      "count": 20
+      "count": 21
     },
     {
       "slug": "moving-to-france-with-children",
       "label": "moving to france with children",
-      "count": 19
+      "count": 20
+    },
+    {
+      "slug": "budget",
+      "label": "budget",
+      "count": 18
     },
     {
       "slug": "bourgogne-franche-comte",
@@ -7566,8 +7606,13 @@
       "count": 17
     },
     {
-      "slug": "budget",
-      "label": "budget",
+      "slug": "relocation",
+      "label": "relocation",
+      "count": 16
+    },
+    {
+      "slug": "cost-of-living",
+      "label": "cost of living",
       "count": 15
     },
     {
@@ -7586,19 +7631,9 @@
       "count": 15
     },
     {
-      "slug": "relocation",
-      "label": "relocation",
-      "count": 15
-    },
-    {
       "slug": "loire-valley",
       "label": "loire valley",
       "count": 14
-    },
-    {
-      "slug": "cost-of-living",
-      "label": "cost of living",
-      "count": 13
     },
     {
       "slug": "reunion",
@@ -7611,14 +7646,14 @@
       "count": 12
     },
     {
-      "slug": "burgundy",
-      "label": "burgundy",
+      "slug": "affordable-retirement-france",
+      "label": "affordable retirement France",
       "count": 11
     },
     {
-      "slug": "affordable-retirement-france",
-      "label": "affordable retirement France",
-      "count": 10
+      "slug": "burgundy",
+      "label": "burgundy",
+      "count": 11
     },
     {
       "slug": "atlantic-coast",
@@ -7671,13 +7706,33 @@
       "count": 8
     },
     {
+      "slug": "rural-france",
+      "label": "rural france",
+      "count": 8
+    },
+    {
       "slug": "strasbourg",
       "label": "strasbourg",
       "count": 8
     },
     {
+      "slug": "visa",
+      "label": "visa",
+      "count": 8
+    },
+    {
+      "slug": "lifestyle",
+      "label": "lifestyle",
+      "count": 7
+    },
+    {
       "slug": "lyon",
       "label": "lyon",
+      "count": 7
+    },
+    {
+      "slug": "mediterranean",
+      "label": "mediterranean",
       "count": 7
     },
     {
@@ -7686,23 +7741,18 @@
       "count": 7
     },
     {
-      "slug": "rural-france",
-      "label": "rural france",
+      "slug": "south-of-france",
+      "label": "south-of-france",
       "count": 7
     },
     {
-      "slug": "visa",
-      "label": "visa",
-      "count": 7
+      "slug": "alps",
+      "label": "alps",
+      "count": 6
     },
     {
       "slug": "itinerary",
       "label": "itinerary",
-      "count": 6
-    },
-    {
-      "slug": "lifestyle",
-      "label": "lifestyle",
       "count": 6
     },
     {
@@ -7716,18 +7766,13 @@
       "count": 6
     },
     {
-      "slug": "mediterranean",
-      "label": "mediterranean",
-      "count": 6
-    },
-    {
       "slug": "rennes",
       "label": "rennes",
       "count": 6
     },
     {
-      "slug": "south-of-france",
-      "label": "south-of-france",
+      "slug": "savoie",
+      "label": "savoie",
       "count": 6
     },
     {
@@ -7743,11 +7788,6 @@
     {
       "slug": "affordable-france",
       "label": "affordable france",
-      "count": 5
-    },
-    {
-      "slug": "alps",
-      "label": "alps",
       "count": 5
     },
     {
@@ -7803,11 +7843,6 @@
     {
       "slug": "paris",
       "label": "paris",
-      "count": 5
-    },
-    {
-      "slug": "savoie",
-      "label": "savoie",
       "count": 5
     },
     {

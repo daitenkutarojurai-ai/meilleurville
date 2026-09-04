@@ -2836,6 +2836,121 @@ setup dans `CLAUDE.md`), pas une facilité.
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
 
+### Livré le 04/09 — `best-french-cities-[thème]` batch 1 (+7), et deux faux trous écartés
+
+`npm run parity` en **code 0** en début et en fin de run (FR 219 · EN 166, 0 route FR sans jumelle) :
+pas de régression de routes, donc run de corpus. Compteurs mesurés avant/après :
+**FR 1 057, EN 832 → 839.** Écart de corpus ramené de 225 à 218.
+
+**Le run a d'abord servi à corriger le recensement des séries, et c'est le résultat le plus
+durable.** Le diff FR/EN par préfixe de slug donne deux « séries FR sans aucune jumelle EN » qui
+n'en sont pas :
+- ⚠️ **`universites-[ville]-2026` (15 FR / 0 EN) n'est PAS un trou — ne pas ouvrir de série
+  `universities-in-[city]`.** Lecture faite des deux côtés : le FR sépare `etudiant-a-[ville]`
+  (vie étudiante) de `universites-[ville]` (établissements, classements, CROUS, bourses, pièges),
+  alors que l'EN a fusionné les deux dans **`studying-in-[city]-2026`**, qui couvre déjà
+  établissements *et* classements *et* CROUS *et* argent *et* quartiers, plus le visa. Les
+  **15 villes** de la série FR ont **toutes** leur `studying-in-`. Ouvrir la jumelle littérale
+  serait de la cannibalisation caractérisée, exactement ce que les trois passes de dédup de juin
+  ont retiré du corpus EN. C'est une asymétrie assumée, au même titre que `PARITY_EXCEPTIONS`
+  côté routes, et le prochain diff naïf la remontera à nouveau.
+- ⚠️ **`demenager-a-[ville]-2026` (50 FR / 0 EN) est un trou à moitié faux** : `moving-to-` ne
+  compte que 4 guides nationaux, mais les **52 `[city]-living-guide`** couvrent déjà l'essentiel
+  du terrain d'une série `moving-to-[city]`. Si elle s'ouvre un jour, elle doit être **la
+  logistique** (déménageur, EDF, box internet, banque, changement d'adresse, OFII), pas la vie
+  dans la ville, sinon même défaut.
+
+**Le vrai trou, mesuré, est ailleurs : `meilleures-villes-[thème]` 52 FR contre
+`best-french-cities-[theme]` 29 EN** — et c'est celui qui porte le trafic que la GSC nous montre
+en position 40-57 (« best places to live in france », « where to live in france »). Batch 1 en
+ferme sept, choisis pour ne recouper aucun des 29 thèmes EN existants :
+`best-french-cities-cheap-rent-2026` (budget), `-retire-by-the-sea-budget-2026` (budget),
+`-family-budget-2026` (family), `-tech-jobs-2026` (moving), `-dog-owners-2026` (lifestyle),
+`-alps-property-2026` (budget), `-industrial-jobs-2026` (moving).
+
+**Aucun chiffre n'est repris des guides FR sources.** Les cinq guides FR de départ datent de
+2025 et leurs loyers/notes ont dérivé ; tout est **recalculé ce run depuis les vrais modules**
+via des `npx tsx` de scratch — `CITIES_SEED` (donc scores rendus, jamais les littéraux du seed),
+`data/housing.ts`, `lib/city-population.ts` (Insee 2022), `lib/city-coast.ts` et surtout
+**`lib/property-prices.ts`**, si bien que tout prix d'achat cité est une **médiane DVF mesurée
+2024-2025 avec son effectif**, pas un repère éditorial.
+
+⚠️ **Une erreur de fait du corpus FR trouvée et corrigée des deux côtés** :
+`meilleures-villes-industrie-emploi-stable-france-2025` affirmait que la vallée de l'Arve
+concentre « **60 % de la production mondiale** de pièces décolletées ». C'est faux et le chiffre
+circule beaucoup : le réel est **plus de 70 % de la production *française***, la vallée étant par
+ailleurs le premier centre **mondial** du métier. La chaîne FR a été corrigée (et dit désormais
+que la forme « 60 % mondial » est fausse), et le guide EN porte la version juste.
+
+⚠️ **Dix affirmations écrites au premier jet et corrigées avant commit, toutes du même genre que
+celles des batches 38 et 40 : un superlatif, un rang ou une comparaison qu'aucun contrôle
+automatique ne voit.** Elles ont été trouvées par un script qui remesure chaque superlatif contre
+le corpus, pas par relecture : ① Aurillac donnée « ville la moins chère du jeu de données » alors
+que La Souterraine et Mauriac sont à 390 € (elle n'est la moins chère qu'**au-dessus de
+20 000 hab.**) ; ② « quatorze villes moins chères que Chaumont » alors que **cinq** villes de plus
+de 20 000 habitants passent sous 470 € — les quatorze sont celles à **≤ 490 € écartées sur la
+note** ; ③ **Nice donnée à 2 750 h de soleil, elle est à 2 694** ; ④ Nice « au-dessus de
+5 000 €/m² », la médiane DVF est **4 802** ; ⑤ Paris donnée « note nature la plus basse du site »
+alors que Garges-lès-Gonesse, Pierrefitte-sur-Seine, Bondy et Aubervilliers sont à 2,2 contre
+2,3 ; ⑥ Villefranche-de-Rouergue créditée des « maisons les moins chères de la page » alors
+qu'Issoudun (1 026 €/m²) et Flers (1 211) sont dessous — les deux sont désormais **nommées** ;
+⑦ Bordeaux donnée « la plus chère des métropoles régionales » alors que **Lyon est au-dessus**
+(4 475 contre 4 171) ; ⑧ Montbéliard créditée du « plus bas prix d'appartement de France pour une
+ville de sa taille », remplacé par le rang mesuré (**14ᵉ des 499 villes** à médiane publiée) ;
+⑨ Grenoble « le m² le moins cher de la page » alors que Gap, Albertville et Cluses sont dessous ;
+⑩ Rumilly donnée « à 55 % du prix d'Annecy », c'est **60 %**. Deux dates ont par ailleurs été
+vérifiées en ligne avant écriture (collège de La Flèche fondé en **1604** par Henri IV et confié
+aux jésuites, Descartes élève, transformé en école militaire par Napoléon ; cathédrale de Laon
+commencée en **1155**, huit ans avant Notre-Dame de Paris).
+
+**Trois règles de méthode tenues, à ne pas défaire.** ① Le classement « loyer le moins cher »
+**ne coupe jamais un palier d'ex æquo en son milieu** (convention `lib/owner-rankings.ts`) : cinq
+villes sont à 480 €, elles sont publiées **toutes les cinq, par ordre alphabétique annoncé comme
+tel**, et le guide dit qu'aucun ordre n'est inventé entre elles. ② Le guide chiens **ne publie
+aucun classement de parcs** : `data/city-parks.json` plafonne à 40 parcs par commune
+(`PARKS_PER_CITY`) et OSM est contributif, donc compter les parcs classerait l'effort de
+cartographie — le guide l'écrit noir sur blanc plutôt que de sortir un top 10 faux. ③ Le guide
+« mer + soleil pas cher » **publie les notes de sécurité des villes qu'il recommande** (Béziers
+3,5, Perpignan 3,7) au lieu de vendre du soleil bon marché en silence : c'est la raison même du
+prix, et la cacher aurait été le seul vrai mensonge possible de la page.
+
+**Matière propre à l'angle anglophone**, absente des guides FR parce qu'inutile à un lecteur
+français, et vérifiée en ligne : la **titration antirabique** exigée des pays tiers non listés
+(≥ 0,5 UI/ml, prise de sang ≥ 30 jours après vaccination, **puis 3 mois d'attente incompressibles**,
+soit 4 à 5 mois de préparation) ; l'**interdiction totale d'importer un chien de 1ʳᵉ catégorie**
+depuis la loi du 6 janvier 1999 (6 mois d'emprisonnement et 15 000 € d'amende), avec la nuance qui
+piège les Américains — la catégorie tient au **pedigree** et non à l'allure, un American
+Staffordshire inscrit à un livre des origines relevant de la 2ᵉ catégorie, légale mais sous
+obligations ; le **S1** des retraités d'État de l'UE et des Britanniques sous accord de retrait ;
+le **VLS-TS visiteur** et sa condition de ressources pour un retraité non-européen ; le
+**Passeport Talent** et le fait que la **liste des métiers en tension** est la seule porte
+réaliste pour un technicien industriel non-européen ; la **taxe d'habitation qui subsiste sur les
+résidences secondaires** et les ~7-8 % de frais de notaire non finançables ; et l'inscription
+scolaire d'un enfant étranger, y compris **UPE2A qu'il faut demander par son nom**.
+
+Contrôles passés : `npx tsc --noEmit` **propre** (⚠️ le conteneur démarre avec un `node_modules`
+**incomplet** — 43 804 erreurs `Cannot find module 'next'` avant `npm install`, exactement la
+signature décrite dans CLAUDE.md ; ne rien conclure d'un `tsc` massivement rouge sans avoir
+installé), `npm run integrity` (guides EN 832 → 839), `search-index` + `search-index:check`
+(**114 tags EN, inchangé, donc aucune page `/tags/` créée**), `sitemap:check` (EN 28 724 →
+**28 731**, soit exactement les 7 guides neufs), `npm run hreflang:check`, `npm run parity`
+(code 0). Plus un contrôle maison sur les 7 : `getEnGuide()` les retrouve, `metaTitle` 37-47,
+`metaDesc` 139-150, 7 à 8 sections, `relatedCities` tous présents au seed, remontée par la
+recherche inverse `relatedCities` sur les pages ville EN, aucun mojibake ni unité ascii-strippée.
+⚠️ **Densité d'em-dash : la première passe était hors cible R7.10 sur les 7** (jusqu'à 1 pour 64
+mots sur le guide industrie, cible ~1 pour 200) ; 41 tirets convertis en virgules, deux-points et
+parenthèses, résultat **1 pour 299 à 1 194 mots**, 0 sur le guide industrie. `npm run build`
+**non lancé, volontairement** (cf. § Commands de CLAUDE.md depuis le batch 27).
+
+**Prochain run** : il reste **16 thèmes** `meilleures-villes-` sans jumelle EN après ce batch.
+Les plus défendables, dans l'ordre : `couples-teletravail-deux-bureaux` (deux bureaux à la
+maison, angle très net), `colocation-jeunes-actifs`, `sport-enfants-clubs`,
+`familles-recomposees`, `fibre-optique-teletravail` (⚠️ recoupe `best-french-cities-remote-workers`,
+à cadrer sur la couverture fibre seule ou à écarter). Restent hors périmètre pour cause de faible
+intention expat, comme noté dans CLAUDE.md : `musique-scene`, `marches-couverts`,
+`naturalistes-biodiversite` (et pour ce dernier, rappel : le rang de richesse biodiversité est
+**retiré**, cf. Vague 7 — ne pas bâtir un classement dessus).
+
 ### Livré le 03/09 — `single-parent-holidays-[city]-2026` batch 3 (+7), la série refermée à 22/22
 
 `npm run parity` en **code 0** en début et en fin de run (FR 219 · EN 166, 0 route FR sans jumelle) :
