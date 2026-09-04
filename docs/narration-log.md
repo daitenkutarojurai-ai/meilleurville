@@ -42,3 +42,4 @@ Les données factuelles (chiffres, scores, noms) ne sont jamais modifiées.
 - 2026-08-28 data/guides.ts :: acheter-immobilier-outre-mer-drom-france-2026
 - 2026-08-29 data/guides.ts :: vivre-dans-bourg-2000-habitants-france-2026
 - 2026-09-02 data/guides.ts :: vivre-proche-centrale-nucleaire-france-2026
+- 2026-09-04 data/guides.ts :: petites-villes-50000-habitants-tout-france-2026
