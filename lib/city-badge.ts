@@ -7,6 +7,25 @@
 // The SVG is emitted as a self-contained string (no external font, no
 // external stylesheet, viewBox-based sizing) so the pasted HTML degrades
 // gracefully on any embedding site.
+//
+// **Convention** : ce module publie les **deux** nombres du site, et ils
+// courent en sens inverse l'un de l'autre — c'est tout l'intérêt de le dire
+// ici, parce que le badge les affiche côte à côte sur des sites tiers que nous
+// ne contrôlons pas.
+//  · `nationalRank` est un **rang** : **1 = la meilleure ville**, 540 = la
+//    dernière. Il ne se colore donc **pas** avec `scoreColor`/`scoreHex`, qui
+//    sont calibrés `10 = vert` sur 0-10 : un rang 1 y ressortirait rouge.
+//  · `city.scores.global` est un **score** : `10 = bon`, orientation par défaut
+//    du site.
+// Vérifié par exécution le 2026-09-04 : la ville la mieux notée du seed
+// (Obernai, 8,4) sort au rang 1, Paris au rang 340 sur 540.
+//
+// Le rang est calculé une seule fois au chargement du module depuis le score
+// global **rendu** (`CITIES_SEED`, donc après calibrage et normalisation), et
+// jamais depuis un littéral du seed source — l'écart entre les deux est le
+// piège documenté dans CLAUDE.md, et un badge collé chez une mairie est le
+// dernier endroit où l'on veut publier un chiffre que notre propre page
+// contredit.
 import { CITIES_SEED, type CitySeed } from "@/data/cities-seed";
 
 export type BadgeVariant = "compact" | "wide" | "square";

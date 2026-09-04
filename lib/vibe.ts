@@ -1,4 +1,4 @@
-// Convention: deterministic vibe score 1-5 derived from city scores × season × day-of-week.
+// **Convention** : deterministic vibe score 1-5 derived from city scores × season × day-of-week.
 // NOT real-time data. Input = static seed scores + slug-derived pseudo-date offset.
 // Clearly labelled ESTIMÉ on all surfaces where this is displayed.
 // 10 = bon convention (all city scores use 10=bon; safety same).

@@ -239,12 +239,22 @@ export default async function ProfilePage({ params }: Props) {
           </section>
         )}
 
-        {/* Family counterpart — the four profiles whose weighting is built on
-            schools + safety + green space. The owner ranking reads those three
-            axes alone and subtracts a penalty on the most expensive cities,
-            which is precisely the arbitrage a household with one income (or
-            several children) makes; the official /classements/famille adds cost
-            and transport, so its top pulls toward well-served metro areas. */}
+        {/* Family counterpart — les quatre profils de famille. ⚠️ Leurs
+            pondérations ne sont PAS toutes bâties sur écoles + sécurité +
+            nature, contrairement à ce que disait ce commentaire avant le
+            2026-09-04 : mesuré sur `PROFILE_PAGES`, `jeunes-parents` ne pondère
+            pas `schools` du tout (safety 2, nature 2, qualiteAir 2, famille 2)
+            et `familles-monoparentales` ne pondère pas `nature` (cost 2,5,
+            safety 2, schools 2, transport 1,5). Ce qui les réunit ici est le
+            sujet, pas la formule — et c'est justement pour ça que le renvoi a
+            un intérêt. Le classement propriétaire, lui, lit bien ces trois axes
+            seuls et retranche une pénalité aux villes les plus chères
+            (`famille` dans `lib/owner-scores.ts` : moyenne schools + safety +
+            nature, − 0,5 si cost < 4, `cost` étant orienté 10 = abordable) ;
+            l'officiel /classements/famille ajoute coût et transport
+            (schools 3, safety 2,5, nature 2, cost 1,5, transport 1), d'où un
+            haut de tableau qui tire vers les métropoles bien desservies.
+            Les deux formules citées sont vérifiées par exécution. */}
         {["familles-avec-enfants", "jeunes-parents", "familles-nombreuses", "familles-monoparentales"].includes(profile.slug) && (
           <section>
             <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">
@@ -540,11 +550,17 @@ export default async function ProfilePage({ params }: Props) {
           </section>
         )}
 
-        {/* Jeune-actif counterpart — visible for the three profiles whose top
-            weight is `jeuneActif` (jeunes-actifs 2,5 ; jeunes-diplômés 2,0 en
-            second derrière le coût ; célibataires 2,0, dont l'intro dérive déjà
-            sa "vitalité du bassin jeune-actif" de ce score). Le classement est
-            ce même score lu seul, sans les axes que le profil ajoute autour. */}
+        {/* Jeune-actif counterpart — les trois profils qui **pondèrent**
+            `jeuneActif`. ⚠️ Ce n'est leur poids *principal* que sur un des
+            trois, contrairement à ce que disait ce commentaire avant le
+            2026-09-04 : mesuré sur `PROFILE_PAGES`, jeunes-actifs 2,5 (premier),
+            jeunes-diplômés 2,0 (second derrière cost 2,5), célibataires 2,0
+            (second derrière culture 2,5, et son intro dérive déjà sa « vitalité
+            du bassin jeune-actif » de ce score). Le classement renvoyé est ce
+            même score lu seul — moyenne culture + remoteWork + cost, + 0,8
+            au-dessus de 100 000 habitants (`jeuneActif` dans
+            `lib/owner-scores.ts`, vérifié par exécution) — sans les axes que le
+            profil ajoute autour. */}
         {["jeunes-actifs", "jeunes-diplomes", "celibataires"].includes(profile.slug) && (
           <section>
             <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">

@@ -1,4 +1,4 @@
-// Convention: 10 = très tendu (très difficile à louer — fort turn-over,
+// **Convention** : 10 = très tendu (très difficile à louer — fort turn-over,
 // délais longs, concurrence élevée). 1 = marché détendu (logements vacants,
 // loyers stagnants, délais courts).
 //

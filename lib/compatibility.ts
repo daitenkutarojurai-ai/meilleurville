@@ -7,6 +7,16 @@
 // Distinct from /quiz/ which is a qualitative matching (top reason chip).
 // This is quantitative: every answer maps to a contribution on a specific
 // scoring axis, and the total is a percentage.
+//
+// **Convention** : `score` est sur **0-100, où 100 = la meilleure
+// compatibilité** avec les réponses, clampé aux deux bornes et arrondi au
+// dixième ; `rankCompatibility` trie en décroissant et ne rend que les 5
+// premières. Même mise en garde que `lib/city-match.ts`, dont c'est le voisin
+// direct : ce nombre **n'est pas une note de ville** et ne doit jamais être
+// passé à `scoreColor`/`scoreHex`, calibrés sur 0-10. Il dépend du
+// questionnaire, donc il ne se compare ni au score global d'une ville ni au
+// résultat d'une autre session. Les axes lus, eux, gardent l'orientation du
+// site (`10 = bon`, `cost` compris — 10 = abordable).
 
 import type { CityLight } from "@/lib/cities-light";
 import { HOUSING } from "@/data/housing";

@@ -129,13 +129,23 @@ export default async function DeptPage({ params }: Props) {
         "name": deptName,
         "url": `${baseUrl}/departements/${deptSlug}`,
         "containedInPlace": { "@type": "AdministrativeArea", name: region },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": avgScore.toFixed(2),
-          "bestRating": "10",
-          "worstRating": "1",
-          "ratingCount": cities.length,
-        },
+        // Pas d'`aggregateRating` ici, et c'est délibéré (retiré le 2026-09-04).
+        // La balise a un sens précis : la moyenne de notes laissées par des
+        // personnes. Ce qui était publié dessous n'en était pas une —
+        // `ratingValue` portait la moyenne de **nos** scores éditoriaux et
+        // `ratingCount` le **nombre de villes** du département, si bien que
+        // /departements/paris annonçait « 5,10/10 sur la base de 1 avis » et
+        // Mayotte « 3,00/10 sur la base de 1 avis ». Trois raisons de ne pas la
+        // remettre : ① un décompte de villes n'est pas un décompte d'avis, et
+        // aucune page du site ne prétend le contraire à l'écran ; ② la jumelle
+        // EN /departments/[dept] n'a jamais rien déclaré de tel, donc deux
+        // pages en relation hreflang décrivaient la même donnée
+        // différemment — c'est le défaut corrigé le 28/08 sur les 139 pages EN
+        // qui annonçaient leur `itemListOrder` à l'envers ; ③ la valeur elle-même
+        // sortait à deux décimales quand tout le reste du site publie une seule.
+        // La moyenne reste affichée sur la page, comme score éditorial, ce
+        // qu'elle est. Les vrais avis d'habitants vivent dans l'onglet
+        // discussion (D1), et leur compte n'est pas ce nombre-là.
       },
       {
         "@type": "ItemList",

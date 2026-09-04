@@ -54,6 +54,19 @@ export function CityJsonLd({ city, faq, photo }: { city: CitySeed & { reviewCoun
         primaryImageOfPage: image,
         name: `Avis sur ${city.name} · Qualité de vie ${city.scores.global}/10`,
         description: `Découvrez ${city.name} : scores de qualité de vie, avis d'habitants, quartiers et classements.`,
+        // ⚠️ Branche **dormante et piégée** — vérifié le 2026-09-04 : aucune des
+        // 540 villes du seed ne porte `reviewCount`, et l'unique appelant
+        // (`app/villes/[slug]/page.tsx`) passe l'enregistrement du seed tel
+        // quel, donc `aggregateRating` vaut toujours `undefined` et aucune page
+        // ville ne publie de note agrégée. Ne pas « réactiver » en branchant le
+        // compte de commentaires D1 dessus : `ratingValue` porte ici le score
+        // éditorial du site, pas la moyenne des avis qu'on compterait — on
+        // publierait notre propre note en la présentant comme celle des
+        // lecteurs. C'est exactement ce que faisaient les 102 pages
+        // /departements/[dept] (moyenne de nos scores, `ratingCount` = nombre
+        // de villes), retiré le même jour. Une vraie note agrégée demande une
+        // vraie moyenne d'avis : les deux nombres viennent alors de D1, ou la
+        // balise n'a pas lieu d'être.
         aggregateRating: (city.reviewCount ?? 0) > 0
           ? {
               "@type": "AggregateRating",

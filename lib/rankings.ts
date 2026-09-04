@@ -1,3 +1,33 @@
+// Moteur des 19 classements officiels — `/classements/[slug]` (FR) et
+// `/rankings/[slug]` (EN), qui appellent tous deux `getRankedCities()`.
+//
+// **Convention** : `score` est sur **0-10 et `10 = bon`**, sans exception, et le
+// `rank` renvoyé court en sens inverse — **1 = le meilleur**. Aucune inversion
+// à faire à l'affichage : c'est déjà l'orientation de la palette
+// `scoreColor`/`scoreHex` (cf. l'en-tête de `lib/utils.ts`).
+//
+// Direction vérifiée par exécution sur les 540 villes le 2026-09-04, jamais
+// supposée : les 8 axes pondérés (`cost`, `culture`, `life`, `nature`,
+// `remoteWork`, `safety`, `schools`, `transport`) sont tous des axes du seed
+// orientés `10 = bon`, aucun poids n'est négatif, et les trois barèmes qui ne
+// passent pas par les poids — `climat`, `logement`, `bord-de-mer` — rendent eux
+// aussi `10 = bon`. Bornes constatées sur l'ensemble des 19 : 0,40 à 9,50, tri
+// décroissant partout, rang 1 en tête partout.
+//
+// ⚠️ Deux pièges portés par ce fichier :
+//  ① `cost` est nommé pour une **qualité** malgré son nom de dépense : 10 =
+//     abordable. Le pondérer positivement dans un classement « budget » est
+//     donc correct ; l'inverser serait le bug.
+//  ② `bord-de-mer` est le seul classement **filtré** (score > 0) : il rend 55
+//     villes et non 540. Un consommateur qui suppose 540 lignes se trompe.
+//
+// ⚠️ Ce moteur trie un score à une décimale sur 540 villes, donc les ex æquo
+// **stricts** y sont la norme : mesuré le 2026-09-04, les 19 classements ont un
+// ex æquo dans leur top 10, 5 d'entre eux ont un #1 et un #2 à la même note, et
+// le plus gros palier du top 50 compte 21 villes (`budget`). L'ordre entre deux
+// villes à égalité est la permutation interne du tri, pas un départage — voir la
+// convention d'honnêteté de `lib/owner-rankings.ts`, qui publie des paliers
+// plutôt que des rangs fabriqués, et le rapport docs/integrite-2026-08-28.md.
 import { CITIES_SEED } from "@/data/cities-seed";
 import { HOUSING } from "@/data/housing";
 import type { City } from "@/lib/types";

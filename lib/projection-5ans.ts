@@ -5,7 +5,7 @@
 // applique des modificateurs de style de vie futurs et intègre le risque
 // climatique 2040 via lib/climate-2040.ts.
 //
-// Convention : score 0-100. Axes seeds 0-10, 10 = bon (cohérent avec R7.3).
+// **Convention** : score 0-100. Axes seeds 0-10, 10 = bon (cohérent avec R7.3).
 // Climate 2040 : pénalité appliquée APRÈS les modificateurs de trajectoire.
 
 import type { CityLight } from "@/lib/cities-light";

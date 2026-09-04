@@ -1,6 +1,23 @@
 // R8.1 — City Match: swipeable quiz that ranks cities live as the user answers.
 // Pure deterministic scoring; permalink encoding so a shared result re-opens
 // the exact same matches. No LLM at v1 — just transparent weighted blend.
+//
+// **Convention** : ce module ne publie **pas** une note sur 10 mais un
+// `percent` sur **0-100, où 100 = la meilleure correspondance** avec les
+// réponses données. Deux corollaires, tous deux vérifiés par exécution le
+// 2026-09-04 (bornes constatées 25 à 94 sur un jeu de réponses médian, tri
+// décroissant sur les 540 villes) :
+//  ① ce nombre **ne se compare pas** au score de qualité de vie d'une ville et
+//     ne doit jamais être passé à `scoreColor`/`scoreHex`, calibrés sur 0-10 :
+//     94 y tomberait hors barème. C'est un pourcentage d'adéquation à un
+//     questionnaire, pas un jugement sur la ville — deux jeux de réponses
+//     différents donnent deux classements différents des mêmes 540 villes ;
+//  ② il n'est pas comparable d'une session à l'autre : le maximum atteignable
+//     dépend des réponses, pas du corpus.
+//
+// Les axes lus restent orientés comme partout ailleurs (`10 = bon`, `cost`
+// compris — 10 = abordable), et le littoral se lit dans `lib/city-coast.ts`,
+// jamais dans les tags (cf. CLAUDE.md § Refonte du barème 2026-08-17).
 
 import type { CityLight } from "@/lib/cities-light";
 import { coastDistanceKm, COASTAL_KM } from "@/lib/city-coast";

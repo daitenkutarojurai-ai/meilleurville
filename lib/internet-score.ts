@@ -1,4 +1,4 @@
-// Convention: 10 = bon (fibre disponible, débit élevé). Derived from region/dept
+// **Convention** : 10 = bon (fibre disponible, débit élevé). Derived from region/dept
 // fibre coverage tiers + remoteWork score proxy. No live API.
 //
 // Method: weighted blend of city.scores.remoteWork (60%) + a regional fibre
