@@ -52679,6 +52679,447 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Cavaillon", "activités Cavaillon 2026", "que faire dans le Vaucluse", "sorties Luberon patrimoine juif", "synagogue comtadine arc romain colline Saint-Jacques melon"]
   },
+  {
+    slug: "parent-solo-a-fontainebleau-2026",
+    title: "Parent solo à Fontainebleau en 2026 : première d'Île-de-France, et 15 787 habitants",
+    metaTitle: "Parent solo à Fontainebleau 2026 — seuil 3 450 €",
+    metaDesc:
+      "Fit 6,9/10, 12e sur 363 et 1re des 115 communes franciliennes classées. T3 à 1 200 €, seuil 3 450 €, écoles 8,7/10 sans le prix des Hauts-de-Seine.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-04",
+    updatedAt: "2026-09-04",
+    intro:
+      "Fontainebleau sort à 6,9/10 au composite parent solo, douzième des 363 communes françaises retenues au classement, très au-dessus de la médiane fixée à 5,5/10. Le détail : écoles 8,7/10, sécurité 8,1/10, transports 6,4/10, coût de la vie 4,6/10 (source : data/cities-seed.ts). Le T3 moyen est à 1 200 € et le mètre carré à l'achat à 3 800 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 450 € par mois. La commune compte 15 787 habitants au recensement 2022 contre 14 708 en 2011 et 14 907 en 2016 (source : data/city-population.json). Le fait qui structure ce dossier tient en une ligne : c'est la première commune d'Île-de-France de ce classement, sur 115 éligibles, et elle y arrive sans le mètre carré des Hauts-de-Seine. Le fait qui l'ébrèche tient en une autre : le seed du site lui prête 25 000 habitants, le recensement en compte 15 787, et c'est le premier chiffre qui la fait entrer au classement.",
+    sections: [
+      {
+        heading: "Première des 115 communes franciliennes, et de loin",
+        body: "Sur les 115 communes d'Île-de-France que le classement retient, Fontainebleau est la seule à dépasser 6,8/10. La deuxième, Étampes, est à 6,7 ; la troisième, Issy-les-Moulineaux, à 6,5. L'écart n'est pas dans les écoles, où plusieurs communes des Hauts-de-Seine marquent 9,0/10 contre 8,7 ici, ni dans les transports, où Fontainebleau est franchement derrière avec 6,4/10 face aux 9,0/10 de Levallois-Perret, Neuilly-sur-Seine ou Vincennes. Il est dans les deux axes que le composite parent solo pondère le plus lourdement après les écoles : le coût de la vie, où Fontainebleau marque 4,6/10 quand les communes de la boucle nord des Hauts-de-Seine tombent à 2,2/10, et la sécurité, où elle marque 8,1/10. Cette note de sécurité mérite d'être située : sur les 363 communes classées, six seulement atteignent 8,0/10, et Fontainebleau est troisième, à égalité avec Beaune, derrière Challans à 8,3 et Lannion à 8,2. Le rapport entre le loyer et l'offre scolaire dit la même chose autrement. À 1 200 € de T3 pour 8,7/10 d'écoles, Fontainebleau affiche 138 € de loyer par point d'offre scolaire, le meilleur des 115 communes franciliennes classées, devant Étampes à 145 € et Sceaux à 167 €. Neuilly-sur-Seine est à 278 €.",
+      },
+      {
+        heading: "3 450 € de seuil d'entrée, et pourquoi ce calcul est l'indulgent",
+        body: "Le revenu net minimum estimé par lib/parent-solo.ts est de 3 450 € par mois. Il faut dire tout de suite comment il est obtenu, parce que la règle appliquée n'est pas la même partout. Le moteur retient 33 % du revenu net pour le loyer, sauf quand le score de coût de la vie tombe sous 5,0 : dans ce cas il relâche à 35 %, parce que sur ces marchés tendus les bailleurs acceptent souvent davantage avec une caution Visale. Fontainebleau est à 4,6/10 de coût de la vie, donc c'est la version relâchée qui s'applique, et le seuil affiché est le moins prudent des deux calculs possibles. Avec la règle stricte, il faudrait 3 650 €. C'est l'inverse exact de la situation de Dole ou de Sens, où le score de coût dépasse 5 et où le chiffre publié est le plus prudent des deux. Deux communes seulement du top 20 sont dans ce cas, Fontainebleau et Anglet, et elles affichent le même seuil de 3 450 €. Les autres références locatives sont un T2 à 880 € et un T1 à 600 €. À l'achat, 3 800 € le mètre carré situent un logement de 65 mètres carrés autour de 247 000 € au prix moyen. Ce mètre carré est un repère éditorial tous biens confondus, pas une médiane de transactions enregistrées.",
+      },
+      {
+        heading: "8,7/10 d'écoles sans le prix des Hauts-de-Seine",
+        body: "La note d'écoles de 8,7/10 place Fontainebleau au niveau de Strasbourg, d'Annecy et de Villefranche-sur-Saône : dix communes des 363 atteignent exactement ce chiffre. Ce qui la distingue est ce qu'il faut gagner pour y accéder. Rueil-Malmaison et Saint-Germain-en-Laye marquent 9,0/10 d'écoles pour un seuil de 4 550 €, Versailles 9,0/10 pour 4 850 €, Issy-les-Moulineaux 9,0/10 pour 5 150 €, Neuilly-sur-Seine 9,0/10 pour 7 150 €. Fontainebleau demande 3 450 € pour 8,7/10. Un parent solo qui vise l'offre scolaire francilienne paie donc entre 1 100 € et 3 700 € de revenu mensuel de plus, dans ces cinq communes, pour trois dixièmes de point. Le contre-argument existe et il est sérieux : ces communes marquent 8,4 à 9,0/10 de transports quand Fontainebleau est à 6,4/10, et le réseau est ce qui absorbe l'imprévu quand personne d'autre ne peut faire le trajet. La portée de la mesure reste la même partout : l'axe écoles décrit l'offre communale, la densité d'établissements et l'éventail des filières, pas la réussite des élèves ni la qualité du travail des enseignants.",
+      },
+      {
+        heading: "15 787 habitants au recensement, 25 000 dans le seed",
+        body: "Le classement retient les communes de plus de 20 000 habitants, et il applique ce seuil à la population approximative du seed, pas à la population municipale publiée par l'Insee. Les deux nombres coexistent volontairement sur ce site, mais ici l'écart change la lecture du rang : le seed prête 25 000 habitants à Fontainebleau, le recensement 2022 en compte 15 787. Quatre autres communes classées sont sous le seuil au recensement, Saint-Dié-des-Vosges, Sélestat, Pertuis et Cahors, mais toutes à moins de 700 habitants de la barre ; Fontainebleau en est à 4 213. Ce n'est pas une raison de jeter le dossier, parce que les quatre axes, le loyer et le mètre carré ne dépendent pas de ce chiffre. C'en est une de lire le rang pour ce qu'il est, un rang parmi les communes que le site classe, et de retenir surtout la conséquence pratique : le bassin d'emploi communal est celui d'une ville de quinze mille habitants, pas de vingt-cinq mille, et un parent solo qui ne peut pas déménager pour suivre un poste a besoin de le savoir avant de signer. La trajectoire, elle, est bonne et mesurée sur la même base : 14 708 habitants en 2011, 14 907 en 2016, 15 787 en 2022, soit 7,3 % de plus en onze ans et 5,9 % depuis 2016. Une commune qui gagne des habitants tend ses dispositifs de garde, et le périscolaire est précisément ce qui remplace le second adulte.",
+      },
+      {
+        heading: "Où Fontainebleau se situe en Île-de-France",
+        body: "L'arbitrage francilien d'un parent solo se joue rarement entre Fontainebleau et Neuilly. Il se joue entre Fontainebleau et Étampes, deuxième du classement régional à 6,7/10, avec un T3 à 1 120 € et un seuil de 3 400 € pour 7,7/10 d'écoles et 6,1/10 de sécurité : cinquante euros de revenu mensuel de moins pour un point d'écoles et deux points de sécurité en moins. Il se joue aussi contre Melun, à une trentaine de kilomètres au nord dans le même département, qui sort 237e sur 363 avec 5,3/10 d'écoles et 4,1/10 de sécurité pour un T3 à 1 010 € : moins cher, et sur deux axes décisifs très en dessous. Et contre Paris, 202e, où le T3 moyen est à 2 800 € et le seuil à 8 000 €. La comparaison la plus honnête reste celle de Rambouillet, autre ville-forêt de la grande couronne, 88e à 6,2/10, avec un T3 à 1 420 € et un seuil de 4 050 € pour 7,7/10 d'écoles : six cents euros de revenu mensuel de plus qu'à Fontainebleau pour une note d'écoles inférieure d'un point. Sur ce classement, Fontainebleau n'a pas d'équivalent francilien.",
+      },
+      {
+        heading: "Le verdict : pour qui Fontainebleau fonctionne",
+        body: "Fontainebleau fonctionne à partir de 3 450 € net par mois, pour un parent solo qui a besoin de l'offre scolaire et du niveau de sécurité franciliens sans pouvoir payer le mètre carré des Hauts-de-Seine, et qui travaille sur place ou peut organiser un trajet quotidien vers Paris. C'est la première commune d'Île-de-France de ce classement, la seule de la région à dépasser 6,8/10, et elle affiche le meilleur rapport loyer sur offre scolaire des 115 communes franciliennes classées. Elle fonctionne moins bien pour qui compte sur le réseau pour absorber les imprévus : 6,4/10 de transports, c'est deux points et demi de moins que la petite couronne, et cela se paie en temps le jour où l'école appelle à quinze heures. Elle ne fonctionne pas pour qui cherche un marché de l'emploi local large : la commune compte 15 787 habitants, pas les 25 000 que suggère son rang, et aucun classement ne compense l'absence d'employeurs. Le seuil affiché est enfin le calcul indulgent des deux : compter 3 650 € plutôt que 3 450 € est une prudence raisonnable. Le détail axe par axe est sur /villes/fontainebleau/parent-solo.",
+      },
+    ],
+    relatedCities: ["fontainebleau", "etampes", "melun", "rambouillet", "versailles"],
+    relatedGuides: [
+      "10-choses-a-faire-a-fontainebleau-2026",
+      "parent-solo-a-paris-2026",
+      "parent-solo-a-anglet-2026",
+      "vivre-en-ile-de-france-guide-2025",
+      "meilleures-villes-familles-monoparentales-france-2026",
+    ],
+    tags: ["parent solo Fontainebleau 2026", "monoparental Seine-et-Marne", "T3 Fontainebleau budget", "écoles franciliennes parent seul", "famille monoparentale Île-de-France"],
+  },
+  {
+    slug: "parent-solo-a-soissons-2026",
+    title: "Parent solo à Soissons en 2026 : 13e sur 363, et Laon fait aussi bien pour 190 € de moins",
+    metaTitle: "Parent solo à Soissons 2026 — T3 930 €, seuil 2 800 €",
+    metaDesc:
+      "Fit 6,9/10, 13e sur 363 et 2e des Hauts-de-France. T3 à 930 €, seuil 2 800 €, mais 141 € de loyer par point d'écoles : le rapport le moins favorable du top 20.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-04",
+    updatedAt: "2026-09-04",
+    intro:
+      "Soissons sort à 6,9/10 au composite parent solo, treizième des 363 communes françaises retenues au classement et deuxième des 27 communes des Hauts-de-France, très au-dessus de la médiane fixée à 5,5/10. Le détail : coût de la vie 8,3/10, écoles 6,6/10, sécurité 6,5/10, transports 5,6/10 (source : data/cities-seed.ts). Le T3 moyen est à 930 € et le mètre carré à l'achat à 1 700 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 800 € par mois. La commune compte 28 667 habitants au recensement 2022 contre 28 551 en 2011 et 28 466 en 2016 (source : data/city-population.json), soit la trajectoire la plus plate de ce lot de guides. Le chiffre qui décide vraiment de ce dossier n'est aucun des précédents : à 930 € de T3 pour 6,6/10 d'écoles, Soissons affiche 141 € de loyer par point d'offre scolaire, le rapport le moins favorable des vingt premières communes du classement.",
+    sections: [
+      {
+        heading: "141 € par point d'écoles : le rapport le moins favorable du top 20",
+        body: "Le rapport se calcule comme le palmarès mensuel du site, loyer T3 divisé par la note de l'axe écoles, et il sert à départager des villes qu'un rang global rapproche à tort. Soissons est treizième du classement et dernière du top 20 sur ce rapport, à 141 €. Devant elle dans ce lot de guides : Auch à 97 €, Chaumont à 115 €, Vienne à 122 €, Villefranche-sur-Saône à 123 €, Compiègne à 127 €, Les Sables-d'Olonne à 136 €, Fontainebleau à 138 €, Sens à 139 €. La cause est identifiable et il vaut mieux la nommer que la contourner : le score de coût de la vie de 8,3/10 est un composite qui intègre bien autre chose que le loyer, et à Soissons il ne se retrouve pas dans le T3. Deux communes du même département marquent exactement le même 8,3/10 de coût de la vie avec un loyer nettement plus bas, Laon à 740 € et Saint-Quentin à 650 €. Autrement dit, la note de coût promet ici quelque chose que le marché locatif ne tient pas, et c'est très exactement ce qu'un parent solo paie tous les mois.",
+      },
+      {
+        heading: "Le triangle de l'Aisne : Soissons, Laon, Saint-Quentin",
+        body: "Les trois villes du département apparaissent dans ce classement, et la comparaison est inhabituellement nette parce que leurs axes se recouvrent presque. Soissons et Laon marquent la même note de coût de la vie (8,3), la même note d'écoles (6,6) et la même note de sécurité (6,5). Elles ne diffèrent que sur les transports, 6,4/10 à Laon contre 5,6/10 à Soissons, ce qui suffit à faire passer Laon neuvième et Soissons treizième. Mais le T3 laonnois est à 740 € contre 930 €, le seuil d'entrée à 2 250 € contre 2 800 €, et le mètre carré à 1 400 € contre 1 700 €. À dossier scolaire identique et à niveau de sécurité identique, Laon demande 550 € de revenu mensuel de moins. Saint-Quentin, troisième sommet du triangle, est le cas inverse : 650 € de T3, 7,7/10 de transports, mais 5,5/10 d'écoles et 4,7/10 de sécurité, ce qui la relègue 36e. Un parent solo qui cherche l'Aisne a donc trois offres distinctes, et Soissons est celle qui coûte le plus cher sans rien offrir de plus que Laon sur les axes qui comptent. La seule chose qu'elle offre en propre n'est pas dans le composite, et il faut la dire : la ville est un nœud routier et ferroviaire entre Reims, Laon et Compiègne, et le marché de l'emploi accessible sans déménager est plus large que celui de Laon.",
+      },
+      {
+        heading: "Pourquoi Soissons est quand même treizième",
+        body: "Le composite ne récompense pas la moyenne, il punit les profils déséquilibrés : un axe faible pèse un quart ou un cinquième de la note sans compensation possible. Soissons a une amplitude de 2,7 points entre son meilleur axe (8,3) et son plus faible (5,6), ce qui est modeste. Aucun de ses quatre axes ne descend sous 5,5, et c'est ce qui la place devant des villes objectivement mieux dotées sur un poste précis. Saint-Quentin, avec deux points de transports de plus, sort vingt-trois rangs derrière parce que sa sécurité tombe à 4,7. Amiens, capitale régionale, est 119e avec 4,5/10 de sécurité. Lille est 71e avec 3,9/10. Sur ce classement précis, l'absence de point noir vaut plus qu'un point fort. C'est aussi la limite de l'exercice, et elle vaut d'être dite : un rang treizième ne signifie pas que Soissons est la treizième ville de France pour un parent solo, il signifie qu'aucun de ses quatre postes ne s'effondre. Le rapport de 141 € par point d'écoles est là pour rappeler que le rang ne dit rien du prix payé.",
+      },
+      {
+        heading: "Transports 5,6/10 : la voiture est probable, pas certaine",
+        body: "C'est l'axe le plus faible des quatre et celui qui coûte à Soissons ses quatre rangs sur Laon. À 5,6/10, la desserte est celle d'une sous-préfecture de vingt-huit mille habitants : nettement au-dessus des 4,2/10 d'Auch ou des 4,9/10 de Chaumont, nettement en dessous des 7,7/10 de Compiègne, à cinquante kilomètres. Pour un parent solo, la traduction est budgétaire avant d'être pratique, et elle se tranche avant de comparer un loyer à un autre. Une voiture, c'est une assurance, un carburant, un entretien et un risque concentré le jour de la panne, quand aucun second conducteur ne peut reprendre le trajet scolaire. À 5,6/10, le scénario sans voiture est à tester sur l'adresse précise et à l'heure précise, pas à supposer. La vérification est toujours la même : faire l'enchaînement école puis travail au moment où il se fera, avec les correspondances réelles, un mercredi comme un jeudi. Un score porte sur la commune entière, jamais sur le trajet entre deux adresses.",
+      },
+      {
+        heading: "Une population qui ne bouge pas depuis onze ans",
+        body: "Soissons compte 28 551 habitants en 2011, 28 466 en 2016 et 28 667 en 2022 (source : data/city-population.json). Sur onze ans, la commune gagne 116 habitants, soit 0,4 % ; sur les six dernières années, 201, soit 0,7 %. C'est la trajectoire la plus stable des neuf villes de ce lot, et c'est une qualité peu spectaculaire dont un foyer à un adulte profite réellement. Une commune qui ne perd pas d'habitants ne ferme pas de classes, ne referme pas sa carte scolaire sur des secteurs de plus en plus larges et ne voit pas ses commerces de proximité disparaître un par un. Une commune qui n'en gagne pas ne sature pas ses crèches ni son périscolaire, et n'aligne pas les dossiers de candidature sur un même logement. Les deux effets sont invisibles dans les quatre axes du composite, et ce sont eux qui décident d'une semaine tenable ou non. La question à poser à la mairie avant de signer un bail n'est donc pas le score d'écoles mais l'état de la carte scolaire du secteur visé et le délai réel d'obtention d'une place en périscolaire. Rappel administratif utile : le statut de famille monoparentale ouvre un critère de priorité sur ces dossiers, à condition d'être déclaré explicitement.",
+      },
+      {
+        heading: "Le verdict : pour qui Soissons fonctionne",
+        body: "Soissons fonctionne à partir de 2 800 € net par mois, pour un parent solo dont le travail est à Soissons même ou dont le métier suppose de rayonner entre Reims, Laon et Compiègne, et qui a besoin d'une ville dont aucun poste ne s'effondre plutôt que d'une ville qui excelle quelque part. Elle offre 6,6/10 d'écoles, 6,5/10 de sécurité et une population qui n'a pas bougé de 0,7 % en onze ans. Les autres références locatives sont un T2 à 700 € et un T1 à 490 €. À l'achat, 1 700 € le mètre carré situent 65 mètres carrés autour de 110 500 € au prix moyen, ce qui laisse l'accession ouverte à un seul revenu. Elle fonctionne moins bien pour qui compare froidement les prix : Laon, à quarante kilomètres, offre les mêmes notes d'écoles, de sécurité et de coût de la vie pour 190 € de loyer mensuel de moins et un meilleur score de transports. C'est le point que ce guide ne peut pas contourner, et un lecteur qui a le choix de l'adresse doit regarder Laon avant Soissons. Elle ne fonctionne pas pour qui veut se passer de voiture sans vérifier : 5,6/10, c'est un scénario à tester. Le détail axe par axe est sur /villes/soissons/parent-solo.",
+      },
+    ],
+    relatedCities: ["soissons", "laon", "saint-quentin", "compiegne", "reims"],
+    relatedGuides: [
+      "10-choses-a-faire-a-soissons-2026",
+      "parent-solo-a-laon-2026",
+      "parent-solo-a-reims-2026",
+      "vivre-en-hauts-de-france-guide-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+    ],
+    tags: ["parent solo Soissons 2026", "monoparental Aisne", "T3 Soissons budget", "comparer Laon Saint-Quentin parent seul", "famille monoparentale Hauts-de-France"],
+  },
+  {
+    slug: "parent-solo-a-vienne-2026",
+    title: "Parent solo à Vienne en 2026 : première d'Auvergne-Rhône-Alpes, devant Lyon et Grenoble",
+    metaTitle: "Parent solo à Vienne (38) 2026 — seuil 2 850 €",
+    metaDesc:
+      "Fit 6,9/10, 14e sur 363 et 1re des 39 communes d'Auvergne-Rhône-Alpes. T3 à 940 €, seuil 2 850 €, transports et écoles à 7,7/10. Sécurité 5,7 en réserve.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-04",
+    updatedAt: "2026-09-04",
+    intro:
+      "Il s'agit ici de Vienne en Isère, sur le Rhône au sud de Lyon, et non du département de la Vienne dont la préfecture est Poitiers, ni de la capitale autrichienne. Cette Vienne-là sort à 6,9/10 au composite parent solo, quatorzième des 363 communes françaises retenues au classement et première des 39 communes d'Auvergne-Rhône-Alpes, devant Villeurbanne, Grenoble et Lyon. Le détail : transports 7,7/10, écoles 7,7/10, coût de la vie 6,7/10, sécurité 5,7/10 (source : data/cities-seed.ts). Le T3 moyen est à 940 € et le mètre carré à l'achat à 2 200 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 850 € par mois. La commune compte 31 555 habitants au recensement 2022 contre 28 800 en 2011 et 29 454 en 2016 (source : data/city-population.json), soit 9,6 % de plus en onze ans. Le chiffre qui résume ce dossier est ailleurs : à 940 € de T3 pour 7,7/10 d'écoles, Vienne demande 440 € de loyer mensuel de moins que Lyon pour un point d'écoles de moins.",
+    sections: [
+      {
+        heading: "Première d'Auvergne-Rhône-Alpes, et ce que ce rang recouvre",
+        body: "Sur les 39 communes de la région que le classement retient, Vienne arrive première à 6,9/10, devant Villefranche-sur-Saône à 6,9, Villeurbanne à 6,8, Vichy à 6,7, puis Grenoble et Lyon à 6,6. Un rang régional devant deux métropoles demande à être expliqué plutôt que célébré. Il ne vient pas des écoles : Grenoble marque 9,0/10, Lyon 8,9/10, contre 7,7 ici. Il ne vient pas des transports : Lyon et Villeurbanne sont à 9,0/10, Grenoble à 8,1, contre 7,7 ici. Il vient de la combinaison des deux autres axes. Le coût de la vie viennois est à 6,7/10 quand Lyon est à 4,2 et Grenoble à 5,5, et la sécurité à 5,7/10 quand Grenoble est à 4,3 et Lyon à 5,1. Le composite pondère le coût à 0,30 et la sécurité à 0,25, soit plus de la moitié de la note à eux deux, et c'est là que se joue l'écart. La conséquence pratique est celle du portefeuille : 2 850 € de revenu net minimum estimé à Vienne contre 3 950 € à Lyon et 3 100 € à Grenoble, pour un T3 à 940 € contre 1 380 € et 1 020 €.",
+      },
+      {
+        heading: "7,7/10 sur les transports et sur les écoles à la fois",
+        body: "C'est la particularité du dossier viennois, et elle est rare à ce niveau de loyer : les deux axes que sont la desserte et l'offre scolaire marquent exactement la même note, et cette note est bonne. Sur les 363 communes classées, cinq seulement des vingt premières dépassent 7,5 sur les deux à la fois. Pour un foyer à un adulte, cette combinaison a une valeur concrète que le rang ne dit pas : c'est elle qui rend crédible un scénario sans deuxième conducteur. Vienne a sa gare sur l'axe ferroviaire de la vallée du Rhône, entre Lyon et Valence, et un réseau de bus urbain qui dessert la commune. Le mot juste reste crédible, pas acquis. Un score de 7,7/10 porte sur la commune entière, il ne dit rien du trajet entre une adresse précise et une école précise, et l'enchaînement école puis travail se teste au moment où il se fera, avec les correspondances réelles. Sur l'offre scolaire, la portée de la mesure est la même que partout sur ce site : l'axe décrit la densité d'établissements et l'éventail des filières de la commune, pas la réussite des élèves ni la qualité du travail des enseignants. À 940 € de T3 pour 7,7/10, le rapport ressort à 122 € de loyer par point d'offre scolaire, ce qui situe Vienne dans le premier tiers des 363.",
+      },
+      {
+        heading: "Sécurité 5,7/10 : la réserve du dossier",
+        body: "C'est l'axe le plus faible des quatre et le plus bas des neuf villes de ce lot de guides. À 5,7/10, Vienne se situe au-dessus de Lyon (5,1), de Grenoble (4,3), de Saint-Étienne (4,3) et de Valence (5,2), donc au-dessus de toutes les villes comparables de son couloir, mais très en dessous des 8,0 et plus qu'affichent La Roche-sur-Yon, Challans ou Les Sables-d'Olonne. Deux choses méritent d'être posées ensemble. La première est que ce site ne publie aucun verdict de sécurité par quartier, et pas par prudence rédactionnelle : data/neighborhoods.ts ne documente aucun quartier viennois, comme il n'en documente aucun pour les huit autres villes de ce lot. Écrire une réputation de secteur sans données reviendrait à inventer un jugement sur des lieux réels et sur les gens qui y habitent. La seconde est que 5,7/10 est une note moyenne, pas un signal d'alerte, et qu'elle se lit à l'échelle d'une commune de trente et un mille habitants dont l'urbanisme est très étiré entre le centre historique en bord de Rhône et les plateaux. Le geste utile n'est pas de chercher un classement de quartiers, c'est d'aller voir l'adresse à la sortie des classes et le soir, deux moments qu'aucun score ne remplace.",
+      },
+      {
+        heading: "Une croissance de 9,6 % en onze ans, et ce qu'elle tend",
+        body: "Vienne compte 28 800 habitants en 2011, 29 454 en 2016 et 31 555 en 2022 (source : data/city-population.json). Sur onze ans, la commune gagne 2 755 habitants, soit 9,6 % ; sur les six dernières années, 2 101, soit 7,1 %. La croissance s'accélère donc nettement dans la période récente. Pour un parent solo, une croissance de ce rythme joue dans les deux sens et il faut regarder les deux. Du côté défavorable, elle tend le marché locatif, aligne les candidatures sur un même logement et met un dossier à un seul bulletin de salaire en concurrence avec des dossiers à deux revenus ; elle sature aussi la crèche, le périscolaire et la restauration scolaire, c'est-à-dire précisément les dispositifs qui remplacent le second adulte. Du côté favorable, une commune qui gagne des habitants ne ferme pas de classes, ouvre des services et voit son marché de l'emploi local s'épaissir. Aucun de ces effets n'apparaît dans les quatre axes du composite. La question concrète à poser à la mairie avant de signer un bail n'est pas le score d'écoles mais le délai réel d'obtention d'une place en périscolaire dans le secteur visé. Rappel administratif utile : le statut de famille monoparentale ouvre un critère de priorité sur ces dossiers, à condition d'être déclaré explicitement. À noter que le seed du site porte 30 000 habitants pour Vienne quand le recensement en compte 31 555 ; les deux nombres coexistent volontairement, le premier sert aux seuils et aux tris, le second est la mesure.",
+      },
+      {
+        heading: "Vienne, Lyon, Villefranche : trois façons d'habiter le couloir rhodanien",
+        body: "L'arbitrage le plus fréquent pour un parent solo du Rhône se pose entre trois adresses de ce classement, et les chiffres le tranchent mieux qu'une préférence. Lyon, 34e à 6,6/10, offre 8,9/10 d'écoles et 9,0/10 de transports pour un T3 à 1 380 € et un seuil de 3 950 €. Villefranche-sur-Saône, 15e à 6,9/10 au nord de l'agglomération, offre 8,7/10 d'écoles pour un T3 à 1 070 € et un seuil de 3 250 €. Vienne, au sud, offre 7,7/10 d'écoles pour un T3 à 940 € et un seuil de 2 850 €. Autrement dit, la différence entre Vienne et Lyon vaut 1 100 € de revenu mensuel minimum contre 1,2 point d'écoles et 1,3 point de transports ; celle entre Vienne et Villefranche vaut 400 € contre un point d'écoles, Vienne reprenant sept dixièmes sur les transports. Villeurbanne, 21e, demande 3 500 € pour 7,7/10 d'écoles, soit la même note que Vienne pour 650 € de revenu mensuel de plus, mais avec 9,0/10 de transports. Aucune de ces quatre options n'est meilleure dans l'absolu, et le départage tient à une seule question : peut-on se passer d'une voiture, oui ou non.",
+      },
+      {
+        heading: "Le verdict : pour qui Vienne fonctionne",
+        body: "Vienne fonctionne à partir de 2 850 € net par mois, pour un parent solo qui travaille dans le couloir rhodanien entre Lyon et Valence et qui veut un dossier scolaire et une desserte tous deux corrects sans le loyer lyonnais. C'est la première commune d'Auvergne-Rhône-Alpes de ce classement, et son argument tient dans une combinaison, pas dans un pic : 7,7/10 sur les transports et 7,7/10 sur les écoles pour 940 € de T3. Les autres références locatives sont un T2 à 700 € et un T1 à 500 €. À l'achat, 2 200 € le mètre carré situent 65 mètres carrés autour de 143 000 € au prix moyen, ce qui laisse l'accession ouverte à un seul revenu, à un niveau que ni Lyon ni Villefranche n'atteignent. Elle fonctionne moins bien pour qui place la sécurité en tête : 5,7/10 est la note la plus basse des neuf villes de ce lot, et c'est un axe que le composite pondère à un quart. Elle ne fonctionne pas pour qui vise une offre scolaire de niveau métropolitain : Grenoble et Lyon sont à 9,0 et 8,9, et un point d'écart se voit dans l'éventail des filières au lycée. Le point à surveiller dans la durée est le périscolaire, que la croissance récente retend et qu'aucun des quatre axes ne mesure. Le détail axe par axe est sur /villes/vienne/parent-solo.",
+      },
+    ],
+    relatedCities: ["vienne", "lyon", "villefranche-sur-saone", "valence", "villeurbanne"],
+    relatedGuides: [
+      "10-choses-a-faire-a-vienne-2026",
+      "parent-solo-a-lyon-2026",
+      "parent-solo-a-villeurbanne-2026",
+      "parent-solo-a-valence-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+    ],
+    tags: ["parent solo Vienne 2026", "monoparental Isère", "T3 Vienne budget", "alternative Lyon parent seul", "famille monoparentale Auvergne-Rhône-Alpes"],
+  },
+  {
+    slug: "parent-solo-a-villefranche-sur-saone-2026",
+    title: "Parent solo à Villefranche-sur-Saône en 2026 : 8,7/10 d'écoles pour 700 € de revenu de moins qu'à Lyon",
+    metaTitle: "Parent solo à Villefranche-sur-Saône 2026 — T3 1 070 €",
+    metaDesc:
+      "Fit 6,9/10, 15e sur 363. Écoles 8,7/10, le niveau de Strasbourg et d'Annecy, pour un seuil de 3 250 € contre 3 950 € à Lyon. Mais la population recule.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-04",
+    updatedAt: "2026-09-04",
+    intro:
+      "Villefranche-sur-Saône sort à 6,9/10 au composite parent solo, quinzième des 363 communes françaises retenues au classement et deuxième des 39 communes d'Auvergne-Rhône-Alpes, derrière Vienne. Le détail : écoles 8,7/10, transports 7,0/10, sécurité 6,3/10, coût de la vie 5,9/10 (source : data/cities-seed.ts). Le T3 moyen est à 1 070 € et le mètre carré à l'achat à 2 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 250 € par mois. La commune compte 36 224 habitants au recensement 2022 contre 35 640 en 2011 et 37 266 en 2016 (source : data/city-population.json). Le chiffre qui porte ce dossier est la note d'écoles : 8,7/10, c'est le niveau de Strasbourg, d'Annecy et de Fontainebleau, et dix communes seulement des 363 l'atteignent. Le chiffre qui l'ébrèche est dans la ligne précédente : la population a reculé de 2,8 % depuis 2016.",
+    sections: [
+      {
+        heading: "8,7/10 d'écoles : où ce chiffre place Villefranche",
+        body: "Sur les 363 communes classées, dix marquent exactement 8,7/10 sur l'axe écoles : Strasbourg, Anglet, Fontainebleau, Villefranche-sur-Saône, Annecy, Courbevoie, Vincennes, Boulogne-Billancourt, Bourg-la-Reine et Saint-Cloud. Sept de ces dix sont en Île-de-France ou sur un littoral cher. Villefranche affiche le T3 le plus bas des dix, à 1 070 €, devant Strasbourg à 1 080 €. Le rapport le dit sans ambiguïté : 1 070 € pour 8,7 points font 123 € de loyer par point d'offre scolaire, le meilleur des dix, quand Annecy est à 167 €, Vincennes à 207 € et Boulogne-Billancourt à 230 €. Dans son propre couloir, la comparaison est aussi nette. Lyon marque 8,9/10 d'écoles, deux dixièmes de plus, pour un T3 à 1 380 € et un seuil d'entrée de 3 950 € contre 3 250 € ici : sept cents euros de revenu net mensuel de plus pour deux dixièmes de point. Villeurbanne marque 7,7/10 pour un T3 à 1 150 € et un seuil de 3 500 €, soit un point d'écoles de moins pour 250 € de revenu mensuel de plus. Sur ce seul critère, Villefranche est le meilleur dossier de l'agglomération lyonnaise élargie. La portée de la mesure ne change pas : l'axe écoles décrit l'offre communale, la densité d'établissements et l'éventail des filières, pas la réussite des élèves ni la qualité du travail des enseignants.",
+      },
+      {
+        heading: "3 250 € de seuil et 162 500 € pour 65 mètres carrés",
+        body: "Le revenu net minimum estimé par lib/parent-solo.ts est de 3 250 € par mois, sur la règle des 33 % appliquée au T3 moyen de 1 070 €. Le score de coût de la vie caladois étant à 5,9, donc au-dessus de 5, le moteur applique la règle stricte et non la version relâchée à 35 % réservée aux marchés très tendus : le seuil affiché est le plus prudent des deux calculs possibles. Les autres références locatives sont un T2 à 800 € et un T1 à 560 €. À l'achat, 2 500 € le mètre carré situent un logement de 65 mètres carrés autour de 162 500 € au prix moyen, contre 325 000 € à Lyon pour la même surface. C'est un écart de 162 500 €, soit le prix complet du logement caladois, et c'est le vrai argument patrimonial du dossier. Pour un foyer à un adulte, l'enjeu de l'accession est d'ailleurs moins l'économie mensuelle que la stabilité : un propriétaire ne subit pas de congé pour vente et ne refait pas de dossier de location avec un seul bulletin de salaire tous les trois ans. Deux réserves. Ce mètre carré est un repère éditorial tous biens confondus, pas une médiane de transactions enregistrées. Et un prix d'entrée bas ne dit rien de la liquidité du bien à la revente, question qui se pose ici plus qu'ailleurs pour la raison exposée plus bas.",
+      },
+      {
+        heading: "La population a reculé de 2,8 % depuis 2016",
+        body: "Villefranche-sur-Saône compte 35 640 habitants en 2011, 37 266 en 2016 et 36 224 en 2022 (source : data/city-population.json). Sur onze ans, la commune gagne 584 habitants, soit 1,6 % ; mais sur les six dernières années, elle en perd 1 042, soit 2,8 %. La courbe monte puis redescend, et c'est exactement l'inverse de la trajectoire dolaise, qui creuse puis remonte. La distinction n'est pas cosmétique pour un foyer à un adulte, parce que les deux phases n'ont pas les mêmes effets et que c'est la phase récente qui commande. Un marché qui se détend élargit le choix locatif et rend moins défavorable le rapport de force face à des dossiers à deux revenus, ce qui compte réellement quand on candidate avec un seul bulletin de salaire ; c'est aussi ce qui contient le mètre carré à 2 500 € à trente kilomètres de Lyon. Mais un recul qui dure pèse sur la carte scolaire, sur les effectifs de classe et à terme sur les services, et la note d'écoles de 8,7/10 décrit l'offre d'aujourd'hui, pas celle de 2032. Aucun de ces deux effets n'apparaît dans les quatre axes du composite. La question à poser à la mairie avant de signer un bail n'est donc pas le score d'écoles mais l'état de la carte scolaire du secteur visé, et si des fermetures de classes sont envisagées. Le statut de famille monoparentale ouvre un critère de priorité sur les dossiers de garde, à condition d'être déclaré explicitement.",
+      },
+      {
+        heading: "Coût de la vie 5,9 et sécurité 6,3 : les deux axes qui coûtent des rangs",
+        body: "Villefranche est quinzième et non cinquième, et la raison n'est pas dans les écoles. Le composite pondère le coût de la vie à 0,30, soit le poids le plus lourd des quatre, et la note caladoise de 5,9/10 est la deuxième plus basse des neuf villes de ce lot de guides, derrière les 4,6/10 de Fontainebleau. La sécurité, pondérée à 0,25, est à 6,3/10, ce qui est correct et sans plus : Vienne est à 5,7, mais La Roche-sur-Yon est à 8,0 et Les Sables-d'Olonne aussi. C'est le prix de la position, et il vaut mieux le nommer ainsi. Une commune de trente-six mille habitants à trente kilomètres d'une métropole hérite d'une part de son marché immobilier sans hériter de son réseau de transports, ici à 7,0/10 contre 9,0/10 à Lyon et à Villeurbanne. Le site ne publie aucun verdict de sécurité par secteur, et pas par prudence rédactionnelle : data/neighborhoods.ts ne documente aucun quartier caladois, comme il n'en documente aucun pour les huit autres villes de ce lot. Écrire une réputation de quartier sans données reviendrait à porter un jugement inventé sur des lieux réels et sur leurs habitants. Le geste utile reste d'aller voir l'adresse à la sortie des classes et le soir.",
+      },
+      {
+        heading: "Où Villefranche se situe dans l'agglomération lyonnaise élargie",
+        body: "Le classement retient 39 communes d'Auvergne-Rhône-Alpes et Villefranche en est deuxième, à un cheveu de Vienne, les deux à 6,9/10. Le départage entre elles est instructif parce qu'elles encadrent Lyon, l'une au nord l'autre au sud, avec des profils opposés. Vienne offre 7,7/10 d'écoles et 7,7/10 de transports pour un T3 à 940 € et un seuil de 2 850 €. Villefranche offre un point d'écoles de plus (8,7) et sept dixièmes de transports en moins (7,0) pour 130 € de loyer mensuel supplémentaire et 400 € de revenu minimum en plus. Un parent solo qui vise le meilleur lycée possible regarde Villefranche ; un parent solo qui vise le scénario sans voiture regarde Vienne. Plus loin dans le classement régional, Vichy est 26e à 6,7 avec un T3 à 640 € mais 4,2/10 de transports, et Bourgoin-Jallieu 65e à 6,3 avec un T3 à 1 060 € pour 6,6/10 d'écoles, soit presque le loyer caladois pour deux points d'écoles de moins. Sur ce classement, l'offre scolaire de Villefranche est ce qui n'a pas d'équivalent à ce prix dans la région.",
+      },
+      {
+        heading: "Le verdict : pour qui Villefranche-sur-Saône fonctionne",
+        body: "Villefranche fonctionne à partir de 3 250 € net par mois, pour un parent solo qui place l'offre scolaire en premier et qui travaille dans la commune ou dans le nord de l'agglomération lyonnaise. Elle offre 8,7/10 d'écoles, le niveau de Strasbourg et d'Annecy, pour le loyer le plus bas des dix communes françaises qui atteignent cette note, et 123 € de loyer par point d'offre scolaire. À l'achat, 162 500 € pour 65 mètres carrés au prix moyen laissent l'accession ouverte à un seul revenu, à la moitié du prix lyonnais. Elle fonctionne moins bien pour un budget serré : 5,9/10 de coût de la vie, c'est l'axe le plus lourd du composite et le deuxième plus faible de ce lot de guides, et le seuil de 3 250 € est 400 € au-dessus de celui de Vienne. Elle ne fonctionne pas pour qui compte se passer entièrement de voiture : 7,0/10 de transports, c'est correct pour une ville moyenne, ce n'est pas le réseau d'une métropole, et le scénario est à tester sur l'adresse et l'horaire réels. Le point à surveiller dans la durée est le recul démographique engagé depuis 2016, qui ne se voit pas encore dans la note d'écoles mais qui commande la carte scolaire des prochaines années. Le détail axe par axe est sur /villes/villefranche-sur-saone/parent-solo.",
+      },
+    ],
+    relatedCities: ["villefranche-sur-saone", "lyon", "villeurbanne", "vienne", "bourgoin-jallieu"],
+    relatedGuides: [
+      "parent-solo-a-lyon-2026",
+      "parent-solo-a-villeurbanne-2026",
+      "parent-solo-a-vienne-2026",
+      "vivre-en-auvergne-rhone-alpes-guide-2025",
+      "meilleures-villes-familles-monoparentales-france-2026",
+    ],
+    tags: ["parent solo Villefranche-sur-Saône 2026", "monoparental Rhône", "T3 Villefranche budget", "écoles fortes petit loyer parent seul", "famille monoparentale Auvergne-Rhône-Alpes"],
+  },
+  {
+    slug: "parent-solo-a-auch-2026",
+    title: "Parent solo à Auch en 2026 : 97 € de loyer par point d'écoles, le meilleur rapport de la série",
+    metaTitle: "Parent solo à Auch 2026 — T3 640 €, seuil 1 950 €",
+    metaDesc:
+      "Fit 6,8/10, 16e sur 363. T3 à 640 €, seuil 1 950 € et 97 € de loyer par point d'écoles : le meilleur rapport de la série. Transports 4,2/10 en contrepartie.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-04",
+    updatedAt: "2026-09-04",
+    intro:
+      "Auch sort à 6,8/10 au composite parent solo, seizième des 363 communes françaises retenues au classement et deuxième des 22 communes d'Occitanie, derrière Albi. Le détail : coût de la vie 8,0/10, sécurité 7,5/10, écoles 6,6/10, transports 4,2/10 (source : data/cities-seed.ts). Le T3 moyen est à 640 € et le mètre carré à l'achat à 1 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 1 950 € par mois, le plus bas des neuf villes de ce lot de guides. La commune compte 22 825 habitants au recensement 2022 contre 21 871 en 2011 et 21 618 en 2016 (source : data/city-population.json). Le chiffre qui décide de ce dossier est un rapport : à 640 € de T3 pour 6,6/10 d'écoles, Auch affiche 97 € de loyer par point d'offre scolaire, le meilleur des soixante-quinze villes couvertes par cette série de guides. Le chiffre qui le tempère est la desserte, 4,2/10 : vingt communes seulement des 363 font moins bien.",
+    sections: [
+      {
+        heading: "97 € par point d'écoles, et par quel mécanisme",
+        body: "Le rapport se calcule comme le palmarès mensuel du site : loyer T3 divisé par la note de l'axe écoles. À Auch, 640 € pour 6,6/10 font 97 € par point, devant Dole à 101 €, Saint-Dié-des-Vosges à 102 €, La Roche-sur-Yon, Lannion et Cholet à 104 €, Albi à 109 €. C'est le meilleur des soixante-quinze villes de cette série, et il prend la place que le guide dolois occupait jusqu'ici. Il faut immédiatement dire comment il est obtenu, parce que deux mécanismes très différents produisent le même nombre, et ce ne sont pas les mêmes ici et à Dole. Dole obtient ses 101 € des deux côtés à la fois, avec un loyer bas et une note d'écoles de 7,7/10 supérieure à celle des deux métropoles de sa région. Auch obtient ses 97 € par le seul loyer : sa note d'écoles est de 6,6/10, c'est-à-dire la moyenne du classement, et c'est un T3 à 640 € qui fait le travail. Le rapport dit donc une chose exacte, le prix payé par point d'offre scolaire, et une seule. À l'échelle des 363 communes, deux villes font encore mieux et n'ont pas de guide dans cette série, Alençon à 94 € et, à égalité stricte avec Auch à 97 €, Vichy et Cambrai. La portée de la mesure reste la même : l'axe écoles décrit l'offre communale, pas la réussite des élèves ni la qualité du travail des enseignants.",
+      },
+      {
+        heading: "1 950 € de seuil d'entrée et 97 500 € pour 65 mètres carrés",
+        body: "Le revenu net minimum estimé par lib/parent-solo.ts est de 1 950 € par mois, sur la règle des 33 % appliquée au T3 moyen de 640 €. Le score de coût de la vie auscitain étant à 8,0, très au-dessus de 5, le moteur applique la règle stricte et non la version relâchée à 35 % réservée aux marchés tendus : le seuil affiché est le plus prudent des deux calculs possibles. C'est le seuil le plus bas des neuf villes de ce lot, et il situe Auch parmi la dizaine de communes les plus accessibles des 363 : Aurillac ouvre à 1 700 €, Lens, Millau et Cahors à 1 800 €, Chaumont et Alençon à 1 900 €, puis viennent Auch, Vichy, Saint-Quentin, Châtellerault, Cambrai et Montluçon à 1 950 €. Les autres références locatives sont un T2 à 480 € et un T1 à 350 €. À l'achat, 1 500 € le mètre carré situent un logement de 65 mètres carrés autour de 97 500 € au prix moyen. Ce niveau ouvre l'accession à un seul revenu, ce qui n'est vrai que d'une minorité des villes de cette série. Deux réserves. Ce mètre carré est un repère éditorial tous biens confondus, pas une médiane de transactions enregistrées. Et un prix bas ne dit rien de la liquidité du bien à la revente.",
+      },
+      {
+        heading: "Transports 4,2/10 : ce que ce chiffre coûte vraiment",
+        body: "C'est l'axe le plus faible des quatre, de très loin, et c'est la contrepartie du reste du dossier. Sur les 363 communes classées, vingt seulement sont moins bien desservies, et quatorze d'entre elles sont ultramarines ou corses ; les six autres sont Millau, Rodez, Cahors, Bergerac, Aurillac et Concarneau. Neuf communes sont à égalité stricte avec Auch à 4,2, dont Vichy et Alençon. Pour un parent solo, la traduction n'est pas un désagrément, c'est une ligne budgétaire et un risque. Une voiture, c'est une assurance, un carburant, un entretien, un contrôle technique, et surtout un risque concentré le jour de la panne, quand il n'existe aucun second conducteur pour reprendre le trajet scolaire. À 4,2/10, il faut considérer la voiture comme acquise et l'intégrer au budget avant de comparer le loyer auscitain à un autre. Le calcul honnête consiste à ajouter le coût mensuel complet du véhicule au T3 de 640 € avant de le comparer, par exemple, aux 940 € de Vienne, où la desserte est à 7,7/10. Selon le budget automobile retenu, l'écart de 300 € se réduit fortement, et il peut s'inverser. C'est le genre d'arbitrage qu'un classement ne fait pas à la place du lecteur, et que ce guide ne peut pas trancher sans connaître le trajet réel.",
+      },
+      {
+        heading: "Une croissance qui repart après un creux",
+        body: "Auch compte 21 871 habitants en 2011, 21 618 en 2016 et 22 825 en 2022 (source : data/city-population.json). Sur onze ans, la commune gagne 954 habitants, soit 4,4 % ; mais sur les six dernières années seulement, elle en gagne 1 207, soit 5,6 %. La courbe creuse puis remonte franchement, et la reprise est plus forte que le solde de onze ans, ce qui est le signe d'un renversement récent plutôt que d'une tendance longue. C'est une trajectoire peu banale pour une préfecture rurale du sud-ouest, et elle a deux effets contraires pour un foyer à un adulte. La phase de creux a détendu le marché locatif et c'est en partie ce qui explique un T3 à 640 € ; elle rend moins défavorable le rapport de force face à des dossiers à deux revenus, ce qui compte réellement quand on candidate avec un seul bulletin de salaire. La phase de reprise, en revanche, tend progressivement les dispositifs qui remplacent le second adulte : crèche, périscolaire, restauration scolaire, dérogations de carte scolaire. Aucun de ces deux effets n'apparaît dans les quatre axes du composite, et le second décide d'une semaine tenable ou non. La question à poser à la mairie avant de signer un bail n'est pas le score d'écoles mais le délai réel d'obtention d'une place en périscolaire dans le secteur visé. Le statut de famille monoparentale ouvre un critère de priorité sur ces dossiers, à condition d'être déclaré explicitement.",
+      },
+      {
+        heading: "Où Auch se situe en Occitanie",
+        body: "Auch est deuxième des 22 communes d'Occitanie que le classement retient, derrière Albi à 7,0/10 et devant Castres à 6,5, Toulouse à 6,4, Montauban et Tarbes à 6,3. La comparaison utile est celle d'Albi, qui a son propre guide dans cette série. Albi demande 840 € de T3 et 2 550 € de revenu minimum estimé pour 7,7/10 d'écoles et 5,5/10 de transports : six cents euros de revenu mensuel de plus qu'à Auch, pour 1,1 point d'écoles et 1,3 point de transports de plus. Castres offre 6,6/10 d'écoles, exactement la note auscitaine, pour un T3 à 700 € et un seuil de 2 100 €. Castres est en outre mieux desservie, à 5,5/10 de transports contre 4,2 ici, donc un peu plus chère et plus accessible sans voiture. Toulouse, la métropole, marque 9,0/10 d'écoles et 7,5/10 de transports mais 4,3/10 de sécurité, pour un T3 à 1 150 € et un seuil de 3 500 € : c'est un autre projet, pas une alternative au même. Tarbes, à l'ouest, est 78e avec 5,8/10 d'écoles pour un T3 à 770 €. Sur le seul rapport entre le loyer et l'offre scolaire, aucune commune d'Occitanie ne fait mieux qu'Auch.",
+      },
+      {
+        heading: "Le verdict : pour qui Auch fonctionne",
+        body: "Auch fonctionne à partir de 1 950 € net par mois, pour un parent solo qui a une voiture, un emploi sur place ou dans le Gers, et pour qui le poste logement doit rester le plus bas possible. C'est la ville de cette série où le rapport entre le loyer et l'offre scolaire est le plus favorable, à 97 € par point, et où le seuil d'entrée est le plus bas des neuf villes de ce lot. Elle offre en prime 7,5/10 de sécurité, ce qui la place dans le haut du classement sur cet axe, et 8,0/10 de coût de la vie. À l'achat, 97 500 € pour 65 mètres carrés au prix moyen laissent l'accession réellement ouverte à un seul revenu. Elle fonctionne moins bien pour qui vise l'offre scolaire : 6,6/10, c'est la moyenne du classement, et le bon rapport vient du loyer, pas du dossier scolaire. Elle ne fonctionne pas pour qui compte se passer de voiture : à 4,2/10 de transports, ce n'est pas un scénario à tester, c'est un scénario à écarter, et le budget automobile doit être ajouté au loyer avant toute comparaison. Elle ne fonctionne pas non plus pour qui cherche un marché de l'emploi large dans un métier spécialisé : vingt-deux mille habitants, c'est un bassin étroit, et un rang national ne compense pas une absence d'employeur. Le détail axe par axe est sur /villes/auch/parent-solo.",
+      },
+    ],
+    relatedCities: ["auch", "albi", "castres", "toulouse", "tarbes"],
+    relatedGuides: [
+      "10-choses-a-faire-a-auch-2026",
+      "parent-solo-a-albi-2026",
+      "parent-solo-a-toulouse-2026",
+      "vivre-en-gascogne-gers-guide-2025",
+      "meilleures-villes-familles-monoparentales-france-2026",
+    ],
+    tags: ["parent solo Auch 2026", "monoparental Gers", "T3 Auch budget", "loyer écoles rapport parent seul", "famille monoparentale Occitanie"],
+  },
+  {
+    slug: "parent-solo-a-chaumont-2026",
+    title: "Parent solo à Chaumont en 2026 : le mètre carré le moins cher des 363 communes classées",
+    metaTitle: "Parent solo à Chaumont 2026 — m² 950 €, seuil 1 900 €",
+    metaDesc:
+      "Fit 6,8/10, 17e sur 363. Le mètre carré le moins cher du classement à 950 €, soit 61 750 € les 65 m². Écoles 5,5/10 et population en recul : les deux réserves.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-04",
+    updatedAt: "2026-09-04",
+    intro:
+      "Chaumont sort à 6,8/10 au composite parent solo, dix-septième des 363 communes françaises retenues au classement et troisième des 24 communes du Grand Est, derrière Saint-Dié-des-Vosges et Strasbourg. Le détail : coût de la vie 8,5/10, sécurité 7,5/10, écoles 5,5/10, transports 4,9/10 (source : data/cities-seed.ts). Le T3 moyen est à 630 € et le mètre carré à l'achat à 950 € (source : data/housing.ts), pour un revenu net minimum estimé à 1 900 € par mois. La commune compte 21 418 habitants au recensement 2022 contre 22 705 en 2011 et 22 367 en 2016 (source : data/city-population.json), soit 5,7 % de moins en onze ans. Le chiffre qui porte ce dossier est le mètre carré : 950 €, le moins cher des 363 communes classées, ce qui situe 65 mètres carrés autour de 61 750 €. Les deux chiffres qui le tempèrent sont dans les lignes précédentes : une note d'écoles à 5,5/10 et un recul démographique qui s'accélère.",
+    sections: [
+      {
+        heading: "950 € le mètre carré : le prix le plus bas du classement",
+        body: "Sur les 363 communes que ce classement retient, aucune n'affiche un mètre carré plus bas que Chaumont. Derrière viennent Saint-Dizier à 1 000 €, Saint-Dié-des-Vosges, Montluçon, Vierzon et Maubeuge à 1 100 €, puis Lens, Aurillac et Forbach à 1 200 €. Concrètement, 65 mètres carrés se situent autour de 61 750 € au prix moyen, quand la même surface vaut 143 000 € à Vienne, 227 500 € aux Sables-d'Olonne et 247 000 € à Fontainebleau. Pour un foyer à un adulte, l'accession à ce niveau ne relève plus du projet patrimonial mais du calcul de mensualité, et l'enjeu principal n'est pas l'économie : c'est la stabilité. Un propriétaire ne subit pas de congé pour vente et ne refait pas un dossier de location avec un seul bulletin de salaire tous les trois ans, ce qui est la principale fragilité d'un parent solo locataire. Deux réserves à poser tout de suite. Ce mètre carré est un repère éditorial tous biens confondus, pas une médiane de transactions enregistrées. Et surtout, un prix d'entrée bas ne dit rien de la revente : dans une commune qui perd des habitants depuis onze ans, la liquidité du bien est une question ouverte, et l'acheter n'est pas un pari neutre.",
+      },
+      {
+        heading: "Écoles 5,5/10 : d'où vient vraiment le bon rapport",
+        body: "Le rapport entre le loyer et l'offre scolaire se calcule comme le palmarès mensuel du site : loyer T3 divisé par la note d'écoles. À Chaumont, 630 € pour 5,5/10 font 115 € par point, ce qui est bon dans l'absolu et deuxième des neuf villes de ce lot de guides, derrière les 97 € d'Auch. Mais il faut dire par quel mécanisme, parce que deux causes très différentes produisent ce nombre. Un bon rapport peut venir d'un loyer bas sur une offre scolaire solide, et c'est le cas de Dole, qui obtient 101 € avec une note d'écoles de 7,7/10. Il peut venir d'un loyer effondré sur une offre scolaire faible, et c'est le cas ici : 5,5/10, c'est la note la plus basse des neuf villes de ce lot, en dessous de la médiane du classement. Elle place Chaumont au niveau de Saint-Dizier, de Charleville-Mézières et de Beauvais. Autrement dit, le rapport de 115 € ne se lit pas comme un bon dossier scolaire acheté pas cher, mais comme un loyer très bas sur un dossier scolaire modeste. La portée de la mesure ne change pas : l'axe écoles décrit l'offre communale, la densité d'établissements et l'éventail des filières, pas la réussite des élèves ni la qualité du travail des enseignants.",
+      },
+      {
+        heading: "8,5/10 de coût de la vie, 7,5/10 de sécurité : les deux points forts",
+        body: "Chaumont marque 8,5/10 sur l'axe coût de la vie, la meilleure note du classement, à égalité avec Saint-Dié-des-Vosges, Charleville-Mézières, Saint-Dizier et Montluçon. Le composite pondère cet axe à 0,30, le poids le plus lourd des quatre, et c'est ce qui porte l'essentiel du rang dix-septième. Le seuil d'entrée de 1 900 € en découle : sur les 363 communes, seules Aurillac à 1 700 €, Lens, Millau et Cahors à 1 800 € ouvrent plus bas. Les autres références locatives sont un T2 à 470 € et un T1 à 330 €. La sécurité à 7,5/10 est le second point fort, et il n'est pas anodin : le composite la pondère à 0,25, et une note de 7,5 place Chaumont dans le haut du classement, au niveau d'Auch et de Saint-Dié-des-Vosges, loin devant les grandes villes du quart nord-est. Le site ne publie aucun verdict de sécurité par secteur, et pas par prudence rédactionnelle : data/neighborhoods.ts ne documente aucun quartier chaumontais, comme il n'en documente aucun pour les huit autres villes de ce lot. Écrire une réputation de quartier sans données reviendrait à porter un jugement inventé sur des lieux réels et sur leurs habitants.",
+      },
+      {
+        heading: "Une population qui recule, et qui recule plus vite qu'avant",
+        body: "Chaumont compte 22 705 habitants en 2011, 22 367 en 2016 et 21 418 en 2022 (source : data/city-population.json). Sur onze ans, la commune perd 1 287 habitants, soit 5,7 % ; sur les six dernières années, 949, soit 4,2 %. Le rythme est donc d'environ 0,3 % par an entre 2011 et 2016, puis de 0,7 % par an entre 2016 et 2022 : le recul ne se stabilise pas, il s'accélère. Le département tout entier raconte la même chose. Saint-Dizier, l'autre ville haut-marnaise du classement, affiche le deuxième mètre carré le moins cher des 363 à 1 000 € et perd 8,1 % de sa population sur la même période. Autrement dit, la Haute-Marne tient les deux prix d'achat les plus bas du classement et les deux communes se vident, et ce n'est pas une coïncidence : c'est le même fait vu de deux côtés. Pour un parent solo, le recul a un effet favorable et un effet défavorable, et ils ne se compensent pas. Il détend le marché locatif, ce qui compte réellement quand on candidate avec un seul bulletin de salaire face à des dossiers à deux revenus. Mais il resserre la carte scolaire, allonge les distances entre le domicile et l'école de secteur, et fragilise les services de proximité. Aucun des deux n'apparaît dans les quatre axes du composite. La question à poser à la mairie avant de signer n'est donc pas le score d'écoles mais l'état de la carte scolaire du secteur visé et si des fermetures de classes sont envisagées.",
+      },
+      {
+        heading: "Où Chaumont se situe dans le Grand Est",
+        body: "Chaumont est troisième des 24 communes du Grand Est que le classement retient, derrière Saint-Dié-des-Vosges à 7,1/10 et Strasbourg à 7,0/10, et devant Charleville-Mézières et Saint-Dizier à 6,5. Saint-Dié-des-Vosges est la comparaison la plus directe et elle a son guide dans cette série : même note de coût de la vie (8,5), même note de sécurité (7,5), mais 6,6/10 d'écoles contre 5,5 ici, pour un T3 à 670 € contre 630 € et un mètre carré à 1 100 € contre 950 €. Quarante euros de loyer mensuel de plus achètent donc 1,1 point d'offre scolaire, et c'est un arbitrage qui penche nettement. Strasbourg, à l'autre bout du profil, demande 3 250 € de revenu minimum estimé pour un T3 à 1 080 €, avec 8,7/10 d'écoles et 9,0/10 de transports : 1 350 € de revenu mensuel de plus pour un dossier scolaire et une desserte sans commune mesure. Saint-Dizier, dans le même département, offre exactement la même note d'écoles que Chaumont pour 50 € de loyer de plus. Sur le seul prix d'achat, aucune commune du classement ne fait mieux que Chaumont.",
+      },
+      {
+        heading: "Le verdict : pour qui Chaumont fonctionne",
+        body: "Chaumont fonctionne à partir de 1 900 € net par mois, pour un parent solo qui a un emploi local stable, une voiture, et pour qui devenir propriétaire à un seul revenu est l'objectif principal. C'est la commune la moins chère du classement à l'achat, à 61 750 € les 65 mètres carrés au prix moyen, avec la meilleure note de coût de la vie et 7,5/10 de sécurité. Elle fonctionne moins bien pour qui place l'offre scolaire en premier : 5,5/10 est la note la plus basse des neuf villes de ce lot, et le bon rapport de 115 € par point vient du loyer, pas du dossier scolaire. Saint-Dié-des-Vosges offre 1,1 point d'écoles de plus pour quarante euros de loyer mensuel supplémentaire, et un lecteur qui a le choix de la région doit regarder les deux. Elle ne fonctionne pas pour qui compte se passer de voiture : 4,9/10 de transports, c'est un scénario à écarter plutôt qu'à tester. Le point à surveiller dans la durée est le recul démographique, qui s'accélère et qui commande à la fois la carte scolaire des prochaines années et la revente d'un bien acheté aujourd'hui. Le détail axe par axe est sur /villes/chaumont/parent-solo.",
+      },
+    ],
+    relatedCities: ["chaumont", "saint-dizier", "saint-die-des-vosges", "charleville-mezieres", "troyes"],
+    relatedGuides: [
+      "10-choses-a-faire-a-chaumont-2026",
+      "parent-solo-a-saint-die-des-vosges-2026",
+      "parent-solo-a-nancy-2026",
+      "vivre-en-champagne-guide-2025",
+      "meilleures-villes-familles-monoparentales-france-2026",
+    ],
+    tags: ["parent solo Chaumont 2026", "monoparental Haute-Marne", "T3 Chaumont budget", "acheter petit budget parent seul", "famille monoparentale Grand Est"],
+  },
+  {
+    slug: "parent-solo-a-compiegne-2026",
+    title: "Parent solo à Compiègne en 2026 : transports et écoles à 7,7/10, le coût en contrepartie",
+    metaTitle: "Parent solo à Compiègne 2026 — T3 980 €, seuil 2 950 €",
+    metaDesc:
+      "Fit 6,8/10, 18e sur 363 et 3e des Hauts-de-France. Transports 7,7/10 et écoles 7,7/10, l'un des cinq profils du top 20 à réussir les deux. Coût 5,9 en réserve.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-04",
+    updatedAt: "2026-09-04",
+    intro:
+      "Compiègne sort à 6,8/10 au composite parent solo, dix-huitième des 363 communes françaises retenues au classement et troisième des 27 communes des Hauts-de-France, derrière Laon et Soissons. Le détail : transports 7,7/10, écoles 7,7/10, sécurité 6,2/10, coût de la vie 5,9/10 (source : data/cities-seed.ts). Le T3 moyen est à 980 € et le mètre carré à l'achat à 2 700 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 950 € par mois. La commune compte 40 808 habitants au recensement 2022 contre 39 517 en 2011 et 40 258 en 2016 (source : data/city-population.json). Ce qui distingue ce dossier n'est aucun de ces chiffres pris seul, mais leur combinaison : Compiègne est l'une des cinq communes des vingt premières du classement à dépasser 7,5/10 à la fois sur la desserte et sur l'offre scolaire, avec Rennes, Strasbourg, Anglet et Vienne. Le prix en est une note de coût de la vie de 5,9/10, la deuxième plus basse des neuf villes de ce lot.",
+    sections: [
+      {
+        heading: "7,7 sur les transports et 7,7 sur les écoles : la combinaison rare",
+        body: "Les vingt premières communes du classement comptent cinq profils seulement qui dépassent 7,5/10 sur les deux axes à la fois. Trois sont des villes chères : Rennes demande 3 350 € de revenu minimum estimé, Strasbourg 3 250 €, Anglet 3 450 €. Les deux autres sont Vienne, à 2 850 €, et Compiègne, à 2 950 €. Pour un foyer à un adulte, cette combinaison vaut davantage qu'un pic isolé, et pour une raison simple à énoncer : la desserte est ce qui absorbe l'imprévu quand personne d'autre ne peut faire le trajet, et l'offre scolaire est ce qui évite d'ajouter un transport quotidien vers un établissement d'une autre commune. Réussir l'un sans l'autre laisse le problème entier. La ville a sa gare sur l'axe ferroviaire qui relie Paris au nord de l'Oise, et un réseau de bus urbain qui dessert la commune. Le mot juste reste crédible, pas acquis : un score de 7,7/10 porte sur la commune entière et ne dit rien du trajet entre une adresse précise et une école précise. L'enchaînement école puis travail se teste au moment où il se fera, avec les correspondances réelles. Sur l'offre scolaire, la portée de la mesure est celle de tout le site : l'axe décrit la densité d'établissements et l'éventail des filières, pas la réussite des élèves ni la qualité du travail des enseignants.",
+      },
+      {
+        heading: "Coût de la vie 5,9/10 : ce qui empêche Compiègne de monter",
+        body: "Le composite pondère le coût de la vie à 0,30, le poids le plus lourd des quatre, et c'est cet axe qui plafonne Compiègne à la dix-huitième place plutôt qu'au voisinage du top 10. À 5,9/10, elle est très loin des 8,3/10 de Soissons et de Laon, ses deux voisines mieux classées, et cela se lit directement dans les prix. Le T3 compiégnois est à 980 €, soit 50 € de plus qu'à Soissons et 240 € de plus qu'à Laon. Le mètre carré est à 2 700 €, contre 1 700 € à Soissons et 1 400 € à Laon : pour 65 mètres carrés, cela fait 175 500 € ici, 110 500 € à Soissons et 91 000 € à Laon, soit un écart de 65 000 à 84 500 € sur le même logement théorique. Le seuil d'entrée suit : 2 950 € contre 2 800 € et 2 250 €. Ce que ce surcoût achète est clair et se chiffre : 2,1 points de transports et 1,1 point d'écoles de plus qu'à Soissons ; 1,3 point de transports et 1,1 point d'écoles de plus qu'à Laon. Autrement dit, contrairement au cas soissonnais, le prix compiégnois correspond à quelque chose de mesurable. Reste à savoir si ce quelque chose vaut, pour un lecteur donné, les 700 € de revenu minimum mensuel qui séparent Compiègne de Laon. Le rapport entre le loyer et l'offre scolaire situe l'ensemble : 127 € par point ici, 141 € à Soissons, 112 € à Laon.",
+      },
+      {
+        heading: "2 950 € de seuil, et pourquoi ce calcul est le prudent",
+        body: "Le revenu net minimum estimé par lib/parent-solo.ts est de 2 950 € par mois, sur la règle des 33 % appliquée au T3 moyen de 980 €. Le score de coût de la vie compiégnois étant à 5,9, donc au-dessus de 5, le moteur applique la règle stricte et non la version relâchée à 35 % réservée aux marchés très tendus : le seuil affiché est le plus prudent des deux calculs possibles. C'est une différence à connaître quand on compare des villes entre elles sur ce site, car deux communes du top 20 seulement, Anglet et Fontainebleau, affichent un seuil calculé sur la règle indulgente. Les autres références locatives sont un T2 à 730 € et un T1 à 530 €. À l'achat, 2 700 € le mètre carré situent un logement de 65 mètres carrés autour de 175 500 € au prix moyen, ce qui reste accessible à un seul revenu mais nettement moins que dans les deux autres villes de la région retenues ici. Ce mètre carré est un repère éditorial tous biens confondus, pas une médiane de transactions enregistrées.",
+      },
+      {
+        heading: "Une croissance qui ralentit",
+        body: "Compiègne compte 39 517 habitants en 2011, 40 258 en 2016 et 40 808 en 2022 (source : data/city-population.json). Sur onze ans, la commune gagne 1 291 habitants, soit 3,3 % ; sur les six dernières années, 550, soit 1,4 %. La croissance se poursuit donc mais ralentit, ce qui est la trajectoire la plus confortable pour un foyer à un adulte parmi celles qu'on rencontre dans ce lot de guides. Elle évite les deux inconvénients symétriques : le resserrement de la carte scolaire qui accompagne un recul, et la saturation de la crèche et du périscolaire qui accompagne une croissance rapide comme celle des Sables-d'Olonne, à 17,5 % sur la même période. Ces dispositifs de garde sont précisément ce qui remplace le second adulte, et aucun des quatre axes du composite ne les mesure. La question à poser à la mairie avant de signer un bail reste donc le délai réel d'obtention d'une place en périscolaire dans le secteur visé, pas le score d'écoles. Le statut de famille monoparentale ouvre un critère de priorité sur ces dossiers, à condition d'être déclaré explicitement. À noter que le seed du site porte 42 000 habitants pour Compiègne quand le recensement 2022 en compte 40 808 ; les deux nombres coexistent volontairement, le premier sert aux seuils et aux tris, le second est la mesure.",
+      },
+      {
+        heading: "Où Compiègne se situe dans les Hauts-de-France",
+        body: "Le classement retient 27 communes de la région et Compiègne en est troisième, derrière Laon à 7,0/10 et Soissons à 6,9/10, deux villes de l'Aisne voisine. Le trio dessine trois offres nettement distinctes pour un parent solo. Laon est le meilleur rapport, avec 6,6/10 d'écoles et 6,5/10 de sécurité pour un T3 à 740 €. Soissons est le plus cher des trois sans contrepartie mesurable, avec les mêmes notes que Laon pour 190 € de loyer mensuel de plus. Compiègne est la plus chère des trois mais la seule à offrir un dossier scolaire et une desserte tous deux à 7,7/10. Plus loin dans le classement régional, Saint-Quentin est 36e avec un T3 à 650 € mais 5,5/10 d'écoles et 4,7/10 de sécurité, Beauvais 81e, l'autre ville de l'Oise, avec 5,5/10 d'écoles pour un T3 à 870 € et un rapport de 158 € par point, franchement moins bon. Amiens, capitale régionale, est 119e à cause d'une sécurité à 4,5/10, et Lille 71e avec 3,9/10 sur le même axe. Sur cet axe précis, Compiègne à 6,2/10 fait mieux que les deux métropoles régionales.",
+      },
+      {
+        heading: "Le verdict : pour qui Compiègne fonctionne",
+        body: "Compiègne fonctionne à partir de 2 950 € net par mois, pour un parent solo qui a besoin des deux à la fois, une desserte qui absorbe l'imprévu et une offre scolaire complète sur place, et qui peut absorber un loyer supérieur de 50 € à celui de Soissons et de 240 € à celui de Laon. C'est l'une des cinq communes du top 20 à dépasser 7,5/10 sur les deux axes, et la deuxième moins chère de ces cinq. À l'achat, 175 500 € pour 65 mètres carrés au prix moyen laissent l'accession ouverte à un seul revenu, à un niveau supérieur à celui de la région mais très inférieur à celui de l'Île-de-France voisine. Elle fonctionne moins bien pour un budget serré : 5,9/10 de coût de la vie, c'est l'axe le plus lourd du composite, et Laon offre 700 € de revenu minimum mensuel en moins pour un point d'écoles et 1,3 point de transports en moins. Elle ne fonctionne pas pour qui place la sécurité en tête : 6,2/10, c'est correct sans plus, loin des 8,0 et plus qu'on trouve à La Roche-sur-Yon ou aux Sables-d'Olonne. Le détail axe par axe est sur /villes/compiegne/parent-solo.",
+      },
+    ],
+    relatedCities: ["compiegne", "soissons", "laon", "beauvais", "amiens"],
+    relatedGuides: [
+      "10-choses-a-faire-a-compiegne-2026",
+      "parent-solo-a-laon-2026",
+      "parent-solo-a-amiens-2026",
+      "vivre-en-hauts-de-france-guide-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+    ],
+    tags: ["parent solo Compiègne 2026", "monoparental Oise", "T3 Compiègne budget", "transports et écoles parent seul", "famille monoparentale Hauts-de-France"],
+  },
+  {
+    slug: "parent-solo-a-les-sables-d-olonne-2026",
+    title: "Parent solo aux Sables-d'Olonne en 2026 : 800 € de revenu de plus qu'à La Roche-sur-Yon pour les mêmes écoles",
+    metaTitle: "Parent solo aux Sables-d'Olonne 2026 — seuil 3 200 €",
+    metaDesc:
+      "Fit 6,8/10, 19e sur 363 et 4e des Pays de la Loire. Sécurité 8,0/10 et écoles 7,7/10, mais La Roche-sur-Yon offre autant pour 800 € de revenu de moins.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-04",
+    updatedAt: "2026-09-04",
+    intro:
+      "Les Sables-d'Olonne sortent à 6,8/10 au composite parent solo, dix-neuvième des 363 communes françaises retenues au classement et quatrième des 14 communes des Pays de la Loire, derrière La Roche-sur-Yon, Challans et Cholet. Le détail : sécurité 8,0/10, écoles 7,7/10, transports 6,2/10, coût de la vie 5,4/10 (source : data/cities-seed.ts). Le T3 moyen est à 1 050 € et le mètre carré à l'achat à 3 500 € (source : data/housing.ts), pour un revenu net minimum estimé à 3 200 € par mois. La commune compte 48 740 habitants au recensement 2022 contre 41 478 en 2011 et 43 219 en 2016 (source : data/city-population.json), soit 17,5 % de plus en onze ans, la plus forte croissance des neuf villes de ce lot de guides. Le fait qui commande ce dossier est une comparaison interne au département : La Roche-sur-Yon, première des 363 communes du classement, offre exactement la même note d'écoles et la même note de sécurité pour 800 € de revenu mensuel minimum en moins.",
+    sections: [
+      {
+        heading: "Sécurité 8,0 et écoles 7,7 : le haut du panier, à un prix",
+        body: "Sur les 363 communes classées, six seulement atteignent 8,0/10 ou plus sur l'axe sécurité : Challans à 8,3, Lannion à 8,2, Fontainebleau et Beaune à 8,1, La Roche-sur-Yon et Les Sables-d'Olonne à 8,0. Trois de ces six sont en Vendée ou dans son voisinage immédiat, et c'est le fait régional le plus net de cette série. La note d'écoles de 7,7/10 est la même que celle de La Roche-sur-Yon, de Challans, de Cholet, de Dole ou d'Albi. Le dossier sablais est donc, sur les deux axes que le composite pondère chacun à un quart, au niveau du haut du classement. Ce qui le place dix-neuvième et non dans les dix premiers est ailleurs, sur l'axe que le composite pondère le plus lourdement : 5,4/10 de coût de la vie, contre 7,2 à La Roche-sur-Yon et à Challans, 6,7 à Cholet. Le rapport entre le loyer et l'offre scolaire chiffre l'écart : 136 € par point ici, 104 € à La Roche-sur-Yon et à Cholet, 112 € à Challans. La portée de la mesure scolaire reste la même : l'axe décrit l'offre communale, la densité d'établissements et l'éventail des filières, pas la réussite des élèves ni la qualité du travail des enseignants.",
+      },
+      {
+        heading: "La comparaison qui décide : La Roche-sur-Yon à trente kilomètres",
+        body: "La Roche-sur-Yon est la première des 363 communes de ce classement, et c'est la préfecture du même département, à une trentaine de kilomètres. La comparaison est inhabituellement propre parce que deux axes sont strictement identiques. Écoles : 7,7/10 des deux côtés. Sécurité : 8,0/10 des deux côtés. Sur les deux autres, la préfecture l'emporte : coût de la vie 7,2 contre 5,4, transports 7,0 contre 6,2. Et les prix suivent la même pente. Les autres références locatives sablaises sont un T2 à 790 € et un T1 à 550 €. Le T3 yonnais est à 800 € contre 1 050 € ici, soit 250 € de loyer mensuel de moins ; le seuil d'entrée à 2 400 € contre 3 200 €, soit 800 € de revenu net mensuel de moins ; le mètre carré à 2 100 € contre 3 500 €, soit 136 500 € contre 227 500 € pour 65 mètres carrés, un écart de 91 000 €. Autrement dit, sur les quatre axes que ce composite mesure, la mer ne fait rien gagner et coûte 800 € de revenu mensuel minimum. Ce n'est pas un verdict sur la ville, c'est le constat de ce que le classement voit et de ce qu'il ne voit pas. Ce qu'il ne voit pas s'appelle le littoral, et un lecteur qui le veut pour lui-même ou pour ses enfants a le droit de payer pour, à condition de savoir ce qu'il paie. Ce guide dit le prix, pas si le prix en vaut la peine.",
+      },
+      {
+        heading: "17,5 % d'habitants en plus, et ce n'est pas la fusion",
+        body: "Les Sables-d'Olonne comptent 41 478 habitants en 2011, 43 219 en 2016 et 48 740 en 2022 (source : data/city-population.json). Sur onze ans, la commune gagne 7 262 habitants, soit 17,5 % ; sur les six dernières années, 5 521, soit 12,8 %. Un tel écart appelle immédiatement le soupçon d'un artefact comptable, puisque la commune actuelle résulte d'une fusion avec Olonne-sur-Mer et Château-d'Olonne. Le soupçon est écarté : le fichier de l'Insee rétropole les millésimes anciens sur la géographie communale d'aujourd'hui, ce qui a été vérifié sur cette commune même lors de l'édition de novembre du palmarès mensuel du site. Les 41 478 habitants de 2011 sont déjà comptés sur le périmètre fusionné, et la croissance est réelle. Pour un parent solo, une croissance de ce rythme est le point de vigilance principal du dossier. Elle sature la crèche, le périscolaire et la restauration scolaire, c'est-à-dire exactement les dispositifs qui remplacent le second adulte, et aucun des quatre axes du composite ne les mesure. Elle aligne aussi les candidatures sur un même logement, ce qui met un dossier à un seul bulletin de salaire en concurrence directe avec des dossiers à deux revenus. La question à poser à la mairie avant de signer un bail n'est donc pas le score d'écoles mais le délai réel d'obtention d'une place en périscolaire. Le statut de famille monoparentale ouvre un critère de priorité sur ces dossiers, à condition d'être déclaré explicitement.",
+      },
+      {
+        heading: "Une contrainte littorale qu'aucun axe ne voit",
+        body: "Le composite mesure quatre choses, et il en manque une ici, la même qui avait été signalée pour Anglet dans le lot précédent de cette série : dans une station balnéaire, une part du parc de logements est occupée en résidence secondaire ou proposée en location saisonnière, et cette part ne sort pas du marché à l'année de façon uniforme. Le T3 moyen de 1 050 € est une moyenne annuelle ; ce qu'un locataire à l'année rencontre, c'est une offre plus étroite que ne le suggère la taille de la commune, une concurrence saisonnière sur les meublés et, dans certains cas, des baux dont le calendrier suit celui de la saison. Pour un foyer à deux adultes, la contrainte est un désagrément. Pour un foyer à un seul, elle est structurelle : un déménagement forcé se gère mal quand personne ne peut prendre le relais sur l'école pendant les visites. Le second point hors composite est le marché de l'emploi, à forte composante saisonnière sur le littoral, ce qui pose un problème précis à un parent solo dont l'employeur module les horaires selon la saison alors que ceux du périscolaire ne bougent pas. Aucun des deux ne figure dans les quatre axes, et tous deux méritent une vérification avant de signer.",
+      },
+      {
+        heading: "Où Les Sables-d'Olonne se situent en Pays de la Loire",
+        body: "Le classement retient 14 communes de la région et les trois premières ont déjà leur guide dans cette série : La Roche-sur-Yon à 7,5/10, Challans à 7,1 et Cholet à 7,0. Les Sables-d'Olonne arrivent quatrièmes, devant Angers à 6,7 et Laval à 6,6. La région est de très loin la mieux dotée du classement sur ce profil, et le dossier sablais y est le plus cher du haut de tableau : 1 050 € de T3 contre 800 € à La Roche-sur-Yon et à Cholet, 860 € à Challans. Challans, à quarante kilomètres au nord, est la comparaison la plus proche par la taille du marché et par le profil littoral d'arrière-pays : 8,3/10 de sécurité, la meilleure note du classement, 7,7/10 d'écoles comme ici, pour un T3 à 860 € et un seuil de 2 600 €, mais 4,9/10 de transports contre 6,2. Laval, dans la Mayenne, affiche le meilleur rapport régional à 100 € par point d'écoles avec un T3 à 660 €, pour 6,6/10 d'écoles. Nantes, la métropole, est 76e à cause d'une sécurité à 4,6/10. Sur ce classement, un parent solo qui vise la Vendée et son voisinage immédiat a trois villes mieux classées et nettement moins chères que les Sables avant d'arriver à la mer, dont deux dans le même département.",
+      },
+      {
+        heading: "Le verdict : pour qui Les Sables-d'Olonne fonctionnent",
+        body: "Les Sables-d'Olonne fonctionnent à partir de 3 200 € net par mois, pour un parent solo qui a un emploi à l'année sur place et qui veut le littoral pour lui-même, en sachant ce qu'il coûte. La commune offre 8,0/10 de sécurité, l'une des six meilleures notes des 363, et 7,7/10 d'écoles, au niveau du haut du classement. Elle fonctionne moins bien pour qui compare les prix à dossier égal : La Roche-sur-Yon offre les mêmes notes d'écoles et de sécurité, avec de meilleures notes de coût et de transports, pour 250 € de loyer mensuel de moins, 800 € de revenu minimum de moins et 91 000 € de moins sur 65 mètres carrés. C'est la comparaison que ce guide ne peut pas contourner. Elle ne fonctionne pas pour qui a un budget contraint et pas de solution de garde de secours : la croissance de 17,5 % en onze ans tend les dispositifs qui remplacent le second adulte, et la saisonnalité du parc locatif comme de l'emploi ajoute une instabilité qu'un foyer à un seul adulte absorbe mal. Le point à vérifier avant de signer est le délai réel de place en périscolaire, pas le score d'écoles. Le détail axe par axe est sur /villes/les-sables-d-olonne/parent-solo.",
+      },
+    ],
+    relatedCities: ["les-sables-d-olonne", "la-roche-sur-yon", "challans", "cholet", "nantes"],
+    relatedGuides: [
+      "parent-solo-a-la-roche-sur-yon-2026",
+      "parent-solo-a-challans-2026",
+      "parent-solo-a-cholet-2026",
+      "vivre-en-vendee-guide-2025",
+      "meilleures-villes-familles-monoparentales-france-2026",
+    ],
+    tags: ["parent solo Les Sables-d'Olonne 2026", "monoparental Vendée", "T3 Les Sables-d'Olonne budget", "littoral cher parent seul", "famille monoparentale Pays de la Loire"],
+  },
+  {
+    slug: "parent-solo-a-sens-2026",
+    title: "Parent solo à Sens en 2026 : aucun axe sous 6,4, le deuxième profil le plus plat du top 20",
+    metaTitle: "Parent solo à Sens 2026 — T3 920 €, seuil 2 800 €",
+    metaDesc:
+      "Fit 6,8/10, 20e sur 363 et 2e de Bourgogne-Franche-Comté. Aucun des quatre axes sous 6,4/10 : le deuxième profil le plus régulier du top 20.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-04",
+    updatedAt: "2026-09-04",
+    intro:
+      "Sens sort à 6,8/10 au composite parent solo, vingtième des 363 communes françaises retenues au classement et deuxième des 11 communes de Bourgogne-Franche-Comté, derrière Dole. Le détail : coût de la vie 7,6/10, écoles 6,6/10, sécurité 6,5/10, transports 6,4/10 (source : data/cities-seed.ts). Le T3 moyen est à 920 € et le mètre carré à l'achat à 1 900 € (source : data/housing.ts), pour un revenu net minimum estimé à 2 800 € par mois. La commune compte 27 275 habitants au recensement 2022 contre 25 146 en 2011 et 25 913 en 2016 (source : data/city-population.json), soit 8,5 % de plus en onze ans. Ce qui caractérise ce dossier n'est aucun pic mais une absence de creux : 1,2 point sépare le meilleur axe du plus faible, la deuxième amplitude la plus réduite des vingt premières communes du classement, derrière La Roche-sur-Yon. Sur ce composite, c'est précisément ce qui paie.",
+    sections: [
+      {
+        heading: "1,2 point d'amplitude : pourquoi le composite récompense ça",
+        body: "Le score parent solo n'est pas une moyenne comme les autres. Il pondère quatre axes, coût de la vie à 0,30, écoles à 0,25, sécurité à 0,25, transports à 0,20, et un axe faible pèse donc un cinquième à un tiers de la note sans compensation possible ailleurs. Une ville brillante sur un poste et effondrée sur un autre paie plein tarif. Sens illustre le cas inverse : 7,6, 6,6, 6,5 et 6,4, soit 1,2 point entre le haut et le bas. Sur les vingt premières communes du classement, seule La Roche-sur-Yon fait mieux avec 1,0 point d'amplitude, et c'est la première du classement ; viennent ensuite Dole à 1,3 et Cholet à 1,5. À l'échelle des 363, Sens a la quarante et unième amplitude la plus réduite. La comparaison la plus parlante est celle de Fontainebleau, douzième, dont l'amplitude atteint 4,1 points : elle marque 8,7/10 d'écoles et 8,1/10 de sécurité mais 4,6/10 de coût de la vie, et son seuil d'entrée s'établit à 3 450 € contre 2 800 € ici. Pour un foyer à un adulte, cette régularité a une valeur pratique : elle signifie qu'aucun poste du budget ni de l'organisation de la semaine n'est un point de rupture, et c'est exactement ce qu'un parent solo ne peut pas se permettre.",
+      },
+      {
+        heading: "2 800 € de seuil d'entrée et 123 500 € pour 65 mètres carrés",
+        body: "Le revenu net minimum estimé par lib/parent-solo.ts est de 2 800 € par mois, sur la règle des 33 % appliquée au T3 moyen de 920 €. Le score de coût de la vie sénonais étant à 7,6, largement au-dessus de 5, le moteur applique la règle stricte et non la version relâchée à 35 % réservée aux marchés tendus : le seuil affiché est le plus prudent des deux calculs possibles. Les autres références locatives sont un T2 à 690 € et un T1 à 480 €. À l'achat, 1 900 € le mètre carré situent un logement de 65 mètres carrés autour de 123 500 € au prix moyen, ce qui laisse l'accession ouverte à un seul revenu. Pour un parent solo, l'enjeu de l'accession n'est pas d'abord l'économie mensuelle mais la stabilité : un propriétaire ne subit pas de congé pour vente et ne refait pas un dossier de location avec un seul bulletin de salaire tous les trois ans. Deux réserves. Ce mètre carré est un repère éditorial tous biens confondus, pas une médiane de transactions enregistrées. Et le rapport entre le loyer et l'offre scolaire, à 139 € par point, est le deuxième moins favorable des neuf villes de ce lot de guides, derrière les 141 € de Soissons : Sens paie sa régularité, elle n'obtient pas le meilleur prix par point d'école.",
+      },
+      {
+        heading: "Le duo de l'Yonne : Sens et Auxerre ne vendent pas la même chose",
+        body: "Les deux villes du département figurent au classement et elles sont presque opposées. Sens est vingtième à 6,8/10 avec un T3 à 920 € ; Auxerre, la préfecture, est soixante-quatrième à 6,3/10 avec un T3 à 660 €. Elles marquent pourtant exactement la même note d'écoles, 6,6/10. Auxerre affiche donc un rapport de 100 € de loyer par point d'offre scolaire contre 139 € ici, l'un des meilleurs des 363, et c'est un argument sérieux pour un budget contraint. Ce qu'elle perd est ailleurs : 5,5/10 de transports contre 6,4 et 5,7/10 de sécurité contre 6,5, soit deux axes que le composite pondère ensemble à 0,45. Le choix entre les deux se résume donc à une question qu'un lecteur peut trancher lui-même : est-ce que 260 € de loyer mensuel valent neuf dixièmes de point de transports et huit dixièmes de sécurité. Sur onze ans, les deux communes divergent aussi : Sens gagne 8,5 % d'habitants, Auxerre en perd 0,8 %. Une commune qui gagne des habitants tend sa crèche et son périscolaire mais ne ferme pas de classes ; une commune qui stagne fait l'inverse.",
+      },
+      {
+        heading: "Une croissance de 8,5 % en onze ans",
+        body: "Sens compte 25 146 habitants en 2011, 25 913 en 2016 et 27 275 en 2022 (source : data/city-population.json). Sur onze ans, la commune gagne 2 129 habitants, soit 8,5 % ; sur les six dernières années, 1 362, soit 5,3 %. La croissance est régulière et soutenue, et elle a la même conséquence ici que partout ailleurs dans cette série : elle tend les dispositifs qui remplacent le second adulte, crèche, périscolaire, restauration scolaire, dérogations de carte scolaire, et aucun des quatre axes du composite ne les mesure. Elle a aussi une conséquence favorable, celle d'un marché de l'emploi et de services qui s'épaissit plutôt que de se contracter, ce qui n'est pas rien pour un foyer dont un seul revenu porte tout. Une part de cette croissance tient à la position de la ville sur l'axe ferroviaire qui relie Paris au sud de l'Yonne, et cela a un corollaire qu'il faut nommer : une partie du marché locatif sénonais est en concurrence avec une demande de navetteurs franciliens, ce qui explique en partie un T3 à 920 € pour une note de coût de la vie de 7,6/10. La question à poser à la mairie avant de signer un bail n'est pas le score d'écoles mais le délai réel d'obtention d'une place en périscolaire dans le secteur visé. Le statut de famille monoparentale ouvre un critère de priorité sur ces dossiers, à condition d'être déclaré explicitement. À noter que le seed du site porte 25 500 habitants pour Sens quand le recensement en compte 27 275 ; les deux nombres coexistent volontairement, le premier sert aux seuils et aux tris, le second est la mesure.",
+      },
+      {
+        heading: "Où Sens se situe en Bourgogne-Franche-Comté",
+        body: "Le classement retient 11 communes de la région et Sens en est deuxième, derrière Dole à 7,2/10 et devant Beaune et Besançon à 6,6, Dijon et Montbéliard à 6,5. La comparaison avec Dole est directe puisque les deux villes ont le même score de coût de la vie (7,6) et le même score de transports (6,4) : Dole prend 1,1 point d'écoles et un demi-point de sécurité de plus, pour un T3 inférieur de 140 € et un seuil de 2 350 € contre 2 800 €. Sur ce classement, Dole est donc meilleure ou à égalité sur les quatre axes tout en étant moins chère, et un lecteur libre du département doit la regarder d'abord. Ce que Sens offre en propre n'est pas dans le composite : la desserte ferroviaire vers Paris, qui élargit le marché du travail accessible sans déménager, et que ni Dole ni Beaune n'ont dans la même direction. Face aux deux métropoles régionales, l'arbitrage est classique : Besançon demande 2 750 € de revenu minimum pour 7,4/10 d'écoles, Dijon 2 900 € pour 7,4/10 également, soit à peu près le seuil sénonais pour huit dixièmes de point d'écoles de plus, mais avec un bassin d'emploi et une offre de soins sans commune mesure. Beaune, quant à elle, offre 7,7/10 d'écoles et 8,1/10 de sécurité pour un seuil de 3 250 €.",
+      },
+      {
+        heading: "Le verdict : pour qui Sens fonctionne",
+        body: "Sens fonctionne à partir de 2 800 € net par mois, pour un parent solo qui travaille sur place ou qui fait la navette vers l'Île-de-France, et qui préfère une ville sans point faible à une ville avec un point fort. Aucun de ses quatre axes ne descend sous 6,4/10, ce qui n'est le cas que de deux autres communes des vingt premières du classement, et c'est exactement ce que ce composite récompense. À l'achat, 123 500 € pour 65 mètres carrés au prix moyen laissent l'accession ouverte à un seul revenu. Elle fonctionne moins bien pour qui optimise le prix par point d'offre scolaire : à 139 € par point, elle est huitième des neuf villes de ce lot, et Auxerre, dans le même département, descend à 100 € pour la même note d'écoles. Dole, deuxième du classement national, fait mieux sur les écoles, la sécurité et le loyer à la fois, à égalité sur le coût de la vie et les transports. Elle ne fonctionne pas pour qui cherche une offre scolaire de premier plan : 6,6/10, c'est la moyenne du classement, et Besançon, Dijon ou Beaune font mieux dans la même région. Le point à surveiller dans la durée est le périscolaire, que la croissance de 8,5 % retend et qu'aucun des quatre axes ne mesure. Le détail axe par axe est sur /villes/sens/parent-solo.",
+      },
+    ],
+    relatedCities: ["sens", "auxerre", "dole", "besancon", "dijon"],
+    relatedGuides: [
+      "10-choses-a-faire-a-sens-2026",
+      "parent-solo-a-dole-2026",
+      "parent-solo-a-besancon-2026",
+      "parent-solo-a-dijon-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+    ],
+    tags: ["parent solo Sens 2026", "monoparental Yonne", "T3 Sens budget", "profil sans point faible parent seul", "famille monoparentale Bourgogne-Franche-Comté"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
