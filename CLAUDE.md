@@ -1694,8 +1694,38 @@ Un thème = une entrée de `RED_FLAG_THEMES` (slug, titre, meta, `intro` / `real
 les deux de la liste, il n'y a donc rien d'autre à câbler ; l'EN est une **sélection à part**
 (`EN_THEMES` dans `app/[locale]/red-flags/themes/[slug]/page.tsx`, qui réutilise le `rank()` FR via
 `frSlug`) — un thème FR sans jumelle EN est normal et ne demande pas de hreflang. **Compteurs
-mesurés (`grep -c '^    slug: "'` et `ls app/red-flags | grep -c villes-`) : 37 thèmes, 37 dossiers**
-(2026-08-24). Dernier ajouté : **`villes-achat-hors-de-portee`** — le premier classement du site à
+mesurés (`grep -c '^    slug: "'` et `ls app/red-flags | grep -c villes-`) : 38 thèmes, 38 dossiers**
+(2026-09-04). Dernier ajouté : **`villes-prix-au-m2-trompeur`** — le seul classement du fichier qui
+ne mesure pas la ville mais **le chiffre qu'on publie sur elle**, celui de ce site compris.
+L'indicateur est l'écart interquartile relatif des prix d'appartement DVF (p75 ÷ p25, millésimes
+2024-2025, `lib/property-prices.ts`) : sur les 433 villes où le calcul est possible, la médiane est
+à 1,49 et **22 villes dépassent 1,75**, le seuil de publication. Montbéliard ouvre à **121 %**
+d'écart (quartiles 624 → 1 382 €/m² autour d'une médiane à 934), devant Guingamp 118 %, Les Abymes
+113 % et Chenôve 103 %. ⚠️ **Un indicateur de dispersion est d'abord suspect d'être un artefact
+d'échantillon, et les trois contrôles qui l'écartent sont à refaire avant de toucher au barème** :
+① la dispersion médiane ne bouge pas avec l'effectif de ventes (1,49 sur 100-200 ventes · 1,46 sur
+200-400 · 1,50 sur 400-800 · 1,50 sur 800-2 000 · 1,54 au-delà) alors qu'un artefact produirait
+l'inverse, du bruit en bas et du lissage en haut ; ② la corrélation de rang vaut **0,05** avec le
+nombre de ventes et **0,01** avec la population, donc l'indicateur ne mesure ni la taille ni
+l'intensité du marché ; ③ p25 et p75 sont des quantiles, insensibles aux extrêmes qui déformeraient
+une moyenne — ne pas « simplifier » en écart-type. Trois points de cadrage à ne pas diluer : ⓐ **ce
+n'est pas un doublon du taux de pauvreté** (corrélation 0,39, la moitié du chemin) — Biscarrosse
+entre avec **10 %** de pauvreté et Salon-de-Provence avec 17 %, quand la médiane des villes publiées
+est à 25 %, parce qu'un front de mer et un arrière-pays produisent le même écart de quartiles qu'un
+parc social et un programme neuf ; ⓑ **le phénomène est celui des copropriétés**, pas du bâti en
+général : la corrélation avec la dispersion des maisons n'est que de 0,30, et Aulnay-sous-Bois sort
+à 1,93 côté appartement contre 1,43 côté maison (Chenôve 2,03 contre 1,42) — d'où le choix de ne
+classer que les appartements, le prix d'une maison incluant terrain et dépendances ; ⓒ **une
+dispersion élevée n'annonce ni moins-value ni difficulté de revente** — Cannes (79 % d'écart, soit
+220 350 € sur 65 m²) et Marseille (83 %, sur le plus gros échantillon du corpus, 19 801 ventes) sont
+des marchés recherchés ; le classement avertit sur la lisibilité du prix affiché, pas sur la santé du
+marché. Filtres : quartiles publiés et **≥ 100 ventes** d'appartement (cinq fois le seuil DVF — un
+quartile demande plus d'observations qu'une médiane), puis rapport ≥ 1,75 ; 25 communes de livre
+foncier (Bas-Rhin, Haut-Rhin, Moselle) et Mayotte sont hors source, 15 sous le seuil DVF, 66 sous
+les 100 ventes. Aucune égalité exacte sur le corpus éligible, le tri porte sur la valeur non
+arrondie. Distinct de `villes-achat-hors-de-portee`, qui rapporte la **médiane** au revenu local :
+là on demande si la ville est achetable, ici si son prix affiché veut dire quelque chose — Montluçon
+est les deux. Avant-dernier ajouté : **`villes-achat-hors-de-portee`** — le premier classement du site à
 confronter **deux mesures publiées et aucun score** : la médiane DVF des prix d'appartement
 (`lib/property-prices.ts`, millésimes 2024-2025) rapportée au niveau de vie médian communal
 (`lib/city-income.ts`, Filosofi 2021). Publié en **années de revenu disponible pour 65 m²** : sur les

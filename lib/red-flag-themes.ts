@@ -2196,6 +2196,75 @@ function rankAchatHorsDePortee(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity);
 }
 
+// « Villes où le prix au m² affiché ne veut rien dire ».
+//
+// Le seul classement du fichier qui ne mesure pas la ville mais **le chiffre
+// qu'on publie sur elle**, celui de ce site compris. L'indicateur est l'écart
+// interquartile relatif des prix d'appartement réellement enregistrés :
+// p75 ÷ p25 sur la même commune, même fenêtre, même source. Un rapport de 2
+// veut dire que le quart le plus cher du marché se paie au moins deux fois le
+// prix au m² du quart le moins cher — dans la même ville, sur les mêmes deux
+// années. Là où c'est le cas, la médiane communale n'est pas fausse, elle est
+// simplement le milieu de deux marchés qui ne se rencontrent pas.
+//
+// Trois raisons de croire que ce rapport mesure le marché et non notre
+// échantillon, toutes vérifiées sur le corpus avant publication :
+//  ① la dispersion médiane ne bouge pas avec l'effectif de ventes — 1,49 sur
+//    les communes de 100 à 200 ventes, 1,46 de 200 à 400, 1,50 de 400 à 800,
+//    1,50 de 800 à 2 000, 1,54 au-delà. Un artefact d'échantillonnage
+//    produirait l'inverse : beaucoup de bruit en bas, lissage en haut.
+//  ② la corrélation de rang avec le nombre de ventes vaut 0,05, et 0,01 avec
+//    la population. Ce n'est ni une mesure de taille ni une mesure d'effort.
+//  ③ p25 et p75 sont des quantiles, donc insensibles aux valeurs extrêmes qui
+//    déforment une moyenne — c'est précisément pourquoi on ne publie pas ici
+//    un écart-type.
+//
+// Ce n'est pas non plus un doublon du taux de pauvreté (corrélation de rang
+// 0,39, moitié du chemin) : Biscarrosse entre dans le classement avec 10 % de
+// pauvreté et Salon-de-Provence avec 17 %, quand la médiane des villes
+// publiées est à 25 %. Ni un doublon de la dispersion des maisons
+// (corrélation 0,30 seulement) : à Aulnay-sous-Bois les appartements sortent à
+// 1,93 et les maisons à 1,43, à Chenôve 2,03 contre 1,42. Le phénomène est
+// d'abord un phénomène de copropriétés.
+//
+// Distinct de `villes-achat-hors-de-portee`, qui rapporte la **médiane** au
+// revenu local : là on demande si la ville est achetable, ici si son prix
+// affiché veut dire quelque chose. Une ville peut être parfaitement abordable
+// et parfaitement illisible — Montluçon est les deux.
+const MIN_SALES_FOR_SPREAD = 100;
+const MIN_PRICE_SPREAD = 1.75;
+const MAX_PRICE_SPREAD = 2.25; // 10/10 : le haut du marché à 125 % du bas
+
+function rankPrixM2Trompeur(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    const apartment = cityPropertyPrices(city.slug)?.apartment;
+    if (!apartment?.medianM2 || !apartment.p25M2 || !apartment.p75M2) continue;
+    if (apartment.sales < MIN_SALES_FOR_SPREAD) continue;
+
+    const spread = apartment.p75M2 / apartment.p25M2;
+    if (spread < MIN_PRICE_SPREAD) continue;
+
+    // Le seuil d'entrée EST le plancher de gravité, comme pour le rapport
+    // prix/revenu : toute ville publiée ici écarte ses quartiles d'au moins
+    // 75 %. La pente porte ensuite jusqu'à 10/10 au double et quart.
+    const severity = Math.min(
+      10,
+      8 + ((spread - MIN_PRICE_SPREAD) * 2) / (MAX_PRICE_SPREAD - MIN_PRICE_SPREAD),
+    );
+
+    const eur = (v: number) => Math.round(v).toLocaleString("fr-FR");
+    const pct = Math.round((spread - 1) * 100);
+    const gap65 = (apartment.p75M2 - apartment.p25M2) * 65;
+    const reason = `Le quart le plus cher se paie ${pct} % de plus au m² que le quart le moins cher · quartiles ${eur(apartment.p25M2)} → ${eur(apartment.p75M2)} €/m² autour d'une médiane à ${eur(apartment.medianM2)} · soit ${eur(gap65)} € d'écart sur 65 m² · ${eur(apartment.sales)} ventes d'appartement 2024-2025`;
+    // Tri sur la valeur non arrondie. Aucune égalité exacte sur les 433 villes
+    // éligibles au moment de la publication, mais deux villes peuvent afficher
+    // le même pourcentage arrondi sans être à égalité.
+    rows.push({ city, severity, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -2751,6 +2820,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Rapport = (65 m² × prix médian au m² d'un appartement) ÷ (1,5 UC × niveau de vie médian annuel). Severity = 8 + 0,222 × (années − 11), plafonnée à 10/10 : le seuil de publication est le plancher de gravité, et vingt années de revenu valent 10. Prix : DGFiP, Demandes de valeurs foncières (DVF géolocalisé, Etalab, Licence Ouverte 2.0), millésimes 2024 et 2025, via `lib/property-prices.ts`. Ce sont des médianes de transactions enregistrées, pas des estimations d'agence, et elles ne se confondent pas avec le repère éditorial `avgBuyPriceM2` de `data/housing.ts`, qui mêle appartements et maisons et peut diverger : à Saint-Paul de La Réunion, 5 304 €/m² mesurés côté appartement contre 2 400 € au repère tous biens confondus. Revenus : Insee, Filosofi 2021, niveau de vie médian communal (revenu disponible du ménage rapporté à ses unités de consommation), via `lib/city-income.ts`. Filtres : médiane d'appartement publiée, au moins 100 ventes d'appartement sur la fenêtre, niveau de vie publié, rapport ≥ 11 années. 430 des 540 villes du site réunissent les trois conditions de données. Sont écartées : 26 communes sans aucun prix DVF (le Bas-Rhin, le Haut-Rhin et la Moselle relèvent du livre foncier et ne sont pas publiés dans DVF, Mayotte est absente de la source), 15 sous le seuil de publication de DVF, 64 sous les 100 ventes exigées ici (cinq fois le seuil de publication : vingt ventes suffisent à décrire un marché, pas à départager deux villes), et 5 hors du champ Filosofi (Guadeloupe, Guyane, Mayotte, plus Pierrefitte-sur-Seine, fusionnée dans Saint-Denis en 2025). Seize villes se situent entre 10 et 11 années et ne sont donc pas publiées, de Saint-Jean-de-Luz (10,9) à Nanterre (10,0). Le ménage retenu (couple sans enfant, 1,5 unité de consommation) et la surface (65 m²) sont des conventions de lecture et non des paramètres du classement : ils entrent dans le calcul comme un facteur constant, identique pour toutes les villes, si bien que les changer déplace le nombre d'années affiché sans jamais modifier l'ordre. Ce qui trie, c'est le seul rapport prix au m² sur niveau de vie. Le tri porte sur la valeur non arrondie : deux villes peuvent afficher la même gravité à la décimale sans être à égalité. Quatre limites à connaître avant d'en tirer une conclusion. Les prix sont de 2024-2025 et les revenus de 2021, dernier millésime Filosofi publié à la commune : les revenus nominaux ayant progressé depuis, le nombre d'années est surestimé en valeur absolue, et seul le classement tient. Le rapport ne décrit pas un plan de financement, personne n'achetant en versant cent pour cent de son revenu ; il mesure la distance entre un marché et les revenus qu'il surplombe. Le niveau de vie Insee inclut les prestations sociales, aides au logement comprises, ce qui joue en sens inverse et resserre l'écart réel. Enfin la médiane est communale alors que le phénomène est souvent infra-communal : dans les grandes villes, le rapport d'un arrondissement n'est pas celui de son voisin. Pour le détail par type de bien, l'effectif de ventes et les quartiles d'une ville, voir sa page logement.",
     rank: rankAchatHorsDePortee,
+  },
+  {
+    slug: "villes-prix-au-m2-trompeur",
+    title: "Villes où le prix au m² affiché ne veut rien dire",
+    metaTitle: "Prix au m² trompeur 2026 — marchés à deux vitesses",
+    metaDescription:
+      "Classement 2026 des villes où les quartiles de prix s'écartent le plus (DVF 2024-2025) : jusqu'à 121 % d'écart entre le quart cher et le quart bon marché.",
+    emoji: "📊",
+    intro:
+      "On commence toujours par le même geste : taper le nom de la ville, lire le prix au m², multiplier par la surface visée. Deux mille euros le mètre, soixante-cinq mètres, cent trente mille euros — le projet tient, on prend rendez-vous. Ce chiffre est le seul que retiennent l'article de presse, la plaquette de l'agence, le tableau comparatif d'un site comme celui-ci. Et dans la plupart des villes il fait très bien son travail : les biens se ressemblent, le marché est un marché, la médiane le décrit. Puis il y a les autres, celles où le même chiffre recouvre deux marchés qui n'ont plus rien à voir l'un avec l'autre. À Montbéliard, un quart des appartements vendus en 2024 et 2025 sont partis sous 624 € le m² et un quart au-dessus de 1 382 €, autour d'une médiane à 934 €. Écrire « Montbéliard, 934 € du m² » n'est pas faux, c'est simplement une phrase qui ne permet de prévoir aucun achat.",
+    reality:
+      "Ce classement ne mesure pas une ville, il mesure la fiabilité du nombre qu'on publie sur elle — y compris sur ce site, qui affiche une médiane communale sur chaque page logement. L'indicateur est le rapport entre le troisième et le premier quartile des prix d'appartement réellement enregistrés : combien de fois le quart le plus cher du marché vaut-il le quart le moins cher, au mètre carré, dans la même commune et sur la même fenêtre de deux ans. Sur les 433 villes du site où le calcul est possible, ce rapport vaut 1,49 en médiane — un écart d'environ moitié entre le haut et le bas, ce qui est l'ordinaire d'un marché immobilier et n'a rien d'alarmant. Vingt-deux villes dépassent 1,75, c'est-à-dire 75 % d'écart, et ce sont elles que le classement retient. Montbéliard ouvre à 121 %, devant Guingamp 118 %, Les Abymes 113 % et Chenôve 103 %. Il faut résister à la lecture facile, celle qui rangerait ces villes du côté des marchés en difficulté : elle est fausse. Trois géographies se croisent ici et elles ne racontent pas la même histoire. La première est celle des villes moyennes à parc ancien hétérogène, où un immeuble rénové du centre et une barre des années soixante se vendent dans la même ligne statistique : Montbéliard, Saint-Claude, Montluçon, Beauvais, Chenôve. La deuxième est celle des banlieues de métropole où la copropriété dégradée et le programme neuf coexistent à quelques rues : Aulnay-sous-Bois, Rillieux-la-Pape, Vaulx-en-Velin, Échirolles, Saint-Priest. La troisième n'a rien à voir avec la pauvreté et c'est elle qui interdit de résumer le classement : Biscarrosse y entre avec 10 % de taux de pauvreté et Salon-de-Provence avec 17 %, très en dessous des 25 % médians des villes publiées, parce qu'un front de mer et un arrière-pays, ou un centre ancien et une périphérie pavillonnaire, produisent exactement le même écart de quartiles qu'un parc social et un programme neuf. Cannes est le cas où l'argent en jeu est le plus lourd : quartiles à 4 301 et 7 691 € le m², soit 220 350 € de différence sur un 65 m² selon le côté de la ville où l'on signe. Marseille, avec 19 801 ventes d'appartement — le plus gros échantillon du corpus, et de loin — sort à 83 % d'écart, ce qui confirme au passage que la dispersion n'est pas un défaut de comptage mais bien la description d'une ville à arrondissements. À l'autre bout, les villes les plus lisibles du corpus sont des communes à parc homogène et récent : Tournefeuille 21 % d'écart, Saint-Médard-en-Jalles 23 %, Cugnaux et Vélizy-Villacoublay 25 %. Là, le prix affiché tient sa promesse. Une dispersion élevée n'est ni un défaut de la ville ni un mauvais présage sur sa valeur : Cannes et Biscarrosse ne sont pas des marchés fragiles. C'est un avertissement sur une seule chose, mais une chose qui coûte cher : dans ces vingt-deux communes, arriver avec un budget calculé sur la moyenne, c'est arriver avec un budget calculé sur une ville qui n'existe pas. Il faut y visiter deux fois plus, et raisonner par quartier ou par immeuble, jamais par commune.",
+    methodology:
+      "Indicateur = p75 ÷ p25 des prix au m² d'appartement, publié en pourcentage d'écart (rapport − 1). Severity = 8 + 4 × (rapport − 1,75), plafonnée à 10/10 : le seuil de publication est le plancher de gravité, et un rapport de 2,25 vaut 10. Source : DGFiP, Demandes de valeurs foncières (DVF géolocalisé, Etalab, Licence Ouverte 2.0), millésimes 2024 et 2025, via `lib/property-prices.ts`. Ce sont des quantiles de transactions enregistrées, pas des estimations d'agence, et le périmètre est celui de la commune. Filtres : quartiles d'appartement publiés et au moins 100 ventes d'appartement sur la fenêtre — cinq fois le seuil de publication de DVF, parce qu'un quartile demande plus d'observations qu'une médiane — puis rapport ≥ 1,75. 433 des 540 villes du site réunissent ces conditions. Sont écartées : 25 communes relevant du livre foncier (Bas-Rhin, Haut-Rhin, Moselle), absentes de DVF et dont rien ne viendra, Mayotte qui n'est pas dans la source, 15 villes sous le seuil de publication de DVF et 66 sous les 100 ventes exigées ici. Le tri porte sur la valeur non arrondie ; aucune égalité exacte n'existe sur le corpus éligible, mais deux villes peuvent afficher le même pourcentage arrondi sans être à égalité. Trois vérifications ont précédé la publication, parce qu'un indicateur de dispersion est d'abord suspect d'être un artefact d'échantillon. La dispersion médiane ne varie pas avec l'effectif : 1,49 sur les communes de 100 à 200 ventes, 1,46 de 200 à 400, 1,50 de 400 à 800, 1,50 de 800 à 2 000 et 1,54 au-delà de 2 000 — un artefact produirait l'inverse, du bruit en bas et du lissage en haut. La corrélation de rang avec le nombre de ventes vaut 0,05 et avec la population 0,01, donc l'indicateur ne mesure ni la taille de la ville ni l'intensité de son marché. Et p25 comme p75 sont des quantiles, insensibles aux valeurs extrêmes qui déformeraient une moyenne ou un écart-type. Quatre limites à connaître. Le rapport est communal alors que le phénomène est infra-communal par définition : il signale qu'il faut descendre à l'échelle du quartier, il ne dit pas lequel est cher — pour cela, voir la page quartiers de la ville et sa page logement, qui publie les quartiles par type de bien. Il ne porte que sur les appartements, parce que le prix d'une maison inclut son terrain et ses dépendances et disperse pour des raisons qui ne sont pas celles du bâti ; la corrélation entre les deux dispersions n'est d'ailleurs que de 0,30, et l'écart appartement contre maison à Aulnay-sous-Bois (1,93 contre 1,43) ou à Chenôve (2,03 contre 1,42) montre que le phénomène tient surtout aux copropriétés. DVF ne retient ici que les mutations portant un seul logement, ce qui exclut les ventes en bloc et une partie du neuf en VEFA : dans une commune en fort renouvellement, le haut de la distribution est sous-représenté et l'écart réel est donc plutôt supérieur à celui publié. Enfin la dispersion décrit un marché, pas un risque : elle n'annonce ni moins-value ni difficulté de revente, et plusieurs villes du classement sont parmi les plus recherchées de France.",
+    rank: rankPrixM2Trompeur,
   },
 ];
 
