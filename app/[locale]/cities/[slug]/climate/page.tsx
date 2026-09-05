@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { CityPhotoBand } from "@/components/CityPhoto";
+import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityPhoto } from "@/lib/city-images";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
@@ -72,8 +73,16 @@ export default async function EnCityClimate({ params }: Props) {
         }))
       : null;
 
+  const breadcrumb = breadcrumbJsonLd([
+    { name: "Home", path: "/" },
+    { name: "Cities", path: "/cities" },
+    { name: c.name, path: `/cities/${slug}` },
+    { name: "Climate", path: `/cities/${slug}/climate` },
+  ]);
+
   return (
     <main id="main-content" className="min-h-screen">
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <Navbar />
       <section className="mx-auto max-w-3xl px-4 sm:px-6 pt-16 pb-8">
         <nav className="mb-6 text-sm text-[var(--text-secondary)]">

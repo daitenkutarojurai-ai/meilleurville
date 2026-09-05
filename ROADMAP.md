@@ -4638,6 +4638,71 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ---
 
+## Shipped 2026-09-05
+
+- **Données structurées des pages EN : le domaine était faux, et 18 sous-pages ville n'en avaient
+  aucune.** Item ⑤ du rapport d'intégrité du 04/09 (« sept paires de sous-pages n'émettent pas les
+  mêmes types JSON-LD », classé « à traiter comme une tâche SEO d'harmonisation »). En le mesurant
+  au lieu de le recopier, sa table s'est révélée **fausse dans les deux sens** — elle grepait le
+  littéral `"@type": "BreadcrumbList"`, que l'appel au helper `breadcrumbJsonLd()` masque — et le
+  défaut réel est nettement plus gros qu'annoncé.
+
+  ⚠️ **① `lib/jsonld.ts` publiait le domaine FR sur le site EN.** Son `SITE_URL` valait
+  `NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr"` : c'était le **seul** module d'origine du
+  dépôt sans repli par locale, là où `app/layout.tsx`, `app/sitemap.ts`, `app/robots.ts` et les deux
+  flux RSS écrivent tous `?? (DEFAULT_LOCALE === "en" ? EN_URL : FR_URL)`. Or `npm run build:en` ne
+  diffère de `npm run build` **que** par `NEXT_PUBLIC_DEFAULT_LOCALE` (cf. `package.json`), donc une
+  valeur unique de `NEXT_PUBLIC_BASE_URL` ne peut pas être juste pour les deux exports. **Mesuré et
+  non déduit** : la version d'avant correctif, compilée et exécutée avec `NEXT_PUBLIC_DEFAULT_LOCALE=en`,
+  rend `https://www.mavilleideale.fr/cities/lyon/schools` — une URL qui n'existe pas sur le domaine
+  FR, qui sert `/villes/lyon/ecoles`. Des `BreadcrumbList` inter-domaines pointant sur des 404, sur
+  **91 fichiers de `app/[locale]/`**, dont 22 sous-pages ville × 540. Après correctif, le même
+  binaire rend `https://bestcitiesinfrance.com/cities/lyon/schools` sous `en` et le domaine FR
+  inchangé sous `fr` — **la sortie FR est identique au bit près**, seule la branche EN bouge.
+  **Pourquoi personne ne l'avait vu** : le canonical, lui, était juste (il passe par
+  `ORIGIN_BY_LOCALE` de `lib/i18n.ts`), et le garde-fou de déploiement `check-deploy-locale.mjs` lit
+  précisément le canonical. Corroboration trouvée dans le dépôt : **quatre pages EN
+  (`tax`, `climate-2040`, `housing`, `overview`) écrivent leur `BreadcrumbList` à la main avec
+  `ORIGIN_BY_LOCALE.en`** au lieu d'appeler le helper — le contournement avait donc déjà été fait
+  quatre fois localement, sans jamais remonter à la cause. Ces quatre-là restent en l'état : leurs
+  URL sont correctes, seul leur style diverge (deux nomment la racine « BestCitiesInFrance » et deux
+  « Home ») — harmonisation cosmétique, pas un défaut.
+
+  ⚠️ **② 18 sous-pages ville EN n'émettaient aucune donnée structurée**, quand les 39 FR en émettent
+  toutes au moins une : `air-quality`, `climate`, `cost-of-living`, `cycling`, `demographics`,
+  `employment`, `fingerprint`, `healthcare`, `honest-review`, `natural-risks`, `noise`,
+  `own-vs-rent`, `public-services`, `remote-work`, `safety`, `schools`, `transport`, `water` —
+  soit **9 720 pages EN sans le moindre `BreadcrumbList`**. Elles affichaient pourtant toutes le fil
+  d'Ariane **à l'écran** (`Home · Cities · <ville> · <rubrique>`) : l'écart n'existait que dans le
+  HTML, ce qui explique qu'aucune relecture visuelle ne pouvait le trouver. Le correctif ne réécrit
+  rien — il rend lisible par une machine ce que la page montrait déjà, en reprenant **le libellé de
+  queue déjà affiché** sur chacune (d'où « Job market » et non « Employment » sur `employment`, et
+  « Own vs rent » sur `own-vs-rent`). Appliqué par codemod strict qui refuse d'écrire si son ancre
+  n'apparaît pas exactement une fois par fichier, puis relu en diff.
+
+  **Garde permanente** ajoutée à `npm run integrity` (`ok jsonld — origine par locale, 79 sous-pages
+  ville avec données structurées`) : elle échoue si `lib/jsonld.ts` cesse de déduire son origine de
+  `NEXT_PUBLIC_DEFAULT_LOCALE` ou perd l'un des deux replis de domaine, **et** si une sous-page ville
+  de l'un ou l'autre arbre n'émet plus de `ld+json`. ⚠️ **Le garde-fou a été vérifié en réintroduisant
+  les deux défauts** (helper d'avant correctif remis, `ld+json` retiré de `EN schools`) : il sort en
+  échec sur les trois lignes attendues, puis repasse au vert une fois l'état restauré. Un contrôle
+  qu'on n'a pas vu échouer ne prouve rien.
+
+  Contrôles passés : `npx tsc --noEmit` **propre**, `npm run integrity`, `npm run parity` (0 route FR
+  sans jumelle), `npm run hreflang:check`, `npm run sitemap:check` (FR 29 155 URL, EN 28 737 —
+  inchangés, aucune route neuve : le run ne crée aucune page, il complète le HTML de pages
+  existantes). `npm run build` **non lancé, volontairement** (cf. CLAUDE.md § Commands depuis le
+  batch 27). Le site EN n'a pas pu être vérifié en ligne, l'egress de la routine refusant
+  `bestcitiesinfrance.com` en 403 CONNECT comme d'habitude — la démonstration ci-dessus est faite en
+  exécutant les deux versions du module, pas en lisant la production.
+
+  **Ce qui n'est pas fait** : les items ③ (rangs publiés là où le score ne départage pas, 35 pages
+  `/pour-qui` + 19 classements) et ④ (deux thèmes Red Flag qui ne rendent aucune ville) du même
+  rapport restent ouverts — l'auditeur les a laissés parce qu'ils **changent la liste des villes
+  publiées**, ce qui est un acte éditorial et non une correction d'intégrité ; ce run n'a pas
+  tranché autrement. L'item ① du rapport (collecteur BODACC arrêté depuis le 27/08) est hors de
+  portée d'une routine, l'egress étant refusé.
+
 ## Shipped 2026-09-03
 
 - **Série tourisme, batch 40 (FR) : Bergerac, Agde, Thonon-les-Bains, Rambouillet, Béthune,

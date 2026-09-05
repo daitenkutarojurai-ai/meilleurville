@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
 
@@ -44,8 +45,16 @@ export default async function EnCityTransport({ params }: Props) {
   const score = c.scores.transport;
   const verdict = transportVerdict(score);
 
+  const breadcrumb = breadcrumbJsonLd([
+    { name: "Home", path: "/" },
+    { name: "Cities", path: "/cities" },
+    { name: c.name, path: `/cities/${slug}` },
+    { name: "Transport", path: `/cities/${slug}/transport` },
+  ]);
+
   return (
     <main id="main-content" className="min-h-screen">
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <Navbar />
       <section className="mx-auto max-w-3xl px-4 sm:px-6 pt-16 pb-8">
         <nav className="mb-6 text-sm text-[var(--text-secondary)]">

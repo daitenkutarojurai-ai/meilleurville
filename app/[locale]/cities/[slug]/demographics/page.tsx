@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { computeDemography, type DemoLevel } from "@/lib/demography";
 import {
   AGE_LABELS_EN,
@@ -74,8 +75,16 @@ export default async function EnCityDemographics({ params }: Props) {
   // The lib composite is 0-10 where 10 = worst (declining). Present "10 = best".
   const score = Math.round((10 - demo.composite) * 10) / 10;
 
+  const breadcrumb = breadcrumbJsonLd([
+    { name: "Home", path: "/" },
+    { name: "Cities", path: "/cities" },
+    { name: c.name, path: `/cities/${slug}` },
+    { name: "Demographics", path: `/cities/${slug}/demographics` },
+  ]);
+
   return (
     <main id="main-content" className="min-h-screen">
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <Navbar />
       <section className="mx-auto max-w-3xl px-4 sm:px-6 pt-16 pb-8">
         <nav className="mb-6 text-sm text-[var(--text-secondary)]">

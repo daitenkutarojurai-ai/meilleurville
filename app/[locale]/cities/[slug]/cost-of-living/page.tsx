@@ -5,6 +5,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
+import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
 
@@ -45,8 +46,16 @@ export default async function EnCityCost({ params }: Props) {
   const housing = getHousing(c.slug);
   const score = c.scores.cost;
 
+  const breadcrumb = breadcrumbJsonLd([
+    { name: "Home", path: "/" },
+    { name: "Cities", path: "/cities" },
+    { name: c.name, path: `/cities/${slug}` },
+    { name: "Cost of living", path: `/cities/${slug}/cost-of-living` },
+  ]);
+
   return (
     <main id="main-content" className="min-h-screen">
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <Navbar />
       <section className="mx-auto max-w-3xl px-4 sm:px-6 pt-16 pb-8">
         <nav className="mb-6 text-sm text-[var(--text-secondary)]">

@@ -5,6 +5,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
+import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { computeOwnerScores } from "@/lib/owner-scores";
 import { climateZoneFor, transitPassFor } from "@/lib/cost-living";
 import { scoreColor } from "@/lib/utils";
@@ -127,8 +128,16 @@ export default async function EnCityRemoteWork({ params }: Props) {
     { label: "Quality of life", value: city.scores.life, ctx: "The air, the water, the everyday" },
   ];
 
+  const breadcrumb = breadcrumbJsonLd([
+    { name: "Home", path: "/" },
+    { name: "Cities", path: "/cities" },
+    { name: city.name, path: `/cities/${slug}` },
+    { name: "Remote work", path: `/cities/${slug}/remote-work` },
+  ]);
+
   return (
     <main id="main-content" className="min-h-screen">
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <Navbar />
 
       <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-12">

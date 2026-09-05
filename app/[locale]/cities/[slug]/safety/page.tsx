@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { computeSafetyDeep, type SafetyLevel } from "@/lib/safety-deep";
 import { cityAlternatesEn } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
@@ -61,8 +62,16 @@ export default async function EnCitySafety({ params }: Props) {
   // composite runs the other way (10 = worst).
   const safetyScore = Math.round((10 - safety.composite) * 10) / 10;
 
+  const breadcrumb = breadcrumbJsonLd([
+    { name: "Home", path: "/" },
+    { name: "Cities", path: "/cities" },
+    { name: c.name, path: `/cities/${slug}` },
+    { name: "Safety", path: `/cities/${slug}/safety` },
+  ]);
+
   return (
     <main id="main-content" className="min-h-screen">
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <Navbar />
       <section className="mx-auto max-w-3xl px-4 sm:px-6 pt-16 pb-8">
         <nav className="mb-6 text-sm text-[var(--text-secondary)]">

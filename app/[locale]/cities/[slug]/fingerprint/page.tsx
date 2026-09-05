@@ -7,6 +7,7 @@ import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { CityFingerprint } from "@/components/CityFingerprint";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { FINGERPRINT_AXES } from "@/lib/city-fingerprint";
 import { cityAlternatesEn } from "@/lib/i18n";
 import { formatScore, scoreColor, scoreLabel } from "@/lib/utils";
@@ -73,8 +74,16 @@ export default async function CityFingerprintENPage({ params }: Props) {
     schools: "Schools",
   };
 
+  const breadcrumb = breadcrumbJsonLd([
+    { name: "Home", path: "/" },
+    { name: "Cities", path: "/cities" },
+    { name: city.name, path: `/cities/${slug}` },
+    { name: "Fingerprint", path: `/cities/${slug}/fingerprint` },
+  ]);
+
   return (
     <main id="main-content" className="min-h-screen">
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <Navbar />
 
       <section className="border-b border-[var(--border)] bg-[var(--bg-surface)] py-10">

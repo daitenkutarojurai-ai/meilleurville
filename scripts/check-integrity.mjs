@@ -470,6 +470,76 @@ if (!failed) {
   }
 }
 
+// ---------------------------------------------------------------------------
+// Données structurées des sous-pages ville — deux défauts trouvés le 2026-09-05,
+// tous deux invisibles à l'écran et à `tsc`.
+//
+// ① L'origine. `lib/jsonld.ts` était le **seul** module d'origine à retomber en
+//    dur sur le domaine FR, là où `app/layout.tsx`, `app/sitemap.ts`,
+//    `app/robots.ts` et les deux flux RSS déduisent tous l'origine de la locale
+//    du build. Or `npm run build:en` ne diffère de `npm run build` que par
+//    `NEXT_PUBLIC_DEFAULT_LOCALE` : une valeur unique de `NEXT_PUBLIC_BASE_URL`
+//    ne peut pas être juste pour les deux exports. Résultat mesuré avant
+//    correctif : le build EN publiait
+//    `https://www.mavilleideale.fr/cities/lyon/schools` dans ses breadcrumbs,
+//    une URL qui n'existe pas sur le domaine FR (il sert `/villes/lyon/ecoles`).
+//    Le canonical, lui, passe par `ORIGIN_BY_LOCALE` et était juste — c'est
+//    précisément pourquoi `check-deploy-locale.mjs`, qui lit le canonical, ne
+//    pouvait pas voir la fuite.
+//
+// ② La couverture. 18 sous-pages ville EN n'émettaient **aucune** donnée
+//    structurée alors que leurs jumelles FR en émettaient toutes, soit 9 720
+//    pages sans le moindre BreadcrumbList. Elles affichaient pourtant le fil
+//    d'Ariane à l'écran : l'écart ne se voyait que dans le HTML.
+{
+  const jsonldSrc = readFileSync(path.join(ROOT, "lib", "jsonld.ts"), "utf8");
+  const originProblems = [];
+  if (!jsonldSrc.includes("NEXT_PUBLIC_DEFAULT_LOCALE")) {
+    originProblems.push(
+      "lib/jsonld.ts ne déduit plus son origine de NEXT_PUBLIC_DEFAULT_LOCALE",
+    );
+  }
+  for (const domain of ["www.mavilleideale.fr", "bestcitiesinfrance.com"]) {
+    if (!jsonldSrc.includes(domain)) {
+      originProblems.push(`lib/jsonld.ts ne connaît plus le repli ${domain}`);
+    }
+  }
+
+  const subPageDirs = [
+    ["FR", path.join(ROOT, "app", "villes", "[slug]")],
+    ["EN", path.join(ROOT, "app", "[locale]", "cities", "[slug]")],
+  ];
+  const bare = [];
+  let scanned = 0;
+  for (const [locale, dir] of subPageDirs) {
+    for (const entry of readdirSync(dir)) {
+      const file = path.join(dir, entry, "page.tsx");
+      if (!existsSync(file)) continue;
+      scanned += 1;
+      if (!readFileSync(file, "utf8").includes("ld+json")) {
+        bare.push(`${locale} ${entry}`);
+      }
+    }
+  }
+
+  if (originProblems.length === 0 && bare.length === 0) {
+    console.log(
+      `  ok  jsonld    origine par locale, ${scanned} sous-pages ville avec données structurées`,
+    );
+  } else {
+    failed = true;
+    console.error("\n  ÉCHEC  données structurées\n");
+    for (const p of originProblems) console.error(`    ${p}`);
+    for (const p of bare) console.error(`    ${p} : aucun ld+json`);
+    console.error(
+      "\n    Une sous-page ville doit émettre au moins son BreadcrumbList\n" +
+        "    (`breadcrumbJsonLd` de lib/jsonld.ts), et l'origine de ce module se\n" +
+        "    déduit de la locale du build — la re-figer sur un domaine republie\n" +
+        "    les URL FR sur le domaine EN.\n",
+    );
+  }
+}
+
 if (failed) {
   console.error("Intégrité des données : au moins un contrôle a échoué.");
   console.error("Le build échouerait au même endroit.");

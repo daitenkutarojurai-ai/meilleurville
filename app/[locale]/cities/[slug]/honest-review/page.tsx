@@ -5,6 +5,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { ThumbsUp, ThumbsDown, CheckCircle2, Sparkles } from "lucide-react";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { computeOwnerScores } from "@/lib/owner-scores";
 import { buildHonestReview } from "@/lib/honest-reviews";
 import { cityAlternatesEn } from "@/lib/i18n";
@@ -172,8 +173,16 @@ export default async function EnHonestReviewPage({ params }: Props) {
   // Profile fits — reuse the lib's cached rankings; map labels to EN
   const review = buildHonestReview(city);
 
+  const breadcrumb = breadcrumbJsonLd([
+    { name: "Home", path: "/" },
+    { name: "Cities", path: "/cities" },
+    { name: city.name, path: `/cities/${slug}` },
+    { name: "Honest review", path: `/cities/${slug}/honest-review` },
+  ]);
+
   return (
     <main id="main-content" className="min-h-screen">
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <Navbar />
 
       <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-12">

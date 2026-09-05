@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { VERDICT_META, REF_SURFACE_M2, type RentVsBuyVerdict } from "@/lib/rent-vs-buy";
 import { buildRentVsBuy } from "@/lib/rent-vs-buy-rankings";
 import { cityAlternatesEn } from "@/lib/i18n";
@@ -76,8 +77,16 @@ export default async function EnCityOwnVsRent({ params }: Props) {
   if (!city) notFound();
   const data = buildRentVsBuy(slug);
 
+  const breadcrumb = breadcrumbJsonLd([
+    { name: "Home", path: "/" },
+    { name: "Cities", path: "/cities" },
+    { name: city.name, path: `/cities/${slug}` },
+    { name: "Own vs rent", path: `/cities/${slug}/own-vs-rent` },
+  ]);
+
   return (
     <main id="main-content" className="min-h-screen">
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <Navbar />
 
       <section className="mx-auto max-w-3xl px-4 sm:px-6 pt-16 pb-8">
