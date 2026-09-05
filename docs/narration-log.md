@@ -4,6 +4,27 @@ Journal des passes de retravail narratif (fluidité, rythme, transitions, accroc
 Une ligne par run : `- YYYY-MM-DD app/chemin/du/fichier.tsx :: identifiant`.
 Les données factuelles (chiffres, scores, noms) ne sont jamais modifiées.
 
+## Reliquat mesuré le 2026-09-05 — la passe R7.8 a un angle mort
+
+Le corpus FR est bien à la cible R7.10 **en moyenne** (1 tiret cadratin pour 352 mots
+sur `intro` + `sections[].body`, cible 200), mais la moyenne cache une queue :
+**85 guides sont sous 1 tiret pour 100 mots**, dont **39 de la série tourisme
+`10-choses-a-faire-*`**. Ce ne sont pas des guides « à alléger » : ils n'ont jamais été
+mis en prose, ils sont restés en fragments sans verbe ponctués par parenthèses et
+cadratins (Riom était à 1 pour 29). La roadmap donne R7.8 pour *DONE* — c'est vrai du
+gros du corpus, faux de cette queue.
+
+Prochains plus atteints, mesurés : `10-choses-a-faire-a-royan-2026` (1/30),
+`-pezenas-` (1/34), `-montbeliard-` (1/35), `-sisteron-` (1/36), `-concarneau-` (1/36),
+`-vienne-` (1/37), `-saint-brieuc-` (1/38), `-saint-jean-de-luz-` (1/39), `-apt-` (1/39),
+`-saint-paul-de-vence-` (1/41). Hors tourisme : `acheter-maison-campagne-france-2026-vraiment-vivable`,
+`encadrement-loyers-france-2026-villes-investir-malgre-tout`, la série `travail-a-*`
+(Caen, Clermont-Ferrand, Rouen, Reims) et `vacances-monoparentales-*`.
+
+Le compte se reprend sur `intro` + `sections[].body` **uniquement** : les `heading`
+(« N. Label — ») et les `metaTitle` gardent leurs cadratins, ce sont des séparateurs
+structurels, et les compter fait croire à une régression.
+
 - 2026-07-03 app/guides/[slug]/page.tsx :: vivre-en-france-teletravail-guide-2025
 - 2026-07-04 app/guides/[slug]/page.tsx :: quitter-lyon-guide-2026
 - 2026-07-05 app/guides/[slug]/page.tsx :: vivre-en-corse-guide-2026
