@@ -16,7 +16,7 @@ Demande utilisateur directe. F58 / F60 / F61 livrées le jour même ; **F59 livr
 | F58 | City Match — profil « parent solo » | P1 | S | mid | ✅ shipped 2026-07-22 · sous-page `/villes/[slug]/parent-solo` ×540 + hub `/parent-solo` + miroir EN `/single-parent` + `/cities/[slug]/single-parent` ×540 shipped 2026-07-25→28 · série guides `parent-solo-a-[ville]-2026` batch 1 (+10) shipped 2026-07-24, batch 2 (+10 : Rennes, Nancy, Angers, Grenoble, Dijon, Metz, Reims, Aix-en-Provence, Rouen, Toulon) shipped 2026-08-07 · miroir EN de la série `single-parent-in-[city]-2026` batch 1 (+10 : Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux, Lille) shipped 2026-08-09, batch 2 (+10) shipped 2026-08-11 — **parité FR/EN atteinte à 20/20** · **batch 3 FR (+9 : Villeurbanne, Besançon, Caen, Brest, Tours, Limoges, Clermont-Ferrand, Saint-Étienne, Le Havre) shipped 2026-08-14**, **miroir EN batch 3 (+9) shipped 2026-08-15 — parité rétablie à 29/29** · **batch 4 FR (+10 : Nîmes, Saint-Denis de La Réunion, Le Mans, Amiens, Annecy, Perpignan, Orléans, Mulhouse, Poitiers, Dunkerque) shipped 2026-08-16**, **miroir EN batch 4 (+10) shipped 2026-08-17 — parité rétablie à 39/39** (compteur vérifié des deux côtés avant et après le run, cf. § Parité EN) · **batch 5 FR (+9 : Saint-Paul 974, Avignon, Saint-Pierre 974, Béziers, La Rochelle, Pau, Cherbourg-en-Cotentin, Fort-de-France, Mérignac) shipped 2026-08-23 — 48 FR contre 39 EN, premier guide martiniquais de la série**, **miroir EN batch 5 (+9) shipped 2026-08-25 — parité rétablie à 48/48** (rang publié = fit décroissant puis nom croissant, cf. § Parité EN) · **batch 6 FR (+9 : Valence, Colmar, Saint-Nazaire, Chambéry, Bourges, Pessac, Calais, Le Tampon 974, Ajaccio) shipped 2026-08-28 — 57 FR contre 48 EN, premier guide corse de la série** (+ 5 superlatifs faux corrigés, dont un dans le guide Pau du batch 5, cf. § ci-dessous) · **miroir EN batch 6 (+9) shipped 2026-08-29 — parité rétablie à 57/57**, premier guide corse côté EN (+ 2 comparatifs faux des guides FR du 28/08 corrigés des deux côtés, cf. § Parité EN) · **batch 7 FR (+9 : La Roche-sur-Yon, Dole, Lannion, Challans, Saint-Dié-des-Vosges, Albi, Cholet, Laon, Anglet) shipped 2026-08-30 — 66 FR contre 57 EN. Le run change la règle de sélection : population → rang. Six batches « par population » avaient couvert 9 des 40 premières villes du classement et laissé La Roche-sur-Yon, 1re sur 363, sans guide ; ce batch referme le top 11 en entier** (+ 3 superlatifs faux corrigés et le vivier du batch 6 démenti par la mesure, cf. § ci-dessous) · **miroir EN batch 7 (+9) shipped 2026-09-02 — parité rétablie à 66/66** · **batch 8 FR (+9 : Fontainebleau, Soissons, Vienne 38, Villefranche-sur-Saône, Auch, Chaumont, Compiègne, Les Sables-d'Olonne, Sens) shipped 2026-09-04 — 75 FR contre 66 EN. Le batch referme le **top 20 du classement publié** en appliquant la règle du rang du batch 7, vivier recalculé et non recopié ; 5 superlatifs faux corrigés avant insertion et le plancher d'éligibilité du classement mesuré (5 communes classées sont sous 20 000 au recensement, Fontainebleau à 4 213 près, cf. § ci-dessous)**, neuvième réouverture refermée ; 532 figures contrôlées contre les jumelles FR, 0 écart, et aucun superlatif faux trouvé cette fois (cf. § Parité EN) |
 | F59 | **Parcs & espaces verts par ville** (pipeline OSM + sub-page ×540) | **P0** | **L** | **high** | ✅ shipped 2026-07-27 |
 | F60 | `/departements` — finder par n° / nom / ville + carte cliquable | P1 | S | low | ✅ shipped 2026-07-22 · carte cliquable 2026-07-23 |
-| F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 · série guides `vacances-celibataire-[ville]-2026` batch 1 (+8) shipped 2026-08-01 · série `vacances-monoparentales-[ville]-2026` batch 1 (+7) shipped 2026-08-05 · `vacances-celibataire-[ville]-2026` batch 2 (+7 : Toulouse, Lille, Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle) shipped 2026-08-08 · croisement mois × profil `/vacances/ou-partir/[combo]` (12 × 7 = 84 pages SSG) shipped 2026-08-12 · miroir EN de la série célibataire, `solo-travel-in-[city]-2026` batch 1 (+8 : Paris, Lyon, Bordeaux, Lille, Strasbourg, Toulouse, Montpellier, Nantes) shipped 2026-08-13 · série EN fermée (batch 2, +7) 2026-08-14 · guide pilier `partir-en-vacances-seul-2026` + correction de l'anti-station-fantôme (part réelle des 15-29 ans Insee au lieu d'un écart d'affluence constant) shipped 2026-08-15 · **miroir EN de la série monoparentale, `single-parent-holidays-[city]-2026` (+7 : La Rochelle, Strasbourg, Nantes, Rennes, Vannes, Nancy, Dijon) shipped 2026-08-19 — parité FR/EN atteinte à 7/7, mêmes villes des deux côtés** (+ 4 chiffres faux corrigés dans la série FR au passage, cf. § ci-dessous) · **`vacances-celibataire-[ville]-2026` batch 3 (+7 : Nancy, Poitiers, Rouen, Caen, Clermont-Ferrand, Tours, Besançon) shipped 2026-08-22 — sélection dérivée de la mesure anti-station-fantôme, + 1 erreur de données corrigée dans `lib/transit.ts`, cf. § ci-dessous** · **`vacances-monoparentales-[ville]-2026` batch 2 (+8 : Lyon, Angers, Bordeaux, Besançon, Grenoble, Brest, Tours, Valence) shipped 2026-08-26 — sélection dérivée de la règle « accessible en train sans voiture » de la page profil elle-même, palier d'ex æquo pris entier, cf. § ci-dessous** · **`vacances-celibataire-[ville]-2026` batch 4 (+7 : Brest, Reims, Orléans, Metz, Troyes, Pau, Chambéry) shipped 2026-08-29 — règle du batch 3 recalculée et non recopiée, ce qui a rattrapé Orléans que la liste annoncée avait sauté ; + 4 erreurs de mode de transport corrigées dans `data/neighborhoods.ts` (Metz, Limoges, Amiens, Valence), cf. § ci-dessous** · **`vacances-monoparentales-[ville]-2026` batch 3 (+7 : Toulouse, Pau, Mâcon, Aix-en-Provence, Poitiers, Saint-Raphaël, Metz) shipped 2026-09-02 — premier lot où le profil classe haut des destinations chères, règle de sélection recalculée et non recopiée ; 7 comparaisons inter-villes fausses corrigées avant commit, cf. § ci-dessous** |
+| F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 · série guides `vacances-celibataire-[ville]-2026` batch 1 (+8) shipped 2026-08-01 · série `vacances-monoparentales-[ville]-2026` batch 1 (+7) shipped 2026-08-05 · `vacances-celibataire-[ville]-2026` batch 2 (+7 : Toulouse, Lille, Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle) shipped 2026-08-08 · croisement mois × profil `/vacances/ou-partir/[combo]` (12 × 7 = 84 pages SSG) shipped 2026-08-12 · miroir EN de la série célibataire, `solo-travel-in-[city]-2026` batch 1 (+8 : Paris, Lyon, Bordeaux, Lille, Strasbourg, Toulouse, Montpellier, Nantes) shipped 2026-08-13 · série EN fermée (batch 2, +7) 2026-08-14 · guide pilier `partir-en-vacances-seul-2026` + correction de l'anti-station-fantôme (part réelle des 15-29 ans Insee au lieu d'un écart d'affluence constant) shipped 2026-08-15 · **miroir EN de la série monoparentale, `single-parent-holidays-[city]-2026` (+7 : La Rochelle, Strasbourg, Nantes, Rennes, Vannes, Nancy, Dijon) shipped 2026-08-19 — parité FR/EN atteinte à 7/7, mêmes villes des deux côtés** (+ 4 chiffres faux corrigés dans la série FR au passage, cf. § ci-dessous) · **`vacances-celibataire-[ville]-2026` batch 3 (+7 : Nancy, Poitiers, Rouen, Caen, Clermont-Ferrand, Tours, Besançon) shipped 2026-08-22 — sélection dérivée de la mesure anti-station-fantôme, + 1 erreur de données corrigée dans `lib/transit.ts`, cf. § ci-dessous** · **`vacances-monoparentales-[ville]-2026` batch 2 (+8 : Lyon, Angers, Bordeaux, Besançon, Grenoble, Brest, Tours, Valence) shipped 2026-08-26 — sélection dérivée de la règle « accessible en train sans voiture » de la page profil elle-même, palier d'ex æquo pris entier, cf. § ci-dessous** · **`vacances-celibataire-[ville]-2026` batch 4 (+7 : Brest, Reims, Orléans, Metz, Troyes, Pau, Chambéry) shipped 2026-08-29 — règle du batch 3 recalculée et non recopiée, ce qui a rattrapé Orléans que la liste annoncée avait sauté ; + 4 erreurs de mode de transport corrigées dans `data/neighborhoods.ts` (Metz, Limoges, Amiens, Valence), cf. § ci-dessous** · **`vacances-monoparentales-[ville]-2026` batch 3 (+7 : Toulouse, Pau, Mâcon, Aix-en-Provence, Poitiers, Saint-Raphaël, Metz) shipped 2026-09-02 — premier lot où le profil classe haut des destinations chères, règle de sélection recalculée et non recopiée ; 7 comparaisons inter-villes fausses corrigées avant commit, cf. § ci-dessous** · **`vacances-celibataire-[ville]-2026` batch 5 (+7 : Le Mans, Valence, Saint-Denis de La Réunion, Mulhouse, Avignon, Bourges, Quimper) shipped 2026-09-05 — premier lot de la série hors métropole (calendrier austral inversé, aucun train sur l'île), règle recalculée et non recopiée, palier d'ex æquo Avignon/Bourges pris entier ; 10 comparaisons inter-villes fausses corrigées avant commit, cf. § ci-dessous** |
 
 ### F61 — série monoparentale, batch 3 : `vacances-monoparentales-[ville]-2026` (2026-09-02)
 
@@ -228,6 +228,201 @@ mémoire), là où le premier lot en couvrait deux. Pour le batch FR **suivant**
 6,0**, puis Reims, Le Mans, Lille et Mulhouse à 5,8 — les recalculer plutôt que les recopier, et
 noter que ce palier fait entrer des villes à sécurité basse (Lille 3,9) qu'il faudra traiter comme
 Grenoble l'est ici : le chiffre dit, sans verdict sur les habitants.
+
+### F61 — série célibataire, batch 5 : `vacances-celibataire-[ville]-2026` (2026-09-05)
+
+Item 2 du plan agent « vacances célibataire ». La série comptait 29 guides FR et 29 jumelles EN
+depuis le batch EN du 23/08 (`solo-travel-in-` refermée à 29/29), donc écart nul : la main
+revenait au FR. **+7 guides, compteur mesuré `grep -c 'slug: "vacances-celibataire-'` = 36 ;
+`GUIDES` 1073 → 1080.** `npm run search-index` relancé (`data/search-index.json` 1 080 guides,
+**257 tags, inchangé** — aucun tag neuf n'a franchi le seuil de 3 guides, donc aucune page
+`/tags/` créée), et `npm run sitemap:check` repassé quand même : FR 29 162 → **29 169 URL**, soit
+exactement les 7 guides neufs ; EN 28 737 inchangé. Les 7 guides sont vérifiés **retrouvés par
+`guideCityPhoto` et pourvus de leur photo d'en-tête** après écriture.
+
+**La règle du batch 3 a de nouveau été recalculée et non recopiée**, comme le batch 4 l'avait
+imposé après le rattrapage d'Orléans. Réappliquée (part des 15-29 ans Insee 2022, `pop2022 ≥ 60 000`,
+`culture ≥ 6,0`, `life ≥ 5,5`, hors banlieues de métropoles déjà couvertes et hors villes déjà
+traitées), elle confirme cette fois la liste annoncée au batch 4 sans surprise. Ordre retenu et rangs
+nationaux sur la valeur **non arrondie** (538 villes mesurées, médiane 18,4 %) : **Le Mans 21,7 %
+(95ᵉ), Valence 21,4 % (106ᵉ), Saint-Denis de La Réunion 21,1 % (120ᵉ), Mulhouse 20,8 % (134ᵉ),
+Avignon 20,3 % (158ᵉ), Bourges 20,3 % (162ᵉ), Quimper 19,7 % (190ᵉ)**. Deux points de convention.
+Le **palier Avignon / Bourges à 20,3 %** (20,3487 % et 20,2983 % non arrondis) est **pris entier**,
+convention de `lib/owner-rankings.ts` appliquée à une sélection éditoriale. Et la **coupe se fait sur
+un écart franc**, Quimper 19,7290 % contre Saint-Pierre de La Réunion 19,5238 %, donc aucun palier
+n'est coupé en son milieu. Huit communes éligibles sur les chiffres sont écartées comme banlieues de
+métropoles déjà couvertes, au même titre que Villeurbanne aux batches 3 et 4 : Villeurbanne (29,2 %),
+Ivry-sur-Seine (25,1 %), Levallois-Perret, Versailles, Courbevoie, Boulogne-Billancourt,
+Issy-les-Moulineaux et Rueil-Malmaison. ⚠️ Rappel du batch 4, toujours valide : **le seuil de
+population se prend sur `pop2022`, pas sur le `population` du seed**.
+
+**C'est le premier lot de la série qui sort de métropole, et Saint-Denis de La Réunion inverse à peu
+près tout ce que les trente-quatre guides précédents avaient posé.** Sa part de 60 ans et plus,
+20,0 %, est la plus basse du lot pour une médiane nationale de 27,2 %, et c'est la seule ville des
+sept qui croisse fortement (+5,6 % depuis 2016, +7,4 % depuis 2011). Elle porte le meilleur score de
+vie quotidienne (6,8/10) et de nature (8,4/10) du lot, et les deux plus mauvais sur le coût (4,1/10)
+et le transport (4,7/10). Trois faits structurent son guide et sont vérifiés en ligne : **il n'existe
+aucun train à La Réunion**, l'ancien chemin de fer ayant fermé en **1976** et le tram-train ayant été
+**abandonné en 2010** après le changement de majorité régionale, les **435 M€** de crédits d'État
+étant redéployés vers la route du littoral au profit du programme de BHNS **Trans Éco Express** ;
+le réseau urbain **Citalis** dessert Saint-Denis, Sainte-Marie et Sainte-Suzanne ; et **la saison
+sèche correspond à l'hiver austral**, de mai à novembre, la saison cyclonique courant de novembre à
+avril avec un pic en janvier-février-mars, ce que nos propres normales confirment (14 jours de pluie
+en janvier, février et mars contre 6 en novembre). Le guide dit aussi que le poste de budget non
+partageable n'y est pas la chambre mais **le billet d'avion et la location de voiture**, facturée au
+véhicule.
+
+⚠️ **Dix comparaisons inter-villes fausses, écrites au premier jet et corrigées avant commit — le
+mode de défaillance des batches 3 et 4 s'est reproduit une troisième fois, et la parade prescrite l'a
+de nouveau entièrement rattrapé.** Les scores *de la ville de chaque page* étaient tous justes ; ce
+sont les rangs et les superlatifs **entre** villes qui dérapent, parce qu'on les écrit de mémoire, et
+ni `tsc` ni `npm run integrity` ne peuvent les voir. Le remède reste le même et doit être appliqué
+avant toute relecture : **sortir la matrice des axes du lot avec ses paliers d'ex æquo, et vérifier
+chaque superlatif contre elle**. Les dix :
+- **Mulhouse** annoncée « les loyers de référence les plus bas des sept » dans son intro, sa section
+  budget **et sa `metaDesc`** : c'est **Bourges**, en dessous sur les deux références (410 € contre
+  420 € en T1, 570 € contre 580 € en T2).
+- **Valence** donnée « deuxième derrière Saint-Denis » sur la nature (6,3) : **Quimper la précède**
+  à 6,4.
+- **Valence** donnée « avant-dernière » en sécurité (5,2) : elle est la **quatrième plus basse**,
+  Saint-Denis 4,9 étant en dessous.
+- **Saint-Denis** donnée « quatrième valeur la plus basse » en sécurité (4,9) : elle est la
+  **troisième**, derrière Avignon 4,3 et Mulhouse 4,5.
+- **Avignon** donnée « troisième score de coût le plus défavorable » (5,7) : elle est la **deuxième**,
+  derrière Saint-Denis seule.
+- **Avignon** : son avance de culture chiffrée à « trois points et demi » sur le minimum du lot, alors
+  que 9,0 − 6,2 = **2,8**. Même famille que l'écart de sept siècles et demi lu « deux siècles et demi »
+  à Sens (batch 37) : les deux nombres étaient justes, c'est la **soustraction** qui dérapait.
+- **Avignon** : novembre annoncé « plus ensoleillé que la moyenne de juillet en Bretagne », alors que
+  Quimper est à **5,8 h** en juillet contre 5,0 h à Avignon en novembre. Comparaison retirée.
+- **Quimper** donnée « avant-dernière » en transport (5,5), la phrase se contredisant elle-même en
+  ajoutant « devant Bourges et Saint-Denis » : elle est la **troisième plus basse**.
+- **Quimper** donnée « quatrième du lot » sur le coût (6,2) : elle est **cinquième**.
+- **Bourges** présentée comme « la deuxième ville de la série sans TGV ni mode urbain sur rails, après
+  Troyes » : elles sont **trois**, et **ce batch en apporte deux d'un coup** (Bourges et Saint-Denis).
+  Le contrôle qui l'a tranché est un `npx tsx` de quinze lignes sur les 36 slugs de la série contre
+  `lib/transit.ts` — il ne coûte rien et il faut le relancer à chaque batch.
+
+⚠️ **Le croisement `neighborhoods` ↔ `transit` recommandé par le batch 4 a été relancé, et il est
+propre cette fois** : aucun tramway ni métro fantôme neuf sur les villes dont `lib/transit.ts` porte
+une fiche renseignée. Trois cas remontent, tous en Île-de-France et tous **exacts** après lecture
+(Champerret à Levallois est bien desservi par le T3b sur le boulevard des Maréchaux, Nanterre et
+Courbevoie décrivent la desserte de La Défense par la ligne 1, qui est une desserte accessible et non
+une prétention communale). La variante brute du contrôle, sans le filtre « fiche transit renseignée »,
+sort **101 cas dont la quasi-totalité sont des faux positifs** : une banlieue sans fiche transit
+(`{}`) qui mentionne le tram de la métropole voisine dit vrai. **Garder le filtre.**
+
+**Trois autres pièges de localisation et de calendrier écartés avant rédaction**, convention
+« accessible depuis » tenue partout : ① la **gare de Valence TGV est sur la commune d'Alixan**, à une
+dizaine de kilomètres du centre, reliée à Valence-Ville par un TER d'environ **7 minutes** et une
+vingtaine de circulations par jour — un billet pris sans regarder la gare dépose le voyageur dans une
+autre commune, et le guide le dit avant tout le reste ; à comparer avec **Avignon**, dont la gare TGV
+est bien **sur la commune** (quartier de la Courtine) et reliée à Avignon-Centre par la **Virgule**,
+raccordement ouvert le **15 décembre 2013**, **4 minutes**, environ **35 allers-retours par jour** —
+deux gares excentrées, deux situations différentes, et c'est exactement le genre de nuance qu'une page
+recopiée d'une autre écrase. ② Le **Train-Théâtre est à Portes-lès-Valence**, pas à Valence, et la
+**Comédie itinérante** de la Comédie de Valence joue plus de **60** représentations par saison **hors
+de la ville**, avec plus de **110** partenaires locaux : vérifier le lieu avant de prendre un billet.
+③ Le **Séchoir est au Piton Saint-Leu** et **Kabardock au Port**, pas à Saint-Denis ; le **Téat Champ
+Fleuri**, lui, est bien à Saint-Denis.
+
+**Trois calendriers déjà passés à la publication, écrits comme tels plutôt qu'au présent**, précédent
+du Festival de Loire au batch 4 : les **24 Heures du Mans** (94ᵉ édition les **13 et 14 juin 2026**,
+suivante attendue en juin 2027), le **Festival d'Avignon** et le **Festival Off** (**4 au 25 juillet
+2026**, 80ᵉ édition du IN et soixante ans du OFF, plus de **1 700** spectacles et plus de **130**
+théâtres pour le OFF, suivante attendue en juillet 2027), le **Printemps de Bourges** (50ᵉ édition du
+**14 au 19 avril 2026**, environ **130** artistes pour près de **300** concerts, suivante attendue en
+avril 2027) et le **Festival de Cornouaille** de Quimper (103ᵉ édition du **23 au 26 juillet 2026**,
+plus de **2 000** artistes et près de **150** rendez-vous). Dans les quatre cas le guide dit que c'est
+la semaine où l'hébergement se tend et où une chambre non partagée coûte son maximum annuel, ce qui
+est le sujet même de la série.
+
+**Un superlatif conservé parce qu'il est vérifié, et sa formulation prudente.** La **maison de la
+culture de Bourges** a ouvert en **octobre 1963** et a été inaugurée par **André Malraux le 18 avril
+1964** ; celle du **Havre l'avait été avant elle, en 1961**, mais Bourges est **la première à avoir
+fonctionné selon les principes posés par le ministre**. Écrire « la première maison de la culture de
+France » aurait été faux, et c'est la formulation que tout le monde recopie. Autres faits vérifiés en
+ligne avant rédaction : **Bourges capitale européenne de la culture 2028**, désignée le **13 décembre
+2023** devant Clermont-Ferrand, Montpellier et Rouen, cinquième ville française après Paris, Avignon,
+Lille et Marseille-Provence, aux côtés de České Budějovice et Skopje — le guide en tire un conseil de
+calendrier long, **2026 et 2027 sont la bonne fenêtre**, 2028 étant l'année où l'hébergement se
+tendra ; **Bourges n'a ni TGV ni rail urbain**, la liaison se fait en **Intercités depuis Paris-Bercy
+via Étampes et Vierzon, environ 2 h 15, quatre allers-retours par jour** ; **tramway du Mans** T1 le
+**19 novembre 2007** et T2 le **30 août 2014**, près de **19 km** et **33 stations**, exploité par la
+**Setram** ; **Superforma**, seule SMAC de la Sarthe, labellisée en **2015**, et **Les Quinconces et
+L'Espal** labellisés scène nationale en **décembre 2018** ; la **Nuit des Chimères** habille la Cité
+Plantagenêt chaque soir d'été jusqu'à la fin septembre, **gratuitement et sans réservation**, ce qui
+en fait le meilleur argument du lot pour une soirée en solitaire ; **tramway de Mulhouse** lignes 1 et
+2 le **20 mai 2006**, ligne 3 le **12 décembre 2010** en même temps que le **tram-train de la vallée
+de la Thur**, premier tram-train réellement interconnecté de France, **16,2 km** et **29 stations** ;
+le **Noumatrouff**, SMAC née en **1992** dans une friche du quartier de la Mertzau, **1 500 m²**, deux
+salles de **600** et **300** places, **80 concerts** par an, près de **25 000** spectateurs ; la
+**Cité de l'Automobile**, plus grande collection automobile exposée au monde, **560+** véhicules dont
+**130 Bugatti**, dans une ancienne filature rachetée par les frères Schlumpf en **1957** et ouverte au
+public en **1982** ; **centre historique d'Avignon inscrit à l'UNESCO en 1995**, **4,3 km** de
+remparts des XIVᵉ et XVᵉ siècles, **université d'Avignon environ 8 000 inscrits** (ordre de grandeur
+sans rapport avec les villes étudiantes de la série, ce qui fait de la vitalité avignonnaise un
+mécanisme d'économie culturelle et non de population étudiante, et le guide le dit) ; **tramway
+d'Avignon** mis en service le **19 octobre 2019**, une ligne, **5,2 km**, réseau **Orizo** ; **CDN de
+l'océan Indien** labellisé le **30 juillet 2018**, Théâtre du Grand Marché **300 places** plus une
+salle cabaret de **200**, seconde salle **FabriK** à Sainte-Clotilde ; **Quimper–Paris-Montparnasse en
+3 h 30**, **six allers-retours** quotidiens depuis l'ouverture de la **LGV Bretagne-Pays de la Loire
+en 2017** ; **Le Novomax** de Quimper, cinq studios, salle modulable **Le Club** de **100 à 390**
+places, bureaux de **Polarité[s]**.
+
+**Chiffres et vérifications.** Les **107** figures en `/10` des sept guides tracent **toutes** vers un
+score **rendu** (`CITIES_SEED` et `data/neighborhoods.ts` lus via un `npx tsx`, jamais par grep du
+seed) d'une ville que le guide nomme ; les parts d'âge et les populations viennent de
+`lib/city-population.ts` (Insee 2022), **pas des `population` approximatives du seed** ; les loyers
+viennent de `data/housing.ts` et les températures, heures de soleil et jours de pluie de
+`lib/vacation-seasons.ts`. **Aucun tarif d'hébergement n'est imprimé**, comme dans toute la série : on
+transmet le réflexe, pas le prix. `metaTitle` 57-60 caractères, `metaDesc` 143-153, 6 sections et
+1 287-1 408 mots par guide, densité d'accents 0,132-0,159 (**par mot** ; seuil de détection
+ascii-strip 0,09), **zéro em-dash dans le corps**. `relatedGuides` câblés sur des slugs vérifiés
+existants, `relatedCities` sur la ville cible. Garde-fou éditorial tenu : aucune promesse de
+rencontre, aucun registre « site de rencontres », aucun cliché sur la solitude, écriture inclusive
+légère (`seul·e`), et la distinction avec le profil `solo` portée par la section « sortir un mardi
+soir » de chaque guide. Deux villes portent un score de sécurité bas (Avignon 4,3, Mulhouse 4,5) : le
+chiffre est dit, sans verdict sur les habitants, comme Grenoble et Lille l'ont été aux batches 3 et 4.
+
+⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. § Commands depuis le batch 27 : 4 h 30
+de génération, `.next` à 25 Go, ENOSPC avant la finalisation, aucun signal utile). Le substitut
+prescrit passe en entier : `npx tsc --noEmit` **propre**, `npm run integrity` (guides FR 1073 →
+1080), `search-index` + `search-index:check`, `sitemap:check`, `npm run parity` (0 route FR sans
+jumelle), `npm run hreflang:check`, plus les contrôles maison du run (matrice des superlatifs,
+traçage des figures `/10`, résolution `guideCityPhoto`, croisement `neighborhoods` ↔ `transit`,
+vérification d'encodage). Note d'environnement reconfirmée : le conteneur de routine démarre **sans
+`node_modules`** — `npm install` d'abord.
+
+**Écart FR→EN après ce batch : 7 villes** (le-mans, valence, saint-denis-reunion, mulhouse, avignon,
+bourges, quimper) — au-dessus du seuil de ~6, donc **le prochain run doit être un batch EN** de la
+série `solo-travel-in-[city]-2026`. Rappel de la règle du batch 33 : côté EN le slug se dérive du
+**slug de seed tel quel**, donc **`solo-travel-in-saint-denis-reunion-2026`** garde son suffixe (le
+lookup se fait sur le slug de seed) et **`solo-travel-in-le-mans-2026`** garde son article. Quatre
+points de vigilance pour ces jumelles. ① **Saint-Denis de La Réunion doit être désambiguïsé dès la
+première ligne** face à Saint-Denis (93), sur le modèle déjà en place dans la série tourisme, et
+l'inversion des saisons doit être posée avant toute phrase sur le climat : un lecteur de l'hémisphère
+nord lira « hiver » comme une mauvaise saison. ② **Le Mans est de l'histoire du sport automobile
+britannique et américaine autant que française** (Bentley, Jaguar, Ford face à Ferrari, Steve
+McQueen), donc la jumelle anglaise a de la matière propre là où le guide FR reste sobre et se
+contente de dire d'éviter la date : même arbitrage qu'avec Jubilee à Dieppe (batch 37) et Cambrai
+(batch 39). ③ **Mulhouse est à portée de Bâle**, donc la jumelle doit poser que la Suisse est dans
+Schengen mais **hors Union européenne et hors union douanière** — pièce d'identité obligatoire et
+franchises applicables, le piège étant de déduire « pas de contrôle » de « pas de règles » ; c'est le
+cadrage déjà retenu pour Thonon au batch EN 41. ④ **Le Festival d'Avignon se joue en anglais dans les
+sources anglophones sous son nom français**, et le OFF est le plus gros marché de spectacle vivant
+d'Europe : la jumelle a de quoi être plus longue que la française sur ce seul point.
+Pour le batch FR **suivant**, la règle recalculée donnera, dans l'ordre et hors banlieues de
+métropoles : **Saint-Pierre de La Réunion 19,5 % (199ᵉ)**, **Colmar 19,4 % (209ᵉ)** et **Annecy 19,4 %
+(212ᵉ)** — ces deux dernières formant un **palier d'ex æquo à prendre entier ou pas du tout** — puis
+**Niort 19,0 % (236ᵉ)**, **Nice 18,4 % (268ᵉ)**, **Montauban 17,8 % (301ᵉ)**, **Fort-de-France 15,8 %
+(420ᵉ)**, **Antibes 14,5 % (465ᵉ)**, **Cannes 14,4 % (468ᵉ)** et **Ajaccio 13,7 % (483ᵉ)**. Les
+recalculer plutôt que les recopier. Deux remarques. Le vivier bascule vers **le littoral et les
+stations**, c'est-à-dire exactement le profil que l'anti-station-fantôme est fait pour écarter :
+Cannes, Antibes et Ajaccio sont sous la médiane nationale de 18,4 % et devront être traitées comme
+telles, ou écartées, plutôt que vendues. Et **Fort-de-France ouvrirait la série aux Antilles** après
+La Réunion, avec le même travail d'inversion de calendrier à faire, la saison sèche antillaise
+(le carême) courant de décembre à avril, donc à l'inverse de celle de La Réunion.
 
 ### F61 — série célibataire, batch 4 : `vacances-celibataire-[ville]-2026` (2026-08-29)
 
