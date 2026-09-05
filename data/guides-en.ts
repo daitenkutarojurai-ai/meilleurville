@@ -35105,6 +35105,382 @@ export const EN_GUIDES: EnGuide[] = [
       "rural france",
     ],
   },
+  {
+    slug: "best-french-cities-house-with-garden-2026",
+    title: "Where €200,000 Still Buys a House With a Garden in France (2026)",
+    metaTitle: "A House With a Garden Under €200k in France 2026",
+    metaDesc:
+      "The French towns where €200,000 still buys a family house with land, ranked from recorded sale prices, and the ones that are cheap for a bad reason.",
+    category: "budget",
+    emoji: "🏡",
+    readMinutes: 9,
+    publishedAt: "2026-09-05",
+    updatedAt: "2026-09-05",
+    intro:
+      "The house in France with a bit of land around it is the single most common reason people from Britain, Ireland, the Netherlands and North America start looking at this country at all. It is also the easiest daydream to price badly, because the figure that circulates in expat forums is either a Dordogne barn that needs €150,000 of work or a Provençal number that has nothing to do with the rest of the map. This guide uses recorded transactions instead. France publishes its recorded property sales in an open dataset called DVF, and we hold the median price per square metre for houses in 507 of the 540 towns on this site. That median is what a house actually changed hands for, not what an agent hoped. What follows is the list of towns where the median puts a normal family house inside a €200,000 budget, filtered so that the cheap ones are cheap for a liveable reason.",
+    sections: [
+      {
+        heading: "What €200,000 means in square metres",
+        body: "Across the 507 towns with a published house median, the middle value is €2,840 per m². At that price a €200,000 budget buys about 70 m², which is a flat, not a house. But 151 of those towns sit at or below €2,000 per m², and that is the threshold that matters: at €2,000 per m² a budget of €200,000 buys 100 m² of built surface, which in French terms is a four-room house (a T4) with a garden. Below €1,500 per m² you are into 130 m² and up. The reason the spread is this violent is that France has roughly the population of the United Kingdom spread over more than twice the area, and outside about fifteen employment basins the housing stock is not competed for. Nothing about the building quality changes across that gradient. What changes is who else wants to live there.",
+      },
+      {
+        heading: "Read the house price correctly before you use it",
+        body: "Two things about a French house price per square metre, and both cut the same way. The recorded price is for the whole sale, so it includes the land, the garage, the cellar and the barn, while the surface used to divide it is the built living surface only. A house figure and a flat figure from the same town are therefore not comparable to the euro, and the house one flatters larger plots. Second, a median is not a quote. In a town of 20,000 the spread between a renovated house near the centre and an unrenovated one on the edge is routinely a factor of two, and our own dispersion work shows that some towns have an interquartile spread above 100%. Use the median to build a shortlist of places, then price individual houses. We only publish a median where at least twenty sales of that type were recorded over 2024 and 2025, and the shortlist below raises that to fifty.",
+      },
+      {
+        heading: "The shortlist: liveable towns under €2,000 per m²",
+        body: "Filtering to towns of at least 15,000 residents, at least fifty recorded house sales, a median at or under €2,000 per m² and an overall quality-of-life score of at least 6 out of 10 leaves 44 towns. The strongest by our score: Le Puy-en-Velay in the Auvergne, 7.7 out of 10, €1,835 per m² over 114 sales, so 109 m² for €200,000. Vendôme in the Loir-et-Cher, 7.4, €1,758 over 266 sales, 114 m². Saint-Dié-des-Vosges, 7.3, €1,522 over 208 sales, 131 m². Laon in the Aisne, 7.2, €1,233 over 315 sales, which is 162 m² for the same budget. Gaillac in the Tarn, 7.2, €1,932, and 2,200 hours of sun a year. La Flèche, 7.1, €1,719. Saumur on the Loire, 7.1, €1,987 over 436 sales. Saint-Lô in Normandy, 6.9, €1,707, with a safety score of 8.2. Brive-la-Gaillarde, 6.8, €1,922 over 829 sales, the deepest market on this list.",
+      },
+      {
+        heading: "The rest of the list, and what each one is trading away",
+        body: "Below those, still inside the filter: Château-Gontier-sur-Mayenne at €1,914 with the highest safety score of the group at 8.7, Chaumont at €1,528, Dole at €1,994, Vesoul at €1,537, Sens at €1,812, Soissons at €1,826, Auch at €1,746, Lons-le-Saunier at €1,898, Marmande at €1,594, Moulins at €1,494, Vichy at €1,907 and Villeneuve-sur-Lot at €1,429, where €200,000 buys 140 m². Each is trading something. Le Puy-en-Velay averages 3.5 °C in January and Saint-Dié-des-Vosges 1.5 °C, which are real winters by the standards of the Atlantic coast. Laon and Soissons sit in a thin local job market, so they suit an income that arrives from elsewhere. Healthcare access varies more than the prices do: on our difficulty scale, where 10 reads as a medical desert, the shortlist runs from 2.9 in Limoges, the easiest reading in the group, to 7.7 in La Flèche, the hardest, with most towns between 5.5 and 6.9. Pick the trade you can live with rather than the lowest number.",
+      },
+      {
+        heading: "The towns that are cheap for a bad reason",
+        body: "The cheapest recorded house medians in France are not on the list above, and the exclusion is deliberate. Denain in the Nord records €878 per m², which would buy 228 m², and scores 2.8 out of 10 overall. Saint-Quentin in the Aisne records €1,087 over 1,004 sales, a genuinely deep market, and 184 m² for the budget, but its safety score is 4.7. These are post-industrial towns where the employer closed and never came back, and the price is the market telling you so. That does not make them uninhabitable, and for a retired buyer with a portable income and a car the arithmetic can work. It does mean you should not treat the price as a bargain. A house you cannot sell is not cheap, it is illiquid.",
+      },
+      {
+        heading: "Three regions where this data does not exist",
+        body: "There is a hole in the French open property data that catches Anglophone buyers repeatedly, because the affected area is one of the most attractive to them. The Bas-Rhin, the Haut-Rhin and the Moselle, which is to say Alsace and the Moselle valley, operate under the livre foncier, a land-registry system inherited from the German period, and their sales are not published in DVF at all. Strasbourg, Mulhouse, Metz and Colmar therefore have no recorded median on this site and never will from this source. Mayotte is absent too. If you are looking at Alsace, you cannot check an asking price against recorded sales the way you can everywhere else in France, and you should lean harder on a local notaire.",
+      },
+      {
+        heading: "The costs that are not the purchase price",
+        body: "Budget about 7% to 8% on top of the price for what the French call frais de notaire on an existing house, most of which is transfer tax rather than the notaire's own fee. New-build is nearer 2% to 3%. As owner you then pay taxe foncière every year, which varies enormously by commune and which the seller will tell you if you ask. If you intend to let the house rather than live in it, the energy rating matters legally and not just morally: since 1 January 2025 a home rated G on the DPE may no longer be let in mainland France, class F follows in 2028 and class E in 2034, with the overseas départements pushed to 2031. A cheap unrenovated house in the countryside is very often an F or a G. Finally, if you are borrowing in France, the regulator caps total debt service including loan insurance at 35% of net income and the loan term at 25 years, with 27 allowed where works are at least 10% of the operation. Banks have a limited discretionary margin above that, and non-residents are not usually who they spend it on.",
+      },
+      {
+        heading: "Where to look next",
+        body: "One practical advantage of DVF being public is that you can look up what the house next door sold for, and what the house you are being shown sold for last time it changed hands. Very few sellers expect a foreign buyer to have done that. Use the town pages on this site for the rest of the picture before you commit: the housing page carries both medians and the recorded sale counts, and the healthcare, schools and transport pages will tell you whether the town works for your household rather than for your budget. If the answer is that everything in your price range is an hour from a hospital, the honest conclusion may be a smaller house in a larger town rather than a larger house in a smaller one.",
+      },
+    ],
+    relatedCities: [
+      "le-puy-en-velay",
+      "vendome",
+      "saint-die-des-vosges",
+      "laon",
+      "saumur",
+      "brive-la-gaillarde",
+      "saint-lo",
+    ],
+    tags: [
+      "buying property france",
+      "real estate",
+      "budget",
+      "moving to france",
+      "rural france",
+    ],
+  },
+  {
+    slug: "best-french-cities-20-minutes-from-the-sea-2026",
+    title: "Living 20 Minutes From the Sea in France, For a Third Less",
+    metaTitle: "Living Near the Sea in France Without Coastal Prices",
+    metaDesc:
+      "French towns just inland from the coast sell for a third less per m² than the shoreline, measured. Where the discount is real, and where it is not.",
+    category: "budget",
+    emoji: "🌊",
+    readMinutes: 9,
+    publishedAt: "2026-09-05",
+    updatedAt: "2026-09-05",
+    intro:
+      "Most people who move to France for the sea buy on the sea, and pay for the privilege of a view they will look at properly for about three weeks a year. This guide measures the alternative. Every town on this site carries a measured distance to open water, computed from the ocean polygon with a width filter so that a river 500 metres across does not count as the sea. That lets us compare what people actually paid, per square metre, in three bands: on the shoreline, just behind it, and deep inland. The gap between the first two bands is large, consistent and, unlike most property advice, checkable. The gap between the second and the third is almost nothing, which is the more interesting finding.",
+    sections: [
+      {
+        heading: "The measured gradient",
+        body: "Taking only towns with at least fifty recorded apartment sales in 2024 and 2025, the 69 towns within 5 km of open sea have a median recorded apartment price of €3,864 per m². The 58 towns between 5 and 40 km out come in at €2,566. The 340 towns more than 40 km from the sea come in at €2,357. So leaving the shoreline saves about a third, and then driving another 300 km inland saves you a further 8%. Almost the whole coastal premium is bought and paid for in the first few kilometres. If you want to be near the sea and you do not want to pay for the sea, the entire decision is whether you are on the water or ten minutes behind it.",
+      },
+      {
+        heading: "Rents barely follow the same curve",
+        body: "The rent picture is different enough to be worth its own sentence. Across the same set of towns, the median of our reference rents for a two-room flat is €800 a month on the shoreline, €690 in the 5 to 40 km band and €715 deep inland. In other words the band just behind the coast is the cheapest place to rent in the whole comparison, marginally cheaper than the middle of the country, while the shoreline costs about 16% more. The coastal premium in France is overwhelmingly a purchase premium, driven by second homes and by buyers who are not competing for a salary locally. If you are renting rather than buying, being near the sea costs you very little, and you should probably rent for a year before you buy anything at all.",
+      },
+      {
+        heading: "Four pairs that show the size of it",
+        body: "On the Charente-Maritime coast, La Rochelle records €4,844 per m² for apartments. Rochefort, which sits 9 km from open water, records €2,370, and Saintes at 30 km records €2,014. On the Côte d'Azur, Nice records €4,802 and Grasse, 13 km back into the hills, records €2,999. In the Languedoc, Sète records €3,415 and Béziers, 11 km inland, records €1,667. In the Vendée, Les Sables-d'Olonne records €4,647, Challans 14 km back records €2,637 and La Roche-sur-Yon at 29 km records €2,404. In each pair the inland town has a hospital, a station and a working weekday economy, and the coastal one has a better view.",
+      },
+      {
+        heading: "Where the rule breaks",
+        body: "The gradient is a median, not a law, and two exceptions matter. Aix-en-Provence sits 20 km from open sea and records €4,819 per m², which is more than Nice, more than Saint-Malo and more than Les Sables-d'Olonne. Being inland saves you nothing there, because Aix is not priced as a coastal alternative, it is priced as Aix. Saint-Rémy-de-Provence, 31 km back, and Valbonne, 10 km back, do the same thing. In the other direction, Toulon sits 3.4 km from open water and records €2,667, well under the inland median, because a working naval port is not a resort. Before you assume a town is cheap because it is behind the coast, check whether it is behind the coast or simply somewhere people want to live for other reasons.",
+      },
+      {
+        heading: "The cheap shoreline is cheap for a reason too",
+        body: "The least expensive coastal towns in the dataset are Pointe-à-Pitre at €1,426, Boulogne-sur-Mer at €1,663, Les Abymes at €1,728, Calais at €1,998 and Brest at €2,134. Boulogne scores 5.2 out of 10 overall and Calais 4.4, and the cheap Mediterranean coast behaves the same way, with Béziers at 4.3 and Narbonne at 4.9. Brest is the exception in that group, at 6.4, and it is genuinely a working city with a university and a hospital rather than a discount. The general pattern holds across France: a low coastal price is usually the market pricing the local economy, not a gap in the market that nobody has noticed.",
+      },
+      {
+        heading: "The second-home surcharge, which will find you",
+        body: "If the plan is to buy near the coast and use the place part of the year, France has a tax specifically for you. Under article 1407 ter of the tax code, a commune in a designated zone tendue may add a surcharge of between 5% and 60% to the communal share of the taxe d'habitation on second homes, and just under half the eligible communes applied it in 2026, several of the largest at the maximum rate. The eligible list has been widened repeatedly and now reaches well beyond the big cities into exactly the coastal communes where second homes crowd out residents. The surcharge is voted commune by commune and changes from one year to the next, so check the specific town rather than the region, and check it before you sign rather than after the first bill.",
+      },
+      {
+        heading: "Two things the coast does that the data does not show",
+        body: "The first is the winter. A resort commune whose population multiplies in August closes a large part of its restaurants, its market and sometimes its doctor's surgery from October, and the difference between a town that lives all year and a town that performs in summer is not visible in a price per square metre. Visit in February, not July. The second is coastal risk. Building within the 100-metre strip back from the shore is heavily restricted outside already urbanised areas under the loi Littoral, and a separate national process now lists communes exposed to shoreline retreat, which affects what can be built and what a property will be worth in thirty years. Ask the town hall for the risk documents that must be attached to any sale, and read them.",
+      },
+      {
+        heading: "The shortlist worth walking",
+        body: "Among towns of 15,000 or more in the 5 to 40 km band, the ones that score best overall are Lannion in Brittany at 8.6 km out, Biscarrosse in the Landes at 7.2 km with 2,350 hours of sun, Challans in the Vendée at 14 km, La Roche-sur-Yon at 29 km, Saint-Lô in Normandy at 28 km, Quimper at 14 km, Saintes at 30 km, and Aubagne, 10 km from open water just east of Marseille. None of them is a resort. All of them are a bicycle ride or a short drive from a beach, and all of them cost between a third and a half less per square metre than the nearest place with a sea view.",
+      },
+    ],
+    relatedCities: [
+      "rochefort",
+      "saintes",
+      "challans",
+      "la-roche-sur-yon",
+      "grasse",
+      "lannion",
+      "quimper",
+    ],
+    tags: [
+      "atlantic coast",
+      "mediterranean",
+      "real estate",
+      "budget",
+      "moving to france",
+    ],
+  },
+  {
+    slug: "best-french-cities-flatsharing-2026",
+    title: "Flatsharing in France: Where a Room Costs What, and How the Lease Works",
+    metaTitle: "Flatsharing in France 2026: Rooms, Rents and the Lease",
+    metaDesc:
+      "A room in a French flatshare costs about a third less than a studio almost everywhere. What changes is the euro figure, and the lease you sign.",
+    category: "budget",
+    emoji: "🚪",
+    readMinutes: 8,
+    publishedAt: "2026-09-05",
+    updatedAt: "2026-09-05",
+    intro:
+      "Colocation, the French word for a flatshare, is how a large share of people under 30 solve the housing problem in France, and increasingly how people well over 30 do as well. For someone arriving from abroad it solves a second problem too, which is that French landlords want a guarantor with French income and a dossier they can read, and a room in an established share is far easier to get than a lease of your own. This guide covers what a room costs in the cities where shares actually exist, and the two versions of the French flatshare lease, which are not equivalent and which most newcomers sign without noticing the difference.",
+    sections: [
+      {
+        heading: "The saving is the same everywhere, so ignore it",
+        body: "The first thing to say is a negative result. If you take our reference rents and compare a third of a three-room flat against a studio in the same city, the ratio sits at 0.62 in the median city, and 365 of the 540 cities on this site fall between 0.60 and 0.63. The extremes are 0.59 and 0.78. In other words, sharing saves you roughly 38% against renting alone, and it saves you roughly 38% in Brest, in Lyon and in Amiens alike. Ranking French cities by how much you save through flatsharing would be inventing an order out of a near-constant, which is the sort of league table this site refuses to publish. What varies is not the discount, it is the euro amount, and that varies by a factor of four.",
+      },
+      {
+        heading: "What a room actually costs",
+        body: "Dividing our reference three-room rent by three gives an indicative room budget, which is arithmetic rather than a survey of listings, so treat it as an order of magnitude. Among cities above 80,000 residents it runs from about €257 in Saint-Étienne, €267 in Limoges, €283 in Brest, €290 in Le Mans and €293 in Poitiers, through €300 in Clermont-Ferrand, Amiens, Besançon and Reims, €310 to €320 in Caen, Tours, Dijon and Rouen, up to €360 in Lille and Strasbourg, €367 in Rennes, €383 in Toulouse, Montpellier and Nantes, €400 in Bordeaux, €460 in Lyon, €500 in Nice and €933 in Paris. Real listings sit above these figures in the tightest markets, because the best rooms in a share get the premium, and below them in the loosest.",
+      },
+      {
+        heading: "Where the shares actually are",
+        body: "A flatshare needs a supply of people willing to share, which in practice means students and people in their twenties. Using the Insee 2022 census age structure, the cities above 80,000 residents with the highest share of 15 to 29 year olds are Lille at 36.8%, Nancy at 36.4%, Poitiers at 36.0%, Rennes at 34.1%, Rouen at 33.4%, Caen at 33.3%, Toulouse at 32.6%, then Montpellier and Clermont-Ferrand at 31.5%, Angers at 31.4%, Grenoble at 31.3% and Dijon at 30.8%. The overlap between that list and the cheap-room list is the useful part: Poitiers combines the third-highest youth share among French cities above 80,000 residents with a €293 room, Clermont-Ferrand and Besançon pair a 29% to 32% youth share with a €300 room, and Caen manages 33.3% at €310.",
+      },
+      {
+        heading: "The cheapest rooms are not the answer",
+        body: "The two cheapest rooms among cities above 80,000 are Roubaix at €233 and Tourcoing at €247, both in the Lille conurbation and both scoring 2.8 out of 10 overall on this site, which is the floor of our scale. Saint-Étienne at €257 scores 5.5 and Mulhouse at €260 scores 5.8. If the reason you are sharing is to make a city affordable, sharing in the good city usually beats renting alone in the weak one: a €367 room in Rennes, which scores 7.4 overall, costs less than a studio in most places worth living and puts you in a city with a metro and a job market.",
+      },
+      {
+        heading: "One lease or several, and why it decides everything",
+        body: "French flatshares come in two legal shapes. A bail unique is a single lease that every flatmate signs, and it almost always carries a clause de solidarité, meaning each tenant is liable for the whole rent if the others stop paying. Since the ALUR act of 24 March 2014 amended article 8-1 of the 1989 tenancy law, a flatmate who gives notice stays on the hook for a maximum of six months after their notice takes effect, and is released earlier if someone replaces them. Read that sentence again if you are the responsible one in the group. A bail individuel gives each tenant their own lease for their own room with shared use of the common parts, no solidarity, and a clean exit. It is more common in purpose-built and agency-managed shares and it is the safer thing to sign, particularly if you do not yet know the people you are moving in with.",
+      },
+      {
+        heading: "The guarantor problem, and the free way round it",
+        body: "The obstacle for a newcomer is not the rent, it is the dossier. French landlords routinely ask for a garant, a French-resident third party who undertakes to pay if you do not, and someone who arrived last month has no such person. Visale, run by Action Logement, is a state-backed guarantee that costs nothing to either party and is open to anyone under 31 regardless of their status, which covers most people looking for a room. It works in a flatshare provided each flatmate holds their own certificate, and the eligibility ceiling is assessed on each tenant's share of the rent rather than on the total. Apply for the certificate before you start viewing, because having it in hand is what turns a foreign applicant into a normal one. Housing benefit works the same way: each flatmate claims APL in their own name on their own share, provided they are named on a lease.",
+      },
+      {
+        heading: "Practical points nobody tells you",
+        body: "The deposit is capped at one month's rent unfurnished and two months furnished, and it is refundable within one or two months of leaving depending on the state of the inventory, so do the entry inventory properly and photograph everything. Furnished shares are the norm in student cities and carry shorter minimum terms. Utilities are usually split, but the electricity contract is in one person's name and that person carries the risk, so agree in writing who holds it. And expect the share to be run through a group chat and a shared bank pot rather than through the lease, which means the legal document and the actual arrangement can drift apart. If they drift far enough, the lease is what a court reads.",
+      },
+    ],
+    relatedCities: [
+      "poitiers",
+      "clermont-ferrand",
+      "besancon",
+      "caen",
+      "rennes",
+      "brest",
+      "limoges",
+    ],
+    tags: [
+      "student housing france",
+      "budget",
+      "moving to france",
+      "cost of living",
+      "relocation",
+    ],
+  },
+  {
+    slug: "best-french-cities-remote-working-couples-2026",
+    title: "Two Remote Jobs, One Flat: The Best French Cities for Remote Couples",
+    metaTitle: "Best French Cities for Two Remote Workers (2026)",
+    metaDesc:
+      "Two people working from home need a third room. Here is what that room costs in each French city, and what each foreign employer has to do about it.",
+    category: "remote-work",
+    emoji: "💻",
+    readMinutes: 8,
+    publishedAt: "2026-09-05",
+    updatedAt: "2026-09-05",
+    intro:
+      "A single remote worker can live almost anywhere in France with fibre and a decent café. A couple who both work from home have a harder and much more specific problem: two people on calls at the same time need two rooms, which in French terms means moving from a T2 to a T3, and it means one of you takes the bedroom while the other takes the third room. The cost of that extra room is not the same everywhere, and it is the number this guide starts from. The second half deals with the thing that catches remote couples more often than rent does, which is that two foreign employers each acquire French obligations the day you move.",
+    sections: [
+      {
+        heading: "What the second desk costs",
+        body: "Comparing our reference rent for a two-room flat with the three-room equivalent in the same city gives the price of the extra room. In most of provincial France it lands between 32% and 35%: Villeurbanne and Annecy at 32%, Angers and Bordeaux at 33%, Rennes and La Rochelle at 34%, Nantes, Strasbourg and Toulouse at 35%. In cash that is €250 in Angers, €280 in Rennes, Strasbourg, Villeurbanne and La Rochelle, €300 in Nantes, Bordeaux and Toulouse, €350 in Annecy. The Paris region behaves differently. Lyon is already at 38%, Levallois-Perret and Boulogne-Billancourt at 43%, Neuilly-sur-Seine at 47% and Paris itself at 56%, which is €1,000 a month for the extra room. The two-desk household is the household where Paris stops making sense.",
+      },
+      {
+        heading: "The cities that come out best",
+        body: "Combining our remote-work axis with the overall score and the cost of that extra room, the strongest options are Rennes, which scores 9 out of 10 on remote work and 7.4 overall with the extra room at €280, Nantes at 9 and 6.9 with €300, and Strasbourg at 7.8 and 7.5, the highest overall score in this group, with €280. Behind them: Villeurbanne, 8.8 and 7.1, at €280, the practical way to live in the Lyon conurbation without the Lyon premium; La Rochelle, 8.8 and 7.2, at €280; Bordeaux, 8.8 and 6.9, at €300; Angers, 7.8 and 6.7, at €250, the cheapest extra room in this group; and Annecy, 8.8 and 7.3, at €350, which is the most expensive of the group and the one with the mountains. Toulouse and Lyon are both credible and both cost more.",
+      },
+      {
+        heading: "One caveat about our remote-work score",
+        body: "Our remote-work axis is a composite of the things that make a city workable from home, and it is not a measurement of your connection. We do not publish a fibre ranking, because the coverage figures we could reach are modelled at regional level rather than measured at your address, and a ranking built on a model would look like a measurement. Check the actual address. France has an official coverage lookup run by the telecoms regulator, and a five-minute check on the specific building will tell you more than any city-level score, including ours. In an older city-centre building the answer is occasionally that fibre stops at the street.",
+      },
+      {
+        heading: "The thing that catches remote couples: your employers",
+        body: "If you live in France and work for a company with no French establishment, that company is not exempt from the French system, it is inside it. A foreign employer with an employee resident in France must register with URSSAF's dedicated service for foreign firms, through the Centre National des Firmes Étrangères, and declare and pay French social contributions covering health, pension and unemployment, plus the mandatory supplementary pension and health cover. A simplified scheme, the Titre Firmes Étrangères, exists for employers with fewer than twenty staff. In return you are affiliated to the general French scheme like any local employee. For a couple this obligation lands twice, on two different employers, and the honest thing to do is raise it with both before you give notice on your current flat. A company that has never done it will need a few months and some persuading, and a company that refuses outright has effectively decided where you live.",
+      },
+      {
+        heading: "If one of you works across a border",
+        body: "A different set of rules applies if one partner works for an employer in Switzerland, Luxembourg, Germany or Belgium while living in France. Cross-border arrangements are governed by bilateral tax agreements and by a European framework agreement in force since 1 July 2023 that lets a cross-border employee work up to 49.9% of their time from home without moving their social security affiliation. The tax side and the social security side have separate thresholds, and the tax thresholds are lower and negotiated country by country. If this describes your household, the border town you choose is a tax decision as much as a housing one, and it is worth an hour with an accountant before it is worth a viewing.",
+      },
+      {
+        heading: "Renting when neither of you has French payslips",
+        body: "French landlords apply a rule of thumb that rent should not exceed a third of net household income, and they want to see it on French payslips. Two remote salaries paid from abroad, in another currency, into a foreign account are a harder dossier than one modest French salary, and this surprises people who consider themselves obviously solvent. Practical answers, in order: open a French bank account early, present the last three months of statements alongside the employment contracts, offer a guarantee if the landlord wants one, and expect furnished lets and shorter leases to be more flexible than a classic unfurnished three-year lease. Agencies in the cities listed above deal with international tenants routinely, which is itself an argument for a mid-size city over a small town.",
+      },
+      {
+        heading: "The room is a housing decision, not a work one",
+        body: "One last practical note. The 32% to 35% premium above is the cost of a third room in the same city. The alternative that a lot of remote couples land on after a year is a smaller flat plus a desk in a coworking space for whichever of the two is on calls all day, which costs less than the extra room in the expensive cities and more than it in the cheap ones. In Angers or Rennes, take the room. In Paris, where the room costs €1,000 a month, do the sum the other way round. And whichever you choose, do not sign a lease on the assumption you will both work from the kitchen table, because in our experience that assumption survives about six weeks.",
+      },
+    ],
+    relatedCities: [
+      "rennes",
+      "nantes",
+      "strasbourg",
+      "villeurbanne",
+      "la-rochelle",
+      "angers",
+      "annecy",
+    ],
+    tags: [
+      "working in france",
+      "moving to france",
+      "cost of living",
+      "relocation",
+      "budget",
+    ],
+  },
+  {
+    slug: "best-french-cities-single-parent-families-2026",
+    title: "Best French Cities for Single-Parent Families (2026)",
+    metaTitle: "Best French Cities for Single-Parent Families 2026",
+    metaDesc:
+      "Ranked on the four things that decide a single-parent household: cost, transport, schools and safety, with the income each city's three-room rent needs.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 9,
+    publishedAt: "2026-09-05",
+    updatedAt: "2026-09-05",
+    intro:
+      "A single-parent household is the case where the choice of city does the most work, because there is one income, one driver, one person to be at the school gate at half past four, and no second adult to absorb a bad decision. This guide ranks French cities on the four axes that decide that arithmetic, using the same composite that drives the single-parent pages elsewhere on this site: cost of living at 30%, public transport at 20%, schools at 25% and safety at 25%. All four are scored so that 10 is good. What the ranking cannot do is tell you whether you can afford the city, so each entry also carries the net monthly income the local three-room rent implies, and the gap between the two is where most of the useful information is.",
+    sections: [
+      {
+        heading: "How the ranking is built, and where it stops",
+        body: "The pool is the 127 French cities above 50,000 residents for which we hold a reference rent. Scores are rounded to one decimal, which means cities genuinely tie, and this site does not break a tie by arbitrarily slicing the list: where several cities share a score they are all named, listed alphabetically inside their tier, and that alphabetical order is a stable presentation rather than a ranking. The list below stops after the tier at 6.5, at eighteen cities, because the next tier down at 6.4 holds seven more and cutting through it would fabricate an order. On our own scale, 6.5 and above reads as good, meaning three of the four levers work and one is a known weak point, and 5.5 to 6.5 as workable with organisation.",
+      },
+      {
+        heading: "The top of the table",
+        body: "One city stands alone at 7.5, La Roche-sur-Yon in the Vendée, with a cost score of 7.2, transport 7, schools 7.7 and safety 8, which is the only combination in the pool with no weak axis at all. Rennes follows on its own at 7.1, built differently: schools 9 and transport 8.1 carry it, cost 5.7 and safety 5.9 hold it back. Then a three-way tie at 7.0 between Albi, Cholet and Strasbourg, which get there by opposite routes. Albi scores 7.6 on cost and 5.5 on transport, Strasbourg scores 5.6 on cost and 9 on transport with schools at 8.7. Villeurbanne takes 6.8 and Angers 6.7.",
+      },
+      {
+        heading: "The 6.6 and 6.5 tiers",
+        body: "Five cities tie at 6.6: Besançon, Caen, Grenoble, Lyon and Saint-Quentin. Grenoble and Lyon both score 9 or close on schools and transport and are pulled down by cost and, in Grenoble's case, a safety score of 4.3. Saint-Quentin is the opposite animal, with a cost score of 8.3, the highest in the published list, against safety at 4.7. Six more tie at 6.5: Brest, Dijon, Issy-les-Moulineaux, Levallois-Perret, Poitiers and Tours. Seven cities follow at 6.4 and are not ranked here: Limoges, Nancy, Neuilly-sur-Seine, Pau, Toulouse, Troyes and Valence.",
+      },
+      {
+        heading: "Why two Paris suburbs are in the list, and why that is misleading",
+        body: "Issy-les-Moulineaux and Levallois-Perret reach 6.5 with transport at 9, schools at 9 and safety at 7.2, which are close to the best readings in France, against a cost score of 2.2, which is close to the worst. A weighted average lets three excellent axes carry one catastrophic one. The corrective is the income line: a three-room flat costs €1,800 a month in Issy and €2,000 in Levallois, which on the standard French affordability rule implies about €5,150 and €5,700 net a month respectively for a single earner. Neuilly-sur-Seine, one tier lower, implies €7,150. These are not single-parent cities in any ordinary sense, and they appear here only because a composite of good axes cannot see a level. Read the euro figure, not the score.",
+      },
+      {
+        heading: "The income each city actually asks for",
+        body: "Applying the same rule to the rest of the published list gives the real shortlist. Saint-Quentin needs about €1,950 net a month for a €650 three-room flat. La Roche-sur-Yon and Cholet need about €2,400 for €800. Albi needs €2,550 for €840. Brest needs €2,600 for €850. Poitiers needs €2,650 for €880. Besançon needs €2,750 for €900, Caen €2,800 for €930 and Dijon €2,900 for €950. Tours needs €2,850 for €940. Angers needs €3,050 for €1,000. Then it climbs: Grenoble €3,100, Strasbourg €3,250, Rennes €3,350, Villeurbanne €3,500 and Lyon €3,950. Against a single French median income, the first two thirds of that list are realistic and the last third assumes a professional salary.",
+      },
+      {
+        heading: "What French support does and does not do for a foreign single parent",
+        body: "Two things are worth knowing before you count on them. Family benefits from the CAF, the family allowance fund, require stable and permanent residence in France, so they start after you arrive rather than before, and the file takes time. The allocation de soutien familial, the support paid to a parent raising a child without the other parent's contribution, is not means tested and is paid where no maintenance is received or where the maintenance is below the ASF level, in which case the CAF tops it up. It exists in mainland France and the overseas départements other than Mayotte. Separately, a public body handles the collection and transfer of maintenance payments between separated parents, which matters if the other parent is abroad and unreliable. What none of this does is act on a foreign court order automatically: a divorce or custody decision made outside France generally has to be recognised here before French institutions will act on it, and that is a question for a lawyer before the move rather than after it.",
+      },
+      {
+        heading: "The two costs that are priced by income, not by the market",
+        body: "School canteen and after-school care, which are the two costs that decide whether a single parent can hold a full-time job, are usually priced by the commune on a sliding scale based on the family quotient calculated by the CAF. That means the same meal can cost under a euro in one household and several euros in another, in the same school. It also means the headline figures you read online are meaningless for your situation until you have a CAF file and a quotient. Ask the town hall for its scale, not its price. In the cities near the top of this list the scale is generally generous and the places exist. In the Paris region the scale is often generous and the places do not.",
+      },
+      {
+        heading: "Where to go from here",
+        body: "This site carries a dedicated page for a single parent in each of the cities above, with the local rent, the school and transport detail and the honest weak point, and a hub that ranks the whole pool interactively. If you are choosing between two cities on this list, the useful comparison is not the composite score, which will differ by a tenth, but the income line and the transport axis: whether you can hold the job you need at the rent you can pay, and whether you can do the school run without a car. Everything else is recoverable.",
+      },
+    ],
+    relatedCities: [
+      "la-roche-sur-yon",
+      "rennes",
+      "strasbourg",
+      "albi",
+      "cholet",
+      "angers",
+      "besancon",
+    ],
+    tags: [
+      "single parent in france",
+      "expat single parent",
+      "moving to france with children",
+      "french school system",
+      "moving to france",
+    ],
+  },
+  {
+    slug: "best-french-cities-protected-nature-2026",
+    title: "French Cities With Protected Nature on the Doorstep, Measured",
+    metaTitle: "French Cities With Protected Nature Nearby (2026)",
+    metaDesc:
+      "How much land within 15 km of each French city is legally protected, measured on the national mapping. The national median is 6.8%. Some cities are at 0.",
+    category: "lifestyle",
+    emoji: "🌿",
+    readMinutes: 8,
+    publishedAt: "2026-09-05",
+    updatedAt: "2026-09-05",
+    intro:
+      "Every city in France claims to be close to nature, and the claim is unfalsifiable as usually made. This guide makes it falsifiable. We hold the boundaries of France's five legally binding conservation designations for all 540 towns on the site, and we measure how much of the land within 15 km of each town centre falls inside one of them. That number is a fact about planning law rather than about scenery, which is precisely what makes it useful: a Natura 2000 boundary or a nature reserve constrains what can be built and what can be done on that ground for decades, regardless of who is looking at it. The national median is 6.8% of the 15 km disc. The spread runs from that to well over half.",
+    sections: [
+      {
+        heading: "What is being measured",
+        body: "Five designations are counted: national parks, regional natural parks, national nature reserves, biotope protection orders, and Natura 2000 sites. All five carry legal force. Two French designations are deliberately excluded, the ZNIEFF inventories of types I and II, because they are inventories of ecological interest with no regulatory effect, and including an inventory in a protection score would inflate every figure without protecting a hectare. The boundaries come from the national topographic database maintained by the mapping agency, which redistributes the natural history museum's tracings, and the perimeters used here were current on 19 August 2026. Coverage is computed on a 250 m grid, with each cell keeping only its strongest designation, because French designations nest inside one another and adding their areas together would count the same ground three times.",
+      },
+      {
+        heading: "The cities with the most protected land nearby",
+        body: "Among towns above 30,000 residents, the leaders are Baie-Mahault in Guadeloupe at 77.4% and La Ciotat at 62.4%, the latter sitting inside the Calanques national park. Then Les Abymes at 58.3%, Hyères at 52.4% and Marseille at 47.9%, the only commune above 100,000 residents in the top 40. Vannes reaches 42% through the Gulf of Morbihan regional park and the Séné marsh reserve, Salon-de-Provence 41.4%, Aubagne 41.3% through the Sainte-Baume regional park, Saint-Benoît on Réunion 39.5% and Niort 38.8% through the Marais Poitevin. Saint-Nazaire follows at 38.6% via the Brière, Arles at 38.1% via the Camargue, Chambéry at 36.8% with both the Chartreuse and the Bauges regional parks, La Rochelle at 36.6% and Les Sables-d'Olonne at 35.8%.",
+      },
+      {
+        heading: "The honest caveat about national parks",
+        body: "A French national park has a core area with strict rules and an adhesion area, which is a charter zone where communes sign up voluntarily and the restrictions are far lighter. The source we use carries no attribute that separates the two, so both weigh the same in the figure above, which means eleven towns whose only perimeter is an adhesion area carry an upper bound rather than a measurement. Three of them appear in the top thirty: Alès, Toulon and Gap. Others outside it include Pau, Lourdes, Saint-Tropez and Six-Fours-les-Plages. We detect these by the name of the perimeter, which is a heuristic and not a data field, so treat the flag as a caution rather than a correction. Cities that hold both the core park and its adhesion area, such as La Ciotat, Hyères and the two Guadeloupe entries, are not affected.",
+      },
+      {
+        heading: "And the cities with none",
+        body: "Fourteen towns record 0.0% coverage within 15 km, and five of those have no protected perimeter of any kind within that radius: Albi, Auch, Fleurance, Longwy and Vitré. This is a measurement rather than a gap in the data, and it does not mean those places are ugly. Albi's brick cathedral city is a UNESCO world heritage site and Vitré is one of the best-preserved medieval towns in Brittany. It means the surrounding countryside is farmed, worked and unprotected, so what is there today is what the planning system allows to change tomorrow. If a specific view or a specific wood is part of why you are buying, this is the number that tells you whether anything guarantees it.",
+      },
+      {
+        heading: "Why we do not publish a species ranking",
+        body: "The obvious companion measure would be how many species have been recorded near each city, and we built it, and then withdrew it. The problem is that biodiversity records measure naturalists before they measure nature. When we tested the finished measure against the whole corpus, the strongest correlation was with how concentrated the local recording effort was, not with how many species had actually been logged, and more than half the variance was explained by which département the town was in. The result put Douai, with 2,588 recorded species, at the very bottom of the scale, and ranked the cereal plains of central France above French Guiana. The raw species counts on our city pages are correct and are still published. The ranking built on them was not, and it is gone. Protected-area coverage does not have that failure mode, because a Natura 2000 boundary exists whether or not anybody goes birdwatching in it.",
+      },
+      {
+        heading: "Protection is not access",
+        body: "This is the point where expectations imported from Britain, Ireland or Scandinavia go wrong. France has no general right to roam. Access to private land is a matter of the owner's tolerance and can be withdrawn, and a protected designation does not create a public right of way. What you can rely on is the marked footpath network, the long-distance GR routes and the local PR loops, which are waymarked, maintained and legally established. Conversely, protection is not a building ban either: a Natura 2000 designation adds an impact assessment to certain projects rather than freezing the landscape, and regional natural parks are inhabited working territories with farms, villages and industry inside them. Do not buy a house assuming the field opposite is safe because it is inside a park boundary. Ask the town hall for the local plan.",
+      },
+      {
+        heading: "One seasonal warning worth having",
+        body: "Hunting is legal, popular and widespread on rural land in France, including inside regional natural parks, with a season running broadly from early autumn to late winter and rules set at département level. Sundays in season are the day walkers most often notice it. This is not a reason to avoid the countryside, and the towns at the top of this list are among the best places to live in France for anyone who wants a serious walk on a Saturday morning. It is a reason to find out the local dates, wear something visible, and not be surprised.",
+      },
+      {
+        heading: "Using this alongside the rest of the site",
+        body: "Coverage within 15 km is one input, not a verdict. La Ciotat at 62.4% and Marseille at 47.9% share the same national park and score very differently on everything else. Chambéry at 36.8% and Vannes at 42% are both credible places to live full time and are 800 km apart in climate. The protected-areas hub on this site ranks the whole set and lets you see the perimeters town by town, and each city page carries its own list with the designation type and the distance. Combine it with the climate and the healthcare pages before you decide, because the wildest surroundings in France are frequently attached to the thinnest medical cover.",
+      },
+    ],
+    relatedCities: [
+      "la-ciotat",
+      "hyeres",
+      "vannes",
+      "chambery",
+      "niort",
+      "arles",
+      "la-rochelle",
+    ],
+    tags: [
+      "lifestyle",
+      "moving to france",
+      "quality of life",
+      "rural france",
+      "relocation",
+    ],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

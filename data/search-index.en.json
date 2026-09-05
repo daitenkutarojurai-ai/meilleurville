@@ -7437,6 +7437,36 @@
       "slug": "best-french-cities-industrial-jobs-2026",
       "title": "Where the Industrial Jobs Are in France (2026)",
       "emoji": "🏭"
+    },
+    {
+      "slug": "best-french-cities-house-with-garden-2026",
+      "title": "Where €200,000 Still Buys a House With a Garden in France (2026)",
+      "emoji": "🏡"
+    },
+    {
+      "slug": "best-french-cities-20-minutes-from-the-sea-2026",
+      "title": "Living 20 Minutes From the Sea in France, For a Third Less",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "best-french-cities-flatsharing-2026",
+      "title": "Flatsharing in France: Where a Room Costs What, and How the Lease Works",
+      "emoji": "🚪"
+    },
+    {
+      "slug": "best-french-cities-remote-working-couples-2026",
+      "title": "Two Remote Jobs, One Flat: The Best French Cities for Remote Couples",
+      "emoji": "💻"
+    },
+    {
+      "slug": "best-french-cities-single-parent-families-2026",
+      "title": "Best French Cities for Single-Parent Families (2026)",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "best-french-cities-protected-nature-2026",
+      "title": "French Cities With Protected Nature on the Doorstep, Measured",
+      "emoji": "🌿"
     }
   ],
   "tags": [
@@ -7453,22 +7483,22 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 136
+      "count": 142
     },
     {
       "slug": "single-parent-in-france",
       "label": "single parent in france",
-      "count": 88
+      "count": 89
     },
     {
       "slug": "expat-single-parent",
       "label": "expat single parent",
-      "count": 66
+      "count": 67
     },
     {
       "slug": "buying-property-france",
       "label": "buying property france",
-      "count": 53
+      "count": 54
     },
     {
       "slug": "nouvelle-aquitaine",
@@ -7478,7 +7508,7 @@
     {
       "slug": "real-estate",
       "label": "real estate",
-      "count": 51
+      "count": 53
     },
     {
       "slug": "occitanie",
@@ -7503,7 +7533,7 @@
     {
       "slug": "working-in-france",
       "label": "working in france",
-      "count": 33
+      "count": 34
     },
     {
       "slug": "job-market-france",
@@ -7556,6 +7586,11 @@
       "count": 24
     },
     {
+      "slug": "student-housing-france",
+      "label": "student housing france",
+      "count": 24
+    },
+    {
       "slug": "student-visa-france",
       "label": "student visa france",
       "count": 24
@@ -7566,13 +7601,18 @@
       "count": 23
     },
     {
-      "slug": "student-housing-france",
-      "label": "student housing france",
-      "count": 23
+      "slug": "budget",
+      "label": "budget",
+      "count": 22
     },
     {
       "slug": "expat-retirement",
       "label": "expat retirement",
+      "count": 22
+    },
+    {
+      "slug": "french-school-system",
+      "label": "french school system",
       "count": 22
     },
     {
@@ -7581,19 +7621,14 @@
       "count": 22
     },
     {
-      "slug": "french-school-system",
-      "label": "french school system",
+      "slug": "moving-to-france-with-children",
+      "label": "moving to france with children",
       "count": 21
     },
     {
-      "slug": "moving-to-france-with-children",
-      "label": "moving to france with children",
-      "count": 20
-    },
-    {
-      "slug": "budget",
-      "label": "budget",
-      "count": 18
+      "slug": "relocation",
+      "label": "relocation",
+      "count": 19
     },
     {
       "slug": "bourgogne-franche-comte",
@@ -7606,14 +7641,9 @@
       "count": 17
     },
     {
-      "slug": "relocation",
-      "label": "relocation",
-      "count": 16
-    },
-    {
       "slug": "cost-of-living",
       "label": "cost of living",
-      "count": 15
+      "count": 17
     },
     {
       "slug": "cycling",
@@ -7651,14 +7681,14 @@
       "count": 11
     },
     {
-      "slug": "burgundy",
-      "label": "burgundy",
+      "slug": "atlantic-coast",
+      "label": "atlantic coast",
       "count": 11
     },
     {
-      "slug": "atlantic-coast",
-      "label": "atlantic coast",
-      "count": 10
+      "slug": "burgundy",
+      "label": "burgundy",
+      "count": 11
     },
     {
       "slug": "climate",
@@ -7673,6 +7703,11 @@
     {
       "slug": "french-riviera",
       "label": "french riviera",
+      "count": 10
+    },
+    {
+      "slug": "rural-france",
+      "label": "rural france",
       "count": 10
     },
     {
@@ -7696,6 +7731,16 @@
       "count": 8
     },
     {
+      "slug": "lifestyle",
+      "label": "lifestyle",
+      "count": 8
+    },
+    {
+      "slug": "mediterranean",
+      "label": "mediterranean",
+      "count": 8
+    },
+    {
       "slug": "nice",
       "label": "nice",
       "count": 8
@@ -7703,11 +7748,6 @@
     {
       "slug": "pyrenees",
       "label": "pyrenees",
-      "count": 8
-    },
-    {
-      "slug": "rural-france",
-      "label": "rural france",
       "count": 8
     },
     {
@@ -7721,18 +7761,8 @@
       "count": 8
     },
     {
-      "slug": "lifestyle",
-      "label": "lifestyle",
-      "count": 7
-    },
-    {
       "slug": "lyon",
       "label": "lyon",
-      "count": 7
-    },
-    {
-      "slug": "mediterranean",
-      "label": "mediterranean",
       "count": 7
     },
     {
@@ -7846,6 +7876,11 @@
       "count": 5
     },
     {
+      "slug": "quality-of-life",
+      "label": "quality-of-life",
+      "count": 5
+    },
+    {
       "slug": "angers",
       "label": "angers",
       "count": 4
@@ -7898,11 +7933,6 @@
     {
       "slug": "pau",
       "label": "pau",
-      "count": 4
-    },
-    {
-      "slug": "quality-of-life",
-      "label": "quality-of-life",
       "count": 4
     },
     {

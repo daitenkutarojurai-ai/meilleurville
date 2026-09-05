@@ -2992,6 +2992,115 @@ setup dans `CLAUDE.md`), pas une facilité.
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
 
+### Livré le 05/09 — `best-french-cities-[thème]` batch 2 (+6), et un trou qui n'en était pas
+
+`npm run parity` en **code 0** en début et en fin de run (FR 220 · EN 166, 0 route FR sans jumelle) :
+aucune régression de routes malgré une route FR de plus depuis le run précédent, donc run de corpus.
+Compteurs mesurés avant/après : **FR 1 066, EN 839 → 845.** Écart de corpus ramené de 227 à 221.
+Série `best-french-cities-[theme]` : **35 → 41** contre 52 côté FR.
+
+**Le run a commencé par écarter un septième guide déjà écrit dans la tête, et c'est le résultat le
+plus utile.** `meilleures-villes-retraites-budget-moins-1500-euros-2025` est bien une des 17 thèmes
+FR sans jumelle littérale, et le batch devait s'ouvrir dessus. Le recensement du cluster EN dit le
+contraire : `retiring-in-france-best-cities-2026`, `retiring-to-france-best-cities-2026`,
+`retiring-to-france-guide-2026`, `retiring-south-of-france-guide-2026`,
+`best-french-cities-seniors-retirees-2026`, `americans-retiring-in-france-deep-guide-2026`,
+`british-retiring-in-france-post-brexit-2026` et `best-french-cities-retire-by-the-sea-budget-2026`
+— **huit guides nationaux sur la retraite**, dont deux dont les titres ne se distinguent que par la
+préposition. Un neuvième aurait été de la cannibalisation caractérisée. ⚠️ **Deux clusters de
+quasi-doublons sont donc à traiter dans un run de dédup, pas ici** (retirer un guide est plus risqué
+qu'en ajouter un, et demande de poser les 301) :
+- **retraite** : `retiring-in-france-best-cities-2026` vs `retiring-to-france-best-cities-2026`,
+  quasi-homonymes ;
+- **achat immobilier national** : `buying-property-in-france-honest-guide-2026`,
+  `france-property-market-buyers-guide-2026`, `buying-property-france-step-by-step-2026`,
+  `buying-property-france-step-by-step-expat-guide-2026` et
+  `buying-property-in-france-expat-guide-2026` — **cinq** guides de processus d'achat, alors que la
+  passe de dédup du 04/06 en avait justement retiré un de ce cluster. Il s'est reformé.
+
+**Les 6 thèmes livrés, tous vérifiés absents du corpus EN par recherche par mots-clés et pas par
+diff de slug** (`house`, `garden`, `countryside`, `rural`, `buying`, `renting`, `couple`, `shared`,
+`room`, `nature`, `protected`, `national park`, `coastal`, `seaside`, `flatshare`, `colocation`) :
+
+| Slug | Jumelle FR | Donnée cardinale |
+|---|---|---|
+| `best-french-cities-house-with-garden-2026` | `meilleures-villes-maison-jardin-moins-200000-euros-2025` | médianes maison DVF (`lib/property-prices`) |
+| `best-french-cities-20-minutes-from-the-sea-2026` | `meilleures-villes-30-min-mer-france-2025` | `data/city-coast.json` + médianes appartement DVF |
+| `best-french-cities-flatsharing-2026` | `meilleures-villes-colocation-jeunes-actifs-2026` | `data/housing.ts` + tranches d'âge Insee 2022 |
+| `best-french-cities-remote-working-couples-2026` | `meilleures-villes-couples-teletravail-deux-bureaux-2026` | écart T3−T2 + axe `remoteWork` |
+| `best-french-cities-single-parent-families-2026` | `meilleures-villes-familles-monoparentales-france-2026` | `parentSoloFit()` (`lib/parent-solo`) |
+| `best-french-cities-protected-nature-2026` | `meilleures-villes-naturalistes-biodiversite-france-2026` | couverture d'aires protégées (BD TOPO, 540/540) |
+
+**Aucun chiffre n'est repris des guides FR sources** (millésimés 2025 pour deux d'entre eux) : les
+**403 figures publiées (dates et pourcentages réglementaires compris) sont recalculées ou vérifiées en ligne, jamais recopiées** par un `npx tsx` de scratch, et
+un second script les **réassure une à une** contre `CITIES_SEED` (scores rendus, jamais les
+littéraux du seed), `HOUSING`, `cityPropertyPrices`, `cityPopulation`, `coastDistanceKm`,
+`computeHealthcareAccess`, `parentSoloFit`, `minIncomeForT3` et `rankByProtection` — plus les
+agrégats (507 médianes maison publiées, 151 sous 2 000 €/m², 44 villes retenues, bandes côtières
+69/58/340, médiane du ratio chambre/studio, pool de 127 villes, 18 publiées au-dessus de 6,5).
+Une seule erreur trouvée, et par le script : 200 000 ÷ 878 fait **228 m²** et pas 227.
+
+⚠️ **Trois refus de classement, tous du même genre, à ne pas « corriger » au prochain passage.**
+① Le guide colocation **ne classe pas les villes par l'économie réalisée** : le rapport
+(loyer T3 ÷ 3) / loyer T1 vaut 0,62 en médiane et **365 des 540 villes tombent entre 0,60 et 0,63**
+(bornes 0,59 et 0,78). C'est une quasi-constante de notre grille de loyers de référence, donc un
+classement bâti dessus fabriquerait son ordre — le précédent du rang de richesse biodiversité et du
+`score_bruit` en paliers de population. Le guide publie le **montant en euros**, qui varie de 1 à 4,
+et le dit. ② Le guide couples en télétravail **ne publie pas de classement fibre** : `lib/internet-score.ts`
+est une estimation régionale (`SourceKind: estimation-regionale`), pas une mesure d'adresse, et le
+guide renvoie au comparateur de l'ARCEP au lieu d'habiller le proxy en donnée. ③ Le guide nature
+**ne rouvre pas le rang de richesse d'espèces** (`RICHNESS_RANKING_PUBLISHED` reste `false`) : il
+explique en une section pourquoi il a été retiré le 10/08, ce qui est aussi la façon la plus honnête
+de répondre à la jumelle FR, qui parle de biodiversité mais mesure en réalité l'accès aux espaces
+protégés.
+
+**Conventions de classement tenues** : le guide parent solo **ne coupe aucun palier d'ex æquo** —
+les scores sont arrondis au dixième par `parentSoloFit`, donc il groupe (7,0 à trois villes ; 6,6 à
+cinq ; 6,5 à six), ordonne alphabétiquement **à l'intérieur** d'un palier en le disant, s'arrête
+après le palier à 6,5 (18 villes) et nomme les 7 villes du palier 6,4 qui suivent. Le guide nature
+reprend telle quelle la mise en garde **cœur de parc / aire d'adhésion** (11 villes en majorant,
+dont Alès, Toulon et Gap dans le top 30) et le fait que la détection se fait sur le **nom** du
+périmètre.
+
+**Matière propre à l'angle anglophone, vérifiée en ligne avant rédaction** : calendrier
+d'interdiction de location au DPE (G depuis le 01/01/2025 en métropole, F en 2028, E en 2034, DROM
+repoussés à 2031) ; norme HCSF (35 % d'endettement assurance comprise, 25 ans, 27 avec travaux ≥ 10 %,
+marge de flexibilité de 20 %) ; majoration de taxe d'habitation sur les résidences secondaires
+(article 1407 ter CGI, 5 à 60 % de la part communale en zone tendue, appliquée par un peu moins de
+la moitié des communes éligibles en 2026) ; clause de solidarité en colocation (loi ALUR du
+24/03/2014, article 8-1 de la loi de 1989, six mois maximum après le congé, levée plus tôt si
+remplacement) ; garantie Visale gratuite, ouverte aux moins de 31 ans quel que soit le statut, un
+certificat par colocataire, plafond apprécié sur la quote-part ; obligation d'un employeur étranger
+sans établissement en France de s'immatriculer auprès du **CNFE** de l'Urssaf (formulaire E0, **TFE**
+simplifié sous 20 salariés) ; accord-cadre européen du 01/07/2023 et son seuil de 49,9 % de
+télétravail frontalier ; ASF non soumise à condition de ressources, versée à défaut de pension
+alimentaire ou en complément, hors Mayotte. ⚠️ **Deux montants volontairement omis** parce que les
+sources consultées divergent ou sont faibles : le **montant de l'ASF** (200,78 € et 195,85 € selon
+les sources) et les **plafonds Visale 2026** — une phrase sans chiffre vaut mieux qu'un chiffre
+faux, même précédent que le FPU minoré en ALD au glossaire.
+
+**Contrôles** : `npx tsc --noEmit` **propre** (après `npm install` — le conteneur de routine démarre
+sans `node_modules`), `npm run integrity` (guides EN 839 → 845), `search-index` + `search-index:check`
+(**114 tags EN inchangés**, aucune page `/tags/` créée), `npm run sitemap:check` (FR 29 155 URL,
+EN 28 731 → **28 737**, soit exactement les 6 guides), `npm run hreflang:check`, `npm run parity`.
+Vérifié en plus : les 6 guides sont **retrouvés par `getEnGuide()`**, **remontés par la recherche
+inverse `relatedCities`** sur leur page ville EN, et pourvus de suggestions « read next » cohérentes
+(le guide parent solo renvoie en tête vers la série `single-parent-in-[city]`). `metaTitle` 48-54
+caractères, `metaDesc` 143-153, 7 à 8 sections, 1 024 à 1 352 mots, **0 em-dash** sur les six
+(cible R7.10 très largement tenue), aucune unité ascii-strippée, aucun mojibake.
+`npm run build` **non lancé, volontairement** (cf. `CLAUDE.md` § Commands depuis le batch 27).
+
+**Prochain run** : la série `best-french-cities-[theme]` est à **41 EN / 52 FR**. Les thèmes FR
+restants sans jumelle sont tous de faible intention ou recouvrants, et le vivier est à reconstituer
+plutôt qu'à recopier : `familles-recomposees`, `marches-couverts`, `musique-scene`,
+`sport-enfants-clubs`, `primo-accedants` (recouvre `affordable-property`), `freelances-independants`
+et `coworking-freelance-ecosysteme` (recouvrent `remote-workers` et `digital-nomads`),
+`fibre-optique-teletravail` (⚠️ **à ne pas écrire tant que `lib/internet-score.ts` est une
+estimation régionale**, cf. F63), `retraites-budget-moins-1500` (**écarté ci-dessus**) et
+`naturalistes-biodiversite` (désormais couvert par le guide nature de ce batch). Avant d'en ouvrir
+un, **mesurer le recouvrement par mots-clés sur le corpus EN et pas par diff de slug** : c'est ce
+qui a écarté deux des sept thèmes de ce run.
+
 ### Livré le 04/09 — `best-french-cities-[thème]` batch 1 (+7), et deux faux trous écartés
 
 `npm run parity` en **code 0** en début et en fin de run (FR 219 · EN 166, 0 route FR sans jumelle) :
