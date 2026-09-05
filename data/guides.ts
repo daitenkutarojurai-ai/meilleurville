@@ -53120,6 +53120,455 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["parent solo Sens 2026", "monoparental Yonne", "T3 Sens budget", "profil sans point faible parent seul", "famille monoparentale Bourgogne-Franche-Comté"],
   },
+  {
+    slug: "10-choses-a-faire-a-pontoise-2026",
+    title: "10 choses à faire à Pontoise",
+    metaTitle: "10 choses à faire à Pontoise en 2026",
+    metaDesc:
+      "Une cathédrale du XIIe siècle, un hôtel gothique devenu musée, le quartier où Pissarro a peint : 10 activités à Pontoise, dans le Val-d'Oise.",
+    category: "tourisme",
+    emoji: "🎨",
+    readMinutes: 7,
+    publishedAt: "2026-09-05",
+    updatedAt: "2026-09-05",
+    intro:
+      "Pontoise comptait 31 623 habitants au recensement de 2022, contre 30 690 en 2016 et 29 885 en 2011 : la commune gagne des habitants régulièrement. Le nom est aujourd'hui associé à la ville nouvelle voisine, et c'est le malentendu à lever tout de suite : Pontoise est une ville ancienne, perchée au-dessus de l'Oise, avec une cathédrale, des remparts et deux musées municipaux. C'est aussi la ville où Camille Pissarro a passé le plus clair de sa vie de peintre, et d'où l'impressionnisme s'est diffusé dans toute la vallée.",
+    sections: [
+      {
+        heading: "1. La cathédrale Saint-Maclou",
+        body: "L'édifice a été construit entre 1140 et 1165, ce qui en fait un contemporain des premiers grands chantiers gothiques d'Île-de-France, et il a gardé de cette campagne son chevet, son déambulatoire et ses fenêtres de transept. Dans la seconde moitié du XVe siècle, la façade romane d'origine a été remplacée par la façade flamboyante que l'on voit aujourd'hui : l'écart de trois siècles entre l'avant et l'arrière du bâtiment se lit depuis la rue, à condition d'en faire le tour. Saint-Maclou n'est cathédrale que depuis 1966, année de création du diocèse de Pontoise. La plupart des tableaux qu'elle conserve proviennent d'établissements religieux fermés à la Révolution, ce qui explique qu'une église de cette taille abrite un ensemble aussi disparate."
+      },
+      {
+        heading: "2. Le musée Tavet-Delacour et son hôtel gothique",
+        body: "Le musée occupe un hôtel particulier bâti entre 1477 et 1483 pour l'archevêque de Rouen, destiné à loger son grand vicaire à Pontoise. Tourelles d'angle, toits en poivrière, fenêtres à meneaux, poutres apparentes : c'est un témoin rare d'architecture civile de la fin du gothique, et le bâtiment vaut la visite indépendamment de ce qu'il contient. Il est devenu musée à la suite d'une proposition faite à la ville en 1889 par M. Tavet, un des fondateurs de la société historique locale, qui y installa ses collections. Les deux musées municipaux ont depuis été réunis sous le nom de musée d'Art et d'Histoire Pissarro – Pontoise : vérifier avant de venir quel site est ouvert et ce qui y est présenté, la répartition des collections ayant bougé."
+      },
+      {
+        heading: "3. Otto Freundlich, la collection qu'on n'attend pas",
+        body: "C'est le fonds le plus important du musée et le moins prévisible dans une ville de trente mille habitants. Les collections ont été enrichies en 1968 par une donation consacrée à Otto Freundlich, et l'ensemble conservé à Pontoise est le plus vaste au monde pour cet artiste. Freundlich est un pionnier de l'abstraction, dont l'œuvre a été désignée par le régime nazi comme un exemple d'art dégénéré ; il est mort en déportation. Voir cet ensemble ici, dans un hôtel du XVe siècle, produit un décalage que le musée ne cherche pas à atténuer, et c'est ce qui rend la visite intéressante. Un visiteur venu pour l'impressionnisme repartira avec autre chose que ce qu'il était venu chercher."
+      },
+      {
+        heading: "4. Le jardin des Cinq Sens et les casemates",
+        body: "Le parc du musée abrite un jardin des Cinq Sens, planté d'aromatiques et de plantes médicinales, conçu pour que ses végétaux se laissent aussi reconnaître au toucher et à l'odeur par les visiteurs déficients visuels. Le même jardin donne accès à des casemates, vestiges des anciennes fortifications de la ville, et à une vue dégagée sur la vallée de l'Oise depuis les remparts. C'est le meilleur endroit pour comprendre la géographie de Pontoise : une ville haute, fortifiée, posée sur un éperon, et une rivière en contrebas qui a servi de sujet à des centaines de tableaux. L'accès est gratuit et il ne prend pas plus d'une demi-heure."
+      },
+      {
+        heading: "5. Le musée Pissarro",
+        body: "Le musée consacré à Camille Pissarro a été créé en 1980 et occupe une maison bourgeoise du XIXe siècle qui domine la vallée de l'Oise et la vieille ville. Le lieu est le sujet autant que la collection : depuis les fenêtres, on regarde à peu près le paysage que le peintre avait sous les yeux. Le fonds réunit des dessins et des gravures de Pissarro, des œuvres de ses fils, et des artistes liés à l'histoire de la ville et de la vallée, de Daubigny à Caillebotte. Comme pour le Tavet-Delacour, la réunion des deux musées sous un nom commun a redistribué les accrochages : téléphoner ou consulter le site de la ville avant de se déplacer pour une œuvre précise est la précaution utile."
+      },
+      {
+        heading: "6. Le quartier de l'Hermitage, où les toiles ont été peintes",
+        body: "Pissarro s'installe à Pontoise en 1866, y reste deux ans, revient en 1872 et y demeure jusqu'au début des années 1880. C'est le quartier de l'Hermitage, un coteau alors couvert de jardins et de maisons basses, qui lui sert d'atelier à ciel ouvert. La ville a balisé un parcours qui suit ces emplacements, avec les reproductions des tableaux face à leurs motifs. On avance en comparant un état des lieux de 1875 à celui d'aujourd'hui, et le résultat est plus intéressant que la carte postale : certains points de vue sont intacts, d'autres sont devenus une rue ordinaire. C'est la promenade à faire ici si l'on ne devait en faire qu'une."
+      },
+      {
+        heading: "7. Ce que Pontoise a envoyé dans la vallée",
+        body: "Pissarro n'a pas peint seul. En 1872, une fois installé durablement, il fait venir Cézanne et Guillaumin ; les trois travaillent sur les bords de l'Oise et apprennent la gravure chez le docteur Gachet, à Auvers. Gauguin est son élève entre 1879 et 1883. Autour de ce coteau, ces peintres ont produit plusieurs centaines de toiles. Et c'est par Pissarro que Van Gogh arrive à Auvers-sur-Oise en 1890, sur la recommandation adressée à Gachet. Une précision de géographie s'impose : Auvers est une commune à part entière, à quelques kilomètres en aval, et ce qui s'y visite ne se visite pas à Pontoise. Les deux villes se lisent ensemble, elles ne se confondent pas."
+      },
+      {
+        heading: "8. L'église Notre-Dame et le siège de 1589",
+        body: "L'église Notre-Dame, dans la ville basse, avait été bâtie au XIIe siècle. Elle a été détruite en 1589 pendant le siège de Pontoise, épisode des guerres de Religion, puis rebâtie en 1599 ; son porche a été remanié au XVIIIe siècle. C'est un bâtiment moins spectaculaire que la cathédrale, mais il raconte quelque chose qu'elle ne raconte pas : une ville de position, sur la route de Normandie, prise et reprise assez souvent pour que ses églises en portent la trace. La comparaison des deux édifices, celui qui a traversé les sièges et celui qui a été refait après, est une bonne raison de descendre de la ville haute."
+      },
+      {
+        heading: "9. Les souterrains et le carmel",
+        body: "Le sous-sol de Pontoise est creusé de galeries exploitées depuis le Moyen Âge, dans la pierre calcaire qui a servi à bâtir la ville au-dessus. Elles ne se parcourent pas librement : les visites sont encadrées et leur calendrier est irrégulier, ce qui en fait le genre de chose à réserver quand l'occasion se présente plutôt qu'à espérer trouver ouvert. Autre lieu discret, le carmel a été fondé en 1605 et est le plus ancien encore en activité ; ses jardins et sa chapelle se visitent. Ces deux sites ne figurent sur aucune liste d'incontournables, et c'est précisément pour ça qu'ils valent le détour un jour où la cathédrale est pleine."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Pontoise est desservie par le train depuis Paris et se trouve au bout d'une des branches du réseau régional, ce qui la rend faisable à la journée sans voiture. Une journée suffit largement : la cathédrale, un des deux musées, le jardin des Cinq Sens et le parcours de l'Hermitage tiennent dans le même après-midi si l'on ne traîne pas. La ville se prête aussi au rôle de point de départ pour la vallée de l'Oise, Auvers et le Vexin français, tous accessibles en moins d'une demi-heure. Dernier conseil pratique : la vieille ville est en pente et pavée, et le dénivelé entre l'Oise et le parvis de Saint-Maclou se sent dans les jambes."
+      }
+    ],
+    relatedCities: ["pontoise", "cergy", "argenteuil", "poissy"],
+    relatedGuides: [
+      "10-choses-a-faire-a-cergy-2026",
+      "10-choses-a-faire-a-poissy-2026",
+      "10-choses-a-faire-a-argenteuil-2026",
+      "10-choses-a-faire-a-saint-germain-en-laye-2026"
+    ],
+    tags: ["10 choses à faire à Pontoise", "activités Pontoise 2026", "que faire dans le Val-d'Oise", "sorties vallée de l'Oise impressionnisme", "cathédrale Saint-Maclou musée Pissarro Hermitage"]
+  },
+  {
+    slug: "10-choses-a-faire-a-haguenau-2026",
+    title: "10 choses à faire à Haguenau",
+    metaTitle: "10 choses à faire à Haguenau en 2026",
+    metaDesc:
+      "Une ville impériale brûlée deux fois en 1677, la plus grande forêt indivise de France, un musée du bagage : 10 activités à Haguenau, dans le Bas-Rhin.",
+    category: "tourisme",
+    emoji: "🌲",
+    readMinutes: 7,
+    publishedAt: "2026-09-05",
+    updatedAt: "2026-09-05",
+    intro:
+      "Haguenau comptait 36 070 habitants au recensement de 2022, contre 34 460 en 2016 et 34 619 en 2011. C'est une des grandes villes du Bas-Rhin, et une de celles qu'on traverse sans s'arrêter en montant vers l'Allemagne. La visite a pourtant une clé, une seule, et il vaut mieux l'avoir en tête dès l'arrivée : Haguenau a été une résidence d'empereurs, puis elle a été brûlée deux fois dans la même année 1677, puis dévastée à nouveau en 1945. Ce qu'on regarde ici n'est presque jamais l'original, et c'est ce qui rend la ville lisible."
+    ,
+    sections: [
+      {
+        heading: "1. Le musée historique",
+        body: "Bâti entre 1900 et 1905, le musée historique est un édifice néo-Renaissance à décor chargé, construit pour donner un cadre à l'histoire impériale de la ville au moment où l'Alsace était allemande. Plusieurs salles suivent l'histoire de Haguenau depuis sa fondation au XIIe siècle ; une autre est consacrée à l'Art nouveau et à l'Art déco. Les collections archéologiques comptent parmi les plus importantes de la région, avec des objets de l'âge du bronze et de l'âge du fer mis au jour dans la forêt voisine, où des centaines de tumulus ont été fouillés. C'est le point de départ logique de la visite : sans lui, la ville se lit mal, parce que ce qu'elle a de plus important n'existe plus."
+      },
+      {
+        heading: "2. Ce que Barberousse a laissé, et ce qu'il n'a pas laissé",
+        body: "En 1162, Frédéric Ier de Hohenstaufen, dit Barberousse, empereur du Saint-Empire depuis 1152, entreprend de transformer la forteresse locale en un palais capable d'accueillir la cour lors de ses séjours alsaciens. Il accorde à la ville une charte de franchises en 1164. La chapelle palatine, construite entre 1170 et 1184, comportait trois nefs superposées. Les empereurs y résident par intermittence jusqu'en 1250, et Haguenau devient à la fin du XIIIe siècle le siège du grand-bailli, représentant de l'empereur en Alsace. De ce palais, il ne reste rien : la chapelle a disparu en 1687 et le château impérial avec la ville. C'est une absence qu'il faut nommer, sous peine de chercher toute une journée un monument inexistant."
+      },
+      {
+        heading: "3. L'église Saint-Georges",
+        body: "Le chantier commence en 1143 et l'édifice est classé monument historique dès 1848, ce qui en fait un des tout premiers protégés du département. Saint-Georges est l'église paroissiale du bourg marchand, à la charnière du roman et du gothique, et elle a traversé les destructions successives mieux que le reste de la ville. Elle conserve un mobilier ancien de qualité, et le vaisseau est plus vaste que ne le laisse supposer la façade prise depuis la place. C'est le bâtiment à voir en premier si l'on n'a qu'une heure : il est au centre, il est ouvert, et il est antérieur à tout ce qui l'entoure."
+      },
+      {
+        heading: "4. L'église Saint-Nicolas",
+        body: "Fondée au XIIe siècle par Frédéric Barberousse, Saint-Nicolas est l'autre grande église de Haguenau, gothique, plus austère et moins fréquentée que Saint-Georges. Elle abrite un remarquable ensemble de boiseries sculptées, remontées ici après la Révolution et provenant d'une abbaye supprimée à cette date, et c'est le vrai motif de la visite. Enchaîner les deux églises dans la même matinée est la meilleure façon de mesurer ce qu'une ville impériale pouvait se permettre de bâtir : deux édifices de cette ampleur pour une population qui, à l'époque, tenait dans un mouchoir de poche à l'échelle d'aujourd'hui."
+      },
+      {
+        heading: "5. Ce que « ville impériale » voulait dire",
+        body: "Haguenau a été le chef-lieu de la Décapole, l'association de dix villes alsaciennes constituée en 1354 pour défendre en commun leurs privilèges face aux princes territoriaux. Une ville impériale ne relevait que de l'empereur, pas d'un seigneur intermédiaire : elle levait ses impôts, rendait sa justice et entretenait ses murailles. C'est ce statut qui explique la richesse des chantiers médiévaux, et c'est sa disparition qui explique le reste. Pendant la guerre de Hollande, les Français occupent la cité à partir de 1673 ; en 1677, pour empêcher les troupes impériales de tenir les villes de la Décapole, Louis XIV et Louvois appliquent une politique de terre brûlée et font évacuer les habitants."
+      },
+      {
+        heading: "6. 1677, puis 1945",
+        body: "La ville est incendiée deux fois la même année : une première fois le 10 février 1677 par le général de Montclar, une seconde du 16 au 17 septembre par le maréchal de Créquy. Le château impérial disparaît alors. Haguenau ne renaît vraiment qu'à partir de 1715, après la guerre de Succession d'Espagne, et se reconstruit au point de devenir, après Strasbourg et Colmar, la ville d'Alsace la plus riche en édifices du XVIIIe siècle. C'est ce siècle-là que l'on regarde en marchant dans le centre. Puis la ville est occupée en 1940 et, comme tout le nord de l'Alsace, n'est libérée qu'en mars 1945, après deux mois de combats sur les lignes de la Moder ; elle se reconstruit après 1950."
+      },
+      {
+        heading: "7. Le musée du Bagage",
+        body: "Installé rue Saint-Georges dans l'ancien bâtiment de la Banque de France, le musée du Bagage présente une collection sans équivalent en Europe : malles de cabine, nécessaires de voyage, valises de grands faiseurs, du XVIIIe siècle aux années 1960. L'objet paraît anecdotique et il ne l'est pas : chaque pièce dit comment on voyageait, avec quoi, pour combien de temps et dans quelle classe sociale. Une malle-armoire de paquebot et un sac de voyage d'après-guerre ne racontent pas la même civilisation. C'est le musée le plus inattendu de la ville et celui dont les visiteurs ressortent le plus souvent surpris, y compris ceux qui n'étaient venus que pour accompagner quelqu'un."
+      },
+      {
+        heading: "8. Le musée alsacien",
+        body: "Le musée alsacien de Haguenau est consacré aux usages, au mobilier et aux arts populaires de la région, avec une dominante rurale : costumes, coiffes, imagerie, objets domestiques et pièces de métiers. Il ne faut pas le confondre avec le musée alsacien de Strasbourg, qui porte le même nom et traite le même sujet dans une autre ville, à une autre échelle. Celui-ci a l'avantage d'être proche des campagnes qu'il documente : les villages d'où proviennent une bonne partie des pièces exposées sont à quelques kilomètres, et l'on peut aller les voir dans la foulée. C'est un complément direct du musée historique plutôt qu'un doublon."
+      },
+      {
+        heading: "9. La forêt indivise",
+        body: "La forêt de Haguenau s'étend sur 13 406 hectares et c'est la plus grande forêt domaniale de France dite indivise. Le mot compte : une ordonnance de Louis XIV du 28 août 1696 a transformé des droits d'usage pluriséculaires en un droit de propriété, et depuis cette date la ville et l'État en sont copropriétaires à parts égales. Le pin sylvestre et le chêne occupent chacun un peu plus du tiers de la surface, devant le hêtre et le bouleau. Elle n'a jamais été défrichée, en raison de la faible fertilité de ses sols sableux et de son caractère marécageux, la forêt reposant sur les cônes alluviaux formés par la Moder et la Sauer. Des sentiers balisés partent de la lisière nord de la ville."
+      },
+      {
+        heading: "10. Le Gros Chêne, et y aller",
+        body: "Le lieu-dit du Gros Chêne, au cœur du massif, doit son nom à un arbre de cinq à six siècles foudroyé au début du XXe siècle ; la légende y fait vivre en ermite saint Arbogast, sixième évêque de Strasbourg. C'est aujourd'hui le point de départ principal des promenades en forêt, avec une aire aménagée. Côté pratique, Haguenau est sur la ligne ferroviaire entre Strasbourg et Wissembourg, à une trentaine de kilomètres de la capitale alsacienne, ce qui la rend faisable à la journée sans voiture. Compter une journée pour la ville et les musées, une demi-journée de plus si l'on veut marcher en forêt, et savoir que les trois musées municipaux n'ouvrent pas tous les mêmes jours."
+      }
+    ],
+    relatedCities: ["haguenau", "strasbourg", "colmar", "saverne"],
+    relatedGuides: [
+      "10-choses-a-faire-a-strasbourg-2026",
+      "10-choses-a-faire-a-colmar-2026",
+      "10-choses-a-faire-a-mulhouse-2026",
+      "10-choses-a-faire-a-metz-2026"
+    ],
+    tags: ["10 choses à faire à Haguenau", "activités Haguenau 2026", "que faire dans le Bas-Rhin", "sorties Alsace ville impériale", "forêt indivise Décapole musée du Bagage"]
+  },
+  {
+    slug: "10-choses-a-faire-a-ales-2026",
+    title: "10 choses à faire à Alès",
+    metaTitle: "10 choses à faire à Alès en 2026",
+    metaDesc:
+      "Sept cents mètres de galeries de mine, un fort de Vauban, un musée né d'un imprimeur ami de Picasso : 10 activités à Alès, porte des Cévennes.",
+    category: "tourisme",
+    emoji: "⛏️",
+    readMinutes: 7,
+    publishedAt: "2026-09-05",
+    updatedAt: "2026-09-05",
+    intro:
+      "Alès comptait 45 025 habitants au recensement de 2022 : c'est la deuxième commune du Gard, loin derrière Nîmes et loin devant les suivantes. La ville se présente comme la porte des Cévennes, ce qui est exact géographiquement et trompeur touristiquement : on la traverse pour aller ailleurs, alors qu'elle porte le meilleur site industriel visitable de la région. Alès a vécu du charbon, de la soie et de la métallurgie, et elle a la particularité rare d'avoir gardé, en état de marche, l'outil qui servait à former ses mineurs.",
+    sections: [
+      {
+        heading: "1. La Mine Témoin",
+        body: "C'est le monument d'Alès, et le mot monument n'est pas exagéré. La Mine Témoin a été créée en 1945 dans le quartier de Rochebelle pour former les apprentis mineurs du bassin, et elle offre sept cents mètres de galeries, le plus grand réseau minier naturel visitable de France. Le parcours donne une rétrospective de l'exploitation du charbon depuis les années 1880 jusqu'à la période récente : soutènements, méthodes d'abattage, machines, éclairage, ventilation. On y comprend en une heure et demie des choses qu'aucun panneau de musée ne transmet, à commencer par la hauteur réelle sous plafond des tailles où l'on travaillait. Prévoir une petite laine : la température souterraine ne varie pas avec la saison."
+      },
+      {
+        heading: "2. Ce que « mine-école » change à la visite",
+        body: "La distinction mérite d'être posée, parce qu'elle sépare Alès de la plupart des sites miniers ouverts au public. Ceci n'est pas une reconstitution : c'est l'ancien centre de formation des Houillères des Cévennes, où des centaines d'apprentis sont réellement descendus entre 1945 et 1968. Les galeries ont été creusées pour apprendre, donc elles sont pédagogiques par construction, et elles réunissent des dispositifs de plusieurs époques que jamais une seule mine en activité n'aurait présentés côte à côte. Ce statut hybride, ni mine de production ni décor, explique pourquoi la visite est aussi lisible. Il explique aussi pourquoi le site a pu être conservé quand les puits de production, eux, ont été comblés."
+      },
+      {
+        heading: "3. Le musée PAB, au château de Rochebelle",
+        body: "Le musée-bibliothèque Pierre-André Benoit occupe le château de Rochebelle, ancienne résidence des évêques d'Alès, sur les hauteurs du quartier du même nom. Pierre-André Benoit, né en 1921 et mort en 1993, était imprimeur, éditeur de livres d'artiste et collectionneur ; il a fréquenté et publié Picasso, Picabia, Miró et Braque, entre autres. Le fonds vient de sa donation à la ville. On y regarde donc moins des tableaux isolés qu'un réseau d'amitiés et un métier : des livres tirés à très peu d'exemplaires, des gravures, des dédicaces, des correspondances. C'est un musée d'atelier plus que de galerie, et le parc qui l'entoure offre l'un des points de vue les plus dégagés sur la ville."
+      },
+      {
+        heading: "4. Le fort Vauban et les jardins du Bosquet",
+        body: "Le fort se trouve dans les jardins du Bosquet, au-dessus du centre. Sa construction a été ordonnée par Louis XIV pour loger des troupes royales pendant la guerre des Camisards, épisode de la révolte des protestants cévenols qui a suivi la révocation de l'édit de Nantes. C'est un rappel utile pour qui monte ensuite dans les Cévennes : ce paysage de vallées et de crêtes a été un terrain de guérilla, et les villages qu'on y visite aujourd'hui ont été des enjeux militaires. Le fort ne se visite pas comme un musée mais les jardins qui l'entourent sont publics, et ils constituent la promenade urbaine la plus agréable d'Alès."
+      },
+      {
+        heading: "5. L'ancienne cathédrale Saint-Jean-Baptiste",
+        body: "Le bâtiment s'élève sur un terrain occupé sans interruption depuis l'époque gallo-romaine, et il mélange les campagnes de construction, l'essentiel de son architecture actuelle datant du XVIIe siècle. Alès a été le siège d'un évêché, ce qui explique le titre de cathédrale, resté attaché à l'édifice après la disparition du diocèse. C'est un des rares points de la ville où le tissu médiéval affleure encore, le reste ayant été profondément remanié par l'industrialisation puis par la reconstruction du centre. À voir en même temps que la place qui l'entoure, plutôt que comme une visite à part entière."
+      },
+      {
+        heading: "6. La chapelle de l'Ermitage",
+        body: "Aussi appelée Notre-Dame-des-Mines, la chapelle de l'Ermitage surveille la ville depuis un promontoire à 290 mètres d'altitude. Elle est bâtie à partir du XIIe siècle et son second vocable dit tout de ce qu'elle est devenue : un lieu de dévotion lié au bassin houiller, dans une région où l'on descendait chaque jour sous terre. La montée se fait à pied depuis la ville et le panorama couvre la plaine, le confluent des gardons et la première ligne des Cévennes. C'est le contrepoint exact de la Mine Témoin : on passe de sept cents mètres de galeries à un point haut d'où l'on voit tout le bassin que ces galeries creusaient."
+      },
+      {
+        heading: "7. Pasteur, le ver à soie et la pébrine",
+        body: "La soie a été l'autre industrie d'Alès, et son apogée se situe en 1855, l'année où apparaît la pébrine, une maladie du ver à soie qui ravage les magnaneries des Cévennes. Louis Pasteur séjourne à Alès de 1865 à 1869 pour en trouver le remède, et ces quatre années comptent parmi les plus décisives de sa carrière : c'est en travaillant sur ces élevages qu'il affine la démarche qui le mènera à la microbiologie. La ville conserve la mémoire de cet épisode, et il vaut la peine de le garder en tête dans les vallées cévenoles voisines : les grandes bâtisses aux fenêtres alignées que l'on y voit sont d'anciennes magnaneries, pas des fermes ordinaires."
+      },
+      {
+        heading: "8. La Bambouseraie, accessible depuis Alès",
+        body: "La Bambouseraie est le grand site végétal du secteur, et une précision s'impose : elle n'est pas à Alès mais à Générargues, près d'Anduze, à un quart d'heure ou une demi-heure de route selon le trafic. C'est un jardin exotique du XIXe siècle, planté de bambous géants, de séquoias et de plantes d'Extrême-Orient, avec un village laotien et une vallée du Dragon. La visite se combine bien avec Anduze et la vallée des Gardons dans la même journée. Comme partout dans cette série, ce qui relève d'une commune voisine est écrit comme tel : on part d'Alès, on n'y reste pas."
+      },
+      {
+        heading: "9. La porte des Cévennes, et ce que ça veut dire",
+        body: "L'expression est un slogan mais elle décrit une réalité de relief : Alès est posée à la sortie des vallées, à l'endroit où le pays de plaine s'arrête. Cela a deux conséquences pratiques. La première est que la ville est la base logistique la moins chère pour visiter le parc national des Cévennes, les vallées cévenoles et le secteur d'Anduze, avec un hébergement et une restauration à des prix sans rapport avec ceux d'Uzès ou des villages touristiques. La seconde est climatique : les épisodes cévenols d'automne concernent ce relief et ces cours d'eau, et il est raisonnable de consulter la vigilance avant d'engager une randonnée en septembre ou en octobre."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Alès a sa gare, sur la ligne qui relie Nîmes à Clermont-Ferrand par les Cévennes, et Nîmes est à moins d'une heure. Une journée pleine suffit pour la ville : la Mine Témoin le matin, le musée PAB et les jardins du Bosquet l'après-midi, l'Ermitage en fin de journée pour la lumière. Deux jours permettent d'ajouter la Bambouseraie et une vallée cévenole. Le conseil qui vaut pour toute la série s'applique ici avec une force particulière : la Mine Témoin ferme certaines périodes de l'année et fonctionne par créneaux, donc on vérifie les horaires avant de caler sa journée dessus, pas après."
+      }
+    ],
+    relatedCities: ["ales", "nimes", "montpellier", "mende"],
+    relatedGuides: [
+      "10-choses-a-faire-a-nimes-2026",
+      "10-choses-a-faire-a-mende-2026",
+      "10-choses-a-faire-a-millau-2026",
+      "10-choses-a-faire-a-avignon-2026"
+    ],
+    tags: ["10 choses à faire à Alès", "activités Alès 2026", "que faire dans le Gard", "sorties Cévennes patrimoine minier", "Mine Témoin musée PAB fort Vauban Bambouseraie"]
+  },
+  {
+    slug: "10-choses-a-faire-a-villefranche-sur-saone-2026",
+    title: "10 choses à faire à Villefranche-sur-Saône",
+    metaTitle: "10 choses à faire à Villefranche-sur-Saône",
+    metaDesc:
+      "Des cours Renaissance cachées derrière une rue commerçante, une flèche de 72 mètres, la fête des Conscrits : 10 activités à Villefranche-sur-Saône.",
+    category: "tourisme",
+    emoji: "🍷",
+    readMinutes: 7,
+    publishedAt: "2026-09-05",
+    updatedAt: "2026-09-05",
+    intro:
+      "Villefranche-sur-Saône comptait 36 224 habitants au recensement de 2022, contre 37 266 en 2016 et 35 640 en 2011. Capitale du Beaujolais, la ville est le plus souvent visitée pour ce qui l'entoure : les crus, les villages de pierres dorées, les caves. C'est une erreur de méthode, parce que son patrimoine est presque entièrement invisible depuis la rue. Villefranche se visite en poussant des portes : derrière les vitrines de son artère commerçante s'ouvrent des dizaines de cours Renaissance, et c'est le vrai sujet de la journée.",
+    sections: [
+      {
+        heading: "1. La rue Nationale",
+        body: "C'est l'axe historique de la ville, aujourd'hui piéton, et la colonne vertébrale de toute visite. Elle est bordée de maisons construites aux XVe et XVIe siècles, à l'époque où Villefranche prospérait sur les foires et le commerce. Prise au pas de promenade, la rue a l'air d'une rue commerçante de sous-préfecture, avec des enseignes ordinaires au rez-de-chaussée. Il faut lever les yeux au-dessus des devantures, où les façades anciennes ont été conservées, et surtout regarder les passages latéraux : ce sont eux qui donnent accès à l'essentiel. Une visite qui se contente de descendre la rue en ligne droite passe à côté de ce pour quoi elle est venue."
+      },
+      {
+        heading: "2. Les cours Renaissance",
+        body: "Les maisons de la rue Nationale ont une géométrie très particulière : façade étroite sur rue, parcelle profonde, un premier corps de bâtiment, une cour intérieure, puis un second corps derrière. L'explication traditionnellement avancée est fiscale, l'impôt se calculant sur la largeur donnant sur la rue, ce qui poussait à bâtir en profondeur. Le résultat est une succession de cours à galeries, escaliers à vis et tourelles, invisibles depuis l'extérieur. Un itinéraire balisé permet d'en parcourir une partie ; les autres relèvent de la propriété privée et ne s'ouvrent qu'à l'occasion des journées du patrimoine ou des visites guidées. Se renseigner à l'office de tourisme avant de partir change tout au rendement de la journée."
+      },
+      {
+        heading: "3. Les maisons qu'il faut trouver",
+        body: "Quelques adresses concentrent l'intérêt et méritent d'être cherchées nommément. La maison des Dephelines, avec son passage voûté d'ogives. La maison de l'Italien, sa cour d'honneur et sa tourelle polygonale. La Pêcherie, qui montre côte à côte une façade gothique et une façade Renaissance, soit deux états du goût à quelques décennies d'écart. La maison à la Tourelle, et l'auberge de la Coupe d'Or. Une façade gothique de la fin du XVe siècle, ornée de fleurons et de pinacles, voisine avec des décors Renaissance du milieu ou de la seconde moitié du XVIe : l'intérêt de la rue tient précisément à cette superposition d'époques sur cinquante mètres."
+      },
+      {
+        heading: "4. La collégiale Notre-Dame-des-Marais",
+        body: "Sa flèche de 72 mètres domine la ville et sert de repère depuis l'autoroute. Le chantier commence au XIIe siècle et s'achève au XVIe, ce qui fait de l'édifice un manuel d'architecture à ciel ouvert : parties romanes à la base, façade flamboyante richement sculptée, avec des états intermédiaires bien lisibles. Le nom dit l'origine du lieu, une zone humide au bord de la Saône assainie par la ville médiévale. C'est le seul monument de Villefranche visible de loin, et le seul que les visiteurs pressés regardent ; il est très bien, mais il n'est pas le plus intéressant de la ville, ce qui est assez rare pour être signalé."
+      },
+      {
+        heading: "5. Le musée Paul-Dini",
+        body: "Ouvert le 9 juin 2001, le musée municipal occupe l'ancienne halle aux grains dite la Grenette, installée là en 1893 et réaménagée entre 1999 et 2001. Il est né d'une donation : après un premier don du 15 août 1998, Muguette et Paul Dini, collectionneurs, ont offert à la ville environ quatre cent cinquante tableaux. La collection permanente dépasse aujourd'hui mille deux cents œuvres, complétées par deux à trois expositions temporaires par an. Le bâtiment, une halle marchande du XIXe siècle reconvertie, se visite pour lui-même : les volumes libres conviennent à l'accrochage bien mieux que les enfilades de salles d'un hôtel particulier."
+      },
+      {
+        heading: "6. Ce que le musée montre vraiment",
+        body: "Le propos est précis et c'est ce qui fait sa valeur : la peinture lyonnaise et rhônalpine de 1875 à aujourd'hui. Autrement dit une école régionale continue, suivie sur cent cinquante ans, que les grands musées nationaux ne racontent nulle part parce qu'elle ne rentre pas dans le récit parisien de l'art moderne. On y voit comment des peintres formés à Lyon ont reçu, digéré ou refusé l'impressionnisme, puis les avant-gardes du XXe siècle, sans quitter la région. Pour un visiteur qui connaît déjà les collections nationales, c'est le musée le plus utile du Beaujolais, et il est très largement sous-fréquenté par rapport à sa qualité."
+      },
+      {
+        heading: "7. Les Conscrits",
+        body: "La fête des Conscrits est née vers 1850 à Villefranche et elle y est restée la plus vivante de toute la région. Le principe : chaque année, on fête ensemble tous ceux dont l'année de naissance se termine par le même chiffre que l'année en cours. En 2026, ce sont donc les classes en 6, de dix ans en dix ans, qui défilent. Le sommet de la fête est la grande vague sur la rue Nationale, où les classes avancent et reculent bras dessus bras dessous en un mouvement de balancier. Les dates se vérifient auprès de l'office de tourisme : l'événement occupe la ville entière pendant plusieurs jours et l'hébergement se réserve longtemps à l'avance."
+      },
+      {
+        heading: "8. Pourquoi cette fête est un patrimoine reconnu",
+        body: "La tradition a été inscrite en 2020 à l'inventaire du patrimoine culturel immatériel en France, et une charte encadre son déroulement pour éviter les dérives et contenir les évolutions trop rapides. Ce n'est pas un détail administratif : c'est ce qui distingue les Conscrits de Villefranche des fêtes de classes que l'on trouve ailleurs dans le Beaujolais et la Bresse, et que les puristes ne désignent d'ailleurs pas du même nom. Pour un visiteur, l'intérêt est là : il s'agit d'une fête réellement pratiquée par les habitants, avec ses règles, ses costumes et ses générations, et non d'une reconstitution montée pour le tourisme."
+      },
+      {
+        heading: "9. La ville comme base pour le Beaujolais",
+        body: "Villefranche est le chef-lieu du vignoble et la porte d'entrée logique pour le visiter. Les villages de pierres dorées sont au sud-ouest, les crus au nord, et l'ensemble tient dans un rayon d'une trentaine de kilomètres. L'arbitrage est le même qu'ailleurs dans cette série : loger dans la ville coûte nettement moins cher que loger dans les villages, au prix d'un cadre moins pittoresque. Un point de vocabulaire utile sur place : les habitants sont les Caladois, du nom ancien de la ville, et l'expression revient sur les enseignes et les affiches sans être expliquée nulle part."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Villefranche est sur l'axe ferroviaire entre Lyon et Mâcon, à une trentaine de kilomètres au nord de Lyon, et le trajet depuis la gare de la Part-Dieu prend moins d'une demi-heure : la ville est faisable à la journée sans voiture, ce qui n'est pas le cas du vignoble. Compter une demi-journée pour la rue Nationale, ses cours et la collégiale, et une seconde demi-journée pour le musée Paul-Dini. Le vignoble demande une voiture ou une excursion organisée, et deux jours si l'on veut voir à la fois les pierres dorées et les crus du nord."
+      }
+    ],
+    relatedCities: ["villefranche-sur-saone", "lyon", "macon", "bourg-en-bresse"],
+    relatedGuides: [
+      "10-choses-a-faire-a-lyon-2026",
+      "10-choses-a-faire-a-macon-2026",
+      "10-choses-a-faire-a-bourg-en-bresse-2026",
+      "10-choses-a-faire-a-vienne-2026"
+    ],
+    tags: ["10 choses à faire à Villefranche-sur-Saône", "activités Villefranche 2026", "que faire dans le Rhône", "sorties Beaujolais patrimoine Renaissance", "cours Renaissance Conscrits musée Paul-Dini"]
+  },
+  {
+    slug: "10-choses-a-faire-a-six-fours-les-plages-2026",
+    title: "10 choses à faire à Six-Fours-les-Plages",
+    metaTitle: "10 choses à faire à Six-Fours-les-Plages",
+    metaDesc:
+      "Une chapelle paléochrétienne, un polyptyque de Louis Bréa, un cap à 358 mètres au-dessus de la mer : 10 activités à Six-Fours-les-Plages, dans le Var.",
+    category: "tourisme",
+    emoji: "⛵",
+    readMinutes: 7,
+    publishedAt: "2026-09-05",
+    updatedAt: "2026-09-05",
+    intro:
+      "Six-Fours-les-Plages comptait 36 843 habitants au recensement de 2022, contre 33 250 en 2016 et 34 275 en 2011. La commune s'étale entre Sanary et La Seyne, sur une presqu'île découpée, et son nom en dit le principal défaut touristique : on y vient pour les plages, on repart sans avoir vu ce qu'elle a de rare. Or Six-Fours abrite une des plus anciennes chapelles conservées de France, un retable du début du XVIe siècle et un cap sauvage qui tombe dans la mer à trois cent cinquante mètres. Rien de tout cela n'est sur le front de mer.",
+    sections: [
+      {
+        heading: "1. Le vieux Six-Fours et son fort",
+        body: "La colline qui domine la ville portait le village fortifié d'origine, et c'est là qu'il faut monter en premier pour comprendre la géographie de la commune : la rade de Toulon d'un côté, la baie de Sanary de l'autre, le cap Sicié au sud. Après la guerre franco-prussienne de 1870, la Marine a acquis le vieux village fortifié et un fort y a été construit à la fin du XIXe siècle pour verrouiller les approches de Toulon. Pendant la Seconde Guerre mondiale, la position a été réarmée par l'occupant en batterie antiaérienne, dans les mois qui ont précédé le débarquement de Provence d'août 1944. Le fort reste une emprise militaire : on monte pour le site et pour l'église voisine, pas pour visiter l'ouvrage."
+      },
+      {
+        heading: "2. La collégiale Saint-Pierre",
+        body: "Elle est là-haut, à côté du fort, et c'est le monument principal de la commune. L'édifice remonte au XIe siècle et il a la particularité d'être double : une église primitive à laquelle une seconde nef a été accolée bien plus tard, si bien que l'on passe d'un vaisseau à l'autre en franchissant quelques siècles. L'intérieur conserve des toiles et des objets du XVIe et du XVIIe siècle. Le contraste avec la station balnéaire en contrebas est total, et c'est précisément l'intérêt de la montée : le vieux Six-Fours est perché et fortifié parce que la côte n'a longtemps pas été un endroit où l'on pouvait habiter tranquillement."
+      },
+      {
+        heading: "3. Le polyptyque de Louis Bréa",
+        body: "C'est l'œuvre pour laquelle on monte à la collégiale. Le polyptyque dit de la Vierge, sur bois, est attribué à Louis Bréa et date du début du XVIe siècle ; il a été classé monument historique en 1898 et a fait l'objet d'une restauration récente. Bréa, né à Nice vers 1450 et mort vers 1523, a travaillé surtout dans la région de Gênes et dans le comté de Nice, et sa peinture mêle les influences lombardes et flamandes. Trouver une œuvre de cette main dans une église de village varois n'a rien d'évident, et ce genre de retable se regarde longtemps : les panneaux latéraux racontent autant que le panneau central."
+      },
+      {
+        heading: "4. Notre-Dame de Pépiole",
+        body: "C'est la pièce rare de la commune. La chapelle de Pépiole est un édifice paléochrétien du haut Moyen Âge, dont les datations proposées vont du Ve au VIe siècle selon les auteurs, et elle compte parmi les plus anciens monuments chrétiens conservés de France. Sa forme est inhabituelle : trois nefs juxtaposées, chacune terminée par une abside, sous des toitures basses en tuiles, dans un vallon planté de pins et de cyprès. Les vitraux, modernes, sont montés avec des culs de bouteilles colorés. On y arrive par une petite route à l'écart des plages, et le lieu est aussi calme que le littoral est saturé en été. C'est le contrepoint exact du reste de la commune."
+      },
+      {
+        heading: "5. Notre-Dame du Mai",
+        body: "La chapelle de Notre-Dame du Mai occupe le sommet du cap Sicié, à 358 mètres au-dessus de la mer, et c'est le point de vue majeur du secteur : par temps clair, la côte se déroule de Cassis à Toulon, avec l'arrière-pays derrière. C'est un lieu de pèlerinage ancien, lié aux marins, et les ex-voto qu'il conserve en disent long sur ce qu'était la navigation au large de ce cap. La route d'accès monte depuis la commune ; la marche depuis le bas est possible et elle est raide. Le vent y est fort presque en permanence, et un mistral installé rend le séjour au sommet nettement moins agréable qu'il n'y paraît depuis la plage."
+      },
+      {
+        heading: "6. Marcher au cap Sicié, et la règle à connaître",
+        body: "Le massif du cap Sicié est le plus beau terrain de randonnée du secteur : falaises, sentiers en balcon, forêt méditerranéenne, et une côte restée sauvage à quelques kilomètres de Toulon. Une règle conditionne tout le reste, et elle n'est pas facultative : l'accès aux massifs forestiers du Var est réglementé par arrêté préfectoral pendant la saison des feux, avec des niveaux de risque évalués quotidiennement qui peuvent fermer complètement le massif. Cette information se consulte le matin même, sur le site de la préfecture, et non la veille au soir. Partir malgré une fermeture n'est pas une imprudence de randonneur, c'est une infraction, et c'est aussi ce qui mobilise des secours dont d'autres ont besoin."
+      },
+      {
+        heading: "7. Le Brusc",
+        body: "À la pointe sud de la commune, Le Brusc est un hameau de pêcheurs méditerranéen, avec son port, ses barques et ses cabanons. C'est la partie de Six-Fours qui ressemble le moins à une station et le plus à un village, et c'est de là que partent les bateaux pour les îles. Le plan d'eau abrité entre Le Brusc et les îles est un des grands sites d'herbiers de posidonie de la région, ce qui explique la clarté de l'eau et impose de mouiller ailleurs quand on navigue. Venir en fin de journée, quand les bateaux rentrent, donne une image de la commune très différente de celle des plages de sable au nord."
+      },
+      {
+        heading: "8. Les Embiez, accessible depuis Le Brusc",
+        body: "L'île des Embiez se rejoint en bateau depuis le quai du Brusc ; la traversée est courte et les horaires varient selon la période, ce qui se vérifie avant de s'engager avec une voiture garée. L'île abrite un centre de recherche océanographique, des salins, des sentiers côtiers et un port. Une précision de géographie, comme partout dans cette série : les Embiez ne sont pas Six-Fours, elles relèvent de la commune et se visitent comme une excursion à part, avec son propre calendrier. Compter une demi-journée au minimum, et ne pas caler la dernière navette au plus juste."
+      },
+      {
+        heading: "9. La batterie du cap Nègre",
+        body: "Construite en 1846, la batterie du cap Nègre occupe une position entre la baie de Sanary et la rade du Brusc, et elle faisait partie du dispositif de protection des approches de Toulon. Elle complète ce que le fort raconte plus haut : cette côte a été militarisée pendant plus d'un siècle, d'abord contre une flotte, ensuite contre une aviation, et ce que le promeneur prend pour des ruines pittoresques sont les restes d'un système cohérent. Le site vaut autant pour la vue que pour l'ouvrage, et il permet d'aborder le littoral de Six-Fours par autre chose que le parasol."
+      },
+      {
+        heading: "10. Les plages, y aller et quand venir",
+        body: "La commune aligne plusieurs kilomètres de littoral, du sable au nord vers Sanary aux criques rocheuses au sud, et les baies exposées au vent d'ouest sont un site reconnu de planche à voile et de sports de glisse : c'est la contrepartie du mistral. Six-Fours n'a pas de gare ; l'accès se fait par Toulon ou Ollioules-Sanary, puis en bus ou en voiture, et le stationnement en bord de mer est le vrai point noir de juillet et d'août. La bonne saison est le printemps ou septembre : la mer est praticable, les massifs sont ouverts, et Pépiole, la collégiale et le cap Sicié se visitent sans foule et sans chaleur."
+      }
+    ],
+    relatedCities: ["six-fours-les-plages", "toulon", "la-seyne-sur-mer", "sanary-sur-mer"],
+    relatedGuides: [
+      "10-choses-a-faire-a-la-seyne-sur-mer-2026",
+      "10-choses-a-faire-a-toulon-2026",
+      "10-choses-a-faire-a-hyeres-2026",
+      "10-choses-a-faire-a-cassis-2026"
+    ],
+    tags: ["10 choses à faire à Six-Fours-les-Plages", "activités Six-Fours 2026", "que faire dans le Var", "sorties littoral varois randonnée", "Pépiole cap Sicié Louis Bréa Embiez"]
+  },
+  {
+    slug: "10-choses-a-faire-a-blagnac-2026",
+    title: "10 choses à faire à Blagnac",
+    metaTitle: "10 choses à faire à Blagnac en 2026",
+    metaDesc:
+      "Monter dans un Concorde, voir assembler un A350, une église inscrite depuis 1926 : 10 activités à Blagnac, aux portes de Toulouse.",
+    category: "tourisme",
+    emoji: "✈️",
+    readMinutes: 7,
+    publishedAt: "2026-09-05",
+    updatedAt: "2026-09-05",
+    intro:
+      "Blagnac comptait 27 314 habitants au recensement de 2022, contre 24 288 en 2016 et 22 217 en 2011 : la commune gagne des habitants vite, et c'est une des rares de cette série dans ce cas. Blagnac est connue pour son aéroport et pour Airbus, et l'on suppose en général qu'il n'y a rien d'autre à y faire que d'attendre un vol. C'est faux sur un point majeur : c'est ici, et nulle part ailleurs en France, que l'on monte à bord d'un Concorde et que l'on regarde assembler un avion de ligne. Le reste de la commune est un bourg de brique au bord de la Garonne.",
+    sections: [
+      {
+        heading: "1. Aeroscopia",
+        body: "Le musée a ouvert en janvier 2015, à côté des usines Airbus, et il retrace l'histoire de l'aéronautique jusqu'à aujourd'hui. La collection réunit des appareils que l'on ne voit pas ailleurs réunis : un Concorde, une Caravelle aux couleurs d'Air Inter, un Super Guppy, un A300B — le premier avion produit par le constructeur —, un A400M, un A380, et une réplique du Morane-Saulnier de Roland Garros. Une fresque de cinquante-huit mètres suit la chronologie de l'aviation. Le hall est vaste et les appareils sont présentés au sol, ce qui donne l'échelle réelle des machines : un A380 vu depuis le tarmac n'a rien à voir avec un A380 vu depuis une passerelle d'embarquement."
+      },
+      {
+        heading: "2. Monter à bord",
+        body: "C'est ce qui distingue Aeroscopia des autres musées aéronautiques français : plusieurs appareils se visitent de l'intérieur. On entre dans le poste de pilotage du Concorde, dans celui du Super Guppy, et l'on parcourt la cabine d'un A380 et celle d'un A300. Le contraste entre la cabine étroite du Concorde, avec ses hublots minuscules, et le volume d'un A380 dit en cinq minutes ce que quarante ans d'aviation civile ont changé — et pourquoi la vitesse a perdu contre la capacité. Pour un visiteur qui prend l'avion sans y penser, c'est le moment le plus instructif de la journée, et il vaut mieux le garder pour la fin de la visite."
+      },
+      {
+        heading: "3. Voir assembler un avion",
+        body: "Les visites d'usine Airbus se réservent auprès du groupe Manatour et partent de l'accueil du musée Aeroscopia. Deux chaînes d'assemblage se visitent, celle de l'A350 et celle de l'A321. Sur la première, on accède à une passerelle d'observation panoramique qui domine la chaîne d'assemblage final Jean-Luc Lagardère : on regarde, depuis un point fixe, des tronçons de fuselage devenir un avion. La visite dure environ une heure et demie et se fait en plusieurs langues. Il ne s'agit pas d'une reconstitution ni d'un centre de visiteurs : c'est un site industriel en activité, et c'est ce qui rend l'expérience difficile à comparer à quoi que ce soit d'autre en France."
+      },
+      {
+        heading: "4. Les règles à connaître avant de réserver",
+        body: "Elles ne sont pas négociables et elles font échouer les visites improvisées. La réservation est obligatoire et se fait à l'avance ; la présentation d'un document d'identité en cours de validité est exigée à l'entrée ; les créneaux sont limités et se remplissent, avec une offre renforcée pendant les vacances scolaires de la zone concernée et le mercredi et le samedi hors vacances. Le site Airbus couvre plusieurs centaines d'hectares autour des pistes de l'aéroport et il reste une emprise industrielle : on n'y circule pas librement, on suit un parcours encadré. Même logique que pour une base aérienne, et il vaut mieux le savoir en réservant qu'en arrivant."
+      },
+      {
+        heading: "5. L'église Saint-Pierre",
+        body: "Blagnac a un centre ancien, et son église en est le cœur. Saint-Pierre est inscrite au titre des monuments historiques depuis 1926. Le bâtiment a connu des remaniements importants entre le XIVe et le XVIe siècle, avec la construction de la chapelle Saint-Jacques et du chœur, puis l'ajout au XIXe siècle des chapelles de la Vierge et du Sacré-Cœur. C'est une église de brique, comme tout le pays toulousain, et la brique est le fil à suivre dans le vieux Blagnac : les mêmes matériaux, les mêmes teintes et les mêmes proportions qu'à Toulouse, à une échelle de bourg."
+      },
+      {
+        heading: "6. Les quatre monuments protégés",
+        body: "La commune compte exactement quatre édifices protégés au titre des monuments historiques, et les énumérer donne une idée juste de ce qu'était Blagnac avant l'aéronautique : l'oratoire Saint-Exupère, classé en 1922 ; l'église Saint-Pierre, inscrite en 1926 ; le pont sur le Touch, inscrit en 1950 ; et le couvent Sainte-Catherine de Sienne, inscrit en 2001. Un oratoire, une église, un pont et un couvent : c'est le patrimoine d'un village agricole de la plaine de la Garonne. Le contraste avec la chaîne d'assemblage d'A350 située à quelques kilomètres est brutal, et il résume l'histoire de la commune au XXe siècle mieux qu'un panneau explicatif."
+      },
+      {
+        heading: "7. Le pont sur le Touch",
+        body: "Le Touch est un affluent de la Garonne, et le pont qui le franchit est protégé depuis 1950. C'est un ouvrage modeste, que l'on traverse sans le remarquer, et c'est exactement pour cela qu'il mérite un arrêt : il rappelle que la route passait déjà par ici bien avant l'aéroport, et que Blagnac était une étape sur un itinéraire ancien vers le Gers. Le parcours de découverte de la commune enchaîne ces éléments de brique et de galets — l'autre matériau du secteur, tiré des alluvions du fleuve — et il tient en une heure et demie de marche depuis le centre ancien."
+      },
+      {
+        heading: "8. Odyssud",
+        body: "Odyssud est l'équipement culturel de la commune, en bordure du parc du Ritouret et de son plan d'eau. Le bâtiment est conçu comme une pyramide éclatée autour d'un forum couvert et regroupe une grande salle de spectacle de 950 places, une médiathèque, une ludothèque et une halle d'exposition. Sa programmation dépasse le cadre communal et attire un public toulousain, ce qui est rare pour une salle de banlieue. L'accès se fait par le tramway, station Odyssud, et le parc autour est le poumon vert de Blagnac : lac, pelouses, aires de jeux, et de quoi occuper une fin d'après-midi avec des enfants après une matinée de musée."
+      },
+      {
+        heading: "9. Les ramiers de Garonne",
+        body: "Le parc des Ramiers borde le fleuve en contrebas de l'église Saint-Pierre. Le mot ramier désigne dans le Sud-Ouest les terrains d'alluvions des bords de Garonne, boisés et régulièrement inondables, longtemps utilisés comme pâtures ou comme gravières. Ces espaces sont aujourd'hui des promenades, avec une ripisylve dense et une faune d'oiseaux d'eau. C'est un endroit calme à moins de deux kilomètres d'un des plus gros sites industriels d'Europe, et il donne à voir un paysage de fleuve que la traversée de Toulouse, très urbaine, ne montre pas."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Blagnac est desservie par le tramway depuis Toulouse, ce qui rend la commune accessible sans voiture, et l'aéroport est sur son territoire, ce qui permet de caler Aeroscopia entre deux vols si l'attente est longue. Une journée suffit largement, et l'organisation est dictée par un seul point : la visite d'usine se réserve d'abord, le reste se cale autour. Compter une demi-journée pour le musée et la chaîne d'assemblage, une seconde demi-journée pour le vieux Blagnac, les ramiers et le parc du Ritouret. Pour Toulouse même, la Cité de l'espace et le musée Aeroscopia ne se visitent pas le même jour sans se gâcher l'un l'autre."
+      }
+    ],
+    relatedCities: ["blagnac", "toulouse", "colomiers", "montauban"],
+    relatedGuides: [
+      "10-choses-a-faire-a-toulouse-2026",
+      "10-choses-a-faire-a-montauban-2026",
+      "10-choses-a-faire-a-albi-2026",
+      "10-choses-a-faire-a-carcassonne-2026"
+    ],
+    tags: ["10 choses à faire à Blagnac", "activités Blagnac 2026", "que faire en Haute-Garonne", "sorties Toulouse aéronautique", "Aeroscopia Concorde visite Airbus A350"]
+  },
+  {
+    slug: "10-choses-a-faire-au-cannet-2026",
+    title: "10 choses à faire au Cannet",
+    metaTitle: "10 choses à faire au Cannet en 2026",
+    metaDesc:
+      "Le seul musée au monde consacré à Bonnard, une chapelle décorée par Tobiasse, une tour du XVIe siècle : 10 activités au Cannet, au-dessus de Cannes.",
+    category: "tourisme",
+    emoji: "🖼️",
+    readMinutes: 7,
+    publishedAt: "2026-09-05",
+    updatedAt: "2026-09-05",
+    intro:
+      "Le Cannet comptait 40 198 habitants au recensement de 2022, contre 41 612 en 2016 et 42 754 en 2011 : la commune perd des habitants, comme plusieurs communes littorales des Alpes-Maritimes. Elle est contiguë à Cannes, dont elle occupe les collines, et c'est ce qui la rend invisible : on passe au-dessus, on croit que c'est encore Cannes, on continue. Le Cannet a pourtant une raison d'exister à part entière, et elle est unique au monde. C'est ici que Pierre Bonnard a passé les vingt dernières années de sa vie, et c'est ici qu'est le seul musée qui lui soit consacré.",
+    sections: [
+      {
+        heading: "1. Le musée Bonnard",
+        body: "Le musée a ouvert le 25 juin 2011 et il est, à ce jour, le seul au monde entièrement consacré à l'œuvre de Pierre Bonnard. Il occupe un bâtiment Belle Époque, l'ancien hôtel Saint-Vianney, restauré et adapté par les architectes Ferrero et Rossi, de Vence. Le fonds permanent est complété par des expositions temporaires qui font venir des prêts d'institutions internationales, si bien que l'accrochage change et qu'un second passage à quelques années d'intervalle n'a rien d'une redite. C'est un musée de taille humaine, qui se visite en une heure et demie sans fatigue, et qui a l'avantage rare d'être consacré à un seul peintre dans le lieu même où il a travaillé."
+      },
+      {
+        heading: "2. Pourquoi Bonnard est venu ici",
+        body: "Bonnard achète en 1926 une villa du Cannet, Le Bosquet, et y passe plus de vingt ans, jusqu'à sa mort en 1947. Ce n'est pas un séjour d'hiver de peintre parisien : c'est là qu'il vit et qu'il produit une part décisive de son œuvre tardive, les intérieurs, les salles de bain, les fenêtres ouvertes sur les toits et les collines. Le paysage qu'il regardait est encore lisible depuis les hauteurs de la commune, et c'est ce qui donne son sens à la visite. Le musée est le lieu où l'on voit les tableaux ; la villa, elle, est la maison privée où ils ont été peints, et il ne faut pas confondre les deux adresses."
+      },
+      {
+        heading: "3. La chapelle Saint-Sauveur",
+        body: "Ancien clocher reconverti, la chapelle Saint-Sauveur, rue Saint-Sauveur, a été entièrement décorée par Théo Tobiasse sur le thème « La vie est une fête ». L'artiste y a traité l'intérieur comme une seule composition, avec une mosaïque qui souligne l'entrée et une sculpture, L'Oiseau de Lumière, à l'extérieur. C'est un lieu bref — le volume est petit — et intense, dans la lignée des chapelles décorées par des artistes du XXe siècle sur la Côte d'Azur, dont celle de Matisse à Vence est la plus célèbre. Elle se visite en dix minutes et elle vaut le déplacement à elle seule si l'on est déjà dans le Vieux-Cannet."
+      },
+      {
+        heading: "4. Le mur des amoureux de Peynet",
+        body: "Face à la chapelle, sur la même rue, le mur des amoureux a été réalisé en 1990 par le fresquiste Guy Ceppa d'après Raymond Peynet, illustrateur des célèbres Amoureux et citoyen d'honneur du Cannet. La composition montre des mariés survolant un jardin d'Éden inspiré de la commune. C'est un lieu de photo de mariage local, ce qui en dit long sur la place qu'il a prise dans la ville, et c'est aussi un rappel que Peynet a été un dessinateur immensément populaire dont l'œuvre est aujourd'hui moins vue. La rue Saint-Sauveur concentre en cinquante mètres la chapelle, le mur et un point de vue : c'est le meilleur rapport intérêt sur distance de la commune."
+      },
+      {
+        heading: "5. La tour des Danys",
+        body: "La tour des Danys, du XVIe siècle, est la plus ancienne construction du Cannet conservée dans son état d'origine. Elle fermait une entrée du village, et sa porte, aujourd'hui murée, se trouvait à trois mètres du sol : on y accédait par une échelle que l'on retirait, dispositif classique des tours défensives de la région. Sa toiture porte neuf mâchicoulis et ses ouvertures sont rares, ce qui confirme sa fonction. Elle rappelle une réalité qu'on oublie sur cette côte : jusqu'au XIXe siècle, on ne s'installait pas au bord de l'eau, on s'installait en hauteur et on se barricadait, parce que la mer apportait surtout des ennuis."
+      },
+      {
+        heading: "6. Le Vieux-Cannet à pied",
+        body: "Le cœur ancien s'explore à pied, entre façades ocre, ruelles étroites et passages piétons en escalier. La commune a balisé un circuit qui relie les points d'intérêt ; il est court et il monte, ce qui est la seule difficulté réelle. On y croise plusieurs peintures murales, dont deux fresques de street art de l'artiste Big Ben représentant Bonnard à deux âges différents, qui font le lien entre le patrimoine et le musée. C'est une promenade d'une heure, à faire de préférence en fin d'après-midi : la lumière rasante sur les enduits ocre est exactement le sujet qui a retenu Bonnard ici."
+      },
+      {
+        heading: "7. La place Bellevue",
+        body: "Située au milieu de la rue Saint-Sauveur, la place Bellevue offre la vue de référence sur la commune : les toits du Cannet en premier plan, la mer au fond, et le clocher de l'église Sainte-Philomène au milieu. C'est un point de repère pratique autant qu'un point de vue, parce qu'il permet de comprendre l'organisation en terrasses de la ville. Le panorama plus large, depuis les hauteurs, ouvre sur la baie de Cannes, les îles de Lérins et la ligne rouge de l'Esterel à l'ouest. C'est le même paysage que celui des tableaux tardifs de Bonnard, et le rapprochement se fait tout seul quand on sort du musée."
+      },
+      {
+        heading: "8. Le Cannet n'est pas Cannes",
+        body: "Les deux communes sont contiguës et le tissu urbain est continu, mais ce sont deux villes distinctes, et la confusion coûte cher aux visiteurs qui la font. Le Cannet est en hauteur, résidentiel, sans front de mer et sans plage — la commune n'a pas de littoral. Les prix de l'hébergement et de la restauration y sont sensiblement inférieurs à ceux de la Croisette, à quelques minutes de bus, ce qui en fait une base sérieuse pour visiter Cannes, les Lérins et l'arrière-pays. En sens inverse, quiconque cherche la plage doit descendre : ce qui se trouve ici, ce sont des collines, une histoire de village et un musée."
+      },
+      {
+        heading: "9. Rocheville et la ville d'en bas",
+        body: "Le Cannet ne se réduit pas à son vieux village. Le quartier de Rocheville, plus bas, est un quartier populaire et commerçant, avec une vie de quotidien très différente de celle des collines. On y mesure ce qu'est réellement une commune de quarante mille habitants de la Côte d'Azur, loin de l'image de carte postale : une ville de résidents, avec ses écoles, ses commerces et ses immeubles des années 1960 et 1970. Y passer une heure est le meilleur correctif possible à une journée de patrimoine, et c'est aussi là que l'on mange au prix du quartier plutôt qu'au prix de la vue."
+      },
+      {
+        heading: "10. Y aller, et combien de temps rester",
+        body: "Le Cannet n'a pas de gare : on arrive par Cannes, puis en bus urbain ou en voiture, la montée étant courte. Une demi-journée suffit pour le musée Bonnard, la rue Saint-Sauveur, la tour des Danys et le Vieux-Cannet ; une journée si l'on ajoute Rocheville et une flânerie. Le musée ferme certains jours et change d'accrochage entre deux expositions temporaires, donc on vérifie avant de venir, surtout si l'on se déplace pour une œuvre précise. La meilleure combinaison avec Cannes est de faire Le Cannet le matin, quand la lumière porte sur les collines, et de redescendre l'après-midi."
+      }
+    ],
+    relatedCities: ["le-cannet", "cannes", "antibes", "grasse"],
+    relatedGuides: [
+      "10-choses-a-faire-a-cannes-2026",
+      "10-choses-a-faire-a-antibes-2026",
+      "10-choses-a-faire-a-grasse-2026",
+      "10-choses-a-faire-a-cagnes-sur-mer-2026"
+    ],
+    tags: ["10 choses à faire au Cannet", "activités Le Cannet 2026", "que faire dans les Alpes-Maritimes", "sorties Côte d'Azur peinture", "musée Bonnard Tobiasse Peynet tour des Danys"]
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

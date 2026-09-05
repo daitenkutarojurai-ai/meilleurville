@@ -1211,6 +1211,144 @@ Saint-Herblain, Mantes-la-Jolie, Istres, les six banlieues de province jamais fa
 trous mesurés au batch 40 : Villefranche-sur-Saône, Melun, Alès, Le Cannet, Conflans-Sainte-Honorine,
 Pontoise, Haguenau, Blagnac, Six-Fours-les-Plages.
 
+**Batch 42 — FR, shipped 2026-09-05 : Pontoise, Haguenau, Alès, Villefranche-sur-Saône,
+Six-Fours-les-Plages, Blagnac, Le Cannet.** Six des sept villes sortent de la liste de gisements
+laissée par le batch 40 (Pontoise, Haguenau, Blagnac, Six-Fours-les-Plages, Villefranche-sur-Saône,
+Le Cannet) ; **Alès** est l'ajout du run, et c'est le plus gros trou restant du corpus : deuxième
+commune du Gard, seul site minier visitable de la région, et aucun guide ne la citait. Les six
+banlieues de province jamais faites (Villenave-d'Ornon, Talence, Le Bouscat ; Vaulx-en-Velin,
+Saint-Priest, Bron — rappel du batch 28 : **l'Espace Albert Camus et le fort de la ceinture
+lyonnaise sont à Bron**, pas à Vénissieux) **restent en piste et n'ont toujours pas été faites**,
+même arbitrage qu'aux batches 26, 32, 34, 36 et 40 : **on choisit par matière touristique réelle,
+pas par inertie de liste.**
+⚠️ **Un nouveau slug hors gabarit, le huitième** : `10-choses-a-faire-**au**-cannet-2026` (« au
+Cannet »). Le compte réel se prend toujours avec **`grep -c 'slug: "10-choses-a-faire-a[ux]*-.*-2026"'`**,
+et la table de correspondance à appliquer avant tout `comm` s'allonge : `puy-en-velay`→`le-puy-en-velay`,
+`tampon`→`le-tampon`, `francois`→`le-francois`, `robert`→`le-robert`, `lamentin`→`le-lamentin`,
+`cannet`→`le-cannet`, `abymes`→`les-abymes`, `sables-d-olonne`→`les-sables-d-olonne`. Le correctif
+du batch 32 tient : `app/villes/[slug]/a-faire/page.tsx` et `guideCityPhoto()` retrouvent bien la
+forme contractée depuis `le-cannet`, vérifié après écriture sur les sept guides.
+**Compteurs mesurés : FR 247 (`-a-` strict 239 + 6 en `au-` + 2 en `aux-`), EN 240 ; `GUIDES` 1066
+→ 1073.** `metaTitle` 32-42 caractères, `metaDesc` 130-150, 10 sections par guide, densité d'accents
+0,122-0,203 **par mot** (seuil ascii-strip 0,09), 0 à 5 em-dashes pour ~1 200 mots (cible R7.10 :
+~1 pour 200 mots). `npm run search-index` relancé (`data/search-index.json` 1 073 guides, **257 tags,
+inchangé** — aucun tag neuf n'a franchi le seuil de 3 guides, donc aucune page `/tags/` créée) et
+`npm run sitemap:check` repassé (FR 29 155 → **29 162 URL**, soit exactement les 7 guides neufs ;
+EN 28 737). Les sept guides sont vérifiés **retrouvés par le lookup de
+`app/villes/[slug]/a-faire/page.tsx` et pourvus de leur photo d'en-tête** (`guideCityPhoto`).
+⚠️ **Le fait qui structure le guide Haguenau est une absence, et il faut la dire avant de faire
+chercher un monument inexistant** : Barberousse transforme la forteresse en palais impérial à partir
+de **1162** et accorde la charte de franchises en **1164**, la chapelle palatine est bâtie
+**1170-1184** et les empereurs y résident jusqu'en **1250** — mais **il n'en reste rien**. La ville
+est incendiée **deux fois la même année 1677**, par le général de Montclar le **10 février** puis par
+le maréchal de Créquy du **16 au 17 septembre**, sur ordre de Louis XIV et de Louvois qui appliquent
+la terre brûlée pour empêcher les Impériaux de tenir les villes de la **Décapole** (dix villes,
+constituée en **1354**, dont Haguenau est le chef-lieu) ; le château impérial disparaît alors, la
+chapelle en **1687**. Haguenau ne renaît qu'à partir de **1715** et devient, après Strasbourg et
+Colmar, la ville d'Alsace la plus riche en édifices du **XVIIIe siècle** — c'est ce siècle-là qu'on
+regarde dans le centre. Puis occupation en **1940**, libération en **mars 1945** après deux mois de
+combats sur les lignes de la Moder, reconstruction après **1950**.
+Autres faits vérifiés en ligne avant rédaction : cathédrale **Saint-Maclou de Pontoise** bâtie
+**1140-1165**, façade flamboyante substituée à la façade d'origine dans la **seconde moitié du XVe
+siècle**, **cathédrale seulement depuis 1966** (création du diocèse) ; **musée Tavet-Delacour** dans
+un hôtel bâti **1477-1483** pour l'archevêque de Rouen, musée à la suite de la proposition de M.
+Tavet en **1889**, **donation Otto Freundlich en 1968** — le plus vaste ensemble au monde pour cet
+artiste ; **musée Pissarro créé en 1980** ; **Pissarro à Pontoise de 1866 à 1868 puis de 1872 au
+début des années 1880**, il y fait venir **Cézanne et Guillaumin en 1872**, **Gauguin est son élève
+1879-1883**, et c'est par lui que **Van Gogh arrive à Auvers en 1890** ; **église Notre-Dame détruite
+au siège de 1589, rebâtie en 1599** ; **carmel fondé en 1605** ; **église Saint-Georges de Haguenau**
+chantier ouvert en **1143**, **classée MH dès 1848** ; **forêt indivise de Haguenau 13 406 ha**, la
+plus grande forêt domaniale indivise de France, statut issu d'une **ordonnance de Louis XIV du 28
+août 1696**, ville et État copropriétaires à parts égales, jamais défrichée (sols sableux, cônes
+alluviaux de la Moder et de la Sauer), **Gros Chêne** foudroyé au début du XXe siècle après cinq à
+six siècles ; **Mine Témoin d'Alès créée en 1945** quartier de Rochebelle, **700 m de galeries**, le
+plus grand réseau minier naturel visitable de France, **mine-école des Houillères des Cévennes où des
+apprentis sont réellement descendus de 1945 à 1968** ; **musée PAB** au château de Rochebelle,
+ancienne résidence des évêques, **Pierre-André Benoit 1921-1993**, imprimeur et éditeur de Picasso,
+Picabia, Miró et Braque ; **fort Vauban** dans les jardins du Bosquet, ordonné par Louis XIV pendant
+la **guerre des Camisards** ; **chapelle de l'Ermitage** dite Notre-Dame-des-Mines, **290 m**,
+bâtie à partir du XIIe siècle ; **apogée de la soie en 1855**, année d'apparition de la **pébrine**,
+**Pasteur à Alès de 1865 à 1869** ; **collégiale Notre-Dame-des-Marais** de Villefranche, flèche de
+**72 m**, chantier du XIIe au XVIe ; **musée Paul-Dini ouvert le 9 juin 2001** dans l'ancienne halle
+aux grains dite la **Grenette** (**1893**, réaménagée **1999-2001**), né d'une donation de Muguette
+et Paul Dini (**premier don le 15 août 1998**, ~**450 tableaux**), collection permanente > **1 200
+œuvres**, peinture lyonnaise et rhônalpine **de 1875 à aujourd'hui** ; **Conscrits nés vers 1850**,
+grande **vague** sur la rue Nationale, **inscrits en 2020 à l'inventaire du patrimoine culturel
+immatériel**, classes en 6 en 2026 ; **collégiale Saint-Pierre de Six-Fours** au XIe siècle,
+**polyptyque de la Vierge attribué à Louis Bréa** (né à Nice vers 1450, mort vers 1523), **classé MH
+en 1898** ; **Notre-Dame de Pépiole**, paléochrétienne, trois nefs juxtaposées à absides, vitraux en
+culs de bouteilles ; **Notre-Dame du Mai au sommet du cap Sicié, 358 m**, panorama de Cassis à
+Toulon ; **fort de Six-Fours** bâti à la fin du XIXe après **1870**, réarmé en batterie antiaérienne
+avant le débarquement d'**août 1944** ; **batterie du cap Nègre, 1846** ; **Aeroscopia ouvert en
+janvier 2015** (Concorde, Caravelle Air Inter, Super Guppy, **A300B premier avion produit par
+Airbus**, A400M, A380, réplique du Morane-Saulnier de Roland Garros, **fresque de 58 m**) ; **visites
+Airbus par Manatour au départ de l'accueil d'Aeroscopia**, chaînes **A350 (FAL Jean-Luc Lagardère)**
+et **A321**, **~1 h 30**, réservation obligatoire et **document d'identité exigé** ; **quatre
+monuments protégés à Blagnac** — oratoire Saint-Exupère **classé 1922**, église Saint-Pierre
+**inscrite 1926**, pont sur le Touch **inscrit 1950**, couvent Sainte-Catherine de Sienne **inscrit
+2001** ; **Odyssud** en bordure du parc du Ritouret, **950 places**, tram T1 ; **musée Bonnard ouvert
+le 25 juin 2011** dans l'ancien **hôtel Saint-Vianney** (architectes Ferrero et Rossi, de Vence),
+**seul musée au monde consacré à Bonnard** ; **Bonnard achète Le Bosquet en 1926** et y reste jusqu'à
+sa mort en **1947** ; **chapelle Saint-Sauveur** décorée par **Théo Tobiasse** sur le thème « La vie
+est une fête », sculpture **L'Oiseau de Lumière** ; **mur des amoureux réalisé en 1990** par le
+fresquiste **Guy Ceppa** d'après **Raymond Peynet**, citoyen d'honneur ; **tour des Danys, XVIe
+siècle**, la plus ancienne construction du Cannet conservée en l'état, **porte murée à trois mètres
+du sol**, **neuf mâchicoulis**.
+⚠️ **Six affirmations écrites au premier jet et retirées avant commit, toutes faute de source et
+non faute de vraisemblance** — c'est le même mode de défaillance qu'aux batches 38 et 40, mais un cran
+plus en amont : ① les cloches de Saint-Georges données « parmi les plus anciennes de France » ; ② les
+boiseries de Saint-Nicolas attribuées nommément à l'**abbaye de Neubourg** (l'origine abbatiale est
+sûre, l'abbaye ne l'était pas) ; ③ le château de Rochebelle situé « sur la rive gauche du Gardon » ;
+④ « une **soixantaine** de cours Renaissance » à Villefranche, chiffre très répandu et jamais sourcé,
+remplacé par « des dizaines » ; ⑤ la seconde nef de la collégiale de Six-Fours qualifiée de
+« gothique » face à une « romane primitive », alors que seule la datation du noyau au XIe siècle
+était établie ; ⑥ un marché propre au quartier de Rocheville, au Cannet. **Aucune n'aurait été vue
+par un contrôle automatique, et aucune n'était nécessaire à la phrase qui la portait.**
+Cinq prudences assumées dans la copie, à ne pas diluer : ① convention « **accessible depuis** »
+plutôt que « situé à » sur tout ce qui relève d'une commune voisine — **Auvers-sur-Oise est une
+commune à part entière** en aval de Pontoise et ce qui s'y visite ne se visite pas à Pontoise, la
+**Bambouseraie est à Générargues** près d'Anduze et non à Alès, **les Embiez** se rejoignent en
+bateau depuis Le Brusc et se visitent comme une excursion à part, le **vignoble du Beaujolais** n'est
+pas dans Villefranche ; ② le **fort de Six-Fours reste une emprise militaire** et le **site Airbus de
+Blagnac une emprise industrielle en activité** — dits comme tels avant la première phrase attrayante,
+même traitement que le CAEA sur la base 106 (batch 28) et la base aérienne 701 de Salon (batch 34) ;
+③ l'**accès aux massifs forestiers du Var est réglementé par arrêté préfectoral en saison des feux**,
+avec des niveaux évalués quotidiennement pouvant fermer complètement le cap Sicié : le guide dit que
+cela se consulte **le matin même** et que passer outre est une infraction, pas une imprudence ;
+④ **Le Cannet n'est pas Cannes** — communes distinctes, tissu urbain continu, et **Le Cannet n'a pas
+de littoral** ; la section le dit plutôt que de laisser un lecteur réserver une plage ; ⑤ les deux
+musées municipaux de Pontoise ayant été réunis sous le nom de **musée d'Art et d'Histoire Pissarro –
+Pontoise**, la répartition des collections a bougé et les deux sections concernées renvoient à une
+vérification avant déplacement, comme la Mine Témoin qui fonctionne par créneaux. Aucun horaire,
+aucun tarif, aucune hauteur inventée ; les seuls chiffres de population sont ceux de l'Insee 2022 lus
+dans `data/city-population.json` (Pontoise 31 623, Haguenau 36 070, Alès 45 025,
+Villefranche-sur-Saône 36 224, Six-Fours-les-Plages 36 843, Blagnac 27 314, Le Cannet 40 198) —
+**pas les `population` approximatives du seed**.
+⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. § Commands depuis le batch 27 : 4 h 30
+de génération, `.next` à 25 Go, ENOSPC avant la finalisation, aucun signal utile). Le substitut
+prescrit passe en entier : `npx tsc --noEmit` **propre**, `npm run integrity` (guides FR 1066 →
+1073), `search-index` + `search-index:check`, `sitemap:check`, `npm run parity` (0 route FR sans
+jumelle), `npm run hreflang:check`, plus le contrôle de lookup / photo ci-dessus et une vérification
+d'encodage (accents intacts, aucun `m2` / `EUR` / `deg` ascii, aucun mojibake). Note d'environnement
+reconfirmée : le conteneur de routine démarre **sans `node_modules`** — `npm install` d'abord.
+Écart FR→EN après ce batch : **7 villes** (pontoise, haguenau, ales, villefranche-sur-saone,
+six-fours-les-plages, blagnac, le-cannet) — au-dessus du seuil de ~6, donc **le prochain run doit
+être un batch EN**. Rappel de la règle du batch 33 : côté EN, le slug se dérive du **slug de seed tel
+quel** (`getEnGuide('things-to-do-in-' + slug + '-2026')`), donc **`things-to-do-in-le-cannet-2026`
+garde son article** (comme `le-tampon`, `le-francois`, `les-sables-d-olonne`) et
+`things-to-do-in-six-fours-les-plages-2026` garde sa forme complète. Quatre points de vigilance pour
+ces jumelles : ① **Le Cannet doit être distingué de Cannes dès la première ligne** — un lecteur
+anglophone qui lit « Cannet » lit « Cannes » ; ② **Blagnac a de la matière propre à l'angle
+anglophone**, le Concorde étant un programme **franco-britannique** (BAC/Sud-Aviation) et le musée
+exposant l'exemplaire d'un avion dont l'autre chaîne était à Filton : le FR reste sobre là-dessus,
+même arbitrage qu'avec Jubilee à Dieppe (batch 37) et Cambrai (batch 39) ; ③ la règle des massifs
+varois et le **document d'identité obligatoire pour la visite Airbus** sont à écrire comme des règles
+opposables, pas comme des conseils ; ④ **Bonnard est mieux connu du public anglophone sous le nom du
+groupe des Nabis** et via les collections de la Tate et du MoMA — le lien se pose, sans chiffre.
+Pour le batch FR **suivant**, les gisements restants sont Saint-Herblain, Mantes-la-Jolie, Istres,
+Melun, Conflans-Sainte-Honorine, Le Bouscat, Talence, Villenave-d'Ornon, Vaulx-en-Velin,
+Saint-Priest, Bron.
+
 **Batch 36 — FR, shipped 2026-08-29 : Orange, Saint-Germain-en-Laye, La Ciotat, Rochefort, Dieppe,
 Douai, Sens.** Sept villes, sept régions différentes, et le même arbitrage qu'aux batches 26, 32 et
 34, assumé une fois de plus contre la liste de gisements : **on choisit par matière touristique
