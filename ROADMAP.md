@@ -13,7 +13,7 @@ Demande utilisateur directe. F58 / F60 / F61 livrées le jour même ; **F59 livr
 
 | # | Feature | Prio | Cplx | SEO | Statut |
 |---|---------|------|------|-----|--------|
-| F58 | City Match — profil « parent solo » | P1 | S | mid | ✅ shipped 2026-07-22 · sous-page `/villes/[slug]/parent-solo` ×540 + hub `/parent-solo` + miroir EN `/single-parent` + `/cities/[slug]/single-parent` ×540 shipped 2026-07-25→28 · série guides `parent-solo-a-[ville]-2026` batch 1 (+10) shipped 2026-07-24, batch 2 (+10 : Rennes, Nancy, Angers, Grenoble, Dijon, Metz, Reims, Aix-en-Provence, Rouen, Toulon) shipped 2026-08-07 · miroir EN de la série `single-parent-in-[city]-2026` batch 1 (+10 : Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux, Lille) shipped 2026-08-09, batch 2 (+10) shipped 2026-08-11 — **parité FR/EN atteinte à 20/20** · **batch 3 FR (+9 : Villeurbanne, Besançon, Caen, Brest, Tours, Limoges, Clermont-Ferrand, Saint-Étienne, Le Havre) shipped 2026-08-14**, **miroir EN batch 3 (+9) shipped 2026-08-15 — parité rétablie à 29/29** · **batch 4 FR (+10 : Nîmes, Saint-Denis de La Réunion, Le Mans, Amiens, Annecy, Perpignan, Orléans, Mulhouse, Poitiers, Dunkerque) shipped 2026-08-16**, **miroir EN batch 4 (+10) shipped 2026-08-17 — parité rétablie à 39/39** (compteur vérifié des deux côtés avant et après le run, cf. § Parité EN) · **batch 5 FR (+9 : Saint-Paul 974, Avignon, Saint-Pierre 974, Béziers, La Rochelle, Pau, Cherbourg-en-Cotentin, Fort-de-France, Mérignac) shipped 2026-08-23 — 48 FR contre 39 EN, premier guide martiniquais de la série**, **miroir EN batch 5 (+9) shipped 2026-08-25 — parité rétablie à 48/48** (rang publié = fit décroissant puis nom croissant, cf. § Parité EN) · **batch 6 FR (+9 : Valence, Colmar, Saint-Nazaire, Chambéry, Bourges, Pessac, Calais, Le Tampon 974, Ajaccio) shipped 2026-08-28 — 57 FR contre 48 EN, premier guide corse de la série** (+ 5 superlatifs faux corrigés, dont un dans le guide Pau du batch 5, cf. § ci-dessous) · **miroir EN batch 6 (+9) shipped 2026-08-29 — parité rétablie à 57/57**, premier guide corse côté EN (+ 2 comparatifs faux des guides FR du 28/08 corrigés des deux côtés, cf. § Parité EN) · **batch 7 FR (+9 : La Roche-sur-Yon, Dole, Lannion, Challans, Saint-Dié-des-Vosges, Albi, Cholet, Laon, Anglet) shipped 2026-08-30 — 66 FR contre 57 EN. Le run change la règle de sélection : population → rang. Six batches « par population » avaient couvert 9 des 40 premières villes du classement et laissé La Roche-sur-Yon, 1re sur 363, sans guide ; ce batch referme le top 11 en entier** (+ 3 superlatifs faux corrigés et le vivier du batch 6 démenti par la mesure, cf. § ci-dessous) · **miroir EN batch 7 (+9) shipped 2026-09-02 — parité rétablie à 66/66** · **batch 8 FR (+9 : Fontainebleau, Soissons, Vienne 38, Villefranche-sur-Saône, Auch, Chaumont, Compiègne, Les Sables-d'Olonne, Sens) shipped 2026-09-04 — 75 FR contre 66 EN. Le batch referme le **top 20 du classement publié** en appliquant la règle du rang du batch 7, vivier recalculé et non recopié ; 5 superlatifs faux corrigés avant insertion et le plancher d'éligibilité du classement mesuré (5 communes classées sont sous 20 000 au recensement, Fontainebleau à 4 213 près, cf. § ci-dessous)**, neuvième réouverture refermée ; 532 figures contrôlées contre les jumelles FR, 0 écart, et aucun superlatif faux trouvé cette fois (cf. § Parité EN) |
+| F58 | City Match — profil « parent solo » | P1 | S | mid | ✅ shipped 2026-07-22 · sous-page `/villes/[slug]/parent-solo` ×540 + hub `/parent-solo` + miroir EN `/single-parent` + `/cities/[slug]/single-parent` ×540 shipped 2026-07-25→28 · série guides `parent-solo-a-[ville]-2026` batch 1 (+10) shipped 2026-07-24, batch 2 (+10 : Rennes, Nancy, Angers, Grenoble, Dijon, Metz, Reims, Aix-en-Provence, Rouen, Toulon) shipped 2026-08-07 · miroir EN de la série `single-parent-in-[city]-2026` batch 1 (+10 : Paris, Lyon, Marseille, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux, Lille) shipped 2026-08-09, batch 2 (+10) shipped 2026-08-11 — **parité FR/EN atteinte à 20/20** · **batch 3 FR (+9 : Villeurbanne, Besançon, Caen, Brest, Tours, Limoges, Clermont-Ferrand, Saint-Étienne, Le Havre) shipped 2026-08-14**, **miroir EN batch 3 (+9) shipped 2026-08-15 — parité rétablie à 29/29** · **batch 4 FR (+10 : Nîmes, Saint-Denis de La Réunion, Le Mans, Amiens, Annecy, Perpignan, Orléans, Mulhouse, Poitiers, Dunkerque) shipped 2026-08-16**, **miroir EN batch 4 (+10) shipped 2026-08-17 — parité rétablie à 39/39** (compteur vérifié des deux côtés avant et après le run, cf. § Parité EN) · **batch 5 FR (+9 : Saint-Paul 974, Avignon, Saint-Pierre 974, Béziers, La Rochelle, Pau, Cherbourg-en-Cotentin, Fort-de-France, Mérignac) shipped 2026-08-23 — 48 FR contre 39 EN, premier guide martiniquais de la série**, **miroir EN batch 5 (+9) shipped 2026-08-25 — parité rétablie à 48/48** (rang publié = fit décroissant puis nom croissant, cf. § Parité EN) · **batch 6 FR (+9 : Valence, Colmar, Saint-Nazaire, Chambéry, Bourges, Pessac, Calais, Le Tampon 974, Ajaccio) shipped 2026-08-28 — 57 FR contre 48 EN, premier guide corse de la série** (+ 5 superlatifs faux corrigés, dont un dans le guide Pau du batch 5, cf. § ci-dessous) · **miroir EN batch 6 (+9) shipped 2026-08-29 — parité rétablie à 57/57**, premier guide corse côté EN (+ 2 comparatifs faux des guides FR du 28/08 corrigés des deux côtés, cf. § Parité EN) · **batch 7 FR (+9 : La Roche-sur-Yon, Dole, Lannion, Challans, Saint-Dié-des-Vosges, Albi, Cholet, Laon, Anglet) shipped 2026-08-30 — 66 FR contre 57 EN. Le run change la règle de sélection : population → rang. Six batches « par population » avaient couvert 9 des 40 premières villes du classement et laissé La Roche-sur-Yon, 1re sur 363, sans guide ; ce batch referme le top 11 en entier** (+ 3 superlatifs faux corrigés et le vivier du batch 6 démenti par la mesure, cf. § ci-dessous) · **miroir EN batch 7 (+9) shipped 2026-09-02 — parité rétablie à 66/66** · **batch 8 FR (+9 : Fontainebleau, Soissons, Vienne 38, Villefranche-sur-Saône, Auch, Chaumont, Compiègne, Les Sables-d'Olonne, Sens) shipped 2026-09-04 — 75 FR contre 66 EN. Le batch referme le **top 20 du classement publié** en appliquant la règle du rang du batch 7, vivier recalculé et non recopié ; 5 superlatifs faux corrigés avant insertion et le plancher d'éligibilité du classement mesuré (5 communes classées sont sous 20 000 au recensement, Fontainebleau à 4 213 près, cf. § ci-dessous)**, neuvième réouverture refermée ; 532 figures contrôlées contre les jumelles FR, 0 écart, et aucun superlatif faux trouvé cette fois (cf. § Parité EN)** · ⚠️ **la mention « neuvième réouverture refermée » ci-dessus était fausse : le batch 8 FR laissait la série à 75 FR / 66 EN, mesuré le 06/09. **Miroir EN batch 8 (+9) shipped 2026-09-06 — parité rétablie à 75/75**, dixième réouverture refermée ; 1 409 figures contrôlées contre les jumelles FR (3 écarts délibérés et documentés) et une erreur de décompte du guide FR Sens corrigée des deux côtés, « deux autres communes » pour trois (cf. § Parité EN) |
 | F59 | **Parcs & espaces verts par ville** (pipeline OSM + sub-page ×540) | **P0** | **L** | **high** | ✅ shipped 2026-07-27 |
 | F60 | `/departements` — finder par n° / nom / ville + carte cliquable | P1 | S | low | ✅ shipped 2026-07-22 · carte cliquable 2026-07-23 |
 | F61 | Vacances — profils « monoparental » et « célibataire » | P1 | S | high | ✅ shipped 2026-07-22 · mono enrichi 22/07 · célib enrichi 2026-07-26 · série guides `vacances-celibataire-[ville]-2026` batch 1 (+8) shipped 2026-08-01 · série `vacances-monoparentales-[ville]-2026` batch 1 (+7) shipped 2026-08-05 · `vacances-celibataire-[ville]-2026` batch 2 (+7 : Toulouse, Lille, Aix-en-Provence, Angers, Grenoble, Dijon, La Rochelle) shipped 2026-08-08 · croisement mois × profil `/vacances/ou-partir/[combo]` (12 × 7 = 84 pages SSG) shipped 2026-08-12 · miroir EN de la série célibataire, `solo-travel-in-[city]-2026` batch 1 (+8 : Paris, Lyon, Bordeaux, Lille, Strasbourg, Toulouse, Montpellier, Nantes) shipped 2026-08-13 · série EN fermée (batch 2, +7) 2026-08-14 · guide pilier `partir-en-vacances-seul-2026` + correction de l'anti-station-fantôme (part réelle des 15-29 ans Insee au lieu d'un écart d'affluence constant) shipped 2026-08-15 · **miroir EN de la série monoparentale, `single-parent-holidays-[city]-2026` (+7 : La Rochelle, Strasbourg, Nantes, Rennes, Vannes, Nancy, Dijon) shipped 2026-08-19 — parité FR/EN atteinte à 7/7, mêmes villes des deux côtés** (+ 4 chiffres faux corrigés dans la série FR au passage, cf. § ci-dessous) · **`vacances-celibataire-[ville]-2026` batch 3 (+7 : Nancy, Poitiers, Rouen, Caen, Clermont-Ferrand, Tours, Besançon) shipped 2026-08-22 — sélection dérivée de la mesure anti-station-fantôme, + 1 erreur de données corrigée dans `lib/transit.ts`, cf. § ci-dessous** · **`vacances-monoparentales-[ville]-2026` batch 2 (+8 : Lyon, Angers, Bordeaux, Besançon, Grenoble, Brest, Tours, Valence) shipped 2026-08-26 — sélection dérivée de la règle « accessible en train sans voiture » de la page profil elle-même, palier d'ex æquo pris entier, cf. § ci-dessous** · **`vacances-celibataire-[ville]-2026` batch 4 (+7 : Brest, Reims, Orléans, Metz, Troyes, Pau, Chambéry) shipped 2026-08-29 — règle du batch 3 recalculée et non recopiée, ce qui a rattrapé Orléans que la liste annoncée avait sauté ; + 4 erreurs de mode de transport corrigées dans `data/neighborhoods.ts` (Metz, Limoges, Amiens, Valence), cf. § ci-dessous** · **`vacances-monoparentales-[ville]-2026` batch 3 (+7 : Toulouse, Pau, Mâcon, Aix-en-Provence, Poitiers, Saint-Raphaël, Metz) shipped 2026-09-02 — premier lot où le profil classe haut des destinations chères, règle de sélection recalculée et non recopiée ; 7 comparaisons inter-villes fausses corrigées avant commit, cf. § ci-dessous** · **`vacances-celibataire-[ville]-2026` batch 5 (+7 : Le Mans, Valence, Saint-Denis de La Réunion, Mulhouse, Avignon, Bourges, Quimper) shipped 2026-09-05 — premier lot de la série hors métropole (calendrier austral inversé, aucun train sur l'île), règle recalculée et non recopiée, palier d'ex æquo Avignon/Bourges pris entier ; 10 comparaisons inter-villes fausses corrigées avant commit, cf. § ci-dessous** |
@@ -3186,6 +3186,99 @@ setup dans `CLAUDE.md`), pas une facilité.
 **Exceptions assumées** : `/badge` ×541 reste FR-only (la motion backlink vise mairies et
 offices de tourisme français) ; les surfaces de compte (`/auth`, `/dashboard`, `/favoris`,
 `/mes-villes`) ne sont pas du contenu indexable.
+
+### Livré le 06/09 — `single-parent-in-[city]-2026` batch 8 (+9), la série refermée à 75/75
+
+`npm run parity` en **code 0** en début et en fin de run (FR 220 · EN 166, 0 route FR sans jumelle) :
+aucune régression de routes, donc run de corpus. Compteurs mesurés avant/après : **FR 1 080, EN 845
+→ 854.** Écart de corpus ramené de 235 à 226.
+
+**La série `single-parent-in-` était rouverte depuis le 04/09 et le ROADMAP disait le contraire.**
+La ligne F58 annonçait la « neuvième réouverture refermée » après le batch 8 FR ; le diff des deux
+corpus donne **75 FR contre 66 EN**, et les 9 manquantes sont exactement les villes de ce batch 8
+(Fontainebleau, Soissons, Vienne 38, Villefranche-sur-Saône, Auch, Chaumont, Compiègne, Les
+Sables-d'Olonne, Sens). C'est le mode de régression décrit plus haut dans cette section, et il vient
+de se vérifier une fois de plus : **une série « fermée » ne le reste pas, et un compteur récité ne
+vaut pas un compteur mesuré.** Le run a donc écrit les 9 jumelles. Série refermée à **75/75**, dixième
+réouverture.
+
+⚠️ **Une erreur de comptage du guide FR Sens, corrigée des deux côtés.** Le guide affirmait
+qu'aucun de ses quatre axes ne descend sous 6,4/10 « ce qui n'est le cas que de **deux** autres
+communes des vingt premières ». Le décompte réel sur le moteur en donne **trois** : La Roche-sur-Yon,
+Dole et Laon (min. d'axe 7,0 · 6,4 · 6,4). Le FR est corrigé et nomme désormais les trois, la
+jumelle EN publie le même chiffre. C'est exactement le genre d'écart que ni `tsc` ni
+`npm run integrity` ne peuvent voir — un décompte, pas une date — et le troisième du même genre
+relevé sur cette série.
+
+**Contrôle mécanique des figures : 1 409 nombres du texte EN cherchés dans les jumelles FR** après
+normalisation des séparateurs (virgule décimale française → point, espaces fines de milliers
+supprimées). **Trois seulement ne s'y trouvent pas, et les trois sont délibérés — ne pas les
+« corriger » au prochain run** : ① `20 000`, le seuil d'éligibilité du classement, que seul le guide
+FR Fontainebleau énonce alors que les neuf guides EN le posent en intro (un lecteur étranger ne
+devinera pas ce que « les 363 communes retenues » recouvre) ; ② `11` et `1918` dans le guide
+Compiègne, l'armistice signé dans un wagon **en forêt de Compiègne** — c'est ce que le nom veut dire
+à l'étranger avant de vouloir dire autre chose, et la formulation dit « forêt » et non « commune »,
+la convention « accessible depuis » ne permettant pas d'affirmer l'attribution communale sans
+source ; ③ `1174` dans le guide Sens, l'incendie de Cantorbéry, **déjà porté par notre propre corpus
+EN** (`things-to-do-in-sens-2026`, batch 37) : Guillaume de Sens est appelé à reconstruire le chœur
+de Cantorbéry, filiation qui parle à un lecteur britannique et à personne d'autre.
+
+**Autre matière propre à l'angle anglophone, sans aucun chiffre neuf** : la **désambiguïsation de
+Vienne** posée en première ligne (ni Vienne en Autriche, que le français écrit pareil, ni le
+département de la Vienne dont la préfecture est Poitiers), même traitement qu'Orange au batch 37,
+Vernon au 39 et Bergerac au 41 ; Île-de-France et Hauts-de-Seine définis comme région et département
+plutôt que supposés connus ; **T1/T2/T3 comptés en pièces et non en chambres** ; `périscolaire`
+nommé et donné pour ce qu'il est, un service **communal** et non scolaire ; la caution ou garantie
+exigée en plus du test de revenu, et le fait qu'un dossier sans bulletins de salaire français passe
+après les autres ; `sous-préfecture` présentée comme un statut administratif et non comme une
+taille ; le Vendée Globe pour Les Sables et le Beaujolais pour Villefranche en simple repère.
+
+**Conventions du site tenues telles quelles, à ne pas diluer** : la règle des 33 % relâchée à 35 %
+sous un score de coût < 5 est expliquée dans chaque guide, avec le sens de l'écart — **Fontainebleau
+affiche le calcul indulgent** (3 450 € ; 3 650 € en règle stricte) et les huit autres le prudent ;
+le mètre carré est **un repère éditorial tous biens confondus, pas une médiane DVF** ; l'axe écoles
+décrit **l'offre communale, pas la réussite des élèves ni le travail des enseignants** ; et **aucun
+verdict de sécurité par quartier** n'est publié, `data/neighborhoods.ts` ne documentant aucun
+quartier des neuf villes — les guides le disent au lieu de laisser croire à une prudence de style.
+Le seed et le recensement coexistent et l'écart est nommé là où il change la lecture : Fontainebleau
+est **4 213 habitants sous le seuil** au recensement (15 787 contre les 25 000 du seed), Vienne,
+Compiègne et Sens portent le leur en une phrase.
+
+`metaTitle` 49-55 caractères, `metaDesc` 142-160, 6 sections par guide (comme les jumelles FR de ce
+lot), 1 272-1 461 mots, **0 em-dash** sur les neuf réunis (cible R7.10 : ~1 pour 200 mots). Aucun tag
+neuf : les 9 réutilisent `ile-de-france`, `hauts-de-france`, `auvergne-rhone-alpes`, `occitanie`,
+`grand-est`, `pays-de-la-loire`, `bourgogne-franche-comte` — `search-index.en.json` reste à **114
+tags**, donc aucune page `/tags/` créée, et `sitemap:check` confirme EN 28 737 → **28 746 URL**, soit
+exactement les 9 guides neufs.
+
+**Les 9 guides sont vérifiés retrouvés par la recherche inverse `relatedCities` de `CityGuidesList`
+sur leur page ville EN et pourvus de leur photo d'en-tête** (`guideCityPhoto`). Sept sortent en 1re
+position ; **Villefranche-sur-Saône et Compiègne sortent 2e, et ce n'est pas un défaut** : le tri est
+par `updatedAt` décroissant, et un guide frère du même lot cite la même ville (Vienne cite
+Villefranche, Soissons cite Compiègne), donc l'égalité de date se départage par l'ordre du fichier.
+Les jumelles FR font pareil et moins bien — Villefranche y sort 3e et Compiègne 2e. Vérifié avant de
+conclure, plutôt que corrigé en retirant des liens croisés utiles.
+
+⚠️ **`npm run build` n'a pas été lancé, volontairement** (cf. § Commands depuis le batch 27 : 4 h 30
+de génération, `.next` à 25 Go, ENOSPC avant la finalisation, aucun signal utile). Le substitut
+prescrit passe en entier : `npx tsc --noEmit` **propre**, `npm run integrity` (guides EN 845 → 854),
+`search-index` + `search-index:check`, `sitemap:check`, `npm run parity`, `npm run hreflang:check`,
+plus le contrôle de lookup / photo et le contrôle de figures ci-dessus. ⚠️ **Note d'outillage
+trouvée ce run : ne pas lancer `npx prettier --write data/guides-en.ts`.** Le fichier n'est pas au
+format de la config courante, donc un passage de prettier reformate **tout le corpus** (mesuré :
+9 615 insertions / 2 573 suppressions pour 9 guides ajoutés) et rend le diff illisible sur un dépôt
+où ~20 agents écrivent en parallèle. Émettre le bloc au style du fichier et vérifier que le diff est
+une **addition pure** (ici 441 lignes, 0 suppression). Note d'environnement reconfirmée : le
+conteneur de routine démarre **sans `node_modules`** — `npm install` d'abord.
+
+**Prochain run.** Les deux plus gros écarts de série mesurés ce run sont la série tourisme
+(`10-choses-a-faire` 247 FR contre `things-to-do-in` 240 EN, rouverte par le batch 42 FR du 05/09)
+et `vacances-celibataire-` (36 FR contre `solo-travel-in` 29 EN, rouverte par le batch 5 FR du
+05/09) ; ⚠️ la série tourisme est traitée le jour même par son propre agent depuis le batch 39, donc
+**la mesurer avant de s'y mettre** plutôt que de doubler son travail. Restent aussi `vivre-en`
+(56 FR / 45 `living-in`) et `meilleures-villes` (52 FR / 41 `best-french-cities`). Les deux clusters
+de quasi-doublons EN relevés le 05/09 (retraite, achat immobilier national) attendent toujours un
+run de dédup, qui demande de poser les 301.
 
 ### Livré le 05/09 — `best-french-cities-[thème]` batch 2 (+6), et un trou qui n'en était pas
 

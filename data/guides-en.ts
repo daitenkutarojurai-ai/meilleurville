@@ -35481,6 +35481,447 @@ export const EN_GUIDES: EnGuide[] = [
       "relocation",
     ],
   },
+  {
+    slug: "single-parent-in-fontainebleau-2026",
+    title:
+      "Single parent in Fontainebleau (2026): first in the Paris region, on 15,787 residents",
+    metaTitle: "Single Parent in Fontainebleau 2026: Floor €3,450",
+    metaDesc:
+      "Fit 6.9/10, 12th of 363 and first of the 115 ranked Paris-region communes. T3 €1,200, floor €3,450, schools 8.7/10 without the Hauts-de-Seine price.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-06",
+    updatedAt: "2026-09-06",
+    intro:
+      "Fontainebleau returns 6.9/10 on the single-parent composite, twelfth of the 363 French communes above 20,000 inhabitants that the ranking retains, well above the median of 5.5/10. The detail: schools 8.7/10, safety 8.1/10, transport 6.4/10, cost of living 4.6/10 (source: data/cities-seed.ts). The average T3 is €1,200 and a square metre to buy €3,800 (source: data/housing.ts), for an estimated minimum net income of €3,450 a month. The commune counted 15,787 inhabitants at the 2022 census against 14,708 in 2011 and 14,907 in 2016 (source: data/city-population.json). The fact that structures this file fits in one line: it is the first Île-de-France commune in this ranking, of 115 eligible, and it gets there without the Hauts-de-Seine square metre. The fact that dents it fits in another: the site's seed credits it with 25,000 inhabitants, the census counts 15,787, and it is the first figure that puts it in the ranking at all. Île-de-France, for a reader arriving from abroad, is the administrative region around Paris; Hauts-de-Seine is the wealthy department immediately west of the city.",
+    sections: [
+      {
+        heading: "First of the 115 Paris-region communes, and by a distance",
+        body: "Of the 115 Île-de-France communes the ranking retains, Fontainebleau is the only one above 6.8/10. The second, Étampes, is at 6.7; the third, Issy-les-Moulineaux, at 6.5. The gap is not in schools, where several Hauts-de-Seine communes mark 9.0/10 against 8.7 here, and it is not in transport, where Fontainebleau is frankly behind at 6.4/10 against the 9.0/10 of Levallois-Perret, Neuilly-sur-Seine or Vincennes. It is in the two axes the single-parent composite weights most heavily after schools. Cost of living: Fontainebleau marks 4.6/10 where the communes of the inner western suburbs fall to 2.2/10. Safety: it marks 8.1/10, and that figure deserves placing. Of the 363 ranked communes, six reach 8.0/10 or better, and Fontainebleau is third, level with Beaune, behind Challans at 8.3 and Lannion at 8.2. The ratio of rent to school provision says the same thing another way. At €1,200 of T3 for 8.7/10 of schools, Fontainebleau shows €138 of rent per point of school provision, the best of the 115 ranked Paris-region communes, ahead of Étampes at €145 and Sceaux at €167. Neuilly-sur-Seine is at €278.",
+      },
+      {
+        heading: "€3,450 entry floor, and why that is the lenient calculation",
+        body: "The minimum net income estimated by lib/parent-solo.ts is €3,450 a month, and it is worth saying immediately how that number is reached, because the rule applied is not the same everywhere. The engine allows a third of net income for rent, except where the cost-of-living score falls under 5.0: there it relaxes to 35 per cent, on the grounds that landlords in tight markets more often accept a higher effort rate backed by a guarantee. Fontainebleau is at 4.6/10 on cost of living, so the relaxed version applies and the floor shown is the less prudent of the two possible calculations. On the strict rule it would be €3,650. That is the exact inverse of Dole or Sens, where the cost score is above 5 and the published figure is the more prudent of the two. Only two communes in the top 20 are in this position, Fontainebleau and Anglet, and both show the same €3,450 floor. The other rental references are a T2 at €880 and a T1 at €600; French flats are counted by rooms rather than bedrooms, so a T3 is a living room plus two bedrooms. To buy, €3,800 a square metre puts a 65-square-metre flat around €247,000 at the average price. That square metre is an editorial benchmark across all property types, not a median of recorded transactions.",
+      },
+      {
+        heading: "8.7/10 on schools without the Hauts-de-Seine price",
+        body: "A schools mark of 8.7/10 puts Fontainebleau level with Strasbourg, Annecy and Villefranche-sur-Saône: ten of the 363 communes reach exactly that figure. What sets it apart is what you have to earn to get there. Rueil-Malmaison and Saint-Germain-en-Laye mark 9.0/10 on schools for a floor of €4,550, Versailles 9.0/10 for €4,850, Issy-les-Moulineaux 9.0/10 for €5,150, Neuilly-sur-Seine 9.0/10 for €7,150. Fontainebleau asks €3,450 for 8.7/10. A lone parent aiming at Paris-region school provision therefore pays between €1,100 and €3,700 more in monthly income, in those five communes, for three tenths of a point. The counter-argument exists and it is serious: those communes mark 8.4 to 9.0/10 on transport where Fontainebleau is at 6.4/10, and the network is what absorbs the unexpected when nobody else can make the trip. The scope of the measure is the same here as everywhere on this site: the schools axis describes municipal provision, the density of establishments and the range of tracks, not pupil results and not the quality of the teaching. Worth knowing for a reader arriving from abroad: the town hosts INSEAD's European campus, which is why a share of its resident population is international, but that does not change any of the four axes.",
+      },
+      {
+        heading: "15,787 residents at the census, 25,000 in the seed",
+        body: "The ranking retains communes above 20,000 inhabitants and applies that threshold to the seed's approximate population, not to the municipal population published by Insee, the national statistics office. The two numbers coexist deliberately on this site, but here the gap changes how the rank reads: the seed credits Fontainebleau with 25,000 inhabitants, the 2022 census counts 15,787. Four other ranked communes are under the threshold at the census, Saint-Dié-des-Vosges, Sélestat, Pertuis and Cahors, but all of them within 700 residents of the bar; Fontainebleau is 4,213 short. That is not a reason to throw the file out, because the four axes, the rent and the square metre do not depend on that figure. It is a reason to read the rank for what it is, a rank among the communes this site ranks, and to keep the practical consequence in view: the local job market is that of a town of fifteen thousand people, not twenty-five thousand, and a lone parent who cannot move house to follow a post needs to know that before signing. The trajectory, measured on the same basis, is good: 14,708 inhabitants in 2011, 14,907 in 2016, 15,787 in 2022, that is 7.3 per cent more in eleven years and 5.9 per cent since 2016. A commune that gains residents stretches its childcare provision, and in France the before- and after-school slot, called périscolaire, is organised by the commune rather than by the school. It is precisely what stands in for the missing second adult.",
+      },
+      {
+        heading: "Where Fontainebleau sits in the Paris region",
+        body: "A lone parent's Paris-region trade-off is rarely between Fontainebleau and Neuilly. It is between Fontainebleau and Étampes, second in the regional ranking at 6.7/10, with a T3 at €1,120 and a floor of €3,400 for 7.7/10 of schools and 6.1/10 of safety: fifty euros a month less in income for one point less of schools and two points less of safety. It is also against Melun, thirty kilometres north in the same department, which comes out 237th of 363 with 5.3/10 of schools and 4.1/10 of safety for a T3 at €1,010: cheaper, and well below on two decisive axes. And against Paris, 202nd, where the average T3 is €2,800 and the floor €8,000. The most honest comparison remains Rambouillet, the other forest town of the outer ring, 88th at 6.2/10, with a T3 at €1,420 and a floor of €4,050 for 7.7/10 of schools: six hundred euros more in monthly income than Fontainebleau for a schools mark one point lower. On this ranking, Fontainebleau has no Paris-region equivalent.",
+      },
+      {
+        heading: "The verdict: who Fontainebleau works for",
+        body: "Fontainebleau works from €3,450 net a month, for a single parent who needs Paris-region school provision and safety without being able to pay the Hauts-de-Seine square metre, and who works locally or can organise a daily trip into Paris. It is the first Île-de-France commune in this ranking, the only one in the region above 6.8/10, and it shows the best rent-to-school-provision ratio of the 115 ranked Paris-region communes. It works less well for anyone counting on the network to absorb the unexpected: 6.4/10 on transport is two and a half points below the inner suburbs, and that is paid in time on the day the school rings at three in the afternoon. It does not work for anyone who needs a broad local labour market: the commune has 15,787 inhabitants, not the 25,000 its rank implies, and no ranking compensates for the absence of employers. One practical point for a reader arriving from abroad: French landlords normally ask for a guarantor or a guarantee scheme on top of the income test, and single-parent status opens a priority criterion on childcare applications without applying automatically, so it has to be declared explicitly. The floor shown is finally the lenient of the two calculations: budgeting €3,650 rather than €3,450 is reasonable caution. The axis-by-axis detail is on /cities/fontainebleau/single-parent.",
+      },
+    ],
+    relatedCities: ["fontainebleau", "etampes", "melun", "rambouillet", "versailles"],
+    tags: [
+      "single parent fontainebleau",
+      "single parent in france",
+      "expat single parent",
+      "moving to france",
+      "ile-de-france",
+    ],
+  },
+  {
+    slug: "single-parent-in-soissons-2026",
+    title:
+      "Single parent in Soissons (2026): 13th of 363, and Laon does as well for €190 less",
+    metaTitle: "Single Parent in Soissons 2026: T3 €930, Floor €2,800",
+    metaDesc:
+      "Fit 6.9/10, 13th of 363 and second in Hauts-de-France. T3 €930, floor €2,800, but €141 of rent per point of schools: the worst ratio in the top 20.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-06",
+    updatedAt: "2026-09-06",
+    intro:
+      "Soissons returns 6.9/10 on the single-parent composite, thirteenth of the 363 French communes above 20,000 inhabitants that the ranking retains and second of the 27 in Hauts-de-France, well above the median of 5.5/10. The detail: cost of living 8.3/10, schools 6.6/10, safety 6.5/10, transport 5.6/10 (source: data/cities-seed.ts). The average T3 is €930 and a square metre to buy €1,700 (source: data/housing.ts), for an estimated minimum net income of €2,800 a month. The commune counted 28,667 inhabitants at the 2022 census against 28,551 in 2011 and 28,466 in 2016 (source: data/city-population.json), the flattest trajectory in this batch of guides. The figure that actually decides this file is none of the above: at €930 of T3 for 6.6/10 of schools, Soissons shows €141 of rent per point of school provision, the least favourable ratio of the first twenty communes in the ranking.",
+    sections: [
+      {
+        heading: "€141 per point of schools: the worst ratio in the top 20",
+        body: "The ratio is calculated the way this site's monthly league table calculates it, T3 rent divided by the schools axis, and it exists to separate cities that an overall rank wrongly brings together. Soissons is thirteenth in the ranking and last in the top 20 on this ratio, at €141. Ahead of it in this batch of guides: Auch at €97, Chaumont at €115, Vienne at €122, Villefranche-sur-Saône at €123, Compiègne at €127, Les Sables-d'Olonne at €136, Fontainebleau at €138, Sens at €139. The cause is identifiable and better named than avoided: the cost-of-living score of 8.3/10 is a composite that takes in a good deal besides rent, and at Soissons it does not show up in the T3. Two communes in the same department mark exactly the same 8.3/10 on cost of living with a markedly lower rent, Laon at €740 and Saint-Quentin at €650. Put another way, the cost score promises something here that the rental market does not deliver, and that is precisely what a lone parent pays every month.",
+      },
+      {
+        heading: "The Aisne triangle: Soissons, Laon, Saint-Quentin",
+        body: "The three towns of the department all appear in this ranking, and the comparison is unusually clean because their axes overlap almost exactly. Soissons and Laon mark the same cost-of-living score (8.3), the same schools score (6.6) and the same safety score (6.5). They differ only on transport, 6.4/10 at Laon against 5.6/10 at Soissons, which is enough to put Laon ninth and Soissons thirteenth. But the Laon T3 is €740 against €930, the entry floor €2,250 against €2,800, and the square metre €1,400 against €1,700. At an identical school file and an identical safety level, Laon asks €550 less in monthly income. Saint-Quentin, the third point of the triangle, is the inverse case: a T3 at €650 and 7.7/10 on transport, but 5.5/10 on schools and 4.7/10 on safety, which relegates it to 36th. A lone parent looking at the Aisne therefore has three distinct offers, and Soissons is the one that costs most while offering nothing more than Laon on the axes that count. The one thing it does offer is not in the composite and has to be said: the town is a road and rail junction between Reims, Laon and Compiègne, and the job market reachable without moving house is wider than Laon's.",
+      },
+      {
+        heading: "Why Soissons is thirteenth anyway",
+        body: "The composite does not reward the average, it punishes lopsided profiles: a weak axis carries a fifth to a third of the mark with no possible compensation. Soissons has a spread of 2.7 points between its best axis (8.3) and its weakest (5.6), which is modest. None of its four axes drops below 5.5, and that is what puts it ahead of towns objectively better equipped on one specific count. Saint-Quentin, with two more points of transport, comes out twenty-three places behind because its safety falls to 4.7. Amiens, the regional capital, is 119th with 4.5/10 on safety. Lille is 71st with 3.9/10. On this particular ranking, the absence of a black spot is worth more than a peak. That is also the limit of the exercise, and it deserves stating: a thirteenth place does not mean Soissons is the thirteenth best French town for a lone parent, it means none of its four counts collapses. The €141 per point of schools is there to remind the reader that the rank says nothing about the price paid.",
+      },
+      {
+        heading: "Transport 5.6/10: the car is likely, not certain",
+        body: "This is the weakest of the four axes and the one that costs Soissons its four places against Laon. At 5.6/10 the service is that of a sous-préfecture of twenty-eight thousand people, which is an administrative status rather than a size, well above the 4.2/10 of Auch or the 4.9/10 of Chaumont and well below the 7.7/10 of Compiègne fifty kilometres away. For a lone parent the translation is budgetary before it is practical, and it has to be settled before comparing one rent with another. A car means insurance, fuel, servicing, and a risk concentrated on the day it breaks down, when there is no second driver to take over the school run. At 5.6/10, the car-free scenario is to be tested on the precise address at the precise hour, not assumed. The check is always the same: run the school-then-work chain at the moment it will happen, with the real connections, on a Wednesday as well as a Thursday, since French primary schools have historically treated Wednesday differently and the timetable is set locally. A score covers a whole commune, never the trip between two addresses.",
+      },
+      {
+        heading: "A population that has not moved in eleven years",
+        body: "Soissons counted 28,551 inhabitants in 2011, 28,466 in 2016 and 28,667 in 2022 (source: data/city-population.json). Over eleven years the commune gains 116 residents, 0.4 per cent; over the last six, 201, or 0.7 per cent. It is the steadiest trajectory of the nine towns in this batch, and it is an unspectacular quality that a one-adult household genuinely benefits from. A commune that is not losing residents does not close classes, does not stretch its catchment areas over ever wider sectors, and does not watch its local shops disappear one by one. A commune that is not gaining any does not saturate its crèches or its wraparound care, and does not line up twenty applications on the same flat. Neither effect is visible in the four axes of the composite, and they are what decide whether a week holds together. The question to put to the mairie before signing a lease is therefore not the schools score but the state of the catchment map for the sector you are looking at, and the real waiting time for a place in wraparound care. A useful administrative note: single-parent status opens a priority criterion on those applications, provided it is declared explicitly.",
+      },
+      {
+        heading: "The verdict: who Soissons works for",
+        body: "Soissons works from €2,800 net a month, for a single parent whose work is in Soissons itself or whose job means moving between Reims, Laon and Compiègne, and who needs a town where no single count collapses rather than a town that excels somewhere. It offers 6.6/10 of schools, 6.5/10 of safety and a population that has not shifted by more than 0.7 per cent in eleven years. The other rental references are a T2 at €700 and a T1 at €490. To buy, €1,700 a square metre puts 65 square metres around €110,500 at the average price, which leaves ownership open on a single income. It works less well for anyone comparing prices coldly: Laon, forty kilometres away, offers the same schools, safety and cost-of-living marks for €190 less rent a month and a better transport score. That is the point this guide cannot get around, and a reader free to choose the address should look at Laon before Soissons. It does not work for anyone who wants to do without a car unchecked: 5.6/10 is a scenario to test. The axis-by-axis detail is on /cities/soissons/single-parent.",
+      },
+    ],
+    relatedCities: ["soissons", "laon", "saint-quentin", "compiegne", "reims"],
+    tags: [
+      "single parent soissons",
+      "single parent in france",
+      "expat single parent",
+      "moving to france",
+      "hauts-de-france",
+    ],
+  },
+  {
+    slug: "single-parent-in-vienne-2026",
+    title:
+      "Single parent in Vienne (2026): first in Auvergne-Rhône-Alpes, ahead of Lyon and Grenoble",
+    metaTitle: "Single Parent in Vienne, Isère 2026: Floor €2,850",
+    metaDesc:
+      "Fit 6.9/10, 14th of 363 and first of 39 in Auvergne-Rhône-Alpes. T3 €940, floor €2,850, transport and schools both 7.7/10. Safety 5.7 is the reserve.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-06",
+    updatedAt: "2026-09-06",
+    intro:
+      "This is Vienne in the Isère, on the Rhône south of Lyon. It is not Vienna, the Austrian capital, which French spells the same way, and it is not the Vienne department whose prefecture is Poitiers. That Vienne returns 6.9/10 on the single-parent composite, fourteenth of the 363 French communes above 20,000 inhabitants that the ranking retains and first of the 39 in Auvergne-Rhône-Alpes, ahead of Villeurbanne, Grenoble and Lyon. The detail: transport 7.7/10, schools 7.7/10, cost of living 6.7/10, safety 5.7/10 (source: data/cities-seed.ts). The average T3 is €940 and a square metre to buy €2,200 (source: data/housing.ts), for an estimated minimum net income of €2,850 a month. The commune counted 31,555 inhabitants at the 2022 census against 28,800 in 2011 and 29,454 in 2016 (source: data/city-population.json), 9.6 per cent more in eleven years. The figure that sums the file up is elsewhere: at €940 of T3 for 7.7/10 of schools, Vienne asks €440 less rent a month than Lyon for one point less of school provision.",
+    sections: [
+      {
+        heading: "First in Auvergne-Rhône-Alpes, and what that rank covers",
+        body: "Of the 39 communes the ranking retains in the region, Vienne comes first at 6.9/10, ahead of Villefranche-sur-Saône at 6.9, Villeurbanne at 6.8, Vichy at 6.7, then Grenoble and Lyon at 6.6. A regional rank ahead of two metropolitan cities asks to be explained rather than celebrated. It does not come from schools: Grenoble marks 9.0/10 and Lyon 8.9/10 against 7.7 here. It does not come from transport: Lyon and Villeurbanne are at 9.0/10 and Grenoble at 8.1, against 7.7 here. It comes from the combination of the other two axes. The Vienne cost-of-living score is 6.7/10 where Lyon is at 4.2 and Grenoble at 5.5, and safety is 5.7/10 where Grenoble is at 4.3 and Lyon at 5.1. The composite weights cost at 0.30 and safety at 0.25, more than half the mark between them, and that is where the gap is decided. The practical consequence is a wallet consequence: an estimated minimum net income of €2,850 at Vienne against €3,950 at Lyon and €3,100 at Grenoble, for a T3 at €940 against €1,380 and €1,020.",
+      },
+      {
+        heading: "7.7/10 on transport and on schools at the same time",
+        body: "This is the particularity of the Vienne file, and it is rare at this rent level: the two axes that are service and school provision mark exactly the same figure, and that figure is good. Of the 363 ranked communes, only five of the first twenty clear 7.5 on both at once. For a one-adult household that combination has a concrete value the rank does not state: it is what makes a scenario without a second driver credible. Vienne has its own station on the Rhône valley main line between Lyon and Valence, and an urban bus network serving the commune. Credible remains the right word, not settled. A score of 7.7/10 covers the whole commune, it says nothing about the trip between one precise address and one precise school, and the school-then-work chain is tested at the moment it will happen, with the real connections. On school provision the scope of the measure is the same as everywhere on this site: the axis describes the density of establishments and the range of tracks in the commune, not pupil results and not the quality of the teaching. At €940 of T3 for 7.7/10, the ratio comes out at €122 of rent per point of school provision, which puts Vienne in the first third of the 363.",
+      },
+      {
+        heading: "Safety 5.7/10: the reserve on the file",
+        body: "This is the weakest of the four axes and the lowest of the nine towns in this batch of guides. At 5.7/10, Vienne sits above Lyon (5.1), Grenoble (4.3), Saint-Étienne (4.3) and Valence (5.2), so above every comparable town in its own corridor, but well below the 8.0 and better posted by La Roche-sur-Yon, Challans or Les Sables-d'Olonne. Two things are worth putting side by side. The first is that this site publishes no neighbourhood-level safety verdict, and not out of editorial caution: data/neighborhoods.ts documents no Vienne neighbourhood, as it documents none for the eight other towns in this batch. Writing up a sector's reputation without data would mean inventing a judgement about real places and the people who live in them. The second is that 5.7/10 is an average mark, not an alarm signal, and that it reads at the scale of a commune of thirty-one thousand people whose urban form is very stretched between the historic centre on the Rhône and the plateaux above. The useful move is not to hunt for a neighbourhood league table, it is to go and look at the address at the school gate and in the evening, two moments no score replaces.",
+      },
+      {
+        heading: "Growth of 9.6 per cent in eleven years, and what it stretches",
+        body: "Vienne counted 28,800 inhabitants in 2011, 29,454 in 2016 and 31,555 in 2022 (source: data/city-population.json). Over eleven years the commune gains 2,755 residents, 9.6 per cent; over the last six, 2,101, or 7.1 per cent. Growth is therefore accelerating markedly in the recent period. For a lone parent, growth at that rate cuts both ways and both sides need looking at. On the unfavourable side it tightens the rental market, lines up applications on the same flat and puts a file with a single payslip in competition with files carrying two incomes; it also saturates the crèche, the wraparound care known in France as périscolaire, and school meals, which is to say precisely the provision that stands in for the second adult. On the favourable side, a commune gaining residents does not close classes, opens services and sees its local job market thicken. None of these effects appears in the four axes of the composite. The concrete question to put to the mairie before signing a lease is not the schools score but the real waiting time for a place in wraparound care in the sector you are looking at, and single-parent status opens a priority criterion there provided it is declared explicitly. Note that the site's seed carries 30,000 inhabitants for Vienne where the census counts 31,555; the two numbers coexist deliberately, the first serves thresholds and sorts, the second is the measurement.",
+      },
+      {
+        heading: "Vienne, Lyon, Villefranche: three ways of living the Rhône corridor",
+        body: "The most frequent trade-off for a lone parent in the Rhône runs between three addresses in this ranking, and the figures settle it better than a preference does. Lyon, 34th at 6.6/10, offers 8.9/10 of schools and 9.0/10 of transport for a T3 at €1,380 and a floor of €3,950. Villefranche-sur-Saône, 15th at 6.9/10 at the northern end of the conurbation, offers 8.7/10 of schools for a T3 at €1,070 and a floor of €3,250. Vienne, to the south, offers 7.7/10 of schools for a T3 at €940 and a floor of €2,850. Put plainly, the difference between Vienne and Lyon is worth €1,100 of minimum monthly income against 1.2 points of schools and 1.3 points of transport; the difference between Vienne and Villefranche is worth €400 against one point of schools, with Vienne taking back seven tenths on transport. Villeurbanne, 21st, asks €3,500 for 7.7/10 of schools, the same mark as Vienne for €650 more monthly income, but with 9.0/10 of transport. None of these four options is better in the absolute, and the tie-break comes down to one question: can you do without a car, yes or no.",
+      },
+      {
+        heading: "The verdict: who Vienne works for",
+        body: "Vienne works from €2,850 net a month, for a single parent working the Rhône corridor between Lyon and Valence who wants a decent school file and a decent service without the Lyon rent. It is the first Auvergne-Rhône-Alpes commune in this ranking, and its argument is a combination rather than a peak: 7.7/10 on transport and 7.7/10 on schools for a €940 T3. The other rental references are a T2 at €700 and a T1 at €500; French flats are counted by rooms rather than bedrooms, so a T3 is a living room plus two bedrooms. To buy, €2,200 a square metre puts 65 square metres around €143,000 at the average price, which leaves ownership open on a single income at a level neither Lyon nor Villefranche reaches. It works less well for anyone who puts safety first: 5.7/10 is the lowest mark of the nine towns in this batch, on an axis the composite weights at a quarter. It does not work for anyone aiming at metropolitan-level school provision: Grenoble and Lyon are at 9.0 and 8.9, and a point of difference shows in the range of tracks available at sixth-form level. The thing to watch over time is wraparound care, which recent growth is retightening and which none of the four axes measures. The axis-by-axis detail is on /cities/vienne/single-parent.",
+      },
+    ],
+    relatedCities: ["vienne", "lyon", "villefranche-sur-saone", "valence", "villeurbanne"],
+    tags: [
+      "single parent vienne",
+      "single parent in france",
+      "expat single parent",
+      "moving to france",
+      "auvergne-rhone-alpes",
+    ],
+  },
+  {
+    slug: "single-parent-in-villefranche-sur-saone-2026",
+    title:
+      "Single parent in Villefranche-sur-Saône (2026): 8.7/10 of schools for €700 less income than Lyon",
+    metaTitle: "Single Parent in Villefranche-sur-Saône 2026: T3 €1,070",
+    metaDesc:
+      "Fit 6.9/10, 15th of 363. Schools 8.7/10, the level of Strasbourg and Annecy, for a floor of €3,250 against €3,950 at Lyon. But the population is falling.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-06",
+    updatedAt: "2026-09-06",
+    intro:
+      "Villefranche-sur-Saône returns 6.9/10 on the single-parent composite, fifteenth of the 363 French communes above 20,000 inhabitants that the ranking retains and second of the 39 in Auvergne-Rhône-Alpes, behind Vienne. The detail: schools 8.7/10, transport 7.0/10, safety 6.3/10, cost of living 5.9/10 (source: data/cities-seed.ts). The average T3 is €1,070 and a square metre to buy €2,500 (source: data/housing.ts), for an estimated minimum net income of €3,250 a month. The commune counted 36,224 inhabitants at the 2022 census against 35,640 in 2011 and 37,266 in 2016 (source: data/city-population.json). The figure that carries this file is the schools mark: 8.7/10 is the level of Strasbourg, Annecy and Fontainebleau, and only ten of the 363 reach it. The figure that dents it is in the previous line: the population has fallen 2.8 per cent since 2016. The town sits at the head of the Beaujolais vineyards, which is what English speakers know the name for, if they know it at all.",
+    sections: [
+      {
+        heading: "8.7/10 of schools: where that figure puts Villefranche",
+        body: "Of the 363 ranked communes, ten mark exactly 8.7/10 on the schools axis: Strasbourg, Anglet, Fontainebleau, Villefranche-sur-Saône, Annecy, Courbevoie, Vincennes, Boulogne-Billancourt, Bourg-la-Reine and Saint-Cloud. Seven of those ten are in the Paris region or on an expensive coastline. Villefranche shows the lowest T3 of the ten, at €1,070, ahead of Strasbourg at €1,080. The ratio says it without ambiguity: €1,070 for 8.7 points makes €123 of rent per point of school provision, the best of the ten, where Annecy is at €167, Vincennes at €207 and Boulogne-Billancourt at €230. Within its own corridor the comparison is just as clear. Lyon marks 8.9/10 of schools, two tenths more, for a T3 at €1,380 and an entry floor of €3,950 against €3,250 here: seven hundred euros more net monthly income for two tenths of a point. Villeurbanne marks 7.7/10 for a T3 at €1,150 and a floor of €3,500, one point less of schools for €250 more monthly income. On this single criterion Villefranche is the best file in the wider Lyon conurbation. The scope of the measure does not change: the schools axis describes municipal provision, the density of establishments and the range of tracks, not pupil results and not the quality of the teaching.",
+      },
+      {
+        heading: "€3,250 floor and €162,500 for 65 square metres",
+        body: "The minimum net income estimated by lib/parent-solo.ts is €3,250 a month, on the one-third rule applied to the average T3 of €1,070. The local cost-of-living score being 5.9, therefore above 5, the engine applies the strict rule and not the version relaxed to 35 per cent that is reserved for very tight markets: the floor shown is the more prudent of the two possible calculations. The other rental references are a T2 at €800 and a T1 at €560; French flats are counted by rooms rather than bedrooms, so a T3 is a living room plus two bedrooms. To buy, €2,500 a square metre puts a 65-square-metre flat around €162,500 at the average price, against €325,000 at Lyon for the same floor area. That is a gap of €162,500, the full price of the local flat, and it is the real asset argument in this file. For a one-adult household the point of owning is less the monthly saving than the stability: an owner is not served notice so the landlord can sell, and does not have to rebuild a rental application on a single payslip every three years. Two reservations. That square metre is an editorial benchmark across all property types, not a median of recorded transactions. And a low entry price says nothing about how easily the property resells, a question that arises here more than elsewhere for the reason set out below.",
+      },
+      {
+        heading: "The population has fallen 2.8 per cent since 2016",
+        body: "Villefranche-sur-Saône counted 35,640 inhabitants in 2011, 37,266 in 2016 and 36,224 in 2022 (source: data/city-population.json). Over eleven years the commune gains 584 residents, 1.6 per cent; but over the last six it loses 1,042, or 2.8 per cent. The curve rises then falls back, which is the exact inverse of the Dole trajectory, which dips then recovers. The distinction is not cosmetic for a one-adult household, because the two phases do not have the same effects and it is the recent phase that governs. A market that loosens widens the rental choice and makes the balance of power less unfavourable against files carrying two incomes, which genuinely matters when you apply with a single payslip; it is also what keeps the square metre at €2,500 thirty kilometres from Lyon. But a decline that lasts weighs on the catchment map, on class sizes and eventually on services, and the schools mark of 8.7/10 describes today's provision, not that of 2032. Neither of those two effects appears in the four axes of the composite. The question to put to the mairie before signing a lease is therefore not the schools score but the state of the catchment map for the sector you are looking at, and whether class closures are under consideration. Single-parent status opens a priority criterion on childcare applications, provided it is declared explicitly.",
+      },
+      {
+        heading: "Cost of living 5.9 and safety 6.3: the two axes that cost places",
+        body: "Villefranche is fifteenth and not fifth, and the reason is not in the schools. The composite weights cost of living at 0.30, the heaviest of the four, and the local mark of 5.9/10 is the second lowest of the nine towns in this batch of guides, behind Fontainebleau's 4.6/10. Safety, weighted at 0.25, is at 6.3/10, which is fine and no more: Vienne is at 5.7, but La Roche-sur-Yon is at 8.0 and so is Les Sables-d'Olonne. That is the price of the position, and it is better named as such. A commune of thirty-six thousand people thirty kilometres from a metropolis inherits part of its property market without inheriting its transport network, here 7.0/10 against 9.0/10 at Lyon and Villeurbanne. The site publishes no sector-level safety verdict, and not out of editorial caution: data/neighborhoods.ts documents no Villefranche neighbourhood, as it documents none for the eight other towns in this batch. Writing up a neighbourhood's reputation without data would mean passing an invented judgement on real places and the people who live there. The useful move remains to go and look at the address at the school gate and in the evening.",
+      },
+      {
+        heading: "Where Villefranche sits in the wider Lyon conurbation",
+        body: "The ranking retains 39 Auvergne-Rhône-Alpes communes and Villefranche is second, a hair behind Vienne, the two at 6.9/10. The tie-break between them is instructive because they frame Lyon, one to the north and one to the south, with opposite profiles. Vienne offers 7.7/10 of schools and 7.7/10 of transport for a T3 at €940 and a floor of €2,850. Villefranche offers one more point of schools (8.7) and seven tenths less of transport (7.0) for €130 more monthly rent and €400 more minimum income. A single parent aiming at the best possible secondary provision looks at Villefranche; a single parent aiming at the car-free scenario looks at Vienne. Further down the regional ranking, Vichy is 26th at 6.7 with a T3 at €640 but 4.2/10 of transport, and Bourgoin-Jallieu 65th at 6.3 with a T3 at €1,060 for 6.6/10 of schools, that is to say almost the Villefranche rent for two points less of school provision. On this ranking, the school provision of Villefranche is what has no equivalent at that price in the region.",
+      },
+      {
+        heading: "The verdict: who Villefranche-sur-Saône works for",
+        body: "Villefranche works from €3,250 net a month, for a single parent who puts school provision first and who works in the commune or in the northern half of the Lyon conurbation. It offers 8.7/10 of schools, the level of Strasbourg and Annecy, for the lowest rent of the ten French communes that reach that mark, and €123 of rent per point of school provision. To buy, €162,500 for 65 square metres at the average price leaves ownership open on a single income, at half the Lyon price. It works less well on a tight budget: 5.9/10 on cost of living is the heaviest axis in the composite and the second weakest in this batch of guides, and the €3,250 floor is €400 above Vienne's. It does not work for anyone counting on doing entirely without a car: 7.0/10 on transport is respectable for a medium-sized town, it is not a metropolitan network, and the scenario is to be tested on the real address and the real timetable. One practical point for a reader arriving from abroad: French landlords normally ask for a guarantor or a guarantee scheme on top of the income test, and a single-payslip file without French payslips is the profile turned down first. The thing to watch over time is the decline under way since 2016, which does not yet show in the schools mark but governs the catchment map of the coming years. The axis-by-axis detail is on /cities/villefranche-sur-saone/single-parent.",
+      },
+    ],
+    relatedCities: ["villefranche-sur-saone", "lyon", "villeurbanne", "vienne", "bourgoin-jallieu"],
+    tags: [
+      "single parent villefranche-sur-saone",
+      "single parent in france",
+      "expat single parent",
+      "moving to france",
+      "auvergne-rhone-alpes",
+    ],
+  },
+  {
+    slug: "single-parent-in-auch-2026",
+    title:
+      "Single parent in Auch (2026): €97 of rent per point of schools, the best ratio in the series",
+    metaTitle: "Single Parent in Auch 2026: T3 €640, Floor €1,950",
+    metaDesc:
+      "Fit 6.8/10, 16th of 363. T3 €640, floor €1,950 and €97 of rent per point of schools, the best ratio in the series. Transport 4.2/10 is the counterpart.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-06",
+    updatedAt: "2026-09-06",
+    intro:
+      "Auch returns 6.8/10 on the single-parent composite, sixteenth of the 363 French communes above 20,000 inhabitants that the ranking retains and second of the 22 in Occitanie, behind Albi. The detail: cost of living 8.0/10, safety 7.5/10, schools 6.6/10, transport 4.2/10 (source: data/cities-seed.ts). The average T3 is €640 and a square metre to buy €1,500 (source: data/housing.ts), for an estimated minimum net income of €1,950 a month, the lowest of the nine towns in this batch of guides. The commune counted 22,825 inhabitants at the 2022 census against 21,871 in 2011 and 21,618 in 2016 (source: data/city-population.json). The figure that decides this file is a ratio: at €640 of T3 for 6.6/10 of schools, Auch shows €97 of rent per point of school provision, the best of the seventy-five towns covered by this series of guides. The figure that tempers it is the service, 4.2/10: only twenty of the 363 communes do worse.",
+    sections: [
+      {
+        heading: "€97 per point of schools, and by what mechanism",
+        body: "The ratio is calculated the way this site's monthly league table calculates it: T3 rent divided by the schools axis. At Auch, €640 for 6.6/10 makes €97 a point, ahead of Dole at €101, Saint-Dié-des-Vosges at €102, La Roche-sur-Yon, Lannion and Cholet at €104, Albi at €109. It is the best of the seventy-five towns in this series, and it takes the place the Dole guide held until now. How it is obtained has to be said at once, because two very different mechanisms produce the same number, and they are not the same here and at Dole. Dole gets its €101 from both sides at once, with a low rent and a schools mark of 7.7/10 higher than either of the two metropolitan cities in its region. Auch gets its €97 from the rent alone: its schools mark is 6.6/10, which is the median of the ranking, and it is a €640 T3 doing the work. The ratio therefore states one exact thing, the price paid per point of school provision, and one thing only. Across the 363 communes, two towns do better still and have no guide in this series, Alençon at €94 and, level with Auch at exactly €97, Vichy and Cambrai. The scope of the measure is unchanged: the schools axis describes municipal provision, not pupil results and not the quality of the teaching.",
+      },
+      {
+        heading: "€1,950 entry floor and €97,500 for 65 square metres",
+        body: "The minimum net income estimated by lib/parent-solo.ts is €1,950 a month, on the one-third rule applied to the average T3 of €640. The local cost-of-living score being 8.0, well above 5, the engine applies the strict rule and not the version relaxed to 35 per cent reserved for tight markets: the floor shown is the more prudent of the two possible calculations. It is the lowest floor of the nine towns in this batch, and it puts Auch among the ten or so most accessible of the 363: Aurillac opens at €1,700, Lens, Millau and Cahors at €1,800, Chaumont and Alençon at €1,900, then come Auch, Vichy, Saint-Quentin, Châtellerault, Cambrai and Montluçon at €1,950. The other rental references are a T2 at €480 and a T1 at €350; French flats are counted by rooms rather than bedrooms, so a T3 is a living room plus two bedrooms. To buy, €1,500 a square metre puts a 65-square-metre flat around €97,500 at the average price. That level opens ownership on a single income, which is true of only a minority of the towns in this series. Two reservations. That square metre is an editorial benchmark across all property types, not a median of recorded transactions. And a low price says nothing about how easily the property resells.",
+      },
+      {
+        heading: "Transport 4.2/10: what that figure really costs",
+        body: "This is the weakest of the four axes by a distance, and it is the counterpart of everything else in the file. Of the 363 ranked communes only twenty are less well served, and fourteen of those are in the overseas departments or in Corsica; the other six are Millau, Rodez, Cahors, Bergerac, Aurillac and Concarneau. Nine communes are exactly level with Auch at 4.2, among them Vichy and Alençon. For a lone parent the translation is not an inconvenience, it is a budget line and a risk. A car means insurance, fuel, servicing, the compulsory roadworthiness test, and above all a risk concentrated on the day it breaks down, when there is no second driver to take over the school run. At 4.2/10 the car has to be treated as a given and built into the budget before comparing the Auch rent with any other. The honest calculation is to add the full monthly cost of the vehicle to the €640 T3 before setting it against, say, the €940 of Vienne, where the service is 7.7/10. Depending on the motoring budget assumed, the €300 gap narrows sharply and can reverse. That is the kind of trade-off a ranking does not make on the reader's behalf, and that this guide cannot settle without knowing the actual journey.",
+      },
+      {
+        heading: "Growth that resumes after a dip",
+        body: "Auch counted 21,871 inhabitants in 2011, 21,618 in 2016 and 22,825 in 2022 (source: data/city-population.json). Over eleven years the commune gains 954 residents, 4.4 per cent; but over the last six alone it gains 1,207, or 5.6 per cent. The curve dips then climbs back sharply, and the recovery is stronger than the eleven-year balance, which points to a recent reversal rather than a long trend. That is an unusual trajectory for a rural prefecture in the south-west, and it has two opposing effects for a one-adult household. The dip loosened the rental market and is part of why the T3 sits at €640; it makes the balance of power less unfavourable against files carrying two incomes, which genuinely matters when you apply with a single payslip. The recovery, on the other hand, progressively tightens the provision that stands in for the second adult: crèche, the wraparound care known in France as périscolaire, school meals, catchment waivers. Neither effect appears in the four axes of the composite, and the second decides whether a week holds together. The question to put to the mairie before signing a lease is not the schools score but the real waiting time for a place in wraparound care in the sector you are looking at. Single-parent status opens a priority criterion there, provided it is declared explicitly.",
+      },
+      {
+        heading: "Where Auch sits in Occitanie",
+        body: "Auch is second of the 22 Occitanie communes the ranking retains, behind Albi at 7.0/10 and ahead of Castres at 6.5, Toulouse at 6.4, Montauban and Tarbes at 6.3. The useful comparison is Albi, which has its own guide in this series. Albi asks €840 of T3 and €2,550 of estimated minimum income for 7.7/10 of schools and 5.5/10 of transport: six hundred euros more monthly income than Auch, for 1.1 more points of schools and 1.3 more of transport. Castres offers 6.6/10 of schools, exactly the Auch mark, for a T3 at €700 and a floor of €2,100. Castres is also better served, at 5.5/10 of transport against 4.2 here, so slightly dearer and more accessible without a car. Toulouse, the metropolis, marks 9.0/10 of schools and 7.5/10 of transport but 4.3/10 of safety, for a T3 at €1,150 and a floor of €3,500: that is a different project, not an alternative to the same one. Tarbes, to the west, is 78th with 5.8/10 of schools for a T3 at €770. On the rent-to-school-provision ratio alone, no Occitanie commune does better than Auch.",
+      },
+      {
+        heading: "The verdict: who Auch works for",
+        body: "Auch works from €1,950 net a month, for a single parent who has a car, a job locally or in the Gers, and for whom the housing line has to stay as low as possible. It is the town in this series where the rent-to-school-provision ratio is most favourable, at €97 a point, and where the entry floor is the lowest of the nine in this batch. It also offers 7.5/10 of safety, which puts it in the upper part of the ranking on that axis, and 8.0/10 of cost of living. To buy, €97,500 for 65 square metres at the average price leaves ownership genuinely open on a single income. It works less well for anyone aiming at school provision: 6.6/10 is the median of the ranking, and the good ratio comes from the rent, not from the school file. It does not work for anyone counting on doing without a car: at 4.2/10 of transport that is not a scenario to test, it is a scenario to rule out, and the motoring budget has to be added to the rent before any comparison. Nor does it work for anyone needing a broad labour market in a specialised trade: twenty-two thousand inhabitants is a narrow catchment, and a national rank does not compensate for the absence of an employer. The axis-by-axis detail is on /cities/auch/single-parent.",
+      },
+    ],
+    relatedCities: ["auch", "albi", "castres", "toulouse", "tarbes"],
+    tags: [
+      "single parent auch",
+      "single parent in france",
+      "expat single parent",
+      "moving to france",
+      "occitanie",
+    ],
+  },
+  {
+    slug: "single-parent-in-chaumont-2026",
+    title:
+      "Single parent in Chaumont (2026): the cheapest square metre of the 363 ranked communes",
+    metaTitle: "Single Parent in Chaumont 2026: €950/m², Floor €1,900",
+    metaDesc:
+      "Fit 6.8/10, 17th of 363. The cheapest square metre in the ranking at €950, that is €61,750 for 65 m². Schools 5.5/10 and a falling population: the two reserves.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-06",
+    updatedAt: "2026-09-06",
+    intro:
+      "Chaumont returns 6.8/10 on the single-parent composite, seventeenth of the 363 French communes above 20,000 inhabitants that the ranking retains and third of the 24 in Grand Est, behind Saint-Dié-des-Vosges and Strasbourg. The detail: cost of living 8.5/10, safety 7.5/10, schools 5.5/10, transport 4.9/10 (source: data/cities-seed.ts). The average T3 is €630 and a square metre to buy €950 (source: data/housing.ts), for an estimated minimum net income of €1,900 a month. The commune counted 21,418 inhabitants at the 2022 census against 22,705 in 2011 and 22,367 in 2016 (source: data/city-population.json), 5.7 per cent fewer in eleven years. The figure that carries this file is the square metre: €950, the cheapest of the 363 ranked communes, which puts 65 square metres around €61,750. The two figures that temper it are in the lines above: a schools mark of 5.5/10 and a demographic decline that is speeding up.",
+    sections: [
+      {
+        heading: "€950 a square metre: the lowest price in the ranking",
+        body: "Of the 363 communes this ranking retains, none shows a lower square metre than Chaumont. Behind it come Saint-Dizier at €1,000, Saint-Dié-des-Vosges, Montluçon, Vierzon and Maubeuge at €1,100, then Lens, Aurillac and Forbach at €1,200. In practical terms, 65 square metres sits around €61,750 at the average price, where the same floor area is worth €143,000 at Vienne, €227,500 at Les Sables-d'Olonne and €247,000 at Fontainebleau. For a one-adult household, ownership at that level stops being an asset project and becomes a monthly-payment calculation, and the main point is not the saving: it is stability. An owner is not served notice so the landlord can sell, and does not have to rebuild a rental application on a single payslip every three years, which is the principal fragility of a renting lone parent. Two reservations to put down straight away. That square metre is an editorial benchmark across all property types, not a median of recorded transactions. And above all, a low entry price says nothing about resale: in a commune that has been losing residents for eleven years, how easily the property sells on is an open question, and buying is not a neutral bet.",
+      },
+      {
+        heading: "Schools 5.5/10: where the good ratio actually comes from",
+        body: "The rent-to-school-provision ratio is calculated the way this site's monthly league table calculates it: T3 rent divided by the schools mark. At Chaumont, €630 for 5.5/10 makes €115 a point, which is good in absolute terms and second of the nine towns in this batch of guides, behind the €97 of Auch. But the mechanism has to be stated, because two very different causes produce that number. A good ratio can come from a low rent on solid school provision, and that is the case at Dole, which gets €101 with a schools mark of 7.7/10. It can come from a collapsed rent on weak school provision, and that is the case here: 5.5/10 is the lowest mark of the nine towns in this batch, below the median of the ranking. It puts Chaumont level with Saint-Dizier, Charleville-Mézières and Beauvais. Put another way, the €115 ratio does not read as a good school file bought cheaply, but as a very low rent on a modest school file. The scope of the measure does not change: the schools axis describes municipal provision, the density of establishments and the range of tracks, not pupil results and not the quality of the teaching.",
+      },
+      {
+        heading: "8.5/10 on cost of living, 7.5/10 on safety: the two strengths",
+        body: "Chaumont marks 8.5/10 on the cost-of-living axis, the best mark in the ranking, level with Saint-Dié-des-Vosges, Charleville-Mézières, Saint-Dizier and Montluçon. The composite weights that axis at 0.30, the heaviest of the four, and it is what carries most of the seventeenth place. The €1,900 entry floor follows from it: of the 363 communes, only Aurillac at €1,700 and Lens, Millau and Cahors at €1,800 open lower. The other rental references are a T2 at €470 and a T1 at €330; French flats are counted by rooms rather than bedrooms, so a T3 is a living room plus two bedrooms. Safety at 7.5/10 is the second strength, and it is not trivial: the composite weights it at 0.25, and a mark of 7.5 puts Chaumont in the upper part of the ranking, level with Auch and Saint-Dié-des-Vosges, well ahead of the large cities of the north-east. The site publishes no sector-level safety verdict, and not out of editorial caution: data/neighborhoods.ts documents no Chaumont neighbourhood, as it documents none for the eight other towns in this batch. Writing up a neighbourhood's reputation without data would mean passing an invented judgement on real places and the people who live there.",
+      },
+      {
+        heading: "A population falling, and falling faster than before",
+        body: "Chaumont counted 22,705 inhabitants in 2011, 22,367 in 2016 and 21,418 in 2022 (source: data/city-population.json). Over eleven years the commune loses 1,287 residents, 5.7 per cent; over the last six, 949, or 4.2 per cent. The pace is therefore about 0.3 per cent a year between 2011 and 2016, then about 0.7 per cent a year between 2016 and 2022: the decline is not levelling off, it is accelerating. The department as a whole tells the same story. Saint-Dizier, the other Haute-Marne town in the ranking, shows the second cheapest square metre of the 363 at €1,000 and loses 8.1 per cent of its population over the same period. In other words the Haute-Marne holds the two lowest purchase prices in the ranking and both communes are emptying, and that is not a coincidence: it is the same fact seen from two sides. For a lone parent the decline has one favourable effect and one unfavourable, and they do not cancel out. It loosens the rental market, which genuinely matters when you apply with a single payslip against files carrying two incomes. But it tightens the catchment map, lengthens the distance between home and the sector school, and weakens local services. Neither appears in the four axes of the composite. The question to put to the mairie before signing is therefore not the schools score but the state of the catchment map for the sector you are looking at, and whether class closures are under consideration.",
+      },
+      {
+        heading: "Where Chaumont sits in the Grand Est",
+        body: "Chaumont is third of the 24 Grand Est communes the ranking retains, behind Saint-Dié-des-Vosges at 7.1/10 and Strasbourg at 7.0/10, and ahead of Charleville-Mézières and Saint-Dizier at 6.5. Saint-Dié-des-Vosges is the most direct comparison and it has its own guide in this series: the same cost-of-living mark (8.5), the same safety mark (7.5), but 6.6/10 of schools against 5.5 here, for a T3 at €670 against €630 and a square metre at €1,100 against €950. Forty euros more monthly rent therefore buys 1.1 points of school provision, and that is a trade-off which tilts clearly. Strasbourg, at the other end of the profile, asks €3,250 of estimated minimum income for a T3 at €1,080, with 8.7/10 of schools and 9.0/10 of transport: €1,350 more monthly income for a school file and a service on another scale entirely. Saint-Dizier, in the same department, offers exactly the same schools mark as Chaumont for €50 more rent. On purchase price alone, no commune in the ranking does better than Chaumont.",
+      },
+      {
+        heading: "The verdict: who Chaumont works for",
+        body: "Chaumont works from €1,900 net a month, for a single parent with a stable local job, a car, and for whom becoming an owner on one income is the main objective. It is the cheapest commune in the ranking to buy in, at €61,750 for 65 square metres at the average price, with the best cost-of-living mark and 7.5/10 of safety. It works less well for anyone who puts school provision first: 5.5/10 is the lowest mark of the nine towns in this batch, and the good ratio of €115 a point comes from the rent, not from the school file. Saint-Dié-des-Vosges offers 1.1 more points of schools for forty euros more monthly rent, and a reader free to choose within the region should look at both. It does not work for anyone counting on doing without a car: 4.9/10 of transport is a scenario to rule out rather than to test. One practical point for a reader arriving from abroad: buying in France carries transfer costs of its own on top of the price, and a mortgage on a single foreign-sourced income is the file a French bank scrutinises hardest, so the financing is worth settling before the search rather than after. The thing to watch over time is the demographic decline, which is accelerating and which governs both the catchment map of the coming years and the resale of anything bought today. The axis-by-axis detail is on /cities/chaumont/single-parent.",
+      },
+    ],
+    relatedCities: ["chaumont", "saint-dizier", "saint-die-des-vosges", "charleville-mezieres", "troyes"],
+    tags: [
+      "single parent chaumont",
+      "single parent in france",
+      "expat single parent",
+      "moving to france",
+      "grand-est",
+    ],
+  },
+  {
+    slug: "single-parent-in-compiegne-2026",
+    title:
+      "Single parent in Compiègne (2026): transport and schools both 7.7/10, cost as the counterpart",
+    metaTitle: "Single Parent in Compiègne 2026: T3 €980, Floor €2,950",
+    metaDesc:
+      "Fit 6.8/10, 18th of 363 and third in Hauts-de-France. Transport 7.7/10 and schools 7.7/10, one of only five in the top 20 to do both. Cost 5.9 in reserve.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-06",
+    updatedAt: "2026-09-06",
+    intro:
+      "Compiègne returns 6.8/10 on the single-parent composite, eighteenth of the 363 French communes above 20,000 inhabitants that the ranking retains and third of the 27 in Hauts-de-France, behind Laon and Soissons. The detail: transport 7.7/10, schools 7.7/10, safety 6.2/10, cost of living 5.9/10 (source: data/cities-seed.ts). The average T3 is €980 and a square metre to buy €2,700 (source: data/housing.ts), for an estimated minimum net income of €2,950 a month. The commune counted 40,808 inhabitants at the 2022 census against 39,517 in 2011 and 40,258 in 2016 (source: data/city-population.json). What sets this file apart is none of those figures taken alone but their combination: Compiègne is one of five communes in the first twenty of the ranking to clear 7.5/10 on service and school provision at the same time, with Rennes, Strasbourg, Anglet and Vienne. The price is a cost-of-living mark of 5.9/10, the second lowest of the nine towns in this batch.",
+    sections: [
+      {
+        heading: "7.7 on transport and 7.7 on schools: the rare combination",
+        body: "The first twenty communes in the ranking contain only five profiles that clear 7.5/10 on both axes at once. Three of them are expensive towns: Rennes asks €3,350 of estimated minimum income, Strasbourg €3,250, Anglet €3,450. The other two are Vienne, at €2,850, and Compiègne, at €2,950. For a one-adult household that combination is worth more than an isolated peak, for a reason easy to state: the service is what absorbs the unexpected when nobody else can make the trip, and school provision is what saves you adding a daily journey to an establishment in another commune. Managing one without the other leaves the problem whole. The town has its station on the line linking Paris to the north of the Oise, and an urban bus network serving the commune. Credible remains the right word, not settled: a score of 7.7/10 covers the whole commune and says nothing about the trip between one precise address and one precise school. The school-then-work chain is tested at the moment it will happen, with the real connections. On school provision the scope of the measure is the site's usual one: the axis describes the density of establishments and the range of tracks, not pupil results and not the quality of the teaching.",
+      },
+      {
+        heading: "Cost of living 5.9/10: what stops Compiègne climbing",
+        body: "The composite weights cost of living at 0.30, the heaviest of the four, and it is that axis which caps Compiègne at eighteenth rather than somewhere near the top ten. At 5.9/10 it is a long way from the 8.3/10 of Soissons and Laon, its two better-ranked neighbours, and that reads straight through into prices. The Compiègne T3 is €980, €50 more than Soissons and €240 more than Laon. The square metre is €2,700, against €1,700 at Soissons and €1,400 at Laon: for 65 square metres that makes €175,500 here, €110,500 at Soissons and €91,000 at Laon, a gap of €65,000 to €84,500 on the same theoretical flat. The entry floor follows: €2,950 against €2,800 and €2,250. What the premium buys is clear and can be counted: 2.1 more points of transport and 1.1 more of schools than Soissons; 1.3 more of transport and 1.1 more of schools than Laon. Unlike the Soissons case, in other words, the Compiègne price corresponds to something measurable. Whether that something is worth, for a given reader, the €700 of minimum monthly income that separate Compiègne from Laon is the reader's call. The rent-to-school-provision ratio places the set: €127 a point here, €141 at Soissons, €112 at Laon.",
+      },
+      {
+        heading: "€2,950 floor, and why that is the prudent calculation",
+        body: "The minimum net income estimated by lib/parent-solo.ts is €2,950 a month, on the one-third rule applied to the average T3 of €980. The local cost-of-living score being 5.9, therefore above 5, the engine applies the strict rule and not the version relaxed to 35 per cent reserved for very tight markets: the floor shown is the more prudent of the two possible calculations. That is a difference worth knowing when comparing towns on this site, because only two communes in the top 20, Anglet and Fontainebleau, show a floor computed on the lenient rule. The other rental references are a T2 at €730 and a T1 at €530; French flats are counted by rooms rather than bedrooms, so a T3 is a living room plus two bedrooms. To buy, €2,700 a square metre puts a 65-square-metre flat around €175,500 at the average price, which stays within reach on a single income but markedly less easily than in the two other towns of the region retained here. That square metre is an editorial benchmark across all property types, not a median of recorded transactions. Worth knowing for a reader arriving from abroad: French landlords normally ask for a guarantor or a guarantee scheme on top of the income test, and single-parent status opens a priority criterion on childcare applications without applying automatically, so it has to be declared explicitly.",
+      },
+      {
+        heading: "Growth that is slowing",
+        body: "Compiègne counted 39,517 inhabitants in 2011, 40,258 in 2016 and 40,808 in 2022 (source: data/city-population.json). Over eleven years the commune gains 1,291 residents, 3.3 per cent; over the last six, 550, or 1.4 per cent. Growth therefore continues but is slowing, which is the most comfortable trajectory for a one-adult household among those found in this batch of guides. It avoids the two symmetrical drawbacks: the tightening of the catchment map that comes with decline, and the saturation of crèche and wraparound care that comes with fast growth such as the 17.5 per cent recorded by Les Sables-d'Olonne over the same period. That childcare provision, called périscolaire in France and organised by the commune rather than by the school, is precisely what stands in for the second adult, and none of the four axes of the composite measures it. The question to put to the mairie before signing a lease therefore remains the real waiting time for a place in wraparound care in the sector you are looking at, not the schools score. Note that the site's seed carries 42,000 inhabitants for Compiègne where the 2022 census counts 40,808; the two numbers coexist deliberately, the first serves thresholds and sorts, the second is the measurement.",
+      },
+      {
+        heading: "Where Compiègne sits in Hauts-de-France",
+        body: "The ranking retains 27 communes in the region and Compiègne is third, behind Laon at 7.0/10 and Soissons at 6.9/10, both in the neighbouring Aisne. The trio maps out three clearly distinct offers for a lone parent. Laon is the best ratio, with 6.6/10 of schools and 6.5/10 of safety for a T3 at €740. Soissons is the dearest of the three with no measurable counterpart, carrying the same marks as Laon for €190 more rent a month. Compiègne is the dearest of the three but the only one to offer a school file and a service both at 7.7/10. Further down the regional ranking, Saint-Quentin is 36th with a T3 at €650 but 5.5/10 of schools and 4.7/10 of safety; Beauvais is 81st, the other Oise town, with 5.5/10 of schools for a T3 at €870 and a ratio of €158 a point, markedly worse. Amiens, the regional capital, is 119th because of safety at 4.5/10, and Lille 71st with 3.9/10 on the same axis. On that particular axis, Compiègne at 6.2/10 does better than both regional metropolitan cities. One orientation note for an English-speaking reader: the armistice of 11 November 1918 was signed in a railway carriage in the forest of Compiègne, which is what the name most often means abroad.",
+      },
+      {
+        heading: "The verdict: who Compiègne works for",
+        body: "Compiègne works from €2,950 net a month, for a single parent who needs both things at once, a service that absorbs the unexpected and complete school provision on the spot, and who can absorb a rent €50 above Soissons and €240 above Laon. It is one of five communes in the top 20 to clear 7.5/10 on both axes, and the second cheapest of those five. To buy, €175,500 for 65 square metres at the average price leaves ownership open on a single income, at a level above the regional norm but far below the neighbouring Paris region. It works less well on a tight budget: 5.9/10 on cost of living is the heaviest axis in the composite, and Laon offers €700 less minimum monthly income for one point less of schools and 1.3 points less of transport. It does not work for anyone who puts safety first: 6.2/10 is respectable and no more, a long way from the 8.0 and better found at La Roche-sur-Yon or Les Sables-d'Olonne. The axis-by-axis detail is on /cities/compiegne/single-parent.",
+      },
+    ],
+    relatedCities: ["compiegne", "soissons", "laon", "beauvais", "amiens"],
+    tags: [
+      "single parent compiegne",
+      "single parent in france",
+      "expat single parent",
+      "moving to france",
+      "hauts-de-france",
+    ],
+  },
+  {
+    slug: "single-parent-in-les-sables-d-olonne-2026",
+    title:
+      "Single parent in Les Sables-d'Olonne (2026): €800 more income than La Roche-sur-Yon for the same schools",
+    metaTitle: "Single Parent in Les Sables-d'Olonne 2026: Floor €3,200",
+    metaDesc:
+      "Fit 6.8/10, 19th of 363 and fourth in Pays de la Loire. Safety 8.0/10 and schools 7.7/10, but La Roche-sur-Yon offers as much for €800 less income.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-06",
+    updatedAt: "2026-09-06",
+    intro:
+      "Les Sables-d'Olonne returns 6.8/10 on the single-parent composite, nineteenth of the 363 French communes above 20,000 inhabitants that the ranking retains and fourth of the 14 in Pays de la Loire, behind La Roche-sur-Yon, Challans and Cholet. The detail: safety 8.0/10, schools 7.7/10, transport 6.2/10, cost of living 5.4/10 (source: data/cities-seed.ts). The average T3 is €1,050 and a square metre to buy €3,500 (source: data/housing.ts), for an estimated minimum net income of €3,200 a month. The commune counted 48,740 inhabitants at the 2022 census against 41,478 in 2011 and 43,219 in 2016 (source: data/city-population.json), 17.5 per cent more in eleven years, the fastest growth of the nine towns in this batch of guides. The fact that governs this file is a comparison inside the department: La Roche-sur-Yon, first of the 363 communes in the ranking, offers exactly the same schools mark and the same safety mark for €800 less minimum monthly income. English-speaking readers most often know the town as the start and finish of the Vendée Globe, the solo round-the-world race.",
+    sections: [
+      {
+        heading: "Safety 8.0 and schools 7.7: the top of the table, at a price",
+        body: "Of the 363 ranked communes, only six reach 8.0/10 or better on the safety axis: Challans at 8.3, Lannion at 8.2, Fontainebleau and Beaune at 8.1, La Roche-sur-Yon and Les Sables-d'Olonne at 8.0. Three of those six are in the Vendée or immediately next to it, and that is the clearest regional fact in this series. The schools mark of 7.7/10 is the same as La Roche-sur-Yon, Challans, Cholet, Dole or Albi. On the two axes the composite weights at a quarter each, in other words, the Sables file sits at the level of the top of the ranking. What puts it nineteenth rather than in the first ten is elsewhere, on the axis the composite weights most heavily: 5.4/10 of cost of living, against 7.2 at La Roche-sur-Yon and Challans and 6.7 at Cholet. The rent-to-school-provision ratio puts a number on the gap: €136 a point here, €104 at La Roche-sur-Yon and Cholet, €112 at Challans. The scope of the schools measure remains what it is everywhere: the axis describes municipal provision, the density of establishments and the range of tracks, not pupil results and not the quality of the teaching.",
+      },
+      {
+        heading: "The comparison that decides: La Roche-sur-Yon, thirty kilometres away",
+        body: "La Roche-sur-Yon is first of the 363 communes in this ranking, and it is the prefecture of the same department, about thirty kilometres away. The comparison is unusually clean because two axes are strictly identical. Schools: 7.7/10 on both sides. Safety: 8.0/10 on both sides. On the other two the prefecture wins: cost of living 7.2 against 5.4, transport 7.0 against 6.2. And the prices follow the same slope. The other rental references at Les Sables are a T2 at €790 and a T1 at €550. The La Roche T3 is €800 against €1,050 here, €250 less a month; the entry floor €2,400 against €3,200, €800 less in net monthly income; the square metre €2,100 against €3,500, that is €136,500 against €227,500 for 65 square metres, a gap of €91,000. Put plainly, on the four axes this composite measures, the sea gains you nothing and costs €800 of minimum monthly income. That is not a verdict on the town, it is a statement of what the ranking sees and what it does not. What it does not see is called the coast, and a reader who wants it for themselves or for their children is entitled to pay for it, provided they know what they are paying. This guide states the price, not whether the price is worth it.",
+      },
+      {
+        heading: "17.5 per cent more residents, and it is not the merger",
+        body: "Les Sables-d'Olonne counted 41,478 inhabitants in 2011, 43,219 in 2016 and 48,740 in 2022 (source: data/city-population.json). Over eleven years the commune gains 7,262 residents, 17.5 per cent; over the last six, 5,521, or 12.8 per cent. A gap that size immediately raises the suspicion of an accounting artefact, since the present commune is the result of a merger with Olonne-sur-Mer and Château-d'Olonne. The suspicion is ruled out: the Insee file back-projects the older census years onto today's communal geography, which was checked on this very commune when the November edition of the site's monthly league table was written. The 41,478 inhabitants of 2011 are already counted on the merged perimeter, and the growth is real. For a lone parent, growth at that rate is the main point of vigilance in the file. It saturates the crèche, the wraparound care known in France as périscolaire, and school meals, which is to say exactly the provision that stands in for the second adult, and none of the four axes of the composite measures it. It also lines up applications on the same flat, putting a single-payslip file in direct competition with files carrying two incomes. The question to put to the mairie before signing a lease is therefore not the schools score but the real waiting time for a place in wraparound care. Single-parent status opens a priority criterion there, provided it is declared explicitly.",
+      },
+      {
+        heading: "A coastal constraint no axis sees",
+        body: "The composite measures four things, and one is missing here, the same one flagged for Anglet in the previous batch of this series: in a seaside town a share of the housing stock is occupied as second homes or offered as holiday lets, and that share does not leave the year-round market evenly. The average T3 of €1,050 is an annual average; what a year-round tenant meets is a narrower supply than the size of the commune suggests, seasonal competition on furnished lets and, in some cases, leases whose calendar follows the season. For a two-adult household that constraint is an inconvenience. For a one-adult household it is structural: a forced move is hard to manage when nobody can take over the school run during viewings. The second element outside the composite is the job market, which on the coast carries a strong seasonal component, and that poses a precise problem for a lone parent whose employer varies hours with the season while the wraparound-care timetable does not move. Neither appears in the four axes, and both are worth checking before signing. In practice that means searching outside the summer period where possible, and being wary of leases that stop in spring.",
+      },
+      {
+        heading: "Where Les Sables-d'Olonne sits in Pays de la Loire",
+        body: "The ranking retains 14 communes in the region and the first three already have their guide in this series: La Roche-sur-Yon at 7.5/10, Challans at 7.1 and Cholet at 7.0. Les Sables-d'Olonne comes fourth, ahead of Angers at 6.7 and Laval at 6.6. The region is by a wide margin the best equipped in the ranking on this profile, and the Sables file is the dearest at the top of that table: €1,050 of T3 against €800 at La Roche-sur-Yon and Cholet, €860 at Challans. Challans, forty kilometres north, is the closest comparison by market size and by its coastal-hinterland profile: 8.3/10 of safety, the best mark in the ranking, 7.7/10 of schools as here, for a T3 at €860 and a floor of €2,600, but 4.9/10 of transport against 6.2. Laval, in the Mayenne, shows the best regional ratio at €100 a point of school provision with a T3 at €660, for 6.6/10 of schools. Nantes, the metropolis, is 76th because of safety at 4.6/10. On this ranking, a lone parent aiming at the Vendée and its immediate surroundings has three towns better ranked and markedly cheaper than Les Sables before reaching the sea, two of them in the same department.",
+      },
+      {
+        heading: "The verdict: who Les Sables-d'Olonne works for",
+        body: "Les Sables-d'Olonne works from €3,200 net a month, for a single parent with a year-round job on the spot who wants the coast for its own sake, knowing what it costs. The commune offers 8.0/10 of safety, one of the six best marks of the 363, and 7.7/10 of schools, at the level of the top of the ranking. It works less well for anyone comparing prices at equal file quality: La Roche-sur-Yon offers the same schools and safety marks, with better cost and transport marks, for €250 less rent a month, €800 less minimum income and €91,000 less on 65 square metres. That is the comparison this guide cannot get around. It does not work for anyone on a constrained budget with no backup childcare: growth of 17.5 per cent in eleven years stretches the provision that stands in for the second adult, and the seasonality of both the rental stock and the job market adds an instability a one-adult household absorbs badly. The thing to check before signing is the real waiting time for a wraparound-care place, not the schools score. The axis-by-axis detail is on /cities/les-sables-d-olonne/single-parent.",
+      },
+    ],
+    relatedCities: ["les-sables-d-olonne", "la-roche-sur-yon", "challans", "cholet", "nantes"],
+    tags: [
+      "single parent les sables-d-olonne",
+      "single parent in france",
+      "expat single parent",
+      "moving to france",
+      "pays-de-la-loire",
+    ],
+  },
+  {
+    slug: "single-parent-in-sens-2026",
+    title:
+      "Single parent in Sens (2026): no axis under 6.4, the second flattest profile in the top 20",
+    metaTitle: "Single Parent in Sens 2026: T3 €920, Floor €2,800",
+    metaDesc:
+      "Fit 6.8/10, 20th of 363 and second in Bourgogne-Franche-Comté. None of the four axes under 6.4/10: the second most even profile in the top 20.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 8,
+    publishedAt: "2026-09-06",
+    updatedAt: "2026-09-06",
+    intro:
+      "Sens returns 6.8/10 on the single-parent composite, twentieth of the 363 French communes above 20,000 inhabitants that the ranking retains and second of the 11 in Bourgogne-Franche-Comté, behind Dole. The detail: cost of living 7.6/10, schools 6.6/10, safety 6.5/10, transport 6.4/10 (source: data/cities-seed.ts). The average T3 is €920 and a square metre to buy €1,900 (source: data/housing.ts), for an estimated minimum net income of €2,800 a month. The commune counted 27,275 inhabitants at the 2022 census against 25,146 in 2011 and 25,913 in 2016 (source: data/city-population.json), 8.5 per cent more in eleven years. What characterises this file is not a peak but the absence of a trough: 1.2 points separate the best axis from the weakest, the second narrowest spread of the first twenty communes in the ranking, behind La Roche-sur-Yon. On this composite, that is precisely what pays. English-speaking readers may know the town from elsewhere: its cathedral is the first gothic cathedral ever built, and the man who ran that site, William of Sens, was later called to rebuild the choir of Canterbury Cathedral after the fire of 1174.",
+    sections: [
+      {
+        heading: "1.2 points of spread: why the composite rewards that",
+        body: "The single-parent score is not an average like any other. It weights four axes, cost of living at 0.30, schools at 0.25, safety at 0.25, transport at 0.20, so a weak axis carries a fifth to a third of the mark with no possible compensation elsewhere. A town brilliant on one count and collapsed on another pays full price. Sens illustrates the opposite case: 7.6, 6.6, 6.5 and 6.4, that is 1.2 points between top and bottom. Of the first twenty communes in the ranking, only La Roche-sur-Yon does better with 1.0 point of spread, and it is first in the ranking; then come Dole at 1.3 and Cholet at 1.5. Across the 363, Sens has the forty-first narrowest spread. The most telling comparison is Fontainebleau, twelfth, whose spread reaches 4.1 points: it marks 8.7/10 of schools and 8.1/10 of safety but 4.6/10 of cost of living, and its entry floor stands at €3,450 against €2,800 here. For a one-adult household that evenness has a practical value: it means no line of the budget and no part of the weekly organisation is a breaking point, and that is exactly what a lone parent cannot afford.",
+      },
+      {
+        heading: "€2,800 entry floor and €123,500 for 65 square metres",
+        body: "The minimum net income estimated by lib/parent-solo.ts is €2,800 a month, on the one-third rule applied to the average T3 of €920. The local cost-of-living score being 7.6, well above 5, the engine applies the strict rule and not the version relaxed to 35 per cent reserved for tight markets: the floor shown is the more prudent of the two possible calculations. The other rental references are a T2 at €690 and a T1 at €480; French flats are counted by rooms rather than bedrooms, so a T3 is a living room plus two bedrooms. To buy, €1,900 a square metre puts a 65-square-metre flat around €123,500 at the average price, which leaves ownership open on a single income. For a lone parent the point of owning is not first the monthly saving but the stability: an owner is not served notice so the landlord can sell, and does not have to rebuild a rental application on a single payslip every three years. Two reservations. That square metre is an editorial benchmark across all property types, not a median of recorded transactions. And the rent-to-school-provision ratio, at €139 a point, is the second least favourable of the nine towns in this batch of guides, behind the €141 of Soissons: Sens pays for its evenness, it does not get the best price per point of school provision.",
+      },
+      {
+        heading: "The Yonne pair: Sens and Auxerre are not selling the same thing",
+        body: "Both towns of the department appear in the ranking and they are almost opposites. Sens is twentieth at 6.8/10 with a T3 at €920; Auxerre, the prefecture, is sixty-fourth at 6.3/10 with a T3 at €660. Yet they mark exactly the same schools score, 6.6/10. Auxerre therefore shows a ratio of €100 of rent per point of school provision against €139 here, one of the best of the 363, and that is a serious argument on a constrained budget. What it loses is elsewhere: 5.5/10 of transport against 6.4 and 5.7/10 of safety against 6.5, two axes the composite weights at 0.45 between them. The choice between the two comes down to a question a reader can settle alone: are €260 of monthly rent worth nine tenths of a point of transport and eight tenths of safety. Over eleven years the two communes also diverge: Sens gains 8.5 per cent of its population, Auxerre loses 0.8 per cent. A commune gaining residents stretches its crèche and its wraparound care but does not close classes; a commune standing still does the reverse.",
+      },
+      {
+        heading: "Growth of 8.5 per cent in eleven years",
+        body: "Sens counted 25,146 inhabitants in 2011, 25,913 in 2016 and 27,275 in 2022 (source: data/city-population.json). Over eleven years the commune gains 2,129 residents, 8.5 per cent; over the last six, 1,362, or 5.3 per cent. Growth is steady and sustained, and it has the same consequence here as everywhere in this series: it stretches the provision that stands in for the second adult, crèche, the wraparound care known in France as périscolaire, school meals, catchment waivers, and none of the four axes of the composite measures it. It also has a favourable consequence, a job and services market that thickens rather than contracts, which is no small thing for a household where one income carries everything. Part of that growth comes from the town's position on the rail line linking Paris to the south of the Yonne, and that has a corollary worth naming: a share of the local rental market competes with demand from Paris-region commuters, which partly explains a T3 at €920 for a cost-of-living mark of 7.6/10. The question to put to the mairie before signing a lease is not the schools score but the real waiting time for a place in wraparound care in the sector you are looking at, and single-parent status opens a priority criterion there provided it is declared explicitly. Note that the site's seed carries 25,500 inhabitants for Sens where the census counts 27,275; the two numbers coexist deliberately, the first serves thresholds and sorts, the second is the measurement.",
+      },
+      {
+        heading: "Where Sens sits in Bourgogne-Franche-Comté",
+        body: "The ranking retains 11 communes in the region and Sens is second, behind Dole at 7.2/10 and ahead of Beaune and Besançon at 6.6, Dijon and Montbéliard at 6.5. The comparison with Dole is direct since the two towns share the same cost-of-living score (7.6) and the same transport score (6.4): Dole takes 1.1 more points of schools and half a point more of safety, for a T3 €140 lower and a floor of €2,350 against €2,800. On this ranking Dole is therefore better or level on all four axes while being cheaper, and a reader free within the region should look at it first. What Sens offers in its own right is not in the composite: the rail service towards Paris, which widens the job market reachable without moving house, and which neither Dole nor Beaune has in the same direction. Against the two regional metropolitan cities the trade-off is the classic one: Besançon asks €2,750 of minimum income for 7.4/10 of schools, Dijon €2,900 for 7.4/10 as well, that is to say roughly the Sens floor for eight tenths of a point more of school provision, but with a job market and a health-service offer on another scale. Beaune, for its part, offers 7.7/10 of schools and 8.1/10 of safety for a floor of €3,250.",
+      },
+      {
+        heading: "The verdict: who Sens works for",
+        body: "Sens works from €2,800 net a month, for a single parent working locally or commuting into the Paris region, who prefers a town with no weak point to a town with a strong one. None of its four axes drops below 6.4/10, which is true of only three other communes in the first twenty of the ranking, La Roche-sur-Yon, Dole and Laon, and that is exactly what this composite rewards. To buy, €123,500 for 65 square metres at the average price leaves ownership open on a single income. It works less well for anyone optimising the price per point of school provision: at €139 a point it is eighth of the nine towns in this batch, and Auxerre, in the same department, comes down to €100 for the same schools mark. Dole, second in the national ranking, does better on schools, safety and rent at once, level on cost of living and transport. It does not work for anyone looking for first-rank school provision: 6.6/10 is the median of the ranking, and Besançon, Dijon or Beaune do better in the same region. The thing to watch over time is wraparound care, which growth of 8.5 per cent is retightening and which none of the four axes measures. The axis-by-axis detail is on /cities/sens/single-parent.",
+      },
+    ],
+    relatedCities: ["sens", "auxerre", "dole", "besancon", "dijon"],
+    tags: [
+      "single parent sens",
+      "single parent in france",
+      "expat single parent",
+      "moving to france",
+      "bourgogne-franche-comte",
+    ],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

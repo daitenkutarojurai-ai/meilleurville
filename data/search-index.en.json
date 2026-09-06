@@ -7467,6 +7467,51 @@
       "slug": "best-french-cities-protected-nature-2026",
       "title": "French Cities With Protected Nature on the Doorstep, Measured",
       "emoji": "🌿"
+    },
+    {
+      "slug": "single-parent-in-fontainebleau-2026",
+      "title": "Single parent in Fontainebleau (2026): first in the Paris region, on 15,787 residents",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-soissons-2026",
+      "title": "Single parent in Soissons (2026): 13th of 363, and Laon does as well for €190 less",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-vienne-2026",
+      "title": "Single parent in Vienne (2026): first in Auvergne-Rhône-Alpes, ahead of Lyon and Grenoble",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-villefranche-sur-saone-2026",
+      "title": "Single parent in Villefranche-sur-Saône (2026): 8.7/10 of schools for €700 less income than Lyon",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-auch-2026",
+      "title": "Single parent in Auch (2026): €97 of rent per point of schools, the best ratio in the series",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-chaumont-2026",
+      "title": "Single parent in Chaumont (2026): the cheapest square metre of the 363 ranked communes",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-compiegne-2026",
+      "title": "Single parent in Compiègne (2026): transport and schools both 7.7/10, cost as the counterpart",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-les-sables-d-olonne-2026",
+      "title": "Single parent in Les Sables-d'Olonne (2026): €800 more income than La Roche-sur-Yon for the same schools",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-sens-2026",
+      "title": "Single parent in Sens (2026): no axis under 6.4, the second flattest profile in the top 20",
+      "emoji": "🧑‍🍼"
     }
   ],
   "tags": [
@@ -7483,17 +7528,17 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 142
+      "count": 151
     },
     {
       "slug": "single-parent-in-france",
       "label": "single parent in france",
-      "count": 89
+      "count": 98
     },
     {
       "slug": "expat-single-parent",
       "label": "expat single parent",
-      "count": 67
+      "count": 76
     },
     {
       "slug": "buying-property-france",
@@ -7513,22 +7558,22 @@
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 50
+      "count": 51
     },
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 43
+      "count": 45
     },
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 42
+      "count": 43
     },
     {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 36
+      "count": 38
     },
     {
       "slug": "working-in-france",
@@ -7536,19 +7581,19 @@
       "count": 34
     },
     {
-      "slug": "job-market-france",
-      "label": "job market france",
-      "count": 32
-    },
-    {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
-      "count": 32
+      "count": 33
     },
     {
       "slug": "ile-de-france",
       "label": "ile de france",
-      "count": 31
+      "count": 32
+    },
+    {
+      "slug": "job-market-france",
+      "label": "job market france",
+      "count": 32
     },
     {
       "slug": "single-supplement",
@@ -7633,7 +7678,7 @@
     {
       "slug": "bourgogne-franche-comte",
       "label": "bourgogne-franche-comte",
-      "count": 17
+      "count": 18
     },
     {
       "slug": "centre-val-de-loire",
