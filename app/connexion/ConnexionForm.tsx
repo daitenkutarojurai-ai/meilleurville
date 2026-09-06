@@ -102,7 +102,14 @@ export function ConnexionForm() {
         {IS_EN ? (
           <>
             By signing in, you agree to our{" "}
-            <a href="/legal-notice" className="underline hover:text-[var(--accent)]">Terms</a> and{" "}
+            {/* `/terms` est la jumelle EN de `/cgu` (cf. `pathAlternatesEn` dans
+                app/[locale]/terms) ; `/legal-notice` est celle de
+                `/mentions-legales` et ne porte que l'éditeur et l'hébergeur.
+                La branche FR juste en dessous pointe bien sur `/cgu`, et le
+                Footer EN distingue déjà « Terms of use » de « Legal notice » —
+                seule cette phrase de consentement envoyait le lecteur ailleurs
+                que sur le texte qu'on lui fait accepter. */}
+            <a href="/terms" className="underline hover:text-[var(--accent)]">Terms</a> and{" "}
             <a href="/privacy-policy" className="underline hover:text-[var(--accent)]">Privacy Policy</a>.
           </>
         ) : (
