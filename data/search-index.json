@@ -8609,6 +8609,56 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "parent-solo-a-alencon-2026",
+      "title": "Parent solo à Alençon en 2026 : le meilleur rapport loyer/écoles des 363 villes classées",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-brive-la-gaillarde-2026",
+      "title": "Parent solo à Brive-la-Gaillarde en 2026 : le profil le plus régulier des 363 villes classées",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-etampes-2026",
+      "title": "Parent solo à Étampes en 2026 : deuxième d'Île-de-France, et la seule du lot qui gagne des habitants",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-vichy-2026",
+      "title": "Parent solo à Vichy en 2026 : 97 € par point d'école, et 41,5 % d'habitants de 60 ans et plus",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-beaune-2026",
+      "title": "Parent solo à Beaune en 2026 : 8,1/10 de sécurité, et le coût le plus dur des dix villes du lot",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-dieppe-2026",
+      "title": "Parent solo à Dieppe en 2026 : première de Seine-Maritime, et 0,8 point d'amplitude",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-dreux-2026",
+      "title": "Parent solo à Dreux en 2026 : première de Centre-Val de Loire, devant Tours et Orléans",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-laval-2026",
+      "title": "Parent solo à Laval en 2026 : 100 € par point d'école, et cinq villes de sa région devant elle",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-roanne-2026",
+      "title": "Parent solo à Roanne en 2026 : première de la Loire, et 97 500 € pour 65 mètres carrés",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-saint-quentin-2026",
+      "title": "Parent solo à Saint-Quentin en 2026 : le meilleur budget de l'Aisne, les deux axes faibles du trio",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "10-choses-a-faire-a-pontoise-2026",
       "title": "10 choses à faire à Pontoise",
       "emoji": "🎨"
@@ -9051,6 +9101,11 @@
       "count": 7
     },
     {
+      "slug": "famille-monoparentale-hauts-de-france",
+      "label": "famille monoparentale Hauts-de-France",
+      "count": 7
+    },
+    {
       "slug": "logement",
       "label": "logement",
       "count": 7
@@ -9116,8 +9171,13 @@
       "count": 6
     },
     {
-      "slug": "famille-monoparentale-hauts-de-france",
-      "label": "famille monoparentale Hauts-de-France",
+      "slug": "famille-monoparentale-nouvelle-aquitaine",
+      "label": "famille monoparentale Nouvelle-Aquitaine",
+      "count": 6
+    },
+    {
+      "slug": "famille-monoparentale-pays-de-la-loire",
+      "label": "famille monoparentale Pays de la Loire",
       "count": 6
     },
     {
@@ -9211,23 +9271,18 @@
       "count": 5
     },
     {
+      "slug": "famille-monoparentale-auvergne-rhone-alpes",
+      "label": "famille monoparentale Auvergne-Rhône-Alpes",
+      "count": 5
+    },
+    {
       "slug": "famille-monoparentale-drom",
       "label": "famille monoparentale DROM",
       "count": 5
     },
     {
-      "slug": "famille-monoparentale-nouvelle-aquitaine",
-      "label": "famille monoparentale Nouvelle-Aquitaine",
-      "count": 5
-    },
-    {
       "slug": "famille-monoparentale-occitanie",
       "label": "famille monoparentale Occitanie",
-      "count": 5
-    },
-    {
-      "slug": "famille-monoparentale-pays-de-la-loire",
-      "label": "famille monoparentale Pays de la Loire",
       "count": 5
     },
     {
@@ -9408,6 +9463,11 @@
     {
       "slug": "loyer",
       "label": "loyer",
+      "count": 4
+    },
+    {
+      "slug": "loyer-bas-parent-seul",
+      "label": "loyer bas parent seul",
       "count": 4
     },
     {
@@ -9646,13 +9706,23 @@
       "count": 3
     },
     {
-      "slug": "famille-monoparentale-auvergne-rhone-alpes",
-      "label": "famille monoparentale Auvergne-Rhône-Alpes",
+      "slug": "famille-monoparentale-bourgogne-franche-comte",
+      "label": "famille monoparentale Bourgogne-Franche-Comté",
+      "count": 3
+    },
+    {
+      "slug": "famille-monoparentale-centre-val-de-loire",
+      "label": "famille monoparentale Centre-Val de Loire",
       "count": 3
     },
     {
       "slug": "famille-monoparentale-grand-est",
       "label": "famille monoparentale Grand Est",
+      "count": 3
+    },
+    {
+      "slug": "famille-monoparentale-normandie",
+      "label": "famille monoparentale Normandie",
       "count": 3
     },
     {
@@ -9746,6 +9816,11 @@
       "count": 3
     },
     {
+      "slug": "monoparental-aisne",
+      "label": "monoparental Aisne",
+      "count": 3
+    },
+    {
       "slug": "monoparental-la-reunion",
       "label": "monoparental La Réunion",
       "count": 3
@@ -9798,6 +9873,11 @@
     {
       "slug": "picardie",
       "label": "Picardie",
+      "count": 3
+    },
+    {
+      "slug": "profil-sans-point-faible-parent-seul",
+      "label": "profil sans point faible parent seul",
       "count": 3
     },
     {
