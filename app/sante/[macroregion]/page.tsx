@@ -262,10 +262,22 @@ export default async function MacroRegionHealthcarePage({ params }: Props) {
           ))}
         </div>
 
-        <div className="mt-8 text-sm">
-          <Link href="/sante" className="text-[var(--accent)] hover:underline">
-            → Voir le classement national accès aux soins complet
-          </Link>
+        <div className="mt-8 space-y-2 text-sm">
+          <p>
+            <Link href="/sante" className="text-[var(--accent)] hover:underline">
+              → Voir le classement national accès aux soins complet
+            </Link>
+          </p>
+          <p>
+            <Link
+              href="/pour-qui/suivi-medical-regulier"
+              className="text-[var(--accent)] hover:underline"
+            >
+              → Quand les rendez-vous sont mensuels ou hebdomadaires : les villes
+              classées sur l&apos;accès aux soins, mais aussi sur le trajet répété et
+              son coût
+            </Link>
+          </p>
         </div>
       </section>
 

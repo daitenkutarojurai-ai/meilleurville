@@ -219,6 +219,21 @@ export default function RedFlagsPage() {
               parc locatif du bassin, et que l&apos;annonce remplace par « quartier en
               pleine reconversion ».
             </p>
+            <p className="mt-2 text-sm text-[var(--text-secondary)]">
+              Le red flag{" "}
+              <Link href="/red-flags/villes-desert-medical" className="text-[var(--accent)] hover:underline">
+                désert médical
+              </Link>{" "}
+              dit où l&apos;accès aux soins s&apos;effondre ; il ne dit pas où aller quand
+              on ne peut pas s&apos;en passer. C&apos;est l&apos;objet des{" "}
+              <Link href="/pour-qui/suivi-medical-regulier" className="text-[var(--accent)] hover:underline">
+                villes pour un suivi médical régulier
+              </Link>
+              , seule page du site où l&apos;accès aux soins est le critère cardinal :
+              elle le croise avec le trajet répété, le coût restant à charge et la
+              résistance à la canicule, et elle rappelle que l&apos;indicateur reste
+              une estimation départementale, pas un relevé de cabinets.
+            </p>
           </div>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 auto-rows-fr">
             {RED_FLAG_THEMES.map((t) => (

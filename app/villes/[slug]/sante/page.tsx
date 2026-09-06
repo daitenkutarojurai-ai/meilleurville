@@ -212,10 +212,21 @@ export default async function SantePage({ params }: Props) {
           </Link>
         </div>
 
-        <div className="mt-8 text-sm">
-          <Link href="/sante" className="text-[var(--accent)] hover:underline">
-            → Classement national de l&apos;accès aux soins
-          </Link>
+        <div className="mt-8 space-y-2 text-sm">
+          <p>
+            <Link href="/sante" className="text-[var(--accent)] hover:underline">
+              → Classement national de l&apos;accès aux soins
+            </Link>
+          </p>
+          <p>
+            <Link
+              href="/pour-qui/suivi-medical-regulier"
+              className="text-[var(--accent)] hover:underline"
+            >
+              → Les villes où s&apos;installer quand une pathologie chronique impose
+              des rendez-vous réguliers
+            </Link>
+          </p>
         </div>
       </section>
 

@@ -279,6 +279,13 @@ export default function HealthcareHubPage() {
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Vie, transport, sécurité…</div>
             </Card>
           </Link>
+          <Link href="/pour-qui/suivi-medical-regulier" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full">
+              <div className="text-2xl mb-1">🩺</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">Vivre avec un suivi médical régulier</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">L&apos;accès aux soins repondéré avec le coût, les trajets et la canicule</div>
+            </Card>
+          </Link>
         </div>
       </section>
 

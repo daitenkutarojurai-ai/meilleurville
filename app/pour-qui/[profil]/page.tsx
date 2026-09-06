@@ -591,6 +591,44 @@ export default async function ProfilePage({ params }: Props) {
           </section>
         )}
 
+        {/* Healthcare-access counterpart — visible on the three profiles that the
+            target's own intro names to say where it stops : « mobilité réduite »
+            pondère d'abord l'accessibilité PMR des transports, « proches aidants »
+            accompagne quelqu'un d'autre et cherche du calme, « asthmatiques et
+            allergiques » vise l'air respirable. Aucun des trois ne pondère
+            `healthcareAccess` (lib/healthcare-access.ts), qui est le poids cardinal
+            du profil renvoyé — vérifié sur PROFILE_PAGES. */}
+        {["mobilite-reduite", "proches-aidants", "asthmatiques-allergiques"].includes(profile.slug) && (
+          <section>
+            <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+              Le profil voisin — quand ce sont les soins qui commandent
+            </h3>
+            <Link href="/pour-qui/suivi-medical-regulier" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl" aria-hidden>🩺</span>
+                  <div>
+                    <p className="font-semibold text-[var(--text-primary)]">
+                      Les villes où s&apos;installer avec un suivi médical régulier
+                    </p>
+                    <p className="text-xs text-[var(--text-secondary)] mt-1">
+                      Le top ci-dessus ne pondère pas l&apos;offre de soins ; celui-ci en
+                      fait son critère cardinal — densité de généralistes, spécialistes
+                      et plateau technique, distance aux urgences, maillage de
+                      pharmacies — puis le croise avec ce qu&apos;un rendez-vous mensuel ou
+                      hebdomadaire coûte vraiment : le trajet répété, le reste à charge
+                      hors ALD et la résistance à la canicule. La page dit aussi ce
+                      qu&apos;elle est : une estimation construite depuis le département,
+                      la taille de la commune et son statut hospitalier, pas un relevé
+                      de cabinets commune par commune.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+          </section>
+        )}
+
         {/* Other profiles */}
         <section>
           <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">
