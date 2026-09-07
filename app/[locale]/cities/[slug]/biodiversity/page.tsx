@@ -28,7 +28,9 @@ import {
   speciesName,
   GROUP_ORDER,
   groupSpecies,
+  groupSpeciesIsFloor,
   unmeasuredGroups,
+  countWithFloor,
   MIN_OCCURRENCES,
   MIN_OBSERVERS,
   PROTECTION_KIND_COUNT,
@@ -89,16 +91,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const sources = `GBIF${areas ? " and IGN" : ""} data.`;
   // Same "at least" as the page body: on the 27 cities whose species list the
   // pagination cut short, the count is a floor. Same figures as the FR twin.
-  const species = raw.speciesTruncated
-    ? `At least ${raw.species.toLocaleString("en-GB")}`
-    : raw.species.toLocaleString("en-GB");
+  const speciesCount = countWithFloor(raw, "species");
+  const species = speciesCount.floor
+    ? `At least ${speciesCount.value.toLocaleString("en-GB")}`
+    : speciesCount.value.toLocaleString("en-GB");
+  // Same rule on recorders: on 101 cities the facet was cut at 2,000, so the
+  // number is a floor. Same figures as the FR twin.
+  const observersCount = countWithFloor(raw, "observers");
+  const observersMeta = `${observersCount.floor ? "at least " : ""}${observersCount.value.toLocaleString("en-GB")}`;
   const head = richness
     ? `${species} species around ${city.name}, across ${raw.occurrences.toLocaleString("en-GB")} observations. Richness at equal survey effort: ${richness.score}/10.`
     : richnessPending === "incomparable" || richnessPending === "calibration"
       ? `${species} species around ${city.name}, across ${raw.occurrences.toLocaleString("en-GB")} observations.`
       : richnessPending === "precision"
         ? `Around ${city.name}, recorded richness is too imprecise to rank: our crawl cut the species list short.`
-        : `Around ${city.name}, too few observations to publish a score: ${raw.occurrences.toLocaleString("en-GB")} observations from ${raw.observers} recorders.`;
+        : `Around ${city.name}, too few observations to publish a score: ${raw.occurrences.toLocaleString("en-GB")} observations from ${observersMeta} recorders.`;
   // Length guard: the protection clause drops rather than let the description
   // be cut in the SERP. Measured, none of the 540 reaches it (144 at worst).
   const withClause = [head, protectionClause, sources].filter(Boolean).join(" ");
@@ -224,6 +231,23 @@ export default async function BiodiversityPage({ params }: Props) {
     ? `At least ${nb(raw.species)}`
     : nb(raw.species);
 
+  // The same cap cuts the recorder facet, on **101** cities this time, and it
+  // was published as a measurement: "from 2,000 recorders" in the prose,
+  // `value: 2000` in the JSON-LD, while the figure table on the same page read
+  // "2,000+". The highest untruncated value in the corpus is 1,992 — 2,000 is
+  // the cap, not a count. Fixed 2026-09-07, both locales, same numbers.
+  //
+  // "At least" and not "more than": a facet is flagged truncated as soon as its
+  // last page comes back full, which leaves the case where the total is exactly
+  // the cap. The floor is safe, exceeding it is not.
+  const observers = countWithFloor(raw, "observers");
+  const observersPhrase = observers.floor ? `at least ${nb(observers.value)}` : nb(observers.value);
+  // Two more counts go through the same accessor, less because they need it
+  // today (no row comes near their cap: 834 and 101 against 2,000) than so the
+  // day one does, the page says so on its own.
+  const datasets = countWithFloor(raw, "datasets");
+  const threatened = countWithFloor(raw, "threatenedSpecies");
+
   // Same four states as the French twin, and the same rule: only a commune that
   // has not been ingested — or one the ingested layers do not reach — reads
   // "not measured". One ingested with no perimeter at all has been measured,
@@ -298,7 +322,15 @@ export default async function BiodiversityPage({ params }: Props) {
   // has to say so. The old `count > 0` filter dropped the reptile row, which
   // read 0 through a query bug — on three cities the chart contradicted the
   // species list right below it.
-  const groups = GROUP_ORDER.map((g) => ({ id: g, count: groupSpecies(raw, g) })).filter(
+  // A group capped by pagination carries its "at least" on the number itself,
+  // not only in the note under the chart: on the 12 cities concerned it is the
+  // richest group (insects, cut at 3,000) that is truncated, so the one holding
+  // the longest bar — reading it as a total suggests a ceiling has been reached.
+  const groups = GROUP_ORDER.map((g) => ({
+    id: g,
+    count: groupSpecies(raw, g),
+    floor: groupSpeciesIsFloor(raw, g),
+  })).filter(
     (g) => g.count === null || g.count > 0,
   );
   const groupMax = Math.max(1, ...groups.map((g) => g.count ?? 0));
@@ -338,7 +370,9 @@ export default async function BiodiversityPage({ params }: Props) {
         ? { "@type": "PropertyValue", name: "Distinct species recorded", minValue: raw.species }
         : { "@type": "PropertyValue", name: "Distinct species recorded", value: raw.species },
       { "@type": "PropertyValue", name: "Observations", value: raw.occurrences },
-      { "@type": "PropertyValue", name: "Distinct recorders", value: raw.observers },
+      observers.floor
+        ? { "@type": "PropertyValue", name: "Distinct recorders", minValue: observers.value }
+        : { "@type": "PropertyValue", name: "Distinct recorders", value: observers.value },
       ...(richness
         ? [
             {
@@ -385,7 +419,7 @@ export default async function BiodiversityPage({ params }: Props) {
                 {speciesPhraseCap} species have been recorded within{" "}
                 {raw.radiusKm} km since {raw.yearFrom}, across{" "}
                 {raw.occurrences.toLocaleString("en-GB")} observations submitted by{" "}
-                {raw.observers.toLocaleString("en-GB")} recorders. The score below normalises that
+                {observersPhrase} recorders. The score below normalises that
                 richness to equal survey effort — without it, you would be ranking cities by their
                 number of naturalists rather than by their nature.
               </>
@@ -394,7 +428,7 @@ export default async function BiodiversityPage({ params }: Props) {
                 {speciesPhraseCap} species have been recorded within{" "}
                 {raw.radiusKm} km since {raw.yearFrom}, across{" "}
                 {raw.occurrences.toLocaleString("en-GB")} observations submitted by{" "}
-                {raw.observers.toLocaleString("en-GB")} recorders. Those figures are what has been{" "}
+                {observersPhrase} recorders. Those figures are what has been{" "}
                 <strong>observed and submitted</strong> here. We no longer turn them into a score
                 out of 10: the ranking we built from them tracked the kind of recording programme
                 operating around each city, not what lives there. Details at the bottom of the page.
@@ -409,10 +443,11 @@ export default async function BiodiversityPage({ params }: Props) {
             ) : richnessPending === "precision" ? (
               <>
                 {raw.occurrences.toLocaleString("en-GB")} observations have been submitted here by{" "}
-                {raw.observers.toLocaleString("en-GB")} recorders — ample to measure. What is
+                {observersPhrase} recorders — ample to measure. What is
                 missing is on <strong>our</strong> side: the species list GBIF returned was cut
                 short, so richness is only bracketed. We would rather not rank the city on an
-                interval that wide. The counts themselves are exact and shown below.
+                interval that wide. The raw counts are shown below, each marked when pagination
+                capped it.
               </>
             ) : (
               <>
@@ -513,7 +548,7 @@ export default async function BiodiversityPage({ params }: Props) {
               <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
                 The survey record for {city.name} is solid:{" "}
                 <strong>{raw.occurrences.toLocaleString("en-GB")} observations</strong> from{" "}
-                <strong>{raw.observers.toLocaleString("en-GB")}</strong> recorders, and{" "}
+                <strong>{observersPhrase}</strong> recorders, and{" "}
                 <strong>{raw.rarefied?.toLocaleString("en-GB")} species</strong> expected per{" "}
                 {raw.rarefiedN} observations. But our mark out of 10 is a rank — it says
                 &ldquo;better than N% of other cities&rdquo; — and only{" "}
@@ -550,7 +585,7 @@ export default async function BiodiversityPage({ params }: Props) {
                 A richness figure needs at least {MIN_OCCURRENCES} observations and{" "}
                 {MIN_OBSERVERS} distinct recorders to mean anything. Here:{" "}
                 <strong>{raw.occurrences.toLocaleString("en-GB")} observations</strong> from{" "}
-                <strong>{raw.observers}</strong> people. Below that, a species count mostly measures
+                <strong>{observersPhrase}</strong> people. Below that, a species count mostly measures
                 how many naturalists passed through and what those particular people look at. We
                 would rather say so than fill the gap with a departmental average.
               </p>
@@ -761,7 +796,7 @@ export default async function BiodiversityPage({ params }: Props) {
                         not measured
                       </span>
                     ) : (
-                      g.count.toLocaleString("en-GB")
+                      `${nb(g.count)}${g.floor ? "+" : ""}`
                     )}
                   </div>
                 </div>
@@ -827,12 +862,13 @@ export default async function BiodiversityPage({ params }: Props) {
         </section>
       )}
 
-      {raw.threatenedSpecies > 0 && (
+      {threatened.value > 0 && (
         <section className="relative pb-8">
           <div className="mx-auto max-w-5xl px-4 sm:px-6">
             <div className="rounded-2xl glass border border-white/50 p-5 shadow-sm">
               <div className="text-sm font-semibold text-[var(--text-primary)] mb-1">
-                ⚠️ {raw.threatenedSpecies} threatened species recorded in the area
+                ⚠️ {threatened.floor ? "At least " : ""}{nb(threatened.value)} threatened species
+                recorded in the area
               </div>
               <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
                 Listed as vulnerable, endangered or critically endangered on the{" "}
@@ -854,13 +890,13 @@ export default async function BiodiversityPage({ params }: Props) {
               { label: "Observations", value: raw.occurrences.toLocaleString("en-GB") },
               {
                 label: "Recorders",
-                value: `${raw.observers.toLocaleString("en-GB")}${raw.observersTruncated ? "+" : ""}`,
+                value: `${nb(observers.value)}${observers.floor ? "+" : ""}`,
               },
               {
                 label: "Distinct species",
                 value: `${raw.species.toLocaleString("en-GB")}${raw.speciesTruncated ? "+" : ""}`,
               },
-              { label: "Datasets", value: raw.datasets.toLocaleString("en-GB") },
+              { label: "Datasets", value: `${nb(datasets.value)}${datasets.floor ? "+" : ""}` },
             ].map((s) => (
               <div key={s.label} className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
                 <div className="text-xs text-[var(--text-tertiary)] mb-1">{s.label}</div>

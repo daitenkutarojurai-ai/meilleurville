@@ -132,8 +132,16 @@ export interface CityBiodiversityRaw {
   licenses: string[];
   occurrences: number;
   observers: number;
+  /** Vrai quand la facette `recordedBy` a heurté le plafond de pagination :
+   *  `observers` vaut alors exactement 2 × `FACET_LIMIT` et n'est qu'un
+   *  plancher. 101 des 540 lignes du corpus. Lire par `countWithFloor()`. */
   observersTruncated: boolean;
   datasets: number;
+  /** Idem pour la facette `datasetKey`. **Absent des lignes écrites avant le
+   *  2026-09-07** : le collecteur calculait le drapeau et le jetait, si bien
+   *  qu'un plafond atteint aurait été publié comme un total sans que rien ne le
+   *  dise. Aucune ligne du corpus n'en approche (834 au plus pour 2 000). */
+  datasetsTruncated?: boolean;
   species: number;
   speciesTruncated: boolean;
   rarefiedN: number;
@@ -161,6 +169,9 @@ export interface CityBiodiversityRaw {
    *  n'est pas la liste rouge nationale française : les statuts nationaux
    *  viennent de l'INPN, dans une phase ultérieure. */
   threatenedSpecies: number;
+  /** Vrai quand la facette des espèces menacées a heurté le plafond. Même
+   *  histoire que `datasetsTruncated` : absent avant le 2026-09-07. */
+  threatenedSpeciesTruncated?: boolean;
   topSpecies: TopSpecies[];
   accessedAt: string;
 }
@@ -242,6 +253,56 @@ export function groupSpecies(
  *  d'affichage — ce que la page doit annoncer comme « non mesuré ». */
 export function unmeasuredGroups(row: CityBiodiversityRaw): SpeciesGroup[] {
   return GROUP_ORDER.filter((g) => groupSpecies(row, g) === null);
+}
+
+/* ── comptes plafonnés par la pagination ──────────────────────────────── */
+
+/** Les quatre comptes que le plafond de pagination de GBIF peut couper. */
+export type CappedCount = "species" | "observers" | "datasets" | "threatenedSpecies";
+
+/**
+ * Un compte et son statut : `floor` vrai signifie que la facette a été coupée
+ * par le plafond de pagination, donc que `value` est un **minimum** et se rend
+ * « au moins N » / « at least N », jamais N.
+ *
+ * ⚠️ C'est le seul accès autorisé à ces quatre champs depuis une surface. Lire
+ * `row.observers` directement fait republier le plafond comme une mesure, et
+ * c'est exactement ce qui s'est produit : de la fin du crawl au 2026-09-07, les
+ * **101 villes** dont la facette `recordedBy` a été coupée à 2 000 écrivaient en
+ * toutes lettres « 2 000 naturalistes » dans la prose et publiaient
+ * `value: 2000` en JSON-LD, pendant que le tableau de chiffres de la même page,
+ * lui, affichait « 2 000+ ». Une page qui se contredit à deux écrans d'écart,
+ * même signature que les reptiles du 2026-09-03. La valeur haute non tronquée du
+ * corpus est 1 992 : 2 000 n'est pas une mesure, c'est 2 × `FACET_LIMIT`.
+ *
+ * `datasets` et `threatenedSpecies` n'ont leur drapeau que depuis le 2026-09-07 :
+ * le collecteur le calculait et le jetait. Avant cette date on ne sait pas s'ils
+ * ont été coupés, donc `floor` reste faux — aucune ligne du corpus n'approche
+ * les plafonds (834 et 101 pour 2 000), mais le jour où une ville les
+ * atteindrait, le drapeau est désormais là pour le dire.
+ */
+export function countWithFloor(
+  row: CityBiodiversityRaw,
+  field: CappedCount,
+): { value: number; floor: boolean } {
+  const floor =
+    field === "species"
+      ? row.speciesTruncated
+      : field === "observers"
+        ? row.observersTruncated
+        : field === "datasets"
+          ? (row.datasetsTruncated ?? false)
+          : (row.threatenedSpeciesTruncated ?? false);
+  return { value: row[field], floor };
+}
+
+/** Vrai quand le compte d'un groupe a été coupé par la pagination : la barre et
+ *  le nombre du graphe sont alors un plancher, pas un total. */
+export function groupSpeciesIsFloor(
+  row: CityBiodiversityRaw,
+  group: SpeciesGroup,
+): boolean {
+  return groupSpecies(row, group) !== null && row.groupsTruncated.includes(group);
 }
 
 /** Largeur d'intervalle tolérée quand la raréfaction est encadrée plutôt

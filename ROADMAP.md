@@ -1762,7 +1762,7 @@ recensées à proximité, zones protégées.
 
 | # | Feature | Prio | Cplx | SEO | Statut |
 |---|---------|------|------|-----|--------|
-| F62 | **Score Biodiversité** (pipeline GBIF + zones protégées → sous-page ×540 + classement) | **P0** | **L** | **high** | 🚧 en cours — GBIF **540/540** (crawl clos 09/08), sous-pages en ligne des deux locales, **rang de richesse retiré le 10/08** (il classait les programmes de saisie) ; zones protégées **540/540** depuis la bascule INPN → **IGN BD TOPO** du 26/08 (la source INPN est morte depuis la cyberattaque de 07/2025), **hub national `/espaces-proteges` + `/protected-areas` livré le 26/08** ; **passe d'honnêteté des deux sous-pages ville le 27/08** (elles annonçaient encore les zones protégées comme « pas encore intégrées », et publiaient un effectif d'espèces plafonné comme un total sur 27 villes) ; **rang d'espaces verts retiré le 31/08** (un parc à cheval était compté en entier dans chaque commune qu'il touche : corrélation de rang +0,86 avec la surface du seul plus grand polygone, 26 des 53 villes du top 10 % concernées) ; **une seule des trois composantes porte encore une note, les zones protégées**, et `overall` reste `null` — deux composantes retirées et une publiable ne font pas un agrégat qui mesure ce que son nom annonce |
+| F62 | **Score Biodiversité** (pipeline GBIF + zones protégées → sous-page ×540 + classement) | **P0** | **L** | **high** | 🚧 en cours — GBIF **540/540** (crawl clos 09/08), sous-pages en ligne des deux locales, **rang de richesse retiré le 10/08** (il classait les programmes de saisie) ; zones protégées **540/540** depuis la bascule INPN → **IGN BD TOPO** du 26/08 (la source INPN est morte depuis la cyberattaque de 07/2025), **hub national `/espaces-proteges` + `/protected-areas` livré le 26/08** ; **passe d'honnêteté des deux sous-pages ville le 27/08** (elles annonçaient encore les zones protégées comme « pas encore intégrées », et publiaient un effectif d'espèces plafonné comme un total sur 27 villes) ; **rang d'espaces verts retiré le 31/08** (un parc à cheval était compté en entier dans chaque commune qu'il touche : corrélation de rang +0,86 avec la surface du seul plus grand polygone, 26 des 53 villes du top 10 % concernées) ; **une seule des trois composantes porte encore une note, les zones protégées**, et `overall` reste `null` — deux composantes retirées et une publiable ne font pas un agrégat qui mesure ce que son nom annonce ; **passe de troncature le 07/09** : la facette des observateurs, plafonnée à 2 000 sur **101 villes**, était publiée comme un décompte dans la prose et en `value` JSON-LD alors que le tableau de la même page affichait « 2 000+ » — corrigé des deux côtés, plus les insectes plafonnés de 12 villes et deux drapeaux que le collecteur calculait puis jetait. ⚠️ **Aucune collecte depuis le 28/08** : les correctifs du 03/09 (reptiles, noms anglais) n'ont toujours atteint aucun lecteur |
 | F63 | **Qualité de l'air — du modèle à la mesure** (ATMO + Geod'Air, hub + classement) | **P0** | **M** | **high** | 🔜 à faire |
 | F64 | **Actualité locale par ville** (open data BODACC/JO/CatNat → section CityProfile + routine hebdo) | **P1** | **M** | **low** | ✅ **en ligne — 540/540 villes, 4 284 entrées** (BODACC 4 244 + CatNat 40). Section rendue sur les deux locales, 536 villes l'affichent, 4 masquées. RNA toujours désactivé (0 association). **Le collecteur a repris les 26-27/08** après vingt jours de silence : 360 lignes recollectées en `QUERY_VERSION = 2`, ce qui **confirme le correctif du 18/08** — 9 des 10 Saint-X portent leurs 8 entrées (`le-francois`, encore en v1, guérira à son tour). ⚠️ **Puis il s'est arrêté de nouveau** : rien depuis le 27/08, et **180 lignes n'ont jamais été reprises** (v1, 04-05/08, 27-28 jours) — le seuil ramené à 21 jours le 25/08 **se déclenche pour la première fois, sur 177 villes**, comme dimensionné. Mesuré ce run sur les 360 villes comptées deux fois à 22 jours d'intervalle : **un mois clos ne bouge plus** (1 769 seaux de juin-juillet identiques à l'unité, 0 en baisse sur 2 471), seul le mois en cours grossit (×5,5). **Note du mois partiel corrigée le 01/09** : elle qualifiait (« quelques jours », exact au 4 août, faux au 26) au lieu de mesurer — elle publie désormais la couverture, « soit 26 des 31 jours du mois » |
 
@@ -2337,6 +2337,89 @@ l'alerte. **La prochaine passe le dira d'elle-même**, par e-mail — ou, en tro
 demande, par `scripts/local-data-runner.sh --status`, qui donne les trois couvertures, depuis quand
 chacune n'a pas bougé, la présence des couches INPN et celle d'`ogr2ogr`. Si le cron lui-même est
 décroché, rien de tout cela ne partira : c'est la première chose à vérifier (`crontab -l`).
+
+#### Point d'étape 2026-09-07 — un plafond de pagination publié comme une mesure sur 101 villes
+
+Aucune collecte depuis le **28/08** : les trois JSON sont pleins (540/540 partout) mais
+`data/city-biodiversity.json` est **inchangé au bit près** depuis dix jours — 540 lignes encore en
+`queryVersion` 2, `reptiles: 0` sur les 540, `vernacularEn` nul sur 6 480 entrées sur 6 480. Autrement
+dit **les deux correctifs du 03/09 n'ont toujours atteint aucun lecteur**, et le rejeu qu'ils mettaient
+en file (~9 nuits à 60 villes) n'a pas commencé. Le collecteur local est reparti deux fois fin août
+puis s'est tu de nouveau ; c'est le mode de défaillance décrit au 24/08, et il ne se voit qu'en
+regardant la date des lignes.
+
+Le travail de ce run est l'audit que cette immobilité rend possible, sur le dernier champ que
+personne n'avait recompté : **les comptes que la pagination de l'API plafonne**. Le 27/08 avait
+traité les espèces (27 villes) ; les trois autres comptes de la même famille étaient restés en
+arrière.
+
+**1. « 2 000 naturalistes » n'est pas une mesure, c'est 2 × `FACET_LIMIT`.** La facette `recordedBy`
+est demandée sur deux pages de mille : **101 des 540 villes** l'ont saturée et portent
+`observers: 2000` avec `observersTruncated: true`. Le drapeau était écrit depuis toujours et lu à un
+seul endroit — le tableau « Comment c'est mesuré », qui affichait « 2 000+ ». Partout ailleurs le
+plafond partait tel quel : « sur 573 758 observations déposées par **2 000 naturalistes** » dans le
+chapeau, et surtout `{"name": "Observateurs distincts", "value": 2000}` en JSON-LD, deux lignes sous
+un commentaire qui pose la règle inverse pour les espèces (« un décompte tronqué s'annonce comme un
+minimum »). La page se contredisait donc à deux écrans d'écart, dans les deux locales, sur 202 pages.
+La preuve que 2 000 est le plafond et non un décompte est dans le corpus : **la plus haute valeur non
+tronquée est 1 992**, et les 101 villes concernées valent 2 000 **exactement**.
+
+**2. Le même défaut sur le graphe par groupe.** Les insectes sont demandés sur trois pages : **12
+villes** sont à 3 000 pile, et c'est le groupe le plus riche, donc celui qui tient la barre la plus
+longue du graphe. Une note sous le graphe le disait déjà ; le nombre, lui, se lisait comme un total.
+
+**3. Deux drapeaux calculés puis jetés.** `facetAll` rend `truncated` pour `datasetKey` comme pour la
+facette des espèces menacées, et le collecteur ne l'écrivait dans aucun des deux cas. Aucune ligne du
+corpus n'approche leur plafond (834 et 101 pour 2 000), donc rien n'est faux aujourd'hui — mais le
+jour où une ville l'atteindrait, le chiffre serait parti muet sur 540 pages. C'est la version latente
+du défaut, corrigée à la source.
+
+**Ce que le run a livré.**
+- `countWithFloor(row, field)` (`lib/biodiversity.ts`) rend `{ value, floor }` et devient le **seul
+  accès autorisé** aux quatre comptes plafonnables depuis une surface, sur le modèle de
+  `groupSpecies()` du 03/09 : lire `raw.observers` directement fait republier le plafond. Plus
+  `groupSpeciesIsFloor()` pour le graphe. Aucun `raw.observers` / `raw.datasets` /
+  `raw.threatenedSpecies` ne subsiste dans les deux pages.
+- **« au moins » et pas « plus de »** : `facetAll` déclare une facette tronquée dès que sa dernière
+  page revient pleine, ce qui laisse le cas où le total vaut exactement le plafond. Le plancher est
+  sûr, le dépassement ne l'est pas.
+- JSON-LD : `minValue` au lieu de `value` sur les observateurs tronqués, comme les espèces le font
+  depuis le 02/08. Prose, chapeau, meta description, graphe par groupe, tuile « Jeux de données » et
+  titre « espèces menacées » passent tous par l'accesseur, **dans les deux locales et avec les mêmes
+  nombres**.
+- Collecteur : `datasetsTruncated` et `threatenedSpeciesTruncated` écrits ; les budgets de pages de
+  chaque facette vivent désormais dans **une seule table** (`FLOOR_FIELDS` + `GROUP_FACET_PAGES`),
+  lue par les points d'appel *et* par le contrôle — sans quoi les deux dérivent.
+- Garde-fous : `floorViolations()`, fonction pure qui trouve un compte ayant épuisé **tout** le budget
+  de pages de sa facette sans porter son drapeau. `biodiversity:stats` la passe sur le corpus et
+  **nomme** désormais chaque compte plafonné (27 espèces, 101 observateurs, 12 insectes) au lieu du
+  seul décompte d'espèces ; `biodiversity:selftest` monte de 43 à **54 contrôles**, dont un qui relit
+  la source du collecteur et échoue s'il cesse d'écrire l'un des quatre drapeaux.
+- ⚠️ **La première version du contrôle était trop large et a accusé deux villes à tort** — elle
+  signalait tout multiple de 1 000, donc `saint-gaudens` (1 000 plantes) et `stains` (4 000 espèces).
+  Faux tous les deux : il restait des pages à demander dans les deux cas, donc la facette n'a pas été
+  coupée, elle s'est arrêtée d'elle-même. Un compte n'est un plafond que s'il vaut le budget **entier**.
+  Le contrôle resserré ne remonte plus rien sur les 540, et le cas est épinglé dans le selftest.
+
+**Vérifications.** `npx tsc --noEmit` propre, `npm run integrity` propre (540 villes, 1 090 guides FR,
+864 EN), `biodiversity:selftest` 54/54, `biodiversity:stats` sans violation, `eslint` sur les quatre
+fichiers touchés : aucune erreur nouvelle (les 2 de la page EN préexistent, `API's` et `species'`).
+Rendu vérifié en `next dev` sur **Aubervilliers** (observateurs plafonnés) et **Montreuil**
+(observateurs *et* insectes plafonnés) : « au moins 2 000 naturalistes », « Insectes 3 000+ »,
+`"minValue":2000` en JSON-LD, note du graphe conservée. ⚠️ La jumelle EN **n'a pas pu être rendue** :
+en `next dev`, les sous-pages ville EN répondent 404 — y compris `/en/cities/lyon/climate`, en ligne
+depuis des mois — donc ce n'est pas ce changement ; elle est vérifiée par équivalence de source (même
+`raw`, même `countWithFloor`, aucun accès brut résiduel) et par `tsc`. `npm run build` volontairement
+non lancé (interdit depuis une routine) ; `.next` effacé en fin de run.
+
+**Ce qui n'est toujours pas couvert.** Rien de ce que le 03/09 attendait n'est arrivé, faute de
+collecte : les 540 lignes portent encore `reptiles: 0` et les pages EN listent encore des noms latins
+— elles ne les présentent simplement plus comme des mesures. `overall` reste `null` sur les 540 et
+**une seule composante porte encore une note, les zones protégées** ; les deux autres attendent un
+recrawl (richesse : agrégation par `datasetKey` ; espaces verts : découpe sur la limite communale).
+`/classements/biodiversite` reste abandonné. Et le point à vérifier en priorité au prochain run reste
+le même qu'au 24/08 : **la date des lignes**, pas leur nombre — trois JSON pleins ne disent rien de la
+santé du collecteur.
 
 #### Point d'étape 2026-09-03 — deux zéros silencieux : aucun reptile nulle part, aucun nom d'espèce en anglais
 

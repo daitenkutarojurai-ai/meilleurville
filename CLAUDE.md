@@ -2588,6 +2588,31 @@ Demande utilisateur. Spec complète dans `ROADMAP.md` § « Vague 7 ».
     lien de fiche n'est affiché. Pour le rebrancher un jour, la BD TOPO porte le code MNHN dans
     `identifiants_sources`.
 
+  - **État au 2026-09-07 — un plafond de pagination publié comme une mesure sur 101 villes, et un
+    collecteur muet depuis dix jours.** Aucune collecte depuis le **28/08** : `data/city-biodiversity.json`
+    est inchangé au bit près, donc les 540 lignes sont encore en `queryVersion` 2 et **les deux
+    correctifs du 03/09 (reptiles, noms anglais) n'ont atteint aucun lecteur**. ⚠️ **Le contrôle à
+    faire en premier est la date des lignes, jamais leur nombre** : trois JSON pleins à 540/540 ne
+    disent rien de la santé du collecteur. Le run a traité le dernier champ jamais recompté, les
+    **comptes que la pagination plafonne** : la facette `recordedBy` tient sur deux pages de mille,
+    donc **101 villes** valent `observers: 2000` **exactement** (la plus haute valeur non tronquée du
+    corpus est 1 992) et publiaient ce plafond comme un décompte — « déposées par 2 000 naturalistes »
+    dans le chapeau et `value: 2000` en JSON-LD, pendant que le tableau de chiffres de la même page
+    affichait « 2 000+ », dans les deux locales, sur 202 pages. Même chose sur les **12 villes** dont
+    les insectes sont coupés à 3 000, c'est-à-dire le groupe qui tient la plus longue barre du graphe.
+    Et deux drapeaux (`datasetsTruncated`, `threatenedSpeciesTruncated`) étaient **calculés puis
+    jetés** par le collecteur — latent, aucune ligne n'approche ces plafonds, mais muet le jour où
+    l'une les atteindrait. Livré : **`countWithFloor(row, field)`**, seul accès autorisé aux quatre
+    comptes plafonnables depuis une surface (même règle que `groupSpecies()` — lire `raw.observers`
+    fait republier le plafond), `groupSpeciesIsFloor()` pour le graphe, `minValue` en JSON-LD, les
+    budgets de pages de chaque facette réunis dans **une seule table** lue par la collecte *et* par le
+    contrôle, `floorViolations()` passée sur le corpus par `biodiversity:stats` (qui **nomme**
+    désormais les comptes plafonnés) et `biodiversity:selftest` de 43 à **54 contrôles**. ⚠️ Le
+    « au moins » se dit **au moins** et pas « plus de » : une facette est déclarée tronquée dès que sa
+    dernière page revient pleine, donc le total peut valoir exactement le plafond. ⚠️ Et un compte
+    n'est un plafond que s'il a épuisé le budget **entier** de sa facette : la première version du
+    contrôle signalait tout multiple de 1 000 et accusait à tort `saint-gaudens` (1 000 plantes) et
+    `stains` (4 000 espèces), qui avaient encore des pages à demander.
   - **État au 2026-09-03 — deux zéros silencieux, trouvés en recomptant les champs que personne
     n'avait jamais relus.** Aucune collecte (les trois JSON sont pleins), et le collecteur GBIF
     n'avait plus rien à faire depuis le 08/08 : `crawlBatch` ne servait que les villes **absentes**

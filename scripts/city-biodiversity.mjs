@@ -86,6 +86,7 @@
  * @unverified below before launching a 540-city batch.
  */
 import fs from "node:fs/promises";
+import fsSync from "node:fs";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
@@ -586,9 +587,9 @@ async function crawlOne(city, { verbose = false } = {}) {
   // 2. Effort. Distinct observers is the honest denominator: `recordedBy` is
   //    free text and therefore noisy (spelling variants inflate it), which is
   //    why it gates measurability rather than dividing anything.
-  const observers = await facetAll(city, "recordedBy", [], 2);
+  const observers = await facetAll(city, "recordedBy", [], facetPages("observers"));
   await sleep(MIN_SLEEP_MS);
-  const datasets = await facetAll(city, "datasetKey", [], 2);
+  const datasets = await facetAll(city, "datasetKey", [], facetPages("datasets"));
   await sleep(MIN_SLEEP_MS);
   say(`observers ${observers.counts.length}${observers.truncated ? "+" : ""}, datasets ${datasets.counts.length}`);
 
@@ -609,7 +610,7 @@ async function crawlOne(city, { verbose = false } = {}) {
       say(`group ${g.id} unresolved: ${err.message}`);
       continue;
     }
-    const r = await facetAll(city, "speciesKey", params, 3);
+    const r = await facetAll(city, "speciesKey", params, GROUP_FACET_PAGES);
     groups[g.id] = r.counts.length;
     if (r.truncated) groupsTruncated.push(g.id);
     await sleep(MIN_SLEEP_MS);
@@ -618,7 +619,7 @@ async function crawlOne(city, { verbose = false } = {}) {
 
   // 4. Globally threatened species (IUCN VU/EN/CR).
   const threatenedParams = THREATENED.map((c) => ["iucnRedListCategory", c]);
-  const threatened = await facetAll(city, "speciesKey", threatenedParams, 2);
+  const threatened = await facetAll(city, "speciesKey", threatenedParams, facetPages("threatenedSpecies"));
   await sleep(MIN_SLEEP_MS);
   say(`threatened species ${threatened.counts.length}`);
 
@@ -645,6 +646,10 @@ async function crawlOne(city, { verbose = false } = {}) {
     observers: observers.counts.length,
     observersTruncated: observers.truncated,
     datasets: datasets.counts.length,
+    // Ces deux drapeaux étaient calculés puis jetés : un plafond atteint serait
+    // parti sur les pages comme un total, sans que rien ne puisse le voir — la
+    // classe de défaut qui a mis 2 000 naturalistes sur 101 villes.
+    datasetsTruncated: datasets.truncated,
     species: species.counts.length,
     speciesTruncated: species.truncated,
     // null when the city has fewer than RAREFY_N observations, or when a
@@ -661,6 +666,7 @@ async function crawlOne(city, { verbose = false } = {}) {
     // and the surfaces must say "not measured" rather than skip the row.
     groupsUnresolved,
     threatenedSpecies: threatened.counts.length,
+    threatenedSpeciesTruncated: threatened.truncated,
     topSpecies: top,
     accessedAt: new Date().toISOString(),
   };
@@ -843,6 +849,67 @@ async function backfillVernacular() {
   }
 }
 
+/**
+ * Les comptes qu'un plafond de pagination peut couper : le drapeau qui le dit,
+ * et le budget de pages de la facette qui les produit. Chaque paire doit
+ * exister — un compte sans drapeau part sur les pages comme un total, et
+ * personne ne peut le voir. C'est ce qui a mis « 2 000 naturalistes » sur 101
+ * villes jusqu'au 2026-09-07, pendant que le tableau de chiffres de la même page
+ * affichait « 2 000+ » deux écrans plus bas.
+ *
+ * Le budget est ici et **pas au point d'appel** : c'est la seule façon que le
+ * contrôle ne dérive pas de la collecte le jour où l'un des deux bouge.
+ */
+const FLOOR_FIELDS = [
+  ["species", "speciesTruncated", () => FACET_PAGES],
+  ["observers", "observersTruncated", () => 2],
+  ["datasets", "datasetsTruncated", () => 2],
+  ["threatenedSpecies", "threatenedSpeciesTruncated", () => 2],
+];
+/** Budget de pages de la facette d'un grand groupe. */
+const GROUP_FACET_PAGES = 3;
+
+/** Budget de pages d'une facette, lu dans `FLOOR_FIELDS` par le collecteur
+ *  comme par le contrôle — une seule définition, donc pas de dérive. */
+function facetPages(field) {
+  const row = FLOOR_FIELDS.find(([c]) => c === field);
+  if (!row) throw new Error(`no facet budget for "${field}"`);
+  return row[2]();
+}
+
+/**
+ * Lignes dont un compte a **épuisé tout le budget de pages** de sa facette sans
+ * porter son drapeau de troncature — donc un plafond publié comme un total.
+ *
+ * Le test porte sur `pages × FACET_LIMIT` et non sur un multiple quelconque de
+ * `FACET_LIMIT` : un compte peut légitimement tomber pile sur un millier tant
+ * qu'il restait des pages à demander, et la version large de ce contrôle
+ * accusait à tort saint-gaudens (1 000 plantes pour 3 pages disponibles) et
+ * stains (4 000 espèces pour 6). Un compte qui vaut exactement le budget entier,
+ * lui, ne peut pas être un hasard de plus d'une chance sur mille et se sait :
+ * `facetAll` n'a plus rien pu demander.
+ *
+ * ⚠️ Une ligne rejouée avec `--facet-pages` relevé a un autre budget : le
+ * contrôle la lira contre celui d'aujourd'hui. Il alerte, il ne bloque pas.
+ *
+ * Fonction pure : `selftest` l'exerce hors ligne, `stats` la passe sur le corpus.
+ */
+function floorViolations(rows, limit = FACET_LIMIT) {
+  const out = [];
+  for (const [slug, row] of Object.entries(rows)) {
+    for (const [count, flag, pages] of FLOOR_FIELDS) {
+      const v = row?.[count];
+      if (typeof v !== "number" || v === 0 || v !== pages() * limit) continue;
+      if (row[flag] !== true) out.push({ slug, field: count, value: v });
+    }
+    for (const [g, v] of Object.entries(row?.groups ?? {})) {
+      if (typeof v !== "number" || v === 0 || v !== GROUP_FACET_PAGES * limit) continue;
+      if (!(row.groupsTruncated ?? []).includes(g)) out.push({ slug, field: `groups.${g}`, value: v });
+    }
+  }
+  return out;
+}
+
 async function showStats() {
   const seed = await loadSeed();
   const current = (await readJson(OUT_JSON, {})) ?? {};
@@ -851,7 +918,21 @@ async function showStats() {
   log(`covered ${rows.length}/${seed.length} cities`);
   log(`  measurable (≥ ${RAREFY_N} observations): ${measurable}`);
   log(`  below the effort floor: ${rows.length - measurable}`);
-  log(`  species-facet truncated: ${rows.filter((r) => r.speciesTruncated).length}`);
+  // Nommer les comptes plafonnés, pas seulement celui des espèces : chacun de
+  // ces chiffres est publié tel quel sur la page ville et sa jumelle EN, et un
+  // plafond publié comme un total est un mensonge silencieux.
+  for (const [count, flag] of FLOOR_FIELDS) {
+    const n = rows.filter((r) => r[flag] === true).length;
+    if (n) log(`  "${count}" facet truncated (published as a floor): ${n}`);
+  }
+  const gTrunc = rows.flatMap((r) => r.groupsTruncated ?? []);
+  for (const g of new Set(gTrunc)) {
+    log(`  group "${g}" truncated (published as a floor): ${gTrunc.filter((x) => x === g).length}`);
+  }
+  const viol = floorViolations(current);
+  for (const v of viol) {
+    log(`  ⚠️  ${v.slug}: ${v.field} = ${v.value} sits on a facet-page boundary with no truncation flag`);
+  }
   // Named per locale, because a hole on one side only is exactly how the EN
   // pages spent a month listing Latin names without anything complaining.
   const all = rows.flatMap((r) => r.topSpecies ?? []);
@@ -920,6 +1001,38 @@ function selftest() {
   check("null payload → null", pickFacet(null, "speciesKey") === null);
   check("present but empty facet → []",
     pickFacet({ facets: [{ field: "SPECIES_KEY", counts: [] }] }, "speciesKey")?.length === 0);
+
+  log("floorViolations");
+  // Le défaut visé (2026-09-07) : un compte arrêté par la pagination publié
+  // comme un total. Le drapeau existe, il n'était simplement pas lu — et pour
+  // `datasets` / `threatenedSpecies` il n'était même pas écrit.
+  const capped = { paris: { observers: 2000, observersTruncated: true, groups: {}, groupsTruncated: [] } };
+  const lying = { paris: { observers: 2000, observersTruncated: false, groups: {}, groupsTruncated: [] } };
+  check("a flagged cap is not a violation", floorViolations(capped).length === 0);
+  check("a cap with no flag is one", floorViolations(lying).length === 1);
+  check("  …and names the field", floorViolations(lying)[0].field === "observers");
+  check("a count away from the boundary is fine",
+    floorViolations({ a: { observers: 1992, observersTruncated: false, groups: {}, groupsTruncated: [] } }).length === 0);
+  check("zero is not a truncation",
+    floorViolations({ a: { species: 0, speciesTruncated: false, groups: {}, groupsTruncated: [] } }).length === 0);
+  check("a truncated group needs its entry in groupsTruncated",
+    floorViolations({ a: { groups: { insects: 3000 }, groupsTruncated: [] } }).length === 1);
+  check("  …and is clean when it has it",
+    floorViolations({ a: { groups: { insects: 3000 }, groupsTruncated: ["insects"] } }).length === 0);
+  check("a null group count is not a violation",
+    floorViolations({ a: { groups: { reptiles: null }, groupsTruncated: [] } }).length === 0);
+  check("the four capped counts all have a flag paired",
+    FLOOR_FIELDS.length === 4 && FLOOR_FIELDS.every(([c, f]) => f === `${c}Truncated`));
+  // Le contrôle large accusait deux villes à tort : un compte peut tomber pile
+  // sur un millier tant qu'il restait des pages à demander.
+  check("a round count with pages left is not a violation",
+    floorViolations({ a: { species: 4000, speciesTruncated: false, groups: { plants: 1000 }, groupsTruncated: [] } }).length === 0);
+  // Le collecteur doit écrire les quatre drapeaux : deux étaient calculés puis
+  // jetés, et un plafond atteint serait parti muet sur 540 pages.
+  const src = fsSync.readFileSync(new URL(import.meta.url), "utf8");
+  check("the collector writes every truncation flag it can compute",
+    FLOOR_FIELDS.every(([, f]) => new RegExp(`^\\s+${f}:`, "m").test(src)),
+    FLOOR_FIELDS.filter(([, f]) => !new RegExp(`^\\s+${f}:`, "m").test(src)).map(([, f]) => f).join(", "));
 
   log("pickVernacular");
   // The bug this pins (2026-09-03): the English name was read from the species

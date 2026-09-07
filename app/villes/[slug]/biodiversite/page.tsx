@@ -29,7 +29,9 @@ import {
   speciesName,
   GROUP_ORDER,
   groupSpecies,
+  groupSpeciesIsFloor,
   unmeasuredGroups,
+  countWithFloor,
   MIN_OCCURRENCES,
   MIN_OBSERVERS,
   PROTECTION_KIND_COUNT,
@@ -99,16 +101,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const sources = `Données GBIF${areas ? " et IGN" : ""}.`;
   // Même « au moins » que dans le corps de page : sur les 27 villes dont la
   // pagination a coupé la liste d'espèces, l'effectif est un plancher.
-  const species = raw.speciesTruncated
-    ? `Au moins ${raw.species.toLocaleString("fr-FR")}`
-    : raw.species.toLocaleString("fr-FR");
+  const speciesCount = countWithFloor(raw, "species");
+  const species = speciesCount.floor
+    ? `Au moins ${speciesCount.value.toLocaleString("fr-FR")}`
+    : speciesCount.value.toLocaleString("fr-FR");
+  // Même règle sur les observateurs : sur 101 villes, la facette a été coupée à
+  // 2 000 et le nombre est un plancher.
+  const observersCount = countWithFloor(raw, "observers");
+  const observersMeta = `${observersCount.floor ? "au moins " : ""}${observersCount.value.toLocaleString("fr-FR")}`;
   const head = richness
     ? `${species} espèces autour ${deVilleStr(city.name)}, sur ${raw.occurrences.toLocaleString("fr-FR")} observations. Richesse à effort d'observation égal : ${richness.score}/10.`
     : richnessPending === "incomparable" || richnessPending === "calibration"
       ? `${species} espèces autour ${deVilleStr(city.name)}, sur ${raw.occurrences.toLocaleString("fr-FR")} observations.`
       : richnessPending === "precision"
         ? `Autour ${deVilleStr(city.name)}, la richesse relevée est trop imprécise pour un rang : notre collecte a coupé la liste d'espèces.`
-        : `Autour ${deVilleStr(city.name)}, trop peu d'observations pour un score : ${raw.occurrences.toLocaleString("fr-FR")} observations, ${raw.observers} observateurs.`;
+        : `Autour ${deVilleStr(city.name)}, trop peu d'observations pour un score : ${raw.occurrences.toLocaleString("fr-FR")} observations, ${observersMeta} observateurs.`;
   // Garde de longueur : la clause de protection saute plutôt que de faire
   // couper la description en SERP. Mesuré, aucune des 540 ne l'atteint (147 au
   // pire) — elle couvre les branches rares et les noms qui s'allongeraient.
@@ -272,6 +279,24 @@ export default async function BiodiversitePage({ params }: Props) {
     ? `Au moins ${nb(raw.species)}`
     : nb(raw.species);
 
+  // Le même plafond coupe la facette des observateurs, sur **101** villes cette
+  // fois, et il était publié comme une mesure : « déposées par 2 000
+  // naturalistes » dans la prose, `value: 2000` en JSON-LD, pendant que le
+  // tableau de chiffres de la même page écrivait « 2 000+ ». La plus haute
+  // valeur non tronquée du corpus est 1 992 — 2 000 est le plafond, pas un
+  // décompte. Corrigé le 2026-09-07.
+  //
+  // « au moins » et pas « plus de » : la facette est déclarée tronquée dès que
+  // sa dernière page est pleine, ce qui laisse le cas où le total vaut
+  // exactement le plafond. Le plancher est sûr, le dépassement ne l'est pas.
+  const observers = countWithFloor(raw, "observers");
+  const observersPhrase = observers.floor ? `au moins ${nb(observers.value)}` : nb(observers.value);
+  // Deux comptes de plus passent par le même accesseur, moins par nécessité
+  // actuelle (aucune ligne n'approche leur plafond : 834 et 101 pour 2 000) que
+  // pour que le jour où l'une l'atteindra, la page le dise toute seule.
+  const datasets = countWithFloor(raw, "datasets");
+  const threatened = countWithFloor(raw, "threatenedSpecies");
+
   // Quatre états à distinguer, et deux seulement se disent « non mesuré » : la
   // commune pas encore ingérée, et la commune ingérée hors du périmètre des
   // couches (outre-mer sur une passe continentale). Une commune ingérée sans
@@ -349,9 +374,16 @@ export default async function BiodiversitePage({ params }: Props) {
   // `null` et doit s'afficher comme tel. Le filtre `count > 0` d'avant faisait
   // disparaître la ligne reptiles, qui valait 0 par un bug de requête — sur
   // trois villes le graphe contredisait la liste d'espèces juste en dessous.
-  const groups = GROUP_ORDER.map((g) => ({ id: g, count: groupSpecies(raw, g) })).filter(
-    (g) => g.count === null || g.count > 0,
-  );
+  // Un groupe plafonné par la pagination porte son « au moins » sur le nombre
+  // lui-même, pas seulement dans la note sous le graphe : sur les 12 villes
+  // concernées, c'est le groupe le plus riche (les insectes, coupés à 3 000) qui
+  // est tronqué, donc celui qui tient la barre la plus longue — le lire comme un
+  // total fait croire à un maximum atteint.
+  const groups = GROUP_ORDER.map((g) => ({
+    id: g,
+    count: groupSpecies(raw, g),
+    floor: groupSpeciesIsFloor(raw, g),
+  })).filter((g) => g.count === null || g.count > 0);
   const groupMax = Math.max(1, ...groups.map((g) => g.count ?? 0));
   const unmeasured = unmeasuredGroups(raw);
 
@@ -391,7 +423,9 @@ export default async function BiodiversitePage({ params }: Props) {
         ? { "@type": "PropertyValue", name: "Espèces distinctes recensées", minValue: raw.species }
         : { "@type": "PropertyValue", name: "Espèces distinctes recensées", value: raw.species },
       { "@type": "PropertyValue", name: "Observations", value: raw.occurrences },
-      { "@type": "PropertyValue", name: "Observateurs distincts", value: raw.observers },
+      observers.floor
+        ? { "@type": "PropertyValue", name: "Observateurs distincts", minValue: observers.value }
+        : { "@type": "PropertyValue", name: "Observateurs distincts", value: observers.value },
       ...(richness
         ? [
             {
@@ -440,7 +474,7 @@ export default async function BiodiversitePage({ params }: Props) {
                 {speciesPhraseCap} espèces ont été recensées dans un rayon de{" "}
                 {raw.radiusKm} km depuis {raw.yearFrom}, sur{" "}
                 {raw.occurrences.toLocaleString("fr-FR")} observations déposées par{" "}
-                {raw.observers.toLocaleString("fr-FR")} naturalistes. Le score ci-dessous ramène
+                {observersPhrase} naturalistes. Le score ci-dessous ramène
                 cette richesse à effort d&apos;observation égal — sans quoi on classerait les villes
                 par nombre de naturalistes, pas par nature.
               </>
@@ -449,7 +483,7 @@ export default async function BiodiversitePage({ params }: Props) {
                 {speciesPhraseCap} espèces ont été recensées dans un rayon de{" "}
                 {raw.radiusKm} km depuis {raw.yearFrom}, sur{" "}
                 {raw.occurrences.toLocaleString("fr-FR")} observations déposées par{" "}
-                {raw.observers.toLocaleString("fr-FR")} naturalistes. Ces chiffres sont ce qui a été{" "}
+                {observersPhrase} naturalistes. Ces chiffres sont ce qui a été{" "}
                 <strong>observé et saisi</strong> ici. Nous n&apos;en tirons plus de note sur 10 :
                 le classement que nous en faisions mesurait le type de programme de saisie qui
                 opère autour de la ville, pas ce qui y vit. Le détail est en bas de page.
@@ -464,11 +498,12 @@ export default async function BiodiversitePage({ params }: Props) {
             ) : richnessPending === "precision" ? (
               <>
                 {raw.occurrences.toLocaleString("fr-FR")} observations ont été déposées ici par{" "}
-                {raw.observers.toLocaleString("fr-FR")} naturalistes — largement de quoi mesurer. Ce
+                {observersPhrase} naturalistes — largement de quoi mesurer. Ce
                 qui manque vient de <strong>notre</strong> côté : la liste d&apos;espèces renvoyée
                 par GBIF a été coupée avant la fin, si bien que la richesse n&apos;est
                 qu&apos;encadrée. Nous préférons ne pas classer la ville sur un intervalle aussi
-                large. Les effectifs, eux, sont exacts et affichés plus bas.
+                large. Les effectifs bruts sont affichés plus bas, chacun avec son plafond quand
+                la pagination l&apos;a coupé.
               </>
             ) : (
               <>
@@ -572,7 +607,7 @@ export default async function BiodiversitePage({ params }: Props) {
               <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
                 Le relevé {deVilleStr(city.name)} est solide :{" "}
                 <strong>{raw.occurrences.toLocaleString("fr-FR")} observations</strong> par{" "}
-                <strong>{raw.observers.toLocaleString("fr-FR")}</strong> naturalistes, et{" "}
+                <strong>{observersPhrase}</strong> naturalistes, et{" "}
                 <strong>{raw.rarefied?.toLocaleString("fr-FR")} espèces</strong> attendues pour{" "}
                 {raw.rarefiedN} observations. Mais notre note sur 10 est un rang : elle dit « mieux
                 que N&nbsp;% des autres villes », et seules{" "}
@@ -610,7 +645,7 @@ export default async function BiodiversitePage({ params }: Props) {
                 Il faut au moins {MIN_OCCURRENCES} observations et {MIN_OBSERVERS} observateurs
                 distincts pour qu&apos;un chiffre de richesse veuille dire quelque chose. Ici :{" "}
                 <strong>{raw.occurrences.toLocaleString("fr-FR")} observations</strong> déposées par{" "}
-                <strong>{raw.observers}</strong> personnes. En dessous, le nombre d&apos;espèces
+                <strong>{observersPhrase}</strong> personnes. En dessous, le nombre d&apos;espèces
                 mesure surtout combien de naturalistes sont passés, et ce que ces personnes-là
                 regardent. Nous préférons le dire plutôt que de combler avec une moyenne
                 départementale.
@@ -836,7 +871,7 @@ export default async function BiodiversitePage({ params }: Props) {
                         non mesuré
                       </span>
                     ) : (
-                      g.count.toLocaleString("fr-FR")
+                      `${nb(g.count)}${g.floor ? "+" : ""}`
                     )}
                   </div>
                 </div>
@@ -904,12 +939,13 @@ export default async function BiodiversitePage({ params }: Props) {
       )}
 
       {/* ── Espèces menacées ───────────────────────────────────────────── */}
-      {raw.threatenedSpecies > 0 && (
+      {threatened.value > 0 && (
         <section className="relative pb-8">
           <div className="mx-auto max-w-5xl px-4 sm:px-6">
             <div className="rounded-2xl glass border border-white/50 p-5 shadow-sm">
               <div className="text-sm font-semibold text-[var(--text-primary)] mb-1">
-                ⚠️ {raw.threatenedSpecies} espèces menacées observées dans le secteur
+                ⚠️ {threatened.floor ? "Au moins " : ""}{nb(threatened.value)} espèces menacées
+                observées dans le secteur
               </div>
               <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
                 Classées vulnérable, en danger ou en danger critique sur la liste rouge{" "}
@@ -935,13 +971,16 @@ export default async function BiodiversitePage({ params }: Props) {
               { label: "Observations", value: raw.occurrences.toLocaleString("fr-FR") },
               {
                 label: "Observateurs",
-                value: `${raw.observers.toLocaleString("fr-FR")}${raw.observersTruncated ? "+" : ""}`,
+                value: `${nb(observers.value)}${observers.floor ? "+" : ""}`,
               },
               {
                 label: "Espèces distinctes",
                 value: `${raw.species.toLocaleString("fr-FR")}${raw.speciesTruncated ? "+" : ""}`,
               },
-              { label: "Jeux de données", value: raw.datasets.toLocaleString("fr-FR") },
+              {
+                label: "Jeux de données",
+                value: `${nb(datasets.value)}${datasets.floor ? "+" : ""}`,
+              },
             ].map((s) => (
               <div key={s.label} className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
                 <div className="text-xs text-[var(--text-tertiary)] mb-1">{s.label}</div>
