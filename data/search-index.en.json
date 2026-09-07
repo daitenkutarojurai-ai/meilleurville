@@ -7512,6 +7512,56 @@
       "slug": "single-parent-in-sens-2026",
       "title": "Single parent in Sens (2026): no axis under 6.4, the second flattest profile in the top 20",
       "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-alencon-2026",
+      "title": "Single parent in Alençon (2026): the best rent-to-schools ratio of the 363 ranked towns",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-brive-la-gaillarde-2026",
+      "title": "Single parent in Brive-la-Gaillarde (2026): the most even profile of the 363 ranked towns",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-etampes-2026",
+      "title": "Single parent in Étampes (2026): second in the Paris region, and the only town of the batch that is growing",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-vichy-2026",
+      "title": "Single parent in Vichy (2026): €97 a point of schooling, and 41.5 per cent of residents aged 60 and over",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-beaune-2026",
+      "title": "Single parent in Beaune (2026): 8.1/10 of safety, and the hardest cost of the ten towns in the batch",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-dieppe-2026",
+      "title": "Single parent in Dieppe (2026): first in Seine-Maritime, and 0.8 of a point of spread",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-dreux-2026",
+      "title": "Single parent in Dreux (2026): first in Centre-Val de Loire, ahead of Tours and Orléans",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-laval-2026",
+      "title": "Single parent in Laval (2026): €100 a point of schooling, and five towns of its region ahead of it",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-roanne-2026",
+      "title": "Single parent in Roanne (2026): first in the Loire, and €97,500 for 65 square metres",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-saint-quentin-2026",
+      "title": "Single parent in Saint-Quentin (2026): the best budget of the Aisne, the two weak axes of the trio",
+      "emoji": "🧑‍🍼"
     }
   ],
   "tags": [
@@ -7528,17 +7578,17 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 151
+      "count": 161
     },
     {
       "slug": "single-parent-in-france",
       "label": "single parent in france",
-      "count": 98
+      "count": 108
     },
     {
       "slug": "expat-single-parent",
       "label": "expat single parent",
-      "count": 76
+      "count": 86
     },
     {
       "slug": "buying-property-france",
@@ -7548,7 +7598,7 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 53
+      "count": 54
     },
     {
       "slug": "real-estate",
@@ -7563,7 +7613,7 @@
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 45
+      "count": 47
     },
     {
       "slug": "grand-est",
@@ -7573,7 +7623,12 @@
     {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 38
+      "count": 39
+    },
+    {
+      "slug": "pays-de-la-loire",
+      "label": "pays de la loire",
+      "count": 34
     },
     {
       "slug": "working-in-france",
@@ -7581,14 +7636,9 @@
       "count": 34
     },
     {
-      "slug": "pays-de-la-loire",
-      "label": "pays de la loire",
-      "count": 33
-    },
-    {
       "slug": "ile-de-france",
       "label": "ile de france",
-      "count": 32
+      "count": 33
     },
     {
       "slug": "job-market-france",
@@ -7616,14 +7666,14 @@
       "count": 27
     },
     {
-      "slug": "provence-alpes-cote-d-azur",
-      "label": "provence-alpes-cote-d-azur",
+      "slug": "normandy",
+      "label": "normandy",
       "count": 27
     },
     {
-      "slug": "normandy",
-      "label": "normandy",
-      "count": 25
+      "slug": "provence-alpes-cote-d-azur",
+      "label": "provence-alpes-cote-d-azur",
+      "count": 27
     },
     {
       "slug": "international-students",
@@ -7671,19 +7721,19 @@
       "count": 21
     },
     {
+      "slug": "bourgogne-franche-comte",
+      "label": "bourgogne-franche-comte",
+      "count": 19
+    },
+    {
       "slug": "relocation",
       "label": "relocation",
       "count": 19
     },
     {
-      "slug": "bourgogne-franche-comte",
-      "label": "bourgogne-franche-comte",
-      "count": 18
-    },
-    {
       "slug": "centre-val-de-loire",
       "label": "centre-val de loire",
-      "count": 17
+      "count": 18
     },
     {
       "slug": "cost-of-living",

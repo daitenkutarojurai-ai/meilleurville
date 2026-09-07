@@ -5080,6 +5080,87 @@ tableau de bord, une route par run, sortie du contrôle collée dans chaque mess
 
 ---
 
+## Shipped 2026-09-07
+
+- **Parité EN — `single-parent-in-[city]-2026` batch 9 (+10 : Alençon, Brive-la-Gaillarde,
+  Étampes, Vichy, Beaune, Dieppe, Dreux, Laval, Roanne, Saint-Quentin), et douze rangs publiés
+  à l'intérieur d'une égalité corrigés des deux côtés.** Les 10 jumelles du batch 9 FR du 06/09
+  écrites d'un coup dans `data/guides-en.ts`. **Compteurs mesurés : FR 85, EN 85 — écart nul,
+  parité rétablie** (`EN_GUIDES` 854 → 864), onzième réouverture refermée. `metaTitle` 44-54,
+  `metaDesc` 136-154, 6 sections par guide comme la série des deux côtés, 0 à 3 em-dashes pour
+  ~1 600 mots (cible R7.10 : 1 pour 200 mots — on est à 1 pour 546 au plus dense). Les 10 guides
+  sont vérifiés **retrouvés par `getEnGuide()` depuis le slug de seed** et **pourvus de leur photo
+  d'en-tête** (`guideCityPhoto`). Aucun tag neuf : les 10 réutilisent `normandy`,
+  `nouvelle-aquitaine`, `ile-de-france`, `auvergne-rhone-alpes`, `bourgogne-franche-comte`,
+  `centre-val-de-loire`, `pays-de-la-loire`, `hauts-de-france` — `search-index.en.json` reste à
+  **114 tags**, donc aucune page `/tags/` créée.
+- ⚠️ **Le fait du run est une correction, et elle porte sur la convention d'ex æquo que le site
+  s'impose ailleurs.** Toutes les valeurs du batch 9 FR ont été recalculées contre le vrai moteur
+  (`parentSoloFit` + `HOUSING` + `cityPopulation`, plancher `MIN_POP` à 20 000 → **363 éligibles**) :
+  fits, rangs, notes d'axes, T3/T2/T1, mètre carré, seuils, ratios, amplitudes, parts de 60 ans et
+  plus, listes régionales et départementales — **tout est juste**. Mais **douze rangs publiés dans
+  la prose tombent au milieu d'un palier d'ex æquo**, ce que `lib/owner-rankings.ts` interdit depuis
+  le 19/08 (« une égalité ne se coupe jamais en son milieu : on groupe par valeur »). Le cas le plus
+  net est le guide Laval, qui **cite la convention** puis publie trois phrases plus loin « dix-septième
+  loyer le moins cher des 363 » — un palier de six communes aux rangs 17-22. Détail mesuré :
+  T3 Vichy « huitième » (palier de 6 aux rangs 7-12), T3 Saint-Quentin « treizième » (palier de 4,
+  13-16), T3 Laval « dix-septième » (palier de 6, 17-22) ; m² Roanne « vingt-deuxième » et
+  Saint-Quentin « vingt-troisième » — **même palier de 14 communes à 1 500 €, rangs 21-34, deux rangs
+  différents pour le même prix** ; ratio loyer/écoles Brive « trente-quatrième » et Saint-Quentin
+  « trente-cinquième » — **valeur strictement identique (118,18 €), donc deux rangs publiés pour un
+  seul chiffre** ; ratio Dieppe « cinquantième » (palier 49-52), Beaune « quatre-vingt-dix-neuvième »
+  (palier 99-100), Dreux « cent deuxième » (palier 101-104), Étampes « cent quatorzième » (palier
+  114-118) ; amplitude Dieppe « onzième » (palier de 4, 11-14). Les douze sont réécrits **en FR et en
+  EN** sur la formulation que la série emploie déjà correctement ailleurs (Alençon, Vichy et Laval
+  sur le ratio) : on dit **combien de communes font mieux** et **on nomme le palier**, on ne publie
+  pas de rang dedans. Deux corrections de fond au passage : le ratio Roanne était donné comme
+  « partagé **exactement** avec Castres, Épinal et Aurillac » alors que seule Castres a la même
+  valeur au centième — les quatre ne partagent que le **chiffre publié** à l'euro, ce que la phrase
+  dit maintenant ; et le guide Alençon opposait « une préfecture de région contre une
+  **sous-préfecture** » alors qu'**Alençon est le chef-lieu de l'Orne**, donc une préfecture de
+  département.
+- ⚠️ **Ce qui n'a délibérément pas été touché, et pourquoi.** Le **rang général** (« trente-cinquième
+  des 363 ») tombe lui aussi dans des paliers d'ex æquo — `/parent-solo` trie par fit décroissant puis
+  par nom, et le nom est un ordre **stable, pas un départage**. Mais c'est la convention de la page de
+  classement elle-même et des **85 guides** de la série dans les deux locales : la corriger est un
+  chantier à part, pas un effet de bord d'un run de parité. À traiter comme un item propre, en
+  commençant par `app/parent-solo/page.tsx` et sa jumelle `app/[locale]/single-parent/page.tsx`.
+- ⚠️ **Trou de parité trouvé ce run, non corrigé, et c'est le meilleur candidat pour le prochain :
+  la page ville EN ne montre pas son guide.** `app/villes/[slug]/parent-solo/page.tsx` cherche
+  `parent-solo-a-${slug}-2026` et rend une carte « guide en vedette » (l. 64, 405-419) ;
+  `app/[locale]/cities/[slug]/single-parent/page.tsx` **ne fait aucun lookup** — les **85 guides EN
+  de la série n'ont pas de carte sur la page de leur propre ville**, en silence. Ils restent
+  atteignables par la recherche inverse `relatedCities` de `CityGuidesList`, donc ce n'est pas un
+  orphelin, mais c'est exactement le défaut que le batch tourisme 32 avait dû corriger côté FR.
+  Le correctif est entièrement dérivé de la page FR (un `getEnGuide()` + la même carte), il ne
+  demande aucune rédaction.
+- Contrôles : `npx tsc --noEmit` **propre**, `npm run integrity` (guides FR 1090, EN 854 → 864),
+  `search-index` + `search-index:check` (EN 864 guides, 114 tags inchangés), `sitemap:check`
+  (FR 29 185 URL, EN **28 756**, chaque URL déclarée a une page et réciproquement), `npm run parity`
+  (0 route FR sans jumelle), `npm run hreflang:check`, plus le contrôle de lookup / photo, un
+  contrôle d'encodage (aucun `m2` / `EUR` / `deg` ascii, aucun mojibake) et le contrôle de figures :
+  **1 310 chiffres du texte EN cherchés dans la jumelle FR, 1 298 retrouvés**. Les 12 restants sont
+  délibérés et le contrôle mécanique les remontera à chaque run : le seuil « **20 000** habitants »
+  du plancher d'éligibilité, que la série EN explicite depuis son batch 1 et que le FR laisse
+  implicite (10 occurrences), et **1940 / 1944** dans le guide Vichy. Ce dernier est la
+  désambiguïsation propre à l'angle anglophone que la série pratique depuis Orange (batch 37),
+  Vernon (39) et Bergerac (41) : pour un lecteur anglophone « Vichy » nomme d'abord le régime de
+  1940-1944, et l'intro pose la ville — une station thermale de l'Allier inscrite au patrimoine
+  mondial de l'UNESCO parmi les Grandes villes d'eaux d'Europe — avant toute autre phrase. Trois
+  autres désambiguïsations sans chiffre, même motif : **Laval (Mayenne) et non le Laval près de
+  Montréal**, **Saint-Quentin (Aisne) et non le mont Saint-Quentin de la Somme** des récits
+  anglophones de 1918 (le point de vigilance posé au batch tourisme 34), et **la Loire du
+  département de Saint-Étienne et non la vallée des châteaux**. Deux ajouts propres au lecteur
+  étranger : la **liaison transmanche Dieppe-Newhaven**, qui fait de Dieppe une des rares villes de
+  la série atteignable depuis l'Angleterre sans avion, et **Beaune posée comme la capitale du vin de
+  Bourgogne**, qui n'est pas décoratif ici puisque c'est le mécanisme même que le guide décrit —
+  un foncier valorisé sur une demande non locale face à des salaires de commune de 20 233 habitants.
+- `npm run build` **non lancé, volontairement** (cf. § Commands depuis le batch 27 : 4 h 30 de
+  génération, `.next` à 25 Go, ENOSPC avant la finalisation, aucun signal utile). Note
+  d'environnement reconfirmée : le conteneur de routine démarre **sans `node_modules`**.
+
+---
+
 ## Shipped 2026-09-05
 
 - **Données structurées des pages EN : le domaine était faux, et 18 sous-pages ville n'en avaient
