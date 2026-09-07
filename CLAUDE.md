@@ -1496,10 +1496,45 @@ Vaulx-en-Velin, Saint-Priest, Bron) et les trous listés aux batches 34 et 36 ci
 
 Page unique, données inline (`SECTIONS: {title, emoji, terms[]}`), `DefinedTermSet` JSON-LD généré
 depuis le tableau — ajouter un terme suffit, rien d'autre à câbler. **Compteur mesuré
-(`grep -c 'term: "'`) : 155 termes, 15 sections** (2026-08-28). ⚠️ Un terme ajouté oblige à
-remonter `GLOSSARY_TERMS_COUNT` (`lib/site-stats.ts`, 142 → 155 ce run) : `npm run integrity`
+(`grep -c 'term: "'`) : 169 termes, 16 sections** (2026-09-07). ⚠️ Un terme ajouté oblige à
+remonter `GLOSSARY_TERMS_COUNT` (`lib/site-stats.ts`, 155 → 169 ce run) : `npm run integrity`
 recompte la page et **échoue** sinon — le nombre est affiché sur `/outils`, `/recherche`, la carte
-OG et `StaticPageCrossLink`. Dernière section ajoutée : « Transports, voiture et stationnement » 🚉
+OG et `StaticPageCrossLink`. Dernière section ajoutée : « Emploi, chômage et mobilité
+professionnelle » 📈 — 14 termes (zone d'emploi, taux de chômage localisé vs recensement,
+catégories A/B/C, France Travail, contrat d'engagement, ARE, démission légitime pour suivi de
+conjoint, rupture conventionnelle, clause de mobilité, aide à la mobilité, télétravail par accord
+ou charte, conseil de prud'hommes compétent, zone FRR, portabilité de la mutuelle). C'était le trou
+béant de la page : sur 155 termes, **zéro** ne parlait de travail, alors que le site porte
+`/villes/[slug]/emploi`, la série close `travail-a-[ville]-2026` (30 guides), l'axe `remoteWork` du
+seed et `/copilot` — et qu'on change rarement de ville sans que le travail entre dans l'équation.
+Cinq points de méthode à ne pas diluer : ① **chaque entrée est retenue pour son arête géographique**,
+pas pour sa valeur RH générale — sans quoi la section aurait dupliqué n'importe quel glossaire de
+droit du travail ; ce qui la justifie ici est que le nombre change quand on franchit une limite
+communale, départementale ou régionale ; ② **l'entrée CFE n'a pas été créée**, alors qu'elle
+s'imposait pour la micro-entreprise : « Cotisation Foncière des Entreprises » existe déjà en
+section fiscalité locale **avec** l'angle freelance qui change de ville, donc la zone FRR y renvoie
+(« définie plus haut ») au lieu d'ouvrir un doublon — même précédent que l'homonymie APL et que le
+quotient familial CAF vs fiscal ; ③ le piège central du chapitre est nommé : **« taux de chômage »
+désigne deux mesures différentes**, le taux localisé (compatible BIT, trimestriel, qui s'arrête à la
+zone d'emploi) et le taux au sens du recensement (publié à la commune, notion déclarative moins
+restrictive, donc mécaniquement plus élevé) — un chiffre de chômage cité pour une commune est
+presque toujours le second, et c'est aussi ce qui explique que `lib/employment-market.ts` publie un
+*niveau* départemental et non un pourcentage communal ; ④ les chiffres cités sont tous
+réglementaires ou publiés et **vérifiés en ligne ce run** (306 zones d'emploi du zonage 2020, hors
+Mayotte et Guyane pour ce niveau de diffusion ; 78 h/mois entre catégories B et C, nomenclature Cnis
+de septembre 2008 ; loi du 18 décembre 2023 pour le plein emploi et bascule Pôle emploi → France
+Travail au 1ᵉʳ janvier 2024 ; contrat d'engagement au 1ᵉʳ janvier 2025, 15 à 20 h pour le RSA ; ARE
+minimale 32,13 €/jour, non revalorisée au 1ᵉʳ juillet 2026 faute de majorité au conseil
+d'administration de l'Unédic du 30 juin ; 15 jours calendaires de rétractation puis 15 jours
+ouvrables d'homologation ; arrêt du 18 décembre 2024 sur la clause de mobilité ; 60 km ou 2 h
+aller-retour, 20 km hors métropole, 0,23 €/km et 5 200 € sur 12 mois glissants pour l'aide à la
+mobilité ; articles L1222-9 et R1412-1 ; 17 700 communes FRR depuis le 1ᵉʳ juillet 2024, 13
+départements entiers, 2 200 sortantes maintenues par la LF 2025 ; portabilité 12 mois) — aucun
+barème d'assureur, aucun taux de CFE commune par commune, aucune moyenne inventée ; ⑤ **une
+exception géographique réelle est publiée plutôt que lissée** : Mayotte relève d'un règlement
+d'assurance chômage distinct dont l'allocation minimale journalière est de **16,05 €**, soit la
+moitié des 32,13 € du régime général — sur un site qui porte Mamoudzou au seed, écrire « l'ARE ne
+dépend pas du lieu » sans cette réserve aurait été faux. Section précédente : « Transports, voiture et stationnement » 🚉
 — 13 termes (AOM, versement mobilité, prise en charge à 50 % de l'abonnement, forfait mobilités
 durables, vignette Crit'Air, FPS, gratuité des réseaux, changement d'adresse sur la carte grise,
 CMI stationnement, barème kilométrique, stationnement vélo sécurisé en gare, aides à l'achat d'un

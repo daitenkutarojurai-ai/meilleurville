@@ -7,9 +7,9 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
-  title: "Glossaire immobilier, aides, école, santé & mobilité",
+  title: "Glossaire immobilier, école, santé, emploi & mobilité",
   description:
-    "DPE, TAEG, ZFE, Crit'Air, APL, MaPrimeRénov', carte scolaire, cat-nat, médecin traitant, FPS : les termes utiles pour s'installer quelque part en France.",
+    "DPE, TAEG, APL, carte scolaire, cat-nat, médecin traitant, zone d'emploi, ARE, clause de mobilité : les termes utiles pour s'installer quelque part en France.",
   alternates: pathAlternates("/glossaire", "/glossary"),
 };
 
@@ -727,6 +727,68 @@ const SECTIONS: Section[] = [
       },
     ],
   },
+  {
+    title: "Emploi, chômage et mobilité professionnelle",
+    emoji: "📈",
+    terms: [
+      {
+        term: "Zone d'emploi (Insee)",
+        def: "Espace à l'intérieur duquel la plupart des actifs résident et travaillent, découpé indépendamment des limites administratives : le zonage en vigueur, établi en 2020, compte 306 zones contre 321 auparavant. C'est le plus petit découpage sur lequel l'Insee diffuse un taux de chômage localisé, publié chaque trimestre par région, par département et par zone d'emploi ; ce niveau fin n'est pas produit pour Mayotte ni pour la Guyane. Autrement dit, il n'existe pas de taux de chômage trimestriel à la commune, et c'est la raison pour laquelle la sous-page emploi de ce site raisonne au département et publie un niveau plutôt qu'un pourcentage qu'elle ne pourrait pas sourcer.",
+      },
+      {
+        term: "Taux de chômage localisé et taux de chômage au sens du recensement",
+        def: "Deux nombres différents portent le même nom, et on les compare sans arrêt à tort. Le taux de chômage localisé est cohérent avec la définition du Bureau international du travail, calculé au niveau national puis décliné jusqu'à la zone d'emploi. Le recensement, lui, publie bien un taux à l'échelle communale, mais sa notion de chômage est déclarative et moins restrictive : les taux qui en sortent sont mécaniquement plus élevés. Un chiffre de chômage cité pour une commune est donc presque toujours celui du recensement, et le poser à côté du taux départemental publié chaque trimestre revient à comparer deux mesures qui ne mesurent pas la même chose.",
+      },
+      {
+        term: "Demandeurs d'emploi en catégories A, B et C",
+        def: "Nomenclature administrative issue des recommandations du Cnis de septembre 2008, publiée chaque trimestre par la Dares et France Travail pour la France, les régions et les départements. La catégorie A regroupe les personnes tenues de rechercher un emploi et sans emploi du tout ; la catégorie B celles qui ont travaillé en activité réduite courte, 78 heures ou moins dans le mois ; la catégorie C celles qui ont travaillé au-delà. C'est un stock d'inscriptions, pas un taux : l'additionner et le rapporter à la population d'une ville produit un nombre qui ne correspond à aucun indicateur publié, et le concept diffère de celui du chômage au sens du BIT.",
+      },
+      {
+        term: "France Travail (ex-Pôle emploi)",
+        def: "L'opérateur a changé de nom le 1ᵉʳ janvier 2024, en application de la loi du 18 décembre 2023 pour le plein emploi, qui l'a placé au centre d'un « réseau pour l'emploi » associant l'État, les départements et les régions. Pour qui déménage, trois choses en découlent : l'inscription est nationale, donc changer de ville ne remet pas les droits à zéro et ne suppose pas de se réinscrire ; l'agence référente change, elle ; et l'offre de formation dépend de la région, dont c'est la compétence, de sorte qu'une formation accessible d'un côté d'une limite régionale peut ne pas l'être de l'autre.",
+      },
+      {
+        term: "Contrat d'engagement",
+        def: "Depuis le 1ᵉʳ janvier 2025, un document unique signé avec le conseiller remplace le projet personnalisé d'accès à l'emploi, le contrat d'engagement réciproque, le contrat d'engagement jeune et le Pacea. Il fixe des objectifs, un plan d'action et des engagements réciproques ; pour les allocataires du RSA il prévoit en principe quinze à vingt heures d'activité hebdomadaires, modulables selon la situation. Son non-respect déclenche des sanctions graduées pouvant aller jusqu'à la radiation ou la suppression de l'allocation. Ce qu'on est tenu d'accepter n'est donc plus un standard national mais ce qui a été écrit dans ce document : le relire avant un projet de déménagement coûte moins cher que de le découvrir après.",
+      },
+      {
+        term: "ARE (allocation d'aide au retour à l'emploi)",
+        def: "Elle se calcule sur les salaires antérieurs, jamais sur le coût de la vie du lieu où l'on s'installe. Déménager dans une ville chère ne la fait pas monter, s'installer dans une ville bon marché ne la fait pas baisser : l'écart de loyer entre deux villes reste intégralement à la charge, ou au bénéfice, de l'allocataire, ce qui rend un changement de ville pendant une période de chômage arithmétiquement très rentable ou très coûteux. Le montant minimal est de 32,13 € par jour, inchangé au 1ᵉʳ juillet 2026 faute de majorité au conseil d'administration de l'Unédic du 30 juin. Une exception géographique existe : Mayotte relève d'un règlement d'assurance chômage distinct, dont l'allocation minimale journalière est de 16,05 €, soit la moitié.",
+      },
+      {
+        term: "Démission légitime pour suivi de conjoint",
+        def: "C'est la disposition qui rend un déménagement à deux finançable, et celle qu'on découvre le plus souvent trop tard. Démissionner pour suivre son conjoint qui change de résidence est un cas de démission dite légitime, qui ouvre droit à l'allocation chômage. La condition tient au motif du départ : il doit être professionnel — mutation, changement d'employeur, reprise d'un emploi après une période de chômage, création ou reprise d'entreprise, début d'une activité indépendante. Un départ à la retraite ou une formation du conjoint n'entrent pas dans le champ. Aucun délai réglementaire n'est fixé entre le déménagement et la démission ; ce qui compte est le lien entre les deux, et la demande d'allocation se dépose dans les quatre ans qui suivent.",
+      },
+      {
+        term: "Rupture conventionnelle",
+        def: "La porte de sortie quand c'est vous qui déménagez et non votre conjoint, cas où la démission légitime ci-dessus ne s'applique pas. Après signature, chaque partie dispose de quinze jours calendaires pour se rétracter, puis l'administration du travail dispose de quinze jours ouvrables pour instruire la demande, son silence valant homologation. La rupture ouvre droit à l'ARE dès lors que les conditions habituelles sont remplies. À caler dans un calendrier de déménagement : entre la signature et la fin effective du contrat il s'écoule un peu plus d'un mois, ce qui pèse quand un bail a déjà été signé dans l'autre ville.",
+      },
+      {
+        term: "Clause de mobilité",
+        def: "Clause qui autorise l'employeur à muter le salarié sans son accord. Elle n'est valable qu'à une double condition : définir de façon précise sa zone géographique d'application, et ne pas donner à l'employeur le pouvoir d'en étendre unilatéralement la portée. Une zone seulement définissable ne suffit pas, la Cour de cassation exige une zone définie ; elle a jugé le 18 décembre 2024 illicite la mise en œuvre d'une clause dont la zone n'était pas précisée, et donc injustifié le licenciement de la salariée qui avait refusé la mutation. Symétriquement, refuser une mutation prévue par une clause valable est un motif réel et sérieux de licenciement, qui peut être qualifié de faute grave. C'est la clause à relire avant de signer un compromis de vente.",
+      },
+      {
+        term: "Aide à la mobilité (France Travail)",
+        def: "Prise en charge des déplacements liés à un entretien d'embauche, une reprise d'emploi, une formation, une immersion professionnelle, un concours public ou un examen certifiant, lorsque le lieu se situe à plus de 60 kilomètres ou à plus de deux heures de trajet aller-retour du domicile — 20 kilomètres pour les résidents hors métropole. Elle vise les demandeurs d'emploi non indemnisés ou dont l'allocation est inférieure au minimum de l'ARE, soit 32,13 € par jour. Les frais kilométriques sont couverts à hauteur de 0,23 € du kilomètre, dans un plafond global de 5 200 € sur douze mois glissants. Le seuil qui décide est la distance, pas la frontière administrative : deux villes du même département peuvent tomber de part et d'autre.",
+      },
+      {
+        term: "Télétravail : accord collectif ou charte",
+        def: "Il n'existe pas de droit opposable au télétravail. Il se met en place par accord collectif ou, à défaut, par une charte élaborée par l'employeur après avis du comité social et économique ; sans l'un ni l'autre, salarié et employeur formalisent leur accord par tout moyen. Ce que l'article L1222-9 du code du travail impose est plus étroit qu'on ne le croit : lorsqu'un poste est éligible au télétravail selon l'accord ou la charte, l'employeur qui refuse doit motiver sa réponse. En sens inverse, le refus d'un salarié de devenir télétravailleur n'est pas un motif de rupture. Un projet d'installation à quatre cents kilomètres qui repose sur trois jours de télétravail par semaine repose donc sur un document qui peut être renégocié.",
+      },
+      {
+        term: "Conseil de prud'hommes compétent",
+        def: "L'article R1412-1 du code du travail désigne le conseil dans le ressort duquel se trouve l'établissement où le travail est accompli ; lorsque le travail est accompli à domicile ou en dehors de tout établissement, c'est celui du domicile du salarié. Le salarié qui saisit la juridiction peut en outre préférer le conseil du lieu où l'engagement a été contracté, ou celui du lieu où l'employeur est établi. Pour un télétravailleur à temps plein, le conseil compétent est donc celui de son domicile au jour de la saisine, et non celui du siège de l'entreprise ni celui où il habitait lorsque le litige est né. Déménager déplace la juridiction.",
+      },
+      {
+        term: "Zone France Ruralités Revitalisation (FRR)",
+        def: "Depuis le 1ᵉʳ juillet 2024, ce zonage remplace les zones de revitalisation rurale : 17 700 communes sont classées, dont treize départements en totalité, sur deux niveaux — un socle, et un niveau renforcé dit « FRR plus » pour le quart des communes qui en ont le plus besoin. Les entreprises qui s'y implantent peuvent bénéficier d'exonérations d'impôt sur les bénéfices, de cotisation foncière des entreprises (définie plus haut, section fiscalité locale) et de taxe foncière sur les propriétés bâties. La loi de finances pour 2025 a maintenu le bénéfice du dispositif à 2 200 communes sorties du zonage précédent. Le classement se lit commune par commune : deux communes limitrophes peuvent ne pas relever du même régime, ce qui se vérifie avant de fixer l'adresse d'un siège social, pas après.",
+      },
+      {
+        term: "Portabilité de la mutuelle et de la prévoyance",
+        def: "Maintien gratuit des garanties santé et prévoyance de l'ancien employeur après la fin du contrat de travail, pour une durée égale à la période d'indemnisation chômage et dans la limite de douze mois. Deux conditions : avoir été couvert par le contrat collectif au moment de la rupture, et que cette rupture ouvre droit à l'assurance chômage, ce qui exclut la démission non légitime. Le coût est mutualisé, supporté par l'employeur et les salariés encore en poste, et le bénéficiaire doit justifier chaque mois de sa situation auprès de l'organisme assureur. C'est ce qui permet de traverser un déménagement sans trou de couverture, le temps de retrouver un emploi ou de basculer sur un contrat individuel.",
+      },
+    ],
+  },
 ];
 
 const TERM_COUNT = SECTIONS.reduce((n, s) => n + s.terms.length, 0);
@@ -737,7 +799,7 @@ export default function GlossairePage() {
     "@type": "DefinedTermSet",
     name: "Glossaire immobilier et relocation",
     description:
-      "Termes clés pour acheter, louer, investir, assurer, déménager, scolariser ses enfants, se faire soigner ou se déplacer en France : DPE, LMNP, ZFE, taxe foncière, fibre FTTH, encadrement des loyers, carte scolaire, IPS, garantie cat-nat, médecin traitant, ALD, zonage ZIP, Crit'Air, forfait mobilités durables, FPS et plus.",
+      "Termes clés pour acheter, louer, investir, assurer, déménager, scolariser ses enfants, se faire soigner, se déplacer ou chercher du travail en France : DPE, LMNP, ZFE, taxe foncière, fibre FTTH, encadrement des loyers, carte scolaire, IPS, garantie cat-nat, médecin traitant, ALD, zonage ZIP, Crit'Air, forfait mobilités durables, FPS, zone d'emploi, ARE, clause de mobilité, zone FRR et plus.",
     hasDefinedTerm: SECTIONS.flatMap((s) =>
       s.terms.map((t) => ({
         "@type": "DefinedTerm",
@@ -771,9 +833,9 @@ export default function GlossairePage() {
           </h1>
           <p className="text-[var(--text-secondary)] leading-relaxed">
             {TERM_COUNT} termes clés pour comprendre l&apos;immobilier, la location, l&apos;investissement
-            locatif, l&apos;assurance du logement, le déménagement, la scolarisation des enfants et
-            l&apos;accès aux soins en France en 2026. Pas de jargon inutile, juste les définitions
-            qu&apos;il faut connaître avant de signer.
+            locatif, l&apos;assurance du logement, le déménagement, la scolarisation des enfants,
+            l&apos;accès aux soins et le marché du travail en France en 2026. Pas de jargon inutile,
+            juste les définitions qu&apos;il faut connaître avant de signer.
           </p>
         </div>
       </section>
