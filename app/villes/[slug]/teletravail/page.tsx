@@ -10,7 +10,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
 import { computeOwnerScores } from "@/lib/owner-scores";
 import { climateZoneFor, transitPassFor } from "@/lib/cost-living";
-import { borderCommute } from "@/lib/profile-pages";
+import { borderCommute, metroAccess, metroAccessCommute, HUB_LABEL } from "@/lib/profile-pages";
 import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityAlternates } from "@/lib/i18n";
@@ -125,6 +125,13 @@ export default async function VilleTeletravailPage({ params }: Props) {
   // barème frontalier : là où il y en a un, le nombre de jours télétravaillés
   // n'est plus un confort mais un paramètre fiscal.
   const border = borderCommute(city);
+  // Pôle d'emploi français le plus proche. Cette page note la ville pour les
+  // jours passés à la maison ; le renvoi s'adresse à ceux qui reviennent au
+  // siège deux ou trois fois par semaine, et il n'a de sens que là où la
+  // navette existe : `metroAccess` tombe à 0 au-delà de deux heures et demie,
+  // et `metroAccessCommute` rend `null` pour les DROM et la Corse, où aucun
+  // des douze pôles ne se rejoint — une mesure, pas une donnée manquante.
+  const metroHub = metroAccess(city) > 0 ? metroAccessCommute(city) : null;
 
   // Rough monthly fixed budget for a remote worker (single, T2)
   const ROUGH_HEATING = { H1a: 95, H1b: 90, H1c: 80, H2a: 65, H2b: 60, H2c: 55, H2d: 70, H3: 40 } as const;
@@ -278,6 +285,16 @@ export default async function VilleTeletravailPage({ params }: Props) {
               🚀 Télétravail + culture + coût
             </Badge>
           </Link>
+          {metroHub && (
+            <Link href="/pour-qui/navetteurs-hybrides">
+              <Badge variant="default" className="px-4 py-2 text-sm cursor-pointer">
+                🚆{" "}
+                {metroHub.hub === city.slug
+                  ? "Et si le bureau reste à rejoindre deux ou trois jours par semaine"
+                  : `Rentrer à ${HUB_LABEL[metroHub.hub]} deux ou trois jours par semaine`}
+              </Badge>
+            </Link>
+          )}
           {border && (
             <Link href="/pour-qui/travailleurs-frontaliers">
               <Badge variant="default" className="px-4 py-2 text-sm cursor-pointer">

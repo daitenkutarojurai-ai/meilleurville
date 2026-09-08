@@ -8,7 +8,7 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getTransit, transitTags, type Transit } from "@/lib/transit";
 import { commuteEstimate } from "@/lib/commute-estimate";
-import { borderCommute } from "@/lib/profile-pages";
+import { borderCommute, metroAccess, metroAccessCommute, HUB_LABEL } from "@/lib/profile-pages";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityAlternates } from "@/lib/i18n";
 
@@ -109,6 +109,13 @@ export default async function TransportsPage({ params }: Props) {
   // Pôle d'emploi étranger le plus proche, s'il en existe un dans le champ du
   // barème frontalier. Sert à décider si le renvoi ci-dessous a un sens ici.
   const border = borderCommute(city);
+  // Pôle d'emploi français le plus proche. La section ci-dessous estime le
+  // trajet quotidien *dans* la ville ; ce renvoi vise l'autre trajet, celui
+  // qu'on refait deux ou trois fois par semaine vers un grand bassin. Il ne
+  // s'affiche que là où la navette existe : `metroAccess` tombe à 0 au-delà de
+  // deux heures et demie, et `metroAccessCommute` rend `null` pour les DROM et
+  // la Corse, où aucun des douze pôles ne se rejoint.
+  const metroHub = metroAccess(city) > 0 ? metroAccessCommute(city) : null;
 
   // Rank by transport score
   const sorted = [...CITIES_SEED].sort((a, b) => b.scores.transport - a.scores.transport);
@@ -271,6 +278,18 @@ export default async function TransportsPage({ params }: Props) {
           </div>
           <p className="text-xs text-[var(--text-tertiary)]">
             Estimation dérivée de la population, du score transports et de la géographie. Moyenne nationale Insee 2022 : ~22 min aller. À recouper avec ses propres trajets — le quartier choisi pèse autant que la ville.
+            {metroHub && metroHub.hub !== city.slug && (
+              <>
+                {" "}Ces chiffres décrivent le trajet quotidien à l&apos;intérieur de la
+                ville. Si le bureau est à {HUB_LABEL[metroHub.hub]} et qu&apos;on n&apos;y
+                retourne que deux ou trois jours par semaine, c&apos;est un autre calcul :{" "}
+                <Link href="/pour-qui/navetteurs-hybrides" className="underline">
+                  les villes classées pour le télétravail hybride
+                </Link>{" "}
+                estiment ce trajet-là vers le plus proche des douze grands bassins
+                d&apos;emploi, et l&apos;estimation sous-évalue le relief.
+              </>
+            )}
           </p>
         </div>
       </section>

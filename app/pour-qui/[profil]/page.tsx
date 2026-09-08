@@ -629,6 +629,48 @@ export default async function ProfilePage({ params }: Props) {
           </section>
         )}
 
+        {/* Hub-distance counterpart — visible on the four profiles that the
+            target's own intro names to say where it stops : « télétravailleurs
+            salariés » et « freelances » notent la ville pour les jours passés à
+            la maison, « sans voiture » et « cyclistes urbains » mesurent la
+            mobilité *à l'intérieur* d'une ville. Aucun des quatre ne pondère
+            `metroAccess` (vérifié sur PROFILE_PAGES : remoteWork 2,5 pour les
+            deux premiers, sansVoiture 3,0 et cyclingMobility 3,0 pour les deux
+            autres), et c'est précisément ce qui justifie le renvoi — la distance
+            à un bassin d'emploi n'entre dans aucun des quatre barèmes. */}
+        {["teletravailleurs", "freelances", "sans-voiture", "cyclistes-urbains"].includes(
+          profile.slug,
+        ) && (
+          <section>
+            <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+              Le profil voisin — quand il faut quand même revenir au bureau
+            </h3>
+            <Link href="/pour-qui/navetteurs-hybrides" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl" aria-hidden>🚆</span>
+                  <div>
+                    <p className="font-semibold text-[var(--text-primary)]">
+                      Les villes qui tiennent avec deux ou trois jours au bureau
+                    </p>
+                    <p className="text-xs text-[var(--text-secondary)] mt-1">
+                      Le top ci-dessus ne regarde pas la distance : quand on ne revient
+                      jamais au siège, l&apos;éloignement ne coûte rien, et quand on mesure
+                      la mobilité dans la ville, il ne se voit pas. Celui-ci en fait son
+                      critère cardinal — le trajet vers le plus proche des douze grands
+                      bassins d&apos;emploi — puis le croise avec le loyer, parce que
+                      l&apos;hybride revient à acheter du mètre carré avec du temps de
+                      transport. La page dit aussi ce qu&apos;elle est : une estimation, qui
+                      sous-évalue le trajet réel en relief, et qui compte zéro en Corse et
+                      dans les DROM — là, aucune navette hebdomadaire n&apos;existe.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+          </section>
+        )}
+
         {/* Other profiles */}
         <section>
           <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">

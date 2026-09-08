@@ -185,7 +185,10 @@ const EMPLOYMENT_HUBS: Array<{ slug: string; lat: number; lon: number; parisMin:
   ),
 ];
 
-const HUB_LABEL: Record<string, string> = {
+// Exporté pour que les surfaces qui affichent un renvoi vers le profil
+// « navetteurs hybrides » nomment le pôle sans redéclarer la table : le `hub`
+// rendu par `metroAccessCommute` est un slug, pas un libellé.
+export const HUB_LABEL: Record<string, string> = {
   paris: "Paris",
   lyon: "Lyon",
   marseille: "Marseille",

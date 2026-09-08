@@ -504,6 +504,37 @@ export default async function RankingPage({ params }: Props) {
             </div>
           )}
 
+          {/* Profil voisin — ce classement pondère remoteWork, qualité de vie,
+              coût, transport et culture : cinq axes, dont aucun ne mesure la
+              distance à un siège. C'est le bon barème quand on ne revient
+              jamais ; il ne dit rien de l'hybride, où le trajet du mardi et du
+              jeudi est le premier poste. */}
+          {slug === "teletravail" && (
+            <div>
+              <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-3">
+                Profil voisin
+              </p>
+              <Link
+                href="/pour-qui/navetteurs-hybrides"
+                className="flex items-start gap-3 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 p-3 transition-colors group"
+              >
+                <span className="text-xl flex-shrink-0">🚆</span>
+                <div className="min-w-0">
+                  <p className="text-xs font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug">
+                    Et si l&apos;on revient au bureau deux ou trois jours par semaine
+                  </p>
+                  <p className="text-xs text-[var(--text-tertiary)] mt-0.5">
+                    Ce classement-ci ne mesure aucune distance : il vaut pour qui ne
+                    revient jamais. Le profil hybride part du trajet estimé vers le plus
+                    proche des douze grands bassins d&apos;emploi, puis le confronte au
+                    loyer. L&apos;estimation sous-évalue le relief, et vaut zéro en Corse
+                    et dans les DROM, faute de navette hebdomadaire.
+                  </p>
+                </div>
+              </Link>
+            </div>
+          )}
+
           {/* Related guides */}
           {relatedGuides.length > 0 && (
             <div>
